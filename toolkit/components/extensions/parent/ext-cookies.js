@@ -927,7 +927,7 @@ storeId
 ;
 }
 let
-enumerator
+cookies
 ;
 let
 host
@@ -1036,7 +1036,7 @@ in
 originAttributes
 )
 {
-enumerator
+cookies
 =
 Services
 .
@@ -1051,7 +1051,7 @@ originAttributes
 }
 else
 {
-enumerator
+cookies
 =
 Services
 .
@@ -1379,7 +1379,7 @@ for
 const
 cookie
 of
-enumerator
+cookies
 )
 {
 if

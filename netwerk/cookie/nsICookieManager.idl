@@ -1249,7 +1249,10 @@ countCookiesFromHost
 [
 implicit_jscontext
 ]
-nsISimpleEnumerator
+Array
+<
+nsICookie
+>
 getCookiesFromHost
 (
 in
