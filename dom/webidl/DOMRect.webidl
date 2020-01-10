@@ -188,6 +188,9 @@ fromRect
 optional
 DOMRectInit
 other
+=
+{
+}
 )
 ;
 inherit
@@ -266,6 +269,9 @@ fromRect
 optional
 DOMRectInit
 other
+=
+{
+}
 )
 ;
 readonly

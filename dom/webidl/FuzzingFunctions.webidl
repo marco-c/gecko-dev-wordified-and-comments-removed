@@ -960,6 +960,9 @@ aKeyValue
 optional
 KeyboardEventInit
 aDictionary
+=
+{
+}
 )
 ;
 }

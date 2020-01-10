@@ -136,6 +136,9 @@ getMetadata
 optional
 IDBFileMetadataParameters
 parameters
+=
+{
+}
 )
 ;
 [

@@ -123,6 +123,9 @@ type
 optional
 PushEventInit
 eventInitDict
+=
+{
+}
 )
 Pref
 =

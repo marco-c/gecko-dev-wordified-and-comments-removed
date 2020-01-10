@@ -99,6 +99,9 @@ type
 optional
 ErrorEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =

@@ -503,6 +503,9 @@ imag
 optional
 PeriodicWaveConstraints
 constraints
+=
+{
+}
 )
 ;
 }

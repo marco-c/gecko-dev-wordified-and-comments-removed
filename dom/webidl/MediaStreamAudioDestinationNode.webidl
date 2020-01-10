@@ -158,6 +158,9 @@ context
 optional
 AudioNodeOptions
 options
+=
+{
+}
 )
 ]
 interface

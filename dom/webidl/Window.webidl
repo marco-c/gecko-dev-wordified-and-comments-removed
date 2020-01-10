@@ -973,6 +973,9 @@ message
 optional
 WindowPostMessageOptions
 options
+=
+{
+}
 )
 ;
 /
@@ -1636,6 +1639,9 @@ scroll
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -1655,6 +1661,9 @@ scrollTo
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -1674,6 +1683,9 @@ scrollBy
 optional
 ScrollToOptions
 options
+=
+{
+}
 )
 ;
 /
@@ -2254,6 +2266,9 @@ numLines
 optional
 ScrollOptions
 options
+=
+{
+}
 )
 ;
 /
@@ -2281,6 +2296,9 @@ numPages
 optional
 ScrollOptions
 options
+=
+{
+}
 )
 ;
 /
@@ -4114,6 +4132,9 @@ callback
 optional
 IdleRequestOptions
 options
+=
+{
+}
 )
 ;
 [

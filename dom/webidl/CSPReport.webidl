@@ -176,7 +176,8 @@ csp
 -
 report
 =
-null
+{
+}
 ;
 }
 ;

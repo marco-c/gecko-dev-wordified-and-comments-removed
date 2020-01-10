@@ -435,6 +435,9 @@ Constructor
 optional
 RTCConfiguration
 configuration
+=
+{
+}
 optional
 object
 ?
@@ -492,6 +495,9 @@ provider
 optional
 RTCIdentityProviderOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -524,6 +530,9 @@ createOffer
 optional
 RTCOfferOptions
 options
+=
+{
+}
 )
 ;
 Promise
@@ -535,6 +544,9 @@ createAnswer
 optional
 RTCAnswerOptions
 options
+=
+{
+}
 )
 ;
 Promise
@@ -611,6 +623,9 @@ or
 RTCIceCandidate
 )
 candidate
+=
+{
+}
 )
 ;
 readonly
@@ -782,6 +797,9 @@ trackOrKind
 optional
 RTCRtpTransceiverInit
 init
+=
+{
+}
 )
 ;
 sequence
@@ -995,6 +1013,9 @@ label
 optional
 RTCDataChannelInit
 dataChannelDict
+=
+{
+}
 )
 ;
 attribute
@@ -1057,6 +1078,9 @@ failureCallback
 optional
 RTCOfferOptions
 options
+=
+{
+}
 )
 ;
 Promise

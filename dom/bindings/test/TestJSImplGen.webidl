@@ -3614,6 +3614,9 @@ or
 long
 )
 arg
+=
+{
+}
 )
 ;
 void
@@ -3626,6 +3629,9 @@ or
 long
 )
 arg
+=
+{
+}
 )
 ;
 void
@@ -3873,6 +3879,9 @@ or
 EventInit
 )
 arg
+=
+{
+}
 )
 ;
 void
@@ -3888,6 +3897,9 @@ DOMString
 >
 )
 arg
+=
+{
+}
 )
 ;
 void
@@ -5343,6 +5355,9 @@ passDictionary
 optional
 Dict
 x
+=
+{
+}
 )
 ;
 void
@@ -5464,6 +5479,9 @@ passOtherDictionary
 optional
 GrandparentDict
 x
+=
+{
+}
 )
 ;
 void
@@ -5522,6 +5540,9 @@ passDictionaryOrLong
 optional
 Dict
 x
+=
+{
+}
 )
 ;
 void
@@ -5537,6 +5558,9 @@ passDictContainingDict
 optional
 DictContainingDict
 arg
+=
+{
+}
 )
 ;
 void
@@ -5545,6 +5569,9 @@ passDictContainingSequence
 optional
 DictContainingSequence
 arg
+=
+{
+}
 )
 ;
 DictContainingSequence
@@ -5816,6 +5843,9 @@ overload2
 optional
 Dict
 arg
+=
+{
+}
 )
 ;
 void
@@ -6123,6 +6153,9 @@ overload19
 optional
 Dict
 arg
+=
+{
+}
 )
 ;
 void
@@ -6131,6 +6164,9 @@ overload20
 optional
 Dict
 arg
+=
+{
+}
 )
 ;
 void
@@ -6949,6 +6985,9 @@ null
 optional
 Dict
 arg3
+=
+{
+}
 optional
 double
 arg4

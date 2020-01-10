@@ -163,6 +163,9 @@ type
 optional
 WheelEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

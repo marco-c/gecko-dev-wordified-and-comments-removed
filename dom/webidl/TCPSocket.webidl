@@ -216,6 +216,9 @@ port
 optional
 SocketOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -230,6 +233,9 @@ port
 optional
 ServerSocketOptions
 options
+=
+{
+}
 optional
 unsigned
 short
@@ -251,6 +257,9 @@ port
 optional
 SocketOptions
 options
+=
+{
+}
 )
 Func
 =

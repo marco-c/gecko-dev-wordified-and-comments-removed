@@ -293,6 +293,9 @@ target
 optional
 MutationObserverInit
 options
+=
+{
+}
 )
 ;
 void

@@ -290,6 +290,9 @@ getCSSPropertyNames
 optional
 PropertyNamesOptions
 options
+=
+{
+}
 )
 ;
 sequence

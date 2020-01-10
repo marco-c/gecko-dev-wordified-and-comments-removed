@@ -155,6 +155,9 @@ type
 optional
 CloseEventInit
 eventInitDict
+=
+{
+}
 )
 LegacyEventInit
 Exposed

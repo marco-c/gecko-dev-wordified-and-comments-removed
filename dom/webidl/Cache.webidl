@@ -178,6 +178,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -198,6 +201,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -260,6 +266,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -280,6 +289,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 }

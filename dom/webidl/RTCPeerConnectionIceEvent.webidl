@@ -156,6 +156,9 @@ type
 optional
 RTCPeerConnectionIceEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

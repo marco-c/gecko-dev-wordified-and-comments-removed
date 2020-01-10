@@ -190,6 +190,9 @@ request
 optional
 CacheQueryOptions
 options
+=
+{
+}
 )
 ;
 [

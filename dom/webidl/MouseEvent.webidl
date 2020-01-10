@@ -163,6 +163,9 @@ typeArg
 optional
 MouseEventInit
 mouseEventInitDict
+=
+{
+}
 )
 ]
 interface

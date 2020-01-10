@@ -192,6 +192,9 @@ context
 optional
 AudioBufferSourceOptions
 options
+=
+{
+}
 )
 ]
 interface

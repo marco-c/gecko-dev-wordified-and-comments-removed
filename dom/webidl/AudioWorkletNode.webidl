@@ -200,6 +200,9 @@ name
 optional
 AudioWorkletNodeOptions
 options
+=
+{
+}
 )
 ]
 interface

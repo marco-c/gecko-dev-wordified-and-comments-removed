@@ -124,6 +124,9 @@ type
 optional
 MessageEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =

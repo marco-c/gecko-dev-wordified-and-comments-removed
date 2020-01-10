@@ -345,6 +345,9 @@ title
 optional
 NotificationOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -373,6 +376,9 @@ getNotifications
 optional
 GetNotificationOptions
 filter
+=
+{
+}
 )
 ;
 }

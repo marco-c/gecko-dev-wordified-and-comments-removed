@@ -108,6 +108,9 @@ type
 optional
 GamepadEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

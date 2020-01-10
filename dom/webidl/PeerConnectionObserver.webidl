@@ -240,6 +240,9 @@ onGetStatsSuccess
 optional
 RTCStatsReportInternal
 report
+=
+{
+}
 )
 ;
 void

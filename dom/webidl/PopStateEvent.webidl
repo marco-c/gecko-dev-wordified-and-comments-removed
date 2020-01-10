@@ -99,6 +99,9 @@ type
 optional
 PopStateEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

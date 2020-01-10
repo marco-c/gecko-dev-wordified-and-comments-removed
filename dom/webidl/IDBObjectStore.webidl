@@ -296,6 +296,9 @@ keyPath
 optional
 IDBIndexParameters
 optionalParameters
+=
+{
+}
 )
 ;
 [

@@ -75,6 +75,9 @@ type
 optional
 SecurityPolicyViolationEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
