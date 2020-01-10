@@ -6735,12 +6735,6 @@ mFloat
 mozilla
 :
 :
-StyleFloat
-mOriginalFloat
-;
-mozilla
-:
-:
 StyleClear
 mBreakType
 ;
