@@ -7440,7 +7440,12 @@ callee
 (
 )
 .
-existingScriptNonDelazifying
+maybeCanonicalFunction
+(
+)
+-
+>
+nonLazyScript
 (
 )
 )
