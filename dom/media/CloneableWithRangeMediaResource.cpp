@@ -602,7 +602,10 @@ return
 NS_OK
 ;
 }
-nsresult
+RefPtr
+<
+GenericPromise
+>
 CloneableWithRangeMediaResource
 :
 :
@@ -611,7 +614,14 @@ Close
 )
 {
 return
-NS_OK
+GenericPromise
+:
+:
+CreateAndResolve
+(
+true
+__func__
+)
 ;
 }
 already_AddRefed

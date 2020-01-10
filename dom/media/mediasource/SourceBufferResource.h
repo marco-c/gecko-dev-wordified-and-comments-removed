@@ -105,7 +105,10 @@ SourceBufferResource
 (
 )
 ;
-nsresult
+RefPtr
+<
+GenericPromise
+>
 Close
 (
 )
