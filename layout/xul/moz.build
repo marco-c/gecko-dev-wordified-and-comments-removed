@@ -258,11 +258,6 @@ nsSprocketLayout
 cpp
 '
 '
-nsStackFrame
-.
-cpp
-'
-'
 nsStackLayout
 .
 cpp

@@ -149,14 +149,6 @@ CSS_KEY
 -
 moz
 -
-stack
-_moz_stack
-)
-CSS_KEY
-(
--
-moz
--
 zoom
 -
 in
