@@ -326,7 +326,7 @@ markupView
 .
 display
 .
-flex
+inlineFlex
 .
 tooltiptext
 "
