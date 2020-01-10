@@ -381,9 +381,9 @@ geckoview
 refbrow
 "
 ]
-cold
+pageload
 :
-true
+both
 treeherder
 -
 symbol
