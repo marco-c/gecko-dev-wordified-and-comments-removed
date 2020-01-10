@@ -99,6 +99,11 @@ HtmlPreview
 js
 '
 '
+JSONPreview
+.
+js
+'
+'
 MonitorPanel
 .
 js
