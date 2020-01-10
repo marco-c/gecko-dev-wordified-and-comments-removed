@@ -2,7 +2,6 @@ from
 helpers
 import
 makeDropCookie
-readParameter
 setNoCacheAndCORSHeaders
 def
 main
@@ -33,7 +32,7 @@ by
 dropping
 the
     
-three
+four
 cookies
 set
 by
@@ -86,6 +85,19 @@ makeDropCookie
 (
 "
 samesite_none
+"
+False
+)
+)
+    
+headers
+.
+append
+(
+makeDropCookie
+(
+"
+samesite_unspecified
 "
 False
 )
