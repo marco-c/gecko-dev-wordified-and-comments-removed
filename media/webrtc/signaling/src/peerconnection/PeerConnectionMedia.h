@@ -480,7 +480,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 >
 SignalIceGatheringStateChange
 ;
@@ -495,7 +495,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 >
 SignalIceConnectionStateChange
 ;
@@ -787,7 +787,7 @@ IceGatheringStateChange_s
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 ;
@@ -797,7 +797,7 @@ IceConnectionStateChange_s
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 ;
@@ -823,7 +823,7 @@ IceGatheringStateChange_m
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 ;
@@ -833,7 +833,7 @@ IceConnectionStateChange_m
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 ;

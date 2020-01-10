@@ -5625,11 +5625,6 @@ PeerConnectionImpl
 webidl
 '
 '
-PeerConnectionImplEnums
-.
-webidl
-'
-'
 PeerConnectionObserver
 .
 webidl

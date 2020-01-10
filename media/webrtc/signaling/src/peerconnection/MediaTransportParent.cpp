@@ -315,7 +315,7 @@ OnGatheringStateChange
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 {
@@ -343,7 +343,7 @@ OnConnectionStateChange
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 {

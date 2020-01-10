@@ -3602,7 +3602,7 @@ OnGatheringStateChange
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 :
 :
 Complete
@@ -5069,7 +5069,7 @@ OnGatheringStateChange
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 aState
 )
 {
@@ -5129,7 +5129,7 @@ OnConnectionStateChange
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 aState
 )
 {
@@ -7468,7 +7468,7 @@ mozilla
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 toDomIceGatheringState
 (
 NrIceCtx
@@ -7493,7 +7493,7 @@ return
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 :
 :
 New
@@ -7508,7 +7508,7 @@ return
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 :
 :
 Gathering
@@ -7523,7 +7523,7 @@ return
 dom
 :
 :
-PCImplIceGatheringState
+RTCIceGatheringState
 :
 :
 Complete
@@ -7566,7 +7566,7 @@ mozilla
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 toDomIceConnectionState
 (
 NrIceCtx
@@ -7591,7 +7591,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 New
@@ -7606,7 +7606,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Checking
@@ -7621,7 +7621,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Connected
@@ -7636,7 +7636,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Completed
@@ -7651,7 +7651,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Failed
@@ -7666,7 +7666,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Disconnected
@@ -7681,7 +7681,7 @@ return
 dom
 :
 :
-PCImplIceConnectionState
+RTCIceConnectionState
 :
 :
 Closed
