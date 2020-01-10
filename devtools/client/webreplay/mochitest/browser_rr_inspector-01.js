@@ -77,6 +77,9 @@ html
 waitForRecording
 :
 true
+disableLogging
+:
+true
 }
 )
 ;
