@@ -7985,10 +7985,9 @@ pop
 '
 variants
 '
-)
-or
 [
 ]
+)
         
 yield
 copy

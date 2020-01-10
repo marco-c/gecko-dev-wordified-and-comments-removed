@@ -311,8 +311,6 @@ firefox
 -
 browsertime
 -
-firefox
--
 raptor
 -
 fetch
@@ -413,8 +411,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 raptor
 -
@@ -607,8 +603,6 @@ firefox
 -
 browsertime
 -
-firefox
--
 raptor
 -
 fetch
@@ -657,8 +651,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 raptor
 -
@@ -861,8 +853,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 windows7
 -
 32
@@ -936,8 +926,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 windows7
 -
 32
@@ -1139,8 +1127,6 @@ firefox
 -
 browsertime
 -
-firefox
--
 marionette
 -
 media
@@ -1182,8 +1168,6 @@ firefox
 -
 browsertime
 -
-firefox
--
 windows
 -
 aarch64
@@ -1224,8 +1208,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 talos
 -
@@ -1305,8 +1287,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 raptor
 -
@@ -1460,8 +1440,6 @@ firefox
 -
 browsertime
 -
-firefox
--
 web
 -
 platform
@@ -1508,8 +1486,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 web
 -
@@ -1691,8 +1667,6 @@ raptor
 firefox
 -
 browsertime
--
-firefox
 -
 raptor
 -
