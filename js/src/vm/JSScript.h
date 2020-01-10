@@ -13884,6 +13884,8 @@ sourceEnd
 uint32_t
 toStringStart
 uint32_t
+toStringEnd
+uint32_t
 lineno
 uint32_t
 column
@@ -13913,6 +13915,8 @@ uint32_t
 sourceEnd
 uint32_t
 toStringStart
+uint32_t
+toStringEnd
 uint32_t
 lineno
 uint32_t
@@ -13976,6 +13980,8 @@ uint32_t
 sourceEnd
 uint32_t
 toStringStart
+uint32_t
+toStringEnd
 uint32_t
 lineno
 uint32_t

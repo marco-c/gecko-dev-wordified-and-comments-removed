@@ -29449,6 +29449,8 @@ sourceEnd
 uint32_t
 toStringStart
 uint32_t
+toStringEnd
+uint32_t
 lineno
 uint32_t
 column
@@ -29462,7 +29464,7 @@ sourceObject
 sourceStart
 sourceEnd
 toStringStart
-sourceEnd
+toStringEnd
 )
 script_
 (
@@ -29707,6 +29709,8 @@ sourceEnd
 uint32_t
 toStringStart
 uint32_t
+toStringEnd
+uint32_t
 lineno
 uint32_t
 column
@@ -29869,6 +29873,7 @@ immutableFlags
 sourceStart
 sourceEnd
 toStringStart
+toStringEnd
 lineno
 column
 )
@@ -29911,6 +29916,8 @@ uint32_t
 sourceEnd
 uint32_t
 toStringStart
+uint32_t
+toStringEnd
 uint32_t
 lineno
 uint32_t
@@ -29979,6 +29986,7 @@ immutableFlags
 sourceStart
 sourceEnd
 toStringStart
+toStringEnd
 lineno
 column
 )
@@ -30185,6 +30193,7 @@ immutableFlags
 sourceStart
 sourceEnd
 toStringStart
+toStringEnd
 lineno
 column
 )
@@ -30199,14 +30208,6 @@ return
 nullptr
 ;
 }
-res
--
->
-setToStringEnd
-(
-toStringEnd
-)
-;
 MOZ_ASSERT
 (
 !
