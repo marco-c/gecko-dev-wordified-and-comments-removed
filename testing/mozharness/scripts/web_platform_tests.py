@@ -113,7 +113,7 @@ testing
 .
 errors
 import
-HarnessErrorList
+WptHarnessErrorList
 from
 mozharness
 .
@@ -2828,7 +2828,7 @@ error_list
 =
 BaseErrorList
 +
-HarnessErrorList
+WptHarnessErrorList
                                         
 allow_crashes
 =
