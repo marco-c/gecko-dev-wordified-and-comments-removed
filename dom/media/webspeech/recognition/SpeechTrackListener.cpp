@@ -430,6 +430,9 @@ SpeechTrackListener
 :
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 {
 }
@@ -439,6 +442,9 @@ SpeechTrackListener
 :
 NotifyRemoved
 (
+MediaStreamGraph
+*
+aGraph
 )
 {
 mRemovedHolder

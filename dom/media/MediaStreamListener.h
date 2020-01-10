@@ -93,6 +93,9 @@ virtual
 void
 NotifyEnabledStateChanged
 (
+MediaStreamGraph
+*
+aGraph
 bool
 aEnabled
 )
@@ -114,6 +117,9 @@ virtual
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 {
 }
@@ -121,6 +127,9 @@ virtual
 void
 NotifyRemoved
 (
+MediaStreamGraph
+*
+aGraph
 )
 {
 }

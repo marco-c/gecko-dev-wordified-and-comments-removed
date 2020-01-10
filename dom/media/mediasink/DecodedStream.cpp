@@ -174,6 +174,9 @@ override
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 ;
@@ -993,6 +996,9 @@ DecodedStreamTrackListener
 :
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 {
 mGraphListener

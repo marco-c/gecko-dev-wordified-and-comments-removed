@@ -106,6 +106,9 @@ aCaptureTask
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {

@@ -730,6 +730,9 @@ SendFramesEnsureLocked
 void
 NotifyRemoved
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
@@ -793,6 +796,9 @@ ClearAndRetainStorage
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
@@ -836,6 +842,9 @@ ClearAndRetainStorage
 void
 NotifyEnabledStateChanged
 (
+MediaStreamGraph
+*
+aGraph
 bool
 aEnabled
 )

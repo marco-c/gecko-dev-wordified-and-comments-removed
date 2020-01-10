@@ -626,6 +626,9 @@ rv
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
@@ -692,6 +695,9 @@ rv
 void
 NotifyRemoved
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
@@ -1330,6 +1336,9 @@ rv
 void
 NotifyEnabledStateChanged
 (
+MediaStreamGraph
+*
+aGraph
 bool
 aEnabled
 )
@@ -1454,6 +1463,9 @@ rv
 void
 NotifyEnded
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
@@ -1520,6 +1532,9 @@ rv
 void
 NotifyRemoved
 (
+MediaStreamGraph
+*
+aGraph
 )
 override
 {
