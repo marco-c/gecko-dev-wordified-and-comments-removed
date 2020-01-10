@@ -61,8 +61,8 @@ OptionSet
 aOptions
 )
 ;
-IPCResult
-RecvOutput
+MediaResult
+ProcessOutput
 (
 const
 DecodedOutputIPDL
@@ -124,6 +124,9 @@ MediaDataDecoder
 DecodedData
 &
 aData
+DecodedOutputIPDL
+&
+aDecodedData
 )
 override
 ;

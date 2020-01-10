@@ -175,8 +175,9 @@ virtual
 IRemoteDecoderChild
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
