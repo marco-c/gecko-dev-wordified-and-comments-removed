@@ -190,7 +190,7 @@ doc
 =
 gXULDOMParser
 .
-parseFromString
+parseFromSafeString
 (
 <
 box

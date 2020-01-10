@@ -1384,7 +1384,7 @@ DOMParser
 (
 )
 .
-parseFromString
+parseFromSafeString
 (
 <
 html
