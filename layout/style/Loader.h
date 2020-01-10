@@ -1488,6 +1488,8 @@ ifdef
 DEBUG
 bool
 mSyncCallback
+=
+false
 ;
 #
 endif
