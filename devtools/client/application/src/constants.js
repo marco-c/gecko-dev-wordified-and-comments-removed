@@ -7,6 +7,11 @@ const
 actionTypes
 =
 {
+UPDATE_MANIFEST
+:
+"
+UPDATE_MANIFEST
+"
 UPDATE_DOMAIN
 :
 "

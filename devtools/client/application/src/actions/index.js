@@ -39,6 +39,18 @@ ui
 "
 )
 ;
+const
+manifest
+=
+require
+(
+"
+.
+/
+manifest
+"
+)
+;
 Object
 .
 assign
@@ -47,5 +59,6 @@ exports
 workers
 page
 ui
+manifest
 )
 ;

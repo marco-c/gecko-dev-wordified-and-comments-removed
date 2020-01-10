@@ -61,6 +61,13 @@ index
 js
 '
 '
+manifest
+-
+state
+.
+js
+'
+'
 page
 -
 state
