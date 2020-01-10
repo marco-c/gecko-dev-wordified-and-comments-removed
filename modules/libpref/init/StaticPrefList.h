@@ -15460,7 +15460,15 @@ snapMultiplier
 "
 SliderSnapMultiplier
 int32_t
+#
+ifdef
+XP_WIN
 6
+#
+else
+0
+#
+endif
 )
 VARCACHE_PREF
 (
