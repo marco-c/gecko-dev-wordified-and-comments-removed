@@ -675,7 +675,7 @@ expand
 )
 ;
 let
-narrow
+narrow_no_flags
 =
 shared_defs
 .
@@ -684,7 +684,7 @@ transform_groups
 by_name
 (
 "
-narrow
+narrow_no_flags
 "
 )
 ;
@@ -699,7 +699,7 @@ rv_32
 .
 legalize_default
 (
-narrow
+narrow_no_flags
 )
 ;
 rv_32
@@ -737,7 +737,7 @@ rv_64
 .
 legalize_default
 (
-narrow
+narrow_no_flags
 )
 ;
 rv_64

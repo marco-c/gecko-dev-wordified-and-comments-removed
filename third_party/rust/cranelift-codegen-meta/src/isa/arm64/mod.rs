@@ -411,7 +411,7 @@ A64
 )
 ;
 let
-narrow
+narrow_flags
 =
 shared_defs
 .
@@ -420,7 +420,7 @@ transform_groups
 by_name
 (
 "
-narrow
+narrow_flags
 "
 )
 ;
@@ -428,7 +428,7 @@ a64
 .
 legalize_default
 (
-narrow
+narrow_flags
 )
 ;
 let

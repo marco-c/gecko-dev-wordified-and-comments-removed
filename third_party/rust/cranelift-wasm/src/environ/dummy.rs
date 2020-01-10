@@ -2907,12 +2907,16 @@ translate
 (
 body_bytes
 body_offset
+&
+mut
 func
 &
 mut
 func_environ
 )
 ?
+;
+func
 }
 ;
 self

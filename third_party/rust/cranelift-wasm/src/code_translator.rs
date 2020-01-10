@@ -414,8 +414,6 @@ state
 .
 get_global
 (
-&
-mut
 builder
 .
 func
@@ -518,8 +516,6 @@ state
 .
 get_global
 (
-&
-mut
 builder
 .
 func
@@ -2156,8 +2152,6 @@ state
 .
 get_direct_func
 (
-&
-mut
 builder
 .
 func
@@ -2289,8 +2283,6 @@ state
 .
 get_indirect_sig
 (
-&
-mut
 builder
 .
 func
@@ -2307,8 +2299,6 @@ state
 .
 get_table
 (
-&
-mut
 builder
 .
 func
@@ -2456,8 +2446,6 @@ state
 .
 get_heap
 (
-&
-mut
 builder
 .
 func
@@ -2525,8 +2513,6 @@ state
 .
 get_heap
 (
-&
-mut
 builder
 .
 func
@@ -8741,8 +8727,6 @@ state
 .
 get_heap
 (
-&
-mut
 builder
 .
 func
@@ -8900,8 +8884,6 @@ state
 .
 get_heap
 (
-&
-mut
 builder
 .
 func

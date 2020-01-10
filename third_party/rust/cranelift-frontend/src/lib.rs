@@ -198,7 +198,10 @@ crate
 frontend
 :
 :
+{
 FunctionBuilder
+FunctionBuilderContext
+}
 ;
 pub
 use

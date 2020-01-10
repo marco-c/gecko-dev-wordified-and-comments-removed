@@ -2701,7 +2701,7 @@ transform_groups
 by_name
 (
 "
-narrow
+narrow_flags
 "
 )
 .
