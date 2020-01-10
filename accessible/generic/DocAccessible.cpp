@@ -5848,7 +5848,9 @@ childCnt
 acc
 -
 >
-ChildCount
+mChildren
+.
+Length
 (
 )
 ;
@@ -5875,7 +5877,9 @@ child
 acc
 -
 >
-GetChildAt
+mChildren
+.
+ElementAt
 (
 idx
 )
