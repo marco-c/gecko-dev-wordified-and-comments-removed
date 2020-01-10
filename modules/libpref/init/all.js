@@ -10835,7 +10835,7 @@ mem
 .
 gc_allocation_threshold_mb
 "
-30
+27
 )
 ;
 pref
@@ -10847,9 +10847,9 @@ options
 .
 mem
 .
-gc_allocation_threshold_factor
+gc_non_incremental_factor
 "
-90
+112
 )
 ;
 pref
@@ -10861,9 +10861,9 @@ options
 .
 mem
 .
-gc_allocation_threshold_factor_avoid_interrupt
+gc_avoid_interrupt_factor
 "
-90
+100
 )
 ;
 pref
