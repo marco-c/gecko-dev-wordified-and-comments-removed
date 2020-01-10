@@ -62,9 +62,7 @@ EXPR
 do
 {
 \
-(
 VAR
-)
 =
 (
 EXPR
@@ -108,9 +106,7 @@ EXPR
 )
 \
 auto
-(
 VAR
-)
 =
 (
 EXPR
@@ -324,9 +320,7 @@ unwrapErr
 }
 \
 auto
-(
 VAR
-)
 =
 _
 #
