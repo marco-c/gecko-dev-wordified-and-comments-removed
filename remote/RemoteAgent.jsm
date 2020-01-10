@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 RemoteAgent
 "
+"
+RemoteAgentFactory
+"
 ]
 ;
 const
@@ -1359,4 +1362,16 @@ new
 RemoteAgentClass
 (
 )
+;
+var
+RemoteAgentFactory
+=
+function
+(
+)
+{
+return
+RemoteAgent
+;
+}
 ;
