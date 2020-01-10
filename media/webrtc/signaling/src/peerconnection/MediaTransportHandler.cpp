@@ -8599,6 +8599,11 @@ nsresult
 aStatus
 )
 {
+if
+(
+mCancel
+)
+{
 MOZ_ASSERT
 (
 mTransportHandler
@@ -8611,11 +8616,6 @@ IsOnCurrentThread
 )
 )
 ;
-if
-(
-mCancel
-)
-{
 if
 (
 NS_SUCCEEDED
