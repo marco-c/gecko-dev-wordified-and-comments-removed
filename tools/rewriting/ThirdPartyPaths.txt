@@ -7,6 +7,14 @@ components
 /
 newtab
 /
+logs
+/
+browser
+/
+components
+/
+newtab
+/
 node_modules
 /
 browser
@@ -41,8 +49,6 @@ devtools
 client
 /
 aboutdebugging
--
-new
 /
 test
 /
