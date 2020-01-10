@@ -1289,6 +1289,8 @@ aNewDocument
 void
 DetachFromDocShell
 (
+bool
+aIsBeingDiscarded
 )
 ;
 virtual

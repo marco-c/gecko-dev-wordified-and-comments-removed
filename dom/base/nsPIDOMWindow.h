@@ -465,6 +465,15 @@ IsTopInnerWindow
 )
 const
 ;
+virtual
+bool
+WasCurrentInnerWindow
+(
+)
+const
+=
+0
+;
 inline
 bool
 IsLoading
