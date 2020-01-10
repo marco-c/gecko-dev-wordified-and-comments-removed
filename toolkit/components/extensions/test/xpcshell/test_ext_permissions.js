@@ -3360,9 +3360,6 @@ identity
 idle
 "
 "
-memory
-"
-"
 menus
 "
 "
