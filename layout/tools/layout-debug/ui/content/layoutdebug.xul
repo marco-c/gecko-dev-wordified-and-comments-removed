@@ -262,6 +262,15 @@ OnLDBLoad
 )
 ;
 "
+onclose
+=
+"
+OnLDBBeforeUnload
+(
+event
+)
+;
+"
 onunload
 =
 "
