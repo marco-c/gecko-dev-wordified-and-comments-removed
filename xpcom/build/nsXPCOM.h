@@ -163,10 +163,6 @@ aBinDirectory
 nsIDirectoryServiceProvider
 *
 aAppFileLocationProvider
-bool
-aInitJSContext
-=
-true
 )
 ;
 XPCOM_API
