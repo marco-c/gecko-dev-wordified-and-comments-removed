@@ -10662,3 +10662,15 @@ Site
 notifications
 "
 >
+<
+!
+ENTITY
+crash_handler_notifications_channel
+"
+&
+brandShortName
+;
+Crash
+Reporter
+"
+>
