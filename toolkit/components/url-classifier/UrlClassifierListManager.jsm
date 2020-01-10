@@ -1229,7 +1229,6 @@ kickoffUpdate_
 =
 function
 (
-onDiskTableData
 )
 {
 this
@@ -1663,18 +1662,8 @@ true
 ;
 this
 .
-dbService_
-.
-getTables
-(
-this
-.
 kickoffUpdate_
-.
-bind
 (
-this
-)
 )
 ;
 }
