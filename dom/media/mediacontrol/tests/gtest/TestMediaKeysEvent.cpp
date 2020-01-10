@@ -58,7 +58,7 @@ MediaControlKeysEventListener
 listener
 =
 new
-MediaControlKeysEventListener
+MediaControlKeysHandler
 (
 )
 ;
