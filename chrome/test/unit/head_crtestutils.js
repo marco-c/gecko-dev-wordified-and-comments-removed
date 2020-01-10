@@ -88,6 +88,7 @@ manifest
 of
 manifests
 )
+{
 reg
 .
 autoRegister
@@ -95,4 +96,5 @@ autoRegister
 manifest
 )
 ;
+}
 }

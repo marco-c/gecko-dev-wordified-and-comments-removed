@@ -114,7 +114,6 @@ if
 appInfo
 |
 |
-(
 appInfo
 .
 getService
@@ -132,7 +131,6 @@ Ci
 nsIXULRuntime
 .
 PROCESS_TYPE_DEFAULT
-)
 )
 {
 cr

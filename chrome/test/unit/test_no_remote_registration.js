@@ -415,11 +415,13 @@ outer
 =
 null
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 return
 XULAppInfo
 .
@@ -535,11 +537,13 @@ aOuter
 =
 null
 )
+{
 throw
 Cr
 .
 NS_ERROR_NO_AGGREGATION
 ;
+}
 let
 handler
 =

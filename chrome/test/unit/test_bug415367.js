@@ -104,11 +104,13 @@ if
 (
 failed
 )
+{
 do_throw
 (
 message
 )
 ;
+}
 if
 (
 obj
@@ -351,6 +353,7 @@ length
 +
 i
 )
+{
 test_uri
 (
 tests
@@ -359,4 +362,5 @@ i
 ]
 )
 ;
+}
 }
