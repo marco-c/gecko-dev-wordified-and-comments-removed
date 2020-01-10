@@ -3518,6 +3518,7 @@ url
 )
 ;
 }
+async
 function
 CopyPassword
 (
@@ -3530,8 +3531,11 @@ showingPasswords
 &
 &
 !
+(
+await
 masterPasswordLogin
 (
+)
 )
 )
 {
