@@ -55,15 +55,10 @@ const
 size_t
 kPermissionNameCount
 =
-MOZ_ARRAY_LENGTH
-(
 PermissionNameValues
 :
 :
-strings
-)
--
-1
+Count
 ;
 static_assert
 (
