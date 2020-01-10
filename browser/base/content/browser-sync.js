@@ -586,7 +586,7 @@ defineLazyPreferenceGetter
 (
 this
 "
-SYNC_ENABLED
+FXA_ENABLED
 "
 "
 identity
@@ -667,12 +667,12 @@ if
 !
 this
 .
-SYNC_ENABLED
+FXA_ENABLED
 )
 {
 this
 .
-onSyncDisabled
+onFxaDisabled
 (
 )
 ;
@@ -1558,6 +1558,15 @@ notready
 if
 (
 reloadDevices
+&
+&
+UIState
+.
+get
+(
+)
+.
+syncEnabled
 )
 {
 Services
@@ -5445,7 +5454,7 @@ if
 !
 this
 .
-SYNC_ENABLED
+FXA_ENABLED
 )
 {
 return
@@ -5601,7 +5610,7 @@ if
 !
 this
 .
-SYNC_ENABLED
+FXA_ENABLED
 )
 {
 return
@@ -6959,7 +6968,7 @@ single
 }
 }
 }
-onSyncDisabled
+onFxaDisabled
 (
 )
 {
