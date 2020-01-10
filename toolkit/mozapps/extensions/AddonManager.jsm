@@ -8350,6 +8350,14 @@ contentPrincipal
 |
 |
 !
+(
+aBrowser
+.
+contentPrincipal
+.
+isNullPrincipal
+|
+|
 aInstallingPrincipal
 .
 subsumes
@@ -8357,6 +8365,7 @@ subsumes
 aBrowser
 .
 contentPrincipal
+)
 )
 |
 |
