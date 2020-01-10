@@ -266,3 +266,17 @@ lastDailyNotification
 1
 )
 ;
+user_pref
+(
+"
+toolkit
+.
+telemetry
+.
+eventping
+.
+enabled
+"
+true
+)
+;
