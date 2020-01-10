@@ -453,6 +453,8 @@ fn
 convert_from_bytes
 <
 T
+:
+Copy
 >
 (
 slice
@@ -492,7 +494,7 @@ len
 ptr
 :
 :
-read
+read_unaligned
 (
 slice
 .
@@ -637,6 +639,8 @@ fn
 read
 <
 T
+:
+Copy
 >
 (
 &
@@ -1946,6 +1950,14 @@ result
 repr
 (
 C
+)
+]
+#
+[
+derive
+(
+Copy
+Clone
 )
 ]
 struct
