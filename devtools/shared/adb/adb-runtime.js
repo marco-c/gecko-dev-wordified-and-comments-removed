@@ -116,13 +116,11 @@ match
 versionName
 =
 (
-[
-\
-d
 .
-]
-+
+*
 )
+\
+n
 /
 )
 ;
