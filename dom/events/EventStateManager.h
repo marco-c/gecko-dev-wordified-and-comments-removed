@@ -2017,9 +2017,6 @@ dom
 DataTransfer
 *
 aDataTransfer
-bool
-*
-aAllowEmptyDataTransfer
 dom
 :
 :
@@ -2064,8 +2061,6 @@ dom
 DataTransfer
 *
 aDataTransfer
-bool
-aAllowEmptyDataTransfer
 nsIContent
 *
 aDragTarget
