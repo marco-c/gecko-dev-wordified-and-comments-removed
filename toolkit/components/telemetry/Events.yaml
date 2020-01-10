@@ -12455,6 +12455,8 @@ bug_numbers
 :
 -
 1536454
+-
+1578266
 description
 :
 >
@@ -12468,7 +12470,7 @@ shown
 expiry_version
 :
 "
-72
+74
 "
 notification_emails
 :
@@ -12661,6 +12663,8 @@ bug_numbers
 :
 -
 1536454
+-
+1578266
 description
 :
 >
@@ -12683,7 +12687,7 @@ field
 expiry_version
 :
 "
-72
+74
 "
 notification_emails
 :
