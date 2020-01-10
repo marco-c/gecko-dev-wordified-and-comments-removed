@@ -423,6 +423,15 @@ this
 _childTargetPromise
 ;
 }
+getChildren
+(
+)
+{
+return
+[
+]
+;
+}
 async
 _extensionFrameConnect
 (
