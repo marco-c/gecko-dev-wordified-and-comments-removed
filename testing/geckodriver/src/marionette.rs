@@ -2833,7 +2833,7 @@ Generic
 (
 resp
 .
-to_value_response
+into_value_response
 (
 true
 )
@@ -3068,7 +3068,7 @@ Generic
 (
 resp
 .
-to_value_response
+into_value_response
 (
 false
 )
@@ -4328,7 +4328,7 @@ Generic
 (
 resp
 .
-to_value_response
+into_value_response
 (
 true
 )
@@ -4509,7 +4509,7 @@ Generic
 (
 resp
 .
-to_value_response
+into_value_response
 (
 true
 )
@@ -4535,7 +4535,7 @@ Generic
 (
 resp
 .
-to_value_response
+into_value_response
 (
 true
 )
@@ -7190,7 +7190,7 @@ impl
 MarionetteResponse
 {
 fn
-to_value_response
+into_value_response
 (
 self
 value_required
