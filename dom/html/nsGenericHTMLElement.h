@@ -2710,6 +2710,17 @@ aError
 )
 ;
 }
+uint32_t
+GetDimensionAttrAsUnsignedInt
+(
+nsAtom
+*
+aAttr
+uint32_t
+aDefault
+)
+const
+;
 void
 SetDoubleAttr
 (
