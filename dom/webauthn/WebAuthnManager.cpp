@@ -51,6 +51,17 @@ mozilla
 /
 dom
 /
+BindingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Promise
 .
 h
