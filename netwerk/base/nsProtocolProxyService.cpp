@@ -3287,13 +3287,6 @@ mIsShutdown
 false
 )
 {
-MOZ_ASSERT
-(
-XRE_IsParentProcess
-(
-)
-)
-;
 }
 nsProtocolProxyService
 :

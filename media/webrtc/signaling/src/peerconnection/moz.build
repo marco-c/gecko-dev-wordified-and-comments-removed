@@ -98,14 +98,6 @@ webrtc
 mozbuild
 '
 )
-DIRS
-+
-=
-[
-'
-ipc
-'
-]
 LOCAL_INCLUDES
 +
 =
