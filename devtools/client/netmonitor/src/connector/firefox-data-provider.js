@@ -1095,7 +1095,7 @@ payload
 {
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1163,7 +1163,7 @@ channelId
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1288,7 +1288,7 @@ headersSize
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1400,7 +1400,7 @@ actor
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -1819,7 +1819,7 @@ toUpperCase
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 [
@@ -2013,7 +2013,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2055,7 +2055,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2097,7 +2097,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2139,7 +2139,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2183,7 +2183,7 @@ securityInfo
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2225,7 +2225,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2267,7 +2267,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2316,7 +2316,7 @@ response
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2402,7 +2402,7 @@ stacktrace
 ;
 this
 .
-emit
+emitForTests
 (
 EVENTS
 .
@@ -2436,6 +2436,31 @@ this
 owner
 .
 emit
+(
+type
+data
+)
+;
+}
+}
+emitForTests
+(
+type
+data
+)
+{
+if
+(
+this
+.
+owner
+)
+{
+this
+.
+owner
+.
+emitForTests
 (
 type
 data
