@@ -21461,8 +21461,6 @@ EditorBase
 :
 HandleInlineSpellCheck
 (
-EditSubAction
-aEditSubAction
 nsINode
 *
 previousSelectedNode
@@ -21503,7 +21501,9 @@ mInlineSpellChecker
 >
 SpellCheckAfterEditorChange
 (
-aEditSubAction
+GetTopLevelEditSubAction
+(
+)
 *
 SelectionRefPtr
 (

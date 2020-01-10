@@ -9782,8 +9782,6 @@ rules
 >
 BeforeEdit
 (
-aEditSubAction
-aDirection
 )
 ;
 NS_WARNING_ASSERTION
@@ -9847,12 +9845,6 @@ rules
 >
 AfterEdit
 (
-GetTopLevelEditSubAction
-(
-)
-GetDirectionOfTopLevelEditSubAction
-(
-)
 )
 ;
 NS_WARNING_ASSERTION

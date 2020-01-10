@@ -4934,8 +4934,6 @@ aAllow
 nsresult
 HandleInlineSpellCheck
 (
-EditSubAction
-aEditSubAction
 nsINode
 *
 previousSelectedNode

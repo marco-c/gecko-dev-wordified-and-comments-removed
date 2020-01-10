@@ -1096,8 +1096,6 @@ EnsurePaddingBRElementForEmptyEditor
 nsresult
 HandleInlineSpellCheckAfterEdit
 (
-EditSubAction
-aEditSubAction
 )
 {
 MOZ_ASSERT
@@ -1128,7 +1126,6 @@ rv
 =
 HandleInlineSpellCheck
 (
-aEditSubAction
 GetSpellCheckRestartPoint
 (
 )
