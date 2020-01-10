@@ -2016,6 +2016,7 @@ PopupNotifications
 remove
 (
 notifications
+true
 )
 ;
 }
