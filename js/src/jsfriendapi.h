@@ -5106,6 +5106,10 @@ void
 domProxyHandlerFamily
 DOMProxyShadowsCheck
 domProxyShadowsCheck
+const
+void
+*
+domRemoteProxyHandlerFamily
 )
 ;
 const
@@ -5147,6 +5151,13 @@ result
 ShadowsViaIndirectExpando
 ;
 }
+const
+void
+*
+GetDOMRemoteProxyHandlerFamily
+(
+)
+;
 struct
 XrayJitInfo
 {
