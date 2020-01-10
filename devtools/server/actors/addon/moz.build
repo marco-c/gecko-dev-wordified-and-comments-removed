@@ -88,11 +88,6 @@ MPL
 DevToolsModules
 (
 '
-addons
-.
-js
-'
-'
 webextension
 -
 inspected
