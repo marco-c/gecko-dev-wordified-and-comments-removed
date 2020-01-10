@@ -1,0 +1,17 @@
+[
+workspace
+]
+members
+=
+[
+"
+wgpu
+-
+native
+"
+"
+wgpu
+-
+remote
+"
+]

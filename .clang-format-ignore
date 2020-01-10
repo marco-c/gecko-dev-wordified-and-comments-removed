@@ -905,6 +905,12 @@ openvr
 *
 gfx
 /
+wgpu
+/
+.
+*
+gfx
+/
 wr
 /
 .
