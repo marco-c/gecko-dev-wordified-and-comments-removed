@@ -88,7 +88,7 @@ PIPENV_MAX_RETRIES
 "
 pipenv
 install
-status
+pip_status
 =
 ?
 #
@@ -105,7 +105,7 @@ attempt
 .
 if
 [
-status
+pip_status
 -
 eq
 0
