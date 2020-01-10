@@ -107,6 +107,10 @@ include
 protocol
 PRemoteDecoderManager
 ;
+include
+protocol
+PVideoBridge
+;
 using
 mozilla
 :
@@ -232,6 +236,16 @@ minimizeMemoryUsage
 FileDescriptor
 ?
 DMDFile
+)
+;
+async
+CreateVideoBridgeToParentProcess
+(
+Endpoint
+<
+PVideoBridgeChild
+>
+endpoint
 )
 ;
 async
