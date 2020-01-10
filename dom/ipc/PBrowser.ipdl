@@ -3687,13 +3687,6 @@ event
 )
 ;
 async
-SetHasBeforeUnload
-(
-bool
-aHasBeforeUnload
-)
-;
-async
 RegisterProtocolHandler
 (
 nsString
