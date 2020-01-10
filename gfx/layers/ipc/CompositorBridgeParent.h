@@ -1350,9 +1350,10 @@ ipc
 IPCResult
 RecvEndRecording
 (
-bool
-*
-aOutSuccess
+EndRecordingResolver
+&
+&
+aResolve
 )
 =
 0
@@ -2216,9 +2217,10 @@ ipc
 IPCResult
 RecvEndRecording
 (
-bool
-*
-aOutSuccess
+EndRecordingResolver
+&
+&
+aResolve
 )
 override
 ;
