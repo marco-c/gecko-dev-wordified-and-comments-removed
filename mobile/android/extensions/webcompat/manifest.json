@@ -36,7 +36,7 @@ version
 .
 0
 .
-1
+2
 "
 "
 applications
@@ -373,6 +373,13 @@ scripts
 lib
 /
 module_shim
+.
+js
+"
+"
+lib
+/
+google
 .
 js
 "
