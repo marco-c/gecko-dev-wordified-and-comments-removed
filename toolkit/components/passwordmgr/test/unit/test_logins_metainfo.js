@@ -84,7 +84,7 @@ findLogins
 (
 aLoginInfo
 .
-hostname
+origin
 "
 "
 "
@@ -254,7 +254,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -528,7 +528,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http

@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-TEST_HOSTNAME
+TEST_ORIGIN
 =
 "
 https
@@ -150,7 +150,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 IFRAME_PAGE_PATH
 }
@@ -539,7 +539,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 IFRAME_PAGE_PATH
 }
@@ -678,7 +678,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 IFRAME_PAGE_PATH
 }
@@ -844,7 +844,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -855,7 +855,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -885,7 +885,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -896,7 +896,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -926,7 +926,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -937,7 +937,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -967,7 +967,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -978,7 +978,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -1008,7 +1008,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -1019,7 +1019,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http

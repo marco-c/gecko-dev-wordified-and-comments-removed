@@ -41,7 +41,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -52,7 +52,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -94,7 +94,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -105,7 +105,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http

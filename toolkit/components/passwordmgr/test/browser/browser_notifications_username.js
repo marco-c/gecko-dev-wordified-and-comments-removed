@@ -166,7 +166,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -177,7 +177,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -224,7 +224,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -235,7 +235,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https

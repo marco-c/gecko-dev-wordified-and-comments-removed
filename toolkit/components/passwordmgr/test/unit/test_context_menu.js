@@ -142,7 +142,7 @@ password
 "
 ;
 let
-testHostnames
+testOrigins
 =
 [
 "
@@ -194,9 +194,9 @@ com
 for
 (
 let
-hostname
+origin
 of
-testHostnames
+testOrigins
 )
 {
 info
@@ -204,11 +204,11 @@ info
 "
 test
 for
-hostname
+origin
 :
 "
 +
-hostname
+origin
 )
 ;
 let
@@ -216,7 +216,7 @@ logins
 =
 getExpectedLogins
 (
-hostname
+origin
 )
 ;
 let
@@ -227,7 +227,7 @@ document
 =
 createLoginsFragment
 (
-hostname
+origin
 DOCUMENT_CONTENT
 INPUT_QUERY
 )
@@ -729,7 +729,7 @@ true
 function
 getExpectedLogins
 (
-hostname
+origin
 )
 {
 return
@@ -748,11 +748,11 @@ entry
 >
 entry
 .
-hostname
+origin
 =
 =
 =
-hostname
+origin
 )
 ;
 }

@@ -18,7 +18,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -31,7 +31,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -54,7 +54,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -99,7 +99,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -131,7 +131,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -172,7 +172,7 @@ matchData
 newPropertyBag
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -268,7 +268,7 @@ matchData
 setProperty
 (
 "
-hostname
+origin
 "
 "
 http
@@ -398,7 +398,7 @@ searchLogins
 newPropertyBag
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -414,7 +414,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -427,7 +427,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "

@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-TEST_HOSTNAME
+TEST_ORIGIN
 =
 "
 https
@@ -176,7 +176,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -265,7 +265,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -354,7 +354,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 "
 /
@@ -463,7 +463,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 "
 /
@@ -572,7 +572,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -997,7 +997,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -1610,7 +1610,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 MULTIPLE_FORMS_PAGE_PATH
 }
@@ -2292,8 +2292,8 @@ isOriginMatching
 (
 login
 .
-hostname
-TEST_HOSTNAME
+origin
+TEST_ORIGIN
 {
 schemeUpgrades
 :
@@ -2434,7 +2434,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -2445,7 +2445,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -2475,7 +2475,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -2486,7 +2486,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -2516,7 +2516,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -2527,7 +2527,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -2557,7 +2557,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -2568,7 +2568,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -2598,7 +2598,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -2609,7 +2609,7 @@ example
 .
 org
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http

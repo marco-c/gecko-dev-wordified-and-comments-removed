@@ -4,7 +4,7 @@ strict
 "
 ;
 const
-TEST_HOSTNAME
+TEST_ORIGIN
 =
 "
 https
@@ -144,7 +144,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 BASIC_FORM_PAGE_PATH
 }
@@ -226,7 +226,7 @@ withNewTab
 gBrowser
 url
 :
-TEST_HOSTNAME
+TEST_ORIGIN
 +
 BASIC_FORM_PAGE_PATH
 }
@@ -421,7 +421,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -432,7 +432,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -462,7 +462,7 @@ testData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -473,7 +473,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https

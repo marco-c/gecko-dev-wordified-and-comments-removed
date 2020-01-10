@@ -68,7 +68,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -81,7 +81,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -117,7 +117,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -130,7 +130,7 @@ example
 .
 com
 "
-hostname
+origin
 :
 "
 https
@@ -160,7 +160,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -173,7 +173,7 @@ example
 .
 com
 "
-hostname
+origin
 :
 "
 https
@@ -203,7 +203,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -216,7 +216,7 @@ example
 .
 com
 "
-hostname
+origin
 :
 "
 https
@@ -252,11 +252,11 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
-hostname
+origin
 :
 "
 https
@@ -280,7 +280,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -308,7 +308,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -332,7 +332,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -356,7 +356,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -369,7 +369,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -393,7 +393,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -406,7 +406,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -430,7 +430,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -445,7 +445,7 @@ com
 :
 8001
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -471,7 +471,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -486,7 +486,7 @@ com
 :
 8008
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -512,7 +512,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -525,7 +525,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -549,7 +549,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -562,7 +562,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -714,7 +714,7 @@ pw
 different
 scheme
 include
-hostname
+origin
 "
 [
 DOMAIN1_HTTP_TO_HTTP_U1_P1
@@ -726,7 +726,7 @@ DOMAIN1_HTTPS_TO_HTTP_U1_P1
 ]
 [
 "
-hostname
+origin
 "
 "
 username
@@ -1148,7 +1148,7 @@ timePasswordChanged
 ]
 DOMAIN1_HTTP_TO_HTTP_U1_P1
 .
-hostname
+origin
 ]
 [
 "
@@ -1179,7 +1179,7 @@ timePasswordChanged
 ]
 DOMAIN1_HTTP_TO_HTTP_U1_P1
 .
-hostname
+origin
 ]
 [
 "
@@ -1208,7 +1208,7 @@ timePasswordChanged
 ]
 DOMAIN1_HTTPS_TO_HTTP_U1_P1
 .
-hostname
+origin
 ]
 [
 "
@@ -1239,7 +1239,7 @@ timePasswordChanged
 ]
 DOMAIN1_HTTPS_TO_HTTP_U1_P1
 .
-hostname
+origin
 ]
 [
 "
@@ -1263,7 +1263,7 @@ scheme
 ]
 DOMAIN1_HTTPS_AUTH
 .
-hostname
+origin
 ]
 [
 "
@@ -1289,7 +1289,7 @@ scheme
 ]
 DOMAIN1_HTTPS_AUTH
 .
-hostname
+origin
 ]
 [
 "
@@ -1315,7 +1315,7 @@ scheme
 ]
 DOMAIN1_HTTPS_TO_HTTP_U1_P1
 .
-hostname
+origin
 ]
 [
 "
@@ -1343,7 +1343,7 @@ subdomain
 ]
 DOMAIN1_HTTPS_LOGIN
 .
-hostname
+origin
 ]
 [
 "
@@ -1371,7 +1371,7 @@ subdomain
 ]
 DOMAIN2_HTTPS_LOGIN
 .
-hostname
+origin
 ]
 [
 "
@@ -1397,7 +1397,7 @@ subdomain
 ]
 DOMAIN1_HTTPS_LOGIN
 .
-hostname
+origin
 ]
 [
 "
@@ -1424,7 +1424,7 @@ subdomain
 ]
 DOMAIN1_HTTPS_LOGIN
 .
-hostname
+origin
 ]
 [
 "
@@ -1453,7 +1453,7 @@ subdomain
 ]
 DOMAIN1_HTTPS_AUTH
 .
-hostname
+origin
 ]
 [
 "
@@ -1499,7 +1499,7 @@ timePasswordChanged
 ]
 DOMAIN1_HTTPS_TO_HTTPS_U1_P1
 .
-hostname
+origin
 ]
 ]
 ;

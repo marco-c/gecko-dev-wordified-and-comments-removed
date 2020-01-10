@@ -45,7 +45,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -108,16 +108,16 @@ testLogin
 newPropertyBag
 (
 {
-hostname
+origin
 :
 aLoginInfo
 .
-hostname
-formSubmitURL
+origin
+formActionOrigin
 :
 aLoginInfo
 .
-formSubmitURL
+formActionOrigin
 httpRealm
 :
 aLoginInfo
@@ -320,7 +320,7 @@ checkLogins
 add_task
 (
 function
-test_invalid_httpRealm_formSubmitURL
+test_invalid_httpRealm_formActionOrigin
 (
 )
 {
@@ -331,7 +331,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 null
 }
@@ -341,7 +341,7 @@ without
 a
 httpRealm
 or
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -363,7 +363,7 @@ without
 a
 httpRealm
 or
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -374,7 +374,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -389,7 +389,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -414,7 +414,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -436,7 +436,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -447,7 +447,7 @@ TestData
 authLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -458,7 +458,7 @@ both
 a
 httpRealm
 and
-formSubmitURL
+formActionOrigin
 /
 )
 ;
@@ -479,7 +479,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 null
 }
@@ -488,7 +488,7 @@ null
 null
 or
 empty
-hostname
+origin
 /
 )
 ;
@@ -499,7 +499,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 "
@@ -509,7 +509,7 @@ hostname
 null
 or
 empty
-hostname
+origin
 /
 )
 ;
@@ -591,7 +591,7 @@ TestData
 authLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -627,7 +627,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http
@@ -1112,16 +1112,16 @@ differentLoginProperties
 newPropertyBag
 (
 {
-hostname
+origin
 :
 differentLoginInfo
 .
-hostname
-formSubmitURL
+origin
+formActionOrigin
 :
 differentLoginInfo
 .
-formSubmitURL
+formActionOrigin
 httpRealm
 :
 differentLoginInfo
@@ -1409,7 +1409,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -1424,7 +1424,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -1442,7 +1442,7 @@ keyset
 :
 [
 "
-hostname
+origin
 "
 "
 username
@@ -1451,7 +1451,7 @@ username
 password
 "
 "
-formSubmitURL
+formActionOrigin
 "
 ]
 results
@@ -1587,7 +1587,7 @@ TestData
 formLogin
 (
 {
-formSubmitURL
+formActionOrigin
 :
 "
 http

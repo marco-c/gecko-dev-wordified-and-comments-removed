@@ -170,7 +170,7 @@ removeAllLogins
 for
 (
 let
-hostname
+origin
 of
 Services
 .
@@ -187,7 +187,7 @@ logins
 .
 setLoginSavingEnabled
 (
-hostname
+origin
 true
 )
 ;

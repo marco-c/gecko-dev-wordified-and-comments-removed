@@ -82,7 +82,7 @@ daysBeforeMs
 (
 7
 )
-formSubmitURL
+formActionOrigin
 :
 null
 httpRealm
@@ -341,7 +341,7 @@ StatisticsTestData
 {
 loginModifications
 .
-hostname
+origin
 =
 http
 :

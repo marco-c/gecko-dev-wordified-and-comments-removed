@@ -38,7 +38,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -51,7 +51,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -75,7 +75,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -88,7 +88,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -135,7 +135,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -161,7 +161,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 http
@@ -185,7 +185,7 @@ TestData
 formLogin
 (
 {
-hostname
+origin
 :
 "
 https
@@ -198,7 +198,7 @@ example
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 https
@@ -298,7 +298,7 @@ description
 :
 "
 same
-hostname
+origin
 different
 port
 different
@@ -322,7 +322,7 @@ description
 :
 "
 different
-hostname
+origin
 different
 scheme
 "
