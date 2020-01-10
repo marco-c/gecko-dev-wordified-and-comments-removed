@@ -695,12 +695,9 @@ aWaylandBufferDamage
 ;
 WindowImageSurface
 (
-gfx
-:
-:
-SourceSurface
+gfxImageSurface
 *
-aSurface
+aImageSurface
 const
 LayoutDeviceIntRegion
 &
@@ -717,6 +714,12 @@ gfx
 SourceSurface
 >
 mSurface
+;
+RefPtr
+<
+gfxImageSurface
+>
+mImageSurface
 ;
 const
 LayoutDeviceIntRegion
