@@ -510,9 +510,6 @@ sdr
 asyncEncryptStrings
 (
 inputs
-.
-length
-inputs
 )
 ;
 for

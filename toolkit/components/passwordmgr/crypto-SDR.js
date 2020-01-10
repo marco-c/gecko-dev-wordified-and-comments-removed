@@ -593,9 +593,6 @@ _decoderRing
 asyncEncryptStrings
 (
 plaintexts
-.
-length
-plaintexts
 )
 ;
 }
