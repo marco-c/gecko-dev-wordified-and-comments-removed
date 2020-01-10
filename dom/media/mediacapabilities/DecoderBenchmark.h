@@ -102,6 +102,16 @@ DecoderBenchmarkInfo
 aBenchInfo
 )
 ;
+static
+void
+CheckVersion
+(
+const
+nsACString
+&
+aDecoderName
+)
+;
 private
 :
 void
