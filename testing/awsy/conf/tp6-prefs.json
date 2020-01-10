@@ -11,6 +11,17 @@ true
 "
 browser
 .
+tabs
+.
+remote
+.
+separatePrivilegedContentProcess
+"
+:
+true
+"
+browser
+.
 urlbar
 .
 userMadeSearchSuggestionsChoice
