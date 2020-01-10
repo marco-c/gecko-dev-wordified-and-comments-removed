@@ -581,7 +581,7 @@ aFile
 )
 ;
 void
-WriteExtraDataForMinidump
+AddCrashAnnotations
 (
 )
 ;

@@ -1774,7 +1774,7 @@ ProcessFirstMinidump
 )
 ;
 void
-WriteExtraDataForMinidump
+AddCrashAnnotations
 (
 )
 ;
