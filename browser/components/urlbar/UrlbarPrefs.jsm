@@ -248,6 +248,12 @@ maxRichResults
 ]
 [
 "
+megabar
+"
+false
+]
+[
+"
 oneOffSearches
 "
 false
