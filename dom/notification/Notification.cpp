@@ -214,17 +214,6 @@ mozilla
 /
 dom
 /
-ServiceWorkerUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 WorkerPrivate
 .
 h
