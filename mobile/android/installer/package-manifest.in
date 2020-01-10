@@ -1319,6 +1319,13 @@ BINPATH
 /
 components
 /
+GeckoViewPush
+.
+js
+BINPATH
+/
+components
+/
 GeckoViewPermission
 .
 js
