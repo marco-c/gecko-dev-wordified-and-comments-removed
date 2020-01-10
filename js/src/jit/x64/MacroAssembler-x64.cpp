@@ -2228,14 +2228,11 @@ freg
 scratch
 ;
 }
-vmovq
+boxDouble
 (
 freg
 dest
-.
-valueReg
-(
-)
+freg
 )
 ;
 }
@@ -2946,7 +2943,7 @@ MIRType
 Double
 )
 {
-storeDouble
+boxDouble
 (
 value
 .

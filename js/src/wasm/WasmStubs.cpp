@@ -4131,6 +4131,14 @@ bind
 storeBack
 )
 ;
+{
+ScratchTagScopeRelease
+_
+(
+&
+tag
+)
+;
 masm
 .
 boxDouble
@@ -4139,6 +4147,7 @@ scratchF
 jitArgAddr
 )
 ;
+}
 break
 ;
 }
@@ -7352,7 +7361,7 @@ fpscratch
 ;
 masm
 .
-storeDouble
+boxDouble
 (
 fpscratch
 dst
@@ -7432,7 +7441,7 @@ fpscratch
 ;
 masm
 .
-storeDouble
+boxDouble
 (
 fpscratch
 dst
@@ -7660,7 +7669,7 @@ dscratch
 ;
 masm
 .
-storeDouble
+boxDouble
 (
 dscratch
 dst
@@ -10626,7 +10635,7 @@ throwLabel
 ;
 masm
 .
-loadDouble
+unboxDouble
 (
 Address
 (

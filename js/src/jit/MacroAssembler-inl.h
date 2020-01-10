@@ -3965,6 +3965,11 @@ BaseIndex
 dest
 )
 ;
+template
+<
+class
+T
+>
 void
 MacroAssembler
 :
@@ -3974,7 +3979,7 @@ boxDouble
 FloatRegister
 src
 const
-Address
+T
 &
 dest
 )
