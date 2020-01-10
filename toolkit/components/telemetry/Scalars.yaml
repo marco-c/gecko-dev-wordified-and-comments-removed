@@ -7096,6 +7096,8 @@ bug_numbers
 1323700
 -
 1352115
+-
+1566395
 description
 :
 Number
@@ -7113,9 +7115,7 @@ used
 .
 expires
 :
-"
-59
-"
+never
 kind
 :
 uint
@@ -7132,6 +7132,11 @@ lists
 mozilla
 .
 org
+-
+mbalfanz
+mozilla
+.
+com
 release_channel_collection
 :
 opt
@@ -7175,6 +7180,8 @@ bug_numbers
 1323700
 -
 1352115
+-
+1566395
 description
 :
 Number
@@ -7192,9 +7199,7 @@ used
 .
 expires
 :
-"
-59
-"
+never
 kind
 :
 uint
@@ -7211,6 +7216,11 @@ lists
 mozilla
 .
 org
+-
+mbalfanz
+mozilla
+.
+com
 release_channel_collection
 :
 opt
@@ -7248,6 +7258,8 @@ bug_numbers
 :
 -
 987877
+-
+1566395
 description
 :
 Number
@@ -7263,9 +7275,7 @@ used
 .
 expires
 :
-"
-59
-"
+never
 kind
 :
 uint
@@ -7282,6 +7292,11 @@ lists
 mozilla
 .
 org
+-
+mbalfanz
+mozilla
+.
+com
 release_channel_collection
 :
 opt
@@ -7984,6 +7999,8 @@ bug_numbers
 :
 -
 1437881
+-
+1566395
 description
 :
 >
@@ -8009,9 +8026,7 @@ false
 .
 expires
 :
-"
-65
-"
+never
 kind
 :
 uint
@@ -8033,6 +8048,11 @@ mozilla
 org
 -
 gl
+mozilla
+.
+com
+-
+mbalfanz
 mozilla
 .
 com
