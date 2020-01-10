@@ -12,12 +12,6 @@ variations
 .
 h
 "
-#
-define
-TABLE_NAME
-"
-MVAR
-"
 namespace
 ots
 {
@@ -483,6 +477,3 @@ true
 ;
 }
 }
-#
-undef
-TABLE_NAME

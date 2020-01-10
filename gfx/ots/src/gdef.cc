@@ -44,17 +44,12 @@ maxp
 h
 "
 #
-ifdef
-OTS_VARIATIONS
-#
 include
 "
 variations
 .
 h
 "
-#
-endif
 namespace
 {
 const
@@ -2352,9 +2347,6 @@ store
 )
 ;
 }
-#
-ifdef
-OTS_VARIATIONS
 if
 (
 !
@@ -2384,8 +2376,6 @@ store
 )
 ;
 }
-#
-endif
 }
 this
 -

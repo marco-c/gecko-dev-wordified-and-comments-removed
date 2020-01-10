@@ -404,7 +404,7 @@ p
 in
 [
 '
-cff_type2_charstring_test
+cff_charstring_test
 .
 cc
 '

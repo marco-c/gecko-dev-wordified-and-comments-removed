@@ -52,6 +52,10 @@ if
 (
 !
 name
+|
+|
+!
+name
 -
 >
 IsValidNameId
