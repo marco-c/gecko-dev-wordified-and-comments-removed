@@ -70,10 +70,6 @@ config
 /
 *
 *
-db
-/
-*
-*
 docshell
 /
 *
@@ -150,10 +146,6 @@ netwerk
 /
 *
 *
-node_modules
-/
-*
-*
 nsprpub
 /
 *
@@ -201,10 +193,6 @@ taskcluster
 *
 *
 testing
-/
-*
-*
-third_party
 /
 *
 *
