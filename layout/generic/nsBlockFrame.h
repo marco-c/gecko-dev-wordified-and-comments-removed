@@ -1466,6 +1466,13 @@ aFrameList
 nsIFrame
 *
 aPrevSibling
+const
+nsLineList
+:
+:
+iterator
+*
+aPrevSiblingLine
 )
 ;
 nsresult
