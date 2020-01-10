@@ -2587,7 +2587,7 @@ RecordAllocationInfo
 info
 )
 ;
-void
+bool
 profiler_add_native_allocation_marker
 (
 int64_t
