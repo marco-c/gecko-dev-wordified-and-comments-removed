@@ -6713,11 +6713,15 @@ aChannel
 switchListener
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 switchListener
 )
+{
+return
 ;
+}
 switchListener
 -
 >
