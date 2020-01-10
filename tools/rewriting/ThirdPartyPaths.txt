@@ -859,11 +859,6 @@ gtest
 /
 testing
 /
-mochitest
-/
-pywebsocket
-testing
-/
 talos
 /
 talos

@@ -1,7 +1,6 @@
 from
 __future__
 import
-print_function
 unicode_literals
 import
 errno
@@ -1958,18 +1957,13 @@ example_paths
 :
             
 print
-(
 "
 Generating
-{
-}
+%
+s
 "
-.
-format
-(
+%
 path
-)
-)
         
 return
 self

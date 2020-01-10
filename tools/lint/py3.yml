@@ -31,6 +31,10 @@ py
 -
 dom
 /
+bindings
+-
+dom
+/
 canvas
 /
 test
@@ -54,12 +58,6 @@ reftests
 layout
 /
 style
-/
-ServoCSSPropList
-.
-mako
-.
-py
 -
 layout
 /
@@ -98,6 +96,10 @@ py
 testing
 /
 gtest
+-
+testing
+/
+mochitest
 -
 testing
 /
