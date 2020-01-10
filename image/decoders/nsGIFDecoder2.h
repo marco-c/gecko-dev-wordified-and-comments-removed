@@ -32,6 +32,17 @@ SurfacePipe
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+Swizzle
+.
+h
+"
 namespace
 mozilla
 {
@@ -514,6 +525,9 @@ mSawTransparency
 ;
 gif_struct
 mGIFStruct
+;
+SwizzleRowFn
+mSwizzleFn
 ;
 SurfacePipe
 mPipe
