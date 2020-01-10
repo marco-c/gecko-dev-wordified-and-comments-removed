@@ -5910,7 +5910,9 @@ immutableFlags
 script
 -
 >
-immutableFlags_
+immutableFlags
+(
+)
 ;
 }
 MOZ_TRY
@@ -26396,7 +26398,9 @@ immutableFlags_
 src
 -
 >
-immutableFlags_
+immutableFlags
+(
+)
 ;
 dst
 -
@@ -29434,14 +29438,6 @@ lazyData_
 (
 data
 )
-immutableFlags_
-(
-immutableFlags
-)
-mutableFlags_
-(
-0
-)
 {
 MOZ_ASSERT
 (
@@ -29478,6 +29474,10 @@ lineno
 column_
 =
 column
+;
+immutableFlags_
+=
+immutableFlags
 ;
 if
 (
