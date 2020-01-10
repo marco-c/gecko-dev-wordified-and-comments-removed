@@ -336,7 +336,7 @@ set
 ;
 ssservice
 .
-removeState
+resetState
 (
 Ci
 .

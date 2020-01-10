@@ -387,7 +387,7 @@ localhost
 ;
 gSSService
 .
-removeState
+resetState
 (
 Ci
 .

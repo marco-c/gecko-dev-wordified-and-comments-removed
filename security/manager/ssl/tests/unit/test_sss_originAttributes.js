@@ -403,7 +403,7 @@ shouldShare
 {
 sss
 .
-removeState
+resetState
 (
 type
 uri
@@ -438,7 +438,7 @@ attributes
 }
 sss
 .
-removeState
+resetState
 (
 type
 uri
@@ -688,7 +688,7 @@ originAttributes
 >
 sss
 .
-removeState
+resetState
 (
 type
 uri

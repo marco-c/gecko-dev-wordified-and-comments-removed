@@ -97,7 +97,7 @@ nsISiteSecurityService
 ;
 sss
 .
-removeState
+resetState
 (
 Ci
 .

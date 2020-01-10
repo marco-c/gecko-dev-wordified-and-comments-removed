@@ -231,7 +231,7 @@ uri2
 ;
 SSService
 .
-removeState
+resetState
 (
 Ci
 .

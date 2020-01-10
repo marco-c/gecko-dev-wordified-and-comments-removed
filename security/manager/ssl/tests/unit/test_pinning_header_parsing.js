@@ -280,7 +280,7 @@ settingPin
 {
 gSSService
 .
-removeState
+resetState
 (
 Ci
 .
