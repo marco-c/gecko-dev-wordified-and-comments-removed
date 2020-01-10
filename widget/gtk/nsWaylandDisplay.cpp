@@ -31,9 +31,6 @@ so
 .
 2
 "
-#
-ifdef
-HAVE_LIBDRM
 bool
 nsWaylandDisplay
 :
@@ -46,8 +43,6 @@ nsWaylandDisplay
 :
 mIsDMABufPrefLoaded
 ;
-#
-endif
 #
 define
 MAX_DISPLAY_CONNECTIONS
@@ -453,9 +448,6 @@ mPrimarySelectionDeviceManager
 aPrimarySelectionDeviceManager
 ;
 }
-#
-ifdef
-HAVE_LIBDRM
 void
 nsWaylandDisplay
 :
@@ -719,8 +711,6 @@ dmabuf_format
 dmabuf_modifiers
 }
 ;
-#
-endif
 static
 void
 global_registry_handler
@@ -1063,9 +1053,6 @@ subcompositor
 )
 ;
 }
-#
-ifdef
-HAVE_LIBDRM
 else
 if
 (
@@ -1122,8 +1109,6 @@ data
 )
 ;
 }
-#
-endif
 }
 static
 void
@@ -1195,9 +1180,6 @@ aDisplay
 mDisplay
 ;
 }
-#
-ifdef
-HAVE_LIBDRM
 bool
 nsWaylandDisplay
 :
@@ -1409,8 +1391,6 @@ return
 mGbmFd
 ;
 }
-#
-endif
 nsWaylandDisplay
 :
 :
@@ -1463,9 +1443,6 @@ mRegistry
 (
 nullptr
 )
-#
-ifdef
-HAVE_LIBDRM
 mGbmDevice
 (
 nullptr
@@ -1505,8 +1482,6 @@ mExplicitSync
 (
 false
 )
-#
-endif
 {
 mRegistry
 =
@@ -1530,9 +1505,6 @@ NS_IsMainThread
 )
 )
 {
-#
-ifdef
-HAVE_LIBDRM
 if
 (
 !
@@ -1561,8 +1533,6 @@ false
 )
 ;
 }
-#
-endif
 mEventQueue
 =
 nullptr
@@ -1671,9 +1641,6 @@ nullptr
 ;
 }
 }
-#
-ifdef
-HAVE_LIBDRM
 void
 *
 nsGbmLib
@@ -2192,7 +2159,5 @@ return
 sGbmLibHandle
 ;
 }
-#
-endif
 }
 }
