@@ -147,6 +147,11 @@ state
 >
 "
 "
+propertyName
+"
+:
+undefined
+"
 type
 "
 :
@@ -287,6 +292,11 @@ root
 reason
 >
 "
+"
+propertyName
+"
+:
+undefined
 "
 type
 "
