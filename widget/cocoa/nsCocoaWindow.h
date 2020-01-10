@@ -1795,6 +1795,9 @@ mInResize
 bool
 mWindowTransformIsIdentity
 ;
+bool
+mAlwaysOnTop
+;
 int32_t
 mNumModalDescendents
 ;
