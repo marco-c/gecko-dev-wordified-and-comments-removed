@@ -501,13 +501,6 @@ ppmm
 loadProcessScript
 (
 "
-data
-:
-ChromeUtils
-.
-import
-(
-'
 resource
 :
 /
@@ -516,11 +509,9 @@ gre
 /
 modules
 /
-ExtensionProcessScript
+extensionProcessScriptLoader
 .
-jsm
-'
-)
+js
 "
 true
 )
