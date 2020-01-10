@@ -3235,11 +3235,10 @@ map
 pendingDoorhangers
 =
 >
-new
-Promise
 (
 async
-resolve
+(
+)
 =
 >
 {
@@ -3257,11 +3256,9 @@ showDoorhanger
 )
 ;
 }
-resolve
-(
-)
-;
 }
+)
+(
 )
 )
 )
