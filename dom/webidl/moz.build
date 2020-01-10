@@ -3277,6 +3277,11 @@ ExtendableMessageEvent
 webidl
 '
 '
+FailedCertSecurityInfo
+.
+webidl
+'
+'
 FakePluginTagInit
 .
 webidl
