@@ -225,6 +225,10 @@ aSendTrack
 WebRtcCallWrapper
 *
 aCallWrapper
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 :
 mPCHandle
@@ -277,6 +281,7 @@ IsVideo
 {
 InitVideo
 (
+aPrincipalHandle
 )
 ;
 }
@@ -284,6 +289,7 @@ else
 {
 InitAudio
 (
+aPrincipalHandle
 )
 ;
 }
@@ -358,6 +364,10 @@ TransceiverImpl
 :
 InitAudio
 (
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 mConduit
@@ -442,6 +452,7 @@ get
 )
 )
 mReceiveTrack
+aPrincipalHandle
 )
 ;
 }
@@ -451,6 +462,10 @@ TransceiverImpl
 :
 InitVideo
 (
+const
+PrincipalHandle
+&
+aPrincipalHandle
 )
 {
 mConduit
@@ -535,6 +550,7 @@ get
 )
 )
 mReceiveTrack
+aPrincipalHandle
 )
 ;
 }
