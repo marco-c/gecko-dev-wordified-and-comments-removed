@@ -7491,6 +7491,12 @@ patternStr
 s
 )
 ;
+char
+*
+file
+=
+nullptr
+;
 if
 (
 FcResultMatch
@@ -7507,7 +7513,7 @@ FcChar8
 *
 )
 &
-s
+file
 )
 )
 {
@@ -7526,7 +7532,7 @@ patternStr
 .
 Append
 (
-s
+file
 )
 ;
 }
