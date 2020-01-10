@@ -227,6 +227,15 @@ include
 "
 mozilla
 /
+StaticPrefs_accessibility
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SyncRunnable
 .
 h
@@ -21179,7 +21188,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
@@ -25493,7 +25502,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
@@ -25581,7 +25590,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
@@ -25855,7 +25864,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
@@ -26277,7 +26286,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "
@@ -26439,7 +26448,7 @@ include
 "
 mozilla
 /
-StaticPrefList
+StaticPrefListAll
 .
 h
 "

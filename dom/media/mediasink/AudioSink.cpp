@@ -65,6 +65,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_accessibility
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h
