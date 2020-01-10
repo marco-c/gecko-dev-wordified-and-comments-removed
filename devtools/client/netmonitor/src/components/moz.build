@@ -275,4 +275,9 @@ Toolbar
 .
 js
 '
+'
+WebSocketsPanel
+.
+js
+'
 )

@@ -267,6 +267,11 @@ blockedReason
 this
 .
 _blockedReason
+channelId
+:
+this
+.
+_channelId
 }
 ;
 }

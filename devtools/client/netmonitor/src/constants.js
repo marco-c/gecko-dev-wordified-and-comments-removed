@@ -152,6 +152,11 @@ SET_COLUMNS_WIDTH
 "
 SET_COLUMNS_WIDTH
 "
+WS_ADD_FRAME
+:
+"
+WS_ADD_FRAME
+"
 }
 ;
 const
@@ -536,6 +541,9 @@ referrerPolicy
 "
 blockedReason
 "
+"
+channelId
+"
 ]
 ;
 const
@@ -551,6 +559,11 @@ HEADERS
 :
 "
 headers
+"
+WEBSOCKETS
+:
+"
+webSockets
 "
 PARAMS
 :

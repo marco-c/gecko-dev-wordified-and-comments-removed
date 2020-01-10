@@ -41,6 +41,20 @@ ui
 "
 )
 ;
+const
+webSockets
+=
+require
+(
+"
+.
+/
+web
+-
+sockets
+"
+)
+;
 Object
 .
 assign
@@ -49,5 +63,6 @@ exports
 requests
 timingMarkers
 ui
+webSockets
 )
 ;

@@ -77,4 +77,11 @@ ui
 .
 js
 '
+'
+web
+-
+sockets
+.
+js
+'
 )
