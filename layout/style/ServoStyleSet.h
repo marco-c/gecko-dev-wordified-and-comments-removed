@@ -1603,6 +1603,8 @@ second
 }
 private
 :
+Array
+<
 std
 :
 :
@@ -1611,8 +1613,6 @@ pair
 uint8_t
 uint8_t
 >
-mCachedAnonymousContentStyleIndexes
-[
 1
 <
 <
@@ -1622,9 +1622,8 @@ AnonymousContentKey
 )
 *
 8
-]
-{
-}
+>
+mCachedAnonymousContentStyleIndexes
 ;
 nsTArray
 <

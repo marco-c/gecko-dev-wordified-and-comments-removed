@@ -494,6 +494,11 @@ EnsureInitialized
 (
 )
 ;
+PodArrayZero
+(
+mCachedAnonymousContentStyleIndexes
+)
+;
 mRawSet
 .
 reset
@@ -673,6 +678,11 @@ mCachedAnonymousContentStyles
 .
 Clear
 (
+)
+;
+PodArrayZero
+(
+mCachedAnonymousContentStyleIndexes
 )
 ;
 mStyleRuleMap
