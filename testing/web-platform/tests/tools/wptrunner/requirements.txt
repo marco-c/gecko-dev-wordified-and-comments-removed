@@ -29,11 +29,11 @@ mozdebug
 pillow
 =
 =
-5
+6
 .
-4
+0
 .
-1
+0
 urllib3
 [
 secure
