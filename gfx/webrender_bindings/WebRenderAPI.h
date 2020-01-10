@@ -1248,6 +1248,11 @@ WebRenderCompositionRecorder
 aRecorder
 )
 ;
+void
+WriteCollectedFrames
+(
+)
+;
 protected
 :
 WebRenderAPI

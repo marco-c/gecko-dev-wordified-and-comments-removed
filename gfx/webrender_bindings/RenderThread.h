@@ -906,6 +906,16 @@ WebRenderCompositionRecorder
 aCompositionRecorder
 )
 ;
+void
+WriteCollectedFramesForWindow
+(
+wr
+:
+:
+WindowId
+aWindowId
+)
+;
 private
 :
 explicit

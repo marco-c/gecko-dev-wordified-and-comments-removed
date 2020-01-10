@@ -1557,6 +1557,11 @@ WebRenderCompositionRecorder
 aRecorder
 )
 ;
+void
+WriteCollectedFrames
+(
+)
+;
 private
 :
 class
