@@ -117,8 +117,6 @@ import
 (
     
 indented_repr
-    
-system_encoding
 )
 import
 mozpack
@@ -647,7 +645,11 @@ status
 '
 w
 '
-system_encoding
+'
+utf
+-
+8
+'
 )
 as
 fh
@@ -677,11 +679,9 @@ s
 #
 coding
 =
-%
-(
-encoding
-)
-s
+utf
+-
+8
             
 from
 __future__
@@ -704,11 +704,6 @@ config
 PYTHON
 '
 ]
-'
-encoding
-'
-:
-system_encoding
 }
 )
         
