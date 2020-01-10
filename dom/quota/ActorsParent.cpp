@@ -12844,7 +12844,7 @@ DESKTOP_INI_FILE_NAME
 |
 aFileName
 .
-EqualsLiteral
+LowerCaseEqualsLiteral
 (
 THUMBS_DB_FILE_NAME
 )
