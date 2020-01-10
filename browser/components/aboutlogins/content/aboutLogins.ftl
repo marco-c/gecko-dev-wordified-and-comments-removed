@@ -168,6 +168,15 @@ login
 list
 =
 .
+aria
+-
+label
+=
+Logins
+matching
+search
+query
+.
 count
 =
 {
