@@ -71,6 +71,8 @@ locales
 \
 make
 \
+patch
+\
 mercurial
 \
 zlib1g

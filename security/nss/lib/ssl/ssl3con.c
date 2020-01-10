@@ -3833,10 +3833,12 @@ vrange
 ss
 )
 )
+{
 count
 +
 +
 ;
+}
 }
 if
 (
@@ -58334,6 +58336,8 @@ MAX_EXPANSION
 256
 +
 48
++
+16
 )
 SECStatus
 ssl3_HandleRecord

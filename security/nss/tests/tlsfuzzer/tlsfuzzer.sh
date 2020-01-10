@@ -422,7 +422,7 @@ C
 TLSFUZZER
 "
 checkout
-a40ce4085052a4da9a05f9149b835a76c194a0c6
+80d7932ead1d8dae6e555cfd2b1c4c5beb2847df
 #
 We
 could
@@ -484,7 +484,7 @@ v0
 .
 0
 -
-alpha18
+alpha27
 tlslite
 -
 ng
@@ -853,6 +853,7 @@ BINDIR
 /
 selfserv
 "
+512
 html_msg
 ?
 0

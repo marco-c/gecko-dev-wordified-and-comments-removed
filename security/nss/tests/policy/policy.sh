@@ -236,7 +236,7 @@ ignore_blank_lines
 LC_ALL
 =
 C
-grep
+egrep
 -
 v
 '
@@ -249,12 +249,9 @@ space
 ]
 ]
 *
-\
 (
 #
-\
 |
-\
 )
 '
 "

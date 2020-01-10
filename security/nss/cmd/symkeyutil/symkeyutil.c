@@ -1230,6 +1230,7 @@ outlen
 ;
 if
 (
+!
 outbuf
 -
 >
