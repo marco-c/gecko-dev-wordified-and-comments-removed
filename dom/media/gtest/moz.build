@@ -223,6 +223,11 @@ TestIntervalSet
 cpp
 '
 '
+TestKeyValueStorage
+.
+cpp
+'
+'
 TestMediaDataDecoder
 .
 cpp
