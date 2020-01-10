@@ -240,6 +240,8 @@ important
 :
 Every
 new
+or
+changed
 data
 collection
 in
@@ -263,15 +265,12 @@ org
 Firefox
 /
 Data_Collection
-#
-Requesting_Approval
 >
-_
+__
 from
 a
-data
-collection
-peer
+Data
+Steward
 .
 Privacy
 =
