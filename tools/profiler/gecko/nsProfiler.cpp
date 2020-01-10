@@ -1583,7 +1583,6 @@ promise
 >
 MaybeReject
 (
-cx
 exn
 )
 ;

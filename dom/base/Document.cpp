@@ -58996,7 +58996,6 @@ mPromise
 >
 MaybeResolve
 (
-aCx
 aValue
 )
 ;
@@ -59030,7 +59029,6 @@ mPromise
 >
 MaybeReject
 (
-aCx
 aValue
 )
 ;
