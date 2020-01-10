@@ -3812,7 +3812,7 @@ UncompressedLengthMatcher
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 substring
 (
@@ -3825,7 +3825,7 @@ size_t
 stop
 )
 ;
-JSFlatString
+JSLinearString
 *
 substringDontDeflate
 (
@@ -3869,7 +3869,7 @@ parameterListEnd_
 0
 ;
 }
-JSFlatString
+JSLinearString
 *
 functionBodyString
 (
@@ -11301,7 +11301,7 @@ mayReadFrameArgsDirectly
 )
 ;
 static
-JSFlatString
+JSLinearString
 *
 sourceData
 (

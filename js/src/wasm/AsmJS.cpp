@@ -39043,7 +39043,7 @@ srcEndAfterCurly
 ;
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 src
@@ -40825,7 +40825,7 @@ else
 {
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 src
@@ -41111,7 +41111,7 @@ else
 {
 Rooted
 <
-JSFlatString
+JSLinearString
 *
 >
 src
