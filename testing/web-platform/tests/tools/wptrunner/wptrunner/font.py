@@ -724,7 +724,7 @@ lparam
 =
 0
             
-SendMessageW
+SendNotifyMessageW
 =
 ctypes
 .
@@ -732,9 +732,9 @@ windll
 .
 user32
 .
-SendMessageW
+SendNotifyMessageW
             
-SendMessageW
+SendNotifyMessageW
 .
 argtypes
 =
@@ -745,7 +745,7 @@ HANDLE
 wintypes
 .
 UINT
-                                     
+                                           
 wintypes
 .
 WPARAM
@@ -757,11 +757,11 @@ LPARAM
 return
 bool
 (
-SendMessageW
+SendNotifyMessageW
 (
 hwnd_broadcast
 wm_fontchange
-                                     
+                                           
 wparam
 lparam
 )
@@ -948,7 +948,7 @@ lparam
 =
 0
             
-SendMessageW
+SendNotifyMessageW
 =
 ctypes
 .
@@ -956,9 +956,9 @@ windll
 .
 user32
 .
-SendMessageW
+SendNotifyMessageW
             
-SendMessageW
+SendNotifyMessageW
 .
 argtypes
 =
@@ -969,7 +969,7 @@ HANDLE
 wintypes
 .
 UINT
-                                     
+                                           
 wintypes
 .
 WPARAM
@@ -981,11 +981,11 @@ LPARAM
 return
 bool
 (
-SendMessageW
+SendNotifyMessageW
 (
 hwnd_broadcast
 wm_fontchange
-                                     
+                                           
 wparam
 lparam
 )
