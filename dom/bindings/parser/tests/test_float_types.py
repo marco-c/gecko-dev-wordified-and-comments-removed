@@ -641,6 +641,7 @@ arg
     
 except
 Exception
+as
 x
 :
         
@@ -715,6 +716,7 @@ arg
     
 except
 Exception
+as
 x
 :
         
@@ -795,6 +797,7 @@ arg
     
 except
 Exception
+as
 x
 :
         
@@ -879,6 +882,7 @@ arg
     
 except
 Exception
+as
 x
 :
         
@@ -956,6 +960,7 @@ foo
     
 except
 Exception
+as
 x
 :
         

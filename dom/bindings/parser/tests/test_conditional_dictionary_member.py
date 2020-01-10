@@ -293,6 +293,7 @@ finish
     
 except
 Exception
+as
 exception
 :
         
@@ -440,6 +441,7 @@ finish
     
 except
 Exception
+as
 exception
 :
         
@@ -606,6 +608,7 @@ finish
     
 except
 Exception
+as
 exception
 :
         

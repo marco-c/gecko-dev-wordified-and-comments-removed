@@ -58,9 +58,12 @@ return
     
 indices
 =
+list
+(
 range
 (
 r
+)
 )
     
 yield

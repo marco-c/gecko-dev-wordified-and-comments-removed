@@ -60,6 +60,7 @@ parse
     
 except
 Exception
+as
 e
 :
         
@@ -151,6 +152,7 @@ parse
     
 except
 Exception
+as
 e
 :
         
@@ -242,6 +244,7 @@ parse
     
 except
 Exception
+as
 e
 :
         
