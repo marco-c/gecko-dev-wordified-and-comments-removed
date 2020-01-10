@@ -1120,6 +1120,8 @@ wr
 :
 DeviceIntSize
 aSize
+bool
+aIsOpaque
 )
 {
 RefPtr
@@ -1165,6 +1167,14 @@ layer
 SetGLContext
 (
 mGL
+)
+;
+layer
+-
+>
+SetIsOpaque
+(
+aIsOpaque
 )
 ;
 mNativeLayers

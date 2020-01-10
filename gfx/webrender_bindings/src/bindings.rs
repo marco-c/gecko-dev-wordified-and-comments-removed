@@ -5803,6 +5803,9 @@ NativeSurfaceId
 size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 ;
 fn
@@ -5920,6 +5923,9 @@ NativeSurfaceId
 size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 {
 unsafe
@@ -5931,6 +5937,7 @@ self
 0
 id
 size
+is_opaque
 )
 ;
 }
