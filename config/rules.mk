@@ -3008,6 +3008,8 @@ gcda
 endif
 endif
 endif
+ifdef
+MOZ_1TIER_PGO
 ifneq
 (
 (
@@ -3058,6 +3060,7 @@ LIBRARY
 )
 :
 FORCE
+endif
 endif
 endif
 endif
