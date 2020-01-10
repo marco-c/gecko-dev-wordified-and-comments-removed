@@ -101,9 +101,11 @@ BUG_COMPONENT
 Core
 '
 '
-DOM
+Privacy
 :
-Security
+Anti
+-
+Tracking
 '
 )
 XPIDL_SOURCES
