@@ -17633,7 +17633,7 @@ aMinTwips
 )
 const
 {
-MOZ_DIAGNOSTIC_ASSERT
+NS_ASSERTION
 (
 aFrame
 -
