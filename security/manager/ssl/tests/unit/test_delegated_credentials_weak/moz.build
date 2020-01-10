@@ -115,14 +115,6 @@ pem
 '
 #
 '
-delegated
--
-ee
-.
-pem
-'
-#
-'
 default
 -
 ee
@@ -159,6 +151,8 @@ key
 #
 '
 delegated
+-
+weak
 .
 key
 '

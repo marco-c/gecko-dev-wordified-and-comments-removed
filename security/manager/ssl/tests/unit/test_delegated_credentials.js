@@ -166,11 +166,7 @@ com
 "
 SSL_ERROR_DC_INVALID_KEY_USAGE
 null
-function
-(
-)
-{
-}
+null
 )
 ;
 add_connection_test

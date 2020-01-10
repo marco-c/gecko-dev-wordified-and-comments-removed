@@ -5121,6 +5121,9 @@ flags
 maybePeerCertsBytes
 stapledOCSPResponse
 sctsFromTLSExtension
+Nothing
+(
+)
 infoObject
 -
 >
