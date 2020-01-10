@@ -251,7 +251,6 @@ devices
 android_device
 import
 verify_android_device
-grant_runtime_permissions
             
 verify_android_device
 (
@@ -268,18 +267,6 @@ True
 app
 =
 package_name
-)
-            
-grant_runtime_permissions
-(
-self
-package_name
-kwargs
-[
-"
-device_serial
-"
-]
 )
             
 if
