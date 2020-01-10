@@ -313,8 +313,10 @@ for
 (
 let
 pref
-in
-prefs
+of
+setting
+.
+prefNames
 )
 {
 if
