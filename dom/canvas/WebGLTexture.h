@@ -1285,6 +1285,11 @@ out_initFailed
 )
 const
 ;
+void
+Truncate
+(
+)
+;
 bool
 IsCubeMap
 (
