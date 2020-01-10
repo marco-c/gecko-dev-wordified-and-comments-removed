@@ -192,6 +192,9 @@ span
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLSpanElement

@@ -124,6 +124,11 @@ html
 Events
 -
 KeyEvent
+[
+Exposed
+=
+Window
+]
 interface
 KeyEvent
 {

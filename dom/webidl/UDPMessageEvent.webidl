@@ -153,6 +153,9 @@ udpsocket
 enabled
 "
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 UDPMessageEvent

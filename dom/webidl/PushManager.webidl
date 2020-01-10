@@ -181,6 +181,9 @@ PushManager
 1
 "
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 PushManagerImpl

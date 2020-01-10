@@ -218,6 +218,9 @@ synth
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 SpeechSynthesisErrorEvent

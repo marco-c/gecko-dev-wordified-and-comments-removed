@@ -3,6 +3,9 @@ PluginTag
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 HiddenPluginEvent

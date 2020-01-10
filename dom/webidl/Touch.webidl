@@ -226,6 +226,9 @@ Touch
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 Touch

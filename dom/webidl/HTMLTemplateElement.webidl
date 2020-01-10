@@ -119,6 +119,9 @@ apply
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLTemplateElement

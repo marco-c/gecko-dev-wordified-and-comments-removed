@@ -132,6 +132,9 @@ vr
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 VRDisplayEvent

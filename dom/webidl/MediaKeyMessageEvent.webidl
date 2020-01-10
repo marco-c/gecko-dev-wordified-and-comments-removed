@@ -182,6 +182,11 @@ request
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeyMessageEvent
 :

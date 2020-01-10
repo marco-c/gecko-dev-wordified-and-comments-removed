@@ -830,6 +830,9 @@ rtcstatsreport
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCStatsReport

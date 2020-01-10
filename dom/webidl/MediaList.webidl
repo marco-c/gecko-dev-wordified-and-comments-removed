@@ -113,6 +113,11 @@ the
 medialist
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 MediaList
 {

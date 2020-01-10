@@ -223,6 +223,9 @@ dl
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLDListElement

@@ -133,6 +133,9 @@ origin
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 PerformanceEntryEvent

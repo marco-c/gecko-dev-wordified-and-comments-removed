@@ -157,6 +157,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeySession
 :

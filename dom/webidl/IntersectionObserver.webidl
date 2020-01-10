@@ -124,6 +124,9 @@ IntersectionObserver
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 IntersectionObserverEntry
@@ -197,6 +200,9 @@ IntersectionObserver
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 IntersectionObserver

@@ -167,6 +167,9 @@ imagecapture
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ImageCaptureErrorEvent
@@ -208,6 +211,9 @@ null
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 ImageCaptureError

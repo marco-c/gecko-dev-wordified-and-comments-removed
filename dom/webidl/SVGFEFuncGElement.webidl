@@ -150,6 +150,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 SVGFEFuncGElement
 :

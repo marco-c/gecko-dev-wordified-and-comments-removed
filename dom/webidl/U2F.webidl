@@ -401,6 +401,9 @@ webauth
 .
 u2f
 "
+Exposed
+=
+Window
 ]
 interface
 U2F

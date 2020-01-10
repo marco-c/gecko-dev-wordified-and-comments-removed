@@ -137,6 +137,9 @@ installtrigger
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 InstallTriggerImpl

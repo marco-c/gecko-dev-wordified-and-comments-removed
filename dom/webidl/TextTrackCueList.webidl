@@ -123,6 +123,11 @@ work
 texttrackcuelist
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 TextTrackCueList
 {

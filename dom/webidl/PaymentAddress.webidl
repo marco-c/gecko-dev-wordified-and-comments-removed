@@ -161,6 +161,9 @@ PaymentRequest
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 PaymentAddress

@@ -150,6 +150,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 MediaError
 {

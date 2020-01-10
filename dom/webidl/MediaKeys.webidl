@@ -256,6 +256,11 @@ minHdcpVersion
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeys
 {

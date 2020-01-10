@@ -151,6 +151,11 @@ the
 csscounterstylerule
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 CSSCounterStyleRule
 :

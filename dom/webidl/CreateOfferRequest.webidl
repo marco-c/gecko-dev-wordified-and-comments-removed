@@ -114,6 +114,9 @@ createofferrequest
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 CreateOfferRequest

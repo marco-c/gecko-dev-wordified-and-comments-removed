@@ -131,6 +131,9 @@ receiver
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PresentationReceiver

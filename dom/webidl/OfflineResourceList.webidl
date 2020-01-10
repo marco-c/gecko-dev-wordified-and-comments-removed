@@ -76,6 +76,9 @@ nsGlobalWindowInner
 :
 OfflineCacheAllowedForContext
 "
+Exposed
+=
+Window
 ]
 interface
 OfflineResourceList

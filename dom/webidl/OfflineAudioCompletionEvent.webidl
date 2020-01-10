@@ -162,6 +162,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 OfflineAudioCompletionEvent

@@ -139,6 +139,11 @@ the
 cssstylerule
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 CSSStyleRule
 :

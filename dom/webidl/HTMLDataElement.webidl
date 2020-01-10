@@ -138,6 +138,9 @@ element
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLDataElement

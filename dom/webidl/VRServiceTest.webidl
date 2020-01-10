@@ -89,6 +89,9 @@ VRServiceTest
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRMockDisplay
@@ -257,6 +260,9 @@ VRServiceTest
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRMockController
@@ -397,6 +403,9 @@ VRServiceTest
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRServiceTest

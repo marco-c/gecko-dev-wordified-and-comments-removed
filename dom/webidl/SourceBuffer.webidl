@@ -177,6 +177,9 @@ mediasource
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 SourceBuffer

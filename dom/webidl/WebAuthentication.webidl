@@ -139,6 +139,9 @@ webauth
 .
 webauthn
 "
+Exposed
+=
+Window
 ]
 interface
 PublicKeyCredential
@@ -217,6 +220,9 @@ webauth
 .
 webauthn
 "
+Exposed
+=
+Window
 ]
 interface
 AuthenticatorResponse
@@ -242,6 +248,9 @@ webauth
 .
 webauthn
 "
+Exposed
+=
+Window
 ]
 interface
 AuthenticatorAttestationResponse
@@ -269,6 +278,9 @@ webauth
 .
 webauthn
 "
+Exposed
+=
+Window
 ]
 interface
 AuthenticatorAssertionResponse

@@ -257,6 +257,11 @@ manner
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 callback
 interface
 UncaughtRejectionObserver

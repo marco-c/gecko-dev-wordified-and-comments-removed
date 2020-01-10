@@ -200,6 +200,11 @@ cgi
 id
 =
 21798
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeyError
 :

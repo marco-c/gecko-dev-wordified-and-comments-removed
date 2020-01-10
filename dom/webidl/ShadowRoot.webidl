@@ -197,6 +197,11 @@ org
 /
 #
 shadowroot
+[
+Exposed
+=
+Window
+]
 interface
 ShadowRoot
 :

@@ -123,6 +123,11 @@ work
 texttracklist
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 TextTrackList
 :

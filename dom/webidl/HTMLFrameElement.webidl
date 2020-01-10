@@ -183,6 +183,9 @@ work
 htmlframeelement
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLFrameElement

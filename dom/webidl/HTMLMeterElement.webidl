@@ -192,6 +192,9 @@ meter
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMeterElement

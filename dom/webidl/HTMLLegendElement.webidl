@@ -223,6 +223,9 @@ legend
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLLegendElement

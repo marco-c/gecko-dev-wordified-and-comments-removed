@@ -172,6 +172,11 @@ persisted
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 Animation
 :

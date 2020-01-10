@@ -127,6 +127,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceJS

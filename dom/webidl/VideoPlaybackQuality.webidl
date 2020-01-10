@@ -166,6 +166,9 @@ mediasource
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 VideoPlaybackQuality

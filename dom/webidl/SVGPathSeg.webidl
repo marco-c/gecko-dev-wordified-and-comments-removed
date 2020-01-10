@@ -141,6 +141,9 @@ apply
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSeg
@@ -311,6 +314,9 @@ pathSegTypeAsLetter
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegClosePath
@@ -321,6 +327,9 @@ SVGPathSeg
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegMovetoAbs
@@ -345,6 +354,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegMovetoRel
@@ -369,6 +381,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoAbs
@@ -393,6 +408,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoRel
@@ -417,6 +435,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoCubicAbs
@@ -469,6 +490,9 @@ y2
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoCubicRel
@@ -521,6 +545,9 @@ y2
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoQuadraticAbs
@@ -559,6 +586,9 @@ y1
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoQuadraticRel
@@ -597,6 +627,9 @@ y1
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegArcAbs
@@ -656,6 +689,9 @@ sweepFlag
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegArcRel
@@ -715,6 +751,9 @@ sweepFlag
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoHorizontalAbs
@@ -732,6 +771,9 @@ x
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoHorizontalRel
@@ -749,6 +791,9 @@ x
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoVerticalAbs
@@ -766,6 +811,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegLinetoVerticalRel
@@ -783,6 +831,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoCubicSmoothAbs
@@ -821,6 +872,9 @@ y2
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoCubicSmoothRel
@@ -859,6 +913,9 @@ y2
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoQuadraticSmoothAbs
@@ -883,6 +940,9 @@ y
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 SVGPathSegCurvetoQuadraticSmoothRel

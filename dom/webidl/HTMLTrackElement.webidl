@@ -129,6 +129,9 @@ element
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLTrackElement

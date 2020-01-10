@@ -143,6 +143,9 @@ apply
 /
 [
 ProbablyShortLivingWrapper
+Exposed
+=
+Window
 ]
 interface
 MediaQueryList

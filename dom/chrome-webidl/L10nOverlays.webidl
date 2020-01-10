@@ -112,6 +112,9 @@ l10nName
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 namespace
 L10nOverlays

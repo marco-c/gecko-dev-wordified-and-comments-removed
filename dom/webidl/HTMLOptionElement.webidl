@@ -188,6 +188,9 @@ selected
 =
 false
 )
+Exposed
+=
+Window
 ]
 interface
 HTMLOptionElement

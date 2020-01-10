@@ -68,6 +68,9 @@ test
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadServiceTest

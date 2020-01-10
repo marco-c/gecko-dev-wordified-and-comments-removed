@@ -155,6 +155,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 FocusEvent
 :

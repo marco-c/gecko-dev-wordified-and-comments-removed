@@ -226,6 +226,9 @@ menu
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMenuElement

@@ -147,6 +147,9 @@ apply
 /
 [
 ProbablyShortLivingWrapper
+Exposed
+=
+Window
 ]
 interface
 NodeList

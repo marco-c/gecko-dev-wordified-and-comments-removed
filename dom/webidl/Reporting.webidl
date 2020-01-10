@@ -129,6 +129,9 @@ reporting
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ReportBody
@@ -145,6 +148,9 @@ reporting
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 Report
@@ -177,6 +183,9 @@ reporting
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ReportingObserver
@@ -260,6 +269,9 @@ reporting
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 DeprecationReportBody

@@ -153,6 +153,9 @@ audioworklet
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioParamMap

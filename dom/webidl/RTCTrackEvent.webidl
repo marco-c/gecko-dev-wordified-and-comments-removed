@@ -159,6 +159,9 @@ peerconnection
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 RTCTrackEvent

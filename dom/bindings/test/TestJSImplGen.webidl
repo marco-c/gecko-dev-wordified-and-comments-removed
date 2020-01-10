@@ -123,6 +123,9 @@ b
 }
 ;
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "
@@ -7264,6 +7267,11 @@ as
 well
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TestCImplementedInterface
 :
@@ -7271,6 +7279,11 @@ TestJSImplInterface
 {
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TestCImplementedInterface2
 {
@@ -7295,6 +7308,9 @@ interface
 ;
 2
 "
+Exposed
+=
+Window
 ]
 interface
 TestJSImplNoInterfaceObject

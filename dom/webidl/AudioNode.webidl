@@ -193,6 +193,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioNode

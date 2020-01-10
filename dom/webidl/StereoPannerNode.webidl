@@ -163,6 +163,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 StereoPannerNode

@@ -273,6 +273,11 @@ sessionTypes
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeySystemAccess
 {

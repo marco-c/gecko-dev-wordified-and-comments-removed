@@ -120,6 +120,11 @@ blobevent
 section
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 BlobEvent
 :

@@ -143,6 +143,9 @@ Navigator
 :
 HasUserMediaSupport
 "
+Exposed
+=
+Window
 ]
 interface
 MediaDeviceInfo

@@ -124,6 +124,9 @@ w3c_pointer_events
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PointerEvent

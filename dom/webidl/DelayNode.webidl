@@ -168,6 +168,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 DelayNode

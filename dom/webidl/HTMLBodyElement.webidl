@@ -158,6 +158,9 @@ document
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLBodyElement

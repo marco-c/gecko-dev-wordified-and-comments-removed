@@ -92,6 +92,9 @@ MPL
 *
 /
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "
@@ -125,6 +128,9 @@ constructor
 }
 ;
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "
@@ -183,6 +189,9 @@ to
 test
 .
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "
@@ -241,6 +250,9 @@ to
 test
 .
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "
@@ -274,6 +286,9 @@ constructor
 }
 ;
 [
+Exposed
+=
+Window
 JSImplementation
 =
 "

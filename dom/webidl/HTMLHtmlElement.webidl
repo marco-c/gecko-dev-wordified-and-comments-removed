@@ -223,6 +223,9 @@ html
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLHtmlElement

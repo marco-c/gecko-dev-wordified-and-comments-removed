@@ -150,6 +150,11 @@ from
 web
 apps
 .
+[
+Exposed
+=
+Window
+]
 interface
 StaticRange
 :

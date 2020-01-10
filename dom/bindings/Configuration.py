@@ -5092,7 +5092,6 @@ sort
 "
         
 return
-(
 self
 .
 interface
@@ -5102,19 +5101,6 @@ getExtendedAttribute
 "
 Global
 "
-)
-or
-                
-self
-.
-interface
-.
-getExtendedAttribute
-(
-"
-PrimaryGlobal
-"
-)
 )
     
 property

@@ -124,6 +124,11 @@ work
 beforeunloadevent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 BeforeUnloadEvent
 :

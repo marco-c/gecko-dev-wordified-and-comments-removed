@@ -158,6 +158,11 @@ prerender
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 PerformanceNavigationTiming
 :

@@ -125,6 +125,9 @@ logMessages
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 namespace
 WebrtcGlobalInformation

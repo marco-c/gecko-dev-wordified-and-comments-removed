@@ -222,6 +222,9 @@ p
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLParagraphElement

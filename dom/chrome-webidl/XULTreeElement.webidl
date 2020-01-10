@@ -123,6 +123,9 @@ Func
 "
 IsChromeOrXBL
 "
+Exposed
+=
+Window
 ]
 interface
 XULTreeElement

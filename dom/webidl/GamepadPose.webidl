@@ -132,6 +132,9 @@ extensions
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadPose

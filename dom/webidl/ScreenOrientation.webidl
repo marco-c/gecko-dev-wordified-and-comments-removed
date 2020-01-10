@@ -201,6 +201,11 @@ secondary
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 ScreenOrientation
 :

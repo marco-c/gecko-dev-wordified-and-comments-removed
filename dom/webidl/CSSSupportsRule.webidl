@@ -143,6 +143,11 @@ the
 csssupportsrule
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 CSSSupportsRule
 :

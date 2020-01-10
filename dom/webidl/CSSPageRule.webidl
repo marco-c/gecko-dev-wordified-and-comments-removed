@@ -159,6 +159,11 @@ implement
 this
 yet
 .
+[
+Exposed
+=
+Window
+]
 interface
 CSSPageRule
 :

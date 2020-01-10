@@ -178,6 +178,9 @@ be
 set
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 GetUserMediaRequest

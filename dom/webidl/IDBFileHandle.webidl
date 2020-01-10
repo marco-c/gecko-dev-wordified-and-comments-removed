@@ -73,9 +73,7 @@ true
 [
 Exposed
 =
-(
 Window
-)
 ]
 interface
 IDBFileHandle

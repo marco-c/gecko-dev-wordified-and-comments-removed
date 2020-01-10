@@ -120,6 +120,11 @@ File
 file
 )
 ;
+[
+Exposed
+=
+Window
+]
 interface
 FileSystemFileEntry
 :

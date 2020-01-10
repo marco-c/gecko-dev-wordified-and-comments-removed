@@ -212,6 +212,9 @@ document
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLIFrameElement

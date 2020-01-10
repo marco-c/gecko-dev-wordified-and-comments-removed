@@ -192,6 +192,9 @@ base
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLBaseElement

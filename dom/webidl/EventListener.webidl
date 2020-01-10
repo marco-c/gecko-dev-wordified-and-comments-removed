@@ -145,6 +145,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 callback
 interface
 EventListener

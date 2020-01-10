@@ -129,6 +129,9 @@ worklet
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 Worklet

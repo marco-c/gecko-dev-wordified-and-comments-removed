@@ -141,6 +141,9 @@ regions
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 VTTRegion

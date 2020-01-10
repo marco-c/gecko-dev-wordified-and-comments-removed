@@ -218,6 +218,9 @@ peerconnectionstatic
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCPeerConnectionStatic

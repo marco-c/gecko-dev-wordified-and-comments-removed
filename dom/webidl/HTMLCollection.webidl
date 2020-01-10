@@ -147,6 +147,9 @@ apply
 /
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+Window
 ]
 interface
 HTMLCollection

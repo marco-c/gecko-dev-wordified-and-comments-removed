@@ -1583,6 +1583,11 @@ targetFrameLoader
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 callback
 interface
 MessageListener
@@ -1700,6 +1705,9 @@ argument
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MessageListenerManager
@@ -2070,6 +2078,9 @@ manager
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MessageSender
@@ -2380,6 +2391,9 @@ remoteType
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 SyncMessageSender
@@ -2630,6 +2644,9 @@ process
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ChildProcessMessageManager
@@ -3279,6 +3296,9 @@ sharedData
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ContentFrameMessageManager
@@ -3422,6 +3442,9 @@ MessageListenerManagerMixin
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ContentProcessMessageManager
@@ -3545,6 +3568,9 @@ window
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MessageBroadcaster
@@ -3734,6 +3760,9 @@ managers
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ChromeMessageBroadcaster
@@ -3770,6 +3799,9 @@ processes
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ParentProcessMessageManager
@@ -3788,6 +3820,9 @@ GlobalProcessScriptLoader
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ChromeMessageSender
@@ -3836,6 +3871,9 @@ scenario
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ProcessMessageManager

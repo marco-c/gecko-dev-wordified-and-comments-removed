@@ -155,6 +155,11 @@ org
 /
 #
 xmldocument
+[
+Exposed
+=
+Window
+]
 interface
 XMLDocument
 :

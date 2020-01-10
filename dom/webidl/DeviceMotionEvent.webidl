@@ -107,6 +107,9 @@ deviceorientation
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 DeviceAcceleration
@@ -133,6 +136,9 @@ z
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 DeviceRotationRate
@@ -177,6 +183,9 @@ nsGlobalWindowInner
 :
 DeviceSensorsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 DeviceMotionEvent

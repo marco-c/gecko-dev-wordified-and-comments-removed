@@ -180,6 +180,9 @@ api
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 FontFaceSetLoadEvent

@@ -191,6 +191,11 @@ error
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MediaKeyStatusMap
 {

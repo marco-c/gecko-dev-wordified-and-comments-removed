@@ -191,6 +191,9 @@ button
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLButtonElement

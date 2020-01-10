@@ -191,6 +191,9 @@ map
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMapElement

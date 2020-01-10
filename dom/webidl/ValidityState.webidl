@@ -157,6 +157,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 ValidityState
 {

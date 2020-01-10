@@ -162,6 +162,9 @@ gamepad
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadButton
@@ -216,6 +219,9 @@ gamepad
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 Gamepad

@@ -140,6 +140,9 @@ TouchEvent
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 TouchEvent

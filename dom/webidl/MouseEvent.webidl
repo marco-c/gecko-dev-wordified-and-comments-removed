@@ -180,6 +180,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 MouseEvent
 :

@@ -189,6 +189,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 Element
 :

@@ -106,6 +106,9 @@ Func
 "
 IsChromeOrXBL
 "
+Exposed
+=
+Window
 ]
 interface
 XULFrameElement

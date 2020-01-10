@@ -132,6 +132,11 @@ history
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 PageTransitionEvent
 :

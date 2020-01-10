@@ -160,6 +160,9 @@ apis
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLStyleElement

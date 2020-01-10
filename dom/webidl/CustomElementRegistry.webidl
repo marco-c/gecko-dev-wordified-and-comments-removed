@@ -76,6 +76,11 @@ dom
 window
 -
 customelements
+[
+Exposed
+=
+Window
+]
 interface
 CustomElementRegistry
 {

@@ -188,6 +188,9 @@ it
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 DocumentL10n

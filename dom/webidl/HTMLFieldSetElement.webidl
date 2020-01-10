@@ -164,6 +164,9 @@ document
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLFieldSetElement

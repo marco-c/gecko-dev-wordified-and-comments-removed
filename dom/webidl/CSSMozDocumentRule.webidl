@@ -106,6 +106,11 @@ moz
 -
 document
 rules
+[
+Exposed
+=
+Window
+]
 interface
 CSSMozDocumentRule
 :

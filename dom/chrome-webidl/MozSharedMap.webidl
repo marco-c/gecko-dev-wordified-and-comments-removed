@@ -97,6 +97,9 @@ StructuredClonable
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MozSharedMapChangeEvent
@@ -133,6 +136,9 @@ changedKeys
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MozSharedMap
@@ -166,6 +172,9 @@ StructuredClonable
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MozWritableSharedMap

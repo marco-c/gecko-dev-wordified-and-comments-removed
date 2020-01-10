@@ -117,6 +117,11 @@ webrtc
 rtcdtmftonechangeevent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 RTCDTMFToneChangeEvent
 :

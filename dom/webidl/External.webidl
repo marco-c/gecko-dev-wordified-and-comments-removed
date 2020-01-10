@@ -104,6 +104,9 @@ sidebar
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 External

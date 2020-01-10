@@ -635,6 +635,9 @@ API
 /
 [
 Serializable
+Exposed
+=
+Window
 ]
 interface
 CryptoKey

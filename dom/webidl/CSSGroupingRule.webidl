@@ -131,6 +131,11 @@ cssom
 /
 #
 cssgroupingrule
+[
+Exposed
+=
+Window
+]
 interface
 CSSGroupingRule
 :

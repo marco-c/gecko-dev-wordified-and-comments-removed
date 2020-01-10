@@ -180,6 +180,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PeriodicWave

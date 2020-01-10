@@ -91,6 +91,11 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 Screen
 :
@@ -393,6 +398,9 @@ nsScreen
 :
 MediaCapabilitiesEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 ScreenLuminance

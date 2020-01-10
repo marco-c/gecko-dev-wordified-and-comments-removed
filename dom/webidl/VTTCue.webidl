@@ -197,6 +197,11 @@ lr
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 VTTCue
 :

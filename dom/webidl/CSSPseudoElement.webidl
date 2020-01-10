@@ -152,6 +152,9 @@ Document
 :
 IsWebAnimationsGetAnimationsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 CSSPseudoElement

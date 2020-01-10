@@ -2130,6 +2130,9 @@ parse
         
 [
 Global
+Exposed
+=
+Window
 ]
 interface
 Window
@@ -2412,12 +2415,21 @@ parse
             
 [
 Global
+Exposed
+=
+Window
 ]
 interface
 Window
 {
 }
 ;
+            
+[
+Exposed
+=
+Window
+]
             
 interface
 A
@@ -2506,6 +2518,9 @@ parse
             
 [
 Global
+Exposed
+=
+Window
 ]
 interface
 Window
@@ -2527,6 +2542,12 @@ B
 {
 }
 ;
+            
+[
+Exposed
+=
+Window
+]
             
 interface
 A
@@ -2600,6 +2621,9 @@ parse
             
 [
 Global
+Exposed
+=
+Window
 ]
 interface
 Window

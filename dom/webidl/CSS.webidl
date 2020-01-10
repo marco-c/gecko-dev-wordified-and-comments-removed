@@ -168,6 +168,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 namespace
 CSS
 {

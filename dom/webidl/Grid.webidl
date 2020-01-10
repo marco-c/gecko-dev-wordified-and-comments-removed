@@ -227,6 +227,9 @@ removed
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 Grid
@@ -257,6 +260,9 @@ areas
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridDimension
@@ -275,6 +281,9 @@ tracks
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridLines
@@ -325,6 +334,9 @@ index
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridLine
@@ -615,6 +627,9 @@ negativeNumber
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridTracks
@@ -665,6 +680,9 @@ index
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridTrack
@@ -693,6 +711,9 @@ state
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 GridArea

@@ -103,6 +103,9 @@ non_standard_events
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadButtonEvent

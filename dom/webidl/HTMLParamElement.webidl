@@ -223,6 +223,9 @@ param
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLParamElement

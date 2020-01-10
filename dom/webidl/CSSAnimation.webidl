@@ -165,6 +165,9 @@ nsAnimationManager
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 CSSAnimation

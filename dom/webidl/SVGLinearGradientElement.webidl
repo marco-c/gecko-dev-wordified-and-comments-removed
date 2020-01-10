@@ -137,6 +137,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 SVGLinearGradientElement
 :

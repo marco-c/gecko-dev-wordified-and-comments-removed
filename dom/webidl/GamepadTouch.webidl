@@ -133,6 +133,9 @@ extensions
 .
 multitouch
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadTouch

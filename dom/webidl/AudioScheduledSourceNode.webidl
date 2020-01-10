@@ -147,6 +147,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 AudioScheduledSourceNode
 :

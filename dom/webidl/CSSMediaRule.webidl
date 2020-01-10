@@ -211,6 +211,11 @@ behavior
 from
 cssom
 .
+[
+Exposed
+=
+Window
+]
 interface
 CSSMediaRule
 :

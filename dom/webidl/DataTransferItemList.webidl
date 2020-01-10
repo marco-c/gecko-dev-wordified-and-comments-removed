@@ -125,6 +125,11 @@ datatransferitemlist
 interface
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DataTransferItemList
 {

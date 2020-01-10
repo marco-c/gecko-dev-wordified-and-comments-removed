@@ -159,6 +159,9 @@ PaymentRequest
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 PaymentRequestUpdateEvent

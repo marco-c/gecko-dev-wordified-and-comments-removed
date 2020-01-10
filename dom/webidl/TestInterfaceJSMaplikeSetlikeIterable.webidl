@@ -99,6 +99,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceMaplike
@@ -154,6 +157,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceMaplikeObject
@@ -227,6 +233,9 @@ maplike
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceJSMaplike
@@ -276,6 +285,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceSetlike
@@ -302,6 +314,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceSetlikeNode
@@ -328,6 +343,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceIterableSingle
@@ -368,6 +386,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceIterableDouble
@@ -395,6 +416,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestInterfaceIterableDoubleUnion

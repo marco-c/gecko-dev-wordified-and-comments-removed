@@ -91,6 +91,11 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 callback
 interface
 MozDocumentCallback

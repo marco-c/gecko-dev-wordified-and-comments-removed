@@ -165,6 +165,9 @@ nsTransitionManager
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 CSSTransition

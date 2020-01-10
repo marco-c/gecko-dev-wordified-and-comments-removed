@@ -251,6 +251,11 @@ ImageBitmap
 )
 CanvasImageSource
 ;
+[
+Exposed
+=
+Window
+]
 interface
 CanvasRenderingContext2D
 {
@@ -2360,6 +2365,11 @@ clearHitRegions
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 CanvasGradient
 {
@@ -2388,6 +2398,11 @@ color
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 CanvasPattern
 {
@@ -2451,6 +2466,11 @@ matrix
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TextMetrics
 {
@@ -2548,6 +2568,9 @@ path
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 Path2D

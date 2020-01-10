@@ -114,6 +114,9 @@ org
 /
 [
 ProbablyShortLivingWrapper
+Exposed
+=
+Window
 ]
 interface
 MutationRecord
@@ -272,6 +275,11 @@ removedAnimations
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MutationObserver
 {

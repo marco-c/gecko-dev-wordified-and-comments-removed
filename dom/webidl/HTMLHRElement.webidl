@@ -222,6 +222,9 @@ hr
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLHRElement

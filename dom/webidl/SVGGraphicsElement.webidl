@@ -164,6 +164,11 @@ false
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 SVGGraphicsElement
 :

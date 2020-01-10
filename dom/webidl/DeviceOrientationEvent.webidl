@@ -112,6 +112,9 @@ nsGlobalWindowInner
 DeviceSensorsEnabled
 "
 LegacyEventInit
+Exposed
+=
+Window
 ]
 interface
 DeviceOrientationEvent

@@ -123,6 +123,11 @@ browser
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 PaintRequest
 {

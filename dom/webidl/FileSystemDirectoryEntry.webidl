@@ -111,6 +111,11 @@ idl
 index
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 FileSystemDirectoryEntry
 :

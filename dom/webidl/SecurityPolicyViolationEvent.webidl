@@ -67,6 +67,11 @@ report
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 SecurityPolicyViolationEvent
 :

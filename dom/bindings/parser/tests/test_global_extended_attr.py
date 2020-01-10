@@ -16,6 +16,9 @@ parse
       
 [
 Global
+Exposed
+=
+Foo
 ]
       
 interface
@@ -34,6 +37,12 @@ name
       
 }
 ;
+      
+[
+Exposed
+=
+Foo
+]
       
 interface
 Bar
@@ -137,6 +146,9 @@ parse
           
 [
 Global
+Exposed
+=
+Foo
 ]
           
 interface
@@ -237,6 +249,9 @@ parse
           
 [
 Global
+Exposed
+=
+Foo
 ]
           
 interface
@@ -336,6 +351,9 @@ parse
 [
 Global
 OverrideBuiltins
+Exposed
+=
+Foo
 ]
           
 interface
@@ -419,6 +437,9 @@ parse
           
 [
 Global
+Exposed
+=
+Foo
 ]
           
 interface
@@ -432,6 +453,9 @@ Bar
           
 [
 OverrideBuiltins
+Exposed
+=
+Foo
 ]
           
 interface
@@ -516,6 +540,9 @@ parse
           
 [
 Global
+Exposed
+=
+Foo
 ]
           
 interface
@@ -524,6 +551,12 @@ Foo
           
 }
 ;
+          
+[
+Exposed
+=
+Foo
+]
           
 interface
 Bar

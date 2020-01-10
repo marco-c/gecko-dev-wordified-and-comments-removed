@@ -160,6 +160,9 @@ Document
 :
 AreWebAnimationsTimelinesEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 DocumentTimeline

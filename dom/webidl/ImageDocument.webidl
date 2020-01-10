@@ -117,6 +117,9 @@ imgIRequest
 [
 ChromeOnly
 OverrideBuiltins
+Exposed
+=
+Window
 ]
 interface
 ImageDocument

@@ -115,6 +115,11 @@ org
 texttrackcue
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 TextTrackCue
 :

@@ -316,6 +316,9 @@ rtpsender
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCRtpSender

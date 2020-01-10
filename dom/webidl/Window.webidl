@@ -434,9 +434,12 @@ current
 work
 /
 [
-PrimaryGlobal
+Global
 LegacyUnenumerableNamedProperties
 NeedResolve
+Exposed
+=
+Window
 ]
 /
 *

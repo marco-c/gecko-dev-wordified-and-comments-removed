@@ -56,6 +56,11 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 StyleSheetList
 {

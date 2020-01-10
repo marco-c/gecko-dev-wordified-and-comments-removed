@@ -117,6 +117,11 @@ multipage
 dragevent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DragEvent
 :

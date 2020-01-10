@@ -144,6 +144,11 @@ DOMException
 err
 )
 ;
+[
+Exposed
+=
+Window
+]
 interface
 FileSystem
 {

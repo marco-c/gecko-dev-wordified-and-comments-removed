@@ -234,6 +234,9 @@ XULControllers
 ;
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLInputElement

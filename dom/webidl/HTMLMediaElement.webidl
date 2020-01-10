@@ -160,6 +160,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 HTMLMediaElement
 :

@@ -144,6 +144,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 SVGSymbolElement
 :

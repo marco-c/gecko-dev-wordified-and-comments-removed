@@ -170,6 +170,9 @@ dialog_element
 enabled
 "
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLDialogElement

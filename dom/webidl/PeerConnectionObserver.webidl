@@ -135,6 +135,9 @@ peerconnectionobserver
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 PeerConnectionObserver

@@ -129,6 +129,9 @@ presentation
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PresentationConnectionAvailableEvent

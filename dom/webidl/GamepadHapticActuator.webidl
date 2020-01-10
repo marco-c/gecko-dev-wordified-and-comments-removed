@@ -151,6 +151,9 @@ GamepadHapticActuator
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadHapticActuator

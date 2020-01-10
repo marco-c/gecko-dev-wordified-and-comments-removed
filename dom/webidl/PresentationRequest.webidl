@@ -131,6 +131,9 @@ controller
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PresentationRequest

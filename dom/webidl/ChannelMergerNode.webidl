@@ -164,6 +164,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ChannelMergerNode

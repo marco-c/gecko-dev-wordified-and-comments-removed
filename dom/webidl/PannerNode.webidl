@@ -257,6 +257,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PannerNode

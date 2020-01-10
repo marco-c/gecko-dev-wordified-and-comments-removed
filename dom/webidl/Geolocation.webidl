@@ -170,6 +170,9 @@ maximumAge
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 Geolocation

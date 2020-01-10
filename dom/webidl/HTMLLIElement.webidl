@@ -223,6 +223,9 @@ li
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLLIElement

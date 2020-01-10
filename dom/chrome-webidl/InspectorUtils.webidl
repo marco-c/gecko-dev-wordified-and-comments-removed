@@ -128,6 +128,9 @@ nsContentUtils
 :
 IsCallerChromeOrFuzzingEnabled
 "
+Exposed
+=
+Window
 ]
 namespace
 InspectorUtils
@@ -873,6 +876,9 @@ nsContentUtils
 :
 IsCallerChromeOrFuzzingEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 InspectorFontFace

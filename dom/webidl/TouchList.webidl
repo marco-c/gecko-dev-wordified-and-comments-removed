@@ -163,6 +163,9 @@ TouchList
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 TouchList

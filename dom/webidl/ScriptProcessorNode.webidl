@@ -151,6 +151,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ScriptProcessorNode

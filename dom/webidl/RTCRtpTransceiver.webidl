@@ -194,6 +194,9 @@ rtptransceiver
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCRtpTransceiver

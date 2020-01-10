@@ -246,6 +246,9 @@ h6
 elements
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLHeadingElement

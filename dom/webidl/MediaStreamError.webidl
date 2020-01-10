@@ -194,6 +194,9 @@ customArg
 [
 ExceptionClass
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 MediaStreamError

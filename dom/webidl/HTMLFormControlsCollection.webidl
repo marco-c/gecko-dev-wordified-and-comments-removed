@@ -158,6 +158,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 HTMLFormControlsCollection
 :

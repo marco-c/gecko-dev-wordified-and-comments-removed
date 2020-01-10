@@ -192,6 +192,9 @@ menuitem
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMenuItemElement

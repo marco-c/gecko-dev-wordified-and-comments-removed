@@ -146,6 +146,9 @@ any
 )
 arg1
 )
+Exposed
+=
+Window
 ]
 interface
 TestExampleInterface
@@ -7036,6 +7039,11 @@ as
 well
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TestExampleProxyInterface
 {
@@ -7160,6 +7168,11 @@ needsNonSystemSubjectPrincipalAttr
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TestExampleThrowingConstructorInterface
 {

@@ -123,6 +123,11 @@ work
 trackevent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 TrackEvent
 :

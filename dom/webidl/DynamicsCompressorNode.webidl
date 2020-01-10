@@ -188,6 +188,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 DynamicsCompressorNode

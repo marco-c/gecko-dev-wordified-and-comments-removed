@@ -99,6 +99,9 @@ Func
 "
 IsChromeOrXBL
 "
+Exposed
+=
+Window
 ]
 interface
 TreeContentView

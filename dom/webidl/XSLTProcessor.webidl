@@ -96,6 +96,11 @@ MPL
 interface
 nsIVariant
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XSLTProcessor
 {

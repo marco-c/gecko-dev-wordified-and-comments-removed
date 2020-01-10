@@ -149,6 +149,9 @@ peerconnection
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 RTCPeerConnectionIceEvent

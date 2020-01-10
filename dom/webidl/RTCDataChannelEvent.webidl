@@ -147,6 +147,9 @@ peerconnection
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 RTCDataChannelEvent

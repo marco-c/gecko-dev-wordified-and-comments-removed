@@ -127,6 +127,9 @@ gamepad
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadEvent

@@ -222,6 +222,9 @@ link
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLLinkElement

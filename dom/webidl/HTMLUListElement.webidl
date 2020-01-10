@@ -223,6 +223,9 @@ ul
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLUListElement

@@ -123,6 +123,9 @@ window
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 NotifyPaintEvent

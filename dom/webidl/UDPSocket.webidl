@@ -190,6 +190,9 @@ udpsocket
 enabled
 "
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 UDPSocket

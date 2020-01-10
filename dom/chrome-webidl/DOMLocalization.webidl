@@ -230,6 +230,9 @@ roots
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 DOMLocalization

@@ -124,6 +124,9 @@ index
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 FeaturePolicy
@@ -178,6 +181,9 @@ featurePolicy
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 FeaturePolicyViolationReportBody

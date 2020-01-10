@@ -144,6 +144,11 @@ idl
 index
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DataTransferItem
 {

@@ -123,6 +123,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRFieldOfView
@@ -420,6 +423,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRDisplayCapabilities
@@ -689,6 +695,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRStageParameters
@@ -878,6 +887,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRPose
@@ -1038,6 +1050,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRFrameData
@@ -1118,6 +1133,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VREyeParameters
@@ -1284,6 +1302,9 @@ VRDisplay
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 VRDisplay

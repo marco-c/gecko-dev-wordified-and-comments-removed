@@ -123,6 +123,9 @@ interface
 /
 [
 LegacyEventInit
+Exposed
+=
+Window
 ]
 interface
 HashChangeEvent

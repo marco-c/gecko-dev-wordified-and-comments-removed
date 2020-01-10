@@ -222,6 +222,9 @@ pre
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLPreElement

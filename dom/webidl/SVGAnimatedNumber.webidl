@@ -143,6 +143,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 SVGAnimatedNumber
 {

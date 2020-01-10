@@ -176,6 +176,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DocumentFragment
 :

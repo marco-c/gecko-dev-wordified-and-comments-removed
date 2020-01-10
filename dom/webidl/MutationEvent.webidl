@@ -154,6 +154,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 MutationEvent
 :

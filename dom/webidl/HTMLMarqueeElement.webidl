@@ -185,6 +185,9 @@ marquee
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMarqueeElement

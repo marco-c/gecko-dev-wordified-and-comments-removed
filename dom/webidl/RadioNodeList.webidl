@@ -169,6 +169,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 RadioNodeList
 :

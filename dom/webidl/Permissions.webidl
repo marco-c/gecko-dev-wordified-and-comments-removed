@@ -176,9 +176,7 @@ userVisibleOnly
 [
 Exposed
 =
-(
 Window
-)
 ]
 interface
 Permissions

@@ -130,6 +130,9 @@ context
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ParentSHistory

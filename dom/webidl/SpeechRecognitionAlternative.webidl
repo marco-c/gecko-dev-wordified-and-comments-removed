@@ -170,6 +170,9 @@ SpeechRecognition
 :
 IsAuthorized
 "
+Exposed
+=
+Window
 ]
 interface
 SpeechRecognitionAlternative

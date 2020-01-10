@@ -179,6 +179,9 @@ rtcicecandidate
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCIceCandidate

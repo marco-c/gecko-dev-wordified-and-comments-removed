@@ -192,6 +192,11 @@ org
 interface
 -
 processinginstruction
+[
+Exposed
+=
+Window
+]
 interface
 ProcessingInstruction
 :

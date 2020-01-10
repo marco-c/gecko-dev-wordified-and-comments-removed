@@ -140,6 +140,11 @@ changes
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 StorageEvent
 :

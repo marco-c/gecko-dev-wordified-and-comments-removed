@@ -17,7 +17,10 @@ parse
 "
       
 [
-PrimaryGlobal
+Global
+Exposed
+=
+Foo
 ]
 interface
 Foo
@@ -29,9 +32,13 @@ Foo
 Global
 =
 (
+Bar
 Bar1
 Bar2
 )
+Exposed
+=
+Bar
 ]
 interface
 Bar
@@ -42,7 +49,13 @@ Bar
 [
 Global
 =
+(
+Baz
 Baz2
+)
+Exposed
+=
+Baz
 ]
 interface
 Baz
@@ -471,7 +484,10 @@ parse
 "
       
 [
-PrimaryGlobal
+Global
+Exposed
+=
+Foo
 ]
 interface
 Foo
@@ -483,9 +499,13 @@ Foo
 Global
 =
 (
+Bar
 Bar1
 Bar2
 )
+Exposed
+=
+Bar
 ]
 interface
 Bar
@@ -496,13 +516,25 @@ Bar
 [
 Global
 =
+(
+Baz
 Baz2
+)
+Exposed
+=
+Baz
 ]
 interface
 Baz
 {
 }
 ;
+      
+[
+Exposed
+=
+Foo
+]
       
 interface
 Iface2
@@ -742,7 +774,10 @@ parse
 "
       
 [
-PrimaryGlobal
+Global
+Exposed
+=
+Foo
 ]
 interface
 Foo
@@ -754,9 +789,13 @@ Foo
 Global
 =
 (
+Bar
 Bar1
 Bar2
 )
+Exposed
+=
+Bar
 ]
 interface
 Bar
@@ -767,7 +806,13 @@ Bar
 [
 Global
 =
+(
+Baz
 Baz2
+)
+Exposed
+=
+Baz
 ]
 interface
 Baz
@@ -1398,6 +1443,9 @@ parse
             
 [
 Global
+Exposed
+=
+Foo
 ]
 interface
 Foo
@@ -1407,6 +1455,9 @@ Foo
             
 [
 Global
+Exposed
+=
+Bar
 ]
 interface
 Bar
@@ -1501,6 +1552,9 @@ parse
         
 [
 Global
+Exposed
+=
+Foo
 ]
 interface
 Foo
@@ -1510,6 +1564,9 @@ Foo
         
 [
 Global
+Exposed
+=
+Bar
 ]
 interface
 Bar

@@ -181,6 +181,9 @@ rtcsessiondescription
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCSessionDescription

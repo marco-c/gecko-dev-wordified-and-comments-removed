@@ -173,6 +173,11 @@ manual
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 History
 {

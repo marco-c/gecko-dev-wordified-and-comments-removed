@@ -169,6 +169,9 @@ Variant
 ;
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLCanvasElement
@@ -400,6 +403,9 @@ transferControlToOffscreen
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MozCanvasPrintState

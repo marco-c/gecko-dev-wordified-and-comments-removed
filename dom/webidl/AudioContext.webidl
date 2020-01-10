@@ -172,6 +172,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioContext

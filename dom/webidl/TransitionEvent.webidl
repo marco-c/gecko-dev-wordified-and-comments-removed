@@ -167,6 +167,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 TransitionEvent
 :

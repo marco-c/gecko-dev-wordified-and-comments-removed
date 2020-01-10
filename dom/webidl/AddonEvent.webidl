@@ -10,6 +10,9 @@ AddonManagerWebAPI
 :
 IsAPIEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 AddonEvent

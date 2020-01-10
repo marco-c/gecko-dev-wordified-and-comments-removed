@@ -171,6 +171,9 @@ document
 /
 [
 OverrideBuiltins
+Exposed
+=
+Window
 ]
 interface
 DOMStringMap

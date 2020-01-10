@@ -198,6 +198,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 OscillatorNode

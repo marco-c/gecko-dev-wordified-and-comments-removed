@@ -133,6 +133,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 CompositionEvent
 :

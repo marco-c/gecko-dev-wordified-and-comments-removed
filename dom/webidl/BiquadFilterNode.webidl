@@ -214,6 +214,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 BiquadFilterNode

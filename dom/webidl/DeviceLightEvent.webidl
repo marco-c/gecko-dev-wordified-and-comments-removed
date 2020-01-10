@@ -111,6 +111,9 @@ nsGlobalWindowInner
 :
 DeviceSensorsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 DeviceLightEvent

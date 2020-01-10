@@ -135,6 +135,9 @@ peerconnection
 enabled
 "
 Serializable
+Exposed
+=
+Window
 ]
 interface
 RTCCertificate

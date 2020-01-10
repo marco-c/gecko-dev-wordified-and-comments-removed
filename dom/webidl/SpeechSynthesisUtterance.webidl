@@ -162,6 +162,9 @@ synth
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 SpeechSynthesisUtterance

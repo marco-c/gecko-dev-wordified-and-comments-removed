@@ -109,6 +109,11 @@ view
 mediaquerylistevent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 MediaQueryListEvent
 :

@@ -120,6 +120,11 @@ XPath
 20020208
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 XPathResult
 {

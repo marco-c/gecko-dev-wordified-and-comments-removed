@@ -150,6 +150,9 @@ Document
 :
 AreWebAnimationsTimelinesEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 AnimationTimeline

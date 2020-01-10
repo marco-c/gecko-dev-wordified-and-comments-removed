@@ -128,6 +128,9 @@ webmidi
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 MIDIInput

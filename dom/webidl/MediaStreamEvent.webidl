@@ -145,6 +145,9 @@ peerconnection
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 MediaStreamEvent

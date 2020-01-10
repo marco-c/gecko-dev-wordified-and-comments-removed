@@ -161,6 +161,9 @@ document
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLDetailsElement

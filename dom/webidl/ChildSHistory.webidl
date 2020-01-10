@@ -119,6 +119,9 @@ history
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ChildSHistory

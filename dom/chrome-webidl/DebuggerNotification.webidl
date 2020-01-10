@@ -102,6 +102,9 @@ domEvent
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 DebuggerNotification
@@ -188,6 +191,9 @@ notification
 .
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 CallbackDebuggerNotification
@@ -234,6 +240,9 @@ handler
 .
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 EventCallbackDebuggerNotification

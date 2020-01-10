@@ -222,6 +222,9 @@ a
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLAnchorElement

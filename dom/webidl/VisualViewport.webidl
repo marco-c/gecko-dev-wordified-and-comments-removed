@@ -122,6 +122,11 @@ visualviewport
 interface
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 VisualViewport
 :

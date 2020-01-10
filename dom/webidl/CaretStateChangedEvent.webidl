@@ -170,6 +170,9 @@ selectedTextContent
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 CaretStateChangedEvent

@@ -327,6 +327,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPULogEntry
@@ -568,6 +571,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBufferUsage
@@ -649,6 +655,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBuffer
@@ -694,6 +703,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUTextureView
@@ -717,6 +729,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUTextureDimension
@@ -764,6 +779,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUTextureFormat
@@ -813,6 +831,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUTextureUsage
@@ -897,6 +918,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUTexture
@@ -931,6 +955,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUFilterMode
@@ -973,6 +1000,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUSampler
@@ -1161,6 +1191,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUShaderStageBit
@@ -1205,6 +1238,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBindingType
@@ -1286,6 +1322,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBindGroupLayout
@@ -1316,6 +1355,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUPipelineLayout
@@ -1402,6 +1444,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBindGroup
@@ -1595,6 +1640,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBlendFactor
@@ -1693,6 +1741,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBlendOperation
@@ -1743,6 +1794,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUColorWriteBits
@@ -1826,6 +1880,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUBlendState
@@ -1849,6 +1906,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUCompareFunction
@@ -1917,6 +1977,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUStencilOperation
@@ -2021,6 +2084,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUDepthStencilState
@@ -2044,6 +2110,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUIndexFormat
@@ -2076,6 +2145,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUVertexFormat
@@ -2126,6 +2198,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUInputStepMode
@@ -2205,6 +2280,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUInputState
@@ -2233,6 +2311,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUShaderModule
@@ -2273,6 +2354,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUAttachmentState
@@ -2301,6 +2385,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUShaderStage
@@ -2386,6 +2473,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUComputePipeline
@@ -2409,6 +2499,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUPrimitiveTopology
@@ -2485,6 +2578,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPURenderPipeline
@@ -2673,6 +2769,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPULoadOp
@@ -2705,6 +2804,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUStoreOp
@@ -2755,6 +2857,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUCommandBuffer
@@ -2776,6 +2881,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUCommandEncoder
@@ -3191,6 +3299,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUFence
@@ -3225,6 +3336,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUQueue
@@ -3278,6 +3392,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUSwapChain
@@ -3379,6 +3496,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUDevice
@@ -3603,6 +3723,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPUAdapter
@@ -3682,6 +3805,9 @@ webgpu
 .
 enable
 "
+Exposed
+=
+Window
 ]
 interface
 WebGPU

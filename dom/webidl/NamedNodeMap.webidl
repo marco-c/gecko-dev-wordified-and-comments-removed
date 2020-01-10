@@ -93,6 +93,9 @@ MPL
 /
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+Window
 ]
 interface
 NamedNodeMap

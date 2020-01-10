@@ -131,6 +131,11 @@ cssom
 /
 #
 cssnamespacerule
+[
+Exposed
+=
+Window
+]
 interface
 CSSNamespaceRule
 :

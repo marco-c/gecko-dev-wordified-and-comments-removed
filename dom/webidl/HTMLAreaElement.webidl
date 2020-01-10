@@ -223,6 +223,9 @@ area
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLAreaElement

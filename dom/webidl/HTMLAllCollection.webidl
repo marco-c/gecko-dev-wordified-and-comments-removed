@@ -69,6 +69,9 @@ py
 /
 [
 LegacyUnenumerableNamedProperties
+Exposed
+=
+Window
 ]
 interface
 HTMLAllCollection

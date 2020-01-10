@@ -406,6 +406,11 @@ interface
 document
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 Document
 :

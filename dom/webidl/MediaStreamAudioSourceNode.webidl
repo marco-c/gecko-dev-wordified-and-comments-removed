@@ -160,6 +160,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 MediaStreamAudioSourceNode

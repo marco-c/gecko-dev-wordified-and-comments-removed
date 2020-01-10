@@ -93,6 +93,9 @@ MPL
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 MozStorageAsyncStatementParams

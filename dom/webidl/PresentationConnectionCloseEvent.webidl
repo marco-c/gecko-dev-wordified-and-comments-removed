@@ -197,6 +197,9 @@ presentation
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PresentationConnectionCloseEvent

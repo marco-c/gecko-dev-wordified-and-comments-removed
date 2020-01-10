@@ -207,6 +207,9 @@ del
 elements
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLModElement

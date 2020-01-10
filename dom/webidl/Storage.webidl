@@ -154,6 +154,11 @@ document
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 Storage
 {

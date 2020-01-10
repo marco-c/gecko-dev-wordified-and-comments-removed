@@ -139,6 +139,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 SVGFESpecularLightingElement
 :

@@ -162,6 +162,9 @@ CreateTransceiverImpl
 .
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 TransceiverImpl

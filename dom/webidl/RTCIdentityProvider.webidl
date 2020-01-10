@@ -129,6 +129,9 @@ pull
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 RTCIdentityProviderRegistrar

@@ -151,6 +151,9 @@ enable
 -
 webgl2
 "
+Exposed
+=
+Window
 ]
 interface
 WebGLSampler
@@ -167,6 +170,9 @@ enable
 -
 webgl2
 "
+Exposed
+=
+Window
 ]
 interface
 WebGLSync
@@ -183,6 +189,9 @@ enable
 -
 webgl2
 "
+Exposed
+=
+Window
 ]
 interface
 WebGLTransformFeedback
@@ -229,6 +238,9 @@ enable
 -
 webgl2
 "
+Exposed
+=
+Window
 ]
 interface
 WebGL2RenderingContext
@@ -5085,6 +5097,9 @@ WebGL2RenderingContextBase
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_color_buffer_float
@@ -5093,6 +5108,9 @@ EXT_color_buffer_float
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OVR_multiview2

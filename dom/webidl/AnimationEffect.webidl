@@ -333,6 +333,9 @@ Document
 :
 IsWebAnimationsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 AnimationEffect

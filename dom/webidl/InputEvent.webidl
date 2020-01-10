@@ -119,6 +119,11 @@ interface
 InputEvent
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 InputEvent
 :

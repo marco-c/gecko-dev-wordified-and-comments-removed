@@ -168,6 +168,11 @@ paused
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 MediaRecorder
 :

@@ -1,3 +1,5 @@
+import
+traceback
 def
 WebIDLTest
 (
@@ -23,6 +25,9 @@ parse
             
 [
 Global
+Exposed
+=
+TestConstructorGlobal
 ]
             
 interface
@@ -95,6 +100,10 @@ parse
             
 [
 Global
+Exposed
+=
+TestNamedConstructorGlobal
+             
 NamedConstructor
 =
 FooBar
@@ -168,6 +177,10 @@ NamedConstructor
 =
 FooBar
 Global
+             
+Exposed
+=
+TestNamedConstructorGlobal
 ]
             
 interface
@@ -236,6 +249,9 @@ parse
 [
 Global
 HTMLConstructor
+Exposed
+=
+TestHTMLConstructorGlobal
 ]
             
 interface
@@ -304,6 +320,9 @@ parse
 [
 HTMLConstructor
 Global
+Exposed
+=
+TestHTMLConstructorGlobal
 ]
             
 interface

@@ -62,6 +62,9 @@ Func
 "
 IsChromeOrXBL
 "
+Exposed
+=
+Window
 ]
 interface
 TreeColumn

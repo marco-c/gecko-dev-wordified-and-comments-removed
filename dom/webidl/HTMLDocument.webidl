@@ -93,6 +93,9 @@ MPL
 /
 [
 OverrideBuiltins
+Exposed
+=
+Window
 ]
 interface
 HTMLDocument

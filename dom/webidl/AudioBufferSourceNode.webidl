@@ -185,6 +185,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioBufferSourceNode

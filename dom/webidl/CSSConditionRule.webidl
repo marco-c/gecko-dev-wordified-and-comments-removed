@@ -143,6 +143,11 @@ the
 cssconditionrule
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 CSSConditionRule
 :

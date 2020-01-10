@@ -259,6 +259,9 @@ test
 .
 logging_enabled
 "
+Exposed
+=
+Window
 ]
 namespace
 APZHitResultFlags

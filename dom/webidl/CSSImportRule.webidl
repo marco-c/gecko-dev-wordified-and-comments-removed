@@ -131,6 +131,11 @@ cssom
 /
 #
 cssimportrule
+[
+Exposed
+=
+Window
+]
 interface
 CSSImportRule
 :

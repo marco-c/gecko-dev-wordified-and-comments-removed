@@ -231,6 +231,11 @@ the
 cssrule
 -
 interface
+[
+Exposed
+=
+Window
+]
 interface
 CSSRule
 {

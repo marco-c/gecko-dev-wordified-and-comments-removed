@@ -145,6 +145,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DOMTokenList
 {

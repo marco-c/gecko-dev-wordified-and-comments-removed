@@ -99,6 +99,9 @@ JSImplementation
 "
 dummy
 "
+Exposed
+=
+Window
 ]
 interface
 Addon
@@ -300,6 +303,9 @@ JSImplementation
 "
 dummy
 "
+Exposed
+=
+Window
 ]
 interface
 AddonInstall
@@ -500,6 +506,9 @@ manager
 1
 "
 WantsEventListenerHooks
+Exposed
+=
+Window
 ]
 interface
 AddonManager

@@ -162,6 +162,9 @@ document
 OverrideBuiltins
 LegacyUnenumerableNamedProperties
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLFormElement

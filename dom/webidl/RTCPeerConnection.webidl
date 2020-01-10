@@ -430,6 +430,9 @@ peerconnection
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCPeerConnection

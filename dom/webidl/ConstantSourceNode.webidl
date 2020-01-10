@@ -161,6 +161,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ConstantSourceNode

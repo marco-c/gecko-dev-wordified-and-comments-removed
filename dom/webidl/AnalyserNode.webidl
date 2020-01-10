@@ -183,6 +183,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AnalyserNode

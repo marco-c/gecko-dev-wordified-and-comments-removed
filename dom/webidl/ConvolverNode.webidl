@@ -167,6 +167,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ConvolverNode

@@ -172,6 +172,9 @@ optional
 DOMString
 src
 )
+Exposed
+=
+Window
 ]
 interface
 HTMLAudioElement

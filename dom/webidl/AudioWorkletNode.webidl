@@ -191,6 +191,9 @@ audioworklet
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioWorkletNode

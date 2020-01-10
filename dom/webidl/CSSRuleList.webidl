@@ -91,6 +91,11 @@ MPL
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 CSSRuleList
 {

@@ -172,6 +172,9 @@ provided
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 PeerConnectionImpl

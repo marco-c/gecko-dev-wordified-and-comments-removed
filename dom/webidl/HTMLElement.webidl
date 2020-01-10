@@ -176,6 +176,9 @@ document
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLElement
@@ -548,6 +551,11 @@ HTMLElement
 includes
 OnErrorEventHandlerForNodes
 ;
+[
+Exposed
+=
+Window
+]
 interface
 HTMLUnknownElement
 :

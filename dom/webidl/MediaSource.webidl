@@ -191,6 +191,9 @@ mediasource
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 MediaSource

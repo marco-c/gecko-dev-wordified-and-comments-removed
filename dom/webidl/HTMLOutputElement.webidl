@@ -192,6 +192,9 @@ output
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLOutputElement

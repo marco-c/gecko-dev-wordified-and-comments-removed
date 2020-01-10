@@ -200,6 +200,9 @@ and
 apis
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLDirectoryElement

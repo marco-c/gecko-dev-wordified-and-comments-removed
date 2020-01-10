@@ -192,6 +192,9 @@ head
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLHeadElement

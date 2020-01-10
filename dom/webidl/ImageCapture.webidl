@@ -167,6 +167,9 @@ imagecapture
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ImageCapture

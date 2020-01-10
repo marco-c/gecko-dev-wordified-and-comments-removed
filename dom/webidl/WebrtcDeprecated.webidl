@@ -161,6 +161,9 @@ rtcicecandidate
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 mozRTCIceCandidate
@@ -210,6 +213,9 @@ peerconnection
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 mozRTCPeerConnection
@@ -263,6 +269,9 @@ rtcsessiondescription
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 mozRTCSessionDescription

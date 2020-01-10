@@ -223,6 +223,9 @@ ol
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLOListElement

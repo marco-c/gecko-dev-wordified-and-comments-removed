@@ -116,6 +116,9 @@ localization
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 IntlUtils

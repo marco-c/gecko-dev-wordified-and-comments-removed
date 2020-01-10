@@ -953,6 +953,9 @@ Func
 "
 IsChromeOrXBL
 "
+Exposed
+=
+Window
 ]
 interface
 SimpleGestureEvent

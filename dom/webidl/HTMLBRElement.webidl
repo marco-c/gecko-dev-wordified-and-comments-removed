@@ -223,6 +223,9 @@ br
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLBRElement

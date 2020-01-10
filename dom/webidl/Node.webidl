@@ -151,6 +151,11 @@ Principal
 interface
 URI
 ;
+[
+Exposed
+=
+Window
+]
 interface
 Node
 :

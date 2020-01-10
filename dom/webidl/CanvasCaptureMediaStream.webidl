@@ -153,6 +153,9 @@ capturestream
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 CanvasCaptureMediaStream

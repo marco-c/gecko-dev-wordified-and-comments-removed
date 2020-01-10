@@ -191,6 +191,9 @@ setlike
 .
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 FontFaceSetIterator
@@ -245,6 +248,9 @@ api
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 FontFaceSet

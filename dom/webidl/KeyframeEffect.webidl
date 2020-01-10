@@ -209,6 +209,9 @@ Document
 IsWebAnimationsEnabled
 "
 RunConstructorInCallerCompartment
+Exposed
+=
+Window
 ]
 interface
 KeyframeEffect

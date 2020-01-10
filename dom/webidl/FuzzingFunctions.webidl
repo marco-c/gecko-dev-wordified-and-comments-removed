@@ -134,6 +134,9 @@ fuzzing
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 FuzzingFunctions

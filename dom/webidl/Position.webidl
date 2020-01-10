@@ -142,6 +142,9 @@ apply
 /
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 Position

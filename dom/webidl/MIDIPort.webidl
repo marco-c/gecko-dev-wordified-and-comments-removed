@@ -164,6 +164,9 @@ webmidi
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 MIDIPort

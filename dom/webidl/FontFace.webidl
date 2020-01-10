@@ -275,6 +275,9 @@ api
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 FontFace

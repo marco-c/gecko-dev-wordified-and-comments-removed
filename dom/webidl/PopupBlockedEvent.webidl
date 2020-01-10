@@ -94,6 +94,11 @@ MPL
 interface
 URI
 ;
+[
+Exposed
+=
+Window
+]
 interface
 PopupBlockedEvent
 :

@@ -163,6 +163,9 @@ extensions
 .
 lightindicator
 "
+Exposed
+=
+Window
 ]
 interface
 GamepadLightIndicator

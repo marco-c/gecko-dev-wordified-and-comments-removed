@@ -171,6 +171,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 OfflineAudioContext

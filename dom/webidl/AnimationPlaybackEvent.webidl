@@ -150,6 +150,9 @@ Document
 :
 IsWebAnimationsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 AnimationPlaybackEvent

@@ -157,6 +157,11 @@ showing
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 TextTrack
 :

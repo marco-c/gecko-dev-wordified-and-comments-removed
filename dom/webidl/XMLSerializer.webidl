@@ -87,6 +87,11 @@ interface
 interface
 OutputStream
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XMLSerializer
 {

@@ -139,6 +139,11 @@ animations
 interface
 -
 csskeyframesrule
+[
+Exposed
+=
+Window
+]
 interface
 CSSKeyframesRule
 :

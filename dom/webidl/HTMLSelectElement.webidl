@@ -121,6 +121,9 @@ element
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLSelectElement

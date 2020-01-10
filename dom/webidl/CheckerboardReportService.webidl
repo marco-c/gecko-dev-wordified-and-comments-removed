@@ -265,6 +265,9 @@ CheckerboardReportService
 :
 IsEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 CheckerboardReportService

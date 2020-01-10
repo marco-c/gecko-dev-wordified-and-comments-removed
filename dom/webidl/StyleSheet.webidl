@@ -115,6 +115,11 @@ cssom
 /
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 StyleSheet
 {

@@ -165,6 +165,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 GainNode

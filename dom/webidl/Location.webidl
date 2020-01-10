@@ -164,6 +164,9 @@ document
 /
 [
 Unforgeable
+Exposed
+=
+Window
 ]
 interface
 Location

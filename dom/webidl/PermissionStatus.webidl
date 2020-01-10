@@ -138,9 +138,7 @@ prompt
 [
 Exposed
 =
-(
 Window
-)
 ]
 interface
 PermissionStatus

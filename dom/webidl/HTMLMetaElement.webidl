@@ -222,6 +222,9 @@ meta
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLMetaElement

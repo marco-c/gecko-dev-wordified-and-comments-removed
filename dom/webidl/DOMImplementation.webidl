@@ -144,6 +144,11 @@ work
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 DOMImplementation
 {

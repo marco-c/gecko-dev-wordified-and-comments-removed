@@ -196,6 +196,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 Range
 :

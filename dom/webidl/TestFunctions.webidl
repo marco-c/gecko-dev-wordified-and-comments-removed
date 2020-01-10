@@ -118,6 +118,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 WrapperCachedNonISupportsTestInterface
@@ -132,6 +135,9 @@ dom
 .
 expose_test_interfaces
 "
+Exposed
+=
+Window
 ]
 interface
 TestFunctions

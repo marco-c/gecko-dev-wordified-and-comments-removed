@@ -117,6 +117,11 @@ interface
 nodefilter
 *
 /
+[
+Exposed
+=
+Window
+]
 callback
 interface
 NodeFilter

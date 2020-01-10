@@ -192,6 +192,9 @@ blockquote
 element
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLQuoteElement

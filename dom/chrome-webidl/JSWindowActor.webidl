@@ -154,6 +154,9 @@ obj
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 JSWindowActorParent
@@ -223,6 +226,9 @@ JSWindowActor
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 JSWindowActorChild
@@ -401,6 +407,11 @@ exposed
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 callback
 interface
 MozObserverCallback

@@ -179,6 +179,11 @@ closed
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 BaseAudioContext
 :

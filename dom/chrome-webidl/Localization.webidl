@@ -430,6 +430,9 @@ messages
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 Localization

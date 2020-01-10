@@ -129,6 +129,11 @@ agent
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 CSSStyleSheet
 :

@@ -166,6 +166,9 @@ webaudio
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 AudioParam

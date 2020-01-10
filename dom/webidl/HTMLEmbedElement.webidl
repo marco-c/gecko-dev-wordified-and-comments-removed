@@ -218,6 +218,9 @@ element
 [
 HTMLConstructor
 NeedResolve
+Exposed
+=
+Window
 ]
 interface
 HTMLEmbedElement

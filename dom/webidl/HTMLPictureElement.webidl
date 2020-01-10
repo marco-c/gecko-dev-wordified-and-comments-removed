@@ -93,6 +93,9 @@ MPL
 /
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLPictureElement

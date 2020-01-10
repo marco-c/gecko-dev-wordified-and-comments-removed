@@ -183,6 +183,9 @@ content
 /
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 AnonymousContent

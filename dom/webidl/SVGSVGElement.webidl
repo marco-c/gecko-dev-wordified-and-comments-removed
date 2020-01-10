@@ -142,6 +142,11 @@ apply
 interface
 SVGViewSpec
 ;
+[
+Exposed
+=
+Window
+]
 interface
 SVGSVGElement
 :

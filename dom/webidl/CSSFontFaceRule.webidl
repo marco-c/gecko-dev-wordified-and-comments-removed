@@ -164,6 +164,11 @@ the
 current
 spec
 .
+[
+Exposed
+=
+Window
+]
 interface
 CSSFontFaceRule
 :

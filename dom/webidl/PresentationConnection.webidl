@@ -217,6 +217,9 @@ presentation
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 PresentationConnection

@@ -114,6 +114,9 @@ SpeechRecognition
 :
 IsAuthorized
 "
+Exposed
+=
+Window
 ]
 interface
 SpeechRecognitionEvent

@@ -84,6 +84,11 @@ blob
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 RTCDataChannel
 :

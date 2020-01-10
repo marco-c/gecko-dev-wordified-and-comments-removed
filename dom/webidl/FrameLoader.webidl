@@ -114,6 +114,9 @@ nsIWebProgressListener
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 FrameLoader

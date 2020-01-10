@@ -153,6 +153,11 @@ resembling
 the
 spec
 .
+[
+Exposed
+=
+Window
+]
 interface
 CSSFontFeatureValuesRule
 :

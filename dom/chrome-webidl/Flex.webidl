@@ -164,6 +164,9 @@ bt
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 Flex
@@ -384,6 +387,9 @@ growing
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 FlexLineValues
@@ -513,6 +519,9 @@ clamped_to_max
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 FlexItemValues

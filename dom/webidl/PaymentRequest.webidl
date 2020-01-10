@@ -443,6 +443,9 @@ PaymentRequest
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 PaymentRequest

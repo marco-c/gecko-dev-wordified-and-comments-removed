@@ -231,6 +231,9 @@ resizeobserver
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ResizeObserverEntry
@@ -269,6 +272,9 @@ resizeobserver
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 ResizeObserverSize

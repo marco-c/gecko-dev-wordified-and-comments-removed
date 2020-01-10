@@ -123,6 +123,11 @@ FileSystemEntry
 entries
 )
 ;
+[
+Exposed
+=
+Window
+]
 interface
 FileSystemDirectoryReader
 {

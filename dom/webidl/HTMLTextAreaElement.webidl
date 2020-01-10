@@ -200,6 +200,9 @@ XULControllers
 ;
 [
 HTMLConstructor
+Exposed
+=
+Window
 ]
 interface
 HTMLTextAreaElement

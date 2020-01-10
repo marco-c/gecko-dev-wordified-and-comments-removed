@@ -141,6 +141,11 @@ apply
 .
 *
 /
+[
+Exposed
+=
+Window
+]
 interface
 BatteryManager
 :

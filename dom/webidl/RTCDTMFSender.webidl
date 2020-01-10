@@ -131,6 +131,9 @@ rtcdtmfsender
 ;
 1
 "
+Exposed
+=
+Window
 ]
 interface
 RTCDTMFSender

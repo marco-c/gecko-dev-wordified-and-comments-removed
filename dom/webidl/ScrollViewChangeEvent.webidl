@@ -118,6 +118,9 @@ started
 ;
 [
 ChromeOnly
+Exposed
+=
+Window
 ]
 interface
 ScrollViewChangeEvent

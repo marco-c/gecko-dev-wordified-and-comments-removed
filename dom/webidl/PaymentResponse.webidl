@@ -172,6 +172,9 @@ PaymentRequest
 :
 PrefEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 PaymentResponse

@@ -457,6 +457,9 @@ Navigator
 .
 h
 "
+Exposed
+=
+Window
 ]
 interface
 Navigator

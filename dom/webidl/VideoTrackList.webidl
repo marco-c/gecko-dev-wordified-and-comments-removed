@@ -133,6 +133,9 @@ track
 .
 enabled
 "
+Exposed
+=
+Window
 ]
 interface
 VideoTrackList

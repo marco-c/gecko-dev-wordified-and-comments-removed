@@ -106,6 +106,9 @@ AccessibleNode
 :
 IsAOMEnabled
 "
+Exposed
+=
+Window
 ]
 interface
 AccessibleNode

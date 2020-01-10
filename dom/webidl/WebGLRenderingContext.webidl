@@ -692,6 +692,11 @@ WebGLUniformLocation
 {
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 WebGLVertexArrayObject
 {
@@ -5104,6 +5109,9 @@ extension
 interfaces
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_texture_compression_bptc
@@ -5136,6 +5144,9 @@ COMPRESSED_RGB_BPTC_UNSIGNED_FLOAT_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_texture_compression_rgtc
@@ -5168,6 +5179,9 @@ COMPRESSED_SIGNED_RED_GREEN_RGTC2_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_s3tc
@@ -5200,6 +5214,9 @@ COMPRESSED_RGBA_S3TC_DXT5_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_s3tc_srgb
@@ -5239,6 +5256,9 @@ COMPRESSED_SRGB_ALPHA_S3TC_DXT5_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_astc
@@ -5437,6 +5457,9 @@ getSupportedProfiles
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_etc
@@ -5505,6 +5528,9 @@ COMPRESSED_SRGB8_ALPHA8_ETC2_EAC
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_etc1
@@ -5519,6 +5545,9 @@ COMPRESSED_RGB_ETC1_WEBGL
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_compressed_texture_pvrtc
@@ -5551,6 +5580,9 @@ COMPRESSED_RGBA_PVRTC_2BPPV1_IMG
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_debug_renderer_info
@@ -5571,6 +5603,9 @@ UNMASKED_RENDERER_WEBGL
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_debug_shaders
@@ -5586,6 +5621,9 @@ shader
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_depth_texture
@@ -5600,6 +5638,9 @@ UNSIGNED_INT_24_8_WEBGL
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_element_index_uint
@@ -5608,6 +5649,9 @@ OES_element_index_uint
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_frag_depth
@@ -5616,6 +5660,9 @@ EXT_frag_depth
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_lose_context
@@ -5634,6 +5681,9 @@ restoreContext
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_texture_filter_anisotropic
@@ -5654,6 +5704,9 @@ MAX_TEXTURE_MAX_ANISOTROPY_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_sRGB
@@ -5686,6 +5739,9 @@ FRAMEBUFFER_ATTACHMENT_COLOR_ENCODING_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_standard_derivatives
@@ -5700,6 +5756,9 @@ FRAGMENT_SHADER_DERIVATIVE_HINT_OES
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_texture_float
@@ -5708,6 +5767,9 @@ OES_texture_float
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_draw_buffers
@@ -5930,6 +5992,9 @@ buffers
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_texture_float_linear
@@ -5938,6 +6003,9 @@ OES_texture_float_linear
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_shader_texture_lod
@@ -5946,6 +6014,9 @@ EXT_shader_texture_lod
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_texture_half_float
@@ -5960,6 +6031,9 @@ HALF_FLOAT_OES
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_texture_half_float_linear
@@ -5968,6 +6042,9 @@ OES_texture_half_float_linear
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_color_buffer_float
@@ -6000,6 +6077,9 @@ UNSIGNED_NORMALIZED_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_color_buffer_half_float
@@ -6032,6 +6112,9 @@ UNSIGNED_NORMALIZED_EXT
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_vertex_array_object
@@ -6079,6 +6162,9 @@ arrayObject
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 ANGLE_instanced_arrays
@@ -6130,6 +6216,9 @@ divisor
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_blend_minmax
@@ -6148,6 +6237,11 @@ MAX_EXT
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 WebGLQuery
 {
@@ -6155,6 +6249,9 @@ WebGLQuery
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_disjoint_timer_query
@@ -6273,6 +6370,9 @@ pname
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 MOZ_debug
@@ -6315,6 +6415,9 @@ pname
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 EXT_float_blend
@@ -6323,6 +6426,9 @@ EXT_float_blend
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 OES_fbo_render_mipmap
@@ -6331,6 +6437,9 @@ OES_fbo_render_mipmap
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 WEBGL_explicit_present

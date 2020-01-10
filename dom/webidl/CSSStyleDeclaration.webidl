@@ -133,6 +133,9 @@ living
 .
 [
 ProbablyShortLivingWrapper
+Exposed
+=
+Window
 ]
 interface
 CSSStyleDeclaration

@@ -186,6 +186,9 @@ closed
 ;
 [
 NoInterfaceObject
+Exposed
+=
+Window
 ]
 interface
 LegacyMozTCPSocket

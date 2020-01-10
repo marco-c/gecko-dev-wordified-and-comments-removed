@@ -127,6 +127,11 @@ xml
 "
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 DOMParser
 {

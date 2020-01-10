@@ -215,6 +215,9 @@ unsigned
 long
 height
 )
+Exposed
+=
+Window
 ]
 interface
 HTMLImageElement
