@@ -620,10 +620,6 @@ args
 isResetting
 =
 false
-legacyHash
-=
-"
-"
 )
 {
 let
@@ -669,7 +665,6 @@ args
 ]
 isResetting
 UPDATE_CHANNEL
-legacyHash
 rootDir
 localDir
 profile
