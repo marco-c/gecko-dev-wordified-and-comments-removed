@@ -138,7 +138,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -209,7 +209,7 @@ aProtectionFlags
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -267,7 +267,7 @@ NUMA_NO_PREFERRED_NODE
 }
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -412,7 +412,7 @@ aBaseAddress
 {
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -453,7 +453,7 @@ aBaseAddress
 }
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (

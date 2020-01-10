@@ -2307,7 +2307,7 @@ XP_WIN
 )
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 GetCurrentThreadStackLimitsFn
 >

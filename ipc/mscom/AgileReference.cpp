@@ -219,7 +219,7 @@ zeroIid
 ;
 static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (

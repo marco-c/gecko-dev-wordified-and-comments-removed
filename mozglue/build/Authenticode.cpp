@@ -245,7 +245,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -901,7 +901,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -990,7 +990,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -1099,7 +1099,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -1200,7 +1200,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -1302,7 +1302,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -1340,7 +1340,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
@@ -1432,7 +1432,7 @@ const
 mozilla
 :
 :
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (

@@ -1265,8 +1265,9 @@ IsWin10AnniversaryUpdateOrLater
 )
 )
 {
+static
 const
-DynamicallyLinkedFunctionPtr
+StaticDynamicallyLinkedFunctionPtr
 <
 decltype
 (
