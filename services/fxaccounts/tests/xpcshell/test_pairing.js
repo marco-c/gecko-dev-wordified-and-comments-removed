@@ -372,7 +372,7 @@ mystate
 }
 ;
 }
-getSignedInUserProfile
+getSignedInUser
 (
 )
 {
