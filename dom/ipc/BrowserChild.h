@@ -2662,7 +2662,7 @@ GetInnerSize
 (
 )
 ;
-nsRect
+LayoutDeviceIntRect
 GetVisibleRect
 (
 )
