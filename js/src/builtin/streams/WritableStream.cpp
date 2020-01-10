@@ -891,7 +891,11 @@ unwrappedStream
 )
 {
 return
-false
+ReturnPromiseRejectedWithPendingError
+(
+cx
+args
+)
 ;
 }
 if
