@@ -144,17 +144,6 @@ HTMLEditRules
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-virtual
-nsresult
-Init
-(
-TextEditor
-*
-aTextEditor
-)
-override
-;
 virtual
 nsresult
 DetachEditor

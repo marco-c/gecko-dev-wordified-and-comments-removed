@@ -1228,6 +1228,14 @@ TextEditor
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+virtual
+nsresult
+InitEditorContentAndSelection
+(
+)
+;
 int32_t
 WrapWidth
 (
