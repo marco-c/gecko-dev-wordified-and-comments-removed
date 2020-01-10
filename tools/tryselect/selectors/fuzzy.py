@@ -1609,7 +1609,7 @@ None
 intersect_query
 =
 None
-templates
+try_config
 =
 None
 full
@@ -2153,7 +2153,7 @@ generate_try_task_config
 fuzzy
 '
 selected
-templates
+try_config
 )
                        
 push

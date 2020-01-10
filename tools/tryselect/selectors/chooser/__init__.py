@@ -110,7 +110,7 @@ False
 query
 =
 None
-templates
+try_config
 =
 None
 full
@@ -322,7 +322,7 @@ generate_try_task_config
 chooser
 '
 selected
-templates
+try_config
 )
                        
 push

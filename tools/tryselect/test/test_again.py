@@ -41,18 +41,18 @@ monkeypatch
 setattr
 (
 push
-'
+"
 history_path
-'
+"
 tmpdir
 .
 join
 (
-'
+"
 history
 .
 json
-'
+"
 )
 .
 strpath
@@ -103,10 +103,16 @@ bar
 ]
 {
 "
+templates
+"
+:
+{
+"
 artifact
 "
 :
 True
+}
 }
         
 )
@@ -131,9 +137,9 @@ open
 push
 .
 history_path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -172,9 +178,9 @@ monkeypatch
 setattr
 (
 push
-'
+"
 push_to_try
-'
+"
 fake_push_to_try
 )
     
@@ -199,9 +205,9 @@ args
 ]
 =
 =
-'
+"
 again
-'
+"
     
 assert
 args
@@ -210,10 +216,10 @@ args
 ]
 =
 =
-'
+"
 Fuzzy
 message
-'
+"
     
 try_task_config
 =
@@ -221,9 +227,9 @@ kwargs
 .
 pop
 (
-'
+"
 try_task_config
-'
+"
 )
     
 assert
@@ -233,9 +239,9 @@ try_task_config
 .
 get
 (
-'
+"
 tasks
-'
+"
 )
 )
 =
@@ -243,12 +249,12 @@ tasks
 sorted
 (
 [
-'
+"
 foo
-'
-'
+"
+"
 bar
-'
+"
 ]
 )
     
@@ -257,32 +263,32 @@ try_task_config
 .
 get
 (
-'
+"
 templates
-'
+"
 )
 =
 =
 {
         
-'
+"
 artifact
-'
+"
 :
 True
         
-'
+"
 env
-'
+"
 :
 {
-'
+"
 TRY_SELECTOR
-'
+"
 :
-'
+"
 fuzzy
-'
+"
 }
     
 }
@@ -293,9 +299,9 @@ open
 push
 .
 history_path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -366,10 +372,16 @@ bar
 ]
 {
 "
+templates
+"
+:
+{
+"
 artifact
 "
 :
 True
+}
 }
         
 )
@@ -406,9 +418,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

@@ -939,7 +939,7 @@ return
 kwargs
     
 def
-handle_templates
+handle_try_config
 (
 self
 *
@@ -948,12 +948,21 @@ kwargs
 )
 :
         
+from
+tryselect
+.
+util
+.
+dicttools
+import
+merge
+        
 kwargs
 .
 setdefault
 (
 '
-templates
+try_config
 '
 {
 }
@@ -973,11 +982,11 @@ itervalues
 )
 :
             
-context
+try_config
 =
 cls
 .
-context
+try_config
 (
 *
 *
@@ -985,7 +994,7 @@ kwargs
 )
             
 if
-context
+try_config
 is
 not
 None
@@ -994,13 +1003,19 @@ None
 kwargs
 [
 '
-templates
+try_config
 '
 ]
-.
-update
+=
+merge
 (
-context
+kwargs
+[
+'
+try_config
+'
+]
+try_config
 )
             
 for
@@ -1065,7 +1080,7 @@ kwargs
 =
 self
 .
-handle_templates
+handle_try_config
 (
 *
 *
