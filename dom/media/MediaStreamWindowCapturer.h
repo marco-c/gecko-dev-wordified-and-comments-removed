@@ -25,6 +25,9 @@ MediaStreamTrack
 ;
 }
 class
+MediaInputPort
+;
+class
 MediaStreamWindowCapturer
 :
 public

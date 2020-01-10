@@ -14,7 +14,7 @@ h
 #
 include
 "
-AudioNodeStream
+AudioNodeTrack
 .
 h
 "
@@ -42,9 +42,9 @@ RELEASE
 ;
 PlayingRefChangeHandler
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 ChangeType
 aChange
 )
@@ -58,9 +58,9 @@ dom
 PlayingRefChangeHandler
 "
 )
-mStream
+mTrack
 (
-aStream
+aTrack
 )
 mChange
 (
@@ -80,7 +80,7 @@ AudioNode
 >
 node
 =
-mStream
+mTrack
 -
 >
 Engine
@@ -139,9 +139,9 @@ private
 :
 RefPtr
 <
-AudioNodeStream
+AudioNodeTrack
 >
-mStream
+mTrack
 ;
 ChangeType
 mChange

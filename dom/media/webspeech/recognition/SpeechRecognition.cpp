@@ -4384,7 +4384,7 @@ SharedBuffer
 aSamples
 uint32_t
 aDuration
-MediaStreamTrackListener
+MediaTrackListener
 *
 aProvider
 TrackRate

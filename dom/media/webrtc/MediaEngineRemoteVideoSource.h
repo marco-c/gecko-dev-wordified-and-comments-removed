@@ -116,7 +116,7 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
@@ -455,10 +455,10 @@ SetTrack
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
-aStream
+aTrack
 const
 PrincipalHandle
 &
@@ -666,9 +666,9 @@ kReleased
 ;
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
-mStream
+mTrack
 ;
 PrincipalHandle
 mPrincipal

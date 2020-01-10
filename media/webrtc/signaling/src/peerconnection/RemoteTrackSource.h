@@ -35,7 +35,7 @@ public
 explicit
 RemoteTrackSource
 (
-SourceMediaStream
+SourceMediaTrack
 *
 aStream
 nsIPrincipal
@@ -197,7 +197,7 @@ OverrideEnded
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 mStream
 ;

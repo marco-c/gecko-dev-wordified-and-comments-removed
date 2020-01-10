@@ -1319,12 +1319,12 @@ case
 MediaThreadType
 :
 :
-MSG_CONTROL
+MTG_CONTROL
 :
 name
 =
 "
-MSGControl
+MTGControl
 "
 ;
 break

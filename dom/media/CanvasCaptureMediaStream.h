@@ -39,7 +39,7 @@ class
 DOMMediaStream
 ;
 class
-SourceMediaStream
+SourceMediaTrack
 ;
 namespace
 layers
@@ -70,7 +70,7 @@ public
 :
 OutputStreamDriver
 (
-SourceMediaStream
+SourceMediaTrack
 *
 aSourceStream
 const
@@ -118,7 +118,7 @@ Forget
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 mSourceStream
 ;
@@ -227,7 +227,7 @@ StopCapture
 (
 )
 ;
-SourceMediaStream
+SourceMediaTrack
 *
 GetSourceStream
 (

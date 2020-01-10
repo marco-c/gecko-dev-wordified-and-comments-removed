@@ -8,7 +8,7 @@ h
 #
 include
 "
-AudioNodeStream
+AudioNodeTrack
 .
 h
 "
@@ -72,7 +72,7 @@ ConvertAudioTimelineEventToTicks
 AudioTimelineEvent
 &
 aEvent
-AudioNodeStream
+AudioNodeTrack
 *
 aDest
 )
@@ -84,7 +84,7 @@ SetTimeInTicks
 aDest
 -
 >
-SecondsToNearestStreamTime
+SecondsToNearestTrackTime
 (
 aEvent
 .

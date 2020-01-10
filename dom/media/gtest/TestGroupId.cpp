@@ -244,7 +244,7 @@ void
 const
 RefPtr
 <
-SourceMediaStream
+SourceMediaTrack
 >
 &
 const

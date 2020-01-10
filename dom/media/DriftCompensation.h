@@ -81,7 +81,7 @@ mAudioRate
 ;
 Atomic
 <
-StreamTime
+TrackTime
 >
 mAudioSamples
 {
@@ -253,7 +253,7 @@ rv
 void
 NotifyAudio
 (
-StreamTime
+TrackTime
 aSamples
 )
 {
@@ -327,7 +327,7 @@ IsOnCurrentThread
 )
 )
 ;
-StreamTime
+TrackTime
 samples
 =
 mAudioSamples

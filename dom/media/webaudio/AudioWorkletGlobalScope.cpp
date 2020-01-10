@@ -15,7 +15,7 @@ h
 #
 include
 "
-AudioNodeStream
+AudioNodeTrack
 .
 h
 "
@@ -797,7 +797,7 @@ destinationNode
 impl
 -
 >
-DestinationStream
+DestinationTrack
 (
 )
 -

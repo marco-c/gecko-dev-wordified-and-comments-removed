@@ -35,7 +35,7 @@ class
 GraphDriver
 ;
 class
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 ;
 class
 GraphRunner
@@ -45,7 +45,7 @@ public
 explicit
 GraphRunner
 (
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 aGraph
 )
@@ -95,7 +95,7 @@ private
 Monitor
 mMonitor
 ;
-MediaStreamGraphImpl
+MediaTrackGraphImpl
 *
 const
 mGraph

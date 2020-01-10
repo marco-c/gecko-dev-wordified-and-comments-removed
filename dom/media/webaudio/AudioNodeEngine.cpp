@@ -1970,9 +1970,9 @@ AudioNodeEngine
 :
 ProcessBlock
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 GraphTime
 aFrom
 const
@@ -2013,9 +2013,9 @@ AudioNodeEngine
 :
 ProcessBlocksOnPorts
 (
-AudioNodeStream
+AudioNodeTrack
 *
-aStream
+aTrack
 Span
 <
 const

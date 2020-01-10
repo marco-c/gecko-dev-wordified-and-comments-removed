@@ -48,7 +48,7 @@ namespace
 mozilla
 {
 class
-AudioNodeStream
+AudioNodeTrack
 ;
 class
 DOMMediaStream
@@ -58,9 +58,6 @@ ErrorResult
 ;
 struct
 MediaRecorderOptions
-;
-class
-MediaStream
 ;
 class
 GlobalObject
@@ -98,7 +95,7 @@ MediaRecorder
 (
 DOMMediaStream
 &
-aSourceMediaStream
+aSourceMediaTrack
 nsPIDOMWindowInner
 *
 aOwnerWindow

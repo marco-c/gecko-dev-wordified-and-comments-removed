@@ -22,14 +22,14 @@ h
 #
 include
 "
-MediaStreamGraph
+MediaTrackGraph
 .
 h
 "
 #
 include
 "
-MediaStreamListener
+MediaTrackListener
 .
 h
 "
@@ -809,7 +809,7 @@ const
 AudioSegment
 &
 aSegment
-StreamTime
+TrackTime
 aDuration
 )
 {

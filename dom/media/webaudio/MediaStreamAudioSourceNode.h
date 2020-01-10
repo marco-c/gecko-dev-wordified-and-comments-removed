@@ -229,7 +229,7 @@ aGivenProto
 override
 ;
 void
-DestroyMediaStream
+DestroyMediaTrack
 (
 )
 override

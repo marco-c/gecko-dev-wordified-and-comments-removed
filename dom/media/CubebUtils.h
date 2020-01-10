@@ -121,7 +121,7 @@ GetCubebPlaybackLatencyInMilliseconds
 )
 ;
 uint32_t
-GetCubebMSGLatencyInFrames
+GetCubebMTGLatencyInFrames
 (
 cubeb_stream_params
 *

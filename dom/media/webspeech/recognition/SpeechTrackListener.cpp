@@ -97,10 +97,10 @@ SpeechTrackListener
 :
 NotifyQueuedChanges
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
-StreamTime
+TrackTime
 aTrackOffset
 const
 MediaSegment
@@ -430,7 +430,7 @@ SpeechTrackListener
 :
 NotifyEnded
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )
@@ -442,7 +442,7 @@ SpeechTrackListener
 :
 NotifyRemoved
 (
-MediaStreamGraph
+MediaTrackGraph
 *
 aGraph
 )

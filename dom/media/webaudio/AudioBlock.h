@@ -243,7 +243,7 @@ aNewBuffer
 void
 SetNull
 (
-StreamTime
+TrackTime
 aDuration
 )
 {
@@ -424,7 +424,7 @@ i
 ;
 for
 (
-StreamTime
+TrackTime
 frame
 =
 0

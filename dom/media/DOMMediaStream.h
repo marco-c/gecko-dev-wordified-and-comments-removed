@@ -73,15 +73,6 @@ AbstractThread
 class
 DOMMediaStream
 ;
-class
-MediaStream
-;
-class
-MediaInputPort
-;
-class
-ProcessedMediaStream
-;
 enum
 class
 BlockingMode
