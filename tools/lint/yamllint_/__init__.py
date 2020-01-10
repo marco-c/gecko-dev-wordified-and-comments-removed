@@ -33,6 +33,10 @@ from
 mozprocess
 import
 ProcessHandlerMixin
+from
+six
+import
+string_types
 here
 =
 os
@@ -654,7 +658,7 @@ if
 isinstance
 (
 paths
-basestring
+string_types
 )
 :
         

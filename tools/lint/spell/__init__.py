@@ -43,6 +43,10 @@ from
 mozprocess
 import
 ProcessHandlerMixin
+from
+six
+import
+PY3
 here
 =
 os
@@ -224,17 +228,26 @@ config
 config
         
 kwargs
-[
+=
+{
+            
 '
 processOutputLine
 '
-]
-=
+:
 [
 self
 .
 process_line
 ]
+            
+'
+universal_newlines
+'
+:
+PY3
+        
+}
         
 ProcessHandlerMixin
 .
@@ -545,13 +558,9 @@ codespell
 '
 )
 def
-lint
+setup
 (
-paths
-config
-fix
-=
-None
+root
 *
 *
 lintargs
@@ -575,6 +584,19 @@ CODESPELL_INSTALL_ERROR
         
 return
 1
+def
+lint
+(
+paths
+config
+fix
+=
+None
+*
+*
+lintargs
+)
+:
     
 binary
 =

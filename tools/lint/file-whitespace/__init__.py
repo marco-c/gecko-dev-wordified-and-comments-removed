@@ -89,6 +89,7 @@ line
 .
 endswith
 (
+b
 "
 \
 n
@@ -110,6 +111,7 @@ rstrip
 (
 )
 +
+b
 "
 \
 n
@@ -208,6 +210,7 @@ open_file_to_write
 .
 write
 (
+b
 "
 "
 .
@@ -233,6 +236,7 @@ read
 )
             
 if
+b
 "
 \
 r

@@ -15,6 +15,10 @@ mozlint
 pathutils
 import
 expand_exclusions
+from
+six
+import
+PY2
 here
 =
 os
@@ -220,6 +224,8 @@ readlines
 )
         
 return
+list
+(
 filter
 (
 bool
@@ -240,6 +246,7 @@ x
 in
 l
 ]
+)
 )
 def
 is_valid_license
@@ -279,31 +286,49 @@ file
 "
 "
     
-nb_lines
+kwargs
 =
-10
+{
+}
+if
+PY2
+else
+{
+'
+errors
+'
+:
+'
+replace
+'
+}
     
 with
 open
 (
 filename
+'
+r
+'
+*
+*
+kwargs
 )
 as
 myfile
 :
         
-head
+contents
 =
 myfile
 .
-readlines
+read
 (
-nb_lines
 )
         
 if
 not
-head
+contents
 :
             
 return
@@ -326,13 +351,7 @@ strip
 (
 )
 in
-'
-'
-.
-join
-(
-head
-)
+contents
 .
 lower
 (
