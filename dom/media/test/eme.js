@@ -1128,11 +1128,6 @@ curFragment
 0
 ;
 var
-resolved
-=
-false
-;
-var
 fragments
 =
 track
@@ -1175,10 +1170,6 @@ track
 resolve
 (
 )
-;
-resolved
-=
-true
 ;
 return
 ;
