@@ -446,10 +446,6 @@ response
 20body
 "
 "
-response
-'
-s
-body
 "
 "
 text
