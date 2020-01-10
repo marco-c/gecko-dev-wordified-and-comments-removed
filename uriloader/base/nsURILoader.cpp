@@ -406,9 +406,6 @@ InitPreferences
 (
 )
 {
-nsresult
-rv
-=
 mozilla
 :
 :
@@ -428,10 +425,7 @@ document_open_conversion_depth_limit
 )
 ;
 return
-NS_SUCCEEDED
-(
-rv
-)
+true
 ;
 }
 class

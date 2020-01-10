@@ -2093,7 +2093,7 @@ PrefixMatch
 ;
 }
 static
-nsresult
+void
 AddBoolVarCache
 (
 bool
@@ -2115,7 +2115,7 @@ MemoryOrdering
 Order
 >
 static
-nsresult
+void
 AddAtomicBoolVarCache
 (
 Atomic
@@ -2136,7 +2136,7 @@ false
 )
 ;
 static
-nsresult
+void
 AddIntVarCache
 (
 int32_t
@@ -2158,7 +2158,7 @@ MemoryOrdering
 Order
 >
 static
-nsresult
+void
 AddAtomicIntVarCache
 (
 Atomic
@@ -2179,7 +2179,7 @@ aDefault
 )
 ;
 static
-nsresult
+void
 AddUintVarCache
 (
 uint32_t
@@ -2201,7 +2201,7 @@ MemoryOrdering
 Order
 >
 static
-nsresult
+void
 AddAtomicUintVarCache
 (
 Atomic
@@ -2222,7 +2222,7 @@ aDefault
 )
 ;
 static
-nsresult
+void
 AddFloatVarCache
 (
 float
@@ -2241,7 +2241,7 @@ aDefault
 )
 ;
 static
-nsresult
+void
 AddAtomicFloatVarCache
 (
 std
@@ -2271,7 +2271,7 @@ int
 N
 >
 static
-nsresult
+void
 AddBoolVarCache
 (
 bool
@@ -2312,7 +2312,7 @@ int
 N
 >
 static
-nsresult
+void
 AddAtomicBoolVarCache
 (
 Atomic
@@ -2358,7 +2358,7 @@ int
 N
 >
 static
-nsresult
+void
 AddIntVarCache
 (
 int32_t
@@ -2399,7 +2399,7 @@ int
 N
 >
 static
-nsresult
+void
 AddAtomicIntVarCache
 (
 Atomic
@@ -2445,7 +2445,7 @@ int
 N
 >
 static
-nsresult
+void
 AddUintVarCache
 (
 uint32_t
@@ -2486,7 +2486,7 @@ int
 N
 >
 static
-nsresult
+void
 AddAtomicUintVarCache
 (
 Atomic
@@ -2532,7 +2532,7 @@ int
 N
 >
 static
-nsresult
+void
 AddFloatVarCache
 (
 float
@@ -2573,7 +2573,7 @@ int
 N
 >
 static
-nsresult
+void
 AddAtomicFloatVarCache
 (
 std
