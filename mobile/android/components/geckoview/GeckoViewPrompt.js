@@ -4076,7 +4076,6 @@ EnterLoginForProxy3
 realm
 displayHost
 ]
-2
 )
 ;
 }
@@ -4099,7 +4098,6 @@ EnterPasswordFor
 username
 displayHost
 ]
-2
 )
 ;
 }
@@ -4121,7 +4119,6 @@ EnterUserPasswordForCrossOrigin2
 [
 displayHost
 ]
-1
 )
 ;
 }
@@ -4144,7 +4141,6 @@ EnterUserPasswordFor2
 [
 displayHost
 ]
-1
 )
 ;
 }
@@ -4163,7 +4159,6 @@ EnterLoginForRealm3
 realm
 displayHost
 ]
-2
 )
 ;
 }

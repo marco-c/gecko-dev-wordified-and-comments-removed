@@ -1273,7 +1273,6 @@ project
 .
 name
 ]
-1
 )
 ;
 }
@@ -1786,9 +1785,6 @@ formatStringFromName
 (
 l10nProperty
 l10nArgs
-l10nArgs
-.
-length
 )
 ;
 }

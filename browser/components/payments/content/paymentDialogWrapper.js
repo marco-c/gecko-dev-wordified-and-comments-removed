@@ -339,7 +339,6 @@ platform
 [
 brandShortName
 ]
-1
 )
 ;
 }

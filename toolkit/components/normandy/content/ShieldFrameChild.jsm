@@ -490,7 +490,6 @@ enabledList
 [
 brandName
 ]
-1
 )
 ;
 this

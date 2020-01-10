@@ -400,9 +400,6 @@ gStr
 .
 statusFormatInfiniteRate
 params
-params
-.
-length
 )
 ;
 }
@@ -428,9 +425,6 @@ gStr
 .
 statusFormat
 params
-params
-.
-length
 )
 ;
 }
@@ -488,9 +482,6 @@ gStr
 .
 statusFormatNoRate
 params
-params
-.
-length
 )
 ;
 return
@@ -728,9 +719,6 @@ formatStringFromName
 (
 name
 values
-values
-.
-length
 )
 ;
 }
@@ -977,7 +965,6 @@ time1
 )
 unit1
 ]
-2
 )
 ;
 let
@@ -999,7 +986,6 @@ time2
 )
 unit2
 ]
-2
 )
 ;
 if
@@ -1035,7 +1021,6 @@ timeLeftSingle
 [
 pair1
 ]
-1
 )
 ;
 }
@@ -1054,7 +1039,6 @@ timeLeftDouble
 pair1
 pair2
 ]
-2
 )
 ;
 }
@@ -1471,7 +1455,6 @@ uri
 .
 scheme
 ]
-1
 )
 ;
 fullHost

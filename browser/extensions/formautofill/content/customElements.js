@@ -1199,7 +1199,6 @@ warningTextTmplKey
 [
 categoriesText
 ]
-1
 )
 ;
 this

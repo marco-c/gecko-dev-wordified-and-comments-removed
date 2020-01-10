@@ -3030,9 +3030,6 @@ formatStringFromName
 (
 key
 params
-params
-.
-length
 )
 ;
 }

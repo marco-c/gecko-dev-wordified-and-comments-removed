@@ -7785,7 +7785,6 @@ this
 .
 displayVersion
 ]
-2
 )
 ;
 }

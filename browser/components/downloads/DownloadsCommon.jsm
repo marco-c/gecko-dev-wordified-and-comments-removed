@@ -674,9 +674,6 @@ from
 (
 arguments
 )
-arguments
-.
-length
 )
 ;
 }
@@ -714,9 +711,6 @@ from
 (
 arguments
 )
-arguments
-.
-length
 )
 ;
 return

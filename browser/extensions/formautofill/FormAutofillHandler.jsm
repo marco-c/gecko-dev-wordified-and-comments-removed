@@ -215,7 +215,6 @@ platform
 [
 brandShortName
 ]
-1
 )
 ;
 }

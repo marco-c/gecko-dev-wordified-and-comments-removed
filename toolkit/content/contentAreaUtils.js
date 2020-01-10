@@ -1914,7 +1914,6 @@ filesFolder
 [
 nameWithoutExtension
 ]
-1
 )
 ;
 filesFolder

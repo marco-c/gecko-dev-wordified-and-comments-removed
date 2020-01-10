@@ -2286,7 +2286,6 @@ engine
 .
 name
 ]
-1
 )
 iconData
 :

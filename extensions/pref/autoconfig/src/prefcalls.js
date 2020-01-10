@@ -964,7 +964,6 @@ autoConfigMsg
 [
 funcname
 ]
-1
 )
 ;
 promptService

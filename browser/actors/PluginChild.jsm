@@ -2499,7 +2499,6 @@ PluginClickToActivate2
 [
 pluginName
 ]
-1
 )
 ;
 let
@@ -4572,7 +4571,6 @@ title
 [
 pluginName
 ]
-1
 )
 ;
 let
@@ -5223,7 +5221,6 @@ title
 [
 pluginName
 ]
-1
 )
 ;
 this

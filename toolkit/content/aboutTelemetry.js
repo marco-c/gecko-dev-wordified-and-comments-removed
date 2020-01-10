@@ -5484,9 +5484,6 @@ aPrefix
 title
 "
 aFormatArgs
-aFormatArgs
-.
-length
 )
 ;
 titleElement

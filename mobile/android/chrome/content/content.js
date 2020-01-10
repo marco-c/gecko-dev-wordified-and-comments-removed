@@ -877,7 +877,6 @@ SSLConnectionErrorPrefix2
 hostString
 msg2
 ]
-2
 )
 ;
 if
@@ -898,7 +897,6 @@ certErrorCodePrefix3
 [
 nss_error_id_str
 ]
-1
 )
 ;
 }
@@ -1068,7 +1066,6 @@ certErrorIntro
 [
 hostString
 ]
-1
 )
 ;
 msg
@@ -1263,7 +1260,6 @@ certErrorTrust_Symantec
 [
 hostString
 ]
-1
 )
 +
 "
@@ -1532,7 +1528,6 @@ certErrorSymantecDistrustDescription
 [
 hostString
 ]
-1
 )
 ;
 introContent
@@ -1960,7 +1955,6 @@ certErrorMismatch
 [
 hostString
 ]
-1
 )
 ;
 technicalInfo
@@ -2089,7 +2083,6 @@ validity
 notAfterLocalTime
 now
 ]
-2
 )
 +
 "
@@ -2116,7 +2109,6 @@ validity
 notBeforeLocalTime
 now
 ]
-2
 )
 +
 "
@@ -2143,7 +2135,6 @@ certErrorExpiredNow
 "
 now
 ]
-2
 )
 +
 "
@@ -2185,7 +2176,6 @@ securityInfo
 .
 errorCodeString
 ]
-1
 )
 ;
 technicalInfo

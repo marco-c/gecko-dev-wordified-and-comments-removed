@@ -131,7 +131,6 @@ confirmRepostPrompt
 [
 brandName
 ]
-1
 )
 ;
 }

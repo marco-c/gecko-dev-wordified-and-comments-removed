@@ -8211,7 +8211,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 }
@@ -8298,7 +8297,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -8438,7 +8436,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -8583,7 +8580,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -8695,7 +8691,6 @@ gStrings
 .
 brandShortName
 ]
-2
 )
 ;
 this
@@ -8824,7 +8819,6 @@ gStrings
 .
 appVersion
 ]
-3
 )
 ;
 this
@@ -8899,7 +8893,6 @@ gStrings
 .
 brandShortName
 ]
-2
 )
 ;
 this
@@ -9003,7 +8996,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -9126,7 +9118,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -9249,7 +9240,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -9364,7 +9354,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 this
@@ -9483,7 +9472,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 }
@@ -12329,7 +12317,6 @@ mAddon
 .
 name
 ]
-1
 )
 ;
 gEventManager
@@ -13730,7 +13717,6 @@ _name
 .
 value
 ]
-1
 )
 ;
 this
@@ -13829,7 +13815,6 @@ _name
 .
 value
 ]
-1
 )
 ;
 this

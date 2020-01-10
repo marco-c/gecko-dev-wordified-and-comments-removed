@@ -1075,7 +1075,6 @@ currentEngine
 .
 name
 ]
-1
 )
 ;
 this

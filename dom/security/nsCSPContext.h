@@ -218,12 +218,12 @@ char
 *
 aName
 const
-char16_t
-*
-*
+nsTArray
+<
+nsString
+>
+&
 aParams
-uint32_t
-aParamsLength
 const
 nsAString
 &

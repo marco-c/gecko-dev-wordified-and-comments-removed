@@ -1171,7 +1171,6 @@ location
 .
 hostname
 ]
-1
 )
 ;
 let
@@ -2662,7 +2661,6 @@ SSLConnectionErrorPrefix2
 hostString
 msg2
 ]
-2
 )
 ;
 if
@@ -2689,7 +2687,6 @@ certErrorCodePrefix3
 [
 nss_error_id_str
 ]
-1
 )
 +
 "

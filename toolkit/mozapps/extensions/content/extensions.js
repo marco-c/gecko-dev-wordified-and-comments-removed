@@ -5151,7 +5151,6 @@ gStrings
 .
 brandShortName
 ]
-1
 )
 ;
 }
@@ -13799,7 +13798,6 @@ gStrings
 .
 brandShortName
 ]
-1
 )
 +
 "
@@ -16679,7 +16677,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 }
@@ -16759,7 +16756,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 var
@@ -16890,7 +16886,6 @@ gStrings
 .
 brandShortName
 ]
-2
 )
 ;
 let
@@ -17036,7 +17031,6 @@ gStrings
 .
 appVersion
 ]
-3
 )
 ;
 document
@@ -17119,7 +17113,6 @@ gStrings
 .
 brandShortName
 ]
-2
 )
 ;
 var
@@ -17242,7 +17235,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 let
@@ -17376,7 +17368,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 let
@@ -17510,7 +17501,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 let
@@ -17644,7 +17634,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 let
@@ -17791,7 +17780,6 @@ _addon
 .
 name
 ]
-1
 )
 ;
 }

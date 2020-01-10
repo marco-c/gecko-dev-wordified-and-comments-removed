@@ -212,9 +212,6 @@ formatStringFromName
 (
 name
 rest
-rest
-.
-length
 )
 ;
 }

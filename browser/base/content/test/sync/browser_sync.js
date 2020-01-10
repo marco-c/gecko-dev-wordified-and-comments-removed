@@ -553,7 +553,6 @@ state
 .
 email
 ]
-1
 )
 ;
 checkPanelUIStatusBar
@@ -686,7 +685,6 @@ state
 .
 email
 ]
-1
 )
 ;
 checkPanelUIStatusBar

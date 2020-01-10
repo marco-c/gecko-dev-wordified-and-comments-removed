@@ -239,12 +239,12 @@ char16_t
 *
 formatStr
 const
-char16_t
-*
-*
+nsTArray
+<
+nsString
+>
+&
 aParams
-uint32_t
-aLength
 nsAString
 &
 aResult

@@ -248,9 +248,6 @@ from
 (
 arguments
 )
-arguments
-.
-length
 )
 ;
 }

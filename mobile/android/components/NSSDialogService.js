@@ -329,9 +329,6 @@ formatStringFromName
 (
 aName
 escapedArgList
-escapedArgList
-.
-length
 )
 ;
 }

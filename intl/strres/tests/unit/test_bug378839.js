@@ -347,7 +347,6 @@ name_hello
 [
 var_hello
 ]
-1
 )
 ;
 Assert
