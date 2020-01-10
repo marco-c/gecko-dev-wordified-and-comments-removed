@@ -1969,9 +1969,9 @@ super
 "
 browserName
 "
-appinfo
-.
-name
+getWebDriverBrowserName
+(
+)
 ]
 [
 "
