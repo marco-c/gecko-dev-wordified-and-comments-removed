@@ -3377,6 +3377,14 @@ type
 "
 extension
 "
+&
+&
+!
+addon
+.
+location
+.
+isBuiltin
 )
 {
 addon
