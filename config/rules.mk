@@ -8346,11 +8346,14 @@ MDDEPDIR
 (
 _MDDEPEND_FILES
 )
+)
+)
+)
+MDDEPEND_FILES
++
+=
 (
 EXTRA_MDDEPEND_FILES
-)
-)
-)
 )
 ifneq
 (

@@ -972,9 +972,14 @@ TOPOBJDIR
 /
 build
 /
+.
+deps
+/
 application
 .
 ini
+.
+stub
 :
 (
 TOPOBJDIR
