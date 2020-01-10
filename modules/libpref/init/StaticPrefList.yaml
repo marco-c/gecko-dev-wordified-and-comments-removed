@@ -2549,6 +2549,10 @@ IS_ANDROID
 mirror
 :
 always
+#
+Test
+only
+.
 -
 name
 :
@@ -2570,6 +2574,10 @@ false
 mirror
 :
 always
+#
+Test
+only
+.
 -
 name
 :
@@ -2591,6 +2599,10 @@ value
 mirror
 :
 always
+#
+Test
+only
+.
 -
 name
 :
