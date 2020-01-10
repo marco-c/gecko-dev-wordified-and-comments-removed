@@ -128,6 +128,13 @@ slot
 "
 )
 ;
+static
+constexpr
+size_t
+EstimatedMemoryUse
+=
+24
+;
 UListFormatter
 *
 getListFormatter
