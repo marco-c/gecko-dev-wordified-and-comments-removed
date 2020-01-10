@@ -401,6 +401,9 @@ tp6
 -
 1
 )
+condprof
+:
+True
 mozharness
 :
 extra
@@ -5060,6 +5063,9 @@ c
 tier
 :
 2
+condprof
+:
+True
 mozharness
 :
 extra
