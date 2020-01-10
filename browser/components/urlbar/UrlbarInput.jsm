@@ -3588,6 +3588,8 @@ force
 (
 this
 .
+view
+.
 isOpen
 |
 |
