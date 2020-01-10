@@ -1339,6 +1339,13 @@ end
 )
 ;
 }
+public
+:
+using
+InternalIndex
+=
+uint8_t
+;
 private
 :
 Vector
@@ -1352,7 +1359,7 @@ values
 ;
 Vector
 <
-uint8_t
+InternalIndex
 >
 saturated
 ;
