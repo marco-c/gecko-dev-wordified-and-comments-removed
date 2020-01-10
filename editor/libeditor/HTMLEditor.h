@@ -4010,6 +4010,16 @@ nsIContent
 aBRNode
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+HandleInsertParagraphInParagraph
+(
+Element
+&
+aParentDivOrP
+)
+;
 protected
 :
 virtual
