@@ -1023,7 +1023,7 @@ element
 =
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
@@ -2119,7 +2119,7 @@ element
 =
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
@@ -2715,7 +2715,7 @@ element
 =
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
@@ -3113,7 +3113,7 @@ element
 =
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )

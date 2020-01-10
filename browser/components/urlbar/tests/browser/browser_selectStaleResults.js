@@ -452,7 +452,7 @@ gURLBar
 .
 view
 .
-_isRowVisible
+_isElementVisible
 (
 r
 )

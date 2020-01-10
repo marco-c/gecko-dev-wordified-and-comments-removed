@@ -121,7 +121,7 @@ element
 =
 UrlbarTestUtils
 .
-getSelectedElement
+getSelectedRow
 (
 window
 )
