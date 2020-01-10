@@ -82,7 +82,7 @@ actions
 ;
 import
 {
-getBreakpointForLocation
+getBreakpoint
 getConditionalPanelLocation
 getLogPointStatus
 getContext
@@ -1186,7 +1186,7 @@ state
 )
 breakpoint
 :
-getBreakpointForLocation
+getBreakpoint
 (
 state
 location

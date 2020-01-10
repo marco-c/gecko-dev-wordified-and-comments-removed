@@ -862,7 +862,7 @@ if
 (
 frame
 .
-origin
+options
 )
 {
 let
@@ -872,13 +872,9 @@ if
 (
 frame
 .
-origin
-=
-=
-=
-"
+options
+.
 logPoint
-"
 )
 {
 locationPrefix
