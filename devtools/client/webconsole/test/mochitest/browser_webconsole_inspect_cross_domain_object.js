@@ -60,6 +60,12 @@ requestLongerTimeout
 2
 )
 ;
+Cu
+.
+forceShrinkingGC
+(
+)
+;
 const
 hud
 =
