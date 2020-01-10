@@ -9344,12 +9344,10 @@ Invert
 double
 NaN
 =
-JS_GetNaNValue
-(
-aCx
-)
-.
-toDouble
+JS
+:
+:
+GenericNaN
 (
 )
 ;

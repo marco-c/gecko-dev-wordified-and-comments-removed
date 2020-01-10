@@ -60,12 +60,6 @@ js
 :
 jit
 ;
-using
-JS
-:
-:
-DoubleNaNValue
-;
 static
 void
 EnsureOperandNotFloat32
@@ -6260,7 +6254,10 @@ MConstant
 New
 (
 alloc
-DoubleNaNValue
+JS
+:
+:
+NaNValue
 (
 )
 )
