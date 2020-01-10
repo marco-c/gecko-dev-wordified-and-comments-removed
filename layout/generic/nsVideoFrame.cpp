@@ -1573,7 +1573,7 @@ isBSizeShrinkWrapping
 contentBoxBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 nscoord
@@ -2124,7 +2124,7 @@ if
 contentBoxBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 contentBoxBSize

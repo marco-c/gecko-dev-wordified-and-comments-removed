@@ -2452,7 +2452,7 @@ mIsFrozen
 mFlexBaseSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 flex
 base
@@ -4787,7 +4787,7 @@ if
 tentativeCrossSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 tentativeCrossSize
@@ -5105,7 +5105,7 @@ ComputedMinBSize
 ;
 }
 return
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 }
 static
@@ -5239,7 +5239,7 @@ GetFlexBaseSize
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 minMainSize
@@ -5376,7 +5376,7 @@ aAxisTracker
 {
 MOZ_ASSERT
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aFlexItem
@@ -5432,7 +5432,7 @@ if
 crossSizeToUseWithRatio
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 nscoord
@@ -5502,7 +5502,7 @@ IsInlineAxisMainAxis
 )
 &
 &
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aFlexItem
@@ -5616,7 +5616,7 @@ IsColumnOriented
 containerCrossSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 aFlexItem
@@ -15040,7 +15040,7 @@ if
 aTentativeMainSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -15253,7 +15253,7 @@ if
 effectiveComputedBSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 *
@@ -18423,7 +18423,7 @@ ComputedBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 aReflowInput
@@ -19405,7 +19405,7 @@ ComputedBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 desiredSizeInFlexWM

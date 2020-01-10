@@ -270,7 +270,7 @@ aReflowInput
 nscoord
 aConsumed
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 const
 ;

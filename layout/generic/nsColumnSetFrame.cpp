@@ -521,7 +521,7 @@ kClassID
 )
 mLastBalanceBSize
 (
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 }
@@ -1281,11 +1281,11 @@ AvailableISize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 return
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 }
 WritingMode
@@ -1350,11 +1350,11 @@ AvailableBSize
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 return
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 }
 WritingMode
@@ -1544,7 +1544,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 availContentISize
@@ -1590,7 +1590,7 @@ ComputedBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 colBSize
@@ -1612,7 +1612,7 @@ ComputedMaxBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 colBSize
@@ -1652,7 +1652,7 @@ ComputedMaxBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 colBSize
@@ -1802,7 +1802,7 @@ if
 availContentISize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 colGap
@@ -1876,7 +1876,7 @@ numColumns
 availContentISize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 nscoord
@@ -1903,7 +1903,7 @@ else
 {
 colISize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 }
 colISize
@@ -1934,13 +1934,13 @@ if
 colISize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 availContentISize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -2193,7 +2193,7 @@ config
 .
 mKnownFeasibleBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 config
 .
@@ -2972,7 +2972,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 availISize
@@ -2989,7 +2989,7 @@ if
 availISize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 childOrigin
@@ -4364,7 +4364,7 @@ aConfig
 mComputedBSize
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -4376,7 +4376,7 @@ AvailableBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 contentSize
@@ -4480,7 +4480,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 contentSize
@@ -5164,7 +5164,7 @@ aConfig
 mKnownFeasibleBSize
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 nextGuess
@@ -5442,7 +5442,7 @@ ComputedBSize
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 AddStateBits

@@ -773,7 +773,7 @@ Style
 PresContext
 (
 )
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 aFontSizeInflation
 )
 ;
@@ -2713,7 +2713,7 @@ Style
 PresContext
 (
 )
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 inflation
 )
 ;

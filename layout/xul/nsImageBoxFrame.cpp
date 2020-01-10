@@ -3343,7 +3343,7 @@ size
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 size
@@ -3351,7 +3351,7 @@ size
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 non
 -
@@ -3394,7 +3394,7 @@ minSize
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 minSize
 .
@@ -3414,7 +3414,7 @@ minSize
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 minSize
 .
@@ -3434,7 +3434,7 @@ maxSize
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 maxSize
 .
@@ -3454,7 +3454,7 @@ maxSize
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 maxSize
 .
@@ -3501,7 +3501,7 @@ size
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 size
@@ -3509,7 +3509,7 @@ size
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 non
 -

@@ -29377,7 +29377,7 @@ aCoord
 {
 MOZ_ASSERT
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 !
 =
 aContainingBlockBSize

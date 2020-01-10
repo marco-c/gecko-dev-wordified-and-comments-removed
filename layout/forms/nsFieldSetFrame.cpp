@@ -1970,7 +1970,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 "
 Should
 have

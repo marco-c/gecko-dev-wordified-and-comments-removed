@@ -28182,7 +28182,7 @@ if
 cbSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 bool
@@ -28329,7 +28329,7 @@ aWM
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 &
 &
 result
@@ -29802,7 +29802,7 @@ if
 cbSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -50015,8 +50015,8 @@ aState
 nsSize
 size
 (
-NS_INTRINSICSIZE
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
+NS_UNCONSTRAINEDSIZE
 )
 ;
 DISPLAY_MAX_SIZE
@@ -50806,13 +50806,13 @@ if
 aWidth
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 aHeight
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -51003,7 +51003,7 @@ parentSize
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 parentSize
 .
@@ -51023,7 +51023,7 @@ parentSize
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 parentSize
 .
@@ -51078,7 +51078,7 @@ parentSize
 width
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 parentReflowInput
 .
@@ -51103,7 +51103,7 @@ parentSize
 height
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 parentReflowInput
 .
@@ -51267,7 +51267,7 @@ BSize
 wm
 )
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 ReflowInput
 reflowInput
@@ -51307,7 +51307,7 @@ if
 aWidth
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 nscoord
@@ -51357,7 +51357,7 @@ if
 aHeight
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 nscoord
@@ -51719,7 +51719,7 @@ if
 aHeight
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 aDesiredSize
@@ -51763,7 +51763,7 @@ if
 aWidth
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 &
 &
 aDesiredSize
@@ -51810,7 +51810,7 @@ if
 aWidth
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 aWidth
 =
@@ -51825,7 +51825,7 @@ if
 aHeight
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 aHeight
 =

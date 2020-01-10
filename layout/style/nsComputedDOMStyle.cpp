@@ -10504,7 +10504,7 @@ AssertFlushedPendingReflows
 nscoord
 blockHeight
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 if
 (

@@ -1537,7 +1537,7 @@ if
 computedBSize
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 computedBSize
@@ -1751,7 +1751,7 @@ if
 rangeFrameContentBoxHeight
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 rangeFrameContentBoxHeight

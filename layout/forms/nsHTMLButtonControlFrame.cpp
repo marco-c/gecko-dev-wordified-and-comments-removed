@@ -1001,7 +1001,7 @@ BSize
 wm
 )
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 const
 LogicalMargin
@@ -1208,7 +1208,7 @@ ComputedBSize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 buttonContentBox
@@ -1305,7 +1305,7 @@ ComputedISize
 )
 !
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 buttonContentBox

@@ -999,7 +999,7 @@ computedSize
 width
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 |
 |
 computedSize
@@ -1007,7 +1007,7 @@ computedSize
 height
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 prefSize
@@ -1052,7 +1052,7 @@ ComputedWidth
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 computedSize
@@ -1089,7 +1089,7 @@ ComputedHeight
 )
 =
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 )
 {
 computedSize

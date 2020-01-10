@@ -2532,7 +2532,7 @@ aFrameType
 {
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 rs
@@ -3027,7 +3027,7 @@ ComputedBSize
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 SetBResize
@@ -3053,7 +3053,7 @@ ComputedBSize
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 if
@@ -4805,7 +4805,7 @@ IsAuto
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 aCBSize
@@ -7336,7 +7336,7 @@ cbwm
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 "
 containing
 block
@@ -9569,7 +9569,7 @@ nullptr
 nscoord
 result
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 const
 ReflowInput
@@ -9648,7 +9648,7 @@ ri
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 ri
@@ -9765,7 +9765,7 @@ ComputedHeight
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 result
@@ -10264,7 +10264,7 @@ IsVertical
 )
 &
 &
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -10746,7 +10746,7 @@ cbri
 }
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -10869,7 +10869,7 @@ HasPercent
 {
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 =
 =
 cbSize
@@ -10973,7 +10973,7 @@ wm
 )
 =
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 isAutoBSize
@@ -11010,7 +11010,7 @@ wm
 ;
 if
 (
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 !
 =
 computedBSize
@@ -11329,7 +11329,7 @@ ComputedBSize
 (
 )
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 ;
 }
 else
@@ -13703,7 +13703,7 @@ IsMozBlockHeight
 aBlockBSize
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 {
 return
@@ -13767,7 +13767,7 @@ ComputedBSize
 (
 )
 :
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 )
 ;
 return

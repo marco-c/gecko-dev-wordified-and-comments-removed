@@ -312,7 +312,7 @@ INT32_MAX
 nscoord
 mColISize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nscoord
 mExpectedISizeLeftOver
@@ -322,12 +322,12 @@ mExpectedISizeLeftOver
 nscoord
 mColGap
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nscoord
 mColMaxBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 bool
 mIsBalancing
@@ -337,7 +337,7 @@ false
 nscoord
 mKnownFeasibleBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nscoord
 mKnownInfeasibleBSize
@@ -347,7 +347,7 @@ mKnownInfeasibleBSize
 nscoord
 mComputedBSize
 =
-NS_INTRINSICSIZE
+NS_UNCONSTRAINEDSIZE
 ;
 nscoord
 mConsumedBSize

@@ -1350,7 +1350,7 @@ aWritingMode
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 &
 &
 aCBSize
@@ -1361,7 +1361,7 @@ aWritingMode
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 "
 root
 should
@@ -1547,7 +1547,7 @@ aWritingMode
 )
 !
 =
-NS_AUTOHEIGHT
+NS_UNCONSTRAINEDSIZE
 "
 root
 should
