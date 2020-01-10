@@ -944,7 +944,7 @@ if
 mRecorder
 -
 >
-IsEmpty
+hasOneRef
 (
 )
 )
