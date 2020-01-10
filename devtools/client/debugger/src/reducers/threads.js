@@ -102,9 +102,7 @@ url
 type
 :
 "
-main
--
-thread
+mainThread
 "
 name
 :
