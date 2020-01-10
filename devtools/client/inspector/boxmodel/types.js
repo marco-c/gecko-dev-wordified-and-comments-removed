@@ -34,7 +34,7 @@ geometryEditorEnabled
 :
 PropTypes
 .
-boolean
+bool
 layout
 :
 PropTypes
