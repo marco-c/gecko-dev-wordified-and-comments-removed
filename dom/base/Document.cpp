@@ -28298,6 +28298,16 @@ kAllChanges
 )
 ;
 }
+else
+{
+mStyleSet
+-
+>
+ClearCachedStyleData
+(
+)
+;
+}
 nsCOMPtr
 <
 nsIDocShell
