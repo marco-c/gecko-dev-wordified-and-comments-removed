@@ -705,6 +705,13 @@ include
 config
 .
 mk
+include
+.
+.
+/
+platlibs
+.
+mk
 #
 #
 #

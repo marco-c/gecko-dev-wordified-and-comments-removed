@@ -8937,7 +8937,7 @@ hashLen
 {
 return
 (
-PORT_Memcmp
+NSS_SecureMemcmp
 (
 sig
 hash
@@ -9863,7 +9863,7 @@ SFTK_MAX_MAC_LENGTH
 ;
 return
 (
-PORT_Memcmp
+NSS_SecureMemcmp
 (
 sig
 tmpBuf
@@ -16828,7 +16828,7 @@ context
 {
 if
 (
-PORT_Memcmp
+NSS_SecureMemcmp
 (
 pSignature
 context
