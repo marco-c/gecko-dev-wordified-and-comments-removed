@@ -1190,6 +1190,7 @@ Tables
 :
 yes
 )
+const
 ;
 Element
 *
@@ -1499,6 +1500,7 @@ aOffset
 EditSubAction
 aEditSubAction
 )
+const
 ;
 void
 GetPromotedRanges
@@ -1515,6 +1517,7 @@ outArrayOfRanges
 EditSubAction
 aEditSubAction
 )
+const
 ;
 void
 PromoteRange
@@ -1525,6 +1528,7 @@ aRange
 EditSubAction
 aEditSubAction
 )
+const
 ;
 enum
 class
@@ -1562,6 +1566,7 @@ aEditSubAction
 TouchContent
 aTouchContent
 )
+const
 ;
 void
 GetChildNodesForOperation
@@ -1603,6 +1608,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
@@ -1623,6 +1629,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 ;
 enum
 class
@@ -1651,6 +1658,7 @@ aEntireList
 TouchContent
 aTouchContent
 )
+const
 ;
 void
 GetDefinitionListItemTypes
@@ -1665,6 +1673,7 @@ bool
 *
 aDD
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -1694,6 +1703,7 @@ nsINode
 &
 aNodeArray
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
@@ -1704,6 +1714,7 @@ RangeItem
 &
 aRangeItem
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
@@ -1723,6 +1734,7 @@ nsINode
 &
 aOutArrayOfNodes
 )
+const
 ;
 nsIContent
 *
@@ -1732,6 +1744,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 void
 MakeTransitionList

@@ -15923,6 +15923,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 {
 if
 (
@@ -15968,6 +15969,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 {
 MOZ_ASSERT
 (
@@ -16173,6 +16175,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 {
 if
 (
@@ -16218,6 +16221,7 @@ aFindAnyDataNode
 bool
 aNoBlockCrossing
 )
+const
 {
 MOZ_ASSERT
 (
@@ -16479,6 +16483,7 @@ aGoForward
 bool
 bNoBlockCrossing
 )
+const
 {
 MOZ_ASSERT
 (
@@ -16715,6 +16720,7 @@ aFindAnyDataNode
 bool
 bNoBlockCrossing
 )
+const
 {
 if
 (

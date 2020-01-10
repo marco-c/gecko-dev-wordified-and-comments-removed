@@ -32749,6 +32749,7 @@ aLists
 Tables
 aTables
 )
+const
 {
 MOZ_ASSERT
 (
@@ -34163,6 +34164,7 @@ aOffset
 EditSubAction
 aEditSubAction
 )
+const
 {
 MOZ_ASSERT
 (
@@ -35037,6 +35039,7 @@ outArrayOfRanges
 EditSubAction
 aEditSubAction
 )
+const
 {
 MOZ_ASSERT
 (
@@ -35135,6 +35138,7 @@ aRange
 EditSubAction
 aEditSubAction
 )
+const
 {
 MOZ_ASSERT
 (
@@ -35604,6 +35608,7 @@ aEditSubAction
 TouchContent
 aTouchContent
 )
+const
 {
 MOZ_ASSERT
 (
@@ -36665,6 +36670,7 @@ aEntireList
 TouchContent
 aTouchContent
 )
+const
 {
 MOZ_ASSERT
 (
@@ -36952,6 +36958,7 @@ nsINode
 &
 aNodeArray
 )
+const
 {
 MOZ_ASSERT
 (
@@ -37181,6 +37188,7 @@ bool
 *
 aDD
 )
+const
 {
 MOZ_ASSERT
 (
@@ -37464,6 +37472,7 @@ RangeItem
 &
 aRangeItem
 )
+const
 {
 MOZ_ASSERT
 (
@@ -37783,6 +37792,7 @@ nsINode
 &
 aOutArrayOfNodes
 )
+const
 {
 MOZ_ASSERT
 (
@@ -38064,6 +38074,7 @@ nsINode
 &
 aNode
 )
+const
 {
 MOZ_ASSERT
 (
@@ -38232,6 +38243,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 {
 if
 (
@@ -38361,6 +38373,7 @@ outArrayOfNodes
 TouchContent
 aTouchContent
 )
+const
 {
 MOZ_ASSERT
 (

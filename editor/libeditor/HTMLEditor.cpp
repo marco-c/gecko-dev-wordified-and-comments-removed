@@ -19090,6 +19090,7 @@ aNode
 bool
 aNoBlockCrossing
 )
+const
 {
 if
 (
@@ -19142,6 +19143,7 @@ aPoint
 bool
 aNoBlockCrossing
 )
+const
 {
 if
 (

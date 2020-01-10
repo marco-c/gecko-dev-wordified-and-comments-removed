@@ -981,6 +981,7 @@ Element
 GetAbsolutelyPositionedSelectionContainer
 (
 )
+const
 ;
 Element
 *
@@ -1548,6 +1549,7 @@ DeleteTableCellContentsWithTransaction
 (
 )
 ;
+static
 void
 IsNextCharInNodeWhitespace
 (
@@ -1575,6 +1577,7 @@ outOffset
 0
 )
 ;
+static
 void
 IsPrevCharInNodeWhitespace
 (
@@ -2335,6 +2338,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextEditableHTMLNodeInternal
@@ -2352,6 +2356,7 @@ nsINode
 &
 aNode
 )
+const
 {
 return
 GetNextEditableHTMLNodeInternal
@@ -2381,6 +2386,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextEditableHTMLNodeInternal
@@ -2410,6 +2416,7 @@ CT
 &
 aPoint
 )
+const
 {
 return
 GetNextEditableHTMLNodeInternal
@@ -2429,6 +2436,7 @@ aNode
 bool
 aNoBlockCrossing
 )
+const
 ;
 template
 <
@@ -2452,6 +2460,7 @@ aPoint
 bool
 aNoBlockCrossing
 )
+const
 ;
 bool
 IsFirstEditableChild
