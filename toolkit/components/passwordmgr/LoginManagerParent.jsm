@@ -1469,6 +1469,17 @@ getLoginSavingEnabled
 (
 formOrigin
 )
+&
+&
+!
+PrivateBrowsingUtils
+.
+isWindowPrivate
+(
+target
+.
+ownerGlobal
+)
 )
 {
 generatedPassword
