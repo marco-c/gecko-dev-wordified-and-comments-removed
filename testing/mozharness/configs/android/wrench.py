@@ -165,30 +165,6 @@ exes
 "
 :
 {
-        
-'
-adb
-'
-:
-'
-%
-(
-abs_work_dir
-)
-s
-/
-android
--
-sdk
--
-linux
-/
-platform
--
-tools
-/
-adb
-'
     
 }
     
