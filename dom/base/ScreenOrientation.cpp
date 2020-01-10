@@ -1078,6 +1078,12 @@ aRv
 )
 ;
 }
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 static
 inline
 void
@@ -1220,6 +1226,8 @@ childShell
 }
 }
 }
+#
+endif
 already_AddRefed
 <
 Promise
