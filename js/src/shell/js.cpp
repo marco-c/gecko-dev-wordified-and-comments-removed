@@ -22513,6 +22513,11 @@ join
 (
 )
 ;
+js_delete
+(
+thread
+)
+;
 return
 false
 ;
@@ -23669,6 +23674,11 @@ thread
 >
 join
 (
+)
+;
+js_delete
+(
+thread
 )
 ;
 }
