@@ -279,8 +279,8 @@ MouseEvent
 ;
 dbg
 .
-enabled
-=
-false
+removeAllDebuggees
+(
+)
 ;
 }
