@@ -4,6 +4,8 @@ import
 absolute_import
 import
 os
+import
+platform
 from
 mozlint
 import
@@ -31,6 +33,22 @@ None
 lintargs
 )
 :
+    
+if
+platform
+.
+system
+(
+)
+=
+=
+'
+Windows
+'
+:
+        
+return
+results
     
 files
 =
