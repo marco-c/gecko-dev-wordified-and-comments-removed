@@ -576,7 +576,8 @@ BUG_COMPONENT
 Core
 "
 "
-Document
+DOM
+:
 Navigation
 "
 )

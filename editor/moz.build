@@ -203,6 +203,8 @@ BUG_COMPONENT
 Core
 '
 '
+DOM
+:
 Editor
 '
 )

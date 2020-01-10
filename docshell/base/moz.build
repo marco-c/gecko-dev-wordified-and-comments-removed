@@ -101,7 +101,8 @@ BUG_COMPONENT
 Core
 '
 '
-Document
+DOM
+:
 Navigation
 '
 )
@@ -123,6 +124,8 @@ BUG_COMPONENT
 Core
 '
 '
+DOM
+:
 Editor
 '
 )
@@ -144,6 +147,8 @@ BUG_COMPONENT
 Core
 '
 '
+DOM
+:
 Editor
 '
 )

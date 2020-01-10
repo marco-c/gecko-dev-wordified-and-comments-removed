@@ -102,6 +102,8 @@ BUG_COMPONENT
 Core
 '
 '
+DOM
+:
 Selection
 '
 )

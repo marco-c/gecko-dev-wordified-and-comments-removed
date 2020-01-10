@@ -101,10 +101,11 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
-Web
 Storage
+:
+localStorage
+&
+sessionStorage
 "
 )
 MOCHITEST_MANIFESTS

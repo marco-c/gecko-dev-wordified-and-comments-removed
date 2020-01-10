@@ -2412,6 +2412,8 @@ BUG_COMPONENT
 Core
 '
 '
+DOM
+:
 Selection
 '
 )
@@ -2886,8 +2888,9 @@ BUG_COMPONENT
 Core
 '
 '
-HTML
+DOM
 :
+HTML
 Parser
 '
 )

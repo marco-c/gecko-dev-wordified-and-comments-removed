@@ -255,8 +255,9 @@ BUG_COMPONENT
 Core
 "
 "
-HTML
+DOM
 :
+HTML
 Parser
 "
 )

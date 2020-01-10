@@ -425,6 +425,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Editor
 "
 )
@@ -661,8 +663,10 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Drag
-and
+&
 Drop
 "
 )
@@ -683,8 +687,10 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Drag
-and
+&
 Drop
 "
 )
@@ -1077,7 +1083,7 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Storage
 :
 IndexedDB
 "
@@ -1961,6 +1967,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Selection
 "
 )

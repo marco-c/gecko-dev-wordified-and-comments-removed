@@ -473,6 +473,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Editor
 "
 )
@@ -525,6 +527,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Editor
 "
 )
@@ -1067,7 +1071,7 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Storage
 :
 IndexedDB
 "
@@ -4201,6 +4205,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Editor
 "
 )
@@ -5412,7 +5418,8 @@ BUG_COMPONENT
 Core
 "
 "
-Document
+DOM
+:
 Navigation
 "
 )
@@ -5444,6 +5451,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Selection
 "
 )
@@ -6178,6 +6187,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Selection
 "
 )
@@ -6313,7 +6324,7 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
+Storage
 :
 Quota
 Manager
@@ -6985,10 +6996,11 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
-Web
 Storage
+:
+localStorage
+&
+sessionStorage
 "
 )
 with
