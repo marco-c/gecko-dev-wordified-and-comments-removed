@@ -35,6 +35,7 @@ const
 getFirstMessage
 getLastMessage
 getPrivatePacket
+getWebConsoleUiMock
 setupActions
 setupStore
 }
@@ -1157,11 +1158,11 @@ setupStore
 [
 ]
 {
-hud
+webConsoleUI
 :
-{
-proxy
-:
+getWebConsoleUiMock
+(
+null
 {
 releaseActor
 :
@@ -1178,7 +1179,7 @@ actor
 ;
 }
 }
-}
+)
 }
 )
 ;

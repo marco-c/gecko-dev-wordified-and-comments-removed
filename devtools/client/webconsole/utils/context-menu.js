@@ -720,8 +720,6 @@ actor
 ;
 webConsoleUI
 .
-webConsoleClient
-.
 evaluateJSAsync
 (
 evalString
@@ -932,8 +930,6 @@ actor
 )
 {
 webConsoleUI
-.
-webConsoleClient
 .
 evaluateJSAsync
 (

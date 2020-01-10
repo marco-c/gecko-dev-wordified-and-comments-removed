@@ -122,7 +122,9 @@ webConsoleUI
 ?
 webConsoleUI
 .
-proxy
+getProxy
+(
+)
 :
 null
 ;

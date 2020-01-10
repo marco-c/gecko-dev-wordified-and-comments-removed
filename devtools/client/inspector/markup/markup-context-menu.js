@@ -1507,8 +1507,6 @@ hud
 .
 ui
 .
-webConsoleClient
-.
 evaluateJSAsync
 (
 evalString
