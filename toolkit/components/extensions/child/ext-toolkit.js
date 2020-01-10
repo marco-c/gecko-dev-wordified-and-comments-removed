@@ -193,9 +193,6 @@ content_child
 "
 devtools_child
 "
-"
-proxy_script
-"
 ]
 paths
 :
@@ -241,9 +238,6 @@ content_child
 "
 devtools_child
 "
-"
-proxy_script
-"
 ]
 paths
 :
@@ -289,9 +283,6 @@ content_child
 "
 devtools_child
 "
-"
-proxy_script
-"
 ]
 paths
 :
@@ -337,9 +328,6 @@ content_child
 "
 devtools_child
 "
-"
-proxy_script
-"
 ]
 paths
 :
@@ -384,9 +372,6 @@ content_child
 "
 "
 devtools_child
-"
-"
-proxy_script
 "
 ]
 paths
