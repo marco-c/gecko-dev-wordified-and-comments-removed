@@ -471,6 +471,12 @@ IsReadOnly
 )
 const
 ;
+size_t
+SizeofIncludingThis
+(
+MallocSizeOf
+)
+;
 static
 already_AddRefed
 <
