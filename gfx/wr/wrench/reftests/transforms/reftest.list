@@ -53,6 +53,11 @@ clip
 large
 .
 png
+platform
+(
+linux
+mac
+)
 skip_on
 (
 android
@@ -277,7 +282,7 @@ mac
 )
 color_targets
 (
-2
+3
 )
 alpha_targets
 (
@@ -316,7 +321,7 @@ fuzzy
 )
 color_targets
 (
-1
+2
 )
 alpha_targets
 (

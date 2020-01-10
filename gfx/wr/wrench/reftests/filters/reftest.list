@@ -21,11 +21,11 @@ mac
 =
 draw_calls
 (
-6
+7
 )
 color_targets
 (
-6
+7
 )
 alpha_targets
 (
@@ -63,7 +63,7 @@ ref
 yaml
 color_targets
 (
-1
+2
 )
 alpha_targets
 (
@@ -81,7 +81,7 @@ ref
 yaml
 color_targets
 (
-1
+2
 )
 alpha_targets
 (
@@ -334,11 +334,11 @@ android
 =
 draw_calls
 (
-4
+6
 )
 color_targets
 (
-4
+6
 )
 alpha_targets
 (
@@ -645,6 +645,11 @@ alpha
 ref
 .
 yaml
+fuzzy
+(
+1
+1
+)
 =
 =
 filter

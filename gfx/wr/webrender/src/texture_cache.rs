@@ -2063,7 +2063,7 @@ filter
 TextureFilter
 :
 :
-Linear
+Nearest
 format
 :
 PICTURE_TILE_FORMAT
@@ -2162,6 +2162,9 @@ None
 count
 ]
 }
+has_depth
+:
+true
 }
 ;
 pending_updates
@@ -4553,6 +4556,9 @@ layer_count
 is_shared_cache
 :
 true
+has_depth
+:
+false
 }
 ;
 self
@@ -4751,6 +4757,9 @@ layer_count
 :
 1
 is_shared_cache
+:
+false
+has_depth
 :
 false
 }
@@ -5017,6 +5026,9 @@ i32
 is_shared_cache
 :
 true
+has_depth
+:
+false
 }
 ;
 self
@@ -6961,6 +6973,9 @@ Vec
 <
 WholeTextureSlice
 >
+has_depth
+:
+bool
 }
 impl
 WholeTextureArray
@@ -7015,6 +7030,11 @@ i32
 is_shared_cache
 :
 true
+has_depth
+:
+self
+.
+has_depth
 }
 }
 fn

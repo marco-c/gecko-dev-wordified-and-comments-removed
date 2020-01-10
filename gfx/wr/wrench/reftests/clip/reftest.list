@@ -215,6 +215,11 @@ system
 clip
 .
 png
+skip_on
+(
+android
+emulator
+)
 =
 =
 segmentation
@@ -237,7 +242,7 @@ yaml
 =
 color_targets
 (
-2
+3
 )
 alpha_targets
 (
@@ -269,6 +274,11 @@ snapping
 ref
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 fuzzy
 (
 70

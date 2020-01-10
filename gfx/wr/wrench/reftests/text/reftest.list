@@ -89,6 +89,11 @@ Android
 emulator
 and
 Pixel2
+skip_on
+(
+android
+emulator
+)
 =
 =
 shadow
@@ -218,7 +223,6 @@ yaml
 skip_on
 (
 android
-debug
 emulator
 )
 fuzzy
@@ -529,6 +533,11 @@ synthetic
 italics
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 options
 (
 disable
@@ -653,7 +662,7 @@ blending
 )
 draw_calls
 (
-5
+6
 )
 =
 =
@@ -689,7 +698,7 @@ linux
 )
 draw_calls
 (
-2
+3
 )
 =
 =

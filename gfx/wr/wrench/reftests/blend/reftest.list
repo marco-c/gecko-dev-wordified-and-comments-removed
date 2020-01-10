@@ -111,7 +111,7 @@ android
 =
 color_targets
 (
-3
+4
 )
 alpha_targets
 (
@@ -269,6 +269,11 @@ isolated
 ref
 .
 yaml
+skip_on
+(
+android
+emulator
+)
 =
 =
 isolated
