@@ -5609,6 +5609,9 @@ execute
 (
 CREATE
 INDEX
+IF
+NOT
+EXISTS
 mirror
 .
 itemURLs
@@ -5626,6 +5629,9 @@ execute
 (
 CREATE
 INDEX
+IF
+NOT
+EXISTS
 mirror
 .
 itemKeywords
@@ -5655,6 +5661,9 @@ execute
 (
 CREATE
 INDEX
+IF
+NOT
+EXISTS
 mirror
 .
 structurePositions
