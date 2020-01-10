@@ -260,6 +260,9 @@ usb
 "
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 U2FClientData
 {

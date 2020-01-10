@@ -420,6 +420,9 @@ tag
 ;
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 NotificationBehavior
 {

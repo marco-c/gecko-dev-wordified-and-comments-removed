@@ -456,6 +456,9 @@ channelCount
 ;
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 MediaTrackConstraints
 :

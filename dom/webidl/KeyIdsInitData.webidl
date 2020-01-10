@@ -131,6 +131,9 @@ initdata
 keyids
 .
 html
+[
+GenerateInitFromJSON
+]
 dictionary
 KeyIdsInitData
 {

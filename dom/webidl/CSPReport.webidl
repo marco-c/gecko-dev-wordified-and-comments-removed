@@ -140,6 +140,9 @@ number
 ;
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 CSPReport
 {

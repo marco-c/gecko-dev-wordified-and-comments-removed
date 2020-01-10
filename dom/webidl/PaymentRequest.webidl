@@ -285,6 +285,10 @@ total
 ;
 }
 ;
+[
+GenerateInitFromJSON
+GenerateToJSON
+]
 dictionary
 AddressErrors
 {
@@ -340,6 +344,10 @@ paymentMethod
 ;
 }
 ;
+[
+GenerateInitFromJSON
+GenerateToJSON
+]
 dictionary
 PayerErrors
 {

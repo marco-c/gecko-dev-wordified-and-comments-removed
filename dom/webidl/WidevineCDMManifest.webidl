@@ -91,6 +91,9 @@ MPL
 .
 *
 /
+[
+GenerateInitFromJSON
+]
 dictionary
 WidevineCDMManifest
 {

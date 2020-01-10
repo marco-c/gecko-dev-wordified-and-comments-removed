@@ -947,6 +947,9 @@ L10nArgs
 .
 *
 /
+[
+GenerateInitFromJSON
+]
 dictionary
 L10nArgsHelperDict
 {

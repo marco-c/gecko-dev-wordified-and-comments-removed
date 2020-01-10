@@ -803,6 +803,9 @@ DOMString
 >
 AuthenticationExtensionsAuthenticatorInputs
 ;
+[
+GenerateToJSON
+]
 dictionary
 CollectedClientData
 {

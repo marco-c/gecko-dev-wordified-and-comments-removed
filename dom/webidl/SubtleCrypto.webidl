@@ -509,6 +509,10 @@ t
 ;
 }
 ;
+[
+GenerateInitFromJSON
+GenerateToJSON
+]
 dictionary
 JsonWebKey
 {

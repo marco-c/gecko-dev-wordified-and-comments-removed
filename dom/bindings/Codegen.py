@@ -96078,13 +96078,23 @@ self
 .
 dictionarySafeToJSONify
 (
-self
-.
-dictionary
+d
 )
         
 if
+(
 canBeRepresentedAsJSON
+and
+            
+d
+.
+getExtendedAttribute
+(
+"
+GenerateInitFromJSON
+"
+)
+)
 :
             
 methods
@@ -96113,7 +96123,19 @@ toObjectInternalMethod
 )
             
 if
+(
 canBeRepresentedAsJSON
+and
+                
+d
+.
+getExtendedAttribute
+(
+"
+GenerateToJSON
+"
+)
+)
 :
                 
 methods

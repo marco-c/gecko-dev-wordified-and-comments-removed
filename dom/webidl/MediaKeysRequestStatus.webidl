@@ -160,6 +160,9 @@ web
 .
 *
 /
+[
+GenerateToJSON
+]
 dictionary
 RequestMediaKeySystemAccessNotification
 {

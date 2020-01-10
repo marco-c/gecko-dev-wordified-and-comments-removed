@@ -259,6 +259,9 @@ src
 ;
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 CSPPolicies
 {

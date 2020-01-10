@@ -3419,6 +3419,9 @@ matching
 .
 *
 /
+[
+GenerateInitFromJSON
+]
 dictionary
 OriginAttributesDictionary
 {
@@ -3453,6 +3456,10 @@ geckoViewSessionContextId
 ;
 }
 ;
+[
+GenerateInitFromJSON
+GenerateToJSON
+]
 dictionary
 OriginAttributesPatternDictionary
 {

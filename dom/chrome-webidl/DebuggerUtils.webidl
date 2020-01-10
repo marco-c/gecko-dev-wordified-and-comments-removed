@@ -123,6 +123,9 @@ an
 HTML
 parse
 .
+[
+GenerateToJSON
+]
 dictionary
 HTMLContent
 {

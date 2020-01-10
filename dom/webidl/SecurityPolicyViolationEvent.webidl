@@ -152,6 +152,10 @@ columnNumber
 ;
 }
 ;
+[
+GenerateInitFromJSON
+GenerateToJSON
+]
 dictionary
 SecurityPolicyViolationEventInit
 :

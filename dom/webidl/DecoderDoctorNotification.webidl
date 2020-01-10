@@ -145,6 +145,9 @@ warning
 "
 }
 ;
+[
+GenerateToJSON
+]
 dictionary
 DecoderDoctorNotification
 {
