@@ -903,6 +903,7 @@ map
 shortcut
 =
 >
+(
 <
 SelectableSearchShortcut
 key
@@ -933,6 +934,7 @@ handleChange
 }
 /
 >
+)
 )
 }
 <

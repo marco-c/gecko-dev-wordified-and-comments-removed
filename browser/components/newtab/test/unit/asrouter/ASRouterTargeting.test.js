@@ -325,13 +325,11 @@ async
 const
 messages
 =
-(
 await
 OnboardingMessageProvider
 .
 getUntranslatedMessages
 (
-)
 )
 ;
 const

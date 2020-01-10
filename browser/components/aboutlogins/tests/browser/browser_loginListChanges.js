@@ -116,9 +116,7 @@ spawn
 browser
 login
 async
-(
 addedLogin
-)
 =
 >
 {
@@ -157,6 +155,7 @@ waitForCondition
 >
 {
 return
+(
 loginList
 .
 _logins
@@ -180,6 +179,7 @@ guid
 addedLogin
 .
 guid
+)
 ;
 }
 "
@@ -288,9 +288,7 @@ spawn
 browser
 login
 async
-(
 modifiedLogin
-)
 =
 >
 {
@@ -329,6 +327,7 @@ waitForCondition
 >
 {
 return
+(
 loginList
 .
 _logins
@@ -367,6 +366,7 @@ username
 modifiedLogin
 .
 username
+)
 ;
 }
 "
@@ -474,9 +474,7 @@ spawn
 browser
 login
 async
-(
 removedLogin
-)
 =
 >
 {

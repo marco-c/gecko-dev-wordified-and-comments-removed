@@ -987,6 +987,7 @@ isContainerEmpty
 aContainerIndex
 )
 )
+{
 return
 [
 null
@@ -995,6 +996,7 @@ null
 "
 ]
 ;
+}
 for
 (
 let
@@ -1126,9 +1128,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 if
 (
@@ -1145,8 +1149,10 @@ aContainerIndex
 i
 )
 )
+{
 break
 ;
+}
 }
 return
 [
@@ -1213,9 +1219,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 return
 [

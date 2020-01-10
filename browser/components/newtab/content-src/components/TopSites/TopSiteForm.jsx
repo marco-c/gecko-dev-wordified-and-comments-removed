@@ -107,7 +107,6 @@ label
 :
 site
 ?
-(
 site
 .
 label
@@ -116,7 +115,6 @@ label
 site
 .
 hostname
-)
 :
 "
 "
@@ -295,9 +293,7 @@ this
 setState
 (
 {
-"
 label
-"
 :
 event
 .
@@ -1777,6 +1773,7 @@ button
 {
 previewMode
 ?
+(
 <
 button
 className
@@ -1807,7 +1804,9 @@ button
 "
 /
 >
+)
 :
+(
 <
 button
 className
@@ -1851,6 +1850,7 @@ button
 }
 /
 >
+)
 }
 <
 /

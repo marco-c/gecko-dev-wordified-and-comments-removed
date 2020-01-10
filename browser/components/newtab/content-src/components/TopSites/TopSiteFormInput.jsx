@@ -593,6 +593,7 @@ renderLoadingOrCloseButton
 validationError
 &
 &
+(
 <
 aside
 className
@@ -617,6 +618,7 @@ errorMessageId
 }
 /
 >
+)
 }
 <
 /

@@ -744,12 +744,14 @@ if
 (
 panel
 )
+{
 panel
 .
 remove
 (
 )
 ;
+}
 }
 tb
 .
@@ -2567,9 +2569,7 @@ obs
 new
 MutationObserver
 (
-(
 mutations
-)
 =
 >
 {
@@ -2766,9 +2766,7 @@ children
 .
 filter
 (
-(
 n
-)
 =
 >
 !

@@ -234,6 +234,7 @@ i
 +
 +
 )
+{
 is
 (
 actualValues
@@ -254,6 +255,7 @@ entry
 i
 )
 ;
+}
 }
 function
 getMenuEntries
@@ -790,8 +792,10 @@ activeElement
 =
 searchBar
 )
+{
 return
 ;
+}
 let
 focusPromise
 =

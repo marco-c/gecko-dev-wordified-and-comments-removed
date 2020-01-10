@@ -429,9 +429,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -731,9 +729,7 @@ name
 "
 swaJ
 "
-"
 organization
-"
 :
 "
 aliizoM
@@ -969,13 +965,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -1006,6 +1001,7 @@ page
 ]
 .
 guid
+)
 ;
 }
 "
@@ -1173,9 +1169,7 @@ spawnPaymentDialogTask
 (
 frame
 async
-(
 address
-)
 =
 >
 {
@@ -1216,9 +1210,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1235,6 +1227,7 @@ savedAddresses
 )
 ;
 return
+(
 addresses
 .
 length
@@ -1267,6 +1260,7 @@ given
 name
 "
 ]
+)
 ;
 }
 "
@@ -1429,9 +1423,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1620,9 +1612,7 @@ name
 "
 Niew
 "
-"
 email
-"
 :
 "
 test
@@ -2001,9 +1991,7 @@ spawnPaymentDialogTask
 (
 frame
 async
-(
 address
-)
 =
 >
 {
@@ -2328,9 +2316,7 @@ name
 "
 Niew
 "
-"
 email
-"
 :
 "
 test
@@ -2338,9 +2324,7 @@ example
 .
 com
 "
-"
 tel
-"
 :
 "
 +
@@ -2395,9 +2379,7 @@ spawnPaymentDialogTask
 (
 frame
 async
-(
 address
-)
 =
 >
 {
@@ -2435,9 +2417,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2520,13 +2500,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -2557,6 +2536,7 @@ page
 ]
 .
 guid
+)
 ;
 }
 "
@@ -2888,9 +2868,7 @@ spawnPaymentDialogTask
 (
 frame
 async
-(
 address
-)
 =
 >
 {
@@ -2931,9 +2909,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2950,6 +2926,7 @@ savedAddresses
 )
 ;
 return
+(
 addresses
 .
 length
@@ -2986,6 +2963,7 @@ name
 "
 1
 "
+)
 ;
 }
 "
@@ -3333,9 +3311,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -3637,9 +3613,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -4364,9 +4338,7 @@ spawnPaymentDialogTask
 (
 frame
 async
-(
 args
-)
 =
 >
 {
@@ -4418,9 +4390,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -5031,9 +5001,7 @@ const
 EXPECTED_ADDRESS
 =
 {
-"
 country
-"
 :
 "
 MO
@@ -5190,13 +5158,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -5227,6 +5194,7 @@ page
 ]
 .
 guid
+)
 ;
 }
 "
@@ -5469,9 +5437,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {

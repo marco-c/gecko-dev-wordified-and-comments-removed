@@ -73,9 +73,7 @@ onCreatedNavigationTarget
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -103,9 +101,7 @@ onCompleted
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -169,9 +165,7 @@ onCreated
 .
 addListener
 (
-(
 tab
-)
 =
 >
 {

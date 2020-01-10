@@ -620,9 +620,7 @@ closedTabData
 .
 findIndex
 (
-(
 closedTab
-)
 =
 >
 {
@@ -704,9 +702,7 @@ closedWindowData
 .
 findIndex
 (
-(
 closedWindow
-)
 =
 >
 {

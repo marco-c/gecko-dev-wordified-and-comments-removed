@@ -598,7 +598,6 @@ if
 UpdateChecker
 &
 &
-(
 now
 -
 this
@@ -607,7 +606,6 @@ _lastUpdated
 >
 =
 updateInterval
-)
 )
 {
 const
@@ -893,6 +891,7 @@ localeLanguageCode
 )
 {
 return
+(
 Services
 .
 locale
@@ -910,6 +909,7 @@ substr
 (
 0
 2
+)
 )
 ;
 }
@@ -1432,14 +1432,12 @@ site
 url
 host
 :
-(
 new
 URL
 (
 site
 .
 url
-)
 )
 .
 hostname
@@ -1476,7 +1474,6 @@ map
 site
 =
 >
-(
 site
 ?
 {
@@ -1487,14 +1484,12 @@ site
 url
 host
 :
-(
 new
 URL
 (
 site
 .
 url
-)
 )
 .
 hostname
@@ -1507,7 +1502,6 @@ searchTopSite
 :
 {
 }
-)
 )
 ;
 }
@@ -1914,6 +1908,7 @@ false
 }
 return
 (
+(
 candidateMessageTrigger
 .
 params
@@ -1955,6 +1950,7 @@ trigger
 param
 .
 url
+)
 )
 )
 ;
@@ -2144,6 +2140,7 @@ trigger
 )
 &
 &
+(
 await
 this
 .
@@ -2152,6 +2149,7 @@ checkMessageTargeting
 candidate
 combinedContext
 onError
+)
 )
 )
 {

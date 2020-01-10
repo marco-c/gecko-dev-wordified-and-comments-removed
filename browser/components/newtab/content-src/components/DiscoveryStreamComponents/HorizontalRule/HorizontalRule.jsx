@@ -18,7 +18,6 @@ render
 )
 {
 return
-(
 <
 hr
 className
@@ -30,7 +29,6 @@ hr
 "
 /
 >
-)
 ;
 }
 }

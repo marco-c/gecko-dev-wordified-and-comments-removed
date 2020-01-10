@@ -332,6 +332,7 @@ cancelQuery
 let
 contextWrapper
 =
+(
 this
 .
 _lastQueryContextWrapper
@@ -339,6 +340,7 @@ _lastQueryContextWrapper
 {
 queryContext
 }
+)
 ;
 queryContext
 .
@@ -1730,7 +1732,6 @@ resultIndex
 {
 selectedResult
 =
-(
 resultIndex
 >
 0
@@ -1740,7 +1741,6 @@ resultIndex
 result
 .
 heuristic
-)
 ?
 resultIndex
 :

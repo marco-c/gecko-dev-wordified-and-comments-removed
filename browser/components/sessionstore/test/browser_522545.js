@@ -969,6 +969,7 @@ i
 +
 +
 )
+{
 uris
 .
 push
@@ -987,6 +988,7 @@ com
 i
 )
 ;
+}
 gBrowser
 .
 addTabsProgressListener
@@ -1069,6 +1071,7 @@ aTab
 )
 {
 return
+(
 aTab
 .
 userTypedValue
@@ -1085,6 +1088,7 @@ aTab
 entries
 .
 length
+)
 ;
 }
 )
@@ -1707,12 +1711,10 @@ URLBarSetURI
 (
 )
 ;
-(
 tests
 .
 shift
 (
-)
 )
 (
 )

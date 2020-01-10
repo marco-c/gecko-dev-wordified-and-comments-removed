@@ -458,11 +458,9 @@ args
 {
 windowNumber
 :
-(
 labelIndex
 +
 1
-)
 }
 }
 )
@@ -583,6 +581,7 @@ test
 iconURL
 )
 )
+{
 iconURL
 =
 "
@@ -596,6 +595,7 @@ favicon
 +
 iconURL
 ;
+}
 return
 {
 label
@@ -638,6 +638,7 @@ winState
 .
 tabs
 )
+{
 gTreeData
 .
 push
@@ -645,6 +646,7 @@ push
 tab
 )
 ;
+}
 }
 this
 )
@@ -891,6 +893,7 @@ checked
 =
 0
 )
+{
 gStateObject
 .
 windows
@@ -930,6 +933,7 @@ aIx
 checked
 )
 ;
+}
 else
 if
 (
@@ -941,6 +945,7 @@ t
 .
 checked
 )
+{
 gStateObject
 .
 windows
@@ -951,6 +956,7 @@ ix
 1
 )
 ;
+}
 ix
 -
 -
@@ -1137,6 +1143,7 @@ page
 =
 0
 )
+{
 getBrowserWindow
 (
 )
@@ -1165,7 +1172,9 @@ createNullPrincipal
 }
 )
 ;
+}
 else
+{
 getBrowserWindow
 (
 )
@@ -1174,6 +1183,7 @@ BrowserHome
 (
 )
 ;
+}
 }
 function
 onListClick
@@ -1190,8 +1200,10 @@ button
 =
 2
 )
+{
 return
 ;
+}
 var
 cell
 =
@@ -1247,6 +1259,7 @@ button
 1
 |
 |
+(
 aEvent
 .
 button
@@ -1261,6 +1274,7 @@ detail
 =
 =
 2
+)
 |
 |
 accelKey
@@ -1406,6 +1420,7 @@ isContainer
 ix
 )
 )
+{
 restoreSingleTab
 (
 ix
@@ -1414,6 +1429,7 @@ aEvent
 shiftKey
 )
 ;
+}
 break
 ;
 }
@@ -1728,12 +1744,14 @@ loadInBackground
 !
 aShifted
 )
+{
 tabbrowser
 .
 selectedTab
 =
 newTab
 ;
+}
 }
 var
 treeView
@@ -1908,6 +1926,7 @@ isContainer
 idx
 )
 )
+{
 for
 (
 var
@@ -1926,6 +1945,7 @@ t
 -
 -
 )
+{
 if
 (
 this
@@ -1935,9 +1955,13 @@ isContainer
 t
 )
 )
+{
 return
 t
 ;
+}
+}
+}
 return
 -
 1
@@ -1978,6 +2002,7 @@ t
 +
 +
 )
+{
 if
 (
 this
@@ -1990,6 +2015,7 @@ t
 =
 thisLevel
 )
+{
 return
 this
 .
@@ -2001,6 +2027,8 @@ t
 =
 thisLevel
 ;
+}
+}
 return
 false
 ;
@@ -2020,8 +2048,10 @@ isContainer
 idx
 )
 )
+{
 return
 ;
+}
 var
 item
 =
@@ -2076,7 +2106,8 @@ t
 +
 +
 )
-;
+{
+}
 var
 deletecount
 =
@@ -2139,6 +2170,7 @@ i
 +
 +
 )
+{
 gTreeData
 .
 splice
@@ -2155,6 +2187,7 @@ i
 ]
 )
 ;
+}
 this
 .
 treeBox
@@ -2226,11 +2259,13 @@ checked
 =
 0
 )
+{
 return
 "
 partial
 "
 ;
+}
 if
 (
 column
@@ -2242,6 +2277,7 @@ id
 title
 "
 )
+{
 return
 this
 .
@@ -2259,6 +2295,7 @@ icon
 noicon
 "
 ;
+}
 return
 "
 "
@@ -2296,11 +2333,13 @@ ix
 =
 0
 )
+{
 return
 "
 alternate
 "
 ;
+}
 return
 "
 "
@@ -2323,6 +2362,7 @@ id
 title
 "
 )
+{
 return
 gTreeData
 [
@@ -2334,6 +2374,7 @@ src
 |
 null
 ;
+}
 return
 null
 ;

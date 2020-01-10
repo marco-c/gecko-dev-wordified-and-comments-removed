@@ -50,9 +50,7 @@ const
 permissionExceptionsL10n
 =
 {
-"
 trackingprotection
-"
 :
 {
 window
@@ -82,9 +80,7 @@ blocking
 desc
 "
 }
-"
 cookie
-"
 :
 {
 window
@@ -110,9 +106,7 @@ cookie
 desc
 "
 }
-"
 popup
-"
 :
 {
 window
@@ -172,9 +166,7 @@ logins
 desc
 "
 }
-"
 install
-"
 :
 {
 window
@@ -500,7 +492,6 @@ allowVisible
 let
 urlFieldVisible
 =
-(
 params
 .
 blockVisible
@@ -514,7 +505,6 @@ sessionVisible
 params
 .
 allowVisible
-)
 ;
 let
 urlField
@@ -727,8 +717,10 @@ perm
 changed
 "
 )
+{
 return
 ;
+}
 let
 permission
 =
@@ -753,8 +745,10 @@ this
 .
 _type
 )
+{
 return
 ;
+}
 if
 (
 data
@@ -927,6 +921,7 @@ capability
 )
 {
 return
+(
 capability
 =
 =
@@ -955,6 +950,7 @@ Ci
 nsICookiePermission
 .
 ACCESS_SESSION
+)
 ;
 }
 _getCapabilityL10nId
@@ -1073,8 +1069,10 @@ this
 .
 _type
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -1087,8 +1085,10 @@ perm
 capability
 )
 )
+{
 return
 ;
+}
 let
 p
 =
@@ -1921,12 +1921,14 @@ KeyEvent
 .
 DOM_VK_ESCAPE
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 onPermissionKeyPress
 (
@@ -1942,8 +1944,10 @@ _list
 .
 selectedItem
 )
+{
 return
 ;
+}
 if
 (
 event
@@ -2008,6 +2012,7 @@ KeyEvent
 .
 DOM_VK_RETURN
 )
+{
 document
 .
 getElementById
@@ -2021,6 +2026,7 @@ click
 (
 )
 ;
+}
 }
 onHostInput
 (
@@ -2087,8 +2093,10 @@ this
 .
 _list
 )
+{
 return
 ;
+}
 let
 hasSelection
 =
@@ -2575,6 +2583,7 @@ b
 >
 {
 return
+(
 a
 .
 querySelector
@@ -2623,6 +2632,7 @@ l10n
 -
 id
 "
+)
 )
 ;
 }

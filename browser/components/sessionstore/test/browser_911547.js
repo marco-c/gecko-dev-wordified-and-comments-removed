@@ -12,9 +12,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -63,6 +61,7 @@ html
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -73,6 +72,7 @@ addTab
 (
 gBrowser
 testURL
+)
 )
 ;
 gBrowser

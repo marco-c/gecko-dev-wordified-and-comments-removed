@@ -584,11 +584,9 @@ includes
 let
 doc
 =
-(
 new
 DOMParser
 (
-)
 )
 .
 parseFromString

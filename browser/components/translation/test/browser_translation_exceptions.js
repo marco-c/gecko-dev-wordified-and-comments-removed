@@ -293,6 +293,7 @@ perms
 .
 DENY_ACTION
 )
+{
 results
 .
 push
@@ -302,6 +303,7 @@ perm
 principal
 )
 ;
+}
 }
 return
 results

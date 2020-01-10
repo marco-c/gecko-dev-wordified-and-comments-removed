@@ -297,6 +297,7 @@ test_navigate_full_domain
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -311,6 +312,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -366,6 +368,7 @@ test_navigate_decimal_ip
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -380,6 +383,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -431,6 +435,7 @@ test_navigate_decimal_ip_with_path
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -445,6 +450,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -498,6 +504,7 @@ test_navigate_large_number
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -512,6 +519,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -563,6 +571,7 @@ test_navigate_small_hex_number
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -577,6 +586,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -628,6 +638,7 @@ test_navigate_large_hex_number
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -642,6 +653,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await
@@ -1067,6 +1079,7 @@ test_navigate_invalid_url
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -1081,6 +1094,7 @@ about
 :
 blank
 "
+)
 )
 ;
 await

@@ -155,8 +155,10 @@ detail
 object
 "
 )
+{
 return
 ;
+}
 if
 (
 event
@@ -168,8 +170,10 @@ callbackID
 =
 id
 )
+{
 return
 ;
+}
 document
 .
 removeEventListener
@@ -227,8 +231,10 @@ detail
 object
 "
 )
+{
 return
 ;
+}
 if
 (
 typeof
@@ -239,8 +245,10 @@ notificationListener
 function
 "
 )
+{
 return
 ;
+}
 notificationListener
 (
 event
@@ -559,6 +567,7 @@ options
 .
 closeButtonCallback
 )
+{
 closeButtonCallbackID
 =
 _waitForCallback
@@ -568,6 +577,7 @@ options
 closeButtonCallback
 )
 ;
+}
 if
 (
 options
@@ -577,6 +587,7 @@ options
 .
 targetCallback
 )
+{
 targetCallbackID
 =
 _waitForCallback
@@ -586,6 +597,7 @@ options
 targetCallback
 )
 ;
+}
 _sendEvent
 (
 "
@@ -644,6 +656,7 @@ if
 (
 callback
 )
+{
 showCallbackID
 =
 _waitForCallback
@@ -651,6 +664,7 @@ _waitForCallback
 callback
 )
 ;
+}
 _sendEvent
 (
 "

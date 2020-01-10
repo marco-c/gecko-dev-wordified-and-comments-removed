@@ -1111,14 +1111,12 @@ style
 .
 backgroundImage
 =
-(
 theme
 &
 &
 theme
 .
 iconURL
-)
 ?
 "
 url
@@ -1949,6 +1947,7 @@ toolbar
 of
 customizableToolbars
 )
+{
 toolbar
 .
 setAttribute
@@ -1959,6 +1958,7 @@ customizing
 true
 )
 ;
+}
 await
 this
 .
@@ -2699,6 +2699,7 @@ toolbar
 of
 customizableToolbars
 )
+{
 toolbar
 .
 removeAttribute
@@ -2708,6 +2709,7 @@ customizing
 "
 )
 ;
+}
 this
 .
 _maybeMoveDownloadsButtonToNavBar
@@ -4461,6 +4463,7 @@ aNode
 )
 {
 return
+(
 aNode
 .
 localName
@@ -4509,6 +4512,7 @@ localName
 "
 toolbarspacer
 "
+)
 ;
 }
 isWrappedToolbarItem
@@ -7791,6 +7795,7 @@ aTheme
 .
 description
 )
+{
 tbb
 .
 setAttribute
@@ -7803,6 +7808,7 @@ aTheme
 description
 )
 ;
+}
 tbb
 .
 setAttribute
@@ -8026,12 +8032,14 @@ length
 >
 MAX_THEME_COUNT
 )
+{
 themes
 .
 length
 =
 MAX_THEME_COUNT
 ;
+}
 let
 footer
 =
@@ -8584,9 +8592,7 @@ this
 .
 paletteDragHandler
 =
-(
 aEvent
-)
 =
 >
 {
@@ -9973,7 +9979,6 @@ position
 {
 dragOverItem
 =
-(
 targetAreaType
 =
 =
@@ -9993,7 +9998,6 @@ lastElementChild
 targetNode
 .
 lastElementChild
-)
 ;
 dragValue
 =
@@ -10040,13 +10044,11 @@ itemRect
 .
 left
 +
-(
 itemRect
 .
 width
 /
 2
-)
 ;
 let
 existingDir
@@ -10088,6 +10090,7 @@ dropTargetCenter
 +
 =
 (
+(
 parseInt
 (
 dragOverItem
@@ -10102,6 +10105,7 @@ borderInlineStartWidth
 )
 /
 2
+)
 *
 dirFactor
 ;
@@ -10111,6 +10115,7 @@ else
 dropTargetCenter
 -
 =
+(
 (
 parseInt
 (
@@ -10126,6 +10131,7 @@ borderInlineEndWidth
 )
 /
 2
+)
 *
 dirFactor
 ;
@@ -10194,13 +10200,11 @@ itemRect
 .
 top
 +
-(
 itemRect
 .
 height
 /
 2
-)
 ;
 let
 existingDir
@@ -11127,7 +11131,6 @@ itemForPlacement
 let
 targetNodeId
 =
-(
 itemForPlacement
 .
 nodeName
@@ -11136,7 +11139,6 @@ nodeName
 "
 toolbarpaletteitem
 "
-)
 ?
 itemForPlacement
 .
@@ -12309,6 +12311,7 @@ this
 .
 _dragSizeMap
 )
+{
 this
 .
 _dragSizeMap
@@ -12318,6 +12321,7 @@ WeakMap
 (
 )
 ;
+}
 if
 (
 !
@@ -12330,6 +12334,7 @@ has
 aDraggedItem
 )
 )
+{
 this
 .
 _dragSizeMap
@@ -12343,6 +12348,7 @@ WeakMap
 )
 )
 ;
+}
 let
 itemMap
 =
@@ -12389,9 +12395,11 @@ if
 (
 size
 )
+{
 return
 size
 ;
+}
 let
 currentParent
 =
@@ -12469,6 +12477,7 @@ if
 (
 areaType
 )
+{
 aDraggedItem
 .
 setAttribute
@@ -12477,6 +12486,7 @@ kAreaType
 areaType
 )
 ;
+}
 this
 .
 wrapToolbarItem
@@ -12586,6 +12596,7 @@ currentType
 =
 false
 )
+{
 aDraggedItem
 .
 removeAttribute
@@ -12593,7 +12604,9 @@ removeAttribute
 kAreaType
 )
 ;
+}
 else
+{
 aDraggedItem
 .
 setAttribute
@@ -12602,6 +12615,7 @@ kAreaType
 currentType
 )
 ;
+}
 }
 this
 .
@@ -13143,9 +13157,11 @@ localName
 toolbar
 "
 )
+{
 return
 null
 ;
+}
 aElement
 =
 aElement
@@ -13765,7 +13781,6 @@ documentElement
 ;
 panelOnTheLeft
 =
-(
 buttonBounds
 .
 left
@@ -13775,7 +13790,6 @@ buttonBounds
 width
 /
 2
-)
 >
 windowBounds
 .
@@ -14772,11 +14786,9 @@ translate
 (
 "
 +
-(
 xAdj
 *
 p1
-)
 +
 "
 px
@@ -14803,11 +14815,9 @@ translate
 (
 "
 +
-(
 xAdj
 *
 p2
-)
 +
 "
 px
@@ -14838,14 +14848,12 @@ translate
 (
 "
 +
-(
 xAdj
 *
 ball
 [
 0
 ]
-)
 +
 "
 px
@@ -14942,14 +14950,12 @@ gameSide
 0
 )
 +
-(
 xAdj
 *
 ball
 [
 0
 ]
-)
 -
 10
 }

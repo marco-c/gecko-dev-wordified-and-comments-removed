@@ -362,7 +362,6 @@ set
 ;
 is
 (
-(
 await
 OS
 .
@@ -373,7 +372,6 @@ exists
 Paths
 .
 upgradeBackup
-)
 )
 true
 "
@@ -413,11 +411,9 @@ is
 test
 .
 contents
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -544,11 +540,9 @@ is
 test
 .
 contents
-(
 new
 TextDecoder
 (
-)
 )
 .
 decode
@@ -928,7 +922,6 @@ set
 ;
 is
 (
-(
 await
 OS
 .
@@ -939,7 +932,6 @@ exists
 Paths
 .
 upgradeBackup
-)
 )
 true
 "

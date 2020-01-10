@@ -1099,7 +1099,6 @@ filter
 item
 =
 >
-(
 item
 .
 handlerApp
@@ -1107,7 +1106,6 @@ instanceof
 Ci
 .
 nsIWebHandlerApp
-)
 )
 ;
 Assert

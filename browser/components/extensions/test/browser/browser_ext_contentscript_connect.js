@@ -44,9 +44,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -85,9 +83,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {
@@ -210,9 +206,7 @@ onConnect
 .
 addListener
 (
-(
 port
-)
 =
 >
 {

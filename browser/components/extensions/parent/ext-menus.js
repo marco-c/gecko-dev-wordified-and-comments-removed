@@ -2658,9 +2658,7 @@ contextData
 let
 dispatchOnShownEvent
 =
-(
 extension
-)
 =
 >
 {
@@ -4395,7 +4393,6 @@ true
 ;
 if
 (
-(
 this
 .
 type
@@ -4405,10 +4402,8 @@ type
 "
 checkbox
 "
-)
 |
 |
-(
 this
 .
 type
@@ -4418,7 +4413,6 @@ type
 "
 radio
 "
-)
 )
 {
 info

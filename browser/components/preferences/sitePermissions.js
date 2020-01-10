@@ -129,9 +129,7 @@ disable
 desc
 "
 }
-"
 geo
-"
 :
 {
 window
@@ -183,9 +181,7 @@ disable
 desc
 "
 }
-"
 camera
-"
 :
 {
 window
@@ -237,9 +233,7 @@ disable
 desc
 "
 }
-"
 microphone
-"
 :
 {
 window
@@ -975,8 +969,10 @@ perm
 changed
 "
 )
+{
 return
 ;
+}
 let
 permission
 =
@@ -1012,8 +1008,10 @@ permission
 capability
 )
 )
+{
 return
 ;
+}
 if
 (
 data
@@ -1628,8 +1626,10 @@ perm
 capability
 )
 )
+{
 return
 ;
+}
 let
 l10nId
 =
@@ -2099,12 +2099,14 @@ KeyEvent
 .
 DOM_VK_ESCAPE
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 onPermissionKeyPress
 (
@@ -2120,8 +2122,10 @@ _list
 .
 selectedItem
 )
+{
 return
 ;
+}
 if
 (
 event
@@ -2181,8 +2185,10 @@ this
 .
 _list
 )
+{
 return
 ;
+}
 let
 hasSelection
 =
@@ -2353,9 +2359,7 @@ itemChildren
 .
 forEach
 (
-(
 item
-)
 =
 >
 {
@@ -2439,8 +2443,10 @@ capability
 =
 capability
 )
+{
 return
 ;
+}
 p
 .
 capability
@@ -3061,6 +3067,7 @@ b
 >
 {
 return
+(
 parseInt
 (
 a
@@ -3087,6 +3094,7 @@ menulist
 )
 .
 value
+)
 )
 ;
 }

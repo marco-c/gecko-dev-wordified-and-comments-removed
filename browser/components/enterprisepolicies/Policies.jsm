@@ -352,9 +352,7 @@ Extensions
 ;
 }
 }
-"
 AppUpdateURL
-"
 :
 {
 onBeforeAddons
@@ -379,9 +377,7 @@ href
 ;
 }
 }
-"
 Authentication
-"
 :
 {
 onBeforeAddons
@@ -572,9 +568,7 @@ SPNEGO
 }
 }
 }
-"
 BlockAboutAddons
-"
 :
 {
 onBeforeUIStartup
@@ -602,9 +596,7 @@ true
 }
 }
 }
-"
 BlockAboutConfig
-"
 :
 {
 onBeforeUIStartup
@@ -643,9 +635,7 @@ false
 }
 }
 }
-"
 BlockAboutProfiles
-"
 :
 {
 onBeforeUIStartup
@@ -672,9 +662,7 @@ profiles
 }
 }
 }
-"
 BlockAboutSupport
-"
 :
 {
 onBeforeUIStartup
@@ -701,9 +689,7 @@ support
 }
 }
 }
-"
 Bookmarks
-"
 :
 {
 onAllWindowsRestored
@@ -721,9 +707,7 @@ param
 ;
 }
 }
-"
 CaptivePortal
-"
 :
 {
 onBeforeAddons
@@ -750,9 +734,7 @@ param
 ;
 }
 }
-"
 Certificates
-"
 :
 {
 onBeforeAddons
@@ -1293,9 +1275,7 @@ file
 }
 }
 }
-"
 Cookies
-"
 :
 {
 onBeforeUIStartup
@@ -1625,9 +1605,7 @@ Locked
 }
 }
 }
-"
 DefaultDownloadDirectory
-"
 :
 {
 onBeforeAddons
@@ -1665,9 +1643,7 @@ folderList
 ;
 }
 }
-"
 DisableAppUpdate
-"
 :
 {
 onBeforeAddons
@@ -1693,9 +1669,7 @@ appUpdate
 }
 }
 }
-"
 DisableBuiltinPDFViewer
-"
 :
 {
 onBeforeAddons
@@ -1722,9 +1696,7 @@ true
 }
 }
 }
-"
 DisableDeveloperTools
-"
 :
 {
 onBeforeAddons
@@ -1806,9 +1778,7 @@ toolbox
 }
 }
 }
-"
 DisableFeedbackCommands
-"
 :
 {
 onBeforeUIStartup
@@ -1834,9 +1804,7 @@ feedbackCommands
 }
 }
 }
-"
 DisableFirefoxAccounts
-"
 :
 {
 onBeforeAddons
@@ -1865,9 +1833,7 @@ false
 }
 }
 }
-"
 DisableFirefoxScreenshots
-"
 :
 {
 onBeforeAddons
@@ -1896,9 +1862,7 @@ true
 }
 }
 }
-"
 DisableFirefoxStudies
-"
 :
 {
 onBeforeAddons
@@ -1968,9 +1932,7 @@ false
 }
 }
 }
-"
 DisableForgetButton
-"
 :
 {
 onProfileAfterChange
@@ -1999,9 +1961,7 @@ false
 }
 }
 }
-"
 DisableFormHistory
-"
 :
 {
 onBeforeUIStartup
@@ -2030,9 +1990,7 @@ false
 }
 }
 }
-"
 DisableMasterPasswordCreation
-"
 :
 {
 onBeforeUIStartup
@@ -2058,9 +2016,7 @@ createMasterPassword
 }
 }
 }
-"
 DisablePocket
-"
 :
 {
 onBeforeAddons
@@ -2089,9 +2045,7 @@ false
 }
 }
 }
-"
 DisablePrivateBrowsing
-"
 :
 {
 onBeforeAddons
@@ -2140,9 +2094,7 @@ false
 }
 }
 }
-"
 DisableProfileImport
-"
 :
 {
 onBeforeUIStartup
@@ -2184,9 +2136,7 @@ true
 }
 }
 }
-"
 DisableProfileRefresh
-"
 :
 {
 onBeforeUIStartup
@@ -2222,9 +2172,7 @@ true
 }
 }
 }
-"
 DisableSafeMode
-"
 :
 {
 onBeforeUIStartup
@@ -2250,9 +2198,7 @@ safeMode
 }
 }
 }
-"
 DisableSecurityBypass
-"
 :
 {
 onBeforeUIStartup
@@ -2312,9 +2258,7 @@ SafeBrowsing
 }
 }
 }
-"
 DisableSetDesktopBackground
-"
 :
 {
 onBeforeUIStartup
@@ -2340,9 +2284,7 @@ setDesktopBackground
 }
 }
 }
-"
 DisableSystemAddonUpdate
-"
 :
 {
 onBeforeAddons
@@ -2368,9 +2310,7 @@ SysAddonUpdate
 }
 }
 }
-"
 DisableTelemetry
-"
 :
 {
 onBeforeAddons
@@ -2421,9 +2361,7 @@ telemetry
 }
 }
 }
-"
 DisplayBookmarksToolbar
-"
 :
 {
 onBeforeUIStartup
@@ -2474,9 +2412,7 @@ value
 ;
 }
 }
-"
 DisplayMenuBar
-"
 :
 {
 onBeforeUIStartup
@@ -2529,9 +2465,7 @@ value
 ;
 }
 }
-"
 DNSOverHTTPS
-"
 :
 {
 onBeforeAddons
@@ -2605,9 +2539,7 @@ Locked
 }
 }
 }
-"
 DontCheckDefaultBrowser
-"
 :
 {
 onBeforeUIStartup
@@ -2631,9 +2563,7 @@ param
 ;
 }
 }
-"
 DownloadDirectory
-"
 :
 {
 onBeforeAddons
@@ -2683,9 +2613,7 @@ true
 ;
 }
 }
-"
 EnableTrackingProtection
-"
 :
 {
 onBeforeUIStartup
@@ -2765,9 +2693,7 @@ false
 }
 }
 }
-"
 Extensions
-"
 :
 {
 onBeforeUIStartup
@@ -3075,9 +3001,7 @@ ID
 }
 }
 }
-"
 ExtensionSettings
-"
 :
 {
 onBeforeAddons
@@ -3590,9 +3514,7 @@ uninstalled
 }
 }
 }
-"
 ExtensionUpdate
-"
 :
 {
 onBeforeAddons
@@ -3622,9 +3544,7 @@ param
 }
 }
 }
-"
 FirefoxHome
-"
 :
 {
 onBeforeAddons
@@ -3802,9 +3722,7 @@ locked
 }
 }
 }
-"
 FlashPlugin
-"
 :
 {
 onBeforeUIStartup
@@ -3916,9 +3834,7 @@ flashPrefVal
 }
 }
 }
-"
 HardwareAcceleration
-"
 :
 {
 onBeforeAddons
@@ -3948,9 +3864,7 @@ true
 }
 }
 }
-"
 Homepage
-"
 :
 {
 onBeforeUIStartup
@@ -4195,9 +4109,7 @@ Locked
 }
 }
 }
-"
 InstallAddonsPermission
-"
 :
 {
 onBeforeUIStartup
@@ -4323,9 +4235,7 @@ xpinstall
 }
 }
 }
-"
 LocalFileLinks
-"
 :
 {
 onBeforeAddons
@@ -4427,9 +4337,7 @@ join
 ;
 }
 }
-"
 NetworkPrediction
-"
 :
 {
 onBeforeAddons
@@ -4466,9 +4374,7 @@ param
 ;
 }
 }
-"
 NewTabPage
-"
 :
 {
 onBeforeAddons
@@ -4491,9 +4397,7 @@ param
 ;
 }
 }
-"
 NoDefaultBookmarks
-"
 :
 {
 onProfileAfterChange
@@ -4519,9 +4423,7 @@ defaultBookmarks
 }
 }
 }
-"
 OfferToSaveLogins
-"
 :
 {
 onBeforeUIStartup
@@ -4542,9 +4444,7 @@ param
 ;
 }
 }
-"
 OverrideFirstRunPage
-"
 :
 {
 onProfileAfterChange
@@ -4577,9 +4477,7 @@ url
 ;
 }
 }
-"
 OverridePostUpdatePage
-"
 :
 {
 onProfileAfterChange
@@ -4621,9 +4519,7 @@ postUpdateCustomPage
 ;
 }
 }
-"
 Permissions
-"
 :
 {
 onBeforeUIStartup
@@ -4778,9 +4674,7 @@ Notifications
 }
 }
 }
-"
 PopupBlocking
-"
 :
 {
 onBeforeUIStartup
@@ -4874,9 +4768,7 @@ Default
 }
 }
 }
-"
 Preferences
-"
 :
 {
 onBeforeAddons
@@ -4905,9 +4797,7 @@ preference
 }
 }
 }
-"
 PromptForDownloadLocation
-"
 :
 {
 onBeforeAddons
@@ -4931,9 +4821,7 @@ param
 ;
 }
 }
-"
 Proxy
-"
 :
 {
 onBeforeAddons
@@ -4980,9 +4868,7 @@ setDefaultPref
 }
 }
 }
-"
 RequestedLocales
-"
 :
 {
 onBeforeAddons
@@ -5029,9 +4915,7 @@ split
 }
 }
 }
-"
 SanitizeOnShutdown
-"
 :
 {
 onBeforeUIStartup
@@ -5466,9 +5350,7 @@ OfflineApps
 }
 }
 }
-"
 SearchBar
-"
 :
 {
 onAllWindowsRestored
@@ -5555,9 +5437,7 @@ container
 ;
 }
 }
-"
 SearchEngines
-"
 :
 {
 onBeforeUIStartup
@@ -6009,9 +5889,7 @@ ex
 ;
 }
 }
-"
 SearchSuggestEnabled
-"
 :
 {
 onBeforeAddons
@@ -6050,9 +5928,7 @@ param
 ;
 }
 }
-"
 SecurityDevices
-"
 :
 {
 onProfileAfterChange
@@ -6200,9 +6076,7 @@ ex
 }
 }
 }
-"
 SSLVersionMax
-"
 :
 {
 onBeforeAddons
@@ -6286,9 +6160,7 @@ tlsVersion
 ;
 }
 }
-"
 SSLVersionMin
-"
 :
 {
 onBeforeAddons
@@ -6372,9 +6244,7 @@ tlsVersion
 ;
 }
 }
-"
 SupportMenu
-"
 :
 {
 onProfileAfterChange
@@ -6392,9 +6262,7 @@ param
 ;
 }
 }
-"
 WebsiteFilter
-"
 :
 {
 onBeforeUIStartup
@@ -6493,9 +6361,7 @@ getDefaultBranch
 switch
 (
 typeof
-(
 prefValue
-)
 )
 {
 case
@@ -7092,9 +6958,7 @@ listener
 {
 onDownloadEnded
 :
-(
 install
-)
 =
 >
 {

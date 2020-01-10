@@ -78,9 +78,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -109,9 +107,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -140,9 +136,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -171,9 +165,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -202,9 +194,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -233,9 +223,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -496,6 +484,7 @@ linkedBrowser
 =
 aBrowser
 )
+{
 tab
 =
 window
@@ -507,6 +496,7 @@ tabs
 i
 ]
 ;
+}
 }
 is
 (

@@ -433,6 +433,7 @@ props
 excerpt
 &
 &
+(
 <
 p
 className
@@ -453,6 +454,7 @@ excerpt
 /
 p
 >
+)
 }
 <
 /
@@ -592,6 +594,7 @@ props
 placeholder
 &
 &
+(
 <
 DSLinkMenu
 id
@@ -686,6 +689,7 @@ bookmarkGuid
 }
 /
 >
+)
 }
 <
 /

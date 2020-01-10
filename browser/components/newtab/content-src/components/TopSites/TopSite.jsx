@@ -1597,6 +1597,7 @@ link
 searchTopSite
 &
 &
+(
 <
 div
 className
@@ -1613,11 +1614,13 @@ topsite
 "
 /
 >
+)
 }
 {
 showSmallFavicon
 &
 &
+(
 <
 div
 className
@@ -1649,6 +1652,7 @@ smallFaviconStyle
 }
 /
 >
+)
 }
 <
 /
@@ -2351,6 +2355,7 @@ onMenuButtonClick
 isContextMenuOpen
 &
 &
+(
 <
 LinkMenu
 dispatch
@@ -2406,6 +2411,7 @@ TOP_SITES_SOURCE
 }
 /
 >
+)
 }
 <
 /
@@ -3242,20 +3248,16 @@ map
 site
 =
 >
-(
-(
 site
 &
 &
 site
 .
 isPinned
-)
 ?
 site
 :
 null
-)
 )
 ;
 const

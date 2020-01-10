@@ -282,9 +282,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -360,9 +358,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -772,9 +768,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -850,9 +844,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -1346,9 +1338,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -1424,9 +1414,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -1548,12 +1536,10 @@ else
 let
 expectedResults
 =
-(
 new
 Array
 (
 4
-)
 )
 .
 fill

@@ -300,6 +300,7 @@ _URIs
 .
 length
 )
+{
 return
 this
 .
@@ -312,12 +313,14 @@ dialogAcceptLabelAddMulti
 "
 )
 ;
+}
 if
 (
 this
 .
 _dummyItem
 )
+{
 return
 this
 .
@@ -330,6 +333,7 @@ dialogAcceptLabelAddItem
 "
 )
 ;
+}
 return
 this
 .
@@ -382,6 +386,7 @@ _itemType
 =
 BOOKMARK_ITEM
 )
+{
 return
 this
 .
@@ -394,6 +399,7 @@ dialogTitleAddBookmark
 "
 )
 ;
+}
 if
 (
 this
@@ -403,6 +409,7 @@ _itemType
 =
 BOOKMARK_FOLDER
 )
+{
 throw
 new
 Error
@@ -414,6 +421,7 @@ type
 "
 )
 ;
+}
 if
 (
 this
@@ -422,6 +430,7 @@ _URIs
 .
 length
 )
+{
 return
 this
 .
@@ -434,6 +443,7 @@ dialogTitleAddMulti
 "
 )
 ;
+}
 return
 this
 .
@@ -548,6 +558,7 @@ in
 dialogInfo
 )
 )
+{
 throw
 new
 Error
@@ -562,6 +573,7 @@ action
 "
 )
 ;
+}
 if
 (
 "
@@ -570,6 +582,7 @@ title
 in
 dialogInfo
 )
+{
 this
 .
 _title
@@ -578,6 +591,7 @@ dialogInfo
 .
 title
 ;
+}
 if
 (
 "
@@ -662,6 +676,7 @@ Ci
 nsIURI
 )
 )
+{
 throw
 new
 Error
@@ -677,6 +692,7 @@ object
 "
 )
 ;
+}
 this
 .
 _uri
@@ -688,11 +704,9 @@ uri
 if
 (
 typeof
-(
 this
 .
 _title
-)
 !
 =
 "
@@ -704,6 +718,7 @@ this
 .
 _title
 =
+(
 await
 PlacesUtils
 .
@@ -714,6 +729,7 @@ fetch
 this
 .
 _uri
+)
 )
 |
 |
@@ -797,6 +813,7 @@ postData
 in
 dialogInfo
 )
+{
 this
 .
 _postData
@@ -805,6 +822,7 @@ dialogInfo
 .
 postData
 ;
+}
 if
 (
 "
@@ -813,6 +831,7 @@ charSet
 in
 dialogInfo
 )
+{
 this
 .
 _charSet
@@ -821,6 +840,7 @@ dialogInfo
 .
 charSet
 ;
+}
 }
 break
 ;
@@ -936,12 +956,14 @@ this
 _node
 )
 )
+{
 this
 .
 _itemType
 =
 BOOKMARK_FOLDER
 ;
+}
 else
 if
 (
@@ -954,12 +976,14 @@ this
 _node
 )
 )
+{
 this
 .
 _itemType
 =
 BOOKMARK_ITEM
 ;
+}
 }
 }
 async
@@ -1169,8 +1193,10 @@ test
 id
 )
 )
+{
 continue
 ;
+}
 let
 collapsed
 =
@@ -1209,8 +1235,10 @@ collapsed
 =
 wasCollapsed
 )
+{
 continue
 ;
+}
 if
 (
 collapsed
@@ -1423,6 +1451,7 @@ about
 blank
 "
 )
+{
 locationField
 .
 value
@@ -1430,6 +1459,7 @@ value
 "
 "
 ;
+}
 if
 (
 this
@@ -1439,6 +1469,7 @@ _itemType
 =
 BOOKMARK_ITEM
 )
+{
 acceptButtonDisabled
 =
 !
@@ -1448,6 +1479,7 @@ _inputIsValid
 (
 )
 ;
+}
 break
 ;
 }
@@ -1825,9 +1857,11 @@ locationField
 "
 )
 )
+{
 return
 false
 ;
+}
 if
 (
 this
@@ -1849,9 +1883,11 @@ value
 .
 length
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -1992,6 +2028,7 @@ this
 .
 _keyword
 )
+{
 info
 .
 keyword
@@ -2000,12 +2037,14 @@ this
 .
 _keyword
 ;
+}
 if
 (
 this
 .
 _postData
 )
+{
 info
 .
 postData
@@ -2014,6 +2053,7 @@ this
 .
 _postData
 ;
+}
 if
 (
 this

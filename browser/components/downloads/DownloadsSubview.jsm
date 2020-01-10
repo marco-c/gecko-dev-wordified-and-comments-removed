@@ -867,8 +867,10 @@ this
 .
 _updatingStats
 )
+{
 return
 ;
+}
 this
 .
 _updatingStats
@@ -910,8 +912,10 @@ this
 .
 destroyed
 )
+{
 return
 ;
+}
 let
 count
 =
@@ -935,8 +939,10 @@ this
 .
 destroyed
 )
+{
 return
 ;
+}
 if
 (
 !
@@ -944,8 +950,10 @@ button
 .
 _shell
 )
+{
 continue
 ;
+}
 await
 button
 .
@@ -1194,8 +1202,10 @@ if
 !
 instance
 )
+{
 return
 ;
+}
 instance
 .
 _downloadsData
@@ -1281,6 +1291,7 @@ exists
 "
 )
 )
+{
 menu
 .
 setAttribute
@@ -1298,7 +1309,9 @@ exists
 )
 )
 ;
+}
 else
+{
 menu
 .
 removeAttribute
@@ -1308,6 +1321,7 @@ exists
 "
 )
 ;
+}
 menu
 .
 classList
@@ -1365,8 +1379,10 @@ if
 !
 command
 )
+{
 continue
 ;
+}
 if
 (
 command
@@ -1455,9 +1471,11 @@ if
 !
 instance
 )
+{
 return
 false
 ;
+}
 return
 instance
 .
@@ -1492,8 +1510,10 @@ if
 !
 instance
 )
+{
 return
 ;
+}
 instance
 .
 destructor
@@ -1516,8 +1536,10 @@ button
 >
 1
 )
+{
 return
 ;
+}
 let
 button
 =
@@ -1868,8 +1890,10 @@ this
 .
 _targetFileChecked
 )
+{
 return
 ;
+}
 try
 {
 await

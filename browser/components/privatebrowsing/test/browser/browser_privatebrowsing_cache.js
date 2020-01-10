@@ -227,12 +227,14 @@ org
 /
 )
 )
+{
 +
 +
 this
 .
 entryCount
 ;
+}
 }
 onCacheEntryVisitCompleted
 (

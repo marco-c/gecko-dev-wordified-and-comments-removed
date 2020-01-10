@@ -355,9 +355,7 @@ getAllFramesDetails
 .
 filter
 (
-(
 details
-)
 =
 >
 details

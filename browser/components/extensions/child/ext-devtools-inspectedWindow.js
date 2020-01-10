@@ -19,7 +19,6 @@ context
 let
 tabId
 =
-(
 context
 .
 devtoolsToolboxInfo
@@ -30,7 +29,6 @@ context
 devtoolsToolboxInfo
 .
 inspectedWindowTabId
-)
 ;
 return
 {

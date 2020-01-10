@@ -445,9 +445,7 @@ trr
 .
 custom_uri
 "
-"
 type
-"
 :
 "
 string
@@ -833,9 +831,11 @@ value
 =
 1
 )
+{
 return
 true
 ;
+}
 var
 httpProxyURLPref
 =
@@ -1214,6 +1214,7 @@ settings
 in
 Cc
 )
+{
 document
 .
 getElementById
@@ -1230,6 +1231,7 @@ hidden
 "
 )
 ;
+}
 }
 proxyTypeChanged
 (
@@ -1545,7 +1547,6 @@ socksDNSPref
 .
 disabled
 =
-(
 isDefinitelySocks4
 |
 |
@@ -1555,7 +1556,6 @@ value
 =
 =
 0
-)
 ;
 return
 undefined
@@ -1657,7 +1657,6 @@ disableReloadPref
 .
 disabled
 =
-(
 proxyTypeCur
 !
 =
@@ -1674,7 +1673,6 @@ typedURL
 !
 =
 pacURL
-)
 ;
 }
 readProxyType
@@ -2294,12 +2292,14 @@ shareProxiesPref
 .
 value
 )
+{
 this
 .
 updateProtocolPrefs
 (
 )
 ;
+}
 return
 undefined
 ;
@@ -2330,12 +2330,14 @@ shareProxiesPref
 .
 value
 )
+{
 this
 .
 updateProtocolPrefs
 (
 )
 ;
+}
 return
 undefined
 ;

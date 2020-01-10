@@ -351,9 +351,7 @@ recommendations
 push
 (
 {
-"
 placeholder
-"
 :
 true
 }

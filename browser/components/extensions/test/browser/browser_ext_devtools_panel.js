@@ -1092,12 +1092,10 @@ tabId
 const
 longPrefix
 =
-(
 new
 Array
 (
 80
-)
 )
 .
 fill
@@ -1306,9 +1304,7 @@ true
 const
 getPanelId
 =
-(
 toolbox
-)
 =
 >
 {

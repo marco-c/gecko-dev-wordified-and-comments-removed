@@ -210,6 +210,7 @@ if
 (
 aExpectedDisabled
 )
+{
 is
 (
 aWindow
@@ -244,6 +245,7 @@ disabled
 "
 )
 ;
+}
 event
 .
 originalTarget

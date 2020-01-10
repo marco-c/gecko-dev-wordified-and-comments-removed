@@ -883,6 +883,7 @@ props
 showLogo
 &
 &
+(
 <
 div
 className
@@ -917,6 +918,7 @@ wordmark
 /
 div
 >
+)
 }
 {
 !
@@ -927,6 +929,7 @@ props
 handoffEnabled
 &
 &
+(
 <
 div
 className
@@ -1034,6 +1037,7 @@ onSearchClick
 /
 div
 >
+)
 }
 {
 this
@@ -1043,6 +1047,7 @@ props
 handoffEnabled
 &
 &
+(
 <
 div
 className
@@ -1271,6 +1276,7 @@ onInputMount
 /
 div
 >
+)
 }
 <
 /

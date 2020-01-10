@@ -108,6 +108,7 @@ item
 .
 nextElementSibling
 )
+{
 os
 .
 push
@@ -115,6 +116,7 @@ push
 item
 )
 ;
+}
 return
 os
 ;
@@ -1452,6 +1454,7 @@ if
 (
 i
 )
+{
 EventUtils
 .
 synthesizeKey
@@ -1466,6 +1469,7 @@ true
 }
 )
 ;
+}
 }
 is
 (
@@ -2525,6 +2529,7 @@ currIdx
 <
 0
 ?
+(
 currIdx
 =
 engines
@@ -2532,6 +2537,7 @@ engines
 length
 -
 1
+)
 :
 currIdx
 ]

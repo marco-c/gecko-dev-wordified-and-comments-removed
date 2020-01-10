@@ -1,13 +1,11 @@
 const
 isMac
 =
-(
 "
 nsILocalFileMac
 "
 in
 Ci
-)
 ;
 const
 searchPopup

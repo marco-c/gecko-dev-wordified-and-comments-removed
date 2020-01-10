@@ -905,7 +905,6 @@ Assert
 .
 equal
 (
-(
 await
 PlacesUtils
 .
@@ -916,7 +915,6 @@ fetch
 query
 .
 guid
-)
 )
 null
 "

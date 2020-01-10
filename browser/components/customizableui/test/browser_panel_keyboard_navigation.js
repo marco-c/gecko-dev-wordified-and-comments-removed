@@ -145,8 +145,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey
@@ -252,8 +254,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey
@@ -698,8 +702,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey
@@ -1160,8 +1166,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey
@@ -1266,8 +1274,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey
@@ -1409,8 +1419,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 if
 (
 tab
@@ -1529,8 +1541,10 @@ button
 .
 disabled
 )
+{
 continue
 ;
+}
 EventUtils
 .
 synthesizeKey

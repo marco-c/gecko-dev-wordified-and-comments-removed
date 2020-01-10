@@ -467,7 +467,6 @@ states
 ;
 success
 =
-(
 states
 [
 0
@@ -510,7 +509,6 @@ states
 "
 interactive
 "
-)
 ;
 await
 completePromise
@@ -600,9 +598,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

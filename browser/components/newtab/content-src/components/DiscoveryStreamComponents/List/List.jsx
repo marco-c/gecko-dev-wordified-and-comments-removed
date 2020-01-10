@@ -443,6 +443,7 @@ props
 excerpt
 &
 &
+(
 <
 div
 className
@@ -469,6 +470,7 @@ excerpt
 /
 div
 >
+)
 }
 <
 /
@@ -690,6 +692,7 @@ props
 placeholder
 &
 &
+(
 <
 DSLinkMenu
 id
@@ -784,6 +787,7 @@ bookmarkGuid
 }
 /
 >
+)
 }
 <
 /
@@ -1120,7 +1124,6 @@ numbers
 ]
 ;
 return
-(
 <
 ul
 className
@@ -1142,7 +1145,6 @@ recMarkup
 /
 ul
 >
-)
 ;
 }
 ;
@@ -1211,6 +1213,7 @@ header
 .
 title
 ?
+(
 <
 div
 className
@@ -1232,12 +1235,14 @@ title
 /
 div
 >
+)
 :
 null
 }
 {
 isEmpty
 ?
+(
 <
 div
 className
@@ -1278,9 +1283,12 @@ feed
 /
 div
 >
+)
 :
+(
 renderList
 (
+)
 )
 }
 <

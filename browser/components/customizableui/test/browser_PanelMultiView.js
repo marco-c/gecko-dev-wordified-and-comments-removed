@@ -119,9 +119,11 @@ display
 none
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 style
@@ -133,9 +135,11 @@ visibility
 visible
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 style
@@ -160,9 +164,11 @@ state
 open
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 element
@@ -174,6 +180,7 @@ element
 .
 ownerDocument
 )
+{
 return
 is_visible
 (
@@ -182,6 +189,7 @@ element
 parentNode
 )
 ;
+}
 return
 true
 ;

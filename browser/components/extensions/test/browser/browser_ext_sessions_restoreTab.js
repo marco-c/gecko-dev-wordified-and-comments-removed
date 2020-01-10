@@ -142,14 +142,10 @@ all_urls
 "
 ]
 }
-"
 browser_action
-"
 :
 {
-"
 default_title
-"
 :
 "
 Navigate

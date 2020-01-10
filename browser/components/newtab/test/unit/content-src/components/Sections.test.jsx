@@ -561,9 +561,7 @@ topsites
 "
 :
 true
-"
 sectionOrder
-"
 :
 "
 topsites
@@ -641,9 +639,7 @@ topsites
 "
 :
 false
-"
 sectionOrder
-"
 :
 "
 topsites

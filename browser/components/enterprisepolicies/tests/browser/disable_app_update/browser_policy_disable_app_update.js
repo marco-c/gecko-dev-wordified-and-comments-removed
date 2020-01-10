@@ -206,7 +206,6 @@ waitForCondition
 )
 =
 >
-(
 aboutDialog
 .
 document
@@ -238,8 +237,7 @@ id
 =
 =
 panelId
-)
-"
+'
 Waiting
 for
 expected
@@ -247,16 +245,14 @@ panel
 ID
 -
 expected
-\
 "
-"
+'
 +
 panelId
 +
+'
 "
-\
-"
-"
+'
 )
 ;
 is

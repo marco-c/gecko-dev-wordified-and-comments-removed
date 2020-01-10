@@ -507,7 +507,6 @@ this
 .
 fxasignedin
 =
-(
 fxasignedin
 [
 1
@@ -517,7 +516,6 @@ fxasignedin
 "
 1
 "
-)
 ;
 }
 var
@@ -616,7 +614,6 @@ this
 .
 inoverflowmenu
 =
-(
 inoverflowmenu
 [
 1
@@ -626,7 +623,6 @@ inoverflowmenu
 "
 true
 "
-)
 ;
 }
 var
@@ -745,7 +741,6 @@ dictJSON
 .
 variant
 =
-(
 this
 .
 variant
@@ -757,7 +752,6 @@ variant
 "
 undefined
 "
-)
 ;
 this
 .

@@ -70,11 +70,9 @@ SHOULD_DELIVER_ALL_FOR_NON_PRINTABLE
 =
 kStrictKeyPressEvents
 ?
-(
 SHOULD_DELIVER_KEYDOWN
 |
 SHOULD_DELIVER_KEYUP
-)
 :
 SHOULD_DELIVER_ALL_FOR_PRINTABLE
 ;
@@ -1808,10 +1806,9 @@ false
 {
 key
 :
+'
 "
-\
-"
-"
+'
 modifiers
 :
 {
@@ -1827,10 +1824,9 @@ result
 {
 key
 :
+'
 "
-\
-"
-"
+'
 code
 :
 "
@@ -6803,9 +6799,7 @@ result
 kSameKeyCodeAndCharCodeValue
 }
 async
-(
 aInput
-)
 =
 >
 {
@@ -7467,9 +7461,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -7721,9 +7713,7 @@ tab
 linkedBrowser
 eventType
 async
-(
 aEventType
-)
 =
 >
 {
@@ -7809,9 +7799,7 @@ inputBox
 addEventListener
 (
 aEventType
-(
 aEvent
-)
 =
 >
 {

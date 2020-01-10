@@ -65,9 +65,7 @@ document
 visibilitychange
 "
 true
-(
 aEvent
-)
 =
 >
 {
@@ -105,7 +103,6 @@ window
 fullscreen
 "
 )
-(
 Services
 .
 appinfo
@@ -117,7 +114,6 @@ OS
 "
 Darwin
 "
-)
 ?
 waitForDocshellActivated
 (

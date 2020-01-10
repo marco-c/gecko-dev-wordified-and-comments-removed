@@ -505,12 +505,10 @@ input
 }
 is
 (
-(
 await
 restoreStateWithURL
 (
 URL
-)
 )
 VALUE
 "
@@ -522,7 +520,6 @@ restored
 ;
 is
 (
-(
 await
 restoreStateWithURL
 (
@@ -531,7 +528,6 @@ URL
 "
 ?
 "
-)
 )
 "
 "
@@ -545,11 +541,9 @@ restored
 ;
 is
 (
-(
 await
 restoreStateWithURL
 (
-)
 )
 "
 "
@@ -685,6 +679,7 @@ m
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -695,6 +690,7 @@ addTab
 (
 gBrowser
 URL
+)
 )
 ;
 let
@@ -909,6 +905,7 @@ script
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -919,6 +916,7 @@ addTab
 (
 gBrowser
 URL
+)
 )
 ;
 let

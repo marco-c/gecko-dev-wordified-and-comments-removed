@@ -442,7 +442,6 @@ availableTargets
 let
 available
 =
-(
 data
 .
 targets
@@ -450,7 +449,6 @@ targets
 includes
 (
 targetID
-)
 )
 ;
 is

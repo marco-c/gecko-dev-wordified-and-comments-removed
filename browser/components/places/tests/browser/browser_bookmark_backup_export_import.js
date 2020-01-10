@@ -200,9 +200,7 @@ PLACES
 .
 filter
 (
-(
 elem
-)
 =
 >
 {

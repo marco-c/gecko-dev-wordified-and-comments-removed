@@ -206,12 +206,10 @@ iconURL
 {
 ok
 (
-(
 /
 default
 /
 i
-)
 .
 test
 (
@@ -607,12 +605,10 @@ anymore
 ;
 ok
 (
-(
 /
 light
 /
 i
-)
 .
 test
 (

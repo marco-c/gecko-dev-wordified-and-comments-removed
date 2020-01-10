@@ -391,9 +391,7 @@ global
 .
 openOptionsPage
 =
-(
 extension
-)
 =
 >
 {
@@ -4499,6 +4497,7 @@ nativeTab
 )
 {
 return
+(
 this
 .
 extension
@@ -4514,6 +4513,7 @@ isBrowserPrivate
 nativeTab
 .
 linkedBrowser
+)
 )
 ;
 }
@@ -4579,6 +4579,7 @@ context
 {
 return
 (
+(
 context
 &
 &
@@ -4598,6 +4599,7 @@ extension
 canAccessWindow
 (
 window
+)
 )
 ;
 }

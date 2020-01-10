@@ -976,6 +976,7 @@ extension
 )
 {
 return
+(
 <
 span
 className
@@ -1006,9 +1007,11 @@ icon
 }
 /
 >
+)
 ;
 }
 return
+(
 <
 span
 className
@@ -1033,6 +1036,7 @@ webextension
 }
 /
 >
+)
 ;
 }
 onMenuButtonClick
@@ -1442,6 +1446,7 @@ onHeaderClick
 isCollapsible
 &
 &
+(
 <
 span
 className
@@ -1477,6 +1482,7 @@ small
 }
 /
 >
+)
 }
 <
 /
@@ -1500,6 +1506,7 @@ wrapper
 learnMore
 &
 &
+(
 <
 span
 className
@@ -1545,6 +1552,7 @@ FluentOrText
 /
 span
 >
+)
 }
 <
 /
@@ -1615,6 +1623,7 @@ setContextMenuButtonRef
 showContextMenu
 &
 &
+(
 <
 SectionMenu
 id
@@ -1681,6 +1690,7 @@ isWebExtension
 }
 /
 >
+)
 }
 <
 /

@@ -271,9 +271,7 @@ let
 manifest
 =
 {
-"
 description
-"
 :
 expectedStatus
 }

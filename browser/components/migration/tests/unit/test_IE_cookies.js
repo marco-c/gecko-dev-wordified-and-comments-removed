@@ -182,11 +182,9 @@ LPDWORD
 let
 date
 =
-(
 new
 Date
 (
-)
 )
 .
 getDate

@@ -460,9 +460,7 @@ setTimeout
 let
 saveStateAsyncWhenIdle
 =
-(
 deadline
-)
 =
 >
 {

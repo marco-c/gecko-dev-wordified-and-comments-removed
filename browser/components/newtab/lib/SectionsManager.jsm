@@ -721,9 +721,7 @@ WEBEXT_DISMISS
 CONTEXT_MENU_PREFS
 :
 {
-"
 CheckSavedToPocket
-"
 :
 "
 extensions
@@ -1183,6 +1181,7 @@ try
 {
 storedPrefs
 =
+(
 await
 this
 .
@@ -1191,6 +1190,7 @@ _storage
 get
 (
 feedPrefName
+)
 )
 |
 |

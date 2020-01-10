@@ -145,10 +145,12 @@ win
 .
 closed
 )
+{
 +
 +
 open
 ;
+}
 }
 let
 winstates
@@ -588,9 +590,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

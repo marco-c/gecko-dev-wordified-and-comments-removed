@@ -86,9 +86,7 @@ TEST_LOGIN1
 .
 guid
 async
-(
 loginGuid
-)
 =
 >
 {
@@ -127,6 +125,7 @@ waitForCondition
 >
 {
 return
+(
 loginList
 .
 _logins
@@ -148,6 +147,7 @@ guid
 =
 =
 loginGuid
+)
 ;
 }
 "
@@ -210,9 +210,7 @@ loginToVanillaObject
 TEST_LOGIN1
 )
 async
-(
 login
-)
 =
 >
 {
@@ -301,6 +299,7 @@ waitForCondition
 >
 {
 return
+(
 loginItem
 .
 _login
@@ -325,6 +324,7 @@ guid
 login
 .
 guid
+)
 ;
 }
 "
@@ -690,6 +690,7 @@ item
 )
 ;
 return
+(
 loginListItem
 .
 _login
@@ -712,6 +713,7 @@ password
 passwordInput
 .
 value
+)
 ;
 }
 "

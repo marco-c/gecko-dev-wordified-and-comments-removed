@@ -205,9 +205,7 @@ filePath
 if
 (
 typeof
-(
 json
-)
 =
 =
 "

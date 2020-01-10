@@ -35,10 +35,12 @@ win
 .
 closed
 )
+{
 +
 +
 count
 ;
+}
 }
 is
 (

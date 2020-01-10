@@ -1455,9 +1455,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

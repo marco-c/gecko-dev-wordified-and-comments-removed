@@ -382,9 +382,7 @@ onCommitted
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -660,9 +658,7 @@ onCommitted
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -918,9 +914,7 @@ onCommitted
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -1195,9 +1189,7 @@ onCommitted
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {
@@ -1474,9 +1466,7 @@ onCommitted
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {

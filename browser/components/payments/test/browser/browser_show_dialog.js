@@ -1255,6 +1255,7 @@ waitForCondition
 >
 {
 return
+(
 content
 .
 document
@@ -1269,6 +1270,7 @@ length
 =
 =
 0
+)
 ;
 }
 "

@@ -1070,9 +1070,7 @@ globals
 set
 (
 {
-"
 Intl
-"
 :
 {
 NumberFormat

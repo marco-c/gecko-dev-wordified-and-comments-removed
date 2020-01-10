@@ -275,9 +275,7 @@ spawn
 browser
 originTuple
 async
-(
 aOriginTuple
-)
 =
 >
 {
@@ -910,9 +908,7 @@ spawn
 browser
 originTuple
 async
-(
 aOriginTuple
-)
 =
 >
 {

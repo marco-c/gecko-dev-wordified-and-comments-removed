@@ -1447,18 +1447,14 @@ com
 "
 }
 {
-"
 url
-"
 :
 "
 bar
 .
 com
 "
-"
 customScreenshotURL
-"
 :
 "
 custom
@@ -1939,7 +1935,6 @@ isBlocked
 site
 =
 >
-(
 site
 .
 url
@@ -1949,7 +1944,6 @@ url
 blockedDefaultSite
 .
 url
-)
 ;
 const
 result
@@ -12047,7 +12041,6 @@ isBlocked
 site
 =
 >
-(
 fakeNewTabUtils
 .
 blockedLinks
@@ -12064,7 +12057,6 @@ url
 site
 .
 url
-)
 ;
 const
 urlsReturned

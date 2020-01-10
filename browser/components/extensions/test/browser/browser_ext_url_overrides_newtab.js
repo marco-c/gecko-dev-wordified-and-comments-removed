@@ -350,9 +350,7 @@ loadExtension
 manifest
 :
 {
-"
 chrome_url_overrides
-"
 :
 {
 newtab
@@ -3416,9 +3414,7 @@ manifest
 chrome_url_overrides
 :
 {
-"
 newtab
-"
 :
 "
 newtab
@@ -3824,9 +3820,7 @@ manifest
 chrome_url_overrides
 :
 {
-"
 newtab
-"
 :
 "
 newtab

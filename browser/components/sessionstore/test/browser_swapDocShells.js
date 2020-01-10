@@ -13,6 +13,7 @@ function
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -27,6 +28,7 @@ about
 :
 mozilla
 "
+)
 )
 ;
 await

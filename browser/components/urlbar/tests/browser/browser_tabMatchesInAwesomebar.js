@@ -123,11 +123,9 @@ TEST_URL_BASES
 0
 ]
 +
-(
 +
 +
 gTabCounter
-)
 )
 )
 ;
@@ -216,6 +214,7 @@ i
 +
 +
 )
+{
 promises
 .
 push
@@ -233,14 +232,13 @@ TEST_URL_BASES
 1
 ]
 +
-(
 +
 +
 gTabCounter
 )
 )
-)
 ;
+}
 await
 Promise
 .
@@ -299,6 +297,7 @@ i
 +
 +
 )
+{
 promises
 .
 push
@@ -320,6 +319,7 @@ gTabCounter
 )
 )
 ;
+}
 await
 Promise
 .
@@ -860,8 +860,10 @@ nsIURI
 .
 spec
 )
+{
 return
 ;
+}
 Services
 .
 obs
@@ -958,8 +960,10 @@ browserWin
 .
 closed
 )
+{
 continue
 ;
+}
 for
 (
 let
@@ -1012,8 +1016,10 @@ isBlankPageURL
 url
 )
 )
+{
 continue
 ;
+}
 if
 (
 !
@@ -1023,6 +1029,7 @@ in
 tabs
 )
 )
+{
 tabs
 [
 url
@@ -1030,7 +1037,9 @@ url
 =
 1
 ;
+}
 else
+{
 tabs
 [
 url
@@ -1038,6 +1047,7 @@ url
 +
 +
 ;
+}
 }
 }
 return

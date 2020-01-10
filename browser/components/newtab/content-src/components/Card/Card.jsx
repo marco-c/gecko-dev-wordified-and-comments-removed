@@ -1632,6 +1632,7 @@ outer
 hasImage
 &
 &
+(
 <
 div
 className
@@ -1664,6 +1665,7 @@ imageStyle
 }
 /
 >
+)
 }
 <
 /
@@ -1691,6 +1693,7 @@ download
 "
 &
 &
+(
 <
 div
 className
@@ -1720,6 +1723,7 @@ file
 "
 /
 >
+)
 }
 {
 link
@@ -1727,6 +1731,7 @@ link
 hostname
 &
 &
+(
 <
 div
 className
@@ -1774,6 +1779,7 @@ description
 /
 div
 >
+)
 }
 <
 div
@@ -1903,6 +1909,7 @@ link
 context
 &
 &
+(
 <
 span
 aria
@@ -1929,6 +1936,7 @@ icon
 }
 /
 >
+)
 }
 {
 link
@@ -1941,6 +1949,7 @@ link
 context
 &
 &
+(
 <
 span
 aria
@@ -1980,6 +1989,7 @@ icon
 }
 /
 >
+)
 }
 {
 fluentID
@@ -1991,6 +2001,7 @@ link
 context
 &
 &
+(
 <
 div
 className
@@ -2013,6 +2024,7 @@ fluentID
 }
 /
 >
+)
 }
 {
 link
@@ -2020,6 +2032,7 @@ link
 context
 &
 &
+(
 <
 div
 className
@@ -2041,6 +2054,7 @@ context
 /
 div
 >
+)
 }
 <
 /
@@ -2065,6 +2079,7 @@ props
 placeholder
 &
 &
+(
 <
 button
 aria
@@ -2124,11 +2139,13 @@ onMenuButtonClick
 }
 /
 >
+)
 }
 {
 isContextMenuOpen
 &
 &
+(
 <
 LinkMenu
 dispatch
@@ -2184,6 +2201,7 @@ shouldSendImpressionStats
 }
 /
 >
+)
 }
 <
 /
@@ -2238,6 +2256,7 @@ PlaceholderCard
 props
 =
 >
+(
 <
 Card
 placeholder
@@ -2254,4 +2273,5 @@ className
 }
 /
 >
+)
 ;

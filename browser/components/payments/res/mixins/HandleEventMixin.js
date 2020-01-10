@@ -81,12 +81,10 @@ fn
 &
 &
 typeof
-(
 this
 [
 fn
 ]
-)
 =
 =
 =

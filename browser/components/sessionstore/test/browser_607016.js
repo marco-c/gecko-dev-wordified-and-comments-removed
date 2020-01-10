@@ -90,9 +90,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -123,9 +121,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -156,9 +152,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -189,9 +183,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -222,9 +214,7 @@ triggeringPrincipal_base64
 extData
 :
 {
-"
 uniq
-"
 :
 r
 (
@@ -794,14 +784,12 @@ tab
 >
 {
 return
-(
 tab
 =
 =
 gBrowser
 .
 selectedTab
-)
 ?
 promiseTabRestored
 (

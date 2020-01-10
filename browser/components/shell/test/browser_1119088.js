@@ -35,9 +35,7 @@ logo
 "
 }
 async
-(
 browser
-)
 =
 >
 {

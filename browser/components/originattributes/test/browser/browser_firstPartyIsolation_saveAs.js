@@ -166,9 +166,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -528,9 +526,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

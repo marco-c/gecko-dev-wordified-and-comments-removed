@@ -1208,6 +1208,7 @@ quantumbar
 )
 {
 return
+(
 this
 .
 window
@@ -1227,6 +1228,7 @@ display
 "
 none
 "
+)
 ;
 }
 return
@@ -1725,6 +1727,7 @@ quantumbar
 )
 {
 return
+(
 this
 .
 panel
@@ -1732,9 +1735,11 @@ panel
 selectedIndex
 =
 index
+)
 ;
 }
 return
+(
 this
 .
 urlbar
@@ -1744,6 +1749,7 @@ view
 selectedIndex
 =
 index
+)
 ;
 }
 getResultCount

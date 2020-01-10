@@ -84,9 +84,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -113,9 +111,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -344,9 +340,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -402,9 +396,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {
@@ -650,9 +642,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -709,9 +699,7 @@ onCompleted
 addListener
 (
 async
-(
 details
-)
 =
 >
 {

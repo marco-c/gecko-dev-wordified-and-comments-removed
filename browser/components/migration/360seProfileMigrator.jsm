@@ -1382,11 +1382,13 @@ __sourceProfiles
 in
 this
 )
+{
 return
 this
 .
 __sourceProfiles
 ;
+}
 if
 (
 !

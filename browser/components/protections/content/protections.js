@@ -5,9 +5,7 @@ addEventListener
 "
 DOMContentLoaded
 "
-(
 e
-)
 =
 >
 {
@@ -557,9 +555,7 @@ addEventListener
 "
 mouseover
 "
-(
 ev
-)
 =
 >
 {
@@ -603,9 +599,7 @@ addEventListener
 "
 mouseout
 "
-(
 ev
-)
 =
 >
 {
@@ -649,9 +643,7 @@ addEventListener
 "
 click
 "
-(
 ev
-)
 =
 >
 {
@@ -718,9 +710,7 @@ addEventListener
 "
 change
 "
-(
 ev
-)
 =
 >
 {

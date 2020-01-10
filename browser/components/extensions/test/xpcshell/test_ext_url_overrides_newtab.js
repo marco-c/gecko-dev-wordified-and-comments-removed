@@ -546,9 +546,7 @@ extObj
 manifest
 :
 {
-"
 chrome_url_overrides
-"
 :
 {
 }

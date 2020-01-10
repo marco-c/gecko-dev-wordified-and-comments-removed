@@ -94,10 +94,13 @@ pocketCta
 .
 ctaButton
 ?
+(
 pocketCta
 .
 ctaButton
+)
 :
+(
 <
 span
 data
@@ -117,6 +120,7 @@ button
 "
 /
 >
+)
 }
 <
 /
@@ -162,10 +166,13 @@ pocketCta
 .
 ctaText
 ?
+(
 pocketCta
 .
 ctaText
+)
 :
+(
 <
 span
 data
@@ -185,6 +192,7 @@ text
 "
 /
 >
+)
 }
 <
 /

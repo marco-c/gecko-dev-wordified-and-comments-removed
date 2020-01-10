@@ -64,9 +64,7 @@ dialogPromise
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

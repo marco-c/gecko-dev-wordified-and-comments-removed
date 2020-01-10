@@ -320,6 +320,7 @@ requireSecure
 "
 )
 )
+{
 allowedSchemes
 .
 add
@@ -329,6 +330,7 @@ http
 "
 )
 ;
+}
 if
 (
 !
@@ -341,9 +343,11 @@ aURI
 scheme
 )
 )
+{
 return
 false
 ;
+}
 return
 true
 ;
@@ -370,9 +374,11 @@ top
 =
 content
 )
+{
 return
 false
 ;
+}
 let
 uri
 =
@@ -393,9 +399,11 @@ chrome
 "
 )
 )
+{
 return
 true
 ;
+}
 if
 (
 !
@@ -406,9 +414,11 @@ isSafeScheme
 uri
 )
 )
+{
 return
 false
 ;
+}
 let
 permission
 =
@@ -433,9 +443,11 @@ perms
 .
 ALLOW_ACTION
 )
+{
 return
 true
 ;
+}
 return
 this
 .

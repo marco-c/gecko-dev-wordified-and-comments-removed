@@ -323,8 +323,10 @@ _frame
 .
 contentDocument
 )
+{
 return
 ;
+}
 this
 .
 _titleElement
@@ -1301,11 +1303,9 @@ style
 .
 height
 =
-(
 frameHeight
 +
 resizeByHeight
-)
 +
 "
 px
@@ -1319,11 +1319,9 @@ style
 .
 minHeight
 =
-(
 boxMinHeight
 +
 resizeByHeight
-)
 +
 "
 px
@@ -1987,7 +1985,6 @@ getBoundingClientRect
 let
 frameSizeDifference
 =
-(
 frameRect
 .
 top
@@ -1995,7 +1992,6 @@ top
 boxRect
 .
 top
-)
 +
 (
 boxRect

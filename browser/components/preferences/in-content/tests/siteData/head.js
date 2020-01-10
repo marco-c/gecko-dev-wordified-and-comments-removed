@@ -422,8 +422,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 content
 .
 gSubDialog
@@ -719,12 +721,14 @@ aOptions
 .
 leaveOpen
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 resolve
 (
 {

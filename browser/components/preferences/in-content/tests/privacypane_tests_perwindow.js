@@ -110,16 +110,12 @@ let
 modes
 =
 {
-"
 remember
-"
 :
 "
 historyRememberPane
 "
-"
 custom
-"
 :
 "
 historyCustomPane
@@ -2101,6 +2097,7 @@ pref
 of
 prefs
 )
+{
 gPrefCache
 .
 set
@@ -2113,6 +2110,7 @@ pref
 value
 )
 ;
+}
 }
 function
 reset_preferences
@@ -2138,6 +2136,7 @@ pref
 of
 prefs
 )
+{
 if
 (
 gPrefCache
@@ -2149,6 +2148,7 @@ pref
 name
 )
 )
+{
 pref
 .
 value
@@ -2162,6 +2162,8 @@ pref
 name
 )
 ;
+}
+}
 }
 function
 run_test_subset
@@ -2206,9 +2208,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [

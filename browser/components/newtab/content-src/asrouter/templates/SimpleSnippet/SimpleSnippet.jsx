@@ -308,6 +308,7 @@ _shouldRenderButton
 )
 {
 return
+(
 this
 .
 props
@@ -331,6 +332,7 @@ props
 content
 .
 button_url
+)
 ;
 }
 renderTitle
@@ -351,6 +353,7 @@ content
 return
 title
 ?
+(
 <
 h3
 className
@@ -389,6 +392,7 @@ title
 /
 h3
 >
+)
 :
 null
 ;

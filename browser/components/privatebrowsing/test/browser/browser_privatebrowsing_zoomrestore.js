@@ -252,9 +252,7 @@ options
 .
 then
 (
-(
 win
-)
 =
 >
 {
@@ -324,9 +322,7 @@ windowsToReset
 .
 forEach
 (
-(
 win
-)
 =
 >
 win

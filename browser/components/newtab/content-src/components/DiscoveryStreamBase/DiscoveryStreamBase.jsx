@@ -427,6 +427,7 @@ g
 )
 ;
 return
+(
 !
 urls
 |
@@ -455,6 +456,7 @@ slice
 startsWith
 (
 prefix
+)
 )
 )
 )
@@ -952,12 +954,10 @@ Highlights
 "
 :
 return
-(
 <
 Highlights
 /
 >
-)
 ;
 case
 "
@@ -965,7 +965,6 @@ TopSites
 "
 :
 return
-(
 <
 TopSites
 header
@@ -977,7 +976,6 @@ header
 }
 /
 >
-)
 ;
 case
 "
@@ -1068,7 +1066,6 @@ SectionTitle
 "
 :
 return
-(
 <
 SectionTitle
 header
@@ -1080,7 +1077,6 @@ header
 }
 /
 >
-)
 ;
 case
 "
@@ -1288,12 +1284,10 @@ HorizontalRule
 "
 :
 return
-(
 <
 HorizontalRule
 /
 >
-)
 ;
 case
 "
@@ -1390,7 +1384,6 @@ header
 default
 :
 return
-(
 <
 div
 >
@@ -1403,7 +1396,6 @@ type
 /
 div
 >
-)
 ;
 }
 }
@@ -1453,7 +1445,6 @@ styles
 )
 ;
 return
-(
 <
 style
 key
@@ -1477,7 +1468,6 @@ onStyleMount
 }
 /
 >
-)
 ;
 }
 componentWillReceiveProps
@@ -1960,6 +1950,7 @@ length
 0
 &
 &
+(
 <
 CollapsibleSection
 className
@@ -2068,6 +2059,7 @@ layoutRender
 /
 CollapsibleSection
 >
+)
 }
 {
 this
@@ -2214,6 +2206,7 @@ rowIndex
 .
 .
 .
+(
 styles
 [
 rowIndex
@@ -2222,6 +2215,7 @@ rowIndex
 |
 [
 ]
+)
 component
 .
 styles

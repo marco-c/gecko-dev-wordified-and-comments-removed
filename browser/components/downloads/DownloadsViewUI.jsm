@@ -986,6 +986,7 @@ selector
 let
 progress
 =
+(
 this
 .
 _downloadProgress
@@ -998,6 +999,7 @@ HTML_NS
 "
 progress
 "
+)
 )
 ;
 progress
@@ -1098,6 +1100,7 @@ size
 ;
 }
 return
+(
 "
 moz
 -
@@ -1138,6 +1141,7 @@ normal
 :
 "
 "
+)
 )
 ;
 }

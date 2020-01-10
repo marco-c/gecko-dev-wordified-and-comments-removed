@@ -243,7 +243,6 @@ InnerEl
 )
 =
 >
-(
 <
 div
 >
@@ -253,7 +252,6 @@ Element
 /
 div
 >
-)
 ;
 function
 renderImpressionStats

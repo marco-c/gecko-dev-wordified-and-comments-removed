@@ -108,6 +108,7 @@ platform
 linux
 "
 )
+{
 firstPaintNotification
 =
 "
@@ -118,6 +119,7 @@ window
 visible
 "
 ;
+}
 let
 win
 canvas
@@ -171,8 +173,10 @@ height
 <
 1
 )
+{
 return
 ;
+}
 let
 ctx
 =
@@ -383,8 +387,10 @@ record
 false
 )
 )
+{
 return
 ;
+}
 Services
 .
 profiler
@@ -545,6 +551,7 @@ t
 of
 topics
 )
+{
 Services
 .
 obs
@@ -555,6 +562,7 @@ this
 t
 )
 ;
+}
 return
 ;
 }
@@ -833,6 +841,7 @@ if
 (
 count
 )
+{
 Services
 .
 tm
@@ -852,11 +861,14 @@ count
 )
 )
 ;
+}
 else
+{
 callback
 (
 )
 ;
+}
 }
 )
 (
@@ -954,6 +966,7 @@ value
 )
 =
 >
+(
 this
 .
 data
@@ -964,6 +977,7 @@ key
 ]
 =
 value
+)
 )
 ;
 }

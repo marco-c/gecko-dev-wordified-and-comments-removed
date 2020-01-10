@@ -39,14 +39,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisablePrivateBrowsing
-"
 :
 true
 }

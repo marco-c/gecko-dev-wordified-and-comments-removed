@@ -180,6 +180,7 @@ i
 +
 +
 )
+{
 tabState
 .
 entries
@@ -196,6 +197,7 @@ triggeringPrincipal_base64
 }
 )
 ;
+}
 promiseTabState
 (
 tab

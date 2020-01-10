@@ -413,6 +413,7 @@ idx
 )
 =
 >
+(
 <
 input
 type
@@ -437,6 +438,7 @@ idx
 }
 /
 >
+)
 )
 }
 {
@@ -765,6 +767,7 @@ background_color
 const
 customElement
 =
+(
 <
 em
 style
@@ -784,6 +787,7 @@ highlight_color
 }
 /
 >
+)
 ;
 return
 (

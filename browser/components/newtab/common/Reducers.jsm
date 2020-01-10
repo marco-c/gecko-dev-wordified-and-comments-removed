@@ -367,7 +367,6 @@ filter
 link
 =
 >
-(
 link
 ?
 !
@@ -381,7 +380,6 @@ url
 )
 :
 false
-)
 )
 ;
 newLinks

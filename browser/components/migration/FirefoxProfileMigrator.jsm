@@ -495,9 +495,11 @@ isReadable
 (
 )
 )
+{
 return
 null
 ;
+}
 let
 currentProfileDir
 =
@@ -516,9 +518,11 @@ equals
 currentProfileDir
 )
 )
+{
 return
 null
 ;
+}
 return
 this
 .
@@ -605,6 +609,7 @@ if
 (
 file
 )
+{
 files
 .
 push
@@ -612,6 +617,7 @@ push
 file
 )
 ;
+}
 }
 if
 (
@@ -1431,9 +1437,7 @@ aCallback
 let
 createSubDir
 =
-(
 name
-)
 =
 >
 {

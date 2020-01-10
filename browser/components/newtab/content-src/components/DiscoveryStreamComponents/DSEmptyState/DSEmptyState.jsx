@@ -258,7 +258,6 @@ waiting
 )
 {
 return
-(
 <
 button
 className
@@ -280,7 +279,6 @@ Loading
 /
 button
 >
-)
 ;
 }
 return

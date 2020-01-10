@@ -163,9 +163,7 @@ resolve
 let
 promiseTabUpdated
 =
-(
 expected
-)
 =
 >
 {
@@ -1242,9 +1240,7 @@ spanning
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -1318,9 +1314,7 @@ onceTabsAttached
 let
 promiseTabAttached
 =
-(
 tab
-)
 =
 >
 {
@@ -1391,9 +1385,7 @@ onCompleted
 .
 addListener
 (
-(
 data
-)
 =
 >
 {
@@ -1686,9 +1678,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -2063,9 +2053,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

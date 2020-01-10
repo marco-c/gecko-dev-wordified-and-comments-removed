@@ -182,9 +182,7 @@ fire
 const
 listener
 =
-(
 data
-)
 =
 >
 {

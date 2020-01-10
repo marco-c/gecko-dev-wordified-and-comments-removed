@@ -81,9 +81,7 @@ global
 getDevToolsTargetForContext
 =
 async
-(
 context
-)
 =
 >
 {
@@ -212,9 +210,7 @@ global
 .
 getTargetTabIdForToolbox
 =
-(
 toolbox
-)
 =
 >
 {

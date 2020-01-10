@@ -30,9 +30,7 @@ Object
 assign
 (
 {
-"
 permissions
-"
 :
 [
 "
@@ -241,14 +239,10 @@ org
 "
 }
 }
-"
 options_ui
-"
 :
 {
-"
 page
-"
 :
 "
 options

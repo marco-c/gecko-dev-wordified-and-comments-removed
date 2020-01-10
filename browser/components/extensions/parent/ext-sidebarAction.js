@@ -288,9 +288,7 @@ this
 .
 windowOpenListener
 =
-(
 window
-)
 =
 >
 {
@@ -319,9 +317,7 @@ this
 .
 updateHeader
 =
-(
 event
-)
 =
 >
 {
@@ -398,9 +394,7 @@ this
 .
 windowCloseListener
 =
-(
 window
-)
 =
 >
 {

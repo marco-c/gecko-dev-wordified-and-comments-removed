@@ -363,14 +363,12 @@ try
 {
 title
 =
-(
 new
 URL
 (
 login
 .
 origin
-)
 )
 .
 host

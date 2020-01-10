@@ -75,8 +75,10 @@ prop
 function
 "
 )
+{
 continue
 ;
+}
 if
 (
 expectedObj
@@ -509,8 +511,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 delete
 global
 [
@@ -766,6 +770,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -776,6 +781,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;
@@ -889,8 +895,10 @@ compact
 "
 )
 )
+{
 break
 ;
+}
 oneOffs
 .
 push

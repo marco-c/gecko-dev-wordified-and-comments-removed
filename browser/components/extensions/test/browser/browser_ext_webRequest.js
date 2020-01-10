@@ -304,9 +304,7 @@ binary
 modify
 :
 {
-"
 server
-"
 :
 "
 WebRequest
@@ -362,9 +360,7 @@ let
 events
 =
 {
-"
 onBeforeRequest
-"
 :
 [
 {
@@ -376,9 +372,7 @@ blocking
 "
 ]
 ]
-"
 onBeforeSendHeaders
-"
 :
 [
 {
@@ -393,9 +387,7 @@ requestHeaders
 "
 ]
 ]
-"
 onSendHeaders
-"
 :
 [
 {
@@ -407,9 +399,7 @@ requestHeaders
 "
 ]
 ]
-"
 onHeadersReceived
-"
 :
 [
 {
@@ -424,9 +414,7 @@ responseHeaders
 "
 ]
 ]
-"
 onCompleted
-"
 :
 [
 {

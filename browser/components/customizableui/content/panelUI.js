@@ -474,12 +474,14 @@ if
 !
 newValue
 )
+{
 this
 .
 clearLibraryRecentHighlights
 (
 )
 ;
+}
 }
 )
 ;
@@ -631,6 +633,7 @@ getKey
 ]
 ;
 return
+(
 this
 [
 getKey
@@ -641,6 +644,7 @@ document
 getElementById
 (
 id
+)
 )
 ;
 }
@@ -661,8 +665,10 @@ this
 .
 _eventListenersAdded
 )
+{
 return
 ;
+}
 this
 .
 _addEventListeners
@@ -1372,6 +1378,7 @@ button
 =
 0
 )
+{
 this
 .
 toggle
@@ -1379,6 +1386,7 @@ toggle
 aEvent
 )
 ;
+}
 break
 ;
 case
@@ -2357,8 +2365,10 @@ viewNode
 .
 _initialized
 )
+{
 return
 ;
+}
 viewNode
 .
 _initialized
@@ -3170,8 +3180,10 @@ node
 .
 hidden
 )
+{
 continue
 ;
+}
 let
 button
 =
@@ -3202,8 +3214,10 @@ hasAttribute
 attrName
 )
 )
+{
 continue
 ;
+}
 button
 .
 setAttribute
@@ -4434,6 +4448,7 @@ if
 !
 notificationEl
 )
+{
 throw
 new
 Error
@@ -4452,6 +4467,7 @@ element
 "
 )
 ;
+}
 if
 (
 !
@@ -4459,6 +4475,7 @@ notificationEl
 .
 notification
 )
+{
 throw
 new
 Error
@@ -4476,6 +4493,7 @@ notification
 "
 )
 ;
+}
 let
 notification
 =
@@ -4534,6 +4552,7 @@ target
 .
 notification
 )
+{
 throw
 new
 Error
@@ -4550,6 +4569,7 @@ notification
 "
 )
 ;
+}
 event
 .
 stopPropagation

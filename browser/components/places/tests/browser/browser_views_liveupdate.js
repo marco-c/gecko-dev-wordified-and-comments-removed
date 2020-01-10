@@ -855,8 +855,10 @@ property
 title
 "
 )
+{
 return
 ;
+}
 this
 .
 _notifications
@@ -1199,9 +1201,7 @@ aElementOrTreeIndex
 if
 (
 typeof
-(
 aElementOrTreeIndex
-)
 =
 =
 "
@@ -1262,7 +1262,9 @@ if
 !
 newValue
 )
+{
 return
+(
 cellText
 =
 =
@@ -1280,7 +1282,9 @@ aElementOrTreeIndex
 )
 true
 )
+)
 ;
+}
 return
 cellText
 =
@@ -1305,6 +1309,7 @@ toolbarbutton
 )
 {
 return
+(
 aElementOrTreeIndex
 .
 getAttribute
@@ -1322,6 +1327,7 @@ getBestTitle
 aElementOrTreeIndex
 .
 _placesNode
+)
 )
 ;
 }
@@ -1653,9 +1659,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 }
 return
@@ -1832,9 +1840,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 }
 return
@@ -1906,6 +1916,7 @@ isContainerEmpty
 aContainerIndex
 )
 )
+{
 return
 [
 null
@@ -1913,6 +1924,7 @@ null
 false
 ]
 ;
+}
 for
 (
 var
@@ -2034,9 +2046,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 if
 (
@@ -2053,8 +2067,10 @@ aContainerIndex
 i
 )
 )
+{
 break
 ;
+}
 }
 return
 [
@@ -2120,9 +2136,11 @@ foundNode
 =
 null
 )
+{
 return
 foundNode
 ;
+}
 }
 return
 [

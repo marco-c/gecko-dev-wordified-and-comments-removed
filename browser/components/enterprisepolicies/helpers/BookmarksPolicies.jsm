@@ -364,9 +364,7 @@ BookmarksPolicies
 .
 BOOKMARK_GUID_PREFIX
 }
-(
 bookmark
-)
 =
 >
 existingBookmarksMap
@@ -531,9 +529,7 @@ BookmarksPolicies
 .
 FOLDER_GUID_PREFIX
 }
-(
 folder
-)
 =
 >
 {
@@ -913,9 +909,7 @@ BookmarksPolicies
 .
 FOLDER_GUID_PREFIX
 }
-(
 result
-)
 =
 >
 {
@@ -971,14 +965,12 @@ folderTitle
 let
 parentGuid
 =
-(
 placement
 =
 =
 "
 menu
 "
-)
 ?
 PlacesUtils
 .

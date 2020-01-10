@@ -1173,9 +1173,7 @@ key
 .
 then
 (
-(
 result
-)
 =
 >
 {
@@ -1498,6 +1496,7 @@ data
 starred
 "
 ?
+(
 kBuiltInInputs
 .
 AddBookmark
@@ -1511,7 +1510,9 @@ filled
 .
 pdf
 "
+)
 :
+(
 kBuiltInInputs
 .
 AddBookmark
@@ -1523,6 +1524,7 @@ bookmark
 .
 pdf
 "
+)
 ;
 this
 .

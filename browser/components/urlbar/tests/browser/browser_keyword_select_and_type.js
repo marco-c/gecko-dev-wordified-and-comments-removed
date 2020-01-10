@@ -20,7 +20,6 @@ bookmarks
 .
 push
 (
-(
 await
 PlacesUtils
 .
@@ -61,7 +60,6 @@ test
 }
 )
 )
-)
 ;
 await
 PlacesUtils
@@ -100,7 +98,6 @@ bookmarks
 .
 push
 (
-(
 await
 PlacesUtils
 .
@@ -136,7 +133,6 @@ keyword
 abc
 "
 }
-)
 )
 )
 ;

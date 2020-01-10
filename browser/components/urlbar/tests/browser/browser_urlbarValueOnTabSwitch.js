@@ -163,13 +163,11 @@ testURL
 substr
 (
 0
-(
 testURL
 .
 length
 -
 charsToDelete
-)
 )
 ;
 function

@@ -305,7 +305,6 @@ i
 )
 =
 >
-(
 option
 .
 type
@@ -345,6 +344,7 @@ empty
 "
 &
 &
+(
 <
 ContextMenuItem
 key
@@ -514,7 +514,6 @@ parentNode
 const
 closestSiblingSelector
 =
-(
 key
 =
 =
@@ -522,7 +521,6 @@ key
 "
 ArrowUp
 "
-)
 ?
 "
 previousSibling
@@ -856,6 +854,7 @@ option
 icon
 &
 &
+(
 <
 span
 className
@@ -875,6 +874,7 @@ icon
 }
 /
 >
+)
 }
 <
 span

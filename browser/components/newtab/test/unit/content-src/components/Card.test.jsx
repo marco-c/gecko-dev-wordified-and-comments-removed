@@ -574,7 +574,6 @@ description
 )
 =
 >
-(
 assert
 .
 equal
@@ -599,7 +598,6 @@ DEFAULT_PROPS
 link
 .
 description
-)
 )
 )
 ;

@@ -299,10 +299,12 @@ type
 apppanetest
 "
 )
+{
 handlerAdded
 =
 true
 ;
+}
 }
 ok
 (

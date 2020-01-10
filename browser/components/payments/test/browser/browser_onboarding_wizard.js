@@ -230,9 +230,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -638,9 +636,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -821,9 +817,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -843,6 +837,7 @@ billingAddressGUID
 )
 ;
 return
+(
 state
 .
 selectedShippingAddress
@@ -851,6 +846,7 @@ selectedShippingAddress
 billingAddressSelect
 .
 value
+)
 ;
 }
 "
@@ -949,9 +945,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1193,9 +1187,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1453,9 +1445,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1496,9 +1486,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1795,9 +1783,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2308,9 +2294,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2484,9 +2468,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2719,9 +2701,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -2986,9 +2966,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -3095,9 +3073,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -3117,6 +3093,7 @@ billingAddressGUID
 )
 ;
 return
+(
 state
 [
 "
@@ -3134,6 +3111,7 @@ billingAddressGUID
 billingAddressSelect
 .
 value
+)
 ;
 }
 "
@@ -3229,9 +3207,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -3659,9 +3635,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -3887,9 +3861,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -4055,13 +4027,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -4104,6 +4075,7 @@ page
 ]
 .
 billingAddressGUID
+)
 ;
 }
 "
@@ -4293,13 +4265,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -4345,6 +4316,7 @@ name
 "
 John
 "
+)
 ;
 }
 "

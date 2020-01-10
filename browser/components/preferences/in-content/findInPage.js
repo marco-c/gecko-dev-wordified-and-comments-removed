@@ -1165,6 +1165,7 @@ subcategory
 )
 &
 &
+(
 await
 this
 .
@@ -1174,6 +1175,7 @@ child
 this
 .
 query
+)
 )
 )
 {
@@ -1790,6 +1792,7 @@ ids
 )
 &
 &
+(
 await
 this
 .
@@ -1797,6 +1800,7 @@ matchesSearchL10nIDs
 (
 nodeObject
 searchPhrase
+)
 )
 ;
 if
@@ -2712,13 +2716,11 @@ calc
 %
 -
 {
-(
 tooltipRect
 .
 width
 /
 2
-)
 }
 px
 )

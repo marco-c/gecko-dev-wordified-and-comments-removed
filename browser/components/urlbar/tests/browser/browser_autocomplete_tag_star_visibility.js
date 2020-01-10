@@ -566,10 +566,9 @@ result
 displayed
 .
 typeIcon
-"
+'
 url
 (
-\
 "
 chrome
 :
@@ -582,10 +581,9 @@ skin
 bookmark
 .
 svg
-\
 "
 )
-"
+'
 "
 Should
 have

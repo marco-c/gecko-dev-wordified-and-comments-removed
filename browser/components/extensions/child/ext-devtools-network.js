@@ -117,9 +117,7 @@ fire
 let
 onFinished
 =
-(
 data
-)
 =
 >
 {

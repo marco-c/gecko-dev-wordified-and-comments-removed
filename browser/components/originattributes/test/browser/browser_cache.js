@@ -678,9 +678,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -1564,13 +1562,11 @@ suffix
 let
 result
 =
-(
 expectedEntryCount
 =
 =
 =
 foundEntryCount
-)
 ;
 ok
 (

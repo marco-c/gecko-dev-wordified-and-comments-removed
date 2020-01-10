@@ -82,14 +82,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableProfileImport
-"
 :
 true
 }

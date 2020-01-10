@@ -135,9 +135,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -451,9 +449,7 @@ bookmark
 -
 added
 "
-(
 events
-)
 =
 >
 events
@@ -580,13 +576,12 @@ this
 DOMContentLoaded
 "
 true
-(
 event
-)
 =
 >
 {
 return
+(
 event
 .
 originalTarget
@@ -613,6 +608,7 @@ about
 :
 blank
 "
+)
 ;
 }
 )

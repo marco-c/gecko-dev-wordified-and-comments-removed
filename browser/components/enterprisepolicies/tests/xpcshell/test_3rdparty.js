@@ -15,9 +15,7 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
 "
@@ -25,9 +23,7 @@ policies
 "
 :
 {
-"
 Extensions
-"
 :
 {
 "
@@ -40,9 +36,7 @@ com
 "
 :
 {
-"
 string
-"
 :
 "
 value
@@ -77,9 +71,7 @@ deepEqual
 (
 extensionPolicy
 {
-"
 string
-"
 :
 "
 value

@@ -522,11 +522,9 @@ Assert
 .
 equal
 (
-(
 await
 getFormHistoryCount
 (
-)
 )
 1
 "
@@ -556,11 +554,9 @@ Assert
 .
 equal
 (
-(
 await
 getFormHistoryCount
 (
-)
 )
 0
 "

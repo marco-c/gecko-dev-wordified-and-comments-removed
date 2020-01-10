@@ -755,6 +755,7 @@ idx
 )
 =
 >
+(
 <
 input
 key
@@ -782,6 +783,7 @@ key
 }
 /
 >
+)
 )
 ;
 }
@@ -1073,6 +1075,7 @@ submissionStatus
 {
 successTitle
 ?
+(
 <
 h2
 className
@@ -1088,6 +1091,7 @@ successTitle
 /
 h2
 >
+)
 :
 null
 }
@@ -1122,6 +1126,7 @@ isSuccess
 ?
 null
 :
+(
 <
 Button
 onClick
@@ -1139,6 +1144,7 @@ retryButtonText
 /
 Button
 >
+)
 }
 <
 /
@@ -1256,7 +1262,6 @@ className
 {
 mainInput
 {
-(
 this
 .
 state
@@ -1269,7 +1274,6 @@ submitAttempted
 "
 clean
 "
-)
 }
 }
 name
@@ -1360,6 +1364,7 @@ content
 .
 scene2_icon
 ?
+(
 <
 div
 className
@@ -1443,6 +1448,7 @@ ICON_ALT_TEXT
 /
 div
 >
+)
 :
 null
 }
@@ -1463,6 +1469,7 @@ content
 scene2_title
 &
 &
+(
 <
 h3
 className
@@ -1480,6 +1487,7 @@ scene2_title
 /
 h3
 >
+)
 }
 {
 "
@@ -1491,6 +1499,7 @@ content
 scene2_text
 &
 &
+(
 <
 RichText
 scene2_text
@@ -1507,6 +1516,7 @@ scene2_text
 "
 /
 >
+)
 }
 <
 /
@@ -1759,6 +1769,7 @@ renderSignupView
 ;
 }
 return
+(
 <
 SimpleSnippet
 {
@@ -1783,6 +1794,7 @@ expandSnippet
 }
 /
 >
+)
 ;
 }
 }

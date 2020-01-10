@@ -70,9 +70,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -379,6 +377,7 @@ waitForCondition
 >
 {
 return
+(
 newWindowTabs
 .
 length
@@ -439,6 +438,7 @@ TEST_URIS
 [
 3
 ]
+)
 ;
 }
 "

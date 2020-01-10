@@ -122,9 +122,7 @@ tabReloaded
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

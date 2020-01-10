@@ -174,32 +174,24 @@ stringify
 (
 [
 {
-"
 name
-"
 :
 "
 Cloudflare
 "
-"
 url
-"
 :
 DEFAULT_RESOLVER_VALUE
 }
 {
-"
 name
-"
 :
 "
 example
 .
 org
 "
-"
 url
-"
 :
 "
 https
@@ -407,7 +399,6 @@ startTime
 {
 info
 (
-(
 Date
 .
 now
@@ -415,7 +406,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -559,7 +549,6 @@ uiReady
 ;
 info
 (
-(
 Date
 .
 now
@@ -567,7 +556,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -745,7 +733,6 @@ clickMode
 {
 info
 (
-(
 Date
 .
 now
@@ -753,7 +740,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -777,7 +763,6 @@ TRR_MODE_PREF
 ;
 info
 (
-(
 Date
 .
 now
@@ -785,7 +770,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -815,7 +799,6 @@ win
 ;
 info
 (
-(
 Date
 .
 now
@@ -823,7 +806,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -851,7 +833,6 @@ selectResolver
 {
 info
 (
-(
 Date
 .
 now
@@ -859,7 +840,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -924,7 +904,6 @@ true
 ;
 info
 (
-(
 Date
 .
 now
@@ -932,7 +911,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -963,7 +941,6 @@ inputUriKeys
 {
 info
 (
-(
 Date
 .
 now
@@ -971,7 +948,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -995,7 +971,6 @@ TRR_CUSTOM_URI_PREF
 ;
 info
 (
-(
 Date
 .
 now
@@ -1003,7 +978,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1076,7 +1050,6 @@ true
 ;
 info
 (
-(
 Date
 .
 now
@@ -1084,7 +1057,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1102,7 +1074,6 @@ dispatched
 }
 info
 (
-(
 Date
 .
 now
@@ -1110,7 +1081,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1131,7 +1101,6 @@ acceptDialog
 ;
 info
 (
-(
 Date
 .
 now
@@ -1139,7 +1108,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1170,7 +1138,6 @@ closed
 ;
 info
 (
-(
 Date
 .
 now
@@ -1178,7 +1145,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1210,7 +1176,6 @@ modePrefChangedPromise
 ;
 info
 (
-(
 Date
 .
 now
@@ -1218,7 +1183,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :
@@ -1360,7 +1324,6 @@ value
 }
 info
 (
-(
 Date
 .
 now
@@ -1368,7 +1331,6 @@ now
 )
 -
 startTime
-)
 +
 "
 :

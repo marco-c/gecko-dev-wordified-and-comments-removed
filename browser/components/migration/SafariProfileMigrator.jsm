@@ -247,6 +247,7 @@ if
 !
 dict
 )
+{
 throw
 new
 Error
@@ -261,6 +262,7 @@ plist
 "
 )
 ;
+}
 let
 children
 =
@@ -278,6 +280,7 @@ if
 !
 children
 )
+{
 throw
 new
 Error
@@ -291,6 +294,7 @@ format
 "
 )
 ;
+}
 let
 collection
 =
@@ -472,6 +476,7 @@ title
 BookmarksBar
 "
 )
+{
 await
 this
 .
@@ -483,6 +488,7 @@ this
 TOOLBAR_COLLECTION
 )
 ;
+}
 else
 if
 (
@@ -493,6 +499,7 @@ title
 BookmarksMenu
 "
 )
+{
 await
 this
 .
@@ -504,6 +511,7 @@ this
 MENU_COLLECTION
 )
 ;
+}
 else
 if
 (
@@ -518,6 +526,7 @@ apple
 ReadingList
 "
 )
+{
 await
 this
 .
@@ -529,6 +538,7 @@ this
 READING_LIST_COLLECTION
 )
 ;
+}
 else
 if
 (
@@ -545,6 +555,7 @@ ShouldOmitFromUI
 =
 true
 )
+{
 entriesFiltered
 .
 push
@@ -552,6 +563,7 @@ push
 entry
 )
 ;
+}
 }
 else
 if
@@ -590,8 +602,10 @@ length
 =
 0
 )
+{
 return
 ;
+}
 let
 folderGuid
 =
@@ -770,6 +784,7 @@ folderGuid
 -
 1
 )
+{
 throw
 new
 Error
@@ -781,6 +796,7 @@ GUID
 "
 )
 ;
+}
 await
 this
 .
@@ -986,6 +1002,7 @@ URIDictionary
 "
 )
 )
+{
 title
 =
 entry
@@ -1004,6 +1021,7 @@ title
 "
 )
 ;
+}
 return
 {
 url
@@ -1141,6 +1159,7 @@ if
 !
 aDict
 )
+{
 throw
 new
 Error
@@ -1155,6 +1174,7 @@ list
 "
 )
 ;
+}
 if
 (
 !
@@ -1167,6 +1187,7 @@ WebHistoryDates
 "
 )
 )
+{
 throw
 new
 Error
@@ -1181,6 +1202,7 @@ format
 "
 )
 ;
+}
 let
 pageInfos
 =
@@ -1578,6 +1600,7 @@ if
 !
 aDict
 )
+{
 throw
 new
 Error
@@ -1591,6 +1614,7 @@ dictionary
 "
 )
 ;
+}
 if
 (
 aDict
@@ -1634,9 +1658,7 @@ recentSearchStrings
 .
 map
 (
-(
 searchString
-)
 =
 >
 (
@@ -1732,9 +1754,11 @@ exists
 (
 )
 )
+{
 return
 null
 ;
+}
 let
 resources
 =
@@ -1774,6 +1798,7 @@ exists
 (
 )
 )
+{
 resources
 .
 push
@@ -1785,6 +1810,7 @@ file
 )
 )
 ;
+}
 }
 ;
 pushProfileFileResource

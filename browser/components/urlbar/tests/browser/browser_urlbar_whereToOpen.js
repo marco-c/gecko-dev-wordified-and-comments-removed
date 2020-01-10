@@ -178,6 +178,7 @@ openInTab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -189,6 +190,7 @@ openNewForegroundTab
 (
 gBrowser
 NON_EMPTY_TAB
+)
 )
 ;
 for
@@ -374,6 +376,7 @@ keepEmptyTab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -385,6 +388,7 @@ openNewForegroundTab
 (
 gBrowser
 EMPTY_TAB
+)
 )
 ;
 for
@@ -508,6 +512,7 @@ reuseEmptyTab
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -519,6 +524,7 @@ openNewForegroundTab
 (
 gBrowser
 EMPTY_TAB
+)
 )
 ;
 for
@@ -827,6 +833,7 @@ desc
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -840,6 +847,7 @@ gBrowser
 test
 .
 url
+)
 )
 ;
 Preferences

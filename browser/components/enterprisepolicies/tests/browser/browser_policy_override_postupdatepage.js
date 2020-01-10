@@ -368,14 +368,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 OverridePostUpdatePage
-"
 :
 POLICY_PROVIDED_PAGE
 }

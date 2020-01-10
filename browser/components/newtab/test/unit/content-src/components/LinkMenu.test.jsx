@@ -815,7 +815,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -834,7 +833,6 @@ menu
 -
 unpin
 "
-)
 )
 )
 ;
@@ -939,7 +937,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -958,7 +955,6 @@ menu
 -
 pin
 "
-)
 )
 )
 ;
@@ -1063,7 +1059,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1084,7 +1079,6 @@ remove
 -
 bookmark
 "
-)
 )
 )
 ;
@@ -1189,7 +1183,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1208,7 +1201,6 @@ menu
 -
 bookmark
 "
-)
 )
 )
 ;
@@ -1316,7 +1308,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1339,7 +1330,6 @@ to
 -
 pocket
 "
-)
 )
 )
 ;
@@ -1447,7 +1437,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1468,7 +1457,6 @@ delete
 -
 pocket
 "
-)
 )
 )
 ;
@@ -1573,7 +1561,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1594,7 +1581,6 @@ archive
 -
 pocket
 "
-)
 )
 )
 ;
@@ -1699,7 +1685,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1718,7 +1703,6 @@ menu
 -
 bookmark
 "
-)
 )
 )
 ;
@@ -1826,7 +1810,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1847,7 +1830,6 @@ remove
 -
 bookmark
 "
-)
 )
 )
 ;
@@ -1955,7 +1937,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1976,7 +1957,6 @@ open
 -
 file
 "
-)
 )
 )
 ;
@@ -2095,7 +2075,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2116,7 +2095,6 @@ show
 -
 file
 "
-)
 )
 )
 ;
@@ -2222,7 +2200,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2245,7 +2222,6 @@ download
 -
 link
 "
-)
 )
 )
 ;
@@ -2357,7 +2333,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2382,7 +2357,6 @@ download
 -
 page
 "
-)
 )
 )
 ;
@@ -2510,7 +2484,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2535,7 +2508,6 @@ download
 -
 page
 "
-)
 )
 )
 ;
@@ -2653,7 +2625,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2674,7 +2645,6 @@ remove
 -
 download
 "
-)
 )
 )
 ;
@@ -2787,7 +2757,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -2808,7 +2777,6 @@ edit
 -
 topsites
 "
-)
 )
 ;
 assert
@@ -3102,9 +3070,7 @@ FAKE_SITE
 .
 pocket_id
 }
-"
 menu_action_webext_dismiss
-"
 :
 {
 source

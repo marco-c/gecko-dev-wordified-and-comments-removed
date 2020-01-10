@@ -126,7 +126,6 @@ InnerEl
 )
 =
 >
-(
 <
 div
 >
@@ -136,7 +135,6 @@ Element
 /
 div
 >
-)
 ;
 beforeEach
 (
@@ -2618,9 +2616,7 @@ SAVE_SESSION_PERF_DATA
 data
 :
 {
-"
 topsites_first_painted_ts
-"
 :
 42
 }

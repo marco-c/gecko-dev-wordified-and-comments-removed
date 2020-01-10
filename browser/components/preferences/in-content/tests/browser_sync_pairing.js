@@ -250,9 +250,7 @@ await
 runWithPairingDialog
 (
 async
-(
 win
-)
 =
 >
 {
@@ -440,9 +438,7 @@ await
 runWithPairingDialog
 (
 async
-(
 win
-)
 =
 >
 {
@@ -558,9 +554,7 @@ await
 runWithPairingDialog
 (
 async
-(
 win
-)
 =
 >
 {
@@ -677,9 +671,7 @@ await
 runWithPairingDialog
 (
 async
-(
 win
-)
 =
 >
 {

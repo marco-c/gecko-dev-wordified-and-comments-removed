@@ -733,7 +733,6 @@ rows
 length
 &
 &
-(
 /
 /
 We
@@ -762,6 +761,7 @@ collapsed
 .
 .
 .
+(
 (
 props
 .
@@ -865,7 +865,6 @@ this
 impressionCardGuids
 |
 |
-(
 this
 .
 impressionCardGuids
@@ -877,7 +876,6 @@ length
 cards
 .
 length
-)
 )
 {
 return
@@ -1149,7 +1147,6 @@ render
 const
 isPocketLoggedInDefined
 =
-(
 isUserLoggedIn
 =
 =
@@ -1162,7 +1159,6 @@ isUserLoggedIn
 =
 =
 false
-)
 ;
 const
 hasTopics
@@ -1179,7 +1175,6 @@ length
 const
 shouldShowPocketCta
 =
-(
 id
 =
 =
@@ -1197,7 +1192,6 @@ isUserLoggedIn
 =
 =
 false
-)
 ;
 /
 /
@@ -1240,7 +1234,6 @@ load
 const
 shouldShowTopics
 =
-(
 id
 =
 =
@@ -1272,7 +1265,6 @@ useCta
 &
 &
 isPocketLoggedInDefined
-)
 )
 )
 ;
@@ -1421,12 +1413,10 @@ query
 const
 className
 =
-(
 i
 >
 =
 maxCardsOnNarrow
-)
 ?
 "
 hide
@@ -1781,6 +1771,7 @@ ul
 shouldShowEmptyState
 &
 &
+(
 <
 div
 className
@@ -1825,6 +1816,7 @@ extension
 "
 )
 ?
+(
 <
 span
 className
@@ -1861,7 +1853,9 @@ icon
 }
 /
 >
+)
 :
+(
 <
 span
 className
@@ -1883,6 +1877,7 @@ icon
 }
 /
 >
+)
 }
 <
 FluentOrText
@@ -1919,6 +1914,7 @@ div
 /
 div
 >
+)
 }
 {
 id
@@ -1930,6 +1926,7 @@ topstories
 "
 &
 &
+(
 <
 div
 className
@@ -1948,6 +1945,7 @@ container
 shouldShowTopics
 &
 &
+(
 <
 div
 className
@@ -1975,11 +1973,13 @@ topics
 /
 div
 >
+)
 }
 {
 shouldShowPocketCta
 &
 &
+(
 <
 div
 className
@@ -1998,6 +1998,7 @@ PocketLoggedInCta
 /
 div
 >
+)
 }
 <
 div
@@ -2015,6 +2016,7 @@ recommendations
 shouldShowReadMore
 &
 &
+(
 <
 MoreRecommendations
 read_more_endpoint
@@ -2024,6 +2026,7 @@ read_more_endpoint
 }
 /
 >
+)
 }
 <
 /
@@ -2033,6 +2036,7 @@ div
 /
 div
 >
+)
 }
 <
 /
@@ -2321,7 +2325,6 @@ render
 )
 {
 return
-(
 <
 div
 className
@@ -2343,7 +2346,6 @@ renderSections
 /
 div
 >
-)
 ;
 }
 }

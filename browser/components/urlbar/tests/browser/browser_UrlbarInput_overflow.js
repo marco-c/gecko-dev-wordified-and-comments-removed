@@ -215,11 +215,13 @@ trimURLs
 true
 )
 )
+{
 scheme
 =
 "
 "
 ;
+}
 Assert
 .
 equal

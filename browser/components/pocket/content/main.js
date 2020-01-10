@@ -254,7 +254,6 @@ userdata
 var
 fxasignedin
 =
-(
 typeof
 userdata
 =
@@ -269,7 +268,6 @@ userdata
 =
 =
 null
-)
 ?
 "
 1
@@ -506,7 +504,6 @@ url
 var
 isValidURL
 =
-(
 typeof
 url
 !
@@ -535,7 +532,6 @@ startsWith
 "
 https
 "
-)
 )
 )
 ;
@@ -643,7 +639,6 @@ fxasignedin
 "
 +
 (
-(
 typeof
 userdata
 =
@@ -658,7 +653,6 @@ userdata
 =
 =
 null
-)
 ?
 "
 1
@@ -1007,7 +1001,6 @@ _panelId
 url
 +
 =
-(
 "
 &
 panelId
@@ -1015,7 +1008,6 @@ panelId
 "
 +
 _panelId
-)
 ;
 var
 iframe
@@ -1625,6 +1617,7 @@ isInOverflowMenu
 (
 )
 )
+{
 resizePanel
 (
 {
@@ -1639,6 +1632,7 @@ collapsed
 }
 )
 ;
+}
 }
 )
 ;
@@ -1663,6 +1657,7 @@ isInOverflowMenu
 (
 )
 )
+{
 resizePanel
 (
 {
@@ -1677,6 +1672,7 @@ expanded
 }
 )
 ;
+}
 }
 )
 ;
@@ -2427,8 +2423,8 @@ tryToSaveCurrentPage
 }
 ;
 }
-(
 )
+(
 )
 ;
 var
@@ -3008,7 +3004,7 @@ sendErrorResponseMessageToPanel
 }
 ;
 }
-(
 )
+(
 )
 ;

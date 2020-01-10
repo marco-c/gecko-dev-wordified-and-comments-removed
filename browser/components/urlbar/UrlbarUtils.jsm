@@ -338,6 +338,7 @@ test
 url
 )
 )
+{
 PlacesUIUtils
 .
 markPageAsTyped
@@ -345,6 +346,7 @@ markPageAsTyped
 url
 )
 ;
+}
 }
 async
 getShortcutOrURIAndPostData
@@ -861,7 +863,8 @@ j
 +
 len
 )
-;
+{
+}
 ranges
 .
 push

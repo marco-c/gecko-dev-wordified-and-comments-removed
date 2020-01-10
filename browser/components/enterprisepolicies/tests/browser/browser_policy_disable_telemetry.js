@@ -63,14 +63,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableTelemetry
-"
 :
 true
 }

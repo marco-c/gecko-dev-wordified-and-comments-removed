@@ -1052,6 +1052,7 @@ prefs
 showSearch
 &
 &
+(
 <
 div
 className
@@ -1097,6 +1098,7 @@ ErrorBoundary
 /
 div
 >
+)
 }
 <
 ASRouterUISurface
@@ -1133,7 +1135,6 @@ body
 -
 wrapper
 {
-(
 initialized
 ?
 "
@@ -1142,7 +1143,6 @@ on
 :
 "
 "
-)
 }
 }
 >
@@ -1170,10 +1170,12 @@ ErrorBoundary
 >
 )
 :
+(
 <
 Sections
 /
 >
+)
 }
 <
 PrefsButton

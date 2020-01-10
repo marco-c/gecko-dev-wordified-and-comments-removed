@@ -575,6 +575,7 @@ this
 _tabsToolbar
 ;
 return
+(
 this
 .
 _tabsToolbar
@@ -586,6 +587,7 @@ getElementById
 "
 TabsToolbar
 "
+)
 )
 ;
 }
@@ -600,6 +602,7 @@ this
 _navBar
 ;
 return
+(
 this
 .
 _navBar
@@ -613,6 +616,7 @@ nav
 -
 bar
 "
+)
 )
 ;
 }
@@ -1106,14 +1110,13 @@ width
 let
 translateX
 =
-(
 leftDiff
 +
+0
 .
 5
 *
 widthDiff
-)
 +
 "
 px
@@ -1122,14 +1125,13 @@ px
 let
 translateY
 =
-(
 topDiff
 +
+0
 .
 5
 *
 heightDiff
-)
 +
 "
 px
@@ -1457,12 +1459,10 @@ style
 .
 animationDelay
 =
-(
 -
 this
 .
 _percentComplete
-)
 +
 "
 s
@@ -1784,8 +1784,10 @@ file
 0
 )
 )
+{
 return
 ;
+}
 let
 links
 =
@@ -1803,8 +1805,10 @@ links
 .
 length
 )
+{
 return
 ;
+}
 let
 sourceDoc
 =
@@ -1847,8 +1851,10 @@ about
 "
 )
 )
+{
 continue
 ;
+}
 saveURL
 (
 link
@@ -1946,11 +1952,13 @@ null
 ;
 }
 return
+(
 this
 .
 _indicator
 =
 indicator
+)
 ;
 }
 get
@@ -2016,6 +2024,7 @@ _progressIcon
 )
 {
 return
+(
 this
 .
 __progressIcon
@@ -2041,6 +2050,7 @@ inner
 "
 )
 )
+)
 ;
 }
 get
@@ -2049,6 +2059,7 @@ notifier
 )
 {
 return
+(
 this
 .
 _notifier
@@ -2070,6 +2081,7 @@ notification
 -
 anchor
 "
+)
 )
 )
 ;

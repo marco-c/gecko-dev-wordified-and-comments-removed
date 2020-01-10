@@ -77,6 +77,7 @@ item
 .
 nextElementSibling
 )
+{
 os
 .
 push
@@ -84,6 +85,7 @@ push
 item
 )
 ;
+}
 return
 os
 ;
@@ -1242,6 +1244,7 @@ if
 (
 i
 )
+{
 EventUtils
 .
 synthesizeKey
@@ -1256,6 +1259,7 @@ true
 }
 )
 ;
+}
 }
 is
 (

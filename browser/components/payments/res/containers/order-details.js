@@ -97,6 +97,7 @@ template
 let
 contents
 =
+(
 this
 .
 _contents
@@ -109,6 +110,7 @@ template
 .
 content
 true
+)
 )
 ;
 this

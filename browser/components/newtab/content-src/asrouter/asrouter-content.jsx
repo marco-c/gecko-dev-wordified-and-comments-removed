@@ -2217,9 +2217,7 @@ bundles
 generateBundles
 (
 {
-"
 amo_html
-"
 :
 message
 .
@@ -2522,6 +2520,7 @@ template
 return
 shouldRenderBelowSearch
 ?
+(
 /
 /
 Render
@@ -2555,7 +2554,9 @@ renderSnippets
 /
 div
 >
+)
 :
+(
 /
 /
 For
@@ -2628,6 +2629,7 @@ headerPortal
 this
 .
 footerPortal
+)
 )
 ;
 }

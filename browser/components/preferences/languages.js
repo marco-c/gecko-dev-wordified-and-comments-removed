@@ -483,6 +483,7 @@ hasChildNodes
 (
 )
 )
+{
 availableLanguagesPopup
 .
 firstChild
@@ -491,6 +492,7 @@ remove
 (
 )
 ;
+}
 let
 frag
 =
@@ -756,6 +758,7 @@ hasChildNodes
 (
 )
 )
+{
 this
 .
 _activeLanguages
@@ -766,6 +769,7 @@ remove
 (
 )
 ;
+}
 var
 selectedIndex
 =
@@ -795,8 +799,10 @@ value
 "
 "
 )
+{
 return
 ;
+}
 var
 languages
 =
@@ -890,10 +896,12 @@ this
 .
 _selectedItemID
 )
+{
 selectedIndex
 =
 i
 ;
+}
 this
 .
 _activeLanguages
@@ -1138,8 +1146,10 @@ i
 =
 selectedID
 )
+{
 return
 ;
+}
 }
 this
 .
@@ -1269,6 +1279,7 @@ item
 .
 selected
 )
+{
 languagesArray
 .
 push
@@ -1278,7 +1289,9 @@ item
 id
 )
 ;
+}
 else
+{
 this
 .
 _acceptLanguages
@@ -1290,6 +1303,7 @@ id
 =
 false
 ;
+}
 }
 var
 string
@@ -1399,12 +1413,14 @@ _availableLanguagesList
 .
 length
 )
+{
 this
 .
 _loadAvailableLanguages
 (
 )
 ;
+}
 for
 (
 var
@@ -1439,6 +1455,7 @@ i
 .
 code
 )
+{
 return
 this
 .
@@ -1449,6 +1466,7 @@ i
 .
 name
 ;
+}
 }
 return
 "
@@ -1521,7 +1539,6 @@ i
 string
 +
 =
-(
 i
 =
 =
@@ -1532,7 +1549,6 @@ i
 :
 "
 "
-)
 ;
 if
 (
@@ -1545,6 +1561,7 @@ previousItem
 .
 id
 )
+{
 string
 +
 =
@@ -1552,6 +1569,7 @@ selectedItem
 .
 id
 ;
+}
 else
 if
 (
@@ -1564,6 +1582,7 @@ selectedItem
 .
 id
 )
+{
 string
 +
 =
@@ -1571,7 +1590,9 @@ previousItem
 .
 id
 ;
+}
 else
+{
 string
 +
 =
@@ -1579,6 +1600,7 @@ item
 .
 id
 ;
+}
 }
 this
 .
@@ -1675,7 +1697,6 @@ i
 string
 +
 =
-(
 i
 =
 =
@@ -1686,7 +1707,6 @@ i
 :
 "
 "
-)
 ;
 if
 (
@@ -1699,6 +1719,7 @@ nextItem
 .
 id
 )
+{
 string
 +
 =
@@ -1706,6 +1727,7 @@ selectedItem
 .
 id
 ;
+}
 else
 if
 (
@@ -1718,6 +1740,7 @@ selectedItem
 .
 id
 )
+{
 string
 +
 =
@@ -1725,7 +1748,9 @@ nextItem
 .
 id
 ;
+}
 else
+{
 string
 +
 =
@@ -1733,6 +1758,7 @@ item
 .
 id
 ;
+}
 }
 this
 .

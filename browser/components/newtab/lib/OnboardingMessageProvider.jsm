@@ -154,7 +154,6 @@ async
 )
 =
 >
-(
 [
 {
 id
@@ -2929,7 +2928,6 @@ firstRun
 }
 }
 ]
-)
 ;
 const
 OnboardingMessageProvider

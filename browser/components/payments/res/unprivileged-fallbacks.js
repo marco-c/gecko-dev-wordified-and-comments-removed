@@ -109,6 +109,7 @@ s
 )
 ;
 return
+(
 requestedFields
 .
 filter
@@ -148,6 +149,7 @@ address
 .
 guid
 }
+)
 )
 ;
 }

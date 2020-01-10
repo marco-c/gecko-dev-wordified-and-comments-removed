@@ -102,9 +102,7 @@ about
 logo
 "
 }
-(
 browser
-)
 =
 >
 {
@@ -232,6 +230,7 @@ exists
 (
 )
 )
+{
 wpFileBackup
 .
 remove
@@ -239,6 +238,7 @@ remove
 false
 )
 ;
+}
 if
 (
 wpFile
@@ -247,6 +247,7 @@ exists
 (
 )
 )
+{
 wpFile
 .
 copyTo
@@ -257,6 +258,7 @@ wpFileBackup
 leafName
 )
 ;
+}
 var
 shell
 =
@@ -594,6 +596,7 @@ exists
 (
 )
 )
+{
 wpFileBackup
 .
 moveTo
@@ -604,6 +607,7 @@ wpFile
 leafName
 )
 ;
+}
 }
 )
 ;

@@ -103,6 +103,7 @@ visits
 ]
 ;
 return
+(
 url
 =
 =
@@ -122,6 +123,7 @@ history
 TRANSITIONS
 .
 TYPED
+)
 ;
 }
 "

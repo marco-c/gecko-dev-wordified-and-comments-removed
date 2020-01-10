@@ -524,9 +524,7 @@ accountStatus
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -890,9 +888,7 @@ allowAdd
 true
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1044,9 +1040,7 @@ searchIcon
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1094,9 +1088,7 @@ searchPrefsLink
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1128,9 +1120,11 @@ state
 open
 "
 )
+{
 return
 null
 ;
+}
 element
 =
 aDocument
@@ -1180,9 +1174,7 @@ selectedTabIcon
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1236,9 +1228,7 @@ trackingProtection
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1339,9 +1329,7 @@ bookmark
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1412,9 +1400,7 @@ copyURL
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1429,6 +1415,7 @@ placeLazyActionsInPanel
 )
 ;
 return
+(
 aDocument
 .
 getElementById
@@ -1455,6 +1442,7 @@ panel
 copyURL
 "
 )
+)
 ;
 }
 }
@@ -1468,9 +1456,7 @@ emailLink
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1485,6 +1471,7 @@ placeLazyActionsInPanel
 )
 ;
 return
+(
 aDocument
 .
 getElementById
@@ -1511,6 +1498,7 @@ panel
 emailLink
 "
 )
+)
 ;
 }
 }
@@ -1524,9 +1512,7 @@ sendToDevice
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1541,6 +1527,7 @@ placeLazyActionsInPanel
 )
 ;
 return
+(
 aDocument
 .
 getElementById
@@ -1566,6 +1553,7 @@ panel
 -
 sendToDevice
 "
+)
 )
 ;
 }
@@ -1578,9 +1566,7 @@ screenshots
 {
 query
 :
-(
 aDocument
-)
 =
 >
 {
@@ -1595,6 +1581,7 @@ placeLazyActionsInPanel
 )
 ;
 return
+(
 aDocument
 .
 getElementById
@@ -1620,6 +1607,7 @@ panel
 -
 screenshots_mozilla_org
 "
+)
 )
 ;
 }
@@ -2179,6 +2167,7 @@ icon
 string
 "
 )
+{
 iconURL
 =
 this
@@ -2191,6 +2180,7 @@ data
 icon
 )
 ;
+}
 let
 buttons
 =
@@ -2306,6 +2296,7 @@ icon
 string
 "
 )
+{
 button
 .
 iconURL
@@ -2320,6 +2311,7 @@ buttonData
 icon
 )
 ;
+}
 if
 (
 typeof
@@ -2332,6 +2324,7 @@ style
 string
 "
 )
+{
 button
 .
 style
@@ -2340,6 +2333,7 @@ buttonData
 .
 style
 ;
+}
 buttons
 .
 push
@@ -2544,6 +2538,7 @@ showCallbackID
 string
 "
 )
+{
 this
 .
 sendPageCallback
@@ -2554,6 +2549,7 @@ data
 showCallbackID
 )
 ;
+}
 }
 )
 ;
@@ -3422,6 +3418,7 @@ callbackID
 string
 "
 )
+{
 this
 .
 sendPageCallback
@@ -3432,6 +3429,7 @@ data
 callbackID
 )
 ;
+}
 break
 ;
 }
@@ -3554,6 +3552,7 @@ action
 getConfiguration
 "
 )
+{
 this
 .
 initForBrowser
@@ -3562,6 +3561,7 @@ browser
 window
 )
 ;
+}
 return
 true
 ;
@@ -3860,8 +3860,10 @@ window
 .
 closed
 )
+{
 continue
 ;
+}
 let
 tourBrowsers
 =
@@ -3879,8 +3881,10 @@ if
 !
 tourBrowsers
 )
+{
 continue
 ;
+}
 for
 (
 let
@@ -4568,6 +4572,7 @@ requireSecure
 "
 )
 )
+{
 allowedSchemes
 .
 add
@@ -4577,6 +4582,7 @@ http
 "
 )
 ;
+}
 if
 (
 !
@@ -4646,9 +4652,11 @@ isSafeScheme
 uri
 )
 )
+{
 return
 null
 ;
+}
 return
 uri
 .
@@ -4728,6 +4736,7 @@ aElement
 )
 ;
 return
+(
 !
 aElement
 .
@@ -4754,6 +4763,7 @@ visibility
 "
 visible
 "
+)
 ;
 }
 getTarget
@@ -5602,6 +5612,7 @@ targetName
 let
 node
 =
+(
 aTarget
 .
 node
@@ -5609,6 +5620,7 @@ node
 refreshedTarget
 .
 node
+)
 ;
 if
 (
@@ -5664,9 +5676,7 @@ none
 let
 showHighlightElement
 =
-(
 aAnchorEl
-)
 =
 >
 {
@@ -5736,10 +5746,12 @@ highlightEffects
 .
 length
 )
+{
 randomEffect
 -
 -
 ;
+}
 effect
 =
 this
@@ -6259,9 +6271,7 @@ aOptions
 let
 showInfoElement
 =
-(
 aAnchorEl
-)
 =
 >
 {
@@ -6410,6 +6420,7 @@ tooltipButtons
 .
 firstChild
 )
+{
 tooltipButtons
 .
 firstChild
@@ -6418,6 +6429,7 @@ remove
 (
 )
 ;
+}
 for
 (
 let
@@ -6485,6 +6497,7 @@ button
 .
 iconURL
 )
+{
 el
 .
 setAttribute
@@ -6497,6 +6510,7 @@ button
 iconURL
 )
 ;
+}
 if
 (
 button
@@ -6508,6 +6522,7 @@ style
 link
 "
 )
+{
 el
 .
 setAttribute
@@ -6522,6 +6537,7 @@ link
 "
 )
 ;
+}
 if
 (
 button
@@ -6533,6 +6549,7 @@ style
 primary
 "
 )
+{
 el
 .
 setAttribute
@@ -6547,6 +6564,7 @@ primary
 "
 )
 ;
+}
 let
 callback
 =
@@ -6612,9 +6630,7 @@ UITourTooltipClose
 let
 closeButtonCallback
 =
-(
 event
-)
 =
 >
 {
@@ -6659,9 +6675,7 @@ closeButtonCallback
 let
 targetCallback
 =
-(
 event
-)
 =
 >
 {
@@ -6950,6 +6964,7 @@ UITourTooltip
 )
 ;
 return
+(
 tooltip
 .
 getAttribute
@@ -6971,6 +6986,7 @@ state
 "
 closed
 "
+)
 ;
 }
 _hideInfoElement
@@ -7028,6 +7044,7 @@ tooltipButtons
 .
 firstChild
 )
+{
 tooltipButtons
 .
 firstChild
@@ -7036,6 +7053,7 @@ remove
 (
 )
 ;
+}
 }
 hideInfo
 (
@@ -7121,10 +7139,12 @@ if
 (
 aOpenCallback
 )
+{
 aOpenCallback
 (
 )
 ;
+}
 return
 ;
 }
@@ -7132,6 +7152,7 @@ if
 (
 aOpenCallback
 )
+{
 aMenuBtn
 .
 addEventListener
@@ -7147,6 +7168,7 @@ true
 }
 )
 ;
+}
 aMenuBtn
 .
 openMenu
@@ -8147,9 +8169,7 @@ targetName
 .
 then
 (
-(
 aTarget
-)
 =
 >
 {
@@ -8289,9 +8309,7 @@ _hideAnnotationsForPanel
 (
 aEvent
 true
-(
 aTarget
-)
 =
 >
 {
@@ -9203,6 +9221,7 @@ targetObject
 .
 node
 )
+{
 targetNames
 .
 push
@@ -9212,6 +9231,7 @@ targetObject
 targetName
 )
 ;
+}
 }
 data
 =
@@ -9700,8 +9720,10 @@ window
 .
 closed
 )
+{
 continue
 ;
+}
 let
 openTourBrowsers
 =
@@ -9719,8 +9741,10 @@ if
 !
 openTourBrowsers
 )
+{
 continue
 ;
+}
 for
 (
 let

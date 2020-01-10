@@ -654,7 +654,6 @@ instead
 .
 img
 =
-(
 <
 div
 className
@@ -666,12 +665,10 @@ image
 "
 /
 >
-)
 ;
 }
 }
 return
-(
 <
 picture
 className
@@ -687,7 +684,6 @@ img
 /
 picture
 >
-)
 ;
 }
 onOptimizedImageError

@@ -21,9 +21,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -74,9 +72,7 @@ url
 :
 tabsCreateURL
 }
-(
 tab
-)
 =
 >
 {

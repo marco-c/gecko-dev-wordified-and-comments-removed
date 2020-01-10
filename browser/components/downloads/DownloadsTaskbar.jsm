@@ -188,7 +188,6 @@ macdocksupport
 "
 in
 Cc
-)
 &
 &
 Cc
@@ -211,6 +210,7 @@ getService
 Ci
 .
 nsITaskbarProgress
+)
 )
 ;
 }
@@ -245,7 +245,6 @@ gtk
 "
 in
 Cc
-)
 &
 &
 Cc
@@ -270,6 +269,7 @@ getService
 Ci
 .
 nsIGtkTaskbarProgress
+)
 )
 ;
 }

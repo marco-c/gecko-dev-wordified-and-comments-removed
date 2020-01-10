@@ -697,7 +697,6 @@ MAX_RESULTS
 1
 -
 (
-(
 i
 +
 1
@@ -706,7 +705,6 @@ i
 UrlbarUtils
 .
 PAGE_UP_DOWN_DELTA
-)
 0
 )
 )

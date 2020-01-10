@@ -129,9 +129,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -279,15 +277,11 @@ browsingData
 tabs
 "
 ]
-"
 content_scripts
-"
 :
 [
 {
-"
 matches
-"
 :
 [
 "
@@ -321,9 +315,7 @@ file_serviceWorker
 html
 "
 ]
-"
 js
-"
 :
 [
 "
@@ -332,9 +324,7 @@ script
 js
 "
 ]
-"
 run_at
-"
 :
 "
 document_start

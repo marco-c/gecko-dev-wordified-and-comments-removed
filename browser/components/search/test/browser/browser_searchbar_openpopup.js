@@ -681,6 +681,7 @@ mouseup
 "
 ]
 )
+{
 EventUtils
 .
 synthesizeMouseAtCenter
@@ -696,6 +697,7 @@ button
 }
 )
 ;
+}
 }
 add_no_popup_task
 (

@@ -33,9 +33,7 @@ handlerCalledCount
 let
 handler
 =
-(
 ev
-)
 =
 >
 {

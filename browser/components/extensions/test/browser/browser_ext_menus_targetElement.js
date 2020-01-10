@@ -267,9 +267,7 @@ extension
 openAndCloseMenu
 =
 async
-(
 selector
-)
 =
 >
 {
@@ -442,9 +440,7 @@ onClicked
 addListener
 (
 async
-(
 info
-)
 =
 >
 {

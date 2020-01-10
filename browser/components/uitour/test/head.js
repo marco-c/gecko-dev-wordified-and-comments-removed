@@ -156,9 +156,7 @@ errorMsg
 then
 (
 nextTestFn
-(
 reason
-)
 =
 >
 {
@@ -197,9 +195,7 @@ fun
 )
 {
 return
-(
 doneFn
-)
 =
 >
 {
@@ -223,9 +219,7 @@ fun
 then
 (
 doneFn
-(
 reason
-)
 =
 >
 {
@@ -274,9 +268,11 @@ display
 none
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -288,9 +284,11 @@ visibility
 visible
 "
 )
+{
 return
 true
 ;
+}
 if
 (
 style
@@ -305,6 +303,7 @@ moz
 popup
 "
 )
+{
 return
 [
 "
@@ -322,6 +321,7 @@ element
 state
 )
 ;
+}
 if
 (
 element
@@ -333,6 +333,7 @@ element
 .
 ownerDocument
 )
+{
 return
 is_hidden
 (
@@ -341,6 +342,7 @@ element
 parentNode
 )
 ;
+}
 return
 false
 ;
@@ -374,9 +376,11 @@ display
 none
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 style
@@ -388,9 +392,11 @@ visibility
 visible
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 style
@@ -415,9 +421,11 @@ state
 open
 "
 )
+{
 return
 false
 ;
+}
 if
 (
 element
@@ -429,6 +437,7 @@ element
 .
 ownerDocument
 )
+{
 return
 is_visible
 (
@@ -437,6 +446,7 @@ element
 parentNode
 )
 ;
+}
 return
 true
 ;
@@ -717,9 +727,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1040,9 +1048,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1350,6 +1356,7 @@ aBrowser
 ownerGlobal
 ;
 return
+(
 UITour
 .
 tourBrowsersByWindow
@@ -1373,6 +1380,7 @@ has
 (
 aBrowser
 )
+)
 ;
 }
 function
@@ -1384,9 +1392,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -1457,6 +1463,7 @@ if
 (
 gTestTab
 )
+{
 gBrowser
 .
 removeTab
@@ -1464,6 +1471,7 @@ removeTab
 gTestTab
 )
 ;
+}
 let
 url
 =
@@ -1824,9 +1832,11 @@ Promise
 resolve
 =
 >
+(
 resolveCallbackPromise
 =
 resolve
+)
 )
 ;
 let
@@ -2167,6 +2177,7 @@ if
 (
 gTestTab
 )
+{
 gBrowser
 .
 removeTab
@@ -2174,6 +2185,7 @@ removeTab
 gTestTab
 )
 ;
+}
 delete
 window
 .
@@ -2262,9 +2274,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2279,6 +2289,7 @@ if
 (
 gTestTab
 )
+{
 gBrowser
 .
 removeTab
@@ -2286,6 +2297,7 @@ removeTab
 gTestTab
 )
 ;
+}
 gTestTab
 =
 null
@@ -2587,9 +2599,7 @@ await
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {
@@ -2631,9 +2641,7 @@ done
 (
 true
 )
-(
 reason
-)
 =
 >
 {

@@ -61,9 +61,7 @@ SpecialPowers
 pushPrefEnv
 (
 {
-"
 set
-"
 :
 [
 [
@@ -296,7 +294,6 @@ opts
 )
 {
 await
-(
 new
 content
 .
@@ -346,7 +343,6 @@ resolve
 }
 ;
 }
-)
 )
 ;
 }

@@ -844,8 +844,6 @@ ratio
 )
 =
 >
-(
-(
 typeof
 ratio
 !
@@ -854,12 +852,10 @@ ratio
 "
 undefined
 "
-)
 ?
 ratio
 :
 1
-)
 )
 ;
 return
@@ -985,6 +981,7 @@ try
 {
 allCached
 =
+(
 await
 storage
 .
@@ -993,6 +990,7 @@ get
 MessageLoaderUtils
 .
 REMOTE_LOADER_CACHE_KEY
+)
 )
 |
 |
@@ -2499,7 +2497,6 @@ filter
 p
 =
 >
-(
 p
 .
 enabled
@@ -2546,7 +2543,6 @@ c
 =
 =
 false
-)
 )
 )
 )
@@ -3339,6 +3335,7 @@ setupTrailhead
 const
 messageBlockList
 =
+(
 await
 this
 .
@@ -3350,6 +3347,7 @@ get
 messageBlockList
 "
 )
+)
 |
 |
 [
@@ -3358,6 +3356,7 @@ messageBlockList
 const
 providerBlockList
 =
+(
 await
 this
 .
@@ -3368,6 +3367,7 @@ get
 "
 providerBlockList
 "
+)
 )
 |
 |
@@ -3377,6 +3377,7 @@ providerBlockList
 const
 messageImpressions
 =
+(
 await
 this
 .
@@ -3388,6 +3389,7 @@ get
 messageImpressions
 "
 )
+)
 |
 |
 {
@@ -3396,6 +3398,7 @@ messageImpressions
 const
 providerImpressions
 =
+(
 await
 this
 .
@@ -3407,6 +3410,7 @@ get
 providerImpressions
 "
 )
+)
 |
 |
 {
@@ -3415,6 +3419,7 @@ providerImpressions
 const
 previousSessionEnd
 =
+(
 await
 this
 .
@@ -3425,6 +3430,7 @@ get
 "
 previousSessionEnd
 "
+)
 )
 |
 |
@@ -3621,7 +3627,6 @@ callbackOrObj
 const
 newState
 =
-(
 typeof
 callbackOrObj
 =
@@ -3630,7 +3635,6 @@ callbackOrObj
 "
 function
 "
-)
 ?
 callbackOrObj
 (
@@ -3963,11 +3967,13 @@ try
 const
 data
 =
+(
 await
 AttributionCode
 .
 getAttrDataAsync
 (
+)
 )
 |
 |
@@ -4886,11 +4892,9 @@ filter
 t
 =
 >
-(
 now
 -
 t
-)
 <
 period
 )
@@ -6152,11 +6156,9 @@ filter
 t
 =
 >
-(
 now
 -
 t
-)
 <
 this
 .
@@ -6532,14 +6534,12 @@ id
 const
 idToBlock
 =
-(
 message
 &
 &
 message
 .
 campaign
-)
 ?
 message
 .
@@ -8299,14 +8299,12 @@ id
 const
 idToUnblock
 =
-(
 message
 &
 &
 message
 .
 campaign
-)
 ?
 message
 .

@@ -687,7 +687,6 @@ createData
 let
 needResize
 =
-(
 createData
 .
 left
@@ -722,7 +721,6 @@ height
 =
 =
 null
-)
 ;
 if
 (

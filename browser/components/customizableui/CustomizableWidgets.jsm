@@ -404,6 +404,7 @@ hasAttribute
 name
 )
 )
+{
 aNode
 .
 removeAttribute
@@ -411,6 +412,7 @@ removeAttribute
 name
 )
 ;
+}
 }
 else
 {
@@ -448,7 +450,6 @@ tooltiptext
 let
 stringId
 =
-(
 typeof
 value
 =
@@ -456,7 +457,6 @@ value
 "
 string
 "
-)
 ?
 value
 :
@@ -662,8 +662,10 @@ this
 .
 _panelMenuView
 )
+{
 return
 ;
+}
 let
 panelview
 =
@@ -1006,8 +1008,10 @@ if
 !
 elementCount
 )
+{
 return
 ;
+}
 let
 body
 =
@@ -1564,9 +1568,7 @@ shortcutId
 "
 key_fullZoomReduce
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -1607,9 +1609,7 @@ shortcutId
 "
 key_fullZoomReset
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -1653,9 +1653,7 @@ shortcutId
 "
 key_fullZoomEnlarge
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -1789,6 +1787,7 @@ aIndex
 =
 0
 )
+{
 node
 .
 appendChild
@@ -1803,6 +1802,7 @@ separator
 )
 )
 ;
+}
 let
 btnNode
 =
@@ -1893,9 +1893,7 @@ shortcutId
 "
 key_cut
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -1932,9 +1930,7 @@ shortcutId
 "
 key_copy
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -1971,9 +1967,7 @@ shortcutId
 "
 key_paste
 "
-"
 class
-"
 :
 "
 toolbarbutton
@@ -2107,6 +2101,7 @@ aIndex
 =
 0
 )
+{
 node
 .
 appendChild
@@ -2121,6 +2116,7 @@ separator
 )
 )
 ;
+}
 let
 btnNode
 =
@@ -2177,8 +2173,10 @@ aDoc
 =
 aDocument
 )
+{
 return
 ;
+}
 CustomizableUI
 .
 removeListener
@@ -2513,19 +2511,15 @@ elements
 .
 .
 .
-(
 pinnedContainer
 .
 children
-)
 .
 .
 .
-(
 charsetContainer
 .
 children
-)
 ]
 ;
 this
@@ -3023,6 +3017,7 @@ maybeDisableMenu
 document
 )
 )
+{
 aNode
 .
 setAttribute
@@ -3035,7 +3030,9 @@ true
 "
 )
 ;
+}
 else
+{
 aNode
 .
 removeAttribute
@@ -3045,6 +3042,7 @@ disabled
 "
 )
 ;
+}
 }
 ;
 let
@@ -3123,8 +3121,10 @@ this
 .
 id
 )
+{
 return
 ;
+}
 if
 (
 CustomizableUI
@@ -3172,8 +3172,10 @@ this
 .
 id
 )
+{
 return
 ;
+}
 aNode
 .
 removeAttribute
@@ -3236,8 +3238,10 @@ aDoc
 =
 document
 )
+{
 return
 ;
+}
 CustomizableUI
 .
 removeListener

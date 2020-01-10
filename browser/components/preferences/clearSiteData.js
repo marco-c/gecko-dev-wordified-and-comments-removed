@@ -368,12 +368,14 @@ KeyEvent
 .
 DOM_VK_ESCAPE
 )
+{
 window
 .
 close
 (
 )
 ;
+}
 }
 onCheckboxCommand
 (

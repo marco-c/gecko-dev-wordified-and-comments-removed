@@ -33,14 +33,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableFirefoxAccounts
-"
 :
 true
 }

@@ -649,7 +649,6 @@ button
 let
 buttonFlags
 =
-(
 Ci
 .
 nsIPrompt
@@ -661,9 +660,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_0
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -675,7 +672,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_1
-)
 ;
 let
 rv

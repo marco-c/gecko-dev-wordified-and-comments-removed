@@ -660,9 +660,7 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
@@ -1607,11 +1605,13 @@ forEach
 opt
 =
 >
+(
 opt
 .
 selected
 =
 true
+)
 )
 ;
 let

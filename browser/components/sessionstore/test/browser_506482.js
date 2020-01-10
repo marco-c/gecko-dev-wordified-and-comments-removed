@@ -100,6 +100,7 @@ exists
 (
 )
 )
+{
 sessionStoreJS
 .
 remove
@@ -107,6 +108,7 @@ remove
 false
 )
 ;
+}
 const
 TEST_URL
 =
@@ -295,6 +297,7 @@ prefHasUserValue
 PREF_INTERVAL
 )
 )
+{
 Services
 .
 prefs
@@ -304,6 +307,7 @@ clearUserPref
 PREF_INTERVAL
 )
 ;
+}
 gBrowser
 .
 removeTab

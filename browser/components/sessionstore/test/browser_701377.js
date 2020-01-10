@@ -116,9 +116,11 @@ tabShowCallback
 )
 =
 >
+(
 tabShown
 =
 true
+)
 ;
 tab
 .

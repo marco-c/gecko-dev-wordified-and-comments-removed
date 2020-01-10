@@ -521,9 +521,7 @@ SectionsManager
 CONTEXT_MENU_PREFS
 =
 {
-"
 MENU_ITEM
-"
 :
 "
 MENU_ITEM_PREF
@@ -645,9 +643,7 @@ SectionsManager
 CONTEXT_MENU_PREFS
 =
 {
-"
 MENU_ITEM
-"
 :
 "
 MENU_ITEM_PREF
@@ -2084,9 +2080,7 @@ SectionsManager
 CONTEXT_MENU_PREFS
 =
 {
-"
 MENU_ITEM
-"
 :
 "
 MENU_ITEM_PREF
@@ -2622,9 +2616,7 @@ SectionsManager
 CONTEXT_MENU_PREFS
 =
 {
-"
 RemoveMe
-"
 :
 "
 RemoveMe
@@ -2636,9 +2628,7 @@ SectionsManager
 CONTEXT_MENU_OPTIONS_FOR_HIGHLIGHT_TYPES
 =
 {
-"
 bookmark
-"
 :
 [
 "
@@ -2648,9 +2638,7 @@ KeepMe
 RemoveMe
 "
 ]
-"
 pocket
-"
 :
 [
 "
@@ -2660,9 +2648,7 @@ KeepMe
 RemoveMe
 "
 ]
-"
 history
-"
 :
 [
 "
@@ -3757,9 +3743,7 @@ Prefs
 values
 :
 {
-"
 sectionOrder
-"
 :
 "
 topsites

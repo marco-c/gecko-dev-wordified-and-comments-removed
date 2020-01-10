@@ -295,9 +295,7 @@ addEventListener
 "
 load
 "
-(
 event
-)
 =
 >
 {

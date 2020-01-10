@@ -6056,9 +6056,7 @@ pinned
 =
 [
 {
-"
 url
-"
 :
 "
 http
@@ -6075,9 +6073,7 @@ activity
 -
 stream
 "
-"
 title
-"
 :
 "
 moz
@@ -6088,9 +6084,7 @@ s
 "
 }
 {
-"
 url
-"
 :
 "
 http
@@ -6101,9 +6095,7 @@ example
 .
 com
 "
-"
 title
-"
 :
 "
 example
@@ -6214,9 +6206,7 @@ pinned
 [
 null
 {
-"
 url
-"
 :
 "
 http
@@ -6233,9 +6223,7 @@ activity
 -
 stream
 "
-"
 title
-"
 :
 "
 moz
@@ -6248,9 +6236,7 @@ s
 null
 null
 {
-"
 url
-"
 :
 "
 http
@@ -6261,9 +6247,7 @@ example
 .
 com
 "
-"
 title
-"
 :
 "
 example
@@ -6396,9 +6380,7 @@ pinned
 ]
 =
 {
-"
 url
-"
 :
 "
 http
@@ -6415,9 +6397,7 @@ activity
 -
 stream
 "
-"
 title
-"
 :
 "
 moz

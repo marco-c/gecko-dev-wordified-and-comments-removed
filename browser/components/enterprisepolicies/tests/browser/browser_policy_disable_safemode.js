@@ -15,14 +15,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableSafeMode
-"
 :
 true
 }

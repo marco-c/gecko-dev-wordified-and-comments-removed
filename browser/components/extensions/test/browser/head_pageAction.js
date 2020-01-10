@@ -375,9 +375,7 @@ onMessage
 .
 addListener
 (
-(
 msg
-)
 =
 >
 {

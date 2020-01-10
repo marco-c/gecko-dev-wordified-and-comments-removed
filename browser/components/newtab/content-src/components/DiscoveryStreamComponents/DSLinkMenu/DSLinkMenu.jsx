@@ -469,6 +469,7 @@ onMenuButtonClick
 isContextMenuOpen
 &
 &
+(
 <
 LinkMenu
 dispatch
@@ -584,6 +585,7 @@ bookmarkGuid
 }
 /
 >
+)
 }
 <
 /

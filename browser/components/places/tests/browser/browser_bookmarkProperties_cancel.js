@@ -180,9 +180,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {
@@ -400,9 +398,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {

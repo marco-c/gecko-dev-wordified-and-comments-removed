@@ -193,6 +193,7 @@ if
 (
 url
 )
+{
 BrowserTestUtils
 .
 loadURI
@@ -203,6 +204,7 @@ linkedBrowser
 url
 )
 ;
+}
 return
 loaded
 ;

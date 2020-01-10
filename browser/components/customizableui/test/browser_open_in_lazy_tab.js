@@ -59,9 +59,7 @@ tabLoaded
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

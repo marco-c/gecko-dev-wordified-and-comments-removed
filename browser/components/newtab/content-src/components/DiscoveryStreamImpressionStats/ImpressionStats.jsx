@@ -255,7 +255,6 @@ this
 impressionCardGuids
 |
 |
-(
 this
 .
 impressionCardGuids
@@ -267,7 +266,6 @@ length
 cards
 .
 length
-)
 )
 {
 return
@@ -520,7 +518,6 @@ this
 loadedContentGuids
 |
 |
-(
 this
 .
 loadedContentGuids
@@ -532,7 +529,6 @@ length
 cards
 .
 length
-)
 )
 {
 return

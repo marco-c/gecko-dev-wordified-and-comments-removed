@@ -32,6 +32,7 @@ waitForCondition
 >
 {
 return
+(
 !
 !
 PageActions
@@ -45,6 +46,7 @@ screenshots_mozilla_org
 =
 =
 shouldBeEnabled
+)
 ;
 }
 "

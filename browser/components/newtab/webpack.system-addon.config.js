@@ -305,9 +305,7 @@ types
 "
 PropTypes
 "
-"
 react
-"
 :
 "
 React
@@ -321,9 +319,7 @@ dom
 "
 ReactDOM
 "
-"
 redux
-"
 :
 "
 Redux

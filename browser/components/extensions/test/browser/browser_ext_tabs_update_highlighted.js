@@ -45,9 +45,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -91,9 +89,7 @@ promise
 new
 Promise
 (
-(
 r
-)
 =
 >
 {
@@ -132,9 +128,7 @@ listeners
 trackedEvent
 ]
 =
-(
 data
-)
 =
 >
 {

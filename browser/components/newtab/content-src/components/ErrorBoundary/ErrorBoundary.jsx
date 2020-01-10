@@ -339,13 +339,11 @@ hasError
 )
 {
 return
-(
 this
 .
 props
 .
 children
-)
 ;
 }
 return

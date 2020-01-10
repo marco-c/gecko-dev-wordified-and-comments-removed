@@ -200,6 +200,7 @@ oldState_wins
 =
 1
 )
+{
 ok
 (
 false
@@ -220,6 +221,7 @@ of
 "
 )
 ;
+}
 const
 REMEMBER
 =

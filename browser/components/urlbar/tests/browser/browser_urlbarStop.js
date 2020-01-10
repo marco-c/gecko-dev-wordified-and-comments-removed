@@ -272,7 +272,6 @@ webProgress
 isTopLevel
 &
 &
-(
 stateFlags
 &
 Ci
@@ -280,7 +279,6 @@ Ci
 nsIWebProgressListener
 .
 STATE_STOP
-)
 )
 {
 gBrowser

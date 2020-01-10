@@ -949,9 +949,7 @@ checkDirectoryContains
 (
 targetDir
 {
-"
 datareporting
-"
 :
 {
 "
@@ -1110,9 +1108,7 @@ checkDirectoryContains
 (
 targetDir
 {
-"
 datareporting
-"
 :
 {
 }
@@ -1294,9 +1290,7 @@ checkDirectoryContains
 (
 targetDir
 {
-"
 datareporting
-"
 :
 {
 "
@@ -1397,9 +1391,7 @@ checkDirectoryContains
 (
 targetDir
 {
-"
 datareporting
-"
 :
 {
 "
@@ -1493,9 +1485,7 @@ checkDirectoryContains
 (
 targetDir
 {
-"
 datareporting
-"
 :
 {
 "

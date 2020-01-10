@@ -335,14 +335,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableMasterPasswordCreation
-"
 :
 true
 }

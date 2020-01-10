@@ -107,9 +107,7 @@ com
 hidden_inputs
 :
 {
-"
 foo
-"
 :
 "
 foo

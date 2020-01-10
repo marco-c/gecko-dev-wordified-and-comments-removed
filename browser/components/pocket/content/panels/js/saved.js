@@ -1043,13 +1043,11 @@ outerWidth
 ;
 if
 (
-(
 inputleft
 +
 listleft
 +
 20
-)
 >
 leftwidth
 )
@@ -1075,7 +1073,6 @@ Math
 min
 (
 (
-(
 inputleft
 +
 listleftnatural
@@ -1087,7 +1084,6 @@ leftwidth
 *
 -
 1
-)
 0
 )
 +
@@ -1908,7 +1904,6 @@ undefined
 "
 |
 |
-(
 Date
 .
 now
@@ -1920,7 +1915,6 @@ this
 changestamp
 >
 250
-)
 )
 {
 e
@@ -2064,6 +2058,7 @@ ho2
 show_prompt_preview
 "
 )
+{
 thePKT_SAVED
 .
 sendMessage
@@ -2073,6 +2068,7 @@ expandSavePanel
 "
 )
 ;
+}
 }
 onHideDropdown
 (
@@ -4267,7 +4263,6 @@ overlay
 .
 premiumStatus
 =
-(
 url
 [
 1
@@ -4277,7 +4272,6 @@ url
 "
 1
 "
-)
 ;
 }
 var
@@ -4330,7 +4324,6 @@ overlay
 .
 fxasignedin
 =
-(
 fxasignedin
 [
 1
@@ -4340,7 +4333,6 @@ fxasignedin
 "
 1
 "
-)
 ;
 }
 var
@@ -4443,7 +4435,6 @@ overlay
 .
 inoverflowmenu
 =
-(
 inoverflowmenu
 [
 1
@@ -4453,7 +4444,6 @@ inoverflowmenu
 "
 true
 "
-)
 ;
 }
 var

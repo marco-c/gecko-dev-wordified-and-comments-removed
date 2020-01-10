@@ -499,23 +499,17 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
 tabs
 "
 ]
-"
 browser_action
-"
 :
 {
-"
 default_popup
-"
 :
 "
 popup
@@ -728,7 +722,6 @@ current1
 ;
 is
 (
-(
 await
 extension
 .
@@ -737,7 +730,6 @@ awaitMessage
 "
 result
 "
-)
 )
 winId
 {
@@ -773,7 +765,6 @@ current2
 ;
 is
 (
-(
 await
 extension
 .
@@ -782,7 +773,6 @@ awaitMessage
 "
 result
 "
-)
 )
 winId
 {
@@ -818,7 +808,6 @@ current3
 ;
 is
 (
-(
 await
 extension
 .
@@ -827,7 +816,6 @@ awaitMessage
 "
 result
 "
-)
 )
 winId
 {

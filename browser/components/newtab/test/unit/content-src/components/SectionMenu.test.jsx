@@ -934,7 +934,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -957,7 +956,6 @@ collapse
 -
 section
 "
-)
 )
 )
 ;
@@ -1034,7 +1032,6 @@ find
 o
 =
 >
-(
 o
 .
 id
@@ -1057,7 +1054,6 @@ expand
 -
 section
 "
-)
 )
 )
 ;

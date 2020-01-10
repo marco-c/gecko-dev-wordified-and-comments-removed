@@ -1308,6 +1308,7 @@ this
 _brandShortName
 ;
 return
+(
 this
 .
 _brandShortName
@@ -1327,6 +1328,7 @@ getString
 brandShortName
 "
 )
+)
 ;
 }
 get
@@ -1340,6 +1342,7 @@ this
 _prefsBundle
 ;
 return
+(
 this
 .
 _prefsBundle
@@ -1352,6 +1355,7 @@ getElementById
 bundlePreferences
 "
 )
+)
 ;
 }
 get
@@ -1365,6 +1369,7 @@ this
 _list
 ;
 return
+(
 this
 .
 _list
@@ -1377,6 +1382,7 @@ getElementById
 handlersView
 "
 )
+)
 ;
 }
 get
@@ -1390,6 +1396,7 @@ this
 _filter
 ;
 return
+(
 this
 .
 _filter
@@ -1401,6 +1408,7 @@ getElementById
 "
 filter
 "
+)
 )
 ;
 }
@@ -1952,6 +1960,7 @@ warnOnClose
 "
 )
 )
+{
 document
 .
 getElementById
@@ -1965,6 +1974,7 @@ hidden
 =
 true
 ;
+}
 if
 (
 !
@@ -1981,6 +1991,7 @@ warnOnOpen
 "
 )
 )
+{
 document
 .
 getElementById
@@ -1994,6 +2005,7 @@ hidden
 =
 true
 ;
+}
 setEventListener
 (
 "
@@ -3758,9 +3770,7 @@ CONTAINERS_KEY
 .
 then
 (
-(
 isControlled
-)
 =
 >
 {
@@ -4632,9 +4642,7 @@ l10n
 map
 (
 async
-(
 bundle
-)
 =
 >
 bundle
@@ -4674,9 +4682,7 @@ l10n
 map
 (
 async
-(
 bundle
-)
 =
 >
 bundle
@@ -5588,12 +5594,14 @@ alwaysCheck
 disabled
 |
 |
+(
 isDefault
 &
 &
 alwaysCheck
 .
 checked
+)
 ;
 }
 }
@@ -5648,8 +5656,10 @@ if
 !
 shellSvc
 )
+{
 return
 ;
+}
 try
 {
 shellSvc
@@ -6344,7 +6354,6 @@ button
 let
 buttonFlags
 =
-(
 Ci
 .
 nsIPrompt
@@ -6356,9 +6365,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_0
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -6370,7 +6377,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_1
-)
 ;
 let
 rv
@@ -6963,8 +6969,10 @@ i
 .
 element
 )
+{
 continue
 ;
+}
 var
 element
 =
@@ -7006,6 +7014,7 @@ i
 .
 fonttype
 )
+{
 await
 FontBuilder
 .
@@ -7021,6 +7030,7 @@ fonttype
 element
 )
 ;
+}
 preference
 .
 setElementValue
@@ -7073,14 +7083,12 @@ pref
 value
 ;
 return
-(
 pref
 .
 value
 !
 =
 0
-)
 ;
 }
 writeCheckSpelling
@@ -7652,7 +7660,6 @@ updateRadioGroup
 let
 updateAutoValue
 =
-(
 radiogroup
 .
 value
@@ -7661,7 +7668,6 @@ value
 "
 true
 "
-)
 ;
 radiogroup
 .
@@ -7797,7 +7803,6 @@ path
 let
 buttonFlags
 =
-(
 Services
 .
 prompt
@@ -7809,7 +7814,6 @@ Services
 prompt
 .
 BUTTON_TITLE_OK
-)
 ;
 Services
 .
@@ -7951,7 +7955,6 @@ button
 let
 buttonFlags
 =
-(
 Ci
 .
 nsIPrompt
@@ -7963,9 +7966,7 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_0
-)
 +
-(
 Ci
 .
 nsIPrompt
@@ -7977,7 +7978,6 @@ Ci
 nsIPrompt
 .
 BUTTON_POS_1
-)
 +
 Ci
 .
@@ -8790,8 +8790,10 @@ handlerInfo
 .
 primaryExtension
 )
+{
 continue
 ;
+}
 if
 (
 handlerInfo
@@ -8802,8 +8804,10 @@ handledOnlyByPlugin
 !
 showPlugins
 )
+{
 continue
 ;
+}
 this
 .
 _visibleTypes
@@ -8915,6 +8919,7 @@ _filter
 .
 value
 )
+{
 visibleTypes
 =
 visibleTypes
@@ -8927,6 +8932,7 @@ _matchesFilter
 this
 )
 ;
+}
 let
 items
 =
@@ -9049,6 +9055,7 @@ toLowerCase
 )
 ;
 return
+(
 aType
 .
 typeDescription
@@ -9075,6 +9082,7 @@ includes
 (
 filterValue
 )
+)
 ;
 }
 isValidHandlerApp
@@ -9087,9 +9095,11 @@ if
 !
 aHandlerApp
 )
+{
 return
 false
 ;
+}
 if
 (
 aHandlerApp
@@ -9098,6 +9108,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 return
 this
 .
@@ -9108,6 +9119,7 @@ aHandlerApp
 executable
 )
 ;
+}
 if
 (
 aHandlerApp
@@ -9116,11 +9128,13 @@ Ci
 .
 nsIWebHandlerApp
 )
+{
 return
 aHandlerApp
 .
 uriTemplate
 ;
+}
 if
 (
 aHandlerApp
@@ -9129,11 +9143,13 @@ Ci
 .
 nsIGIOMimeApp
 )
+{
 return
 aHandlerApp
 .
 command
 ;
+}
 return
 false
 ;
@@ -9203,6 +9219,7 @@ bin
 ;
 }
 return
+(
 aExecutable
 &
 &
@@ -9226,6 +9243,7 @@ leafName
 !
 =
 leafName
+)
 ;
 }
 rebuildActionsMenu
@@ -9278,6 +9296,7 @@ hasChildNodes
 (
 )
 )
+{
 menuPopup
 .
 removeChild
@@ -9287,6 +9306,7 @@ menuPopup
 lastChild
 )
 ;
+}
 let
 internalMenuItem
 ;
@@ -9460,7 +9480,6 @@ askMenuItem
 }
 if
 (
-(
 handlerInfo
 .
 wrappedHandlerInfo
@@ -9468,7 +9487,6 @@ instanceof
 Ci
 .
 nsIMIMEInfo
-)
 )
 {
 var
@@ -9699,8 +9717,10 @@ isValidHandlerApp
 possibleApp
 )
 )
+{
 continue
 ;
+}
 let
 menuItem
 =
@@ -9738,6 +9758,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 label
 =
 getFileDisplayName
@@ -9747,13 +9768,16 @@ possibleApp
 executable
 )
 ;
+}
 else
+{
 label
 =
 possibleApp
 .
 name
 ;
+}
 label
 =
 gMainPane
@@ -10427,13 +10451,16 @@ handlerInfo
 .
 alwaysAskBeforeHandling
 )
+{
 menu
 .
 selectedItem
 =
 askMenuItem
 ;
+}
 else
+{
 switch
 (
 handlerInfo
@@ -10506,6 +10533,7 @@ if
 (
 preferredApp
 )
+{
 menu
 .
 selectedItem
@@ -10530,6 +10558,7 @@ preferredApp
 0
 ]
 ;
+}
 break
 ;
 case
@@ -10558,6 +10587,7 @@ saveMenuItem
 ;
 break
 ;
+}
 }
 }
 _sortColumn
@@ -10589,6 +10619,7 @@ _sortColumn
 =
 column
 )
+{
 this
 .
 _sortColumn
@@ -10600,6 +10631,7 @@ sortDirection
 "
 )
 ;
+}
 this
 .
 _sortColumn
@@ -10622,6 +10654,7 @@ sortDirection
 ascending
 "
 )
+{
 column
 .
 setAttribute
@@ -10634,7 +10667,9 @@ descending
 "
 )
 ;
+}
 else
+{
 column
 .
 setAttribute
@@ -10647,6 +10682,7 @@ ascending
 "
 )
 ;
+}
 this
 .
 _sortVisibleTypes
@@ -10671,8 +10707,10 @@ this
 .
 _sortColumn
 )
+{
 return
 ;
+}
 function
 sortByType
 (
@@ -10794,6 +10832,7 @@ sortDirection
 descending
 "
 )
+{
 this
 .
 _visibleTypes
@@ -10802,6 +10841,7 @@ reverse
 (
 )
 ;
+}
 }
 filter
 (
@@ -10905,12 +10945,14 @@ action
 =
 kActionUsePlugin
 )
+{
 handlerInfo
 .
 enablePluginType
 (
 )
 ;
+}
 else
 if
 (
@@ -10924,12 +10966,14 @@ handlerInfo
 .
 isDisabledPluginType
 )
+{
 handlerInfo
 .
 disablePluginType
 (
 )
 ;
+}
 if
 (
 action
@@ -10941,6 +10985,7 @@ nsIHandlerInfo
 .
 useHelperApp
 )
+{
 handlerInfo
 .
 preferredApplicationHandler
@@ -10949,6 +10994,7 @@ aActionItem
 .
 handlerApp
 ;
+}
 if
 (
 action
@@ -10960,19 +11006,23 @@ nsIHandlerInfo
 .
 alwaysAsk
 )
+{
 handlerInfo
 .
 alwaysAskBeforeHandling
 =
 true
 ;
+}
 else
+{
 handlerInfo
 .
 alwaysAskBeforeHandling
 =
 false
 ;
+}
 handlerInfo
 .
 preferredAction
@@ -11523,6 +11573,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 return
 this
 .
@@ -11533,6 +11584,7 @@ aHandlerApp
 executable
 )
 ;
+}
 if
 (
 aHandlerApp
@@ -11541,6 +11593,7 @@ Ci
 .
 nsIWebHandlerApp
 )
+{
 return
 this
 .
@@ -11551,6 +11604,7 @@ aHandlerApp
 uriTemplate
 )
 ;
+}
 return
 "
 "
@@ -11660,6 +11714,7 @@ site_icons
 "
 )
 )
+{
 return
 uri
 .
@@ -11672,6 +11727,7 @@ favicon
 ico
 "
 ;
+}
 return
 "
 "
@@ -12870,9 +12926,11 @@ Desktop
 )
 )
 )
+{
 return
 0
 ;
+}
 else
 if
 (
@@ -12891,9 +12949,11 @@ Downloads
 )
 )
 )
+{
 return
 1
 ;
+}
 return
 2
 ;
@@ -13734,6 +13794,7 @@ wrappedHandlerInfo
 .
 description
 )
+{
 return
 this
 .
@@ -13741,6 +13802,7 @@ wrappedHandlerInfo
 .
 description
 ;
+}
 if
 (
 this
@@ -13896,6 +13958,7 @@ Ci
 .
 nsILocalHandlerApp
 )
+{
 name
 =
 getFileDisplayName
@@ -13905,13 +13968,16 @@ preferredApp
 executable
 )
 ;
+}
 else
+{
 name
 =
 preferredApp
 .
 name
 ;
+}
 return
 gMainPane
 .
@@ -13970,6 +14036,7 @@ this
 preferredApplicationHandler
 )
 )
+{
 return
 this
 .
@@ -13977,6 +14044,7 @@ preferredApplicationHandler
 .
 name
 ;
+}
 return
 this
 .
@@ -14282,6 +14350,7 @@ if
 (
 aNewValue
 )
+{
 this
 .
 addPossibleApplicationHandler
@@ -14289,6 +14358,7 @@ addPossibleApplicationHandler
 aNewValue
 )
 ;
+}
 }
 get
 possibleApplicationHandlers
@@ -14331,8 +14401,10 @@ equals
 aNewHandler
 )
 )
+{
 return
 ;
+}
 }
 this
 .
@@ -14485,9 +14557,11 @@ this
 .
 isDisabledPluginType
 )
+{
 return
 kActionUsePlugin
 ;
+}
 if
 (
 this
@@ -14523,6 +14597,7 @@ wrappedHandlerInfo
 .
 hasDefaultHandler
 )
+{
 return
 Ci
 .
@@ -14530,6 +14605,7 @@ nsIHandlerInfo
 .
 useSystemDefault
 ;
+}
 return
 Ci
 .
@@ -14554,15 +14630,12 @@ aNewValue
 {
 if
 (
-(
 aNewValue
 =
 =
 kActionUsePlugin
-)
 &
 &
-(
 this
 .
 preferredAction
@@ -14573,7 +14646,6 @@ Ci
 nsIHandlerInfo
 .
 saveToDisk
-)
 )
 {
 aNewValue
@@ -14592,6 +14664,7 @@ aNewValue
 =
 kActionUsePlugin
 )
+{
 this
 .
 wrappedHandlerInfo
@@ -14600,6 +14673,7 @@ preferredAction
 =
 aNewValue
 ;
+}
 }
 get
 alwaysAskBeforeHandling
@@ -14617,9 +14691,11 @@ this
 .
 handledOnlyByPlugin
 )
+{
 return
 false
 ;
+}
 if
 (
 !
@@ -14645,9 +14721,11 @@ nsIHandlerInfo
 .
 saveToDisk
 )
+{
 return
 true
 ;
+}
 return
 this
 .
@@ -14695,6 +14773,7 @@ wrappedHandlerInfo
 .
 primaryExtension
 )
+{
 return
 this
 .
@@ -14702,6 +14781,7 @@ wrappedHandlerInfo
 .
 primaryExtension
 ;
+}
 }
 catch
 (
@@ -14754,6 +14834,7 @@ prefHasUserValue
 PREF_DISABLED_PLUGIN_TYPES
 )
 )
+{
 types
 =
 Services
@@ -14765,6 +14846,7 @@ getCharPref
 PREF_DISABLED_PLUGIN_TYPES
 )
 ;
+}
 if
 (
 types
@@ -14773,6 +14855,7 @@ types
 "
 "
 )
+{
 return
 types
 .
@@ -14782,6 +14865,7 @@ split
 "
 )
 ;
+}
 return
 [
 ]
@@ -14812,6 +14896,7 @@ this
 type
 )
 )
+{
 disabledPluginTypes
 .
 push
@@ -14821,6 +14906,7 @@ this
 type
 )
 ;
+}
 Services
 .
 prefs
@@ -14985,6 +15071,7 @@ this
 .
 primaryExtension
 )
+{
 return
 "
 moz
@@ -15009,6 +15096,7 @@ size
 +
 aSize
 ;
+}
 if
 (
 this
@@ -15019,6 +15107,7 @@ Ci
 .
 nsIMIMEInfo
 )
+{
 return
 "
 moz
@@ -15045,6 +15134,7 @@ this
 .
 type
 ;
+}
 return
 null
 ;

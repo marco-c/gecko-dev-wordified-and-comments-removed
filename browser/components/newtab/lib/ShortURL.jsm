@@ -234,6 +234,7 @@ length
 Infinity
 ;
 return
+(
 handleIDNHost
 (
 hostname
@@ -257,6 +258,7 @@ pathname
 parsed
 .
 href
+)
 ;
 }
 const

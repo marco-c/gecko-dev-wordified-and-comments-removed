@@ -6,7 +6,6 @@ strict
 const
 isOSX
 =
-(
 Services
 .
 appinfo
@@ -18,7 +17,6 @@ OS
 "
 Darwin
 "
-)
 ;
 add_task
 (

@@ -256,9 +256,7 @@ const
 LAYOUT_VARIANTS
 =
 {
-"
 basic
-"
 :
 "
 Basic
@@ -366,7 +364,6 @@ render
 )
 {
 return
-(
 <
 button
 onClick
@@ -384,7 +381,6 @@ open
 /
 button
 >
-)
 ;
 }
 }
@@ -1453,7 +1449,15 @@ onEnableToggle
 }
 /
 >
+{
+"
+"
+}
 enabled
+{
+"
+"
+}
 <
 /
 div
@@ -1481,6 +1485,10 @@ changing
 this
 pref
 :
+{
+"
+"
+}
 <
 code
 >
@@ -3405,7 +3413,6 @@ className
 {
 button
 {
-(
 isBlocked
 ?
 "
@@ -3414,7 +3421,6 @@ isBlocked
 "
 primary
 "
-)
 }
 }
 onClick
@@ -3457,6 +3463,7 @@ isBlocked
 ?
 null
 :
+(
 <
 button
 className
@@ -3482,6 +3489,7 @@ Show
 /
 button
 >
+)
 }
 <
 br
@@ -3991,14 +3999,12 @@ true
 const
 isSystemEnabled
 =
-(
 isTestProvider
 |
 |
 provider
 .
 enabled
-)
 ;
 let
 label
@@ -4185,6 +4191,7 @@ td
 {
 isTestProvider
 ?
+(
 <
 input
 type
@@ -4209,7 +4216,9 @@ true
 }
 /
 >
+)
 :
+(
 <
 input
 type
@@ -4243,6 +4252,7 @@ handleEnabledToggle
 }
 /
 >
+)
 }
 <
 /
@@ -4270,12 +4280,10 @@ className
 {
 sourceLabel
 {
-(
 isUserEnabled
 &
 &
 isSystemEnabled
-)
 ?
 "
 "
@@ -4654,6 +4662,10 @@ p
 >
 Status
 :
+{
+"
+"
+}
 <
 span
 ref
@@ -4924,6 +4936,7 @@ length
 >
 30
 ?
+(
 <
 textarea
 name
@@ -4960,7 +4973,9 @@ onChangeTargetingParameters
 }
 /
 >
+)
 :
+(
 <
 input
 name
@@ -4987,6 +5002,7 @@ onChangeTargetingParameters
 }
 /
 >
+)
 ;
 return
 (
@@ -5439,6 +5455,10 @@ h2
 <
 p
 >
+{
+"
+"
+}
 This
 forces
 the
@@ -5563,6 +5583,10 @@ td
 <
 td
 >
+{
+"
+"
+}
 <
 input
 type
@@ -5604,6 +5628,10 @@ onChangeAttributionParameters
 }
 /
 >
+{
+"
+"
+}
 <
 /
 td
@@ -5633,6 +5661,10 @@ td
 <
 td
 >
+{
+"
+"
+}
 <
 input
 type
@@ -5674,6 +5706,10 @@ onChangeAttributionParameters
 }
 /
 >
+{
+"
+"
+}
 <
 /
 td
@@ -5703,6 +5739,10 @@ td
 <
 td
 >
+{
+"
+"
+}
 <
 input
 type
@@ -5745,6 +5785,10 @@ onChangeAttributionParameters
 }
 /
 >
+{
+"
+"
+}
 <
 /
 td
@@ -5759,6 +5803,10 @@ tr
 <
 td
 >
+{
+"
+"
+}
 <
 button
 className
@@ -5776,12 +5824,24 @@ this
 setAttribution
 }
 >
+{
+"
+"
+}
 Force
 Attribution
+{
+"
+"
+}
 <
 /
 button
 >
+{
+"
+"
+}
 <
 /
 td
@@ -6148,6 +6208,7 @@ table
 >
 )
 :
+(
 <
 p
 >
@@ -6169,6 +6230,7 @@ welcome
 /
 p
 >
+)
 ;
 }
 getSection
@@ -6235,6 +6297,10 @@ Cache
 /
 button
 >
+{
+"
+"
+}
 (
 This
 expires
@@ -6418,6 +6484,10 @@ h2
 >
 Message
 Providers
+{
+"
+"
+}
 <
 button
 title
@@ -6750,6 +6820,10 @@ tools
 Check
 out
 our
+{
+"
+"
+}
 <
 a
 target
@@ -6880,6 +6954,7 @@ props
 this
 ;
 return
+(
 props
 .
 location
@@ -6915,6 +6990,7 @@ startsWith
 #
 devtools
 "
+)
 )
 )
 ;
@@ -7177,6 +7253,7 @@ a
 {
 renderAdmin
 ?
+(
 <
 ASRouterAdminInner
 {
@@ -7196,6 +7273,7 @@ collapsed
 }
 /
 >
+)
 :
 null
 }
@@ -7215,6 +7293,7 @@ _ASRouterAdmin
 props
 =
 >
+(
 <
 SimpleHashRouter
 >
@@ -7232,6 +7311,7 @@ props
 /
 SimpleHashRouter
 >
+)
 ;
 export
 const

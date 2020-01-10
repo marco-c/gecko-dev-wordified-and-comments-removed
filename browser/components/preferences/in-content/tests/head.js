@@ -252,8 +252,10 @@ about
 blank
 "
 )
+{
 return
 ;
+}
 content
 .
 gSubDialog
@@ -528,8 +530,10 @@ aEvent
 .
 target
 )
+{
 return
 ;
+}
 clearTimeout
 (
 timerID
@@ -729,12 +733,14 @@ aOptions
 .
 leaveOpen
 )
+{
 gBrowser
 .
 removeCurrentTab
 (
 )
 ;
+}
 resolve
 (
 {
@@ -962,9 +968,7 @@ return
 new
 Promise
 (
-(
 resolve
-)
 =
 >
 {

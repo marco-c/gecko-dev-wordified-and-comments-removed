@@ -47,11 +47,9 @@ id
 :
 kWidgetId
 +
-(
 widgetCounter
 +
 +
-)
 removable
 :
 false
@@ -97,11 +95,9 @@ id
 :
 kWidgetId
 +
-(
 widgetCounter
 +
 +
-)
 }
 )
 ;
@@ -152,11 +148,9 @@ id
 :
 kWidgetId
 +
-(
 widgetCounter
 +
 +
-)
 removable
 :
 false

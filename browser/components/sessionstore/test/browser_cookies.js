@@ -40,6 +40,7 @@ cookie
 passedCookie
 =
 >
+(
 content
 .
 document
@@ -47,6 +48,7 @@ document
 cookie
 =
 passedCookie
+)
 )
 ]
 )

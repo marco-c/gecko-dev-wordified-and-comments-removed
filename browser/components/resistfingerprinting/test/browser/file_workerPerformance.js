@@ -72,7 +72,6 @@ expectedPrecision
 let
 rounded
 =
-(
 Math
 .
 floor
@@ -83,7 +82,6 @@ expectedPrecision
 )
 *
 expectedPrecision
-)
 ;
 if
 (
@@ -100,9 +98,11 @@ x
 =
 0
 )
+{
 return
 true
 ;
+}
 if
 (
 Math
@@ -116,6 +116,7 @@ x
 expectedPrecision
 )
 <
+0
 .
 0005
 )
@@ -136,6 +137,7 @@ rounded
 x
 )
 <
+0
 .
 0005
 )

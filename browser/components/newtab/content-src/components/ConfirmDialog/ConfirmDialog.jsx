@@ -310,6 +310,7 @@ map
 msg
 =
 >
+(
 <
 p
 key
@@ -328,6 +329,7 @@ msg
 }
 /
 >
+)
 )
 }
 <
@@ -418,6 +420,7 @@ data
 icon
 &
 &
+(
 <
 span
 className
@@ -441,6 +444,7 @@ icon
 }
 /
 >
+)
 }
 {
 this

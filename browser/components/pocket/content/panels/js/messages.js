@@ -182,13 +182,11 @@ messagePayload
 panelId
 data
 :
-(
 payload
 |
 |
 {
 }
-)
 }
 ;
 if
@@ -314,7 +312,7 @@ sendMessage
 }
 ;
 }
-(
 )
+(
 )
 ;

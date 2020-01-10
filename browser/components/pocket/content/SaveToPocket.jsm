@@ -581,6 +581,7 @@ this
 innerWindowIDsByBrowser
 ;
 return
+(
 this
 .
 innerWindowIDsByBrowser
@@ -588,6 +589,7 @@ innerWindowIDsByBrowser
 new
 WeakMap
 (
+)
 )
 ;
 }

@@ -155,9 +155,7 @@ locale
 chrome_resources
 :
 {
-"
 branding
-"
 :
 browser
 /

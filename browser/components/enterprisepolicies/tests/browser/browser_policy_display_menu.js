@@ -15,14 +15,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisplayMenuBar
-"
 :
 true
 }

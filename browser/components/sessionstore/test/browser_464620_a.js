@@ -78,8 +78,10 @@ frameCount
 <
 4
 )
+{
 return
 ;
+}
 this
 .
 removeEventListener

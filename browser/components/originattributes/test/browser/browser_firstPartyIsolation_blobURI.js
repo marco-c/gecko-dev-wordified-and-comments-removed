@@ -262,9 +262,7 @@ script
 >
 ]
 {
-"
 type
-"
 :
 "
 text

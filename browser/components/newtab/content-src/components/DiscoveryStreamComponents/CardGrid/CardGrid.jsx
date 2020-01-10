@@ -449,6 +449,7 @@ div
 {
 isEmpty
 ?
+(
 <
 div
 className
@@ -495,11 +496,14 @@ feed
 /
 div
 >
+)
 :
+(
 this
 .
 renderCards
 (
+)
 )
 }
 <

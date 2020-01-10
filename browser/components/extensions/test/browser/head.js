@@ -551,6 +551,7 @@ browser
 )
 ;
 return
+(
 htmlBrowser
 .
 contentDocument
@@ -578,6 +579,7 @@ addon
 -
 options
 "
+)
 )
 ;
 }
@@ -3406,9 +3408,7 @@ locationChange
 (
 tab
 url
-(
 url
-)
 =
 >
 {
@@ -3436,9 +3436,7 @@ locationChange
 (
 tab
 url
-(
 url
-)
 =
 >
 {
@@ -3958,9 +3956,7 @@ onRemoved
 addListener
 (
 async
-(
 windowId
-)
 =
 >
 {
@@ -4047,9 +4043,7 @@ onFocusChanged
 addListener
 (
 async
-(
 windowId
-)
 =
 >
 {
@@ -4164,9 +4158,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -4286,9 +4278,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

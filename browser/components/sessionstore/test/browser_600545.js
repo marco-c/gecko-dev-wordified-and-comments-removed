@@ -404,6 +404,7 @@ currentWindow
 =
 window
 )
+{
 closeWinPromises
 .
 push
@@ -416,6 +417,7 @@ currentWindow
 )
 )
 ;
+}
 }
 Promise
 .
@@ -461,6 +463,7 @@ aState
 .
 windows
 )
+{
 tabCount
 +
 =
@@ -475,6 +478,7 @@ tabs
 .
 length
 ;
+}
 return
 tabCount
 ;

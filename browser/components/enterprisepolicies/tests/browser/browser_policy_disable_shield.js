@@ -111,14 +111,10 @@ await
 setupPolicyEngineWithJson
 (
 {
-"
 policies
-"
 :
 {
-"
 DisableFirefoxStudies
-"
 :
 true
 }

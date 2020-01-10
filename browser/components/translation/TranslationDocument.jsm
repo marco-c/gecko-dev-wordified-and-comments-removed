@@ -750,6 +750,7 @@ root
 }
 }
 return
+(
 "
 [
 object
@@ -773,6 +774,7 @@ rootType
 "
 ]
 "
+)
 ;
 }
 parseResult
@@ -849,7 +851,6 @@ children
 {
 if
 (
-(
 "
 n
 "
@@ -857,7 +858,6 @@ n
 child
 .
 id
-)
 =
 =
 id
@@ -928,6 +928,7 @@ b
 "
 ;
 return
+(
 "
 <
 "
@@ -960,6 +961,7 @@ localName
 "
 >
 "
+)
 ;
 }
 function

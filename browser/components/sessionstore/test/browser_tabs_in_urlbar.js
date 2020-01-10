@@ -325,8 +325,10 @@ tabsRestored
 <
 1
 )
+{
 return
 ;
+}
 gBrowser
 .
 tabContainer

@@ -76,9 +76,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

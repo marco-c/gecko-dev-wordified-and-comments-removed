@@ -38,9 +38,11 @@ if
 !
 aIS
 )
+{
 return
 null
 ;
+}
 let
 sis
 =
@@ -185,7 +187,6 @@ this
 .
 method
 =
-(
 this
 .
 postData
@@ -197,7 +198,6 @@ POST
 "
 GET
 "
-)
 ;
 }
 }
@@ -1031,6 +1031,7 @@ data
 .
 searchWord
 )
+{
 query
 +
 =
@@ -1041,6 +1042,7 @@ data
 .
 searchWord
 ;
+}
 let
 returnedData
 =
@@ -1382,6 +1384,7 @@ engine
 of
 gAddedEngines
 )
+{
 await
 Services
 .
@@ -1392,6 +1395,7 @@ removeEngine
 engine
 )
 ;
+}
 gAddedEngines
 =
 [

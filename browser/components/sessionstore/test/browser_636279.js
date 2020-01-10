@@ -350,8 +350,10 @@ window
 .
 closed
 )
+{
 continue
 ;
+}
 for
 (
 let
@@ -400,10 +402,12 @@ browserState
 =
 TAB_STATE_RESTORING
 )
+{
 isRestoring
 +
 +
 ;
+}
 else
 if
 (
@@ -412,10 +416,12 @@ browserState
 =
 TAB_STATE_NEEDS_RESTORE
 )
+{
 needsRestore
 +
 +
 ;
+}
 }
 }
 return

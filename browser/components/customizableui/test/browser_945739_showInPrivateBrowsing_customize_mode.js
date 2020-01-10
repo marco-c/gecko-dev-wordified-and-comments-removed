@@ -60,9 +60,7 @@ normalWidgetArray
 .
 map
 (
-(
 w
-)
 =
 >
 w
@@ -128,9 +126,7 @@ privateWidgetArray
 .
 map
 (
-(
 w
-)
 =
 >
 w

@@ -37,9 +37,7 @@ onActivated
 .
 addListener
 (
-(
 info
-)
 =
 >
 {
@@ -94,9 +92,7 @@ onCreated
 .
 addListener
 (
-(
 info
-)
 =
 >
 {
@@ -151,9 +147,7 @@ onHighlighted
 .
 addListener
 (
-(
 info
-)
 =
 >
 {
@@ -939,9 +933,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

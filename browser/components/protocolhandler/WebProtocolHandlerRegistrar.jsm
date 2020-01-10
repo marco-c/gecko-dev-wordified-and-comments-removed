@@ -86,6 +86,7 @@ prototype
 stringBundle
 ;
 return
+(
 WebProtocolHandlerRegistrar
 .
 prototype
@@ -93,6 +94,7 @@ prototype
 stringBundle
 =
 sb
+)
 ;
 }
 _getFormattedString

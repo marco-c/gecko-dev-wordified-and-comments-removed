@@ -333,9 +333,7 @@ onMessage
 addListener
 (
 async
-(
 msg
-)
 =
 >
 {
@@ -488,14 +486,10 @@ ready
 manifest
 :
 {
-"
 browser_action
-"
 :
 {
-"
 default_popup
-"
 :
 "
 popup
@@ -504,9 +498,7 @@ a
 .
 html
 "
-"
 browser_style
-"
 :
 true
 }

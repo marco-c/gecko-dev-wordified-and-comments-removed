@@ -672,9 +672,7 @@ let
 handler
 =
 async
-(
 e
-)
 =
 >
 {
@@ -2244,6 +2242,7 @@ lastModified
 1492201200
 tabs
 :
+(
 function
 (
 )
@@ -2295,6 +2294,7 @@ return
 allTabsDesktop
 ;
 }
+)
 (
 )
 }

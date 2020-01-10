@@ -1307,7 +1307,6 @@ CheckBookmark
 site
 =
 >
-(
 site
 .
 bookmarkGuid
@@ -1325,7 +1324,6 @@ AddBookmark
 (
 site
 )
-)
 CheckPinTopSite
 :
 (
@@ -1334,7 +1332,6 @@ index
 )
 =
 >
-(
 site
 .
 isPinned
@@ -1353,7 +1350,6 @@ PinTopSite
 site
 index
 )
-)
 CheckSavedToPocket
 :
 (
@@ -1362,7 +1358,6 @@ index
 )
 =
 >
-(
 site
 .
 pocket_id
@@ -1381,13 +1376,11 @@ SaveToPocket
 site
 index
 )
-)
 CheckBookmarkOrArchive
 :
 site
 =
 >
-(
 site
 .
 pocket_id
@@ -1405,7 +1398,6 @@ CheckBookmark
 (
 site
 )
-)
 OpenInPrivateWindow
 :
 (
@@ -1416,7 +1408,6 @@ isEnabled
 )
 =
 >
-(
 isEnabled
 ?
 _OpenInPrivateWindow
@@ -1428,7 +1419,6 @@ LinkMenuOptions
 .
 EmptyItem
 (
-)
 )
 }
 ;

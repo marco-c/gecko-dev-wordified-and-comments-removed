@@ -750,9 +750,7 @@ withNewTab
 gBrowser
 }
 async
-(
 tab
-)
 =
 >
 {

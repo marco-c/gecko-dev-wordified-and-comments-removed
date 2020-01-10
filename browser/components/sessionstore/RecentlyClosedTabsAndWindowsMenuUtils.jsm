@@ -334,12 +334,10 @@ length
 let
 label
 =
-(
 otherTabsCount
 =
 =
 0
-)
 ?
 menuLabelStringSingleTab
 :
@@ -434,8 +432,10 @@ button
 =
 1
 )
+{
 return
 ;
+}
 aEvent
 .
 view
@@ -521,6 +521,7 @@ test
 iconURL
 )
 )
+{
 iconURL
 =
 "
@@ -534,6 +535,7 @@ favicon
 +
 iconURL
 ;
+}
 aElement
 .
 setAttribute

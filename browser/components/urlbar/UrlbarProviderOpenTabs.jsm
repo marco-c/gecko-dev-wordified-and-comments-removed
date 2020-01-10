@@ -353,11 +353,13 @@ reportError
 }
 }
 return
+(
 this
 .
 _db
 =
 conn
+)
 ;
 }
 get

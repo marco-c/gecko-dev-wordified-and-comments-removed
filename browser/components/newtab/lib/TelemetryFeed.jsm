@@ -433,9 +433,7 @@ const
 USER_PREFS_ENCODING
 =
 {
-"
 showSearch
-"
 :
 1
 <
@@ -485,9 +483,7 @@ snippets
 <
 <
 4
-"
 showSponsored
-"
 :
 1
 <

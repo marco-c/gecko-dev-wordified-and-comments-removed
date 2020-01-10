@@ -484,6 +484,7 @@ download
 )
 ;
 return
+(
 displayName
 .
 toLowerCase
@@ -511,6 +512,7 @@ toLowerCase
 includes
 (
 aTerm
+)
 )
 ;
 }
@@ -869,12 +871,14 @@ this
 .
 _active
 )
+{
 this
 .
 _ensureVisibleElementsAreActive
 (
 )
 ;
+}
 return
 this
 .
@@ -1299,11 +1303,13 @@ _ensureVisibleElementsAreActive
 ;
 }
 return
+(
 this
 .
 _searchTerm
 =
 aValue
+)
 ;
 }
 _ensureInitialSelection
@@ -1936,6 +1942,7 @@ false
 ;
 }
 return
+(
 aCommand
 =
 =
@@ -1952,6 +1959,7 @@ activeElement
 this
 .
 _richlistbox
+)
 ;
 }
 isCommandEnabled
@@ -3130,8 +3138,10 @@ links
 .
 length
 )
+{
 return
 ;
+}
 let
 browserWin
 =
@@ -3174,8 +3184,10 @@ about
 "
 )
 )
+{
 continue
 ;
+}
 DownloadURL
 (
 link

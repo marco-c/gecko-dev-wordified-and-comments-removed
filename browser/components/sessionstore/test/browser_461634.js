@@ -55,15 +55,11 @@ windows
 :
 [
 {
-"
 tabs
-"
 :
 [
 {
-"
 entries
-"
 :
 [
 ]

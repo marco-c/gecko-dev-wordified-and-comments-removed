@@ -1896,6 +1896,7 @@ isModalOpen
 &
 content
 ?
+(
 <
 ModalOverlayWrapper
 innerClassName
@@ -1965,6 +1966,7 @@ content
 subtitle
 &
 &
+(
 <
 p
 data
@@ -1982,6 +1984,7 @@ string_id
 }
 /
 >
+)
 }
 <
 ul
@@ -2722,19 +2725,19 @@ closeModal
 /
 ModalOverlayWrapper
 >
+)
 :
 null
 }
 {
-(
 cards
 &
 &
 cards
 .
 length
-)
 ?
+(
 <
 div
 className
@@ -2882,6 +2885,7 @@ state
 showCardPanel
 &
 &
+(
 <
 button
 className
@@ -2914,6 +2918,7 @@ dismiss
 "
 /
 >
+)
 }
 <
 /
@@ -2923,6 +2928,7 @@ div
 /
 div
 >
+)
 :
 null
 }

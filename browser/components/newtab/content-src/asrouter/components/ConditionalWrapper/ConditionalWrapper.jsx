@@ -28,7 +28,6 @@ children
 )
 =
 >
-(
 condition
 ?
 wrap
@@ -37,5 +36,4 @@ children
 )
 :
 children
-)
 ;

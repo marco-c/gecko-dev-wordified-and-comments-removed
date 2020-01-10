@@ -206,13 +206,12 @@ DialogContentUtils
 waitForState
 (
 content
-(
 state
-)
 =
 >
 {
 return
+(
 state
 .
 page
@@ -235,6 +234,7 @@ state
 page
 .
 guid
+)
 ;
 }
 "

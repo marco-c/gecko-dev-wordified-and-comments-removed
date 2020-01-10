@@ -87,9 +87,7 @@ TEST_LOGIN1
 TEST_LOGIN2
 ]
 async
-(
 logins
-)
 =
 >
 {
@@ -128,6 +126,7 @@ waitForCondition
 >
 {
 return
+(
 loginList
 .
 _logins
@@ -172,6 +171,7 @@ logins
 ]
 .
 guid
+)
 ;
 }
 "
@@ -274,9 +274,7 @@ TEST_LOGIN1
 TEST_LOGIN2
 ]
 async
-(
 logins
-)
 =
 >
 {

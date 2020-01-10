@@ -241,10 +241,8 @@ assertEq
 "
 string
 "
-(
 typeof
 testValue1
-)
 "
 typeof
 value
@@ -306,10 +304,8 @@ assertEq
 "
 number
 "
-(
 typeof
 testValue1
-)
 "
 typeof
 value
@@ -1481,10 +1477,8 @@ assertEq
 "
 string
 "
-(
 typeof
 testValue1
-)
 "
 typeof
 value
@@ -1546,10 +1540,8 @@ assertEq
 "
 number
 "
-(
 typeof
 testValue1
-)
 "
 typeof
 value

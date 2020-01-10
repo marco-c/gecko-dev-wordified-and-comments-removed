@@ -175,6 +175,7 @@ _load
 )
 {
 return
+(
 this
 .
 _cache
@@ -296,6 +297,7 @@ data
 )
 ;
 }
+)
 )
 )
 ;

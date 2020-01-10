@@ -932,7 +932,6 @@ Assert
 .
 ok
 (
-(
 Cu
 .
 now
@@ -940,7 +939,6 @@ now
 )
 -
 start
-)
 <
 TIMEOUT
 )

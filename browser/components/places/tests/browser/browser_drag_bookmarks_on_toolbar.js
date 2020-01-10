@@ -315,6 +315,7 @@ aExpectedDragData
 .
 length
 )
+{
 ok
 (
 event
@@ -329,6 +330,7 @@ canceled
 "
 )
 ;
+}
 event
 .
 preventDefault
@@ -415,12 +417,14 @@ aElement
 .
 open
 )
+{
 aElement
 .
 open
 =
 false
 ;
+}
 resolve
 (
 )

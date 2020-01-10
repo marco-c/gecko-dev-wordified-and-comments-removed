@@ -203,9 +203,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "

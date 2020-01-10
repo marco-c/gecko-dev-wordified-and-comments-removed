@@ -63,6 +63,7 @@ aWindow
 let
 tab
 =
+(
 aWindow
 .
 gBrowser
@@ -77,6 +78,7 @@ aWindow
 .
 gBrowser
 testURI
+)
 )
 ;
 await

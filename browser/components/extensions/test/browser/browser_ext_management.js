@@ -94,9 +94,7 @@ manifest
 browser_action
 :
 {
-"
 browser_style
-"
 :
 false
 }

@@ -104,9 +104,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -370,9 +368,7 @@ loadExtension
 manifest
 :
 {
-"
 permissions
-"
 :
 [
 "
@@ -3906,9 +3902,7 @@ withSidebarTree
 bookmarks
 "
 async
-(
 tree
-)
 =
 >
 {
@@ -4173,9 +4167,7 @@ onClicked
 addListener
 (
 async
-(
 info
-)
 =
 >
 {

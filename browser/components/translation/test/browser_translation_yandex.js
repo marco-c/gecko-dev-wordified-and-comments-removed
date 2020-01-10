@@ -665,6 +665,7 @@ resolve
 let
 tab
 =
+(
 gBrowser
 .
 selectedTab
@@ -675,6 +676,7 @@ addTab
 (
 gBrowser
 url
+)
 )
 ;
 let
@@ -690,9 +692,7 @@ browserLoaded
 (
 browser
 false
-(
 loadurl
-)
 =
 >
 loadurl
