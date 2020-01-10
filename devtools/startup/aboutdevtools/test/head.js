@@ -416,6 +416,16 @@ tab
 .
 linkedBrowser
 ;
+if
+(
+browser
+&
+&
+browser
+.
+documentURI
+)
+{
 const
 location
 =
@@ -436,5 +446,9 @@ about
 devtools
 "
 )
+;
+}
+return
+false
 ;
 }
