@@ -1084,6 +1084,7 @@ bool
 *
 aAll
 )
+const
 ;
 nsresult
 GetInlinePropertyWithAttrValue
@@ -1706,6 +1707,7 @@ Text
 &
 aText
 )
+const
 ;
 nsresult
 IsEmptyNode
@@ -1729,6 +1731,7 @@ aSafeToAskFrames
 =
 false
 )
+const
 ;
 nsresult
 IsEmptyNodeImpl
@@ -1749,6 +1752,7 @@ bool
 *
 aSeenBR
 )
+const
 ;
 static
 bool
@@ -2527,6 +2531,7 @@ nsAString
 *
 outValue
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 nsresult
@@ -5467,6 +5472,7 @@ nsINode
 &
 aNode
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 bool

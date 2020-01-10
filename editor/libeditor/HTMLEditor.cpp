@@ -19629,6 +19629,7 @@ Text
 &
 aText
 )
+const
 {
 if
 (
@@ -19658,8 +19659,8 @@ return
 true
 ;
 }
-WSRunObject
-wsRunObj
+WSRunScanner
+wsRunScanner
 (
 this
 &
@@ -19676,7 +19677,7 @@ nextVisibleNode
 WSType
 visibleNodeType
 ;
-wsRunObj
+wsRunScanner
 .
 NextVisibleNode
 (
@@ -19742,6 +19743,7 @@ aListOrCellNotEmpty
 bool
 aSafeToAskFrames
 )
+const
 {
 NS_ENSURE_TRUE
 (
@@ -19797,6 +19799,7 @@ bool
 *
 aSeenBR
 )
+const
 {
 NS_ENSURE_TRUE
 (
