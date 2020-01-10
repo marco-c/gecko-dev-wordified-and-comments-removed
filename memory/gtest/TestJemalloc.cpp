@@ -672,7 +672,7 @@ ASSERT_TRUE
 InfoEq
 (
 info
-TagLiveSmall
+TagLiveAlloc
 p
 usable
 arenaId
@@ -767,7 +767,7 @@ ASSERT_TRUE
 InfoEq
 (
 info
-TagLiveLarge
+TagLiveAlloc
 p
 usable
 arenaId
@@ -860,7 +860,7 @@ ASSERT_TRUE
 InfoEq
 (
 info
-TagLiveHuge
+TagLiveAlloc
 p
 usable
 arenaId
@@ -873,7 +873,7 @@ size_t
 len
 ;
 int
-isFreedSmall
+isFreedAlloc
 =
 0
 isFreedPage
@@ -970,14 +970,14 @@ if
 InfoEq
 (
 info
-TagFreedSmall
+TagFreedAlloc
 p
 usable
 arenaId
 )
 )
 {
-isFreedSmall
+isFreedAlloc
 +
 +
 ;
@@ -1017,7 +1017,7 @@ false
 }
 ASSERT_TRUE
 (
-isFreedSmall
+isFreedAlloc
 !
 =
 0
@@ -1033,7 +1033,7 @@ isFreedPage
 ;
 ASSERT_TRUE
 (
-isFreedSmall
+isFreedAlloc
 /
 isFreedPage
 >
@@ -3803,7 +3803,7 @@ info
 tag
 =
 =
-TagFreedPageDecommitted
+TagFreedPage
 )
 ;
 ASSERT_DEATH_WRAP
