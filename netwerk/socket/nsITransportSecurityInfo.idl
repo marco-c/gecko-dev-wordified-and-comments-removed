@@ -105,7 +105,6 @@ interface
 nsIX509CertList
 ;
 [
-builtinclass
 scriptable
 uuid
 (
