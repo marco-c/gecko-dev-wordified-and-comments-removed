@@ -1884,10 +1884,10 @@ suite_name
 )
             
 if
-browser_cycle
-=
-=
-1
+suite_name
+not
+in
+combined_suites
 :
                 
 combined_suites
