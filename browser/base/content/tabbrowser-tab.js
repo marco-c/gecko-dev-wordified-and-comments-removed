@@ -1907,7 +1907,11 @@ gBrowser
 .
 clearMultiSelectedTabs
 (
+{
+isLastMultiSelectChange
+:
 false
+}
 )
 ;
 }
@@ -1942,7 +1946,11 @@ gBrowser
 removeFromMultiSelectedTabs
 (
 this
+{
+isLastMultiSelectChange
+:
 true
+}
 )
 ;
 }
@@ -1962,7 +1970,11 @@ gBrowser
 addToMultiSelectedTabs
 (
 this
-false
+{
+isLastMultiSelectChange
+:
+true
+}
 )
 ;
 gBrowser
@@ -2135,7 +2147,7 @@ overlay
 )
 {
 let
-updatePositionalAttr
+isLastMultiSelectChange
 =
 gBrowser
 .
@@ -2148,7 +2160,9 @@ gBrowser
 .
 clearMultiSelectedTabs
 (
-updatePositionalAttr
+{
+isLastMultiSelectChange
+}
 )
 ;
 }

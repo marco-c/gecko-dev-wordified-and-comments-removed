@@ -601,7 +601,11 @@ gBrowser
 .
 clearMultiSelectedTabs
 (
+{
+isLastMultiSelectChange
+:
 true
+}
 )
 ;
 ok

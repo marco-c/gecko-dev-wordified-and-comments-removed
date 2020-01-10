@@ -4242,7 +4242,11 @@ tabbrowser
 addToMultiSelectedTabs
 (
 nativeTab
-false
+{
+isLastMultiSelectChange
+:
+true
+}
 )
 ;
 if
@@ -4278,7 +4282,11 @@ tabbrowser
 removeFromMultiSelectedTabs
 (
 nativeTab
+{
+isLastMultiSelectChange
+:
 true
+}
 )
 ;
 }
