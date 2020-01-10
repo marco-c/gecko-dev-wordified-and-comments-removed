@@ -1389,11 +1389,6 @@ nsContentUtils
 ShouldResistFingerprinting
 (
 workerPrivate
--
->
-GetPrincipal
-(
-)
 )
 ;
 }
