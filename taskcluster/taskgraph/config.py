@@ -574,6 +574,27 @@ mac_sign_and_pkg
 '
 )
 )
+        
+Required
+(
+'
+mac
+-
+entitlements
+'
+)
+:
+            
+optionally_keyed_by
+(
+'
+platform
+'
+'
+project
+'
+text_type
+)
     
 }
 }

@@ -1358,6 +1358,11 @@ file_url
 (
 self
 path
+endpoint
+=
+"
+file
+"
 )
 :
         
@@ -1400,6 +1405,20 @@ of
 the
 repository
 .
+        
+:
+param
+basestring
+endpoint
+:
+The
+endpoint
+.
+Defaults
+to
+"
+file
+"
         
 :
 return
@@ -1487,7 +1506,8 @@ return
 {
 }
 /
-file
+{
+}
 /
 {
 }
@@ -1499,6 +1519,7 @@ file
 format
 (
 repo
+endpoint
 rev
 path
 )
