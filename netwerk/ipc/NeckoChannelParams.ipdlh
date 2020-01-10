@@ -2181,6 +2181,9 @@ isSecure
 int32_t
 sameSite
 ;
+int32_t
+rawSameSite
+;
 }
 ;
 }
