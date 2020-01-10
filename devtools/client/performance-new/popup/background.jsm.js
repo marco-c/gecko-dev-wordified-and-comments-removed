@@ -1197,7 +1197,7 @@ duration
 function
 setRecordingPreferencesOnBrowser
 (
-settings
+prefs
 )
 {
 Services
@@ -1207,7 +1207,7 @@ prefs
 setIntPref
 (
 ENTRIES_PREF
-settings
+prefs
 .
 entries
 )
@@ -1219,7 +1219,7 @@ prefs
 setIntPref
 (
 INTERVAL_PREF
-settings
+prefs
 .
 interval
 )
@@ -1235,7 +1235,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 features
 )
@@ -1252,7 +1252,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 threads
 )
@@ -1269,7 +1269,7 @@ JSON
 .
 stringify
 (
-settings
+prefs
 .
 objdirs
 )
