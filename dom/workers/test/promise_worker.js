@@ -2795,8 +2795,7 @@ Promise
 (
 function
 (
-resolve
-reject
+r
 )
 {
 ok
@@ -2810,7 +2809,7 @@ executed
 "
 )
 ;
-resolve
+r
 (
 42
 )
@@ -2875,8 +2874,7 @@ Promise
 (
 function
 (
-resolve
-reject
+r
 )
 {
 ok
@@ -2890,7 +2888,7 @@ executed
 "
 )
 ;
-resolve
+r
 (
 42
 )
@@ -3093,8 +3091,8 @@ Promise
 (
 function
 (
-r1
-r2
+r3
+r4
 )
 {
 ok
@@ -3109,7 +3107,7 @@ executed
 "
 )
 ;
-r1
+r3
 (
 42
 )

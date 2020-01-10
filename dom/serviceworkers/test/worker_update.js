@@ -40,7 +40,7 @@ catch
 (
 function
 (
-e
+ex
 )
 {
 return

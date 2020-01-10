@@ -504,7 +504,7 @@ script
 }
 catch
 (
-e
+ex
 )
 {
 client
@@ -539,7 +539,7 @@ error
 :
 "
 +
-e
+ex
 .
 message
 }

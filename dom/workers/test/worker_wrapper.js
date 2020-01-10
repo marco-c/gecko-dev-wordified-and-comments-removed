@@ -435,7 +435,7 @@ script
 }
 catch
 (
-e
+ex
 )
 {
 postMessage
@@ -468,7 +468,7 @@ error
 :
 "
 +
-e
+ex
 .
 message
 }

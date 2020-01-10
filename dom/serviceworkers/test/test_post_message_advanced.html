@@ -208,7 +208,7 @@ object_content
 function
 readBlob
 (
-blob
+blobToRead
 )
 {
 return
@@ -248,7 +248,7 @@ reader
 .
 readAsText
 (
-blob
+blobToRead
 )
 ;
 }
@@ -494,7 +494,7 @@ n
 function
 testPostMessageObject
 (
-obj
+object
 test
 )
 {
@@ -538,14 +538,14 @@ active
 .
 postMessage
 (
-obj
+object
 )
 }
 else
 {
 test
 (
-obj
+object
 e
 .
 data

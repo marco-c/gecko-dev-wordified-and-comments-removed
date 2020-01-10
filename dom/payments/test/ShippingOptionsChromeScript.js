@@ -153,7 +153,7 @@ initData
 )
 ;
 const
-showResponse
+showActionResponse
 =
 Cc
 [
@@ -185,7 +185,7 @@ Ci
 nsIPaymentShowActionResponse
 )
 ;
-showResponse
+showActionResponse
 .
 init
 (
@@ -219,7 +219,7 @@ paymentSrv
 .
 respondPayment
 (
-showResponse
+showActionResponse
 .
 QueryInterface
 (

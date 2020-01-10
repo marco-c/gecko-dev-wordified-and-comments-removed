@@ -242,7 +242,7 @@ onerror
 =
 function
 (
-event
+e
 )
 {
 ok
@@ -256,7 +256,7 @@ event
 :
 "
 +
-event
+e
 )
 ;
 postMessage

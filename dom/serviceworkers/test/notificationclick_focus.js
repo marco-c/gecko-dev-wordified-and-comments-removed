@@ -259,7 +259,7 @@ catch
 (
 function
 (
-e
+ex
 )
 {
 dump
@@ -268,7 +268,7 @@ dump
 Error
 "
 +
-e
+ex
 +
 "
 \

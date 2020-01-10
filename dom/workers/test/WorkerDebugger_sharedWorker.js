@@ -23,12 +23,12 @@ onmessage
 =
 function
 (
-event
+e
 )
 {
 switch
 (
-event
+e
 .
 data
 )

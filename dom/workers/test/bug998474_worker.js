@@ -26,7 +26,7 @@ onmessage
 =
 function
 (
-e
+msg
 )
 {
 port
@@ -35,7 +35,7 @@ postMessage
 (
 eval
 (
-e
+msg
 .
 data
 )

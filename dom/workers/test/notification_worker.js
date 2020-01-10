@@ -621,7 +621,7 @@ finishTest
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -639,7 +639,7 @@ nextTest
 "
 "
 +
-e
+ex
 )
 ;
 finishTest

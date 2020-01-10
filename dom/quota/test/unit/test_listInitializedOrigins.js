@@ -139,7 +139,7 @@ function
 verifyResult
 (
 result
-origins
+expectedOrigins
 )
 {
 ok
@@ -162,7 +162,7 @@ result
 length
 =
 =
-origins
+expectedOrigins
 .
 length
 "
@@ -269,7 +269,7 @@ i
 let
 b
 =
-origins
+expectedOrigins
 [
 i
 ]
@@ -396,13 +396,13 @@ resolve
 {
 listInitializedOrigins
 (
-request
+req
 =
 >
 {
 verifyResult
 (
-request
+req
 .
 result
 origins

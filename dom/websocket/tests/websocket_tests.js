@@ -4812,7 +4812,7 @@ onopen
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -4838,7 +4838,7 @@ onclose
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -4853,7 +4853,7 @@ close
 ;
 ok
 (
-e
+event
 .
 wasClean
 "
@@ -4866,7 +4866,7 @@ cleanly
 ;
 is
 (
-e
+event
 .
 code
 3501
@@ -4881,7 +4881,7 @@ code
 ;
 is
 (
-e
+event
 .
 reason
 "
@@ -5007,7 +5007,7 @@ range
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -5177,7 +5177,7 @@ range
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -5277,7 +5277,7 @@ onopen
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -5320,7 +5320,7 @@ range
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -5352,7 +5352,7 @@ onclose
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -5367,7 +5367,7 @@ close
 ;
 ok
 (
-e
+event
 .
 wasClean
 "
@@ -5417,7 +5417,7 @@ onopen
 =
 function
 (
-e
+eventInner
 )
 {
 ok
@@ -5443,12 +5443,12 @@ onclose
 =
 function
 (
-e
+eventInner
 )
 {
 isnot
 (
-e
+eventInner
 .
 code
 3101
@@ -5465,7 +5465,7 @@ present
 ;
 is
 (
-e
+eventInner
 .
 reason
 "
@@ -6055,7 +6055,7 @@ onopen
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -6081,7 +6081,7 @@ onclose
 =
 function
 (
-e
+event
 )
 {
 ok
@@ -6131,7 +6131,6 @@ onopen
 =
 function
 (
-e
 )
 {
 ok
@@ -6195,7 +6194,6 @@ onclose
 =
 function
 (
-e
 )
 {
 ok

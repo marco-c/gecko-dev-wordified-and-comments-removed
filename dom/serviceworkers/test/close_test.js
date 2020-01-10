@@ -94,12 +94,12 @@ throw
 }
 catch
 (
-e
+ex
 )
 {
 ok
 (
-e
+ex
 .
 name
 =
