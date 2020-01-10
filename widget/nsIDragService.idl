@@ -1106,6 +1106,15 @@ ContentParentPtr
 aChild
 )
 ;
+[
+notxpcom
+nostdcall
+]
+boolean
+removeAllChildProcesses
+(
+)
+;
 }
 ;
 %

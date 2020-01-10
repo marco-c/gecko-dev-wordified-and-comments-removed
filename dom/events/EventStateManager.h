@@ -1977,6 +1977,8 @@ aDragStartData
 void
 StopTrackingDragGesture
 (
+bool
+aClearInChildProcesses
 )
 ;
 MOZ_CAN_RUN_SCRIPT
