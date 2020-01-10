@@ -7256,6 +7256,15 @@ pc
 JSOP_LOOPENTRY
 )
 {
+computeFrameSize
+(
+R0
+.
+scratchReg
+(
+)
+)
+;
 if
 (
 !
@@ -7272,10 +7281,6 @@ false
 else
 {
 prepareVMCall
-(
-)
-;
-pushBytecodePCArg
 (
 )
 ;
@@ -7318,8 +7323,6 @@ JSContext
 *
 BaselineFrame
 *
-jsbytecode
-*
 )
 ;
 if
@@ -7328,7 +7331,7 @@ if
 callVM
 <
 Fn
-IonCompileScriptForBaseline
+IonCompileScriptForBaselineAtEntry
 >
 (
 kind
