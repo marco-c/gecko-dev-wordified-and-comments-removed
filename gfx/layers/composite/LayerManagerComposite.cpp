@@ -2965,6 +2965,12 @@ NotifyEmptyFrame
 (
 )
 ;
+mPayload
+.
+Clear
+(
+)
+;
 return
 ;
 }
@@ -5229,6 +5235,12 @@ PostRender
 (
 &
 widgetContext
+)
+;
+mPayload
+.
+Clear
+(
 )
 ;
 return

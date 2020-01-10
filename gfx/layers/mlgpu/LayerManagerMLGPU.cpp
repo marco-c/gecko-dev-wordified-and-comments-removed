@@ -1508,6 +1508,12 @@ NotifyEmptyFrame
 (
 )
 ;
+mPayload
+.
+Clear
+(
+)
+;
 return
 ;
 }
