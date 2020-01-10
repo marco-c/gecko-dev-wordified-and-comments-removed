@@ -177,6 +177,9 @@ defined
 by
 the
 principal
+and
+storage
+principal
 .
 *
 *
@@ -218,10 +221,11 @@ if
 precaching
 believes
 the
+storage
 principal
 may
-have
 *
+have
 localStorage
 data
 .
@@ -272,6 +276,9 @@ precacheStorage
 in
 nsIPrincipal
 aPrincipal
+in
+nsIPrincipal
+aStoragePrincipal
 )
 ;
 /

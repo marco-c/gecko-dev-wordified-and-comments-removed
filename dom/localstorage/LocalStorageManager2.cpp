@@ -566,6 +566,9 @@ PrecacheStorage
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 Storage
 *
 *
@@ -582,6 +585,11 @@ NS_IsMainThread
 MOZ_ASSERT
 (
 aPrincipal
+)
+;
+MOZ_ASSERT
+(
+aStoragePrincipal
 )
 ;
 MOZ_ASSERT

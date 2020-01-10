@@ -1240,6 +1240,9 @@ PrecacheStorage
 nsIPrincipal
 *
 aPrincipal
+nsIPrincipal
+*
+aStoragePrincipal
 Storage
 *
 *
@@ -1255,7 +1258,7 @@ CreateMode
 CreateIfShouldPreload
 nullptr
 aPrincipal
-aPrincipal
+aStoragePrincipal
 EmptyString
 (
 )
