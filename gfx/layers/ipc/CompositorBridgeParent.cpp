@@ -8765,6 +8765,14 @@ mApzUpdater
 oldRootController
 )
 {
+oldApzUpdater
+-
+>
+MarkAsDetached
+(
+child
+)
+;
 nsTArray
 <
 MatrixMessage

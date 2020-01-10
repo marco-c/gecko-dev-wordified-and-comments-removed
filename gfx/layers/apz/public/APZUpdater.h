@@ -407,6 +407,13 @@ Runnable
 aTask
 )
 ;
+void
+MarkAsDetached
+(
+LayersId
+aLayersId
+)
+;
 protected
 :
 virtual
