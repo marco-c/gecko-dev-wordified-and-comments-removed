@@ -2383,7 +2383,6 @@ ShapedTextFlags
 :
 :
 TEXT_ORIENT_HORIZONTAL
-false
 )
 ;
 gfxTextRun

@@ -20407,16 +20407,6 @@ ShapedTextFlags
 :
 :
 TEXT_ORIENT_VERTICAL_UPRIGHT
-|
-|
-iter
-.
-GetGlyphRun
-(
-)
--
->
-mIsCJK
 )
 {
 textPos
