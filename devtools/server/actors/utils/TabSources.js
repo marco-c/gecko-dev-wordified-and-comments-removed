@@ -205,7 +205,7 @@ Map
 ;
 this
 .
-_htmlContents
+_urlContents
 =
 new
 Map
@@ -214,7 +214,7 @@ Map
 ;
 this
 .
-_htmlWaiters
+_urlWaiters
 =
 new
 Map
@@ -359,7 +359,7 @@ Map
 ;
 this
 .
-_htmlContents
+_urlContents
 =
 new
 Map
@@ -368,7 +368,7 @@ Map
 ;
 this
 .
-_htmlWaiters
+_urlWaiters
 =
 new
 Map
@@ -1961,7 +1961,7 @@ if
 (
 this
 .
-_htmlContents
+_urlContents
 .
 has
 (
@@ -1974,7 +1974,7 @@ existing
 =
 this
 .
-_htmlContents
+_urlContents
 .
 get
 (
@@ -2025,7 +2025,7 @@ waiters
 =
 this
 .
-_htmlWaiters
+_urlWaiters
 .
 get
 (
@@ -2052,7 +2052,7 @@ waiter
 }
 this
 .
-_htmlWaiters
+_urlWaiters
 .
 delete
 (
@@ -2067,7 +2067,7 @@ else
 {
 this
 .
-_htmlContents
+_urlContents
 .
 set
 (
@@ -2091,7 +2091,7 @@ parserID
 }
 }
 }
-htmlFileContents
+urlContents
 (
 url
 partial
@@ -2102,7 +2102,7 @@ if
 (
 this
 .
-_htmlContents
+_urlContents
 .
 has
 (
@@ -2115,7 +2115,7 @@ data
 =
 this
 .
-_htmlContents
+_urlContents
 .
 get
 (
@@ -2147,7 +2147,7 @@ if
 !
 this
 .
-_htmlWaiters
+_urlWaiters
 .
 has
 (
@@ -2157,7 +2157,7 @@ url
 {
 this
 .
-_htmlWaiters
+_urlWaiters
 .
 set
 (
@@ -2169,7 +2169,7 @@ url
 }
 this
 .
-_htmlWaiters
+_urlWaiters
 .
 get
 (
@@ -2234,7 +2234,7 @@ contentType
 return
 this
 .
-_fetchHtmlFileContents
+_fetchURLContents
 (
 url
 partial
@@ -2242,7 +2242,7 @@ canUseCache
 )
 ;
 }
-_fetchHtmlFileContents
+_fetchURLContents
 :
 async
 function
@@ -2396,12 +2396,20 @@ error
 }
 this
 .
-_htmlContents
+_urlContents
 .
 set
 (
 url
+{
+.
+.
+.
 result
+complete
+:
+true
+}
 )
 ;
 return

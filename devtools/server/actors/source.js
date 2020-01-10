@@ -1157,7 +1157,7 @@ this
 .
 sources
 .
-htmlFileContents
+urlContents
 (
 this
 .
@@ -1270,7 +1270,7 @@ this
 .
 sources
 .
-htmlFileContents
+urlContents
 (
 this
 .
@@ -1750,6 +1750,8 @@ addScripts
 )
 ;
 }
+try
+{
 addScripts
 (
 this
@@ -1761,6 +1763,13 @@ reparse
 )
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 }
 const
 positions
