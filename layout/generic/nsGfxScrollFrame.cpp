@@ -105,6 +105,17 @@ h
 #
 include
 "
+mozilla
+/
+gfx
+/
+gfxVars
+.
+h
+"
+#
+include
+"
 nsFontMetrics
 .
 h
