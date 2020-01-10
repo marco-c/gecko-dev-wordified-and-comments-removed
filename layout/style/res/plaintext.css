@@ -28,6 +28,17 @@ visibility
 visible
 ;
 }
+.
+nowrap
+pre
+{
+white
+-
+space
+:
+pre
+;
+}
 html
 :
 not
