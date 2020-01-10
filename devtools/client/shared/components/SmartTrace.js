@@ -354,7 +354,6 @@ isSourceMapped
 url
 line
 column
-sourceId
 )
 =
 >
@@ -367,7 +366,6 @@ isSourceMapped
 url
 line
 column
-sourceId
 index
 )
 ;
@@ -750,7 +748,6 @@ isSourceMapped
 filename
 lineNumber
 columnNumber
-sourceId
 index
 )
 {
@@ -804,10 +801,20 @@ stacktrace
 const
 frame
 =
+{
+.
+.
+.
 stacktrace
 [
 index
 ]
+}
+;
+delete
+frame
+.
+sourceId
 ;
 const
 newStacktrace
@@ -830,7 +837,6 @@ frame
 filename
 lineNumber
 columnNumber
-sourceId
 }
 )
 .
