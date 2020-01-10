@@ -166,12 +166,7 @@ _wiz
 =
 document
 .
-querySelector
-(
-"
-wizard
-"
-)
+documentElement
 ;
 let
 args
@@ -1239,9 +1234,9 @@ nothing
 )
 )
 ;
-this
+document
 .
-_wiz
+documentElement
 .
 cancel
 (
