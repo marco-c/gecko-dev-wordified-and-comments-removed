@@ -924,7 +924,7 @@ macos
 -
 1
 .
-35
+36
 :
 description
 :
@@ -958,11 +958,13 @@ arguments
 channel
 '
 '
-1
-.
-35
-.
-0
+beta
+-
+2019
+-
+05
+-
+30
 '
 '
 -
