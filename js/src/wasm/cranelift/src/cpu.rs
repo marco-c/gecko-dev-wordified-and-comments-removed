@@ -528,7 +528,7 @@ set
 jump_tables_enabled
 "
 "
-false
+true
 "
 )
 ?
