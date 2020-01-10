@@ -1958,7 +1958,10 @@ nsDocLoader
 )
 mContentWindowID
 (
-NextWindowID
+nsContentUtils
+:
+:
+GenerateWindowId
 (
 )
 )

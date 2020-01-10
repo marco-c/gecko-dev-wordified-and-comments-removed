@@ -4180,11 +4180,6 @@ ContentChild
 ;
 }
 ;
-uint64_t
-NextWindowID
-(
-)
-;
 }
 }
 #
