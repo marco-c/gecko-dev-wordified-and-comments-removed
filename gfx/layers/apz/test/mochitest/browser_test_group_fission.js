@@ -75,9 +75,12 @@ WebRender
 "
 ;
 var
-test_urls
+subtests
 =
 [
+{
+url
+:
 httpURL
 (
 "
@@ -86,6 +89,10 @@ helper_fission_basic
 html
 "
 )
+}
+{
+url
+:
 httpURL
 (
 "
@@ -94,6 +101,10 @@ helper_fission_transforms
 html
 "
 )
+}
+{
+url
+:
 httpURL
 (
 "
@@ -102,6 +113,7 @@ helper_fission_scroll_oopif
 html
 "
 )
+}
 ]
 ;
 if
@@ -109,9 +121,9 @@ if
 isWebRender
 )
 {
-test_urls
+subtests
 =
-test_urls
+subtests
 .
 concat
 (
@@ -221,9 +233,9 @@ try
 for
 (
 var
-url
+subtest
 of
-test_urls
+subtests
 )
 {
 dump
@@ -231,6 +243,8 @@ dump
 Starting
 test
 {
+subtest
+.
 url
 }
 \
@@ -248,6 +262,10 @@ gBrowser
 fissionWindow
 .
 gBrowser
+url
+:
+subtest
+.
 url
 }
 async
@@ -297,6 +315,8 @@ dump
 Finished
 test
 {
+subtest
+.
 url
 }
 \
