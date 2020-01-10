@@ -92,6 +92,16 @@ Cr
 NS_ERROR_NOT_IMPLEMENTED
 ;
 }
+clearAllOverrides
+(
+)
+{
+throw
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 isCertUsedForOverrides
 (
 )
