@@ -2083,10 +2083,14 @@ css
 (
 self
 element_selector
-frame
 all
 =
 True
+frame
+=
+"
+window
+"
 )
 :
         
