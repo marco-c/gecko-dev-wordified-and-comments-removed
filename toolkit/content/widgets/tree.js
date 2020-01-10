@@ -4366,6 +4366,16 @@ event
 =
 >
 {
+if
+(
+event
+.
+altKey
+)
+{
+return
+;
+}
 switch
 (
 event
