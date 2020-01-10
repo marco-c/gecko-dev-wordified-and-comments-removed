@@ -38,7 +38,7 @@ currentTest
 reusingReferenceImage
 &
 &
-gRefImageLoaded
+gIsRefImageLoaded
 )
 )
 {
@@ -1134,7 +1134,7 @@ window
 false
 )
 ;
-var
+let
 snapResult
 =
 compareSnapshots
@@ -1242,7 +1242,7 @@ snapshot
 "
 )
 ;
-var
+let
 dataString
 =
 "
@@ -1318,7 +1318,7 @@ window
 false
 )
 ;
-var
+let
 snapResult
 =
 compareSnapshots
@@ -1422,7 +1422,7 @@ snapshot
 "
 )
 ;
-var
+let
 dataString
 =
 "
