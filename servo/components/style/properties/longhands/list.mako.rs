@@ -627,6 +627,11 @@ engines
 "
 gecko
 "
+gecko_ffi_name
+=
+"
+mImageRegion
+"
 animation_value_type
 =
 "
