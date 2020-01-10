@@ -135,6 +135,11 @@ area
 :
 logins
 ;
+overflow
+:
+hidden
+auto
+;
 }
 login
 -
