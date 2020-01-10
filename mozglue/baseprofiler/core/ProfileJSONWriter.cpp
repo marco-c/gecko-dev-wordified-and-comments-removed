@@ -24,6 +24,12 @@ HashFunctions
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 void
 ChunkedJSONWriteFunc
 :
@@ -364,9 +370,6 @@ ptr
 '
 ;
 }
-mozilla
-:
-:
 UniquePtr
 <
 char
@@ -381,9 +384,6 @@ CopyData
 )
 const
 {
-mozilla
-:
-:
 UniquePtr
 <
 char
@@ -404,9 +404,6 @@ allocationSize
 {
 c
 =
-mozilla
-:
-:
 MakeUnique
 <
 char
@@ -579,9 +576,6 @@ length
 )
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 char
@@ -590,9 +584,6 @@ char
 >
 newChunk
 =
-mozilla
-:
-:
 MakeUnique
 <
 char
@@ -824,6 +815,8 @@ mDepth
 =
 true
 ;
+}
+}
 }
 #
 endif

@@ -31,10 +31,12 @@ MathAlgorithms
 .
 h
 "
-using
 namespace
 mozilla
-;
+{
+namespace
+baseprofiler
+{
 ProfileBuffer
 :
 :
@@ -265,9 +267,6 @@ aColumnNumber
 const
 Maybe
 <
-JS
-:
-:
 ProfilingCategoryPair
 >
 &
@@ -500,9 +499,6 @@ ProfileBuffer
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -564,9 +560,6 @@ ProfileBufferCollector
 CollectProfilingStackFrame
 (
 const
-js
-:
-:
 ProfilingStackFrame
 &
 aFrame
@@ -724,6 +717,8 @@ categoryPair
 )
 )
 ;
+}
+}
 }
 #
 endif

@@ -21,6 +21,9 @@ h
 namespace
 mozilla
 {
+namespace
+baseprofiler
+{
 void
 EHABIStackWalkInit
 (
@@ -48,6 +51,7 @@ size_t
 aNumFrames
 )
 ;
+}
 }
 #
 endif

@@ -196,6 +196,12 @@ math
 .
 h
 >
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 int
 profiler_current_process_id
 (
@@ -806,3 +812,5 @@ mLR
 }
 #
 endif
+}
+}

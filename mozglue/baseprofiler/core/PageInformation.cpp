@@ -22,6 +22,12 @@ BaseProfileJSONWriter
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 PageInformation
 :
 :
@@ -206,9 +212,6 @@ PageInformation
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -220,6 +223,8 @@ aMallocSizeOf
 this
 )
 ;
+}
+}
 }
 #
 endif

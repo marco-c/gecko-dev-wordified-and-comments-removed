@@ -45,6 +45,12 @@ include
 <
 cstdint
 >
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 #
 define
 BASE_PROFILING_CATEGORY_LIST
@@ -394,9 +400,6 @@ Other
 )
 \
 END_CATEGORY
-namespace
-JS
-{
 #
 define
 CATEGORY_ENUM_BEGIN_CATEGORY
@@ -515,12 +518,13 @@ MFBT_API
 const
 ProfilingCategoryPairInfo
 &
-GetBaseProfilingCategoryPairInfo
+GetProfilingCategoryPairInfo
 (
 ProfilingCategoryPair
 aCategoryPair
 )
 ;
+}
 }
 #
 endif

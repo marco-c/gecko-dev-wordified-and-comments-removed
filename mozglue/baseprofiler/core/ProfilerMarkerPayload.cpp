@@ -61,10 +61,12 @@ inttypes
 .
 h
 >
-using
 namespace
 mozilla
-;
+{
+namespace
+baseprofiler
+{
 static
 void
 MOZ_ALWAYS_INLINE
@@ -735,6 +737,8 @@ LongTask
 "
 )
 ;
+}
+}
 }
 #
 endif

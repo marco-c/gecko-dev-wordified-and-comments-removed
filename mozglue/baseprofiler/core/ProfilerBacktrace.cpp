@@ -43,6 +43,12 @@ ThreadInfo
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 ProfilerBacktrace
 :
 :
@@ -54,9 +60,6 @@ char
 aName
 int
 aThreadId
-mozilla
-:
-:
 UniquePtr
 <
 ProfileBuffer
@@ -106,9 +109,6 @@ SpliceableJSONWriter
 &
 aWriter
 const
-mozilla
-:
-:
 TimeStamp
 &
 aProcessStartTime
@@ -135,15 +135,9 @@ aWriter
 "
 "
 aProcessStartTime
-mozilla
-:
-:
 TimeStamp
 (
 )
-mozilla
-:
-:
 TimeStamp
 (
 )
@@ -151,6 +145,8 @@ TimeStamp
 aUniqueStacks
 )
 ;
+}
+}
 }
 #
 endif

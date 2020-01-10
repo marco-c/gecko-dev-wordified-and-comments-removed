@@ -13,6 +13,15 @@ UniquePtrExtensions
 .
 h
 "
+namespace
+mozilla
+{
+class
+TimeStamp
+;
+namespace
+baseprofiler
+{
 class
 ProfileBuffer
 ;
@@ -25,13 +34,6 @@ ThreadInfo
 class
 UniqueStacks
 ;
-namespace
-mozilla
-{
-class
-TimeStamp
-;
-}
 class
 ProfilerBacktrace
 {
@@ -45,9 +47,6 @@ char
 aName
 int
 aThreadId
-mozilla
-:
-:
 UniquePtr
 <
 ProfileBuffer
@@ -67,9 +66,6 @@ SpliceableJSONWriter
 &
 aWriter
 const
-mozilla
-:
-:
 TimeStamp
 &
 aProcessStartTime
@@ -97,9 +93,6 @@ ProfilerBacktrace
 &
 )
 ;
-mozilla
-:
-:
 UniqueFreePtr
 <
 char
@@ -109,9 +102,6 @@ mName
 int
 mThreadId
 ;
-mozilla
-:
-:
 UniquePtr
 <
 ProfileBuffer
@@ -120,5 +110,7 @@ mBuffer
 ;
 }
 ;
+}
+}
 #
 endif

@@ -15,6 +15,12 @@ RegisteredThread
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+baseprofiler
+{
 RegisteredThread
 :
 :
@@ -96,9 +102,6 @@ RegisteredThread
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -115,6 +118,8 @@ this
 return
 n
 ;
+}
+}
 }
 #
 endif

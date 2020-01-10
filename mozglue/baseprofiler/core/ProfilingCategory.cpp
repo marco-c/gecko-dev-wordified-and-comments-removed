@@ -34,7 +34,10 @@ Assertions
 h
 "
 namespace
-JS
+mozilla
+{
+namespace
+baseprofiler
 {
 #
 define
@@ -150,7 +153,7 @@ CATEGORY_INFO_END_CATEGORY
 const
 ProfilingCategoryPairInfo
 &
-GetBaseProfilingCategoryPairInfo
+GetProfilingCategoryPairInfo
 (
 ProfilingCategoryPair
 aCategoryPair
@@ -218,6 +221,7 @@ sProfilingCategoryPairInfo
 categoryPairIndex
 ]
 ;
+}
 }
 }
 #
