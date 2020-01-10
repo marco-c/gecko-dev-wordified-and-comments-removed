@@ -396,10 +396,7 @@ close
 ;
 window
 .
-arguments
-[
-1
-]
+opener
 .
 windowOpened
 (
@@ -505,10 +502,7 @@ close
 ;
 window
 .
-arguments
-[
-1
-]
+opener
 .
 testDone
 (
@@ -526,10 +520,9 @@ n
 {
 window
 .
-arguments
-[
-1
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .

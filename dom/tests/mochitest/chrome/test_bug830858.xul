@@ -200,7 +200,7 @@ runTests
 {
 window
 .
-openDialog
+open
 (
 "
 file_bug830858
@@ -218,9 +218,7 @@ width
 height
 =
 550
-noopener
 "
-window
 )
 ;
 }

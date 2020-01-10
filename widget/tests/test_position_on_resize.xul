@@ -196,11 +196,7 @@ startTest
 {
 win
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 openDialog
 (

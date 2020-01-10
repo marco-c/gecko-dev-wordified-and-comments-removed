@@ -180,7 +180,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 printpreview_helper
@@ -198,9 +198,7 @@ width
 height
 =
 100
-noopener
 "
-window
 )
 ;
 ]

@@ -222,7 +222,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 native_menus_window
@@ -240,9 +240,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 ]

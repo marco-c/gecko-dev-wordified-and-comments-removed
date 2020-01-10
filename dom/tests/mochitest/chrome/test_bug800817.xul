@@ -318,7 +318,7 @@ iframes
 .
 window
 .
-openDialog
+open
 (
 "
 file_bug800817
@@ -336,9 +336,7 @@ width
 height
 =
 550
-noopener
 "
-window
 )
 ;
 }
@@ -371,7 +369,7 @@ iframes
 .
 window
 .
-openDialog
+open
 (
 "
 file_bug800817
@@ -389,9 +387,7 @@ width
 height
 =
 550
-noopener
 "
-window
 )
 ;
 }

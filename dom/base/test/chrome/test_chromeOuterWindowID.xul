@@ -675,11 +675,7 @@ page
 let
 win
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

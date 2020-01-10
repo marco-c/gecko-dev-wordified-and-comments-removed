@@ -517,12 +517,6 @@ with
 a
 dialog
 .
-docShell
-.
-rootTreeItem
-.
-domWindow
-.
 openDialog
 (
 "
@@ -536,7 +530,6 @@ chromeDialog
 "
 modal
 "
-window
 )
 ;
 SimpleTest

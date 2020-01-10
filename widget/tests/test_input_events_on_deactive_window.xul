@@ -355,11 +355,7 @@ return
 }
 otherWindow
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

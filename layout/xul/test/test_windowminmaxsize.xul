@@ -803,11 +803,7 @@ gTestId
 .
 window
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (
@@ -1604,11 +1600,7 @@ size
 var
 titledPanelWindow
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

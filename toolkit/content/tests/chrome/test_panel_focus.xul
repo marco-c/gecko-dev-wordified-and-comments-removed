@@ -239,7 +239,7 @@ mousemove
 ;
 window
 .
-openDialog
+open
 (
 "
 window_panel_focus
@@ -257,9 +257,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 }

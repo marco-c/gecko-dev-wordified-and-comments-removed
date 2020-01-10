@@ -157,13 +157,9 @@ waitForExplicitFinish
 ;
 newwindow
 =
-docShell
+window
 .
-rootTreeItem
-.
-domWindow
-.
-openDialog
+open
 (
 "
 sizemode_attribute
@@ -179,7 +175,6 @@ resizable
 =
 yes
 "
-window
 )
 ;
 function

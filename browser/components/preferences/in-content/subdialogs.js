@@ -532,9 +532,6 @@ dialog
 =
 no
 centerscreen
-chrome
-=
-no
 "
 ;
 let

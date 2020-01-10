@@ -3060,10 +3060,9 @@ y
 ;
 window
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .
@@ -3104,10 +3103,9 @@ arg
 }
 window
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .

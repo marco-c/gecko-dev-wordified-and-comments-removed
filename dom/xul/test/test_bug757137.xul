@@ -243,11 +243,7 @@ startTest
 var
 otherWindow
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

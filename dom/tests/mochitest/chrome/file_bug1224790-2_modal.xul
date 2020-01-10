@@ -277,14 +277,11 @@ close
 ;
 nonModal
 .
+wrappedJSObject
+.
 modalClosed
 (
-window
-.
-arguments
-[
-0
-]
+opener
 )
 ;
 }

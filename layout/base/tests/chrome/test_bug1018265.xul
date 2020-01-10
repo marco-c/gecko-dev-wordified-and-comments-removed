@@ -206,7 +206,7 @@ run
 {
 window
 .
-openDialog
+open
 (
 "
 file_bug1018265
@@ -224,9 +224,7 @@ width
 height
 =
 100
-noopener
 "
-window
 )
 ;
 }

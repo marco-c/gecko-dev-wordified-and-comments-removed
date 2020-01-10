@@ -666,11 +666,7 @@ xul
 let
 newWin
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 openDialog
 (

@@ -171,7 +171,7 @@ runTest
 {
 window
 .
-openDialog
+open
 (
 "
 window_popup_anchor
@@ -189,9 +189,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 }

@@ -151,10 +151,9 @@ name
 =
 window
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 [
 name
 ]

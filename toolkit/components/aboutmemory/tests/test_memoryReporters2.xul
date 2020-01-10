@@ -355,11 +355,7 @@ remotes
 i
 ]
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

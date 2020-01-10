@@ -281,7 +281,7 @@ function
 {
 window
 .
-openDialog
+open
 (
 "
 file_bug616841
@@ -292,9 +292,7 @@ xul
 "
 "
 chrome
-noopener
 "
-window
 )
 ;
 }

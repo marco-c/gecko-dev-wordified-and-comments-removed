@@ -235,7 +235,7 @@ function
 {
 window
 .
-openDialog
+open
 (
 "
 mm_messageChannelParent
@@ -246,9 +246,7 @@ xul
 "
 "
 chrome
-noopener
 "
-window
 )
 ;
 }

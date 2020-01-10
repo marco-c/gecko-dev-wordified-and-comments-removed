@@ -160,10 +160,8 @@ _blank
 "
 "
 chrome
-noopener
 "
 true
-window
 )
 ;
 }
@@ -186,10 +184,8 @@ _blank
 "
 "
 chrome
-noopener
 "
 false
-window
 )
 ;
 }

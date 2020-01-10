@@ -235,10 +235,7 @@ setTestScope
 (
 window
 .
-arguments
-[
-0
-]
+opener
 .
 wrappedJSObject
 )
@@ -349,10 +346,7 @@ true
 ;
 window
 .
-arguments
-[
-0
-]
+opener
 .
 done
 (

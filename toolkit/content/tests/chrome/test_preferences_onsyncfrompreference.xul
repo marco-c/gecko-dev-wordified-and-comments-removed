@@ -287,14 +287,6 @@ counter
 let
 prefWindow
 =
-window
-.
-docShell
-.
-rootTreeItem
-.
-domWindow
-.
 openDialog
 (
 "

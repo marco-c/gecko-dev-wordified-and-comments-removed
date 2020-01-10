@@ -246,7 +246,7 @@ runTest
 {
 window
 .
-openDialog
+open
 (
 "
 window_chromemargin
@@ -264,9 +264,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 }

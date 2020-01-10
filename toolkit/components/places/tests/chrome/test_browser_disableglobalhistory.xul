@@ -191,13 +191,9 @@ waitForExplicitFinish
 let
 w
 =
-docShell
+window
 .
-rootTreeItem
-.
-domWindow
-.
-openDialog
+open
 (
 '
 browser_disableglobalhistory
@@ -219,7 +215,6 @@ height
 =
 600
 '
-window
 )
 ;
 function

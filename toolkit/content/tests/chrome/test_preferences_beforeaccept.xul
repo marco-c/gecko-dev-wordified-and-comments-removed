@@ -224,14 +224,6 @@ test
 var
 prefWindow
 =
-window
-.
-docShell
-.
-rootTreeItem
-.
-domWindow
-.
 openDialog
 (
 "

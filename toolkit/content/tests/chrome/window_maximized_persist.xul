@@ -123,12 +123,7 @@ evt
 =
 >
 {
-window
-.
-arguments
-[
-0
-]
+opener
 .
 postMessage
 (

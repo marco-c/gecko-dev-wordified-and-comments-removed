@@ -268,7 +268,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 window_swapFrameLoaders
@@ -286,9 +286,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 ]

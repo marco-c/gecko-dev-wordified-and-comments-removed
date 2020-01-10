@@ -287,11 +287,7 @@ features
 )
 {
 return
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 openDialog
 (
@@ -300,9 +296,7 @@ window_maximized_persist
 .
 xul
 "
-"
-_blank
-"
+null
 "
 chrome
 dialog
@@ -312,7 +306,6 @@ all
 "
 +
 features
-window
 )
 ;
 }

@@ -316,11 +316,7 @@ return
 var
 win
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (
@@ -334,6 +330,8 @@ _blank
 "
 "
 chrome
+=
+1
 width
 =
 400

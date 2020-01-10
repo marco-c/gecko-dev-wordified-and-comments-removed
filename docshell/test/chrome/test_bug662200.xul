@@ -296,7 +296,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 bug662200_window
@@ -314,9 +314,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 ]

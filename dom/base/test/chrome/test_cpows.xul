@@ -294,7 +294,7 @@ function
 {
 window
 .
-openDialog
+open
 (
 "
 cpows_parent
@@ -305,9 +305,7 @@ xul
 "
 "
 chrome
-noopener
 "
-window
 )
 ;
 }

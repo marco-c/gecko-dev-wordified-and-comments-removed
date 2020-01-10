@@ -286,12 +286,7 @@ unwrap
 (
 isDialog
 ?
-window
-.
-arguments
-[
-0
-]
+opener
 :
 parent
 )

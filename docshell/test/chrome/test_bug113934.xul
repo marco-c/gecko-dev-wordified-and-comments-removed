@@ -295,7 +295,7 @@ function
 {
 window
 .
-openDialog
+open
 (
 "
 bug113934_window
@@ -315,9 +315,7 @@ width
 height
 =
 800
-noopener
 "
-window
 )
 ;
 }

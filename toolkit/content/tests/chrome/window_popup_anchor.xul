@@ -90,10 +90,9 @@ openPopup
 }
 window
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .

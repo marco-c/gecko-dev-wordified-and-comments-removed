@@ -301,7 +301,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 file_bug514732_window
@@ -320,9 +320,7 @@ height
 =
 600
 scrollbars
-noopener
 "
-window
 )
 ;
 ]

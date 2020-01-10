@@ -252,7 +252,7 @@ href
 ;
 window
 .
-openDialog
+open
 (
 root
 +
@@ -272,9 +272,7 @@ width
 height
 =
 300
-noopener
 "
-window
 )
 ;
 ]

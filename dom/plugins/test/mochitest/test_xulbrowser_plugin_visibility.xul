@@ -166,13 +166,9 @@ STATE_ENABLED
 var
 w
 =
-docShell
+window
 .
-rootTreeItem
-.
-domWindow
-.
-openDialog
+open
 (
 '
 xulbrowser_plugin_visibility
@@ -194,7 +190,6 @@ height
 =
 600
 '
-window
 )
 ;
 function

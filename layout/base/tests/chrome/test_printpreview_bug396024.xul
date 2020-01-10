@@ -247,7 +247,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 printpreview_bug396024_helper
@@ -265,9 +265,7 @@ width
 height
 =
 100
-noopener
 "
-window
 )
 ;
 ]

@@ -233,11 +233,7 @@ iframes
 const
 window1
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (
@@ -261,11 +257,7 @@ chrome
 const
 window2
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

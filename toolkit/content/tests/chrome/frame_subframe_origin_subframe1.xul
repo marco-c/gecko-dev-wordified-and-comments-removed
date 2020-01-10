@@ -390,10 +390,9 @@ clientY
 ;
 parent
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .
@@ -416,10 +415,9 @@ frame
 ;
 parent
 .
-arguments
-[
-0
-]
+opener
+.
+wrappedJSObject
 .
 SimpleTest
 .

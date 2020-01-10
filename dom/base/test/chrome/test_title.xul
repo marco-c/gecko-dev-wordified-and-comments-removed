@@ -273,7 +273,7 @@ waitForExplicitFinish
 ;
 window
 .
-openDialog
+open
 (
 "
 title_window
@@ -291,9 +291,7 @@ width
 height
 =
 100
-noopener
 "
-window
 )
 ;
 ]

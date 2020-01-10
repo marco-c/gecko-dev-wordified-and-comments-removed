@@ -158,13 +158,9 @@ waitForExplicitFinish
 ;
 newwindow
 =
-docShell
+window
 .
-rootTreeItem
-.
-domWindow
-.
-openDialog
+open
 (
 "
 fullscreen
@@ -180,7 +176,6 @@ resizable
 =
 yes
 "
-window
 )
 ;
 function

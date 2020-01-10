@@ -175,7 +175,7 @@ runTest
 {
 window
 .
-openDialog
+open
 (
 "
 window_panel_anchoradjust
@@ -199,9 +199,7 @@ width
 height
 =
 200
-noopener
 "
-window
 )
 ;
 }

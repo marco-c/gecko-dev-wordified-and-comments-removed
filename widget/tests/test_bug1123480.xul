@@ -964,11 +964,7 @@ true
 var
 win
 =
-docShell
-.
-rootTreeItem
-.
-domWindow
+window
 .
 open
 (

@@ -216,7 +216,7 @@ chrome
 window
 window
 .
-openDialog
+open
 (
 "
 bug1041200_window
@@ -234,9 +234,7 @@ width
 height
 =
 800
-noopener
 "
-window
 )
 ;
 ]

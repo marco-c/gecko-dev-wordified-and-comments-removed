@@ -171,7 +171,7 @@ runTest
 {
 window
 .
-openDialog
+open
 (
 "
 window_panel
@@ -195,9 +195,7 @@ width
 height
 =
 200
-noopener
 "
-window
 )
 ;
 }

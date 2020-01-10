@@ -294,15 +294,6 @@ next
 )
 ;
 }
-let
-chromeWindow
-=
-docShell
-.
-rootTreeItem
-.
-domWindow
-;
 function
 *
 doTest
@@ -440,7 +431,7 @@ window
 var
 testWin
 =
-chromeWindow
+window
 .
 open
 (
@@ -497,7 +488,7 @@ bug608669
 xul
 "
 ;
-chromeWindow
+window
 .
 onmessage
 =
@@ -551,7 +542,7 @@ xul
 x
 "
 ;
-chromeWindow
+window
 .
 onmessage
 =
@@ -587,12 +578,6 @@ reuse
 window
 "
 )
-;
-chromeWindow
-.
-onmessage
-=
-null
 ;
 testWin
 .

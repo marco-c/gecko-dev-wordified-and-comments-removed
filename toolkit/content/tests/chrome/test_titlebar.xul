@@ -249,7 +249,7 @@ test_titlebar
 {
 window
 .
-openDialog
+open
 (
 "
 window_titlebar
@@ -267,9 +267,7 @@ left
 top
 =
 200
-noopener
 "
-window
 )
 ;
 }

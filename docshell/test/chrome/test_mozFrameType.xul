@@ -320,7 +320,7 @@ function
 {
 window
 .
-openDialog
+open
 (
 "
 mozFrameType_window
@@ -338,9 +338,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 }

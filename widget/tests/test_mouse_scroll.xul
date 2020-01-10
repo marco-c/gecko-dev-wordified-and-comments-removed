@@ -259,7 +259,7 @@ runTest
 {
 window
 .
-openDialog
+open
 (
 "
 window_mouse_scroll_win
@@ -277,9 +277,7 @@ width
 height
 =
 600
-noopener
 "
-window
 )
 ;
 }
