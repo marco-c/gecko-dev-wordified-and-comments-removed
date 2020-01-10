@@ -308,6 +308,11 @@ reason
 "
 rollback
 "
+enrollmentId
+:
+rollout
+.
+enrollmentId
 }
 )
 ;
@@ -353,6 +358,11 @@ reason
 "
 graduated
 "
+enrollmentId
+:
+rollout
+.
+enrollmentId
 }
 )
 ;
