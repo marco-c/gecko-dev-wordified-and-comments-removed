@@ -19825,14 +19825,6 @@ RecalcQuotesAndCounters
 (
 )
 ;
-viewManager
--
->
-FlushDelayedResize
-(
-true
-)
-;
 if
 (
 ProcessReflowCommands
