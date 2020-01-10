@@ -1,18 +1,9 @@
-#
-ifndef
-MOZ_BC_FIELD_RACY
-#
-define
-MOZ_BC_FIELD_RACY
 MOZ_BC_FIELD
-#
-endif
-MOZ_BC_FIELD_RACY
 (
 Name
 nsString
 )
-MOZ_BC_FIELD_RACY
+MOZ_BC_FIELD
 (
 Closed
 bool
@@ -38,7 +29,7 @@ MOZ_BC_FIELD
 OpenerId
 uint64_t
 )
-MOZ_BC_FIELD_RACY
+MOZ_BC_FIELD
 (
 IsActivatedByUserGesture
 bool
@@ -46,6 +37,3 @@ bool
 #
 undef
 MOZ_BC_FIELD
-#
-undef
-MOZ_BC_FIELD_RACY
