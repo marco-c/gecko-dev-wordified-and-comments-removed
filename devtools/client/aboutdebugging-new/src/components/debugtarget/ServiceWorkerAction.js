@@ -285,13 +285,14 @@ InspectAction
 {
 disabled
 :
+!
 this
 .
 props
 .
 runtimeDetails
 .
-isMultiE10s
+canDebugServiceWorkers
 dispatch
 :
 this

@@ -219,9 +219,9 @@ listener
 ;
 const
 {
-addMultiE10sListener
-isMultiE10s
-removeMultiE10sListener
+addDebugServiceWorkersListener
+canDebugServiceWorkers
+removeDebugServiceWorkersListener
 }
 =
 require
@@ -231,9 +231,11 @@ devtools
 /
 shared
 /
-multi
+service
 -
-e10s
+workers
+-
+debug
 -
 helper
 "
@@ -431,7 +433,7 @@ this
 updateDomain
 )
 ;
-addMultiE10sListener
+addDebugServiceWorkersListener
 (
 this
 .
@@ -572,8 +574,7 @@ updateCanDebugWorkers
 const
 canDebugWorkers
 =
-!
-isMultiE10s
+canDebugServiceWorkers
 (
 )
 ;
@@ -615,7 +616,7 @@ this
 updateDomain
 )
 ;
-removeMultiE10sListener
+removeDebugServiceWorkersListener
 (
 this
 .

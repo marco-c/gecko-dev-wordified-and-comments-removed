@@ -185,6 +185,11 @@ const
 runtimeDetails
 =
 {
+canDebugServiceWorkers
+:
+PropTypes
+.
+bool
 clientWrapper
 :
 PropTypes
@@ -222,11 +227,6 @@ runtimeInfo
 )
 .
 isRequired
-isMultiE10s
-:
-PropTypes
-.
-bool
 serviceWorkersAvailable
 :
 PropTypes

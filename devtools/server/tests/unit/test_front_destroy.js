@@ -144,14 +144,11 @@ destroy
 (
 )
 ;
+await
 Assert
 .
-throws
+rejects
 (
-(
-)
-=
->
 front
 .
 getDescription

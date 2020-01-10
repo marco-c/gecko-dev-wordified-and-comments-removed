@@ -404,6 +404,11 @@ getDescription
 ;
 return
 {
+canDebugServiceWorkers
+:
+description
+.
+canDebugServiceWorkers
 channel
 :
 description
@@ -414,11 +419,6 @@ deviceName
 description
 .
 deviceName
-isMultiE10s
-:
-description
-.
-isMultiE10s
 name
 :
 description
