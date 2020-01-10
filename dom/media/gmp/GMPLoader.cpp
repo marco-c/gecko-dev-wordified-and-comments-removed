@@ -778,17 +778,6 @@ aLibPath
 )
 override
 {
-if
-(
-IsMacSandboxStarted
-(
-)
-)
-{
-return
-true
-;
-}
 std
 :
 :
