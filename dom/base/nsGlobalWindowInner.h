@@ -5711,7 +5711,13 @@ IsInSyncOperation
 ;
 }
 bool
-IsCrossOriginIsolated
+IsSharedMemoryAllowed
+(
+)
+const
+;
+bool
+CrossOriginIsolated
 (
 )
 const

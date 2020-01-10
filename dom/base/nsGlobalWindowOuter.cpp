@@ -27062,7 +27062,7 @@ callerInnerWindow
 callerInnerWindow
 -
 >
-IsCrossOriginIsolated
+IsSharedMemoryAllowed
 (
 )
 )

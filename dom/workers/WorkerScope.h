@@ -637,6 +637,12 @@ aOrigin
 )
 const
 ;
+bool
+CrossOriginIsolated
+(
+)
+const
+;
 void
 Atob
 (

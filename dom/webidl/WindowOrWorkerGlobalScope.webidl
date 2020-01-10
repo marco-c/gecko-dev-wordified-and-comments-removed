@@ -225,6 +225,11 @@ attribute
 USVString
 origin
 ;
+readonly
+attribute
+boolean
+crossOriginIsolated
+;
 /
 /
 base64
