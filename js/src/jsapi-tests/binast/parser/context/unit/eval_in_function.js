@@ -1,0 +1,13 @@
+function
+foo
+(
+)
+{
+eval
+(
+"
+foo
+"
+)
+;
+}
