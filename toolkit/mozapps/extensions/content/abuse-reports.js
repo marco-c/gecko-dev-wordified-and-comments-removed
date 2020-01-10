@@ -782,6 +782,16 @@ AddonManager
 .
 PERM_CAN_UNINSTALL
 )
+&
+&
+!
+isPending
+(
+addon
+"
+uninstall
+"
+)
 )
 {
 barId
