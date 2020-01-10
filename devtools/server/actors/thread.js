@@ -7972,6 +7972,10 @@ undefined
 }
 if
 (
+!
+isWorker
+&
+&
 value
 =
 =
