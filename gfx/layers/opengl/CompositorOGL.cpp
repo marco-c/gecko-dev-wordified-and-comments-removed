@@ -3070,9 +3070,9 @@ size
 aRenderTarget
 -
 >
-mInitParams
-.
-mSize
+GetSize
+(
+)
 ;
 const
 gfx
@@ -3085,9 +3085,9 @@ phySize
 aRenderTarget
 -
 >
-mInitParams
-.
-mPhySize
+GetPhysicalSize
+(
+)
 ;
 mGLContext
 -
