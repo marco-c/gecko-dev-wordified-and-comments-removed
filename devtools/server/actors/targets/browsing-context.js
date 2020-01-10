@@ -4417,12 +4417,6 @@ paused
 "
 )
 {
-this
-.
-conn
-.
-send
-(
 threadActor
 .
 unsafeSynchronize
@@ -4433,9 +4427,8 @@ resolve
 (
 threadActor
 .
-onResume
+doResume
 (
-)
 )
 )
 )
