@@ -1199,6 +1199,11 @@ devtools
 -
 monospace
 "
+dir
+=
+"
+ltr
+"
 >
 {
 namedFunctions
