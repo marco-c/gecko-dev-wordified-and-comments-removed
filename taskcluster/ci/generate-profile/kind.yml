@@ -1056,6 +1056,13 @@ using
 run
 -
 task
+sparse
+-
+profile
+:
+profile
+-
+generate
 command
 :
 mv
@@ -1254,6 +1261,13 @@ using
 run
 -
 task
+sparse
+-
+profile
+:
+profile
+-
+generate
 command
 :
 mv
