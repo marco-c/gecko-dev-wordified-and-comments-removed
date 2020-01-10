@@ -4956,8 +4956,8 @@ bool
 isSandboxedFrom
 (
 in
-nsIDocShell
-aTargetDocShell
+BrowsingContext
+aTargetBC
 )
 ;
 /
