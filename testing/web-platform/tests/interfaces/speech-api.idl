@@ -439,7 +439,6 @@ grammar
 Exposed
 =
 Window
-Constructor
 ]
 interface
 SpeechGrammar
