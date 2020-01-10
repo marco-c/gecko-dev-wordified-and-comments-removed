@@ -53,6 +53,9 @@ skipURLs
 =
 [
 "
+addons
+"
+"
 credits
 "
 "
