@@ -3249,9 +3249,7 @@ keyframe
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 mQueuedSample
 )
@@ -3302,9 +3300,7 @@ continue
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 sample
 )

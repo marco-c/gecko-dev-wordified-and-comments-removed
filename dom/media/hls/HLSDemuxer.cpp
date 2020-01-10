@@ -1548,9 +1548,7 @@ keyframe
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 mQueuedSample
 )
@@ -1796,9 +1794,7 @@ __func__
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 mrd
 )

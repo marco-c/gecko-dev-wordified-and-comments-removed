@@ -7094,9 +7094,7 @@ break
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 sample
 )

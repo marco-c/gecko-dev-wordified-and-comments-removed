@@ -2503,9 +2503,7 @@ SamplesHolder
 samples
 -
 >
-mSamples
-.
-AppendElement
+AppendSample
 (
 sample
 )
