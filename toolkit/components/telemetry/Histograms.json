@@ -2307,7 +2307,7 @@ expires_in_version
 "
 :
 "
-73
+never
 "
 "
 releaseChannelCollection
@@ -2324,6 +2324,7 @@ bug_numbers
 :
 [
 1501974
+1589042
 ]
 "
 kind
