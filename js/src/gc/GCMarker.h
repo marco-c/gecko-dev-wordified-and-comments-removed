@@ -1981,7 +1981,7 @@ bool
 >
 delayedMarkingWorkAdded
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
