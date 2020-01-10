@@ -152,12 +152,12 @@ GENERATED_FILES
 '
 StatsPhasesGenerated
 .
-cpp
+h
 '
 '
 StatsPhasesGenerated
 .
-h
+inc
 '
 ]
 StatsPhasesGeneratedHeader
@@ -188,7 +188,7 @@ GENERATED_FILES
 '
 StatsPhasesGenerated
 .
-cpp
+inc
 '
 ]
 StatsPhasesGeneratedCpp

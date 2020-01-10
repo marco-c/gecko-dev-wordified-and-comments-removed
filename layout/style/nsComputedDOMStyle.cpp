@@ -937,7 +937,7 @@ include
 "
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 "
 uint32_t
 Length

@@ -1530,7 +1530,7 @@ h
 '
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 '
 '
 nsCSSPropsGenerated
@@ -1602,7 +1602,7 @@ GENERATED_FILES
 '
 nsComputedDOMStyleGenerated
 .
-cpp
+inc
 '
 ]
 computed
