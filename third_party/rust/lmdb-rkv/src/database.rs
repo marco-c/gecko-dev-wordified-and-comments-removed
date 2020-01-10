@@ -27,8 +27,8 @@ error
 :
 :
 {
-Result
 lmdb_result
+Result
 }
 ;
 #
@@ -175,8 +175,6 @@ Ok
 Database
 {
 dbi
-:
-dbi
 }
 )
 }
@@ -199,6 +197,16 @@ dbi
 0
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+trivially_copy_pass_by_ref
+)
+]
 pub
 fn
 dbi
