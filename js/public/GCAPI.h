@@ -568,6 +568,12 @@ FULL_CELL_PTR_STR_BUFFER
 28
 )
 \
+D
+(
+INCREMENTAL_MALLOC_TRIGGER
+29
+)
+\
 \
 /
 *
@@ -580,12 +586,6 @@ use
 .
 *
 /
-\
-D
-(
-RESERVED5
-29
-)
 \
 D
 (
