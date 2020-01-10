@@ -1728,7 +1728,9 @@ if
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 IsEmpty
 (
@@ -1844,7 +1846,9 @@ isNothing
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 LastElement
 (

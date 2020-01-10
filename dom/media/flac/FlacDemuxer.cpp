@@ -4496,7 +4496,9 @@ PRIu64
 frames
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 Length
 (
@@ -4518,7 +4520,9 @@ if
 frames
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 IsEmpty
 (

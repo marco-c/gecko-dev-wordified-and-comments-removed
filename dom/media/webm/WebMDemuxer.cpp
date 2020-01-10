@@ -6188,7 +6188,9 @@ if
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 .
 IsEmpty
 (
@@ -6213,7 +6215,9 @@ UpdateSamples
 samples
 -
 >
-mSamples
+GetSamples
+(
+)
 )
 ;
 return
@@ -6721,6 +6725,7 @@ WebMTrackDemuxer
 :
 UpdateSamples
 (
+const
 nsTArray
 <
 RefPtr

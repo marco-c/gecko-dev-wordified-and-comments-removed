@@ -1146,6 +1146,7 @@ WebMTrackDemuxer
 void
 UpdateSamples
 (
+const
 nsTArray
 <
 RefPtr
