@@ -225,9 +225,12 @@ PWebrtcTCPSocketChild
 AllocPWebrtcTCPSocketChild
 (
 const
-PBrowserOrId
+Maybe
+<
+TabId
+>
 &
-browser
+tabId
 )
 ;
 bool

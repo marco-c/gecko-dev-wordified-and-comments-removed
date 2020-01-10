@@ -335,7 +335,10 @@ PWebrtcTCPSocketParent
 AllocPWebrtcTCPSocketParent
 (
 const
+Maybe
+<
 TabId
+>
 &
 aTabId
 )

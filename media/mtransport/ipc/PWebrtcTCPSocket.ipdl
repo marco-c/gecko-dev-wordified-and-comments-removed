@@ -177,10 +177,13 @@ aLocalPort
 bool
 aUseTls
 LoadInfoArgs
+?
 aLoadInfoArgs
 nsCString
+?
 aAlpn
 int
+?
 proxyPolicy
 )
 ;

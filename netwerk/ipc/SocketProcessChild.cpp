@@ -1004,9 +1004,12 @@ SocketProcessChild
 AllocPWebrtcTCPSocketChild
 (
 const
-PBrowserOrId
+Maybe
+<
+TabId
+>
 &
-browser
+tabId
 )
 {
 MOZ_ASSERT_UNREACHABLE

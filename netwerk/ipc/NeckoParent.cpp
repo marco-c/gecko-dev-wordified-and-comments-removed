@@ -1793,7 +1793,10 @@ NeckoParent
 AllocPWebrtcTCPSocketParent
 (
 const
+Maybe
+<
 TabId
+>
 &
 aTabId
 )
