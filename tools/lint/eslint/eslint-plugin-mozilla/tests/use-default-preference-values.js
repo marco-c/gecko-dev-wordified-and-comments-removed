@@ -229,9 +229,6 @@ canThrow
 (
 )
 ;
-"
-+
-"
 blah
 =
 branch
