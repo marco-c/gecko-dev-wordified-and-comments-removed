@@ -1059,15 +1059,6 @@ components
 marionette
 .
 js
-RESPATH
-/
-defaults
-/
-pref
-/
-marionette
-.
-js
 #
 endif
 #

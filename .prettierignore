@@ -304,15 +304,6 @@ unit
 prefs_test_prefs_store
 .
 js
-testing
-/
-marionette
-/
-prefs
-/
-marionette
-.
-js
 #
 Ignore
 testing
