@@ -3424,7 +3424,7 @@ category
 "
 addonsManager
 "
-methods
+method
 :
 /
 ^
