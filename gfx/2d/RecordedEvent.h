@@ -1205,15 +1205,6 @@ const
 ;
 virtual
 ReferencePtr
-GetObjectRef
-(
-)
-const
-=
-0
-;
-virtual
-ReferencePtr
 GetDestinedDT
 (
 )
