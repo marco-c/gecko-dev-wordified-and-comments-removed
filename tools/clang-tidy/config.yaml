@@ -186,11 +186,11 @@ properly
 package_version
 :
 "
-9
+8
 .
 0
 .
-0
+1
 "
 clang_checkers
 :
