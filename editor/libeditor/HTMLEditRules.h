@@ -2164,6 +2164,9 @@ nsRange
 mDocChangeRange
 ;
 bool
+mInitialized
+;
+bool
 mListenerEnabled
 ;
 bool
