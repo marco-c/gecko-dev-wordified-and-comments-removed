@@ -2057,7 +2057,7 @@ add_task
 (
 async
 function
-bookmarkedMultiple
+suggestHistoryFalse_bookmark_multiple
 (
 )
 {
@@ -2285,7 +2285,7 @@ add_task
 (
 async
 function
-bookmarkedPrefixMultiple
+suggestHistoryFalse_bookmark_prefix_multiple
 (
 )
 {
