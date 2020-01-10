@@ -100,6 +100,10 @@ DIR
 dir
 )
 ;
+#
+define
+UUID_LEN
+37
 BOOL
 PathAppendSafe
 (
@@ -107,6 +111,13 @@ LPWSTR
 base
 LPCWSTR
 extra
+)
+;
+BOOL
+GetUUIDString
+(
+LPWSTR
+outBuf
 )
 ;
 BOOL
