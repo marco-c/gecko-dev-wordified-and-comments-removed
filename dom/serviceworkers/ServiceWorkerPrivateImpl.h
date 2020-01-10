@@ -180,6 +180,14 @@ Initialize
 (
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+SetSkipWaitingFlag
+(
+)
+;
 private
 :
 class

@@ -190,6 +190,12 @@ LOCAL_INCLUDES
 [
 '
 /
+dom
+/
+serviceworkers
+'
+'
+/
 xpcom
 /
 build
