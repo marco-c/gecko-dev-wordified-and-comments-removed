@@ -1811,7 +1811,7 @@ e
 )
 ;
 }
-_receiveMessage
+_receiveMessageAPI
 (
 aMessage
 )
