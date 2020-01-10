@@ -338,12 +338,12 @@ if
 mInputStream
 -
 >
-Active
+Audible
 (
 )
 )
 {
-NotifyActive
+NotifyAudible
 (
 )
 ;
@@ -939,7 +939,7 @@ void
 MediaStreamAudioSourceNode
 :
 :
-NotifyActive
+NotifyAudible
 (
 )
 {

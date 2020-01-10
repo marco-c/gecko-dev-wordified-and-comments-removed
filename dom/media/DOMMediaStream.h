@@ -538,6 +538,12 @@ IMPL_EVENT_HANDLER
 removetrack
 )
 bool
+Audible
+(
+)
+const
+;
+bool
 HasTrack
 (
 const
