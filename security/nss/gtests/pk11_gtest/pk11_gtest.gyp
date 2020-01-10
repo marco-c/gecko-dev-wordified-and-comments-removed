@@ -154,6 +154,11 @@ pk11_der_private_key_import_unittest
 cc
 '
 '
+pk11_des_unittest
+.
+cc
+'
+'
 pk11_ecdsa_unittest
 .
 cc

@@ -3161,11 +3161,9 @@ PR_FALSE
 SECStatus
 rv
 =
-sftkdb_CheckPassword
+sftkdb_CheckPasswordNull
 (
 keydb
-"
-"
 &
 tokenRemoved
 )
@@ -17657,11 +17655,9 @@ PR_FALSE
 ;
 rv
 =
-sftkdb_CheckPassword
+sftkdb_CheckPasswordNull
 (
 handle
-"
-"
 &
 tokenRemoved
 )

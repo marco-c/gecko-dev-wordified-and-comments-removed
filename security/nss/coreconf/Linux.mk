@@ -115,6 +115,13 @@ endif
 DEFAULT_COMPILER
 =
 gcc
+DEFINES
++
+=
+-
+D_DEFAULT_SOURCE
+-
+D_BSD_SOURCE
 ifeq
 (
 (

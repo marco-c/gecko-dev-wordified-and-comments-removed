@@ -3329,6 +3329,9 @@ Fo
 -
 c
 (
+CSTD
+)
+(
 CFLAGS
 )
 (
@@ -3347,6 +3350,9 @@ o
 -
 c
 (
+CSTD
+)
+(
 CFLAGS
 )
 (
@@ -3362,6 +3368,9 @@ CC
 o
 -
 c
+(
+CSTD
+)
 (
 CFLAGS
 )
@@ -3389,6 +3398,9 @@ Fo
 -
 c
 (
+CSTD
+)
+(
 CFLAGS
 )
 (
@@ -3407,6 +3419,9 @@ o
 -
 c
 (
+CSTD
+)
+(
 CFLAGS
 )
 (
@@ -3422,6 +3437,9 @@ CC
 o
 -
 c
+(
+CSTD
+)
 (
 CFLAGS
 )
@@ -3558,6 +3576,9 @@ Fo
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3579,6 +3600,9 @@ o
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3597,6 +3621,9 @@ CCC
 o
 -
 c
+(
+CXXSTD
+)
 (
 CFLAGS
 )
@@ -3670,6 +3697,9 @@ o
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3705,6 +3735,9 @@ Fo
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3726,6 +3759,9 @@ o
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3744,6 +3780,9 @@ CCC
 o
 -
 c
+(
+CXXSTD
+)
 (
 CFLAGS
 )
@@ -3808,6 +3847,9 @@ o
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3843,6 +3885,9 @@ Fo
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3864,6 +3909,9 @@ o
 -
 c
 (
+CXXSTD
+)
+(
 CFLAGS
 )
 (
@@ -3882,6 +3930,9 @@ CCC
 o
 -
 c
+(
+CXXSTD
+)
 (
 CFLAGS
 )
