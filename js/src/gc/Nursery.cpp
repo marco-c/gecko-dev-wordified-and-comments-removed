@@ -1726,6 +1726,12 @@ isEnabled
 return
 ;
 }
+decommitTask
+.
+join
+(
+)
+;
 freeChunksFrom
 (
 0
@@ -1925,6 +1931,12 @@ isSubChunkMode
 )
 )
 {
+decommitTask
+.
+join
+(
+)
+;
 chunk
 (
 0
