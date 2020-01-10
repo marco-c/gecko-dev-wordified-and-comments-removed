@@ -204,12 +204,6 @@ StartTranslation
 (
 )
 ;
-RefPtr
-<
-CanvasParent
->
-mSelfRef
-;
 UniquePtr
 <
 CanvasTranslator
