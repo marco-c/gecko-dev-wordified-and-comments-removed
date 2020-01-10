@@ -153,6 +153,7 @@ classifierHelper
 .
 allowCompletion
 =
+async
 function
 (
 lists
@@ -188,6 +189,7 @@ pref
 +
 list
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -225,6 +227,7 @@ backup
 "
 )
 ;
+await
 SpecialPowers
 .
 setCharPref
@@ -236,6 +239,7 @@ pref
 )
 ;
 }
+await
 SpecialPowers
 .
 setCharPref

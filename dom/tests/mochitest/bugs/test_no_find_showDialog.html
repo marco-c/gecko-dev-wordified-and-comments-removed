@@ -101,6 +101,7 @@ text
 javascript
 "
 >
+async
 function
 checkForFindDialog
 (
@@ -200,9 +201,10 @@ sawFind
 let
 sawFind
 =
+await
 chromeScript
 .
-sendSyncMessage
+sendQuery
 (
 "
 test
@@ -210,12 +212,6 @@ test
 check
 "
 )
-[
-0
-]
-[
-0
-]
 ;
 chromeScript
 .
@@ -523,6 +519,7 @@ dialog
 let
 sawWindow
 =
+await
 checkForFindDialog
 (
 )
