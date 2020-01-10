@@ -6951,7 +6951,7 @@ fission
 .
 autostart
 =
-1
+true
 "
 )
         
