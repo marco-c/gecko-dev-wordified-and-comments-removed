@@ -885,6 +885,17 @@ headline
 >
 <
 hbox
+id
+=
+"
+identity
+-
+popup
+-
+permissions
+-
+header
+"
 align
 =
 "
@@ -922,7 +933,7 @@ value
 &
 identity
 .
-permissions2
+permissions3
 ;
 "
 /
