@@ -13468,7 +13468,7 @@ return
 NS_ERROR_DOM_DATA_CLONE_ERR
 ;
 }
-InfallibleTArray
+nsTArray
 <
 mozilla
 :

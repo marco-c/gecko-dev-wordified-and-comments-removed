@@ -770,7 +770,7 @@ const
 bool
 &
 aAllow
-InfallibleTArray
+nsTArray
 <
 PermissionChoice
 >
