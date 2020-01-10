@@ -445,9 +445,7 @@ document
 querySelector
 (
 "
-confirm
--
-delete
+confirmation
 -
 dialog
 "
