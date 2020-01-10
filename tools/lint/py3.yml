@@ -89,10 +89,6 @@ toolkit
 -
 tools
 /
-profiler
--
-tools
-/
 rb
 -
 xpcom
