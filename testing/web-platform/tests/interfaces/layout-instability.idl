@@ -78,5 +78,13 @@ attribute
 DOMHighResTimeStamp
 lastInputTime
 ;
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
