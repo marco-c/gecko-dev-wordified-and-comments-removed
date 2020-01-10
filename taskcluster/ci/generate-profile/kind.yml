@@ -1065,6 +1065,13 @@ profile
 generate
 command
 :
+mv
+fetches
+build
+/
+src
+&
+&
 cd
 build
 /
@@ -1263,6 +1270,13 @@ profile
 generate
 command
 :
+mv
+fetches
+build
+/
+src
+&
+&
 cd
 build
 /
