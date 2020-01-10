@@ -2403,8 +2403,15 @@ shadowRoot
 querySelector
 (
 "
-#
-tab0
+.
+tab
+[
+idnumber
+=
+'
+0
+'
+]
 "
 )
 .
