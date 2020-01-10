@@ -109,6 +109,12 @@ release
 bouncer
 -
 check
+-
+release
+-
+push
+-
+langpacks
 job
 -
 defaults
