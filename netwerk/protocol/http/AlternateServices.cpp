@@ -2592,6 +2592,8 @@ separator
 :
 '
 ;
+_NS_NEXT_TOKEN
+;
 mIsolated
 =
 Substring
@@ -2609,8 +2611,6 @@ EqualsLiteral
 y
 "
 )
-;
-_NS_NEXT_TOKEN
 ;
 #
 undef
