@@ -423,7 +423,7 @@ nsIEditor
 :
 :
 EDirection
-aAction
+aDirectionAndAmount
 nsIEditor
 :
 :
