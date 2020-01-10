@@ -203,16 +203,6 @@ N
 ENTITY
 importButton
 .
-label
-"
-Import
-"
->
-<
-!
-ENTITY
-importButton
-.
 tooltip
 "
 Import
