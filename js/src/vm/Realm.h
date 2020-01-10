@@ -905,7 +905,7 @@ IteratorHashPolicy
 js
 :
 :
-SystemAllocPolicy
+ZoneAllocPolicy
 >
 ;
 IteratorCache
@@ -1270,7 +1270,7 @@ JSAtom
 js
 :
 :
-SystemAllocPolicy
+ZoneAllocPolicy
 >
 ;
 VarNamesSet
