@@ -2379,7 +2379,7 @@ frames
 typedef
 DebuggerWeakMap
 <
-JSObject
+AbstractGeneratorObject
 DebuggerFrame
 >
 GeneratorWeakMap
@@ -2425,7 +2425,7 @@ LazyScript
 typedef
 DebuggerWeakMap
 <
-JSObject
+ScriptSourceObject
 DebuggerSource
 true
 >
