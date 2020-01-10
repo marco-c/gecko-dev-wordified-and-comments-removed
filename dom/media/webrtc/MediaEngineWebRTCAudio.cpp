@@ -586,7 +586,7 @@ std
 :
 min
 (
-aInPrefs
+prefs
 .
 mChannels
 maxChannels
