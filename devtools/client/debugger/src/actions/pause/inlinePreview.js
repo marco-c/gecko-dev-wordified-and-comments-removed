@@ -959,6 +959,13 @@ displayValue
 displayValue
 .
 preview
+&
+&
+displayValue
+.
+preview
+.
+ownProperties
 )
 {
 const
