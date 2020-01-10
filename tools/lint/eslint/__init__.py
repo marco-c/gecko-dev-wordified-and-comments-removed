@@ -498,23 +498,6 @@ universal_newlines
 True
 )
     
-if
-sys
-.
-platform
-=
-=
-'
-win32
-'
-:
-        
-proc
-.
-env
-=
-None
-    
 proc
 .
 run
