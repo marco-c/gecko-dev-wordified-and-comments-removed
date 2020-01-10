@@ -2516,12 +2516,6 @@ filter
 addon
 =
 >
-!
-addon
-.
-isSystem
-&
-&
 addon
 .
 isActive
