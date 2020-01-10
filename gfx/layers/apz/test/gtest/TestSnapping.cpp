@@ -380,7 +380,7 @@ FromMilliseconds
 StaticPrefs
 :
 :
-MouseWheelTransactionTimeoutMs
+mousewheel_transaction_timeout
 (
 )
 +

@@ -1759,7 +1759,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-MouseWheelIgnoreMoveDelayMs
+mousewheel_transaction_ignoremovedelay
 (
 )
 )
@@ -1832,7 +1832,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-MouseWheelTransactionTimeoutMs
+mousewheel_transaction_timeout
 (
 )
 )
@@ -1976,7 +1976,7 @@ ToMilliseconds
 StaticPrefs
 :
 :
-MouseWheelIgnoreMoveDelayMs
+mousewheel_transaction_ignoremovedelay
 (
 )
 )
