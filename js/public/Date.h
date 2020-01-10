@@ -244,15 +244,12 @@ time
 )
 {
 return
-DoubleValue
-(
-CanonicalizeNaN
+CanonicalizedDoubleValue
 (
 time
 .
 toDouble
 (
-)
 )
 )
 ;
