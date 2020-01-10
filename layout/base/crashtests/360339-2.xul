@@ -94,10 +94,6 @@ float
 :
 right
 ;
-display
-:
-block
-;
 }
 #
 ping
@@ -105,13 +101,6 @@ ping
 float
 :
 none
-;
-display
-:
--
-moz
--
-box
 ;
 }
 <
