@@ -583,6 +583,15 @@ GetDocWidget
 )
 const
 ;
+already_AddRefed
+<
+nsIWidget
+>
+GetTextInputHandlingWidget
+(
+)
+const
+;
 nsIXULBrowserWindow
 *
 GetXULBrowserWindow
