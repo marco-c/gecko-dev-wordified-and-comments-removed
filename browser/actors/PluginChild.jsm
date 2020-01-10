@@ -361,7 +361,9 @@ getTarget
 (
 this
 .
-mm
+docShell
+.
+browsingContext
 msg
 "
 plugin
@@ -387,7 +389,9 @@ getTarget
 (
 this
 .
-mm
+docShell
+.
+browsingContext
 msg
 "
 plugin
