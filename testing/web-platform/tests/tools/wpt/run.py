@@ -899,7 +899,13 @@ not
 in
 (
 "
+android_webview
+"
+"
 chrome
+"
+"
+chrome_android
 "
 "
 firefox
