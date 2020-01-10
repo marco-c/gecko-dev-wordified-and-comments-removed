@@ -943,7 +943,6 @@ AssertIsOnOwningThread
 ;
 IDBTransaction
 *
-const
 transaction
 =
 aObjectStore
@@ -1028,7 +1027,6 @@ aClosure
 ;
 auto
 *
-const
 cloneWriteInfo
 =
 static_cast
@@ -1150,7 +1148,6 @@ false
 }
 IDBDatabase
 *
-const
 database
 =
 mutableFile
@@ -1342,7 +1339,6 @@ Length
 (
 )
 ;
-const
 NS_ConvertUTF16toUTF8
 convType
 (
@@ -1354,7 +1350,6 @@ Type
 )
 )
 ;
-const
 uint32_t
 convTypeLength
 =
@@ -1370,7 +1365,6 @@ Length
 )
 )
 ;
-const
 NS_ConvertUTF16toUTF8
 convName
 (
@@ -1382,7 +1376,6 @@ Name
 )
 )
 ;
-const
 uint32_t
 convNameLength
 =
@@ -1478,7 +1471,6 @@ false
 }
 StructuredCloneFile
 *
-const
 newFile
 =
 cloneWriteInfo
@@ -1535,9 +1527,8 @@ blob
 ErrorResult
 rv
 ;
-const
 uint64_t
-nativeEndianSize
+size
 =
 blob
 -
@@ -1557,8 +1548,6 @@ Failed
 )
 )
 ;
-const
-uint64_t
 size
 =
 NativeEndian
@@ -1566,7 +1555,7 @@ NativeEndian
 :
 swapToLittleEndian
 (
-nativeEndianSize
+size
 )
 ;
 nsString
@@ -1580,14 +1569,12 @@ GetType
 type
 )
 ;
-const
 NS_ConvertUTF16toUTF8
 convType
 (
 type
 )
 ;
-const
 uint32_t
 convTypeLength
 =
@@ -1722,7 +1709,6 @@ return
 false
 ;
 }
-const
 RefPtr
 <
 File
@@ -1744,9 +1730,8 @@ file
 ErrorResult
 rv
 ;
-const
 int64_t
-nativeEndianLastModifiedDate
+lastModifiedDate
 =
 file
 -
@@ -1766,8 +1751,6 @@ Failed
 )
 )
 ;
-const
-int64_t
 lastModifiedDate
 =
 NativeEndian
@@ -1775,7 +1758,7 @@ NativeEndian
 :
 swapToLittleEndian
 (
-nativeEndianLastModifiedDate
+lastModifiedDate
 )
 ;
 nsString
@@ -1789,14 +1772,12 @@ GetName
 name
 )
 ;
-const
 NS_ConvertUTF16toUTF8
 convName
 (
 name
 )
 ;
-const
 uint32_t
 convNameLength
 =
@@ -1864,7 +1845,6 @@ false
 }
 StructuredCloneFile
 *
-const
 newFile
 =
 cloneWriteInfo
@@ -1950,7 +1930,6 @@ aClosure
 ;
 auto
 *
-const
 cloneInfo
 =
 static_cast
@@ -2078,7 +2057,6 @@ false
 }
 StructuredCloneFile
 *
-const
 newFile
 =
 cloneInfo
@@ -2200,7 +2178,6 @@ false
 }
 StructuredCloneFile
 *
-const
 newFile
 =
 cloneInfo
@@ -2279,7 +2256,6 @@ aCx
 ;
 auto
 *
-const
 data
 =
 static_cast
@@ -2456,7 +2432,6 @@ false
 }
 char
 *
-const
 buffer
 =
 aString
@@ -3215,7 +3190,6 @@ aFile
 mFileInfo
 )
 ;
-const
 nsCOMPtr
 <
 nsIFile
@@ -3242,7 +3216,6 @@ return
 false
 ;
 }
-const
 RefPtr
 <
 FileBlobImpl
@@ -3419,7 +3392,6 @@ IsFile
 )
 )
 ;
-const
 RefPtr
 <
 Blob
@@ -3533,7 +3505,6 @@ IsFile
 )
 )
 ;
-const
 RefPtr
 <
 File
@@ -3804,7 +3775,6 @@ SCTAG_DOM_WASM
 {
 auto
 *
-const
 cloneReadInfo
 =
 static_cast
@@ -4183,7 +4153,6 @@ SCTAG_DOM_MUTABLEFILE
 {
 auto
 *
-const
 cloneInfo
 =
 static_cast
@@ -4361,7 +4330,6 @@ eBlob
 )
 ;
 {
-const
 RefPtr
 <
 Blob
@@ -4382,7 +4350,6 @@ IsFile
 )
 )
 ;
-const
 RefPtr
 <
 File
@@ -5517,7 +5484,6 @@ mSandbox
 {
 nsIXPConnect
 *
-const
 xpc
 =
 nsContentUtils
@@ -5540,7 +5506,6 @@ null
 "
 )
 ;
-const
 nsCOMPtr
 <
 nsIPrincipal
@@ -5892,7 +5857,6 @@ Init
 ;
 JSContext
 *
-const
 cx
 =
 jsapi
@@ -5939,7 +5903,6 @@ return
 NS_OK
 ;
 }
-const
 JSAutoRealm
 ar
 (
@@ -6143,7 +6106,6 @@ Notify
 Monitor
 mMonitor
 ;
-const
 int64_t
 mIndexID
 ;
@@ -6152,7 +6114,6 @@ KeyPath
 &
 mKeyPath
 ;
-const
 bool
 mMultiEntry
 ;
@@ -6280,7 +6241,6 @@ self
 =
 this
 ;
-const
 nsresult
 rv
 =
@@ -6412,7 +6372,6 @@ return
 NS_OK
 ;
 }
-const
 JSAutoRealm
 ar
 (
@@ -6435,7 +6394,6 @@ value
 cx
 )
 ;
-const
 nsresult
 rv
 =
@@ -6577,7 +6535,6 @@ index
 +
 )
 {
-const
 StructuredCloneFile
 &
 file
@@ -6722,7 +6679,6 @@ NS_IsMainThread
 )
 )
 ;
-const
 RefPtr
 <
 DeserializeIndexValueHelper
@@ -6771,7 +6727,6 @@ NS_IsMainThread
 )
 )
 ;
-const
 RefPtr
 <
 DeserializeUpgradeValueHelper
@@ -6886,7 +6841,6 @@ NS_ERROR_DOM_INDEXEDDB_DATA_ERR
 return
 ;
 }
-const
 bool
 isAutoIncrement
 =
@@ -6902,7 +6856,6 @@ HasValidKeyPath
 )
 )
 {
-const
 auto
 result
 =
@@ -7080,7 +7033,6 @@ indexes
 (
 )
 ;
-const
 uint32_t
 idxCount
 =
@@ -7562,7 +7514,6 @@ Length
 )
 ;
 }
-const
 size_t
 messageSize
 =
@@ -7774,7 +7725,6 @@ nullptr
 }
 IDBDatabase
 *
-const
 database
 =
 mTransaction
@@ -7811,7 +7761,6 @@ index
 ;
 FileAddInfo
 *
-const
 fileAddInfo
 =
 fileAddInfos
@@ -7857,7 +7806,6 @@ mMutableFile
 ;
 PBackgroundIDBDatabaseFileChild
 *
-const
 fileActor
 =
 database
@@ -7939,7 +7887,6 @@ mBlob
 ;
 PBackgroundMutableFileChild
 *
-const
 mutableFileActor
 =
 file
@@ -8026,7 +7973,6 @@ mMutableFile
 ;
 PBackgroundIDBDatabaseFileChild
 *
-const
 fileActor
 =
 database
@@ -8110,29 +8056,32 @@ fileAddInfos
 )
 ;
 }
-const
-auto
-&
+RequestParams
+params
+;
+if
+(
+aOverwrite
+)
+{
 params
 =
-aOverwrite
-?
-RequestParams
-{
 ObjectStorePutParams
 (
 commonParams
 )
+;
 }
-:
-RequestParams
+else
 {
+params
+=
 ObjectStoreAddParams
 (
 commonParams
 )
-}
 ;
+}
 RefPtr
 <
 IDBRequest
@@ -8311,13 +8260,6 @@ StartRequest
 (
 request
 params
-)
-;
-mTransaction
--
->
-InvalidateCursorCaches
-(
 )
 ;
 return
@@ -8712,13 +8654,6 @@ aLimit
 mTransaction
 -
 >
-InvalidateCursorCaches
-(
-)
-;
-mTransaction
--
->
 StartRequest
 (
 request
@@ -8814,15 +8749,18 @@ return
 nullptr
 ;
 }
-const
 ObjectStoreClearParams
 params
+;
+params
+.
+objectStoreId
+(
+)
 =
-{
 Id
 (
 )
-}
 ;
 RefPtr
 <
@@ -9683,31 +9621,34 @@ ToSerialized
 serializedKeyRange
 )
 ;
-const
-auto
-&
+RequestParams
+params
+;
+if
+(
+aKeyOnly
+)
+{
 params
 =
-aKeyOnly
-?
-RequestParams
-{
 ObjectStoreGetKeyParams
 (
 id
 serializedKeyRange
 )
+;
 }
-:
-RequestParams
+else
 {
+params
+=
 ObjectStoreGetParams
 (
 id
 serializedKeyRange
 )
-}
 ;
+}
 RefPtr
 <
 IDBRequest
@@ -9792,13 +9733,6 @@ IDB_LOG_STRINGIFY
 (
 keyRange
 )
-)
-;
-mTransaction
--
->
-InvalidateCursorCaches
-(
 )
 ;
 mTransaction
@@ -10094,13 +10028,6 @@ request
 params
 )
 ;
-mTransaction
--
->
-InvalidateCursorCaches
-(
-)
-;
 return
 request
 .
@@ -10171,7 +10098,6 @@ nullptr
 }
 IDBTransaction
 *
-const
 transaction
 =
 IDBTransaction
@@ -10502,7 +10428,6 @@ endif
 const
 IndexMetadata
 *
-const
 oldMetadataElements
 =
 indexes
@@ -10558,7 +10483,6 @@ GetLocale
 }
 IndexMetadata
 *
-const
 metadata
 =
 indexes
@@ -11499,7 +11423,6 @@ return
 nullptr
 ;
 }
-const
 int64_t
 objectStoreId
 =
@@ -11543,7 +11466,6 @@ serializedKeyRange
 )
 ;
 }
-const
 IDBCursor
 :
 :
@@ -11778,7 +11700,6 @@ direction
 }
 BackgroundCursorChild
 *
-const
 actor
 =
 new
@@ -12339,7 +12260,6 @@ loggingOldObjectStore
 this
 )
 ;
-const
 nsresult
 rv
 =
