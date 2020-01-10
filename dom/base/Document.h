@@ -9427,6 +9427,12 @@ dom
 :
 CallerType
 aCallerType
+mozilla
+:
+:
+ErrorResult
+&
+rv
 )
 ;
 MOZ_CAN_RUN_SCRIPT

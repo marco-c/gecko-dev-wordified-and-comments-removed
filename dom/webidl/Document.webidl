@@ -1293,6 +1293,7 @@ commandId
 )
 ;
 [
+Throws
 NeedsCallerType
 ]
 boolean
