@@ -1489,12 +1489,6 @@ identity
 (
 )
 color
-:
-color
-.
-into
-(
-)
 size
 :
 base
