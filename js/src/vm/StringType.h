@@ -748,7 +748,7 @@ static_assert
 JSString
 :
 :
-offsetOfFlags
+offsetOfRawFlagsField
 (
 )
 =
