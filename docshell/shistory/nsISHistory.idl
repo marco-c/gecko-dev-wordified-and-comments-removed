@@ -1621,5 +1621,10 @@ bool
 aReplace
 )
 ;
+nsISHEntry
+createEntry
+(
+)
+;
 }
 ;

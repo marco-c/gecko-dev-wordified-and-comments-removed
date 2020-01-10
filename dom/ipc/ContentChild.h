@@ -3266,6 +3266,9 @@ PSHEntryChild
 *
 AllocPSHEntryChild
 (
+PSHistoryChild
+*
+aSHistory
 const
 PSHEntryOrSharedID
 &

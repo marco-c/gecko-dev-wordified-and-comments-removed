@@ -5003,6 +5003,8 @@ id
 sync
 PSHEntry
 (
+PSHistory
+shistory
 PSHEntryOrSharedID
 entryOrSharedID
 )

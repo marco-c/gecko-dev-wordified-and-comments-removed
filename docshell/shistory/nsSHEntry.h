@@ -240,6 +240,9 @@ public
 explicit
 nsLegacySHEntry
 (
+nsSHistory
+*
+aHistory
 uint64_t
 aID
 )

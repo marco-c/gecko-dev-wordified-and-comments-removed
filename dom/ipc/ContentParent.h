@@ -2558,6 +2558,9 @@ PSHEntryParent
 *
 AllocPSHEntryParent
 (
+PSHistoryParent
+*
+aSHistory
 const
 PSHEntryOrSharedID
 &
