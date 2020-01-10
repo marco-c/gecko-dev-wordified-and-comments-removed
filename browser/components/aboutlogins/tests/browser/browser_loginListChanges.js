@@ -72,7 +72,7 @@ password
 "
 deraj
 "
-hostname
+origin
 :
 "
 https
@@ -244,7 +244,7 @@ password
 "
 deraj
 "
-hostname
+origin
 :
 "
 https
@@ -430,7 +430,7 @@ password
 "
 deraj
 "
-hostname
+origin
 :
 "
 https

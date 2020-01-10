@@ -235,7 +235,7 @@ password
 "
 123456789
 "
-hostname
+origin
 :
 "
 https
@@ -246,7 +246,7 @@ twitter
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -643,7 +643,7 @@ password
 "
 password0
 "
-hostname
+origin
 :
 "
 https
@@ -656,7 +656,7 @@ facebook
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -695,7 +695,7 @@ password
 "
 password1
 "
-hostname
+origin
 :
 "
 https
@@ -708,7 +708,7 @@ facebook
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -747,7 +747,7 @@ password
 "
 password2
 "
-hostname
+origin
 :
 "
 https
@@ -760,7 +760,7 @@ facebook
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -799,7 +799,7 @@ password
 "
 password3
 "
-hostname
+origin
 :
 "
 https
@@ -812,7 +812,7 @@ facebook
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -999,7 +999,7 @@ P
 w
 rd
 "
-hostname
+origin
 :
 "
 https
@@ -1012,7 +1012,7 @@ live
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -1462,7 +1462,7 @@ Bitte
 best
 tigen
 "
-hostname
+origin
 :
 "
 http
@@ -1475,7 +1475,7 @@ reddit
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -1513,7 +1513,7 @@ password
 "
 .
 "
-hostname
+origin
 :
 "
 http
@@ -1526,7 +1526,7 @@ reddit
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -1568,7 +1568,7 @@ v
 rifier
 nouveau
 "
-hostname
+origin
 :
 "
 http
@@ -1581,7 +1581,7 @@ reddit
 .
 com
 "
-formSubmitURL
+formActionOrigin
 :
 "
 "

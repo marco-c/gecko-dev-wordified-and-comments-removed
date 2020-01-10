@@ -4249,7 +4249,7 @@ push
 {
 username
 password
-hostname
+origin
 :
 realURL
 .

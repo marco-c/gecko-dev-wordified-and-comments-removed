@@ -227,7 +227,7 @@ return
 (
 login
 .
-hostname
+origin
 |
 |
 "
@@ -320,7 +320,7 @@ URL
 (
 login
 .
-hostname
+origin
 )
 )
 .
@@ -336,7 +336,7 @@ title
 =
 login
 .
-hostname
+origin
 ;
 }
 title
@@ -467,7 +467,7 @@ assign
 (
 newLogin
 {
-formSubmitURL
+formActionOrigin
 :
 "
 "
@@ -618,7 +618,7 @@ logins
 0
 ]
 .
-hostname
+origin
 "
 tab
 "

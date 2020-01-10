@@ -255,13 +255,6 @@ symbol
 =
 *
 .
-hostname
--
-label
-=
-Website
-Address
-.
 modal
 -
 input
@@ -304,6 +297,13 @@ site
 button
 =
 Launch
+.
+origin
+-
+label
+=
+Website
+Address
 .
 password
 -

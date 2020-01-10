@@ -2362,12 +2362,12 @@ password_value
 )
 null
 )
-hostname
+origin
 :
 origin_url
 .
 prePath
-formSubmitURL
+formActionOrigin
 :
 null
 httpRealm
@@ -2465,7 +2465,7 @@ action_url
 {
 loginInfo
 .
-formSubmitURL
+formActionOrigin
 =
 "
 "
@@ -2501,7 +2501,7 @@ continue
 }
 loginInfo
 .
-formSubmitURL
+formActionOrigin
 =
 action_uri
 .
@@ -2536,7 +2536,7 @@ substring
 (
 loginInfo
 .
-hostname
+origin
 .
 length
 +

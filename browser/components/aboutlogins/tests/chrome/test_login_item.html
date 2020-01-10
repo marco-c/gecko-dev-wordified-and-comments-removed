@@ -240,7 +240,7 @@ guid
 "
 123456789
 "
-hostname
+origin
 :
 "
 https
@@ -287,7 +287,7 @@ guid
 "
 987654321
 "
-hostname
+origin
 :
 "
 https
@@ -446,7 +446,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -458,7 +458,7 @@ textContent
 "
 "
 "
-hostname
+origin
 should
 be
 blank
@@ -696,7 +696,7 @@ mode
 )
 ;
 let
-savedHostname
+savedOrigin
 =
 gLoginItem
 .
@@ -706,7 +706,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -718,7 +718,7 @@ is
 (
 getComputedStyle
 (
-savedHostname
+savedOrigin
 )
 .
 display
@@ -727,7 +727,7 @@ inline
 "
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -745,7 +745,7 @@ logins
 )
 ;
 let
-hostnameInput
+originInput
 =
 gLoginItem
 .
@@ -759,7 +759,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -769,7 +769,7 @@ is
 (
 getComputedStyle
 (
-hostnameInput
+originInput
 )
 .
 display
@@ -782,7 +782,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 should
@@ -799,14 +799,14 @@ logins
 ;
 is
 (
-savedHostname
+savedOrigin
 .
 textContent
 TEST_LOGIN_1
 .
-hostname
+origin
 "
-hostname
+origin
 should
 be
 populated
@@ -1059,7 +1059,7 @@ mode
 )
 ;
 let
-savedHostname
+savedOrigin
 =
 gLoginItem
 .
@@ -1069,7 +1069,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -1081,7 +1081,7 @@ is
 (
 getComputedStyle
 (
-savedHostname
+savedOrigin
 )
 .
 display
@@ -1090,7 +1090,7 @@ inline
 "
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -1106,7 +1106,7 @@ logins
 )
 ;
 let
-hostnameInput
+originInput
 =
 gLoginItem
 .
@@ -1120,7 +1120,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -1130,7 +1130,7 @@ is
 (
 getComputedStyle
 (
-hostnameInput
+originInput
 )
 .
 display
@@ -1143,7 +1143,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 should
@@ -1158,14 +1158,14 @@ logins
 ;
 is
 (
-savedHostname
+savedOrigin
 .
 textContent
 TEST_LOGIN_1
 .
-hostname
+origin
 "
-hostname
+origin
 should
 be
 populated
@@ -1422,15 +1422,15 @@ event
 .
 detail
 .
-hostname
+origin
 TEST_LOGIN_1
 .
-hostname
+origin
 "
 event
 should
 include
-hostname
+origin
 "
 )
 ;
@@ -1925,7 +1925,7 @@ mode
 )
 ;
 let
-savedHostname
+savedOrigin
 =
 gLoginItem
 .
@@ -1935,7 +1935,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -1947,7 +1947,7 @@ is
 (
 getComputedStyle
 (
-savedHostname
+savedOrigin
 )
 .
 display
@@ -1956,7 +1956,7 @@ none
 "
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -1971,7 +1971,7 @@ logins
 )
 ;
 let
-hostnameInput
+originInput
 =
 gLoginItem
 .
@@ -1985,7 +1985,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 "
@@ -1995,7 +1995,7 @@ is
 (
 getComputedStyle
 (
-hostnameInput
+originInput
 )
 .
 display
@@ -2010,7 +2010,7 @@ input
 name
 =
 '
-hostname
+origin
 '
 ]
 should
@@ -2257,7 +2257,7 @@ invalid
 ;
 ok
 (
-hostnameInput
+originInput
 .
 matches
 (
@@ -2267,14 +2267,14 @@ invalid
 "
 )
 "
-hostname
+origin
 value
 is
 required
 "
 )
 ;
-hostnameInput
+originInput
 .
 value
 =
@@ -2376,7 +2376,7 @@ event
 .
 detail
 .
-hostname
+origin
 "
 https
 :
@@ -2392,7 +2392,7 @@ foo
 event
 should
 include
-hostname
+origin
 "
 )
 ;
@@ -2550,7 +2550,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -2561,9 +2561,9 @@ value
 textContent
 TEST_LOGIN_1
 .
-hostname
+origin
 "
-hostname
+origin
 should
 be
 unchanged
@@ -2792,7 +2792,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -2803,9 +2803,9 @@ value
 textContent
 TEST_LOGIN_1
 .
-hostname
+origin
 "
-hostname
+origin
 should
 be
 unchanged
@@ -3029,7 +3029,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -3040,9 +3040,9 @@ value
 textContent
 modifiedLogin
 .
-hostname
+origin
 "
-hostname
+origin
 should
 be
 updated
@@ -3247,7 +3247,7 @@ querySelector
 (
 "
 .
-hostname
+origin
 -
 saved
 -
@@ -3259,7 +3259,7 @@ textContent
 "
 "
 "
-hostname
+origin
 should
 be
 cleared

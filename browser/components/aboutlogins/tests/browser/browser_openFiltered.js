@@ -227,7 +227,7 @@ encodeURIComponent
 (
 TEST_LOGIN1
 .
-hostname
+origin
 )
 true
 )
@@ -242,7 +242,7 @@ filterString
 :
 TEST_LOGIN1
 .
-hostname
+origin
 entryPoint
 :
 "
@@ -414,7 +414,7 @@ logins
 0
 ]
 .
-hostname
+origin
 "
 The
 filter
