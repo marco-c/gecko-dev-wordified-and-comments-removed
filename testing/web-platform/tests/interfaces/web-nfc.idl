@@ -150,6 +150,14 @@ toJSON
 (
 )
 ;
+sequence
+<
+NDEFRecord
+>
+toRecords
+(
+)
+;
 }
 ;
 dictionary
