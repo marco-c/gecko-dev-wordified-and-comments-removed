@@ -9336,7 +9336,7 @@ scratch1
 offset
 )
 ;
-StoreToTypedArray
+StoreToTypedObject
 (
 cx_
 masm

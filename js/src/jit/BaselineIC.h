@@ -7025,13 +7025,8 @@ hasStaticPrototype
 struct
 IonOsrTempData
 ;
-template
-<
-typename
-T
->
 void
-StoreToTypedArray
+StoreToTypedObject
 (
 JSContext
 *
@@ -7049,7 +7044,7 @@ ValueOperand
 &
 value
 const
-T
+Address
 &
 dest
 Register

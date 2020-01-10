@@ -6318,7 +6318,7 @@ scratch1
 0
 )
 ;
-StoreToTypedArray
+StoreToTypedObject
 (
 cx_
 masm
