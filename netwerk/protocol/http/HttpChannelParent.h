@@ -387,16 +387,6 @@ OtherPid
 )
 const
 ;
-nsresult
-TriggerCrossProcessSwitch
-(
-nsIHttpChannel
-*
-aChannel
-uint64_t
-aIdentifier
-)
-;
 void
 OverrideReferrerInfoDuringBeginConnect
 (

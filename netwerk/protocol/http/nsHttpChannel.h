@@ -1591,11 +1591,6 @@ redirectFlags
 )
 override
 ;
-nsresult
-StartCrossProcessRedirect
-(
-)
-;
 MOZ_MUST_USE
 nsresult
 ProxyFailover
