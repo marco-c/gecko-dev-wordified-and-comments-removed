@@ -1691,16 +1691,6 @@ localhost
 true
 )
 ;
-pref
-(
-"
-general
-.
-smoothScroll
-"
-true
-)
-;
 #
 ifdef
 UNIX_BUT_NOT_MAC

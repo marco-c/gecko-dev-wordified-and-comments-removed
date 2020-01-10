@@ -8273,14 +8273,6 @@ NS_QUERYFRAME_TAIL_INHERITING
 (
 nsBoxFrame
 )
-#
-define
-SMOOTH_SCROLL_PREF_NAME
-"
-general
-.
-smoothScroll
-"
 class
 ScrollFrameHelper
 :
@@ -9645,13 +9637,11 @@ IsSmoothScrollingEnabled
 )
 {
 return
-Preferences
+StaticPrefs
 :
 :
-GetBool
+general_smoothScroll
 (
-SMOOTH_SCROLL_PREF_NAME
-false
 )
 ;
 }
@@ -11217,7 +11207,6 @@ Now
 bool
 isSmoothScroll
 =
-(
 aMode
 =
 =
@@ -11225,7 +11214,6 @@ ScrollMode
 :
 :
 Smooth
-)
 &
 &
 IsSmoothScrollingEnabled
