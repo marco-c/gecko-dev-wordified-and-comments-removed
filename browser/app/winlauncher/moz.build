@@ -460,6 +460,16 @@ LauncherRegistryInfo
 .
 cpp
 '
+'
+/
+toolkit
+/
+xre
+/
+WinTokenUtils
+.
+cpp
+'
 ]
 for
 var
