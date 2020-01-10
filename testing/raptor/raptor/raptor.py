@@ -708,13 +708,13 @@ RaptorResultsHandler
         
 self
 .
-build_browser_profile
+start_control_server
 (
 )
         
 self
 .
-start_control_server
+build_browser_profile
 (
 )
     
@@ -1553,6 +1553,16 @@ local_profile_dir
 self
 .
 profile
+.
+profile
+        
+self
+.
+control_server
+.
+user_profile
+=
+self
 .
 profile
     
