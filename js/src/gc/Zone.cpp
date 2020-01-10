@@ -3902,6 +3902,15 @@ MemoryUse
 :
 :
 RegExpSharedBytecode
+|
+|
+use
+=
+=
+MemoryUse
+:
+:
+BreakpointSite
 ;
 }
 void
