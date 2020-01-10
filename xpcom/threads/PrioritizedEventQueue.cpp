@@ -2016,6 +2016,15 @@ XRE_IsContentProcess
 NS_IsMainThread
 (
 )
+&
+&
+!
+recordreplay
+:
+:
+IsRecordingOrReplaying
+(
+)
 )
 {
 mIdleScheduler
