@@ -3680,6 +3680,17 @@ done
 /
 >
 <
+ignore
+regexp
+=
+"
+updatednewfirstrun_sync_subtext
+|
+updatednewfirstrun_signin_button
+"
+/
+>
+<
 /
 issue
 >

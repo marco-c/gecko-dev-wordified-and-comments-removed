@@ -339,14 +339,6 @@ Sync
 <
 !
 ENTITY
-firstrun_account_title
-"
-Account
-"
->
-<
-!
-ENTITY
 firstrun_sync_message2
 "
 Pick
