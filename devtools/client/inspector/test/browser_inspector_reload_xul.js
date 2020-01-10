@@ -11,7 +11,7 @@ URL_ROOT
 "
 doc_inspector_reload_xul
 .
-xul
+xhtml
 "
 ;
 add_task

@@ -60,7 +60,7 @@ doc_inplace
 -
 editor_autocomplete_offset
 .
-xul
+xhtml
 "
 ;
 const

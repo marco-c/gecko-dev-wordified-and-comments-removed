@@ -109,7 +109,7 @@ doc_options
 -
 view
 .
-xul
+xhtml
 "
 ;
 const

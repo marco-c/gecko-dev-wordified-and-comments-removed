@@ -32,7 +32,7 @@ doc_html_tooltip_arrow
 -
 01
 .
-xul
+xhtml
 "
 ;
 const

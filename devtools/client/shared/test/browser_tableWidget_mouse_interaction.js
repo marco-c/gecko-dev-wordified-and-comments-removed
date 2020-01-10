@@ -11,7 +11,7 @@ CHROME_URL_ROOT
 "
 doc_tableWidget_mouse_interaction
 .
-xul
+xhtml
 "
 ;
 const

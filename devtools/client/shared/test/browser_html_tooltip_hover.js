@@ -30,7 +30,7 @@ CHROME_URL_ROOT
 "
 doc_html_tooltip_hover
 .
-xul
+xhtml
 "
 ;
 const

@@ -35,7 +35,7 @@ TEST_URL_ROOT
 "
 doc_content_stylesheet
 .
-xul
+xhtml
 "
 ;
 const
