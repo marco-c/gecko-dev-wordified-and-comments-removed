@@ -905,6 +905,9 @@ I32Wait
 I64Wait
 =
 0x02
+Fence
+=
+0x03
 I32AtomicLoad
 =
 0x10
