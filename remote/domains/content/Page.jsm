@@ -652,7 +652,6 @@ Page
 navigatedWithinDocument
 "
 {
-timestamp
 frameId
 url
 }
@@ -668,7 +667,6 @@ Page
 frameStoppedLoading
 "
 {
-timestamp
 frameId
 }
 )
