@@ -5895,6 +5895,8 @@ SetSecurityLevelForGMPlugin
 (
 SandboxLevel
 aLevel
+bool
+aIsRemoteLaunch
 )
 {
 if
@@ -7080,6 +7082,16 @@ TargetPolicy
 :
 :
 SUBSYS_HANDLES
+aIsRemoteLaunch
+?
+sandbox
+:
+:
+TargetPolicy
+:
+:
+HANDLES_DUP_ANY
+:
 sandbox
 :
 :

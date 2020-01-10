@@ -175,6 +175,10 @@ SetSecurityLevelForGMPlugin
 (
 SandboxLevel
 aLevel
+bool
+aIsRemoteLaunch
+=
+false
 )
 =
 0
@@ -321,6 +325,10 @@ SetSecurityLevelForGMPlugin
 (
 SandboxLevel
 aLevel
+bool
+aIsRemoteLaunch
+=
+false
 )
 override
 ;
