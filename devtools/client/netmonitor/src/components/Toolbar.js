@@ -2018,10 +2018,14 @@ id
 "
 netmonitor
 -
-main
--
 toolbar
+-
+container
 "
+}
+span
+(
+{
 className
 :
 "
@@ -2108,6 +2112,7 @@ this
 .
 renderHarButton
 (
+)
 )
 )
 )
