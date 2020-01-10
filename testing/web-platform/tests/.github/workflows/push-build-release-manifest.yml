@@ -23,7 +23,9 @@ on
 :
 ubuntu
 -
-latest
+18
+.
+04
 steps
 :
 -
@@ -32,7 +34,14 @@ uses
 actions
 /
 checkout
-master
+v1
+with
+:
+fetch
+-
+depth
+:
+1
 -
 name
 :

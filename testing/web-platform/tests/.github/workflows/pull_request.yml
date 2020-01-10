@@ -22,7 +22,9 @@ on
 :
 ubuntu
 -
-latest
+18
+.
+04
 steps
 :
 -
@@ -32,10 +34,6 @@ actions
 /
 checkout
 v1
-.
-0
-.
-0
 with
 :
 ref
