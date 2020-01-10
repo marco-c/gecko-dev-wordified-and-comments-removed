@@ -1628,6 +1628,16 @@ Mechanism
 )
 mkEntry
 (
+CKM_AES_CMAC
+Mechanism
+)
+mkEntry
+(
+CKM_AES_CMAC_GENERAL
+Mechanism
+)
+mkEntry
+(
 CKM_CAST_KEY_GEN
 Mechanism
 )

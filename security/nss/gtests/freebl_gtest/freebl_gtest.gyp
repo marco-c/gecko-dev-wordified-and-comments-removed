@@ -353,6 +353,11 @@ rsa_unittest
 cc
 '
 '
+cmac_unittests
+.
+cc
+'
+'
 <
 (
 DEPTH

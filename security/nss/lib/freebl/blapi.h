@@ -21,6 +21,13 @@ h
 #
 include
 "
+cmac
+.
+h
+"
+#
+include
+"
 alghmac
 .
 h

@@ -70,6 +70,11 @@ alg2268
 c
 '
 '
+cmac
+.
+c
+'
+'
 alghmac
 .
 c

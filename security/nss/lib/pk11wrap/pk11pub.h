@@ -3767,6 +3767,15 @@ CERTCertificateList
 results
 )
 ;
+CERTCertList
+*
+PK11_GetCertsMatchingPrivateKey
+(
+SECKEYPrivateKey
+*
+privKey
+)
+;
 SECItem
 *
 PK11_GetLowLevelKeyIDForCert

@@ -702,6 +702,12 @@ case
 CKM_AES_MAC_GENERAL
 :
 case
+CKM_AES_CMAC
+:
+case
+CKM_AES_CMAC_GENERAL
+:
+case
 CKM_AES_CBC_PAD
 :
 case
@@ -1345,6 +1351,12 @@ CKM_AES_MAC
 :
 case
 CKM_AES_MAC_GENERAL
+:
+case
+CKM_AES_CMAC
+:
+case
+CKM_AES_CMAC_GENERAL
 :
 case
 CKM_AES_CBC_PAD

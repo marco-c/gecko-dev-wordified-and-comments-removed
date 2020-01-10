@@ -447,6 +447,10 @@ NULL
 PRIVATE_EXPORTS
 =
 \
+cmac
+.
+h
+\
 alghmac
 .
 h
@@ -648,6 +652,10 @@ sha512
 .
 c
 \
+cmac
+.
+c
+\
 alghmac
 .
 c
@@ -811,6 +819,10 @@ CSRCS
 )
 ALL_HDRS
 =
+\
+cmac
+.
+h
 \
 alghmac
 .

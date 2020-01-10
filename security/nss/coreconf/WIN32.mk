@@ -749,10 +749,6 @@ OS_CFLAGS
 =
 -
 mwindows
--
-mms
--
-bitfields
 _GEN_IMPORT_LIB
 =
 -

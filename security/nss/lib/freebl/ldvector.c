@@ -20,6 +20,13 @@ h
 #
 include
 "
+cmac
+.
+h
+"
+#
+include
+"
 alghmac
 .
 h
@@ -276,6 +283,12 @@ BLAKE2B_FlattenSize
 BLAKE2B_Flatten
 BLAKE2B_Resurrect
 ChaCha20_Xor
+CMAC_Init
+CMAC_Create
+CMAC_Begin
+CMAC_Update
+CMAC_Finish
+CMAC_Destroy
 }
 ;
 const

@@ -176,6 +176,11 @@ files
 :
 [
 '
+cmac
+.
+h
+'
+'
 alghmac
 .
 h
