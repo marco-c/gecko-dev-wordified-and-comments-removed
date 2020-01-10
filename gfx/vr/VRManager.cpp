@@ -645,11 +645,16 @@ nullptr
 {
 mShmem
 =
+(
 new
 VRShMem
 (
 nullptr
-true
+mVRProcessEnabled
+XRE_IsParentProcess
+(
+)
+)
 )
 ;
 mShmem
@@ -657,7 +662,6 @@ mShmem
 >
 CreateShMem
 (
-mVRProcessEnabled
 )
 ;
 #
