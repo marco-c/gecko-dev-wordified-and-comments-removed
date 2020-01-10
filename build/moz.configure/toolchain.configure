@@ -14243,7 +14243,6 @@ target
 c_compiler
 vc_path
 check_build_environment
-mozbuild_state_path
 when
 =
 code_coverage
@@ -14288,7 +14287,6 @@ target
 c_compiler
 vc_path
 build_env
-mozbuild_state_path
 )
 :
 cflags
