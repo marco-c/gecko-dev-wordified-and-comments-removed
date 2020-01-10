@@ -414,6 +414,7 @@ nsAString
 &
 aResult
 )
+const
 ;
 void
 Output
