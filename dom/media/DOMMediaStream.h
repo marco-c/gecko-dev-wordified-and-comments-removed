@@ -615,13 +615,6 @@ TrackListener
 aListener
 )
 ;
-void
-SetFinishedOnInactive
-(
-bool
-aFinishedOnInactive
-)
-;
 protected
 :
 virtual
@@ -747,11 +740,6 @@ bool
 mAudible
 =
 false
-;
-bool
-mFinishedOnInactive
-=
-true
 ;
 }
 ;
