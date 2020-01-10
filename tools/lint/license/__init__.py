@@ -301,6 +301,14 @@ readlines
 nb_lines
 )
         
+if
+not
+head
+:
+            
+return
+True
+        
 for
 l
 in
