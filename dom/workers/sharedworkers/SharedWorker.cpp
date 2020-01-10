@@ -1021,6 +1021,9 @@ loadInfo
 mDomain
 isSecureContext
 ipcClientInfo
+loadInfo
+.
+mReferrerInfo
 storageAllowed
 true
 )

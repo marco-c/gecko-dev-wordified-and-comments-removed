@@ -65,6 +65,9 @@ PBackgroundSharedTypes
 include
 URIParams
 ;
+include
+DOMTypes
+;
 using
 struct
 mozilla
@@ -279,6 +282,9 @@ isSecureContext
 IPCClientInfo
 ?
 clientInfo
+;
+nsIReferrerInfo
+referrerInfo
 ;
 StorageAccess
 storageAccess

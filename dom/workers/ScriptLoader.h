@@ -99,6 +99,9 @@ aContentPolicyType
 nsICookieSettings
 *
 aCookieSettings
+nsIReferrerInfo
+*
+aReferrerInfo
 nsIChannel
 *
 *

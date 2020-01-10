@@ -1039,6 +1039,16 @@ storagePrincipalInfo
 ;
 info
 .
+mReferrerInfo
+=
+aData
+.
+referrerInfo
+(
+)
+;
+info
+.
 mDomain
 =
 aData
@@ -1368,6 +1378,9 @@ TYPE_INTERNAL_SERVICE_WORKER
 info
 .
 mCookieSettings
+info
+.
+mReferrerInfo
 getter_AddRefs
 (
 info
