@@ -1022,6 +1022,13 @@ simd
 -
 accel
 "
+"
+jsrust_shared
+/
+simd
+-
+accel
+"
 ]
 moz_memory
 =

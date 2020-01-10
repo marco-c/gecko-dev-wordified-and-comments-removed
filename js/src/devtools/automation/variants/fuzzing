@@ -67,6 +67,13 @@ enable
 nspr
 -
 build
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

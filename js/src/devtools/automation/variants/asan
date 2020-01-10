@@ -39,6 +39,13 @@ enable
 address
 -
 sanitizer
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

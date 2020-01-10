@@ -26,6 +26,13 @@ darwin10
 0
 .
 0
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

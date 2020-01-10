@@ -20,6 +20,13 @@ warnings
 as
 -
 errors
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

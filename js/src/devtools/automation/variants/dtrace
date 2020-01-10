@@ -18,6 +18,13 @@ enable
 debug
 -
 symbols
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

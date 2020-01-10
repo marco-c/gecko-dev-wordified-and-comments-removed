@@ -13,6 +13,13 @@ enable
 simulator
 =
 arm64
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

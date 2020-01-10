@@ -41,6 +41,13 @@ without
 system
 -
 zlib
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize

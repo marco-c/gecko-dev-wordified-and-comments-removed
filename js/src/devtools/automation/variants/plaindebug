@@ -6,6 +6,13 @@ args
 "
 :
 "
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 debug

@@ -11,6 +11,13 @@ args
 enable
 -
 ctypes
+-
+-
+enable
+-
+rust
+-
+simd
 "
 "
 optimize
