@@ -580,7 +580,7 @@ RemoveDrawTarget
 ReferencePtr
 aRefPtr
 )
-final
+override
 {
 mDrawTargets
 .
@@ -612,7 +612,7 @@ RemoveSourceSurface
 ReferencePtr
 aRefPtr
 )
-final
+override
 {
 mSourceSurfaces
 .
@@ -707,7 +707,7 @@ gfx
 SurfaceFormat
 aFormat
 )
-final
+override
 ;
 mozilla
 :

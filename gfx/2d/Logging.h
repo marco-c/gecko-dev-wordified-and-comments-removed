@@ -277,6 +277,7 @@ NativeFontResourceNotFound
 UnscaledFontNotFound
 ScaledFontNotFound
 InvalidLayerType
+PlayEventFailed
 MustBeLessThanThis
 =
 101
