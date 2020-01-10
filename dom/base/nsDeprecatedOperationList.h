@@ -156,6 +156,10 @@ MouseEvent_MozPressure
 )
 DEPRECATED_OPERATION
 (
+MathML_DeprecatedAlignmentAttributes
+)
+DEPRECATED_OPERATION
+(
 MathML_DeprecatedLineThicknessValue
 )
 DEPRECATED_OPERATION
