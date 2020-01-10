@@ -461,10 +461,7 @@ type
 -
 icon
 "
->
-<
 /
-image
 >
 <
 image
@@ -477,10 +474,7 @@ site
 -
 icon
 "
->
-<
 /
-image
 >
 <
 hbox
@@ -522,10 +516,7 @@ title
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -575,10 +566,7 @@ tags
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -618,10 +606,7 @@ value
 =
 "
 "
->
-<
 /
-description
 >
 <
 /
@@ -667,10 +652,7 @@ url
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
@@ -720,10 +702,7 @@ action
 -
 text
 "
->
-<
 /
-description
 >
 <
 /
