@@ -855,6 +855,11 @@ CustomEvent
 "
 AboutLoginsShowBlankLogin
 "
+{
+cancelable
+:
+true
+}
 )
 )
 ;
@@ -1215,6 +1220,14 @@ AboutLoginsShowBlankLogin
 "
 :
 {
+if
+(
+!
+event
+.
+defaultPrevented
+)
+{
 this
 .
 _selectedGuid
@@ -1230,6 +1243,7 @@ this
 _blankLoginListItem
 )
 ;
+}
 break
 ;
 }
