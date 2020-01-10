@@ -894,11 +894,6 @@ TaggedAnonymousMemory
 cpp
 '
 '
-UniquePtrExtensions
-.
-cpp
-'
-'
 Unused
 .
 cpp
