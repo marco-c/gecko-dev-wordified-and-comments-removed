@@ -1962,7 +1962,6 @@ OriginAttributes
 (
 )
 browsingContext
-nullptr
 true
 )
 ;

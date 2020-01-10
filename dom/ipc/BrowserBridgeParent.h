@@ -81,10 +81,9 @@ const
 nsString
 &
 aRemoteType
-const
-WindowGlobalInit
-&
-aWindowInit
+CanonicalBrowsingContext
+*
+aBrowsingContext
 const
 uint32_t
 &
