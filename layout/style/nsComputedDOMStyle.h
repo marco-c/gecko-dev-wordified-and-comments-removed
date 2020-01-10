@@ -1507,6 +1507,7 @@ aHeight
 bool
 NeedsToFlushStyle
 (
+nsCSSPropertyID
 )
 const
 ;
