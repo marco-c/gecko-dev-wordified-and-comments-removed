@@ -148,6 +148,12 @@ attribute
 DOMString
 keyText
 ;
+[
+SameObject
+PutForwards
+=
+cssText
+]
 readonly
 attribute
 CSSStyleDeclaration
