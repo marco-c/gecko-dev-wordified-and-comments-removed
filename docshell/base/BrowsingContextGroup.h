@@ -511,13 +511,6 @@ GetKey
 ;
 }
 }
-static
-BrowsingContextGroup
-*
-GetChromeGroup
-(
-)
-;
 private
 :
 friend
