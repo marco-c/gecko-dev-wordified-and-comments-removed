@@ -12959,7 +12959,7 @@ add_dependencies
 source
 '
 (
-GLOBAL_DEPS
+WEBIDL_PP_DEPS
 )
 '
 ]
