@@ -3,9 +3,6 @@ use
 strict
 "
 ;
-var
-functionBodies
-;
 function
 findAllPoints
 (
@@ -692,6 +689,9 @@ findMatchingConstructor
 (
 destructorEdge
 body
+warnIfNotFound
+=
+true
 )
 {
 var
@@ -774,6 +774,10 @@ e
 ;
 }
 }
+if
+(
+warnIfNotFound
+)
 printErr
 (
 "
@@ -786,7 +790,8 @@ constructor
 "
 )
 ;
-debugger
+return
+undefined
 ;
 }
 function

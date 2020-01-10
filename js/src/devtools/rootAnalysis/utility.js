@@ -1826,6 +1826,12 @@ push
 entry
 )
 ;
+return
+collection
+[
+key
+]
+;
 }
 function
 loadTypeInfo

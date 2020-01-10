@@ -386,19 +386,13 @@ live
 across
 GC
 call
-(
 '
-?
-)
 (
 .
 *
 ?
 )
-(
 '
-?
-)
 at
 (
 \
@@ -423,7 +417,7 @@ m
 .
 group
 (
-2
+1
 )
                 
 hazardousGCFunctions
@@ -469,7 +463,7 @@ m
 .
 group
 (
-4
+2
 )
                 
 continue

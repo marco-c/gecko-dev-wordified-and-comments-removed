@@ -1296,6 +1296,14 @@ assert
 name
 in
 gcFunctions
+"
+gcFunctions
+does
+not
+contain
+"
++
+name
 )
 ;
 if

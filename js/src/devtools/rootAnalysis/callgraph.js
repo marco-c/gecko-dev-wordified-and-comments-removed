@@ -42,7 +42,7 @@ Map
 )
 ;
 var
-classFunctions
+virtualDefinitions
 =
 new
 Map
@@ -281,7 +281,7 @@ Name
 ;
 addToNamedSet
 (
-classFunctions
+virtualDefinitions
 fieldKey
 (
 csuName
@@ -316,7 +316,7 @@ field
 ;
 if
 (
-classFunctions
+virtualDefinitions
 .
 has
 (
@@ -327,7 +327,7 @@ return
 new
 Set
 (
-classFunctions
+virtualDefinitions
 .
 get
 (
@@ -534,7 +534,7 @@ field
 ;
 if
 (
-classFunctions
+virtualDefinitions
 .
 has
 (
@@ -545,7 +545,7 @@ functions
 .
 update
 (
-classFunctions
+virtualDefinitions
 .
 get
 (
@@ -1200,11 +1200,11 @@ cacheData
 .
 superclasses
 ;
-classFunctions
+virtualDefinitions
 =
 cacheData
 .
-classFunctions
+virtualDefinitions
 ;
 }
 catch
@@ -1225,7 +1225,7 @@ serialize
 {
 subclasses
 superclasses
-classFunctions
+virtualDefinitions
 }
 )
 ;

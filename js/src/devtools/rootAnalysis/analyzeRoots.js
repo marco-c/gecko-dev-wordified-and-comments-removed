@@ -2781,7 +2781,7 @@ Func
 )
 {
 var
-callee
+func
 =
 mangled
 (
@@ -2796,7 +2796,7 @@ Name
 if
 (
 (
-callee
+func
 in
 gcFunctions
 )
@@ -2804,7 +2804,7 @@ gcFunctions
 |
 (
 (
-callee
+func
 +
 internalMarker
 )
