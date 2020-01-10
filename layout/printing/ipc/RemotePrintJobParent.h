@@ -140,6 +140,7 @@ int32_t
 &
 aEndPage
 )
+final
 ;
 mozilla
 :
@@ -151,6 +152,7 @@ IPCResult
 RecvProcessPage
 (
 )
+final
 ;
 mozilla
 :
@@ -162,6 +164,7 @@ IPCResult
 RecvFinalizePrint
 (
 )
+final
 ;
 mozilla
 :
@@ -177,6 +180,7 @@ nsresult
 &
 aRv
 )
+final
 ;
 mozilla
 :
@@ -196,6 +200,7 @@ nsresult
 &
 aStatus
 )
+final
 ;
 mozilla
 :
@@ -223,6 +228,7 @@ long
 &
 aMaxTotalProgress
 )
+final
 ;
 mozilla
 :
@@ -238,6 +244,7 @@ nsresult
 &
 aStatus
 )
+final
 ;
 void
 RegisterListener
