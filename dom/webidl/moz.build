@@ -5981,11 +5981,6 @@ FontFaceSetLoadEvent
 webidl
 '
 '
-FormDataEvent
-.
-webidl
-'
-'
 FrameCrashedEvent
 .
 webidl
