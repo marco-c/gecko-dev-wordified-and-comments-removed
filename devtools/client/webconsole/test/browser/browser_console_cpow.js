@@ -209,7 +209,7 @@ target
 .
 activeConsole
 .
-evaluateJSAsync
+evaluateJS
 (
 let
 {
