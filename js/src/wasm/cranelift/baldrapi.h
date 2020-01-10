@@ -97,6 +97,9 @@ size_t
 memoryGuardSize
 ;
 size_t
+memoryBaseTlsOffset
+;
+size_t
 instanceTlsOffset
 ;
 size_t
