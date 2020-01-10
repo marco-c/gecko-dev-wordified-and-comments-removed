@@ -218,9 +218,12 @@ serialNumber
 ;
 readonly
 attribute
-NDEFMessage
+object
 message
 ;
+/
+/
+NDEFMessage
 }
 ;
 dictionary
