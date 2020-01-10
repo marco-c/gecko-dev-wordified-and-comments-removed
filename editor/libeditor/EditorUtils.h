@@ -870,6 +870,16 @@ return
 mNextInsertionPoint
 ;
 }
+void
+MarkAsHandled
+(
+)
+{
+mHandled
+=
+true
+;
+}
 MoveNodeResult
 (
 )
