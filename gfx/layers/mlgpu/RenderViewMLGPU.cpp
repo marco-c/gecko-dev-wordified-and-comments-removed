@@ -367,7 +367,7 @@ mUseDepthBuffer
 StaticPrefs
 :
 :
-layers_mlgpu_enable_depth_buffer
+layers_mlgpu_enable_depth_buffer_AtStartup
 (
 )
 )
@@ -857,7 +857,7 @@ translation
 StaticPrefs
 :
 :
-layers_mlgpu_enable_cpu_occlusion
+layers_mlgpu_enable_cpu_occlusion_AtStartup
 (
 )
 )

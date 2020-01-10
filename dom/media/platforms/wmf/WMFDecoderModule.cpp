@@ -471,7 +471,7 @@ testForVPx
 StaticPrefs
 :
 :
-media_wmf_vp9_enabled
+media_wmf_vp9_enabled_AtStartup
 (
 )
 )

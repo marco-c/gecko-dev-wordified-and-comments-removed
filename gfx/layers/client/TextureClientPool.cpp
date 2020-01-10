@@ -762,7 +762,7 @@ if
 StaticPrefs
 :
 :
-layers_force_shmem_tiles
+layers_force_shmem_tiles_AtStartup
 (
 )
 )

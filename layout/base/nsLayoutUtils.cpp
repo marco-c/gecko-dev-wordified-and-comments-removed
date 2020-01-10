@@ -4018,7 +4018,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 "
@@ -4545,7 +4545,7 @@ if
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 )
@@ -4637,7 +4637,7 @@ if
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 )
@@ -5686,7 +5686,7 @@ if
 StaticPrefs
 :
 :
-layers_enable_tiles
+layers_enable_tiles_AtStartup
 (
 )
 )

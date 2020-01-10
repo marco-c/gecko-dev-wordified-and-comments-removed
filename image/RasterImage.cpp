@@ -1429,7 +1429,7 @@ eAnimated
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 |
@@ -1681,7 +1681,7 @@ if
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 )
@@ -1947,7 +1947,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 )
@@ -3075,7 +3075,7 @@ if
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 )
@@ -4291,7 +4291,7 @@ mAnimationState
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 "
@@ -4381,7 +4381,7 @@ mAnimationState
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 )

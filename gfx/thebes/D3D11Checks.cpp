@@ -718,7 +718,7 @@ if
 StaticPrefs
 :
 :
-gfx_direct2d_force_enabled
+gfx_direct2d_force_enabled_AtStartup
 (
 )
 |
@@ -1036,7 +1036,7 @@ if
 StaticPrefs
 :
 :
-gfx_direct2d_force_enabled
+gfx_direct2d_force_enabled_AtStartup
 (
 )
 |
@@ -1133,7 +1133,7 @@ if
 StaticPrefs
 :
 :
-layers_amd_switchable_gfx_enabled
+layers_amd_switchable_gfx_enabled_AtStartup
 (
 )
 )

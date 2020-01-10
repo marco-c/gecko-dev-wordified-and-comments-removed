@@ -9,6 +9,7 @@ monoaudio
 enable
 "
 accessibility_monoaudio_enable
+accessibility_monoaudio_enable
 RelaxedAtomicBool
 false
 )
@@ -20,6 +21,7 @@ accessibility
 .
 browsewithcaret
 "
+accessibility_browsewithcaret
 accessibility_browsewithcaret
 RelaxedAtomicBool
 false

@@ -1243,7 +1243,7 @@ mVsyncNotificationsSkipped
 StaticPrefs
 :
 :
-gfx_vsync_compositor_unobserve_count
+gfx_vsync_compositor_unobserve_count_AtStartup
 (
 )
 )

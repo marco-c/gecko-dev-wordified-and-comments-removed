@@ -449,6 +449,8 @@ int
 "
    
 my_int
+   
+my_int_AtStartup
   
 int32_t
 -
@@ -466,6 +468,8 @@ uint
 "
    
 my_uint
+   
+my_uint
   
 uint32_t
 999
@@ -481,7 +485,9 @@ my
 float
 "
    
-my_float_DoNotUseDirectly
+my_float
+   
+my_float_AtStartup_DoNotUseDirectly
   
 float
 0
@@ -530,6 +536,8 @@ bool
 "
    
 my_atomic_bool
+   
+my_atomic_bool
   
 RelaxedAtomicBool
 true
@@ -546,6 +554,8 @@ atomic
 .
 int
 "
+   
+my_atomic_int
    
 my_atomic_int_DoNotUseDirectly
   
@@ -570,6 +580,8 @@ uint
 "
    
 my_atomic_uint
+   
+my_atomic_uint_AtStartup
   
 SequentiallyConsistentAtomicUint32
 68

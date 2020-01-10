@@ -1238,7 +1238,7 @@ mWorkAroundDriverBugs
 StaticPrefs
 :
 :
-gfx_work_around_driver_bugs
+gfx_work_around_driver_bugs_AtStartup
 (
 )
 )

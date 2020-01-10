@@ -1801,7 +1801,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -5528,7 +5528,7 @@ if
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -8956,7 +8956,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -9312,7 +9312,7 @@ IsRootWebRenderBridgeParent
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 )
@@ -9515,7 +9515,7 @@ kHighestRenderRoot
 StaticPrefs
 :
 :
-gfx_webrender_split_render_roots
+gfx_webrender_split_render_roots_AtStartup
 (
 )
 &

@@ -3622,7 +3622,7 @@ blocklistAll
 StaticPrefs
 :
 :
-gfx_blocklist_all
+gfx_blocklist_all_AtStartup
 (
 )
 ;

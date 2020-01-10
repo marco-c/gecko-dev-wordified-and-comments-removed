@@ -821,7 +821,7 @@ return
 StaticPrefs
 :
 :
-layers_componentalpha_enabled_DoNotUseDirectly
+layers_componentalpha_enabled_AtStartup_DoNotUseDirectly
 (
 )
 ;

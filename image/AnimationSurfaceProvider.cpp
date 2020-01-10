@@ -1588,7 +1588,7 @@ if
 StaticPrefs
 :
 :
-image_animated_decode_on_demand_recycle
+image_animated_decode_on_demand_recycle_AtStartup
 (
 )
 )
@@ -1801,7 +1801,7 @@ ShouldSyncDecode
 StaticPrefs
 :
 :
-image_mem_decode_bytes_at_a_time
+image_mem_decode_bytes_at_a_time_AtStartup
 (
 )
 )

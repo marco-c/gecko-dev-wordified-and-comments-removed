@@ -4774,7 +4774,7 @@ cache
 StaticPrefs
 :
 :
-image_mem_animated_discardable
+image_mem_animated_discardable_AtStartup
 (
 )
 aAutoLock
@@ -6211,7 +6211,7 @@ surfaceCacheExpirationTimeMS
 StaticPrefs
 :
 :
-image_mem_surfacecache_min_expiration_ms
+image_mem_surfacecache_min_expiration_ms_AtStartup
 (
 )
 ;
@@ -6223,7 +6223,7 @@ max
 StaticPrefs
 :
 :
-image_mem_surfacecache_discard_factor
+image_mem_surfacecache_discard_factor_AtStartup
 (
 )
 1u
@@ -6235,7 +6235,7 @@ surfaceCacheMaxSizeKB
 StaticPrefs
 :
 :
-image_mem_surfacecache_max_size_kb
+image_mem_surfacecache_max_size_kb_AtStartup
 (
 )
 ;
@@ -6247,7 +6247,7 @@ max
 StaticPrefs
 :
 :
-image_mem_surfacecache_size_factor
+image_mem_surfacecache_size_factor_AtStartup
 (
 )
 1u

@@ -2549,7 +2549,7 @@ if
 StaticPrefs
 :
 :
-gfx_e10s_font_list_shared
+gfx_e10s_font_list_shared_AtStartup
 (
 )
 &

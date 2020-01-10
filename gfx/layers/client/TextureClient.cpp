@@ -1164,7 +1164,7 @@ if
 StaticPrefs
 :
 :
-gfx_use_iosurface_textures
+gfx_use_iosurface_textures_AtStartup
 (
 )
 )
@@ -1186,7 +1186,7 @@ if
 StaticPrefs
 :
 :
-gfx_use_surfacetexture_textures
+gfx_use_surfacetexture_textures_AtStartup
 (
 )
 )

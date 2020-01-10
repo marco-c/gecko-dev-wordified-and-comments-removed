@@ -2783,7 +2783,7 @@ if
 StaticPrefs
 :
 :
-layers_uniformity_info
+layers_uniformity_info_AtStartup
 (
 )
 )

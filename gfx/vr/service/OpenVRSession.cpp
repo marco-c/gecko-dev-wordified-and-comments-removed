@@ -1248,7 +1248,7 @@ dom_vr_enabled
 StaticPrefs
 :
 :
-dom_vr_openvr_enabled
+dom_vr_openvr_enabled_AtStartup
 (
 )
 )
@@ -1534,7 +1534,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_openvr_action_input
+dom_vr_openvr_action_input_AtStartup
 (
 )
 &
@@ -1637,7 +1637,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_process_enabled
+dom_vr_process_enabled_AtStartup
 (
 )
 )
@@ -5179,7 +5179,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_process_enabled
+dom_vr_process_enabled_AtStartup
 (
 )
 )
@@ -13465,7 +13465,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_openvr_action_input
+dom_vr_openvr_action_input_AtStartup
 (
 )
 )
@@ -14648,7 +14648,7 @@ if
 StaticPrefs
 :
 :
-dom_vr_openvr_action_input
+dom_vr_openvr_action_input_AtStartup
 (
 )
 )

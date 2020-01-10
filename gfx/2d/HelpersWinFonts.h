@@ -46,7 +46,7 @@ if
 StaticPrefs
 :
 :
-gfx_text_disable_aa
+gfx_text_disable_aa_AtStartup
 (
 )
 )

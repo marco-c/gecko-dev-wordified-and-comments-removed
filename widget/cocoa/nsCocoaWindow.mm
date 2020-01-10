@@ -17646,7 +17646,7 @@ if
 StaticPrefs
 :
 :
-gfx_core_animation_enabled
+gfx_core_animation_enabled_AtStartup
 (
 )
 )

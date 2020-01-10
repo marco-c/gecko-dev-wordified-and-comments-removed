@@ -230,7 +230,7 @@ workerCount
 StaticPrefs
 :
 :
-layers_omtp_paint_workers
+layers_omtp_paint_workers_AtStartup
 (
 )
 ;

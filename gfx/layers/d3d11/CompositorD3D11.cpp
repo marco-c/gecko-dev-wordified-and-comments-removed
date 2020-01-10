@@ -598,7 +598,7 @@ mUseMutexOnPresent
 StaticPrefs
 :
 :
-gfx_use_mutex_on_present
+gfx_use_mutex_on_present_AtStartup
 (
 )
 ;

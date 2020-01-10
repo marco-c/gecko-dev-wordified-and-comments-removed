@@ -9983,7 +9983,7 @@ if
 StaticPrefs
 :
 :
-gfx_core_animation_enabled
+gfx_core_animation_enabled_AtStartup
 (
 )
 )
@@ -11344,7 +11344,7 @@ if
 StaticPrefs
 :
 :
-gfx_allow_texture_direct_mapping
+gfx_allow_texture_direct_mapping_AtStartup
 (
 )
 )
