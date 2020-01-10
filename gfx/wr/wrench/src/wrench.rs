@@ -3398,6 +3398,13 @@ current
 cursor
 position
 "
+"
+Y
+-
+Clear
+all
+caches
+"
 ]
 ;
 let
