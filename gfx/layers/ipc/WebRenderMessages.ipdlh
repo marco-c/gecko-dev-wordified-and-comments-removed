@@ -639,6 +639,9 @@ descriptor
 OffsetRange
 bytes
 ;
+ImageIntRect
+visibleRect
+;
 uint16_t
 tiling
 ;
@@ -674,12 +677,15 @@ BlobImageKey
 key
 ;
 ImageIntRect
+visibleRect
+;
+ImageIntRect
 dirtyRect
 ;
 }
 ;
 struct
-OpSetImageVisibleArea
+OpSetBlobImageVisibleArea
 {
 ImageIntRect
 area
@@ -797,7 +803,7 @@ OpUpdateImage
 ;
 OpUpdateBlobImage
 ;
-OpSetImageVisibleArea
+OpSetBlobImageVisibleArea
 ;
 OpDeleteImage
 ;
