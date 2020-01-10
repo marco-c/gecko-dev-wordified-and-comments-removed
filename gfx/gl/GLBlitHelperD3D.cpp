@@ -15,7 +15,7 @@ h
 #
 include
 "
-GLContext
+GLContextEGL
 .
 h
 "
