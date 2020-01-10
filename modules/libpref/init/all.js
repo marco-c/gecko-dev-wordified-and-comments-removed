@@ -18654,6 +18654,16 @@ pref
 "
 security
 .
+block_Worker_with_wrong_mime
+"
+true
+)
+;
+pref
+(
+"
+security
+.
 ssl
 .
 enable_ocsp_must_staple
