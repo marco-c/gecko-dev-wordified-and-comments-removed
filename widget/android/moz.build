@@ -273,6 +273,11 @@ GfxInfo
 cpp
 '
 '
+ImageDecoderSupport
+.
+cpp
+'
+'
 nsAndroidProtocolHandler
 .
 cpp
