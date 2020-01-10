@@ -1037,6 +1037,16 @@ newtab
 -
 label
 -
+removed
+-
+bookmark
+=
+Bookmark
+removed
+newtab
+-
+label
+-
 recommended
 =
 Trending

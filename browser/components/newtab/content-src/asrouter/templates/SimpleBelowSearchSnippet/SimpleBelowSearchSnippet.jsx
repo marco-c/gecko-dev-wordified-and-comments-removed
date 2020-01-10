@@ -322,6 +322,7 @@ h3
 null
 ;
 }
+async
 onButtonClick
 (
 )
@@ -407,6 +408,7 @@ OPEN_URL
 "
 )
 ;
+await
 this
 .
 props
