@@ -2756,6 +2756,13 @@ SendEvent
 true
 )
 ;
+service
+-
+>
+calculateNetworkId
+(
+)
+;
 }
 nsresult
 nsNetworkLinkService
