@@ -420,11 +420,6 @@ kStart
 kEnd
 }
 ;
-void
-InitFields
-(
-)
-;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
