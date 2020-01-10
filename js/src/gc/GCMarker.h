@@ -1975,7 +1975,7 @@ Arena
 >
 delayedMarkingList
 ;
-MainThreadData
+MainThreadOrGCTaskData
 <
 bool
 >
@@ -1993,7 +1993,7 @@ markCount
 #
 ifdef
 DEBUG
-MainThreadData
+MainThreadOrGCTaskData
 <
 size_t
 >
