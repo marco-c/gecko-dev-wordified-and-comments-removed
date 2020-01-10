@@ -5093,11 +5093,12 @@ menulist
 menulist
 -
 dropmarker
->
-.
-dropmarker
--
+:
+:
+part
+(
 icon
+)
 {
 width
 :
