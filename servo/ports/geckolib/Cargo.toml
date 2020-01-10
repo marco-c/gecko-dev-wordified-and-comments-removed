@@ -89,6 +89,15 @@ servo_arc
 gecko_refcount_logging
 "
 ]
+moz_xbl
+=
+[
+"
+style
+/
+moz_xbl
+"
+]
 [
 dependencies
 ]

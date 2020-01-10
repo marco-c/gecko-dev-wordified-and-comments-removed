@@ -295,6 +295,17 @@ shared
 webrtc
 "
 ]
+moz_xbl
+=
+[
+"
+gkrust
+-
+shared
+/
+moz_xbl
+"
+]
 [
 dependencies
 ]
