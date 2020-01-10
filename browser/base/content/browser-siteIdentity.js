@@ -4184,12 +4184,6 @@ updateSitePermissions
 (
 )
 ;
-ContentBlocking
-.
-toggleReportBreakageButton
-(
-)
-;
 }
 setURI
 (

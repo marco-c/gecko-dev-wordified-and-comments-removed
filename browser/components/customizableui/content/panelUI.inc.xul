@@ -2598,7 +2598,7 @@ iconic
 oncommand
 =
 "
-ContentBlocking
+gProtectionsHandler
 .
 openPreferences
 (
