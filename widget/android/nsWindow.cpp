@@ -803,6 +803,18 @@ PanZoomController
 :
 INPUT_RESULT_HANDLED_CONTENT
 ;
+static
+int32_t
+gLastWidth
+=
+0
+;
+static
+int32_t
+gLastHeight
+=
+0
+;
 template
 <
 typename
@@ -8398,8 +8410,8 @@ parent
 }
 Resize
 (
-0
-0
+gLastWidth
+gLastHeight
 false
 )
 ;
@@ -9408,6 +9420,8 @@ mBounds
 .
 width
 =
+gLastWidth
+=
 NSToIntRound
 (
 aWidth
@@ -9416,6 +9430,8 @@ aWidth
 mBounds
 .
 height
+=
+gLastHeight
 =
 NSToIntRound
 (
