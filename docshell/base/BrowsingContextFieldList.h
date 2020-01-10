@@ -46,6 +46,11 @@ bool
 )
 MOZ_BC_FIELD
 (
+IsPopupSpam
+bool
+)
+MOZ_BC_FIELD
+(
 UserActivationState
 UserActivation
 :
