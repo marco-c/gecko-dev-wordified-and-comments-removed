@@ -718,6 +718,13 @@ catch
 e
 )
 {
+Cu
+.
+reportError
+(
+e
+)
+;
 createAlert
 (
 "
