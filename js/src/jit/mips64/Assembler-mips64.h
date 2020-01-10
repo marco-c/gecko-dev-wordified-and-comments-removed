@@ -1061,14 +1061,6 @@ AssemblerMIPSShared
 :
 bind
 ;
-void
-bind
-(
-RepatchLabel
-*
-label
-)
-;
 static
 void
 Bind
