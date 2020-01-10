@@ -3939,6 +3939,14 @@ mTime
 ToMicroseconds
 (
 )
+aSample
+-
+>
+mDuration
+.
+ToMicroseconds
+(
+)
 &
 inputSample
 )
