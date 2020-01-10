@@ -2219,7 +2219,7 @@ AppendElement
 topLevelURL
 )
 ;
-MOZ_ASSERT
+if
 (
 !
 IsCanonicalizedIP
@@ -2227,7 +2227,7 @@ IsCanonicalizedIP
 topLevelURL
 )
 )
-;
+{
 topLevelURL
 .
 BeginReading
@@ -2308,6 +2308,7 @@ begin
 )
 ;
 }
+}
 nsTArray
 <
 nsCString
@@ -2321,6 +2322,15 @@ AppendElement
 thirdPartyURL
 )
 ;
+if
+(
+!
+IsCanonicalizedIP
+(
+thirdPartyURL
+)
+)
+{
 thirdPartyURL
 .
 BeginReading
@@ -2386,6 +2396,7 @@ AppendElement
 thirdPartyURLToAdd
 )
 ;
+}
 }
 }
 for
