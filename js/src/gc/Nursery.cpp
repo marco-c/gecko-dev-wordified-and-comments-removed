@@ -7719,7 +7719,6 @@ roundSize
 size_t
 size
 )
-const
 {
 if
 (
