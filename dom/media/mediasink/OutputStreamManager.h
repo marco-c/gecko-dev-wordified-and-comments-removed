@@ -190,7 +190,7 @@ public
 :
 OutputStreamManager
 (
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 nsIPrincipal
@@ -605,9 +605,9 @@ aStream
 const
 RefPtr
 <
-MediaStreamGraphImpl
+SourceMediaStream
 >
-mGraph
+mDummyStream
 ;
 nsTArray
 <

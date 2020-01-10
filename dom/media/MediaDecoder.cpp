@@ -1122,7 +1122,7 @@ AddOutputStream
 DOMMediaStream
 *
 aStream
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 )

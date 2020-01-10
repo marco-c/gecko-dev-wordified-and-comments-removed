@@ -2500,12 +2500,6 @@ mStream
 ;
 RefPtr
 <
-MediaStreamGraphImpl
->
-mGraph
-;
-RefPtr
-<
 SharedDummyStream
 >
 mGraphKeepAliveDummyStream

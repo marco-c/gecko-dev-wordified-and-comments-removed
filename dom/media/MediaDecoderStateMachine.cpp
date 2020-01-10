@@ -19043,7 +19043,7 @@ MediaDecoderStateMachine
 :
 EnsureOutputStreamManager
 (
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 )

@@ -379,7 +379,7 @@ aPrincipal
 void
 EnsureOutputStreamManager
 (
-MediaStreamGraphImpl
+MediaStreamGraph
 *
 aGraph
 )
