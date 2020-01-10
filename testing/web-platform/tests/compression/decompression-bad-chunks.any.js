@@ -95,6 +95,7 @@ value
 (
 )
 {
+return
 new
 Uint8Array
 (
@@ -113,11 +114,8 @@ invalid
 deflate
 bytes
 '
-get
 value
-(
-)
-{
+:
 new
 Uint8Array
 (
@@ -148,7 +146,6 @@ Uint8Array
 ]
 )
 }
-}
 {
 name
 :
@@ -157,11 +154,8 @@ invalid
 gzip
 bytes
 '
-get
 value
-(
-)
-{
+:
 new
 Uint8Array
 (
@@ -203,7 +197,6 @@ Uint8Array
 0
 ]
 )
-}
 }
 ]
 ;
