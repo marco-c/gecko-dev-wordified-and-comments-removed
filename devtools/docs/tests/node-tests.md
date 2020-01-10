@@ -507,6 +507,7 @@ are
 aboutdebugging
 accessibility
 application
+compatibility
 framework
 netmonitor
 webconsole
