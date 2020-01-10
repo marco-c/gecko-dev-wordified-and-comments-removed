@@ -265,6 +265,12 @@ fennec
 .
 yml
 -
+raptor
+-
+fennec64
+.
+yml
+-
 reftest
 .
 yml
