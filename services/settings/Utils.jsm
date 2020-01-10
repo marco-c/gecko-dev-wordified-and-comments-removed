@@ -114,7 +114,7 @@ ConsoleAPI
 maxLogLevel
 :
 "
-info
+warn
 "
 maxLogLevelPref
 :
