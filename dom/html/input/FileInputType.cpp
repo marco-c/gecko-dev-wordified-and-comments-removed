@@ -80,7 +80,7 @@ return
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -89,12 +89,6 @@ eDOM_PROPERTIES
 "
 FormValidationFileMissing
 "
-mInputElement
--
->
-OwnerDoc
-(
-)
 aMessage
 )
 ;

@@ -4550,7 +4550,7 @@ rv
 nsContentUtils
 :
 :
-FormatMaybeLocalizedString
+FormatLocalizedString
 (
 message
 nsContentUtils
@@ -4560,9 +4560,6 @@ eDOM_PROPERTIES
 "
 FormValidationTextTooLong
 "
-OwnerDoc
-(
-)
 strMaxLength
 strTextLength
 )
@@ -4620,7 +4617,7 @@ rv
 nsContentUtils
 :
 :
-FormatMaybeLocalizedString
+FormatLocalizedString
 (
 message
 nsContentUtils
@@ -4630,9 +4627,6 @@ eDOM_PROPERTIES
 "
 FormValidationTextTooShort
 "
-OwnerDoc
-(
-)
 strMinLength
 strTextLength
 )
@@ -4656,7 +4650,7 @@ rv
 nsContentUtils
 :
 :
-GetMaybeLocalizedString
+GetLocalizedString
 (
 nsContentUtils
 :
@@ -4665,9 +4659,6 @@ eDOM_PROPERTIES
 "
 FormValidationValueMissing
 "
-OwnerDoc
-(
-)
 message
 )
 ;
