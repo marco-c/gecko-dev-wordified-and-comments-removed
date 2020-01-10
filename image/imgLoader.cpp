@@ -8509,6 +8509,8 @@ aCX
 Document
 *
 aLoadingDocument
+uint64_t
+aInnerWindowId
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -8736,6 +8738,7 @@ progressproxy
 this
 request
 aCX
+aInnerWindowId
 forcePrincipalCheck
 )
 ;
@@ -9503,6 +9506,7 @@ aLoadGroup
 aObserver
 aCX
 aLoadingDocument
+innerWindowID
 aLoadFlags
 aLoadPolicyType
 aProxyRequest
@@ -13451,6 +13455,8 @@ request
 nsISupports
 *
 aContext
+uint64_t
+aInnerWindowId
 bool
 forcePrincipalCheckForCacheEntry
 )
@@ -13466,6 +13472,10 @@ request
 mContext
 (
 aContext
+)
+mInnerWindowId
+(
+aInnerWindowId
 )
 mImgLoader
 (
@@ -13930,6 +13940,14 @@ mRequest
 SetLoadId
 (
 context
+)
+;
+mRequest
+-
+>
+SetInnerWindowID
+(
+mInnerWindowId
 )
 ;
 UpdateProxies

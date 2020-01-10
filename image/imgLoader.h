@@ -1310,6 +1310,8 @@ dom
 Document
 *
 aLoadingDocument
+uint64_t
+aInnerWindowId
 nsLoadFlags
 aLoadFlags
 nsContentPolicyType
@@ -1656,6 +1658,8 @@ aRequest
 nsISupports
 *
 aContext
+uint64_t
+aInnerWindowId
 bool
 forcePrincipalCheckForCacheEntry
 )
@@ -1757,6 +1761,9 @@ nsCOMPtr
 nsISupports
 >
 mContext
+;
+uint64_t
+mInnerWindowId
 ;
 imgLoader
 *
