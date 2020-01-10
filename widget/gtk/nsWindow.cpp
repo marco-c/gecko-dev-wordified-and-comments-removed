@@ -2304,6 +2304,10 @@ mHasAlphaVisual
 =
 false
 ;
+mIsPIPWindow
+=
+false
+;
 }
 nsWindow
 :
@@ -17254,6 +17258,16 @@ eWindowType_toplevel
 ;
 }
 }
+mIsPIPWindow
+=
+aInitData
+&
+&
+aInitData
+-
+>
+mPIPWindow
+;
 switch
 (
 mWindowType

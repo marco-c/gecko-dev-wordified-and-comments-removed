@@ -1484,6 +1484,16 @@ IsWaylandPopup
 (
 )
 ;
+bool
+IsPIPWindow
+(
+)
+{
+return
+mIsPIPWindow
+;
+}
+;
 void
 DispatchDragEvent
 (
@@ -2436,6 +2446,9 @@ mTitlebarBackdropState
 ;
 LayoutDeviceIntRegion
 mDraggableRegion
+;
+bool
+mIsPIPWindow
 ;
 #
 ifdef
