@@ -363,15 +363,9 @@ callback
 )
 {
 }
-blockRequest
+setBlockedUrls
 (
-filter
-)
-{
-}
-unblockRequest
-(
-filter
+urls
 )
 {
 }
