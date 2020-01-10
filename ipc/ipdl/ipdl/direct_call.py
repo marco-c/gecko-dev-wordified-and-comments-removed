@@ -5229,6 +5229,24 @@ parent
     
 (
 "
+PProxyConfigLookup
+"
+"
+child
+"
+)
+    
+(
+"
+PProxyConfigLookup
+"
+"
+parent
+"
+)
+    
+(
+"
 PSpeechSynthesisRequest
 "
 "
