@@ -1191,6 +1191,15 @@ mKnowsCompositor
 GetTextureForwarder
 (
 )
+|
+|
+!
+mKnowsCompositor
+-
+>
+GetTextureForwarder
+(
+)
 -
 >
 IPCOpen
