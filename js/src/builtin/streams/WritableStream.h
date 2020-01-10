@@ -737,6 +737,17 @@ state
 Errored
 ;
 }
+void
+setErrored
+(
+)
+{
+setState
+(
+Errored
+)
+;
+}
 bool
 backpressure
 (
