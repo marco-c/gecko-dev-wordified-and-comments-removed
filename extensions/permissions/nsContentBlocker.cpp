@@ -378,6 +378,16 @@ NS_LITERAL_CSTRING
 "
 "
 )
+NS_LITERAL_CSTRING
+(
+"
+"
+)
+NS_LITERAL_CSTRING
+(
+"
+"
+)
 }
 ;
 #
