@@ -176,7 +176,7 @@ String
 LOGTAG
 =
 "
-GeckoBasicSelectionAction
+BasicSelectionAction
 "
 ;
 protected

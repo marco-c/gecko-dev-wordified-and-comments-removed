@@ -41,6 +41,15 @@ GeckoBundle
 import
 android
 .
+support
+.
+annotation
+.
+UiThread
+;
+import
+android
+.
 util
 .
 Log
@@ -274,6 +283,7 @@ null
 ;
 }
 Override
+UiThread
 public
 void
 handleMessage

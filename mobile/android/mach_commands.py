@@ -1986,7 +1986,7 @@ mobile
 /
 android
 /
-app
+geckoview
 /
 reports
 /

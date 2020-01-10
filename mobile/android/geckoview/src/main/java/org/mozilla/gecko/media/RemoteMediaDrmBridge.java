@@ -34,7 +34,7 @@ String
 LOGTAG
 =
 "
-GeckoRemoteMediaDrmBridge
+RemoteMediaDrmBridge
 "
 ;
 private

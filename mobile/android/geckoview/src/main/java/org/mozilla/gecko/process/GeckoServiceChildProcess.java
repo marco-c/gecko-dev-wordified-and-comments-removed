@@ -132,7 +132,7 @@ String
 LOGTAG
 =
 "
-GeckoServiceChildProcess
+ServiceChildProcess
 "
 ;
 private

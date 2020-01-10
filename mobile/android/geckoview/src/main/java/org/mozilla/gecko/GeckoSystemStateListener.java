@@ -150,7 +150,7 @@ String
 LOGTAG
 =
 "
-GeckoSystemStateListener
+SystemStateListener
 "
 ;
 private

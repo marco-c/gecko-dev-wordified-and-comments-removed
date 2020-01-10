@@ -1223,6 +1223,7 @@ message
 )
 ;
 }
+UiThread
 void
 notifyPlaybackStateChange
 (
@@ -1400,6 +1401,7 @@ state
 ;
 }
 }
+UiThread
 void
 notifyReadyStateChange
 (
@@ -1426,6 +1428,7 @@ readyState
 ;
 }
 }
+UiThread
 void
 notifyLoadProgress
 (
@@ -1456,6 +1459,7 @@ message
 ;
 }
 }
+UiThread
 void
 notifyTimeChange
 (
@@ -1482,6 +1486,7 @@ currentTime
 ;
 }
 }
+UiThread
 void
 notifyVolumeChange
 (
@@ -1512,6 +1517,7 @@ muted
 ;
 }
 }
+UiThread
 void
 notifyPlaybackRateChange
 (
@@ -1538,6 +1544,7 @@ rate
 ;
 }
 }
+UiThread
 void
 notifyMetadataChange
 (
@@ -1568,6 +1575,7 @@ message
 ;
 }
 }
+UiThread
 void
 notifyFullscreenChange
 (
@@ -1594,6 +1602,7 @@ fullscreen
 ;
 }
 }
+UiThread
 void
 notifyError
 (

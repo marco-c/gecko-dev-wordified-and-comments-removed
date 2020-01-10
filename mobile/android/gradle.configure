@@ -1502,7 +1502,7 @@ lint
 return
 [
 '
-app
+geckoview
 :
 lint
 {

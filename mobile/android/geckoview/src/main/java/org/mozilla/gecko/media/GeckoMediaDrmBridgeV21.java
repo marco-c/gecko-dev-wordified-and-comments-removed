@@ -196,7 +196,7 @@ Build
 .
 VERSION_CODES
 .
-JELLY_BEAN_MR2
+LOLLIPOP
 )
 public
 class
@@ -3714,12 +3714,6 @@ mProvisioningPromiseId
 =
 promiseId
 ;
-SuppressLint
-(
-"
-NewApi
-"
-)
 MediaDrm
 .
 ProvisionRequest

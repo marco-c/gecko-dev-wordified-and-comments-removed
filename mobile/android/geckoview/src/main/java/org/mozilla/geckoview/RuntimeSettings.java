@@ -105,16 +105,6 @@ RuntimeSettings
 implements
 Parcelable
 {
-private
-static
-final
-String
-LOGTAG
-=
-"
-RuntimeSettings
-"
-;
 public
 abstract
 static

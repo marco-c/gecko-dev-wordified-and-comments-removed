@@ -93,7 +93,7 @@ String
 LOGTAG
 =
 "
-GeckoDynamicToolbarAnimator
+DynamicToolbarAnimator
 "
 ;
 AnyThread
