@@ -888,6 +888,11 @@ constraints_
 (
 constraints
 )
+tiOracle_
+(
+this
+constraints
+)
 thisTypes
 (
 nullptr
