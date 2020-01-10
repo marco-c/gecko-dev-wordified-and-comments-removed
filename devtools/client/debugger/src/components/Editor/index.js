@@ -1787,6 +1787,8 @@ selectedSourceWithContent
 breakpointActions
 editorActions
 isPaused
+conditionalPanelLocation
+closeConditionalPanel
 }
 =
 this
@@ -1813,6 +1815,16 @@ editor
 )
 {
 return
+;
+}
+if
+(
+conditionalPanelLocation
+)
+{
+closeConditionalPanel
+(
+)
 ;
 }
 const
