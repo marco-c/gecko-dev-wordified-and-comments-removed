@@ -46,4 +46,3 @@ maxdepth
 :
 2
 SearchEngineConfiguration
-SearchConfigurationSchema
