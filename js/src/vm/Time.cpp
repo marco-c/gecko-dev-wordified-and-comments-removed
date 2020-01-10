@@ -101,13 +101,6 @@ stdlib
 h
 >
 #
-include
-"
-prinit
-.
-h
-"
-#
 endif
 #
 ifdef
