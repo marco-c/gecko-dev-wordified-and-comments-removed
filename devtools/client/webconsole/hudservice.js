@@ -162,16 +162,6 @@ Map
 (
 )
 ;
-this
-.
-lastFinishedRequest
-=
-{
-callback
-:
-null
-}
-;
 }
 HUDService
 .
@@ -217,9 +207,6 @@ this
 _browerConsoleSessionState
 ;
 }
-lastFinishedRequest
-:
-null
 currentContext
 (
 )
