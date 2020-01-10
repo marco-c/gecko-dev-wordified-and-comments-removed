@@ -10439,7 +10439,7 @@ gNavToolbox
 addEventListener
 (
 "
-customizationending
+aftercustomization
 "
 CustomizationHandler
 )
@@ -30960,7 +30960,7 @@ uiDensityChanged
 ;
 gURLBar
 .
-initLayoutBreakout
+updateLayoutBreakout
 (
 )
 ;
