@@ -273,6 +273,13 @@ AddWindow
 newWindowOuter
 )
 ;
+newWindowOuter
+-
+>
+ForceFullScreenInWidget
+(
+)
+;
 mozilla
 :
 :

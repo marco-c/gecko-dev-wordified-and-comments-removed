@@ -2722,6 +2722,14 @@ aIsFullscreen
 =
 0
 ;
+virtual
+void
+ForceFullScreenInWidget
+(
+)
+=
+0
+;
 inline
 mozilla
 :
