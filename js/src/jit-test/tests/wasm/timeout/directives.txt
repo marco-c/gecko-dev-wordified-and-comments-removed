@@ -40,3 +40,17 @@ wasm
 await
 -
 tier2
+;
+test
+-
+also
+=
+-
+-
+disable
+-
+wasm
+-
+huge
+-
+memory
