@@ -316,12 +316,9 @@ WebKitCSSMatrix
 Multiply
 (
 const
-DOMMatrixInit
+WebKitCSSMatrix
 &
-aOtherInit
-ErrorResult
-&
-aRv
+other
 )
 const
 {
@@ -344,8 +341,7 @@ retval
 >
 MultiplySelf
 (
-aOtherInit
-aRv
+other
 )
 ;
 return

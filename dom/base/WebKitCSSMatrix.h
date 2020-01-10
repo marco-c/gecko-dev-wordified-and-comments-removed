@@ -181,12 +181,9 @@ WebKitCSSMatrix
 Multiply
 (
 const
-DOMMatrixInit
+WebKitCSSMatrix
 &
-aOtherInit
-ErrorResult
-&
-aRv
+aOther
 )
 const
 ;
