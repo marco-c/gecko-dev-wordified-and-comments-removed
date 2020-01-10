@@ -271,11 +271,6 @@ waitForDispatch
 :
 false
 "
-waitForThreadEvents
-"
-:
-false
-"
 waitForState
 "
 :

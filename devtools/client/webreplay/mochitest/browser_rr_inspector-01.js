@@ -195,9 +195,11 @@ editor
 .
 textEditor
 .
-value
+textNode
 .
-textContent
+state
+.
+value
 =
 =
 "
@@ -280,9 +282,11 @@ editor
 .
 textEditor
 .
-value
+textNode
 .
-textContent
+state
+.
+value
 =
 =
 "
