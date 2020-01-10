@@ -3060,7 +3060,6 @@ rv
 FailDiversion
 (
 NS_ERROR_UNEXPECTED
-true
 )
 ;
 return
@@ -3391,8 +3390,6 @@ FTPChannelParent
 aChannelParent
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 :
 Runnable
@@ -3411,10 +3408,6 @@ aChannelParent
 mErrorCode
 (
 aErrorCode
-)
-mSkipResume
-(
-aSkipResume
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3443,7 +3436,6 @@ mChannelParent
 NotifyDiversionFailed
 (
 mErrorCode
-mSkipResume
 )
 ;
 return
@@ -3461,9 +3453,6 @@ mChannelParent
 nsresult
 mErrorCode
 ;
-bool
-mSkipResume
-;
 }
 ;
 void
@@ -3474,8 +3463,6 @@ FailDiversion
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 {
 MOZ_RELEASE_ASSERT
@@ -3508,7 +3495,6 @@ FTPFailDiversionEvent
 (
 this
 aErrorCode
-aSkipResume
 )
 )
 ;
@@ -3521,8 +3507,6 @@ NotifyDiversionFailed
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
 )
 {
 MOZ_RELEASE_ASSERT

@@ -176,10 +176,6 @@ NotifyDiversionFailed
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
-=
-true
 )
 ;
 NS_IMETHOD
@@ -212,10 +208,6 @@ FailDiversion
 (
 nsresult
 aErrorCode
-bool
-aSkipResume
-=
-true
 )
 ;
 bool
