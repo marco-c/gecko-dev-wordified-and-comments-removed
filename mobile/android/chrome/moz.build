@@ -212,13 +212,3 @@ CONFIG
 ANDROID_PACKAGE_NAME
 '
 ]
-JAR_MANIFESTS
-+
-=
-[
-'
-jar
-.
-mn
-'
-]
