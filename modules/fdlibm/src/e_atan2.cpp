@@ -158,11 +158,9 @@ ly
 )
 )
 return
-nan_mix
-(
 x
++
 y
-)
 ;
 if
 (
