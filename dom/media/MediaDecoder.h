@@ -1420,6 +1420,7 @@ DiscardOngoingSeekIfExists
 (
 )
 ;
+virtual
 void
 CallSeek
 (
