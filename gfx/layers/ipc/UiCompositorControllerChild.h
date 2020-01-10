@@ -355,9 +355,6 @@ ipc
 IPCResult
 RecvScreenPixels
 (
-ipc
-:
-:
 Shmem
 &
 &
