@@ -105,9 +105,14 @@ TEST_URI
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 hud
 .
-toolbox
+target
+)
 ;
 await
 toolbox

@@ -1178,9 +1178,14 @@ hud
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 hud
 .
-toolbox
+target
+)
 ;
 const
 doc

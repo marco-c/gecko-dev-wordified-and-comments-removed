@@ -77,9 +77,14 @@ opened
 const
 toolbox
 =
+gDevTools
+.
+getToolbox
+(
 wcHud
 .
-toolbox
+target
+)
 ;
 const
 oldPanels

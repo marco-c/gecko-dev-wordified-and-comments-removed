@@ -233,7 +233,7 @@ WebConsole
 (
 this
 .
-_toolbox
+target
 webConsoleUIWindow
 chromeWindow
 )
@@ -342,7 +342,7 @@ this
 ;
 }
 get
-currentTarget
+target
 (
 )
 {
