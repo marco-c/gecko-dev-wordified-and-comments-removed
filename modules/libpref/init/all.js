@@ -32309,6 +32309,16 @@ false
 pref
 (
 "
+signon
+.
+storeSignons
+"
+true
+)
+;
+pref
+(
+"
 browser
 .
 formfill

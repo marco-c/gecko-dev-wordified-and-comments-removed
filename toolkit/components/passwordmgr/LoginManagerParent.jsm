@@ -2157,6 +2157,17 @@ propBag
 if
 (
 !
+LoginHelper
+.
+storageEnabled
+)
+{
+return
+;
+}
+if
+(
+!
 Services
 .
 logins
