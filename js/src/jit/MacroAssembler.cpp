@@ -15254,12 +15254,12 @@ label
 branchTestFunctionFlags
 (
 fun
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
 |
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAZY
@@ -15273,7 +15273,7 @@ label
 branchTestFunctionFlags
 (
 fun
-JSFunction
+FunctionFlags
 :
 :
 CONSTRUCTOR

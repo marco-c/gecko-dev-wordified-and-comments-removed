@@ -5356,7 +5356,7 @@ branchFunctionKind
 (
 Condition
 cond
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind

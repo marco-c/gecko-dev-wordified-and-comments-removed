@@ -1889,12 +1889,12 @@ label
 int32_t
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
 |
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAZY
@@ -1908,7 +1908,7 @@ isConstructing
 flags
 |
 =
-JSFunction
+FunctionFlags
 :
 :
 WASM_JIT_ENTRY
@@ -1942,7 +1942,7 @@ label
 int32_t
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
@@ -1977,12 +1977,12 @@ label
 int32_t
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
 |
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAZY
@@ -1996,7 +1996,7 @@ isConstructing
 flags
 |
 =
-JSFunction
+FunctionFlags
 :
 :
 WASM_JIT_ENTRY
@@ -2080,7 +2080,7 @@ branchFunctionKind
 (
 Condition
 cond
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind
@@ -2149,7 +2149,7 @@ mask
 =
 IMM32_16ADJ
 (
-JSFunction
+FunctionFlags
 :
 :
 FUNCTION_KIND_MASK
@@ -2163,7 +2163,7 @@ IMM32_16ADJ
 kind
 <
 <
-JSFunction
+FunctionFlags
 :
 :
 FUNCTION_KIND_SHIFT

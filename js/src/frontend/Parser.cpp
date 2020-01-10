@@ -9929,10 +9929,7 @@ AllocKind
 :
 FUNCTION
 ;
-JSFunction
-:
-:
-Flags
+FunctionFlags
 flags
 ;
 bool
@@ -9987,12 +9984,12 @@ FunctionAsyncKind
 :
 SyncFunction
 ?
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAMBDA
 :
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAMBDA_GENERATOR_OR_ASYNC
@@ -10008,7 +10005,7 @@ Arrow
 :
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_LAMBDA_ARROW
@@ -10033,7 +10030,7 @@ Method
 :
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_METHOD
@@ -10064,7 +10061,7 @@ DerivedClassConstructor
 :
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_CLASS_CONSTRUCTOR
@@ -10089,7 +10086,7 @@ Getter
 :
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_GETTER
@@ -10114,7 +10111,7 @@ Setter
 :
 flags
 =
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_SETTER
@@ -10180,12 +10177,12 @@ FunctionAsyncKind
 :
 SyncFunction
 ?
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_NORMAL
 :
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_GENERATOR_OR_ASYNC

@@ -13135,11 +13135,10 @@ JSFunction
 flags
 (
 )
-&
-JSFunction
-:
-:
-NATIVE_CTOR
+.
+isNativeConstructor
+(
+)
 )
 )
 {

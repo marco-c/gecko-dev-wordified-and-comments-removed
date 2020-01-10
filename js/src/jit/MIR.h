@@ -32127,6 +32127,10 @@ fun
 flags
 (
 )
+.
+toRaw
+(
+)
 )
 nargs
 (
@@ -32198,7 +32202,7 @@ MOZ_ASSERT_IF
 (
 flags
 &
-JSFunction
+FunctionFlags
 :
 :
 EXTENDED

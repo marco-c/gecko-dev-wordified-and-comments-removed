@@ -18197,7 +18197,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 Method

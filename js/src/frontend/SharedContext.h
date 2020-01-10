@@ -1356,7 +1356,7 @@ isInterpretedLazy_
 :
 1
 ;
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind
@@ -2183,7 +2183,7 @@ isInterpretedLazy
 )
 ;
 }
-JSFunction
+FunctionFlags
 :
 :
 FunctionKind

@@ -6204,7 +6204,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 NormalFunction
@@ -18565,7 +18565,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 NormalFunction
@@ -19508,7 +19508,7 @@ NewScriptedFunction
 (
 cx
 nargs
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
@@ -19850,11 +19850,19 @@ targetFun
 flags
 (
 )
+.
+toRaw
+(
+)
 |
 sourceFun
 -
 >
 flags
+(
+)
+.
+toRaw
 (
 )
 )

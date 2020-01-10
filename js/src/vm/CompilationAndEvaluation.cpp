@@ -1765,7 +1765,7 @@ NewScriptedFunction
 (
 cx_
 0
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_NORMAL

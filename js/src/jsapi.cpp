@@ -17705,7 +17705,7 @@ kind
 )
 !
 =
-JSFunction
+FunctionFlags
 :
 :
 NormalFunction

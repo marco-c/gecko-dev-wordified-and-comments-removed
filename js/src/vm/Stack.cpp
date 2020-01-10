@@ -6572,6 +6572,10 @@ currentCallee
 flags
 (
 )
+.
+toRaw
+(
+)
 ^
 fun
 -
@@ -6579,9 +6583,13 @@ fun
 flags
 (
 )
+.
+toRaw
+(
+)
 )
 &
-JSFunction
+FunctionFlags
 :
 :
 STABLE_ACROSS_CLONES

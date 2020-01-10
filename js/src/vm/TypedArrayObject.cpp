@@ -1901,7 +1901,7 @@ NewFunctionWithProto
 cx
 class_constructor
 3
-JSFunction
+FunctionFlags
 :
 :
 NATIVE_CTOR

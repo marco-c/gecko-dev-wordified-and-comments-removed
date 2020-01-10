@@ -7060,7 +7060,7 @@ NewScriptedFunction
 (
 cx_
 0
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED
@@ -39123,7 +39123,7 @@ NewScriptedFunction
 (
 cx
 0
-JSFunction
+FunctionFlags
 :
 :
 INTERPRETED_NORMAL
@@ -39554,10 +39554,7 @@ explicitName
 )
 )
 ;
-JSFunction
-:
-:
-Flags
+FunctionFlags
 flags
 =
 origFun
@@ -39567,12 +39564,12 @@ isLambda
 (
 )
 ?
-JSFunction
+FunctionFlags
 :
 :
 ASMJS_LAMBDA_CTOR
 :
-JSFunction
+FunctionFlags
 :
 :
 ASMJS_CTOR
@@ -40341,7 +40338,7 @@ kind
 )
 =
 =
-JSFunction
+FunctionFlags
 :
 :
 AsmJS
