@@ -953,7 +953,6 @@ sClass
 ;
 }
 ;
-static
 inline
 bool
 IsRemoteObjectProxy
@@ -995,7 +994,6 @@ aProtoID
 )
 ;
 }
-static
 inline
 bool
 IsRemoteObjectProxy
