@@ -1,9 +1,9 @@
 #
 ifndef
-GMP_LOG_h_
+DOM_MEDIA_GMPLOG_H_
 #
 define
-GMP_LOG_h_
+DOM_MEDIA_GMPLOG_H_
 #
 include
 "
