@@ -16365,6 +16365,17 @@ sandbox
 stub
 (
 )
+A11yUtils
+:
+{
+announce
+:
+sandbox
+.
+stub
+(
+)
+}
 }
 ;
 const
