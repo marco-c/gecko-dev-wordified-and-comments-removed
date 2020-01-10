@@ -1752,8 +1752,10 @@ nsGenericHTMLFrameElement
 aDest
 )
 ;
+RefPtr
+<
 nsFrameLoader
-*
+>
 fl
 =
 nsFrameLoader

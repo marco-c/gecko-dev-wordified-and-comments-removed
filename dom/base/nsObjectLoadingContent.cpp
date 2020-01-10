@@ -11508,8 +11508,10 @@ aDest
 )
 )
 ;
+RefPtr
+<
 nsFrameLoader
-*
+>
 fl
 =
 nsFrameLoader
