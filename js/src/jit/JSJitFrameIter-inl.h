@@ -171,6 +171,7 @@ JSJitProfilingFrameIterator
 framePtr
 (
 )
+const
 {
 MOZ_ASSERT
 (
@@ -197,6 +198,7 @@ JSJitProfilingFrameIterator
 frameScript
 (
 )
+const
 {
 return
 ScriptFromCalleeToken

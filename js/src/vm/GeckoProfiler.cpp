@@ -550,7 +550,7 @@ jit
 :
 ToggleBaselineProfiling
 (
-rt
+cx
 enabled
 )
 ;
