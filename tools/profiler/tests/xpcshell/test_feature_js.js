@@ -239,7 +239,7 @@ functionC
 )
 {
 return
-captureAtLeastOneJsSample
+doAtLeastOnePeriodicSample
 (
 )
 ;

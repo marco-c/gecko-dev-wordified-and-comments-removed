@@ -35,8 +35,6 @@ remove_memory_hooks
 void
 enable_native_allocations
 (
-int
-aMainThreadId
 )
 ;
 void

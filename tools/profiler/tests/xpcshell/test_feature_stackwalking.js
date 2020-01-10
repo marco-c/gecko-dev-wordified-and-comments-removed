@@ -58,7 +58,7 @@ const
 sampleIndex
 =
 await
-captureAtLeastOneJsSample
+doAtLeastOnePeriodicSample
 (
 )
 ;
