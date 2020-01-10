@@ -464,10 +464,10 @@ void
 nsPlainTextSerializer
 :
 :
-CurrentLineContent
+CurrentLine
 :
 :
-MaybeReplaceNbsps
+MaybeReplaceNbspsInContent
 (
 const
 int32_t
@@ -487,7 +487,7 @@ OutputPersistNBSP
 )
 )
 {
-mValue
+mContent
 .
 ReplaceChar
 (
@@ -509,8 +509,6 @@ ResetContentAndIndentationHeader
 )
 {
 mContent
-.
-mValue
 .
 Truncate
 (
@@ -626,8 +624,6 @@ aCurrentLine
 .
 mContent
 .
-mValue
-.
 IsEmpty
 (
 )
@@ -661,8 +657,6 @@ Append
 aCurrentLine
 .
 mContent
-.
-mValue
 )
 ;
 }
@@ -5779,8 +5773,6 @@ aCurrentLine
 .
 mContent
 .
-mValue
-.
 IsEmpty
 (
 )
@@ -5788,9 +5780,7 @@ IsEmpty
 {
 aCurrentLine
 .
-mContent
-.
-MaybeReplaceNbsps
+MaybeReplaceNbspsInContent
 (
 mFlags
 )
@@ -5905,8 +5895,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Length
 (
 )
@@ -5920,16 +5908,12 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 get
 (
 )
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -5966,8 +5950,6 @@ goodSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6006,8 +5988,6 @@ GetUnicharWidth
 mCurrentLine
 .
 mContent
-.
-mValue
 [
 goodSpace
 ]
@@ -6034,16 +6014,12 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 get
 (
 )
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6068,8 +6044,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 CharAt
 (
 goodSpace
@@ -6092,8 +6066,6 @@ if
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 IsEmpty
 (
@@ -6126,8 +6098,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Length
 (
 )
@@ -6152,8 +6122,6 @@ IsAsciiSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 CharAt
 (
@@ -6214,8 +6182,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Length
 (
 )
@@ -6231,16 +6197,12 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 get
 (
 )
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6260,8 +6222,6 @@ goodSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6300,8 +6260,6 @@ IsAsciiSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 CharAt
 (
@@ -6344,8 +6302,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 CharAt
 (
 goodSpace
@@ -6356,8 +6312,6 @@ goodSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Right
 (
@@ -6376,8 +6330,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Right
 (
 restOfLine
@@ -6395,8 +6347,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 CharAt
 (
 goodSpace
@@ -6409,8 +6359,6 @@ goodSpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Truncate
 (
@@ -6426,8 +6374,6 @@ breakBySpace
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Truncate
 (
@@ -6478,8 +6424,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Append
 (
 char16_t
@@ -6495,8 +6439,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Append
 (
 restOfLine
@@ -6510,16 +6452,12 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 get
 (
 )
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6531,8 +6469,6 @@ linelength
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Length
 (
@@ -6579,8 +6515,6 @@ if
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 IsEmpty
 (
@@ -6631,8 +6565,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Append
 (
 char16_t
@@ -6653,8 +6585,6 @@ mEmptyLines
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Append
 (
@@ -6738,8 +6668,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 IsEmpty
 (
 )
@@ -6772,8 +6700,6 @@ IsSignatureSeparator
 mCurrentLine
 .
 mContent
-.
-mValue
 )
 )
 )
@@ -6781,8 +6707,6 @@ mValue
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Trim
 (
@@ -6842,8 +6766,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 AppendLiteral
 (
 "
@@ -6856,8 +6778,6 @@ else
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 Append
 (
@@ -6909,9 +6829,7 @@ mOutputManager
 ;
 mCurrentLine
 .
-mContent
-.
-MaybeReplaceNbsps
+MaybeReplaceNbspsInContent
 (
 mSettings
 .
@@ -7020,8 +6938,6 @@ if
 (
 !
 mContent
-.
-mValue
 .
 IsEmpty
 (
@@ -7613,8 +7529,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Append
 (
 char16_t
@@ -7630,8 +7544,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 Append
 (
 stringpart
@@ -7639,9 +7551,7 @@ stringpart
 ;
 mCurrentLine
 .
-mContent
-.
-MaybeReplaceNbsps
+MaybeReplaceNbspsInContent
 (
 mSettings
 .
@@ -7848,8 +7758,6 @@ mCurrentLine
 .
 mContent
 .
-mValue
-.
 IsEmpty
 (
 )
@@ -7889,8 +7797,6 @@ if
 mCurrentLine
 .
 mContent
-.
-mValue
 .
 IsEmpty
 (
