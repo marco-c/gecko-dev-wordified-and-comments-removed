@@ -776,7 +776,7 @@ return
 true
 ;
 }
-bool
+void
 DebugState
 :
 :
@@ -858,7 +858,6 @@ value
 )
 {
 return
-true
 ;
 }
 stepperCounters_
@@ -993,9 +992,6 @@ enabled
 ;
 }
 }
-return
-true
-;
 }
 bool
 DebugState

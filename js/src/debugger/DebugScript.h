@@ -270,6 +270,7 @@ script
 #
 endif
 static
+MOZ_MUST_USE
 bool
 incrementStepperCount
 (
@@ -294,6 +295,7 @@ script
 )
 ;
 static
+MOZ_MUST_USE
 bool
 incrementGeneratorObserverCount
 (

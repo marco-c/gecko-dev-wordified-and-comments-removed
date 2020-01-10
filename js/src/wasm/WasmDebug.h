@@ -211,6 +211,7 @@ debugBytecode
 )
 ;
 }
+MOZ_MUST_USE
 bool
 getLineOffsets
 (
@@ -224,6 +225,7 @@ uint32_t
 offsets
 )
 ;
+MOZ_MUST_USE
 bool
 getAllColumnOffsets
 (
@@ -235,6 +237,7 @@ ExprLoc
 offsets
 )
 ;
+MOZ_MUST_USE
 bool
 getOffsetLocation
 (
@@ -379,6 +382,7 @@ funcIndex
 )
 const
 ;
+MOZ_MUST_USE
 bool
 incrementStepperCount
 (
@@ -389,7 +393,7 @@ uint32_t
 funcIndex
 )
 ;
-bool
+void
 decrementStepperCount
 (
 JSFreeOp
@@ -399,6 +403,7 @@ uint32_t
 funcIndex
 )
 ;
+MOZ_MUST_USE
 bool
 debugGetLocalTypes
 (
@@ -412,6 +417,7 @@ size_t
 argsLength
 )
 ;
+MOZ_MUST_USE
 bool
 debugGetResultTypes
 (
@@ -422,6 +428,7 @@ ValTypeVector
 results
 )
 ;
+MOZ_MUST_USE
 bool
 getGlobal
 (
@@ -434,6 +441,7 @@ MutableHandleValue
 vp
 )
 ;
+MOZ_MUST_USE
 bool
 getSourceMappingURL
 (

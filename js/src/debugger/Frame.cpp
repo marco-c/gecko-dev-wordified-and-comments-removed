@@ -3465,9 +3465,6 @@ defaultFreeOp
 (
 )
 ;
-if
-(
-!
 instance
 -
 >
@@ -3485,12 +3482,7 @@ funcIndex
 (
 )
 )
-)
-{
-return
-false
 ;
-}
 }
 }
 else
