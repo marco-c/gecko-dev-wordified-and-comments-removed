@@ -129,6 +129,8 @@ findChildWithName
 (
 DOMString
 name
+BrowsingContext
+accessor
 )
 ;
 BrowsingContext
@@ -137,6 +139,8 @@ findWithName
 (
 DOMString
 name
+BrowsingContext
+accessor
 )
 ;
 readonly

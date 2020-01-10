@@ -793,6 +793,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 ;
 BrowsingContext
@@ -803,6 +806,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 ;
 nsISupports
@@ -1526,6 +1532,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 ;
 BrowsingContext
@@ -1537,7 +1546,7 @@ nsAString
 &
 aName
 BrowsingContext
-*
+&
 aRequestingContext
 )
 ;

@@ -720,6 +720,10 @@ findWithName
 "
 target
 "
+browsingContexts
+[
+i
+]
 )
 ;
 is
@@ -812,6 +816,10 @@ i
 findWithName
 (
 target
+browsingContexts
+[
+i
+]
 )
 ;
 is

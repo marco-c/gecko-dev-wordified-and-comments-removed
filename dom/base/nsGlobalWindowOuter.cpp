@@ -17957,6 +17957,8 @@ mBrowsingContext
 FindChildWithName
 (
 aName
+*
+mBrowsingContext
 )
 )
 ;

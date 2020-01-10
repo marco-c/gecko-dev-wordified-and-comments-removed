@@ -2402,6 +2402,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 {
 BrowsingContext
@@ -2434,6 +2437,7 @@ special
 FindWithSpecialName
 (
 aName
+aRequestingContext
 )
 )
 {
@@ -2470,7 +2474,7 @@ child
 FindWithNameInSubtree
 (
 aName
-this
+aRequestingContext
 )
 )
 {
@@ -2531,6 +2535,8 @@ aName
 )
 &
 &
+aRequestingContext
+.
 CanAccess
 (
 parent
@@ -2596,7 +2602,7 @@ sibling
 FindWithNameInSubtree
 (
 aName
-this
+aRequestingContext
 )
 )
 {
@@ -2629,6 +2635,8 @@ MOZ_DIAGNOSTIC_ASSERT
 found
 |
 |
+aRequestingContext
+.
 CanAccess
 (
 found
@@ -2650,6 +2658,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 {
 if
@@ -2685,6 +2696,8 @@ aName
 )
 &
 &
+aRequestingContext
+.
 CanAccess
 (
 child
@@ -2719,6 +2732,9 @@ const
 nsAString
 &
 aName
+BrowsingContext
+&
+aRequestingContext
 )
 {
 if
@@ -2753,6 +2769,8 @@ return
 mParent
 &
 &
+aRequestingContext
+.
 CanAccess
 (
 mParent
@@ -2792,6 +2810,8 @@ Top
 )
 ;
 return
+aRequestingContext
+.
 CanAccess
 (
 top
@@ -2818,7 +2838,7 @@ nsAString
 &
 aName
 BrowsingContext
-*
+&
 aRequestingContext
 )
 {
@@ -2841,8 +2861,7 @@ aName
 &
 &
 aRequestingContext
--
->
+.
 CanAccess
 (
 this
