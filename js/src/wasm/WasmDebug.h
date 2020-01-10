@@ -201,9 +201,6 @@ debugBytecode
 bool
 getLineOffsets
 (
-JSContext
-*
-cx
 size_t
 lineno
 Vector
@@ -217,9 +214,6 @@ offsets
 bool
 getAllColumnOffsets
 (
-JSContext
-*
-cx
 Vector
 <
 ExprLoc
@@ -294,9 +288,6 @@ WasmBreakpointSite
 *
 getBreakpointSite
 (
-JSContext
-*
-cx
 uint32_t
 offset
 )

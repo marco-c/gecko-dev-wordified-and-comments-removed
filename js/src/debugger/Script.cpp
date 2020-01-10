@@ -5110,7 +5110,6 @@ debug
 .
 getAllColumnOffsets
 (
-cx_
 &
 offsets
 )
@@ -8985,7 +8984,6 @@ debug
 .
 getAllColumnOffsets
 (
-cx_
 &
 offsets
 )
@@ -9455,7 +9453,6 @@ debug
 .
 getLineOffsets
 (
-cx_
 lineno_
 &
 offsets
