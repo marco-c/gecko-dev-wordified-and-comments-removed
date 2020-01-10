@@ -1036,7 +1036,7 @@ if
 StaticPrefs
 :
 :
-VREnabled
+dom_vr_enabled
 (
 )
 |

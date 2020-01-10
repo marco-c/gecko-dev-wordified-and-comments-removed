@@ -169,7 +169,7 @@ return
 StaticPrefs
 :
 :
-WebGL2Enabled
+webgl_enable_webgl2
 (
 )
 ;

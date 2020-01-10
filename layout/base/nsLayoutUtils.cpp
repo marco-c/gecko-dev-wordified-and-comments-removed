@@ -44908,7 +44908,7 @@ return
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 ;
@@ -47638,7 +47638,7 @@ APZPrintTree
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 )

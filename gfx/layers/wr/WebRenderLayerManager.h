@@ -813,7 +813,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 "
@@ -860,7 +860,7 @@ MOZ_ASSERT
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 "

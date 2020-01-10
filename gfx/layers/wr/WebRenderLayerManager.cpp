@@ -852,7 +852,7 @@ if
 StaticPrefs
 :
 :
-APZTestLoggingEnabled
+apz_test_logging_enabled
 (
 )
 )
