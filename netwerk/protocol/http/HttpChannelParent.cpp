@@ -5108,7 +5108,13 @@ rv
 }
 if
 (
+MOZ_UNLIKELY
+(
 aSourceRequestBlockingReason
+)
+&
+&
+mChannel
 )
 {
 nsCOMPtr
