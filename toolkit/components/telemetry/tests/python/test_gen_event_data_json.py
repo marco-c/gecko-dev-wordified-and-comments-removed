@@ -77,6 +77,10 @@ TestCase
 )
 :
     
+maxDiff
+=
+None
+    
 def
 test_JSON_definitions_generation
 (
@@ -151,6 +155,12 @@ expiry_version
 :
 never
     
+products
+:
+      
+-
+firefox
+    
 extra_keys
 :
       
@@ -220,6 +230,20 @@ in
 expiry_version
 :
 never
+    
+products
+:
+[
+'
+firefox
+'
+'
+fennec
+'
+'
+geckoview
+'
+]
     
 extra_keys
 :
@@ -301,6 +325,16 @@ record_on_release
 "
 :
 True
+                    
+"
+products
+"
+:
+[
+"
+firefox
+"
+]
                 
 }
             
@@ -369,6 +403,22 @@ record_on_release
 "
 :
 False
+                    
+"
+products
+"
+:
+[
+"
+firefox
+"
+"
+fennec
+"
+"
+geckoview
+"
+]
                 
 }
             
