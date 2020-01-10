@@ -482,7 +482,7 @@ mozilla
 /
 widget
 /
-nsWaylandDisplayShutdown
+nsWaylandDisplay
 .
 h
 "
