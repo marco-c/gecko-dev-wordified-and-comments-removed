@@ -613,6 +613,9 @@ now
 )
 /
 1000
+notifyInStableOrder
+:
+true
 }
 )
 ;
@@ -1774,6 +1777,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
@@ -3262,6 +3270,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
@@ -4243,6 +4256,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual

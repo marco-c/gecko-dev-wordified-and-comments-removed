@@ -517,6 +517,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
@@ -5703,6 +5708,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
@@ -9460,6 +9470,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
@@ -10433,6 +10448,11 @@ buf
 .
 apply
 (
+{
+notifyInStableOrder
+:
+true
+}
 )
 ;
 deepEqual
