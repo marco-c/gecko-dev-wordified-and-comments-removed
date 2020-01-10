@@ -23,10 +23,13 @@ namespace
 profiler
 {
 void
-install_memory_counter
+install_memory_hooks
 (
-bool
-aInstall
+)
+;
+void
+remove_memory_hooks
+(
 )
 ;
 }
