@@ -100,6 +100,10 @@ time
 import
 urllib
 .
+parse
+import
+urllib
+.
 request
 try
 :
@@ -2286,7 +2290,16 @@ directory
 "
 basename
 =
+urllib
+.
+parse
+.
+urlparse
+(
 url
+)
+.
+path
 .
 split
 (
