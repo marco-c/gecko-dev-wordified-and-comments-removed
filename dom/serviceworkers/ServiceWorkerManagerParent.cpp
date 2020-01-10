@@ -345,6 +345,17 @@ mScope
 )
 )
 ;
+if
+(
+ServiceWorkerParentInterceptEnabled
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 ServiceWorkerManagerService
