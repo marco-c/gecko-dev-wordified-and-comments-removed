@@ -3237,6 +3237,16 @@ bits
 )
 ;
 }
+bool
+isSystemOrAddonPrincipal
+(
+)
+override
+{
+return
+true
+;
+}
 static
 void
 destroy

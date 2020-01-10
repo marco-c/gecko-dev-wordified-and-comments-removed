@@ -108,6 +108,14 @@ writer
 =
 0
 ;
+virtual
+bool
+isSystemOrAddonPrincipal
+(
+)
+=
+0
+;
 JS_PUBLIC_API
 void
 dump

@@ -144,6 +144,12 @@ aWriter
 )
 final
 ;
+bool
+isSystemOrAddonPrincipal
+(
+)
+final
+;
 static
 nsJSPrincipals
 *
