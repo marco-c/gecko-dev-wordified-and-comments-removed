@@ -5539,24 +5539,19 @@ self
 )
         
 if
-0
-=
-=
-len
+not
 (
 p
 .
 managers
-)
-and
-0
-=
-=
-len
-(
+or
 p
 .
 messageDecls
+or
+p
+.
+managesStmts
 )
 :
             
