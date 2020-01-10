@@ -2723,6 +2723,13 @@ search
 one
 -
 offs
+:
+not
+(
+[
+hidden
+]
+)
 {
 display
 :
