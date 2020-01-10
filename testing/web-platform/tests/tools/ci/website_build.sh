@@ -9,7 +9,7 @@ set
 ex
 neutral_status
 =
-78
+0
 source_revision
 =
 (
