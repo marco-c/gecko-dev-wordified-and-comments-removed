@@ -4338,6 +4338,16 @@ return
 ;
 }
 }
+else
+if
+(
+!
+aWaitCondition
+)
+{
+return
+;
+}
 YieldThread
 (
 )
