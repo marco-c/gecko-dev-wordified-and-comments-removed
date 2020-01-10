@@ -26246,6 +26246,21 @@ isAsync
             
 if
 isctor
+and
+not
+md
+.
+decl
+.
+type
+.
+constructedType
+(
+)
+.
+isRefcounted
+(
+)
 :
                 
 self
