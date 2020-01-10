@@ -4256,6 +4256,13 @@ get
 )
 )
 ;
+mGLContext
+-
+>
+MakeCurrent
+(
+)
+;
 #
 endif
 mGLContext
