@@ -158,10 +158,5 @@ ENTRY
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

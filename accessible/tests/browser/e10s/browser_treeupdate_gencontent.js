@@ -179,12 +179,12 @@ id1
 )
 ;
 await
-invokeContentTask
+ContentTask
+.
+spawn
 (
 browser
-[
 id1
-]
 id
 =
 >
@@ -349,11 +349,6 @@ container2
 tree
 )
 ;
-}
-{
-iframe
-:
-true
 }
 )
 ;

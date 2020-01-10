@@ -163,10 +163,5 @@ matches
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

@@ -139,10 +139,5 @@ DIALOG
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

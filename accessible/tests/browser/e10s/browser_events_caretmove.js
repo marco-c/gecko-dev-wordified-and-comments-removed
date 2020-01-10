@@ -78,10 +78,5 @@ offset
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

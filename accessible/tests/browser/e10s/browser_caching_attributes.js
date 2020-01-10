@@ -525,10 +525,5 @@ unexpected
 ;
 }
 }
-{
-iframe
-:
-true
-}
 )
 ;

@@ -359,10 +359,5 @@ spec
 ;
 }
 }
-{
-iframe
-:
-true
-}
 )
 ;

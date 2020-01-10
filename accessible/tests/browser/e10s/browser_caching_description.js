@@ -142,7 +142,9 @@ waitFor
 [
 [
 EVENT_REORDER
-matchContentDoc
+"
+body
+"
 ]
 ]
 expected
@@ -266,7 +268,9 @@ waitFor
 [
 [
 EVENT_REORDER
-matchContentDoc
+"
+body
+"
 ]
 ]
 expected
@@ -424,7 +428,9 @@ waitFor
 [
 [
 EVENT_REORDER
-matchContentDoc
+"
+body
+"
 ]
 ]
 expected
@@ -908,11 +914,6 @@ expected
 )
 ;
 }
-}
-{
-iframe
-:
-true
 }
 )
 ;

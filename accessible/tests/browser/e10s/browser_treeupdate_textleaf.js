@@ -66,12 +66,12 @@ id
 )
 ;
 await
-invokeContentTask
+ContentTask
+.
+spawn
 (
 browser
-[
 id
-]
 contentId
 =
 >
@@ -194,11 +194,6 @@ pre
 ROLE_TEXT_CONTAINER
 )
 ;
-}
-{
-iframe
-:
-true
 }
 )
 ;

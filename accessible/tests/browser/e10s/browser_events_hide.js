@@ -179,10 +179,5 @@ sibling
 )
 ;
 }
-{
-iframe
-:
-true
-}
 )
 ;

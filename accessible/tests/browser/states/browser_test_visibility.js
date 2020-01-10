@@ -103,13 +103,13 @@ STATE_INVISIBLE
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 (
 )
 =
