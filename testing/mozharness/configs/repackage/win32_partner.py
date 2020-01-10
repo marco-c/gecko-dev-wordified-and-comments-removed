@@ -25,25 +25,6 @@ REPACK_ID
 )
     
 '
-tooltool_url
-'
-:
-'
-https
-:
-/
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-    
-'
 run_configure
 '
 :

@@ -117,27 +117,6 @@ minidump_stackwalk
 "
     
 "
-tooltool_servers
-"
-:
-[
-'
-https
-:
-/
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-]
-    
-"
 minidump_tooltool_manifest_path
 "
 :

@@ -255,25 +255,6 @@ mozilla
 org
 "
                 
-'
-tooltool_url
-'
-:
-'
-https
-:
-/
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-                
 "
 graph_selector
 "

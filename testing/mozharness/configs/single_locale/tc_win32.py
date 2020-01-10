@@ -157,25 +157,6 @@ build
     
 }
     
-"
-tooltool_url
-"
-:
-'
-https
-:
-/
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-    
 '
 tooltool_manifest_src
 '

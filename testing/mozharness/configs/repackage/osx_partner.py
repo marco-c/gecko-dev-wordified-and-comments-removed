@@ -35,27 +35,6 @@ REPACK_ID
 "
 )
     
-"
-tooltool_url
-"
-:
-'
-http
-:
-/
-/
-taskcluster
-/
-tooltool
-.
-mozilla
--
-releng
-.
-net
-/
-'
-    
 '
 tooltool_cache
 '
