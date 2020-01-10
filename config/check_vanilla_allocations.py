@@ -414,6 +414,19 @@ o
             
 continue
         
+if
+filename
+=
+=
+'
+Decimal
+.
+o
+'
+:
+            
+continue
+        
 fn
 =
 m
