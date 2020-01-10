@@ -138,8 +138,8 @@ typedef
 EditorBase
 :
 :
-AutoTopLevelEditSubActionNotifier
-AutoTopLevelEditSubActionNotifier
+AutoEditSubActionNotifier
+AutoEditSubActionNotifier
 ;
 typedef
 EditorBase

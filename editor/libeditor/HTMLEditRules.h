@@ -2034,9 +2034,6 @@ mListenerEnabled
 bool
 mReturnInEmptyLIKillsList
 ;
-uint32_t
-mJoinOffset
-;
 }
 ;
 }
