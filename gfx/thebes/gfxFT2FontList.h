@@ -481,11 +481,6 @@ aLength
 override
 ;
 void
-WriteCache
-(
-)
-;
-void
 GetSystemFontList
 (
 InfallibleTArray
