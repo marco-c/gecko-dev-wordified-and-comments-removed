@@ -416,4 +416,16 @@ align
 :
 center
 ;
+align
+-
+self
+:
+start
+;
+justify
+-
+self
+:
+end
+;
 }
