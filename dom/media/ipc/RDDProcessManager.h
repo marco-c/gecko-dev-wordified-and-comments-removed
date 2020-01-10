@@ -174,16 +174,6 @@ mNumProcessAttempts
 0
 ;
 }
-RDDProcessHost
-*
-Process
-(
-)
-{
-return
-mProcess
-;
-}
 private
 :
 void

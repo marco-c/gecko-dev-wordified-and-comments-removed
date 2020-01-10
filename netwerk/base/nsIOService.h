@@ -579,16 +579,6 @@ SocketProcessPid
 (
 )
 ;
-SocketProcessHost
-*
-SocketProcess
-(
-)
-{
-return
-mSocketProcess
-;
-}
 friend
 SocketProcessMemoryReporter
 ;
