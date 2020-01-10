@@ -2649,16 +2649,6 @@ doc
 IsHTMLOrXHTML
 (
 )
-&
-&
-!
-nsContentUtils
-:
-:
-IsChromeDoc
-(
-doc
-)
 )
 {
 *
