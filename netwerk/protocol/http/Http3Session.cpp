@@ -2068,6 +2068,11 @@ ConnectionClosed
 )
 )
 ;
+CloseInternal
+(
+false
+)
+;
 mState
 =
 CLOSED
