@@ -1130,7 +1130,7 @@ marionette
 /
 content
 /
-test_anonymous_content
+test
 .
 xul
 "
