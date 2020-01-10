@@ -169,7 +169,6 @@ maximumAge
 }
 ;
 [
-NoInterfaceObject
 Exposed
 =
 Window
@@ -237,7 +236,7 @@ PositionCallback
 =
 void
 (
-Position
+GeolocationPosition
 position
 )
 ;
@@ -246,7 +245,7 @@ PositionErrorCallback
 =
 void
 (
-PositionError
+GeolocationPositionError
 positionError
 )
 ;

@@ -60,7 +60,7 @@ mozilla
 /
 dom
 /
-PositionErrorBinding
+GeolocationPositionErrorBinding
 .
 h
 "
@@ -490,7 +490,7 @@ default
 :
 err
 =
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1052,7 +1052,7 @@ err
 #
 else
 return
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1087,7 +1087,7 @@ case
 EROFS
 :
 return
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -1101,7 +1101,7 @@ case
 ETIMEDOUT
 :
 return
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 TIMEOUT
@@ -1109,7 +1109,7 @@ TIMEOUT
 default
 :
 return
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE

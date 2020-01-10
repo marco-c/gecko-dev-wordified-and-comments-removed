@@ -60,7 +60,7 @@ nsIDOMGeoPositionErrorCallback
 GeoPositionErrorCallback
 ;
 class
-PositionError
+GeolocationPositionError
 final
 :
 public
@@ -70,13 +70,13 @@ public
 :
 NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 (
-PositionError
+GeolocationPositionError
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
 (
-PositionError
+GeolocationPositionError
 )
-PositionError
+GeolocationPositionError
 (
 Geolocation
 *
@@ -144,7 +144,7 @@ callback
 private
 :
 ~
-PositionError
+GeolocationPositionError
 (
 )
 ;

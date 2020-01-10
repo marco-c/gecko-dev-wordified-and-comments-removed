@@ -63,7 +63,7 @@ mozilla
 /
 dom
 /
-PositionError
+GeolocationPositionError
 .
 h
 "
@@ -74,7 +74,7 @@ mozilla
 /
 dom
 /
-PositionErrorBinding
+GeolocationPositionErrorBinding
 .
 h
 "
@@ -976,7 +976,7 @@ SetTimeoutTimer
 ;
 NotifyErrorAndShutdown
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 TIMEOUT
@@ -1072,7 +1072,7 @@ NS_OK
 }
 NotifyError
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 PERMISSION_DENIED
@@ -1399,7 +1399,7 @@ mIsWatchPositionRequest
 {
 NotifyError
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 TIMEOUT
@@ -1441,7 +1441,7 @@ rv
 {
 NotifyError
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1668,7 +1668,7 @@ mozilla
 dom
 :
 :
-Position
+GeolocationPosition
 >
 wrapped
 ;
@@ -1708,7 +1708,7 @@ mozilla
 dom
 :
 :
-Position
+GeolocationPosition
 (
 ToSupports
 (
@@ -1727,7 +1727,7 @@ wrapped
 {
 NotifyError
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE
@@ -1932,12 +1932,12 @@ NS_IsMainThread
 ;
 RefPtr
 <
-PositionError
+GeolocationPositionError
 >
 positionError
 =
 new
-PositionError
+GeolocationPositionError
 (
 mLocator
 aErrorCode
@@ -2857,7 +2857,7 @@ this
 {
 NotifyError
 (
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 POSITION_UNAVAILABLE

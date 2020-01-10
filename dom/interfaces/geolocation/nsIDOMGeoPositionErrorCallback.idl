@@ -64,7 +64,7 @@ domstubs
 idl
 "
 webidl
-PositionError
+GeolocationPositionError
 ;
 [
 scriptable
@@ -91,7 +91,7 @@ void
 handleEvent
 (
 in
-PositionError
+GeolocationPositionError
 positionError
 )
 ;

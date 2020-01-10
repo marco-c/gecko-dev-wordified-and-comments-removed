@@ -141,13 +141,12 @@ apply
 *
 /
 [
-NoInterfaceObject
 Exposed
 =
 Window
 ]
 interface
-PositionError
+GeolocationPositionError
 {
 const
 unsigned

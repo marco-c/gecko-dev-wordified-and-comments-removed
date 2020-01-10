@@ -130,7 +130,7 @@ dom
 =
 [
 '
-PositionError
+GeolocationPositionError
 .
 h
 '
@@ -140,12 +140,12 @@ SOURCES
 =
 [
 '
-nsGeolocation
+GeolocationPositionError
 .
 cpp
 '
 '
-PositionError
+nsGeolocation
 .
 cpp
 '

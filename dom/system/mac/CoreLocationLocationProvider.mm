@@ -193,7 +193,7 @@ mozilla
 /
 dom
 /
-PositionErrorBinding
+GeolocationPositionErrorBinding
 .
 h
 "
@@ -476,7 +476,7 @@ NotifyError
 dom
 :
 :
-PositionError_Binding
+GeolocationPositionError_Binding
 :
 :
 PERMISSION_DENIED
