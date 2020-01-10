@@ -1230,11 +1230,6 @@ COB
 )
 )
 {
-ReportOutOfMemory
-(
-cx
-)
-;
 return
 false
 ;
