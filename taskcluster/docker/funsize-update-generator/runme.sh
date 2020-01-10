@@ -497,9 +497,8 @@ MBSDIFF_HOOK
 fi
 if
 [
-!
 -
-z
+n
 "
 FILENAME_TEMPLATE
 "

@@ -70,9 +70,8 @@ PARAMS
 "
 if
 [
-!
 -
-z
+n
 "
 {
 USE_MOZILLA_CENTRAL
@@ -114,9 +113,8 @@ specified
 ?
 if
 [
-!
 -
-z
+n
 "
 {
 DO_HSTS
@@ -137,9 +135,8 @@ hsts
 fi
 if
 [
-!
 -
-z
+n
 "
 {
 DO_HPKP
@@ -160,9 +157,8 @@ hpkp
 fi
 if
 [
-!
 -
-z
+n
 "
 {
 DO_BLOCKLIST
@@ -183,9 +179,8 @@ blocklist
 fi
 if
 [
-!
 -
-z
+n
 "
 {
 DO_REMOTE_SETTINGS
@@ -208,9 +203,8 @@ settings
 fi
 if
 [
-!
 -
-z
+n
 "
 {
 DO_SUFFIX_LIST
