@@ -78,15 +78,6 @@ aRecreatedOnCrash
 false
 )
 ;
-IPCResult
-RecvDoneWithInput
-(
-Shmem
-&
-&
-aInputShmem
-)
-;
 void
 ActorDestroy
 (
