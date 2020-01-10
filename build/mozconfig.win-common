@@ -89,6 +89,10 @@ MOZ_PGO_PROFILE_USE
 ]
 ;
 then
+export
+MOZ_LTO
+=
+cross
 ac_add_options
 -
 -
