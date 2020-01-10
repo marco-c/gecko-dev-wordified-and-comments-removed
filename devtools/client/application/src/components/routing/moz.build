@@ -58,11 +58,6 @@ DevToolsModules
 '
 PageSwitcher
 .
-css
-'
-'
-PageSwitcher
-.
 js
 '
 )
