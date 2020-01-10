@@ -460,7 +460,9 @@ selector
 :
 "
 #
-arraysort
+math
+-
+pow
 "
 expected
 :
@@ -493,7 +495,7 @@ handler
 :
 "
 function
-sort
+pow
 (
 )
 {
