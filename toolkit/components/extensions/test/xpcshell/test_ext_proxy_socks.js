@@ -2753,6 +2753,13 @@ bar
 }
 )
 ;
+ExtensionTestUtils
+.
+failOnSchemaWarnings
+(
+false
+)
+;
 await
 handlingExt
 .
@@ -2770,6 +2777,13 @@ pac
 -
 ready
 "
+)
+;
+ExtensionTestUtils
+.
+failOnSchemaWarnings
+(
+true
 )
 ;
 let

@@ -35,6 +35,13 @@ test_deprecated_LWT_properties_ignored
 (
 )
 {
+ExtensionTestUtils
+.
+failOnSchemaWarnings
+(
+false
+)
+;
 let
 extension
 =
