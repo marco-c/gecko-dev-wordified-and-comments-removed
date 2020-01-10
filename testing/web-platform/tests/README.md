@@ -88,7 +88,8 @@ a
 cross
 -
 browser
-testsuite
+test
+suite
 for
 the
 Web

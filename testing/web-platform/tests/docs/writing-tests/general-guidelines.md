@@ -375,7 +375,8 @@ rather
 than
 to
 specific
-testsuites
+test
+suites
 .
 #
 #
@@ -1319,7 +1320,8 @@ in
 an
 official
 specification
-testsuite
+test
+suite
 tests
 for
 CSS

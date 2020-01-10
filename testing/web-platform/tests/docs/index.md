@@ -24,7 +24,8 @@ a
 cross
 -
 browser
-testsuite
+test
+suite
 for
 [
 the
@@ -499,7 +500,9 @@ toctree
 maxdepth
 :
 2
-testsuite
+test
+-
+suite
 -
 design
 running

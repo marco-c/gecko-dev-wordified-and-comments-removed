@@ -146,7 +146,8 @@ static
 files
 in
 the
-testsuite
+test
+suite
 .
 For
 more

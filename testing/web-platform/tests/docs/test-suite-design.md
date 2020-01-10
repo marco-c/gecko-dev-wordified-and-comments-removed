@@ -1,12 +1,14 @@
 #
-Testsuite
+Test
+Suite
 Design
 The
 vast
 majority
 of
 the
-testsuite
+test
+suite
 is
 formed
 of
@@ -89,7 +91,8 @@ css
 /
 which
 contains
-testsuites
+test
+suites
 for
 CSS
 WG
