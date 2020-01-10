@@ -51,7 +51,9 @@ sl
 -
 rozaj
 -
-solba
+biske
+-
+1994
 "
 )
 [
@@ -60,7 +62,9 @@ sl
 -
 rozaj
 -
-solba
+biske
+-
+1994
 "
 ]
 )
