@@ -4153,12 +4153,6 @@ extend
 )
 |
 |
-(
-!
-force
-&
-&
-(
 this
 .
 view
@@ -4166,6 +4160,11 @@ view
 isOpen
 |
 |
+(
+!
+force
+&
+&
 this
 .
 getAttribute
@@ -4179,7 +4178,6 @@ focused
 "
 true
 "
-)
 )
 )
 {
@@ -8453,9 +8451,10 @@ return
 }
 this
 .
-endLayoutExtend
+view
+.
+close
 (
-true
 )
 ;
 if

@@ -5528,9 +5528,10 @@ canvas
 ;
 gURLBar
 .
-endLayoutExtend
+view
+.
+close
 (
-true
 )
 ;
 }
