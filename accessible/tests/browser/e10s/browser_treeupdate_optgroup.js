@@ -65,9 +65,7 @@ select
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -333,9 +331,7 @@ select
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -436,9 +432,7 @@ select
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -504,6 +498,11 @@ select
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

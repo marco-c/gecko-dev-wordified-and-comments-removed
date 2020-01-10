@@ -109,9 +109,7 @@ id1
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -203,6 +201,11 @@ container
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

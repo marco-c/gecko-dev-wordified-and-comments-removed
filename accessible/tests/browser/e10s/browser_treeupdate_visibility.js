@@ -150,9 +150,7 @@ t3_container
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -320,9 +318,7 @@ t4_parent
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -803,6 +799,11 @@ TEXT_LEAF
 }
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;
