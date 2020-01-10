@@ -288,6 +288,11 @@ openLink
 serviceContainer
 .
 openLink
+sourceMapService
+:
+serviceContainer
+.
+sourceMapService
 renderStacktrace
 :
 stacktrace
