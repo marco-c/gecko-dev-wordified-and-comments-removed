@@ -1038,6 +1038,15 @@ em
 *
 :
 7200
+windows7
+-
+32
+-
+mingwclang
+/
+debug
+:
+5400
 windows10
 -
 64
