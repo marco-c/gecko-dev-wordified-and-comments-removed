@@ -451,6 +451,11 @@ function
 (
 aLogin
 dismissed
+=
+false
+notifySaved
+=
+false
 )
 {
 this
