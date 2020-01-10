@@ -121,6 +121,9 @@ js
 namespace
 frontend
 {
+#
+ifdef
+BINAST_CX_MAGIC_HEADER
 const
 char
 CX_MAGIC_HEADER
@@ -149,6 +152,8 @@ MAGIC_FORMAT_VERSION
 =
 2
 ;
+#
+endif
 const
 uint8_t
 MAX_CODE_BIT_LENGTH
@@ -3513,6 +3518,9 @@ MOZ_ASSERT
 posBeforeTree_
 )
 ;
+#
+if
+BINAST_CX_MAGIC_HEADER
 MOZ_TRY
 (
 readConst
@@ -3555,6 +3563,8 @@ implemented
 )
 ;
 }
+#
+endif
 MOZ_TRY
 (
 readStringPrelude
