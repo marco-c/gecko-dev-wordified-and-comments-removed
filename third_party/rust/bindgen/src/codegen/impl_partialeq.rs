@@ -380,6 +380,7 @@ bu
 )
 =
 >
+{
 for
 bitfield
 in
@@ -445,6 +446,7 @@ name_ident
 }
 )
 ;
+}
 }
 }
 }
@@ -752,6 +754,7 @@ len
 )
 =
 >
+{
 if
 len
 <
@@ -788,6 +791,7 @@ name_ident
 .
 .
 ]
+}
 }
 }
 TypeKind

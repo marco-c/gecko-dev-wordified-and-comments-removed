@@ -224,7 +224,9 @@ VirtualDestructor
 }
 =
 >
+{
 true
+}
 _
 =
 >
@@ -3284,6 +3286,7 @@ bu
 )
 =
 >
+{
 for
 bitfield
 in
@@ -3351,6 +3354,7 @@ Some
 setter
 )
 ;
+}
 }
 }
 }
@@ -5343,7 +5347,9 @@ is_function
 )
 =
 >
+{
 item
+}
 _
 =
 >
@@ -5787,7 +5793,6 @@ CXCursor_ClassTemplatePartialSpecialization
 CXCursor_ClassTemplate
 =
 >
-{
 match
 cursor
 .
@@ -5809,7 +5814,6 @@ CompKind
 :
 :
 Struct
-}
 }
 _
 =
@@ -5928,6 +5932,7 @@ packed_attr
 {
 return
 true
+;
 }
 if
 let
@@ -6689,6 +6694,7 @@ has_non_type_template_params
 {
 return
 true
+;
 }
 if
 let
@@ -6734,9 +6740,7 @@ _
 )
 =
 >
-{
 false
-}
 Field
 :
 :
@@ -6747,7 +6751,6 @@ unit
 )
 =
 >
-{
 unit
 .
 bitfields
@@ -6810,7 +6813,6 @@ as
 u32
 }
 )
-}
 }
 )
 {

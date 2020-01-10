@@ -15,10 +15,13 @@ ty
 :
 :
 {
-RUST_DERIVE_IN_ARRAY_LIMIT
 Type
 TypeKind
+RUST_DERIVE_IN_ARRAY_LIMIT
 }
+;
+use
+clang
 ;
 use
 ir
@@ -28,9 +31,6 @@ context
 :
 :
 BindgenContext
-;
-use
-clang
 ;
 use
 std
@@ -606,12 +606,10 @@ false
 |
 size
 |
-{
 size
 <
 =
 RUST_DERIVE_IN_ARRAY_LIMIT
-}
 )
 {
 CanDerive

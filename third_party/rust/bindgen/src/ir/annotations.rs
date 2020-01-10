@@ -437,7 +437,6 @@ false
 |
 attr
 |
-{
 attr
 .
 name
@@ -446,7 +445,6 @@ name
 "
 rustbindgen
 "
-}
 )
 {
 *
@@ -544,7 +542,6 @@ derive
 "
 =
 >
-{
 self
 .
 derives
@@ -555,7 +552,6 @@ attr
 .
 value
 )
-}
 "
 private
 "

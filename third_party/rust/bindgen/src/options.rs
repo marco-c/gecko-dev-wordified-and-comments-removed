@@ -3,12 +3,12 @@ bindgen
 :
 :
 {
+builder
 Builder
 CodegenConfig
-RUST_TARGET_STRINGS
-RustTarget
-builder
 EnumVariation
+RustTarget
+RUST_TARGET_STRINGS
 }
 ;
 use
@@ -38,10 +38,10 @@ io
 :
 {
 self
+stderr
 Error
 ErrorKind
 Write
-stderr
 }
 ;
 use
@@ -81,6 +81,7 @@ Result
 Builder
 Box
 <
+dyn
 io
 :
 :
@@ -5080,6 +5081,7 @@ file
 as
 Box
 <
+dyn
 io
 :
 :
@@ -5112,6 +5114,7 @@ stdout
 as
 Box
 <
+dyn
 io
 :
 :

@@ -375,6 +375,7 @@ visit
 |
 cursor
 |
+{
 parse_one
 (
 ctx
@@ -388,6 +389,7 @@ into
 )
 )
 )
+}
 )
 }
 )

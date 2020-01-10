@@ -18,8 +18,8 @@ time
 :
 :
 {
-Instant
 Duration
+Instant
 }
 ;
 #

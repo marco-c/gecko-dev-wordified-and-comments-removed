@@ -150,7 +150,6 @@ flat_map
 |
 id
 |
-{
 id
 .
 self_template_params
@@ -161,7 +160,6 @@ ctx
 into_iter
 (
 )
-}
 )
 .
 collect
@@ -477,7 +475,6 @@ vec
 |
 args
 |
-{
 match
 ty
 .
@@ -562,7 +559,6 @@ collect
 None
 =
 >
-{
 args
 .
 filter
@@ -585,7 +581,6 @@ map
 |
 t
 |
-{
 Item
 :
 :
@@ -600,14 +595,11 @@ declaration
 None
 ctx
 )
-}
 )
 .
 collect
 (
 )
-}
-}
 }
 )
 ;

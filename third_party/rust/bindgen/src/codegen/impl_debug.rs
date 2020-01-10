@@ -44,8 +44,8 @@ ty
 :
 :
 {
-RUST_DERIVE_IN_ARRAY_LIMIT
 TypeKind
+RUST_DERIVE_IN_ARRAY_LIMIT
 }
 ;
 use

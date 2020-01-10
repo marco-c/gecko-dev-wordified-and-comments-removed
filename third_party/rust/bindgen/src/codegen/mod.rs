@@ -1,14 +1,14 @@
 mod
-impl_debug
-;
-mod
-impl_partialeq
-;
-mod
 error
 ;
 mod
 helpers
+;
+mod
+impl_debug
+;
+mod
+impl_partialeq
 ;
 pub
 mod
@@ -144,15 +144,15 @@ derive
 :
 :
 {
+CanDerive
 CanDeriveCopy
 CanDeriveDebug
 CanDeriveDefault
+CanDeriveEq
 CanDeriveHash
-CanDerivePartialOrd
 CanDeriveOrd
 CanDerivePartialEq
-CanDeriveEq
-CanDerive
+CanDerivePartialOrd
 }
 ;
 use
@@ -286,12 +286,6 @@ var
 Var
 ;
 use
-quote
-:
-:
-TokenStreamExt
-;
-use
 proc_macro2
 :
 :
@@ -300,6 +294,12 @@ self
 Ident
 Span
 }
+;
+use
+quote
+:
+:
+TokenStreamExt
 ;
 use
 std
@@ -363,9 +363,9 @@ FromStr
 ;
 use
 {
+Entry
 HashMap
 HashSet
-Entry
 }
 ;
 pub
@@ -3823,7 +3823,7 @@ A
 '
 .
 .
-.
+=
 '
 Z
 '
@@ -3833,7 +3833,7 @@ a
 '
 .
 .
-.
+=
 '
 z
 '
@@ -3843,7 +3843,7 @@ z
 '
 .
 .
-.
+=
 '
 9
 '
@@ -11519,7 +11519,6 @@ EnumVariation
 Bitfield
 =
 >
-{
 EnumBuilder
 :
 :
@@ -11552,7 +11551,6 @@ pub
 repr
 )
 ;
-}
 }
 }
 EnumVariation
@@ -11598,7 +11596,6 @@ EnumVariation
 Consts
 =
 >
-{
 EnumBuilder
 :
 :
@@ -11631,7 +11628,6 @@ repr
 codegen_depth
 :
 enum_codegen_depth
-}
 }
 EnumVariation
 :
@@ -12805,7 +12801,6 @@ repr
 )
 =
 >
-{
 match
 *
 repr
@@ -12843,7 +12838,6 @@ enum
 repr
 "
 )
-}
 }
 None
 =
@@ -13675,13 +13669,11 @@ or_else
 (
 |
 |
-{
 constified_variants
 .
 pop_front
 (
 )
-}
 )
 {
 if
@@ -14226,7 +14218,6 @@ map
 |
 layout
 |
-{
 helpers
 :
 :
@@ -14235,7 +14226,6 @@ blob
 ctx
 layout
 )
-}
 )
 }
 }
@@ -14498,6 +14488,7 @@ or_else
 |
 _
 |
+{
 if
 let
 Ok
@@ -14537,6 +14528,7 @@ Error
 :
 NoLayoutForOpaqueBlob
 )
+}
 }
 )
 }
@@ -14644,7 +14636,6 @@ unwrap_or_else
 |
 _
 |
-{
 self
 .
 to_opaque
@@ -14652,7 +14643,6 @@ to_opaque
 ctx
 extra
 )
-}
 )
 }
 }
@@ -15042,7 +15032,6 @@ TypeKind
 NullPtr
 =
 >
-{
 Ok
 (
 raw_type
@@ -15058,7 +15047,6 @@ to_ptr
 true
 )
 )
-}
 TypeKind
 :
 :
@@ -15578,6 +15566,7 @@ fk
 )
 =
 >
+{
 Ok
 (
 float_kind_rust_type
@@ -15592,6 +15581,7 @@ ctx
 )
 )
 )
+}
 TypeKind
 :
 :
@@ -16281,7 +16271,6 @@ TypeKind
 ObjCSel
 =
 >
-{
 Ok
 (
 quote
@@ -16296,7 +16285,6 @@ runtime
 Sel
 }
 )
-}
 TypeKind
 :
 :
@@ -16875,7 +16863,6 @@ new
 _
 =
 >
-{
 Ok
 (
 quote
@@ -16898,7 +16885,6 @@ arguments
 ret
 }
 )
-}
 }
 }
 }
@@ -18422,8 +18408,8 @@ super
 :
 :
 {
-ToRustTyOrOpaque
 error
+ToRustTyOrOpaque
 }
 ;
 use
@@ -20579,7 +20565,6 @@ ctx
 _
 =
 >
-{
 arg_item
 .
 to_rust_ty_or_opaque
@@ -20589,7 +20574,6 @@ ctx
 (
 )
 )
-}
 }
 ;
 let

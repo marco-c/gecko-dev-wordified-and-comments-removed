@@ -1157,7 +1157,6 @@ length
 0
 =
 >
-{
 Some
 (
 Layout
@@ -1182,7 +1181,6 @@ ctx
 align
 )
 )
-}
 TypeKind
 :
 :
@@ -1193,7 +1191,6 @@ Pointer
 )
 =
 >
-{
 Some
 (
 Layout
@@ -1213,7 +1210,6 @@ target_pointer_size
 )
 )
 )
-}
 TypeKind
 :
 :
@@ -1437,6 +1433,7 @@ inner
 )
 =
 >
+{
 Some
 (
 (
@@ -1456,6 +1453,7 @@ ptr
 )
 )
 )
+}
 TypeKind
 :
 :
@@ -1465,6 +1463,7 @@ inner
 )
 =
 >
+{
 Some
 (
 (
@@ -1484,6 +1483,7 @@ ref
 )
 )
 )
+}
 TypeKind
 :
 :
@@ -1863,7 +1863,6 @@ inst
 )
 =
 >
-{
 ctx
 .
 resolve_type
@@ -1879,7 +1878,6 @@ safe_canonical_type
 (
 ctx
 )
-}
 TypeKind
 :
 :
@@ -3743,9 +3741,11 @@ CXCursor_ObjCProtocolDecl
 CXCursor_ObjCCategoryDecl
 =
 >
+{
 ty_kind
 =
 CXType_ObjCInterface
+}
 _
 =
 >
