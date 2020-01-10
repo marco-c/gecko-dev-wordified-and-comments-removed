@@ -830,7 +830,7 @@ const
 "
     
 "
-GeckoCrash
+RustMozCrash
 "
     
 "

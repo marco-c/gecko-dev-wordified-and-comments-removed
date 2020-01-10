@@ -750,13 +750,6 @@ rust
 shared
 "
 }
-arrayvec
-=
-"
-0
-.
-4
-"
 cert_storage
 =
 {
