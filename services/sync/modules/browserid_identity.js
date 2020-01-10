@@ -1852,7 +1852,7 @@ fetch
 await
 fxa
 .
-keys
+_internal
 .
 invalidateCertificate
 (
