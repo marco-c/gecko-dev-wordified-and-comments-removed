@@ -1,9 +1,9 @@
 #
 ifndef
-ProfilerCounts_h
+BaseProfilerCounts_h
 #
 define
-ProfilerCounts_h
+BaseProfilerCounts_h
 #
 ifndef
 MOZ_BASE_PROFILER
@@ -65,6 +65,7 @@ h
 class
 BaseProfilerCount
 ;
+MFBT_API
 void
 profiler_add_sampled_counter
 (
@@ -73,6 +74,7 @@ BaseProfilerCount
 aCounter
 )
 ;
+MFBT_API
 void
 profiler_remove_sampled_counter
 (

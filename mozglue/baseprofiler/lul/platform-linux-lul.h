@@ -11,6 +11,13 @@ platform
 .
 h
 "
+#
+include
+"
+BaseProfiler
+.
+h
+"
 void
 read_procmaps
 (

@@ -11,9 +11,7 @@ MOZ_BASE_PROFILER
 #
 include
 "
-js
-/
-ProfilingStack
+BaseProfilingStack
 .
 h
 "
