@@ -9959,9 +9959,9 @@ browsingContext
 .
 embedderElement
 .
-ownerGlobal
-.
-gBrowser
+getTabBrowser
+(
+)
 ;
 if
 (
