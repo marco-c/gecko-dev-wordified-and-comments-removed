@@ -1244,11 +1244,9 @@ SCOPE_SESSION
 }
 SitePermissions
 .
-set
+setForPrincipal
 (
 principal
-.
-URI
 this
 .
 permissionKey
