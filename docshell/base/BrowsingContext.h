@@ -1053,6 +1053,10 @@ const
 nsAString
 &
 aName
+bool
+aUseEntryGlobalForAccessCheck
+=
+true
 )
 ;
 BrowsingContext
