@@ -99,6 +99,7 @@ maplike
 DOMString
 unsigned
 long
+long
 >
 ;
 }
