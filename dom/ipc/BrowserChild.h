@@ -3142,8 +3142,10 @@ PWindowGlobalChild
 aActor
 )
 ;
+already_AddRefed
+<
 PBrowserBridgeChild
-*
+>
 AllocPBrowserBridgeChild
 (
 const
@@ -3165,14 +3167,6 @@ const
 TabId
 &
 aTabId
-)
-;
-bool
-DeallocPBrowserBridgeChild
-(
-PBrowserBridgeChild
-*
-aActor
 )
 ;
 mozilla

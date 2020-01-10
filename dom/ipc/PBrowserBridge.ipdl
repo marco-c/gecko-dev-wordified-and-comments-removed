@@ -329,6 +329,7 @@ actors
 *
 /
 async
+refcounted
 protocol
 PBrowserBridge
 {

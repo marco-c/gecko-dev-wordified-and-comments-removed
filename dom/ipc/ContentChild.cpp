@@ -10873,14 +10873,7 @@ browserChild
 >
 SendPBrowserBridgeConstructor
 (
-do_AddRef
-(
 browserBridge
-)
-.
-take
-(
-)
 PromiseFlatString
 (
 aContext
