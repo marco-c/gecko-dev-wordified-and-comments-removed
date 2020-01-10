@@ -3634,7 +3634,7 @@ if
 fun
 -
 >
-isInterpretedLazy
+hasLazyScript
 (
 )
 )
@@ -3646,7 +3646,7 @@ lazy
 fun
 -
 >
-lazyScriptOrNull
+maybeLazyScript
 (
 )
 ;
