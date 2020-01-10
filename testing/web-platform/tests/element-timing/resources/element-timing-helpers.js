@@ -4,6 +4,7 @@ checkElement
 entry
 expectedName
 expectedIdentifier
+expectedID
 beforeRender
 )
 {
@@ -39,6 +40,14 @@ entry
 .
 duration
 0
+)
+;
+assert_equals
+(
+entry
+.
+id
+expectedID
 )
 ;
 assert_greater_than_equal
