@@ -33481,13 +33481,13 @@ this
 parentChannel
 )
 ;
-RefPtr
+nsCOMPtr
 <
-HttpChannelParent
+nsICrossProcessSwitchChannel
 >
 httpParent
 =
-do_QueryObject
+do_QueryInterface
 (
 parentChannel
 )
@@ -33506,7 +33506,7 @@ NS_ERROR_UNEXPECTED
 httpParent
 -
 >
-TriggerCrossProcessRedirect
+TriggerCrossProcessSwitch
 (
 this
 mCrossProcessRedirectIdentifier

@@ -240,6 +240,11 @@ nsIContentSniffer
 idl
 '
 '
+nsICrossProcessSwitchChannel
+.
+idl
+'
+'
 nsIDashboard
 .
 idl
