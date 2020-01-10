@@ -1193,6 +1193,10 @@ mIOSurface
 GetIOSurfaceRef
 (
 )
+.
+get
+(
+)
 0
 )
 ;
@@ -2211,6 +2215,10 @@ mIOSurface
 -
 >
 GetIOSurfaceRef
+(
+)
+.
+get
 (
 )
 0
