@@ -19399,7 +19399,7 @@ hasRest
 targetFun
 -
 >
-nonLazyScript
+baseScript
 (
 )
 -
