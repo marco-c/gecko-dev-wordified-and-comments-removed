@@ -594,7 +594,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 mozilla
 :
 :
@@ -638,7 +638,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 mozilla
 :
 :
@@ -684,7 +684,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -732,7 +732,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -780,7 +780,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 bool
 *
 aOutBorderIsEmpty
@@ -824,7 +824,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 ;
 static
@@ -1017,7 +1017,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 )
 ;
 static
@@ -1249,7 +1249,7 @@ mozilla
 :
 ComputedStyle
 *
-aComputedStyle
+aStyle
 nsIFrame
 *
 aFrame
