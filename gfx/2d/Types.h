@@ -24,6 +24,15 @@ h
 "
 #
 include
+"
+mozilla
+/
+TypedEnumBits
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -1586,6 +1595,10 @@ eSideBitsTopBottom
 eSideBitsLeftRight
 }
 ;
+MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS
+(
+SideBits
+)
 #
 define
 NS_FOR_CSS_SIDES
