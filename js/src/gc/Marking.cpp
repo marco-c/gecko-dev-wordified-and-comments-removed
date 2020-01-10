@@ -2500,6 +2500,7 @@ trc
 JSObject
 *
 src
+const
 WriteBarriered
 <
 T
@@ -2557,6 +2558,7 @@ trc
 JSObject
 *
 src
+const
 WriteBarriered
 <
 Value
@@ -2586,6 +2588,7 @@ trc
 JSObject
 *
 src
+const
 WriteBarriered
 <
 JSScript
