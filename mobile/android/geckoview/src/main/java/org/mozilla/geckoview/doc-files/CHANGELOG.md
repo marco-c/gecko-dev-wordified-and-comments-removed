@@ -70,6 +70,11 @@ setFontInflationEnabled
 .
 2
 ]
+-
+Add
+GeckoSession
+.
+LOAD_FLAGS_FORCE_ALLOW_DATA_URI
 [
 69
 .
@@ -3512,4 +3517,4 @@ api
 version
 ]
 :
-5728f5c65b2be03fcf31d7da12050bf26d07e30f
+95d443eb3946aeb5b278a258ab5a527d3281edda

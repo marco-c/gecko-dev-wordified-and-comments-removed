@@ -3970,6 +3970,15 @@ public
 static
 final
 int
+LOAD_FLAGS_FORCE_ALLOW_DATA_URI
+=
+32
+;
+field
+public
+static
+final
+int
 LOAD_FLAGS_NONE
 =
 0
