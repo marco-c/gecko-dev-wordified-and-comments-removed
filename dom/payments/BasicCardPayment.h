@@ -84,8 +84,8 @@ nsAString
 aErrorMsg
 )
 ;
-bool
-IsValidBasicCardErrors
+void
+CheckForValidBasicCardErrors
 (
 JSContext
 *
@@ -93,6 +93,9 @@ aCx
 JSObject
 *
 aData
+ErrorResult
+&
+aRv
 )
 ;
 bool
