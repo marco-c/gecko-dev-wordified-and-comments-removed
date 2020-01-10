@@ -1123,6 +1123,13 @@ load
 1
 .
 html
+skip
+-
+if
+(
+!
+xbl
+)
 load
 1370793
 -
@@ -2017,6 +2024,13 @@ content
 .
 enabled
 false
+)
+skip
+-
+if
+(
+!
+xbl
 )
 load
 1517319

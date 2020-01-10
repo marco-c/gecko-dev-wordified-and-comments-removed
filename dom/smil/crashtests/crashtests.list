@@ -52,6 +52,13 @@ load
 1
 .
 svg
+skip
+-
+if
+(
+!
+xbl
+)
 load
 537157
 -
@@ -88,6 +95,13 @@ load
 1
 .
 svg
+skip
+-
+if
+(
+!
+xbl
+)
 load
 554202
 -

@@ -20,6 +20,13 @@ usercss
 ref
 .
 html
+skip
+-
+if
+(
+!
+xbl
+)
 =
 =
 usercss

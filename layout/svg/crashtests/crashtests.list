@@ -404,6 +404,13 @@ load
 1
 .
 xhtml
+skip
+-
+if
+(
+!
+xbl
+)
 load
 386566
 -
@@ -440,6 +447,13 @@ load
 1
 .
 xhtml
+skip
+-
+if
+(
+!
+xbl
+)
 load
 409573
 -
