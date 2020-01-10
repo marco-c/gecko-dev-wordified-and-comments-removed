@@ -1901,12 +1901,11 @@ false
 ;
 }
 return
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 focusedNode
+-
+>
+IsInclusiveDescendantOf
+(
 activeEditingHost
 )
 ;

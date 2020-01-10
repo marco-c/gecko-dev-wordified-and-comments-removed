@@ -839,12 +839,11 @@ startContent
 startContent
 |
 |
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 nodeContent
+-
+>
+IsInclusiveDescendantOf
+(
 startContent
 )
 )

@@ -2764,12 +2764,11 @@ aCurrentForm
 {
 if
 (
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 aCurrentForm
+-
+>
+IsInclusiveDescendantOf
+(
 prevContent
 )
 )

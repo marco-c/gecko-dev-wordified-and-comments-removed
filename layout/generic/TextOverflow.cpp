@@ -4966,12 +4966,11 @@ if
 content
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 content
+-
+>
+IsInclusiveDescendantOf
+(
 aBlockFrame
 -
 >

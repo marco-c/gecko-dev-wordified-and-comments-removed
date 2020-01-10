@@ -14268,13 +14268,10 @@ canvas
 |
 |
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
-&
 aElement
+.
+IsInclusiveDescendantOf
+(
 canvas
 )
 )

@@ -273,12 +273,11 @@ return
 if
 (
 !
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 mNode
+-
+>
+IsInclusiveDescendantOf
+(
 aChild
 )
 )

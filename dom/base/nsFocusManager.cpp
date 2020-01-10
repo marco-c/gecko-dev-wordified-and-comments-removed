@@ -13239,12 +13239,11 @@ startContent
 )
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 startContent
+-
+>
+IsInclusiveDescendantOf
+(
 retargetElement
 )
 )

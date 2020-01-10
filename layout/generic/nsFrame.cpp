@@ -20177,12 +20177,11 @@ if
 limiter
 &
 &
-nsContentUtils
-:
-:
-ContentIsDescendantOf
-(
 limiter
+-
+>
+IsInclusiveDescendantOf
+(
 GetContent
 (
 )

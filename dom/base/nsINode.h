@@ -1320,6 +1320,16 @@ NodeType
 DOCUMENT_FRAGMENT_NODE
 ;
 }
+bool
+IsInclusiveDescendantOf
+(
+const
+nsINode
+*
+aNode
+)
+const
+;
 inline
 mozilla
 :
