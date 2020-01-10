@@ -2049,13 +2049,8 @@ RunState
 state
 )
 ;
-template
-<
-BaselineTier
-Tier
->
 MethodStatus
-CanEnterBaselineAtBranch
+CanEnterBaselineInterpreterAtBranch
 (
 JSContext
 *
@@ -2066,7 +2061,7 @@ fp
 )
 ;
 JitExecStatus
-EnterBaselineAtBranch
+EnterBaselineInterpreterAtBranch
 (
 JSContext
 *
