@@ -231,6 +231,12 @@ foo
 }
 assertThrows
 (
+(
+)
+=
+>
+Function
+(
 "
 function
 *
@@ -245,6 +251,7 @@ n
 foo
 }
 "
+)
 SyntaxError
 )
 ;
@@ -264,6 +271,12 @@ undefined
 )
 assertThrows
 (
+(
+)
+=
+>
+Function
+(
 "
 function
 *
@@ -278,6 +291,7 @@ yield
 yield
 }
 "
+)
 SyntaxError
 )
 ;

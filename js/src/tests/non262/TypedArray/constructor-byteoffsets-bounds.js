@@ -1,5 +1,5 @@
 const
-buffer
+ab
 =
 new
 ArrayBuffer
