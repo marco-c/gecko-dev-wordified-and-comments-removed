@@ -436,7 +436,6 @@ isSourceMapped
 url
 line
 column
-sourceId
 )
 {
 const
@@ -470,7 +469,6 @@ props
 frame
 .
 functionDisplayName
-sourceId
 }
 ;
 }

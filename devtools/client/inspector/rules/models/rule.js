@@ -3283,7 +3283,6 @@ enabled
 sourceUrl
 sourceLine
 sourceColumn
-sourceId
 )
 =
 >
@@ -3300,7 +3299,6 @@ updateSourceLocation
 sourceUrl
 sourceLine
 sourceColumn
-sourceId
 )
 ;
 }
@@ -3330,7 +3328,6 @@ updateSourceLocation
 url
 line
 column
-sourceId
 )
 {
 this
@@ -3341,7 +3338,6 @@ _sourceLocation
 column
 line
 url
-sourceId
 }
 ;
 this
