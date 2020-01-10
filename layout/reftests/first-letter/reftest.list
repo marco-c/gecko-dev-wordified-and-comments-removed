@@ -492,16 +492,6 @@ html
 ref
 .
 html
-fails
--
-if
-(
-Android
-&
-&
-!
-geckoview
-)
 =
 =
 329069
@@ -516,9 +506,6 @@ html
 ref
 .
 html
-#
-Bug
-999139
 =
 =
 329069
