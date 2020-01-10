@@ -86,12 +86,6 @@ container
 "
 )
 ;
-shieldIconContainer
-.
-focus
-(
-)
-;
 if
 (
 !
