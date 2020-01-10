@@ -187,7 +187,7 @@ DecoderBenchmark
 default
 ;
 uint64_t
-mLastParsedFrames
+mLastTotalFrames
 =
 0
 ;
