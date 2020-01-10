@@ -2792,7 +2792,7 @@ __volatile__
 dcbzl
 %
 0
-r0
+0
 "
 :
 "

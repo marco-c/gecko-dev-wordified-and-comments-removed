@@ -220,6 +220,12 @@ kTlsAlertProtocolVersion
 ;
 const
 uint8_t
+kTlsAlertInsufficientSecurity
+=
+71
+;
+const
+uint8_t
 kTlsAlertInternalError
 =
 80
