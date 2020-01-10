@@ -113,7 +113,7 @@ dtd
 "
 >
 <
-wizard
+window
 id
 =
 "
@@ -197,6 +197,9 @@ branded
 "
 true
 "
+>
+<
+wizard
 >
 <
 script
@@ -1204,4 +1207,8 @@ wizardpage
 <
 /
 wizard
+>
+<
+/
+window
 >
