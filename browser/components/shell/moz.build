@@ -286,11 +286,6 @@ HeadlessShell
 jsm
 '
 '
-ScreenshotChild
-.
-jsm
-'
-'
 ShellService
 .
 jsm

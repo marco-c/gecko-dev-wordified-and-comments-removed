@@ -1146,6 +1146,11 @@ TESTING_JS_MODULES
 =
 [
 '
+HiddenFrame
+.
+jsm
+'
+'
 tests
 /
 modules
@@ -1385,11 +1390,6 @@ jsm
 '
 '
 GMPUtils
-.
-jsm
-'
-'
-HiddenFrame
 .
 jsm
 '
