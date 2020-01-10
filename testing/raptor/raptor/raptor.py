@@ -1028,11 +1028,13 @@ timeout
 int
 (
 test
-[
+.
+get
+(
 '
 page_timeout
 '
-]
+)
 )
 )
             
@@ -1059,8 +1061,6 @@ run_test
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -3540,8 +3540,6 @@ run_test
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -3561,7 +3559,7 @@ True
             
 self
 .
-run_test_cold
+__run_test_cold
 (
 test
 timeout
@@ -3572,20 +3570,18 @@ else
             
 self
 .
-run_test_warm
+__run_test_warm
 (
 test
 timeout
 )
     
 def
-run_test_cold
+__run_test_cold
 (
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -4044,13 +4040,11 @@ run_test_teardown
 )
     
 def
-run_test_warm
+__run_test_warm
 (
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -7825,8 +7819,6 @@ run_test
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -7849,7 +7841,7 @@ True
                 
 self
 .
-run_test_cold
+__run_test_cold
 (
 test
 timeout
@@ -7860,7 +7852,7 @@ else
                 
 self
 .
-run_test_warm
+__run_test_warm
 (
 test
 timeout
@@ -7918,13 +7910,11 @@ run_test_teardown
 )
     
 def
-run_test_cold
+__run_test_cold
 (
 self
 test
 timeout
-=
-None
 )
 :
         
@@ -8703,13 +8693,11 @@ page_timeout_list
 break
     
 def
-run_test_warm
+__run_test_warm
 (
 self
 test
 timeout
-=
-None
 )
 :
         
