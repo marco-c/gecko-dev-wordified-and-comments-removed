@@ -928,10 +928,6 @@ mProcessLinkHeaderEvent
 ;
 static
 int32_t
-sEventProbeRate
-;
-static
-int32_t
 sInteractiveParseTime
 ;
 static
