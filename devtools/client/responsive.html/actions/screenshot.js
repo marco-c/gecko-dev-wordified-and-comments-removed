@@ -320,9 +320,7 @@ filename
 null
 true
 true
-chromeDocument
-.
-documentURIObject
+null
 chromeDocument
 )
 ;
