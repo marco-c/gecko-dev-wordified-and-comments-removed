@@ -193,7 +193,7 @@ of
 validSyntax
 )
 {
-Function
+eval
 (
 for
 (
@@ -215,7 +215,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 "
 use
@@ -253,7 +253,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -278,7 +278,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 (
 {
@@ -311,7 +311,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 (
 {
@@ -345,7 +345,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -358,7 +358,7 @@ in
 )
 ;
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -367,7 +367,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -382,7 +382,7 @@ in
 )
 ;
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -391,7 +391,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -407,7 +407,7 @@ in
 )
 ;
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -416,7 +416,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 function
 f
@@ -437,7 +437,7 @@ in
 ;
 }
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -446,7 +446,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 class
 C
@@ -472,7 +472,7 @@ in
 }
 }
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -481,7 +481,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -494,7 +494,7 @@ for
 #
 #
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -503,7 +503,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -518,7 +518,7 @@ i
 #
 #
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -527,7 +527,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 for
 (
@@ -543,7 +543,7 @@ F
 #
 #
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -552,7 +552,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 function
 f
@@ -572,7 +572,7 @@ target
 #
 #
 )
-SyntaxError
+ReferenceError
 )
 ;
 assertThrowsInstanceOf
@@ -581,7 +581,7 @@ assertThrowsInstanceOf
 )
 =
 >
-Function
+eval
 (
 class
 C
@@ -605,7 +605,7 @@ super
 #
 #
 )
-SyntaxError
+ReferenceError
 )
 ;
 if
