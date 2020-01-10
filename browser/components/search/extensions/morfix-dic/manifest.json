@@ -23,7 +23,7 @@ version
 "
 1
 .
-0
+1
 "
 "
 applications
@@ -107,7 +107,7 @@ https
 :
 /
 /
-milon
+www
 .
 morfix
 .
@@ -115,9 +115,9 @@ co
 .
 il
 /
-default
-.
-aspx
+{
+searchTerms
+}
 "
 "
 search_form
@@ -128,7 +128,7 @@ https
 :
 /
 /
-milon
+www
 .
 morfix
 .
@@ -136,17 +136,6 @@ co
 .
 il
 /
-"
-"
-search_url_get_params
-"
-:
-"
-q
-=
-{
-searchTerms
-}
 "
 }
 }
