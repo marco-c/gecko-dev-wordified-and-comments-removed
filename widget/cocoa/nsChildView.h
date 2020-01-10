@@ -1447,6 +1447,15 @@ aMode
 override
 ;
 virtual
+void
+SuppressAnimation
+(
+bool
+aSuppress
+)
+override
+;
+virtual
 nsresult
 SynthesizeNativeKeyEvent
 (
