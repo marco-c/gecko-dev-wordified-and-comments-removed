@@ -2359,6 +2359,13 @@ this
 mInputElement
 .
 disabled
+|
+|
+this
+.
+mInputElement
+.
+readOnly
 ;
 this
 .
@@ -5533,6 +5540,12 @@ mMinSecPageUpDownInterval
 this
 .
 buildEditFields
+(
+)
+;
+this
+.
+updateEditAttributes
 (
 )
 ;
