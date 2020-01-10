@@ -4090,8 +4090,10 @@ mDelayedURL
 }
 private
 :
+RefPtr
+<
 BrowserParent
-*
+>
 mNewTab
 ;
 nsCString
