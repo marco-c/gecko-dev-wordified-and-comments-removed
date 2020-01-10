@@ -1719,6 +1719,7 @@ mut
 frame_state
 &
 frame_context
+scratch
 )
 .
 unwrap

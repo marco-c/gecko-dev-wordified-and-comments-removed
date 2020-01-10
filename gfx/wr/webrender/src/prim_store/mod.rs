@@ -12228,6 +12228,7 @@ pic_context
 subpixel_mode
 frame_state
 frame_context
+scratch
 )
 {
 Some
