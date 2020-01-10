@@ -326,6 +326,9 @@ bitfield
 "
 rust
 "
+"
+rust_non_exhaustive
+"
 ]
 )
 .

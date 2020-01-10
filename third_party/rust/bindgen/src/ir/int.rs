@@ -20,11 +20,6 @@ Bool
 SChar
 UChar
 WChar
-{
-size
-:
-usize
-}
 Char
 {
 is_signed
@@ -106,10 +101,6 @@ U8
 U16
 |
 WChar
-{
-.
-.
-}
 |
 U32
 |

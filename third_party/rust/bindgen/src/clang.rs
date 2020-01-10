@@ -8324,6 +8324,7 @@ return
 None
 ;
 }
+{
 let
 mut
 found_cant_eval
@@ -8337,6 +8338,7 @@ visit
 |
 c
 |
+{
 if
 c
 .
@@ -8354,6 +8356,10 @@ cur_type
 (
 )
 .
+canonical_type
+(
+)
+.
 kind
 (
 )
@@ -8365,10 +8371,10 @@ found_cant_eval
 =
 true
 ;
+return
 CXChildVisit_Break
+;
 }
-else
-{
 CXChildVisit_Recurse
 }
 )
@@ -8379,6 +8385,7 @@ found_cant_eval
 return
 None
 ;
+}
 }
 Some
 (
