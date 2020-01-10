@@ -1496,15 +1496,6 @@ js
 :
 MainThreadData
 <
-JSExternalStringSizeofCallback
->
-externalStringSizeofCallback
-;
-js
-:
-:
-MainThreadData
-<
 mozilla
 :
 :

@@ -37,7 +37,7 @@ Utility
 h
 "
 struct
-JSStringFinalizer
+JSExternalStringCallbacks
 ;
 namespace
 js
@@ -1021,9 +1021,9 @@ inlineStorageTwoByte
 }
 ;
 const
-JSStringFinalizer
+JSExternalStringCallbacks
 *
-externalFinalizer
+externalCallbacks
 ;
 inline
 uint32_t

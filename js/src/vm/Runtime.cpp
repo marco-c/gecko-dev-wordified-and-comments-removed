@@ -622,10 +622,6 @@ realmNameCallback
 (
 nullptr
 )
-externalStringSizeofCallback
-(
-nullptr
-)
 securityCallbacks
 (
 &
