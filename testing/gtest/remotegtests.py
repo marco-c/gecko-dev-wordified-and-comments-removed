@@ -1902,6 +1902,15 @@ output_timed_out
 )
 :
                     
+time
+.
+sleep
+(
+self
+.
+output_poll_interval
+)
+                    
 break
             
 time
