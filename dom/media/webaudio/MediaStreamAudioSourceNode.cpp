@@ -586,6 +586,10 @@ AddPrincipalChangeObserver
 this
 )
 ;
+MarkActive
+(
+)
+;
 }
 void
 MediaStreamAudioSourceNode
@@ -815,10 +819,6 @@ AttachToTrack
 (
 track
 aRv
-)
-;
-MarkActive
-(
 )
 ;
 }
