@@ -8391,7 +8391,7 @@ uint8_t
 mLayoutStrategy
 ;
 int32_t
-mSpan
+mXSpan
 ;
 }
 ;

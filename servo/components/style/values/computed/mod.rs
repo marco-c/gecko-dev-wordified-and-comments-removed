@@ -841,16 +841,6 @@ use
 self
 :
 :
-table
-:
-:
-XSpan
-;
-pub
-use
-self
-:
-:
 text
 :
 :
@@ -1130,10 +1120,6 @@ resolution
 pub
 mod
 svg
-;
-pub
-mod
-table
 ;
 pub
 mod

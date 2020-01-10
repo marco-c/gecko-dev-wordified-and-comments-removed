@@ -7044,7 +7044,7 @@ mLayoutStrategy
 (
 NS_STYLE_TABLE_LAYOUT_AUTO
 )
-mSpan
+mXSpan
 (
 1
 )
@@ -7086,11 +7086,11 @@ aSource
 .
 mLayoutStrategy
 )
-mSpan
+mXSpan
 (
 aSource
 .
-mSpan
+mXSpan
 )
 {
 MOZ_COUNT_CTOR
@@ -7114,12 +7114,12 @@ const
 {
 if
 (
-mSpan
+mXSpan
 !
 =
 aNewData
 .
-mSpan
+mXSpan
 |
 |
 mLayoutStrategy
