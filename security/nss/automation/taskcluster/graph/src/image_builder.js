@@ -42,11 +42,6 @@ taskcluster
 .
 Queue
 (
-taskcluster
-.
-fromEnvVars
-(
-)
 )
 ;
 let
@@ -100,11 +95,6 @@ taskcluster
 .
 Index
 (
-taskcluster
-.
-fromEnvVars
-(
-)
 )
 ;
 let

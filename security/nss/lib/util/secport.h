@@ -430,10 +430,6 @@ define
 PORT_Assert
 PR_ASSERT
 #
-define
-PORT_AssertArg
-PR_ASSERT_ARG
-#
 ifdef
 DEBUG
 #
