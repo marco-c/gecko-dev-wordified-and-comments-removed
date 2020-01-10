@@ -3442,9 +3442,6 @@ fennec
 "
 geckoview
 "
-"
-geckoview_streaming
-"
 ]
 "
 alert_emails
@@ -3462,7 +3459,7 @@ mozilla
 com
 "
 "
-jnicol
+rhunt
 mozilla
 .
 com
@@ -3518,7 +3515,6 @@ bug_numbers
 [
 1080160
 1529352
-1580129
 ]
 }
 "
