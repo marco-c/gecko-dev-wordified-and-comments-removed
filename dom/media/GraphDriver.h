@@ -1267,6 +1267,14 @@ mShouldFallbackIfError
 bool
 mFromFallback
 ;
+#
+ifdef
+XP_MACOSX
+bool
+mNeedsPanning
+;
+#
+endif
 }
 ;
 class
