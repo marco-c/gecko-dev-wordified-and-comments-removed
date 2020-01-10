@@ -6,8 +6,17 @@ import
 json
 import
 re
+from
+six
+.
+moves
+.
+urllib
+.
+request
 import
-urllib2
+Request
+urlopen
 from
 .
 symLogging
@@ -1212,8 +1221,6 @@ json
                 
 requestHandle
 =
-urllib2
-.
 Request
 (
 url
@@ -1226,8 +1233,6 @@ try
                     
 response
 =
-urllib2
-.
 urlopen
 (
 requestHandle
