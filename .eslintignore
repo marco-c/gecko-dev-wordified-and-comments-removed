@@ -1157,6 +1157,8 @@ webconsole
 /
 test
 /
+node
+/
 fixtures
 /
 stubs
@@ -1172,6 +1174,8 @@ client
 webconsole
 /
 test
+/
+node
 /
 fixtures
 /
@@ -1447,7 +1451,7 @@ webconsole
 /
 test
 /
-mochitest
+browser
 /
 code_bundle_nosource
 .
@@ -1460,7 +1464,7 @@ webconsole
 /
 test
 /
-mochitest
+browser
 /
 code_bundle_invalidmap
 .
