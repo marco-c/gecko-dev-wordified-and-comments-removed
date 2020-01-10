@@ -4516,6 +4516,16 @@ EStripWrappers
 aStripWrappers
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+DeleteMostAncestorMailCiteElementIfEmpty
+(
+nsIContent
+&
+aContent
+)
+;
 enum
 class
 LiftUpFromAllParentListElements
