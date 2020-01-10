@@ -3768,6 +3768,9 @@ otherwise
 .
 *
 /
+[
+infallible
+]
 attribute
 boolean
 isActive
