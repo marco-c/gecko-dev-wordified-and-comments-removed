@@ -67,6 +67,10 @@ page__title
 Localized
 >
 <
+ManifestJsonLink
+/
+>
+<
 ManifestSection
 key
 =
@@ -312,6 +316,10 @@ page__title
 <
 /
 Localized
+>
+<
+ManifestJsonLink
+/
 >
 <
 ManifestSection

@@ -96,6 +96,16 @@ ManifestItem
 js
 '
 '
+ManifestJsonLink
+.
+css
+'
+'
+ManifestJsonLink
+.
+js
+'
+'
 ManifestLoader
 .
 css
