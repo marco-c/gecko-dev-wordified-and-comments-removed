@@ -669,12 +669,16 @@ uint32_t
 kind
 ;
 }
+Rooted
+<
 UniquePtr
 <
 RealmInstrumentation
 >
+>
 instrumentation
-=
+(
+cx
 MakeUnique
 <
 RealmInstrumentation
@@ -689,6 +693,7 @@ zone
 callback
 dbgObject
 kinds
+)
 )
 ;
 if
