@@ -118,13 +118,6 @@ target
 ;
 target
 .
-attachTab
-(
-tab
-)
-;
-target
-.
 once
 (
 "
