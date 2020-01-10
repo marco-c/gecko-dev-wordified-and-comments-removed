@@ -292,9 +292,6 @@ include
 IPCBlob
 ;
 include
-IPCStream
-;
-include
 PTabContext
 ;
 include
@@ -2086,6 +2083,8 @@ ContentParentId
 cpId
 bool
 isForBrowser
+bool
+isTopLevel
 )
 ;
 both
@@ -8189,15 +8188,6 @@ uint32_t
 metricId
 nsCString
 origin
-)
-;
-async
-ReportContentBlockingLog
-(
-Principal
-firstPartyPrincipal
-IPCStream
-aJSONStream
 )
 ;
 sync
