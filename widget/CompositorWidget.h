@@ -492,7 +492,10 @@ DrawTarget
 *
 aScreenTarget
 const
-LayoutDeviceIntRect
+gfx
+:
+:
+IntRect
 &
 aRect
 bool
