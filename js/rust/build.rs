@@ -866,6 +866,14 @@ deallocation
 "
 "
 -
+fno
+-
+aligned
+-
+new
+"
+"
+-
 DRUST_BINDGEN
 "
 ]
