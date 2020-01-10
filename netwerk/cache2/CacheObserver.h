@@ -279,16 +279,6 @@ browser_cache_disk_max_chunks_memory_usage
 }
 static
 uint32_t
-CompressionLevel
-(
-)
-{
-return
-sCompressionLevel
-;
-}
-static
-uint32_t
 HalfLifeSeconds
 (
 )
@@ -483,10 +473,6 @@ uint32_t
 Relaxed
 >
 sDiskCacheCapacity
-;
-static
-uint32_t
-sCompressionLevel
 ;
 static
 float
