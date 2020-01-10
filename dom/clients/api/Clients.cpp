@@ -1460,7 +1460,7 @@ outerPromise
 >
 MaybeReject
 (
-NS_ERROR_TYPE_ERR
+NS_ERROR_DOM_TYPE_ERR
 )
 ;
 }
