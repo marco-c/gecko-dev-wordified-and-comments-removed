@@ -60509,6 +60509,11 @@ setWasm
 enableWasm
 )
 .
+setWasmForTrustedPrinciples
+(
+enableWasm
+)
+.
 setWasmBaseline
 (
 enableWasmBaseline
