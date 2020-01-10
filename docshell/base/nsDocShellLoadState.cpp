@@ -182,6 +182,7 @@ nsDocShellLoadState
 :
 nsDocShellLoadState
 (
+const
 DocShellLoadStateInit
 &
 aLoadState

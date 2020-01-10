@@ -82,6 +82,7 @@ aURI
 explicit
 nsDocShellLoadState
 (
+const
 mozilla
 :
 :
