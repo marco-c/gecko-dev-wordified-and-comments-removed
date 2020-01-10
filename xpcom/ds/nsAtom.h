@@ -271,6 +271,13 @@ mIsAsciiLowercase
 ;
 }
 inline
+bool
+IsEmpty
+(
+)
+const
+;
+inline
 MozExternalRefCountType
 AddRef
 (
