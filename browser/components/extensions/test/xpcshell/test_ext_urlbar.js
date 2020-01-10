@@ -228,16 +228,6 @@ promiseStartupManager
 (
 )
 ;
-await
-Services
-.
-search
-.
-init
-(
-true
-)
-;
 let
 engine
 =

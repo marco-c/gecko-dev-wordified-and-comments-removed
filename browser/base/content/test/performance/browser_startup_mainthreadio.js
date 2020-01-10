@@ -1634,7 +1634,7 @@ condition
 WIN
 stat
 :
-8
+2
 }
 ]
 "
@@ -1956,9 +1956,6 @@ omni
 .
 ja
 "
-ignoreIfUnused
-:
-true
 condition
 :
 WIN
