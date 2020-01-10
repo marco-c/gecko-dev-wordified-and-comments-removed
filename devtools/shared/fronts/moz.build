@@ -252,9 +252,4 @@ webconsole
 .
 js
 '
-'
-websocket
-.
-js
-'
 )
