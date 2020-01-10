@@ -617,6 +617,14 @@ request
 )
 ;
 bool
+RegisterRequestWithPromptImpl
+(
+nsGeolocationRequest
+*
+aRequest
+)
+;
+bool
 IsAlreadyCleared
 (
 nsGeolocationRequest

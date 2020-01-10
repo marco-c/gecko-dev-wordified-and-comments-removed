@@ -105,6 +105,11 @@ EXPORTS
 =
 [
 '
+CoreLocationLocationProvider
+.
+h
+'
+'
 nsOSPermissionRequest
 .
 h
