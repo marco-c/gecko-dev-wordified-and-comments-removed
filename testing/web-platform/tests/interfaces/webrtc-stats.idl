@@ -197,9 +197,6 @@ channels
 DOMString
 sdpFmtpLine
 ;
-DOMString
-implementation
-;
 }
 ;
 enum
@@ -427,6 +424,9 @@ unsigned
 long
 fullFramesLost
 ;
+DOMString
+decoderImplementation
+;
 }
 ;
 dictionary
@@ -594,6 +594,9 @@ pliCount
 unsigned
 long
 sliCount
+;
+DOMString
+encoderImplementation
 ;
 }
 ;
@@ -1162,6 +1165,15 @@ totalResponsesReceived
 ;
 double
 totalRoundTripTime
+;
+}
+;
+partial
+dictionary
+RTCCodecStats
+{
+DOMString
+implementation
 ;
 }
 ;
