@@ -671,7 +671,6 @@ Combinator
 Part
 =
 >
-{
 InvalidationKind
 :
 :
@@ -682,7 +681,6 @@ DescendantInvalidationKind
 :
 Part
 )
-}
 Combinator
 :
 :

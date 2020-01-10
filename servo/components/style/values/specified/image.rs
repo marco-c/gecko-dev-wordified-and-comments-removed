@@ -61,8 +61,8 @@ self
 as
 generic
 Circle
-GradientCompatMode
 Ellipse
+GradientCompatMode
 ShapeExtent
 }
 ;
@@ -97,9 +97,8 @@ position
 :
 :
 {
-Position
-PositionComponent
-Side
+HorizontalPositionKeyword
+VerticalPositionKeyword
 }
 ;
 use
@@ -116,8 +115,9 @@ position
 :
 :
 {
-HorizontalPositionKeyword
-VerticalPositionKeyword
+Position
+PositionComponent
+Side
 }
 ;
 use
@@ -3617,6 +3617,7 @@ GradientCompatMode
 Modern
 =
 >
+{
 LineDirection
 :
 :
@@ -3627,6 +3628,7 @@ VerticalPositionKeyword
 :
 Bottom
 )
+}
 _
 =
 >
@@ -4345,6 +4347,7 @@ is_ok
 )
 =
 >
+{
 *
 compat_mode
 =
@@ -4352,6 +4355,7 @@ GradientCompatMode
 :
 :
 Modern
+}
 GradientCompatMode
 :
 :

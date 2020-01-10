@@ -90,8 +90,8 @@ position
 :
 :
 {
-Side
 HorizontalPositionKeyword
+Side
 VerticalPositionKeyword
 }
 ;

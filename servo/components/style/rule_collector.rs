@@ -1576,7 +1576,6 @@ shadow
 )
 =
 >
-{
 shadow
 .
 style_data
@@ -1597,11 +1596,9 @@ self
 pseudo_element
 )
 )
-}
 None
 =
 >
-{
 self
 .
 stylist
@@ -1624,7 +1621,6 @@ self
 .
 pseudo_element
 )
-}
 }
 ;
 if
