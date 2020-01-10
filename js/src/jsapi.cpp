@@ -4105,7 +4105,6 @@ define
 STD_NAME_ENTRY
 (
 name
-init
 clasp
 )
 {
@@ -4123,7 +4122,6 @@ define
 STD_DUMMY_ENTRY
 (
 name
-init
 dummy
 )
 {

@@ -18831,7 +18831,6 @@ define
 TEST_SLOT_MATCHES_PROTOTYPE
 (
 name
-init
 clasp
 )
 \

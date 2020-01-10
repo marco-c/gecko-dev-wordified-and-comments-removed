@@ -595,7 +595,6 @@ define
 PROPERTYNAME_FIELD
 (
 name
-init
 clasp
 )
 js
