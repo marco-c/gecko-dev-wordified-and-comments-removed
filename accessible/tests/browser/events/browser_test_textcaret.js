@@ -139,14 +139,7 @@ urlbarInputEl
 =
 newWin
 .
-document
-.
-getElementById
-(
-"
-urlbar
-"
-)
+gURLBar
 .
 inputField
 ;
