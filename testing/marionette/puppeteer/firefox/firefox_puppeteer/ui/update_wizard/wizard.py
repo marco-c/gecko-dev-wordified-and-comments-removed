@@ -272,11 +272,20 @@ self
 .
 element
 .
-get_property
+find_element
 (
+By
+.
+ANON_ATTRIBUTE
+{
 '
-_wizardButtons
+anonid
 '
+:
+'
+Buttons
+'
+}
 )
     
 property
