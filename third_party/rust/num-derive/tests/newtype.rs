@@ -13,6 +13,9 @@ crate
 num_derive
 ;
 use
+crate
+:
+:
 num_renamed
 :
 :
@@ -126,13 +129,6 @@ MyFloat
 [
 test
 ]
-#
-[
-cfg
-(
-has_i128
-)
-]
 fn
 test_from_primitive_128
 (
@@ -206,13 +202,6 @@ Some
 #
 [
 test
-]
-#
-[
-cfg
-(
-has_i128
-)
 ]
 fn
 test_to_primitive_128

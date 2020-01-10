@@ -383,7 +383,7 @@ before
 =
 before
 .
-into_iter
+iter
 (
 )
 .

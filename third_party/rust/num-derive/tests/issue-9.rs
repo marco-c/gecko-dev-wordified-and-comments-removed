@@ -6,10 +6,6 @@ deny
 unused_qualifications
 )
 ]
-extern
-crate
-num
-;
 #
 [
 macro_use
