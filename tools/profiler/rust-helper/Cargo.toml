@@ -50,6 +50,13 @@ demangle
 .
 1
 "
+uuid
+=
+"
+0
+.
+7
+"
 [
 dependencies
 .
@@ -60,7 +67,7 @@ version
 "
 0
 .
-10
+13
 .
 0
 "
@@ -77,6 +84,9 @@ features
 [
 "
 std
+"
+"
+read
 "
 ]
 [
@@ -130,7 +140,7 @@ version
 .
 0
 .
-17
+24
 "
 features
 =
