@@ -192,6 +192,12 @@ mAbstractMainThread
 protected
 :
 void
+ShutdownInternal
+(
+)
+override
+;
+void
 OnPlaybackEvent
 (
 MediaPlaybackEvent
@@ -488,6 +494,12 @@ bool
 mInitialChannelPrincipalKnown
 =
 false
+;
+RefPtr
+<
+GenericPromise
+>
+mResourceClosePromise
 ;
 }
 ;

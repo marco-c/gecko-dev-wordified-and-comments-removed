@@ -1189,6 +1189,12 @@ SetStateMachineParameters
 (
 )
 ;
+virtual
+void
+ShutdownInternal
+(
+)
+;
 bool
 IsShutdown
 (
