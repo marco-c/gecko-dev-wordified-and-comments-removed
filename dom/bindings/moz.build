@@ -103,9 +103,10 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+Bindings
+(
+WebIDL
+)
 "
 )
 TEST_DIRS

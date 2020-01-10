@@ -103,9 +103,7 @@ Core
 "
 DOM
 :
-Core
-&
-HTML
+postMessage
 "
 )
 TEST_DIRS
