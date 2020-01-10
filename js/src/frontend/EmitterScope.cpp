@@ -221,11 +221,6 @@ cx
 )
 ;
 }
-template
-<
-typename
-BindingIter
->
 bool
 EmitterScope
 :
