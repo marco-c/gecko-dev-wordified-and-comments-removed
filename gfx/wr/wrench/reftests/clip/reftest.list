@@ -238,6 +238,11 @@ rotation
 ref
 .
 yaml
+skip_on
+(
+android
+device
+)
 =
 =
 color_targets
@@ -312,7 +317,7 @@ ref
 yaml
 color_targets
 (
-1
+2
 )
 alpha_targets
 (
@@ -330,3 +335,10 @@ yaml
 blank
 .
 yaml
+#
+Unexpected
+color
+targets
+see
+bug
+1580795

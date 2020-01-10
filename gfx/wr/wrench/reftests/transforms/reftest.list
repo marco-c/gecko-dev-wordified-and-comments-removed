@@ -505,6 +505,13 @@ perspective
 mask
 .
 png
+skip_on
+(
+android
+emulator
+)
+=
+=
 rotate
 -
 clip
@@ -517,6 +524,11 @@ clip
 ref
 .
 yaml
+#
+Fails
+on
+Android
+emulator
 skip_on
 (
 android
