@@ -294,6 +294,9 @@ trap
 was
 called
 .
+(
+function
+)
 "
 )
 ;
