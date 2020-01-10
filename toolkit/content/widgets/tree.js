@@ -3530,7 +3530,7 @@ pageUpOrDownMovesSelection
 AppConstants
 .
 platform
-=
+!
 =
 "
 macosx
