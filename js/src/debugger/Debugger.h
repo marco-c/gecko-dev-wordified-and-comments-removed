@@ -1072,6 +1072,7 @@ WeakMap
 HeapPtr
 <
 Referent
+*
 >
 HeapPtr
 <
@@ -1086,6 +1087,7 @@ typedef
 HeapPtr
 <
 Referent
+*
 >
 Key
 ;
@@ -2378,7 +2380,6 @@ typedef
 DebuggerWeakMap
 <
 JSObject
-*
 DebuggerFrame
 >
 GeneratorWeakMap
@@ -2390,7 +2391,6 @@ typedef
 DebuggerWeakMap
 <
 JSScript
-*
 DebuggerScript
 >
 ScriptWeakMap
@@ -2404,7 +2404,6 @@ LazyScriptWeakMap
 DebuggerWeakMap
 <
 LazyScript
-*
 DebuggerScript
 >
 ;
@@ -2427,7 +2426,6 @@ typedef
 DebuggerWeakMap
 <
 JSObject
-*
 DebuggerSource
 true
 >
@@ -2440,7 +2438,6 @@ typedef
 DebuggerWeakMap
 <
 JSObject
-*
 DebuggerObject
 >
 ObjectWeakMap
@@ -2452,7 +2449,6 @@ typedef
 DebuggerWeakMap
 <
 JSObject
-*
 DebuggerEnvironment
 >
 EnvironmentWeakMap
@@ -2464,7 +2460,6 @@ typedef
 DebuggerWeakMap
 <
 WasmInstanceObject
-*
 DebuggerScript
 >
 WasmInstanceScriptWeakMap
@@ -2476,7 +2471,6 @@ typedef
 DebuggerWeakMap
 <
 WasmInstanceObject
-*
 DebuggerSource
 >
 WasmInstanceSourceWeakMap
