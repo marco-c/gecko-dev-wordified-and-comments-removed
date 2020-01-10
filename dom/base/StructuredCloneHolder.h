@@ -341,7 +341,7 @@ JS
 :
 :
 CloneDataPolicy
-cloneDataPolicy
+aCloneDataPolicy
 )
 ;
 bool
@@ -577,7 +577,7 @@ JS
 :
 :
 CloneDataPolicy
-cloneDataPolicy
+aCloneDataPolicy
 ErrorResult
 &
 aRv

@@ -953,7 +953,7 @@ JS
 :
 :
 CloneDataPolicy
-cloneDataPolicy
+aCloneDataPolicy
 )
 {
 MOZ_ASSERT
@@ -1012,7 +1012,7 @@ write
 aCx
 aValue
 aTransfer
-cloneDataPolicy
+aCloneDataPolicy
 &
 StructuredCloneHolder
 :
