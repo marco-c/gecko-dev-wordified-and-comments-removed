@@ -260,6 +260,14 @@ copy
 "
 "
         
+assert
+self
+.
+git
+is
+not
+None
+        
 cmd
 =
 [
@@ -380,23 +388,19 @@ hash_cache
 cmd
 =
 [
-b
 "
 ls
 -
 tree
 "
-b
 "
 -
 r
 "
-b
 "
 -
 z
 "
-b
 "
 HEAD
 "
@@ -614,8 +618,6 @@ root
 )
         
 if
-git
-.
 git
 is
 not
