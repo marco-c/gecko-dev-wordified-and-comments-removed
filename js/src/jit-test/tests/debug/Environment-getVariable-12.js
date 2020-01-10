@@ -242,6 +242,12 @@ function
 (
 )
 {
+eval
+(
+'
+'
+)
+;
 debugger
 ;
 }
@@ -358,7 +364,14 @@ h
 (
 )
 {
+eval
+(
+'
+'
+)
+;
 debugger
+;
 }
 ;
 "

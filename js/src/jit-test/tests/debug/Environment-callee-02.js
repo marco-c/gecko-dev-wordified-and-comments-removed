@@ -43,6 +43,12 @@ function
 y
 )
 {
+eval
+(
+"
+"
+)
+;
 debugger
 ;
 return

@@ -44,7 +44,6 @@ STRINGS
 ]
 identity
 ;
-k
 var
 frame
 log
@@ -57,7 +56,7 @@ environment
 0false1
 Debugger
 assertEq
-evalJfor
+evalffor
 (
 let
 x
@@ -72,8 +71,16 @@ x
 +
 +
 )
+{
+eval
+(
+"
+"
+)
+;
 debugger
 ;
+}
 gc
 getVariable
 newCompartment

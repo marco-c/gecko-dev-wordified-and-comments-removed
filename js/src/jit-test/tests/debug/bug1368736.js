@@ -31,7 +31,7 @@ script
 .
 setBreakpoint
 (
-79
+103
 {
 hit
 :
@@ -58,6 +58,12 @@ range
 (
 )
 {
+eval
+(
+"
+"
+)
+;
 debugger
 ;
 for

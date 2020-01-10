@@ -42,7 +42,7 @@ STRINGS
 ]
 identity
 ;
-=
+Q
 >
 var
 g
@@ -76,6 +76,12 @@ function
 y
 )
 {
+eval
+(
+"
+"
+)
+;
 debugger
 ;
 return
