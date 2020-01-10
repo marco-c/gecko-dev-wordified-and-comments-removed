@@ -15222,7 +15222,7 @@ mutationBreakpoints
 .
 enabled
 "
-false
+true
 )
 ;
 pref
