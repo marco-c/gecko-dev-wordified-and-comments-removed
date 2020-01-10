@@ -47,7 +47,7 @@ JSFunction
 namespace
 JS
 {
-union
+class
 Value
 ;
 template
