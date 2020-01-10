@@ -3152,6 +3152,9 @@ InitMouseWheelScrollData
 double
 mSizeConstraintsScale
 ;
+int32_t
+mMaxTextureSize
+;
 WinPointerEvents
 mPointerEvents
 ;
