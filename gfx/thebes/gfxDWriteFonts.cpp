@@ -3476,6 +3476,12 @@ GetEnhancedContrast
 if
 (
 forceGDI
+|
+|
+renderingMode
+=
+=
+DWRITE_RENDERING_MODE_GDI_CLASSIC
 )
 {
 renderingMode
