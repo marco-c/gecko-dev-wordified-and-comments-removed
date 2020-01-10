@@ -1757,9 +1757,9 @@ override
 void
 LocalFileToBlobCompleted
 (
-Blob
+BlobImpl
 *
-aBlob
+aBlobImpl
 )
 ;
 protected
@@ -2468,6 +2468,12 @@ MatchCharsetAndDecoderToResponseDocument
 ;
 XMLHttpRequestResponseType
 mResponseType
+;
+RefPtr
+<
+BlobImpl
+>
+mResponseBlobImpl
 ;
 RefPtr
 <
