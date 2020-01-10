@@ -340,6 +340,10 @@ cairo_ft_font_face_create_for_pattern
 _moz_cairo_ft_font_face_create_for_pattern
 #
 define
+cairo_ft_font_face_set_synthesize
+_moz_cairo_ft_font_face_set_synthesize
+#
+define
 cairo_ft_font_options_substitute
 _moz_cairo_ft_font_options_substitute
 #
