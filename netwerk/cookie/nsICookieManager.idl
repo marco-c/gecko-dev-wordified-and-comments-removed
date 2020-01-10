@@ -1340,7 +1340,7 @@ aCookieFile
 *
 Returns
 an
-enumerator
+array
 of
 all
 cookies
@@ -1424,7 +1424,10 @@ given
 .
 *
 /
-nsISimpleEnumerator
+Array
+<
+nsICookie
+>
 getCookiesWithOriginAttributes
 (
 in
