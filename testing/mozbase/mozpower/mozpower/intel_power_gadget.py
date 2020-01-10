@@ -5460,6 +5460,11 @@ str
 (
 test_name
 )
++
+'
+-
+utilization
+'
                 
 "
 unit
@@ -5501,6 +5506,11 @@ str
 (
 test_name
 )
++
+'
+-
+cumulative
+'
                 
 "
 unit

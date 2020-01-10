@@ -136,3 +136,15 @@ resume_from_crash
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+sessionstore
+.
+resume_from_crash
+"
+false
+)
+;
