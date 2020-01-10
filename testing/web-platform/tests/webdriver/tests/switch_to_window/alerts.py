@@ -12,14 +12,6 @@ support
 asserts
 import
 assert_success
-from
-tests
-.
-support
-.
-inline
-import
-inline
 def
 switch_to_window
 (
@@ -102,14 +94,9 @@ response
     
 session
 .
-url
-=
-inline
+execute_script
 (
 "
-<
-script
->
 window
 .
 alert
@@ -119,10 +106,6 @@ Hello
 '
 )
 ;
-<
-/
-script
->
 "
 )
     
