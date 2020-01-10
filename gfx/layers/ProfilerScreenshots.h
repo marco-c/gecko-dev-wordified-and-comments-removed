@@ -188,12 +188,6 @@ DataSourceSurface
 aSurface
 )
 ;
-nsCOMPtr
-<
-nsIThread
->
-mThread
-;
 nsTArray
 <
 RefPtr
