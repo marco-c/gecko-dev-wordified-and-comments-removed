@@ -64,6 +64,9 @@ title
 optional
 NotificationOptions
 options
+=
+{
+}
 )
 Exposed
 =
@@ -374,6 +377,9 @@ title
 optional
 NotificationOptions
 options
+=
+{
+}
 )
 ;
 Promise
@@ -388,6 +394,9 @@ getNotifications
 optional
 GetNotificationOptions
 filter
+=
+{
+}
 )
 ;
 }
