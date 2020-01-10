@@ -1764,6 +1764,11 @@ mMainThreadStreamCount
 =
 0
 ;
+size_t
+mMainThreadPortCount
+=
+0
+;
 RefPtr
 <
 GraphDriver
