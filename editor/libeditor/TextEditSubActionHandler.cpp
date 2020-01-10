@@ -8,13 +8,6 @@ h
 #
 include
 "
-TextEditUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

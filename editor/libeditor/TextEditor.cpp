@@ -24,13 +24,6 @@ h
 #
 include
 "
-TextEditUtils
-.
-h
-"
-#
-include
-"
 gfxFontUtils
 .
 h

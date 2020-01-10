@@ -133,13 +133,6 @@ h
 #
 include
 "
-TextEditUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CheckedInt
