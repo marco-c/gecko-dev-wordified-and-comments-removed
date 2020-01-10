@@ -834,6 +834,10 @@ mComposerCommandsUpdater
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
+mChangedRangeForTopLevelEditSubAction
+)
+NS_IMPL_CYCLE_COLLECTION_UNLINK
+(
 mStyleSheets
 )
 tmp
@@ -856,6 +860,10 @@ mTypeInState
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mComposerCommandsUpdater
+)
+NS_IMPL_CYCLE_COLLECTION_TRAVERSE
+(
+mChangedRangeForTopLevelEditSubAction
 )
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (

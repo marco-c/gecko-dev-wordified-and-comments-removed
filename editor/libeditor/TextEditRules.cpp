@@ -378,10 +378,6 @@ htmlEditRules
 ;
 NS_IMPL_CYCLE_COLLECTION_UNLINK
 (
-mDocChangeRange
-)
-NS_IMPL_CYCLE_COLLECTION_UNLINK
-(
 mUtilRange
 )
 }
@@ -410,10 +406,6 @@ tmp
 =
 htmlEditRules
 ;
-NS_IMPL_CYCLE_COLLECTION_TRAVERSE
-(
-mDocChangeRange
-)
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
 mUtilRange
