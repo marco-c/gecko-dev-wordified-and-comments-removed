@@ -35523,6 +35523,16 @@ textColor
 |
 |
 textDrawer
+|
+|
+aParams
+.
+textStrokeWidth
+=
+=
+0
+.
+0f
 )
 {
 aParams
