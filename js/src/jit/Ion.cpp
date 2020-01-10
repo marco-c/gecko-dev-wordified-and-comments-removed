@@ -8661,7 +8661,7 @@ MIRGenerator
 mir
 )
 {
-AutoEnterIonCompilation
+AutoEnterIonBackend
 enter
 (
 mir
