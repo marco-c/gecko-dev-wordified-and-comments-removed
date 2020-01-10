@@ -118,7 +118,9 @@ cipherSuites
 =
 GlobalConstants
 .
-DEFAULT_CIPHER_SUITES
+getTlsCipherSuites
+(
+)
 ;
 public
 TLSSocketFactory
@@ -247,7 +249,9 @@ setEnabledProtocols
 (
 GlobalConstants
 .
-DEFAULT_PROTOCOLS
+getTlsProtocols
+(
+)
 )
 ;
 setEnabledCipherSuites
