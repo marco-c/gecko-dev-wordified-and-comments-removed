@@ -62,8 +62,6 @@ generics
 counters
 :
 :
-CounterIncrement
-as
 GenericCounterIncrement
 ;
 use
@@ -94,8 +92,6 @@ generics
 counters
 :
 :
-CounterSetOrReset
-as
 GenericCounterSetOrReset
 ;
 #
