@@ -219,11 +219,6 @@ margin
 spec
 =
 spec
-flags
-=
-"
-GETCS_NEEDS_LAYOUT_FLUSH
-"
 allowed_in_page_rule
 =
 True
