@@ -1151,14 +1151,6 @@ aValue
 endif
 }
 #
-ifdef
-MOZ_HAVE_BITSCAN64
-#
-undef
-MOZ_HAVE_BITSCAN64
-#
-endif
-#
 elif
 defined
 (
