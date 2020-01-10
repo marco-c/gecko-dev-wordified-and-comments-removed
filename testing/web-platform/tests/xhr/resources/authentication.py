@@ -134,24 +134,6 @@ test
 "
 '
 )
-                       
-(
-'
-XHR
--
-USER
-'
-expected_user_name
-)
-                       
-(
-'
-SES
--
-USER
-'
-session_user
-)
 ]
             
 return
