@@ -178,9 +178,6 @@ using
 run
 -
 task
-checkout
-:
-false
 jobs
 :
 linux
