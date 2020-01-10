@@ -202,6 +202,15 @@ add
 labelText
 )
 ;
+this
+.
+classList
+.
+add
+(
+labelText
+)
+;
 let
 info
 =
