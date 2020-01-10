@@ -98,7 +98,7 @@ listNames
 AppendElement
 (
 "
-test
+moztest
 -
 phish
 -
@@ -111,7 +111,7 @@ listNames
 AppendElement
 (
 "
-test
+moztest
 -
 unwanted
 -

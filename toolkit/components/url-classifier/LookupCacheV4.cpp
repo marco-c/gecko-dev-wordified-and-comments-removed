@@ -2780,5 +2780,17 @@ pick
 nullptr
 ;
 }
+nsresult
+LookupCacheV4
+:
+:
+LoadMozEntries
+(
+)
+{
+return
+NS_ERROR_NOT_IMPLEMENTED
+;
+}
 }
 }

@@ -1256,7 +1256,7 @@ String
 TEST
 =
 "
-test
+moztest
 -
 track
 -

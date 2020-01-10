@@ -25,7 +25,7 @@ v2_file_extensions
 [
         
 '
-pset
+vlpset
 '
         
 '
@@ -257,6 +257,26 @@ split
 (
 '
 '
+)
+            
+base_names
+=
+filter
+(
+lambda
+x
+:
+not
+x
+.
+startswith
+(
+'
+moztest
+-
+'
+)
+base_names
 )
             
 for
