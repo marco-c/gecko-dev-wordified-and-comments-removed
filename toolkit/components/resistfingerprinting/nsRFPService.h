@@ -1009,7 +1009,7 @@ nsAString
 aLanguage
 KeyboardLangs
 &
-aLang
+aLocale
 KeyboardRegions
 &
 aRegion
