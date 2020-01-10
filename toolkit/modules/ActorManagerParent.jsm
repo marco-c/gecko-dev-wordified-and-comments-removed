@@ -867,15 +867,9 @@ jsm
 events
 :
 {
-canplay
+UAWidgetSetupOrChange
 :
 {
-capture
-:
-true
-mozSystemGroup
-:
-true
 }
 contextmenu
 :

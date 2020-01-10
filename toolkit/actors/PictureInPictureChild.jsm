@@ -471,7 +471,7 @@ type
 {
 case
 "
-canplay
+UAWidgetSetupOrChange
 "
 :
 {
