@@ -152,6 +152,11 @@ MediaEncoder
 cpp
 '
 '
+Muxer
+.
+cpp
+'
+'
 OpusTrackEncoder
 .
 cpp
