@@ -677,16 +677,6 @@ aType
 ;
 static
 bool
-ShouldLoadTypeInParent
-(
-const
-nsACString
-&
-aMimeType
-)
-;
-static
-bool
 CanUsePluginForMIMEType
 (
 const
