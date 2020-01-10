@@ -6309,7 +6309,7 @@ aDocumentURI
 ;
 this
 .
-_contentTile
+_contentTitle
 =
 aTitle
 ;
