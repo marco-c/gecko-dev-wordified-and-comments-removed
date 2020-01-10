@@ -87,11 +87,6 @@ mozilla
 OriginAttributes
 &
 aOriginAttributes
-nsIRequest
-:
-:
-TRRMode
-aTRRMode
 nsIDNSListener
 *
 aListener
@@ -211,12 +206,6 @@ mOriginAttributes
 bool
 mStoreTiming
 ;
-nsIRequest
-:
-:
-TRRMode
-mTRRMode
-;
 mozilla
 :
 :
@@ -235,7 +224,7 @@ mListener
 nsresult
 Prefetch
 (
-uint32_t
+uint16_t
 flags
 )
 ;

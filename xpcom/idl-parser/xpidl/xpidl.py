@@ -6833,32 +6833,13 @@ calltype
 )
 :
         
-return
-"
-%
-s
-u
-%
-d
-"
-%
+raise
+RustNoncompat
 (
 '
-*
-mut
+cenums
+unimplemented
 '
-if
-'
-out
-'
-in
-calltype
-else
-'
-'
-self
-.
-width
 )
     
 def
