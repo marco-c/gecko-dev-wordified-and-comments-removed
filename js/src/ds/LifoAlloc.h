@@ -3246,6 +3246,7 @@ oversize
 ;
 }
 ;
+MOZ_NEVER_INLINE
 Mark
 mark
 (
