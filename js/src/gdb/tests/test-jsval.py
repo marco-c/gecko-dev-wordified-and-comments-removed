@@ -45,8 +45,6 @@ JS
 DoubleValue
 (
 42
-.
-0
 )
 '
 )

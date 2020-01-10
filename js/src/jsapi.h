@@ -390,6 +390,14 @@ length_
 N
 )
 {
+mozilla
+:
+:
+PodArrayZero
+(
+elements_
+)
+;
 MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }

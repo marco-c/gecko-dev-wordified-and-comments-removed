@@ -1168,14 +1168,6 @@ reg
 PER_SHARED_ARCH
 ;
 void
-PushBoxed
-(
-FloatRegister
-reg
-)
-PER_ARCH
-;
-void
 PushFlags
 (
 )
@@ -7653,11 +7645,6 @@ T
 dest
 )
 ;
-template
-<
-class
-T
->
 inline
 void
 boxDouble
@@ -7665,7 +7652,7 @@ boxDouble
 FloatRegister
 src
 const
-T
+Address
 &
 dest
 )
@@ -11753,7 +11740,7 @@ reg
 fpscratch
 )
 ;
-boxDouble
+storeDouble
 (
 fpscratch
 dest
@@ -11762,7 +11749,7 @@ dest
 }
 else
 {
-boxDouble
+storeDouble
 (
 reg
 dest
