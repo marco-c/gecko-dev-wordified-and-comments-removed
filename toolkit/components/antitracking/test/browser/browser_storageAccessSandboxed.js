@@ -366,11 +366,7 @@ true
 ]
 false
 false
-Ci
-.
-nsIWebProgressListener
-.
-STATE_COOKIES_BLOCKED_TRACKER
+false
 false
 "
 allow
@@ -464,7 +460,7 @@ true
 ]
 false
 false
-0
+false
 false
 "
 allow
@@ -608,11 +604,7 @@ true
 ]
 false
 false
-Ci
-.
-nsIWebProgressListener
-.
-STATE_COOKIES_BLOCKED_TRACKER
+0
 true
 null
 )
