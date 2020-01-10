@@ -84,7 +84,7 @@ case
 ColorID
 :
 :
-MozFieldtext
+Fieldtext
 :
 aColor
 =
