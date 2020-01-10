@@ -23,6 +23,9 @@ SkPoint
 .
 h
 "
+struct
+SkRect
+;
 bool
 SkInsetConvexPolygon
 (
@@ -51,6 +54,10 @@ SkPoint
 inputPolygonVerts
 int
 inputPolygonSize
+const
+SkRect
+&
+bounds
 SkScalar
 offset
 SkTDArray
