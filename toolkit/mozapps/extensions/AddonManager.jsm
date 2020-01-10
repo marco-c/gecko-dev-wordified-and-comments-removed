@@ -8234,9 +8234,9 @@ if
 (
 topBrowser
 .
-ownerGlobal
+ownerDocument
 .
-fullScreen
+fullscreenElement
 )
 {
 aInstall
