@@ -4707,6 +4707,7 @@ frame
 &
 &
 (
+!
 frame
 -
 >
@@ -4715,13 +4716,9 @@ StyleDisplay
 )
 -
 >
-mDisplay
-!
-=
-StyleDisplay
-:
-:
-Inline
+IsInlineFlow
+(
+)
 |
 |
 frame
