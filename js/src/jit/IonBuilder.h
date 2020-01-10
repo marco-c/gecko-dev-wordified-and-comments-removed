@@ -281,6 +281,16 @@ runTask
 )
 override
 ;
+ThreadType
+threadType
+(
+)
+override
+{
+return
+THREAD_TYPE_ION
+;
+}
 private
 :
 AbortReasonOr
