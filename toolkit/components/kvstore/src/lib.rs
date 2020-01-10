@@ -56,6 +56,10 @@ storage_variant
 ;
 extern
 crate
+tempfile
+;
+extern
+crate
 thin_vec
 ;
 extern
