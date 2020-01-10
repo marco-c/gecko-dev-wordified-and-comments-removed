@@ -1738,6 +1738,9 @@ className
 button
 -
 delete
+ghost
+-
+button
 "
 ;
 }
@@ -1775,6 +1778,9 @@ className
 button
 -
 reset
+ghost
+-
+button
 "
 ;
 }
