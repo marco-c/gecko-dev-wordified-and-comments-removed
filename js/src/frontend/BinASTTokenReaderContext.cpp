@@ -8127,7 +8127,7 @@ GenericHuffmanTable
 :
 implementation_
 (
-HuffmanTableUnreachable
+TableImplementationUninitialized
 {
 }
 )
@@ -8298,7 +8298,7 @@ cx
 [
 ]
 (
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 )
 -
@@ -8477,7 +8477,7 @@ begin
 ]
 (
 const
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 )
 -
@@ -8653,7 +8653,7 @@ end
 ]
 (
 const
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 )
 -
@@ -8705,7 +8705,7 @@ implementation_
 template
 is
 <
-HuffmanTableUnreachable
+TableImplementationUninitialized
 >
 (
 )
@@ -8779,7 +8779,7 @@ implementation_
 template
 is
 <
-HuffmanTableUnreachable
+TableImplementationUninitialized
 >
 (
 )
@@ -9175,7 +9175,7 @@ value
 [
 ]
 (
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 )
 -
@@ -9337,7 +9337,7 @@ key
 ]
 (
 const
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 )
 -
@@ -9476,7 +9476,7 @@ length
 ]
 (
 const
-HuffmanTableUnreachable
+TableImplementationUninitialized
 &
 implementation
 )

@@ -1876,7 +1876,7 @@ TwoLookupsHuffmanTable
 >
 ;
 struct
-HuffmanTableUnreachable
+TableImplementationUninitialized
 {
 }
 ;
@@ -2219,7 +2219,7 @@ TwoEntriesHuffmanTable
 SingleLookupHuffmanTable
 TwoLookupsHuffmanTable
 ThreeLookupsHuffmanTable
-HuffmanTableUnreachable
+TableImplementationUninitialized
 >
 implementation_
 ;
