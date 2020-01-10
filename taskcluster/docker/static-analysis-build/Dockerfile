@@ -107,6 +107,8 @@ multilib
 \
 gnupg
 \
+jq
+\
 libc6
 -
 dev

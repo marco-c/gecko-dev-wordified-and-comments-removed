@@ -103,6 +103,8 @@ multilib
 \
 gnupg
 \
+jq
+\
 libbz2
 -
 dev

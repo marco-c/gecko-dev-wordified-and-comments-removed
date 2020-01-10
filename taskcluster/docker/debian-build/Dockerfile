@@ -373,6 +373,8 @@ multilib
 \
 gnupg
 \
+jq
+\
 libucl1
 \
 p7zip

@@ -109,6 +109,8 @@ file
 \
 gnupg
 \
+jq
+\
 less
 \
 openssh

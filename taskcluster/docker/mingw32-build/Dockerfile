@@ -124,6 +124,8 @@ multilib
 \
 gnupg
 \
+jq
+\
 libucl1
 \
 patch
