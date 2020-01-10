@@ -80,6 +80,16 @@ browser
 ini
 '
 ]
+SPHINX_TREES
+[
+'
+docs
+'
+]
+=
+'
+docs
+'
 with
 Files
 (

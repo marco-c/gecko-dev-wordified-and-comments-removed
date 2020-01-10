@@ -82,6 +82,13 @@ touchbar
 index
 components
 /
+uitour
+/
+docs
+/
+index
+components
+/
 payments
 /
 docs
