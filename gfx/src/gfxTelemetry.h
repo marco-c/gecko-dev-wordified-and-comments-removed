@@ -35,7 +35,6 @@ BlockedReleaseChannelIntel
 BlockedReleaseChannelAMD
 BlockedReleaseChannelNvidia
 BlockedReleaseChannelBattery
-BlockedReleaseChannelAndroid
 Blacklisted
 OptIn
 Failed
