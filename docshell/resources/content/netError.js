@@ -531,6 +531,14 @@ err
 "
 cspBlocked
 "
+|
+|
+err
+=
+=
+"
+xfoBlocked
+"
 )
 {
 document
