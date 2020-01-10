@@ -148,7 +148,7 @@ using
 namespace
 mozilla
 ;
-void
+bool
 VibrancyManager
 :
 :
@@ -171,6 +171,7 @@ IsEmpty
 )
 )
 {
+return
 mVibrantRegions
 .
 Remove
@@ -180,8 +181,6 @@ uint32_t
 aType
 )
 )
-;
-return
 ;
 }
 auto
@@ -199,6 +198,7 @@ aType
 )
 )
 ;
+return
 vr
 .
 UpdateRegion

@@ -122,7 +122,7 @@ SystemSupportsVibrancy
 )
 ;
 }
-void
+bool
 UpdateVibrantRegion
 (
 VibrancyType
