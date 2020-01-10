@@ -33,6 +33,7 @@ BlockedNoGfxInfo
 BlockedOverride
 BlockedReleaseChannelIntel
 BlockedReleaseChannelAMD
+BlockedReleaseChannelNvidia
 BlockedReleaseChannelBattery
 Blacklisted
 OptIn
