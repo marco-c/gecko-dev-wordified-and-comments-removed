@@ -1043,6 +1043,13 @@ android_platform
 '
 android_platform
 )
+set_config
+(
+'
+ANDROID_PLATFORM
+'
+android_platform
+)
 depends
 (
 android_platform

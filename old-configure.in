@@ -987,10 +987,6 @@ android
 linuxandroid
 *
 )
-AC_DEFINE
-(
-ANDROID
-)
 ;
 ;
 *
@@ -1022,10 +1018,6 @@ MOZ_IOS_SDK
 ;
 ;
 esac
-AC_SUBST
-(
-ANDROID_SOURCE
-)
 AC_SUBST
 (
 ANDROID_PACKAGE_NAME
