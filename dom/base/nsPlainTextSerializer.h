@@ -408,12 +408,11 @@ FlushLine
 )
 ;
 void
-OutputQuotesAndIndent
+CreateQuotesAndIndent
 (
-bool
-stripTrailingSpaces
-=
-false
+nsAString
+&
+aResult
 )
 ;
 void
