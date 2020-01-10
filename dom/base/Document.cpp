@@ -9771,10 +9771,6 @@ break
 }
 }
 }
-ReportUseCounters
-(
-)
-;
 mInDestructor
 =
 true
@@ -49243,6 +49239,10 @@ ReportOrigins
 ;
 }
 }
+ReportUseCounters
+(
+)
+;
 mIsGoingAway
 =
 true
