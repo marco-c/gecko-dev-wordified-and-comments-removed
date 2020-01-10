@@ -333,6 +333,9 @@ widget
 '
 xul
 '
+'
+zoom
+'
 ]
 if
 CONFIG
