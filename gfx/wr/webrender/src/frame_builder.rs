@@ -73,7 +73,7 @@ composite
 :
 :
 {
-CompositeMode
+CompositorKind
 CompositeState
 }
 ;
@@ -503,9 +503,9 @@ Option
 ColorF
 >
 pub
-composite_mode
+compositor_kind
 :
-CompositeMode
+CompositorKind
 }
 #
 [
@@ -2075,7 +2075,7 @@ scene
 .
 config
 .
-composite_mode
+compositor_kind
 )
 ;
 let

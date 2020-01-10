@@ -38,7 +38,7 @@ crate
 composite
 :
 :
-CompositeMode
+CompositorKind
 ;
 use
 crate
@@ -1200,12 +1200,14 @@ batch_lookback_count
 background_color
 :
 None
-composite_mode
+compositor_kind
 :
-CompositeMode
+CompositorKind
 :
 :
-Draw
+default
+(
+)
 }
 }
 }
