@@ -100,9 +100,9 @@ await
 evaluateSearchResults
 (
 "
-turned
-off
-protections
+disabled
+content
+blocking
 "
 "
 trackingGroup

@@ -60,7 +60,9 @@ permissions
 -
 exceptions
 -
-etp
+content
+-
+blocking
 -
 window
 "
@@ -71,7 +73,9 @@ permissions
 -
 exceptions
 -
-etp
+content
+-
+blocking
 -
 desc
 "
