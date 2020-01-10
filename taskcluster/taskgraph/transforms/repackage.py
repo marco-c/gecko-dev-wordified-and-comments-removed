@@ -387,6 +387,10 @@ mar
 :
 '
 mar
+-
+tools
+/
+mar
 {
 executable_extension
 }
@@ -2650,18 +2654,18 @@ False
             
 ]
             
-build_task
+"
+toolchain
+"
 :
 [
-                
-'
-host
-/
-bin
-/
+"
+linux64
+-
 mar
-'
-            
+-
+tools
+"
 ]
         
 }
