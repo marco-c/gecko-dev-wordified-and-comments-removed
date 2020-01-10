@@ -370,6 +370,15 @@ aEsniTxt
 )
 override
 ;
+NS_IMETHOD
+GetPeerId
+(
+nsACString
+&
+aResult
+)
+override
+;
 PRStatus
 CloseSocketAndDestroy
 (
@@ -820,6 +829,9 @@ ActivateSSL
 ;
 nsCString
 mEsniTxt
+;
+nsCString
+mPeerId
 ;
 bool
 mEarlyDataAccepted
