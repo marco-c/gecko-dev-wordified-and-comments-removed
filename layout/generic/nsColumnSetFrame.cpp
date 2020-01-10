@@ -2715,6 +2715,7 @@ GetWritingMode
 (
 )
 ;
+const
 bool
 isRTL
 =
@@ -2725,6 +2726,7 @@ IsBidiLTR
 (
 )
 ;
+const
 bool
 shrinkingBSize
 =
@@ -2734,6 +2736,7 @@ aConfig
 .
 mColMaxBSize
 ;
+const
 bool
 changingBSize
 =
@@ -2805,20 +2808,9 @@ DrainOverflowColumns
 (
 )
 ;
-const
-bool
-colBSizeChanged
-=
-mLastBalanceBSize
-!
-=
-aConfig
-.
-mColMaxBSize
-;
 if
 (
-colBSizeChanged
+changingBSize
 )
 {
 mLastBalanceBSize
@@ -3476,7 +3468,7 @@ mFlags
 mMustReflowPlaceholders
 =
 !
-colBSizeChanged
+changingBSize
 ;
 COLUMN_SET_LOG
 (
