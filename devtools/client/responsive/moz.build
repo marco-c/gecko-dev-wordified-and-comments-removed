@@ -136,15 +136,6 @@ reducers
 js
 '
 '
-setting
--
-onboarding
--
-tooltip
-.
-js
-'
-'
 store
 .
 js
