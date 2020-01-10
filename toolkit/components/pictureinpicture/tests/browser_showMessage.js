@@ -105,6 +105,7 @@ browser
 "
 UAWidgetSetupOrChange
 "
+true
 )
 ;
 await
