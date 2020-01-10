@@ -665,13 +665,6 @@ wantUntrusted
 :
 true
 }
-AboutLoginsOpenFAQ
-:
-{
-wantUntrusted
-:
-true
-}
 AboutLoginsGetHelp
 :
 {

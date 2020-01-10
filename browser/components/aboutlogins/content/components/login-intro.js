@@ -92,7 +92,7 @@ event
 )
 {
 let
-faqLink
+helpLink
 =
 this
 .
@@ -104,7 +104,7 @@ querySelector
 .
 intro
 -
-faq
+help
 -
 link
 "
@@ -127,7 +127,7 @@ event
 originalTarget
 =
 =
-faqLink
+helpLink
 )
 {
 document
@@ -138,7 +138,7 @@ new
 CustomEvent
 (
 "
-AboutLoginsOpenFAQ
+AboutLoginsGetHelp
 "
 {
 bubbles
