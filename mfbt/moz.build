@@ -256,6 +256,11 @@ EnumTypeTraits
 h
 '
 '
+fallible
+.
+h
+'
+'
 FastBernoulliTrial
 .
 h
