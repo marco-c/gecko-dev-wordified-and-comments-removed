@@ -967,7 +967,7 @@ statusFile
 >
 OpenNSPRFileDesc
 (
-PR_RDONLY
+PR_RDWR
 0660
 &
 fd
