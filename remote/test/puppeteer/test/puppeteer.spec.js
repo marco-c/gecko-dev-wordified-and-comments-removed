@@ -498,6 +498,7 @@ testRunner
 product
 FFOX
 CHROME
+JUGGLER
 puppeteer
 expect
 defaultBrowserOptions
