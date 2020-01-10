@@ -482,11 +482,6 @@ AddonManagerWebAPI
 :
 IsAPIEnabled
 "
-NavigatorProperty
-=
-"
-mozAddonManager
-"
 JSImplementation
 =
 "
