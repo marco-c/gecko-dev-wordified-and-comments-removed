@@ -61,6 +61,10 @@ PageThumbs
 shouldStoreThumbnail
 (
 browser
+)
+.
+then
+(
 aResult
 =
 >

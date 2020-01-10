@@ -568,6 +568,7 @@ true
 )
 ;
 }
+async
 function
 captureAndCheckColor
 (
@@ -595,15 +596,14 @@ spec
 ]
 )
 ;
+await
 PageThumbs
 .
 captureAndStore
 (
 browser
-function
-(
 )
-{
+;
 retrieveImageDataForURL
 (
 browser
@@ -643,9 +643,6 @@ aMessage
 ;
 next
 (
-)
-;
-}
 )
 ;
 }
