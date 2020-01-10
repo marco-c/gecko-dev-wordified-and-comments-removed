@@ -46,6 +46,10 @@ RDDProcessHost
 :
 Listener
 {
+friend
+class
+RDDChild
+;
 public
 :
 static
