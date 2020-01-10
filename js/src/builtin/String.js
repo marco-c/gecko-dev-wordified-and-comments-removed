@@ -2499,9 +2499,10 @@ string
 {
 requestedLocale
 =
-ValidateAndCanonicalizeLanguageTag
+intl_ValidateAndCanonicalizeLanguageTag
 (
 locales
+false
 )
 ;
 }
@@ -2633,9 +2634,10 @@ string
 {
 requestedLocale
 =
-ValidateAndCanonicalizeLanguageTag
+intl_ValidateAndCanonicalizeLanguageTag
 (
 locales
+false
 )
 ;
 }
