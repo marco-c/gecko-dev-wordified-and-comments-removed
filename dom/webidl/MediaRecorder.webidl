@@ -253,10 +253,6 @@ attribute
 EventHandler
 onerror
 ;
-attribute
-EventHandler
-onwarning
-;
 [
 Throws
 ]
