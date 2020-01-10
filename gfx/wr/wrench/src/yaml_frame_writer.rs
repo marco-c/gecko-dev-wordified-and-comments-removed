@@ -1720,15 +1720,7 @@ visible
 "
 info
 .
-flags
-.
-contains
-(
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
-)
+is_backface_visible
 )
 ;
 clip_and_scroll_node
