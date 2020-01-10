@@ -2713,7 +2713,11 @@ if
 (
 browser
 .
-ownerDocument
+ownerGlobal
+.
+top
+.
+document
 .
 documentURI
 =
