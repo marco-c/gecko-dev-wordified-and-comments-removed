@@ -100,7 +100,7 @@ linux64
 -
 clang
 -
-4
+5
 .
 0
 :
@@ -108,7 +108,7 @@ description
 :
 "
 Clang
-4
+5
 .
 0
 toolchain
@@ -154,7 +154,7 @@ clang
 /
 clang
 -
-4
+5
 .
 0
 -
@@ -174,7 +174,7 @@ clang
 /
 clang
 -
-4
+5
 .
 0
 -
@@ -202,7 +202,7 @@ fetch
 -
 clang
 -
-4
+5
 .
 0
 toolchain
