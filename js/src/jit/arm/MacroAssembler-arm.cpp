@@ -33007,6 +33007,17 @@ tmp
 ptr
 )
 ;
+MOZ_ASSERT
+(
+!
+Assembler
+:
+:
+SupportsFastUnalignedAccesses
+(
+)
+)
+;
 uint32_t
 offset
 =
