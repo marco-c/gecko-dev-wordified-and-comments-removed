@@ -93,10 +93,6 @@ records
 ;
 }
 ;
-typedef
-any
-NDEFRecordData
-;
 [
 Exposed
 =
@@ -171,7 +167,7 @@ mediaType
 USVString
 id
 ;
-NDEFRecordData
+any
 data
 ;
 }
