@@ -85,17 +85,6 @@ MPL
 0
 /
 .
-SPHINX_TREES
-[
-'
-/
-uriloader
-'
-]
-=
-'
-docs
-'
 with
 Files
 (

@@ -85,16 +85,6 @@ MPL
 0
 /
 .
-SPHINX_TREES
-[
-'
-docs
-'
-]
-=
-'
-docs
-'
 TEST_DIRS
 +
 =
