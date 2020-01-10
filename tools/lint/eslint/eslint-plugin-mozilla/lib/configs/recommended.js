@@ -223,7 +223,7 @@ parserOptions
 {
 ecmaVersion
 :
-9
+11
 }
 plugins
 :
