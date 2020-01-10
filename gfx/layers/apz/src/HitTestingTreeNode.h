@@ -238,6 +238,10 @@ LayerIntRegion
 &
 aVisibleRegion
 const
+LayerIntRect
+&
+aRemoteDocumentRect
+const
 CSSTransformMatrix
 &
 aTransform
@@ -519,6 +523,9 @@ mEventRegions
 ;
 LayerIntRegion
 mVisibleRegion
+;
+LayerIntRect
+mRemoteDocumentRect
 ;
 CSSTransformMatrix
 mTransform

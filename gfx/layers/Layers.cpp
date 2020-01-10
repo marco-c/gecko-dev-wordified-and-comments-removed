@@ -7050,6 +7050,7 @@ GetReferentId
 (
 )
 mEventRegionsOverride
+mRemoteDocumentRect
 )
 ;
 }
