@@ -105,6 +105,12 @@ result
 =
 ResultSummary
 (
+lintargs
+[
+'
+root
+'
+]
 )
     
 if
@@ -561,6 +567,7 @@ result
 =
 ResultSummary
 (
+root
 )
         
 self
