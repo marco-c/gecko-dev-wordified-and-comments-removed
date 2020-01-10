@@ -530,6 +530,7 @@ from
 the
 TestExampleInterface
 TestExampleProxyInterface
+TestExampleThrowingConstructorInterface
 and
 TestExampleWorkerInterface
 interfaces

@@ -223,6 +223,9 @@ TestExampleInterface
 TestExampleProxyInterface
 '
 '
+TestExampleThrowingConstructorInterface
+'
+'
 TestExampleWorkerInterface
 '
 ]
