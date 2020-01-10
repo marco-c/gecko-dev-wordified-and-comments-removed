@@ -25,6 +25,17 @@ name
 )
 ;
 }
+connectedCallback
+(
+)
+{
+this
+.
+reflectFluentStrings
+(
+)
+;
+}
 reflectFluentStrings
 (
 )
