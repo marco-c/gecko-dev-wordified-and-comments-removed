@@ -124,11 +124,6 @@ AboutLoginsParent
 .
 jsm
 '
-'
-LoginBreaches
-.
-jsm
-'
 ]
 FINAL_TARGET_FILES
 .
