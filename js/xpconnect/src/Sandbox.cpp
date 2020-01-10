@@ -6091,13 +6091,7 @@ xpc
 CreateGlobalObject
 (
 cx
-js
-:
-:
-Jsvalify
-(
 clasp
-)
 principal
 realmOptions
 )
@@ -6462,10 +6456,7 @@ dom
 :
 IsDOMClass
 (
-Jsvalify
-(
 unwrappedClass
-)
 )
 ;
 }

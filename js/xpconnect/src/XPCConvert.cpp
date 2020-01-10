@@ -332,7 +332,7 @@ jsclass
 js
 :
 :
-GetObjectJSClass
+GetObjectClass
 (
 obj
 )

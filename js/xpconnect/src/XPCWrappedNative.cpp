@@ -2691,11 +2691,8 @@ GetJSClass
 (
 )
 :
-Jsvalify
-(
 &
 XPC_WN_NoHelper_JSClass
-)
 ;
 MOZ_ASSERT_IF
 (
@@ -4096,11 +4093,8 @@ obj
 JS_NewObject
 (
 cx
-Jsvalify
-(
 &
 XPC_WN_Tearoff_JSClass
-)
 )
 ;
 if

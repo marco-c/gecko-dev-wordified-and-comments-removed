@@ -1039,10 +1039,7 @@ return
 JS_NewObjectWithGivenProto
 (
 aCx
-Jsvalify
-(
 aClass
-)
 proto
 )
 ;

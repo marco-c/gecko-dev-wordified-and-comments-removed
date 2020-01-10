@@ -4900,7 +4900,7 @@ return
 js
 :
 :
-GetObjectJSClass
+GetObjectClass
 (
 obj
 )

@@ -4230,10 +4230,7 @@ constructor
 JS_NewObjectWithGivenProto
 (
 cx
-Jsvalify
-(
 constructorClass
-)
 constructorProto
 )
 ;
@@ -4850,10 +4847,7 @@ cx
 JS_NewObjectWithUniqueType
 (
 cx
-Jsvalify
-(
 protoClass
-)
 parentProto
 )
 )
@@ -6102,13 +6096,7 @@ getAddProperty
 MOZ_RELEASE_ASSERT
 (
 !
-js
-:
-:
-Valueify
-(
 clasp
-)
 -
 >
 isProxy
