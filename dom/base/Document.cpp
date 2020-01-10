@@ -52171,9 +52171,10 @@ mCharacterSetSource
 clone
 -
 >
+SetCompatibilityMode
+(
 mCompatMode
-=
-mCompatMode
+)
 ;
 clone
 -
