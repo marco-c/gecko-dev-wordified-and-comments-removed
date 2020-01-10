@@ -1441,6 +1441,9 @@ if
 og
 )
 {
+#
+ifndef
+FUZZING
 ogg_uint32_t
 crc_reg
 =
@@ -1449,6 +1452,8 @@ crc_reg
 int
 i
 ;
+#
+endif
 og
 -
 >
@@ -1489,6 +1494,9 @@ header
 =
 0
 ;
+#
+ifndef
+FUZZING
 for
 (
 i
@@ -1672,6 +1680,8 @@ crc_reg
 0xff
 )
 ;
+#
+endif
 }
 }
 int
