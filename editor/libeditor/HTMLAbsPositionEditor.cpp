@@ -2567,7 +2567,7 @@ Element
 >
 newBrElement
 =
-InsertBrElementWithTransaction
+InsertBRElementWithTransaction
 (
 EditorDOMPoint
 (

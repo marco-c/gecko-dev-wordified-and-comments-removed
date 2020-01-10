@@ -558,16 +558,6 @@ bool
 aTruncated
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-CreateElementResult
-CreatePaddingBRElementForEmptyLastLine
-(
-const
-EditorDOMPoint
-&
-aPointToInsert
-)
-;
 void
 UndefineCaretBidiLevel
 (
