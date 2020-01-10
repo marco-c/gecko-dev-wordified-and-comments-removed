@@ -161,7 +161,9 @@ HasExpired
 (
 aBuffer
 .
-mRangeStart
+BufferRangeStart
+(
+)
 )
 )
 {
@@ -1385,7 +1387,9 @@ HasExpired
 (
 aBuffer
 .
-mRangeStart
+BufferRangeStart
+(
+)
 )
 )
 {
