@@ -890,6 +890,7 @@ const
 copyStackTrace
 toggleFrameworkGrouping
 toggleBlackBox
+cx
 }
 =
 props
@@ -930,6 +931,7 @@ toggleFrameworkGrouping
 toggleBlackBox
 }
 mockEvent
+cx
 )
 ;
 }

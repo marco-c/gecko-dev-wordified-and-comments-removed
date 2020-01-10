@@ -34,6 +34,7 @@ type
 {
 ContextMenuItem
 Frame
+ThreadContext
 }
 from
 "
@@ -228,6 +229,7 @@ toggleFrameworkGrouping
 function
 blackBoxSource
 (
+cx
 source
 toggleBlackBox
 )
@@ -253,6 +255,7 @@ toggleBlackBoxString
 >
 toggleBlackBox
 (
+cx
 source
 )
 )
@@ -278,6 +281,9 @@ SyntheticMouseEvent
 <
 HTMLElement
 >
+cx
+:
+ThreadContext
 )
 {
 event
@@ -351,6 +357,7 @@ push
 (
 blackBoxSource
 (
+cx
 source
 callbacks
 .
