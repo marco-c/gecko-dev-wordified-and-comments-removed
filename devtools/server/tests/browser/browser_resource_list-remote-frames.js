@@ -356,7 +356,7 @@ result
 await
 consoleFront
 .
-evaluateJS
+evaluateJSAsync
 (
 "
 var
