@@ -442,6 +442,13 @@ node
 test_path
 url_base
 run_info_properties
+                 
+update_intermittent
+=
+False
+remove_intermittent
+=
+False
 )
 :
         
@@ -612,6 +619,69 @@ on
 foo
 .
         
+:
+param
+update_intermittent
+:
+When
+True
+intermittent
+statuses
+will
+be
+recorded
+                                    
+as
+expected
+in
+the
+test
+metadata
+.
+        
+:
+param
+:
+remove_intermittent
+:
+When
+True
+old
+intermittent
+statuses
+will
+be
+removed
+                                    
+if
+no
+longer
+intermittent
+.
+This
+is
+only
+relevant
+if
+                                    
+update_intermittent
+is
+also
+True
+because
+if
+False
+                                    
+the
+metadata
+will
+simply
+update
+one
+expected
+status
+.
+        
 "
 "
 "
@@ -675,6 +745,18 @@ self
 run_info_properties
 =
 run_info_properties
+        
+self
+.
+update_intermittent
+=
+update_intermittent
+        
+self
+.
+remove_intermittent
+=
+remove_intermittent
         
 self
 .
@@ -1163,8 +1245,6 @@ update
 self
 full_update
 disable_intermittent
-update_intermittent
-remove_intermittent
 )
 :
         
@@ -1183,10 +1263,6 @@ update
 full_update
                                
 disable_intermittent
-                               
-update_intermittent
-                               
-remove_intermittent
 )
 class
 TestNode
@@ -1794,8 +1870,6 @@ update
 self
 full_update
 disable_intermittent
-update_intermittent
-remove_intermittent
 )
 :
         
@@ -1814,10 +1888,6 @@ update
 full_update
                                
 disable_intermittent
-                               
-update_intermittent
-                               
-remove_intermittent
 )
 class
 SubtestNode
@@ -2050,13 +2120,25 @@ self
 .
 update_intermittent
 =
-False
+self
+.
+node
+.
+root
+.
+update_intermittent
         
 self
 .
 remove_intermittent
 =
-False
+self
+.
+node
+.
+root
+.
+remove_intermittent
     
 def
 run_info_by_condition
@@ -2376,14 +2458,6 @@ False
 disable_intermittent
 =
 None
-               
-update_intermittent
-=
-False
-               
-remove_intermittent
-=
-False
 )
 :
         
@@ -2494,64 +2568,6 @@ of
 parameters
 .
         
-When
-update_intermittent
-is
-True
-intermittent
-statuses
-will
-be
-recorded
-        
-as
-expected
-in
-the
-test
-metadata
-.
-        
-When
-remove_intermittent
-is
-True
-old
-intermittent
-statuses
-will
-be
-removed
-        
-if
-no
-longer
-intermittent
-.
-This
-is
-only
-relevant
-if
-update_intermittent
-is
-        
-also
-True
-because
-if
-False
-the
-metadata
-will
-simply
-update
-one
-expected
-        
-status
-.
-        
 "
 "
 "
@@ -2594,10 +2610,6 @@ update_conditions
 property_tree
                                                     
 full_update
-                                                    
-update_intermittent
-                                                    
-remove_intermittent
 )
         
 for
@@ -2883,28 +2895,12 @@ self
 property_tree
                           
 full_update
-                          
-update_intermittent
-                          
-remove_intermittent
 )
 :
         
 prev_default
 =
 None
-        
-self
-.
-update_intermittent
-=
-update_intermittent
-        
-self
-.
-remove_intermittent
-=
-remove_intermittent
         
 current_conditions
 =
@@ -2971,10 +2967,6 @@ self
 _update_conditions_full
 (
 property_tree
-                                                
-update_intermittent
-                                                
-remove_intermittent
                                                 
 prev_default
 =
@@ -3101,6 +3093,7 @@ current_conditions
                 
 if
 (
+(
 not
 condition
 .
@@ -3118,8 +3111,9 @@ run_info_by_condition
 condition
 ]
 )
+)
 :
-                    
+                        
 conditions
 .
 append
@@ -3128,7 +3122,7 @@ append
 condition
 .
 condition_node
-                                       
+                                            
 self
 .
 from_ini_value
@@ -3148,10 +3142,6 @@ self
 _update_conditions_full
 (
 property_tree
-                                                                  
-update_intermittent
-                                                                  
-remove_intermittent
                                                                   
 prev_default
 =
@@ -3382,10 +3372,6 @@ property_tree
                                                                 
 run_info_with_condition
                                                                 
-update_intermittent
-                                                                
-remove_intermittent
-                                                                
 prev_default
 )
         
@@ -3426,10 +3412,6 @@ self
                                 
 property_tree
                                 
-update_intermittent
-                                
-remove_intermittent
-                                
 prev_default
 =
 None
@@ -3457,10 +3439,6 @@ set
 (
 )
                                                         
-update_intermittent
-                                                        
-remove_intermittent
-                                                        
 prev_default
 )
         
@@ -3477,10 +3455,6 @@ property_tree
                               
 run_info_with_condition
                               
-update_intermittent
-                              
-remove_intermittent
-                              
 prev_default
 =
 None
@@ -3496,18 +3470,6 @@ errors
 =
 [
 ]
-        
-self
-.
-update_intermittent
-=
-update_intermittent
-        
-self
-.
-remove_intermittent
-=
-remove_intermittent
         
 value_count
 =
@@ -4002,10 +3964,38 @@ result
 )
 :
         
+if
+(
+not
+self
+.
+update_intermittent
+or
+self
+.
+remove_intermittent
+            
+or
+not
+result
+.
+known_intermittent
+)
+:
+            
 return
 result
 .
 status
+        
+return
+result
+.
+status
++
+result
+.
+known_intermittent
     
 def
 to_ini_value
@@ -4019,7 +4009,10 @@ if
 isinstance
 (
 value
+(
 list
+tuple
+)
 )
 :
             
@@ -4074,6 +4067,74 @@ list
 raise
 ConditionError
         
+counts
+=
+{
+}
+        
+for
+status
+count
+in
+new
+.
+iteritems
+(
+)
+:
+            
+if
+isinstance
+(
+status
+tuple
+)
+:
+                
+counts
+[
+status
+[
+0
+]
+]
+=
+count
+                
+counts
+.
+update
+(
+{
+intermittent
+:
+0
+for
+intermittent
+in
+status
+[
+1
+:
+]
+if
+intermittent
+not
+in
+counts
+}
+)
+            
+else
+:
+                
+counts
+[
+status
+]
+=
+count
+        
 if
 not
 (
@@ -4092,7 +4153,7 @@ list
 return
 list
 (
-new
+counts
 )
 [
 0
@@ -4141,7 +4202,7 @@ sorted_new
 =
 sorted
 (
-new
+counts
 .
 iteritems
 (
@@ -4180,52 +4241,38 @@ status_priority
 expected
 =
 [
-status
-for
-status
-_
-in
-sorted_new
 ]
         
-if
-self
-.
-update_intermittent
+for
+status
+count
+in
+sorted_new
 :
             
 if
+count
+>
+0
+or
 not
 self
 .
 remove_intermittent
 :
                 
-if
-isinstance
-(
-current
-list
-)
-:
-                    
 expected
 .
-extend
+append
 (
-[
 status
-for
-status
-in
-current
-if
-status
-not
-in
-expected
-]
 )
+        
+if
+self
+.
+update_intermittent
+:
             
 if
 len
@@ -5273,6 +5320,32 @@ item
 )
 )
     
+else
+:
+        
+raise
+ValueError
+(
+"
+Don
+'
+t
+know
+how
+to
+convert
+%
+s
+into
+node
+"
+%
+type
+(
+value
+)
+)
+    
 return
 node
 def
@@ -5282,6 +5355,8 @@ metadata_root
 test_path
 url_base
 run_info_properties
+update_intermittent
+remove_intermittent
 )
 :
     
@@ -5390,6 +5465,8 @@ test_path
 url_base
                          
 run_info_properties
+update_intermittent
+remove_intermittent
 )
     
 except
@@ -5408,6 +5485,8 @@ manifest_file
 test_path
 url_base
 run_info_properties
+update_intermittent
+remove_intermittent
 )
 :
     
@@ -5433,4 +5512,12 @@ url_base
 run_info_properties
 =
 run_info_properties
+                               
+update_intermittent
+=
+update_intermittent
+                               
+remove_intermittent
+=
+remove_intermittent
 )
