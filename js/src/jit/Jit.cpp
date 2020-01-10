@@ -122,7 +122,7 @@ value
 ;
 MOZ_ASSERT
 (
-IsBaselineInterpreterOrJitEnabled
+IsBaselineInterpreterEnabled
 (
 )
 )

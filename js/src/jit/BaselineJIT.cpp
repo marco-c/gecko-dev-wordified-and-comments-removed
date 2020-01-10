@@ -475,7 +475,7 @@ cx
 endif
 MOZ_ASSERT
 (
-IsBaselineInterpreterOrJitEnabled
+IsBaselineInterpreterEnabled
 (
 )
 )
