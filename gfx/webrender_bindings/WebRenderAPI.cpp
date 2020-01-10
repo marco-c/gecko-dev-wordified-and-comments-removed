@@ -519,6 +519,12 @@ mDocHandle
 &
 wrRenderer
 mMaxTextureSize
+StaticPrefs
+:
+:
+gfx_webrender_enable_gpu_markers_AtStartup
+(
+)
 )
 )
 {
