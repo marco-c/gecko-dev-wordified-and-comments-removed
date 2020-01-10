@@ -598,6 +598,7 @@ resumePCinCurrentFrame
 (
 )
 ;
+const
 RetAddrEntry
 &
 retAddrEntry
@@ -1410,6 +1411,7 @@ Kind
 StackCheck
 :
 {
+const
 RetAddrEntry
 *
 retAddrEntry

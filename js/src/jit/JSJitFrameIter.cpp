@@ -757,6 +757,7 @@ resumePCinCurrentFrame
 (
 )
 ;
+const
 RetAddrEntry
 &
 entry
