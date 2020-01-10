@@ -238,7 +238,12 @@ MaxDiskEntrySize
 )
 {
 return
-sMaxDiskEntrySize
+StaticPrefs
+:
+:
+browser_cache_disk_max_entry_size
+(
+)
 ;
 }
 static
@@ -467,10 +472,6 @@ sDiskCacheCapacity
 static
 int32_t
 sMaxMemoryEntrySize
-;
-static
-int32_t
-sMaxDiskEntrySize
 ;
 static
 uint32_t
