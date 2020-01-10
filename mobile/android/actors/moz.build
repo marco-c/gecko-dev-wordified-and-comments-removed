@@ -83,4 +83,9 @@ LoadURIDelegateChild
 .
 jsm
 '
+'
+WebBrowserChromeChild
+.
+jsm
+'
 ]

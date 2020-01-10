@@ -3660,6 +3660,14 @@ RequestData
 aRequestData
 )
 ;
+already_AddRefed
+<
+nsIWebBrowserChrome3
+>
+GetWebBrowserChromeActor
+(
+)
+;
 class
 DelayedDeleteRunnable
 ;

@@ -1539,6 +1539,15 @@ LoadURIDelegate
 "
 )
 ;
+ChromeUtils
+.
+unregisterWindowActor
+(
+"
+WebBrowserChrome
+"
+)
+;
 }
 else
 {
