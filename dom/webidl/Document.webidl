@@ -2087,12 +2087,6 @@ releaseEvents
 (
 )
 ;
-/
-/
-(
-HTML
-only
-)
 [
 SameObject
 ]
