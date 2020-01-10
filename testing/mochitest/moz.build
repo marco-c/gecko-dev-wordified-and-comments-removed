@@ -289,15 +289,6 @@ tests
 /
 SimpleTest
 /
-ChromePowers
-.
-js
-'
-'
-tests
-/
-SimpleTest
-/
 EventUtils
 .
 js
