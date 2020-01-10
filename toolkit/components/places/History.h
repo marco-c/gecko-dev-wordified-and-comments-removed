@@ -70,9 +70,9 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
-URIParams
+PContentChild
 .
 h
 "
@@ -419,10 +419,10 @@ nsTArray
 mozilla
 :
 :
-ipc
+dom
 :
 :
-URIParams
+VisitedQueryResult
 >
 &
 aURIs

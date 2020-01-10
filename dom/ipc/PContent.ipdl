@@ -1518,6 +1518,17 @@ dynamicScalarDefs
 }
 ;
 struct
+VisitedQueryResult
+{
+URIParams
+uri
+;
+bool
+visited
+;
+}
+;
+struct
 StringBundleDescriptor
 {
 nsCString
@@ -2588,7 +2599,7 @@ aState
 async
 NotifyVisited
 (
-URIParams
+VisitedQueryResult
 [
 ]
 uri

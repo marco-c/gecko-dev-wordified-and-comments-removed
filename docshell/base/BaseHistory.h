@@ -62,7 +62,7 @@ NotifyVisited
 (
 nsIURI
 *
-aURI
+VisitedStatus
 )
 final
 ;
@@ -128,10 +128,13 @@ ObservingLinks
 ObserverArray
 mLinks
 ;
-bool
-mKnownVisited
+VisitedStatus
+mStatus
 =
-false
+VisitedStatus
+:
+:
+Unknown
 ;
 size_t
 SizeOfExcludingThis
@@ -164,6 +167,7 @@ dom
 :
 Document
 *
+VisitedStatus
 )
 ;
 void
@@ -176,6 +180,7 @@ dom
 :
 Document
 *
+VisitedStatus
 )
 ;
 protected
