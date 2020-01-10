@@ -275,11 +275,9 @@ test
 -
 case
 .
-js
-?
-pipe
-=
 sub
+.
+js
 '
     
 self

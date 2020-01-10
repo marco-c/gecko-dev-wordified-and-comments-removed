@@ -775,6 +775,8 @@ test
 -
 case
 .
+sub
+.
 js
 with
 helper
@@ -890,6 +892,8 @@ policy
 test
 -
 case
+.
+sub
 .
 js
 .
