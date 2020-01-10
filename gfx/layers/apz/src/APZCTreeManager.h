@@ -524,15 +524,6 @@ ClearTree
 (
 )
 ;
-bool
-HitTestAPZC
-(
-const
-ScreenIntPoint
-&
-aPoint
-)
-;
 void
 SetDPI
 (
