@@ -141,11 +141,8 @@ cx
 JS_NewObject
 (
 cx
-Jsvalify
-(
 &
 windowProxy_class
-)
 )
 )
 ;

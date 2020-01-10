@@ -17345,11 +17345,8 @@ cx
 JS_NewObject
 (
 cx
-Jsvalify
-(
 &
 class_
-)
 )
 )
 ;
