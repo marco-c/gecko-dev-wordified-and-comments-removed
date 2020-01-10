@@ -123,9 +123,12 @@ aNewURI
 nsILoadInfo
 *
 aLoadInfo
-int16_t
-*
-aDecision
+Maybe
+<
+nsresult
+>
+&
+aCancelCode
 )
 ;
 protected

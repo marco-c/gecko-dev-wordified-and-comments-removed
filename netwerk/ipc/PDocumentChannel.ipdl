@@ -421,6 +421,9 @@ returns
 (
 nsresult
 rv
+nsresult
+?
+cancelCode
 )
 ;
 /
