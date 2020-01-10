@@ -3106,6 +3106,17 @@ public
 GeckoRuntimeSettings
 .
 Builder
+debugLogging
+(
+boolean
+)
+;
+method
+NonNull
+public
+GeckoRuntimeSettings
+.
+Builder
 displayDensityOverride
 (
 float
