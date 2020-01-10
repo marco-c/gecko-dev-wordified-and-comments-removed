@@ -512,6 +512,10 @@ mWaitingOnPipeOut
 (
 false
 )
+mDoNotRemoveAltSvc
+(
+false
+)
 mReportedStart
 (
 false
@@ -5710,6 +5714,10 @@ false
 if
 (
 !
+mDoNotRemoveAltSvc
+&
+&
+!
 mConnInfo
 -
 >
@@ -5793,6 +5801,10 @@ rv
 ;
 }
 }
+mDoNotRemoveAltSvc
+=
+false
+;
 return
 gHttpHandler
 -
