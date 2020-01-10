@@ -8251,6 +8251,16 @@ document
 IsHTMLOrXHTML
 (
 )
+&
+&
+!
+nsContentUtils
+:
+:
+IsChromeDoc
+(
+document
+)
 )
 {
 return
