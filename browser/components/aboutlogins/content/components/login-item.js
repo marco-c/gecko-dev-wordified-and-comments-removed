@@ -1191,6 +1191,15 @@ id
 "
 )
 ;
+this
+.
+_usernameInput
+.
+placeholder
+=
+"
+"
+;
 }
 else
 {
