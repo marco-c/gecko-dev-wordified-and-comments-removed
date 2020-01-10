@@ -107,7 +107,8 @@ aHasAllocStack
 aInfo
 .
 mAllocStack
-.
+-
+>
 mLength
 >
 2
@@ -118,10 +119,9 @@ aInfo
 .
 mAllocStack
 .
-mLength
-=
-=
-0
+isNothing
+(
+)
 )
 )
 &
@@ -133,7 +133,8 @@ aHasFreeStack
 aInfo
 .
 mFreeStack
-.
+-
+>
 mLength
 >
 2
@@ -144,10 +145,9 @@ aInfo
 .
 mFreeStack
 .
-mLength
-=
-=
-0
+isNothing
+(
+)
 )
 )
 ;
@@ -446,7 +446,7 @@ false
 ;
 ASSERT_EQ
 (
-malloc_usable_size
+moz_malloc_usable_size
 (
 p
 )
@@ -511,7 +511,7 @@ false
 ;
 ASSERT_EQ
 (
-malloc_usable_size
+moz_malloc_usable_size
 (
 p
 )
