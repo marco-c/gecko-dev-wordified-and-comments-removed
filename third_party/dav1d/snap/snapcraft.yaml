@@ -100,11 +100,6 @@ meson
 source
 :
 .
-.
-/
-.
-.
-/
 build
 -
 packages

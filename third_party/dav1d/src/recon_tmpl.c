@@ -20306,9 +20306,10 @@ if
 f
 -
 >
-lf
-.
-restore_planes
+seq_hdr
+-
+>
+restoration
 )
 {
 bytefn
@@ -20844,9 +20845,10 @@ if
 f
 -
 >
-lf
-.
-restore_planes
+seq_hdr
+-
+>
+restoration
 )
 {
 bytefn

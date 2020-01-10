@@ -231,15 +231,6 @@ c
 bitfn_decls
 (
 void
-dav1d_intra_pred_dsp_init_arm
-Dav1dIntraPredDSPContext
-*
-c
-)
-;
-bitfn_decls
-(
-void
 dav1d_intra_pred_dsp_init_x86
 Dav1dIntraPredDSPContext
 *
