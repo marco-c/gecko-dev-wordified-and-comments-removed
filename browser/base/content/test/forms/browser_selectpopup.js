@@ -4938,9 +4938,12 @@ contentPainted
 =
 BrowserTestUtils
 .
-contentPainted
+waitForContentEvent
 (
 browser
+"
+MozAfterPaint
+"
 )
 ;
 await
