@@ -1813,6 +1813,15 @@ builtin
 /
 streams
 /
+ReadableStreamDefaultControllerOperations
+.
+cpp
+'
+'
+builtin
+/
+streams
+/
 ReadableStreamDefaultReader
 .
 cpp

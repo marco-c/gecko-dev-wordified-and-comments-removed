@@ -82,6 +82,17 @@ builtin
 /
 streams
 /
+ReadableStreamDefaultControllerOperations
+.
+h
+"
+#
+include
+"
+builtin
+/
+streams
+/
 ReadableStreamInternals
 .
 h
