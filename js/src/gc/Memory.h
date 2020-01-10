@@ -41,6 +41,11 @@ SystemAddressBits
 (
 )
 ;
+size_t
+VirtualMemoryLimit
+(
+)
+;
 bool
 UsingScattershotAllocator
 (
