@@ -3230,6 +3230,11 @@ Element
 webidl
 '
 '
+ElementInternals
+.
+webidl
+'
+'
 Event
 .
 webidl
