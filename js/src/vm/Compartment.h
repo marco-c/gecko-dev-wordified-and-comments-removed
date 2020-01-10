@@ -2188,7 +2188,7 @@ crossCompartmentObjectWrappers
 }
 ;
 void
-traceOutgoingCrossCompartmentWrappers
+traceWrapperTargetsInCollectedZones
 (
 JSTracer
 *
