@@ -262,7 +262,7 @@ IsContextLost
 override
 ;
 bool
-SurfaceIsYFlipped
+SurfaceOriginIsTopLeft
 (
 )
 override

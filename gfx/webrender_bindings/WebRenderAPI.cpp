@@ -427,7 +427,7 @@ gl
 compositor
 -
 >
-SurfaceIsYFlipped
+SurfaceOriginIsTopLeft
 (
 )
 aRenderThread

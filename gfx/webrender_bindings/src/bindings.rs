@@ -6251,7 +6251,7 @@ gl_context
 *
 mut
 c_void
-surface_is_y_flipped
+surface_origin_is_top_left
 :
 bool
 program_cache
@@ -6912,7 +6912,7 @@ allow_pixel_local_storage_support
 :
 false
 start_debug_server
-surface_is_y_flipped
+surface_origin_is_top_left
 compositor_config
 .
 .

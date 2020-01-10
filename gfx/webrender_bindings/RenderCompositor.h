@@ -420,7 +420,7 @@ return
 }
 virtual
 bool
-SurfaceIsYFlipped
+SurfaceOriginIsTopLeft
 (
 )
 {
