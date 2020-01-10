@@ -36667,7 +36667,7 @@ nsReflowStatus
 &
 aStatus
 nscoord
-aContentBSize
+aBEndEdgeOfChildren
 const
 LogicalMargin
 &
@@ -36894,7 +36894,7 @@ std
 max
 (
 availBSize
-aContentBSize
+aBEndEdgeOfChildren
 )
 ;
 finalBSize

@@ -954,7 +954,7 @@ nsReflowStatus
 &
 aStatus
 nscoord
-aContentBSize
+aBEndEdgeOfChildren
 const
 mozilla
 :
