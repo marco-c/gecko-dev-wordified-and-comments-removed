@@ -331,19 +331,6 @@ ptem
 )
 const
 {
-float
-csspx
-=
-ptem
-*
-96
-.
-f
-/
-72
-.
-f
-;
 const
 TrackTableEntry
 *
@@ -494,7 +481,7 @@ to_float
 )
 >
 =
-csspx
+ptem
 )
 break
 ;
@@ -510,7 +497,7 @@ size_index
 1
 :
 0
-csspx
+ptem
 *
 trackTableEntry
 base

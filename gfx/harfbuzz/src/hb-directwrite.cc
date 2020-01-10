@@ -3734,8 +3734,10 @@ num_features
 )
 ;
 }
-hb_bool_t
-hb_directwrite_shape_experimental_width
+HB_UNUSED
+static
+bool
+_hb_directwrite_shape_experimental_width
 (
 hb_font_t
 *
