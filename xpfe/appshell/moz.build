@@ -197,11 +197,6 @@ nsContentTreeOwner
 cpp
 '
 '
-nsWebShellWindow
-.
-cpp
-'
-'
 nsWindowMediator
 .
 cpp
