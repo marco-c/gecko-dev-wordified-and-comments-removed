@@ -19560,6 +19560,17 @@ NSArray
 )
 titlebarControls
 {
+MOZ_RELEASE_ASSERT
+(
+!
+StaticPrefs
+:
+:
+gfx_core_animation_enabled_AtStartup
+(
+)
+)
+;
 /
 /
 Return
