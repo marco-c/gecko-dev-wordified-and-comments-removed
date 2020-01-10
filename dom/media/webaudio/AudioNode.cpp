@@ -1249,11 +1249,6 @@ destinationStream
 AllocateInputPort
 (
 mStream
-AudioNodeStream
-:
-:
-AUDIO_TRACK
-TRACK_ANY
 static_cast
 <
 uint16_t
@@ -1475,11 +1470,6 @@ ps
 AllocateInputPort
 (
 mStream
-AudioNodeStream
-:
-:
-AUDIO_TRACK
-TRACK_ANY
 0
 static_cast
 <
