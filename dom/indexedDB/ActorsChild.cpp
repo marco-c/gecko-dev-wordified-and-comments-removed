@@ -2517,6 +2517,11 @@ GetOwnerGlobal
 blobImpl
 )
 ;
+MOZ_ASSERT
+(
+blob
+)
+;
 StructuredCloneFile
 *
 const
@@ -2833,6 +2838,11 @@ GetOwnerGlobal
 (
 )
 blobImpl
+)
+;
+MOZ_ASSERT
+(
+blob
 )
 ;
 StructuredCloneFile

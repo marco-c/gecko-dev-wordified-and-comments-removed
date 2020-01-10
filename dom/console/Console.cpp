@@ -1079,6 +1079,16 @@ aCx
 )
 ;
 {
+nsCOMPtr
+<
+nsIGlobalObject
+>
+global
+=
+mClonedData
+.
+mGlobal
+;
 RefPtr
 <
 Blob
@@ -1090,9 +1100,7 @@ Blob
 :
 Create
 (
-mClonedData
-.
-mGlobal
+global
 mClonedData
 .
 mBlobs
