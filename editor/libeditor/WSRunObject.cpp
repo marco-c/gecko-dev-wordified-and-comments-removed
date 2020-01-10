@@ -1439,10 +1439,19 @@ mScanStartPoint
 false
 )
 ;
+WSRunObject
+afterRunObject
+(
+mHTMLEditor
+mScanEndPoint
+)
+;
 WSFragment
 *
 afterRun
 =
+afterRunObject
+.
 FindNearestRun
 (
 mScanEndPoint
@@ -3330,7 +3339,7 @@ mScanStartPoint
 )
 end
 (
-mScanEndPoint
+mScanStartPoint
 )
 ;
 nsCOMPtr
@@ -3908,7 +3917,7 @@ Text
 *
 textNode
 =
-mScanEndPoint
+end
 .
 GetContainerAsText
 (
@@ -3931,7 +3940,7 @@ TextFragment
 if
 (
 !
-mScanEndPoint
+end
 .
 IsEndOfContainer
 (
@@ -3943,7 +3952,7 @@ for
 uint32_t
 i
 =
-mScanEndPoint
+end
 .
 Offset
 (
