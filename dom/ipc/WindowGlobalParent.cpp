@@ -330,6 +330,10 @@ mIPCClosed
 (
 true
 )
+mIsInitialDocument
+(
+false
+)
 {
 MOZ_DIAGNOSTIC_ASSERT
 (
