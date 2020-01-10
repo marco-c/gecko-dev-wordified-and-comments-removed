@@ -831,6 +831,11 @@ Release
 (
 )
 {
+if
+(
+mDecoder
+)
+{
 RefPtr
 <
 MediaDataDecoder
@@ -871,6 +876,7 @@ Shutdown
 }
 )
 ;
+}
 mNeedKeyframe
 =
 true
