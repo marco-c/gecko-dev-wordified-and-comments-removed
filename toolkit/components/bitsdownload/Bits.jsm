@@ -55,12 +55,7 @@ if
 (
 AppConstants
 .
-platform
-=
-=
-"
-win
-"
+MOZ_BITS_DOWNLOAD
 )
 {
 XPCOMUtils

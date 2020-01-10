@@ -114,14 +114,9 @@ if
 CONFIG
 [
 '
-OS_ARCH
+MOZ_BITS_DOWNLOAD
 '
 ]
-=
-=
-'
-WINNT
-'
 :
 EXPORTS
 +
