@@ -136,14 +136,10 @@ forward
 .
 For
 other
-tests
+submissions
 we
-strongly
 recommend
 using
-either
-Reviewable
-or
 GitHub
 '
 s
