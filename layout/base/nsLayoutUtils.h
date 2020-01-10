@@ -5253,6 +5253,16 @@ aEffectSet
 ;
 static
 bool
+HasAnimationOfTransformAndMotionPath
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
+bool
 HasEffectiveAnimation
 (
 const
