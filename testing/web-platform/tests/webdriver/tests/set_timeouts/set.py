@@ -672,6 +672,5 @@ session
 timeouts
 .
 script
-=
-=
+is
 None
