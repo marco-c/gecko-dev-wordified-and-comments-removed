@@ -310,15 +310,6 @@ wantUntrusted
 true
 }
 "
-AboutLoginsInit
-"
-:
-{
-wantUntrusted
-:
-true
-}
-"
 AboutLoginsOpenPreferences
 "
 :
@@ -337,7 +328,7 @@ wantUntrusted
 true
 }
 "
-AboutLoginsRecordTelemetryEvent
+AboutLoginsUpdateLogin
 "
 :
 {
@@ -346,7 +337,7 @@ wantUntrusted
 true
 }
 "
-AboutLoginsUpdateLogin
+AboutLoginsInit
 "
 :
 {
