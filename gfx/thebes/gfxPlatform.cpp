@@ -4266,7 +4266,7 @@ const
 bool
 WR_ROLLOUT_PREF_DEFAULTVALUE
 =
-true
+false
 ;
 static
 const
