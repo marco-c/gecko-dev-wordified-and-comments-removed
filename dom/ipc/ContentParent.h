@@ -1991,14 +1991,6 @@ ContentParentId
 aCpId
 )
 ;
-nsTArray
-<
-TabContext
->
-GetManagedTabContext
-(
-)
-;
 POfflineCacheUpdateParent
 *
 AllocPOfflineCacheUpdateParent
