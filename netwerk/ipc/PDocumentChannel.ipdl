@@ -337,6 +337,16 @@ nsCString
 fullHash
 )
 ;
+async
+AttachStreamFilter
+(
+Endpoint
+<
+PStreamFilterParent
+>
+aEndpoint
+)
+;
 /
 /
 This
