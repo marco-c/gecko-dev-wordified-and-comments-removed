@@ -339,7 +339,7 @@ defaults
 ;
 /
 /
-SendToDeviceSnippet
+FXASignupSnippet
 is
 a
 wrapper
@@ -393,7 +393,7 @@ assert
 lengthOf
 (
 defaultProperties
-4
+5
 )
 ;
 defaultProperties

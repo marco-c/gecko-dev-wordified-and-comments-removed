@@ -113,6 +113,15 @@ properties
 scene1_button_label
 .
 default
+retry_button_label
+:
+schema
+.
+properties
+.
+retry_button_label
+.
+default
 scene2_email_placeholder_text
 :
 schema

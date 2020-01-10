@@ -634,7 +634,7 @@ assert
 lengthOf
 (
 defaultProperties
-6
+7
 )
 ;
 defaultProperties

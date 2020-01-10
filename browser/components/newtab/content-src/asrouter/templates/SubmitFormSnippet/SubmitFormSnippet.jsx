@@ -1107,7 +1107,7 @@ retryButtonText
 =
 content
 .
-scene1_button_label
+retry_button_label
 ;
 return
 (

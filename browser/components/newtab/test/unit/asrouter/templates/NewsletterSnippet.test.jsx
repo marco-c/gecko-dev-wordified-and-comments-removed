@@ -408,7 +408,7 @@ defaults
 ;
 /
 /
-SendToDeviceSnippet
+NewsletterSnippet
 is
 a
 wrapper
@@ -501,7 +501,7 @@ assert
 lengthOf
 (
 defaultProperties
-5
+6
 )
 ;
 defaultProperties

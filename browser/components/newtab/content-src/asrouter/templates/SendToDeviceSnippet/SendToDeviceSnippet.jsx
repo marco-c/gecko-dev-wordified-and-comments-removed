@@ -377,6 +377,15 @@ properties
 scene1_button_label
 .
 default
+retry_button_label
+:
+schema
+.
+properties
+.
+retry_button_label
+.
+default
 scene2_dismiss_button_text
 :
 schema
