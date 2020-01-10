@@ -22,8 +22,4 @@ windows
 helper64
 .
 sh
-clang
--
-win64
-.
-json
+1
