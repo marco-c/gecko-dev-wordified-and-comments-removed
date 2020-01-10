@@ -3290,16 +3290,6 @@ endif
 }
 #
 endif
-void
-FlushICache
-(
-void
-*
-code
-size_t
-size
-)
-;
 #
 define
 JS_CODEGEN_REGISTER_PAIR

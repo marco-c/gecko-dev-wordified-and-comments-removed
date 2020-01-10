@@ -34,6 +34,15 @@ include
 "
 jit
 /
+FlushICache
+.
+h
+"
+#
+include
+"
+jit
+/
 mips32
 /
 Simulator
