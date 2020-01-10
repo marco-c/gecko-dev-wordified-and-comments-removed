@@ -1543,7 +1543,7 @@ hasName
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 |

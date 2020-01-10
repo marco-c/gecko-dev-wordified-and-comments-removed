@@ -1039,7 +1039,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 &

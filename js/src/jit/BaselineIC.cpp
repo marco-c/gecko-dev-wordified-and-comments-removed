@@ -1373,7 +1373,7 @@ fun
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
@@ -4861,7 +4861,7 @@ MOZ_ASSERT
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 |

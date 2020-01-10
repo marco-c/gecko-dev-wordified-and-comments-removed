@@ -590,7 +590,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

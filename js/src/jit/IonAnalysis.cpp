@@ -25709,7 +25709,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 nullptr

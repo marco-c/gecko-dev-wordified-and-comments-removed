@@ -2507,7 +2507,7 @@ return
 script_
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;

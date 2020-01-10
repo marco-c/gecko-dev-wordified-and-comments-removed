@@ -372,7 +372,7 @@ numFormals
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

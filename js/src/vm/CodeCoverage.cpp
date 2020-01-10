@@ -518,7 +518,7 @@ fun
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;

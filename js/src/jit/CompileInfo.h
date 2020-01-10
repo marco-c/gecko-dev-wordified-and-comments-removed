@@ -688,7 +688,7 @@ nonLazyScript
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 ;

@@ -23599,7 +23599,7 @@ script
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 "

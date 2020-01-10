@@ -6390,7 +6390,7 @@ if
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 &
@@ -6398,7 +6398,7 @@ functionNonDelazifying
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -8146,7 +8146,7 @@ entry
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 ?
@@ -8155,7 +8155,7 @@ entry
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -8626,7 +8626,7 @@ entry
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 ?
@@ -8635,7 +8635,7 @@ entry
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -8829,14 +8829,14 @@ nargs
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 ?
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 -
@@ -17469,7 +17469,7 @@ ObjectType
 calleeScript
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

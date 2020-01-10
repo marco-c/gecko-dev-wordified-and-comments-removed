@@ -9513,7 +9513,7 @@ script
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 osrPc
@@ -10605,7 +10605,7 @@ hasNonSyntacticScope
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

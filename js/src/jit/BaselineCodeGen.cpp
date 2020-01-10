@@ -28460,7 +28460,7 @@ maybeScript
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 )

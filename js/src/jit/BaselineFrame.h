@@ -774,7 +774,7 @@ script
 )
 -
 >
-functionNonDelazifying
+function
 (
 )
 -

@@ -899,7 +899,7 @@ fun
 script
 -
 >
-functionNonDelazifying
+function
 (
 )
 )
