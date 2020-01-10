@@ -434,7 +434,6 @@ e
 {
 }
 }
-}
 if
 (
 PrivateBrowsingUtils
@@ -477,6 +476,7 @@ hidden
 =
 true
 ;
+}
 }
 delayedStartupTimeoutId
 =
