@@ -3442,15 +3442,6 @@ bool
 >
 jitSupportsUnalignedAccesses
 ;
-js
-:
-:
-WriteOnceData
-<
-bool
->
-jitSupportsSimd
-;
 private
 :
 static
