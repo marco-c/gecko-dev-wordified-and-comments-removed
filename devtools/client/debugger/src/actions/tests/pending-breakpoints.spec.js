@@ -226,6 +226,13 @@ return
 .
 .
 mockCommandClient
+setSkipPausing
+:
+jest
+.
+fn
+(
+)
 getSourceActorBreakpointPositions
 :
 async
