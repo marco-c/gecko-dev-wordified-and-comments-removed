@@ -166,10 +166,6 @@ IsFieldInitializer
 Yes
 )
 {
-allowSuperProperty_
-=
-false
-;
 allowSuperCall_
 =
 false
@@ -1269,7 +1265,7 @@ Expression
 ;
 allowSuperProperty_
 =
-false
+true
 ;
 allowSuperCall_
 =

@@ -633,6 +633,7 @@ Scope
 Class
 InitConstructor
 FieldInitializers
+FieldInitializerWithHomeObject
 FieldInitializersEnd
 End
 }
@@ -810,6 +811,12 @@ prepareForFieldInitializers
 (
 size_t
 numFields
+)
+;
+MOZ_MUST_USE
+bool
+emitFieldInitializerHomeObject
+(
 )
 ;
 MOZ_MUST_USE
