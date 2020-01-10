@@ -3627,6 +3627,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 static
 nsINode
@@ -4187,6 +4188,7 @@ bNoBlockCrossing
 =
 false
 )
+const
 ;
 nsIContent
 *
@@ -4200,6 +4202,7 @@ bNoBlockCrossing
 =
 false
 )
+const
 ;
 bool
 CanContain
@@ -4294,6 +4297,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 bool
 IsEditable
@@ -4302,6 +4306,7 @@ nsINode
 *
 aNode
 )
+const
 {
 if
 (

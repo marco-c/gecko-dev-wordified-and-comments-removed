@@ -1644,6 +1644,7 @@ nsINode
 *
 aNode
 )
+const
 override
 ;
 using
@@ -1674,6 +1675,7 @@ nsINode
 *
 aNode
 )
+const
 override
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1695,6 +1697,7 @@ Text
 &
 aText
 )
+const
 ;
 bool
 IsVisibleTextNode
@@ -1804,6 +1807,7 @@ mozdirty
 )
 ;
 }
+static
 bool
 IsTextPropertySetByContent
 (
