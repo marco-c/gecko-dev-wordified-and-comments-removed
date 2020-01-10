@@ -9,6 +9,8 @@ set
 e
 -
 v
+-
+x
 #
 This
 script
@@ -35,7 +37,13 @@ export
 PATH
 =
 "
+(
+cd
 MOZ_FETCHES_DIR
+&
+&
+pwd
+)
 /
 ninja
 /
@@ -47,7 +55,13 @@ export
 PATH
 =
 "
+(
+cd
 MOZ_FETCHES_DIR
+&
+&
+pwd
+)
 /
 mingw64
 /
