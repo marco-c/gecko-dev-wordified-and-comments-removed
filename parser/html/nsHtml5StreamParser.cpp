@@ -8646,8 +8646,12 @@ eDOM_PROPERTIES
 "
 SpeculationFailed
 "
-nullptr
-0
+nsTArray
+<
+nsString
+>
+(
+)
 nullptr
 EmptyString
 (

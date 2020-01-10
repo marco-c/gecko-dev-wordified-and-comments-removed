@@ -448,8 +448,12 @@ nsContentUtils
 :
 eLAYOUT_PROPERTIES
 aMessageName
-nullptr
-0
+nsTArray
+<
+nsString
+>
+(
+)
 nullptr
 PromiseFlatString
 (
