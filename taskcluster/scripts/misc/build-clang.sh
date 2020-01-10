@@ -31,6 +31,16 @@ JSON_CONFIG
 "
 cd
 GECKO_PATH
+if
+[
+-
+n
+"
+TOOLTOOL_MANIFEST
+"
+]
+;
+then
 .
 taskcluster
 /
@@ -43,6 +53,7 @@ tooltool
 download
 .
 sh
+fi
 if
 [
 -

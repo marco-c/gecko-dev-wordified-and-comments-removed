@@ -534,14 +534,6 @@ sixgill
 tar
 .
 xz
-toolchains
-:
--
-linux64
--
-gcc
--
-6
 fetches
 :
 fetch
@@ -592,3 +584,11 @@ mpfr
 1
 .
 5
+toolchain
+:
+-
+linux64
+-
+gcc
+-
+6

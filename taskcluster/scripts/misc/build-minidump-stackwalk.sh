@@ -23,6 +23,16 @@ COMPRESS_EXT
 xz
 cd
 GECKO_PATH
+if
+[
+-
+n
+"
+TOOLTOOL_MANIFEST
+"
+]
+;
+then
 .
 taskcluster
 /
@@ -35,6 +45,7 @@ tooltool
 download
 .
 sh
+fi
 export
 MOZ_OBJDIR
 =
