@@ -318,6 +318,13 @@ js
 '
 dom
 -
+helpers
+.
+js
+'
+'
+dom
+-
 node
 -
 constants
@@ -334,11 +341,6 @@ filter
 constants
 .
 js
-'
-'
-DOMHelpers
-.
-jsm
 '
 '
 event
