@@ -797,7 +797,7 @@ arrowAwaitBlock
 2
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

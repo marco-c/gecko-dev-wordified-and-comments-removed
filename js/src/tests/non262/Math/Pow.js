@@ -275,7 +275,7 @@ e
 16
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 function
 (

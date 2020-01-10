@@ -136,7 +136,7 @@ constructor
 )
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -153,7 +153,7 @@ Array
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

@@ -229,7 +229,7 @@ yield
 *
 foo
 }
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -269,7 +269,7 @@ yield
 )
 undefined
 )
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

@@ -34,7 +34,7 @@ hasPipeline
 )
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -52,7 +52,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -71,7 +71,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -90,7 +90,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -108,7 +108,7 @@ parseInt
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -125,7 +125,7 @@ Function
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

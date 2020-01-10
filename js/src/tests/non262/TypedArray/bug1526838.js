@@ -13,7 +13,7 @@ of
 anyTypedArrayConstructors
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -27,7 +27,7 @@ testArray
 TypeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

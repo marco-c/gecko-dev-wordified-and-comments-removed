@@ -16,7 +16,7 @@ of
 typedArrayConstructors
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -30,7 +30,7 @@ INT32_MAX
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -63,7 +63,7 @@ of
 typedArrayConstructors
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -81,7 +81,7 @@ INT32_MAX
 RangeError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

@@ -312,7 +312,7 @@ await
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -342,7 +342,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -367,7 +367,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -386,7 +386,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -411,7 +411,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -437,7 +437,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -469,7 +469,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -496,7 +496,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -530,7 +530,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -566,7 +566,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -602,7 +602,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -640,7 +640,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -676,7 +676,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -714,7 +714,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -742,7 +742,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

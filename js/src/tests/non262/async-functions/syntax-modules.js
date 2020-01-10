@@ -70,7 +70,7 @@ await
 "
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -89,7 +89,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -105,7 +105,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -122,7 +122,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -145,7 +145,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -168,7 +168,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -186,7 +186,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -205,7 +205,7 @@ await
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -275,7 +275,7 @@ module
 }
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -352,7 +352,7 @@ module
 }
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
@@ -385,7 +385,7 @@ module
 SyntaxError
 )
 ;
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )

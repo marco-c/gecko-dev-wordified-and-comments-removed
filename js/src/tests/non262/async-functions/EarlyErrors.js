@@ -30,7 +30,7 @@ assertThrowsSE
 code
 )
 {
-assertThrows
+assertThrowsInstanceOf
 (
 (
 )
