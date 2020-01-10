@@ -487,6 +487,10 @@ index
 ]
 .
 visit_time
+new
+Date
+(
+)
 )
 .
 getTime
