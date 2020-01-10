@@ -2177,6 +2177,12 @@ InitWebRenderConfig
 ;
 virtual
 void
+InitWebGPUConfig
+(
+)
+;
+virtual
+void
 WillShutdown
 (
 )

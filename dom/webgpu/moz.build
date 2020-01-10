@@ -101,9 +101,9 @@ BUG_COMPONENT
 Core
 '
 '
-Canvas
+Graphics
 :
-WebGL
+WebGPU
 '
 )
 MOCHITEST_MANIFESTS
@@ -127,6 +127,14 @@ mochitest
 mochitest
 .
 ini
+'
+]
+DIRS
++
+=
+[
+'
+thread
 '
 ]
 h_and_cpp
