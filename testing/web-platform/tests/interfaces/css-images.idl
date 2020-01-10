@@ -66,14 +66,12 @@ partial
 namespace
 CSS
 {
-/
-/
 [
 SameObject
 ]
 readonly
 attribute
-Map
+any
 elementSources
 ;
 }
