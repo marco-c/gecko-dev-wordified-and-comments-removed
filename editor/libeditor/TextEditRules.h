@@ -831,9 +831,14 @@ GetTextNodeAroundSelectionStartContainer
 (
 )
 ;
-uint32_t
-mActionNesting
+#
+ifdef
+DEBUG
+bool
+mIsHandling
 ;
+#
+endif
 bool
 mLockRulesSniffing
 ;
@@ -845,9 +850,6 @@ mDeleteBidiImmediately
 ;
 bool
 mIsHTMLEditRules
-;
-EditSubAction
-mTopLevelEditSubAction
 ;
 friend
 class
