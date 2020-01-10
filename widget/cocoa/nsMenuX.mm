@@ -261,13 +261,6 @@ h
 #
 include
 "
-nsBindingManager
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h
