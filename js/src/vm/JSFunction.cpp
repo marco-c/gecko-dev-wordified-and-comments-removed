@@ -9620,8 +9620,6 @@ false
 }
 JSProtoKey
 protoKey
-=
-JSProto_Null
 ;
 if
 (
@@ -9651,6 +9649,10 @@ return
 false
 ;
 }
+protoKey
+=
+JSProto_AsyncGeneratorFunction
+;
 }
 else
 {

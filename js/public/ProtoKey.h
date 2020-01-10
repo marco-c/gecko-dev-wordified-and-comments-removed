@@ -743,6 +743,13 @@ nullptr
 \
 REAL
 (
+AsyncGeneratorFunction
+InitAsyncGeneratorFunction
+nullptr
+)
+\
+REAL
+(
 ReadableStream
 InitViaClassSpec
 &
