@@ -9472,7 +9472,16 @@ nsAString
 >
 &
 const
+mozilla
+:
+:
+dom
+:
+:
+Optional
+<
 nsAString
+>
 &
 mozilla
 :
@@ -9512,8 +9521,6 @@ const
 nsAString
 &
 aFeatures
-bool
-aReplace
 mozilla
 :
 :
