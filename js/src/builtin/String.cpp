@@ -198,7 +198,7 @@ h
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -5282,7 +5282,7 @@ true
 }
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 else
 static
@@ -7472,7 +7472,7 @@ true
 }
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 else
 static
@@ -7660,7 +7660,7 @@ true
 endif
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 else
 static
@@ -7855,7 +7855,7 @@ true
 endif
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 static
 bool
 str_normalize
@@ -17349,7 +17349,7 @@ str_trimEnd
 )
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 "
@@ -17427,7 +17427,7 @@ String_repeat
 )
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 JS_FN
 (
 "

@@ -1964,7 +1964,7 @@ false
 }
 #
 ifdef
-EXPOSE_INTL_API
+ENABLE_INTL_API
 value
 =
 BooleanValue

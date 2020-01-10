@@ -2895,7 +2895,7 @@ defaultFreeOp_
 #
 if
 !
-EXPOSE_INTL_API
+ENABLE_INTL_API
 js
 :
 :

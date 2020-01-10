@@ -820,7 +820,7 @@ Initialize
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 #
 if
 !
@@ -1139,7 +1139,7 @@ PRMJ_NowShutdown
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 u_cleanup
 (
 )
@@ -1257,7 +1257,7 @@ JS_Init
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 UErrorCode
 status
 =

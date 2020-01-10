@@ -4222,7 +4222,7 @@ array
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 var
 R
 =
@@ -4296,7 +4296,7 @@ k
 ;
 #
 if
-EXPOSE_INTL_API
+ENABLE_INTL_API
 R
 =
 ToString
