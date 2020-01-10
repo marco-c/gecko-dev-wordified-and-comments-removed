@@ -229,6 +229,4 @@ issues
 and
 notify
 foolip
-and
-lukebjerring
 .
