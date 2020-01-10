@@ -9792,7 +9792,7 @@ enabled
 "
 layout_css_cached_scrollbar_styles_enabled
 bool
-true
+false
 )
 VARCACHE_PREF
 (
