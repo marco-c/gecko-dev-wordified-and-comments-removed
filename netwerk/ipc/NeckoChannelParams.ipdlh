@@ -1815,16 +1815,6 @@ referrerInfo
 ;
 URIParams
 ?
-originalReferrer
-;
-uint32_t
-originalReferrerPolicy
-;
-uint32_t
-referrerPolicy
-;
-URIParams
-?
 apiRedirectTo
 ;
 URIParams
