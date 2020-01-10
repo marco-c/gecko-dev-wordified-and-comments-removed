@@ -51,6 +51,17 @@ ServoBindings
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+BrowsingContext
+.
+h
+"
 namespace
 mozilla
 {
