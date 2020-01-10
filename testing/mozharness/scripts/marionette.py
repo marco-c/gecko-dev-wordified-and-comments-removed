@@ -1268,7 +1268,7 @@ marionette_address
 '
 )
 :
-                
+            
 self
 .
 fatal
@@ -1291,7 +1291,7 @@ emulator
 tests
 !
 "
-                           
+                       
 "
 (
 Try
