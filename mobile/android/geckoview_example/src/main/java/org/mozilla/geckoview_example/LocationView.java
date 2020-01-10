@@ -6,15 +6,6 @@ mozilla
 geckoview_example
 ;
 import
-org
-.
-mozilla
-.
-geckoview
-.
-GeckoSession
-;
-import
 android
 .
 content
