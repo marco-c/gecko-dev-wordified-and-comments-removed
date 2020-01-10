@@ -1628,6 +1628,11 @@ expected
 )
 :
         
+intermittent
+=
+[
+]
+        
 values
 =
 metadata
@@ -1684,16 +1689,33 @@ list
 )
 :
                 
+intermittent
+.
+append
+(
+(
+condition
 status
+)
+)
+                
+expected_status
 =
 status
 [
 0
 ]
             
+else
+:
+                
+expected_status
+=
+status
+            
 by_status
 [
-status
+expected_status
 ]
 .
 append
@@ -1741,6 +1763,37 @@ by_status
 [
 status
 ]
+]
+        
+if
+intermittent
+:
+            
+target
+[
+"
+intermittent
+"
+]
+=
+[
+[
+serialize
+(
+cond
+)
+if
+cond
+else
+None
+intermittent_statuses
+]
+                                      
+for
+cond
+intermittent_statuses
+in
+intermittent
 ]
 def
 get_condition_value_list
@@ -1855,7 +1908,7 @@ expected
 :
         
 for
-expected_statuses
+expected_value
 in
 metadata
 .
@@ -1870,45 +1923,35 @@ expected
 if
 isinstance
 (
-expected_statuses
+expected_value
 tuple
 )
 :
                 
-expected_statuses
+expected_value
 =
-expected_statuses
+expected_value
 [
 1
 ]
             
 if
-not
 isinstance
 (
-expected_statuses
+expected_value
 list
 )
 :
                 
-expected_statuses
-=
-[
-expected_statuses
-]
+return
+True
             
-for
-expected_status
-in
-expected_statuses
-:
-                
 if
-expected_status
+expected_value
 in
 statuses
 :
-                    
+                
 return
 True
             
