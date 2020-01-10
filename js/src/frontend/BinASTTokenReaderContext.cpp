@@ -234,7 +234,7 @@ const
 uint8_t
 MAX_BIT_LENGTH_IN_SATURATED_TABLE
 =
-8
+10
 ;
 const
 uint8_t
@@ -8549,6 +8549,11 @@ if
 maxBitLength
 >
 MAX_BIT_LENGTH_IN_SATURATED_TABLE
+|
+|
+numberOfSymbols
+>
+256
 )
 {
 this
@@ -10226,7 +10231,7 @@ saturated
 .
 infallibleAppend
 (
-size_t
+uint8_t
 (
 -
 1
@@ -10296,7 +10301,7 @@ i
 )
 {
 const
-size_t
+uint8_t
 index
 =
 saturated
@@ -10307,12 +10312,11 @@ i
 MOZ_ASSERT
 (
 index
-!
-=
-size_t
+<
+values
+.
+length
 (
--
-1
 )
 )
 ;
