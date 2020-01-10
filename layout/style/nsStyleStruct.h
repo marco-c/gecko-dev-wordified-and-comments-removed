@@ -4767,7 +4767,7 @@ mozilla
 :
 :
 StyleLengthOrAuto
-mTextDecorationWidth
+mTextDecorationThickness
 ;
 }
 ;

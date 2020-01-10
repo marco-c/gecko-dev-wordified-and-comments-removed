@@ -14221,7 +14221,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 "
 ime
@@ -43412,7 +43412,7 @@ text
 -
 decoration
 -
-width
+thickness
 "
 "
 layout
@@ -43423,7 +43423,7 @@ text
 -
 decoration
 -
-width
+thickness
 .
 enabled
 "
