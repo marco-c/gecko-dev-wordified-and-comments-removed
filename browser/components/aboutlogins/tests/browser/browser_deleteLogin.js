@@ -370,6 +370,8 @@ list
 -
 item
 [
+data
+-
 guid
 ]
 "
@@ -436,12 +438,9 @@ guid
 =
 loginListItem
 .
-getAttribute
-(
-"
+dataset
+.
 guid
-"
-)
 ;
 }
 "
