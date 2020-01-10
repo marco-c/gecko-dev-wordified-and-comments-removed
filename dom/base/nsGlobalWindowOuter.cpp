@@ -20059,6 +20059,9 @@ false
 }
 else
 {
+#
+ifndef
+XP_MACOSX
 MOZ_ASSERT_UNREACHABLE
 (
 "
@@ -20070,13 +20073,15 @@ fullscreen
 "
 )
 ;
+#
+endif
 mFullscreen
 =
 true
 ;
 mFullscreenMode
 =
-false
+true
 ;
 }
 return
