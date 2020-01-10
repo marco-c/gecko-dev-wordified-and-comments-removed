@@ -266,12 +266,6 @@ false
 ]
 [
 "
-quantumbar
-"
-false
-]
-[
-"
 speculativeConnect
 .
 enabled
