@@ -299,7 +299,7 @@ false
 }
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 flatStr
 "

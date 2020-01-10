@@ -18272,7 +18272,7 @@ false
 }
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 flatStr
 "
@@ -18290,7 +18290,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 flatStr
 "
@@ -18308,7 +18308,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 flatStr
 "
@@ -24784,7 +24784,7 @@ string
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 strArg
 string
@@ -24792,6 +24792,7 @@ string
 )
 opt
 =
+\
 JSJITCOMPILER_
 #
 #

@@ -1089,7 +1089,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 str
 "
@@ -1140,7 +1140,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 str
 "
@@ -1197,7 +1197,7 @@ if
 (
 :
 :
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 str
 "

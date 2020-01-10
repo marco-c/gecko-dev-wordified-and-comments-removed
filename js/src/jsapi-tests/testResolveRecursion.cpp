@@ -354,7 +354,7 @@ cx
 ;
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 str
 "
@@ -450,7 +450,7 @@ true
 else
 if
 (
-JS_FlatStringEqualsAscii
+JS_FlatStringEqualsLiteral
 (
 str
 "

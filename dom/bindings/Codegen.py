@@ -99091,6 +99091,9 @@ sNames
 entry
 .
 mNameOffset
+entry
+.
+mNameLength
 )
 )
 {

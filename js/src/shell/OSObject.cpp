@@ -1436,7 +1436,7 @@ match
 if
 (
 !
-JS_StringEqualsAscii
+JS_StringEqualsLiteral
 (
 cx
 opt
