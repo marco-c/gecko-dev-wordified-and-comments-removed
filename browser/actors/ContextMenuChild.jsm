@@ -2958,6 +2958,17 @@ context
 .
 target
 ;
+if
+(
+!
+context
+.
+shouldDisplay
+)
+{
+return
+;
+}
 let
 spellInfo
 =
