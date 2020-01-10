@@ -1130,6 +1130,18 @@ const
 TEST_PREF
 =
 "
+test
+.
+duringSync
+"
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
+"
 services
 .
 sync
@@ -1142,6 +1154,8 @@ test
 .
 duringSync
 "
+true
+)
 ;
 enableValidationPrefs
 (
