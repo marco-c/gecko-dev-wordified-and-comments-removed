@@ -37435,7 +37435,7 @@ isRootContentDocument
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 ;

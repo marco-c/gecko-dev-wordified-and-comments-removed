@@ -48333,7 +48333,7 @@ isRootContent
 presContext
 -
 >
-IsRootContentDocument
+IsRootContentDocumentCrossProcess
 (
 )
 ;
