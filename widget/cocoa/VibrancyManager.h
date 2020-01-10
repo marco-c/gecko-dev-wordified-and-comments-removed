@@ -147,6 +147,12 @@ IsEmpty
 )
 ;
 }
+LayoutDeviceIntRegion
+GetUnionOfVibrantRegions
+(
+)
+const
+;
 NSColor
 *
 VibrancyFillColorForType
