@@ -298,9 +298,12 @@ fieldEl
 dataset
 .
 qaValue
-{
+JSON
+.
+stringify
+(
 value
-}
+)
 "
 The
 value
