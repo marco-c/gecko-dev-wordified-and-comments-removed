@@ -1382,8 +1382,14 @@ background
 -
 color
 :
-#
-FFFF98
+var
+(
+-
+-
+yellow
+-
+10
+)
 ;
 background
 -
