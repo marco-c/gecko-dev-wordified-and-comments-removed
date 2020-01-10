@@ -189,6 +189,15 @@ patches
 :
 [
 "
+clang
+-
+tidy
+-
+ci
+.
+patch
+"
+"
 compiler
 -
 rt

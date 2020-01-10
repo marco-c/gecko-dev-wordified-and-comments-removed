@@ -78,5 +78,14 @@ patches
 "
 :
 [
+"
+clang
+-
+tidy
+-
+ci
+.
+patch
+"
 ]
 }

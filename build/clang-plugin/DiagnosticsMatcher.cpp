@@ -40,7 +40,7 @@ cls
 #
 _
 .
-registerCompilerInstance
+registerPPCallbacks
 (
 CI
 )
