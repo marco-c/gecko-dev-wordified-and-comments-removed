@@ -272,6 +272,9 @@ javascript
 "
 js
 "
+"
+mjs
+"
 ]
     
 "
