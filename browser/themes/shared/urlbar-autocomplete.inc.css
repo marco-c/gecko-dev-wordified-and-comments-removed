@@ -362,6 +362,15 @@ shadow
 :
 none
 ;
+overflow
+:
+-
+moz
+-
+hidden
+-
+unscrollable
+;
 }
 .
 urlbarView
