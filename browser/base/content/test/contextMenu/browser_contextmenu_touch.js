@@ -501,10 +501,14 @@ urlbar
 let
 textBox
 =
-urlbar
+document
 .
-querySelector
+getAnonymousElementByAttribute
 (
+urlbar
+"
+anonid
+"
 "
 moz
 -
