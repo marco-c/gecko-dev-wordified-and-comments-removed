@@ -70,6 +70,7 @@ once
 "
 paused
 "
+async
 function
 (
 packet
@@ -157,15 +158,15 @@ obj2Client
 isFrozen
 )
 ;
+await
 threadFront
 .
 resume
 (
 )
-.
-then
-(
+;
 resolve
+(
 )
 ;
 }

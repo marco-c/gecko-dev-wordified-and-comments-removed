@@ -381,6 +381,10 @@ objectClient
 .
 getDependentPromises
 (
+)
+.
+then
+(
 response
 =
 >

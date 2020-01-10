@@ -70,6 +70,7 @@ once
 "
 paused
 "
+async
 function
 (
 packet
@@ -194,15 +195,15 @@ eClient
 isExtensible
 )
 ;
+await
 threadFront
 .
 resume
 (
 )
-.
-then
-(
+;
 resolve
+(
 )
 ;
 }

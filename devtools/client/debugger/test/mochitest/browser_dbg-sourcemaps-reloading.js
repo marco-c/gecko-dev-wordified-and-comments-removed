@@ -202,6 +202,15 @@ waitForPaused
 dbg
 )
 ;
+await
+waitForDispatch
+(
+dbg
+"
+ADD_INLINE_PREVIEW
+"
+)
+;
 assertPausedLocation
 (
 dbg

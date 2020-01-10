@@ -360,7 +360,7 @@ Client
 )
 ;
 const
-response
+rejectionStack
 =
 await
 objectClient
@@ -371,8 +371,6 @@ getPromiseRejectionStack
 ;
 ok
 (
-response
-.
 rejectionStack
 .
 length
@@ -406,8 +404,6 @@ i
 const
 stack
 =
-response
-.
 rejectionStack
 [
 i
