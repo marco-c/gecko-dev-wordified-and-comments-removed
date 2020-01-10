@@ -2277,14 +2277,6 @@ FZF_NOT_FOUND
 return
 1
     
-if
-show_estimates
-:
-        
-download_task_history_data
-(
-)
-    
 check_working_directory
 (
 push
@@ -2364,6 +2356,10 @@ target_task_dependencies
 if
 show_estimates
 :
+        
+download_task_history_data
+(
+)
         
 make_trimmed_taskgraph_cache
 (
