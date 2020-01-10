@@ -1,7 +1,7 @@
 #
 include
 "
-MediaHardwareKeysManager
+MediaControlKeysManager
 .
 h
 "
