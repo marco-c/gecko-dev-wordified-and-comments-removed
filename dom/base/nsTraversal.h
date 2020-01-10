@@ -112,6 +112,14 @@ mozilla
 ErrorResult
 &
 aResult
+nsCOMPtr
+<
+nsINode
+>
+*
+aUnskippedNode
+=
+nullptr
 )
 ;
 }
