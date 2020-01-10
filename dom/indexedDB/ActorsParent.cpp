@@ -23414,9 +23414,9 @@ IsOnBackgroundThread
 #
 endif
 }
+explicit
 operator
-mozIStorageStatement
-*
+bool
 (
 )
 const
@@ -42531,6 +42531,8 @@ hasResult
 mozStorageStatementScoper
 scoper
 (
+&
+*
 aCachedStatement
 )
 ;
@@ -43136,8 +43138,7 @@ CachedStatement
 :
 :
 operator
-mozIStorageStatement
-*
+bool
 (
 )
 const
@@ -45748,6 +45749,8 @@ rv
 mozStorageStatementScoper
 updateScoper
 (
+&
+*
 mUpdateStatement
 )
 ;
@@ -45922,6 +45925,8 @@ rv
 mozStorageStatementScoper
 selectScoper
 (
+&
+*
 mSelectStatement
 )
 ;
@@ -46058,6 +46063,8 @@ rv
 mozStorageStatementScoper
 insertScoper
 (
+&
+*
 mInsertStatement
 )
 ;
@@ -83349,6 +83356,8 @@ mPosition
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameValue
 )
@@ -83376,6 +83385,8 @@ mLocaleAwarePosition
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameValueLocale
 )
@@ -83427,6 +83438,8 @@ aObjectStoreKey
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameObjectDataKey
 )
@@ -83869,6 +83882,8 @@ mPosition
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameValue
 )
@@ -83902,6 +83917,8 @@ aObjectStoreKey
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameObjectDataKey
 )
@@ -84166,6 +84183,8 @@ objectStoreKey
 .
 BindToStatement
 (
+&
+*
 selectStmt
 kStmtParamNameKey
 )
@@ -84278,6 +84297,8 @@ aKeyRange
 ref
 (
 )
+&
+*
 selectStmt
 )
 ;
@@ -84380,6 +84401,8 @@ objectStoreKey
 .
 SetFromStatement
 (
+&
+*
 selectStmt
 1
 )
@@ -84410,6 +84433,8 @@ rv
 =
 ReadCompressedIndexDataValues
 (
+&
+*
 selectStmt
 0
 indexValues
@@ -84566,6 +84591,8 @@ objectStoreKey
 .
 BindToStatement
 (
+&
+*
 deleteStmt
 kStmtParamNameKey
 )
@@ -105563,6 +105590,8 @@ aObjectStoreKey
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameKey
 )
@@ -106573,6 +106602,8 @@ indexKey
 .
 SetFromStatement
 (
+&
+*
 selectStmt
 0
 )
@@ -106751,6 +106782,8 @@ rv
 =
 ReadCompressedIndexDataValues
 (
+&
+*
 selectStmt
 2
 lastIndexValues
@@ -106972,6 +107005,8 @@ indexKey
 .
 BindToStatement
 (
+&
+*
 deleteIndexRowStmt
 kStmtParamNameValue
 )
@@ -107003,6 +107038,8 @@ lastObjectStoreKey
 .
 BindToStatement
 (
+&
+*
 deleteIndexRowStmt
 kStmtParamNameObjectDataKey
 )
@@ -108667,6 +108704,8 @@ mResponse
 .
 BindToStatement
 (
+&
+*
 indexValuesStmt
 kStmtParamNameKey
 )
@@ -108731,6 +108770,8 @@ rv
 =
 ReadCompressedIndexDataValues
 (
+&
+*
 indexValuesStmt
 0
 existingIndexValues
@@ -110066,6 +110107,8 @@ key
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameKey
 )
@@ -111861,6 +111904,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -111933,6 +111978,8 @@ rv
 =
 GetStructuredCloneReadInfoFromStatement
 (
+&
+*
 stmt
 1
 0
@@ -112807,6 +112854,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -112882,6 +112931,8 @@ key
 >
 SetFromStatement
 (
+&
+*
 stmt
 0
 )
@@ -113975,6 +114026,8 @@ optionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -114879,6 +114932,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -114951,6 +115006,8 @@ rv
 =
 GetStructuredCloneReadInfoFromStatement
 (
+&
+*
 stmt
 1
 0
@@ -115773,6 +115830,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -115848,6 +115907,8 @@ key
 >
 SetFromStatement
 (
+&
+*
 stmt
 0
 )
@@ -116281,6 +116342,8 @@ optionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -118650,6 +118713,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -118718,6 +118783,8 @@ rv
 =
 PopulateResponseFromStatement
 (
+&
+*
 stmt
 true
 )
@@ -118747,6 +118814,8 @@ queryStart
 return
 PopulateExtraResponses
 (
+&
+*
 stmt
 mCursor
 -
@@ -118986,6 +119055,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -119054,6 +119125,8 @@ rv
 =
 PopulateResponseFromStatement
 (
+&
+*
 stmt
 true
 )
@@ -119541,6 +119614,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 mCursor
 -
@@ -119560,6 +119635,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -119629,6 +119706,8 @@ rv
 =
 PopulateResponseFromStatement
 (
+&
+*
 stmt
 true
 )
@@ -119671,6 +119750,8 @@ queryStart
 return
 PopulateExtraResponses
 (
+&
+*
 stmt
 mCursor
 -
@@ -120083,6 +120164,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 mCursor
 -
@@ -120102,6 +120185,8 @@ mOptionalKeyRange
 ref
 (
 )
+&
+*
 stmt
 )
 ;
@@ -120171,6 +120256,8 @@ rv
 =
 PopulateResponseFromStatement
 (
+&
+*
 stmt
 true
 )
@@ -121190,6 +121277,8 @@ currentKey
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameCurrentKey
 )
@@ -121231,6 +121320,8 @@ mLocaleAwareRangeBound
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameRangeBound
 )
@@ -121295,6 +121386,8 @@ mObjectStorePosition
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameObjectStorePosition
 )
@@ -121335,6 +121428,8 @@ primaryKey
 .
 BindToStatement
 (
+&
+*
 stmt
 kStmtParamNameObjectStorePosition
 )
@@ -121457,6 +121552,8 @@ rv
 =
 PopulateResponseFromStatement
 (
+&
+*
 stmt
 true
 )
@@ -121479,6 +121576,8 @@ rv
 return
 PopulateExtraResponses
 (
+&
+*
 stmt
 maxExtraCount
 NS_LITERAL_CSTRING
