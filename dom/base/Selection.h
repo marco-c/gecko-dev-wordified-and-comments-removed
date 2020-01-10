@@ -487,6 +487,7 @@ aFlags
 0
 )
 ;
+static
 nsresult
 SubtractRange
 (
@@ -2490,7 +2491,7 @@ rangesToAdd
 )
 ;
 nsresult
-AddItemInternal
+MaybeAddRangeAndTruncateOverlaps
 (
 nsRange
 *
