@@ -146,6 +146,9 @@ id
 ;
 return
 {
+.
+.
+.
 source
 content
 :
@@ -202,9 +205,10 @@ string
 )
 :
 {
-source
-:
-Source
+.
+.
+.
+SourceBase
 content
 :
 TextSourceContent
@@ -221,6 +225,9 @@ id
 ;
 return
 {
+.
+.
+.
 source
 content
 :
@@ -243,7 +250,7 @@ makeMockWasmSource
 (
 )
 :
-Source
+SourceBase
 {
 return
 {
@@ -318,6 +325,9 @@ makeMockWasmSource
 ;
 return
 {
+.
+.
+.
 source
 content
 :

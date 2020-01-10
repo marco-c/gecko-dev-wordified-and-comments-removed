@@ -49,9 +49,7 @@ locations
 >
 {
 const
-{
 source
-}
 =
 populateOriginalSource
 (

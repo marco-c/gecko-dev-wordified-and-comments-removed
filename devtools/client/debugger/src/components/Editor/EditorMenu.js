@@ -165,7 +165,7 @@ boolean
 isPaused
 :
 boolean
-selectedSourceWithContent
+selectedSource
 :
 SourceWithContent
 }
@@ -222,7 +222,7 @@ const
 {
 cx
 editor
-selectedSourceWithContent
+selectedSource
 editorActions
 hasPrettySource
 isPaused
@@ -239,9 +239,7 @@ location
 getSourceLocationFromMouseEvent
 (
 editor
-selectedSourceWithContent
-.
-source
+selectedSource
 (
 event
 :
@@ -257,7 +255,7 @@ editorMenuItems
 {
 cx
 editorActions
-selectedSourceWithContent
+selectedSource
 hasPrettySource
 location
 isPaused
@@ -333,9 +331,7 @@ getPrettySource
 state
 props
 .
-selectedSourceWithContent
-.
-source
+selectedSource
 .
 id
 )

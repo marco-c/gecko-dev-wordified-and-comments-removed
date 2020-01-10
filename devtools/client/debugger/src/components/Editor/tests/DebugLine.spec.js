@@ -191,8 +191,9 @@ source
 :
 (
 {
-source
-:
+.
+.
+.
 createSourceObject
 (
 "
@@ -288,8 +289,6 @@ props
 .
 source
 .
-source
-.
 id
 doc
 )
@@ -382,8 +381,9 @@ render
 source
 :
 {
-source
-:
+.
+.
+.
 createSourceObject
 (
 "
@@ -541,8 +541,9 @@ render
 source
 :
 {
-source
-:
+.
+.
+.
 createSourceObject
 (
 "

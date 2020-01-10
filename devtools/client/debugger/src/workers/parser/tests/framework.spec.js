@@ -50,9 +50,7 @@ value
 >
 {
 const
-{
 source
-}
 =
 populateOriginalSource
 (
