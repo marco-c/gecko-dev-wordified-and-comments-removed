@@ -96,9 +96,4 @@ window
 .
 js
 '
-'
-webextension
-.
-js
-'
 )

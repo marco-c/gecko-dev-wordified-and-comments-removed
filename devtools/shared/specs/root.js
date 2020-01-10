@@ -256,7 +256,7 @@ RetVal
 "
 array
 :
-webExtension
+webExtensionDescriptor
 "
 )
 }

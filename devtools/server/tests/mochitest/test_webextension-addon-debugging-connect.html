@@ -308,7 +308,7 @@ addon
 actor
 .
 const
-addonFront
+addonDescriptor
 =
 await
 client
@@ -328,7 +328,7 @@ id
 ;
 ok
 (
-addonFront
+addonDescriptor
 "
 The
 expected
@@ -345,9 +345,9 @@ const
 addonTarget
 =
 await
-addonFront
+addonDescriptor
 .
-connect
+getTarget
 (
 )
 ;
@@ -386,7 +386,7 @@ frames
 .
 is
 (
-addonTarget
+addonDescriptor
 .
 targetForm
 .

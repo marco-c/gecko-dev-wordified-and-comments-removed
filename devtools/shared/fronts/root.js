@@ -1218,7 +1218,7 @@ listAddons
 )
 ;
 const
-webextensionFront
+webextensionDescriptorFront
 =
 addons
 .
@@ -1237,7 +1237,7 @@ id
 )
 ;
 return
-webextensionFront
+webextensionDescriptorFront
 ;
 }
 async

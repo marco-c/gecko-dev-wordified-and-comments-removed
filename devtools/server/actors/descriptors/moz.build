@@ -97,4 +97,9 @@ process
 .
 js
 '
+'
+webextension
+.
+js
+'
 )

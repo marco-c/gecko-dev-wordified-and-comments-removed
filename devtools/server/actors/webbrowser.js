@@ -129,7 +129,7 @@ lazyRequireGetter
 (
 this
 "
-WebExtensionActor
+WebExtensionDescriptorActor
 "
 "
 devtools
@@ -138,7 +138,7 @@ server
 /
 actors
 /
-addon
+descriptors
 /
 webextension
 "
@@ -2695,7 +2695,7 @@ actor
 actor
 =
 new
-WebExtensionActor
+WebExtensionDescriptorActor
 (
 this
 .

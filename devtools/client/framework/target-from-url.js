@@ -351,7 +351,7 @@ extension
 )
 {
 const
-addonFront
+addonDescriptor
 =
 await
 client
@@ -368,7 +368,7 @@ id
 if
 (
 !
-addonFront
+addonDescriptor
 )
 {
 throw
@@ -394,9 +394,9 @@ exist
 front
 =
 await
-addonFront
+addonDescriptor
 .
-connect
+getTarget
 (
 )
 ;
