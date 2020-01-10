@@ -3408,6 +3408,17 @@ self
 _run
 (
 '
+-
+c
+'
+'
+commit
+.
+gpgSign
+=
+false
+'
+'
 commit
 '
 '
