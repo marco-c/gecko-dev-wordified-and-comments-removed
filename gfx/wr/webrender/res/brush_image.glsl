@@ -260,7 +260,7 @@ segment_rect
 ivec4
 prim_user_data
 int
-segment_user_data
+specific_resource_address
 mat4
 transform
 PictureTask
@@ -333,7 +333,7 @@ res
 =
 fetch_image_resource
 (
-segment_user_data
+specific_resource_address
 )
 ;
 vec2
@@ -828,7 +828,7 @@ f
 =
 get_image_quad_uv
 (
-segment_user_data
+specific_resource_address
 f
 )
 ;
