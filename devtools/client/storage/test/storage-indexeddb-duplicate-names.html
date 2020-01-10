@@ -72,6 +72,12 @@ use
 strict
 "
 ;
+/
+*
+exported
+createIndexedDBs
+*
+/
 function
 createIndexedDBs
 (
@@ -145,7 +151,7 @@ name
 storage
 )
 {
-let
+const
 open
 =
 indexedDB
@@ -168,7 +174,7 @@ function
 (
 )
 {
-let
+const
 db
 =
 open
@@ -245,12 +251,12 @@ window
 .
 clear
 =
+async
 function
-*
 (
 )
 {
-yield
+await
 deleteDB
 (
 "
@@ -261,7 +267,7 @@ temporary
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -272,7 +278,7 @@ default
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -283,7 +289,7 @@ persistent
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -294,7 +300,7 @@ temporary
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
@@ -305,7 +311,7 @@ default
 "
 )
 ;
-yield
+await
 deleteDB
 (
 "
