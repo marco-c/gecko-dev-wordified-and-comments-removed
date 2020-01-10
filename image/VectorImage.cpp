@@ -5542,11 +5542,15 @@ Document
 doc
 =
 mSVGDocumentWrapper
+?
+mSVGDocumentWrapper
 -
 >
 GetDocument
 (
 )
+:
+nullptr
 )
 {
 doc
