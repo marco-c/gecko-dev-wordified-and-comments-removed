@@ -3609,17 +3609,6 @@ true
 ;
 }
 get
-openViewOnFocus
-(
-)
-{
-return
-this
-.
-_openViewOnFocus
-;
-}
-get
 openViewOnFocusForCurrentTab
 (
 )
@@ -3628,7 +3617,7 @@ return
 (
 this
 .
-openViewOnFocus
+_openViewOnFocus
 &
 &
 !

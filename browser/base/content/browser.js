@@ -13417,7 +13417,7 @@ if
 (
 gURLBar
 .
-openViewOnFocus
+openViewOnFocusForCurrentTab
 &
 &
 !
