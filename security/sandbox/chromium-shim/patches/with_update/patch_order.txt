@@ -73,3 +73,6 @@ patch
 aarch64_control_flow_guard
 .
 patch
+revert_removal_of_app_dir_for_DLL_load
+.
+patch
