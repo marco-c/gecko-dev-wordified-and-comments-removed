@@ -2842,6 +2842,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 )
 :
 cur_
@@ -2852,10 +2854,7 @@ end_
 (
 text
 +
-js_strlen
-(
-text
-)
+textLen
 )
 lineStart_
 (
@@ -14409,6 +14408,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 uintptr_t
 stackLimit
 LifoAlloc
@@ -14422,6 +14423,7 @@ error
 ts
 (
 text
+textLen
 )
 lifo
 (
@@ -31014,6 +31016,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 uintptr_t
 stackLimit
 LifoAlloc
@@ -31031,6 +31035,7 @@ WasmParseContext
 c
 (
 text
+textLen
 stackLimit
 lifo
 error
@@ -45556,6 +45561,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 uintptr_t
 stackLimit
 Bytes
@@ -45587,6 +45594,7 @@ module
 ParseModule
 (
 text
+textLen
 stackLimit
 lifo
 error

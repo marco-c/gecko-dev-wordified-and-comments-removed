@@ -28,6 +28,8 @@ const
 char16_t
 *
 text
+size_t
+textLen
 uintptr_t
 stackLimit
 Bytes
