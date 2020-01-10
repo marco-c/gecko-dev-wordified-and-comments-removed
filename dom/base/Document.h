@@ -11352,6 +11352,12 @@ InitialDocumentTranslationCompleted
 (
 )
 ;
+bool
+AllowsL10n
+(
+)
+const
+;
 protected
 :
 RefPtr

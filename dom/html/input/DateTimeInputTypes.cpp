@@ -616,7 +616,7 @@ return
 nsContentUtils
 :
 :
-FormatLocalizedString
+FormatMaybeLocalizedString
 (
 aMessage
 nsContentUtils
@@ -626,6 +626,12 @@ eDOM_PROPERTIES
 "
 FormValidationDateTimeRangeOverflow
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 maxStr
 )
 ;
@@ -661,7 +667,7 @@ return
 nsContentUtils
 :
 :
-FormatLocalizedString
+FormatMaybeLocalizedString
 (
 aMessage
 nsContentUtils
@@ -671,6 +677,12 @@ eDOM_PROPERTIES
 "
 FormValidationDateTimeRangeUnderflow
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 minStr
 )
 ;
@@ -862,7 +874,7 @@ return
 nsContentUtils
 :
 :
-GetLocalizedString
+GetMaybeLocalizedString
 (
 nsContentUtils
 :
@@ -871,6 +883,12 @@ eDOM_PROPERTIES
 "
 FormValidationInvalidDate
 "
+mInputElement
+-
+>
+OwnerDoc
+(
+)
 aMessage
 )
 ;
