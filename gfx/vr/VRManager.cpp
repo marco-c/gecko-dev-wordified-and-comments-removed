@@ -2218,6 +2218,10 @@ Clear
 (
 )
 ;
+mEnumerationCompleted
+=
+false
+;
 mDisplayInfo
 .
 mGroupMask
