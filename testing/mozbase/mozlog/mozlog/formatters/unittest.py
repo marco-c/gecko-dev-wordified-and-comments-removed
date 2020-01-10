@@ -159,14 +159,6 @@ F
 "
                     
 "
-PRECONDITION_FAILED
-"
-:
-"
-F
-"
-                    
-"
 ERROR
 "
 :
@@ -192,13 +184,6 @@ status
 =
 "
 FAIL
-"
-or
-status
-=
-=
-"
-PRECONDITION_FAILED
 "
 :
                 

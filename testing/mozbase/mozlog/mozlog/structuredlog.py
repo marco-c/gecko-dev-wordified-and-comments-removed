@@ -120,13 +120,12 @@ OK
 |
 ERROR
 |
+              
 TIMEOUT
 |
 CRASH
 |
-              
 ASSERT
-PRECONDITION_FAILED
 |
 SKIP
 ]
@@ -225,9 +224,6 @@ PASS
 FAIL
 |
 TIMEOUT
-|
-              
-PRECONDITION_FAILED
 |
 NOTRUN
 |
