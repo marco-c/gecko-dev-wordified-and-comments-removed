@@ -384,7 +384,7 @@ NS_ERROR_INVALID_ARG
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -3327,7 +3327,7 @@ false
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -3850,7 +3850,7 @@ NS_ERROR_NOT_SAME_THREAD
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -3979,7 +3979,7 @@ NS_ERROR_NOT_SAME_THREAD
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -4275,7 +4275,7 @@ if
 (
 NS_FAILED
 (
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 )
@@ -5570,7 +5570,7 @@ _retval
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;

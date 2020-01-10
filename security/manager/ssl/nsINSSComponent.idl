@@ -535,7 +535,7 @@ loaded
 noscript
 ]
 void
-blockUntilLoadableRootsLoaded
+blockUntilLoadableCertsLoaded
 (
 )
 ;

@@ -274,7 +274,7 @@ NS_ERROR_ILLEGAL_VALUE
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
@@ -393,7 +393,7 @@ _retval
 nsresult
 rv
 =
-BlockUntilLoadableRootsLoaded
+BlockUntilLoadableCertsLoaded
 (
 )
 ;
