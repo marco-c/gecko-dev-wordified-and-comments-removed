@@ -107,10 +107,6 @@ platform
 -
 toolkit
 -
-tools
-/
-rb
--
 xpcom
 /
 idl
