@@ -1172,6 +1172,11 @@ type
 orig
 .
 type
+scopeKind
+:
+orig
+.
+scopeKind
 bindings
 :
 {

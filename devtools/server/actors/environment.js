@@ -163,6 +163,16 @@ obj
 type
 ;
 }
+form
+.
+scopeKind
+=
+this
+.
+obj
+.
+scopeKind
+;
 if
 (
 this

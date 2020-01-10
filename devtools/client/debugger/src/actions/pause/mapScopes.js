@@ -463,6 +463,10 @@ type
 "
 function
 "
+scopeKind
+:
+"
+"
 actor
 bindings
 parent

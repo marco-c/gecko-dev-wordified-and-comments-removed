@@ -375,6 +375,9 @@ function
 "
 block
 "
+scopeKind
+:
+string
 displayName
 :
 string
@@ -874,6 +877,10 @@ block
 scope
 .
 type
+scopeKind
+:
+"
+"
 displayName
 :
 scope

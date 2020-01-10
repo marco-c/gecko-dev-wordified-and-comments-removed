@@ -376,6 +376,10 @@ function
 :
 null
 type
+scopeKind
+:
+"
+"
 }
 ;
 }

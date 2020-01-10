@@ -275,6 +275,11 @@ type
 i
 .
 type
+scopeKind
+:
+i
+.
+scopeKind
 displayName
 :
 i
