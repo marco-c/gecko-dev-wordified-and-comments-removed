@@ -43,6 +43,7 @@ APZInputBridge
 NS_INLINE_DECL_REFCOUNTING
 (
 APZInputBridgeChild
+final
 )
 public
 :

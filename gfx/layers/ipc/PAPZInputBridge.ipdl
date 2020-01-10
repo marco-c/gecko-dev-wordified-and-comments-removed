@@ -356,6 +356,7 @@ instantiated
 *
 /
 sync
+refcounted
 protocol
 PAPZInputBridge
 {
