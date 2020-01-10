@@ -787,7 +787,7 @@ Inst
 }
 ;
 use
-std
+alloc
 :
 :
 string

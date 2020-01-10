@@ -1,4 +1,10 @@
 use
+cranelift_codegen_shared
+:
+:
+constants
+;
+use
 cranelift_entity
 :
 :
@@ -1845,7 +1851,10 @@ len
 )
 <
 =
-32
+constants
+:
+:
+MAX_NUM_REG_CLASSES
 "
 Too
 many
@@ -1908,7 +1917,10 @@ assert
 num_toplevel
 <
 =
-4
+constants
+:
+:
+MAX_TRACKED_TOP_RCS
 "
 Too
 many

@@ -977,6 +977,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 Template
 <

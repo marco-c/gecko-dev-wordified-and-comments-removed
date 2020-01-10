@@ -68,7 +68,7 @@ liveness
 Liveness
 ;
 use
-std
+alloc
 :
 :
 vec

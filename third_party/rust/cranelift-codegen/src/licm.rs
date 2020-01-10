@@ -101,7 +101,7 @@ crate
 timing
 ;
 use
-std
+alloc
 :
 :
 vec

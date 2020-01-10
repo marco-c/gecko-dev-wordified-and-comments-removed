@@ -199,7 +199,7 @@ mod
 tests
 {
 use
-std
+alloc
 :
 :
 vec

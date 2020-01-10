@@ -23,7 +23,7 @@ isa
 TargetIsa
 ;
 use
-std
+alloc
 :
 :
 vec
@@ -41,7 +41,7 @@ NUM_BITS
 :
 usize
 =
-std
+core
 :
 :
 mem
@@ -128,10 +128,7 @@ let
 mut
 live_ref_in_stack_slot
 =
-std
-:
-:
-collections
+crate
 :
 :
 HashSet
@@ -246,7 +243,7 @@ let
 mut
 vec
 =
-std
+alloc
 :
 :
 vec

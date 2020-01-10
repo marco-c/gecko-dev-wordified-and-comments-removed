@@ -112,6 +112,7 @@ InsertBuilder
 InstBuilder
 InstBuilderBase
 InstInserterBase
+ReplaceBuilder
 }
 ;
 pub
@@ -608,7 +609,7 @@ ValueLabelAssignments
 {
 Starts
 (
-std
+alloc
 :
 :
 vec

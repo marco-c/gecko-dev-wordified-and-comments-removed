@@ -72,6 +72,9 @@ as
 SharedDefinitions
 ;
 pub
+(
+crate
+)
 struct
 RecipeGroup
 <

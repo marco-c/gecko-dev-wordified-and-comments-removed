@@ -73,7 +73,7 @@ Configurable
 }
 ;
 use
-std
+alloc
 :
 :
 string

@@ -1300,7 +1300,7 @@ RegClassData
 }
 ;
 use
-std
+alloc
 :
 :
 vec

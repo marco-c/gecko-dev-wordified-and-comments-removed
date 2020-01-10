@@ -23,9 +23,9 @@ version
 "
 0
 .
-44
+46
 .
-0
+1
 "
 description
 =
@@ -121,9 +121,9 @@ version
 "
 0
 .
-44
+46
 .
-0
+1
 "
 default
 -
@@ -160,7 +160,7 @@ features
 =
 false
 }
-hashmap_core
+hashbrown
 =
 {
 version
@@ -168,9 +168,7 @@ version
 "
 0
 .
-1
-.
-9
+6
 "
 optional
 =
@@ -198,6 +196,11 @@ default
 "
 std
 "
+"
+basic
+-
+blocks
+"
 ]
 std
 =
@@ -214,7 +217,7 @@ core
 =
 [
 "
-hashmap_core
+hashbrown
 "
 "
 cranelift

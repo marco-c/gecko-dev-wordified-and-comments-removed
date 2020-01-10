@@ -41,7 +41,7 @@ boundary
 legalize_libcall_signature
 ;
 use
-std
+alloc
 :
 :
 vec

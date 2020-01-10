@@ -29,7 +29,7 @@ Layout
 }
 ;
 use
-std
+alloc
 :
 :
 vec

@@ -66,7 +66,7 @@ isa
 RegUnit
 ;
 use
-std
+alloc
 :
 :
 string

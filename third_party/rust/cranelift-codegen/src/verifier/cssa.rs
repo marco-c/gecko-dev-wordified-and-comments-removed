@@ -671,13 +671,6 @@ overlaps_def
 (
 def
 def_ebb
-self
-.
-liveness
-.
-forest
-(
-)
 &
 self
 .

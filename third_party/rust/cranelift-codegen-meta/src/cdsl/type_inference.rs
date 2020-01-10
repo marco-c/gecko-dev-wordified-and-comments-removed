@@ -65,6 +65,9 @@ Eq
 )
 ]
 pub
+(
+crate
+)
 enum
 Constraint
 {

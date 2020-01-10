@@ -221,7 +221,7 @@ ir
 SourceLoc
 ;
 use
-std
+alloc
 :
 :
 string

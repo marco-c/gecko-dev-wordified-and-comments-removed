@@ -38,9 +38,6 @@ mod
 gen_types
 ;
 mod
-constant_hash
-;
-mod
 default_map
 ;
 mod

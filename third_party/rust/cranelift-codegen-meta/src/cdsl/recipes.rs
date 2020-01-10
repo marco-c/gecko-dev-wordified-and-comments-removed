@@ -333,6 +333,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 EncodingRecipe
 {
@@ -541,6 +544,9 @@ Ord
 )
 ]
 pub
+(
+crate
+)
 struct
 EncodingRecipeNumber
 (
@@ -554,6 +560,9 @@ EncodingRecipeNumber
 )
 ;
 pub
+(
+crate
+)
 type
 Recipes
 =
@@ -571,6 +580,9 @@ Clone
 )
 ]
 pub
+(
+crate
+)
 struct
 EncodingRecipeBuilder
 {

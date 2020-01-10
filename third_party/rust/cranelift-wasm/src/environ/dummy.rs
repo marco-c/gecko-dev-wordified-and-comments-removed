@@ -26,6 +26,15 @@ use
 crate
 :
 :
+state
+:
+:
+ModuleTranslationState
+;
+use
+crate
+:
+:
 translation_utils
 :
 :
@@ -2781,6 +2790,10 @@ define_function_body
 &
 mut
 self
+module_translation_state
+:
+&
+ModuleTranslationState
 body_bytes
 :
 &
@@ -2905,6 +2918,7 @@ trans
 .
 translate
 (
+module_translation_state
 body_bytes
 body_offset
 &

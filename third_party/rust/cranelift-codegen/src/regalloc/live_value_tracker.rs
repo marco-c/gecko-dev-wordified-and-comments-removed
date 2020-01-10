@@ -90,7 +90,7 @@ liverange
 LiveRange
 ;
 use
-std
+alloc
 :
 :
 vec
@@ -677,11 +677,6 @@ lr
 livein_local_end
 (
 ebb
-liveness
-.
-forest
-(
-)
 layout
 )
 {
