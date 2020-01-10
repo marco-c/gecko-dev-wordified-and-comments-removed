@@ -1079,7 +1079,7 @@ layoutRect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
@@ -1111,7 +1111,7 @@ rect
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :

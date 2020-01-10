@@ -1657,14 +1657,14 @@ parent
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 contentRect
 )
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clipBounds
 )
@@ -1906,7 +1906,7 @@ spaceAndClip
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 clip
 )
@@ -2099,7 +2099,7 @@ emplace
 wr
 :
 :
-ToRoundedLayoutRect
+ToLayoutRect
 (
 LayoutDeviceRect
 :
