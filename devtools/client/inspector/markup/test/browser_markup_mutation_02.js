@@ -991,6 +991,8 @@ theme
 -
 bg
 -
+yellow
+-
 contrast
 "
 )
@@ -1029,6 +1031,8 @@ remove
 theme
 -
 bg
+-
+yellow
 -
 contrast
 "
@@ -1109,6 +1113,8 @@ theme
 -
 bg
 -
+yellow
+-
 contrast
 "
 )
@@ -1136,6 +1142,8 @@ remove
 theme
 -
 bg
+-
+yellow
 -
 contrast
 "
