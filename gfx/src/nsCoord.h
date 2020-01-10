@@ -392,7 +392,10 @@ if
 aValue
 >
 =
+float
+(
 nscoord_MAX
+)
 )
 {
 return
@@ -404,7 +407,10 @@ if
 aValue
 <
 =
+float
+(
 nscoord_MIN
+)
 )
 {
 return
@@ -850,7 +856,10 @@ if
 aValue
 >
 =
+float
+(
 nscoord_MAX
+)
 )
 {
 return
@@ -862,7 +871,10 @@ if
 aValue
 <
 =
+float
+(
 nscoord_MIN
+)
 )
 {
 return
@@ -1004,7 +1016,10 @@ if
 aValue
 >
 =
+float
+(
 nscoord_MAX
+)
 )
 {
 return
@@ -1016,7 +1031,10 @@ if
 aValue
 <
 =
+float
+(
 nscoord_MIN
+)
 )
 {
 return
@@ -1048,7 +1066,10 @@ if
 aValue
 >
 =
+float
+(
 nscoord_MAX
+)
 )
 {
 return
@@ -1060,7 +1081,10 @@ if
 aValue
 <
 =
+float
+(
 nscoord_MIN
+)
 )
 {
 return
