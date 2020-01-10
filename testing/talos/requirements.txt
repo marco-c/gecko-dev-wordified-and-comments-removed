@@ -9,9 +9,9 @@ jsonschema
 mozlog
 >
 =
-3
+5
 .
-1
+0
 mozcrash
 >
 =

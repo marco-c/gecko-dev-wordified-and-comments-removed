@@ -51,7 +51,7 @@ mozinfo
 mozlog
 >
 =
-4
+5
 .
 0
 moznetwork
