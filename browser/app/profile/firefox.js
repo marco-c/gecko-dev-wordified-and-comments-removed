@@ -11370,18 +11370,6 @@ defined
 (
 XP_WIN
 )
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
-|
-|
-defined
-(
-MOZ_DEV_EDITION
-)
 pref
 (
 "
@@ -11422,8 +11410,6 @@ enabled
 true
 )
 ;
-#
-endif
 #
 endif
 #
