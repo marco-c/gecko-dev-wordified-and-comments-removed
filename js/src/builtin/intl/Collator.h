@@ -51,9 +51,6 @@ namespace
 js
 {
 class
-FreeOp
-;
-class
 GlobalObject
 ;
 class

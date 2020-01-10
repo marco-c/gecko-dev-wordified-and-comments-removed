@@ -75,9 +75,6 @@ class
 AutoLockGCBgAlloc
 ;
 class
-FreeOp
-;
-class
 NurseryDecommitTask
 ;
 namespace

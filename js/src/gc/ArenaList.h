@@ -44,9 +44,6 @@ namespace
 js
 {
 class
-FreeOp
-;
-class
 Nursery
 ;
 class

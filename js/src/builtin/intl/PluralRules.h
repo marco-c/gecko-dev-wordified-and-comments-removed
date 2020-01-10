@@ -62,9 +62,6 @@ namespace
 js
 {
 class
-FreeOp
-;
-class
 PluralRulesObject
 :
 public

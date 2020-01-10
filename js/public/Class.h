@@ -51,9 +51,6 @@ struct
 JSAtomState
 ;
 struct
-JSFreeOp
-;
-struct
 JSFunctionSpec
 ;
 namespace
@@ -61,9 +58,6 @@ js
 {
 struct
 Class
-;
-class
-FreeOp
 ;
 class
 Shape
