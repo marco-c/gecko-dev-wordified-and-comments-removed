@@ -166,7 +166,7 @@ repo
 from
 which
 the
-TaskCluster
+Taskcluster
 run
 was
 scheduled
@@ -561,7 +561,7 @@ error
 "
 No
 complete
-TaskCluster
+Taskcluster
 runs
 found
 for
