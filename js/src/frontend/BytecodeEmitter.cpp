@@ -7414,6 +7414,12 @@ case
 ParseNodeKind
 :
 :
+LastUnused
+:
+case
+ParseNodeKind
+:
+:
 Limit
 :
 MOZ_CRASH
