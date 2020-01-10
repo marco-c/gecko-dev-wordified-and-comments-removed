@@ -38619,7 +38619,7 @@ newURIStoragePrincipalToInherit
 doc
 -
 >
-EffectiveStoragePrincipal
+IntrinsicStoragePrincipal
 (
 )
 ;
@@ -40735,7 +40735,7 @@ aConsiderStoragePrincipal
 document
 -
 >
-EffectiveStoragePrincipal
+IntrinsicStoragePrincipal
 (
 )
 :

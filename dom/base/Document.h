@@ -2108,6 +2108,17 @@ EffectiveStoragePrincipal
 )
 ;
 }
+nsIPrincipal
+*
+IntrinsicStoragePrincipal
+(
+)
+const
+{
+return
+mIntrinsicStoragePrincipal
+;
+}
 void
 GetEventTargetParent
 (
