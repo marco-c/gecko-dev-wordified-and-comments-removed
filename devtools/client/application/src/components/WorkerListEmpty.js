@@ -47,7 +47,7 @@ types
 const
 {
 createFactory
-Component
+PureComponent
 }
 =
 require
@@ -166,7 +166,7 @@ blank
 class
 WorkerListEmpty
 extends
-Component
+PureComponent
 {
 static
 get

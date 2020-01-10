@@ -46,7 +46,7 @@ types
 const
 {
 createFactory
-Component
+PureComponent
 }
 =
 require
@@ -140,7 +140,7 @@ Localized
 class
 WorkerList
 extends
-Component
+PureComponent
 {
 static
 get
