@@ -25792,18 +25792,6 @@ funbox
 (
 )
 ;
-RootedFunction
-fun
-(
-cx
-funbox
--
->
-function
-(
-)
-)
-;
 MOZ_ASSERT
 (
 (
@@ -25906,7 +25894,7 @@ true
 }
 if
 (
-fun
+funbox
 -
 >
 isInterpreted
@@ -25916,7 +25904,7 @@ isInterpreted
 {
 if
 (
-fun
+funbox
 -
 >
 isInterpretedLazy
