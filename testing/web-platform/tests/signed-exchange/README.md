@@ -5,7 +5,7 @@ tests
 for
 the
 [
-b2
+b3
 implementation
 snapshot
 ]
@@ -36,7 +36,7 @@ exchanges
 -
 impl
 -
-02
+03
 )
 of
 the
