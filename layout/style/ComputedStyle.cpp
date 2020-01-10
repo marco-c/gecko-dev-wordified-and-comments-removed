@@ -491,9 +491,15 @@ struct_
 (
 )
 )
-DO_STRUCT_DIFFERENCE
+DO_STRUCT_DIFFERENCE_WITH_ARGS
 (
 Display
+(
+*
+StylePosition
+(
+)
+)
 )
 ;
 DO_STRUCT_DIFFERENCE
