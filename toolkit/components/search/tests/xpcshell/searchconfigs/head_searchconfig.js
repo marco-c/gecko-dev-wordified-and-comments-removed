@@ -1084,10 +1084,6 @@ utf
 )
 ;
 return
-[
-.
-.
-.
 data
 .
 split
@@ -1109,12 +1105,6 @@ e
 "
 "
 )
-"
-en
--
-US
-"
-]
 ;
 }
 _localeIncludes
