@@ -4083,6 +4083,16 @@ atomsZone
 (
 nullptr
 )
+heapState_
+(
+JS
+:
+:
+HeapState
+:
+:
+Idle
+)
 stats_
 (
 this
@@ -32669,6 +32679,8 @@ prevState
 rt
 -
 >
+gc
+.
 heapState_
 )
 profilingStackFrame
@@ -32731,6 +32743,8 @@ Idle
 rt
 -
 >
+gc
+.
 heapState_
 =
 heapState
@@ -32757,6 +32771,8 @@ RuntimeHeapIsBusy
 runtime
 -
 >
+gc
+.
 heapState_
 =
 prevState
@@ -32787,6 +32803,8 @@ runtime
 )
 -
 >
+gc
+.
 heapState
 (
 )
@@ -41389,6 +41407,8 @@ RuntimeHeapIsBusy
 runtime_
 -
 >
+gc
+.
 heapState_
 =
 HeapState
@@ -41421,6 +41441,8 @@ RuntimeHeapIsCycleCollecting
 runtime_
 -
 >
+gc
+.
 heapState_
 =
 HeapState
