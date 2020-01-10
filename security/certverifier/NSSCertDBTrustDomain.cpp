@@ -2725,6 +2725,8 @@ CertID
 certID
 Time
 time
+Time
+validityPeriodBeginning
 Duration
 validityDuration
 const
