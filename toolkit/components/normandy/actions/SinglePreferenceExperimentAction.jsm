@@ -209,7 +209,7 @@ multiprefSchema
 ActionSchemas
 [
 "
-multiple
+multi
 -
 preference
 -
