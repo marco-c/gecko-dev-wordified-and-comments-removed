@@ -115,9 +115,7 @@ container1
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -240,9 +238,7 @@ parent
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -366,6 +362,11 @@ container2Parent
 tree
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;

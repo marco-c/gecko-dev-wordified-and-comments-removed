@@ -338,9 +338,7 @@ id
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -462,9 +460,7 @@ id
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -712,9 +708,7 @@ id
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -836,9 +830,7 @@ t3_child
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -1261,9 +1253,7 @@ id
 )
 ;
 await
-SpecialPowers
-.
-spawn
+invokeContentTask
 (
 browser
 [
@@ -1380,6 +1370,11 @@ browser
 accDoc
 )
 ;
+}
+{
+iframe
+:
+true
 }
 )
 ;
