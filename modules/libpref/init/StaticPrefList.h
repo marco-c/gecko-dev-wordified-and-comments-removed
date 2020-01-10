@@ -13659,7 +13659,7 @@ XP_UNIX
 !
 defined
 (
-Android
+ANDROID
 )
 #
 define
@@ -13737,7 +13737,7 @@ XP_UNIX
 !
 defined
 (
-Android
+ANDROID
 )
 RelaxedAtomicBool
 true
