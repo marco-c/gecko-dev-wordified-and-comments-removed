@@ -720,7 +720,7 @@ event
 )
 ;
 return
-INPUT_RESULT_UNHANDLED
+INPUT_RESULT_HANDLED
 ;
 }
 final
@@ -1084,7 +1084,7 @@ event
 )
 ;
 return
-INPUT_RESULT_UNHANDLED
+INPUT_RESULT_HANDLED
 ;
 }
 final
