@@ -5608,6 +5608,24 @@ set_test_name
 if
 self
 .
+show_bugs
+:
+                
+self
+.
+report_bugs
+(
+)
+            
+self
+.
+set_activedata_test_name
+(
+)
+            
+if
+self
+.
 show_results
 :
                 
@@ -5638,18 +5656,6 @@ show_tasks
 self
 .
 report_test_tasks
-(
-)
-            
-if
-self
-.
-show_bugs
-:
-                
-self
-.
-report_bugs
 (
 )
     
@@ -5747,9 +5753,6 @@ self
         
 import
 posixpath
-        
-import
-re
         
 self
 .
@@ -6311,6 +6314,16 @@ show_tasks
 :
             
 return
+    
+def
+set_activedata_test_name
+(
+self
+)
+:
+        
+import
+re
         
 self
 .
