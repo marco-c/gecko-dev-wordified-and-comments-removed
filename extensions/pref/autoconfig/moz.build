@@ -107,3 +107,17 @@ xpcshell
 ini
 '
 ]
+MARIONETTE_UNIT_MANIFESTS
++
+=
+[
+'
+test
+/
+marionette
+/
+manifest
+.
+ini
+'
+]
