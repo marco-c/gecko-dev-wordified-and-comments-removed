@@ -13,6 +13,8 @@ HTTPConnection
 import
 io
 import
+json
+import
 os
 import
 threading
@@ -4103,6 +4105,8 @@ action
 try
 :
             
+result
+=
 action_handler
 (
 payload
@@ -4169,10 +4173,27 @@ Action
 %
 s
 completed
+with
+result
+%
+s
 "
 %
+(
 action
+result
 )
+)
+            
+return_message
+=
+{
+"
+result
+"
+:
+result
+}
             
 self
 .
@@ -4184,6 +4205,12 @@ complete
 "
 success
 "
+json
+.
+dumps
+(
+return_message
+)
 )
         
 return
