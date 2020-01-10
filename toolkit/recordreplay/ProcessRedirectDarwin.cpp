@@ -11528,6 +11528,16 @@ Preamble_PassThrough
 }
 {
 "
+arc4random_buf
+"
+RR_WriteBuffer
+<
+0
+1
+>
+}
+{
+"
 mach_absolute_time
 "
 RR_ScalarRval
