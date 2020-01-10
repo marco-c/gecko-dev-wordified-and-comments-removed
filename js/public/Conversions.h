@@ -2250,7 +2250,7 @@ constexpr
 size_t
 MaximumNumberToStringLength
 =
-24
+31
 +
 1
 ;
