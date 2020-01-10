@@ -590,6 +590,14 @@ self
 .
 triple
 current
+&
+self
+.
+shared_flags
+&
+self
+.
+isa_flags
 )
 }
 fn

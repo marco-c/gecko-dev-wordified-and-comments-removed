@@ -1882,7 +1882,7 @@ n
 \
 enable_simd
 =
-true
+false
 \
 n
 \
@@ -1943,7 +1943,7 @@ f
 enable_simd
 (
 )
-true
+false
 )
 ;
 assert_eq

@@ -46,6 +46,8 @@ derive
 Clone
 Debug
 PartialEq
+Eq
+Hash
 )
 ]
 pub
@@ -710,6 +712,8 @@ derive
 Clone
 Copy
 PartialEq
+Eq
+Hash
 )
 ]
 pub
@@ -2033,6 +2037,8 @@ derive
 (
 Clone
 PartialEq
+Eq
+Hash
 )
 ]
 pub
@@ -2334,6 +2340,8 @@ derive
 (
 Clone
 PartialEq
+Eq
+Hash
 )
 ]
 pub

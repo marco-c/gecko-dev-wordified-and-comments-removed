@@ -12,6 +12,10 @@ cpu_modes
 ;
 pub
 mod
+encodings
+;
+pub
+mod
 formats
 ;
 pub
@@ -25,6 +29,10 @@ isa
 pub
 mod
 operands
+;
+pub
+mod
+recipes
 ;
 pub
 mod

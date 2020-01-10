@@ -2072,7 +2072,7 @@ Bound
 (
 ctrl_type
 .
-lane_type
+lane_of
 (
 )
 )

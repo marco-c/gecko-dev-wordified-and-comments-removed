@@ -174,6 +174,7 @@ Sized
 (
 op
 :
+&
 Operator
 builder
 :
@@ -246,6 +247,7 @@ Variable
 :
 with_u32
 (
+*
 local_index
 )
 )
@@ -265,6 +267,7 @@ ValueLabel
 :
 from_u32
 (
+*
 local_index
 )
 ;
@@ -305,6 +308,7 @@ Variable
 :
 with_u32
 (
+*
 local_index
 )
 val
@@ -318,6 +322,7 @@ ValueLabel
 :
 from_u32
 (
+*
 local_index
 )
 ;
@@ -358,6 +363,7 @@ Variable
 :
 with_u32
 (
+*
 local_index
 )
 val
@@ -371,6 +377,7 @@ ValueLabel
 :
 from_u32
 (
+*
 local_index
 )
 ;
@@ -404,6 +411,7 @@ get_global
 builder
 .
 func
+*
 global_index
 environ
 )
@@ -505,6 +513,7 @@ get_global
 builder
 .
 func
+*
 global_index
 environ
 )
@@ -531,6 +540,7 @@ is
 a
 constant
 "
+*
 global_index
 )
 GlobalVariable
@@ -739,6 +749,7 @@ ty_cre
 =
 blocktype_to_type
 (
+*
 ty
 )
 {
@@ -758,6 +769,7 @@ push_block
 next
 num_return_values
 (
+*
 ty
 )
 ?
@@ -801,6 +813,7 @@ ty_cre
 =
 blocktype_to_type
 (
+*
 ty
 )
 {
@@ -835,6 +848,7 @@ loop_body
 next
 num_return_values
 (
+*
 ty
 )
 ?
@@ -906,6 +920,58 @@ if_not
 ]
 )
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+basic
+-
+blocks
+"
+)
+]
+{
+let
+next_ebb
+=
+builder
+.
+create_ebb
+(
+)
+;
+builder
+.
+ins
+(
+)
+.
+jump
+(
+next_ebb
+&
+[
+]
+)
+;
+builder
+.
+seal_block
+(
+next_ebb
+)
+;
+builder
+.
+switch_to_block
+(
+next_ebb
+)
+;
+}
 if
 let
 Ok
@@ -915,6 +981,7 @@ ty_cre
 =
 blocktype_to_type
 (
+*
 ty
 )
 {
@@ -935,6 +1002,7 @@ jump_inst
 if_not
 num_return_values
 (
+*
 ty
 )
 ?
@@ -1242,6 +1310,7 @@ len
 1
 -
 (
+*
 relative_depth
 as
 usize
@@ -1345,6 +1414,7 @@ relative_depth
 >
 translate_br_if
 (
+*
 relative_depth
 builder
 state
@@ -2076,6 +2146,7 @@ get_direct_func
 builder
 .
 func
+*
 function_index
 environ
 )
@@ -2098,6 +2169,7 @@ FuncIndex
 :
 from_u32
 (
+*
 function_index
 )
 fref
@@ -2205,6 +2277,7 @@ get_indirect_sig
 builder
 .
 func
+*
 index
 environ
 )
@@ -2220,6 +2293,7 @@ get_table
 builder
 .
 func
+*
 table_index
 environ
 )
@@ -2251,6 +2325,7 @@ TableIndex
 :
 from_u32
 (
+*
 table_index
 )
 table
@@ -2259,6 +2334,7 @@ SignatureIndex
 :
 from_u32
 (
+*
 index
 )
 sigref
@@ -2350,6 +2426,7 @@ MemoryIndex
 :
 from_u32
 (
+*
 reserved
 )
 ;
@@ -2363,6 +2440,7 @@ get_heap
 builder
 .
 func
+*
 reserved
 environ
 )
@@ -2415,6 +2493,7 @@ MemoryIndex
 :
 from_u32
 (
+*
 reserved
 )
 ;
@@ -2428,6 +2507,7 @@ get_heap
 builder
 .
 func
+*
 reserved
 environ
 )
@@ -2473,6 +2553,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2509,6 +2590,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2545,6 +2627,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2581,6 +2664,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2617,6 +2701,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2653,6 +2738,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2689,6 +2775,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2725,6 +2812,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2761,6 +2849,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2797,6 +2886,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2833,6 +2923,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2869,6 +2960,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2905,6 +2997,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -2941,6 +3034,7 @@ offset
 {
 translate_load
 (
+*
 offset
 ir
 :
@@ -3025,6 +3119,7 @@ offset
 {
 translate_store
 (
+*
 offset
 ir
 :
@@ -3076,6 +3171,7 @@ offset
 {
 translate_store
 (
+*
 offset
 ir
 :
@@ -3127,6 +3223,7 @@ offset
 {
 translate_store
 (
+*
 offset
 ir
 :
@@ -3162,6 +3259,7 @@ offset
 {
 translate_store
 (
+*
 offset
 ir
 :
@@ -3204,6 +3302,7 @@ i64
 :
 from
 (
+*
 value
 )
 )
@@ -3230,6 +3329,7 @@ ins
 iconst
 (
 I64
+*
 value
 )
 )
@@ -3257,6 +3357,7 @@ f32const
 (
 f32_translation
 (
+*
 value
 )
 )
@@ -3287,6 +3388,7 @@ f64const
 (
 f64_translation
 (
+*
 value
 )
 )
@@ -8668,6 +8770,58 @@ br_destination
 inputs
 )
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+basic
+-
+blocks
+"
+)
+]
+{
+let
+next_ebb
+=
+builder
+.
+create_ebb
+(
+)
+;
+builder
+.
+ins
+(
+)
+.
+jump
+(
+next_ebb
+&
+[
+]
+)
+;
+builder
+.
+seal_block
+(
+next_ebb
+)
+;
+builder
+.
+switch_to_block
+(
+next_ebb
+)
+;
+}
 }
 fn
 translate_br_if_args
