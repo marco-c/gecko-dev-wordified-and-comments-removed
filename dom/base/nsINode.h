@@ -1461,6 +1461,12 @@ GetParentObject
 )
 const
 ;
+nsIContent
+*
+GetFirstChildOfTemplateOrNode
+(
+)
+;
 virtual
 nsINode
 *

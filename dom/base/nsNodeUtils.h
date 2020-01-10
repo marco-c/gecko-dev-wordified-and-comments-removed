@@ -563,16 +563,6 @@ ErrorResult
 aError
 )
 ;
-static
-nsIContent
-*
-GetFirstChildOfTemplateOrNode
-(
-nsINode
-*
-aNode
-)
-;
 private
 :
 static
