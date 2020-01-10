@@ -340,6 +340,14 @@ UrlbarInput
 inputOptions
 )
 ;
+doc
+.
+documentElement
+.
+getBoundingClientRect
+(
+)
+;
 await
 callback
 (
