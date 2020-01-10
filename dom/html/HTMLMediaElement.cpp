@@ -24565,6 +24565,8 @@ durationchange
 )
 ;
 }
+else
+{
 if
 (
 HasAttr
@@ -24584,6 +24586,7 @@ SetCurrentTime
 ;
 return
 ;
+}
 }
 FireTimeUpdate
 (
