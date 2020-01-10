@@ -9170,6 +9170,8 @@ bug_numbers
 1522256
 -
 1522919
+-
+1553181
 description
 :
 >
@@ -9225,7 +9227,7 @@ visible
 expiry_version
 :
 "
-70
+72
 "
 notification_emails
 :
@@ -9359,6 +9361,8 @@ bug_numbers
 :
 -
 1484251
+-
+1553181
 description
 :
 >
@@ -9375,7 +9379,7 @@ popup
 expiry_version
 :
 "
-70
+72
 "
 notification_emails
 :
