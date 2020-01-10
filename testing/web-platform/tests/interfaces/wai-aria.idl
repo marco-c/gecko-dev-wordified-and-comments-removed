@@ -124,6 +124,11 @@ ariaColIndex
 attribute
 DOMString
 ?
+ariaColIndexText
+;
+attribute
+DOMString
+?
 ariaColSpan
 ;
 attribute
@@ -290,6 +295,11 @@ attribute
 DOMString
 ?
 ariaRowIndex
+;
+attribute
+DOMString
+?
+ariaRowIndexText
 ;
 attribute
 DOMString
