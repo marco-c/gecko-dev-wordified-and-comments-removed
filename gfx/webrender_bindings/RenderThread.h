@@ -744,16 +744,6 @@ aDocFrameCount
 )
 ;
 void
-FrameRenderingComplete
-(
-wr
-:
-:
-WindowId
-aWindowId
-)
-;
-void
 NotifySlowFrame
 (
 wr
