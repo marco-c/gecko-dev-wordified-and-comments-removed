@@ -48,15 +48,6 @@ js
 "
 )
 ;
-dbg
-.
-client
-.
-waitForWorkers
-(
-true
-)
-;
 await
 selectSource
 (
