@@ -143,6 +143,17 @@ existing
 p
 (
 {
+className
+:
+"
+js
+-
+manifest
+-
+non
+-
+existing
+"
 }
 )
 )

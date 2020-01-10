@@ -182,11 +182,7 @@ workers
 return
 setupStore
 (
-{
-preloadedState
-:
 state
-}
 )
 ;
 }
