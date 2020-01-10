@@ -2490,6 +2490,12 @@ case
 EditSubAction
 :
 :
+eMergeBlockContents
+:
+case
+EditSubAction
+:
+:
 eRemoveList
 :
 case

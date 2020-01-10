@@ -167,6 +167,7 @@ eIndent
 eOutdent
 eSetOrClearAlignment
 eCreateOrRemoveBlock
+eMergeBlockContents
 eRemoveList
 eCreateOrChangeDefinitionList
 eInsertElement

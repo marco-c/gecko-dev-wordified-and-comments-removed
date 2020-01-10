@@ -2932,7 +2932,6 @@ aEditSubAction
 CollectNonEditableNodes
 aCollectNonEditableNodes
 )
-const
 ;
 enum
 class
