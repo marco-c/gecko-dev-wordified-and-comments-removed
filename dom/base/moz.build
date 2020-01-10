@@ -1289,6 +1289,11 @@ UIDirectionManager
 h
 '
 '
+ViewportMetaData
+.
+h
+'
+'
 VisualViewport
 .
 h
@@ -2117,6 +2122,11 @@ cpp
 '
 '
 UIDirectionManager
+.
+cpp
+'
+'
+ViewportMetaData
 .
 cpp
 '

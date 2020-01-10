@@ -56,6 +56,17 @@ include
 "
 mozilla
 /
+dom
+/
+ViewportMetaData
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h
@@ -356,7 +367,7 @@ GetContent
 content
 )
 ;
-nsContentUtils
+ViewportMetaData
 :
 :
 ProcessViewportInfo
@@ -478,7 +489,7 @@ GetContent
 content
 )
 ;
-nsContentUtils
+ViewportMetaData
 :
 :
 ProcessViewportInfo
