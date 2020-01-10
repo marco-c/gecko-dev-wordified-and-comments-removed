@@ -28,6 +28,10 @@ error
 mod
 manager
 ;
+pub
+mod
+migrate
+;
 mod
 readwrite
 ;
