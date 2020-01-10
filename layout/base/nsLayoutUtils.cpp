@@ -32575,6 +32575,9 @@ FirstChild
 ;
 if
 (
+kid
+&
+&
 GetFirstLinePosition
 (
 aWM
