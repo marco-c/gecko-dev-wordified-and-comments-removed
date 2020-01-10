@@ -382,6 +382,11 @@ UnlockStartup
 (
 )
 {
+if
+(
+mRemoteLockDir
+)
+{
 mRemoteLock
 .
 Unlock
@@ -394,11 +399,6 @@ Cleanup
 (
 )
 ;
-if
-(
-mRemoteLockDir
-)
-{
 mRemoteLockDir
 -
 >
@@ -825,6 +825,10 @@ nsRemoteService
 (
 )
 {
+UnlockStartup
+(
+)
+;
 ShutdownServer
 (
 )

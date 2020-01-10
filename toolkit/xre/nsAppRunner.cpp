@@ -18806,6 +18806,13 @@ aExitFlag
 =
 true
 ;
+mRemoteService
+-
+>
+UnlockStartup
+(
+)
+;
 return
 0
 ;
@@ -18818,6 +18825,13 @@ rr
 REMOTE_ARG_BAD
 )
 {
+mRemoteService
+-
+>
+UnlockStartup
+(
+)
+;
 return
 1
 ;
