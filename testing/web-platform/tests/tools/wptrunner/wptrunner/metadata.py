@@ -16,6 +16,12 @@ mozlog
 import
 structuredlog
 from
+six
+.
+moves
+import
+intern
+from
 .
 import
 manifestupdate
@@ -3939,7 +3945,7 @@ value
 int
 )
 :
-             
+            
 out_val
 +
 =

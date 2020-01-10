@@ -3115,7 +3115,7 @@ issubset
 update_properties
 )
 and
-                    
+                     
 not
 run_info_by_condition
 [
@@ -3124,7 +3124,7 @@ condition
 )
 )
 :
-                        
+                    
 conditions
 .
 append
@@ -3133,7 +3133,7 @@ append
 condition
 .
 condition_node
-                                            
+                                       
 self
 .
 from_ini_value
@@ -3982,11 +3982,12 @@ self
 .
 update_intermittent
 or
+            
 self
 .
 remove_intermittent
-            
 or
+            
 not
 result
 .
