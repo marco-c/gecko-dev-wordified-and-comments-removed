@@ -8398,11 +8398,12 @@ current
 ;
 current
 =
-current
--
->
-GetParent
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
 (
+current
 )
 )
 {
