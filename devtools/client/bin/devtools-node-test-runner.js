@@ -112,7 +112,7 @@ application
 /
 test
 /
-node
+components
 "
 type
 :

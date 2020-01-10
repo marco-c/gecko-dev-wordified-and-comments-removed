@@ -65,15 +65,8 @@ MANIFEST_WITH_ISSUES
 require
 (
 "
-devtools
-/
-client
-/
-application
-/
-test
-/
-jest
+.
+.
 /
 fixtures
 /
