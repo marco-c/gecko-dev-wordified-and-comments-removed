@@ -10234,12 +10234,11 @@ this
 ;
 if
 (
-nsNodeUtils
-:
-:
+target
+-
+>
 IsTemplateElement
 (
-target
 )
 )
 {

@@ -1702,12 +1702,11 @@ if
 fragHost
 &
 &
-nsNodeUtils
-:
-:
+fragHost
+-
+>
 IsTemplateElement
 (
-fragHost
 )
 )
 {

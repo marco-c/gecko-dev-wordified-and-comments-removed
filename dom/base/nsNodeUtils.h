@@ -598,16 +598,6 @@ aError
 )
 ;
 static
-bool
-IsTemplateElement
-(
-const
-nsINode
-*
-aNode
-)
-;
-static
 nsIContent
 *
 GetFirstChildOfTemplateOrNode

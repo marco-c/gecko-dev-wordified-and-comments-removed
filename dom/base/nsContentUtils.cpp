@@ -43925,12 +43925,11 @@ if
 fragHost
 &
 &
-nsNodeUtils
-:
-:
+fragHost
+-
+>
 IsTemplateElement
 (
-fragHost
 )
 )
 {
@@ -49174,9 +49173,6 @@ kIdTotalBits
 kIdProcessBits
 ;
 uint64_t
-nsContentUtils
-:
-:
 GenerateProcessSpecificId
 (
 uint64_t
