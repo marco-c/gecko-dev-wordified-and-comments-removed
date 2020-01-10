@@ -3673,7 +3673,7 @@ os
 chmod
 (
 configure
-0o755
+0755
 )
     
 if

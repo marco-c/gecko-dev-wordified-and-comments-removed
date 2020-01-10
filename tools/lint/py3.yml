@@ -61,6 +61,10 @@ ipc
 /
 ipdl
 -
+js
+/
+src
+-
 layout
 /
 reftests
@@ -162,6 +166,12 @@ profiler
 tools
 /
 rb
+-
+tools
+/
+update
+-
+packaging
 -
 xpcom
 /
