@@ -206,7 +206,7 @@ console
 .
 error
 (
-msg
+exception
 )
 ;
 }
