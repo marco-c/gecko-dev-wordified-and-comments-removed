@@ -30,12 +30,8 @@ main
 className
 =
 "
-app
+application
 "
->
-<
-Sidebar
-/
 >
 <
 Connect
