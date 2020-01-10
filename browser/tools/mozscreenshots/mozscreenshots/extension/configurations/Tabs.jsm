@@ -819,6 +819,8 @@ browserWindow
 gBrowser
 .
 tabContainer
+.
+arrowScrollbox
 "
 scrollend
 "
