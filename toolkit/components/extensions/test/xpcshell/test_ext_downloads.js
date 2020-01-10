@@ -166,11 +166,6 @@ downloads
 .
 open
 "
-"
-downloads
-.
-shelf
-"
 ]
 }
 }
