@@ -25,6 +25,8 @@ string
 include
 "
 lz4
+/
+lz4
 .
 h
 "
