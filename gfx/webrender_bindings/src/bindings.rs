@@ -10402,9 +10402,9 @@ scrolling_relative_to
 const
 u64
 pub
-prim_flags
+is_backface_visible
 :
-PrimitiveFlags
+bool
 pub
 cache_tiles
 :
@@ -11110,7 +11110,7 @@ origin
 wr_spatial_id
 params
 .
-prim_flags
+is_backface_visible
 wr_clip_id
 params
 .

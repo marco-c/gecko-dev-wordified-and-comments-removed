@@ -93,7 +93,6 @@ self
 DisplayListBuilder
 DocumentId
 PipelineId
-PrimitiveFlags
 RenderApi
 Transaction
 }
@@ -1383,10 +1382,7 @@ zero
 space_and_clip
 .
 spatial_id
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
+true
 )
 ;
 let

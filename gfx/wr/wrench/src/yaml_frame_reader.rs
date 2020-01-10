@@ -13703,6 +13703,14 @@ unwrap
 info
 .
 flags
+.
+contains
+(
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
+)
 clip_node_id
 transform_style
 mix_blend_mode
