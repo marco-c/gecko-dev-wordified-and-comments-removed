@@ -40,7 +40,7 @@ get_host_info
 (
 )
 .
-HTTP_NOTSAMESITE_ORIGIN
+HTTP_REMOTE_ORIGIN
 +
 "
 /
