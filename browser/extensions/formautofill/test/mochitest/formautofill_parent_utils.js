@@ -125,6 +125,11 @@ CREDITCARDS_COLLECTION_NAME
 =
 FormAutofillUtils
 ;
+let
+destroyed
+=
+false
+;
 var
 ParentUtils
 =
@@ -276,6 +281,12 @@ count
 return
 ;
 }
+if
+(
+!
+destroyed
+)
+{
 let
 allowedNames
 =
@@ -334,6 +345,7 @@ guid
 "
 )
 ;
+}
 }
 Services
 .
@@ -985,6 +997,12 @@ topic
 data
 )
 {
+if
+(
+!
+destroyed
+)
+{
 assert
 .
 ok
@@ -1002,6 +1020,7 @@ changed
 "
 )
 ;
+}
 sendAsyncMessage
 (
 "
@@ -1375,6 +1394,10 @@ async
 =
 >
 {
+destroyed
+=
+true
+;
 await
 ParentUtils
 .
