@@ -1841,13 +1841,7 @@ kind
 if
 defined
 (
-JS_CRASH_DIAGNOSTICS
-)
-|
-|
-defined
-(
-JS_GC_ZEAL
+JS_GC_POISONING
 )
 if
 (
