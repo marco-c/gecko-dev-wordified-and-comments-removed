@@ -595,15 +595,6 @@ mCriticalRequestPrioritization
 ;
 }
 bool
-IsDocumentNosniffEnabled
-(
-)
-{
-return
-mRespectDocumentNoSniff
-;
-}
-bool
 UseH2Deps
 (
 )
@@ -2085,9 +2076,6 @@ mRequestTokenBucketBurst
 ;
 bool
 mCriticalRequestPrioritization
-;
-bool
-mRespectDocumentNoSniff
 ;
 bool
 mTCPKeepaliveShortLivedEnabled
