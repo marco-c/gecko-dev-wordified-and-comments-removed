@@ -1,4 +1,10 @@
 #
+ifndef
+SANDBOX_WIN_SRC_HEAP_HELPER_H_
+#
+define
+SANDBOX_WIN_SRC_HEAP_HELPER_H_
+#
 include
 <
 windows
@@ -35,3 +41,5 @@ FindCsrPortHeap
 )
 ;
 }
+#
+endif

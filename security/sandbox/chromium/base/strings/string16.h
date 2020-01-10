@@ -59,6 +59,16 @@ defined
 (
 WCHAR_T_IS_UTF16
 )
+#
+define
+STRING16_LITERAL
+(
+x
+)
+L
+#
+#
+x
 namespace
 base
 {

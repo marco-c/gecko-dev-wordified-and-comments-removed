@@ -180,11 +180,7 @@ opcode_maker
 MakeOpVoidPtrMatch
 (
 SecurityAttributes
-(
-void
-*
-)
-NULL
+nullptr
 kPolNone
 )
 ;
@@ -273,7 +269,7 @@ void
 *
 security_descriptor
 =
-NULL
+nullptr
 ;
 POLPARAMS_BEGIN
 (

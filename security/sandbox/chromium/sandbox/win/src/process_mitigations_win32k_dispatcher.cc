@@ -185,7 +185,7 @@ GetCurrentProcess
 &
 result_handle
 0
-FALSE
+false
 DUPLICATE_SAME_ACCESS
 )
 )
@@ -1568,7 +1568,7 @@ HMONITOR
 monitor
 )
 ;
-BOOL
+bool
 success
 =
 ProcessMitigationsWin32KLockdownPolicy

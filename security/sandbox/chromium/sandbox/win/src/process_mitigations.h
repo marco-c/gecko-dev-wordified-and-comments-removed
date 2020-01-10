@@ -77,6 +77,11 @@ MitigationFlags
 flags
 )
 ;
+MitigationFlags
+GetAllowedPostStartupProcessMitigations
+(
+)
+;
 bool
 CanSetProcessMitigationsPostStartup
 (

@@ -147,8 +147,7 @@ buffer
 explicit
 IPCInt
 (
-unsigned
-__int32
+uint32_t
 i32
 )
 {
@@ -156,7 +155,7 @@ buffer_
 .
 vp
 =
-NULL
+nullptr
 ;
 buffer_
 .
@@ -165,8 +164,7 @@ i32
 i32
 ;
 }
-unsigned
-__int32
+uint32_t
 As32Bit
 (
 )
@@ -200,8 +198,7 @@ void
 *
 vp
 ;
-unsigned
-__int32
+uint32_t
 i32
 ;
 }

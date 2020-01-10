@@ -8981,6 +8981,8 @@ esign
 =
 1
 ;
+FALLTHROUGH
+;
 case
 '
 +
@@ -12737,6 +12739,8 @@ sign
 =
 1
 ;
+FALLTHROUGH
+;
 case
 '
 +
@@ -12751,6 +12755,8 @@ s
 )
 goto
 break2
+;
+FALLTHROUGH
 ;
 case
 0
@@ -13429,6 +13435,8 @@ case
 esign
 =
 1
+;
+FALLTHROUGH
 ;
 case
 '
@@ -19768,6 +19776,8 @@ leftright
 =
 0
 ;
+FALLTHROUGH
+;
 case
 4
 :
@@ -19798,6 +19808,8 @@ case
 leftright
 =
 0
+;
+FALLTHROUGH
 ;
 case
 5

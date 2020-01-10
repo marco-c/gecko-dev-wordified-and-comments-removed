@@ -130,6 +130,14 @@ chromium
 shim
 '
 ]
+DEFINES
+[
+'
+UNICODE
+'
+]
+=
+True
 FINAL_LIBRARY
 =
 '

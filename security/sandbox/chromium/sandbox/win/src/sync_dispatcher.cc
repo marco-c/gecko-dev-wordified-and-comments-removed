@@ -352,7 +352,7 @@ GetBase
 HANDLE
 handle
 =
-NULL
+nullptr
 ;
 ipc
 -
@@ -475,7 +475,7 @@ GetBase
 HANDLE
 handle
 =
-NULL
+nullptr
 ;
 ipc
 -

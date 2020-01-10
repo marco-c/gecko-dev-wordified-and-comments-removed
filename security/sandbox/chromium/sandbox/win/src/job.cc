@@ -59,11 +59,10 @@ Job
 :
 job_handle_
 (
-NULL
+nullptr
 )
 {
 }
-;
 Job
 :
 :
@@ -73,7 +72,6 @@ Job
 )
 {
 }
-;
 DWORD
 Job
 :
@@ -111,7 +109,7 @@ Set
 :
 CreateJobObject
 (
-NULL
+nullptr
 job_name
 )
 )
@@ -162,6 +160,8 @@ LimitFlags
 =
 JOB_OBJECT_LIMIT_DIE_ON_UNHANDLED_EXCEPTION
 ;
+FALLTHROUGH
+;
 }
 case
 JOB_RESTRICTED
@@ -195,6 +195,8 @@ UIRestrictionsClass
 =
 JOB_OBJECT_UILIMIT_GLOBALATOMS
 ;
+FALLTHROUGH
+;
 }
 case
 JOB_LIMITED_USER
@@ -224,6 +226,8 @@ ActiveProcessLimit
 =
 1
 ;
+FALLTHROUGH
+;
 }
 case
 JOB_INTERACTIVE
@@ -249,6 +253,8 @@ UIRestrictionsClass
 |
 =
 JOB_OBJECT_UILIMIT_EXITWINDOWS
+;
+FALLTHROUGH
 ;
 }
 case
@@ -298,9 +304,7 @@ ERROR_BAD_ARGUMENTS
 }
 if
 (
-FALSE
-=
-=
+!
 :
 :
 SetInformationJobObject
@@ -343,9 +347,7 @@ ui_exceptions
 ;
 if
 (
-FALSE
-=
-=
+!
 :
 :
 SetInformationJobObject
@@ -412,7 +414,7 @@ job_handle_
 Get
 (
 )
-TRUE
+true
 )
 )
 {
@@ -476,9 +478,7 @@ ERROR_NO_DATA
 ;
 if
 (
-FALSE
-=
-=
+!
 :
 :
 AssignProcessToJobObject

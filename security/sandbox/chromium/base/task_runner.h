@@ -83,9 +83,6 @@ bool
 PostTask
 (
 const
-tracked_objects
-:
-:
 Location
 &
 from_here
@@ -98,9 +95,6 @@ bool
 PostDelayedTask
 (
 const
-tracked_objects
-:
-:
 Location
 &
 from_here
@@ -128,9 +122,6 @@ bool
 PostTaskAndReply
 (
 const
-tracked_objects
-:
-:
 Location
 &
 from_here
@@ -145,14 +136,6 @@ protected
 friend
 struct
 TaskRunnerTraits
-;
-friend
-class
-RefCountedThreadSafe
-<
-TaskRunner
-TaskRunnerTraits
->
 ;
 TaskRunner
 (

@@ -136,10 +136,10 @@ ref_counted
 .
 cc
 -
-34
+53
 18
 +
-34
+53
 22
 bool
 RefCountedThreadSafeBase
@@ -153,12 +153,12 @@ void
 RefCountedThreadSafeBase
 :
 :
-AddRef
+AddRefWithCheck
 (
 )
 const
 {
-AddRefImpl
+AddRefWithCheckImpl
 (
 )
 ;

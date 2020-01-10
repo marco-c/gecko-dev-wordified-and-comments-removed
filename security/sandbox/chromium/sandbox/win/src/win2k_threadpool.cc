@@ -84,7 +84,7 @@ false
 HANDLE
 pool_object
 =
-NULL
+nullptr
 ;
 if
 (

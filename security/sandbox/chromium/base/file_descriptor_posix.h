@@ -29,6 +29,13 @@ h
 namespace
 base
 {
+constexpr
+int
+kInvalidFd
+=
+-
+1
+;
 struct
 FileDescriptor
 {
@@ -38,8 +45,7 @@ FileDescriptor
 :
 fd
 (
--
-1
+kInvalidFd
 )
 auto_close
 (

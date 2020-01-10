@@ -83,7 +83,6 @@ interceptor_function
 0
 ;
 }
-;
 USHORT
 mov_rax
 ;
@@ -146,7 +145,6 @@ interceptor_function
 0
 ;
 }
-;
 ULONG
 ldr_x16_pc4
 ;

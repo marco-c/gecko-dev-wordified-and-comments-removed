@@ -1,4 +1,10 @@
 #
+ifndef
+SANDBOX_LINUX_BPF_DSL_DUMP_BPF_H_
+#
+define
+SANDBOX_LINUX_BPF_DSL_DUMP_BPF_H_
+#
 include
 <
 string
@@ -70,3 +76,5 @@ program
 ;
 }
 }
+#
+endif

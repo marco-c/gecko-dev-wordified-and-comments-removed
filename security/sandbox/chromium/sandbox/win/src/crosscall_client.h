@@ -21,6 +21,15 @@ h
 #
 include
 "
+base
+/
+compiler_specific
+.
+h
+"
+#
+include
+"
 sandbox
 /
 win
@@ -369,7 +378,7 @@ private
 :
 static
 size_t
-__cdecl
+CDECL
 StringLength
 (
 const
@@ -845,9 +854,7 @@ GetBuffer
 \
 if
 (
-NULL
-=
-=
+!
 raw_mem
 )
 \
@@ -1008,7 +1015,6 @@ define
 XCALL_GEN_FREE_CHANNEL
 (
 )
-\
 ipc_provider
 .
 FreeBuffer

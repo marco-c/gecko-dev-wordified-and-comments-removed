@@ -48,6 +48,16 @@ string16
 >
 StringPiece16
 ;
+typedef
+BasicStringPiece
+<
+std
+:
+:
+wstring
+>
+WStringPiece
+;
 }
 #
 endif

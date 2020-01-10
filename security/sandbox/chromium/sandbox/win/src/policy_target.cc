@@ -313,7 +313,7 @@ false
 }
 for
 (
-int
+size_t
 i
 =
 0
@@ -560,7 +560,7 @@ RevertedToSelf
 )
 open_as_self
 =
-FALSE
+false
 ;
 return
 orig_OpenThreadToken
@@ -612,7 +612,7 @@ RevertedToSelf
 )
 open_as_self
 =
-FALSE
+false
 ;
 return
 orig_OpenThreadTokenEx

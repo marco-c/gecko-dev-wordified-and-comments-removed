@@ -408,7 +408,6 @@ pack
 pop
 )
 }
-;
 namespace
 sandbox
 {
@@ -564,9 +563,6 @@ thunk_storage
 ;
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -711,9 +707,6 @@ STATUS_OBJECT_NAME_COLLISION
 }
 if
 (
-NULL
-!
-=
 storage_used
 )
 *
@@ -920,9 +913,6 @@ false
 }
 if
 (
-NULL
-!
-=
 ntdll_base_
 )
 {
@@ -1181,9 +1171,6 @@ STATUS_UNSUCCESSFUL
 ;
 if
 (
-NULL
-!
-=
 ntdll_base_
 )
 {

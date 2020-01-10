@@ -71,6 +71,12 @@ defined
 (
 OS_POSIX
 )
+|
+|
+defined
+(
+OS_FUCHSIA
+)
 BASE_EXPORT
 extern
 const
@@ -199,6 +205,12 @@ elif
 defined
 (
 OS_POSIX
+)
+|
+|
+defined
+(
+OS_FUCHSIA
 )
 typedef
 std

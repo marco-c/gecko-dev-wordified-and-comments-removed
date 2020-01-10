@@ -127,7 +127,7 @@ SetInternalThunk
 (
 thunk_storage
 storage_bytes
-NULL
+nullptr
 target_
 )
 )
@@ -236,9 +236,6 @@ target_module
 ;
 if
 (
-NULL
-!
-=
 storage_used
 )
 *

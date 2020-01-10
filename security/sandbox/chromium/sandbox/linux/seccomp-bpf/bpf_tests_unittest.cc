@@ -622,7 +622,6 @@ BPFTest
 BPFTestWithDelegateClass
 BasicBPFTesterDelegate
 )
-;
 BPF_TEST_C
 (
 BPFTest

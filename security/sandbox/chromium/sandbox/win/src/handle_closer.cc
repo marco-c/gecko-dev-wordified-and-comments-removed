@@ -659,7 +659,7 @@ remote_data
 VirtualAllocEx
 (
 child
-NULL
+nullptr
 bytes_needed
 MEM_COMMIT
 PAGE_READWRITE
@@ -667,9 +667,7 @@ PAGE_READWRITE
 ;
 if
 (
-NULL
-=
-=
+!
 remote_data
 )
 return
@@ -678,7 +676,7 @@ false
 SIZE_T
 bytes_written
 ;
-BOOL
+bool
 result
 =
 :
@@ -935,17 +933,9 @@ i
 >
 first
 .
-_Copy_s
+copy
 (
 output
-i
--
->
-first
-.
-size
-(
-)
 i
 -
 >
@@ -1157,7 +1147,7 @@ static
 NtQueryObject
 QueryObject
 =
-NULL
+nullptr
 ;
 if
 (

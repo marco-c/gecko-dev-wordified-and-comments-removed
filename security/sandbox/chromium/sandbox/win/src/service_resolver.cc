@@ -111,9 +111,7 @@ address
 {
 if
 (
-NULL
-=
-=
+!
 module
 )
 return
@@ -150,9 +148,7 @@ function_name
 ;
 if
 (
-NULL
-=
-=
+!
 *
 address
 )

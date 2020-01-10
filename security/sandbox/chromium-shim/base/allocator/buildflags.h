@@ -1,0 +1,17 @@
+#
+ifndef
+BASE_ALLOCATOR_BUILDFLAGS_H_
+#
+define
+BASE_ALLOCATOR_BUILDFLAGS_H_
+#
+include
+"
+build
+/
+buildflag
+.
+h
+"
+#
+endif

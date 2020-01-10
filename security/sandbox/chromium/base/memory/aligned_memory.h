@@ -1,9 +1,4 @@
 #
-include
-<
-type_traits
->
-#
 ifndef
 BASE_MEMORY_ALIGNED_MEMORY_H_
 #
@@ -25,6 +20,11 @@ h
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 base
 /
@@ -38,6 +38,15 @@ include
 base
 /
 compiler_specific
+.
+h
+"
+#
+include
+"
+build
+/
+build_config
 .
 h
 "

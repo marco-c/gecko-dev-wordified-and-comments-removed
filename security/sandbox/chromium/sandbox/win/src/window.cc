@@ -75,7 +75,7 @@ attributes
 >
 bInheritHandle
 =
-FALSE
+false
 ;
 attributes
 -
@@ -90,7 +90,7 @@ SECURITY_ATTRIBUTES
 PACL
 dacl
 =
-NULL
+nullptr
 ;
 DWORD
 result
@@ -102,11 +102,11 @@ GetSecurityInfo
 handle
 SE_WINDOW_OBJECT
 DACL_SECURITY_INFORMATION
-NULL
-NULL
+nullptr
+nullptr
 &
 dacl
-NULL
+nullptr
 &
 attributes
 -
@@ -195,11 +195,9 @@ attributes
 ;
 if
 (
+!
 *
 winsta
-=
-=
-nullptr
 &
 &
 :
@@ -409,8 +407,8 @@ desktop_name
 c_str
 (
 )
-NULL
-NULL
+nullptr
+nullptr
 0
 DESKTOP_CREATEWINDOW
 |
@@ -526,7 +524,7 @@ GetUserObjectInformation
 (
 handle
 UOI_NAME
-NULL
+nullptr
 0
 &
 size

@@ -671,7 +671,7 @@ NOTREACHED
 )
 ;
 return
-NULL
+nullptr
 ;
 }
 return
@@ -935,7 +935,7 @@ ipc_tag
 IPC_UNUSED_TAG
 )
 return
-NULL
+nullptr
 ;
 return
 ipc_targets_

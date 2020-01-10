@@ -110,7 +110,7 @@ monitor_list_size
 )
 ;
 static
-BOOL
+bool
 GetMonitorInfoAction
 (
 const

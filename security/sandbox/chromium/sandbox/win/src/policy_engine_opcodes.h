@@ -23,6 +23,15 @@ include
 "
 base
 /
+logging
+.
+h
+"
+#
+include
+"
+base
+/
 macros
 .
 h
@@ -345,7 +354,6 @@ opcode_id_
 )
 ;
 }
-;
 OpcodeID
 GetID
 (
@@ -460,7 +468,7 @@ CASE_SENSITIVE
 CASE_INSENSITIVE
 =
 1
-EXACT_LENGHT
+EXACT_LENGTH
 =
 2
 }
@@ -562,6 +570,12 @@ memory_size
 )
 const
 {
+DCHECK_GE
+(
+memory_bottom_
+memory_top_
+)
+;
 return
 memory_bottom_
 -
@@ -689,7 +703,7 @@ wchar_t
 *
 str
 size_t
-lenght
+length
 )
 ;
 char

@@ -1,5 +1,18 @@
 #
 include
+"
+sandbox
+/
+win
+/
+src
+/
+policy_engine_opcodes
+.
+h
+"
+#
+include
 <
 stddef
 .
@@ -12,19 +25,6 @@ stdint
 .
 h
 >
-#
-include
-"
-sandbox
-/
-win
-/
-src
-/
-policy_engine_opcodes
-.
-h
-"
 #
 include
 "
@@ -90,6 +90,7 @@ g_nt
 .
 member
 =
+\
 reinterpret_cast
 <
 member
@@ -98,7 +99,6 @@ member
 Function
 >
 (
-\
 :
 :
 GetProcAddress
@@ -112,9 +112,7 @@ member
 \
 if
 (
-NULL
-=
-=
+!
 g_nt
 .
 member
@@ -384,7 +382,7 @@ wchar_t
 *
 result3
 =
-NULL
+nullptr
 ;
 EXPECT_TRUE
 (
@@ -457,7 +455,7 @@ void
 *
 dummy
 =
-NULL
+nullptr
 ;
 ParameterSet
 ppb1
@@ -511,7 +509,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -553,7 +551,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -565,9 +563,9 @@ op2
 >
 Evaluate
 (
-NULL
+nullptr
 0
-NULL
+nullptr
 )
 )
 ;
@@ -579,9 +577,9 @@ op2
 >
 Evaluate
 (
-NULL
+nullptr
 1
-NULL
+nullptr
 )
 )
 ;
@@ -596,7 +594,7 @@ Evaluate
 &
 ppb1
 0
-NULL
+nullptr
 )
 )
 ;
@@ -611,7 +609,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -643,7 +641,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -675,7 +673,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -759,7 +757,7 @@ void
 *
 dummy
 =
-NULL
+nullptr
 ;
 ParameterSet
 ppb1
@@ -843,7 +841,7 @@ Evaluate
 &
 ppb1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1117,7 +1115,7 @@ Evaluate
 &
 pp_num1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1132,7 +1130,7 @@ Evaluate
 &
 pp_num2
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1147,7 +1145,7 @@ Evaluate
 &
 pp_wrong1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1156,7 +1154,7 @@ void
 *
 vp
 =
-NULL
+nullptr
 ;
 ParameterSet
 pp_num3
@@ -1175,7 +1173,7 @@ opcode_maker
 MakeOpVoidPtrMatch
 (
 0
-NULL
+nullptr
 kPolNone
 )
 ;
@@ -1196,7 +1194,7 @@ Evaluate
 &
 pp_num3
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1211,7 +1209,7 @@ Evaluate
 &
 pp_num1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1226,7 +1224,7 @@ Evaluate
 &
 pp_wrong1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1261,7 +1259,7 @@ Evaluate
 &
 pp_num1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1276,7 +1274,7 @@ Evaluate
 &
 pp_num2
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1291,7 +1289,7 @@ Evaluate
 &
 pp_wrong1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1361,7 +1359,7 @@ Evaluate
 &
 pp_num1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -1395,7 +1393,7 @@ Evaluate
 &
 pp_num1
 1
-NULL
+nullptr
 )
 )
 ;
@@ -2131,7 +2129,7 @@ void
 *
 dummy
 =
-NULL
+nullptr
 ;
 ParameterSet
 ppb1

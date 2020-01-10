@@ -42,9 +42,17 @@ OS_WIN
 )
 &
 &
+(
 defined
 (
 ARCH_CPU_64_BITS
+)
+|
+|
+defined
+(
+__MINGW32__
+)
 )
 #
 undef

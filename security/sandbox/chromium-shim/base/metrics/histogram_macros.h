@@ -21,10 +21,9 @@ while
 )
 #
 define
-UMA_HISTOGRAM_SPARSE_SLOWLY
+SCOPED_UMA_HISTOGRAM_TIMER
 (
 name
-sample
 )
 do
 {

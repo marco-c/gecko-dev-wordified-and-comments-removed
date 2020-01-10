@@ -66,6 +66,12 @@ defined
 (
 OS_POSIX
 )
+|
+|
+defined
+(
+OS_FUCHSIA
+)
 #
 include
 "
@@ -89,6 +95,7 @@ PATH_START
 DIR_CURRENT
 DIR_EXE
 DIR_MODULE
+DIR_ASSETS
 DIR_TEMP
 DIR_HOME
 FILE_EXE

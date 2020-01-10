@@ -68,7 +68,7 @@ INVALID_TYPE
 )
 address_
 (
-NULL
+nullptr
 )
 {
 }
@@ -496,11 +496,10 @@ parameter
 )
 ;
 }
-;
 struct
 CountedParameterSetBase
 {
-int
+size_t
 count
 ;
 ParameterSet
@@ -570,7 +569,7 @@ this
 )
 ;
 }
-int
+size_t
 count
 ;
 ParameterSet

@@ -61,6 +61,17 @@ include
 "
 base
 /
+memory
+/
+scoped_refptr
+.
+h
+"
+#
+include
+"
+base
+/
 win
 /
 scoped_handle

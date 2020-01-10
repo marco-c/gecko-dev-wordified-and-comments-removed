@@ -30,8 +30,9 @@ constexpr
 AtomicSequenceNumber
 (
 )
-{
-}
+=
+default
+;
 inline
 int
 GetNext

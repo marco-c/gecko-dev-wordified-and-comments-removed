@@ -33,9 +33,14 @@ FileVersionInfoWin
 public
 :
 static
+std
+:
+:
+unique_ptr
+<
 FileVersionInfoWin
-*
-CreateFileVersionInfo
+>
+CreateFileVersionInfoWin
 (
 const
 base

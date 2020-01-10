@@ -1,17 +1,5 @@
 #
 include
-<
-stdint
-.
-h
->
-#
-include
-<
-string
->
-#
-include
 "
 sandbox
 /
@@ -23,6 +11,18 @@ registry_policy
 .
 h
 "
+#
+include
+<
+stdint
+.
+h
+>
+#
+include
+<
+string
+>
 #
 include
 "
@@ -130,10 +130,6 @@ GENERIC_READ
 GENERIC_EXECUTE
 |
 READ_CONTROL
-|
-KEY_WOW64_64KEY
-|
-KEY_WOW64_32KEY
 ;
 NTSTATUS
 TranslateMaximumAllowed
@@ -149,7 +145,7 @@ access
 NtOpenKeyFunction
 NtOpenKey
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -163,7 +159,7 @@ NtOpenKey
 NtCloseFunction
 NtClose
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -177,7 +173,7 @@ NtClose
 NtQueryObjectFunction
 NtQueryObject
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -233,7 +229,7 @@ sizeof
 (
 info
 )
-NULL
+nullptr
 )
 ;
 CHECK
@@ -304,7 +300,7 @@ nullptr
 NtCreateKeyFunction
 NtCreateKey
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -391,7 +387,7 @@ local_handle
 target_process
 target_key_handle
 0
-FALSE
+false
 DUPLICATE_CLOSE_SOURCE
 |
 DUPLICATE_SAME_ACCESS
@@ -429,7 +425,7 @@ nullptr
 NtOpenKeyFunction
 NtOpenKey
 =
-NULL
+nullptr
 ;
 ResolveNTFunctionPtr
 (
@@ -512,7 +508,7 @@ local_handle
 target_process
 target_key_handle
 0
-FALSE
+false
 DUPLICATE_CLOSE_SOURCE
 |
 DUPLICATE_SAME_ACCESS
@@ -848,7 +844,7 @@ root_directory
 obj_attributes
 &
 uni_name
-NULL
+nullptr
 )
 ;
 *
@@ -861,7 +857,7 @@ desired_access
 &
 obj_attributes
 title_index
-NULL
+nullptr
 create_options
 disposition
 client_info
@@ -946,7 +942,7 @@ root_directory
 obj_attributes
 &
 uni_name
-NULL
+nullptr
 )
 ;
 *

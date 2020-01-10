@@ -1011,11 +1011,13 @@ typename
 Args
 >
 \
+constexpr
 CLASS
 #
 #
 Numeric
 <
+\
 typename
 ResultType
 <
@@ -1138,11 +1140,13 @@ type
 nullptr
 >
 \
+constexpr
 CLASS
 #
 #
 Numeric
 <
+\
 typename
 MathWrapper
 <
@@ -1229,6 +1233,7 @@ typename
 R
 >
 \
+constexpr
 CLASS
 #
 #
@@ -1249,6 +1254,7 @@ L
 operator
 CMP_OP
 (
+\
 const
 R
 rhs

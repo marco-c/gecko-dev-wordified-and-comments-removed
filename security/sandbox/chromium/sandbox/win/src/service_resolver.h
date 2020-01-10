@@ -67,7 +67,7 @@ relaxed
 :
 ntdll_base_
 (
-NULL
+nullptr
 )
 process_
 (

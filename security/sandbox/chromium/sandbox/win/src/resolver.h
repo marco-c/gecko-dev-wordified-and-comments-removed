@@ -1,4 +1,10 @@
 #
+ifndef
+SANDBOX_WIN_SRC_RESOLVER_H_
+#
+define
+SANDBOX_WIN_SRC_RESOLVER_H_
+#
 include
 <
 stddef
@@ -27,12 +33,6 @@ nt_internals
 .
 h
 "
-#
-ifndef
-SANDBOX_SRC_RESOLVER_H__
-#
-define
-SANDBOX_SRC_RESOLVER_H__
 namespace
 sandbox
 {

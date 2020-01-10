@@ -4150,7 +4150,7 @@ char
 *
 >
 (
-NULL
+nullptr
 )
 )
 +

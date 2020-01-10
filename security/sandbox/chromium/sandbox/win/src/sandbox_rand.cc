@@ -57,7 +57,7 @@ int
 )
 !
 =
-FALSE
+false
 ;
 }
 }

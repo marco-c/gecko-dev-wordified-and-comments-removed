@@ -1,4 +1,10 @@
 #
+ifndef
+SANDBOX_WIN_SRC_SYNC_INTERCEPTION_H_
+#
+define
+SANDBOX_WIN_SRC_SYNC_INTERCEPTION_H_
+#
 include
 "
 sandbox
@@ -24,12 +30,6 @@ sandbox_types
 .
 h
 "
-#
-ifndef
-SANDBOX_SRC_SYNC_INTERCEPTION_H__
-#
-define
-SANDBOX_SRC_SYNC_INTERCEPTION_H__
 namespace
 sandbox
 {

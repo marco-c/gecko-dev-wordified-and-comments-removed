@@ -152,11 +152,5 @@ key
 }
 ;
 }
-using
-base
-:
-:
-PathService
-;
 #
 endif
