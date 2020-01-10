@@ -438,6 +438,9 @@ geckoview
 &
 &
 webrender
+&
+&
+device
 )
 =
 =
@@ -461,6 +464,9 @@ geckoview
 &
 &
 webrender
+&
+&
+device
 )
 =
 =

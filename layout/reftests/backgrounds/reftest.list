@@ -3339,6 +3339,9 @@ geckoview
 &
 &
 webrender
+&
+&
+device
 64
 -
 64

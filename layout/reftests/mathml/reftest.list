@@ -3677,6 +3677,9 @@ geckoview
 &
 &
 webrender
+&
+&
+device
 )
 =
 =
@@ -6698,8 +6701,7 @@ if
 Android
 &
 &
-!
-webrender
+emulator
 )
 random
 -
@@ -6750,8 +6752,7 @@ if
 Android
 &
 &
-!
-webrender
+emulator
 )
 random
 -
@@ -6802,8 +6803,7 @@ if
 Android
 &
 &
-!
-webrender
+emulator
 )
 random
 -
@@ -6868,8 +6868,7 @@ if
 Android
 &
 &
-!
-webrender
+emulator
 )
 fails
 -
