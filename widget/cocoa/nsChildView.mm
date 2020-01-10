@@ -39507,7 +39507,12 @@ BOOL
 wantsUpdateLayer
 {
 return
-YES
+StaticPrefs
+:
+:
+gfx_core_animation_enabled_AtStartup
+(
+)
 ;
 }
 -
