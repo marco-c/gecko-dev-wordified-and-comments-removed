@@ -702,6 +702,8 @@ return
 nullptr
 ;
 }
+nbytes
+=
 JS
 :
 :
@@ -711,10 +713,7 @@ pathStr
 mozilla
 :
 :
-RangedPtr
-<
-char
->
+MakeSpan
 (
 pathBytes
 .
@@ -723,8 +722,6 @@ get
 )
 nbytes
 )
-&
-nbytes
 )
 ;
 pathBytes
