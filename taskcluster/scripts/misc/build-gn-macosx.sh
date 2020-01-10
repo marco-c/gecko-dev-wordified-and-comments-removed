@@ -64,16 +64,6 @@ src
 clang
 /
 lib
-:
-WORKSPACE
-/
-build
-/
-src
-/
-cctools
-/
-lib
 export
 CC
 =
