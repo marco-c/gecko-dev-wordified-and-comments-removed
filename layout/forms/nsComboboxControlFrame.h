@@ -989,6 +989,9 @@ mListControlFrame
 nscoord
 mDisplayISize
 ;
+nscoord
+mMaxDisplayISize
+;
 nsRevocableEventPtr
 <
 RedisplayTextEvent

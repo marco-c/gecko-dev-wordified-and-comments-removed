@@ -1588,8 +1588,16 @@ size
 :
 100
 %
-!
-important
+;
+min
+-
+inline
+-
+size
+:
+max
+-
+content
 ;
 box
 -
@@ -1598,8 +1606,6 @@ sizing
 border
 -
 box
-!
-important
 ;
 line
 -
