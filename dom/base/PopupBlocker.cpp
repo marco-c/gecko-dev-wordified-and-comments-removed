@@ -14,7 +14,18 @@ include
 "
 mozilla
 /
-EventStateManager
+dom
+/
+UserActivation
+.
+h
+"
+#
+include
+"
+mozilla
+/
+MouseEvents
 .
 h
 "
@@ -715,7 +726,7 @@ eBasicEventClass
 :
 if
 (
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -797,7 +808,7 @@ eEditorInputEventClass
 :
 if
 (
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -856,7 +867,7 @@ eInputEventClass
 :
 if
 (
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -1488,7 +1499,7 @@ eFormEventClass
 :
 if
 (
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput

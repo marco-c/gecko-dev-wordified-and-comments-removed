@@ -894,6 +894,17 @@ include
 "
 mozilla
 /
+dom
+/
+UserActivation
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 CookieSettings
@@ -66021,7 +66032,7 @@ return
 bool
 userInputOrSystemCaller
 =
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
@@ -73372,7 +73383,7 @@ forget
 if
 (
 !
-EventStateManager
+UserActivation
 :
 :
 IsHandlingUserInput
