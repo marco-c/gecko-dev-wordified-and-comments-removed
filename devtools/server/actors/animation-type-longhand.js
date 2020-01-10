@@ -2086,6 +2086,13 @@ indent
 "
 text
 -
+decoration
+-
+width
+"
+"
+text
+-
 underline
 -
 offset
