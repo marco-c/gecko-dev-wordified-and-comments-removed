@@ -21510,6 +21510,12 @@ param
 ;
 gViewController
 .
+updateCommands
+(
+)
+;
+gViewController
+.
 notifyViewChanged
 (
 )
