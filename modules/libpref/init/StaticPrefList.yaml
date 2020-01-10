@@ -35308,7 +35308,7 @@ mirror
 :
 always
 #
-Disabled
+Allowed
 by
 default
 so
@@ -35322,7 +35322,11 @@ Thunderbird
 SeaMonkey
 but
 #
-enabled
+not
+allowed
+for
+Firefox
+Desktop
 in
 firefox
 .
@@ -35343,7 +35347,7 @@ mirror
 :
 always
 #
-Disabled
+Allowed
 by
 default
 so
@@ -35357,7 +35361,11 @@ Thunderbird
 SeaMonkey
 but
 #
-enabled
+not
+allowed
+for
+Firefox
+Desktop
 in
 firefox
 .
