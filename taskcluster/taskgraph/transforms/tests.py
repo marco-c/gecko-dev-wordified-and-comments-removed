@@ -7471,19 +7471,6 @@ platform
             
 if
 '
-opt
-'
-in
-test
-[
-'
-build
--
-platform
-'
-]
-or
-'
 fuzzing
 '
 in
