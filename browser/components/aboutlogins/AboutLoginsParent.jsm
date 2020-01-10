@@ -1906,10 +1906,6 @@ LoginRemoved
 login
 )
 ;
-}
-default
-:
-{
 break
 ;
 }
