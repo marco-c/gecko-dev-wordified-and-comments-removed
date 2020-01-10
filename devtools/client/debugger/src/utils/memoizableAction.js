@@ -93,7 +93,7 @@ ThunkArgs
 >
 Promise
 <
-Result
+mixed
 >
 }
 ;
