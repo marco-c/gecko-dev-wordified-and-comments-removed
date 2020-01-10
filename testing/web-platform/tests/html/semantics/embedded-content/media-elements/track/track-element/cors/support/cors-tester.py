@@ -281,10 +281,23 @@ cookies
 first
 (
 id
+None
+)
+    
+cookie_value
+=
+cookie
+.
+value
+if
+cookie
+is
+not
+None
+else
 "
 no
 "
-)
     
 line
 =
@@ -301,9 +314,7 @@ cookie
 =
 '
 +
-cookie
-.
-value
+cookie_value
 ;
     
 data
