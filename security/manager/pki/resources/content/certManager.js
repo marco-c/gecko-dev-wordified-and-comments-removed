@@ -1731,9 +1731,6 @@ fp
 .
 file
 selected_certs
-.
-length
-selected_certs
 password
 .
 value
