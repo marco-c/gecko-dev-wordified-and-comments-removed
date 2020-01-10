@@ -40,7 +40,7 @@ fuzzy
 64
 0
 -
-47
+52
 )
 fails
 -
@@ -176,9 +176,6 @@ fuzzy
 -
 if
 (
-geckoview
-&
-&
 webrender
 0
 -
@@ -236,9 +233,6 @@ fuzzy
 -
 if
 (
-geckoview
-&
-&
 webrender
 0
 -
@@ -296,9 +290,6 @@ fuzzy
 -
 if
 (
-geckoview
-&
-&
 webrender
 0
 -
