@@ -451,13 +451,10 @@ mEnabled
 ;
 }
 virtual
-nsresult
+void
 SetFocus
 (
-bool
-aRaise
-=
-false
+Raise
 )
 override
 ;
