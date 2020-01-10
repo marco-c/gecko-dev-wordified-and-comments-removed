@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 platform
 import
@@ -12,14 +11,7 @@ import
 os
 import
 subprocess
-if
-sys
-.
-version_info
-<
-(
-3
-)
+try
 :
     
 from
@@ -34,11 +26,8 @@ ConfigParserError
 RawConfigParser
     
 )
-    
-input
-=
-raw_input
-else
+except
+ImportError
 :
     
 from
@@ -1303,7 +1292,7 @@ open
 (
 path
 '
-w
+wb
 '
 )
 as
@@ -1849,7 +1838,7 @@ True
             
 dest
 =
-input
+raw_input
 (
 CLONE_VCS_PROMPT
 .
@@ -4089,10 +4078,6 @@ path
 env
 =
 env
-                                    
-universal_newlines
-=
-True
 )
                 
 if

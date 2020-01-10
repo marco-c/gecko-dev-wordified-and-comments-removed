@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 errno
 import
@@ -1852,15 +1851,6 @@ y
 ]
 *
 100
-)
-.
-encode
-(
-"
-UTF
--
-8
-"
 )
     
 proc

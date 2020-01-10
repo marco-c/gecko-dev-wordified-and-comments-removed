@@ -2,8 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
-unicode_literals
 import
 mozunit
 import
@@ -156,7 +154,7 @@ tmpdir
 :
     
 return
-str
+unicode
 (
 tmpdir
 .
@@ -189,7 +187,7 @@ open
 (
 config_path
 '
-w
+wb
 '
 )
 as

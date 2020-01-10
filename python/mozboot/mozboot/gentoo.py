@@ -2,8 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
-unicode_literals
 from
 mozboot
 .
@@ -260,7 +258,6 @@ subprocess
 .
 check_output
 (
-            
 [
 '
 emerge
@@ -271,9 +268,6 @@ emerge
 info
 '
 ]
-universal_newlines
-=
-True
 )
         
 match
@@ -709,10 +703,6 @@ stderr
 subprocess
 .
 STDOUT
-                                       
-universal_newlines
-=
-True
 )
         
 except

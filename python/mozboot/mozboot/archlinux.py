@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 os
 import
@@ -35,19 +34,6 @@ SccacheInstall
     
 StyloInstall
 )
-if
-sys
-.
-version_info
-<
-(
-3
-)
-:
-    
-input
-=
-raw_input
 class
 ArchlinuxBootstrapper
 (
@@ -1122,7 +1108,7 @@ path
             
 choice
 =
-input
+raw_input
 (
 '
 Do

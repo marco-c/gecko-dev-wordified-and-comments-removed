@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 from
 mozboot
 .
@@ -530,8 +529,8 @@ self
 .
 check_output
 (
-                
 [
+                
 '
 apt
 -
@@ -544,9 +543,6 @@ pkgnames
 python3
 '
 ]
-universal_newlines
-=
-True
 )
             
 python3_packages
