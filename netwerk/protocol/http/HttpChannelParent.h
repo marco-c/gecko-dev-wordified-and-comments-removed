@@ -366,7 +366,6 @@ OtherPid
 (
 )
 const
-override
 ;
 void
 CancelChildCrossProcessRedirect
