@@ -1571,9 +1571,15 @@ GetEditor
 (
 )
 {
+MOZ_ASSERT
+(
+mState
+)
+;
 return
 mState
-.
+-
+>
 GetTextEditor
 (
 )
@@ -1609,8 +1615,7 @@ virtual
 HTMLTextAreaElement
 (
 )
-{
-}
+;
 using
 nsGenericHTMLFormElementWithState
 :
@@ -1685,6 +1690,7 @@ nsString
 mFocusedValue
 ;
 TextControlState
+*
 mState
 ;
 NS_IMETHOD
