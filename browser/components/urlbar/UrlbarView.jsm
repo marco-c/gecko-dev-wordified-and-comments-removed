@@ -3566,6 +3566,12 @@ row
 next
 ;
 }
+this
+.
+_updateIndices
+(
+)
+;
 }
 _startRemoveStaleRowsTimer
 (
