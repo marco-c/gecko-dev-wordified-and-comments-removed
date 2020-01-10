@@ -1101,7 +1101,7 @@ if
 getenv
 (
 "
-LIBFUZZER
+FUZZER
 "
 )
 )
