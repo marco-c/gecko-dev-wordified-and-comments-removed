@@ -405,7 +405,7 @@ mCaptivePortalDetector
 {
 mCaptivePortalDetector
 =
-do_GetService
+do_CreateInstance
 (
 "
 mozilla
@@ -986,6 +986,10 @@ mRequestInProgress
 false
 ;
 mStarted
+=
+false
+;
+mEverBeenCaptive
 =
 false
 ;
