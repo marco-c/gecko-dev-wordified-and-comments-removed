@@ -1338,8 +1338,6 @@ x
 var
 >
 .
-https
-.
 any
 .
 serviceworker
@@ -1349,6 +1347,12 @@ html
 /
 code
 >
+(
+.
+https
+is
+implied
+)
 *
 sharedworker
 :
