@@ -877,7 +877,7 @@ const
 {
 uri
 flags
-referrer
+referrerInfo
 triggeringPrincipal
 }
 =
@@ -907,9 +907,11 @@ uri
 flags
 referrerInfo
 :
-createReferrerInfo
+E10SUtils
+.
+deserializeReferrerInfo
 (
-referrer
+referrerInfo
 )
 triggeringPrincipal
 :

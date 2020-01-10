@@ -24072,7 +24072,7 @@ shouldLoadURI
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aHasPostData
 aTriggeringPrincipal
 aCsp
@@ -24152,7 +24152,6 @@ shouldLoadURI
 (
 aDocShell
 aURI
-aReferrer
 aHasPostData
 )
 )
@@ -24163,7 +24162,7 @@ redirectLoad
 (
 aDocShell
 aURI
-aReferrer
+aReferrerInfo
 aTriggeringPrincipal
 false
 null

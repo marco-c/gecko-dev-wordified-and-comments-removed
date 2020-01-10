@@ -1581,7 +1581,7 @@ shouldLoadURI
 (
 docShell
 URI
-referrer
+referrerInfo
 hasPostData
 triggeringPrincipal
 )
@@ -1623,7 +1623,7 @@ reloadInFreshProcess
 (
 docShell
 URI
-referrer
+referrerInfo
 triggeringPrincipal
 loadFlags
 )
