@@ -1122,9 +1122,9 @@ build
 )
 parent
 :
-debian9
+android
 -
-base
+build
 mingw32
 -
 build
