@@ -7645,6 +7645,11 @@ T
 dest
 )
 ;
+template
+<
+class
+T
+>
 inline
 void
 boxDouble
@@ -7652,7 +7657,7 @@ boxDouble
 FloatRegister
 src
 const
-Address
+T
 &
 dest
 )
@@ -11740,7 +11745,7 @@ reg
 fpscratch
 )
 ;
-storeDouble
+boxDouble
 (
 fpscratch
 dest
@@ -11749,7 +11754,7 @@ dest
 }
 else
 {
-storeDouble
+boxDouble
 (
 reg
 dest

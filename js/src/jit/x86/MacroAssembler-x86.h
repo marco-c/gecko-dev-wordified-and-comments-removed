@@ -5556,11 +5556,16 @@ JSVAL_TYPE_OBJECT
 )
 ;
 }
+template
+<
+typename
+T
+>
 void
 unboxDouble
 (
 const
-Address
+T
 &
 src
 FloatRegister
