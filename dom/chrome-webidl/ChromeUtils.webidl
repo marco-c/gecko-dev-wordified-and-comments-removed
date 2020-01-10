@@ -3362,6 +3362,12 @@ firstPartyDomain
 "
 "
 ;
+DOMString
+geckoViewSessionContextId
+=
+"
+"
+;
 }
 ;
 dictionary
@@ -3380,6 +3386,9 @@ privateBrowsingId
 ;
 DOMString
 firstPartyDomain
+;
+DOMString
+geckoViewSessionContextId
 ;
 }
 ;
