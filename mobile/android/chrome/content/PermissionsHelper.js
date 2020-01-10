@@ -612,6 +612,15 @@ aPrincipal
 aType
 )
 {
+let
+aURI
+=
+BrowserApp
+.
+selectedBrowser
+.
+lastURI
+;
 if
 (
 aType
@@ -694,7 +703,7 @@ Services
 .
 perms
 .
-testExactPermissionForPrincipal
+testExactPermissionFromPrincipal
 (
 aPrincipal
 aType
@@ -706,7 +715,7 @@ Services
 .
 perms
 .
-testPermissionForPrincipal
+testPermissionFromPrincipal
 (
 aPrincipal
 aType
