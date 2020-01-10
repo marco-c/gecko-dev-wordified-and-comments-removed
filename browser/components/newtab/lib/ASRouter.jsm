@@ -625,6 +625,11 @@ interrupts
 [
 [
 "
+control
+"
+]
+[
+"
 join
 "
 ]
@@ -4669,7 +4674,7 @@ experiment
 interrupt
 :
 "
-join
+control
 "
 triplet
 :
@@ -4838,13 +4843,7 @@ else
 interrupt
 =
 "
-join
-"
-;
-triplet
-=
-"
-supercharge
+control
 "
 ;
 }

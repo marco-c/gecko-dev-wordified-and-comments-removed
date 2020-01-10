@@ -1066,9 +1066,6 @@ linkMenuProps
 options
 [
 "
-ShowPrivacyInfo
-"
-"
 CheckBookmarkOrArchive
 "
 "

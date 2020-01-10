@@ -2916,9 +2916,6 @@ RemoveDownload
 Separator
 "
 "
-ShowPrivacyInfo
-"
-"
 RemoveBookmark
 "
 "

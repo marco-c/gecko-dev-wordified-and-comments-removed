@@ -320,9 +320,6 @@ TOP_STORIES_CONTEXT_MENU_OPTIONS
 =
 [
 "
-ShowPrivacyInfo
-"
-"
 CheckBookmarkOrArchive
 "
 "

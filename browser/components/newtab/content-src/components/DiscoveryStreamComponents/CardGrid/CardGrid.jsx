@@ -335,15 +335,6 @@ rec
 .
 engagement
 }
-display_engagement_labels
-=
-{
-this
-.
-props
-.
-display_engagement_labels
-}
 cta
 =
 {
