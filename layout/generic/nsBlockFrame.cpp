@@ -13100,6 +13100,15 @@ mReflowInput
 mFlags
 .
 mMustReflowPlaceholders
+|
+|
+aState
+.
+mReflowInput
+.
+mFlags
+.
+mMovedBlockFragments
 )
 &
 &
