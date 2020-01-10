@@ -22,6 +22,13 @@ nsISupportsImpl
 .
 h
 "
+#
+include
+"
+VRManagerChild
+.
+h
+"
 class
 nsGlobalWindowInner
 ;
@@ -34,12 +41,19 @@ dom
 class
 VREventObserver
 final
+:
+public
+gfx
+:
+:
+VRManagerEventObserver
 {
 public
 :
 NS_INLINE_DECL_REFCOUNTING
 (
 VREventObserver
+override
 )
 explicit
 VREventObserver
@@ -60,6 +74,7 @@ NotifyVRDisplayMounted
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 NotifyVRDisplayUnmounted
@@ -67,6 +82,7 @@ NotifyVRDisplayUnmounted
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 NotifyVRDisplayNavigation
@@ -88,6 +104,7 @@ NotifyVRDisplayConnect
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 NotifyVRDisplayDisconnect
@@ -95,6 +112,7 @@ NotifyVRDisplayDisconnect
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 NotifyVRDisplayPresentChange
@@ -102,6 +120,7 @@ NotifyVRDisplayPresentChange
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 NotifyPresentationGenerationChanged
@@ -109,6 +128,7 @@ NotifyPresentationGenerationChanged
 uint32_t
 aDisplayID
 )
+override
 ;
 void
 DisconnectFromOwner
@@ -136,6 +156,8 @@ bool
 GetStopActivityStatus
 (
 )
+const
+override
 ;
 private
 :

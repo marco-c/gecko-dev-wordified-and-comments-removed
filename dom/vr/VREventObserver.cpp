@@ -22,13 +22,6 @@ h
 #
 include
 "
-VRManagerChild
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Telemetry
@@ -317,6 +310,7 @@ VREventObserver
 GetStopActivityStatus
 (
 )
+const
 {
 return
 mStopActivity
