@@ -1839,7 +1839,6 @@ gpu
 mochitest
 -
 media
-#
 -
 mochitest
 -
@@ -1967,12 +1966,6 @@ chrome
 mochitest
 -
 media
--
-mochitest
--
-webgl1
--
-core
 -
 mochitest
 -
