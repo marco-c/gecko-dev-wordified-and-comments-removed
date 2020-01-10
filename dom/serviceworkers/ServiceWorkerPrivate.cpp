@@ -7834,6 +7834,17 @@ return
 rv
 ;
 }
+info
+.
+mAgentClusterId
+=
+reg
+-
+>
+AgentClusterId
+(
+)
+;
 AutoJSAPI
 jsapi
 ;

@@ -1003,6 +1003,16 @@ ToIPC
 )
 ;
 }
+nsID
+agentClusterId
+=
+nsContentUtils
+:
+:
+GenerateUUID
+(
+)
+;
 RemoteWorkerData
 remoteWorkerData
 (
@@ -1028,6 +1038,7 @@ storageAllowed
 void_t
 (
 )
+agentClusterId
 )
 ;
 PSharedWorkerChild

@@ -2308,6 +2308,16 @@ rv
 ;
 }
 }
+info
+.
+mAgentClusterId
+=
+aData
+.
+agentClusterId
+(
+)
+;
 AutoJSAPI
 jsapi
 ;

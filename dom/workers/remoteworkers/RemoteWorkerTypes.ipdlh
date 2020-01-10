@@ -74,6 +74,9 @@ URIParams
 include
 DOMTypes
 ;
+include
+ProtocolTypes
+;
 using
 struct
 IPC
@@ -361,6 +364,9 @@ storageAccess
 ;
 OptionalServiceWorkerData
 serviceWorkerData
+;
+nsID
+agentClusterId
 ;
 }
 ;

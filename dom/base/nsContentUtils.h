@@ -2747,6 +2747,12 @@ aUUID
 )
 ;
 static
+nsID
+GenerateUUID
+(
+)
+;
+static
 bool
 PrefetchPreloadEnabled
 (
