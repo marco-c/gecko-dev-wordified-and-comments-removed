@@ -1044,6 +1044,22 @@ s
 debugger
 )
         
+print
+(
+'
+Is
+it
+installed
+?
+Is
+it
+in
+your
+PATH
+?
+'
+)
+        
 return
 None
     
