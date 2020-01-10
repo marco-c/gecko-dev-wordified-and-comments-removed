@@ -858,6 +858,7 @@ run_rustfmt
 (
 config
 files
+log
 fix
 =
 True
