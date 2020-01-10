@@ -170,6 +170,9 @@ MediaRecorderOptions
 {
 DOMString
 mimeType
+=
+"
+"
 ;
 unsigned
 long
