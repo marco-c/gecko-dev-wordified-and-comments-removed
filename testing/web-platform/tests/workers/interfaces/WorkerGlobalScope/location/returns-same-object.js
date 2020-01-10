@@ -1,0 +1,9 @@
+postMessage
+(
+location
+=
+=
+=
+location
+)
+;

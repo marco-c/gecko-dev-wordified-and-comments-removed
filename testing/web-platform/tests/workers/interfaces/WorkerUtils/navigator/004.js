@@ -1,0 +1,7 @@
+postMessage
+(
+navigator
+.
+platform
+)
+;
