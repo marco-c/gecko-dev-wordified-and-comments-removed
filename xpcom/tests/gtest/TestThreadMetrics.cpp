@@ -734,12 +734,6 @@ duration
 50000u
 )
 ;
-ASSERT_LT
-(
-duration
-200000u
-)
-;
 }
 TEST_F
 (
@@ -760,7 +754,7 @@ Dispatch
 (
 25
 25
-200
+400
 )
 ;
 ASSERT_TRUE
@@ -848,7 +842,7 @@ duration
 ASSERT_LT
 (
 duration
-200000u
+300000u
 )
 ;
 }
