@@ -11398,6 +11398,15 @@ bool
 bounds
 '
 '
+integer
+-
+divide
+-
+by
+-
+zero
+'
+'
 vla
 -
 bound
