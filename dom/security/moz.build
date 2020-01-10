@@ -145,6 +145,11 @@ nsContentSecurityManager
 h
 '
 '
+nsContentSecurityUtils
+.
+h
+'
+'
 nsCSPContext
 .
 h
@@ -200,6 +205,11 @@ nsContentSecurityManager
 h
 '
 '
+nsContentSecurityUtils
+.
+h
+'
+'
 nsMixedContentBlocker
 .
 h
@@ -226,6 +236,11 @@ cpp
 '
 '
 nsContentSecurityManager
+.
+cpp
+'
+'
+nsContentSecurityUtils
 .
 cpp
 '
