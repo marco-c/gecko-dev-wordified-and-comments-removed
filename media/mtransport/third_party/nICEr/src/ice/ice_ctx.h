@@ -444,7 +444,7 @@ stats
 ;
 nr_transport_addr
 *
-remote_addr
+target_for_default_local_address_lookup
 ;
 }
 ;
@@ -576,7 +576,7 @@ stun_addr_ct
 )
 ;
 int
-nr_ice_set_remote_address
+nr_ice_set_target_for_default_local_address_lookup
 (
 nr_ice_ctx
 *
@@ -584,9 +584,9 @@ ctx
 const
 char
 *
-remote_ip
+target_ip
 UINT2
-remote_port
+target_port
 )
 ;
 int
