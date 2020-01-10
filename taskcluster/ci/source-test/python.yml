@@ -87,7 +87,7 @@ t
 linux
 -
 xlarge
-macosx1014
+macosx1010
 -
 64
 .
@@ -97,7 +97,7 @@ t
 -
 osx
 -
-1014
+1010
 windows10
 -
 64
@@ -701,7 +701,7 @@ linux64
 /
 opt
 -
-macosx1014
+macosx1010
 -
 64
 /
@@ -841,7 +841,7 @@ linux64
 /
 opt
 -
-macosx1014
+macosx1010
 -
 64
 /
