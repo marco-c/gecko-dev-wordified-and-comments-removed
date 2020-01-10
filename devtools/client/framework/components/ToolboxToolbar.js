@@ -1114,13 +1114,13 @@ async
 =
 >
 {
-await
+if
+(
 toolbox
 .
-initInspector
-(
+highlighter
 )
-;
+{
 toolbox
 .
 highlighter
@@ -1129,6 +1129,7 @@ unhighlight
 (
 )
 ;
+}
 }
 }
 this
