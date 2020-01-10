@@ -726,7 +726,7 @@ left
 /
 input
 /
-paddle_heavy
+grip
 \
 "
 \
@@ -867,7 +867,7 @@ right
 /
 input
 /
-paddle_heavy
+grip
 \
 "
 \
@@ -1252,7 +1252,7 @@ left
 /
 input
 /
-a
+x
 \
 "
 \
@@ -1458,7 +1458,7 @@ left
 /
 input
 /
-b
+y
 \
 "
 \
