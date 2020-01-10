@@ -2713,6 +2713,9 @@ SystemAllocPolicy
 >
 pcMappingEntries_
 ;
+ResumeOffsetEntryVector
+resumeOffsetEntries_
+;
 CodeOffset
 profilerPushToggleOffset_
 ;
