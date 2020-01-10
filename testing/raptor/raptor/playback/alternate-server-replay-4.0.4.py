@@ -74,9 +74,13 @@ None
 :
         
 return
-b
-"
-"
+self
+.
+server_conn
+.
+get_alpn_proto_negotiated
+(
+)
     
 if
 proto
