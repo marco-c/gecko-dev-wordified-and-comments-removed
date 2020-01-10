@@ -153,6 +153,9 @@ type
 optional
 CustomEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =

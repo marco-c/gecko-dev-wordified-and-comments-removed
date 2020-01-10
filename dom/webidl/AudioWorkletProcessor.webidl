@@ -152,6 +152,9 @@ Constructor
 optional
 AudioWorkletNodeOptions
 options
+=
+{
+}
 )
 ]
 interface

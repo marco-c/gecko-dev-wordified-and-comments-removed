@@ -140,6 +140,9 @@ type
 optional
 PageTransitionEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

@@ -273,6 +273,9 @@ source
 optional
 FontFaceDescriptors
 descriptors
+=
+{
+}
 )
 Pref
 =

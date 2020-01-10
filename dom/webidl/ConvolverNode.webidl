@@ -174,6 +174,9 @@ context
 optional
 ConvolverOptions
 options
+=
+{
+}
 )
 ]
 interface

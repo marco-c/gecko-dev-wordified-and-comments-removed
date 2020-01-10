@@ -102,6 +102,9 @@ type
 optional
 PopupBlockedEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

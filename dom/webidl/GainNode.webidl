@@ -172,6 +172,9 @@ context
 optional
 GainOptions
 options
+=
+{
+}
 )
 ]
 interface

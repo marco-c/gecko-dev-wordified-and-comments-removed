@@ -187,6 +187,9 @@ assignedNodes
 optional
 AssignedNodesOptions
 options
+=
+{
+}
 )
 ;
 sequence
@@ -198,6 +201,9 @@ assignedElements
 optional
 AssignedNodesOptions
 options
+=
+{
+}
 )
 ;
 }

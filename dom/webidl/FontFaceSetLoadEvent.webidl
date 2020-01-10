@@ -172,6 +172,9 @@ type
 optional
 FontFaceSetLoadEventInit
 eventInitDict
+=
+{
+}
 )
 Pref
 =

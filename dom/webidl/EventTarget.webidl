@@ -275,6 +275,9 @@ or
 boolean
 )
 options
+=
+{
+}
 optional
 boolean
 ?
@@ -301,6 +304,9 @@ or
 boolean
 )
 options
+=
+{
+}
 )
 ;
 [

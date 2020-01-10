@@ -175,6 +175,9 @@ callback
 optional
 ReportingObserverOptions
 options
+=
+{
+}
 )
 Pref
 =

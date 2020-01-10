@@ -188,6 +188,9 @@ keyframes
 optional
 UnrestrictedDoubleOrKeyframeAnimationOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -209,6 +212,9 @@ getAnimations
 optional
 GetAnimationsOptions
 options
+=
+{
+}
 )
 ;
 }

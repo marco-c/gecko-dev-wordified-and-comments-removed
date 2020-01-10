@@ -406,6 +406,9 @@ keyframes
 optional
 UnrestrictedDoubleOrKeyframeAnimationOptions
 options
+=
+{
+}
 )
 ;
 /

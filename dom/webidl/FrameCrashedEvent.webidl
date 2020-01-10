@@ -99,6 +99,9 @@ type
 optional
 FrameCrashedEventInit
 eventInitDict
+=
+{
+}
 )
 ChromeOnly
 ]

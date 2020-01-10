@@ -166,6 +166,9 @@ Constructor
 optional
 AudioContextOptions
 contextOptions
+=
+{
+}
 )
 ]
 interface

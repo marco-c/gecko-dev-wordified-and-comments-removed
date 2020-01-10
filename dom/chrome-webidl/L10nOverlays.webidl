@@ -156,6 +156,9 @@ element
 optional
 L10nMessage
 translation
+=
+{
+}
 )
 ;
 }

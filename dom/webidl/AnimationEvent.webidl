@@ -176,6 +176,9 @@ type
 optional
 AnimationEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

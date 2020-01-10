@@ -163,6 +163,9 @@ type
 optional
 UIEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

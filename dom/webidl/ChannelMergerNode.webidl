@@ -171,6 +171,9 @@ context
 optional
 ChannelMergerOptions
 options
+=
+{
+}
 )
 ]
 interface

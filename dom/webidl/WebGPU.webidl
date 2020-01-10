@@ -907,6 +907,9 @@ createTextureView
 optional
 WebGPUTextureViewDescriptor
 desc
+=
+{
+}
 )
 ;
 }
@@ -2925,6 +2928,9 @@ beginRenderPass
 optional
 WebGPURenderPassDescriptor
 descriptor
+=
+{
+}
 )
 ;
 void
@@ -3282,6 +3288,9 @@ configure
 optional
 WebGPUSwapChainDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUTexture
@@ -3395,6 +3404,9 @@ createBuffer
 optional
 WebGPUBufferDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUTexture
@@ -3403,6 +3415,9 @@ createTexture
 optional
 WebGPUTextureDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUSampler
@@ -3411,6 +3426,9 @@ createSampler
 optional
 WebGPUSamplerDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUBindGroupLayout
@@ -3419,6 +3437,9 @@ createBindGroupLayout
 optional
 WebGPUBindGroupLayoutDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUPipelineLayout
@@ -3427,6 +3448,9 @@ createPipelineLayout
 optional
 WebGPUPipelineLayoutDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUBindGroup
@@ -3435,6 +3459,9 @@ createBindGroup
 optional
 WebGPUBindGroupDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUBlendState
@@ -3443,6 +3470,9 @@ createBlendState
 optional
 WebGPUBlendStateDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUDepthStencilState
@@ -3451,6 +3481,9 @@ createDepthStencilState
 optional
 WebGPUDepthStencilStateDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUInputState
@@ -3459,6 +3492,9 @@ createInputState
 optional
 WebGPUInputStateDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUShaderModule
@@ -3474,6 +3510,9 @@ createAttachmentState
 optional
 WebGPUAttachmentStateDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUComputePipeline
@@ -3496,6 +3535,9 @@ createCommandEncoder
 optional
 WebGPUCommandEncoderDescriptor
 descriptor
+=
+{
+}
 )
 ;
 WebGPUQueue
@@ -3597,6 +3639,9 @@ createDevice
 optional
 WebGPUDeviceDescriptor
 descriptor
+=
+{
+}
 )
 ;
 }
@@ -3647,6 +3692,9 @@ getAdapter
 optional
 WebGPUAdapterDescriptor
 desc
+=
+{
+}
 )
 ;
 }

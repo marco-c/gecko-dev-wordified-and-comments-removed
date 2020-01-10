@@ -162,6 +162,9 @@ scriptURL
 optional
 WorkerOptions
 options
+=
+{
+}
 )
 Exposed
 =
@@ -207,6 +210,9 @@ message
 optional
 PostMessageOptions
 aOptions
+=
+{
+}
 )
 ;
 attribute

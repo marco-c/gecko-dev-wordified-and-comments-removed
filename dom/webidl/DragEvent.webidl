@@ -99,6 +99,9 @@ type
 optional
 DragEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

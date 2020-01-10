@@ -125,6 +125,9 @@ type
 optional
 MIDIConnectionEventInit
 eventInitDict
+=
+{
+}
 )
 SecureContext
 Pref

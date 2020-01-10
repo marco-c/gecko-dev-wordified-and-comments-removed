@@ -9,6 +9,9 @@ type
 optional
 HiddenPluginEventInit
 eventInit
+=
+{
+}
 )
 ChromeOnly
 ]

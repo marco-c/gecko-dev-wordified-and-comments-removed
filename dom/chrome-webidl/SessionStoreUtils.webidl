@@ -528,6 +528,9 @@ frame
 optional
 CollectedData
 data
+=
+{
+}
 )
 ;
 /
@@ -750,6 +753,9 @@ document
 optional
 CollectedData
 data
+=
+{
+}
 )
 ;
 /

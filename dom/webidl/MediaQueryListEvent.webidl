@@ -117,6 +117,9 @@ type
 optional
 MediaQueryListEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

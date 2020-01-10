@@ -151,6 +151,9 @@ type
 optional
 PaymentRequestUpdateEventInit
 eventInitDict
+=
+{
+}
 )
 SecureContext
 Func

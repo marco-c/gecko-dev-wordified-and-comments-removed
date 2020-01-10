@@ -148,6 +148,9 @@ type
 optional
 StorageEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

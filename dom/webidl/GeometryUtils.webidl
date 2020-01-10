@@ -219,6 +219,9 @@ getBoxQuads
 optional
 BoxQuadOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -246,6 +249,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -273,6 +279,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 [
@@ -300,6 +309,9 @@ from
 optional
 ConvertCoordinateOptions
 options
+=
+{
+}
 )
 ;
 }

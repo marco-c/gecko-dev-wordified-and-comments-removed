@@ -170,6 +170,9 @@ context
 optional
 StereoPannerOptions
 options
+=
+{
+}
 )
 ]
 interface

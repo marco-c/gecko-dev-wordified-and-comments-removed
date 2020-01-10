@@ -1692,7 +1692,6 @@ array
 any
 receiveMessage
 (
-optional
 ReceiveMessageArgument
 argument
 )

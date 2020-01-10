@@ -292,6 +292,9 @@ pattern
 optional
 MatchPatternOptions
 options
+=
+{
+}
 )
 ChromeOnly
 Exposed
@@ -574,6 +577,9 @@ patterns
 optional
 MatchPatternOptions
 options
+=
+{
+}
 )
 ChromeOnly
 Exposed

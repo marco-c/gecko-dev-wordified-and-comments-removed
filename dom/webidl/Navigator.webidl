@@ -1824,6 +1824,9 @@ requestMIDIAccess
 optional
 MIDIOptions
 options
+=
+{
+}
 )
 ;
 }

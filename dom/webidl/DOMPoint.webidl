@@ -197,6 +197,9 @@ fromPoint
 optional
 DOMPointInit
 other
+=
+{
+}
 )
 ;
 readonly
@@ -295,6 +298,9 @@ fromPoint
 optional
 DOMPointInit
 other
+=
+{
+}
 )
 ;
 inherit

@@ -131,6 +131,9 @@ type
 optional
 TrackEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
