@@ -995,9 +995,6 @@ this
 traits
 =
 {
-selectedObjectActor
-:
-true
 }
 ;
 if
