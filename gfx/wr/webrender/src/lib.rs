@@ -272,6 +272,9 @@ mod
 render_task_graph
 ;
 mod
+render_task_cache
+;
+mod
 render_task
 ;
 mod

@@ -443,11 +443,12 @@ use
 crate
 :
 :
-render_task
+render_task_cache
 :
 :
 {
-RenderTask
+RenderTaskCacheKeyKind
+RenderTaskCacheEntryHandle
 RenderTaskCacheKey
 to_cache_size
 }
@@ -459,10 +460,7 @@ crate
 render_task
 :
 :
-{
-RenderTaskCacheKeyKind
-RenderTaskCacheEntryHandle
-}
+RenderTask
 ;
 use
 crate
