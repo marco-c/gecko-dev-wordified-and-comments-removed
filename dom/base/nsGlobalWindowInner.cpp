@@ -25656,15 +25656,6 @@ mDoc
 StorageAccessSandboxed
 (
 )
-|
-|
-nsContentUtils
-:
-:
-IsInPrivateBrowsing
-(
-mDoc
-)
 )
 )
 {
