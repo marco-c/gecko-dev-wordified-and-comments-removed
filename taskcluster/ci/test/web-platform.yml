@@ -459,11 +459,6 @@ test
 -
 platform
 :
-android
-.
-*
-:
-2
 linux64
 -
 asan
@@ -691,11 +686,6 @@ test
 -
 platform
 :
-android
-.
-*
-:
-2
 linux64
 -
 asan
