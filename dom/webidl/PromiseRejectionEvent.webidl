@@ -98,15 +98,6 @@ Exposed
 Window
 Worker
 )
-Pref
-=
-"
-dom
-.
-promise_rejection_events
-.
-enabled
-"
 ]
 interface
 PromiseRejectionEvent
