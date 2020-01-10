@@ -6621,9 +6621,6 @@ rule
 003
 .
 xht
-#
-Bug
-1548100
 pref
 (
 layout
@@ -6637,7 +6634,6 @@ span
 enabled
 true
 )
-fails
 css
 -
 multicol
