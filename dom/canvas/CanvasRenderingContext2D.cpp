@@ -8061,12 +8061,6 @@ Premult
 if
 (
 !
-mBufferProvider
-)
-{
-if
-(
-!
 EnsureTarget
 (
 )
@@ -8100,7 +8094,6 @@ Snapshot
 (
 )
 ;
-}
 }
 RefPtr
 <
