@@ -5133,14 +5133,6 @@ chrome
 :
 /
 /
-webide
-/
-"
-"
-chrome
-:
-/
-/
 devtools
 "
 "

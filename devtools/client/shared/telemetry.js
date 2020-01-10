@@ -2290,11 +2290,6 @@ case
 WEBCONSOLE
 "
 :
-case
-"
-WEBIDE
-"
-:
 timerHist
 =
 DEVTOOLS_
