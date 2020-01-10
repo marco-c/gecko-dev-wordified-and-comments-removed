@@ -3245,8 +3245,10 @@ rv
 rv
 )
 ;
+RefPtr
+<
 Element
-*
+>
 body
 =
 GetBodyElement

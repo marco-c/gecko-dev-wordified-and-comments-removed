@@ -450,8 +450,10 @@ CreateVideoElement
 (
 )
 {
+RefPtr
+<
 Element
-*
+>
 body
 =
 GetBodyElement
