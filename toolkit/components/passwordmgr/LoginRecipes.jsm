@@ -1082,6 +1082,7 @@ recipes
 }
 getRecipes
 (
+aActor
 aHost
 win
 )
@@ -1125,15 +1126,6 @@ recipes
 ;
 }
 }
-let
-mm
-=
-win
-.
-docShell
-.
-messageManager
-;
 log
 .
 warn
@@ -1155,7 +1147,9 @@ aHost
 ;
 recipes
 =
-mm
+Services
+.
+cpmm
 .
 sendSyncMessage
 (

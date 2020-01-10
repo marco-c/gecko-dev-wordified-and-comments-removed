@@ -24,6 +24,17 @@ test
 "
 ]
 "
+globals
+"
+:
+{
+"
+Assert
+"
+:
+true
+}
+"
 rules
 "
 :

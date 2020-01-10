@@ -664,6 +664,16 @@ formValues
 taskFn
 )
 {
+let
+formFilled
+=
+listenForTestNotification
+(
+"
+FormProcessed
+"
+)
+;
 await
 BrowserTestUtils
 .
@@ -688,6 +698,9 @@ browser
 .
 ownerGlobal
 )
+;
+await
+formFilled
 ;
 await
 ContentTask
