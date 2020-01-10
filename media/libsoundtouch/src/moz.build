@@ -316,6 +316,14 @@ alloca
 '
 _alloca
 '
+DEFINES
+[
+'
+BUILDING_SOUNDTOUCH
+'
+]
+=
+1
 #
 We
 allow

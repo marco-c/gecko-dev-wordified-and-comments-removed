@@ -70,7 +70,7 @@ define
 SETTING_NOMINAL_OUTPUT_SEQUENCE
 7
 class
-EXPORT
+SOUNDTOUCH_API
 SoundTouch
 :
 public
