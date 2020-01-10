@@ -523,7 +523,7 @@ policy
 aDocument
 -
 >
-FeaturePolicy
+Policy
 (
 )
 ;
