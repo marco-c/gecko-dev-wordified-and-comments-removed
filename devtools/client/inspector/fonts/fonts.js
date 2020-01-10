@@ -3654,7 +3654,7 @@ this
 .
 ruleViewTool
 .
-isSidebarActive
+isPanelVisible
 (
 )
 )
