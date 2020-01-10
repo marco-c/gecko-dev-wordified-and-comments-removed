@@ -1498,7 +1498,7 @@ then
 >
 {
 let
-slice
+sliceOfSlice
 =
 file
 .
@@ -1511,7 +1511,7 @@ slice
 return
 testBlob
 (
-slice
+sliceOfSlice
 .
 slice
 (
@@ -1543,7 +1543,7 @@ then
 >
 {
 let
-slice
+sliceOfSlice
 =
 file
 .
@@ -1574,7 +1574,7 @@ gc
 return
 testBlob
 (
-slice
+sliceOfSlice
 contents
 .
 slice

@@ -410,11 +410,6 @@ true
 }
 ]
 ;
-var
-currentTest
-=
-null
-;
 SimpleTest
 .
 waitForFocus
@@ -438,6 +433,11 @@ runTest
 (
 )
 {
+let
+currentTest
+=
+null
+;
 MockColorPicker
 .
 init
@@ -499,7 +499,6 @@ length
 0
 )
 {
-var
 currentTest
 =
 testData
@@ -642,10 +641,10 @@ onclick
 =
 function
 (
-e
+event
 )
 {
-e
+event
 .
 preventDefault
 (

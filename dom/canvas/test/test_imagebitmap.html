@@ -2803,7 +2803,7 @@ TEST_PATTERN
 ]
 ;
 var
-canvas
+patternCanvas
 =
 document
 .
@@ -2814,7 +2814,7 @@ canvas
 '
 )
 ;
-canvas
+patternCanvas
 .
 width
 =
@@ -2822,7 +2822,7 @@ width
 512
 "
 ;
-canvas
+patternCanvas
 .
 height
 =
@@ -2831,9 +2831,9 @@ height
 "
 ;
 var
-ctx
+patternCtx
 =
-canvas
+patternCanvas
 .
 getContext
 (
@@ -2887,7 +2887,7 @@ function
 bitmap
 )
 {
-ctx
+patternCtx
 .
 rect
 (
@@ -2897,11 +2897,11 @@ rect
 512
 )
 ;
-ctx
+patternCtx
 .
 fillStyle
 =
-ctx
+patternCtx
 .
 createPattern
 (
@@ -2911,7 +2911,7 @@ repeat
 "
 )
 ;
-ctx
+patternCtx
 .
 fill
 (
@@ -2923,7 +2923,7 @@ body
 .
 appendChild
 (
-canvas
+patternCanvas
 )
 ;
 }
@@ -2955,7 +2955,7 @@ test
 {
 isPixel
 (
-ctx
+patternCtx
 test
 [
 0

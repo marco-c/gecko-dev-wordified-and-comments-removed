@@ -809,7 +809,7 @@ Me
 function
 eventHandler
 (
-event
+evt
 )
 {
 document
@@ -820,13 +820,13 @@ requestFullscreen
 (
 )
 ;
-event
+evt
 .
 target
 .
 removeEventListener
 (
-event
+evt
 this
 )
 ;
@@ -948,7 +948,7 @@ i
 )
 {
 let
-event
+evt
 =
 fsRequestEvents
 [
@@ -990,7 +990,7 @@ addFullscreenErrorContinuation
 ;
 requestFullscreenMouseBtn
 (
-event
+evt
 mouseButton
 )
 ;
@@ -1010,7 +1010,7 @@ request
 on
 '
 {
-event
+evt
 }
 '
 triggered

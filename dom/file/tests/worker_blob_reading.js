@@ -100,7 +100,8 @@ content
 .
 then
 (
-ok
+(
+)
 =
 >
 {
