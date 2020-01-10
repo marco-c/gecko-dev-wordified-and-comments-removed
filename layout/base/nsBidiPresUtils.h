@@ -47,6 +47,13 @@ nsTArray
 h
 "
 #
+include
+"
+nsLineBox
+.
+h
+"
+#
 ifdef
 DrawText
 #
@@ -1050,6 +1057,12 @@ EnsureBidiContinuation
 nsIFrame
 *
 aFrame
+const
+nsLineList
+:
+:
+iterator
+aLine
 nsIFrame
 *
 *
