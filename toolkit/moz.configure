@@ -2430,11 +2430,6 @@ xkbcommon
 4
 .
 1
-libdrm
->
-2
-.
-4
 '
 allow_missing
 =
