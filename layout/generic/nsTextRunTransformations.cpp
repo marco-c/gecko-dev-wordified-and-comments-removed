@@ -770,9 +770,6 @@ GetGlyphRun
 (
 )
 ;
-nsresult
-rv
-=
 aDest
 -
 >
@@ -794,17 +791,6 @@ run
 mOrientation
 )
 ;
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-{
-return
-;
-}
 bool
 anyMissing
 =
