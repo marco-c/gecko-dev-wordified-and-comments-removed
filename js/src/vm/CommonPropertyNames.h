@@ -1530,6 +1530,15 @@ get
 \
 MACRO
 (
+GetAggregateError
+GetAggregateError
+"
+GetAggregateError
+"
+)
+\
+MACRO
+(
 GetInternalError
 GetInternalError
 "
