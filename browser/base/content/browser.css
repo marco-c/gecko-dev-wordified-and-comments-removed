@@ -697,6 +697,10 @@ viewcontainer
 .
 offscreen
 {
+display
+:
+block
+;
 position
 :
 absolute
@@ -3474,6 +3478,10 @@ relative
 #
 PlacesToolbarDropIndicatorHolder
 {
+display
+:
+block
+;
 position
 :
 absolute
@@ -5936,6 +5944,10 @@ important
 #
 statuspanel
 {
+display
+:
+block
+;
 position
 :
 fixed

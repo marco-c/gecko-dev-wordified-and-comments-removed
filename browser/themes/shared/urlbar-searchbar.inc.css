@@ -622,6 +622,10 @@ urlbar
 breakout
 ]
 {
+display
+:
+block
+;
 position
 :
 absolute
@@ -3841,6 +3845,10 @@ animatable
 -
 box
 {
+display
+:
+block
+;
 position
 :
 absolute
