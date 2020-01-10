@@ -417,13 +417,6 @@ file_url
 (
                 
 entitlements_path
-endpoint
-=
-"
-raw
--
-file
-"
             
 )
         

@@ -1359,11 +1359,9 @@ file_url
 (
 self
 path
-endpoint
+pretty
 =
-"
-file
-"
+False
 )
 :
         
@@ -1409,17 +1407,28 @@ repository
         
 :
 param
-basestring
-endpoint
+bool
+pretty
 :
-The
-endpoint
-.
-Defaults
+Whether
 to
-"
+return
+a
+link
+to
+a
+formatted
+version
+of
+the
+            
 file
-"
+or
+the
+raw
+file
+version
+.
         
 :
 return
@@ -1501,6 +1510,20 @@ self
 head_rev
 '
 ]
+        
+endpoint
+=
+'
+file
+'
+if
+pretty
+else
+'
+raw
+-
+file
+'
         
 return
 '
