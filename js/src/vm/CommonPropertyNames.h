@@ -3227,6 +3227,15 @@ shape
 \
 MACRO
 (
+signDisplay
+signDisplay
+"
+signDisplay
+"
+)
+\
+MACRO
+(
 size
 size
 "
