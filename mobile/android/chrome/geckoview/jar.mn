@@ -114,6 +114,11 @@ geckoview
 js
 content
 /
+GeckoViewContentBlockingChild
+.
+js
+content
+/
 GeckoViewContentChild
 .
 js
