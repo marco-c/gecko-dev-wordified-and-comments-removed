@@ -69,12 +69,6 @@ mozbuild
 build_commands
 import
 Build
-from
-mozbuild
-.
-artifact_commands
-import
-PackageFrontend
 import
 mozpack
 .
@@ -13517,6 +13511,13 @@ _get_clang_tools_from_source
 source
 )
         
+from
+mozbuild
+.
+artifact_commands
+import
+PackageFrontend
+        
 self
 .
 _artifact_manager
@@ -14348,6 +14349,13 @@ mkdir
 (
 infer_path
 )
+        
+from
+mozbuild
+.
+artifact_commands
+import
+PackageFrontend
         
 self
 .
