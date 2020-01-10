@@ -61,7 +61,7 @@ c
 '
 foo
 .
-c
+h
 '
 '
 quux
@@ -99,7 +99,7 @@ GENERATED_FILES
 '
 foo
 .
-c
+h
 '
 ]
 foo

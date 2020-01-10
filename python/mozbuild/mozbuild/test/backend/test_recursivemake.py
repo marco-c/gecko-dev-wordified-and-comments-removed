@@ -3625,21 +3625,6 @@ expected
 [
             
 '
-export
-:
-:
-(
-MDDEPDIR
-)
-/
-bar
-.
-c
-.
-stub
-'
-            
-'
 bar
 .
 c
@@ -3783,7 +3768,7 @@ MDDEPDIR
 /
 foo
 .
-c
+h
 .
 stub
 '
@@ -3791,7 +3776,7 @@ stub
 '
 foo
 .
-c
+h
 :
 (
 MDDEPDIR
@@ -3799,7 +3784,7 @@ MDDEPDIR
 /
 foo
 .
-c
+h
 .
 stub
 ;
@@ -3811,7 +3796,7 @@ GARBAGE
 =
 foo
 .
-c
+h
 '
             
 '
@@ -3824,7 +3809,7 @@ MDDEPDIR
 /
 foo
 .
-c
+h
 .
 stub
 '
@@ -3835,7 +3820,7 @@ EXTRA_MDDEPEND_FILES
 =
 foo
 .
-c
+h
 .
 pp
 '
@@ -3847,7 +3832,7 @@ MDDEPDIR
 /
 foo
 .
-c
+h
 .
 stub
 :
@@ -3896,14 +3881,14 @@ py
 main
 foo
 .
-c
+h
 (
 MDDEPDIR
 )
 /
 foo
 .
-c
+h
 .
 pp
 (
@@ -3912,7 +3897,7 @@ MDDEPDIR
 /
 foo
 .
-c
+h
 .
 stub
 (
@@ -4042,21 +4027,6 @@ readlines
 expected
 =
 [
-            
-'
-export
-:
-:
-(
-MDDEPDIR
-)
-/
-bar
-.
-c
-.
-stub
-'
             
 '
 bar
@@ -4191,21 +4161,6 @@ TOUCH
 '
             
 '
-'
-            
-'
-export
-:
-:
-(
-MDDEPDIR
-)
-/
-foo
-.
-c
-.
-stub
 '
             
 '

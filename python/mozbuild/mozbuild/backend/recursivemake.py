@@ -3137,7 +3137,7 @@ GeneratedFile
 if
 obj
 .
-required_for_compile
+required_before_compile
 :
                 
 tier
@@ -3145,6 +3145,16 @@ tier
 '
 export
 '
+            
+elif
+obj
+.
+required_during_compile
+:
+                
+tier
+=
+None
             
 elif
 obj
@@ -3167,6 +3177,10 @@ tier
 misc
 '
             
+if
+tier
+:
+                
 self
 .
 _no_skip
@@ -3641,13 +3655,19 @@ script
 :
                 
 if
-tier
-!
-=
-'
-export
-'
+not
+(
+obj
+.
+required_before_compile
 or
+obj
+.
+required_during_compile
+)
+or
+\
+                        
 not
 self
 .
@@ -3657,6 +3677,8 @@ is_artifact_build
 :
                     
 if
+tier
+and
 not
 needs_AB_rCD
 :

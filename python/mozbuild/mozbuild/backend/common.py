@@ -951,15 +951,28 @@ GeneratedFile
 if
 obj
 .
-required_for_compile
+required_during_compile
+or
+obj
+.
+required_before_compile
 :
                 
 for
 f
 in
+itertools
+.
+chain
+(
 obj
 .
-required_for_compile
+required_before_compile
+                                         
+obj
+.
+required_during_compile
+)
 :
                     
 fullpath

@@ -7669,7 +7669,7 @@ _installed_files
 if
 obj
 .
-required_for_compile
+required_during_compile
 else
 None
                 
