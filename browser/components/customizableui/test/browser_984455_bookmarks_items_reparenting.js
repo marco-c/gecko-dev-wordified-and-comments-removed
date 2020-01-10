@@ -945,6 +945,17 @@ CustomizableUI
 removeWidgetFromArea
 (
 "
+developer
+-
+button
+"
+)
+;
+CustomizableUI
+.
+removeWidgetFromArea
+(
+"
 library
 -
 button
