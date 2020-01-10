@@ -171,7 +171,11 @@ attrs
         
 rv
 =
-ABCMeta
+super
+(
+ManifestItemMeta
+cls
+)
 .
 __new__
 (
