@@ -85,8 +85,8 @@ specified
 :
 :
 {
-SVGPaintOrder
 MozContextProperties
+SVGPaintOrder
 }
 ;
 pub
