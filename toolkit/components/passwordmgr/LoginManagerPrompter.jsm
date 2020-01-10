@@ -6124,7 +6124,16 @@ notifySaved
 false
 )
 {
+let
+login
+=
 aOldLogin
+.
+clone
+(
+)
+;
+login
 .
 origin
 =
@@ -6132,7 +6141,7 @@ aNewLogin
 .
 origin
 ;
-aOldLogin
+login
 .
 formActionOrigin
 =
@@ -6140,7 +6149,7 @@ aNewLogin
 .
 formActionOrigin
 ;
-aOldLogin
+login
 .
 password
 =
@@ -6148,7 +6157,7 @@ aNewLogin
 .
 password
 ;
-aOldLogin
+login
 .
 username
 =
@@ -6160,7 +6169,7 @@ this
 .
 _showLoginCaptureDoorhanger
 (
-aOldLogin
+login
 "
 password
 -
