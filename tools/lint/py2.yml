@@ -79,10 +79,6 @@ generator
 -
 testing
 /
-awsy
--
-testing
-/
 gtest
 -
 testing
