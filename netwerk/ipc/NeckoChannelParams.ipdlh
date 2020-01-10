@@ -879,6 +879,9 @@ bool
 isDocshellReload
 ;
 bool
+isFormSubmission
+;
+bool
 sendCSPViolationEvents
 ;
 OriginAttributes
