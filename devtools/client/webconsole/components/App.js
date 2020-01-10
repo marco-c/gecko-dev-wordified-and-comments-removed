@@ -1414,6 +1414,7 @@ renderNotificationBox
 const
 {
 notifications
+editorMode
 }
 =
 this
@@ -1438,6 +1439,13 @@ notification
 -
 box
 "
+displayBorderTop
+:
+!
+editorMode
+displayBorderBottom
+:
+editorMode
 wrapping
 :
 true
