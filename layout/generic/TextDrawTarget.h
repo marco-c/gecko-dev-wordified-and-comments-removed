@@ -296,7 +296,7 @@ mBoundsRect
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 layoutBoundsRect
 )
@@ -1393,7 +1393,7 @@ bounds
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 (
@@ -1562,7 +1562,7 @@ bounds
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :
@@ -1862,7 +1862,7 @@ return
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 mClipStack
 .
@@ -2363,7 +2363,7 @@ rect
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 LayoutDeviceRect
 :
@@ -2622,7 +2622,7 @@ bounds
 wr
 :
 :
-ToLayoutRect
+ToRoundedLayoutRect
 (
 rect
 )
