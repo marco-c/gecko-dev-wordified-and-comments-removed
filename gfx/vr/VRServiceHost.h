@@ -85,7 +85,7 @@ void
 PuppetSubmit
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >

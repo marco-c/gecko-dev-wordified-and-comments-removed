@@ -165,7 +165,7 @@ void
 Submit
 (
 const
-InfallibleTArray
+nsTArray
 <
 uint64_t
 >
