@@ -145,6 +145,10 @@ gaulish
 "
 :
 "
+xtg
+-
+x
+-
 cel
 -
 gaulish
@@ -156,7 +160,7 @@ guoyu
 "
 :
 "
-cmn
+zh
 "
 "
 zh
