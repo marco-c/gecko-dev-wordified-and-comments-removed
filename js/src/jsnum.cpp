@@ -3885,7 +3885,7 @@ dbuf
 }
 MOZ_ALWAYS_INLINE
 static
-JSFlatString
+JSLinearString
 *
 LookupDtoaCache
 (
@@ -3912,7 +3912,7 @@ realm
 {
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -3947,7 +3947,7 @@ JSContext
 cx
 double
 d
-JSFlatString
+JSLinearString
 *
 str
 )
@@ -3982,7 +3982,7 @@ str
 }
 MOZ_ALWAYS_INLINE
 static
-JSFlatString
+JSLinearString
 *
 LookupInt32ToString
 (
@@ -4152,7 +4152,7 @@ template
 AllowGC
 allowGC
 >
-JSFlatString
+JSLinearString
 *
 js
 :
@@ -4168,7 +4168,7 @@ si
 {
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -4279,7 +4279,7 @@ str
 ;
 }
 template
-JSFlatString
+JSLinearString
 *
 js
 :
@@ -4297,7 +4297,7 @@ si
 )
 ;
 template
-JSFlatString
+JSLinearString
 *
 js
 :
@@ -4314,7 +4314,7 @@ int32_t
 si
 )
 ;
-JSFlatString
+JSLinearString
 *
 js
 :
@@ -4331,7 +4331,7 @@ si
 AutoUnsafeCallWithABI
 unsafe
 ;
-JSFlatString
+JSLinearString
 *
 res
 =
@@ -4378,7 +4378,7 @@ si
 {
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -8343,7 +8343,7 @@ c
 }
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -8418,7 +8418,7 @@ else
 {
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -8522,7 +8522,7 @@ numStr
 )
 ;
 }
-JSFlatString
+JSLinearString
 *
 s
 =
@@ -8734,7 +8734,7 @@ si
 }
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =
@@ -8850,7 +8850,7 @@ return
 atom
 ;
 }
-JSFlatString
+JSLinearString
 *
 js
 :
@@ -8902,7 +8902,7 @@ realm
 ;
 if
 (
-JSFlatString
+JSLinearString
 *
 str
 =

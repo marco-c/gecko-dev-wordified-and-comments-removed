@@ -4444,7 +4444,7 @@ if
 str
 -
 >
-isFlat
+isLinear
 (
 )
 )
@@ -4465,7 +4465,7 @@ if
 str
 -
 >
-asFlat
+asLinear
 (
 )
 .
