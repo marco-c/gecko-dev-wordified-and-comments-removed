@@ -130,6 +130,11 @@ nsIPlatformInfo
 idl
 '
 '
+nsISystemInfo
+.
+idl
+'
+'
 nsIXULAppInfo
 .
 idl

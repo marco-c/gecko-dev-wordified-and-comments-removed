@@ -2626,6 +2626,7 @@ _initialized
 =
 true
 ;
+await
 TelemetryEnvironment
 .
 delayedInit
