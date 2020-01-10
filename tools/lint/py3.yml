@@ -53,10 +53,6 @@ ipc
 /
 ipdl
 -
-js
-/
-src
--
 layout
 /
 reftests
