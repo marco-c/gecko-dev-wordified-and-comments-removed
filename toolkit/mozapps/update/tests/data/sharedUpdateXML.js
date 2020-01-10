@@ -402,13 +402,10 @@ version
 "
 ?
 >
-'
-+
-"
 <
 updates
 >
-"
+'
 +
 aUpdates
 +
