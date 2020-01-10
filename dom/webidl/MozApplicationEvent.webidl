@@ -99,9 +99,6 @@ type
 optional
 MozApplicationEventInit
 eventInitDict
-=
-{
-}
 )
 ChromeOnly
 ]

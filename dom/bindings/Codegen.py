@@ -19,7 +19,6 @@ WebIDL
 import
 BuiltinTypes
 IDLBuiltinType
-IDLDefaultDictionaryValue
 IDLNullValue
 IDLSequenceType
 IDLType
@@ -37453,24 +37452,13 @@ declArgs
 None
         
 if
-(
 defaultValue
 and
-            
 not
 isinstance
 (
 defaultValue
 IDLNullValue
-)
-and
-            
-not
-isinstance
-(
-defaultValue
-IDLDefaultDictionaryValue
-)
 )
 :
             
@@ -37841,7 +37829,7 @@ and
 isinstance
 (
 defaultValue
-IDLDefaultDictionaryValue
+IDLNullValue
 )
 )
 :
@@ -41523,7 +41511,7 @@ assert
 isinstance
 (
 defaultValue
-IDLDefaultDictionaryValue
+IDLNullValue
 )
 )
             

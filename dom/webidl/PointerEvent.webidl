@@ -131,9 +131,6 @@ type
 optional
 PointerEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

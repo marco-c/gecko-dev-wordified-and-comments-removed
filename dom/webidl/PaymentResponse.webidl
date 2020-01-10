@@ -276,9 +276,6 @@ retry
 optional
 PaymentValidationErrors
 errorFields
-=
-{
-}
 )
 ;
 attribute

@@ -151,9 +151,6 @@ type
 optional
 StreamFilterDataEventInit
 eventInitDict
-=
-{
-}
 )
 Func
 =

@@ -99,9 +99,6 @@ type
 optional
 PluginCrashedEventInit
 eventInitDict
-=
-{
-}
 )
 ChromeOnly
 ]

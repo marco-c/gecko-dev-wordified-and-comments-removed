@@ -148,9 +148,6 @@ title
 optional
 NotificationOptions
 options
-=
-{
-}
 )
 Exposed
 =
@@ -246,9 +243,6 @@ get
 optional
 GetNotificationOptions
 filter
-=
-{
-}
 )
 ;
 attribute
@@ -400,8 +394,7 @@ null
 NotificationBehavior
 mozbehavior
 =
-{
-}
+null
 ;
 }
 ;

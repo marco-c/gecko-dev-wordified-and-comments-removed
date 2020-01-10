@@ -125,9 +125,6 @@ type
 optional
 MIDIMessageEventInit
 eventInitDict
-=
-{
-}
 )
 SecureContext
 Pref

@@ -1124,9 +1124,6 @@ focus
 optional
 FocusOptions
 options
-=
-{
-}
 )
 ;
 }
@@ -1242,9 +1239,6 @@ or
 ScrollIntoViewOptions
 )
 arg
-=
-{
-}
 )
 ;
 /
@@ -1306,9 +1300,6 @@ scroll
 optional
 ScrollToOptions
 options
-=
-{
-}
 )
 ;
 void
@@ -1328,9 +1319,6 @@ scrollTo
 optional
 ScrollToOptions
 options
-=
-{
-}
 )
 ;
 void
@@ -1350,9 +1338,6 @@ scrollBy
 optional
 ScrollToOptions
 options
-=
-{
-}
 )
 ;
 /

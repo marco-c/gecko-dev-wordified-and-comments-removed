@@ -268,9 +268,6 @@ origin
 optional
 RTCIdentityProviderOptions
 options
-=
-{
-}
 )
 ;
 /

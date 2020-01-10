@@ -99,9 +99,6 @@ type
 optional
 InputEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

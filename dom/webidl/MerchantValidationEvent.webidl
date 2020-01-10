@@ -170,9 +170,6 @@ type
 optional
 MerchantValidationEventInit
 eventInitDict
-=
-{
-}
 )
 SecureContext
 Exposed

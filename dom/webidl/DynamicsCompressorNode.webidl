@@ -195,9 +195,6 @@ context
 optional
 DynamicsCompressorOptions
 options
-=
-{
-}
 )
 ]
 interface

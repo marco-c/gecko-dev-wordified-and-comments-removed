@@ -205,9 +205,6 @@ context
 optional
 OscillatorOptions
 options
-=
-{
-}
 )
 ]
 interface

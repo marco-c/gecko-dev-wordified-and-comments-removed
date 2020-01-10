@@ -195,9 +195,6 @@ name
 optional
 IDBObjectStoreParameters
 optionalParameters
-=
-{
-}
 )
 ;
 [

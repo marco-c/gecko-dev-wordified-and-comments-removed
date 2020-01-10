@@ -100,9 +100,6 @@ type
 optional
 StyleSheetChangeEventInit
 eventInitDict
-=
-{
-}
 )
 ]
 interface

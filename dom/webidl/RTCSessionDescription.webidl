@@ -186,9 +186,6 @@ Constructor
 optional
 RTCSessionDescriptionInit
 descriptionInitDict
-=
-{
-}
 )
 ]
 interface

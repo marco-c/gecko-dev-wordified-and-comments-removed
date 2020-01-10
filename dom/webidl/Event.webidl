@@ -153,9 +153,6 @@ type
 optional
 EventInit
 eventInitDict
-=
-{
-}
 )
 Exposed
 =

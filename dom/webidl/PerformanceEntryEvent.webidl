@@ -139,9 +139,6 @@ type
 optional
 PerformanceEntryEventInit
 eventInitDict
-=
-{
-}
 )
 ChromeOnly
 ]

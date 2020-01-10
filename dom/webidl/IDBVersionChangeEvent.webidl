@@ -184,9 +184,6 @@ type
 optional
 IDBVersionChangeEventInit
 eventInitDict
-=
-{
-}
 )
 Exposed
 =

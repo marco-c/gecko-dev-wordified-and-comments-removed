@@ -180,9 +180,6 @@ get
 optional
 CredentialRequestOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -198,9 +195,6 @@ create
 optional
 CredentialCreationOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -243,8 +237,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -252,8 +245,7 @@ here
 PublicKeyCredentialRequestOptions
 publicKey
 =
-{
-}
+null
 ;
 AbortSignal
 signal
@@ -274,8 +266,7 @@ should
 this
 "
 =
-{
-}
+null
 "
 be
 here
@@ -283,8 +274,7 @@ here
 PublicKeyCredentialCreationOptions
 publicKey
 =
-{
-}
+null
 ;
 AbortSignal
 signal

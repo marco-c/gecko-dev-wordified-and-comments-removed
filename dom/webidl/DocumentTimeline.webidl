@@ -165,9 +165,6 @@ Constructor
 optional
 DocumentTimelineOptions
 options
-=
-{
-}
 )
 ]
 interface

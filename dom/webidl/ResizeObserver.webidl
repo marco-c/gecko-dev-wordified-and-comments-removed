@@ -179,9 +179,6 @@ target
 optional
 ResizeObserverOptions
 options
-=
-{
-}
 )
 ;
 [

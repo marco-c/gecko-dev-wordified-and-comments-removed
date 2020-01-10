@@ -825,9 +825,6 @@ matches
 optional
 MozRequestFilter
 filter
-=
-{
-}
 optional
 WebExtensionPolicy
 ?
@@ -837,9 +834,6 @@ null
 optional
 MozRequestMatchOptions
 options
-=
-{
-}
 )
 ;
 /

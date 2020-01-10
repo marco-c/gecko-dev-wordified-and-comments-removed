@@ -140,9 +140,6 @@ type
 optional
 WebGLContextEventInit
 eventInit
-=
-{
-}
 )
 Exposed
 =

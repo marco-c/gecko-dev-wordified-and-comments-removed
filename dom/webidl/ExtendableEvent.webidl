@@ -129,9 +129,6 @@ type
 optional
 ExtendableEventInit
 eventInitDict
-=
-{
-}
 )
 Exposed
 =

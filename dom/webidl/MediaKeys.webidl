@@ -320,9 +320,6 @@ getStatusForPolicy
 optional
 MediaKeysPolicy
 policy
-=
-{
-}
 )
 ;
 }

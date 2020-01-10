@@ -151,9 +151,6 @@ type
 optional
 PaymentMethodChangeEventInit
 eventInitDict
-=
-{
-}
 )
 SecureContext
 Exposed

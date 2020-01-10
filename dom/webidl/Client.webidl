@@ -200,9 +200,6 @@ message
 optional
 PostMessageOptions
 aOptions
-=
-{
-}
 )
 ;
 }

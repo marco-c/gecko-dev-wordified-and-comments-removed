@@ -260,9 +260,6 @@ getCharNumAtPosition
 optional
 DOMPointInit
 point
-=
-{
-}
 )
 ;
 [

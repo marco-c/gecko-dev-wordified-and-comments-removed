@@ -301,9 +301,6 @@ changeRemoteness
 optional
 RemotenessOptions
 aOptions
-=
-{
-}
 )
 ;
 }

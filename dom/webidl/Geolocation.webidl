@@ -192,9 +192,6 @@ null
 optional
 PositionOptions
 options
-=
-{
-}
 )
 ;
 [
@@ -215,9 +212,6 @@ null
 optional
 PositionOptions
 options
-=
-{
-}
 )
 ;
 void

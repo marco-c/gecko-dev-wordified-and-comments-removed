@@ -170,9 +170,6 @@ getEntries
 optional
 PerformanceEntryFilterOptions
 filter
-=
-{
-}
 )
 ;
 PerformanceEntryList

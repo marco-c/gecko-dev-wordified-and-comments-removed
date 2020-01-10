@@ -174,9 +174,6 @@ type
 optional
 ImageCaptureErrorEventInit
 imageCaptureErrorInitDict
-=
-{
-}
 )
 ]
 interface

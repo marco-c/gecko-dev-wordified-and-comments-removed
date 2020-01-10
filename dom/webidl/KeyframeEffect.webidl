@@ -229,9 +229,6 @@ or
 KeyframeEffectOptions
 )
 options
-=
-{
-}
 )
 Constructor
 (

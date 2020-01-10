@@ -185,9 +185,6 @@ fromMatrix
 optional
 DOMMatrixInit
 other
-=
-{
-}
 )
 ;
 [
@@ -585,9 +582,6 @@ multiply
 optional
 DOMMatrixInit
 other
-=
-{
-}
 )
 ;
 DOMMatrix
@@ -625,9 +619,6 @@ transformPoint
 optional
 DOMPointInit
 point
-=
-{
-}
 )
 ;
 [
@@ -729,9 +720,6 @@ fromMatrix
 optional
 DOMMatrixInit
 other
-=
-{
-}
 )
 ;
 [
@@ -918,9 +906,6 @@ multiplySelf
 optional
 DOMMatrixInit
 other
-=
-{
-}
 )
 ;
 [
@@ -932,9 +917,6 @@ preMultiplySelf
 optional
 DOMMatrixInit
 other
-=
-{
-}
 )
 ;
 DOMMatrix

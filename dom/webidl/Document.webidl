@@ -633,9 +633,6 @@ or
 DOMString
 )
 options
-=
-{
-}
 )
 ;
 [
@@ -663,9 +660,6 @@ or
 DOMString
 )
 options
-=
-{
-}
 )
 ;
 [
@@ -2860,9 +2854,6 @@ or
 DOMString
 )
 options
-=
-{
-}
 )
 ;
 /
@@ -3231,9 +3222,6 @@ promise
 optional
 BlockParsingOptions
 options
-=
-{
-}
 )
 ;
 /

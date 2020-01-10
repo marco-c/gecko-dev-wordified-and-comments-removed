@@ -195,9 +195,6 @@ intersectionCallback
 optional
 IntersectionObserverInit
 options
-=
-{
-}
 )
 Pref
 =

@@ -128,9 +128,6 @@ type
 optional
 ExtendableMessageEventInit
 eventInitDict
-=
-{
-}
 )
 Exposed
 =

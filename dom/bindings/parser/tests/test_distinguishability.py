@@ -38,40 +38,9 @@ parse
 "
 "
       
-/
-/
-Give
-our
-dictionary
-a
-required
-member
-so
-we
-don
-'
-t
-need
-to
-      
-/
-/
-mess
-with
-optional
-and
-default
-values
-.
-      
 dictionary
 Dict
 {
-        
-required
-long
-member
-;
       
 }
 ;
@@ -105,6 +74,7 @@ types
 void
 passDict
 (
+optional
 Dict
 arg
 )
@@ -1248,10 +1218,12 @@ Callback
 Callback2
 "
 "
+optional
 Dict
 "
                  
 "
+optional
 Dict2
 "
 "
@@ -1344,6 +1316,7 @@ Callback
 )
 "
 "
+optional
 (
 long
 or
@@ -1417,6 +1390,7 @@ Callback
 )
 "
 "
+optional
 (
 long
 or
@@ -1599,9 +1573,11 @@ CallbackInterface
 ?
 "
 "
+optional
 Dict
 "
 "
+optional
 Dict2
 "
                   
@@ -2002,6 +1978,7 @@ nonUserObjects
 setDistinguishable
 (
 "
+optional
 Dict
 "
 allBut
@@ -2014,6 +1991,7 @@ nullables
 setDistinguishable
 (
 "
+optional
 Dict2
 "
 allBut
@@ -2303,6 +2281,7 @@ numerics
 setDistinguishable
 (
 "
+optional
 (
 long
 or
@@ -2441,48 +2420,15 @@ arg
 )
 ;
           
-/
-/
-Give
-our
-dictionaries
-required
-members
-so
-we
-don
-'
-t
-need
-to
-          
-/
-/
-mess
-with
-optional
-and
-default
-values
-.
-          
 dictionary
 Dict
 {
-required
-long
-member
-;
 }
 ;
           
 dictionary
 Dict2
 {
-required
-long
-member
-;
 }
 ;
           

@@ -626,9 +626,6 @@ createInstall
 optional
 addonInstallOptions
 options
-=
-{
-}
 )
 ;
 /

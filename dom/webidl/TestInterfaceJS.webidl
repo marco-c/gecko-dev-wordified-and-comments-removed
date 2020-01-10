@@ -138,9 +138,6 @@ objectArg
 optional
 TestInterfaceJSDictionary
 dictionaryArg
-=
-{
-}
 )
 ]
 interface
@@ -182,9 +179,6 @@ setDictionaryAttr
 optional
 TestInterfaceJSDictionary
 dict
-=
-{
-}
 )
 ;
 any
@@ -218,9 +212,6 @@ pingPongDictionary
 optional
 TestInterfaceJSDictionary
 dict
-=
-{
-}
 )
 ;
 long
@@ -233,9 +224,6 @@ or
 long
 )
 dictOrLong
-=
-{
-}
 )
 ;
 DOMString
