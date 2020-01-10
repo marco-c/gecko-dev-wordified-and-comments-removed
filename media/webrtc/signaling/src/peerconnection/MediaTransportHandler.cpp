@@ -867,6 +867,11 @@ mProxyOnly
 =
 false
 ;
+bool
+mObfuscateHostAddresses
+=
+false
+;
 class
 DNSListener
 final
@@ -3796,6 +3801,10 @@ mProxyOnly
 true
 ;
 }
+mObfuscateHostAddresses
+=
+aObfuscateHostAddresses
+;
 mIceCtx
 -
 >
@@ -4551,6 +4560,9 @@ rv
 {
 if
 (
+mObfuscateHostAddresses
+&
+&
 tokens
 .
 size
@@ -6386,6 +6398,8 @@ dom
 RTCStatsReportInternal
 *
 report
+bool
+obfuscateHostAddresses
 const
 std
 :
@@ -6532,6 +6546,9 @@ c_str
 else
 if
 (
+obfuscateHostAddresses
+&
+&
 candidate
 .
 type
@@ -7157,6 +7174,7 @@ Local_candidate
 transportId
 aNow
 aReport
+mObfuscateHostAddresses
 mSignaledAddresses
 )
 ;
@@ -7229,6 +7247,7 @@ Remote_candidate
 transportId
 aNow
 aReport
+mObfuscateHostAddresses
 mSignaledAddresses
 )
 ;
