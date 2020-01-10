@@ -4451,7 +4451,10 @@ NS_OK
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 htmlEditor
+)
 -
 >
 InsertParagraphSeparatorAsAction

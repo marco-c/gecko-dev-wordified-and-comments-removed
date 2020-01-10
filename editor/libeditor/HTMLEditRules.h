@@ -416,13 +416,6 @@ HTMLEditorRef
 }
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
-EditActionResult
-WillInsertParagraphSeparator
-(
-)
-;
-MOZ_CAN_RUN_SCRIPT
-MOZ_MUST_USE
 nsresult
 DeleteNodeIfCollapsedText
 (

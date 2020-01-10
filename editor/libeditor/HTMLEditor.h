@@ -432,6 +432,7 @@ aNode
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 InsertLineBreak
 (
@@ -573,6 +574,8 @@ nullptr
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 nsresult
 InsertParagraphSeparatorAsAction
 (
@@ -4060,6 +4063,13 @@ aContent
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+EditActionResult
+InsertParagraphSeparatorAsSubAction
+(
+)
+;
 protected
 :
 virtual
@@ -4089,11 +4099,6 @@ protected
 virtual
 ~
 HTMLEditor
-(
-)
-;
-nsresult
-InsertParagraphSeparatorAsSubAction
 (
 )
 ;
