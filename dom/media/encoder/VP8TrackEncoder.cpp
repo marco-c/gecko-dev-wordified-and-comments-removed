@@ -2746,6 +2746,3 @@ NS_OK
 ;
 }
 }
-#
-undef
-VP8LOG
