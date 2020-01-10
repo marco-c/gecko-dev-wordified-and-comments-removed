@@ -107,10 +107,6 @@ PProfiler
 ;
 include
 protocol
-PProxyConfigLookup
-;
-include
-protocol
 PWebrtcTCPSocket
 ;
 include
@@ -288,9 +284,6 @@ PDNSRequest
 manages
 PWebrtcTCPSocket
 ;
-manages
-PProxyConfigLookup
-;
 parent
 :
 async
@@ -414,11 +407,6 @@ OriginAttributes
 originAttributes
 uint32_t
 flags
-)
-;
-async
-PProxyConfigLookup
-(
 )
 ;
 child

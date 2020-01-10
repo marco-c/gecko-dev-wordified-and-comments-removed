@@ -222,10 +222,6 @@ PSocketProcessBridge
 ;
 include
 protocol
-PProxyConfigLookup
-;
-include
-protocol
 PDocumentChannel
 ;
 include
@@ -463,9 +459,6 @@ PClassifierDummyChannel
 ;
 manages
 PWebrtcTCPSocket
-;
-manages
-PProxyConfigLookup
 ;
 manages
 PDocumentChannel
@@ -849,11 +842,6 @@ PWebrtcTCPSocket
 TabId
 ?
 tabId
-)
-;
-async
-PProxyConfigLookup
-(
 )
 ;
 /
