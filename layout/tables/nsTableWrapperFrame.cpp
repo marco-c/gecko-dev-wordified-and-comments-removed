@@ -865,6 +865,12 @@ aBuilder
 aLists
 )
 ;
+DisplayOutline
+(
+aBuilder
+aLists
+)
+;
 return
 ;
 }
@@ -962,6 +968,12 @@ set
 .
 MoveTo
 (
+aLists
+)
+;
+DisplayOutline
+(
+aBuilder
 aLists
 )
 ;

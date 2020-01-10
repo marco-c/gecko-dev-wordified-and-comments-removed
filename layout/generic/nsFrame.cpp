@@ -12204,6 +12204,16 @@ return
 }
 if
 (
+IsTableFrame
+(
+)
+)
+{
+return
+;
+}
+if
+(
 HasAnyStateBits
 (
 NS_FRAME_PART_OF_IBSPLIT
