@@ -116,6 +116,11 @@ IntlGuardToDateTimeFormat
 \
 _
 (
+IntlGuardToListFormat
+)
+\
+_
+(
 IntlGuardToNumberFormat
 )
 \

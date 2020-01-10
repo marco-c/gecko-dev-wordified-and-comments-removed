@@ -557,6 +557,7 @@ SupportedLocaleKind
 {
 Collator
 DateTimeFormat
+ListFormat
 NumberFormat
 PluralRules
 RelativeTimeFormat

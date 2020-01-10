@@ -621,6 +621,16 @@ Locale
 \
 REAL_IF_INTL
 (
+ListFormat
+InitViaClassSpec
+OCLASP
+(
+ListFormat
+)
+)
+\
+REAL_IF_INTL
+(
 NumberFormat
 InitViaClassSpec
 OCLASP
