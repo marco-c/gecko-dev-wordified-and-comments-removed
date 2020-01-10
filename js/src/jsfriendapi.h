@@ -9457,6 +9457,9 @@ JSObject
 obj
 )
 ;
+#
+if
+ENABLE_INTL_API
 extern
 bool
 AddMozDateTimeFormatConstructor
@@ -9493,6 +9496,8 @@ JSObject
 intl
 )
 ;
+#
+endif
 class
 MOZ_STACK_CLASS
 JS_FRIEND_API

@@ -2208,6 +2208,9 @@ traceSelfHostingGlobal
 trc
 )
 ;
+#
+ifdef
+ENABLE_INTL_API
 rt
 -
 >
@@ -2216,6 +2219,8 @@ traceSharedIntlData
 trc
 )
 ;
+#
+endif
 rt
 -
 >

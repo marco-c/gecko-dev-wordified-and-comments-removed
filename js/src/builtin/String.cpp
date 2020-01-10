@@ -147,6 +147,9 @@ Boolean
 h
 "
 #
+if
+ENABLE_INTL_API
+#
 include
 "
 builtin
@@ -168,6 +171,8 @@ ICUStubs
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -4759,6 +4764,9 @@ return
 true
 ;
 }
+#
+if
+ENABLE_INTL_API
 static
 const
 char
@@ -5280,9 +5288,6 @@ return
 true
 ;
 }
-#
-if
-ENABLE_INTL_API
 #
 else
 static
@@ -7105,6 +7110,9 @@ return
 true
 ;
 }
+#
+if
+ENABLE_INTL_API
 bool
 js
 :
@@ -7470,9 +7478,6 @@ return
 true
 ;
 }
-#
-if
-ENABLE_INTL_API
 #
 else
 static

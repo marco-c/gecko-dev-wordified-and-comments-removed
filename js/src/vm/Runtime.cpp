@@ -1211,6 +1211,9 @@ MOZ_ASSERT
 initialized_
 )
 ;
+#
+ifdef
+ENABLE_INTL_API
 sharedIntlData
 .
 ref
@@ -1221,6 +1224,8 @@ destroyInstance
 (
 )
 ;
+#
+endif
 if
 (
 gcInitialized
@@ -1787,6 +1792,9 @@ mallocSizeOf
 )
 ;
 }
+#
+ifdef
+ENABLE_INTL_API
 rtSizes
 -
 >
@@ -1804,6 +1812,8 @@ sizeOfExcludingThis
 mallocSizeOf
 )
 ;
+#
+endif
 {
 AutoLockScriptData
 lock
@@ -2788,6 +2798,9 @@ get
 )
 ;
 }
+#
+ifdef
+ENABLE_INTL_API
 void
 JSRuntime
 :
@@ -2811,6 +2824,8 @@ trc
 )
 ;
 }
+#
+endif
 JSFreeOp
 :
 :

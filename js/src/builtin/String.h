@@ -261,6 +261,9 @@ Value
 vp
 )
 ;
+#
+if
+ENABLE_INTL_API
 extern
 MOZ_MUST_USE
 bool
@@ -291,6 +294,8 @@ Value
 vp
 )
 ;
+#
+endif
 ArrayObject
 *
 StringSplitString

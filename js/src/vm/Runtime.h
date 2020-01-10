@@ -116,6 +116,9 @@ AtomicsObject
 h
 "
 #
+ifdef
+ENABLE_INTL_API
+#
 include
 "
 builtin
@@ -126,6 +129,8 @@ SharedIntlData
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -3387,6 +3392,9 @@ WellKnownSymbols
 >
 wellKnownSymbols
 ;
+#
+ifdef
+ENABLE_INTL_API
 js
 :
 :
@@ -3410,6 +3418,8 @@ JSTracer
 trc
 )
 ;
+#
+endif
 private
 :
 js

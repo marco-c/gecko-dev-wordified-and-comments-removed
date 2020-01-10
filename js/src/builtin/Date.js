@@ -1,3 +1,6 @@
+#
+if
+ENABLE_INTL_API
 var
 dateTimeFormatCache
 =
@@ -544,3 +547,8 @@ false
 )
 ;
 }
+#
+endif
+/
+/
+ENABLE_INTL_API
