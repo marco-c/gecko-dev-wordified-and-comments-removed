@@ -4271,6 +4271,10 @@ basename
 link_into
 =
 link_into
+                               
+no_expand_lib
+=
+True
 )
         
 BaseRustLibrary
