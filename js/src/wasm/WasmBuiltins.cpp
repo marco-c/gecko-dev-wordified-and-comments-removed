@@ -1235,7 +1235,7 @@ MIRType
 Double
 :
 return
-ArgType_Double
+ArgType_Float64
 ;
 default
 :
@@ -7813,7 +7813,7 @@ F64
 :
 abiType
 =
-ArgType_Double
+ArgType_Float64
 <
 <
 RetType_Shift
@@ -7926,7 +7926,7 @@ abiType
 |
 =
 (
-ArgType_Double
+ArgType_Float64
 <
 <
 (
