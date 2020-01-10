@@ -11,7 +11,7 @@ window
 .
 getComputedStyle
 (
-child
+element
 )
 ;
 return
