@@ -414,6 +414,9 @@ OneIteration
 (
 GraphTime
 aStateEnd
+AudioMixer
+*
+aMixer
 )
 ;
 bool
@@ -421,6 +424,9 @@ OneIterationImpl
 (
 GraphTime
 aStateEnd
+AudioMixer
+*
+aMixer
 )
 ;
 void
@@ -552,6 +558,9 @@ EnsureNextIteration
 void
 Process
 (
+AudioMixer
+*
+aMixer
 )
 ;
 void
@@ -732,6 +741,9 @@ mVolume
 TrackTime
 PlayAudio
 (
+AudioMixer
+*
+aMixer
 const
 TrackKeyAndVolume
 &
@@ -2031,9 +2043,6 @@ mRealtime
 ;
 bool
 mTrackOrderDirty
-;
-AudioMixer
-mMixer
 ;
 const
 RefPtr
