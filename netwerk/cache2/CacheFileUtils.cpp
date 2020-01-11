@@ -2542,6 +2542,12 @@ IsCacheSlow
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+sLock
+)
+;
 for
 (
 uint32_t
