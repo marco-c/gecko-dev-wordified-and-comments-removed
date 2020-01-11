@@ -3647,6 +3647,10 @@ imageURI
 |
 !
 aItem
+|
+|
+!
+mTouchBarHelper
 )
 {
 return
@@ -3667,9 +3671,6 @@ if
 (
 !
 icon
-&
-&
-mTouchBarHelper
 )
 {
 RefPtr
