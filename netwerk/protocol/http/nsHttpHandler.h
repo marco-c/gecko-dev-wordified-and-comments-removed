@@ -917,6 +917,11 @@ ConnMgr
 {
 return
 mConnMgr
+-
+>
+AsHttpConnectionMgr
+(
+)
 ;
 }
 AltSvcCache
@@ -1788,7 +1793,7 @@ mPrivateAuthCache
 ;
 RefPtr
 <
-nsHttpConnectionMgr
+HttpConnectionMgrShell
 >
 mConnMgr
 ;
