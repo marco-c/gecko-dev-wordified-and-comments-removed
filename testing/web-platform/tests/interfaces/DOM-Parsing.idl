@@ -60,7 +60,6 @@ Parsing
 /
 )
 [
-Constructor
 Exposed
 =
 Window
@@ -68,6 +67,10 @@ Window
 interface
 DOMParser
 {
+constructor
+(
+)
+;
 [
 NewObject
 ]
@@ -117,7 +120,6 @@ xml
 }
 ;
 [
-Constructor
 Exposed
 =
 Window
@@ -125,6 +127,10 @@ Window
 interface
 XMLSerializer
 {
+constructor
+(
+)
+;
 DOMString
 serializeToString
 (
