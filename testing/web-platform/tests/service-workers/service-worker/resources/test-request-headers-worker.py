@@ -2,6 +2,8 @@ import
 json
 import
 os
+import
+time
 def
 main
 (
@@ -94,6 +96,27 @@ json
 dumps
 (
 data
+)
+)
+  
+body
+=
+body
+.
+replace
+(
+"
+%
+TIMESTAMP
+%
+"
+str
+(
+time
+.
+time
+(
+)
 )
 )
   
