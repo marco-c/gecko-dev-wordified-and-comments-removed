@@ -14346,11 +14346,14 @@ if
 weakMapAction
 (
 )
-=
+!
 =
 ExpandWeakMaps
 )
 {
+return
+;
+}
 tag_
 =
 TracerKindTag
@@ -14430,7 +14433,6 @@ markEntries
 this
 )
 ;
-}
 }
 }
 }
