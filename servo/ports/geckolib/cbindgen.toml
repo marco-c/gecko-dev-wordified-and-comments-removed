@@ -393,6 +393,9 @@ true
 derive_tagged_enum_copy_constructor
 =
 true
+derive_tagged_enum_copy_assignment
+=
+true
 private_default_tagged_enum_constructor
 =
 true
