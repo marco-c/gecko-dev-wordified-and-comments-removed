@@ -88,12 +88,15 @@ node
 )
 {
 return
+(
 node
 .
 nodeType
 =
 =
 =
+content
+.
 Node
 .
 TEXT_NODE
@@ -113,6 +116,7 @@ test
 node
 .
 nodeValue
+)
 )
 ;
 }
