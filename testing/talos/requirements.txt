@@ -24,12 +24,6 @@ mozfile
 1
 .
 2
-mozhttpd
->
-=
-0
-.
-7
 mozinfo
 >
 =
@@ -86,3 +80,11 @@ requests
 9
 .
 1
+wptserve
+>
+=
+2
+.
+0
+.
+0
