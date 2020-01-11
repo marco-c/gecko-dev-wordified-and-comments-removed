@@ -289,6 +289,8 @@ AVD_DICT
 {
     
 '
+arm
+-
 4
 .
 3
@@ -302,7 +304,7 @@ Android
 .
 3
 '
-                   
+                       
 '
 mozemulator
 -
@@ -310,7 +312,7 @@ mozemulator
 .
 3
 '
-                   
+                       
 '
 testing
 /
@@ -328,7 +330,7 @@ emulator
 .
 manifest
 '
-                   
+                       
 [
 '
 -
@@ -349,12 +351,16 @@ show
 kernel
 '
 ]
-                   
+                       
 False
 )
     
 '
 x86
+-
+4
+.
+2
 '
 :
 AvdInfo
@@ -366,13 +372,13 @@ Android
 2
 x86
 '
-                   
+                       
 '
 mozemulator
 -
 x86
 '
-                   
+                       
 '
 testing
 /
@@ -390,7 +396,7 @@ emulator
 .
 manifest
 '
-                   
+                       
 [
 '
 -
@@ -410,7 +416,7 @@ show
 -
 kernel
 '
-                    
+                        
 '
 -
 qemu
@@ -429,7 +435,7 @@ enable
 kvm
 '
 ]
-                   
+                       
 True
 )
     
