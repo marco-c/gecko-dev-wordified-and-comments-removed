@@ -803,6 +803,10 @@ StopForkServer
 (
 )
 ;
+mSingleton
+=
+nullptr
+;
 }
 return
 NS_OK
