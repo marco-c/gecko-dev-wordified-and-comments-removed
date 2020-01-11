@@ -1366,7 +1366,11 @@ CanvasContextType
 GetCurrentContextType
 (
 )
+{
+return
+mCurrentContextType
 ;
+}
 private
 :
 void
