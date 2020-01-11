@@ -179,7 +179,6 @@ skipSourceNodeCheck
 ;
 var
 {
-synthesizeDragStart
 synthesizeDrop
 synthesizeMouseAtCenter
 }
