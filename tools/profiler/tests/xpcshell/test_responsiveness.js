@@ -88,7 +88,7 @@ const
 message
 =
 "
-Responsiveness
+eventDelay
 >
 0
 not
@@ -105,7 +105,7 @@ samples
 .
 schema
 .
-responsiveness
+eventDelay
 ;
 for
 (
