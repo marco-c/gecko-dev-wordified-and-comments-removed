@@ -5915,8 +5915,6 @@ C
 nsresult
 fog_init
 (
-bool
-useTelemetry
 const
 nsAString
 *
@@ -6025,7 +6023,6 @@ NS_FAILED
 (
 fog_init
 (
-aUseTelemetry
 &
 path
 )
