@@ -1,6 +1,4 @@
 import
-ConfigParser
-import
 argparse
 import
 hashlib
@@ -10,6 +8,12 @@ import
 os
 import
 sys
+from
+six
+.
+moves
+import
+configparser
 from
 mozboot
 .
@@ -970,7 +974,7 @@ ini
     
 parser
 =
-ConfigParser
+configparser
 .
 SafeConfigParser
 (
