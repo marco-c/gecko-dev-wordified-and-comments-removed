@@ -2129,13 +2129,6 @@ childDocIdents
 ;
 }
 }
-if
-(
-entry
-.
-triggeringPrincipal_base64
-)
-{
 shEntry
 .
 triggeringPrincipal
@@ -2182,7 +2175,6 @@ createNullPrincipal
 }
 )
 ;
-}
 if
 (
 entry
