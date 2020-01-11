@@ -136,13 +136,7 @@ PImageBridgeParent
 public
 CompositableParentManager
 public
-mozilla
-:
-:
-ipc
-:
-:
-IShmemAllocator
+ShmemAllocator
 {
 public
 :
@@ -224,7 +218,7 @@ Shutdown
 (
 )
 ;
-IShmemAllocator
+ShmemAllocator
 *
 AsShmemAllocator
 (
@@ -464,7 +458,7 @@ aShmem
 )
 override
 ;
-bool
+void
 DeallocShmem
 (
 ipc

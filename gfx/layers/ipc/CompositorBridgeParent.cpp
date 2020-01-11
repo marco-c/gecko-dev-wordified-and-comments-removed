@@ -1157,7 +1157,7 @@ aShmem
 )
 ;
 }
-bool
+void
 CompositorBridgeParentBase
 :
 :
@@ -1171,7 +1171,6 @@ Shmem
 aShmem
 )
 {
-return
 PCompositorBridgeParent
 :
 :
