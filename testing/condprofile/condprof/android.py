@@ -1527,7 +1527,10 @@ get_logcat
 )
         
 except
+(
 ADBError
+ValueError
+)
 :
             
 ERROR
