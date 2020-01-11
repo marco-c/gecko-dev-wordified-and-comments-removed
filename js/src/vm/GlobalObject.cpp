@@ -541,6 +541,11 @@ MathClass
 extern
 const
 JSClass
+ReflectClass
+;
+extern
+const
+JSClass
 WebAssemblyClass
 ;
 #
