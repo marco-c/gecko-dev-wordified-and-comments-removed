@@ -109,6 +109,11 @@ ui
 .
 js
 '
+'
+VariablesView
+.
+jsm
+'
 )
 with
 Files
