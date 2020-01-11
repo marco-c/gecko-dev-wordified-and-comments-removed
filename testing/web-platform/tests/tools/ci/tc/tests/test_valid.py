@@ -536,6 +536,7 @@ get_fetch_rev
 return_value
 =
 (
+None
 event
 [
 "
@@ -2269,7 +2270,8 @@ get_fetch_rev
 return_value
 =
 (
-is_pr
+None
+None
 None
 )
 )
