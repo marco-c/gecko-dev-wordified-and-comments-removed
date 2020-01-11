@@ -2,6 +2,16 @@ Checks
 :
 '
 *
+-
+modernize
+-
+use
+-
+trailing
+-
+return
+-
+type
 '
 HeaderFilterRegex
 :

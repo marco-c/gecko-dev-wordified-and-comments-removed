@@ -109,6 +109,11 @@ PLSysSec
 /
 lucet_sandbox_compiler
 "
+rev
+=
+"
+36f0e4deb5b080dfee73042fec655d3723c7a12b
+"
 }
 lucet
 -
@@ -129,6 +134,11 @@ com
 PLSysSec
 /
 lucet_sandbox_compiler
+"
+rev
+=
+"
+36f0e4deb5b080dfee73042fec655d3723c7a12b
 "
 }
 lucet
@@ -153,6 +163,11 @@ PLSysSec
 /
 lucet_sandbox_compiler
 "
+rev
+=
+"
+36f0e4deb5b080dfee73042fec655d3723c7a12b
+"
 }
 lucet
 -
@@ -173,6 +188,11 @@ com
 PLSysSec
 /
 lucet_sandbox_compiler
+"
+rev
+=
+"
+36f0e4deb5b080dfee73042fec655d3723c7a12b
 "
 }
 #

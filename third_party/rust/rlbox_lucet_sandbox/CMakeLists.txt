@@ -1165,6 +1165,11 @@ test
 test_lucet_sandbox_glue_preload
 .
 cpp
+test
+/
+test_lucet_sandbox_glue_embedder_vars
+.
+cpp
 )
 target_include_directories
 (

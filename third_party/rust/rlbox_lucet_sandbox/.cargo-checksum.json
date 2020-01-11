@@ -22,7 +22,7 @@ tidy
 "
 :
 "
-18717338729c418a6837e3aee4ad9cdb0f6a923ee997bcbc3f00b7d9d3989be3
+861bc5b367dc85f5fa103f2de9460e158de97f48c59c51a26784b7c2c481e3b7
 "
 "
 CMakeLists
@@ -31,7 +31,7 @@ txt
 "
 :
 "
-1d84e5f8dee55d273436009c1c5a86833631d15debe4b8a5b0f93046dc15123e
+0904cedee623294ea7c1dc033a875680a291eb377d8fd4c05ff25b367ff5337d
 "
 "
 Cargo
@@ -40,7 +40,7 @@ toml
 "
 :
 "
-5f5f76144391a86a871986751a27cff459153b36818e6e68aa746521b8474635
+a1ecd332edfe54d9868f0cbc82bf3868259a8dd3ac5c8c38c572de22c5ec0f29
 "
 "
 LICENSE
@@ -56,7 +56,7 @@ md
 "
 :
 "
-733dec66ba51d79ebd751007aee4b747ada7ff007b650e90eb7962a2deed7f9d
+91403ec6fce457ca476547238bbb17dca19bf9f5a8e834e589f73a183e60e8fd
 "
 "
 c_src
@@ -100,7 +100,7 @@ hpp
 "
 :
 "
-ab9463dc2cf0ba750c1482bcbf36238e62f3d538e52cf88d6e3cb2a71aa255ec
+eee3a5d7abd38824c1b222a90d2d175c15b0bedb0a1c23d83b9471a80f73ed27
 "
 "
 src
@@ -178,6 +178,17 @@ cpp
 :
 "
 ea4eb3ace8e9a87550db44f61d065b45f31f1f5b774b4a3e0383e62962c0abf2
+"
+"
+test
+/
+test_lucet_sandbox_glue_embedder_vars
+.
+cpp
+"
+:
+"
+be6abfae367719b12edc5fd8f1de840abed9bb4a2efdebb19ed59e8796fb47b8
 "
 "
 test
