@@ -1034,6 +1034,8 @@ delegate
 storedSubscription
 !
 !
+.
+scope
 testPayload
 .
 toByteArray

@@ -12140,7 +12140,7 @@ void
 onPushEvent
 (
 NonNull
-WebPushSubscription
+String
 )
 ;
 method
@@ -12150,7 +12150,7 @@ void
 onPushEvent
 (
 NonNull
-WebPushSubscription
+String
 Nullable
 byte
 [
