@@ -2446,7 +2446,7 @@ drop_passive
 )
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
@@ -2480,7 +2480,7 @@ drop_active
 )
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
@@ -3460,7 +3460,7 @@ drop_passive
 )
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
@@ -3494,7 +3494,7 @@ drop_active
 )
 )
 ;
-assert_trap
+assert_return
 (
 (
 )
