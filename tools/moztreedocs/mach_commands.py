@@ -635,19 +635,9 @@ path
 =
 path
 or
-os
-.
-path
-.
-join
-(
 self
 .
 topsrcdir
-'
-tools
-'
-)
         
 path
 =

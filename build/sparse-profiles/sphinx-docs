@@ -18,6 +18,12 @@ docs
 .
 glob
 :
+docs
+/
+*
+*
+glob
+:
 tools
 /
 docs

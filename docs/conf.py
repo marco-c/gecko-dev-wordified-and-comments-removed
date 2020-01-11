@@ -48,10 +48,6 @@ OUR_DIR
 .
 .
 '
-'
-.
-.
-'
 )
 )
 EXTRA_PATHS

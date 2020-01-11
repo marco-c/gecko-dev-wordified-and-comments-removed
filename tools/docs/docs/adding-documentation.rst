@@ -242,8 +242,6 @@ mozpackage
 5
 .
 In
-tools
-/
 docs
 /
 config
