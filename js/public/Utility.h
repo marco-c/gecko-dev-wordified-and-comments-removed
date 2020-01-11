@@ -1331,7 +1331,17 @@ size_t
 )
 ;
 static
+mozilla
+:
+:
+Atomic
+<
 AnnotateOOMAllocationSizeCallback
+mozilla
+:
+:
+Relaxed
+>
 annotateOOMSizeCallback
 ;
 static
