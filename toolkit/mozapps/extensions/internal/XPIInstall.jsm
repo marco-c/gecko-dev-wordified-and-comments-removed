@@ -11128,7 +11128,7 @@ prompt
 instanceof
 Ci
 .
-nsILoginManagerPrompter
+nsILoginManagerAuthPrompter
 )
 {
 prompt

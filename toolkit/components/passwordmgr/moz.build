@@ -206,6 +206,11 @@ nsILoginManager
 idl
 '
 '
+nsILoginManagerAuthPrompter
+.
+idl
+'
+'
 nsILoginManagerCrypto
 .
 idl
@@ -269,6 +274,11 @@ jsm
 '
 '
 LoginManager
+.
+jsm
+'
+'
+LoginManagerAuthPrompter
 .
 jsm
 '

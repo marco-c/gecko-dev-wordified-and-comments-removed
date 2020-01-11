@@ -767,7 +767,7 @@ h
 #
 include
 "
-nsILoginManagerPrompter
+nsILoginManagerAuthPrompter
 .
 h
 "
@@ -16679,7 +16679,7 @@ rv
 ;
 nsCOMPtr
 <
-nsILoginManagerPrompter
+nsILoginManagerAuthPrompter
 >
 prompter
 =
