@@ -4245,6 +4245,12 @@ this
 .
 primary_input_clicked_
 ;
+this
+.
+primary_input_clicked_
+=
+false
+;
 input_state
 .
 mojoFromInput
