@@ -1256,7 +1256,6 @@ username
 =
 {
 }
-"
 '
 .
 format
@@ -1390,7 +1389,6 @@ username
 =
 {
 }
-"
 '
 .
 format
