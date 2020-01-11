@@ -616,15 +616,6 @@ IMPL
 nsNSSCertificateDB
 nullptr
 )
-IMPL
-(
-nsNSSCertList
-nullptr
-ProcessRestriction
-:
-:
-AnyProcess
-)
 #
 ifdef
 MOZ_XUL

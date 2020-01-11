@@ -303,11 +303,6 @@ nsIX509CertDB
 idl
 '
 '
-nsIX509CertList
-.
-idl
-'
-'
 nsIX509CertValidity
 .
 idl

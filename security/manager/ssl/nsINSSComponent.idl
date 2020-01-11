@@ -131,9 +131,6 @@ psm
 "
 %
 }
-interface
-nsIX509CertList
-;
 [
 ptr
 ]
