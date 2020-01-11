@@ -29154,10 +29154,7 @@ group
 if
 (
 !
-IsInsideNursery
-(
-obj
-)
+withTemplateGroup
 )
 {
 AutoSweepObjectGroup
