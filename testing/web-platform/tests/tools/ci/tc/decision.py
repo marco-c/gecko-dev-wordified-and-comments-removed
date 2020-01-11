@@ -1548,6 +1548,14 @@ event
 )
 :
     
+if
+"
+pusher
+"
+in
+event
+:
+        
 pusher
 =
 event
@@ -1569,14 +1577,16 @@ email
 "
 "
 )
-    
+        
 if
+pusher
+and
 "
 "
 in
 pusher
 :
-        
+            
 return
 pusher
     
