@@ -11462,17 +11462,6 @@ if
 chunk
 )
 {
-MOZ_ASSERT
-(
-!
-chunk
--
->
-IsReady
-(
-)
-)
-;
 continue
 ;
 }
