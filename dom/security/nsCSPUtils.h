@@ -1613,6 +1613,12 @@ mKeyword
 =
 =
 CSP_UNSAFE_INLINE
+|
+|
+mKeyword
+=
+=
+CSP_REPORT_SAMPLE
 )
 {
 mInvalidated
