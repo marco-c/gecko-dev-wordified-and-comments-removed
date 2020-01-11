@@ -855,7 +855,7 @@ disable_dbm
 %
 '
 :
-0
+1
 '
 disable_libpkix
 %
@@ -1028,6 +1028,12 @@ disable_fips
 1
 '
 mozpkix_only
+%
+'
+:
+0
+'
+coverage
 %
 '
 :

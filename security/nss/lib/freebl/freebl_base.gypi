@@ -477,6 +477,11 @@ fuzz
 !
 =
 1
+and
+coverage
+!
+=
+1
 '
 {
 '

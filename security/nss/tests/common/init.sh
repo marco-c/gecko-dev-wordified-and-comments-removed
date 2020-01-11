@@ -5028,7 +5028,7 @@ scripts
 default
 to
 expecting
-dbm
+sql
 if
 [
 "
@@ -5044,9 +5044,14 @@ TEST_MODE
 then
 NSS_DEFAULT_DB_TYPE
 =
+{
+NSS_DEFAULT_DB_TYPE
+:
+-
 "
-dbm
+sql
 "
+}
 export
 NSS_DEFAULT_DB_TYPE
 fi

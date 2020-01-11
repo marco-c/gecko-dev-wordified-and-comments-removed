@@ -1285,7 +1285,6 @@ NSS_CYCLES
 "
 standard
 pkix
-upgradedb
 sharedb
 "
 NSS_TESTS
