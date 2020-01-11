@@ -19,6 +19,8 @@ testharness
 api
 testdriver
 -
+extension
+-
 tutorial
 testdriver
 testharness

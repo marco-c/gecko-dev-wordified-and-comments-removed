@@ -168,6 +168,8 @@ process
 testdriver
 testdriver
 -
+extension
+-
 tutorial
 testharness
 testharness
