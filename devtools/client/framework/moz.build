@@ -103,15 +103,6 @@ test
 /
 browser
 -
-rtl
-.
-ini
-'
-'
-test
-/
-browser
--
 telemetry
 -
 startup
