@@ -241,10 +241,11 @@ hops
 +
 encodeURIComponent
 (
-hops
+JSON
 .
-toSource
+stringify
 (
+hops
 )
 )
 )
