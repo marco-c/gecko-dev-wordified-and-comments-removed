@@ -245,6 +245,13 @@ accessibilityWalker
 PropTypes
 .
 object
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 dispatch
 :
 PropTypes
@@ -724,6 +731,7 @@ highlighted
 :
 highlightedItem
 accessibilityWalker
+toolboxDoc
 filtered
 }
 =
@@ -767,6 +775,7 @@ assign
 }
 rowProps
 {
+toolboxDoc
 highlighted
 decorator
 :

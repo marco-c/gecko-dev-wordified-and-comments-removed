@@ -225,7 +225,7 @@ walker
 supports
 fluentBundles
 simulator
-toolboxDoc
+toolbox
 }
 )
 {
@@ -269,7 +269,7 @@ accessibilityWalker
 walker
 fluentBundles
 simulator
-toolboxDoc
+toolbox
 }
 )
 ;
