@@ -1119,6 +1119,9 @@ pgo
 :
 [
 '
+trunk
+'
+'
 mozilla
 -
 beta
@@ -1135,6 +1138,9 @@ g5
 pgo
 :
 [
+'
+trunk
+'
 '
 mozilla
 -
@@ -2411,6 +2417,9 @@ hw
 pgo
 :
 [
+'
+trunk
+'
 '
 mozilla
 -

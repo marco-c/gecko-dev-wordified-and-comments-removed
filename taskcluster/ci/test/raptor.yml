@@ -7726,6 +7726,9 @@ projects
 :
 [
 '
+integration
+'
+'
 try
 '
 ]
