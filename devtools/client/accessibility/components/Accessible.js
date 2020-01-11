@@ -2305,6 +2305,12 @@ translateNodeFrontToGripWrapper
 contents
 )
 ;
+name
+=
+"
+DOMNode
+"
+;
 }
 else
 if
