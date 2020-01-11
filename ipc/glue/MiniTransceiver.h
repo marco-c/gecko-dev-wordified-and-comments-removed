@@ -46,6 +46,7 @@ MiniTransceiver
 {
 public
 :
+explicit
 MiniTransceiver
 (
 int
