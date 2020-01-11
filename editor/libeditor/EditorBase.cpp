@@ -25440,6 +25440,14 @@ GetChangedRangeForTopLevelEditSubAction
 (
 )
 ;
+mTopLevelEditSubActionData
+.
+mCachedInlineStyles
+.
+emplace
+(
+)
+;
 }
 }
 mEditorBase
