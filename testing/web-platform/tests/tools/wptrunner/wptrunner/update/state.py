@@ -86,12 +86,15 @@ found
 )
         
 return
-object
+super
+(
+BaseState
+cls
+)
 .
 __new__
 (
 cls
-logger
 )
     
 def

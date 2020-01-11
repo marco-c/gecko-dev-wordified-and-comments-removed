@@ -35,6 +35,16 @@ multiprocessing
 import
 Queue
 from
+six
+import
+iteritems
+from
+six
+.
+moves
+import
+xrange
+from
 .
 import
 manifestinclude
@@ -733,12 +743,11 @@ for
 url_base
 paths
 in
+iteritems
+(
 self
 .
 test_paths
-.
-iteritems
-(
 )
 :
             
@@ -1466,13 +1475,12 @@ manifest_file
 =
 manifests_by_url_base
 [
+next
+(
 iter
 (
 tests
 )
-.
-next
-(
 )
 .
 url_base

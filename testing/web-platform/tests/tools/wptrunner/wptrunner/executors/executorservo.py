@@ -19,6 +19,10 @@ traceback
 import
 uuid
 from
+six
+import
+iteritems
+from
 mozprocess
 import
 ProcessHandler
@@ -235,6 +239,8 @@ for
 pref
 value
 in
+iteritems
+(
 test
 .
 environment
@@ -247,9 +253,6 @@ prefs
 {
 }
 )
-.
-iteritems
-(
 )
 :
         

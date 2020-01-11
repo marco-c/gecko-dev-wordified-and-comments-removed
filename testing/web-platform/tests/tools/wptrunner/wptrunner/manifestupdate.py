@@ -28,9 +28,12 @@ ceil
 from
 six
 import
+integer_types
 iterkeys
 itervalues
 iteritems
+string_types
+text_type
 from
 .
 wptmanifest
@@ -2668,9 +2671,10 @@ if
 isinstance
 (
 disable_intermittent
+string_types
++
 (
-str
-unicode
+text_type
 )
 )
 else
@@ -4580,10 +4584,7 @@ elif
 isinstance
 (
 item
-(
-str
-unicode
-)
+text_type
 )
 :
                 
@@ -5182,15 +5183,14 @@ value
 :
     
 if
-type
+isinstance
 (
 value
-)
-in
+integer_types
++
 (
-int
 float
-long
+)
 )
 :
         
@@ -5202,14 +5202,10 @@ value
 )
     
 elif
-type
+isinstance
 (
 value
-)
-in
-(
-str
-unicode
+text_type
 )
 :
         
@@ -5217,7 +5213,7 @@ node
 =
 StringNode
 (
-unicode
+text_type
 (
 value
 )
@@ -5265,15 +5261,14 @@ value
 :
     
 if
-type
+isinstance
 (
 value
-)
-in
+integer_types
++
 (
-int
 float
-long
+)
 )
 :
         
@@ -5285,14 +5280,10 @@ value
 )
     
 elif
-type
+isinstance
 (
 value
-)
-in
-(
-str
-unicode
+text_type
 )
 :
         
@@ -5300,7 +5291,7 @@ node
 =
 ValueNode
 (
-unicode
+text_type
 (
 value
 )

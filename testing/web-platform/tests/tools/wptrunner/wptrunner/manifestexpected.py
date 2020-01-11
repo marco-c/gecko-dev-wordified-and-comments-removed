@@ -15,6 +15,10 @@ collections
 import
 deque
 from
+six
+import
+text_type
+from
 .
 wptmanifest
 .
@@ -299,10 +303,7 @@ if
 isinstance
 (
 value
-(
-str
-unicode
-)
+text_type
 )
 :
             
@@ -343,10 +344,7 @@ if
 isinstance
 (
 ini_value
-(
-str
-unicode
-)
+text_type
 )
 :
             
@@ -396,14 +394,10 @@ prefs
 )
         
 if
-type
+isinstance
 (
 node_prefs
-)
-in
-(
-str
-unicode
+text_type
 )
 :
             
@@ -469,10 +463,7 @@ if
 isinstance
 (
 node_items
-(
-str
-unicode
-)
+text_type
 )
 :
             
@@ -536,10 +527,7 @@ if
 isinstance
 (
 node_items
-(
-str
-unicode
-)
+text_type
 )
 :
             
@@ -995,10 +983,7 @@ not
 isinstance
 (
 item
-(
-str
-unicode
-)
+text_type
 )
 :
             
@@ -2952,6 +2937,9 @@ with
 open
 (
 manifest_path
+"
+rb
+"
 )
 as
 f
@@ -3063,6 +3051,9 @@ with
 open
 (
 path
+"
+rb
+"
 )
 as
 f

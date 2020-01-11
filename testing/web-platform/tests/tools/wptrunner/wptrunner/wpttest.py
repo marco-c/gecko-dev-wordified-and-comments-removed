@@ -17,6 +17,10 @@ collections
 import
 defaultdict
 from
+six
+import
+string_types
+from
 .
 wptmanifest
 .
@@ -1951,9 +1955,7 @@ if
 isinstance
 (
 expected
-(
-basestring
-)
+string_types
 )
 :
                 

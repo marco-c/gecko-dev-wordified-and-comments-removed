@@ -10,6 +10,11 @@ os
 import
 sys
 from
+six
+import
+iteritems
+itervalues
+from
 wptserve
 import
 sslutils
@@ -643,12 +648,11 @@ for
 test_type
 tests
 in
+iteritems
+(
 test_loader
 .
 disabled_tests
-.
-iteritems
-(
 )
 :
         
@@ -828,10 +832,9 @@ item
 for
 item
 in
-tests
-.
 itervalues
 (
+tests
 )
 )
 =
