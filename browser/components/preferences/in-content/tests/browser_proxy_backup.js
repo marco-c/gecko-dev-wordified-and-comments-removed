@@ -313,7 +313,7 @@ network
 .
 proxy
 .
-socks
+ssl
 "
 "
 example
@@ -333,7 +333,7 @@ network
 .
 proxy
 .
-socks_port
+ssl_port
 "
 1200
 )
@@ -351,7 +351,7 @@ proxy
 .
 backup
 .
-socks
+ssl
 "
 "
 127
@@ -377,7 +377,7 @@ proxy
 .
 backup
 .
-socks_port
+ssl_port
 "
 9050
 )
@@ -494,7 +494,7 @@ proxy
 .
 backup
 .
-socks
+ssl
 "
 )
 "
@@ -533,7 +533,7 @@ proxy
 .
 backup
 .
-socks_port
+ssl_port
 "
 )
 9050
