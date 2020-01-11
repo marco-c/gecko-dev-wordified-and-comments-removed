@@ -71,7 +71,9 @@ test
 -
 platform
 :
-linux64
+linux1804
+-
+64
 /
 debug
 :
@@ -382,7 +384,9 @@ ccov
 *
 :
 2
-linux64
+linux1804
+-
+64
 (
 -
 qr

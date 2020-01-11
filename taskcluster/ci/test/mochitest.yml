@@ -1952,7 +1952,9 @@ android
 :
 [
 ]
-linux64
+linux1804
+-
+64
 /
 debug
 :
@@ -2040,7 +2042,9 @@ shippable
 *
 :
 2
-linux64
+linux1804
+-
+64
 (
 -
 shippable
