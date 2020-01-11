@@ -219,15 +219,6 @@ nsBaseChannel
 (
 )
 ;
-nsresult
-Init
-(
-)
-{
-return
-NS_OK
-;
-}
 protected
 :
 virtual
