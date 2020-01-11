@@ -2138,8 +2138,8 @@ isolated
 bool
 isTrrServiceChannel
 ;
-bool
-trrDisabled
+uint8_t
+trrMode
 ;
 bool
 isIPv4Disabled
