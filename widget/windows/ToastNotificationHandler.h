@@ -158,6 +158,11 @@ mClickable
 (
 aClickable
 )
+mSentFinished
+(
+!
+aAlertListener
+)
 {
 }
 nsresult
@@ -368,6 +373,9 @@ mHostPort
 bool
 mClickable
 ;
+bool
+mSentFinished
+;
 nsresult
 TryShowAlert
 (
@@ -388,6 +396,11 @@ aRequest
 ;
 nsresult
 OnWriteBitmapSuccess
+(
+)
+;
+void
+SendFinished
 (
 )
 ;
