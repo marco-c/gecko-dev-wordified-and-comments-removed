@@ -272,11 +272,6 @@ highlighted
 PropTypes
 .
 object
-supports
-:
-PropTypes
-.
-object
 filtered
 :
 PropTypes
@@ -728,7 +723,6 @@ selected
 highlighted
 :
 highlightedItem
-supports
 accessibilityWalker
 filtered
 }
@@ -736,13 +730,6 @@ filtered
 this
 .
 props
-;
-const
-hasContextMenu
-=
-supports
-.
-snapshot
 ;
 const
 renderRow
@@ -780,7 +767,6 @@ assign
 }
 rowProps
 {
-hasContextMenu
 highlighted
 decorator
 :
@@ -942,9 +928,6 @@ true
 }
 onContextMenuTree
 :
-hasContextMenu
-&
-&
 function
 (
 e
@@ -1000,7 +983,6 @@ ui
 {
 expanded
 selected
-supports
 highlighted
 }
 audit
@@ -1017,7 +999,6 @@ filters
 accessibles
 expanded
 selected
-supports
 highlighted
 filtered
 :
