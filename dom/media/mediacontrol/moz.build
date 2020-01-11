@@ -75,6 +75,11 @@ AudioFocusManager
 h
 '
 '
+ContentMediaController
+.
+h
+'
+'
 MediaControlKeysEvent
 .
 h
@@ -123,6 +128,11 @@ UNIFIED_SOURCES
 [
 '
 AudioFocusManager
+.
+cpp
+'
+'
+ContentMediaController
 .
 cpp
 '

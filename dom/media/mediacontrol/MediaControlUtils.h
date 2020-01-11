@@ -361,6 +361,15 @@ Unknown
 ;
 }
 }
+BrowsingContext
+*
+GetAliveTopBrowsingContext
+(
+BrowsingContext
+*
+aBC
+)
+;
 void
 NotifyMediaStarted
 (
