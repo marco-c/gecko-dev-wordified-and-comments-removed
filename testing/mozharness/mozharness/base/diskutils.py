@@ -175,11 +175,15 @@ pass
 import
 ctypes
 import
+logging
+import
 os
 import
 sys
+from
+six
 import
-logging
+string_types
 from
 mozharness
 .
@@ -361,6 +365,7 @@ KeyError
 raise
 DiskutilsError
 (
+            
 '
 conversion
 error
@@ -380,6 +385,7 @@ TypeError
 raise
 DiskutilsError
 (
+            
 '
 conversion
 error
@@ -395,6 +401,7 @@ a
 number
 '
 %
+            
 size
 )
 class
@@ -591,12 +598,15 @@ total
 =
 convert_to
 (
+            
 self
 .
 total
+            
 from_unit
 =
 from_unit
+            
 to_unit
 =
 to_unit
@@ -783,7 +793,7 @@ if
 isinstance
 (
 path
-unicode
+string_types
 )
 or
 sys

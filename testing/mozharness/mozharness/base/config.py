@@ -138,6 +138,14 @@ from
 __future__
 import
 print_function
+import
+os
+import
+socket
+import
+sys
+import
+time
 from
 copy
 import
@@ -145,19 +153,47 @@ deepcopy
 from
 optparse
 import
-OptionParser
 Option
 OptionGroup
+OptionParser
+from
+mozharness
+.
+base
+.
+log
 import
-os
-import
-sys
-import
+CRITICAL
+DEBUG
+ERROR
+FATAL
+INFO
+WARNING
+try
+:
+    
+from
 urllib2
 import
-socket
+URLError
+urlopen
+except
+ImportError
+:
+    
+from
+urllib
+.
+request
 import
-time
+urlopen
+    
+from
+urllib
+.
+error
+import
+URLError
 try
 :
     
@@ -171,19 +207,6 @@ ImportError
     
 import
 json
-from
-mozharness
-.
-base
-.
-log
-import
-DEBUG
-INFO
-WARNING
-ERROR
-CRITICAL
-FATAL
 class
 ExtendedOptionParser
 (
@@ -560,10 +583,13 @@ k
 v
 )
 in
+list
+(
 self
 .
 items
 (
+)
 )
 :
             
@@ -794,12 +820,15 @@ for
 k
 v
 in
+list
+(
 self
 .
 __dict__
 .
 items
 (
+)
 )
 :
             
@@ -824,10 +853,13 @@ for
 k
 v
 in
+list
+(
 self
 .
 items
 (
+)
 )
 :
             
@@ -1038,10 +1070,35 @@ local_dict
 {
 }
         
-execfile
+exec
 (
+            
+compile
+(
+                
+open
+(
+                    
 file_path
+                    
+"
+rb
+"
+)
+.
+read
+(
+)
+                
+file_path
+                
+'
+exec
+'
+)
+            
 global_dict
+            
 local_dict
 )
         
@@ -1127,6 +1184,7 @@ py
 )
 "
 %
+            
 file_name
 )
     
@@ -1171,6 +1229,7 @@ attempts
             
 print
 (
+                
 "
 Failed
 to
@@ -1189,6 +1248,7 @@ quiting
 .
 "
 %
+                
 (
 url
 attempts
@@ -1207,8 +1267,6 @@ try
             
 contents
 =
-urllib2
-.
 urlopen
 (
 url
@@ -1224,8 +1282,6 @@ read
 break
         
 except
-urllib2
-.
 URLError
 as
 e
@@ -1391,6 +1447,7 @@ e
         
 print
 (
+            
 "
 Error
 writing
@@ -1405,6 +1462,7 @@ s
 s
 "
 %
+            
 (
 file_name
 str
@@ -1444,39 +1502,45 @@ getting
 def
 __init__
 (
+            
 self
+            
 config
 =
 None
+            
 initial_config_file
 =
 None
+            
 config_options
 =
 None
-                 
+            
 all_actions
 =
 None
+            
 default_actions
 =
 None
-                 
+            
 volatile_config
 =
 None
+            
 option_args
 =
 None
-                 
+            
 require_config_file
 =
 False
-                 
+            
 append_env_variables_from_configs
 =
 False
-                 
+            
 usage
 =
 "
@@ -1682,6 +1746,7 @@ None
 option_args
 =
 [
+                    
 '
 dummy_mozharness_script_with_no_command_line_options
 .
@@ -1819,11 +1884,13 @@ work
 -
 dir
 "
+            
 action
 =
 "
 store
 "
+            
 dest
 =
 "
@@ -1835,6 +1902,7 @@ type
 "
 string
 "
+            
 default
 =
 os
@@ -1858,7 +1926,6 @@ the
 working
 directory
 "
-        
 )
         
 self
@@ -1877,11 +1944,13 @@ config
 -
 path
 "
+            
 action
 =
 '
 extend
 '
+            
 dest
 =
 "
@@ -1893,6 +1962,7 @@ type
 "
 string
 "
+            
 help
 =
 "
@@ -1979,6 +2049,7 @@ add_option
 -
 C
 "
+            
 "
 -
 -
@@ -1988,6 +2059,7 @@ config
 -
 file
 "
+            
 "
 -
 -
@@ -1995,6 +2067,7 @@ opt
 -
 cfg
 "
+            
 action
 =
 "
@@ -2006,11 +2079,13 @@ dest
 "
 opt_config_files
 "
+            
 type
 =
 "
 string
 "
+            
 default
 =
 [
@@ -2034,7 +2109,7 @@ but
 with
 no
 "
-                 
+            
 "
 error
 if
@@ -2047,7 +2122,6 @@ can
 be
 repeated
 "
-        
 )
         
 self
@@ -3036,6 +3110,7 @@ s
 "
 )
 %
+                          
 (
 action_list
 [
@@ -3486,6 +3561,7 @@ all_cfg_files_and_dicts
 .
 append
 (
+                
 (
 "
 [
@@ -3714,10 +3790,13 @@ all_cfg_files_and_dicts
 for
 v
 in
+list
+(
 c_dict
 .
 keys
 (
+)
 )
 :
                     
@@ -3795,10 +3874,13 @@ config
 for
 key
 in
+list
+(
 defaults
 .
 keys
 (
+)
 )
 :
             
@@ -3852,12 +3934,15 @@ value
 for
 key
 in
+list
+(
 self
 .
 volatile_config
 .
 keys
 (
+)
 )
 :
             
@@ -4116,6 +4201,7 @@ self
 .
 verify_actions
 (
+                
 self
 .
 _config
