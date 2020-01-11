@@ -62,10 +62,6 @@ static
 bool
 sAboutLoginsEnabled
 ;
-static
-bool
-sNewTabPageEnabled
-;
 }
 ;
 }
