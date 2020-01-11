@@ -7,7 +7,7 @@ add_task
 (
 async
 function
-test_app_update_URL
+test_empty_toplevel
 (
 )
 {
