@@ -23630,7 +23630,7 @@ noteIndex
 SrcNote
 :
 :
-ForOf
+Loop
 :
 :
 BackJumpOffset

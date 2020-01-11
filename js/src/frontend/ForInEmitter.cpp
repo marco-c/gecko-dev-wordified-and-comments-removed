@@ -598,7 +598,7 @@ noteIndex_
 SrcNote
 :
 :
-ForIn
+Loop
 :
 :
 BackJumpOffset
