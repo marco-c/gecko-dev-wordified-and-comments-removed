@@ -14527,13 +14527,11 @@ doc_index
 )
 ;
 if
-let
-Some
-(
-_
-)
-=
 device_size
+.
+is_some
+(
+)
 {
 self
 .

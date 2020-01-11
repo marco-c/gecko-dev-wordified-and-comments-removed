@@ -7996,8 +7996,8 @@ spatial_node_index
 self
 .
 spatial_node_index
-{
-if
+&
+&
 !
 prim_info
 .
@@ -8026,7 +8026,6 @@ item
 spatial_node_index
 )
 ;
-}
 }
 }
 let
@@ -8596,8 +8595,8 @@ on_picture_surface
 &
 &
 subpx_requested
-{
-if
+&
+&
 !
 self
 .
@@ -8620,7 +8619,6 @@ SubpixelMode
 :
 Deny
 ;
-}
 }
 }
 }
@@ -8791,8 +8789,8 @@ on_picture_surface
 ;
 if
 is_suitable_backdrop
-{
-if
+&
+&
 !
 prim_clip_chain
 .
@@ -8824,7 +8822,7 @@ kind
 :
 backdrop_candidate
 }
-}
+;
 }
 }
 self
@@ -18143,8 +18141,9 @@ if
 raster_config
 .
 establishes_raster_root
-{
-if
+&
+&
+(
 surface_rect
 .
 size
@@ -18161,6 +18160,7 @@ size
 height
 >
 MAX_SURFACE_SIZE
+)
 {
 raster_config
 .
@@ -18174,7 +18174,6 @@ are_raster_roots_assigned
 =
 false
 ;
-}
 }
 self
 .
