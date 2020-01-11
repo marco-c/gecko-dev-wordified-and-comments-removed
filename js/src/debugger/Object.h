@@ -1034,6 +1034,9 @@ vp
 struct
 CallData
 ;
+struct
+PromiseReactionRecordBuilder
+;
 static
 MOZ_MUST_USE
 bool
