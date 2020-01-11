@@ -6582,6 +6582,8 @@ aTopLevelPrincipal
 bool
 aIsHandlingUserInput
 bool
+aMaybeUnsafePermissionDelegate
+bool
 aDocumentHasUserInput
 uint64_t
 aPageLoadTimestamp
