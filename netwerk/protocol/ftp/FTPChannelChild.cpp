@@ -3237,18 +3237,11 @@ mUnknownDecoderInvolved
 =
 false
 ;
-nsresult
-rv
-=
-NS_OK
-;
 if
 (
 mDivertingToParent
 )
 {
-rv
-=
 mEventQ
 -
 >
@@ -3265,7 +3258,7 @@ Clear
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMETHODIMP
