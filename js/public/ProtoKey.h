@@ -175,7 +175,7 @@ Boolean
 REAL
 (
 JSON
-InitJSONClass
+InitViaClassSpec
 CLASP
 (
 JSON
