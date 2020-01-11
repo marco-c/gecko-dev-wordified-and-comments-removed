@@ -5516,6 +5516,11 @@ nsHttpConnection
 if
 (
 httpResponseCode
+>
+0
+&
+&
+httpResponseCode
 !
 =
 200
