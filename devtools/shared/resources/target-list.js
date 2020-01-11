@@ -834,6 +834,9 @@ async
 _onTargetAvailable
 (
 targetFront
+isTargetSwitching
+=
+false
 )
 {
 if
@@ -919,6 +922,7 @@ targetFront
 this
 .
 targetFront
+isTargetSwitching
 }
 )
 ;
@@ -926,6 +930,9 @@ targetFront
 _onTargetDestroyed
 (
 targetFront
+isTargetSwitching
+=
+false
 )
 {
 const
@@ -958,6 +965,7 @@ targetFront
 this
 .
 targetFront
+isTargetSwitching
 }
 )
 ;
@@ -1429,6 +1437,9 @@ targetFront
 this
 .
 targetFront
+isTargetSwitching
+:
+false
 }
 )
 ;
@@ -1723,11 +1734,22 @@ this
 _targets
 )
 {
+const
+isTargetSwitching
+=
+target
+=
+=
+this
+.
+targetFront
+;
 this
 .
 _onTargetDestroyed
 (
 target
+isTargetSwitching
 )
 ;
 }
@@ -1777,6 +1799,7 @@ this
 _onTargetAvailable
 (
 newTarget
+true
 )
 ;
 await
