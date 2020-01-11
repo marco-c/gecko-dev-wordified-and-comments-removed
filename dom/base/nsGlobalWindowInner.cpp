@@ -10543,7 +10543,7 @@ Stop
 }
 }
 return
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -23253,7 +23253,7 @@ IsCurrentInnerWindow
 return
 ;
 }
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -23450,7 +23450,7 @@ IsCurrentInnerWindow
 return
 ;
 }
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -23713,7 +23713,7 @@ IsSuspended
 )
 )
 ;
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -23872,7 +23872,7 @@ IsSuspended
 )
 )
 ;
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner
@@ -24224,7 +24224,7 @@ CallState
 nsGlobalWindowInner
 :
 :
-CallOnChildren
+CallOnInProcessChildren
 (
 Method
 aMethod
@@ -32920,7 +32920,7 @@ ClearActiveStoragePrincipal
 )
 ;
 }
-CallOnChildren
+CallOnInProcessChildren
 (
 &
 nsGlobalWindowInner

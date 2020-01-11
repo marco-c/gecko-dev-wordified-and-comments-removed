@@ -6252,7 +6252,7 @@ mozilla
 :
 :
 CallState
-CallOnChildren
+CallOnInProcessChildren
 (
 Method
 aMethod
