@@ -1386,9 +1386,9 @@ maybeSlot
 shape
 -
 >
-kids
+children
 .
-checkConsistency
+checkHasChild
 (
 prev
 )

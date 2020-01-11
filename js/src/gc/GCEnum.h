@@ -434,7 +434,7 @@ WeakMapObject
 \
 _
 (
-ShapeKids
+ShapeChildren
 )
 \
 _

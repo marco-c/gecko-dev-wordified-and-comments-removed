@@ -825,7 +825,7 @@ MACRO
 (
 Other
 MallocHeap
-shapesMallocHeapTreeKids
+shapesMallocHeapTreeChildren
 )
 ShapeInfo
 (

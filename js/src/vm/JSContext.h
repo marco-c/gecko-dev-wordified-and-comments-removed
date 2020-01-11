@@ -186,14 +186,6 @@ class
 AutoSuppressNurseryCellAlloc
 ;
 }
-typedef
-HashSet
-<
-Shape
-*
->
-ShapeSet
-;
 class
 MOZ_RAII
 AutoCycleDetector
