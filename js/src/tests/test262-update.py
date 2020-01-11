@@ -195,10 +195,6 @@ Segmenter
 "
     
 "
-WeakRef
-"
-    
-"
 optional
 -
 chaining
@@ -261,6 +257,22 @@ hasOwnProperty
 (
 '
 SharedArrayBuffer
+'
+)
+"
+    
+"
+WeakRef
+"
+:
+"
+!
+this
+.
+hasOwnProperty
+(
+'
+WeakRef
 '
 )
 "
