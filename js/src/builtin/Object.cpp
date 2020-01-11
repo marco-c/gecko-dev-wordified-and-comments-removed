@@ -125,6 +125,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h

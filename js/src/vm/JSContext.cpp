@@ -285,6 +285,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 ErrorReporting
 .
 h

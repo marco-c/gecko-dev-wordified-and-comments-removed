@@ -33,6 +33,13 @@ algorithm
 #
 include
 "
+jsnum
+.
+h
+"
+#
+include
+"
 jit
 /
 Ion

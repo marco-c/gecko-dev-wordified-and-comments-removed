@@ -490,6 +490,15 @@ include
 "
 vm
 /
+ErrorObject
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h
