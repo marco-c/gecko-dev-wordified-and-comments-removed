@@ -4766,7 +4766,10 @@ mozilla
 StyleHyphens
 mHyphens
 ;
-uint8_t
+mozilla
+:
+:
+StyleRubyAlign
 mRubyAlign
 ;
 uint8_t

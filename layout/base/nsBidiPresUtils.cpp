@@ -7541,7 +7541,10 @@ StyleText
 mRubyAlign
 =
 =
-NS_STYLE_RUBY_ALIGN_START
+StyleRubyAlign
+:
+:
+Start
 )
 {
 return
