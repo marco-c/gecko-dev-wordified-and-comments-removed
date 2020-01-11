@@ -140,7 +140,7 @@ cssparser
 "
 0
 .
-25
+27
 "
 derive_more
 =
@@ -168,7 +168,7 @@ phf
 "
 0
 .
-7
+8
 "
 precomputed
 -
@@ -250,5 +250,5 @@ phf_codegen
 "
 0
 .
-7
+8
 "

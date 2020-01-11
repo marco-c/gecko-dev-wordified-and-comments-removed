@@ -1,8 +1,20 @@
 use
+crate
+:
+:
 cow_rc_str
 :
 :
 CowRcStr
+;
+use
+crate
+:
+:
+tokenizer
+:
+:
+Token
 ;
 use
 std
@@ -12,12 +24,6 @@ borrow
 :
 :
 Cow
-;
-use
-tokenizer
-:
-:
-Token
 ;
 macro_rules
 !
@@ -229,6 +235,7 @@ size_of_test
 !
 (
 tokenizer
+crate
 :
 :
 tokenizer
@@ -242,6 +249,7 @@ size_of_test
 !
 (
 parser_input
+crate
 :
 :
 parser
@@ -267,6 +275,7 @@ size_of_test
 !
 (
 parser
+crate
 :
 :
 parser
@@ -280,6 +289,7 @@ size_of_test
 !
 (
 source_position
+crate
 :
 :
 SourcePosition
@@ -290,6 +300,7 @@ size_of_test
 !
 (
 parser_state
+crate
 :
 :
 ParserState
@@ -300,6 +311,7 @@ size_of_test
 !
 (
 basic_parse_error
+crate
 :
 :
 BasicParseError
@@ -310,6 +322,7 @@ size_of_test
 !
 (
 parse_error_lower_bound
+crate
 :
 :
 ParseError

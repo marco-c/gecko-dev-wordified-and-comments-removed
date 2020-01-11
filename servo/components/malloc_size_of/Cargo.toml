@@ -158,7 +158,7 @@ cssparser
 "
 0
 .
-25
+27
 "
 euclid
 =
@@ -303,7 +303,7 @@ version
 "
 0
 .
-7
+8
 "
 optional
 =
@@ -368,13 +368,6 @@ servo
 /
 webrender
 "
-features
-=
-[
-"
-ipc
-"
-]
 optional
 =
 true
@@ -387,7 +380,7 @@ version
 "
 0
 .
-15
+16
 "
 optional
 =

@@ -61,9 +61,6 @@ Hc128Rng
 #
 [
 inline
-(
-always
-)
 ]
 fn
 next_u32
@@ -87,9 +84,6 @@ next_u32
 #
 [
 inline
-(
-always
-)
 ]
 fn
 next_u64
@@ -110,6 +104,10 @@ next_u64
 (
 )
 }
+#
+[
+inline
+]
 fn
 fill_bytes
 (
@@ -134,6 +132,10 @@ fill_bytes
 dest
 )
 }
+#
+[
+inline
+]
 fn
 try_fill_bytes
 (
@@ -184,6 +186,10 @@ SeedableRng
 :
 Seed
 ;
+#
+[
+inline
+]
 fn
 from_seed
 (
@@ -214,6 +220,10 @@ seed
 )
 )
 }
+#
+[
+inline
+]
 fn
 from_rng
 <
@@ -2704,6 +2714,13 @@ counter1024
 16
 ;
 }
+#
+[
+inline
+(
+always
+)
+]
 fn
 init
 (

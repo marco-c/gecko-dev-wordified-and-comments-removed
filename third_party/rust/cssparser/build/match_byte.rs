@@ -2,7 +2,10 @@ use
 quote
 :
 :
+{
+quote
 ToTokens
+}
 ;
 use
 std
@@ -57,6 +60,15 @@ parse
 Parse
 ParseStream
 Result
+}
+;
+use
+syn
+:
+:
+{
+parse_quote
+Token
 }
 ;
 use

@@ -1,4 +1,7 @@
 use
+rand_core
+:
+:
 {
 RngCore
 SeedableRng
@@ -11,9 +14,6 @@ cfg
 (
 all
 (
-all
-(
-rustc_1_26
 not
 (
 target_os
@@ -21,7 +21,6 @@ target_os
 "
 emscripten
 "
-)
 )
 target_pointer_width
 =
@@ -34,8 +33,6 @@ target_pointer_width
 type
 Rng
 =
-:
-:
 rand_pcg
 :
 :
@@ -49,9 +46,6 @@ not
 (
 all
 (
-all
-(
-rustc_1_26
 not
 (
 target_os
@@ -59,7 +53,6 @@ target_os
 "
 emscripten
 "
-)
 )
 target_pointer_width
 =
@@ -73,8 +66,6 @@ target_pointer_width
 type
 Rng
 =
-:
-:
 rand_pcg
 :
 :
@@ -152,6 +143,13 @@ next_u64
 (
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 fn
 fill_bytes
 (
@@ -177,6 +175,13 @@ dest
 )
 ;
 }
+#
+[
+inline
+(
+always
+)
+]
 fn
 try_fill_bytes
 (
@@ -227,6 +232,13 @@ SeedableRng
 :
 Seed
 ;
+#
+[
+inline
+(
+always
+)
+]
 fn
 from_seed
 (
@@ -252,6 +264,13 @@ seed
 )
 )
 }
+#
+[
+inline
+(
+always
+)
+]
 fn
 from_rng
 <

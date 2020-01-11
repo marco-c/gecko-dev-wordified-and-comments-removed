@@ -9,14 +9,6 @@ std
 "
 )
 ]
-#
-[
-doc
-(
-hidden
-)
-]
-pub
 mod
 read
 ;
@@ -42,7 +34,10 @@ self
 read
 :
 :
+{
 ReadRng
+ReadError
+}
 ;
 pub
 use

@@ -18,10 +18,6 @@ extern
 crate
 test
 ;
-extern
-crate
-rand
-;
 use
 test
 :
@@ -54,6 +50,14 @@ mem
 :
 :
 size_of
+;
+use
+rand_pcg
+:
+:
+Pcg32
+as
+SmallRng
 ;
 const
 RAND_BENCH_N
@@ -256,6 +260,7 @@ usize
 as
 u64
 *
+crate
 :
 :
 RAND_BENCH_N
@@ -567,6 +572,7 @@ usize
 as
 u64
 *
+crate
 :
 :
 RAND_BENCH_N
