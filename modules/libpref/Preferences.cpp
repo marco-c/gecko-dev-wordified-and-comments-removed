@@ -5963,6 +5963,8 @@ static
 PrefsHashTable
 *
 gHashTable
+=
+nullptr
 ;
 #
 ifdef
@@ -6072,6 +6074,8 @@ static
 AccessCountsHashTable
 *
 gAccessCounts
+=
+nullptr
 ;
 static
 void
