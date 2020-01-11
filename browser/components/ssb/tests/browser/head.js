@@ -148,6 +148,17 @@ await
 popupShown
 ;
 let
+expectedUri
+=
+win
+.
+gBrowser
+.
+selectedBrowser
+.
+currentURI
+;
+let
 openItem
 =
 doc
@@ -277,6 +288,9 @@ browserLoaded
 (
 browser
 true
+expectedUri
+.
+spec
 )
 ;
 return
