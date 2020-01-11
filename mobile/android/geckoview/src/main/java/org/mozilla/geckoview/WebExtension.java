@@ -1519,7 +1519,7 @@ event
 {
 runtime
 .
-getWebExtensionDispatcher
+getWebExtensionController
 (
 )
 .
