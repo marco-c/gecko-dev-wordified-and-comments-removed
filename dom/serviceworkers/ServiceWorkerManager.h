@@ -1062,6 +1062,11 @@ MaybeStartShutdown
 (
 )
 ;
+void
+MaybeFinishShutdown
+(
+)
+;
 already_AddRefed
 <
 ServiceWorkerJobQueue
