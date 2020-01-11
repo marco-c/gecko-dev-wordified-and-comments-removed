@@ -1000,6 +1000,7 @@ SpeculativeConnectRequest
 /
 /
 Using
+medium
 high
 priority
 to
@@ -1026,7 +1027,7 @@ timeout
 .
 prio
 (
-high
+mediumhigh
 )
 async
 NetworkChangeNotification
