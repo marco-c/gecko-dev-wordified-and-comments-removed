@@ -3992,7 +3992,7 @@ sdp
 parser
 "
 "
-legacy
+sipcc
 "
 )
 ;
@@ -4026,7 +4026,7 @@ sdp
 parser
 "
 "
-legacy
+sipcc
 "
 )
 ;
