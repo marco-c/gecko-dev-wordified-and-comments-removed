@@ -2712,13 +2712,6 @@ cpp
 '
 client
 /
-TextureClient
-.
-cpp
-'
-'
-client
-/
 TextureClientPool
 .
 cpp
@@ -3577,6 +3570,13 @@ cpp
 basic
 /
 BasicImageLayer
+.
+cpp
+'
+'
+client
+/
+TextureClient
 .
 cpp
 '

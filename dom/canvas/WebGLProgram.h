@@ -204,6 +204,11 @@ ActiveUniformInfo
 &
 info
 ;
+bool
+isArray
+=
+false
+;
 uint8_t
 channelsPerElem
 =
@@ -354,6 +359,8 @@ componentsPerTFVert
 ;
 bool
 attrib0Active
+=
+false
 ;
 std
 :
@@ -536,7 +543,7 @@ UseProgram
 )
 const
 ;
-void
+bool
 ValidateProgram
 (
 )

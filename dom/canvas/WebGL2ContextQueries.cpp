@@ -334,7 +334,6 @@ return
 ;
 const
 auto
-&
 query
 =
 *

@@ -40,6 +40,17 @@ h
 #
 include
 "
+mozilla
+/
+layers
+/
+TextureForwarder
+.
+h
+"
+#
+include
+"
 ScopedGLHelpers
 .
 h
