@@ -361,12 +361,6 @@ exit
 ;
 }
 if
-let
-Ok
-(
-_
-)
-=
 env
 :
 :
@@ -375,6 +369,10 @@ var
 "
 CRANELIFT_VERBOSE
 "
+)
+.
+is_ok
+(
 )
 {
 for

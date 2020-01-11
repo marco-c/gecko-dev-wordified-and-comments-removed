@@ -424,10 +424,6 @@ format
 "
 c
 )
-.
-to_string
-(
-)
 }
 }
 /

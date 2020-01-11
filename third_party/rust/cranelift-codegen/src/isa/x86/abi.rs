@@ -4991,7 +4991,7 @@ insts
 =
 insts
 .
-into_iter
+iter
 (
 )
 .

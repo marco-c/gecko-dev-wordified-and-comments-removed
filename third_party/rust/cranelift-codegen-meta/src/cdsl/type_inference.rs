@@ -2378,10 +2378,6 @@ tv2
 get_typeset
 (
 )
-.
-clone
-(
-)
 ;
 tv1
 .
@@ -3348,10 +3344,6 @@ var_index
 tv
 .
 get_typeset
-(
-)
-.
-clone
 (
 )
 )
