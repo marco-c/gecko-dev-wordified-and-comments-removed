@@ -131,6 +131,15 @@ triggers
 /
 webkitgtk_minibrowser_nightly
 "
+"
+refs
+/
+heads
+/
+triggers
+/
+servo_nightly
+"
 ]
 '
 then
