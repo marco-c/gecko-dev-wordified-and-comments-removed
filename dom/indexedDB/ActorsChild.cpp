@@ -12696,8 +12696,10 @@ target
 ;
 mTaskQueue
 =
-new
+MakeRefPtr
+<
 TaskQueue
+>
 (
 target
 .
