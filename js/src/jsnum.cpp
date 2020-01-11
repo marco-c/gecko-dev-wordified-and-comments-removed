@@ -126,7 +126,7 @@ h
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 #
 include
 "
@@ -4941,7 +4941,7 @@ args
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 MOZ_ALWAYS_INLINE
 bool
 num_toLocaleString_impl
@@ -6882,7 +6882,7 @@ num_toString
 )
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 js_toLocaleString_str
@@ -7071,7 +7071,7 @@ rt
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 const
 char
 *
@@ -7307,6 +7307,10 @@ return
 true
 ;
 }
+#
+if
+!
+ENABLE_INTL_API
 void
 js
 :
@@ -7318,10 +7322,6 @@ JSRuntime
 rt
 )
 {
-#
-if
-!
-JS_HAS_INTL_API
 char
 *
 storage
@@ -7347,9 +7347,9 @@ js_free
 storage
 )
 ;
+}
 #
 endif
-}
 JSObject
 *
 NumberObject

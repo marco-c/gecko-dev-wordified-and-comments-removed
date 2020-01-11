@@ -108,7 +108,7 @@ h
 "
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -673,7 +673,7 @@ reset
 ;
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -836,7 +836,7 @@ MaxTimeT
 ;
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -1622,7 +1622,7 @@ oldEndSeconds
 }
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -2490,7 +2490,7 @@ false
 }
 #
 elif
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -3085,7 +3085,7 @@ internalResyncICUDefaultTimeZone
 {
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !

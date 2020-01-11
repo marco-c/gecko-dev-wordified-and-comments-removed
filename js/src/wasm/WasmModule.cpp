@@ -6165,7 +6165,7 @@ types
 else
 #
 ifndef
-JS_HAS_TYPED_OBJECTS
+ENABLE_TYPED_OBJECTS
 #
 error
 "

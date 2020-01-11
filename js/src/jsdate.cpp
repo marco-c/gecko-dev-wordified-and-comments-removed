@@ -376,7 +376,7 @@ private
 :
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -475,7 +475,7 @@ localTime
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 |
 |
 MOZ_SYSTEM_ICU
@@ -2017,7 +2017,7 @@ jitter
 }
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -13766,7 +13766,7 @@ rval
 }
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 &
 &
 !
@@ -14831,7 +14831,7 @@ true
 #
 if
 !
-JS_HAS_INTL_API
+ENABLE_INTL_API
 static
 bool
 ToLocaleFormatHelper
@@ -16498,7 +16498,7 @@ date_toGMTString
 )
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 JS_SELF_HOSTED_FN
 (
 js_toLocaleString_str

@@ -4176,7 +4176,7 @@ objects
 set_config
 (
 '
-JS_HAS_TYPED_OBJECTS
+ENABLE_TYPED_OBJECTS
 '
 depends_if
 (
@@ -4200,7 +4200,7 @@ True
 set_define
 (
 '
-JS_HAS_TYPED_OBJECTS
+ENABLE_TYPED_OBJECTS
 '
 depends_if
 (

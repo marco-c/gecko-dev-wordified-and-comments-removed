@@ -2064,7 +2064,7 @@ false
 }
 #
 ifdef
-JS_HAS_TYPED_OBJECTS
+ENABLE_TYPED_OBJECTS
 value
 =
 BooleanValue
@@ -2105,7 +2105,7 @@ false
 }
 #
 ifdef
-JS_HAS_INTL_API
+ENABLE_INTL_API
 value
 =
 BooleanValue

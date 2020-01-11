@@ -359,8 +359,6 @@ js
 JitExceptionHandler
 sJitExceptionHandler
 ;
-#
-endif
 JS_FRIEND_API
 void
 js
@@ -372,9 +370,6 @@ JitExceptionHandler
 handler
 )
 {
-#
-ifdef
-NEED_JIT_UNWIND_HANDLING
 MOZ_ASSERT
 (
 !
@@ -385,14 +380,7 @@ sJitExceptionHandler
 =
 handler
 ;
-#
-else
-#
-endif
 }
-#
-ifdef
-NEED_JIT_UNWIND_HANDLING
 #
 if
 defined

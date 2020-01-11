@@ -1487,6 +1487,9 @@ ShutDownMallocAllocator
 (
 )
 ;
+#
+ifdef
+MOZ_DEBUG
 extern
 void
 AssertJSStringBufferInCorrectArena
@@ -1497,6 +1500,8 @@ void
 ptr
 )
 ;
+#
+endif
 }
 static
 inline

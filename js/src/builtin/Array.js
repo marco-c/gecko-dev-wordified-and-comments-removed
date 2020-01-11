@@ -3022,7 +3022,7 @@ else
 {
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 R
 =
 ToString
@@ -3112,7 +3112,7 @@ null
 {
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 R
 +
 =

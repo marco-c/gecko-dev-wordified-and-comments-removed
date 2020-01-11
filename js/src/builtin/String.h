@@ -263,7 +263,7 @@ vp
 ;
 #
 if
-JS_HAS_INTL_API
+ENABLE_INTL_API
 extern
 MOZ_MUST_USE
 bool
