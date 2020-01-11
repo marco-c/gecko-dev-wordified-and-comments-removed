@@ -3,12 +3,15 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
+import
+json
 import
 os
 import
 re
 import
-json
+six
 def
 build_dict
 (
@@ -1300,7 +1303,9 @@ if
 isinstance
 (
 file
-basestring
+six
+.
+text_type
 )
 :
         
@@ -1310,7 +1315,7 @@ open
 (
 file
 '
-wb
+wt
 '
 )
     
