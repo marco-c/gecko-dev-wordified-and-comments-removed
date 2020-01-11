@@ -12,6 +12,16 @@ build
 mozconfig
 .
 stylo
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+wasm
+-
+sandboxing
 MOZ_AUTOMATION_L10N_CHECK
 =
 0
