@@ -295,10 +295,6 @@ mIsHandlingKeyEvent
 false
 )
 {
-UpdateMouseThrough
-(
-)
-;
 }
 void
 nsButtonBoxFrame
