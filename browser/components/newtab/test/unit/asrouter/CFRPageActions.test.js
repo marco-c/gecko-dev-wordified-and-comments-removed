@@ -373,6 +373,31 @@ stub
 )
 }
 ;
+const
+gURLBar
+=
+document
+.
+createElement
+(
+"
+div
+"
+)
+;
+gURLBar
+.
+textbox
+=
+document
+.
+createElement
+(
+"
+div
+"
+)
+;
 globals
 =
 new
@@ -452,6 +477,7 @@ selectedBrowser
 fakeBrowser
 }
 A11yUtils
+gURLBar
 }
 )
 ;
@@ -1040,7 +1066,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 style
 .
@@ -1076,7 +1102,7 @@ and
 dispatch
 an
 impression
-iff
+if
 expand
 is
 true
@@ -1147,7 +1173,7 @@ notEqual
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1195,7 +1221,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1557,7 +1583,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1637,7 +1663,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1763,7 +1789,7 @@ isNull
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1779,7 +1805,7 @@ state
 ;
 pageAction
 .
-urlbar
+urlbarinput
 .
 setAttribute
 (
@@ -1807,7 +1833,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1929,7 +1955,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -2124,7 +2150,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -2219,7 +2245,7 @@ equal
 (
 pageAction
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (

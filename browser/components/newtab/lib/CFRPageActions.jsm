@@ -316,14 +316,7 @@ urlbar
 =
 win
 .
-document
-.
-getElementById
-(
-"
-urlbar
-"
-)
+gURLBar
 ;
 this
 .
@@ -331,16 +324,9 @@ urlbarinput
 =
 win
 .
-document
+gURLBar
 .
-getElementById
-(
-"
-urlbar
--
-input
-"
-)
+textbox
 ;
 this
 .
@@ -736,7 +722,7 @@ getClientRects
 ;
 this
 .
-urlbar
+urlbarinput
 .
 style
 .
@@ -773,7 +759,7 @@ _showPopupOnClick
 ;
 this
 .
-urlbarinput
+urlbar
 .
 addEventListener
 (
@@ -869,7 +855,7 @@ _clearScheduledStateChanges
 ;
 this
 .
-urlbar
+urlbarinput
 .
 removeAttribute
 (
@@ -898,7 +884,7 @@ _showPopupOnClick
 ;
 this
 .
-urlbar
+urlbarinput
 .
 removeEventListener
 (
@@ -969,7 +955,7 @@ setTimeout
 {
 this
 .
-urlbar
+urlbarinput
 .
 setAttribute
 (
@@ -1001,7 +987,7 @@ _clearScheduledStateChanges
 ;
 this
 .
-urlbar
+urlbarinput
 .
 setAttribute
 (
@@ -1052,7 +1038,7 @@ if
 (
 this
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1074,7 +1060,7 @@ expanded
 {
 this
 .
-urlbar
+urlbarinput
 .
 setAttribute
 (
@@ -1109,7 +1095,7 @@ if
 (
 this
 .
-urlbar
+urlbarinput
 .
 getAttribute
 (
@@ -1131,7 +1117,7 @@ expanded
 {
 this
 .
-urlbar
+urlbarinput
 .
 setAttribute
 (
