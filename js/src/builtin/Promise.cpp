@@ -14236,6 +14236,9 @@ return
 true
 ;
 }
+#
+ifdef
+NIGHTLY_BUILD
 static
 bool
 Promise_static_any
@@ -14271,6 +14274,8 @@ Any
 )
 ;
 }
+#
+endif
 static
 bool
 PromiseAnyRejectElementFunction
