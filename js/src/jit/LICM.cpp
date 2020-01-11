@@ -188,7 +188,7 @@ JitSpew
 (
 JitSpew_LICM
 "
-Possile
+Possible
 call
 found
 at
