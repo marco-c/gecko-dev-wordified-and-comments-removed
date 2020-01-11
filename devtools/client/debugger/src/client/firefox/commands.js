@@ -89,6 +89,7 @@ DebuggerClient
 Grip
 ThreadFront
 ObjectFront
+ExpressionResult
 SourcesPacket
 }
 from
@@ -240,6 +241,8 @@ grip
 :
 Grip
 )
+:
+ObjectFront
 {
 if
 (
@@ -267,6 +270,7 @@ debuggerClient
 createObjectFront
 (
 grip
+currentThreadFront
 )
 ;
 }
@@ -1227,7 +1231,6 @@ location
 )
 ;
 }
-async
 function
 evaluateInFrame
 (
@@ -1238,6 +1241,15 @@ options
 :
 EvaluateParam
 )
+:
+Promise
+<
+{
+result
+:
+ExpressionResult
+}
+>
 {
 return
 evaluate
@@ -1318,9 +1330,7 @@ Promise
 {
 result
 :
-Grip
-|
-null
+ExpressionResult
 }
 >
 {
@@ -1370,7 +1380,7 @@ thread
 currentTarget
 ;
 const
-console
+consoleFront
 =
 target
 .
@@ -1379,7 +1389,7 @@ activeConsole
 if
 (
 !
-console
+consoleFront
 )
 {
 return
@@ -1396,7 +1406,7 @@ null
 ;
 }
 return
-console
+consoleFront
 .
 evaluateJSAsync
 (

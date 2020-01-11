@@ -53,7 +53,7 @@ getApplicableBindingsForOriginalPosition
 ;
 import
 {
-createObjectFront
+clientCommands
 }
 from
 "
@@ -1018,6 +1018,8 @@ desc
 const
 objectFront
 =
+clientCommands
+.
 createObjectFront
 (
 desc

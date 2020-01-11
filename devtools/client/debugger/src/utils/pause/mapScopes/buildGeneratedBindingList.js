@@ -51,7 +51,7 @@ types
 ;
 import
 {
-createObjectFront
+clientCommands
 }
 from
 "
@@ -531,6 +531,8 @@ async
 const
 objectFront
 =
+clientCommands
+.
 createObjectFront
 (
 globalGrip

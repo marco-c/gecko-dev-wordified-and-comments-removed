@@ -19,6 +19,7 @@ import
 type
 {
 SourcePayload
+LongStringFront
 }
 from
 "
@@ -916,10 +917,14 @@ exception
 ?
 :
 string
+|
+LongStringFront
 error
 ?
 :
 string
+|
+LongStringFront
 }
 ;
 export

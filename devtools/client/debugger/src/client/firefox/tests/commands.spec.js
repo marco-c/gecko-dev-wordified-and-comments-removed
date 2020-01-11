@@ -132,17 +132,6 @@ type
 :
 "
 "
-release
-:
-(
-)
-=
->
-Promise
-.
-resolve
-(
-)
 }
 ;
 }

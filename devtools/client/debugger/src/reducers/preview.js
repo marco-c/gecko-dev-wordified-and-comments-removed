@@ -50,9 +50,11 @@ Preview
 expression
 :
 string
-result
+resultGrip
 :
 Grip
+|
+null
 root
 :
 Node
