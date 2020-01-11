@@ -131,6 +131,15 @@ BROWSER_CHROME_MANIFESTS
 test
 /
 browser
+-
+harautomation
+.
+ini
+'
+'
+test
+/
+browser
 .
 ini
 '
