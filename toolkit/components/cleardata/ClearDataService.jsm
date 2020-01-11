@@ -1512,6 +1512,16 @@ Password
 entry
 "
 )
+&
+&
+ex
+.
+result
+!
+=
+Cr
+.
+NS_ERROR_NOT_IMPLEMENTED
 )
 {
 throw
