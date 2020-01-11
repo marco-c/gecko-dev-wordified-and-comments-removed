@@ -437,7 +437,7 @@ name
 :
 PLATFORM_DEFAULT_FACE_NAME
 .
-clone
+to_string
 (
 )
 }
