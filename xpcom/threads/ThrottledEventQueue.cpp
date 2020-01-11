@@ -196,7 +196,10 @@ mutable
 CondVar
 mIdleCondVar
 ;
-EventQueue
+EventQueueSized
+<
+64
+>
 mEventQueue
 ;
 nsCOMPtr
