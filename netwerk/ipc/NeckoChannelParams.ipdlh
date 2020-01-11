@@ -2471,10 +2471,6 @@ loadType
 uint32_t
 cacheKey
 ;
-uint32_t
-?
-documentOpenFlags
-;
 bool
 isActive
 ;
@@ -2483,9 +2479,6 @@ isTopLevelDoc
 ;
 bool
 hasNonEmptySandboxingFlags
-;
-bool
-pluginsAllowed
 ;
 }
 ;

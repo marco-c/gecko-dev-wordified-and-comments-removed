@@ -546,7 +546,7 @@ flags
 async
 PDocumentChannel
 (
-PBrowser
+PBrowserOrId
 browser
 SerializedLoadContext
 loadContext

@@ -33,8 +33,6 @@ DisconnectChildListeners
 (
 nsresult
 aStatus
-nsresult
-aLoadGroupStatus
 )
 =
 0
