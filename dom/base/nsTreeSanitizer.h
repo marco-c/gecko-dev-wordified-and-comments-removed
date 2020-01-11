@@ -106,6 +106,9 @@ mFullDocument
 bool
 mLogRemovals
 ;
+bool
+mOnlyConditionalCSS
+;
 class
 AtomsTable
 :
