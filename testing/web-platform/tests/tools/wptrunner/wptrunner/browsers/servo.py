@@ -27,9 +27,15 @@ executors
 .
 executorservo
 import
+(
+ServoCrashtestExecutor
+                                       
 ServoTestharnessExecutor
+                                       
 ServoRefTestExecutor
+                                       
 ServoWdspecExecutor
+)
 here
 =
 os
@@ -83,6 +89,14 @@ executor
 "
 :
 {
+        
+"
+crashtest
+"
+:
+"
+ServoCrashtestExecutor
+"
         
 "
 testharness
