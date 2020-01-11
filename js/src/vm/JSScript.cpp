@@ -31948,6 +31948,17 @@ empty
 )
 )
 ;
+lazy
+-
+>
+setFlag
+(
+ImmutableFlags
+:
+:
+IsFunction
+)
+;
 mozilla
 :
 :
