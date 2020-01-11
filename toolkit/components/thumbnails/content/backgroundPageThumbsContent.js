@@ -91,6 +91,11 @@ SETTLE_WAIT_TIME
 2500
 ;
 const
+TESTING_SETTLE_WAIT_TIME
+=
+0
+;
+const
 STATE_LOADING
 =
 1
@@ -634,6 +639,17 @@ NS_BINDING_ABORTED
 )
 )
 {
+let
+waitTime
+=
+Cu
+.
+isInAutomation
+?
+TESTING_SETTLE_WAIT_TIME
+:
+SETTLE_WAIT_TIME
+;
 if
 (
 this
@@ -647,7 +663,7 @@ _captureTimer
 .
 delay
 =
-SETTLE_WAIT_TIME
+waitTime
 ;
 }
 else
@@ -705,7 +721,7 @@ this
 _captureTimer
 ;
 }
-SETTLE_WAIT_TIME
+waitTime
 Ci
 .
 nsITimer
