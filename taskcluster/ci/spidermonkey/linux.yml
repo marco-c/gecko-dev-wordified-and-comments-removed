@@ -1042,6 +1042,9 @@ platform
 linux64
 /
 debug
+tier
+:
+2
 symbol
 :
 SM
