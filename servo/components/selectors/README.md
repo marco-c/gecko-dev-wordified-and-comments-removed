@@ -222,7 +222,9 @@ github
 .
 com
 /
-SimonSapin
+kuchiki
+-
+rs
 /
 kuchiki
 /
@@ -289,7 +291,9 @@ github
 .
 com
 /
-SimonSapin
+kuchiki
+-
+rs
 /
 kuchiki
 )
