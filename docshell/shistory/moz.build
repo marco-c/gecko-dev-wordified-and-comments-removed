@@ -169,11 +169,6 @@ MaybeNewPSHEntry
 h
 '
 '
-ParentSHistory
-.
-h
-'
-'
 SHEntryChild
 .
 h
@@ -220,11 +215,6 @@ cpp
 '
 '
 nsSHistory
-.
-cpp
-'
-'
-ParentSHistory
 .
 cpp
 '
