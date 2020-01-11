@@ -552,6 +552,7 @@ nsGkAtoms
 audio
 )
 )
+NS_DECL_ADDSIZEOFEXCLUDINGTHIS
 void
 GetEventTargetParent
 (
