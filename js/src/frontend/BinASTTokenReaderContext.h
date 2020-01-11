@@ -5065,13 +5065,6 @@ BinASTSourceMetadataContext
 *
 metadata_
 ;
-class
-HuffmanDictionary
-dictionary_
-;
-TemporaryStorage
-tempStorage_
-;
 const
 uint8_t
 *
