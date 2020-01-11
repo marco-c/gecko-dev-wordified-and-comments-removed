@@ -107,6 +107,23 @@ foo
 bar
 '
     
+result
+=
+result
+and
+request
+.
+url_parts
+.
+query
+=
+=
+'
+query
+=
+1
+'
+    
 return
 (
 [
