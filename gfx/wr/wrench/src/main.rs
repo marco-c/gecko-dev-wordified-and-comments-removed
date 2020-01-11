@@ -2146,7 +2146,7 @@ DocumentId
 _scrolled
 :
 bool
-composite_needed
+_composite_needed
 :
 bool
 _render_time
@@ -2157,16 +2157,12 @@ u64
 >
 )
 {
-if
-composite_needed
-{
 self
 .
 wake_up
 (
 )
 ;
-}
 }
 }
 fn
