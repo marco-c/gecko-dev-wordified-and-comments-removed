@@ -2611,7 +2611,7 @@ Clear
 )
 ;
 }
-nsresult
+void
 nsDOMOfflineResourceList
 :
 :
@@ -2632,7 +2632,6 @@ GetOwner
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -2649,7 +2648,6 @@ GetDocShell
 )
 {
 return
-NS_OK
 ;
 }
 RefPtr
@@ -2712,7 +2710,6 @@ event
 )
 ;
 return
-NS_OK
 ;
 }
 DispatchEvent
@@ -2720,9 +2717,6 @@ DispatchEvent
 *
 event
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
