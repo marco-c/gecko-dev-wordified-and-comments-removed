@@ -1237,7 +1237,7 @@ adapterRAM
 type
 :
 "
-string
+number
 "
 }
 adapterDrivers
@@ -1318,7 +1318,7 @@ adapterRAM2
 type
 :
 "
-string
+number
 "
 }
 adapterDrivers2
