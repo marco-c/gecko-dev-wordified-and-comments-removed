@@ -114,5 +114,16 @@ ci
 .
 patch
 "
+"
+clang
+-
+tidy
+-
+no
+-
+errors
+.
+patch
+"
 ]
 }
