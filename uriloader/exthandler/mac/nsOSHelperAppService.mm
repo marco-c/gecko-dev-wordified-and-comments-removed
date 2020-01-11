@@ -1278,13 +1278,6 @@ NS_OK
 :
 CFRelease
 (
-appBundle
-)
-;
-:
-:
-CFRelease
-(
 selfURL
 )
 ;
