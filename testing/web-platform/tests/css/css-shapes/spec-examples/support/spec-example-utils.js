@@ -148,10 +148,6 @@ properly
 )
 ;
 }
-done
-(
-)
-;
 }
 runTest
 (
