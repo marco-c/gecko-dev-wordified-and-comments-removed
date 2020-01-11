@@ -131,10 +131,6 @@ const
 nsAString
 &
 pluginDumpID
-const
-nsAString
-&
-browserDumpID
 )
 ;
 nsresult

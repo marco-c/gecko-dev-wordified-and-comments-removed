@@ -706,10 +706,6 @@ pluginDumpID
 :
 "
 "
-browserDumpID
-:
-"
-"
 submittedCrashReport
 :
 false
@@ -1033,10 +1029,6 @@ pluginName
 "
 "
 pluginDumpID
-:
-"
-"
-browserDumpID
 :
 "
 "

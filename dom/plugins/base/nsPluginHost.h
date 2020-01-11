@@ -683,10 +683,6 @@ const
 nsAString
 &
 pluginDumpID
-const
-nsAString
-&
-browserDumpID
 )
 ;
 nsNPAPIPluginInstance

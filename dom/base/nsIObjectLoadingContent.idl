@@ -902,9 +902,6 @@ in
 AString
 pluginDumpID
 in
-AString
-browserDumpID
-in
 boolean
 submittedCrashReport
 )

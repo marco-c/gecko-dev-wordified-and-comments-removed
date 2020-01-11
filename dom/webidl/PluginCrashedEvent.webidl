@@ -134,12 +134,6 @@ readonly
 attribute
 DOMString
 ?
-browserDumpID
-;
-readonly
-attribute
-DOMString
-?
 pluginFilename
 ;
 readonly
@@ -176,12 +170,6 @@ pluginName
 =
 "
 "
-;
-DOMString
-?
-browserDumpID
-=
-null
 ;
 DOMString
 ?
