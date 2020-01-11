@@ -709,9 +709,7 @@ mode
 ]
 =
 '
-no
--
-cors
+navigate
 '
 ;
 fetch
@@ -1022,9 +1020,7 @@ mode
 ]
 =
 '
-no
--
-cors
+navigate
 '
 ;
 fetch
