@@ -376,6 +376,11 @@ additional_minidumps
 ]
 ;
 }
+bool
+IsLikelyOOM
+(
+)
+;
 private
 :
 static
