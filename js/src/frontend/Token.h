@@ -336,17 +336,6 @@ true
 ;
 enum
 class
-InvalidEscapeType
-{
-None
-Hexadecimal
-Unicode
-UnicodeOverflow
-Octal
-}
-;
-enum
-class
 IdentifierEscapes
 {
 None

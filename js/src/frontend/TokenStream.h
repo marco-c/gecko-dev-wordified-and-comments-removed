@@ -652,6 +652,17 @@ Unit
 class
 SourceUnits
 ;
+enum
+class
+InvalidEscapeType
+{
+None
+Hexadecimal
+Unicode
+UnicodeOverflow
+Octal
+}
+;
 class
 TokenStreamAnyChars
 :
