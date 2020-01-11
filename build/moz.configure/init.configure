@@ -9325,6 +9325,9 @@ channel
 )
 :
 if
+not
+channel
+or
 channel
 [
 0
