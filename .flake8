@@ -138,9 +138,6 @@ l10n
 fluent_migrations
 python
 /
-lldbutils
-python
-/
 mozbuild
 /
 dumbmake

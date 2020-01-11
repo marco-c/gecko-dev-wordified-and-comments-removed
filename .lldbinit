@@ -277,6 +277,8 @@ join
 (
 topsrcdir
 "
+third_party
+/
 python
 /
 lldbutils
