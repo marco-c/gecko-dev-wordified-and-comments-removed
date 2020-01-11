@@ -194,6 +194,7 @@ ini
 SPHINX_TREES
 [
 '
+/
 l10n
 '
 ]
