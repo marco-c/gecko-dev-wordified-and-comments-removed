@@ -5799,6 +5799,13 @@ MappedArgumentsObject
 :
 :
 obj_defineProperty
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const

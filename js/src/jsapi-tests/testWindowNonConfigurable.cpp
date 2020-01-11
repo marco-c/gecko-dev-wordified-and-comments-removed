@@ -104,6 +104,13 @@ windowProxy_objectOps
 {
 nullptr
 windowProxy_defineProperty
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static
