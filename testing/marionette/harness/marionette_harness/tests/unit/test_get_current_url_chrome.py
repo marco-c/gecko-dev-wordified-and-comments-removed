@@ -187,7 +187,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
         

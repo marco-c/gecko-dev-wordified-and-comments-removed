@@ -1002,7 +1002,7 @@ content
 /
 test_dialog
 .
-xul
+xhtml
 "
 )
     

@@ -17,7 +17,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 64049
 -
@@ -55,7 +55,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 387745
 -

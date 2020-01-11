@@ -1150,7 +1150,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 }
 {
@@ -1184,7 +1184,7 @@ content
 /
 test_dialog
 .
-xul
+xhtml
 "
 }
 {

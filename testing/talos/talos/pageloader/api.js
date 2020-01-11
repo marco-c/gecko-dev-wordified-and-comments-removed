@@ -256,7 +256,7 @@ content
 /
 pageloader
 .
-xul
+xhtml
 "
 ;
 let

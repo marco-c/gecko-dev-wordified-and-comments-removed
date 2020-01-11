@@ -782,7 +782,7 @@ content
 /
 reftest
 .
-xul
+xhtml
 "
 "
 reftest

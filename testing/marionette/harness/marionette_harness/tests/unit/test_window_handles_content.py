@@ -75,7 +75,7 @@ setUp
         
 self
 .
-xul_dialog
+chrome_dialog
 =
 "
 chrome
@@ -88,7 +88,7 @@ content
 /
 test_dialog
 .
-xul
+xhtml
 "
     
 def
@@ -513,7 +513,7 @@ open_chrome_window
 (
 self
 .
-xul_dialog
+chrome_dialog
 )
         
 self

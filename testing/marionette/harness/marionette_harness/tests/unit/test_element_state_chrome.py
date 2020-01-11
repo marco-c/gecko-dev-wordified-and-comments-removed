@@ -69,7 +69,7 @@ content
 /
 test
 .
-xul
+xhtml
 "
 )
         
