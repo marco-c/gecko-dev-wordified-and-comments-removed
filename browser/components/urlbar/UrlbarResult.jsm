@@ -727,6 +727,15 @@ stripHttps
 )
 )
 {
+url
+=
+BrowserUtils
+.
+removeSingleTrailingSlashFromURL
+(
+url
+)
+;
 if
 (
 url
