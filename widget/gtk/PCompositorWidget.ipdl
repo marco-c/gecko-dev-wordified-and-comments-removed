@@ -157,11 +157,6 @@ LayoutDeviceIntSize
 aClientSize
 )
 ;
-async
-RequestsUpdatingEGLSurface
-(
-)
-;
 child
 :
 async

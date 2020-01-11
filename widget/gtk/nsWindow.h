@@ -1372,7 +1372,7 @@ aEvent
 ifdef
 MOZ_WAYLAND
 void
-WaylandEGLSurfaceForceRedraw
+MaybeResumeCompositor
 (
 )
 ;
@@ -2155,7 +2155,7 @@ mIsX11Display
 ifdef
 MOZ_WAYLAND
 bool
-mNeedsUpdatingEGLSurface
+mNeedsCompositorResume
 ;
 bool
 mCompositorInitiallyPaused

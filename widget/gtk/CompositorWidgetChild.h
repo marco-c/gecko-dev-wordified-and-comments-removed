@@ -104,17 +104,6 @@ aClientSize
 )
 override
 ;
-#
-ifdef
-MOZ_WAYLAND
-void
-RequestsUpdatingEGLSurface
-(
-)
-override
-;
-#
-endif
 private
 :
 RefPtr
