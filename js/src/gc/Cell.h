@@ -472,7 +472,7 @@ constexpr
 int
 ReservedBits
 =
-2
+3
 ;
 static
 constexpr
