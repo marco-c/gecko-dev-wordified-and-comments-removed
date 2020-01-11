@@ -1,5 +1,7 @@
+from
+__future__
 import
-lldb
+absolute_import
 def
 summarize_nscolor
 (
@@ -417,6 +419,8 @@ GetValueAsUnsigned
 (
 0
 )
+\
+            
 +
 self
 .
