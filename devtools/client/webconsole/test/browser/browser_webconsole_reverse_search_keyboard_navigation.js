@@ -86,6 +86,10 @@ hud
 "
 Snoopy
 "
+"
+.
+result
+"
 )
 ;
 for
