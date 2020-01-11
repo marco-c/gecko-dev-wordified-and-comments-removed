@@ -152,17 +152,6 @@ SchedulerGroup
 )
 ;
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
-virtual
-bool
-IsBackground
-(
-)
-const
-{
-return
-false
-;
-}
 class
 Runnable
 final

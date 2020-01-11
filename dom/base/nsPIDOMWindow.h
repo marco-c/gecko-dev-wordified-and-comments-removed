@@ -797,13 +797,6 @@ TryToCacheTopInnerWindow
 )
 ;
 void
-UpdateActiveIndexedDBTransactionCount
-(
-int32_t
-aDelta
-)
-;
-void
 UpdateActiveIndexedDBDatabaseCount
 (
 int32_t
