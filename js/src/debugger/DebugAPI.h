@@ -51,12 +51,11 @@ PromiseObject
 ;
 enum
 class
-ResumeMode
+NativeResumeMode
 {
 Continue
-Throw
-Terminate
-Return
+Override
+Abort
 }
 ;
 class
@@ -456,7 +455,7 @@ frame
 ;
 static
 inline
-ResumeMode
+NativeResumeMode
 onNativeCall
 (
 JSContext
@@ -898,7 +897,7 @@ frame
 )
 ;
 static
-ResumeMode
+NativeResumeMode
 slowPathOnNativeCall
 (
 JSContext

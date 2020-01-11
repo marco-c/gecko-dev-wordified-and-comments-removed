@@ -448,6 +448,16 @@ ScriptedOnPopHandler
 class
 DebuggerDebuggeeLink
 ;
+enum
+class
+ResumeMode
+{
+Continue
+Throw
+Terminate
+Return
+}
+;
 class
 Completion
 {
