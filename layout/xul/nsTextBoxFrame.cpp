@@ -2017,8 +2017,6 @@ underStyle
 style
 ;
 decorMask
-.
-bits
 &
 =
 ~
@@ -2026,8 +2024,6 @@ StyleTextDecorationLine
 :
 :
 UNDERLINE
-.
-bits
 ;
 decorations
 |
@@ -2062,8 +2058,6 @@ overStyle
 style
 ;
 decorMask
-.
-bits
 &
 =
 ~
@@ -2071,8 +2065,6 @@ StyleTextDecorationLine
 :
 :
 OVERLINE
-.
-bits
 ;
 decorations
 |
@@ -2107,8 +2099,6 @@ strikeStyle
 style
 ;
 decorMask
-.
-bits
 &
 =
 ~
@@ -2116,8 +2106,6 @@ StyleTextDecorationLine
 :
 :
 LINE_THROUGH
-.
-bits
 ;
 decorations
 |
