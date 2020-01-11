@@ -1344,7 +1344,7 @@ errors_histogram
 .
 values
 [
-8
+7
 ]
 1
 "
@@ -1353,7 +1353,8 @@ should
 be
 one
 invalid
-length
+content
+hash
 error
 "
 )
