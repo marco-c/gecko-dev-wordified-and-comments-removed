@@ -5233,7 +5233,7 @@ single_thread
 .
 enabled
 "
-false
+true
 )
 ;
 pref
