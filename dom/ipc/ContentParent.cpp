@@ -31432,6 +31432,14 @@ Id
 )
 )
 ;
+controller
+-
+>
+NotifyMediaStateChanged
+(
+aState
+)
+;
 return
 IPC_OK
 (
