@@ -258,6 +258,9 @@ roots
 createRootsFromGrip
 (
 grip
+override
+.
+pathPrefix
 )
 ;
 const
@@ -437,6 +440,10 @@ function
 createRootsFromGrip
 (
 grip
+pathPrefix
+=
+"
+"
 )
 {
 return
@@ -444,6 +451,10 @@ return
 {
 path
 :
+{
+pathPrefix
+}
+{
 (
 grip
 &
@@ -460,6 +471,7 @@ stringify
 (
 grip
 )
+}
 contents
 :
 {

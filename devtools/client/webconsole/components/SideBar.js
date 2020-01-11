@@ -348,6 +348,11 @@ SHORT
 autoFocusRoot
 :
 true
+pathPrefix
+:
+"
+WebConsoleSidebar
+"
 }
 )
 ;
