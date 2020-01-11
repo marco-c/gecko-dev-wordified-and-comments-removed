@@ -10,9 +10,6 @@ steps
 script
 :
 |
-sudo
-easy_install
-pip
 #
 sudo
 pip
