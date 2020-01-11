@@ -1,14 +1,51 @@
+import
+os
+import
+platform
+import
+socket
+import
+sys
+import
+time
+from
+ctypes
+import
+Structure
+byref
+c_ulong
+windll
 from
 optparse
 import
 OptionParser
+try
+:
+    
 from
-ctypes
+urllib2
 import
-windll
-Structure
-c_ulong
-byref
+urlopen
+URLError
+HTTPError
+except
+ImportError
+:
+    
+from
+urllib
+.
+request
+import
+urlopen
+    
+from
+urllib
+.
+error
+import
+URLError
+HTTPError
 try
 :
     
@@ -21,18 +58,6 @@ import
 simplejson
 as
 json
-import
-os
-import
-sys
-import
-urllib2
-import
-socket
-import
-platform
-import
-time
 default_screen_resolution
 =
 {
@@ -79,8 +104,6 @@ try
 :
             
 return
-urllib2
-.
 urlopen
 (
 url
@@ -94,9 +117,8 @@ read
 )
         
 except
-urllib2
-.
 HTTPError
+as
 e
 :
             
@@ -125,9 +147,8 @@ e
 )
         
 except
-urllib2
-.
 URLError
+as
 e
 :
             
@@ -159,6 +180,7 @@ except
 socket
 .
 timeout
+as
 e
 :
             
@@ -188,6 +210,7 @@ except
 socket
 .
 error
+as
 e
 :
             
@@ -372,6 +395,7 @@ None
 :
         
 print
+(
 "
 You
 must
@@ -389,6 +413,7 @@ configuration
 file
 .
 "
+)
         
 return
 1
@@ -496,13 +521,13 @@ mouse_position
 ]
         
 except
-urllib2
-.
 HTTPError
+as
 e
 :
             
 print
+(
 "
 This
 branch
@@ -522,8 +547,10 @@ str
 (
 e
 )
+)
             
 print
+(
 "
 Let
 '
@@ -534,6 +561,7 @@ to
 1024x768
 .
 "
+)
             
 new_screen_resolution
 =
@@ -544,13 +572,13 @@ new_mouse_position
 default_mouse_position
         
 except
-urllib2
-.
 URLError
+as
 e
 :
             
 print
+(
 "
 INFRA
 -
@@ -575,16 +603,19 @@ str
 (
 e
 )
+)
             
 return
 1
         
 except
 Exception
+as
 e
 :
             
 print
+(
 "
 ERROR
 :
@@ -604,6 +635,7 @@ str
 (
 e
 )
+)
             
 return
 1
@@ -615,6 +647,7 @@ queryScreenResolution
 )
     
 print
+(
 "
 Screen
 resolution
@@ -639,6 +672,7 @@ s
 (
 current_screen_resolution
 )
+)
     
 if
 current_screen_resolution
@@ -648,6 +682,7 @@ new_screen_resolution
 :
         
 print
+(
 "
 No
 need
@@ -658,11 +693,13 @@ screen
 resolution
 .
 "
+)
     
 else
 :
         
 print
+(
 "
 Changing
 the
@@ -672,6 +709,7 @@ resolution
 .
 .
 "
+)
         
 try
 :
@@ -694,10 +732,12 @@ y
         
 except
 Exception
+as
 e
 :
             
 print
+(
 "
 INFRA
 -
@@ -713,8 +753,6 @@ screen
 resolution
 but
 "
-+
-\
                   
 "
 something
@@ -728,6 +766,7 @@ s
 str
 (
 e
+)
 )
             
 return
@@ -747,6 +786,7 @@ queryScreenResolution
 )
         
 print
+(
 "
 Screen
 resolution
@@ -769,8 +809,10 @@ s
 "
 %
 current_screen_resolution
+)
     
 print
+(
 "
 Mouse
 position
@@ -795,6 +837,7 @@ s
 (
 queryMousePosition
 (
+)
 )
 )
     
@@ -821,6 +864,7 @@ queryMousePosition
 )
     
 print
+(
 "
 Mouse
 position
@@ -845,6 +889,7 @@ s
 (
 current_mouse_position
 )
+)
     
 if
 current_screen_resolution
@@ -859,6 +904,7 @@ new_mouse_position
 :
         
 print
+(
 "
 INFRA
 -
@@ -877,6 +923,7 @@ what
 we
 expected
 "
+)
         
 return
 1
