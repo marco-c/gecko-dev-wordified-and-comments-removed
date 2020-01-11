@@ -28,7 +28,7 @@ async
 >
 {
 let
-ssb
+ssbwin
 ;
 info
 (
@@ -63,7 +63,7 @@ page
 }
 )
 ;
-ssb
+ssbwin
 =
 await
 openSSBFromBrowserWindow
@@ -73,7 +73,7 @@ openSSBFromBrowserWindow
 }
 else
 {
-ssb
+ssbwin
 =
 await
 openSSB
@@ -96,7 +96,7 @@ promise
 =
 expectTabLoad
 (
-ssb
+ssbwin
 )
 .
 then
@@ -147,7 +147,7 @@ promise
 =
 expectSSBLoad
 (
-ssb
+ssbwin
 )
 .
 then
@@ -163,7 +163,7 @@ equal
 (
 getBrowser
 (
-ssb
+ssbwin
 )
 .
 currentURI
@@ -209,7 +209,7 @@ linkId
 }
 getBrowser
 (
-ssb
+ssbwin
 )
 )
 ;
@@ -217,11 +217,21 @@ await
 promise
 ;
 await
+getSSB
+(
+ssbwin
+)
+.
+uninstall
+(
+)
+;
+await
 BrowserTestUtils
 .
 closeWindow
 (
-ssb
+ssbwin
 )
 ;
 }
