@@ -99,11 +99,11 @@ runtimes
 *
 *
 /
-mochitest
+manifest
+-
+runtimes
 -
 *
-.
-runtimes
 .
 json
 '
