@@ -513,7 +513,6 @@ params
 (
 pcombine
 (
-[
 pbool
 (
 '
@@ -545,7 +544,6 @@ destroy
 :
 true
 }
-]
 ]
 )
 )

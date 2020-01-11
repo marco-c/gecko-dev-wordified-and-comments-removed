@@ -216,7 +216,7 @@ dimension
 arrayLayerCount
 mipLevelCount
 baseMipLevel
-success
+_success
 }
 =
 t
@@ -252,7 +252,6 @@ baseMipLevel
 }
 )
 ;
-await
 t
 .
 expectValidationError
@@ -271,7 +270,7 @@ descriptor
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -281,7 +280,7 @@ params
 (
 [
 {
-success
+_success
 :
 true
 }
@@ -289,7 +288,7 @@ true
 arrayLayerCount
 :
 1
-success
+_success
 :
 true
 }
@@ -297,7 +296,7 @@ true
 arrayLayerCount
 :
 2
-success
+_success
 :
 false
 }
@@ -312,7 +311,7 @@ array
 arrayLayerCount
 :
 1
-success
+_success
 :
 true
 }
@@ -325,7 +324,7 @@ baseMipLevel
 MIP_LEVEL_COUNT
 -
 1
-success
+_success
 :
 true
 }
@@ -338,7 +337,7 @@ baseMipLevel
 MIP_LEVEL_COUNT
 -
 2
-success
+_success
 :
 true
 }
@@ -349,7 +348,7 @@ mipLevelCount
 baseMipLevel
 :
 0
-success
+_success
 :
 true
 }
@@ -360,7 +359,7 @@ mipLevelCount
 baseMipLevel
 :
 1
-success
+_success
 :
 true
 }
@@ -373,7 +372,7 @@ baseMipLevel
 MIP_LEVEL_COUNT
 -
 1
-success
+_success
 :
 true
 }
@@ -384,7 +383,7 @@ mipLevelCount
 baseMipLevel
 :
 MIP_LEVEL_COUNT
-success
+_success
 :
 false
 }
@@ -397,7 +396,7 @@ MIP_LEVEL_COUNT
 baseMipLevel
 :
 0
-success
+_success
 :
 false
 }
@@ -408,7 +407,7 @@ MIP_LEVEL_COUNT
 baseMipLevel
 :
 1
-success
+_success
 :
 false
 }
@@ -421,7 +420,7 @@ baseMipLevel
 MIP_LEVEL_COUNT
 -
 1
-success
+_success
 :
 false
 }
@@ -432,7 +431,7 @@ mipLevelCount
 baseMipLevel
 :
 MIP_LEVEL_COUNT
-success
+_success
 :
 false
 }
@@ -469,7 +468,7 @@ array
 '
 arrayLayerCount
 baseArrayLayer
-success
+_success
 }
 =
 t
@@ -504,7 +503,6 @@ baseArrayLayer
 }
 )
 ;
-await
 t
 .
 expectValidationError
@@ -523,7 +521,7 @@ descriptor
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -533,7 +531,7 @@ params
 (
 [
 {
-success
+_success
 :
 true
 }
@@ -546,7 +544,7 @@ dimension
 arrayLayerCount
 :
 1
-success
+_success
 :
 true
 }
@@ -554,7 +552,7 @@ true
 arrayLayerCount
 :
 ARRAY_LAYER_COUNT_2D
-success
+_success
 :
 true
 }
@@ -565,7 +563,7 @@ arrayLayerCount
 baseArrayLayer
 :
 0
-success
+_success
 :
 true
 }
@@ -576,7 +574,7 @@ arrayLayerCount
 baseArrayLayer
 :
 1
-success
+_success
 :
 true
 }
@@ -589,7 +587,7 @@ baseArrayLayer
 ARRAY_LAYER_COUNT_2D
 -
 1
-success
+_success
 :
 true
 }
@@ -600,7 +598,7 @@ arrayLayerCount
 baseArrayLayer
 :
 ARRAY_LAYER_COUNT_2D
-success
+_success
 :
 false
 }
@@ -613,7 +611,7 @@ ARRAY_LAYER_COUNT_2D
 baseArrayLayer
 :
 0
-success
+_success
 :
 false
 }
@@ -624,7 +622,7 @@ ARRAY_LAYER_COUNT_2D
 baseArrayLayer
 :
 1
-success
+_success
 :
 false
 }
@@ -637,7 +635,7 @@ baseArrayLayer
 ARRAY_LAYER_COUNT_2D
 -
 1
-success
+_success
 :
 false
 }
@@ -648,7 +646,7 @@ arrayLayerCount
 baseArrayLayer
 :
 ARRAY_LAYER_COUNT_2D
-success
+_success
 :
 false
 }
@@ -686,7 +684,7 @@ format
 dimension
 arrayLayerCount
 mipLevelCount
-success
+_success
 }
 =
 t
@@ -717,7 +715,6 @@ arrayLayerCount
 mipLevelCount
 }
 ;
-await
 t
 .
 expectValidationError
@@ -736,7 +733,7 @@ descriptor
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -746,7 +743,7 @@ params
 (
 [
 {
-success
+_success
 :
 true
 }
@@ -756,7 +753,7 @@ format
 '
 rgba8unorm
 '
-success
+_success
 :
 true
 }
@@ -766,7 +763,7 @@ format
 '
 r8unorm
 '
-success
+_success
 :
 false
 }
@@ -778,7 +775,7 @@ dimension
 -
 array
 '
-success
+_success
 :
 true
 }
@@ -788,7 +785,7 @@ dimension
 '
 2d
 '
-success
+_success
 :
 false
 }
@@ -796,7 +793,7 @@ false
 arrayLayerCount
 :
 ARRAY_LAYER_COUNT_2D
-success
+_success
 :
 false
 }
@@ -811,7 +808,7 @@ dimension
 -
 array
 '
-success
+_success
 :
 true
 }
@@ -829,7 +826,7 @@ array
 mipLevelCount
 :
 MIP_LEVEL_COUNT
-success
+_success
 :
 true
 }
@@ -866,7 +863,7 @@ format
 dimension
 arrayLayerCount
 mipLevelCount
-success
+_success
 }
 =
 t
@@ -897,7 +894,6 @@ arrayLayerCount
 mipLevelCount
 }
 ;
-await
 t
 .
 expectValidationError
@@ -916,7 +912,7 @@ descriptor
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -926,7 +922,7 @@ params
 (
 [
 {
-success
+_success
 :
 true
 }
@@ -936,7 +932,7 @@ format
 '
 rgba8unorm
 '
-success
+_success
 :
 true
 }
@@ -946,7 +942,7 @@ format
 '
 r8unorm
 '
-success
+_success
 :
 false
 }
@@ -958,7 +954,7 @@ dimension
 -
 array
 '
-success
+_success
 :
 true
 }
@@ -968,7 +964,7 @@ dimension
 '
 2d
 '
-success
+_success
 :
 true
 }
@@ -976,7 +972,7 @@ true
 arrayLayerCount
 :
 0
-success
+_success
 :
 true
 }
@@ -984,7 +980,7 @@ true
 arrayLayerCount
 :
 1
-success
+_success
 :
 true
 }
@@ -992,7 +988,7 @@ true
 arrayLayerCount
 :
 2
-success
+_success
 :
 false
 }
@@ -1000,7 +996,7 @@ false
 mipLevelCount
 :
 MIP_LEVEL_COUNT
-success
+_success
 :
 true
 }
@@ -1008,7 +1004,7 @@ true
 mipLevelCount
 :
 1
-success
+_success
 :
 true
 }
@@ -1041,7 +1037,7 @@ dimension
 array
 '
 arrayLayerCount
-success
+_success
 }
 =
 t
@@ -1075,7 +1071,6 @@ arrayLayerCount
 }
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1094,7 +1089,7 @@ descriptor
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -1112,7 +1107,7 @@ cube
 arrayLayerCount
 :
 6
-success
+_success
 :
 true
 }
@@ -1125,7 +1120,7 @@ cube
 arrayLayerCount
 :
 3
-success
+_success
 :
 false
 }
@@ -1138,7 +1133,7 @@ cube
 arrayLayerCount
 :
 7
-success
+_success
 :
 false
 }
@@ -1151,7 +1146,7 @@ cube
 arrayLayerCount
 :
 12
-success
+_success
 :
 false
 }
@@ -1161,7 +1156,7 @@ dimension
 '
 cube
 '
-success
+_success
 :
 false
 }
@@ -1176,7 +1171,7 @@ array
 arrayLayerCount
 :
 12
-success
+_success
 :
 true
 }
@@ -1191,7 +1186,7 @@ array
 arrayLayerCount
 :
 11
-success
+_success
 :
 false
 }
@@ -1206,7 +1201,7 @@ array
 arrayLayerCount
 :
 13
-success
+_success
 :
 false
 }
@@ -1280,7 +1275,6 @@ arrayLayerCount
 }
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1384,7 +1378,6 @@ stencil8
 }
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1516,7 +1509,6 @@ endPass
 (
 )
 ;
-await
 t
 .
 expectValidationError

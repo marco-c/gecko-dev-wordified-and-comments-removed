@@ -163,7 +163,6 @@ binding
 =
 0
 ;
-await
 t
 .
 expectValidationError
@@ -258,7 +257,6 @@ binding
 -
 1
 ;
-await
 t
 .
 expectValidationError
@@ -467,7 +465,6 @@ hasDynamicOffset
 =
 true
 ;
-await
 t
 .
 expectValidationError
@@ -545,7 +542,7 @@ t
 const
 {
 type
-success
+_success
 }
 =
 t
@@ -578,7 +575,7 @@ true
 ;
 if
 (
-success
+_success
 )
 {
 t
@@ -593,7 +590,6 @@ descriptor
 }
 else
 {
-await
 t
 .
 expectValidationError
@@ -630,7 +626,7 @@ uniform
 -
 buffer
 '
-success
+_success
 :
 true
 }
@@ -642,7 +638,7 @@ storage
 -
 buffer
 '
-success
+_success
 :
 true
 }
@@ -656,7 +652,7 @@ storage
 -
 buffer
 '
-success
+_success
 :
 true
 }
@@ -666,7 +662,7 @@ type
 '
 sampler
 '
-success
+_success
 :
 false
 }
@@ -678,7 +674,7 @@ sampled
 -
 texture
 '
-success
+_success
 :
 false
 }
@@ -690,7 +686,7 @@ storage
 -
 texture
 '
-success
+_success
 :
 false
 }

@@ -783,7 +783,6 @@ vertexInput
 code
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1048,7 +1047,6 @@ badVertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1104,7 +1102,6 @@ badVertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1294,7 +1291,6 @@ badVertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1464,7 +1460,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1639,7 +1634,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1807,7 +1801,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -1918,7 +1911,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2038,7 +2030,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2166,7 +2157,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2304,7 +2294,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2388,7 +2377,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2515,7 +2503,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2686,7 +2673,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2833,7 +2819,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2902,7 +2887,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError
@@ -2988,7 +2972,6 @@ vertexInput
 VERTEX_SHADER_CODE_WITH_NO_INPUT
 )
 ;
-await
 t
 .
 expectValidationError

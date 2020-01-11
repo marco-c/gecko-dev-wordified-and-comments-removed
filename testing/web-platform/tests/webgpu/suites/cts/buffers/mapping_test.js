@@ -107,7 +107,6 @@ unmap
 (
 )
 ;
-return
 this
 .
 expectContents

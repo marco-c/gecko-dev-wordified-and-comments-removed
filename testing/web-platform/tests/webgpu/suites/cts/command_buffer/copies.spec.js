@@ -195,7 +195,6 @@ finish
 ]
 )
 ;
-await
 t
 .
 expectContents
@@ -468,7 +467,6 @@ finish
 ]
 )
 ;
-await
 t
 .
 expectContents
@@ -817,7 +815,6 @@ finish
 ]
 )
 ;
-await
 t
 .
 expectContents

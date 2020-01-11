@@ -7,7 +7,7 @@ attemptGarbageCollection
 const
 w
 =
-window
+self
 ;
 if
 (

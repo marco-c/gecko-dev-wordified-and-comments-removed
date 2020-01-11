@@ -95,7 +95,7 @@ t
 const
 {
 type
-maxDynamicBufferCount
+_expectedMaxDynamicBufferCount
 }
 =
 t
@@ -117,7 +117,7 @@ i
 ;
 i
 <
-maxDynamicBufferCount
+_expectedMaxDynamicBufferCount
 ;
 i
 +
@@ -251,7 +251,6 @@ badDescriptor
 ]
 }
 ;
-await
 t
 .
 expectValidationError
@@ -287,7 +286,7 @@ storage
 -
 buffer
 '
-maxDynamicBufferCount
+_expectedMaxDynamicBufferCount
 :
 4
 }
@@ -299,7 +298,7 @@ uniform
 -
 buffer
 '
-maxDynamicBufferCount
+_expectedMaxDynamicBufferCount
 :
 8
 }
@@ -422,7 +421,6 @@ bindGroupLayoutDescriptor
 ]
 }
 ;
-await
 t
 .
 expectValidationError

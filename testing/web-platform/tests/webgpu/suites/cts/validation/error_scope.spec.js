@@ -223,7 +223,7 @@ fn
 return
 this
 .
-asyncExpectation
+immediateAsyncExpectation
 (
 (
 )
@@ -738,7 +738,6 @@ popErrorScope
 (
 )
 ;
-await
 t
 .
 shouldReject
@@ -839,7 +838,6 @@ popErrorScope
 (
 )
 ;
-await
 t
 .
 shouldReject
@@ -886,7 +884,6 @@ popErrorScope
 (
 )
 ;
-await
 t
 .
 shouldReject
@@ -1004,7 +1001,6 @@ popErrorScope
 (
 )
 ;
-await
 t
 .
 shouldReject

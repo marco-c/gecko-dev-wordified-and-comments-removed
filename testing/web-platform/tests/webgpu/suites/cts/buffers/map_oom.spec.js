@@ -95,7 +95,6 @@ getBufferDesc
 )
 )
 ;
-await
 t
 .
 shouldReject
@@ -139,7 +138,6 @@ getBufferDesc
 )
 )
 ;
-await
 t
 .
 shouldReject
@@ -169,7 +167,6 @@ t
 =
 >
 {
-await
 t
 .
 shouldThrow
@@ -211,7 +208,6 @@ t
 =
 >
 {
-await
 t
 .
 shouldReject

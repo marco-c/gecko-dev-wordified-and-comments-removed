@@ -176,7 +176,7 @@ x
 y
 width
 height
-success
+_success
 }
 =
 t
@@ -220,7 +220,6 @@ endPass
 (
 )
 ;
-await
 t
 .
 expectValidationError
@@ -238,7 +237,7 @@ finish
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -260,7 +259,7 @@ width
 height
 :
 1
-success
+_success
 :
 true
 }
@@ -277,7 +276,7 @@ width
 height
 :
 1
-success
+_success
 :
 false
 }
@@ -294,7 +293,7 @@ width
 height
 :
 0
-success
+_success
 :
 false
 }
@@ -311,7 +310,7 @@ width
 height
 :
 0
-success
+_success
 :
 false
 }
@@ -332,7 +331,7 @@ height
 TEXTURE_HEIGHT
 +
 1
-success
+_success
 :
 true
 }

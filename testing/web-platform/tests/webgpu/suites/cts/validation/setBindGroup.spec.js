@@ -353,7 +353,6 @@ dynamicOffsets
 0
 ]
 ;
-await
 t
 .
 expectValidationError
@@ -794,14 +793,13 @@ const
 {
 type
 dynamicOffsets
-success
+_success
 }
 =
 t
 .
 params
 ;
-await
 t
 .
 expectValidationError
@@ -892,7 +890,7 @@ dynamicOffsets
 ;
 }
 !
-success
+_success
 )
 ;
 }
@@ -902,7 +900,6 @@ params
 (
 pcombine
 (
-[
 poptions
 (
 '
@@ -928,7 +925,7 @@ dynamicOffsets
 256
 0
 ]
-success
+_success
 :
 true
 }
@@ -939,7 +936,7 @@ dynamicOffsets
 1
 2
 ]
-success
+_success
 :
 false
 }
@@ -951,7 +948,7 @@ dynamicOffsets
 0
 0
 ]
-success
+_success
 :
 false
 }
@@ -961,7 +958,7 @@ dynamicOffsets
 [
 256
 ]
-success
+_success
 :
 false
 }
@@ -970,7 +967,7 @@ dynamicOffsets
 :
 [
 ]
-success
+_success
 :
 false
 }
@@ -981,7 +978,7 @@ dynamicOffsets
 512
 0
 ]
-success
+_success
 :
 false
 }
@@ -992,7 +989,7 @@ dynamicOffsets
 1024
 0
 ]
-success
+_success
 :
 false
 }
@@ -1005,7 +1002,7 @@ Number
 MAX_SAFE_INTEGER
 0
 ]
-success
+_success
 :
 false
 }
@@ -1016,7 +1013,7 @@ dynamicOffsets
 0
 512
 ]
-success
+_success
 :
 false
 }
@@ -1027,7 +1024,7 @@ dynamicOffsets
 0
 1024
 ]
-success
+_success
 :
 false
 }
@@ -1040,11 +1037,10 @@ Number
 .
 MAX_SAFE_INTEGER
 ]
-success
+_success
 :
 false
 }
-]
 ]
 )
 )

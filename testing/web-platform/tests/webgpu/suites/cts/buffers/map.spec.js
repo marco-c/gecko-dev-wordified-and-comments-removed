@@ -105,7 +105,6 @@ mapWriteAsync
 (
 )
 ;
-await
 t
 .
 checkMapWrite
@@ -348,7 +347,6 @@ MAP_WRITE
 }
 )
 ;
-await
 t
 .
 checkMapWrite
@@ -365,7 +363,6 @@ params
 (
 pcombine
 (
-[
 poptions
 (
 '
@@ -384,7 +381,6 @@ pbool
 mappable
 '
 )
-]
 )
 )
 ;
@@ -446,7 +442,6 @@ MAP_WRITE
 }
 )
 ;
-await
 t
 .
 checkMapWrite
@@ -463,7 +458,6 @@ params
 (
 pcombine
 (
-[
 poptions
 (
 '
@@ -482,7 +476,6 @@ pbool
 mappable
 '
 )
-]
 )
 )
 ;
