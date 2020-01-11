@@ -1021,6 +1021,9 @@ telemetry
 /
 fog
 "
+optional
+=
+true
 }
 unic
 -
@@ -1384,6 +1387,13 @@ webgpu
 wgpu
 -
 remote
+"
+]
+fogotype
+=
+[
+"
+fog
 "
 ]
 [

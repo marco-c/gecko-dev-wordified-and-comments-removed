@@ -252,6 +252,17 @@ extern
 crate
 shift_or_euc_c
 ;
+#
+[
+cfg
+(
+feature
+=
+"
+fogotype
+"
+)
+]
 extern
 crate
 fog
