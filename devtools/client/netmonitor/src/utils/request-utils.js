@@ -173,6 +173,9 @@ contentTypeLongString
 if
 (
 contentType
+&
+&
+contentType
 .
 includes
 (
