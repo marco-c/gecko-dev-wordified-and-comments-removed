@@ -799,6 +799,14 @@ aChannels
 ;
 virtual
 void
+NotifyStarted
+(
+)
+=
+0
+;
+virtual
+void
 NotifyInputData
 (
 const
@@ -2244,6 +2252,11 @@ FallbackWrapper
 >
 >
 mFallback
+;
+bool
+mRanFirstIteration
+=
+false
 ;
 #
 ifdef

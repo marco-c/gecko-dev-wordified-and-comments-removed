@@ -883,6 +883,12 @@ aChannels
 override
 ;
 void
+NotifyStarted
+(
+)
+override
+;
+void
 NotifyInputData
 (
 const

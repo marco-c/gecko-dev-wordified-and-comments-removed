@@ -478,6 +478,15 @@ aChannels
 override
 ;
 void
+NotifyStarted
+(
+MediaTrackGraphImpl
+*
+aGraph
+)
+override
+;
+void
 NotifyInputData
 (
 MediaTrackGraphImpl
