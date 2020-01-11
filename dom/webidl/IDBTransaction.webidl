@@ -264,6 +264,14 @@ name
 Throws
 ]
 void
+commit
+(
+)
+;
+[
+Throws
+]
+void
 abort
 (
 )

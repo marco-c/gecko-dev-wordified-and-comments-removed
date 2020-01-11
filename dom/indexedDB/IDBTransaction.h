@@ -1155,6 +1155,14 @@ aRv
 )
 ;
 void
+Commit
+(
+ErrorResult
+&
+aRv
+)
+;
+void
 Abort
 (
 ErrorResult
