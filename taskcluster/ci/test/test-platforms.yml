@@ -427,6 +427,10 @@ raptor
 fetch
 -
 profiling
+-
+talos
+-
+profiling
 linux64
 -
 devedition
@@ -1291,6 +1295,10 @@ browsertime
 raptor
 -
 profiling
+-
+talos
+-
+profiling
 windows10
 -
 64
@@ -1693,6 +1701,10 @@ tests
 wdspec
 -
 headless
+-
+talos
+-
+profiling
 macosx1014
 -
 64
