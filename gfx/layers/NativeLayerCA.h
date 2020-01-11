@@ -534,6 +534,17 @@ mInvalidRegion
 ;
 }
 ;
+struct
+SurfaceWithInvalidRegionAndCheckCount
+{
+SurfaceWithInvalidRegion
+mEntry
+;
+uint32_t
+mCheckCount
+;
+}
+;
 Maybe
 <
 SurfaceWithInvalidRegion
@@ -571,7 +582,7 @@ std
 :
 vector
 <
-SurfaceWithInvalidRegion
+SurfaceWithInvalidRegionAndCheckCount
 >
 mSurfaces
 ;
