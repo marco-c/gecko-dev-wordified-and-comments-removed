@@ -17212,7 +17212,7 @@ abuseReport
 .
 openDialog
 "
-false
+true
 )
 ;
 pref
