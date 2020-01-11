@@ -74,7 +74,10 @@ class
 HTMLMediaElement
 ;
 enum
+class
 TextTrackSource
+:
+uint8_t
 {
 Track
 AddTextTrack
@@ -82,7 +85,10 @@ MediaResourceSpecific
 }
 ;
 enum
+class
 TextTrackReadyState
+:
+uint8_t
 {
 NotLoaded
 =
@@ -311,13 +317,6 @@ SetReadyState
 (
 TextTrackReadyState
 aState
-)
-;
-void
-SetReadyState
-(
-uint32_t
-aReadyState
 )
 ;
 void

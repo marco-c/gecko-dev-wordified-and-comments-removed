@@ -217,6 +217,13 @@ ERROR
 =
 3
 ;
+[
+BinaryName
+=
+"
+readyStateForBindings
+"
+]
 readonly
 attribute
 unsigned
