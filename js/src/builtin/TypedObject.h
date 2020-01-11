@@ -2543,14 +2543,6 @@ uint32_t
 offset
 )
 ;
-void
-notifyBufferDetached
-(
-void
-*
-newData
-)
-;
 static
 void
 obj_trace
