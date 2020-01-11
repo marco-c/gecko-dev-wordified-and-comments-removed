@@ -15221,7 +15221,7 @@ anyVisible
 ;
 }
 static
-bool
+CallState
 TriggerPendingAnimationsOnSubDocuments
 (
 Document
@@ -15304,7 +15304,10 @@ aReadyTime
 )
 ;
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 static
