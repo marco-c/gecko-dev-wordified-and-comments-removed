@@ -404,3 +404,14 @@ DevTools
 Inspector
 '
 )
+SPHINX_TREES
+[
+'
+/
+devtools
+'
+]
+=
+'
+docs
+'

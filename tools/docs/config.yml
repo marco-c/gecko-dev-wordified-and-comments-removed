@@ -31,7 +31,11 @@ dom
 -
 gfx
 -
+devtools
+-
 toolkit
+-
+js
 -
 dom
 /
@@ -52,8 +56,6 @@ common
 services
 -
 uriloader
--
-js
 build_doc
 :
 -
