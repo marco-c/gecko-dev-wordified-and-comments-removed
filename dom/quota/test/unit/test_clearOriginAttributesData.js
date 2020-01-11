@@ -169,6 +169,15 @@ removingId
 =
 2
 ;
+await
+new
+Promise
+(
+function
+(
+aResolve
+)
+{
 Services
 .
 clearData
@@ -179,6 +188,10 @@ deleteDataFromOriginAttributesPattern
 userContextId
 :
 removingId
+}
+aResolve
+)
+;
 }
 )
 ;
