@@ -776,9 +776,6 @@ endPanel
 :
 RightSidebar
 (
-{
-accessibilityWalker
-}
 )
 vert
 :

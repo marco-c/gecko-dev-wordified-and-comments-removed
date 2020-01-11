@@ -525,7 +525,7 @@ onTextChange
 }
 onReorder
 (
-accessible
+accessibleFront
 )
 {
 if
@@ -538,7 +538,7 @@ accessibles
 .
 has
 (
-accessible
+accessibleFront
 .
 actorID
 )
@@ -552,7 +552,7 @@ dispatch
 (
 fetchChildren
 (
-accessible
+accessibleFront
 )
 )
 ;
@@ -560,8 +560,8 @@ accessible
 }
 onNameChange
 (
-accessible
-parent
+accessibleFront
+parentFront
 )
 {
 const
@@ -577,15 +577,15 @@ props
 const
 accessibilityWalkerFront
 =
-accessible
+accessibleFront
 .
 parent
 (
 )
 ;
-parent
+parentFront
 =
-parent
+parentFront
 |
 |
 accessibilityWalkerFront
@@ -596,7 +596,7 @@ accessibles
 .
 has
 (
-accessible
+accessibleFront
 .
 actorID
 )
@@ -606,7 +606,7 @@ accessibles
 .
 has
 (
-parent
+parentFront
 .
 actorID
 )
@@ -616,7 +616,7 @@ dispatch
 (
 fetchChildren
 (
-parent
+parentFront
 )
 )
 ;
@@ -624,7 +624,7 @@ parent
 }
 onTextChange
 (
-accessible
+accessibleFront
 )
 {
 const
@@ -643,7 +643,7 @@ accessibles
 .
 has
 (
-accessible
+accessibleFront
 .
 actorID
 )
@@ -653,7 +653,7 @@ dispatch
 (
 fetchChildren
 (
-accessible
+accessibleFront
 )
 )
 ;
@@ -780,7 +780,6 @@ assign
 }
 rowProps
 {
-accessibilityWalker
 hasContextMenu
 highlighted
 decorator

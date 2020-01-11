@@ -127,7 +127,7 @@ actor
 >
 {
 const
-accessible
+accessibleFront
 =
 mockAccessible
 (
@@ -141,7 +141,7 @@ mount
 AuditController
 (
 {
-accessible
+accessibleFront
 }
 span
 (
@@ -221,7 +221,7 @@ instance
 ;
 expect
 (
-accessible
+accessibleFront
 .
 on
 .
@@ -239,7 +239,7 @@ toBe
 ;
 expect
 (
-accessible
+accessibleFront
 .
 off
 .
@@ -257,7 +257,7 @@ toBe
 ;
 expect
 (
-accessible
+accessibleFront
 .
 on
 .
@@ -283,7 +283,7 @@ onAudited
 ;
 expect
 (
-accessible
+accessibleFront
 .
 off
 .
@@ -323,7 +323,7 @@ checks
 >
 {
 const
-accessible
+accessibleFront
 =
 mockAccessible
 (
@@ -344,7 +344,7 @@ mount
 AuditController
 (
 {
-accessible
+accessibleFront
 }
 span
 (
@@ -367,7 +367,7 @@ toMatchSnapshot
 ;
 expect
 (
-accessible
+accessibleFront
 .
 audit
 .
@@ -385,7 +385,7 @@ toBe
 ;
 expect
 (
-accessible
+accessibleFront
 .
 on
 .
@@ -403,7 +403,7 @@ toBe
 ;
 expect
 (
-accessible
+accessibleFront
 .
 off
 .
@@ -446,7 +446,7 @@ bar
 }
 ;
 const
-accessible
+accessibleFront
 =
 mockAccessible
 (
@@ -468,7 +468,7 @@ mount
 AuditController
 (
 {
-accessible
+accessibleFront
 }
 span
 (
