@@ -909,12 +909,6 @@ a
 b
 '
 ]
-'
-templates
-'
-:
-{
-}
 }
         
 self

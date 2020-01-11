@@ -2592,11 +2592,6 @@ block
 json
 {
 "
-templates
-"
-:
-{
-"
 env
 "
 :
@@ -2626,7 +2621,6 @@ sanity
 "
 }
 "
-}
 }
 "
 tasks

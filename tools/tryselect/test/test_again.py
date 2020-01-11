@@ -262,17 +262,11 @@ try_task_config
 get
 (
 "
-templates
+env
 "
 )
 =
 =
-{
-        
-"
-env
-"
-:
 {
 "
 TRY_SELECTOR
@@ -281,8 +275,6 @@ TRY_SELECTOR
 "
 fuzzy
 "
-}
-    
 }
     
 assert

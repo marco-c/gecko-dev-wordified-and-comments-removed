@@ -495,20 +495,7 @@ or
 {
 }
     
-templates
-=
 try_task_config
-.
-setdefault
-(
-'
-templates
-'
-{
-}
-)
-    
-templates
 .
 setdefault
 (
@@ -518,17 +505,13 @@ env
 {
 }
 )
-.
-update
-(
-{
+[
 '
 TRY_SELECTOR
 '
-:
+]
+=
 method
-}
-)
     
 try_task_config
 .

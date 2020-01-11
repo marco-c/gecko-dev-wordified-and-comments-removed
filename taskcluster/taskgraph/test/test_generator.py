@@ -633,6 +633,13 @@ try_mode
 '
 :
 None
+            
+'
+try_task_config
+'
+:
+{
+}
         
 }
 )

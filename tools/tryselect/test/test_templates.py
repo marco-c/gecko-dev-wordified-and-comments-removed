@@ -410,19 +410,6 @@ add_arguments
 parser
 )
     
-fn
-=
-getattr
-(
-t
-'
-context
-'
-t
-.
-try_config
-)
-    
 if
 inspect
 .
@@ -475,7 +462,9 @@ args
 )
 )
             
-fn
+t
+.
+try_config
 (
 *
 *
@@ -517,7 +506,9 @@ args
 )
         
 assert
-fn
+t
+.
+try_config
 (
 *
 *
