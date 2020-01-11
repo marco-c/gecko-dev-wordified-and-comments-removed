@@ -4893,10 +4893,6 @@ channel_index
 .
 expect
 (
-&
-format
-!
-(
 "
 BUG
 :
@@ -4908,7 +4904,6 @@ resolved
 by
 now
 "
-)
 )
 ;
 device
