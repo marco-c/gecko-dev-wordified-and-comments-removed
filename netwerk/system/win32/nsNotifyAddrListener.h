@@ -248,7 +248,13 @@ mDnsSuffixList
 HANDLE
 mCheckEvent
 ;
+mozilla
+:
+:
+Atomic
+<
 bool
+>
 mShutdown
 ;
 mozilla
