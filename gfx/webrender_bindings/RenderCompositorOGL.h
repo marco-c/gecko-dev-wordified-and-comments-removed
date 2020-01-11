@@ -36,6 +36,9 @@ NativeLayerRoot
 class
 NativeLayer
 ;
+class
+SurfacePoolHandle
+;
 }
 namespace
 wr
@@ -360,6 +363,15 @@ layers
 NativeLayer
 >
 mNativeLayerForEntireWindow
+;
+RefPtr
+<
+layers
+:
+:
+SurfacePoolHandle
+>
+mSurfacePoolHandle
 ;
 struct
 TileKeyHashFn

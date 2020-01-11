@@ -1635,6 +1635,11 @@ SourceSurfaceVolatileData
 h
 '
 '
+SurfacePool
+.
+h
+'
+'
 SyncObject
 .
 h
@@ -1993,6 +1998,11 @@ NativeLayerCA
 h
 '
 '
+SurfacePoolCA
+.
+h
+'
+'
 TextureSync
 .
 h
@@ -2019,6 +2029,11 @@ UNIFIED_SOURCES
 [
 '
 NativeLayerCA
+.
+mm
+'
+'
+SurfacePoolCA
 .
 mm
 '
