@@ -27,16 +27,6 @@ generateActorSpec
 protocol
 ;
 const
-promise
-=
-require
-(
-"
-promise
-"
-)
-;
-const
 longStringSpec
 =
 generateActorSpec
@@ -140,7 +130,7 @@ string
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -157,7 +147,7 @@ end
 )
 {
 return
-promise
+Promise
 .
 resolve
 (
@@ -184,7 +174,7 @@ str
 null
 ;
 return
-promise
+Promise
 .
 resolve
 (

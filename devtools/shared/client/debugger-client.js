@@ -2491,6 +2491,7 @@ null
 createObjectFront
 (
 grip
+threadFront
 )
 {
 return
@@ -2498,6 +2499,10 @@ new
 ObjectFront
 (
 this
+threadFront
+.
+targetFront
+threadFront
 grip
 )
 ;
