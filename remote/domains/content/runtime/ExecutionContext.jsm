@@ -149,9 +149,13 @@ this
 .
 frameId
 =
-windowUtils
+debuggee
 .
-outerWindowID
+docShell
+.
+browsingContext
+.
+id
 .
 toString
 (
