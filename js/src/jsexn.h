@@ -279,6 +279,7 @@ value
 ;
 static
 inline
+constexpr
 JSProtoKey
 GetExceptionProtoKey
 (
