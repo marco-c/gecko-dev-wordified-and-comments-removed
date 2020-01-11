@@ -5586,10 +5586,6 @@ nsCString
 &
 aTrackingOrigin
 const
-nsCString
-&
-aGrantedOrigin
-const
 int
 &
 aAllowMode
