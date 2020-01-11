@@ -96,7 +96,12 @@ domwindow
 .
 document
 .
-documentElement
+getElementById
+(
+"
+commonDialog
+"
+)
 .
 cancelDialog
 (

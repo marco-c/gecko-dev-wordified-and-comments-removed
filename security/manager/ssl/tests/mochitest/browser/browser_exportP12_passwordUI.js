@@ -536,7 +536,12 @@ win
 .
 document
 .
-documentElement
+getElementById
+(
+"
+setp12password
+"
+)
 .
 getButton
 (

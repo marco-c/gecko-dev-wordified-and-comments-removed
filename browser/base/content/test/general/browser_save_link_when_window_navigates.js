@@ -528,7 +528,12 @@ win
 .
 document
 .
-documentElement
+getElementById
+(
+"
+unknownContentType
+"
+)
 .
 _fireButtonEvent
 (

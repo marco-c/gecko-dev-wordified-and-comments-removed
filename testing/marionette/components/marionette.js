@@ -1795,8 +1795,9 @@ load
 =
 >
 {
-if
-(
+let
+dialog
+=
 win
 .
 document
@@ -1807,6 +1808,10 @@ getElementById
 safeModeDialog
 "
 )
+;
+if
+(
+dialog
 )
 {
 log
@@ -1831,11 +1836,7 @@ setTimeout
 =
 >
 {
-win
-.
-document
-.
-documentElement
+dialog
 .
 getButton
 (

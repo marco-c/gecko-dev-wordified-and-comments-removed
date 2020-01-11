@@ -118,7 +118,12 @@ dialog
 .
 document
 .
-documentElement
+getElementById
+(
+"
+bookmarkproperties
+"
+)
 .
 getButton
 (

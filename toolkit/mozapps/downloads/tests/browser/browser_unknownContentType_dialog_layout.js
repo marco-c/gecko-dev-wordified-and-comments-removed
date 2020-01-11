@@ -390,7 +390,12 @@ uctWindow
 .
 document
 .
-documentElement
+getElementById
+(
+"
+unknownContentType
+"
+)
 .
 cancelDialog
 (

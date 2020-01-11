@@ -320,7 +320,12 @@ setHomepageDialog
 .
 document
 .
-documentElement
+getElementById
+(
+"
+commonDialog
+"
+)
 .
 acceptDialog
 (

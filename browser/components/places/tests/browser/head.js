@@ -1013,7 +1013,12 @@ dialog
 ;
 doc
 .
-documentElement
+getElementById
+(
+"
+bookmarkproperties
+"
+)
 .
 cancelDialog
 (
