@@ -1363,6 +1363,11 @@ mSuspendedForFlowControl
 1
 ;
 uint8_t
+mIsMultiPart
+:
+1
+;
+uint8_t
 mAsyncOpenBarrier
 =
 0

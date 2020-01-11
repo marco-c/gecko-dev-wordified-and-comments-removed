@@ -150,11 +150,6 @@ RecvDivertMessages
 (
 )
 ;
-IPCResult
-RecvOnStartRequestSent
-(
-)
-;
 void
 ActorDestroy
 (
@@ -189,11 +184,6 @@ mChannelChild
 ;
 bool
 mStartReceived
-=
-false
-;
-bool
-mStartSent
 =
 false
 ;
