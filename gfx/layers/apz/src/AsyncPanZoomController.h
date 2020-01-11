@@ -1597,6 +1597,17 @@ aEvent
 )
 ;
 void
+StartTouch
+(
+const
+ParentLayerPoint
+&
+aPoint
+uint32_t
+aTime
+)
+;
+void
 RequestContentRepaint
 (
 RepaintUpdateType
