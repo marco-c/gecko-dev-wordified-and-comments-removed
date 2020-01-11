@@ -628,3 +628,17 @@ localhost
 "
 )
 ;
+user_pref
+(
+"
+media
+.
+geckoview
+.
+autoplay
+.
+request
+"
+false
+)
+;
