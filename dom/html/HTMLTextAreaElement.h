@@ -503,7 +503,7 @@ aValue
 )
 override
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 SetValueFromSetRangeText
@@ -1206,6 +1206,7 @@ NS_EVENT_STATE_REQUIRED
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 SetRangeText
 (
@@ -1218,6 +1219,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetRangeText
 (
@@ -1437,6 +1439,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionStart
 (
@@ -1463,6 +1466,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionEnd
 (
@@ -1489,6 +1493,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionDirection
 (
@@ -1501,6 +1506,7 @@ ErrorResult
 aError
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 SetSelectionRange
 (
