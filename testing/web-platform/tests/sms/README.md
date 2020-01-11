@@ -5,10 +5,8 @@ API
 This
 directory
 contains
-Web
-platform
 tests
-of
+for
 the
 SMS
 Receiver

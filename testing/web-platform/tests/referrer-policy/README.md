@@ -1,10 +1,8 @@
 #
 Referrer
--
 Policy
-Web
-Platform
-Tests
+Test
+Suite
 The
 Referrer
 -

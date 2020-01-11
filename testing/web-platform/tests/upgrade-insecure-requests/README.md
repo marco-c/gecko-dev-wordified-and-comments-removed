@@ -1,12 +1,9 @@
 #
 Upgrade
--
-insecure
--
-requests
-Web
-Platform
-Tests
+Insecure
+Requests
+Test
+Suite
 The
 subdirectory
 gen

@@ -1,10 +1,8 @@
 #
 Mixed
--
-content
-Web
-Platform
-Tests
+Content
+Test
+Suite
 The
 subdirectory
 gen

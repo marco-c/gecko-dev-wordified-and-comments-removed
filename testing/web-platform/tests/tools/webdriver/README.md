@@ -84,11 +84,12 @@ WebDriver
 specification
 tests
 in
-the
 [
-Web
-Platform
-Tests
+web
+-
+platform
+-
+tests
 ]
 (
 https
