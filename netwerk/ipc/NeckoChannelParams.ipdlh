@@ -2574,6 +2574,12 @@ lastVisitInfo
 uint32_t
 loadStateLoadFlags
 ;
+nsString
+srcdocData
+;
+nsIURI
+baseUri
+;
 }
 ;
 struct
