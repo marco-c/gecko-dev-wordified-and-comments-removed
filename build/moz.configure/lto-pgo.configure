@@ -2263,7 +2263,15 @@ limit
 '
 )
 ;
-else
+elif
+c_compiler
+.
+type
+=
+=
+'
+clang
+'
 :
 ldflags
 .
