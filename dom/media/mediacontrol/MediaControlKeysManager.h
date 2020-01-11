@@ -87,11 +87,6 @@ StopMonitoringControlKeys
 (
 )
 ;
-void
-CreateEventSource
-(
-)
-;
 RefPtr
 <
 MediaControlKeysEventSource
