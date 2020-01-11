@@ -2770,16 +2770,6 @@ urlbar
 isPrivileged
 :
 true
-incognitoOverride
-:
-"
-spanning
-"
-useAddonManager
-:
-"
-temporary
-"
 background
 (
 )
