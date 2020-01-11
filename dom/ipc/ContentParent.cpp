@@ -30703,10 +30703,6 @@ HangDetails
 (
 aDetails
 )
-PersistedToDisk
-:
-:
-No
 )
 ;
 obs
