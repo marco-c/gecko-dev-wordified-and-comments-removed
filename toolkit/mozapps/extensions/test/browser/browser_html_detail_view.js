@@ -1896,7 +1896,7 @@ list
 let
 disableButton
 =
-panel
+card
 .
 querySelector
 (
