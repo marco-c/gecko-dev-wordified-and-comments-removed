@@ -178,6 +178,8 @@ optimizedBackend
 DebugEnabled
 debugEnabled
 bool
+multiValueConfigured
+bool
 refTypesConfigured
 bool
 gcTypesConfigured
