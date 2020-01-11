@@ -2026,6 +2026,7 @@ _getCopySubmenu
 (
 markupContainer
 isSelectionElement
+isFragment
 )
 {
 const
@@ -2081,6 +2082,10 @@ disabled
 :
 !
 isSelectionElement
+&
+&
+!
+isFragment
 click
 :
 (
@@ -3602,6 +3607,17 @@ target
 )
 ;
 const
+isFragment
+=
+this
+.
+selection
+.
+isDocumentFragmentNode
+(
+)
+;
+const
 isSelectionElement
 =
 this
@@ -4429,6 +4445,7 @@ _getCopySubmenu
 (
 markupContainer
 isSelectionElement
+isFragment
 )
 }
 )
