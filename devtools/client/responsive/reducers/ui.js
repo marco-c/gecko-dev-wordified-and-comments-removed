@@ -27,8 +27,11 @@ TOGGLE_USER_AGENT_INPUT
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 actions
 /

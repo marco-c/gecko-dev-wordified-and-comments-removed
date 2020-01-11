@@ -12,8 +12,11 @@ RESET
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

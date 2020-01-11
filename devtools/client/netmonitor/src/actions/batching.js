@@ -14,8 +14,13 @@ BATCH_FLUSH
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

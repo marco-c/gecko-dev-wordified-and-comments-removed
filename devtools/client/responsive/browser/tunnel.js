@@ -44,7 +44,13 @@ BrowserElementWebNavigation
 require
 (
 "
-.
+devtools
+/
+client
+/
+responsive
+/
+browser
 /
 web
 -

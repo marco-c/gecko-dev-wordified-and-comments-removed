@@ -11,7 +11,15 @@ getFormatStr
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
+/
+utils
 /
 l10n
 "

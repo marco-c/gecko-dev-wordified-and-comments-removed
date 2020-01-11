@@ -17,8 +17,13 @@ REQUEST_BLOCKING_UPDATE_COMPLETE
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

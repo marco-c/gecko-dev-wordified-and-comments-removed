@@ -51,11 +51,13 @@ Types
 require
 (
 "
-.
-.
+devtools
 /
-.
-.
+client
+/
+aboutdebugging
+/
+src
 /
 types
 /

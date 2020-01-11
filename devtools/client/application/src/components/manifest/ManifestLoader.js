@@ -132,11 +132,13 @@ fetchManifest
 require
 (
 "
-.
-.
+devtools
 /
-.
-.
+client
+/
+application
+/
+src
 /
 actions
 /

@@ -17,8 +17,13 @@ UNWATCH_RUNTIME_SUCCESS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+aboutdebugging
+/
+src
 /
 constants
 "

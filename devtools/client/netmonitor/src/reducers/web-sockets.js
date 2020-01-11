@@ -20,8 +20,13 @@ WS_CLOSE_CONNECTION
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

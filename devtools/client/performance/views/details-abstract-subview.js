@@ -32,8 +32,11 @@ EVENTS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+performance
 /
 events
 "

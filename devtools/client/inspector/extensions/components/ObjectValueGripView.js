@@ -73,8 +73,13 @@ Types
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+extensions
 /
 types
 "

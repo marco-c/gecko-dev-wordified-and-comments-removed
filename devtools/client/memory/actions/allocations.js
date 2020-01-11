@@ -12,8 +12,11 @@ ALLOCATION_RECORDING_OPTIONS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 constants
 "
@@ -29,8 +32,8 @@ front
 )
 {
 return
+async
 function
-*
 (
 dispatch
 getState
@@ -56,7 +59,7 @@ getState
 recordingAllocationStacks
 )
 {
-yield
+await
 front
 .
 stopRecordingAllocations
@@ -66,7 +69,7 @@ stopRecordingAllocations
 }
 else
 {
-yield
+await
 front
 .
 startRecordingAllocations

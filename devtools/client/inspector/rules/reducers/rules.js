@@ -27,8 +27,13 @@ UPDATE_SOURCE_LINK
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+rules
 /
 actions
 /

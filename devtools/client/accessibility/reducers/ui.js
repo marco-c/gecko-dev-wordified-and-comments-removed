@@ -33,8 +33,11 @@ PREFS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

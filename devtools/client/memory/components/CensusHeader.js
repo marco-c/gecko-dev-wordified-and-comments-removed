@@ -53,8 +53,11 @@ L10N
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 utils
 "
@@ -66,8 +69,11 @@ models
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 models
 "

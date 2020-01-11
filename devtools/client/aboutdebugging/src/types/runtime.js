@@ -33,8 +33,13 @@ ClientWrapper
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+aboutdebugging
+/
+src
 /
 modules
 /

@@ -104,8 +104,13 @@ Actions
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+aboutdebugging
+/
+src
 /
 actions
 /

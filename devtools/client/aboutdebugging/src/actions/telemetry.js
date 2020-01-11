@@ -11,8 +11,13 @@ TELEMETRY_RECORD
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+aboutdebugging
+/
+src
 /
 constants
 "

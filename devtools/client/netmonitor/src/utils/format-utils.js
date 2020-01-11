@@ -11,7 +11,15 @@ L10N
 require
 (
 "
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
+/
+utils
 /
 l10n
 "

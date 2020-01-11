@@ -13,7 +13,15 @@ UPDATE_SHOW_INFINITE_LINES
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+grids
+/
+actions
 /
 index
 "
