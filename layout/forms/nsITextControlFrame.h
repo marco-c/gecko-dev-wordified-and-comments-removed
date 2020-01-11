@@ -60,6 +60,7 @@ GetTextEditor
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 SetSelectionRange
 (
