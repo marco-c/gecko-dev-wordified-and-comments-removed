@@ -658,6 +658,9 @@ PROGRESSIVE_DISPLAY
 format
 =
 hasTransparency
+|
+|
+animParams
 ?
 SurfaceFormat
 :
