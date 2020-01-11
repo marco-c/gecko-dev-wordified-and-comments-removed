@@ -211,12 +211,6 @@ controlKind
 ;
 MOZ_MUST_USE
 bool
-emitJumpOverCatchAndFinally
-(
-)
-;
-MOZ_MUST_USE
-bool
 emitTry
 (
 )
