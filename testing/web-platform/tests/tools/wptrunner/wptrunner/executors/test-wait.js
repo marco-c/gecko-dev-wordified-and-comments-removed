@@ -103,9 +103,11 @@ classList
 contains
 (
 "
-reftest
--
-wait
+%
+(
+classname
+)
+s
 "
 )
 &

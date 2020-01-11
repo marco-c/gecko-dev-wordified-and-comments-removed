@@ -78,6 +78,8 @@ MarionetteTestharnessExecutor
 MarionetteRefTestExecutor
                                             
 MarionetteWdspecExecutor
+                                            
+MarionetteCrashtestExecutor
 )
 here
 =
@@ -131,6 +133,14 @@ executor
 "
 :
 {
+"
+crashtest
+"
+:
+"
+MarionetteCrashtestExecutor
+"
+                              
 "
 testharness
 "

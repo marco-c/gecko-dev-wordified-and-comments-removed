@@ -380,6 +380,16 @@ handle
 :
         
 pass
+    
+def
+load
+(
+self
+url
+)
+:
+        
+pass
 class
 ServoWebDriverProtocol
 (

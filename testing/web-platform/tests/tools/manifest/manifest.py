@@ -37,6 +37,7 @@ SupportFile
 TestharnessTest
 VisualTest
 WebDriverSpecTest
+CrashTest
 )
 from
 .
@@ -190,6 +191,12 @@ reftest_node
 "
 :
 RefTestNode
+                
+"
+crashtest
+"
+:
+CrashTest
                 
 "
 manual
