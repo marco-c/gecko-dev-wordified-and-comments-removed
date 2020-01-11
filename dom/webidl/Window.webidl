@@ -3212,6 +3212,7 @@ hasOpenerForInitialContentBrowser
 ChromeOnly
 ]
 WindowGlobalChild
+?
 getWindowGlobalChild
 (
 )
