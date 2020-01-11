@@ -1,3 +1,6 @@
+name
+:
+documentation
 on
 :
 push
@@ -54,9 +57,6 @@ tools
 *
 *
 '
-name
-:
-documentation
 jobs
 :
 build

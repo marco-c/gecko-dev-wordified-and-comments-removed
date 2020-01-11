@@ -1,3 +1,6 @@
+name
+:
+manifest
 on
 :
 push
@@ -17,9 +20,6 @@ tools
 *
 *
 '
-name
-:
-manifest
 jobs
 :
 build
