@@ -1237,7 +1237,7 @@ adapterRAM
 type
 :
 "
-number
+string
 "
 }
 adapterDrivers
