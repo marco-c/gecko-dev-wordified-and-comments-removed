@@ -16,24 +16,23 @@ import
 os
 import
 pprint
-import
-urllib2
 try
 :
     
+from
+urllib2
 import
-simplejson
-as
-json
-    
-assert
-json
+urlopen
 except
 ImportError
 :
     
+from
+urllib
+.
+request
 import
-json
+urlopen
 from
 mozharness
 .
@@ -51,6 +50,22 @@ log
 import
 DEBUG
 ERROR
+try
+:
+    
+import
+simplejson
+as
+json
+    
+assert
+json
+except
+ImportError
+:
+    
+import
+json
 class
 TransferMixin
 (
@@ -122,8 +137,6 @@ try
             
 r
 =
-urllib2
-.
 urlopen
 (
 url
@@ -314,6 +327,7 @@ s
 s
 "
 %
+                  
 (
 local_path
 remote_host
