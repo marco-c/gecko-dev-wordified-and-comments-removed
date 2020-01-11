@@ -339,7 +339,14 @@ is_dir
 )
 )
 ;
-parse_shader_source
+ShaderSourceParser
+:
+:
+new
+(
+)
+.
+parse
 (
 Cow
 :

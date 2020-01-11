@@ -198,7 +198,7 @@ shader
 :
 :
 {
-parse_shader_source
+ShaderSourceParser
 shader_source_from_file
 }
 ;
@@ -1308,7 +1308,14 @@ base_filename
 override_path
 )
 ;
-parse_shader_source
+ShaderSourceParser
+:
+:
+new
+(
+)
+.
+parse
 (
 shared_source
 &
