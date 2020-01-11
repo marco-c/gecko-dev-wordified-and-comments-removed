@@ -39475,10 +39475,6 @@ URI
 (
 )
 )
-&
-&
-!
-isSrcdoc
 )
 {
 RefPtr
