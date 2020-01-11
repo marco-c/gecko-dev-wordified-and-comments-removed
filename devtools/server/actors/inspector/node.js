@@ -2112,6 +2112,13 @@ customElementDO
 script
 .
 startLine
+column
+:
+customElementDO
+.
+script
+.
+startColumn
 }
 ;
 }
