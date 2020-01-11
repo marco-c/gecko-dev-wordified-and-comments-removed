@@ -2795,6 +2795,11 @@ ATTR_START
 static
 nsHtml5AttributeName
 *
+ATTR_AS
+;
+static
+nsHtml5AttributeName
+*
 ATTR_AXIS
 ;
 static
