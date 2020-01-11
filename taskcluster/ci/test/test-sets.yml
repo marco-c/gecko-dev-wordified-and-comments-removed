@@ -2567,11 +2567,7 @@ functional
 -
 remote
 -
-gtest
--
 jittest
--
-jsreftest
 -
 marionette
 -
@@ -2674,6 +2670,10 @@ cppunit
 -
 crashtest
 -
+gtest
+-
+jsreftest
+-
 mochitest
 -
 gpu
@@ -2694,6 +2694,10 @@ cppunit
 -
 crashtest
 -
+gtest
+-
+jsreftest
+-
 mochitest
 -
 gpu
@@ -2710,11 +2714,7 @@ qr
 tests
 :
 -
-gtest
--
 jittest
--
-jsreftest
 -
 mochitest
 -
