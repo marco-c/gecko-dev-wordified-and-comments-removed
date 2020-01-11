@@ -220,14 +220,14 @@ SHMEM_VERSION
 .
 0
 .
-5
+6
 "
 static
 const
 int32_t
 kVRExternalVersion
 =
-12
+13
 ;
 static
 const
@@ -1145,7 +1145,7 @@ uint64_t
 squeezeActionStartFrameId
 ;
 uint64_t
-squeezeActionEndFrameId
+squeezeActionStopFrameId
 ;
 uint32_t
 numButtons
