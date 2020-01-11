@@ -15584,7 +15584,7 @@ rv
 ;
 RefPtr
 <
-nsHttpChannel
+HttpBaseChannel
 >
 realChannel
 ;
