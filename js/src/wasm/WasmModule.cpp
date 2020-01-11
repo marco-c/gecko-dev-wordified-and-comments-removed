@@ -6381,7 +6381,7 @@ if
 (
 v
 .
-isRef
+isTypeIndex
 (
 )
 )
