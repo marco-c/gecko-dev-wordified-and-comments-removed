@@ -23999,8 +23999,6 @@ aBaseURI
 nsIPrincipal
 *
 aPrincipal
-uint64_t
-aInnerWindowID
 const
 nsACString
 &
@@ -24785,7 +24783,6 @@ nsIScriptSecurityManager
 :
 :
 LOAD_IS_AUTOMATIC_DOCUMENT_REPLACEMENT
-aInnerWindowID
 )
 ;
 if
@@ -24990,7 +24987,6 @@ SetupRefreshURIFromHeader
 (
 mCurrentURI
 principal
-0
 refreshHeader
 )
 ;
@@ -45736,16 +45732,11 @@ NS_FAILED
 principal
 -
 >
-CheckMayLoadWithReporting
+CheckMayLoad
 (
 newURI
+true
 false
-document
--
->
-InnerWindowID
-(
-)
 )
 )
 )

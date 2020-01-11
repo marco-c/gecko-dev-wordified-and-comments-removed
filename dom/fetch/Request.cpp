@@ -1255,6 +1255,7 @@ CheckMayLoad
 (
 uri
 false
+false
 )
 ;
 }
@@ -1983,6 +1984,7 @@ principal
 CheckMayLoad
 (
 uri
+false
 false
 )
 ;

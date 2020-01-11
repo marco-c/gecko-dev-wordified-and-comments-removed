@@ -27906,9 +27906,6 @@ mDocumentURI
 NodePrincipal
 (
 )
-InnerWindowID
-(
-)
 NS_ConvertUTF16toUTF8
 (
 aData

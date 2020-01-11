@@ -4084,12 +4084,6 @@ CheckLoadURIWithPrincipal
 mRequestingPrincipal
 uri
 flags
-loadInfo
--
->
-GetInnerWindowID
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4121,12 +4115,6 @@ CheckLoadURIWithPrincipal
 mRequestingPrincipal
 originalURI
 flags
-loadInfo
--
->
-GetInnerWindowID
-(
-)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4151,6 +4139,7 @@ CheckMayLoad
 (
 uri
 false
+false
 )
 )
 &
@@ -4170,6 +4159,7 @@ mRequestingPrincipal
 CheckMayLoad
 (
 originalURI
+false
 false
 )
 )

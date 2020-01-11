@@ -418,11 +418,11 @@ rv
 principal
 -
 >
-CheckMayLoadWithReporting
+CheckMayLoad
 (
 aScopeURI
+true
 false
-0
 )
 ;
 NS_ENSURE_SUCCESS
@@ -436,11 +436,11 @@ rv
 principal
 -
 >
-CheckMayLoadWithReporting
+CheckMayLoad
 (
 aScriptURI
+true
 false
-0
 )
 ;
 NS_ENSURE_SUCCESS

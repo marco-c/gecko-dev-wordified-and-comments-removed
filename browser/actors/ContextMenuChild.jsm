@@ -5485,6 +5485,7 @@ checkMayLoad
 context
 .
 linkURI
+false
 true
 )
 ;

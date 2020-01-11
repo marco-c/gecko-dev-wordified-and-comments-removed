@@ -15546,12 +15546,6 @@ nsIScriptSecurityManager
 :
 :
 ALLOW_CHROME
-aLoadingDocument
--
->
-InnerWindowID
-(
-)
 )
 ;
 if
@@ -25050,17 +25044,6 @@ NodePrincipal
 )
 aLinkURI
 flag
-aContent
--
->
-OwnerDoc
-(
-)
--
->
-InnerWindowID
-(
-)
 )
 ;
 }
@@ -25151,6 +25134,7 @@ NodePrincipal
 CheckMayLoad
 (
 aLinkURI
+false
 true
 )
 )
@@ -27971,6 +27955,7 @@ CheckMayLoad
 (
 newURI
 false
+false
 )
 ;
 if
@@ -27995,6 +27980,7 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
+false
 false
 )
 ;
@@ -28642,6 +28628,7 @@ aPrincipal
 CheckMayLoad
 (
 channelURI
+false
 aAllowIfInheritsPrincipal
 )
 )
@@ -31585,6 +31572,7 @@ aLoadingPrincipal
 CheckMayLoad
 (
 aURI
+false
 false
 )
 )
