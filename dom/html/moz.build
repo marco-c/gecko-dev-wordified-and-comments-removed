@@ -249,11 +249,6 @@ nsIRadioVisitor
 .
 h
 '
-'
-nsITextControlElement
-.
-h
-'
 ]
 EXPORTS
 .
@@ -261,6 +256,11 @@ mozilla
 +
 =
 [
+'
+TextControlElement
+.
+h
+'
 '
 TextControlState
 .
