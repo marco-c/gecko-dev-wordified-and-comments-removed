@@ -546,10 +546,6 @@ forbiddenValuesRegexs
 \
 b
 (
-?
-:
-url
-|
 (
 ?
 :
@@ -587,8 +583,6 @@ resource
 about
 |
 app
-|
-data
 |
 https
 ?
