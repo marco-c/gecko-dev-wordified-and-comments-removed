@@ -2279,6 +2279,10 @@ mCSDSupportLevel
 =
 CSD_SUPPORT_NONE
 ;
+mDrawToContainer
+=
+false
+;
 mDrawInTitlebar
 =
 false
@@ -17611,11 +17615,6 @@ eventWidget
 nullptr
 ;
 bool
-drawToContainer
-=
-false
-;
-bool
 needsAlphaVisual
 =
 (
@@ -18710,7 +18709,7 @@ gtk_widget_get_style_context
 mShell
 )
 ;
-drawToContainer
+mDrawToContainer
 =
 !
 mIsX11Display
@@ -18735,7 +18734,7 @@ csd
 eventWidget
 =
 (
-drawToContainer
+mDrawToContainer
 )
 ?
 container
@@ -18756,7 +18755,7 @@ kEvents
 ;
 if
 (
-drawToContainer
+mDrawToContainer
 )
 {
 gtk_widget_add_events
@@ -18786,7 +18785,7 @@ mContainer
 gtk_widget_set_has_window
 (
 container
-drawToContainer
+mDrawToContainer
 )
 ;
 gtk_container_add
@@ -19029,7 +19028,7 @@ this
 ;
 if
 (
-drawToContainer
+mDrawToContainer
 )
 {
 g_object_set_data
@@ -19527,7 +19526,7 @@ GTK_WIDGET
 mContainer
 )
 !
-drawToContainer
+mDrawToContainer
 ?
 mShell
 :
@@ -22489,10 +22488,7 @@ GdkWindow
 window
 =
 (
-mCSDSupportLevel
-=
-=
-CSD_SUPPORT_CLIENT
+mDrawToContainer
 )
 ?
 gtk_widget_get_window

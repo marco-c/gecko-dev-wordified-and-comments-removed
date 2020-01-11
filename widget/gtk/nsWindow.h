@@ -2575,6 +2575,9 @@ CSDSupportLevel
 mCSDSupportLevel
 ;
 bool
+mDrawToContainer
+;
+bool
 mDrawInTitlebar
 ;
 bool
