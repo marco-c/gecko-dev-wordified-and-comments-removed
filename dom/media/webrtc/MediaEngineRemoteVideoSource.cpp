@@ -954,16 +954,8 @@ const
 MediaEnginePrefs
 &
 aPrefs
-const
-mozilla
-:
-:
-ipc
-:
-:
-PrincipalInfo
-&
-aPrincipalInfo
+uint64_t
+aWindowID
 const
 char
 *
@@ -1108,7 +1100,7 @@ get
 )
 kMaxUniqueIdLength
 mCaptureIndex
-aPrincipalInfo
+aWindowID
 )
 )
 {

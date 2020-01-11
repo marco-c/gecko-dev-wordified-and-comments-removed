@@ -1822,13 +1822,8 @@ const
 MediaEnginePrefs
 &
 aPrefs
-const
-ipc
-:
-:
-PrincipalInfo
-&
-aPrincipalInfo
+uint64_t
+aWindowID
 const
 char
 *
