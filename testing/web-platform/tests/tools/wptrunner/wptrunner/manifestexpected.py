@@ -15,12 +15,14 @@ collections
 import
 deque
 from
+.
 wptmanifest
 .
 backends
 import
 static
 from
+.
 wptmanifest
 .
 backends
@@ -28,6 +30,8 @@ backends
 base
 import
 ManifestItem
+from
+.
 import
 expected
 "
