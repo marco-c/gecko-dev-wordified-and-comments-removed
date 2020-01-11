@@ -15818,7 +15818,7 @@ if
 aForward
 |
 |
-oldTopLevelScopeOwner
+currentTopLevelScopeOwner
 !
 =
 currentContent
@@ -15830,13 +15830,6 @@ GetTopLevelScopeOwner
 (
 currentContent
 )
-;
-}
-else
-{
-currentTopLevelScopeOwner
-=
-currentContent
 ;
 }
 if
@@ -16048,10 +16041,7 @@ rv
 }
 if
 (
-IsHostOrSlot
-(
 currentTopLevelScopeOwner
-)
 )
 {
 bool
