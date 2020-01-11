@@ -15244,8 +15244,10 @@ MOZ_HAS_REMOTE
 has_remote
 )
 #
+RLBox
+Library
+Sandboxing
 wasm
-sandboxing
 support
 #
 =
@@ -15383,6 +15385,13 @@ libraries
 return
 True
 set_config
+(
+'
+MOZ_USING_WASM_SANDBOXING
+'
+requires_wasm_sandboxing
+)
+set_define
 (
 '
 MOZ_USING_WASM_SANDBOXING
