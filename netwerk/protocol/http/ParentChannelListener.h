@@ -101,8 +101,7 @@ BrowserParent
 aBrowserParent
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 DivertTo
 (
 nsIStreamListener
@@ -156,8 +155,7 @@ ParentChannelListener
 (
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 ResumeForDiversion
 (
 )

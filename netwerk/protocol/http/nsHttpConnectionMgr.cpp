@@ -3016,7 +3016,7 @@ aBucket
 )
 ;
 }
-nsresult
+void
 nsHttpConnectionMgr
 :
 :
@@ -3179,9 +3179,6 @@ Remove
 ;
 }
 }
-return
-NS_OK
-;
 }
 nsresult
 nsHttpConnectionMgr

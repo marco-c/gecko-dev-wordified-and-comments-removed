@@ -105,7 +105,7 @@ nsBufferedStream
 (
 )
 ;
-nsresult
+void
 Close
 (
 )

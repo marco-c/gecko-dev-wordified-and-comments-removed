@@ -811,8 +811,7 @@ const
 originSuffix
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 ClearAll
 (
 )

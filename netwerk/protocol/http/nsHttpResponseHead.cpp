@@ -3854,7 +3854,7 @@ expiresVal
 dateVal
 ;
 }
-nsresult
+void
 nsHttpResponseHead
 :
 :
@@ -4188,9 +4188,6 @@ rv
 ;
 }
 }
-return
-NS_OK
-;
 }
 void
 nsHttpResponseHead

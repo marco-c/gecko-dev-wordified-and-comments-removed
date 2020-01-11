@@ -575,7 +575,7 @@ CacheFileChunkListener
 aCallback
 )
 ;
-nsresult
+void
 CancelWait
 (
 CacheFileChunkListener
@@ -790,7 +790,7 @@ uint32_t
 aLen
 )
 ;
-nsresult
+void
 Truncate
 (
 uint32_t

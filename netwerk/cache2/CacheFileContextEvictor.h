@@ -121,12 +121,12 @@ nsAString
 aOrigin
 )
 ;
-nsresult
+void
 CacheIndexStateChanged
 (
 )
 ;
-nsresult
+void
 WasEvicted
 (
 const
@@ -212,7 +212,7 @@ StartEvicting
 (
 )
 ;
-nsresult
+void
 EvictEntries
 (
 )

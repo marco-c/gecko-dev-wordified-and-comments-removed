@@ -444,8 +444,7 @@ EventTokenBucket
 aBucket
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 ClearConnectionHistory
 (
 )

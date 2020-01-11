@@ -1239,14 +1239,16 @@ aStatus
 )
 )
 ;
-return
 CloseWithStatusLocked
 (
 aStatus
 )
 ;
+return
+NS_OK
+;
 }
-nsresult
+void
 CacheFileInputStream
 :
 :
@@ -1309,7 +1311,6 @@ mInReadSegments
 )
 ;
 return
-NS_OK
 ;
 }
 mClosed
@@ -1338,9 +1339,6 @@ CleanUp
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 CacheFileInputStream

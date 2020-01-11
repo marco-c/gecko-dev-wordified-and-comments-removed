@@ -104,8 +104,7 @@ DoNotifyController
 (
 )
 ;
-MOZ_MUST_USE
-nsresult
+void
 DoSynthesizeStatus
 (
 uint16_t

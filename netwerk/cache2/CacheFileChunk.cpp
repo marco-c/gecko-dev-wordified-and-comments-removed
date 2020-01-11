@@ -2197,7 +2197,7 @@ item
 )
 ;
 }
-nsresult
+void
 CacheFileChunk
 :
 :
@@ -2337,9 +2337,6 @@ aCallback
 }
 #
 endif
-return
-NS_OK
-;
 }
 nsresult
 CacheFileChunk
@@ -2765,7 +2762,7 @@ Log
 )
 ;
 }
-nsresult
+void
 CacheFileChunk
 :
 :
@@ -2815,9 +2812,6 @@ SetDataSize
 (
 aOffset
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
