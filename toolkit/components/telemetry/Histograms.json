@@ -16366,10 +16366,7 @@ products
 firefox
 "
 "
-fennec
-"
-"
-geckoview
+geckoview_streaming
 "
 ]
 "
@@ -16466,6 +16463,7 @@ bug_numbers
 :
 [
 1500465
+1604818
 ]
 }
 "
