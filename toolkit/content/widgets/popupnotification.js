@@ -177,6 +177,8 @@ type
 "
 :
 "
+text
+=
 secondendlabel
 popupid
 "

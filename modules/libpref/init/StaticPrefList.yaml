@@ -43098,7 +43098,7 @@ permissions
 .
 delegation
 .
-enable
+enabled
 type
 :
 bool

@@ -166,7 +166,7 @@ permissions
 .
 delegation
 .
-enable
+enabled
 "
 true
 ]
