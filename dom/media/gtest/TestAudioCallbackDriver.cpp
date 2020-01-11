@@ -120,6 +120,9 @@ nullptr
 )
 ;
 }
+#
+if
+0
 TEST
 (
 TestAudioCallbackDriver
@@ -359,3 +362,5 @@ RemoveShutdownBlocker
 )
 ;
 }
+#
+endif
