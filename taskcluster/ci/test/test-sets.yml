@@ -2539,6 +2539,10 @@ common
 tests
 :
 -
+cppunit
+-
+crashtest
+-
 firefox
 -
 ui
@@ -2562,6 +2566,8 @@ jittest
 jsreftest
 -
 marionette
+-
+mochitest
 -
 mochitest
 -
@@ -2636,6 +2642,8 @@ test
 verify
 -
 wpt
+-
+xpcshell
 #
 List
 of
@@ -2645,7 +2653,7 @@ are
 green
 on
 ubuntu1804
-docker
+doker
 image
 .
 #
@@ -2661,16 +2669,6 @@ tests
 :
 -
 cppunit
--
-crashtest
--
-mochitest
--
-mochitest
--
-gpu
--
-xpcshell
 linux
 -
 qr

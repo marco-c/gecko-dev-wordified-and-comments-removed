@@ -65,9 +65,7 @@ q
 '
 "
 '
-linux1804
--
-64
+linux64
 /
 opt
 -
@@ -125,9 +123,7 @@ tasks
 "
 test
 -
-linux1804
--
-64
+linux64
 /
 opt
 -
