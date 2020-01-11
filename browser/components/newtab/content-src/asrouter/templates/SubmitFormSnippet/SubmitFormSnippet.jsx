@@ -343,7 +343,7 @@ event
 "
 CLICK_BUTTON
 "
-value
+event_context
 :
 "
 conversion
@@ -608,7 +608,7 @@ event
 "
 CLICK_BUTTON
 "
-value
+event_context
 :
 "
 subscribe
@@ -689,7 +689,7 @@ event
 "
 CLICK_BUTTON
 "
-value
+event_context
 :
 "
 subscribe
@@ -733,7 +733,7 @@ event
 "
 CLICK_BUTTON
 "
-value
+event_context
 :
 "
 scene1
