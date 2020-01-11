@@ -62392,7 +62392,7 @@ activeWindow
 rootWin
 ;
 }
-nsresult
+void
 Document
 :
 :
@@ -62428,11 +62428,8 @@ XRE_IsContentProcess
 )
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 Document
 :
 :
@@ -62464,9 +62461,6 @@ move
 exit
 )
 )
-;
-return
-NS_OK
 ;
 }
 bool

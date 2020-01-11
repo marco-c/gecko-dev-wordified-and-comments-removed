@@ -5952,7 +5952,7 @@ FullscreenStackPop
 (
 )
 ;
-nsresult
+void
 RemoteFrameFullscreenChanged
 (
 Element
@@ -5960,7 +5960,7 @@ Element
 aFrameElement
 )
 ;
-nsresult
+void
 RemoteFrameFullscreenReverted
 (
 )
