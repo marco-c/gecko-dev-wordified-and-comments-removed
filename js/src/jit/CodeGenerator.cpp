@@ -87121,7 +87121,7 @@ temp1
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )

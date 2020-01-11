@@ -2315,7 +2315,7 @@ dest
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )
@@ -2562,7 +2562,7 @@ scratch
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )
@@ -4429,7 +4429,7 @@ scratch
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )
@@ -5136,7 +5136,7 @@ dest
 JSScript
 :
 :
-offsetOfPrivateScriptData
+offsetOfPrivateData
 (
 )
 )
@@ -6303,7 +6303,7 @@ scratch1
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )
@@ -24342,7 +24342,7 @@ script
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )

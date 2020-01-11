@@ -17674,7 +17674,7 @@ scratch
 JSScript
 :
 :
-offsetOfScriptData
+offsetOfSharedData
 (
 )
 )
