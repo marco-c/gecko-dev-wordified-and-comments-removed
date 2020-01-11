@@ -32897,7 +32897,7 @@ default
 private
 :
 static
-already_AddRefed
+RefPtr
 <
 FullIndexMetadata
 >
@@ -115744,7 +115744,7 @@ return
 NS_OK
 ;
 }
-already_AddRefed
+RefPtr
 <
 FullIndexMetadata
 >
@@ -116088,10 +116088,6 @@ indexMetadata
 ;
 return
 indexMetadata
-.
-forget
-(
-)
 ;
 }
 IndexGetRequestOp
