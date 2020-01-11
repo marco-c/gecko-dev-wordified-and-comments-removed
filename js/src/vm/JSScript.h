@@ -6759,6 +6759,12 @@ HasCallSiteObj
 <
 <
 7
+HasModuleGoal
+=
+1
+<
+<
+8
 FunctionHasThisBinding
 =
 1
@@ -7839,6 +7845,11 @@ IMMUTABLE_FLAG_GETTER
 (
 hasCallSiteObj
 HasCallSiteObj
+)
+IMMUTABLE_FLAG_GETTER
+(
+hasModuleGoal
+HasModuleGoal
 )
 IMMUTABLE_FLAG_GETTER_SETTER
 (
@@ -14101,7 +14112,7 @@ hasFlag
 ImmutableFlags
 :
 :
-IsModule
+HasModuleGoal
 )
 )
 {
