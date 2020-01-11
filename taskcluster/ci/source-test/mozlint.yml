@@ -227,6 +227,8 @@ mach
 :
 lint
 -
+v
+-
 l
 codespell
 -
@@ -405,6 +407,8 @@ mach
 :
 lint
 -
+v
+-
 l
 cpp
 -
@@ -547,6 +551,8 @@ node_modules
 /
 mach
 lint
+-
+v
 -
 l
 eslint
@@ -727,6 +733,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 license
@@ -915,6 +923,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 lintpref
@@ -1148,6 +1158,8 @@ mach
 :
 lint
 -
+v
+-
 l
 mingw
 -
@@ -1239,6 +1251,8 @@ mach
 :
 lint
 -
+v
+-
 l
 py2
 -
@@ -1307,6 +1321,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 flake8
@@ -1390,6 +1406,8 @@ mach
 :
 lint
 -
+v
+-
 l
 test
 -
@@ -1468,6 +1486,8 @@ mach
 :
 lint
 -
+v
+-
 l
 wpt
 -
@@ -1543,6 +1563,8 @@ mach
 :
 lint
 -
+v
+-
 l
 yaml
 -
@@ -1617,6 +1639,8 @@ mach
 :
 lint
 -
+v
+-
 l
 rst
 -
@@ -1673,6 +1697,8 @@ mach
 :
 lint
 -
+v
+-
 l
 shellcheck
 -
@@ -1728,6 +1754,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 l10n
@@ -1936,6 +1964,8 @@ mach
 :
 lint
 -
+v
+-
 l
 rustfmt
 -
@@ -2001,6 +2031,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 file
@@ -2114,6 +2146,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 file
@@ -2289,6 +2323,8 @@ run
 mach
 :
 lint
+-
+v
 -
 l
 perfdocs
