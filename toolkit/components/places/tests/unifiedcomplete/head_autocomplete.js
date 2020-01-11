@@ -1889,6 +1889,7 @@ tags
 }
 }
 ;
+async
 function
 addOpenPages
 (
@@ -1917,6 +1918,7 @@ i
 +
 )
 {
+await
 UrlbarProviderOpenTabs
 .
 registerOpenTab
@@ -1929,6 +1931,7 @@ aUserContextId
 ;
 }
 }
+async
 function
 removeOpenPages
 (
@@ -1957,6 +1960,7 @@ i
 +
 )
 {
+await
 UrlbarProviderOpenTabs
 .
 unregisterOpenTab

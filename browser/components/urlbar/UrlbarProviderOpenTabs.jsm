@@ -404,6 +404,7 @@ return
 false
 ;
 }
+async
 registerOpenTab
 (
 url
@@ -458,6 +459,7 @@ this
 _db
 )
 {
+await
 addToMemoryTable
 (
 this
@@ -469,6 +471,7 @@ userContextId
 ;
 }
 }
+async
 unregisterOpenTab
 (
 url
@@ -528,6 +531,7 @@ this
 _db
 )
 {
+await
 removeFromMemoryTable
 (
 this
