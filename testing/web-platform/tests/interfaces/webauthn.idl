@@ -724,7 +724,7 @@ partial
 dictionary
 AuthenticationExtensionsClientOutputs
 {
-Coordinates
+GeolocationCoordinates
 loc
 ;
 }
