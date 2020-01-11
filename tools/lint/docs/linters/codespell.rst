@@ -108,7 +108,7 @@ in
 the
 codespell
 .
-yaml
+yml
 <
 https
 :
