@@ -14308,6 +14308,10 @@ Nothing
 )
 ;
 }
+mHaveCompositionRecorder
+=
+false
+;
 return
 IPC_OK
 (
