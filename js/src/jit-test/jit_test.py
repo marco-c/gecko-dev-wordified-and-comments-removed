@@ -2685,7 +2685,7 @@ os
 getenv
 (
 '
-GCOV_PREFIX
+JS_CODE_COVERAGE_OUTPUT_DIR
 '
 )
 is
