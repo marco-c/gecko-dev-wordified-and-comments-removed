@@ -33934,12 +33934,6 @@ display
 :
 none
 ;
-z
--
-index
-:
-1100
-;
 }
 .
 modalOverlayOuter
@@ -33949,6 +33943,10 @@ active
 display
 :
 block
+;
+position
+:
+absolute
 ;
 }
 .
@@ -33973,6 +33971,12 @@ height
 overflow
 :
 auto
+;
+z
+-
+index
+:
+1100
 ;
 }
 .
@@ -34058,7 +34062,7 @@ z
 -
 index
 :
-1101
+1100
 ;
 }
 media
@@ -34075,8 +34079,7 @@ modalOverlayInner
 {
 width
 :
-100
-%
+auto
 ;
 height
 :
