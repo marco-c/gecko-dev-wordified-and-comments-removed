@@ -42,7 +42,16 @@ files
 xhtml
 "
 "
-*
+attributes
+/
+test_listbox
+.
+html
+"
+"
+treeupdate
+/
+test_ariaowns
 .
 html
 "
