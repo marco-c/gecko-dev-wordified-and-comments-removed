@@ -37,6 +37,12 @@ record_in_processes
 bool
 keyed
 ;
+uint32_t
+key_count
+;
+uint32_t
+key_offset
+;
 mozilla
 :
 :
@@ -72,6 +78,10 @@ RecordedProcessType
 aRecordInProcess
 bool
 aKeyed
+uint32_t
+aKeyCount
+uint32_t
+aKeyOffset
 mozilla
 :
 :
@@ -104,6 +114,14 @@ aRecordInProcess
 keyed
 (
 aKeyed
+)
+key_count
+(
+aKeyCount
+)
+key_offset
+(
+aKeyOffset
 )
 products
 (
@@ -205,6 +223,10 @@ RecordedProcessType
 aRecordInProcess
 bool
 aKeyed
+uint32_t
+aKeyCount
+uint32_t
+aKeyOffset
 mozilla
 :
 :
@@ -218,7 +240,7 @@ SupportedProduct
 aProducts
 uint32_t
 aStoreCount
-uint16_t
+uint32_t
 aStoreOffset
 )
 :
@@ -228,6 +250,8 @@ aKind
 aDataset
 aRecordInProcess
 aKeyed
+aKeyCount
+aKeyOffset
 aProducts
 )
 name_offset
