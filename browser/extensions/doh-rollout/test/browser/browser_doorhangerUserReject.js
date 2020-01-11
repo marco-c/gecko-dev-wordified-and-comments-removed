@@ -11,11 +11,6 @@ testDoorhangerUserReject
 (
 )
 {
-await
-waitForBalrogMigration
-(
-)
-;
 setPassingHeuristics
 (
 )

@@ -11,11 +11,6 @@ testCleanFlow
 (
 )
 {
-await
-waitForBalrogMigration
-(
-)
-;
 setPassingHeuristics
 (
 )

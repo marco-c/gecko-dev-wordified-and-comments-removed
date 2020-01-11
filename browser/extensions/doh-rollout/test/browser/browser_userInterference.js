@@ -11,11 +11,6 @@ testUserInterference
 (
 )
 {
-await
-waitForBalrogMigration
-(
-)
-;
 setPassingHeuristics
 (
 )
