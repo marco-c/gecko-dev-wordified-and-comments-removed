@@ -1608,6 +1608,9 @@ mEverTriedInvalidSubmit
 bool
 mIsConstructingEntryList
 ;
+bool
+mIsFiringSubmissionEvents
+;
 private
 :
 NotNull
