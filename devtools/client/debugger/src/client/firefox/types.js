@@ -441,7 +441,7 @@ Boolean
 url
 :
 string
-isAddon
+isParentProcess
 :
 Boolean
 isServiceWorker
