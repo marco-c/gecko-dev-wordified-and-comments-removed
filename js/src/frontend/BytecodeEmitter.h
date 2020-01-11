@@ -2265,7 +2265,13 @@ ParseNode
 value
 )
 ;
+mozilla
+:
+:
+Maybe
+<
 FieldInitializers
+>
 setupFieldInitializers
 (
 ListNode
