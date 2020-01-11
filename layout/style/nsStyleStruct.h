@@ -4772,7 +4772,10 @@ mozilla
 StyleRubyAlign
 mRubyAlign
 ;
-uint8_t
+mozilla
+:
+:
+StyleRubyPosition
 mRubyPosition
 ;
 mozilla

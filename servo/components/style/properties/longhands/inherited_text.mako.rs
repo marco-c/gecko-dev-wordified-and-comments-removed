@@ -2441,6 +2441,11 @@ position
 -
 property
 "
+gecko_enum_prefix
+=
+"
+StyleRubyPosition
+"
 )
 }
 /
