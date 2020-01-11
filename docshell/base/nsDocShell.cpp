@@ -24027,6 +24027,8 @@ aBaseURI
 nsIPrincipal
 *
 aPrincipal
+uint64_t
+aInnerWindowID
 const
 nsACString
 &
@@ -25015,6 +25017,7 @@ SetupRefreshURIFromHeader
 (
 mCurrentURI
 principal
+0
 refreshHeader
 )
 ;
