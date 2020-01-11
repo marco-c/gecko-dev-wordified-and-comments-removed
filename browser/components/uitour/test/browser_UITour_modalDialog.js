@@ -200,7 +200,7 @@ containedDocShells
 =
 docShell
 .
-getDocShellEnumerator
+getAllDocShellsInSubtree
 (
 docShell
 .

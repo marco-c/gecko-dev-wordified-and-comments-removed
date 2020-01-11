@@ -315,9 +315,6 @@ interface
 nsIEditingSession
 ;
 interface
-nsISimpleEnumerator
-;
-interface
 nsIInputStream
 ;
 interface
@@ -1469,8 +1466,8 @@ inheritPrivateBrowsingId
 *
 Get
 an
-enumerator
-over
+array
+of
 this
 docShell
 and
@@ -1529,8 +1526,11 @@ ENUMERATE_BACKWARDS
 1
 }
 ;
-nsISimpleEnumerator
-getDocShellEnumerator
+Array
+<
+nsIDocShell
+>
+getAllDocShellsInSubtree
 (
 in
 long

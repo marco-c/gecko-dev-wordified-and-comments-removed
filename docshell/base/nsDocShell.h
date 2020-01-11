@@ -1529,6 +1529,14 @@ nsString
 aKeyword
 )
 ;
+nsDocShell
+*
+GetInProcessChildAt
+(
+int32_t
+aIndex
+)
+;
 private
 :
 friend

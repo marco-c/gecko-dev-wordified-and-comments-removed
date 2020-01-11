@@ -5405,11 +5405,11 @@ docShell
 )
 {
 let
-enum_
+docShells
 =
 docShell
 .
-getDocShellEnumerator
+getAllDocShellsInSubtree
 (
 docShell
 .
@@ -5424,7 +5424,7 @@ for
 let
 docShell
 of
-enum_
+docShells
 )
 {
 try
