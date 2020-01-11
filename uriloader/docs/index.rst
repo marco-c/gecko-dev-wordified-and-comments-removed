@@ -35,6 +35,4 @@ maxdepth
 uriloader
 exthandler
 /
-docs
-/
 index
