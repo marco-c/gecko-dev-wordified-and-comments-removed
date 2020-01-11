@@ -471,8 +471,6 @@ bz2
 BZ2Compressor
 (
 compresslevel
-=
-compresslevel
 )
         
 self
