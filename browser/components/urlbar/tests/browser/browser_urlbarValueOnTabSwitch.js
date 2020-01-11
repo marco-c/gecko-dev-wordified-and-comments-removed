@@ -149,9 +149,9 @@ loaded3
 ;
 testURL
 =
-gURLBar
+BrowserUtils
 .
-trimValue
+trimURL
 (
 testURL
 )
