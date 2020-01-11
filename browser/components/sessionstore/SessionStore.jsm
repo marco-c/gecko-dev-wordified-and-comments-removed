@@ -1087,16 +1087,6 @@ aMsg
 )
 ;
 }
-dump
-(
-aMsg
-+
-"
-\
-n
-"
-)
-;
 }
 var
 gResistFingerprintingEnabled
