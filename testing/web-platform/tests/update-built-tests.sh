@@ -79,6 +79,8 @@ py
 python3
 WebIDL
 /
+tools
+/
 generate
 -
 setlike
