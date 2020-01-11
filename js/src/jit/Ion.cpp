@@ -2516,14 +2516,11 @@ builder
 {
 MOZ_ASSERT
 (
+!
 builder
 -
 >
-pendingEdges
-(
-)
-.
-empty
+hasPendingEdgesMap
 (
 )
 "
