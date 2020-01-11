@@ -335,8 +335,9 @@ brush_kind
 aData
 .
 w
-&
-0xff000000
+>
+>
+24
 ;
 return
 instance
