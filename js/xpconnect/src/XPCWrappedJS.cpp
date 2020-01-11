@@ -2085,6 +2085,10 @@ if
 (
 !
 mGCIsRunning
+&
+&
+!
+mDoingFinalization
 )
 {
 JSContext
