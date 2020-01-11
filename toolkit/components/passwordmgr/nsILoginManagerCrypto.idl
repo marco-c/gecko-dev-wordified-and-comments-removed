@@ -227,7 +227,7 @@ strings
 .
 *
 /
-jsval
+Promise
 encryptMany
 (
 in
@@ -372,7 +372,7 @@ key
 .
 *
 /
-jsval
+Promise
 decryptMany
 (
 in

@@ -192,7 +192,7 @@ exception
 .
 *
 /
-jsval
+Promise
 initialize
 (
 )
@@ -261,7 +261,7 @@ exception
 .
 *
 /
-jsval
+Promise
 terminate
 (
 )
@@ -759,7 +759,7 @@ objects
 .
 *
 /
-jsval
+Promise
 getAllLoginsAsync
 (
 )
