@@ -736,6 +736,17 @@ MOZ_DISABLE_CONTENT_SANDBOX
 env
 [
 "
+MOZ_DISABLE_RDD_SANDBOX
+"
+]
+=
+"
+1
+"
+        
+env
+[
+"
 LLVM_PROFILE_FILE
 "
 ]
