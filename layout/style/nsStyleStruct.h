@@ -9387,10 +9387,7 @@ mScrollbarWidth
 uint8_t
 mForceBrokenImageIcon
 ;
-mozilla
-:
-:
-StyleImeMode
+uint8_t
 mIMEMode
 ;
 mozilla
