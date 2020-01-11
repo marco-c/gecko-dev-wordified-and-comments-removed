@@ -1,5 +1,5 @@
 def
-element_rect
+element_dimensions
 (
 session
 element
@@ -7,6 +7,8 @@ element
 :
     
 return
+tuple
+(
 session
 .
 execute_script
@@ -15,7 +17,7 @@ execute_script
 "
 "
         
-let
+const
 {
 devicePixelRatio
 }
@@ -25,8 +27,6 @@ window
         
 let
 {
-left
-top
 width
 height
 }
@@ -42,44 +42,8 @@ getBoundingClientRect
 ;
         
 return
-{
-            
-x
-:
-Math
-.
-floor
-(
-(
-left
-+
-window
-.
-pageXOffset
-)
-*
-devicePixelRatio
-)
-            
-y
-:
-Math
-.
-floor
-(
-(
-top
-+
-window
-.
-pageYOffset
-)
-*
-devicePixelRatio
-)
-            
-width
-:
+[
+          
 Math
 .
 floor
@@ -88,9 +52,7 @@ width
 *
 devicePixelRatio
 )
-            
-height
-:
+          
 Math
 .
 floor
@@ -100,7 +62,7 @@ height
 devicePixelRatio
 )
         
-}
+]
 ;
         
 "
@@ -110,5 +72,6 @@ args
 =
 (
 element
+)
 )
 )
