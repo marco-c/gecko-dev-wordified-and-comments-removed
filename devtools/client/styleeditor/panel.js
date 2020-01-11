@@ -144,14 +144,6 @@ toolbox
 ;
 this
 .
-_target
-=
-toolbox
-.
-target
-;
-this
-.
 _panelWin
 =
 panelWin
@@ -204,7 +196,7 @@ prototype
 =
 {
 get
-target
+currentTarget
 (
 )
 {
@@ -213,7 +205,9 @@ this
 .
 _toolbox
 .
-target
+targetList
+.
+targetFront
 ;
 }
 get
@@ -234,7 +228,7 @@ open
 {
 this
 .
-target
+currentTarget
 .
 on
 (
@@ -253,7 +247,7 @@ _debuggee
 await
 this
 .
-target
+currentTarget
 .
 getFront
 (
@@ -288,9 +282,6 @@ _toolbox
 this
 .
 _debuggee
-this
-.
-target
 this
 .
 _panelDoc
@@ -544,7 +535,7 @@ true
 ;
 this
 .
-_target
+currentTarget
 .
 off
 (
@@ -555,12 +546,6 @@ this
 .
 destroy
 )
-;
-this
-.
-_target
-=
-null
 ;
 this
 .
