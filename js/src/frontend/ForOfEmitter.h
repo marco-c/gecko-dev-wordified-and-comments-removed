@@ -106,9 +106,6 @@ allowSelfHostedIter_
 IteratorKind
 iterKind_
 ;
-JumpList
-initialJump_
-;
 mozilla
 :
 :

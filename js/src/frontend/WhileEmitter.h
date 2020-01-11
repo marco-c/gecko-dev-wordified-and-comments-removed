@@ -95,8 +95,8 @@ class
 State
 {
 Start
-Body
 Cond
+Body
 End
 }
 ;
@@ -122,7 +122,7 @@ bce
 ;
 MOZ_MUST_USE
 bool
-emitBody
+emitCond
 (
 const
 mozilla
@@ -143,7 +143,7 @@ Maybe
 uint32_t
 >
 &
-bodyPos
+condPos
 const
 mozilla
 :
@@ -158,18 +158,8 @@ endPos
 ;
 MOZ_MUST_USE
 bool
-emitCond
+emitBody
 (
-const
-mozilla
-:
-:
-Maybe
-<
-uint32_t
->
-&
-condPos
 )
 ;
 MOZ_MUST_USE
