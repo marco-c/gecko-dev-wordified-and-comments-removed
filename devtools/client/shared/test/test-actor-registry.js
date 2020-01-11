@@ -60,13 +60,13 @@ const
 TEST_URL_ROOT
 =
 "
-http
+chrome
 :
 /
 /
-example
-.
-com
+mochitests
+/
+content
 /
 browser
 /
