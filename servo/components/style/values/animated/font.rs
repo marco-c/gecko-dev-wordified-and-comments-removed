@@ -327,12 +327,10 @@ tags
 :
 Vec
 <
-(
 &
 '
 a
 ComputedVariationValue
-)
 >
 index
 :

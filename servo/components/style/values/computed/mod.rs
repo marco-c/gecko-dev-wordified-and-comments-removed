@@ -1862,10 +1862,6 @@ ToComputedValue
 type
 ComputedValue
 ;
-#
-[
-inline
-]
 fn
 to_computed_value
 (
@@ -1883,10 +1879,6 @@ Self
 :
 ComputedValue
 ;
-#
-[
-inline
-]
 fn
 from_computed_value
 (
