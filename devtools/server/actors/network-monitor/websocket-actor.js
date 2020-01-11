@@ -369,6 +369,18 @@ code
 reason
 )
 {
+const
+httpChannelId
+=
+this
+.
+connections
+.
+get
+(
+webSocketSerialID
+)
+;
 this
 .
 connections
@@ -385,6 +397,7 @@ emit
 "
 serverWebSocketClosed
 "
+httpChannelId
 wasClean
 code
 reason

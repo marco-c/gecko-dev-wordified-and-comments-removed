@@ -243,6 +243,7 @@ extensions
 async
 _onWebSocketClosed
 (
+httpChannelId
 wasClean
 code
 reason
@@ -255,6 +256,7 @@ emit
 "
 webSocketClosed
 "
+httpChannelId
 wasClean
 code
 reason
