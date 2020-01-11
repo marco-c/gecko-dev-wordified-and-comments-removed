@@ -1229,9 +1229,11 @@ _onTargetDestroy
 async
 _onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if
@@ -1345,9 +1347,11 @@ connect
 }
 _onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if

@@ -342,9 +342,11 @@ const
 onAvailable
 =
 (
+{
 type
-newTarget
+targetFront
 isTopLevel
+}
 )
 =
 >
@@ -370,7 +372,7 @@ targets
 ;
 ok
 (
-newTarget
+targetFront
 =
 =
 target
@@ -391,7 +393,7 @@ targets
 .
 push
 (
-newTarget
+targetFront
 )
 ;
 }
@@ -657,9 +659,11 @@ const
 onAvailable
 =
 (
+{
 type
-newTarget
+targetFront
 isTopLevel
+}
 )
 =
 >
@@ -685,7 +689,7 @@ targets
 ;
 ok
 (
-newTarget
+targetFront
 =
 =
 target
@@ -706,7 +710,7 @@ targets
 .
 push
 (
-newTarget
+targetFront
 )
 ;
 }

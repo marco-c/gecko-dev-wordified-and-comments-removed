@@ -2989,9 +2989,11 @@ jsdebugger
 async
 _onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if
@@ -3118,9 +3120,11 @@ targetFront
 }
 _onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if

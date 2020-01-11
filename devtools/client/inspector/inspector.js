@@ -1135,9 +1135,11 @@ _deferredOpen
 async
 _onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if
@@ -1234,9 +1236,11 @@ onNewRoot
 }
 _onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 if

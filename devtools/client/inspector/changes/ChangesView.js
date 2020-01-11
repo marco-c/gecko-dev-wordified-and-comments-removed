@@ -628,9 +628,11 @@ onClearChanges
 async
 onTargetAvailable
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 targetFront
@@ -672,9 +674,11 @@ onClearChanges
 async
 onTargetDestroyed
 (
+{
 type
 targetFront
 isTopLevel
+}
 )
 {
 targetFront
