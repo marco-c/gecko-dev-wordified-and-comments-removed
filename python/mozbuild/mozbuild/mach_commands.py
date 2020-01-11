@@ -19,6 +19,8 @@ os
 import
 re
 import
+shutil
+import
 subprocess
 import
 sys
@@ -1190,6 +1192,9 @@ objdir
 '
 python
 '
+'
+gradle
+'
 ]
     
 Command
@@ -1506,6 +1511,23 @@ yet
 will
 be
 deleted
+.
+        
+The
+gradle
+target
+will
+remove
+the
+"
+gradle
+"
+subdirectory
+of
+the
+object
+        
+directory
 .
         
 "
@@ -1857,6 +1879,31 @@ cwd
 self
 .
 topsrcdir
+)
+        
+if
+'
+gradle
+'
+in
+what
+:
+            
+shutil
+.
+rmtree
+(
+mozpath
+.
+join
+(
+self
+.
+topobjdir
+'
+gradle
+'
+)
 )
         
 return
