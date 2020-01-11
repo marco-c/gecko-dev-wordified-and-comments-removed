@@ -68,12 +68,14 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 gTestRoot
+]
 testBody
 )
 ;

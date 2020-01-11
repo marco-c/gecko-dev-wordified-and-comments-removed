@@ -271,14 +271,16 @@ hud
 text
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 text
+]
 function
 (
 str

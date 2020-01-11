@@ -216,12 +216,13 @@ let
 imageInfo
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 (
 )

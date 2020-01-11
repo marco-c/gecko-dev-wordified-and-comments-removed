@@ -10,7 +10,7 @@ walkerArg
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -18,9 +18,11 @@ gBrowser
 .
 selectedBrowser
 [
+[
 walkerArg
 .
 actorID
+]
 ]
 function
 (

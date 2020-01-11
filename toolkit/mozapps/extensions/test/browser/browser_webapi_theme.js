@@ -221,12 +221,14 @@ false
 let
 installPromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 URL
+]
 async
 url
 =

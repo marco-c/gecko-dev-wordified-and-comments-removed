@@ -55,12 +55,13 @@ let
 context
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

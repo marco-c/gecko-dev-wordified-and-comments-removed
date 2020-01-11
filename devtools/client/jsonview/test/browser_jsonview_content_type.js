@@ -431,14 +431,16 @@ types
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 type
+]
 function
 (
 contentType

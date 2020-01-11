@@ -793,14 +793,16 @@ window
 )
 ;
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 prop
+]
 _prop
 =
 >

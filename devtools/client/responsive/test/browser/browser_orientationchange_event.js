@@ -139,7 +139,7 @@ ui
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -148,8 +148,8 @@ ui
 getViewportBrowser
 (
 )
-{
-}
+[
+]
 async
 function
 (
@@ -348,7 +348,7 @@ reload
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -357,8 +357,8 @@ ui
 getViewportBrowser
 (
 )
-{
-}
+[
+]
 async
 function
 (

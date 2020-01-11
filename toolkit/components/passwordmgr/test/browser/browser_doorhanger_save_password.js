@@ -299,14 +299,16 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
 [
+[
 username
 password
+]
 ]
 async
 function

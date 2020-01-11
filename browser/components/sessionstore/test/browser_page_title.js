@@ -139,12 +139,13 @@ browser
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 function
 (
@@ -158,6 +159,10 @@ resolve
 =
 >
 {
+docShell
+.
+chromeEventHandler
+.
 addEventListener
 (
 "
@@ -168,6 +173,10 @@ onTitleChanged
 (
 )
 {
+docShell
+.
+chromeEventHandler
+.
 removeEventListener
 (
 "

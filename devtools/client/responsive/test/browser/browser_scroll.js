@@ -264,12 +264,13 @@ focus
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 (
 )
 =

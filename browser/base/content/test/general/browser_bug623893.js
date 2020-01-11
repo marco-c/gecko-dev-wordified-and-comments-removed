@@ -162,12 +162,13 @@ browser
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

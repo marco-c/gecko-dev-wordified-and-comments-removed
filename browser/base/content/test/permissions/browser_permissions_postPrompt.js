@@ -113,12 +113,13 @@ first
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 task
 )
 ;

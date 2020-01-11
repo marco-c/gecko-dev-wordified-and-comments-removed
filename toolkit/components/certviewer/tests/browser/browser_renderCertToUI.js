@@ -168,14 +168,16 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
 [
+[
 certItems
 tabName
+]
 ]
 async
 function

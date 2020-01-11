@@ -202,14 +202,15 @@ tab
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 (
 )
 =
@@ -362,7 +363,7 @@ rawId
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -370,7 +371,9 @@ tab
 .
 linkedBrowser
 [
+[
 rawId
+]
 ]
 (
 [
