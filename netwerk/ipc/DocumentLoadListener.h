@@ -120,6 +120,13 @@ nsIRedirectResultListener
 h
 "
 #
+include
+"
+nsIMultiPartChannel
+.
+h
+"
+#
 define
 DOCUMENT_LOAD_LISTENER_IID
 \
@@ -163,6 +170,8 @@ public
 HttpChannelSecurityWarningReporter
 public
 nsIProcessSwitchRequestor
+public
+nsIMultiPartChannelListener
 {
 public
 :
@@ -257,6 +266,7 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSIASYNCVERIFYREDIRECTREADYCALLBACK
 NS_DECL_NSICHANNELEVENTSINK
 NS_DECL_NSIPROCESSSWITCHREQUESTOR
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 void
 ResumeSuspendedChannel
 (
@@ -875,7 +885,7 @@ mRedirectChannelId
 0
 ;
 bool
-mSuspendedChannel
+mInitiatedRedirectToRealChannel
 =
 false
 ;
