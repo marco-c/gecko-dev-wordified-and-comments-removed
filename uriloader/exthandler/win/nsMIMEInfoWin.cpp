@@ -293,12 +293,10 @@ get
 )
 ;
 _variant_t
-verb
+verbDefault
 (
-L
-"
-open
-"
+DISP_E_PARAMNOTFOUND
+VT_ERROR
 )
 ;
 _variant_t
@@ -323,7 +321,7 @@ ShellExecuteByExplorer
 (
 execPathBStr
 aArgs
-verb
+verbDefault
 workingDir
 showCmd
 )
