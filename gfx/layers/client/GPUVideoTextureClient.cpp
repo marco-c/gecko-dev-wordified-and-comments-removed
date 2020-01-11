@@ -8,9 +8,7 @@ h
 #
 include
 "
-mozilla
-/
-RemoteDecoderManagerChild
+GPUVideoImage
 .
 h
 "
@@ -40,7 +38,7 @@ GPUVideoTextureData
 :
 GPUVideoTextureData
 (
-RemoteDecoderManagerChild
+IGPUVideoSurfaceManager
 *
 aManager
 const
