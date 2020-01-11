@@ -4128,7 +4128,7 @@ clockSkew
 &
 failedCertInfo
 .
-erroCodeString
+errorCodeString
 !
 =
 "
