@@ -1293,6 +1293,7 @@ isDefault
 )
 {
 return
+null
 ;
 }
 }
@@ -1390,6 +1391,11 @@ contextType
 )
 ;
 }
+return
+context
+.
+id
+;
 }
 _onContextDestroyed
 (
