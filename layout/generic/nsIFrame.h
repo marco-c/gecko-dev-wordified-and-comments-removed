@@ -9697,12 +9697,6 @@ ComputeWidgetTransform
 (
 )
 ;
-virtual
-void
-UpdateWidgetProperties
-(
-)
-;
 bool
 HasImageRequest
 (
