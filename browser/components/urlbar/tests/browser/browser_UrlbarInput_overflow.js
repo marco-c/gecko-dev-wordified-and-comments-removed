@@ -311,13 +311,24 @@ scrollLeft
 =
 =
 0
+&
+&
+!
+gURLBar
+.
+hasAttribute
+(
+"
+rtltext
+"
+)
 ?
 "
-end
+right
 "
 :
 "
-start
+left
 "
 ;
 Assert
@@ -358,7 +369,7 @@ overflowSide
 =
 =
 "
-start
+left
 "
 ?
 "
@@ -474,7 +485,7 @@ lotsOfSpaces
 test
 /
 "
-end
+right
 "
 )
 ;
@@ -509,7 +520,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
@@ -531,7 +542,7 @@ lotsOfSpaces
 test
 /
 "
-end
+right
 "
 )
 ;
@@ -553,7 +564,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
@@ -588,7 +599,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
@@ -623,7 +634,7 @@ lotsOfSpaces
 test
 /
 "
-end
+right
 "
 )
 ;
@@ -647,7 +658,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
@@ -727,7 +738,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
@@ -749,7 +760,7 @@ lotsOfSpaces
 test
 /
 "
-end
+right
 "
 )
 ;
@@ -781,7 +792,7 @@ lotsOfSpaces
 test
 /
 "
-start
+left
 "
 )
 ;
