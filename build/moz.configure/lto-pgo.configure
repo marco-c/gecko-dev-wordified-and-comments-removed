@@ -182,6 +182,11 @@ profile
 -
 generate
 '
+env
+=
+'
+MOZ_PROFILE_GENERATE
+'
 nargs
 =
 '
@@ -286,6 +291,11 @@ enable
 profile
 -
 use
+'
+env
+=
+'
+MOZ_PROFILE_USE
 '
 nargs
 =
@@ -492,6 +502,9 @@ path
 join
 (
 topobjdir
+'
+instrumented
+'
 '
 merged
 .

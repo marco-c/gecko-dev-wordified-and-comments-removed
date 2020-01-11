@@ -6312,6 +6312,10 @@ False
 mach_context
 =
 None
+              
+append_env
+=
+None
 )
 :
         
@@ -6693,6 +6697,10 @@ line_handler
 output
 .
 on_line
+                                           
+append_env
+=
+append_env
 )
                 
 if
@@ -7270,6 +7278,25 @@ b
 '
 '
                     
+tgt_env
+=
+dict
+(
+append_env
+or
+{
+}
+)
+                    
+tgt_env
+[
+'
+NO_BUILDSTATUS_MESSAGES
+'
+]
+=
+no_build_status
+                    
 status
 =
 self
@@ -7309,15 +7336,7 @@ verbose
                         
 append_env
 =
-{
-                            
-b
-'
-NO_BUILDSTATUS_MESSAGES
-'
-:
-no_build_status
-}
+tgt_env
                         
 keep_going
 =
@@ -7362,6 +7381,10 @@ verbose
 keep_going
 =
 keep_going
+                                             
+append_env
+=
+append_env
 )
             
 self
@@ -8326,6 +8349,9 @@ False
 line_handler
 =
 None
+append_env
+=
+None
 )
 :
         
@@ -8404,23 +8430,22 @@ or
         
 append_env
 =
+dict
+(
+append_env
+or
 {
-b
+}
+)
+        
+append_env
+[
 '
 CONFIGURE_ARGS
 '
-:
+]
+=
 options
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-}
         
 if
 not
@@ -8429,7 +8454,6 @@ buildstatus_messages
             
 append_env
 [
-b
 '
 NO_BUILDSTATUS_MESSAGES
 '
