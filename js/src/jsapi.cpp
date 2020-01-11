@@ -19561,6 +19561,11 @@ uint8_t
 buf
 size_t
 length
+JS
+:
+:
+BinASTFormat
+format
 )
 {
 MOZ_ASSERT
@@ -19598,6 +19603,7 @@ cx
 options
 buf
 length
+format
 )
 ;
 }
@@ -19618,6 +19624,11 @@ options
 FILE
 *
 file
+JS
+:
+:
+BinASTFormat
+format
 )
 {
 FileContents
@@ -19656,6 +19667,7 @@ fileContents
 length
 (
 )
+format
 )
 ;
 }

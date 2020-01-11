@@ -50,6 +50,15 @@ include
 "
 js
 /
+BinASTFormat
+.
+h
+"
+#
+include
+"
+js
+/
 CompileOptions
 .
 h
@@ -495,6 +504,11 @@ uint8_t
 buf
 size_t
 length
+JS
+:
+:
+BinASTFormat
+format
 OffThreadCompileCallback
 callback
 void

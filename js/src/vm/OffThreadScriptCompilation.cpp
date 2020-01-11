@@ -1275,6 +1275,11 @@ uint8_t
 buf
 size_t
 length
+JS
+:
+:
+BinASTFormat
+format
 OffThreadCompileCallback
 callback
 void
@@ -1289,6 +1294,7 @@ cx
 options
 buf
 length
+format
 callback
 callbackData
 )

@@ -34,6 +34,15 @@ include
 "
 js
 /
+BinASTFormat
+.
+h
+"
+#
+include
+"
+js
+/
 CompileOptions
 .
 h
@@ -118,6 +127,11 @@ uint8_t
 src
 size_t
 len
+JS
+:
+:
+BinASTFormat
+format
 ScriptSourceObject
 *
 *
