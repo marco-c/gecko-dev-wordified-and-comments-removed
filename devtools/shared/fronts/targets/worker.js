@@ -333,6 +333,14 @@ connect
 ;
 this
 .
+workerName
+=
+connectResponse
+.
+workerName
+;
+this
+.
 targetForm
 .
 consoleActor
