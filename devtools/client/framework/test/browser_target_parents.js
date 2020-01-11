@@ -322,7 +322,12 @@ ok
 (
 target
 .
-activeConsole
+getCachedFront
+(
+"
+console
+"
+)
 "
 The
 target

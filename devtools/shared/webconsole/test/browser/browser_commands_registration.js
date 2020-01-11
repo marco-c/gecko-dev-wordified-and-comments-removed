@@ -47,9 +47,15 @@ tab
 const
 webConsoleFront
 =
+await
 target
 .
-activeConsole
+getFront
+(
+"
+console
+"
+)
 ;
 await
 ContentTask
