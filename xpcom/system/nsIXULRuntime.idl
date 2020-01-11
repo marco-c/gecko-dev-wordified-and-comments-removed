@@ -519,13 +519,6 @@ PROCESS_TYPE_SANDBOX_BROKER
 =
 9
 ;
-const
-unsigned
-long
-PROCESS_TYPE_FORKSERVER
-=
-10
-;
 /
 *
 *

@@ -3030,14 +3030,9 @@ SYNC_ENUMS
 SANDBOX_BROKER
 RemoteSandboxBroker
 )
-SYNC_ENUMS
-(
-FORKSERVER
-ForkServer
-)
 static_assert
 (
-GeckoProcessType_ForkServer
+GeckoProcessType_RemoteSandboxBroker
 +
 1
 =
