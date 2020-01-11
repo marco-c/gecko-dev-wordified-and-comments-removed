@@ -2418,6 +2418,11 @@ hadDisplayPort
 =
 false
 ;
+bool
+wasPainted
+=
+false
+;
 nsRect
 oldDisplayPort
 ;
@@ -2474,6 +2479,13 @@ currentData
 >
 mRect
 ;
+wasPainted
+=
+currentData
+-
+>
+mPainted
+;
 }
 }
 nsRect
@@ -2523,6 +2535,7 @@ DisplayPortPropertyData
 (
 displayport
 aPriority
+wasPainted
 )
 nsINode
 :

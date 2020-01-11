@@ -3351,7 +3351,14 @@ dpElement
 )
 {
 return
-false
+!
+nsLayoutUtils
+:
+:
+HasPaintedDisplayPort
+(
+dpElement
+)
 ;
 }
 if
