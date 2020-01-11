@@ -2991,7 +2991,7 @@ macOS
 -
 10
 .
-13
+14
 '
 steps
 :
@@ -3024,18 +3024,6 @@ parameters
 packages
 :
 virtualenv
--
-template
-:
-tools
-/
-ci
-/
-azure
-/
-install_fonts
-.
-yml
 -
 template
 :
