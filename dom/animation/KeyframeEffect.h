@@ -409,6 +409,9 @@ AnimationPerformanceWarning
 &
 aWarning
 const
+dom
+:
+:
 Element
 *
 aElement

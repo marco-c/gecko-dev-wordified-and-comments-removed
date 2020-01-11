@@ -965,6 +965,12 @@ using
 dom
 :
 :
+Element
+;
+using
+dom
+:
+:
 FeaturePolicyUtils
 ;
 using

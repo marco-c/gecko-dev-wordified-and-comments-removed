@@ -583,6 +583,9 @@ aLockCursor
 void
 RecomputeMouseEnterStateForRemoteFrame
 (
+dom
+:
+:
 Element
 &
 aElement

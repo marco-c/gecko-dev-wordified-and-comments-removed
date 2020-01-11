@@ -120,6 +120,15 @@ mozilla
 :
 image
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Element
+;
 static
 int8_t
 ParseStyleValue

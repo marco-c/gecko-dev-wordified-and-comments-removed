@@ -94,6 +94,15 @@ using
 namespace
 mozilla
 ;
+using
+mozilla
+:
+:
+dom
+:
+:
+Element
+;
 nsIFrame
 *
 NS_NewScrollbarFrame

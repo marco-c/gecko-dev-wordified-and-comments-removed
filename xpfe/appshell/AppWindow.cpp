@@ -595,6 +595,12 @@ using
 dom
 :
 :
+Element
+;
+using
+dom
+:
+:
 EventTarget
 ;
 using
@@ -9649,8 +9655,11 @@ get
 )
 )
 ;
-nsCOMPtr
+RefPtr
 <
+dom
+:
+:
 Element
 >
 element

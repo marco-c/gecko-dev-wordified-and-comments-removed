@@ -7116,6 +7116,12 @@ aValue
 NS_DECL_NSIRUNNABLE
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Element
 >
 mElement
@@ -7161,6 +7167,12 @@ aAttrName
 NS_DECL_NSIRUNNABLE
 RefPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Element
 >
 mElement

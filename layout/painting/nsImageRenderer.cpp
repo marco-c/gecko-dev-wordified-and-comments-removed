@@ -852,6 +852,9 @@ case
 eStyleImageType_Element
 :
 {
+dom
+:
+:
 Element
 *
 paintElement

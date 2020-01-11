@@ -8828,6 +8828,12 @@ nsINode
 >
 &
 aArrayOfNodes
+mozilla
+:
+:
+dom
+:
+:
 Element
 &
 aNonFormatBlockElement

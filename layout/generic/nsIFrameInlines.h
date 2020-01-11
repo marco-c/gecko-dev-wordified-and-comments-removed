@@ -1235,6 +1235,12 @@ return
 nullptr
 ;
 }
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 parent

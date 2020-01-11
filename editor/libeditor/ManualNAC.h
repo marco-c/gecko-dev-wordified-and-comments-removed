@@ -67,6 +67,9 @@ ManualNACPtr
 (
 already_AddRefed
 <
+dom
+:
+:
 Element
 >
 aNewNAC
@@ -253,6 +256,9 @@ return
 }
 RefPtr
 <
+dom
+:
+:
 Element
 >
 ptr
@@ -374,6 +380,9 @@ UnbindFromTree
 )
 ;
 }
+dom
+:
+:
 Element
 *
 get
@@ -389,6 +398,9 @@ get
 )
 ;
 }
+dom
+:
+:
 Element
 *
 operator
@@ -405,6 +417,9 @@ get
 ;
 }
 operator
+dom
+:
+:
 Element
 *
 (
@@ -422,6 +437,9 @@ private
 :
 RefPtr
 <
+dom
+:
+:
 Element
 >
 mPtr

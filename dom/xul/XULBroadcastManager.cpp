@@ -75,6 +75,12 @@ BroadcasterMapEntry
 public
 PLDHashEntryHdr
 {
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 mBroadcaster

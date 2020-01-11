@@ -2314,6 +2314,9 @@ GetLeftContentAsElement
 const
 {
 return
+dom
+:
+:
 Element
 :
 :
@@ -2345,6 +2348,9 @@ GetMiddleContentAsElement
 const
 {
 return
+dom
+:
+:
 Element
 :
 :
@@ -2376,6 +2382,9 @@ GetRightContentAsElement
 const
 {
 return
+dom
+:
+:
 Element
 :
 :

@@ -2557,6 +2557,12 @@ GetDirection
 {
 static
 const
+mozilla
+:
+:
+dom
+:
+:
 Element
 :
 :

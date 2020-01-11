@@ -444,6 +444,9 @@ return
 false
 ;
 static
+dom
+:
+:
 Element
 :
 :

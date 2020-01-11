@@ -268,6 +268,9 @@ COLLAPSED
 ;
 }
 static
+dom
+:
+:
 Element
 :
 :
@@ -975,6 +978,9 @@ KeyBinding
 (
 )
 ;
+dom
+:
+:
 Element
 *
 keyElm

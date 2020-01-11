@@ -1320,6 +1320,9 @@ aria_invalid
 )
 {
 static
+dom
+:
+:
 Element
 :
 :

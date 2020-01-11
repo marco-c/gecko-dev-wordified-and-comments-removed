@@ -100,6 +100,9 @@ aStyleRoot
 ;
 if
 (
+dom
+:
+:
 Element
 *
 root
@@ -130,6 +133,9 @@ mStyleRoots
 )
 ;
 }
+dom
+:
+:
 Element
 *
 DocumentStyleRootIterator

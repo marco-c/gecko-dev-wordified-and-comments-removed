@@ -340,6 +340,12 @@ forget
 }
 nsCOMPtr
 <
+mozilla
+:
+:
+dom
+:
+:
 Element
 >
 popupEl

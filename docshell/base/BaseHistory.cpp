@@ -57,6 +57,15 @@ mozilla
 dom
 :
 :
+Element
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 Link
 ;
 static

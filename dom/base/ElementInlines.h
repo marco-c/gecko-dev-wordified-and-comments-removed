@@ -91,6 +91,12 @@ this
 }
 }
 inline
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 nsINode
@@ -137,6 +143,12 @@ nullptr
 ;
 }
 inline
+mozilla
+:
+:
+dom
+:
+:
 Element
 *
 nsINode
@@ -156,6 +168,7 @@ GetFlattenedTreeParentNodeForStyle
 )
 ;
 if
+(
 MOZ_LIKELY
 (
 parentNode
@@ -166,6 +179,7 @@ parentNode
 >
 IsElement
 (
+)
 )
 )
 {

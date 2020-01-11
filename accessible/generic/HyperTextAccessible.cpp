@@ -1603,10 +1603,13 @@ aNode
 {
 if
 (
-Element
+auto
 *
 element
 =
+dom
+:
+:
 Element
 :
 :

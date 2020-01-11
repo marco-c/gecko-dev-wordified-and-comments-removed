@@ -472,6 +472,9 @@ select
 {
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -673,6 +676,9 @@ nullptr
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -841,6 +847,9 @@ nsIDOMXULSelectControlElement
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 element
@@ -1838,6 +1847,9 @@ nsIDOMXULMultiSelectControlElement
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 item
@@ -1925,6 +1937,9 @@ nsIDOMXULMultiSelectControlElement
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 item
@@ -2364,6 +2379,9 @@ nullptr
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 listElement

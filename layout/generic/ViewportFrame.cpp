@@ -266,6 +266,9 @@ static
 bool
 ShouldInTopLayerForFullscreen
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -480,6 +483,9 @@ aList
 {
 nsTArray
 <
+dom
+:
+:
 Element
 *
 >
@@ -501,6 +507,9 @@ GetFullscreenStack
 ;
 for
 (
+dom
+:
+:
 Element
 *
 elem
@@ -750,6 +759,9 @@ GetCanvasFrame
 {
 if
 (
+dom
+:
+:
 Element
 *
 container

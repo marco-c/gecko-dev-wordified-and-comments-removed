@@ -44,6 +44,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+dom
+/
+DOMRectBinding
+.
+h
+"
+#
+include
 <
 algorithm
 >
