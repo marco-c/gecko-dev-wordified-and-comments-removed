@@ -2,12 +2,6 @@ use
 crate
 :
 :
-Atom
-;
-use
-crate
-:
-:
 applicable_declarations
 :
 :
@@ -102,6 +96,12 @@ Rule
 RuleInclusion
 Stylist
 }
+;
+use
+crate
+:
+:
+Atom
 ;
 use
 selectors

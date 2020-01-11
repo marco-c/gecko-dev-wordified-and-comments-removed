@@ -6090,7 +6090,6 @@ try
 |
 input
 |
-{
 match
 *
 input
@@ -6636,7 +6635,6 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
-}
 }
 )
 {

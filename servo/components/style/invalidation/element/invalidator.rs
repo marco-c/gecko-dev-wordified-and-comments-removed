@@ -33,12 +33,6 @@ use
 selectors
 :
 :
-OpaqueElement
-;
-use
-selectors
-:
-:
 matching
 :
 :
@@ -68,6 +62,12 @@ Combinator
 Component
 Selector
 }
+;
+use
+selectors
+:
+:
+OpaqueElement
 ;
 use
 smallvec
