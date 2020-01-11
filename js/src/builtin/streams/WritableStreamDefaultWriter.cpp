@@ -683,7 +683,7 @@ setReadyPromise
 promise
 )
 ;
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 promise
@@ -778,7 +778,7 @@ setReadyPromise
 promise
 )
 ;
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 promise
@@ -820,7 +820,7 @@ setClosedPromise
 promise
 )
 ;
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 promise

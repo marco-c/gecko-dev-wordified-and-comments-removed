@@ -3246,7 +3246,7 @@ return
 false
 ;
 }
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedClosedPromise

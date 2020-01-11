@@ -480,7 +480,7 @@ return
 false
 ;
 }
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 promise
@@ -868,7 +868,7 @@ closedPromise
 )
 ;
 }
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedClosedPromise

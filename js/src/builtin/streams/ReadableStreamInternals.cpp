@@ -1479,7 +1479,7 @@ closedPromise
 )
 )
 ;
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 closedPromise

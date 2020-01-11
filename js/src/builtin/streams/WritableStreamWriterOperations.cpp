@@ -859,7 +859,7 @@ PromiseObject
 )
 ;
 }
-SetPromiseIsHandled
+SetSettledPromiseIsHandled
 (
 cx
 unwrappedPromise
