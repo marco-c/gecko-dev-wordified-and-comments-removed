@@ -605,12 +605,6 @@ Init
 )
 ;
 static
-void
-AppClearDataObserverInit
-(
-)
-;
-static
 nsAutoCString
 GetPathFromURI
 (
