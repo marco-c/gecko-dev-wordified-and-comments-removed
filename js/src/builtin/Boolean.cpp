@@ -858,7 +858,7 @@ boolean_methods
 nullptr
 }
 ;
-JSString
+PropertyName
 *
 js
 :
