@@ -561,6 +561,11 @@ JSClass
 class_
 ;
 static
+const
+JSClassOps
+classOps_
+;
+static
 AsyncGeneratorObject
 *
 create
