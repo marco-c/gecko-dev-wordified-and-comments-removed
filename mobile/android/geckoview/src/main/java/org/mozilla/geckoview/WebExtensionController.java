@@ -387,7 +387,7 @@ Port
 DisconnectDelegate
 WebExtension
 .
-DelegateObserver
+DelegateController
 {
 private
 boolean
@@ -1743,7 +1743,7 @@ webExtension
 {
 webExtension
 .
-setDelegateObserver
+setDelegateController
 (
 mInternals
 )
@@ -2716,7 +2716,7 @@ id
 ;
 webExtension
 .
-setDelegateObserver
+setDelegateController
 (
 null
 )
