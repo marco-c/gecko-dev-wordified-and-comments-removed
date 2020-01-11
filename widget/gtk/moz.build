@@ -337,6 +337,16 @@ conflicts
 with
 X11
 headers
+'
+WaylandVsyncSource
+.
+cpp
+'
+#
+conflicts
+with
+X11
+headers
 ]
 if
 CONFIG

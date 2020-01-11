@@ -925,6 +925,11 @@ VsyncChild
 aVsyncChild
 )
 ;
+void
+CreateVsyncRefreshTimer
+(
+)
+;
 #
 ifdef
 DEBUG
@@ -1450,7 +1455,6 @@ RefreshDriverTimer
 ChooseTimer
 (
 )
-const
 ;
 mozilla
 :
@@ -1458,6 +1462,15 @@ mozilla
 RefreshDriverTimer
 *
 mActiveTimer
+;
+RefPtr
+<
+mozilla
+:
+:
+RefreshDriverTimer
+>
+mOwnTimer
 ;
 mozilla
 :

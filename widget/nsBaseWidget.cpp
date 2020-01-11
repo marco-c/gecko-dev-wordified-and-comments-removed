@@ -5469,6 +5469,12 @@ get
 )
 )
 ;
+if
+(
+!
+mCompositorVsyncDispatcher
+)
+{
 mCompositorVsyncDispatcher
 =
 new
@@ -5476,6 +5482,7 @@ CompositorVsyncDispatcher
 (
 )
 ;
+}
 }
 }
 already_AddRefed
