@@ -889,6 +889,11 @@ DocumentChannelRedirect
 mRedirects
 ;
 uint32_t
+mLoadStateLoadFlags
+=
+0
+;
+uint32_t
 mRedirectChannelId
 =
 0

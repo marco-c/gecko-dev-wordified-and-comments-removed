@@ -65,6 +65,10 @@ args
 >
 mRedirects
 )
+args
+-
+>
+mLoadStateLoadFlags
 )
 ;
 }
@@ -107,6 +111,8 @@ DocumentChannelRedirect
 &
 &
 aRedirects
+uint32_t
+aLoadStateLoadFlags
 )
 {
 if
@@ -135,6 +141,7 @@ move
 (
 aRedirects
 )
+aLoadStateLoadFlags
 )
 ;
 }
@@ -154,6 +161,7 @@ move
 (
 aRedirects
 )
+aLoadStateLoadFlags
 }
 )
 ;

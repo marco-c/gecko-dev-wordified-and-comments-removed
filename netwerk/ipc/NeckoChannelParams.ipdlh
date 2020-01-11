@@ -2564,6 +2564,9 @@ properties
 LastVisitInfo
 lastVisitInfo
 ;
+uint32_t
+loadStateLoadFlags
+;
 }
 ;
 struct
