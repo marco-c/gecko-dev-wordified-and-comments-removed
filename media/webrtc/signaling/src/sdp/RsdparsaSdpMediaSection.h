@@ -86,7 +86,7 @@ class
 RsdparsaSdp
 ;
 class
-SdpErrorHolder
+SdpParser
 ;
 class
 RsdparsaSdpMediaSection

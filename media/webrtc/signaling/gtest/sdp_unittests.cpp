@@ -11357,7 +11357,7 @@ NewSdpTest
 (
 )
 :
-mSdpErrorHolder
+mSdpParser
 (
 nullptr
 )
@@ -11397,7 +11397,7 @@ GetParam
 )
 )
 {
-mSdpErrorHolder
+mSdpParser
 =
 &
 mSipccParser
@@ -11414,7 +11414,7 @@ sdp
 }
 else
 {
-mSdpErrorHolder
+mSdpParser
 =
 &
 mRustParser
@@ -11649,7 +11649,7 @@ GetParseErrors
 ASSERT_EQ
 (
 0U
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -11699,7 +11699,7 @@ for
 auto
 e
 :
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -11759,7 +11759,7 @@ for
 auto
 e
 :
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseWarnings
@@ -12266,9 +12266,9 @@ GetParam
 )
 ;
 }
-SdpErrorHolder
+SdpParser
 *
-mSdpErrorHolder
+mSdpParser
 ;
 SipccSdpParser
 mSipccParser
@@ -12315,7 +12315,7 @@ mSdp
 ASSERT_NE
 (
 0U
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -12376,7 +12376,7 @@ mSdp
 ASSERT_NE
 (
 0U
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -12420,7 +12420,7 @@ mSdp
 size_t
 errorCount
 =
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -12462,7 +12462,7 @@ mSdp
 ASSERT_EQ
 (
 errorCount
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -12501,7 +12501,7 @@ kVideoSdp
 ASSERT_EQ
 (
 0U
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -26425,7 +26425,7 @@ kBasicAudioVideoDataOffer
 ASSERT_EQ
 (
 0U
-mSdpErrorHolder
+mSdpParser
 -
 >
 GetParseErrors
@@ -35422,7 +35422,7 @@ print_errors
 ]
 (
 const
-SdpErrorHolder
+SdpParser
 &
 holder
 const
