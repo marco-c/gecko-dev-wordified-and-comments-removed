@@ -5008,6 +5008,17 @@ setAutoCompletionText
 suffix
 )
 ;
+this
+.
+terminalInputChanged
+(
+this
+.
+lastInputValue
++
+suffix
+)
+;
 }
 getAutoCompletionText
 (
