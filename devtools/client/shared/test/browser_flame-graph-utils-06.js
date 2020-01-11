@@ -154,11 +154,10 @@ data
 n
 "
 +
-JSON
-.
-stringify
-(
 out
+.
+toSource
+(
 )
 +
 "

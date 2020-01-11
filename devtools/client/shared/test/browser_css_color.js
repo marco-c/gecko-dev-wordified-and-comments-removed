@@ -678,11 +678,10 @@ info
 target
 :
 {
-JSON
-.
-stringify
-(
 target
+.
+toSource
+(
 )
 }
 color

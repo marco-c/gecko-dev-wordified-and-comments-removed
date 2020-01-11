@@ -206,9 +206,7 @@ sent
 from
 "
 +
-JSON
-.
-stringify
+uneval
 (
 packet
 .
@@ -238,9 +236,7 @@ sent
 to
 "
 +
-JSON
-.
-stringify
+uneval
 (
 packet
 .
