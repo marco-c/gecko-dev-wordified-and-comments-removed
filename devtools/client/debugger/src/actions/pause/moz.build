@@ -89,6 +89,11 @@ expandScopes
 js
 '
 '
+fetchFrames
+.
+js
+'
+'
 fetchScopes
 .
 js

@@ -264,6 +264,15 @@ async
 >
 {
 }
+getFrames
+:
+async
+(
+)
+=
+>
+[
+]
 evaluateExpressions
 :
 async
