@@ -231,7 +231,7 @@ state
 setRecordingPreferences
 ;
 const
-getPageContext
+getIsPopup
 =
 state
 =
@@ -241,7 +241,7 @@ getInitializedValues
 state
 )
 .
-pageContext
+isPopup
 ;
 const
 getSymbolTableGetter
@@ -298,7 +298,7 @@ getInitializedValues
 getPerfFront
 getReceiveProfileFn
 getSetRecordingPreferencesFn
-getPageContext
+getIsPopup
 getSymbolTableGetter
 getPromptEnvRestart
 getSupportedFeatures

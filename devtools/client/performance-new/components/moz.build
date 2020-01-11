@@ -64,17 +64,7 @@ MPL
 DevToolsModules
 (
 '
-AboutProfiling
-.
-js
-'
-'
 Description
-.
-js
-'
-'
-DevToolsAndPopup
 .
 js
 '
@@ -84,7 +74,7 @@ DirectoryPicker
 js
 '
 '
-ProfilerEventHandling
+Perf
 .
 js
 '

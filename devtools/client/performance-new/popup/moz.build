@@ -93,15 +93,10 @@ BUG_COMPONENT
 =
 (
 '
-DevTools
+Core
 '
 '
-Performance
-Tools
-(
+Gecko
 Profiler
-/
-Timeline
-)
 '
 )
