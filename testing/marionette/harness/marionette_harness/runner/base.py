@@ -77,6 +77,7 @@ from
 six
 import
 reraise
+MAXSIZE
 from
 .
 import
@@ -2369,9 +2370,7 @@ random
 randint
 (
 0
-sys
-.
-maxint
+MAXSIZE
 )
                           
 help
@@ -4069,9 +4068,7 @@ random
 randint
 (
 0
-sys
-.
-maxint
+MAXSIZE
 )
 this_chunk
 =
