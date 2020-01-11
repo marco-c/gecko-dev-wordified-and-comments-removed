@@ -10111,7 +10111,10 @@ mozilla
 StyleShapeRendering
 mShapeRendering
 ;
-uint8_t
+mozilla
+:
+:
+StyleStrokeLinecap
 mStrokeLinecap
 ;
 uint8_t
