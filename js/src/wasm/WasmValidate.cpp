@@ -8676,7 +8676,12 @@ if
 (
 numResults
 >
-MaxResults
+env
+-
+>
+funcMaxResults
+(
+)
 )
 {
 return
