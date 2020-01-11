@@ -9514,6 +9514,10 @@ tests
 -
 wdspec
 '
+    
+'
+xpcshell
+'
 )
 "
 "
