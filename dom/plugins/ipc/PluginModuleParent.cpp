@@ -6668,6 +6668,9 @@ return
 nsString
 dumpID
 ;
+nsCString
+additionalMinidumps
+;
 if
 (
 mCrashReporter
@@ -6690,6 +6693,15 @@ MinidumpID
 (
 )
 ;
+additionalMinidumps
+=
+mCrashReporter
+-
+>
+AdditionalMinidumps
+(
+)
+;
 }
 mPlugin
 -
@@ -6697,6 +6709,7 @@ mPlugin
 PluginCrashed
 (
 dumpID
+additionalMinidumps
 )
 ;
 }
