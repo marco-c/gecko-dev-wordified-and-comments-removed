@@ -2522,6 +2522,15 @@ key
 "
 scalars
 "
+&
+&
+key
+!
+=
+=
+"
+keyedScalars
+"
 )
 {
 continue
