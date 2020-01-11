@@ -429,7 +429,7 @@ uint32_t
 aState
 )
 ;
-nsresult
+void
 OnTerminate
 (
 nsIPresentationControlChannel

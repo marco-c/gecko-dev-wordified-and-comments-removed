@@ -1190,7 +1190,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 PresentationSessionInfo
 :
 :
@@ -1218,9 +1218,6 @@ SetControlChannel
 (
 aControlChannel
 )
-;
-return
-NS_OK
 ;
 }
 nsresult
