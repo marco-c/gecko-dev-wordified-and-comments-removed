@@ -1726,7 +1726,6 @@ res
 )
 )
 ;
-}
 this
 .
 webConsoleUI
@@ -1740,8 +1739,10 @@ message
 -
 updated
 "
+res
 )
 ;
+}
 this
 .
 queuedMessageUpdates
