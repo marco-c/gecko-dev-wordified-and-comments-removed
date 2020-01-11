@@ -5678,6 +5678,7 @@ CheckLoadURIWithPrincipal
 sNullPrincipal
 attrURI
 flags
+0
 )
 ;
 }
@@ -5694,6 +5695,7 @@ CheckLoadURIWithPrincipal
 sNullPrincipal
 attrURI
 flags
+0
 )
 ;
 }

@@ -3319,6 +3319,12 @@ nsIScriptSecurityManager
 :
 :
 ALLOW_CHROME
+mDocument
+-
+>
+InnerWindowID
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS

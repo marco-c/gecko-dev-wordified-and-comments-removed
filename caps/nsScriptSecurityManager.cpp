@@ -2299,6 +2299,7 @@ nsIScriptSecurityManager
 :
 :
 STANDARD
+0
 )
 ;
 if
@@ -2579,6 +2580,8 @@ nsIURI
 aTargetURI
 uint32_t
 aFlags
+uint64_t
+aInnerWindowID
 )
 {
 MOZ_ASSERT
@@ -2761,6 +2764,7 @@ CheckLoadURIWithPrincipal
 prin
 aTargetURI
 aFlags
+aInnerWindowID
 )
 ;
 if
@@ -2956,6 +2960,7 @@ OriginAttributesRef
 mPrivateBrowsingId
 >
 0
+aInnerWindowID
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2964,6 +2969,27 @@ rv
 rv
 )
 ;
+if
+(
+aFlags
+&
+nsIScriptSecurityManager
+:
+:
+DONT_REPORT_ERRORS
+)
+{
+return
+aPrincipal
+-
+>
+CheckMayLoad
+(
+targetBaseURI
+false
+)
+;
+}
 return
 aPrincipal
 -
@@ -2972,7 +2998,7 @@ CheckMayLoadWithReporting
 (
 targetBaseURI
 false
-0
+aInnerWindowID
 )
 ;
 }
@@ -3465,6 +3491,7 @@ OriginAttributesRef
 mPrivateBrowsingId
 >
 0
+aInnerWindowID
 )
 ;
 }
@@ -3567,6 +3594,8 @@ uint32_t
 aFlags
 bool
 aFromPrivateWindow
+uint64_t
+aInnerWindowID
 )
 {
 bool
@@ -3645,6 +3674,7 @@ errorTag
 aSourceURI
 aTargetURI
 aFromPrivateWindow
+aInnerWindowID
 )
 ;
 }
@@ -3687,6 +3717,7 @@ errorTag
 aSourceURI
 aTargetURI
 aFromPrivateWindow
+aInnerWindowID
 )
 ;
 }
@@ -3943,6 +3974,7 @@ errorTag
 aSourceURI
 aTargetURI
 aFromPrivateWindow
+aInnerWindowID
 )
 ;
 }
@@ -4024,6 +4056,7 @@ errorTag
 aSourceURI
 aTargetURI
 aFromPrivateWindow
+aInnerWindowID
 )
 ;
 }
@@ -4511,6 +4544,7 @@ CheckLoadURIWithPrincipal
 aPrincipal
 target
 aFlags
+0
 )
 ;
 if
@@ -4669,6 +4703,7 @@ CheckLoadURIWithPrincipal
 aPrincipal
 target
 aFlags
+0
 )
 ;
 if

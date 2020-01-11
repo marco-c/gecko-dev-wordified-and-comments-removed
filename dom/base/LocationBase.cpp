@@ -215,6 +215,7 @@ nsIScriptSecurityManager
 :
 :
 STANDARD
+0
 )
 ;
 if
