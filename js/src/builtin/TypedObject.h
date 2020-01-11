@@ -428,7 +428,7 @@ toPrivate
 ;
 }
 void
-initInstances
+initInstance
 (
 const
 JSRuntime
@@ -437,12 +437,10 @@ rt
 uint8_t
 *
 mem
-size_t
-length
 )
 ;
 void
-traceInstances
+traceInstance
 (
 JSTracer
 *
@@ -450,8 +448,6 @@ trace
 uint8_t
 *
 mem
-size_t
-length
 )
 ;
 static
