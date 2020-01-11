@@ -162,7 +162,7 @@ arg1
 )
 ;
 const
-objClient
+objectFront
 =
 threadFront
 .
@@ -174,13 +174,9 @@ obj
 const
 method
 =
-threadFront
-.
-pauseGrip
-(
 (
 await
-objClient
+objectFront
 .
 getPropertyValue
 (
@@ -194,7 +190,6 @@ null
 value
 .
 return
-)
 ;
 try
 {

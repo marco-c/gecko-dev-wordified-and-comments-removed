@@ -200,7 +200,7 @@ obj
 )
 ;
 async
-objClient
+objFront
 =
 >
 {
@@ -244,6 +244,9 @@ objectNormal
 return
 :
 {
+_grip
+:
+{
 type
 :
 "
@@ -274,6 +277,7 @@ prop
 value
 :
 4
+}
 }
 }
 }
@@ -285,6 +289,9 @@ objectAbrupt
 throw
 :
 {
+_grip
+:
+{
 type
 :
 "
@@ -315,6 +322,7 @@ prop
 value
 :
 4
+}
 }
 }
 }
@@ -336,6 +344,9 @@ method
 return
 :
 {
+_grip
+:
+{
 type
 :
 "
@@ -351,6 +362,7 @@ name
 "
 method
 "
+}
 }
 }
 }
@@ -377,7 +389,7 @@ value
 }
 =
 await
-objClient
+objFront
 .
 getPropertyValue
 (

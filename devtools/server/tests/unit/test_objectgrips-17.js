@@ -1036,6 +1036,10 @@ strictEqual
 (
 proxyTarget
 .
+getGrip
+(
+)
+.
 type
 "
 object
@@ -1057,6 +1061,10 @@ grip
 strictEqual
 (
 proxyHandler
+.
+getGrip
+(
+)
 .
 type
 "
@@ -1270,6 +1278,10 @@ strictEqual
 (
 proto
 .
+getGrip
+(
+)
+.
 class
 "
 Object
@@ -1301,6 +1313,10 @@ globalIsInvisible
 strictEqual
 (
 proto
+.
+getGrip
+(
+)
 .
 class
 "
@@ -1349,6 +1365,10 @@ subsumes
 globalIsInvisible
 }
 proto
+.
+getGrip
+(
+)
 )
 ;
 }

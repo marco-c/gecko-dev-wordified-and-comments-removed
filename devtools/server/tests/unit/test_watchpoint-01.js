@@ -283,6 +283,10 @@ equal
 (
 result
 .
+getGrip
+(
+)
+.
 preview
 .
 ownProperties
@@ -292,6 +296,7 @@ b
 value
 1
 )
+;
 result
 =
 await
@@ -551,7 +556,7 @@ get
 ;
 info
 (
-'
+"
 Test
 that
 watchpoint
@@ -560,7 +565,7 @@ pause
 on
 get
 .
-'
+"
 )
 ;
 const

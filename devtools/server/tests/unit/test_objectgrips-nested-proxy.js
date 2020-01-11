@@ -132,6 +132,10 @@ strictEqual
 (
 proxyTarget
 .
+getGrip
+(
+)
+.
 class
 "
 Proxy
@@ -150,6 +154,10 @@ proxy
 strictEqual
 (
 proxyHandler
+.
+getGrip
+(
+)
 .
 class
 "
