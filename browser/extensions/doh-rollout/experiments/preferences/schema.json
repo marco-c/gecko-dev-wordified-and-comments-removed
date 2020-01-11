@@ -488,6 +488,15 @@ doorhanger
 -
 decision
 "
+"
+doh
+-
+rollout
+.
+heuristics
+.
+mockValues
+"
 ]
 }
 {
