@@ -183,6 +183,18 @@ to
 work
 properly
 .
+#
+This
+is
+also
+used
+by
+'
+mach
+clang
+-
+format
+'
 package_version
 :
 "
@@ -190,7 +202,7 @@ package_version
 .
 0
 .
-0
+1
 "
 clang_checkers
 :
