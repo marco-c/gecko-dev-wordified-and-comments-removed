@@ -374,6 +374,7 @@ BufferStart
 ;
 auto
 *
+const
 end
 =
 BufferEnd
@@ -392,6 +393,7 @@ it
 end
 )
 {
+const
 auto
 type
 =
@@ -462,6 +464,7 @@ type
 eBinary
 )
 {
+const
 auto
 binaryLength
 =
@@ -531,6 +534,7 @@ Length
 ;
 auto
 *
+const
 start
 =
 BufferStart
@@ -598,6 +602,7 @@ char
 *
 buffer
 ;
+const
 uint32_t
 oldLen
 =
@@ -609,6 +614,7 @@ Length
 (
 )
 ;
+const
 auto
 type
 =
@@ -617,6 +623,7 @@ it
 %
 eMaxType
 ;
+const
 auto
 updateBufferAndIter
 =
@@ -782,6 +789,7 @@ type
 eBinary
 )
 {
+const
 auto
 binaryLength
 =
@@ -814,6 +822,7 @@ Exception
 }
 else
 {
+const
 uint8_t
 typeOffset
 =
