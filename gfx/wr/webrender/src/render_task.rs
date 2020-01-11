@@ -6074,7 +6074,7 @@ layer
 ResolvedSurfaceTexture
 :
 :
-NativeSurface
+Native
 {
 .
 .

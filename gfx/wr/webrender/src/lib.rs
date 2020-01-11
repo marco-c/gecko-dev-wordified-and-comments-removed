@@ -816,6 +816,7 @@ composite
 CompositorConfig
 Compositor
 NativeSurfaceId
+NativeTileId
 NativeSurfaceInfo
 }
 ;
