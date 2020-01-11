@@ -228,9 +228,6 @@ attribute
 AudioParamMap
 parameters
 ;
-[
-Throws
-]
 readonly
 attribute
 MessagePort
