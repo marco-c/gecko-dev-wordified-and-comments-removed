@@ -29,6 +29,8 @@ import
 WebDriverTestharnessExecutor
                                            
 WebDriverRefTestExecutor
+                                           
+WebDriverCrashtestExecutor
 )
 from
 .
@@ -100,6 +102,14 @@ wdspec
 :
 "
 WebKitDriverWdspecExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+WebDriverCrashtestExecutor
 "
 }
                  
