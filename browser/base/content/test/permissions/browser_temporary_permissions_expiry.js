@@ -154,6 +154,9 @@ geo
 "
 camera
 "
+"
+xr
+"
 ]
 ;
 for

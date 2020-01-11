@@ -803,6 +803,16 @@ aDisplays
 )
 const
 ;
+void
+OnXRPermissionRequestAllow
+(
+)
+;
+void
+OnXRPermissionRequestCancel
+(
+)
+;
 VRServiceTest
 *
 RequestVRServiceTest

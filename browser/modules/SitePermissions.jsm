@@ -3230,6 +3230,13 @@ exactHostMatch
 :
 true
 }
+xr
+:
+{
+exactHostMatch
+:
+true
+}
 "
 focus
 -
