@@ -6283,6 +6283,12 @@ SymbolicAddress
 :
 CoerceInPlace_ToNumber
 :
+case
+SymbolicAddress
+:
+:
+BoxValue_Anyref
+:
 MOZ_ASSERT
 (
 !
