@@ -4258,6 +4258,8 @@ int32_t
 aCx
 int32_t
 aCy
+double
+aScale
 )
 ;
 nested
