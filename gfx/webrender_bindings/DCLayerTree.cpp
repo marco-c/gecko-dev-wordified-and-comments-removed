@@ -80,13 +80,6 @@ mozilla
 namespace
 wr
 {
-#
-if
-!
-defined
-(
-__MINGW32__
-)
 UniquePtr
 <
 DCLayerTree
@@ -2641,7 +2634,5 @@ DestroyEGLSurface
 )
 ;
 }
-#
-endif
 }
 }
