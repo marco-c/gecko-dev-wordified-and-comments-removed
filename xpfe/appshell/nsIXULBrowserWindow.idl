@@ -217,9 +217,6 @@ setOverLink
 in
 AString
 link
-in
-Element
-element
 )
 ;
 /

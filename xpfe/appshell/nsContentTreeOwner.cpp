@@ -1854,7 +1854,6 @@ xulBrowserWindow
 SetOverLink
 (
 aStatusText
-nullptr
 )
 ;
 }

@@ -4291,7 +4291,6 @@ XULBrowserWindow
 setOverLink
 (
 url
-null
 )
 ;
 }

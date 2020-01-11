@@ -1715,7 +1715,6 @@ XULBrowserWindow
 setOverLink
 (
 linkURI
-null
 )
 ;
 }
@@ -1761,7 +1760,6 @@ setOverLink
 (
 "
 "
-null
 )
 ;
 }
