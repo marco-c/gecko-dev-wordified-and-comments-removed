@@ -125,13 +125,6 @@ SetterThrows
 ]
 attribute
 DOMString
-dir
-;
-[
-SetterThrows
-]
-attribute
-DOMString
 flex
 ;
 [
