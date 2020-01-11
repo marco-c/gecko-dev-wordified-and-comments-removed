@@ -232,10 +232,6 @@ using
 namespace
 dom
 ;
-using
-namespace
-std
-;
 #
 define
 PREFERENCE_DEFAULT_RECOGNITION_ENDPOINT
