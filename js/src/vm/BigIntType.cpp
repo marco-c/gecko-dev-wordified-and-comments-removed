@@ -660,6 +660,7 @@ BigInt
 hash
 (
 )
+const
 {
 js
 :
@@ -18591,6 +18592,7 @@ BigInt
 dump
 (
 )
+const
 {
 js
 :
@@ -18620,6 +18622,7 @@ GenericPrinter
 &
 out
 )
+const
 {
 if
 (

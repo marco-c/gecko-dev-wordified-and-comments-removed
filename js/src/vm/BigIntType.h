@@ -516,6 +516,7 @@ HashNumber
 hash
 (
 )
+const
 ;
 size_t
 sizeOfExcludingThis
@@ -1718,6 +1719,7 @@ void
 dump
 (
 )
+const
 ;
 void
 dump
@@ -1729,6 +1731,7 @@ GenericPrinter
 &
 out
 )
+const
 ;
 #
 endif
