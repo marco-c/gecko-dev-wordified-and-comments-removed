@@ -1427,8 +1427,6 @@ if
 (
 parseInfo
 .
-treeHolder
-.
 isDeferred
 (
 )

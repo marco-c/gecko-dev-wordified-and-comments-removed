@@ -289,13 +289,6 @@ Var
 treeHolder_
 (
 cx
-FunctionTreeHolder
-:
-:
-Mode
-:
-:
-Eager
 )
 {
 MOZ_ASSERT_IF
