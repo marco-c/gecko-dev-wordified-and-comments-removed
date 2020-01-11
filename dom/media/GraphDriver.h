@@ -270,6 +270,7 @@ Stop
 &
 aOther
 )
+noexcept
 :
 mStoppedRunnable
 (
@@ -377,6 +378,7 @@ SwitchDriver
 &
 aOther
 )
+noexcept
 :
 mDriver
 (
@@ -1595,7 +1597,9 @@ WaitInterval
 override
 {
 return
-0
+TimeDuration
+(
+)
 ;
 }
 MediaTime
