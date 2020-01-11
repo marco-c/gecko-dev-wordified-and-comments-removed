@@ -19,6 +19,16 @@ build
 mozconfig
 .
 stylo
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+wasm
+-
+sandboxing
 ac_add_options
 -
 -
