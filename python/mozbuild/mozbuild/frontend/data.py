@@ -2349,14 +2349,6 @@ linked_system_libs
 '
         
 '
-no_pgo_sources
-'
-        
-'
-no_pgo
-'
-        
-'
 sources
 '
     
@@ -2417,19 +2409,6 @@ defaultdict
 (
 list
 )
-        
-self
-.
-no_pgo_sources
-=
-[
-]
-        
-self
-.
-no_pgo
-=
-False
     
 def
 link_library
@@ -2822,25 +2801,6 @@ OBJ_SUFFIX
 '
 '
 '
-)
-    
-property
-    
-def
-no_pgo_objs
-(
-self
-)
-:
-        
-return
-self
-.
-_get_objs
-(
-self
-.
-no_pgo_sources
 )
     
 property
