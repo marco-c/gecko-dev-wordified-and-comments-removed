@@ -154,6 +154,3 @@ osclientcerts
 .
 symbols
 '
-NO_PGO
-=
-True
