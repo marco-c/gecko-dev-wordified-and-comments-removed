@@ -412,6 +412,9 @@ mLinkUp
 bool
 mRecalculateNetworkId
 ;
+bool
+mSendNetworkChangeEvent
+;
 mozilla
 :
 :
