@@ -453,7 +453,7 @@ py
 p
 python3
 .
-6
+7
 CONDPROF_ROOT
 &
 &
@@ -477,7 +477,7 @@ bin
 /
 python3
 .
-6
+7
 condprof
 /
 runner
