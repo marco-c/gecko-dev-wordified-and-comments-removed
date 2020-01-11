@@ -175,6 +175,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 ctx
 .
 fillStyle
@@ -198,7 +209,7 @@ ctx
 .
 drawImage
 (
-response
+bitmap
 0
 0
 )
@@ -223,6 +234,10 @@ offscreenCanvas
 255
 "
 2
+)
+;
+}
+t_fail
 )
 ;
 }

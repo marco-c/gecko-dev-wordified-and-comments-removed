@@ -215,6 +215,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 var
 pattern
 =
@@ -222,7 +233,7 @@ ctx
 .
 createPattern
 (
-response
+bitmap
 '
 repeat
 -
@@ -328,6 +339,10 @@ offscreenCanvas
 0
 255
 "
+)
+;
+}
+t_fail
 )
 ;
 }

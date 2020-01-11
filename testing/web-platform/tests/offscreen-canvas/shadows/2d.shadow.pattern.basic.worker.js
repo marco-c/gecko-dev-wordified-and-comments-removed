@@ -181,6 +181,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 var
 pattern
 =
@@ -188,7 +199,7 @@ ctx
 .
 createPattern
 (
-response
+bitmap
 '
 repeat
 '
@@ -243,6 +254,10 @@ fillRect
 50
 100
 50
+)
+;
+}
+t_fail
 )
 ;
 }

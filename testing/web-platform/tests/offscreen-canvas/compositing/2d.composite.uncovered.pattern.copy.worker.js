@@ -236,6 +236,17 @@ function
 response
 )
 {
+createImageBitmap
+(
+response
+)
+.
+then
+(
+bitmap
+=
+>
+{
 ctx
 .
 fillStyle
@@ -244,7 +255,7 @@ ctx
 .
 createPattern
 (
-response
+bitmap
 '
 no
 -
@@ -282,6 +293,10 @@ offscreenCanvas
 0
 "
 5
+)
+;
+}
+t_fail
 )
 ;
 }
