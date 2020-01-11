@@ -396,6 +396,11 @@ nsIScrollObserver
 h
 '
 '
+nsWebNavigationInfo
+.
+h
+'
+'
 SerializedLoadContext
 .
 h
