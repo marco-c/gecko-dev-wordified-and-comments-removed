@@ -920,7 +920,7 @@ mGraphImpl
 ifdef
 DEBUG
 bool
-OnGraphThread
+InIteration
 (
 )
 ;

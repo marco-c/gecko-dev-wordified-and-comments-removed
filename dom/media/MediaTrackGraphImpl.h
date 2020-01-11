@@ -302,7 +302,7 @@ override
 ifdef
 DEBUG
 bool
-RunByGraphDriver
+InDriverIteration
 (
 GraphDriver
 *
@@ -1366,7 +1366,7 @@ mDriver
 ThreadRunning
 (
 )
-RunByGraphDriver
+InDriverIteration
 (
 mDriver
 )

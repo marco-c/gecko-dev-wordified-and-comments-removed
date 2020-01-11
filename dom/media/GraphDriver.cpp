@@ -203,7 +203,7 @@ aStateComputedTime
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 |
@@ -234,7 +234,7 @@ bool
 GraphDriver
 :
 :
-OnGraphThread
+InIteration
 (
 )
 {
@@ -244,7 +244,7 @@ GraphImpl
 )
 -
 >
-RunByGraphDriver
+InDriverIteration
 (
 this
 )
@@ -263,7 +263,7 @@ PreviousDriver
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 |
@@ -291,7 +291,7 @@ aPreviousDriver
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 |
@@ -3203,7 +3203,7 @@ PreviousDriver
 )
 -
 >
-OnGraphThread
+InIteration
 (
 )
 )
@@ -4450,7 +4450,7 @@ aState
 MOZ_ASSERT
 (
 !
-OnGraphThread
+InIteration
 (
 )
 )
@@ -4553,7 +4553,7 @@ aSampleRate
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 )
@@ -4870,7 +4870,7 @@ DeviceChangedCallback
 MOZ_ASSERT
 (
 !
-OnGraphThread
+InIteration
 (
 )
 )
@@ -4960,7 +4960,7 @@ IterationDuration
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 )
@@ -5012,7 +5012,7 @@ aHolder
 {
 MOZ_ASSERT
 (
-OnGraphThread
+InIteration
 (
 )
 |
