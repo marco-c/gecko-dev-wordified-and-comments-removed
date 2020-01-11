@@ -69,19 +69,6 @@ finally
 {
 }
 }
-if
-(
-typeof
-f
-.
-toSource
-!
-=
-'
-undefined
-'
-)
-{
 expect
 =
 -
@@ -109,4 +96,3 @@ actual
 summary
 )
 ;
-}

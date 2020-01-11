@@ -45,21 +45,6 @@ printStatus
 summary
 )
 ;
-if
-(
-typeof
-Array
-.
-prototype
-.
-toSource
-!
-=
-'
-undefined
-'
-)
-{
 expect
 =
 '
@@ -85,4 +70,3 @@ actual
 summary
 )
 ;
-}
