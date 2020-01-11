@@ -56,12 +56,14 @@ MPL
 DevToolsModules
 (
 '
-l10n
+application
+-
+services
 .
 js
 '
 '
-services
+l10n
 .
 js
 '
