@@ -7614,10 +7614,6 @@ mCachedTabSizeGeneration
 (
 0
 )
-mInRDMPane
-(
-false
-)
 mNextFormNumber
 (
 0
