@@ -31,6 +31,11 @@ Instance
 (
 )
 ;
+~
+BenchmarkStorageChild
+(
+)
+;
 private
 :
 BenchmarkStorageChild
