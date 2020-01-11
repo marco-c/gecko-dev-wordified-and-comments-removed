@@ -121,7 +121,7 @@ def
 read_ini
 (
 fp
-variables
+defaults
 =
 None
 default
@@ -177,7 +177,7 @@ to
 read
     
 -
-variables
+defaults
 :
 default
 set
@@ -247,10 +247,15 @@ section
 "
 "
     
-variables
+defaults
 =
-variables
+defaults
 or
+{
+}
+    
+default_section
+=
 {
 }
     
@@ -589,7 +594,7 @@ default
                 
 current_section
 =
-variables
+default_section
                 
 continue
             
@@ -779,11 +784,6 @@ line_indent
                 
 if
 key
-and
-current_section
-is
-not
-variables
 :
                     
 assert
@@ -831,15 +831,18 @@ stripped
 )
 )
     
-global_vars
+defaults
 =
-variables
+combine_fields
+(
+defaults
+default_section
+)
+    
 if
 handle_defaults
-else
-{
-}
-    
+:
+        
 sections
 =
 [
@@ -847,7 +850,7 @@ sections
 i
 combine_fields
 (
-global_vars
+defaults
 j
 )
 )
@@ -860,6 +863,7 @@ sections
     
 return
 sections
+defaults
 def
 combine_fields
 (
@@ -921,6 +925,10 @@ local_vars
         
 return
 global_vars
+.
+copy
+(
+)
     
 field_patterns
 =
