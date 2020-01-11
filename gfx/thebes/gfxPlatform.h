@@ -2507,6 +2507,12 @@ InitOMTPConfig
 )
 ;
 static
+void
+ReportTelemetry
+(
+)
+;
+static
 bool
 IsDXInterop2Blocked
 (

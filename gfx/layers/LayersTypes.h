@@ -691,6 +691,15 @@ LAYERS_WR
 LAYERS_LAST
 }
 ;
+const
+char
+*
+GetLayersBackendName
+(
+LayersBackend
+aBackend
+)
+;
 enum
 class
 TextureType
