@@ -1836,10 +1836,13 @@ for
 key
 value
 in
+list
+(
 kwargs
 .
 items
 (
+)
 )
 :
                     
@@ -1894,10 +1897,13 @@ for
 key
 value
 in
+list
+(
 kwargs
 .
 items
 (
+)
 )
 :
                     
@@ -2011,12 +2017,15 @@ manifests
 for
 manifest
 in
+list
+(
 self
 .
 manifest_defaults
 .
 keys
 (
+)
 )
 :
                 
@@ -2747,10 +2756,13 @@ for
 key
 value
 in
+list
+(
 global_kwargs
 .
 items
 (
+)
 )
 :
                 

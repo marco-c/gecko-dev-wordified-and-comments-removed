@@ -9,10 +9,8 @@ import
 sys
 import
 traceback
-from
-six
 import
-reraise
+six
 __all__
 =
 [
@@ -1466,12 +1464,13 @@ self
 .
 token
 =
-self
-.
-iter
+six
 .
 next
 (
+self
+.
+iter
 )
     
 def
@@ -1525,12 +1524,13 @@ self
 .
 token
 =
-self
-.
-iter
+six
 .
 next
 (
+self
+.
+iter
 )
         
 left
@@ -1562,12 +1562,13 @@ self
 .
 token
 =
-self
-.
-iter
+six
 .
 next
 (
+self
+.
+iter
 )
             
 left
@@ -1645,12 +1646,13 @@ self
 .
 token
 =
-self
-.
-iter
+six
 .
 next
 (
+self
+.
+iter
 )
             
 return
@@ -1690,8 +1692,11 @@ ex
 )
 )
             
+six
+.
 reraise
 (
+ParseError
 ParseError
 (
 "
@@ -1711,7 +1716,7 @@ svariables
 s
 "
 %
-                    
+                        
 (
 self
 .
@@ -1722,7 +1727,6 @@ self
 valuemapping
 )
 )
-None
 tb
 )
     
