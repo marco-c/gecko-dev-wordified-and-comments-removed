@@ -5811,11 +5811,6 @@ false
 ;
 }
 }
-js_delete
-(
-funDecls
-)
-;
 self
 -
 >
@@ -5825,6 +5820,11 @@ FunctionDeclarationsSlot
 UndefinedValue
 (
 )
+)
+;
+js_delete
+(
+funDecls
 )
 ;
 return
