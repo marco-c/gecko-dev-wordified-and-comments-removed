@@ -129,13 +129,10 @@ default
 '
 DEFAULT
 '
-defaults_only
-=
-False
-             
 comments
 =
 None
+             
 separators
 =
 None
@@ -198,17 +195,6 @@ for
 the
 default
 section
-    
--
-defaults_only
-:
-if
-True
-return
-the
-default
-section
-only
     
 -
 comments
@@ -844,18 +830,6 @@ format
 stripped
 )
 )
-    
-if
-defaults_only
-:
-        
-return
-[
-(
-default
-variables
-)
-]
     
 global_vars
 =
