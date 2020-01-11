@@ -138,9 +138,6 @@ GetSessionStorageCacheHelper
 nsIPrincipal
 *
 aPrincipal
-nsIPrincipal
-*
-aStoragePrincipal
 bool
 aMakeIfNeeded
 SessionStorageCache
