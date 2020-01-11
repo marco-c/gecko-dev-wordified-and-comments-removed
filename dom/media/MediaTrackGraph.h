@@ -2814,6 +2814,12 @@ CurrentTime
 =
 0
 ;
+GraphTime
+ProcessedTime
+(
+)
+const
+;
 protected
 :
 explicit
