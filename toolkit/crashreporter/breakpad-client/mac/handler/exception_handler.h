@@ -362,8 +362,6 @@ int
 exception_subcode
 mach_port_t
 thread
-mach_port_t
-task
 )
 ;
 bool
@@ -440,8 +438,6 @@ breakpad_ucontext_t
 task_context
 mach_port_t
 thread_name
-mach_port_t
-task_name
 bool
 exit_after_write
 bool
