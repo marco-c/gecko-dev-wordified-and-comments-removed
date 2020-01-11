@@ -221,7 +221,7 @@ nodes
 ]
 ;
 await
-isEditingMenuDisabled
+isEditingMenuEnabled
 (
 shadowChild1
 inspector
@@ -251,7 +251,7 @@ nodes
 ]
 ;
 await
-isEditingMenuDisabled
+isEditingMenuEnabled
 (
 shadowChild2
 inspector
