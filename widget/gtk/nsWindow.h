@@ -2684,6 +2684,9 @@ mLastMotionPressure
 nsSizeMode
 mLastSizeMode
 ;
+bool
+mBoundsNeedSizeUpdate
+;
 static
 bool
 DragInProgress
