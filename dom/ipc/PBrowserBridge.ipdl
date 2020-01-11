@@ -118,10 +118,15 @@ include
 protocol
 PBrowser
 ;
+#
+ifdef
+ACCESSIBILITY
 include
 protocol
 PDocAccessible
 ;
+#
+endif
 include
 DOMTypes
 ;
@@ -702,6 +707,9 @@ SkipBrowsingContextDetach
 (
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 /
 *
 *
@@ -755,6 +763,8 @@ uint64_t
 aID
 )
 ;
+#
+endif
 }
 ;
 }

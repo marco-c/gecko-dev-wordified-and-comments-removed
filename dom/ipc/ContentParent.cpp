@@ -101,6 +101,9 @@ process_watcher
 h
 "
 #
+ifdef
+ACCESSIBILITY
+#
 include
 "
 mozilla
@@ -111,6 +114,8 @@ PDocAccessible
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -28323,6 +28328,9 @@ is_sync
 )
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 if
 (
 a11y
@@ -28359,6 +28367,8 @@ return
 false
 ;
 }
+#
+endif
 return
 true
 ;

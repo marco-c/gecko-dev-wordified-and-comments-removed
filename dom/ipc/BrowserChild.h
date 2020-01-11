@@ -1989,6 +1989,9 @@ IPCTabContext
 aContext
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 PDocAccessibleChild
 *
 AllocPDocAccessibleChild
@@ -2013,6 +2016,8 @@ PDocAccessibleChild
 *
 )
 ;
+#
+endif
 PColorPickerChild
 *
 AllocPColorPickerChild

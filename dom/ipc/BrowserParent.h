@@ -2246,6 +2246,9 @@ PColorPickerParent
 aColorPicker
 )
 ;
+#
+ifdef
+ACCESSIBILITY
 PDocAccessibleParent
 *
 AllocPDocAccessibleParent
@@ -2301,6 +2304,8 @@ aDocCOMProxy
 )
 override
 ;
+#
+endif
 mozilla
 :
 :

@@ -52,6 +52,9 @@ class
 SHistoryParent
 ;
 class
+SHEntryParent
+;
+class
 LegacySHistory
 final
 :

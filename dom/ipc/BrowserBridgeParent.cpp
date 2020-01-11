@@ -1177,6 +1177,9 @@ IPC_OK
 )
 ;
 }
+#
+ifdef
+ACCESSIBILITY
 IPCResult
 BrowserBridgeParent
 :
@@ -1190,9 +1193,6 @@ uint64_t
 aID
 )
 {
-#
-ifdef
-ACCESSIBILITY
 mEmbedderAccessibleDoc
 =
 static_cast
@@ -1261,14 +1261,14 @@ false
 ;
 }
 }
-#
-endif
 return
 IPC_OK
 (
 )
 ;
 }
+#
+endif
 void
 BrowserBridgeParent
 :

@@ -69,6 +69,12 @@ class
 PSHEntryParent
 ;
 class
+PSHistoryChild
+;
+class
+PSHistoryParent
+;
+class
 SHEntryChild
 ;
 struct
