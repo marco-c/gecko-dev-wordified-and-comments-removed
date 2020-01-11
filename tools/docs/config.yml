@@ -94,6 +94,10 @@ geckodriver
 web
 -
 platform
+-
+tools
+/
+fuzzing
 code_quality_doc
 :
 -
