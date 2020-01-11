@@ -3,7 +3,7 @@ use
 strict
 '
 ;
-cookie_test
+promise_test
 (
 async
 t
@@ -169,7 +169,7 @@ order
 '
 )
 ;
-cookie_test
+promise_test
 (
 async
 t
