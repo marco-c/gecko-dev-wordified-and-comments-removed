@@ -303,7 +303,7 @@ defineModuleGetter
 (
 this
 "
-UninstallObserver
+ExtensionAddonObserver
 "
 "
 resource
@@ -4387,7 +4387,7 @@ newVersion
 ;
 }
 }
-UninstallObserver
+ExtensionAddonObserver
 .
 init
 (
@@ -4894,7 +4894,7 @@ jsm
 null
 )
 ;
-UninstallObserver
+ExtensionAddonObserver
 .
 uninit
 (
