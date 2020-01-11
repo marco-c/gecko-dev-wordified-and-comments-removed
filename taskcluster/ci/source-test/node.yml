@@ -353,13 +353,6 @@ try
 runner
 .
 js
-attributes
-:
-code
--
-review
-:
-true
 when
 :
 files
