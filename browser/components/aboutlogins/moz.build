@@ -121,11 +121,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-AboutLoginsParent
-.
-jsm
-'
-'
 LoginBreaches
 .
 jsm
@@ -139,6 +134,11 @@ actors
 [
 '
 AboutLoginsChild
+.
+jsm
+'
+'
+AboutLoginsParent
 .
 jsm
 '
