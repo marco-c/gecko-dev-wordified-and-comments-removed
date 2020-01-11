@@ -546,7 +546,7 @@ linux64
 -
 clang
 -
-8
+9
 -
 mingw
 -
@@ -581,8 +581,6 @@ build
 -
 clang
 -
-8
--
 mingw
 .
 sh
@@ -602,7 +600,7 @@ clang
 /
 clang
 -
-8
+9
 -
 mingw
 .
@@ -620,7 +618,7 @@ clang
 /
 clang
 -
-8
+9
 -
 mingw
 .
@@ -657,7 +655,7 @@ fetch
 -
 clang
 -
-8
+9
 -
 mingw
 -
@@ -684,11 +682,15 @@ linux64
 gcc
 -
 7
+-
+linux64
+-
+binutils
 linux64
 -
 clang
 -
-8
+9
 -
 mingw
 -
@@ -726,8 +728,6 @@ build
 -
 clang
 -
-8
--
 mingw
 .
 sh
@@ -747,7 +747,7 @@ clang
 /
 clang
 -
-8
+9
 -
 mingw
 .
@@ -765,7 +765,7 @@ clang
 /
 clang
 -
-8
+9
 -
 mingw
 .
@@ -802,7 +802,7 @@ fetch
 -
 clang
 -
-8
+9
 -
 mingw
 -
@@ -829,6 +829,10 @@ linux64
 gcc
 -
 7
+-
+linux64
+-
+binutils
 linux64
 -
 clang
