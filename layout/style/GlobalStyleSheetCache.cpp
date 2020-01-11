@@ -201,9 +201,6 @@ mozilla
 ;
 using
 namespace
-mozilla
-:
-:
 css
 ;
 #
@@ -689,9 +686,6 @@ GlobalStyleSheetCache
 :
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -794,9 +788,6 @@ nsIObserverService
 >
 obsSvc
 =
-mozilla
-:
-:
 services
 :
 :
@@ -1594,9 +1585,6 @@ parentRemapped
 size_t
 pageSize
 =
-mozilla
-:
-:
 ipc
 :
 :
@@ -1648,9 +1636,6 @@ GlobalStyleSheetCache
 (
 )
 {
-mozilla
-:
-:
 UnregisterWeakMemoryReporter
 (
 this
@@ -1665,9 +1650,6 @@ InitMemoryReporter
 (
 )
 {
-mozilla
-:
-:
 RegisterWeakMemoryReporter
 (
 this
