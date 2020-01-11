@@ -24,7 +24,7 @@ name
 "
 Atomics
 "
-disabled
+nightly
 :
 true
 }
@@ -154,7 +154,7 @@ name
 "
 SharedArrayBuffer
 "
-disabled
+nightly
 :
 true
 }

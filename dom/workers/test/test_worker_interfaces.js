@@ -44,7 +44,7 @@ Atomics
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
@@ -407,7 +407,7 @@ SharedArrayBuffer
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
