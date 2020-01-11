@@ -293,7 +293,7 @@ fakeFrame
 uint8_t
 fakeOpcode
 =
-JSOP_IFEQ
+JSOP_TRUE
 ;
 js
 :

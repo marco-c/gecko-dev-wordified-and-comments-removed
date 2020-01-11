@@ -39,7 +39,7 @@ slots
 pc
 =
 (
-JSOP_IFEQ
+JSOP_TRUE
 )
 }
 '
