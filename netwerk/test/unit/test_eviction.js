@@ -890,7 +890,7 @@ Services
 .
 cookiemgr
 .
-enumerator
+cookies
 )
 {
 +

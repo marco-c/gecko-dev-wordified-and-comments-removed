@@ -701,7 +701,7 @@ Services
 .
 cookies
 .
-sessionEnumerator
+sessionCookies
 )
 {
 this

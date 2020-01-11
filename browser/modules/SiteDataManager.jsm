@@ -735,7 +735,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 let
