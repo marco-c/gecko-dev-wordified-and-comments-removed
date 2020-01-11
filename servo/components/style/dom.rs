@@ -2430,6 +2430,16 @@ self
 bool
 ;
 fn
+exports_any_part
+(
+&
+self
+)
+-
+>
+bool
+;
+fn
 id
 (
 &
