@@ -196,12 +196,6 @@ serviceworkers
 '
 '
 /
-extensions
-/
-permissions
-'
-'
-/
 xpcom
 /
 build
