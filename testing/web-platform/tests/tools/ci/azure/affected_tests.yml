@@ -76,12 +76,6 @@ virtualenv
 -
 template
 :
-install_fonts
-.
-yml
--
-template
-:
 install_certs
 .
 yml
