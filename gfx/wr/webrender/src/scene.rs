@@ -704,10 +704,7 @@ pipelines
 FastHashMap
 <
 PipelineId
-Arc
-<
 ScenePipeline
->
 >
 pub
 pipeline_epochs
@@ -824,13 +821,7 @@ pipelines
 insert
 (
 pipeline_id
-Arc
-:
-:
-new
-(
 new_pipeline
-)
 )
 ;
 self
