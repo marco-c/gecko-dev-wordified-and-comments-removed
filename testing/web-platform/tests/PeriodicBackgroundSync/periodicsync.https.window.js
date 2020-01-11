@@ -25,7 +25,6 @@ scope
 =
 '
 service_workers
-/
 '
 +
 location

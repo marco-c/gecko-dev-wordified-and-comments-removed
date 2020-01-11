@@ -49,7 +49,7 @@ self
 addEventListener
 (
 '
-sync
+periodicsync
 '
 event
 =
@@ -58,7 +58,7 @@ event
 sendMessageToDocument
 (
 '
-sync
+periodicsync
 event
 received
 !
