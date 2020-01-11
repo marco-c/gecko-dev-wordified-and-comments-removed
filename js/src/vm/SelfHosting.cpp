@@ -19126,7 +19126,7 @@ setIsSelfHostedBuiltin
 fun
 -
 >
-initSelfHostLazyScript
+initSelfHostedLazyScript
 (
 &
 cx
