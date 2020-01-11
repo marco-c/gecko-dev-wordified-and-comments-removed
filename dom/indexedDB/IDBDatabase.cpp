@@ -292,13 +292,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -1305,8 +1298,10 @@ mPreviousSpec
 ;
 mPreviousSpec
 =
-new
+MakeUnique
+<
 DatabaseSpec
+>
 (
 *
 mSpec

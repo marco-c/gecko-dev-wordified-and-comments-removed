@@ -60,7 +60,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -224,13 +226,13 @@ IDBFactory
 >
 mFactory
 ;
-nsAutoPtr
+UniquePtr
 <
 DatabaseSpec
 >
 mSpec
 ;
-nsAutoPtr
+UniquePtr
 <
 DatabaseSpec
 >
@@ -752,6 +754,10 @@ const
 {
 return
 mSpec
+.
+get
+(
+)
 ;
 }
 NS_DECL_ISUPPORTS_INHERITED
