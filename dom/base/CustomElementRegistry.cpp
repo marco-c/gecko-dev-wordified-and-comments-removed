@@ -4580,8 +4580,6 @@ forget
 )
 )
 ;
-return
-;
 }
 void
 CustomElementRegistry
