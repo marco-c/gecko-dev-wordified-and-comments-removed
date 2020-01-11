@@ -1663,6 +1663,9 @@ len
 ;
 while
 (
+len
+&
+&
 challenge
 [
 len
