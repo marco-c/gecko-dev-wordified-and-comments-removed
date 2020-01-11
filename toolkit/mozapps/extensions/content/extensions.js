@@ -2998,7 +2998,6 @@ loading
 loadView
 (
 aViewId
-sourceEvent
 )
 {
 var
@@ -3063,22 +3062,6 @@ isRefresh
 true
 ;
 }
-let
-isKeyboardNavigation
-=
-sourceEvent
-&
-&
-sourceEvent
-.
-mozInputSource
-=
-=
-=
-MouseEvent
-.
-MOZ_SOURCE_KEYBOARD
-;
 var
 state
 =
@@ -3098,7 +3081,6 @@ historyEntryId
 this
 .
 nextHistoryEntryId
-isKeyboardNavigation
 }
 ;
 if
@@ -7342,7 +7324,6 @@ htmlViewOpts
 loadViewFn
 (
 view
-sourceEvent
 )
 {
 let
@@ -7361,7 +7342,6 @@ gViewController
 loadView
 (
 viewId
-sourceEvent
 )
 ;
 }
