@@ -55,6 +55,9 @@ line
 to
 this
 file
+under
+redirects
+key
 :
 https
 :
@@ -74,7 +77,7 @@ tools
 /
 docs
 /
-redirects
+config
 .
 yml
 Any
