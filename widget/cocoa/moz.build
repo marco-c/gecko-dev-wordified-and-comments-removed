@@ -351,6 +351,11 @@ nsTouchBar
 mm
 '
 '
+nsTouchBarInput
+.
+mm
+'
+'
 nsTouchBarInputIcon
 .
 mm

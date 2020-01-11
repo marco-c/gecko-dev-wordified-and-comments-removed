@@ -75,7 +75,7 @@ h
 #
 include
 "
-nsITouchBarInput
+nsTouchBarInput
 .
 h
 "
