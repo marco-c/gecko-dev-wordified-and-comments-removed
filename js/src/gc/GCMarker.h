@@ -1974,6 +1974,13 @@ strictCompartmentChecking
 ;
 public
 :
+MainThreadOrGCTaskData
+<
+Compartment
+*
+>
+tracingCompartment
+;
 JS
 :
 :
