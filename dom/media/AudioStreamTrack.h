@@ -53,6 +53,10 @@ MediaStreamTrackState
 :
 :
 Live
+bool
+aMuted
+=
+false
 const
 MediaTrackConstraints
 &
@@ -69,6 +73,7 @@ aWindow
 aInputTrack
 aSource
 aReadyState
+aMuted
 aConstraints
 )
 {
