@@ -1911,8 +1911,9 @@ length
 dx
 %
 d
+:
 %
-s
+d
 %
 s
 "
@@ -1923,12 +1924,9 @@ idx
 =
 defaultScreen
 ?
-"
-default
-"
+1
 :
-"
-"
+0
 idx
 =
 =
