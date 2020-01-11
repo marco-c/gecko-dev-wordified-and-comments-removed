@@ -6089,6 +6089,7 @@ RefPtr
 <
 nsPresContext
 >
+const
 mPresContext
 ;
 RefPtr
