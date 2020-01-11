@@ -3,11 +3,6 @@ use
 strict
 "
 ;
-const
-{
-Services
-}
-=
 ChromeUtils
 .
 import
@@ -25,6 +20,7 @@ Services
 .
 jsm
 "
+this
 )
 ;
 const
@@ -50,13 +46,6 @@ Timer
 jsm
 "
 )
-;
-var
-{
-EventManager
-}
-=
-ExtensionCommon
 ;
 let
 gNetworkLinkService
@@ -113,7 +102,8 @@ netChangeWaiting
 =
 false
 ;
-var
+this
+.
 netChange
 =
 class
@@ -137,6 +127,8 @@ netChange
 onConnectionChanged
 :
 new
+ExtensionCommon
+.
 EventManager
 (
 {
