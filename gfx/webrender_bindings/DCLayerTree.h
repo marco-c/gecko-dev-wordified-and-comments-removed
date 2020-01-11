@@ -170,6 +170,11 @@ MaybeUpdateDebug
 )
 ;
 void
+WaitForCommitCompletion
+(
+)
+;
+void
 CompositorBeginFrame
 (
 )
@@ -610,6 +615,12 @@ aSwapChain
 }
 void
 MaybeUpdateDebug
+(
+)
+{
+}
+void
+WaitForCommitCompletion
 (
 )
 {
