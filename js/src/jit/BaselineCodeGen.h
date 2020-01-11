@@ -78,11 +78,6 @@ JSOP_NOP_DESTRUCTURING
 \
 _
 (
-JSOP_LABEL
-)
-\
-_
-(
 JSOP_ITERNEXT
 )
 \

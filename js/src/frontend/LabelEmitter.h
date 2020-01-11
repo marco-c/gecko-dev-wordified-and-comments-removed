@@ -75,9 +75,6 @@ BytecodeEmitter
 *
 bce_
 ;
-BytecodeOffset
-top_
-;
 mozilla
 :
 :
@@ -125,8 +122,7 @@ bce
 )
 {
 }
-MOZ_MUST_USE
-bool
+void
 emitLabel
 (
 HandleAtom
