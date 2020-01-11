@@ -79,24 +79,6 @@ context
 .
 firefox_bin
     
-args
-.
-e10s
-=
-context
-.
-mozharness_config
-.
-get
-(
-'
-e10s
-'
-args
-.
-e10s
-)
-    
 test_root
 =
 os
