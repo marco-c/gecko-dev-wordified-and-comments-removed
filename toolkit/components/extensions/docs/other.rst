@@ -102,7 +102,7 @@ API
 /
 windows
 >
-_
+__
 API
 .
 See
@@ -119,7 +119,7 @@ windowmanager
 -
 class
 >
-_
+__
 .
 TabManager
 -
@@ -173,7 +173,7 @@ API
 /
 tabs
 >
-_
+__
 API
 .
 See
@@ -190,7 +190,7 @@ tabmanager
 -
 class
 >
-_
+__
 .
 ExtensionSettingsStore
 -
