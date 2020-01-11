@@ -276,6 +276,9 @@ maxdepth
 Intro
 .
 md
+Building
+.
+md
 PythonTests
 .
 md
@@ -283,6 +286,12 @@ Protocol
 .
 md
 Contributing
+.
+md
+NewContributors
+.
+md
+Patches
 .
 md
 Debugging
@@ -295,9 +304,6 @@ Taskcluster
 .
 md
 CodeStyle
-.
-md
-Patching
 .
 md
 SeleniumAtoms
