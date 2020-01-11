@@ -104,6 +104,11 @@ PictureInPicture
 .
 jsm
 '
+'
+PictureInPictureTogglePolicy
+.
+jsm
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
