@@ -44,7 +44,7 @@ afterEach
 =
 testRunner
 ;
-describe
+describe_fails_ffox
 (
 '
 ignoreHTTPSErrors
