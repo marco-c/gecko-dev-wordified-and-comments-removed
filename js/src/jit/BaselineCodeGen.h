@@ -443,6 +443,11 @@ JSOP_NEWOBJECT
 \
 _
 (
+JSOP_NEWOBJECT_WITHGROUP
+)
+\
+_
+(
 JSOP_NEWINIT
 )
 \
@@ -1935,6 +1940,12 @@ emitBinaryArith
 MOZ_MUST_USE
 bool
 emitCompare
+(
+)
+;
+MOZ_MUST_USE
+bool
+emitNewObject
 (
 )
 ;

@@ -123,6 +123,9 @@ ArrayCOW
 NoValues
 =
 5
+IsInnerSingleton
+=
+6
 }
 ;
 using
