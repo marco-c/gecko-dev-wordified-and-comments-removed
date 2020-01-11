@@ -458,7 +458,7 @@ ccov
 .
 *
 :
-3600
+5400
 windows10
 -
 aarch64
@@ -467,9 +467,16 @@ aarch64
 *
 :
 3600
-windows7
+windows
+(
+7
 -
 32
+|
+10
+-
+64
+)
 (
 -
 shippable
