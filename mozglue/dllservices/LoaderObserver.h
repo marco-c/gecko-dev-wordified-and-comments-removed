@@ -81,6 +81,10 @@ mModuleLoads
 (
 nullptr
 )
+mEnabled
+(
+true
+)
 {
 }
 void
@@ -160,7 +164,7 @@ aSvc
 )
 ;
 void
-Clear
+Disable
 (
 )
 ;
@@ -172,6 +176,9 @@ mLock
 ModuleLoadInfoVec
 *
 mModuleLoads
+;
+bool
+mEnabled
 ;
 }
 ;

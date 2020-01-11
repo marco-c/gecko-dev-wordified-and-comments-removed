@@ -3514,7 +3514,7 @@ GetAuthenticode
 ;
 gMozglueLoaderObserver
 .
-Clear
+Disable
 (
 )
 ;

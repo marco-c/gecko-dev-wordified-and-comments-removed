@@ -363,6 +363,15 @@ mLock
 if
 (
 !
+mEnabled
+)
+{
+return
+;
+}
+if
+(
+!
 mModuleLoads
 )
 {
@@ -513,7 +522,7 @@ void
 LoaderObserver
 :
 :
-Clear
+Disable
 (
 )
 {
@@ -537,6 +546,10 @@ mModuleLoads
 mModuleLoads
 =
 nullptr
+;
+mEnabled
+=
+false
 ;
 }
 delete
