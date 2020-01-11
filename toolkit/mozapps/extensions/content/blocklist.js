@@ -379,11 +379,15 @@ hbox
 ;
 fragment
 .
+setAttribute
+(
+"
 pack
-=
+"
 "
 end
 "
+)
 ;
 if
 (
