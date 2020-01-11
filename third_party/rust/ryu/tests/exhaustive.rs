@@ -292,7 +292,7 @@ ryu
 raw
 :
 :
-format32
+f2s_buffered_n
 (
 f
 &
@@ -346,7 +346,7 @@ f
 )
 buffer
 .
-format_finite
+format
 (
 f
 )

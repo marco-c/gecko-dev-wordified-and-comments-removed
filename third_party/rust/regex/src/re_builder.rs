@@ -156,12 +156,6 @@ mod
 name
 {
 use
-super
-:
-:
-RegexOptions
-;
-use
 error
 :
 :
@@ -172,6 +166,12 @@ exec
 :
 :
 ExecBuilder
+;
+use
+super
+:
+:
+RegexOptions
 ;
 use
 regex_mod
@@ -1725,7 +1725,6 @@ self
 }
 }
 }
-;
 }
 define_builder
 !
@@ -1766,12 +1765,6 @@ mod
 name
 {
 use
-super
-:
-:
-RegexOptions
-;
-use
 error
 :
 :
@@ -1782,6 +1775,12 @@ exec
 :
 :
 ExecBuilder
+;
+use
+super
+:
+:
+RegexOptions
 ;
 use
 re_set
@@ -3127,7 +3126,6 @@ self
 }
 }
 }
-;
 }
 define_set_builder
 !

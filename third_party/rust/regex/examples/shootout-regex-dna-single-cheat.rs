@@ -43,7 +43,6 @@ unwrap
 (
 )
 }
-;
 }
 fn
 main

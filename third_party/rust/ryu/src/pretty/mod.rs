@@ -32,9 +32,6 @@ mantissa
 *
 ;
 use
-common
-;
-use
 d2s
 ;
 use
@@ -42,6 +39,9 @@ d2s
 :
 :
 *
+;
+use
+f2s
 ;
 use
 f2s
@@ -93,7 +93,7 @@ no_panic
 pub
 unsafe
 fn
-format64
+d2s_buffered_n
 (
 f
 :
@@ -267,7 +267,7 @@ length
 d2s
 :
 :
-decimal_length17
+decimal_length
 (
 v
 .
@@ -758,7 +758,7 @@ no_panic
 pub
 unsafe
 fn
-format32
+f2s_buffered_n
 (
 f
 :
@@ -931,10 +931,10 @@ ieee_exponent
 let
 length
 =
-common
+f2s
 :
 :
-decimal_length9
+decimal_length
 (
 v
 .

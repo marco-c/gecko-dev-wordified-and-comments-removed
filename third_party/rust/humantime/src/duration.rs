@@ -468,7 +468,6 @@ empty
 derive
 (
 Debug
-Clone
 )
 ]
 pub

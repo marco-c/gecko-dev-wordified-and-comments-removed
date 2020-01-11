@@ -304,6 +304,7 @@ e
 )
 =
 >
+{
 Some
 (
 Some
@@ -314,6 +315,7 @@ e
 )
 )
 )
+}
 }
 ;
 self
@@ -1025,7 +1027,6 @@ len
 {
 return
 None
-;
 }
 let
 mut

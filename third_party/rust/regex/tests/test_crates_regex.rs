@@ -1,10 +1,10 @@
 extern
 crate
-quickcheck
+regex
 ;
 extern
 crate
-regex
+quickcheck
 ;
 mod
 consistent
@@ -91,7 +91,6 @@ err
 }
 }
 }
-;
 }
 include
 !

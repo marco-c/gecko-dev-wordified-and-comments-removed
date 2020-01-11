@@ -50,16 +50,10 @@ sync
 Arc
 ;
 use
-find_byte
+memchr
 :
 :
-find_byte
-;
-use
-error
-:
-:
-Error
+memchr
 ;
 use
 exec
@@ -75,6 +69,12 @@ expand
 :
 :
 expand_bytes
+;
+use
+error
+:
+:
+Error
 ;
 use
 re_builder
@@ -1025,7 +1025,6 @@ i
 limit
 {
 break
-;
 }
 new
 .
@@ -1167,7 +1166,6 @@ i
 limit
 {
 break
-;
 }
 let
 m
@@ -2207,7 +2205,6 @@ n
 {
 return
 None
-;
 }
 self
 .
@@ -3682,7 +3679,7 @@ u8
 >
 {
 match
-find_byte
+memchr
 (
 b
 '

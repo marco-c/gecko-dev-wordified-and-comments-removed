@@ -58,7 +58,6 @@ unwrap
 (
 )
 }
-;
 }
 fn
 main

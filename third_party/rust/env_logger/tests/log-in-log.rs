@@ -14,7 +14,7 @@ use
 std
 :
 :
-env
+process
 ;
 use
 std
@@ -26,7 +26,7 @@ use
 std
 :
 :
-process
+env
 ;
 use
 std
@@ -207,7 +207,6 @@ success
 )
 {
 return
-;
 }
 println
 !

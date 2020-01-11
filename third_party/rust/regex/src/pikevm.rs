@@ -24,8 +24,8 @@ prog
 :
 :
 {
-InstPtr
 Program
+InstPtr
 }
 ;
 use
@@ -684,9 +684,16 @@ at
 pos
 (
 )
->
+=
 =
 end
+|
+|
+at
+.
+is_end
+(
+)
 {
 break
 ;

@@ -83,10 +83,8 @@ date
 :
 {
 format_rfc3339
-format_rfc3339_micros
-format_rfc3339_millis
-format_rfc3339_nanos
 format_rfc3339_seconds
+format_rfc3339_nanos
 }
 ;
 pub

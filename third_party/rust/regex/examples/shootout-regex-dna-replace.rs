@@ -57,7 +57,6 @@ into_regex
 )
 }
 }
-;
 }
 fn
 main
