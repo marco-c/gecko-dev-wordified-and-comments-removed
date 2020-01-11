@@ -300,10 +300,6 @@ onChange
 "
 {
 details
-:
-details
-.
-details
 setting
 :
 apiName

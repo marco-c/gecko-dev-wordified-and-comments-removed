@@ -512,9 +512,6 @@ fire
 async
 (
 {
-details
-:
-{
 levelOfControl
 :
 "
@@ -530,7 +527,6 @@ getStringPref
 (
 CAPTIVE_URL_PREF
 )
-}
 }
 )
 ;
