@@ -13,7 +13,7 @@ postMessage
 (
 canary
 .
-toSource
+toString
 (
 )
 )

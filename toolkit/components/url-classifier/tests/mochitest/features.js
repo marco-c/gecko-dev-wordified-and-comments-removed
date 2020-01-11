@@ -629,10 +629,11 @@ Testing
 :
 "
 +
-config
+JSON
 .
-toSource
+stringify
 (
+config
 )
 +
 "
