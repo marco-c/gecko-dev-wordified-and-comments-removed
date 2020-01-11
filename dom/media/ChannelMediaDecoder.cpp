@@ -1227,8 +1227,6 @@ self
 }
 )
 ;
-return
-;
 }
 nsresult
 ChannelMediaDecoder
