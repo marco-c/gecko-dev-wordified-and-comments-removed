@@ -9388,6 +9388,10 @@ mSourcePointer
 =
 nullptr
 ;
+mIsBlessed
+=
+false
+;
 mTags
 =
 nullptr
