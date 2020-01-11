@@ -286,11 +286,6 @@ dom
 :
 :
 PerThreadAtomCache
-public
-LinkedListElement
-<
-CycleCollectedJSContext
->
 private
 JS
 :

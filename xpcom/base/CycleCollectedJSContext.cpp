@@ -482,9 +482,9 @@ nullptr
 mRuntime
 -
 >
-RemoveContext
+SetContext
 (
-this
+nullptr
 )
 ;
 mRuntime
@@ -669,7 +669,7 @@ mJSContext
 mRuntime
 -
 >
-AddContext
+SetContext
 (
 this
 )

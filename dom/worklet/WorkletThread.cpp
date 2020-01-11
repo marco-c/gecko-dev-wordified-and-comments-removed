@@ -342,12 +342,7 @@ aStatus
 JSGC_END
 &
 &
-!
-Contexts
-(
-)
-.
-isEmpty
+GetContext
 (
 )
 )
