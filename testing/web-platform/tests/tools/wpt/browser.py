@@ -513,18 +513,6 @@ firefox
 firefox
 "
     
-platform_ini
-=
-"
-browsers
-/
-firefox
-/
-platform
-.
-ini
-"
-    
 requirements
 =
 "
