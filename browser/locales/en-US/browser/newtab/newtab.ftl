@@ -826,6 +826,8 @@ privacy
 modal
 -
 paragraph
+-
+2
 =
 In
 addition
@@ -849,6 +851,9 @@ sponsors
 .
 Rest
 assured
+<
+strong
+>
 your
 browsing
 data
@@ -866,6 +871,10 @@ product
 -
 name
 }
+<
+/
+strong
+>
 we
 don
 t
