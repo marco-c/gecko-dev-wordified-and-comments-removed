@@ -4500,17 +4500,6 @@ BaseScript
 ImmutableFlags
 :
 :
-HasMappedArgsObj
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 ArgumentsHasVarBinding
 )
 |
