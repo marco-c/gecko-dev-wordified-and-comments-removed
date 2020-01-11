@@ -510,6 +510,9 @@ false
 setUserAgentOverride
 (
 options
+=
+{
+}
 )
 {
 const

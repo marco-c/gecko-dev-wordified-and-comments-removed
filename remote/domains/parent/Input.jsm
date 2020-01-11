@@ -71,6 +71,9 @@ async
 dispatchKeyEvent
 (
 options
+=
+{
+}
 )
 {
 const

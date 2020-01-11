@@ -823,6 +823,9 @@ executionContextId
 setLifecycleEventsEnabled
 (
 options
+=
+{
+}
 )
 {
 const
