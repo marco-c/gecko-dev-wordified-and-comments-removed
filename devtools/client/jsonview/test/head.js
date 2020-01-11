@@ -270,14 +270,12 @@ race
 (
 [
 error
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 data
-]
 async
 function
 (

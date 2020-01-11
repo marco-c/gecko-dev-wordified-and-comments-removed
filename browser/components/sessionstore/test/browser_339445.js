@@ -55,6 +55,8 @@ promiseBrowserLoaded
 tab
 .
 linkedBrowser
+true
+testURL
 )
 ;
 await
@@ -122,15 +124,14 @@ tab2
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab2
 .
 linkedBrowser
-[
-]
+null
 function
 (
 )
