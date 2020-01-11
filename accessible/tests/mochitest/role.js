@@ -349,6 +349,13 @@ nsIAccessibleRole
 ROLE_LISTITEM
 ;
 const
+ROLE_MARK
+=
+nsIAccessibleRole
+.
+ROLE_MARK
+;
+const
 ROLE_MATHML_MATH
 =
 nsIAccessibleRole
