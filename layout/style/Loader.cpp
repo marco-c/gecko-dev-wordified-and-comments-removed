@@ -6094,7 +6094,10 @@ aSheet
 .
 SetMedia
 (
+do_AddRef
+(
 mediaList
+)
 )
 ;
 aSheet

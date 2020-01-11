@@ -1104,11 +1104,13 @@ aTitle
 void
 SetMedia
 (
+already_AddRefed
+<
 dom
 :
 :
 MediaList
-*
+>
 aMedia
 )
 ;
