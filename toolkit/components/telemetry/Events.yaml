@@ -4223,11 +4223,11 @@ bug_numbers
 :
 -
 1548463
+-
+1600958
 expiry_version
 :
-"
-74
-"
+never
 notification_emails
 :
 [
