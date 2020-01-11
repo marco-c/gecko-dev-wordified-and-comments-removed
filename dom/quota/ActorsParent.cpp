@@ -31743,12 +31743,11 @@ aPrincipal
 ;
 if
 (
-nsContentUtils
-:
-:
+aPrincipal
+-
+>
 IsSystemPrincipal
 (
-aPrincipal
 )
 )
 {
