@@ -331,15 +331,6 @@ ExtendedDOMSlots
 )
 -
 >
-mBindingParent
-=
-aElement
-;
-ExtendedDOMSlots
-(
-)
--
->
 mContainingShadow
 =
 this
