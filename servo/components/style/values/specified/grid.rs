@@ -786,7 +786,7 @@ track_sizes
 0
 ]
 .
-is_auto
+is_initial
 (
 )
 {
