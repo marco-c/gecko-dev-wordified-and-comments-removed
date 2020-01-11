@@ -45,6 +45,9 @@ label
 =
 "
 "
+image
+=
+null
 submenu
 =
 null
@@ -115,6 +118,12 @@ this
 label
 =
 label
+;
+this
+.
+image
+=
+image
 ;
 this
 .
