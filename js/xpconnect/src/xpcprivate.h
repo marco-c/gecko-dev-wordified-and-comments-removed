@@ -9775,6 +9775,8 @@ nsACString
 filename
 int32_t
 lineNo
+bool
+enforceFilenameRestrictions
 JS
 :
 :
