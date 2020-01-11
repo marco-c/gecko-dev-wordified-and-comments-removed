@@ -218,6 +218,11 @@ BrowserParent
 >
 mBrowserParent
 ;
+bool
+mIsMultiPart
+=
+false
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
