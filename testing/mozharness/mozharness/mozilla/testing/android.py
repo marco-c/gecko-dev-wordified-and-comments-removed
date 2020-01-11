@@ -156,6 +156,12 @@ use_gles3
 =
 False
         
+self
+.
+xre_path
+=
+None
+        
 super
 (
 AndroidMixin
@@ -3207,6 +3213,12 @@ self
 is_emulator
 :
             
+if
+self
+.
+xre_path
+:
+                
 dump_screen
 (
 self
@@ -3216,6 +3228,24 @@ self
 prefix
 =
 prefix
+)
+            
+else
+:
+                
+self
+.
+info
+(
+'
+Not
+saving
+screenshot
+:
+no
+XRE
+configured
+'
 )
         
 else
