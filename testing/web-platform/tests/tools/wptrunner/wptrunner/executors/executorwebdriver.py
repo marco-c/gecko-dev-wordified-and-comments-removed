@@ -89,6 +89,21 @@ __file__
 ]
 )
 class
+WebDriverCallbackHandler
+(
+CallbackHandler
+)
+:
+    
+unimplemented_exc
+=
+(
+NotImplementedError
+client
+.
+UnknownCommandException
+)
+class
 WebDriverBaseProtocolPart
 (
 BaseProtocolPart
@@ -2628,7 +2643,7 @@ test_window
         
 handler
 =
-CallbackHandler
+WebDriverCallbackHandler
 (
 self
 .
