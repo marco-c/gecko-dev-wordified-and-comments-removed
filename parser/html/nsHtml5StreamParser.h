@@ -1191,9 +1191,6 @@ mFlushTimerEverFired
 eParserMode
 mMode
 ;
-bool
-mSkipContentSniffing
-;
 nsCOMPtr
 <
 nsIURI
