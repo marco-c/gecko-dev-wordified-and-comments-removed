@@ -756,8 +756,6 @@ flags
     
 opcodes
 =
-sorted
-(
 [
 opcode
 ]
@@ -765,16 +763,6 @@ opcode
 opcode
 .
 group
-                     
-key
-=
-lambda
-opcode
-:
-opcode
-.
-name
-)
     
 names
 =
@@ -1413,26 +1401,14 @@ dl
 )
             
 for
-opcode_
+opcode
 in
-sorted
-(
 opcodes
-                                  
-key
-=
-lambda
-opcode
-:
-opcode
-.
-sort_key
-)
 :
                 
 print_opcode
 (
-opcode_
+opcode
 )
             
 print
