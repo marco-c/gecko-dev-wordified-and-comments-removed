@@ -3597,7 +3597,7 @@ current
 ;
 mWorkerThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;
@@ -3960,7 +3960,7 @@ current
 ;
 mWorkerThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;

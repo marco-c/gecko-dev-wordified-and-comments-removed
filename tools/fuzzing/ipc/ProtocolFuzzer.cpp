@@ -125,7 +125,7 @@ GetIPCChannel
 >
 mWorkerThread
 =
-GetCurrentVirtualThread
+PR_GetCurrentThread
 (
 )
 ;

@@ -768,10 +768,6 @@ CycleCollectedJSContext
 *
 mScriptObserver
 ;
-PRThread
-*
-mThread
-;
 void
 *
 mStackBase
