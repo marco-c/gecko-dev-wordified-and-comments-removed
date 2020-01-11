@@ -11208,6 +11208,12 @@ RefType
 :
 Any
 :
+case
+RefType
+:
+:
+Null
+:
 MOZ_ASSERT
 (
 value
@@ -11231,7 +11237,11 @@ nullRefConstant
 ;
 break
 ;
-default
+case
+RefType
+:
+:
+TypeIndex
 :
 MOZ_CRASH
 (
