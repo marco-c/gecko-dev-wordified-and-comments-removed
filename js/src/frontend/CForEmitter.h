@@ -96,11 +96,6 @@ BytecodeEmitter
 *
 bce_
 ;
-unsigned
-noteIndex_
-=
-0
-;
 Cond
 cond_
 =

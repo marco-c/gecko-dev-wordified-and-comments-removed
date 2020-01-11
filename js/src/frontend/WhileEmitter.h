@@ -64,11 +64,6 @@ BytecodeEmitter
 *
 bce_
 ;
-unsigned
-noteIndex_
-=
-0
-;
 mozilla
 :
 :
