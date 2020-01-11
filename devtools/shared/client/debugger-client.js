@@ -395,8 +395,6 @@ prototype
 =
 {
 connect
-:
-function
 (
 onConnected
 )
@@ -465,8 +463,6 @@ ready
 ;
 }
 close
-:
-function
 (
 onClosed
 )
@@ -572,8 +568,6 @@ promise
 ;
 }
 release
-:
-function
 (
 to
 )
@@ -595,8 +589,6 @@ release
 ;
 }
 request
-:
-function
 (
 packet
 onResponse
@@ -967,8 +959,6 @@ request
 ;
 }
 startBulkRequest
-:
-function
 (
 request
 )
@@ -1401,8 +1391,6 @@ request
 ;
 }
 expectReply
-:
-function
 (
 actor
 request
@@ -1485,8 +1473,6 @@ request
 ;
 }
 onPacket
-:
-function
 (
 packet
 )
@@ -1734,8 +1720,6 @@ emitReply
 }
 }
 onBulkPacket
-:
-function
 (
 packet
 )
@@ -1846,8 +1830,6 @@ packet
 ;
 }
 onClosed
-:
-function
 (
 )
 {
@@ -2414,8 +2396,6 @@ __pools
 ;
 }
 addActorPool
-:
-function
 (
 pool
 )
@@ -2431,8 +2411,6 @@ pool
 ;
 }
 removeActorPool
-:
-function
 (
 pool
 )
@@ -2448,8 +2426,6 @@ pool
 ;
 }
 getFrontByID
-:
-function
 (
 actorID
 )
@@ -2478,8 +2454,6 @@ null
 ;
 }
 poolFor
-:
-function
 (
 actorID
 )
@@ -2514,8 +2488,6 @@ null
 ;
 }
 createObjectFront
-:
-function
 (
 grip
 )
