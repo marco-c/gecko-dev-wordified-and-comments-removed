@@ -92,12 +92,10 @@ tar
 bz2
 :
 {
-PYTHON
+PYTHON3
 :
 =
-python2
-.
-7
+python3
 }
 #
 Build
@@ -140,7 +138,7 @@ MOZ_AUTOMATION
 AUTOMATION
 =
 1
-PYTHON
+PYTHON3
 .
 /
 devtools
