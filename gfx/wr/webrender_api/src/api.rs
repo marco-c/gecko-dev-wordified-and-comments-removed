@@ -3651,10 +3651,7 @@ ReportMemory
 (
 MsgSender
 <
-Box
-<
 MemoryReport
->
 >
 )
 DebugCommand
@@ -6421,7 +6418,6 @@ unwrap
 (
 )
 ;
-*
 rx
 .
 recv
@@ -7058,6 +7054,10 @@ ApiMsg
 UpdateDocuments
 (
 document_ids
+.
+clone
+(
+)
 msgs
 )
 )
@@ -7635,6 +7635,7 @@ pub
 fn
 get
 (
+&
 self
 )
 -
@@ -7773,6 +7774,7 @@ pub
 fn
 with
 (
+&
 self
 value
 :
@@ -7789,6 +7791,7 @@ PropertyValue
 {
 key
 :
+*
 self
 value
 }

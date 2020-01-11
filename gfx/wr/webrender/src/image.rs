@@ -2458,12 +2458,14 @@ intersection
 =
 intersection
 .
-unwrap_or_else
+unwrap_or
 (
 DeviceIntRect
 :
 :
 zero
+(
+)
 )
 ;
 let

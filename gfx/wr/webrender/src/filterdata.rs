@@ -996,6 +996,8 @@ Identity
 =
 >
 {
+return
+;
 }
 SFilterDataComponent
 :

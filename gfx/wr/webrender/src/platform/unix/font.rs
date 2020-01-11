@@ -2628,6 +2628,12 @@ FontKey
 )
 {
 if
+let
+Some
+(
+_
+)
+=
 self
 .
 faces
@@ -2635,10 +2641,6 @@ faces
 remove
 (
 font_key
-)
-.
-is_some
-(
 )
 {
 self

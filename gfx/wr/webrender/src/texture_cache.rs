@@ -4061,11 +4061,12 @@ data
 let
 use_upload_format
 =
+!
 self
 .
 swizzle
 .
-is_none
+is_some
 (
 )
 ;
