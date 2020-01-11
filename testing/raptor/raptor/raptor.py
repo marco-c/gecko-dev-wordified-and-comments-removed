@@ -4400,6 +4400,12 @@ loads
 raw_prefs
 )
 )
+        
+self
+.
+remove_mozprofile_delimiters_from_profile
+(
+)
     
 def
 run_test_setup
