@@ -1115,6 +1115,14 @@ IsRecording
 )
 )
 {
+if
+(
+!
+UseCloudForReplayingProcesses
+(
+)
+)
+{
 dom
 :
 :
@@ -1133,6 +1141,7 @@ GetId
 )
 )
 ;
+}
 if
 (
 js
