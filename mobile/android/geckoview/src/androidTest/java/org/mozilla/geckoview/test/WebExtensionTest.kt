@@ -3100,15 +3100,6 @@ background
 Boolean
 )
 {
-var
-contentPort
-:
-WebExtension
-.
-Port
-?
-=
-null
 val
 result
 =
@@ -3199,9 +3190,7 @@ PortMessage
 "
 )
 )
-contentPort
-!
-!
+port
 .
 postMessage
 (
@@ -3330,9 +3319,6 @@ setDelegate
 (
 portDelegate
 )
-contentPort
-=
-port
 }
 override
 fun
