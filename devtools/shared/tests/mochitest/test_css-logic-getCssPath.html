@@ -100,6 +100,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 const
 {
 require
@@ -220,7 +225,7 @@ getCssPathForUnattachedElement
 (
 )
 {
-var
+const
 unattached
 =
 document
@@ -259,7 +264,7 @@ string
 "
 )
 ;
-var
+const
 unattachedChild
 =
 document
@@ -297,7 +302,7 @@ string
 "
 )
 ;
-var
+const
 unattachedBody
 =
 document
@@ -383,7 +388,7 @@ expectedNbOfParts
 =
 0
 ;
-var
+let
 parent
 =
 el

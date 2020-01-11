@@ -119,6 +119,11 @@ text
 javascript
 "
 >
+"
+use
+strict
+"
+;
 SimpleTest
 .
 waitForExplicitFinish
@@ -193,7 +198,6 @@ function
 const
 {
 state
-response
 }
 =
 await
@@ -212,8 +216,7 @@ ConsoleAPI
 "
 ]
 (
-state
-response
+s
 )
 =
 >
@@ -222,7 +225,8 @@ resolve
 (
 {
 state
-response
+:
+s
 }
 )
 }

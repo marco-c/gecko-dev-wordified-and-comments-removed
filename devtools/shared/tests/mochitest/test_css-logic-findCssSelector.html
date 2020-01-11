@@ -101,6 +101,11 @@ application
 javascript
 "
 >
+"
+use
+strict
+"
+;
 const
 {
 require
@@ -223,7 +228,7 @@ findAllCssSelectors
 (
 )
 {
-var
+const
 nodes
 =
 document
@@ -237,7 +242,7 @@ querySelectorAll
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -253,7 +258,7 @@ i
 +
 )
 {
-var
+const
 selector
 =
 findCssSelector
@@ -264,7 +269,7 @@ i
 ]
 )
 ;
-var
+const
 matches
 =
 document
@@ -330,7 +335,7 @@ findCssSelectorNotContainedInDocument
 (
 )
 {
-var
+const
 unattached
 =
 document
@@ -367,7 +372,7 @@ string
 "
 )
 ;
-var
+const
 unattachedChild
 =
 document
@@ -403,7 +408,7 @@ string
 "
 )
 ;
-var
+const
 unattachedBody
 =
 document
@@ -446,7 +451,7 @@ findCssSelectorBasic
 (
 )
 {
-let
+const
 data
 =
 [
@@ -610,7 +615,7 @@ escape
 )
 ]
 ;
-let
+const
 container
 =
 document
@@ -666,7 +671,7 @@ i
 +
 )
 {
-let
+const
 node
 =
 container

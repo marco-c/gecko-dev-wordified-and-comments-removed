@@ -244,6 +244,17 @@ widgets
 .
 jsm
 "
+"
+shared
+/
+webconsole
+/
+test
+/
+*
+.
+html
+"
 ]
 "
 rules
