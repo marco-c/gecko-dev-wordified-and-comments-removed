@@ -61,6 +61,13 @@ h
 #
 include
 "
+InitializationTypes
+.
+h
+"
+#
+include
+"
 Client
 .
 h
@@ -2210,6 +2217,9 @@ TYPE_MAX
 >
 mAllClientTypesExceptLS
 ;
+InitializationInfo
+mInitializationInfo
+;
 nsString
 mBasePath
 ;
@@ -2236,12 +2246,6 @@ mTemporaryStorageUsage
 ;
 int64_t
 mNextDirectoryLockId
-;
-bool
-mStorageInitializationAttempted
-;
-bool
-mTemporaryStorageInitializationAttempted
 ;
 bool
 mTemporaryStorageInitialized

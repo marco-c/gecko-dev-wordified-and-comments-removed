@@ -252,6 +252,11 @@ FileStreams
 h
 '
 '
+InitializationTypes
+.
+h
+'
+'
 MemoryOutputStream
 .
 h
