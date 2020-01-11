@@ -197,6 +197,8 @@ ok
 !
 e
 .
+message
+.
 match
 (
 /
@@ -289,6 +291,8 @@ ok
 !
 !
 e
+.
+message
 .
 match
 (
