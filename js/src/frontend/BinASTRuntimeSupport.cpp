@@ -177,7 +177,7 @@ BinASTSourceMetadataMultipart
 *
 >
 (
-js_malloc
+js_calloc
 (
 BinASTSourceMetadataMultipart
 :
@@ -324,7 +324,7 @@ BinASTSourceMetadataContext
 *
 >
 (
-js_malloc
+js_calloc
 (
 BinASTSourceMetadataContext
 :
