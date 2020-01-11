@@ -86,6 +86,17 @@ nullable
 number
 "
 )
+activeBrowsingContextID
+:
+Arg
+(
+4
+"
+nullable
+:
+number
+"
+)
 }
 "
 profiler

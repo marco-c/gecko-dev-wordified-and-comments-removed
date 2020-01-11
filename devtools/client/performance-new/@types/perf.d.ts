@@ -663,6 +663,16 @@ string
 >
 string
 ;
+export
+type
+GetActiveBrowsingContextID
+=
+(
+)
+=
+>
+number
+;
 interface
 GeckoProfilerFrameScriptInterface
 {
