@@ -761,7 +761,7 @@ separator
 >
 <
 hbox
-align
+pack
 =
 "
 end
