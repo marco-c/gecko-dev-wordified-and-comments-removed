@@ -481,8 +481,8 @@ function
 createRecord
 (
 recordType
-mediaType
 data
+mediaType
 encoding
 lang
 )
@@ -581,12 +581,8 @@ createRecord
 '
 text
 '
-'
-text
-/
-plain
-'
 data
+undefined
 encoding
 lang
 )
@@ -603,11 +599,6 @@ createRecord
 (
 '
 mime
-'
-'
-application
-/
-json
 '
 new
 TextEncoder
@@ -628,6 +619,11 @@ stringify
 json
 )
 )
+'
+application
+/
+json
+'
 )
 ;
 }
@@ -643,6 +639,7 @@ createRecord
 '
 mime
 '
+buffer
 '
 application
 /
@@ -650,7 +647,6 @@ octet
 -
 stream
 '
-buffer
 )
 ;
 }
@@ -665,8 +661,6 @@ createRecord
 (
 '
 unknown
-'
-'
 '
 buffer
 )
@@ -692,11 +686,6 @@ absolute
 -
 url
 '
-'
-text
-/
-plain
-'
 url
 )
 ;
@@ -706,11 +695,6 @@ createRecord
 (
 '
 url
-'
-'
-text
-/
-plain
 '
 url
 )

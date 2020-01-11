@@ -12,13 +12,6 @@ recordType
 "
 text
 "
-mediaType
-:
-"
-text
-/
-plain
-"
 data
 :
 "
