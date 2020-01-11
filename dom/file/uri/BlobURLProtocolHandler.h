@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

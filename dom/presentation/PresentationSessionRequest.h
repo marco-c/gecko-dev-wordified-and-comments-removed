@@ -7,14 +7,14 @@ mozilla_dom_PresentationSessionRequest_h__
 #
 include
 "
-nsCOMPtr
+nsIPresentationSessionRequest
 .
 h
 "
 #
 include
 "
-nsIPresentationSessionRequest
+nsCOMPtr
 .
 h
 "

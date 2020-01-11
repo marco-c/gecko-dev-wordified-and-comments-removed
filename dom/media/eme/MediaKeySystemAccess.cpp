@@ -45,6 +45,13 @@ h
 #
 include
 "
+mozIGeckoMediaPluginService
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ClearOnShutdown

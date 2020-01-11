@@ -116,6 +116,13 @@ h
 #
 include
 "
+nsISimpleEnumerator
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

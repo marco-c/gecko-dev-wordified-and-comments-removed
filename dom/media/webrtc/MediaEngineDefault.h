@@ -7,6 +7,13 @@ MEDIAENGINEDEFAULT_H_
 #
 include
 "
+nsINamed
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

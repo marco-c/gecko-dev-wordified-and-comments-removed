@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsIHttpChannelInternal
 .
 h

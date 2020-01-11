@@ -146,6 +146,13 @@ h
 #
 include
 "
+nsITabSource
+.
+h
+"
+#
+include
+"
 VideoUtils
 .
 h
@@ -154,6 +161,13 @@ h
 include
 "
 nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
+nsIPrefService
 .
 h
 "

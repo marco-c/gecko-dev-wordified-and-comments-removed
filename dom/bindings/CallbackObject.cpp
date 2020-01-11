@@ -46,6 +46,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsIScriptContext
 .
 h

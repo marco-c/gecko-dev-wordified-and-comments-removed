@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIDOMEventListener
+.
+h
+"
+#
+include
+"
 nsIMozBrowserFrame
 .
 h

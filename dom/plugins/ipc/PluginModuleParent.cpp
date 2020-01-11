@@ -242,6 +242,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsNPAPIPlugin
 .
 h

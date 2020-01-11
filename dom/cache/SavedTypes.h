@@ -44,6 +44,13 @@ nsID
 .
 h
 "
+#
+include
+"
+nsIOutputStream
+.
+h
+"
 namespace
 mozilla
 {

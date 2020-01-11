@@ -160,6 +160,13 @@ h
 #
 include
 "
+nsIInputStreamPump
+.
+h
+"
+#
+include
+"
 nsIAsyncInputStream
 .
 h

@@ -85,6 +85,9 @@ nsTArray
 h
 "
 class
+nsIDocShell
+;
+class
 nsIEventListenerInfo
 ;
 class

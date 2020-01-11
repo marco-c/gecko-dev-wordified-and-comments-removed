@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIEffectiveTLDService
+.
+h
+"
+#
+include
+"
 nsDirectoryServiceUtils
 .
 h
@@ -79,6 +86,13 @@ h
 include
 "
 mozIStorageService
+.
+h
+"
+#
+include
+"
+mozIStorageBindingParamsArray
 .
 h
 "

@@ -180,6 +180,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsMathUtils
 .
 h

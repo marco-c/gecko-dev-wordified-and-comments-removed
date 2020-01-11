@@ -166,6 +166,13 @@ h
 #
 include
 "
+imgIEncoder
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

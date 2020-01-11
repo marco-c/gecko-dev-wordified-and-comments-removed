@@ -278,6 +278,13 @@ h
 #
 include
 "
+nsIThreadInternal
+.
+h
+"
+#
+include
+"
 nsIDOMGeoPositionCallback
 .
 h

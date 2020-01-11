@@ -65,6 +65,13 @@ h
 #
 include
 "
+nsICacheInfoChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

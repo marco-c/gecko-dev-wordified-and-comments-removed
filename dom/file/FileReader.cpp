@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsIGlobalObject
 .
 h

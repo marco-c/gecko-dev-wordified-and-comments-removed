@@ -203,6 +203,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

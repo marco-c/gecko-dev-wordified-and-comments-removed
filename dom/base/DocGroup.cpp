@@ -79,6 +79,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsDOMMutationObserver
 .
 h

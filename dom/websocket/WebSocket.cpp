@@ -253,6 +253,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
@@ -346,6 +353,13 @@ mozilla
 net
 /
 WebSocketEventService
+.
+h
+"
+#
+include
+"
+nsICryptoHash
 .
 h
 "

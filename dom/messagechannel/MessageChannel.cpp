@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

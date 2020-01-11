@@ -7,6 +7,13 @@ mozilla_Selection_h__
 #
 include
 "
+nsIWeakReference
+.
+h
+"
+#
+include
+"
 mozilla
 /
 AccessibleCaretEventHub

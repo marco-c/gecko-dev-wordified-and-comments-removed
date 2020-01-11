@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIContentPolicy
+.
+h
+"
+#
+include
+"
 nsIContentSecurityPolicy
 .
 h

@@ -7,6 +7,13 @@ mozilla_CamerasParent_h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 VideoEngine
 .
 h

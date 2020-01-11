@@ -92,6 +92,13 @@ h
 #
 include
 "
+nsIEventTarget
+.
+h
+"
+#
+include
+"
 nsIRunnable
 .
 h

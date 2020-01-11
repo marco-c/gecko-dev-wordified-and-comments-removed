@@ -34,6 +34,13 @@ nsIWebBrowserPersistDocument
 .
 h
 "
+#
+include
+"
+nsIContentPolicy
+.
+h
+"
 namespace
 mozilla
 {

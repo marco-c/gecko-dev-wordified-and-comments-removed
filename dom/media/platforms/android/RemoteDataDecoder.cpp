@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsIGfxInfo
+.
+h
+"
+#
+include
+"
 nsPromiseFlatString
 .
 h

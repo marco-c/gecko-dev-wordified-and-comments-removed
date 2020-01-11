@@ -79,6 +79,13 @@ nsIInputStream
 .
 h
 "
+#
+include
+"
+nsIWebVTTParserWrapper
+.
+h
+"
 extern
 mozilla
 :

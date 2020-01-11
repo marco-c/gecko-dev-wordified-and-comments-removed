@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIComponentManager
+.
+h
+"
+#
+include
+"
 nsIWeakReferenceUtils
 .
 h

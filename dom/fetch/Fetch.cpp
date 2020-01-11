@@ -26,6 +26,13 @@ h
 #
 include
 "
+nsIStreamLoader
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h

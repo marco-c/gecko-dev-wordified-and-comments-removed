@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h

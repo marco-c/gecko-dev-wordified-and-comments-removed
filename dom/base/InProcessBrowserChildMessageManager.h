@@ -80,6 +80,13 @@ h
 #
 include
 "
+nsIClassInfo
+.
+h
+"
+#
+include
+"
 nsDocShell
 .
 h
@@ -88,6 +95,13 @@ h
 include
 "
 nsCOMArray
+.
+h
+"
+#
+include
+"
+nsIRunnable
 .
 h
 "

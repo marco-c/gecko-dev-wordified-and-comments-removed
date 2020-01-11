@@ -69,6 +69,13 @@ h
 #
 include
 "
+nsIDOMNavigatorUserMedia
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h

@@ -299,6 +299,13 @@ nsDeque
 .
 h
 "
+#
+include
+"
+nsISHistoryListener
+.
+h
+"
 class
 nsBrowserStatusFilter
 ;

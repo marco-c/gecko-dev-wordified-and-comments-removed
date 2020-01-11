@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIPropertyBag2
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

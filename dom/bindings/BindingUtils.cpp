@@ -152,6 +152,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIDOMGlobalPropertyInitializer
 .
 h
@@ -160,6 +167,13 @@ h
 include
 "
 nsINode
+.
+h
+"
+#
+include
+"
+nsIPermissionManager
 .
 h
 "

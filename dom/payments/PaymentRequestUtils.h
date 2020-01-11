@@ -7,6 +7,13 @@ mozilla_dom_PaymentRequestUtils_h
 #
 include
 "
+nsIArray
+.
+h
+"
+#
+include
+"
 nsTArray
 .
 h

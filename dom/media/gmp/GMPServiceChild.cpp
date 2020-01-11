@@ -38,6 +38,13 @@ h
 #
 include
 "
+mozIGeckoMediaPluginService
+.
+h
+"
+#
+include
+"
 mozIGeckoMediaPluginChromeService
 .
 h

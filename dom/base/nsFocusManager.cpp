@@ -68,6 +68,13 @@ h
 #
 include
 "
+nsIDOMChromeWindow
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

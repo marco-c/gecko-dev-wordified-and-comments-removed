@@ -34,6 +34,13 @@ h
 #
 include
 "
+nsIServiceManager
+.
+h
+"
+#
+include
+"
 nsAtom
 .
 h
@@ -53,6 +60,13 @@ h
 include
 "
 nsIControllers
+.
+h
+"
+#
+include
+"
+nsIDOMXULMultSelectCntrlEl
 .
 h
 "

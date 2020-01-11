@@ -19,6 +19,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 nsIScriptElement
 .
 h
@@ -76,6 +83,13 @@ h
 include
 "
 txLog
+.
+h
+"
+#
+include
+"
+nsIConsoleService
 .
 h
 "

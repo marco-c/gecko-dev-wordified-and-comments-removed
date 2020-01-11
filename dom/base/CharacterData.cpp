@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsIURI
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

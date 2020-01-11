@@ -101,6 +101,9 @@ class
 nsIContent
 ;
 class
+nsIDocShellTreeItem
+;
+class
 nsPIDOMWindowOuter
 ;
 namespace

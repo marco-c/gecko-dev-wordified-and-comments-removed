@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsISupportsPrimitives
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h

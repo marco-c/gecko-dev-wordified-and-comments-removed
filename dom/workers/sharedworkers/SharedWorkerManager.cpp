@@ -73,6 +73,13 @@ h
 #
 include
 "
+nsINetworkInterceptController
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h

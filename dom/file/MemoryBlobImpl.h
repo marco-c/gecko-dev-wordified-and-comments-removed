@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsISeekableStream
 .
 h

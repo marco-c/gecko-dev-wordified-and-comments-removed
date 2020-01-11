@@ -143,6 +143,13 @@ h
 #
 include
 "
+nsIContentPermissionPrompt
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes

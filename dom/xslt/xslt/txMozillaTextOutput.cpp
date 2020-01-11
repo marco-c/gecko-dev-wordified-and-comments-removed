@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 txURIUtils
 .
 h

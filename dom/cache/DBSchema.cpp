@@ -164,6 +164,13 @@ h
 #
 include
 "
+mozIThirdPartyUtil
+.
+h
+"
+#
+include
+"
 mozStorageHelper
 .
 h
