@@ -100,6 +100,25 @@ script
 src
 =
 "
+/
+web
+-
+animations
+/
+testcommon
+.
+js
+"
+>
+<
+/
+script
+>
+<
+script
+src
+=
+"
 .
 /
 resources
@@ -1602,7 +1621,7 @@ scrollLeft
 -
 50
 ;
-assert_equals
+assert_times_equal
 (
 lengthScrollTimeline
 .
@@ -1710,7 +1729,7 @@ scrollLeft
 scrollerSize
 )
 ;
-assert_equals
+assert_times_equal
 (
 percentageScrollTimeline
 .
@@ -1830,7 +1849,7 @@ scrollLeft
 scrollerSize
 )
 ;
-assert_equals
+assert_times_equal
 (
 calcScrollTimeline
 .
@@ -2165,7 +2184,7 @@ scrollLeft
 -
 scrollerSize
 ;
-assert_equals
+assert_times_equal
 (
 lengthScrollTimeline
 .
@@ -2274,7 +2293,7 @@ scrollerSize
 -
 scrollerSize
 ;
-assert_equals
+assert_times_equal
 (
 percentageScrollTimeline
 .
@@ -2392,7 +2411,7 @@ scrollLeft
 *
 scrollerSize
 ;
-assert_equals
+assert_times_equal
 (
 calcScrollTimeline
 .
@@ -2740,7 +2759,7 @@ scrollerSize
 scrollerSize
 )
 ;
-assert_equals
+assert_times_equal
 (
 inclusiveAutoScrollTimeline
 .
@@ -2757,7 +2776,7 @@ point
 '
 )
 ;
-assert_equals
+assert_times_equal
 (
 inclusiveLengthScrollTimeline
 .
@@ -2776,7 +2795,7 @@ point
 '
 )
 ;
-assert_equals
+assert_times_equal
 (
 inclusivePercentageScrollTimeline
 .
@@ -2795,7 +2814,7 @@ point
 '
 )
 ;
-assert_equals
+assert_times_equal
 (
 inclusiveCalcScrollTimeline
 .
