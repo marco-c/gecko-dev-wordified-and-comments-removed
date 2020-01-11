@@ -497,6 +497,11 @@ prog
 name
 )
 :
+if
+not
+prog
+:
+return
 def
 from_rustup_which
 (
@@ -773,6 +778,11 @@ rustc_info
 rustc
 )
 :
+if
+not
+rustc
+:
+return
 out
 =
 check_cmd_output
@@ -904,6 +914,10 @@ info
 .
 version
 )
+if
+info
+else
+None
 )
 )
 depends_if
@@ -935,6 +949,11 @@ cargo_info
 cargo
 )
 :
+if
+not
+cargo
+:
+return
 out
 =
 check_cmd_output
