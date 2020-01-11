@@ -84,6 +84,8 @@ LocalizedPreprocessedFiles
     
 LocalizedFiles
     
+SandboxedWasmLibrary
+    
 SharedLibrary
     
 StaticLibrary
@@ -1392,6 +1394,8 @@ lib
 (
 HostLibrary
 StaticLibrary
+                                
+SandboxedWasmLibrary
 )
 )
 :
@@ -1513,6 +1517,8 @@ input_bin
 (
 HostLibrary
 StaticLibrary
+                                                 
+SandboxedWasmLibrary
 )
 )
         
@@ -1531,6 +1537,8 @@ lib
 (
 HostLibrary
 StaticLibrary
+                                
+SandboxedWasmLibrary
 )
 )
 :

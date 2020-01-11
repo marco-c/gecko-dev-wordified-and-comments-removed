@@ -1898,6 +1898,15 @@ s
 s
 )
 )
+set_config
+(
+'
+WASM_OBJ_SUFFIX
+'
+'
+wasm
+'
+)
 include
 (
 include_project_configure
