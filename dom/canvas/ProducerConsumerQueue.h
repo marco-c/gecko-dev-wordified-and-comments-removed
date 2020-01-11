@@ -5174,13 +5174,8 @@ aArgs
 status
 ;
 }
-template
-<
->
 PcqStatus
 TryPeekRemoveHelper
-<
->
 (
 ConsumerView
 &
