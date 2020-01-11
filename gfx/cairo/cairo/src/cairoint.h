@@ -938,6 +938,9 @@ v
 {
 return
 (
+(
+uint32_t
+)
 cpu_to_be16
 (
 v
