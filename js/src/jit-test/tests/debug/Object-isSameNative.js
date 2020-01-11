@@ -255,12 +255,6 @@ push
 "
 sort
 "
-"
-print
-"
-"
-print
-"
 ]
 )
 ;
