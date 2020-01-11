@@ -288,10 +288,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -1428,9 +1424,6 @@ PreTraverseSync
 (
 )
 {
-mozilla
-:
-:
 Unused
 <
 <
@@ -4213,9 +4206,6 @@ Element
 *
 aElement
 const
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle
@@ -4404,9 +4394,6 @@ RawServoDeclarationBlock
 *
 aDeclarations
 const
-mozilla
-:
-:
 ComputedStyle
 *
 aStyle

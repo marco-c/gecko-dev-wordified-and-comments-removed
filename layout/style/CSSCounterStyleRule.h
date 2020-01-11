@@ -217,11 +217,7 @@ CSS_COUNTER_DESC
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
-aMallocSizeOf
 )
 const
 final

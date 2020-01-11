@@ -93,9 +93,6 @@ final
 public
 DOMEventTargetHelper
 public
-mozilla
-:
-:
 LinkedListElement
 <
 MediaQueryList

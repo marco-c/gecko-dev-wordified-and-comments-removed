@@ -479,9 +479,6 @@ GetCssRulesInternal
 (
 )
 ;
-mozilla
-:
-:
 StyleOrigin
 GetOrigin
 (
@@ -526,9 +523,6 @@ return
 mParsingMode
 ;
 }
-mozilla
-:
-:
 dom
 :
 :
@@ -1820,9 +1814,6 @@ mParsePromise
 ;
 friend
 struct
-mozilla
-:
-:
 StyleSheetInfo
 ;
 }

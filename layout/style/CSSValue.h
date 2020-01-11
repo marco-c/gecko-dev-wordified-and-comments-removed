@@ -69,9 +69,6 @@ GetCssText
 nsString
 &
 aText
-mozilla
-:
-:
 ErrorResult
 &
 aRv

@@ -260,14 +260,12 @@ class
 Loader
 final
 {
-typedef
-mozilla
-:
-:
+using
+ReferrerPolicy
+=
 dom
 :
 :
-ReferrerPolicy
 ReferrerPolicy
 ;
 public
@@ -335,9 +333,6 @@ Loader
 explicit
 Loader
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -348,9 +343,6 @@ DocGroup
 explicit
 Loader
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -590,9 +582,6 @@ mEnabled
 aEnabled
 ;
 }
-mozilla
-:
-:
 dom
 :
 :
@@ -652,9 +641,6 @@ LoadDataArray
 size_t
 SizeOfIncludingThis
 (
-mozilla
-:
-:
 MallocSizeOf
 aMallocSizeOf
 )
@@ -1001,9 +987,6 @@ nsICSSLoaderObserver
 >
 mObservers
 ;
-mozilla
-:
-:
 dom
 :
 :
@@ -1014,9 +997,6 @@ mDocument
 ;
 RefPtr
 <
-mozilla
-:
-:
 dom
 :
 :

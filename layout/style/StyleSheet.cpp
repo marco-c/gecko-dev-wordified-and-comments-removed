@@ -860,9 +860,6 @@ NS_IMPL_CYCLE_COLLECTION_TRACE_WRAPPERCACHE
 (
 StyleSheet
 )
-mozilla
-:
-:
 dom
 :
 :
@@ -930,9 +927,6 @@ values
 ;
 CHECK_MODE
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -948,9 +942,6 @@ eAgentSheetFeatures
 ;
 CHECK_MODE
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -966,9 +957,6 @@ eUserSheetFeatures
 ;
 CHECK_MODE
 (
-mozilla
-:
-:
 dom
 :
 :
@@ -988,9 +976,6 @@ CHECK_MODE
 return
 static_cast
 <
-mozilla
-:
-:
 dom
 :
 :

@@ -4040,9 +4040,6 @@ SRILogHelper
 GetSriLog
 (
 )
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -4099,9 +4096,6 @@ SRILogHelper
 GetSriLog
 (
 )
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -5186,9 +5180,6 @@ SRI
 MOZ_LOG
 (
 gSriPRLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -5768,9 +5759,6 @@ IsEmpty
 MOZ_LOG
 (
 gSriPRLog
-mozilla
-:
-:
 LogLevel
 :
 :
@@ -6726,9 +6714,6 @@ if
 mDocument
 )
 {
-mozilla
-:
-:
 net
 :
 :
@@ -7964,9 +7949,6 @@ if
 mDocument
 )
 {
-mozilla
-:
-:
 net
 :
 :

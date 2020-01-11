@@ -51,15 +51,8 @@ public
 :
 FontFaceSetIterator
 (
-mozilla
-:
-:
-dom
-:
-:
 FontFaceSet
 *
-aFontFaceSet
 bool
 aIsKeyAndValue
 )
@@ -107,9 +100,6 @@ aCx
 FontFaceSetIteratorResult
 &
 aResult
-mozilla
-:
-:
 ErrorResult
 &
 aRv
