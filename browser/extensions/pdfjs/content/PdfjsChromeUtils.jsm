@@ -1989,7 +1989,7 @@ fallback
 null
 notificationBox
 .
-PRIORITY_INFO_LOW
+PRIORITY_WARNING_LOW
 buttons
 function
 eventsCallback
