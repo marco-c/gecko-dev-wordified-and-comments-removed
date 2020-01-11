@@ -2855,7 +2855,7 @@ bc
 bc
 -
 >
-GetLoading
+IsLoading
 (
 )
 )

@@ -1101,6 +1101,11 @@ return
 mInRDMPane
 ;
 }
+bool
+IsLoading
+(
+)
+;
 BrowsingContext
 *
 FindWithName

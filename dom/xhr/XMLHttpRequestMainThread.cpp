@@ -10313,7 +10313,7 @@ bc
 bc
 -
 >
-GetLoading
+IsLoading
 (
 )
 )
