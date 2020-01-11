@@ -1002,6 +1002,8 @@ select
 dispatchEvent
 (
 new
+content
+.
 Event
 (
 "
@@ -1317,6 +1319,8 @@ else
 ev
 =
 new
+content
+.
 Event
 (
 test

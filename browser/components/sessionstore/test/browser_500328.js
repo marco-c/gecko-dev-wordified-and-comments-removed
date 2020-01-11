@@ -53,7 +53,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+content
 "
 popstate
 "
@@ -241,7 +241,7 @@ ContentTaskUtils
 .
 waitForEvent
 (
-this
+content
 "
 popstate
 "
