@@ -1280,7 +1280,9 @@ const
 computedStyle
 =
 await
-inspector
+highlightedNode
+.
+inspectorFront
 .
 pageStyle
 .
