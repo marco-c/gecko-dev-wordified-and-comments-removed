@@ -197,10 +197,6 @@ mExpired
 (
 false
 )
-mSaveLayoutState
-(
-true
-)
 {
 }
 SHEntrySharedParentState
@@ -257,13 +253,6 @@ aEntry
 -
 >
 mCsp
-;
-mSaveLayoutState
-=
-aEntry
--
->
-mSaveLayoutState
 ;
 mContentType
 .

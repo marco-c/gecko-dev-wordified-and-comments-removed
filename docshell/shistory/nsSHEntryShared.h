@@ -226,12 +226,6 @@ nsIContentSecurityPolicy
 >
 mCsp
 ;
-nsCOMPtr
-<
-nsILayoutHistoryState
->
-mLayoutHistoryState
-;
 nsCString
 mContentType
 ;
@@ -261,9 +255,6 @@ mDynamicallyCreated
 ;
 bool
 mExpired
-;
-bool
-mSaveLayoutState
 ;
 }
 ;
