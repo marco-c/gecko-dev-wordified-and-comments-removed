@@ -424,7 +424,7 @@ tools
 /
 tryselect
 /
-excludes
+exclude
 :
 -
 tools
