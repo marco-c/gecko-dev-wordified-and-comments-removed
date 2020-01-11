@@ -1442,6 +1442,10 @@ return
 }
 if
 (
+!
+mTrackMain
+|
+|
 mTrackMain
 -
 >
