@@ -25247,7 +25247,7 @@ MOZ_ASSERT
 fun
 -
 >
-hasUncompletedScript
+isIncomplete
 (
 )
 )
@@ -28955,18 +28955,7 @@ MOZ_ASSERT
 fun
 -
 >
-isInterpreted
-(
-)
-)
-;
-MOZ_ASSERT
-(
-!
-fun
--
->
-hasScript
+isIncomplete
 (
 )
 |
@@ -28974,7 +28963,7 @@ hasScript
 fun
 -
 >
-hasUncompletedScript
+hasSelfHostedLazyScript
 (
 )
 )
