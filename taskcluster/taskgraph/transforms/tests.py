@@ -1342,9 +1342,6 @@ projects
 :
 [
 '
-ash
-'
-'
 try
 '
 ]
