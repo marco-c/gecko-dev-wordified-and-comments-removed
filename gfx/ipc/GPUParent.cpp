@@ -840,6 +840,13 @@ Initialize
 (
 )
 ;
+CompositorBridgeParent
+:
+:
+InitializeStatics
+(
+)
+;
 mozilla
 :
 :
