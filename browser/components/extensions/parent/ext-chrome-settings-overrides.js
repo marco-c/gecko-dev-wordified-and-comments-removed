@@ -392,6 +392,11 @@ page
 =
 =
 1
+&
+&
+windowTracker
+.
+topWindow
 )
 {
 let

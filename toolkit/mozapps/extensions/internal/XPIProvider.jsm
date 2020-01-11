@@ -6162,6 +6162,15 @@ inSafeMode
 &
 !
 runInSafeMode
+&
+&
+aMethod
+!
+=
+=
+"
+uninstall
+"
 )
 {
 return

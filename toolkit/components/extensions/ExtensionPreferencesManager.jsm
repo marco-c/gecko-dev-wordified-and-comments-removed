@@ -218,6 +218,7 @@ on
 "
 uninstall
 "
+async
 (
 type
 {
@@ -227,6 +228,16 @@ id
 =
 >
 {
+await
+Management
+.
+asyncLoadSettingsModules
+(
+)
+;
+return
+this
+.
 ExtensionPreferencesManager
 .
 removeAll

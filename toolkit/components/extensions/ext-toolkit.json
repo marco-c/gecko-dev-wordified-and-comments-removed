@@ -196,6 +196,11 @@ addon_parent
 "
 ]
 "
+settings
+"
+:
+true
+"
 paths
 "
 :
@@ -393,6 +398,11 @@ scopes
 addon_parent
 "
 ]
+"
+settings
+"
+:
+true
 "
 events
 "
@@ -1213,6 +1223,11 @@ addon_parent
 "
 ]
 "
+settings
+"
+:
+true
+"
 paths
 "
 :
@@ -1342,6 +1357,11 @@ scopes
 addon_parent
 "
 ]
+"
+settings
+"
+:
+true
 "
 paths
 "

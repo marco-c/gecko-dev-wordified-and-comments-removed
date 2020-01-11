@@ -343,6 +343,11 @@ chrome_settings_overrides
 json
 "
 "
+settings
+"
+:
+true
+"
 manifest
 "
 :
@@ -1815,6 +1820,11 @@ scopes
 addon_parent
 "
 ]
+"
+settings
+"
+:
+true
 "
 paths
 "
