@@ -190,7 +190,7 @@ windows10
 -
 ccov
 /
-debug
+opt
 :
 -
 talos
