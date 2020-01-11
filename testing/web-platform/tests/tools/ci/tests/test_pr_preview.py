@@ -1272,7 +1272,7 @@ env
 {
         
 '
-GITHUB_TOKEN
+DEPLOY_TOKEN
 '
 :
 '
@@ -1660,7 +1660,7 @@ env
 {
         
 '
-GITHUB_TOKEN
+DEPLOY_TOKEN
 '
 :
 '

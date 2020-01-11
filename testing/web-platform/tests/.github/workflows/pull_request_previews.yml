@@ -211,7 +211,7 @@ that
 trigger
 -
 workflows
-GITHUB_TOKEN
+DEPLOY_TOKEN
 :
 {
 {

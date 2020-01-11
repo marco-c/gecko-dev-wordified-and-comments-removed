@@ -117,13 +117,11 @@ github_token
 os
 .
 environ
-.
-get
-(
+[
 '
-GITHUB_TOKEN
+DEPLOY_TOKEN
 '
-)
+]
     
 kwargs
 =
@@ -1220,13 +1218,11 @@ _token
 os
 .
 environ
-.
-get
-(
+[
 '
-GITHUB_TOKEN
+DEPLOY_TOKEN
 '
-)
+]
     
 def
 get_revision

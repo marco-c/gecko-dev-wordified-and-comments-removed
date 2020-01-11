@@ -142,7 +142,7 @@ timeout
 600
 env
 :
-GITHUB_TOKEN
+DEPLOY_TOKEN
 :
 {
 {
