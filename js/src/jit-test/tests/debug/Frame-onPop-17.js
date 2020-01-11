@@ -42,7 +42,9 @@ print
 store
 "
 +
-uneval
+JSON
+.
+stringify
 (
 badValue
 )

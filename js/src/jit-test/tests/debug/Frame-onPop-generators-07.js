@@ -147,7 +147,9 @@ yielding
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 completions
 )

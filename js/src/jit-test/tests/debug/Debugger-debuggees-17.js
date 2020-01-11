@@ -28,7 +28,9 @@ check
 (
 "
 +
-uneval
+JSON
+.
+stringify
 (
 bad
 )

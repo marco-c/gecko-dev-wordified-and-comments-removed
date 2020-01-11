@@ -33,7 +33,9 @@ type
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 type
 )
@@ -46,7 +48,9 @@ provocation
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 provocation
 )
