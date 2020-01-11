@@ -272,19 +272,11 @@ ShowPrintDialog
 mozIDOMWindowProxy
 *
 parent
-nsIWebBrowserPrint
-*
-webBrowserPrint
 nsIPrintSettings
 *
 printSettings
 )
 {
-NS_ENSURE_ARG
-(
-webBrowserPrint
-)
-;
 NS_ENSURE_ARG
 (
 printSettings
@@ -320,7 +312,6 @@ From
 parent
 )
 printSettings
-webBrowserPrint
 )
 ;
 return

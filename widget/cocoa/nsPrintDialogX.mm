@@ -181,13 +181,6 @@ h
 #
 include
 "
-nsIWebBrowserPrint
-.
-h
-"
-#
-include
-"
 nsCRT
 .
 h
@@ -267,9 +260,6 @@ aParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT

@@ -4045,18 +4045,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-nsCOMPtr
-<
-nsIWebBrowserPrint
->
-wbp
-(
-do_QueryInterface
-(
-mDocViewerPrint
-)
-)
-;
 rv
 =
 printPromptService
@@ -4065,7 +4053,6 @@ printPromptService
 ShowPrintDialog
 (
 domWin
-wbp
 printData
 -
 >

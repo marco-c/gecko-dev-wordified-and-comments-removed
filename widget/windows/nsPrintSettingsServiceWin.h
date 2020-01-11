@@ -26,9 +26,6 @@ class
 nsIPrintSettings
 ;
 class
-nsIWebBrowserPrint
-;
-class
 nsPrintSettingsServiceWin
 final
 :
@@ -48,9 +45,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 mozilla
 :
 :

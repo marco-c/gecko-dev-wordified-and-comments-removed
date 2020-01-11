@@ -42,9 +42,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 mozilla
 :
 :

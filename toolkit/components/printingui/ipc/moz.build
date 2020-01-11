@@ -129,11 +129,6 @@ nsPrintingProxy
 cpp
 '
 '
-PrintDataUtils
-.
-cpp
-'
-'
 PrintingParent
 .
 cpp

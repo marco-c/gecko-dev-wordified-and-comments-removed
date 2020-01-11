@@ -17,9 +17,6 @@ nsPIDOMWindowOuter
 class
 nsIPrintSettings
 ;
-class
-nsIWebBrowserPrint
-;
 #
 define
 NS_IPRINTDIALOGSERVICE_IID
@@ -71,9 +68,6 @@ aParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 )
 =
 0

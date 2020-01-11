@@ -779,9 +779,6 @@ in
 mozIDOMWindowProxy
 parent
 in
-nsIWebBrowserPrint
-webBrowserPrint
-in
 nsIPrintSettings
 printSettings
 )

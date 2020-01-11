@@ -9,9 +9,6 @@ NativeShowPrintDialog
 (
 HWND
 aHWnd
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 nsIPrintSettings
 *
 aPrintSettings

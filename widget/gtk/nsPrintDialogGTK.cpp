@@ -4794,9 +4794,6 @@ aParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWebBrowserPrint
 )
 {
 MOZ_ASSERT

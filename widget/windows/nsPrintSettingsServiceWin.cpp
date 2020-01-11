@@ -36,7 +36,7 @@ h
 #
 include
 "
-nsIWebBrowserPrint
+nsIServiceManager
 .
 h
 "
@@ -90,9 +90,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 PrintData
 *
 data
@@ -107,7 +104,6 @@ nsPrintSettingsService
 SerializeToPrintData
 (
 aSettings
-aWBP
 data
 )
 ;

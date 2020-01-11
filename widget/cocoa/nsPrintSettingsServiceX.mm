@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIWebBrowserPrint
-.
-h
-"
-#
-include
-"
 nsCocoaUtils
 .
 h
@@ -151,9 +144,6 @@ SerializeToPrintData
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 PrintData
 *
 data
@@ -168,7 +158,6 @@ nsPrintSettingsService
 SerializeToPrintData
 (
 aSettings
-aWBP
 data
 )
 ;
@@ -256,7 +245,6 @@ return
 SerializeToPrintDataParent
 (
 aSettings
-aWBP
 data
 )
 ;
@@ -274,9 +262,6 @@ SerializeToPrintDataParent
 nsIPrintSettings
 *
 aSettings
-nsIWebBrowserPrint
-*
-aWBP
 PrintData
 *
 data
