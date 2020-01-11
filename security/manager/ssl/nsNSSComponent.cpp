@@ -6776,7 +6776,7 @@ const
 uint32_t
 PSM_DEFAULT_MIN_TLS_VERSION
 =
-1
+3
 ;
 static
 const
@@ -6784,6 +6784,13 @@ uint32_t
 PSM_DEFAULT_MAX_TLS_VERSION
 =
 4
+;
+static
+const
+uint32_t
+PSM_DEPRECATED_TLS_VERSION
+=
+1
 ;
 uint32_t
 minFromPrefs
@@ -6860,7 +6867,7 @@ std
 min
 (
 minFromPrefs
-PSM_DEFAULT_MIN_TLS_VERSION
+PSM_DEPRECATED_TLS_VERSION
 )
 ;
 }
