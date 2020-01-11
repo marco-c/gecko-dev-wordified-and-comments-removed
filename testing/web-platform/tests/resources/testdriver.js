@@ -875,7 +875,7 @@ set_permission
 :
 function
 (
-name
+descriptor
 state
 one_realm
 )
@@ -885,14 +885,6 @@ permission_params
 =
 {
 descriptor
-:
-{
-name
-:
-name
-}
-state
-:
 state
 oneRealm
 :

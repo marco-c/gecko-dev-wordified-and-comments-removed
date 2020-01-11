@@ -1350,7 +1350,7 @@ def
 set_permission
 (
 self
-name
+descriptor
 state
 one_realm
 )
@@ -1364,15 +1364,7 @@ permission_params_dict
 descriptor
 "
 :
-{
-                
-"
-name
-"
-:
-name
-            
-}
+descriptor
             
 "
 state

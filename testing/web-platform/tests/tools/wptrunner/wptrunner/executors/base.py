@@ -5450,7 +5450,7 @@ set_permission
 .
 set_permission
 (
-name
+descriptor
 state
 one_realm
 )

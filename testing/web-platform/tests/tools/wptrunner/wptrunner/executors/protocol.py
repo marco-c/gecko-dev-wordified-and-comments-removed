@@ -1887,7 +1887,7 @@ def
 set_permission
 (
 self
-name
+descriptor
 state
 one_realm
 =
@@ -1905,15 +1905,11 @@ state
         
 :
 param
-name
+descriptor
 :
-The
-name
-of
-the
-permission
-to
-set
+A
+PermissionDescriptor
+object
 .
         
 :
