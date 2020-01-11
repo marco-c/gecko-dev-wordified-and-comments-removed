@@ -1440,7 +1440,7 @@ null
 }
 ;
 function
-CustomHost
+BrowserToolboxHost
 (
 hostTab
 options
@@ -1470,7 +1470,7 @@ this
 )
 ;
 }
-CustomHost
+BrowserToolboxHost
 .
 prototype
 =
@@ -1478,7 +1478,7 @@ prototype
 type
 :
 "
-custom
+browsertoolbox
 "
 _sendMessageToTopWindow
 :
@@ -1850,9 +1850,9 @@ RightHost
 window
 :
 WindowHost
-custom
+browsertoolbox
 :
-CustomHost
+BrowserToolboxHost
 page
 :
 PageHost

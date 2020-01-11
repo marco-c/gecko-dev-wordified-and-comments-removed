@@ -1086,7 +1086,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 toolboxOptions
 )
 ;

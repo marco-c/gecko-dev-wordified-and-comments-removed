@@ -601,7 +601,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 )
 {
 this
@@ -1046,7 +1046,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 &
 &
 this
@@ -1155,7 +1155,7 @@ Toolbox
 .
 HostType
 .
-CUSTOM
+BROWSERTOOLBOX
 &
 &
 hostType
