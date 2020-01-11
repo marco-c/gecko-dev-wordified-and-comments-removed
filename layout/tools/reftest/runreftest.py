@@ -1576,16 +1576,6 @@ testPath
 )
 :
                 
-manifest
-=
-self
-.
-manifestURL
-(
-options
-manifest
-)
-                
 if
 manifest
 not
@@ -1612,6 +1602,11 @@ add
 filter_str
 )
         
+manifests_by_url
+=
+{
+}
+        
 for
 key
 in
@@ -1621,6 +1616,48 @@ iterkeys
 (
 )
 :
+            
+id
+=
+os
+.
+path
+.
+relpath
+(
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+key
+)
+)
+options
+.
+topsrcdir
+)
+            
+id
+=
+id
+.
+replace
+(
+os
+.
+sep
+posixpath
+.
+sep
+)
             
 if
 None
@@ -1636,7 +1673,10 @@ manifests
 key
 ]
 =
+(
 None
+id
+)
             
 else
 :
@@ -1646,6 +1686,7 @@ manifests
 key
 ]
 =
+(
 "
 |
 "
@@ -1660,9 +1701,31 @@ key
 ]
 )
 )
+id
+)
+            
+url
+=
+self
+.
+manifestURL
+(
+options
+key
+)
+            
+manifests_by_url
+[
+url
+]
+=
+manifests
+[
+key
+]
         
 return
-manifests
+manifests_by_url
 class
 RefTest
 (
@@ -3260,13 +3323,9 @@ stack
 "
         
 if
-hasattr
-(
 options
-"
+.
 topsrcdir
-"
-)
 :
             
 browserEnv
@@ -4405,9 +4464,12 @@ manifests
 "
 ]
 =
+(
 options
 .
 filter
+None
+)
         
 if
 not

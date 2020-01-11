@@ -1373,6 +1373,18 @@ suite
 =
 crashtest
 "
+                        
+"
+-
+-
+topsrcdir
+=
+tests
+/
+reftest
+/
+tests
+"
 ]
             
 '
@@ -1425,6 +1437,12 @@ jsreftest
 /
 tests
 /
+js
+/
+src
+/
+tests
+/
 user
 .
 js
@@ -1437,6 +1455,18 @@ suite
 =
 jstestbrowser
 "
+                       
+"
+-
+-
+topsrcdir
+=
+tests
+/
+jsreftest
+/
+tests
+"
 ]
             
 '
@@ -1448,6 +1478,12 @@ tests
 tests
 /
 jsreftest
+/
+tests
+/
+js
+/
+src
 /
 tests
 /
@@ -1476,6 +1512,18 @@ options
 suite
 =
 reftest
+"
+                        
+"
+-
+-
+topsrcdir
+=
+tests
+/
+reftest
+/
+tests
 "
 ]
             

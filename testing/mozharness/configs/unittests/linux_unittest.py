@@ -1733,6 +1733,18 @@ suite
 =
 crashtest
 "
+                        
+"
+-
+-
+topsrcdir
+=
+tests
+/
+reftest
+/
+tests
+"
 ]
             
 "
@@ -1785,6 +1797,12 @@ jsreftest
 /
 tests
 /
+js
+/
+src
+/
+tests
+/
 user
 .
 js
@@ -1797,6 +1815,18 @@ suite
 =
 jstestbrowser
 "
+                       
+"
+-
+-
+topsrcdir
+=
+tests
+/
+jsreftest
+/
+tests
+"
 ]
             
 "
@@ -1808,6 +1838,12 @@ tests
 tests
 /
 jsreftest
+/
+tests
+/
+js
+/
+src
 /
 tests
 /
@@ -1852,6 +1888,18 @@ force
 enabled
 =
 true
+"
+                        
+"
+-
+-
+topsrcdir
+=
+tests
+/
+reftest
+/
+tests
 "
 ]
             
@@ -1914,6 +1962,18 @@ acceleration
 disabled
 =
 true
+"
+                        
+"
+-
+-
+topsrcdir
+=
+tests
+/
+reftest
+/
+tests
 "
 ]
             

@@ -158,6 +158,12 @@ PKG_STAGE
 jsreftest
 /
 tests
+/
+js
+/
+src
+/
+tests
 (
 cd
 (
@@ -182,6 +188,12 @@ PKG_STAGE
 )
 /
 jsreftest
+/
+tests
+/
+js
+/
+src
 /
 tests
 &
@@ -214,3 +226,8 @@ jsreftest
 /
 tests
 /
+js
+/
+src
+/
+tests
