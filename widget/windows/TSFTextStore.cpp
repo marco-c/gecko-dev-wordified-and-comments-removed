@@ -4099,9 +4099,6 @@ IS_XML
 ;
 break
 ;
-#
-ifndef
-__MINGW32__
 case
 IS_PRIVATE
 :
@@ -4114,8 +4111,6 @@ IS_PRIVATE
 ;
 break
 ;
-#
-endif
 default
 :
 AppendPrintf
@@ -21169,9 +21164,6 @@ Clear
 (
 )
 ;
-#
-ifndef
-__MINGW32__
 if
 (
 aInPrivateBrowsing
@@ -21185,8 +21177,6 @@ IS_PRIVATE
 )
 ;
 }
-#
-endif
 if
 (
 aHTMLInputType

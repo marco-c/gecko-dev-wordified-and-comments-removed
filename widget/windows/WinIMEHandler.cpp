@@ -2550,9 +2550,6 @@ InputScope
 >
 scopes
 ;
-#
-ifndef
-__MINGW32__
 if
 (
 aInPrivateBrowsing
@@ -2566,8 +2563,6 @@ IS_PRIVATE
 )
 ;
 }
-#
-endif
 if
 (
 aHTMLInputType
