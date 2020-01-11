@@ -399,6 +399,13 @@ alreadyPaused
 return
 ;
 }
+if
+(
+packet
+.
+frame
+)
+{
 await
 actions
 .
@@ -416,6 +423,7 @@ where
 actor
 )
 ;
+}
 const
 pause
 =
