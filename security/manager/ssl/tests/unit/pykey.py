@@ -5130,6 +5130,11 @@ strip
 toPEM
 (
 )
++
+'
+\
+n
+'
 )
 if
 __name__
