@@ -1331,6 +1331,17 @@ true
 }
 break
 ;
+case
+JSOP_FINALLY
+:
+result
+.
+hasTryFinally
+=
+true
+;
+break
+;
 default
 :
 break
