@@ -66,6 +66,18 @@ gdebi
 \
 git
 \
+gstreamer1
+.
+0
+-
+plugins
+-
+bad
+\
+libosmesa6
+-
+dev
+\
 libvirt
 -
 daemon
@@ -75,6 +87,8 @@ system
 libvirt
 -
 clients
+\
+libunwind8
 \
 locales
 \

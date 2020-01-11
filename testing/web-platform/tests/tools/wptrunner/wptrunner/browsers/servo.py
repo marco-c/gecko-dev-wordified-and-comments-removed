@@ -309,6 +309,20 @@ capabilities
 =
 {
 }
+        
+rv
+[
+"
+webdriver_binary
+"
+]
+=
+kwargs
+[
+"
+binary
+"
+]
     
 return
 rv
