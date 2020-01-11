@@ -496,6 +496,12 @@ assign
 (
 {
 userFacingName
+userFacingDescription
+:
+{
+userFacingName
+}
+description
 slug
 branch
 :
@@ -520,6 +526,13 @@ experimentType
 "
 exp
 "
+enrollmentId
+:
+NormandyUtils
+.
+generateUuid
+(
+)
 }
 attrs
 {
