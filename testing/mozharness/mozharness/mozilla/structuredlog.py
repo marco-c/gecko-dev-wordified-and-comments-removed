@@ -740,16 +740,22 @@ items
 =
 set
 (
+list
+(
 old
 .
 keys
 (
 )
+)
 +
+list
+(
 new
 .
 keys
 (
+)
 )
 )
         
@@ -1336,7 +1342,7 @@ diagnostic_message
 in
 required_actions
 .
-iteritems
+items
 (
 )
 :

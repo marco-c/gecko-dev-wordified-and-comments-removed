@@ -14,8 +14,12 @@ API
 "
 import
 os
+from
+six
+.
+moves
 import
-urllib2
+urllib
 import
 json
 class
@@ -73,7 +77,9 @@ secret_name
         
 res
 =
-urllib2
+urllib
+.
+request
 .
 urlopen
 (
