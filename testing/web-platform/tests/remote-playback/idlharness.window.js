@@ -45,6 +45,9 @@ src
 getVideoURI
 (
 '
+/
+media
+/
 movie_5
 '
 )
