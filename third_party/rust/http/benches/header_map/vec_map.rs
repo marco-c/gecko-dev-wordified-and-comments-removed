@@ -157,6 +157,8 @@ K
 >
 Entry
 <
+'
+_
 K
 V
 >
@@ -417,6 +419,8 @@ slice
 :
 Iter
 <
+'
+_
 (
 K
 V
@@ -619,13 +623,7 @@ VacantEntry
 '
 a
 K
-:
-'
-a
 V
-:
-'
-a
 >
 {
 vec
@@ -728,13 +726,7 @@ OccupiedEntry
 '
 a
 K
-:
-'
-a
 V
-:
-'
-a
 >
 {
 vec

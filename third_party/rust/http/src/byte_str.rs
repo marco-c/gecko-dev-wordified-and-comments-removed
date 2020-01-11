@@ -320,9 +320,13 @@ bytes
 Bytes
 :
 :
-from
+copy_from_slice
 (
 src
+.
+as_bytes
+(
+)
 )
 }
 }

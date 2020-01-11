@@ -121,7 +121,6 @@ map_err
 |
 _
 |
-{
 ErrorKind
 :
 :
@@ -130,7 +129,6 @@ InvalidPort
 into
 (
 )
-}
 )
 }
 pub
@@ -188,6 +186,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >
@@ -245,6 +247,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

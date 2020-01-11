@@ -23,6 +23,12 @@ use
 std
 :
 :
+fmt
+;
+use
+std
+:
+:
 hash
 :
 :
@@ -30,12 +36,6 @@ hash
 BuildHasherDefault
 Hasher
 }
-;
-use
-std
-:
-:
-fmt
 ;
 type
 AnyMap
@@ -45,6 +45,7 @@ HashMap
 TypeId
 Box
 <
+dyn
 Any
 +
 Send
@@ -268,6 +269,7 @@ boxed
 as
 Box
 <
+dyn
 Any
 +
 '
@@ -364,6 +366,7 @@ boxed
 as
 &
 (
+dyn
 Any
 +
 '
@@ -450,6 +453,7 @@ as
 &
 mut
 (
+dyn
 Any
 +
 '
@@ -530,6 +534,7 @@ boxed
 as
 Box
 <
+dyn
 Any
 +
 '
@@ -612,6 +617,10 @@ fmt
 :
 :
 Formatter
+<
+'
+_
+>
 )
 -
 >

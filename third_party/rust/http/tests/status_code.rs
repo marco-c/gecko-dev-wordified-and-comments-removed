@@ -1,7 +1,3 @@
-extern
-crate
-http
-;
 use
 http
 :
