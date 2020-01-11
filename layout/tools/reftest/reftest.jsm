@@ -5394,6 +5394,13 @@ logFile
 close
 (
 )
+;
+g
+.
+logFile
+=
+null
+;
 }
 let
 appStartup
