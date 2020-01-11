@@ -1686,10 +1686,10 @@ will
 throw
 if
 .
-onStack
+terminated
 =
 =
-false
+true
 .
 #
 #
