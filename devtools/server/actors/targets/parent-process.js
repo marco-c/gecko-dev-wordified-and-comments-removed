@@ -205,7 +205,7 @@ true
 ;
 this
 .
-listenForNewDocShells
+watchNewDocShells
 =
 true
 ;
