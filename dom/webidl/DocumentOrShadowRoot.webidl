@@ -282,6 +282,14 @@ pointerLockElement
 ;
 [
 LenientSetter
+Func
+=
+"
+Document
+:
+:
+IsUnprefixedFullscreenEnabled
+"
 ]
 readonly
 attribute
