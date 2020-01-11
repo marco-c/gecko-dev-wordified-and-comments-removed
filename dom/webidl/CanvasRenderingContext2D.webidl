@@ -873,7 +873,7 @@ double
 w
 double
 h
-DOMString
+UTF8String
 bgColor
 optional
 unsigned
@@ -2395,7 +2395,7 @@ addColorStop
 (
 float
 offset
-DOMString
+UTF8String
 color
 )
 ;

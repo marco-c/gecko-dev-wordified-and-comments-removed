@@ -2421,7 +2421,7 @@ aW
 double
 aH
 const
-nsAString
+nsACString
 &
 aBgColor
 uint32_t
@@ -3246,7 +3246,7 @@ bool
 ParseColor
 (
 const
-nsAString
+nsACString
 &
 aString
 nscolor

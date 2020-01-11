@@ -571,7 +571,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsDependentAtomString
+nsAtomCString
 (
 mKey
 .

@@ -2743,7 +2743,7 @@ nsCSSProps
 :
 LookupProperty
 (
-nsDependentAtomString
+nsAtomCString
 (
 aProperty
 )

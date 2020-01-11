@@ -123,7 +123,7 @@ bool
 IsValidCSSColor
 (
 const
-nsAString
+nsACString
 &
 aValue
 )
@@ -138,7 +138,7 @@ aStyleSet
 nscolor
 aCurrentColor
 const
-nsAString
+nsACString
 &
 aValue
 nscolor

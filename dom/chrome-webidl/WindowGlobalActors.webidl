@@ -504,7 +504,7 @@ DOMRect
 rect
 double
 scale
-DOMString
+UTF8String
 backgroundColor
 )
 ;
