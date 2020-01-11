@@ -268,6 +268,13 @@ ABINonArgReg3
 static
 constexpr
 Register
+WasmJitEntryReturnScratch
+=
+t1
+;
+static
+constexpr
+Register
 InterpreterPCReg
 =
 t5
