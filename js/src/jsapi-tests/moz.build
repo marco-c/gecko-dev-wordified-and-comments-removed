@@ -342,7 +342,7 @@ testGCGrayMarking
 cpp
 '
 '
-testGCHeapPostBarriers
+testGCHeapBarriers
 .
 cpp
 '
