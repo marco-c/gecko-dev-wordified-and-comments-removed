@@ -3165,8 +3165,7 @@ dom
 :
 :
 Document
-*
-aDocument
+&
 void
 *
 aData
@@ -3260,8 +3259,7 @@ dom
 :
 :
 Document
-*
-aDocument
+&
 void
 *
 aData
@@ -3278,8 +3276,7 @@ dom
 :
 :
 Document
-*
-aDocument
+&
 void
 *
 aData
