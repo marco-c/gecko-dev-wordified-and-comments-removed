@@ -37,6 +37,17 @@ return
 true
 ;
 }
+bool
+IsOpened
+(
+)
+const
+override
+{
+return
+true
+;
+}
 }
 ;
 TEST

@@ -48,6 +48,13 @@ Open
 )
 override
 ;
+bool
+IsOpened
+(
+)
+const
+override
+;
 void
 OnKeyPressed
 (
