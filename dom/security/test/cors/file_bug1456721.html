@@ -483,10 +483,11 @@ loaderWindow
 .
 postMessage
 (
-req
+JSON
 .
-toSource
+stringify
 (
+req
 )
 origin
 )
@@ -495,10 +496,7 @@ number_of_tests
 +
 +
 ;
-eval
-(
 yield
-)
 ;
 }
 }
