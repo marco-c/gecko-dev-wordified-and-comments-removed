@@ -267,6 +267,13 @@ false
 \
 _
 (
+WebRenderMaxPartialPresentRects
+int32_t
+0
+)
+\
+_
+(
 WebRenderDebugFlags
 int32_t
 0
