@@ -20574,6 +20574,8 @@ mScriptGlobal
 >
 DetachFromDocShell
 (
+!
+mSkipBrowsingContextDetachOnDestroy
 )
 ;
 mScriptGlobal
