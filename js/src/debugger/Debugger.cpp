@@ -7616,7 +7616,6 @@ return
 ThrowUninitializedThis
 (
 cx
-frame
 )
 ;
 }

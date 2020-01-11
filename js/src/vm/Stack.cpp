@@ -1773,7 +1773,6 @@ return
 ThrowUninitializedThis
 (
 cx
-this
 )
 ;
 }

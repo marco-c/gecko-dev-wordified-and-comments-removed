@@ -14835,11 +14835,6 @@ MOZ_ALWAYS_FALSE
 ThrowUninitializedThis
 (
 cx
-REGS
-.
-fp
-(
-)
 )
 )
 ;
@@ -29593,8 +29588,6 @@ ThrowUninitializedThis
 JSContext
 *
 cx
-AbstractFramePtr
-frame
 )
 {
 JS_ReportErrorNumberASCII
