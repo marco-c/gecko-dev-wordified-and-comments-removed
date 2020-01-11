@@ -18219,6 +18219,17 @@ Ref
 )
 )
 ;
+mOnSecondaryVideoContainerInstalled
+.
+Notify
+(
+mSecondaryVideoContainer
+.
+Ref
+(
+)
+)
+;
 }
 TimeUnit
 MediaDecoderStateMachine
