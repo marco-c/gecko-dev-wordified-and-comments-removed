@@ -31,7 +31,6 @@ MediaControlKeysEvent
 ePlayPause
 ePrev
 eNext
-eNone
 }
 ;
 class
