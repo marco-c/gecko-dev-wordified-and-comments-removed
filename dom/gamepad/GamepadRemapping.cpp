@@ -7205,6 +7205,9 @@ aVendorId
 const
 uint16_t
 aProductId
+bool
+&
+aUsingDefault
 )
 {
 const
@@ -7522,6 +7525,10 @@ i
 id
 )
 {
+aUsingDefault
+=
+false
+;
 return
 do_AddRef
 (
@@ -7550,6 +7557,10 @@ new
 DefaultRemapper
 (
 )
+;
+aUsingDefault
+=
+true
 ;
 return
 do_AddRef

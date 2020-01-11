@@ -319,6 +319,9 @@ aVendorId
 const
 uint16_t
 aProductId
+bool
+&
+aUsingDefault
 )
 ;
 }

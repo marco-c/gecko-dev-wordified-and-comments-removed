@@ -3449,6 +3449,11 @@ SetLength
 kAxesLengthCap
 )
 ;
+bool
+defaultRemapper
+=
+false
+;
 RefPtr
 <
 GamepadRemapper
@@ -3467,6 +3472,7 @@ rdi
 hid
 .
 dwProductId
+defaultRemapper
 )
 ;
 MOZ_ASSERT
