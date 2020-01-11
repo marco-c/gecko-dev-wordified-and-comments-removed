@@ -908,7 +908,7 @@ not
 restore
 in
 private
-browing
+browsing
 mode
 "
 )
