@@ -1292,13 +1292,6 @@ linksOnly
 options
 .
 linksOnly
-entireWord
-:
-this
-.
-_fastFind
-.
-entireWord
 useSubFrames
 :
 options
