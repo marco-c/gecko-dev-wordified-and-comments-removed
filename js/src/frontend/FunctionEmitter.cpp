@@ -2916,17 +2916,6 @@ return
 false
 ;
 }
-bce_
--
->
-tellDebuggerAboutCompiledScript
-(
-bce_
--
->
-cx
-)
-;
 #
 ifdef
 DEBUG

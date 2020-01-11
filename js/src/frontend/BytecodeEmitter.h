@@ -1255,14 +1255,6 @@ emitSuperBase
 (
 )
 ;
-void
-tellDebuggerAboutCompiledScript
-(
-JSContext
-*
-cx
-)
-;
 uint32_t
 mainOffset
 (
