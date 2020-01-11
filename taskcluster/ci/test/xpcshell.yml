@@ -114,6 +114,11 @@ apk
 default
 :
 null
+fission
+-
+tier
+:
+2
 mozharness
 :
 script
