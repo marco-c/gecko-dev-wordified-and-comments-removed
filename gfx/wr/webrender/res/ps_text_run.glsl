@@ -1440,13 +1440,6 @@ flags
 &
 0xff
 ;
-int
-resource_address
-=
-instance
-.
-user_data
-;
 PrimitiveHeader
 ph
 =
@@ -1555,6 +1548,8 @@ res
 =
 fetch_glyph_resource
 (
+instance
+.
 resource_address
 )
 ;
