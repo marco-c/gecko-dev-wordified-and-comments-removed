@@ -4160,10 +4160,6 @@ startXPOffset
 aLineBreakType
 )
 ;
-lastXPEndOffset
-=
-startXPOffset
-;
 }
 FontRange
 *
