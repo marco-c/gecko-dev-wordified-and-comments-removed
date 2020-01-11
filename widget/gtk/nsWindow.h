@@ -1287,6 +1287,13 @@ LayoutDeviceIntSize
 aEGLWindowSize
 )
 ;
+static
+nsWindow
+*
+GetFocusedWindow
+(
+)
+;
 #
 endif
 RefPtr
