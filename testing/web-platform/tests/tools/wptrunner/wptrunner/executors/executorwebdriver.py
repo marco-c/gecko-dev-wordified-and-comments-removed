@@ -3597,7 +3597,6 @@ test
 result_cls
 (
 *
-*
 data
 )
 [

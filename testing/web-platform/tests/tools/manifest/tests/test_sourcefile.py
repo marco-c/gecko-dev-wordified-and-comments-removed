@@ -258,6 +258,16 @@ headers
 "
     
 "
+crashtests
+/
+foo
+.
+html
+.
+ini
+"
+    
+"
 css
 /
 common

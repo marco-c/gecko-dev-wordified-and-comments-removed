@@ -2178,6 +2178,19 @@ or
                 
 self
 .
+filename
+.
+endswith
+(
+"
+.
+ini
+"
+)
+or
+                
+self
+.
 in_non_test_dir
 (
 )
