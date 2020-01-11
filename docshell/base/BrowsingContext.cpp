@@ -5058,6 +5058,14 @@ aError
 {
 if
 (
+mIsDiscarded
+)
+{
+return
+;
+}
+if
+(
 GetDOMWindow
 (
 )
