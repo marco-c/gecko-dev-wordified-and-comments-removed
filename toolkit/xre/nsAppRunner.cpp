@@ -13064,9 +13064,6 @@ theme_name
 )
 ;
 }
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 gtk_check_version
@@ -13083,8 +13080,6 @@ skip_display_close
 =
 true
 ;
-#
-endif
 bool
 buggyCairoShutdown
 =
