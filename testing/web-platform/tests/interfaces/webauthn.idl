@@ -448,6 +448,9 @@ required
 DOMString
 origin
 ;
+boolean
+crossOrigin
+;
 TokenBinding
 tokenBinding
 ;
