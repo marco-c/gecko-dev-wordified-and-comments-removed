@@ -409,6 +409,7 @@ _get
 graph_config
 alias
 level
+release_level
 )
 :
     
@@ -712,6 +713,13 @@ level
 "
 :
 level
+'
+release
+-
+level
+'
+:
+release_level
 }
 )
 .
@@ -727,7 +735,6 @@ alias
     
 return
 worker_config
-memoize
 def
 worker_type_implementation
 (
@@ -783,6 +790,9 @@ worker_type
 '
 1
 '
+'
+staging
+'
 )
     
 return
@@ -800,13 +810,13 @@ get
 os
 '
 )
-memoize
 def
 get_worker_type
 (
 graph_config
 worker_type
 level
+release_level
 )
 :
     
@@ -844,6 +854,7 @@ _get
 graph_config
 worker_type
 level
+release_level
 )
     
 return

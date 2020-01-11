@@ -2325,26 +2325,6 @@ config
     
 elif
 is_nightly
-or
-build_platform
-in
-(
-'
-firefox
--
-source
-'
-'
-fennec
--
-source
-'
-'
-thunderbird
--
-source
-'
-)
 :
         
 return
