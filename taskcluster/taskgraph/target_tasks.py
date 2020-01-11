@@ -3658,8 +3658,6 @@ and
 '
 -
 fenix
--
-power
 '
 in
 try_name
@@ -3667,8 +3665,6 @@ or
 '
 -
 fennec68
--
-power
 '
 in
 try_name
