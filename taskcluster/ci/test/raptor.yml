@@ -2906,9 +2906,6 @@ Rap
 (
 ugl
 )
-tier
-:
-3
 mozharness
 :
 extra
@@ -5060,9 +5057,6 @@ c
 -
 1
 )
-tier
-:
-2
 condprof
 :
 True
@@ -5140,9 +5134,6 @@ run
 time
 :
 2700
-tier
-:
-2
 mozharness
 :
 extra
@@ -5210,9 +5201,6 @@ c
 -
 3
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5280,9 +5268,6 @@ c
 -
 4
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5350,9 +5335,6 @@ c
 -
 5
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5420,9 +5402,6 @@ c
 -
 6
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5490,9 +5469,6 @@ c
 -
 7
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5560,9 +5536,6 @@ c
 -
 8
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5630,9 +5603,6 @@ c
 -
 9
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5700,9 +5670,6 @@ c
 -
 10
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5770,9 +5737,6 @@ c
 -
 11
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5840,9 +5804,6 @@ c
 -
 12
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5910,9 +5871,6 @@ c
 -
 13
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -5980,9 +5938,6 @@ c
 -
 14
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6050,9 +6005,6 @@ c
 -
 15
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6120,9 +6072,6 @@ c
 -
 16
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6190,9 +6139,6 @@ c
 -
 17
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6260,9 +6206,6 @@ c
 -
 18
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6330,9 +6273,6 @@ c
 -
 19
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6400,9 +6340,6 @@ c
 -
 20
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6470,9 +6407,6 @@ c
 -
 21
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6540,9 +6474,6 @@ c
 -
 22
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6610,9 +6541,6 @@ c
 -
 23
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6680,9 +6608,6 @@ c
 -
 24
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6750,9 +6675,6 @@ c
 -
 25
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6820,9 +6742,6 @@ c
 -
 26
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6890,9 +6809,6 @@ c
 -
 27
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -6960,9 +6876,6 @@ c
 -
 28
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -7030,9 +6943,6 @@ c
 -
 29
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -7100,9 +7010,6 @@ c
 -
 30
 )
-tier
-:
-2
 mozharness
 :
 extra
@@ -7166,9 +7073,6 @@ run
 time
 :
 2500
-tier
-:
-3
 mozharness
 :
 extra
