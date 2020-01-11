@@ -199,7 +199,9 @@ linux
 *
 /
 )
-linux32
+linux1804
+-
+32
 -
 shippable
 /

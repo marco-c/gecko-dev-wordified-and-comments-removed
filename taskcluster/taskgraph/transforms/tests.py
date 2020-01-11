@@ -3272,6 +3272,21 @@ platforms
 )
         
 if
+(
+'
+linux1804
+'
+in
+test
+[
+'
+test
+-
+platform
+'
+]
+or
+                
 config
 .
 params
@@ -3288,6 +3303,7 @@ ubuntu
 -
 bionic
 '
+)
 )
 :
             
