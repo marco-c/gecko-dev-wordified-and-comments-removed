@@ -30984,7 +30984,7 @@ type
 bool
 value
 :
-IS_NOT_RELEASE_OR_BETA
+true
 mirror
 :
 always
