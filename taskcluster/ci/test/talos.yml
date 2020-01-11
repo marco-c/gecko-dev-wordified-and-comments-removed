@@ -711,7 +711,7 @@ run
 -
 time
 :
-1200
+1800
 mozharness
 :
 extra
@@ -2779,6 +2779,11 @@ linux64
 *
 :
 1200
+macosx
+.
+*
+:
+2400
 default
 :
 1800
