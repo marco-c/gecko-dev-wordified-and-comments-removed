@@ -1601,6 +1601,17 @@ ctx
 windowId
 )
 ;
+this
+.
+emit
+(
+"
+Runtime
+.
+executionContextsCleared
+"
+)
+;
 }
 }
 }
