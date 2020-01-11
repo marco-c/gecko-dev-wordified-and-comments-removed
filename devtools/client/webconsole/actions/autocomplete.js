@@ -32,7 +32,6 @@ getterPath
 )
 {
 return
-async
 (
 {
 dispatch
@@ -79,7 +78,6 @@ frameActorId
 webConsoleFront
 }
 =
-await
 webConsoleUI
 .
 getFrameActor
