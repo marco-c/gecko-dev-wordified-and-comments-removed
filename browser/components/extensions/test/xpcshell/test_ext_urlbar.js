@@ -664,10 +664,10 @@ isArray
 (
 query
 .
-acceptableSources
+sources
 )
 "
-acceptableSources
+sources
 is
 an
 array
@@ -1022,7 +1022,7 @@ isArray
 (
 query
 .
-acceptableSources
+sources
 )
 )
 ;
