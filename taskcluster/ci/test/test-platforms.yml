@@ -295,6 +295,10 @@ awsy
 linux1804
 -
 tests
+-
+marionette
+-
+headless
 linux1804
 -
 64
@@ -658,10 +662,6 @@ capture
 talos
 -
 mochitest
--
-headless
--
-marionette
 -
 headless
 -
