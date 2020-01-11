@@ -52,9 +52,6 @@ h
 class
 nsIPrincipal
 ;
-struct
-nsLayoutStylesheetCacheShm
-;
 namespace
 mozilla
 {
