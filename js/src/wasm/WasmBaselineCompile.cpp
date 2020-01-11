@@ -19657,7 +19657,7 @@ args
 )
 ;
 size_t
-nInboundStackArgBytes
+numInboundStackArgBytes
 =
 StackArgAreaSizeUnaligned
 (
@@ -19666,7 +19666,7 @@ argTys
 ;
 MOZ_ASSERT
 (
-nInboundStackArgBytes
+numInboundStackArgBytes
 %
 sizeof
 (
@@ -19682,7 +19682,7 @@ stackMapGenerator_
 .
 numStackArgWords
 =
-nInboundStackArgBytes
+numInboundStackArgBytes
 /
 sizeof
 (
@@ -19820,7 +19820,7 @@ MOZ_ASSERT
 (
 offset
 <
-nInboundStackArgBytes
+numInboundStackArgBytes
 )
 ;
 MOZ_ASSERT

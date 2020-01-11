@@ -230,6 +230,7 @@ b
 SyntaxError
 /
 duplicate
+function
 import
 /
 )

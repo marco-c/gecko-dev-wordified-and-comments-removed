@@ -36364,6 +36364,7 @@ fail
 (
 "
 duplicate
+function
 import
 "
 )
@@ -36423,6 +36424,7 @@ fail
 (
 "
 duplicate
+global
 import
 "
 )
@@ -36485,6 +36487,7 @@ fail
 (
 "
 duplicate
+memory
 import
 "
 )
@@ -36524,6 +36527,7 @@ fail
 (
 "
 duplicate
+table
 import
 "
 )
@@ -36639,6 +36643,7 @@ fail
 (
 "
 duplicate
+global
 import
 "
 )
@@ -36739,6 +36744,7 @@ fail
 (
 "
 duplicate
+table
 import
 "
 )
@@ -36793,6 +36799,7 @@ fail
 (
 "
 duplicate
+memory
 import
 "
 )
