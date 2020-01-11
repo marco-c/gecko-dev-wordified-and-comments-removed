@@ -2020,7 +2020,8 @@ cadetblue
 "
 converted
 to
-hex
+#
+aarrggbb
 .
 assertThat
 (
@@ -2041,7 +2042,7 @@ equalTo
 (
 "
 #
-5f9ea0
+ff5f9ea0
 "
 )
 )
@@ -2064,7 +2065,7 @@ equalTo
 (
 "
 #
-c0feee
+eec0ffee
 "
 )
 )
