@@ -2665,12 +2665,6 @@ AudioWorkletProcessor
 {
 constructor
 (
-optional
-AudioWorkletNodeOptions
-options
-=
-{
-}
 )
 ;
 readonly
