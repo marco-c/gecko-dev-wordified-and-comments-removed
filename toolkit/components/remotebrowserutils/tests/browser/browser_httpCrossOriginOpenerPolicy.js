@@ -98,10 +98,6 @@ set
 COOP_PREF
 false
 ]
-[
-DOCUMENT_CHANNEL_PREF
-false
-]
 ]
 }
 )
