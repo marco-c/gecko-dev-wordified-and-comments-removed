@@ -1022,6 +1022,13 @@ char
 lineStart
 )
 ;
+nsresult
+HttpProxyResponseToErrorCode
+(
+uint32_t
+aStatusCode
+)
+;
 }
 }
 #
