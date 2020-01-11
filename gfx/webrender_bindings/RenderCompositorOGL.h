@@ -324,6 +324,11 @@ NativeLayer
 mAddedLayers
 ;
 uint64_t
+mTotalPixelCount
+=
+0
+;
+uint64_t
 mAddedPixelCount
 =
 0
