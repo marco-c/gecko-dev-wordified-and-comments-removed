@@ -241,6 +241,9 @@ outline
 filter
 -
 input
+devtools
+-
+filterinput
 "
 {
 focused

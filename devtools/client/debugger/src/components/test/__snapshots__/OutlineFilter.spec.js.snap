@@ -51,6 +51,9 @@ outline
 filter
 -
 input
+devtools
+-
+filterinput
 "
 onBlur
 =
@@ -146,6 +149,9 @@ outline
 filter
 -
 input
+devtools
+-
+filterinput
 "
 onBlur
 =
