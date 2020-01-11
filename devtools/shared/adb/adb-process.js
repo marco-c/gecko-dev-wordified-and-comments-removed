@@ -56,7 +56,11 @@ getFileForBinary
 require
 (
 "
-.
+devtools
+/
+shared
+/
+adb
 /
 adb
 -

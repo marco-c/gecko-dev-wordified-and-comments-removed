@@ -34,7 +34,9 @@ flags
 require
 (
 "
-.
+devtools
+/
+shared
 /
 flags
 "
@@ -94,7 +96,9 @@ ThreadSafeDevToolsUtils
 require
 (
 "
-.
+devtools
+/
+shared
 /
 ThreadSafeDevToolsUtils
 .

@@ -2139,7 +2139,11 @@ constructor
 require
 (
 "
-.
+devtools
+/
+server
+/
+actors
 /
 highlighters
 /

@@ -13,7 +13,13 @@ domMutationBreakpoints
 require
 (
 "
-.
+devtools
+/
+client
+/
+framework
+/
+reducers
 /
 dom
 -

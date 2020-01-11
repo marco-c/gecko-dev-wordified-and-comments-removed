@@ -97,8 +97,13 @@ getFormatStr
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+animation
 /
 utils
 /

@@ -55,7 +55,13 @@ tunnelToInnerBrowser
 require
 (
 "
-.
+devtools
+/
+client
+/
+responsive
+/
+browser
 /
 tunnel
 "

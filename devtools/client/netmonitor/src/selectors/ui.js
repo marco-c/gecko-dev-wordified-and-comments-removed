@@ -31,8 +31,13 @@ REQUESTS_WATERFALL
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

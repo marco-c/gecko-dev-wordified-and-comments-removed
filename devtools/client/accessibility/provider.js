@@ -11,7 +11,11 @@ fetchChildren
 require
 (
 "
-.
+devtools
+/
+client
+/
+accessibility
 /
 actions
 /

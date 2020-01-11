@@ -17,8 +17,13 @@ RESET_MANIFEST
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+application
+/
+src
 /
 constants
 "

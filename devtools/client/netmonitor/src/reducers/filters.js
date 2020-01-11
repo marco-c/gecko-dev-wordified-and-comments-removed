@@ -14,8 +14,13 @@ FILTER_TAGS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+netmonitor
+/
+src
 /
 constants
 "

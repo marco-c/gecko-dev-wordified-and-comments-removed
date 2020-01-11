@@ -11,7 +11,13 @@ Property
 require
 (
 "
-.
+devtools
+/
+client
+/
+dom
+/
+content
 /
 reducers
 /

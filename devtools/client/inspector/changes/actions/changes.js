@@ -12,7 +12,15 @@ TRACK_CHANGE
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+changes
+/
+actions
 /
 index
 "

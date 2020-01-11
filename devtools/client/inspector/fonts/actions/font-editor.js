@@ -17,7 +17,15 @@ UPDATE_WARNING_MESSAGE
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+fonts
+/
+actions
 /
 index
 "

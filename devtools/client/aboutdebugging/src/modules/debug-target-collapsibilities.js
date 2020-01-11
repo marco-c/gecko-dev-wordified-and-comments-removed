@@ -33,8 +33,13 @@ DEBUG_TARGET_PANE
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+aboutdebugging
+/
+src
 /
 constants
 "

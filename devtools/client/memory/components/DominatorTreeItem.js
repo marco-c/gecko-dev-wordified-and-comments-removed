@@ -95,8 +95,11 @@ formatPercent
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 utils
 "
@@ -131,8 +134,11 @@ TREE_ROW_HEIGHT
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 constants
 "

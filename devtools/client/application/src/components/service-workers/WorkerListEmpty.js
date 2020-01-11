@@ -110,11 +110,13 @@ services
 require
 (
 "
-.
-.
+devtools
 /
-.
-.
+client
+/
+application
+/
+src
 /
 modules
 /

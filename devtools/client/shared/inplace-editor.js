@@ -62,7 +62,11 @@ findMostRelevantCssPropertyIndex
 require
 (
 "
-.
+devtools
+/
+client
+/
+shared
 /
 suggestion
 -

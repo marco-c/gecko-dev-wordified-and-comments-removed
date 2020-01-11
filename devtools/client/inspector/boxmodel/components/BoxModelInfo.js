@@ -89,8 +89,13 @@ Types
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+inspector
+/
+boxmodel
 /
 types
 "

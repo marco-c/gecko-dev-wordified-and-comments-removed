@@ -53,8 +53,11 @@ L10N
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+memory
 /
 utils
 "

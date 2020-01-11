@@ -11,7 +11,15 @@ UPDATE_PREVIEW_TEXT
 require
 (
 "
-.
+devtools
+/
+client
+/
+inspector
+/
+fonts
+/
+actions
 /
 index
 "

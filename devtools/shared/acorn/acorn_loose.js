@@ -413,7 +413,11 @@ acorn
 require
 (
 "
-.
+devtools
+/
+shared
+/
+acorn
 /
 acorn
 "

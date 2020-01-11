@@ -14,8 +14,11 @@ UNHIGHLIGHT
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

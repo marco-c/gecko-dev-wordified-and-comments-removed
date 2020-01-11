@@ -76,8 +76,11 @@ getFormatStr
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 utils
 /
@@ -91,8 +94,11 @@ Types
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 types
 "

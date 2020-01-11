@@ -35,8 +35,11 @@ FILTERS
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+accessibility
 /
 constants
 "

@@ -19,8 +19,11 @@ UPDATE_DEVICE_MODAL
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 actions
 /
@@ -34,8 +37,11 @@ Types
 require
 (
 "
-.
-.
+devtools
+/
+client
+/
+responsive
 /
 types
 "

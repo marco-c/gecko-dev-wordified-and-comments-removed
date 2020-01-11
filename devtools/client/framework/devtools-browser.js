@@ -34,7 +34,11 @@ gDevTools
 require
 (
 "
-.
+devtools
+/
+client
+/
+framework
 /
 devtools
 "
