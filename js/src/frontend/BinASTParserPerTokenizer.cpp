@@ -1473,6 +1473,14 @@ initFromLazyFunction
 fun
 )
 ;
+funbox
+-
+>
+initWithEnclosingScope
+(
+fun
+)
+;
 }
 return
 funbox
