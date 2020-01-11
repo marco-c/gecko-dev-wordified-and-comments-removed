@@ -101,6 +101,11 @@ OnChannelClosed
 )
 ;
 bool
+OnStartRequestSent
+(
+)
+;
+bool
 OnTransportAndData
 (
 const
