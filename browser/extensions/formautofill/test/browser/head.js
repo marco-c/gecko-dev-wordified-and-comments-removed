@@ -1430,6 +1430,13 @@ previouslyIdentified
 "
 )
 ;
+FormAutofillParent
+.
+removeMessageObserver
+(
+fieldsIdentifiedObserver
+)
+;
 return
 ;
 }

@@ -196,7 +196,7 @@ this
 )
 ;
 }
-willDestroy
+didDestroy
 (
 )
 {
