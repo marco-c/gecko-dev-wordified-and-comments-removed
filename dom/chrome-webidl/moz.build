@@ -276,6 +276,11 @@ ChannelWrapper
 webidl
 '
 '
+ClonedErrorHolder
+.
+webidl
+'
+'
 DebuggerNotification
 .
 webidl

@@ -568,6 +568,11 @@ nsACString
 aName
 uint16_t
 aCode
+nsIStackFrame
+*
+aLocation
+=
+nullptr
 )
 ;
 NS_INLINE_DECL_REFCOUNTING_INHERITED
