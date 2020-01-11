@@ -1,4 +1,7 @@
 #
+undef
+_FORTIFY_SOURCE
+#
 include
 <
 errno
