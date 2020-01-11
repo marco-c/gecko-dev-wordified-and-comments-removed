@@ -753,12 +753,14 @@ loadSourceText
 MemoizedAction
 <
 {
+|
 cx
 :
 Context
 source
 :
 Source
+|
 }
 ?
 Source

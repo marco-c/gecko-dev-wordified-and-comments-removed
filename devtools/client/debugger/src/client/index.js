@@ -215,10 +215,14 @@ pendingBreakpoints
 const
 tabs
 =
+{
+tabs
+:
 await
 asyncStore
 .
 tabs
+}
 ;
 const
 xhrBreakpoints

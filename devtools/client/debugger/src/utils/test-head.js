@@ -319,6 +319,7 @@ makeFrame
 {
 id
 sourceId
+thread
 }
 :
 Object
@@ -359,6 +360,9 @@ line
 }
 thread
 :
+thread
+|
+|
 "
 FakeThread
 "
@@ -933,9 +937,16 @@ unsubscribe
 (
 )
 ;
+setTimeout
+(
+(
+)
+=
+>
 resolve
 (
 ret
+)
 )
 ;
 }

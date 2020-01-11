@@ -1003,6 +1003,7 @@ return
 state
 ;
 }
+export
 const
 resourceAsSourceBase
 =

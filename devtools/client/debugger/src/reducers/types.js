@@ -142,7 +142,7 @@ actors
 import
 type
 {
-TabList
+TabsState
 }
 from
 "
@@ -234,7 +234,7 @@ sourceActors
 SourceActorsState
 tabs
 :
-TabList
+TabsState
 ui
 :
 UIState
@@ -348,5 +348,19 @@ from
 .
 /
 preview
+"
+;
+export
+type
+{
+Tab
+TabList
+TabsSources
+}
+from
+"
+.
+/
+tabs
 "
 ;

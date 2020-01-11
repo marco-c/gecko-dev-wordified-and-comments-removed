@@ -9848,3 +9848,13 @@ resumed
 /
 )
 ;
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+Connection
+closed
+/
+)
+;

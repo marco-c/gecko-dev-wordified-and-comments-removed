@@ -369,7 +369,6 @@ isOriginal
 boolean
 +
 sourceId
-?
 :
 string
 |
@@ -402,7 +401,6 @@ isOriginal
 boolean
 +
 sourceId
-?
 :
 string
 |
