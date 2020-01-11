@@ -905,7 +905,6 @@ usePipe
 timeout
 slowMo
 preferredRevision
-use_stdout
 }
 =
 options
@@ -927,7 +926,6 @@ this
 proc
 timeout
 preferredRevision
-use_stdout
 )
 ;
 const
@@ -1406,9 +1404,6 @@ preferredRevision
 this
 .
 _preferredRevision
-use_stdout
-:
-false
 }
 )
 ;
@@ -2398,9 +2393,6 @@ preferredRevision
 this
 .
 _preferredRevision
-use_stdout
-:
-true
 }
 )
 ;
@@ -3065,7 +3057,6 @@ waitForWSEndpoint
 browserProcess
 timeout
 preferredRevision
-use_stdout
 )
 {
 return
@@ -3080,19 +3071,6 @@ reject
 >
 {
 const
-input
-=
-use_stdout
-?
-browserProcess
-.
-stdout
-:
-browserProcess
-.
-stderr
-;
-const
 rl
 =
 readline
@@ -3101,6 +3079,10 @@ createInterface
 (
 {
 input
+:
+browserProcess
+.
+stderr
 }
 )
 ;
