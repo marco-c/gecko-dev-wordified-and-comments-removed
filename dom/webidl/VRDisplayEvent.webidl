@@ -132,6 +132,7 @@ vr
 .
 enabled
 "
+SecureContext
 Exposed
 =
 Window
