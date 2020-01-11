@@ -21069,9 +21069,15 @@ return
 false
 ;
 }
+MOZ_ASSERT
+(
+sc
+-
+>
 hasCallSiteObj
-=
-true
+(
+)
+)
 ;
 return
 emitObjectPairOp

@@ -606,11 +606,6 @@ innermostEmitterScope_
 ;
 }
 bool
-hasCallSiteObj
-=
-false
-;
-bool
 hasTryFinally
 =
 false
