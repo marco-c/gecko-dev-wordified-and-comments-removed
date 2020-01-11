@@ -18667,6 +18667,8 @@ hint
 nsChangeHint_NeedReflow
 |
 nsChangeHint_NeedDirtyReflow
+|
+nsChangeHint_SchedulePaint
 ;
 }
 if
