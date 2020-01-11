@@ -598,6 +598,7 @@ Annotation
 IPCMessageSize
 static_cast
 <
+unsigned
 int
 >
 (
