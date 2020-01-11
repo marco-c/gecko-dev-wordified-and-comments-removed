@@ -649,6 +649,10 @@ mMetadata
 =
 =
 mDeletedMetadata
+.
+get
+(
+)
 )
 ;
 const
@@ -754,6 +758,10 @@ mMetadata
 !
 =
 mDeletedMetadata
+.
+get
+(
+)
 )
 ;
 mDeletedMetadata
@@ -812,6 +820,10 @@ mMetadata
 =
 =
 mDeletedMetadata
+.
+get
+(
+)
 )
 ;
 return
@@ -819,8 +831,10 @@ return
 }
 mDeletedMetadata
 =
-new
+MakeUnique
+<
 IndexMetadata
+>
 (
 *
 mMetadata
@@ -829,6 +843,10 @@ mMetadata
 mMetadata
 =
 mDeletedMetadata
+.
+get
+(
+)
 ;
 }
 const

@@ -36,7 +36,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -138,7 +140,7 @@ IndexMetadata
 *
 mMetadata
 ;
-nsAutoPtr
+UniquePtr
 <
 indexedDB
 :
