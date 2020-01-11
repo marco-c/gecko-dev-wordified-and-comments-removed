@@ -62,10 +62,7 @@ hal
 adapter
 :
 :
-{
 AdapterInfo
-DeviceType
-}
 ;
 use
 hal

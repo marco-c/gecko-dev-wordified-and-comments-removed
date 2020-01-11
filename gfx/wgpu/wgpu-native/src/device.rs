@@ -183,12 +183,6 @@ h
 )
 =
 >
-core
-:
-:
-instance
-:
-:
 Surface
 {
 #
