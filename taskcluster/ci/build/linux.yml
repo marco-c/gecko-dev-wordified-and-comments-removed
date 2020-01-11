@@ -547,6 +547,8 @@ linux64
 -
 gcc
 -
+8
+-
 linux64
 -
 cbindgen
