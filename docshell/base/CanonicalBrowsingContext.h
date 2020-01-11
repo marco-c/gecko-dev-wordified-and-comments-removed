@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-MediaController
+MediaControlKeysEvent
 .
 h
 "
@@ -332,10 +332,10 @@ aRoots
 )
 ;
 void
-UpdateMediaAction
+UpdateMediaControlKeysEvent
 (
-MediaControlActions
-aAction
+MediaControlKeysEvent
+aEvent
 )
 ;
 using

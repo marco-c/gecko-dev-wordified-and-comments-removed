@@ -304,7 +304,7 @@ TabContext
 ;
 enum
 class
-MediaControlActions
+MediaControlKeysEvent
 :
 uint32_t
 ;
@@ -3502,13 +3502,13 @@ ipc
 :
 :
 IPCResult
-RecvUpdateMediaAction
+RecvUpdateMediaControlKeysEvent
 (
 BrowsingContext
 *
 aContext
-MediaControlActions
-aAction
+MediaControlKeysEvent
+aEvent
 )
 ;
 void
