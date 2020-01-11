@@ -159,6 +159,7 @@ namespace
 net
 {
 async
+refcounted
 protocol
 PDNSRequest
 {
