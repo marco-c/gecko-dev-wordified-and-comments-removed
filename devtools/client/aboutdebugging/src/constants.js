@@ -440,6 +440,15 @@ const
 PREFERENCES
 =
 {
+FISSION_BROWSER_TOOLBOX
+:
+"
+devtools
+.
+browsertoolbox
+.
+fission
+"
 LOCAL_TAB_DEBUGGING_ENABLED
 :
 "
