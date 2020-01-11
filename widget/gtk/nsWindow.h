@@ -2746,6 +2746,12 @@ bool
 aShowOnTaskbar
 )
 ;
+void
+ApplySizeConstraints
+(
+void
+)
+;
 bool
 IsMainMenuWindow
 (
