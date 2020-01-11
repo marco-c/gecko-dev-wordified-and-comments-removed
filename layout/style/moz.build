@@ -426,11 +426,6 @@ nsICSSLoaderObserver
 h
 '
 '
-nsLayoutStylesheetCache
-.
-h
-'
-'
 nsMediaFeatures
 .
 h
@@ -540,6 +535,11 @@ h
 '
 '
 GeckoBindings
+.
+h
+'
+'
+GlobalStyleSheetCache
 .
 h
 '
@@ -1022,6 +1022,11 @@ GeckoBindings
 cpp
 '
 '
+GlobalStyleSheetCache
+.
+cpp
+'
+'
 GroupRule
 .
 cpp
@@ -1133,11 +1138,6 @@ cpp
 '
 '
 nsICSSDeclaration
-.
-cpp
-'
-'
-nsLayoutStylesheetCache
 .
 cpp
 '

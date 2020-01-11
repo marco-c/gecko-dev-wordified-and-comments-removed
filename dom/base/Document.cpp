@@ -460,7 +460,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -13532,9 +13534,10 @@ FillStyleSetUserAndUASheets
 )
 {
 auto
+*
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -14020,7 +14023,7 @@ auto
 *
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -14146,7 +14149,7 @@ auto
 *
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton
@@ -14499,9 +14502,10 @@ return
 ;
 }
 auto
+*
 cache
 =
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 Singleton

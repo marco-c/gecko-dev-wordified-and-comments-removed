@@ -211,13 +211,6 @@ nsContentUtils
 h
 "
 #
-include
-"
-nsLayoutStylesheetCache
-.
-h
-"
-#
 ifdef
 ACCESSIBILITY
 #

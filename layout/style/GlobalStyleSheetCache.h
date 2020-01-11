@@ -1,9 +1,9 @@
 #
 ifndef
-nsLayoutStylesheetCache_h__
+mozilla_GlobalStyleSheetCache_h__
 #
 define
-nsLayoutStylesheetCache_h__
+mozilla_GlobalStyleSheetCache_h__
 #
 include
 "
@@ -112,9 +112,8 @@ eLogToConsole
 }
 ;
 }
-}
 class
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 final
 :
 public
@@ -128,7 +127,7 @@ NS_DECL_ISUPPORTS
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIMEMORYREPORTER
 static
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 *
 Singleton
 (
@@ -342,12 +341,12 @@ mBuffer
 ;
 }
 ;
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 (
 )
 ;
 ~
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 (
 )
 ;
@@ -509,7 +508,7 @@ mozilla
 :
 StaticRefPtr
 <
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 >
 gStyleCache
 ;
@@ -630,5 +629,6 @@ sUsedSharedMemory
 ;
 }
 ;
+}
 #
 endif

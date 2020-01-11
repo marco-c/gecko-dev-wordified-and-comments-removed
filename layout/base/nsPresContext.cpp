@@ -540,7 +540,9 @@ h
 #
 include
 "
-nsLayoutStylesheetCache
+mozilla
+/
+GlobalStyleSheetCache
 .
 h
 "
@@ -2434,7 +2436,7 @@ mPrefChangePendingNeedsReflow
 true
 ;
 }
-nsLayoutStylesheetCache
+GlobalStyleSheetCache
 :
 :
 InvalidatePreferenceSheets
