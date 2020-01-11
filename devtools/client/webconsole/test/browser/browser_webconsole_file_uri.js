@@ -130,12 +130,10 @@ openConsole
 (
 )
 ;
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 const

@@ -52,7 +52,6 @@ TEST_URI
 const
 {
 jsterm
-ui
 }
 =
 hud
@@ -445,10 +444,10 @@ completion
 "
 )
 ;
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 await

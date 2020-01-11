@@ -81,15 +81,14 @@ TEST_URI
 const
 {
 jsterm
-ui
 }
 =
 hud
 ;
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 ok

@@ -6057,9 +6057,14 @@ function
 clearOutput
 (
 hud
-clearStorage
+{
+keepStorage
 =
-true
+false
+}
+=
+{
+}
 )
 {
 const
@@ -6084,7 +6089,8 @@ ui
 .
 clearOutput
 (
-clearStorage
+!
+keepStorage
 )
 ;
 await

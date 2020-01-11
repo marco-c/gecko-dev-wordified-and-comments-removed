@@ -61,12 +61,10 @@ testSelectionWhenMovingBetweenBoxes
 hud
 )
 {
-hud
-.
-ui
-.
+await
 clearOutput
 (
+hud
 )
 ;
 await
