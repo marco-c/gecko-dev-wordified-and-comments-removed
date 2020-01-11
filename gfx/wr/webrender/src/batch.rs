@@ -5878,6 +5878,11 @@ clip_rect
 :
 device_clip_rect
 z_id
+tile_id
+:
+tile
+.
+id
 }
 ;
 composite_state
