@@ -1426,6 +1426,10 @@ timeout
 =
 None
     
+suite_should_alert
+=
+True
+    
 keys
 =
 [
@@ -1568,6 +1572,9 @@ profile
 '
             
 '
+suite_should_alert
+'
+'
 subtest_alerts
 '
 '
@@ -1576,6 +1583,7 @@ perfherder_framework
 '
 pdfpaint
 '
+            
 '
 webextensions_folder
 '
@@ -5906,6 +5914,10 @@ alert_threshold
 subtest_alerts
 =
 True
+    
+suite_should_alert
+=
+False
 register_test
 (
 )
