@@ -1694,7 +1694,7 @@ orientation
 ]
 =
 =
-NS_PAPER_ORIENTATION_PORTRAIT
+NSPaperOrientationPortrait
 )
 {
 *
@@ -1804,7 +1804,7 @@ setObject
 NSNumber
 numberWithInt
 :
-NS_PAPER_ORIENTATION_PORTRAIT
+NSPaperOrientationPortrait
 ]
 forKey
 :
@@ -1822,7 +1822,7 @@ setObject
 NSNumber
 numberWithInt
 :
-NS_PAPER_ORIENTATION_LANDSCAPE
+NSPaperOrientationLandscape
 ]
 forKey
 :
@@ -2235,7 +2235,7 @@ orientation
 ]
 =
 =
-NS_PAPER_ORIENTATION_PORTRAIT
+NSPaperOrientationPortrait
 )
 {
 /

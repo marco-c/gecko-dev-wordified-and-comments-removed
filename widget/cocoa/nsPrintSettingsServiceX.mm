@@ -563,7 +563,7 @@ orientation
 ]
 =
 =
-NS_PAPER_ORIENTATION_PORTRAIT
+NSPaperOrientationPortrait
 )
 {
 orientation
