@@ -192,9 +192,8 @@ close
 (
 )
 ;
-ok
+info
 (
-true
 "
 The
 client
