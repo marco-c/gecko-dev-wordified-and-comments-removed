@@ -1842,6 +1842,8 @@ graphOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -1908,6 +1910,8 @@ graphOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -3290,6 +3294,8 @@ AudioOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -3744,6 +3750,8 @@ AudioOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -3945,6 +3953,8 @@ AudioOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -4792,6 +4802,8 @@ AudioOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
@@ -15197,6 +15209,8 @@ this
 mSampleRate
 aChannelCount
 0
+mOutputDeviceID
+mInputDeviceID
 AudioInputType
 :
 :
@@ -17789,6 +17803,8 @@ AudioOutputChannelCount
 AudioInputChannelCount
 (
 )
+mOutputDeviceID
+mInputDeviceID
 AudioInputDevicePreference
 (
 )
