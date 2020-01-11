@@ -443,6 +443,14 @@ hidden
 =
 true
 ;
+this
+.
+checkbox
+.
+checked
+=
+false
+;
 }
 this
 .
