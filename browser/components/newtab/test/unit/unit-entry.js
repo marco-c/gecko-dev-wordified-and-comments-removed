@@ -391,6 +391,13 @@ function
 )
 {
 }
+ContentSearchHandoffUIController
+:
+function
+(
+)
+{
+}
 Cc
 :
 {
