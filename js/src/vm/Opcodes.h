@@ -865,7 +865,7 @@ MACRO
 (
 JSOP_DYNAMIC_IMPORT
 "
-call
+dynamic
 -
 import
 "
