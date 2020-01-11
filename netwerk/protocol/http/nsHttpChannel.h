@@ -2394,9 +2394,9 @@ nsICancelable
 >
 mProxyRequest
 ;
-RefPtr
+nsCOMPtr
 <
-nsInputStreamPump
+nsIRequest
 >
 mTransactionPump
 ;

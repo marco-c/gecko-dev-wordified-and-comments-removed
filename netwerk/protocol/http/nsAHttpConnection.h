@@ -7,6 +7,13 @@ nsAHttpConnection_h__
 #
 include
 "
+nsHttp
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -45,6 +52,12 @@ nsHttpConnectionInfo
 ;
 class
 nsHttpConnection
+;
+class
+nsHttpRequestHead
+;
+class
+nsHttpResponseHead
 ;
 #
 define

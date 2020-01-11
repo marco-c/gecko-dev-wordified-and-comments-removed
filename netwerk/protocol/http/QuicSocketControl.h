@@ -11,6 +11,13 @@ CommonSocketControl
 .
 h
 "
+#
+include
+"
+nsIWeakReferenceUtils
+.
+h
+"
 namespace
 mozilla
 {

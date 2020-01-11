@@ -640,6 +640,9 @@ nsIPrompt
 {
 nsCOMPtr
 <
+dom
+:
+:
 Element
 >
 frameElement

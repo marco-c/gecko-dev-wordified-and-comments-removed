@@ -77,6 +77,9 @@ LazyLogModule
 gHttpLog
 ;
 class
+HttpTransactionChild
+;
+class
 nsHttpConnectionInfo
 final
 :
@@ -1023,6 +1026,10 @@ mIsHttp3
 }
 private
 :
+friend
+class
+HttpTransactionChild
+;
 nsHttpConnectionInfo
 (
 const

@@ -260,6 +260,14 @@ PWebrtcTCPSocketChild
 aActor
 )
 ;
+already_AddRefed
+<
+PHttpTransactionChild
+>
+AllocPHttpTransactionChild
+(
+)
+;
 PFileDescriptorSetChild
 *
 AllocPFileDescriptorSetChild

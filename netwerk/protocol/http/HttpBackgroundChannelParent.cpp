@@ -929,7 +929,7 @@ nsresult
 &
 aChannelStatus
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 const
@@ -1018,7 +1018,7 @@ NewRunnableMethod
 const
 nsresult
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 const
 nsHttpHeaderArray
 >

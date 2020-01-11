@@ -127,7 +127,7 @@ nsresult
 &
 aChannelStatus
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 const

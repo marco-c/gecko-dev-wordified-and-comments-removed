@@ -8,6 +8,13 @@ h
 #
 include
 "
+HttpTransactionParent
+.
+h
+"
+#
+include
+"
 SocketProcessHost
 .
 h

@@ -612,7 +612,7 @@ bool
 &
 aIsResolvedByTRR
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 const
@@ -684,7 +684,7 @@ NetAddr
 &
 oldPeerAddr
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 )
@@ -1381,7 +1381,7 @@ nsresult
 &
 aStatusCode
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 const
@@ -1959,7 +1959,7 @@ bool
 &
 aIsResolvedByTRR
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 aTiming
 const
@@ -2018,7 +2018,7 @@ nsresult
 &
 channelStatus
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 timing
 const
@@ -2086,7 +2086,7 @@ uint64_t
 &
 channelId
 const
-ResourceTimingStruct
+ResourceTimingStructArgs
 &
 timing
 )
