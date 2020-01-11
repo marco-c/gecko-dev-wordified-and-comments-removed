@@ -38,6 +38,16 @@ build
 mozconfig
 .
 stylo
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+wasm
+-
+sandboxing
 #
 ASan
 specific
