@@ -148,14 +148,10 @@ str
 var
 c
 =
-clone
-(
-otherGlobal
-.
-evaluate
+cloneAndExecuteScript
 (
 code
-)
+otherGlobal
 )
 ;
 assertEq

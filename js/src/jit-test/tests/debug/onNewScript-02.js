@@ -436,11 +436,7 @@ function
 (
 )
 {
-g
-.
-clone
-(
-evaluate
+cloneAndExecuteScript
 (
 "
 (
@@ -457,7 +453,7 @@ x
 }
 )
 "
-)
+g
 )
 ;
 }
