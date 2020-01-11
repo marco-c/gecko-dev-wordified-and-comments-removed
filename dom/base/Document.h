@@ -10414,15 +10414,6 @@ Element
 aElement
 )
 ;
-Element
-*
-GetBindingParent
-(
-nsINode
-&
-aNode
-)
-;
 XPathExpression
 *
 CreateExpression
