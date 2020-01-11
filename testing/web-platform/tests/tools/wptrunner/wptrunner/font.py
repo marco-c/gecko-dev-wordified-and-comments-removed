@@ -53,6 +53,7 @@ def
 __init__
 (
 self
+logger
 font_dir
 =
 None
@@ -61,6 +62,12 @@ None
 fonts
 )
 :
+        
+self
+.
+logger
+=
+logger
         
 self
 .
@@ -157,7 +164,9 @@ not
 install
 :
                 
-logging
+self
+.
+logger
 .
 warning
 (
@@ -170,7 +179,7 @@ on
 %
 s
 '
-                                
+%
 SYSTEM
 )
                 
@@ -191,7 +200,9 @@ installed_fonts
 =
 True
                 
-logging
+self
+.
+logger
 .
 info
 (
@@ -202,13 +213,16 @@ font
 %
 s
 '
+%
 font_name
 )
             
 else
 :
                 
-logging
+self
+.
+logger
 .
 warning
 (
@@ -221,6 +235,7 @@ font
 %
 s
 '
+%
 font_name
 )
     
@@ -292,7 +307,9 @@ not
 remove
 :
                 
-logging
+self
+.
+logger
 .
 warning
 (
@@ -305,6 +322,7 @@ on
 %
 s
 '
+%
 SYSTEM
 )
                 
@@ -319,7 +337,9 @@ font_path
 )
 :
                 
-logging
+self
+.
+logger
 .
 info
 (
@@ -330,13 +350,16 @@ font
 %
 s
 '
+%
 font_name
 )
             
 else
 :
                 
-logging
+self
+.
+logger
 .
 warning
 (
@@ -349,6 +372,7 @@ font
 %
 s
 '
+%
 font_name
 )
     
@@ -475,7 +499,9 @@ except
 OSError
 :
             
-logging
+self
+.
+logger
 .
 error
 (
@@ -834,7 +860,9 @@ except
 OSError
 :
             
-logging
+self
+.
+logger
 .
 error
 (

@@ -1010,6 +1010,8 @@ append
 FontInstaller
 (
                 
+logger
+                
 font_dir
 =
 kwargs
