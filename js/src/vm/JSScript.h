@@ -9688,6 +9688,11 @@ ParseGoal
 Script
 ;
 }
+void
+setArgumentsHasVarBinding
+(
+)
+;
 bool
 hasEnclosingLazyScript
 (
@@ -11439,11 +11444,6 @@ HasRunOnce
 )
 ;
 }
-void
-setArgumentsHasVarBinding
-(
-)
-;
 bool
 argumentsAliasesFormals
 (

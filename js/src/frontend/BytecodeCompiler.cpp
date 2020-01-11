@@ -4489,17 +4489,6 @@ BaseScript
 ImmutableFlags
 :
 :
-ArgumentsHasVarBinding
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 NeedsFunctionEnvironmentObjects
 )
 ;
