@@ -2982,7 +2982,9 @@ treeherder
 :
 platform
 :
-linux32
+linux1804
+-
+32
 -
 shippable
 /
