@@ -227,9 +227,6 @@ NullPrincipal
 (
 )
 ;
-nsresult
-rv
-=
 nullPrin
 -
 >
@@ -237,14 +234,6 @@ Init
 (
 aOriginAttributes
 aIsFirstParty
-)
-;
-MOZ_RELEASE_ASSERT
-(
-NS_SUCCEEDED
-(
-rv
-)
 )
 ;
 return
@@ -437,7 +426,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 NullPrincipal
 :
 :
@@ -554,9 +543,6 @@ FinishInit
 originNoSuffix
 attrs
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

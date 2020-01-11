@@ -422,7 +422,7 @@ mURI
 ;
 private
 :
-nsresult
+void
 Init
 (
 const
