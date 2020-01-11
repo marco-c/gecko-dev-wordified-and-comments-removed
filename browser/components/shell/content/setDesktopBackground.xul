@@ -321,7 +321,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 #
 endif
 <

@@ -479,7 +479,7 @@ placesCommands
 .
 inc
 .
-xul
+xhtml
 #
 include
 .
@@ -545,14 +545,14 @@ placesContextMenu
 .
 inc
 .
-xul
+xhtml
 #
 include
 bookmarksHistoryTooltip
 .
 inc
 .
-xul
+xhtml
 <
 hbox
 id

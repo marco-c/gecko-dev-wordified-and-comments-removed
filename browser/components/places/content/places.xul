@@ -576,7 +576,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 -
 >
 global
@@ -630,7 +630,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 -
 >
 global
@@ -739,7 +739,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 #
 else
 #
@@ -748,7 +748,7 @@ placesCommands
 .
 inc
 .
-xul
+xhtml
 #
 endif
 <
@@ -764,7 +764,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 to
 override
 DownloadsView
@@ -1062,7 +1062,7 @@ downloadsCommands
 .
 inc
 .
-xul
+xhtml
 #
 include
 .
@@ -1079,7 +1079,7 @@ downloadsStrings
 .
 inc
 .
-xul
+xhtml
 <
 keyset
 id
@@ -1440,7 +1440,7 @@ placesContextMenu
 .
 inc
 .
-xul
+xhtml
 <
 menupopup
 id
@@ -1502,7 +1502,7 @@ downloadsContextMenu
 .
 inc
 .
-xul
+xhtml
 <
 /
 popupset
@@ -3891,7 +3891,7 @@ editBookmarkPanel
 .
 inc
 .
-xul
+xhtml
 <
 /
 vbox

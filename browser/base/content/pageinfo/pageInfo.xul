@@ -336,7 +336,7 @@ macWindow
 .
 inc
 .
-xul
+xhtml
 #
 else
 <

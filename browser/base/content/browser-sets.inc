@@ -1635,7 +1635,7 @@ placesCommands
 .
 inc
 .
-xul
+xhtml
 <
 keyset
 id
