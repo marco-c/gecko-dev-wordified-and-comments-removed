@@ -258,11 +258,6 @@ GThread
 gSendThreadID
 ;
 void
-SaveSettings
-(
-)
-;
-void
 SendReport
 (
 )
