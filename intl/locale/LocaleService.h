@@ -160,6 +160,16 @@ WebExposedLocalesChanged
 (
 )
 ;
+static
+bool
+IsLocaleRTL
+(
+const
+nsACString
+&
+aLocale
+)
+;
 bool
 IsAppLocaleRTL
 (

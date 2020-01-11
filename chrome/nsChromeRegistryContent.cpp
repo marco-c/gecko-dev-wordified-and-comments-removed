@@ -859,7 +859,16 @@ aResult
 *
 aResult
 =
-GetDirectionForLocale
+mozilla
+:
+:
+intl
+:
+:
+LocaleService
+:
+:
+IsLocaleRTL
 (
 mLocale
 )
