@@ -1,5 +1,16 @@
+try
+:
+    
+import
+html
+except
+ImportError
+:
+    
 import
 cgi
+as
+html
 import
 json
 import
@@ -486,7 +497,7 @@ ul
 path
 "
 :
-cgi
+html
 .
 escape
 (
@@ -629,7 +640,7 @@ path
             
 link
 =
-cgi
+html
 .
 escape
 (
@@ -737,7 +748,7 @@ link
 name
 "
 :
-cgi
+html
 .
 escape
 (
