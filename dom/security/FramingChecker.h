@@ -4,6 +4,13 @@ mozilla_dom_FramingChecker_h
 #
 define
 mozilla_dom_FramingChecker_h
+#
+include
+"
+nsStringFwd
+.
+h
+"
 class
 nsIDocShell
 ;
@@ -89,6 +96,12 @@ const
 char
 *
 aMessageTag
+mozilla
+:
+:
+dom
+:
+:
 BrowsingContext
 *
 aParentContext
