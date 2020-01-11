@@ -226,6 +226,11 @@ BlockedSiteChild
 jsm
 '
 '
+BlockedSiteParent
+.
+jsm
+'
+'
 BrowserTabChild
 .
 jsm
