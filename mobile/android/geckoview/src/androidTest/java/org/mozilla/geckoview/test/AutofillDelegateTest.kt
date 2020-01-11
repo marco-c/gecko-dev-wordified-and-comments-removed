@@ -270,6 +270,15 @@ rememberSignons
 "
 to
 true
+"
+signon
+.
+userInputRequiredToCapture
+.
+enabled
+"
+to
+false
 )
 )
 mainSession
