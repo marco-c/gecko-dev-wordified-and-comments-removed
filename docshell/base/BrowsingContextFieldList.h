@@ -96,6 +96,16 @@ MOZ_BC_FIELD
 InRDMPane
 bool
 )
+MOZ_BC_FIELD
+(
+GVAudibleAutoplayRequestStatus
+GVAutoplayRequestStatus
+)
+MOZ_BC_FIELD
+(
+GVInaudibleAutoplayRequestStatus
+GVAutoplayRequestStatus
+)
 #
 undef
 MOZ_BC_FIELD

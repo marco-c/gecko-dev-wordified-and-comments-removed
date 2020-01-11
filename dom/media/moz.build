@@ -738,6 +738,11 @@ GVAutoplayPermissionRequest
 h
 '
 '
+GVAutoplayRequestStatusIPC
+.
+h
+'
+'
 GVAutoplayRequestUtils
 .
 h
