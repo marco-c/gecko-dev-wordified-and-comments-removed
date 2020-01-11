@@ -7892,6 +7892,9 @@ if
 browsingContext
 )
 {
+#
+ifndef
+FUZZING
 MOZ_CRASH
 (
 "
@@ -7903,6 +7906,8 @@ BrowsingContext
 "
 )
 ;
+#
+endif
 *
 aResult
 =
