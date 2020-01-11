@@ -346,11 +346,6 @@ noteIndex_
 =
 0
 ;
-unsigned
-caseNoteIndex_
-=
-0
-;
 uint32_t
 caseCount_
 =
