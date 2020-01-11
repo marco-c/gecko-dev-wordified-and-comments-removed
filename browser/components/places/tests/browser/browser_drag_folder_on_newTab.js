@@ -111,9 +111,9 @@ document
 getElementById
 (
 "
-new
+tabs
 -
-tab
+newtab
 -
 button
 "

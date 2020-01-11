@@ -920,9 +920,9 @@ alltabs
 -
 button
 {
-visibility
+display
 :
-collapse
+none
 ;
 }
 #
@@ -955,6 +955,13 @@ alltabs
 -
 button
 {
+display
+:
+-
+moz
+-
+box
+;
 visibility
 :
 hidden
@@ -1048,9 +1055,9 @@ newtab
 -
 button
 {
-visibility
+display
 :
-collapse
+none
 ;
 }
 .
