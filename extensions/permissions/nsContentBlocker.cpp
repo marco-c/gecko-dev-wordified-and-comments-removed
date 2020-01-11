@@ -1364,7 +1364,7 @@ if
 mPermissionManager
 -
 >
-GetHasPreloadPermissions
+HasPreloadPermissions
 (
 )
 )
