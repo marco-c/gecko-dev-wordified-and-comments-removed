@@ -551,6 +551,15 @@ aRes
 )
 override
 ;
+NS_IMETHOD
+GetIsOriginPotentiallyTrustworthy
+(
+bool
+*
+aResult
+)
+override
+;
 nsresult
 ToJSON
 (
