@@ -173,6 +173,13 @@ enabled
 "
 security
 .
+certerrors
+.
+permanentOverride
+"
+"
+security
+.
 enterprise_roots
 .
 auto
@@ -237,6 +244,13 @@ last_update_seconds
 "
 ]
 getAppBuildID
+:
+[
+"
+yes
+"
+]
+isWindowPrivate
 :
 [
 "
