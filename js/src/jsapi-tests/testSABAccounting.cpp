@@ -70,7 +70,10 @@ API
 CHECK
 (
 !
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -105,7 +108,10 @@ cx
 ;
 CHECK
 (
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -127,7 +133,10 @@ cx
 ;
 CHECK
 (
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )
@@ -165,7 +174,10 @@ API
 CHECK
 (
 !
-JS_ContainsSharedArrayBuffer
+JS
+:
+:
+ContainsSharedArrayBuffer
 (
 cx
 )

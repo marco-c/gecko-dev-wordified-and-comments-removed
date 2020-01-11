@@ -126,6 +126,16 @@ uint8_t
 data
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+ContainsSharedArrayBuffer
+(
+JSContext
+*
+cx
+)
+;
 }
 #
 endif
