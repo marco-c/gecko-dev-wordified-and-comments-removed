@@ -204,7 +204,9 @@ test
 -
 platform
 :
-linux64
+linux1804
+-
+64
 (
 ?
 !
@@ -309,7 +311,9 @@ test
 -
 platform
 :
-linux64
+linux1804
+-
+64
 -
 shippable
 -
