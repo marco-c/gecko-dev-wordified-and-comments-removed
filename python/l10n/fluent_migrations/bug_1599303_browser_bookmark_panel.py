@@ -162,6 +162,10 @@ panel
 .
 style
 =
+min
+-
+width
+:
 {
 COPY
 (

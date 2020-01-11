@@ -1280,4 +1280,8 @@ panel
 .
 style
 =
+min
+-
+width
+:
 23em
