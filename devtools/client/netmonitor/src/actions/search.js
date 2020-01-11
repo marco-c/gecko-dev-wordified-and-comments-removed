@@ -841,5 +841,6 @@ navigate
 setTargetSearchResult
 toggleCaseSensitiveSearch
 clearSearchResultAndCancel
+stopOngoingSearch
 }
 ;
