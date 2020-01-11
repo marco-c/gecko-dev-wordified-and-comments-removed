@@ -368,11 +368,6 @@ ret
     
 if
 (
-a
-.
-explicit_can_run_script
-or
-        
 (
 a
 .
