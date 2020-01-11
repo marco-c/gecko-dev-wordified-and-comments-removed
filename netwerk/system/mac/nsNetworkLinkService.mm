@@ -781,11 +781,11 @@ NS_IMETHODIMP
 nsNetworkLinkService
 :
 :
-GetVpnDetected
+GetPlatformDNSIndications
 (
-bool
+uint32_t
 *
-aHasVPN
+aPlatformDNSIndications
 )
 {
 return

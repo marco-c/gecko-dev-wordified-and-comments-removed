@@ -395,7 +395,7 @@ aLinkService
 )
 ;
 void
-CheckVPNStatus
+CheckPlatformDNSStatus
 (
 nsINetworkLinkService
 *
@@ -509,7 +509,7 @@ Atomic
 bool
 Relaxed
 >
-mVPNDetected
+mPlatformDisabledTRR
 ;
 RefPtr
 <
