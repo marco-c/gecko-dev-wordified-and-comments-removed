@@ -1811,7 +1811,7 @@ this
 ;
 }
 const
-UniquePtr
+RefPtr
 <
 GraphRunner
 >
