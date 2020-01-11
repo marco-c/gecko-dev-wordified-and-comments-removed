@@ -166,3 +166,17 @@ asyncstack
 false
 )
 ;
+user_pref
+(
+'
+marionette
+.
+log
+.
+level
+'
+'
+Trace
+'
+)
+;
