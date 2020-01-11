@@ -673,6 +673,10 @@ mImmediatePropagationStopped
 false
 ;
 }
+mDispatchedAtLeastOnce
+=
+false
+;
 }
 inline
 bool
