@@ -301,8 +301,6 @@ enable
 addon
 -
 button
--
-label
 "
 "
 The

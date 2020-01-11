@@ -120,6 +120,9 @@ addonCard
 querySelector
 (
 '
+panel
+-
+item
 [
 action
 =
