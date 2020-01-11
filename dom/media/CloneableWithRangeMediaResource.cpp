@@ -245,12 +245,14 @@ lock
 mMonitor
 )
 ;
-return
 lock
 .
 Notify
 (
 )
+;
+return
+NS_OK
 ;
 }
 private

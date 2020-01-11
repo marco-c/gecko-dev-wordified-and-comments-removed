@@ -147,7 +147,7 @@ aDuration
 ;
 #
 endif
-nsresult
+void
 Notify
 (
 )
@@ -158,11 +158,8 @@ notify_one
 (
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 NotifyAll
 (
 )
@@ -172,9 +169,6 @@ mImpl
 notify_all
 (
 )
-;
-return
-NS_OK
 ;
 }
 #
