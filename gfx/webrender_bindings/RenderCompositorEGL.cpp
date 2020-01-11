@@ -652,6 +652,10 @@ gle
 >
 mEgl
 ;
+MakeCurrent
+(
+)
+;
 egl
 -
 >
