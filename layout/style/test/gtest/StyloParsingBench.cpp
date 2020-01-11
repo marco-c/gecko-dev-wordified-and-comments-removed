@@ -287,6 +287,11 @@ data
 eCompatibility_FullStandards
 nullptr
 aCounters
+StyleSanitizationKind
+:
+:
+None
+nullptr
 )
 .
 Consume

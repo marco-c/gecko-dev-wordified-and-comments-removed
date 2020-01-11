@@ -306,7 +306,7 @@ DeclarationBlock
 aDeclaration
 )
 ;
-bool
+void
 SanitizeStyleSheet
 (
 const

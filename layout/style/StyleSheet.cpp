@@ -4337,6 +4337,11 @@ GetCompatibilityMode
 )
 nullptr
 useCounters
+StyleSanitizationKind
+:
+:
+None
+nullptr
 )
 .
 Consume
@@ -4553,6 +4558,11 @@ aLineNumber
 compatMode
 aReusableSheets
 useCounters
+StyleSanitizationKind
+:
+:
+None
+nullptr
 )
 .
 Consume
