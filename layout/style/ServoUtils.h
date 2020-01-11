@@ -16,15 +16,6 @@ h
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 MainThreadUtils
 .
 h
