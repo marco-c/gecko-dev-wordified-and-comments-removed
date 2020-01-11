@@ -4020,7 +4020,7 @@ sdp
 alternate_parse_mode
 "
 "
-never
+parallel
 "
 )
 ;
