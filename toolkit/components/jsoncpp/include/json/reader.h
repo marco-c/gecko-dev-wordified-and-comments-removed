@@ -14,7 +14,7 @@ JSON_IS_AMALGAMATION
 #
 include
 "
-features
+json_features
 .
 h
 "
@@ -85,6 +85,17 @@ namespace
 Json
 {
 class
+JSONCPP_DEPRECATED
+(
+"
+Use
+CharReader
+and
+CharReaderBuilder
+instead
+.
+"
+)
 JSON_API
 Reader
 {
@@ -352,7 +363,9 @@ skipSpaces
 bool
 match
 (
-Location
+const
+Char
+*
 pattern
 int
 patternLength
