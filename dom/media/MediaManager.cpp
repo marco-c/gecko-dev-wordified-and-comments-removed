@@ -273,6 +273,15 @@ include
 "
 mozilla
 /
+StaticPrefs_media
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingDeclarations
@@ -6148,6 +6157,9 @@ __func__
 ]
 (
 const
+media
+:
+:
 PrincipalKeyPromise
 :
 :
