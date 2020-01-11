@@ -1703,8 +1703,6 @@ mDocShell
 }
 #
 endif
-return
-;
 }
 void
 nsDOMNavigationTiming
