@@ -485,6 +485,13 @@ __delete__
 (
 )
 ;
+child
+:
+async
+ReloadCurrentEntryFromChild
+(
+)
+;
 }
 ;
 }
