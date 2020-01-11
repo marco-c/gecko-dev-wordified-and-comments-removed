@@ -1,0 +1,13 @@
+evalInWorker
+(
+"
+new
+WeakRef
+(
+{
+}
+)
+;
+"
+)
+;

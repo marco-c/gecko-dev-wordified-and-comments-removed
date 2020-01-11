@@ -5230,6 +5230,10 @@ clear
 (
 )
 ;
+clearKeptObjects
+(
+)
+;
 }
 void
 Zone
