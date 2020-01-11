@@ -787,18 +787,11 @@ os
 .
 path
 .
-normcase
-(
-os
-.
-path
-.
 abspath
 (
 '
 .
 '
-)
 )
     
 env
