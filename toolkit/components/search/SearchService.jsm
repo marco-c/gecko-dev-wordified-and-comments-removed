@@ -11159,11 +11159,9 @@ webExtension
 .
 locale
 :
-[
 SearchUtils
 .
 DEFAULT_TAG
-]
 ;
 let
 manifest
