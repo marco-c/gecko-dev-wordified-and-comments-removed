@@ -105,6 +105,8 @@ gfx
 VRSystemState
 &
 aSystemState
+bool
+aDetectRuntimesOnly
 )
 =
 0
