@@ -10242,6 +10242,9 @@ false
 )
 ;
 }
+nsGlobalWindowInner
+:
+:
 CallState
 nsGlobalWindowInner
 :
@@ -24273,6 +24276,9 @@ typename
 .
 Args
 >
+nsGlobalWindowInner
+:
+:
 CallState
 nsGlobalWindowInner
 :

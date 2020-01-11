@@ -1826,7 +1826,7 @@ nullptr
 }
 }
 static
-CallState
+bool
 CollectDocuments
 (
 Document
@@ -1868,10 +1868,7 @@ aData
 )
 ;
 return
-CallState
-:
-:
-Continue
+true
 ;
 }
 nsCOMPtr
@@ -10336,7 +10333,7 @@ aClosure
 )
 -
 >
-CallState
+bool
 {
 auto
 *
@@ -10378,10 +10375,7 @@ mParentClosure
 ;
 }
 return
-CallState
-:
-:
-Continue
+true
 ;
 }
 &

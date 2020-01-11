@@ -681,11 +681,6 @@ mozilla
 =
 [
 '
-CallState
-.
-h
-'
-'
 ContentIterator
 .
 h
