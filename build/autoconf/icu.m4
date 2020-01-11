@@ -212,7 +212,7 @@ _INTL_API
 =
 withval
 )
-ENABLE_INTL_API
+JS_HAS_INTL_API
 =
 case
 "
@@ -225,7 +225,7 @@ no
 ;
 yes
 )
-ENABLE_INTL_API
+JS_HAS_INTL_API
 =
 1
 ;
@@ -258,7 +258,7 @@ test
 -
 n
 "
-ENABLE_INTL_API
+JS_HAS_INTL_API
 "
 ;
 then
@@ -271,13 +271,13 @@ test
 -
 n
 "
-ENABLE_INTL_API
+JS_HAS_INTL_API
 "
 ;
 then
 AC_DEFINE
 (
-ENABLE_INTL_API
+JS_HAS_INTL_API
 )
 fi
 dnl
@@ -557,7 +557,7 @@ MOZ_ICU_VERSION
 )
 AC_SUBST
 (
-ENABLE_INTL_API
+JS_HAS_INTL_API
 )
 AC_SUBST
 (

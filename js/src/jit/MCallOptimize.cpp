@@ -25,7 +25,7 @@ h
 "
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -1730,7 +1730,7 @@ callInfo
 ;
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 case
 InlinableNative
 :

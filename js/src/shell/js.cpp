@@ -6957,7 +6957,7 @@ true
 }
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 static
 bool
 AddIntlExtras
@@ -53202,7 +53202,7 @@ true
 )
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 JS_FN_HELP
 (
 "

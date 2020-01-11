@@ -70,7 +70,7 @@ TYPE
 )
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 define
 IF_INTL
@@ -93,7 +93,7 @@ IMAGINARY
 endif
 #
 ifdef
-ENABLE_TYPED_OBJECTS
+JS_HAS_TYPED_OBJECTS
 #
 define
 IF_TYPEDOBJ

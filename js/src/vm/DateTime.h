@@ -67,7 +67,7 @@ h
 "
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -338,7 +338,7 @@ utcToLocalStandardOffsetSeconds_
 }
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -555,7 +555,7 @@ dstRange_
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
@@ -719,7 +719,7 @@ utcMilliseconds
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 &
 &
 !
