@@ -82,9 +82,6 @@ None
 webdriver
 =
 None
-extra_timeout
-=
-5
 def
 write_hosts_file
 (
