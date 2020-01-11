@@ -9500,7 +9500,7 @@ gRemoteControl
 "
 remote
 -
-active
+listening
 "
 )
 ;
@@ -11676,7 +11676,7 @@ gRemoteControl
 "
 remote
 -
-active
+listening
 "
 )
 ;
