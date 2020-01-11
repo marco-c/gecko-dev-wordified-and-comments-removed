@@ -133,9 +133,10 @@ learnMore
 .
 textContent
 "
-How
-it
-works
+What
+s
+Pocket
+?
 "
 "
 Got
