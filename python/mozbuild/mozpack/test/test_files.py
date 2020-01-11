@@ -620,6 +620,7 @@ dest
 .
 write
 (
+b
 '
 foo
 '
@@ -640,6 +641,7 @@ dest
 .
 write
 (
+b
 '
 foo
 '
@@ -655,6 +657,7 @@ read
 (
 4
 )
+b
 '
 foof
 '
@@ -669,6 +672,7 @@ dest
 read
 (
 )
+b
 '
 oo
 '
@@ -683,6 +687,7 @@ dest
 read
 (
 )
+b
 '
 '
 )
@@ -691,6 +696,7 @@ dest
 .
 write
 (
+b
 '
 bar
 '
@@ -706,6 +712,7 @@ read
 (
 4
 )
+b
 '
 bar
 '
@@ -726,6 +733,7 @@ dest
 read
 (
 )
+b
 '
 bar
 '
@@ -735,6 +743,7 @@ dest
 .
 write
 (
+b
 '
 foo
 '
@@ -750,6 +759,7 @@ dest
 .
 write
 (
+b
 '
 qux
 '
@@ -764,6 +774,7 @@ dest
 read
 (
 )
+b
 '
 qux
 '
@@ -1226,6 +1237,7 @@ src
         
 content
 =
+b
 '
 '
 .
@@ -1369,6 +1381,7 @@ tmp
 .
 write
 (
+b
 '
 test
 '
@@ -1402,6 +1415,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -1456,6 +1470,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -1488,6 +1503,7 @@ tmp
 .
 write
 (
+b
 '
 fooo
 '
@@ -1531,6 +1547,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 '
@@ -1599,6 +1616,7 @@ self
 .
 assertEqual
 (
+b
 '
 fooo
 '
@@ -2894,6 +2912,7 @@ tmp
 .
 write
 (
+b
 '
 #
 ifdef
@@ -2947,6 +2966,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 \
@@ -3048,6 +3068,7 @@ tmp
 .
 write
 (
+b
 '
 #
 ifdef
@@ -3116,6 +3137,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 \
@@ -3150,6 +3172,7 @@ tmp
 .
 write
 (
+b
 '
 #
 ifdef
@@ -3206,6 +3229,7 @@ self
 .
 assertEqual
 (
+b
 '
 test
 \
@@ -3243,6 +3267,7 @@ self
 .
 assertEqual
 (
+b
 '
 fooo
 \
@@ -3351,6 +3376,7 @@ tmp
 .
 write
 (
+b
 '
 #
 ifdef
@@ -3380,6 +3406,7 @@ tmp
 .
 write
 (
+b
 '
 foo
 bar
@@ -3438,6 +3465,7 @@ tmp
 .
 write
 (
+b
 '
 #
 include
@@ -3487,6 +3515,7 @@ self
 .
 assertEqual
 (
+b
 '
 foo
 bar
@@ -3520,6 +3549,7 @@ tmp
 .
 write
 (
+b
 '
 quux
 '
@@ -3565,6 +3595,7 @@ self
 .
 assertEqual
 (
+b
 '
 quux
 '
@@ -3763,6 +3794,7 @@ tmp
 .
 write
 (
+b
 '
 #
 define
@@ -3813,6 +3845,7 @@ self
 .
 assertEqual
 (
+b
 '
 PREPROCESSED
 '
@@ -3847,6 +3880,7 @@ self
 .
 assertEqual
 (
+b
 '
 '
 open
@@ -4815,23 +4849,22 @@ samples
                 
 name
 =
-b
 '
 '
 .
 join
 (
+                    
 random
 .
 choice
 (
-                    
-b
+                        
 '
 abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 '
-)
                     
+)
 for
 i
 in
@@ -5668,6 +5701,9 @@ chrome
 manifest
 '
 )
+'
+rb
+'
 )
 .
 read
@@ -6434,7 +6470,6 @@ propLines
 =
 [
             
-b
 '
 #
 Comments
@@ -6442,18 +6477,15 @@ are
 removed
 '
             
-b
 '
 foo
 =
 bar
 '
             
-b
 '
 '
             
-b
 '
 #
 Another
@@ -6466,7 +6498,6 @@ prop
 =
 GeneratedFile
 (
-b
 '
 \
 n
@@ -6521,7 +6552,7 @@ prop
 '
 )
 '
-wb
+w
 '
 )
 .
@@ -6612,7 +6643,6 @@ orig_lines
 =
 [
         
-b
 '
 /
 /
@@ -6620,7 +6650,6 @@ Comment
 line
 '
         
-b
 '
 let
 foo
@@ -6631,7 +6660,6 @@ bar
 ;
 '
         
-b
 '
 var
 bar
@@ -6640,11 +6668,9 @@ true
 ;
 '
         
-b
 '
 '
         
-b
 '
 /
 /
@@ -6665,7 +6691,6 @@ orig_f
 =
 GeneratedFile
 (
-b
 '
 \
 n
@@ -6787,7 +6812,6 @@ orig_f
 =
 GeneratedFile
 (
-b
 '
 \
 n
@@ -6866,7 +6890,6 @@ orig_f
 =
 GeneratedFile
 (
-b
 '
 \
 n
@@ -8210,7 +8233,12 @@ wb
 .
 write
 (
+six
+.
+ensure_binary
+(
 path
+)
 )
     
 def
@@ -9557,7 +9585,12 @@ content
             
 content
 =
+six
+.
+ensure_binary
+(
 path
+)
         
 open
 (
@@ -9660,6 +9693,7 @@ wb
 .
 write
 (
+b
 '
 hoge
 '
@@ -9688,6 +9722,7 @@ wb
 .
 write
 (
+b
 '
 not
 the
@@ -9791,6 +9826,34 @@ hglib
 hglib
 not
 available
+'
+)
+unittest
+.
+skipIf
+(
+six
+.
+PY3
+and
+os
+.
+name
+=
+=
+'
+nt
+'
+                 
+'
+Does
+not
+currently
+work
+in
+Python3
+on
+Windows
 '
 )
 class
@@ -9924,9 +9987,14 @@ hglib
 .
 open
 (
+six
+.
+ensure_binary
+(
 self
 .
 tmpdir
+)
                             
 encoding
 =
@@ -10003,18 +10071,28 @@ fh
 .
 write
 (
+six
+.
+ensure_binary
+(
 path
+)
 )
             
 c
 .
 add
 (
+six
+.
+ensure_binary
+(
 self
 .
 tmppath
 (
 path
+)
 )
 )
     
@@ -10203,6 +10281,7 @@ fh
 .
 write
 (
+b
 '
 foo
 initial
@@ -10213,6 +10292,10 @@ c
 .
 add
 (
+six
+.
+ensure_binary
+(
 self
 .
 tmppath
@@ -10220,6 +10303,7 @@ tmppath
 '
 foo
 '
+)
 )
 )
             
@@ -10255,6 +10339,7 @@ fh
 .
 write
 (
+b
 '
 foo
 second
@@ -10284,6 +10369,7 @@ fh
 .
 write
 (
+b
 '
 bar
 second
@@ -10294,6 +10380,10 @@ c
 .
 add
 (
+six
+.
+ensure_binary
+(
 self
 .
 tmppath
@@ -10301,6 +10391,7 @@ tmppath
 '
 bar
 '
+)
 )
 )
             
@@ -10318,9 +10409,11 @@ c
 rawcommand
 (
 [
+b
 '
 update
 '
+b
 '
 null
 '
@@ -10336,7 +10429,9 @@ _get_finder
 self
 .
 tmpdir
+'
 0
+'
 )
         
 f
@@ -10359,6 +10454,7 @@ f
 read
 (
 )
+b
 '
 foo
 initial
@@ -10374,10 +10470,12 @@ f
 read
 (
 )
+b
 '
 foo
 initial
 '
+                         
 '
 read
 again
@@ -10412,7 +10510,9 @@ self
 tmpdir
 rev
 =
+'
 1
+'
 )
         
 f
@@ -10435,6 +10535,7 @@ f
 read
 (
 )
+b
 '
 foo
 second
@@ -10461,6 +10562,7 @@ f
 read
 (
 )
+b
 '
 bar
 second
@@ -10511,6 +10613,7 @@ fh
 .
 write
 (
+b
 '
 initial
 '
@@ -10520,6 +10623,10 @@ c
 .
 add
 (
+six
+.
+ensure_binary
+(
 self
 .
 tmppath
@@ -10527,6 +10634,7 @@ tmppath
 '
 foo
 '
+)
 )
 )
             
@@ -10544,9 +10652,11 @@ c
 rawcommand
 (
 [
+b
 '
 update
 '
+b
 '
 null
 '
@@ -10562,7 +10672,9 @@ _get_finder
 self
 .
 tmpdir
+'
 0
+'
                                   
 recognize_repo_paths
 =
@@ -10657,6 +10769,7 @@ f
 read
 (
 )
+b
 '
 initial
 '
