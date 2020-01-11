@@ -1171,7 +1171,7 @@ memory
 for
 (
 let
-dump
+entry
 of
 this
 .
@@ -1182,6 +1182,8 @@ toDelete
 .
 push
 (
+entry
+.
 dump
 )
 ;
