@@ -1966,7 +1966,7 @@ skipFocusChange
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1974,10 +1974,8 @@ gBrowser
 .
 selectedBrowser
 [
-[
 lastElementSelector
 selector
-]
 ]
 async
 function
@@ -2089,16 +2087,14 @@ check
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 selector
-]
 async
 function
 (

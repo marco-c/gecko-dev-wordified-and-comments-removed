@@ -235,16 +235,14 @@ numberOfTimes
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 numberOfTimes
-]
 async
 function
 (

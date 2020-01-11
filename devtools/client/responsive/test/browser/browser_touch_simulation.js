@@ -99,7 +99,7 @@ ui
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -108,8 +108,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -617,7 +617,7 @@ ui
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -626,8 +626,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -1088,7 +1088,7 @@ defined
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1097,8 +1097,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -1203,7 +1203,7 @@ true
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1212,8 +1212,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -1606,7 +1606,7 @@ false
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1615,8 +1615,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (

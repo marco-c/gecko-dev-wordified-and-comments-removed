@@ -28,13 +28,12 @@ newBrowser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 newBrowser
-[
-]
+null
 async
 function
 (

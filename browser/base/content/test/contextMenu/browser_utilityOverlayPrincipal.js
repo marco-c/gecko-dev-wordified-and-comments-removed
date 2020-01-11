@@ -140,15 +140,14 @@ loaded
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 function
 (
 )

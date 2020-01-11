@@ -385,15 +385,14 @@ onAllWindowsRestored
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 async
 function
 (

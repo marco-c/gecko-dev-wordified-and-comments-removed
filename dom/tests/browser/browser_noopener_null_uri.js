@@ -30,13 +30,12 @@ tabs
 length
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 aBrowser
-[
-]
+null
 async
 (
 )

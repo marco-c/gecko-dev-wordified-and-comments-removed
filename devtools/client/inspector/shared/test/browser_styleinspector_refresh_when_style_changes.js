@@ -346,16 +346,14 @@ eventName
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 whatToMutate
-]
 function
 (
 {

@@ -31,9 +31,7 @@ ContentTask
 spawn
 (
 newBrowser
-[
 uri
-]
 async
 function
 (

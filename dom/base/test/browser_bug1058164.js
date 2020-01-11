@@ -675,7 +675,8 @@ ContentTask
 spawn
 (
 emptyBrowser
-null
+{
+}
 async
 (
 )

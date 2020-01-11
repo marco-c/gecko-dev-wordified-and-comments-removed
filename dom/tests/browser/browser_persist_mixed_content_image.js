@@ -237,14 +237,12 @@ browser
 >
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
-async
+null
 function
 (
 )
@@ -311,7 +309,7 @@ src
 =
 imgloc
 ;
-await
+return
 new
 Promise
 (

@@ -100,13 +100,12 @@ tabBrowser
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tabBrowser
-[
-]
+null
 function
 (
 )

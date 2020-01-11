@@ -1487,7 +1487,7 @@ height
 const
 reflowed
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1496,8 +1496,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -1536,7 +1536,7 @@ ui
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1545,8 +1545,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (
@@ -2322,7 +2322,9 @@ ContentTask
 spawn
 (
 browser
-null
+{
+}
+async
 function
 (
 )
@@ -3169,13 +3171,13 @@ const
 ua
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 async
 function
 (
@@ -4484,7 +4486,7 @@ ui
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -4493,8 +4495,8 @@ ui
 getViewportBrowser
 (
 )
-[
-]
+{
+}
 async
 function
 (

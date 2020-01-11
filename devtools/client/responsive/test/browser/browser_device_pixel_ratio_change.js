@@ -679,7 +679,7 @@ expected
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -688,11 +688,9 @@ ui
 getViewportBrowser
 (
 )
-[
 {
 expected
 }
-]
 function
 (
 args

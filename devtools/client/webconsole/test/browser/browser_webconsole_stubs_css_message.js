@@ -476,16 +476,14 @@ resolve
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 code
-]
 function
 (
 subCode

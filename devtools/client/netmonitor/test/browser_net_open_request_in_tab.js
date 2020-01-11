@@ -834,7 +834,7 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -842,11 +842,9 @@ tab
 .
 linkedBrowser
 [
-[
 method
 contentType
 payload
-]
 ]
 async
 function
@@ -898,7 +896,7 @@ payload
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -906,11 +904,9 @@ checkedTab
 .
 linkedBrowser
 [
-[
 method
 contentType
 payload
-]
 ]
 async
 function

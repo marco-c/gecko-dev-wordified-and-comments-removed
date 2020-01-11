@@ -11,13 +11,12 @@ aBrowser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 aBrowser
-[
-]
+null
 async
 function
 (

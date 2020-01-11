@@ -186,16 +186,14 @@ let
 validLinks
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 items
-]
 function
 (
 contentItems

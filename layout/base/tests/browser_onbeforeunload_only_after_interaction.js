@@ -308,15 +308,13 @@ let
 hasInteractedWith
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 "
 "
-]
 function
 (
 )

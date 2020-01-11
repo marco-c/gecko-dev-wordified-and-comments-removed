@@ -119,13 +119,12 @@ tabs
 length
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 function
 (
 )

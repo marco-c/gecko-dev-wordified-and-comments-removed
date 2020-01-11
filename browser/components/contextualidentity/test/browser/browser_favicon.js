@@ -645,14 +645,13 @@ userContextId
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tabInfo
 .
 browser
-[
 {
 userContext
 :
@@ -661,7 +660,6 @@ USER_CONTEXTS
 userContextId
 ]
 }
-]
 function
 (
 arg

@@ -193,14 +193,12 @@ snippet
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 snippet
-]
 async
 function
 (
@@ -285,10 +283,6 @@ addSHistoryListener
 listener
 )
 ;
-docShell
-.
-chromeEventHandler
-.
 addEventListener
 (
 "
