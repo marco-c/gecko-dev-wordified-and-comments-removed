@@ -263,9 +263,9 @@ env_logger
 "
 0
 .
-6
+7
 .
-2
+1
 "
 env_logger
 must
@@ -303,10 +303,6 @@ macro_use
 extern
 crate
 log
-;
-extern
-crate
-env_logger
 ;
 fn
 main
@@ -464,9 +460,9 @@ env_logger
 "
 0
 .
-6
+7
 .
-2
+1
 "
 rust
 #
@@ -520,10 +516,6 @@ super
 :
 :
 *
-;
-extern
-crate
-env_logger
 ;
 fn
 init

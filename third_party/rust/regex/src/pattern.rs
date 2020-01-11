@@ -10,8 +10,8 @@ pattern
 :
 {
 Pattern
-Searcher
 SearchStep
+Searcher
 }
 ;
 use
@@ -19,8 +19,8 @@ re_unicode
 :
 :
 {
-Regex
 Matches
+Regex
 }
 ;
 pub

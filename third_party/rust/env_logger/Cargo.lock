@@ -285,9 +285,9 @@ version
 "
 0
 .
-6
+7
 .
-2
+1
 "
 dependencies
 =
@@ -325,7 +325,7 @@ index
 humantime
 1
 .
-2
+3
 .
 0
 (
@@ -356,7 +356,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -453,7 +453,7 @@ version
 "
 1
 .
-2
+3
 .
 0
 "
@@ -616,7 +616,7 @@ version
 .
 4
 .
-6
+8
 "
 source
 =
@@ -2178,7 +2178,7 @@ checksum
 humantime
 1
 .
-2
+3
 .
 0
 (
@@ -2205,7 +2205,7 @@ index
 "
 =
 "
-3ca7e5f2e110db35f93b837c81797f3714500b81d517bf20c431b16d3ca4f114
+df004cfca50ef23c36850aaaa59ad52cc70d0e90243c3c7737a4dd32dc7a3c4f
 "
 "
 checksum
@@ -2282,7 +2282,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -2307,7 +2307,7 @@ index
 "
 =
 "
-c84ec4b527950aa83a329754b01dbe3f58361d1c5efacd1f6d68c494d08a17c6
+14b6052be84e6b71ab17edffc2eeabf5c2c3ae1fdb464aae35ac50c67a44e1f7
 "
 "
 checksum

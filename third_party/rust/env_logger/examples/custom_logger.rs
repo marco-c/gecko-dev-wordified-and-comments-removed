@@ -6,10 +6,6 @@ extern
 crate
 log
 ;
-extern
-crate
-env_logger
-;
 use
 env_logger
 :
