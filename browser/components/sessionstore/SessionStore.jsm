@@ -279,7 +279,7 @@ attributes
 data
 "
 "
-http
+channel
 -
 on
 -
@@ -1087,6 +1087,16 @@ aMsg
 )
 ;
 }
+dump
+(
+aMsg
++
+"
+\
+n
+"
+)
+;
 }
 var
 gResistFingerprintingEnabled
@@ -3610,7 +3620,7 @@ break
 ;
 case
 "
-http
+channel
 -
 on
 -
