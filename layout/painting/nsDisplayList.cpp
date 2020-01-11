@@ -44829,6 +44829,10 @@ Round
 uint64_t
 animationsId
 =
+mIsTransformSeparator
+?
+0
+:
 AddAnimationsForWebRender
 (
 this
@@ -44886,6 +44890,10 @@ this
 bool
 animated
 =
+!
+mIsTransformSeparator
+&
+&
 ActiveLayerTracker
 :
 :
@@ -45354,6 +45362,12 @@ false
 )
 ;
 }
+if
+(
+!
+mIsTransformSeparator
+)
+{
 nsDisplayListBuilder
 :
 :
@@ -45368,6 +45382,7 @@ GetType
 )
 )
 ;
+}
 if
 (
 mAllowAsyncAnimation
