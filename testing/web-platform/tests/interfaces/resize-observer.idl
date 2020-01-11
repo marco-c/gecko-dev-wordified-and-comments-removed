@@ -152,11 +152,6 @@ observer
 Exposed
 =
 Window
-Constructor
-(
-Element
-target
-)
 ]
 interface
 ResizeObserverEntry
