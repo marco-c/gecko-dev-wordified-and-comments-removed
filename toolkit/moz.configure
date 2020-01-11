@@ -15428,6 +15428,11 @@ wasi
 -
 sysroot
 '
+env
+=
+'
+WASI_SYSROOT
+'
 nargs
 =
 1
