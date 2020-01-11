@@ -274,9 +274,6 @@ prompts
 protobuf
 '
 '
-reader
-'
-'
 remotebrowserutils
 '
 '
@@ -375,6 +372,9 @@ DIRS
 [
 '
 narrate
+'
+'
+reader
 '
 ]
 ;
