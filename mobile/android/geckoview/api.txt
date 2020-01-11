@@ -9854,6 +9854,15 @@ FETCH_FLAGS_NO_REDIRECTS
 =
 2
 ;
+field
+public
+static
+final
+int
+FETCH_FLAGS_STREAM_FAILURE_TEST
+=
+1024
+;
 }
 AnyThread
 public
