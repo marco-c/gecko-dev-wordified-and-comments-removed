@@ -2062,6 +2062,13 @@ join
 (
 repo_path
 javadoc_path
+.
+format
+(
+*
+*
+fmt
+)
 )
         
 mozfile
