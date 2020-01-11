@@ -3060,7 +3060,7 @@ content
 /
 dummy
 .
-xul
+xhtml
 "
 ;
 if

@@ -83,7 +83,7 @@ alerts
 /
 alert
 .
-xul
+xhtml
 (
 resources
 /
@@ -91,7 +91,7 @@ content
 /
 alert
 .
-xul
+xhtml
 )
 content
 /

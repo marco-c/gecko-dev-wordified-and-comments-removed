@@ -930,7 +930,7 @@ profile
 /
 createProfileWizard
 .
-xul
+xhtml
 "
 "
 "

@@ -134,7 +134,7 @@ content
 /
 printPageSetup
 .
-xul
+xhtml
 "
 ;
 using

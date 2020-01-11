@@ -43,7 +43,7 @@ content
 /
 resetProfileProgress
 .
-xul
+xhtml
 "
 ;
 nsresult

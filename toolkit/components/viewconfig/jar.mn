@@ -63,13 +63,13 @@ global
 /
 config
 .
-xul
+xhtml
 (
 content
 /
 config
 .
-xul
+xhtml
 )
 content
 /

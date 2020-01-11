@@ -37,7 +37,7 @@ content
 /
 passwordManager
 .
-xul
+xhtml
 "
 ;
 const
