@@ -327,6 +327,11 @@ PermissionMessageUtils
 h
 '
 '
+PropertyBagUtils
+.
+h
+'
+'
 ReferrerInfoUtils
 .
 h
@@ -550,6 +555,11 @@ cpp
 '
 '
 ProcessPriorityManager
+.
+cpp
+'
+'
+PropertyBagUtils
 .
 cpp
 '
