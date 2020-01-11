@@ -217,7 +217,7 @@ True
 if
 milestone
 .
-is_nightly
+is_early_beta_or_earlier
 and
 build_project
 !
@@ -516,6 +516,9 @@ return
 False
 #
 Nightly
+or
+early
+beta
 only
 because
 PHC
@@ -531,7 +534,7 @@ if
 not
 milestone
 .
-is_nightly
+is_early_beta_or_earlier
 :
 return
 False
