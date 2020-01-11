@@ -121,22 +121,25 @@ e
 return
 e
 def
-map_file_to_source
+build_repo_relative_path
 (
 abs_path
-source
+repo_path
 )
 :
     
-assert
-isinstance
-(
-source
-(
-list
-tuple
-)
-)
+'
+'
+'
+Build
+path
+relative
+to
+repository
+root
+'
+'
+'
     
 if
 os
@@ -158,17 +161,14 @@ realpath
 abs_path
 )
     
-if
-abs_path
-in
-source
-:
-        
 return
+mozpath
+.
+relpath
+(
 abs_path
-    
-return
-None
+repo_path
+)
 def
 prompt_bool
 (
@@ -358,7 +358,6 @@ self
 srcdir
 objdir
 clang_tidy_config
-source
 total
 )
 :
@@ -386,12 +385,6 @@ self
 _srcdir
 =
 srcdir
-        
-self
-.
-_source
-=
-source
         
 self
 .
@@ -484,12 +477,7 @@ filename
 '
 ]
 =
-mozpath
-.
-relpath
-(
-                
-map_file_to_source
+build_repo_relative_path
 (
 warning
 [
@@ -497,10 +485,6 @@ warning
 filename
 '
 ]
-self
-.
-_source
-)
 self
 .
 _srcdir
@@ -661,18 +645,9 @@ self
 .
 _current
 =
-mozpath
-.
-relpath
-(
-                    
-map_file_to_source
+build_repo_relative_path
 (
 filename
-self
-.
-_source
-)
 self
 .
 _srcdir
@@ -1971,7 +1946,6 @@ topobjdir
 self
 .
 _clang_tidy_config
-source
 total
 )
         
@@ -3767,53 +3741,6 @@ output
 )
 :
         
-def
-relpath
-(
-path
-)
-:
-            
-'
-'
-'
-Build
-path
-relative
-to
-repository
-root
-'
-'
-'
-            
-if
-path
-.
-startswith
-(
-self
-.
-topsrcdir
-)
-:
-                
-return
-os
-.
-path
-.
-relpath
-(
-path
-self
-.
-topsrcdir
-)
-            
-return
-path
-        
 with
 open
 (
@@ -4038,7 +3965,7 @@ append
 file_path
 '
 :
-relpath
+build_repo_relative_path
 (
 event
 [
@@ -4046,6 +3973,10 @@ event
 strippedFilePathname
 '
 ]
+                                                               
+self
+.
+topsrcdir
 )
                          
 '
@@ -4099,7 +4030,7 @@ issues
                 
 path
 =
-map_file_to_source
+build_repo_relative_path
 (
 issue
 [
@@ -4107,7 +4038,10 @@ issue
 strippedMainEventFilePathname
 '
 ]
-source
+                                                
+self
+.
+topsrcdir
 )
                 
 if
@@ -4187,13 +4121,6 @@ strippedMainEventFilePathname
 )
                     
 continue
-                
-path
-=
-relpath
-(
-path
-)
                 
 if
 path
