@@ -310,10 +310,6 @@ purpose
 undefined
 }
 ]
-mozparams
-:
-{
-}
 }
 ]
 }

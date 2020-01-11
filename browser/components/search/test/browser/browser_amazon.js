@@ -353,10 +353,6 @@ purpose
 undefined
 }
 ]
-mozparams
-:
-{
-}
 }
 {
 type

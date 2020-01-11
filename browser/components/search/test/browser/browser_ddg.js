@@ -553,10 +553,6 @@ newtab
 "
 }
 ]
-mozparams
-:
-{
-}
 }
 {
 type

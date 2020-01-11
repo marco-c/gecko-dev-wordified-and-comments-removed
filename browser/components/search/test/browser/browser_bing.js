@@ -597,10 +597,6 @@ newtab
 "
 }
 ]
-mozparams
-:
-{
-}
 }
 {
 type
