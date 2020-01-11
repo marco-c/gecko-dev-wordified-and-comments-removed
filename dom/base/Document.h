@@ -4752,12 +4752,11 @@ nsTabSizes
 aSizes
 )
 ;
-nsresult
+void
 ChangeContentEditableCount
 (
-nsIContent
+Element
 *
-aElement
 int32_t
 aChange
 )
@@ -4765,9 +4764,8 @@ aChange
 void
 DeferredContentEditableCountChange
 (
-nsIContent
+Element
 *
-aElement
 )
 ;
 enum
