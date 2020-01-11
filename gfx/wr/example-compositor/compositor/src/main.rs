@@ -204,6 +204,7 @@ NativeSurfaceInfo
 {
 let
 (
+fbo_id
 x
 y
 )
@@ -257,8 +258,6 @@ x
 y
 )
 fbo_id
-:
-0
 }
 }
 fn
