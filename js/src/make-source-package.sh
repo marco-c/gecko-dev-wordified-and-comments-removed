@@ -834,6 +834,13 @@ cargo
 config
 .
 in
+-
+/
+third_party
+/
+python
+/
+gyp
 +
 /
 third_party
