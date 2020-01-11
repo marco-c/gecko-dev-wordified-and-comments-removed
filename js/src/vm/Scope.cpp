@@ -8070,12 +8070,6 @@ locals
 size_t
 argsLength
 ;
-wasm
-:
-:
-StackResults
-unusedStackResults
-;
 if
 (
 !
@@ -8097,8 +8091,6 @@ funcIndex
 locals
 &
 argsLength
-&
-unusedStackResults
 )
 )
 {
