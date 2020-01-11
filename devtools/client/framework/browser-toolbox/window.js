@@ -1076,13 +1076,6 @@ BROWSERTOOLBOX
 toolboxOptions
 )
 ;
-toolbox
-.
-setBrowserToolbox
-(
-true
-)
-;
 await
 onNewToolbox
 (
