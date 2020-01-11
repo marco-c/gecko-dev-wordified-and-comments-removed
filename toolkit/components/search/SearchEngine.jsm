@@ -2291,10 +2291,6 @@ p
 p
 .
 purpose
-!
-=
-=
-undefined
 &
 &
 p
@@ -2354,10 +2350,6 @@ if
 param
 .
 purpose
-!
-=
-=
-undefined
 &
 &
 param
@@ -8511,10 +8503,7 @@ __internalAliases
 }
 _getSearchFormWithPurpose
 (
-aPurpose
-=
-"
-"
+purpose
 )
 {
 var
@@ -8549,7 +8538,7 @@ getSubmission
 "
 "
 this
-aPurpose
+purpose
 )
 ;
 if
