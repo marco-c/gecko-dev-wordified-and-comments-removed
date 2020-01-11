@@ -1745,6 +1745,7 @@ new
 SystemClockDriver
 (
 this
+mSampleRate
 )
 ;
 CurrentDriver
@@ -1836,6 +1837,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 graphOutputChannelCount
 AudioInputChannelCount
 (
@@ -1901,6 +1903,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 graphOutputChannelCount
 AudioInputChannelCount
 (
@@ -3280,6 +3283,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 AudioOutputChannelCount
 (
 )
@@ -3733,6 +3737,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 AudioOutputChannelCount
 (
 )
@@ -3798,6 +3803,7 @@ new
 SystemClockDriver
 (
 this
+mSampleRate
 )
 ;
 CurrentDriver
@@ -3932,6 +3938,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 AudioOutputChannelCount
 (
 )
@@ -4778,6 +4785,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 AudioOutputChannelCount
 (
 )
@@ -15186,6 +15194,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 aChannelCount
 0
 AudioInputType
@@ -15203,6 +15212,7 @@ new
 SystemClockDriver
 (
 this
+mSampleRate
 )
 ;
 }
@@ -15215,6 +15225,7 @@ new
 OfflineClockDriver
 (
 this
+mSampleRate
 MEDIA_GRAPH_TARGET_PERIOD_MS
 )
 ;
@@ -17771,6 +17782,7 @@ new
 AudioCallbackDriver
 (
 this
+mSampleRate
 AudioOutputChannelCount
 (
 )
@@ -17891,6 +17903,7 @@ new
 SystemClockDriver
 (
 this
+mSampleRate
 )
 ;
 MonitorAutoLock
