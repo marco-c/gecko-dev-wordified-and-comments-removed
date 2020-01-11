@@ -26,6 +26,7 @@ const
 it
 fit
 xit
+it_fails_ffox
 }
 =
 testRunner
@@ -156,7 +157,7 @@ yo
 }
 )
 ;
-it
+it_fails_ffox
 (
 '
 should
