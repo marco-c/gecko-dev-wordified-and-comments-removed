@@ -160,7 +160,7 @@ installer
 .
 We
 build
-two
+three
 different
 kinds
 of
@@ -174,7 +174,6 @@ Installer
 <
 StubInstaller
 >
-and
 the
 :
 doc
@@ -184,6 +183,21 @@ Installer
 <
 FullInstaller
 >
+and
+an
+:
+doc
+:
+MSI
+package
+<
+MSI
+>
+which
+wraps
+the
+full
+installer
 .
 The
 stub
@@ -200,7 +214,9 @@ and
 the
 full
 installer
-is
+and
+MSI
+are
 aimed
 at
 power
@@ -216,8 +232,7 @@ There
 '
 s
 also
-a
-third
+another
 installer
 -
 related
@@ -275,4 +290,5 @@ toctree
 InstallerBuild
 StubInstaller
 FullInstaller
+MSI
 Helper
