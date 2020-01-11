@@ -371,7 +371,7 @@ order
 ;
 Assert
 .
-deepEqual
+equal
 (
 engines
 [
@@ -380,14 +380,12 @@ engines
 .
 webExtension
 .
-locales
-[
+locale
 "
 en
 -
 US
 "
-]
 "
 Subsequent
 matches

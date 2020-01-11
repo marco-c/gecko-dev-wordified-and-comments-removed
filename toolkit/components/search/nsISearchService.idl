@@ -1434,7 +1434,7 @@ reset
 )
 ;
 Promise
-makeEnginesFromConfig
+makeEngineFromConfig
 (
 in
 jsval

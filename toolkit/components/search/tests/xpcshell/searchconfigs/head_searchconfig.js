@@ -618,7 +618,7 @@ Services
 .
 search
 .
-makeEnginesFromConfig
+makeEngineFromConfig
 (
 config
 )
@@ -628,9 +628,6 @@ engines
 push
 (
 engine
-[
-0
-]
 )
 ;
 }
