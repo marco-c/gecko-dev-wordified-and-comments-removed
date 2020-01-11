@@ -6810,6 +6810,14 @@ chromedriver
 -
 78
 '
+                
+'
+linux64
+-
+chromedriver
+-
+79
+'
             
 ]
             
@@ -6843,6 +6851,14 @@ mac64
 chromedriver
 -
 78
+'
+                
+'
+mac64
+-
+chromedriver
+-
+79
 '
             
 ]
@@ -6880,6 +6896,14 @@ win32
 chromedriver
 -
 78
+'
+                
+'
+win32
+-
+chromedriver
+-
+79
 '
             
 ]
@@ -6919,6 +6943,14 @@ chromedriver
 -
 78
 '
+                
+'
+win32
+-
+chromedriver
+-
+79
+'
             
 ]
             
@@ -6956,6 +6988,14 @@ win32
 chromedriver
 -
 78
+'
+                
+'
+win32
+-
+chromedriver
+-
+79
 '
             
 ]
