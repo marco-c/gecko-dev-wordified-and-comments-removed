@@ -980,7 +980,7 @@ features
 .
 watchpoints
 "
-false
+true
 )
 ;
 }
