@@ -601,16 +601,11 @@ try
 let
 stackTraces
 =
-JSON
-.
-parse
-(
 crash
 .
 metadata
 .
 StackTraces
-)
 ;
 Assert
 .
@@ -858,8 +853,6 @@ contents
 were
 not
 properly
-re
--
 escaped
 \
 n

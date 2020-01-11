@@ -1,8 +1,12 @@
+add_task
+(
+async
 function
 run_test
 (
 )
 {
+await
 do_x64CFITest
 (
 "
@@ -35,3 +39,5 @@ null
 )
 ;
 }
+)
+;

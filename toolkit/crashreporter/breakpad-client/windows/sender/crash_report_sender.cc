@@ -135,11 +135,7 @@ wstring
 &
 url
 const
-map
-<
-wstring
-wstring
->
+string
 &
 parameters
 const

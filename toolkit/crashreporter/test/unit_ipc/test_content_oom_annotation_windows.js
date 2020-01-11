@@ -12,6 +12,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -68,6 +71,7 @@ n
 return
 ;
 }
+await
 do_content_crash
 (
 function
@@ -168,3 +172,5 @@ extra
 )
 ;
 }
+)
+;

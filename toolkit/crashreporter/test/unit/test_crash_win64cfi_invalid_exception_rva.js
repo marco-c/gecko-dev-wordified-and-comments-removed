@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -20,6 +23,7 @@ ok
 exe
 )
 ;
+await
 do_x64CFITest
 (
 "
@@ -67,3 +71,5 @@ path
 )
 ;
 }
+)
+;
