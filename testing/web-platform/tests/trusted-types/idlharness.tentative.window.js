@@ -159,9 +159,5 @@ string
 )
 ;
 }
-'
-Trusted
-Types
-'
 )
 ;
