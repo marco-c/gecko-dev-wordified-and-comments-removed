@@ -2507,7 +2507,7 @@ alloc
 )
 LComputeThis
 (
-useBox
+useBoxAtStart
 (
 ins
 -
