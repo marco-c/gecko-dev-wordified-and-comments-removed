@@ -553,7 +553,7 @@ handler
 method
 :
 {
-uneval
+String
 (
 trapName
 )

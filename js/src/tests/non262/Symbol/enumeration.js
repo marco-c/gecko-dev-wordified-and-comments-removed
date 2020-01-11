@@ -58,7 +58,7 @@ FAIL
 :
 "
 +
-uneval
+String
 (
 x
 )
@@ -86,7 +86,7 @@ FAIL
 :
 "
 +
-uneval
+String
 (
 x
 )
@@ -115,7 +115,7 @@ FAIL
 :
 "
 +
-uneval
+String
 (
 x
 )
@@ -144,7 +144,7 @@ FAIL
 :
 "
 +
-uneval
+String
 (
 x
 )
