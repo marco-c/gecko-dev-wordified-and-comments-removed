@@ -975,6 +975,10 @@ OpacityType
 :
 HasAlphaChannel
 ;
+prefer_compositor_surface
+=
+false
+;
 }
 ImageDescriptor
 (
@@ -990,6 +994,10 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aPreferCompositorSurface
+=
+false
 )
 {
 format
@@ -1042,6 +1050,10 @@ OpacityType
 :
 HasAlphaChannel
 ;
+prefer_compositor_surface
+=
+aPreferCompositorSurface
+;
 }
 ImageDescriptor
 (
@@ -1059,6 +1071,10 @@ gfx
 :
 SurfaceFormat
 aFormat
+bool
+aPreferCompositorSurface
+=
+false
 )
 {
 format
@@ -1111,6 +1127,10 @@ OpacityType
 :
 HasAlphaChannel
 ;
+prefer_compositor_surface
+=
+aPreferCompositorSurface
+;
 }
 ImageDescriptor
 (
@@ -1130,6 +1150,10 @@ SurfaceFormat
 aFormat
 OpacityType
 aOpacity
+bool
+aPreferCompositorSurface
+=
+false
 )
 {
 format
@@ -1165,6 +1189,10 @@ aByteStride
 opacity
 =
 aOpacity
+;
+prefer_compositor_surface
+=
+aPreferCompositorSurface
 ;
 }
 }

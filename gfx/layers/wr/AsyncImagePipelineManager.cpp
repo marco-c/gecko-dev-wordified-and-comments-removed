@@ -1467,6 +1467,7 @@ aMaybeFastTxn
 op
 keys
 externalImageKey
+true
 )
 ;
 return

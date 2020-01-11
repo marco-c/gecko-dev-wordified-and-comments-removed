@@ -3139,6 +3139,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 {
 auto
@@ -3237,6 +3240,7 @@ width
 GetFormat
 (
 )
+aPreferCompositorSurface
 )
 ;
 (
@@ -3309,6 +3313,7 @@ colorDepth
 (
 )
 )
+aPreferCompositorSurface
 )
 ;
 wr
@@ -3335,6 +3340,7 @@ colorDepth
 (
 )
 )
+aPreferCompositorSurface
 )
 ;
 (
