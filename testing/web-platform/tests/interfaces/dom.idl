@@ -1410,11 +1410,6 @@ documentURI
 ;
 readonly
 attribute
-USVString
-origin
-;
-readonly
-attribute
 DOMString
 compatMode
 ;
