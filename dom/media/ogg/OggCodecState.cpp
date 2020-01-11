@@ -4322,7 +4322,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 VorbisState
 :
 :
@@ -4515,7 +4515,6 @@ samples
 )
 ;
 return
-NS_OK
 ;
 }
 bool
@@ -4914,9 +4913,6 @@ last
 -
 >
 granulepos
-;
-return
-NS_OK
 ;
 }
 OpusState

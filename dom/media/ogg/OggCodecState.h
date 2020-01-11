@@ -960,7 +960,7 @@ int64_t
 aGranulePos
 )
 ;
-nsresult
+void
 ReconstructVorbisGranulepos
 (
 )
