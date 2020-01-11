@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIWebBrowserChrome2
+nsIWebBrowserChrome
 .
 idl
 "
@@ -100,7 +100,7 @@ is
 an
 extension
 to
-nsIWebBrowserChrome2
+nsIWebBrowserChrome
 .
 *
 /
@@ -122,7 +122,7 @@ c12a345383b0
 interface
 nsIWebBrowserChrome3
 :
-nsIWebBrowserChrome2
+nsIWebBrowserChrome
 {
 /
 *

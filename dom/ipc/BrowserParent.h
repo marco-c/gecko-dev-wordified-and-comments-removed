@@ -2044,12 +2044,8 @@ ipc
 :
 :
 IPCResult
-RecvSetStatus
+RecvSetStatusLink
 (
-const
-uint32_t
-&
-aType
 const
 nsString
 &

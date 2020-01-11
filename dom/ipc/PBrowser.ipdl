@@ -3192,7 +3192,7 @@ tooltip
 Nowadays
 this
 is
-mainly
+only
 used
 for
 link
@@ -3203,10 +3203,8 @@ hover
 *
 /
 async
-SetStatus
+SetStatusLink
 (
-uint32_t
-type
 nsString
 status
 )

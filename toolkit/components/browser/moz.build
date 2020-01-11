@@ -132,11 +132,6 @@ nsIWebBrowserChrome
 idl
 '
 '
-nsIWebBrowserChrome2
-.
-idl
-'
-'
 nsIWebBrowserChrome3
 .
 idl
