@@ -2389,6 +2389,16 @@ ensure_sccache_packages
 state_dir
 checkout_root
 )
+            
+self
+.
+instance
+.
+ensure_lucetc_packages
+(
+state_dir
+checkout_root
+)
     
 def
 check_telemetry_opt_in

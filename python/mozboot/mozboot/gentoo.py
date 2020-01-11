@@ -19,6 +19,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NasmInstall
     
 NodeInstall
@@ -51,12 +53,14 @@ subprocess
 class
 GentooBootstrapper
 (
+        
 NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
-                         
+        
 SccacheInstall
+LucetcInstall
 BaseBootstrapper
 )
 :

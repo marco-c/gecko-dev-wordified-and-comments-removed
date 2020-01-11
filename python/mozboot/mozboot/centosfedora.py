@@ -21,6 +21,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NasmInstall
     
 NodeInstall
@@ -39,6 +41,7 @@ StyloInstall
 SccacheInstall
 ClangStaticAnalysisInstall
                                
+LucetcInstall
 BaseBootstrapper
 )
 :

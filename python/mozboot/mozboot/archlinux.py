@@ -29,6 +29,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NodeInstall
     
 SccacheInstall
@@ -51,11 +53,13 @@ raw_input
 class
 ArchlinuxBootstrapper
 (
+        
 NodeInstall
 StyloInstall
 SccacheInstall
-                            
 ClangStaticAnalysisInstall
+        
+LucetcInstall
 BaseBootstrapper
 )
 :

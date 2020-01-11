@@ -23,6 +23,8 @@ import
     
 ClangStaticAnalysisInstall
     
+LucetcInstall
+    
 NodeInstall
     
 SccacheInstall
@@ -45,11 +47,13 @@ raw_input
 class
 SolusBootstrapper
 (
+        
 NodeInstall
 StyloInstall
 SccacheInstall
-                        
 ClangStaticAnalysisInstall
+        
+LucetcInstall
 BaseBootstrapper
 )
 :
