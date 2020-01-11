@@ -221,7 +221,7 @@ class
 js
 :
 :
-Shape
+DictionaryShapeLink
 ;
 friend
 class
