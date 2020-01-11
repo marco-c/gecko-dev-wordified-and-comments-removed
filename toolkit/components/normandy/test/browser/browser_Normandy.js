@@ -796,6 +796,9 @@ restored
 "
 )
 ;
+await
+null
+;
 ok
 (
 finishInitStub
