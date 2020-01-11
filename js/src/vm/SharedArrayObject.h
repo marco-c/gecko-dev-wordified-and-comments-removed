@@ -815,7 +815,8 @@ mappedSize
 }
 private
 :
-void
+MOZ_MUST_USE
+bool
 acceptRawBuffer
 (
 SharedArrayRawBuffer
