@@ -18454,6 +18454,12 @@ RegExpLiteral
 getOrCreate
 (
 cx
+parser
+-
+>
+getParseInfo
+(
+)
 )
 )
 ;
