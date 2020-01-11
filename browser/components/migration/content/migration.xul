@@ -955,7 +955,7 @@ profiles
 align
 =
 "
-left
+start
 "
 /
 >
@@ -1041,7 +1041,7 @@ listbox
 align
 =
 "
-left
+start
 "
 flex
 =
@@ -1121,7 +1121,7 @@ auto
 align
 =
 "
-left
+start
 "
 role
 =
@@ -1191,7 +1191,7 @@ auto
 align
 =
 "
-left
+start
 "
 role
 =
