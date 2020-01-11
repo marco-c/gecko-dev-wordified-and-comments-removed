@@ -163,6 +163,13 @@ LINUX
 )
 &
 &
+!
+defined
+(
+ANDROID
+)
+&
+&
 defined
 (
 DEBUG
