@@ -198,6 +198,7 @@ MessageDelegate
 )
 {
 Nullable
+Override
 public
 GeckoResult
 <
@@ -205,6 +206,10 @@ Object
 >
 onMessage
 (
+final
+NonNull
+String
+nativeApp
 final
 NonNull
 Object

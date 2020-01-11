@@ -1,8 +1,6 @@
 let
 port
 =
-window
-.
 browser
 .
 runtime
