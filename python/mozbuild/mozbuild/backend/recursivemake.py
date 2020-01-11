@@ -9218,6 +9218,21 @@ obj
 .
 KIND
         
+if
+target_name
+=
+=
+'
+wasm
+'
+:
+            
+target_name
+=
+'
+target
+'
+        
 return
 '
 %
@@ -9571,6 +9586,15 @@ KIND
 '
 host
 '
+and
+obj
+.
+KIND
+!
+=
+'
+wasm
+'
             
 backend_file
 .
@@ -9715,7 +9739,15 @@ n
 lib
 )
             
-else
+elif
+obj
+.
+KIND
+=
+=
+'
+host
+'
 :
                 
 backend_file
