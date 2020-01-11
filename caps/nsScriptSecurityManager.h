@@ -152,6 +152,7 @@ JSContext
 aCx
 )
 ;
+static
 void
 ClearJSCallbacks
 (

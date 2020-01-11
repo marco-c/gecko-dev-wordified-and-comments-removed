@@ -5208,11 +5208,6 @@ mPrevGCSliceCallback
 nsScriptSecurityManager
 :
 :
-GetScriptSecurityManager
-(
-)
--
->
 ClearJSCallbacks
 (
 cx
