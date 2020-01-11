@@ -397,14 +397,6 @@ autoland
 '
         
 '
-integration
-/
-mozilla
--
-inbound
-'
-        
-'
 releases
 /
 mozilla
