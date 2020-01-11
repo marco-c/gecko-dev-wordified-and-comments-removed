@@ -8615,7 +8615,7 @@ extern
 C
 "
 fn
-wr_transaction_set_is_transform_pinch_zooming
+wr_transaction_set_is_transform_async_zooming
 (
 txn
 :
@@ -8632,7 +8632,7 @@ bool
 {
 txn
 .
-set_is_transform_pinch_zooming
+set_is_transform_async_zooming
 (
 is_zooming
 PropertyBindingId

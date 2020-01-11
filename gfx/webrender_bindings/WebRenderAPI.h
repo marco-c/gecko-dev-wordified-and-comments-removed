@@ -904,7 +904,7 @@ aZoom
 )
 ;
 void
-UpdateIsTransformPinchZooming
+UpdateIsTransformAsyncZooming
 (
 uint64_t
 aAnimationId

@@ -2832,7 +2832,7 @@ mRenderRoot
 ;
 }
 bool
-IsPinchZooming
+IsAsyncZooming
 (
 )
 const
@@ -2842,6 +2842,12 @@ mState
 =
 =
 PINCHING
+|
+|
+mState
+=
+=
+ANIMATING_ZOOM
 ;
 }
 private

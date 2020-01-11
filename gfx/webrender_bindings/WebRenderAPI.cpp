@@ -1364,7 +1364,7 @@ void
 TransactionWrapper
 :
 :
-UpdateIsTransformPinchZooming
+UpdateIsTransformAsyncZooming
 (
 uint64_t
 aAnimationId
@@ -1372,7 +1372,7 @@ bool
 aIsZooming
 )
 {
-wr_transaction_set_is_transform_pinch_zooming
+wr_transaction_set_is_transform_async_zooming
 (
 mTxn
 aAnimationId
