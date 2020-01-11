@@ -3251,7 +3251,7 @@ selectionClicked
 }
 this
 .
-grip_
+mojo_from_input_
 =
 null
 ;
@@ -3383,7 +3383,7 @@ false
 {
 this
 .
-grip_
+mojo_from_input_
 =
 new
 gfx
@@ -3396,7 +3396,7 @@ Transform
 ;
 this
 .
-grip_
+mojo_from_input_
 .
 matrix
 =
@@ -3420,7 +3420,7 @@ if
 (
 this
 .
-grip_
+mojo_from_input_
 !
 =
 null
@@ -3428,7 +3428,7 @@ null
 {
 this
 .
-grip_
+mojo_from_input_
 =
 null
 ;
@@ -3456,7 +3456,7 @@ true
 ;
 this
 .
-pointer_offset_
+input_from_pointer_
 =
 new
 gfx
@@ -3469,7 +3469,7 @@ Transform
 ;
 this
 .
-pointer_offset_
+input_from_pointer_
 .
 matrix
 =
@@ -4188,11 +4188,11 @@ primary_input_clicked_
 ;
 input_state
 .
-grip
+mojoFromInput
 =
 this
 .
-grip_
+mojo_from_input_
 ;
 input_state
 .
@@ -4341,11 +4341,11 @@ break
 }
 input_desc
 .
-pointerOffset
+inputFromPointer
 =
 this
 .
-pointer_offset_
+input_from_pointer_
 ;
 input_desc
 .
