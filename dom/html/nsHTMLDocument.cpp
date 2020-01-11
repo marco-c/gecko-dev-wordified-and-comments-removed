@@ -2347,17 +2347,6 @@ return
 rv
 ;
 }
-aChannel
--
->
-GetSecurityInfo
-(
-getter_AddRefs
-(
-mSecurityInfo
-)
-)
-;
 nsCOMPtr
 <
 nsIURI

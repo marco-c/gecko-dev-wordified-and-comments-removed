@@ -16220,6 +16220,17 @@ mChannel
 )
 ;
 }
+mChannel
+-
+>
+GetSecurityInfo
+(
+getter_AddRefs
+(
+mSecurityInfo
+)
+)
+;
 }
 nsCOMPtr
 <
