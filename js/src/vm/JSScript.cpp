@@ -27978,7 +27978,10 @@ JS
 :
 HandleVector
 <
-StackGCCellPtr
+JS
+:
+:
+GCCellPtr
 >
 gcThings
 )
@@ -28178,10 +28181,6 @@ get
 (
 )
 .
-get
-(
-)
-.
 as
 <
 Scope
@@ -28261,7 +28260,10 @@ JS
 :
 RootedVector
 <
-StackGCCellPtr
+JS
+:
+:
+GCCellPtr
 >
 gcThings
 (
@@ -28491,10 +28493,6 @@ get
 (
 )
 .
-get
-(
-)
-.
 as
 <
 Scope
@@ -28693,10 +28691,6 @@ gcThings
 [
 i
 ]
-.
-get
-(
-)
 .
 get
 (
