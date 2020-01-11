@@ -12,17 +12,6 @@ include
 [
 .
 ]
-exclude
-:
--
-toolkit
-/
-components
-/
-telemetry
-/
-docs
-/
 extensions
 :
 -
