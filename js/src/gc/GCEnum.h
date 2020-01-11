@@ -409,11 +409,6 @@ ScriptPrivateData
 \
 _
 (
-LazyScriptData
-)
-\
-_
-(
 MapObjectTable
 )
 \
