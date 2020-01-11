@@ -6721,7 +6721,7 @@ reload_config_environment
 (
 )
             
-active_backend
+all_backends
 =
 config
 .
@@ -6736,6 +6736,10 @@ BUILD_BACKENDS
 None
 ]
 )
+            
+active_backend
+=
+all_backends
 [
 0
 ]
@@ -6750,6 +6754,9 @@ not
 config_rc
 and
                 
+any
+(
+[
 self
 .
 backend_out_of_date
@@ -6761,7 +6768,7 @@ join
 self
 .
 topobjdir
-                                                      
+                                                           
 '
 backend
 .
@@ -6769,9 +6776,16 @@ backend
 sBackend
 '
 %
-                                                      
-active_backend
+                                                           
+backend
 )
+)
+                     
+for
+backend
+in
+all_backends
+]
 )
 )
 :
