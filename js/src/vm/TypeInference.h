@@ -637,14 +637,6 @@ PlainObject
 res
 )
 ;
-void
-unregisterObject
-(
-PlainObject
-*
-obj
-)
-;
 JSObject
 *
 get
@@ -670,12 +662,6 @@ i
 }
 bool
 full
-(
-)
-const
-;
-bool
-empty
 (
 )
 const
