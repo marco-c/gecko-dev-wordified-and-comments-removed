@@ -316,7 +316,7 @@ content
 /
 setp12password
 .
-xhtml
+xul
 "
 "
 "

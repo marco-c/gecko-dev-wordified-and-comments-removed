@@ -67,7 +67,7 @@ content
 /
 device_manager
 .
-xhtml
+xul
 "
 "
 "

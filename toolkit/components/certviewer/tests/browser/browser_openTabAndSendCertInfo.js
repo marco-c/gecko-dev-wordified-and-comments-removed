@@ -354,7 +354,7 @@ content
 /
 downloadcert
 .
-xhtml
+xul
 "
 "
 "
@@ -1939,7 +1939,7 @@ content
 /
 certManager
 .
-xhtml
+xul
 "
 )
 ;

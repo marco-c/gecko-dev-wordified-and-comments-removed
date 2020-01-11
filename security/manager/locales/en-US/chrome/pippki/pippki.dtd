@@ -67,7 +67,7 @@ Values
 for
 changepassword
 .
-xhtml
+xul
 -
 -
 >
@@ -163,7 +163,7 @@ Values
 for
 resetpassword
 .
-xhtml
+xul
 -
 -
 >

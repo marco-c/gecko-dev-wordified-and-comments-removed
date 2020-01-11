@@ -54,7 +54,7 @@ content
 /
 editcacert
 .
-xhtml
+xul
 "
 "
 "

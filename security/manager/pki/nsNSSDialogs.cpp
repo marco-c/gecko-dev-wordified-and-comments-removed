@@ -361,7 +361,7 @@ content
 /
 changepassword
 .
-xhtml
+xul
 "
 block
 )
@@ -559,7 +559,7 @@ content
 /
 downloadcert
 .
-xhtml
+xul
 "
 argArray
 )
@@ -1103,7 +1103,7 @@ content
 /
 clientauthask
 .
-xhtml
+xul
 "
 argArray
 )
@@ -1279,7 +1279,7 @@ content
 /
 setp12password
 .
-xhtml
+xul
 "
 retVals
 )
@@ -1611,7 +1611,7 @@ content
 /
 protectedAuth
 .
-xhtml
+xul
 "
 "
 _blank

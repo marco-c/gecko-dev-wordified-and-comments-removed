@@ -128,7 +128,7 @@ content
 /
 downloadcert
 .
-xhtml
+xul
 "
 "
 "

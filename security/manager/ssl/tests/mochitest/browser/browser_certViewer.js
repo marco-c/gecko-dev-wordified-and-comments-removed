@@ -1779,7 +1779,7 @@ content
 /
 certViewer
 .
-xhtml
+xul
 "
 "
 "

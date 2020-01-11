@@ -179,7 +179,7 @@ content
 /
 deletecert
 .
-xhtml
+xul
 "
 "
 "
