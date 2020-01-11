@@ -1190,7 +1190,10 @@ aContextFrame
 )
 ;
 }
-uint8_t
+mozilla
+:
+:
+StylePointerEvents
 nsStyleUI
 :
 :
@@ -1227,7 +1230,13 @@ GetParent
 )
 {
 return
-NS_STYLE_POINTER_EVENTS_AUTO
+mozilla
+:
+:
+StylePointerEvents
+:
+:
+Auto
 ;
 }
 return

@@ -1789,7 +1789,10 @@ StyleUI
 mPointerEvents
 =
 =
-NS_STYLE_POINTER_EVENTS_NONE
+StylePointerEvents
+:
+:
+None
 ;
 if
 (
@@ -6672,7 +6675,10 @@ aFrame
 )
 =
 =
-NS_STYLE_POINTER_EVENTS_NONE
+StylePointerEvents
+:
+:
+None
 ;
 if
 (

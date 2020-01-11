@@ -9728,7 +9728,10 @@ mozilla
 StyleUserFocus
 mUserFocus
 ;
-uint8_t
+mozilla
+:
+:
+StylePointerEvents
 mPointerEvents
 ;
 mozilla
@@ -9756,7 +9759,10 @@ StyleScrollbarColor
 mScrollbarColor
 ;
 inline
-uint8_t
+mozilla
+:
+:
+StylePointerEvents
 GetEffectivePointerEvents
 (
 nsIFrame
