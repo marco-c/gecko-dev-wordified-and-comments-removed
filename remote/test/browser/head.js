@@ -837,3 +837,16 @@ ms
 )
 ;
 }
+function
+fail
+(
+message
+)
+{
+ok
+(
+false
+message
+)
+;
+}
