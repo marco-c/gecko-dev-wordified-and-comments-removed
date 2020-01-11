@@ -51,17 +51,6 @@ jsm
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-TextEncoder
-"
-]
-)
-;
 XPCOMUtils
 .
 defineLazyServiceGetter

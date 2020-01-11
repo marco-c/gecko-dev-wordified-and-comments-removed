@@ -39,6 +39,7 @@ ww
 .
 activeWindow
 ;
+let
 contextMenu
 =
 chromeWin
