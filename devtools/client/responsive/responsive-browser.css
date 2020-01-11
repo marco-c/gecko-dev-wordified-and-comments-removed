@@ -244,6 +244,14 @@ browserStack
 >
 *
 {
+box
+-
+sizing
+:
+content
+-
+box
+;
 height
 :
 var
