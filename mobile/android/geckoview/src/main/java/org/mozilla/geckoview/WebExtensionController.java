@@ -319,7 +319,7 @@ id
 }
 public
 void
-put
+update
 (
 final
 String
@@ -1380,6 +1380,9 @@ newExtension
 )
 ;
 }
+AnyThread
+NonNull
+public
 GeckoResult
 <
 List
@@ -1387,7 +1390,7 @@ List
 WebExtension
 >
 >
-listInstalled
+list
 (
 )
 {
@@ -1650,7 +1653,7 @@ webExtension
 ;
 mExtensions
 .
-put
+update
 (
 webExtension
 .
