@@ -3206,13 +3206,13 @@ cookies
 "
 ;
 let
-enumerator
+cookies
 =
 Services
 .
 cookies
 .
-enumerator
+cookies
 ;
 let
 hosts
@@ -3227,7 +3227,7 @@ for
 let
 cookie
 of
-enumerator
+cookies
 )
 {
 hosts

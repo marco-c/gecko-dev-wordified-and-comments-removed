@@ -368,13 +368,13 @@ now
 )
 ;
 const
-enumerator
+cookies
 =
 Services
 .
 cookies
 .
-sessionEnumerator
+sessionCookies
 ;
 Assert
 .

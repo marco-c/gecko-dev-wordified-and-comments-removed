@@ -43,7 +43,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 ;
 Assert

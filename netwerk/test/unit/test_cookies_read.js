@@ -84,7 +84,7 @@ Services
 .
 cookiemgr
 .
-sessionEnumerator
+sessionCookies
 ;
 Assert
 .

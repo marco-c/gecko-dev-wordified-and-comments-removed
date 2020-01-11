@@ -455,7 +455,7 @@ Services
 .
 cookies
 .
-enumerator
+cookies
 )
 {
 count
