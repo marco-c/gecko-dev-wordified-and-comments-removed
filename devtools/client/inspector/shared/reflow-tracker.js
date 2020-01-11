@@ -58,6 +58,13 @@ if
 this
 .
 reflowFront
+&
+&
+this
+.
+reflowFront
+.
+actorID
 )
 {
 this

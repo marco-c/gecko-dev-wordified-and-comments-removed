@@ -2001,8 +2001,6 @@ this
 .
 inspector
 .
-inspectorFront
-.
 getAllInspectorFronts
 (
 )

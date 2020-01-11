@@ -725,8 +725,6 @@ this
 .
 inspector
 .
-inspectorFront
-.
 getAllInspectorFronts
 (
 )

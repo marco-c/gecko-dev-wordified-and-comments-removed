@@ -97,8 +97,6 @@ this
 .
 inspector
 .
-inspectorFront
-.
 getAllInspectorFronts
 (
 )
