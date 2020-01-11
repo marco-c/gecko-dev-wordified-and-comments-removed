@@ -3756,7 +3756,7 @@ MetadataOwnership
 :
 Owned
 ;
-BinASTSourceMetadata
+BinASTSourceMetadataContext
 *
 metadata_
 ;
