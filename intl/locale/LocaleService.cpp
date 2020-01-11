@@ -1617,8 +1617,6 @@ foundMatch
 ;
 Locale
 requestedLocale
-=
-Locale
 (
 requested
 )

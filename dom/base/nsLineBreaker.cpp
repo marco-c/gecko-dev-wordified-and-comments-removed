@@ -2672,7 +2672,7 @@ AddLikelySubtags
 ;
 }
 const
-nsCString
+nsDependentCSubstring
 &
 script
 =
