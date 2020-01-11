@@ -282,7 +282,11 @@ self
 )
 :
         
-pass
+self
+.
+ensure_mobile_android_packages
+(
+)
     
 def
 install_mobile_android_artifact_mode_packages
@@ -395,6 +399,7 @@ bin
 os
 .
 pathsep
+                            
 os
 .
 environ
@@ -403,6 +408,13 @@ environ
 PATH
 '
 ]
+)
+.
+encode
+(
+'
+mbcs
+'
 )
         
 self
