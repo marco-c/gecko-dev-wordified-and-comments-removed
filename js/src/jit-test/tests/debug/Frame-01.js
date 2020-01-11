@@ -60,7 +60,9 @@ assertEq
 (
 f
 .
-generator
+script
+.
+isGeneratorFunction
 expected
 .
 generator
