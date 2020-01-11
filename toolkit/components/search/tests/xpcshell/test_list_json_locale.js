@@ -5,12 +5,14 @@ strict
 ;
 add_task
 (
+async
 function
-test_setup
+setup
 (
 )
 {
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;

@@ -11,7 +11,8 @@ test_searchDefaultEngineUS
 (
 )
 {
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;

@@ -38,7 +38,8 @@ enabled
 true
 )
 ;
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;

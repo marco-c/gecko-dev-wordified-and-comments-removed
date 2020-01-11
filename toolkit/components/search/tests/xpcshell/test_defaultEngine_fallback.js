@@ -10,7 +10,8 @@ useHttpServer
 (
 )
 ;
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;

@@ -23,7 +23,8 @@ setup
 (
 )
 {
-useTestEngineConfig
+await
+useTestEngines
 (
 )
 ;
