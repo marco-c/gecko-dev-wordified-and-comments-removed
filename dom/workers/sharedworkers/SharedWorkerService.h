@@ -44,6 +44,9 @@ class
 SharedWorkerParent
 ;
 class
+UniqueMessagePortId
+;
+class
 SharedWorkerService
 final
 {
@@ -103,8 +106,7 @@ RemoteWorkerData
 aData
 uint64_t
 aWindowID
-const
-MessagePortIdentifier
+UniqueMessagePortId
 &
 aPortIdentifier
 )
