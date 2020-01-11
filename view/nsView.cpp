@@ -5002,7 +5002,7 @@ aBrowserParent
 )
 -
 >
-bool
+CallState
 {
 aBrowserParent
 -
@@ -5013,7 +5013,10 @@ aHeight
 )
 ;
 return
-false
+CallState
+:
+:
+Continue
 ;
 }
 )
@@ -5152,7 +5155,7 @@ aBrowserParent
 )
 -
 >
-bool
+CallState
 {
 if
 (
@@ -5166,7 +5169,10 @@ GetDocShellIsActive
 )
 {
 return
-false
+CallState
+:
+:
+Continue
 ;
 }
 aBrowserParent
@@ -5178,7 +5184,10 @@ aOffset
 )
 ;
 return
-true
+CallState
+:
+:
+Stop
 ;
 }
 )
