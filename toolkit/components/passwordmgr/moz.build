@@ -297,13 +297,6 @@ OSCrypto
 .
 jsm
 '
-'
-storage
--
-json
-.
-js
-'
 ]
 if
 CONFIG
@@ -325,7 +318,7 @@ EXTRA_JS_MODULES
 '
 storage
 -
-geckoview
+mozStorage
 .
 js
 '
@@ -350,6 +343,13 @@ jsm
 PasswordGenerator
 .
 jsm
+'
+'
+storage
+-
+json
+.
+js
 '
 ]
 if
