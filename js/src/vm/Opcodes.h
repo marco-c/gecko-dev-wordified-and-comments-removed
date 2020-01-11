@@ -3130,10 +3130,10 @@ JSOP_CLASSCONSTRUCTOR
 classconstructor
 "
 NULL
-5
+13
 0
 1
-JOF_ATOM
+JOF_CLASS_CTOR
 )
 \
 \
@@ -3145,10 +3145,10 @@ JSOP_DERIVEDCONSTRUCTOR
 derivedconstructor
 "
 NULL
-5
+13
 1
 1
-JOF_ATOM
+JOF_CLASS_CTOR
 )
 \
 \
