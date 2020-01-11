@@ -287,6 +287,8 @@ override
 ;
 enum
 SerializableKeys
+:
+uint8_t
 {
 eSpecs
 =
