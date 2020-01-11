@@ -6534,6 +6534,15 @@ PERMISSION_PERSISTENT_STORAGE
 =
 2
 ;
+field
+public
+static
+final
+int
+PERMISSION_XR
+=
+3
+;
 }
 public
 static
