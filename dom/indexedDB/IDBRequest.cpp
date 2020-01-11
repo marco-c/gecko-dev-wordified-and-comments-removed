@@ -1848,10 +1848,7 @@ SetError
 aErrorCode
 )
 ;
-RefPtr
-<
-Event
->
+auto
 event
 =
 CreateGenericEvent
@@ -1863,11 +1860,6 @@ kErrorEventType
 )
 eDoesBubble
 eCancelable
-)
-;
-MOZ_ASSERT
-(
-event
 )
 ;
 IgnoredErrorResult

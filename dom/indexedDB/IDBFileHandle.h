@@ -175,7 +175,8 @@ endif
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileHandle
 >
@@ -475,7 +476,8 @@ Value
 ;
 }
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -490,7 +492,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -519,7 +522,8 @@ aRv
 )
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -550,7 +554,8 @@ aRv
 )
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -578,7 +583,8 @@ aRv
 )
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -606,7 +612,8 @@ aRv
 )
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -624,7 +631,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -748,7 +756,8 @@ CheckWindow
 (
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -767,7 +776,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -784,7 +794,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -801,7 +812,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -818,7 +830,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -835,7 +848,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
@@ -851,7 +865,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
