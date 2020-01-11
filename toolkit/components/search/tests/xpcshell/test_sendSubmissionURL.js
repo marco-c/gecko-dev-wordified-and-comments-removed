@@ -756,7 +756,7 @@ search
 getEngineByName
 (
 "
-bug645970
+basic
 "
 )
 ;

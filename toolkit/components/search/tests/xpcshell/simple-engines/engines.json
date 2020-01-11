@@ -10,7 +10,7 @@ engineName
 "
 :
 "
-bug645970
+basic
 "
 "
 webExtension
@@ -22,7 +22,7 @@ id
 "
 :
 "
-bug645970
+basic
 search
 .
 mozilla

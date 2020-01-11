@@ -20,12 +20,9 @@ await
 useTestEngines
 (
 "
-data
-"
-"
-search
+simple
 -
-extensions
+engines
 "
 )
 ;
@@ -113,7 +110,7 @@ search
 getEngineByName
 (
 "
-bug645970
+basic
 "
 )
 ;
@@ -157,7 +154,7 @@ jarEngine
 .
 identifier
 "
-bug645970
+basic
 "
 )
 ;
