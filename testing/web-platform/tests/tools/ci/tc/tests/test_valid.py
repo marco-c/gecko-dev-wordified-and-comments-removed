@@ -683,8 +683,6 @@ nightly
 -
 testharness
 -
-chunk
--
 1
 '
       
@@ -696,8 +694,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 2
 '
@@ -711,8 +707,6 @@ nightly
 -
 testharness
 -
-chunk
--
 3
 '
       
@@ -724,8 +718,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 4
 '
@@ -739,8 +731,6 @@ nightly
 -
 testharness
 -
-chunk
--
 5
 '
       
@@ -752,8 +742,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 6
 '
@@ -767,8 +755,6 @@ nightly
 -
 testharness
 -
-chunk
--
 7
 '
       
@@ -780,8 +766,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 8
 '
@@ -795,8 +779,6 @@ nightly
 -
 testharness
 -
-chunk
--
 9
 '
       
@@ -808,8 +790,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 10
 '
@@ -823,8 +803,6 @@ nightly
 -
 testharness
 -
-chunk
--
 11
 '
       
@@ -836,8 +814,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 12
 '
@@ -851,8 +827,6 @@ nightly
 -
 testharness
 -
-chunk
--
 13
 '
       
@@ -864,8 +838,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 14
 '
@@ -879,8 +851,6 @@ nightly
 -
 testharness
 -
-chunk
--
 15
 '
       
@@ -892,8 +862,6 @@ firefox
 nightly
 -
 testharness
--
-chunk
 -
 16
 '
@@ -907,8 +875,6 @@ dev
 -
 testharness
 -
-chunk
--
 1
 '
       
@@ -920,8 +886,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 2
 '
@@ -935,8 +899,6 @@ dev
 -
 testharness
 -
-chunk
--
 3
 '
       
@@ -948,8 +910,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 4
 '
@@ -963,8 +923,6 @@ dev
 -
 testharness
 -
-chunk
--
 5
 '
       
@@ -976,8 +934,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 6
 '
@@ -991,8 +947,6 @@ dev
 -
 testharness
 -
-chunk
--
 7
 '
       
@@ -1004,8 +958,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 8
 '
@@ -1019,8 +971,6 @@ dev
 -
 testharness
 -
-chunk
--
 9
 '
       
@@ -1032,8 +982,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 10
 '
@@ -1047,8 +995,6 @@ dev
 -
 testharness
 -
-chunk
--
 11
 '
       
@@ -1060,8 +1006,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 12
 '
@@ -1075,8 +1019,6 @@ dev
 -
 testharness
 -
-chunk
--
 13
 '
       
@@ -1088,8 +1030,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 14
 '
@@ -1103,8 +1043,6 @@ dev
 -
 testharness
 -
-chunk
--
 15
 '
       
@@ -1116,8 +1054,6 @@ chrome
 dev
 -
 testharness
--
-chunk
 -
 16
 '
@@ -1131,8 +1067,6 @@ nightly
 -
 reftest
 -
-chunk
--
 1
 '
       
@@ -1144,8 +1078,6 @@ firefox
 nightly
 -
 reftest
--
-chunk
 -
 2
 '
@@ -1159,8 +1091,6 @@ nightly
 -
 reftest
 -
-chunk
--
 3
 '
       
@@ -1172,8 +1102,6 @@ firefox
 nightly
 -
 reftest
--
-chunk
 -
 4
 '
@@ -1187,8 +1115,6 @@ nightly
 -
 reftest
 -
-chunk
--
 5
 '
       
@@ -1201,8 +1127,6 @@ dev
 -
 reftest
 -
-chunk
--
 1
 '
       
@@ -1214,8 +1138,6 @@ chrome
 dev
 -
 reftest
--
-chunk
 -
 2
 '
@@ -1229,8 +1151,6 @@ dev
 -
 reftest
 -
-chunk
--
 3
 '
       
@@ -1242,8 +1162,6 @@ chrome
 dev
 -
 reftest
--
-chunk
 -
 4
 '
@@ -1257,8 +1175,6 @@ dev
 -
 reftest
 -
-chunk
--
 5
 '
       
@@ -1271,8 +1187,6 @@ nightly
 -
 wdspec
 -
-chunk
--
 1
 '
       
@@ -1284,8 +1198,6 @@ chrome
 dev
 -
 wdspec
--
-chunk
 -
 1
 '
