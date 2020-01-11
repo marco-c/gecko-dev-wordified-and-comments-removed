@@ -170,13 +170,8 @@ Types
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-grids
+.
+.
 /
 types
 "

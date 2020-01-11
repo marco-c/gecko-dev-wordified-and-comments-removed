@@ -15,15 +15,7 @@ COMPATIBILITY_UPDATE_TARGET_BROWSERS
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-compatibility
-/
-actions
+.
 /
 index
 "

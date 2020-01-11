@@ -92,13 +92,7 @@ createFactory
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-layout
+.
 /
 components
 /

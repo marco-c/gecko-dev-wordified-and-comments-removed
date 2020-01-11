@@ -11,11 +11,8 @@ UPDATE_DETAILS
 require
 (
 "
-devtools
-/
-client
-/
-accessibility
+.
+.
 /
 constants
 "

@@ -14,13 +14,7 @@ exports
 require
 (
 "
-devtools
-/
-client
-/
-framework
-/
-actions
+.
 /
 dom
 -

@@ -13,13 +13,8 @@ SET_REQUEST_FILTER_TEXT
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

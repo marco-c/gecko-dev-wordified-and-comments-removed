@@ -54,13 +54,8 @@ PAGE_TYPES
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

@@ -16,11 +16,8 @@ moduleNameMapper
 {
 "
 ^
-devtools
-/
-client
-/
-accessibility
+.
+.
 /
 utils
 /

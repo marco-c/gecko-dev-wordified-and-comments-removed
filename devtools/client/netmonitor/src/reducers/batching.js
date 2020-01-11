@@ -11,13 +11,8 @@ BATCH_ACTIONS
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

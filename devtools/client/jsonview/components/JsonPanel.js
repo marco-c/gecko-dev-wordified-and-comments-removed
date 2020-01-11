@@ -130,13 +130,7 @@ createFactories
 require
 (
 "
-devtools
-/
-client
-/
-jsonview
-/
-components
+.
 /
 JsonToolbar
 "

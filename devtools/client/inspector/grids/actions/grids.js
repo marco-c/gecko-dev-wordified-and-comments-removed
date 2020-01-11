@@ -13,15 +13,7 @@ UPDATE_GRIDS
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-grids
-/
-actions
+.
 /
 index
 "

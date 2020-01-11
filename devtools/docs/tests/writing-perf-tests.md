@@ -554,9 +554,8 @@ SIMPLE_URL
 require
 (
 "
-devtools
-/
-docs
+.
+.
 /
 head
 "

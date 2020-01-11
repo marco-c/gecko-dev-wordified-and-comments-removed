@@ -86,11 +86,8 @@ PRIVATE_MESSAGES_CLEAR
 require
 (
 "
-devtools
-/
-client
-/
-webconsole
+.
+.
 /
 constants
 "

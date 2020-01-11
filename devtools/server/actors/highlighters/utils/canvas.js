@@ -59,15 +59,7 @@ getComputedStyle
 require
 (
 "
-devtools
-/
-server
-/
-actors
-/
-highlighters
-/
-utils
+.
 /
 markup
 "

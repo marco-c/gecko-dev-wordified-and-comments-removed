@@ -35,11 +35,8 @@ ReplayDebugger
 require
 (
 "
-devtools
-/
-server
-/
-actors
+.
+.
 /
 replay
 /

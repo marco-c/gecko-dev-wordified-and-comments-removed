@@ -175,13 +175,11 @@ SEARCH_STATUS
 require
 (
 "
-devtools
+.
+.
 /
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

@@ -115,13 +115,8 @@ Types
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-rules
+.
+.
 /
 types
 "

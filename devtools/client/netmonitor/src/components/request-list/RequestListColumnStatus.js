@@ -76,15 +76,8 @@ createFactory
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
-/
-components
+.
+.
 /
 StatusCode
 "

@@ -38,13 +38,8 @@ SET_COLUMNS_WIDTH
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

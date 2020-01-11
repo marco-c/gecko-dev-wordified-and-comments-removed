@@ -12,13 +12,8 @@ SUPPORTED_HTTP_CODES
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

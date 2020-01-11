@@ -75,13 +75,8 @@ getStr
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-fonts
+.
+.
 /
 utils
 /

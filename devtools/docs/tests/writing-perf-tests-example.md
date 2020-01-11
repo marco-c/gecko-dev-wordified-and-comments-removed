@@ -170,11 +170,7 @@ reloadInspectorAndLog
 require
 (
 "
-devtools
-/
-docs
-/
-tests
+.
 /
 inspector
 -
@@ -193,9 +189,8 @@ testTeardown
 require
 (
 "
-devtools
-/
-docs
+.
+.
 /
 head
 "

@@ -50,13 +50,7 @@ COLOR_TRANSFORMATION_MATRICES
 require
 (
 "
-devtools
-/
-server
-/
-actors
-/
-accessibility
+.
 /
 constants
 "

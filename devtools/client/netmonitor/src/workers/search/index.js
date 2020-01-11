@@ -11,15 +11,8 @@ WorkerDispatcher
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
-/
-workers
+.
+.
 /
 worker
 -

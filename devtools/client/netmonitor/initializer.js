@@ -71,11 +71,7 @@ NetMonitorAPI
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
+.
 /
 src
 /
@@ -91,11 +87,7 @@ NetMonitorApp
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
+.
 /
 src
 /

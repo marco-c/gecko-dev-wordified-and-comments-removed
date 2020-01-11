@@ -12,11 +12,8 @@ LANDSCAPE_PRIMARY
 require
 (
 "
-devtools
-/
-client
-/
-responsive
+.
+.
 /
 constants
 "

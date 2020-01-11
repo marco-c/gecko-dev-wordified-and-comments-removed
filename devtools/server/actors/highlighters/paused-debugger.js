@@ -12,13 +12,7 @@ createNode
 require
 (
 "
-devtools
-/
-server
-/
-actors
-/
-highlighters
+.
 /
 utils
 /

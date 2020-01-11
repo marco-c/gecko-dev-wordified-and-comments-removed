@@ -77,13 +77,8 @@ toFixed
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-fonts
+.
+.
 /
 utils
 /

@@ -35,13 +35,8 @@ RUNTIME_PREFERENCE
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

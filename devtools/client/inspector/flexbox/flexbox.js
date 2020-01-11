@@ -44,13 +44,7 @@ updateFlexboxHighlighted
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-flexbox
+.
 /
 actions
 /

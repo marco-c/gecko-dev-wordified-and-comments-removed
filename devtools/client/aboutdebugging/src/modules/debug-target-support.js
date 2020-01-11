@@ -13,13 +13,8 @@ RUNTIMES
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

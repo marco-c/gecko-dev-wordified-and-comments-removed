@@ -11,15 +11,7 @@ CHANGE_NETWORK_THROTTLING
 require
 (
 "
-devtools
-/
-client
-/
-shared
-/
-components
-/
-throttling
+.
 /
 actions
 "

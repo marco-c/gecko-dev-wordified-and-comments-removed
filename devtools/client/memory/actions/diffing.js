@@ -30,11 +30,8 @@ viewState
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 constants
 "
@@ -51,11 +48,8 @@ findSelectedSnapshot
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 utils
 "

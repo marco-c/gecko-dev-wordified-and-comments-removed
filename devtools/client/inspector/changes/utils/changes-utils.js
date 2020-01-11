@@ -12,15 +12,7 @@ getStr
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-changes
-/
-utils
+.
 /
 l10n
 "

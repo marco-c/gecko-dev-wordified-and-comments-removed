@@ -11,15 +11,7 @@ isFreetextMatch
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
-/
-utils
+.
 /
 filter
 -

@@ -12,11 +12,8 @@ treeMapDisplays
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 constants
 "

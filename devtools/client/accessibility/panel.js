@@ -75,11 +75,7 @@ Picker
 require
 (
 "
-devtools
-/
-client
-/
-accessibility
+.
 /
 picker
 "
@@ -93,11 +89,7 @@ A11Y_SERVICE_DURATION
 require
 (
 "
-devtools
-/
-client
-/
-accessibility
+.
 /
 constants
 "

@@ -89,11 +89,7 @@ individualsState
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
 /
 constants
 "

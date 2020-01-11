@@ -14,13 +14,8 @@ CLEAR_REQUESTS
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

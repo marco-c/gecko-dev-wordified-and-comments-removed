@@ -131,11 +131,7 @@ properties
 require
 (
 "
-devtools
-/
-client
-/
-dom
+.
 /
 content
 /

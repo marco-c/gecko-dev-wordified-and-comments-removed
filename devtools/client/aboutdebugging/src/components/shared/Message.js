@@ -106,13 +106,11 @@ MESSAGE_LEVEL
 require
 (
 "
-devtools
+.
+.
 /
-client
-/
-aboutdebugging
-/
-src
+.
+.
 /
 constants
 "

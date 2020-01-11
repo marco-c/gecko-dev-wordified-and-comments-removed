@@ -12,11 +12,8 @@ censusDisplays
 require
 (
 "
-devtools
-/
-client
-/
-memory
+.
+.
 /
 constants
 "

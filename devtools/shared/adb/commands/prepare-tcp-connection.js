@@ -47,13 +47,7 @@ runCommand
 require
 (
 "
-devtools
-/
-shared
-/
-adb
-/
-commands
+.
 /
 run
 -

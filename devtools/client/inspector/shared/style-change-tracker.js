@@ -25,13 +25,7 @@ WalkerEventListener
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-shared
+.
 /
 walker
 -

@@ -53,13 +53,8 @@ getStr
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-rules
+.
+.
 /
 utils
 /

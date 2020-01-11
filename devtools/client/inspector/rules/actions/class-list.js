@@ -12,15 +12,7 @@ UPDATE_CLASS_PANEL_EXPANDED
 require
 (
 "
-devtools
-/
-client
-/
-inspector
-/
-rules
-/
-actions
+.
 /
 index
 "

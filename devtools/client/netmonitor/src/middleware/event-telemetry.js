@@ -35,13 +35,8 @@ WS_SELECT_FRAME
 require
 (
 "
-devtools
-/
-client
-/
-netmonitor
-/
-src
+.
+.
 /
 constants
 "

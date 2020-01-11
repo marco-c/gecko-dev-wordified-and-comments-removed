@@ -57,13 +57,7 @@ isNodeValid
 require
 (
 "
-devtools
-/
-server
-/
-actors
-/
-highlighters
+.
 /
 utils
 /

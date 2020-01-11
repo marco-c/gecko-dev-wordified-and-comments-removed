@@ -60,11 +60,7 @@ window
 require
 (
 "
-devtools
-/
-client
-/
-aboutdebugging
+.
 /
 aboutdebugging
 "

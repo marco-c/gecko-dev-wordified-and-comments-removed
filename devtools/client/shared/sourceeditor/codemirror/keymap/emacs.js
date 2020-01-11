@@ -28,15 +28,8 @@ mod
 require
 (
 "
-devtools
-/
-client
-/
-shared
-/
-sourceeditor
-/
-codemirror
+.
+.
 /
 lib
 /
