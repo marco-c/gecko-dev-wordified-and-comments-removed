@@ -85,11 +85,6 @@ className
 PropTypes
 .
 string
-marker
-:
-PropTypes
-.
-object
 property
 :
 PropTypes
@@ -119,9 +114,6 @@ className
 :
 "
 "
-marker
-:
-null
 }
 ;
 }
@@ -132,7 +124,6 @@ render
 const
 {
 className
-marker
 property
 value
 }
@@ -154,7 +145,8 @@ changes__declaration
 className
 }
 }
-marker
+"
+"
 dom
 .
 span
