@@ -804,10 +804,6 @@ wellKnownSymbols
 (
 nullptr
 )
-liveSABs
-(
-0
-)
 offthreadIonCompilationEnabled_
 (
 true

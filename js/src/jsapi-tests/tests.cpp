@@ -566,11 +566,6 @@ setWeakRefsEnabled
 (
 true
 )
-.
-setSharedMemoryAndAtomicsEnabled
-(
-true
-)
 ;
 newGlobal
 =
