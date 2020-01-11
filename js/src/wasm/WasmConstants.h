@@ -128,6 +128,16 @@ Limit
 0x80
 }
 ;
+static
+constexpr
+TypeCode
+LowestPrimitiveTypeCode
+=
+TypeCode
+:
+:
+F64
+;
 enum
 class
 FuncTypeIdDescKind
