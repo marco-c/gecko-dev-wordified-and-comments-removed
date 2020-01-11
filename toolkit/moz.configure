@@ -15230,9 +15230,6 @@ gtk
 '
 windows
 '
-'
-cocoa
-'
 )
 :
 return
