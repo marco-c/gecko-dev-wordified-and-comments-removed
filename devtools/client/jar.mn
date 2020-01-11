@@ -569,7 +569,7 @@ toolbox
 -
 options
 .
-xhtml
+html
 (
 framework
 /
@@ -577,7 +577,7 @@ toolbox
 -
 options
 .
-xhtml
+html
 )
 content
 /
