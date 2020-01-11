@@ -28300,6 +28300,12 @@ emit_JSOP_ENDITER
 {
 frame
 .
+pop
+(
+)
+;
+frame
+.
 popRegsAndSync
 (
 1
