@@ -80,6 +80,16 @@ foo
 1
 }
 ;
+const
+empty
+=
+Object
+.
+create
+(
+null
+)
+;
 debugger
 ;
 }
@@ -88,7 +98,7 @@ largeArray
 (
 )
 {
-let
+const
 bs
 =
 [
