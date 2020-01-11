@@ -7376,7 +7376,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -7477,7 +7477,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -8422,7 +8422,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -8807,7 +8807,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -8986,7 +8986,7 @@ if
 mTransaction
 -
 >
-IsCommittingOrDone
+IsCommittingOrFinished
 (
 )
 |
@@ -9631,7 +9631,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -9907,7 +9907,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -10233,7 +10233,7 @@ mTransaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -10856,7 +10856,7 @@ mTransaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -11230,7 +11230,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -11493,7 +11493,7 @@ if
 mTransaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -12325,7 +12325,7 @@ mTransaction
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )

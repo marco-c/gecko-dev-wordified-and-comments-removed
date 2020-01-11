@@ -1832,7 +1832,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -2277,7 +2277,7 @@ if
 transaction
 -
 >
-IsOpen
+CanAcceptRequests
 (
 )
 )
@@ -3802,7 +3802,7 @@ if
 transaction
 -
 >
-IsDone
+IsFinished
 (
 )
 )
@@ -3870,7 +3870,7 @@ MOZ_ASSERT
 transaction
 -
 >
-IsDone
+IsFinished
 (
 )
 )
