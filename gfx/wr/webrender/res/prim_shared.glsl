@@ -315,8 +315,9 @@ flags
 aData
 .
 z
-&
-0xffff0000
+>
+>
+16
 ;
 instance
 .

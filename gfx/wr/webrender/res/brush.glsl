@@ -1245,14 +1245,9 @@ decode_instance_attributes
 int
 edge_flags
 =
-(
 instance
 .
 flags
->
->
-16
-)
 &
 0xff
 ;
@@ -1265,7 +1260,7 @@ instance
 flags
 >
 >
-24
+8
 )
 &
 0xff

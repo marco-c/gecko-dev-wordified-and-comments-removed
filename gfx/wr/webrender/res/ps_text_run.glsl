@@ -607,7 +607,7 @@ instance
 flags
 >
 >
-24
+8
 )
 &
 0xff
@@ -615,14 +615,9 @@ flags
 int
 color_mode
 =
-(
 instance
 .
 flags
->
->
-16
-)
 &
 0xff
 ;
