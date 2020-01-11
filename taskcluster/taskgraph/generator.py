@@ -2282,6 +2282,7 @@ morph
 optimized_task_graph
 label_to_taskid
 parameters
+graph_config
 )
         
 yield

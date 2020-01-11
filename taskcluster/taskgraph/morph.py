@@ -85,6 +85,13 @@ from
 taskgraph
 import
 TaskGraph
+from
+.
+util
+.
+workertypes
+import
+get_worker_type
 here
 =
 os
@@ -247,6 +254,8 @@ purpose
 image
 taskgraph
 label_to_taskid
+parameters
+graph_config
 )
 :
     
@@ -308,6 +317,30 @@ image
 +
 image
 ]
+    
+provisioner_id
+worker_type
+=
+get_worker_type
+(
+        
+graph_config
+'
+misc
+'
+parameters
+[
+'
+level
+'
+]
+parameters
+.
+release_level
+(
+)
+    
+)
     
 task_def
 =
@@ -715,6 +748,8 @@ make_index_task
 parent_task
 taskgraph
 label_to_taskid
+parameters
+graph_config
 )
 :
     
@@ -811,6 +846,8 @@ task
                             
 taskgraph
 label_to_taskid
+graph_config
+parameters
 )
     
 scopes
@@ -991,6 +1028,8 @@ add_index_tasks
 (
 taskgraph
 label_to_taskid
+parameters
+graph_config
 )
 :
     
@@ -1119,6 +1158,8 @@ make_index_task
 task
 taskgraph
 label_to_taskid
+graph_config
+parameters
 )
 )
     
@@ -1161,39 +1202,27 @@ added
 return
 taskgraph
 label_to_taskid
-class
+def
 add_try_task_duplicates
 (
-)
-:
-    
-def
-__init__
-(
-self
-try_config
-)
-:
-        
-self
-.
-try_config
-=
-try_config
-    
-def
-__call__
-(
-self
 taskgraph
 label_to_taskid
+parameters
+graph_config
 )
 :
-        
+    
+try_config
+=
+parameters
+[
+'
+try_task_config
+'
+]
+    
 rebuild
 =
-self
-.
 try_config
 .
 get
@@ -1202,11 +1231,11 @@ get
 rebuild
 '
 )
-        
+    
 if
 rebuild
 :
-            
+        
 for
 task
 in
@@ -1218,7 +1247,7 @@ itervalues
 (
 )
 :
-                
+            
 if
 task
 .
@@ -1237,7 +1266,7 @@ tasks
 ]
 )
 :
-                    
+                
 task
 .
 attributes
@@ -1248,7 +1277,7 @@ task_duplicates
 ]
 =
 rebuild
-        
+    
 return
 taskgraph
 label_to_taskid
@@ -1258,6 +1287,7 @@ morph
 taskgraph
 label_to_taskid
 parameters
+graph_config
 )
 :
     
@@ -1278,14 +1308,6 @@ morphs
 add_index_tasks
         
 add_try_task_duplicates
-(
-parameters
-[
-'
-try_task_config
-'
-]
-)
     
 ]
     
@@ -1302,6 +1324,8 @@ m
 (
 taskgraph
 label_to_taskid
+parameters
+graph_config
 )
     
 return
