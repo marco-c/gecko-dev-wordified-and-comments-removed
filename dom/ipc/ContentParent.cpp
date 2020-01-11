@@ -24400,6 +24400,10 @@ aIsHandlingUserInput
 const
 bool
 &
+aMaybeUnsafePermissionDelegate
+const
+bool
+&
 aDocumentHasUserInput
 const
 DOMTimeStamp
@@ -24498,6 +24502,7 @@ GetOwnerElement
 aPrincipal
 topPrincipal
 aIsHandlingUserInput
+aMaybeUnsafePermissionDelegate
 aDocumentHasUserInput
 aPageLoadTimestamp
 aTabId

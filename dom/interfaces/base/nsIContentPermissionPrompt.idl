@@ -494,6 +494,11 @@ attribute
 DOMTimeStamp
 documentDOMContentLoadedTimestamp
 ;
+readonly
+attribute
+boolean
+maybeUnsafePermissionDelegate
+;
 /
 *
 *

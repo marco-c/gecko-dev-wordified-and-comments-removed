@@ -226,6 +226,9 @@ bool
 aIsHandlingUserInput
 const
 bool
+aMaybeUnsafePermissionDelegate
+const
+bool
 aUserHadInteractedWithDocument
 const
 DOMTimeStamp
@@ -450,6 +453,15 @@ aIsHandlingUserInput
 override
 ;
 NS_IMETHOD
+GetMaybeUnsafePermissionDelegate
+(
+bool
+*
+aMaybeUnsafePermissionDelegate
+)
+override
+;
+NS_IMETHOD
 GetUserHadInteractedWithDocument
 (
 bool
@@ -592,6 +604,9 @@ mIsHandlingUserInput
 ;
 bool
 mUserHadInteractedWithDocument
+;
+bool
+mMaybeUnsafePermissionDelegate
 ;
 DOMTimeStamp
 mDocumentDOMContentLoadedTimestamp
