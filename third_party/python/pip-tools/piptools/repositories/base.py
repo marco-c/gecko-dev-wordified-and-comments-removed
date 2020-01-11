@@ -7,13 +7,10 @@ utf
 from
 __future__
 import
-(
 absolute_import
 division
 print_function
-                        
 unicode_literals
-)
 from
 abc
 import
@@ -139,8 +136,8 @@ ireq
 Given
 a
 pinned
+URL
 or
-an
 editable
 InstallRequirement
 returns

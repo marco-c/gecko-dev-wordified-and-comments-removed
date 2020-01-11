@@ -14,13 +14,13 @@ ireq
 =
 from_line
 (
-'
+"
 django
 >
 1
 .
 5
-'
+"
 )
     
 assert
@@ -35,20 +35,20 @@ ireq
 )
 =
 =
-'
+"
 django
 =
 =
 1
 .
 8
-'
+"
     
 ireq
 =
 from_line
 (
-'
+"
 django
 <
 1
@@ -59,7 +59,7 @@ django
 1
 .
 6
-'
+"
 )
     
 assert
@@ -74,7 +74,7 @@ ireq
 )
 =
 =
-'
+"
 django
 =
 =
@@ -83,15 +83,15 @@ django
 7
 .
 7
-'
+"
     
 ireq
 =
 from_line
 (
-'
+"
 ipython
-'
+"
 )
     
 assert
@@ -106,7 +106,7 @@ ireq
 )
 =
 =
-'
+"
 ipython
 =
 =
@@ -115,19 +115,19 @@ ipython
 1
 .
 0
-'
+"
     
 ireq
 =
 from_line
 (
-'
+"
 ipython
 [
 notebook
 nbconvert
 ]
-'
+"
 )
     
 assert
@@ -142,7 +142,7 @@ ireq
 )
 =
 =
-'
+"
 ipython
 [
 nbconvert
@@ -155,7 +155,7 @@ notebook
 1
 .
 0
-'
+"
 def
 test_find_best_match_incl_prereleases
 (
@@ -168,12 +168,14 @@ ireq
 =
 from_line
 (
-'
+"
 SQLAlchemy
-'
+"
 )
     
 assert
+(
+        
 str
 (
 repository
@@ -188,7 +190,7 @@ False
 )
 =
 =
-'
+"
 sqlalchemy
 =
 =
@@ -197,9 +199,13 @@ sqlalchemy
 9
 .
 9
-'
+"
+    
+)
     
 assert
+(
+        
 str
 (
 repository
@@ -214,7 +220,7 @@ True
 )
 =
 =
-'
+"
 sqlalchemy
 =
 =
@@ -223,7 +229,9 @@ sqlalchemy
 0
 .
 0b5
-'
+"
+    
+)
 def
 test_find_best_match_for_editable
 (
@@ -236,7 +244,7 @@ ireq
 =
 from_editable
 (
-'
+"
 git
 +
 git
@@ -254,7 +262,7 @@ git
 egg
 =
 flask
-'
+"
 )
     
 assert
@@ -279,7 +287,7 @@ ireq
 =
 from_line
 (
-'
+"
 django
 =
 =
@@ -288,7 +296,7 @@ django
 6
 .
 11
-'
+"
 )
     
 assert
@@ -307,7 +315,7 @@ ireq
 =
 from_line
 (
-'
+"
 Flask
 =
 =
@@ -316,7 +324,7 @@ Flask
 10
 .
 1
-'
+"
 )
     
 dependencies
@@ -329,7 +337,6 @@ ireq
 )
     
 assert
-(
 {
 str
 (
@@ -342,40 +349,42 @@ dependencies
 }
 =
 =
-            
 {
-'
+        
+"
 Werkzeug
 >
 =
 0
 .
 7
-'
-'
+"
+        
+"
 Jinja2
 >
 =
 2
 .
 4
-'
-'
+"
+        
+"
 itsdangerous
 >
 =
 0
 .
 21
-'
+"
+    
 }
-)
     
 ireq
 =
 from_line
 (
-'
+"
 ipython
 =
 =
@@ -384,7 +393,7 @@ ipython
 1
 .
 0
-'
+"
 )
     
 dependencies
@@ -410,16 +419,16 @@ dependencies
 =
 =
 {
-'
+"
 gnureadline
-'
+"
 }
     
 ireq
 =
 from_line
 (
-'
+"
 ipython
 [
 notebook
@@ -431,7 +440,7 @@ notebook
 1
 .
 0
-'
+"
 )
     
 dependencies
@@ -444,7 +453,6 @@ ireq
 )
     
 assert
-(
 {
 str
 (
@@ -457,12 +465,13 @@ dependencies
 }
 =
 =
-            
 {
-'
+        
+"
 gnureadline
-'
-'
+"
+        
+"
 pyzmq
 >
 =
@@ -471,26 +480,28 @@ pyzmq
 1
 .
 11
-'
-'
+"
+        
+"
 tornado
 >
 =
 3
 .
 1
-'
-'
+"
+        
+"
 jinja2
-'
+"
+    
 }
-)
     
 ireq
 =
 from_line
 (
-'
+"
 ipython
 [
 notebook
@@ -503,7 +514,7 @@ nbconvert
 1
 .
 0
-'
+"
 )
     
 dependencies
@@ -516,7 +527,6 @@ ireq
 )
     
 assert
-(
 {
 str
 (
@@ -529,12 +539,13 @@ dependencies
 }
 =
 =
-            
 {
-'
+        
+"
 gnureadline
-'
-'
+"
+        
+"
 pyzmq
 >
 =
@@ -543,31 +554,35 @@ pyzmq
 1
 .
 11
-'
-'
+"
+        
+"
 tornado
 >
 =
 3
 .
 1
-'
-'
+"
+        
+"
 jinja2
-'
-'
+"
+        
+"
 pygments
-'
-'
+"
+        
+"
 Sphinx
 >
 =
 0
 .
 3
-'
+"
+    
 }
-)
 def
 test_get_dependencies_for_editable
 (
@@ -580,7 +595,7 @@ ireq
 =
 from_editable
 (
-'
+"
 git
 +
 git
@@ -598,7 +613,7 @@ git
 egg
 =
 django
-'
+"
 )
     
 assert
@@ -624,13 +639,13 @@ not_a_pinned_req
 =
 from_line
 (
-'
+"
 django
 >
 1
 .
 6
-'
+"
 )
     
 with

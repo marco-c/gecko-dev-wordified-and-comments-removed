@@ -7,9 +7,9 @@ setup
     
 name
 =
-'
+"
 fake_with_deps
-'
+"
     
 version
 =
@@ -254,6 +254,6 @@ xmltodict
 .
 6
 "
-        
+    
 ]
 )

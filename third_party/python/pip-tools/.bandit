@@ -1,0 +1,14 @@
+[
+bandit
+]
+exclude
+:
+tests
+.
+tox
+.
+eggs
+.
+venv
+.
+git

@@ -7,9 +7,9 @@ setup
     
 name
 =
-'
+"
 small_fake_with_deps
-'
+"
     
 version
 =
@@ -20,7 +20,6 @@ version
 install_requires
 =
 [
-        
 "
 six
 =
@@ -31,6 +30,15 @@ six
 .
 0
 "
-    
+"
+setuptools
+>
+=
+35
+.
+0
+.
+0
+"
 ]
 )

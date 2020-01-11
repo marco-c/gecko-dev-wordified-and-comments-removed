@@ -7,15 +7,10 @@ utf
 from
 __future__
 import
-(
 absolute_import
 division
 print_function
-                        
 unicode_literals
-)
-import
-sys
 from
 .
 import
@@ -31,17 +26,17 @@ def
 __init__
 (
 self
-verbose
+verbosity
 =
-False
+0
 )
 :
         
 self
 .
-verbose
+verbosity
 =
-verbose
+verbosity
     
 def
 log
@@ -54,6 +49,16 @@ args
 kwargs
 )
 :
+        
+kwargs
+.
+setdefault
+(
+"
+err
+"
+True
+)
         
 click
 .
@@ -81,7 +86,10 @@ kwargs
 if
 self
 .
-verbose
+verbosity
+>
+=
+1
 :
             
 self
@@ -107,6 +115,15 @@ kwargs
 )
 :
         
+if
+self
+.
+verbosity
+>
+=
+0
+:
+            
 self
 .
 log
@@ -134,24 +151,12 @@ kwargs
 .
 setdefault
 (
-'
+"
 fg
-'
-'
+"
+"
 yellow
-'
-)
-        
-kwargs
-.
-setdefault
-(
-'
-file
-'
-sys
-.
-stderr
+"
 )
         
 self
@@ -181,24 +186,12 @@ kwargs
 .
 setdefault
 (
-'
+"
 fg
-'
-'
+"
+"
 red
-'
-)
-        
-kwargs
-.
-setdefault
-(
-'
-file
-'
-sys
-.
-stderr
+"
 )
         
 self

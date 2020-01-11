@@ -82,11 +82,11 @@ setup
     
 name
 =
-'
+"
 pip
 -
 tools
-'
+"
     
 use_scm_version
 =
@@ -94,7 +94,7 @@ True
     
 url
 =
-'
+"
 https
 :
 /
@@ -109,29 +109,29 @@ pip
 -
 tools
 /
-'
+"
     
 license
 =
-'
+"
 BSD
-'
+"
     
 author
 =
-'
+"
 Vincent
 Driessen
-'
+"
     
 author_email
 =
-'
+"
 me
 nvie
 .
 com
-'
+"
     
 description
 =
@@ -145,12 +145,22 @@ long_description
 =
 read_file
 (
-'
+"
 README
 .
 rst
-'
+"
 )
+    
+long_description_content_type
+=
+"
+text
+/
+x
+-
+rst
+"
     
 packages
 =
@@ -159,9 +169,9 @@ find_packages
 exclude
 =
 [
-'
+"
 tests
-'
+"
 ]
 )
     
@@ -211,26 +221,23 @@ python_requires
 setup_requires
 =
 [
-'
+"
 setuptools_scm
-'
+"
 ]
     
 install_requires
 =
 [
-        
-'
+"
 click
 >
 =
 6
-'
-        
-'
+"
+"
 six
-'
-    
+"
 ]
     
 zip_safe
@@ -241,13 +248,13 @@ entry_points
 =
 {
         
-'
+"
 console_scripts
-'
+"
 :
 [
             
-'
+"
 pip
 -
 compile
@@ -259,9 +266,9 @@ scripts
 compile
 :
 cli
-'
+"
             
-'
+"
 pip
 -
 sync
@@ -273,7 +280,7 @@ scripts
 sync
 :
 cli
-'
+"
         
 ]
     
@@ -281,15 +288,15 @@ cli
     
 platforms
 =
-'
+"
 any
-'
+"
     
 classifiers
 =
 [
         
-'
+"
 Development
 Status
 :
@@ -299,26 +306,26 @@ Status
 Production
 /
 Stable
-'
+"
         
-'
+"
 Intended
 Audience
 :
 :
 Developers
-'
+"
         
-'
+"
 Intended
 Audience
 :
 :
 System
 Administrators
-'
+"
         
-'
+"
 License
 :
 :
@@ -328,26 +335,26 @@ Approved
 :
 BSD
 License
-'
+"
         
-'
+"
 Operating
 System
 :
 :
 OS
 Independent
-'
+"
         
-'
+"
 Programming
 Language
 :
 :
 Python
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -356,9 +363,9 @@ Python
 :
 :
 2
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -369,9 +376,9 @@ Python
 2
 .
 7
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -380,9 +387,9 @@ Python
 :
 :
 3
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -393,9 +400,9 @@ Python
 3
 .
 4
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -406,9 +413,9 @@ Python
 3
 .
 5
-'
+"
         
-'
+"
 Programming
 Language
 :
@@ -419,9 +426,50 @@ Python
 3
 .
 6
-'
+"
         
-'
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+7
+"
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+Implementation
+:
+:
+CPython
+"
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+Implementation
+:
+:
+PyPy
+"
+        
+"
 Topic
 :
 :
@@ -430,7 +478,7 @@ System
 :
 Systems
 Administration
-'
+"
     
 ]
 )
