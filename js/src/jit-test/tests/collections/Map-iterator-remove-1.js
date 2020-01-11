@@ -6,7 +6,9 @@ pairs
 {
 print
 (
-uneval
+JSON
+.
+stringify
 (
 pairs
 )

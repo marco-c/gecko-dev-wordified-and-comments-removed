@@ -68,7 +68,7 @@ RegExp
 "
 )
 ;
-uneval
+String
 (
 undefined
 )

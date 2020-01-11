@@ -92,7 +92,9 @@ attrs
 var
 args
 =
-uneval
+JSON
+.
+stringify
 (
 [
 target

@@ -112,7 +112,9 @@ toString
 }
 p
 (
-uneval
+JSON
+.
+stringify
 (
 a
 )

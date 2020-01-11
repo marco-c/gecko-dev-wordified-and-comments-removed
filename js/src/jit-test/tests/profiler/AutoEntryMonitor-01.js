@@ -21,7 +21,9 @@ expected
 {
 print
 (
-uneval
+JSON
+.
+stringify
 (
 params
 )
@@ -29,7 +31,9 @@ params
 ;
 print
 (
-uneval
+JSON
+.
+stringify
 (
 entryPoints
 (

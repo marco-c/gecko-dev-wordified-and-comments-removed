@@ -57,8 +57,9 @@ exc
 )
 {
 }
-uneval
+constructor
+.
+toString
 (
-this
 )
 ;

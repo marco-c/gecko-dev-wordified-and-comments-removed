@@ -70,7 +70,9 @@ code
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 code
 )
