@@ -84,11 +84,6 @@ load
 .
 html
 skip
--
-if
-(
-Android
-)
 pref
 (
 dom
@@ -104,6 +99,11 @@ html
 Android
 bug
 1584562
+process
+selection
+bug
+1599662
+.
 pref
 (
 browser
