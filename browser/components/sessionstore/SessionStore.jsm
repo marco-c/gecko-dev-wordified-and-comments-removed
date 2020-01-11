@@ -9918,14 +9918,6 @@ if
 !
 E10SUtils
 .
-useHttpResponseProcessSelection
-(
-)
-&
-&
-!
-E10SUtils
-.
 useCrossOriginOpenerPolicy
 (
 )
