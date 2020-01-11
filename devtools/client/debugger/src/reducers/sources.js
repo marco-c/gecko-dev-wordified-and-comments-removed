@@ -398,6 +398,7 @@ boolean
 |
 }
 ;
+export
 type
 SourceResource
 =
