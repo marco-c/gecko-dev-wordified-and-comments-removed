@@ -1242,10 +1242,17 @@ dirname
 (
 file
 )
+os
+.
+path
+.
+basename
+(
 entry
 [
 2
 ]
+)
 )
                 
 self
