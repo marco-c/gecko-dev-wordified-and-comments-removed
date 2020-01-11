@@ -28,13 +28,6 @@ true
 }
 )
 ;
-Object
-.
-preventExtensions
-(
-target
-)
-;
 var
 proxy
 =
@@ -55,6 +48,13 @@ return
 ;
 }
 }
+)
+;
+Object
+.
+preventExtensions
+(
+target
 )
 ;
 assert

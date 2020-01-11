@@ -19,8 +19,13 @@ target
 ;
 assert
 .
-sameValue
+throws
 (
+TypeError
+(
+)
+=
+>
 fg
 .
 register
@@ -29,7 +34,6 @@ target
 target
 target
 )
-undefined
 )
 ;
 reportCompare

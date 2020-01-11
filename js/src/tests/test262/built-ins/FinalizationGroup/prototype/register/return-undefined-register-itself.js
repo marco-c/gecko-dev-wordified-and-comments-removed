@@ -16,6 +16,12 @@ FinalizationGroup
 fn
 )
 ;
+var
+holdings
+=
+{
+}
+;
 assert
 .
 sameValue
@@ -42,7 +48,7 @@ fg
 register
 (
 fg
-fg
+holdings
 )
 undefined
 '
@@ -62,7 +68,7 @@ fg
 register
 (
 fg
-fg
+holdings
 fg
 )
 undefined
