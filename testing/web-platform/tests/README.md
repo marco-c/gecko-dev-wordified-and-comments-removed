@@ -269,11 +269,7 @@ and
 more
 -
 [
-web
--
-platform
--
-tests
+wpt
 .
 live
 ]
@@ -282,11 +278,7 @@ http
 :
 /
 /
-web
--
-platform
--
-tests
+wpt
 .
 live
 )
