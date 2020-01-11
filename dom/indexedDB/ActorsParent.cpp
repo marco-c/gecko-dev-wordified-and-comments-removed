@@ -111240,7 +111240,6 @@ stmt
 ;
 const
 auto
-&
 optReplaceDirective
 =
 (
@@ -120544,7 +120543,6 @@ isSome
 ;
 const
 auto
-&
 indexTable
 =
 mCursor
@@ -121073,7 +121071,6 @@ isSome
 ;
 const
 auto
-&
 table
 =
 mCursor
