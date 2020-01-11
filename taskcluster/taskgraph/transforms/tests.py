@@ -252,7 +252,12 @@ util
 .
 chunking
 import
+(
+    
 get_chunked_manifests
+    
+guess_mozinfo_from_task
+)
 from
 taskgraph
 .
@@ -9869,6 +9874,13 @@ suite
 ]
 ]
             
+mozinfo
+=
+guess_mozinfo_from_task
+(
+test
+)
+            
 chunked_manifests
 =
 get_chunked_manifests
@@ -9905,18 +9917,18 @@ undefined
 test
 [
 '
-test
--
-platform
-'
-]
-                
-test
-[
-'
 chunks
 '
 ]
+                
+frozenset
+(
+mozinfo
+.
+items
+(
+)
+)
             
 )
         
