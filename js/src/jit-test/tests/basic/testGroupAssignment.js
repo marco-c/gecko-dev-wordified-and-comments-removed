@@ -1,4 +1,15 @@
-assertEq
+load
+(
+libdir
++
+"
+asserts
+.
+js
+"
+)
+;
+assertDeepEq
 (
 (
 function
@@ -127,11 +138,6 @@ arr
 )
 (
 )
-.
-toSource
-(
-)
-"
 [
 7
 6
@@ -167,6 +173,5 @@ toSource
 24
 32
 ]
-"
 )
 ;
