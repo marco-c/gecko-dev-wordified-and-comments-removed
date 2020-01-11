@@ -431,12 +431,6 @@ cursor
 :
 text
 ;
-user
--
-select
-:
-text
-;
 overflow
 -
 clip
@@ -572,12 +566,6 @@ text
 resize
 :
 both
-;
-user
--
-select
-:
-text
 ;
 white
 -

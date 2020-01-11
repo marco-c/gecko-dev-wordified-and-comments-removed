@@ -21249,6 +21249,14 @@ style
 }
 if
 (
+aFrame
+-
+>
+IsTextInputFrame
+(
+)
+|
+|
 IsEditingHost
 (
 aFrame
