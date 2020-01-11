@@ -624,6 +624,8 @@ SetRequestHeaders
 nsIHttpChannel
 *
 aChannel
+bool
+aStripRequestBodyHeader
 )
 const
 ;
