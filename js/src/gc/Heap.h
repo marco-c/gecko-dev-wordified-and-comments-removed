@@ -590,7 +590,7 @@ Arena
 static
 JS_FRIEND_DATA
 const
-uint32_t
+uint8_t
 ThingSizes
 [
 ]
@@ -598,7 +598,7 @@ ThingSizes
 static
 JS_FRIEND_DATA
 const
-uint32_t
+uint8_t
 FirstThingOffsets
 [
 ]
@@ -606,7 +606,7 @@ FirstThingOffsets
 static
 JS_FRIEND_DATA
 const
-uint32_t
+uint8_t
 ThingsPerArena
 [
 ]
@@ -1698,6 +1698,12 @@ thingSize
 static
 void
 staticAsserts
+(
+)
+;
+static
+void
+checkLookupTables
 (
 )
 ;
