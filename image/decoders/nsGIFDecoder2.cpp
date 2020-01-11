@@ -800,6 +800,12 @@ images_decoded
 +
 +
 ;
+mGIFStruct
+.
+delay_time
+=
+0
+;
 PostFrameStop
 (
 opacity
@@ -2826,6 +2832,12 @@ aData
 ;
 if
 (
+!
+HasAnimation
+(
+)
+&
+&
 mGIFStruct
 .
 delay_time
