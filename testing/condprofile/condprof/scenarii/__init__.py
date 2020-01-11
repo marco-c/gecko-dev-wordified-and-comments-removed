@@ -15,9 +15,9 @@ condprof
 .
 scenarii
 .
-cold
+settled
 import
-cold
+settled
 scenarii
 =
 {
@@ -27,8 +27,8 @@ heavy
 :
 heavy
 "
-cold
+settled
 "
 :
-cold
+settled
 }

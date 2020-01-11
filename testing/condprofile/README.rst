@@ -695,7 +695,7 @@ get_profile
 win64
 "
 "
-cold
+settled
 "
 "
 default

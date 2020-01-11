@@ -2,7 +2,7 @@ import
 asyncio
 async
 def
-cold
+settled
 (
 session
 options
