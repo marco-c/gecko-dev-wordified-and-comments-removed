@@ -863,6 +863,17 @@ uint32_t
 numStrings
 )
 ;
+static
+BinASTSourceMetadataMultipart
+*
+create
+(
+uint32_t
+numBinASTKinds
+uint32_t
+numStrings
+)
+;
 inline
 uint32_t
 numBinASTKinds
