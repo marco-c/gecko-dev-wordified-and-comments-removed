@@ -160,8 +160,9 @@ enable
 (
 )
 ;
-info
+ok
 (
+true
 "
 Log
 domain
@@ -244,8 +245,9 @@ enable
 (
 )
 ;
-info
+ok
 (
+true
 "
 Page
 domain
@@ -311,8 +313,9 @@ script
 }
 )
 ;
-info
+ok
 (
+true
 "
 A
 new
@@ -326,8 +329,9 @@ loaded
 await
 loadEventFired
 ;
-info
+ok
 (
+true
 "
 Page
 .
@@ -339,8 +343,9 @@ fired
 await
 frameStoppedLoading
 ;
-info
+ok
 (
+true
 "
 Page
 .
@@ -352,8 +357,9 @@ fired
 await
 navigatedWithinDocument
 ;
-info
+ok
 (
+true
 "
 Page
 .

@@ -53,8 +53,9 @@ enable
 (
 )
 ;
-info
+ok
 (
+true
 "
 Runtime
 domain
@@ -384,8 +385,9 @@ objectId
 }
 )
 ;
-info
+ok
 (
+true
 "
 Object
 is
