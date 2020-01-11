@@ -1062,8 +1062,6 @@ AppendLiteral
 (
 "
 3
-.
-0
 "
 )
 ;
@@ -1086,8 +1084,6 @@ AppendLiteral
 (
 "
 2
-.
-0
 "
 )
 ;
