@@ -833,7 +833,7 @@ close
 }
 )
 ;
-describe
+describe_fails_ffox
 (
 '
 Browser
