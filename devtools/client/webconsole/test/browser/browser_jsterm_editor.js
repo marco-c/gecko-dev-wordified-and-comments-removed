@@ -270,6 +270,7 @@ hud
 ;
 ok
 (
+true
 "
 Editor
 is

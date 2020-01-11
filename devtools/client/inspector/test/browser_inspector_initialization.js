@@ -450,9 +450,7 @@ destroy
 ;
 ok
 (
-"
 true
-"
 "
 '
 destroyed

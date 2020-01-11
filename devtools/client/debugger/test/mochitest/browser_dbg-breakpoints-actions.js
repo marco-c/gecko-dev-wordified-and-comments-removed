@@ -104,6 +104,7 @@ getBreakpointCount
 ;
 ok
 (
+true
 "
 successfully
 removed
@@ -257,6 +258,7 @@ dispatched
 ;
 ok
 (
+true
 "
 breakpoint
 at
@@ -325,6 +327,7 @@ dispatched
 ;
 ok
 (
+true
 "
 all
 breakpoints
@@ -404,6 +407,7 @@ dispatched
 ;
 ok
 (
+true
 "
 all
 breakpoints
@@ -488,6 +492,7 @@ dispatched
 ;
 ok
 (
+true
 "
 remaining
 breakpoint
