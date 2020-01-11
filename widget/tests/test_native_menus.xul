@@ -225,12 +225,12 @@ window
 openDialog
 (
 "
-bug586713_window
+native_menus_window
 .
-xhtml
+xul
 "
 "
-bug586713_window
+NativeMenuWindow
 "
 "
 chrome

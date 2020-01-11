@@ -229,7 +229,7 @@ openDialog
 '
 chrome_context_menus_win
 .
-xhtml
+xul
 '
 '
 _blank
