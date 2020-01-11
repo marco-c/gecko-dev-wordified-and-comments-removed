@@ -71,7 +71,7 @@ strong
 NSMutableDictionary
 <
 NSTouchBarItemIdentifier
-NSButton
+NSCustomTouchBarItem
 *
 >
 *
@@ -179,7 +179,7 @@ void
 updateButton
 :
 (
-NSButton
+NSCustomTouchBarItem
 *
 )
 aButton
@@ -197,7 +197,7 @@ void
 updateMainButton
 :
 (
-NSButton
+NSCustomTouchBarItem
 *
 )
 aMainButton
