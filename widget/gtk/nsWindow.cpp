@@ -20939,6 +20939,12 @@ foundWindow
 }
 if
 (
+!
+mIsDestroyed
+)
+{
+if
+(
 mContainer
 &
 &
@@ -21018,6 +21024,7 @@ DestroyLayerManager
 (
 )
 ;
+}
 }
 }
 #
