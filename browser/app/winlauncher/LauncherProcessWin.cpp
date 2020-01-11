@@ -210,12 +210,6 @@ aIsSafeMode
 if
 defined
 (
-MOZ_ASAN
-)
-|
-|
-defined
-(
 _M_ARM64
 )
 return
