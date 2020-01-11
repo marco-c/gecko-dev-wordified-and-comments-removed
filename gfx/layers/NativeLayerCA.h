@@ -558,6 +558,12 @@ SurfaceWithInvalidRegion
 >
 mReadySurface
 ;
+Maybe
+<
+SurfaceWithInvalidRegion
+>
+mFrontSurface
+;
 std
 :
 :
