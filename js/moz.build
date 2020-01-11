@@ -194,3 +194,16 @@ jittest
 jsreftest
 '
 ]
+SPHINX_TREES
+[
+"
+/
+js
+"
+]
+=
+"
+src
+/
+doc
+"

@@ -52,6 +52,8 @@ common
 services
 -
 uriloader
+-
+js
 build_doc
 :
 -
