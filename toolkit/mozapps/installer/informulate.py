@@ -316,7 +316,7 @@ args
 .
 output_json
 '
-wt
+wb
 '
 )
 as
@@ -354,7 +354,7 @@ args
 .
 buildhub_json
 '
-wt
+wb
 '
 )
 as
@@ -770,7 +770,7 @@ args
 .
 output_txt
 '
-wt
+wb
 '
 )
 as
