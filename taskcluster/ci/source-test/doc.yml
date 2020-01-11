@@ -73,7 +73,10 @@ treeherder
 :
 symbol
 :
-Doc
+doc
+(
+generate
+)
 kind
 :
 test
@@ -224,7 +227,10 @@ treeherder
 :
 symbol
 :
-DocUp
+doc
+(
+upload
+)
 kind
 :
 test
