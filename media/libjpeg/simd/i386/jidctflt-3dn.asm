@@ -198,11 +198,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -732,7 +727,7 @@ ifndef
 NO_ZERO_COLUMN_TEST_FLOAT_3DNOW
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -744,7 +739,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -766,7 +761,7 @@ GOT
 address
 mov
 ebx
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -778,7 +773,7 @@ SIZEOF_JCOEF
 ]
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -790,7 +785,7 @@ SIZEOF_JCOEF
 ]
 or
 ebx
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -802,7 +797,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -814,7 +809,7 @@ SIZEOF_JCOEF
 ]
 or
 ebx
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -846,7 +841,7 @@ all
 zero
 movd
 mm0
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1005,7 +1000,7 @@ Even
 part
 movd
 mm0
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1017,7 +1012,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm1
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1029,7 +1024,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm2
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1041,7 +1036,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm3
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1260,7 +1255,7 @@ Odd
 part
 movd
 mm2
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1272,7 +1267,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm3
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1284,7 +1279,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm5
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1296,7 +1291,7 @@ SIZEOF_JCOEF
 ]
 movd
 mm1
-DWORD
+dword
 [
 DWBLOCK
 (

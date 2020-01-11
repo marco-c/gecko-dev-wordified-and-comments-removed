@@ -188,11 +188,6 @@ more
 ;
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -2174,7 +2169,7 @@ put_buffer
 ;
 mov
 put_bits
-DWORD
+dword
 [
 r10
 +
@@ -3360,7 +3355,7 @@ put_buffer
 put_buffer
 ;
 mov
-DWORD
+dword
 [
 r10
 +

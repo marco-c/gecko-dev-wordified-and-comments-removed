@@ -75,11 +75,6 @@ jsimdext
 .
 inc
 ;
-;
-[
-TAB8
-]
-;
 -
 -
 -

@@ -203,11 +203,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -1345,7 +1340,7 @@ ifndef
 NO_ZERO_COLUMN_TEST_4X4_MMX
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1357,7 +1352,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -3529,7 +3524,7 @@ edi
 SIZEOF_JSAMPROW
 ]
 movd
-DWORD
+dword
 [
 edx
 +
@@ -3539,7 +3534,7 @@ SIZEOF_JSAMPLE
 ]
 mm1
 movd
-DWORD
+dword
 [
 esi
 +
@@ -3579,7 +3574,7 @@ edi
 SIZEOF_JSAMPROW
 ]
 movd
-DWORD
+dword
 [
 edx
 +
@@ -3589,7 +3584,7 @@ SIZEOF_JSAMPLE
 ]
 mm1
 movd
-DWORD
+dword
 [
 esi
 +
@@ -5339,7 +5334,7 @@ edi
 SIZEOF_JSAMPROW
 ]
 mov
-WORD
+word
 [
 edx
 +
@@ -5349,7 +5344,7 @@ SIZEOF_JSAMPLE
 ]
 bx
 mov
-WORD
+word
 [
 esi
 +

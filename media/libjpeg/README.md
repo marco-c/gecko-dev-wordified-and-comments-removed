@@ -21,13 +21,6 @@ that
 uses
 SIMD
 instructions
-(
-MMX
-SSE2
-AVX2
-NEON
-AltiVec
-)
 to
 accelerate
 baseline
@@ -41,8 +34,9 @@ x86
 -
 64
 ARM
-and
 PowerPC
+and
+MIPS
 systems
 as
 well
@@ -1428,6 +1422,7 @@ supported
 *
 *
 libjpeg
+API
 :
 IDCT
 scaling
@@ -1514,6 +1509,7 @@ accelerated
 *
 *
 libjpeg
+API
 :
 Arithmetic
 coding
@@ -1523,6 +1519,7 @@ coding
 *
 *
 libjpeg
+API
 :
 In
 -
@@ -1772,6 +1769,7 @@ turbo
 *
 *
 libjpeg
+API
 :
 DCT
 scaling
@@ -1865,6 +1863,7 @@ usefulness
 *
 *
 libjpeg
+API
 :
 SmartScale
 *
@@ -2003,6 +2002,7 @@ factors
 *
 *
 libjpeg
+API
 :
 Fancy
 downsampling
@@ -2490,13 +2490,13 @@ version
 from
 62
 .
-1
+2
 .
 0
 to
 62
 .
-2
+3
 .
 0
 if
@@ -2511,13 +2511,13 @@ and
 from
 7
 .
-1
+2
 .
 0
 to
 7
 .
-2
+3
 .
 0
 if
@@ -3294,7 +3294,7 @@ consumer
 packages
 such
 as
-PhotoShop
+Photoshop
 use
 restart
 markers

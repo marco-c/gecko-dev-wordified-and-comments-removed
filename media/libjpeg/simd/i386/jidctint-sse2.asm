@@ -198,11 +198,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -1221,7 +1216,7 @@ ifndef
 NO_ZERO_COLUMN_TEST_ISLOW_SSE2
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1233,7 +1228,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (

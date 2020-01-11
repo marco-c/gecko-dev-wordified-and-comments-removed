@@ -148,11 +148,6 @@ php
 group_id
 =
 6208
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -690,7 +685,7 @@ eax
 eax
 mov
 al
-BYTE
+byte
 [
 esi
 +
@@ -715,7 +710,7 @@ edx
 edx
 mov
 dx
-WORD
+word
 [
 esi
 +
@@ -750,7 +745,7 @@ byte
 SIZEOF_DWORD
 movd
 mmG
-DWORD
+dword
 [
 esi
 +
@@ -1269,7 +1264,7 @@ SIZEOF_MMWORD
 8
 movd
 mmA
-DWORD
+dword
 [
 esi
 +

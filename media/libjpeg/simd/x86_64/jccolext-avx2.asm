@@ -145,11 +145,6 @@ php
 group_id
 =
 6208
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -582,7 +577,7 @@ byte
 SIZEOF_BYTE
 movzx
 rax
-BYTE
+byte
 [
 rsi
 +
@@ -604,7 +599,7 @@ byte
 SIZEOF_WORD
 movzx
 rdx
-WORD
+word
 [
 rsi
 +

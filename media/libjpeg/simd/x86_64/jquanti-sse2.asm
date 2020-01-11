@@ -153,11 +153,6 @@ php
 group_id
 =
 6208
-;
-;
-[
-TAB8
-]
 %
 include
 "

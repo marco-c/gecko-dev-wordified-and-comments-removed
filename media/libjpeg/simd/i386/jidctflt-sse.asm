@@ -197,11 +197,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -887,7 +882,7 @@ ifndef
 NO_ZERO_COLUMN_TEST_FLOAT_SSE
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -899,7 +894,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (

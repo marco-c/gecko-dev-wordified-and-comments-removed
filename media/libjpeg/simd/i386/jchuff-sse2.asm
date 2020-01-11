@@ -185,11 +185,6 @@ more
 ;
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -2243,7 +2238,7 @@ state
 )
 mov
 put_buffer
-DWORD
+dword
 [
 esi
 +
@@ -2261,7 +2256,7 @@ put_buffer
 ;
 mov
 put_bits
-DWORD
+dword
 [
 esi
 +
@@ -2395,7 +2390,7 @@ last_dc_val
 ;
 sub
 ecx
-DWORD
+dword
 [
 eax
 +
@@ -2533,7 +2528,7 @@ temp2
 temp3
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -2597,7 +2592,7 @@ temp
 )
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -2690,7 +2685,7 @@ size
 )
 mov
 ecx
-DWORD
+dword
 [
 esp
 +
@@ -2717,7 +2712,7 @@ dec
 eax
 and
 eax
-DWORD
+dword
 [
 esp
 +
@@ -3172,7 +3167,7 @@ index
 r
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3207,7 +3202,7 @@ r
 16
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3266,7 +3261,7 @@ size_0xf0
 )
 mov
 ecx
-DWORD
+dword
 [
 esp
 +
@@ -3331,7 +3326,7 @@ temp
 )
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3439,7 +3434,7 @@ in
 code
 mov
 ecx
-DWORD
+dword
 [
 esp
 +
@@ -3484,7 +3479,7 @@ nbits
 )
 mov
 edx
-DWORD
+dword
 [
 esp
 +
@@ -3819,7 +3814,7 @@ k
 r
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3873,7 +3868,7 @@ index
 r
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3908,7 +3903,7 @@ r
 16
 ;
 mov
-DWORD
+dword
 [
 esp
 +
@@ -3967,7 +3962,7 @@ size_0xf0
 )
 mov
 ecx
-DWORD
+dword
 [
 esp
 +
@@ -4009,7 +4004,7 @@ temp
 inc
 eax
 mov
-DWORD
+dword
 [
 esp
 +
@@ -4117,7 +4112,7 @@ in
 code
 mov
 ecx
-DWORD
+dword
 [
 esp
 +
@@ -4162,7 +4157,7 @@ nbits
 )
 mov
 edx
-DWORD
+dword
 [
 esp
 +
@@ -4304,7 +4299,7 @@ put_buffer
 &
 put_bits
 mov
-DWORD
+dword
 [
 esi
 +
@@ -4322,7 +4317,7 @@ put_buffer
 put_buffer
 ;
 mov
-DWORD
+dword
 [
 esi
 +

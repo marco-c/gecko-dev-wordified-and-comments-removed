@@ -200,11 +200,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "

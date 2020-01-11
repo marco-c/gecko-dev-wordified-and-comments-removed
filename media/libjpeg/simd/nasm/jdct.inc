@@ -77,11 +77,6 @@ jsimdext
 .
 inc
 ;
-;
-[
-TAB8
-]
-;
 Each
 IDCT
 routine

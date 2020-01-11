@@ -197,11 +197,6 @@ for
 more
 details
 .
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -1071,7 +1066,7 @@ ifndef
 NO_ZERO_COLUMN_TEST_IFAST_MMX
 mov
 eax
-DWORD
+dword
 [
 DWBLOCK
 (
@@ -1083,7 +1078,7 @@ SIZEOF_JCOEF
 ]
 or
 eax
-DWORD
+dword
 [
 DWBLOCK
 (

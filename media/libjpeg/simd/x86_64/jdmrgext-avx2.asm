@@ -164,11 +164,6 @@ php
 group_id
 =
 6208
-;
-;
-[
-TAB8
-]
 %
 include
 "
@@ -3647,7 +3642,7 @@ short
 .
 column_st1
 mov
-WORD
+word
 [
 rdi
 ]
@@ -3692,7 +3687,7 @@ short
 .
 endcolumn
 mov
-BYTE
+byte
 [
 rdi
 ]
