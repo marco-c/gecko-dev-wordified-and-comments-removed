@@ -163,7 +163,9 @@ node
 id
 node
 .
-ordinal
+style
+.
+MozBoxOrdinalGroup
 ]
 ;
 }
