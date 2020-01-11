@@ -123,11 +123,6 @@ UrlbarProvidersManager
 jsm
 '
 '
-UrlbarProviderTopSites
-.
-jsm
-'
-'
 UrlbarProviderUnifiedComplete
 .
 jsm
