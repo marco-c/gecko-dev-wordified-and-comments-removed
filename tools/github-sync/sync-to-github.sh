@@ -1225,6 +1225,13 @@ from
 mozilla
 -
 central
+'
+"
+{
+RELATIVE_PATH
+}
+"
+'
 "
 '
 echo
@@ -1258,9 +1265,13 @@ moz
 -
 gfx
 :
+'
+"
 {
 BRANCH
 }
+"
+'
 "
 '
 echo
