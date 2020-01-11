@@ -10408,6 +10408,12 @@ tab
 ;
 t
 .
+initializingTab
+=
+true
+;
+t
+.
 openerTab
 =
 openerTab
@@ -11397,6 +11403,11 @@ setDefaultIcon
 t
 aURIObject
 )
+;
+delete
+t
+.
+initializingTab
 ;
 let
 evt
