@@ -142,6 +142,7 @@ apply
 *
 /
 [
+ChromeOnly
 Exposed
 =
 Window
