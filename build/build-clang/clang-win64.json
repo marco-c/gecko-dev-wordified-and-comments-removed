@@ -116,6 +116,11 @@ bug41817
 patch
 "
 "
+rG7e18aeba5062
+.
+patch
+"
+"
 loosen
 -
 msvc
