@@ -205,9 +205,13 @@ false
 sourceName
 :
 /
+(
 minimal
 -
 xul
+|
+xul
+)
 \
 .
 css
