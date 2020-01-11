@@ -838,7 +838,6 @@ tab
 .
 linkedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -857,6 +856,12 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+"
+about
+:
+newtab
+"
 )
 ;
 await
@@ -885,7 +890,6 @@ linkedBrowser
 async
 function
 (
-args
 )
 {
 let
