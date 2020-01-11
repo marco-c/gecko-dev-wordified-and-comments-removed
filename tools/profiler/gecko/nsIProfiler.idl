@@ -225,6 +225,11 @@ attribute
 uint32_t
 features
 ;
+readonly
+attribute
+uint64_t
+activeBrowsingContextID
+;
 [
 noscript
 notxpcom
@@ -287,6 +292,12 @@ Array
 AUTF8String
 >
 aFilters
+[
+optional
+]
+in
+uint64_t
+aActiveBrowsingContextID
 [
 optional
 ]
