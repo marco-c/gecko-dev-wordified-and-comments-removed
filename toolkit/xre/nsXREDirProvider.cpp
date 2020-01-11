@@ -3832,12 +3832,6 @@ GeckoProcessType
 procType
 )
 {
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 if
 (
 (
@@ -3857,8 +3851,6 @@ return
 nullptr
 ;
 }
-#
-endif
 MOZ_ASSERT
 (
 (
