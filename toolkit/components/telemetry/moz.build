@@ -845,16 +845,6 @@ counted_unknown_properties
 .
 py
 '
-'
-/
-dom
-/
-base
-/
-UseCountersWorker
-.
-conf
-'
 ]
 if
 CONFIG

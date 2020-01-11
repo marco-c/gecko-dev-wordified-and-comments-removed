@@ -345,12 +345,6 @@ UseCounter
 :
 int16_t
 ;
-enum
-class
-UseCounterWorker
-:
-int16_t
-;
 namespace
 dom
 {
@@ -15059,13 +15053,6 @@ JSObject
 *
 aObject
 UseCounter
-aUseCounter
-)
-;
-void
-SetUseCounter
-(
-UseCounterWorker
 aUseCounter
 )
 ;
