@@ -951,7 +951,7 @@ clearMessagesCache
 }
 this
 .
-emit
+emitForTests
 (
 "
 messages
@@ -1034,7 +1034,7 @@ dispatchPrivateMessagesClear
 ;
 this
 .
-emit
+emitForTests
 (
 "
 private
