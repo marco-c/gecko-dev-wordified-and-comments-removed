@@ -4777,15 +4777,6 @@ dictionary
 )
 ;
 }
-Vector
-<
-BinASTKind
->
-binASTKinds
-(
-cx_
-)
-;
 BinASTSourceMetadata
 *
 metadata
@@ -4795,7 +4786,6 @@ BinASTSourceMetadata
 :
 Create
 (
-binASTKinds
 stringsNumberOfEntries
 )
 ;
