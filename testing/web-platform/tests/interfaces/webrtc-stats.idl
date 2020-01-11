@@ -324,6 +324,12 @@ qpSum
 double
 totalDecodeTime
 ;
+double
+totalInterFrameDelay
+;
+double
+totalSquaredInterFrameDelay
+;
 boolean
 voiceActivityFlag
 ;
