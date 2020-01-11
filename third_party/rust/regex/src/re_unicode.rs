@@ -50,10 +50,10 @@ sync
 Arc
 ;
 use
-memchr
+find_byte
 :
 :
-memchr
+find_byte
 ;
 use
 syntax
@@ -1061,6 +1061,7 @@ i
 limit
 {
 break
+;
 }
 new
 .
@@ -1202,6 +1203,7 @@ i
 limit
 {
 break
+;
 }
 let
 m
@@ -1424,7 +1426,6 @@ s
 e
 )
 |
-{
 Match
 :
 :
@@ -1434,7 +1435,6 @@ text
 s
 e
 )
-}
 )
 }
 pub
@@ -2128,6 +2128,7 @@ n
 {
 return
 None
+;
 }
 self
 .
@@ -3557,7 +3558,7 @@ str
 >
 {
 match
-memchr
+find_byte
 (
 b
 '

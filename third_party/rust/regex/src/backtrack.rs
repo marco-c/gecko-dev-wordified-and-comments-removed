@@ -18,8 +18,8 @@ prog
 :
 :
 {
-Program
 InstPtr
+Program
 }
 ;
 use
@@ -665,16 +665,9 @@ at
 pos
 (
 )
-=
+>
 =
 end
-|
-|
-at
-.
-is_end
-(
-)
 {
 break
 ;
