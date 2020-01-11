@@ -443,14 +443,6 @@ aPattern
 )
 ;
 void
-GetSystemColors
-(
-AndroidSystemColors
-*
-aColors
-)
-;
-void
 GetIconForExtension
 (
 const
