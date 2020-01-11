@@ -29,6 +29,7 @@ autocompleteUpdate
 (
 force
 getterPath
+expressionVars
 )
 {
 return
@@ -351,6 +352,7 @@ frameActorId
 webConsoleFront
 authorizedEvaluations
 force
+expressionVars
 }
 )
 )
@@ -411,6 +413,7 @@ frameActorId
 force
 webConsoleFront
 authorizedEvaluations
+expressionVars
 }
 )
 {
@@ -459,6 +462,7 @@ undefined
 frameActorId
 selectedNodeActor
 authorizedEvaluations
+expressionVars
 )
 .
 then
@@ -478,6 +482,7 @@ force
 frameActorId
 data
 authorizedEvaluations
+expressionVars
 }
 )
 )
