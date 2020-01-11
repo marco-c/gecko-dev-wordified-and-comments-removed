@@ -27,6 +27,13 @@ ScriptLoader
 .
 h
 "
+#
+include
+"
+nsIDocShell
+.
+h
+"
 nsHtml5OplessBuilder
 :
 :
