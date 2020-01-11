@@ -61,6 +61,16 @@ title
 =
 Crash
 Reports
+submit
+-
+all
+-
+button
+-
+label
+=
+Submit
+All
 delete
 -
 button
