@@ -75833,15 +75833,6 @@ ctx
 .
 setTransform
 (
-)
-;
-assert
-throws
-TypeError
-ctx
-.
-setTransform
-(
 1
 )
 ;
