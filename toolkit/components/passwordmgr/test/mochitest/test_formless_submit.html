@@ -391,6 +391,9 @@ pass1
 inputIndexForFormLike
 :
 0
+expectedFormsCount
+:
+1
 /
 /
 Expected
@@ -469,6 +472,9 @@ pass1
 inputIndexForFormLike
 :
 0
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -538,6 +544,9 @@ pass1
 "
 }
 inputIndexForFormLike
+:
+1
+expectedFormsCount
 :
 1
 origin
@@ -636,6 +645,9 @@ pass2
 inputIndexForFormLike
 :
 2
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -757,6 +769,9 @@ pass2
 inputIndexForFormLike
 :
 3
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -915,6 +930,9 @@ pass2
 inputIndexForFormLike
 :
 2
+expectedFormsCount
+:
+2
 origin
 :
 DEFAULT_ORIGIN
@@ -1055,6 +1073,9 @@ pass2
 inputIndexForFormLike
 :
 2
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -1134,10 +1155,13 @@ tc
 )
 ;
 let
-formProcessed
+formsProcessed
 =
 promiseFormsProcessed
 (
+tc
+.
+expectedFormsCount
 )
 ;
 /
@@ -1165,7 +1189,7 @@ tc
 document
 ;
 await
-formProcessed
+formsProcessed
 ;
 /
 /

@@ -392,6 +392,9 @@ password
 pass1
 "
 }
+expectedFormsCount
+:
+1
 /
 /
 Expected
@@ -467,6 +470,9 @@ password
 pass1
 "
 }
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -560,6 +566,9 @@ p2
 pass2
 "
 }
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -678,6 +687,9 @@ p3
 pass2
 "
 }
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -902,6 +914,9 @@ form
 submission
 "
 }
+expectedFormsCount
+:
+2
 origin
 :
 DEFAULT_ORIGIN
@@ -1071,6 +1086,9 @@ p3
 pass2
 "
 }
+expectedFormsCount
+:
+2
 origin
 :
 DEFAULT_ORIGIN
@@ -1206,6 +1224,9 @@ recipepword
 pass2
 "
 }
+expectedFormsCount
+:
+1
 origin
 :
 DEFAULT_ORIGIN
@@ -1355,10 +1376,13 @@ contentWindow
 document
 ;
 let
-formProcessed
+formsProcessed
 =
 promiseFormsProcessed
 (
+tc
+.
+expectedFormsCount
 )
 ;
 /
@@ -1384,7 +1408,7 @@ innerHTML
 testDoc
 ;
 await
-formProcessed
+formsProcessed
 ;
 /
 /
