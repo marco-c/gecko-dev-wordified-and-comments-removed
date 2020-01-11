@@ -321,6 +321,13 @@ HICON
 hIcon
 )
 ;
+private
+:
+bool
+mCanceled
+=
+false
+;
 }
 ;
 #

@@ -204,6 +204,9 @@ bool
 mWasOpened
 ;
 bool
+mCanceled
+;
+bool
 mConnectedParent
 ;
 nsCOMPtr
@@ -307,6 +310,10 @@ nsIRequest
 LOAD_NORMAL
 )
 mWasOpened
+(
+false
+)
+mCanceled
 (
 false
 )
@@ -1345,6 +1352,10 @@ mStatus
 status
 ;
 }
+mCanceled
+=
+true
+;
 return
 NS_OK
 ;
@@ -1363,10 +1374,7 @@ aCanceled
 *
 aCanceled
 =
-NS_FAILED
-(
-mStatus
-)
+mCanceled
 ;
 return
 NS_OK
