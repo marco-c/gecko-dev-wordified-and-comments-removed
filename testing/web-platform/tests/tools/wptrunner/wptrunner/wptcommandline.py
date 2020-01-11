@@ -188,6 +188,8 @@ mozlog
 import
 commandline
     
+from
+.
 import
 products
     

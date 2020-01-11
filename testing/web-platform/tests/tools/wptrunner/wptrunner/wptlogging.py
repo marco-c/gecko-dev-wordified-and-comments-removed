@@ -93,10 +93,13 @@ setup_stdlib_logger
 for
 name
 in
+list
+(
 args
 .
 keys
 (
+)
 )
 :
         
