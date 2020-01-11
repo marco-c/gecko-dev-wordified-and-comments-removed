@@ -2959,6 +2959,15 @@ IsReplaying
 )
 )
 {
+mozilla
+:
+:
+recordreplay
+:
+:
+AutoPassThroughThreadEvents
+pt
+;
 pthread_attr_t
 attr
 ;
