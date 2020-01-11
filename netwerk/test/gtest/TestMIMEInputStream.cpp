@@ -17,14 +17,14 @@ h
 #
 include
 "
-nsCOMPtr
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsIPipe
+nsCOMPtr
 .
 h
 "

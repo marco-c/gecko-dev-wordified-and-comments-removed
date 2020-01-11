@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 zlib
 .
 h

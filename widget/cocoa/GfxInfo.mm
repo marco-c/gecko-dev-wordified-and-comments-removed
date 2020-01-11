@@ -158,13 +158,6 @@ h
 #
 include
 "
-nsICrashReporter
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Preferences

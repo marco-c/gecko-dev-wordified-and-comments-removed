@@ -102,14 +102,14 @@ h
 #
 include
 "
-nsIProperties
+nsIObserverService
 .
 h
 "
 #
 include
 "
-nsIObserverService
+nsIServiceManager
 .
 h
 "

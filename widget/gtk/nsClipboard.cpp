@@ -88,13 +88,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsImageToPixbuf
 .
 h

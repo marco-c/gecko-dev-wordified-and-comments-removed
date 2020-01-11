@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsIPrefService
-.
-h
-"
-#
-include
-"
 nsIHttpAuthenticableChannel
 .
 h

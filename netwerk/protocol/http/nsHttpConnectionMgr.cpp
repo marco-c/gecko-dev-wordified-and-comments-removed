@@ -99,13 +99,6 @@ h
 #
 include
 "
-nsISSLSocketControl
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Services
@@ -194,13 +187,6 @@ include
 mozilla
 /
 Unused
-.
-h
-"
-#
-include
-"
-nsIURI
 .
 h
 "

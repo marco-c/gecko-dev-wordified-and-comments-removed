@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIRequestObserver
-.
-h
-"
-#
-include
-"
 nsIThreadRetargetableStreamListener
 .
 h

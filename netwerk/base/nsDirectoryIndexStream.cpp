@@ -29,13 +29,6 @@ prtime
 h
 "
 #
-include
-"
-nsISimpleEnumerator
-.
-h
-"
-#
 ifdef
 THREADSAFE_I18N
 #

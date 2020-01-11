@@ -5,13 +5,6 @@ _nsMultiplexInputStream_h_
 define
 _nsMultiplexInputStream_h_
 #
-include
-"
-nsIMultiplexInputStream
-.
-h
-"
-#
 define
 NS_MULTIPLEXINPUTSTREAM_CONTRACTID
 \

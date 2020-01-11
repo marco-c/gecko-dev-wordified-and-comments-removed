@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsICancelable
 .
 h

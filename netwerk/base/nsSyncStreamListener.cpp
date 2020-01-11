@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

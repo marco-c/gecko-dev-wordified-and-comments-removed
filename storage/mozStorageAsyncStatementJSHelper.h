@@ -11,13 +11,6 @@ nsIXPCScriptable
 .
 h
 "
-#
-include
-"
-nsIXPConnect
-.
-h
-"
 namespace
 mozilla
 {

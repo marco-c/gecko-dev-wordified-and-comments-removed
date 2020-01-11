@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsScriptSecurityManager
 .
 h
@@ -88,13 +81,6 @@ h
 include
 "
 nsFtpProtocolHandler
-.
-h
-"
-#
-include
-"
-nsIFTPChannel
 .
 h
 "

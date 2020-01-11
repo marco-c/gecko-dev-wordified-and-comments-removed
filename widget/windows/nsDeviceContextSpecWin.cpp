@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -130,13 +123,6 @@ h
 include
 "
 nsIFileStreams
-.
-h
-"
-#
-include
-"
-nsIWindowWatcher
 .
 h
 "

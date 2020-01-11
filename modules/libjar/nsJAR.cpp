@@ -29,7 +29,7 @@ h
 #
 include
 "
-nsIConsoleService
+nsIObserverService
 .
 h
 "

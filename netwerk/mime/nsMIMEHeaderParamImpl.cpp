@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsMIMEHeaderParamImpl
 .
 h

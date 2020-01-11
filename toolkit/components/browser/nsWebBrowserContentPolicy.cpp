@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIContentViewer
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

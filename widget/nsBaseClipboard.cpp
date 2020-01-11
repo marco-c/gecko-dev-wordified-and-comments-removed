@@ -26,13 +26,6 @@ nsXPCOM
 .
 h
 "
-#
-include
-"
-nsISupportsPrimitives
-.
-h
-"
 nsBaseClipboard
 :
 :

@@ -60,13 +60,6 @@ nsIApplicationCache
 .
 h
 "
-#
-include
-"
-nsICacheEntryDoomCallback
-.
-h
-"
 class
 nsIURI
 ;

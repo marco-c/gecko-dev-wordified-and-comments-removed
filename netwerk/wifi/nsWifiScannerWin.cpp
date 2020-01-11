@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

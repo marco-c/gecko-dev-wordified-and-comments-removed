@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -44,13 +37,6 @@ h
 include
 "
 nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
-nsITransferable
 .
 h
 "

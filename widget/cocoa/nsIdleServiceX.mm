@@ -71,13 +71,6 @@ nsObjCExceptions
 h
 "
 #
-include
-"
-nsIServiceManager
-.
-h
-"
-#
 import
 <
 Foundation

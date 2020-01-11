@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsIX509CertDB
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

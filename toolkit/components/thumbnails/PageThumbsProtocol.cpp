@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIFileURL
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

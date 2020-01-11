@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsPrintSettingsX
 .
 h

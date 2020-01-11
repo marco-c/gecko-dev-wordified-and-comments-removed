@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsPSPrinters
 .
 h

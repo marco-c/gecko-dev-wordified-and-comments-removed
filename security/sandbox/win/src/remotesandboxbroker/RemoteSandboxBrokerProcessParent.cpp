@@ -7,13 +7,6 @@ h
 "
 #
 include
-"
-nsIRunnable
-.
-h
-"
-#
-include
 <
 windows
 .

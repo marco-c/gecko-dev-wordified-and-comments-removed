@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsICookieService
 .
 h
@@ -102,13 +95,6 @@ h
 include
 "
 nsIPrefBranch
-.
-h
-"
-#
-include
-"
-nsIPrefService
 .
 h
 "

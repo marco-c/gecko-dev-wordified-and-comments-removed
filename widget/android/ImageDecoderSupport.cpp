@@ -22,6 +22,13 @@ h
 #
 include
 "
+imgINotificationObserver
+.
+h
+"
+#
+include
+"
 gfxUtils
 .
 h

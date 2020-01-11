@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 nsIFileStreams
 .
 h
@@ -122,7 +115,7 @@ h
 #
 include
 "
-nsISupportsPrimitives
+nsComponentManagerUtils
 .
 h
 "

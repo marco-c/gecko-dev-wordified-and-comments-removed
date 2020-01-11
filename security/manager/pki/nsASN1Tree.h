@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIX509Cert
-.
-h
-"
-#
-include
-"
 nsIASN1Tree
 .
 h
@@ -36,13 +29,6 @@ h
 include
 "
 nsIASN1Sequence
-.
-h
-"
-#
-include
-"
-nsITreeView
 .
 h
 "

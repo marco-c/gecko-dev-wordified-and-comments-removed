@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIPrintingPromptService
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -44,6 +37,9 @@ nsIDOMWindow
 ;
 class
 nsIObserver
+;
+class
+nsIPrintSettings
 ;
 class
 nsPrintProgress

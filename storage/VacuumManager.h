@@ -21,13 +21,6 @@ h
 #
 include
 "
-mozIStorageStatementCallback
-.
-h
-"
-#
-include
-"
 mozIStorageVacuumParticipant
 .
 h

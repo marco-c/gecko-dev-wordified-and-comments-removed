@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIApplicationCacheContainer
-.
-h
-"
-#
-include
-"
 nsIChannel
 .
 h

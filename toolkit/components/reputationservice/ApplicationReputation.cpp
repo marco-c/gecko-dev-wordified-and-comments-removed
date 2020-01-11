@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIPrefService
-.
-h
-"
-#
-include
-"
 nsISimpleEnumerator
 .
 h

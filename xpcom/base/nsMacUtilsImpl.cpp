@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIProperties
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

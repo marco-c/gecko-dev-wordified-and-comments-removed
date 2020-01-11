@@ -229,13 +229,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsMenuUtilsX
 .
 h

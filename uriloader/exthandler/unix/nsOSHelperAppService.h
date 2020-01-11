@@ -26,6 +26,9 @@ nsCOMPtr
 h
 "
 class
+nsIFileInputStream
+;
+class
 nsILineInputStream
 ;
 class

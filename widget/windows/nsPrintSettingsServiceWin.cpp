@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIWebBrowserPrint
 .
 h

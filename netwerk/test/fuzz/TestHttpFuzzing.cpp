@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsIProxiedProtocolHandler
 .
 h

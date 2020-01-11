@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsICategoryManager
-.
-h
-"
-#
-include
-"
 nsKeyModule
 .
 h

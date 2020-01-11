@@ -50,6 +50,13 @@ Telemetry
 .
 h
 "
+#
+include
+"
+mozIStorageStatementCallback
+.
+h
+"
 namespace
 mozilla
 {

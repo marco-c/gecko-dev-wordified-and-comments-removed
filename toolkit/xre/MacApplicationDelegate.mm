@@ -235,13 +235,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

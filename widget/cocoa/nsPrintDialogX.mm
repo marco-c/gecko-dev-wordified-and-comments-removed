@@ -174,13 +174,6 @@ h
 #
 include
 "
-nsIWebProgressListener
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

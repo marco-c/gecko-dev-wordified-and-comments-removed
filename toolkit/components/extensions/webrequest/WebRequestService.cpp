@@ -23,13 +23,6 @@ ClearOnShutdown
 .
 h
 "
-#
-include
-"
-nsIChannel
-.
-h
-"
 using
 namespace
 mozilla

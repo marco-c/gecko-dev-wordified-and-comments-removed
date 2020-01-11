@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIStringBundle
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h

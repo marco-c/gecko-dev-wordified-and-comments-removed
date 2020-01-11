@@ -34,13 +34,6 @@ h
 "
 #
 include
-"
-nsISupportsPrimitives
-.
-h
-"
-#
-include
 <
 windows
 .

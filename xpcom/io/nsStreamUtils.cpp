@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 nsICloneableInputStream
 .
 h

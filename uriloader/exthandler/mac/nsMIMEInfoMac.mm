@@ -103,6 +103,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsObjCExceptions
 .
 h
@@ -118,13 +125,6 @@ h
 include
 "
 nsILocalFileMac
-.
-h
-"
-#
-include
-"
-nsIFileURL
 .
 h
 "

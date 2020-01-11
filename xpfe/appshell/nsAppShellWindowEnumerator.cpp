@@ -33,13 +33,6 @@ h
 #
 include
 "
-nsIFactory
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestor
 .
 h

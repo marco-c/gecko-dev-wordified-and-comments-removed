@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsITouchBarUpdater
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

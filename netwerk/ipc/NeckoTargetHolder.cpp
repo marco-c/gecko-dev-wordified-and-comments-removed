@@ -12,13 +12,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsILoadInfo
-.
-h
-"
 namespace
 mozilla
 {

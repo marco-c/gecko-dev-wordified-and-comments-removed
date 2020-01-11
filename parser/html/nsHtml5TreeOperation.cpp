@@ -210,13 +210,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h
@@ -225,13 +218,6 @@ h
 include
 "
 nsIScriptElement
-.
-h
-"
-#
-include
-"
-nsIServiceManager
 .
 h
 "

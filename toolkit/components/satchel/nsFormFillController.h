@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

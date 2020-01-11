@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsDataHashtable
 .
 h

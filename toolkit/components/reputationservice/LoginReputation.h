@@ -43,13 +43,6 @@ nsISupportsImpl
 .
 h
 "
-#
-include
-"
-nsIURIClassifier
-.
-h
-"
 class
 LoginWhitelist
 ;

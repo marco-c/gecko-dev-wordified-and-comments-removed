@@ -26,14 +26,14 @@ h
 #
 include
 "
-nsISupportsPrimitives
+nsICategoryManager
 .
 h
 "
 #
 include
 "
-nsIStringEnumerator
+nsISupportsPrimitives
 .
 h
 "

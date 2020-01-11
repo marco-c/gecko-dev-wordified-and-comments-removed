@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsIHttpChannelInternal
-.
-h
-"
-#
-include
-"
 nsIInputStream
 .
 h

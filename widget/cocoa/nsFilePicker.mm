@@ -133,13 +133,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h
@@ -148,13 +141,6 @@ h
 include
 "
 nsILocalFileMac
-.
-h
-"
-#
-include
-"
-nsIURL
 .
 h
 "

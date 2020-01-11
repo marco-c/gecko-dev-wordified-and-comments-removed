@@ -117,13 +117,6 @@ h
 #
 include
 "
-nsIXULAppInfo
-.
-h
-"
-#
-include
-"
 nsNSSHelper
 .
 h

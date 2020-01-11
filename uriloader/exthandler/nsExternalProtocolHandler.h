@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIExternalProtocolService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

@@ -108,13 +108,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h

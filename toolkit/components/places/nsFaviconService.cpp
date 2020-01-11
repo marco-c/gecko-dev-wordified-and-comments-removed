@@ -114,6 +114,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h

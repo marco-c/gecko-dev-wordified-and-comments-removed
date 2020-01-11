@@ -79,13 +79,6 @@ JSONWriter
 .
 h
 "
-#
-include
-"
-nsISupportsPrimitives
-.
-h
-"
 NS_IMPL_ISUPPORTS
 (
 nsMacPreferencesReader

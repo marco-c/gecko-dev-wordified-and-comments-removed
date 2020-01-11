@@ -264,13 +264,6 @@ h
 #
 include
 "
-nsICategoryManager
-.
-h
-"
-#
-include
-"
 nsMultiplexInputStream
 .
 h

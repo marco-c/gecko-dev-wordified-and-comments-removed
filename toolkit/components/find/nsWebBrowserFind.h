@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIFind
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

@@ -1,7 +1,7 @@
 #
 include
 "
-nsIObserver
+nsAString
 .
 h
 "

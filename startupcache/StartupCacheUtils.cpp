@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIStringStream
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 prio
 .
 h

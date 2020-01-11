@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsIPipe
-.
-h
-"
-#
-include
-"
 prerror
 .
 h

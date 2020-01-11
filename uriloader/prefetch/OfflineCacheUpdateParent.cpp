@@ -87,13 +87,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

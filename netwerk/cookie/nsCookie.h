@@ -54,6 +54,13 @@ NeckoChannelParams
 .
 h
 "
+#
+include
+"
+nsIMemoryReporter
+.
+h
+"
 using
 mozilla
 :

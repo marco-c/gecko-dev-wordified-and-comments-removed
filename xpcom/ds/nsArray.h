@@ -7,13 +7,6 @@ nsArray_h__
 #
 include
 "
-nsIArrayExtensions
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h

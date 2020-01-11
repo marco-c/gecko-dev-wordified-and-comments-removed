@@ -238,13 +238,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 prproces
 .
 h

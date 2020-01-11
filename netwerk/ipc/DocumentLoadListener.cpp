@@ -146,13 +146,6 @@ h
 #
 include
 "
-nsIHttpProtocolHandler
-.
-h
-"
-#
-include
-"
 nsISecureBrowserUI
 .
 h

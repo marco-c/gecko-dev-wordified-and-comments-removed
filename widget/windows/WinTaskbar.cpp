@@ -59,13 +59,6 @@ h
 #
 include
 <
-nsIObserverService
-.
-h
->
-#
-include
-<
 nsServiceManagerUtils
 .
 h

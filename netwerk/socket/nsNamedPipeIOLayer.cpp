@@ -90,13 +90,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsNamedPipeIOLayer
 .
 h

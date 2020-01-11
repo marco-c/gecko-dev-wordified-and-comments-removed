@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 mozStorageConnection
 .
 h

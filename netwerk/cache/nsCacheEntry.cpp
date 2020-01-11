@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsICacheService
-.
-h
-"
-#
-include
-"
 nsCacheService
 .
 h

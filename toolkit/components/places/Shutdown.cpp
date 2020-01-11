@@ -14,6 +14,13 @@ Unused
 .
 h
 "
+#
+include
+"
+nsIWritablePropertyBag2
+.
+h
+"
 namespace
 mozilla
 {

@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

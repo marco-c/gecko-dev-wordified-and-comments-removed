@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsIBaseWindow
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -48,6 +41,13 @@ h
 include
 "
 nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
+nsIPrintSettings
 .
 h
 "

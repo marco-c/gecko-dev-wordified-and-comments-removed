@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h

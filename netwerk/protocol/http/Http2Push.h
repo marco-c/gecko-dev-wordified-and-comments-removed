@@ -55,13 +55,6 @@ h
 #
 include
 "
-nsILoadGroup
-.
-h
-"
-#
-include
-"
 nsIRequestContext
 .
 h

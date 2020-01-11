@@ -19,6 +19,13 @@ mozIStorageResultSet
 .
 h
 "
+#
+include
+"
+nsComponentManagerUtils
+.
+h
+"
 class
 Spinner
 :

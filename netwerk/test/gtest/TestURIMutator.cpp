@@ -31,13 +31,6 @@ h
 #
 include
 "
-nsIURIMutator
-.
-h
-"
-#
-include
-"
 nsThreadPool
 .
 h

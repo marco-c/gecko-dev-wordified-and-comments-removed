@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsIConsoleService
 .
 h
@@ -39,6 +46,13 @@ h
 include
 "
 nsITelemetry
+.
+h
+"
+#
+include
+"
+nsServiceManagerUtils
 .
 h
 "

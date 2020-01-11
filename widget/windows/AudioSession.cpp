@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIXULAppInfo
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

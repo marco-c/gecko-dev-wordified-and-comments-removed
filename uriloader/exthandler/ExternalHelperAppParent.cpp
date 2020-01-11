@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIBrowserDOMWindow
-.
-h
-"
-#
-include
-"
 nsStringStream
 .
 h

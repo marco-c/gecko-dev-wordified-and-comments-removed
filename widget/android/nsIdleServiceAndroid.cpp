@@ -5,13 +5,6 @@ nsIdleServiceAndroid
 .
 h
 "
-#
-include
-"
-nsIServiceManager
-.
-h
-"
 bool
 nsIdleServiceAndroid
 :

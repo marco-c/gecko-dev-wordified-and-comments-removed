@@ -62,13 +62,6 @@ h
 #
 include
 "
-nsITelemetry
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsIFTPChannel
-.
-h
-"
-#
-include
-"
 nsIRequest
 .
 h

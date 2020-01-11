@@ -49,6 +49,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h

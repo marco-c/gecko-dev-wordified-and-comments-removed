@@ -103,13 +103,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h

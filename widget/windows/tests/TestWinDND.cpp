@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIFileURL
-.
-h
-"
-#
-include
-"
 nsITransferable
 .
 h

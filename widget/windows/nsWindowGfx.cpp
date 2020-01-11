@@ -190,13 +190,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

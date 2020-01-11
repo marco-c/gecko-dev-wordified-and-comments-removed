@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

@@ -17,6 +17,13 @@ h
 #
 include
 "
+nsIPrintProgressParams
+.
+h
+"
+#
+include
+"
 PrintProgressDialogChild
 .
 h

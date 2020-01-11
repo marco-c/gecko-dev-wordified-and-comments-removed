@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsAutoPtr
 .
 h

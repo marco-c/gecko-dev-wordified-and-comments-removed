@@ -1,13 +1,6 @@
 #
 include
 "
-nsIModule
-.
-h
-"
-#
-include
-"
 nsIGenericFactory
 .
 h

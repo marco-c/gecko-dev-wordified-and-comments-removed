@@ -64,13 +64,6 @@ h
 #
 include
 "
-nsISeekableStream
-.
-h
-"
-#
-include
-"
 nsIPipe
 .
 h

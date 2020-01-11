@@ -30,13 +30,6 @@ h
 #
 include
 "
-nsIChannel
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

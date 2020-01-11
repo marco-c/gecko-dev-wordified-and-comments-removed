@@ -61,13 +61,6 @@ h
 #
 include
 "
-nsPIPromptService
-.
-h
-"
-#
-include
-"
 nsIWindowWatcher
 .
 h

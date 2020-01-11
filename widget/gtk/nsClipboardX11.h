@@ -6,13 +6,6 @@ define
 __nsClipboardX11_h_
 #
 include
-"
-nsIClipboard
-.
-h
-"
-#
-include
 <
 gtk
 /

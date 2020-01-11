@@ -47,6 +47,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsEmbedCID
 .
 h
@@ -69,13 +76,6 @@ h
 include
 "
 mozStoragePrivateHelpers
-.
-h
-"
-#
-include
-"
-nsIXPConnect
 .
 h
 "

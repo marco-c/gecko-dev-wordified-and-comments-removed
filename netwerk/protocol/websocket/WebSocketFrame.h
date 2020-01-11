@@ -7,6 +7,13 @@ mozilla_net_WebSocketFrame_h
 #
 include
 "
+nsIWebSocketEventService
+.
+h
+"
+#
+include
+"
 nsAutoPtr
 .
 h

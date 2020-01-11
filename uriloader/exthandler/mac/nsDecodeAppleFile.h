@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsILocalFileMac
-.
-h
-"
-#
-include
-"
 nsIOutputStream
 .
 h

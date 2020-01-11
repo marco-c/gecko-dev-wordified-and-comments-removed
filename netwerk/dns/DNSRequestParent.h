@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsIDNSService
-.
-h
-"
-#
-include
-"
 nsIDNSListener
 .
 h

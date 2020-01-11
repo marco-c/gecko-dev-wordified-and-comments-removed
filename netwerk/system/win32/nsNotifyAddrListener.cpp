@@ -135,6 +135,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

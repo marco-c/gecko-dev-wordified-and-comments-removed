@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsIAsyncShutdown
-.
-h
-"
-#
-include
-"
 mozilla
 /
 storage
@@ -143,6 +136,12 @@ places
 -
 shutdown
 "
+class
+mozIStorageService
+;
+class
+nsIAsyncShutdownClient
+;
 class
 nsIRunnable
 ;

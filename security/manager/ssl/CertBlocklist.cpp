@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsIX509Cert
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h

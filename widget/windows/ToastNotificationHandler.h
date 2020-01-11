@@ -38,13 +38,6 @@ h
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

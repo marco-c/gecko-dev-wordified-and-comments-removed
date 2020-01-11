@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsITaggingService
-.
-h
-"
-#
-include
-"
 nsAnnotationService
 .
 h

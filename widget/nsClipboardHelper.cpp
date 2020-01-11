@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIClipboard
 .
 h

@@ -63,13 +63,6 @@ h
 #
 include
 "
-nsIAsyncVerifyRedirectCallback
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

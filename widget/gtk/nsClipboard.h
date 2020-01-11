@@ -20,13 +20,6 @@ h
 "
 #
 include
-"
-nsIBinaryOutputStream
-.
-h
-"
-#
-include
 <
 gtk
 /

@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsIServiceManager
 .
 h

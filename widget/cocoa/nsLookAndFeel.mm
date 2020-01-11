@@ -110,13 +110,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsNativeThemeColors
 .
 h

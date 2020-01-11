@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

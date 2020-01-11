@@ -50,13 +50,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsIHttpChannel
-.
-h
-"
 namespace
 mozilla
 {

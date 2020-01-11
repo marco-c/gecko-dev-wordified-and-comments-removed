@@ -30,13 +30,6 @@ nsIInputStream
 .
 h
 "
-#
-include
-"
-nsIStreamTransportService
-.
-h
-"
 static
 NS_DEFINE_CID
 (

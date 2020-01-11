@@ -311,13 +311,6 @@ endif
 #
 include
 "
-nsIException
-.
-h
-"
-#
-include
-"
 nsThread
 .
 h

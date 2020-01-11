@@ -209,13 +209,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsContentPolicyUtils
 .
 h
@@ -362,13 +355,6 @@ h
 include
 "
 InterceptedChannel
-.
-h
-"
-#
-include
-"
-mozIThirdPartyUtil
 .
 h
 "

@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIOutputStream
-.
-h
-"
-#
-include
-"
 nsIFile
 .
 h

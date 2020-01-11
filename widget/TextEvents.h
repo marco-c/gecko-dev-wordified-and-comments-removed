@@ -115,13 +115,6 @@ h
 #
 include
 "
-nsISelectionController
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h

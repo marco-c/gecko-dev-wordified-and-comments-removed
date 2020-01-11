@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsToolkit
 .
 h

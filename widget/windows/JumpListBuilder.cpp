@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsWidgetsCID
 .
 h
@@ -65,13 +58,6 @@ h
 include
 "
 nsDirectoryServiceUtils
-.
-h
-"
-#
-include
-"
-nsISimpleEnumerator
 .
 h
 "

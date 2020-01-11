@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsICrashReporter
-.
-h
-"
-#
-include
-"
 nsVersionComparator
 .
 h
@@ -65,13 +58,6 @@ h
 include
 "
 AndroidBridge
-.
-h
-"
-#
-include
-"
-nsIWindowWatcher
 .
 h
 "

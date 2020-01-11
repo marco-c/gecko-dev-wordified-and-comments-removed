@@ -37,13 +37,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

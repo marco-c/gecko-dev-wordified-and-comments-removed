@@ -134,14 +134,14 @@ h
 #
 include
 "
-nsNetCID
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsIEventTarget
+nsNetCID
 .
 h
 "

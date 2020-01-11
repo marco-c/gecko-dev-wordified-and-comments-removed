@@ -40,13 +40,6 @@ h
 #
 include
 "
-nsIURIMutator
-.
-h
-"
-#
-include
-"
 nsINetworkLinkService
 .
 h

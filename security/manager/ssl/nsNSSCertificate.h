@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIX509CertDB
-.
-h
-"
-#
-include
-"
 nsSimpleEnumerator
 .
 h

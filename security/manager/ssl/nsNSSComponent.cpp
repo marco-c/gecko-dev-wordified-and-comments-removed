@@ -258,13 +258,6 @@ h
 #
 include
 "
-nsISiteSecurityService
-.
-h
-"
-#
-include
-"
 nsITokenPasswordDialogs
 .
 h

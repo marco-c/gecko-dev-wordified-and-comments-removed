@@ -112,13 +112,6 @@ nsMIMEInfoUIKit
 .
 h
 "
-#
-include
-"
-nsIFileURL
-.
-h
-"
 NS_IMETHODIMP
 nsMIMEInfoUIKit
 :

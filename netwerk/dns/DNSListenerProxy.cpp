@@ -16,13 +16,6 @@ nsICancelable
 .
 h
 "
-#
-include
-"
-nsIEventTarget
-.
-h
-"
 namespace
 mozilla
 {

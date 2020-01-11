@@ -5,13 +5,6 @@ _nsMIMEInputStream_h_
 define
 _nsMIMEInputStream_h_
 #
-include
-"
-nsIMIMEInputStream
-.
-h
-"
-#
 define
 NS_MIMEINPUTSTREAM_CONTRACTID
 "
