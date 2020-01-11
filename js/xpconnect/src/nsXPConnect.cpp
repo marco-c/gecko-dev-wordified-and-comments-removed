@@ -3874,6 +3874,7 @@ sandbox
 source
 filenameStr
 1
+true
 rval
 )
 ;
