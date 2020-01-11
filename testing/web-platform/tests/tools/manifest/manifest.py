@@ -154,7 +154,7 @@ fast_json
 json
 CURRENT_VERSION
 =
-6
+7
 class
 ManifestError
 (
@@ -2793,17 +2793,6 @@ items
 ]
 )
 :
-            
-if
-test_type
-=
-=
-"
-stub
-"
-:
-                
-continue
             
 if
 test_type
