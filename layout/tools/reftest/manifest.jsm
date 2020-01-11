@@ -4220,6 +4220,14 @@ g
 .
 browserIsRemote
 ;
+sandbox
+.
+browserIsFission
+=
+g
+.
+browserIsFission
+;
 try
 {
 sandbox

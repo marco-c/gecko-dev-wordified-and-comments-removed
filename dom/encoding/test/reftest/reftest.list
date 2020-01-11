@@ -24,6 +24,12 @@ skiaContent
 -
 10
 )
+fails
+-
+if
+(
+browserIsFission
+)
 =
 =
 bug863728
@@ -77,6 +83,12 @@ skiaContent
 0
 -
 10
+)
+fails
+-
+if
+(
+browserIsFission
 )
 =
 =
