@@ -88,12 +88,6 @@ readonly
 attribute
 unsigned
 long
-corruptedVideoFrames
-;
-readonly
-attribute
-unsigned
-long
 droppedVideoFrames
 ;
 readonly
