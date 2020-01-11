@@ -311,7 +311,7 @@ FunctionToStringCache
 struct
 Entry
 {
-JSScript
+BaseScript
 *
 script
 ;
@@ -322,7 +322,7 @@ string
 void
 set
 (
-JSScript
+BaseScript
 *
 scriptArg
 JSString
@@ -408,7 +408,7 @@ JSString
 *
 lookup
 (
-JSScript
+BaseScript
 *
 script
 )
@@ -418,7 +418,7 @@ MOZ_ALWAYS_INLINE
 void
 put
 (
-JSScript
+BaseScript
 *
 script
 JSString

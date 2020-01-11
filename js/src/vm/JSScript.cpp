@@ -11184,7 +11184,7 @@ sourceEnd
 ;
 }
 bool
-JSScript
+BaseScript
 :
 :
 appendSourceDataForToString
