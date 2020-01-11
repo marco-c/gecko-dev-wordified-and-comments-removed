@@ -101,6 +101,11 @@ PropTypes
 object
 .
 isRequired
+parameterNames
+:
+PropTypes
+.
+array
 onViewSourceInDebugger
 :
 PropTypes
@@ -283,7 +288,7 @@ props
 .
 renderParams
 (
-grip
+props
 )
 "
 )
@@ -681,7 +686,7 @@ name
 function
 renderParams
 (
-grip
+props
 )
 {
 const
@@ -692,7 +697,7 @@ parameterNames
 ]
 }
 =
-grip
+props
 ;
 return
 parameterNames
