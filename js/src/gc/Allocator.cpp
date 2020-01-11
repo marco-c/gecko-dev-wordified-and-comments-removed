@@ -2290,7 +2290,7 @@ AllocKind
 thingKind
 )
 {
-void
+TenuredCell
 *
 cell
 =
@@ -2349,13 +2349,7 @@ GC
 }
 }
 return
-TenuredCell
-:
-:
-fromPointer
-(
 cell
-)
 ;
 }
 void
