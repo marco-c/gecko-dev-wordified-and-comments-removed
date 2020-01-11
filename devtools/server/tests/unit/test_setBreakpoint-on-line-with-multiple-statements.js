@@ -125,18 +125,6 @@ packet
 .
 why
 ;
-const
-environment
-=
-await
-packet
-.
-frame
-.
-getEnvironment
-(
-)
-;
 Assert
 .
 equal
@@ -202,6 +190,8 @@ line
 const
 variables
 =
+frame
+.
 environment
 .
 bindings

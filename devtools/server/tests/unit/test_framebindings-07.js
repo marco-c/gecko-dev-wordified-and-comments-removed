@@ -91,14 +91,11 @@ packet
 const
 environment
 =
-await
 packet
 .
 frame
 .
-getEnvironment
-(
-)
+environment
 ;
 Assert
 .

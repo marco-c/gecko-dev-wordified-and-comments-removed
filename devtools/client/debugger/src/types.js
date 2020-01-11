@@ -676,7 +676,6 @@ source
 ?
 Source
 scope
-?
 :
 Scope
 this
