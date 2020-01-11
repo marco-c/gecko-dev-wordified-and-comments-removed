@@ -532,6 +532,7 @@ useSelector
 of
 [
 false
+true
 ]
 )
 {
