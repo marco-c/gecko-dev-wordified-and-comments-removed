@@ -375,6 +375,15 @@ aPrivateBrowsing
 )
 ;
 bool
+IsExcludedFromTRR_unlocked
+(
+const
+nsACString
+&
+aHost
+)
+;
+bool
 mInitialized
 ;
 Atomic
