@@ -251,12 +251,6 @@ GetAvailableScrollingDirections
 )
 const
 ;
-uint32_t
-GetAvailableVisualScrollingDirections
-(
-)
-const
-;
 virtual
 uint32_t
 GetAvailableScrollingDirectionsForUserInputEvents
