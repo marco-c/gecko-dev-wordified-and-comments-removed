@@ -998,6 +998,10 @@ mApplyConversion
 (
 true
 )
+mHasAppliedConversion
+(
+false
+)
 mIsPending
 (
 false

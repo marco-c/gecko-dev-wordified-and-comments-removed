@@ -9540,6 +9540,10 @@ mCompressListener
 =
 listener
 ;
+mHasAppliedConversion
+=
+true
+;
 }
 }
 if
