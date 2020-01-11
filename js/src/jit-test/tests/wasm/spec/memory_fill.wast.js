@@ -1895,7 +1895,7 @@ x0b
 "
 )
 ;
-run
+assert_trap
 (
 (
 )

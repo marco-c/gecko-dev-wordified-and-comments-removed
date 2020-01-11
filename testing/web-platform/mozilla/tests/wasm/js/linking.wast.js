@@ -4695,7 +4695,7 @@ g
 5
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -5047,7 +5047,7 @@ call
 )
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -5232,7 +5232,7 @@ call
 0
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -6352,7 +6352,7 @@ x61
 "
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -6942,7 +6942,7 @@ load
 0
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
@@ -7063,7 +7063,7 @@ load
 97
 )
 ;
-assert_unlinkable
+assert_uninstantiable
 (
 "
 \
