@@ -105,6 +105,9 @@ in
 nsIFile
 aIconFile
 in
+AString
+aAppUserModelId
+in
 nsIFile
 aTarget
 )
