@@ -3929,6 +3929,9 @@ defined
 __clang__
 )
 #
+ifndef
+MOZ_CODE_COVERAGE
+#
 if
 defined
 (
@@ -3968,6 +3971,8 @@ MovEaxJump
 "
 NoStubAddressCheck
 )
+#
+endif
 #
 endif
 #
