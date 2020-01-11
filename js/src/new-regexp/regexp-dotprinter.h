@@ -4,17 +4,6 @@ V8_REGEXP_REGEXP_DOTPRINTER_H_
 #
 define
 V8_REGEXP_REGEXP_DOTPRINTER_H_
-#
-include
-"
-src
-/
-common
-/
-globals
-.
-h
-"
 namespace
 v8
 {
