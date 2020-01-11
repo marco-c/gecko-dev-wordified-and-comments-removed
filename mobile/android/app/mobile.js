@@ -55,7 +55,7 @@ content
 /
 geckoview
 .
-xul
+xhtml
 "
 )
 ;
