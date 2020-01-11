@@ -281,7 +281,6 @@ emitLoopHead
 (
 bce_
 condPos
-SRC_FOR
 )
 )
 {
