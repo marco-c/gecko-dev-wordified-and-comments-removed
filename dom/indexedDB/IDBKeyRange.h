@@ -213,8 +213,10 @@ JS
 Value
 >
 aVal
+RefPtr
+<
 IDBKeyRange
-*
+>
 *
 aKeyRange
 ErrorResult
@@ -223,7 +225,8 @@ aRv
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBKeyRange
 >
@@ -239,7 +242,8 @@ aKeyRange
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBKeyRange
 >
@@ -266,7 +270,8 @@ aRv
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBKeyRange
 >
@@ -295,7 +300,8 @@ aRv
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBKeyRange
 >
@@ -324,7 +330,8 @@ aRv
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBKeyRange
 >
@@ -643,7 +650,8 @@ IDBLocaleAwareKeyRange
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBLocaleAwareKeyRange
 >
