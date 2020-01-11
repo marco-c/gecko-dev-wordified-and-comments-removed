@@ -3628,10 +3628,12 @@ threadLocal
 >
 mIndexedDBThreadLocal
 =
-newIDBThreadLocal
-.
-forget
+std
+:
+:
+move
 (
+newIDBThreadLocal
 )
 ;
 }
