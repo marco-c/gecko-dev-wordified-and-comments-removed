@@ -25,6 +25,9 @@ case
 mod
 check
 ;
+mod
+symbol
+;
 #
 [
 derive

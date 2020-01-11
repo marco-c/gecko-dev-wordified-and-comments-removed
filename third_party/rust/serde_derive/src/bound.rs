@@ -98,7 +98,6 @@ map
 param
 |
 match
-*
 param
 {
 syn
@@ -109,7 +108,6 @@ GenericParam
 :
 Type
 (
-ref
 param
 )
 =
@@ -382,6 +380,7 @@ let
 variants
 =
 match
+&
 cont
 .
 data
@@ -391,7 +390,6 @@ Data
 :
 Enum
 (
-ref
 variants
 )
 =
@@ -611,10 +609,10 @@ Type
 :
 Path
 (
-ref
 ty
 )
 =
+&
 field
 .
 ty
@@ -628,7 +626,6 @@ Pair
 :
 Punctuated
 (
-ref
 t
 _
 )
@@ -640,7 +637,11 @@ path
 .
 segments
 .
-first
+pairs
+(
+)
+.
+next
 (
 )
 {
@@ -714,10 +715,6 @@ last
 {
 if
 seg
-.
-into_value
-(
-)
 .
 ident
 =
@@ -873,6 +870,7 @@ new
 }
 ;
 match
+&
 cont
 .
 data
@@ -882,7 +880,6 @@ Data
 :
 Enum
 (
-ref
 variants
 )
 =
@@ -952,7 +949,6 @@ Data
 Struct
 (
 _
-ref
 fields
 )
 =
@@ -1474,6 +1470,8 @@ param
 |
 {
 match
+&
+mut
 param
 {
 syn
@@ -1484,8 +1482,6 @@ GenericParam
 :
 Lifetime
 (
-ref
-mut
 param
 )
 =
@@ -1513,8 +1509,6 @@ GenericParam
 :
 Type
 (
-ref
-mut
 param
 )
 =
@@ -1694,7 +1688,6 @@ map
 param
 |
 match
-*
 param
 {
 syn
@@ -1705,7 +1698,6 @@ GenericParam
 :
 Type
 (
-ref
 param
 )
 =
@@ -1760,7 +1752,6 @@ GenericParam
 :
 Lifetime
 (
-ref
 param
 )
 =
