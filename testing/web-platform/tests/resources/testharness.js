@@ -3527,6 +3527,19 @@ length
 0
 )
 {
+if
+(
+tests
+.
+status
+.
+status
+=
+=
+=
+null
+)
+{
 tests
 .
 status
@@ -3558,6 +3571,7 @@ any
 tests
 "
 ;
+}
 tests
 .
 complete
