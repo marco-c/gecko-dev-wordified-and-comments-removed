@@ -808,7 +808,7 @@ accumulations
 parent
 and
 content
-chldren
+children
 )
 are
 aggregated
@@ -1958,7 +1958,7 @@ scalars
 Defines
 a
 case
-insensititve
+insensitive
 list
 of
 allowed
