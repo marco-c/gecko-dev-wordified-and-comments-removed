@@ -278,9 +278,6 @@ bool
 mMatchCase
 ;
 bool
-mMatchDiacritics
-;
-bool
 mSearchSubFrames
 ;
 bool

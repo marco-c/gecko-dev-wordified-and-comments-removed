@@ -6451,16 +6451,6 @@ iteratorTimeout
 pref
 (
 "
-findbar
-.
-matchdiacritics
-"
-0
-)
-;
-pref
-(
-"
 gfx
 .
 use_text_smoothing_setting
