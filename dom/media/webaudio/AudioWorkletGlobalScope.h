@@ -57,13 +57,7 @@ class
 AudioWorkletProcessorConstructor
 ;
 class
-MessagePort
-;
-class
 StructuredCloneHolder
-;
-class
-UniqueMessagePortId
 ;
 class
 AudioWorkletGlobalScope
@@ -165,9 +159,6 @@ StructuredCloneHolder
 *
 >
 aSerializedOptions
-UniqueMessagePortId
-&
-aPortIdentifier
 JS
 :
 :
@@ -229,12 +220,6 @@ NodeNameToProcessorDefinitionMap
 ;
 NodeNameToProcessorDefinitionMap
 mNameToProcessorMap
-;
-RefPtr
-<
-MessagePort
->
-mPortForProcessor
 ;
 }
 ;

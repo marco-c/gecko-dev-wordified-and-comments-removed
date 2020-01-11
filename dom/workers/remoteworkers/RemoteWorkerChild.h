@@ -117,9 +117,6 @@ class
 ServiceWorkerOp
 ;
 class
-UniqueMessagePortId
-;
-class
 WeakWorkerRef
 ;
 class
@@ -220,7 +217,8 @@ aCx
 WorkerPrivate
 *
 aWorkerPrivate
-UniqueMessagePortId
+const
+MessagePortIdentifier
 &
 aPortIdentifier
 )
