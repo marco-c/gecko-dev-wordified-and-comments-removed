@@ -2811,6 +2811,15 @@ str
 >
 )
 ;
+trivial_to_computed_value
+!
+(
+crate
+:
+:
+OwnedStr
+)
+;
 pub
 type
 Number

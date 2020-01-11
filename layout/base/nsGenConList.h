@@ -62,7 +62,10 @@ StyleContentType
 mozilla
 :
 :
-StyleContentType
+StyleContentItem
+:
+:
+Tag
 ;
 nsIFrame
 *

@@ -86,7 +86,7 @@ Content
 generics
 :
 :
-Content
+GenericContent
 <
 ComputedImageUrl
 >
@@ -98,7 +98,7 @@ ContentItem
 generics
 :
 :
-ContentItem
+GenericContentItem
 <
 ComputedImageUrl
 >

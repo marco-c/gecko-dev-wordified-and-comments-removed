@@ -742,7 +742,9 @@ gecko
 )
 ]
 pub
-use
+type
+Prefix
+=
 crate
 :
 :
@@ -750,8 +752,6 @@ gecko_string_cache
 :
 :
 Atom
-as
-Prefix
 ;
 #
 [
@@ -765,7 +765,9 @@ gecko
 )
 ]
 pub
-use
+type
+LocalName
+=
 crate
 :
 :
@@ -773,8 +775,6 @@ gecko_string_cache
 :
 :
 Atom
-as
-LocalName
 ;
 #
 [

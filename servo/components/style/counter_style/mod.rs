@@ -2588,6 +2588,13 @@ ToCss
 ToShmem
 )
 ]
+#
+[
+repr
+(
+u8
+)
+]
 pub
 enum
 Symbol
@@ -3454,6 +3461,13 @@ PartialEq
 ToComputedValue
 ToCss
 ToShmem
+)
+]
+#
+[
+repr
+(
+C
 )
 ]
 pub
