@@ -140,6 +140,8 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+PAGE_2
 )
 ;
 ok
