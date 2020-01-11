@@ -4218,7 +4218,7 @@ array
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 var
 R
 =
@@ -4292,7 +4292,7 @@ k
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 R
 =
 ToString

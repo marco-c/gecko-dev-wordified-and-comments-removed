@@ -106,7 +106,7 @@ h
 "
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 include
 "
@@ -852,7 +852,7 @@ Initialize
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 #
 if
 !
@@ -1161,7 +1161,7 @@ PRMJ_NowShutdown
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 u_cleanup
 (
 )
@@ -1279,7 +1279,7 @@ JS_Init
 ;
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 UErrorCode
 status
 =

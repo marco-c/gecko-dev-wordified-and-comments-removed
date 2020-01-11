@@ -1,6 +1,6 @@
 #
 if
-ENABLE_INTL_API
+JS_HAS_INTL_API
 function
 BigInt_toLocaleString
 (
@@ -127,4 +127,4 @@ false
 endif
 /
 /
-ENABLE_INTL_API
+JS_HAS_INTL_API

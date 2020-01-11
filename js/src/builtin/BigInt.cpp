@@ -685,7 +685,7 @@ args
 }
 #
 ifndef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 bool
 BigIntObject
 :
@@ -1201,7 +1201,7 @@ toString
 )
 #
 ifdef
-ENABLE_INTL_API
+JS_HAS_INTL_API
 JS_SELF_HOSTED_FN
 (
 "
