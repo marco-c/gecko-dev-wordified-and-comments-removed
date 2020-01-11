@@ -1751,16 +1751,4 @@ synonym
 *
 /
 #
-define
-APPLICATION_CACHED_XUL
-"
-mozilla
-.
-application
-/
-cached
--
-xul
-"
-#
 endif
