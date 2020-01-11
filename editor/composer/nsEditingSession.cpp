@@ -940,17 +940,6 @@ text
 /
 xul
 "
-"
-application
-/
-vnd
-.
-mozilla
-.
-xul
-+
-xml
-"
 nullptr
 }
 ;

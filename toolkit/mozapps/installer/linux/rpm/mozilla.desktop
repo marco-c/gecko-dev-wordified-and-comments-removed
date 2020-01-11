@@ -112,16 +112,6 @@ xhtml
 +
 xml
 ;
-application
-/
-vnd
-.
-mozilla
-.
-xul
-+
-xml
-;
 text
 /
 mml
