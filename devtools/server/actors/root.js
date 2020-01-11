@@ -424,9 +424,9 @@ _parameters
 .
 workerList
 .
-onListChanged
-=
-null
+destroy
+(
+)
 ;
 }
 if
