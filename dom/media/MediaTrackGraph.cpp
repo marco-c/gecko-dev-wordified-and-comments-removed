@@ -2575,6 +2575,8 @@ const
 TrackKeyAndVolume
 &
 aTkv
+GraphTime
+aPlayedTime
 )
 {
 MOZ_ASSERT
@@ -2642,13 +2644,13 @@ track
 >
 GraphTimeToTrackTime
 (
-mProcessedTime
+aPlayedTime
 )
 ;
 GraphTime
 t
 =
-mProcessedTime
+aPlayedTime
 ;
 while
 (
@@ -6185,6 +6187,12 @@ doneAllProducing
 =
 false
 ;
+const
+GraphTime
+oldProcessedTime
+=
+mProcessedTime
+;
 mMixer
 .
 StartMixing
@@ -6396,7 +6404,7 @@ track
 >
 mStartBlocking
 >
-mProcessedTime
+oldProcessedTime
 )
 {
 allBlockedForever
@@ -6442,6 +6450,7 @@ ticksPlayedForThisTrack
 PlayAudio
 (
 t
+oldProcessedTime
 )
 ;
 if
@@ -6525,7 +6534,7 @@ OutputChannelCount
 )
 mStateComputedTime
 -
-mProcessedTime
+oldProcessedTime
 mSampleRate
 )
 ;
