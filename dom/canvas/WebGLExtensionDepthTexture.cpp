@@ -289,9 +289,4 @@ ANGLE_depth_texture
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionDepthTexture
-WEBGL_depth_texture
-)
 }

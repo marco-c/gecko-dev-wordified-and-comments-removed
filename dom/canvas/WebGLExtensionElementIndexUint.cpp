@@ -58,9 +58,4 @@ WebGLExtensionElementIndexUint
 )
 {
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionElementIndexUint
-OES_element_index_uint
-)
 }

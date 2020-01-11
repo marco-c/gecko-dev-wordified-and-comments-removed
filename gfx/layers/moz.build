@@ -1543,6 +1543,11 @@ NativeLayer
 h
 '
 '
+OOPCanvasRenderer
+.
+h
+'
+'
 opengl
 /
 CompositingRenderTargetOGL

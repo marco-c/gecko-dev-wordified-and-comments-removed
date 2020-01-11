@@ -155,9 +155,4 @@ shader_texture_lod
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionShaderTextureLod
-EXT_shader_texture_lod
-)
 }

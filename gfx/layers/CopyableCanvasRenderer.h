@@ -261,6 +261,12 @@ AsyncCanvasRenderer
 >
 mAsyncRenderer
 ;
+RefPtr
+<
+OOPCanvasRenderer
+>
+mOOPRenderer
+;
 bool
 mIsAlphaPremultiplied
 ;

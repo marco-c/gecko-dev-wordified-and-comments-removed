@@ -528,10 +528,7 @@ WebGLProgram
 &
 program
 const
-dom
-:
-:
-Sequence
+nsTArray
 <
 nsString
 >
@@ -582,7 +579,7 @@ bufferMode
 )
 ;
 }
-already_AddRefed
+Maybe
 <
 WebGLActiveInfo
 >
@@ -617,7 +614,9 @@ IsContextLost
 )
 )
 return
-nullptr
+Nothing
+(
+)
 ;
 if
 (
@@ -631,7 +630,9 @@ program
 )
 )
 return
-nullptr
+Nothing
+(
+)
 ;
 return
 program

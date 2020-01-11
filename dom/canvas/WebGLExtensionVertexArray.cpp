@@ -196,9 +196,4 @@ array
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionVertexArray
-OES_vertex_array_object
-)
 }

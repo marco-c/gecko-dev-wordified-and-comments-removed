@@ -852,10 +852,7 @@ WebGLContext
 DrawBuffers
 (
 const
-dom
-:
-:
-Sequence
+nsTArray
 <
 GLenum
 >

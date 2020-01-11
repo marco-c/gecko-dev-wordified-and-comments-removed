@@ -155,9 +155,4 @@ frag_depth
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionFragDepth
-EXT_frag_depth
-)
 }

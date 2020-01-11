@@ -243,9 +243,4 @@ EXT_color_buffer_float
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionEXTColorBufferFloat
-EXT_color_buffer_float
-)
 }

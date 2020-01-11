@@ -51,6 +51,17 @@ nsIUrlClassifierFeature
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+PContent
+.
+h
+"
 namespace
 mozilla
 {

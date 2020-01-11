@@ -191,9 +191,4 @@ WebGLExtensionCompressedTexturePVRTC
 )
 {
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionCompressedTexturePVRTC
-WEBGL_compressed_texture_pvrtc
-)
 }

@@ -121,9 +121,4 @@ blend_minmax
 )
 ;
 }
-IMPL_WEBGL_EXTENSION_GOOP
-(
-WebGLExtensionBlendMinMax
-EXT_blend_minmax
-)
 }

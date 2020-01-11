@@ -8,6 +8,13 @@ h
 #
 include
 "
+ClientWebGLContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -27,7 +34,7 @@ namespace
 mozilla
 {
 bool
-WebGLShaderPrecisionFormat
+ClientWebGLShaderPrecisionFormat
 :
 :
 WrapObject

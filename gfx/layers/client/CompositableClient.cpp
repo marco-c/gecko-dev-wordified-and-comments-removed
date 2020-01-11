@@ -166,6 +166,7 @@ mHandle
 aHandle
 ;
 mIsAsync
+|
 =
 !
 NS_IsMainThread

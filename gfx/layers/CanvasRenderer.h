@@ -109,6 +109,9 @@ class
 CopyableCanvasRenderer
 ;
 class
+OOPCanvasRenderer
+;
+class
 PersistentBufferProvider
 ;
 class
@@ -150,6 +153,12 @@ RefPtr
 AsyncCanvasRenderer
 >
 mRenderer
+;
+RefPtr
+<
+OOPCanvasRenderer
+>
+mOOPRenderer
 ;
 typedef
 void
