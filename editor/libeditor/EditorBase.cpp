@@ -9929,12 +9929,17 @@ if
 (
 !
 mDispatchInputEvent
+|
+|
+IsEditActionAborted
+(
+)
 )
 {
 return
 ;
 }
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -10031,7 +10036,7 @@ void
 EditorBase
 :
 :
-FireInputEvent
+DispatchInputEvent
 (
 )
 {
@@ -10045,7 +10050,7 @@ GetInputEventDataTransfer
 (
 )
 ;
-FireInputEvent
+DispatchInputEvent
 (
 GetEditAction
 (
@@ -10061,7 +10066,7 @@ void
 EditorBase
 :
 :
-FireInputEvent
+DispatchInputEvent
 (
 EditAction
 aEditAction
@@ -23434,7 +23439,7 @@ direction
 )
 ;
 }
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -23603,7 +23608,7 @@ value
 break
 ;
 }
-FireInputEvent
+DispatchInputEvent
 (
 )
 ;
@@ -25334,6 +25339,10 @@ EditSubAction
 :
 :
 eNone
+)
+mAborted
+(
+false
 )
 {
 if
