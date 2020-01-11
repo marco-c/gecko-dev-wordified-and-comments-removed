@@ -769,6 +769,9 @@ class
 XULPersist
 ;
 class
+ChromeObserver
+;
+class
 ClientInfo
 ;
 class
@@ -5118,6 +5121,7 @@ GetMidasCommandManager
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 TurnEditingOff
 (
@@ -14224,6 +14228,12 @@ RefPtr
 XULPersist
 >
 mXULPersist
+;
+RefPtr
+<
+ChromeObserver
+>
+mChromeObserver
 ;
 RefPtr
 <

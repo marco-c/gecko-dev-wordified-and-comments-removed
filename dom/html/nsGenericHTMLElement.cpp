@@ -508,13 +508,6 @@ h
 #
 include
 "
-nsITextControlElement
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
