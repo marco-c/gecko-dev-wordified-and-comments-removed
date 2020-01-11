@@ -692,13 +692,6 @@ ABINonArgReg3
 static
 constexpr
 Register
-WasmJitEntryReturnScratch
-=
-ebx
-;
-static
-constexpr
-Register
 OsrFrameReg
 =
 edx

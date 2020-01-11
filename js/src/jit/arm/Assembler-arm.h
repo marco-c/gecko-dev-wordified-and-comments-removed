@@ -882,13 +882,6 @@ ABINonArgReg3
 static
 constexpr
 Register
-WasmJitEntryReturnScratch
-=
-r5
-;
-static
-constexpr
-Register
 PreBarrierReg
 =
 r1

@@ -2501,13 +2501,6 @@ WasmTableCallIndexReg
 ABINonArgReg3
 ;
 static
-constexpr
-Register
-WasmJitEntryReturnScratch
-=
-r9
-;
-static
 inline
 bool
 GetIntArgReg
