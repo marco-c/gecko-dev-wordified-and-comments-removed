@@ -678,11 +678,6 @@ IntrinsicObjectIsTransparentTypedObject
 \
 _
 (
-IntrinsicObjectIsOpaqueTypedObject
-)
-\
-_
-(
 IntrinsicObjectIsTypeDescr
 )
 \
