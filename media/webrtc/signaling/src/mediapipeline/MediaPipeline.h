@@ -1115,7 +1115,6 @@ TransportReady_s
 )
 override
 ;
-virtual
 nsresult
 SetTrack
 (
@@ -1127,6 +1126,16 @@ dom
 MediaStreamTrack
 >
 aDomTrack
+)
+;
+void
+SetSendTrack
+(
+RefPtr
+<
+ProcessedMediaTrack
+>
+aSendTrack
 )
 ;
 class

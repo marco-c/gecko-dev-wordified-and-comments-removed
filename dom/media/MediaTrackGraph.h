@@ -2270,6 +2270,7 @@ aOutputNumber
 0
 )
 ;
+virtual
 void
 QueueSetAutoend
 (
