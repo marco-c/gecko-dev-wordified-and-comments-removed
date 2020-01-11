@@ -22,7 +22,6 @@ jsm
 "
 )
 ;
-;
 function
 waitForFullScreenState
 (

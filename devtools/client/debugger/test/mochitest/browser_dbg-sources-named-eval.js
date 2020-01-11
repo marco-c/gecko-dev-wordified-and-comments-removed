@@ -145,6 +145,7 @@ js
 \
 n
 )
+;
 SpecialPowers
 .
 spawn
@@ -197,6 +198,7 @@ ok
 (
 true
 )
+;
 }
 )
 ;
