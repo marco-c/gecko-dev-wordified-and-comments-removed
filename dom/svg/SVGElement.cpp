@@ -1398,9 +1398,6 @@ body
 "
 )
 ;
-nsresult
-rv
-=
 SetEventHandler
 (
 GetEventNameForAttr
@@ -1413,12 +1410,6 @@ aValue
 GetStringValue
 (
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 }

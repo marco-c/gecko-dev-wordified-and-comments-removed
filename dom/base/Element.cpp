@@ -10340,7 +10340,7 @@ OnLeaveLink
 )
 ;
 }
-nsresult
+void
 Element
 :
 :
@@ -10376,7 +10376,6 @@ IsLoadedAsData
 )
 {
 return
-NS_OK
 ;
 }
 MOZ_ASSERT
@@ -10414,7 +10413,6 @@ manager
 )
 {
 return
-NS_OK
 ;
 }
 defer
@@ -10442,9 +10440,6 @@ ownerDoc
 )
 this
 )
-;
-return
-NS_OK
 ;
 }
 const

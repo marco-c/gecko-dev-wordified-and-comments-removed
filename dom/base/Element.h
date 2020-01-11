@@ -4601,7 +4601,7 @@ ErrorResult
 aError
 )
 ;
-nsresult
+void
 SetEventHandler
 (
 nsAtom
