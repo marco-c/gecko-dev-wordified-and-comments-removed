@@ -427,6 +427,8 @@ function
 resolve
 )
 {
+win
+.
 setTimeout
 (
 resolve
@@ -1154,6 +1156,8 @@ rv
 }
 )
 ;
+win
+.
 setTimeout
 (
 function
