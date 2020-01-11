@@ -655,6 +655,13 @@ catch
 ex
 )
 {
+console
+.
+error
+(
+ex
+)
+;
 const
 msg
 =
@@ -667,13 +674,6 @@ ex
 ex
 .
 stack
-;
-console
-.
-error
-(
-msg
-)
 ;
 dump
 (

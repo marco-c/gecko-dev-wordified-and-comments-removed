@@ -1284,7 +1284,7 @@ exception
 "
 )
 ;
-ok
+equal
 (
 message
 .
@@ -1293,15 +1293,11 @@ arguments
 0
 ]
 .
-startsWith
-(
+message
 "
-Error
-:
 Boom
 !
 "
-)
 "
 unhandled
 exception
