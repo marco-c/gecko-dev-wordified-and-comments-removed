@@ -3452,7 +3452,6 @@ ipc
 IPCResult
 RecvCrossProcessRedirect
 (
-const
 RedirectToRealChannelArgs
 &
 &
