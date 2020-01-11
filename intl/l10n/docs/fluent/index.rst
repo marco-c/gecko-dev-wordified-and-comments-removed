@@ -15,7 +15,6 @@ Fluent
 _
 is
 a
-new
 localization
 system
 developed
@@ -50,7 +49,6 @@ a
 large
 number
 of
-new
 features
 and
 improvements
