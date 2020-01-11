@@ -1055,7 +1055,7 @@ task
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1064,9 +1064,7 @@ ui
 getViewportBrowser
 (
 )
-[
 args
-]
 task
 )
 ;
@@ -2319,14 +2317,12 @@ browser
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
-async
+null
 function
 (
 )
