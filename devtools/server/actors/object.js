@@ -651,6 +651,12 @@ setWatchpoint
 )
 )
 {
+desc
+.
+value
+=
+v
+;
 return
 ;
 }
