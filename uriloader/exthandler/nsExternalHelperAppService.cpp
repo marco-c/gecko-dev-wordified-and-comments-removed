@@ -8923,10 +8923,7 @@ mSaver
 >
 GetSignatureInfo
 (
-getter_AddRefs
-(
 mSignatureInfo
-)
 )
 ;
 mSaver

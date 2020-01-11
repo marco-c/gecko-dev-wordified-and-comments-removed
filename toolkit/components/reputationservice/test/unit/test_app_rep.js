@@ -2011,6 +2011,10 @@ binaryFile
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 function
 onComplete
@@ -2285,6 +2289,10 @@ binaryFile
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 function
 onComplete
@@ -2391,6 +2399,10 @@ binaryFile
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 function
 onComplete
@@ -3420,6 +3432,10 @@ redirects
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 function
 onComplete

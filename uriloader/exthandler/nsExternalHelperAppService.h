@@ -612,9 +612,15 @@ mSaver
 nsAutoCString
 mHash
 ;
-nsCOMPtr
+nsTArray
 <
-nsIArray
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
 >
 mSignatureInfo
 ;

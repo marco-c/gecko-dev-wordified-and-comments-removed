@@ -75,9 +75,6 @@ nsIAsyncInputStream
 class
 nsIThread
 ;
-class
-nsIX509CertList
-;
 namespace
 mozilla
 {
@@ -224,9 +221,15 @@ mSha256
 bool
 mSha256Enabled
 ;
-nsCOMArray
+nsTArray
 <
-nsIX509CertList
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
 >
 mSignatureInfo
 ;

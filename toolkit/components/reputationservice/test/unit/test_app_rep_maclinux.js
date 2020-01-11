@@ -1359,6 +1359,10 @@ bat
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 expected
 )
@@ -1457,6 +1461,10 @@ txt
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 expected
 )
@@ -1555,6 +1563,10 @@ bat
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 expected
 )
@@ -1653,6 +1665,10 @@ bat
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 ;
 await
@@ -1818,6 +1834,10 @@ bat
 fileSize
 :
 12
+signatureInfo
+:
+[
+]
 }
 ;
 await
