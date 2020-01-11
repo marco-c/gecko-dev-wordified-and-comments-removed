@@ -98,6 +98,14 @@ query
 }
 ;
 struct
+DefaultURIParams
+{
+nsCString
+spec
+;
+}
+;
+struct
 StandardURLSegment
 {
 uint32_t
@@ -256,6 +264,8 @@ JSURIParams
 SimpleNestedURIParams
 ;
 HostObjectURIParams
+;
+DefaultURIParams
 ;
 }
 ;

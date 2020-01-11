@@ -866,6 +866,11 @@ DashboardTypes
 h
 '
 '
+DefaultURI
+.
+h
+'
+'
 IOActivityMonitor
 .
 h
@@ -952,6 +957,11 @@ cpp
 '
 '
 Dashboard
+.
+cpp
+'
+'
+DefaultURI
 .
 cpp
 '
