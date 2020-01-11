@@ -195,10 +195,6 @@ mozilla
 namespace
 dom
 {
-static
-uint8_t
-gWebAudioOutputKey
-;
 class
 OfflineDestinationNodeEngine
 final
@@ -1512,8 +1508,7 @@ mTrack
 >
 AddAudioOutput
 (
-&
-gWebAudioOutputKey
+nullptr
 )
 ;
 if
@@ -2363,8 +2358,7 @@ mTrack
 >
 SetAudioOutputVolume
 (
-&
-gWebAudioOutputKey
+nullptr
 volume
 )
 ;
