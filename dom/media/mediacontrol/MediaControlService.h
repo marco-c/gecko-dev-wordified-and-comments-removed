@@ -183,6 +183,13 @@ return
 mMediaControllerAmountChangedEvent
 ;
 }
+void
+GenerateMediaControlKeysTestEvent
+(
+MediaControlKeysEvent
+aEvent
+)
+;
 private
 :
 MediaControlService
