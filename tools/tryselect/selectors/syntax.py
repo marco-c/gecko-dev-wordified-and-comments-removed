@@ -1081,7 +1081,7 @@ build
     
 }
     
-templates
+task_configs
 =
 [
 ]

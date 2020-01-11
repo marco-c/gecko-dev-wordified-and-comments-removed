@@ -714,7 +714,8 @@ version
 1
 }
 Test
-templates
+task
+config
 .
 /
 mach

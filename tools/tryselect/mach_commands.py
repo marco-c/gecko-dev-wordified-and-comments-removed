@@ -975,7 +975,7 @@ self
 .
 parser
 .
-templates
+task_configs
 .
 itervalues
 (
@@ -1073,7 +1073,7 @@ self
 .
 parser
 .
-templates
+task_configs
 :
             
 kwargs

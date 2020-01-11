@@ -2417,7 +2417,7 @@ bionic
 True
             
 }
-all_templates
+all_task_configs
 =
 {
     

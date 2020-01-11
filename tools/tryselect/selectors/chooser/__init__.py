@@ -78,7 +78,7 @@ task
 '
 ]
     
-templates
+task_configs
 =
 [
         

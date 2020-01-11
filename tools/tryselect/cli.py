@@ -16,9 +16,9 @@ import
 ArgumentParser
 from
 .
-templates
+task_config
 import
-all_templates
+all_task_configs
 COMMON_ARGUMENT_GROUPS
 =
 {
@@ -546,7 +546,7 @@ arguments
 [
 ]
     
-templates
+task_configs
 =
 [
 ]
@@ -690,45 +690,46 @@ self
 add_argument_group
 (
 "
-template
+task
+configuration
 arguments
 "
 )
         
 self
 .
-templates
+task_configs
 =
 {
-t
+c
 :
-all_templates
+all_task_configs
 [
-t
+c
 ]
 (
 )
 for
-t
+c
 in
 self
 .
-templates
+task_configs
 }
         
 for
-template
+cfg
 in
 self
 .
-templates
+task_configs
 .
 values
 (
 )
 :
             
-template
+cfg
 .
 add_arguments
 (
