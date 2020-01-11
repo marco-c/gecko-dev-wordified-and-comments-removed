@@ -53,6 +53,10 @@ import
 os
 from
 six
+import
+iteritems
+from
+six
 .
 moves
 .
@@ -687,10 +691,9 @@ for
 manifest
 data
 in
-test_manifests
-.
 iteritems
 (
+test_manifests
 )
 :
                     
