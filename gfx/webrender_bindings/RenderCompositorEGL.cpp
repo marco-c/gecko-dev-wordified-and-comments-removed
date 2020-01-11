@@ -553,12 +553,12 @@ gl
 )
 )
 ;
+#
+endif
 DestroyEGLSurface
 (
 )
 ;
-#
-endif
 }
 bool
 RenderCompositorEGL
