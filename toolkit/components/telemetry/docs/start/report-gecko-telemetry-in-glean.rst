@@ -3206,6 +3206,8 @@ book
 user
 /
 debugging
+/
+index
 .
 html
 >
