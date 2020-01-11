@@ -32129,17 +32129,6 @@ immutableFlags_
 =
 immutableFlags
 ;
-MOZ_ASSERT
-(
-!
-lazy
--
->
-hasEnclosingScope
-(
-)
-)
-;
 if
 (
 enclosingScope
