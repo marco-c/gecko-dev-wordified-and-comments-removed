@@ -10912,11 +10912,10 @@ setIsSelfHostedBuiltin
 ;
 MOZ_ASSERT
 (
-!
 fun
 -
 >
-isInterpretedLazy
+hasScript
 (
 )
 )
@@ -12640,7 +12639,7 @@ MOZ_ASSERT
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 -

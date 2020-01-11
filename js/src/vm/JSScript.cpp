@@ -28204,11 +28204,6 @@ enclosing
 innerFun
 -
 >
-nonLazyScript
-(
-)
--
->
 enclosingScope
 (
 )
