@@ -328,13 +328,6 @@ h
 #
 include
 "
-nsIMutable
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

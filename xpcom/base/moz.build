@@ -155,11 +155,6 @@ nsIMessageLoop
 idl
 '
 '
-nsIMutable
-.
-idl
-'
-'
 nsISecurityConsoleMessage
 .
 idl
