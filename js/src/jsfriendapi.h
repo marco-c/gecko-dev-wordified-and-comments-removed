@@ -6889,16 +6889,6 @@ obj
 ;
 extern
 JS_FRIEND_API
-bool
-JS_IsArrayBufferViewObject
-(
-JSObject
-*
-obj
-)
-;
-extern
-JS_FRIEND_API
 uint32_t
 JS_GetArrayBufferViewByteLength
 (
