@@ -670,13 +670,12 @@ newTab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 emptyBrowser
-[
-]
+null
 async
 (
 )

@@ -2095,16 +2095,14 @@ const
 hasVisitedState
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 selectors
-]
 args
 =
 >

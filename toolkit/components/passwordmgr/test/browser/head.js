@@ -872,12 +872,11 @@ let
 fieldValues
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 resultURL
 usernameSelector
@@ -887,7 +886,6 @@ passwordSelector
 :
 password
 }
-]
 async
 function
 (

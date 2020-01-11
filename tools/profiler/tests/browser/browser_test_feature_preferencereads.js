@@ -343,13 +343,12 @@ leaf
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 contentBrowser
-[
-]
+null
 (
 )
 =
@@ -363,10 +362,6 @@ resolve
 =
 >
 {
-docShell
-.
-chromeEventHandler
-.
 addEventListener
 (
 "

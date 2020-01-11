@@ -1912,14 +1912,12 @@ unchangedSelector
 let
 continuePromise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 data
-]
 async
 function
 (
