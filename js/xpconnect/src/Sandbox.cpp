@@ -9764,8 +9764,6 @@ nsACString
 filename
 int32_t
 lineNo
-bool
-enforceFilenameRestrictions
 MutableHandleValue
 rval
 )
@@ -10024,14 +10022,6 @@ get
 (
 )
 lineNo
-)
-;
-options
-.
-setSkipFilenameValidation
-(
-!
-enforceFilenameRestrictions
 )
 ;
 MOZ_ASSERT

@@ -4926,13 +4926,6 @@ cx
 ;
 options
 .
-setSkipFilenameValidation
-(
-true
-)
-;
-options
-.
 setFileAndLine
 (
 this

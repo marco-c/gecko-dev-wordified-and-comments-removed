@@ -10,17 +10,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-security
-.
-allow_parent_unrestricted_js_loads
-"
-true
-)
-;
 const
 hud
 =

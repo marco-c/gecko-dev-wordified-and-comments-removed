@@ -39,17 +39,6 @@ await
 pushPref
 (
 "
-security
-.
-allow_parent_unrestricted_js_loads
-"
-true
-)
-;
-await
-pushPref
-(
-"
 devtools
 .
 debugger
