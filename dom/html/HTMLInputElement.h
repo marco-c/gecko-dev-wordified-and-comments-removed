@@ -1119,6 +1119,16 @@ HasCachedSelection
 )
 override
 ;
+bool
+TextEditorValueEquals
+(
+const
+nsAString
+&
+aValue
+)
+const
+;
 uint32_t
 GetSelectionStartIgnoringType
 (

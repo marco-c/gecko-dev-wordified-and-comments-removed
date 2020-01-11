@@ -433,6 +433,16 @@ aIgnoreWrap
 const
 ;
 bool
+ValueEquals
+(
+const
+nsAString
+&
+aValue
+)
+const
+;
+bool
 HasNonEmptyValue
 (
 )

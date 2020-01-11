@@ -681,6 +681,16 @@ nsString
 aText
 )
 ;
+bool
+TextEquals
+(
+const
+nsAString
+&
+aText
+)
+const
+;
 virtual
 nsresult
 PeekOffset
