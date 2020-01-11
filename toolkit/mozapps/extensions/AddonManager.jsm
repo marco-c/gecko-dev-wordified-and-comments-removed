@@ -8153,6 +8153,11 @@ topBrowser
 =
 aBrowser
 ;
+if
+(
+aBrowser
+)
+{
 let
 docShell
 =
@@ -8183,10 +8188,14 @@ docShell
 chromeEventHandler
 ;
 }
+}
 try
 {
 if
 (
+topBrowser
+&
+&
 topBrowser
 .
 ownerDocument
@@ -8270,6 +8279,11 @@ aInstallingPrincipal
 isNullPrincipal
 |
 |
+(
+aBrowser
+&
+&
+(
 !
 aBrowser
 .
@@ -8292,6 +8306,8 @@ subsumes
 aBrowser
 .
 contentPrincipal
+)
+)
 )
 )
 |
@@ -8336,6 +8352,11 @@ aInstall
 return
 ;
 }
+if
+(
+aBrowser
+)
+{
 new
 BrowserListener
 (
@@ -8344,6 +8365,7 @@ aInstallingPrincipal
 aInstall
 )
 ;
+}
 let
 startInstall
 =
