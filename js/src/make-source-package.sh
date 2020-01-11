@@ -852,16 +852,6 @@ rust
 *
 +
 /
-dom
-/
-bindings
-/
-mozwebidlcodegen
-/
-*
-*
-+
-/
 layout
 /
 tools
