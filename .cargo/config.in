@@ -91,13 +91,6 @@ mozilla
 rkv
 "
 ]
-branch
-=
-"
-safe
--
-mode
-"
 git
 =
 "
@@ -121,6 +114,11 @@ with
 vendored
 -
 sources
+"
+rev
+=
+"
+6a866fdad2ca880df9b87fcbc9921abac1e91914
 "
 [
 source
