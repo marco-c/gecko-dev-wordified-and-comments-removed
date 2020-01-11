@@ -628,6 +628,15 @@ obj
 objRoot
 ;
 }
+else
+{
+MarkObjectGroupUnknownProperties
+(
+cx
+group
+)
+;
+}
 return
 &
 obj
