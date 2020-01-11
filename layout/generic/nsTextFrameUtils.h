@@ -84,7 +84,10 @@ HasShy
 0x02
 UnusedFlags
 =
-0x0C
+0x04
+DontSkipDrawingForPendingUserFonts
+=
+0x08
 IsSimpleFlow
 =
 0x10

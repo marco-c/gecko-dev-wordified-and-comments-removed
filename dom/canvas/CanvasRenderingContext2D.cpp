@@ -17632,8 +17632,9 @@ nsTextFrameUtils
 :
 :
 Flags
-(
-)
+:
+:
+DontSkipDrawingForPendingUserFonts
 mMissingFonts
 )
 ;
