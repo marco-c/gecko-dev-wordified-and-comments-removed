@@ -271,6 +271,18 @@ opt
 '
     
 '
+.
+*
+win64
+-
+aarch64
+-
+laptop
+.
+*
+'
+    
+'
 android
 -
 hw
@@ -291,15 +303,15 @@ docs
 '
     
 '
-.
-*
-win64
+source
 -
-aarch64
+test
 -
-laptop
-.
-*
+python
+-
+mozharness
+-
+py3
 '
 )
 FZF_NOT_FOUND
