@@ -2382,6 +2382,9 @@ const
 nsACString
 &
 aURI
+nsIPrincipal
+*
+aPrincipal
 ContentParent
 *
 aIgnoreThisCP
@@ -2425,6 +2428,10 @@ const
 nsCString
 &
 aURI
+const
+Principal
+&
+aPrincipal
 )
 ;
 mozilla
@@ -6215,6 +6222,12 @@ nsTArray
 nsCString
 >
 mBlobURLs
+;
+nsTArray
+<
+uint32_t
+>
+mLoadedOriginHashes
 ;
 UniquePtr
 <
