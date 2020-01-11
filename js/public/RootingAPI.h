@@ -3948,15 +3948,7 @@ uint8_t
 Array
 ValueArray
 Parser
-#
-if
-defined
-(
-JS_BUILD_BINAST
-)
 BinASTParser
-#
-endif
 WrapperVector
 Wrapper
 Custom

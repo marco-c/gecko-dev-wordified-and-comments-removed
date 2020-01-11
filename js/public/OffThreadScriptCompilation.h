@@ -464,12 +464,6 @@ OffThreadToken
 token
 )
 ;
-#
-if
-defined
-(
-JS_BUILD_BINAST
-)
 extern
 JS_PUBLIC_API
 bool
@@ -530,8 +524,6 @@ OffThreadToken
 token
 )
 ;
-#
-endif
 }
 #
 endif
