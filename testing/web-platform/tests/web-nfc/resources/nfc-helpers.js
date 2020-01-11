@@ -392,6 +392,8 @@ Uint8Array
 (
 test_buffer_data
 )
+;
+test_buffer_view
 .
 set
 (
@@ -711,6 +713,14 @@ if
 providedMessage
 instanceof
 ArrayBuffer
+|
+|
+ArrayBuffer
+.
+isView
+(
+providedMessage
+)
 )
 provided
 =
