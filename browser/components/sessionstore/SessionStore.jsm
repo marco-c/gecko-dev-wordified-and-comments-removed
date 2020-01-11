@@ -14258,6 +14258,11 @@ restoreContentReason
 RESTORE_TAB_CONTENT_REASON
 .
 NAVIGATE_AND_RESTORE
+redirectLoadSwitchId
+:
+loadArguments
+.
+redirectLoadSwitchId
 }
 ;
 if
@@ -18117,6 +18122,13 @@ aOptions
 replaceBrowsingContext
 ;
 let
+redirectLoadSwitchId
+=
+aOptions
+.
+redirectLoadSwitchId
+;
+let
 isRemotenessUpdate
 ;
 if
@@ -18145,6 +18157,7 @@ aOptions
 remoteType
 newFrameloader
 replaceBrowsingContext
+redirectLoadSwitchId
 }
 )
 ;
@@ -18162,6 +18175,7 @@ uri
 {
 newFrameloader
 replaceBrowsingContext
+redirectLoadSwitchId
 }
 )
 ;

@@ -362,6 +362,8 @@ ChangeRemotenessCommon
 (
 bool
 aPreserveContext
+bool
+aSwitchingInProgressLoad
 const
 nsAString
 &
@@ -503,6 +505,7 @@ mFrameLoader
 >
 Destroy
 (
+aSwitchingInProgressLoad
 )
 ;
 mFrameLoader
@@ -949,6 +952,9 @@ aOptions
 )
 aOptions
 .
+mSwitchingInProgressLoad
+aOptions
+.
 mRemoteType
 frameLoaderInit
 rv
@@ -1054,6 +1060,7 @@ host
 ;
 ChangeRemotenessCommon
 (
+true
 true
 NS_LITERAL_STRING
 (

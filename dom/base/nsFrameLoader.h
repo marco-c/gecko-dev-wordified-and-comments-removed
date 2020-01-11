@@ -444,6 +444,8 @@ ReallyStartLoading
 void
 StartDestroy
 (
+bool
+aForProcessSwitch
 )
 ;
 void
@@ -587,6 +589,10 @@ aPendingSwitchID
 void
 Destroy
 (
+bool
+aForProcessSwitch
+=
+false
 )
 ;
 void
