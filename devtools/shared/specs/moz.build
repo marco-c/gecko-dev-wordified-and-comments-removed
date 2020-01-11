@@ -134,6 +134,13 @@ changes
 js
 '
 '
+content
+-
+viewer
+.
+js
+'
+'
 css
 -
 properties
@@ -259,6 +266,11 @@ js
 '
 '
 reflow
+.
+js
+'
+'
+responsive
 .
 js
 '

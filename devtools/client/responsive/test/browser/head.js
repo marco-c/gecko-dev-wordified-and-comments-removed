@@ -2816,7 +2816,7 @@ flag
 await
 ui
 .
-emulationFront
+responsiveFront
 .
 getTouchEventsOverride
 (
