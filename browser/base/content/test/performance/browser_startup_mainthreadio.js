@@ -691,7 +691,7 @@ stat
 26
 write
 :
-40
+38
 }
 {
 path
