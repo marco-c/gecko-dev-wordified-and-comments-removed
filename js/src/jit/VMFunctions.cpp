@@ -1408,7 +1408,6 @@ InvokeArgsMaybeIgnoresReturnValue
 args
 (
 cx
-ignoresReturnValue
 )
 ;
 if
@@ -1420,6 +1419,7 @@ init
 (
 cx
 argc
+ignoresReturnValue
 )
 )
 {
