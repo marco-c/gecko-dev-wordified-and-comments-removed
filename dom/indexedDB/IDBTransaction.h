@@ -323,7 +323,8 @@ endif
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBTransaction
 >
@@ -348,7 +349,8 @@ aNextIndexId
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBTransaction
 >
@@ -787,7 +789,8 @@ return
 mObjectStoreNames
 ;
 }
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBObjectStore
 >
@@ -988,7 +991,8 @@ GetError
 )
 const
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBObjectStore
 >
@@ -1023,7 +1027,8 @@ IMPL_EVENT_HANDLER
 (
 error
 )
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 DOMStringList
 >
@@ -1042,6 +1047,13 @@ aVisitor
 override
 ;
 private
+:
+struct
+CreatedFromFactoryFunction
+{
+}
+;
+public
 :
 IDBTransaction
 (
@@ -1063,8 +1075,12 @@ uint32_t
 aLineNo
 uint32_t
 aColumn
+CreatedFromFactoryFunction
+aDummy
 )
 ;
+private
+:
 ~
 IDBTransaction
 (
@@ -1075,7 +1091,7 @@ AbortInternal
 (
 nsresult
 aAbortCode
-already_AddRefed
+RefPtr
 <
 DOMException
 >
