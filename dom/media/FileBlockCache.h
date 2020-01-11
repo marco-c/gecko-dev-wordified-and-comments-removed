@@ -504,9 +504,9 @@ mBlockChanges
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mThread
+mBackgroundET
 ;
 std
 :
