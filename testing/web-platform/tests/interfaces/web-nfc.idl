@@ -93,6 +93,16 @@ records
 ;
 }
 ;
+typedef
+(
+DOMString
+or
+BufferSource
+or
+NDEFMessageInit
+)
+NDEFRecordDataSource
+;
 [
 Exposed
 =
@@ -171,7 +181,7 @@ encoding
 USVString
 lang
 ;
-any
+NDEFRecordDataSource
 data
 ;
 }
