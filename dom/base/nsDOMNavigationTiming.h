@@ -739,6 +739,14 @@ ToMilliseconds
 )
 ;
 }
+void
+Anonymize
+(
+nsIURI
+*
+aFinalURI
+)
+;
 private
 :
 friend
