@@ -10,8 +10,6 @@ import
 contextmanager
 import
 json
-import
-six
 from
 .
 files
@@ -624,7 +622,7 @@ _auto_fileobj
 path
 fileobj
 '
-r
+rb
 '
 )
 as
@@ -981,16 +979,20 @@ self
 add_content
 (
                     
-six
-.
-ensure_text
-(
 self
 .
 _decode_field_entry
 (
 content
 )
+.
+encode
+(
+'
+utf
+-
+8
+'
 )
 dest
 )
@@ -1343,7 +1345,7 @@ _auto_fileobj
 path
 fileobj
 '
-wt
+wb
 '
 )
 as
@@ -1506,11 +1508,15 @@ FIELD_SEPARATOR
 join
 (
                             
-six
-.
-ensure_text
-(
 p
+.
+encode
+(
+'
+utf
+-
+8
+'
 )
 for
 p
@@ -1566,11 +1572,15 @@ FIELD_SEPARATOR
 join
 (
                         
-six
-.
-ensure_text
-(
 p
+.
+encode
+(
+'
+utf
+-
+8
+'
 )
 for
 p
