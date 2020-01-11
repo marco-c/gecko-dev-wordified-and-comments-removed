@@ -797,6 +797,13 @@ val
 isSymbol
 (
 )
+|
+|
+val
+.
+isBigInt
+(
+)
 )
 {
 state
@@ -838,7 +845,7 @@ tStr
 }
 else
 {
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
@@ -1351,6 +1358,13 @@ val
 isSymbol
 (
 )
+|
+|
+val
+.
+isBigInt
+(
+)
 )
 {
 mData
@@ -1542,7 +1556,7 @@ return
 true
 ;
 }
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 val
 .
