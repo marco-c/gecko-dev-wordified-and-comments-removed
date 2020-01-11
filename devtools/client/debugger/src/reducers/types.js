@@ -279,7 +279,6 @@ type
 SourcesMap
 SourcesMapByThread
 SourceResourceState
-SourceResource
 }
 from
 "
