@@ -301,6 +301,14 @@ docs
 .
 *
 '
+    
+'
+linux1804
+-
+32
+.
+*
+'
 )
 FZF_NOT_FOUND
 =
