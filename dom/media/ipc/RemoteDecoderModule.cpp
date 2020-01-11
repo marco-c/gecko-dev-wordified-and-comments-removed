@@ -217,6 +217,13 @@ aMimeType
 }
 #
 endif
+#
+if
+!
+defined
+(
+__MINGW32__
+)
 if
 (
 StaticPrefs
@@ -239,6 +246,8 @@ aMimeType
 )
 ;
 }
+#
+endif
 if
 (
 StaticPrefs
