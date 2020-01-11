@@ -8942,9 +8942,6 @@ choices
 pretty
 '
 '
-configure
-'
-'
 json
 '
 ]
