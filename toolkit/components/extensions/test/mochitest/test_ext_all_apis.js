@@ -212,6 +212,11 @@ test
 .
 succeed
 "
+"
+test
+.
+withHandlingUserInput
+"
 ]
 ;
 let
