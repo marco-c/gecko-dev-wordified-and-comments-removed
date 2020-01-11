@@ -716,8 +716,11 @@ Promise
 REAL
 (
 AsyncFunction
-InitAsyncFunction
-nullptr
+InitViaClassSpec
+CLASP
+(
+AsyncFunction
+)
 )
 \
 REAL
