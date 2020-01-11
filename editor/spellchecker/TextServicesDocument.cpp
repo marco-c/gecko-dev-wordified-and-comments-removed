@@ -7375,7 +7375,7 @@ e1s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eStart
 -
@@ -7398,7 +7398,7 @@ e2s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eEnd
 -
@@ -8260,7 +8260,7 @@ e1s2
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eStart
 -
@@ -8276,7 +8276,7 @@ e2s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eEnd
 -
@@ -8348,7 +8348,7 @@ e1s1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eStart
 -
@@ -8364,7 +8364,7 @@ e2s2
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 eEnd
 -

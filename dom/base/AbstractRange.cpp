@@ -648,7 +648,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aStartBoundary
 aEndBoundary

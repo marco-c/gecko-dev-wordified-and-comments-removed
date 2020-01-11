@@ -2481,7 +2481,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 RangeBoundary
@@ -2501,7 +2501,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 RangeBoundary
@@ -2521,7 +2521,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 RawRangeBoundary
@@ -2541,7 +2541,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 RawRangeBoundary
@@ -11870,7 +11870,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 nsINode
@@ -12552,7 +12552,7 @@ int32_t
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 RangeBoundaryBase
@@ -12605,7 +12605,7 @@ return
 ;
 }
 return
-ComparePoints
+ComparePoints_Deprecated
 (
 aFirstBoundary
 .

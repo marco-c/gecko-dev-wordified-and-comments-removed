@@ -367,7 +367,7 @@ order
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aStartBoundary
 aEndBoundary
@@ -569,7 +569,7 @@ aNodeIsBeforeRange
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aAbstractRange
 -
@@ -625,7 +625,7 @@ aNodeIsAfterRange
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aAbstractRange
 -

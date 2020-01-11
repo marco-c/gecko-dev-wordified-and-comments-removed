@@ -5273,7 +5273,7 @@ cmpToInactiveCaretPos
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aOffsets
 .
@@ -5344,7 +5344,7 @@ cmpToLimit
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aOffsets
 .

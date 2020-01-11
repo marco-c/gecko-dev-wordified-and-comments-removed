@@ -26152,7 +26152,7 @@ IsSet
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mChangedRange
 -
@@ -26243,7 +26243,7 @@ IsSet
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mChangedRange
 -

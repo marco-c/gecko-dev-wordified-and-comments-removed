@@ -1387,7 +1387,7 @@ mIndex
 ;
 static
 int32_t
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 nsINode
@@ -1426,7 +1426,7 @@ SRT
 >
 static
 int32_t
-ComparePoints
+ComparePoints_Deprecated
 (
 const
 mozilla

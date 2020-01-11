@@ -3191,7 +3191,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 range
 -
@@ -3514,7 +3514,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 lastRange
 -

@@ -3208,7 +3208,7 @@ aCmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aCompareNode
 aCompareOffset
@@ -3321,7 +3321,7 @@ aCmp
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aCompareNode
 aCompareOffset
@@ -11351,7 +11351,7 @@ result1
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 anchorNode
 anchorOffset
@@ -11372,7 +11372,7 @@ result2
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 focusNode
 focusOffset
@@ -11394,7 +11394,7 @@ result3
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 anchorNode
 anchorOffset
@@ -15815,7 +15815,7 @@ if
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 aAnchorRef
 aFocusRef

@@ -292,7 +292,7 @@ MOZ_ASSERT
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 mStart
 .
@@ -6860,7 +6860,7 @@ compare
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 anchorNode
 anchorOffset

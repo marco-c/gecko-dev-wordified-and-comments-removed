@@ -4557,7 +4557,7 @@ relToStart
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 rangeStartNode
 rangeStartOffset
@@ -4571,7 +4571,7 @@ relToEnd
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 rangeEndNode
 rangeEndOffset
@@ -4970,7 +4970,7 @@ relativePosition
 nsContentUtils
 :
 :
-ComparePoints
+ComparePoints_Deprecated
 (
 rangenode
 rangeOffset
