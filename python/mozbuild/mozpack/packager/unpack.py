@@ -1005,12 +1005,15 @@ last_preloaded
             
 jarlog
 =
+list
+(
 jar
 .
 entries
 .
 keys
 (
+)
 )
             
 self
