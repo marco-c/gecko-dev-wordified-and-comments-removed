@@ -24369,14 +24369,6 @@ bool
 &
 aMaybeUnsafePermissionDelegate
 const
-bool
-&
-aDocumentHasUserInput
-const
-DOMTimeStamp
-&
-aPageLoadTimestamp
-const
 TabId
 &
 aTabId
@@ -24470,8 +24462,6 @@ aPrincipal
 topPrincipal
 aIsHandlingUserInput
 aMaybeUnsafePermissionDelegate
-aDocumentHasUserInput
-aPageLoadTimestamp
 aTabId
 )
 ;

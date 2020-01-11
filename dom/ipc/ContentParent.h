@@ -2157,14 +2157,6 @@ bool
 &
 aMaybeUnsafePermissionDelegate
 const
-bool
-&
-aDocumentHasUserInput
-const
-DOMTimeStamp
-&
-aPageLoadTimestamp
-const
 TabId
 &
 aTabId
