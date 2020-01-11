@@ -177,6 +177,11 @@ nsIStreamListener
 >
 mListener
 ;
+bool
+mCanceled
+=
+false
+;
 MOZ_MUST_USE
 nsresult
 MakeInputStream
