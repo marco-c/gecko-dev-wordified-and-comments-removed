@@ -1124,7 +1124,7 @@ DSLinkMenu
 .
 ValidDSLinkMenuProps
 }
-campaignId
+flightId
 =
 "
 1234

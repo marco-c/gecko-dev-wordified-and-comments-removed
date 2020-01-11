@@ -1894,12 +1894,12 @@ SPOC_TYPE
 (
 <
 ImpressionStats
-campaignId
+flightId
 =
 {
 link
 .
-campaignId
+flightId
 }
 rows
 =

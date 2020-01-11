@@ -212,12 +212,12 @@ rec
 .
 pos
 }
-campaignId
+flightId
 =
 {
 rec
 .
-campaign_id
+flight_id
 }
 image_src
 =

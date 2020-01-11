@@ -840,7 +840,7 @@ wrapped
 item
 has
 a
-campaignId
+flightId
 "
 (
 )
@@ -857,10 +857,10 @@ spy
 )
 ;
 const
-campaignId
+flightId
 =
 "
-a_campaign_id
+a_flight_id
 "
 ;
 const
@@ -868,7 +868,7 @@ props
 =
 {
 dispatch
-campaignId
+flightId
 IntersectionObserver
 :
 buildIntersectionObserver
@@ -928,7 +928,7 @@ action
 .
 data
 {
-campaignId
+flightId
 }
 )
 ;

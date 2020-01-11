@@ -479,7 +479,7 @@ image_src
 "
 foobar
 "
-campaign_id
+flight_id
 :
 "
 1234
@@ -540,7 +540,7 @@ url
 "
 foo
 "
-campaignId
+flightId
 :
 "
 1234
@@ -598,7 +598,7 @@ url
 "
 foo
 "
-campaignId
+flightId
 :
 "
 1234
@@ -839,7 +839,7 @@ image_src
 "
 foobar2
 "
-campaign_id
+flight_id
 :
 "
 1234
@@ -903,7 +903,7 @@ url
 "
 foo2
 "
-campaignId
+flightId
 :
 "
 1234

@@ -441,14 +441,14 @@ div
 >
 <
 ImpressionStats
-campaignId
+flightId
 =
 {
 this
 .
 props
 .
-campaignId
+flightId
 }
 rows
 =

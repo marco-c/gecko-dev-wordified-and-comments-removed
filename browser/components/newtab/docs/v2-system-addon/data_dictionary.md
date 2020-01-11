@@ -1460,7 +1460,7 @@ displayed
 reason
 :
 "
-campaign_duplicate
+flight_duplicate
 "
 full_recalc
 :
@@ -3293,7 +3293,7 @@ frequency_cap
 blocked_by_user
 "
 "
-campaign_duplicate
+flight_duplicate
 "
 "
 probability_selection

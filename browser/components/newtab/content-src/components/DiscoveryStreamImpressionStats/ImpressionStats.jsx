@@ -413,7 +413,7 @@ this
 .
 props
 .
-campaignId
+flightId
 )
 {
 this
@@ -435,13 +435,13 @@ DISCOVERY_STREAM_SPOC_IMPRESSION
 data
 :
 {
-campaignId
+flightId
 :
 this
 .
 props
 .
-campaignId
+flightId
 }
 }
 )

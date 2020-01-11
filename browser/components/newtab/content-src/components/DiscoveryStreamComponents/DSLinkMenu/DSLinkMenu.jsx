@@ -348,7 +348,7 @@ this
 .
 props
 .
-campaignId
+flightId
 ?
 [
 "
@@ -537,13 +537,13 @@ this
 props
 .
 bookmarkGuid
-campaign_id
+flight_id
 :
 this
 .
 props
 .
-campaignId
+flightId
 }
 }
 /

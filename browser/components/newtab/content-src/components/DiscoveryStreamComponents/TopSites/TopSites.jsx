@@ -651,11 +651,11 @@ url
 topSiteSpoc
 .
 url
-campaignId
+flightId
 :
 topSiteSpoc
 .
-campaign_id
+flight_id
 id
 :
 topSiteSpoc
