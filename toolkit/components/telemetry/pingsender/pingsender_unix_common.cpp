@@ -1702,4 +1702,14 @@ payload
 )
 ;
 }
+void
+ChangeCurrentWorkingDirectory
+(
+const
+string
+&
+pingPath
+)
+{
+}
 }
