@@ -124,6 +124,7 @@ DoLoop
 WhileLoop
 Class
 Spread
+YieldStar
 }
 ;
 static
@@ -188,6 +189,15 @@ StatementKind
 :
 :
 Spread
+|
+|
+kind
+=
+=
+StatementKind
+:
+:
+YieldStar
 ;
 }
 static
