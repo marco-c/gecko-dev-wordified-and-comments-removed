@@ -3180,6 +3180,15 @@ function
 threadFront
 )
 {
+if
+(
+!
+threadFront
+)
+{
+return
+;
+}
 threadFront
 .
 off
