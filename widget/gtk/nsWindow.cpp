@@ -21615,10 +21615,17 @@ mIsTransparent
 =
 isTransparent
 ;
+if
+(
+!
+mHasAlphaVisual
+)
+{
 CleanLayerManagerRecursive
 (
 )
 ;
+}
 }
 nsTransparencyMode
 nsWindow
