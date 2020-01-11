@@ -4297,7 +4297,7 @@ bool
 PrincipalAllowsL10n
 (
 nsIPrincipal
-*
+&
 aPrincipal
 nsIURI
 *
