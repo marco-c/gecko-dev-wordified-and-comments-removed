@@ -98,6 +98,11 @@ bool
 )
 MOZ_BC_FIELD
 (
+Loading
+bool
+)
+MOZ_BC_FIELD
+(
 GVAudibleAutoplayRequestStatus
 GVAutoplayRequestStatus
 )
