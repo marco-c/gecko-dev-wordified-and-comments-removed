@@ -18,14 +18,18 @@ from
 unittest
 import
 TestCase
-import
-mozunit
 from
 six
 .
 moves
 import
 range
+from
+six
+import
+iteritems
+import
+mozunit
 from
 manifestparser
 .
@@ -565,15 +569,14 @@ for
 d
 num
 in
-dirs
-.
 iteritems
 (
+dirs
 )
 :
             
 for
-j
+_
 in
 range
 (
@@ -819,10 +822,13 @@ tests
                 
 lengths
 =
+list
+(
 map
 (
 num_groups
 res
+)
 )
                 
 self
@@ -1224,15 +1230,14 @@ for
 d
 num
 in
-dirs
-.
 iteritems
 (
+dirs
 )
 :
             
 for
-j
+_
 in
 range
 (
@@ -1374,10 +1379,9 @@ for
 manifest
 runtime
 in
-runtimes
-.
-items
+iteritems
 (
+runtimes
 )
 :
             
@@ -1415,6 +1419,18 @@ tests_by_manifest
 .
 sort
 (
+key
+=
+lambda
+x
+:
+x
+[
+0
+]
+reverse
+=
+False
 )
         
 chunks
