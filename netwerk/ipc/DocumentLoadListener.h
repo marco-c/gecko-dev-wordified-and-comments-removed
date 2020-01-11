@@ -570,8 +570,6 @@ virtual
 DocumentLoadListener
 (
 )
-=
-default
 ;
 void
 TriggerRedirectToRealChannel
