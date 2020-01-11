@@ -154,3 +154,15 @@ disabled
 true
 )
 ;
+user_pref
+(
+'
+javascript
+.
+options
+.
+asyncstack
+'
+false
+)
+;
