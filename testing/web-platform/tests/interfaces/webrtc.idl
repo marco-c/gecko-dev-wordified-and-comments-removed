@@ -2301,8 +2301,12 @@ constructor
 (
 DOMString
 type
+optional
 RTCDTMFToneChangeEventInit
 eventInitDict
+=
+{
+}
 )
 ;
 readonly
@@ -2317,9 +2321,11 @@ RTCDTMFToneChangeEventInit
 :
 EventInit
 {
-required
 DOMString
 tone
+=
+"
+"
 ;
 }
 ;
