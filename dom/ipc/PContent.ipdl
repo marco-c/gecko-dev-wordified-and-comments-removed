@@ -9593,8 +9593,8 @@ details
 async
 SessionStorageData
 (
-BrowsingContext
-aTop
+uint64_t
+aTopContextId
 nsCString
 aOriginAttrs
 nsCString

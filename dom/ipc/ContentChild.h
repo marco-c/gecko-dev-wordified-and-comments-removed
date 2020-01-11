@@ -3592,9 +3592,8 @@ ipc
 IPCResult
 RecvSessionStorageData
 (
-BrowsingContext
-*
-aTop
+uint64_t
+aTopContextId
 const
 nsACString
 &
