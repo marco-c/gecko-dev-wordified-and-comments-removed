@@ -457,7 +457,13 @@ PCompositorBridgeParent
 public
 HostIPCAllocator
 public
-ShmemAllocator
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 public
 MetricsSharingController
 {
@@ -708,7 +714,7 @@ aPayload
 )
 {
 }
-ShmemAllocator
+IShmemAllocator
 *
 AsShmemAllocator
 (
@@ -868,7 +874,7 @@ aShmem
 )
 override
 ;
-void
+bool
 DeallocShmem
 (
 mozilla
