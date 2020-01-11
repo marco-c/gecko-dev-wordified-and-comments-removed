@@ -1095,6 +1095,17 @@ aFrame
 {
 MOZ_ASSERT
 (
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
+MOZ_ASSERT
+(
 mState
 )
 ;
