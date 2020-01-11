@@ -3124,6 +3124,14 @@ aResult
 )
 ;
 bool
+ChannelIsPost
+(
+nsIChannel
+*
+aChannel
+)
+;
+bool
 SchemeIsHTTP
 (
 nsIURI
