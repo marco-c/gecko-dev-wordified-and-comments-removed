@@ -77744,11 +77744,6 @@ AEBUEventListenerFlags
 2
 Z
 ?
-IsUniversalXPConnectEnabled
-xpc
-YA_NPEAUJSContext
-Z
-?
 EventListenerAdded
 EventTarget
 dom

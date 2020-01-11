@@ -78491,11 +78491,6 @@ ABUEventListenerFlags
 2
 Z
 ?
-IsUniversalXPConnectEnabled
-xpc
-YA_NPAUJSContext
-Z
-?
 EventListenerAdded
 EventTarget
 dom

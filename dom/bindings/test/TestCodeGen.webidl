@@ -7080,7 +7080,7 @@ attributes
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 attribute
@@ -7091,7 +7091,7 @@ deprecatedAttribute
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 byte
@@ -7103,7 +7103,7 @@ deprecatedMethod
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 byte
@@ -7174,7 +7174,7 @@ attributes
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
@@ -7186,7 +7186,7 @@ staticDeprecatedAttribute
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
@@ -7199,7 +7199,7 @@ staticDeprecatedMethod
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
@@ -9871,7 +9871,7 @@ volatile
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 Exposed
 =

@@ -5947,7 +5947,7 @@ attributes
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 attribute
@@ -5958,7 +5958,7 @@ deprecatedAttribute
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 void
@@ -5972,7 +5972,7 @@ arg
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 void
@@ -6020,7 +6020,7 @@ attributes
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
@@ -6032,7 +6032,7 @@ staticDeprecatedAttribute
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
@@ -6047,7 +6047,7 @@ arg
 Deprecated
 =
 "
-EnablePrivilege
+Components
 "
 ]
 static
