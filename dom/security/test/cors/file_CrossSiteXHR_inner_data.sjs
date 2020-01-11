@@ -58,7 +58,9 @@ n
 \
 req
 =
-eval
+JSON
+.
+parse
 (
 e
 .
@@ -787,10 +789,11 @@ source
 .
 postMessage
 (
-res
+JSON
 .
-toSource
+stringify
 (
+res
 )
 "
 *
