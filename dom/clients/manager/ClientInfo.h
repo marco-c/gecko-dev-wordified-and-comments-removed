@@ -7,6 +7,13 @@ _mozilla_dom_ClientInfo_h
 #
 include
 "
+X11UndefineNone
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

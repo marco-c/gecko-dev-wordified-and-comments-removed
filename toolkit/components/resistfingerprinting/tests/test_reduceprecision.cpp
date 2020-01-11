@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsServiceManagerUtils
+.
+h
+"
+#
+include
+"
 nsRFPService
 .
 h

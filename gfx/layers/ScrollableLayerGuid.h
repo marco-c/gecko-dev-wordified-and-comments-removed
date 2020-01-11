@@ -45,6 +45,13 @@ h
 #
 include
 "
+nsHashKeys
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

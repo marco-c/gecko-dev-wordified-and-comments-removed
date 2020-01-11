@@ -74,13 +74,6 @@ h
 "
 #
 include
-"
-nsStyleConsts
-.
-h
-"
-#
-include
 <
 stdio
 .
@@ -189,6 +182,12 @@ ParamTraits
 namespace
 mozilla
 {
+enum
+class
+StyleBorderStyle
+:
+uint8_t
+;
 namespace
 layers
 {

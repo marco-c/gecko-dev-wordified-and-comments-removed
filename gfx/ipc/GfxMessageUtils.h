@@ -7,17 +7,6 @@ __GFXMESSAGEUTILS_H__
 #
 include
 "
-mozilla
-/
-webrender
-/
-webrender_ffi
-.
-h
-"
-#
-include
-"
 FilterSupport
 .
 h
