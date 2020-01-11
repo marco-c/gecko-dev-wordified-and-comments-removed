@@ -7472,7 +7472,7 @@ isAligned
 ;
 if
 (
-JSString
+JSAtom
 *
 desc
 =
@@ -7484,16 +7484,6 @@ description
 )
 )
 {
-MOZ_ASSERT
-(
-desc
--
->
-isAtom
-(
-)
-)
-;
 AssertValidStringPtr
 (
 cx

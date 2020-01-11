@@ -645,10 +645,12 @@ return
 false
 ;
 }
-RootedString
-str
+if
 (
-cx
+JSAtom
+*
+desc
+=
 sym
 -
 >
@@ -656,11 +658,6 @@ description
 (
 )
 )
-;
-if
-(
-str
-)
 {
 if
 (
@@ -669,7 +666,7 @@ sb
 .
 append
 (
-str
+desc
 )
 )
 {
@@ -695,6 +692,8 @@ return
 false
 ;
 }
+JSString
+*
 str
 =
 sb
