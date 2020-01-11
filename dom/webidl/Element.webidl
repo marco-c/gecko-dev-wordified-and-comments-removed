@@ -1179,6 +1179,7 @@ tabIndex
 ;
 [
 Throws
+NeedsCallerType
 ]
 void
 focus

@@ -852,6 +852,8 @@ Client
 :
 Focus
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aRv
@@ -993,6 +995,7 @@ mHandle
 >
 Focus
 (
+aCallerType
 )
 -
 >

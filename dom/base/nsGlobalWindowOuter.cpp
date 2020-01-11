@@ -21666,6 +21666,8 @@ nsGlobalWindowOuter
 :
 FocusOuter
 (
+CallerType
+aCallerType
 )
 {
 nsFocusManager
@@ -22054,6 +22056,7 @@ RequestFrameFocus
 *
 frame
 canFocus
+aCallerType
 )
 ;
 }
@@ -22074,9 +22077,10 @@ rv
 fm
 -
 >
-SetActiveWindow
+SetActiveWindowWithCallerType
 (
 this
+aCallerType
 )
 ;
 MOZ_ASSERT
@@ -22086,7 +22090,7 @@ NS_SUCCEEDED
 rv
 )
 "
-SetActiveWindow
+SetActiveWindowWithCallerType
 only
 fails
 if
@@ -22094,6 +22098,8 @@ passed
 null
 or
 a
+"
+"
 non
 -
 toplevel
@@ -22118,12 +22124,15 @@ nsGlobalWindowOuter
 :
 Focus
 (
+CallerType
+aCallerType
 )
 {
 FORWARD_TO_INNER
 (
 Focus
 (
+aCallerType
 )
 NS_ERROR_UNEXPECTED
 )

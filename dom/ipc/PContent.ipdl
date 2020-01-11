@@ -9471,6 +9471,8 @@ WindowFocus
 (
 BrowsingContext
 aContext
+CallerType
+aCallerType
 )
 ;
 async

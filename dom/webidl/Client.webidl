@@ -257,6 +257,7 @@ ancestorOrigins
 [
 Throws
 NewObject
+NeedsCallerType
 ]
 Promise
 <

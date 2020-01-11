@@ -643,6 +643,9 @@ const
 bool
 &
 aCanRaise
+const
+CallerType
+aCallerType
 )
 {
 RefPtr
@@ -678,6 +681,7 @@ RequestFrameFocus
 *
 owner
 aCanRaise
+aCallerType
 )
 ;
 return

@@ -185,6 +185,11 @@ BindingDeclarations
 h
 '
 '
+BindingIPCUtils
+.
+h
+'
+'
 BindingUtils
 .
 h
