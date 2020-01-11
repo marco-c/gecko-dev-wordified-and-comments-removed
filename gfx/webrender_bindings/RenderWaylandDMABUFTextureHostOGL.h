@@ -140,9 +140,6 @@ GLContext
 >
 mGL
 ;
-GLenum
-mTextureTarget
-;
 GLuint
 mTextureHandle
 ;

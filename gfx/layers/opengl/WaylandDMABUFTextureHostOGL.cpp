@@ -215,7 +215,7 @@ GetEGLImage
 (
 )
 format
-LOCAL_GL_TEXTURE_EXTERNAL
+LOCAL_GL_TEXTURE_2D
 LOCAL_GL_CLAMP_TO_EDGE
 gfx
 :
@@ -601,7 +601,7 @@ wr
 TextureTarget
 :
 :
-External
+Default
 )
 ;
 gfx
