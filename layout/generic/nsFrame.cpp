@@ -56566,9 +56566,6 @@ set
 ;
 }
 }
-#
-ifdef
-DEBUG
 DR_cookie
 :
 :
@@ -63778,8 +63775,6 @@ treeNode
 )
 ;
 }
-#
-endif
 #
 define
 CASE
