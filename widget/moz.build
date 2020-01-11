@@ -966,6 +966,11 @@ InProcessCompositorWidget
 h
 '
 '
+MediaKeysEventSourceFactory
+.
+h
+'
+'
 nsAutoRollup
 .
 h

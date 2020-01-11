@@ -227,6 +227,11 @@ GeneratedJNIWrappers
 .
 cpp
 '
+'
+MediaKeysEventSourceFactory
+.
+cpp
+'
 ]
 UNIFIED_SOURCES
 +

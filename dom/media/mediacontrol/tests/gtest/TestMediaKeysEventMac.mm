@@ -126,6 +126,13 @@ mozilla
 :
 dom
 ;
+using
+namespace
+mozilla
+:
+:
+widget
+;
 static
 const
 int

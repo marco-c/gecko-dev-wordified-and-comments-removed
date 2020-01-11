@@ -495,6 +495,11 @@ JumpListBuilder
 cpp
 '
 '
+MediaKeysEventSourceFactory
+.
+cpp
+'
+'
 nsBidiKeyboard
 .
 cpp

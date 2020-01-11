@@ -328,6 +328,11 @@ SOURCES
 =
 [
 '
+MediaKeysEventSourceFactory
+.
+cpp
+'
+'
 nsWindow
 .
 cpp
