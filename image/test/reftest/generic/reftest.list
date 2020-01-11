@@ -17,6 +17,12 @@ catchall
 ref
 .
 html
+skip
+-
+if
+(
+Android
+)
 !
 =
 moz
