@@ -470,6 +470,12 @@ if
 (
 !
 aGdkDisplay
+|
+|
+GDK_IS_X11_DISPLAY
+(
+aGdkDisplay
+)
 )
 {
 return
