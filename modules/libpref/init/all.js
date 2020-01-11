@@ -32503,7 +32503,7 @@ generation
 .
 available
 "
-false
+true
 )
 ;
 pref
@@ -32515,7 +32515,7 @@ generation
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -32527,7 +32527,7 @@ privateBrowsingCapture
 .
 enabled
 "
-false
+true
 )
 ;
 pref
@@ -32593,7 +32593,7 @@ signon
 .
 schemeUpgrades
 "
-false
+true
 )
 ;
 pref
@@ -32603,7 +32603,7 @@ signon
 .
 includeOtherSubdomainsInLookup
 "
-false
+true
 )
 ;
 pref
@@ -32625,7 +32625,7 @@ signon
 .
 showAutoCompleteFooter
 "
-false
+true
 )
 ;
 pref
@@ -32634,16 +32634,6 @@ pref
 signon
 .
 showAutoCompleteOrigins
-"
-false
-)
-;
-pref
-(
-"
-signon
-.
-storeSignons
 "
 true
 )
