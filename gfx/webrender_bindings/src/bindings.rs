@@ -6207,6 +6207,7 @@ true
 true
 None
 false
+false
 )
 }
 extern
@@ -6649,6 +6650,9 @@ out_max_texture_size
 mut
 i32
 enable_gpu_markers
+:
+bool
+panic_on_gl_error
 :
 bool
 )
@@ -7301,6 +7305,7 @@ start_debug_server
 surface_origin_is_top_left
 compositor_config
 enable_gpu_markers
+panic_on_gl_error
 .
 .
 Default
