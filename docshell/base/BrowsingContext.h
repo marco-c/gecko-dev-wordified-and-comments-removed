@@ -2221,6 +2221,11 @@ DidSetMuted
 (
 )
 ;
+void
+DidSetAncestorLoading
+(
+)
+;
 bool
 MaySetEmbedderInnerWindowId
 (

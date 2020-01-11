@@ -127,6 +127,11 @@ MOZ_BC_FIELD
 GVInaudibleAutoplayRequestStatus
 GVAutoplayRequestStatus
 )
+MOZ_BC_FIELD
+(
+AncestorLoading
+bool
+)
 #
 undef
 MOZ_BC_FIELD
