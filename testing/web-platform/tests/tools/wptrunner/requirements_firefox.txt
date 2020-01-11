@@ -63,7 +63,7 @@ mozrunner
 =
 7
 .
-6
+7
 .
 0
 mozversion
