@@ -157,6 +157,12 @@ return
 mChildSheet
 ;
 }
+void
+DropSheetReference
+(
+)
+final
+;
 JSObject
 *
 WrapObject

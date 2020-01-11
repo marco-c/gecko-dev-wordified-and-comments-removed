@@ -1499,6 +1499,11 @@ IsReadOnly
 )
 const
 ;
+void
+RemoveFromParent
+(
+)
+;
 private
 :
 dom
