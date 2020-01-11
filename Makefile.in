@@ -282,8 +282,6 @@ h
 mozconfig
 .
 mk
-ifndef
-MOZ_PROFILE_USE
 ifneq
 (
 mobile
@@ -346,7 +344,6 @@ buildid
 h
 .
 stub
-endif
 BUILD_BACKEND_FILES
 :
 =
@@ -364,8 +361,6 @@ BUILD_BACKENDS
 )
 ifndef
 TEST_MOZBUILD
-ifndef
-MOZ_PROFILE_USE
 #
 We
 need
@@ -399,7 +394,6 @@ CLOBBER
 (
 BUILD_BACKEND_FILES
 )
-endif
 endif
 ifdef
 JS_STANDALONE
