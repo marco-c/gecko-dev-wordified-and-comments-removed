@@ -291,6 +291,17 @@ script
 )
 const
 ;
+Scope
+*
+innermostScope
+(
+const
+JSScript
+*
+script
+)
+const
+;
 #
 ifdef
 DEBUG
