@@ -178,7 +178,7 @@ webgl
 AttribBaseType
 :
 :
-UInt
+Uint
 ;
 default
 :

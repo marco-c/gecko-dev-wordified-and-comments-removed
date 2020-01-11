@@ -193,16 +193,6 @@ LOCAL_GL_UNSIGNED_INT_24_8
 )
 ;
 }
-WebGLExtensionDepthTexture
-:
-:
-~
-WebGLExtensionDepthTexture
-(
-)
-=
-default
-;
 bool
 WebGLExtensionDepthTexture
 :

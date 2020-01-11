@@ -67,15 +67,6 @@ unsupported
 )
 ;
 }
-WebGLExtensionShaderTextureLod
-:
-:
-~
-WebGLExtensionShaderTextureLod
-(
-)
-{
-}
 bool
 WebGLExtensionShaderTextureLod
 :

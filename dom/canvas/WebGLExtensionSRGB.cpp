@@ -286,15 +286,6 @@ usage
 )
 ;
 }
-WebGLExtensionSRGB
-:
-:
-~
-WebGLExtensionSRGB
-(
-)
-{
-}
 bool
 WebGLExtensionSRGB
 :

@@ -50,7 +50,7 @@ mIntegerFunc
 ;
 public
 :
-WebGLRefPtr
+RefPtr
 <
 WebGLBuffer
 >

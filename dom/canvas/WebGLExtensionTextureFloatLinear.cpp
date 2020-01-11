@@ -212,13 +212,4 @@ true
 ;
 }
 }
-WebGLExtensionTextureFloatLinear
-:
-:
-~
-WebGLExtensionTextureFloatLinear
-(
-)
-{
-}
 }

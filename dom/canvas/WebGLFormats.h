@@ -203,6 +203,14 @@ NormUInt
 Float
 }
 ;
+const
+char
+*
+ToString
+(
+ComponentType
+)
+;
 enum
 class
 TextureBaseType

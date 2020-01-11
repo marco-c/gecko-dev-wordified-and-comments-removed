@@ -78,6 +78,12 @@ LayersIPCChannel
 class
 SharedSurfaceTextureClient
 ;
+enum
+class
+LayersBackend
+:
+int8_t
+;
 }
 namespace
 gl

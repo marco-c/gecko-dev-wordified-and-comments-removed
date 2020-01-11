@@ -37,7 +37,10 @@ WebGLContext
 *
 webgl
 const
-nsAString
+std
+:
+:
+string
 &
 string
 )
@@ -46,7 +49,10 @@ bool
 ValidateGLSLVariableName
 (
 const
-nsAString
+std
+:
+:
+string
 &
 name
 WebGLContext

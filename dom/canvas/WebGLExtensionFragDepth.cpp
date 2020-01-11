@@ -67,15 +67,6 @@ unsupported
 )
 ;
 }
-WebGLExtensionFragDepth
-:
-:
-~
-WebGLExtensionFragDepth
-(
-)
-{
-}
 bool
 WebGLExtensionFragDepth
 :

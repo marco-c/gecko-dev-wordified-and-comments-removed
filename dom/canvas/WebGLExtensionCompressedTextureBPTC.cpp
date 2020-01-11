@@ -129,16 +129,6 @@ sizedFormat
 usage
 )
 ;
-webgl
--
->
-mCompressedTextureFormats
-.
-AppendElement
-(
-sizedFormat
-)
-;
 }
 ;
 #
