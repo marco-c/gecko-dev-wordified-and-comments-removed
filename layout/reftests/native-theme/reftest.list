@@ -541,7 +541,7 @@ theme
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -560,7 +560,7 @@ theme
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -579,7 +579,7 @@ theme
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -598,7 +598,7 @@ theme
 -
 ref
 .
-xul
+xhtml
 =
 =
 492155
@@ -780,7 +780,7 @@ when
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -803,7 +803,7 @@ rtl
 -
 ref
 .
-xul
+xhtml
 skip
 -
 if
@@ -833,7 +833,7 @@ when
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -856,7 +856,7 @@ rtl
 -
 ref
 .
-xul
+xhtml
 skip
 -
 if
@@ -904,7 +904,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -921,7 +921,7 @@ blank
 -
 window
 .
-xul
+xhtml
 random
 -
 if
@@ -946,7 +946,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -963,7 +963,7 @@ resizer
 -
 bottomright
 .
-xul
+xhtml
 #
 bug
 581086
@@ -985,7 +985,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1004,7 +1004,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 #
 Disabled
 on
@@ -1046,7 +1046,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1063,7 +1063,7 @@ blank
 -
 window
 .
-xul
+xhtml
 skip
 -
 if
@@ -1096,7 +1096,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1115,7 +1115,7 @@ bottomend
 -
 flipped
 .
-xul
+xhtml
 skip
 -
 if
@@ -1142,7 +1142,7 @@ bottomleft
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1159,7 +1159,7 @@ resizer
 -
 bottomleft
 .
-xul
+xhtml
 skip
 -
 if
@@ -1186,7 +1186,7 @@ bottomright
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1203,7 +1203,7 @@ resizer
 -
 bottomright
 .
-xul
+xhtml
 !
 =
 chrome
@@ -1222,7 +1222,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1239,7 +1239,7 @@ blank
 -
 window
 .
-xul
+xhtml
 random
 -
 if
@@ -1264,7 +1264,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1281,7 +1281,7 @@ resizer
 -
 bottomleft
 .
-xul
+xhtml
 random
 -
 if
@@ -1306,7 +1306,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1323,7 +1323,7 @@ resizer
 -
 left
 .
-xul
+xhtml
 !
 =
 chrome
@@ -1342,7 +1342,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1361,7 +1361,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 skip
 -
 if
@@ -1388,7 +1388,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1405,7 +1405,7 @@ blank
 -
 window
 .
-xul
+xhtml
 skip
 -
 if
@@ -1438,7 +1438,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1455,7 +1455,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 #
 Windows
 -
@@ -1697,7 +1697,7 @@ theme
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -1716,4 +1716,4 @@ theme
 -
 ref
 .
-xul
+xhtml

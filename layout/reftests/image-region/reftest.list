@@ -16,7 +16,7 @@ image
 -
 region
 .
-xul
+xhtml
 chrome
 :
 /
@@ -35,4 +35,4 @@ region
 -
 ref
 .
-xul
+xhtml

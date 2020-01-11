@@ -16,7 +16,7 @@ sizing
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -35,7 +35,7 @@ sizing
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -54,7 +54,7 @@ sizing
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -73,7 +73,7 @@ sizing
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -96,7 +96,7 @@ sizing
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -117,7 +117,7 @@ sizing
 -
 2
 .
-xul
+xhtml
 =
 =
 chrome
@@ -140,7 +140,7 @@ sizing
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -161,7 +161,7 @@ sizing
 -
 3
 .
-xul
+xhtml
 =
 =
 chrome
@@ -184,7 +184,7 @@ sizing
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -205,7 +205,7 @@ sizing
 -
 4
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -236,7 +236,7 @@ order
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -255,7 +255,7 @@ order
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -286,7 +286,7 @@ order
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -305,7 +305,7 @@ order
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -336,7 +336,7 @@ full
 -
 basic
 .
-xul
+xhtml
 not
 -
 full
@@ -380,7 +380,7 @@ pack
 -
 align
 .
-xul
+xhtml
 not
 -
 full
@@ -424,7 +424,7 @@ group
 -
 align
 .
-xul
+xhtml
 not
 -
 full
@@ -481,7 +481,7 @@ group
 -
 pack
 .
-xul
+xhtml
 not
 -
 full
@@ -529,7 +529,7 @@ group
 -
 direction
 .
-xul
+xhtml
 not
 -
 full
@@ -577,7 +577,7 @@ leaf
 -
 align
 .
-xul
+xhtml
 not
 -
 full
@@ -621,7 +621,7 @@ leaf
 -
 pack
 .
-xul
+xhtml
 not
 -
 full
@@ -669,7 +669,7 @@ leaf
 -
 direction
 .
-xul
+xhtml
 not
 -
 full
@@ -720,7 +720,7 @@ scrollable
 -
 columns
 .
-xul
+xhtml
 scrollable
 -
 columns
@@ -748,7 +748,7 @@ scrollable
 -
 rows
 .
-xul
+xhtml
 scrollable
 -
 rows
@@ -772,7 +772,7 @@ sizing
 -
 2d
 .
-xul
+xhtml
 chrome
 :
 /
@@ -789,4 +789,4 @@ sizing
 -
 ref
 .
-xul
+xhtml

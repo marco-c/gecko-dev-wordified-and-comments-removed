@@ -77,7 +77,7 @@ none
 -
 grouped
 .
-xul
+xhtml
 chrome
 :
 /
@@ -96,7 +96,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -123,7 +123,7 @@ one
 -
 grouped
 .
-xul
+xhtml
 chrome
 :
 /
@@ -142,7 +142,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -171,7 +171,7 @@ grouped
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -190,7 +190,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 fails
 =
 =
@@ -220,7 +220,7 @@ grouped
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -239,7 +239,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 #
 bug
 575500
@@ -271,7 +271,7 @@ grouped
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -290,7 +290,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -319,7 +319,7 @@ grouped
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -338,4 +338,4 @@ dynamic
 -
 ref
 .
-xul
+xhtml

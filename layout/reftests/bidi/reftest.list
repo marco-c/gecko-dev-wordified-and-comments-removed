@@ -3517,7 +3517,7 @@ bidi
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3534,7 +3534,7 @@ bidi
 -
 ref
 .
-xul
+xhtml
 =
 =
 922530
@@ -3685,7 +3685,7 @@ bidi
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3702,7 +3702,7 @@ bidi
 -
 ref
 .
-xul
+xhtml
 =
 =
 1157726

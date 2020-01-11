@@ -42,7 +42,7 @@ simple
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -87,7 +87,7 @@ rtl
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -132,7 +132,7 @@ simple
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -177,7 +177,7 @@ background
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -219,7 +219,7 @@ style
 -
 ref
 .
-xul
+xhtml
 !
 =
 width

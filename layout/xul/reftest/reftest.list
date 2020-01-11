@@ -18,7 +18,7 @@ explicit
 -
 size
 .
-xul
+xhtml
 chrome
 :
 /
@@ -39,7 +39,7 @@ size
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -76,7 +76,7 @@ image
 -
 size
 .
-xul
+xhtml
 chrome
 :
 /
@@ -95,7 +95,7 @@ size
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -120,7 +120,7 @@ height
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -145,7 +145,7 @@ height
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -166,7 +166,7 @@ text
 -
 transform
 .
-xul
+xhtml
 chrome
 :
 /
@@ -187,7 +187,7 @@ transform
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -208,7 +208,7 @@ dynamic
 -
 change
 .
-xul
+xhtml
 chrome
 :
 /
@@ -229,7 +229,7 @@ change
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -250,7 +250,7 @@ dynamic
 -
 change
 .
-xul
+xhtml
 chrome
 :
 /
@@ -271,4 +271,4 @@ change
 -
 ref
 .
-xul
+xhtml

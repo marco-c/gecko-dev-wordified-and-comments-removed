@@ -59,7 +59,7 @@ test
 -
 async
 .
-xul
+xhtml
 chrome
 :
 /
@@ -78,7 +78,7 @@ async
 -
 ref
 .
-xul
+xhtml
 =
 =
 test

@@ -16,7 +16,7 @@ flex
 -
 1
 .
-xul
+xhtml
 css
 -
 flex
@@ -42,7 +42,7 @@ menuitem
 -
 key
 .
-xul
+xhtml
 chrome
 :
 /
@@ -59,7 +59,7 @@ key
 -
 ref
 .
-xul
+xhtml
 #
 these
 random
@@ -104,7 +104,7 @@ shrinkwrap
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -123,7 +123,7 @@ shrinkwrap
 -
 ref
 .
-xul
+xhtml
 random
 -
 if
@@ -148,7 +148,7 @@ shrinkwrap
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -167,7 +167,7 @@ shrinkwrap
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -186,7 +186,7 @@ overflow
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -205,7 +205,7 @@ overflow
 -
 ref
 .
-xul
+xhtml
 #
 for
 bug
@@ -248,7 +248,7 @@ xul
 /
 accesskey
 .
-xul
+xhtml
 chrome
 :
 /
@@ -263,7 +263,7 @@ accesskey
 -
 ref
 .
-xul
+xhtml
 pref
 (
 layout
@@ -320,7 +320,7 @@ outline
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -341,7 +341,7 @@ outline
 -
 ref
 .
-xul
+xhtml
 #
 win8
 :
@@ -381,7 +381,7 @@ tab
 -
 toolbar
 .
-xul
+xhtml
 chrome
 :
 /
@@ -400,7 +400,7 @@ toolbar
 -
 ref
 .
-xul
+xhtml
 pref
 (
 layout
@@ -438,7 +438,7 @@ outline
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -459,7 +459,7 @@ outline
 -
 notref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -476,7 +476,7 @@ text
 -
 crop
 .
-xul
+xhtml
 chrome
 :
 /
@@ -493,7 +493,7 @@ crop
 -
 ref
 .
-xul
+xhtml
 random
 -
 if
@@ -537,7 +537,7 @@ caps
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -558,7 +558,7 @@ caps
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -640,7 +640,7 @@ bg
 -
 bug1205630
 .
-xul
+xhtml
 inactive
 -
 fixed
@@ -733,7 +733,7 @@ bg
 -
 bug1272525
 .
-xul
+xhtml
 inactive
 -
 fixed
@@ -836,7 +836,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -872,7 +872,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -908,7 +908,7 @@ svg
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -944,7 +944,7 @@ svg
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -980,7 +980,7 @@ svg
 -
 003
 .
-xul
+xhtml
 object
 -
 fit
@@ -1016,7 +1016,7 @@ svg
 -
 004
 .
-xul
+xhtml
 object
 -
 fit
@@ -1052,7 +1052,7 @@ svg
 -
 005
 .
-xul
+xhtml
 object
 -
 fit
@@ -1088,7 +1088,7 @@ svg
 -
 006
 .
-xul
+xhtml
 object
 -
 fit
@@ -1124,7 +1124,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1160,7 +1160,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1196,7 +1196,7 @@ svg
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1232,7 +1232,7 @@ svg
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1268,7 +1268,7 @@ svg
 -
 003
 .
-xul
+xhtml
 object
 -
 fit
@@ -1304,7 +1304,7 @@ svg
 -
 004
 .
-xul
+xhtml
 object
 -
 fit
@@ -1340,7 +1340,7 @@ svg
 -
 005
 .
-xul
+xhtml
 object
 -
 fit
@@ -1376,7 +1376,7 @@ svg
 -
 006
 .
-xul
+xhtml
 object
 -
 fit
@@ -1412,7 +1412,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1448,7 +1448,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1484,7 +1484,7 @@ svg
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1520,7 +1520,7 @@ svg
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1556,7 +1556,7 @@ svg
 -
 003
 .
-xul
+xhtml
 object
 -
 fit
@@ -1592,7 +1592,7 @@ svg
 -
 004
 .
-xul
+xhtml
 object
 -
 fit
@@ -1628,7 +1628,7 @@ svg
 -
 005
 .
-xul
+xhtml
 object
 -
 fit
@@ -1664,7 +1664,7 @@ svg
 -
 006
 .
-xul
+xhtml
 object
 -
 fit
@@ -1700,7 +1700,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1736,7 +1736,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1772,7 +1772,7 @@ svg
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -1808,7 +1808,7 @@ svg
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -1844,7 +1844,7 @@ svg
 -
 003
 .
-xul
+xhtml
 object
 -
 fit
@@ -1880,7 +1880,7 @@ svg
 -
 004
 .
-xul
+xhtml
 object
 -
 fit
@@ -1916,7 +1916,7 @@ svg
 -
 005
 .
-xul
+xhtml
 object
 -
 fit
@@ -1952,7 +1952,7 @@ svg
 -
 006
 .
-xul
+xhtml
 object
 -
 fit
@@ -1990,7 +1990,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -2030,7 +2030,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -2070,7 +2070,7 @@ svg
 -
 001
 .
-xul
+xhtml
 object
 -
 fit
@@ -2110,7 +2110,7 @@ svg
 -
 002
 .
-xul
+xhtml
 object
 -
 fit
@@ -2150,7 +2150,7 @@ svg
 -
 003
 .
-xul
+xhtml
 object
 -
 fit
@@ -2190,7 +2190,7 @@ svg
 -
 004
 .
-xul
+xhtml
 object
 -
 fit
@@ -2230,7 +2230,7 @@ svg
 -
 005
 .
-xul
+xhtml
 object
 -
 fit
@@ -2270,7 +2270,7 @@ svg
 -
 006
 .
-xul
+xhtml
 object
 -
 fit
@@ -2306,7 +2306,7 @@ png
 -
 001
 .
-xul
+xhtml
 object
 -
 position
@@ -2338,7 +2338,7 @@ png
 -
 002
 .
-xul
+xhtml
 object
 -
 position
@@ -2368,7 +2368,7 @@ appearance
 -
 dynamic
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2387,7 +2387,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 #
 Tests
 for
@@ -2457,7 +2457,7 @@ svg
 -
 1a
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2478,7 +2478,7 @@ svg
 -
 ref
 .
-xul
+xhtml
 #
 bug
 1218954
@@ -2503,7 +2503,7 @@ svg
 -
 1b
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2524,7 +2524,7 @@ svg
 -
 ref
 .
-xul
+xhtml
 #
 bug
 1218954
@@ -2548,7 +2548,7 @@ percent
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2569,7 +2569,7 @@ percent
 -
 ref
 .
-xul
+xhtml
 pref
 (
 layout
@@ -2613,7 +2613,7 @@ not
 -
 ref
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2636,7 +2636,7 @@ paint
 -
 ref
 .
-xul
+xhtml
 pref
 (
 layout
@@ -2691,7 +2691,7 @@ paint
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2714,7 +2714,7 @@ paint
 -
 ref
 .
-xul
+xhtml
 #
 resizer
 (
@@ -2740,7 +2740,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2755,7 +2755,7 @@ blank
 -
 window
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2772,7 +2772,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2787,7 +2787,7 @@ resizer
 -
 bottomright
 .
-xul
+xhtml
 !
 =
 chrome
@@ -2804,7 +2804,7 @@ resizer
 -
 bottomend
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2821,7 +2821,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 !
 =
 chrome
@@ -2840,7 +2840,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2855,7 +2855,7 @@ blank
 -
 window
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2874,7 +2874,7 @@ bottomend
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2891,7 +2891,7 @@ bottomend
 -
 flipped
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2910,7 +2910,7 @@ bottomleft
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2925,7 +2925,7 @@ resizer
 -
 bottomleft
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2944,7 +2944,7 @@ bottomright
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2959,7 +2959,7 @@ resizer
 -
 bottomright
 .
-xul
+xhtml
 !
 =
 chrome
@@ -2976,7 +2976,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2991,7 +2991,7 @@ blank
 -
 window
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3008,7 +3008,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3023,7 +3023,7 @@ resizer
 -
 bottomleft
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3040,7 +3040,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3055,7 +3055,7 @@ resizer
 -
 left
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3072,7 +3072,7 @@ resizer
 -
 bottomstart
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3089,7 +3089,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3108,7 +3108,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3123,7 +3123,7 @@ blank
 -
 window
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3142,7 +3142,7 @@ bottomstart
 -
 rtl
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3157,4 +3157,4 @@ resizer
 -
 bottomend
 .
-xul
+xhtml

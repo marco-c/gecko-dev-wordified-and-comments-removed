@@ -506,7 +506,7 @@ boxshadow
 -
 dynamic
 .
-xul
+xhtml
 chrome
 :
 /
@@ -525,7 +525,7 @@ dynamic
 -
 ref
 .
-xul
+xhtml
 random
 -
 if

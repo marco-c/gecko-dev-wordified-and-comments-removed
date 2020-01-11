@@ -433,7 +433,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -455,7 +455,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 313086
 -
@@ -501,7 +501,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -523,7 +523,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 chrome
 :
@@ -545,7 +545,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -567,7 +567,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 322436
 -
@@ -601,7 +601,7 @@ crashtests
 /
 325218
 .
-xul
+xhtml
 load
 325967
 -
@@ -641,7 +641,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 329900
 -
@@ -717,7 +717,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 337066
 -
@@ -757,7 +757,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 338703
 -
@@ -791,7 +791,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 341382
 -
@@ -879,7 +879,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 347898
 -
@@ -967,7 +967,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 358729
 -
@@ -995,7 +995,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -1017,7 +1017,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 363729
 -
@@ -1408,7 +1408,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 401734
 -
@@ -1508,7 +1508,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 406675
 -
@@ -1625,7 +1625,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 421432
 .
@@ -1762,7 +1762,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 444967
 -
@@ -1846,7 +1846,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 455063
 -
@@ -2141,7 +2141,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -2163,7 +2163,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 492014
 .
@@ -2265,7 +2265,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 534367
 -
@@ -2321,7 +2321,7 @@ crashtests
 /
 536720
 .
-xul
+xhtml
 load
 537562
 -
@@ -2361,7 +2361,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 538207
 -
@@ -2399,7 +2399,7 @@ crashtests
 /
 540760
 .
-xul
+xhtml
 load
 540771
 -
@@ -2484,7 +2484,7 @@ crashtests
 /
 572003
 .
-xul
+xhtml
 load
 572582
 -
@@ -3217,7 +3217,7 @@ crashtests
 /
 1162813
 .
-xul
+xhtml
 load
 1163583
 .

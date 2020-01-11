@@ -160,7 +160,7 @@ crashtests
 /
 321224
 .
-xul
+xhtml
 load
 chrome
 :
@@ -182,7 +182,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 323381
 -
@@ -1439,7 +1439,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 414719
 -
@@ -1745,7 +1745,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 443528
 -
@@ -2265,7 +2265,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 508908
 -
@@ -3548,7 +3548,7 @@ crashtests
 /
 1003441
 .
-xul
+xhtml
 load
 1015562
 .
@@ -4715,7 +4715,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 1520798
 -

@@ -19,7 +19,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -41,7 +41,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 140218
 -
@@ -69,7 +69,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -91,7 +91,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -113,7 +113,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -135,7 +135,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 290743
 .
@@ -161,7 +161,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -183,7 +183,7 @@ crashtests
 -
 2
 .
-xul
+xhtml
 load
 chrome
 :
@@ -205,7 +205,7 @@ crashtests
 -
 3
 .
-xul
+xhtml
 load
 chrome
 :
@@ -227,7 +227,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 311457
 -
@@ -261,7 +261,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -281,7 +281,7 @@ crashtests
 /
 325377
 .
-xul
+xhtml
 load
 chrome
 :
@@ -303,7 +303,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -325,7 +325,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -347,7 +347,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 329407
 -
@@ -375,7 +375,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -397,7 +397,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -417,7 +417,7 @@ crashtests
 /
 350460
 .
-xul
+xhtml
 load
 chrome
 :
@@ -437,7 +437,7 @@ crashtests
 /
 365151
 .
-xul
+xhtml
 load
 chrome
 :
@@ -459,7 +459,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -481,7 +481,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 367185
 -
@@ -515,7 +515,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 376137
 -
@@ -563,7 +563,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 chrome
 :
@@ -585,7 +585,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 384037
 -
@@ -627,7 +627,7 @@ crashtests
 /
 386642
 .
-xul
+xhtml
 load
 chrome
 :
@@ -649,7 +649,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 391974
 -
@@ -675,7 +675,7 @@ crashtests
 /
 399013
 .
-xul
+xhtml
 load
 402912
 -
@@ -707,7 +707,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 412479
 -
@@ -733,7 +733,7 @@ crashtests
 /
 417509
 .
-xul
+xhtml
 load
 430356
 -
@@ -788,7 +788,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 557174
 -
@@ -816,7 +816,7 @@ crashtests
 -
 1
 .
-xul
+xhtml
 load
 583957
 -
@@ -858,4 +858,4 @@ crashtests
 -
 2
 .
-xul
+xhtml

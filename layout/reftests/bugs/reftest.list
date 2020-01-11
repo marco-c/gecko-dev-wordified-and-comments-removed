@@ -2804,7 +2804,7 @@ bugs
 -
 01
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2819,7 +2819,7 @@ bugs
 -
 11
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2836,7 +2836,7 @@ bugs
 -
 02
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2851,7 +2851,7 @@ bugs
 -
 12
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2868,7 +2868,7 @@ bugs
 -
 03
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2883,7 +2883,7 @@ bugs
 -
 13
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2900,7 +2900,7 @@ bugs
 -
 04
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2915,7 +2915,7 @@ bugs
 -
 14
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2932,7 +2932,7 @@ bugs
 -
 05
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2947,7 +2947,7 @@ bugs
 -
 15
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2964,7 +2964,7 @@ bugs
 -
 06
 .
-xul
+xhtml
 chrome
 :
 /
@@ -2979,7 +2979,7 @@ bugs
 -
 16
 .
-xul
+xhtml
 =
 =
 chrome
@@ -2996,7 +2996,7 @@ bugs
 -
 07
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3011,7 +3011,7 @@ bugs
 -
 17
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3028,7 +3028,7 @@ bugs
 -
 21
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3043,7 +3043,7 @@ bugs
 -
 31
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3060,7 +3060,7 @@ bugs
 -
 22
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3075,7 +3075,7 @@ bugs
 -
 32
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3092,7 +3092,7 @@ bugs
 -
 23
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3107,7 +3107,7 @@ bugs
 -
 33
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3124,7 +3124,7 @@ bugs
 -
 24
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3139,7 +3139,7 @@ bugs
 -
 34
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3156,7 +3156,7 @@ bugs
 -
 25
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3171,7 +3171,7 @@ bugs
 -
 35
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3188,7 +3188,7 @@ bugs
 -
 26
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3203,7 +3203,7 @@ bugs
 -
 36
 .
-xul
+xhtml
 =
 =
 chrome
@@ -3220,7 +3220,7 @@ bugs
 -
 27
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3235,7 +3235,7 @@ bugs
 -
 37
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3252,7 +3252,7 @@ bugs
 -
 01
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3267,7 +3267,7 @@ bugs
 -
 21
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3284,7 +3284,7 @@ bugs
 -
 02
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3299,7 +3299,7 @@ bugs
 -
 22
 .
-xul
+xhtml
 fails
 -
 if
@@ -3326,7 +3326,7 @@ bugs
 -
 03
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3341,7 +3341,7 @@ bugs
 -
 23
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3358,7 +3358,7 @@ bugs
 -
 04
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3373,7 +3373,7 @@ bugs
 -
 24
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3390,7 +3390,7 @@ bugs
 -
 05
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3405,7 +3405,7 @@ bugs
 -
 25
 .
-xul
+xhtml
 fails
 -
 if
@@ -3432,7 +3432,7 @@ bugs
 -
 06
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3447,7 +3447,7 @@ bugs
 -
 26
 .
-xul
+xhtml
 fails
 -
 if
@@ -3474,7 +3474,7 @@ bugs
 -
 07
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3489,7 +3489,7 @@ bugs
 -
 27
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3506,7 +3506,7 @@ bugs
 -
 11
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3521,7 +3521,7 @@ bugs
 -
 31
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3538,7 +3538,7 @@ bugs
 -
 12
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3553,7 +3553,7 @@ bugs
 -
 32
 .
-xul
+xhtml
 fails
 -
 if
@@ -3580,7 +3580,7 @@ bugs
 -
 13
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3595,7 +3595,7 @@ bugs
 -
 33
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3612,7 +3612,7 @@ bugs
 -
 14
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3627,7 +3627,7 @@ bugs
 -
 34
 .
-xul
+xhtml
 !
 =
 chrome
@@ -3644,7 +3644,7 @@ bugs
 -
 15
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3659,7 +3659,7 @@ bugs
 -
 35
 .
-xul
+xhtml
 fails
 -
 if
@@ -3686,7 +3686,7 @@ bugs
 -
 16
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3701,7 +3701,7 @@ bugs
 -
 36
 .
-xul
+xhtml
 fails
 -
 if
@@ -3728,7 +3728,7 @@ bugs
 -
 17
 .
-xul
+xhtml
 chrome
 :
 /
@@ -3743,7 +3743,7 @@ bugs
 -
 37
 .
-xul
+xhtml
 !
 =
 200774
@@ -4999,7 +4999,7 @@ bugs
 /
 249141
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5014,7 +5014,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 #
 dependent
 on
@@ -5128,7 +5128,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5145,7 +5145,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 262151
@@ -5314,7 +5314,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5331,7 +5331,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -5348,7 +5348,7 @@ bugs
 -
 2a
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5365,7 +5365,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -5382,7 +5382,7 @@ bugs
 -
 2b
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5399,7 +5399,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -5416,7 +5416,7 @@ bugs
 -
 2c
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5433,7 +5433,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 fuzzy
 -
 if
@@ -5827,7 +5827,7 @@ bugs
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5844,7 +5844,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 random
 -
 if
@@ -5867,7 +5867,7 @@ bugs
 -
 3
 .
-xul
+xhtml
 chrome
 :
 /
@@ -5884,7 +5884,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 #
 bug
 587631
@@ -7484,7 +7484,7 @@ bugs
 -
 3
 .
-xul
+xhtml
 chrome
 :
 /
@@ -7501,7 +7501,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -7518,7 +7518,7 @@ bugs
 -
 4
 .
-xul
+xhtml
 chrome
 :
 /
@@ -7535,7 +7535,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -7552,7 +7552,7 @@ bugs
 -
 5
 .
-xul
+xhtml
 chrome
 :
 /
@@ -7569,7 +7569,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -7586,7 +7586,7 @@ bugs
 -
 6
 .
-xul
+xhtml
 chrome
 :
 /
@@ -7603,7 +7603,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 321738
@@ -8028,7 +8028,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -8045,7 +8045,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 336147
@@ -9839,7 +9839,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 364968
 -
 1
@@ -9891,7 +9891,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -9908,7 +9908,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 367220
@@ -10652,7 +10652,7 @@ bugs
 /
 369882
 .
-xul
+xhtml
 chrome
 :
 /
@@ -10667,7 +10667,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 369975
@@ -11411,7 +11411,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -11428,7 +11428,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -11445,7 +11445,7 @@ bugs
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -11462,7 +11462,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 fails
 =
 =
@@ -14477,7 +14477,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 about
 :
 blank
@@ -14959,7 +14959,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 #
 =
 =
@@ -15245,7 +15245,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -15262,7 +15262,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 #
 HTTP
 for
@@ -16958,7 +16958,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 421203
 -
 1
@@ -16982,7 +16982,7 @@ bugs
 -
 2
 .
-xul
+xhtml
 421203
 -
 1
@@ -17006,7 +17006,7 @@ bugs
 -
 3
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17023,7 +17023,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -17040,7 +17040,7 @@ bugs
 -
 4
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17057,7 +17057,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -17074,7 +17074,7 @@ bugs
 -
 5
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17091,7 +17091,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 chrome
@@ -17108,7 +17108,7 @@ bugs
 -
 6
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17125,7 +17125,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 421234
@@ -17462,7 +17462,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17479,7 +17479,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 fails
 -
 if
@@ -17502,7 +17502,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17519,7 +17519,7 @@ bugs
 -
 ref2
 .
-xul
+xhtml
 random
 -
 if
@@ -17544,7 +17544,7 @@ bugs
 -
 ref2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -17561,7 +17561,7 @@ bugs
 -
 ref3
 .
-xul
+xhtml
 =
 =
 424236
@@ -20506,7 +20506,7 @@ bugs
 /
 456147
 .
-xul
+xhtml
 456147
 -
 ref
@@ -21332,7 +21332,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -21349,7 +21349,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 463952
@@ -21509,7 +21509,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -21526,7 +21526,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 471356
@@ -21557,7 +21557,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -21574,7 +21574,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 472769
@@ -21647,7 +21647,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -21664,7 +21664,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 474417
@@ -22154,7 +22154,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -22171,7 +22171,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 478614
@@ -22827,7 +22827,7 @@ bugs
 /
 483565
 .
-xul
+xhtml
 chrome
 :
 /
@@ -22842,7 +22842,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 484256
@@ -23265,7 +23265,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -23282,7 +23282,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 492661
@@ -24443,7 +24443,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -24460,7 +24460,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 508919
@@ -24639,7 +24639,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -24656,7 +24656,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 fails
 -
 if
@@ -24685,7 +24685,7 @@ bugs
 -
 2
 .
-xul
+xhtml
 chrome
 :
 /
@@ -24702,7 +24702,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 514917
@@ -25374,7 +25374,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -25391,7 +25391,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 537507
@@ -26138,7 +26138,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -26155,7 +26155,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 559284
@@ -30305,7 +30305,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -30322,7 +30322,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 665597
@@ -30398,7 +30398,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 about
 :
 blank
@@ -30418,7 +30418,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -30435,7 +30435,7 @@ bugs
 -
 notref
 .
-xul
+xhtml
 skip
 -
 if
@@ -35908,7 +35908,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -35925,7 +35925,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 =
 =
 1151145
@@ -38365,7 +38365,7 @@ bugs
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -38382,7 +38382,7 @@ bugs
 -
 ref
 .
-xul
+xhtml
 test
 -
 pref

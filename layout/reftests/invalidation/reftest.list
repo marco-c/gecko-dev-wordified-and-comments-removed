@@ -152,7 +152,7 @@ invalidation
 -
 1
 .
-xul
+xhtml
 chrome
 :
 /
@@ -169,7 +169,7 @@ invalidation
 -
 ref
 .
-xul
+xhtml
 =
 =
 543681
