@@ -284,10 +284,6 @@ return
 rv
 ;
 }
-rv
-=
-NS_OK
-;
 if
 (
 mEncodingFromBOM
