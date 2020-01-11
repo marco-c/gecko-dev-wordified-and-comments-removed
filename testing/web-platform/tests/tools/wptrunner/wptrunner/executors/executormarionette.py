@@ -5250,7 +5250,7 @@ here
 "
 reftest
 -
-wait_marionette
+wait_webdriver
 .
 js
 "
