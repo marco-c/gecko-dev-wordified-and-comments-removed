@@ -145,6 +145,11 @@ GeckoViewContentBlockingController
 jsm
 '
 '
+GeckoViewLoginStorage
+.
+jsm
+'
+'
 GeckoViewMedia
 .
 jsm
