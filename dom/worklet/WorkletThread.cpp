@@ -479,10 +479,6 @@ Initialize
 (
 aParentRuntime
 WORKLET_DEFAULT_RUNTIME_HEAPSIZE
-JS
-:
-:
-DefaultNurseryMaxBytes
 )
 ;
 if

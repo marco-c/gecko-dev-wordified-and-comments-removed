@@ -5117,10 +5117,6 @@ JS
 :
 :
 DefaultHeapMaxBytes
-JS
-:
-:
-DefaultNurseryMaxBytes
 )
 ;
 if

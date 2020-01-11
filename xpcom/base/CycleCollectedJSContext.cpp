@@ -623,8 +623,6 @@ JSRuntime
 aParentRuntime
 uint32_t
 aMaxBytes
-uint32_t
-aMaxNurseryBytes
 )
 {
 MOZ_ASSERT
@@ -661,13 +659,6 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
-JS_SetGCParameter
-(
-mJSContext
-JSGC_MAX_NURSERY_BYTES
-aMaxNurseryBytes
-)
-;
 mRuntime
 =
 CreateRuntime

@@ -4506,10 +4506,6 @@ Initialize
 (
 aParentRuntime
 WORKER_DEFAULT_RUNTIME_HEAPSIZE
-JS
-:
-:
-DefaultNurseryMaxBytes
 )
 ;
 if
