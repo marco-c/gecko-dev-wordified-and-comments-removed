@@ -717,6 +717,9 @@ search
 "
 spoc
 "
+"
+organic
+"
 ]
 )
 search_vendor
