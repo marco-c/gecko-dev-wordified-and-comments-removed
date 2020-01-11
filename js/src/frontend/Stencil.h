@@ -1,9 +1,9 @@
 #
 ifndef
-frontend_FunctionCreationData_h
+frontend_Stencil_h
 #
 define
-frontend_FunctionCreationData_h
+frontend_Stencil_h
 #
 include
 "
