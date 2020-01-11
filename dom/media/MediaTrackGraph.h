@@ -1863,7 +1863,7 @@ SpeexResamplerState
 >
 mResampler
 ;
-int
+uint32_t
 mResamplerChannelCount
 ;
 UniquePtr
