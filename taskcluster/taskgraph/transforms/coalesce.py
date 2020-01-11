@@ -38,10 +38,6 @@ transforms
 base
 import
 TransformSequence
-from
-hashlib
-import
-sha256
 transforms
 =
 TransformSequence
