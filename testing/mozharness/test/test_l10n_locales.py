@@ -596,6 +596,8 @@ _get_query_abs_dirs_obj
         
 dirs
 =
+list
+(
 l
 .
 query_abs_dirs
@@ -604,6 +606,7 @@ query_abs_dirs
 .
 keys
 (
+)
 )
         
 dirs
@@ -649,6 +652,8 @@ keys
         
 dirs
 =
+list
+(
 l
 .
 query_abs_dirs
@@ -657,6 +662,7 @@ query_abs_dirs
 .
 keys
 (
+)
 )
         
 dirs
@@ -705,6 +711,8 @@ l10n_dir
         
 dirs
 =
+list
+(
 l
 .
 query_abs_dirs
@@ -713,6 +721,7 @@ query_abs_dirs
 .
 keys
 (
+)
 )
         
 dirs
@@ -803,6 +812,8 @@ locales_dir
         
 dirs
 =
+list
+(
 l
 .
 query_abs_dirs
@@ -811,6 +822,7 @@ query_abs_dirs
 .
 keys
 (
+)
 )
         
 dirs
@@ -921,6 +933,8 @@ objdir
         
 dirs
 =
+list
+(
 l
 .
 query_abs_dirs
@@ -929,6 +943,7 @@ query_abs_dirs
 .
 keys
 (
+)
 )
         
 dirs
