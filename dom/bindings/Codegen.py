@@ -7794,18 +7794,6 @@ callbacks
 )
 )
         
-declareIncludes
-.
-discard
-(
-prefix
-+
-"
-.
-h
-"
-)
-        
 def
 addHeaderForFunc
 (
@@ -8293,6 +8281,18 @@ add
 parentDesc
 .
 jsImplParentHeader
+)
+        
+declareIncludes
+.
+discard
+(
+prefix
++
+"
+.
+h
+"
 )
         
 def
