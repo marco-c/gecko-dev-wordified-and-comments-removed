@@ -7,6 +7,7 @@ async
 function
 assert_request
 (
+test
 input
 init
 )
@@ -35,18 +36,11 @@ Request
 "
 )
 ;
-assert_throws
-(
-new
-TypeError
-(
-)
-async
-(
-)
-=
->
 await
+promise_rejects_js
+(
+test
+TypeError
 fetch
 (
 input
@@ -64,6 +58,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -85,6 +80,7 @@ getReader
 await
 assert_request
 (
+t
 "
 .
 .
@@ -124,6 +120,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -149,6 +146,7 @@ read
 await
 assert_request
 (
+t
 "
 .
 .
@@ -188,6 +186,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -239,6 +238,7 @@ releaseLock
 await
 assert_request
 (
+t
 "
 .
 .
@@ -282,6 +282,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -324,6 +325,7 @@ getReader
 await
 assert_request
 (
+t
 request
 )
 ;
@@ -372,6 +374,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -418,6 +421,7 @@ read
 await
 assert_request
 (
+t
 request
 )
 ;
@@ -470,6 +474,7 @@ promise_test
 (
 async
 (
+t
 )
 =
 >
@@ -526,6 +531,7 @@ releaseLock
 await
 assert_request
 (
+t
 request
 )
 ;
