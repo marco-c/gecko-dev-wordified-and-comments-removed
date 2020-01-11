@@ -164,11 +164,10 @@ write
 (
 default
 :
-/
-usr
+.
 /
 tmp
-/
+-
 sync
 .
 dat

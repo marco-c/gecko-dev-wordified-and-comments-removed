@@ -241,11 +241,10 @@ file
 PR_Open
 (
 "
-/
-usr
+.
 /
 tmp
-/
+-
 "
 PR_RDONLY
 0
@@ -283,11 +282,10 @@ dir
 PR_OpenDir
 (
 "
-/
-usr
+.
 /
 tmp
-/
+-
 "
 )
 ;

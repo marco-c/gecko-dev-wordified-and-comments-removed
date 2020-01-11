@@ -175,9 +175,10 @@ fd
 PR_Open
 (
 "
+.
 /
 tmp
-/
+-
 nsprAppend
 "
 (
@@ -410,9 +411,10 @@ fd
 PR_Open
 (
 "
+.
 /
 tmp
-/
+-
 nsprAppend
 "
 PR_RDONLY

@@ -273,9 +273,10 @@ char
 TEST_DIR
 =
 "
+.
 /
 tmp
-/
+-
 testfile_dir
 "
 ;

@@ -973,10 +973,16 @@ case
 define
 TEMP_DIR
 "
+.
 /
 tmp
-/
 "
+PR_MkDir
+(
+TEMP_DIR
+0700
+)
+;
 dir
 =
 PR_OpenDir

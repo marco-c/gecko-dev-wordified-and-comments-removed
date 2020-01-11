@@ -1662,9 +1662,6 @@ logger
 many_cv
 "
 "
-multiwait
-"
-"
 nameshm1
 "
 "
