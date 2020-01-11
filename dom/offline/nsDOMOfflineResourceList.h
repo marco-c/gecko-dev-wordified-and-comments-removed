@@ -461,7 +461,7 @@ nsIOfflineCacheUpdate
 aUpdate
 )
 ;
-nsresult
+void
 UpdateCompleted
 (
 nsIOfflineCacheUpdate
