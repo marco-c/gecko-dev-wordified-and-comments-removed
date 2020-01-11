@@ -5205,6 +5205,14 @@ if
 columnName
 )
 {
+if
+(
+!
+f
+.
+private
+)
+{
 console
 .
 error
@@ -5231,6 +5239,7 @@ f
 name
 )
 ;
+}
 }
 else
 {
