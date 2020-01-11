@@ -84,6 +84,13 @@ h
 #
 include
 "
+nsDetectionConfident
+.
+h
+"
+#
+include
+"
 nsHtml5OwningUTF16Buffer
 .
 h

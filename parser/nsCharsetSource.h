@@ -12,9 +12,8 @@ kCharsetFromTopLevelDomain
 kCharsetFromFileURLGuess
 kCharsetFromDocTypeDefault
 kCharsetFromCache
-kCharsetFromInitialAutoDetection
-kCharsetFromFinalAutoDetection
 kCharsetFromParentFrame
+kCharsetFromAutoDetection
 kCharsetFromMetaPrescan
 kCharsetFromMetaTag
 kCharsetFromIrreversibleAutoDetection

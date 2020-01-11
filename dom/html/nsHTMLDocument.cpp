@@ -1452,12 +1452,6 @@ kCharsetFromUserForced
 =
 =
 parentSource
-|
-|
-kCharsetFromUserForcedAutoDetection
-=
-=
-parentSource
 )
 {
 if

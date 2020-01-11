@@ -486,6 +486,12 @@ xpconnect
 '
 '
 /
+intl
+/
+chardet
+'
+'
+/
 modules
 /
 libjar
