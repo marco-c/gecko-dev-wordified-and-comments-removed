@@ -81,6 +81,11 @@ nsTArray
 .
 h
 "
+#
+include
+<
+type_traits
+>
 class
 nsIPrincipal
 ;
@@ -190,7 +195,10 @@ T
 >
 inline
 typename
-EnableIf
+std
+:
+:
+enable_if
 <
 std
 :
@@ -207,7 +215,7 @@ void
 >
 :
 :
-Type
+type
 ImplCycleCollectionUnlink
 (
 T
@@ -229,7 +237,10 @@ T
 >
 inline
 typename
-EnableIf
+std
+:
+:
+enable_if
 <
 std
 :
@@ -246,7 +257,7 @@ void
 >
 :
 :
-Type
+type
 ImplCycleCollectionTraverse
 (
 nsCycleCollectionTraversalCallback
