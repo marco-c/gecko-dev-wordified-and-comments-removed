@@ -335,9 +335,8 @@ clickPromise
 }
 )
 ;
-ok
+info
 (
-true
 "
 All
 events

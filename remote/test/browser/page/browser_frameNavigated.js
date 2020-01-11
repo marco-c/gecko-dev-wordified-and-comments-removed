@@ -95,9 +95,8 @@ enable
 (
 )
 ;
-ok
+info
 (
-true
 "
 Page
 domain
@@ -204,9 +203,8 @@ event
 =
 >
 {
-ok
+info
 (
-true
 Received
 Page
 .
@@ -334,9 +332,8 @@ url
 }
 )
 ;
-ok
+info
 (
-true
 "
 A
 new
@@ -440,9 +437,8 @@ reload
 (
 )
 ;
-ok
+info
 (
-true
 "
 The
 page
@@ -533,9 +529,8 @@ url
 }
 )
 ;
-ok
+info
 (
-true
 "
 The
 page
