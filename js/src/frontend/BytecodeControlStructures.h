@@ -475,6 +475,8 @@ BytecodeEmitter
 bce
 JSOp
 op
+JSTryNoteKind
+tryNoteKind
 )
 ;
 }
