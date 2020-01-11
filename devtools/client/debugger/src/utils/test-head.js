@@ -443,6 +443,16 @@ null
 isExtension
 :
 false
+isOriginal
+:
+filename
+.
+includes
+(
+"
+originalSource
+"
+)
 }
 :
 any

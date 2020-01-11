@@ -1302,6 +1302,9 @@ false
 extensionName
 :
 null
+isOriginal
+:
+true
 }
 )
 ;
@@ -1582,6 +1585,9 @@ url
 )
 |
 |
+false
+isOriginal
+:
 false
 }
 ;

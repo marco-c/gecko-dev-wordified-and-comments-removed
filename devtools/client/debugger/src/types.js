@@ -1135,6 +1135,10 @@ boolean
 isWasm
 :
 boolean
++
+isOriginal
+:
+boolean
 }
 ;
 export

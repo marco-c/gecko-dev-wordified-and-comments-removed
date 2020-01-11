@@ -634,12 +634,9 @@ keepContext
 selectedSource
 &
 &
-isOriginalId
-(
 selectedSource
 .
-id
-)
+isOriginal
 !
 =
 isOriginalId
