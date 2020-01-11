@@ -1,8 +1,12 @@
+add_task
+(
+async
 function
 run_test
 (
 )
 {
+await
 do_crash
 (
 function
@@ -87,3 +91,5 @@ true
 )
 ;
 }
+)
+;

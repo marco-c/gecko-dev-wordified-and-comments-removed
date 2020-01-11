@@ -17,7 +17,7 @@ NSURL
 *
 url_
 ;
-NSDictionary
+NSMutableString
 *
 parameters_
 ;
@@ -60,14 +60,14 @@ void
 setParameters
 :
 (
-NSDictionary
+NSMutableString
 *
 )
 parameters
 ;
 -
 (
-NSDictionary
+NSMutableString
 *
 )
 parameters

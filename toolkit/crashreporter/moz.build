@@ -559,11 +559,6 @@ CrashSubmit
 .
 jsm
 '
-'
-KeyValueParser
-.
-jsm
-'
 ]
 include
 (

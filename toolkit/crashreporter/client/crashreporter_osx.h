@@ -27,6 +27,15 @@ crashreporter
 .
 h
 "
+#
+include
+"
+json
+/
+json
+.
+h
+"
 class
 TextViewWithPlaceHolder
 ;
@@ -161,7 +170,10 @@ queryParameters
 :
 (
 const
-StringTable
+Json
+:
+:
+Value
 &
 )
 queryParameters

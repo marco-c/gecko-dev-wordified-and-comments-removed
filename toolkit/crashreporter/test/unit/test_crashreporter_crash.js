@@ -1,3 +1,6 @@
+add_task
+(
+async
 function
 run_test
 (
@@ -127,6 +130,7 @@ is_win7_or_newer
 true
 ;
 }
+await
 do_crash
 (
 null
@@ -295,6 +299,7 @@ MD_MEMORY_INFO_LIST_STREAM
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -326,6 +331,14 @@ u
 {
 1F4A9
 }
+\
+n
+\
+u
+{
+0000
+}
+Escape
 "
 )
 ;
@@ -435,6 +448,14 @@ u
 {
 1F4A9
 }
+\
+n
+\
+u
+{
+0000
+}
+Escape
 "
 )
 ;
@@ -629,6 +650,7 @@ default
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -894,6 +916,7 @@ value
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -1057,6 +1080,7 @@ disabled
 }
 )
 ;
+await
 do_crash
 (
 function
@@ -1221,3 +1245,5 @@ disabled
 )
 ;
 }
+)
+;

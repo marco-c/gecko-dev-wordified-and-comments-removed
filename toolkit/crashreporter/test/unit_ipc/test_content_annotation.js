@@ -12,6 +12,9 @@ js
 "
 )
 ;
+add_task
+(
+async
 function
 run_test
 (
@@ -102,6 +105,7 @@ testSetup
 (
 )
 ;
+await
 do_content_crash
 (
 function
@@ -221,3 +225,5 @@ foo
 )
 ;
 }
+)
+;
