@@ -5891,7 +5891,6 @@ FullscreenRequest
 bool
 FullscreenElementReadyCheck
 (
-const
 FullscreenRequest
 &
 )
