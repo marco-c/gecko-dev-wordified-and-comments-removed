@@ -257,6 +257,11 @@ IPDLParamTraits
 h
 '
 '
+LibrarySandboxPreload
+.
+h
+'
+'
 MessageChannel
 .
 h
@@ -878,6 +883,11 @@ cpp
 '
 '
 IPCStreamUtils
+.
+cpp
+'
+'
+LibrarySandboxPreload
 .
 cpp
 '
