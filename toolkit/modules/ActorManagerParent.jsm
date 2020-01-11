@@ -1187,6 +1187,10 @@ jsm
 events
 :
 {
+PreFullZoomChange
+:
+{
+}
 FullZoomChange
 :
 {
@@ -1198,6 +1202,16 @@ TextZoomChange
 ZoomChangeUsingMouseWheel
 :
 {
+}
+mozupdatedremoteframedimensions
+:
+{
+capture
+:
+true
+mozSystemGroup
+:
+true
 }
 }
 }
