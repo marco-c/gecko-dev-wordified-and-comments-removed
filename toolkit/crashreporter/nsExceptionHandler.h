@@ -606,6 +606,11 @@ uint32_t
 aChildPid
 GeckoProcessType
 aType
+nsString
+*
+aDumpId
+=
+nullptr
 )
 ;
 #

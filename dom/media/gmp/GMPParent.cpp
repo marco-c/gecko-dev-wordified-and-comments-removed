@@ -2569,6 +2569,15 @@ dumpID
 )
 )
 {
+if
+(
+dumpID
+.
+IsEmpty
+(
+)
+)
+{
 NS_WARNING
 (
 "
@@ -2597,6 +2606,7 @@ mVersion
 dumpID
 )
 ;
+}
 }
 nsCOMPtr
 <

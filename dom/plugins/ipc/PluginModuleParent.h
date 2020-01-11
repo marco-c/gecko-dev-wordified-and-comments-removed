@@ -1488,6 +1488,9 @@ CrashReporterHost
 >
 mCrashReporter
 ;
+nsString
+mOrphanedDumpId
+;
 }
 ;
 class
