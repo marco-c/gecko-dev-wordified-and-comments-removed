@@ -8777,7 +8777,7 @@ target
 getCachedFront
 (
 "
-inspectorFront
+inspector
 "
 )
 ;
