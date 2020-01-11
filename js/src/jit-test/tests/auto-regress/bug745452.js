@@ -47,7 +47,9 @@ exc
 )
 {
 }
-uneval
+JSON
+.
+stringify
 (
 this
 )

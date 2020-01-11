@@ -63,7 +63,9 @@ gczeal
 2
 )
 (
-uneval
+JSON
+.
+stringify
 (
 this
 )
