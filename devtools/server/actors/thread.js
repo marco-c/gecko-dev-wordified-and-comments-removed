@@ -1323,6 +1323,12 @@ doResume
 }
 this
 .
+removeAllWatchpoints
+(
+)
+;
+this
+.
 _xhrBreakpoints
 =
 [
