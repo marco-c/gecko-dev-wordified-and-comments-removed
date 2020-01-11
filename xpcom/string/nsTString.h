@@ -2402,6 +2402,7 @@ nsTSubstring
 T
 >
 ;
+const
 size_type
 mInlineCapacity
 ;
