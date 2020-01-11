@@ -3486,14 +3486,12 @@ debugging
 }
 }
 let
-{
 addons
-}
 =
 await
 AddonManager
 .
-getActiveAddons
+getAllAddons
 (
 )
 ;
