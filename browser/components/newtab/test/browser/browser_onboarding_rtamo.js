@@ -207,13 +207,6 @@ false
 }
 )
 ;
-await
-ASRouter
-.
-setupTrailhead
-(
-)
-;
 ASRouter
 .
 _updateMessageProviders
