@@ -11307,6 +11307,11 @@ by
 zero
 '
 '
+object
+-
+size
+'
+'
 pointer
 -
 overflow
