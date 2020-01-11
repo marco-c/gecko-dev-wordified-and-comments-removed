@@ -70,6 +70,8 @@ import
 (
     
 get_signing_cert_scope_per_platform
+    
+get_worker_type_for_scope
 )
 from
 taskgraph
@@ -926,19 +928,11 @@ config
         
 worker_type_alias
 =
-'
-linux
--
-signing
-'
-if
-is_nightly
-else
-'
-linux
--
-depsigning
-'
+get_worker_type_for_scope
+(
+config
+signing_cert_scope
+)
         
 mac_behavior
 =

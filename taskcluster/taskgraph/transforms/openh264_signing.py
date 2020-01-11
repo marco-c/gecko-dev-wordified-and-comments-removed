@@ -55,6 +55,8 @@ import
 (
     
 get_signing_cert_scope_per_platform
+    
+get_worker_type_for_scope
 )
 from
 taskgraph
@@ -488,11 +490,11 @@ worker
 type
 '
 :
-'
-linux
--
-signing
-'
+get_worker_type_for_scope
+(
+config
+signing_cert_scope
+)
             
 '
 worker
