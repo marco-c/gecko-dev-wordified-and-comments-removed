@@ -38546,7 +38546,7 @@ fission
 .
 rebuild_frameloaders_on_remoteness_change
 "
-false
+true
 )
 ;
 pref
