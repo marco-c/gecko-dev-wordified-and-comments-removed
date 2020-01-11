@@ -103,6 +103,15 @@ h
 #
 include
 "
+util
+/
+CheckedArithmetic
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject
