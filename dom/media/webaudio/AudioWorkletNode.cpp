@@ -111,7 +111,7 @@ NotNull
 StructuredCloneHolder
 *
 >
-aOptionsSerialization
+aSerializedOptions
 )
 ;
 void
@@ -417,7 +417,7 @@ NotNull
 StructuredCloneHolder
 *
 >
-aOptionsSerialization
+aSerializedOptions
 )
 {
 MOZ_ASSERT
@@ -485,7 +485,7 @@ global
 ConstructProcessor
 (
 aName
-aOptionsSerialization
+aSerializedOptions
 &
 mProcessor
 )

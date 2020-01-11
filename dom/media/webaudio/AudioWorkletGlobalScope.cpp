@@ -1346,7 +1346,7 @@ NotNull
 StructuredCloneHolder
 *
 >
-aOptionsSerialization
+aSerializedOptions
 JS
 :
 :
@@ -1402,12 +1402,12 @@ JS
 :
 Value
 >
-optionsVal
+deserializedOptions
 (
 cx
 )
 ;
-aOptionsSerialization
+aSerializedOptions
 -
 >
 Read
@@ -1415,7 +1415,7 @@ Read
 this
 cx
 &
-optionsVal
+deserializedOptions
 rv
 )
 ;
@@ -1437,7 +1437,7 @@ RefPtr
 <
 AudioWorkletProcessorConstructor
 >
-processorConstructor
+processorCtor
 =
 mNameToProcessorMap
 .
@@ -1448,7 +1448,7 @@ aName
 ;
 MOZ_ASSERT
 (
-processorConstructor
+processorCtor
 )
 ;
 JS
@@ -1463,7 +1463,7 @@ options
 (
 cx
 &
-optionsVal
+deserializedOptions
 .
 toObject
 (
@@ -1476,7 +1476,7 @@ AudioWorkletProcessor
 >
 processor
 =
-processorConstructor
+processorCtor
 -
 >
 Construct
