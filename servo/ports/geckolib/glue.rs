@@ -36849,7 +36849,7 @@ Servo_ParseTransformIntoMatrix
 value
 :
 &
-nsAString
+nsACString
 contain_3d
 :
 &
@@ -36883,11 +36883,14 @@ transform
 let
 string
 =
+unsafe
+{
 value
 .
-to_string
+as_str_unchecked
 (
 )
+}
 ;
 let
 mut

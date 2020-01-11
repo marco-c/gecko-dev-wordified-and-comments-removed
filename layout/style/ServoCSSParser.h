@@ -206,7 +206,7 @@ bool
 ParseTransformIntoMatrix
 (
 const
-nsAString
+nsACString
 &
 aValue
 bool

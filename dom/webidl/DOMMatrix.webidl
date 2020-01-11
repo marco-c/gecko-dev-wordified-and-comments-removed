@@ -167,7 +167,7 @@ constructor
 (
 optional
 (
-DOMString
+UTF8String
 or
 sequence
 <
@@ -705,7 +705,7 @@ constructor
 (
 optional
 (
-DOMString
+UTF8String
 or
 sequence
 <
@@ -1129,7 +1129,7 @@ Throws
 DOMMatrix
 setMatrixValue
 (
-DOMString
+UTF8String
 transformList
 )
 ;

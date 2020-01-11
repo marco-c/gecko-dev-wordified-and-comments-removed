@@ -111,7 +111,7 @@ class
 DOMPoint
 ;
 class
-StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
+UTF8StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
 ;
 struct
 DOMPointInit
@@ -423,7 +423,7 @@ aGlobal
 const
 Optional
 <
-StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
+UTF8StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
 >
 &
 aArg
@@ -1467,12 +1467,10 @@ DOMMatrixReadOnly
 SetMatrixValue
 (
 const
-nsAString
+nsACString
 &
-aTransformList
 ErrorResult
 &
-aRv
 )
 ;
 void
@@ -1742,7 +1740,7 @@ aGlobal
 const
 Optional
 <
-StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
+UTF8StringOrUnrestrictedDoubleSequenceOrDOMMatrixReadOnly
 >
 &
 aArg
@@ -1945,12 +1943,10 @@ DOMMatrix
 SetMatrixValue
 (
 const
-nsAString
+nsACString
 &
-aTransformList
 ErrorResult
 &
-aRv
 )
 ;
 virtual
