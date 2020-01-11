@@ -52,15 +52,6 @@ include
 "
 gc
 /
-Heap
-.
-h
-"
-#
-include
-"
-gc
-/
 Policy
 .
 h

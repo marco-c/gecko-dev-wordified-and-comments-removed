@@ -62,15 +62,6 @@ include
 "
 gc
 /
-Heap
-.
-h
-"
-#
-include
-"
-gc
-/
 Marking
 .
 h

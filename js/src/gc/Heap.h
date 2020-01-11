@@ -106,15 +106,6 @@ TenuredCell
 struct
 Chunk
 ;
-enum
-InitialHeap
-:
-uint8_t
-{
-DefaultHeap
-TenuredHeap
-}
-;
 const
 uintptr_t
 LargestTaggedNullCellPointer

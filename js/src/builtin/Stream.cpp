@@ -125,15 +125,6 @@ h
 #
 include
 "
-gc
-/
-Heap
-.
-h
-"
-#
-include
-"
 js
 /
 ArrayBuffer

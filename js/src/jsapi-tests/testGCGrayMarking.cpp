@@ -8,15 +8,6 @@ include
 "
 gc
 /
-Heap
-.
-h
-"
-#
-include
-"
-gc
-/
 Verifier
 .
 h

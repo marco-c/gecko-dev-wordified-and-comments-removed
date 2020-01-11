@@ -28,15 +28,6 @@ h
 #
 include
 "
-gc
-/
-Heap
-.
-h
-"
-#
-include
-"
 jsapi
 -
 tests

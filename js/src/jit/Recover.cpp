@@ -51,15 +51,6 @@ h
 #
 include
 "
-gc
-/
-Heap
-.
-h
-"
-#
-include
-"
 jit
 /
 Ion
