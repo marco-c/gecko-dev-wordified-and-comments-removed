@@ -127,13 +127,6 @@ attribute
 DOMString
 flex
 ;
-[
-SetterThrows
-]
-attribute
-DOMString
-orient
-;
 /
 /
 Properties
