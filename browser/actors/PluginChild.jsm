@@ -4043,10 +4043,6 @@ pluginName
 }
 )
 {
-pluginElement
-.
-clientTop
-;
 let
 overlay
 =
