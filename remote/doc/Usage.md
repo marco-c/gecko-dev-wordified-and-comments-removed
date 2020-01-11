@@ -369,7 +369,7 @@ third
 )
 examples
 will
-respecitvely
+respectively
 force
 the
 HTTP
