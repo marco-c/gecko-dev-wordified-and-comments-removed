@@ -133,6 +133,12 @@ RegExpCreationData
 >
 regExpData
 ;
+Vector
+<
+BigIntCreationData
+>
+bigIntData
+;
 ParseInfo
 (
 JSContext
@@ -190,6 +196,10 @@ Mode
 Eager
 )
 regExpData
+(
+cx
+)
+bigIntData
 (
 cx
 )
