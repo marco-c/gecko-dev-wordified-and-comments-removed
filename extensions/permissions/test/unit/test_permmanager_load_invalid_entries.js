@@ -905,10 +905,9 @@ numMigrated
 }
 Assert
 .
-ok
+greater
 (
 numMigrated
->
 0
 "
 we
