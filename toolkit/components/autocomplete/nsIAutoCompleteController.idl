@@ -143,13 +143,8 @@ controlled
 *
 /
 [
-can_run_script
+setter_can_run_script
 ]
-/
-/
-Only
-setter
-.
 attribute
 nsIAutoCompleteInput
 input
