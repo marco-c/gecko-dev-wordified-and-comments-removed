@@ -394,7 +394,11 @@ test
 sets
 :
 -
+awsy
+-
 linux1804
+-
+qr
 -
 tests
 linux1804
@@ -421,7 +425,11 @@ test
 sets
 :
 -
+awsy
+-
 linux1804
+-
+qr
 -
 tests
 linux1804
@@ -445,6 +453,8 @@ sets
 :
 -
 linux1804
+-
+qr
 -
 tests
 linux1804
@@ -493,6 +503,8 @@ test
 -
 sets
 :
+-
+awsy
 -
 linux1804
 -
@@ -864,8 +876,6 @@ tests
 -
 talos
 -
-awsy
--
 web
 -
 platform
@@ -912,8 +922,6 @@ qr
 tests
 -
 talos
--
-awsy
 -
 web
 -
