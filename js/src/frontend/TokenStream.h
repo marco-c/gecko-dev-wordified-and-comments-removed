@@ -652,12 +652,6 @@ Unit
 class
 SourceUnits
 ;
-#
-define
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
-(
-)
-1
 class
 TokenStreamAnyChars
 :
@@ -1684,11 +1678,6 @@ false
 }
 private
 :
-#
-if
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
-(
-)
 template
 <
 typename
@@ -1713,8 +1702,6 @@ sourceUnits
 )
 const
 ;
-#
-endif
 MOZ_MUST_USE
 MOZ_ALWAYS_INLINE
 bool
@@ -1910,11 +1897,6 @@ filename_
 }
 private
 :
-#
-if
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
-(
-)
 static
 constexpr
 uint32_t
@@ -2107,8 +2089,6 @@ ChunkInfo
 >
 longLineColumnInfo_
 ;
-#
-endif
 protected
 :
 const
@@ -2185,11 +2165,6 @@ StrictModeGetter
 *
 strictModeGetter
 ;
-#
-if
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
-(
-)
 mutable
 uint32_t
 lineOfLastColumnComputation_
@@ -2218,8 +2193,6 @@ lastComputedColumn_
 =
 0
 ;
-#
-endif
 }
 ;
 constexpr

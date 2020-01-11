@@ -1250,9 +1250,6 @@ char16_t
 end
 )
 {
-#
-if
-JS_COLUMN_DIMENSION_IS_CODE_POINTS
 return
 unicode
 :
@@ -1263,17 +1260,6 @@ begin
 end
 )
 ;
-#
-else
-return
-PointerRangeSize
-(
-begin
-end
-)
-;
-#
-endif
 }
 template
 <
