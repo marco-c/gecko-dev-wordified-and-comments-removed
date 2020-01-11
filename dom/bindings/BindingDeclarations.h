@@ -194,11 +194,10 @@ typename
 T
 >
 inline
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 std
 :
@@ -213,9 +212,6 @@ T
 value
 void
 >
-:
-:
-type
 ImplCycleCollectionUnlink
 (
 T
@@ -236,11 +232,10 @@ typename
 T
 >
 inline
-typename
 std
 :
 :
-enable_if
+enable_if_t
 <
 std
 :
@@ -255,9 +250,6 @@ T
 value
 void
 >
-:
-:
-type
 ImplCycleCollectionTraverse
 (
 nsCycleCollectionTraversalCallback
