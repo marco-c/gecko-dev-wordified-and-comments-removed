@@ -2100,7 +2100,7 @@ heads
 /
 epochs
 /
-six_hourly
+three_hourly
 '
 )
 eq
@@ -2161,7 +2161,7 @@ runtime
 2h
 timeoutInMinutes
 :
-360
+180
 pool
 :
 name
@@ -2506,7 +2506,7 @@ heads
 /
 epochs
 /
-six_hourly
+three_hourly
 '
 )
 eq
@@ -2567,7 +2567,7 @@ runtime
 2h
 timeoutInMinutes
 :
-360
+180
 pool
 :
 name
@@ -2972,7 +2972,7 @@ runtime
 2h
 timeoutInMinutes
 :
-360
+180
 pool
 :
 vmImage
@@ -3337,7 +3337,7 @@ heads
 /
 epochs
 /
-six_hourly
+three_hourly
 '
 )
 eq
@@ -3398,7 +3398,7 @@ runtime
 2h
 timeoutInMinutes
 :
-360
+180
 pool
 :
 vmImage
