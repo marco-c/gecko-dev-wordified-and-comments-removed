@@ -602,20 +602,26 @@ loader
 AUTODETECT
 )
         
-doing_pgo
+configure_args
 =
-'
-MOZ_PGO
-=
-1
-'
-in
 mozconfig
 [
 '
 configure_args
 '
 ]
+        
+doing_pgo
+=
+configure_args
+and
+'
+MOZ_PGO
+=
+1
+'
+in
+configure_args
         
 append_env
 =
