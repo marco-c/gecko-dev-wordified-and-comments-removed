@@ -2190,6 +2190,12 @@ PanZoomState
 aNewState
 )
 ;
+bool
+IsInTransformingState
+(
+)
+const
+;
 static
 bool
 IsTransformingState
