@@ -510,7 +510,7 @@ checkWorkerStatus
 (
 dbg
 "
-active
+activated
 "
 )
 ;
@@ -948,7 +948,7 @@ checkWorkerStatus
 (
 dbg
 "
-evaluating
+parsed
 "
 )
 ;
@@ -1036,7 +1036,7 @@ checkWorkerStatus
 (
 dbg
 "
-active
+activating
 "
 )
 ;
