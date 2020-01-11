@@ -174,9 +174,6 @@ mozilla
 org
 /
 serviceworker07apr
-[
-Unforgeable
-]
 readonly
 attribute
 ServiceWorker
