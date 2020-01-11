@@ -52,6 +52,8 @@ GitRepository
 HgRepository
     
 InvalidRepoPath
+    
+MissingConfigureInfo
 )
 from
 .
@@ -2446,7 +2448,10 @@ self
 )
         
 except
+(
 BuildEnvironmentNotFoundException
+MissingConfigureInfo
+)
 :
             
 pass
