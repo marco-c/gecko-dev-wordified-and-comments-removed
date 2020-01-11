@@ -279,9 +279,7 @@ docShell
 .
 domWindow
 .
-getWindowGlobalChild
-(
-)
+gwindowGlobalChild
 .
 getActor
 (

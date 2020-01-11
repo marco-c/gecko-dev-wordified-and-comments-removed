@@ -969,11 +969,10 @@ this
 cpowEventUtils
 )
 ;
+void
 window
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 getActor
 (
