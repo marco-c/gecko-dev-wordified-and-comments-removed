@@ -128,6 +128,14 @@ aLayers
 =
 0
 ;
+virtual
+bool
+CommitToScreen
+(
+)
+=
+0
+;
 protected
 :
 virtual
