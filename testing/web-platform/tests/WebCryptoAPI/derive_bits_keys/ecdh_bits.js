@@ -1,5 +1,5 @@
 function
-run_test
+define_tests
 (
 )
 {
@@ -1244,6 +1244,7 @@ Uint8Array
 )
 }
 ;
+return
 importKeys
 (
 pkcs8
@@ -2877,9 +2878,6 @@ bits
 }
 )
 ;
-done
-(
-)
 }
 )
 ;
