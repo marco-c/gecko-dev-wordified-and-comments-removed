@@ -1930,17 +1930,6 @@ addon2
 )
     
 }
-    
-'
-app
-/
-chrome
-.
-manifest
-'
-:
-[
-]
 }
 )
 RESULT_OMNIJAR
