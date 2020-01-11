@@ -603,6 +603,7 @@ RenderTargetForNativeLayer
 NativeLayer
 *
 aNativeLayer
+const
 gfx
 :
 :

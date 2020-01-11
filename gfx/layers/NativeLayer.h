@@ -332,17 +332,6 @@ aNeedsDepth
 0
 ;
 virtual
-gfx
-:
-:
-IntRegion
-CurrentSurfaceInvalidRegion
-(
-)
-=
-0
-;
-virtual
 void
 NotifySurfaceReady
 (
