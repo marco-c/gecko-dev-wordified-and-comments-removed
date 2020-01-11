@@ -2740,6 +2740,17 @@ e
 }
 }
 else
+if
+(
+e
+.
+result
+!
+=
+Cr
+.
+NS_ERROR_FILE_NOT_FOUND
+)
 {
 Cu
 .
