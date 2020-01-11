@@ -6026,8 +6026,11 @@ AnimationValue
 :
 OffsetDistance
 (
-*
 d
+.
+clone
+(
+)
 )
 )
 .
@@ -6126,8 +6129,11 @@ AnimationValue
 :
 OffsetAnchor
 (
-*
 p
+.
+clone
+(
+)
 )
 )
 .

@@ -567,7 +567,6 @@ missing_docs
 derive
 (
 Clone
-Copy
 Debug
 Deserialize
 MallocSizeOf
@@ -2786,6 +2785,8 @@ NonNegativeLength
 >
 Self
 {
+NonNegative
+(
 LengthPercentage
 :
 :
@@ -2796,9 +2797,6 @@ length
 0
 None
 )
-.
-into
-(
 )
 }
 }
@@ -2826,11 +2824,6 @@ LengthPercentage
 Self
 {
 NonNegative
-:
-:
-<
-LengthPercentage
->
 (
 lp
 )
