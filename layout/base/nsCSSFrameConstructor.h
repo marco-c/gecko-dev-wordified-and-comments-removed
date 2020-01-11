@@ -4541,7 +4541,7 @@ nsIFrame
 aPositionedFrameForAbsPosContainer
 )
 ;
-nsContainerFrame
+nsBlockFrame
 *
 BeginBuildingColumns
 (
