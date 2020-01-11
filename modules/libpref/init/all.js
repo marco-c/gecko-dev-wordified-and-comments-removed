@@ -17147,7 +17147,7 @@ amWebAPI
 .
 enabled
 "
-false
+true
 )
 ;
 pref
