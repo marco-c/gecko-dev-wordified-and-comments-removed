@@ -21,6 +21,8 @@ Maintainers
 -
 Brian
 Rosner
+Bernat
+Gabor
 Carl
 Meyer
 Jannis
@@ -201,3 +203,6 @@ Vladimir
 Rutsky
 Wang
 Xuerui
+Wouter
+De
+Borger

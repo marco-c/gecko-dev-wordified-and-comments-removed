@@ -34,6 +34,11 @@ P
 G
 "
 )
+if
+not
+defined
+VIRTUAL_ENV_DISABLE_PROMPT
+(
 set
 "
 _OLD_VIRTUAL_PROMPT
@@ -43,6 +48,12 @@ PROMPT
 %
 "
 )
+)
+if
+not
+defined
+VIRTUAL_ENV_DISABLE_PROMPT
+(
 set
 "
 PROMPT
@@ -52,6 +63,7 @@ __VIRTUAL_WINPROMPT__
 PROMPT
 %
 "
+)
 REM
 Don
 '
