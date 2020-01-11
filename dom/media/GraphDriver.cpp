@@ -2775,6 +2775,8 @@ MediaTrackGraphImpl
 *
 aGraphImpl
 uint32_t
+aOutputChannelCount
+uint32_t
 aInputChannelCount
 AudioInputType
 aAudioInputType
@@ -2786,7 +2788,7 @@ aGraphImpl
 )
 mOutputChannels
 (
-0
+aOutputChannelCount
 )
 mSampleRate
 (
@@ -3335,17 +3337,6 @@ format
 CUBEB_SAMPLE_FLOAT32NE
 ;
 }
-mOutputChannels
-=
-GraphImpl
-(
-)
--
->
-AudioOutputChannelCount
-(
-)
-;
 if
 (
 !
