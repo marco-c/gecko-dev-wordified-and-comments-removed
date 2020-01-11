@@ -55,6 +55,7 @@ JS_PUBLIC_API
 JSTracer
 ;
 class
+JS_FRIEND_API
 ProfilingStack
 ;
 namespace
@@ -1112,6 +1113,7 @@ unregisterThread
 ;
 }
 class
+JS_FRIEND_API
 ProfilingStack
 final
 {
