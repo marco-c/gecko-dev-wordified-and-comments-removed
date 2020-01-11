@@ -824,16 +824,6 @@ secondWinId
 )
 ;
 await
-browser
-.
-theme
-.
-reset
-(
-secondWinId
-)
-;
-await
 removeWindow
 (
 secondWinId
