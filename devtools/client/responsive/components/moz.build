@@ -108,6 +108,11 @@ DeviceForm
 js
 '
 '
+DeviceInfo
+.
+js
+'
+'
 DeviceList
 .
 js
