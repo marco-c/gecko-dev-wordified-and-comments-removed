@@ -653,8 +653,11 @@ InitializeRedirections
 )
 ;
 void
-ApplyInitialLibraryRedirections
+ApplyLibraryRedirections
 (
+void
+*
+aLibrary
 )
 ;
 uint8_t
