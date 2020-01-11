@@ -254,6 +254,10 @@ shift_or_euc_c
 ;
 extern
 crate
+fog
+;
+extern
+crate
 audio_thread_priority
 ;
 #
