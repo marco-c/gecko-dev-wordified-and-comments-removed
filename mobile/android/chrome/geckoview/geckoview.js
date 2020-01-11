@@ -2215,7 +2215,7 @@ name
 "
 GeckoViewContentBlocking
 "
-onEnable
+onInit
 :
 {
 resource
@@ -2233,6 +2233,10 @@ GeckoViewContentBlocking
 .
 jsm
 "
+}
+onEnable
+:
+{
 frameScript
 :
 "
