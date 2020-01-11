@@ -28,10 +28,6 @@ experimental
 #
 #
 Prerequisites
-#
-#
-#
-#
 Please
 check
 [
@@ -53,10 +49,6 @@ Android
 support
 first
 .
-#
-#
-#
-#
 Ensure
 you
 have
@@ -71,10 +63,6 @@ on
 the
 device
 .
-#
-#
-#
-#
 Install
 an
 up
@@ -87,7 +75,7 @@ of
 system
 webview
 shell
-.
+:
 1
 .
 Go
@@ -250,10 +238,6 @@ android_emulator
 md
 /
 )
-#
-#
-#
-#
 If
 you
 have
@@ -268,7 +252,7 @@ one
 of
 the
 following
-.
+:
 *
 Try
 removing
@@ -354,10 +338,6 @@ path
 .
 .
 .
-#
-#
-#
-#
 Configure
 host
 remap
@@ -398,7 +378,7 @@ l
 =
 57
 )
-.
+:
 adb
 shell
 "
@@ -451,10 +431,6 @@ command
 -
 line
 "
-#
-#
-#
-#
 Ensure
 that
 adb
@@ -472,10 +448,6 @@ PATH
 #
 Running
 Tests
-#
-#
-#
-#
 Example
 command
 line
