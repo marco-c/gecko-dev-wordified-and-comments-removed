@@ -72,7 +72,6 @@ long
 80
 characters
 )
-'
 "
 in
 results
