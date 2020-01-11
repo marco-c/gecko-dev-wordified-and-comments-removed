@@ -1196,6 +1196,16 @@ mDynamicToolbarMaxHeight
 0
 ;
 }
+void
+UpdateDynamicToolbarOffset
+(
+mozilla
+:
+:
+ScreenIntCoord
+aOffset
+)
+;
 bool
 IsPaginated
 (

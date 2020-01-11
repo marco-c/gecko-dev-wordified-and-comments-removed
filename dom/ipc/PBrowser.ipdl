@@ -4686,6 +4686,13 @@ height
 )
 ;
 async
+DynamicToolbarOffsetChanged
+(
+ScreenIntCoord
+height
+)
+;
+async
 ParentActivated
 (
 bool

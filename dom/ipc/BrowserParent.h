@@ -2529,6 +2529,13 @@ ScreenIntCoord
 aHeight
 )
 ;
+void
+DynamicToolbarOffsetChanged
+(
+ScreenIntCoord
+aOffset
+)
+;
 #
 endif
 void
