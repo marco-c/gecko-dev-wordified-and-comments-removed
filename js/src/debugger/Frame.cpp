@@ -4169,6 +4169,11 @@ debugger
 eval
 "
 )
+.
+setSkipFilenameValidation
+(
+true
+)
 ;
 if
 (
