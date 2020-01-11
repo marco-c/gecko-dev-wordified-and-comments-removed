@@ -3409,12 +3409,6 @@ _notifyStopped
 )
 ;
 }
-Cu
-.
-forceGC
-(
-)
-;
 }
 _requestQuit
 (
