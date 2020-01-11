@@ -253,6 +253,10 @@ EnsureInitShowPassword
 (
 )
 ;
+RecordTelemetry
+(
+)
+;
 }
 void
 nsLookAndFeel

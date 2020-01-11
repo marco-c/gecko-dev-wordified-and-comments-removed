@@ -2157,4 +2157,8 @@ darkTextColor
 ]
 )
 ;
+RecordTelemetry
+(
+)
+;
 }

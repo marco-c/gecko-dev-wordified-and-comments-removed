@@ -4311,5 +4311,9 @@ NS_RGB
 0xdc
 )
 ;
+RecordTelemetry
+(
+)
+;
 NS_OBJC_END_TRY_ABORT_BLOCK
 }

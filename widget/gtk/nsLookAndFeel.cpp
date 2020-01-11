@@ -5664,6 +5664,10 @@ break
 ;
 }
 }
+RecordTelemetry
+(
+)
+;
 }
 char16_t
 nsLookAndFeel
