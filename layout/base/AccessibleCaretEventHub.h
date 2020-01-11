@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+MouseEvents
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -572,6 +581,11 @@ const
 nsPoint
 &
 aPoint
+WidgetMouseEvent
+:
+:
+Reason
+aReason
 )
 {
 return
