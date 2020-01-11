@@ -39,10 +39,6 @@ ipdl
 -
 layout
 /
-reftests
--
-layout
-/
 style
 /
 ServoCSSPropList

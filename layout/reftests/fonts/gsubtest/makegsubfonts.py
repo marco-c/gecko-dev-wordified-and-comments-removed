@@ -1,3 +1,8 @@
+from
+__future__
+import
+print_function
+absolute_import
 import
 os
 import
@@ -721,6 +726,7 @@ else
     			
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -734,6 +740,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -829,6 +836,7 @@ else
     			
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -842,6 +850,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -1800,6 +1809,7 @@ else
     			
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -1813,6 +1823,7 @@ d
 table
 .
 format
+)
     	
 cp
 +
@@ -1923,6 +1934,7 @@ else
     				
 raise
 NotImplementedError
+(
 "
 Unsupported
 cmap
@@ -1936,6 +1948,7 @@ d
 table
 .
 format
+)
     		
 cp
 +
@@ -2925,6 +2938,7 @@ close
 (
 )
 print
+(
 "
 Making
 lookup
@@ -2935,10 +2949,12 @@ font
 .
 .
 "
+)
 makeLookup1
 (
 )
 print
+(
 "
 Making
 lookup
@@ -2949,10 +2965,12 @@ font
 .
 .
 "
+)
 makeLookup3
 (
 )
 print
+(
 "
 Making
 javascript
@@ -2962,6 +2980,7 @@ file
 .
 .
 "
+)
 makeJavascriptData
 (
 )
