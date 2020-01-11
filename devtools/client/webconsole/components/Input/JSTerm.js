@@ -2914,7 +2914,7 @@ setAutoCompletionText
 }
 this
 .
-emitForTests
+emit
 (
 "
 set

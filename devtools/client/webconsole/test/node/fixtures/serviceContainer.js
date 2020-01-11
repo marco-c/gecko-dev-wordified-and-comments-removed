@@ -23,7 +23,7 @@ canRewind
 =
 >
 false
-emitForTests
+emitEvent
 :
 (
 )

@@ -116,7 +116,7 @@ open
 >
 webConsoleWrapper
 .
-emitForTests
+emit
 (
 "
 menu
@@ -292,7 +292,7 @@ webConsoleUI
 getJsTermTooltipAnchor
 (
 )
-emitForTests
+emitEvent
 :
 (
 event
@@ -302,7 +302,7 @@ value
 >
 webConsoleUI
 .
-emitForTests
+emit
 (
 event
 value
