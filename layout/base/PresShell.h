@@ -58,13 +58,6 @@ h
 #
 include
 "
-ZoomConstraintsClient
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h
@@ -242,13 +235,6 @@ h
 include
 "
 nsCoord
-.
-h
-"
-#
-include
-"
-nsDOMNavigationTiming
 .
 h
 "
@@ -538,6 +524,9 @@ OverflowChangedTracker
 ;
 class
 StyleSheet
+;
+class
+ZoomConstraintsClient
 ;
 #
 ifdef
