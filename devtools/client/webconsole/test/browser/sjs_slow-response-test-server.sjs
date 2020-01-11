@@ -27,6 +27,11 @@ zero
 /
 *
 /
+"
+use
+strict
+"
+;
 function
 handleRequest
 (
@@ -155,7 +160,7 @@ finish
 )
 ;
 }
-300
+1000
 Ci
 .
 nsITimer
