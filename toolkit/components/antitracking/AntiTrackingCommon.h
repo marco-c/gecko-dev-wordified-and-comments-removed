@@ -299,7 +299,11 @@ aTrackingPrinciapl
 const
 nsCString
 &
-aTrackingOrigin
+aParentOrigin
+const
+nsCString
+&
+aGrantedOrigin
 int
 aAllowMode
 )
