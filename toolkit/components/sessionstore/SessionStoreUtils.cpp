@@ -7736,10 +7736,6 @@ mSelectedIndex
 .
 Construct
 (
-)
-.
-Assign
-(
 std
 :
 :
@@ -7767,10 +7763,6 @@ ret
 mValueIdx
 .
 Construct
-(
-)
-.
-Assign
 (
 std
 :
@@ -7800,10 +7792,6 @@ mId
 .
 Construct
 (
-)
-.
-Assign
-(
 std
 :
 :
@@ -7831,10 +7819,6 @@ ret
 mSelectVal
 .
 Construct
-(
-)
-.
-Assign
 (
 std
 :
@@ -7864,10 +7848,6 @@ mStrVal
 .
 Construct
 (
-)
-.
-Assign
-(
 std
 :
 :
@@ -7896,10 +7876,6 @@ mType
 .
 Construct
 (
-)
-.
-Assign
-(
 std
 :
 :
@@ -7927,10 +7903,6 @@ ret
 mBoolVal
 .
 Construct
-(
-)
-.
-Assign
 (
 std
 :
