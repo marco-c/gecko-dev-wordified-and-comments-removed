@@ -395,6 +395,9 @@ bool
 mDoingDrag
 ;
 bool
+mEndingSession
+;
+bool
 mHasImage
 ;
 bool
