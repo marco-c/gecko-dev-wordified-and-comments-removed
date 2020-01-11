@@ -26646,9 +26646,11 @@ previousFlags
 =
 0
 ;
-ExtractLastVisit
+docChannel
+-
+>
+GetLastVisit
 (
-aOldChannel
 getter_AddRefs
 (
 previousURI

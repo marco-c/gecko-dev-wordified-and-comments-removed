@@ -2383,6 +2383,17 @@ isPost
 }
 ;
 struct
+LastVisitInfo
+{
+nsIURI
+uri
+;
+uint32_t
+previousFlags
+;
+}
+;
+struct
 RedirectToRealChannelArgs
 {
 uint32_t
@@ -2432,6 +2443,9 @@ redirectIdentifier
 ;
 nsIPropertyBag2
 properties
+;
+LastVisitInfo
+lastVisitInfo
 ;
 }
 ;
