@@ -2417,6 +2417,9 @@ mLastActiveTabLoadOptimizationLock
 TimeStamp
 mLastActiveTabLoadOptimizationHit
 ;
+Mutex
+mSpdyBlacklistLock
+;
 public
 :
 MOZ_MUST_USE
