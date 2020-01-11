@@ -1926,10 +1926,6 @@ start
 end
 0
 start
-ParseGoal
-:
-:
-Script
 )
 )
 ;

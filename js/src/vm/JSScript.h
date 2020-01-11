@@ -9355,7 +9355,7 @@ IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 hasCallSiteObj
 HasCallSiteObj
 )
-IMMUTABLE_FLAG_GETTER
+IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 (
 hasModuleGoal
 HasModuleGoal
@@ -13947,11 +13947,6 @@ uint32_t
 lineno
 uint32_t
 column
-frontend
-:
-:
-ParseGoal
-parseGoal
 )
 ;
 static
