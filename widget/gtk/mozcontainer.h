@@ -354,6 +354,15 @@ void
 initial_draw_cb
 )
 ;
+wl_surface
+*
+moz_gtk_widget_get_wl_surface
+(
+GtkWidget
+*
+aWidget
+)
+;
 #
 endif
 #
