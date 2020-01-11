@@ -1405,7 +1405,7 @@ d
 =
 0
 ;
-int
+ssize_t
 l
 =
 len
