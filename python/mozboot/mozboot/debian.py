@@ -28,6 +28,8 @@ NodeInstall
 SccacheInstall
     
 StyloInstall
+    
+WasiSysrootInstall
 )
 MERCURIAL_INSTALL_PROMPT
 =
@@ -169,13 +171,15 @@ choice
 class
 DebianBootstrapper
 (
+        
 NasmInstall
 NodeInstall
 StyloInstall
 ClangStaticAnalysisInstall
-                         
+        
 SccacheInstall
 LucetcInstall
+WasiSysrootInstall
 BaseBootstrapper
 )
 :

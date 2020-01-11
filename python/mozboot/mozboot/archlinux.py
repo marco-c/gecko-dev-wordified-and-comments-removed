@@ -36,6 +36,8 @@ NodeInstall
 SccacheInstall
     
 StyloInstall
+    
+WasiSysrootInstall
 )
 if
 sys
@@ -60,6 +62,7 @@ SccacheInstall
 ClangStaticAnalysisInstall
         
 LucetcInstall
+WasiSysrootInstall
 BaseBootstrapper
 )
 :
