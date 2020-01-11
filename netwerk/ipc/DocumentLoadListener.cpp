@@ -4365,6 +4365,14 @@ false
 )
 ;
 }
+if
+(
+status
+!
+=
+NS_BINDING_ABORTED
+)
+{
 nsCOMPtr
 <
 nsIObserverService
@@ -4401,6 +4409,7 @@ process
 nullptr
 )
 ;
+}
 if
 (
 mRedirectContentProcessIdPromise
