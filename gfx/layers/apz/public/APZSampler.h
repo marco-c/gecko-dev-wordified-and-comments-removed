@@ -318,6 +318,14 @@ LayerMetricsWrapper
 aLayer
 )
 ;
+const
+ScreenMargin
+&
+GetGeckoFixedLayerMargins
+(
+)
+const
+;
 void
 AssertOnSamplerThread
 (
