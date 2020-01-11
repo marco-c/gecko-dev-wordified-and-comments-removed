@@ -251,6 +251,10 @@ service
 AddMediaController
 (
 controller1
+.
+get
+(
+)
 )
 ;
 manager
@@ -290,6 +294,10 @@ service
 AddMediaController
 (
 controller2
+.
+get
+(
+)
 )
 ;
 manager
@@ -336,6 +344,10 @@ service
 RemoveMediaController
 (
 controller1
+.
+get
+(
+)
 )
 ;
 service
@@ -344,6 +356,10 @@ service
 RemoveMediaController
 (
 controller2
+.
+get
+(
+)
 )
 ;
 }
