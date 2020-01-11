@@ -11485,6 +11485,14 @@ IntrinsicDirty
 Resize
 )
 ;
+mRefreshDriver
+-
+>
+AddResizeEventFlushObserver
+(
+mPresShell
+)
+;
 }
 mDynamicToolbarHeight
 =
