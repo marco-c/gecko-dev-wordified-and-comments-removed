@@ -1620,6 +1620,9 @@ tiles
 values
 (
 )
+visibility_state
+.
+resource_cache
 )
 ;
 }
