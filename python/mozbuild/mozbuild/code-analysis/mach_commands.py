@@ -6205,21 +6205,12 @@ self
 .
 _get_infer_args
 (
-            
-checks
-=
 checks
 or
 all_checkers
-            
 third_party_path
-=
-third_party_path
-            
+                                                  
 generated_path
-=
-generated_path
-        
 )
         
 rc
