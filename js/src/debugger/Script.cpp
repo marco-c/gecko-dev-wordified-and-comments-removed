@@ -8722,7 +8722,7 @@ false
 }
 for
 (
-BytecodeRangeWithPosition
+BytecodeRange
 r
 (
 cx
