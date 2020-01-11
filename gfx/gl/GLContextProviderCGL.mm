@@ -879,8 +879,6 @@ NSOpenGLPFAAccelerated
 NSOpenGLPFAAllowOfflineRenderers
 NSOpenGLPFAOpenGLProfile
 NSOpenGLProfileVersion3_2Core
-NSOpenGLPFADepthSize
-24
 0
 }
 ;
