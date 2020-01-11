@@ -1521,17 +1521,21 @@ execute_script
             
 return
 [
+              
 document
 .
-body
+documentElement
 .
 scrollWidth
+              
 document
 .
-body
+documentElement
 .
 scrollHeight
+            
 ]
+;
             
 "
 "
@@ -2003,7 +2007,7 @@ page_y_offset
 )
     
 def
-test_capture_html_document_element
+test_capture_full_html_document_element
 (
 self
 )
@@ -2057,7 +2061,7 @@ screenshot
 )
     
 def
-test_capture_svg_document_element
+test_capture_full_svg_document_element
 (
 self
 )
@@ -2099,12 +2103,7 @@ scale
 (
 self
 .
-get_element_dimensions
-(
-self
-.
-document_element
-)
+scroll_dimensions
 )
                          
 self

@@ -16,7 +16,7 @@ execute_script
 "
 "
         
-let
+const
 {
 devicePixelRatio
 }
@@ -24,19 +24,24 @@ devicePixelRatio
 window
 ;
         
-let
-{
+const
 width
-height
-}
 =
 document
 .
 documentElement
 .
-getBoundingClientRect
-(
-)
+scrollWidth
+;
+        
+const
+height
+=
+document
+.
+documentElement
+.
+scrollHeight
 ;
         
 return
