@@ -395,7 +395,7 @@ return
 MediaControlKeysEvent
 :
 :
-eNext
+eNextTrack
 ;
 case
 NX_KEYTYPE_PREVIOUS
@@ -407,7 +407,7 @@ return
 MediaControlKeysEvent
 :
 :
-ePrev
+ePrevTrack
 ;
 default
 :

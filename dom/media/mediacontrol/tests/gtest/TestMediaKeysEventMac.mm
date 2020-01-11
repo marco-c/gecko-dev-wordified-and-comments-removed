@@ -402,7 +402,7 @@ aEvent
 MediaControlKeysEvent
 :
 :
-eNext
+eNextTrack
 )
 {
 keyData
@@ -422,7 +422,7 @@ aEvent
 MediaControlKeysEvent
 :
 :
-ePrev
+ePrevTrack
 )
 {
 keyData
@@ -668,7 +668,7 @@ source
 MediaControlKeysEvent
 :
 :
-eNext
+eNextTrack
 )
 ;
 ASSERT_TRUE
@@ -681,7 +681,7 @@ IsResultEqualTo
 MediaControlKeysEvent
 :
 :
-eNext
+eNextTrack
 )
 )
 ;
@@ -691,7 +691,7 @@ source
 MediaControlKeysEvent
 :
 :
-ePrev
+ePrevTrack
 )
 ;
 ASSERT_TRUE
@@ -704,7 +704,7 @@ IsResultEqualTo
 MediaControlKeysEvent
 :
 :
-ePrev
+ePrevTrack
 )
 )
 ;
@@ -833,7 +833,7 @@ source
 MediaControlKeysEvent
 :
 :
-eNext
+eNextTrack
 )
 ;
 ASSERT_TRUE
@@ -853,7 +853,7 @@ source
 MediaControlKeysEvent
 :
 :
-ePrev
+ePrevTrack
 )
 ;
 ASSERT_TRUE
