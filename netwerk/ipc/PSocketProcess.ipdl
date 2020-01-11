@@ -115,6 +115,10 @@ PHttpTransaction
 ;
 include
 protocol
+PHttpConnectionMgr
+;
+include
+protocol
 PFileDescriptorSet
 ;
 include
@@ -305,6 +309,9 @@ PFileDescriptorSet
 ;
 manages
 PHttpTransaction
+;
+manages
+PHttpConnectionMgr
 ;
 manages
 PChildToParentStream
@@ -511,6 +518,11 @@ PHttpTransaction
 ;
 async
 PParentToChildStream
+(
+)
+;
+async
+PHttpConnectionMgr
 (
 )
 ;

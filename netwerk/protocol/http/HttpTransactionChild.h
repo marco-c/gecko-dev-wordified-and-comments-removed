@@ -233,6 +233,12 @@ aWhy
 )
 override
 ;
+nsHttpTransaction
+*
+GetHttpTransaction
+(
+)
+;
 private
 :
 virtual

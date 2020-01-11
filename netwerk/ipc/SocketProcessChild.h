@@ -347,6 +347,14 @@ aFD
 )
 override
 ;
+already_AddRefed
+<
+PHttpConnectionMgrChild
+>
+AllocPHttpConnectionMgrChild
+(
+)
+;
 private
 :
 nsRefPtrHashtable
