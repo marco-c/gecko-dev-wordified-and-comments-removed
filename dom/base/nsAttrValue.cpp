@@ -826,7 +826,7 @@ ResetIfSet
 )
 ;
 }
-nsresult
+void
 nsAttrValue
 :
 :
@@ -834,7 +834,7 @@ Init
 (
 )
 {
-NS_ASSERTION
+MOZ_ASSERT
 (
 !
 sEnumTableArray
@@ -854,9 +854,6 @@ const
 EnumTable
 *
 >
-;
-return
-NS_OK
 ;
 }
 void
