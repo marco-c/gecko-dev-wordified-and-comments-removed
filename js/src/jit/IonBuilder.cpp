@@ -2992,12 +2992,6 @@ MBasicBlock
 entry
 jsbytecode
 *
-loopHeadPc
-jsbytecode
-*
-loopStartPc
-jsbytecode
-*
 loopStopPc
 )
 {
@@ -3017,7 +3011,7 @@ MOZ_ASSERT
 JSOp
 (
 *
-loopHeadPc
+pc
 )
 =
 =
@@ -3059,7 +3053,7 @@ i
 pc
 =
 =
-loopHeadPc
+pc
 )
 {
 MBasicBlock
@@ -3294,7 +3288,7 @@ append
 (
 LoopHeader
 (
-loopHeadPc
+pc
 entry
 )
 )
@@ -3315,15 +3309,7 @@ BytecodeLocation
 start
 (
 script_
-loopStartPc
-)
-;
-start
-=
-start
-.
-next
-(
+pc
 )
 ;
 BytecodeLocation
@@ -9828,8 +9814,6 @@ MOZ_TRY
 analyzeNewLoopTypes
 (
 header
-pc
-pc
 backjump
 )
 )

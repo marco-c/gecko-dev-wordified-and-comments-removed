@@ -714,12 +714,6 @@ MBasicBlock
 entry
 jsbytecode
 *
-loopHeadPc
-jsbytecode
-*
-loopStartPc
-jsbytecode
-*
 loopStopPc
 )
 ;
