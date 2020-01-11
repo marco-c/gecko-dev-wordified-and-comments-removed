@@ -29,14 +29,7 @@ h
 #
 include
 "
-nsIEncodedChannel
-.
-h
-"
-#
-include
-"
-nsIStringEnumerator
+nsICacheInfoChannel
 .
 h
 "

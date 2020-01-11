@@ -131,13 +131,6 @@ h
 #
 include
 "
-nsIDocShellTreeOwner
-.
-h
-"
-#
-include
-"
 nsQueryObject
 .
 h

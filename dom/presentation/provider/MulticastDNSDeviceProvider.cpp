@@ -65,13 +65,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsIWritablePropertyBag2
 .
 h

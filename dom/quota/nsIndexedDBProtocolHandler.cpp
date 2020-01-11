@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIURIMutator
-.
-h
-"
-#
-include
-"
 nsStandardURL
 .
 h

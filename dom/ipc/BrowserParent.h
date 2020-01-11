@@ -206,13 +206,6 @@ h
 #
 include
 "
-nsIRemoteTab
-.
-h
-"
-#
-include
-"
 nsIXULBrowserWindow
 .
 h

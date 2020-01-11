@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsIHttpChannelInternal
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

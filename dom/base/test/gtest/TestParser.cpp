@@ -17,13 +17,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsString
 .
 h

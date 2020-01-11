@@ -188,13 +188,6 @@ h
 #
 include
 "
-nsIScriptError
-.
-h
-"
-#
-include
-"
 nsIUUIDGenerator
 .
 h

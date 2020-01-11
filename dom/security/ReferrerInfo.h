@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsISerializable
-.
-h
-"
-#
-include
-"
 nsIHttpChannel
 .
 h

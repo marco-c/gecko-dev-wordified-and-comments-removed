@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

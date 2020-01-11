@@ -20,13 +20,6 @@ nsIContent
 .
 h
 "
-#
-include
-"
-nsIContentPolicy
-.
-h
-"
 namespace
 mozilla
 {

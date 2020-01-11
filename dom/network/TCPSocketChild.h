@@ -49,13 +49,6 @@ TypeDecls
 .
 h
 "
-#
-include
-"
-nsICancelable
-.
-h
-"
 class
 nsITCPSocketCallback
 ;

@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h
@@ -148,13 +141,6 @@ h
 include
 "
 nsIProtocolHandler
-.
-h
-"
-#
-include
-"
-nsIScriptSecurityManager
 .
 h
 "

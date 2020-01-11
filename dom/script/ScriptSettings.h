@@ -75,9 +75,6 @@ nsGlobalWindowInner
 class
 nsIScriptContext
 ;
-class
-nsIDocShell
-;
 namespace
 mozilla
 {

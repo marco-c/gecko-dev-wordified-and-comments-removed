@@ -100,13 +100,6 @@ h
 #
 include
 "
-nsIConsoleService
-.
-h
-"
-#
-include
-"
 nsIScriptError
 .
 h
@@ -136,13 +129,6 @@ h
 include
 "
 nsCycleCollectionParticipant
-.
-h
-"
-#
-include
-"
-nsIDocShell
 .
 h
 "

@@ -127,13 +127,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h

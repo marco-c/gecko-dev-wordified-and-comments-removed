@@ -63,13 +63,6 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-nsIThread
-.
-h
-"
 using
 namespace
 mozilla

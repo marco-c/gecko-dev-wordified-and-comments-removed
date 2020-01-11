@@ -7,13 +7,6 @@ CDMCaps_h_
 #
 include
 "
-nsIThread
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

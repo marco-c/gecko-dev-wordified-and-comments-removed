@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIDeviceSensors
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h

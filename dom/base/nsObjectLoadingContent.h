@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsIObjectLoadingContent
 .
 h
@@ -63,13 +56,6 @@ h
 include
 "
 nsIRunnable
-.
-h
-"
-#
-include
-"
-nsIThreadInternal
 .
 h
 "

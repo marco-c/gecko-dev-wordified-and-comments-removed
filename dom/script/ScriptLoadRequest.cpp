@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsICacheInfoChannel
-.
-h
-"
-#
-include
-"
 ScriptLoadRequest
 .
 h

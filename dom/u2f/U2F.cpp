@@ -74,13 +74,6 @@ h
 #
 include
 "
-nsIEffectiveTLDService
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h

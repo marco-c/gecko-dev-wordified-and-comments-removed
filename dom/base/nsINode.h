@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIVariant
-.
-h
-"
-#
-include
-"
 nsIWeakReference
 .
 h

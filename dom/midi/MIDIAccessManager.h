@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

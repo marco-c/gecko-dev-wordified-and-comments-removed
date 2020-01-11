@@ -35,13 +35,6 @@ nsCollationCID
 .
 h
 "
-#
-include
-"
-nsIServiceManager
-.
-h
-"
 using
 namespace
 mozilla

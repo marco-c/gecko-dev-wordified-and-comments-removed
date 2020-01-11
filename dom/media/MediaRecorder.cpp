@@ -250,13 +250,6 @@ h
 #
 include
 "
-nsIPermissionManager
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h

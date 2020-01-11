@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

@@ -1,13 +1,6 @@
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 UDPSocketParent
 .
 h
@@ -101,13 +94,6 @@ h
 include
 "
 nsIPermissionManager
-.
-h
-"
-#
-include
-"
-nsIScriptSecurityManager
 .
 h
 "

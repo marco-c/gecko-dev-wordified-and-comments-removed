@@ -77,13 +77,6 @@ h
 #
 include
 "
-mozIGeckoMediaPluginService
-.
-h
-"
-#
-include
-"
 nsContentCID
 .
 h
@@ -92,13 +85,6 @@ h
 include
 "
 nsServiceManagerUtils
-.
-h
-"
-#
-include
-"
-nsISimpleEnumerator
 .
 h
 "

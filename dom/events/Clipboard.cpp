@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

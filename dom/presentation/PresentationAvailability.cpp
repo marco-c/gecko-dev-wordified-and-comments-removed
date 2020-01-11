@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIPresentationDeviceManager
-.
-h
-"
-#
-include
-"
 nsIPresentationService
 .
 h

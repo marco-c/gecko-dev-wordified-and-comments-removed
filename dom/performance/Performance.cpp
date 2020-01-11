@@ -15,13 +15,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsRFPService
 .
 h

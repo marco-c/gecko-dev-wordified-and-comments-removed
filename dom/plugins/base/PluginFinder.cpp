@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIBlocklistService
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -104,6 +111,13 @@ h
 include
 "
 nsAppDirectoryServiceDefs
+.
+h
+"
+#
+include
+"
+nsComponentManagerUtils
 .
 h
 "
