@@ -5428,48 +5428,13 @@ platform
 ]
 in
 [
-'
-linux32
-/
-opt
-'
-                                         
-'
-linux32
-/
-debug
-'
-                                         
-'
-linux32
--
-nightly
-/
-opt
-'
-                                         
-'
-linux32
--
-devedition
-/
-opt
-'
-                                         
-'
-linux32
--
-shippable
-/
-opt
-'
-                                         
+                
 '
 linux64
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5477,13 +5442,13 @@ nightly
 /
 opt
 '
-                                         
+                
 '
 linux64
 /
 debug
 '
-                                         
+                
 '
 linux64
 -
@@ -5491,7 +5456,7 @@ pgo
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5499,7 +5464,7 @@ shippable
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5507,7 +5472,7 @@ devedition
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5515,7 +5480,7 @@ asan
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5523,7 +5488,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5531,7 +5496,7 @@ qr
 /
 debug
 '
-                                         
+                
 '
 linux64
 -
@@ -5541,7 +5506,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 linux64
 -
@@ -5551,17 +5516,7 @@ qr
 /
 opt
 '
-                                         
-'
-linux1804
--
-32
--
-shippable
-/
-opt
-'
-                                         
+                
 '
 linux1804
 -
@@ -5569,7 +5524,7 @@ linux1804
 /
 opt
 '
-                                         
+                
 '
 linux1804
 -
@@ -5577,7 +5532,7 @@ linux1804
 /
 debug
 '
-                                         
+                
 '
 linux1804
 -
@@ -5587,7 +5542,7 @@ shippable
 /
 opt
 '
-                                         
+                
 '
 linux1804
 -
@@ -5597,7 +5552,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 linux1804
 -
@@ -5607,7 +5562,7 @@ qr
 /
 debug
 '
-                                         
+                
 '
 linux1804
 -
@@ -5619,7 +5574,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 linux1804
 -
@@ -5629,7 +5584,7 @@ asan
 /
 opt
 '
-                                         
+                
 '
 windows7
 -
@@ -5637,7 +5592,7 @@ windows7
 /
 debug
 '
-                                         
+                
 '
 windows7
 -
@@ -5645,7 +5600,7 @@ windows7
 /
 opt
 '
-                                         
+                
 '
 windows7
 -
@@ -5655,7 +5610,7 @@ pgo
 /
 opt
 '
-                                         
+                
 '
 windows7
 -
@@ -5665,7 +5620,7 @@ devedition
 /
 opt
 '
-                                         
+                
 '
 windows7
 -
@@ -5675,7 +5630,7 @@ nightly
 /
 opt
 '
-                                         
+                
 '
 windows7
 -
@@ -5685,7 +5640,7 @@ shippable
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5693,7 +5648,7 @@ aarch64
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5701,7 +5656,7 @@ windows10
 /
 debug
 '
-                                         
+                
 '
 windows10
 -
@@ -5709,7 +5664,7 @@ windows10
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5719,7 +5674,7 @@ pgo
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5729,7 +5684,7 @@ shippable
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5739,7 +5694,7 @@ devedition
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5749,7 +5704,7 @@ nightly
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5759,7 +5714,7 @@ asan
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5769,7 +5724,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5779,7 +5734,7 @@ qr
 /
 debug
 '
-                                         
+                
 '
 windows10
 -
@@ -5791,7 +5746,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 windows10
 -
@@ -5803,7 +5758,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5811,7 +5766,7 @@ macosx1014
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5819,7 +5774,7 @@ macosx1014
 /
 debug
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5829,7 +5784,7 @@ nightly
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5839,7 +5794,7 @@ shippable
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5849,7 +5804,7 @@ devedition
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5859,7 +5814,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5871,7 +5826,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 macosx1014
 -
@@ -5881,7 +5836,7 @@ qr
 /
 debug
 '
-                                         
+                
 '
 android
 -
@@ -5895,7 +5850,7 @@ x86_64
 /
 opt
 '
-                                         
+                
 '
 android
 -
@@ -5909,7 +5864,7 @@ x86_64
 /
 debug
 '
-                                         
+                
 '
 android
 -
@@ -5923,7 +5878,7 @@ x86
 /
 opt
 '
-                                         
+                
 '
 android
 -
@@ -5939,7 +5894,7 @@ qr
 /
 opt
 '
-                                         
+                
 '
 android
 -
@@ -5955,6 +5910,7 @@ qr
 /
 debug
 '
+            
 ]
 :
                 
