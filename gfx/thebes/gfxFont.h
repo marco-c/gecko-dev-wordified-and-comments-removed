@@ -230,6 +230,13 @@ TextDrawTarget
 .
 h
 "
+#
+include
+"
+ThebesRLBoxTypes
+.
+h
+"
 typedef
 struct
 _cairo
@@ -6757,7 +6764,7 @@ Script
 aRunScript
 )
 ;
-bool
+tainted_boolean_hint
 SpaceMayParticipateInShaping
 (
 Script
