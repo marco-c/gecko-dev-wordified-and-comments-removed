@@ -108,11 +108,12 @@ selectedTab
 linkedBrowser
 [
 ]
-async
 (
 )
 =
 >
+!
+!
 content
 .
 document

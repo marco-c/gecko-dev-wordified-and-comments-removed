@@ -382,6 +382,8 @@ function
 )
 {
 return
+!
+!
 content
 .
 wrappedJSObject
