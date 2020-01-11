@@ -13922,9 +13922,6 @@ binding_detail
 :
 :
 FakeString
-<
-char16_t
->
 &
 aString
 )
