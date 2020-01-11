@@ -331,6 +331,9 @@ servo_arc
 [
 struct
 ]
+associated_constants_in_body
+=
+true
 derive_eq
 =
 true
@@ -1849,13 +1852,6 @@ TextUnderlinePosition
 "
 "
 "
-static
-inline
-StyleTextUnderlinePosition
-Auto
-(
-)
-;
 inline
 bool
 IsAuto

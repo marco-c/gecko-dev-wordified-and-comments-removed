@@ -49110,7 +49110,10 @@ aFrame
 )
 {
 return
-StyleTouchAction_AUTO
+StyleTouchAction
+:
+:
+AUTO
 ;
 }
 bool
@@ -49133,7 +49136,10 @@ isNonReplacedInlineElement
 )
 {
 return
-StyleTouchAction_AUTO
+StyleTouchAction
+:
+:
+AUTO
 ;
 }
 const
@@ -49164,7 +49170,10 @@ isTableElement
 )
 {
 return
-StyleTouchAction_AUTO
+StyleTouchAction
+:
+:
+AUTO
 ;
 }
 return

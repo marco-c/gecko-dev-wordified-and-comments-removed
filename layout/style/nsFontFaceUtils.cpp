@@ -762,7 +762,10 @@ GetContent
 (
 )
 )
-StyleRestyleHint_RECASCADE_SELF
+RestyleHint
+:
+:
+RECASCADE_SELF
 nsChangeHint
 (
 0

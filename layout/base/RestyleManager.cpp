@@ -14619,7 +14619,10 @@ style
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_STYLE_ATTRIBUTE
+RestyleHint
+:
+:
+RESTYLE_STYLE_ATTRIBUTE
 ;
 }
 else
@@ -14659,7 +14662,10 @@ aAttribute
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_SELF
+RestyleHint
+:
+:
+RESTYLE_SELF
 ;
 }
 else
@@ -14685,7 +14691,10 @@ part
 restyleHint
 |
 =
-StyleRestyleHint_RESTYLE_SELF
+RestyleHint
+:
+:
+RESTYLE_SELF
 ;
 }
 if

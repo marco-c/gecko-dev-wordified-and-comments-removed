@@ -170,7 +170,10 @@ mMozContextProperties
 .
 bits
 &
-StyleContextPropertyBits_FILL
+StyleContextPropertyBits
+:
+:
+FILL
 )
 &
 &
@@ -224,7 +227,10 @@ mMozContextProperties
 .
 bits
 &
-StyleContextPropertyBits_STROKE
+StyleContextPropertyBits
+:
+:
+STROKE
 )
 &
 &
@@ -277,7 +283,10 @@ mMozContextProperties
 .
 bits
 &
-StyleContextPropertyBits_FILL_OPACITY
+StyleContextPropertyBits
+:
+:
+FILL_OPACITY
 )
 {
 haveContextPaint
@@ -305,7 +314,10 @@ mMozContextProperties
 .
 bits
 &
-StyleContextPropertyBits_STROKE_OPACITY
+StyleContextPropertyBits
+:
+:
+STROKE_OPACITY
 )
 {
 haveContextPaint

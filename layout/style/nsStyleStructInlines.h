@@ -683,7 +683,10 @@ bits
 mozilla
 :
 :
-StyleWillChangeBits_FIXPOS_CB
+StyleWillChangeBits
+:
+:
+FIXPOS_CB
 )
 {
 return
@@ -925,7 +928,10 @@ bits
 mozilla
 :
 :
-StyleWillChangeBits_ABSPOS_CB
+StyleWillChangeBits
+:
+:
+ABSPOS_CB
 )
 ;
 }

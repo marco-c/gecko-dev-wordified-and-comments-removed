@@ -16185,7 +16185,10 @@ mWillChange
 .
 bits
 &
-StyleWillChangeBits_SCROLL
+StyleWillChangeBits
+:
+:
+SCROLL
 )
 {
 aBuilder
@@ -25755,7 +25758,10 @@ mWillChange
 .
 bits
 &
-StyleWillChangeBits_SCROLL
+StyleWillChangeBits
+:
+:
+SCROLL
 )
 {
 return
@@ -25833,7 +25839,10 @@ mWillChange
 .
 bits
 &
-StyleWillChangeBits_SCROLL
+StyleWillChangeBits
+:
+:
+SCROLL
 &
 &
 aBuilder
