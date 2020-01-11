@@ -1515,12 +1515,15 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 {
 Surface
 surface
 (
 aTileSize
+aIsOpaque
 )
 ;
 mSurfaces
@@ -1567,8 +1570,6 @@ int
 aX
 int
 aY
-bool
-aIsOpaque
 )
 {
 auto
@@ -1629,7 +1630,9 @@ mTileSize
 .
 height
 )
-aIsOpaque
+surface
+.
+mIsOpaque
 mSurfacePoolHandle
 )
 ;

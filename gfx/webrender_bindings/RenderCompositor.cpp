@@ -247,6 +247,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 {
 RenderCompositor
@@ -269,6 +271,7 @@ CreateSurface
 (
 aId
 aTileSize
+aIsOpaque
 )
 ;
 }
@@ -287,8 +290,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 {
 RenderCompositor
@@ -312,7 +313,6 @@ CreateTile
 aId
 aX
 aY
-aIsOpaque
 )
 ;
 }

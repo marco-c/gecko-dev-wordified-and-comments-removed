@@ -345,6 +345,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 override
 ;
@@ -368,8 +370,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 override
 ;

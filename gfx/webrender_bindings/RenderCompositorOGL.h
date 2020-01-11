@@ -267,6 +267,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 override
 ;
@@ -290,8 +292,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 override
 ;
@@ -457,11 +457,17 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 :
 mTileSize
 (
 aTileSize
+)
+mIsOpaque
+(
+aIsOpaque
 )
 {
 }
@@ -470,6 +476,9 @@ wr
 :
 DeviceIntSize
 mTileSize
+;
+bool
+mIsOpaque
 ;
 std
 :

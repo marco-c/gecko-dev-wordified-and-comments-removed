@@ -222,6 +222,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 ;
 void
@@ -243,8 +245,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 ;
 void
@@ -542,6 +542,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 DCLayerTree
 *
 aDCLayerTree
@@ -564,8 +566,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aIsOpaque
 )
 ;
 void
@@ -677,6 +677,9 @@ wr
 :
 DeviceIntSize
 mTileSize
+;
+bool
+mIsOpaque
 ;
 std
 :

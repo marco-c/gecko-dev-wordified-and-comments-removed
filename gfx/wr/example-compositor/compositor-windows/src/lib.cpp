@@ -271,6 +271,9 @@ tile_width
 int
 tile_height
 ;
+bool
+is_opaque
+;
 std
 :
 :
@@ -2010,6 +2013,8 @@ int
 tile_width
 int
 tile_height
+bool
+is_opaque
 )
 {
 assert
@@ -2042,6 +2047,12 @@ surface
 tile_height
 =
 tile_height
+;
+surface
+.
+is_opaque
+=
+is_opaque
 ;
 HRESULT
 hr
@@ -2091,8 +2102,6 @@ int
 x
 int
 y
-bool
-is_opaque
 )
 {
 assert
@@ -2151,6 +2160,8 @@ tile
 DXGI_ALPHA_MODE
 alpha_mode
 =
+surface
+.
 is_opaque
 ?
 DXGI_ALPHA_MODE_IGNORE

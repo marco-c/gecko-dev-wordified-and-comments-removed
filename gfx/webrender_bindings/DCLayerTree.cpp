@@ -1159,6 +1159,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 )
 {
 auto
@@ -1207,6 +1209,7 @@ DCSurface
 >
 (
 aTileSize
+aIsOpaque
 this
 )
 ;
@@ -1338,8 +1341,6 @@ int
 aX
 int
 aY
-bool
-aIsOpaque
 )
 {
 auto
@@ -1357,7 +1358,6 @@ CreateTile
 (
 aX
 aY
-aIsOpaque
 )
 ;
 }
@@ -1764,6 +1764,8 @@ wr
 :
 DeviceIntSize
 aTileSize
+bool
+aIsOpaque
 DCLayerTree
 *
 aDCLayerTree
@@ -1776,6 +1778,10 @@ aDCLayerTree
 mTileSize
 (
 aTileSize
+)
+mIsOpaque
+(
+aIsOpaque
 )
 {
 }
@@ -1869,8 +1875,6 @@ int
 aX
 int
 aY
-bool
-aIsOpaque
 )
 {
 TileKey
@@ -1919,7 +1923,7 @@ Initialize
 aX
 aY
 mTileSize
-aIsOpaque
+mIsOpaque
 )
 )
 {

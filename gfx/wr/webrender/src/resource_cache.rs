@@ -9255,6 +9255,9 @@ self
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 -
 >
@@ -9294,6 +9297,7 @@ CreateSurface
 {
 id
 tile_size
+is_opaque
 }
 }
 )
@@ -9343,9 +9347,6 @@ self
 id
 :
 NativeTileId
-is_opaque
-:
-bool
 )
 {
 self
@@ -9364,7 +9365,6 @@ NativeSurfaceOperationDetails
 CreateTile
 {
 id
-is_opaque
 }
 }
 )

@@ -121,6 +121,9 @@ i32
 tile_height
 :
 i32
+is_opaque
+:
+bool
 )
 ;
 fn
@@ -140,9 +143,6 @@ i32
 y
 :
 i32
-is_opaque
-:
-bool
 )
 ;
 fn
@@ -401,6 +401,9 @@ i32
 tile_height
 :
 i32
+is_opaque
+:
+bool
 )
 {
 unsafe
@@ -411,6 +414,7 @@ window
 id
 tile_width
 tile_height
+is_opaque
 )
 }
 }
@@ -432,9 +436,6 @@ i32
 y
 :
 i32
-is_opaque
-:
-bool
 )
 {
 unsafe
@@ -445,7 +446,6 @@ window
 id
 x
 y
-is_opaque
 )
 }
 }

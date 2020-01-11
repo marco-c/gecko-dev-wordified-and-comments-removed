@@ -6056,6 +6056,9 @@ NativeSurfaceId
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 ;
 fn
@@ -6088,9 +6091,6 @@ i32
 y
 :
 i32
-is_opaque
-:
-bool
 )
 ;
 fn
@@ -6214,6 +6214,9 @@ NativeSurfaceId
 tile_size
 :
 DeviceIntSize
+is_opaque
+:
+bool
 )
 {
 unsafe
@@ -6225,6 +6228,7 @@ self
 0
 id
 tile_size
+is_opaque
 )
 ;
 }
@@ -6261,9 +6265,6 @@ self
 id
 :
 NativeTileId
-is_opaque
-:
-bool
 )
 {
 unsafe
@@ -6282,7 +6283,6 @@ x
 id
 .
 y
-is_opaque
 )
 ;
 }
