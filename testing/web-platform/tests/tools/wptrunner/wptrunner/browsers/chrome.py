@@ -258,12 +258,6 @@ capabilities
 {
         
 "
-acceptInsecureCerts
-"
-:
-True
-        
-"
 goog
 :
 chromeOptions
@@ -394,6 +388,15 @@ args
 ]
 =
 [
+"
+-
+-
+ignore
+-
+certificate
+-
+errors
+"
 ]
     
 chrome_options
