@@ -2149,6 +2149,13 @@ bool
 >
 mValidOrigins
 ;
+nsDataHashtable
+<
+nsCStringHashKey
+uint8_t
+>
+mOriginInitializationsAttempted
+;
 AutoTArray
 <
 RefPtr
