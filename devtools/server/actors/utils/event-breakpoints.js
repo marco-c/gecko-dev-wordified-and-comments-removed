@@ -1459,6 +1459,15 @@ workerEvent
 messageerror
 "
 )
+globalEvent
+(
+"
+serviceworker
+"
+"
+fetch
+"
+)
 ]
 }
 {
