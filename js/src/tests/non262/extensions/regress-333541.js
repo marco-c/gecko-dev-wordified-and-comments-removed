@@ -122,6 +122,15 @@ summary
 )
 ;
 }
+if
+(
+Function
+.
+prototype
+.
+toSource
+)
+{
 try
 {
 expect
@@ -192,6 +201,7 @@ summary
 '
 )
 ;
+}
 }
 expect
 =

@@ -525,6 +525,15 @@ NaN
 0
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 check
 (
 (
@@ -545,6 +554,7 @@ i
 ]
 )
 ;
+}
 check
 (
 (
@@ -778,6 +788,15 @@ NaN
 )
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 check
 (
 (
@@ -798,6 +817,7 @@ i
 ]
 )
 ;
+}
 check
 (
 (
