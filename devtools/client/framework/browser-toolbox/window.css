@@ -17,8 +17,12 @@ height
 100vh
 ;
 }
-#
+.
+devtools
+-
 toolbox
+-
+browsertoolbox
 -
 iframe
 {
@@ -30,10 +34,6 @@ width
 :
 100
 %
-;
-flex
-:
-1
 ;
 }
 #
