@@ -2336,10 +2336,9 @@ MaxUnitLength
 {
 #
 if
-__cplusplus
+__GLIBCXX__
 >
-=
-201703L
+20181026
 size_t
 length
 =
