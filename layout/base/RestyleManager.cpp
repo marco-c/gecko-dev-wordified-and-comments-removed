@@ -8025,6 +8025,10 @@ Clear
 (
 )
 ;
+FlushOverflowChangedTracker
+(
+)
+;
 }
 uint64_t
 RestyleManager
@@ -13617,10 +13621,6 @@ doc
 -
 >
 ClearServoRestyleRoot
-(
-)
-;
-FlushOverflowChangedTracker
 (
 )
 ;
