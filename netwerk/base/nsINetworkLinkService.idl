@@ -421,6 +421,16 @@ PROXY_DETECTED
 <
 1
 ;
+const
+unsigned
+long
+NRPT_DETECTED
+=
+1
+<
+<
+2
+;
 /
 *
 *
