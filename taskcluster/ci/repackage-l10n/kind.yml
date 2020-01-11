@@ -459,9 +459,6 @@ linux
 :
 [
 mar
-mar
--
-bz2
 ]
 linux4
 \
@@ -471,9 +468,6 @@ b
 :
 [
 mar
-mar
--
-bz2
 ]
 macosx64
 \
@@ -483,9 +477,6 @@ b
 :
 [
 mar
-mar
--
-bz2
 dmg
 ]
 win32
@@ -496,9 +487,6 @@ b
 :
 [
 mar
-mar
--
-bz2
 installer
 ]
 win64
@@ -509,9 +497,6 @@ b
 :
 [
 mar
-mar
--
-bz2
 installer
 ]
 default
