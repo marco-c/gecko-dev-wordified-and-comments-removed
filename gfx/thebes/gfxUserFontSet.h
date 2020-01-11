@@ -2497,6 +2497,17 @@ nullptr
 }
 protected
 :
+struct
+OTSMessage
+{
+nsCString
+mMessage
+;
+int
+mLevel
+;
+}
+;
 const
 uint8_t
 *
@@ -2516,7 +2527,7 @@ gfxUserFontType
 aFontType
 nsTArray
 <
-nsCString
+OTSMessage
 >
 &
 aMessages
@@ -2623,7 +2634,7 @@ uint32_t
 aSanitizedLength
 nsTArray
 <
-nsCString
+OTSMessage
 >
 &
 &
@@ -2654,7 +2665,7 @@ uint32_t
 aSanitizedLength
 nsTArray
 <
-nsCString
+OTSMessage
 >
 &
 &
