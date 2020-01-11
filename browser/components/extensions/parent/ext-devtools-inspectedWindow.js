@@ -84,6 +84,15 @@ await
 waitForInspectedWindowFront
 ;
 const
+toolboxEvalOptions
+=
+await
+getToolboxEvalOptions
+(
+context
+)
+;
+const
 evalOptions
 =
 Object
@@ -93,10 +102,7 @@ assign
 {
 }
 options
-getToolboxEvalOptions
-(
-context
-)
+toolboxEvalOptions
 )
 ;
 const
