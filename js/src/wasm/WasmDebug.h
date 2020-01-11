@@ -415,6 +415,9 @@ locals
 size_t
 *
 argsLength
+StackResults
+*
+stackResults
 )
 ;
 MOZ_MUST_USE
