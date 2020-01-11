@@ -446,11 +446,7 @@ data
 :
 application
 /
-vnd
-.
-mozilla
-.
-xul
+xhtml
 +
 xml
 "

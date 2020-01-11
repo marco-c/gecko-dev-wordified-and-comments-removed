@@ -47,11 +47,7 @@ Type
 "
 application
 /
-vnd
-.
-mozilla
-.
-xul
+xhtml
 +
 xml
 ;

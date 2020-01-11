@@ -90,11 +90,7 @@ data
 :
 application
 /
-vnd
-.
-mozilla
-.
-xul
+xhtml
 +
 xml
 "
@@ -105,11 +101,7 @@ data
 :
 application
 /
-vnd
-.
-mozilla
-.
-xul
+xhtml
 +
 xml
 "
