@@ -1243,7 +1243,6 @@ MOZ_ASSERT
 fetchDriver
 )
 ;
-return
 fetchDriver
 -
 >
@@ -1251,6 +1250,9 @@ FinishOnStopRequest
 (
 this
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP
@@ -5480,14 +5482,16 @@ Close
 ;
 }
 }
-return
 FinishOnStopRequest
 (
 altDataListener
 )
 ;
+return
+NS_OK
+;
 }
-nsresult
+void
 FetchDriver
 :
 :
@@ -5509,7 +5513,6 @@ mOnStopRequestCalled
 )
 {
 return
-NS_OK
 ;
 }
 MOZ_DIAGNOSTIC_ASSERT
@@ -5538,7 +5541,6 @@ LOADING
 )
 {
 return
-NS_OK
 ;
 }
 if
@@ -5597,9 +5599,6 @@ nullptr
 mChannel
 =
 nullptr
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP

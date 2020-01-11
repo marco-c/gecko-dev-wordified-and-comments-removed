@@ -634,7 +634,7 @@ aChannel
 )
 const
 ;
-nsresult
+void
 FinishOnStopRequest
 (
 AlternativeDataStreamListener
