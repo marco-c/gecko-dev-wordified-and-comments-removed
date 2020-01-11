@@ -6474,9 +6474,6 @@ uint32_t
 *
 bytecodeTypeMap
 ;
-GSNCache
-gsn
-;
 jsbytecode
 *
 pc

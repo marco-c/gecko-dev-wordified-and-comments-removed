@@ -2971,10 +2971,10 @@ JSOP_TRY
 try
 "
 NULL
-1
+5
 0
 0
-JOF_BYTE
+JOF_CODE_OFFSET
 )
 \
 \

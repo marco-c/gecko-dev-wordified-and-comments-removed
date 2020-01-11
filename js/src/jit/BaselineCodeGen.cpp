@@ -570,14 +570,6 @@ analysis_
 init
 (
 alloc_
-cx
--
->
-caches
-(
-)
-.
-gsnCache
 )
 )
 {

@@ -143,9 +143,6 @@ init
 TempAllocator
 &
 alloc
-GSNCache
-&
-gsn
 )
 ;
 BytecodeInfo
