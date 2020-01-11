@@ -179,6 +179,14 @@ JSObject
 aRetProcessor
 )
 ;
+RefPtr
+<
+MessagePort
+>
+TakePortForProcessorCtor
+(
+)
+;
 private
 :
 ~

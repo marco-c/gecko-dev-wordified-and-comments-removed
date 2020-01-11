@@ -151,6 +151,9 @@ AudioWorklet
 interface
 AudioWorkletProcessor
 {
+[
+Throws
+]
 constructor
 (
 optional
@@ -161,9 +164,6 @@ options
 }
 )
 ;
-[
-Throws
-]
 readonly
 attribute
 MessagePort
