@@ -143,9 +143,6 @@ false
 BrowsingContext
 :
 false
-CanonicalBrowsingContext
-:
-false
 CDATASection
 :
 false
