@@ -353,6 +353,9 @@ TIMEOUT
 "
 CRASH
 "
+"
+PRECONDITION_FAILED
+"
 }
 class
 TestharnessSubtestResult
@@ -381,6 +384,9 @@ TIMEOUT
 "
 "
 NOTRUN
+"
+"
+PRECONDITION_FAILED
 "
 }
 class

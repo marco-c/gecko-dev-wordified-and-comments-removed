@@ -337,6 +337,12 @@ ERROR
 "
 TIMEOUT
 "
+                     
+3
+:
+"
+PRECONDITION_FAILED
+"
 }
     
 test_codes
@@ -364,6 +370,12 @@ TIMEOUT
 :
 "
 NOTRUN
+"
+                  
+4
+:
+"
+PRECONDITION_FAILED
 "
 }
     
