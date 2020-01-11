@@ -4099,9 +4099,6 @@ origin
 entry
 .
 size
-entry
-.
-texture_id
 layer_index
 as
 i32
@@ -4116,6 +4113,9 @@ pending_updates
 .
 push_update
 (
+entry
+.
+texture_id
 op
 )
 ;
@@ -8348,9 +8348,6 @@ DeviceIntPoint
 size
 :
 DeviceIntSize
-texture_id
-:
-CacheTextureId
 layer_index
 :
 i32
@@ -8605,9 +8602,6 @@ bytes_per_pixel
 ;
 TextureCacheUpdate
 {
-id
-:
-texture_id
 rect
 :
 DeviceIntRect
@@ -8703,9 +8697,6 @@ All
 {
 TextureCacheUpdate
 {
-id
-:
-texture_id
 rect
 :
 DeviceIntRect
