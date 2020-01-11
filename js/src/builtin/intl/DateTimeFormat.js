@@ -91,9 +91,6 @@ r
 .
 dataLocale
 ;
-#
-ifdef
-NIGHTLY_BUILD
 dataLocale
 =
 addUnicodeExtension
@@ -112,8 +109,6 @@ r
 ca
 )
 ;
-#
-endif
 internalProps
 .
 timeZone
