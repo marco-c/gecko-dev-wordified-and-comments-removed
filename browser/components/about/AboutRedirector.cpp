@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsIProtocolHandler
 .
 h

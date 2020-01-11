@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsISimpleEnumerator
-.
-h
-"
-#
-include
-"
 nsIDirectoryEnumerator
 .
 h
@@ -75,13 +68,6 @@ stdlib
 .
 h
 >
-#
-include
-"
-nsIPrefService
-.
-h
-"
 #
 include
 "

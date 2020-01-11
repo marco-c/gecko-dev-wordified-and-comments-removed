@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

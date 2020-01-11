@@ -124,13 +124,6 @@ h
 #
 include
 "
-nsIStringBundle
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h

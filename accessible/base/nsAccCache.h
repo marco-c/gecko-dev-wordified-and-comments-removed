@@ -4,13 +4,6 @@ _nsAccCache_H_
 #
 define
 _nsAccCache_H_
-#
-include
-"
-xpcAccessibleDocument
-.
-h
-"
 template
 <
 class

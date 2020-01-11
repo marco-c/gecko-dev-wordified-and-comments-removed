@@ -81,13 +81,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIInterfaceRequestorUtils
 .
 h

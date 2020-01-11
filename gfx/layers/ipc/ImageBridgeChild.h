@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h

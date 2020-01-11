@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsFrameSelection
 .
 h

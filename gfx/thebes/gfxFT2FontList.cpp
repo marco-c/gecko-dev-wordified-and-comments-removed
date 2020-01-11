@@ -82,13 +82,6 @@ h
 #
 include
 "
-nsIInputStream
-.
-h
-"
-#
-include
-"
 nsReadableUtils
 .
 h
@@ -260,13 +253,6 @@ h
 include
 "
 nsAppDirectoryServiceDefs
-.
-h
-"
-#
-include
-"
-nsISimpleEnumerator
 .
 h
 "

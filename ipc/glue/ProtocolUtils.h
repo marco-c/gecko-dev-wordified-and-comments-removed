@@ -223,13 +223,6 @@ MainThreadUtils
 h
 "
 #
-include
-"
-nsICrashReporter
-.
-h
-"
-#
 if
 defined
 (

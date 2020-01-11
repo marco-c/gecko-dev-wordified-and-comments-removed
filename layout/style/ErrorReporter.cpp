@@ -114,13 +114,6 @@ h
 #
 include
 "
-nsISensitiveInfoHiddenURI
-.
-h
-"
-#
-include
-"
 nsIStringBundle
 .
 h

@@ -7,13 +7,6 @@ nsButtonFrameRenderer_h___
 #
 include
 "
-imgIContainer
-.
-h
-"
-#
-include
-"
 nsMargin
 .
 h

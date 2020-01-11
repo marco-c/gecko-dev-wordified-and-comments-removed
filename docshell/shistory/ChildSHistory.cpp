@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIMessageManager
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h
@@ -105,13 +98,6 @@ h
 include
 "
 nsDocShell
-.
-h
-"
-#
-include
-"
-nsISHEntry
 .
 h
 "

@@ -78,13 +78,6 @@ Utf8
 .
 h
 "
-#
-include
-"
-nsISupportsPrimitives
-.
-h
-"
 using
 namespace
 mozilla

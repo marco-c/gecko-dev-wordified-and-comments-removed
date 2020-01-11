@@ -8,13 +8,6 @@ h
 #
 include
 "
-xpctest_interfaces
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

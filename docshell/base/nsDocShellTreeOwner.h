@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsITooltipListener
-.
-h
-"
-#
-include
-"
 nsITooltipTextProvider
 .
 h
@@ -120,13 +113,6 @@ h
 include
 "
 nsCTooltipTextProvider
-.
-h
-"
-#
-include
-"
-nsIDroppedLinkHandler
 .
 h
 "
@@ -144,6 +130,9 @@ EventTarget
 ;
 }
 }
+class
+nsIDocShellTreeItem
+;
 class
 nsWebBrowser
 ;

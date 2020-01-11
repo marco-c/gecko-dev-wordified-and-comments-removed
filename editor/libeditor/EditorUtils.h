@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsRange
 .
 h

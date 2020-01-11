@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsIFile
-.
-h
-"
-#
-include
-"
 GeckoProfiler
 .
 h

@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsIMutableArray
-.
-h
-"
-#
-include
-"
 nsIPersistentProperties2
 .
 h

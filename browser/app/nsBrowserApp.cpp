@@ -114,13 +114,6 @@ nsCOMPtr
 h
 "
 #
-include
-"
-nsIFile
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

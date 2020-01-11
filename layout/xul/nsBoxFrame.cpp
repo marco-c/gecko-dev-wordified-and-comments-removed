@@ -141,13 +141,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsBoxLayout
 .
 h
@@ -263,13 +256,6 @@ include
 <
 algorithm
 >
-#
-include
-"
-nsIURI
-.
-h
-"
 #
 include
 "

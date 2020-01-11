@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsIEditingSession
 .
 h
@@ -61,13 +54,6 @@ h
 include
 "
 nsIPrincipal
-.
-h
-"
-#
-include
-"
-nsISelectionController
 .
 h
 "

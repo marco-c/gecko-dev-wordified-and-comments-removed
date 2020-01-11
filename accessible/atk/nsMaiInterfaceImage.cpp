@@ -45,13 +45,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 ProxyAccessible
 .
 h

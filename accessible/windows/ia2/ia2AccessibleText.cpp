@@ -8,13 +8,6 @@ h
 #
 include
 "
-Accessible2
-.
-h
-"
-#
-include
-"
 AccessibleText_i
 .
 c

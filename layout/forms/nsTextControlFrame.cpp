@@ -66,13 +66,6 @@ h
 #
 include
 "
-nsIEditor
-.
-h
-"
-#
-include
-"
 nsTextFragment
 .
 h

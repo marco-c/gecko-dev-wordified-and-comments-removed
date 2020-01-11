@@ -91,13 +91,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes

@@ -94,13 +94,6 @@ Role
 .
 h
 "
-#
-include
-"
-xpcAccessibleDocument
-.
-h
-"
 namespace
 mozilla
 {

@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIRunnable
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Atomics

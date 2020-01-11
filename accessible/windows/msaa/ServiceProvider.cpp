@@ -59,13 +59,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 ISimpleDOM
 .
 h

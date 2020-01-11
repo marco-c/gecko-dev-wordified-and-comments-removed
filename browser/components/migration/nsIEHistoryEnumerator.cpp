@@ -29,6 +29,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsCOMArray
 .
 h
@@ -37,13 +44,6 @@ h
 include
 "
 nsIURI
-.
-h
-"
-#
-include
-"
-nsIVariant
 .
 h
 "

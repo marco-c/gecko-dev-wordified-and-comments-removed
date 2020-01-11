@@ -220,13 +220,6 @@ h
 #
 include
 "
-nsIMessageManager
-.
-h
-"
-#
-include
-"
 nsContentCreatorFunctions
 .
 h

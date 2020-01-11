@@ -24,13 +24,6 @@ h
 #
 include
 "
-imgITools
-.
-h
-"
-#
-include
-"
 ImageOps
 .
 h

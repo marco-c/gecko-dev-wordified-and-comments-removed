@@ -614,13 +614,6 @@ h
 #
 include
 "
-nsIDOMEventListener
-.
-h
-"
-#
-include
-"
 nsIDocumentStateListener
 .
 h
@@ -636,13 +629,6 @@ h
 include
 "
 nsIEditorObserver
-.
-h
-"
-#
-include
-"
-nsIEditorSpellCheck
 .
 h
 "

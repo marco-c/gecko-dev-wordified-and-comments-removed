@@ -238,13 +238,6 @@ h
 #
 include
 "
-imgIRequest
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h

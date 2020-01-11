@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIDOMXULMenuListElement
-.
-h
-"
-#
-include
-"
 nsIDOMXULCommandDispatcher
 .
 h
@@ -100,13 +93,6 @@ h
 include
 "
 nsViewManager
-.
-h
-"
-#
-include
-"
-nsIComponentManager
 .
 h
 "

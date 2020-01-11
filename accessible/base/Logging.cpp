@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsISelectionController
-.
-h
-"
-#
-include
-"
 nsTraceRefcnt
 .
 h
@@ -102,13 +95,6 @@ h
 include
 "
 nsIDocShellTreeItem
-.
-h
-"
-#
-include
-"
-nsIURI
 .
 h
 "

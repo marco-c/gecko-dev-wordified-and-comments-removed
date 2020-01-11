@@ -81,13 +81,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

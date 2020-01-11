@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsIPrintProgressParams
-.
-h
-"
-#
-include
-"
 nsIPrintSettings
 .
 h
@@ -66,6 +59,9 @@ h
 "
 class
 nsPrintObject
+;
+class
+nsIPrintProgressParams
 ;
 class
 nsIWebProgressListener

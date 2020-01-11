@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsIComponentManager
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h
@@ -238,13 +231,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsStyleConsts
 .
 h
@@ -273,7 +259,7 @@ h
 #
 include
 "
-nsIDOMXULSelectCntrlItemEl
+nsIDOMXULSelectCntrlEl
 .
 h
 "

@@ -47,13 +47,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -80,13 +73,6 @@ mozilla
 dom
 /
 Document
-.
-h
-"
-#
-include
-"
-nsIMutableArray
 .
 h
 "

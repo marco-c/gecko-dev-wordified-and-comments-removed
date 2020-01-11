@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

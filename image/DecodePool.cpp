@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIThreadPool
-.
-h
-"
-#
-include
-"
 nsThreadManager
 .
 h
@@ -101,13 +94,6 @@ h
 include
 "
 prsystem
-.
-h
-"
-#
-include
-"
-nsIXULRuntime
 .
 h
 "

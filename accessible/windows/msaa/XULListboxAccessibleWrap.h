@@ -18,13 +18,6 @@ ia2AccessibleTable
 .
 h
 "
-#
-include
-"
-ia2AccessibleTableCell
-.
-h
-"
 namespace
 mozilla
 {

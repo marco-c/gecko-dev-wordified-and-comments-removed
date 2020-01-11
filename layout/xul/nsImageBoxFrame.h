@@ -23,13 +23,6 @@ h
 #
 include
 "
-imgILoader
-.
-h
-"
-#
-include
-"
 imgIRequest
 .
 h
@@ -38,6 +31,13 @@ h
 include
 "
 imgIContainer
+.
+h
+"
+#
+include
+"
+imgINotificationObserver
 .
 h
 "

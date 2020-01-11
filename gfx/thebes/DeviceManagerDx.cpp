@@ -187,13 +187,6 @@ h
 #
 include
 "
-nsIGfxInfo
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

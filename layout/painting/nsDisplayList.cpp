@@ -217,13 +217,6 @@ h
 #
 include
 "
-nsISelectionController
-.
-h
-"
-#
-include
-"
 nsRegion
 .
 h

@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsIDOMXULSelectCntrlEl
-.
-h
-"
-#
-include
-"
 nsGkAtoms
 .
 h
@@ -70,13 +63,6 @@ h
 include
 "
 nsMenuParent
-.
-h
-"
-#
-include
-"
-nsITimer
 .
 h
 "

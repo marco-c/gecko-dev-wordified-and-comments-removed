@@ -169,13 +169,6 @@ h
 #
 include
 "
-nsIDocumentStateListener
-.
-h
-"
-#
-include
-"
 nsIEditor
 .
 h
@@ -212,13 +205,6 @@ h
 include
 "
 nsITimer
-.
-h
-"
-#
-include
-"
-nsITransactionManager
 .
 h
 "

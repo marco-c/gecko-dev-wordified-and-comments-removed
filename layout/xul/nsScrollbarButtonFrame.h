@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsRepeatService
 .
 h

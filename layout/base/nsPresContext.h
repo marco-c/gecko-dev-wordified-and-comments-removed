@@ -255,13 +255,6 @@ h
 #
 include
 "
-nsIMessageManager
-.
-h
-"
-#
-include
-"
 Units
 .
 h

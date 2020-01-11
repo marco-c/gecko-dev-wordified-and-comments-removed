@@ -323,13 +323,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h

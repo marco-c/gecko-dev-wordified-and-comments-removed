@@ -11,13 +11,6 @@ oleauto
 .
 h
 >
-#
-include
-"
-HandlerData
-.
-h
-"
 namespace
 mozilla
 {

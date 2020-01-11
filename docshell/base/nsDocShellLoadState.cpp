@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsIWebNavigation
 .
 h

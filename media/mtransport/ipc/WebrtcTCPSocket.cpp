@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsIIOService
 .
 h

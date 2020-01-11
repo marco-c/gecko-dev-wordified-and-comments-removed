@@ -166,13 +166,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsITheme
 .
 h

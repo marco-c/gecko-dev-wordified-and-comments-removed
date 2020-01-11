@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 GreekCasing
 .
 h

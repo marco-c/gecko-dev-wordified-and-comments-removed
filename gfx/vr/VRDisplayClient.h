@@ -7,13 +7,6 @@ GFX_VR_DISPLAY_CLIENT_H
 #
 include
 "
-nsIScreen
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h

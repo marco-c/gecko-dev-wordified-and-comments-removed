@@ -319,13 +319,6 @@ h
 #
 include
 "
-nsIHTMLAbsPosEditor
-.
-h
-"
-#
-include
-"
 nsINode
 .
 h

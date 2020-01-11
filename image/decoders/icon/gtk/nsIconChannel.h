@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsIStreamListener
-.
-h
-"
-#
-include
-"
 nsIURI
 .
 h

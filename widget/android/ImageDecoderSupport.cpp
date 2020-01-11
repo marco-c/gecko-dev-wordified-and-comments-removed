@@ -8,6 +8,13 @@ h
 #
 include
 "
+imgINotificationObserver
+.
+h
+"
+#
+include
+"
 imgITools
 .
 h

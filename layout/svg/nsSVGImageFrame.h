@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIImageLoadingContent
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

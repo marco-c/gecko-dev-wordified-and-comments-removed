@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 nsFontMetrics
 .
 h

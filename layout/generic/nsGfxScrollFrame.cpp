@@ -351,13 +351,6 @@ h
 #
 include
 "
-nsIObjectLoadingContent
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -410,13 +403,6 @@ h
 include
 "
 nsIFrameInlines
-.
-h
-"
-#
-include
-"
-nsILayoutHistoryState
 .
 h
 "

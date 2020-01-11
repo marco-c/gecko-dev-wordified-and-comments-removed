@@ -301,13 +301,6 @@ h
 #
 include
 "
-nsIContentSecurityPolicy
-.
-h
-"
-#
-include
-"
 nsIDocShell
 .
 h
@@ -362,13 +355,6 @@ h
 include
 "
 nsNetUtil
-.
-h
-"
-#
-include
-"
-nsIProtocolHandler
 .
 h
 "

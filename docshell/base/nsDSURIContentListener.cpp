@@ -54,13 +54,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsError
 .
 h

@@ -7,13 +7,6 @@ _ACCESSIBLE_TEXT_H
 #
 include
 "
-nsIAccessibleText
-.
-h
-"
-#
-include
-"
 AccessibleText
 .
 h

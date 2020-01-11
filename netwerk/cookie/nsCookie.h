@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIMemoryReporter
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

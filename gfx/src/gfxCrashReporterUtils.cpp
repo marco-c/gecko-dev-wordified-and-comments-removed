@@ -104,13 +104,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h

@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsIHTMLObjectResizer
-.
-h
-"
-#
-include
-"
 nsLiteralString
 .
 h

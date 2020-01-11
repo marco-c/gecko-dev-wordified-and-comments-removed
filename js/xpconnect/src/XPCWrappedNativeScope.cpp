@@ -72,13 +72,6 @@ h
 #
 include
 "
-nsIXULRuntime
-.
-h
-"
-#
-include
-"
 mozJSComponentLoader
 .
 h

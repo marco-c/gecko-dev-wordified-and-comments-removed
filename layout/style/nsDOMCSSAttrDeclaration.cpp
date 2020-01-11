@@ -95,13 +95,6 @@ h
 #
 include
 "
-nsIURI
-.
-h
-"
-#
-include
-"
 nsWrapperCacheInlines
 .
 h

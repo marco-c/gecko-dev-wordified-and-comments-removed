@@ -178,13 +178,6 @@ h
 #
 include
 "
-nsIInlineSpellChecker
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -211,13 +204,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsIDocumentEncoder
 .
 h
 "

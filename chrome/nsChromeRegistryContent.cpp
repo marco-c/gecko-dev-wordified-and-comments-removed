@@ -26,13 +26,6 @@ nsNetUtil
 .
 h
 "
-#
-include
-"
-nsIResProtocolHandler
-.
-h
-"
 nsChromeRegistryContent
 :
 :

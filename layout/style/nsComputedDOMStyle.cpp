@@ -273,13 +273,6 @@ h
 #
 include
 "
-imgIRequest
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

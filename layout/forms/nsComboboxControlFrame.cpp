@@ -356,13 +356,6 @@ nsAutoRollup
 h
 "
 #
-include
-"
-nsILayoutHistoryState
-.
-h
-"
-#
 ifdef
 XP_WIN
 #

@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsIDOMXULSelectCntrlEl
-.
-h
-"
-#
-include
-"
 XULSelectControlAccessible
 .
 h

@@ -73,13 +73,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h

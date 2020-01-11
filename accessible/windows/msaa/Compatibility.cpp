@@ -33,6 +33,13 @@ h
 #
 include
 "
+nsIXULRuntime
+.
+h
+"
+#
+include
+"
 nsPrintfCString
 .
 h

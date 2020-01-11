@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIHttpChannel
-.
-h
-"
-#
-include
-"
 nsIFileChannel
 .
 h
@@ -93,13 +86,6 @@ h
 include
 "
 nsContentUtils
-.
-h
-"
-#
-include
-"
-nsIScriptSecurityManager
 .
 h
 "

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsIPersistentProperties2
-.
-h
-"
-#
-include
-"
 nsTextEquivUtils
 .
 h

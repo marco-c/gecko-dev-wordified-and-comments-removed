@@ -46,13 +46,6 @@ nsIFrame
 .
 h
 "
-#
-include
-"
-nsISelectionController
-.
-h
-"
 class
 nsFrameSelection
 ;

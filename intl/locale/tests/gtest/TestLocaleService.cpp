@@ -38,13 +38,6 @@ MozLocale
 .
 h
 "
-#
-include
-"
-nsIToolkitChromeRegistry
-.
-h
-"
 using
 namespace
 mozilla

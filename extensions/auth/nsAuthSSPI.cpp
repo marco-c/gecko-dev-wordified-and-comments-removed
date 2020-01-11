@@ -8,14 +8,14 @@ h
 #
 include
 "
-nsDNSService2
+nsComponentManagerUtils
 .
 h
 "
 #
 include
 "
-nsIServiceManager
+nsDNSService2
 .
 h
 "

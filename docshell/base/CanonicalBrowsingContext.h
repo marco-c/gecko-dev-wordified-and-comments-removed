@@ -79,9 +79,6 @@ nsISHistory
 .
 h
 "
-class
-nsIDocShell
-;
 namespace
 mozilla
 {

@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 nsXULAppAPI
 .
 h
@@ -68,6 +61,13 @@ h
 include
 "
 nsIconChannel
+.
+h
+"
+#
+include
+"
+nsIIconURI
 .
 h
 "

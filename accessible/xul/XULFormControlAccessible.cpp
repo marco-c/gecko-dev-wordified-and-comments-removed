@@ -38,13 +38,6 @@ h
 #
 include
 "
-nsIAccessibleRelation
-.
-h
-"
-#
-include
-"
 Relation
 .
 h
@@ -102,13 +95,6 @@ h
 include
 "
 nsIDOMXULSelectCntrlItemEl
-.
-h
-"
-#
-include
-"
-nsIEditor
 .
 h
 "

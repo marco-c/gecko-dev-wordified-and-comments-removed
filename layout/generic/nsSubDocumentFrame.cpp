@@ -245,13 +245,6 @@ h
 #
 include
 "
-nsIPermissionManager
-.
-h
-"
-#
-include
-"
 nsServiceManagerUtils
 .
 h

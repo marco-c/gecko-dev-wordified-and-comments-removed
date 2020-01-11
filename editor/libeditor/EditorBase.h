@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIPlaintextEditor
 .
 h

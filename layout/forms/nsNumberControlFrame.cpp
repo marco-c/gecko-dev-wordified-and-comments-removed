@@ -69,13 +69,6 @@ h
 #
 include
 "
-nsIFocusManager
-.
-h
-"
-#
-include
-"
 nsFocusManager
 .
 h
