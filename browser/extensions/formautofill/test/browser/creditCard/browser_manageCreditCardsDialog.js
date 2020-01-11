@@ -73,12 +73,14 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 TEST_SELECTORS
+]
 args
 =
 >

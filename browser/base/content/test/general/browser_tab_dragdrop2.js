@@ -207,12 +207,13 @@ gBrowser
 selectedBrowser
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser2
-null
+[
+]
 async
 (
 )

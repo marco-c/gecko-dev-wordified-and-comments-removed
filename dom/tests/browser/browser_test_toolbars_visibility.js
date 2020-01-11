@@ -51,13 +51,13 @@ aBrowser
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-{
-}
+[
+]
 async
 function
 (

@@ -169,12 +169,14 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 page
+]
 async
 function
 (

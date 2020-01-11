@@ -720,14 +720,16 @@ images
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 trackingURL
 }
+]
 async
 function
 (

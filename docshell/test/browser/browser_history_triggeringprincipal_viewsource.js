@@ -273,14 +273,16 @@ HTML_URI
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 HTML_URI
+]
 HTML_URI
 =
 >

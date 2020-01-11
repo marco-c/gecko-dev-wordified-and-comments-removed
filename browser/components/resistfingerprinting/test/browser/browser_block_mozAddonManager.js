@@ -111,14 +111,16 @@ html
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 pref
+]
 function
 (
 aPref

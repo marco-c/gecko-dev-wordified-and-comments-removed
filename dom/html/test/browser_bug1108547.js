@@ -265,12 +265,13 @@ fetchResult
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 testBrowser
-null
+[
+]
 function
 (
 )

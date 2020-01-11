@@ -352,7 +352,7 @@ let
 storageExists
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -361,7 +361,9 @@ knownTab
 tab
 .
 linkedBrowser
+[
 HELPER_PAGE_ORIGIN
+]
 function
 (
 origin
@@ -441,7 +443,7 @@ sentinelValue
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -450,10 +452,12 @@ knownTab
 tab
 .
 linkedBrowser
+[
 {
 mutations
 sentinelValue
 }
+]
 function
 (
 args
@@ -488,7 +492,7 @@ sentinelValue
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -497,7 +501,9 @@ knownTab
 tab
 .
 linkedBrowser
+[
 sentinelValue
+]
 function
 (
 sentinelValue
@@ -530,7 +536,7 @@ let
 actualState
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -539,7 +545,9 @@ knownTab
 tab
 .
 linkedBrowser
+[
 maybeSentinel
+]
 function
 (
 maybeSentinel
@@ -663,7 +671,7 @@ let
 actualEvents
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -672,8 +680,8 @@ knownTab
 tab
 .
 linkedBrowser
-{
-}
+[
+]
 function
 (
 )

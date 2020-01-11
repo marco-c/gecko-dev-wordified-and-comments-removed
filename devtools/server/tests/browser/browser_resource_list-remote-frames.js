@@ -128,13 +128,13 @@ const
 oopID
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 (
 )

@@ -163,11 +163,12 @@ scripts
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 page
 :
@@ -181,6 +182,7 @@ localStorage
 html
 "
 }
+]
 async
 obj
 =
@@ -618,11 +620,12 @@ scripts
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 page
 :
@@ -636,6 +639,7 @@ localStorage
 html
 "
 }
+]
 async
 obj
 =

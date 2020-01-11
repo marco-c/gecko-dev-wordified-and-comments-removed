@@ -305,14 +305,16 @@ browser
 let
 requestPromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 permission
 }
+]
 async
 function
 (

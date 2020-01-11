@@ -1050,12 +1050,13 @@ blockedIconHidden
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 (
 )
 =

@@ -1429,13 +1429,13 @@ null
 ;
 }
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (

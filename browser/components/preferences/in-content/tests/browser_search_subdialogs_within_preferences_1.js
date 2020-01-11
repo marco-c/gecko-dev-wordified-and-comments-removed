@@ -97,7 +97,7 @@ waitForCondition
 )
 =
 >
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -106,8 +106,8 @@ gBrowser
 selectedTab
 .
 linkedBrowser
-{
-}
+[
+]
 async
 (
 )

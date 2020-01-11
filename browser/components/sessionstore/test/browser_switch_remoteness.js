@@ -26,14 +26,16 @@ expected
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 expected
 }
+]
 async
 function
 (

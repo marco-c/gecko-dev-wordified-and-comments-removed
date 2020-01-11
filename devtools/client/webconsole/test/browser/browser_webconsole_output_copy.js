@@ -56,14 +56,16 @@ hud
 smokeMessage
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 smokeMessage
+]
 function
 (
 msg

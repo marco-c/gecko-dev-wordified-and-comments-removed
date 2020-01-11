@@ -29,14 +29,16 @@ all
 waitForCookieChanged
 (
 )
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 cookie
+]
 passedCookie
 =
 >

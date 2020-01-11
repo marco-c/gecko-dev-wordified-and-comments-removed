@@ -237,14 +237,16 @@ let
 blob
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 file
 .
 leafName
+]
 function
 (
 fileName

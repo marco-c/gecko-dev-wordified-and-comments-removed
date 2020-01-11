@@ -219,11 +219,12 @@ userContextId
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 {
 names
 :
@@ -235,6 +236,7 @@ USER_CONTEXTS
 userContextId
 ]
 }
+]
 function
 (
 opts
@@ -520,12 +522,13 @@ let
 cookieString
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

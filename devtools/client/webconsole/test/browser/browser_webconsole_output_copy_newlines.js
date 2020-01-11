@@ -95,14 +95,16 @@ hud
 lastMessage
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 messages
+]
 msgs
 =
 >

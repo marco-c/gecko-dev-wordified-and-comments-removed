@@ -190,7 +190,7 @@ zoom_level
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -199,6 +199,7 @@ ui
 getViewportBrowser
 (
 )
+[
 {
 width
 :
@@ -210,6 +211,7 @@ zoom
 :
 zoom_level
 }
+]
 async
 function
 (
@@ -309,7 +311,7 @@ zoom_level
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -318,6 +320,7 @@ ui
 getViewportBrowser
 (
 )
+[
 {
 width
 :
@@ -329,6 +332,7 @@ zoom
 :
 zoom_level
 }
+]
 async
 function
 (
