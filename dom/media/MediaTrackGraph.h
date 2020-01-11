@@ -7,7 +7,14 @@ MOZILLA_MEDIATRACKGRAPH_H_
 #
 include
 "
-AudioStream
+AudioSampleFormat
+.
+h
+"
+#
+include
+"
+CubebUtils
 .
 h
 "

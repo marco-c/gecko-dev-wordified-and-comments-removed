@@ -98,6 +98,14 @@ webrtc
 mozbuild
 '
 )
+DEFINES
+[
+'
+ENABLE_SET_CUBEB_BACKEND
+'
+]
+=
+True
 LOCAL_INCLUDES
 +
 =
