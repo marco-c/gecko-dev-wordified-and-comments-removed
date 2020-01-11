@@ -19122,7 +19122,7 @@ None
 if
 self
 .
-isNumeric
+isInteger
 (
 )
 :
@@ -19205,7 +19205,7 @@ WebIDLError
 "
 Non
 -
-numeric
+integer
 types
 cannot
 be
