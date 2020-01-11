@@ -3688,6 +3688,12 @@ log
 error
 (
 "
+TEST
+-
+UNEXPECTED
+-
+FAIL
+|
 runjunit
 .
 py
@@ -3697,12 +3703,12 @@ previous
 test
 failed
 because
-of
-an
-error
 "
                   
 "
+of
+an
+error
 in
 the
 test
