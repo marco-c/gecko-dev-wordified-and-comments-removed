@@ -436,6 +436,13 @@ ged
 "
 GeckoView
 :
+ActionDelegate
+:
+Attached
+"
+"
+GeckoView
+:
 BrowserAction
 :
 Click
