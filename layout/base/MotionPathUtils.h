@@ -65,7 +65,7 @@ PathCommand
 ;
 }
 struct
-MotionPathData
+ResolvedMotionPathData
 {
 gfx
 :
@@ -720,10 +720,7 @@ public
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (
@@ -763,10 +760,7 @@ aFramePosition
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (
@@ -779,10 +773,7 @@ aFrame
 static
 Maybe
 <
-mozilla
-:
-:
-MotionPathData
+ResolvedMotionPathData
 >
 ResolveMotionPath
 (

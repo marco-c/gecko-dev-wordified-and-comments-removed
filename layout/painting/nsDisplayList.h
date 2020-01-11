@@ -26279,7 +26279,7 @@ Maybe
 mozilla
 :
 :
-MotionPathData
+ResolvedMotionPathData
 >
 &
 aMotion
@@ -26411,7 +26411,7 @@ Maybe
 mozilla
 :
 :
-MotionPathData
+ResolvedMotionPathData
 >
 mMotion
 ;

@@ -1356,7 +1356,7 @@ usedDistance
 }
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :
@@ -1852,7 +1852,7 @@ y
 return
 Some
 (
-MotionPathData
+ResolvedMotionPathData
 {
 point
 -
@@ -2019,7 +2019,7 @@ None
 }
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :
@@ -2399,7 +2399,7 @@ None
 }
 Maybe
 <
-MotionPathData
+ResolvedMotionPathData
 >
 MotionPathUtils
 :

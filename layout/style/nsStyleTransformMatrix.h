@@ -68,7 +68,7 @@ namespace
 mozilla
 {
 struct
-MotionPathData
+ResolvedMotionPathData
 ;
 }
 namespace
@@ -526,7 +526,7 @@ Maybe
 mozilla
 :
 :
-MotionPathData
+ResolvedMotionPathData
 >
 &
 aMotion
