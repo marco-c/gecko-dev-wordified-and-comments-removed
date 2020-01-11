@@ -30,7 +30,9 @@ equal
 got
 "
 +
-uneval
+JSON
+.
+stringify
 (
 actual
 )
@@ -39,7 +41,9 @@ actual
 expected
 "
 +
-uneval
+JSON
+.
+stringify
 (
 expected
 )
@@ -97,7 +101,9 @@ i
 got
 "
 +
-uneval
+JSON
+.
+stringify
 (
 actual
 )
@@ -106,7 +112,9 @@ actual
 expected
 "
 +
-uneval
+JSON
+.
+stringify
 (
 expected
 )

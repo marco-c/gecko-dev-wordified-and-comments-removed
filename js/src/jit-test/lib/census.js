@@ -97,7 +97,9 @@ name
 [
 "
 +
-uneval
+JSON
+.
+stringify
 (
 prop
 )
@@ -134,7 +136,9 @@ name
 =
 "
 +
-uneval
+JSON
+.
+stringify
 (
 subject
 )
@@ -438,7 +442,9 @@ basis
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 prop
 )
@@ -465,7 +471,9 @@ basis
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 prop
 )
