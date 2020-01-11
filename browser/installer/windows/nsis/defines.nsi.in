@@ -212,12 +212,6 @@ exe
 "
 !
 define
-WindowClass
-"
-FirefoxMessageWindow
-"
-!
-define
 MainWindowClass
 "
 MozillaWindowClass
