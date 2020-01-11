@@ -15932,6 +15932,15 @@ SetUseWebRenderCompositor
 true
 )
 ;
+featureComp
+.
+UserEnable
+(
+"
+Enabled
+"
+)
+;
 }
 gfxVars
 :
