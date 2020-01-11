@@ -15,6 +15,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -881,7 +890,10 @@ JSObject
 array
 (
 cx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 count

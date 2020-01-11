@@ -22,6 +22,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -217,7 +226,10 @@ if
 NS_WARN_IF
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 aCx
 obj

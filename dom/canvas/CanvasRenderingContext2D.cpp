@@ -346,6 +346,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 Conversions
 .
 h
@@ -9181,7 +9190,10 @@ length
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 aCx
 aObj

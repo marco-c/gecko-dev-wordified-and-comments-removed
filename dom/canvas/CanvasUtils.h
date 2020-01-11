@@ -41,6 +41,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 FloatingPoint
@@ -541,7 +550,10 @@ length
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 cx
 obj

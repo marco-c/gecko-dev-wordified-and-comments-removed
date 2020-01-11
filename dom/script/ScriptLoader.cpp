@@ -66,6 +66,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 CompilationAndEvaluation
 .
 h
@@ -3555,7 +3564,10 @@ length
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 cx
 requestedModules

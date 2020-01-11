@@ -1862,7 +1862,10 @@ JS
 InitRealmStandardClasses
 "
 "
-JS_IsArrayObject
+JS
+:
+:
+IsArrayObject
 "
 "
 JS_IsExceptionPending
@@ -1895,7 +1898,10 @@ JS
 NewArrayBuffer
 "
 "
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 "
 "
 JS_NewContext

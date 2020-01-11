@@ -3,6 +3,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 Symbol
 .
 h
@@ -74,7 +83,10 @@ JS
 :
 ObjectOrNullValue
 (
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 0

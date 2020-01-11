@@ -40,6 +40,15 @@ jsapi
 .
 h
 "
+#
+include
+"
+js
+/
+Array
+.
+h
+"
 namespace
 mozilla
 {
@@ -335,7 +344,10 @@ JSObject
 visits
 (
 aContext
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aContext
 0

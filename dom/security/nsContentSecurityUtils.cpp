@@ -65,6 +65,15 @@ endif
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Logging
@@ -335,7 +344,10 @@ toObject
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 cx
 regexResultObj

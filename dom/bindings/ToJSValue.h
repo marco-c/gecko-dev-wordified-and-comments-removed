@@ -74,6 +74,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -2009,7 +2018,10 @@ JSObject
 *
 arrayObj
 =
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aCx
 v

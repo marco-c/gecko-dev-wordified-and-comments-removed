@@ -33,6 +33,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 ArrayBuffer
 .
 h
@@ -4289,7 +4298,10 @@ bool
 isArray
 ;
 return
-JS_IsArrayObject
+JS
+:
+:
+IsArrayObject
 (
 cx
 val

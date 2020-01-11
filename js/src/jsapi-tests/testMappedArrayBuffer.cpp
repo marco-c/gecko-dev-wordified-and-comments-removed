@@ -24,6 +24,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 ArrayBuffer
 .
 h
@@ -895,7 +904,10 @@ RootedObject
 obj
 (
 cx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 JS

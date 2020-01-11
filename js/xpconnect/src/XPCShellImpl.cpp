@@ -24,6 +24,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 CharacterEncoding
 .
 h
@@ -5172,7 +5181,10 @@ rootPosition
 }
 argsObj
 =
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 0

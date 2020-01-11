@@ -26,6 +26,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 vm
 /
 JSFunction
@@ -189,7 +198,10 @@ JSObject
 array
 (
 cx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 JS

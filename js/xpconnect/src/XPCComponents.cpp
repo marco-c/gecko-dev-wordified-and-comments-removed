@@ -66,6 +66,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 CharacterEncoding
 .
 h
@@ -6877,7 +6886,10 @@ if
 NS_WARN_IF
 (
 !
-JS_IsArrayObject
+JS
+:
+:
+IsArrayObject
 (
 cx
 propertyList

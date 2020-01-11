@@ -1,6 +1,15 @@
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 jsapi
 -
 tests
@@ -134,7 +143,10 @@ nullptr
 ;
 obj
 =
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 0

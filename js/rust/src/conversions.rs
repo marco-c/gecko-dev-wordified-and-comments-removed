@@ -3525,7 +3525,10 @@ cx
 let
 js_array
 =
-JS_NewArrayObject1
+JS
+:
+:
+NewArrayObject1
 (
 cx
 self

@@ -8,6 +8,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SystemGroup
@@ -1719,7 +1728,10 @@ len
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 aCx
 obj

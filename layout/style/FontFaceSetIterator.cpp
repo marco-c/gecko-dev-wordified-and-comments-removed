@@ -9,6 +9,15 @@ FontFaceSetIterator
 .
 h
 "
+#
+include
+"
+js
+/
+Array
+.
+h
+"
 namespace
 mozilla
 {
@@ -279,7 +288,10 @@ aCx
 ;
 array
 =
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aCx
 values

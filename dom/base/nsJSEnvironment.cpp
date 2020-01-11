@@ -233,6 +233,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h
@@ -3406,9 +3415,10 @@ JSObject
 array
 (
 cx
+JS
 :
 :
-JS_NewArrayObject
+NewArrayObject
 (
 cx
 args

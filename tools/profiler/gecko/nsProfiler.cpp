@@ -38,6 +38,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 JSON
 .
 h
@@ -3391,7 +3400,10 @@ RootedObject
 tuple
 (
 cx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 cx
 3

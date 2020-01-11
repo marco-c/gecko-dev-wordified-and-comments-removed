@@ -22,6 +22,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 RootingAPI
 .
 h
@@ -1051,7 +1060,10 @@ len
 if
 (
 !
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 aCx
 aObject

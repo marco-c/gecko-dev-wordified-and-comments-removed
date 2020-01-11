@@ -10,6 +10,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -5071,7 +5080,10 @@ JSObject
 redirects
 (
 aCx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aCx
 aArray

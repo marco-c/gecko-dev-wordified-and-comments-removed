@@ -57,6 +57,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Atomics
@@ -2433,7 +2442,10 @@ RootedObject
 prioDataArray
 (
 aCx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aCx
 prioData

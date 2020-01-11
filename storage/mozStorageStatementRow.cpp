@@ -47,6 +47,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 xpc_make_class
 .
 h
@@ -450,9 +459,10 @@ JSObject
 obj
 (
 aCx
+JS
 :
 :
-JS_NewArrayObject
+NewArrayObject
 (
 aCx
 length

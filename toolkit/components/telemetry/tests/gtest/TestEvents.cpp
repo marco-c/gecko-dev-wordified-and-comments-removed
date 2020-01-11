@@ -19,6 +19,15 @@ h
 #
 include
 "
+js
+/
+Array
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Maybe
@@ -611,7 +620,10 @@ recordLength
 ;
 ASSERT_TRUE
 (
-JS_GetArrayLength
+JS
+:
+:
+GetArrayLength
 (
 aCx
 recordArray

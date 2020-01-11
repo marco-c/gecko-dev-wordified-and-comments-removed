@@ -29,6 +29,15 @@ include
 "
 js
 /
+Array
+.
+h
+"
+#
+include
+"
+js
+/
 ArrayBuffer
 .
 h
@@ -1560,7 +1569,10 @@ JSObject
 array
 (
 aCx
-JS_NewArrayObject
+JS
+:
+:
+NewArrayObject
 (
 aCx
 0
