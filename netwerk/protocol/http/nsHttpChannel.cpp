@@ -12427,7 +12427,7 @@ parentChannel
 ;
 RefPtr
 <
-DocumentChannelParent
+DocumentLoadListener
 >
 documentChannelParent
 =
@@ -31573,7 +31573,7 @@ if
 (
 RefPtr
 <
-DocumentChannelParent
+DocumentLoadListener
 >
 docParent
 =
@@ -31671,7 +31671,7 @@ if
 (
 RefPtr
 <
-DocumentChannelParent
+DocumentLoadListener
 >
 docParent
 =
@@ -31685,7 +31685,7 @@ return
 docParent
 -
 >
-SendAttachStreamFilter
+AttachStreamFilter
 (
 std
 :
@@ -33321,7 +33321,7 @@ parentChannel
 ;
 RefPtr
 <
-DocumentChannelParent
+DocumentLoadListener
 >
 documentChannelParent
 =

@@ -94,6 +94,11 @@ net
 =
 [
 '
+ADocumentChannelBridge
+.
+h
+'
+'
 ChannelEventQueue
 .
 h
@@ -105,6 +110,11 @@ h
 '
 '
 DocumentChannelParent
+.
+h
+'
+'
+DocumentLoadListener
 .
 h
 '
@@ -180,6 +190,11 @@ cpp
 '
 '
 DocumentChannelParent
+.
+cpp
+'
+'
+DocumentLoadListener
 .
 cpp
 '
