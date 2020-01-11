@@ -2434,11 +2434,6 @@ keep
 artifacts
 :
 false
-need
--
-xvfb
-:
-true
 run
 -
 on
@@ -2637,11 +2632,6 @@ keep
 artifacts
 :
 false
-need
--
-xvfb
-:
-true
 run
 -
 on
@@ -5400,11 +5390,6 @@ keep
 artifacts
 :
 false
-need
--
-xvfb
-:
-true
 run
 -
 on
@@ -5588,11 +5573,6 @@ keep
 artifacts
 :
 false
-need
--
-xvfb
-:
-true
 run
 -
 on
