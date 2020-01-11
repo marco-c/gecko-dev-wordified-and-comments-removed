@@ -498,11 +498,6 @@ transport
 resolve
 (
 {
-workerName
-:
-message
-.
-workerName
 threadActor
 :
 message
