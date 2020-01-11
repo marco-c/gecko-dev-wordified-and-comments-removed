@@ -247,6 +247,14 @@ nsITimerCallback
 public
 nsINamed
 {
+using
+IterationResult
+=
+GraphDriver
+:
+:
+IterationResult
+;
 public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -409,7 +417,7 @@ UpdateMainThreadState
 (
 )
 ;
-bool
+IterationResult
 OneIteration
 (
 GraphTime
@@ -419,7 +427,7 @@ AudioMixer
 aMixer
 )
 ;
-bool
+IterationResult
 OneIterationImpl
 (
 GraphTime
