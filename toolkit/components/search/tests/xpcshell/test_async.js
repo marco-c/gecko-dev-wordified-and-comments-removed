@@ -17,12 +17,9 @@ await
 useTestEngines
 (
 "
-data
-"
-"
-search
+simple
 -
-extensions
+engines
 "
 )
 ;
@@ -116,7 +113,7 @@ search
 getEngineByName
 (
 "
-bug645970
+basic
 "
 )
 ;
