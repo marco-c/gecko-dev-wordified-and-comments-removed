@@ -533,7 +533,7 @@ panel
 .
 target
 .
-tab
+localTab
 ;
 await
 panel

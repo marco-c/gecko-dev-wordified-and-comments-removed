@@ -111,7 +111,7 @@ toolbox
 .
 target
 .
-tab
+localTab
 ;
 let
 sourceSeen

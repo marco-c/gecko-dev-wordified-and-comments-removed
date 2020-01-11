@@ -8320,7 +8320,7 @@ state
 {
 const
 {
-tab
+localTab
 }
 =
 this
@@ -8334,7 +8334,7 @@ ResponsiveUIManager
 .
 isActiveForTab
 (
-tab
+localTab
 )
 |
 |
@@ -8367,7 +8367,7 @@ ResponsiveUIManager
 .
 getResponsiveUIForTab
 (
-tab
+localTab
 )
 ;
 await

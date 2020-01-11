@@ -333,7 +333,7 @@ false
 ;
 }
 get
-tab
+localTab
 (
 )
 {

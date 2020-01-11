@@ -233,7 +233,7 @@ hud
 .
 currentTarget
 .
-tab
+localTab
 .
 linkedBrowser
 ;

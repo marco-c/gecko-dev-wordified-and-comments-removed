@@ -277,7 +277,7 @@ tab
 :
 target
 .
-tab
+localTab
 }
 )
 ;
