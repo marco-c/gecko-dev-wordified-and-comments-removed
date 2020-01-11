@@ -39471,12 +39471,6 @@ aURI
 )
 |
 |
-SchemeIsViewSource
-(
-aURI
-)
-|
-|
 NS_IsAboutBlank
 (
 aURI
