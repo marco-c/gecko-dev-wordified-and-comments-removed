@@ -65,6 +65,10 @@ protocol
 PContent
 ;
 include
+protocol
+PSocketProcess
+;
+include
 "
 mozilla
 /
@@ -127,6 +131,8 @@ manager
 PBackground
 or
 PContent
+or
+PSocketProcess
 ;
 child
 :

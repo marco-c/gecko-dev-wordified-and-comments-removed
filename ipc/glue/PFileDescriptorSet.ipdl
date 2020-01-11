@@ -64,6 +64,10 @@ include
 protocol
 PContent
 ;
+include
+protocol
+PSocketProcess
+;
 namespace
 mozilla
 {
@@ -77,6 +81,8 @@ manager
 PBackground
 or
 PContent
+or
+PSocketProcess
 ;
 both
 :
