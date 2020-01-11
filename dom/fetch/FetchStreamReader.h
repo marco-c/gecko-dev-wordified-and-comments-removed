@@ -235,9 +235,9 @@ JSObject
 >
 mReader
 ;
-UniquePtr
+nsTArray
 <
-FetchReadableStreamReadDataArray
+uint8_t
 >
 mBuffer
 ;
