@@ -948,12 +948,11 @@ GetSMILOverrideStyleDeclaration
 (
 )
 ;
-nsresult
+void
 SetSMILOverrideStyleDeclaration
 (
 DeclarationBlock
-*
-aDeclaration
+&
 )
 ;
 virtual
