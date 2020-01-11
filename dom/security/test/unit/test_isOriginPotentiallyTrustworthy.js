@@ -348,7 +348,7 @@ equal
 (
 principal
 .
-IsOriginPotentiallyTrustworthy
+isOriginPotentiallyTrustworthy
 expectedResult
 )
 ;
@@ -406,7 +406,7 @@ equal
 (
 principal
 .
-IsOriginPotentiallyTrustworthy
+isOriginPotentiallyTrustworthy
 true
 )
 ;

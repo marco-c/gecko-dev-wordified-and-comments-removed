@@ -386,7 +386,7 @@ if
 (
 principal
 .
-IsOriginPotentiallyTrustworthy
+isOriginPotentiallyTrustworthy
 |
 |
 (
