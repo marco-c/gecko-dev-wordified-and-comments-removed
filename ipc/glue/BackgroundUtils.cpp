@@ -541,6 +541,14 @@ originNoSuffix
 )
 )
 {
+#
+ifdef
+FUZZING
+return
+nullptr
+;
+#
+else
 MOZ_CRASH
 (
 "
@@ -553,6 +561,8 @@ deserialized
 "
 )
 ;
+#
+endif
 }
 if
 (
@@ -677,6 +687,14 @@ baseDomain
 )
 )
 {
+#
+ifdef
+FUZZING
+return
+nullptr
+;
+#
+else
 MOZ_CRASH
 (
 "
@@ -690,6 +708,8 @@ deserialized
 "
 )
 ;
+#
+endif
 }
 }
 return
