@@ -7307,10 +7307,6 @@ return
 true
 ;
 }
-#
-if
-!
-ENABLE_INTL_API
 void
 js
 :
@@ -7322,6 +7318,10 @@ JSRuntime
 rt
 )
 {
+#
+if
+!
+ENABLE_INTL_API
 char
 *
 storage
@@ -7347,9 +7347,9 @@ js_free
 storage
 )
 ;
-}
 #
 endif
+}
 JSObject
 *
 NumberObject

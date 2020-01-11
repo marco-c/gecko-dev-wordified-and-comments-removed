@@ -1506,12 +1506,6 @@ JSWrapObjectCallbacks
 callbacks
 )
 ;
-#
-if
-defined
-(
-NIGHTLY_BUILD
-)
 extern
 JS_PUBLIC_API
 void
@@ -1554,8 +1548,6 @@ Value
 val
 )
 ;
-#
-endif
 extern
 JS_PUBLIC_API
 void
@@ -6403,12 +6395,6 @@ releaseHook
 )
 ;
 }
-#
-if
-defined
-(
-JS_BUILD_BINAST
-)
 namespace
 JS
 {
@@ -6462,8 +6448,6 @@ format
 )
 ;
 }
-#
-endif
 extern
 JS_PUBLIC_API
 bool

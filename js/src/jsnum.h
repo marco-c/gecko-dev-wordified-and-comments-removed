@@ -125,10 +125,6 @@ JSRuntime
 rt
 )
 ;
-#
-if
-!
-ENABLE_INTL_API
 extern
 void
 FinishRuntimeNumberState
@@ -138,8 +134,6 @@ JSRuntime
 rt
 )
 ;
-#
-endif
 extern
 JSObject
 *
