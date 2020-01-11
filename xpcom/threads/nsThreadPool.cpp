@@ -2081,6 +2081,16 @@ aTimeoutMs
 )
 )
 ;
+static
+const
+nsThread
+:
+:
+ShutdownContextsComp
+comparator
+{
+}
+;
 for
 (
 int32_t
@@ -2145,6 +2155,8 @@ contexts
 [
 i
 ]
+0
+comparator
 )
 ;
 if
@@ -2161,6 +2173,9 @@ ShutdownContexts
 NoIndex
 )
 {
+Unused
+<
+<
 currentThread
 -
 >
@@ -2169,7 +2184,7 @@ mRequestedShutdownContexts
 index
 ]
 .
-forget
+release
 (
 )
 ;
