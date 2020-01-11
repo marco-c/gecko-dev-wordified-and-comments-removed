@@ -6376,6 +6376,12 @@ defined
 (
 _MSC_VER
 )
+&
+&
+defined
+(
+NSS_X86_OR_X64
+)
 if
 (
 aesni_support

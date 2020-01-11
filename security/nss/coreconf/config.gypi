@@ -2368,6 +2368,16 @@ glibc
 2
 .
 19
+'
+_POSIX_SOURCE
+'
+#
+for
+<
+signal
+.
+h
+>
 ]
 }
 ]

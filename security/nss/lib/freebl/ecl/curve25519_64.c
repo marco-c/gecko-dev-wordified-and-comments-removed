@@ -15,7 +15,7 @@ include
 /
 verified
 /
-Hacl_Curve25519_51
+Hacl_Curve25519
 .
 h
 "
@@ -35,7 +35,7 @@ uint8_t
 basepoint
 )
 {
-Hacl_Curve25519_51_ecdh
+Hacl_Curve25519_crypto_scalarmult
 (
 mypublic
 (
