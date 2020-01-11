@@ -3891,7 +3891,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4218,7 +4218,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4534,7 +4534,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
@@ -4674,7 +4674,7 @@ trigger
 id
 :
 "
-trackingProtection
+contentBlocking
 "
 params
 :
