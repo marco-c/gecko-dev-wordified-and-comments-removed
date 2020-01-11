@@ -241,6 +241,15 @@ JSEXN_INTERNALERR
 \
 REAL
 (
+AggregateError
+ERROR_CLASP
+(
+JSEXN_AGGREGATEERR
+)
+)
+\
+REAL
+(
 EvalError
 ERROR_CLASP
 (

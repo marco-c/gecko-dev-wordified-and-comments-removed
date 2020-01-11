@@ -249,7 +249,7 @@ JSProto_URIError
 JSProto_Error
 =
 =
-7
+8
 "
 New
 prototype
@@ -299,6 +299,7 @@ AssertErrorObjectKeyInBounds
 (
 JSProto_Error
 JSProto_InternalError
+JSProto_AggregateError
 JSProto_EvalError
 JSProto_RangeError
 JSProto_ReferenceError

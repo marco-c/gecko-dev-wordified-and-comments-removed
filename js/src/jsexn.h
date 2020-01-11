@@ -211,6 +211,14 @@ JSProto_InternalError
 &
 JSProto_Error
 +
+JSEXN_AGGREGATEERR
+=
+=
+JSProto_AggregateError
+&
+&
+JSProto_Error
++
 JSEXN_EVALERR
 =
 =
