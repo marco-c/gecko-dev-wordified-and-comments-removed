@@ -2219,7 +2219,7 @@ gl
 MozFramebuffer
 :
 :
-CreateWith
+CreateForBacking
 (
 aGL
 entry
