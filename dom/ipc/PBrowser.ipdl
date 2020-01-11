@@ -4623,6 +4623,13 @@ layersConnected
 )
 ;
 async
+CompositorOptionsChanged
+(
+CompositorOptions
+newOptions
+)
+;
+async
 LoadURL
 (
 nsCString

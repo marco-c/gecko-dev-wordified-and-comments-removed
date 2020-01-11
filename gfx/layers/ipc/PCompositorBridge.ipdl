@@ -1261,6 +1261,15 @@ bool
 aActive
 )
 ;
+async
+CompositorOptionsChanged
+(
+LayersId
+id
+CompositorOptions
+newOptions
+)
+;
 parent
 :
 async
