@@ -237,6 +237,11 @@ UNIFIED_SOURCES
 =
 [
 '
+HybridSdpParser
+.
+cpp
+'
+'
 ParsingResultComparer
 .
 cpp
