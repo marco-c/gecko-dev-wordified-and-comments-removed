@@ -340,6 +340,7 @@ GetFileInfo
 int64_t
 aId
 )
+const
 ;
 already_AddRefed
 <
