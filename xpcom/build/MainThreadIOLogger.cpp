@@ -216,6 +216,9 @@ IOThreadFunc
 (
 )
 ;
+mozilla
+:
+:
 TimeStamp
 mLogStartTime
 ;
@@ -228,6 +231,9 @@ PRThread
 *
 mIOThread
 ;
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -249,6 +255,9 @@ mObservations
 }
 ;
 static
+mozilla
+:
+:
 StaticAutoPtr
 <
 MainThreadIOLoggerImpl
@@ -294,6 +303,9 @@ return
 ;
 }
 {
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -467,6 +479,9 @@ if
 fd
 )
 {
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -500,6 +515,9 @@ return
 }
 mLogStartTime
 =
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -508,6 +526,9 @@ Now
 )
 ;
 {
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -566,6 +587,9 @@ swap
 mObservations
 )
 ;
+mozilla
+:
+:
 IOInterposer
 :
 :
@@ -631,6 +655,9 @@ STAGE
 n
 "
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -832,6 +859,9 @@ IsMainThread
 return
 ;
 }
+mozilla
+:
+:
 IOInterposer
 :
 :

@@ -81,10 +81,6 @@ h
 endif
 namespace
 {
-using
-namespace
-mozilla
-;
 PRCloseFN
 sCloseFn
 =
@@ -241,6 +237,9 @@ class
 NSPRIOAutoObservation
 :
 public
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -251,6 +250,9 @@ public
 explicit
 NSPRIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -260,6 +262,9 @@ PRFileDesc
 *
 aFd
 )
+:
+mozilla
+:
 :
 IOInterposeObserver
 :
@@ -380,6 +385,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -425,6 +433,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -473,6 +484,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -515,6 +529,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -558,6 +575,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -602,6 +622,9 @@ NULL
 NSPRIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :

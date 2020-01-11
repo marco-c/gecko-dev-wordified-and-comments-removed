@@ -209,10 +209,6 @@ h
 endif
 namespace
 {
-using
-namespace
-mozilla
-;
 static
 bool
 sIsEnabled
@@ -254,6 +250,9 @@ class
 MacIOAutoObservation
 :
 public
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -263,6 +262,9 @@ public
 :
 MacIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -271,6 +273,9 @@ aOp
 int
 aFd
 )
+:
+mozilla
+:
 :
 IOInterposeObserver
 :
@@ -283,6 +288,9 @@ sIsEnabled
 &
 &
 !
+mozilla
+:
+:
 IsDebugFile
 (
 aFd
@@ -300,6 +308,9 @@ false
 }
 MacIOAutoObservation
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -315,6 +326,9 @@ size_t
 aCount
 )
 :
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -326,6 +340,9 @@ sIsEnabled
 &
 &
 !
+mozilla
+:
+:
 IsDebugFile
 (
 aFd
@@ -648,6 +665,9 @@ true
 auto
 wbuf2
 =
+mozilla
+:
+:
 MakeUniqueFallible
 <
 char
@@ -851,6 +871,9 @@ aAioCbp
 MacIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -921,6 +944,9 @@ aOffset
 MacIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1053,6 +1079,9 @@ aIovCount
 MacIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1185,6 +1214,9 @@ aCount
 MacIOAutoObservation
 timer
 (
+mozilla
+:
+:
 IOInterposeObserver
 :
 :
@@ -1317,6 +1349,9 @@ const
 int
 NumFunctions
 =
+mozilla
+:
+:
 ArrayLength
 (
 Functions
