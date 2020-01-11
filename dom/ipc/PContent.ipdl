@@ -8909,8 +8909,6 @@ Principal
 aTrackingPrincipal
 nsCString
 aTrackingOrigin
-nsCString
-aGrantedOrigin
 int
 aAllowMode
 )
