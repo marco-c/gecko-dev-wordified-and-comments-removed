@@ -3,6 +3,8 @@ __future__
 import
 unicode_literals
 print_function
+import
+six
 def
 main
 (
@@ -23,12 +25,11 @@ None
     
 locale
 =
-unicode
+six
+.
+ensure_text
 (
 locale
-'
-utf_8
-'
 )
     
 print
