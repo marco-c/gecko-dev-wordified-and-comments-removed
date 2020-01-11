@@ -380,6 +380,12 @@ message
 }
 }
 ;
+Pattern
+.
+MatchError
+=
+MatchError
+;
 function
 isAtom
 (
