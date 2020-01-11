@@ -190,12 +190,6 @@ unsigned
 long
 droppedVideoFrames
 ;
-readonly
-attribute
-unsigned
-long
-corruptedVideoFrames
-;
 /
 /
 At

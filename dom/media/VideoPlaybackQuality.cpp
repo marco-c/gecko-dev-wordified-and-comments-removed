@@ -61,8 +61,6 @@ uint32_t
 aTotalFrames
 uint32_t
 aDroppedFrames
-uint32_t
-aCorruptedFrames
 )
 :
 mElement
@@ -80,10 +78,6 @@ aTotalFrames
 mDroppedFrames
 (
 aDroppedFrames
-)
-mCorruptedFrames
-(
-aCorruptedFrames
 )
 {
 }

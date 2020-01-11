@@ -70,8 +70,6 @@ uint32_t
 aTotalFrames
 uint32_t
 aDroppedFrames
-uint32_t
-aCorruptedFrames
 )
 ;
 HTMLMediaElement
@@ -130,16 +128,6 @@ return
 mDroppedFrames
 ;
 }
-uint32_t
-CorruptedVideoFrames
-(
-)
-const
-{
-return
-mCorruptedFrames
-;
-}
 private
 :
 ~
@@ -162,9 +150,6 @@ mTotalFrames
 ;
 uint32_t
 mDroppedFrames
-;
-uint32_t
-mCorruptedFrames
 ;
 }
 ;
