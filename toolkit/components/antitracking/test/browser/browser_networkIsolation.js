@@ -265,6 +265,16 @@ false
 ]
 [
 "
+browser
+.
+cache
+.
+cache_isolation
+"
+false
+]
+[
+"
 network
 .
 cookie
