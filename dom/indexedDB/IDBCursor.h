@@ -268,7 +268,8 @@ mHaveValue
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBCursor
 >
@@ -289,7 +290,8 @@ aCloneInfo
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBCursor
 >
@@ -306,7 +308,8 @@ aKey
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBCursor
 >
@@ -331,7 +334,8 @@ aCloneInfo
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBCursor
 >
@@ -533,7 +537,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBRequest
 >
@@ -558,7 +563,8 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBRequest
 >
