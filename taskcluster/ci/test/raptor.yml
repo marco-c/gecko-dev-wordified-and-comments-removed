@@ -534,9 +534,6 @@ tp6
 -
 1
 )
-condprof
-:
-true
 mozharness
 :
 extra
@@ -5190,9 +5187,6 @@ c
 -
 1
 )
-condprof
-:
-true
 mozharness
 :
 extra
@@ -7676,9 +7670,6 @@ time
 tier
 :
 3
-condprof
-:
-true
 run
 -
 visual
