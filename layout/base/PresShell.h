@@ -4745,11 +4745,9 @@ aPresShell
 )
 ;
 static
-already_AddRefed
-<
-nsIURI
->
-GetDocumentURIToCompareWithBlacklist
+nsIPrincipal
+*
+GetDocumentPrincipalToCompareWithBlacklist
 (
 PresShell
 &
