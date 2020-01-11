@@ -2008,6 +2008,13 @@ cpp
 '
 builtin
 /
+WeakRefObject
+.
+cpp
+'
+'
+builtin
+/
 WeakSetObject
 .
 cpp
