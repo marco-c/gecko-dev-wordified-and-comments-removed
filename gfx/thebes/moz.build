@@ -364,6 +364,11 @@ SoftwareVsyncSource
 h
 '
 '
+ThebesRLBoxTypes
+.
+h
+'
+'
 VsyncSource
 .
 h
@@ -394,6 +399,11 @@ h
 '
 '
 PrintTargetThebes
+.
+h
+'
+'
+ThebesRLBox
 .
 h
 '
