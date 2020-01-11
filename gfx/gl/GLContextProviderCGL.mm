@@ -1419,12 +1419,12 @@ true
 ;
 if
 (
-StaticPrefs
+flags
+&
+CreateContextFlags
 :
 :
-gl_multithreaded
-(
-)
+PREFER_MULTITHREADED
 )
 {
 CGLEnable
