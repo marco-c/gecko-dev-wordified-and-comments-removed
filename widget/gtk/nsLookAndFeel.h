@@ -418,6 +418,12 @@ mCaretBlinkTime
 =
 0
 ;
+int32_t
+mPrefersReducedMotion
+=
+-
+1
+;
 bool
 mMenuSupportsDrag
 =
@@ -460,6 +466,11 @@ false
 ;
 bool
 mInitialized
+=
+false
+;
+bool
+mPrefersReducedMotionCached
 =
 false
 ;
