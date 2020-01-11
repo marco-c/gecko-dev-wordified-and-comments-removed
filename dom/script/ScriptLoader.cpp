@@ -12523,8 +12523,6 @@ rv
 )
 ;
 }
-return
-;
 }
 void
 ScriptLoader
