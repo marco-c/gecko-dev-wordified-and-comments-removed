@@ -185,7 +185,7 @@ Diacritics
 .
 accesskey
 =
-D
+i
 .
 tooltiptext
 =
