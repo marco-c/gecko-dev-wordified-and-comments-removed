@@ -692,6 +692,11 @@ entry
 "
 asyncer
 :
+entry
+"
+"
+asyncer
+:
 exit
 "
 ]
@@ -739,6 +744,11 @@ exit
 asyncerCatch
 :
 exit
+"
+"
+asyncerCatch
+:
+entry
 "
 "
 asyncerCatch
@@ -805,6 +815,11 @@ exit
 asyncerFinally
 :
 exit
+"
+"
+asyncerFinally
+:
+entry
 "
 "
 asyncerFinally
