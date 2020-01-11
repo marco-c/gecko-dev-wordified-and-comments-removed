@@ -4913,6 +4913,7 @@ GetEndTime
 (
 )
 <
+=
 currentTime
 ;
 )
