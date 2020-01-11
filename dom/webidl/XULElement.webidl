@@ -141,13 +141,6 @@ attribute
 DOMString
 orient
 ;
-[
-SetterThrows
-]
-attribute
-DOMString
-pack
-;
 /
 /
 Properties
