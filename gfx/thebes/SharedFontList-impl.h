@@ -211,10 +211,6 @@ const
 nsCString
 &
 aName
-bool
-aAllowHidden
-=
-false
 )
 ;
 LocalFaceRec
