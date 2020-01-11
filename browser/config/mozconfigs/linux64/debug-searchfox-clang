@@ -36,16 +36,6 @@ build
 mozconfig
 .
 stylo
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-wasm
--
-sandboxing
 #
 Use
 Clang
