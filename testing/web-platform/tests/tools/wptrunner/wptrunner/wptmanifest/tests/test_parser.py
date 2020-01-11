@@ -1,53 +1,10 @@
 import
-pytest
-import
-sys
-import
 unittest
 from
-six
-.
-moves
-import
-cStringIO
-as
-StringIO
-from
 .
 .
 import
 parser
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version
-[
-0
-]
-=
-=
-"
-3
-"
-                   
-reason
-=
-"
-wptmanifest
-.
-parser
-doesn
-'
-t
-support
-py3
-"
-)
 class
 TestExpression
 (
@@ -89,10 +46,7 @@ parser
 .
 parse
 (
-StringIO
-(
 input_str
-)
 )
     
 def
@@ -213,6 +167,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -329,6 +284,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -465,6 +421,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -604,6 +561,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -738,6 +696,7 @@ self
 .
 parse
 (
+b
 "
 key
 :
@@ -767,6 +726,7 @@ self
 .
 parse
 (
+b
 "
 key
 :
