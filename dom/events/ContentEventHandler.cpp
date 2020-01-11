@@ -289,10 +289,11 @@ AssertStartIsBeforeOrEqualToEnd
 {
 MOZ_ASSERT
 (
+*
 nsContentUtils
 :
 :
-ComparePoints_Deprecated
+ComparePoints
 (
 mStart
 .
@@ -6857,10 +6858,11 @@ NS_ERROR_FAILURE
 int16_t
 compare
 =
+*
 nsContentUtils
 :
 :
-ComparePoints_Deprecated
+ComparePoints
 (
 anchorNode
 anchorOffset
