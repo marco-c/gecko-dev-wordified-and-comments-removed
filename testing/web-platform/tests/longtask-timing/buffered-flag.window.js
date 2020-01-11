@@ -99,7 +99,7 @@ self
 ;
 assert_greater_than
 (
-longtask
+entry
 .
 duration
 50
