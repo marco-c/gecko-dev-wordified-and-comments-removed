@@ -210,7 +210,7 @@ info
 (
 "
 Test
-CORSPreflightDidNotSucceed
+CORSPreflightDidNotSucceed2
 "
 )
 ;
@@ -221,7 +221,7 @@ waitForMessage
 hud
 CORS
 preflight
-channel
+response
 did
 not
 succeed
@@ -230,7 +230,7 @@ succeed
 makeFaultyCorsCall
 (
 "
-CORSPreflightDidNotSucceed
+CORSPreflightDidNotSucceed2
 "
 )
 ;
@@ -244,7 +244,7 @@ checkCorsMessage
 (
 message
 "
-CORSPreflightDidNotSucceed
+CORSPreflightDidNotSucceed2
 "
 )
 ;
@@ -855,7 +855,7 @@ info
 (
 "
 Test
-CORSMissingAllowHeaderFromPreflight
+CORSMissingAllowHeaderFromPreflight2
 "
 )
 ;
@@ -866,8 +866,7 @@ waitForMessage
 hud
 Reason
 :
-missing
-token
+header
 {
 quote
 (
@@ -876,8 +875,11 @@ xyz
 "
 )
 }
-in
-CORS
+is
+not
+allowed
+according
+to
 +
 header
 {
@@ -897,13 +899,13 @@ Headers
 from
 CORS
 preflight
-channel
+response
 )
 ;
 makeFaultyCorsCall
 (
 "
-CORSMissingAllowHeaderFromPreflight
+CORSMissingAllowHeaderFromPreflight2
 "
 )
 ;
@@ -917,7 +919,7 @@ checkCorsMessage
 (
 message
 "
-CORSMissingAllowHeaderFromPreflight
+CORSMissingAllowHeaderFromPreflight2
 "
 )
 ;
@@ -1157,7 +1159,7 @@ category
 =
 =
 "
-CORSMissingAllowHeaderFromPreflight
+CORSMissingAllowHeaderFromPreflight2
 "
 )
 {
