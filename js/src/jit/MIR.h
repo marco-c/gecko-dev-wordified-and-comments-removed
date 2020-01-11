@@ -52158,6 +52158,16 @@ NAMED_OPERANDS
 value
 )
 )
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 bool
 congruentTo
 (
