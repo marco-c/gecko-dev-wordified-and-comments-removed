@@ -346,6 +346,8 @@ uint32_t
 aFlags
 bool
 aFromPrivateWindow
+uint64_t
+aInnerWindowID
 )
 ;
 const
