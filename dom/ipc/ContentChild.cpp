@@ -19917,6 +19917,14 @@ uri
 (
 )
 loadInfo
+nullptr
+nullptr
+nullptr
+aArgs
+.
+newLoadFlags
+(
+)
 )
 ;
 RefPtr
