@@ -524,6 +524,14 @@ type
 ;
 details
 .
+source
+=
+result
+.
+source
+;
+details
+.
 heuristic
 =
 result
