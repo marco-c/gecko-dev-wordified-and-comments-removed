@@ -103,16 +103,14 @@ bar
 ]
 {
 "
-templates
-"
-:
-{
-"
+use
+-
 artifact
+-
+builds
 "
 :
 True
-}
 }
         
 )
@@ -272,12 +270,6 @@ templates
 {
         
 "
-artifact
-"
-:
-True
-        
-"
 env
 "
 :
@@ -292,6 +284,20 @@ fuzzy
 }
     
 }
+    
+assert
+try_task_config
+.
+get
+(
+'
+use
+-
+artifact
+-
+builds
+'
+)
     
 with
 open
@@ -372,16 +378,14 @@ bar
 ]
 {
 "
-templates
-"
-:
-{
-"
+use
+-
 artifact
+-
+builds
 "
 :
 True
-}
 }
         
 )

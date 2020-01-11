@@ -53,18 +53,14 @@ artifact
 ]
 {
 '
+use
+-
 artifact
+-
+builds
 '
 :
-{
-'
-enabled
-'
-:
-'
-1
-'
-}
+True
 }
 )
     
@@ -414,6 +410,19 @@ add_arguments
 parser
 )
     
+fn
+=
+getattr
+(
+t
+'
+context
+'
+t
+.
+try_config
+)
+    
 if
 inspect
 .
@@ -466,9 +475,7 @@ args
 )
 )
             
-t
-.
-context
+fn
 (
 *
 *
@@ -510,9 +517,7 @@ args
 )
         
 assert
-t
-.
-context
+fn
 (
 *
 *

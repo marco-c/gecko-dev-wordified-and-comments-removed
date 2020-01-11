@@ -256,7 +256,7 @@ pass
 class
 Artifact
 (
-Template
+TryConfig
 )
 :
     
@@ -400,7 +400,7 @@ return
 False
     
 def
-context
+try_config
 (
 self
 artifact
@@ -419,18 +419,14 @@ return
 {
                 
 '
+use
+-
 artifact
+-
+builds
 '
 :
-{
-'
-enabled
-'
-:
-'
-1
-'
-}
+True
             
 }
         
@@ -469,18 +465,14 @@ return
 {
                 
 '
+use
+-
 artifact
+-
+builds
 '
 :
-{
-'
-enabled
-'
-:
-'
-1
-'
-}
+True
             
 }
 class
