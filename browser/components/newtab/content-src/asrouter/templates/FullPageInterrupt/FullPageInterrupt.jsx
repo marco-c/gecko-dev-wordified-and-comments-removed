@@ -866,6 +866,11 @@ onBlockById
 message
 .
 id
+{
+preloadedOnly
+:
+true
+}
 )
 ;
 }
