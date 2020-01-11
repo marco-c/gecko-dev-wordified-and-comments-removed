@@ -498,7 +498,7 @@ XRE_API
 const
 char
 *
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 GeckoProcessType
 aProcessType

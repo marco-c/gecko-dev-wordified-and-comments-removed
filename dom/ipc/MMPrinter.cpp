@@ -179,7 +179,7 @@ charMsg
 get
 (
 )
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 XRE_GetProcessType
 (

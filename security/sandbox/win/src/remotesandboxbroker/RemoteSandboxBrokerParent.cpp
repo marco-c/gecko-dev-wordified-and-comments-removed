@@ -321,7 +321,7 @@ Telemetry
 SUBPROCESS_ABNORMAL_ABORT
 nsDependentCString
 (
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 GeckoProcessType_RemoteSandboxBroker
 )

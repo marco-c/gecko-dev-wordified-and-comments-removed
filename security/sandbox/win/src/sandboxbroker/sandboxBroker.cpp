@@ -1386,7 +1386,7 @@ key
 .
 AppendASCII
 (
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 aProcessType
 )

@@ -1937,7 +1937,7 @@ aMsg
 {
 NoteIntentionalCrash
 (
-XRE_GeckoProcessTypeToString
+XRE_ChildProcessTypeToString
 (
 XRE_GetProcessType
 (
