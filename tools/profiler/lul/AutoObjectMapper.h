@@ -152,7 +152,7 @@ void
 if
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 class
 MOZ_STACK_CLASS

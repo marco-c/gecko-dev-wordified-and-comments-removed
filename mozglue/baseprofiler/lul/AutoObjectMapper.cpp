@@ -85,7 +85,7 @@ h
 if
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 #
 include
@@ -507,7 +507,7 @@ true
 if
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 AutoObjectMapperFaultyLib
 :

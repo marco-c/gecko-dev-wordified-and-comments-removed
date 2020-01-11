@@ -164,7 +164,7 @@ GetNativeDebugPath
 if
 defined
 (
-GP_OS_android
+MOZ_LINKER
 )
 AutoObjectMapperFaultyLib
 mapper
