@@ -1287,10 +1287,8 @@ get
 ;
 #
 endif
-MOZ_ASSERT
-(
+return
 false
-)
 ;
 }
 MOZ_ASSERT
