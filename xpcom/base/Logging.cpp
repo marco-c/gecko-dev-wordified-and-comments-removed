@@ -1822,7 +1822,6 @@ MOZ_FORMAT_PRINTF
 0
 )
 {
-static
 long
 pid
 =
