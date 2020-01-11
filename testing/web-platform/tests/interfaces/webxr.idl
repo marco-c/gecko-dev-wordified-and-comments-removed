@@ -859,6 +859,7 @@ SameObject
 readonly
 attribute
 WebGLFramebuffer
+?
 framebuffer
 ;
 readonly
