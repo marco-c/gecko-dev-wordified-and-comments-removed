@@ -363,6 +363,11 @@ WebExtension
 Flags
 .
 ALLOW_CONTENT_MESSAGING
+sessionRule
+.
+runtime
+.
+webExtensionController
 )
 sessionRule
 .

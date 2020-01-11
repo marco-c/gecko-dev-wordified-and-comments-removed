@@ -11637,6 +11637,8 @@ String
 NonNull
 String
 long
+NonNull
+WebExtensionController
 )
 ;
 ctor
@@ -11645,6 +11647,8 @@ WebExtension
 (
 NonNull
 String
+NonNull
+WebExtensionController
 )
 ;
 method

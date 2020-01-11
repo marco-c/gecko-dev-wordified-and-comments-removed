@@ -5809,7 +5809,7 @@ setMessageDelegate
 (
 RuntimeCreator
 .
-TEST_SUPPORT_WEB_EXTENSION
+sTestSupportExtension
 mMessageDelegate
 "
 browser

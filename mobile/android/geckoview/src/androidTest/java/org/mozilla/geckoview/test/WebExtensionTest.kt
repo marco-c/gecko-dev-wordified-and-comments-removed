@@ -552,6 +552,7 @@ web_extensions
 borderify
 /
 "
+controller
 )
 /
 /
@@ -1944,6 +1945,7 @@ tabsExtension
 WebExtension
 (
 TABS_CREATE_BACKGROUND
+controller
 )
 sessionRule
 .
@@ -2199,6 +2201,7 @@ tabsExtension
 WebExtension
 (
 TABS_CREATE_REMOVE_BACKGROUND
+controller
 )
 sessionRule
 .
@@ -2417,6 +2420,7 @@ tabsExtension
 WebExtension
 (
 TABS_REMOVE_BACKGROUND
+controller
 )
 sessionRule
 .
@@ -2501,6 +2505,7 @@ WebExtension
 Flags
 .
 NONE
+controller
 )
 webExtension
 .
@@ -2525,6 +2530,7 @@ WebExtension
 Flags
 .
 ALLOW_CONTENT_MESSAGING
+controller
 )
 sessionRule
 .
@@ -4331,6 +4337,7 @@ WebExtension
 Flags
 .
 ALLOW_CONTENT_MESSAGING
+controller
 )
 sessionRule
 .
@@ -4558,6 +4565,7 @@ page
 update
 /
 "
+controller
 )
 sessionRule
 .
@@ -5071,6 +5079,7 @@ registerWebExtension
 WebExtension
 (
 location
+controller
 )
 )
 )

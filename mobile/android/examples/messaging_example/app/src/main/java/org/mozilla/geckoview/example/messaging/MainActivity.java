@@ -353,6 +353,11 @@ WebExtension
 Flags
 .
 ALLOW_CONTENT_MESSAGING
+sRuntime
+.
+getWebExtensionController
+(
+)
 )
 ;
 sRuntime

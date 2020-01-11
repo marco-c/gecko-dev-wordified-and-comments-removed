@@ -600,6 +600,10 @@ final
 WebExtensionFlags
 long
 flags
+final
+NonNull
+WebExtensionController
+controller
 )
 {
 this
@@ -657,6 +661,10 @@ final
 NonNull
 String
 location
+final
+NonNull
+WebExtensionController
+controller
 )
 {
 this
@@ -682,6 +690,7 @@ toString
 Flags
 .
 NONE
+controller
 )
 ;
 }
