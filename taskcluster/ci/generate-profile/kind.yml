@@ -951,8 +951,10 @@ minidump
 -
 stackwalk
 macosx64
+-
+shippable
 /
-pgo
+opt
 :
 description
 :
@@ -988,8 +990,10 @@ treeherder
 platform
 :
 macosx64
+-
+shippable
 /
-pgo
+opt
 worker
 -
 type

@@ -408,8 +408,10 @@ linux64
 -
 node
 macosx64
+-
+shippable
 /
-pgo
+opt
 :
 description
 :
@@ -436,11 +438,11 @@ treeherder
 :
 platform
 :
-osx
+macosx64
 -
-cross
+shippable
 /
-pgo
+opt
 worker
 -
 type
