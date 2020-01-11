@@ -9,6 +9,8 @@ codecs
 import
 re
 import
+six
+import
 sys
 if
 sys
@@ -324,12 +326,13 @@ for
 k
 v
 in
-self
-.
-_properties
+six
 .
 iteritems
 (
+self
+.
+_properties
 )
 :
             
@@ -525,13 +528,15 @@ v
 for
 k
 v
+                 
 in
-self
-.
-_properties
+six
 .
 iteritems
 (
+self
+.
+_properties
 )
                  
 if
