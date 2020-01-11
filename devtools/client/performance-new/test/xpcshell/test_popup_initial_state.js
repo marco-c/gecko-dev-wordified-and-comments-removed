@@ -79,12 +79,12 @@ getRecordingPreferencesFromBrowser
 (
 )
 .
-buffersize
+entries
 getDefaultRecordingPreferences
 (
 )
 .
-buffersize
+entries
 "
 The
 initial
@@ -92,7 +92,7 @@ state
 has
 the
 default
-buffersize
+entries
 .
 "
 )
