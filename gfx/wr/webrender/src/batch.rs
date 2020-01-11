@@ -4229,6 +4229,14 @@ PrimitiveHeader
 local_rect
 :
 prim_rect
+.
+translate
+(
+-
+run
+.
+reference_frame_relative_offset
+)
 local_clip_rect
 :
 prim_info
