@@ -88,7 +88,7 @@ import
 {
 Fixture
 TestGroup
-rejectOnTimeout
+raceWithRejectOnTimeout
 }
 from
 '
@@ -298,14 +298,9 @@ fn
 )
 ;
 return
-Promise
-.
-race
+raceWithRejectOnTimeout
 (
-[
 promise
-rejectOnTimeout
-(
 TIMEOUT_IN_MS
 '
 Timeout
@@ -315,8 +310,6 @@ for
 uncaptured
 error
 '
-)
-]
 )
 ;
 }
