@@ -377,6 +377,13 @@ newClientInfo
 )
 {
 reservedClient
+.
+reset
+(
+nullptr
+)
+;
+reservedClient
 =
 ClientManager
 :
