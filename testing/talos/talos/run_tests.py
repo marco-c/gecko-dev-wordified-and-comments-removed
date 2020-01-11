@@ -302,6 +302,9 @@ fnbpaint
 '
 pdfpaint
 '
+'
+a11y
+'
 ]
     
 CLI_options
