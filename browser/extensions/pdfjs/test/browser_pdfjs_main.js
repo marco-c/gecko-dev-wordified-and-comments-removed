@@ -164,12 +164,13 @@ pdf
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 newTabBrowser
-null
+[
+]
 async
 function
 (

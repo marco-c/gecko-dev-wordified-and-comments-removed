@@ -239,14 +239,16 @@ button
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 button
+]
 async
 function
 (

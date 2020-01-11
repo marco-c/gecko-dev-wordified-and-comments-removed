@@ -22,14 +22,15 @@ rights
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

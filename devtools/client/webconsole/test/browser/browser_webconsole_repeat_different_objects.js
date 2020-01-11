@@ -68,14 +68,15 @@ abba
 }
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 (
 )
 =

@@ -432,14 +432,15 @@ tab
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )

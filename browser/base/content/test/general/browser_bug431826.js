@@ -5,14 +5,15 @@ task
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 task
 )
 ;

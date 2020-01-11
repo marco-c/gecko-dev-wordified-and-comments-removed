@@ -71,14 +71,15 @@ true
 let
 hashChangePromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tabRefAboutHome
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

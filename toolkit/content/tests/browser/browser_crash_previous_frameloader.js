@@ -278,12 +278,13 @@ onTabCrashed
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )
@@ -377,6 +378,10 @@ contents
 ;
 }
 ;
+docShell
+.
+chromeEventHandler
+.
 addEventListener
 (
 "

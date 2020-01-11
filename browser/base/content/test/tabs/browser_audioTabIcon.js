@@ -116,13 +116,13 @@ pause
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (

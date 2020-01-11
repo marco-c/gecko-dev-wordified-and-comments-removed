@@ -89,14 +89,15 @@ navigate
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 (
 )
 =

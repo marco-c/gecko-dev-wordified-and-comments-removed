@@ -1346,12 +1346,13 @@ resolve
 ;
 }
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-null
+[
+]
 (
 )
 =

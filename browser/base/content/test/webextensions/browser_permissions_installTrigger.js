@@ -41,13 +41,14 @@ gBrowser
 selectedBrowser
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
+[
 {
 BASE
 }
@@ -55,6 +56,7 @@ BASE
 {
 filename
 }
+]
 async
 function
 (

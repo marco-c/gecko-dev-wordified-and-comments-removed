@@ -279,7 +279,7 @@ expectedColor
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -288,9 +288,11 @@ ui
 getViewportBrowser
 (
 )
+[
 {
 expectedColor
 }
+]
 function
 (
 args

@@ -162,14 +162,15 @@ function
 (
 )
 {
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 function
 (

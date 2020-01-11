@@ -49,12 +49,14 @@ aMs
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 aMs
+]
 async
 function
 (

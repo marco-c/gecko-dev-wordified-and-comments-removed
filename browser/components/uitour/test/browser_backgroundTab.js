@@ -198,7 +198,7 @@ loadForegroundTab
 let
 promise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -207,7 +207,8 @@ gBrowser
 selectedTab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

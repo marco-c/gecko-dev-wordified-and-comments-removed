@@ -145,12 +145,13 @@ true
 let
 waitForInstall
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 aBrowser
-null
+[
+]
 async
 function
 (

@@ -534,14 +534,16 @@ gBrowser
 let
 promise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 ids
+]
 task
 )
 ;

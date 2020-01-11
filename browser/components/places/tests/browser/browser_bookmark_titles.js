@@ -379,12 +379,13 @@ await
 promiseLoaded
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

@@ -26,12 +26,14 @@ uri
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 newBrowser
+[
 uri
+]
 async
 function
 (

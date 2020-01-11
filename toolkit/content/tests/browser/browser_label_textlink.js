@@ -43,12 +43,14 @@ com
 "
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 newTabURL
+]
 async
 function
 (

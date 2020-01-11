@@ -24,12 +24,13 @@ selectedBrowser
 let
 selectClosedPromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 function
 (

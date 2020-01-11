@@ -134,7 +134,7 @@ expected
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -143,9 +143,11 @@ ui
 getViewportBrowser
 (
 )
+[
 {
 expected
 }
+]
 async
 function
 (
@@ -270,7 +272,7 @@ expected
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -279,9 +281,11 @@ ui
 getViewportBrowser
 (
 )
+[
 {
 expected
 }
+]
 async
 function
 (

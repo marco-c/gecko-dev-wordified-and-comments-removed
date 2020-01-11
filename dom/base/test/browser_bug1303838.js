@@ -995,14 +995,16 @@ promises
 .
 push
 (
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
 [
+[
 isFrame
 linkId
+]
 ]
 (
 [

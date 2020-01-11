@@ -105,12 +105,13 @@ click
 )
 {
 return
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 (
 )
 =

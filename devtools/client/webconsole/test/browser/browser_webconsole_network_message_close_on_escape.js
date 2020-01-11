@@ -131,14 +131,15 @@ hud
 xhrUrl
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 function
 (
 )

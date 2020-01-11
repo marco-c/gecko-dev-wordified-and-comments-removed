@@ -128,14 +128,16 @@ monitor
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 HTML_LONG_URL
+]
 async
 function
 (

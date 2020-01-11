@@ -3301,14 +3301,15 @@ empty
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
-null
+[
+]
 function
 (
 )
