@@ -2843,7 +2843,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 BlobURLProtocolHandler
 :
 :
@@ -2877,9 +2877,6 @@ aURI
 aBlobImpl
 aPrincipal
 )
-;
-return
-NS_OK
 ;
 }
 bool

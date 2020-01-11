@@ -28116,10 +28116,6 @@ this
 )
 ;
 }
-if
-(
-NS_SUCCEEDED
-(
 BlobURLProtocolHandler
 :
 :
@@ -28129,9 +28125,7 @@ aURI
 aPrincipal
 blobImpl
 )
-)
-)
-{
+;
 BroadcastBlobURLRegistration
 (
 aURI
@@ -28145,15 +28139,6 @@ mBlobURLs
 AppendElement
 (
 aURI
-)
-;
-}
-BroadcastBlobURLRegistration
-(
-aURI
-blobImpl
-aPrincipal
-this
 )
 ;
 return
