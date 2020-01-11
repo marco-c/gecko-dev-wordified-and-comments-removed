@@ -996,15 +996,6 @@ path
 manifest
 =
 test
-.
-get
-(
-'
-ancestor_manifest
-'
-)
-or
-test
 [
 '
 manifest_relpath

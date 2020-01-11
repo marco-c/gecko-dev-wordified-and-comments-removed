@@ -4081,27 +4081,15 @@ metadata
 get
 (
 '
-ancestor_manifest
+ancestor
+-
+manifest
 '
 )
                 
 if
 ancestor_manifest
 :
-                    
-ancestor_manifest
-=
-os
-.
-path
-.
-join
-(
-self
-.
-topsrcdir
-ancestor_manifest
-)
                     
 defaults_manifests
 [

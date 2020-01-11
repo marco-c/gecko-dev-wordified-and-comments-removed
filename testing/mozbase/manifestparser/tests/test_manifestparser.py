@@ -565,18 +565,14 @@ all
 t
 [
 '
-ancestor_manifest
+ancestor
+-
+manifest
 '
 ]
 =
 =
-'
-include
--
-example
-.
-ini
-'
+include_example
                              
 for
 t
@@ -1884,7 +1880,9 @@ self
 assertFalse
 (
 '
-ancestor_manifest
+ancestor
+-
+manifest
 '
 in
 isolated_test
@@ -1897,9 +1895,19 @@ assertEqual
 included_test
 [
 '
-ancestor_manifest
+ancestor
+-
+manifest
 '
 ]
+                         
+os
+.
+path
+.
+join
+(
+here
 '
 include
 -
@@ -1907,6 +1915,7 @@ example
 .
 ini
 '
+)
 )
         
 self
