@@ -37,6 +37,12 @@ toolkit
 -
 js
 -
+mobile
+/
+android
+/
+geckoview
+-
 dom
 /
 bindings

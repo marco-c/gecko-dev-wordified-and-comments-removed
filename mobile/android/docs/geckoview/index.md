@@ -6,7 +6,7 @@ layout
 default
 title
 :
-Home
+Geckoview
 nav_order
 :
 1
@@ -43,10 +43,6 @@ central
 -
 -
 -
-#
-Welcome
-to
-GeckoView
 Android
 offers
 a
