@@ -181,6 +181,15 @@ path
 samefile
 '
 )
+and
+os
+.
+name
+!
+=
+'
+nt
+'
 :
         
 return

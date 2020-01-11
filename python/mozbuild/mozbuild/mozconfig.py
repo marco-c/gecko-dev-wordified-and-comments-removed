@@ -11,6 +11,8 @@ os
 import
 re
 import
+six
+import
 sys
 import
 subprocess
@@ -31,7 +33,6 @@ mozbuild
 .
 util
 import
-system_encoding
 ensure_subprocess_env
 MOZ_MYCONFIG_ERROR
 =
@@ -392,9 +393,21 @@ n
 .
 join
 (
+                
+[
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 self
 .
 output
+]
 )
 )
         
@@ -1700,23 +1713,27 @@ try
             
 output
 =
+six
+.
+ensure_text
+(
 subprocess
 .
 check_output
 (
+                
 command
 stderr
 =
 subprocess
 .
 STDOUT
-                                             
 cwd
 =
 self
 .
 topsrcdir
-                                             
+                
 env
 =
 ensure_subprocess_env
@@ -1724,6 +1741,10 @@ ensure_subprocess_env
 os
 .
 environ
+)
+universal_newlines
+=
+True
 )
 )
         
@@ -2424,18 +2445,6 @@ splitlines
 (
 )
 :
-            
-line
-=
-line
-.
-decode
-(
-system_encoding
-'
-ignore
-'
-)
             
 if
 not
