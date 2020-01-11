@@ -65,7 +65,7 @@ txt
         
 output
 =
-file
+open
 (
 example
 )
