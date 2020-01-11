@@ -179,6 +179,7 @@ return
 rawBytecode_
 ;
 }
+JS_PUBLIC_API
 bool
 isValid
 (
