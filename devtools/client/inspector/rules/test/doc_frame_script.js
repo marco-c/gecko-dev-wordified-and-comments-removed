@@ -330,8 +330,6 @@ resolve
 }
 else
 {
-content
-.
 setTimeout
 (
 (

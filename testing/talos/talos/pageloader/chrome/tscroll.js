@@ -427,8 +427,6 @@ function
 resolve
 )
 {
-content
-.
 setTimeout
 (
 resolve
@@ -1156,8 +1154,6 @@ rv
 }
 )
 ;
-content
-.
 setTimeout
 (
 function

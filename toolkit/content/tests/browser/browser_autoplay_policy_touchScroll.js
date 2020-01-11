@@ -183,8 +183,6 @@ resolve
 }
 )
 ;
-content
-.
 setTimeout
 (
 (
