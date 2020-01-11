@@ -455,6 +455,8 @@ JSWindowActorMessageMeta
 aMetadata
 ClonedMessageData
 aData
+ClonedMessageData
+aStack
 )
 ;
 parent

@@ -293,6 +293,13 @@ StructuredCloneData
 &
 &
 aData
+ipc
+:
+:
+StructuredCloneData
+&
+&
+aStack
 )
 ;
 already_AddRefed
@@ -417,6 +424,10 @@ const
 ClonedMessageData
 &
 aData
+const
+ClonedMessageData
+&
+aStack
 )
 ;
 mozilla
