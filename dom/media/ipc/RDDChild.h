@@ -138,8 +138,6 @@ RDDChild
 bool
 Init
 (
-bool
-aStartMacSandbox
 )
 ;
 void

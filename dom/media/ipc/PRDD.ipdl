@@ -252,8 +252,6 @@ vars
 FileDescriptor
 ?
 sandboxBroker
-bool
-startMacSandbox
 )
 ;
 async

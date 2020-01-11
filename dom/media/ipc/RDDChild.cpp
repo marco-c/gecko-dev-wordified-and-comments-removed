@@ -178,8 +178,6 @@ RDDChild
 :
 Init
 (
-bool
-aStartMacSandbox
 )
 {
 Maybe
@@ -302,7 +300,6 @@ SendInit
 (
 updates
 brokerFd
-aStartMacSandbox
 )
 ;
 #
