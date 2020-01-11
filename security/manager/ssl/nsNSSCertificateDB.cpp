@@ -3366,9 +3366,11 @@ srv
 =
 SECSuccess
 )
+{
 return
-NS_ERROR_FAILURE
+NS_OK
 ;
+}
 nsNSSCertTrust
 trust
 (
