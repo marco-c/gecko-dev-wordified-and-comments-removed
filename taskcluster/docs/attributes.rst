@@ -1535,6 +1535,17 @@ included
 in
 the
 target_task_graph
+if
+parameters
+[
+"
+tasks_for
+"
+]
+is
+hg
+-
+push
 regardless
 of
 any

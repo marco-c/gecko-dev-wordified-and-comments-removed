@@ -2014,6 +2014,22 @@ image
 '
 )
         
+if
+parameters
+[
+"
+tasks_for
+"
+]
+=
+=
+"
+hg
+-
+push
+"
+:
+            
 always_target_tasks
 =
 set
@@ -2031,7 +2047,7 @@ tasks
 itervalues
 (
 )
-                                  
+                                      
 if
 t
 .
@@ -2043,6 +2059,15 @@ get
 always_target
 '
 )
+)
+        
+else
+:
+            
+always_target_tasks
+=
+set
+(
 )
         
 logger
