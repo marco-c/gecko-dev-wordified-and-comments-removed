@@ -2497,8 +2497,10 @@ left
 absFitsInUint64
 (
 )
-&
-&
+)
+{
+MOZ_ASSERT
+(
 right
 -
 >
@@ -2506,7 +2508,7 @@ absFitsInUint64
 (
 )
 )
-{
+;
 uint64_t
 lhs
 =
@@ -2973,8 +2975,10 @@ x
 absFitsInUint64
 (
 )
-&
-&
+)
+{
+MOZ_ASSERT
+(
 y
 -
 >
@@ -2982,7 +2986,7 @@ absFitsInUint64
 (
 )
 )
-{
+;
 uint64_t
 lhs
 =
