@@ -1792,12 +1792,6 @@ dirent
 )
 )
 }
-#
-if
-defined
-(
-XP_UNIX
-)
 {
 "
 OSFILE_SIZEOF_FLOCK
@@ -1899,8 +1893,6 @@ l_whence
 )
 )
 }
-#
-endif
 {
 "
 OSFILE_OFFSETOF_DIRENT_D_NAME
