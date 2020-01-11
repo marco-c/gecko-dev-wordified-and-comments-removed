@@ -7431,7 +7431,7 @@ autoStateRestore
 mTransaction
 -
 >
-TemporarilyProceedToInactive
+TemporarilyTransitionToInactive
 (
 )
 ;
