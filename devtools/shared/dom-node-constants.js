@@ -3,15 +3,6 @@ use
 strict
 "
 ;
-define
-(
-function
-(
-require
-exports
-module
-)
-{
 module
 .
 exports
@@ -72,7 +63,4 @@ DOCUMENT_POSITION_IMPLEMENTATION_SPECIFIC
 :
 0x20
 }
-;
-}
-)
 ;

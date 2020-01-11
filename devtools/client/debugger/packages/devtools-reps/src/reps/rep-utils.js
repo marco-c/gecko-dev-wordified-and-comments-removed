@@ -179,6 +179,14 @@ dom
 require
 (
 "
+devtools
+/
+client
+/
+shared
+/
+vendor
+/
 react
 -
 dom
