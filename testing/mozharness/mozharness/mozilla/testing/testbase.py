@@ -2326,16 +2326,6 @@ mochitest
 '
             
 '
-mochitest
--
-webgpu
-'
-:
-'
-mochitest
-'
-            
-'
 geckoview
 '
 :

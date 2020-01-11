@@ -1814,19 +1814,6 @@ deqp
 )
     
 '
-mochitest
--
-webgpu
-'
-:
-WebglSuite
-(
-'
-webgpu
-'
-)
-    
-'
 puppeteer
 '
 :
