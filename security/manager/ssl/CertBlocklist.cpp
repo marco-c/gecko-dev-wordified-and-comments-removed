@@ -78,6 +78,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsDependentString
 .
 h
