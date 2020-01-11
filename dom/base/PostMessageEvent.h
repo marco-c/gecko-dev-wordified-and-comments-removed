@@ -317,6 +317,14 @@ aMessageData
 )
 ;
 }
+void
+DispatchToTargetThread
+(
+ErrorResult
+&
+aError
+)
+;
 private
 :
 PostMessageEvent
