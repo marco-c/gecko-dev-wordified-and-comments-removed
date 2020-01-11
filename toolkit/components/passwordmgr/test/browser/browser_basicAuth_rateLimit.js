@@ -12,7 +12,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 ;
 function

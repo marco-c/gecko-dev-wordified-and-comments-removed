@@ -326,7 +326,7 @@ content
 /
 appPicker
 .
-xul
+xhtml
 "
 )
 ;

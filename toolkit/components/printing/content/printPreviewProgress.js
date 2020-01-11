@@ -438,7 +438,7 @@ argument
 to
 printPreviewProgress
 .
-xul
+xhtml
 \
 n
 "

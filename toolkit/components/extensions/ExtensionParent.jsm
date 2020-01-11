@@ -5948,7 +5948,7 @@ content
 /
 dummy
 .
-xul
+xhtml
 "
 loadURIOptions
 )

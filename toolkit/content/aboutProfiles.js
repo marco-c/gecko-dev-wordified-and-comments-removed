@@ -1174,7 +1174,7 @@ profile
 /
 createProfileWizard
 .
-xul
+xhtml
 "
 "
 "

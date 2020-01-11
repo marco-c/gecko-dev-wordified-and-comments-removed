@@ -1435,7 +1435,7 @@ content
 /
 commonDialog
 .
-xul
+xhtml
 "
 &
 &
@@ -1457,7 +1457,7 @@ content
 /
 selectDialog
 .
-xul
+xhtml
 "
 )
 {
