@@ -445,9 +445,7 @@ anotherQueue
 =
 anotherDevice
 .
-getQueue
-(
-)
+defaultQueue
 ;
 t
 .
@@ -531,9 +529,7 @@ anotherQueue
 =
 anotherDevice
 .
-getQueue
-(
-)
+defaultQueue
 ;
 t
 .

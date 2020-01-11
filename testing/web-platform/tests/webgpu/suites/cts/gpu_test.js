@@ -199,9 +199,7 @@ this
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 ;
 const
 isSafari

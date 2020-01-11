@@ -203,9 +203,7 @@ this
 .
 device
 .
-getQueue
-(
-)
+defaultQueue
 .
 submit
 (
