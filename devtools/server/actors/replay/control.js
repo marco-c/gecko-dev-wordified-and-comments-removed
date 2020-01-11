@@ -334,7 +334,7 @@ manifest
 kind
 :
 "
-initial
+primordial
 "
 }
 onFinished
@@ -342,6 +342,7 @@ onFinished
 (
 {
 point
+maxRunningProcesses
 }
 )
 =
@@ -376,6 +377,16 @@ maybeResumeRecording
 :
 setMainChild
 )
+;
+}
+if
+(
+maxRunningProcesses
+)
+{
+gMaxRunningLeafChildren
+=
+maxRunningProcesses
 ;
 }
 }
@@ -1672,8 +1683,8 @@ return
 child
 ;
 }
-const
-MaxRunningLeafChildren
+let
+gMaxRunningLeafChildren
 =
 4
 ;
@@ -1710,7 +1721,7 @@ if
 (
 gNumRunningLeafChildren
 <
-MaxRunningLeafChildren
+gMaxRunningLeafChildren
 )
 {
 gNumRunningLeafChildren
@@ -1776,7 +1787,7 @@ if
 (
 gNumRunningLeafChildren
 <
-MaxRunningLeafChildren
+gMaxRunningLeafChildren
 )
 {
 for
@@ -2223,7 +2234,7 @@ kind
 !
 =
 "
-initial
+primordial
 "
 &
 &
@@ -2265,7 +2276,7 @@ kind
 !
 =
 "
-initial
+primordial
 "
 &
 &
