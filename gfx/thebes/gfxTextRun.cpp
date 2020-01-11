@@ -9798,6 +9798,15 @@ mGeneric
 ;
 }
 }
+mFontListGeneration
+=
+pfl
+-
+>
+GetGeneration
+(
+)
+;
 }
 void
 gfxFontGroup

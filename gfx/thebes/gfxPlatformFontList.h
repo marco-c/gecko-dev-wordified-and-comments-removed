@@ -1512,6 +1512,12 @@ aCh
 )
 ;
 }
+uint32_t
+GetGeneration
+(
+)
+const
+;
 protected
 :
 friend
