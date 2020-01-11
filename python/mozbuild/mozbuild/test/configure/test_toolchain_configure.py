@@ -3118,6 +3118,15 @@ CompilerResult
 flags
 =
 [
+'
+-
+std
+=
+gnu
++
++
+17
+'
 ]
         
 version
@@ -3222,6 +3231,15 @@ CompilerResult
 flags
 =
 [
+'
+-
+std
+=
+gnu
++
++
+17
+'
 ]
         
 version
@@ -3443,7 +3461,7 @@ std
 gnu
 +
 +
-14
+17
 '
 ]
         
@@ -6132,7 +6150,7 @@ std
 gnu
 +
 +
-14
+17
 '
 ]
         
@@ -7106,7 +7124,7 @@ std
 c
 +
 +
-14
+17
 '
 ]
         
