@@ -316,8 +316,10 @@ indexedDB
 BackgroundDatabaseChild
 *
 aActor
+UniquePtr
+<
 DatabaseSpec
-*
+>
 aSpec
 )
 ;
@@ -825,8 +827,10 @@ indexedDB
 BackgroundDatabaseChild
 *
 aActor
+UniquePtr
+<
 DatabaseSpec
-*
+>
 aSpec
 )
 ;
