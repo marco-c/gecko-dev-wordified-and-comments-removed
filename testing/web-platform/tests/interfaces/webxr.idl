@@ -914,6 +914,9 @@ interface
 mixin
 WebGLRenderingContextBase
 {
+[
+NewObject
+]
 Promise
 <
 void
