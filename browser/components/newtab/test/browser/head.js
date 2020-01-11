@@ -278,13 +278,12 @@ let
 readyState
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 (
 )
 =

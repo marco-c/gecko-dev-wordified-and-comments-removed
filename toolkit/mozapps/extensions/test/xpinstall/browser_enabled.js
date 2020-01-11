@@ -19,14 +19,13 @@ gBrowser
 TESTROOT
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 TESTROOT
 +
 "
@@ -34,7 +33,6 @@ enabled
 .
 html
 "
-]
 function
 (
 url
@@ -85,10 +83,6 @@ load_listener
 (
 )
 {
-docShell
-.
-chromeEventHandler
-.
 removeEventListener
 (
 "
@@ -109,10 +103,6 @@ page_loaded
 )
 ;
 }
-docShell
-.
-chromeEventHandler
-.
 addEventListener
 (
 "
