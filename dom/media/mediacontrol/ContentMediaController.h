@@ -221,6 +221,15 @@ Close
 )
 override
 ;
+already_AddRefed
+<
+BrowsingContext
+>
+GetTopLevelBrowsingContext
+(
+)
+const
+;
 uint64_t
 mTopLevelBrowsingContextId
 ;
