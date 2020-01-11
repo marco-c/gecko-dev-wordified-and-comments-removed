@@ -63,7 +63,7 @@ Services
 .
 cookiemgr
 .
-sessionCookies
+sessionEnumerator
 ;
 do_close_profile
 (

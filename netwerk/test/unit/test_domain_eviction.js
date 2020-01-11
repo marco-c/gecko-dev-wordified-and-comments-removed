@@ -300,7 +300,7 @@ Services
 .
 cookiemgr
 .
-cookies
+enumerator
 )
 {
 if
@@ -590,7 +590,7 @@ Services
 .
 cookiemgr
 .
-cookies
+enumerator
 )
 {
 if
@@ -818,7 +818,7 @@ not
 found
 in
 master
-cookies
+enumerator
 "
 )
 ;

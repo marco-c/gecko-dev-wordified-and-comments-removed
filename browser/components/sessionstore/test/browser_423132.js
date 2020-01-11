@@ -127,7 +127,7 @@ Services
 .
 cookies
 .
-cookies
+enumerator
 )
 {
 i
@@ -171,7 +171,7 @@ Services
 .
 cookies
 .
-cookies
+enumerator
 )
 {
 if

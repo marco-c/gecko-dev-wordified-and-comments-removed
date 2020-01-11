@@ -185,13 +185,13 @@ cookies
 )
 ;
 let
-cookies
+enumerator
 =
 Services
 .
 cookies
 .
-cookies
+enumerator
 ;
 let
 cookieCount
@@ -203,7 +203,7 @@ for
 let
 cookie
 of
-cookies
+enumerator
 )
 {
 info
