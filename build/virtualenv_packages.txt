@@ -916,7 +916,7 @@ pth
 :
 tools
 /
-docs
+moztreedocs
 mozilla
 .
 pth
