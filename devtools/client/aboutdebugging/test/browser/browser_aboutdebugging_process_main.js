@@ -25,8 +25,8 @@ const
 MAIN_PROCESS_NAME
 =
 "
-Main
-Process
+Multiprocess
+Toolbox
 "
 ;
 const
@@ -214,6 +214,9 @@ includes
 "
 Main
 Process
+and
+Content
+Processes
 for
 the
 target
