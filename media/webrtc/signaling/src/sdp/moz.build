@@ -252,6 +252,11 @@ SdpHelper
 cpp
 '
 '
+SdpLog
+.
+cpp
+'
+'
 SdpMediaSection
 .
 cpp
