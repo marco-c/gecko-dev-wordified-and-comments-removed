@@ -390,7 +390,7 @@ join
 ;
 ctx
 .
-strokeStyle
+fillStyle
 =
 (
 actual
@@ -410,13 +410,7 @@ red
 ;
 ctx
 .
-lineWidth
-=
-4
-;
-ctx
-.
-strokeRect
+fillRect
 (
 0
 0

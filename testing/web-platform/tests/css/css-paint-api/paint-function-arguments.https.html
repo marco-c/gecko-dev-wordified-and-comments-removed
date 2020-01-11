@@ -99,7 +99,7 @@ rgb
 100
 150
 )
-5px
+50px
 )
 ;
 }
@@ -123,7 +123,7 @@ rgb
 100
 50
 )
-10px
+100px
 )
 ;
 }
@@ -309,7 +309,7 @@ args
 {
 ctx
 .
-strokeStyle
+fillStyle
 =
 args
 [
@@ -320,9 +320,8 @@ toString
 (
 )
 ;
-ctx
-.
-lineWidth
+let
+size
 =
 args
 [
@@ -335,12 +334,12 @@ toString
 ;
 ctx
 .
-strokeRect
+fillRect
 (
 40
 40
-120
-120
+size
+size
 )
 ;
 }
