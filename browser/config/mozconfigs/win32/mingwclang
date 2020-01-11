@@ -413,12 +413,6 @@ fxc2
 /
 bin
 :
-MOZ_FETCHES_DIR
-/
-binutils
-/
-bin
-:
 PATH
 "
 LD_LIBRARY_PATH
