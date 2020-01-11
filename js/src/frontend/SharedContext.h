@@ -1958,7 +1958,7 @@ enclosingScope_
 return
 enclosingScope_
 .
-maybeScope
+scope
 (
 )
 ;

@@ -100,9 +100,6 @@ js
 namespace
 frontend
 {
-class
-ParserBase
-;
 struct
 MOZ_RAII
 ParseInfo
@@ -138,6 +135,15 @@ Vector
 BigIntCreationData
 >
 bigIntData
+;
+JS
+:
+:
+RootedVector
+<
+ScopeCreationData
+>
+scopeCreationData
 ;
 ParseInfo
 (
@@ -200,6 +206,10 @@ regExpData
 cx
 )
 bigIntData
+(
+cx
+)
+scopeCreationData
 (
 cx
 )

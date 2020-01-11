@@ -1578,7 +1578,7 @@ setEnclosingScope
 (
 enclosingScope_
 .
-maybeScope
+getExistingScope
 (
 )
 )

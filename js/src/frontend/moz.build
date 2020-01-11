@@ -330,6 +330,11 @@ SharedContext
 cpp
 '
 '
+Stencil
+.
+cpp
+'
+'
 SwitchEmitter
 .
 cpp
