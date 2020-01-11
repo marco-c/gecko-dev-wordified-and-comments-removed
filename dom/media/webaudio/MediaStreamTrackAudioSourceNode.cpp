@@ -381,6 +381,10 @@ Ended
 return
 ;
 }
+MarkActive
+(
+)
+;
 MediaTrackGraph
 *
 graph
