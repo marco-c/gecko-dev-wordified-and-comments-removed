@@ -666,6 +666,11 @@ nsIRunnable
 >
 event
 ;
+bool
+eventIsIdleRunnable
+=
+false
+;
 for
 (
 ;
@@ -691,6 +696,8 @@ GetEvent
 aPriority
 lock
 aLastEventDelay
+&
+eventIsIdleRunnable
 )
 ;
 }
@@ -712,6 +719,14 @@ GetEvent
 aPriority
 lock
 aLastEventDelay
+&
+eventIsIdleRunnable
+)
+;
+MOZ_ASSERT
+(
+!
+eventIsIdleRunnable
 )
 ;
 }
