@@ -10405,15 +10405,6 @@ Element
 aElement
 )
 ;
-nsINodeList
-*
-GetAnonymousNodes
-(
-Element
-&
-aElement
-)
-;
 XPathExpression
 *
 CreateExpression
