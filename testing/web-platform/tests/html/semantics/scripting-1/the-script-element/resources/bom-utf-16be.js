@@ -30,6 +30,13 @@ B
 O
 M
 .
+w
+i
+n
+d
+o
+w
+.
 e
 x
 e
