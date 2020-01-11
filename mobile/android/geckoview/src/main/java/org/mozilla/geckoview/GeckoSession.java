@@ -6915,12 +6915,6 @@ Listener
 this
 )
 ;
-mWebExtensionListener
-.
-registerListeners
-(
-)
-;
 if
 (
 BuildConfig
