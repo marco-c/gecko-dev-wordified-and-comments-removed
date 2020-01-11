@@ -156,6 +156,15 @@ var
 TelemetryUtils
 =
 {
+TELEMETRY_UPLOAD_DISABLED_TOPIC
+:
+"
+telemetry
+.
+upload
+.
+disabled
+"
 Preferences
 :
 Object
