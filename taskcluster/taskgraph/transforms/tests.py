@@ -8700,6 +8700,9 @@ platform
 -
 tests
 '
+'
+awsy
+'
 )
 or
                 
@@ -8999,6 +9002,34 @@ try
 trunk
 '
 ]
+        
+elif
+test
+[
+'
+attributes
+'
+]
+[
+'
+unittest_category
+'
+]
+=
+=
+'
+awsy
+'
+:
+            
+test
+[
+'
+tier
+'
+]
+=
+3
         
 yield
 test
