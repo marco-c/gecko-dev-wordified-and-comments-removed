@@ -1906,6 +1906,9 @@ sync_and_validate_telem
 fnValidate
 =
 null
+wantFullPing
+=
+false
 )
 {
 let
@@ -1950,6 +1953,19 @@ if
 fnValidate
 )
 {
+if
+(
+wantFullPing
+)
+{
+fnValidate
+(
+record
+)
+;
+}
+else
+{
 Assert
 .
 equal
@@ -1972,6 +1988,7 @@ syncs
 ]
 )
 ;
+}
 }
 else
 {
