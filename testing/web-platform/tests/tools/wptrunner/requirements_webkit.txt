@@ -4,11 +4,3 @@ mozprocess
 0
 .
 26
-selenium
-=
-=
-3
-.
-9
-.
-0
