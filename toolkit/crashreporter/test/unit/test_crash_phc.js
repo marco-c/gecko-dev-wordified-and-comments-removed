@@ -97,9 +97,6 @@ PHCFreeStack
 )
 ;
 }
-add_task
-(
-async
 function
 run_test
 (
@@ -156,7 +153,6 @@ n
 return
 ;
 }
-await
 do_crash
 (
 function
@@ -186,7 +182,6 @@ extra
 true
 )
 ;
-await
 do_crash
 (
 function
@@ -217,5 +212,3 @@ true
 )
 ;
 }
-)
-;

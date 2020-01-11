@@ -12,9 +12,6 @@ js
 "
 )
 ;
-add_task
-(
-async
 function
 run_test
 (
@@ -129,7 +126,6 @@ is_win7_or_newer
 true
 ;
 }
-await
 do_content_crash
 (
 null
@@ -188,5 +184,3 @@ MD_MEMORY_INFO_LIST_STREAM
 )
 ;
 }
-)
-;

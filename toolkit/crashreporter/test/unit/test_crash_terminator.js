@@ -210,15 +210,11 @@ change
 )
 ;
 }
-add_task
-(
-async
 function
 run_test
 (
 )
 {
-await
 do_crash
 (
 setup_crash
@@ -226,5 +222,3 @@ after_crash
 )
 ;
 }
-)
-;
