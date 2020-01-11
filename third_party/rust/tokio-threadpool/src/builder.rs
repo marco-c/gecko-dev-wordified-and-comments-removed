@@ -146,6 +146,7 @@ new_park
 :
 Box
 <
+dyn
 Fn
 (
 &
@@ -411,6 +412,7 @@ Fn
 (
 Box
 <
+dyn
 Any
 +
 Send

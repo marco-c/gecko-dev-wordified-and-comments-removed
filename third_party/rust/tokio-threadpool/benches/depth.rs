@@ -6,14 +6,6 @@ feature
 test
 )
 ]
-#
-!
-[
-deny
-(
-warnings
-)
-]
 extern
 crate
 futures

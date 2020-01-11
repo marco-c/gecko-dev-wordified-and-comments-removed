@@ -124,7 +124,7 @@ version
 .
 1
 .
-7
+9
 "
 authors
 =
@@ -185,7 +185,7 @@ executor
 .
 1
 .
-7
+9
 /
 tokio_executor
 "
@@ -275,5 +275,5 @@ version
 .
 1
 .
-17
+18
 "

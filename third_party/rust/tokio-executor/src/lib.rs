@@ -5,7 +5,6 @@ deny
 (
 missing_docs
 missing_debug_implementations
-warnings
 )
 ]
 #
@@ -32,7 +31,7 @@ executor
 .
 1
 .
-7
+9
 "
 )
 ]
@@ -70,6 +69,7 @@ enter
 :
 {
 enter
+exit
 Enter
 EnterError
 }
@@ -94,9 +94,11 @@ global
 :
 :
 {
+set_default
 spawn
 with_default
 DefaultExecutor
+DefaultGuard
 }
 ;
 pub

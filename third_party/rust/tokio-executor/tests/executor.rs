@@ -57,6 +57,7 @@ Fn
 (
 Box
 <
+dyn
 Future
 <
 Item

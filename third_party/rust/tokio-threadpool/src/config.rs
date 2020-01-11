@@ -86,6 +86,7 @@ Option
 <
 Arc
 <
+dyn
 Fn
 (
 )
@@ -102,6 +103,7 @@ Option
 <
 Arc
 <
+dyn
 Fn
 (
 )
@@ -118,10 +120,12 @@ Option
 <
 Arc
 <
+dyn
 Fn
 (
 Box
 <
+dyn
 Any
 +
 Send

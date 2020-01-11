@@ -266,6 +266,7 @@ Custom
 (
 Box
 <
+dyn
 StdError
 +
 Send
@@ -347,6 +348,7 @@ self
 >
 Box
 <
+dyn
 StdError
 >
 {
@@ -759,6 +761,7 @@ self
 Option
 <
 &
+dyn
 StdError
 >
 {
