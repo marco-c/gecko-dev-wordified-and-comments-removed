@@ -18110,6 +18110,14 @@ hugeMemory
 =
 false
 ;
+bool
+bigIntConfigured
+=
+HasI64BigIntSupport
+(
+cx
+)
+;
 CompilerEnvironment
 compilerEnv
 (
@@ -18132,6 +18140,7 @@ False
 refTypesConfigured
 gcTypesConfigured
 hugeMemory
+bigIntConfigured
 )
 ;
 ModuleEnvironment

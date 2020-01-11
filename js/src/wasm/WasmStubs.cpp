@@ -4386,6 +4386,8 @@ ImmPtr
 >
 &
 funcPtr
+bool
+bigIntEnabled
 Offsets
 *
 offsets
@@ -4527,6 +4529,10 @@ funcType
 hasI64ArgOrRet
 (
 )
+&
+&
+!
+bigIntEnabled
 )
 {
 CallSymbolicAddress
@@ -13864,6 +13870,8 @@ ImmPtr
 callee
 bool
 isAsmJS
+bool
+bigIntEnabled
 CodeRangeVector
 *
 codeRanges
@@ -13966,6 +13974,7 @@ masm
 funcExportIndex
 fe
 callee
+bigIntEnabled
 &
 offsets
 )
@@ -14283,6 +14292,11 @@ noAbsolute
 env
 .
 isAsmJS
+(
+)
+env
+.
+bigIntEnabled
 (
 )
 &

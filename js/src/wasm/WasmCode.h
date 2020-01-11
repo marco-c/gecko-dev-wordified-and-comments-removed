@@ -1355,6 +1355,9 @@ debugFuncReturnTypes
 ModuleHash
 debugHash
 ;
+bool
+bigIntEnabled
+;
 explicit
 Metadata
 (

@@ -108,6 +108,9 @@ gcEnabled
 bool
 hugeMemory
 ;
+bool
+bigIntEnabled
+;
 static
 SharedCompileArgs
 build
@@ -169,6 +172,10 @@ gcEnabled
 false
 )
 hugeMemory
+(
+false
+)
+bigIntEnabled
 (
 false
 )
