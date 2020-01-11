@@ -1,7 +1,3 @@
-extern
-crate
-scroll
-;
 use
 scroll
 :
@@ -66,11 +62,6 @@ scroll
 :
 Error
 ;
-type
-Size
-=
-usize
-;
 fn
 try_from_ctx
 (
@@ -92,10 +83,7 @@ Result
 <
 (
 Self
-Self
-:
-:
-Size
+usize
 )
 Self
 :

@@ -489,7 +489,7 @@ name
 Some
 (
 "
-_func1
+func1
 "
 )
 )

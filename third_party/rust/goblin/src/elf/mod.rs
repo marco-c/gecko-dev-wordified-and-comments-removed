@@ -1522,8 +1522,6 @@ usize
 ;
 interpreter
 =
-Some
-(
 bytes
 .
 pread_with
@@ -1551,7 +1549,9 @@ Length
 count
 )
 )
-?
+.
+ok
+(
 )
 ;
 }
@@ -2361,11 +2361,6 @@ error
 :
 Error
 ;
-type
-Size
-=
-usize
-;
 fn
 try_from_ctx
 (
@@ -2397,10 +2392,7 @@ Elf
 '
 a
 >
-Self
-:
-:
-Size
+usize
 )
 Self
 :

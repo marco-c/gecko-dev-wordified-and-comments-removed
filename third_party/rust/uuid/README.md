@@ -136,7 +136,7 @@ rustc
 -
 1
 .
-22
+31
 .
 0
 +
@@ -742,7 +742,7 @@ uuid
 "
 0
 .
-7
+8
 "
 To
 activate
@@ -764,7 +764,7 @@ version
 "
 0
 .
-7
+8
 "
 features
 =
@@ -796,7 +796,7 @@ version
 "
 0
 .
-7
+8
 "
 default
 -
@@ -884,7 +884,6 @@ in
 hexadecimal
 form
 :
-ignore
 rust
 /
 /
@@ -1063,9 +1062,9 @@ uuid
 /
 0
 .
-7
+8
 .
-4
+1
 /
 uuid
 /

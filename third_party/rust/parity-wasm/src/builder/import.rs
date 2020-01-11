@@ -1,8 +1,5 @@
 use
-crate
-:
-:
-rust
+alloc
 :
 :
 {

@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 prelude
 :
 :
@@ -95,6 +98,9 @@ mod
 tests
 {
 use
+crate
+:
+:
 prelude
 :
 :

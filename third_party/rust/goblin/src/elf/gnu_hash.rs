@@ -90,7 +90,7 @@ hash
 "
 "
 )
-0x00001505
+0x0000_1505
 )
 ;
 assert_eq
@@ -102,7 +102,7 @@ hash
 printf
 "
 )
-0x156b2bb8
+0x156b_2bb8
 )
 ;
 assert_eq
@@ -114,7 +114,7 @@ hash
 exit
 "
 )
-0x7c967e3f
+0x7c96_7e3f
 )
 ;
 assert_eq
@@ -126,7 +126,7 @@ hash
 syscall
 "
 )
-0xbac212a0
+0xbac2_12a0
 )
 ;
 assert_eq
@@ -140,7 +140,7 @@ flapenguin
 me
 "
 )
-0x8ae9f18e
+0x8ae9_f18e
 )
 ;
 }

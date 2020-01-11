@@ -882,6 +882,19 @@ file_alignment
 )
 ;
 }
+if
+header
+.
+coff_header
+.
+machine
+=
+=
+header
+:
+:
+COFF_MACHINE_X86_64
+{
 debug
 !
 (
@@ -935,6 +948,7 @@ file_alignment
 ?
 )
 ;
+}
 }
 }
 Ok

@@ -10,10 +10,6 @@ extern
 crate
 test
 ;
-extern
-crate
-uuid
-;
 use
 std
 :
@@ -33,10 +29,7 @@ use
 uuid
 :
 :
-prelude
-:
-:
-*
+Uuid
 ;
 #
 [

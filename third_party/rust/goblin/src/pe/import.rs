@@ -162,9 +162,6 @@ scroll
 :
 :
 Error
-Size
-=
-usize
 >
 {
 fn
@@ -1661,7 +1658,6 @@ import_directory_table_rva
 )
 )
 ?
-;
 ;
 debug
 !

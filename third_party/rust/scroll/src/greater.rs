@@ -12,6 +12,9 @@ RangeFrom
 }
 ;
 use
+crate
+:
+:
 ctx
 :
 :
@@ -54,8 +57,6 @@ inline
 fn
 cread_with
 <
-'
-a
 N
 :
 FromCtx
@@ -79,8 +80,6 @@ Output
 >
 (
 &
-'
-a
 self
 offset
 :
@@ -115,8 +114,6 @@ inline
 fn
 cread
 <
-'
-a
 N
 :
 FromCtx
@@ -140,8 +137,6 @@ Output
 >
 (
 &
-'
-a
 self
 offset
 :

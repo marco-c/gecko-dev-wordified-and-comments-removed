@@ -1009,11 +1009,6 @@ error
 :
 Error
 ;
-type
-Size
-=
-usize
-;
 fn
 try_from_ctx
 (
@@ -1038,10 +1033,7 @@ Result
 <
 (
 Self
-Self
-:
-:
-Size
+usize
 )
 >
 {
