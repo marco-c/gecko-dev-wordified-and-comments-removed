@@ -798,11 +798,8 @@ pid
 u
 .
 "
-XRE_GeckoProcessTypeToString
+XRE_GetProcessTypeString
 (
-XRE_GetProcessType
-(
-)
 )
 getpid
 (
@@ -1199,11 +1196,8 @@ pid
 d
 .
 "
-XRE_GeckoProcessTypeToString
+XRE_GetProcessTypeString
 (
-XRE_GetProcessType
-(
-)
 )
 getpid
 (

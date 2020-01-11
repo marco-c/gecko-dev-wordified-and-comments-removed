@@ -2826,11 +2826,8 @@ n
 \
 n
 "
-XRE_GeckoProcessTypeToString
+XRE_GetProcessTypeString
 (
-XRE_GetProcessType
-(
-)
 )
 base
 :
@@ -2918,11 +2915,8 @@ n
 \
 n
 "
-XRE_GeckoProcessTypeToString
+XRE_GetProcessTypeString
 (
-XRE_GetProcessType
-(
-)
 )
 base
 :

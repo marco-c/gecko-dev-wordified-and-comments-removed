@@ -496,11 +496,8 @@ continue
 }
 NoteIntentionalCrash
 (
-XRE_GeckoProcessTypeToString
+XRE_GetProcessTypeString
 (
-XRE_GetProcessType
-(
-)
 )
 )
 ;
