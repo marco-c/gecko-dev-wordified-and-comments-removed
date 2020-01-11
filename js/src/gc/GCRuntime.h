@@ -4429,12 +4429,6 @@ verifyPreData
 ;
 private
 :
-UnprotectedData
-<
-bool
->
-chunkAllocationSinceLastGC
-;
 MainThreadData
 <
 mozilla
