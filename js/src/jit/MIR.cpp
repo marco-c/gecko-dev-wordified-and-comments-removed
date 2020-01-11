@@ -10370,11 +10370,6 @@ MBasicBlock
 target
 )
 {
-MOZ_ASSERT
-(
-target
-)
-;
 return
 new
 (
