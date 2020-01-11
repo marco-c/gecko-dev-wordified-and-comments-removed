@@ -5407,6 +5407,16 @@ funcIndex
 ]
 )
 ;
+if
+(
+IsWasmExportedFunction
+(
+import
+.
+fun
+)
+)
+{
 return
 FuncRef
 :
@@ -5422,6 +5432,7 @@ forCompiledCode
 (
 )
 ;
+}
 }
 RootedFunction
 fun
