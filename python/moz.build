@@ -508,17 +508,6 @@ python
 ini
 '
 '
-mozbuild
-/
-mozpack
-/
-test
-/
-python2
-.
-ini
-'
-'
 mozlint
 /
 test
