@@ -70,7 +70,7 @@ etc
 "
 "
     
-fields
+default_fields
 =
 [
         
@@ -102,6 +102,48 @@ in
 tasks
 :
         
+fields
+=
+default_fields
+[
+:
+]
+        
+if
+task
+[
+"
+worker
+"
+]
+.
+get
+(
+"
+l10n
+-
+bump
+-
+info
+"
+)
+:
+            
+fields
+.
+append
+(
+'
+worker
+.
+l10n
+-
+bump
+-
+info
+'
+)
+        
 for
 field
 in
@@ -121,16 +163,11 @@ name
 '
 ]
                              
-project
-=
+*
+*
 config
 .
 params
-[
-'
-project
-'
-]
 )
         
 yield
