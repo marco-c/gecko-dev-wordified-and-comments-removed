@@ -560,6 +560,11 @@ aName
 )
 ;
 bool
+UseSocketProcess
+(
+)
+;
+bool
 IsSocketProcessLaunchComplete
 (
 )
