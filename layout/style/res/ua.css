@@ -281,6 +281,12 @@ outline
 :
 inherit
 ;
+outline
+-
+offset
+:
+inherit
+;
 column
 -
 span
