@@ -590,7 +590,7 @@ Files
 "
 test_input_events_on_deactive_window
 .
-xul
+xhtml
 "
 )
 :
@@ -852,7 +852,7 @@ Files
 "
 test_sizemode_events
 .
-xul
+xhtml
 "
 )
 :
