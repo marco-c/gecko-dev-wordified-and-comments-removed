@@ -32,6 +32,8 @@ import
 MarionetteTestharnessExecutor
                                             
 MarionetteRefTestExecutor
+                                            
+MarionetteCrashtestExecutor
 )
 from
 .
@@ -96,6 +98,14 @@ reftest
 :
 "
 MarionetteRefTestExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+MarionetteCrashtestExecutor
 "
 }
                  
