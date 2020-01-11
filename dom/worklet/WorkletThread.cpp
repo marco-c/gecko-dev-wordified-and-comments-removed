@@ -91,14 +91,6 @@ WORKLET_DEFAULT_RUNTIME_HEAPSIZE
 1024
 *
 1024
-#
-define
-WORKLET_DEFAULT_NURSERY_SIZE
-1
-*
-1024
-*
-1024
 const
 uint32_t
 kWorkletStackSize
@@ -487,7 +479,10 @@ Initialize
 (
 aParentRuntime
 WORKLET_DEFAULT_RUNTIME_HEAPSIZE
-WORKLET_DEFAULT_NURSERY_SIZE
+JS
+:
+:
+DefaultNurseryMaxBytes
 )
 ;
 if
