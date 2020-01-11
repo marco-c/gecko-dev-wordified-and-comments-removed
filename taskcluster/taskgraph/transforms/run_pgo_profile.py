@@ -176,7 +176,21 @@ instr
 ]
 =
 [
+            
 artifact
+            
+'
+target
+.
+crashreporter
+-
+symbols
+-
+full
+.
+zip
+'
+        
 ]
         
 yield

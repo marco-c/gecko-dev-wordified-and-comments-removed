@@ -124,6 +124,15 @@ shipping
 phase
 :
 build
+attributes
+:
+enable
+-
+full
+-
+crashsymbols
+:
+true
 treeherder
 :
 symbol

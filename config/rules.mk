@@ -5541,8 +5541,6 @@ DUMP_SYMBOLS_FLAGS
 )
 endif
 endef
-ifndef
-MOZ_PROFILE_GENERATE
 ifneq
 (
 (
@@ -5570,7 +5568,6 @@ PROGRAM
 (
 SIMPLE_PROGRAMS
 )
-endif
 endif
 ifdef
 MOZ_AUTOMATION
