@@ -600,7 +600,10 @@ aListener
 )
 ;
 virtual
-void
+RefPtr
+<
+GenericPromise
+>
 RemoveListener
 (
 MediaTrackListener

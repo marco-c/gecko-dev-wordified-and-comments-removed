@@ -228,7 +228,10 @@ Start
 0
 ;
 virtual
-void
+RefPtr
+<
+GenericPromise
+>
 Stop
 (
 )
@@ -1070,7 +1073,10 @@ Start
 )
 override
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 Stop
 (
 )
@@ -1354,7 +1360,10 @@ Start
 )
 override
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 Stop
 (
 )
@@ -1462,7 +1471,10 @@ Start
 )
 override
 ;
-void
+RefPtr
+<
+GenericPromise
+>
 Stop
 (
 )
