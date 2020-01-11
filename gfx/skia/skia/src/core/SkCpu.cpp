@@ -54,6 +54,13 @@ defined
 (
 SK_BUILD_FOR_WIN
 )
+&
+&
+!
+defined
+(
+__MINGW32__
+)
 #
 include
 <
