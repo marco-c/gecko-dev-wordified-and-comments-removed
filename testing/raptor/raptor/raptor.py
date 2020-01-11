@@ -4834,6 +4834,27 @@ post_startup_delay
 ]
 )
         
+if
+self
+.
+config
+[
+'
+with_conditioned_profile
+'
+]
+:
+            
+self
+.
+profile
+.
+profile
+=
+self
+.
+conditioned_profile_dir
+        
 return
 (
 [
