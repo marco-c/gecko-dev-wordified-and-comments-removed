@@ -777,6 +777,13 @@ open_window_target
 .
 html
 "
+const
+val
+TEST_ENDPOINT
+=
+GeckoSessionTestRule
+.
+TEST_ENDPOINT
 }
 get
 :
