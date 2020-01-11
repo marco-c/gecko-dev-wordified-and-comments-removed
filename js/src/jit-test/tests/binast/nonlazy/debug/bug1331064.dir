@@ -8,12 +8,14 @@ test
 test
 -
 also
+=
 -
-no
 -
 wasm
 -
-baseline
+compiler
+=
+ion
 ;
 exitstatus
 :
