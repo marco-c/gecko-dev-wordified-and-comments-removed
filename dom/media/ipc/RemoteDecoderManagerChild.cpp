@@ -1306,7 +1306,7 @@ void
 RemoteDecoderManagerChild
 :
 :
-DeallocateSurfaceDescriptorGPUVideo
+DeallocateSurfaceDescriptor
 (
 const
 SurfaceDescriptorGPUVideo
@@ -1344,7 +1344,7 @@ NS_NewRunnableFunction
 RemoteDecoderManagerChild
 :
 :
-DeallocateSurfaceDescriptorGPUVideo
+DeallocateSurfaceDescriptor
 "
 [
 ref
