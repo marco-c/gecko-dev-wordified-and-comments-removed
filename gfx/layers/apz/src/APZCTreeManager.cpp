@@ -12200,6 +12200,14 @@ gfx
 CompositorHitTestInfo
 hitInfo
 ;
+SideBits
+sideBits
+=
+SideBits
+:
+:
+eNone
+;
 bool
 hitSomething
 =
@@ -12218,6 +12226,7 @@ aHitTestPoint
 pipelineId
 scrollId
 hitInfo
+sideBits
 )
 ;
 if
@@ -12589,6 +12598,12 @@ mTreeLock
 )
 ;
 }
+hit
+.
+mFixedPosSides
+=
+sideBits
+;
 return
 hit
 ;
