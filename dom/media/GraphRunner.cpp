@@ -292,6 +292,8 @@ OneIteration
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -328,6 +330,7 @@ Some
 IterationState
 (
 aStateEnd
+aIterationEnd
 aMixer
 )
 )
@@ -576,6 +579,12 @@ mIterationState
 -
 >
 StateEnd
+(
+)
+mIterationState
+-
+>
+IterationEnd
 (
 )
 mIterationState

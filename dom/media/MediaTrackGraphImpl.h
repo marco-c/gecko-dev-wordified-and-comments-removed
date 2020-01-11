@@ -417,6 +417,8 @@ OneIteration
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -428,6 +430,8 @@ OneIterationImpl
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -1829,6 +1833,11 @@ mStateComputedTime
 ;
 GraphTime
 mProcessedTime
+=
+0
+;
+GraphTime
+mIterationEndTime
 =
 0
 ;

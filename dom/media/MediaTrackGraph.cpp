@@ -740,14 +740,7 @@ OnGraphThread
 )
 ;
 return
-CurrentDriver
-(
-)
--
->
-IterationEnd
-(
-)
+mIterationEndTime
 ;
 }
 void
@@ -6573,6 +6566,8 @@ OneIteration
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -6593,6 +6588,7 @@ mGraphRunner
 OneIteration
 (
 aStateEnd
+aIterationEnd
 aMixer
 )
 ;
@@ -6601,6 +6597,7 @@ return
 OneIterationImpl
 (
 aStateEnd
+aIterationEnd
 aMixer
 )
 ;
@@ -6613,6 +6610,8 @@ OneIterationImpl
 (
 GraphTime
 aStateEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -6624,6 +6623,10 @@ IterationResult
 TRACE_AUDIO_CALLBACK
 (
 )
+;
+mIterationEndTime
+=
+aIterationEnd
 ;
 if
 (

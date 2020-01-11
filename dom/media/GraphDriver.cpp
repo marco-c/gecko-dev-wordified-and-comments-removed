@@ -937,9 +937,7 @@ true
 {
 mIterationStart
 =
-IterationEnd
-(
-)
+mIterationEnd
 ;
 mIterationEnd
 +
@@ -1182,6 +1180,7 @@ Graph
 OneIteration
 (
 mStateComputedTime
+mIterationEnd
 nullptr
 )
 ;
@@ -1364,9 +1363,7 @@ Graph
 )
 MediaTimeToSeconds
 (
-IterationEnd
-(
-)
+mIterationEnd
 +
 interval
 )
@@ -4108,6 +4105,7 @@ Graph
 OneIteration
 (
 nextStateComputedTime
+mIterationEnd
 &
 mMixer
 )

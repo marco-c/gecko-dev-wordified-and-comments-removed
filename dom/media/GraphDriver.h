@@ -828,7 +828,9 @@ IterationResult
 OneIteration
 (
 GraphTime
-aStateEnd
+aStateComputedEnd
+GraphTime
+aIterationEnd
 AudioMixer
 *
 aMixer
@@ -938,15 +940,6 @@ GraphDriver
 aPreviousDriver
 )
 ;
-GraphTime
-IterationEnd
-(
-)
-{
-return
-mIterationEnd
-;
-}
 virtual
 AudioCallbackDriver
 *
