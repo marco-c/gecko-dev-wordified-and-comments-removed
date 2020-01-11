@@ -1780,6 +1780,13 @@ ObjectActor
 (
 object
 {
+thread
+:
+this
+.
+parentActor
+.
+threadActor
 getGripDepth
 :
 (

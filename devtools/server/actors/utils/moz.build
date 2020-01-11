@@ -201,4 +201,11 @@ search
 .
 js
 '
+'
+watchpoint
+-
+map
+.
+js
+'
 )
