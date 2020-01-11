@@ -7692,6 +7692,10 @@ oldScale
 =
 mDefaultScale
 ;
+mResizeState
+=
+RESIZING
+;
 VERIFY
 (
 :
@@ -7710,6 +7714,10 @@ height
 flags
 )
 )
+;
+mResizeState
+=
+NOT_RESIZING
 ;
 if
 (
@@ -7940,6 +7948,10 @@ oldScale
 =
 mDefaultScale
 ;
+mResizeState
+=
+RESIZING
+;
 VERIFY
 (
 :
@@ -7958,6 +7970,10 @@ height
 flags
 )
 )
+;
+mResizeState
+=
+NOT_RESIZING
 ;
 if
 (
