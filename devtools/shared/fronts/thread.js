@@ -73,6 +73,7 @@ fronts
 /
 object
 "
+true
 )
 ;
 loader
