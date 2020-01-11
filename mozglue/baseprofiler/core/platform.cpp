@@ -4213,12 +4213,7 @@ const
 kMainThreadName
 =
 "
-Main
-Thread
-(
-Base
-Profiler
-)
+GeckoMain
 "
 ;
 class
