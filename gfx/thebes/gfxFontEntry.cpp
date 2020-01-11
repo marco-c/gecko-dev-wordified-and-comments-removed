@@ -2914,6 +2914,12 @@ external_loads_exist
 =
 true
 ;
+const
+bool
+allow_stdio
+=
+false
+;
 sandbox
 .
 create_sandbox
@@ -2932,6 +2938,7 @@ get
 (
 )
 external_loads_exist
+allow_stdio
 )
 ;
 #

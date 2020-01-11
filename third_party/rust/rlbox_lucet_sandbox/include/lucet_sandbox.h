@@ -127,6 +127,8 @@ const
 char
 *
 lucet_module_path
+bool
+allow_stdio
 )
 ;
 void
