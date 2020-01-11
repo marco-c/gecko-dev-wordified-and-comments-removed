@@ -171,6 +171,12 @@ contentType
 "
 ;
 DOMString
+?
+encryptionScheme
+=
+null
+;
+DOMString
 robustness
 =
 "
