@@ -3057,8 +3057,9 @@ initializeArrayElement
 MNewArray
 *
 obj
-size_t
-index
+MDefinition
+*
+id
 MDefinition
 *
 value
