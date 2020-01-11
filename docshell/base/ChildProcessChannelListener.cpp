@@ -96,7 +96,7 @@ ChildProcessChannelListener
 :
 OnChannelReady
 (
-nsIChildChannel
+nsIChannel
 *
 aChannel
 uint64_t
