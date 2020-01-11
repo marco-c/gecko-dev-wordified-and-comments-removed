@@ -723,7 +723,7 @@ http
 oscpu
 )
 )
-skip
+fails
 -
 if
 (
@@ -787,7 +787,7 @@ http
 oscpu
 )
 )
-skip
+fails
 -
 if
 (
@@ -851,7 +851,7 @@ http
 oscpu
 )
 )
-skip
+fails
 -
 if
 (
@@ -915,7 +915,7 @@ http
 oscpu
 )
 )
-skip
+fails
 -
 if
 (
