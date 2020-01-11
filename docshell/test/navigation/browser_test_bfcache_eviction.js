@@ -306,7 +306,7 @@ historyListener
 )
 ;
 delete
-content
+window
 .
 _testListener
 ;
@@ -341,7 +341,7 @@ addSHistoryListener
 historyListener
 )
 ;
-content
+window
 .
 _testListener
 =
