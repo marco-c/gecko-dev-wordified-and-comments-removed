@@ -3433,6 +3433,23 @@ MOZ_WEBRENDER
 0
 "
         
+if
+options
+.
+headless
+:
+            
+browserEnv
+[
+"
+MOZ_HEADLESS
+"
+]
+=
+"
+1
+"
+        
 return
 browserEnv
     
