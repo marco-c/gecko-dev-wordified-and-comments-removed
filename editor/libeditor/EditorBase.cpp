@@ -10790,7 +10790,10 @@ mIMEMode
 )
 {
 case
-NS_STYLE_IME_MODE_AUTO
+StyleImeMode
+:
+:
+Auto
 :
 if
 (
@@ -10811,7 +10814,10 @@ PASSWORD
 break
 ;
 case
-NS_STYLE_IME_MODE_DISABLED
+StyleImeMode
+:
+:
+Disabled
 :
 aState
 -
@@ -10826,7 +10832,10 @@ PASSWORD
 break
 ;
 case
-NS_STYLE_IME_MODE_ACTIVE
+StyleImeMode
+:
+:
+Active
 :
 aState
 -
@@ -10841,7 +10850,10 @@ OPEN
 break
 ;
 case
-NS_STYLE_IME_MODE_INACTIVE
+StyleImeMode
+:
+:
+Inactive
 :
 aState
 -
