@@ -462,7 +462,6 @@ reporter
 .
 depends
 (
-milestone
 target
 replace_malloc_default
 '
@@ -487,7 +486,6 @@ jemalloc
 def
 phc_default
 (
-milestone
 target
 replace_malloc_default
 replace_malloc
