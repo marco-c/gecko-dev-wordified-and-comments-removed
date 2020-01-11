@@ -3155,8 +3155,6 @@ br_far
 =
 1
 ;
-MOZ_FALLTHROUGH
-;
 case
 OP_M
 :
@@ -3191,8 +3189,6 @@ n
 )
 ;
 }
-MOZ_FALLTHROUGH
-;
 case
 OP_E
 :
@@ -3289,8 +3285,6 @@ n
 )
 ;
 }
-MOZ_FALLTHROUGH
-;
 case
 OP_Q
 :
@@ -3351,8 +3345,6 @@ n
 )
 ;
 }
-MOZ_FALLTHROUGH
-;
 case
 OP_W
 :
