@@ -45762,6 +45762,14 @@ StyleOrLayoutObservablyDependsOnParentDocumentLayout
 )
 &
 &
+mParentDocument
+-
+>
+MayStartLayout
+(
+)
+&
+&
 IsSafeToFlush
 (
 )
