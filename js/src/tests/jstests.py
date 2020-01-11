@@ -3532,12 +3532,7 @@ extras
 run_info_extras
 )
     
-run_info
-[
-"
 release_or_beta
-"
-]
 =
 xul_tester
 .
@@ -3551,6 +3546,25 @@ getBuildConfiguration
 release_or_beta
 "
 )
+    
+run_info
+[
+"
+release_or_beta
+"
+]
+=
+release_or_beta
+    
+run_info
+[
+"
+nightly_build
+"
+]
+=
+not
+release_or_beta
     
 path_filter
 =
