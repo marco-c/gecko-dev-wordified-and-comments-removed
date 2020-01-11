@@ -1325,7 +1325,7 @@ gr_face
 aFace
 )
 ;
-bool
+tainted_boolean_hint
 HasGraphiteSpaceContextuals
 (
 )
