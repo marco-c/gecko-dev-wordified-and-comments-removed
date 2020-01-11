@@ -930,6 +930,10 @@ fetches
 fetch
 :
 -
+clang
+-
+9
+-
 wasi
 -
 sdk

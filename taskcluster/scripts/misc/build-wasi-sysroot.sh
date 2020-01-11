@@ -59,7 +59,17 @@ sdk
 wasi
 -
 sysroot
+LLVM_PROJ_DIR
+=
+MOZ_FETCHES_DIR
+/
+llvm
+-
+project
 make
+LLVM_PROJ_DIR
+=
+LLVM_PROJ_DIR
 PREFIX
 =
 PREFIX
