@@ -490,13 +490,6 @@ multilocale
 "
 ]
 ;
-const
-DEFAULT_TAG
-=
-"
-default
-"
-;
 function
 isUSTimezone
 (
@@ -4964,6 +4957,8 @@ _installExtensionEngine
 (
 extension
 [
+SearchUtils
+.
 DEFAULT_TAG
 ]
 true
@@ -5085,6 +5080,8 @@ id
 locales
 =
 [
+SearchUtils
+.
 DEFAULT_TAG
 ]
 isReload
@@ -5360,6 +5357,8 @@ name
 return
 [
 engineName
+SearchUtils
+.
 DEFAULT_TAG
 ]
 ;
@@ -5372,6 +5371,8 @@ locale
 {
 locale
 =
+SearchUtils
+.
 DEFAULT_TAG
 ;
 }
@@ -7385,6 +7386,8 @@ locales
 0
 ]
 :
+SearchUtils
+.
 DEFAULT_TAG
 ;
 }
@@ -10738,6 +10741,8 @@ _installExtensionEngine
 (
 extension
 [
+SearchUtils
+.
 DEFAULT_TAG
 ]
 )
@@ -10971,6 +10976,8 @@ webExtension
 locales
 :
 [
+SearchUtils
+.
 DEFAULT_TAG
 ]
 ;
@@ -11185,7 +11192,8 @@ manifest
 locale
 =
 =
-=
+SearchUtils
+.
 DEFAULT_TAG
 ?
 extension
@@ -11274,6 +11282,8 @@ extension
 manifest
 locale
 =
+SearchUtils
+.
 DEFAULT_TAG
 initEngine
 =
@@ -11492,6 +11502,8 @@ if
 locale
 !
 =
+SearchUtils
+.
 DEFAULT_TAG
 )
 {
