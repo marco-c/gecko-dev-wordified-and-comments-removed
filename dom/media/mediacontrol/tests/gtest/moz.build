@@ -127,6 +127,11 @@ TestMediaKeysEventMac
 .
 mm
 '
+'
+TestMediaKeysEventMediaCenter
+.
+mm
+'
 ]
 include
 (
