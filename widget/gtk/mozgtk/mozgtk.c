@@ -2112,6 +2112,10 @@ gtk_window_set_skip_taskbar_hint
 )
 STUB
 (
+gtk_window_set_startup_id
+)
+STUB
+(
 gtk_window_set_title
 )
 STUB
