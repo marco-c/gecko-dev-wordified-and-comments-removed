@@ -519,14 +519,13 @@ otherPrivateDefault
 ;
 }
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 {
 selectElement
 :
@@ -540,7 +539,6 @@ id
 :
 null
 }
-]
 async
 function
 (

@@ -435,15 +435,14 @@ parentNode
 try
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 testTab
 .
 linkedBrowser
-[
-]
+null
 function
 (
 )

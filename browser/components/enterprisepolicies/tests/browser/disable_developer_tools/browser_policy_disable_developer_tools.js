@@ -341,14 +341,12 @@ true
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 url
-]
 async
 function
 (

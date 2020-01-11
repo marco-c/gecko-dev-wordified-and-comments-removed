@@ -270,14 +270,13 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 {
 url
 :
@@ -289,7 +288,6 @@ payload_
 :
 payload
 }
-]
 async
 function
 (

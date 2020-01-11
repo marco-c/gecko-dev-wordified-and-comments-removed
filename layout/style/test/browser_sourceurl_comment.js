@@ -326,15 +326,14 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 test_cases
-]
 function
+*
 (
 tests
 )

@@ -153,13 +153,12 @@ const
 contentPid
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 contentBrowser
-[
-]
+null
 (
 )
 =

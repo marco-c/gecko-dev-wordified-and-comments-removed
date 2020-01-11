@@ -167,16 +167,14 @@ let
 success
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 args
 }
-]
 async
 function
 (

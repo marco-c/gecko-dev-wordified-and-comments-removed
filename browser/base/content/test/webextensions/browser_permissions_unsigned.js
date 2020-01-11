@@ -159,14 +159,13 @@ gBrowser
 selectedBrowser
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 {
 BASE
 }
@@ -174,7 +173,6 @@ BASE
 browser_webext_unsigned
 .
 xpi
-]
 async
 function
 (

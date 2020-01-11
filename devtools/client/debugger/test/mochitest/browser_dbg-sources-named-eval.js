@@ -145,16 +145,14 @@ js
 \
 n
 )
-;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )
@@ -198,7 +196,6 @@ ok
 (
 true
 )
-;
 }
 )
 ;

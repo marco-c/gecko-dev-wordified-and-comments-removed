@@ -75,16 +75,14 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 HTTPS_REDIRECT_SJS
-]
 async
 function
 (

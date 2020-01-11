@@ -63,16 +63,14 @@ monitor
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 SVG_URL
-]
 async
 function
 (

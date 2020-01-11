@@ -258,13 +258,13 @@ plugins
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gTestBrowser
-[
-]
+{
+}
 async
 function
 (

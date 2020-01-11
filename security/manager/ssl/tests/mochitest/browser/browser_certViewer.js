@@ -2346,14 +2346,12 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 expectedTabName
-]
 async
 function
 (

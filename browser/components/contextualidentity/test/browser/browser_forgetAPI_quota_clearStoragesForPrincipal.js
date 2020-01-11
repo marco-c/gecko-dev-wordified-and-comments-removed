@@ -123,12 +123,11 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 input
 :
@@ -136,7 +135,6 @@ input
 TestForgetAPIs
 "
 }
-]
 async
 function
 (
@@ -437,13 +435,12 @@ browser
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

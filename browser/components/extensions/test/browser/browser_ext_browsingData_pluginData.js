@@ -158,13 +158,13 @@ browser
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 async
 function
 (

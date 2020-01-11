@@ -685,14 +685,12 @@ gBrowser
 .
 selectedBrowser
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 downloadCoop
-]
 downloadCoop
 =
 >

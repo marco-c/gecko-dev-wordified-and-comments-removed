@@ -1088,16 +1088,14 @@ popupshown
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 selector
 }
-]
 async
 function
 (

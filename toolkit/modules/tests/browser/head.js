@@ -445,12 +445,11 @@ extraTest
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 word
 expectedResult
@@ -462,7 +461,6 @@ toSource
 (
 )
 }
-]
 async
 function
 (

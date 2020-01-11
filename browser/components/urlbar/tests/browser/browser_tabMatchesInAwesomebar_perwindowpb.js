@@ -334,15 +334,14 @@ blank
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 testTab
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

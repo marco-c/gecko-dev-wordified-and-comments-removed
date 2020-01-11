@@ -255,13 +255,12 @@ item
 let
 promiseCtxMenuClick
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
 aBrowser
-[
-]
+null
 async
 function
 (

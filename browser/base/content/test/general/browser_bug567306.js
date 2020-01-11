@@ -183,13 +183,13 @@ newwindow
 gFindBarPromise
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 selectedBrowser
-[
-]
+{
+}
 async
 function
 (

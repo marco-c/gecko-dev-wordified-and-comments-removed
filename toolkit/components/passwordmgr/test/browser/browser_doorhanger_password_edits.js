@@ -427,14 +427,12 @@ panel
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 testCase
-]
 async
 function
 (

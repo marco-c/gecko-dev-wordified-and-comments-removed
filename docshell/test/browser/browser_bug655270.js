@@ -122,15 +122,14 @@ URI
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 function
 (
 )

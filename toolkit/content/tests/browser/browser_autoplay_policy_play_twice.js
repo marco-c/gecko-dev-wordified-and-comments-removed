@@ -282,15 +282,14 @@ rejected
 }
 }
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 play_video_again
 )
 ;

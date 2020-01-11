@@ -160,13 +160,6 @@ jsm
 '
 content
 /
-SpecialPowersEventUtils
-.
-jsm
-'
-'
-content
-/
 SpecialPowersParent
 .
 jsm

@@ -244,14 +244,12 @@ currentURI
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 PAGE_2
-]
 async
 function
 (
