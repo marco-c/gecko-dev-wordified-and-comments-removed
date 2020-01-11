@@ -377,6 +377,7 @@ ignore
 language
 =
 cpp
+json
 "
     
 while
