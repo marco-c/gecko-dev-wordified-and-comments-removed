@@ -912,7 +912,6 @@ pub
 fn
 combine
 (
-&
 self
 other
 :
@@ -2269,7 +2268,6 @@ pub
 fn
 as_int
 (
-&
 self
 gpu_cache
 :
@@ -2299,7 +2297,6 @@ pub
 fn
 as_int
 (
-&
 self
 )
 -
