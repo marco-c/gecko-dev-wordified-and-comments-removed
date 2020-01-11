@@ -4008,7 +4008,7 @@ sdp
 alternate_parse_mode
 "
 "
-parallel
+never
 "
 )
 ;
@@ -4042,7 +4042,7 @@ sdp
 alternate_parse_mode
 "
 "
-failover
+never
 "
 )
 ;
