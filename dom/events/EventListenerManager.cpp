@@ -8879,6 +8879,9 @@ mFlags
 mPassive
 &
 &
+mIsMainThreadELM
+&
+&
 IsApzAwareEvent
 (
 aListener
