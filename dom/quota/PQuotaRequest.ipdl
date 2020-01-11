@@ -80,7 +80,7 @@ InitTemporaryStorageResponse
 }
 ;
 struct
-InitOriginResponse
+InitStorageAndOriginResponse
 {
 bool
 created
@@ -155,7 +155,7 @@ InitResponse
 ;
 InitTemporaryStorageResponse
 ;
-InitOriginResponse
+InitStorageAndOriginResponse
 ;
 ClearOriginResponse
 ;

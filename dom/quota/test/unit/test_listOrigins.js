@@ -18,7 +18,7 @@ origins
 {
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 getPrincipal
 (

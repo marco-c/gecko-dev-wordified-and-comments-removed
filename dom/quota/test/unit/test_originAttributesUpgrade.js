@@ -531,7 +531,7 @@ url
 ;
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 origin

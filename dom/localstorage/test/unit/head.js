@@ -470,7 +470,7 @@ request
 ;
 }
 function
-initOrigin
+initStorageAndOrigin
 (
 principal
 persistence
@@ -483,10 +483,13 @@ Services
 .
 qms
 .
-initStoragesForPrincipal
+initStorageAndOrigin
 (
 principal
 persistence
+"
+ls
+"
 )
 ;
 return

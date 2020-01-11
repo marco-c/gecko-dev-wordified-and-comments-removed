@@ -139,7 +139,7 @@ try
 let
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 getPrincipal
 (

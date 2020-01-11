@@ -237,7 +237,7 @@ createTestingEnvironment
 let
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 "
 persistent

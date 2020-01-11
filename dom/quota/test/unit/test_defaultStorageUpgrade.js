@@ -1980,7 +1980,7 @@ chrome
 {
 request
 =
-initChromeOrigin
+initStorageAndChromeOrigin
 (
 origin
 .
@@ -2006,7 +2006,7 @@ url
 ;
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 origin

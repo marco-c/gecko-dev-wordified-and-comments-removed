@@ -313,7 +313,7 @@ initTestOrigin
 let
 request
 =
-initOrigin
+initStorageAndOrigin
 (
 principal
 "
