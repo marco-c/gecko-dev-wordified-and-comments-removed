@@ -6246,6 +6246,17 @@ clearForBackEnd
 (
 )
 ;
+void
+checkNurseryCell
+(
+gc
+:
+:
+Cell
+*
+cell
+)
+;
 JSObject
 *
 checkNurseryObject
