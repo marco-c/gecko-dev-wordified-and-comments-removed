@@ -46,6 +46,9 @@ i32
 enable_compositor
 :
 bool
+sync_mode
+:
+i32
 )
 -
 >
@@ -249,6 +252,9 @@ i32
 enable_compositor
 :
 bool
+sync_mode
+:
+i32
 )
 -
 >
@@ -263,6 +269,7 @@ com_dc_create_window
 width
 height
 enable_compositor
+sync_mode
 )
 }
 }
