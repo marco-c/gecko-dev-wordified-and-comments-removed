@@ -364,6 +364,12 @@ IsReadOnly
 )
 const
 ;
+bool
+IsIncompleteImportRule
+(
+)
+const
+;
 virtual
 size_t
 SizeOfIncludingThis
