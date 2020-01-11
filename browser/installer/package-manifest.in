@@ -545,6 +545,16 @@ DLL_SUFFIX
 endif
 #
 endif
+#
+ifdef
+MOZ_WASM_SANDBOXING_GRAPHITE
+BINPATH
+/
+DLL_PREFIX
+graphitewasm
+DLL_SUFFIX
+#
+endif
 ;
 We
 don
