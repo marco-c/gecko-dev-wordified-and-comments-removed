@@ -99,7 +99,9 @@ e
 }
 g
 (
-uneval
+JSON
+.
+stringify
 (
 results
 )

@@ -1086,7 +1086,9 @@ name
 :
 "
 +
-uneval
+JSON
+.
+stringify
 (
 Object
 .

@@ -4,7 +4,11 @@ enableShellAllocationMetadataBuilder
 ;
 eval
 (
-uneval
+(
+{
+JSON
+.
+stringify
 (
 {
 '
@@ -13,6 +17,8 @@ uneval
 '
 :
 true
+}
+)
 }
 )
 )

@@ -19,7 +19,9 @@ z
 z
 )
 {
-uneval
+JSON
+.
+stringify
 (
 {
 x

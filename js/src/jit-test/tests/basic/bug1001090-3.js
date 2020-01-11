@@ -110,7 +110,9 @@ push
 (
 g
 (
-uneval
+JSON
+.
+stringify
 (
 results
 )

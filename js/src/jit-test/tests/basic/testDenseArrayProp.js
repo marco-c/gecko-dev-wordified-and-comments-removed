@@ -58,7 +58,9 @@ length
 +
 i
 )
-uneval
+JSON
+.
+stringify
 (
 a
 [

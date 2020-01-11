@@ -6,7 +6,7 @@ a
 __proto__
 b
 =
-uneval
+String
 (
 )
 .

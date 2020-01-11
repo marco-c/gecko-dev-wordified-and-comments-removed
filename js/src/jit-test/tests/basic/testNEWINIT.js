@@ -29,7 +29,9 @@ a
 ]
 ;
 return
-uneval
+JSON
+.
+stringify
 (
 a
 )
