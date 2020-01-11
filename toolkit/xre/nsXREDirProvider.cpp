@@ -3374,12 +3374,6 @@ NS_OS_TEMP_DIR
 #
 endif
 }
-#
-if
-defined
-(
-MOZ_SANDBOX
-)
 nsresult
 nsXREDirProvider
 :
@@ -3502,8 +3496,6 @@ return
 NS_OK
 ;
 }
-#
-endif
 nsresult
 nsXREDirProvider
 :
