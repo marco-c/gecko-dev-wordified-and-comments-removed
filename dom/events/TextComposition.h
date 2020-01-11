@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIWeakReference
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h

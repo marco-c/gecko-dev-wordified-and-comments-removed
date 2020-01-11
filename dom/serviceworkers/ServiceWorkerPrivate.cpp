@@ -97,13 +97,6 @@ h
 #
 include
 "
-nsITimedChannel
-.
-h
-"
-#
-include
-"
 nsIUploadChannel2
 .
 h

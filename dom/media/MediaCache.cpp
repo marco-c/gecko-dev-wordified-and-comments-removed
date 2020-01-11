@@ -163,13 +163,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

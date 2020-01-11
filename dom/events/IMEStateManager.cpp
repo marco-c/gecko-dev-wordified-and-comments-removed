@@ -267,13 +267,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsISupports
 .
 h

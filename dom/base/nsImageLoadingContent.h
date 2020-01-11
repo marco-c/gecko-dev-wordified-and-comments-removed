@@ -71,13 +71,6 @@ h
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

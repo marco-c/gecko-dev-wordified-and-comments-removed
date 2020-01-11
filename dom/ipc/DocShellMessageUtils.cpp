@@ -12,13 +12,6 @@ h
 #
 include
 "
-nsISerializable
-.
-h
-"
-#
-include
-"
 nsSerializationHelper
 .
 h

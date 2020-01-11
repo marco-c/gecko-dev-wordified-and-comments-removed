@@ -79,13 +79,6 @@ h
 #
 include
 "
-nsILoadGroup
-.
-h
-"
-#
-include
-"
 imgIContainer
 .
 h

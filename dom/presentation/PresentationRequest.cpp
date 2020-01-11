@@ -84,13 +84,6 @@ h
 #
 include
 "
-mozIThirdPartyUtil
-.
-h
-"
-#
-include
-"
 nsContentSecurityManager
 .
 h

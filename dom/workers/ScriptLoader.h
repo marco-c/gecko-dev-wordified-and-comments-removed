@@ -18,13 +18,6 @@ h
 #
 include
 "
-nsIContentPolicy
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h

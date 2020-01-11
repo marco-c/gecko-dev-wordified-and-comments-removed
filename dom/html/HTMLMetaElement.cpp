@@ -105,13 +105,6 @@ nsStyleConsts
 .
 h
 "
-#
-include
-"
-nsIContentSecurityPolicy
-.
-h
-"
 static
 mozilla
 :

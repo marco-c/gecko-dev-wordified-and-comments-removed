@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 nsPrintfCString
 .
 h

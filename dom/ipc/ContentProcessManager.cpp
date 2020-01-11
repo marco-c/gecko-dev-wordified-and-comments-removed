@@ -49,13 +49,6 @@ nsPrintfCString
 h
 "
 #
-include
-"
-nsIScriptSecurityManager
-.
-h
-"
-#
 ifdef
 DISABLE_ASSERTS_FOR_FUZZING
 #

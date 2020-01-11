@@ -98,13 +98,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 xpcpublic
 .
 h

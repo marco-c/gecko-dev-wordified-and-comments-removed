@@ -360,13 +360,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsISupportsPrimitives
 .
 h

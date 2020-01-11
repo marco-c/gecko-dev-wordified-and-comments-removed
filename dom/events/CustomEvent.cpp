@@ -34,13 +34,6 @@ nsContentUtils
 .
 h
 "
-#
-include
-"
-nsIXPConnect
-.
-h
-"
 using
 namespace
 mozilla

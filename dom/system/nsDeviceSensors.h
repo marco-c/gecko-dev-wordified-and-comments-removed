@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsITimer
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

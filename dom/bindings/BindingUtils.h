@@ -277,7 +277,7 @@ h
 #
 include
 "
-nsIXPConnect
+nsIVariant
 .
 h
 "

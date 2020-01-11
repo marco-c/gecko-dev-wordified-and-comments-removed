@@ -213,6 +213,13 @@ h
 #
 include
 "
+nsIXPConnect
+.
+h
+"
+#
+include
+"
 nsString
 .
 h

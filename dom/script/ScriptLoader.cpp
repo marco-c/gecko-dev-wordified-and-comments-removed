@@ -281,13 +281,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsIPrincipal
 .
 h
@@ -387,13 +380,6 @@ h
 include
 "
 nsAutoPtr
-.
-h
-"
-#
-include
-"
-nsIXPConnect
 .
 h
 "

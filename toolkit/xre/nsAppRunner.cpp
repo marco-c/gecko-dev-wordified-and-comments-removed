@@ -570,6 +570,13 @@ h
 #
 include
 "
+nsIUUIDGenerator
+.
+h
+"
+#
+include
+"
 nsToolkitProfileService
 .
 h

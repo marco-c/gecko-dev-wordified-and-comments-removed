@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsIPrincipal
-.
-h
-"
-#
-include
-"
 nsTHashtable
 .
 h

@@ -182,13 +182,6 @@ h
 #
 include
 "
-mozIThirdPartyUtil
-.
-h
-"
-#
-include
-"
 nsAboutProtocolUtils
 .
 h

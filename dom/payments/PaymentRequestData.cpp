@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsISupportsPrimitives
-.
-h
-"
-#
-include
-"
 nsUnicharUtils
 .
 h

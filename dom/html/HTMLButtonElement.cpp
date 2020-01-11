@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsIURL
-.
-h
-"
-#
-include
-"
 nsIFrame
 .
 h

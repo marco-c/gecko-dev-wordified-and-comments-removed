@@ -56,13 +56,6 @@ h
 #
 include
 "
-nsIWebProgressListener
-.
-h
-"
-#
-include
-"
 nsPIDOMWindow
 .
 h

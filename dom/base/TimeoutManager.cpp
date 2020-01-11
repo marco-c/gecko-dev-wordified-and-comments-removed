@@ -78,13 +78,6 @@ h
 #
 include
 "
-nsIDocShell
-.
-h
-"
-#
-include
-"
 nsINamed
 .
 h

@@ -10,13 +10,6 @@ h
 #
 include
 "
-nsIObserverService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 StaticPtr

@@ -38,13 +38,6 @@ nsGkAtoms
 .
 h
 "
-#
-include
-"
-nsIURL
-.
-h
-"
 namespace
 mozilla
 {

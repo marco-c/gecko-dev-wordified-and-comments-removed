@@ -58,13 +58,6 @@ h
 #
 include
 "
-nsIPresentationService
-.
-h
-"
-#
-include
-"
 nsIScriptSecurityManager
 .
 h

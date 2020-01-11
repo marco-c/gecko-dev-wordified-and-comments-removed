@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsIScriptSecurityManager
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -36,13 +29,6 @@ mozilla
 dom
 /
 DOMStringList
-.
-h
-"
-#
-include
-"
-nsIPrefetchService
 .
 h
 "

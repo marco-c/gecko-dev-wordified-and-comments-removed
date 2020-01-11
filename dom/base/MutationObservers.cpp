@@ -92,13 +92,6 @@ h
 #
 include
 "
-nsIXPConnect
-.
-h
-"
-#
-include
-"
 PLDHashTable
 .
 h

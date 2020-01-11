@@ -171,13 +171,6 @@ h
 #
 include
 "
-nsIServiceManager
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h

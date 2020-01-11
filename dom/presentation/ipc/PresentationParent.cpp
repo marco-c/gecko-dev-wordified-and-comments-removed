@@ -50,13 +50,6 @@ h
 #
 include
 "
-nsIPresentationDeviceManager
-.
-h
-"
-#
-include
-"
 nsIPresentationSessionTransport
 .
 h

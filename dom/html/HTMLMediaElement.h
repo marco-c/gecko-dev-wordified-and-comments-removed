@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 mozilla
 /
 CORSMode
@@ -87,13 +80,6 @@ h
 include
 "
 DecoderTraits
-.
-h
-"
-#
-include
-"
-nsIAudioChannelAgent
 .
 h
 "
