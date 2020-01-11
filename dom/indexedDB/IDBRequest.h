@@ -208,7 +208,8 @@ class
 ResultCallback
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBRequest
 >
@@ -226,7 +227,8 @@ aTransaction
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBRequest
 >
@@ -247,7 +249,8 @@ aTransaction
 )
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBRequest
 >
@@ -670,7 +673,8 @@ mIncreasedActiveDatabaseCount
 public
 :
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBOpenDBRequest
 >
