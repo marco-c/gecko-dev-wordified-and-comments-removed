@@ -65,7 +65,7 @@ indexOf
 (
 "
 \
-u00A4
+u0434
 "
 )
 131
@@ -74,9 +74,7 @@ Parent
 doc
 should
 be
-windows
--
-1252
+IBM866
 initially
 "
 )
@@ -100,7 +98,7 @@ indexOf
 (
 "
 \
-u201A
+u0412
 "
 )
 90
@@ -109,9 +107,7 @@ Child
 doc
 should
 be
-windows
--
-1252
+IBM866
 initially
 "
 )

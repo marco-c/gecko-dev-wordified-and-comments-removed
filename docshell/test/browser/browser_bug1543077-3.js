@@ -65,7 +65,7 @@ indexOf
 (
 "
 \
-u001B
+u3042
 "
 )
 136
@@ -74,9 +74,11 @@ Parent
 doc
 should
 be
-windows
+ISO
 -
-1252
+2022
+-
+JP
 initially
 "
 )
@@ -100,7 +102,7 @@ indexOf
 (
 "
 \
-u001B
+u3042
 "
 )
 92
@@ -109,9 +111,11 @@ Child
 doc
 should
 be
-windows
+ISO
 -
-1252
+2022
+-
+JP
 initially
 "
 )
