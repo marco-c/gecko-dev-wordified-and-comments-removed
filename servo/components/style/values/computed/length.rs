@@ -262,7 +262,7 @@ NoCalcLength
 type
 ComputedValue
 =
-CSSPixelLength
+Length
 ;
 #
 [

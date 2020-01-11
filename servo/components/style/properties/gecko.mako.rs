@@ -9252,10 +9252,16 @@ KeywordSize
 let
 size
 =
+Au
+:
+:
+from
+(
 v
 .
 size
 (
+)
 )
 ;
 self
