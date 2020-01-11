@@ -3378,9 +3378,9 @@ gURLBar
 value
 =
 "
-mochi
+example
 .
-test
+com
 "
 ;
 gURLBar
@@ -3538,7 +3538,7 @@ val
 numChars
 :
 "
-10
+11
 "
 selType
 :
