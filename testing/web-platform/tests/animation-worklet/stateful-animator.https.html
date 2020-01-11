@@ -768,10 +768,11 @@ localTime
 ;
 if
 (
+approxEquals
+(
 last_local_time
-=
-=
 current_local_time
+)
 )
 +
 +
@@ -864,9 +865,9 @@ requestAnimationFrame
 ;
 if
 (
+approxEquals
+(
 0
-=
-=
 animation
 .
 effect
@@ -876,6 +877,7 @@ getComputedTiming
 )
 .
 localTime
+)
 )
 +
 +
@@ -990,6 +992,8 @@ _
 >
 {
 return
+approxEquals
+(
 animation
 .
 effect
@@ -999,9 +1003,8 @@ getComputedTiming
 )
 .
 localTime
-=
-=
 EXPECTED_FRAMES_TO_A_SCOPE_SWITCH
+)
 ;
 }
 )
@@ -1235,6 +1238,8 @@ _
 >
 {
 return
+approxEquals
+(
 animation
 .
 effect
@@ -1244,9 +1249,8 @@ getComputedTiming
 )
 .
 localTime
-=
-=
 EXPECTED_FRAMES_TO_A_SCOPE_SWITCH
+)
 ;
 }
 )
@@ -1354,6 +1358,8 @@ _
 >
 {
 return
+approxEquals
+(
 animation
 .
 effect
@@ -1363,9 +1369,8 @@ getComputedTiming
 )
 .
 localTime
-=
-=
 10000
+)
 ;
 }
 )
