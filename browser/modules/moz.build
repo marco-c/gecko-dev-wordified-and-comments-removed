@@ -979,6 +979,17 @@ browser
 .
 ini
 '
+'
+test
+/
+browser
+/
+SiteOriginTelemetry
+/
+browser
+.
+ini
+'
 ]
 XPCSHELL_TESTS_MANIFESTS
 +
