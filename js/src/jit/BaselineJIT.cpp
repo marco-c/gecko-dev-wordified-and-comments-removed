@@ -60,6 +60,15 @@ h
 #
 include
 "
+gc
+/
+PublicIterators
+.
+h
+"
+#
+include
+"
 jit
 /
 BaselineCodeGen
@@ -154,7 +163,7 @@ include
 "
 gc
 /
-PrivateIterators
+GC
 -
 inl
 .

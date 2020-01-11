@@ -73,6 +73,15 @@ h
 #
 include
 "
+gc
+/
+PublicIterators
+.
+h
+"
+#
+include
+"
 jit
 /
 AliasAnalysis
@@ -442,7 +451,7 @@ include
 "
 gc
 /
-PrivateIterators
+GC
 -
 inl
 .

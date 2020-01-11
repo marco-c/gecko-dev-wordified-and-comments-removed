@@ -116,6 +116,15 @@ h
 #
 include
 "
+gc
+/
+PublicIterators
+.
+h
+"
+#
+include
+"
 js
 /
 CharacterEncoding
@@ -280,7 +289,7 @@ include
 "
 gc
 /
-PrivateIterators
+GC
 -
 inl
 .
