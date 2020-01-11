@@ -2770,7 +2770,7 @@ MutableHandleValue
 vp
 )
 ;
-ResumeMode
+void
 reportUncaughtException
 (
 mozilla
