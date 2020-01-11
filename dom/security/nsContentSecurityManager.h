@@ -135,6 +135,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+nsresult
+CheckSystemPrincipalLoads
+(
+nsIChannel
+*
+aChannel
+)
+;
 virtual
 ~
 nsContentSecurityManager
