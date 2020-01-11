@@ -2595,10 +2595,6 @@ chrome
 -
 mochitest
 -
-media
--
-mochitest
--
 remote
 -
 mochitest
@@ -2675,6 +2671,10 @@ crashtest
 mochitest
 -
 gpu
+-
+mochitest
+-
+media
 linux1804
 -
 qr
@@ -2689,6 +2689,10 @@ crashtest
 mochitest
 -
 gpu
+-
+mochitest
+-
+media
 linux
 -
 qr
@@ -2711,10 +2715,6 @@ a11y
 mochitest
 -
 chrome
--
-mochitest
--
-media
 -
 mochitest
 -
