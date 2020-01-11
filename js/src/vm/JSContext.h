@@ -3613,17 +3613,6 @@ caches
 (
 )
 ;
-private
-:
-JS_FRIEND_API
-void
-checkMallocGCPressure
-(
-void
-*
-p
-)
-;
 public
 :
 using
