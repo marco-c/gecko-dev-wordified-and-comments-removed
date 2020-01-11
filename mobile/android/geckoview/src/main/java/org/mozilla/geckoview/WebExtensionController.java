@@ -546,7 +546,7 @@ getInstance
 (
 )
 .
-unregisterUiThreadListener
+registerUiThreadListener
 (
 mInternals
 "
