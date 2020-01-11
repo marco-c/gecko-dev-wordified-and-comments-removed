@@ -1025,7 +1025,7 @@ false
 bool
 deferredParserAlloc_
 =
-false
+true
 ;
 }
 ;
