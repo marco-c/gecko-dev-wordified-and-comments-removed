@@ -948,7 +948,7 @@ classList
 contains
 (
 "
-warn
+error
 "
 )
 "

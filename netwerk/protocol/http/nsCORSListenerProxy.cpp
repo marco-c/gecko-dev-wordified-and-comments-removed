@@ -7342,7 +7342,7 @@ EmptyString
 nsIScriptError
 :
 :
-warningFlag
+errorFlag
 aCategory
 aInnerWindowID
 )
@@ -7377,7 +7377,7 @@ EmptyString
 nsIScriptError
 :
 :
-warningFlag
+errorFlag
 category
 .
 get
