@@ -42,11 +42,21 @@ https
 :
 /
 /
+firefox
+-
+ci
+-
+tc
+.
+services
+.
+mozilla
+.
+com
+/
+api
+/
 index
-.
-taskcluster
-.
-net
 "
 INDEX_PATH
 =
@@ -55,7 +65,11 @@ gecko
 .
 v2
 .
-try
+%
+(
+repo
+)
+s
 .
 latest
 .
@@ -222,6 +236,14 @@ None
 download_cache
 =
 True
+    
+repo
+=
+"
+mozilla
+-
+central
+"
 )
 :
     
@@ -295,6 +317,12 @@ task_id
 "
 :
 task_id
+        
+"
+repo
+"
+:
+repo
     
 }
     
@@ -612,6 +640,13 @@ def
 read_changelog
 (
 platform
+repo
+=
+"
+mozilla
+-
+central
+"
 )
 :
     
@@ -623,6 +658,11 @@ platform
 "
 :
 platform
+"
+repo
+"
+:
+repo
 }
     
 changelog_url
