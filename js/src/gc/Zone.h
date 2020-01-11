@@ -2635,11 +2635,6 @@ Compartment
 comp
 )
 ;
-uint32_t
-detachedTypedObjects
-=
-0
-;
 void
 finishRoots
 (
