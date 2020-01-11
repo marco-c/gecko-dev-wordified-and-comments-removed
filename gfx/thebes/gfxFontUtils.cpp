@@ -4112,6 +4112,8 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
 )
 {
 nsAutoCString
@@ -4120,6 +4122,17 @@ fontlistValue
 nsresult
 rv
 =
+aLocalized
+?
+Preferences
+:
+:
+GetLocalizedCString
+(
+aPrefName
+fontlistValue
+)
+:
 Preferences
 :
 :
@@ -4163,6 +4176,8 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
 )
 {
 aFontList
@@ -4175,6 +4190,7 @@ AppendPrefsFontList
 (
 aPrefName
 aFontList
+aLocalized
 )
 ;
 }

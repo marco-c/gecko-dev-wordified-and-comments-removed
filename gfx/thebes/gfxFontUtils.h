@@ -5388,6 +5388,10 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
+=
+false
 )
 ;
 static
@@ -5404,6 +5408,10 @@ nsCString
 >
 &
 aFontList
+bool
+aLocalized
+=
+false
 )
 ;
 static
