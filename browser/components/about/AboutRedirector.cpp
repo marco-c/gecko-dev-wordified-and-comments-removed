@@ -753,7 +753,7 @@ downloads
 /
 contentAreaDownloadsView
 .
-xul
+xhtml
 "
 nsIAboutModule
 :

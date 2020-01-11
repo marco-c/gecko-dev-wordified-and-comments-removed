@@ -81,7 +81,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 "
 ;
 class

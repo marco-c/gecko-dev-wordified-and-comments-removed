@@ -3559,7 +3559,7 @@ migration
 /
 migration
 .
-xul
+xhtml
 "
 "
 _blank

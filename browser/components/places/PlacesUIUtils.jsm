@@ -1286,7 +1286,7 @@ places
 /
 bookmarkProperties2
 .
-xul
+xhtml
 "
 :
 "
@@ -1302,7 +1302,7 @@ places
 /
 bookmarkProperties
 .
-xul
+xhtml
 "
 ;
 let

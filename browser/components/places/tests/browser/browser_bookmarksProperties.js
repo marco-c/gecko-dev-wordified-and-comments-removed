@@ -115,7 +115,7 @@ places
 /
 bookmarkProperties
 .
-xul
+xhtml
 "
 ;
 const
@@ -134,7 +134,7 @@ places
 /
 bookmarkProperties2
 .
-xul
+xhtml
 "
 ;
 const

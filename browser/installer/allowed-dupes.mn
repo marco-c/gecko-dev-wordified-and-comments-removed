@@ -175,7 +175,7 @@ places
 /
 bookmarkProperties
 .
-xul
+xhtml
 browser
 /
 chrome
@@ -190,7 +190,7 @@ places
 /
 bookmarkProperties2
 .
-xul
+xhtml
 browser
 /
 chrome

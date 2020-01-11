@@ -2655,7 +2655,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 "

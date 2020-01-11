@@ -124,7 +124,7 @@ downloads
 /
 contentAreaDownloadsView
 .
-xul
+xhtml
 "
 ;
 const

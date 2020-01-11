@@ -64,13 +64,13 @@ browser
 /
 setDesktopBackground
 .
-xul
+xhtml
 (
 content
 /
 setDesktopBackground
 .
-xul
+xhtml
 )
 content
 /

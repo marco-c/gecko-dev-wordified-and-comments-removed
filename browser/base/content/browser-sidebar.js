@@ -71,7 +71,7 @@ places
 /
 bookmarksSidebar
 .
-xul
+xhtml
 "
 menuId
 :
@@ -130,7 +130,7 @@ places
 /
 historySidebar
 .
-xul
+xhtml
 "
 menuId
 :

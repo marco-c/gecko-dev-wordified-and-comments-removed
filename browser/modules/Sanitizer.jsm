@@ -368,7 +368,7 @@ content
 /
 sanitize
 .
-xul
+xhtml
 "
 "
 Sanitize

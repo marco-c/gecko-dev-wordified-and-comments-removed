@@ -6670,7 +6670,7 @@ content
 /
 sanitize
 .
-xul
+xhtml
 "
 "
 resizable

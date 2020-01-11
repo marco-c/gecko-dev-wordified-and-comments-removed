@@ -937,7 +937,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 "

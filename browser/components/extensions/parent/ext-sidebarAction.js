@@ -65,7 +65,7 @@ webext
 -
 panels
 .
-xul
+xhtml
 "
 ;
 this

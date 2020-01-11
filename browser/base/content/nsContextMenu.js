@@ -6951,7 +6951,7 @@ content
 /
 setDesktopBackground
 .
-xul
+xhtml
 "
 ;
 if

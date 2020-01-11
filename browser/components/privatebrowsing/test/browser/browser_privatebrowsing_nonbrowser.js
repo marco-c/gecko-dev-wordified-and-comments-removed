@@ -45,7 +45,7 @@ places
 /
 places
 .
-xul
+xhtml
 "
 "
 _blank
