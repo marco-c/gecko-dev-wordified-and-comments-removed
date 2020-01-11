@@ -52,17 +52,6 @@ printStatus
 summary
 )
 ;
-if
-(
-typeof
-uneval
-!
-=
-'
-undefined
-'
-)
-{
 status
 =
 inSection
@@ -371,7 +360,6 @@ actual
 status
 )
 ;
-}
 function
 f
 (

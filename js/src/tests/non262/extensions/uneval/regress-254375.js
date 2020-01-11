@@ -39,17 +39,6 @@ printStatus
 summary
 )
 ;
-if
-(
-typeof
-uneval
-!
-=
-'
-undefined
-'
-)
-{
 try
 {
 expect
@@ -101,4 +90,3 @@ actual
 summary
 )
 ;
-}
