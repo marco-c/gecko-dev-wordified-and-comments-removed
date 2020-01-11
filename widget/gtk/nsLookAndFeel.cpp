@@ -3969,7 +3969,7 @@ LOG
 Non
 -
 compatible
-drark
+dark
 theme
 default
 to
