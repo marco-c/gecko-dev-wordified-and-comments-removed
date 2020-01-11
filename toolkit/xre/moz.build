@@ -311,6 +311,11 @@ mozilla
 =
 [
 '
+AssembleCmdLine
+.
+h
+'
+'
 ModuleVersionInfo
 .
 h
