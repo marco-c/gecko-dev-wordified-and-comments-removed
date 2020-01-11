@@ -233,7 +233,16 @@ min
 -
 width
 :
-300px
+var
+(
+-
+-
+min
+-
+container
+-
+width
+)
 ;
 }
 #
