@@ -786,6 +786,8 @@ params
 }
 )
 ;
+try
+{
 await
 inst
 .
@@ -793,8 +795,6 @@ init
 (
 )
 ;
-try
-{
 await
 this
 .
@@ -804,19 +804,8 @@ inst
 )
 ;
 }
-catch
-(
-ex
-)
+finally
 {
-rec
-.
-threw
-(
-ex
-)
-;
-}
 await
 inst
 .
@@ -824,6 +813,7 @@ finalize
 (
 )
 ;
+}
 }
 catch
 (

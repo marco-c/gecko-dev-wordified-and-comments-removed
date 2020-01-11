@@ -120,11 +120,6 @@ if
 isSuites
 )
 {
-found
-=
-true
-;
-}
 stack
 .
 push
@@ -132,6 +127,11 @@ push
 part
 )
 ;
+found
+=
+true
+;
+}
 }
 return
 stack

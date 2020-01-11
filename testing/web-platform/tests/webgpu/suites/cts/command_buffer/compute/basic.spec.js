@@ -250,8 +250,6 @@ module
 =
 t
 .
-device
-.
 createShaderModule
 (
 {
