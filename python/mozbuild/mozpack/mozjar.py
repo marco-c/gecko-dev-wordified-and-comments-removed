@@ -1908,12 +1908,8 @@ name
 in
 [
 '
-filename
-'
-'
 compressed_size
 '
-                     
 '
 uncompressed_size
 '
@@ -1930,6 +1926,22 @@ name
 header
 [
 name
+]
+)
+        
+self
+.
+filename
+=
+six
+.
+ensure_text
+(
+header
+[
+'
+filename
+'
 ]
 )
         
@@ -2843,12 +2855,17 @@ continue
             
 entries
 [
+six
+.
+ensure_text
+(
 entry
 [
 '
 filename
 '
 ]
+)
 ]
 =
 entry
@@ -2868,12 +2885,17 @@ self
 .
 _last_preloaded
 =
+six
+.
+ensure_text
+(
 entry
 [
 '
 filename
 '
 ]
+)
         
 self
 .
@@ -3891,12 +3913,17 @@ header
 size
             
 if
+six
+.
+ensure_text
+(
 entry
 [
 '
 filename
 '
 ]
+)
 =
 =
 self
@@ -4121,6 +4148,30 @@ serialize
 )
 )
             
+if
+isinstance
+(
+content
+memoryview
+)
+:
+                
+self
+.
+_data
+.
+write
+(
+content
+.
+tobytes
+(
+)
+)
+            
+else
+:
+                
 self
 .
 _data
@@ -4393,7 +4444,12 @@ mozpath
 .
 normsep
 (
+six
+.
+ensure_text
+(
 name
+)
 )
         
 if
@@ -4773,7 +4829,12 @@ filename
 '
 ]
 =
+six
+.
+ensure_binary
+(
 name
+)
         
 self
 .
@@ -5117,15 +5178,6 @@ Deflater
 '
 '
         
-self
-.
-_data
-.
-write
-(
-data
-)
-        
 if
 isinstance
 (
@@ -5140,6 +5192,24 @@ data
 .
 tobytes
 (
+)
+        
+data
+=
+six
+.
+ensure_binary
+(
+data
+)
+        
+self
+.
+_data
+.
+write
+(
+data
 )
         
 if
