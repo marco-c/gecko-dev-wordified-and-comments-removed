@@ -74,10 +74,10 @@ if
 cocoaWidget
 0
 -
-3
+5
 0
 -
-50
+101
 )
 fuzzy
 -
@@ -89,7 +89,7 @@ winWidget
 15
 0
 -
-50
+101
 )
 fuzzy
 -
@@ -98,10 +98,10 @@ if
 gtkWidget
 0
 -
-3
+5
 0
 -
-50
+101
 )
 fuzzy
 -
@@ -134,6 +134,8 @@ bug
 981640
 Bug
 1293550
+Bug
+1592998
 fuzzy
 -
 if
