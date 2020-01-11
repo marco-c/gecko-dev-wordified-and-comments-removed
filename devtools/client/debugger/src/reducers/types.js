@@ -278,7 +278,9 @@ type
 {
 SourcesMap
 SourcesMapByThread
+SourceBase
 SourceResourceState
+SourceResource
 }
 from
 "
