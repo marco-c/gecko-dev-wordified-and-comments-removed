@@ -1459,10 +1459,6 @@ innerViewsTable
 &
 realmStats
 .
-lazyArrayBuffersTable
-&
-realmStats
-.
 objectMetadataTable
 &
 realmStats
