@@ -428,6 +428,13 @@ strings
 on
 -
 -
+parser
+-
+deferred
+-
+alloc
+-
+-
 spectre
 -
 mitigations
