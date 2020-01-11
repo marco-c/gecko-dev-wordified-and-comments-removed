@@ -371,7 +371,7 @@ reason
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -385,7 +385,7 @@ tmp
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -498,7 +498,7 @@ reason
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -792,7 +792,7 @@ dummy_path
         
 self
 .
-assertTrue
+assertFalse
 (
 os
 .
@@ -803,33 +803,6 @@ exists
 c
 .
 obj_clobber
-)
-)
-        
-self
-.
-assertGreaterEqual
-(
-os
-.
-path
-.
-getmtime
-(
-c
-.
-obj_clobber
-)
-                                
-os
-.
-path
-.
-getmtime
-(
-c
-.
-src_clobber
 )
 )
     
