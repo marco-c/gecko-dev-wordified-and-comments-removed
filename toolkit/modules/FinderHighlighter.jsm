@@ -1480,6 +1480,15 @@ finder
 listener
 :
 this
+matchDiacritics
+:
+this
+.
+finder
+.
+_fastFind
+.
+matchDiacritics
 useCache
 :
 true

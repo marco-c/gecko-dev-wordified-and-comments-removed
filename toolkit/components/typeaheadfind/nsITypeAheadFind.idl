@@ -860,6 +860,15 @@ case
 sensitive
 attribute
 boolean
+matchDiacritics
+;
+/
+/
+Searches
+preserve
+diacritics
+attribute
+boolean
 entireWord
 ;
 /

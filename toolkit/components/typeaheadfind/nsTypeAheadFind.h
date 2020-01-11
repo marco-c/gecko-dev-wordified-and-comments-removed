@@ -419,6 +419,9 @@ bool
 mEntireWord
 ;
 bool
+mMatchDiacritics
+;
+bool
 EnsureFind
 (
 )
@@ -473,6 +476,14 @@ mFind
 SetEntireWord
 (
 mEntireWord
+)
+;
+mFind
+-
+>
+SetMatchDiacritics
+(
+mMatchDiacritics
 )
 ;
 return
