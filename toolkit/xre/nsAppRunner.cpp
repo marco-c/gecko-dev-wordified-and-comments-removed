@@ -19780,6 +19780,13 @@ Get
 )
 )
 ;
+dllServices
+-
+>
+StartUntrustedModulesProcessor
+(
+)
+;
 auto
 dllServicesDisable
 =

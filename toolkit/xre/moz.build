@@ -267,6 +267,11 @@ SafeMode
 .
 h
 '
+'
+UntrustedModulesData
+.
+h
+'
 ]
 if
 CONFIG
@@ -312,11 +317,6 @@ h
 '
 '
 PolicyChecks
-.
-h
-'
-'
-UntrustedModulesData
 .
 h
 '
