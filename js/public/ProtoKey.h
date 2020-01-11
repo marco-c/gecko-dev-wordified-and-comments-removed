@@ -681,7 +681,7 @@ sharedTypedArrayPrototypeClass
 REAL
 (
 Atomics
-InitAtomicsClass
+InitViaClassSpec
 OCLASP
 (
 Atomics
