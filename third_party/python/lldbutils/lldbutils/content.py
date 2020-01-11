@@ -165,6 +165,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 summary
@@ -178,6 +179,7 @@ content
 .
 summarize_text_fragment
 "
+    
 )
     
 debugger

@@ -215,9 +215,11 @@ f
 "
 %
 (
+            
 value
 &
 0xff
+            
 (
 value
 >
@@ -226,6 +228,7 @@ value
 )
 &
 0xff
+            
 (
 value
 >
@@ -234,6 +237,7 @@ value
 )
 &
 0xff
+            
 (
 (
 value
@@ -248,6 +252,7 @@ value
 255
 .
 0
+        
 )
     
 color
@@ -457,6 +462,8 @@ GetValueAsUnsigned
 :
             
 return
+(
+                
 self
 .
 pixman_data
@@ -464,6 +471,7 @@ pixman_data
 Dereference
 (
 )
+                
 .
 GetChildMemberWithName
 (
@@ -471,10 +479,13 @@ GetChildMemberWithName
 numRects
 "
 )
+                
 .
 GetValueAsUnsigned
 (
 0
+)
+            
 )
         
 return
@@ -603,8 +614,8 @@ valobj
 .
 CreateValueFromExpression
 (
-name
             
+name
 '
 %
 s
@@ -633,6 +644,7 @@ y2
 -
 y1
 )
+        
 )
     
 def
@@ -657,20 +669,22 @@ pixman_data
 .
 CreateValueFromExpression
 (
-'
+                
+"
 numRects
-'
-'
+"
+"
 (
 uint32_t
 )
 %
 d
-'
+"
 %
 self
 .
 num_rects
+            
 )
         
 if
@@ -806,11 +820,13 @@ wrapped_provider
 =
 RegionSyntheticChildrenProvider
 (
+            
 wrapped_region
 internal_dict
 "
 nsIntRect
 "
+        
 )
     
 def
@@ -1183,6 +1199,7 @@ debugger
 .
 HandleCommand
 (
+        
 "
 type
 synthetic
@@ -1196,12 +1213,14 @@ gfx
 .
 RegionSyntheticChildrenProvider
 "
+    
 )
     
 debugger
 .
 HandleCommand
 (
+        
 "
 type
 synthetic
@@ -1215,6 +1234,7 @@ gfx
 .
 IntRegionSyntheticChildrenProvider
 "
+    
 )
     
 debugger
