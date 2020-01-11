@@ -92,17 +92,6 @@ error
 patch
 "
 "
-r372020
--
-r372182
--
-profiler
--
-linkage
-.
-patch
-"
-"
 revert
 -
 r359260
