@@ -802,6 +802,7 @@ value
 ;
 for
 (
+let
 offset
 =
 0
@@ -983,6 +984,7 @@ aElement
 return
 ;
 }
+let
 text
 =
 acc
