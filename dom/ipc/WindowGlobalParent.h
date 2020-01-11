@@ -247,13 +247,6 @@ StructuredCloneData
 &
 &
 aData
-ipc
-:
-:
-StructuredCloneData
-&
-&
-aStack
 )
 ;
 nsIPrincipal
@@ -597,10 +590,6 @@ const
 ClonedMessageData
 &
 aData
-const
-ClonedMessageData
-&
-aStack
 )
 ;
 void
