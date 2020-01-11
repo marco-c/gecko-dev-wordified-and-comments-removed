@@ -407,6 +407,12 @@ nasm
 linux64
 -
 node
+-
+lucetc
+-
+wasi
+-
+sysroot
 macosx64
 -
 shippable

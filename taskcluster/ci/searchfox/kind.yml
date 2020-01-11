@@ -278,6 +278,12 @@ rust
 linux64
 -
 cbindgen
+-
+lucetc
+-
+wasi
+-
+sysroot
 macosx64
 -
 searchfox

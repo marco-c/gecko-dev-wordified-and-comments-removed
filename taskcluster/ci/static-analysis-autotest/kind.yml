@@ -352,6 +352,12 @@ nasm
 linux64
 -
 node
+-
+lucetc
+-
+wasi
+-
+sysroot
 win64
 -
 st

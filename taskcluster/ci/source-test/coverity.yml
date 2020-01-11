@@ -178,6 +178,12 @@ nasm
 linux64
 -
 node
+-
+lucetc
+-
+wasi
+-
+sysroot
 when
 :
 #
