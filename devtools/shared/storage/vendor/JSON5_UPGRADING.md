@@ -118,9 +118,9 @@ dev
 /
 devtools
 /
-client
-/
 shared
+/
+storage
 /
 vendor
 /

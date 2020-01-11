@@ -36,9 +36,9 @@ require
 "
 devtools
 /
-client
-/
 shared
+/
+storage
 /
 vendor
 /

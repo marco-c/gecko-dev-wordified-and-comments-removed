@@ -913,6 +913,15 @@ devtools
 /
 shared
 /
+storage
+/
+vendor
+/
+*
+devtools
+/
+shared
+/
 qrcode
 /
 decoder

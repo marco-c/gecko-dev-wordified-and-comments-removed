@@ -85,14 +85,6 @@ MPL
 0
 /
 .
-DIRS
-+
-=
-[
-'
-stringvalidator
-'
-]
 DevToolsModules
 (
 '
@@ -104,11 +96,6 @@ js
 '
 '
 immutable
-.
-js
-'
-'
-json5
 .
 js
 '
