@@ -196,6 +196,12 @@ bandwidth_callback
 =
 nullptr
 ;
+RtcpEventObserver
+*
+event_callback
+=
+nullptr
+;
 TransportFeedbackObserver
 *
 transport_feedback_callback
