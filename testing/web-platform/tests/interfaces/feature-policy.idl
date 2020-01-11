@@ -59,6 +59,11 @@ feature
 policy
 /
 )
+[
+Exposed
+=
+Window
+]
 interface
 FeaturePolicy
 {
