@@ -701,8 +701,6 @@ printSettings
 >
 SetPaperWidth
 (
-8
-.
 5
 )
 ;
@@ -711,7 +709,7 @@ printSettings
 >
 SetPaperHeight
 (
-11
+3
 )
 ;
 nsIntMargin
