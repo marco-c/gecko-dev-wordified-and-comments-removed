@@ -9286,10 +9286,6 @@ mType
 !
 =
 eStyleImageType_Null
-?
-true
-:
-false
 ;
 }
 bool

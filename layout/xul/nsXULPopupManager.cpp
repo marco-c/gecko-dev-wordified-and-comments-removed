@@ -10345,16 +10345,13 @@ wrap
 #
 ifdef
 XP_WIN
+!
 aFrame
 -
 >
 IsMenuList
 (
 )
-?
-false
-:
-true
 ;
 #
 elif

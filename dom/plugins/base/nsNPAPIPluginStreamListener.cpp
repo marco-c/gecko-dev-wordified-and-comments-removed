@@ -3116,11 +3116,8 @@ NS_ERROR_FAILURE
 ;
 mRedirectDenied
 =
+!
 allow
-?
-false
-:
-true
 ;
 mHTTPRedirectCallback
 =

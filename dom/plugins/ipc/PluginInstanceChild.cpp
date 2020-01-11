@@ -6776,10 +6776,6 @@ RegisterClassEx
 &
 wcex
 )
-?
-true
-:
-false
 ;
 }
 bool
