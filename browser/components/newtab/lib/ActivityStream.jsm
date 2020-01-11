@@ -2380,6 +2380,9 @@ cap
 }
 ]
 }
+updateCycleInMs
+:
+3600000
 }
 )
 }
