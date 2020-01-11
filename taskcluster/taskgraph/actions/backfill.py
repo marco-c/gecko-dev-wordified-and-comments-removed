@@ -226,7 +226,7 @@ integer
 default
 '
 :
-5
+9
                 
 '
 minimum
@@ -507,7 +507,7 @@ get
 '
 depth
 '
-5
+9
 )
 +
 inclusive_tweak
