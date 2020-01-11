@@ -7295,6 +7295,7 @@ aGraph
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHOD
 Run
 (
@@ -7417,10 +7418,16 @@ Shutdown
 )
 ;
 }
+RefPtr
+<
+GraphDriver
+>
+(
 mGraph
 -
 >
 mDriver
+)
 -
 >
 Shutdown

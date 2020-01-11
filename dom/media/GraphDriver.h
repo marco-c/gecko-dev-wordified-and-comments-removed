@@ -231,6 +231,7 @@ Start
 =
 0
 ;
+MOZ_CAN_RUN_SCRIPT
 virtual
 void
 Shutdown
@@ -475,6 +476,7 @@ Start
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Shutdown
 (
@@ -825,6 +827,7 @@ WakeUp
 )
 override
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Shutdown
 (
