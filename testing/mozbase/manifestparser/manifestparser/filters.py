@@ -2022,9 +2022,6 @@ tests_by_chunk
 =
 [
 [
-0
-[
-]
 ]
 for
 i
@@ -2038,7 +2035,6 @@ total_chunks
 ]
         
 for
-key
 batch
 in
 tests_by_manifest
@@ -2063,20 +2059,6 @@ tests_by_chunk
 [
 0
 ]
-[
-0
-]
-+
-=
-key
-            
-tests_by_chunk
-[
-0
-]
-[
-1
-]
 .
 extend
 (
@@ -2095,9 +2077,6 @@ self
 .
 this_chunk
 -
-1
-]
-[
 1
 ]
 )
