@@ -563,6 +563,15 @@ return
 false
 ;
 }
+if
+(
+this
+.
+thread
+.
+skipBreakpoints
+)
+{
 pauseAndRespond
 (
 "
@@ -570,6 +579,7 @@ getWatchpoint
 "
 )
 ;
+}
 return
 desc
 .
@@ -660,6 +670,15 @@ v
 return
 ;
 }
+if
+(
+this
+.
+thread
+.
+skipBreakpoints
+)
+{
 pauseAndRespond
 (
 "
@@ -667,6 +686,7 @@ setWatchpoint
 "
 )
 ;
+}
 desc
 .
 value
