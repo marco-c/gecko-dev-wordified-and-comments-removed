@@ -681,6 +681,15 @@ windows
 .
 create
 (
+{
+url
+:
+"
+about
+:
+blank
+"
+}
 )
 ;
 browser
