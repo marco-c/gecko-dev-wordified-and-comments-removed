@@ -3323,7 +3323,7 @@ JSFunction
 *
 canonicalFunction
 =
-lazyScript
+baseScript
 (
 )
 -
@@ -3625,7 +3625,7 @@ Scope
 enclosingScope
 )
 {
-lazyScript
+baseScript
 (
 )
 -
@@ -3647,7 +3647,7 @@ LazyScript
 enclosingScript
 )
 {
-lazyScript
+baseScript
 (
 )
 -
