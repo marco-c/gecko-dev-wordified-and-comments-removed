@@ -22,12 +22,10 @@ config
 sh
 :
 {
-PYTHON
+PYTHON3
 :
 =
-python2
-.
-7
+python3
 }
 #
 Run
@@ -49,7 +47,7 @@ pwd
 AUTOMATION
 =
 1
-PYTHON
+PYTHON3
 SRCDIR
 /
 js
