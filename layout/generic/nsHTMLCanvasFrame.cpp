@@ -2382,16 +2382,10 @@ IsEmpty
 return
 nullptr
 ;
-CanvasLayer
+Layer
 *
 oldLayer
 =
-static_cast
-<
-CanvasLayer
-*
->
-(
 aManager
 -
 >
@@ -2404,7 +2398,6 @@ GetLeafLayerFor
 (
 aBuilder
 aItem
-)
 )
 ;
 RefPtr
