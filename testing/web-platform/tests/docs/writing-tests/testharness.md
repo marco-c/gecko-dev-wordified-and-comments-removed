@@ -91,6 +91,8 @@ Documentation
 testharness
 -
 api
+.
+md
 )
 An
 introduction
@@ -112,6 +114,8 @@ Documentation
 ]
 (
 idlharness
+.
+md
 )
 A
 library
@@ -133,6 +137,8 @@ features
 server
 -
 features
+.
+md
 )
 for
 advanced
@@ -158,6 +164,8 @@ guidelines
 general
 -
 guidelines
+.
+md
 )
 for
 all
