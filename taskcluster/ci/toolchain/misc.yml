@@ -252,7 +252,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 binutils
@@ -673,7 +673,7 @@ linux64
 -
 gcc
 -
-6
+7
 linux64
 -
 upx

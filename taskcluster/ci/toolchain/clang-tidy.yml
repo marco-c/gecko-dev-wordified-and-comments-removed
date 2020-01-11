@@ -307,7 +307,7 @@ linux64
 -
 gcc
 -
-6
+7
 macosx64
 -
 clang
@@ -461,7 +461,7 @@ linux64
 -
 gcc
 -
-6
+7
 -
 linux64
 -
