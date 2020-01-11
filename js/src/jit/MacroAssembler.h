@@ -2316,6 +2316,17 @@ PER_ARCH
 ;
 inline
 void
+move32ZeroExtendToPtr
+(
+Register
+src
+Register
+dest
+)
+PER_ARCH
+;
+inline
+void
 moveValue
 (
 const

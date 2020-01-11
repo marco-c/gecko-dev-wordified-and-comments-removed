@@ -25836,6 +25836,14 @@ neg32
 scratch2
 )
 ;
+masm
+.
+move32ZeroExtendToPtr
+(
+scratch2
+scratch2
+)
+;
 JSOp
 reversed
 =
