@@ -192,10 +192,10 @@ add_definitions
 -
 std
 =
-c
+gnu
 +
 +
-14
+17
 )
 add_definitions
 (
