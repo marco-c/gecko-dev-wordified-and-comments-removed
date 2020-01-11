@@ -157,7 +157,11 @@ MediaControlKeysEventListener
 {
 public
 :
-NS_DECL_ISUPPORTS
+NS_INLINE_DECL_REFCOUNTING
+(
+MediaHardwareKeysEventListenerTest
+override
+)
 void
 OnKeyPressed
 (
@@ -236,10 +240,6 @@ mReceivedEvent
 ;
 }
 ;
-NS_IMPL_ISUPPORTS0
-(
-MediaHardwareKeysEventListenerTest
-)
 static
 void
 SendFakeEvent
