@@ -4916,6 +4916,11 @@ aLayer
 GetFixedPositionSides
 (
 )
+aLayer
+.
+GetFixedPositionAnimationId
+(
+)
 )
 ;
 return
@@ -5926,6 +5931,11 @@ GetFixedPositionScrollContainerId
 aLayer
 .
 GetFixedPositionSides
+(
+)
+aLayer
+.
+GetFixedPositionAnimationId
 (
 )
 )
