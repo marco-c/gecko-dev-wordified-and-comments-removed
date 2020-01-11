@@ -693,12 +693,10 @@ d
 "
 userFacingName
 :
-"
-D
-Fake
-Preference
-Study
-"
+null
+userFacingDescription
+:
+null
 lastSeen
 :
 new
