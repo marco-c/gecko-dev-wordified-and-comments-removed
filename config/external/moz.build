@@ -97,9 +97,6 @@ DIRS
 lgpllibs
 '
 '
-rlbox
-'
-'
 sqlite
 '
 ]
