@@ -33630,7 +33630,7 @@ head
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_OK
 ;
 }
 RefPtr
@@ -33656,6 +33656,16 @@ ctx
 )
 )
 ;
+if
+(
+!
+ctx
+)
+{
+return
+NS_OK
+;
+}
 nsILoadInfo
 :
 :
