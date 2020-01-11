@@ -2022,9 +2022,6 @@ JitZone
 OptimizedICStubSpace
 optimizedStubSpace_
 ;
-CFGSpace
-cfgSpace_
-;
 using
 IonCacheIRStubInfoSet
 =
@@ -2107,17 +2104,6 @@ optimizedStubSpace
 return
 &
 optimizedStubSpace_
-;
-}
-CFGSpace
-*
-cfgSpace
-(
-)
-{
-return
-&
-cfgSpace_
 ;
 }
 JitCode
