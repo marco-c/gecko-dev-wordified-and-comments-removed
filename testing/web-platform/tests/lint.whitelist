@@ -2531,13 +2531,7 @@ model
 /
 animations
 /
-reverse
--
-running
--
-animation
-.
-html
+*
 SET
 TIMEOUT
 :
