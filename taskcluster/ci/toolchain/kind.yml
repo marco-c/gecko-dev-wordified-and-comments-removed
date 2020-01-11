@@ -166,6 +166,12 @@ clang
 .
 yml
 -
+dump
+-
+syms
+.
+yml
+-
 gcc
 .
 yml
