@@ -374,7 +374,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 cd
@@ -499,7 +499,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1027,7 +1027,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1059,7 +1059,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1258,7 +1258,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1289,7 +1289,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1833,7 +1833,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1883,7 +1883,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1942,7 +1942,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1984,7 +1984,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -2084,7 +2084,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 )
@@ -2336,7 +2336,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /

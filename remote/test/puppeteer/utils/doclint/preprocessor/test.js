@@ -144,7 +144,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -258,7 +258,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -321,7 +321,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -433,7 +433,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -496,7 +496,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -568,7 +568,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /

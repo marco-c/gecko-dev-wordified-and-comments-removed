@@ -33,7 +33,7 @@ travis
 /
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -53,7 +53,7 @@ ci
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 )
@@ -79,7 +79,7 @@ appveyor
 /
 ci
 /
-aslushnikov
+mathiasbynens
 /
 puppeteer
 /
@@ -105,7 +105,7 @@ com
 /
 project
 /
-aslushnikov
+mathiasbynens
 /
 puppeteer
 /
@@ -134,7 +134,7 @@ com
 /
 github
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 .
@@ -154,14 +154,14 @@ com
 /
 github
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 )
 [
 !
 [
-NPM
+npm
 puppeteer
 package
 ]
@@ -218,7 +218,7 @@ badge
 /
 resolution
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 .
@@ -234,7 +234,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -313,7 +313,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -352,7 +352,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -377,7 +377,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -769,7 +769,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -924,7 +924,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1074,7 +1074,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1261,7 +1261,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1426,7 +1426,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1641,7 +1641,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1766,7 +1766,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -1911,7 +1911,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -2079,7 +2079,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -2110,7 +2110,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -2870,7 +2870,7 @@ github
 .
 com
 /
-GoogleChromeLabs
+puppeteerLabs
 /
 ndb
 )
@@ -2986,7 +2986,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -3062,7 +3062,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -3479,7 +3479,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -3715,7 +3715,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -3785,7 +3785,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -3887,7 +3887,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -4376,7 +4376,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -4489,7 +4489,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -4637,7 +4637,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
@@ -4752,7 +4752,7 @@ github
 .
 com
 /
-GoogleChrome
+puppeteer
 /
 puppeteer
 /
