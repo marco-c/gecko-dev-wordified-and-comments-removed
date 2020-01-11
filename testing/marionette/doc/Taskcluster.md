@@ -1016,11 +1016,6 @@ tests
 ini
 -
 -
-disable
--
-e10s
--
--
 gecko
 -
 log

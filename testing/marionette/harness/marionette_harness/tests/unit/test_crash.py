@@ -37,7 +37,6 @@ marionette_harness
 import
 MarionetteTestCase
 expectedFailure
-run_if_e10s
 from
 mozrunner
 .
@@ -754,19 +753,6 @@ marionette
 .
 get_url
 (
-)
-    
-run_if_e10s
-(
-"
-Content
-crashes
-only
-exist
-in
-e10s
-mode
-"
 )
     
 def

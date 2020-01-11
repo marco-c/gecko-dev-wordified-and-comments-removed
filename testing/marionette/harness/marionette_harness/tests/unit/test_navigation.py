@@ -35,8 +35,6 @@ import
     
 MarionetteTestCase
     
-run_if_e10s
-    
 run_if_manage_instance
     
 skip
@@ -1339,16 +1337,6 @@ is_remote_tab
 is_remote_before_timeout
 )
     
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
-"
-)
-    
 def
 test_navigate_timeout_error_remoteness_change
 (
@@ -2057,16 +2045,6 @@ self
 test_page_remote
 )
     
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
-"
-)
-    
 def
 test_navigate_file_url_remoteness_change
 (
@@ -2473,16 +2451,6 @@ assertFalse
 self
 .
 is_remote_tab
-)
-    
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
-"
 )
     
 def
@@ -4056,16 +4024,6 @@ self
 run_bfcache_test
 (
 test_pages
-)
-    
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
-"
 )
     
 def
@@ -6201,16 +6159,6 @@ By
 ID
 "
 slow
-"
-)
-    
-run_if_e10s
-(
-"
-Requires
-e10s
-mode
-enabled
 "
 )
     

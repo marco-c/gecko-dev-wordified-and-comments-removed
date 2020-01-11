@@ -148,13 +148,9 @@ api
 -
 u
 marionette
--
-e10s
 marionette
 -
 headless
--
-e10s
 xpcshell
 web
 -

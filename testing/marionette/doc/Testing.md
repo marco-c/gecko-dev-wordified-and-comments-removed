@@ -1062,11 +1062,6 @@ address
 2828
 -
 -
-disable
--
-e10s
--
--
 startup
 -
 timeout

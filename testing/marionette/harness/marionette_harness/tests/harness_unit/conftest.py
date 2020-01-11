@@ -187,12 +187,6 @@ device_serial
 None
         
 '
-e10s
-'
-:
-True
-        
-'
 emulator
 '
 :
