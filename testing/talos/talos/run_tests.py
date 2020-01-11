@@ -1809,6 +1809,27 @@ geckoProfile
 '
 )
     
+if
+browser_config
+.
+get
+(
+'
+enable_fission
+'
+False
+)
+:
+        
+talos_results
+.
+add_extra_option
+(
+'
+fission
+'
+)
+    
 testname
 =
 None

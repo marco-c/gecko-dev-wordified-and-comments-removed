@@ -175,6 +175,8 @@ get
 fission
 .
 autostart
+=
+true
 '
 False
 )

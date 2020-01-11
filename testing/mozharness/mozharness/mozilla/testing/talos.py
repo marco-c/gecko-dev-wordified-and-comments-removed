@@ -3563,6 +3563,23 @@ config
 enable_fission
 '
 ]
+or
+"
+fission
+.
+autostart
+=
+true
+"
+in
+self
+.
+config
+[
+'
+extra_prefs
+'
+]
 :
             
 options
