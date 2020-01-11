@@ -907,14 +907,8 @@ start
 (
 )
         
-finished
+timeout
 =
-self
-.
-result_flag
-.
-wait
-(
 self
 .
 timeout
@@ -924,6 +918,22 @@ timeout
 self
 .
 extra_timeout
+if
+self
+.
+timeout
+else
+None
+        
+finished
+=
+self
+.
+result_flag
+.
+wait
+(
+timeout
 )
         
 if

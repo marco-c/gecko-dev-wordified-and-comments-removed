@@ -3614,6 +3614,14 @@ run_count
 =
 1
         
+if
+self
+.
+debug_info
+is
+None
+:
+            
 wait_timeout
 =
 (
@@ -3634,7 +3642,7 @@ timeout_multiplier
 '
 ]
 +
-                        
+                            
 3
 *
 self
@@ -3643,7 +3651,7 @@ executor_cls
 .
 extra_timeout
 )
-        
+            
 self
 .
 timer
@@ -3672,6 +3680,12 @@ state
 test
 )
         
+if
+self
+.
+timer
+:
+            
 self
 .
 timer
