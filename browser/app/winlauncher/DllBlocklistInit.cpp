@@ -111,7 +111,7 @@ endif
 namespace
 mozilla
 {
-LauncherVoidResult
+LauncherVoidResultWithLineInfo
 InitializeDllBlocklistOOP
 (
 const
