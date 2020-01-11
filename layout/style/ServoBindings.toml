@@ -809,6 +809,12 @@ StyleOverscrollBehavior
 mozilla
 :
 :
+StyleImeMode
+"
+"
+mozilla
+:
+:
 StyleOverflowAnchor
 "
 "
