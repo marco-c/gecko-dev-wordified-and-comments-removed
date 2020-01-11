@@ -43475,7 +43475,10 @@ styleText
 mTextSizeAdjust
 !
 =
-NS_STYLE_TEXT_SIZE_ADJUST_NONE
+StyleTextSizeAdjust
+:
+:
+None
 &
 &
 !

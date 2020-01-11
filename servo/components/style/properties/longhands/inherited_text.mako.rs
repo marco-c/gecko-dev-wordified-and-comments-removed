@@ -353,10 +353,10 @@ engines
 "
 gecko
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_TEXT_SIZE_ADJUST
+StyleTextSizeAdjust
 "
 gecko_ffi_name
 =

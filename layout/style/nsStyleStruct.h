@@ -4775,7 +4775,10 @@ mRubyAlign
 uint8_t
 mRubyPosition
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextSizeAdjust
 mTextSizeAdjust
 ;
 uint8_t
