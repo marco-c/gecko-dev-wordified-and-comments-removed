@@ -707,6 +707,17 @@ aElement
 )
 ;
 static
+Element
+*
+ContainingBlockOf
+(
+GlobalObject
+&
+Element
+&
+)
+;
+static
 void
 ParseStyleSheet
 (
