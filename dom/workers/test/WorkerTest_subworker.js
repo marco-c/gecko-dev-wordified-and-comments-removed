@@ -17,7 +17,7 @@ replace
 "
 test_chromeWorkerJSM
 .
-xul
+xhtml
 "
 "
 WorkerTest_badworker
@@ -38,7 +38,7 @@ replace
 "
 test_chromeWorkerJSM
 .
-xul
+xhtml
 "
 "
 WorkerTest_badworker

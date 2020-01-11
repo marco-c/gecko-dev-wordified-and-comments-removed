@@ -1292,7 +1292,7 @@ test
 -
 ipc
 .
-xul
+xhtml
 "
 }
 {

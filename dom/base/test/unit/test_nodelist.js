@@ -1447,7 +1447,7 @@ ParseFile
 "
 nodelist_data_2
 .
-xul
+xhtml
 "
 )
 ;
@@ -2484,7 +2484,7 @@ ParseFile
 "
 nodelist_data_2
 .
-xul
+xhtml
 "
 )
 ;
