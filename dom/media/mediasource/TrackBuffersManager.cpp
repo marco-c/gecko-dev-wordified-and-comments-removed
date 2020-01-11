@@ -7808,6 +7808,16 @@ trackBuffer
 .
 mLastInfo
 ;
+MOZ_DIAGNOSTIC_ASSERT
+(
+aSample
+-
+>
+HasValidTime
+(
+)
+)
+;
 samplesRange
 +
 =
