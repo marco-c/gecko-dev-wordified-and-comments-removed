@@ -230,6 +230,15 @@ include
 "
 mozilla
 /
+CallState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ErrorResult
 .
 h
@@ -6229,14 +6238,6 @@ IsPopupSpamWindow
 ;
 private
 :
-enum
-class
-CallState
-{
-Continue
-Stop
-}
-;
 template
 <
 typename
@@ -6247,6 +6248,9 @@ typename
 .
 Args
 >
+mozilla
+:
+:
 CallState
 CallOnChildren
 (
@@ -6288,7 +6292,7 @@ Return
 :
 :
 value
-nsGlobalWindowInner
+mozilla
 :
 :
 CallState
@@ -6326,7 +6330,7 @@ aArgs
 )
 ;
 return
-nsGlobalWindowInner
+mozilla
 :
 :
 CallState
@@ -6359,7 +6363,7 @@ std
 is_same
 <
 Return
-nsGlobalWindowInner
+mozilla
 :
 :
 CallState
@@ -6367,7 +6371,7 @@ CallState
 :
 :
 value
-nsGlobalWindowInner
+mozilla
 :
 :
 CallState
@@ -6416,6 +6420,9 @@ ThawInternal
 (
 )
 ;
+mozilla
+:
+:
 CallState
 ShouldReportForServiceWorkerScopeInternal
 (
