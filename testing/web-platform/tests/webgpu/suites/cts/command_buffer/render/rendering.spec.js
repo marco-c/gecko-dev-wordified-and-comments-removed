@@ -603,7 +603,7 @@ colorBlend
 }
 }
 ]
-vertexInput
+vertexState
 :
 {
 indexFormat
