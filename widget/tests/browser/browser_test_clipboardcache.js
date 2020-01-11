@@ -264,14 +264,12 @@ tab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 SHORT_STRING_NO_CACHE
-]
 async
 shortStr
 =

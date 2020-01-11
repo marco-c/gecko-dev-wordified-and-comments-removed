@@ -3301,6 +3301,7 @@ empty
 "
 )
 ;
+await
 SpecialPowers
 .
 spawn

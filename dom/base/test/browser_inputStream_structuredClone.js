@@ -146,14 +146,12 @@ let
 dataBack
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 data
-]
 function
 (
 data
