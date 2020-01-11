@@ -2615,8 +2615,6 @@ webgpu
 -
 reftest
 -
-reftest
--
 no
 -
 accel
@@ -2682,6 +2680,8 @@ mochitest
 -
 media
 -
+reftest
+-
 xpcshell
 linux1804
 -
@@ -2705,6 +2705,8 @@ gpu
 mochitest
 -
 media
+-
+reftest
 -
 xpcshell
 linux
@@ -2741,8 +2743,6 @@ core
 mochitest
 -
 webgpu
--
-reftest
 linux
 -
 qr
