@@ -4934,7 +4934,6 @@ CheckMayLoad
 (
 uri
 false
-false
 )
 ;
 if

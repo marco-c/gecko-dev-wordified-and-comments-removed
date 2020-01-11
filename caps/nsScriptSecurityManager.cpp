@@ -2968,11 +2968,11 @@ return
 aPrincipal
 -
 >
-CheckMayLoad
+CheckMayLoadWithReporting
 (
 targetBaseURI
-true
 false
+0
 )
 ;
 }
