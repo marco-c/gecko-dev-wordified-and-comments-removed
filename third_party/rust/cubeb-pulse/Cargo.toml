@@ -42,6 +42,11 @@ written
 in
 Rust
 "
+license
+=
+"
+ISC
+"
 [
 features
 ]
@@ -115,7 +120,7 @@ semver
 ^
 0
 .
-7
+9
 "
 ringbuf
 =
