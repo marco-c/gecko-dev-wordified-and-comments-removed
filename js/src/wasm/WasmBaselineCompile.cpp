@@ -47325,6 +47325,13 @@ defined
 (
 JS_CODEGEN_ARM64
 )
+|
+|
+\
+defined
+(
+JS_CODEGEN_MIPS64
+)
 RegI64
 heapBase
 =
@@ -47354,6 +47361,12 @@ elif
 defined
 (
 JS_CODEGEN_ARM
+)
+|
+|
+defined
+(
+JS_CODEGEN_MIPS32
 )
 RegI32
 heapBase
