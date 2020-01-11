@@ -192,11 +192,6 @@ testChromeBuffer
 cpp
 '
 '
-testCloneScript
-.
-cpp
-'
-'
 testCompileNonSyntactic
 .
 cpp
