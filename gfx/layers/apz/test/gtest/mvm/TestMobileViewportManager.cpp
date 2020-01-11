@@ -187,6 +187,14 @@ aSize
 ;
 MOCK_METHOD0
 (
+PostVisualViewportResizeEventByDynamicToolbar
+void
+(
+)
+)
+;
+MOCK_METHOD0
+(
 UpdateDisplayPortMargins
 void
 (

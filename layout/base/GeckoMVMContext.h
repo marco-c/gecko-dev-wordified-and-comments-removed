@@ -249,6 +249,12 @@ aSize
 override
 ;
 void
+PostVisualViewportResizeEventByDynamicToolbar
+(
+)
+override
+;
+void
 UpdateDisplayPortMargins
 (
 )
