@@ -219,9 +219,7 @@ hop
 ;
 hops
 =
-JSON
-.
-parse
+eval
 (
 query
 .
@@ -392,9 +390,7 @@ query
 {
 headers
 =
-JSON
-.
-parse
+eval
 (
 query
 .
@@ -1132,9 +1128,7 @@ responseHeaders
 let
 responseHeaders
 =
-JSON
-.
-parse
+eval
 (
 query
 .
