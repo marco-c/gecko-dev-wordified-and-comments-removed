@@ -328,8 +328,7 @@ RemoteWorkerData
 aData
 uint64_t
 aWindowID
-const
-MessagePortIdentifier
+UniqueMessagePortId
 &
 aPortIdentifier
 base
@@ -395,6 +394,10 @@ mRemoteWorkerController
 AddPortIdentifier
 (
 aPortIdentifier
+.
+release
+(
+)
 )
 ;
 return
