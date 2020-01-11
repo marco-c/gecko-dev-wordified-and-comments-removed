@@ -496,8 +496,6 @@ gcc
 -
 multilib
 \
-gdb
-\
 gnupg
 \
 jq

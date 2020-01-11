@@ -9,7 +9,7 @@ subclasses
 assert_pretty
 (
 '
-linear
+flat
 '
 '
 "

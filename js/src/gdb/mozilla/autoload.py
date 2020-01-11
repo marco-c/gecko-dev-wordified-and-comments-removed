@@ -52,10 +52,6 @@ GCCellPtr
 import
 mozilla
 .
-ExecutableAllocator
-import
-mozilla
-.
 Interpreter
 import
 mozilla
