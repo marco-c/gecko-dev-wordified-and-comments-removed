@@ -41,7 +41,7 @@ theme
 /
 482681
 .
-xul
+xhtml
 chrome
 :
 /
@@ -58,7 +58,7 @@ theme
 -
 ref
 .
-xul
+xhtml
 skip
 -
 if
@@ -82,7 +82,7 @@ theme
 /
 radiosize
 .
-xul
+xhtml
 chrome
 :
 /
@@ -99,7 +99,7 @@ radiosize
 -
 ref
 .
-xul
+xhtml
 skip
 -
 if
@@ -123,7 +123,7 @@ theme
 /
 checkboxsize
 .
-xul
+xhtml
 chrome
 :
 /
@@ -140,7 +140,7 @@ checkboxsize
 -
 ref
 .
-xul
+xhtml
 skip
 -
 if
@@ -164,7 +164,7 @@ theme
 /
 baseline
 .
-xul
+xhtml
 about
 :
 blank
@@ -191,7 +191,7 @@ theme
 /
 nostretch
 .
-xul
+xhtml
 chrome
 :
 /
@@ -208,4 +208,4 @@ nostretch
 -
 ref
 .
-xul
+xhtml
