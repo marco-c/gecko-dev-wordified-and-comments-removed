@@ -125,9 +125,6 @@ _characterSet
 _contentPrincipal
 "
 "
-_imageDocument
-"
-"
 _isSyntheticDocument
 "
 "
@@ -284,14 +281,6 @@ _contentPrincipal
 outer
 .
 _contentPrincipal
-;
-inner
-.
-_imageDocument
-=
-outer
-.
-_imageDocument
 ;
 inner
 .
@@ -1323,9 +1312,6 @@ StyleSheets
 "
 "
 DOMTitleChanged
-"
-"
-ImageDocumentLoaded
 "
 "
 InPermitUnload
