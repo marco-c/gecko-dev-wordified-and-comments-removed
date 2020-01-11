@@ -7977,7 +7977,7 @@ return
 break
 ;
 case
-JOF_LOOPENTRY
+JOF_LOOPHEAD
 :
 if
 (
@@ -8005,11 +8005,11 @@ GET_ICINDEX
 (
 pc
 )
-LoopEntryCanIonOsr
+LoopHeadCanIonOsr
 (
 pc
 )
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 pc
 )

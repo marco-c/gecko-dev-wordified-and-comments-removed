@@ -61,7 +61,7 @@ jumpTarget
 1
 ;
 bool
-loopEntryInCatchOrFinally
+loopHeadInCatchOrFinally
 :
 1
 ;

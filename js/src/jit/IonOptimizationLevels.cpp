@@ -290,7 +290,7 @@ pc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 if
@@ -404,7 +404,7 @@ warmUpThreshold
 uint32_t
 loopDepth
 =
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 pc
 )
@@ -462,7 +462,7 @@ code
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 uint32_t
@@ -480,7 +480,7 @@ if
 pc
 !
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 |
 |
 JitOptions
@@ -497,7 +497,7 @@ threshold
 uint32_t
 loopDepth
 =
-LoopEntryDepthHint
+LoopHeadDepthHint
 (
 pc
 )

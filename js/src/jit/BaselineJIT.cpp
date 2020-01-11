@@ -804,7 +804,7 @@ pc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 EnterJitData
@@ -2033,7 +2033,7 @@ code
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 MethodStatus
@@ -2081,7 +2081,7 @@ if
 pc
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 {
 BaselineScript

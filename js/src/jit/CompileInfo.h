@@ -675,7 +675,7 @@ osrPc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 if
@@ -1098,7 +1098,7 @@ pc
 )
 =
 =
-JSOP_LOOPENTRY
+JSOP_LOOPHEAD
 )
 ;
 return
