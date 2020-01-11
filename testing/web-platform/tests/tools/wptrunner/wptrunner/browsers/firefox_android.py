@@ -37,6 +37,12 @@ MarionetteCrashtestExecutor
 )
 from
 .
+.
+process
+import
+cast_env
+from
+.
 firefox
 import
 (
@@ -1135,7 +1141,10 @@ cmd
                                            
 env
 =
+cast_env
+(
 env
+)
                                            
 symbols_path
 =
