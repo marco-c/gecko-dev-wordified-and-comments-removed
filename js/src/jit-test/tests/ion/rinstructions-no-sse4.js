@@ -68,9 +68,10 @@ uceFault_ceil_double
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace
@@ -152,9 +153,10 @@ uceFault_floor_double
 =
 eval
 (
-uneval
 (
+{
 uceFault
+}
 )
 .
 replace

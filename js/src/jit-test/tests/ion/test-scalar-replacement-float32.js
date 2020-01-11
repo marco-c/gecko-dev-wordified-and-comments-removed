@@ -86,9 +86,10 @@ test_object_ref_check
 =
 eval
 (
-uneval
 (
+{
 check_object_argument_func
+}
 )
 .
 replace
@@ -225,9 +226,10 @@ test_object_check
 =
 eval
 (
-uneval
 (
+{
 check_object_argument_func
+}
 )
 .
 replace
@@ -426,9 +428,10 @@ test_array_ref_check
 =
 eval
 (
-uneval
 (
+{
 check_array_argument_func
+}
 )
 .
 replace
@@ -563,9 +566,10 @@ test_array_check
 =
 eval
 (
-uneval
 (
+{
 check_array_argument_func
+}
 )
 .
 replace

@@ -79,6 +79,6 @@ a
 :
 true
 ]
-uneval
+print
 ;
 }
