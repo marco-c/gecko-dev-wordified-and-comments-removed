@@ -135,6 +135,11 @@ rename_gcov_flush
 patch
 "
 "
+critical_section_on_gcov_flush
+.
+patch
+"
+"
 rG7e18aeba5062
 .
 patch
