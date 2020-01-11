@@ -765,9 +765,22 @@ zip_arg
 if
 r
 .
+ok
+or
+(
+r
+.
 status_code
 <
 500
+and
+r
+.
+status_code
+!
+=
+429
+)
 :
                 
 break
