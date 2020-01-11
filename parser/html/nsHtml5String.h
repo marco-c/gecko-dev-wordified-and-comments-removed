@@ -203,7 +203,13 @@ GetUTF16String
 default
 :
 return
-nullptr
+nsCharTraits
+<
+char16_t
+>
+:
+:
+sEmptyBuffer
 ;
 }
 }
