@@ -217,6 +217,11 @@ SessionStorageObserver
 cpp
 '
 '
+SessionStorageService
+.
+cpp
+'
+'
 Storage
 .
 cpp
