@@ -1125,7 +1125,7 @@ before
 {
 border
 -
-bottom
+top
 -
 color
 :
@@ -1140,7 +1140,7 @@ purple
 ;
 border
 -
-bottom
+top
 -
 width
 :
@@ -1154,18 +1154,6 @@ paused
 ~
 .
 message
-:
-not
-(
-.
-command
-)
-:
-not
-(
-.
-result
-)
 .
 message
 -
