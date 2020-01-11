@@ -262,7 +262,7 @@ EXTRA_LAUNCH_OPTIONS
 }
 catch
 (
-e
+error
 )
 {
 console
@@ -277,7 +277,7 @@ parsing
 EXTRA_LAUNCH_OPTIONS
 :
 {
-e
+error
 .
 message
 }
@@ -359,7 +359,7 @@ RESET_COLOR
 else
 {
 const
-path
+executablePath
 =
 puppeteer
 .
@@ -374,7 +374,7 @@ fs
 .
 existsSync
 (
-path
+executablePath
 )
 )
 throw
@@ -387,7 +387,7 @@ not
 downloaded
 at
 {
-path
+executablePath
 }
 .
 Run

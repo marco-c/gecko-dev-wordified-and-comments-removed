@@ -30,12 +30,11 @@ transform
 exclude
 internal
 type
-definition
-files
+definitions
 /
 lib
 /
-*
+externs
 .
 d
 .
