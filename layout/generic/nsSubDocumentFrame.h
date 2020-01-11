@@ -558,14 +558,6 @@ friend
 class
 AsyncFrameInit
 ;
-mozilla
-:
-:
-CSSIntSize
-GetMarginAttributes
-(
-)
-;
 bool
 IsInline
 (

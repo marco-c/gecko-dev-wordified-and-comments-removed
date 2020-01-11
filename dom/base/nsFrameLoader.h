@@ -869,14 +869,6 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 Show
 (
-int32_t
-marginWidth
-int32_t
-marginHeight
-mozilla
-:
-:
-ScrollbarPreference
 nsSubDocumentFrame
 *
 )
@@ -889,10 +881,6 @@ MaybeShowFrame
 void
 MarginsChanged
 (
-uint32_t
-aMarginWidth
-uint32_t
-aMarginHeight
 )
 ;
 void
