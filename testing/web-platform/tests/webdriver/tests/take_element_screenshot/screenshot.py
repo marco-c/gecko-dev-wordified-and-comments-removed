@@ -26,7 +26,7 @@ inline
 from
 .
 import
-element_rect
+element_dimensions
 def
 take_element_screenshot
 (
@@ -203,14 +203,6 @@ all
 False
 )
     
-rect
-=
-element_rect
-(
-session
-element
-)
-    
 response
 =
 take_element_screenshot
@@ -235,17 +227,8 @@ screenshot
 )
 =
 =
+element_dimensions
 (
-rect
-[
-"
-width
-"
-]
-rect
-[
-"
-height
-"
-]
+session
+element
 )
