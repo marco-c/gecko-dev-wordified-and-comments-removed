@@ -9508,8 +9508,15 @@ s
 GetFixedPositionScrollContainerId
 (
 )
+static_cast
+<
+unsigned
+int
+>
+(
 GetFixedPositionSides
 (
+)
 )
 ToString
 (

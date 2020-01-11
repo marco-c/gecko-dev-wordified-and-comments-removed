@@ -930,7 +930,10 @@ mScrollbarNode
 SideBits
 mFixedPosSides
 =
-eSideBitsNone
+SideBits
+:
+:
+eNone
 ;
 HitTestResult
 (
@@ -1691,7 +1694,10 @@ mHitResultForInputBlock
 SideBits
 mFixedPosSidesForInputBlock
 =
-eSideBitsNone
+SideBits
+:
+:
+eNone
 ;
 int32_t
 mRetainedTouchIdentifier

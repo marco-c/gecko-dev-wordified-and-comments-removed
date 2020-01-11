@@ -1424,7 +1424,10 @@ IsValid
 )
 ;
 return
-eSideBitsNone
+SideBits
+:
+:
+eNone
 ;
 }
 Maybe

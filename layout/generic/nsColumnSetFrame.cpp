@@ -1097,7 +1097,10 @@ skipSides
 mozilla
 :
 :
-eSideBitsLeftRight
+SideBits
+:
+:
+eLeftRight
 ;
 skipSides
 |
@@ -1105,7 +1108,10 @@ skipSides
 mozilla
 :
 :
-eSideBitsBottom
+SideBits
+:
+:
+eBottom
 ;
 }
 else
@@ -1144,7 +1150,10 @@ skipSides
 mozilla
 :
 :
-eSideBitsTopBottom
+SideBits
+:
+:
+eTopBottom
 ;
 skipSides
 |
@@ -1152,7 +1161,10 @@ skipSides
 mozilla
 :
 :
-eSideBitsRight
+SideBits
+:
+:
+eRight
 ;
 }
 border

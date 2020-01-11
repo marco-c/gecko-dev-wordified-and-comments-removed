@@ -499,7 +499,10 @@ mLocalClip
 bool
 AreBorderSideFinalStylesSame
 (
-uint8_t
+mozilla
+:
+:
+SideBits
 aSides
 )
 ;
@@ -635,7 +638,10 @@ const
 Float
 *
 aBorderSizes
-int
+mozilla
+:
+:
+SideBits
 aSides
 const
 ColorPattern
@@ -646,7 +652,10 @@ aColor
 void
 DrawBorderSides
 (
-int
+mozilla
+:
+:
+SideBits
 aSides
 )
 ;

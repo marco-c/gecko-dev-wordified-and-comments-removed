@@ -8846,7 +8846,10 @@ if
 mFixedPosSidesForInputBlock
 !
 =
-eSideBitsNone
+SideBits
+:
+:
+eNone
 )
 {
 RecursiveMutexAutoLock
@@ -14294,7 +14297,10 @@ if
 mFixedPosSidesForInputBlock
 !
 =
-eSideBitsNone
+SideBits
+:
+:
+eNone
 )
 {
 *

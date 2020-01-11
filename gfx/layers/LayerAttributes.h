@@ -1259,7 +1259,10 @@ mFixedPositionData
 >
 mSides
 :
-eSideBitsNone
+SideBits
+:
+:
+eNone
 ;
 }
 bool
