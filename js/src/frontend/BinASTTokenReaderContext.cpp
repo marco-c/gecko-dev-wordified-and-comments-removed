@@ -1770,9 +1770,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 list
@@ -1961,9 +1958,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 identity
@@ -2049,9 +2043,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 identity
@@ -3178,9 +3169,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 entry
@@ -3237,9 +3225,6 @@ Ok
 >
 readTable
 (
-HuffmanDictionary
-:
-:
 TableIdentity
 tableId
 Entry
@@ -3547,9 +3532,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 entry
@@ -3655,9 +3637,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 entry
@@ -3776,9 +3755,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 entry
@@ -5699,9 +5675,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 NormalizedInterfaceAndField
@@ -5823,9 +5796,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 NormalizedInterfaceAndField
@@ -6726,9 +6696,6 @@ const
 auto
 tableId
 =
-HuffmanDictionary
-:
-:
 TableIdentity
 (
 context
