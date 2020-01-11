@@ -111,6 +111,8 @@ requestAnimationFrame
 )
 =
 >
+content
+.
 setTimeout
 (
 resolve
