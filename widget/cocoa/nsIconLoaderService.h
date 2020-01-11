@@ -96,6 +96,8 @@ LoadIcon
 nsIURI
 *
 aIconURI
+bool
+aIsInternalIcon
 )
 ;
 NSImage
@@ -104,6 +106,16 @@ GetNativeIconImage
 (
 )
 ;
+void
+ReleaseJSObjects
+(
+)
+{
+mContent
+=
+nil
+;
+}
 void
 Destroy
 (
