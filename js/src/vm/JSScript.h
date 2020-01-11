@@ -9345,7 +9345,7 @@ IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 bindingsAccessedDynamically
 BindingsAccessedDynamically
 )
-IMMUTABLE_FLAG_GETTER
+IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 (
 funHasExtensibleScope
 FunHasExtensibleScope
