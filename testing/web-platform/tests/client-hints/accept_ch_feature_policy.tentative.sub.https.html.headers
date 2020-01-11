@@ -13,6 +13,7 @@ rtt
 downlink
 ect
 lang
+mobile
 Feature
 -
 Policy
@@ -46,3 +47,7 @@ lang
 '
 none
 '
+;
+ch
+-
+mobile
