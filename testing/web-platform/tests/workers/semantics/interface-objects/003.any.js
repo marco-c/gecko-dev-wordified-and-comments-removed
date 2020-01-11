@@ -205,7 +205,7 @@ i
 ;
 i
 <
-unexpected
+expected
 .
 length
 ;
@@ -222,7 +222,7 @@ function
 {
 assert_true
 (
-unexpected
+expected
 [
 i
 ]
@@ -235,7 +235,7 @@ self
 The
 "
 +
-unexpected
+expected
 [
 i
 ]
@@ -244,7 +244,6 @@ i
 interface
 object
 should
-not
 be
 exposed
 "
