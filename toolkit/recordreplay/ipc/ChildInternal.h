@@ -150,6 +150,11 @@ GetId
 (
 )
 ;
+size_t
+GetForkId
+(
+)
+;
 extern
 Monitor
 *

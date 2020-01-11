@@ -1081,10 +1081,6 @@ GetId
 )
 )
 ;
-BusyWait
-(
-)
-;
 if
 (
 js
