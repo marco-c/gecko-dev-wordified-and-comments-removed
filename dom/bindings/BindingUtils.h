@@ -12865,7 +12865,6 @@ mReflector
 =
 aReflector
 ;
-}
 if
 (
 size_t
@@ -12893,6 +12892,7 @@ MemoryUse
 DOMBinding
 )
 ;
+}
 }
 }
 void
@@ -12969,7 +12969,6 @@ mReflector
 =
 aReflector
 ;
-}
 if
 (
 size_t
@@ -12997,6 +12996,7 @@ MemoryUse
 DOMBinding
 )
 ;
+}
 }
 }
 void
