@@ -582,6 +582,10 @@ test
 (
 self
 cond
+options
+=
+[
+]
 )
 :
         
@@ -633,6 +637,8 @@ js_bin
 self
 .
 js_args
++
+options
 +
 [
                 
@@ -835,6 +841,10 @@ test
 (
 self
 cond
+options
+=
+[
+]
 )
 :
         
@@ -952,6 +962,58 @@ pos
 startswith
 (
 '
+shell
+-
+option
+(
+'
+)
+:
+            
+option
+=
+parts
+[
+pos
+]
+[
+len
+(
+'
+shell
+-
+option
+(
+'
+)
+:
+-
+1
+]
+            
+testcase
+.
+options
+.
+append
+(
+option
+)
+            
+pos
++
+=
+1
+        
+elif
+parts
+[
+pos
+]
+.
+startswith
+(
+'
 fails
 -
 if
@@ -986,6 +1048,9 @@ xul_tester
 test
 (
 cond
+testcase
+.
+options
 )
 :
                 
@@ -1064,6 +1129,9 @@ xul_tester
 test
 (
 cond
+testcase
+.
+options
 )
 :
                 
@@ -1176,6 +1244,9 @@ xul_tester
 test
 (
 cond
+testcase
+.
+options
 )
 :
                 
@@ -1256,6 +1327,9 @@ xul_tester
 test
 (
 cond
+testcase
+.
+options
 )
 :
                 
@@ -1297,6 +1371,9 @@ OS
 Darwin
 '
 "
+testcase
+.
+options
 )
 :
                 
@@ -1519,6 +1596,19 @@ startswith
 ignore
 -
 flag
+(
+"
+)
+or
+                                  
+term
+.
+startswith
+(
+"
+shell
+-
+option
 (
 "
 )
