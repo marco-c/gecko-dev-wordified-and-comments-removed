@@ -1,15 +1,6 @@
 #
 include
 "
-gc
-/
-Verifier
-.
-h
-"
-#
-include
-"
 mozilla
 /
 DebugOnly
