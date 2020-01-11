@@ -4240,14 +4240,6 @@ NS_ERROR_FAILURE
 ;
 }
 loadState
--
->
-SetSHEntry
-(
-this
-)
-;
-loadState
 .
 forget
 (

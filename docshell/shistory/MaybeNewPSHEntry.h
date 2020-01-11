@@ -63,6 +63,12 @@ class
 LegacySHEntry
 ;
 class
+PSHistoryChild
+;
+class
+PSHistoryParent
+;
+class
 PSHEntryChild
 ;
 class

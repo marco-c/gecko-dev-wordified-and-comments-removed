@@ -559,16 +559,6 @@ ClearEntry
 override
 ;
 NS_IMETHOD
-CreateLoadInfo
-(
-nsDocShellLoadState
-*
-*
-aLoadState
-)
-override
-;
-NS_IMETHOD
 GetBfcacheID
 (
 uint64_t
