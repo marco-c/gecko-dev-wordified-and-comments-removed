@@ -52,7 +52,7 @@ class
 nsIDocShell
 ;
 class
-nsIChildChannel
+nsIChannel
 ;
 class
 nsIReferrerInfo
@@ -109,7 +109,7 @@ static
 nsresult
 CreateFromPendingChannel
 (
-nsIChildChannel
+nsIChannel
 *
 aPendingChannel
 nsDocShellLoadState
@@ -672,7 +672,7 @@ return
 mIsFromProcessingFrameAttributes
 ;
 }
-nsIChildChannel
+nsIChannel
 *
 GetPendingRedirectedChannel
 (
@@ -903,7 +903,7 @@ mIsFromProcessingFrameAttributes
 ;
 nsCOMPtr
 <
-nsIChildChannel
+nsIChannel
 >
 mPendingRedirectedChannel
 ;
