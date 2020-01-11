@@ -910,6 +910,9 @@ ScalarTypeDescr
 :
 :
 call
+nullptr
+nullptr
+nullptr
 }
 ;
 const
@@ -1733,6 +1736,9 @@ ReferenceTypeDescr
 :
 :
 call
+nullptr
+nullptr
+nullptr
 }
 ;
 const
@@ -2268,6 +2274,7 @@ TypedObject
 :
 :
 construct
+nullptr
 }
 ;
 const
@@ -3538,6 +3545,7 @@ TypedObject
 :
 :
 construct
+nullptr
 }
 ;
 const

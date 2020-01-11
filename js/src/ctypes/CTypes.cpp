@@ -2209,6 +2209,7 @@ nullptr
 ConstructAbstract
 nullptr
 ConstructAbstract
+nullptr
 }
 ;
 static
@@ -2318,6 +2319,7 @@ FunctionType
 :
 :
 Call
+nullptr
 }
 ;
 static
@@ -2411,6 +2413,10 @@ CDataFinalizer
 :
 :
 Finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -3451,6 +3457,10 @@ Int64Base
 :
 :
 Finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

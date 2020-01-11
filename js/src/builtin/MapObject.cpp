@@ -713,6 +713,10 @@ MapIteratorObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -5540,6 +5544,10 @@ SetIteratorObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

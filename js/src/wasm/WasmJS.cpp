@@ -4254,6 +4254,10 @@ WasmModuleObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const
@@ -9817,6 +9821,10 @@ WasmMemoryObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const
@@ -20346,6 +20354,10 @@ ResolveResponseClosure
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const

@@ -408,6 +408,11 @@ nullptr
 nullptr
 document_resolve
 nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

@@ -697,6 +697,7 @@ nullptr
 nullptr
 nullptr
 constructHook
+nullptr
 }
 ;
 static
@@ -1032,6 +1033,17 @@ JSClassOps
 Base_classOps
 =
 {
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

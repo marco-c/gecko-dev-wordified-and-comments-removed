@@ -25,6 +25,12 @@ nullptr
 nullptr
 nullptr
 my_resolve
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

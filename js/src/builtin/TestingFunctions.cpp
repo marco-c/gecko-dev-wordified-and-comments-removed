@@ -15668,6 +15668,10 @@ nullptr
 nullptr
 nullptr
 finalize_counter_finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -19742,6 +19746,10 @@ CloneBufferObject
 :
 :
 Finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const

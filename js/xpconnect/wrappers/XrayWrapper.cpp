@@ -5856,6 +5856,10 @@ nullptr
 nullptr
 nullptr
 ExpandoObjectFinalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 bool

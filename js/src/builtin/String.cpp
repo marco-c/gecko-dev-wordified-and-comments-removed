@@ -2505,6 +2505,11 @@ str_enumerate
 nullptr
 str_resolve
 str_mayResolve
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const

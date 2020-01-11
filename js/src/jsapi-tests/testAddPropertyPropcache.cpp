@@ -63,6 +63,16 @@ AddPropertyClassOps
 =
 {
 AddProperty
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

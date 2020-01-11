@@ -25837,6 +25837,10 @@ XDRBufferObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const
@@ -36123,6 +36127,9 @@ nullptr
 nullptr
 nullptr
 IsHTMLDDA_Call
+nullptr
+nullptr
+nullptr
 }
 ;
 static
@@ -40387,6 +40394,10 @@ StreamCacheEntryObject
 :
 :
 finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const

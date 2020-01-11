@@ -138,6 +138,10 @@ Library
 :
 :
 Finalize
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 static

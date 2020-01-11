@@ -2147,6 +2147,13 @@ ModuleEnvironmentObject
 :
 :
 newEnumerate
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
+nullptr
 }
 ;
 const
