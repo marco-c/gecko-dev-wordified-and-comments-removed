@@ -764,7 +764,7 @@ the
 result
 of
 calling
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 )
 .

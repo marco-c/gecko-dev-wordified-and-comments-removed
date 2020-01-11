@@ -1407,7 +1407,7 @@ Telemetry
 SUBPROCESS_ABNORMAL_ABORT
 nsDependentCString
 (
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 GeckoProcessType_GPU
 )

@@ -798,7 +798,7 @@ pid
 u
 .
 "
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (
@@ -1199,7 +1199,7 @@ pid
 d
 .
 "
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (

@@ -496,7 +496,7 @@ continue
 }
 NoteIntentionalCrash
 (
-XRE_ChildProcessTypeToString
+XRE_GeckoProcessTypeToString
 (
 XRE_GetProcessType
 (
