@@ -2935,15 +2935,6 @@ prefDefinition
 referenceElement
 )
 ;
-parent
-.
-removeAttribute
-(
-"
-hidden
-"
-)
-;
 }
 }
 async
