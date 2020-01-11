@@ -145,6 +145,9 @@ content
 primary_button
 .
 action
+props
+.
+message
 )
 ;
 }
