@@ -26074,7 +26074,7 @@ isLikelyConstructorWrapper
 innerScript
 -
 >
-setLikelyConstructorWrapper
+setIsLikelyConstructorWrapper
 (
 )
 ;

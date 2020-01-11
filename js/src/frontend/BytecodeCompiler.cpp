@@ -4849,7 +4849,7 @@ isLikelyConstructorWrapper
 script
 -
 >
-setLikelyConstructorWrapper
+setIsLikelyConstructorWrapper
 (
 )
 ;

@@ -2747,7 +2747,7 @@ baseScript
 )
 -
 >
-hasThisBinding
+functionHasThisBinding
 (
 )
 ;
