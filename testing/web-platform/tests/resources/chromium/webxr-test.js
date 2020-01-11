@@ -47,12 +47,6 @@ default_stage_parameters
 standingTransform
 :
 default_standing
-sizeX
-:
-0
-sizeZ
-:
-0
 bounds
 :
 null
