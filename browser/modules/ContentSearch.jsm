@@ -1420,7 +1420,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 "
 browser
