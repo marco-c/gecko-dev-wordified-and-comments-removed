@@ -162,7 +162,7 @@ contentDocAcc
 if
 (
 !
-gFissionBrowser
+gIsRemoteIframe
 )
 {
 events
@@ -392,6 +392,9 @@ topLevel
 :
 false
 iframe
+:
+true
+remoteIframe
 :
 true
 iframeAttrs

@@ -162,6 +162,9 @@ ENTRY
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

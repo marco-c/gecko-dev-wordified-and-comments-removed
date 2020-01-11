@@ -542,6 +542,9 @@ false
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

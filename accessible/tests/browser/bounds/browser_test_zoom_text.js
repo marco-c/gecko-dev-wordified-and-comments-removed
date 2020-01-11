@@ -339,6 +339,9 @@ runTests
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

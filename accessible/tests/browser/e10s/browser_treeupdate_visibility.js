@@ -804,6 +804,9 @@ TEXT_LEAF
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

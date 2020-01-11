@@ -332,6 +332,9 @@ EXT_STATE_EDITABLE
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

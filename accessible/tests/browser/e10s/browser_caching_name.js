@@ -159,7 +159,7 @@ alt
 "
 waitFor
 :
-EVENT_REORDER
+EVENT_NAME_CHANGE
 }
 {
 attr
@@ -226,6 +226,9 @@ attr
 "
 alt
 "
+waitFor
+:
+EVENT_NAME_CHANGE
 }
 {
 attr
@@ -255,6 +258,9 @@ attr
 "
 alt
 "
+waitFor
+:
+EVENT_NAME_CHANGE
 }
 {
 attr
@@ -2139,6 +2145,14 @@ CSSContent
 markup
 :
 <
+div
+role
+=
+"
+main
+"
+>
+<
 style
 >
 button
@@ -2171,6 +2185,10 @@ me
 <
 /
 button
+>
+<
+/
+div
 >
 expected
 :
@@ -2901,6 +2919,9 @@ event
 }
 {
 iframe
+:
+true
+remoteIframe
 :
 true
 }

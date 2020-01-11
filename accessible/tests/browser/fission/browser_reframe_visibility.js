@@ -204,7 +204,7 @@ hidden
 ;
 if
 (
-gFissionBrowser
+gIsRemoteIframe
 )
 {
 ok
@@ -349,7 +349,7 @@ contentDocAcc
 if
 (
 !
-gFissionBrowser
+gIsRemoteIframe
 )
 {
 events
@@ -532,7 +532,7 @@ accessible
 ;
 if
 (
-gFissionBrowser
+gIsRemoteIframe
 )
 {
 ok
@@ -655,6 +655,9 @@ topLevel
 :
 false
 iframe
+:
+true
+remoteIframe
 :
 true
 }

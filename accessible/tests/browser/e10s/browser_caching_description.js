@@ -913,6 +913,9 @@ expected
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

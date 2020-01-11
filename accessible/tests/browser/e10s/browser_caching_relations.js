@@ -363,6 +363,9 @@ spec
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

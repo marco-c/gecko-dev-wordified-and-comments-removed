@@ -143,6 +143,9 @@ DIALOG
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

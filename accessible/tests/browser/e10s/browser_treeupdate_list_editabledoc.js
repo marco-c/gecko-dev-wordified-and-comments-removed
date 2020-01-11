@@ -200,6 +200,9 @@ children
 iframe
 :
 true
+remoteIframe
+:
+true
 }
 )
 ;

@@ -102,7 +102,7 @@ present
 )
 ;
 (
-gFissionBrowser
+gIsRemoteIframe
 ?
 isnot
 :
@@ -137,7 +137,7 @@ documents
 are
 in
 {
-gFissionBrowser
+gIsRemoteIframe
 ?
 "
 separate
@@ -299,6 +299,9 @@ topLevel
 :
 false
 iframe
+:
+true
+remoteIframe
 :
 true
 }
