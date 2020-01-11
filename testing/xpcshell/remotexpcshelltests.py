@@ -3526,11 +3526,25 @@ xpcDir
         
 self
 .
-initDir
+device
+.
+rm
 (
 self
 .
 remoteScriptsDir
+recursive
+=
+True
+force
+=
+True
+timeout
+=
+None
+root
+=
+True
 )
         
 self
