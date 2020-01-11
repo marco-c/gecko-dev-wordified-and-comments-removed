@@ -934,9 +934,7 @@ make_hosts_file
 )
 :
     
-subprocess
-.
-check_call
+run
 (
 [
 "
@@ -974,9 +972,7 @@ rev
 )
 :
     
-subprocess
-.
-check_call
+run
 (
 [
 "
@@ -999,9 +995,7 @@ install_certificates
 )
 :
     
-subprocess
-.
-check_call
+run
 (
 [
 "
@@ -1019,7 +1013,7 @@ cacert
 .
 pem
 "
-                           
+         
 "
 /
 usr
@@ -1039,9 +1033,7 @@ crt
 ]
 )
     
-subprocess
-.
-check_call
+run
 (
 [
 "
@@ -2714,9 +2706,7 @@ None
         
 task_head
 =
-subprocess
-.
-check_output
+run
 (
 [
 "
@@ -2731,6 +2721,9 @@ parse
 task_head
 "
 ]
+return_stdout
+=
+True
 )
 .
 strip
