@@ -5700,7 +5700,7 @@ NS_ERROR_ABORT
 return
 ;
 }
-ShowInfo
+ParentShowInfo
 showInfo
 (
 EmptyString
@@ -5761,7 +5761,7 @@ openerShell
 ;
 showInfo
 =
-ShowInfo
+ParentShowInfo
 (
 EmptyString
 (
