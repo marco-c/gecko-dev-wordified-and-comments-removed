@@ -117,5 +117,3 @@ SendUIMessageToVRWindow
 PRIVATE
 WaitForVREvent
 PRIVATE
-SendVRTelemetry
-PRIVATE

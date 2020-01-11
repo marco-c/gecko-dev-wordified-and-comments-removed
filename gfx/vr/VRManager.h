@@ -397,11 +397,6 @@ aNotifyCond
 false
 )
 ;
-void
-ProcessTelemetryEvent
-(
-)
-;
 static
 uint32_t
 AllocateDisplayID
