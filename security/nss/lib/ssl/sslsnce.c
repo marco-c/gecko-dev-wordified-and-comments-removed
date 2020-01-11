@@ -8342,10 +8342,14 @@ SECFailure
 SECKEYPublicKey
 *
 pubKeyCopy
+=
+NULL
 ;
 SECKEYPrivateKey
 *
 privKeyCopy
+=
+NULL
 ;
 PRBool
 noKey
