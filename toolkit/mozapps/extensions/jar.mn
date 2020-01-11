@@ -68,6 +68,7 @@ mozapps
 #
 ifndef
 MOZ_FENNEC
+*
 content
 /
 mozapps
