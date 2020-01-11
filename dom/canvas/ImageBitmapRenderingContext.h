@@ -340,6 +340,9 @@ Image
 >
 mImage
 ;
+bool
+mIsCapturedFrameInvalid
+;
 }
 ;
 }
