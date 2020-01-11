@@ -14286,7 +14286,7 @@ then
 MOZ_APP_NAME
 =
 "
-mozjs
+js
 "
 JS_LIBRARY_NAME
 =
