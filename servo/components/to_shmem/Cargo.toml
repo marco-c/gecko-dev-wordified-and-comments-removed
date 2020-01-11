@@ -105,11 +105,9 @@ smallbitvec
 smallvec
 =
 "
+1
+.
 0
-.
-6
-.
-6
 "
 string_cache
 =

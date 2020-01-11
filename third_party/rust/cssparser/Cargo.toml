@@ -127,7 +127,7 @@ version
 .
 27
 .
-1
+2
 "
 authors
 =
@@ -344,9 +344,9 @@ smallvec
 version
 =
 "
-0
+1
 .
-6
+0
 "
 [
 dev

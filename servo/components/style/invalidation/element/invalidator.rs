@@ -2749,6 +2749,8 @@ new_sibling_invalidations
 .
 drain
 (
+.
+.
 )
 )
 ;
