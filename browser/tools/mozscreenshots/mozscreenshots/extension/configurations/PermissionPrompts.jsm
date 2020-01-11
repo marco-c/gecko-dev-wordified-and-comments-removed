@@ -60,7 +60,6 @@ jsm
 "
 )
 ;
-;
 const
 {
 BrowserTestUtils
