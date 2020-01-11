@@ -109,6 +109,16 @@ EXTRA_JS_MODULES
 =
 [
 '
+ConduitsChild
+.
+jsm
+'
+'
+ConduitsParent
+.
+jsm
+'
+'
 Extension
 .
 jsm
