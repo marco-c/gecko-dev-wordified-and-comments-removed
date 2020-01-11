@@ -6234,6 +6234,8 @@ nsACString
 filenameArg
 int32_t
 lineNumber
+bool
+enforceFilenameRestrictions
 JSContext
 *
 cx
@@ -6354,6 +6356,19 @@ cx
 ;
 }
 }
+enforceFilenameRestrictions
+=
+(
+optionalArgc
+>
+=
+4
+)
+?
+enforceFilenameRestrictions
+:
+true
+;
 return
 xpc
 :
@@ -6365,6 +6380,7 @@ sandbox
 source
 filename
 lineNo
+enforceFilenameRestrictions
 retval
 )
 ;
