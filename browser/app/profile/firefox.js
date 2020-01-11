@@ -2993,7 +2993,7 @@ permissions
 .
 delegation
 .
-enable
+enabled
 "
 true
 )
@@ -3007,7 +3007,7 @@ permissions
 .
 delegation
 .
-enable
+enabled
 "
 false
 )
