@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h
@@ -278,6 +285,9 @@ uint32_t
 aDocumentOpenFlags
 bool
 aPluginsAllowed
+nsDOMNavigationTiming
+*
+aTiming
 nsresult
 *
 aRv
@@ -905,6 +915,12 @@ nsCOMPtr
 nsIURI
 >
 mChannelCreationURI
+;
+RefPtr
+<
+nsDOMNavigationTiming
+>
+mTiming
 ;
 nsTArray
 <

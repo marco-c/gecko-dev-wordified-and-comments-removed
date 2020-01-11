@@ -23,6 +23,13 @@ h
 #
 include
 "
+nsDOMNavigationTiming
+.
+h
+"
+#
+include
+"
 nsDataHashtable
 .
 h
@@ -70,6 +77,8 @@ DocumentChannelRedirect
 &
 &
 uint32_t
+nsDOMNavigationTiming
+*
 )
 >
 ;
@@ -104,6 +113,9 @@ DocumentChannelRedirect
 aRedirects
 uint32_t
 aLoadStateLoadFlags
+nsDOMNavigationTiming
+*
+aTiming
 )
 ;
 static
@@ -150,6 +162,12 @@ mRedirects
 ;
 uint32_t
 mLoadStateLoadFlags
+;
+RefPtr
+<
+nsDOMNavigationTiming
+>
+mTiming
 ;
 }
 ;
