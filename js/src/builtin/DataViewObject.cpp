@@ -1286,6 +1286,8 @@ littleEndian
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 return
 !
 littleEndian

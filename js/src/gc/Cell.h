@@ -3059,6 +3059,8 @@ length_
 #
 elif
 MOZ_LITTLE_ENDIAN
+(
+)
 static
 constexpr
 size_t

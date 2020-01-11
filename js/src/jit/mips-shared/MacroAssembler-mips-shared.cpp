@@ -2611,6 +2611,8 @@ extension
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -
@@ -3473,6 +3475,8 @@ extension
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 "
 Wasm
 -
@@ -10961,6 +10965,8 @@ SecondScratchReg
 if
 !
 MOZ_LITTLE_ENDIAN
+(
+)
 masm
 .
 as_xori
@@ -11711,6 +11717,8 @@ SecondScratchReg
 if
 !
 MOZ_LITTLE_ENDIAN
+(
+)
 masm
 .
 as_xori
@@ -12502,6 +12510,8 @@ SecondScratchReg
 if
 !
 MOZ_LITTLE_ENDIAN
+(
+)
 masm
 .
 as_xori
@@ -13374,6 +13384,8 @@ SecondScratchReg
 if
 !
 MOZ_LITTLE_ENDIAN
+(
+)
 masm
 .
 as_xori

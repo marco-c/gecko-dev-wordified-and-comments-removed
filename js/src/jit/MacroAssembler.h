@@ -586,6 +586,8 @@ OOL_IN_HEADER
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 #
 define
 IMM32_16ADJ

@@ -2832,8 +2832,10 @@ case
 GMP_BufferLength16
 :
 #
-ifdef
+if
 MOZ_LITTLE_ENDIAN
+(
+)
 size
 =
 LittleEndian
@@ -2923,8 +2925,10 @@ case
 GMP_BufferLength32
 :
 #
-ifdef
+if
 MOZ_LITTLE_ENDIAN
+(
+)
 size
 =
 LittleEndian

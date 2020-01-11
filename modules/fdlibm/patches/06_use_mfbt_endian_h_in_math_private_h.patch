@@ -380,6 +380,8 @@ BIG_ENDIAN
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 typedef
 union
 {
@@ -433,6 +435,8 @@ LITTLE_ENDIAN
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 typedef
 union
 {
@@ -513,6 +517,8 @@ ints
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 typedef
 union
 {
@@ -559,6 +565,8 @@ LITTLE_ENDIAN
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 typedef
 union
 {

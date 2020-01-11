@@ -122,6 +122,8 @@ p3
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 p1
 .
 Assign

@@ -22178,6 +22178,8 @@ scratch
 MOZ_ASSERT
 (
 MOZ_LITTLE_ENDIAN
+(
+)
 )
 ;
 masm

@@ -481,6 +481,8 @@ pc
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 uint32_t
 result
 ;
@@ -559,6 +561,8 @@ i
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 memcpy
 (
 pc

@@ -8220,6 +8220,8 @@ cacheV2
 bool
 (
 MOZ_BIG_ENDIAN
+(
+)
 )
 )
 {

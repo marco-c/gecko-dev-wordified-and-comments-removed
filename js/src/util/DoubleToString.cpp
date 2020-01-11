@@ -48,6 +48,8 @@ js
 #
 if
 MOZ_LITTLE_ENDIAN
+(
+)
 #
 define
 IEEE_8087

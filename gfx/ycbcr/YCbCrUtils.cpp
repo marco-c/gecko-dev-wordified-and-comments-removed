@@ -1140,6 +1140,8 @@ mYUVColorSpace
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 if
 (
 aDestFormat
@@ -1232,6 +1234,8 @@ aDstStrideARGB
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 gfx
 :
 :

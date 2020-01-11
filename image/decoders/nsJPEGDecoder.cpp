@@ -125,6 +125,8 @@ h
 #
 if
 MOZ_BIG_ENDIAN
+(
+)
 #
 define
 MOZ_JCS_EXT_NATIVE_ENDIAN_XRGB
