@@ -78,6 +78,12 @@ init
 this
 )
 ;
+AddonTestUtils
+.
+overrideCertDB
+(
+)
+;
 ChromeUtils
 .
 defineModuleGetter
