@@ -4707,15 +4707,6 @@ interface
 Document
 {
 [
-Pref
-=
-"
-permissions
-.
-delegation
-.
-enabled
-"
 ChromeOnly
 Pure
 ]
