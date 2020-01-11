@@ -1511,7 +1511,10 @@ nullptr
 wr
 :
 :
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 false
 wr
 :

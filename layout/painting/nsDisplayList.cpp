@@ -36480,7 +36480,10 @@ prim_flags
 wr
 :
 :
-PrimitiveFlags_IS_SCROLLBAR_CONTAINER
+PrimitiveFlags
+:
+:
+IS_SCROLLBAR_CONTAINER
 ;
 }
 if
@@ -36498,7 +36501,10 @@ prim_flags
 wr
 :
 :
-PrimitiveFlags_IS_SCROLLBAR_THUMB
+PrimitiveFlags
+:
+:
+IS_SCROLLBAR_THUMB
 ;
 }
 StackingContextHelper
@@ -44871,7 +44877,10 @@ BackfaceIsHidden
 wr
 :
 :
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 :
 wr
 :
@@ -48112,7 +48121,10 @@ BackfaceIsHidden
 wr
 :
 :
-PrimitiveFlags_IS_BACKFACE_VISIBLE
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
 :
 wr
 :
