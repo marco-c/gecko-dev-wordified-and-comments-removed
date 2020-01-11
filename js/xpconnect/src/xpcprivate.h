@@ -4514,16 +4514,6 @@ iid
 const
 ;
 uint16_t
-GetMemberCount
-(
-)
-const
-{
-return
-mMemberCount
-;
-}
-uint16_t
 GetInterfaceCount
 (
 )
@@ -4641,10 +4631,6 @@ XPCNativeSet
 (
 )
 :
-mMemberCount
-(
-0
-)
 mInterfaceCount
 (
 0
@@ -4686,9 +4672,6 @@ inst
 ;
 private
 :
-uint16_t
-mMemberCount
-;
 uint16_t
 mInterfaceCount
 ;
