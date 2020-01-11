@@ -88,6 +88,7 @@ setRecordingPreferencesOnBrowser
 getSymbolsFromThisBrowser
 }
 =
+(
 ChromeUtils
 .
 import
@@ -113,6 +114,7 @@ jsm
 .
 js
 "
+)
 )
 ;
 const
