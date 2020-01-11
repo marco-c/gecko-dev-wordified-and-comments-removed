@@ -272,6 +272,12 @@ InitializeUserPrefs
 )
 ;
 static
+void
+FinishInitializingUserPrefs
+(
+)
+;
+static
 already_AddRefed
 <
 Preferences

@@ -2378,6 +2378,11 @@ AreNonLocalConnectionsDisabled
 )
 ;
 }
+void
+InitializeJSContext
+(
+)
+;
 mozilla
 :
 :

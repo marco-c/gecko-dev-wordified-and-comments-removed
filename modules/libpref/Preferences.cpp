@@ -17280,6 +17280,15 @@ forget
 (
 )
 ;
+}
+void
+Preferences
+:
+:
+FinishInitializingUserPrefs
+(
+)
+{
 sPreferences
 -
 >
