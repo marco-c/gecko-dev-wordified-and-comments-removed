@@ -46,13 +46,6 @@ search
 panel
 -
 header
-search
--
-panel
--
-current
--
-input
 "
 >
 <
