@@ -2821,6 +2821,14 @@ IsWaylandDisabled
 )
 |
 |
+getenv
+(
+"
+DISPLAY
+"
+)
+|
+|
 !
 wayland_egltest
 (
