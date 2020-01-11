@@ -2260,7 +2260,12 @@ _frame
 .
 contentDocument
 .
-documentElement
+querySelector
+(
+"
+dialog
+"
+)
 ;
 contentPane
 .
