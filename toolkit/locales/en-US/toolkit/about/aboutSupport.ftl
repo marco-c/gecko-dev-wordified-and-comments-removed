@@ -2153,6 +2153,16 @@ crash
 guard
 =
 OpenGL
+wmfvpxvideo
+-
+crash
+-
+guard
+=
+WMF
+VPX
+Video
+Decoder
 reset
 -
 on
