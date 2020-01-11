@@ -4995,7 +4995,6 @@ gBrowser
 selectedBrowser
 [
 ]
-async
 function
 (
 )
@@ -5008,6 +5007,16 @@ firstCall
 (
 )
 ;
+}
+)
+.
+catch
+(
+(
+)
+=
+>
+{
 }
 )
 ;

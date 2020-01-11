@@ -1403,7 +1403,7 @@ aCount
 let
 promise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1411,10 +1411,8 @@ gBrowser
 .
 selectedBrowser
 [
-[
 aMessage
 aCount
-]
 ]
 async
 function
@@ -2432,16 +2430,14 @@ selectedBrowser
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
-"
+null
 (
 )
 =
@@ -2453,7 +2449,6 @@ location
 reload
 (
 )
-"
 )
 ;
 await

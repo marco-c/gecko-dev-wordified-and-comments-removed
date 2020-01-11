@@ -204,15 +204,14 @@ gBrowser
 .
 selectedTab
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
-]
+null
 async
 function
 (

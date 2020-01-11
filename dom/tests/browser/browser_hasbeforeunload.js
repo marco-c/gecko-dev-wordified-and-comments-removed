@@ -773,6 +773,13 @@ break
 }
 }
 )
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 async

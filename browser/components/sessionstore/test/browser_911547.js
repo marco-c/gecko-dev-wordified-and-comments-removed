@@ -196,8 +196,6 @@ browser
 ]
 function
 (
-{
-}
 )
 {
 is
@@ -273,8 +271,6 @@ browser
 ]
 function
 (
-{
-}
 )
 {
 is
