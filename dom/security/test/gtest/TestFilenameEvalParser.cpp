@@ -198,7 +198,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -266,7 +266,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -381,7 +381,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -495,7 +495,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -611,7 +611,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -692,7 +692,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -746,7 +746,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -803,7 +803,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -870,7 +870,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -928,7 +928,7 @@ js
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -986,7 +986,7 @@ debugger
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1054,7 +1054,7 @@ content
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1105,7 +1105,7 @@ fire
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1195,7 +1195,7 @@ fire
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1283,7 +1283,7 @@ content
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1372,7 +1372,7 @@ content
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1465,7 +1465,7 @@ thing
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1563,7 +1563,7 @@ txt
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1668,7 +1668,7 @@ txt
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1763,7 +1763,7 @@ com
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
@@ -1859,7 +1859,7 @@ html
 "
 )
 ;
-FilenameType
+FilenameTypeAndDetails
 ret
 =
 nsContentSecurityUtils
