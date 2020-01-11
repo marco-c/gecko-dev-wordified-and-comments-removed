@@ -2261,7 +2261,7 @@ type
 (
 )
 .
-kind
+code
 (
 )
 )
@@ -2438,7 +2438,7 @@ type
 (
 )
 .
-kind
+code
 (
 )
 )
