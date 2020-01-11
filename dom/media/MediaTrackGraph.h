@@ -1720,7 +1720,6 @@ TrackRate
 aRate
 )
 ;
-virtual
 TrackTime
 AppendData
 (
@@ -1732,6 +1731,11 @@ MediaSegment
 aRawSegment
 =
 nullptr
+)
+;
+TrackTime
+ClearFutureData
+(
 )
 ;
 void
