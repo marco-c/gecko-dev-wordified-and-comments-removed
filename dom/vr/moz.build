@@ -132,6 +132,11 @@ VRServiceTest
 .
 h
 '
+'
+XRPermissionRequest
+.
+h
+'
 ]
 UNIFIED_SOURCES
 =
@@ -153,6 +158,11 @@ cpp
 '
 '
 VRServiceTest
+.
+cpp
+'
+'
+XRPermissionRequest
 .
 cpp
 '
