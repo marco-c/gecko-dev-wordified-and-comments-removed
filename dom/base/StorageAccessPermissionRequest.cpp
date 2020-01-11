@@ -654,13 +654,13 @@ const
 unsigned
 kMin
 =
-5000
+0
 ;
 const
 unsigned
 kMax
 =
-6000
+3000
 ;
 const
 unsigned
