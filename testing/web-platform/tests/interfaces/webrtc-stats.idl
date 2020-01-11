@@ -321,6 +321,10 @@ unsigned
 long
 frameHeight
 ;
+unsigned
+long
+frameBitDepth
+;
 double
 framesPerSecond
 ;
@@ -583,6 +587,10 @@ unsigned
 long
 frameHeight
 ;
+unsigned
+long
+frameBitDepth
+;
 double
 framesPerSecond
 ;
@@ -764,6 +772,10 @@ width
 unsigned
 long
 height
+;
+unsigned
+long
+bitDepth
 ;
 unsigned
 long
