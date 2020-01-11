@@ -39,6 +39,28 @@ IntegerTypeTraits
 h
 "
 #
+define
+MOZILLA_CHECKEDINT_COMPARABLE_VERSION
+(
+major
+minor
+patch
+)
+\
+(
+major
+<
+<
+16
+|
+minor
+<
+<
+8
+|
+patch
+)
+#
 if
 defined
 (
@@ -49,6 +71,60 @@ if
 defined
 (
 __has_builtin
+)
+&
+&
+\
+(
+!
+defined
+(
+__clang_major__
+)
+|
+|
+\
+(
+!
+defined
+(
+__apple_build_version__
+)
+&
+&
+__clang_major__
+>
+=
+7
+)
+|
+|
+\
+(
+defined
+(
+__apple_build_version__
+)
+&
+&
+\
+MOZILLA_CHECKEDINT_COMPARABLE_VERSION
+(
+\
+__clang_major__
+__clang_minor__
+__clang_patchlevel__
+)
+>
+=
+\
+MOZILLA_CHECKEDINT_COMPARABLE_VERSION
+(
+10
+0
+1
+)
+)
 )
 #
 define
@@ -94,6 +170,9 @@ MOZ_HAS_BUILTIN_OP_OVERFLOW
 )
 #
 endif
+#
+undef
+MOZILLA_CHECKEDINT_COMPARABLE_VERSION
 namespace
 mozilla
 {
@@ -569,7 +648,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 HasSignBit
 (
@@ -608,7 +687,7 @@ template
 typename
 T
 >
-inline
+constexpr
 T
 BinaryComplement
 (
@@ -812,8 +891,8 @@ true
 >
 {
 static
-bool
 constexpr
+bool
 run
 (
 U
@@ -843,8 +922,8 @@ false
 >
 {
 static
-bool
 constexpr
+bool
 run
 (
 U
@@ -896,8 +975,8 @@ false
 >
 {
 static
-bool
 constexpr
+bool
 run
 (
 U
@@ -937,8 +1016,8 @@ false
 >
 {
 static
-bool
 constexpr
+bool
 run
 (
 U
@@ -992,8 +1071,8 @@ false
 >
 {
 static
-bool
 constexpr
+bool
 run
 (
 U
@@ -1047,7 +1126,6 @@ T
 typename
 U
 >
-inline
 constexpr
 bool
 IsInRange
@@ -1075,7 +1153,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsAddValid
 (
@@ -1187,7 +1265,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsSubValid
 (
@@ -1344,6 +1422,7 @@ true
 >
 {
 static
+constexpr
 bool
 run
 (
@@ -1403,6 +1482,7 @@ false
 >
 {
 static
+constexpr
 bool
 run
 (
@@ -1517,6 +1597,7 @@ false
 >
 {
 static
+constexpr
 bool
 run
 (
@@ -1603,7 +1684,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsDivValid
 (
@@ -1677,7 +1758,7 @@ template
 typename
 T
 >
-inline
+constexpr
 bool
 IsModValid
 (
@@ -1714,7 +1795,7 @@ false
 >
 {
 static
-inline
+constexpr
 bool
 run
 (
@@ -1746,7 +1827,7 @@ true
 >
 {
 static
-inline
+constexpr
 bool
 run
 (
@@ -1807,6 +1888,7 @@ false
 >
 {
 static
+constexpr
 CheckedInt
 <
 T
@@ -1860,6 +1942,7 @@ true
 >
 {
 static
+constexpr
 CheckedInt
 <
 T
@@ -1950,6 +2033,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 (
 U
@@ -2100,6 +2184,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 <
 U
@@ -2171,6 +2256,7 @@ CheckedInt
 )
 ;
 }
+constexpr
 T
 value
 (
@@ -2199,6 +2285,7 @@ return
 mValue
 ;
 }
+constexpr
 bool
 isValid
 (
@@ -2215,6 +2302,7 @@ typename
 U
 >
 friend
+constexpr
 CheckedInt
 <
 U
@@ -2243,6 +2331,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 &
 operator
@@ -2253,6 +2342,7 @@ U
 aRhs
 )
 ;
+constexpr
 CheckedInt
 &
 operator
@@ -2274,6 +2364,7 @@ typename
 U
 >
 friend
+constexpr
 CheckedInt
 <
 U
@@ -2302,6 +2393,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 &
 operator
@@ -2312,6 +2404,7 @@ U
 aRhs
 )
 ;
+constexpr
 CheckedInt
 &
 operator
@@ -2333,6 +2426,7 @@ typename
 U
 >
 friend
+constexpr
 CheckedInt
 <
 U
@@ -2361,6 +2455,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 &
 operator
@@ -2371,6 +2466,7 @@ U
 aRhs
 )
 ;
+constexpr
 CheckedInt
 &
 operator
@@ -2392,6 +2488,7 @@ typename
 U
 >
 friend
+constexpr
 CheckedInt
 <
 U
@@ -2420,6 +2517,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 &
 operator
@@ -2430,6 +2528,7 @@ U
 aRhs
 )
 ;
+constexpr
 CheckedInt
 &
 operator
@@ -2451,6 +2550,7 @@ typename
 U
 >
 friend
+constexpr
 CheckedInt
 <
 U
@@ -2479,6 +2579,7 @@ template
 typename
 U
 >
+constexpr
 CheckedInt
 &
 operator
@@ -2489,6 +2590,7 @@ U
 aRhs
 )
 ;
+constexpr
 CheckedInt
 &
 operator
@@ -2504,6 +2606,7 @@ T
 aRhs
 )
 ;
+constexpr
 CheckedInt
 operator
 -
@@ -2528,6 +2631,7 @@ this
 )
 ;
 }
+constexpr
 bool
 operator
 =
@@ -2557,6 +2661,7 @@ aOther
 mValue
 ;
 }
+constexpr
 CheckedInt
 &
 operator
@@ -2576,6 +2681,7 @@ return
 this
 ;
 }
+constexpr
 CheckedInt
 operator
 +
@@ -2600,6 +2706,7 @@ return
 tmp
 ;
 }
+constexpr
 CheckedInt
 &
 operator
@@ -2619,6 +2726,7 @@ return
 this
 ;
 }
+constexpr
 CheckedInt
 operator
 -
@@ -2744,7 +2852,7 @@ typename
 T
 >
 \
-inline
+constexpr
 CheckedInt
 <
 T
@@ -2851,7 +2959,7 @@ typename
 T
 >
 \
-inline
+constexpr
 CheckedInt
 <
 T
@@ -2877,8 +2985,12 @@ aRhs
 )
 {
 \
-T
+auto
 result
+=
+T
+{
+}
 ;
 \
 if
@@ -3003,6 +3115,7 @@ T
 ReturnType
 ;
 static
+constexpr
 CheckedInt
 <
 T
@@ -3044,6 +3157,7 @@ T
 ReturnType
 ;
 static
+constexpr
 const
 CheckedInt
 <
@@ -3075,7 +3189,7 @@ T
 typename
 U
 >
-inline
+constexpr
 typename
 detail
 :
@@ -3166,6 +3280,7 @@ typename
 U
 >
 \
+constexpr
 CheckedInt
 <
 T
@@ -3213,6 +3328,7 @@ typename
 T
 >
 \
+constexpr
 CheckedInt
 <
 T
@@ -3262,7 +3378,7 @@ typename
 U
 >
 \
-inline
+constexpr
 CheckedInt
 <
 T
@@ -3304,7 +3420,7 @@ typename
 U
 >
 \
-inline
+constexpr
 CheckedInt
 <
 T
