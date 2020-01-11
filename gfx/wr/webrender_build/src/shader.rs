@@ -463,7 +463,12 @@ exists
 Shader
 not
 found
+{
+:
+?
+}
 "
+shader_path
 )
 ;
 let
