@@ -50,13 +50,6 @@ Attributes
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 define
 MAX_KEY_NAME_LEN
 255

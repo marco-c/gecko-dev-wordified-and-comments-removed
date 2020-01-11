@@ -18,13 +18,6 @@ nsHashKeys
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 template
 <
 class
