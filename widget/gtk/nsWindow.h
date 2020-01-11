@@ -1378,7 +1378,12 @@ void
 )
 ;
 void
-UpdateClientOffset
+UpdateClientOffsetFromFrameExtents
+(
+)
+;
+void
+UpdateClientOffsetFromCSDWindow
 (
 )
 ;
@@ -2386,11 +2391,6 @@ UpdateOpaqueRegionGtk
 cairo_region_t
 *
 aRegion
-)
-;
-void
-UpdateClientOffsetForCSDWindow
-(
 )
 ;
 nsWindow
