@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsIWrapperChannel
+.
+h
+"
+#
+include
+"
 nsIChildChannel
 .
 h
@@ -121,6 +128,8 @@ public
 nsIFormPOSTActionChannel
 public
 nsIChildChannel
+public
+nsIWrapperChannel
 {
 public
 :
@@ -133,6 +142,7 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
 NS_DECL_NSICHILDCHANNEL
+NS_DECL_NSIWRAPPERCHANNEL
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
 (
 mCacheInfoChannel

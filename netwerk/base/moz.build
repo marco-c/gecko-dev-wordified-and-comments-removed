@@ -700,6 +700,11 @@ nsIURLParser
 idl
 '
 '
+nsIWrapperChannel
+.
+idl
+'
+'
 nsPISocketTransportService
 .
 idl
