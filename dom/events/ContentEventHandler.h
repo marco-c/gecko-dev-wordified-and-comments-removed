@@ -379,16 +379,6 @@ aNodeToSelectContents
 ;
 private
 :
-nsINode
-*
-IsValidBoundary
-(
-nsINode
-*
-aNode
-)
-const
-;
 inline
 void
 AssertStartIsBeforeOrEqualToEnd
