@@ -187,13 +187,13 @@ sparse
 profile
 :
 taskgraph
-seta_10_120
+seta_15_180
 :
 description
 :
 Runs
 the
-seta_10_120
+seta_15_180
 experimental
 optimization
 strategy
@@ -203,7 +203,7 @@ symbol
 :
 SS
 (
-seta_10_120
+seta_15_180
 )
 index
 :
@@ -218,7 +218,7 @@ shadow
 -
 scheduler
 -
-seta_10_120
+seta_15_180
 worker
 :
 env
@@ -229,4 +229,4 @@ taskgraph
 .
 optimize
 :
-seta_10_120
+seta_15_180
