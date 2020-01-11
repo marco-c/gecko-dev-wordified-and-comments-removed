@@ -180,10 +180,6 @@ mPIPWindow
 (
 false
 )
-mFissionWindow
-(
-false
-)
 {
 }
 nsWindowType
@@ -238,9 +234,6 @@ mAlwaysOnTop
 ;
 bool
 mPIPWindow
-;
-bool
-mFissionWindow
 ;
 }
 ;
