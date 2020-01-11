@@ -442,6 +442,17 @@ typedef
 JS
 :
 :
+MutableHandle
+<
+ArrayObject
+*
+>
+MutableHandleArrayObject
+;
+typedef
+JS
+:
+:
 Rooted
 <
 NativeObject

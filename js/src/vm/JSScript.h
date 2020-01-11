@@ -6420,8 +6420,8 @@ scriptEnclosingScope
 js
 :
 :
-HandleFunction
-fun
+HandleObject
+funOrMod
 )
 ;
 static
@@ -8480,8 +8480,8 @@ HandleScope
 enclosingScope
 HandleScriptSourceObject
 sourceObject
-HandleFunction
-fun
+HandleObject
+funOrMod
 MutableHandleScript
 scriptp
 )
@@ -10189,8 +10189,8 @@ sourceObject
 js
 :
 :
-HandleFunction
-fun
+HandleObject
+funOrMod
 js
 :
 :
@@ -10382,8 +10382,8 @@ scriptEnclosingScope
 js
 :
 :
-HandleFunction
-fun
+HandleObject
+funOrMod
 )
 ;
 friend
