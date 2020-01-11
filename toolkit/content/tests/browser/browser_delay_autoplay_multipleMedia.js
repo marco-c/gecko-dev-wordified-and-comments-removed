@@ -123,8 +123,6 @@ play
 (
 )
 ;
-content
-.
 setTimeout
 (
 (

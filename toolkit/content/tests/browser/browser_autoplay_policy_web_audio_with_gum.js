@@ -469,8 +469,6 @@ reject
 =
 >
 {
-content
-.
 setTimeout
 (
 (

@@ -200,8 +200,6 @@ Activated
 }
 else
 {
-content
-.
 setTimeout
 (
 waitUntilActive
