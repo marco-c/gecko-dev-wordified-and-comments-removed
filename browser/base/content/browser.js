@@ -17847,9 +17847,6 @@ data
 url
 shiftKey
 {
-allowInheritPrincipal
-:
-true
 postData
 :
 data
