@@ -1527,14 +1527,6 @@ breakpad
 /
 .
 *
-toolkit
-/
-recordreplay
-/
-udis86
-/
-.
-*
 tools
 /
 fuzzing
