@@ -31,16 +31,10 @@ available
 through
 the
 #
-fx
--
 search
 channel
 on
-irc
-.
-mozilla
-.
-org
+Slack
 and
 the
 fx
