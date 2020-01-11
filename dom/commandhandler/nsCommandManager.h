@@ -92,7 +92,7 @@ nsCommandManager
 nsICommandManager
 )
 NS_DECL_NSICOMMANDMANAGER
-nsresult
+void
 CommandStatusChanged
 (
 const

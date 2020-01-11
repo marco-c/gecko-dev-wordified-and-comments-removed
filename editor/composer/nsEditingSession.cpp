@@ -3042,7 +3042,6 @@ GetCommandManager
 (
 )
 ;
-return
 commandManager
 -
 >
@@ -3052,6 +3051,9 @@ CommandStatusChanged
 obs_documentLocationChanged
 "
 )
+;
+return
+NS_OK
 ;
 }
 NS_IMETHODIMP

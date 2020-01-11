@@ -250,7 +250,7 @@ nsISupports
 nsICommandManager
 )
 NS_INTERFACE_MAP_END
-nsresult
+void
 nsCommandManager
 :
 :
@@ -340,9 +340,6 @@ command_status_changed
 ;
 }
 }
-return
-NS_OK
-;
 }
 #
 if
