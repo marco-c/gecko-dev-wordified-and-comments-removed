@@ -918,7 +918,7 @@ Files
 '
 RemoteController
 .
-js
+jsm
 '
 )
 :
@@ -1475,7 +1475,7 @@ jsm
 '
 RemoteController
 .
-js
+jsm
 '
 '
 RemoteSecurityUI
