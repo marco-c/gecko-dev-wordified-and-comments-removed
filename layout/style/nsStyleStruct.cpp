@@ -13757,7 +13757,10 @@ Inline
 )
 mIsolation
 (
-NS_STYLE_ISOLATION_AUTO
+StyleIsolation
+:
+:
+Auto
 )
 mTopLayer
 (

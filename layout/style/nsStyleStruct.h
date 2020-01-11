@@ -6757,7 +6757,10 @@ mozilla
 StyleOrient
 mOrient
 ;
-uint8_t
+mozilla
+:
+:
+StyleIsolation
 mIsolation
 ;
 mozilla

@@ -3422,6 +3422,11 @@ flags
 "
 CREATES_STACKING_CONTEXT
 "
+gecko_enum_prefix
+=
+"
+StyleIsolation
+"
 animation_value_type
 =
 "
