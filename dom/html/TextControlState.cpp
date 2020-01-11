@@ -8005,6 +8005,14 @@ false
 ;
 }
 return
+preparingEditor
+.
+IsTextControlStateDestroyed
+(
+)
+?
+NS_ERROR_NOT_INITIALIZED
+:
 rv
 ;
 }

@@ -2563,7 +2563,10 @@ editor
 ;
 if
 (
-auto
+RefPtr
+<
+HTMLInputElement
+>
 input
 =
 HTMLInputElement
@@ -2588,7 +2591,10 @@ GetEditor
 else
 if
 (
-auto
+RefPtr
+<
+HTMLTextAreaElement
+>
 textarea
 =
 HTMLTextAreaElement

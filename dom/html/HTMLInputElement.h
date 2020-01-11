@@ -3606,6 +3606,7 @@ bool
 aExcludePassword
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsIEditor
 *
 GetEditor
@@ -4101,6 +4102,7 @@ GetEditorState
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 mozilla
 :
 :
