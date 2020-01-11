@@ -2569,6 +2569,13 @@ built
 }
 }
 let
+scene_build_end_time
+=
+precise_time_ns
+(
+)
+;
+let
 is_low_priority
 =
 false
@@ -2759,10 +2766,6 @@ new
 interner_updates
 scene_build_start_time
 scene_build_end_time
-:
-precise_time_ns
-(
-)
 }
 )
 }
