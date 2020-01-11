@@ -330,11 +330,7 @@ crate
 :
 Atom
 ;
-lazy_static
-!
-{
-static
-ref
+const
 SPECIAL_HTML_ELEMENTS
 :
 [
@@ -458,12 +454,7 @@ select
 )
 ]
 ;
-}
-lazy_static
-!
-{
-static
-ref
+const
 SPECIAL_SVG_ELEMENTS
 :
 [
@@ -517,7 +508,6 @@ textPath
 )
 ]
 ;
-}
 if
 element
 .
