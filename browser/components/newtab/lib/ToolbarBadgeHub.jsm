@@ -1437,6 +1437,15 @@ removeAllNotifications
 (
 )
 ;
+this
+.
+registerBadgeToAllWindows
+(
+message
+)
+;
+return
+;
 }
 if
 (
