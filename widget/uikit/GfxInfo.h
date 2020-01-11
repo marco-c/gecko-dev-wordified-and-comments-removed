@@ -150,8 +150,8 @@ override
 NS_IMETHOD
 GetAdapterRAM
 (
-nsAString
-&
+uint32_t
+*
 aAdapterRAM
 )
 override
@@ -222,8 +222,8 @@ override
 NS_IMETHOD
 GetAdapterRAM2
 (
-nsAString
-&
+uint32_t
+*
 aAdapterRAM
 )
 override
