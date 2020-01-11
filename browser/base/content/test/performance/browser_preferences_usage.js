@@ -483,7 +483,7 @@ min
 0
 max
 :
-50
+51
 }
 "
 chrome
