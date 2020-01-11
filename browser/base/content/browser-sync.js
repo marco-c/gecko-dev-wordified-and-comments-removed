@@ -1840,17 +1840,6 @@ accessed
 true
 )
 ;
-document
-.
-documentElement
-.
-removeAttribute
-(
-"
-fxa_avatar_badged
-"
-)
-;
 }
 this
 .
