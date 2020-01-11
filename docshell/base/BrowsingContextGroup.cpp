@@ -36,17 +36,6 @@ include
 "
 mozilla
 /
-dom
-/
-ContentParent
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPrefs_dom
 .
 h
