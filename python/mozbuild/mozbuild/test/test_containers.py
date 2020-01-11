@@ -896,10 +896,9 @@ self
 .
 assertEqual
 (
-test
-.
-keys
+list
 (
+test
 )
 [
 '
@@ -962,10 +961,9 @@ self
 .
 assertEqual
 (
-test
-.
-keys
+list
 (
+test
 )
 [
 '
