@@ -4103,7 +4103,7 @@ MacroAssemblerMIPSShared
 ma_cmp
 (
 Register
-scratch
+dest
 Register
 lhs
 Register
@@ -4122,7 +4122,7 @@ Above
 :
 as_sltu
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -4135,7 +4135,7 @@ AboveOrEqual
 :
 as_sltu
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4148,7 +4148,7 @@ Below
 :
 as_sltu
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4161,7 +4161,7 @@ BelowOrEqual
 :
 as_sltu
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -4174,7 +4174,7 @@ GreaterThan
 :
 as_slt
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -4187,7 +4187,7 @@ GreaterThanOrEqual
 :
 as_slt
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4200,7 +4200,7 @@ LessThan
 :
 as_slt
 (
-scratch
+dest
 lhs
 rhs
 )
@@ -4213,7 +4213,7 @@ LessThanOrEqual
 :
 as_slt
 (
-scratch
+dest
 rhs
 lhs
 )
@@ -4247,7 +4247,7 @@ MacroAssemblerMIPSShared
 ma_cmp
 (
 Register
-scratch
+dest
 Register
 lhs
 Imm32
@@ -4256,6 +4256,30 @@ Condition
 c
 )
 {
+MOZ_ASSERT
+(
+dest
+!
+=
+ScratchRegister
+)
+;
+MOZ_ASSERT
+(
+lhs
+!
+=
+ScratchRegister
+)
+;
+ScratchRegisterScope
+scratch
+(
+asMasm
+(
+)
+)
+;
 switch
 (
 c
@@ -4293,7 +4317,7 @@ value
 {
 as_sltiu
 (
-scratch
+dest
 lhs
 imm
 .
@@ -4325,7 +4349,7 @@ imm
 ;
 as_sltu
 (
-scratch
+dest
 scratch
 lhs
 )
@@ -4364,7 +4388,7 @@ value
 {
 as_sltiu
 (
-scratch
+dest
 lhs
 imm
 .
@@ -4382,7 +4406,7 @@ imm
 ;
 as_sltu
 (
-scratch
+dest
 lhs
 scratch
 )
@@ -4423,7 +4447,7 @@ value
 {
 as_slti
 (
-scratch
+dest
 lhs
 imm
 .
@@ -4455,7 +4479,7 @@ imm
 ;
 as_slt
 (
-scratch
+dest
 scratch
 lhs
 )
@@ -4494,7 +4518,7 @@ value
 {
 as_slti
 (
-scratch
+dest
 lhs
 imm
 .
@@ -4512,7 +4536,7 @@ imm
 ;
 as_slt
 (
-scratch
+dest
 lhs
 scratch
 )
