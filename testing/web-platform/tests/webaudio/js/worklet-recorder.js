@@ -134,6 +134,14 @@ _recordBuffer
 }
 )
 ;
+this
+.
+port
+.
+close
+(
+)
+;
 return
 false
 ;
