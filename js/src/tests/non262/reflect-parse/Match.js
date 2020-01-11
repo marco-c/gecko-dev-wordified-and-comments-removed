@@ -355,7 +355,9 @@ template
 var
 quote
 =
-uneval
+JSON
+.
+stringify
 ;
 class
 MatchError

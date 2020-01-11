@@ -148,11 +148,6 @@ realFunction
 Function
 ;
 var
-realUneval
-=
-uneval
-;
-var
 realToString
 =
 toString
@@ -171,9 +166,6 @@ delete
 Function
 ;
 delete
-uneval
-;
-delete
 toSource
 ;
 delete
@@ -182,10 +174,6 @@ toString
 Function
 =
 realFunction
-;
-uneval
-=
-realUneval
 ;
 toSource
 =

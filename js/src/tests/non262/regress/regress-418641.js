@@ -127,7 +127,9 @@ case
 for
 '
 +
-uneval
+JSON
+.
+stringify
 (
 I
 )
@@ -173,7 +175,9 @@ case
 for
 '
 +
-uneval
+JSON
+.
+stringify
 (
 I
 )
@@ -280,7 +284,9 @@ case
 for
 '
 +
-uneval
+JSON
+.
+stringify
 (
 I
 )
@@ -325,7 +331,9 @@ case
 for
 '
 +
-uneval
+JSON
+.
+stringify
 (
 I
 )

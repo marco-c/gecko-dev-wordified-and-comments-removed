@@ -1512,7 +1512,9 @@ of
 desc
 |
 |
-uneval
+JSON
+.
+stringify
 (
 b
 )

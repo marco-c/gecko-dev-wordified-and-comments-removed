@@ -69,8 +69,6 @@ __defineGetter__
 index_getter
 )
 ;
-uneval
-(
 a
 .
 slice
@@ -78,6 +76,9 @@ slice
 0
 1
 )
+.
+join
+(
 )
 ;
 reportCompare
