@@ -362,7 +362,6 @@ const
 activeWorker
 waitingWorker
 installingWorker
-evaluatingWorker
 }
 =
 front
@@ -377,9 +376,6 @@ waitingWorker
 |
 |
 installingWorker
-|
-|
-evaluatingWorker
 ;
 result
 .
