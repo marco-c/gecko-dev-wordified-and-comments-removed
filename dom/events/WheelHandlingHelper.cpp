@@ -368,7 +368,7 @@ scrollPt
 aScrollFrame
 -
 >
-GetScrollPosition
+GetVisualViewportOffset
 (
 )
 ;
@@ -378,7 +378,7 @@ scrollRange
 aScrollFrame
 -
 >
-GetScrollRange
+GetVisualScrollRange
 (
 )
 ;
@@ -388,7 +388,7 @@ directions
 aScrollFrame
 -
 >
-GetAvailableScrollingDirections
+GetAvailableVisualScrollingDirections
 (
 )
 ;
