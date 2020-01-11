@@ -53,7 +53,7 @@ class
 RsdparsaSdpMediaSection
 ;
 class
-SdpErrorHolder
+SdpParser
 ;
 class
 RsdparsaSdpAttributeList
@@ -868,7 +868,7 @@ AttributeType
 type
 uint32_t
 lineNumber
-SdpErrorHolder
+SdpParser
 &
 errorHolder
 )
