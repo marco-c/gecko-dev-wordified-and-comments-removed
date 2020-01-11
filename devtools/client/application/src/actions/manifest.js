@@ -34,8 +34,6 @@ require
 /
 modules
 /
-application
--
 services
 "
 )

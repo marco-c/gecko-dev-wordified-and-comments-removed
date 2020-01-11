@@ -70,8 +70,6 @@ src
 /
 modules
 /
-application
--
 services
 "
 )

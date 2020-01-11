@@ -118,8 +118,6 @@ require
 /
 modules
 /
-application
--
 services
 "
 )
