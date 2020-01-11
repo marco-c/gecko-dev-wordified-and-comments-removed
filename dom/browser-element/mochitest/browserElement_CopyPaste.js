@@ -114,11 +114,9 @@ SimpleTest
 .
 waitForClipboard
 (
-(
-)
-=
->
-true
+gTextarea
+.
+value
 (
 )
 =
