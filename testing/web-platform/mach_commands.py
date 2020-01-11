@@ -250,14 +250,19 @@ devices
 .
 android_device
 import
+(
 verify_android_device
+InstallIntent
+)
             
 verify_android_device
 (
 self
 install
 =
-True
+InstallIntent
+.
+PROMPT
 verbose
 =
 False
