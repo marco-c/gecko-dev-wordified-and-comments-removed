@@ -4485,6 +4485,13 @@ gBrowser
 selectedBrowser
 )
 ;
+await
+ssb
+.
+install
+(
+)
+;
 ssb
 .
 launch
