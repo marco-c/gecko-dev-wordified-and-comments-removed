@@ -10,9 +10,12 @@ await
 useTestEngines
 (
 "
-simple
+data
+"
+"
+search
 -
-engines
+extensions
 "
 )
 ;
@@ -62,7 +65,7 @@ Assert
 equal
 (
 engineCount
-2
+1
 )
 ;
 await

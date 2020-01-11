@@ -10,10 +10,7 @@ visibleDefaultEngines
 :
 [
 "
-basic
-"
-"
-simple
+bug645970
 "
 ]
 }

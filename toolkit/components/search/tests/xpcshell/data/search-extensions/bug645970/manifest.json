@@ -4,7 +4,7 @@ name
 "
 :
 "
-basic
+bug645970
 "
 "
 manifest_version
@@ -25,7 +25,7 @@ description
 "
 :
 "
-basic
+bug645970
 "
 "
 applications
@@ -42,7 +42,7 @@ id
 "
 :
 "
-basic
+bug645970
 search
 .
 mozilla
@@ -71,7 +71,7 @@ name
 "
 :
 "
-basic
+bug645970
 "
 "
 search_url

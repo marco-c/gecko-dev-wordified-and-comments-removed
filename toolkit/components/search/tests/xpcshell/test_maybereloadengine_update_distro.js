@@ -26,9 +26,12 @@ await
 useTestEngines
 (
 "
-simple
+data
+"
+"
+search
 -
-engines
+extensions
 "
 )
 ;
@@ -77,7 +80,7 @@ search
 .
 defaultenginename
 =
-basic
+bug645970
 "
 )
 ;
@@ -233,7 +236,7 @@ defaultEngine
 .
 _shortName
 "
-basic
+bug645970
 "
 "
 Should
@@ -261,7 +264,7 @@ searchplugins
 /
 common
 /
-basic
+bug645970
 .
 xml
 "
