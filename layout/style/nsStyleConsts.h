@@ -416,7 +416,7 @@ StyleDisplayFrom
 StyleDisplayOutside
 :
 :
-Block
+XUL
 StyleDisplayInside
 :
 :
@@ -429,11 +429,11 @@ StyleDisplayFrom
 StyleDisplayOutside
 :
 :
-Inline
+XUL
 StyleDisplayInside
 :
 :
-MozBox
+MozInlineBox
 )
 MozGrid
 =
