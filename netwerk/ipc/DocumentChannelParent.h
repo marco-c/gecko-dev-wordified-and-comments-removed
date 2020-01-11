@@ -89,6 +89,11 @@ nsresult
 aStatus
 )
 {
+if
+(
+mParent
+)
+{
 mParent
 -
 >
@@ -97,6 +102,7 @@ Cancel
 aStatus
 )
 ;
+}
 return
 true
 ;
@@ -109,6 +115,11 @@ aWhy
 )
 override
 {
+if
+(
+mParent
+)
+{
 mParent
 -
 >
@@ -120,6 +131,7 @@ mParent
 =
 nullptr
 ;
+}
 }
 private
 :
@@ -150,6 +162,10 @@ aLoadGroupStatus
 )
 ;
 }
+mParent
+=
+nullptr
+;
 }
 void
 Delete
