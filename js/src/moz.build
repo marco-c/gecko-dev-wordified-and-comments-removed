@@ -1813,6 +1813,15 @@ builtin
 /
 streams
 /
+PipeToState
+.
+cpp
+'
+'
+builtin
+/
+streams
+/
 PullIntoDescriptor
 .
 cpp
