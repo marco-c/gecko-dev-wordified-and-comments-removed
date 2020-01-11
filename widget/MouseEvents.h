@@ -1299,6 +1299,11 @@ aEvent
 mDefaultPreventedOnContent
 ;
 }
+void
+InitDropEffectForTests
+(
+)
+;
 }
 ;
 class

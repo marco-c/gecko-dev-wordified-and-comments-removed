@@ -9087,7 +9087,7 @@ NS_IMETHODIMP
 nsDOMWindowUtils
 :
 :
-DispatchDOMEventViaPresShell
+DispatchDOMEventViaPresShellForTesting
 (
 nsINode
 *
@@ -9128,6 +9128,15 @@ NS_ENSURE_STATE
 (
 internalEvent
 )
+;
+internalEvent
+-
+>
+mFlags
+.
+mIsSynthesizedForTests
+=
+true
 ;
 nsCOMPtr
 <

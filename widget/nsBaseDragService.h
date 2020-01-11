@@ -388,6 +388,9 @@ bool
 mDoingDrag
 ;
 bool
+mSessionIsSynthesizedForTests
+;
+bool
 mEndingSession
 ;
 bool
@@ -404,6 +407,9 @@ mDragAction
 ;
 uint32_t
 mDragActionFromChildProcess
+;
+uint32_t
+mEffectAllowedForTests
 ;
 nsCOMPtr
 <
