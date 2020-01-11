@@ -6877,17 +6877,6 @@ Startup
 (
 )
 ;
-if
-(
-!
-IsWebCoopCoepRemoteType
-(
-GetRemoteType
-(
-)
-)
-)
-{
 RemoteWorkerService
 :
 :
@@ -6895,7 +6884,6 @@ Initialize
 (
 )
 ;
-}
 nsCOMPtr
 <
 nsIConsoleService

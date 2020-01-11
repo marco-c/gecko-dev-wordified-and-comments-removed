@@ -6109,15 +6109,6 @@ nsAString
 aContentProcessType
 )
 ;
-bool
-IsWebCoopCoepRemoteType
-(
-const
-nsAString
-&
-aContentProcessType
-)
-;
 }
 }
 class
