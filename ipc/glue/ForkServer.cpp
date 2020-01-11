@@ -1562,6 +1562,13 @@ reset
 (
 )
 ;
+nsTraceRefcnt
+:
+:
+ResetLogFiles
+(
+)
+;
 return
 false
 ;
