@@ -10339,11 +10339,7 @@ score
 -
 threshold
 "
-"
-0
-.
-0
-"
+5000
 )
 ;
 pref
