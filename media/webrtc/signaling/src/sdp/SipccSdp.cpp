@@ -43,7 +43,7 @@ src
 /
 sdp
 /
-SdpErrorHolder
+SdpParser
 .
 h
 "
@@ -341,9 +341,9 @@ LoadOrigin
 sdp_t
 *
 sdp
-SdpErrorHolder
+InternalResults
 &
-errorHolder
+results
 )
 {
 std
@@ -399,7 +399,7 @@ type
 SDP_NT_INTERNET
 )
 {
-errorHolder
+results
 .
 AddParseError
 (
@@ -455,7 +455,7 @@ break
 ;
 default
 :
-errorHolder
+results
 .
 AddParseError
 (
@@ -506,9 +506,9 @@ Load
 sdp_t
 *
 sdp
-SdpErrorHolder
+InternalResults
 &
-errorHolder
+results
 )
 {
 if
@@ -520,7 +520,7 @@ Load
 (
 sdp
 SDP_SESSION_LEVEL
-errorHolder
+results
 )
 )
 {
@@ -534,7 +534,7 @@ if
 LoadOrigin
 (
 sdp
-errorHolder
+results
 )
 )
 {
@@ -551,7 +551,7 @@ Load
 (
 sdp
 SDP_SESSION_LEVEL
-errorHolder
+results
 )
 )
 {
@@ -605,7 +605,7 @@ sdp
 i
 +
 1
-errorHolder
+results
 )
 )
 {
@@ -725,9 +725,9 @@ sdp_t
 sdp
 uint16_t
 level
-SdpErrorHolder
+InternalResults
 &
-errorHolder
+results
 )
 {
 size_t
