@@ -15,6 +15,13 @@ h
 #
 include
 "
+MediaControlUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -34,13 +41,6 @@ CanonicalBrowsingContext
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaControlLog
-;
 #
 undef
 LOG

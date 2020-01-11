@@ -15,6 +15,13 @@ h
 #
 include
 "
+MediaControlUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Assertions
@@ -62,13 +69,6 @@ nsXULAppAPI
 .
 h
 "
-extern
-mozilla
-:
-:
-LazyLogModule
-gMediaControlLog
-;
 #
 undef
 LOG

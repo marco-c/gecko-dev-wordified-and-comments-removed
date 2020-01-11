@@ -175,6 +175,11 @@ MediaControlService
 cpp
 '
 '
+MediaControlUtils
+.
+cpp
+'
+'
 PlaybackController
 .
 cpp
