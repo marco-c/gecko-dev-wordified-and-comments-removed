@@ -2884,7 +2884,7 @@ obj
 .
 regexp
 .
-toSource
+toString
 (
 )
 "

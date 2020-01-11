@@ -2717,7 +2717,9 @@ elem
 setAttribute
 (
 {
-uneval
+JSON
+.
+stringify
 (
 test
 .
@@ -2725,7 +2727,9 @@ srcAttr
 )
 }
 {
-uneval
+JSON
+.
+stringify
 (
 src
 )
@@ -2881,7 +2885,9 @@ elem
 setAttribute
 (
 {
-uneval
+JSON
+.
+stringify
 (
 test
 .
@@ -2889,7 +2895,9 @@ srcAttr
 )
 }
 {
-uneval
+JSON
+.
+stringify
 (
 src
 )
@@ -2998,7 +3006,9 @@ elem
 setAttribute
 (
 {
-uneval
+JSON
+.
+stringify
 (
 test
 .
@@ -3006,7 +3016,9 @@ srcAttr
 )
 }
 {
-uneval
+JSON
+.
+stringify
 (
 src
 )
