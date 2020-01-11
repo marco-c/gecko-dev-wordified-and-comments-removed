@@ -485,7 +485,8 @@ frame
 ;
 static
 inline
-ResumeMode
+MOZ_MUST_USE
+bool
 onExceptionUnwind
 (
 JSContext
@@ -937,7 +938,8 @@ frame
 )
 ;
 static
-ResumeMode
+MOZ_MUST_USE
+bool
 slowPathOnExceptionUnwind
 (
 JSContext
