@@ -654,7 +654,7 @@ WIN
 MAC
 fsync
 :
-7
+8
 read
 :
 2
@@ -685,13 +685,13 @@ WIN
 MAC
 fsync
 :
-7
+8
 stat
 :
-26
+28
 write
 :
-38
+40
 }
 {
 path
