@@ -21185,8 +21185,7 @@ ConnectMessagePort
 JSContext
 *
 aCx
-const
-MessagePortIdentifier
+UniqueMessagePortId
 &
 aIdentifier
 )

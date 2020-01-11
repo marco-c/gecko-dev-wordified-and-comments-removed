@@ -236,7 +236,7 @@ class
 MessagePort
 ;
 class
-MessagePortIdentifier
+UniqueMessagePortId
 ;
 class
 PerformanceStorage
@@ -1392,8 +1392,7 @@ ConnectMessagePort
 JSContext
 *
 aCx
-const
-MessagePortIdentifier
+UniqueMessagePortId
 &
 aIdentifier
 )
