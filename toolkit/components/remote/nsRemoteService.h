@@ -1,9 +1,9 @@
 #
 ifndef
-__nsRemoteService_h__
+TOOLKIT_COMPONENTS_REMOTE_NSREMOTESERVER_H_
 #
 define
-__nsRemoteService_h__
+TOOLKIT_COMPONENTS_REMOTE_NSREMOTESERVER_H_
 #
 include
 "
