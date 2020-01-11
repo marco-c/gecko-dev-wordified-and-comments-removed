@@ -431,6 +431,8 @@ bits
 )
 .
 rex_w
+(
+)
 ;
 sink
 .
