@@ -227,6 +227,16 @@ OS_ARCH
 WINNT
 '
 :
+XPIDL_SOURCES
++
+=
+[
+'
+nsIWindowsShellService
+.
+idl
+'
+]
 SOURCES
 +
 =

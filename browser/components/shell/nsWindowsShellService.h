@@ -34,6 +34,13 @@ h
 "
 #
 include
+"
+nsIWindowsShellService
+.
+h
+"
+#
+include
 <
 windows
 .
@@ -53,6 +60,8 @@ public
 nsIShellService
 public
 nsToolkitShellService
+public
+nsIWindowsShellService
 {
 virtual
 ~
@@ -68,6 +77,7 @@ nsWindowsShellService
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSISHELLSERVICE
+NS_DECL_NSIWINDOWSSHELLSERVICE
 protected
 :
 nsresult
