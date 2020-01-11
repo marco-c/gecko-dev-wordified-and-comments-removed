@@ -6274,10 +6274,7 @@ activeTab
 .
 linkedBrowser
 .
-outerWindowID
-activeTab
-.
-linkedBrowser
+browsingContext
 )
 ;
 }

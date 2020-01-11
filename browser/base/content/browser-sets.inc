@@ -365,12 +365,7 @@ gBrowser
 .
 selectedBrowser
 .
-outerWindowID
-window
-.
-gBrowser
-.
-selectedBrowser
+browsingContext
 )
 ;
 "

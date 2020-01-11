@@ -8852,10 +8852,9 @@ printWindow
 (
 this
 .
-frameOuterWindowID
-this
+actor
 .
-browser
+browsingContext
 )
 ;
 }

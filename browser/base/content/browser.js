@@ -12191,10 +12191,7 @@ gBrowser
 .
 selectedBrowser
 .
-outerWindowID
-gBrowser
-.
-selectedBrowser
+browsingContext
 )
 ;
 break
