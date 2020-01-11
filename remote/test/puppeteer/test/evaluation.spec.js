@@ -122,13 +122,7 @@ toBe
 }
 )
 ;
-(
-bigint
-?
-it_fails_ffox
-:
-xit
-)
+it
 (
 '
 should
@@ -614,7 +608,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -1426,13 +1420,7 @@ object
 }
 )
 ;
-(
-bigint
-?
-it_fails_ffox
-:
-xit
-)
+it
 (
 '
 should
@@ -1931,7 +1919,7 @@ undefined
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2692,7 +2680,7 @@ navigation
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2782,7 +2770,7 @@ toEqual
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

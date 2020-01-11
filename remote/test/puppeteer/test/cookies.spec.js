@@ -327,7 +327,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -444,7 +444,7 @@ Strict
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

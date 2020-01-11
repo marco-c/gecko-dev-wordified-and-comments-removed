@@ -2109,7 +2109,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3084,7 +3084,7 @@ null
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -3215,7 +3215,7 @@ dataURL
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4348,7 +4348,7 @@ html
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

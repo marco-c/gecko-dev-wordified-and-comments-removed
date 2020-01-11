@@ -260,7 +260,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -629,7 +629,7 @@ Clicked
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -723,7 +723,7 @@ clicked
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

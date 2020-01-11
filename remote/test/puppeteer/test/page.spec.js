@@ -4207,7 +4207,7 @@ warn
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -4481,7 +4481,7 @@ CHROME
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -7766,7 +7766,7 @@ expectedOutput
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -7870,7 +7870,7 @@ TimeoutError
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -7978,7 +7978,7 @@ TimeoutError
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -11860,7 +11860,7 @@ blue
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -13008,7 +13008,7 @@ strings
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
