@@ -8183,6 +8183,8 @@ const
 nsAString
 &
 aIntegrity
+bool
+aIsLinkPreload
 )
 ;
 RefPtr

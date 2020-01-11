@@ -501,7 +501,8 @@ class
 IsPreload
 {
 No
-Yes
+FromParser
+FromLink
 }
 ;
 Result

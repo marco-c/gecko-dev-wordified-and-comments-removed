@@ -496,6 +496,8 @@ bool
 aDefer
 bool
 aNoModule
+bool
+aLinkPreload
 )
 {
 MOZ_ASSERT
@@ -625,6 +627,10 @@ mIsDefer
 =
 aDefer
 ;
+mIsLinkPreload
+=
+aLinkPreload
+;
 }
 inline
 void
@@ -710,6 +716,8 @@ nsHtml5String
 aReferrerPolicy
 nsHtml5String
 aIntegrity
+bool
+aLinkPreload
 )
 {
 MOZ_ASSERT
@@ -789,6 +797,10 @@ ToString
 (
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 )
+;
+mIsLinkPreload
+=
+aLinkPreload
 ;
 }
 inline
@@ -1011,6 +1023,9 @@ mIsAsync
 ;
 bool
 mIsDefer
+;
+bool
+mIsLinkPreload
 ;
 nsString
 mUrlOrSizes

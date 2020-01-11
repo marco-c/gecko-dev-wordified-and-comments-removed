@@ -760,6 +760,8 @@ bool
 aDefer
 bool
 aNoModule
+bool
+aLinkPreload
 const
 ReferrerPolicy
 aReferrerPolicy
