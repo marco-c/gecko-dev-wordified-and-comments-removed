@@ -309,6 +309,14 @@ linux1804
 .
 *
 '
+    
+r
+'
+linux
+-
+.
+*
+'
 )
 FZF_NOT_FOUND
 =

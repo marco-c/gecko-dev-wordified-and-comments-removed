@@ -573,12 +573,10 @@ projects
 :
 [
 '
-mozilla
--
-central
-'
-'
 try
+'
+'
+release
 '
 ]
 sm

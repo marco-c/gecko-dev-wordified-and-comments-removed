@@ -476,11 +476,14 @@ opt
 try
 '
 '
-mozilla
--
-central
+release
 '
 ]
+#
+skip
+integration
+Bug
+1599197
 .
 *
 -
