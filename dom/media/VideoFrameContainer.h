@@ -222,6 +222,15 @@ ClearCurrentFrame
 void
 ClearFutureFrames
 (
+TimeStamp
+aNow
+=
+TimeStamp
+:
+:
+Now
+(
+)
 )
 ;
 double
