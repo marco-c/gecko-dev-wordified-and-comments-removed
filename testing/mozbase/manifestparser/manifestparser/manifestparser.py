@@ -3,10 +3,6 @@ __future__
 import
 absolute_import
 print_function
-from
-io
-import
-BytesIO
 import
 json
 import
@@ -23,6 +19,7 @@ from
 six
 import
 string_types
+StringIO
 from
 .
 ini
@@ -3004,7 +3001,7 @@ self
         
 fp
 =
-BytesIO
+StringIO
 (
 )
         
@@ -4297,7 +4294,7 @@ if
 None
 then
 a
-BytesIO
+StringIO
 instance
 will
 be
@@ -4365,7 +4362,7 @@ None
             
 write
 =
-BytesIO
+StringIO
 (
 )
         
@@ -4436,8 +4433,8 @@ in
 filenames
 ]
             
-print
-(
+write_content
+=
 '
 \
 n
@@ -4446,24 +4443,32 @@ n
 join
 (
 [
+                
 '
 [
-%
-s
+{
+}
 ]
 '
-%
+.
+format
+(
 denormalize_path
 (
 filename
 )
-                             
+)
 for
 filename
 in
 filenames
+            
 ]
 )
+            
+print
+(
+write_content
 file
 =
 write
