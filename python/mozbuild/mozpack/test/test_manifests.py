@@ -91,7 +91,7 @@ open
 (
 f
 '
-wb
+wt
 '
 )
 .
@@ -704,7 +704,7 @@ open
 (
 p
 '
-rb
+r
 '
 )
 as
@@ -809,7 +809,7 @@ open
 (
 p2
 '
-rb
+r
 '
 )
 as
