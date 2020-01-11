@@ -315,6 +315,17 @@ shared
 webgpu
 "
 ]
+remote_agent
+=
+[
+"
+gkrust
+-
+shared
+/
+remote
+"
+]
 [
 dependencies
 ]
