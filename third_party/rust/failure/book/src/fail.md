@@ -1181,17 +1181,7 @@ derive
 docs
 ]
 :
-https
-:
-/
-/
-boats
 .
-gitlab
-.
-io
-/
-failure
 /
 derive
 -

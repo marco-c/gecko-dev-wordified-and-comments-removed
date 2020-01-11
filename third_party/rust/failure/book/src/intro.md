@@ -51,15 +51,9 @@ https
 :
 /
 /
-boats
+docs
 .
-gitlab
-.
-io
-/
-failure
-/
-doc
+rs
 /
 failure
 [

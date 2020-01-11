@@ -357,6 +357,22 @@ Sync
 static
 {
 fn
+name
+(
+&
+self
+)
+-
+>
+Option
+<
+&
+str
+>
+{
+None
+}
+fn
 cause
 (
 &
@@ -367,6 +383,7 @@ self
 Option
 <
 &
+dyn
 Fail
 >
 {
@@ -557,6 +574,7 @@ self
 -
 >
 &
+dyn
 Fail
 where
 Self
@@ -599,6 +617,7 @@ Self
 }
 }
 impl
+dyn
 Fail
 {
 pub
@@ -652,6 +671,7 @@ self
 as
 *
 const
+dyn
 Fail
 as
 *
@@ -720,6 +740,7 @@ self
 as
 *
 mut
+dyn
 Fail
 as
 *
@@ -744,6 +765,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 find_root_cause
@@ -833,6 +855,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 find_root_cause
@@ -936,6 +959,7 @@ Fail
 for
 Box
 <
+dyn
 Fail
 >
 {
@@ -950,6 +974,7 @@ self
 Option
 <
 &
+dyn
 Fail
 >
 {
@@ -1003,6 +1028,7 @@ Option
 &
 '
 f
+dyn
 Fail
 >
 }
@@ -1025,6 +1051,7 @@ Item
 &
 '
 f
+dyn
 Fail
 ;
 fn
@@ -1041,6 +1068,7 @@ Option
 &
 '
 f
+dyn
 Fail
 >
 {
@@ -1076,11 +1104,13 @@ mut
 fail
 :
 &
+dyn
 Fail
 )
 -
 >
 &
+dyn
 Fail
 {
 while

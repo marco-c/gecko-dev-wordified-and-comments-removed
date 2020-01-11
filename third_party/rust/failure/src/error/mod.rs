@@ -176,6 +176,7 @@ err
 :
 Box
 <
+dyn
 StdError
 +
 Sync
@@ -211,6 +212,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
@@ -218,6 +220,31 @@ self
 imp
 .
 failure
+(
+)
+}
+pub
+fn
+name
+(
+&
+self
+)
+-
+>
+Option
+<
+&
+str
+>
+{
+self
+.
+as_fail
+(
+)
+.
+name
 (
 )
 }
@@ -259,6 +286,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
@@ -408,6 +436,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self
@@ -567,6 +596,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 :
@@ -774,6 +804,7 @@ backtrace
 impl
 AsRef
 <
+dyn
 Fail
 >
 for
@@ -788,6 +819,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 self

@@ -28,6 +28,13 @@ std
 :
 fmt
 ;
+#
+[
+allow
+(
+deprecated
+)
+]
 use
 std
 :
@@ -142,6 +149,13 @@ new
 >
 InternalBacktrace
 {
+#
+[
+allow
+(
+deprecated
+)
+]
 static
 ENABLED
 :

@@ -29,6 +29,7 @@ Box
 <
 Inner
 <
+dyn
 Fail
 >
 >
@@ -156,6 +157,7 @@ self
 -
 >
 &
+dyn
 Fail
 {
 &
@@ -180,6 +182,7 @@ self
 >
 &
 mut
+dyn
 Fail
 {
 &
