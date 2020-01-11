@@ -159,15 +159,6 @@ aURI
 override
 ;
 NS_IMETHOD
-GetIsOriginPotentiallyTrustworthy
-(
-bool
-*
-aResult
-)
-override
-;
-NS_IMETHOD
 GetDomain
 (
 nsIURI
