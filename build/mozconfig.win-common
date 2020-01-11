@@ -101,6 +101,8 @@ enable
 profile
 -
 use
+=
+cross
 ac_add_options
 -
 -
