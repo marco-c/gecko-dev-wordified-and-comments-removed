@@ -19,6 +19,8 @@ os
 import
 shutil
 import
+six
+import
 subprocess
 import
 sys
@@ -6148,6 +6150,20 @@ relative_values
 )
 )
     
+def
+__bool__
+(
+self
+)
+:
+        
+return
+self
+.
+__nonzero__
+(
+)
+    
 staticmethod
     
 def
@@ -9599,9 +9615,9 @@ substs
         
 clobber_output
 =
-io
+six
 .
-BytesIO
+StringIO
 (
 )
         
