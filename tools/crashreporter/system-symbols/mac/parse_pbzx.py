@@ -18,12 +18,10 @@ True
 :
     
 if
-(
 offset
 !
 =
 None
-)
 :
         
 f
@@ -42,12 +40,10 @@ relative
 )
     
 if
-(
 length
 !
 =
 0
-)
 :
         
 return
@@ -70,7 +66,7 @@ section
     
 xar_out_path
 =
-'
+"
 %
 s
 .
@@ -81,7 +77,7 @@ part
 cpio
 .
 xz
-'
+"
 %
 (
 pbzx_path
@@ -93,9 +89,9 @@ f
 open
 (
 pbzx_path
-'
+"
 rb
-'
+"
 )
     
 magic
@@ -112,9 +108,9 @@ if
 magic
 !
 =
-'
+"
 pbzx
-'
+"
 :
         
 raise
@@ -143,10 +139,10 @@ struct
 .
 unpack
 (
-'
+"
 >
 Q
-'
+"
 flags
 )
 [
@@ -158,13 +154,12 @@ xar_f
 open
 (
 xar_out_path
-'
+"
 wb
-'
+"
 )
     
 while
-(
 flags
 &
 (
@@ -172,7 +167,6 @@ flags
 <
 <
 24
-)
 )
 :
         
@@ -192,10 +186,10 @@ struct
 .
 unpack
 (
-'
+"
 >
 Q
-'
+"
 flags
 )
 [
@@ -218,10 +212,10 @@ struct
 .
 unpack
 (
-'
+"
 >
 Q
-'
+"
 f_length
 )
 [
@@ -242,12 +236,12 @@ if
 xzmagic
 !
 =
-'
+"
 \
 xfd7zXZ
 \
 x00
-'
+"
 :
             
 seekread
@@ -279,7 +273,7 @@ section
             
 decomp_out
 =
-'
+"
 %
 s
 .
@@ -288,7 +282,7 @@ part
 02d
 .
 cpio
-'
+"
 %
 (
 pbzx_path
@@ -300,9 +294,9 @@ g
 open
 (
 decomp_out
-'
+"
 wb
-'
+"
 )
             
 g
@@ -331,7 +325,7 @@ section
             
 new_out
 =
-'
+"
 %
 s
 .
@@ -342,7 +336,7 @@ part
 cpio
 .
 xz
-'
+"
 %
 (
 pbzx_path
@@ -354,9 +348,9 @@ xar_f
 open
 (
 new_out
-'
+"
 wb
-'
+"
 )
         
 else
@@ -409,9 +403,9 @@ if
 tail
 !
 =
-'
+"
 YZ
-'
+"
 :
                 
 xar_f
@@ -470,9 +464,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 main
