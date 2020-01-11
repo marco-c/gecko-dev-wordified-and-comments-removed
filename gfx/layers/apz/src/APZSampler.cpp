@@ -1153,9 +1153,7 @@ GetGuid
 )
 ;
 }
-const
 ScreenMargin
-&
 APZSampler
 :
 :
