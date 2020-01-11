@@ -23561,12 +23561,8 @@ aParentFrame
 aParentFrame
 -
 >
-IsFrameOfType
+IsSVGForeignObjectFrame
 (
-nsIFrame
-:
-:
-eSVGForeignObject
 )
 )
 {

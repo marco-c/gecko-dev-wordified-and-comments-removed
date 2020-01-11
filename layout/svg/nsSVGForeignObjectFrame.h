@@ -235,17 +235,10 @@ IsFrameOfType
 aFlags
 &
 ~
-(
 nsIFrame
 :
 :
 eSVG
-|
-nsIFrame
-:
-:
-eSVGForeignObject
-)
 )
 ;
 }
