@@ -311,7 +311,7 @@ nsIFile
 aPluginDir
 )
 ;
-nsresult
+void
 CloneFrom
 (
 const
