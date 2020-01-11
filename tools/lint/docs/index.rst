@@ -266,7 +266,7 @@ Guide
 :
 maxdepth
 :
-2
+1
 :
 glob
 :
