@@ -855,6 +855,11 @@ ResourceTimingStructArgs
 timing
 bool
 allRedirectsSameOrigin
+uint32_t
+?
+multiPartId
+bool
+isLastPartOfMultiPart
 )
 ;
 /
