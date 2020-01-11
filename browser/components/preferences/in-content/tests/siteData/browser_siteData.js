@@ -2209,6 +2209,7 @@ openSiteDataSettingsDialog
 (
 )
 ;
+await
 SpecialPowers
 .
 spawn
