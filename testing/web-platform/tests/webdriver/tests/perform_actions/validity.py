@@ -91,6 +91,8 @@ valid_duration
 in
 [
 0
+.
+0
 1
 ]
 :
@@ -252,7 +254,7 @@ in
 [
 0
 .
-0
+1
 None
 "
 foo
