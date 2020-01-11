@@ -69,6 +69,11 @@ ConfirmDialog
 js
 '
 '
+EagerEvaluation
+.
+js
+'
+'
 EditorToolbar
 .
 js

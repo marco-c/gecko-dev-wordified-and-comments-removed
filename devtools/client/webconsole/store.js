@@ -377,6 +377,18 @@ AUTOCOMPLETE
 )
 ;
 const
+eagerEvaluation
+=
+getBoolPref
+(
+PREFS
+.
+FEATURES
+.
+EAGER_EVALUATION
+)
+;
+const
 groupWarnings
 =
 getBoolPref
@@ -412,6 +424,7 @@ PrefState
 logLimit
 sidebarToggle
 autocomplete
+eagerEvaluation
 historyCount
 groupWarnings
 }
