@@ -67,6 +67,11 @@ UITourChild
 .
 jsm
 '
+'
+UITourParent
+.
+jsm
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
