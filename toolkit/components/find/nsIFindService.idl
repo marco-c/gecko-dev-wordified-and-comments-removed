@@ -167,5 +167,9 @@ attribute
 boolean
 matchCase
 ;
+attribute
+boolean
+matchDiacritics
+;
 }
 ;

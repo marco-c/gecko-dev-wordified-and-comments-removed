@@ -864,6 +864,13 @@ uint32_t
 aLength
 )
 ;
+uint32_t
+GetNaked
+(
+uint32_t
+aCh
+)
+;
 class
 ClusterReverseIterator
 {

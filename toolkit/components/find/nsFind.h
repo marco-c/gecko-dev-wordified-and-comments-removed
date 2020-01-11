@@ -121,6 +121,9 @@ mFindBackward
 bool
 mCaseSensitive
 ;
+bool
+mMatchDiacritics
+;
 RefPtr
 <
 mozilla

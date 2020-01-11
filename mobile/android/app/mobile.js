@@ -1887,6 +1887,16 @@ false
 pref
 (
 "
+findbar
+.
+matchdiacritics
+"
+0
+)
+;
+pref
+(
+"
 browser
 .
 menu

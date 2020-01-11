@@ -138,6 +138,10 @@ attribute
 boolean
 entireWord
 ;
+attribute
+boolean
+matchDiacritics
+;
 /
 *
 *

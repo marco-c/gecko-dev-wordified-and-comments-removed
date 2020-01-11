@@ -183,6 +183,7 @@ caseSensitive
 entireWord
 includeRangeData
 includeRectData
+matchDiacritics
 }
 =
 params
@@ -228,6 +229,11 @@ listener
 this
 .
 finder
+matchDiacritics
+:
+!
+!
+matchDiacritics
 useSubFrames
 :
 false
