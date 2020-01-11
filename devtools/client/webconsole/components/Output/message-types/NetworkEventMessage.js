@@ -777,9 +777,6 @@ info
 network
 -
 monitor
-devtools
--
-monospace
 "
 }
 createElement
