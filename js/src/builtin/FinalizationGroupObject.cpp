@@ -2815,7 +2815,12 @@ MOZ_ASSERT
 index
 <
 =
-initialLength
+holdings
+-
+>
+length
+(
+)
 )
 ;
 MOZ_ASSERT
