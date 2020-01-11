@@ -1006,6 +1006,18 @@ other
 )
 :
         
+if
+not
+isinstance
+(
+other
+Test
+)
+:
+            
+return
+False
+        
 return
 self
 .
@@ -1015,6 +1027,23 @@ id
 other
 .
 id
+    
+def
+__ne__
+(
+self
+other
+)
+:
+        
+return
+not
+self
+.
+__eq__
+(
+other
+)
     
 def
 update_metadata
