@@ -161,10 +161,14 @@ vendored
 -
 sources
 "
-rev
+tag
 =
 "
-a17c1e83
+v0
+.
+1
+.
+6
 "
 [
 source
