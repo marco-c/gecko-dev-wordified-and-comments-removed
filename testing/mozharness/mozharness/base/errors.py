@@ -125,11 +125,11 @@ base
 .
 log
 import
-DEBUG
-WARNING
-ERROR
 CRITICAL
+DEBUG
+ERROR
 FATAL
+WARNING
 class
 VCSException
 (
@@ -951,6 +951,7 @@ re
 .
 compile
 (
+        
 r
 '
 '
@@ -1551,6 +1552,7 @@ re
 .
 compile
 (
+        
 r
 '
 '
