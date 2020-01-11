@@ -105,9 +105,9 @@ private
 :
 RefPtr
 <
-nsPIDOMWindowOuter
+BrowsingContext
 >
-mWindow
+mBC
 ;
 }
 ;
