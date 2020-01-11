@@ -125,13 +125,6 @@ SetterThrows
 ]
 attribute
 DOMString
-align
-;
-[
-SetterThrows
-]
-attribute
-DOMString
 dir
 ;
 [
