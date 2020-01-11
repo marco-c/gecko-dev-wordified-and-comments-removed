@@ -64,6 +64,13 @@ h
 #
 include
 "
+nsHTMLParts
+.
+h
+"
+#
+include
+"
 nsLayoutUtils
 .
 h

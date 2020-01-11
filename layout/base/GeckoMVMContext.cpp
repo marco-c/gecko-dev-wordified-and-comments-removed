@@ -44,6 +44,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIDOMEventListener
 .
 h
