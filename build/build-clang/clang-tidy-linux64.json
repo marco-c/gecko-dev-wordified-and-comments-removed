@@ -125,5 +125,14 @@ errors
 .
 patch
 "
+"
+bug
+-
+1605181
+-
+isConstexpr
+.
+patch
+"
 ]
 }
