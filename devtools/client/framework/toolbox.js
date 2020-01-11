@@ -2991,7 +2991,7 @@ _onInspectObject
 ;
 targetFront
 .
-onFront
+watchFronts
 (
 "
 inspector

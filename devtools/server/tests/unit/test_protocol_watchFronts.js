@@ -423,7 +423,7 @@ form
 is
 set
 before
-onFront
+watchFronts
 listeners
 are
 called
@@ -441,7 +441,7 @@ front
 ;
 rootFront
 .
-onFront
+watchFronts
 (
 "
 childActor
@@ -496,7 +496,7 @@ fronts
 length
 1
 "
-onFront
+watchFronts
 fires
 the
 callback
@@ -520,7 +520,7 @@ fronts
 ]
 firstChild
 "
-onFront
+watchFronts
 fires
 the
 callback
@@ -533,7 +533,7 @@ instance
 )
 ;
 const
-onFrontAfter
+watchFrontsAfter
 =
 await
 new
@@ -545,7 +545,7 @@ resolve
 {
 rootFront
 .
-onFront
+watchFronts
 (
 "
 childActor
@@ -558,10 +558,10 @@ resolve
 ;
 equal
 (
-onFrontAfter
+watchFrontsAfter
 firstChild
 "
-onFront
+watchFronts
 fires
 the
 callback
@@ -655,7 +655,7 @@ instance
 ;
 rootFront
 .
-offFront
+unwatchFronts
 (
 "
 childActor
@@ -682,7 +682,7 @@ length
 "
 After
 calling
-offFront
+unwatchFronts
 the
 listener
 is
@@ -700,11 +700,12 @@ destroyed
 ;
 rootFront
 .
-onFrontDestroyed
+watchFronts
 (
 "
 childActor
 "
+null
 front
 =
 >

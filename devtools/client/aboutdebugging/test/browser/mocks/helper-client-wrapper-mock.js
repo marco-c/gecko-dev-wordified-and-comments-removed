@@ -349,14 +349,6 @@ getFront
 >
 {
 }
-onFront
-:
-(
-)
-=
->
-{
-}
 setPreference
 :
 function

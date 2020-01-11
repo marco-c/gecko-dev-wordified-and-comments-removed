@@ -88,7 +88,7 @@ this
 .
 rootFront
 .
-onFront
+watchFronts
 (
 "
 processDescriptor
@@ -99,7 +99,7 @@ processFront
 {
 processFront
 .
-onFront
+watchFronts
 (
 "
 contentProcessTarget
@@ -139,7 +139,7 @@ this
 .
 rootFront
 .
-onFront
+watchFronts
 (
 "
 contentProcessTarget
@@ -176,7 +176,7 @@ this
 .
 rootFront
 .
-onFront
+watchFronts
 (
 "
 serviceWorkerRegistration
