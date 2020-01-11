@@ -1047,6 +1047,8 @@ image_properties
 descriptor
 .
 is_opaque
+(
+)
 }
 }
 else

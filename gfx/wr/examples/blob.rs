@@ -109,6 +109,7 @@ api
 ColorF
 CommonItemProperties
 SpaceAndClipInfo
+ImageDescriptorFlags
 }
 ;
 use
@@ -1310,8 +1311,10 @@ ImageFormat
 :
 :
 BGRA8
-true
-false
+ImageDescriptorFlags
+:
+:
+IS_OPAQUE
 )
 serialize_blob
 (
@@ -1444,8 +1447,10 @@ ImageFormat
 :
 :
 BGRA8
-true
-false
+ImageDescriptorFlags
+:
+:
+IS_OPAQUE
 )
 serialize_blob
 (

@@ -855,6 +855,8 @@ image_properties
 descriptor
 .
 is_opaque
+(
+)
 ;
 let
 request
@@ -1067,6 +1069,8 @@ image_properties
 descriptor
 .
 is_opaque
+(
+)
 |
 render_tasks
 |
