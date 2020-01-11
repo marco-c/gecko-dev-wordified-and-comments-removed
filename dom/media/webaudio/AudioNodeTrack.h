@@ -362,6 +362,12 @@ mAudioParamTrack
 true
 ;
 }
+uint32_t
+NumberOfChannels
+(
+)
+const
+;
 void
 AdvanceAndResume
 (
