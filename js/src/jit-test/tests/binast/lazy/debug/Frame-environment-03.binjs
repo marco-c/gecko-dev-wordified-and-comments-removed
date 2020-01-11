@@ -37,7 +37,7 @@ STRINGS
 ]
 identity
 ;
-=
+C
 (
 var
 frame
@@ -59,10 +59,10 @@ h
 )
 ;
 libdir
-live
 load
 newCompartment
 newGlobal
+onStack
 +
 [
 TREE
@@ -74,9 +74,9 @@ identity
 "
 &
 &
+"
 (
 *
-"
 0
 0
 &

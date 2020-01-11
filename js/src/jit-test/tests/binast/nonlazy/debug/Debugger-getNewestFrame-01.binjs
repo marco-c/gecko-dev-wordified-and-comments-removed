@@ -42,7 +42,7 @@ STRINGS
 ]
 identity
 ;
-q
+w
 2
 var
 frame
@@ -68,10 +68,10 @@ f
 (
 )
 libdir
-live
 load
 newCompartment
 newGlobal
+onStack
 type
 +
 instanceof
@@ -81,14 +81,13 @@ TREE
 identity
 ;
 8
-&
 .
 "
-*
+(
 6
 (
 2
-(
+&
 4
 "
 *
@@ -97,4 +96,5 @@ identity
 0
 :
 "
+*
 .

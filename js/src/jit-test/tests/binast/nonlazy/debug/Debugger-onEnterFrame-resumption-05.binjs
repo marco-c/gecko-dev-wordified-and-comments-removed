@@ -54,7 +54,7 @@ debuggee
 savedFrame
 frame
 undefined
-live
+onStack
 var
 dbg
 eval

@@ -57,10 +57,10 @@ pass
 ;
 Debugger
 eval
-live
 newCompartment
 newGlobal
 onEnterFrame
+onStack
 pass
 +
 +

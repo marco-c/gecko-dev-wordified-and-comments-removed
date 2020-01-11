@@ -5123,7 +5123,7 @@ if
 frameobj
 -
 >
-isLive
+isOnStack
 (
 )
 &
@@ -13268,7 +13268,7 @@ if
 (
 frameObj
 .
-isLive
+isOnStack
 (
 )
 )
@@ -19087,7 +19087,7 @@ MOZ_ASSERT
 frameobj
 -
 >
-isLiveMaybeForwarded
+isOnStackMaybeForwarded
 (
 )
 )
@@ -19504,7 +19504,7 @@ MOZ_ASSERT
 frameobj
 -
 >
-isLiveMaybeForwarded
+isOnStackMaybeForwarded
 (
 )
 )

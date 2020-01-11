@@ -332,7 +332,7 @@ assertEq
 (
 frame
 .
-live
+onStack
 true
 )
 ;
@@ -396,7 +396,7 @@ assertEq
 (
 f
 .
-live
+onStack
 true
 )
 ;
@@ -440,7 +440,7 @@ assertEq
 (
 f
 .
-live
+onStack
 true
 )
 ;
@@ -482,7 +482,7 @@ assertEq
 (
 f
 .
-live
+onStack
 true
 )
 ;
@@ -538,7 +538,7 @@ assertEq
 (
 this
 .
-live
+onStack
 true
 )
 ;
@@ -736,7 +736,7 @@ frames
 i
 ]
 .
-live
+onStack
 false
 )
 ;

@@ -61,7 +61,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 true
 )
 ;
@@ -133,7 +133,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -173,7 +173,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 true
 )
 ;
@@ -251,7 +251,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -291,7 +291,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 true
 )
 ;
@@ -373,7 +373,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -440,7 +440,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 true
 )
 ;
@@ -508,7 +508,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;

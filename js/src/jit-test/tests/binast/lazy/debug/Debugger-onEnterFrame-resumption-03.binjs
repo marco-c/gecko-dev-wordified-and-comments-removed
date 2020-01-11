@@ -52,7 +52,7 @@ savedFrame
 dbg
 innerSavedFrame
 eval
-live
+onStack
 pass
 set
 Debugger

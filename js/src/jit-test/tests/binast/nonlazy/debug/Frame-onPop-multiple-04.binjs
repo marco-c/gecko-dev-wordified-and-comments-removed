@@ -51,8 +51,8 @@ dbg1
 dbg2
 frame
 Debugger
-live
 onPop
+onStack
 +
 =
 (

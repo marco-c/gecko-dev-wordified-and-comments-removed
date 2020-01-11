@@ -42,7 +42,7 @@ STRINGS
 ]
 identity
 ;
-#
+)
 f
 frame
 var
@@ -50,7 +50,7 @@ assertEq
 dbg
 g
 eval
-live
+onStack
 x
 Debugger
 debugger

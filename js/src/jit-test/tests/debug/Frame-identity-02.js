@@ -80,7 +80,7 @@ assertEq
 (
 prev
 .
-live
+onStack
 false
 )
 ;

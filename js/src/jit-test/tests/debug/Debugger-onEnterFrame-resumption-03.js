@@ -88,7 +88,7 @@ assertEq
 (
 innerSavedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -131,7 +131,7 @@ assertEq
 (
 savedFrame
 .
-live
+onStack
 false
 )
 ;

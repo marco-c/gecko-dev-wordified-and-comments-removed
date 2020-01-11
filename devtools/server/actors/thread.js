@@ -5044,7 +5044,7 @@ frame
 &
 frame
 .
-live
+onStack
 )
 {
 while
@@ -6928,7 +6928,7 @@ frameActor
 .
 frame
 .
-live
+onStack
 )
 {
 framesPool

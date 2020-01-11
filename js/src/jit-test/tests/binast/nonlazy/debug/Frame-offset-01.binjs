@@ -40,7 +40,7 @@ STRINGS
 ]
 identity
 ;
-G
+M
 (
 var
 f
@@ -58,13 +58,13 @@ debugger
 ;
 eval
 libdir
-live
 load
 newCompartment
 newGlobal
 offset
 &
 onDebuggerStatement
+onStack
 +
 [
 TREE
@@ -79,5 +79,5 @@ identity
 *
 2
 "
-&
 "
+&

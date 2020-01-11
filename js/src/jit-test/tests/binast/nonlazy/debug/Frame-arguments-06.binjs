@@ -58,7 +58,7 @@ dbg
 arguments
 assertThrowsInstanceOf
 eval
-live
+onStack
 0
 Debugger
 Error

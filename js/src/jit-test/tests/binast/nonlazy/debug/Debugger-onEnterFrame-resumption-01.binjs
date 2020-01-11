@@ -48,7 +48,7 @@ STRINGS
 ]
 identity
 ;
-G
+M
 g
 savedFrame
 var
@@ -59,7 +59,7 @@ count
 dbg
 undefined
 eval
-live
+onStack
 pass
 r
 +

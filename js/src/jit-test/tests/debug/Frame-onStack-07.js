@@ -249,7 +249,7 @@ assertEq
 (
 poppedFrame
 .
-live
+onStack
 false
 )
 ;
@@ -269,7 +269,8 @@ Debugger
 Frame
 is
 not
-live
+on
+stack
 "
 )
 ;

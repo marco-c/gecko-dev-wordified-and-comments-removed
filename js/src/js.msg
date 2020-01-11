@@ -7576,7 +7576,7 @@ stack
 )
 MSG_DEF
 (
-JSMSG_DEBUG_NOT_LIVE
+JSMSG_DEBUG_NOT_ON_STACK
 1
 JSEXN_ERR
 "
@@ -7585,7 +7585,8 @@ JSEXN_ERR
 }
 is
 not
-live
+on
+stack
 "
 )
 MSG_DEF

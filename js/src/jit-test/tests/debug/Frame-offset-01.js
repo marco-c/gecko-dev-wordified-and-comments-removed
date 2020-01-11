@@ -61,7 +61,7 @@ assertEq
 (
 f
 .
-live
+onStack
 false
 )
 ;

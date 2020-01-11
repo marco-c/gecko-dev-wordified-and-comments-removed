@@ -49,7 +49,7 @@ dbg
 g
 assertEq
 eval
-live
+onStack
 x
 Debugger
 debugger

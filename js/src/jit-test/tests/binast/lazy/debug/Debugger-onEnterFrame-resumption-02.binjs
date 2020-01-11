@@ -55,7 +55,7 @@ set
 "
 assertThrowsValue
 f
-live
+onStack
 undefined
 &
 return
