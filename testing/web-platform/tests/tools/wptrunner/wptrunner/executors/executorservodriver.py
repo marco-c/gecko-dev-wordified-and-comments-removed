@@ -694,6 +694,8 @@ func
 (
 self
 .
+protocol
+.
 session
 self
 .
@@ -1034,8 +1036,6 @@ do_testharness
 self
 .
 protocol
-.
-session
                                           
 url
                                           
