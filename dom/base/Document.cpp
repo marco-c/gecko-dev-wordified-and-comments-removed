@@ -22191,7 +22191,6 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
-&
 aSubjectPrincipal
 )
 )
@@ -22244,7 +22243,6 @@ nsContentUtils
 :
 PrincipalHasPermission
 (
-&
 aSubjectPrincipal
 nsGkAtoms
 :
@@ -22991,7 +22989,6 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
-&
 aSubjectPrincipal
 )
 ;
