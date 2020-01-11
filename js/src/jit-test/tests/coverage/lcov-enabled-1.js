@@ -1,0 +1,8 @@
+assertEq
+(
+isLcovEnabled
+(
+)
+true
+)
+;
