@@ -2128,16 +2128,6 @@ return
 }
 if
 (
-ctypes
-.
-errno
-!
-=
-Const
-.
-EXDEV
-|
-|
 options
 .
 noCopy
