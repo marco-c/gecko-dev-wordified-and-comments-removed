@@ -10639,13 +10639,6 @@ WidgetRenderingContext
 aContext
 )
 {
-mNativeLayerRoot
--
->
-CommitToScreen
-(
-)
-;
 mViewTearDownLock
 .
 Unlock
