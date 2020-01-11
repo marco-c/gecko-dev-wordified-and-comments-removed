@@ -16531,7 +16531,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 type
 :
 RelaxedAtomicBool

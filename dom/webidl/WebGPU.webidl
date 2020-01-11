@@ -432,7 +432,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -502,7 +502,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -546,7 +546,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -643,7 +643,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1006,7 +1006,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1048,7 +1048,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1073,7 +1073,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1338,7 +1338,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1430,7 +1430,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1685,7 +1685,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1779,7 +1779,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -1906,7 +1906,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2082,7 +2082,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2301,7 +2301,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2331,7 +2331,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2464,7 +2464,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2548,7 +2548,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -2884,7 +2884,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -3274,7 +3274,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -3343,7 +3343,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -3508,7 +3508,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -3860,7 +3860,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4006,7 +4006,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4077,7 +4077,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4197,7 +4197,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4304,7 +4304,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4382,7 +4382,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4431,7 +4431,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4472,7 +4472,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4675,7 +4675,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4720,7 +4720,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4779,7 +4779,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
@@ -4834,7 +4834,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =

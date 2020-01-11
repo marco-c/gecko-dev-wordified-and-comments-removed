@@ -121,7 +121,7 @@ dom
 .
 webgpu
 .
-enable
+enabled
 "
 Exposed
 =
