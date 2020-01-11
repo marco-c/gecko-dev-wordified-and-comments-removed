@@ -45,7 +45,12 @@ _okButton
 =
 document
 .
-documentElement
+getElementById
+(
+"
+removemp
+"
+)
 .
 getButton
 (

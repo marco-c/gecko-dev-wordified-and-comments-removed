@@ -125,7 +125,12 @@ cancelButton
 =
 document
 .
-documentElement
+getElementById
+(
+"
+BlocklistDialog
+"
+)
 .
 getButton
 (

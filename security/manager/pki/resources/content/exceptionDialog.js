@@ -61,7 +61,12 @@ gDialog
 =
 document
 .
-documentElement
+getElementById
+(
+"
+exceptiondialog
+"
+)
 ;
 gSecHistogram
 =

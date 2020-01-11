@@ -157,7 +157,7 @@ css
 <
 !
 DOCTYPE
-dialog
+window
 [
 <
 !
@@ -235,11 +235,11 @@ scDTD
 ]
 >
 <
-dialog
+window
 id
 =
 "
-unknownContentType
+unknownContentTypeWindow
 "
 xmlns
 =
@@ -358,6 +358,14 @@ type
 from
 source
 unknownPrompt
+"
+>
+<
+dialog
+id
+=
+"
+unknownContentType
 "
 >
 <
@@ -1174,4 +1182,8 @@ menulist
 <
 /
 dialog
+>
+<
+/
+window
 >

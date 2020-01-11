@@ -103,7 +103,7 @@ css
 <
 !
 DOCTYPE
-dialog
+window
 SYSTEM
 "
 chrome
@@ -120,7 +120,7 @@ dtd
 "
 >
 <
-dialog
+window
 xmlns
 =
 "
@@ -153,6 +153,9 @@ dialogOnLoad
 (
 )
 "
+>
+<
+dialog
 >
 <
 script
@@ -246,4 +249,8 @@ vbox
 <
 /
 dialog
+>
+<
+/
+window
 >

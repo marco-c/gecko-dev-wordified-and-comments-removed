@@ -246,7 +246,12 @@ accept
 =
 document
 .
-documentElement
+getElementById
+(
+"
+selectBookmarkDialog
+"
+)
 .
 getButton
 (
@@ -346,7 +351,12 @@ selectedNode
 {
 document
 .
-documentElement
+getElementById
+(
+"
+selectBookmarkDialog
+"
+)
 .
 getButton
 (

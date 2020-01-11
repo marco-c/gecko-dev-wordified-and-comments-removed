@@ -251,7 +251,12 @@ else
 {
 document
 .
-documentElement
+getElementById
+(
+"
+syncChooseOptions
+"
+)
 .
 getButton
 (

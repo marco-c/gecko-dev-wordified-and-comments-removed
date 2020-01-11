@@ -98,7 +98,7 @@ css
 ?
 >
 <
-dialog
+window
 xmlns
 =
 "
@@ -164,11 +164,6 @@ width
 36em
 ;
 "
-buttons
-=
-"
-cancel
-"
 oncancel
 =
 "
@@ -189,6 +184,14 @@ onunload
 onUnload
 (
 )
+"
+>
+<
+dialog
+buttons
+=
+"
+cancel
 "
 >
 <
@@ -403,4 +406,8 @@ box
 <
 /
 dialog
+>
+<
+/
+window
 >

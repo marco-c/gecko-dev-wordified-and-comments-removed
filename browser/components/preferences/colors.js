@@ -1,6 +1,11 @@
 document
 .
-documentElement
+getElementById
+(
+"
+ColorsDialog
+"
+)
 .
 addEventListener
 (

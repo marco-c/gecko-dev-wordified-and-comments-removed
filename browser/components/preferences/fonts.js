@@ -158,7 +158,12 @@ LANG
 ;
 document
 .
-documentElement
+getElementById
+(
+"
+FontsDialog
+"
+)
 .
 addEventListener
 (

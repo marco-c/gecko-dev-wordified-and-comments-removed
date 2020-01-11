@@ -406,7 +406,12 @@ cancelbutton
 =
 document
 .
-documentElement
+getElementById
+(
+"
+history
+"
+)
 .
 getButton
 (

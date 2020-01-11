@@ -1055,7 +1055,12 @@ ok
 =
 document
 .
-documentElement
+getElementById
+(
+"
+changemp
+"
+)
 .
 getButton
 (

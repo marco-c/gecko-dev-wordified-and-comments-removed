@@ -143,7 +143,7 @@ css
 ?
 >
 <
-dialog
+window
 xmlns
 =
 "
@@ -188,11 +188,6 @@ org
 /
 xhtml
 "
-id
-=
-"
-printPageSetupDialog
-"
 onload
 =
 "
@@ -236,6 +231,14 @@ screenY
 =
 "
 24
+"
+>
+<
+dialog
+id
+=
+"
+printPageSetupDialog
 "
 >
 <
@@ -2754,4 +2757,8 @@ tabbox
 <
 /
 dialog
+>
+<
+/
+window
 >

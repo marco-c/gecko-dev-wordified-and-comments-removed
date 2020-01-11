@@ -98,7 +98,7 @@ css
 ?
 >
 <
-dialog
+window
 xmlns
 =
 "
@@ -143,11 +143,6 @@ org
 /
 xhtml
 "
-buttons
-=
-"
-cancel
-"
 data
 -
 l10n
@@ -180,6 +175,14 @@ onunload
 onUnload
 (
 )
+"
+>
+<
+dialog
+buttons
+=
+"
+cancel
 "
 >
 <
@@ -501,4 +504,8 @@ box
 <
 /
 dialog
+>
+<
+/
+window
 >
