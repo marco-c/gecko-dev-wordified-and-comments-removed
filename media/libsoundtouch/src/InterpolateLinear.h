@@ -99,7 +99,7 @@ virtual
 void
 setRate
 (
-float
+double
 newRate
 )
 ;
@@ -113,7 +113,7 @@ TransposerBase
 {
 protected
 :
-float
+double
 fract
 ;
 virtual

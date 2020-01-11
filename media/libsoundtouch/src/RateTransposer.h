@@ -127,7 +127,7 @@ algorithm
 ;
 public
 :
-float
+double
 rate
 ;
 int
@@ -159,7 +159,7 @@ virtual
 void
 setRate
 (
-float
+double
 newRate
 )
 ;
@@ -274,7 +274,7 @@ virtual
 void
 setRate
 (
-float
+double
 newRate
 )
 ;
@@ -303,6 +303,12 @@ clear
 ;
 int
 isEmpty
+(
+)
+const
+;
+int
+getLatency
 (
 )
 const

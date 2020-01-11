@@ -58,7 +58,6 @@ double
 &
 anorm
 )
-const
 {
 int
 i
@@ -431,7 +430,6 @@ double
 &
 norm
 )
-const
 {
 return
 calcCrossCorr

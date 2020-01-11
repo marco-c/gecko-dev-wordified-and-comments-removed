@@ -83,7 +83,7 @@ int
 srcSamples
 )
 ;
-float
+double
 fract
 ;
 public
