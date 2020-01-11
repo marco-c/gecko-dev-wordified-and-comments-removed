@@ -316,7 +316,7 @@ F
 <
 !
 ENTITY
-fillGeneratedPassword
+useGeneratedPassword
 .
 label
 "
@@ -330,7 +330,7 @@ Password
 <
 !
 ENTITY
-fillGeneratedPassword
+useGeneratedPassword
 .
 accesskey
 "

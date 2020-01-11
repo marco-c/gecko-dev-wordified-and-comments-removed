@@ -1028,6 +1028,10 @@ isPasswordField
 &
 &
 aSearchString
+&
+&
+!
+generatedPassword
 )
 {
 log
@@ -1965,6 +1969,15 @@ isPasswordField
 &
 &
 aSearchString
+&
+&
+!
+loginManagerActor
+.
+isPasswordGenerationForcedOn
+(
+aElement
+)
 )
 {
 let

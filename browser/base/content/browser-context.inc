@@ -4470,7 +4470,7 @@ label
 =
 "
 &
-fillGeneratedPassword
+useGeneratedPassword
 .
 label
 ;
@@ -4479,7 +4479,7 @@ accesskey
 =
 "
 &
-fillGeneratedPassword
+useGeneratedPassword
 .
 accesskey
 ;
@@ -4494,7 +4494,7 @@ oncommand
 "
 gContextMenu
 .
-fillGeneratedPassword
+useGeneratedPassword
 (
 )
 ;
