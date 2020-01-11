@@ -378,6 +378,7 @@ frameActor
 webConsoleFront
 }
 =
+await
 webConsoleUI
 .
 getFrameActor
