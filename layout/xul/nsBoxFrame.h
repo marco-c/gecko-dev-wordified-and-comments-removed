@@ -471,11 +471,6 @@ nsIFrame
 eReplacedContainsBlock
 |
 eXULBox
-|
-nsIFrame
-:
-:
-eExcludesIgnorableWhitespace
 )
 )
 ;

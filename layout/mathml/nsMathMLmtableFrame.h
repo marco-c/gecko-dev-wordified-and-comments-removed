@@ -1025,17 +1025,10 @@ IsFrameOfType
 aFlags
 &
 ~
-(
 nsIFrame
 :
 :
 eMathML
-|
-nsIFrame
-:
-:
-eExcludesIgnorableWhitespace
-)
 )
 ;
 }
