@@ -100,14 +100,15 @@ send
 let
 viewSourceContentPromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 viewSourceTab
 .
 linkedBrowser
-null
+[
+]
 async
 function
 (

@@ -218,12 +218,14 @@ let
 alreadyLoaded
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 aExpectedURL
+]
 url
 =
 >

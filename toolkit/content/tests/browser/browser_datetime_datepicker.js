@@ -1262,7 +1262,7 @@ children
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -1271,8 +1271,8 @@ helper
 tab
 .
 linkedBrowser
-{
-}
+[
+]
 async
 function
 (
@@ -1310,14 +1310,15 @@ let
 value
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 (
 )

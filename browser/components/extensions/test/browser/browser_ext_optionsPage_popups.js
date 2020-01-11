@@ -49,12 +49,13 @@ page
 "
 )
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 optionsBrowser
-null
+[
+]
 (
 )
 =

@@ -185,13 +185,13 @@ await
 promisePluginBindingAttached
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gTestBrowser
-{
-}
+[
+]
 async
 function
 (

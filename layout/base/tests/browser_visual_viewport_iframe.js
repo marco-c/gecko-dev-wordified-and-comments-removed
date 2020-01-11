@@ -173,12 +173,14 @@ browser
 >
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 crossOriginIframeUrl
+]
 async
 iframeUrl
 =

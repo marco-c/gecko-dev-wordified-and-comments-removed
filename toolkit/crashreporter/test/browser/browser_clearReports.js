@@ -584,12 +584,13 @@ pendingdir
 path
 ]
 ;
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 clickClearReports
 )
 ;

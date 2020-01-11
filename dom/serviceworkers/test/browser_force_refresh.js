@@ -355,12 +355,13 @@ eventHandler
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tabBrowser
-null
+[
+]
 async
 function
 (

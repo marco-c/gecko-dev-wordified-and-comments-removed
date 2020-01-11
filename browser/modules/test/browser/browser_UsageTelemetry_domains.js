@@ -524,7 +524,7 @@ r
 "
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -533,7 +533,9 @@ newWin
 gBrowser
 .
 selectedBrowser
+[
 XHR_URL
+]
 function
 (
 url
@@ -763,7 +765,7 @@ totalUnfilteredURIs
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -772,7 +774,8 @@ newWin
 gBrowser
 .
 selectedBrowser
-null
+[
+]
 async
 function
 (

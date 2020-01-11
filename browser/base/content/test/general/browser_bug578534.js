@@ -105,12 +105,13 @@ browser
 )
 {
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 function
 (
 )

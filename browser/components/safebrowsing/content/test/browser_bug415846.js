@@ -67,12 +67,13 @@ browser
 let
 dclPromise
 =
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-null
+[
+]
 async
 function
 (

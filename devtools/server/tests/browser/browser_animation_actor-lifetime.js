@@ -266,7 +266,7 @@ const
 actors
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
@@ -274,9 +274,11 @@ gBrowser
 .
 selectedBrowser
 [
+[
 animations
 .
 actorID
+]
 ]
 function
 (

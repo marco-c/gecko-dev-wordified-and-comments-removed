@@ -70,14 +70,16 @@ true
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 tab
 .
 linkedBrowser
+[
 principal
+]
 async
 function
 (

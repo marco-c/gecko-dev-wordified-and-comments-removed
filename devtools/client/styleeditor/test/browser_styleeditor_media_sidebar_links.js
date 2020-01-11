@@ -952,13 +952,13 @@ const
 sizing
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
-{
-}
+[
+]
 async
 function
 (

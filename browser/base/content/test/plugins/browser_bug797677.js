@@ -227,12 +227,13 @@ found
 )
 ;
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 gTestBrowser
-null
+[
+]
 function
 (
 )

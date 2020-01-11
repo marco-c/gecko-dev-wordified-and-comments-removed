@@ -32,12 +32,14 @@ let
 found
 =
 await
-ContentTask
+SpecialPowers
 .
 spawn
 (
 browser
+[
 selector
+]
 arg
 =
 >
