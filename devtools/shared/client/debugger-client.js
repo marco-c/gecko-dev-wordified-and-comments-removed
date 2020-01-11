@@ -465,7 +465,6 @@ ready
 }
 close
 (
-onClosed
 )
 {
 const
@@ -551,19 +550,6 @@ cleanup
 }
 )
 ;
-if
-(
-onClosed
-)
-{
-promise
-.
-then
-(
-onClosed
-)
-;
-}
 return
 promise
 ;
