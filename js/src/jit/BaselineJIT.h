@@ -255,6 +255,7 @@ CallVM
 NonOpCallVM
 WarmupCounter
 StackCheck
+InterruptCheck
 DebugTrap
 DebugPrologue
 DebugAfterYield
