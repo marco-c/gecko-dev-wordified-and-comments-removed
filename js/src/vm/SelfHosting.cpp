@@ -16300,6 +16300,17 @@ setNewCompartmentAndZone
 ;
 options
 .
+creationOptions
+(
+)
+.
+setInvisibleToDebugger
+(
+true
+)
+;
+options
+.
 behaviors
 (
 )
