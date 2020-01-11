@@ -386,8 +386,6 @@ const
 nsAString
 &
 aHTMLInputInputmode
-bool
-aInPrivateBrowsing
 )
 ;
 static

@@ -1598,8 +1598,6 @@ const
 nsString
 &
 aHTMLInputInputmode
-bool
-aInPrivateBrowsing
 )
 ;
 void
