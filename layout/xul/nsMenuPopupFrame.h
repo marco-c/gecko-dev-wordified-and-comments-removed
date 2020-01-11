@@ -649,10 +649,7 @@ nsView
 aView
 )
 ;
-mozilla
-:
-:
-StyleWindowShadow
+uint8_t
 GetShadowStyle
 (
 )
