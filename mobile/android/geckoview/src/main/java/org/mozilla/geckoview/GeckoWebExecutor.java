@@ -205,7 +205,6 @@ IntDef
 FETCH_FLAGS_NONE
 FETCH_FLAGS_ANONYMOUS
 FETCH_FLAGS_NO_REDIRECTS
-FETCH_FLAGS_STREAM_FAILURE_TEST
 }
 )
 interface
@@ -241,18 +240,6 @@ FETCH_FLAGS_NO_REDIRECTS
 <
 <
 1
-;
-WrapForJNI
-public
-static
-final
-int
-FETCH_FLAGS_STREAM_FAILURE_TEST
-=
-1
-<
-<
-10
 ;
 public
 GeckoWebExecutor
