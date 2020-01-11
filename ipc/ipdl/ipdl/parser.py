@@ -3468,6 +3468,12 @@ high
 '
 :
 3
+             
+'
+mediumhigh
+'
+:
+4
 }
     
 if
@@ -3490,8 +3496,10 @@ p
 "
 Expected
 normal
-or
+input
 high
+or
+mediumhigh
 for
 prio
 (

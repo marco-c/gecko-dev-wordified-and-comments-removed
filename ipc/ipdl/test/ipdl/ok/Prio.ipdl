@@ -31,5 +31,14 @@ InputPrio
 (
 )
 ;
+prio
+(
+mediumhigh
+)
+async
+MediumHighPrio
+(
+)
+;
 }
 ;
