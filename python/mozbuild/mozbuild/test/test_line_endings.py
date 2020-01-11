@@ -3,20 +3,19 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 unittest
 from
-StringIO
+mozfile
 import
-StringIO
-import
-os
-import
-os
-.
-path
+NamedTemporaryFile
 import
 mozunit
+from
+six
+import
+StringIO
 from
 mozbuild
 .
@@ -74,14 +73,14 @@ StringIO
         
 self
 .
-tempnam
+f
 =
-os
-.
-tempnam
+NamedTemporaryFile
 (
+mode
+=
 '
-.
+wb
 '
 )
     
@@ -92,13 +91,12 @@ self
 )
 :
         
-os
-.
-remove
-(
 self
 .
-tempnam
+f
+.
+close
+(
 )
     
 def
@@ -109,18 +107,6 @@ lineendings
 )
 :
         
-f
-=
-open
-(
-self
-.
-tempnam
-'
-wb
-'
-)
-        
 for
 line
 ending
@@ -128,14 +114,17 @@ in
 zip
 (
 [
+b
 '
 a
 '
+b
 '
 #
 literal
 b
 '
+b
 '
 c
 '
@@ -144,6 +133,8 @@ lineendings
 )
 :
             
+self
+.
 f
 .
 write
@@ -153,9 +144,11 @@ line
 ending
 )
         
+self
+.
 f
 .
-close
+flush
 (
 )
     
@@ -171,6 +164,7 @@ self
 createFile
 (
 [
+b
 '
 \
 x0D
@@ -188,7 +182,9 @@ do_include
 (
 self
 .
-tempnam
+f
+.
+name
 )
         
 self
@@ -227,6 +223,7 @@ self
 createFile
 (
 [
+b
 '
 \
 x0A
@@ -244,7 +241,9 @@ do_include
 (
 self
 .
-tempnam
+f
+.
+name
 )
         
 self
@@ -283,6 +282,7 @@ self
 createFile
 (
 [
+b
 '
 \
 x0D
@@ -302,7 +302,9 @@ do_include
 (
 self
 .
-tempnam
+f
+.
+name
 )
         
 self
