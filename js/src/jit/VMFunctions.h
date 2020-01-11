@@ -4093,12 +4093,6 @@ cx
 BaselineFrame
 *
 frame
-jsbytecode
-*
-pc
-bool
-*
-mustReturn
 )
 ;
 MOZ_MUST_USE
@@ -4213,12 +4207,6 @@ cx
 BaselineFrame
 *
 frame
-jsbytecode
-*
-pc
-bool
-*
-mustReturn
 )
 ;
 MOZ_MUST_USE
@@ -4324,9 +4312,6 @@ frame
 uint8_t
 *
 retAddr
-bool
-*
-mustReturn
 )
 ;
 MOZ_MUST_USE

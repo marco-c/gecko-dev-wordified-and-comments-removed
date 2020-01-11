@@ -1301,9 +1301,6 @@ NonAssertingLabel
 return_
 ;
 NonAssertingLabel
-returnNoDebugEpilogue_
-;
-NonAssertingLabel
 postBarrierSlot_
 ;
 NonAssertingLabel
