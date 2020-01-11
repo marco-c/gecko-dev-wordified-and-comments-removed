@@ -651,7 +651,7 @@ except
 Exception
 :
             
-ERROR
+LOG
 (
 "
 Failed
