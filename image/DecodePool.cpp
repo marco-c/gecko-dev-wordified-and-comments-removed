@@ -285,6 +285,11 @@ bool
 aShutdownIdle
 )
 {
+bool
+removed
+=
+false
+;
 {
 MonitorAutoLock
 lock
@@ -302,10 +307,6 @@ mShuttingDown
 +
 mAvailableThreads
 ;
-DebugOnly
-<
-bool
->
 removed
 =
 mThreads
@@ -338,6 +339,11 @@ removed
 ;
 }
 }
+if
+(
+removed
+)
+{
 SystemGroup
 :
 :
@@ -364,6 +370,7 @@ AsyncShutdown
 )
 )
 ;
+}
 }
 void
 Shutdown
