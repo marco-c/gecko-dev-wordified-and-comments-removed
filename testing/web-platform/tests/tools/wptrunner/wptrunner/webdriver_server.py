@@ -529,7 +529,8 @@ self
 is_alive
 :
             
-return
+kill_result
+=
 self
 .
 _proc
@@ -537,6 +538,28 @@ _proc
 kill
 (
 )
+            
+if
+force
+and
+kill_result
+!
+=
+0
+:
+                
+return
+self
+.
+_proc
+.
+kill
+(
+9
+)
+            
+return
+kill_result
         
 return
 not
