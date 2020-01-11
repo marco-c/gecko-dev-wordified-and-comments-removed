@@ -615,6 +615,17 @@ browser
 .
 ini
 '
+'
+content
+/
+test
+/
+zoom
+/
+browser
+.
+ini
+'
 ]
 DEFINES
 [
