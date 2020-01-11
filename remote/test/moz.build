@@ -79,6 +79,15 @@ ini
 "
 browser
 /
+emulation
+/
+browser
+.
+ini
+"
+"
+browser
+/
 input
 /
 browser
