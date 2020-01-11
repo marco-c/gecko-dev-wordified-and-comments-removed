@@ -511,11 +511,11 @@ content
 /
 reftest
 .
-xul
+xhtml
 (
 reftest
 .
-xul
+xhtml
 )
 #
 Crash

@@ -248,7 +248,7 @@ content
 /
 recording
 .
-xul
+xhtml
 "
 "
 _blank
