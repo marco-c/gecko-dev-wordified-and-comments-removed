@@ -684,8 +684,12 @@ VisibleFrames
 ;
 public
 :
+explicit
 PresShell
 (
+Document
+*
+aDocument
 )
 ;
 NS_DECL_ISUPPORTS
@@ -816,8 +820,6 @@ endif
 void
 Init
 (
-Document
-*
 nsPresContext
 *
 nsViewManager
@@ -1808,6 +1810,7 @@ StyleSheet
 aSheet
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ReconstructFrames
 (
@@ -6079,6 +6082,7 @@ RefPtr
 <
 Document
 >
+const
 mDocument
 ;
 RefPtr

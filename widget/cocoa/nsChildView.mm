@@ -16051,8 +16051,10 @@ GetWidgetListener
 {
 if
 (
+RefPtr
+<
 PresShell
-*
+>
 presShell
 =
 listener
