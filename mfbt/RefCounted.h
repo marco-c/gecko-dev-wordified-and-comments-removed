@@ -983,7 +983,10 @@ RefCounted
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 RefCounted
 T
@@ -1059,7 +1062,10 @@ AtomicRefCounted
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 AtomicRefCounted
 T

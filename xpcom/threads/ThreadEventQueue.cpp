@@ -243,7 +243,10 @@ EventsAvail
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 AbstractEventQueue
 InnerQueueT

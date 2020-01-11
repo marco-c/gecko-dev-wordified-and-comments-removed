@@ -578,7 +578,10 @@ getThreadSafeWeakReference
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 SupportsThreadSafeWeakPtr
 <
@@ -1017,7 +1020,10 @@ const
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 typename
 ThreadSafeWeakReference
@@ -1071,7 +1077,10 @@ const
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 typename
 ThreadSafeWeakReference

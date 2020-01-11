@@ -299,10 +299,10 @@ T
 value
 |
 |
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 DestinationType
 T

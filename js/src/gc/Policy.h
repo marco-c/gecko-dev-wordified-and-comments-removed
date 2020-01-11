@@ -85,10 +85,10 @@ _2
 _3
 )
 \
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 BaseType
 Type

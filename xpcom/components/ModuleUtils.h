@@ -371,10 +371,10 @@ already_AddRefed
 static_assert
 (
 \
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 _InstanceClass
 T

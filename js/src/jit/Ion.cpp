@@ -1519,10 +1519,10 @@ bailoutTail
 }
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 JitFrameLayout
 RectifierFrameLayout
@@ -1545,10 +1545,10 @@ frame
 ;
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 JitFrameLayout
 WasmToJSJitFrameLayout

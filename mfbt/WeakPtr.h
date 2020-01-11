@@ -561,7 +561,10 @@ SupportsWeakPtr
 {
 static_assert
 (
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 SupportsWeakPtr
 <

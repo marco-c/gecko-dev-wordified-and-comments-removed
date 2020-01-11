@@ -87,7 +87,10 @@ value
 &
 &
 !
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 A
 B
@@ -98,7 +101,10 @@ value
 &
 &
 !
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 B
 A

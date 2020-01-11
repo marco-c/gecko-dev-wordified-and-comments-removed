@@ -192,7 +192,10 @@ inline
 typename
 EnableIf
 <
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 DictionaryBase
 T
@@ -228,7 +231,10 @@ inline
 typename
 EnableIf
 <
-IsBaseOf
+std
+:
+:
+is_base_of
 <
 DictionaryBase
 T

@@ -4379,10 +4379,10 @@ asFinalParser
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 BinASTParserPerTokenizer
 <
@@ -4446,10 +4446,10 @@ const
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 BinASTParserPerTokenizer
 <

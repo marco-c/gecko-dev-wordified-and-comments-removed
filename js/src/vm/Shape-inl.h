@@ -1247,10 +1247,10 @@ obj
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsBaseOf
+is_base_of
 <
 JSObject
 ObjectSubclass
