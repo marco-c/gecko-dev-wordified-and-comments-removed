@@ -490,11 +490,7 @@ message
 -
 updated
 "
-(
-[
 res
-]
-)
 =
 >
 {
