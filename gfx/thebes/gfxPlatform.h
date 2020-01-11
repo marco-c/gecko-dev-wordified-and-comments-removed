@@ -803,6 +803,12 @@ UseWebRender
 (
 )
 ;
+static
+bool
+CanMigrateMacGPUs
+(
+)
+;
 virtual
 already_AddRefed
 <

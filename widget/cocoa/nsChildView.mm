@@ -10635,6 +10635,14 @@ aContext
 -
 >
 mGL
+&
+&
+gfxPlatform
+:
+:
+CanMigrateMacGPUs
+(
+)
 )
 {
 GLContextCGL
