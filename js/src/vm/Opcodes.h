@@ -272,7 +272,6 @@ JOF_DETECTING
 JOF_IC
 )
 \
-\
 MACRO
 (
 JSOP_TYPEOFEXPR
@@ -634,7 +633,6 @@ JOF_BYTE
 JOF_IC
 )
 \
-\
 MACRO
 (
 JSOP_URSH
@@ -705,7 +703,6 @@ JOF_BYTE
 |
 JOF_IC
 )
-\
 \
 MACRO
 (
