@@ -135,6 +135,16 @@ jsm
 )
 content
 /
+StreamRegistry
+.
+jsm
+(
+StreamRegistry
+.
+jsm
+)
+content
+/
 Sync
 .
 jsm
