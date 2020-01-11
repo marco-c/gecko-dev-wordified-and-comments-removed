@@ -107,6 +107,14 @@ RequestDiscardAll
 (
 )
 ;
+void
+MediaFeatureValuesChangedAllDocuments
+(
+const
+MediaFeatureChange
+&
+)
+;
 private
 :
 ~
