@@ -2117,16 +2117,6 @@ nssckbi
 DLL_SUFFIX
 #
 ifndef
-NSS_DISABLE_DBM
-BINPATH
-/
-DLL_PREFIX
-nssdbm3
-DLL_SUFFIX
-#
-endif
-#
-ifndef
 MOZ_FOLD_LIBS
 BINPATH
 /
