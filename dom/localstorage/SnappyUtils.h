@@ -4,6 +4,13 @@ mozilla_dom_localstorage_SnappyUtils_h
 #
 define
 mozilla_dom_localstorage_SnappyUtils_h
+#
+include
+"
+nsStringFwd
+.
+h
+"
 namespace
 mozilla
 {
