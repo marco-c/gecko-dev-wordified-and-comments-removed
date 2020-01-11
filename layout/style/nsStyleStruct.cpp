@@ -3728,7 +3728,10 @@ mPaintOrder
 )
 mShapeRendering
 (
-NS_STYLE_SHAPE_RENDERING_AUTO
+StyleShapeRendering
+:
+:
+Auto
 )
 mStrokeLinecap
 (

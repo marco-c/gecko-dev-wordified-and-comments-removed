@@ -860,6 +860,12 @@ mozilla
 StyleTextDecorationLength
 "
 "
+mozilla
+:
+:
+StyleShapeRendering
+"
+"
 nsStyleImageType
 "
 "

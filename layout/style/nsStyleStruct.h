@@ -10105,7 +10105,10 @@ mozilla
 StyleSVGPaintOrder
 mPaintOrder
 ;
-uint8_t
+mozilla
+:
+:
+StyleShapeRendering
 mShapeRendering
 ;
 uint8_t

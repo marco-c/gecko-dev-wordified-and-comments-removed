@@ -540,6 +540,11 @@ html
 #
 ShapeRenderingProperty
 "
+gecko_enum_prefix
+=
+"
+StyleShapeRendering
+"
 )
 }
 {
