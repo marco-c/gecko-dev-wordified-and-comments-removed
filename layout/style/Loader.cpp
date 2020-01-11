@@ -6433,9 +6433,8 @@ true
 ;
 aParentSheet
 .
-PrependStyleSheet
+AppendStyleSheet
 (
-&
 aSheet
 )
 ;

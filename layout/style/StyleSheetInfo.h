@@ -177,11 +177,14 @@ dom
 SRIMetadata
 mIntegrity
 ;
+nsTArray
+<
 RefPtr
 <
 StyleSheet
 >
-mFirstChild
+>
+mChildren
 ;
 AutoTArray
 <
