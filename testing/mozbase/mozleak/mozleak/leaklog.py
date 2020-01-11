@@ -1058,6 +1058,9 @@ knownProcessTypes
 default
 "
 "
+forkserver
+"
+"
 plugin
 "
 "
