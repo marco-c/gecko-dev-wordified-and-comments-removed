@@ -274,9 +274,6 @@ class
 OutOfLineRegExpInstanceOptimizable
 ;
 class
-OutOfLineLambdaArrow
-;
-class
 OutOfLineNaNToZero
 ;
 class
@@ -581,14 +578,6 @@ void
 visitOutOfLineRegExpInstanceOptimizable
 (
 OutOfLineRegExpInstanceOptimizable
-*
-ool
-)
-;
-void
-visitOutOfLineLambdaArrow
-(
-OutOfLineLambdaArrow
 *
 ool
 )
