@@ -652,9 +652,7 @@ initialize
 call
 (
 this
-walker
-.
-conn
+null
 )
 ;
 this
@@ -725,7 +723,8 @@ true
 )
 ;
 }
-marshallPool
+get
+conn
 (
 )
 {
@@ -733,6 +732,8 @@ return
 this
 .
 walker
+.
+conn
 ;
 }
 destroy
