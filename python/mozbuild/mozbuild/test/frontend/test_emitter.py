@@ -11349,7 +11349,7 @@ self
 "
 Test
 that
-HOST_SOURCES
+WASM_SOURCES
 works
 properly
 .
@@ -11368,6 +11368,17 @@ wasm
 -
 sources
 '
+extra_substs
+=
+{
+'
+OS_TARGET
+'
+:
+'
+Linux
+'
+}
 )
         
 objs
@@ -14799,6 +14810,17 @@ compile
 -
 flags
 '
+extra_substs
+=
+{
+'
+OS_TARGET
+'
+:
+'
+Linux
+'
+}
 )
         
 flags
