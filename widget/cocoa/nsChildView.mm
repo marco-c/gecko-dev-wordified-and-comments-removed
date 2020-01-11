@@ -579,17 +579,6 @@ mozilla
 /
 layers
 /
-GLManager
-.
-h
-"
-#
-include
-"
-mozilla
-/
-layers
-/
 CompositorOGL
 .
 h

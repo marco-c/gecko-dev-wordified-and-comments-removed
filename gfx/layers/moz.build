@@ -1993,13 +1993,6 @@ NativeLayerCA
 h
 '
 '
-opengl
-/
-GLManager
-.
-h
-'
-'
 TextureSync
 .
 h
@@ -2028,13 +2021,6 @@ UNIFIED_SOURCES
 NativeLayerCA
 .
 mm
-'
-'
-opengl
-/
-GLManager
-.
-cpp
 '
 '
 TextureSync

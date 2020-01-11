@@ -259,9 +259,6 @@ class
 DataTextureSource
 ;
 class
-GLManagerCompositor
-;
-class
 ShaderProgramOGL
 ;
 class
@@ -427,10 +424,6 @@ gl
 :
 GLContext
 GLContext
-;
-friend
-class
-GLManagerCompositor
 ;
 friend
 class
