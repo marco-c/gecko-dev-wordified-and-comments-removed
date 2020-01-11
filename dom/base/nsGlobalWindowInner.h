@@ -6200,14 +6200,11 @@ FreeInnerObjects
 )
 ;
 void
-InnerSetNewDocument
+InitDocumentDependentState
 (
 JSContext
 *
 aCx
-Document
-*
-aDocument
 )
 ;
 nsresult

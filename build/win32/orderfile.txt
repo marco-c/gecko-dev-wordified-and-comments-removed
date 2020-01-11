@@ -79574,12 +79574,9 @@ AW4nsresult
 PAPAVnsIContentSecurityPolicy
 Z
 ?
-InnerSetNewDocument
+InitDocumentDependentState
 nsGlobalWindowInner
 IAEXPAUJSContext
-PAVDocument
-dom
-mozilla
 Z
 ?
 WrapObject

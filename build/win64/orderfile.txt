@@ -78812,12 +78812,9 @@ AW4nsresult
 PEAPEAVnsIContentSecurityPolicy
 Z
 ?
-InnerSetNewDocument
+InitDocumentDependentState
 nsGlobalWindowInner
 IEAAXPEAUJSContext
-PEAVDocument
-dom
-mozilla
 Z
 ?
 WrapObject
