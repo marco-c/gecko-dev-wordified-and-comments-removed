@@ -650,9 +650,9 @@ document
 )
 ;
 await
-win
+panel
 .
-gToolbox
+_toolbox
 .
 loadTool
 (

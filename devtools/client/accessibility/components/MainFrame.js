@@ -321,7 +321,7 @@ simulator
 PropTypes
 .
 object
-toolboxDoc
+toolbox
 :
 PropTypes
 .
@@ -626,7 +626,7 @@ fluentBundles
 enabled
 auditing
 simulator
-toolboxDoc
+toolbox
 }
 =
 this
@@ -686,6 +686,10 @@ accessibility
 accessibilityWalker
 simulator
 toolboxDoc
+:
+toolbox
+.
+doc
 }
 )
 isAuditing
@@ -769,6 +773,11 @@ AccessibilityTree
 (
 {
 accessibilityWalker
+toolboxDoc
+:
+toolbox
+.
+doc
 }
 )
 )
@@ -776,6 +785,9 @@ endPanel
 :
 RightSidebar
 (
+{
+toolbox
+}
 )
 vert
 :
