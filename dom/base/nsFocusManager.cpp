@@ -14222,7 +14222,7 @@ parent
 static
 nsIContent
 *
-FindOwner
+FindScopeOwner
 (
 nsIContent
 *
@@ -14972,7 +14972,7 @@ MOZ_ASSERT
 aStartOwner
 =
 =
-FindOwner
+FindScopeOwner
 (
 *
 aStartContent
@@ -15116,7 +15116,7 @@ owner
 ;
 owner
 =
-FindOwner
+FindScopeOwner
 (
 startContent
 )
@@ -15382,7 +15382,7 @@ nsIContent
 *
 owner
 =
-FindOwner
+FindScopeOwner
 (
 aStartContent
 )
@@ -15426,7 +15426,7 @@ NS_OK
 MOZ_ASSERT
 (
 !
-FindOwner
+FindScopeOwner
 (
 aStartContent
 )
