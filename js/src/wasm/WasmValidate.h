@@ -894,12 +894,6 @@ return
 true
 ;
 }
-#
-if
-defined
-(
-ENABLE_WASM_REFTYPES
-)
 if
 (
 two
@@ -963,8 +957,6 @@ one
 )
 ;
 }
-#
-endif
 #
 endif
 return

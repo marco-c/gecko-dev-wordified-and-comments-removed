@@ -19495,11 +19495,6 @@ return
 true
 ;
 }
-#
-endif
-#
-ifdef
-ENABLE_WASM_REFTYPES
 static
 bool
 EmitRefFunc
