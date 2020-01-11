@@ -6086,9 +6086,7 @@ name
 _target_task
 (
 '
-system
--
-symbols
+system_symbols
 '
 )
 def
