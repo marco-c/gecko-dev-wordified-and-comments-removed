@@ -138,6 +138,8 @@ removeChild
 audio
 )
 ;
+content
+.
 setTimeout
 (
 function

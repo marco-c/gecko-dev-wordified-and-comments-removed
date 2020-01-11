@@ -946,6 +946,8 @@ test
 tagName
 )
 {
+content
+.
 setTimeout
 (
 f
@@ -1062,6 +1064,8 @@ test
 tagName
 )
 {
+content
+.
 setTimeout
 (
 f
@@ -1316,6 +1320,8 @@ test
 tagName
 )
 {
+content
+.
 setTimeout
 (
 f
@@ -1431,6 +1437,8 @@ test
 tagName
 )
 {
+content
+.
 setTimeout
 (
 f
