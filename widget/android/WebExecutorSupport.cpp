@@ -964,13 +964,8 @@ if
 mTestStreamFailure
 )
 {
-aRequest
--
->
-Cancel
-(
-NS_ERROR_ABORT
-)
+return
+NS_ERROR_UNEXPECTED
 ;
 }
 uint32_t
