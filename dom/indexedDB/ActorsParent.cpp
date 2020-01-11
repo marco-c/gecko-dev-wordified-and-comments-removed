@@ -48949,6 +48949,7 @@ IsEmpty
 )
 )
 {
+const
 nsCOMPtr
 <
 nsIRunnable
@@ -49022,10 +49023,6 @@ mThread
 Dispatch
 (
 runnable
-.
-forget
-(
-)
 NS_DISPATCH_NORMAL
 )
 )
