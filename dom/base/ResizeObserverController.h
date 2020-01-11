@@ -216,6 +216,14 @@ Unlink
 )
 ;
 void
+AddSizeOfIncludingThis
+(
+nsWindowSizes
+&
+)
+const
+;
+void
 ShellDetachedFromDocument
 (
 )

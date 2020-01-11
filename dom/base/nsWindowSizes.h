@@ -629,6 +629,12 @@ mDOMPerformanceResourceEntries
 MACRO
 (
 DOM
+mDOMResizeObserverControllerSize
+)
+\
+MACRO
+(
+DOM
 mDOMOtherSize
 )
 \
