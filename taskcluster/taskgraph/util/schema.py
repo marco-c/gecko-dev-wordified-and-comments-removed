@@ -695,7 +695,7 @@ path
 [
 u
 '
-browsertime_json_url
+json_location
 '
 ]
 "
@@ -706,7 +706,7 @@ or
 [
 u
 '
-video_url
+video_location
 '
 ]
 "

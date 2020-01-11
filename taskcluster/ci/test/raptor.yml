@@ -7639,7 +7639,7 @@ chrome
 false
 default
 :
-false
+true
 mozharness
 :
 extra

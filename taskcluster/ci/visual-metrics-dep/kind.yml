@@ -246,11 +246,9 @@ metrics
 py
 -
 -
-jobs
+browsertime
 -
-json
--
-path
+results
 /
 builds
 /
@@ -258,9 +256,11 @@ worker
 /
 fetches
 /
-jobs
+browsertime
+-
+results
 .
-json
+tgz
 -
 -
 -
