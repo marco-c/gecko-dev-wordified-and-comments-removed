@@ -179,7 +179,6 @@ Gecko
 development
 >
 __
-|
 The
 clone
 should
