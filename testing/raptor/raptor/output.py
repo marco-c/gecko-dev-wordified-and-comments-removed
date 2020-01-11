@@ -2475,6 +2475,13 @@ test
 type
                 
 '
+tags
+'
+:
+[
+]
+                
+'
 extraOptions
 '
 :
@@ -2581,6 +2588,37 @@ int
 test
 .
 expected_browser_cycles
+)
+                
+suite
+[
+'
+tags
+'
+]
+.
+append
+(
+'
+cold
+'
+)
+            
+else
+:
+                
+suite
+[
+'
+tags
+'
+]
+.
+append
+(
+'
+warm
+'
 )
             
 suites
@@ -3141,6 +3179,20 @@ name
                 
 return
             
+suite
+[
+'
+tags
+'
+]
+.
+append
+(
+test
+.
+type
+)
+            
 if
 len
 (
@@ -3184,6 +3236,17 @@ subtest
 name
 '
 ]
+)
+            
+suite
+[
+'
+tags
+'
+]
+.
+sort
+(
 )
         
 suites
