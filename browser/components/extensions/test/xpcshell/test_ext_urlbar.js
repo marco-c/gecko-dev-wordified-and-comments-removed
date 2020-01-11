@@ -7012,10 +7012,12 @@ useAddonManager
 "
 temporary
 "
+async
 background
 (
 )
 {
+await
 browser
 .
 urlbar
