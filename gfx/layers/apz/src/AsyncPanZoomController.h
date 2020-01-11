@@ -1121,6 +1121,14 @@ Metrics
 (
 )
 ;
+bool
+UpdateRootFrameMetricsIfChanged
+(
+FrameMetrics
+&
+metrics
+)
+;
 private
 :
 bool
