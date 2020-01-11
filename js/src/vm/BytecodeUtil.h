@@ -1315,9 +1315,6 @@ JSOP_GOTO
 case
 JSOP_IFNE
 :
-case
-JSOP_IFEQ
-:
 return
 GET_JUMP_OFFSET
 (
