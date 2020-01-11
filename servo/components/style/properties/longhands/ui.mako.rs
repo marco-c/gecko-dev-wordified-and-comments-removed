@@ -411,10 +411,10 @@ gecko_ffi_name
 "
 mWindowShadow
 "
-gecko_enum_prefix
+gecko_constant_prefix
 =
 "
-StyleWindowShadow
+NS_STYLE_WINDOW_SHADOW
 "
 animation_value_type
 =

@@ -820,10 +820,7 @@ virtual
 void
 SetWindowShadowStyle
 (
-mozilla
-:
-:
-StyleWindowShadow
+int32_t
 aStyle
 )
 override

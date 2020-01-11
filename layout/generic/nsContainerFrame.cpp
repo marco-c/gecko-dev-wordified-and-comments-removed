@@ -3024,7 +3024,7 @@ aFrame
 rootFrame
 )
 ;
-StyleWindowShadow
+int32_t
 shadow
 =
 rootFrame
