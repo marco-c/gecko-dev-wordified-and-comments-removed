@@ -108,6 +108,13 @@ h
 #
 include
 "
+nsIFrameInlines
+.
+h
+"
+#
+include
+"
 nsSVGDisplayableFrame
 .
 h
@@ -1466,12 +1473,8 @@ if
 aSource
 -
 >
-IsFrameOfType
+IsSVGGeometryFrameOrSubclass
 (
-nsIFrame
-:
-:
-eSVGGeometry
 )
 )
 {
