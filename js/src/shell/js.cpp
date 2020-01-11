@@ -21327,17 +21327,6 @@ cx
 return
 ;
 }
-JS_SetGCParameter
-(
-cx
-JSGC_MAX_NURSERY_BYTES
-2L
-*
-1024L
-*
-1024L
-)
-;
 ShellContext
 *
 sc
