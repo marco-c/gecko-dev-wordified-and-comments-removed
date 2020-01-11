@@ -271,7 +271,7 @@ extensions
 /
 extensions
 .
-xul
+xhtml
 "
 nsIAboutModule
 :

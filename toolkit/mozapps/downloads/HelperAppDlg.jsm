@@ -653,7 +653,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 null
 "

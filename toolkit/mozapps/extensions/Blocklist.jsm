@@ -536,7 +536,7 @@ extensions
 /
 blocklist
 .
-xul
+xhtml
 "
 ;
 const

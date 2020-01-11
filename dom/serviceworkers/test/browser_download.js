@@ -195,7 +195,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 )
 {

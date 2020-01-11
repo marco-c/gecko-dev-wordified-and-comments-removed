@@ -203,7 +203,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 function
 (

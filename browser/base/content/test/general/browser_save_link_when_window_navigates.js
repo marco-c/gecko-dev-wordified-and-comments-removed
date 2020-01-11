@@ -52,7 +52,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 ;
 Services

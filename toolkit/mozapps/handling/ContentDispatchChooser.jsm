@@ -38,7 +38,7 @@ handling
 /
 dialog
 .
-xul
+xhtml
 "
 ;
 const

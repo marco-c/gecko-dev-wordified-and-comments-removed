@@ -89,7 +89,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 ;
 return

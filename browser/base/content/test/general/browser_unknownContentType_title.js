@@ -254,7 +254,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 "
 Should

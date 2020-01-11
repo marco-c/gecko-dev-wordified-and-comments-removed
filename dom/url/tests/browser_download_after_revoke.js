@@ -100,7 +100,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 "
 Download

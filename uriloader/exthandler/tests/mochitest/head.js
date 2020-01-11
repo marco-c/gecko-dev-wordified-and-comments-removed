@@ -541,7 +541,7 @@ to
 show
 unknownContentType
 .
-xul
+xhtml
 failed
 with
 exception
@@ -597,7 +597,7 @@ downloads
 /
 unknownContentType
 .
-xul
+xhtml
 "
 "
 Got
