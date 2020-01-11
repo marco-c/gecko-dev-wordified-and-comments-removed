@@ -748,6 +748,15 @@ property
 dbgDesc
 )
 ;
+this
+.
+thread
+.
+demoteObjectGrip
+(
+this
+)
+;
 }
 removeWatchpoints
 (
