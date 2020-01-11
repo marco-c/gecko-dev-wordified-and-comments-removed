@@ -154,8 +154,6 @@ import
 FunctionType
 import
 itertools
-import
-six
 def
 _context_under_js_src
 (
@@ -1912,9 +1910,7 @@ not
 isinstance
 (
 k
-six
-.
-text_type
+unicode
 )
 :
                 
@@ -2033,9 +2029,7 @@ None
 else
 TypedList
 (
-six
-.
-text_type
+unicode
 )
 (
 v
@@ -4966,9 +4960,7 @@ class
 FinalTargetValue
 (
 ContextDerivedValue
-six
-.
-text_type
+unicode
 )
 :
     
@@ -5056,9 +5048,7 @@ DIST_SUBDIR
 ]
         
 return
-six
-.
-text_type
+unicode
 .
 __new__
 (
@@ -5387,9 +5377,7 @@ class
 Path
 (
 ContextDerivedValue
-six
-.
-text_type
+unicode
 )
 :
     
@@ -5643,9 +5631,7 @@ full_path
 return
 cmp
 (
-six
-.
-text_type
+unicode
 (
 self
 )
@@ -7780,9 +7766,7 @@ OrderedStringList
 =
 TypedList
 (
-six
-.
-text_type
+unicode
 StrictOrderingOnAppendList
 )
 DependentTestsEntry
@@ -7823,17 +7807,13 @@ BugzillaComponent
 '
 product
 '
-six
-.
-text_type
+unicode
 )
 (
 '
 component
 '
-six
-.
-text_type
+unicode
 )
 ]
 )
@@ -7848,9 +7828,7 @@ inclusive
 '
 TypedList
 (
-six
-.
-text_type
+unicode
 StrictOrderingOnAppendList
 )
 )
@@ -7861,9 +7839,7 @@ exclusive
 '
 TypedList
 (
-six
-.
-text_type
+unicode
 StrictOrderingOnAppendList
 )
 )
@@ -7878,9 +7854,7 @@ StrictOrderingOnAppendListWithFlagsFactory
 script
 '
 :
-six
-.
-text_type
+unicode
     
 '
 inputs
@@ -10019,13 +9993,9 @@ RUST_LIBRARY_TARGET_DIR
 :
 (
         
-six
-.
-text_type
+unicode
         
-six
-.
-text_type
+unicode
         
 "
 "
@@ -10151,9 +10121,7 @@ RUST_TESTS
         
 TypedList
 (
-six
-.
-text_type
+unicode
 )
         
 list
@@ -10187,9 +10155,7 @@ RUST_TEST_FEATURES
         
 TypedList
 (
-six
-.
-text_type
+unicode
 )
         
 list
@@ -12264,12 +12230,8 @@ FINAL_LIBRARY
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                       
 "
 "
@@ -12591,12 +12553,8 @@ HOST_LIBRARY_NAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                           
 "
 "
@@ -12671,12 +12629,8 @@ LIBRARY_NAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                      
 "
 "
@@ -12754,12 +12708,8 @@ SHARED_LIBRARY_NAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                             
 "
 "
@@ -12802,12 +12752,8 @@ SANDBOXED_WASM_LIBRARY_NAME
 :
 (
         
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
         
 "
 "
@@ -12836,12 +12782,8 @@ SHARED_LIBRARY_OUTPUT_CATEGORY
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                                        
 "
 "
@@ -12899,12 +12841,8 @@ RUST_LIBRARY_OUTPUT_CATEGORY
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                                      
 "
 "
@@ -13013,12 +12951,8 @@ STATIC_LIBRARY_NAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                             
 "
 "
@@ -13238,9 +13172,7 @@ RCFILE
 :
 (
 Path
-six
-.
-text_type
+unicode
                
 "
 "
@@ -13272,12 +13204,8 @@ RESFILE
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                 
 "
 "
@@ -13310,9 +13238,7 @@ RCINCLUDE
 :
 (
 Path
-six
-.
-text_type
+unicode
                   
 "
 "
@@ -13353,9 +13279,7 @@ DEFFILE
 :
 (
 Path
-six
-.
-text_type
+unicode
                 
 "
 "
@@ -13392,9 +13316,7 @@ SYMBOLS_FILE
 :
 (
 Path
-six
-.
-text_type
+unicode
                      
 "
 "
@@ -13555,12 +13477,8 @@ SONAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                
 "
 "
@@ -14159,12 +14077,8 @@ PROGRAM
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                 
 "
 "
@@ -14214,12 +14128,8 @@ HOST_PROGRAM
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                      
 "
 "
@@ -14508,12 +14418,8 @@ XPIDL_MODULE
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                      
 "
 "
@@ -15463,12 +15369,8 @@ XPI_NAME
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                  
 "
 "
@@ -15522,12 +15424,8 @@ DIST_SUBDIR
 '
 :
 (
-six
-.
-text_type
-six
-.
-text_type
+unicode
+unicode
                     
 "
 "
@@ -15587,9 +15485,7 @@ FINAL_TARGET
 :
 (
 FinalTargetValue
-six
-.
-text_type
+unicode
                      
 "
 "
@@ -15765,9 +15661,7 @@ dict
 input
 '
 :
-six
-.
-text_type
+unicode
             
 '
 sandbox_vars
@@ -16125,9 +16019,7 @@ list
 gn_target
 '
 :
-six
-.
-text_type
+unicode
         
 }
 )
