@@ -172,6 +172,9 @@ GeckoCppUnitTests
 '
 TestNativeNt
 '
+'
+TestTimeStampWin
+'
 ]
 linkage
 =
