@@ -14,7 +14,7 @@ v
 return
 v
 .
-toSource
+toString
 (
 )
 ;
@@ -38,7 +38,7 @@ fake2
 ;
 fake2
 .
-toSource
+toString
 =
 uint8
 ;

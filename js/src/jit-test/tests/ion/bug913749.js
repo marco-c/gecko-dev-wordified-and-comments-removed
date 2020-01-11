@@ -34,10 +34,11 @@ length
 }
 )
 ;
-this
+JSON
 .
-toSource
+stringify
 (
+this
 )
 ;
 y

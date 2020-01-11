@@ -8,10 +8,11 @@ cacheEntry
 x
 =
 >
-x
+JSON
 .
-toSource
+stringify
 (
+x
 )
 )
 bar

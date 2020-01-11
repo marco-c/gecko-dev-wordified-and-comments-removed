@@ -123,9 +123,10 @@ test
 (
 )
 ;
-this
+JSON
 .
-toSource
+stringify
 (
+this
 )
 ;

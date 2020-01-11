@@ -23,10 +23,11 @@ new
 Int32Array
 )
 ;
-this
+JSON
 .
-toSource
+stringify
 (
+this
 )
 ;
 function

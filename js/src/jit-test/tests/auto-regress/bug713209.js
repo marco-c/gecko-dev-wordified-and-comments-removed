@@ -122,7 +122,7 @@ print
 (
 q
 .
-toSource
+toString
 (
 )
 )
