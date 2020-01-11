@@ -646,16 +646,6 @@ return
 needsStaticStackAlignment_
 ;
 }
-bool
-modifiesFrameArguments
-(
-)
-const
-{
-return
-modifiesFrameArguments_
-;
-}
 typedef
 Vector
 <
@@ -748,9 +738,6 @@ needsOverrecursedCheck_
 ;
 bool
 needsStaticStackAlignment_
-;
-bool
-modifiesFrameArguments_
 ;
 bool
 instrumentedProfiling_
