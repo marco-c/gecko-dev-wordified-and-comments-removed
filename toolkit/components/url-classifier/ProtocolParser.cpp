@@ -156,6 +156,8 @@ uint32_t
 MAX_CHUNK_SIZE
 =
 (
+4
+*
 1024
 *
 1024
