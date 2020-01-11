@@ -1064,10 +1064,6 @@ filename
 =
 defaults
         
-parent_section_found
-=
-False
-        
 for
 section
 data
@@ -1077,61 +1073,7 @@ sections
             
 if
 defaults_only
-and
-not
-section
-.
-startswith
-(
-'
-parent
 :
-'
-)
-:
-                
-continue
-            
-if
-section
-.
-startswith
-(
-'
-parent
-:
-'
-)
-:
-                
-parent_section_found
-=
-True
-                
-include_file
-=
-read_file
-(
-'
-parent
-:
-'
-)
-                
-if
-include_file
-:
-                    
-self
-.
-_read
-(
-root
-include_file
-{
-}
-True
-)
                 
 continue
             
@@ -1409,9 +1351,6 @@ test
         
 if
 defaults_only
-and
-not
-parent_section_found
 :
             
 sections
