@@ -404,14 +404,11 @@ setRecordingPreferences
 action
 .
 setRecordingPreferences
-isPopup
+pageContext
 :
-Boolean
-(
 action
 .
-isPopup
-)
+pageContext
 getSymbolTableGetter
 :
 action

@@ -1130,9 +1130,11 @@ getSymbolTableGetter
 =
 >
 noop
-isPopup
+pageContext
 :
-false
+"
+devtools
+"
 supportedFeatures
 :
 perfFrontMock

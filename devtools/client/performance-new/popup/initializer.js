@@ -433,9 +433,11 @@ getSymbolTableGetter
 =
 >
 getSymbolsFromThisBrowser
-isPopup
+pageContext
 :
-true
+"
+popup
+"
 }
 )
 )

@@ -157,7 +157,7 @@ label
 onClick
 additionalMessage
 isPrimary
-isPopup
+pageContext
 additionalButton
 }
 =
@@ -174,7 +174,13 @@ u00A0
 const
 showAdditionalMessage
 =
-isPopup
+pageContext
+=
+=
+=
+"
+popup
+"
 &
 &
 additionalMessage
@@ -771,11 +777,11 @@ getRecordingUnexpectedlyStopped
 (
 state
 )
-isPopup
+pageContext
 :
 selectors
 .
-getIsPopup
+getPageContext
 (
 state
 )
