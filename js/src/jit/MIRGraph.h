@@ -2681,7 +2681,6 @@ HitState
 {
 NotDefined
 Count
-Frequency
 }
 ;
 HitState

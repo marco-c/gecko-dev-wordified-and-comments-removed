@@ -940,9 +940,6 @@ header
 jsbytecode
 *
 loopEntry
-jsbytecode
-*
-beforeLoopEntry
 )
 ;
 AbortReasonOr
@@ -1021,9 +1018,6 @@ LoopState
 :
 State
 initState
-jsbytecode
-*
-beforeLoopEntry
 jsbytecode
 *
 loopEntry
