@@ -2462,7 +2462,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 nsContainerFrame
 :
 :
@@ -2609,7 +2609,6 @@ aNewParentFrame
 )
 {
 return
-NS_OK
 ;
 }
 nsView
@@ -2694,9 +2693,6 @@ oldParentView
 ;
 }
 }
-return
-NS_OK
-;
 }
 static
 nsIWidget

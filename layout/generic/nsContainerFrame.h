@@ -359,7 +359,7 @@ aNewParentFrame
 )
 ;
 static
-nsresult
+void
 ReparentFrameViewList
 (
 const

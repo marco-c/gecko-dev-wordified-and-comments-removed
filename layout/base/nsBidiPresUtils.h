@@ -1051,7 +1051,7 @@ aStart
 ;
 static
 inline
-nsresult
+void
 EnsureBidiContinuation
 (
 nsIFrame

@@ -351,7 +351,7 @@ return
 mBaseline
 ;
 }
-nsresult
+void
 CreateContinuationForFloatingParent
 (
 nsPresContext
