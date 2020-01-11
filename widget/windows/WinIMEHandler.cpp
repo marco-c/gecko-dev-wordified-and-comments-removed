@@ -1862,6 +1862,7 @@ EmptyString
 EmptyString
 (
 )
+false
 )
 ;
 }
@@ -2140,6 +2141,9 @@ mHTMLInputType
 aInputContext
 .
 mHTMLInputInputmode
+aInputContext
+.
+mInPrivateBrowsing
 )
 ;
 }
@@ -2515,6 +2519,8 @@ const
 nsAString
 &
 aHTMLInputInputmode
+bool
+aInPrivateBrowsing
 )
 {
 if
@@ -2544,6 +2550,19 @@ InputScope
 >
 scopes
 ;
+if
+(
+aInPrivateBrowsing
+)
+{
+scopes
+.
+AppendElement
+(
+IS_PRIVATE
+)
+;
+}
 if
 (
 aHTMLInputType
