@@ -499,11 +499,20 @@ flags
     
 return
 '
-(
+<
+p
+>
+Flags
+:
 {
 flags
 }
-)
+<
+/
+p
+>
+\
+n
 '
 .
 format
@@ -653,6 +662,9 @@ table
 {
 desc
 }
+{
+flags
+}
 <
 /
 dd
@@ -667,17 +679,6 @@ opcode
 )
 :
     
-names_template
-=
-'
-{
-name
-}
-{
-flags
-}
-'
-    
 opcodes
 =
 [
@@ -690,35 +691,22 @@ group
     
 names
 =
-[
-names_template
+'
+'
 .
-format
+join
 (
-name
-=
 escape
 (
 code
 .
 name
 )
-                                   
-flags
-=
-format_flags
-(
-code
-.
-flags
-)
-)
-             
 for
 code
 in
 opcodes
-]
+)
     
 print
 (
@@ -738,15 +726,15 @@ name
         
 names
 =
-'
-<
-br
->
-'
-.
-join
-(
 names
+        
+flags
+=
+format_flags
+(
+opcode
+.
+flags
 )
         
 operands
