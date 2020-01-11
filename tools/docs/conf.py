@@ -181,6 +181,14 @@ sphinx
 .
 ext
 .
+autosectionlabel
+'
+    
+'
+sphinx
+.
+ext
+.
 graphviz
 '
     
