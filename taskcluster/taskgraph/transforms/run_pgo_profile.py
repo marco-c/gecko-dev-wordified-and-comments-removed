@@ -185,8 +185,6 @@ target
 crashreporter
 -
 symbols
--
-full
 .
 zip
 '
