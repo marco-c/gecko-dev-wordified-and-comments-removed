@@ -1087,7 +1087,7 @@ crashtests
 /
 1353529
 .
-xhtml
+xul
 load
 1368327
 .
@@ -1111,7 +1111,7 @@ crashtests
 /
 1369363
 .
-xhtml
+xul
 load
 1370072
 .

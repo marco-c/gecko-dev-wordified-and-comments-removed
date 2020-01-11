@@ -65,11 +65,11 @@ test
 -
 ipc
 .
-xhtml
+xul
 (
 test
 .
-xhtml
+xul
 )
 content
 /

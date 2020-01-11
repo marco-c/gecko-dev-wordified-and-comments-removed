@@ -49,7 +49,7 @@ crashtests
 -
 4
 .
-xhtml
+xul
 #
 Throws
 (
@@ -75,7 +75,7 @@ crashtests
 /
 420429
 .
-xhtml
+xul
 load
 431703
 -
