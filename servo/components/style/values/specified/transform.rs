@@ -112,6 +112,7 @@ Integer
 Length
 LengthPercentage
 Number
+NumberOrPercentage
 }
 ;
 use
@@ -1253,7 +1254,7 @@ scale
 let
 sx
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1262,6 +1263,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 if
 input
@@ -1285,7 +1290,7 @@ is_ok
 let
 sy
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1294,6 +1299,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 Ok
 (
@@ -1337,7 +1346,7 @@ scalex
 let
 sx
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1346,6 +1355,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 Ok
 (
@@ -1370,7 +1383,7 @@ scaley
 let
 sy
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1379,6 +1392,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 Ok
 (
@@ -1403,7 +1420,7 @@ scalez
 let
 sz
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1412,6 +1429,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 Ok
 (
@@ -1436,7 +1457,7 @@ scale3d
 let
 sx
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1445,6 +1466,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 input
 .
@@ -1456,7 +1481,7 @@ expect_comma
 let
 sy
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1465,6 +1490,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 input
 .
@@ -1476,7 +1505,7 @@ expect_comma
 let
 sz
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -1485,6 +1514,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 Ok
 (
@@ -3486,7 +3519,7 @@ None
 let
 sx
 =
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -3495,6 +3528,10 @@ context
 input
 )
 ?
+.
+to_number
+(
+)
 ;
 if
 let
@@ -3510,7 +3547,7 @@ try
 |
 i
 |
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -3520,6 +3557,15 @@ i
 )
 )
 {
+let
+sy
+=
+sy
+.
+to_number
+(
+)
+;
 if
 let
 Ok
@@ -3534,7 +3580,7 @@ try
 |
 i
 |
-Number
+NumberOrPercentage
 :
 :
 parse
@@ -3558,6 +3604,10 @@ Scale
 sx
 sy
 sz
+.
+to_number
+(
+)
 )
 )
 ;
