@@ -166,16 +166,6 @@ TreeWidget
 js
 '
 '
-VariablesView
-.
-jsm
-'
-'
-VariablesViewController
-.
-jsm
-'
-'
 view
 -
 helpers
