@@ -555,17 +555,6 @@ suite_definitions
 )
 :
         
-if
-category
-=
-=
-'
-mozmill
-'
-:
-            
-continue
-        
 key
 =
 '

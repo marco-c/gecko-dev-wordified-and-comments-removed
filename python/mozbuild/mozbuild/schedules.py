@@ -238,10 +238,6 @@ tests
 -
 wdspec
 '
-    
-'
-mozmill
-'
 ]
 EXCLUSIVE_COMPONENTS
 =
