@@ -151,6 +151,8 @@ unzip
 \
 uuid
 \
+valgrind
+\
 vim
 \
 wget
