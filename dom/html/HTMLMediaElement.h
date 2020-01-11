@@ -3099,9 +3099,7 @@ void
 SuspendOrResumeElement
 (
 bool
-aPauseElement
-bool
-aSuspendEvents
+aSuspendElement
 )
 ;
 HTMLMediaElement
@@ -3187,11 +3185,6 @@ GetOrCreateTextTrackManager
 ;
 void
 UpdateReadyStateInternal
-(
-)
-;
-bool
-ShouldElementBePaused
 (
 )
 ;
@@ -3887,7 +3880,7 @@ mPlayingBeforeSeek
 false
 ;
 bool
-mPausedForInactiveDocumentOrChannel
+mSuspendedForInactiveDocument
 =
 false
 ;
