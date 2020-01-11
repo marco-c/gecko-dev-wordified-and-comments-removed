@@ -24249,6 +24249,7 @@ final
 public
 ConnectionRunnable
 {
+const
 bool
 mNeedsCheckpoint
 ;
