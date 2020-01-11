@@ -3750,7 +3750,10 @@ NS_STYLE_DOMINANT_BASELINE_AUTO
 )
 mTextAnchor
 (
-NS_STYLE_TEXT_ANCHOR_START
+StyleTextAnchor
+:
+:
+Start
 )
 mContextFlags
 (

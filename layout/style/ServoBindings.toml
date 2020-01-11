@@ -872,6 +872,12 @@ mozilla
 StyleShapeRendering
 "
 "
+mozilla
+:
+:
+StyleTextAnchor
+"
+"
 nsStyleImageType
 "
 "

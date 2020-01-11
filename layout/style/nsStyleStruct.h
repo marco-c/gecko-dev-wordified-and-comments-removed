@@ -10123,7 +10123,10 @@ mStrokeLinejoin
 uint8_t
 mDominantBaseline
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextAnchor
 mTextAnchor
 ;
 bool
