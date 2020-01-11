@@ -91,6 +91,11 @@ MOZ_BC_FIELD
 HistoryID
 nsID
 )
+MOZ_BC_FIELD
+(
+InRDMPane
+bool
+)
 #
 undef
 MOZ_BC_FIELD

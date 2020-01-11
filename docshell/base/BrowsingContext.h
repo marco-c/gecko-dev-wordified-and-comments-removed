@@ -1064,6 +1064,15 @@ return
 mSandboxFlags
 ;
 }
+bool
+InRDMPane
+(
+)
+{
+return
+mInRDMPane
+;
+}
 BrowsingContext
 *
 FindWithName
