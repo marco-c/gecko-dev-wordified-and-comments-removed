@@ -1721,14 +1721,18 @@ path
 ]
 )
         
-cmd
+python
 =
-[
 self
 .
 virtualenv_manager
 .
 python_path
+        
+cmd
+=
+[
+python
 test
 [
 '
@@ -1759,6 +1763,25 @@ b
 '
 1
 '
+        
+env
+[
+b
+'
+PYTHONEXECUTABLE
+'
+]
+=
+python
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
         
 proc
 =
