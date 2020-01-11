@@ -40269,7 +40269,13 @@ holderType
 CGGeneric
 (
 "
-nsAutoCString
+binding_detail
+:
+:
+FakeString
+<
+char
+>
 "
 )
             
@@ -40294,6 +40300,9 @@ binding_detail
 :
 :
 FakeString
+<
+char16_t
+>
 "
 )
             
@@ -40344,7 +40353,13 @@ isUTF8String
 declType
 =
 "
-nsAutoCString
+binding_detail
+:
+:
+FakeString
+<
+char
+>
 "
             
 else
@@ -40357,6 +40372,9 @@ binding_detail
 :
 :
 FakeString
+<
+char16_t
+>
 "
             
 holderType
@@ -69676,13 +69694,25 @@ nsAString
 if
 type
 .
-isByteString
+isUTF8String
 (
 )
-or
+:
+        
+return
+CGGeneric
+(
+"
+const
+nsACString
+&
+"
+)
+    
+if
 type
 .
-isUTF8String
+isByteString
 (
 )
 :
@@ -80120,6 +80150,9 @@ decls
 =
 "
 FakeString
+<
+char16_t
+>
 %
 s
 ;
