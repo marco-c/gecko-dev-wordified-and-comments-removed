@@ -60,7 +60,6 @@ jsm
 "
 )
 ;
-;
 var
 Preferences
 =
