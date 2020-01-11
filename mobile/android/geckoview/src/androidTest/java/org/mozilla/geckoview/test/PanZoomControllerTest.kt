@@ -370,7 +370,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -478,7 +478,7 @@ scrollBy
 (
 ScreenLength
 .
-fromViewportWidth
+fromVisualViewportWidth
 (
 1
 .
@@ -684,7 +684,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -712,7 +712,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -877,7 +877,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -985,7 +985,7 @@ scrollTo
 (
 ScreenLength
 .
-fromViewportWidth
+fromVisualViewportWidth
 (
 1
 .
@@ -1355,7 +1355,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -1512,7 +1512,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .
@@ -1540,7 +1540,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 1
 .

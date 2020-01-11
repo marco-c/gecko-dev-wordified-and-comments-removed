@@ -1456,7 +1456,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 0
 .
@@ -1504,7 +1504,7 @@ zero
 )
 ScreenLength
 .
-fromViewportHeight
+fromVisualViewportHeight
 (
 -
 0

@@ -10880,7 +10880,7 @@ AnyThread
 public
 static
 ScreenLength
-fromViewportHeight
+fromVisualViewportHeight
 (
 double
 )
@@ -10891,7 +10891,7 @@ AnyThread
 public
 static
 ScreenLength
-fromViewportWidth
+fromVisualViewportWidth
 (
 double
 )
@@ -10964,7 +10964,7 @@ public
 static
 final
 int
-VIEWPORT_HEIGHT
+VISUAL_VIEWPORT_HEIGHT
 =
 2
 ;
@@ -10973,7 +10973,7 @@ public
 static
 final
 int
-VIEWPORT_WIDTH
+VISUAL_VIEWPORT_WIDTH
 =
 1
 ;

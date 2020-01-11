@@ -64,8 +64,8 @@ IntDef
 (
 {
 PIXEL
-VIEWPORT_WIDTH
-VIEWPORT_HEIGHT
+VISUAL_VIEWPORT_WIDTH
+VISUAL_VIEWPORT_HEIGHT
 DOCUMENT_WIDTH
 DOCUMENT_HEIGHT
 }
@@ -86,7 +86,7 @@ public
 static
 final
 int
-VIEWPORT_WIDTH
+VISUAL_VIEWPORT_WIDTH
 =
 1
 ;
@@ -94,7 +94,7 @@ public
 static
 final
 int
-VIEWPORT_HEIGHT
+VISUAL_VIEWPORT_HEIGHT
 =
 2
 ;
@@ -195,7 +195,7 @@ AnyThread
 public
 static
 ScreenLength
-fromViewportWidth
+fromVisualViewportWidth
 (
 final
 double
@@ -207,7 +207,7 @@ new
 ScreenLength
 (
 value
-VIEWPORT_WIDTH
+VISUAL_VIEWPORT_WIDTH
 )
 ;
 }
@@ -216,7 +216,7 @@ AnyThread
 public
 static
 ScreenLength
-fromViewportHeight
+fromVisualViewportHeight
 (
 final
 double
@@ -228,7 +228,7 @@ new
 ScreenLength
 (
 value
-VIEWPORT_HEIGHT
+VISUAL_VIEWPORT_HEIGHT
 )
 ;
 }
