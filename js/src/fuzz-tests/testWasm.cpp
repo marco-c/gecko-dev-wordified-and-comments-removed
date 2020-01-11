@@ -2075,14 +2075,14 @@ ValType
 I64
 )
 {
-lastReturnVal
-=
 global
 -
 >
 value
 (
 gCx
+&
+lastReturnVal
 )
 ;
 }

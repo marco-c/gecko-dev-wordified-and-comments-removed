@@ -693,14 +693,15 @@ isMutable
 )
 const
 ;
-Value
+bool
 value
 (
 JSContext
 *
 cx
+MutableHandleValue
+out
 )
-const
 ;
 Cell
 *
