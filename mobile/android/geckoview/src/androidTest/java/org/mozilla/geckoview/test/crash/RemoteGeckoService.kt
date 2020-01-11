@@ -82,6 +82,16 @@ mozilla
 geckoview
 .
 GeckoSessionSettings
+import
+org
+.
+mozilla
+.
+geckoview
+.
+test
+.
+TestCrashHandler
 class
 RemoteGeckoService
 :
@@ -342,7 +352,7 @@ extras
 .
 crashHandler
 (
-CrashTestHandler
+TestCrashHandler
 :
 :
 class
