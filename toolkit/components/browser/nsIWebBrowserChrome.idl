@@ -165,13 +165,14 @@ status
 status
 string
 .
-null
+empty
+string
 is
 an
 acceptable
 value
-meaning
 *
+meaning
 no
 link
 is
@@ -180,7 +181,7 @@ hovered
 *
 /
 void
-setStatusLink
+setLinkStatus
 (
 in
 AString

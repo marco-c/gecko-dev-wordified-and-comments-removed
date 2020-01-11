@@ -10577,7 +10577,7 @@ IPCResult
 BrowserParent
 :
 :
-RecvSetStatusLink
+RecvSetLinkStatus
 (
 const
 nsString

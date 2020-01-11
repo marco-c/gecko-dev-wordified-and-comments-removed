@@ -1058,7 +1058,7 @@ NS_IMETHODIMP
 WebBrowserChrome2Stub
 :
 :
-SetStatusLink
+SetLinkStatus
 (
 const
 nsAString

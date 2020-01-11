@@ -3203,7 +3203,7 @@ hover
 *
 /
 async
-SetStatusLink
+SetLinkStatus
 (
 nsString
 status
