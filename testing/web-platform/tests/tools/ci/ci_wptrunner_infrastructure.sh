@@ -91,6 +91,9 @@ ARGS
 =
 1
 fi
+TERM
+=
+dumb
 .
 /
 wpt
@@ -99,7 +102,7 @@ run
 -
 log
 -
-tbpl
+mach
 -
 -
 -

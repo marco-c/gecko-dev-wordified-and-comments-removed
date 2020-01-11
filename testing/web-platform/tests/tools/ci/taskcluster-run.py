@@ -374,7 +374,7 @@ wpt_args
 -
 log
 -
-tbpl
+mach
 -
 level
 =
@@ -386,7 +386,7 @@ info
 -
 log
 -
-tbpl
+mach
 =
 -
 "
@@ -506,6 +506,19 @@ subprocess
 call
 (
 command
+env
+=
+dict
+(
+os
+.
+environ
+TERM
+=
+"
+dumb
+"
+)
 )
     
 if
