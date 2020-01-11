@@ -650,14 +650,6 @@ disable_tests
 ]
 =
 1
-if
-CONFIG
-[
-'
-NSS_DISABLE_DBM
-'
-]
-:
 gyp_vars
 [
 '
