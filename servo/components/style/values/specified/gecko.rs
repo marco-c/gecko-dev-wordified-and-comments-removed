@@ -22,8 +22,8 @@ computed
 :
 {
 self
-LengthPercentage
 Length
+LengthPercentage
 }
 ;
 use

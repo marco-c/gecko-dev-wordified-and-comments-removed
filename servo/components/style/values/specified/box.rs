@@ -3623,7 +3623,6 @@ DisplayOutside
 XUL
 =
 >
-{
 match
 self
 .
@@ -3653,7 +3652,6 @@ Display
 :
 :
 Block
-}
 }
 DisplayOutside
 :

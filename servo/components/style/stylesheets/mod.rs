@@ -444,9 +444,8 @@ stylesheet
 :
 :
 {
-StylesheetContents
-StylesheetInDocument
-UserAgentStylesheets
+SanitizationData
+SanitizationKind
 }
 ;
 pub
@@ -458,8 +457,9 @@ stylesheet
 :
 :
 {
-SanitizationData
-SanitizationKind
+StylesheetContents
+StylesheetInDocument
+UserAgentStylesheets
 }
 ;
 pub

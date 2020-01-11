@@ -12107,11 +12107,13 @@ NonTSPseudoClass
 MozNativeAnonymousNoSpecificity
 =
 >
+{
 self
 .
 is_in_native_anonymous_subtree
 (
 )
+}
 NonTSPseudoClass
 :
 :

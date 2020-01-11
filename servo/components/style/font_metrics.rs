@@ -19,12 +19,6 @@ use
 crate
 :
 :
-Atom
-;
-use
-crate
-:
-:
 values
 :
 :
@@ -32,6 +26,12 @@ computed
 :
 :
 Length
+;
+use
+crate
+:
+:
+Atom
 ;
 #
 [
