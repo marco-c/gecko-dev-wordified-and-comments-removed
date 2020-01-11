@@ -470,6 +470,12 @@ indicator
 svg
 )
 ;
+pointer
+-
+events
+:
+none
+;
 }
 menupopup
 :
@@ -538,6 +544,12 @@ background
 color
 :
 Highlight
+;
+pointer
+-
+events
+:
+none
 ;
 }
 #

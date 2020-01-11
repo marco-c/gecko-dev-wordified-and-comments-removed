@@ -271,6 +271,12 @@ shadow
 :
 none
 ;
+pointer
+-
+events
+:
+none
+;
 }
 .
 autoscroller

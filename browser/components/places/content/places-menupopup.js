@@ -171,15 +171,7 @@ drop
 -
 indicator
 "
-mousethrough
-=
-"
-always
-"
->
-<
 /
-image
 >
 <
 /
@@ -2755,11 +2747,6 @@ part
 drop
 -
 indicator
-"
-mousethrough
-=
-"
-always
 "
 /
 >
