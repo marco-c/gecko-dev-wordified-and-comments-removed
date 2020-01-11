@@ -8234,9 +8234,8 @@ const
 {
 if
 (
-empty
-(
-)
+!
+mTable
 |
 |
 !
