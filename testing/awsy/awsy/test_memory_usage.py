@@ -569,8 +569,6 @@ append
 (
 "
 fission
--
-enabled
 "
 )
         
