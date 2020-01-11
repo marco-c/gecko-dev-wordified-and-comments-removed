@@ -88,6 +88,10 @@ ipc
 IPCResult
 RecvUpdate
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 UpdateResolver
 &
 &

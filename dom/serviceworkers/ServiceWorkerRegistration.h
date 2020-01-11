@@ -153,6 +153,10 @@ virtual
 void
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 ServiceWorkerRegistrationCallback
 &
 &

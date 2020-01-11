@@ -72,6 +72,10 @@ override
 void
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 ServiceWorkerRegistrationCallback
 &
 &

@@ -97,6 +97,8 @@ aRv
 async
 Update
 (
+nsCString
+aNewestWorkerScriptUrl
 )
 returns
 (

@@ -157,9 +157,7 @@ const
 nsACString
 &
 aScope
-const
-nsACString
-&
+nsCString
 aScriptSpec
 )
 ;

@@ -212,6 +212,10 @@ ServiceWorkerRegistrationPromise
 >
 Update
 (
+const
+nsCString
+&
+aNewestWorkerScriptUrl
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
