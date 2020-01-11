@@ -580,6 +580,9 @@ gecko
 servo
 -
 2013
+servo
+-
+2020
 "
 extra_gecko_values
 =
@@ -588,6 +591,11 @@ optimizespeed
 optimizequality
 "
 extra_servo_2013_values
+=
+"
+pixelated
+"
+extra_servo_2020_values
 =
 "
 pixelated

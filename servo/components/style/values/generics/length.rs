@@ -391,6 +391,9 @@ None
 pub
 fn
 map
+<
+T
+>
 (
 &
 self
@@ -403,11 +406,14 @@ LengthPercentage
 )
 -
 >
-LengthPercentage
+T
 )
 -
 >
-Self
+LengthPercentageOrAuto
+<
+T
+>
 {
 match
 self
