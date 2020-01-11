@@ -118,9 +118,6 @@ Checks
 function
 RightSidebar
 (
-{
-toolbox
-}
 )
 {
 const
@@ -215,7 +212,6 @@ Accessible
 componentProps
 :
 {
-toolbox
 labelledby
 :
 {
