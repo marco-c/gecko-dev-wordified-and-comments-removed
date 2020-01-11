@@ -359,6 +359,15 @@ do_GetService
 NS_PREFSERVICE_CONTRACTID
 )
 ;
+if
+(
+!
+prefs
+)
+{
+return
+;
+}
 prefs
 -
 >
