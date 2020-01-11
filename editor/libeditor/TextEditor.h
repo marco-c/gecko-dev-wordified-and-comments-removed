@@ -815,6 +815,15 @@ aStripWrappers
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+DeleteSelectionByDragAsAction
+(
+bool
+aDispatchInputEvent
+)
+;
+MOZ_CAN_RUN_SCRIPT
 virtual
 nsresult
 DeleteSelectionWithTransaction
