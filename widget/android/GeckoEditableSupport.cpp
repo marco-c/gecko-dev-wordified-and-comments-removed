@@ -6495,6 +6495,8 @@ EditableListener
 NOTIFY_IME_OF_FOCUS
 )
 ;
+return
+;
 }
 if
 (
