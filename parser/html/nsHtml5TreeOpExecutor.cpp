@@ -2030,6 +2030,10 @@ ParseUntilBlocked
 (
 )
 ;
+FlushSpeculativeLoads
+(
+)
+;
 if
 (
 NS_FAILED
