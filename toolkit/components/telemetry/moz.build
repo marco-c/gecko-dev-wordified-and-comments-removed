@@ -1182,7 +1182,7 @@ gen_event_data
 .
 py
 '
-entryt_point
+entry_point
 =
 '
 generate_JSON_definitions
