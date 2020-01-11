@@ -2638,8 +2638,6 @@ test
 verify
 -
 wpt
--
-xpcshell
 #
 List
 of
@@ -2675,6 +2673,8 @@ gpu
 mochitest
 -
 media
+-
+xpcshell
 linux1804
 -
 qr
@@ -2693,6 +2693,8 @@ gpu
 mochitest
 -
 media
+-
+xpcshell
 linux
 -
 qr
@@ -2729,8 +2731,6 @@ webgl2
 core
 -
 reftest
--
-xpcshell
 linux
 -
 qr
