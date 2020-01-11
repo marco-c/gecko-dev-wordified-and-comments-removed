@@ -96,14 +96,11 @@ define
 ENUMERATE_OPCODE
 (
 op
-val
 .
 .
 .
 )
 op
-=
-val
 FOR_EACH_OPCODE
 (
 ENUMERATE_OPCODE

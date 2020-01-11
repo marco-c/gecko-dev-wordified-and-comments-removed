@@ -580,6 +580,7 @@ def
 __init__
 (
 self
+value
 comment_info
 )
 :
@@ -595,8 +596,7 @@ self
 .
 value
 =
-'
-'
+value
         
 self
 .
@@ -1166,26 +1166,6 @@ r
 ?
 P
 <
-value
->
-[
-0
--
-9
-]
-+
-)
-\
-s
-*
-"
-                          
-r
-"
-(
-?
-P
-<
 display_name
 >
 [
@@ -1420,6 +1400,10 @@ None
 group_head
 =
 None
+    
+next_opcode_value
+=
+0
     
 for
 m
@@ -1988,48 +1972,33 @@ defs
 '
 )
         
-elif
-name
-and
-not
-name
-.
-startswith
-(
-'
-JSOP_UNUSED
-'
-)
+else
 :
+            
+assert
+name
+is
+not
+None
             
 opcode
 =
 OpcodeInfo
 (
+next_opcode_value
 comment_info
 )
             
-opcode
-.
-name
+next_opcode_value
++
 =
-name
+1
             
 opcode
 .
-value
+name
 =
-int
-(
-m
-.
-group
-(
-'
-value
-'
-)
-)
+name
             
 opcode
 .
