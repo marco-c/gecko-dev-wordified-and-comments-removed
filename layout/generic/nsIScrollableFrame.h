@@ -410,6 +410,15 @@ const
 0
 ;
 virtual
+nsRect
+GetScrollRangeForUserInputEvents
+(
+)
+const
+=
+0
+;
+virtual
 nsSize
 GetLineScrollAmount
 (
