@@ -10,6 +10,15 @@ js
 "
 )
 ;
+setup
+(
+{
+single_test
+:
+true
+}
+)
+;
 throw
 new
 Error
