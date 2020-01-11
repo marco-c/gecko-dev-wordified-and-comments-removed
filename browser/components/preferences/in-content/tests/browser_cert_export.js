@@ -252,7 +252,7 @@ content
 /
 certManager
 .
-xul
+xhtml
 "
 )
 ;

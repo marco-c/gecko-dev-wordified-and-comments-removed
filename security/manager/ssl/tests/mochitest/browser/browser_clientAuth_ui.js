@@ -142,7 +142,7 @@ content
 /
 clientauthask
 .
-xul
+xhtml
 "
 "
 "

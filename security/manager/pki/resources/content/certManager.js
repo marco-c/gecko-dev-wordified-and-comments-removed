@@ -1807,7 +1807,7 @@ content
 /
 editcacert
 .
-xul
+xhtml
 "
 "
 "
@@ -2468,7 +2468,7 @@ content
 /
 deletecert
 .
-xul
+xhtml
 "
 "
 "
@@ -2967,7 +2967,7 @@ content
 /
 exceptionDialog
 .
-xul
+xhtml
 "
 "
 "

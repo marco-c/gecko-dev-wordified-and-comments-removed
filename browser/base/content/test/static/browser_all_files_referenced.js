@@ -409,7 +409,7 @@ content
 /
 load_device
 .
-xul
+xhtml
 "
 }
 {
@@ -1256,7 +1256,7 @@ content
 /
 resetpassword
 .
-xul
+xhtml
 "
 }
 {
