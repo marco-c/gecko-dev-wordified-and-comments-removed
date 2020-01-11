@@ -323,9 +323,10 @@ tag
 commit
 date
 def
-list_tagged_revisons
+get_epoch_revisions
 (
 epoch
+until
 max_count
 )
 :
@@ -335,7 +336,7 @@ logger
 debug
 (
 "
-list_tagged_revisons
+get_epoch_revisions
 (
 %
 s
@@ -354,23 +355,6 @@ epoch_offset
 =
 345600
     
-epoch_threshold
-=
-600
-    
-epoch_until
-=
-int
-(
-time
-.
-time
-(
-)
-)
--
-epoch_threshold
-    
 count
 =
 0
@@ -379,7 +363,7 @@ cutoff_date
 =
 calculate_cutoff_date
 (
-epoch_until
+until
 epoch
 epoch_offset
 )
@@ -417,10 +401,8 @@ date
 cutoff_date
 :
             
-print
-(
+yield
 commit
-)
             
 count
 +
@@ -582,7 +564,27 @@ kwargs
 )
 :
     
-list_tagged_revisons
+epoch_threshold
+=
+600
+    
+until
+=
+int
+(
+time
+.
+time
+(
+)
+)
+-
+epoch_threshold
+    
+for
+line
+in
+get_epoch_revisions
 (
 kwargs
 [
@@ -590,10 +592,17 @@ kwargs
 epoch
 "
 ]
+until
 kwargs
 [
 "
 max_count
 "
 ]
+)
+:
+        
+print
+(
+line
 )
