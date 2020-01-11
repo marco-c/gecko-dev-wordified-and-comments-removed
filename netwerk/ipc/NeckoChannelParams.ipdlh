@@ -2593,6 +2593,12 @@ nsDOMNavigationTiming
 ?
 timing
 ;
+nsString
+srcdocData
+;
+nsIURI
+baseUri
+;
 }
 ;
 struct
