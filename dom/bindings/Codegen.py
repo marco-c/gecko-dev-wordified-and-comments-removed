@@ -32360,17 +32360,13 @@ isClamp
 =
 type
 .
-hasClamp
-(
-)
+clamp
     
 isEnforceRange
 =
 type
 .
-hasEnforceRange
-(
-)
+enforceRange
     
 if
 exceptionCode
