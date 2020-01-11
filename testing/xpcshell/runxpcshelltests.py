@@ -5827,9 +5827,7 @@ in
 test_object
 and
 '
-ancestor
--
-manifest
+ancestor_manifest
 '
 in
 test_object
@@ -5861,9 +5859,7 @@ basename
 test_object
 [
 '
-ancestor
--
-manifest
+ancestor_manifest
 '
 ]
 )
