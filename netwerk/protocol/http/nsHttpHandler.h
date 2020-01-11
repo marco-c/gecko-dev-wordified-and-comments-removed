@@ -1894,6 +1894,9 @@ mTailTotalMax
 uint8_t
 mRedirectionLimit
 ;
+bool
+mBeConservativeForProxy
+;
 uint8_t
 mPhishyUserPassLength
 ;

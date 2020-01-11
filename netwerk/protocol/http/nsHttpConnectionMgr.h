@@ -253,6 +253,8 @@ uint32_t
 throttleHoldTime
 uint32_t
 throttleMaxTime
+bool
+beConservativeForProxy
 )
 ;
 MOZ_MUST_USE
