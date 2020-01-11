@@ -1,17 +1,11 @@
 import
 base64
 import
-httplib
-import
 socket
 import
 sys
 import
 traceback
-import
-urllib
-import
-urllib2
 from
 xml
 .
@@ -28,6 +22,63 @@ base
 log
 import
 FATAL
+try
+:
+    
+import
+httplib
+except
+ImportError
+:
+    
+import
+http
+.
+client
+as
+httplib
+try
+:
+    
+from
+urllib
+import
+urlencode
+quote
+except
+ImportError
+:
+    
+from
+urllib
+.
+parse
+import
+urlencode
+quote
+try
+:
+    
+from
+urllib2
+import
+HTTPError
+URLError
+Request
+urlopen
+except
+ImportError
+:
+    
+from
+urllib
+.
+request
+import
+HTTPError
+URLError
+Request
+urlopen
 class
 BouncerSubmitterMixin
 (
@@ -63,7 +114,12 @@ local_dict
 {
 }
         
-execfile
+exec
+(
+compile
+(
+            
+open
 (
 self
 .
@@ -73,6 +129,28 @@ config
 credentials_file
 "
 ]
+"
+rb
+"
+)
+.
+read
+(
+)
+            
+self
+.
+config
+[
+"
+credentials_file
+"
+]
+            
+'
+exec
+'
+)
 global_dict
 local_dict
 )
@@ -129,11 +207,7 @@ None
 retry_exceptions
 =
 (
-urllib2
-.
 HTTPError
-urllib2
-.
 URLError
                               
 httplib
@@ -243,8 +317,6 @@ route
         
 request
 =
-urllib2
-.
 Request
 (
 api_url
@@ -256,8 +328,6 @@ data
             
 post_data
 =
-urllib
-.
 urlencode
 (
 data
@@ -356,8 +426,6 @@ api_url
             
 res
 =
-urllib2
-.
 urlopen
 (
 request
@@ -391,8 +459,6 @@ return
 res
         
 except
-urllib2
-.
 HTTPError
 as
 e
@@ -449,8 +515,6 @@ read
 raise
         
 except
-urllib2
-.
 URLError
 :
             
@@ -614,8 +678,6 @@ s
 "
 %
                             
-urllib
-.
 quote
 (
 product_name
