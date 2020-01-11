@@ -192,6 +192,9 @@ ThreadId
 source
 :
 SourcePayload
+isServiceWorker
+:
+boolean
 id
 ?
 :
@@ -1267,6 +1270,10 @@ type
 ThreadType
 +
 name
+:
+string
+serviceWorkerStatus
+?
 :
 string
 }

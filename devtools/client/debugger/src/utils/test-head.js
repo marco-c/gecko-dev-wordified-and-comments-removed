@@ -661,6 +661,9 @@ extensionName
 :
 null
 }
+isServiceWorker
+:
+false
 }
 ;
 }

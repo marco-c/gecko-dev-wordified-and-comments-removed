@@ -1358,6 +1358,14 @@ extension
 "
 js
 "
+|
+|
+extension
+=
+=
+"
+sjs
+"
 )
 {
 spec

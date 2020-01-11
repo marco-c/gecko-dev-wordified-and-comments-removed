@@ -86,9 +86,9 @@ const
 index
 =
 counter
-<
 =
-2
+=
+1
 ?
 1
 :
