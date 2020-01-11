@@ -1456,6 +1456,14 @@ return
 0
 ;
 }
+void
+SetRtcpEventObserver
+(
+RtcpEventObserver
+*
+observer
+)
+;
 private
 :
 class
