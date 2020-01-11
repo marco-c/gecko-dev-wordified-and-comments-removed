@@ -3375,16 +3375,6 @@ allow_eval_in_parent_process
 false
 )
 ;
-pref
-(
-"
-security
-.
-allow_parent_unrestricted_js_loads
-"
-false
-)
-;
 #
 ifdef
 NIGHTLY_BUILD

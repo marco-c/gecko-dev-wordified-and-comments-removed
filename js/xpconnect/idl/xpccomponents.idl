@@ -834,12 +834,6 @@ optional
 in
 long
 lineNo
-[
-optional
-]
-in
-bool
-enforceFilenameRestrictions
 )
 ;
 /
