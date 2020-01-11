@@ -1246,6 +1246,12 @@ id
 }
 )
 ;
+this
+.
+lastPingTime
+=
+now
+;
 }
 }
 pingResponse

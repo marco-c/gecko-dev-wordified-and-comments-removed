@@ -313,6 +313,13 @@ ReplayingInCloud
 (
 )
 ;
+const
+char
+*
+InstallDirectory
+(
+)
+;
 extern
 ProcessKind
 gProcessKind
