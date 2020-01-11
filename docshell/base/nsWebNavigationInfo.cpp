@@ -439,4 +439,10 @@ OTHER
 ;
 }
 }
+return
+nsIWebNavigationInfo
+:
+:
+UNSUPPORTED
+;
 }
