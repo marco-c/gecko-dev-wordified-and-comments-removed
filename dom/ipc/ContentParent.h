@@ -5687,13 +5687,13 @@ ipc
 :
 :
 IPCResult
-RecvNotifyMediaActiveChanged
+RecvNotifyMediaStateChanged
 (
 BrowsingContext
 *
 aContext
-bool
-aActive
+ControlledMediaState
+aState
 )
 ;
 mozilla
