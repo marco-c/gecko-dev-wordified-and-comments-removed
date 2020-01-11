@@ -2609,10 +2609,6 @@ webgl1
 -
 ext
 -
-mochitest
--
-webgpu
--
 reftest
 -
 no
@@ -2680,6 +2676,10 @@ mochitest
 -
 media
 -
+mochitest
+-
+webgpu
+-
 reftest
 -
 xpcshell
@@ -2705,6 +2705,10 @@ gpu
 mochitest
 -
 media
+-
+mochitest
+-
+webgpu
 -
 reftest
 -
@@ -2739,10 +2743,6 @@ mochitest
 webgl2
 -
 core
--
-mochitest
--
-webgpu
 linux
 -
 qr
