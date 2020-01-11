@@ -184,7 +184,7 @@ Dependencies
 threadFront
 :
 ThreadFront
-tabTarget
+currentTarget
 :
 Target
 debuggerClient
@@ -210,7 +210,7 @@ currentTarget
 =
 dependencies
 .
-tabTarget
+currentTarget
 ;
 debuggerClient
 =
