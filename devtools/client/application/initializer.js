@@ -231,6 +231,8 @@ src
 /
 modules
 /
+application
+-
 services
 "
 )
@@ -371,13 +373,6 @@ store
 .
 dispatch
 )
-;
-this
-.
-serviceWorkerRegistrationFronts
-=
-[
-]
 ;
 services
 .
@@ -679,6 +674,13 @@ actions
 updateCanDebugWorkers
 (
 canDebugWorkers
+&
+&
+services
+.
+features
+.
+doesDebuggerSupportWorkers
 )
 ;
 }
