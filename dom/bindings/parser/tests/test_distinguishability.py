@@ -1167,6 +1167,9 @@ DOMString
 ByteString
 "
 "
+UTF8String
+"
+"
 Enum
 "
 "
@@ -1248,6 +1251,14 @@ Dict
 record
 <
 ByteString
+long
+>
+"
+                 
+"
+record
+<
+UTF8String
 long
 >
 "
@@ -1464,6 +1475,9 @@ USVString
 "
 "
 JSString
+"
+"
+UTF8String
 "
 ]
     
@@ -1702,6 +1716,13 @@ ByteString
 long
 >
 "
+"
+record
+<
+UTF8String
+long
+>
+"
 ]
     
 data
@@ -1825,6 +1846,14 @@ setDistinguishable
 (
 "
 ByteString
+"
+nonStrings
+)
+    
+setDistinguishable
+(
+"
+UTF8String
 "
 nonStrings
 )
@@ -2061,6 +2090,18 @@ setDistinguishable
 record
 <
 ByteString
+long
+>
+"
+nonUserObjects
+)
+    
+setDistinguishable
+(
+"
+record
+<
+UTF8String
 long
 >
 "
