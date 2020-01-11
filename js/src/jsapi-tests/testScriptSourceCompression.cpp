@@ -59,6 +59,13 @@ h
 #
 include
 "
+jstypes
+.
+h
+"
+#
+include
+"
 js
 /
 CompilationAndEvaluation
@@ -188,9 +195,11 @@ mozilla
 Utf8Unit
 ;
 struct
+JS_PUBLIC_API
 JSContext
 ;
 class
+JS_PUBLIC_API
 JSString
 ;
 template
