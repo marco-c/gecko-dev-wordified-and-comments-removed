@@ -2247,7 +2247,7 @@ GetWindow
 )
 -
 >
-GetDocBaseURI
+GetDocumentURI
 (
 )
 )
