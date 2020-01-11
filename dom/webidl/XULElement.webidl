@@ -132,13 +132,6 @@ SetterThrows
 ]
 attribute
 DOMString
-ordinal
-;
-[
-SetterThrows
-]
-attribute
-DOMString
 orient
 ;
 /
