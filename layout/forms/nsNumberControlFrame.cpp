@@ -1481,10 +1481,6 @@ mTextField
 Focus
 (
 options
-CallerType
-:
-:
-System
 IgnoreErrors
 (
 )
@@ -2673,10 +2669,6 @@ textField
 Focus
 (
 options
-CallerType
-:
-:
-System
 IgnoreErrors
 (
 )

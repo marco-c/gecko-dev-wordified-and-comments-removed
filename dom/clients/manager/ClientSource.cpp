@@ -2626,11 +2626,6 @@ nsFocusManager
 FocusWindow
 (
 outer
-aArgs
-.
-callerType
-(
-)
 )
 ;
 ClientState

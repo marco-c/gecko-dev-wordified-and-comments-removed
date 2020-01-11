@@ -218,8 +218,6 @@ ClientStatePromise
 >
 Focus
 (
-CallerType
-aCallerType
 )
 ;
 RefPtr

@@ -32250,8 +32250,6 @@ RecvWindowFocus
 BrowsingContext
 *
 aContext
-CallerType
-aCallerType
 )
 {
 if
@@ -32349,7 +32347,6 @@ cp
 SendWindowFocus
 (
 aContext
-aCallerType
 )
 ;
 return

@@ -11698,9 +11698,6 @@ const
 bool
 &
 aCanRaise
-const
-CallerType
-aCallerType
 )
 {
 LOGBROWSERFOCUS
@@ -11743,7 +11740,6 @@ bridgeParent
 SendRequestFocus
 (
 aCanRaise
-aCallerType
 )
 ;
 return
@@ -11772,7 +11768,6 @@ RequestFrameFocus
 *
 mFrameElement
 aCanRaise
-aCallerType
 )
 ;
 return
@@ -16476,10 +16471,6 @@ Raise
 :
 :
 No
-CallerType
-:
-:
-System
 )
 ;
 }

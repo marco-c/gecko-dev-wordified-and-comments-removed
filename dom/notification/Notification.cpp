@@ -1465,10 +1465,6 @@ mWindow
 GetOuterWindow
 (
 )
-CallerType
-:
-:
-System
 )
 ;
 return
@@ -5118,10 +5114,6 @@ window
 GetOuterWindow
 (
 )
-CallerType
-:
-:
-System
 )
 ;
 }

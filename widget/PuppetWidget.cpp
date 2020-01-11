@@ -1398,8 +1398,6 @@ SetFocus
 (
 Raise
 aRaise
-CallerType
-aCallerType
 )
 {
 if
@@ -1422,7 +1420,6 @@ mBrowserChild
 SendRequestFocus
 (
 true
-aCallerType
 )
 ;
 }

@@ -7943,14 +7943,6 @@ SetFocus
 (
 Raise
 aRaise
-mozilla
-:
-:
-dom
-:
-:
-CallerType
-aCallerType
 )
 {
 LOGFOCUS

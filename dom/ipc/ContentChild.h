@@ -3898,8 +3898,6 @@ RecvWindowFocus
 BrowsingContext
 *
 aContext
-CallerType
-aCallerType
 )
 ;
 mozilla

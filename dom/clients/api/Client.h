@@ -235,8 +235,6 @@ Promise
 >
 Focus
 (
-CallerType
-aCallerType
 ErrorResult
 &
 aRv
