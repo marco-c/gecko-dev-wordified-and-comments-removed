@@ -581,7 +581,6 @@ StartRef
 Container
 (
 )
-*
 aAbstractRange
 -
 >
@@ -591,13 +590,6 @@ StartRef
 .
 Offset
 (
-RangeBoundary
-:
-:
-OffsetFilter
-:
-:
-kValidOrInvalidOffsets
 )
 parent
 nodeStart
@@ -637,7 +629,6 @@ EndRef
 Container
 (
 )
-*
 aAbstractRange
 -
 >
@@ -647,13 +638,6 @@ EndRef
 .
 Offset
 (
-RangeBoundary
-:
-:
-OffsetFilter
-:
-:
-kValidOrInvalidOffsets
 )
 parent
 nodeEnd
