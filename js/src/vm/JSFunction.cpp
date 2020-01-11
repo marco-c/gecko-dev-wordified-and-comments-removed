@@ -8168,10 +8168,10 @@ script
 ;
 if
 (
-script
+lazy
 -
 >
-isRelazifiable
+canRelazify
 (
 )
 )
@@ -8638,7 +8638,7 @@ if
 script
 -
 >
-canRelazify
+isRelazifiable
 (
 )
 )
