@@ -1046,6 +1046,9 @@ show
 activedata
 -
 -
+verbose
+-
+-
 output
 -
 file
