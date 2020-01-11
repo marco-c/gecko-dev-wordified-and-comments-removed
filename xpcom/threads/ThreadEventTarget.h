@@ -84,6 +84,11 @@ SetCurrentThread
 (
 )
 ;
+void
+ClearCurrentThread
+(
+)
+;
 size_t
 SizeOfIncludingThis
 (
