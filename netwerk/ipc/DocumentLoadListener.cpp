@@ -2320,6 +2320,17 @@ redirectIdentifier
 =
 mCrossProcessRedirectIdentifier
 ;
+aArgs
+.
+properties
+(
+)
+=
+do_QueryObject
+(
+mChannel
+)
+;
 }
 void
 DocumentLoadListener
