@@ -1858,7 +1858,6 @@ pub
 fn
 is_trivial
 (
-&
 self
 )
 -
@@ -1866,7 +1865,6 @@ self
 bool
 {
 match
-*
 self
 {
 CompareFunction

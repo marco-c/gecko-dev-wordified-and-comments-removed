@@ -138,7 +138,6 @@ pub
 fn
 backend
 (
-&
 self
 )
 -
@@ -884,7 +883,6 @@ crate
 fn
 to_swap_chain_id
 (
-&
 self
 backend
 :
@@ -928,7 +926,6 @@ crate
 fn
 to_surface_id
 (
-&
 self
 )
 -

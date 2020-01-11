@@ -2721,10 +2721,6 @@ Some
 pipeline
 .
 layout_id
-.
-clone
-(
-)
 )
 {
 let
@@ -2749,10 +2745,6 @@ Some
 pipeline
 .
 layout_id
-.
-clone
-(
-)
 )
 ;
 pass
