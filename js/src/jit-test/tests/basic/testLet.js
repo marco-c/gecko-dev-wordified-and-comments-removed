@@ -51,10 +51,14 @@ str
 var
 got
 =
+(
+{
 fun
 .
-toSource
+toString
 (
+)
+}
 )
 ;
 var
@@ -158,7 +162,7 @@ assertEq
 (
 c
 .
-toSource
+toString
 (
 )
 eval
@@ -166,7 +170,7 @@ eval
 code
 )
 .
-toSource
+toString
 (
 )
 )

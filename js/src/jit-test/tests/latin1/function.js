@@ -53,7 +53,7 @@ assertEq
 (
 f
 .
-toSource
+toString
 (
 )
 .
@@ -105,7 +105,7 @@ assertEq
 (
 f
 .
-toSource
+toString
 (
 )
 .

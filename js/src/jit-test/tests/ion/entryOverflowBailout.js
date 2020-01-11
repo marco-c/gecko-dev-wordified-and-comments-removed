@@ -38,7 +38,7 @@ counter
 +
 f2
 .
-toSource
+toString
 (
 )
 ;

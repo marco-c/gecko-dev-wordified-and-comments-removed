@@ -185,14 +185,13 @@ true
 }
 )
 .
-toSource
+toString
 (
 )
 ;
 }
 )
 '
-(
 function
 inner
 (
@@ -201,7 +200,6 @@ inner
 1
 ;
 }
-)
 '
 )
 ;
@@ -229,7 +227,7 @@ true
 }
 )
 .
-toSource
+toString
 (
 )
 ;
@@ -270,11 +268,10 @@ true
 }
 )
 .
-toSource
+toString
 (
 )
 '
-(
 function
 outer
 (
@@ -283,7 +280,6 @@ outer
 3
 ;
 }
-)
 '
 )
 ;

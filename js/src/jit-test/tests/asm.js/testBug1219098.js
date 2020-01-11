@@ -92,7 +92,7 @@ eval
 +
 wee
 .
-toSource
+toString
 (
 )
 +
