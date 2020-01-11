@@ -46,7 +46,6 @@ enum
 Fields
 {
 CondOffset
-UpdateOffset
 BackJumpOffset
 Count
 }
@@ -75,7 +74,6 @@ public
 enum
 Fields
 {
-CondOffset
 BackJumpOffset
 Count
 }
