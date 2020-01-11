@@ -134,5 +134,14 @@ isConstexpr
 .
 patch
 "
+"
+bug
+-
+1606630
+-
+if_constexpr
+.
+patch
+"
 ]
 }
