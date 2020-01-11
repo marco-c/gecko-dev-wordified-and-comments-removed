@@ -1793,16 +1793,10 @@ false
 StructuredCloneTester
 :
 false
-StyleRuleChangeEvent
-:
-false
 StyleSheet
 :
 false
 StyleSheetApplicableStateChangeEvent
-:
-false
-StyleSheetChangeEvent
 :
 false
 StyleSheetList
