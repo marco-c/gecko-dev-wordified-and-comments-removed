@@ -905,7 +905,7 @@ WebGLContextAttributes
 boolean
 xrCompatible
 =
-null
+false
 ;
 }
 ;
