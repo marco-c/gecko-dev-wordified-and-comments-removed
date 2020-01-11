@@ -19346,7 +19346,7 @@ SetDocTreeHadAudibleMedia
 ;
 if
 (
-AutoplayPolicy
+AutoplayPolicyTelemetryUtils
 :
 :
 WouldBeAllowedToPlayIfAutoplayDisabled

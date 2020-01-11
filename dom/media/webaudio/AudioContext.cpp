@@ -5330,7 +5330,7 @@ UpdateAutoplayAssumptionStatus
 {
 if
 (
-AutoplayPolicy
+AutoplayPolicyTelemetryUtils
 :
 :
 WouldBeAllowedToPlayIfAutoplayDisabled
@@ -5381,7 +5381,7 @@ return
 }
 if
 (
-AutoplayPolicy
+AutoplayPolicyTelemetryUtils
 :
 :
 WouldBeAllowedToPlayIfAutoplayDisabled
