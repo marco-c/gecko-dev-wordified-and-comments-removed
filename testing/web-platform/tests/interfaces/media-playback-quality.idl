@@ -96,5 +96,15 @@ unsigned
 long
 totalVideoFrames
 ;
+/
+/
+Deprecated
+!
+readonly
+attribute
+unsigned
+long
+corruptedVideoFrames
+;
 }
 ;
