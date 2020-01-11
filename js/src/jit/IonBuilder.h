@@ -3054,7 +3054,7 @@ Ok
 >
 initializeArrayElement
 (
-MDefinition
+MNewArray
 *
 obj
 size_t

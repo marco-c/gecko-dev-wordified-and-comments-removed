@@ -4519,7 +4519,7 @@ initLength
 )
 )
 ;
-MDefinition
+MNewArray
 *
 array
 =
@@ -4530,6 +4530,11 @@ peek
 (
 -
 1
+)
+-
+>
+toNewArray
+(
 )
 ;
 if
