@@ -257,6 +257,51 @@ types
 !
 '
 )
+def
+_open
+(
+path
+mode
+=
+'
+r
+'
+)
+:
+    
+if
+six
+.
+PY3
+and
+'
+b
+'
+not
+in
+mode
+:
+        
+return
+open
+(
+path
+mode
+encoding
+=
+'
+utf
+-
+8
+'
+)
+    
+return
+open
+(
+path
+mode
+)
 class
 Dest
 (
@@ -431,7 +476,7 @@ self
 .
 file
 =
-open
+_open
 (
 self
 .
@@ -485,7 +530,7 @@ self
 .
 file
 =
-open
+_open
 (
 self
 .
@@ -1420,7 +1465,7 @@ not
 None
         
 return
-open
+_open
 (
 self
 .
@@ -1724,7 +1769,7 @@ file
 '
         
 with
-open
+_open
 (
 self
 .
@@ -3058,7 +3103,7 @@ silence_missing_directive_warnings
 )
         
 with
-open
+_open
 (
 self
 .
@@ -3072,7 +3117,7 @@ input
 :
             
 with
-open
+_open
 (
 os
 .
@@ -3228,7 +3273,7 @@ name
 )
             
 with
-open
+_open
 (
 self
 .
@@ -3377,7 +3422,7 @@ silence_missing_directive_warnings
 )
         
 with
-open
+_open
 (
 self
 .
