@@ -3339,8 +3339,14 @@ if
 (
 !
 guidIsValid
-|
-|
+)
+{
+return
+false
+;
+}
+if
+(
 nsLayoutUtils
 :
 :
