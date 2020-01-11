@@ -43,13 +43,6 @@ nsString
 .
 h
 "
-template
-<
-class
->
-struct
-already_AddRefed
-;
 namespace
 mozilla
 {
@@ -90,7 +83,8 @@ class
 ResultCallback
 ;
 static
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 IDBFileRequest
 >
