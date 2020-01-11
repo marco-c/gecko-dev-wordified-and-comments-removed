@@ -264,7 +264,7 @@ History
 -
 -
 Firefox
-70
+72
 :
 -
 "
