@@ -4120,8 +4120,10 @@ mOwnerContent
 )
 )
 ;
-if
-(
+const
+bool
+marginsChanged
+=
 ds
 -
 >
@@ -4132,8 +4134,7 @@ GetMarginAttributes
 mOwnerContent
 )
 )
-)
-{
+;
 if
 (
 PresShell
@@ -4146,6 +4147,11 @@ ds
 GetPresShell
 (
 )
+)
+{
+if
+(
+marginsChanged
 )
 {
 if
@@ -4176,10 +4182,10 @@ NS_FRAME_IS_DIRTY
 )
 ;
 }
+}
 return
 true
 ;
-}
 }
 nsView
 *
