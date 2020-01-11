@@ -211,6 +211,9 @@ preventDefault
 once
 :
 true
+passive
+:
+false
 }
 )
 ;
