@@ -179,8 +179,6 @@ diagonal
 ref
 .
 html
-=
-=
 fuzzy
 -
 if
@@ -193,6 +191,8 @@ webrender
 -
 43000
 )
+=
+=
 linear
 -
 premul
