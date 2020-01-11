@@ -969,13 +969,6 @@ fxaEndpoint
 {
 fxaEndpoint
 }
-onBlockById
-=
-{
-props
-.
-onBlockById
-}
 /
 >
 )
@@ -1045,13 +1038,6 @@ onAction
 =
 {
 executeAction
-}
-onBlockById
-=
-{
-props
-.
-onBlockById
 }
 /
 >
