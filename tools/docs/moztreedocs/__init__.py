@@ -55,6 +55,8 @@ sphinx
 import
 sphinx
 .
+ext
+.
 apidoc
 here
 =

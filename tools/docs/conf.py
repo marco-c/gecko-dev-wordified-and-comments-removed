@@ -189,6 +189,14 @@ sphinx
 .
 ext
 .
+doctest
+'
+    
+'
+sphinx
+.
+ext
+.
 graphviz
 '
     
