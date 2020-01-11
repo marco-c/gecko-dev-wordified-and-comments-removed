@@ -894,12 +894,6 @@ cl
 -
 win64
 -
-dump
--
-syms
--
-win64
--
 rust
 -
 win64
@@ -1058,12 +1052,6 @@ win64
 clang
 -
 cl
--
-win64
--
-dump
--
-syms
 -
 win64
 -

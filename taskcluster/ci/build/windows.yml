@@ -75,16 +75,6 @@ tooltool
 downloads
 :
 internal
-fetches
-:
-toolchain
-:
--
-win64
--
-dump
--
-syms
 win32
 /
 debug
