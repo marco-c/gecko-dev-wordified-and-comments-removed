@@ -429,11 +429,6 @@ IonCacheIRCompiler
 cpp
 '
 '
-IonControlFlow
-.
-cpp
-'
-'
 IonIC
 .
 cpp
