@@ -136,6 +136,12 @@ kTlsHandshakeFinished
 ;
 const
 uint8_t
+kTlsHandshakeKeyUpdate
+=
+24
+;
+const
+uint8_t
 kTlsAlertWarning
 =
 1
