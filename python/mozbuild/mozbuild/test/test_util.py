@@ -19,6 +19,8 @@ os
 import
 unittest
 import
+six
+import
 string
 import
 sys
@@ -65,9 +67,9 @@ EnumString
     
 EnumStringComparisonError
     
-ListWithAction
-    
 StrictOrderingOnAppendList
+    
+StrictOrderingOnAppendListWithAction
     
 StrictOrderingOnAppendListWithFlagsFactory
     
@@ -1202,10 +1204,11 @@ h
 "
 ]
         
-self
+six
 .
-assertItemsEqual
+assertCountEqual
 (
+self
 self
 .
 EXPORTS
@@ -1255,16 +1258,17 @@ h
 "
 ]
         
-self
+six
 .
-assertItemsEqual
+assertCountEqual
 (
+self
 self
 .
 EXPORTS
 .
 _children
-                              
+                             
 {
 "
 foo
@@ -1342,10 +1346,11 @@ h
 "
 ]
         
-self
+six
 .
-assertItemsEqual
+assertCountEqual
 (
+self
 self
 .
 EXPORTS
@@ -1360,10 +1365,11 @@ True
 }
 )
         
-self
+six
 .
-assertItemsEqual
+assertCountEqual
 (
+self
 self
 .
 EXPORTS
@@ -1380,10 +1386,11 @@ True
 }
 )
         
-self
+six
 .
-assertItemsEqual
+assertCountEqual
 (
+self
 self
 .
 EXPORTS
@@ -1476,17 +1483,19 @@ foo
 h
 "
         
-self
+six
 .
-assertEqual
+assertRegex
 (
+            
+self
 str
 (
 ve
 .
 exception
 )
-                         
+            
 "
 Expected
 a
@@ -1495,7 +1504,13 @@ of
 strings
 not
 <
+(
+?
+:
 type
+|
+class
+)
 '
 %
 s
@@ -1536,17 +1551,19 @@ foo
 h
 "
         
-self
+six
 .
-assertEqual
+assertRegex
 (
+            
+self
 str
 (
 ve
 .
 exception
 )
-                         
+            
 "
 Expected
 a
@@ -1555,7 +1572,13 @@ of
 strings
 not
 <
+(
+?
+:
 type
+|
+class
+)
 '
 %
 s
@@ -1595,17 +1618,19 @@ foo
 h
 "
         
-self
+six
 .
-assertEqual
+assertRegex
 (
+            
+self
 str
 (
 ve
 .
 exception
 )
-                         
+            
 "
 Expected
 a
@@ -1614,7 +1639,13 @@ of
 strings
 not
 <
+(
+?
+:
 type
+|
+class
+)
 '
 %
 s
@@ -1652,17 +1683,19 @@ EXPORTS
 True
 ]
         
-self
+six
 .
-assertEqual
+assertRegex
 (
+            
+self
 str
 (
 ve
 .
 exception
 )
-                         
+            
 "
 Expected
 a
@@ -1674,10 +1707,16 @@ an
 element
 of
 "
-                         
+            
 "
 <
+(
+?
+:
 type
+|
+class
+)
 '
 bool
 '
@@ -2981,7 +3020,7 @@ l2
 =
 l
 class
-TestListWithAction
+TestStrictOrderingOnAppendListWithAction
 (
 unittest
 .
@@ -3064,7 +3103,7 @@ self
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 action
 =
@@ -3100,7 +3139,7 @@ c
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 [
 '
@@ -3122,13 +3161,18 @@ action
         
 expected
 =
-map
-(
+[
 self
 .
 action
-original
+(
+i
 )
+for
+i
+in
+original
+]
         
 self
 .
@@ -3147,7 +3191,7 @@ ValueError
 )
 :
             
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 '
 abc
@@ -3168,7 +3212,7 @@ ValueError
 )
 :
             
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 )
     
@@ -3181,7 +3225,7 @@ self
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 action
 =
@@ -3210,13 +3254,18 @@ original
         
 expected
 =
-map
-(
+[
 self
 .
 action
-original
+(
+i
 )
+for
+i
+in
+original
+]
         
 self
 .
@@ -3253,7 +3302,7 @@ self
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 action
 =
@@ -3282,13 +3331,18 @@ original
         
 expected
 =
-map
-(
+[
 self
 .
 action
-original
+(
+i
 )
+for
+i
+in
+original
+]
         
 self
 .
@@ -3325,7 +3379,7 @@ self
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 action
 =
@@ -3353,13 +3407,18 @@ original
         
 expected
 =
-map
-(
+[
 self
 .
 action
-original
+(
+i
 )
+for
+i
+in
+original
+]
         
 self
 .
@@ -3393,7 +3452,7 @@ self
         
 l
 =
-ListWithAction
+StrictOrderingOnAppendListWithAction
 (
 action
 =
@@ -3420,13 +3479,18 @@ original
         
 expected
 =
-map
-(
+[
 self
 .
 action
-original
+(
+i
 )
+for
+i
+in
+original
+]
         
 self
 .
@@ -3784,7 +3848,9 @@ bool
 bar
 '
 :
-unicode
+six
+.
+text_type
         
 }
 )
@@ -3840,7 +3906,9 @@ StrictOrderingOnAppendListWithFlagsFactory
 foo
 '
 :
-unicode
+six
+.
+text_type
 '
 baz
 '
@@ -5266,12 +5334,15 @@ cls
         
 list
 .
-__setslice__
+__setitem__
 (
 l
+slice
+(
 0
 -
 1
+)
 [
 1
 2
@@ -5380,14 +5451,16 @@ self
 class
 Unicode
 (
-unicode
+six
+.
+text_type
 )
 :
             
 def
-__init__
+__new__
 (
-self
+cls
 other
 )
 :
@@ -5397,7 +5470,9 @@ not
 isinstance
 (
 other
-unicode
+six
+.
+text_type
 )
 :
                     
@@ -5406,14 +5481,14 @@ ValueError
 (
 )
                 
-super
-(
-Unicode
-self
-)
+return
+six
 .
-__init__
+text_type
+.
+__new__
 (
+cls
 other
 )
         
@@ -5554,7 +5629,9 @@ FooBar
 '
 foo
 '
-unicode
+six
+.
+text_type
 )
 (
 '
@@ -6479,8 +6556,22 @@ TestCase
 )
 :
     
+unittest
+.
+skipUnless
+(
+six
+.
+PY2
+'
+requires
+Python
+2
+'
+)
+    
 def
-test_indented_repr
+test_indented_repr_py2
 (
 self
 )
@@ -6627,6 +6718,186 @@ with_accents
 '
 '
         
+}
+'
+'
+'
+)
+.
+lstrip
+(
+)
+        
+obj
+=
+eval
+(
+data
+)
+        
+self
+.
+assertEqual
+(
+indented_repr
+(
+obj
+)
+data
+)
+    
+unittest
+.
+skipUnless
+(
+six
+.
+PY3
+'
+requires
+Python
+3
+'
+)
+    
+def
+test_indented_repr
+(
+self
+)
+:
+        
+data
+=
+textwrap
+.
+dedent
+(
+r
+'
+'
+'
+        
+{
+b
+'
+c
+'
+:
+'
+xyz
+'
+            
+'
+a
+'
+:
+1
+            
+'
+b
+'
+:
+b
+'
+abc
+'
+            
+'
+d
+'
+:
+False
+            
+'
+e
+'
+:
+{
+'
+a
+'
+:
+1
+'
+b
+'
+:
+b
+'
+2
+'
+'
+c
+'
+:
+'
+3
+'
+}
+            
+'
+f
+'
+:
+[
+1
+b
+'
+2
+'
+'
+3
+'
+]
+            
+'
+pile_of_bytes
+'
+:
+b
+'
+\
+xf0
+\
+x9f
+\
+x92
+\
+xa9
+'
+            
+'
+pile_of_poo
+'
+:
+'
+'
+            
+'
+special_chars
+'
+:
+'
+\
+\
+\
+'
+"
+\
+x08
+\
+n
+\
+t
+'
+            
+'
+with_accents
+'
+:
+'
+'
 }
 '
 '
