@@ -666,6 +666,13 @@ data
 "
 )
 ;
+mImmutable
+=
+aOther
+-
+>
+mImmutable
+;
 }
 ~
 MemoryBlobImpl

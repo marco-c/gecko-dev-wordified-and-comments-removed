@@ -272,6 +272,15 @@ mBlobImpls
 nullptr
 ;
 }
+virtual
+nsresult
+SetMutable
+(
+bool
+aMutable
+)
+override
+;
 void
 SetName
 (
