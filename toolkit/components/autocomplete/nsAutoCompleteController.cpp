@@ -5139,10 +5139,6 @@ text
 nullptr
 )
 ;
-ClosePopup
-(
-)
-;
 bool
 cancel
 ;
@@ -5171,6 +5167,10 @@ aEvent
 itemWasSelected
 &
 cancel
+)
+;
+ClosePopup
+(
 )
 ;
 return
