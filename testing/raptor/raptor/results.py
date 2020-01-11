@@ -2572,6 +2572,7 @@ def
 _extract_vmetrics
 (
 self
+test_name
 browsertime_json
 browsertime_results
 )
@@ -2696,6 +2697,12 @@ _normalized_join
 reldir
 vfile
 )
+                     
+"
+test_name
+"
+:
+test_name
 }
                     
 for
@@ -2960,6 +2967,15 @@ in
 tests
 :
             
+test_name
+=
+test
+[
+'
+name
+'
+]
+            
 bt_res_json
 =
 os
@@ -3116,6 +3132,7 @@ self
 .
 _extract_vmetrics
 (
+test_name
 bt_res_json
 raw_btresults
 )

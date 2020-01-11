@@ -531,6 +531,15 @@ jobs
 Required
 (
 '
+test_name
+'
+)
+:
+str
+                
+Required
+(
+'
 json_location
 '
 )
