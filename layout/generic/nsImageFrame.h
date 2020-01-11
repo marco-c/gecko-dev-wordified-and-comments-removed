@@ -1230,17 +1230,11 @@ ShouldDisplaySelection
 bool
 UpdateIntrinsicSize
 (
-imgIContainer
-*
-aImage
 )
 ;
 bool
 UpdateIntrinsicRatio
 (
-imgIContainer
-*
-aImage
 )
 ;
 bool
