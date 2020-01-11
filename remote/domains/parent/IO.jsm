@@ -139,6 +139,9 @@ async
 close
 (
 options
+=
+{
+}
 )
 {
 const
