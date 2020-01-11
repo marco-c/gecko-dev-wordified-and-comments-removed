@@ -412,6 +412,8 @@ const
 self_type
 &
 )
+=
+delete
 ;
 }
 ;

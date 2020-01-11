@@ -1305,6 +1305,15 @@ ticks_
 )
 {
 }
+TimeTicks
+(
+const
+TimeTicks
+&
+)
+=
+default
+;
 static
 TimeTicks
 Now
