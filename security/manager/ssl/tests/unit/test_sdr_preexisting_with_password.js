@@ -203,7 +203,7 @@ do_get_file
 "
 test_sdr_preexisting_with_password
 /
-key3
+key4
 .
 db
 "
@@ -215,7 +215,7 @@ copyTo
 (
 profile
 "
-key3
+key4
 .
 db
 "
