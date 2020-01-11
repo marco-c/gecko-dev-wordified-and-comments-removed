@@ -422,6 +422,10 @@ linux64
 gcc
 -
 7
+-
+wasi
+-
+sysroot
 linux64
 -
 clang
