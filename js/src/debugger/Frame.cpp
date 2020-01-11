@@ -3027,7 +3027,7 @@ MutableHandleDebuggerFrame
 result
 )
 {
-MOZ_ASSERT
+if
 (
 frame
 -
@@ -3036,7 +3036,7 @@ isOnStack
 (
 )
 )
-;
+{
 Debugger
 *
 dbg
@@ -3142,6 +3142,20 @@ result
 )
 ;
 }
+}
+}
+else
+{
+MOZ_ASSERT
+(
+frame
+-
+>
+hasGenerator
+(
+)
+)
+;
 }
 result
 .
@@ -7499,7 +7513,7 @@ olderGetter
 if
 (
 !
-ensureOnStack
+ensureOnStackOrSuspended
 (
 )
 )
