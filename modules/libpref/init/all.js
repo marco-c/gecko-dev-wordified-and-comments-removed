@@ -1390,7 +1390,7 @@ serviceWorkers
 .
 idle_extended_timeout
 "
-300000
+30000
 )
 ;
 pref
