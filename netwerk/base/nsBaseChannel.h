@@ -172,7 +172,7 @@ nsBaseChannel
 public
 nsHashPropertyBag
 public
-nsIIdentChannel
+nsIChannel
 public
 nsIThreadRetargetableRequest
 public
@@ -210,7 +210,6 @@ public
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIREQUEST
 NS_DECL_NSICHANNEL
-NS_DECL_NSIIDENTCHANNEL
 NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSITRANSPORTEVENTSINK
 NS_DECL_NSIASYNCVERIFYREDIRECTCALLBACK
@@ -877,15 +876,6 @@ mContentDispositionFilename
 ;
 int64_t
 mContentLength
-;
-mozilla
-:
-:
-Maybe
-<
-uint64_t
->
-mChannelId
 ;
 bool
 mWasOpened
