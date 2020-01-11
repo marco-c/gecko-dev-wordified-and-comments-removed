@@ -1430,7 +1430,10 @@ StyleVisibility
 mVisible
 =
 =
-NS_STYLE_VISIBILITY_COLLAPSE
+StyleVisibility
+:
+:
+Collapse
 ;
 }
 nsresult

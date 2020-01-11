@@ -118,6 +118,11 @@ propdef
 -
 visibility
 "
+gecko_enum_prefix
+=
+"
+StyleVisibility
+"
 )
 }
 /
