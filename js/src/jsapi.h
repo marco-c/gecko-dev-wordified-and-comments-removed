@@ -1385,6 +1385,16 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+JS_ContainsSharedArrayBuffer
+(
+JSContext
+*
+cx
+)
+;
 namespace
 js
 {
