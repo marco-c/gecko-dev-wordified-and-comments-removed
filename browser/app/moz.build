@@ -545,14 +545,6 @@ splash
 .
 rc
 '
-DEFINES
-[
-'
-MOZ_PHOENIX
-'
-]
-=
-True
 DIRS
 +
 =

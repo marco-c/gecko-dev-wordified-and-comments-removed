@@ -68,9 +68,6 @@ Mozilla
 MOZ_UPDATER
 =
 1
-MOZ_PHOENIX
-=
-1
 if
 test
 "

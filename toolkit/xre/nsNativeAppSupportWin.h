@@ -1,7 +1,4 @@
 #
-ifdef
-MOZ_PHOENIX
-#
 define
 IDI_APPICON
 1
@@ -28,8 +25,6 @@ IDI_APPLICATION
 define
 IDI_APPLICATION
 32512
-#
-endif
 #
 endif
 #
