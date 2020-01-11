@@ -63,13 +63,13 @@ global
 /
 appPicker
 .
-xhtml
+xul
 (
 content
 /
 appPicker
 .
-xhtml
+xul
 )
 content
 /

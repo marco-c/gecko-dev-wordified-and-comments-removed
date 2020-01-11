@@ -298,7 +298,7 @@ content
 /
 resetProfile
 .
-xhtml
+xul
 "
 )
 {

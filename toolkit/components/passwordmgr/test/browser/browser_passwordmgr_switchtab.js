@@ -12,7 +12,7 @@ content
 /
 commonDialog
 .
-xhtml
+xul
 "
 ;
 add_task

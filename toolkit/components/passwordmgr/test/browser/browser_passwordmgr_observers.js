@@ -79,7 +79,7 @@ content
 /
 passwordManager
 .
-xhtml
+xul
 "
 "
 Toolkit

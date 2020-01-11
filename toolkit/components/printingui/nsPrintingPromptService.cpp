@@ -105,7 +105,7 @@ content
 /
 printProgress
 .
-xhtml
+xul
 "
 ;
 static
@@ -125,7 +125,7 @@ content
 /
 printPreviewProgress
 .
-xhtml
+xul
 "
 ;
 #

@@ -2785,7 +2785,7 @@ content
 /
 commonDialog
 .
-xhtml
+xul
 "
 ;
 const
@@ -2802,7 +2802,7 @@ content
 /
 selectDialog
 .
-xhtml
+xul
 "
 ;
 let

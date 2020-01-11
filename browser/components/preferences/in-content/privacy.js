@@ -8776,7 +8776,7 @@ content
 /
 passwordManager
 .
-xhtml
+xul
 "
 )
 ;

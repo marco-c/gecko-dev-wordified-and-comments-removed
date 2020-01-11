@@ -4952,7 +4952,7 @@ push
 "
 passwordManager
 .
-xhtml
+xul
 "
 )
 ;
@@ -7936,7 +7936,7 @@ push
 "
 config
 .
-xhtml
+xul
 "
 )
 ;

@@ -397,14 +397,14 @@ global
 /
 resetProfile
 .
-xhtml
+xul
 content
 /
 global
 /
 resetProfileProgress
 .
-xhtml
+xul
 content
 /
 global

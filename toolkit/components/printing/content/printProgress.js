@@ -705,7 +705,7 @@ argument
 to
 printProgress
 .
-xhtml
+xul
 \
 n
 "

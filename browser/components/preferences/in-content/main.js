@@ -11955,7 +11955,7 @@ content
 /
 appPicker
 .
-xhtml
+xul
 "
 null
 params

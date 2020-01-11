@@ -74,7 +74,7 @@ content
 /
 win
 .
-xhtml
+xul
 "
 ;
 const

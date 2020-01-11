@@ -72,13 +72,13 @@ passwordmgr
 /
 passwordManager
 .
-xhtml
+xul
 (
 content
 /
 passwordManager
 .
-xhtml
+xul
 )
 content
 /

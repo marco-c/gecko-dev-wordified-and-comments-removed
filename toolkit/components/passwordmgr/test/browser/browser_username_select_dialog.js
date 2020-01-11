@@ -89,7 +89,7 @@ content
 /
 selectDialog
 .
-xhtml
+xul
 "
 )
 {

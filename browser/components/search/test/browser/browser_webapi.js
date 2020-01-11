@@ -217,7 +217,7 @@ content
 /
 commonDialog
 .
-xhtml
+xul
 "
 )
 {

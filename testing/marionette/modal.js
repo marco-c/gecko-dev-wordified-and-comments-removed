@@ -112,7 +112,7 @@ content
 /
 commonDialog
 .
-xhtml
+xul
 "
 ;
 const

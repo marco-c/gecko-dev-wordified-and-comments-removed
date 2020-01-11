@@ -345,7 +345,7 @@ content
 /
 config
 .
-xhtml
+xul
 "
 0
 }

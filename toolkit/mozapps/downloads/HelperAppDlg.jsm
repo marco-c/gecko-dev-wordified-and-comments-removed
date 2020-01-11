@@ -4900,7 +4900,7 @@ content
 /
 appPicker
 .
-xhtml
+xul
 "
 null
 "

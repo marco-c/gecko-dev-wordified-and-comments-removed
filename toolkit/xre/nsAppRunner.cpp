@@ -8343,7 +8343,7 @@ profile
 /
 profileSelection
 .
-xhtml
+xul
 "
 ;
 static
@@ -10473,7 +10473,7 @@ profile
 /
 profileDowngrade
 .
-xhtml
+xul
 "
 ;
 static
