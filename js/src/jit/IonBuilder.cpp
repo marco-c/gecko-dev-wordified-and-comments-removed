@@ -10672,9 +10672,6 @@ JSOP_LINENO
 case
 JSOP_LABEL
 :
-case
-JSOP_CONDSWITCH
-:
 return
 Ok
 (
@@ -13444,6 +13441,9 @@ break
 ;
 case
 JSOP_UNUSED71
+:
+case
+JSOP_UNUSED120
 :
 case
 JSOP_UNUSED149

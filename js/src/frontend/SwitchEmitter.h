@@ -342,7 +342,7 @@ hasDefault_
 false
 ;
 unsigned
-noteIndex_
+tableSwitchNoteIndex_
 =
 0
 ;
