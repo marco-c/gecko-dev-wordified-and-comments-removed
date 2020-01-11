@@ -2134,11 +2134,13 @@ changes
 .
 *
 Run
-the
+.
+/
+wpt
 lint
-script
+as
 described
-below
+above
 .
 *
 Commit
