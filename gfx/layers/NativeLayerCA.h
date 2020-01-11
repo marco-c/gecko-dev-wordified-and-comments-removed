@@ -600,12 +600,6 @@ Maybe
 <
 SurfaceWithInvalidRegion
 >
-mReadySurface
-;
-Maybe
-<
-SurfaceWithInvalidRegion
->
 mFrontSurface
 ;
 std
@@ -704,6 +698,11 @@ false
 ;
 bool
 mMutatedClipRect
+=
+false
+;
+bool
+mMutatedFrontSurface
 =
 false
 ;
