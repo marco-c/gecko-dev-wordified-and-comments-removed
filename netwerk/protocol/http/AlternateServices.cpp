@@ -936,7 +936,7 @@ get
 gHttpHandler
 -
 >
-ConnMgr
+AltServiceCache
 (
 )
 -
@@ -1112,7 +1112,7 @@ AltSvcMapping
 gHttpHandler
 -
 >
-ConnMgr
+AltServiceCache
 (
 )
 -
@@ -1123,7 +1123,7 @@ GetStoragePtr
 gHttpHandler
 -
 >
-ConnMgr
+AltServiceCache
 (
 )
 -
@@ -1182,7 +1182,7 @@ nullptr
 gHttpHandler
 -
 >
-ConnMgr
+AltServiceCache
 (
 )
 -
@@ -7125,7 +7125,7 @@ NS_IsMainThread
 gHttpHandler
 -
 >
-ConnMgr
+AltServiceCache
 (
 )
 -

@@ -83,13 +83,6 @@ h
 #
 include
 "
-AlternateServices
-.
-h
-"
-#
-include
-"
 ARefBase
 .
 h
@@ -194,8 +187,6 @@ final
 :
 public
 nsIObserver
-public
-AltSvcCache
 {
 public
 :
