@@ -145,6 +145,11 @@ fpd
 )
 )
 ;
+TestSuffix
+(
+attrs
+)
+;
 }
 TEST
 (
