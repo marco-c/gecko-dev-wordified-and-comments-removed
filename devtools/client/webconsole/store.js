@@ -528,6 +528,11 @@ showContentMessages
 webConsoleUI
 .
 isBrowserConsole
+|
+|
+webConsoleUI
+.
+isBrowserToolboxConsole
 ?
 getBoolPref
 (
