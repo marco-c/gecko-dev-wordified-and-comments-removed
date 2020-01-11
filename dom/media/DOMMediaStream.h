@@ -584,6 +584,14 @@ aTrack
 )
 ;
 void
+RemoveTrackInternal
+(
+MediaStreamTrack
+*
+aTrack
+)
+;
+void
 AddConsumerToKeepAlive
 (
 nsISupports
