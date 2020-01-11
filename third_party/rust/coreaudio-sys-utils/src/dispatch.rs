@@ -276,11 +276,6 @@ FnOnce
 {
 let
 closure
-:
-Box
-<
-F
->
 =
 unsafe
 {
@@ -307,11 +302,6 @@ closure
 }
 let
 closure
-:
-Box
-<
-F
->
 =
 Box
 :

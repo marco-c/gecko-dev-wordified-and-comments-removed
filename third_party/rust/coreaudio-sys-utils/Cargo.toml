@@ -44,6 +44,11 @@ edition
 "
 2018
 "
+license
+=
+"
+ISC
+"
 [
 dependencies
 ]
