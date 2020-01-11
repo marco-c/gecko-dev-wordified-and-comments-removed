@@ -333,11 +333,6 @@ GraphTime
 aLastSwitchNextIterationEnd
 )
 ;
-void
-EnsureNextIteration
-(
-)
-;
 MediaTrackGraphImpl
 *
 GraphImpl
