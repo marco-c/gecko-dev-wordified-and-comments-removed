@@ -90,6 +90,13 @@ h
 #
 include
 "
+nsIChildChannel
+.
+h
+"
+#
+include
+"
 nsString
 .
 h
@@ -112,6 +119,8 @@ public
 nsIApplicationCacheChannel
 public
 nsIFormPOSTActionChannel
+public
+nsIChildChannel
 {
 public
 :
@@ -123,6 +132,7 @@ NS_DECL_NSIVIEWSOURCECHANNEL
 NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
+NS_DECL_NSICHILDCHANNEL
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
 (
 mCacheInfoChannel
@@ -285,6 +295,12 @@ nsCOMPtr
 nsIFormPOSTActionChannel
 >
 mPostChannel
+;
+nsCOMPtr
+<
+nsIChildChannel
+>
+mChildChannel
 ;
 nsCOMPtr
 <
