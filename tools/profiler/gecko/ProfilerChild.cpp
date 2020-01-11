@@ -168,6 +168,11 @@ Length
 )
 params
 .
+activeBrowsingContextID
+(
+)
+params
+.
 duration
 (
 )
@@ -276,6 +281,11 @@ Elements
 filterArray
 .
 Length
+(
+)
+params
+.
+activeBrowsingContextID
 (
 )
 params

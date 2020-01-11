@@ -115,6 +115,9 @@ interval
 uint32_t
 features
 ;
+uint64_t
+activeBrowsingContextID
+;
 nsCString
 [
 ]

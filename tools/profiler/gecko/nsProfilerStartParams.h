@@ -60,6 +60,8 @@ nsCString
 &
 &
 aFilters
+uint64_t
+aActiveBrowsingContextID
 )
 ;
 private
@@ -93,6 +95,9 @@ nsTArray
 nsCString
 >
 mFilters
+;
+uint64_t
+mActiveBrowsingContextID
 ;
 }
 ;
