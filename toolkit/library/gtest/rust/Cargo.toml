@@ -326,6 +326,17 @@ shared
 remote
 "
 ]
+fogotype
+=
+[
+"
+gkrust
+-
+shared
+/
+fogotype
+"
+]
 [
 dependencies
 ]

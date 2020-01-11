@@ -1045,6 +1045,9 @@ telemetry
 /
 fog
 "
+optional
+=
+true
 }
 unic
 -
@@ -1415,6 +1418,13 @@ remote_agent
 [
 "
 remote
+"
+]
+fogotype
+=
+[
+"
+fog
 "
 ]
 [
