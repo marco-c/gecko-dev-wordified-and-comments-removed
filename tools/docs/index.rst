@@ -130,7 +130,7 @@ Localization
 :
 maxdepth
 :
-1
+2
 {
 l10n_doc
 }

@@ -147,3 +147,4 @@ index
 migrations
 /
 index
+glossary
