@@ -773,7 +773,7 @@ ASRouterTargeting
 .
 ERROR_TYPES
 .
-OTHER_ERROR
+ATTRIBUTE_ERROR
 "
 should
 not
@@ -783,12 +783,9 @@ error
 as
 being
 an
-other
+attribute
 error
-not
-a
-mozjexl
-one
+.
 "
 )
 ;
@@ -824,10 +821,9 @@ result
 [
 2
 ]
-messages
-[
-0
-]
+"
+foo
+"
 "
 should
 call
@@ -835,7 +831,7 @@ onError
 with
 the
 invalid
-message
+attribute
 "
 )
 ;
