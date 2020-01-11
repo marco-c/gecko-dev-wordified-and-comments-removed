@@ -76,3 +76,11 @@ webkit
 reftests
 .
 py
+python3
+WebIDL
+/
+generate
+-
+setlike
+.
+py
