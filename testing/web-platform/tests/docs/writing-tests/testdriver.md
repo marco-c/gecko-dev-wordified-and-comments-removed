@@ -274,7 +274,7 @@ pause
 It
 returns
 a
-Promise
+promise
 that
 resolves
 after
@@ -381,7 +381,7 @@ and
 also
 returns
 a
-Promise
+promise
 which
 should
 be
@@ -420,7 +420,7 @@ in
 the
 sequence
 and
-return
+returning
 the
 same
 object
@@ -589,7 +589,7 @@ intent
 action
 )
 *
-intent
+_intent_
 :
 a
 string
@@ -600,7 +600,7 @@ for
 this
 invocation
 *
-action
+_action_
 :
 an
 optional
@@ -630,7 +630,6 @@ example
 sandboxed
 iframes
 with
-the
 allow
 -
 top
@@ -656,7 +655,7 @@ these
 circumstances
 .
 The
-intent
+_intent_
 string
 is
 presented
@@ -686,7 +685,7 @@ result
 of
 invoking
 the
-action
+_action_
 function
 .
 If
@@ -754,7 +753,7 @@ click
 element
 )
 *
-element
+_element_
 :
 a
 DOM
@@ -791,7 +790,7 @@ it
 It
 returns
 a
-Promise
+promise
 that
 resolves
 after
@@ -869,14 +868,14 @@ element
 keys
 )
 *
-element
+_element_
 :
 a
 DOM
 Element
 object
 *
-keys
+_keys_
 :
 string
 to
@@ -889,10 +888,10 @@ function
 causes
 the
 string
-keys
+_keys_
 to
 be
-send
+sent
 to
 the
 target
@@ -917,7 +916,7 @@ keys
 It
 returns
 a
-Promise
+promise
 that
 resolves
 after
@@ -925,7 +924,7 @@ the
 keys
 have
 been
-send
+sent
 or
 rejects
 if
@@ -944,13 +943,12 @@ if
 the
 element
 that
-'
-s
+the
 keys
 need
 to
 be
-send
+sent
 to
 does
 not
@@ -1199,7 +1197,7 @@ _state_
 It
 returns
 a
-Promise
+promise
 that
 resolves
 after
