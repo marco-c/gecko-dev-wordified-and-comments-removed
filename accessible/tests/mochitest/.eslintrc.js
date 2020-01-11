@@ -37,11 +37,6 @@ files
 :
 [
 "
-*
-.
-xhtml
-"
-"
 attributes
 /
 test_listbox
