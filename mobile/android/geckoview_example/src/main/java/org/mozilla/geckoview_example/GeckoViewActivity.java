@@ -601,7 +601,7 @@ LruCache
 <
 WebExtension
 .
-ActionIcon
+Icon
 Bitmap
 >
 mBitmapCache

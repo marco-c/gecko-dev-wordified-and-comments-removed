@@ -1750,7 +1750,7 @@ isTopLevel
 public
 static
 class
-ActionIcon
+Icon
 {
 private
 Map
@@ -1877,7 +1877,7 @@ pixelSize
 )
 ;
 }
-ActionIcon
+Icon
 (
 final
 GeckoBundle
@@ -1985,7 +1985,7 @@ key
 }
 }
 protected
-ActionIcon
+Icon
 (
 )
 {
@@ -2022,7 +2022,7 @@ if
 (
 o
 instanceof
-ActionIcon
+Icon
 )
 )
 {
@@ -2037,7 +2037,7 @@ equals
 (
 (
 (
-ActionIcon
+Icon
 )
 o
 )
@@ -2077,7 +2077,7 @@ title
 final
 public
 Nullable
-ActionIcon
+Icon
 icon
 ;
 final
@@ -2251,7 +2251,7 @@ icon
 icon
 =
 new
-ActionIcon
+Icon
 (
 bundle
 .
