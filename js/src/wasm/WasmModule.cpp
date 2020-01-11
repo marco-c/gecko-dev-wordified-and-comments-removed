@@ -2608,16 +2608,7 @@ const
 bool
 eagerBoundsCheck
 =
-cx
--
->
-options
-(
-)
-.
-wasmCranelift
-(
-)
+false
 ;
 #
 else
