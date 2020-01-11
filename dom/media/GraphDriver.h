@@ -209,14 +209,6 @@ GraphDriver
 ;
 virtual
 void
-WaitForNextIteration
-(
-)
-=
-0
-;
-virtual
-void
 WakeUp
 (
 )
@@ -462,7 +454,6 @@ void
 WaitForNextIteration
 (
 )
-override
 ;
 void
 WakeUp
@@ -822,12 +813,6 @@ AudioCallbackDriver
 ;
 void
 Start
-(
-)
-override
-;
-void
-WaitForNextIteration
 (
 )
 override

@@ -1886,6 +1886,10 @@ GetMonitor
 )
 )
 ;
+WaitForNextIteration
+(
+)
+;
 if
 (
 NextDriver
@@ -4310,15 +4314,6 @@ mAddedMixer
 true
 ;
 }
-}
-void
-AudioCallbackDriver
-:
-:
-WaitForNextIteration
-(
-)
-{
 }
 void
 AudioCallbackDriver
