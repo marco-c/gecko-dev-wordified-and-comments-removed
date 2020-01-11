@@ -103,6 +103,9 @@ AString
 aDescription
 in
 nsIFile
+aIconFile
+in
+nsIFile
 aTarget
 )
 ;
