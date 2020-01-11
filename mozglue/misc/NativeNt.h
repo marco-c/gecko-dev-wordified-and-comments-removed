@@ -2534,7 +2534,7 @@ true
 ;
 }
 PIMAGE_IMPORT_DESCRIPTOR
-GetIATForModule
+GetImportDescriptor
 (
 const
 char
@@ -2640,7 +2640,7 @@ aModuleNameASCII
 PIMAGE_IMPORT_DESCRIPTOR
 impDesc
 =
-GetIATForModule
+GetImportDescriptor
 (
 aModuleNameASCII
 )
