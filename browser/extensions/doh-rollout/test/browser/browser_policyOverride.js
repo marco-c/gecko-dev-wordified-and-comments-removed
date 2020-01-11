@@ -37,6 +37,11 @@ testPolicyOverride
 )
 {
 await
+waitForBalrogMigration
+(
+)
+;
+await
 EnterprisePolicyTesting
 .
 setupPolicyEngineWithJson

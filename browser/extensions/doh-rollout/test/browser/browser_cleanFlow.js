@@ -11,6 +11,11 @@ testCleanFlow
 (
 )
 {
+await
+waitForBalrogMigration
+(
+)
+;
 setPassingHeuristics
 (
 )

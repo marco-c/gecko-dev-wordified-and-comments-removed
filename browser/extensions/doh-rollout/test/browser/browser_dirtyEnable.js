@@ -11,6 +11,11 @@ testDirtyEnable
 (
 )
 {
+await
+waitForBalrogMigration
+(
+)
+;
 setFailingHeuristics
 (
 )
