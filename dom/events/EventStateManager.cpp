@@ -420,6 +420,13 @@ h
 #
 include
 "
+nsITextControlElement
+.
+h
+"
+#
+include
+"
 nsIWidget
 .
 h

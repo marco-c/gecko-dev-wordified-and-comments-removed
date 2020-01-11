@@ -79,6 +79,9 @@ nsTextFragment
 class
 nsIFrame
 ;
+class
+nsITextControlElement
+;
 namespace
 mozilla
 {

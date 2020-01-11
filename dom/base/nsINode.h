@@ -1509,17 +1509,6 @@ NodeIsElement
 )
 ;
 }
-virtual
-bool
-IsTextControlElement
-(
-)
-const
-{
-return
-false
-;
-}
 inline
 mozilla
 :

@@ -159,6 +159,13 @@ h
 #
 include
 "
+nsITextControlElement
+.
+h
+"
+#
+include
+"
 nsIMathMLFrame
 .
 h

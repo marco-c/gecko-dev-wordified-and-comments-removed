@@ -218,7 +218,6 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 HTMLTextFieldAccessible
 HyperTextAccessibleWrap
 )
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 already_AddRefed
 <

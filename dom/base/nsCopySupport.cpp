@@ -3733,10 +3733,8 @@ FindFirstNonChromeOnlyAccessContent
 }
 if
 (
-RefPtr
-<
 HTMLInputElement
->
+*
 inputElement
 =
 HTMLInputElement
