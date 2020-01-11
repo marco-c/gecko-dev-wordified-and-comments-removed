@@ -19,8 +19,6 @@ argparse
 import
 asyncio
 import
-sys
-import
 os
 import
 shutil
@@ -1629,6 +1627,8 @@ has_code
         
 cmd
 =
+(
+            
 f
 "
 {
@@ -1645,6 +1645,10 @@ id
 {
 code_id
 }
+"
+            
+f
+"
 -
 -
 store
@@ -1666,12 +1670,16 @@ sym_srv
 verbose
 error
 "
+        
+)
     
 else
 :
         
 cmd
 =
+(
+            
 f
 "
 {
@@ -1688,6 +1696,10 @@ id
 {
 debug_id
 }
+"
+            
+f
+"
 -
 -
 store
@@ -1709,6 +1721,8 @@ sym_srv
 verbose
 error
 "
+        
+)
     
 err
 =
@@ -3038,6 +3052,10 @@ blacklist
 }
 in
 blacklist
+"
+        
+f
+"
 {
 stats_skipped
 [
@@ -3072,6 +3090,10 @@ dump_error
 processed
 with
 errors
+"
+        
+f
+"
 {
 stats_dump
 [

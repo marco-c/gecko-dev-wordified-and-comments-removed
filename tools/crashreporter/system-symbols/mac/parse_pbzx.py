@@ -1,5 +1,6 @@
 import
 struct
+import
 sys
 def
 seekread
@@ -19,8 +20,8 @@ True
     
 if
 offset
-!
-=
+is
+not
 None
 :
         
@@ -442,6 +443,7 @@ close
 )
     
 except
+BaseException
 :
         
 pass

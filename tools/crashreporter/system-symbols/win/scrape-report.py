@@ -1,6 +1,8 @@
 import
 csv
 import
+json
+import
 logging
 import
 os
@@ -120,6 +122,8 @@ file_or_crash
         
 url
 =
+(
+            
 "
 https
 :
@@ -137,6 +141,9 @@ api
 /
 ProcessedCrash
 /
+"
+            
+"
 ?
 crash_id
 =
@@ -151,10 +158,10 @@ processed
 .
 format
 (
-            
 crash_id
 =
 crash_id
+)
         
 )
         
