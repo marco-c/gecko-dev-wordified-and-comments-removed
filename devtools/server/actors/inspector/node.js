@@ -2447,7 +2447,7 @@ attributeNamespace
 {
 rawNode
 .
-setAttributeNS
+setAttributeDevtoolsNS
 (
 change
 .
@@ -2465,7 +2465,7 @@ else
 {
 rawNode
 .
-setAttribute
+setAttributeDevtools
 (
 change
 .
