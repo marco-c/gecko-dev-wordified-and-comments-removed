@@ -3123,6 +3123,15 @@ tramp
 =
 aTramp
 ;
+if
+(
+!
+tramp
+)
+{
+return
+;
+}
 tramp
 .
 WriteEncodedPointer
