@@ -503,6 +503,7 @@ JOF_DETECTING
 JOF_IC
 )
 \
+\
 MACRO
 (
 JSOP_LT
@@ -725,6 +726,7 @@ JOF_BYTE
 |
 JOF_IC
 )
+\
 \
 MACRO
 (
