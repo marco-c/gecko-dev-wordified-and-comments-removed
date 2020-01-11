@@ -123,8 +123,6 @@ CPOW
 await
 hud
 .
-ui
-.
 evaluateJSAsync
 (
 Services
@@ -294,8 +292,6 @@ result
 await
 hud
 .
-ui
-.
 evaluateJSAsync
 (
 "
@@ -319,8 +315,6 @@ Cleanup
 ;
 await
 hud
-.
-ui
 .
 evaluateJSAsync
 (

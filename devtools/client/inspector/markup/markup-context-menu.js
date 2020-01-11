@@ -1511,8 +1511,6 @@ res
 await
 hud
 .
-ui
-.
 evaluateJSAsync
 (
 evalString
