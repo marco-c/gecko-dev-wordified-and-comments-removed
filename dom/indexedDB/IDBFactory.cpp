@@ -2120,7 +2120,7 @@ SendIncrementLoggingRequestSerialNumber
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2170,7 +2170,7 @@ aRv
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2316,7 +2316,7 @@ aRv
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2535,7 +2535,7 @@ second
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2629,7 +2629,7 @@ aRv
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2718,7 +2718,7 @@ aRv
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -2810,7 +2810,7 @@ aRv
 )
 ;
 }
-already_AddRefed
+RefPtr
 <
 IDBOpenDBRequest
 >
@@ -3804,10 +3804,6 @@ nullptr
 }
 return
 request
-.
-forget
-(
-)
 ;
 }
 nsresult
