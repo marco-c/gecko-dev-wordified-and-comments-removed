@@ -1972,7 +1972,11 @@ nullptr
 ;
 }
 }
-RootedObject
+Rooted
+<
+PromiseObject
+*
+>
 promise
 (
 cx

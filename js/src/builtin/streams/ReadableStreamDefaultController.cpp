@@ -2021,7 +2021,7 @@ readResult
 }
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 pendingPromise

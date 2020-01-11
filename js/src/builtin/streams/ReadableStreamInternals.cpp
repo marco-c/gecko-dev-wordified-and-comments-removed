@@ -329,7 +329,10 @@ JS
 Value
 ;
 MOZ_MUST_USE
-JSObject
+js
+:
+:
+PromiseObject
 *
 js
 :
@@ -424,7 +427,7 @@ readable
 ;
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 promise
