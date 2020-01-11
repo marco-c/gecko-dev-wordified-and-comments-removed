@@ -48,6 +48,14 @@ binding_detail
 struct
 FakeString
 {
+using
+char_type
+=
+nsString
+:
+:
+char_type
+;
 FakeString
 (
 )
@@ -257,9 +265,6 @@ DataFlags
 VOIDED
 ;
 }
-nsString
-:
-:
 char_type
 *
 BeginWriting
@@ -302,9 +307,6 @@ mozilla
 Span
 <
 const
-nsString
-:
-:
 char_type
 >
 (
@@ -335,9 +337,6 @@ mozilla
 :
 Span
 <
-nsString
-:
-:
 char_type
 >
 (
@@ -420,9 +419,6 @@ aLength
 *
 sizeof
 (
-nsString
-:
-:
 char_type
 )
 )
@@ -525,9 +521,6 @@ mData
 ;
 }
 const
-nsString
-:
-:
 char_type
 *
 oldChars
@@ -611,9 +604,6 @@ Length
 *
 sizeof
 (
-nsString
-:
-:
 char_type
 )
 )
@@ -638,9 +628,6 @@ InitData
 (
 static_cast
 <
-nsString
-:
-:
 char_type
 *
 >
@@ -680,9 +667,6 @@ void
 AssignLiteral
 (
 const
-nsString
-:
-:
 char_type
 (
 &
@@ -706,9 +690,6 @@ void
 AssignLiteral
 (
 const
-nsString
-:
-:
 char_type
 *
 aData
@@ -795,9 +776,6 @@ this
 ;
 }
 MOZ_INIT_OUTSIDE_CTOR
-nsString
-:
-:
 char_type
 *
 mData
@@ -828,9 +806,6 @@ sInlineCapacity
 =
 64
 ;
-nsString
-:
-:
 char_type
 mInlineStorage
 [
@@ -873,9 +848,6 @@ void
 InitData
 (
 const
-nsString
-:
-:
 char_type
 *
 aData
@@ -910,9 +882,6 @@ mData
 =
 const_cast
 <
-nsString
-:
-:
 char_type
 *
 >
