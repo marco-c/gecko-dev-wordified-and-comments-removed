@@ -106,6 +106,12 @@ SourceSurfaceSkia
 (
 )
 {
+MOZ_RELEASE_ASSERT
+(
+!
+mIsMapped
+)
+;
 }
 IntSize
 SourceSurfaceSkia
