@@ -465,6 +465,13 @@ listening
 return
 ;
 }
+Preferences
+.
+set
+(
+RecommendedPreferences
+)
+;
 this
 .
 server
@@ -673,13 +680,6 @@ e
 )
 ;
 }
-Preferences
-.
-set
-(
-RecommendedPreferences
-)
-;
 }
 async
 close
