@@ -2401,6 +2401,20 @@ tests
 "
             
 "
+crashtest
+"
+:
+"
+web
+-
+platform
+-
+tests
+-
+crashtests
+"
+            
+"
 reftest
 "
 :
