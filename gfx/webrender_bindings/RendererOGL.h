@@ -220,6 +220,11 @@ GetLastCompletedFrameId
 (
 )
 ;
+RenderedFrameId
+UpdateFrameId
+(
+)
+;
 void
 SetProfilerEnabled
 (

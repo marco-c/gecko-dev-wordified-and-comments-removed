@@ -165,6 +165,12 @@ GetLastCompletedFrameId
 )
 final
 ;
+RenderedFrameId
+UpdateFrameId
+(
+)
+final
+;
 void
 Pause
 (
