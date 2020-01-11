@@ -276,6 +276,10 @@ webgl2
 -
 ext
 -
+mochitest
+-
+webgpu
+-
 reftest
 -
 reftest
@@ -2609,6 +2613,10 @@ webgl1
 -
 ext
 -
+mochitest
+-
+webgpu
+-
 reftest
 -
 reftest
@@ -2730,6 +2738,10 @@ webgl2
 -
 core
 -
+mochitest
+-
+webgpu
+-
 reftest
 linux
 -
@@ -2787,6 +2799,10 @@ mochitest
 webgl2
 -
 core
+-
+mochitest
+-
+webgpu
 -
 reftest
 ccov
@@ -2908,6 +2924,10 @@ webgl2
 -
 ext
 -
+mochitest
+-
+webgpu
+-
 reftest
 -
 reftest
@@ -2995,6 +3015,10 @@ mochitest
 webgl2
 -
 ext
+-
+mochitest
+-
+webgpu
 -
 reftest
 -
@@ -3087,6 +3111,10 @@ mochitest
 webgl2
 -
 ext
+-
+mochitest
+-
+webgpu
 -
 reftest
 -
@@ -3315,6 +3343,10 @@ mochitest
 webgl2
 -
 ext
+-
+mochitest
+-
+webgpu
 -
 reftest
 -
