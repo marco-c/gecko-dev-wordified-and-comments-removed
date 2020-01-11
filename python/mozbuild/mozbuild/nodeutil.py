@@ -49,11 +49,11 @@ NPM_MIN_VERSION
 StrictVersion
 (
 "
-5
-.
 6
 .
-0
+13
+.
+4
 "
 )
 def
