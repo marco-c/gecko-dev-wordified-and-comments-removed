@@ -74,16 +74,6 @@ aFeatureName
 )
 ;
 static
-bool
-IsExperimentalFeature
-(
-const
-nsAString
-&
-aFeatureName
-)
-;
-static
 void
 ForEachFeature
 (
