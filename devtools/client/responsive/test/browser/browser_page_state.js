@@ -376,13 +376,13 @@ tab
 color
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 async
 function
 (

@@ -37,13 +37,13 @@ remote
 )
 ;
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 async
 function
 (

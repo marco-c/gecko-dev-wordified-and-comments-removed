@@ -304,12 +304,11 @@ content
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 {
 page
 :
@@ -322,7 +321,6 @@ toString
 (
 )
 }
-]
 async
 obj
 =

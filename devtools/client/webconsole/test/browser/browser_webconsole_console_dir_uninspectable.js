@@ -158,16 +158,14 @@ hud
 SECOND_LOG_MESSAGE
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 SECOND_LOG_MESSAGE
-]
 string
 =
 >

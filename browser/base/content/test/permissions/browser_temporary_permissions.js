@@ -366,16 +366,14 @@ r
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 uri
 .
 host
-]
 async
 function
 (

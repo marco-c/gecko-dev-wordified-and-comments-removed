@@ -118,16 +118,14 @@ true
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 tab
 .
 linkedBrowser
-[
 openedUriString
-]
 uri
 =
 >

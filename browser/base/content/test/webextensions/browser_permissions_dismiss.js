@@ -149,16 +149,14 @@ listener
 }
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 INSTALL_XPI
-]
 function
 (
 url

@@ -170,14 +170,12 @@ query
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 query
-]
 async
 function
 focus

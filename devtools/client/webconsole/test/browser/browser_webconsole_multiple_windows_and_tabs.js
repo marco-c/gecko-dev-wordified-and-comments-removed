@@ -263,14 +263,12 @@ message
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 message
-]
 function
 (
 msg

@@ -2177,12 +2177,11 @@ devices
 )
 ;
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 aBrowser
-[
 {
 aRequestAudio
 aRequestVideo
@@ -2190,7 +2189,6 @@ aFrameId
 aType
 aBadDevice
 }
-]
 async
 function
 (
@@ -2330,16 +2328,14 @@ stream
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 aFrameId
-]
 async
 function
 (
@@ -2438,6 +2434,7 @@ gBrowser
 .
 selectedBrowser
 null
+"
 (
 )
 =
@@ -2449,6 +2446,7 @@ location
 reload
 (
 )
+"
 )
 ;
 await

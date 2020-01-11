@@ -1027,7 +1027,7 @@ sidebar_ready
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -1047,8 +1047,7 @@ panels
 browser
 "
 )
-[
-]
+null
 (
 )
 =

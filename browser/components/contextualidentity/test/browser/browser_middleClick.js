@@ -114,14 +114,12 @@ HTMLAnchorElement
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 URI
-]
 function
 (
 uri

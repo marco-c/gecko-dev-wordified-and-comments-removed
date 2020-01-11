@@ -100,16 +100,14 @@ name
 )
 {
 yield
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 name
-]
 innerName
 =
 >

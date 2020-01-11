@@ -117,13 +117,12 @@ testDone
 .
 promise
 =
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

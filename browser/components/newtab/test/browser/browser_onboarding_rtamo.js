@@ -469,13 +469,13 @@ tab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+{
+}
 async
 (
 )

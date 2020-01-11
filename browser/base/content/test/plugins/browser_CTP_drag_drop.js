@@ -636,7 +636,7 @@ activated
 )
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -645,8 +645,8 @@ gNewWindow
 gBrowser
 .
 selectedBrowser
-[
-]
+{
+}
 async
 function
 (

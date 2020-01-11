@@ -183,15 +183,14 @@ HTMLAnchorElement
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )

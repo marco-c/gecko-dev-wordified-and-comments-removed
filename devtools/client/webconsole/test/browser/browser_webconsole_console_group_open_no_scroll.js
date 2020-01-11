@@ -314,15 +314,14 @@ message
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )

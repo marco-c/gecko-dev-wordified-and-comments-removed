@@ -6,14 +6,12 @@ aVisible
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 aVisible
-]
 function
 (
 aVisible

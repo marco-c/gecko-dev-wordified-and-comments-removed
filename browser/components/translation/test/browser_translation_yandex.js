@@ -220,13 +220,12 @@ tab
 linkedBrowser
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
-]
+null
 async
 function
 (

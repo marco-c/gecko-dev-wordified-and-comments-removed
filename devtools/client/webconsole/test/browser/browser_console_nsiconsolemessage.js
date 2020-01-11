@@ -115,16 +115,14 @@ hud
 text
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
 text
-]
 function
 (
 msg

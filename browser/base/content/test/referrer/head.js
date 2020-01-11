@@ -460,7 +460,7 @@ aWindow
 )
 {
 return
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -469,8 +469,8 @@ aWindow
 gBrowser
 .
 selectedBrowser
-[
-]
+{
+}
 function
 (
 )

@@ -231,15 +231,14 @@ source
 "
 )
 ;
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )

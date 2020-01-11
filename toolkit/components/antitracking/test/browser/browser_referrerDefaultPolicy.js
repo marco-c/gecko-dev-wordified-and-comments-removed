@@ -187,16 +187,14 @@ let
 referrer
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 b
-[
 {
 rp
 }
-]
 async
 function
 (

@@ -120,15 +120,14 @@ test_content_process
 )
 {
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 function
 (
 )

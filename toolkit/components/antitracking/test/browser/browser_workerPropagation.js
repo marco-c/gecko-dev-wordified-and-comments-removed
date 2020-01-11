@@ -211,14 +211,12 @@ html
 "
 ;
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
 browser
-[
 page
-]
 async
 function
 (

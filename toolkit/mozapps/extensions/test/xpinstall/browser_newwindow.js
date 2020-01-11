@@ -252,7 +252,7 @@ const
 results
 =
 await
-SpecialPowers
+ContentTask
 .
 spawn
 (
@@ -261,8 +261,7 @@ win
 gBrowser
 .
 selectedBrowser
-[
-]
+null
 (
 )
 =
