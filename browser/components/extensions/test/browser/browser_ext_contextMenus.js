@@ -2392,7 +2392,6 @@ selectedBrowser
 [
 ]
 function
-*
 (
 arg
 )

@@ -244,6 +244,7 @@ spawn
 browser
 [
 ]
+async
 function
 (
 )
@@ -310,7 +311,7 @@ src
 =
 imgloc
 ;
-return
+await
 new
 Promise
 (

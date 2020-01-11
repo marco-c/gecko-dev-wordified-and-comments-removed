@@ -222,7 +222,7 @@ appendChild
 frame
 )
 ;
-return
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -401,7 +401,7 @@ iframe
 ]
 )
 ;
-return
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -506,7 +506,7 @@ appendChild
 frame
 )
 ;
-return
+await
 ContentTaskUtils
 .
 waitForEvent
@@ -673,6 +673,8 @@ count
 =
 0
 ;
+content
+.
 SessionStoreUtils
 .
 forEachNonDynamicChildFrame
@@ -721,6 +723,8 @@ indexes
 [
 ]
 ;
+content
+.
 SessionStoreUtils
 .
 forEachNonDynamicChildFrame
