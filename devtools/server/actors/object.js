@@ -746,6 +746,7 @@ return
 const
 {
 dbgDesc
+desc
 }
 =
 this
@@ -773,7 +774,17 @@ obj
 defineProperty
 (
 property
+{
+.
+.
+.
 dbgDesc
+value
+:
+desc
+.
+value
+}
 )
 ;
 this
