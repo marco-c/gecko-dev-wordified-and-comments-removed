@@ -583,7 +583,6 @@ PPROMPTSVC
 showPrintProgressDialog
 (
 window
-null
 printSettings
 this
 .

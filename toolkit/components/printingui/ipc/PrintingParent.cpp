@@ -283,7 +283,6 @@ ShowPrintProgressDialog
 (
 parentWin
 nullptr
-nullptr
 observer
 isForPrinting
 getter_AddRefs

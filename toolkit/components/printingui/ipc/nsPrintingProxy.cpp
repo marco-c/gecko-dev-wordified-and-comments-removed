@@ -572,9 +572,6 @@ ShowPrintProgressDialog
 mozIDOMWindowProxy
 *
 parent
-nsIWebBrowserPrint
-*
-webBrowserPrint
 nsIPrintSettings
 *
 printSettings

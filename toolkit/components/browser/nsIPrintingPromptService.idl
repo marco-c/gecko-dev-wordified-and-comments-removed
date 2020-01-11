@@ -811,16 +811,6 @@ parented
 to
 *
 param
-webBrowserPrint
--
-represents
-the
-document
-to
-be
-printed
-*
-param
 printSettings
 -
 PrintSettings
@@ -934,9 +924,6 @@ showPrintProgressDialog
 in
 mozIDOMWindowProxy
 parent
-in
-nsIWebBrowserPrint
-webBrowserPrint
 in
 nsIPrintSettings
 printSettings
