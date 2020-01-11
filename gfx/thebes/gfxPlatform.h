@@ -1857,11 +1857,6 @@ ReInitFrameRate
 (
 )
 ;
-void
-UpdateAllowSacrificingSubpixelAA
-(
-)
-;
 virtual
 bool
 SupportsApzWheelInput

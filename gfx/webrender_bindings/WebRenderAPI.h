@@ -788,13 +788,6 @@ aKey
 )
 ;
 void
-UpdateQualitySettings
-(
-bool
-aAllowSacrificingSubpixelAA
-)
-;
-void
 Notify
 (
 wr
@@ -1382,6 +1375,12 @@ layers
 :
 SyncHandle
 mSyncHandle
+;
+wr
+:
+:
+DebugFlags
+mDebugFlags
 ;
 wr
 :

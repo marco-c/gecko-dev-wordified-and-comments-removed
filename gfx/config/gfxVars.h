@@ -359,13 +359,6 @@ UseGLSwizzle
 bool
 true
 )
-\
-_
-(
-AllowSacrificingSubpixelAA
-bool
-false
-)
 class
 gfxVars
 final
