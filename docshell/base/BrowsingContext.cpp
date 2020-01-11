@@ -3470,6 +3470,7 @@ manager
 new
 SessionStorageManager
 (
+this
 )
 ;
 }
