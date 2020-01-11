@@ -3849,12 +3849,6 @@ false
 ;
 #
 endif
-sandbox
-.
-xbl
-=
-false
-;
 let
 retainedDisplayListsEnabled
 =
