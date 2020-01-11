@@ -165,6 +165,11 @@ manifest
 PKG_SRCPACK_BASENAME
 :
 source
+attributes
+:
+shippable
+:
+true
 run
 :
 using

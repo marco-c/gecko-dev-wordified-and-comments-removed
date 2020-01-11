@@ -82,6 +82,13 @@ attributes
 :
 enable
 -
+build
+-
+signing
+:
+true
+enable
+-
 full
 -
 crashsymbols
@@ -1952,6 +1959,13 @@ linux
 opt
 attributes
 :
+enable
+-
+build
+-
+signing
+:
+true
 enable
 -
 full

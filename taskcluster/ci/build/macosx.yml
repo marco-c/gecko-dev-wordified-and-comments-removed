@@ -299,6 +299,13 @@ attributes
 :
 enable
 -
+build
+-
+signing
+:
+true
+enable
+-
 full
 -
 crashsymbols
