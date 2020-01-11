@@ -128,6 +128,8 @@ attributes
 :
 enable
 -
+full
+-
 crashsymbols
 :
 true
