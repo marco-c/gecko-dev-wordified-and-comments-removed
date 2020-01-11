@@ -156,13 +156,13 @@ extensions
 /
 pluginPrefs
 .
-xul
+xhtml
 (
 content
 /
 pluginPrefs
 .
-xul
+xhtml
 )
 content
 /
