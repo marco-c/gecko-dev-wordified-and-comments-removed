@@ -810,15 +810,6 @@ MDefinition
 Opcode
 :
 :
-SetTypedObjectOffset
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 ArrayPopShift
 :
 case
