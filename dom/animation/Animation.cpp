@@ -1504,6 +1504,10 @@ ApplyPendingPlaybackRate
 (
 )
 ;
+UpdateRelevance
+(
+)
+;
 if
 (
 IsRelevant
