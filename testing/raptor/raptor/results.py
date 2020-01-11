@@ -3892,6 +3892,24 @@ video_jobs
 )
 )
             
+if
+self
+.
+browser_version
+is
+None
+:
+                
+self
+.
+browser_version
+=
+"
+n
+/
+a
+"
+            
 app_data
 =
 {
