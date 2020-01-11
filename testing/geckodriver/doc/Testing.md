@@ -196,7 +196,7 @@ helpful
 tip
 is
 to
-surpress
+suppress
 the
 window
 whilst

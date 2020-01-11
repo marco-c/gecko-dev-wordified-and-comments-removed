@@ -353,7 +353,7 @@ release
 If
 they
 have
-receieved
+received
 no
 changes
 you
@@ -632,7 +632,7 @@ Removed
 .
 If
 the
-targetted
+targeted
 Firefox
 or
 Selenium
@@ -963,7 +963,7 @@ idea
 to
 familiarise
 yourself
-wih
+with
 that
 before
 deciding

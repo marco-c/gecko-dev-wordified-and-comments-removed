@@ -686,7 +686,7 @@ verify
 your
 patches
 are
-layed
+laid
 out
 in
 [

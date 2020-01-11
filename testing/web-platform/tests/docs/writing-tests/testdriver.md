@@ -798,7 +798,7 @@ after
 the
 click
 has
-occured
+occurred
 or
 rejects
 if

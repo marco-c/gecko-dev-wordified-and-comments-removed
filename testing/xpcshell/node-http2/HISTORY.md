@@ -2734,7 +2734,7 @@ ready
 Addition
 of
 an
-exmaple
+example
 server
 and
 client

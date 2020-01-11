@@ -447,7 +447,7 @@ module
 has
 not
 been
-initalized
+initialized
 (
 the
 init

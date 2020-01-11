@@ -39,7 +39,7 @@ to
 ensure
 a
 better
-reliablity
+reliability
 due
 to
 a
@@ -545,7 +545,7 @@ updated
 the
 steps
 as
-layed
+laid
 out
 below
 have

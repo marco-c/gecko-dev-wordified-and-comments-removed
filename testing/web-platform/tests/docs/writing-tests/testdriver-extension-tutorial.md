@@ -929,7 +929,7 @@ resolved
 when
 the
 window
-recieves
+receives
 a
 completion
 message
@@ -956,7 +956,7 @@ resolved
 when
 the
 window
-recieves
+receives
 a
 completion
 message

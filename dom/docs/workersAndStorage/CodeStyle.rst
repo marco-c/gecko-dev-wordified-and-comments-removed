@@ -2605,7 +2605,7 @@ The
 guidelines
 try
 to
-accomodate
+accommodate
 for
 these
 as
@@ -2657,7 +2657,7 @@ evolve
 the
 rules
 to
-accomodate
+accommodate
 for
 that
 .

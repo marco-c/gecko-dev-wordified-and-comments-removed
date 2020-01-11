@@ -17503,7 +17503,7 @@ in
 literals
 to
 ease
-comparision
+comparison
 <
 span
 class
@@ -29087,7 +29087,7 @@ in
 literals
 to
 ease
-comparision
+comparison
 <
 span
 class

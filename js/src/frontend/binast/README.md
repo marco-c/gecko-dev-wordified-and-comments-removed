@@ -33,7 +33,7 @@ js
 /
 src
 /
-frontent
+frontend
 /
 BinASTToken
 .

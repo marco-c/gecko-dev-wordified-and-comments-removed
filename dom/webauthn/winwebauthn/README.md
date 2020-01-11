@@ -12,7 +12,7 @@ Windows
 Hello
 and
 external
-secruity
+security
 keys
 as
 part

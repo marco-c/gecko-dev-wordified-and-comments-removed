@@ -640,7 +640,7 @@ the
 system
 '
 s
-excution
+execution
 policy
 is
 set

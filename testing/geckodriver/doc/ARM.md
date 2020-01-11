@@ -157,7 +157,7 @@ armhf
 cross
 3
 .
-Createa
+Create
 a
 new
 shell

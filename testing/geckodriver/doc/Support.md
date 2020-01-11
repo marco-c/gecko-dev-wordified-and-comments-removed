@@ -804,7 +804,7 @@ section
 under
 [
 Firefox
-Capabilties
+Capabilities
 ]
 (
 Capabilities

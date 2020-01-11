@@ -1323,7 +1323,7 @@ cannot
 be
 evaluated
 to
-retreive
+retrieve
 their
 real
 value

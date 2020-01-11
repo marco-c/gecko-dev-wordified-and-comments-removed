@@ -336,7 +336,7 @@ browser
 applied
 that
 value
-immedately
+immediately
 and
 no
 transition

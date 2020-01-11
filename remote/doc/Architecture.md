@@ -549,7 +549,7 @@ registered
 as
 a
 HTTP
-enpoint
+endpoint
 via
 server
 /
@@ -1445,7 +1445,7 @@ compute
 this
 ID
 and
-instanciate
+instantiate
 a
 new
 session

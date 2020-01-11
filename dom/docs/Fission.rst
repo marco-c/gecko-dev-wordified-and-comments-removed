@@ -3686,7 +3686,7 @@ process
 browser
 code
 to
-accomodate
+accommodate
 the
 new
 JSWindowActor

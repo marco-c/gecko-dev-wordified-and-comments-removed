@@ -95,7 +95,7 @@ mimeType
 the
 result
 of
-extracing
+extracting
 a
 MIME
 type

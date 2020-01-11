@@ -182,7 +182,7 @@ Bar
 It
 is
 often
-interchangable
+interchangeable
 with
 "
 button

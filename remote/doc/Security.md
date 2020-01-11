@@ -732,7 +732,7 @@ an
 attacker
 has
 shell
-acccess
+access
 to
 the
 user

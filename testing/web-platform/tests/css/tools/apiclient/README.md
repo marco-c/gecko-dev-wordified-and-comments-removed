@@ -26,7 +26,7 @@ Python
 .
 7
 .
-Suports
+Supports
 json
 home
 pages
@@ -265,7 +265,7 @@ set
 the
 default
 version
-identifer
+identifier
 will
 be
 used

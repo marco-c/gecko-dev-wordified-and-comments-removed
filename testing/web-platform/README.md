@@ -2154,7 +2154,7 @@ nonstandard
 configuration
 is
 used
-explictly
+explicitly
 in
 the
 conditional

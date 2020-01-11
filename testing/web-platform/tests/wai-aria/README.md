@@ -101,7 +101,7 @@ for
 Assistive
 Technologies
 to
-intepret
+interpret
 and
 present
 content

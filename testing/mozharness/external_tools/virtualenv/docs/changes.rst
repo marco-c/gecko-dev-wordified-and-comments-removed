@@ -1149,7 +1149,7 @@ when
 creating
 a
 new
-virutalenv
+virtualenv
 .
 This
 can

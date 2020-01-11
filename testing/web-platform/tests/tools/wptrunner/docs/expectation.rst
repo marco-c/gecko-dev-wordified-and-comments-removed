@@ -1805,7 +1805,7 @@ any
 comparison
 involving
 that
-specifc
+specific
 pair
 of
 URLs

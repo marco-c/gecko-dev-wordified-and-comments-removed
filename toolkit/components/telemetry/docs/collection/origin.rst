@@ -1197,7 +1197,9 @@ know
 these
 two
 "
-whats
+what
+'
+s
 "
 of
 information
@@ -1225,7 +1227,9 @@ exempt
 (
 the
 "
-whats
+what
+'
+s
 "
 )
 and

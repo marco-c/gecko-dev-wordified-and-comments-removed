@@ -3598,7 +3598,7 @@ product
 by
 using
 the
-priveleged
+privileged
 browser
 .
 telemetry

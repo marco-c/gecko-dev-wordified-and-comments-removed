@@ -1177,7 +1177,7 @@ strictFileInteractability
 capability
 The
 new
-capabilitiy
+capability
 indicates
 if
 strict
@@ -4791,7 +4791,7 @@ for
 Firefox
 has
 stopped
-wroking
+working
 problems
 [
 many
@@ -4881,7 +4881,7 @@ unconditionally
 and
 cannot
 be
-overriden
+overridden
 -
 Remove
 default
@@ -4915,7 +4915,7 @@ stream
 exception
 that
 sometimes
-occured
+occurred
 when
 trying
 to
@@ -5206,7 +5206,7 @@ in
 Marionette
 -
 WebDriver
-libary
+library
 updated
 to
 0
@@ -5804,7 +5804,7 @@ version
 Added
 -
 Introduced
-continous
+continuous
 integration
 builds
 for
@@ -7270,7 +7270,7 @@ down
 session
 only
 when
-loosing
+losing
 connection
 -
 Better

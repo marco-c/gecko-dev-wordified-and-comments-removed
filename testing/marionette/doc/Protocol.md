@@ -218,7 +218,7 @@ reply
 to
 a
 [
-commmand
+command
 ]
 message
 .
@@ -262,7 +262,7 @@ It
 is
 therefore
 strongly
-adviced
+advised
 that
 clients
 take

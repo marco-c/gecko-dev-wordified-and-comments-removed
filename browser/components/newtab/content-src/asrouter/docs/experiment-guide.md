@@ -24,7 +24,7 @@ that
 the
 actual
 experiment
-proccess
+process
 and
 infrastructure
 is

@@ -242,7 +242,7 @@ user
 bin
 YourApplication
 Your
-milage
+mileage
 with
 this
 approach
