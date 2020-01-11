@@ -142,7 +142,6 @@ aOwner
 const
 Initialization
 aInitialization
-const
 SuccessFunction
 &
 &
@@ -159,7 +158,13 @@ aInitialization
 )
 mSuccessFunction
 (
+std
+:
+:
+move
+(
 aSuccessFunction
+)
 )
 {
 }
@@ -268,6 +273,7 @@ aRv
 void
 AssertInitializationAttempted
 (
+const
 Initialization
 aInitialization
 )
@@ -296,9 +302,11 @@ None
 }
 private
 :
+static
 nsLiteralCString
 GetInitializationString
 (
+const
 Initialization
 aInitialization
 )
