@@ -952,6 +952,15 @@ Edition
 x64
 Nightly
 "
+use
+-
+pgo
+:
+macosx64
+-
+shippable
+/
+opt
 attributes
 :
 nightly
