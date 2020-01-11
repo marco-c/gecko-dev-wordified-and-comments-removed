@@ -233,6 +233,10 @@ constructor
 ;
 attribute
 EventHandler
+onerror
+;
+attribute
+EventHandler
 onreading
 ;
 Promise
