@@ -3105,7 +3105,7 @@ log
 _init
 :
 failure
-initializng
+initializing
 search
 :
 "
