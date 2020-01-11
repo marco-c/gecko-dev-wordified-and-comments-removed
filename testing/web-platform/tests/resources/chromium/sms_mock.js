@@ -52,7 +52,6 @@ context
 "
 true
 )
-;
 this
 .
 interceptor_
@@ -142,11 +141,6 @@ call
 (
 )
 ;
-}
-abort
-(
-)
-{
 }
 pushReturnValuesForTesting
 (
