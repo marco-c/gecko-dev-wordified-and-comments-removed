@@ -653,6 +653,12 @@ mContentCALayer
 =
 nullptr
 ;
+CALayer
+*
+mOpaquenessTintLayer
+=
+nullptr
+;
 float
 mBackingScale
 =
