@@ -398,6 +398,12 @@ IsDMABufEnabled
 (
 )
 ;
+static
+bool
+IsDMABufBasicEnabled
+(
+)
+;
 int
 GetRenderingCacheModePref
 (
@@ -493,6 +499,10 @@ mIsDMABufEnabled
 static
 int
 mIsDMABufPrefState
+;
+static
+int
+mIsDMABufPrefBasicCompositorState
 ;
 static
 bool

@@ -2336,7 +2336,7 @@ mUseDMABuf
 nsWaylandDisplay
 :
 :
-IsDMABufEnabled
+IsDMABufBasicEnabled
 (
 )
 ;
