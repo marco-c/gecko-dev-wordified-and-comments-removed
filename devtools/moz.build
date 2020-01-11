@@ -360,9 +360,9 @@ docs
 /
 tools
 /
-http
+console
 -
-inspector
+panel
 .
 md
 '
