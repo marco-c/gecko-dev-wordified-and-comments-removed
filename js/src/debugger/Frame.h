@@ -724,15 +724,6 @@ EvalOptions
 options
 )
 ;
-enum
-class
-MinState
-{
-OnStack
-OnStackOrSuspended
-OnStackOrSuspendedOrTerminated
-}
-;
 static
 MOZ_MUST_USE
 DebuggerFrame
@@ -744,8 +735,6 @@ JSContext
 cx
 HandleValue
 thisv
-MinState
-minState
 )
 ;
 bool
