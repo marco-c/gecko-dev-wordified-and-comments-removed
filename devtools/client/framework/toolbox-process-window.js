@@ -1233,6 +1233,10 @@ evalInSandbox
 (
 script
 sandbox
+undefined
+undefined
+1
+false
 )
 ;
 }
