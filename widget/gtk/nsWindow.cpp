@@ -22679,6 +22679,11 @@ surface
 region
 )
 ;
+wl_surface_commit
+(
+surface
+)
+;
 wl_region_destroy
 (
 region
