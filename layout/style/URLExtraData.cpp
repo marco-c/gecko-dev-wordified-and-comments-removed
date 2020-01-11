@@ -56,10 +56,8 @@ nsIURI
 >
 baseURI
 =
+new
 NullPrincipalURI
-:
-:
-Create
 (
 )
 ;
