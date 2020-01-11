@@ -536,7 +536,7 @@ tp6
 )
 condprof
 :
-True
+true
 mozharness
 :
 extra
@@ -5192,7 +5192,7 @@ c
 )
 condprof
 :
-True
+true
 mozharness
 :
 extra
@@ -7678,7 +7678,7 @@ tier
 3
 condprof
 :
-True
+true
 run
 -
 visual

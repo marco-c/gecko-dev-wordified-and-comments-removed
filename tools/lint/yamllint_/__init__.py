@@ -194,6 +194,15 @@ self
 process_line
 ]
         
+kwargs
+[
+'
+universal_newlines
+'
+]
+=
+True
+        
 ProcessHandlerMixin
 .
 __init__
