@@ -306,7 +306,7 @@ uint32_t
 index
 uint32_t
 fillCount
-AnyRef
+FuncRef
 ref
 JSContext
 *
