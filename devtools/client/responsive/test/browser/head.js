@@ -1234,7 +1234,7 @@ getViewportBrowser
 )
 ;
 const
-onResizeViewport
+onContentResize
 =
 data
 =
@@ -1257,11 +1257,11 @@ ui
 off
 (
 "
-viewport
+content
 -
 resize
 "
-onResizeViewport
+onContentResize
 )
 ;
 browser
@@ -1277,7 +1277,7 @@ onBrowserLoadEnd
 info
 (
 Got
-viewport
+content
 -
 resize
 to
@@ -1314,7 +1314,7 @@ getViewportSize
 ui
 )
 ;
-onResizeViewport
+onContentResize
 (
 data
 )
@@ -1343,11 +1343,11 @@ ui
 on
 (
 "
-viewport
+content
 -
 resize
 "
-onResizeViewport
+onContentResize
 )
 ;
 browser
