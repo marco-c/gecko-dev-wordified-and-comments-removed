@@ -3622,8 +3622,6 @@ format
 ;
 }
 }
-return
-;
 }
 nsresult
 DataTransfer
