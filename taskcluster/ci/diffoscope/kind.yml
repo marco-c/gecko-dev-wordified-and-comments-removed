@@ -672,9 +672,7 @@ projects
 :
 [
 '
-mozilla
--
-central
+trunk
 '
 '
 try
