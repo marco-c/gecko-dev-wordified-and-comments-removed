@@ -51,11 +51,11 @@ http
 /
 example
 .
-net
-{
-CURRENT_FILE_DIR
-}
-fission_document_builder
+com
+/
+document
+-
+builder
 .
 sjs
 )

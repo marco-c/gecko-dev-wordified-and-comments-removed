@@ -627,6 +627,13 @@ chunkifyTests
 js
 '
 '
+document
+-
+builder
+.
+sjs
+'
+'
 favicon
 .
 ico
