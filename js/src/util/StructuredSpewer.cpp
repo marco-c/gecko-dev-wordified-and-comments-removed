@@ -361,8 +361,6 @@ emplace
 output_
 )
 ;
-return
-;
 }
 static
 bool
