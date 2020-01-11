@@ -1374,6 +1374,13 @@ VisualViewport
 h
 "
 #
+include
+"
+ZoomConstraintsClient
+.
+h
+"
+#
 ifdef
 MOZ_TASK_TRACER
 #

@@ -58,13 +58,6 @@ h
 #
 include
 "
-ZoomConstraintsClient
-.
-h
-"
-#
-include
-"
 gfxPoint
 .
 h
@@ -503,6 +496,9 @@ ReflowCountMgr
 endif
 class
 WeakFrame
+;
+class
+ZoomConstraintsClient
 ;
 template
 <
