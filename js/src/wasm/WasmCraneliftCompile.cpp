@@ -2683,7 +2683,7 @@ type
 (
 )
 .
-code
+kind
 (
 )
 )
@@ -2800,7 +2800,7 @@ global
 )
 {
 return
-TypeCode
+UnpackTypeCodeType
 (
 global
 -
@@ -2809,7 +2809,7 @@ type
 (
 )
 .
-code
+packed
 (
 )
 )
