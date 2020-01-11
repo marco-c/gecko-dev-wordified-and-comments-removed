@@ -1677,6 +1677,15 @@ override
 ;
 virtual
 void
+SetWindowMouseTransparent
+(
+bool
+aIsTransparent
+)
+override
+;
+virtual
+void
 UpdateOpaqueRegion
 (
 const

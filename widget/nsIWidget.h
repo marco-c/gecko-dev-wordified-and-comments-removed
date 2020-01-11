@@ -2277,6 +2277,15 @@ aTransform
 }
 virtual
 void
+SetWindowMouseTransparent
+(
+bool
+aIsTransparent
+)
+{
+}
+virtual
+void
 SetShowsToolbarButton
 (
 bool

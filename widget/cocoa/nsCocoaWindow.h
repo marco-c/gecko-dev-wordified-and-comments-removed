@@ -1390,6 +1390,15 @@ override
 ;
 virtual
 void
+SetWindowMouseTransparent
+(
+bool
+aIsTransparent
+)
+override
+;
+virtual
+void
 SetShowsToolbarButton
 (
 bool
