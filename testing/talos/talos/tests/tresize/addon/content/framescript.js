@@ -100,13 +100,15 @@ content
 .
 wrappedJSObject
 .
-logResults
+tpRecordTime
 (
 reply
 .
 data
 .
 result
+.
+average
 )
 ;
 }
@@ -140,6 +142,7 @@ locationSearch
 ;
 }
 false
+true
 )
 ;
 }
