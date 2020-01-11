@@ -19,6 +19,9 @@ nsIContentSecurityPolicy
 h
 "
 class
+nsIChannel
+;
+class
 DOMSecurityManager
 final
 :
@@ -62,8 +65,8 @@ nsIContentSecurityPolicy
 aOutCSP
 )
 ;
-nsresult
-EnforeXFrameOptionsCheck
+void
+EnforceXFrameOptionsCheck
 (
 nsIChannel
 *
