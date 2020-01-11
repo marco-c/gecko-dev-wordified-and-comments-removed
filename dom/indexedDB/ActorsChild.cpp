@@ -5594,7 +5594,8 @@ NS_OK
 }
 }
 ;
-already_AddRefed
+MOZ_MUST_USE
+RefPtr
 <
 File
 >
@@ -5762,12 +5763,7 @@ aFileHandle
 )
 )
 ;
-RefPtr
-<
-File
->
-file
-=
+return
 File
 :
 :
@@ -5780,13 +5776,6 @@ GetOwnerGlobal
 (
 )
 blobImplSnapshot
-)
-;
-return
-file
-.
-forget
-(
 )
 ;
 }
