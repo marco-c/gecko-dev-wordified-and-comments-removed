@@ -30911,7 +30911,7 @@ frame
 ;
 }
 static
-bool
+CallState
 FlushThrottledStyles
 (
 Document
@@ -30982,7 +30982,10 @@ nullptr
 )
 ;
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 bool
@@ -41605,7 +41608,7 @@ StopPluginInstance
 }
 }
 static
-bool
+CallState
 FreezeSubDocument
 (
 Document
@@ -41637,7 +41640,10 @@ Freeze
 ;
 }
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 void
@@ -41939,7 +41945,7 @@ AsyncStartPluginInstance
 }
 }
 static
-bool
+CallState
 ThawSubDocument
 (
 Document
@@ -41972,7 +41978,10 @@ Thaw
 ;
 }
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 void
@@ -50545,7 +50554,7 @@ isActive
 }
 }
 static
-bool
+CallState
 SetExternalResourceIsActive
 (
 Document
@@ -50587,7 +50596,10 @@ aClosure
 ;
 }
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 static
@@ -54083,7 +54095,7 @@ return
 }
 }
 static
-bool
+CallState
 EndPaintHelper
 (
 Document
@@ -54116,7 +54128,10 @@ EndPaint
 ;
 }
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 void

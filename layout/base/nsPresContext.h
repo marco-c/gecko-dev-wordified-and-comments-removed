@@ -3155,7 +3155,10 @@ aScale
 )
 ;
 static
-bool
+mozilla
+:
+:
+CallState
 UIResolutionChangedSubdocumentCallback
 (
 mozilla
@@ -3249,7 +3252,10 @@ aCharSet
 )
 ;
 static
-bool
+mozilla
+:
+:
+CallState
 NotifyDidPaintSubdocumentCallback
 (
 mozilla
@@ -3266,7 +3272,10 @@ aData
 )
 ;
 static
-bool
+mozilla
+:
+:
+CallState
 NotifyRevokingDidPaintSubdocumentCallback
 (
 mozilla

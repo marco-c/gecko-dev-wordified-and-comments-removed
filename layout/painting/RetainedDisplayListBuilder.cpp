@@ -4431,7 +4431,7 @@ nullptr
 ;
 }
 static
-bool
+CallState
 SubDocEnumCb
 (
 Document
@@ -4524,7 +4524,10 @@ aData
 }
 }
 return
-true
+CallState
+:
+:
+Continue
 ;
 }
 static

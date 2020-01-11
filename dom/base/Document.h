@@ -319,6 +319,15 @@ include
 "
 mozilla
 /
+CallState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 CORSMode
 .
 h
@@ -1129,7 +1138,7 @@ class
 ExternalResourceMap
 {
 typedef
-bool
+CallState
 (
 *
 SubDocEnumFunc
@@ -6704,7 +6713,7 @@ Sanitize
 )
 ;
 typedef
-bool
+CallState
 (
 *
 SubDocEnumFunc
