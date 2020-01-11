@@ -313,9 +313,6 @@ nsITimer
 >
 mNetworkIdTimer
 ;
-bool
-mDoRouteCheckIPv4
-;
 struct
 in_addr
 mRouteCheckIPv4
