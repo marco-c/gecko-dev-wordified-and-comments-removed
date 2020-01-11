@@ -156,6 +156,9 @@ mOutputFormat
 nsString
 mText
 ;
+bool
+mCreatedDocument
+;
 }
 ;
 #
