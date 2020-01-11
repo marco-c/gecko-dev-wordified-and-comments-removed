@@ -904,7 +904,7 @@ CurrentFrame
 (
 )
 )
-*
+/
 SampleRate
 (
 )
