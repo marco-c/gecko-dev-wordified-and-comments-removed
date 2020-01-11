@@ -420,17 +420,6 @@ md
 )
 *
 [
-Tips
-]
-(
-tests
-/
-tips
-.
-md
-)
-*
-[
 Writing
 tests
 ]

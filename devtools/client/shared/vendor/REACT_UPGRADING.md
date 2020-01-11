@@ -1341,12 +1341,6 @@ all
 -
 e
 all
--
--
-setenv
-MOZ_QUIET
-=
-1
 .
 If
 try
