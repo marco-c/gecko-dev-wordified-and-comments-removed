@@ -1446,7 +1446,7 @@ item
 "
 )
 [
-1
+0
 ]
 ;
 firstLoginItem
