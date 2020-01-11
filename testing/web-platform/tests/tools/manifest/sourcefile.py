@@ -145,7 +145,7 @@ import
 ManifestItem
 ManualTest
 WebDriverSpecTest
-RefTestNode
+RefTest
 TestharnessTest
                    
 SupportFile
@@ -6104,12 +6104,12 @@ content_is_ref_node
             
 rv
 =
-RefTestNode
+RefTest
 .
 item_type
 [
                 
-RefTestNode
+RefTest
 (
                     
 self

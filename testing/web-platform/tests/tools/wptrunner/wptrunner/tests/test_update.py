@@ -200,14 +200,6 @@ manifest_item
 RefTest
                 
 "
-reftest_node
-"
-:
-manifest_item
-.
-RefTestNode
-                
-"
 manual
 "
 :
