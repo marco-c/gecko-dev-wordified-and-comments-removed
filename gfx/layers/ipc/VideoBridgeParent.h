@@ -50,7 +50,13 @@ PVideoBridgeParent
 public
 HostIPCAllocator
 public
-ShmemAllocator
+mozilla
+:
+:
+ipc
+:
+:
+IShmemAllocator
 {
 public
 :
@@ -176,7 +182,7 @@ aMessage
 )
 override
 ;
-ShmemAllocator
+IShmemAllocator
 *
 AsShmemAllocator
 (
@@ -250,7 +256,7 @@ aShmem
 )
 override
 ;
-void
+bool
 DeallocShmem
 (
 ipc
