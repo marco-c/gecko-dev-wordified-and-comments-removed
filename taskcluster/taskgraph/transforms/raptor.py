@@ -1085,6 +1085,31 @@ test
             
 continue
         
+if
+test
+[
+'
+test
+-
+platform
+'
+]
+.
+startswith
+(
+'
+windows10
+-
+aarch64
+'
+)
+:
+            
+yield
+test
+            
+continue
+        
 condprof_test
 =
 deepcopy
