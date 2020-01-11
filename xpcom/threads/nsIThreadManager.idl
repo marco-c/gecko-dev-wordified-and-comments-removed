@@ -750,6 +750,9 @@ NS_DispatchToMainThread
 .
 *
 /
+[
+optional_argc
+]
 void
 dispatchToMainThread
 (

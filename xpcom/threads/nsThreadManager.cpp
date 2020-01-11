@@ -2960,6 +2960,8 @@ nsIRunnable
 aEvent
 uint32_t
 aPriority
+uint8_t
+aArgc
 )
 {
 MOZ_ASSERT
@@ -2984,6 +2986,11 @@ NS_ERROR_NOT_INITIALIZED
 }
 if
 (
+aArgc
+>
+0
+&
+&
 aPriority
 !
 =
