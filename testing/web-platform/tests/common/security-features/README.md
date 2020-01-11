@@ -1382,7 +1382,7 @@ tests
 (
 aka
 .
-blacklisting
+blocklisting
 /
 suppressing
 )
@@ -1831,7 +1831,7 @@ excluded_tests
 to
 create
 a
-blacklist
+blocklist
 of
 selections
 *
@@ -1851,7 +1851,7 @@ check
 each
 against
 the
-blacklist
+blocklist
 if
 not
 marked
