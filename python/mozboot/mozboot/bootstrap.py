@@ -2946,8 +2946,6 @@ vcs
             
 if
 checkout_type
-and
-False
 :
                 
 vcs
