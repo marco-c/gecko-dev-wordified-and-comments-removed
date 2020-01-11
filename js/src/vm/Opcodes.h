@@ -49,10 +49,6 @@ null
 *
 Category
 :
-Literals
-*
-Type
-:
 Constants
 *
 Operands
