@@ -17,9 +17,7 @@ mozinfo
 mozlog
 =
 =
-4
-.
-2
+5
 .
 0
 mozdebug
