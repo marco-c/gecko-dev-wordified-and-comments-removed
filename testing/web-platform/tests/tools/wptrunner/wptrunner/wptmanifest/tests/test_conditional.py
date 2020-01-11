@@ -1,8 +1,4 @@
 import
-pytest
-import
-sys
-import
 unittest
 from
 .
@@ -19,37 +15,6 @@ BinaryExpressionNode
 BinaryOperatorNode
 VariableNode
 NumberNode
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version
-[
-0
-]
-=
-=
-"
-3
-"
-                   
-reason
-=
-"
-wptmanifest
-.
-parser
-doesn
-'
-t
-support
-py3
-"
-)
 class
 TestConditional
 (
@@ -84,6 +49,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -130,7 +96,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -162,7 +128,7 @@ iterchildren
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
@@ -180,7 +146,7 @@ children
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -193,7 +159,7 @@ Heading
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -217,7 +183,7 @@ value_1
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -241,7 +207,7 @@ value_2
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -265,7 +231,7 @@ value_3
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -289,6 +255,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -359,7 +326,7 @@ children
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -385,7 +352,7 @@ value_1
         
 self
 .
-assertEquals
+assertEqual
 (
 section
 .
@@ -416,6 +383,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -462,7 +430,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -488,7 +456,7 @@ value_1
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -522,6 +490,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -571,7 +540,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -597,7 +566,7 @@ value_1
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -631,6 +600,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -685,7 +655,7 @@ value_new
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -709,6 +679,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -763,7 +734,7 @@ value_new
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -780,7 +751,7 @@ value_new
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -813,6 +784,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -895,7 +867,7 @@ expr
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -919,7 +891,7 @@ value_new
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -952,6 +924,7 @@ self
         
 data
 =
+b
 "
 "
 "
@@ -996,7 +969,7 @@ is_empty
         
 self
 .
-assertEquals
+assertEqual
 (
 manifest
 .
@@ -1034,7 +1007,7 @@ key_2
         
 self
 .
-assertEquals
+assertEqual
 (
 set
 (

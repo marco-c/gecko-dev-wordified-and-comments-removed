@@ -1,6 +1,13 @@
 import
 operator
 from
+six
+import
+ensure_text
+iteritems
+iterkeys
+text_type
+from
 .
 .
 node
@@ -304,31 +311,14 @@ value
 )
 :
         
-if
-type
-(
-value
-)
-not
-in
-(
-str
-unicode
-)
-:
-            
-value
-=
-unicode
-(
-value
-)
-        
 self
 .
 value
 =
+ensure_text
+(
 value
+)
     
 def
 value_as
@@ -2004,7 +1994,7 @@ append
 (
 ValueNode
 (
-unicode
+text_type
 (
 item
 )
@@ -2018,7 +2008,7 @@ value_node
 =
 ValueNode
 (
-unicode
+text_type
 (
 value
 )
@@ -2491,12 +2481,11 @@ for
 name
 value
 in
+iteritems
+(
 node
 .
 _data
-.
-iteritems
-(
 )
 :
                 
@@ -2527,14 +2516,13 @@ self
 for
 item
 in
+iteritems
+(
 self
 .
 _flatten
 (
 )
-.
-iteritems
-(
 )
 :
             
@@ -2551,14 +2539,13 @@ self
 for
 item
 in
+iterkeys
+(
 self
 .
 _flatten
 (
 )
-.
-iterkeys
-(
 )
 :
             

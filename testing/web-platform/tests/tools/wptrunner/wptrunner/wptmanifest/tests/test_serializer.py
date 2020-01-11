@@ -1,4 +1,6 @@
 import
+six
+import
 sys
 import
 unittest
@@ -14,37 +16,6 @@ from
 import
 parser
 serializer
-pytest
-.
-mark
-.
-xfail
-(
-sys
-.
-version
-[
-0
-]
-=
-=
-"
-3
-"
-                   
-reason
-=
-"
-wptmanifest
-.
-parser
-doesn
-'
-t
-support
-py3
-"
-)
 class
 TokenizerTest
 (
@@ -126,30 +97,33 @@ None
 expected
 =
 input_str
-        
-expected
-=
-expected
 .
-encode
+decode
 (
 "
-utf8
+utf
+-
+8
 "
 )
         
 actual
 =
+six
+.
+ensure_text
+(
 self
 .
 serialize
 (
 input_str
 )
+)
         
 self
 .
-assertEquals
+assertEqual
 (
 actual
 expected
@@ -166,6 +140,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -196,6 +171,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -232,6 +208,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -270,6 +247,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -309,6 +287,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -350,6 +329,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -394,6 +374,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -438,6 +419,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -507,6 +489,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -549,6 +532,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -590,6 +574,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -628,6 +613,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -661,6 +647,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -695,6 +682,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -726,6 +714,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -751,6 +740,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -772,6 +762,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -799,6 +790,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -821,7 +813,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -855,7 +847,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -925,7 +917,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -967,7 +959,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1009,7 +1001,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1051,7 +1043,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1093,7 +1085,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1137,7 +1129,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1184,7 +1176,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1229,7 +1221,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1286,7 +1278,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1322,7 +1314,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1358,7 +1350,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1383,7 +1375,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1406,7 +1398,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1429,7 +1421,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1452,7 +1444,7 @@ self
 .
 compare
 (
-r
+br
 "
 "
 "
@@ -1479,6 +1471,7 @@ self
 .
 compare
 (
+b
 "
 "
 "
@@ -1510,6 +1503,7 @@ self
 .
 compare
 (
+b
 "
 "
 "

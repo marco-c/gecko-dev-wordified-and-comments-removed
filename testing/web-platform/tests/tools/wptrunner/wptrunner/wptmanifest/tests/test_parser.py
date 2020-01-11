@@ -86,7 +86,7 @@ actual_node
         
 self
 .
-assertEquals
+assertEqual
 (
 expected_node
 [
@@ -101,7 +101,7 @@ __name__
         
 self
 .
-assertEquals
+assertEqual
 (
 expected_node
 [
@@ -114,7 +114,7 @@ data
         
 self
 .
-assertEquals
+assertEqual
 (
 len
 (
