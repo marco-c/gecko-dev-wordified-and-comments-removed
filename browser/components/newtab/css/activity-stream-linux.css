@@ -10341,6 +10341,8 @@ display
 :
 flex
 ;
+min
+-
 height
 :
 48px
@@ -11580,6 +11582,8 @@ secondary
 color
 )
 ;
+min
+-
 height
 :
 95px
@@ -11637,6 +11641,8 @@ inner
 -
 wrapper
 {
+min
+-
 height
 :
 35px
