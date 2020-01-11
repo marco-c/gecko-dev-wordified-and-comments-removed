@@ -557,13 +557,6 @@ ObjectElements
 ;
 }
 }
-nobj
--
->
-sweepDictionaryListPointer
-(
-)
-;
 }
 MOZ_ALWAYS_INLINE
 void
@@ -577,6 +570,13 @@ sweepDictionaryListPointer
 (
 )
 {
+MOZ_ASSERT
+(
+inDictionaryMode
+(
+)
+)
+;
 if
 (
 shape
