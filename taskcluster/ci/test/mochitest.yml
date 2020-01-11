@@ -1073,7 +1073,9 @@ windows7
 -
 32
 |
-linux64
+linux1804
+-
+64
 )
 (
 ?
@@ -1092,7 +1094,9 @@ mozilla
 central
 '
 ]
-linux64
+linux1804
+-
+64
 -
 (
 ?
