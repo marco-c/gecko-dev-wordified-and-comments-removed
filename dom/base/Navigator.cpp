@@ -7941,7 +7941,7 @@ mWindow
 win
 -
 >
-NotifyVREventListenerAdded
+NotifyHasXRSession
 (
 )
 ;

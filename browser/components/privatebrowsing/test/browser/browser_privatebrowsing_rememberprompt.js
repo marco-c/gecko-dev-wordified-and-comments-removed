@@ -29,6 +29,16 @@ perOrigin
 "
 1
 ]
+[
+"
+dom
+.
+vr
+.
+always_support_vr
+"
+true
+]
 ]
 }
 )

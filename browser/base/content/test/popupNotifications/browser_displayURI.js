@@ -578,6 +578,16 @@ force
 "
 true
 ]
+[
+"
+dom
+.
+vr
+.
+always_support_vr
+"
+true
+]
 ]
 }
 )
