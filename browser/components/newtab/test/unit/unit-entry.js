@@ -1134,6 +1134,14 @@ eventDetails
 >
 {
 }
+scalarSet
+:
+(
+)
+=
+>
+{
+}
 }
 console
 :
