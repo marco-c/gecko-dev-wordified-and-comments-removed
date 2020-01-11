@@ -40,7 +40,7 @@ jsm
 ;
 const
 {
-Domains
+DomainCache
 }
 =
 ChromeUtils
@@ -58,7 +58,7 @@ content
 /
 domains
 /
-Domains
+DomainCache
 .
 jsm
 "
@@ -115,7 +115,7 @@ this
 domains
 =
 new
-Domains
+DomainCache
 (
 this
 ContentProcessDomains

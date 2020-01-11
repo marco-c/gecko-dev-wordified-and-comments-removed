@@ -31,7 +31,7 @@ jsm
 ;
 const
 {
-Domains
+DomainCache
 }
 =
 ChromeUtils
@@ -49,7 +49,7 @@ content
 /
 domains
 /
-Domains
+DomainCache
 .
 jsm
 "
@@ -75,12 +75,12 @@ MockSession
 add_test
 (
 function
-test_Domains_constructor
+test_DomainCache_constructor
 (
 )
 {
 new
-Domains
+DomainCache
 (
 noopSession
 {
@@ -97,7 +97,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_domainSupportsMethod
+test_DomainCache_domainSupportsMethod
 (
 )
 {
@@ -123,7 +123,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 noopSession
 modules
@@ -186,7 +186,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_get_invalidModule
+test_DomainCache_get_invalidModule
 (
 )
 {
@@ -203,7 +203,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 noopSession
 {
@@ -238,7 +238,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_get_missingConstructor
+test_DomainCache_get_missingConstructor
 (
 )
 {
@@ -255,7 +255,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 noopSession
 {
@@ -291,7 +291,7 @@ run_next_test
 add_test
 (
 function
-test_Domain_get_superClassNotDomain
+test_DomainCache_get_superClassNotDomain
 (
 )
 {
@@ -308,7 +308,7 @@ const
 domains
 =
 new
-Domain
+DomainCache
 (
 noopSession
 {
@@ -345,7 +345,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_get_constructs
+test_DomainCache_get_constructs
 (
 )
 {
@@ -402,7 +402,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 session
 {
@@ -463,7 +463,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_size
+test_DomainCache_size
 (
 )
 {
@@ -477,7 +477,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 noopSession
 {
@@ -520,7 +520,7 @@ run_next_test
 add_test
 (
 function
-test_Domains_clear
+test_DomainCache_clear
 (
 )
 {
@@ -548,7 +548,7 @@ const
 domains
 =
 new
-Domains
+DomainCache
 (
 noopSession
 {
