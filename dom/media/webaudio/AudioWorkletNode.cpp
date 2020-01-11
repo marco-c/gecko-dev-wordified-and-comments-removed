@@ -129,6 +129,9 @@ StructuredCloneHolder
 *
 >
 aSerializedOptions
+UniqueMessagePortId
+&
+aPortIdentifier
 )
 ;
 void
@@ -435,6 +438,9 @@ StructuredCloneHolder
 *
 >
 aSerializedOptions
+UniqueMessagePortId
+&
+aPortIdentifier
 )
 {
 MOZ_ASSERT
@@ -503,6 +509,7 @@ ConstructProcessor
 (
 aName
 aSerializedOptions
+aPortIdentifier
 &
 mProcessor
 )
@@ -2505,10 +2512,20 @@ move
 (
 serializedOptions
 )
+portId
+=
+std
+:
+:
+move
+(
+processorPortId
+)
 ]
 (
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
+mutable
 {
 auto
 engine
@@ -2542,6 +2559,7 @@ get
 (
 )
 )
+portId
 )
 ;
 }
