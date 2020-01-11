@@ -14056,6 +14056,11 @@ queuePos
 #
 endif
 {
+setTraceWeakEdges
+(
+false
+)
+;
 }
 bool
 GCMarker

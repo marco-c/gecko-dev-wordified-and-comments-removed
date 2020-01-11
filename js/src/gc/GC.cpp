@@ -18864,6 +18864,11 @@ compartment
 nullptr
 )
 {
+setTraceWeakEdges
+(
+false
+)
+;
 }
 Cell
 *
