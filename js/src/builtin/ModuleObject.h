@@ -1018,8 +1018,8 @@ FunctionDeclaration
 (
 HandleAtom
 name
-HandleFunction
-fun
+uint32_t
+funIndex
 )
 ;
 void
@@ -1039,12 +1039,8 @@ JSAtom
 name
 ;
 const
-HeapPtr
-<
-JSFunction
-*
->
-fun
+uint32_t
+funIndex
 ;
 }
 ;
@@ -1432,8 +1428,8 @@ JSContext
 cx
 HandleAtom
 name
-HandleFunction
-fun
+uint32_t
+funIndex
 )
 ;
 static
