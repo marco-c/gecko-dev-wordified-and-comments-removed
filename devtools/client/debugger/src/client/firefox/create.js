@@ -169,11 +169,6 @@ this
 source
 :
 null
-scope
-:
-frame
-.
-environment
 index
 }
 ;

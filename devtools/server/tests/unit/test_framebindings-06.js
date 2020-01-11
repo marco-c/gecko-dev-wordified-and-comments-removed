@@ -65,11 +65,14 @@ packet
 const
 env
 =
+await
 packet
 .
 frame
 .
-environment
+getEnvironment
+(
+)
 ;
 equal
 (

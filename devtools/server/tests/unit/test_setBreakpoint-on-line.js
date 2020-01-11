@@ -113,6 +113,18 @@ threadFront
 )
 ;
 const
+environment
+=
+await
+packet
+.
+frame
+.
+getEnvironment
+(
+)
+;
+const
 why
 =
 packet
@@ -184,8 +196,6 @@ line
 const
 variables
 =
-frame
-.
 environment
 .
 bindings
