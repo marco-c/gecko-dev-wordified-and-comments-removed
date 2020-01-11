@@ -59,6 +59,8 @@ int
 exception_subcode
 mach_port_t
 crashing_thread
+mach_port_t
+crashing_task
 )
 {
 ReceivePort
@@ -74,9 +76,7 @@ message
 .
 AddDescriptor
 (
-mach_task_self
-(
-)
+crashing_task
 )
 ;
 message
