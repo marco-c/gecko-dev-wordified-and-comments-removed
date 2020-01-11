@@ -5852,7 +5852,7 @@ remote
 useCrossOriginEmbedderPolicy
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
@@ -5900,7 +5900,7 @@ remote
 useCrossOriginOpenerPolicy
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
