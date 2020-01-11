@@ -36,13 +36,6 @@ h
 #
 include
 "
-jstypes
-.
-h
-"
-#
-include
-"
 builtin
 /
 Promise
@@ -90,7 +83,6 @@ inl
 h
 "
 struct
-JS_PUBLIC_API
 JSContext
 ;
 namespace

@@ -16,13 +16,6 @@ h
 #
 include
 "
-jstypes
-.
-h
-"
-#
-include
-"
 ds
 /
 TraceableFifo
@@ -155,10 +148,6 @@ Runtime
 .
 h
 "
-struct
-JS_PUBLIC_API
-JSContext
-;
 struct
 DtoaState
 ;
@@ -524,7 +513,6 @@ CallbackCanWait
 ;
 }
 struct
-JS_PUBLIC_API
 JSContext
 :
 public
