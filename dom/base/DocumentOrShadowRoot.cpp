@@ -363,11 +363,11 @@ ClearAssociatedDocumentOrShadowRoot
 }
 }
 StyleSheetList
-&
+*
 DocumentOrShadowRoot
 :
 :
-EnsureDOMStyleSheets
+StyleSheets
 (
 )
 {
@@ -388,7 +388,6 @@ this
 ;
 }
 return
-*
 mDOMStyleSheets
 ;
 }
