@@ -509,6 +509,9 @@ serviceContainer
 useQuotes
 :
 false
+transformEmptyString
+:
+true
 type
 }
 )
