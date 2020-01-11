@@ -6986,7 +6986,6 @@ nullptr
 )
 DocumentOrShadowRoot
 (
-*
 this
 )
 mBlockAllMixedContent

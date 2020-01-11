@@ -110,14 +110,14 @@ explicit
 DocumentOrShadowRoot
 (
 Document
-&
+*
 )
 ;
 explicit
 DocumentOrShadowRoot
 (
 ShadowRoot
-&
+*
 )
 ;
 static
@@ -148,6 +148,7 @@ AsNode
 )
 {
 return
+*
 mAsNode
 ;
 }
@@ -160,6 +161,7 @@ AsNode
 const
 {
 return
+*
 mAsNode
 ;
 }
@@ -782,7 +784,7 @@ nsRadioGroupStruct
 mRadioGroups
 ;
 nsINode
-&
+*
 mAsNode
 ;
 const

@@ -296,7 +296,6 @@ aNodeInfo
 )
 DocumentOrShadowRoot
 (
-*
 this
 )
 mMode
