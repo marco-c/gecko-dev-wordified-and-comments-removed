@@ -6514,7 +6514,10 @@ RemoteNonTld
 break
 ;
 case
-kCharsetFromAutoDetection
+kCharsetFromInitialAutoDetection
+:
+case
+kCharsetFromFinalAutoDetection
 :
 if
 (
@@ -8912,7 +8915,13 @@ if
 source
 =
 =
-kCharsetFromAutoDetection
+kCharsetFromInitialAutoDetection
+|
+|
+source
+=
+=
+kCharsetFromFinalAutoDetection
 |
 |
 source

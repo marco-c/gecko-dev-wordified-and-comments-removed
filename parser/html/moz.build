@@ -499,12 +499,6 @@ dom
 /
 base
 '
-'
-/
-intl
-/
-chardet
-'
 ]
 if
 CONFIG
