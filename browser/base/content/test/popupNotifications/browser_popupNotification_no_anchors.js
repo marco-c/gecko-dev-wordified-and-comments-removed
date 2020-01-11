@@ -39,14 +39,14 @@ FALLBACK_ANCHOR
 =
 gURLBar
 .
-searchIcon
+searchButton
 ?
 "
 urlbar
 -
 search
 -
-icon
+button
 "
 :
 "

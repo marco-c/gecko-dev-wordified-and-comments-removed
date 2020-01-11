@@ -1857,7 +1857,7 @@ urlbar
 -
 search
 -
-icon
+button
 "
 ]
 ;

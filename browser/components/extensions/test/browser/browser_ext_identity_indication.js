@@ -12,7 +12,7 @@ if
 (
 gURLBar
 .
-searchIcon
+searchButton
 )
 {
 is

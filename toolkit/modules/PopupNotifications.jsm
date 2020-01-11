@@ -4375,7 +4375,7 @@ urlbar
 -
 search
 -
-icon
+button
 "
 )
 ;

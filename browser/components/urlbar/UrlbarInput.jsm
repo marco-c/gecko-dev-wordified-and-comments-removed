@@ -286,14 +286,14 @@ nsIClipboardHelper
 )
 ;
 const
-SEARCH_ICON_ID
+SEARCH_BUTTON_ID
 =
 "
 urlbar
 -
 search
 -
-icon
+button
 "
 ;
 let
@@ -596,7 +596,7 @@ megabar
 ;
 this
 .
-searchIcon
+searchButton
 =
 UrlbarPrefs
 .
@@ -613,7 +613,7 @@ if
 (
 this
 .
-searchIcon
+searchButton
 )
 {
 this
@@ -625,7 +625,7 @@ classList
 add
 (
 "
-searchIcon
+searchButton
 "
 )
 ;
@@ -7079,7 +7079,7 @@ target
 id
 =
 =
-SEARCH_ICON_ID
+SEARCH_BUTTON_ID
 )
 {
 this
@@ -7317,7 +7317,7 @@ target
 id
 !
 =
-SEARCH_ICON_ID
+SEARCH_BUTTON_ID
 )
 {
 break
@@ -7417,7 +7417,7 @@ target
 id
 =
 =
-SEARCH_ICON_ID
+SEARCH_BUTTON_ID
 )
 {
 this

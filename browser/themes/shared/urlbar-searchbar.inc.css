@@ -39,7 +39,7 @@ urlbarBreakoutExtend
 2px
 %
 define
-urlbarSearchIconWidth
+urlbarSearchButtonWidth
 calc
 (
 16px
@@ -1045,7 +1045,7 @@ transparent
 #
 urlbar
 .
-searchIcon
+searchButton
 >
 #
 urlbar
@@ -1059,11 +1059,11 @@ urlbar
 -
 search
 -
-icon
+button
 {
 width
 :
-urlbarSearchIconWidth
+urlbarSearchButtonWidth
 ;
 background
 -
@@ -1156,7 +1156,7 @@ opacity
 #
 urlbar
 .
-searchIcon
+searchButton
 >
 #
 urlbar
@@ -1177,7 +1177,7 @@ urlbar
 -
 search
 -
-icon
+button
 {
 margin
 -
@@ -1256,7 +1256,7 @@ toolbar
 #
 urlbar
 .
-searchIcon
+searchButton
 :
 not
 (
@@ -1286,7 +1286,7 @@ toolbar
 #
 urlbar
 .
-searchIcon
+searchButton
 :
 not
 (
@@ -1308,7 +1308,7 @@ inline
 -
 start
 :
-urlbarSearchIconWidth
+urlbarSearchButtonWidth
 ;
 }
 #
@@ -1677,7 +1677,7 @@ urlbarBreakoutExtend
 #
 urlbar
 .
-searchIcon
+searchButton
 [
 breakout
 ]
@@ -1699,7 +1699,7 @@ urlbar
 -
 search
 -
-icon
+button
 {
 fill
 :
