@@ -3574,6 +3574,7 @@ CompositorWidgetChild
 (
 dispatcher
 observer
+initData
 )
 ;
 if
