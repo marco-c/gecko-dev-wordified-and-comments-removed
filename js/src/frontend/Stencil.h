@@ -372,6 +372,15 @@ mozilla
 :
 Maybe
 <
+bool
+>
+typeForScriptedFunction
+;
+mozilla
+:
+:
+Maybe
+<
 LazyScriptCreationData
 >
 lazyScriptData
