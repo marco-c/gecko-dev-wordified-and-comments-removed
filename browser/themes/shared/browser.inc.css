@@ -1238,6 +1238,12 @@ cursor
 :
 default
 ;
+justify
+-
+self
+:
+end
+;
 }
 #
 cfr
