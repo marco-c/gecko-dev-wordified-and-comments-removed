@@ -146,7 +146,7 @@ RecommendedPreferences
 .
 jsm
 "
-Targets
+TargetList
 :
 "
 chrome
@@ -159,7 +159,7 @@ content
 /
 targets
 /
-Targets
+TargetList
 .
 jsm
 "
@@ -456,7 +456,7 @@ this
 targets
 =
 new
-Targets
+TargetList
 (
 )
 ;
