@@ -637,6 +637,12 @@ ShouldBlockInsecureRequests
 )
 const
 ;
+bool
+FeaturePolicyBlocked
+(
+)
+const
+;
 nsTArray
 <
 RefPtr

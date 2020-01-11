@@ -679,9 +679,6 @@ nsXULPrototypeElement
 class
 PermissionDelegateHandler
 ;
-class
-nsIPermissionDelegateHandler
-;
 struct
 nsFont
 ;
@@ -11780,12 +11777,6 @@ SetPrototypeDocument
 nsXULPrototypeDocument
 *
 aPrototype
-)
-;
-nsIPermissionDelegateHandler
-*
-PermDelegateHandler
-(
 )
 ;
 static

@@ -16764,10 +16764,6 @@ aIsHandlingUserInput
 const
 bool
 &
-aMaybeUnsafePermissionDelegate
-const
-bool
-&
 aDocumentHasUserInput
 const
 DOMTimeStamp

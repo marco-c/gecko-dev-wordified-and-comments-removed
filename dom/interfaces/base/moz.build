@@ -178,11 +178,6 @@ nsIFocusManager
 idl
 '
 '
-nsIPermissionDelegateHandler
-.
-idl
-'
-'
 nsIQueryContentEventResult
 .
 idl

@@ -372,8 +372,8 @@ CaptureEngine
 engine
 nsCString
 unique_idUTF8
-uint64_t
-windowID
+PrincipalInfo
+principal
 )
 ;
 async
