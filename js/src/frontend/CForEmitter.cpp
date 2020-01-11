@@ -231,8 +231,7 @@ scope
 (
 bce_
 )
--
->
+.
 kind
 (
 )
@@ -483,8 +482,7 @@ scope
 (
 bce_
 )
--
->
+.
 kind
 (
 )

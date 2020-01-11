@@ -43,6 +43,15 @@ include
 "
 frontend
 /
+AbstractScope
+.
+h
+"
+#
+include
+"
+frontend
+/
 NameAnalysisTypes
 .
 h
@@ -216,8 +225,7 @@ bce
 )
 const
 ;
-Scope
-*
+AbstractScope
 enclosingScope
 (
 BytecodeEmitter
@@ -510,8 +518,7 @@ return
 noteIndex_
 ;
 }
-Scope
-*
+AbstractScope
 scope
 (
 const

@@ -12,6 +12,15 @@ include
 "
 frontend
 /
+AbstractScope
+.
+h
+"
+#
+include
+"
+frontend
+/
 BytecodeEmitter
 .
 h
@@ -897,8 +906,7 @@ bce_
 innermostScope
 (
 )
--
->
+.
 is
 <
 GlobalScope

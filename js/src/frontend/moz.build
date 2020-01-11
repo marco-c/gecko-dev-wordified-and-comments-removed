@@ -180,6 +180,11 @@ UNIFIED_SOURCES
 =
 [
 '
+AbstractScope
+.
+cpp
+'
+'
 BytecodeCompiler
 .
 cpp

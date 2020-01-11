@@ -24621,8 +24621,7 @@ bce
 js
 :
 :
-Scope
-*
+AbstractScope
 bodyScope
 =
 bce
@@ -24635,8 +24634,7 @@ bodyScope
 if
 (
 bodyScope
--
->
+.
 kind
 (
 )
@@ -24654,8 +24652,7 @@ Function
 if
 (
 bodyScope
--
->
+.
 hasEnvironment
 (
 )
@@ -24669,8 +24666,7 @@ true
 js
 :
 :
-Scope
-*
+AbstractScope
 outerScope
 =
 bce
@@ -24683,8 +24679,7 @@ outermostScope
 if
 (
 outerScope
--
->
+.
 kind
 (
 )
@@ -24700,8 +24695,7 @@ NamedLambda
 |
 |
 outerScope
--
->
+.
 kind
 (
 )
@@ -24737,8 +24731,7 @@ isNamedLambda
 if
 (
 outerScope
--
->
+.
 hasEnvironment
 (
 )
@@ -25273,8 +25266,7 @@ bce
 outermostScope
 (
 )
--
->
+.
 hasOnChain
 (
 ScopeKind

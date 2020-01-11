@@ -140,6 +140,9 @@ ModuleObject
 class
 Scope
 ;
+class
+AbstractScope
+;
 enum
 class
 BindingKind
@@ -1888,8 +1891,9 @@ static
 uint32_t
 nextFrameSlot
 (
-Scope
-*
+const
+AbstractScope
+&
 start
 )
 ;
@@ -2019,6 +2023,10 @@ PositionalFormalParameterIter
 friend
 class
 Scope
+;
+friend
+class
+AbstractScope
 ;
 static
 const
@@ -2945,6 +2953,10 @@ friend
 class
 Scope
 ;
+friend
+class
+AbstractScope
+;
 static
 const
 ScopeKind
@@ -3351,6 +3363,10 @@ friend
 class
 Scope
 ;
+friend
+class
+AbstractScope
+;
 static
 const
 ScopeKind
@@ -3614,6 +3630,10 @@ friend
 class
 GCMarker
 ;
+friend
+class
+AbstractScope
+;
 static
 const
 ScopeKind
@@ -3835,6 +3855,10 @@ Scope
 friend
 class
 GCMarker
+;
+friend
+class
+AbstractScope
 ;
 static
 const
