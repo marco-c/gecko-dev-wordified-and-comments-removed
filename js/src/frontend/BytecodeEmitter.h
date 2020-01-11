@@ -2485,15 +2485,6 @@ emitNewInit
 ;
 MOZ_MUST_USE
 bool
-emitSingletonInitialiser
-(
-ListNode
-*
-objOrArray
-)
-;
-MOZ_MUST_USE
-bool
 emitPrepareIteratorResult
 (
 )
