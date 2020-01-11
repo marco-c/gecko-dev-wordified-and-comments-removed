@@ -948,9 +948,7 @@ inRDMPane
 {
 docShell
 .
-contentViewer
-.
-DOMDocument
+browsingContext
 .
 inRDMPane
 =
@@ -1163,11 +1161,6 @@ LOCATION_CHANGE_SAME_DOCUMENT
 return
 ;
 }
-setDocumentInRDMPane
-(
-true
-)
-;
 sendAsyncMessage
 (
 "

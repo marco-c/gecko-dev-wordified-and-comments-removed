@@ -82,7 +82,9 @@ function
 return
 content
 .
-document
+docShell
+.
+browsingContext
 .
 inRDMPane
 ;
