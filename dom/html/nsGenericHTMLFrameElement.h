@@ -393,13 +393,15 @@ aBrowserParent
 )
 ;
 static
-int32_t
+mozilla
+:
+:
+ScrollbarPreference
 MapScrollingAttribute
 (
 const
 nsAttrValue
 *
-aValue
 )
 ;
 nsIPrincipal

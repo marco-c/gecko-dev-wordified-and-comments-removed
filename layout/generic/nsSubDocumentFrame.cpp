@@ -182,13 +182,6 @@ h
 #
 include
 "
-nsIScrollable
-.
-h
-"
-#
-include
-"
 nsNameSpaceManager
 .
 h
@@ -992,7 +985,7 @@ nsGkAtoms
 scrolling
 )
 ;
-int32_t
+ScrollbarPreference
 scrolling
 =
 nsGenericHTMLFrameElement
@@ -1017,7 +1010,6 @@ width
 margin
 .
 height
-scrolling
 scrolling
 this
 )

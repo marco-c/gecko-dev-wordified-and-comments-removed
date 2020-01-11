@@ -1033,6 +1033,11 @@ ReflowOutput
 h
 '
 '
+ScrollbarPreferences
+.
+h
+'
+'
 ViewportFrame
 .
 h

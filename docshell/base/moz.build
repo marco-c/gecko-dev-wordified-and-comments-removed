@@ -326,11 +326,6 @@ nsIRefreshURI
 idl
 '
 '
-nsIScrollable
-.
-idl
-'
-'
 nsITooltipListener
 .
 idl

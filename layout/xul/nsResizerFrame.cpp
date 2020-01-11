@@ -77,7 +77,7 @@ h
 #
 include
 "
-nsIDocShell
+nsDocShell
 .
 h
 "
