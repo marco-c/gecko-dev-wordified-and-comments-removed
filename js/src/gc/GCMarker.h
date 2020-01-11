@@ -1981,6 +1981,13 @@ Compartment
 >
 tracingCompartment
 ;
+MainThreadOrGCTaskData
+<
+Zone
+*
+>
+tracingZone
+;
 JS
 :
 :
