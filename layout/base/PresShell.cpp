@@ -42162,6 +42162,17 @@ HandlePostedReflowCallbacks
 aInterruptible
 )
 ;
+if
+(
+mIsDestroying
+)
+{
+return
+;
+}
+nsAutoScriptBlocker
+scriptBlocker
+;
 AutoAssertNoFlush
 noReentrantFlush
 (
