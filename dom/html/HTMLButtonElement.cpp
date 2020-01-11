@@ -1255,6 +1255,12 @@ MaybeReset
 this
 )
 ;
+aVisitor
+.
+mEventStatus
+=
+nsEventStatus_eConsumeNoDefault
+;
 }
 else
 if
@@ -1273,13 +1279,13 @@ MaybeSubmit
 this
 )
 ;
-}
 aVisitor
 .
 mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
+}
 }
 }
 }
