@@ -170,6 +170,11 @@ typedef
 void
 WGPUEmpty
 ;
+typedef
+struct
+WGPUGlobal
+WGPUGlobal
+;
 "
 "
 "
@@ -219,7 +224,7 @@ include
 "
 wgpu
 -
-native
+core
 "
 ]
 [

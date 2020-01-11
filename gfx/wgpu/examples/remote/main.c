@@ -147,14 +147,6 @@ options
 power_preference
 =
 WGPUPowerPreference_LowPower
-.
-backends
-=
-2
-|
-4
-|
-8
 }
 ;
 char

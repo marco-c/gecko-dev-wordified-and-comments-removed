@@ -7,6 +7,11 @@ members
 "
 wgpu
 -
+core
+"
+"
+wgpu
+-
 native
 "
 "

@@ -212,7 +212,7 @@ backend
 cd
 wgpu
 -
-native
+core
 &
 &
 cargo
@@ -249,11 +249,9 @@ check
 -
 -
 features
-gfx
--
-backend
--
 vulkan
+-
+portability
 )
 ;
 fi
