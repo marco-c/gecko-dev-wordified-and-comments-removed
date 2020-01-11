@@ -734,13 +734,11 @@ id
 "
 lockwise
 -
-sync
+connected
 -
-not
+device
 -
-syncing
--
-devices
+status
 "
 "
 Not
