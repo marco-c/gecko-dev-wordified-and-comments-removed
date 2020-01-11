@@ -1347,12 +1347,6 @@ prepareForCompacting
 #
 ifdef
 DEBUG
-bool
-requireGCTracer
-(
-)
-const
-;
 unsigned
 lastSweepGroupIndex
 (
