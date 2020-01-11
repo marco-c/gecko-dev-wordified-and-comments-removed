@@ -1456,8 +1456,6 @@ char
 aFilters
 uint32_t
 aFilterCount
-uint64_t
-aActiveBrowsingContextID
 const
 mozilla
 :
@@ -1501,8 +1499,6 @@ char
 aFilters
 uint32_t
 aFilterCount
-uint64_t
-aActiveBrowsingContextID
 const
 mozilla
 :
@@ -1885,9 +1881,6 @@ MallocAllocPolicy
 >
 *
 aFilters
-uint64_t
-*
-aActiveBrowsingContextID
 )
 ;
 double
