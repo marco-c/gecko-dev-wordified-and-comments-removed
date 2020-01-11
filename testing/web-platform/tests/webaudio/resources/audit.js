@@ -4973,6 +4973,15 @@ done
 (
 )
 {
+assert_equals
+(
+this
+.
+_state
+TaskState
+.
+STARTED
+)
 this
 .
 _state
