@@ -811,6 +811,7 @@ logins
 let
 actual
 =
+await
 LMP
 .
 searchAndDedupeLogins

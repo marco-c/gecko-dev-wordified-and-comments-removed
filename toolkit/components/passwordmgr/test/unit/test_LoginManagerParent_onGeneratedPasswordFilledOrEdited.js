@@ -1022,6 +1022,7 @@ test
 "
 )
 ;
+await
 LMP
 .
 _onGeneratedPasswordFilledOrEdited
@@ -1740,6 +1741,7 @@ test
 "
 )
 ;
+await
 LMP
 .
 _onGeneratedPasswordFilledOrEdited
@@ -2165,6 +2167,7 @@ test
 "
 )
 ;
+await
 LMP
 .
 _onGeneratedPasswordFilledOrEdited

@@ -251,6 +251,7 @@ userContextId
 let
 result1
 =
+await
 LMP
 .
 doAutocompleteSearch
@@ -319,6 +320,7 @@ used
 let
 result2
 =
+await
 LMP
 .
 doAutocompleteSearch
@@ -374,6 +376,7 @@ generated
 let
 result3
 =
+await
 LMP
 .
 doAutocompleteSearch
@@ -435,6 +438,7 @@ fieldName
 let
 result4
 =
+await
 LMP
 .
 doAutocompleteSearch
@@ -465,6 +469,7 @@ password
 let
 result5
 =
+await
 LMP
 .
 doAutocompleteSearch
