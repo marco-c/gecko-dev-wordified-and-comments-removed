@@ -238,6 +238,7 @@ Assert
 .
 equal
 (
+serialized
 '
 {
 "
@@ -289,7 +290,6 @@ last_modified
 "
 }
 '
-serialized
 )
 ;
 }
@@ -459,6 +459,9 @@ Assert
 .
 equal
 (
+error
+.
+message
 "
 TypeError
 :
@@ -466,9 +469,6 @@ localRecords
 is
 null
 "
-error
-.
-message
 )
 ;
 }
@@ -517,6 +517,7 @@ Assert
 .
 equal
 (
+serialized
 '
 {
 "
@@ -534,7 +535,6 @@ last_modified
 "
 }
 '
-serialized
 "
 API
 works
@@ -591,6 +591,7 @@ Assert
 .
 equal
 (
+serialized
 '
 {
 "
@@ -608,7 +609,6 @@ last_modified
 "
 }
 '
-serialized
 "
 API
 still
