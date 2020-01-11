@@ -330,7 +330,9 @@ evaluateJS
 "
 window
 .
-innerHeight
+visualViewport
+.
+height
 "
 )
 as
@@ -338,7 +340,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 height
 is
 not
@@ -440,7 +443,9 @@ evaluateJS
 "
 window
 .
-innerWidth
+visualViewport
+.
+width
 "
 )
 as
@@ -448,7 +453,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 width
 is
 not
@@ -638,7 +644,9 @@ evaluateJS
 "
 window
 .
-innerHeight
+visualViewport
+.
+height
 "
 )
 as
@@ -646,7 +654,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 height
 is
 not
@@ -828,7 +837,9 @@ evaluateJS
 "
 window
 .
-innerHeight
+visualViewport
+.
+height
 "
 )
 as
@@ -836,7 +847,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 height
 is
 not
@@ -938,7 +950,9 @@ evaluateJS
 "
 window
 .
-innerWidth
+visualViewport
+.
+width
 "
 )
 as
@@ -946,7 +960,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 width
 is
 not
@@ -1457,7 +1472,9 @@ evaluateJS
 "
 window
 .
-innerHeight
+visualViewport
+.
+height
 "
 )
 as
@@ -1465,7 +1482,8 @@ Double
 assertThat
 (
 "
-Viewport
+Visual
+viewport
 height
 is
 not
