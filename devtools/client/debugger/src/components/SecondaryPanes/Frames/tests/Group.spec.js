@@ -147,6 +147,13 @@ jest
 fn
 (
 )
+selectLocation
+:
+jest
+.
+fn
+(
+)
 copyStackTrace
 :
 jest
@@ -167,9 +174,11 @@ false
 displayFullUrl
 :
 false
-selectable
+panel
 :
-true
+"
+webconsole
+"
 }
 ;
 const

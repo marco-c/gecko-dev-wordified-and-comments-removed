@@ -710,8 +710,9 @@ index
 :
 number
 asyncCause
-?
 :
+null
+|
 string
 }
 ;
