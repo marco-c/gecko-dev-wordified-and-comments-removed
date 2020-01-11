@@ -267,6 +267,16 @@ SdpMediaSection
 cpp
 '
 '
+SdpPref
+.
+cpp
+'
+'
+SdpTelemetry
+.
+cpp
+'
+'
 SipccSdp
 .
 cpp
