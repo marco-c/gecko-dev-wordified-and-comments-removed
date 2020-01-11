@@ -2395,8 +2395,12 @@ Label
 fail
 )
 {
-MOZ_CRASH
+convertFloat32ToInt32
 (
+src
+dest
+fail
+false
 )
 ;
 }
@@ -2441,8 +2445,12 @@ Label
 fail
 )
 {
-MOZ_CRASH
+convertDoubleToInt32
 (
+src
+dest
+fail
+false
 )
 ;
 }
