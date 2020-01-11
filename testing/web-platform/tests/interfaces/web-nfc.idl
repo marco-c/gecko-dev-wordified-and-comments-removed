@@ -58,6 +58,7 @@ nfc
 /
 )
 [
+SecureContext
 Exposed
 =
 Window
@@ -104,6 +105,7 @@ NDEFMessageInit
 NDEFRecordDataSource
 ;
 [
+SecureContext
 Exposed
 =
 Window
@@ -156,6 +158,7 @@ sequence
 <
 NDEFRecord
 >
+?
 toRecords
 (
 )
@@ -369,9 +372,6 @@ recordType
 ;
 USVString
 mediaType
-=
-"
-"
 ;
 AbortSignal
 ?
