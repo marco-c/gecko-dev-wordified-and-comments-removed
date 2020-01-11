@@ -170,8 +170,8 @@ return
 mCachedIdleDeadline
 ;
 }
-TimeStamp
-PeekIdleDeadline
+void
+CachePeekedIdleDeadline
 (
 const
 MutexAutoUnlock
@@ -179,7 +179,8 @@ MutexAutoUnlock
 aProofOfUnlock
 )
 {
-return
+mCachedIdleDeadline
+=
 GetIdleDeadlineInternal
 (
 true
