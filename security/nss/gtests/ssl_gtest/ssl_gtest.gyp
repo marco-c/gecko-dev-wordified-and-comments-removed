@@ -129,6 +129,11 @@ ssl_0rtt_unittest
 cc
 '
 '
+ssl_aead_unittest
+.
+cc
+'
+'
 ssl_agent_unittest
 .
 cc
@@ -234,12 +239,12 @@ ssl_loopback_unittest
 cc
 '
 '
-ssl_misc_unittest
+ssl_masking_unittest
 .
 cc
 '
 '
-ssl_primitive_unittest
+ssl_misc_unittest
 .
 cc
 '

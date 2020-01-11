@@ -84,6 +84,7 @@ dsa
 ecdsa
 hmac
 kas
+kbkdf
 tls
 ike
 rng

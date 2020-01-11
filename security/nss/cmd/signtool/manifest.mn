@@ -63,6 +63,17 @@ CORE_DEPTH
 MODULE
 =
 nss
+ifdef
+ZLIB_INCLUDE_DIR
+INCLUDES
++
+=
+-
+I
+(
+ZLIB_INCLUDE_DIR
+)
+endif
 EXPORTS
 =
 CSRCS

@@ -65,6 +65,17 @@ DEFINES
 =
 -
 DTRACE
+ifdef
+ZLIB_INCLUDE_DIR
+INCLUDES
++
+=
+-
+I
+(
+ZLIB_INCLUDE_DIR
+)
+endif
 EXPORTS
 =
 \

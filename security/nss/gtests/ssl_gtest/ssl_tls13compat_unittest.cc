@@ -1853,7 +1853,8 @@ content_type
 ;
 EXPECT_EQ
 (
-ssl_ct_application_data
+kCtDtlsCiphertext
+(
 client_records
 -
 >
@@ -1866,6 +1867,9 @@ header
 .
 content_type
 (
+)
+&
+kCtDtlsCiphertextMask
 )
 )
 ;
@@ -1921,7 +1925,8 @@ i
 {
 EXPECT_EQ
 (
-ssl_ct_application_data
+kCtDtlsCiphertext
+(
 server_records
 -
 >
@@ -1934,6 +1939,9 @@ header
 .
 content_type
 (
+)
+&
+kCtDtlsCiphertextMask
 )
 )
 ;
@@ -2267,7 +2275,8 @@ i
 {
 EXPECT_EQ
 (
-ssl_ct_application_data
+kCtDtlsCiphertext
+(
 server_records
 -
 >
@@ -2280,6 +2289,9 @@ header
 .
 content_type
 (
+)
+&
+kCtDtlsCiphertextMask
 )
 )
 ;

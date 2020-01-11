@@ -298,5 +298,14 @@ PRUint8
 firstOctet
 )
 ;
+PRBool
+dtls_IsDtls13Ciphertext
+(
+SSL3ProtocolVersion
+version
+PRUint8
+firstOctet
+)
+;
 #
 endif

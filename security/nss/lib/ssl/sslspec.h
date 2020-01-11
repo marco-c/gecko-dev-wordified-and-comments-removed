@@ -410,6 +410,10 @@ earlyDataRemaining
 PRUint16
 recordSizeLimit
 ;
+SSLMaskingContext
+*
+maskContext
+;
 }
 ;
 typedef

@@ -179,6 +179,11 @@ pk11_import_unittest
 cc
 '
 '
+pk11_kbkdf
+.
+cc
+'
+'
 pk11_keygen
 .
 cc
