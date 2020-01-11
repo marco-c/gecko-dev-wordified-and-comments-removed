@@ -427,8 +427,6 @@ MDRawModule
 module
 int
 cpu_type
-int
-cpu_subtype
 const
 char
 *

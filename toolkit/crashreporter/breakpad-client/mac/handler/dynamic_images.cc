@@ -1676,10 +1676,6 @@ task_
 images
 .
 cpu_type_
-header
--
->
-cpusubtype
 )
 ;
 if

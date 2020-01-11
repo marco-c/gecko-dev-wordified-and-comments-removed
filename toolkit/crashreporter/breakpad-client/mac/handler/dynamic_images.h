@@ -226,8 +226,6 @@ mach_port_t
 task
 cpu_type_t
 cpu_type
-cpu_subtype_t
-cpu_subtype
 )
 :
 header_
@@ -276,10 +274,6 @@ task
 cpu_type_
 (
 cpu_type
-)
-cpu_subtype_
-(
-cpu_subtype
 )
 {
 CalculateMemoryAndVersionInfo
@@ -376,15 +370,6 @@ GetCPUType
 {
 return
 cpu_type_
-;
-}
-cpu_type_t
-GetCPUSubtype
-(
-)
-{
-return
-cpu_subtype_
 ;
 }
 uint32_t
@@ -547,9 +532,6 @@ task_
 ;
 cpu_type_t
 cpu_type_
-;
-cpu_subtype_t
-cpu_subtype_
 ;
 }
 ;
