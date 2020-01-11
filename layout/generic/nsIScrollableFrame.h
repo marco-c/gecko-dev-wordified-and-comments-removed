@@ -258,6 +258,15 @@ GetAvailableVisualScrollingDirections
 const
 ;
 virtual
+uint32_t
+GetAvailableScrollingDirectionsForUserInputEvents
+(
+)
+const
+=
+0
+;
+virtual
 nsMargin
 GetActualScrollbarSizes
 (
