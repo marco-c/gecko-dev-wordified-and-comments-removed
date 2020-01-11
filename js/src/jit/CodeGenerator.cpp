@@ -30153,16 +30153,7 @@ else
 {
 masm
 .
-branchIfFunctionHasNoScript
-(
-calleereg
-&
-invoke
-)
-;
-masm
-.
-loadJitCodeNoArgCheck
+loadJitCodeMaybeNoArgCheck
 (
 calleereg
 objreg
