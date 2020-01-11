@@ -461,10 +461,14 @@ get
 zone_
 -
 >
-decPolicyMemory
+decNonGCMemory
 (
 this
 nbytes
+MemoryUse
+:
+:
+ZoneAllocPolicy
 cx
 -
 >
