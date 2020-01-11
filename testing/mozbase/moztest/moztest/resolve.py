@@ -12,6 +12,8 @@ import
 pickle
 import
 sys
+import
+six
 from
 abc
 import
@@ -3764,16 +3766,18 @@ file_relpath
     
 return
 test
+six
+.
+add_metaclass
+(
+ABCMeta
+)
 class
 TestLoader
 (
 MozbuildObject
 )
 :
-    
-__metaclass__
-=
-ABCMeta
     
 abstractmethod
     
@@ -4045,10 +4049,11 @@ for
 path
 tests
 in
-test_data
+six
 .
-items
+iteritems
 (
+test_data
 )
 :
             
@@ -4202,6 +4207,7 @@ self
 variables
 =
 {
+            
 '
 {
 }
@@ -4221,11 +4227,13 @@ for
 k
 v
 in
-TEST_MANIFESTS
+six
 .
-items
+iteritems
 (
+TEST_MANIFESTS
 )
+        
 }
         
 self
@@ -4235,6 +4243,7 @@ variables
 update
 (
 {
+            
 '
 {
 }
@@ -4255,6 +4264,7 @@ for
 f
 in
 REFTEST_FLAVORS
+        
 }
 )
     
@@ -5928,10 +5938,11 @@ for
 manifest
 data
 in
-manifests
+six
 .
 iteritems
 (
+manifests
 )
 :
             
@@ -6698,10 +6709,11 @@ for
 path
 info
 in
-files_info
+six
 .
-items
+iteritems
 (
+files_info
 )
 :
                 
@@ -6826,10 +6838,11 @@ for
 suite
 v
 in
-TEST_SUITES
+six
 .
-items
+iteritems
 (
+TEST_SUITES
 )
 :
                 
