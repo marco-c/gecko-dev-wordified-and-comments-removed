@@ -15,6 +15,7 @@ ncpu
 =
 -
 j
+(
 grep
 -
 c
@@ -24,6 +25,7 @@ processor
 proc
 /
 cpuinfo
+)
 WORK
 =
 /
@@ -63,7 +65,9 @@ home
 /
 worker
 make
+"
 ncpu
+"
 &
 &
 make
@@ -97,7 +101,9 @@ hfsplus
 cmake
 .
 make
+"
 ncpu
+"
 dmg
 -
 bin
@@ -183,7 +189,9 @@ README
 /
 configure
 make
+"
 ncpu
+"
 src
 /
 tools
