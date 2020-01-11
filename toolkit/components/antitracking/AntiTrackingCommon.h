@@ -150,6 +150,7 @@ StorageAccessPromptChoices
 {
 eAllow
 eAllowAutoGrant
+eAllowOnAnySite
 }
 ;
 typedef
