@@ -2110,7 +2110,7 @@ GetNextRenderFrameId
 (
 )
 ;
-InsertPresentWaitQuery
+InsertGraphicsCommandsFinishedWaitQuery
 (
 frameId
 )
@@ -2510,7 +2510,7 @@ WaitForGPU
 )
 {
 return
-WaitForPreviousPresentQuery
+WaitForPreviousGraphicsCommandsFinishedQuery
 (
 )
 ;
@@ -3381,7 +3381,7 @@ void
 RenderCompositorANGLE
 :
 :
-InsertPresentWaitQuery
+InsertGraphicsCommandsFinishedWaitQuery
 (
 RenderedFrameId
 aFrameId
@@ -3429,7 +3429,7 @@ bool
 RenderCompositorANGLE
 :
 :
-WaitForPreviousPresentQuery
+WaitForPreviousGraphicsCommandsFinishedQuery
 (
 )
 {
