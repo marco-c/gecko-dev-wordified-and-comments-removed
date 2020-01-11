@@ -3052,7 +3052,7 @@ AbortReasonOr
 <
 Ok
 >
-initializeArrayElement
+initArrayElementFastPath
 (
 MNewArray
 *
