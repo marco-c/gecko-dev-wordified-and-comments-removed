@@ -3841,12 +3841,6 @@ MutableHandleValue
 funVal
 )
 ;
-bool
-hasRegExpStatics
-(
-)
-const
-;
 static
 RegExpStatics
 *
@@ -3862,13 +3856,6 @@ GlobalObject
 >
 global
 )
-;
-RegExpStatics
-*
-getAlreadyCreatedRegExpStatics
-(
-)
-const
 ;
 static
 JSObject
