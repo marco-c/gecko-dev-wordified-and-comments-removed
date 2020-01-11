@@ -305,6 +305,11 @@ enrollmentId
 rollout
 .
 enrollmentId
+|
+|
+TelemetryEvents
+.
+NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
@@ -366,6 +371,11 @@ enrollmentId
 rollout
 .
 enrollmentId
+|
+|
+TelemetryEvents
+.
+NO_ENROLLMENT_ID_MARKER
 }
 )
 ;
