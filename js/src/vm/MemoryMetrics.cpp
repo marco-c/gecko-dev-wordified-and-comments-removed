@@ -1307,6 +1307,10 @@ baselineStubsOptimized
 &
 zStats
 .
+cachedCFG
+&
+zStats
+.
 uniqueIdMap
 &
 zStats
