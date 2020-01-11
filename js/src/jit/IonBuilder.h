@@ -1419,17 +1419,6 @@ MTest
 test
 )
 ;
-bool
-detectAndOrStructure
-(
-MPhi
-*
-ins
-bool
-*
-branchIsTrue
-)
-;
 AbortReasonOr
 <
 Ok
