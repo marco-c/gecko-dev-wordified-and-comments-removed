@@ -939,7 +939,7 @@ kSig_i_v
 addBody
 (
 [
-kExprGetGlobal
+kExprGlobalGet
 index
 kExprReturn
 ]
