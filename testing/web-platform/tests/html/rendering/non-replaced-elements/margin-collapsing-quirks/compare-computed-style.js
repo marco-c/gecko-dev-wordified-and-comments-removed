@@ -1,3 +1,9 @@
+test
+(
+function
+(
+)
+{
 var
 testStyle
 =
@@ -50,7 +56,6 @@ prop
 )
 ;
 }
-done
-(
+}
 )
 ;
