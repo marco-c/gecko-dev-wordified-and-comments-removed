@@ -555,7 +555,7 @@ UrlbarPrefs
 get
 (
 "
-megabar
+update1
 "
 )
 ;
@@ -603,7 +603,9 @@ UrlbarPrefs
 get
 (
 "
-searchIcon
+update1
+.
+searchButton
 "
 )
 ;

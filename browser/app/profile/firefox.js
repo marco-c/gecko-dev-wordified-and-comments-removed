@@ -2354,7 +2354,7 @@ browser
 .
 urlbar
 .
-megabar
+update1
 "
 false
 )
@@ -2366,7 +2366,7 @@ browser
 .
 urlbar
 .
-megabar
+update1
 .
 expandTextOnFocus
 "
@@ -2380,7 +2380,9 @@ browser
 .
 urlbar
 .
-searchIcon
+update1
+.
+searchButton
 "
 false
 )
@@ -2391,6 +2393,8 @@ pref
 browser
 .
 urlbar
+.
+update1
 .
 view
 .

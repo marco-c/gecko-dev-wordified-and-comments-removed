@@ -1444,6 +1444,8 @@ UrlbarPrefs
 get
 (
 "
+update1
+.
 view
 .
 stripHttps
@@ -1534,6 +1536,8 @@ UrlbarPrefs
 get
 (
 "
+update1
+.
 view
 .
 stripHttps
@@ -1702,6 +1706,8 @@ UrlbarPrefs
 get
 (
 "
+update1
+.
 view
 .
 stripHttps
