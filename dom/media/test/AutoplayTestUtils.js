@@ -58,6 +58,13 @@ appendChild
 element
 )
 ;
+let
+allowedToPlay
+=
+element
+.
+allowedToPlay
+;
 element
 .
 play
@@ -80,10 +87,6 @@ played
 :
 true
 allowedToPlay
-:
-element
-.
-allowedToPlay
 }
 "
 *
@@ -104,10 +107,6 @@ postMessage
 played
 :
 false
-allowedToPlay
-:
-element
-.
 allowedToPlay
 }
 "

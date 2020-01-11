@@ -152,9 +152,6 @@ aType
 )
 override
 ;
-media
-:
-:
 TimeUnit
 GetEndTime
 (
@@ -164,9 +161,6 @@ aType
 const
 override
 ;
-media
-:
-:
 TimeUnit
 GetPosition
 (
@@ -241,9 +235,6 @@ nsresult
 Start
 (
 const
-media
-:
-:
 TimeUnit
 &
 aStartTime
@@ -467,9 +458,6 @@ EndedPromise
 >
 mVideoSinkEndRequest
 ;
-media
-:
-:
 TimeUnit
 mVideoFrameEndTime
 ;

@@ -67,13 +67,6 @@ AudioContext
 aContext
 )
 ;
-}
-;
-class
-AutoplayPolicyTelemetryUtils
-{
-public
-:
 static
 bool
 WouldBeAllowedToPlayIfAutoplayDisabled
