@@ -217,7 +217,7 @@ service
 -
 worker
 .
-js
+sjs
 "
 )
 )

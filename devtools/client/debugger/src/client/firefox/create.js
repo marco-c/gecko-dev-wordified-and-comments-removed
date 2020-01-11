@@ -310,6 +310,11 @@ name
 target
 .
 name
+serviceWorkerStatus
+:
+target
+.
+debuggerServiceWorkerStatus
 }
 ;
 }
