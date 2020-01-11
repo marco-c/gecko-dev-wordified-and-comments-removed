@@ -1402,7 +1402,11 @@ isNumericComparison
 continue
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 JSOP_EQ
@@ -1434,7 +1438,11 @@ isNumericComparison
 continue
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 JSOP_NE

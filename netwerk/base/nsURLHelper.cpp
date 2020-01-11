@@ -1881,7 +1881,11 @@ stop
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '

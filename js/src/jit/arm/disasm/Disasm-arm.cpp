@@ -12334,7 +12334,11 @@ instr
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 0xB

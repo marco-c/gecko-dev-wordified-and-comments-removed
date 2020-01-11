@@ -1894,7 +1894,11 @@ WalkTheStack
 stderr
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 NS_ASSERT_ABORT

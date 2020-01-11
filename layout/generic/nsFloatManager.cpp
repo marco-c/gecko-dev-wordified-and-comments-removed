@@ -10682,7 +10682,11 @@ aWM
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleGeometryBox
@@ -10704,7 +10708,11 @@ aWM
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleGeometryBox

@@ -797,7 +797,11 @@ return
 GREEK_UPPER_ETA_TONOS
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 GREEK_LOWER_ETA_OXIA

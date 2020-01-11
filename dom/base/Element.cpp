@@ -14263,7 +14263,11 @@ mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eFocus
@@ -14339,7 +14343,11 @@ mEventStatus
 =
 nsEventStatus_eConsumeNoDefault
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eBlur

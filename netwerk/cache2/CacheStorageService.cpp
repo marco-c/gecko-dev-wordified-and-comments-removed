@@ -1901,7 +1901,11 @@ mPass
 =
 ITERATE_METADATA
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ITERATE_METADATA

@@ -12302,7 +12302,11 @@ dst
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ParseNodeKind

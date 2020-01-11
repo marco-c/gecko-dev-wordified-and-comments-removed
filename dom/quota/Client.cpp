@@ -562,7 +562,11 @@ return
 true
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 Client

@@ -9350,7 +9350,11 @@ setHadOverflowBailout
 (
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 Bailout_DoubleOutput

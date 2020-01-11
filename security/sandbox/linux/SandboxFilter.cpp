@@ -4527,7 +4527,11 @@ Allow
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 #
 endif

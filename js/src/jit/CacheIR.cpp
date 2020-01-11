@@ -7505,7 +7505,11 @@ id
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ProxyStubType
@@ -20570,7 +20574,11 @@ rhsId
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ProxyStubType

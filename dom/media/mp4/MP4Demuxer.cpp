@@ -2620,7 +2620,11 @@ FrameType
 :
 I_FRAME
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 H264

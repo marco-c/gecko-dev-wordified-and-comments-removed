@@ -2059,7 +2059,11 @@ MOZ_FALLTHROUGH_ASSERT
 .
 .
 )
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 #
 endif
 #

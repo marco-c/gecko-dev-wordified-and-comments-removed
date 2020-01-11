@@ -1537,7 +1537,11 @@ isFull
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eState_Charging

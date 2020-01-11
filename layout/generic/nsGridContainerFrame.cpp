@@ -32502,7 +32502,11 @@ bug
 "
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 NS_STYLE_ALIGN_START

@@ -16787,7 +16787,11 @@ n
 '
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '

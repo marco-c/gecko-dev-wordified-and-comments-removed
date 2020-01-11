@@ -359,7 +359,11 @@ INVALID_SXP
 +
 tld
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '
@@ -2073,7 +2077,11 @@ case
 +
 y
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

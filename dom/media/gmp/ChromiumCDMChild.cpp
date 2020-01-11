@@ -4957,7 +4957,11 @@ kDecodeError
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 cdm
@@ -4982,7 +4986,11 @@ frame
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

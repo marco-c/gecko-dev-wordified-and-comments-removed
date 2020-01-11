@@ -2406,7 +2406,11 @@ DrainState
 :
 DRAINING
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DrainState
@@ -2432,7 +2436,11 @@ __func__
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DrainState

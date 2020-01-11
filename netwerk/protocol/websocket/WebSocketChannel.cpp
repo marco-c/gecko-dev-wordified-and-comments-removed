@@ -10203,7 +10203,11 @@ msgType
 =
 kMsgTypeBinaryString
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 kMsgTypeBinaryString

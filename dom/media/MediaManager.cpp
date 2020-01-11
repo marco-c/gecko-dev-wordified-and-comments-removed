@@ -12156,7 +12156,11 @@ WindowID
 )
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MediaSourceEnum

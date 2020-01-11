@@ -43042,7 +43042,11 @@ nsIRequest
 :
 LOAD_FRESH_CONNECTION
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 LOAD_RELOAD_CHARSET_CHANGE

@@ -10667,7 +10667,11 @@ nullptr
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 #
 endif
@@ -10866,7 +10870,11 @@ MenuClosed
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 KeyboardEvent_Binding

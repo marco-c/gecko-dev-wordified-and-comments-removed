@@ -43206,7 +43206,11 @@ return
 nullptr
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -44961,7 +44965,11 @@ Specified
 :
 NoValidContent
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

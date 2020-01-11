@@ -4632,7 +4632,11 @@ IsWebGL2
 )
 break
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 LOCAL_GL_RENDERBUFFER_WIDTH

@@ -790,7 +790,11 @@ APPEND_DEVICE
 0x016A
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 IntelHDGraphicsToSandyBridge

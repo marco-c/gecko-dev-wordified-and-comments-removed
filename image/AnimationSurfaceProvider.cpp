@@ -1143,7 +1143,11 @@ continueDecoding
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 AnimationFrameBuffer

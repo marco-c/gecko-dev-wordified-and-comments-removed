@@ -2465,7 +2465,11 @@ AntiTrackingCommon
 :
 eOpenerAfterUserInteraction
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 AntiTrackingCommon

@@ -15740,7 +15740,11 @@ visibleRect
 =
 dirtyRect
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 nsDisplayTransform
@@ -43032,7 +43036,11 @@ mWordMovementType
 eEndWord
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 eSelectWord

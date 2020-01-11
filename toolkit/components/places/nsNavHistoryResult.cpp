@@ -8836,7 +8836,11 @@ host
 return
 NS_OK
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -8938,7 +8942,11 @@ return
 NS_OK
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

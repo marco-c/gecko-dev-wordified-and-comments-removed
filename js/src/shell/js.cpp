@@ -10886,7 +10886,11 @@ true
 ;
 default
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 JS

@@ -490,7 +490,11 @@ minNDigits
 =
 precision
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DTOSTR_STANDARD_EXPONENTIAL

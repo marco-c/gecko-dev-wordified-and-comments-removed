@@ -1096,7 +1096,11 @@ exp
 E
 '
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '
@@ -1126,7 +1130,11 @@ exp
 E
 '
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 '

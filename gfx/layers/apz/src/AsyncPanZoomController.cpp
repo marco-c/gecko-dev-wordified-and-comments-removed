@@ -4656,7 +4656,11 @@ CancelAnimations
 ExcludeOverscroll
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 SCROLLBAR_DRAG
@@ -5089,7 +5093,11 @@ OnTouchEnd
 "
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ANIMATING_ZOOM

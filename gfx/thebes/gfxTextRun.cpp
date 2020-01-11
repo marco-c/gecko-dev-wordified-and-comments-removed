@@ -10667,7 +10667,11 @@ SetInvalid
 (
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

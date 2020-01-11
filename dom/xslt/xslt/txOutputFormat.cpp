@@ -361,7 +361,11 @@ mMethod
 =
 eXMLOutput
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

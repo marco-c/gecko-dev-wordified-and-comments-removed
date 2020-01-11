@@ -14887,7 +14887,11 @@ FCSR_
 0
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ff_round_w_fmt
@@ -15657,7 +15661,11 @@ FCSR_
 0
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ff_round_w_fmt

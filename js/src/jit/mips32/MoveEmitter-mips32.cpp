@@ -227,7 +227,11 @@ int32_t
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MoveOp
@@ -528,7 +532,11 @@ int32_t
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 MoveOp

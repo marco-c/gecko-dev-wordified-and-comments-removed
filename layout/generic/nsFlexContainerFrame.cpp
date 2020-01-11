@@ -12106,7 +12106,11 @@ baseline
 "
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 NS_STYLE_ALIGN_FLEX_START

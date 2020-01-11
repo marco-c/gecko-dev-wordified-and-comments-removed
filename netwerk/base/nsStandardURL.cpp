@@ -2141,7 +2141,11 @@ case
 +
 current
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 8

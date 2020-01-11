@@ -1459,7 +1459,11 @@ return
 NS_OK
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 DBOperation

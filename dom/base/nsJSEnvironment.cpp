@@ -9014,7 +9014,11 @@ CCRunnerState
 :
 LateTimer
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 CCRunnerState

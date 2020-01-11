@@ -151,7 +151,11 @@ MOZ_EXPORT
 #
 define
 V8_FALLTHROUGH
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 #
 define
 FATAL

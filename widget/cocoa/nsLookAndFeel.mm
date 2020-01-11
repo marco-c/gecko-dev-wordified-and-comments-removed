@@ -1653,7 +1653,11 @@ regular
 button
 text
 :
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 ColorID

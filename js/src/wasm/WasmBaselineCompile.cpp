@@ -26792,7 +26792,11 @@ needI32
 (
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 Scalar
@@ -26807,7 +26811,11 @@ needI32
 (
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

@@ -7880,7 +7880,11 @@ mPreserveStream
 =
 true
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 204

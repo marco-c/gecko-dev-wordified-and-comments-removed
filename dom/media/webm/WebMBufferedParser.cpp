@@ -746,7 +746,11 @@ mSize
 mLength
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

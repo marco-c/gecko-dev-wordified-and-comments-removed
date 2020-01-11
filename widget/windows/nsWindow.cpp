@@ -14137,7 +14137,11 @@ return
 pseudoIMEContext
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case
@@ -33895,7 +33899,11 @@ return
 false
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 WM_LBUTTONDOWN

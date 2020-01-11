@@ -18810,7 +18810,11 @@ fts_path
 )
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 FTS_F
@@ -19030,7 +19034,11 @@ OK
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 FTS_ERR

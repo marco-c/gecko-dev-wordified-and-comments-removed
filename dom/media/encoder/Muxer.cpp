@@ -220,7 +220,11 @@ PR_USEC_PER_SEC
 48000
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 }
 case

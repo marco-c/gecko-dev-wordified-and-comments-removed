@@ -9746,7 +9746,11 @@ instead
 .
 .
 .
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

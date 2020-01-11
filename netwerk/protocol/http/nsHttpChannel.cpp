@@ -13549,7 +13549,11 @@ CloseCacheEntry
 false
 )
 ;
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 default
 :

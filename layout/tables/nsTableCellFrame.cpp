@@ -2877,7 +2877,11 @@ GetCellBaseline
 break
 ;
 }
-MOZ_FALLTHROUGH
+[
+[
+fallthrough
+]
+]
 ;
 case
 StyleVerticalAlignKeyword
