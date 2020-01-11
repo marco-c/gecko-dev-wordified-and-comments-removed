@@ -3994,6 +3994,7 @@ coverage
 CollectScriptCoverage
 (
 script
+true
 )
 ;
 }
