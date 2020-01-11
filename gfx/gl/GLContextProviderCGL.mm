@@ -1284,12 +1284,12 @@ NSOpenGLPFAAllowOfflineRenderers
 }
 if
 (
-StaticPrefs
+flags
+&
+CreateContextFlags
 :
 :
-gl_require_hardware
-(
-)
+FORCE_ENABLE_HARDWARE
 )
 {
 attribs
