@@ -24317,7 +24317,7 @@ hasI64ArgOrRet
 |
 sig
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForInlineEntry
 (
 )
 |

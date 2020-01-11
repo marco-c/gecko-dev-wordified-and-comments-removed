@@ -930,7 +930,7 @@ return
 !
 funcType_
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 &

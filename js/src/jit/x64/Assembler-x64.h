@@ -1321,6 +1321,13 @@ ABINonArgReg3
 static
 constexpr
 Register
+WasmJitEntryReturnScratch
+=
+rbx
+;
+static
+constexpr
+Register
 OsrFrameReg
 =
 IntArgReg3

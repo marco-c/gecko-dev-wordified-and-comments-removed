@@ -3323,7 +3323,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 )
@@ -3656,7 +3656,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 ?
@@ -4181,7 +4181,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 ?
@@ -4284,7 +4284,7 @@ funcType
 (
 )
 .
-temporarilyUnsupportedAnyRef
+temporarilyUnsupportedReftypeForEntry
 (
 )
 )
