@@ -126,6 +126,8 @@ SFTKDBHandle
 handle
 CK_OBJECT_HANDLE
 object_id
+CK_OBJECT_CLASS
+objclass
 )
 ;
 CK_RV

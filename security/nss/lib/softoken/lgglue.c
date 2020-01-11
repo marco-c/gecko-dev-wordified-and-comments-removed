@@ -825,8 +825,12 @@ rv
 sftkdb_EncryptAttribute
 (
 arena
+handle
+sdb
 key
 iterationCount
+CK_INVALID_HANDLE
+CKT_INVALID_TYPE
 plainText
 cipherText
 )
@@ -973,6 +977,7 @@ rv
 =
 sftkdb_DecryptAttribute
 (
+NULL
 oldKey
 ?
 oldKey
@@ -982,6 +987,8 @@ handle
 -
 >
 passwordKey
+CK_INVALID_HANDLE
+CKT_INVALID_TYPE
 cipherText
 plainText
 )

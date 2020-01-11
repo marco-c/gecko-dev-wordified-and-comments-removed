@@ -1319,6 +1319,17 @@ recvMessageSeq
 =
 1
 ;
+ss
+-
+>
+ssl3
+.
+hs
+.
+helloRetry
+=
+PR_TRUE
+;
 }
 if
 (

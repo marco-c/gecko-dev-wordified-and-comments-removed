@@ -508,6 +508,10 @@ CKM_INVALID_MECHANISM
 0xffffffffUL
 #
 define
+CKT_INVALID_TYPE
+0xffffffffUL
+#
+define
 CKM_NSS
 (
 CKM_VENDOR_DEFINED
