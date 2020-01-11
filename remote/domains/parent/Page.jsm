@@ -1702,6 +1702,15 @@ return
 retval
 ;
 }
+setInterceptFileChooserDialog
+(
+options
+=
+{
+}
+)
+{
+}
 _onDialogLoaded
 (
 e
