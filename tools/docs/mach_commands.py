@@ -1681,6 +1681,7 @@ version
 .
 startswith
 (
+b
 '
 3
 .
