@@ -219,16 +219,6 @@ PNecko
 parent
 :
 async
-Suspend
-(
-)
-;
-async
-Resume
-(
-)
-;
-async
 Cancel
 (
 nsresult
