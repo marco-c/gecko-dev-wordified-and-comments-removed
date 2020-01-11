@@ -5969,7 +5969,10 @@ Nowrap
 )
 mObjectFit
 (
-NS_STYLE_OBJECT_FIT_FILL
+StyleObjectFit
+:
+:
+Fill
 )
 mOrder
 (

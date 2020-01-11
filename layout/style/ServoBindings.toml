@@ -884,6 +884,12 @@ mozilla
 StyleTextAnchor
 "
 "
+mozilla
+:
+:
+StyleObjectFit
+"
+"
 nsStyleImageType
 "
 "

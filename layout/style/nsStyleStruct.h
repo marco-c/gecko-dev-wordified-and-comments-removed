@@ -4162,7 +4162,10 @@ mozilla
 StyleFlexWrap
 mFlexWrap
 ;
-uint8_t
+mozilla
+:
+:
+StyleObjectFit
 mObjectFit
 ;
 int32_t
