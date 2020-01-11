@@ -689,7 +689,7 @@ asynchronously
 ;
 }
 }
-already_AddRefed
+nsCOMPtr
 <
 nsIFile
 >
@@ -705,6 +705,7 @@ aFileInfo
 {
 FileManager
 *
+const
 fileManager
 =
 aFileInfo
@@ -714,6 +715,7 @@ Manager
 (
 )
 ;
+const
 nsCOMPtr
 <
 nsIFile
@@ -775,10 +777,6 @@ nullptr
 }
 return
 file
-.
-forget
-(
-)
 ;
 }
 }

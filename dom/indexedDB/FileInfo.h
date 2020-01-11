@@ -164,7 +164,7 @@ const
 0
 ;
 static
-already_AddRefed
+nsCOMPtr
 <
 nsIFile
 >
