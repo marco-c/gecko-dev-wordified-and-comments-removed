@@ -1922,19 +1922,14 @@ BlocklistDescriptor
 '
 Launcher
 '
-ALL_DEFINITION_LISTS
-flagspec
-=
-{
-                        
+[
 '
-CHILD_PROCESSES
+ALL_PROCESSES
 '
-:
-{
-CHILD_PROCESSES_ONLY
-}
-}
+'
+BROWSER_PROCESS
+'
+]
 )
     
 BlocklistDescriptor

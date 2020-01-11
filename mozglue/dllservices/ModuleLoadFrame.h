@@ -99,13 +99,7 @@ ModuleLoadFrame
 delete
 ;
 static
-nt
-:
-:
-LoaderAPI
-:
-:
-InitDllBlocklistOOPFnPtr
+void
 StaticInit
 (
 nt
