@@ -3694,6 +3694,7 @@ mHasBeenTypePassword
 }
 protected
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 virtual
 ~
 HTMLInputElement
@@ -4087,6 +4088,7 @@ DoesAutocompleteApply
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 FreeData
 (
