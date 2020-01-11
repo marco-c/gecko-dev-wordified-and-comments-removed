@@ -2243,7 +2243,10 @@ virtual
 void
 SetWindowShadowStyle
 (
-int32_t
+mozilla
+:
+:
+StyleWindowShadow
 aStyle
 )
 =
