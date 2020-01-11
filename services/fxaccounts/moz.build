@@ -98,10 +98,11 @@ BUG_COMPONENT
 =
 (
 '
-Core
+Firefox
 '
 '
-fxAccounts
+Firefox
+Accounts
 '
 )
 DIRS

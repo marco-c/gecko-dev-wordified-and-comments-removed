@@ -246,9 +246,11 @@ BUG_COMPONENT
 =
 (
 '
+Core
+'
+'
 DOM
-'
-'
+:
 Security
 '
 )

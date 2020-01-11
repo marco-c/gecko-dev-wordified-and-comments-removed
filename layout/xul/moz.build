@@ -118,14 +118,9 @@ BUG_COMPONENT
 =
 (
 '
-Core
+Firefox
 '
 '
-XP
-Toolkit
-/
-Widgets
-:
 Menus
 '
 )

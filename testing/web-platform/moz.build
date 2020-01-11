@@ -678,8 +678,7 @@ Core
 "
 Javascript
 :
-Web
-Assembly
+WebAssembly
 "
 )
 with
@@ -4501,6 +4500,8 @@ BUG_COMPONENT
 Core
 "
 "
+DOM
+:
 Geolocation
 "
 )
@@ -5806,7 +5807,7 @@ DOM
 :
 Core
 &
-Html
+HTML
 "
 )
 with
@@ -6324,7 +6325,7 @@ BUG_COMPONENT
 Core
 "
 "
-Javascript
+JavaScript
 Engine
 "
 )
@@ -6689,8 +6690,7 @@ Core
 "
 Javascript
 :
-Web
-Assembly
+WebAssembly
 "
 )
 with
@@ -7023,8 +7023,6 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
 WebVR
 "
 )
@@ -7048,8 +7046,6 @@ BUG_COMPONENT
 Core
 "
 "
-DOM
-:
 WebVR
 "
 )

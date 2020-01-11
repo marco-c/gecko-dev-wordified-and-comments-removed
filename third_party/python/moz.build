@@ -277,7 +277,6 @@ Engineering
 '
 '
 General
-Automation
 '
 )
 with
@@ -323,11 +322,7 @@ for
 Android
 '
 '
-Build
-Config
-&
-IDE
-Support
+General
 '
 )
 with
@@ -424,7 +419,6 @@ Engineering
 '
 '
 General
-Automation
 '
 )
 with
@@ -493,7 +487,6 @@ Engineering
 '
 '
 General
-Automation
 '
 )
 with

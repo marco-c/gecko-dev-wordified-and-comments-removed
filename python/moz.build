@@ -243,10 +243,14 @@ BUG_COMPONENT
 =
 (
 '
-Testing
+Firefox
+Build
+System
 '
 '
-Lint
+Linting
+and
+Formatting
 '
 )
 with
@@ -314,8 +318,7 @@ Release
 Engineering
 '
 '
-Release
-Automation
+General
 '
 )
 with

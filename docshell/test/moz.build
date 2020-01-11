@@ -634,12 +634,12 @@ BUG_COMPONENT
 =
 (
 '
-Core
+Firefox
 '
 '
+Bookmarks
+&
 History
-:
-Global
 '
 )
 with
