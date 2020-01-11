@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-BrowserToolboxProcess
+BrowserToolboxLauncher
 }
 =
 ChromeUtils
@@ -23,7 +23,11 @@ client
 /
 framework
 /
-ToolboxProcess
+browser
+-
+toolbox
+/
+Launcher
 .
 jsm
 "
@@ -161,7 +165,7 @@ onRun
 =
 >
 {
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 init
 (
@@ -187,7 +191,7 @@ n
 ;
 is
 (
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 getBrowserToolboxSessionState
 (
@@ -553,7 +557,7 @@ cleanly
 ;
 is
 (
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 getBrowserToolboxSessionState
 (

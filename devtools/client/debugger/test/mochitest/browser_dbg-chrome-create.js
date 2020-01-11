@@ -24,7 +24,7 @@ requestLongerTimeout
 ;
 const
 {
-BrowserToolboxProcess
+BrowserToolboxLauncher
 }
 =
 ChromeUtils
@@ -42,7 +42,11 @@ client
 /
 framework
 /
-ToolboxProcess
+browser
+-
+toolbox
+/
+Launcher
 .
 jsm
 "
@@ -78,7 +82,7 @@ resolve
 =
 >
 {
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 init
 (

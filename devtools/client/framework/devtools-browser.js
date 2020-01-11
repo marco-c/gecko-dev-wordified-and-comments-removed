@@ -214,7 +214,7 @@ lazyImporter
 (
 this
 "
-BrowserToolboxProcess
+BrowserToolboxLauncher
 "
 "
 resource
@@ -227,7 +227,11 @@ client
 /
 framework
 /
-ToolboxProcess
+browser
+-
+toolbox
+/
+Launcher
 .
 jsm
 "
@@ -1227,7 +1231,7 @@ case
 browserToolbox
 "
 :
-BrowserToolboxProcess
+BrowserToolboxLauncher
 .
 init
 (
