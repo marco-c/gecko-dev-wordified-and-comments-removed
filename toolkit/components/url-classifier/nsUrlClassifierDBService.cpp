@@ -1409,10 +1409,14 @@ gDbBackgroundThread
 nullptr
 ;
 static
+Atomic
+<
 bool
+>
 gShuttingDownThread
-=
+(
 false
+)
 ;
 static
 uint32_t
