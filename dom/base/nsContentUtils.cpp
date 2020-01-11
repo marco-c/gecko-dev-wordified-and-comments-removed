@@ -25127,7 +25127,6 @@ NodePrincipal
 CheckMayLoad
 (
 aLinkURI
-false
 true
 )
 )
@@ -27948,7 +27947,6 @@ CheckMayLoad
 (
 newURI
 false
-false
 )
 ;
 if
@@ -27973,7 +27971,6 @@ oldPrincipal
 CheckMayLoad
 (
 newOriginalURI
-false
 false
 )
 ;
@@ -28621,7 +28618,6 @@ aPrincipal
 CheckMayLoad
 (
 channelURI
-false
 aAllowIfInheritsPrincipal
 )
 )
@@ -31565,7 +31561,6 @@ aLoadingPrincipal
 CheckMayLoad
 (
 aURI
-false
 false
 )
 )

@@ -4424,11 +4424,11 @@ rv
 principal
 -
 >
-CheckMayLoad
+CheckMayLoadWithReporting
 (
 scopeURI
-true
 false
+0
 )
 ;
 if
@@ -4724,11 +4724,11 @@ rv
 principal
 -
 >
-CheckMayLoad
+CheckMayLoadWithReporting
 (
 uri
-true
 false
+0
 )
 ;
 if
