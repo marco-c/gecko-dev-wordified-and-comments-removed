@@ -2558,7 +2558,7 @@ GetStringFromName
 "
 account
 .
-settings
+accountSettings
 "
 )
 ;
