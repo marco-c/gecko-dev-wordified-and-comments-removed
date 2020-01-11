@@ -1235,7 +1235,8 @@ self
 .
 assertEqual
 (
-[
+sorted
+(
 dest
 for
 dest
@@ -1243,7 +1244,7 @@ in
 m
 .
 _dests
-]
+)
                          
 [
 '

@@ -1887,6 +1887,9 @@ file
 .
 open
 (
+'
+rt
+'
 )
 .
 read
@@ -1945,6 +1948,9 @@ file
 .
 open
 (
+'
+rt
+'
 )
 .
 read
@@ -2208,6 +2214,9 @@ file
 .
 open
 (
+'
+rt
+'
 )
 )
 :
