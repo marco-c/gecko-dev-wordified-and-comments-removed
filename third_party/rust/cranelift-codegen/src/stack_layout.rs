@@ -56,6 +56,9 @@ frame
 &
 mut
 StackSlots
+is_leaf
+:
+bool
 alignment
 :
 StackSize
@@ -112,6 +115,12 @@ mut
 min_align
 =
 alignment
+;
+let
+mut
+must_align
+=
+is_leaf
 ;
 for
 slot
@@ -210,7 +219,16 @@ outgoing_max
 offset
 )
 ;
+must_align
+=
+true
+;
 }
+StackSlotKind
+:
+:
+StructReturnSlot
+|
 StackSlotKind
 :
 :
@@ -236,6 +254,10 @@ alignment
 (
 min_align
 )
+;
+must_align
+=
+true
 ;
 }
 }
@@ -280,6 +302,11 @@ StackSlotKind
 :
 :
 SpillSlot
+|
+StackSlotKind
+:
+:
+StructReturnSlot
 |
 StackSlotKind
 :
@@ -387,6 +414,9 @@ ImplLimitExceeded
 )
 ?
 ;
+if
+must_align
+{
 offset
 &
 =
@@ -397,6 +427,7 @@ as
 StackOffset
 )
 ;
+}
 let
 frame_size
 =
@@ -504,12 +535,18 @@ new
 (
 )
 ;
+let
+is_leaf
+=
+true
+;
 assert_eq
 !
 (
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Ok
@@ -524,6 +561,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 16
 )
 Ok
@@ -566,6 +604,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Ok
@@ -580,6 +619,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 16
 )
 Ok
@@ -650,6 +690,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Ok
@@ -726,6 +767,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 16
 )
 Ok
@@ -817,6 +859,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Ok
@@ -909,6 +952,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 16
 )
 Ok
@@ -1015,6 +1059,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Ok
@@ -1122,6 +1167,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 16
 )
 Ok
@@ -1247,6 +1293,7 @@ assert_eq
 layout_stack
 (
 sss
+is_leaf
 1
 )
 Err
@@ -1342,6 +1389,7 @@ assert_eq
 layout_stack
 (
 sss
+true
 1
 )
 Ok

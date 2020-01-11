@@ -192,7 +192,7 @@ i64
 >
 Self
 {
-Imm64
+Self
 (
 x
 )
@@ -207,7 +207,7 @@ self
 >
 Self
 {
-Imm64
+Self
 (
 self
 .
@@ -290,7 +290,7 @@ i64
 >
 Self
 {
-Imm64
+Self
 (
 x
 )
@@ -548,7 +548,7 @@ u64
 >
 Self
 {
-Uimm64
+Self
 (
 x
 )
@@ -563,7 +563,7 @@ self
 >
 Self
 {
-Uimm64
+Self
 (
 self
 .
@@ -616,7 +616,7 @@ u64
 >
 Self
 {
-Uimm64
+Self
 (
 x
 )
@@ -1234,7 +1234,7 @@ u32
 >
 Self
 {
-Uimm32
+Self
 (
 x
 )
@@ -1367,7 +1367,7 @@ MAX
 {
 Ok
 (
-Uimm32
+Self
 (
 x
 as
@@ -1542,7 +1542,7 @@ copy_from_slice
 slice
 )
 ;
-V128Imm
+Self
 (
 buffer
 )
@@ -1582,7 +1582,7 @@ i32
 >
 Self
 {
-Offset32
+Self
 (
 x
 )
@@ -1756,7 +1756,7 @@ i32
 >
 Self
 {
-Offset32
+Self
 (
 x
 )
@@ -3472,7 +3472,7 @@ u32
 >
 Self
 {
-Ieee32
+Self
 (
 x
 )
@@ -3582,7 +3582,7 @@ n
 n
 )
 ;
-Ieee32
+Self
 (
 exponent
 <
@@ -3691,7 +3691,7 @@ self
 >
 Self
 {
-Ieee32
+Self
 (
 self
 .
@@ -3717,7 +3717,7 @@ f32
 >
 Self
 {
-Ieee32
+Self
 (
 x
 .
@@ -3836,7 +3836,7 @@ b
 >
 Ok
 (
-Ieee32
+Self
 (
 b
 as
@@ -3875,7 +3875,7 @@ f32
 >
 Self
 {
-Ieee32
+Self
 :
 :
 with_float
@@ -3929,7 +3929,7 @@ u64
 >
 Self
 {
-Ieee64
+Self
 (
 x
 )
@@ -4039,7 +4039,7 @@ n
 n
 )
 ;
-Ieee64
+Self
 (
 exponent
 <
@@ -4148,7 +4148,7 @@ self
 >
 Self
 {
-Ieee64
+Self
 (
 self
 .
@@ -4174,7 +4174,7 @@ f64
 >
 Self
 {
-Ieee64
+Self
 (
 x
 .
@@ -4287,7 +4287,7 @@ b
 >
 Ok
 (
-Ieee64
+Self
 (
 b
 )
@@ -4324,7 +4324,7 @@ f64
 >
 Self
 {
-Ieee64
+Self
 :
 :
 with_float
@@ -4352,7 +4352,7 @@ u64
 >
 Self
 {
-Ieee64
+Self
 :
 :
 with_float

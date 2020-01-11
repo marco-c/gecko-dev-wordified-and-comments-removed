@@ -16,6 +16,9 @@ RegClassBuilder
 }
 ;
 pub
+(
+crate
+)
 fn
 define
 (

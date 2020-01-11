@@ -112,7 +112,7 @@ match
 *
 self
 {
-GlobalValueData
+Self
 :
 :
 Symbol
@@ -160,7 +160,7 @@ match
 *
 self
 {
-GlobalValueData
+Self
 :
 :
 VMContext
@@ -169,7 +169,7 @@ VMContext
 .
 }
 |
-GlobalValueData
+Self
 :
 :
 Symbol
@@ -179,14 +179,12 @@ Symbol
 }
 =
 >
-{
 isa
 .
 pointer_type
 (
 )
-}
-GlobalValueData
+Self
 :
 :
 IAddImm
@@ -196,7 +194,7 @@ global_type
 .
 }
 |
-GlobalValueData
+Self
 :
 :
 Load
@@ -244,7 +242,7 @@ match
 *
 self
 {
-GlobalValueData
+Self
 :
 :
 VMContext
@@ -258,7 +256,7 @@ f
 vmctx
 "
 )
-GlobalValueData
+Self
 :
 :
 Load
@@ -304,7 +302,7 @@ else
 base
 offset
 )
-GlobalValueData
+Self
 :
 :
 IAddImm
@@ -333,7 +331,7 @@ global_type
 base
 offset
 )
-GlobalValueData
+Self
 :
 :
 Symbol

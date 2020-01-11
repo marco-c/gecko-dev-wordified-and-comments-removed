@@ -183,6 +183,7 @@ SpillSlot
 ExplicitSlot
 IncomingArg
 OutgoingArg
+StructReturnSlot
 EmergencySlot
 }
 impl
@@ -260,6 +261,15 @@ outgoing_arg
 Ok
 (
 OutgoingArg
+)
+"
+sret_slot
+"
+=
+>
+Ok
+(
+StructReturnSlot
 )
 "
 emergency_slot
@@ -350,6 +360,12 @@ OutgoingArg
 >
 "
 outgoing_arg
+"
+StructReturnSlot
+=
+>
+"
+sret_slot
 "
 EmergencySlot
 =

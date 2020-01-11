@@ -90,7 +90,7 @@ cloned
 (
 )
 .
-filter
+find
 (
 |
 isa
@@ -103,10 +103,6 @@ to_string
 =
 =
 name
-)
-.
-next
-(
 )
 }
 pub
@@ -355,10 +351,9 @@ define
 isas
 :
 &
-Vec
-<
+[
 Isa
->
+]
 shared_defs
 :
 &

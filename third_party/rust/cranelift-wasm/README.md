@@ -54,7 +54,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 wasmtime
 [

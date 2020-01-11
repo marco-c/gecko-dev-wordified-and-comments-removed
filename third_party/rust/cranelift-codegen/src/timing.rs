@@ -574,7 +574,7 @@ default
 >
 Self
 {
-PassTimes
+Self
 {
 pass
 :

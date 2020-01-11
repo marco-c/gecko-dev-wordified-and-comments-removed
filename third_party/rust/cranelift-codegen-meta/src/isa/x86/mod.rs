@@ -164,7 +164,7 @@ all_instructions
 &
 shared_defs
 .
-format_registry
+formats
 &
 shared_defs
 .

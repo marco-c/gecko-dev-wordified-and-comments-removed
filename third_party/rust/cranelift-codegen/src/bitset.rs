@@ -445,7 +445,7 @@ lo
 -
 one
 ;
-BitSet
+Self
 (
 hi_rng
 -

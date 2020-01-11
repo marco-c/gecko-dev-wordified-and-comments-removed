@@ -116,7 +116,7 @@ empty_line_after_outer_attr
 clippy
 :
 :
-cyclomatic_complexity
+cognitive_complexity
 clippy
 :
 :
@@ -129,10 +129,6 @@ clippy
 :
 :
 new_without_default
-clippy
-:
-:
-new_without_default_derive
 clippy
 :
 :
@@ -178,10 +174,6 @@ clippy
 :
 :
 option_map_unwrap_or_else
-clippy
-:
-:
-print_allocout
 clippy
 :
 :

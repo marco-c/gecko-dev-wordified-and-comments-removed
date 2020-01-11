@@ -597,8 +597,9 @@ byte
 0
 )
 .
-map
+map_or
 (
+0
 |
 (
 i
@@ -622,11 +623,6 @@ leading_zeros
 )
 as
 usize
-)
-.
-unwrap_or
-(
-0
 )
 ;
 Some

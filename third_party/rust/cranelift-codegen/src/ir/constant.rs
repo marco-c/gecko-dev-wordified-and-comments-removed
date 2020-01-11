@@ -152,7 +152,7 @@ collect
 (
 )
 ;
-ConstantData
+Self
 (
 v
 )
@@ -277,7 +277,7 @@ len
 }
 pub
 fn
-to_vec
+into_vec
 (
 self
 )
@@ -647,12 +647,9 @@ collect
 if
 cleaned
 .
-len
+is_empty
 (
 )
-=
-=
-0
 {
 Err
 (
@@ -847,7 +844,7 @@ byte
 }
 Ok
 (
-ConstantData
+Self
 (
 buffer
 )
@@ -1055,6 +1052,7 @@ contains_key
 constant_value
 )
 {
+*
 self
 .
 values_to_handles
@@ -1066,10 +1064,6 @@ constant_value
 )
 .
 unwrap
-(
-)
-.
-clone
 (
 )
 }
@@ -1102,10 +1096,6 @@ clone
 (
 )
 constant_handle
-.
-clone
-(
-)
 )
 ;
 self
@@ -1115,10 +1105,6 @@ handles_to_values
 insert
 (
 constant_handle
-.
-clone
-(
-)
 ConstantPoolEntry
 :
 :
@@ -2383,7 +2369,7 @@ assert_eq
 (
 e
 .
-to_vec
+into_vec
 (
 )
 vec
@@ -2433,7 +2419,7 @@ expand_to
 4
 )
 .
-to_vec
+into_vec
 (
 )
 vec
@@ -2773,7 +2759,7 @@ unwrap
 (
 )
 .
-to_vec
+into_vec
 (
 )
 [
@@ -2878,7 +2864,7 @@ expand_to
 16
 )
 .
-to_vec
+into_vec
 (
 )
 }

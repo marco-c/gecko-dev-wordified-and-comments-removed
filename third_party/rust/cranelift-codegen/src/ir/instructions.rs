@@ -418,7 +418,7 @@ new
 >
 Self
 {
-VariableArgs
+Self
 (
 Vec
 :
@@ -725,7 +725,7 @@ match
 *
 self
 {
-InstructionData
+Self
 :
 :
 Jump
@@ -751,7 +751,7 @@ as_slice
 pool
 )
 )
-InstructionData
+Self
 :
 :
 BranchInt
@@ -763,7 +763,7 @@ args
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchFloat
@@ -775,7 +775,7 @@ args
 .
 }
 |
-InstructionData
+Self
 :
 :
 Branch
@@ -807,7 +807,7 @@ pool
 .
 ]
 )
-InstructionData
+Self
 :
 :
 BranchIcmp
@@ -839,7 +839,7 @@ pool
 .
 ]
 )
-InstructionData
+Self
 :
 :
 BranchTable
@@ -862,7 +862,7 @@ Some
 destination
 )
 )
-InstructionData
+Self
 :
 :
 IndirectJump
@@ -925,7 +925,7 @@ match
 *
 self
 {
-InstructionData
+Self
 :
 :
 Jump
@@ -935,7 +935,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 Branch
@@ -945,7 +945,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchInt
@@ -955,7 +955,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchFloat
@@ -965,7 +965,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchIcmp
@@ -980,7 +980,7 @@ Some
 (
 destination
 )
-InstructionData
+Self
 :
 :
 BranchTable
@@ -989,7 +989,7 @@ BranchTable
 .
 }
 |
-InstructionData
+Self
 :
 :
 IndirectJump
@@ -1044,7 +1044,7 @@ match
 *
 self
 {
-InstructionData
+Self
 :
 :
 Jump
@@ -1056,7 +1056,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 Branch
@@ -1068,7 +1068,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchInt
@@ -1080,7 +1080,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchFloat
@@ -1092,7 +1092,7 @@ destination
 .
 }
 |
-InstructionData
+Self
 :
 :
 BranchIcmp
@@ -1109,7 +1109,7 @@ Some
 (
 destination
 )
-InstructionData
+Self
 :
 :
 BranchTable
@@ -1174,7 +1174,7 @@ match
 *
 self
 {
-InstructionData
+Self
 :
 :
 Call
@@ -1200,7 +1200,7 @@ as_slice
 pool
 )
 )
-InstructionData
+Self
 :
 :
 CallIndirect

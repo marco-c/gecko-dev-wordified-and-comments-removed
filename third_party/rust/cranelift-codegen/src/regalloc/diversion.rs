@@ -914,7 +914,7 @@ let
 mut
 entry_divert
 =
-RegDiversions
+Self
 :
 :
 new
@@ -1053,9 +1053,7 @@ false
 ;
 }
 }
-return
 true
-;
 }
 pub
 fn
@@ -1117,7 +1115,7 @@ new
 >
 Self
 {
-EntryRegDiversions
+Self
 {
 map
 :

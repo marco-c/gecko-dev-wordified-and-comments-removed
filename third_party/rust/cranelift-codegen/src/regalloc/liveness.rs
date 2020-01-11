@@ -1233,7 +1233,6 @@ Value
 &
 LiveRange
 {
-match
 self
 .
 ranges
@@ -1242,17 +1241,11 @@ get
 (
 index
 )
-{
-Some
+.
+unwrap_or_else
 (
-lr
-)
-=
->
-lr
-None
-=
->
+|
+|
 panic
 !
 (
@@ -1266,6 +1259,6 @@ range
 "
 index
 )
-}
+)
 }
 }

@@ -297,7 +297,7 @@ match
 *
 self
 {
-BlockData
+Self
 :
 :
 EbbBody
@@ -324,7 +324,7 @@ body
 block
 "
 )
-BlockData
+Self
 :
 :
 EbbHeader
@@ -390,7 +390,7 @@ match
 *
 self
 {
-BlockData
+Self
 :
 :
 EbbBody
@@ -409,7 +409,7 @@ not
 happen
 "
 )
-BlockData
+Self
 :
 :
 EbbHeader
@@ -598,7 +598,7 @@ usize
 )
 )
 ;
-Block
+Self
 (
 index
 as
@@ -634,7 +634,7 @@ reserved_value
 >
 Self
 {
-Block
+Self
 (
 u32
 :

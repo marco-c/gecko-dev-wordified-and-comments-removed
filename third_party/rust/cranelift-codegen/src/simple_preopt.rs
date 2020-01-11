@@ -3705,15 +3705,15 @@ arg
 }
 =
 >
-match
-opcode
 {
+if
+let
 Opcode
 :
 :
 AdjustSpDown
 =
->
+opcode
 {
 if
 let
@@ -3750,11 +3750,6 @@ imm
 )
 ;
 }
-}
-_
-=
->
-{
 }
 }
 InstructionData
@@ -3881,8 +3876,8 @@ opcode
 =
 *
 prev_opcode
-{
-if
+&
+&
 ty
 =
 =
@@ -4041,7 +4036,6 @@ arg
 =
 new_arg
 ;
-}
 }
 }
 }
@@ -4220,8 +4214,6 @@ inst
 arg
 )
 ;
-return
-;
 }
 (
 Opcode
@@ -4258,8 +4250,6 @@ ty
 0
 )
 ;
-return
-;
 }
 (
 Opcode
@@ -4289,8 +4279,6 @@ ty
 -
 1
 )
-;
-return
 ;
 }
 _
@@ -4763,8 +4751,6 @@ br_inst
 :
 inst
 cmp_arg
-:
-cmp_arg
 args
 :
 br_args
@@ -4772,8 +4758,6 @@ br_args
 clone
 (
 )
-new_opcode
-:
 new_opcode
 }
 }

@@ -223,7 +223,7 @@ match
 *
 self
 {
-Reloc
+Self
 :
 :
 Abs4
@@ -237,7 +237,7 @@ f
 Abs4
 "
 )
-Reloc
+Self
 :
 :
 Abs8
@@ -251,7 +251,7 @@ f
 Abs8
 "
 )
-Reloc
+Self
 :
 :
 X86PCRel4
@@ -265,7 +265,7 @@ f
 PCRel4
 "
 )
-Reloc
+Self
 :
 :
 X86PCRelRodata4
@@ -279,7 +279,7 @@ f
 PCRelRodata4
 "
 )
-Reloc
+Self
 :
 :
 X86CallPCRel4
@@ -293,7 +293,7 @@ f
 CallPCRel4
 "
 )
-Reloc
+Self
 :
 :
 X86CallPLTRel4
@@ -307,7 +307,7 @@ f
 CallPLTRel4
 "
 )
-Reloc
+Self
 :
 :
 X86GOTPCRel4
@@ -321,17 +321,17 @@ f
 GOTPCRel4
 "
 )
-Reloc
+Self
 :
 :
 Arm32Call
 |
-Reloc
+Self
 :
 :
 Arm64Call
 |
-Reloc
+Self
 :
 :
 RiscvCall

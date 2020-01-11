@@ -14,6 +14,9 @@ SettingGroupBuilder
 }
 ;
 pub
+(
+crate
+)
 fn
 define
 (

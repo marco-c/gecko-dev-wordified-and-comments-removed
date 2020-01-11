@@ -1070,13 +1070,8 @@ iter
 )
 )
 .
-map
+copied
 (
-|
-x
-|
-*
-x
 )
 .
 collect
@@ -1221,9 +1216,7 @@ first_dest
 )
 ;
 }
-return
 true
-;
 }
 #
 [

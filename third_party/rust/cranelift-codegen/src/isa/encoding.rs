@@ -350,6 +350,7 @@ fn
 (
 &
 RecipeSizing
+Encoding
 Inst
 &
 RegDiversions
@@ -368,6 +369,9 @@ sizing
 :
 &
 RecipeSizing
+_
+:
+Encoding
 _
 :
 Inst
@@ -573,6 +577,7 @@ compute_size
 (
 &
 s
+enc
 inst
 divert
 func

@@ -198,7 +198,7 @@ Probestack
 >
 Ok
 (
-LibCall
+Self
 :
 :
 Probestack
@@ -210,7 +210,7 @@ CeilF32
 >
 Ok
 (
-LibCall
+Self
 :
 :
 CeilF32
@@ -222,7 +222,7 @@ CeilF64
 >
 Ok
 (
-LibCall
+Self
 :
 :
 CeilF64
@@ -234,7 +234,7 @@ FloorF32
 >
 Ok
 (
-LibCall
+Self
 :
 :
 FloorF32
@@ -246,7 +246,7 @@ FloorF64
 >
 Ok
 (
-LibCall
+Self
 :
 :
 FloorF64
@@ -258,7 +258,7 @@ TruncF32
 >
 Ok
 (
-LibCall
+Self
 :
 :
 TruncF32
@@ -270,7 +270,7 @@ TruncF64
 >
 Ok
 (
-LibCall
+Self
 :
 :
 TruncF64
@@ -282,7 +282,7 @@ NearestF32
 >
 Ok
 (
-LibCall
+Self
 :
 :
 NearestF32
@@ -294,7 +294,7 @@ NearestF64
 >
 Ok
 (
-LibCall
+Self
 :
 :
 NearestF64
@@ -306,7 +306,7 @@ Memcpy
 >
 Ok
 (
-LibCall
+Self
 :
 :
 Memcpy
@@ -318,7 +318,7 @@ Memset
 >
 Ok
 (
-LibCall
+Self
 :
 :
 Memset
@@ -330,7 +330,7 @@ Memmove
 >
 Ok
 (
-LibCall
+Self
 :
 :
 Memmove
@@ -387,7 +387,7 @@ Opcode
 Ceil
 =
 >
-LibCall
+Self
 :
 :
 CeilF32
@@ -397,7 +397,7 @@ Opcode
 Floor
 =
 >
-LibCall
+Self
 :
 :
 FloorF32
@@ -407,7 +407,7 @@ Opcode
 Trunc
 =
 >
-LibCall
+Self
 :
 :
 TruncF32
@@ -417,7 +417,7 @@ Opcode
 Nearest
 =
 >
-LibCall
+Self
 :
 :
 NearestF32
@@ -442,7 +442,7 @@ Opcode
 Ceil
 =
 >
-LibCall
+Self
 :
 :
 CeilF64
@@ -452,7 +452,7 @@ Opcode
 Floor
 =
 >
-LibCall
+Self
 :
 :
 FloorF64
@@ -462,7 +462,7 @@ Opcode
 Trunc
 =
 >
-LibCall
+Self
 :
 :
 TruncF64
@@ -472,7 +472,7 @@ Opcode
 Nearest
 =
 >
-LibCall
+Self
 :
 :
 NearestF64

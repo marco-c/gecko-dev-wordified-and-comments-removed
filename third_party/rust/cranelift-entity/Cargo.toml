@@ -23,9 +23,9 @@ version
 "
 0
 .
-46
+49
 .
-1
+0
 "
 description
 =
@@ -77,7 +77,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 cranelift
 "
@@ -173,7 +173,7 @@ ci
 repository
 =
 "
-CraneStation
+bytecodealliance
 /
 cranelift
 "

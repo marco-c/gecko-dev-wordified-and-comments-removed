@@ -375,13 +375,8 @@ get
 typ
 )
 .
-map
+copied
 (
-|
-x
-|
-*
-x
 )
 .
 unwrap_or_else

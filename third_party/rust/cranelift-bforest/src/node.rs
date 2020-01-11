@@ -29,6 +29,13 @@ core
 :
 fmt
 ;
+#
+[
+allow
+(
+dead_code
+)
+]
 pub
 (
 super
@@ -161,7 +168,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Free
@@ -193,7 +200,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -213,7 +220,7 @@ size
 )
 +
 1
-NodeData
+Self
 :
 :
 Leaf
@@ -231,7 +238,7 @@ from
 (
 size
 )
-NodeData
+Self
 :
 :
 Free
@@ -289,7 +296,7 @@ tree
 =
 left
 ;
-NodeData
+Self
 :
 :
 Inner
@@ -330,7 +337,7 @@ Value
 >
 Self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -385,7 +392,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -474,7 +481,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -583,7 +590,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -681,7 +688,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -759,7 +766,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -932,7 +939,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -1097,7 +1104,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -1245,7 +1252,7 @@ l_ents
 ]
 rhs_data
 :
-NodeData
+Self
 :
 :
 Inner
@@ -1268,7 +1275,7 @@ r_tree
 }
 }
 }
-NodeData
+Self
 :
 :
 Leaf
@@ -1432,7 +1439,7 @@ l_size
 ]
 rhs_data
 :
-NodeData
+Self
 :
 :
 Leaf
@@ -1484,7 +1491,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -1639,7 +1646,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Leaf
@@ -1789,7 +1796,7 @@ rhs
 (
 &
 mut
-NodeData
+Self
 :
 :
 Inner
@@ -1812,7 +1819,7 @@ l_tree
 }
 &
 mut
-NodeData
+Self
 :
 :
 Inner
@@ -2161,7 +2168,7 @@ new_crit
 (
 &
 mut
-NodeData
+Self
 :
 :
 Leaf
@@ -2184,7 +2191,7 @@ l_vals
 }
 &
 mut
-NodeData
+Self
 :
 :
 Leaf
@@ -2652,14 +2659,14 @@ removed
 =
 new_size
 {
-Removed
+Self
 :
 :
 Rightmost
 }
 else
 {
-Removed
+Self
 :
 :
 Healthy
@@ -2671,14 +2678,14 @@ new_size
 >
 0
 {
-Removed
+Self
 :
 :
 Underflow
 }
 else
 {
-Removed
+Self
 :
 :
 Empty
@@ -2852,7 +2859,7 @@ match
 *
 self
 {
-NodeData
+Self
 :
 :
 Inner
@@ -2927,7 +2934,7 @@ f
 "
 )
 }
-NodeData
+Self
 :
 :
 Leaf
@@ -3017,7 +3024,7 @@ f
 "
 )
 }
-NodeData
+Self
 :
 :
 Free
@@ -3046,7 +3053,7 @@ free
 "
 n
 )
-NodeData
+Self
 :
 :
 Free

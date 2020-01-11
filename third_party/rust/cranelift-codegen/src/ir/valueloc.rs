@@ -103,7 +103,7 @@ default
 >
 Self
 {
-ValueLoc
+Self
 :
 :
 Unassigned
@@ -125,7 +125,7 @@ bool
 match
 self
 {
-ValueLoc
+Self
 :
 :
 Unassigned
@@ -151,7 +151,7 @@ RegUnit
 match
 self
 {
-ValueLoc
+Self
 :
 :
 Reg
@@ -193,7 +193,7 @@ StackSlot
 match
 self
 {
-ValueLoc
+Self
 :
 :
 Stack
@@ -452,7 +452,7 @@ default
 >
 Self
 {
-ArgumentLoc
+Self
 :
 :
 Unassigned
@@ -474,7 +474,7 @@ bool
 match
 self
 {
-ArgumentLoc
+Self
 :
 :
 Unassigned
@@ -500,7 +500,7 @@ bool
 match
 self
 {
-ArgumentLoc
+Self
 :
 :
 Reg
@@ -529,7 +529,7 @@ bool
 match
 self
 {
-ArgumentLoc
+Self
 :
 :
 Stack

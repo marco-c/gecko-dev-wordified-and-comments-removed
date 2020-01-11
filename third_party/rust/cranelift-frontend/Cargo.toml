@@ -23,9 +23,9 @@ version
 "
 0
 .
-46
+49
 .
-1
+0
 "
 description
 =
@@ -82,7 +82,7 @@ github
 .
 com
 /
-CraneStation
+bytecodealliance
 /
 cranelift
 "
@@ -121,9 +121,9 @@ version
 "
 0
 .
-46
+49
 .
-1
+0
 "
 default
 -
@@ -138,9 +138,7 @@ lexicon
 "
 0
 .
-8
-.
-1
+9
 "
 log
 =
@@ -180,11 +178,11 @@ smallvec
 version
 =
 "
+1
+.
 0
 .
-6
-.
-10
+0
 "
 }
 [
@@ -271,7 +269,7 @@ ci
 repository
 =
 "
-CraneStation
+bytecodealliance
 /
 cranelift
 "

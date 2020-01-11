@@ -44,6 +44,9 @@ build
 -
 target
 trip
+-
+-
+all
 cp
 target
 /

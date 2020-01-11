@@ -64,7 +64,7 @@ default
 >
 Self
 {
-Affinity
+Self
 :
 :
 Unassigned
@@ -97,14 +97,14 @@ ConstraintKind
 :
 Stack
 {
-Affinity
+Self
 :
 :
 Stack
 }
 else
 {
-Affinity
+Self
 :
 :
 Reg
@@ -148,7 +148,7 @@ ArgumentLoc
 Unassigned
 =
 >
-Affinity
+Self
 :
 :
 Unassigned
@@ -161,7 +161,7 @@ _
 )
 =
 >
-Affinity
+Self
 :
 :
 Reg
@@ -188,7 +188,7 @@ _
 )
 =
 >
-Affinity
+Self
 :
 :
 Stack
@@ -207,7 +207,7 @@ bool
 match
 self
 {
-Affinity
+Self
 :
 :
 Unassigned
@@ -233,7 +233,7 @@ bool
 match
 self
 {
-Affinity
+Self
 :
 :
 Reg
@@ -262,7 +262,7 @@ bool
 match
 self
 {
-Affinity
+Self
 :
 :
 Stack
@@ -296,7 +296,7 @@ match
 *
 self
 {
-Affinity
+Self
 :
 :
 Unassigned
@@ -312,7 +312,7 @@ new
 (
 constraint
 )
-Affinity
+Self
 :
 :
 Reg
@@ -368,7 +368,7 @@ rc
 *
 self
 =
-Affinity
+Self
 :
 :
 Reg
@@ -379,7 +379,7 @@ subclass
 }
 }
 }
-Affinity
+Self
 :
 :
 Stack

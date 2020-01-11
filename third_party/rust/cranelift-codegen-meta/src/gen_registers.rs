@@ -64,15 +64,14 @@ let
 names
 =
 if
+!
 reg_bank
 .
 names
 .
-len
+is_empty
 (
 )
->
-0
 {
 format
 !

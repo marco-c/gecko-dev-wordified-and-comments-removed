@@ -59,6 +59,16 @@ h
 as
 usize
 }
+#
+[
+allow
+(
+clippy
+:
+:
+float_arithmetic
+)
+]
 pub
 fn
 generate_table

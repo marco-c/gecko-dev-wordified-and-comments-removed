@@ -124,7 +124,10 @@ isa
 encoding
 :
 :
+{
+Encoding
 RecipeSizing
+}
 ;
 use
 crate
@@ -374,6 +377,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst
@@ -410,6 +416,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst
@@ -446,6 +455,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst
@@ -482,6 +494,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst
@@ -518,6 +533,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst
@@ -554,6 +572,9 @@ sizing
 :
 &
 RecipeSizing
+_enc
+:
+Encoding
 inst
 :
 Inst

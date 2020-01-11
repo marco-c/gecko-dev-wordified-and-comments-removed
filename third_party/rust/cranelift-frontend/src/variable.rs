@@ -57,7 +57,7 @@ u32
 MAX
 )
 ;
-Variable
+Self
 (
 index
 )
@@ -94,7 +94,7 @@ usize
 )
 )
 ;
-Variable
+Self
 (
 index
 as

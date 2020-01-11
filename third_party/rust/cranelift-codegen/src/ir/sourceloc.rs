@@ -77,7 +77,7 @@ u32
 >
 Self
 {
-SourceLoc
+Self
 (
 bits
 )
@@ -130,7 +130,7 @@ default
 >
 Self
 {
-SourceLoc
+Self
 (
 !
 0
