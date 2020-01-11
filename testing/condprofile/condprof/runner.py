@@ -1103,16 +1103,23 @@ all
 "
 :
             
-return
-await
-one_run
-(
+selected_scenario
+=
+[
 args
 .
 scenario
-args
+]
+        
+else
+:
+            
+selected_scenario
+=
+scenarii
 .
-customization
+keys
+(
 )
         
 res
@@ -1120,14 +1127,14 @@ res
 [
 ]
         
+failures
+=
+0
+        
 for
 scenario
 in
-scenarii
-.
-keys
-(
-)
+selected_scenario
 :
             
 if
@@ -1162,6 +1169,11 @@ except
 Exception
 :
                     
+failures
++
+=
+1
+                    
 ERROR
 (
 "
@@ -1194,6 +1206,17 @@ get_customizations
 )
 :
                     
+LOG
+(
+"
+Customization
+%
+s
+"
+%
+customization
+)
+                    
 try
 :
                         
@@ -1212,6 +1235,11 @@ customization
 except
 Exception
 :
+                        
+failures
++
+=
+1
                         
 ERROR
 (
@@ -1235,11 +1263,23 @@ strict
 raise
         
 return
+failures
+[
+one_res
+for
+one_res
+in
 res
+if
+one_res
+]
     
 try
 :
         
+failures
+results
+=
 loop
 .
 run_until_complete
@@ -1272,6 +1312,24 @@ save
 args
 .
 archive
+)
+        
+if
+failures
+>
+0
+:
+            
+raise
+Exception
+(
+"
+At
+least
+one
+scenario
+failed
+"
 )
     
 finally
