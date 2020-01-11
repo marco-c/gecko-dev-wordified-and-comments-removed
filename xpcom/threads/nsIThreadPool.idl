@@ -120,7 +120,6 @@ nsIEventTarget
 idl
 "
 [
-scriptable
 uuid
 (
 ef194cab
@@ -262,8 +261,6 @@ thread
 *
 /
 [
-builtinclass
-scriptable
 uuid
 (
 76ce99c9
