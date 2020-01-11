@@ -3430,6 +3430,15 @@ false
 features
 -
 >
+setDataFasterThanImageUploadOn128bitFormats
+.
+enabled
+=
+false
+;
+features
+-
+>
 useInstancedPointSpriteEmulation
 .
 enabled

@@ -8854,6 +8854,15 @@ true
 features
 -
 >
+setDataFasterThanImageUploadOn128bitFormats
+.
+enabled
+=
+true
+;
+features
+-
+>
 zeroMaxLodWorkaround
 .
 enabled
@@ -9172,7 +9181,7 @@ IntelDriverVersion
 features
 -
 >
-setDataFasterThanImageUpload
+setDataFasterThanImageUploadOn128bitFormats
 .
 enabled
 =
