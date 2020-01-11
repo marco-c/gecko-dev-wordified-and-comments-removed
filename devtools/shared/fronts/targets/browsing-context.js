@@ -571,7 +571,6 @@ console
 .
 warn
 (
-"
 Error
 while
 detaching
@@ -581,8 +580,11 @@ context
 target
 front
 :
-"
+{
 e
+.
+message
+}
 )
 ;
 }

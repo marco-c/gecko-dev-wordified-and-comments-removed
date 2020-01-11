@@ -406,7 +406,6 @@ console
 .
 warn
 (
-"
 Error
 while
 detaching
@@ -415,8 +414,11 @@ worker
 target
 front
 :
-"
+{
 e
+.
+message
+}
 )
 ;
 }
