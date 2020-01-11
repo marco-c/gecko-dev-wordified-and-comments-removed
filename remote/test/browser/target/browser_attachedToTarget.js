@@ -14,12 +14,6 @@ Target
 }
 )
 {
-await
-getDiscoveredTargets
-(
-Target
-)
-;
 const
 {
 targetInfo

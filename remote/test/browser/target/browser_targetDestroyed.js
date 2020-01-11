@@ -16,12 +16,6 @@ _
 tab
 )
 {
-await
-getDiscoveredTargets
-(
-Target
-)
-;
 const
 {
 newTab

@@ -16,12 +16,6 @@ _
 tab
 )
 {
-await
-getDiscoveredTargets
-(
-Target
-)
-;
 let
 errorThrown
 =
@@ -76,12 +70,6 @@ _
 tab
 )
 {
-await
-getDiscoveredTargets
-(
-Target
-)
-;
 let
 errorThrown
 =
