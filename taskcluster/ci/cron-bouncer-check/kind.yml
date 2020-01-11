@@ -218,6 +218,14 @@ release
 -
 type
 :
+nightly
+:
+-
+releases
+/
+bouncer_firefox_nightly
+.
+py
 beta
 :
 -
@@ -260,6 +268,11 @@ by
 -
 project
 :
+mozilla
+-
+central
+:
+FIREFOX_NIGHTLY
 mozilla
 -
 beta
