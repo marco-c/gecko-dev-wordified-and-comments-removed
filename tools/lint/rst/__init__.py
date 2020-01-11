@@ -391,6 +391,18 @@ get_rstcheck_binary
 (
 )
     
+rstcheck_options
+=
+"
+-
+-
+ignore
+-
+language
+=
+cpp
+"
+    
 while
 paths
 :
@@ -407,6 +419,8 @@ python
 )
             
 binary
+            
+rstcheck_options
         
 ]
 +
