@@ -70,6 +70,8 @@ const
 win2
 =
 await
+BrowserTestUtils
+.
 openNewBrowserWindow
 (
 )
