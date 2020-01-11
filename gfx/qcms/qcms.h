@@ -408,11 +408,6 @@ qcms_enable_neon
 (
 )
 ;
-void
-qcms_enable_avx
-(
-)
-;
 #
 ifdef
 __cplusplus
