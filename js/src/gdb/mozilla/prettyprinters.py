@@ -591,12 +591,6 @@ None
         
 self
 .
-mod_JSOp
-=
-None
-        
-self
-.
 mod_JSString
 =
 None
@@ -779,29 +773,6 @@ gdb
 TYPE_CODE_UNION
 )
 def
-is_struct_or_union_or_enum
-(
-t
-)
-:
-    
-return
-t
-.
-code
-in
-(
-gdb
-.
-TYPE_CODE_STRUCT
-gdb
-.
-TYPE_CODE_UNION
-gdb
-.
-TYPE_CODE_ENUM
-)
-def
 lookup_for_objfile
 (
 objfile
@@ -942,7 +913,7 @@ t
 )
             
 elif
-is_struct_or_union_or_enum
+is_struct_or_union
 (
 t
 )

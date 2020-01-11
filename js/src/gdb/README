@@ -1398,11 +1398,7 @@ the
 sources
 corresponding
 to
-OBJDIR
-/
-dist
-/
-bin
+LIBDIR
 /
 libmozjs
 .
@@ -1535,11 +1531,7 @@ tests
 '
 subdirectory
 of
-OBJDIR
-/
-js
-/
-src
+LIBDIR
 .
 (
 It
@@ -1550,7 +1542,7 @@ use
 relative
 paths
 for
-OBJDIR
+LIBDIR
 SRCDIR
 and
 so
