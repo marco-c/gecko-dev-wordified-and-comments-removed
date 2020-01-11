@@ -979,31 +979,8 @@ remoteCrashDir
 )
 :
                 
-print
-(
-"
-Automation
-Error
-:
-No
-crash
-directory
-(
-%
-s
-)
-found
-on
-remote
-device
-"
-%
-                      
-remoteCrashDir
-)
-                
 return
-True
+False
             
 self
 .

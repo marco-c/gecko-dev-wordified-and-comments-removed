@@ -12246,27 +12246,6 @@ remote_dir
 )
 :
                 
-LOG
-.
-error
-(
-"
-No
-crash
-directory
-(
-%
-s
-)
-found
-on
-remote
-device
-"
-%
-remote_dir
-)
-                
 return
             
 self

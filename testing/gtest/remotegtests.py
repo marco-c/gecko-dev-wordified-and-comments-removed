@@ -1244,29 +1244,8 @@ remote_dir
 )
 :
                 
-log
-.
-warning
-(
-"
-No
-crash
-directory
-(
-%
-s
-)
-found
-on
-remote
-device
-"
-%
-remote_dir
-)
-                
 return
-True
+False
             
 self
 .
