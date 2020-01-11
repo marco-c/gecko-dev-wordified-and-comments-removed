@@ -26,14 +26,6 @@ glob
 :
 tools
 /
-docs
-/
-*
-*
-glob
-:
-tools
-/
 moztreedocs
 /
 *
