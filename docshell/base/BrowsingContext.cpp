@@ -3476,6 +3476,7 @@ dom
 :
 SessionStorageManager
 (
+this
 )
 ;
 }
