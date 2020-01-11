@@ -45,7 +45,7 @@ public
 :
 static
 FilenameTypeAndDetails
-FilenameToEvalType
+FilenameToFilenameType
 (
 const
 nsString
