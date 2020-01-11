@@ -3,7 +3,7 @@ json
 import
 os
 import
-time
+uuid
 def
 main
 (
@@ -107,14 +107,14 @@ replace
 (
 "
 %
-TIMESTAMP
+UUID
 %
 "
 str
 (
-time
+uuid
 .
-time
+uuid4
 (
 )
 )
