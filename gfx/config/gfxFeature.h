@@ -141,6 +141,17 @@ qualified
 \
 _
 (
+WEBRENDER_COMPOSITOR
+Feature
+"
+WebRender
+native
+compositor
+"
+)
+\
+_
+(
 OMTP
 Feature
 "

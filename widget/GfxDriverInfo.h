@@ -325,6 +325,7 @@ IntelHDGraphicsToIvyBridge
 IntelHDGraphicsToSandyBridge
 IntelHDGraphicsToHaswell
 IntelHD3000
+IntelHD520
 IntelMobileHDGraphics
 NvidiaBlockD3D9Layers
 RadeonX1000

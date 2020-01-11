@@ -1033,6 +1033,16 @@ APPEND_DEVICE
 break
 ;
 case
+IntelHD520
+:
+APPEND_DEVICE
+(
+0x1916
+)
+;
+break
+;
+case
 IntelMobileHDGraphics
 :
 APPEND_DEVICE

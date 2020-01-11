@@ -3687,10 +3687,13 @@ mDCLayerTree
 |
 |
 !
-StaticPrefs
+gfx
 :
 :
-gfx_webrender_compositor_AtStartup
+gfxVars
+:
+:
+UseWebRenderCompositor
 (
 )
 )
