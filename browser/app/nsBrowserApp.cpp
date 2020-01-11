@@ -1414,6 +1414,8 @@ ifdef
 HAS_DLL_BLOCKLIST
 DllBlocklist_Initialize
 (
+gBlocklistInitFlags
+|
 eDllBlocklistInitFlagIsChildProcess
 )
 ;
