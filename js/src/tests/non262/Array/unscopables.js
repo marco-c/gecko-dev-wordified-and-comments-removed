@@ -97,14 +97,6 @@ ownKeys
 Array_unscopables
 )
 ;
-print
-(
-uneval
-(
-keys
-)
-)
-;
 assertDeepEq
 (
 keys

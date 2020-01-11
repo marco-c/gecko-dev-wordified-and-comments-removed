@@ -109,14 +109,6 @@ gc
 (
 )
 ;
-print
-(
-uneval
-(
-obj
-)
-)
-;
 function
 unrooter
 (
