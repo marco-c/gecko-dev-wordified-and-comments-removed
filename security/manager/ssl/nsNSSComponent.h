@@ -155,7 +155,7 @@ GetDefaultCertVerifier
 )
 ;
 UniqueCERTCertList
-FindNonCACertificatesWithPrivateKeys
+FindClientCertificatesWithPrivateKeys
 (
 )
 ;
