@@ -5764,6 +5764,14 @@ MakeSticky
 (
 )
 ;
+mDrivingTransaction
+-
+>
+OnProxyConnectComplete
+(
+httpResponseCode
+)
+;
 if
 (
 !

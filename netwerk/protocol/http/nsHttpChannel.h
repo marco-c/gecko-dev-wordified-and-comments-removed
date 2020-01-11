@@ -2895,6 +2895,9 @@ mRCWNLock
 TimeStamp
 mNavigationStartTimeStamp
 ;
+int32_t
+mProxyConnectResponseCode
+;
 protected
 :
 virtual
