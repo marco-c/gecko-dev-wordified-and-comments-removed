@@ -140,6 +140,14 @@ GetListenersNum
 const
 ;
 virtual
+bool
+Open
+(
+)
+=
+0
+;
+virtual
 void
 Close
 (

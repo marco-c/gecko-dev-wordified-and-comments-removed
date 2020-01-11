@@ -64,6 +64,8 @@ public
 MediaHardwareKeysEventSourceMac
 (
 )
+=
+default
 ;
 static
 CGEventRef
@@ -80,6 +82,12 @@ void
 refcon
 )
 ;
+bool
+Open
+(
+)
+override
+;
 void
 Close
 (
@@ -95,7 +103,7 @@ MediaHardwareKeysEventSourceMac
 =
 default
 ;
-void
+bool
 StartEventTap
 (
 )
