@@ -2575,10 +2575,6 @@ mochitest
 -
 mochitest
 -
-a11y
--
-mochitest
--
 browser
 -
 chrome
@@ -2670,6 +2666,10 @@ jsreftest
 -
 mochitest
 -
+a11y
+-
+mochitest
+-
 gpu
 -
 mochitest
@@ -2700,6 +2700,10 @@ jsreftest
 -
 mochitest
 -
+a11y
+-
+mochitest
+-
 gpu
 -
 mochitest
@@ -2723,10 +2727,6 @@ tests
 jittest
 -
 mochitest
--
-mochitest
--
-a11y
 -
 mochitest
 -
