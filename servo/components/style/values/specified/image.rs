@@ -1215,13 +1215,14 @@ expect_function
 (
 )
 ?
-.
-clone
-(
-)
 ;
 let
-result
+(
+shape
+repeating
+mut
+compat_mode
+)
 =
 match_ignore_ascii_case
 !
@@ -1236,8 +1237,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1248,7 +1247,6 @@ GradientCompatMode
 :
 :
 Modern
-)
 )
 }
 "
@@ -1262,8 +1260,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1274,7 +1270,6 @@ GradientCompatMode
 :
 :
 WebKit
-)
 )
 }
 #
@@ -1299,8 +1294,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1311,7 +1304,6 @@ GradientCompatMode
 :
 :
 Moz
-)
 )
 }
 "
@@ -1324,8 +1316,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1336,7 +1326,6 @@ GradientCompatMode
 :
 :
 Modern
-)
 )
 }
 "
@@ -1352,8 +1341,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1364,7 +1351,6 @@ GradientCompatMode
 :
 :
 WebKit
-)
 )
 }
 #
@@ -1391,8 +1377,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1404,7 +1388,6 @@ GradientCompatMode
 :
 Moz
 )
-)
 }
 "
 radial
@@ -1414,8 +1397,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1426,7 +1407,6 @@ GradientCompatMode
 :
 :
 Modern
-)
 )
 }
 "
@@ -1440,8 +1420,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1452,7 +1430,6 @@ GradientCompatMode
 :
 :
 WebKit
-)
 )
 }
 #
@@ -1477,8 +1454,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1489,7 +1464,6 @@ GradientCompatMode
 :
 :
 Moz
-)
 )
 }
 "
@@ -1502,8 +1476,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1514,7 +1486,6 @@ GradientCompatMode
 :
 :
 Modern
-)
 )
 }
 "
@@ -1530,8 +1501,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1542,7 +1511,6 @@ GradientCompatMode
 :
 :
 WebKit
-)
 )
 }
 #
@@ -1569,8 +1537,6 @@ gradient
 =
 >
 {
-Some
-(
 (
 Shape
 :
@@ -1581,7 +1547,6 @@ GradientCompatMode
 :
 :
 Moz
-)
 )
 }
 "
@@ -1617,31 +1582,16 @@ i
 _
 =
 >
-None
-}
-;
+{
 let
+func
+=
+func
+.
+clone
 (
-shape
-repeating
-mut
-compat_mode
 )
-=
-match
-result
-{
-Some
-(
-result
-)
-=
->
-result
-None
-=
->
-{
+;
 return
 Err
 (
