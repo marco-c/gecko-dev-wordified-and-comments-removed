@@ -206,6 +206,9 @@ nsAutoCString
 defaultLocale
 (
 "
+en
+-
+US
 "
 )
 ;
