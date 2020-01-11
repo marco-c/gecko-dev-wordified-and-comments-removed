@@ -117,11 +117,6 @@ ChangesView
 .
 js
 '
-'
-constants
-.
-js
-'
 )
 BROWSER_CHROME_MANIFESTS
 +
