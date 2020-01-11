@@ -603,7 +603,7 @@ UrlbarPrefs
 get
 (
 "
-update1
+update2
 .
 searchButton
 "
