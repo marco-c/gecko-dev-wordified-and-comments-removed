@@ -1770,6 +1770,12 @@ buster
 '
         
 '
+ubuntu
+-
+bionic
+'
+        
+'
 disable
 -
 pgo
