@@ -772,6 +772,9 @@ layoutdebug
 /
 content
 /
+layoutdebug
+.
+xhtml
 "
 "
 _blank
