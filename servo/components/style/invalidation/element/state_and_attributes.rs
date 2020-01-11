@@ -2315,6 +2315,15 @@ new
 dependency
 .
 selector
+self
+.
+matching_context
+.
+current_host
+.
+clone
+(
+)
 dependency
 .
 selector
