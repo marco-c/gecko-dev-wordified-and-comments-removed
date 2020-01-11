@@ -1304,6 +1304,11 @@ number
 >
 void
 ;
+gIsDarkMode
+?
+:
+boolean
+;
 }
 export
 type

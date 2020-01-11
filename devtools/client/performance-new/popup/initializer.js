@@ -331,6 +331,14 @@ interface
 "
 )
 ;
+{
+const
+popupWindow
+=
+(
+window
+)
+;
 document
 .
 documentElement
@@ -342,7 +350,7 @@ force
 -
 theme
 "
-window
+popupWindow
 .
 gIsDarkMode
 ?
@@ -355,6 +363,7 @@ light
 "
 )
 ;
+}
 document
 .
 addEventListener
