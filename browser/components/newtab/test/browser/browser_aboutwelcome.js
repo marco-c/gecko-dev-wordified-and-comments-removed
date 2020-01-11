@@ -84,13 +84,6 @@ false
 }
 )
 ;
-await
-ASRouter
-.
-setupTrailhead
-(
-)
-;
 registerCleanupFunction
 (
 (
