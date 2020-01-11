@@ -1021,6 +1021,9 @@ telemetry
 /
 fog
 "
+optional
+=
+true
 }
 [
 build
@@ -1270,6 +1273,13 @@ webgpu
 wgpu
 -
 remote
+"
+]
+fogotype
+=
+[
+"
+fog
 "
 ]
 [

@@ -317,6 +317,17 @@ shared
 webgpu
 "
 ]
+fogotype
+=
+[
+"
+gkrust
+-
+shared
+/
+fogotype
+"
+]
 [
 dependencies
 ]
