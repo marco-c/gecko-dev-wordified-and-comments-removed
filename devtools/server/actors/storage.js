@@ -10709,7 +10709,6 @@ for
 const
 host
 of
-await
 this
 .
 hosts
