@@ -768,7 +768,10 @@ _originalDescriptors
 .
 forEach
 (
+(
+_
 property
+)
 =
 >
 this
