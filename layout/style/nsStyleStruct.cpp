@@ -13761,7 +13761,10 @@ NS_STYLE_ISOLATION_AUTO
 )
 mTopLayer
 (
-NS_STYLE_TOP_LAYER_NONE
+StyleTopLayer
+:
+:
+None
 )
 mTouchAction
 (

@@ -6652,7 +6652,10 @@ mOrient
 uint8_t
 mIsolation
 ;
-uint8_t
+mozilla
+:
+:
+StyleTopLayer
 mTopLayer
 ;
 mozilla

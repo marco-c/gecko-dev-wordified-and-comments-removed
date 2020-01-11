@@ -152,10 +152,10 @@ engines
 "
 gecko
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_TOP_LAYER
+StyleTopLayer
 "
 gecko_ffi_name
 =

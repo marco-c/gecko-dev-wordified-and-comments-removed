@@ -420,7 +420,10 @@ StyleDisplay
 mTopLayer
 !
 =
-NS_STYLE_TOP_LAYER_NONE
+StyleTopLayer
+:
+:
+None
 "
 Only
 top
@@ -1517,7 +1520,10 @@ StyleDisplay
 mTopLayer
 !
 =
-NS_STYLE_TOP_LAYER_NONE
+StyleTopLayer
+:
+:
+None
 "
 only
 top
