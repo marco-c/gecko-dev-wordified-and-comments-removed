@@ -43431,10 +43431,6 @@ frame
 "
 )
 ;
-result
-=
-NS_OK
-;
 int
 edgeCase
 =
