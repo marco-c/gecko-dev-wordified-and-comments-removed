@@ -46,7 +46,7 @@ gtkWidget
 255
 0
 -
-1496
+1498
 )
 =
 =
@@ -68,7 +68,6 @@ ref
 html
 #
 gtkWidget
-permissive
 due
 to
 Bug
