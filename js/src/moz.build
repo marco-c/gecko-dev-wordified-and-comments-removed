@@ -1057,6 +1057,16 @@ h
 /
 public
 /
+GCTypeMacros
+.
+h
+'
+'
+.
+.
+/
+public
+/
 GCVariant
 .
 h
