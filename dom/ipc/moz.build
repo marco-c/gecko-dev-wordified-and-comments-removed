@@ -237,6 +237,11 @@ BrowserParent
 h
 '
 '
+ClonedErrorHolder
+.
+h
+'
+'
 CoalescedInputData
 .
 h
@@ -460,6 +465,11 @@ cpp
 '
 '
 BrowserParent
+.
+cpp
+'
+'
+ClonedErrorHolder
 .
 cpp
 '
