@@ -1972,7 +1972,7 @@ D3D11TextureData
 :
 GetSubDescriptor
 (
-GPUVideoSubDescriptor
+RemoteDecoderVideoSubDescriptor
 *
 const
 aOutDesc
@@ -3569,7 +3569,7 @@ DXGIYCbCrTextureData
 :
 GetSubDescriptor
 (
-GPUVideoSubDescriptor
+RemoteDecoderVideoSubDescriptor
 *
 const
 aOutDesc

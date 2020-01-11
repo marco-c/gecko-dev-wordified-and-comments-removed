@@ -973,7 +973,7 @@ virtual
 void
 GetSubDescriptor
 (
-GPUVideoSubDescriptor
+RemoteDecoderVideoSubDescriptor
 *
 aOutDesc
 )
@@ -1815,9 +1815,9 @@ mSerial
 ;
 }
 void
-GPUVideoDesc
+GetSurfaceDescriptorRemoteDecoder
 (
-SurfaceDescriptorGPUVideo
+SurfaceDescriptorRemoteDecoder
 *
 aOutDesc
 )
