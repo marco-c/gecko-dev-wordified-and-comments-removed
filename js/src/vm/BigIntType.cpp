@@ -1052,7 +1052,7 @@ uint64_t
 elif
 defined
 (
-HAVE_INT128_SUPPORT
+__SIZEOF_INT128__
 )
 #
 define
