@@ -687,7 +687,9 @@ ccov
 *
 :
 8
-linux64
+linux1804
+-
+64
 (
 -
 qr
@@ -700,7 +702,9 @@ asan
 *
 :
 6
-linux64
+linux1804
+-
+64
 (
 -
 shippable
@@ -792,7 +796,9 @@ test
 -
 platform
 :
-linux64
+linux1804
+-
+64
 -
 asan
 /
@@ -1245,7 +1251,9 @@ test
 -
 platform
 :
-linux64
+linux1804
+-
+64
 -
 asan
 /
