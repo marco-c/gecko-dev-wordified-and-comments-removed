@@ -921,7 +921,7 @@ request
 *
 *
 param
-aHostname
+aOrigin
 *
 The
 origin
@@ -968,7 +968,7 @@ userPass
 .
 *
 param
-aActionURL
+aActionOrigin
 *
 For
 form
@@ -991,11 +991,6 @@ not
 the
 whole
 URL
-(
-despite
-the
-name
-)
 .
 *
 For
@@ -1102,10 +1097,10 @@ findLogins
 (
 in
 AString
-aHostname
+aOrigin
 in
 AString
-aActionURL
+aActionOrigin
 in
 AString
 aHttpRealm
@@ -1175,7 +1170,7 @@ logins
 *
 *
 param
-aHostname
+aOrigin
 *
 The
 origin
@@ -1215,7 +1210,7 @@ of
 .
 *
 param
-aActionURL
+aActionOrigin
 *
 The
 origin
@@ -1293,10 +1288,10 @@ countLogins
 (
 in
 AString
-aHostname
+aOrigin
 in
 AString
-aActionURL
+aActionOrigin
 in
 AString
 aHttpRealm

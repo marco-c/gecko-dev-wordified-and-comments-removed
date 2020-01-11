@@ -992,7 +992,7 @@ request
 *
 *
 param
-aHostname
+aOrigin
 *
 The
 origin
@@ -1039,7 +1039,9 @@ be
 submitted
 .
 For
-protocol
+HTTP
+auth
+.
 logins
 specify
 null
@@ -1104,10 +1106,10 @@ findLogins
 (
 in
 AString
-aHostname
+aOrigin
 in
 AString
-aActionURL
+aActionOrigin
 in
 AString
 aHttpRealm
@@ -1177,7 +1179,7 @@ logins
 *
 *
 param
-aHostname
+aOrigin
 *
 The
 origin
@@ -1217,7 +1219,7 @@ of
 .
 *
 param
-aActionURL
+aActionOrigin
 *
 The
 origin
@@ -1295,10 +1297,10 @@ countLogins
 (
 in
 AString
-aHostname
+aOrigin
 in
 AString
-aActionURL
+aActionOrigin
 in
 AString
 aHttpRealm
