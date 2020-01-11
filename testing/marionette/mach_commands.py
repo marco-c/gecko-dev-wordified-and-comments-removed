@@ -11,6 +11,10 @@ os
 import
 sys
 from
+six
+import
+iteritems
+from
 mach
 .
 decorators
@@ -159,10 +163,9 @@ for
 k
 v
 in
-kwargs
-.
 iteritems
 (
+kwargs
 )
 :
         
