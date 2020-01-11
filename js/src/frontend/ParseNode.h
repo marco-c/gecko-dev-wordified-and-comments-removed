@@ -2075,16 +2075,6 @@ isForLoopDeclaration
 )
 const
 ;
-enum
-AllowConstantObjects
-{
-DontAllowObjects
-=
-0
-AllowObjects
-ForCopyOnWriteArray
-}
-;
 MOZ_MUST_USE
 bool
 getConstantValue
@@ -2092,8 +2082,6 @@ getConstantValue
 JSContext
 *
 cx
-AllowConstantObjects
-allowObjects
 MutableHandleValue
 vp
 Value
@@ -2105,10 +2093,6 @@ size_t
 ncompare
 =
 0
-NewObjectKind
-newKind
-=
-TenuredObject
 )
 ;
 inline
@@ -8155,7 +8139,6 @@ head
 getConstantValue
 (
 cx
-AllowObjects
 vp
 )
 ;
