@@ -15719,11 +15719,6 @@ leaf
 "
 \
 "
-responsiveness
-\
-"
-\
-"
 stackwalk
 \
 "
@@ -15763,11 +15758,6 @@ leaf
 "
 \
 "
-responsiveness
-\
-"
-\
-"
 stackwalk
 \
 "
@@ -15798,6 +15788,11 @@ GeckoMain
 \
 "
 Compositor
+\
+"
+\
+"
+Renderer
 \
 "
 ]
