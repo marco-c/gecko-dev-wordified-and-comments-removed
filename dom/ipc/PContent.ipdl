@@ -8674,6 +8674,8 @@ UnstoreAndBroadcastBlobURLUnregistration
 (
 nsCString
 url
+Principal
+principal
 )
 ;
 /
