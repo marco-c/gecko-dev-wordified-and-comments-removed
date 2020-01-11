@@ -2064,6 +2064,16 @@ selector
 ;
 if
 (
+!
+nodeFront
+)
+{
+return
+null
+;
+}
+if
+(
 nodeSelectors
 .
 length
@@ -2147,6 +2157,9 @@ querySelectors
 (
 nodeFront
 )
+|
+|
+nodeFront
 ;
 }
 ;
