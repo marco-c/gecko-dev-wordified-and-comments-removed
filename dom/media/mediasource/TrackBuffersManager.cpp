@@ -12279,6 +12279,16 @@ aExpectedPts
 aFuzz
 )
 {
+MOZ_DIAGNOSTIC_ASSERT
+(
+sample
+-
+>
+HasValidTime
+(
+)
+)
+;
 return
 sample
 ;
