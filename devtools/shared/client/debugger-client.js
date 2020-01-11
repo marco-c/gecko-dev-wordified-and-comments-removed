@@ -397,7 +397,6 @@ prototype
 {
 connect
 (
-onConnected
 )
 {
 return
@@ -428,18 +427,6 @@ traits
 =
 traits
 ;
-if
-(
-onConnected
-)
-{
-onConnected
-(
-applicationType
-traits
-)
-;
-}
 resolve
 (
 [
