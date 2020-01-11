@@ -145,6 +145,15 @@ utils
 .
 js
 '
+'
+walker
+-
+event
+-
+listener
+.
+js
+'
 )
 BROWSER_CHROME_MANIFESTS
 +
