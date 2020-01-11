@@ -2216,6 +2216,11 @@ break
 ;
 case
 "
+snippets_local_testing_user_event
+"
+:
+case
+"
 snippets_user_event
 "
 :
