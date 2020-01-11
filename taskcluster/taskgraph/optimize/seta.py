@@ -1748,7 +1748,7 @@ args
 =
 (
 10
-120
+60
 )
 )
 register_strategy
