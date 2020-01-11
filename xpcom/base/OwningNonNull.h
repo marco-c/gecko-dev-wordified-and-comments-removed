@@ -35,8 +35,9 @@ public
 OwningNonNull
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 OwningNonNull
 (
