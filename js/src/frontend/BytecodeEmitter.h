@@ -1561,7 +1561,7 @@ emitLineNote
 =
 EMIT_LINENOTE
 bool
-isInnerSingleton
+isInner
 =
 false
 )
@@ -2060,6 +2060,10 @@ ParseNode
 arrayHead
 uint32_t
 count
+bool
+isInner
+=
+false
 )
 ;
 MOZ_MUST_USE
@@ -2143,7 +2147,7 @@ ListNode
 *
 objNode
 bool
-isInnerSingleton
+isInner
 =
 false
 )
@@ -2205,7 +2209,7 @@ pe
 PropListType
 type
 bool
-isInnerSingleton
+isInner
 =
 false
 )

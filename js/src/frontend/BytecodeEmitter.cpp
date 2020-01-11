@@ -34959,7 +34959,7 @@ pe
 PropListType
 type
 bool
-isInnerSingleton
+isInner
 )
 {
 size_t
@@ -35090,7 +35090,7 @@ ValueUsage
 :
 WantValue
 EMIT_LINENOTE
-isInnerSingleton
+isInner
 )
 )
 {
@@ -38349,7 +38349,7 @@ ListNode
 *
 objNode
 bool
-isInnerSingleton
+isInner
 )
 {
 bool
@@ -38400,6 +38400,9 @@ if
 (
 !
 isSingletonContext
+|
+|
+isInner
 )
 {
 useObjLiteralValues
@@ -38437,7 +38440,7 @@ SpecificGroup
 if
 (
 !
-isInnerSingleton
+isInner
 )
 {
 flags
@@ -38709,6 +38712,13 @@ ListNode
 array
 )
 {
+bool
+isSingleton
+=
+checkSingletonContext
+(
+)
+;
 if
 (
 !
@@ -38728,13 +38738,6 @@ head
 )
 )
 {
-bool
-isSingleton
-=
-checkSingletonContext
-(
-)
-;
 static
 const
 size_t
@@ -38810,6 +38813,7 @@ array
 count
 (
 )
+isSingleton
 )
 ;
 }
@@ -38824,6 +38828,8 @@ ParseNode
 arrayHead
 uint32_t
 count
+bool
+isInner
 )
 {
 uint32_t
@@ -39191,6 +39197,12 @@ if
 emitTree
 (
 expr
+ValueUsage
+:
+:
+WantValue
+EMIT_LINENOTE
+isInner
 )
 )
 {
@@ -42029,7 +42041,7 @@ valueUsage
 EmitLineNumberNote
 emitLineNote
 bool
-isInnerSingleton
+isInner
 )
 {
 if
@@ -44175,7 +44187,7 @@ ListNode
 >
 (
 )
-isInnerSingleton
+isInner
 )
 )
 {
