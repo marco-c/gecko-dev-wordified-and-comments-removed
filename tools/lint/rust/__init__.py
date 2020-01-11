@@ -714,6 +714,15 @@ root
 )
 )
     
+if
+not
+paths
+:
+        
+return
+[
+]
+    
 binary
 =
 get_rustfmt_binary
