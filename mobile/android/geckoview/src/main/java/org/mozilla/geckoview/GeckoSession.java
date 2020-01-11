@@ -782,6 +782,8 @@ mClientHeight
 private
 int
 mFixedBottomOffset
+=
+0
 ;
 private
 int
@@ -19462,6 +19464,14 @@ onCompositorReady
 )
 ;
 }
+if
+(
+mFixedBottomOffset
+!
+=
+0
+)
+{
 mCompositor
 .
 setFixedBottomOffset
@@ -19469,6 +19479,7 @@ setFixedBottomOffset
 mFixedBottomOffset
 )
 ;
+}
 }
 void
 updateOverscrollVelocity
