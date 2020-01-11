@@ -1125,7 +1125,6 @@ transposed
 ;
 if
 (
-!
 gfx
 :
 :
@@ -1136,13 +1135,6 @@ transposed
 )
 )
 {
-filterIsNoop
-=
-true
-;
-continue
-;
-}
 float
 matrix
 [
@@ -1250,6 +1242,14 @@ matrix
 )
 )
 ;
+}
+else
+{
+filterIsNoop
+=
+true
+;
+}
 }
 else
 if
