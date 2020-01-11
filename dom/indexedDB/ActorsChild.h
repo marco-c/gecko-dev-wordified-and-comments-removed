@@ -2543,7 +2543,11 @@ typename
 .
 Args
 >
-void
+MOZ_MUST_USE
+RefPtr
+<
+IDBCursor
+>
 HandleIndividualCursorResponse
 (
 bool
