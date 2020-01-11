@@ -484,6 +484,8 @@ MOZ_TMP_BIG_ENDIAN
 #
 define
 MOZ_LITTLE_ENDIAN
+(
+)
 0
 #
 define
