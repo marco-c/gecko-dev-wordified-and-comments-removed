@@ -301,6 +301,15 @@ toString
 )
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 assertLatin1
 (
 (
@@ -318,6 +327,7 @@ toSource
 )
 )
 ;
+}
 assertLatin1
 (
 [

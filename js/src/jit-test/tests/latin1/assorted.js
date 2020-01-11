@@ -94,6 +94,15 @@ u1200
 "
 )
 ;
+if
+(
+Object
+.
+prototype
+.
+toSource
+)
+{
 var
 o
 =
@@ -329,6 +338,7 @@ prop
 "
 )
 ;
+}
 load
 (
 libdir

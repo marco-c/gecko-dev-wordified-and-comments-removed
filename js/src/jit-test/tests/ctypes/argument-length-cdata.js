@@ -118,6 +118,17 @@ arguments
 "
 )
 ;
+if
+(
+ctypes
+.
+int32_t
+.
+prototype
+.
+toSource
+)
+{
 assertTypeErrorMessage
 (
 (
@@ -150,6 +161,7 @@ arguments
 "
 )
 ;
+}
 }
 if
 (

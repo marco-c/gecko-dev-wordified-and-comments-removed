@@ -53,6 +53,13 @@ x
 )
 )
 ;
+if
+(
+fin
+.
+toSource
+)
+{
 assertTypeErrorMessage
 (
 (
@@ -87,6 +94,7 @@ number
 "
 )
 ;
+}
 assertTypeErrorMessage
 (
 (

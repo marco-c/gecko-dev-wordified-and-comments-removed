@@ -50,6 +50,17 @@ number
 "
 )
 ;
+if
+(
+ctypes
+.
+int32_t
+.
+prototype
+.
+toSource
+)
+{
 assertTypeErrorMessage
 (
 (
@@ -86,6 +97,7 @@ number
 "
 )
 ;
+}
 }
 if
 (

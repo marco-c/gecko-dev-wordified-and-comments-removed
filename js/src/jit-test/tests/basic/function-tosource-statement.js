@@ -39,6 +39,15 @@ n
 "
 )
 ;
+if
+(
+Function
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 f1
@@ -53,6 +62,7 @@ toString
 )
 )
 ;
+}
 function
 f2
 (

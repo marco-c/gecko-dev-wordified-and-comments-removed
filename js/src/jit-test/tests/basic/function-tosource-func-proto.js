@@ -24,6 +24,15 @@ n
 "
 )
 ;
+if
+(
+Function
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 Function
@@ -50,3 +59,4 @@ n
 "
 )
 ;
+}

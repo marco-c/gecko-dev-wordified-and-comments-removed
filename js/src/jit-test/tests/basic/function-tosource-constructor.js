@@ -47,6 +47,15 @@ n
 "
 )
 ;
+if
+(
+Function
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 f
@@ -78,6 +87,7 @@ n
 "
 )
 ;
+}
 assertEq
 (
 decompileFunction
@@ -151,6 +161,15 @@ n
 "
 )
 ;
+if
+(
+Function
+.
+prototype
+.
+toSource
+)
+{
 assertEq
 (
 f
@@ -187,6 +206,7 @@ n
 )
 "
 )
+}
 assertEq
 (
 decompileFunction
