@@ -406,10 +406,6 @@ ToPrimitive
 to_u32
 )
 }
-#
-[
-inline
-]
 fn
 to_u64
 (

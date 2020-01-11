@@ -83,11 +83,10 @@ autocfg
 :
 rerun_path
 (
-"
-build
-.
-rs
-"
+file
+!
+(
+)
 )
 ;
 }

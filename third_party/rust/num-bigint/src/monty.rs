@@ -61,9 +61,13 @@ a
 :
 i64
 =
-num
-as
 i64
+:
+:
+from
+(
+num
+)
 ;
 let
 mut
@@ -71,6 +75,10 @@ b
 :
 i64
 =
+i64
+:
+:
+from
 (
 u32
 :
@@ -78,8 +86,6 @@ u32
 max_value
 (
 )
-as
-i64
 )
 +
 1
