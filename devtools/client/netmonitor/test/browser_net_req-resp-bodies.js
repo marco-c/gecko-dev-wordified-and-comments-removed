@@ -334,11 +334,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 index
-)
+]
 "
 GET
 "

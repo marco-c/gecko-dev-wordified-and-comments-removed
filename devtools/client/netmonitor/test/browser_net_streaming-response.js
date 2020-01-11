@@ -308,11 +308,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 i
-)
+]
 "
 GET
 "

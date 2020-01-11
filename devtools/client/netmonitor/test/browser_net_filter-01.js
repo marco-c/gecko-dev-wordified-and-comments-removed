@@ -3229,7 +3229,7 @@ getState
 return
 visibleItems
 .
-size
+length
 =
 =
 =
@@ -3252,7 +3252,7 @@ is
 (
 items
 .
-size
+length
 visibility
 .
 length
@@ -3277,7 +3277,7 @@ is
 (
 visibleItems
 .
-size
+length
 visibility
 .
 filter
@@ -3329,11 +3329,9 @@ const
 itemId
 =
 items
-.
-get
-(
+[
 i
-)
+]
 .
 id
 ;
@@ -3420,11 +3418,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 i
-)
+]
 method
 url
 data

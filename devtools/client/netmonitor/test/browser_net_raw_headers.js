@@ -228,11 +228,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 )
 ;
 EventUtils

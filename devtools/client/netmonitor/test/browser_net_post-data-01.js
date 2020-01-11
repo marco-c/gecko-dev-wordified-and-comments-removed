@@ -239,11 +239,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 "
 POST
 "
@@ -329,11 +327,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 1
-)
+]
 "
 POST
 "

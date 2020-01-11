@@ -584,11 +584,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 index
-)
+]
 request
 .
 method

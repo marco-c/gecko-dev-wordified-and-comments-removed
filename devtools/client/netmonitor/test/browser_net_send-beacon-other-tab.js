@@ -118,7 +118,7 @@ requests
 .
 requests
 .
-size
+length
 0
 "
 The
@@ -189,7 +189,7 @@ requests
 .
 requests
 .
-size
+length
 1
 "
 Only
@@ -213,11 +213,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 ;
 is
 (

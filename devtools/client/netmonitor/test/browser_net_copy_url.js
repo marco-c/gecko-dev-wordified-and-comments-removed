@@ -143,11 +143,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 0
-)
+]
 ;
 await
 waitForClipboardPromise

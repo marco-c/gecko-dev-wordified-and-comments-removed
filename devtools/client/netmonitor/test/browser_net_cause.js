@@ -515,7 +515,7 @@ requests
 .
 requests
 .
-size
+length
 EXPECTED_REQUESTS
 .
 length
@@ -606,11 +606,9 @@ getState
 (
 )
 )
-.
-get
-(
+[
 i
-)
+]
 .
 cause
 .
