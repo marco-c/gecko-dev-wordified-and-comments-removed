@@ -98231,6 +98231,10 @@ InternalState
 :
 Initial
 )
+mWaitingForContinue
+(
+false
+)
 mTransactionIsAborted
 (
 aTransaction
