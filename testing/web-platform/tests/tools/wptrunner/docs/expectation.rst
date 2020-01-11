@@ -2050,7 +2050,7 @@ os
 =
 =
 "
-osx
+mac
 "
 :
 FAIL
