@@ -159,7 +159,7 @@ obj
 =
 Runtime
 .
-getRemoteObject
+_getRemoteObject
 (
 objectId
 )
@@ -334,7 +334,7 @@ obj
 =
 Runtime
 .
-getRemoteObject
+_getRemoteObject
 (
 objectId
 )
