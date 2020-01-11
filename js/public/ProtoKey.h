@@ -215,7 +215,7 @@ Number
 REAL
 (
 String
-InitStringClass
+InitViaClassSpec
 OCLASP
 (
 String
