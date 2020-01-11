@@ -1,12 +1,5 @@
 #
 include
-<
-MediaTrackGraphImpl
-.
-h
->
-#
-include
 "
 mozilla
 /
@@ -163,9 +156,9 @@ GraphDriver
 :
 GraphDriver
 (
-MediaTrackGraphImpl
+GraphInterface
 *
-aGraphImpl
+aGraphInterface
 GraphDriver
 *
 aPreviousDriver
@@ -173,9 +166,9 @@ uint32_t
 aSampleRate
 )
 :
-mGraphImpl
+mGraphInterface
 (
-aGraphImpl
+aGraphInterface
 )
 mSampleRate
 (
@@ -239,7 +232,7 @@ InIteration
 )
 {
 return
-GraphImpl
+Graph
 (
 )
 -
@@ -312,9 +305,9 @@ ThreadedDriver
 :
 ThreadedDriver
 (
-MediaTrackGraphImpl
+GraphInterface
 *
-aGraphImpl
+aGraphInterface
 GraphDriver
 *
 aPreviousDriver
@@ -324,7 +317,7 @@ aSampleRate
 :
 GraphDriver
 (
-aGraphImpl
+aGraphInterface
 aPreviousDriver
 aSampleRate
 )
@@ -520,7 +513,7 @@ p
 mDriver
 -
 >
-mGraphImpl
+mGraphInterface
 .
 get
 (
@@ -573,7 +566,7 @@ previousDriver
 mDriver
 -
 >
-GraphImpl
+Graph
 (
 )
 )
@@ -680,7 +673,7 @@ SystemClockDriver
 %
 p
 "
-mGraphImpl
+mGraphInterface
 .
 get
 (
@@ -822,7 +815,7 @@ s
 p
 thread
 "
-GraphImpl
+Graph
 (
 )
 this
@@ -847,9 +840,9 @@ SystemClockDriver
 :
 SystemClockDriver
 (
-MediaTrackGraphImpl
+GraphInterface
 *
-aGraphImpl
+aGraphInterface
 GraphDriver
 *
 aPreviousDriver
@@ -861,7 +854,7 @@ aFallback
 :
 ThreadedDriver
 (
-aGraphImpl
+aGraphInterface
 aPreviousDriver
 aSampleRate
 )
@@ -977,7 +970,7 @@ Global
 underrun
 detected
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -1029,7 +1022,7 @@ did
 not
 advance
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -1097,7 +1090,7 @@ ld
 ld
 ]
 "
-GraphImpl
+Graph
 (
 )
 (
@@ -1152,7 +1145,7 @@ ld
 ld
 ]
 "
-GraphImpl
+Graph
 (
 )
 (
@@ -1181,7 +1174,7 @@ nextStateComputedTime
 IterationResult
 result
 =
-GraphImpl
+Graph
 (
 )
 -
@@ -1252,7 +1245,7 @@ Switching
 to
 AudioCallbackDriver
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -1366,7 +1359,7 @@ StateComputedTime
 f
 )
 "
-GraphImpl
+Graph
 (
 )
 MediaTimeToSeconds
@@ -1540,7 +1533,7 @@ timeout
 %
 f
 "
-GraphImpl
+Graph
 (
 )
 (
@@ -1575,9 +1568,9 @@ OfflineClockDriver
 :
 OfflineClockDriver
 (
-MediaTrackGraphImpl
+GraphInterface
 *
-aGraphImpl
+aGraphInterface
 uint32_t
 aSampleRate
 GraphTime
@@ -1586,7 +1579,7 @@ aSlice
 :
 ThreadedDriver
 (
-aGraphImpl
+aGraphInterface
 nullptr
 aSampleRate
 )
@@ -1651,7 +1644,7 @@ mShutdownGrip
 aDriver
 -
 >
-GraphImpl
+Graph
 (
 )
 )
@@ -1737,7 +1730,7 @@ p
 mDriver
 -
 >
-GraphImpl
+Graph
 (
 )
 mDriver
@@ -1831,7 +1824,7 @@ p
 mDriver
 -
 >
-GraphImpl
+Graph
 (
 )
 mDriver
@@ -1998,9 +1991,9 @@ AudioCallbackDriver
 :
 AudioCallbackDriver
 (
-MediaTrackGraphImpl
+GraphInterface
 *
-aGraphImpl
+aGraphInterface
 GraphDriver
 *
 aPreviousDriver
@@ -2026,7 +2019,7 @@ aAudioInputType
 :
 GraphDriver
 (
-aGraphImpl
+aGraphInterface
 aPreviousDriver
 aSampleRate
 )
@@ -2118,7 +2111,7 @@ p
 AudioCallbackDriver
 ctor
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -3129,7 +3122,7 @@ cubeb
 stream
 .
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -3154,7 +3147,7 @@ AudioCallbackDriver
 started
 .
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -3529,7 +3522,7 @@ Shutdown
 )
 .
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -3977,7 +3970,7 @@ ticks
 ld
 )
 "
-GraphImpl
+Graph
 (
 )
 (
@@ -4039,7 +4032,7 @@ global
 underrun
 detected
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -4073,7 +4066,7 @@ mInputChannelCount
 0
 )
 {
-GraphImpl
+Graph
 (
 )
 -
@@ -4107,7 +4100,7 @@ result
 =
 iterate
 ?
-GraphImpl
+Graph
 (
 )
 -
@@ -4162,7 +4155,7 @@ skipping
 iteration
 .
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -4184,7 +4177,7 @@ BufferFilled
 (
 )
 ;
-GraphImpl
+Graph
 (
 )
 -
@@ -4321,7 +4314,7 @@ system
 driver
 .
 "
-GraphImpl
+Graph
 (
 )
 )
@@ -4875,18 +4868,7 @@ InIteration
 )
 )
 ;
-MonitorAutoLock
-mon
-(
-mGraphImpl
--
->
-GetMonitor
-(
-)
-)
-;
-GraphImpl
+Graph
 (
 )
 -
