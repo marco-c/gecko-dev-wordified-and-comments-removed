@@ -2692,7 +2692,7 @@ cssDecl
 >
 GetPropertyValue
 (
-nsDependentAtomString
+nsAtomCString
 (
 aProperty
 )
@@ -6315,7 +6315,7 @@ return
 true
 ;
 }
-nsAutoString
+nsAutoCString
 propertyNameString
 ;
 nsAutoString

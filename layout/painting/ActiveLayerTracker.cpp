@@ -1451,7 +1451,7 @@ aFrame
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aNewValue
 nsDOMCSSDeclaration
@@ -1502,10 +1502,13 @@ oldValue
 ;
 if
 (
-aNewValue
+NS_ConvertUTF16toUTF8
+(
+oldValue
+)
 !
 =
-oldValue
+aNewValue
 )
 {
 mutationCount
@@ -1684,7 +1687,7 @@ aFrame
 nsCSSPropertyID
 aProperty
 const
-nsAString
+nsACString
 &
 aNewValue
 nsDOMCSSDeclaration

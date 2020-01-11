@@ -273,7 +273,7 @@ nsComputedDOMStyle
 *
 aComputedStyle
 const
-nsAString
+nsACString
 &
 aProperty
 )
@@ -2044,7 +2044,7 @@ aBorderLeft
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 border
@@ -2061,7 +2061,7 @@ aBorderTop
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 border
@@ -2078,7 +2078,7 @@ aMarginLeft
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 margin
@@ -2093,7 +2093,7 @@ aMarginTop
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 margin
@@ -2108,7 +2108,7 @@ aX
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 left
@@ -2125,7 +2125,7 @@ aY
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 top
@@ -2142,7 +2142,7 @@ aW
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 width
@@ -2155,7 +2155,7 @@ aH
 GetCSSFloatValue
 (
 cssDecl
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 height

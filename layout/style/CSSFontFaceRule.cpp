@@ -229,7 +229,7 @@ CSSFontFaceRuleDecl
 GetPropertyValue
 (
 const
-nsAString
+nsACString
 &
 aPropName
 nsAString
@@ -280,7 +280,7 @@ CSSFontFaceRuleDecl
 RemoveProperty
 (
 const
-nsAString
+nsACString
 &
 aPropName
 nsAString
@@ -374,7 +374,7 @@ CSSFontFaceRuleDecl
 GetPropertyPriority
 (
 const
-nsAString
+nsACString
 &
 aPropName
 nsAString
@@ -396,11 +396,11 @@ CSSFontFaceRuleDecl
 SetProperty
 (
 const
-nsAString
+nsACString
 &
 aPropName
 const
-nsAString
+nsACString
 &
 aValue
 const
@@ -458,7 +458,7 @@ aIndex
 bool
 &
 aFound
-nsAString
+nsACString
 &
 aResult
 )
@@ -486,7 +486,7 @@ true
 ;
 aResult
 .
-AssignASCII
+Assign
 (
 nsCSSProps
 :
@@ -494,10 +494,6 @@ nsCSSProps
 GetStringValue
 (
 id
-)
-.
-get
-(
 )
 )
 ;

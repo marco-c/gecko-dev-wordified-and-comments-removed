@@ -524,7 +524,7 @@ getComputedStylePropertyValue
 (
 DOMString
 elementId
-DOMString
+UTF8String
 propertyName
 )
 ;
@@ -583,9 +583,9 @@ Throws
 void
 setStyle
 (
-DOMString
+UTF8String
 property
-DOMString
+UTF8String
 value
 )
 ;

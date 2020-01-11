@@ -2173,7 +2173,7 @@ decl
 >
 GetPropertyValue
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 width
@@ -2190,7 +2190,7 @@ decl
 >
 GetPropertyValue
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 height
@@ -2210,7 +2210,7 @@ aDirection
 mHorizontal
 )
 {
-nsAutoString
+NS_ConvertUTF16toUTF8
 widthstr
 (
 aSizeInfo
@@ -2263,7 +2263,7 @@ decl
 >
 SetProperty
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 width
@@ -2283,7 +2283,7 @@ aDirection
 mVertical
 )
 {
-nsAutoString
+NS_ConvertUTF16toUTF8
 heightstr
 (
 aSizeInfo
@@ -2336,7 +2336,7 @@ decl
 >
 SetProperty
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 height
