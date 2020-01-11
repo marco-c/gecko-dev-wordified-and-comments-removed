@@ -102,6 +102,9 @@ testdriver
 -
 tutorial
 testharness
+testharness
+-
+tutorial
 tools
 visual
 wdspec
