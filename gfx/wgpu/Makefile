@@ -198,6 +198,9 @@ compute
 example
 -
 triangle
+lib
+-
+remote
 check
 :
 cargo
