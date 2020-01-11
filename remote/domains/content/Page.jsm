@@ -459,6 +459,10 @@ content
 windowUtils
 .
 outerWindowID
+.
+toString
+(
+)
 }
 ;
 }
@@ -515,6 +519,10 @@ content
 windowUtils
 .
 outerWindowID
+.
+toString
+(
+)
 ;
 return
 {
@@ -721,6 +729,10 @@ defaultView
 windowUtils
 .
 outerWindowID
+.
+toString
+(
+)
 ;
 const
 url

@@ -738,6 +738,10 @@ frameId
 topFrame
 .
 outerWindowID
+.
+toString
+(
+)
 hasUserGesture
 :
 undefined
