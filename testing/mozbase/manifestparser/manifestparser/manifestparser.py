@@ -1122,6 +1122,8 @@ data
 =
 dict
 (
+list
+(
 self
 .
 _ancestor_defaults
@@ -1129,11 +1131,15 @@ _ancestor_defaults
 items
 (
 )
+)
 +
+list
+(
 data
 .
 items
 (
+)
 )
 )
             
