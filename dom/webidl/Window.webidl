@@ -3209,14 +3209,13 @@ boolean
 hasOpenerForInitialContentBrowser
 ;
 [
-Pure
 ChromeOnly
 ]
-readonly
-attribute
 WindowGlobalChild
 ?
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 ;
 }
 ;

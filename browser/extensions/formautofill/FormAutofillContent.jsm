@@ -370,11 +370,13 @@ null
 return
 contentWindow
 .
-windowGlobalChild
+getWindowGlobalChild
 ?
 contentWindow
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 .
 getActor
 (
