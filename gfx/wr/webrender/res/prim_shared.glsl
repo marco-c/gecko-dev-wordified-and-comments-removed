@@ -525,9 +525,6 @@ VertexInfo
 vec2
 local_pos
 ;
-vec2
-snap_offset
-;
 vec4
 world_pos
 ;
@@ -705,15 +702,6 @@ vi
 VertexInfo
 (
 clamped_local_pos
-vec2
-(
-0
-.
-0
-0
-.
-0
-)
 world_pos
 )
 ;
@@ -1312,12 +1300,6 @@ vi
 VertexInfo
 (
 local_pos
-vec2
-(
-0
-.
-0
-)
 world_pos
 )
 ;
@@ -1330,8 +1312,6 @@ write_clip
 (
 vec4
 world_pos
-vec2
-snap_offset
 ClipArea
 area
 )
@@ -1352,8 +1332,6 @@ world_pos
 w
 *
 (
-snap_offset
-+
 area
 .
 common_data

@@ -479,12 +479,6 @@ w
 write_clip
 (
 world_pos
-vec2
-(
-0
-.
-0
-)
 clip_area
 )
 ;
