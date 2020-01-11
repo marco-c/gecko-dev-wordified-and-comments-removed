@@ -1449,10 +1449,12 @@ IsValid
 )
 ;
 return
-SideBits
-:
-:
-eNone
+mLayer
+-
+>
+GetFixedPositionSides
+(
+)
 ;
 }
 Maybe

@@ -93,6 +93,16 @@ EventRegionsOverride
 :
 NoOverride
 )
+mFixedPositionSides
+(
+mozilla
+:
+:
+SideBits
+:
+:
+eNone
+)
 mFixedPosScrollContainerId
 (
 ScrollableLayerGuid
