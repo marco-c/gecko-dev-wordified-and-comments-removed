@@ -2493,7 +2493,7 @@ rval
 static
 MOZ_MUST_USE
 bool
-RunResolutionFunction
+RunSettlingFunction
 (
 JSContext
 *
@@ -2548,7 +2548,7 @@ false
 if
 (
 !
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 reject
@@ -6846,7 +6846,7 @@ promise
 )
 ;
 return
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 callee
@@ -7764,7 +7764,7 @@ promise
 )
 ;
 return
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 callee
@@ -11191,7 +11191,7 @@ promise
 static
 MOZ_MUST_USE
 bool
-RunResolutionFunction
+RunSettlingFunction
 (
 JSContext
 *
@@ -13117,7 +13117,7 @@ remainingCount
 )
 {
 return
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 resultCapability
@@ -13302,7 +13302,7 @@ promiseObj
 if
 (
 !
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 resolveAllFun
@@ -13833,7 +13833,7 @@ remainingCount
 )
 {
 return
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 resultCapability
@@ -14234,7 +14234,7 @@ promiseObj
 if
 (
 !
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 resolveAllFun
@@ -14807,7 +14807,7 @@ false
 if
 (
 !
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 rejectFun
@@ -15307,7 +15307,7 @@ nullptr
 if
 (
 !
-RunResolutionFunction
+RunSettlingFunction
 (
 cx
 mode
