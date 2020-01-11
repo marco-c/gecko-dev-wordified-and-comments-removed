@@ -32028,7 +32028,6 @@ eTopLevel
 EventTargetData
 eventTargetData
 (
-mPresShell
 rootFrameToHandleEvent
 )
 ;
@@ -53622,9 +53621,8 @@ return
 false
 ;
 }
-SetPresShellAndFrame
+SetFrameAndComputePresShell
 (
-activePresShell
 activePresShell
 -
 >
