@@ -6,6 +6,11 @@ define
 Logging_h
 #
 include
+<
+cstdlib
+>
+#
+include
 "
 mozilla
 /

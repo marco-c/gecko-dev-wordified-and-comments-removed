@@ -173,7 +173,7 @@ h
 #
 include
 "
-ElfLoader
+Linker
 .
 h
 "
@@ -486,9 +486,6 @@ sigact
 ;
 if
 (
-SEGVHandler
-:
-:
 __wrap_sigaction
 (
 SIGSEGV
@@ -2087,6 +2084,9 @@ argc
 return
 ;
 }
+#
+ifdef
+MOZ_LINKER
 ElfLoader
 :
 :
@@ -2097,6 +2097,8 @@ ExpectShutdown
 false
 )
 ;
+#
+endif
 gBootstrap
 -
 >
@@ -2108,6 +2110,9 @@ argc
 sAppData
 )
 ;
+#
+ifdef
+MOZ_LINKER
 ElfLoader
 :
 :
@@ -2118,6 +2123,8 @@ ExpectShutdown
 true
 )
 ;
+#
+endif
 }
 else
 {

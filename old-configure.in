@@ -23162,6 +23162,13 @@ n
 "
 MOZ_LINKER
 "
+-
+o
+"
+MOZ_WIDGET_TOOLKIT
+"
+=
+android
 ;
 then
 ZLIB_IN_MOZGLUE

@@ -6788,9 +6788,3 @@ return
 0
 ;
 }
-Logging
-Logging
-:
-:
-Singleton
-;
