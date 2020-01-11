@@ -2804,7 +2804,10 @@ value
 (
 )
 >
-MaxValue
+std
+:
+:
+numeric_limits
 <
 nsAString
 :
@@ -2813,7 +2816,9 @@ size_type
 >
 :
 :
-value
+max
+(
+)
 )
 {
 Fail

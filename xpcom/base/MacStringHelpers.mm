@@ -137,6 +137,11 @@ IntegerTypeTraits
 .
 h
 "
+#
+include
+<
+limits
+>
 namespace
 mozilla
 {
@@ -165,7 +170,10 @@ if
 (
 len
 >
-MaxValue
+std
+:
+:
+numeric_limits
 <
 nsAString
 :
@@ -174,7 +182,9 @@ size_type
 >
 :
 :
-value
+max
+(
+)
 )
 {
 return
