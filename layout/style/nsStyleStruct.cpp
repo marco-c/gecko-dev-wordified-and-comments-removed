@@ -15710,7 +15710,10 @@ NS_STYLE_WRITING_MODE_HORIZONTAL_TB
 )
 mTextOrientation
 (
-NS_STYLE_TEXT_ORIENTATION_MIXED
+StyleTextOrientation
+:
+:
+Mixed
 )
 mColorAdjust
 (

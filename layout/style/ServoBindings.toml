@@ -896,6 +896,12 @@ mozilla
 StyleObjectFit
 "
 "
+mozilla
+:
+:
+StyleTextOrientation
+"
+"
 nsStyleImageType
 "
 "

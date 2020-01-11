@@ -5486,7 +5486,10 @@ mImageRendering
 uint8_t
 mWritingMode
 ;
-uint8_t
+mozilla
+:
+:
+StyleTextOrientation
 mTextOrientation
 ;
 mozilla

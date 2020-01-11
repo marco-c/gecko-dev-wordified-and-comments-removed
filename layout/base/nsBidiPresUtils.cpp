@@ -459,7 +459,10 @@ vis
 mTextOrientation
 =
 =
-NS_STYLE_TEXT_ORIENTATION_UPRIGHT
+StyleTextOrientation
+:
+:
+Upright
 )
 {
 return
