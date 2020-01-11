@@ -240,6 +240,7 @@ self
 .
 debug
 (
+                
 "
 Using
 locales
@@ -252,6 +253,7 @@ CLI
 s
 "
 %
+                
 "
 "
 .
@@ -716,6 +718,7 @@ self
 .
 info
 (
+            
 "
 self
 .
@@ -725,10 +728,12 @@ l10n_revisions
 s
 "
 %
+            
 pprint
 .
 pformat
 (
+                
 self
 .
 l10n_revisions
@@ -1021,10 +1026,13 @@ locales_dir
 for
 key
 in
+list
+(
 dirs
 .
 keys
 (
+)
 )
 :
             
