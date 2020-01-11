@@ -191,7 +191,9 @@ packet
 )
 ;
 const
-actorId
+{
+actorID
+}
 =
 message
 .
@@ -199,8 +201,6 @@ parameters
 [
 0
 ]
-.
-actor
 ;
 const
 messageId
@@ -224,7 +224,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -362,7 +362,9 @@ packet
 )
 ;
 const
-actorId
+{
+actorID
+}
 =
 message
 .
@@ -370,8 +372,6 @@ parameters
 [
 0
 ]
-.
-actor
 ;
 const
 messageId
@@ -395,7 +395,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -563,7 +563,9 @@ packet
 )
 ;
 const
-actorId
+{
+actorID
+}
 =
 message
 .
@@ -571,8 +573,6 @@ parameters
 [
 0
 ]
-.
-actor
 ;
 const
 messageId
@@ -596,7 +596,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -629,7 +629,7 @@ getState
 .
 ui
 .
-gripInSidebar
+frontInSidebar
 )
 .
 toEqual
@@ -715,7 +715,9 @@ packet
 )
 ;
 const
-actorId
+{
+actorID
+}
 =
 message
 .
@@ -723,8 +725,6 @@ parameters
 [
 0
 ]
-.
-actor
 ;
 const
 messageId
@@ -748,7 +748,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -781,7 +781,7 @@ getState
 .
 ui
 .
-gripInSidebar
+frontInSidebar
 )
 .
 toEqual
@@ -813,7 +813,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -906,7 +906,9 @@ packet
 )
 ;
 const
-actorId
+{
+actorID
+}
 =
 message
 .
@@ -914,8 +916,6 @@ parameters
 [
 0
 ]
-.
-actor
 ;
 const
 messageId
@@ -939,7 +939,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-actorId
+actorID
 messageId
 )
 )
@@ -972,7 +972,7 @@ getState
 .
 ui
 .
-gripInSidebar
+frontInSidebar
 )
 .
 toEqual
@@ -1032,7 +1032,7 @@ newPacket
 )
 ;
 const
-newActorId
+newActorID
 =
 newMessage
 .
@@ -1041,7 +1041,7 @@ parameters
 0
 ]
 .
-actor
+actorID
 ;
 const
 newMessageId
@@ -1065,7 +1065,7 @@ actions
 .
 showMessageObjectInSidebar
 (
-newActorId
+newActorID
 newMessageId
 )
 )
@@ -1098,7 +1098,7 @@ getState
 .
 ui
 .
-gripInSidebar
+frontInSidebar
 )
 .
 toEqual

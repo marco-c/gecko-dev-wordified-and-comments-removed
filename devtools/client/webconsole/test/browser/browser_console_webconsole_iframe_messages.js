@@ -135,7 +135,15 @@ hud
 )
 ;
 await
-closeConsole
+clearOutput
+(
+hud
+)
+;
+await
+BrowserConsoleManager
+.
+toggleBrowserConsole
 (
 )
 ;

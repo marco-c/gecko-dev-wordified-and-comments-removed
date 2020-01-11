@@ -522,7 +522,7 @@ width
 function
 showMessageObjectInSidebar
 (
-actor
+actorID
 messageId
 )
 {
@@ -570,12 +570,15 @@ parameters
 if
 (
 parameter
+&
+&
+parameter
 .
-actor
+actorID
 =
 =
 =
-actor
+actorID
 )
 {
 dispatch
@@ -597,7 +600,7 @@ return
 function
 showObjectInSidebar
 (
-grip
+front
 )
 {
 return
@@ -605,7 +608,7 @@ return
 type
 :
 SHOW_OBJECT_IN_SIDEBAR
-grip
+front
 }
 ;
 }

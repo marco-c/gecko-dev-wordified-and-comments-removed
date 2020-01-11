@@ -234,7 +234,7 @@ PropTypes
 func
 .
 isRequired
-grip
+front
 :
 PropTypes
 .
@@ -278,13 +278,13 @@ nextProps
 {
 const
 {
-grip
+front
 }
 =
 nextProps
 ;
 return
-grip
+front
 !
 =
 =
@@ -292,7 +292,7 @@ this
 .
 props
 .
-grip
+front
 ;
 }
 onClickSidebarClose
@@ -319,7 +319,7 @@ render
 {
 const
 {
-grip
+front
 serviceContainer
 }
 =
@@ -332,7 +332,7 @@ objectInspector
 =
 getObjectInspector
 (
-grip
+front
 serviceContainer
 {
 autoExpandDepth
@@ -507,13 +507,13 @@ props
 {
 return
 {
-grip
+front
 :
 state
 .
 ui
 .
-gripInSidebar
+frontInSidebar
 }
 ;
 }
