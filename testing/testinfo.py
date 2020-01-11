@@ -7364,6 +7364,10 @@ BUG_COMPONENT
 '
 )
                     
+if
+bug_component
+:
+                        
 key
 =
 "
@@ -7384,6 +7388,19 @@ bug_component
 .
 component
 )
+                    
+else
+:
+                        
+key
+=
+"
+<
+unknown
+bug
+component
+>
+"
                     
 if
 (
@@ -7875,6 +7892,10 @@ BUG_COMPONENT
 '
 )
                     
+if
+bug_component
+:
+                        
 key
 =
 "
@@ -7895,6 +7916,19 @@ bug_component
 .
 component
 )
+                    
+else
+:
+                        
+key
+=
+"
+<
+unknown
+bug
+component
+>
+"
                     
 if
 (
