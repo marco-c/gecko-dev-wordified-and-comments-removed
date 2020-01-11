@@ -473,6 +473,16 @@ map
 )
 ;
 }
+MOZ_ASSERT
+(
+script
+-
+>
+hasBytecode
+(
+)
+)
+;
 DebugScript
 *
 borrowed

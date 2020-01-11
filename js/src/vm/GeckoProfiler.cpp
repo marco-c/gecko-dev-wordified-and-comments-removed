@@ -820,6 +820,16 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+script
+-
+>
+hasBytecode
+(
+)
+)
+;
 if
 (
 !
