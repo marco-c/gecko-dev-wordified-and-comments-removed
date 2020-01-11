@@ -4719,12 +4719,6 @@ newBigInt
 (
 )
 ;
-JSAtom
-*
-bigIntAtom
-(
-)
-;
 protected
 :
 PropertyName
