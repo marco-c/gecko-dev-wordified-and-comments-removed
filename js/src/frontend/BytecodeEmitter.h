@@ -1987,11 +1987,11 @@ MOZ_MUST_USE
 bool
 emitAtomOp
 (
+JSOp
+op
 JSAtom
 *
 atom
-JSOp
-op
 ShouldInstrument
 shouldInstrument
 =
@@ -2005,10 +2005,10 @@ MOZ_MUST_USE
 bool
 emitAtomOp
 (
-uint32_t
-atomIndex
 JSOp
 op
+uint32_t
+atomIndex
 ShouldInstrument
 shouldInstrument
 =

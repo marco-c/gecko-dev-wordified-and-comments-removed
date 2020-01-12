@@ -4476,11 +4476,11 @@ BytecodeEmitter
 :
 emitAtomOp
 (
+JSOp
+op
 JSAtom
 *
 atom
-JSOp
-op
 ShouldInstrument
 shouldInstrument
 )
@@ -4562,8 +4562,8 @@ false
 return
 emitAtomOp
 (
-index
 op
+index
 shouldInstrument
 )
 ;
@@ -4574,10 +4574,10 @@ BytecodeEmitter
 :
 emitAtomOp
 (
-uint32_t
-atomIndex
 JSOp
 op
+uint32_t
+atomIndex
 ShouldInstrument
 shouldInstrument
 )
@@ -9078,6 +9078,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 pndot
 -
 >
@@ -9088,7 +9089,6 @@ key
 atom
 (
 )
-JSOP_GETPROP
 ShouldInstrument
 :
 :
@@ -14290,6 +14290,7 @@ if
 !
 emitAtomOp
 (
+JSOP_CALLPROP
 cx
 -
 >
@@ -14298,7 +14299,6 @@ names
 )
 .
 return_
-JSOP_CALLPROP
 )
 )
 {
@@ -16075,6 +16075,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -16083,7 +16084,6 @@ names
 )
 .
 done
-JSOP_GETPROP
 )
 )
 {
@@ -16198,6 +16198,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -16206,7 +16207,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -17022,6 +17022,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -17030,7 +17031,6 @@ names
 )
 .
 proto
-JSOP_GETPROP
 )
 )
 {
@@ -17199,6 +17199,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 key
 -
 >
@@ -17212,7 +17213,6 @@ NameNode
 atom
 (
 )
-JSOP_GETPROP
 ShouldInstrument
 :
 :
@@ -18105,6 +18105,7 @@ if
 !
 emitAtomOp
 (
+JSOP_STRING
 cx
 -
 >
@@ -18113,7 +18114,6 @@ names
 )
 .
 empty
-JSOP_STRING
 )
 )
 {
@@ -21710,6 +21710,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETINTRINSIC
 cx
 -
 >
@@ -21718,7 +21719,6 @@ names
 )
 .
 CopyDataProperties
-JSOP_GETINTRINSIC
 )
 )
 {
@@ -21745,6 +21745,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETINTRINSIC
 cx
 -
 >
@@ -21753,7 +21754,6 @@ names
 )
 .
 CopyDataPropertiesUnfiltered
-JSOP_GETINTRINSIC
 )
 )
 {
@@ -22048,6 +22048,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -22056,7 +22057,6 @@ names
 )
 .
 next
-JSOP_GETPROP
 )
 )
 {
@@ -22306,6 +22306,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -22314,7 +22315,6 @@ names
 )
 .
 next
-JSOP_GETPROP
 )
 )
 {
@@ -22424,6 +22424,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -22432,7 +22433,6 @@ names
 )
 .
 next
-JSOP_GETPROP
 )
 )
 {
@@ -22564,6 +22564,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -22572,7 +22573,6 @@ names
 )
 .
 done
-JSOP_GETPROP
 )
 )
 {
@@ -22602,6 +22602,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -22610,7 +22611,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -27801,6 +27801,7 @@ if
 !
 emitAtomOp
 (
+JSOP_CALLPROP
 cx
 -
 >
@@ -27809,7 +27810,6 @@ names
 )
 .
 throw_
-JSOP_CALLPROP
 )
 )
 {
@@ -28059,6 +28059,7 @@ if
 !
 emitAtomOp
 (
+JSOP_CALLPROP
 cx
 -
 >
@@ -28067,7 +28068,6 @@ names
 )
 .
 return_
-JSOP_CALLPROP
 )
 )
 {
@@ -28144,6 +28144,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28152,7 +28153,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -28239,6 +28239,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28247,7 +28248,6 @@ names
 )
 .
 done
-JSOP_GETPROP
 )
 )
 {
@@ -28274,6 +28274,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28282,7 +28283,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -28518,6 +28518,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28526,7 +28527,6 @@ names
 )
 .
 done
-JSOP_GETPROP
 )
 )
 {
@@ -28582,6 +28582,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28590,7 +28591,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -28736,6 +28736,7 @@ if
 !
 emitAtomOp
 (
+JSOP_GETPROP
 cx
 -
 >
@@ -28744,7 +28745,6 @@ names
 )
 .
 value
-JSOP_GETPROP
 )
 )
 {
@@ -29278,13 +29278,13 @@ Name
 return
 emitAtomOp
 (
+JSOP_DELNAME
 nameExpr
 -
 >
 atom
 (
 )
-JSOP_DELNAME
 )
 ;
 }
@@ -40857,8 +40857,8 @@ if
 !
 emitAtomOp
 (
-index
 JSOP_STRING
+index
 )
 )
 {
@@ -41066,8 +41066,8 @@ pushed
 &
 emitAtomOp
 (
-atomIndex
 JSOP_STRING
+atomIndex
 )
 ;
 }
@@ -41105,8 +41105,8 @@ pushed
 &
 emitAtomOp
 (
-atomIndex
 JSOP_STRING
+atomIndex
 )
 &
 &
@@ -43444,6 +43444,7 @@ if
 !
 emitAtomOp
 (
+JSOP_STRING
 pn
 -
 >
@@ -43457,7 +43458,6 @@ NameNode
 atom
 (
 )
-JSOP_STRING
 )
 )
 {

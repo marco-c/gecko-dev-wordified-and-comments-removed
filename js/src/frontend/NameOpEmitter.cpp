@@ -208,8 +208,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GETNAME
+name_
 )
 )
 {
@@ -236,8 +236,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GETGNAME
+name_
 )
 )
 {
@@ -264,8 +264,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GETINTRINSIC
+name_
 )
 )
 {
@@ -319,8 +319,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GETIMPORT
+name_
 )
 )
 {
@@ -561,8 +561,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 thisOp
+name_
 )
 )
 {
@@ -590,8 +590,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GIMPLICITTHIS
+name_
 )
 )
 {
@@ -1095,8 +1095,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_GETBOUNDNAME
+name_
 )
 )
 {
@@ -1290,8 +1290,8 @@ bce_
 >
 emitAtomOp
 (
-name_
 JSOP_SETINTRINSIC
+name_
 )
 )
 {

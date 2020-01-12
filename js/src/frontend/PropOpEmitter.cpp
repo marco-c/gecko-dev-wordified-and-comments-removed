@@ -352,8 +352,8 @@ bce_
 >
 emitAtomOp
 (
-propAtomIndex_
 op
+propAtomIndex_
 ShouldInstrument
 :
 :
@@ -705,8 +705,8 @@ bce_
 >
 emitAtomOp
 (
-propAtomIndex_
 op
+propAtomIndex_
 )
 )
 {
@@ -856,8 +856,8 @@ bce_
 >
 emitAtomOp
 (
-propAtomIndex_
 setOp
+propAtomIndex_
 ShouldInstrument
 :
 :
@@ -1069,8 +1069,8 @@ bce_
 >
 emitAtomOp
 (
-propAtomIndex_
 setOp
+propAtomIndex_
 ShouldInstrument
 :
 :
