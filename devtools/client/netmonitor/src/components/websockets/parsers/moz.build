@@ -68,7 +68,4 @@ sockjs
 '
 signalr
 '
-'
-wamp
-'
 ]
