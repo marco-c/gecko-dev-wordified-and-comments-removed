@@ -2028,14 +2028,6 @@ logger
 key
 )
             
-if
-not
-encoding
-:
-                
-return
-method
-            
 def
 wrapped
 (
@@ -2051,12 +2043,22 @@ out_args
 =
 [
                     
-arg
+six
 .
-decode
+ensure_text
 (
+arg
 encoding
+=
+encoding
+or
+'
+utf
+-
+8
+'
 )
+                    
 if
 isinstance
 (
@@ -2067,7 +2069,6 @@ binary_type
 )
 else
 arg
-                    
 for
 arg
 in
@@ -6069,6 +6070,15 @@ __builtin__
 open
 '
 :
+            
+if
+six
+.
+PY3
+:
+                
+return
+open
             
 def
 wrapped_open
