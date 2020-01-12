@@ -490,11 +490,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -540,11 +541,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 default
@@ -592,11 +594,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -647,11 +650,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -697,11 +701,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 default
@@ -749,11 +754,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -801,11 +807,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -858,11 +865,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -910,11 +918,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 default
@@ -964,11 +973,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1011,11 +1021,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1060,11 +1071,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1613,11 +1625,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 Not
@@ -1667,11 +1680,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 A
@@ -1726,11 +1740,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 A
@@ -1785,11 +1800,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1854,11 +1870,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -1920,11 +1937,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -2001,11 +2019,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 "
 '
 c
@@ -2130,11 +2149,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 "
 '
 c
@@ -2486,11 +2506,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 '
@@ -2546,11 +2567,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 '
@@ -2605,11 +2627,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 '
@@ -3672,11 +3695,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -3704,11 +3728,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -3732,11 +3757,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -3984,11 +4010,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 Cannot
@@ -4012,11 +4039,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4141,11 +4169,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 Cannot
@@ -4169,11 +4198,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4303,11 +4333,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 Cannot
@@ -4337,11 +4368,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4365,11 +4397,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4521,11 +4554,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 Cannot
@@ -4555,11 +4589,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4583,11 +4618,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -4854,11 +4890,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 '
 MOZ_OPTION
 takes
@@ -4973,11 +5010,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 Cannot
@@ -5001,11 +5039,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -5141,11 +5180,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 MOZ_OPTION
@@ -5261,11 +5301,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 MOZ_OPTION
@@ -5284,11 +5325,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 MOZ_OPTION
@@ -5576,11 +5618,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 '
 MOZ_OPTION
 takes
@@ -5728,11 +5771,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 MOZ_OPTION
@@ -5848,11 +5892,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 MOZ_OPTION
@@ -5871,11 +5916,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 MOZ_OPTION
@@ -6121,11 +6167,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -6155,11 +6202,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -6186,11 +6234,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                                   
 '
 -
@@ -6262,11 +6311,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 nargs
@@ -6316,11 +6366,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 nargs
@@ -6419,11 +6470,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -6520,11 +6572,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -6837,11 +6890,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
