@@ -1315,6 +1315,16 @@ const
 PointerCapabilities
 kDefaultCapabilities
 =
+#
+ifdef
+ANDROID
+PointerCapabilities
+:
+:
+Coarse
+;
+#
+else
 PointerCapabilities
 :
 :
@@ -1325,6 +1335,8 @@ PointerCapabilities
 :
 Hover
 ;
+#
+endif
 if
 (
 nsContentUtils
