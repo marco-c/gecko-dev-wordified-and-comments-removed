@@ -94,6 +94,13 @@ h
 #
 include
 "
+nsNameSpaceManager
+.
+h
+"
+#
+include
+"
 nsIApplicationCache
 .
 h
