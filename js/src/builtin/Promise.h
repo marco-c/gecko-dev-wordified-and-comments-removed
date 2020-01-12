@@ -671,7 +671,7 @@ promises
 )
 ;
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 OriginalPromiseThen
 (

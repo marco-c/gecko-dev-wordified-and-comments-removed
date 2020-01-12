@@ -1210,7 +1210,7 @@ assertEq
 otherGlobal
 .
 subPromiseCreated
-true
+false
 )
 ;
 assertEq
@@ -1218,7 +1218,7 @@ assertEq
 otherGlobal
 .
 speciesInvoked
-true
+false
 )
 ;
 subPromiseCreated
@@ -1285,7 +1285,7 @@ assertEq
 otherGlobal
 .
 subPromiseCreated
-true
+false
 )
 ;
 assertEq
@@ -1293,7 +1293,7 @@ assertEq
 otherGlobal
 .
 speciesInvoked
-true
+false
 )
 ;
 await
@@ -1431,8 +1431,6 @@ assertEq
 (
 cancelPromise1
 instanceof
-otherGlobal
-.
 Promise
 true
 )
@@ -1454,7 +1452,7 @@ assertEq
 otherGlobal
 .
 subPromiseCreated
-true
+false
 )
 ;
 assertEq
@@ -1462,7 +1460,7 @@ assertEq
 otherGlobal
 .
 speciesInvoked
-true
+false
 )
 ;
 subPromiseCreated
@@ -1510,8 +1508,6 @@ assertEq
 (
 cancelPromise2
 instanceof
-otherGlobal
-.
 Promise
 true
 )
@@ -1533,7 +1529,7 @@ assertEq
 otherGlobal
 .
 subPromiseCreated
-true
+false
 )
 ;
 assertEq
@@ -1541,7 +1537,7 @@ assertEq
 otherGlobal
 .
 speciesInvoked
-true
+false
 )
 ;
 if
