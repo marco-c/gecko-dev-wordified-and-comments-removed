@@ -110,9 +110,7 @@ test
 -
 platform
 :
-linux1804
--
-64
+linux64
 /
 debug
 :
@@ -145,9 +143,7 @@ test
 -
 platform
 :
-linux1804
--
-64
+linux64
 -
 qr
 /
@@ -158,9 +154,7 @@ debug
 trunk
 '
 ]
-linux1804
--
-64
+linux64
 -
 qr
 /
@@ -349,9 +343,7 @@ android
 *
 :
 18
-linux1804
--
-64
+linux64
 -
 asan
 /
@@ -439,9 +431,7 @@ ccov
 *
 :
 10800
-linux1804
--
-64
+linux64
 -
 qr
 /
@@ -541,9 +531,7 @@ test
 -
 platform
 :
-linux1804
--
-64
+linux64
 -
 asan
 /
@@ -1433,9 +1421,7 @@ windows7
 -
 32
 |
-linux1804
--
-64
+linux64
 )
 (
 ?
