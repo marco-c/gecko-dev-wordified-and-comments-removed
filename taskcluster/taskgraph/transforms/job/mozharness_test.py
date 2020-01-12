@@ -110,12 +110,6 @@ disabled
 '
     
 '
-stylo
--
-sequential
-'
-    
-'
 qr
 '
     
