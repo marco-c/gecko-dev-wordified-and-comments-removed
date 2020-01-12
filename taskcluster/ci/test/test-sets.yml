@@ -2599,8 +2599,6 @@ common
 tests
 :
 -
-jittest
--
 marionette
 -
 mochitest
@@ -2672,6 +2670,8 @@ gtest
 -
 jsreftest
 -
+jittest
+-
 mochitest
 -
 a11y
@@ -2732,6 +2732,8 @@ crashtest
 -
 gtest
 -
+jittest
+-
 jsreftest
 -
 mochitest
@@ -2783,8 +2785,6 @@ qr
 -
 tests
 :
--
-jittest
 -
 mochitest
 -
