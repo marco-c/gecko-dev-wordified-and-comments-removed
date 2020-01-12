@@ -71514,7 +71514,8 @@ MaybeStoreUserInteractionAsPermission
 {
 if
 (
-GetSameTypeParentDocument
+!
+IsTopLevelContentDocument
 (
 )
 )
