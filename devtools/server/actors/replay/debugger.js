@@ -1079,9 +1079,8 @@ response
 ;
 if
 (
+!
 response
-.
-unhandledDivergence
 )
 {
 if
@@ -2033,6 +2032,10 @@ getPauseDataAndRepaint
 ;
 if
 (
+!
+pauseData
+|
+|
 !
 pauseData
 .
