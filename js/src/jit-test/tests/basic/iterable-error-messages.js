@@ -1,5 +1,5 @@
 function
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 f
 msg
@@ -36,8 +36,13 @@ assertEq
 e
 .
 message
+.
+endsWith
+(
 msg
 )
+true
+)
 ;
 }
 }
@@ -76,7 +81,7 @@ Proxy
 ]
 )
 {
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -95,7 +100,7 @@ iterable
 )
 ;
 }
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -112,7 +117,7 @@ null
 "
 )
 ;
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -179,7 +184,7 @@ Proxy
 ]
 )
 {
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -198,7 +203,7 @@ iterable
 )
 ;
 }
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -215,7 +220,7 @@ null
 "
 )
 ;
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -279,7 +284,7 @@ Proxy
 ]
 )
 {
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -298,7 +303,7 @@ iterable
 )
 ;
 }
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )
@@ -315,7 +320,7 @@ null
 "
 )
 ;
-assertThrowsMsg
+assertThrowsMsgEndsWith
 (
 (
 )

@@ -600,6 +600,9 @@ equal
 results
 .
 msg
+.
+endsWith
+(
 "
 document
 .
@@ -607,6 +610,8 @@ l10n
 is
 undefined
 "
+)
+true
 "
 Translation
 failed

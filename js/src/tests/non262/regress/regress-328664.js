@@ -32,6 +32,8 @@ expect
 /
 TypeError
 :
+.
+*
 value
 .
 parameters

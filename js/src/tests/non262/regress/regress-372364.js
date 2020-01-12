@@ -65,6 +65,8 @@ expect
 /
 TypeError
 :
+.
+*
 a
 \
 (
@@ -127,6 +129,8 @@ expect
 /
 TypeError
 :
+.
+*
 \
 /
 a
