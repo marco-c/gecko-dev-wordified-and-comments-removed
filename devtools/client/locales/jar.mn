@@ -64,6 +64,8 @@ AB_CD
 jar
 :
 devtools
+/
+client
 (
 %
 *

@@ -544,6 +544,8 @@ ftl
 "
 devtools
 /
+client
+/
 aboutdebugging
 .
 ftl

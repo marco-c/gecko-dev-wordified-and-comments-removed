@@ -523,6 +523,8 @@ init
 "
 devtools
 /
+client
+/
 application
 .
 ftl

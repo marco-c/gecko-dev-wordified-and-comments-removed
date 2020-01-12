@@ -553,6 +553,8 @@ locales
 "
 devtools
 /
+client
+/
 accessibility
 .
 ftl
