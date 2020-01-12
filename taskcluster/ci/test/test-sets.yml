@@ -2603,12 +2603,6 @@ chrome
 -
 mochitest
 -
-devtools
--
-chrome
--
-mochitest
--
 remote
 #
 List
@@ -2751,6 +2745,12 @@ jsreftest
 mochitest
 -
 a11y
+-
+mochitest
+-
+devtools
+-
+chrome
 -
 mochitest
 -
