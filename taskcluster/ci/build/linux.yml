@@ -6315,11 +6315,6 @@ mozilla
 -
 release
 '
-'
-mozilla
--
-esr45
-'
 ]
 fetches
 :

@@ -55,12 +55,6 @@ release
 '
 mozilla
 -
-esr60
-'
-    
-'
-mozilla
--
 esr68
 '
     
@@ -74,12 +68,6 @@ central
 comm
 -
 beta
-'
-    
-'
-comm
--
-esr60
 '
     
 '

@@ -534,13 +534,6 @@ aarch64
 default
 :
 null
-esr60
-:
-"
-52
-.
-0esr
-"
 esr68
 :
 "

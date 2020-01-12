@@ -205,16 +205,11 @@ beta
 release
 :
 candidate
-esr60
-:
-esr
-/
-stable
 esr68
 :
 esr
 /
-candidate
+stable
 default
 :
 mock
