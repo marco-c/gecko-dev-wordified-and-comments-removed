@@ -1357,7 +1357,7 @@ windows10
 -
 ccov
 /
-debug
+opt
 :
 build
 -
@@ -1367,7 +1367,7 @@ win64
 -
 ccov
 /
-debug
+opt
 test
 -
 sets

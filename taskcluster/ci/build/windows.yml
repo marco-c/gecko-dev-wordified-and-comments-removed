@@ -3503,13 +3503,13 @@ win64
 -
 ccov
 /
-debug
+opt
 :
 description
 :
 "
 Win64
-Debug
+Opt
 Code
 Coverage
 "
@@ -3526,7 +3526,7 @@ win64
 -
 ccov
 -
-debug
+opt
 attributes
 :
 enable
@@ -3677,7 +3677,7 @@ builds
 /
 taskcluster_sub_win64
 /
-ccov_debug
+ccov_opt
 .
 py
 mozconfig

@@ -13,12 +13,6 @@ ccov
 '
     
 '
-debug_build
-'
-:
-True
-    
-'
 env
 '
 :

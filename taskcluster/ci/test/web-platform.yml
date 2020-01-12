@@ -393,6 +393,15 @@ debug
 18
 windows10
 -
+64
+-
+ccov
+/
+opt
+:
+18
+windows10
+-
 aarch64
 /
 opt
