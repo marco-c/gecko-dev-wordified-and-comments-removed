@@ -2374,6 +2374,13 @@ LayoutDeviceIntSize
 aSize
 )
 ;
+void
+OnSizeModeChange
+(
+nsSizeMode
+aSizeMode
+)
+;
 bool
 OnGesture
 (

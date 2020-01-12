@@ -132,6 +132,15 @@ h
 "
 ;
 using
+nsSizeMode
+from
+"
+nsIWidgetListener
+.
+h
+"
+;
+using
 nsTransparencyMode
 from
 "
@@ -161,6 +170,9 @@ widgetKey
 ;
 nsTransparencyMode
 transparencyMode
+;
+nsSizeMode
+sizeMode
 ;
 }
 ;
