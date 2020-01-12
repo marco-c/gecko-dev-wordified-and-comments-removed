@@ -2624,12 +2624,6 @@ chrome
 mochitest
 -
 remote
--
-reftest
--
-no
--
-accel
 #
 List
 of
@@ -2695,6 +2689,12 @@ mochitest
 webgpu
 -
 reftest
+-
+reftest
+-
+no
+-
+accel
 -
 telemetry
 -
