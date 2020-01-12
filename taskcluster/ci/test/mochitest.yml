@@ -1434,9 +1434,7 @@ ccov
 *
 :
 16
-linux1804
--
-64
+linux64
 /
 debug
 :
@@ -1480,9 +1478,7 @@ test
 -
 platform
 :
-linux1804
--
-64
+linux64
 -
 asan
 /
