@@ -555,6 +555,10 @@ extern
 bool
 enableWeakRefs
 ;
+extern
+bool
+enableToSource
+;
 #
 ifdef
 JS_GC_ZEAL

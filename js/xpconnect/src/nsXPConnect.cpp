@@ -2483,6 +2483,17 @@ creationOptions
 (
 )
 .
+setToSourceEnabled
+(
+true
+)
+;
+aOptions
+.
+creationOptions
+(
+)
+.
 setSecureContext
 (
 true
