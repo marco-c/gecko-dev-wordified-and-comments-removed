@@ -2521,11 +2521,16 @@ selects
 the
 linux
 linux64
-and
 linux64
 -
 asan
         
+and
+linux64
+-
+stylo
+-
+sequential
 platforms
 for
 gtest
@@ -2601,6 +2606,14 @@ linux64
 linux64
 -
 asan
+'
+                                            
+'
+linux64
+-
+stylo
+-
+sequential
 '
 ]
 }
