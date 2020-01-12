@@ -559,6 +559,10 @@ extern
 bool
 enableToSource
 ;
+extern
+bool
+enablePropertyErrorMessageFix
+;
 #
 ifdef
 JS_GC_ZEAL
