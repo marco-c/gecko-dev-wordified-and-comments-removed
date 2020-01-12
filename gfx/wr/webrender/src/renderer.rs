@@ -18637,7 +18637,6 @@ batch
 key
 .
 kind
-&
 self
 .
 debug_flags
@@ -18980,7 +18979,6 @@ batch
 key
 .
 kind
-&
 self
 .
 debug_flags
@@ -36701,7 +36699,6 @@ kind
 BatchKind
 flags
 :
-&
 DebugFlags
 )
 -
