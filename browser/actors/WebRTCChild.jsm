@@ -2135,6 +2135,7 @@ microphone
 screen
 window
 browser
+true
 )
 ;
 let
