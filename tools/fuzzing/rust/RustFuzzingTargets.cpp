@@ -57,3 +57,10 @@ fuzz_rkv_val_write
 RkvValWrite
 )
 ;
+MOZ_FUZZING_INTERFACE_RAW
+(
+FuzzingInitDummy
+fuzz_rkv_calls
+RkvCalls
+)
+;

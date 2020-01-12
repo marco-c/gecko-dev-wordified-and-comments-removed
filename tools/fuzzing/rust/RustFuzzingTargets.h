@@ -53,6 +53,17 @@ size_t
 size
 )
 ;
+int
+fuzz_rkv_calls
+(
+const
+uint8_t
+*
+raw_data
+size_t
+size
+)
+;
 }
 #
 endif
