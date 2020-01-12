@@ -680,7 +680,8 @@ Never
 }
 ;
 MOZ_MUST_USE
-bool
+JSObject
+*
 OriginalPromiseThen
 (
 JSContext
@@ -688,14 +689,10 @@ JSContext
 cx
 HandleObject
 promiseObj
-HandleValue
+HandleObject
 onFulfilled
-HandleValue
+HandleObject
 onRejected
-MutableHandleObject
-dependent
-CreateDependentPromise
-createDependent
 )
 ;
 enum
