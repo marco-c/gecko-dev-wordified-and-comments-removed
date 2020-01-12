@@ -16053,7 +16053,6 @@ tabbrowser
 addMultipleTabs
 (
 restoreTabsLazily
-aWindow
 selectTab
 winData
 .
