@@ -46417,6 +46417,10 @@ nsIFrame
 :
 :
 kFloatList
+nsIFrame
+:
+:
+kOverflowList
 }
 ;
 for
