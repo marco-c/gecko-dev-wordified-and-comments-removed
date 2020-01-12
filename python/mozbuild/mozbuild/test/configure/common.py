@@ -11,6 +11,8 @@ errno
 import
 os
 import
+six
+import
 subprocess
 import
 sys
@@ -19,7 +21,7 @@ tempfile
 import
 unittest
 from
-StringIO
+six
 import
 StringIO
 from
@@ -476,10 +478,11 @@ for
 k
 v
 in
-paths
+six
 .
 iteritems
 (
+paths
 )
 if
 v
@@ -488,10 +491,9 @@ v
         
 paths
 =
-paths
-.
-keys
+list
 (
+paths
 )
         
 environ

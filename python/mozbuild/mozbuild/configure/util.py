@@ -449,6 +449,15 @@ fh
 )
 :
             
+if
+six
+.
+PY3
+:
+                
+return
+fh
+            
 try
 :
                 
@@ -721,10 +730,15 @@ _stdout
                 
 msg
 =
+six
+.
+ensure_text
+(
 record
 .
 getMessage
 (
+)
 )
                 
 if
@@ -1259,30 +1273,24 @@ buf
 )
 :
         
-if
-self
-.
-_encoding
-and
-isinstance
-(
-buf
-str
-)
-:
-            
 buf
 =
-buf
+six
 .
-decode
+ensure_text
 (
+buf
+encoding
+=
 self
 .
 _encoding
-self
-.
-_errors
+or
+'
+utf
+-
+8
+'
 )
         
 lines
