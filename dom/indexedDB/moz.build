@@ -213,11 +213,6 @@ IDBCursor
 h
 '
 '
-IDBCursorType
-.
-h
-'
-'
 IDBDatabase
 .
 h
@@ -279,11 +274,6 @@ h
 '
 '
 IndexedDatabaseManager
-.
-h
-'
-'
-InitializedOnce
 .
 h
 '
@@ -355,11 +345,6 @@ cpp
 '
 '
 IDBCursor
-.
-cpp
-'
-'
-IDBCursorType
 .
 cpp
 '

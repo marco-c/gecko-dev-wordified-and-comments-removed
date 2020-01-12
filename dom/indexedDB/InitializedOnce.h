@@ -487,16 +487,6 @@ isSome
 )
 )
 ;
-maybeReset
-(
-)
-;
-}
-void
-maybeReset
-(
-)
-{
 mMaybe
 .
 reset
