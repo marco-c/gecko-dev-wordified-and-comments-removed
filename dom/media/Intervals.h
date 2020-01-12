@@ -12,15 +12,6 @@ algorithm
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
