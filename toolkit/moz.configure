@@ -15359,6 +15359,8 @@ with
 only_when
 (
 requires_wasm_sandboxing
+&
+compile_environment
 )
 :
 lucetc
