@@ -9748,6 +9748,16 @@ kSystemFont_system
 )
 )
 {
+FindFamiliesFlags
+flags
+=
+aFlags
+|
+FindFamiliesFlags
+:
+:
+eSearchHiddenFamilies
+;
 if
 (
 mUseSizeSensitiveSystemFont
@@ -9778,7 +9788,7 @@ FindAndAddFamilies
 aGeneric
 mSystemDisplayFontFamilyName
 aOutput
-aFlags
+flags
 aStyle
 aDevToCssSize
 )
@@ -9793,7 +9803,7 @@ FindAndAddFamilies
 aGeneric
 mSystemTextFontFamilyName
 aOutput
-aFlags
+flags
 aStyle
 aDevToCssSize
 )

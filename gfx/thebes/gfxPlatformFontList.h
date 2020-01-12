@@ -824,6 +824,12 @@ eQuotedFamilyName
 <
 <
 3
+eSearchHiddenFamilies
+=
+1
+<
+<
+4
 }
 ;
 virtual
