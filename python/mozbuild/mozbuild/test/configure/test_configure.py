@@ -5,11 +5,13 @@ absolute_import
 print_function
 unicode_literals
 from
-StringIO
+six
 import
 StringIO
 import
 os
+import
+six
 import
 sys
 import
@@ -177,19 +179,15 @@ options
 :
             
 return
+six
+.
+ensure_text
+(
 out
 .
 getvalue
 (
 )
-.
-decode
-(
-'
-utf
--
-8
-'
 )
 config
         
@@ -2419,9 +2417,6 @@ sandbox
               
 )
         
-import
-__builtin__
-        
 self
 .
 assertIs
@@ -2434,7 +2429,11 @@ foo
 ]
 (
 )
-__builtin__
+six
+.
+moves
+.
+builtins
 )
         
 exec_
@@ -2693,10 +2692,9 @@ self
 .
 assertEquals
 (
-sandbox
-.
-keys
+list
 (
+sandbox
 )
 [
 '
@@ -2810,16 +2808,9 @@ result
         
 self
 .
-assertEquals
+assertIn
 (
-e
-.
-exception
-.
-message
-                          
 "
-global
 name
 '
 sys
@@ -2828,6 +2819,12 @@ is
 not
 defined
 "
+str
+(
+e
+.
+exception
+)
 )
     
 def
@@ -4343,11 +4340,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 '
@@ -4536,11 +4534,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 '
@@ -4655,11 +4654,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 '
@@ -4909,11 +4909,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 '
@@ -5065,11 +5066,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 '
@@ -5141,11 +5143,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 "
 Cannot
@@ -5533,11 +5536,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 -
@@ -5658,11 +5662,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Unexpected
@@ -6148,11 +6153,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 "
 '
@@ -6492,11 +6498,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 "
 '
@@ -6572,11 +6579,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 "
 '
@@ -6928,11 +6936,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 "
 '
@@ -7011,11 +7020,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 "
 '
@@ -7334,11 +7344,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 message
 )
             
@@ -7372,11 +7383,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 message
 )
             
@@ -7417,11 +7429,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 message
 )
     
@@ -7479,11 +7492,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -7574,11 +7588,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -7658,11 +7673,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -7745,11 +7761,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -7832,11 +7849,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -7921,11 +7939,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Option
@@ -8264,11 +8283,12 @@ self
 assertEquals
 (
                 
+str
+(
 e
 .
 exception
-.
-message
+)
                 
 '
 -
@@ -8317,11 +8337,12 @@ self
 assertEquals
 (
                 
+str
+(
 e
 .
 exception
-.
-message
+)
                 
 '
 -
@@ -8368,11 +8389,12 @@ self
 assertEquals
 (
                 
+str
+(
 e
 .
 exception
-.
-message
+)
                 
 '
 QUX
@@ -8725,11 +8747,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 depends
@@ -8862,11 +8885,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 depends
@@ -9510,11 +9534,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Cannot
@@ -9622,11 +9647,12 @@ self
 assertEquals
 (
             
+str
+(
 e
 .
 exception
-.
-message
+)
             
 '
 Cannot
@@ -9703,11 +9729,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 "
 Unexpected
 type
@@ -10222,11 +10249,12 @@ self
 assertEquals
 (
                 
+str
+(
 e
 .
 exception
-.
-message
+)
                 
 '
 -
@@ -10339,18 +10367,19 @@ get_config
         
 self
 .
-assertEquals
+assertIn
 (
-e
-.
-exception
-.
-message
 '
 Cannot
 reassign
 builtins
 '
+str
+(
+e
+.
+exception
+)
 )
         
 with
@@ -10391,14 +10420,9 @@ get_config
         
 self
 .
-assertEquals
+assertIn
 (
-e
-.
-exception
-.
-message
-                          
+            
 '
 Cannot
 assign
@@ -10408,14 +10432,20 @@ it
 is
 neither
 a
-'
-                          
-'
 depends
 nor
 a
+'
+            
+'
 template
 '
+str
+(
+e
+.
+exception
+)
 )
     
 def
@@ -10473,11 +10503,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 depends
@@ -10546,11 +10577,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 '
@@ -10639,11 +10671,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Option
@@ -10708,11 +10741,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Cannot
@@ -10787,11 +10821,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Cannot
@@ -10851,11 +10886,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Unexpected
@@ -10940,11 +10976,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 The
@@ -11014,11 +11051,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 depends_impl
@@ -11288,11 +11326,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 imports
@@ -11379,11 +11418,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 '
 imports
@@ -11489,11 +11529,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 "
 Unexpected
 type
@@ -11560,11 +11601,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
 "
 Unexpected
 type
@@ -11629,11 +11671,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                           
 "
 Invalid
@@ -12053,11 +12096,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 -
@@ -12131,11 +12175,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 depends
@@ -12259,11 +12304,12 @@ self
 .
 assertEquals
 (
+str
+(
 e
 .
 exception
-.
-message
+)
                               
 '
 -
