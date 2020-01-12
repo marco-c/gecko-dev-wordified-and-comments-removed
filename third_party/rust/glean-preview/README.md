@@ -246,7 +246,7 @@ prototype_ping
 ;
 prototype_ping
 .
-send
+submit
 (
 )
 ;
