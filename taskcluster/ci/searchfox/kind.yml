@@ -279,6 +279,8 @@ linux64
 -
 cbindgen
 -
+linux64
+-
 lucetc
 -
 wasi

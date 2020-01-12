@@ -226,6 +226,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -403,6 +405,8 @@ node
 linux64
 -
 cbindgen
+-
+linux64
 -
 lucetc
 -
@@ -582,6 +586,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -747,6 +753,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -918,6 +926,8 @@ node
 linux64
 -
 cbindgen
+-
+linux64
 -
 lucetc
 -
@@ -1132,6 +1142,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -1323,6 +1335,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -1530,6 +1544,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -1722,6 +1738,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -1929,6 +1947,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -2118,6 +2138,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -2312,6 +2334,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -2509,6 +2533,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -2708,6 +2734,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -2934,6 +2962,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -3143,6 +3173,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -3379,6 +3411,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -3560,6 +3594,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -3733,6 +3769,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -3916,6 +3954,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -4104,6 +4144,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -4305,6 +4347,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -4509,6 +4553,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -4756,6 +4802,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -4941,6 +4989,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -5120,6 +5170,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -5322,6 +5374,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -5502,6 +5556,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -5686,6 +5742,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -5865,6 +5923,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -6071,6 +6131,8 @@ node
 linux64
 -
 grcov
+-
+linux64
 -
 lucetc
 -
@@ -6283,6 +6345,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -6473,6 +6537,8 @@ sccache
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -6672,6 +6738,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -6872,6 +6940,8 @@ linux64
 -
 node
 -
+linux64
+-
 lucetc
 -
 wasi
@@ -7055,6 +7125,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
@@ -7241,6 +7313,8 @@ nasm
 linux64
 -
 node
+-
+linux64
 -
 lucetc
 -
