@@ -2490,6 +2490,11 @@ conversion
 :
                     
 if
+measure
+is
+not
+None
+and
 bt
 not
 in
@@ -3312,11 +3317,13 @@ browser_cycles
 ]
                                                           
 test
-[
+.
+get
+(
 '
 measure
 '
-]
+)
 )
 :
                 
