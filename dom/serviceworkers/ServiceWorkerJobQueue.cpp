@@ -118,6 +118,16 @@ aJob
 )
 ;
 }
+virtual
+void
+JobDiscarded
+(
+ErrorResult
+&
+)
+override
+{
+}
 NS_INLINE_DECL_REFCOUNTING
 (
 ServiceWorkerJobQueue
