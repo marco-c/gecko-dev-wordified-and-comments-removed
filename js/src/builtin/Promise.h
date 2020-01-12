@@ -670,15 +670,6 @@ HandleObjectVector
 promises
 )
 ;
-enum
-class
-CreateDependentPromise
-{
-Always
-SkipIfCtorUnobservable
-Never
-}
-;
 MOZ_MUST_USE
 JSObject
 *
