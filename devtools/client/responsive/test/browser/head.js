@@ -1756,7 +1756,9 @@ win
 =
 ui
 .
-toolWindow
+getBrowserWindow
+(
+)
 ;
 const
 resized
