@@ -11362,7 +11362,7 @@ frame
 bool
 skipNewTarget
 =
-IsConstructorCallPC
+IsConstructPC
 (
 pc_
 )
@@ -12376,14 +12376,14 @@ parentOp
 &
 &
 !
-IsSpreadCallOp
+IsSpreadOp
 (
 parentOp
 )
 )
 ;
 return
-IsConstructorCallOp
+IsConstructOp
 (
 parentOp
 )

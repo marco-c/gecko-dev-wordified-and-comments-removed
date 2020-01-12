@@ -819,7 +819,7 @@ op
 &
 &
 !
-IsSpreadCallOp
+IsSpreadOp
 (
 op
 )
