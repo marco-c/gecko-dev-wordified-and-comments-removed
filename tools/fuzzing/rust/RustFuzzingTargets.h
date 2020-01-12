@@ -21,6 +21,17 @@ size
 )
 ;
 int
+fuzz_rkv_db_name
+(
+const
+uint8_t
+*
+raw_data
+size_t
+size
+)
+;
+int
 fuzz_rkv_key_write
 (
 const
