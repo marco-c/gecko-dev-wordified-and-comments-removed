@@ -121,7 +121,7 @@ namespace
 indexedDB
 {
 class
-BackgroundCursorChild
+PBackgroundIDBCursorChild
 ;
 class
 BackgroundRequestChild
@@ -162,13 +162,6 @@ DiagnosticAssertEnabled
 >
 >
 {
-friend
-class
-indexedDB
-:
-:
-BackgroundCursorChild
-;
 friend
 class
 indexedDB
@@ -503,7 +496,7 @@ OpenCursor
 indexedDB
 :
 :
-BackgroundCursorChild
+PBackgroundIDBCursorChild
 *
 aBackgroundActor
 const
@@ -1289,6 +1282,8 @@ MaybeNoteInactiveTransaction
 (
 )
 ;
+public
+:
 void
 OnNewRequest
 (
@@ -1301,6 +1296,8 @@ bool
 aRequestCompletedSuccessfully
 )
 ;
+private
+:
 template
 <
 typename
