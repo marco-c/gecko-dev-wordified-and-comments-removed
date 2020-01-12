@@ -140,11 +140,6 @@ DOMSecurityManager
 h
 '
 '
-DOMSecurityMonitor
-.
-h
-'
-'
 FramingChecker
 .
 h
@@ -241,11 +236,6 @@ cpp
 '
 '
 DOMSecurityManager
-.
-cpp
-'
-'
-DOMSecurityMonitor
 .
 cpp
 '
