@@ -812,7 +812,7 @@ op
 {
 return
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )

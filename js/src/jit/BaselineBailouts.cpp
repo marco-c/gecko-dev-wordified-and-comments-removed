@@ -2138,7 +2138,7 @@ GetElem
 }
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 op
 )

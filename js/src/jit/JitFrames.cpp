@@ -12369,7 +12369,7 @@ false
 }
 MOZ_ASSERT
 (
-IsCallOp
+IsInvokeOp
 (
 parentOp
 )

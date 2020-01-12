@@ -10968,7 +10968,7 @@ jit_return
 :
 MOZ_ASSERT
 (
-IsCallPC
+IsInvokePC
 (
 REGS
 .
