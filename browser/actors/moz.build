@@ -385,4 +385,9 @@ WebRTCChild
 .
 jsm
 '
+'
+WebRTCParent
+.
+jsm
+'
 ]

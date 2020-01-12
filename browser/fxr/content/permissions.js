@@ -244,9 +244,7 @@ this
 .
 targetBrowser
 .
-messageManager
-.
-sendAsyncMessage
+sendMessageToActor
 (
 "
 webrtc
@@ -272,6 +270,9 @@ devices
 :
 allowedDevices
 }
+"
+WebRTC
+"
 )
 ;
 }
@@ -283,9 +284,7 @@ this
 .
 targetBrowser
 .
-messageManager
-.
-sendAsyncMessage
+sendMessageToActor
 (
 "
 webrtc
@@ -308,6 +307,9 @@ request
 .
 windowID
 }
+"
+WebRTC
+"
 )
 ;
 }
