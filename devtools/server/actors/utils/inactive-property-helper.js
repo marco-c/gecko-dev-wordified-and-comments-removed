@@ -2917,11 +2917,6 @@ if
 this
 .
 isAbsolutelyPositioned
-|
-|
-this
-.
-isFloated
 )
 {
 return
