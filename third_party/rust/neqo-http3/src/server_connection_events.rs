@@ -5,10 +5,7 @@ crate
 connection
 :
 :
-{
-Http3Events
 Http3State
-}
 ;
 use
 crate
@@ -369,12 +366,7 @@ fin
 )
 ;
 }
-}
-impl
-Http3Events
-for
-Http3ServerConnEvents
-{
+pub
 fn
 reset
 (
@@ -403,6 +395,7 @@ error
 )
 ;
 }
+pub
 fn
 connection_state_change
 (
@@ -427,6 +420,7 @@ state
 )
 ;
 }
+pub
 fn
 remove_events_for_stream_id
 (

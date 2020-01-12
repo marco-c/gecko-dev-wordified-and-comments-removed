@@ -262,6 +262,10 @@ Error
 for
 Error
 {
+#
+[
+must_use
+]
 fn
 cause
 (
@@ -285,6 +289,10 @@ Error
 {
 None
 }
+#
+[
+must_use
+]
 fn
 source
 (
@@ -382,6 +390,10 @@ TryFromIntError
 for
 Error
 {
+#
+[
+must_use
+]
 fn
 from
 (
@@ -399,7 +411,7 @@ TryFromIntError
 >
 Self
 {
-Error
+Self
 :
 :
 IntegerOverflow
@@ -419,6 +431,10 @@ NulError
 for
 Error
 {
+#
+[
+must_use
+]
 fn
 from
 (
@@ -436,7 +452,7 @@ NulError
 >
 Self
 {
-Error
+Self
 :
 :
 InternalError

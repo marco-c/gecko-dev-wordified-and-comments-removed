@@ -1037,6 +1037,16 @@ is_err
 [
 test
 ]
+#
+[
+allow
+(
+clippy
+:
+:
+replace_consts
+)
+]
 fn
 overflow_interval
 (

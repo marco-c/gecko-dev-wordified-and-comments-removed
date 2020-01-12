@@ -157,7 +157,7 @@ sz
 ;
 Ok
 (
-SelfEncrypt
+Self
 {
 version
 cipher
@@ -202,7 +202,7 @@ salt
 len
 (
 )
-SelfEncrypt
+Self
 :
 :
 SALT_LENGTH
@@ -386,6 +386,16 @@ Ok
 )
 )
 }
+#
+[
+allow
+(
+clippy
+:
+:
+similar_names
+)
+]
 pub
 fn
 seal
@@ -420,7 +430,7 @@ salt
 =
 random
 (
-SelfEncrypt
+Self
 :
 :
 SALT_LENGTH
@@ -482,7 +492,7 @@ enc
 .
 encode_byte
 (
-SelfEncrypt
+Self
 :
 :
 VERSION
@@ -682,6 +692,16 @@ None
 }
 }
 }
+#
+[
+allow
+(
+clippy
+:
+:
+similar_names
+)
+]
 pub
 fn
 open
@@ -718,7 +738,7 @@ ciphertext
 ]
 !
 =
-SelfEncrypt
+Self
 :
 :
 VERSION
@@ -773,7 +793,7 @@ offset
 =
 2
 +
-SelfEncrypt
+Self
 :
 :
 SALT_LENGTH

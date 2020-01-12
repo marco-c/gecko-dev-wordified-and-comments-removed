@@ -101,6 +101,10 @@ Error
 impl
 IncrementalDecoder
 {
+#
+[
+must_use
+]
 pub
 fn
 decode
@@ -113,7 +117,7 @@ usize
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 InBuffer
@@ -131,6 +135,10 @@ remaining
 n
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 decode_uint
@@ -143,7 +151,7 @@ usize
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 InUint
@@ -156,6 +164,10 @@ remaining
 n
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 decode_varint
@@ -165,11 +177,15 @@ decode_varint
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 BeforeVarint
 }
+#
+[
+must_use
+]
 pub
 fn
 decode_vec
@@ -182,7 +198,7 @@ usize
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 InBufferLen
@@ -202,6 +218,10 @@ n
 )
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 decode_vvec
@@ -211,7 +231,7 @@ decode_vvec
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 InBufferLen
@@ -230,6 +250,10 @@ decode_varint
 )
 )
 }
+#
+[
+must_use
+]
 pub
 fn
 ignore
@@ -242,7 +266,7 @@ usize
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 Ignoring
@@ -252,6 +276,10 @@ remaining
 n
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 min_remaining
@@ -266,14 +294,14 @@ usize
 match
 self
 {
-IncrementalDecoder
+Self
 :
 :
 BeforeVarint
 =
 >
 1
-IncrementalDecoder
+Self
 :
 :
 InUint
@@ -283,7 +311,7 @@ remaining
 .
 }
 |
-IncrementalDecoder
+Self
 :
 :
 InBuffer
@@ -293,7 +321,7 @@ remaining
 .
 }
 |
-IncrementalDecoder
+Self
 :
 :
 Ignoring
@@ -304,7 +332,7 @@ remaining
 >
 *
 remaining
-IncrementalDecoder
+Self
 :
 :
 InBufferLen
@@ -431,7 +459,7 @@ dv
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 Idle
@@ -475,7 +503,7 @@ r
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 InUint
@@ -550,7 +578,7 @@ b
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 Idle
@@ -584,7 +612,7 @@ b
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 InBuffer
@@ -631,13 +659,13 @@ mem
 replace
 (
 self
-IncrementalDecoder
+Self
 :
 :
 Idle
 )
 {
-IncrementalDecoder
+Self
 :
 :
 Idle
@@ -647,7 +675,7 @@ IncrementalDecoderResult
 :
 :
 Error
-IncrementalDecoder
+Self
 :
 :
 InUint
@@ -657,7 +685,6 @@ remaining
 }
 =
 >
-{
 self
 .
 consume_uint_remainder
@@ -666,8 +693,7 @@ v
 remaining
 dv
 )
-}
-IncrementalDecoder
+Self
 :
 :
 BeforeVarint
@@ -753,7 +779,7 @@ remaining
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 Idle
@@ -778,7 +804,7 @@ dv
 )
 }
 }
-IncrementalDecoder
+Self
 :
 :
 InBufferLen
@@ -806,7 +832,7 @@ InProgress
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 InBufferLen
@@ -875,7 +901,7 @@ unreachable
 (
 )
 }
-IncrementalDecoder
+Self
 :
 :
 InBuffer
@@ -885,7 +911,6 @@ remaining
 }
 =
 >
-{
 self
 .
 consume_buffer_remainder
@@ -894,8 +919,7 @@ v
 remaining
 dv
 )
-}
-IncrementalDecoder
+Self
 :
 :
 Ignoring
@@ -928,7 +952,7 @@ remaining
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 Idle
@@ -943,7 +967,7 @@ else
 *
 self
 =
-IncrementalDecoder
+Self
 :
 :
 Ignoring
@@ -982,6 +1006,10 @@ Default
 for
 IncrementalDecoder
 {
+#
+[
+must_use
+]
 fn
 default
 (
@@ -990,7 +1018,7 @@ default
 >
 Self
 {
-IncrementalDecoder
+Self
 :
 :
 Idle

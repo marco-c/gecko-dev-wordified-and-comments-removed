@@ -181,6 +181,10 @@ cursor
 0
 }
 }
+#
+[
+must_use
+]
 pub
 fn
 next_time
@@ -262,6 +266,10 @@ clippy
 :
 cast_possible_truncation
 )
+]
+#
+[
+must_use
 ]
 pub
 fn

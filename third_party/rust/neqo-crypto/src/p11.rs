@@ -153,6 +153,10 @@ target
 impl
 scoped
 {
+#
+[
+must_use
+]
 pub
 fn
 new
@@ -192,6 +196,10 @@ Target
 mut
 target
 ;
+#
+[
+must_use
+]
 fn
 deref
 (

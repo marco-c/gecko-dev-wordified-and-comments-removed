@@ -11,6 +11,15 @@ use
 crate
 :
 :
+connection_server
+:
+:
+Http3ServerHandler
+;
+use
+crate
+:
+:
 server_connection_events
 :
 :
@@ -25,7 +34,6 @@ server_events
 :
 {
 ClientRequestStream
-Http3Handler
 Http3ServerEvent
 Http3ServerEvents
 }
@@ -115,7 +123,7 @@ Rc
 <
 RefCell
 <
-Http3Handler
+Http3ServerHandler
 >
 >
 ;
@@ -132,7 +140,7 @@ u32
 max_blocked_streams
 :
 u16
-connections
+http3_handlers
 :
 HashMap
 <
@@ -275,7 +283,7 @@ cid_manager
 ?
 max_table_size
 max_blocked_streams
-connections
+http3_handlers
 :
 HashMap
 :
@@ -449,7 +457,7 @@ ActiveConnectionRef
 =
 self
 .
-connections
+http3_handlers
 .
 iter
 (
@@ -570,7 +578,7 @@ handler
 =
 self
 .
-connections
+http3_handlers
 .
 entry
 (
@@ -596,7 +604,7 @@ RefCell
 :
 new
 (
-Http3Handler
+Http3ServerHandler
 :
 :
 new
@@ -786,7 +794,7 @@ remove
 {
 self
 .
-connections
+http3_handlers
 .
 remove
 (
