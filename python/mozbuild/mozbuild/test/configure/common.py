@@ -11,8 +11,6 @@ errno
 import
 os
 import
-six
-import
 subprocess
 import
 sys
@@ -20,10 +18,6 @@ import
 tempfile
 import
 unittest
-from
-six
-import
-StringIO
 from
 mozbuild
 .
@@ -43,9 +37,13 @@ path
 as
 mozpath
 from
-six
+StringIO
 import
-string_types
+StringIO
+from
+which
+import
+WhichError
 from
 buildconfig
 import
@@ -478,11 +476,10 @@ for
 k
 v
 in
-six
+paths
 .
 iteritems
 (
-paths
 )
 if
 v
@@ -491,9 +488,10 @@ v
         
 paths
 =
-list
-(
 paths
+.
+keys
+(
 )
         
 environ
@@ -718,7 +716,7 @@ what
 =
 =
 '
-mozfile
+which
 .
 which
 '
@@ -734,7 +732,7 @@ what
 =
 =
 '
-mozfile
+which
 '
 :
             
@@ -747,6 +745,10 @@ which
 self
 .
 which
+                
+WhichError
+=
+WhichError
             
 )
         
@@ -1107,9 +1109,6 @@ which
 (
 self
 command
-mode
-=
-None
 path
 =
 None
@@ -1118,25 +1117,6 @@ exts
 None
 )
 :
-        
-if
-isinstance
-(
-path
-string_types
-)
-:
-            
-path
-=
-path
-.
-split
-(
-os
-.
-pathsep
-)
         
 for
 parent
@@ -1193,8 +1173,10 @@ candidate
 return
 candidate
         
-return
-None
+raise
+WhichError
+(
+)
     
 def
 Popen
@@ -1216,6 +1198,9 @@ kargs
 )
 :
         
+try
+:
+            
 program
 =
 self
@@ -1228,9 +1213,8 @@ args
 ]
 )
         
-if
-not
-program
+except
+WhichError
 :
             
 raise

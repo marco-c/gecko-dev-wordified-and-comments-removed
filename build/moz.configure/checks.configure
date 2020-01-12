@@ -489,10 +489,9 @@ e
 :
 error
 =
-str
-(
 e
-)
+.
+message
 display_ret
 =
 callback

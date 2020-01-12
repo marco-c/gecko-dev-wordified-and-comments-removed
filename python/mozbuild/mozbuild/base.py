@@ -1690,7 +1690,7 @@ out
 =
 six
 .
-StringIO
+BytesIO
 (
 )
         

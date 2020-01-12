@@ -175,6 +175,15 @@ quote_char
 \
 u00B4
 '
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 try
 :
 with
@@ -184,7 +193,7 @@ test_file
 '
 w
 +
-t
+b
 '
 )
 as
