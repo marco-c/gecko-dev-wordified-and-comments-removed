@@ -4040,7 +4040,6 @@ _
 }
 }
 else
-{
 if
 let
 RasterizedBlob
@@ -4104,7 +4103,6 @@ data
 ]
 )
 ;
-}
 }
 }
 }
