@@ -342,11 +342,6 @@ true
 await
 disableObserverVerification
 (
-win
-.
-gBrowser
-.
-selectedBrowser
 )
 ;
 let
