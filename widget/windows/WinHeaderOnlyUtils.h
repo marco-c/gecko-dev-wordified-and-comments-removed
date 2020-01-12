@@ -1429,6 +1429,13 @@ return
 false
 ;
 }
+:
+:
+SetLastError
+(
+ERROR_SUCCESS
+)
+;
 DWORD
 waitResult
 =
