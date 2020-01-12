@@ -1663,8 +1663,8 @@ false
 FARPROC
 proc
 =
-:
-:
+mDetourPatcher
+.
 GetProcAddress
 (
 mModule
@@ -1742,8 +1742,8 @@ false
 FARPROC
 proc
 =
-:
-:
+mDetourPatcher
+.
 GetProcAddress
 (
 mModule
