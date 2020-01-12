@@ -1516,7 +1516,7 @@ prefs
 extra_options
 [
 "
-extraPrefs
+extraPrefsFirefox
 "
 ]
 =
