@@ -12520,12 +12520,6 @@ HTMLBodyElement
 aBody
 )
 ;
-Document
-*
-GetSameTypeParentDocument
-(
-)
-;
 void
 MaybeAllowStorageForOpenerAfterUserInteraction
 (
