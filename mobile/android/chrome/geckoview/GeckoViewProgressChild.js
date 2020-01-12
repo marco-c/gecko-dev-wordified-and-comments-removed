@@ -566,8 +566,6 @@ ProgressTracker
 =
 {
 onInit
-:
-function
 (
 aModule
 )
@@ -586,8 +584,6 @@ clear
 ;
 }
 start
-:
-function
 (
 aUri
 )
@@ -734,8 +730,6 @@ updateProgress
 ;
 }
 changeLocation
-:
-function
 (
 aUri
 )
@@ -768,8 +762,6 @@ aUri
 ;
 }
 stop
-:
-function
 (
 )
 {
@@ -905,8 +897,6 @@ eventDispatcher
 ;
 }
 handleEvent
-:
-function
 (
 aEvent
 )
@@ -1111,8 +1101,6 @@ updateProgress
 }
 }
 clear
-:
-function
 (
 )
 {
@@ -1149,8 +1137,6 @@ false
 ;
 }
 _debugData
-:
-function
 (
 )
 {
@@ -1216,8 +1202,6 @@ parsed
 ;
 }
 updateProgress
-:
-function
 (
 )
 {
