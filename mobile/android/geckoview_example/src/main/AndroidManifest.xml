@@ -201,6 +201,15 @@ usesCleartextTraffic
 "
 true
 "
+android
+:
+icon
+=
+"
+drawable
+/
+logo
+"
 >
 <
 uses
