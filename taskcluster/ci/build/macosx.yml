@@ -143,11 +143,6 @@ releng
 .
 manifest
 "
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 using
@@ -1057,11 +1052,6 @@ releng
 .
 manifest
 "
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 using
@@ -1799,11 +1789,6 @@ releng
 .
 manifest
 "
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 using
@@ -2005,11 +1990,6 @@ RUSTC_BOOTSTRAP
 '
 1
 '
-MOZ_AUTOMATION_PACKAGE_TESTS
-:
-"
-1
-"
 run
 :
 using
