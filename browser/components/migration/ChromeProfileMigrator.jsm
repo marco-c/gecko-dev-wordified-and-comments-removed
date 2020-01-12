@@ -3535,6 +3535,16 @@ platform
 "
 macosx
 "
+|
+|
+AppConstants
+.
+platform
+=
+=
+"
+win
+"
 )
 {
 EXPORTED_SYMBOLS
