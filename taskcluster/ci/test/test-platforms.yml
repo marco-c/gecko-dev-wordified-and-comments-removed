@@ -263,8 +263,6 @@ web
 platform
 -
 tests
--
-1804
 linux1804
 -
 64
@@ -292,8 +290,6 @@ web
 platform
 -
 tests
--
-1804
 linux1804
 -
 64
@@ -341,8 +337,6 @@ web
 platform
 -
 tests
--
-1804
 -
 web
 -
@@ -392,8 +386,6 @@ web
 platform
 -
 tests
--
-1804
 linux1804
 -
 64
@@ -425,8 +417,6 @@ web
 platform
 -
 tests
--
-1804
 #
 Stylo
 sequential
@@ -502,8 +492,6 @@ web
 platform
 -
 tests
--
-1804
 linux1804
 -
 64
@@ -541,8 +529,6 @@ web
 platform
 -
 tests
--
-1804
 linux1804
 -
 64
@@ -574,8 +560,6 @@ web
 platform
 -
 tests
--
-1804
 #
 Disabled
 temporarily
@@ -686,6 +670,8 @@ web
 platform
 -
 tests
+-
+wdspec
 linux64
 /
 opt
@@ -713,6 +699,8 @@ web
 platform
 -
 tests
+-
+wdspec
 -
 opt
 -
@@ -770,6 +758,8 @@ web
 platform
 -
 tests
+-
+wdspec
 -
 opt
 -
@@ -858,6 +848,8 @@ platform
 -
 tests
 -
+wdspec
+-
 opt
 -
 only
@@ -909,6 +901,8 @@ web
 platform
 -
 tests
+-
+wdspec
 #
 QR
 builds
@@ -951,6 +945,8 @@ platform
 -
 tests
 -
+wdspec
+-
 raptor
 -
 firefox
@@ -998,6 +994,8 @@ platform
 -
 tests
 -
+wdspec
+-
 raptor
 -
 firefox
@@ -1038,6 +1036,8 @@ web
 platform
 -
 tests
+-
+wdspec
 linux64
 -
 asan
