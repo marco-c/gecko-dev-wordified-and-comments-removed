@@ -784,6 +784,15 @@ mLayoutHeuristic
 ;
 #
 endif
+private
+:
+nsTableWrapperFrame
+*
+GetTableWrapperFrame
+(
+)
+const
+;
 }
 ;
 class
