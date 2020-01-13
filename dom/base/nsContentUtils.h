@@ -3946,6 +3946,11 @@ bool
 aQuirks
 bool
 aPreventScriptExecution
+int32_t
+aFlags
+=
+-
+1
 )
 ;
 static
@@ -3967,6 +3972,8 @@ nsString
 aTagStack
 bool
 aPreventScriptExecution
+int32_t
+aFlags
 mozilla
 :
 :

@@ -17064,6 +17064,16 @@ skip_about_page_csp_allowlist_and_assert
 false
 )
 ;
+pref
+(
+"
+domsecurity
+.
+skip_html_fragment_assertion
+"
+false
+)
+;
 #
 endif
 #
