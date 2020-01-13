@@ -567,13 +567,6 @@ info
 )
 ;
 async
-ScrollbarPreferenceChanged
-(
-ScrollbarPreference
-pref
-)
-;
-async
 UpdateDimensions
 (
 DimensionInfo

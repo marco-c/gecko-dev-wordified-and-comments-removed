@@ -4530,13 +4530,6 @@ childInfo
 )
 ;
 async
-ScrollbarPreferenceChanged
-(
-ScrollbarPreference
-pref
-)
-;
-async
 InitRendering
 (
 TextureFactoryIdentifier

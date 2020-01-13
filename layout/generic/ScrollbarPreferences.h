@@ -20,9 +20,6 @@ uint8_t
 {
 Auto
 Never
-LAST
-=
-Never
 }
 ;
 }
