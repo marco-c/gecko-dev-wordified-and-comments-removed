@@ -156,6 +156,15 @@ include
 "
 vm
 /
+PromiseObject
+.
+h
+"
+#
+include
+"
+vm
+/
 SelfHosting
 .
 h

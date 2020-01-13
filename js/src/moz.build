@@ -2574,6 +2574,13 @@ cpp
 '
 vm
 /
+OffThreadPromiseRuntimeState
+.
+cpp
+'
+'
+vm
+/
 OffThreadScriptCompilation
 .
 cpp
@@ -2596,6 +2603,13 @@ cpp
 vm
 /
 Probes
+.
+cpp
+'
+'
+vm
+/
+PromiseLookup
 .
 cpp
 '

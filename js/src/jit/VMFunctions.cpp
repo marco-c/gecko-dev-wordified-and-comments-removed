@@ -12,15 +12,6 @@ include
 "
 builtin
 /
-Promise
-.
-h
-"
-#
-include
-"
-builtin
-/
 String
 .
 h

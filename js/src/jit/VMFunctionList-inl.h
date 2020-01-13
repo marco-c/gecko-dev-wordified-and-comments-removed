@@ -18,6 +18,15 @@ include
 "
 builtin
 /
+Promise
+.
+h
+"
+#
+include
+"
+builtin
+/
 RegExp
 .
 h
