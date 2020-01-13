@@ -104,6 +104,11 @@ ChannelEventQueue
 h
 '
 '
+DocumentChannel
+.
+h
+'
+'
 DocumentChannelChild
 .
 h
@@ -180,6 +185,11 @@ UNIFIED_SOURCES
 [
 '
 ChannelEventQueue
+.
+cpp
+'
+'
+DocumentChannel
 .
 cpp
 '
