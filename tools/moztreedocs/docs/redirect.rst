@@ -73,8 +73,6 @@ central
 /
 source
 /
-tools
-/
 docs
 /
 config
