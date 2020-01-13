@@ -19565,13 +19565,6 @@ separatedMozillaDomains
 "
 addons
 .
-cdn
-.
-mozilla
-.
-net
-addons
-.
 mozilla
 .
 org
