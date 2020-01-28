@@ -121,16 +121,6 @@ jar
 mn
 '
 ]
-EXTRA_JS_MODULES
-+
-=
-[
-'
-ViewSourceBrowser
-.
-jsm
-'
-]
 with
 Files
 (

@@ -6358,7 +6358,11 @@ gViewSourceUtils
 .
 viewPartialSourceInBrowser
 (
-browser
+this
+.
+actor
+.
+browsingContext
 openSelectionFn
 )
 ;

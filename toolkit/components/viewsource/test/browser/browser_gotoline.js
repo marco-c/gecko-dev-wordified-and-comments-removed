@@ -177,9 +177,7 @@ i
 {
 browser
 .
-messageManager
-.
-sendAsyncMessage
+sendMessageToActor
 (
 "
 ViewSource
@@ -191,6 +189,9 @@ lineNumber
 :
 i
 }
+"
+ViewSourcePage
+"
 )
 ;
 await
