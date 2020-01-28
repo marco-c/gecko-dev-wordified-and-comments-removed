@@ -611,6 +611,15 @@ visual
 -
 metrics
 :
+by
+-
+app
+:
+fennec
+:
+false
+default
+:
 true
 treeherder
 -
