@@ -2008,7 +2008,7 @@ path
 .
 insert
 (
-0
+2
 path_to_imagemagick
 )
         
