@@ -113,11 +113,6 @@ XPIDL_SOURCES
 =
 [
 '
-nsIAsyncStreamReader
-.
-idl
-'
-'
 nsITrackingDBService
 .
 idl
