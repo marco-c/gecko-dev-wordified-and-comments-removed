@@ -11519,12 +11519,11 @@ IntrinsicDirty
 Resize
 )
 ;
-mRefreshDriver
+mPresShell
 -
 >
-AddResizeEventFlushObserver
+AddResizeEventFlushObserverIfNeeded
 (
-mPresShell
 )
 ;
 }
