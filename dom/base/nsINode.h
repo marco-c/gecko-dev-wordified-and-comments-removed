@@ -3819,6 +3819,16 @@ IsClosestCommonInclusiveAncestorForRangeInSelection
 )
 ;
 }
+bool
+IsSelected
+(
+uint32_t
+aStartOffset
+uint32_t
+aEndOffset
+)
+const
+;
 nsIContent
 *
 GetTextEditorRootContent
