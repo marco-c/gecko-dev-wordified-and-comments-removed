@@ -324,7 +324,8 @@ if
 (
 name_length
 >
-kVideoCaptureUniqueNameLength
+=
+kVideoCaptureUniqueNameSize
 )
 return
 nullptr

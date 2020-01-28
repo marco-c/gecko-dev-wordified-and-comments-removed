@@ -995,12 +995,12 @@ char
 *
 deviceNameUTF8
 uint32_t
-deviceNameLength
+deviceNameSize
 char
 *
 deviceUniqueIdUTF8
 uint32_t
-deviceUniqueIdUTF8Length
+deviceUniqueIdUTF8Size
 char
 *
 uint32_t
@@ -1197,7 +1197,7 @@ memset
 (
 deviceNameUTF8
 0
-deviceNameLength
+deviceNameSize
 )
 ;
 memcpy
@@ -1216,9 +1216,8 @@ card
 ;
 if
 (
-deviceNameLength
+deviceNameSize
 >
-=
 strlen
 (
 cameraName
@@ -1272,9 +1271,8 @@ bus_info
 {
 if
 (
-deviceUniqueIdUTF8Length
+deviceUniqueIdUTF8Size
 >
-=
 strlen
 (
 (
@@ -1292,7 +1290,7 @@ memset
 (
 deviceUniqueIdUTF8
 0
-deviceUniqueIdUTF8Length
+deviceUniqueIdUTF8Size
 )
 ;
 memcpy
@@ -1344,7 +1342,7 @@ if
 snprintf
 (
 deviceUniqueIdUTF8
-deviceUniqueIdUTF8Length
+deviceUniqueIdUTF8Size
 "
 fake_
 %
@@ -1357,7 +1355,7 @@ device_index
 (
 int
 )
-deviceUniqueIdUTF8Length
+deviceUniqueIdUTF8Size
 )
 {
 return
@@ -1416,7 +1414,7 @@ if
 (
 deviceUniqueIdUTF8Length
 >
-kVideoCaptureUniqueNameLength
+kVideoCaptureUniqueNameSize
 )
 {
 RTC_LOG
