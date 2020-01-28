@@ -1818,7 +1818,7 @@ aOrigin
 )
 ;
 nsresult
-MaybeUpgradeIndexedDBDirectory
+MaybeUpgradeFromIndexedDBDirectoryToPersistentStorageDirectory
 (
 )
 ;

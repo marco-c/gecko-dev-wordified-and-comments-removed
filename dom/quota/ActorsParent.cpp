@@ -28280,7 +28280,7 @@ nsresult
 QuotaManager
 :
 :
-MaybeUpgradeIndexedDBDirectory
+MaybeUpgradeFromIndexedDBDirectoryToPersistentStorageDirectory
 (
 )
 {
@@ -33861,7 +33861,7 @@ exists
 {
 rv
 =
-MaybeUpgradeIndexedDBDirectory
+MaybeUpgradeFromIndexedDBDirectoryToPersistentStorageDirectory
 (
 )
 ;

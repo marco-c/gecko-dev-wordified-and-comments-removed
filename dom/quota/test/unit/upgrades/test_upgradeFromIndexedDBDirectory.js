@@ -139,7 +139,7 @@ package
 installPackage
 (
 "
-storagePersistentUpgrade_profile
+indexedDBDirectory_profile
 "
 )
 ;
