@@ -241,6 +241,11 @@ DOWNSTREAM_REPO
 "
 3
 "
+BORS
+=
+"
+4
+"
 BRANCH
 =
 "
@@ -1405,7 +1410,11 @@ body
 "
 :
 "
-bors
+'
+"
+BORS
+"
+'
 r
 =
 auto

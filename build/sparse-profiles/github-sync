@@ -27,6 +27,12 @@ wgpu
 /
 path
 :
+gfx
+/
+wr
+/
+path
+:
 taskcluster
 /
 scripts
