@@ -735,13 +735,11 @@ test_record_id
 function
 createNDEFPushOptions
 (
-target
 ignoreRead
 )
 {
 return
 {
-target
 ignoreRead
 }
 ;
