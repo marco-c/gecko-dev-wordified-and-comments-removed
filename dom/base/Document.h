@@ -14578,6 +14578,7 @@ DocumentFlavor
 DocumentFlavorLegacyGuess
 DocumentFlavorHTML
 DocumentFlavorSVG
+DocumentFlavorXML
 DocumentFlavorPlain
 }
 ;
