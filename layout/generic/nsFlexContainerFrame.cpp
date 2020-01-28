@@ -1113,7 +1113,7 @@ mIsRowOriented
 ;
 }
 nscoord
-GetMainComponent
+MainComponent
 (
 const
 LogicalSize
@@ -1143,7 +1143,7 @@ mWM
 ;
 }
 int32_t
-GetMainComponent
+MainComponent
 (
 const
 LayoutDeviceIntSize
@@ -1167,7 +1167,7 @@ height
 ;
 }
 nscoord
-GetCrossComponent
+CrossComponent
 (
 const
 LogicalSize
@@ -1197,7 +1197,7 @@ mWM
 ;
 }
 int32_t
-GetCrossComponent
+CrossComponent
 (
 const
 LayoutDeviceIntSize
@@ -1221,7 +1221,7 @@ width
 ;
 }
 nscoord
-GetMarginSizeInMainAxis
+MarginSizeInMainAxis
 (
 const
 LogicalMargin
@@ -1251,7 +1251,7 @@ mWM
 ;
 }
 nscoord
-GetMarginSizeInCrossAxis
+MarginSizeInCrossAxis
 (
 const
 LogicalMargin
@@ -4753,7 +4753,7 @@ DevPixelsToAppUnits
 (
 aAxisTracker
 .
-GetMainComponent
+MainComponent
 (
 widgetMinSize
 )
@@ -4769,7 +4769,7 @@ DevPixelsToAppUnits
 (
 aAxisTracker
 .
-GetCrossComponent
+CrossComponent
 (
 widgetMinSize
 )
@@ -4806,7 +4806,7 @@ widgetMainMinSize
 =
 aAxisTracker
 .
-GetMarginSizeInMainAxis
+MarginSizeInMainAxis
 (
 bpInFlexWM
 )
@@ -4816,7 +4816,7 @@ widgetCrossMinSize
 =
 aAxisTracker
 .
-GetMarginSizeInCrossAxis
+MarginSizeInCrossAxis
 (
 bpInFlexWM
 )
