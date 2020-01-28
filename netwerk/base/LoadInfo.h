@@ -249,10 +249,6 @@ ServiceWorkerDescriptor
 >
 (
 )
-uint32_t
-aSandboxFlags
-=
-0
 )
 ;
 LoadInfo
@@ -268,8 +264,6 @@ nsISupports
 aContextForTopLevelLoad
 nsSecurityFlags
 aSecurityFlags
-uint32_t
-aSandboxFlags
 )
 ;
 already_AddRefed
@@ -424,8 +418,6 @@ ServiceWorkerDescriptor
 aController
 nsSecurityFlags
 aSecurityFlags
-uint32_t
-aSandboxFlags
 nsContentPolicyType
 aContentPolicyType
 LoadTainting
@@ -800,9 +792,6 @@ mContextForTopLevelLoad
 ;
 nsSecurityFlags
 mSecurityFlags
-;
-uint32_t
-mSandboxFlags
 ;
 nsContentPolicyType
 mInternalContentPolicyType

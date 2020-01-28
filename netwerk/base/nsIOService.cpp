@@ -4035,8 +4035,6 @@ uint32_t
 aSecurityFlags
 uint32_t
 aContentPolicyType
-uint32_t
-aSandboxFlags
 nsIChannel
 *
 *
@@ -4056,7 +4054,6 @@ aLoadingClientInfo
 aController
 aSecurityFlags
 aContentPolicyType
-aSandboxFlags
 aResult
 )
 ;
@@ -4131,8 +4128,6 @@ uint32_t
 aSecurityFlags
 uint32_t
 aContentPolicyType
-uint32_t
-aSandboxFlags
 nsIChannel
 *
 *
@@ -4174,7 +4169,6 @@ aSecurityFlags
 aContentPolicyType
 aLoadingClientInfo
 aController
-aSandboxFlags
 )
 ;
 }
@@ -4687,7 +4681,6 @@ ServiceWorkerDescriptor
 )
 aSecurityFlags
 aContentPolicyType
-0
 result
 )
 ;

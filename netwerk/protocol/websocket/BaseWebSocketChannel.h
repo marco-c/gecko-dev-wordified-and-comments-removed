@@ -289,8 +289,6 @@ uint32_t
 aSecurityFlags
 uint32_t
 aContentPolicyType
-uint32_t
-aSandboxFlags
 )
 override
 ;

@@ -7527,7 +7527,6 @@ nsIContentPolicy
 :
 :
 TYPE_WEBSOCKET
-0
 )
 ;
 MOZ_ASSERT

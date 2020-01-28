@@ -1628,8 +1628,6 @@ aLoadFlags
 nsIIOService
 *
 aIoService
-uint32_t
-aSandboxFlags
 )
 {
 return
@@ -1660,7 +1658,6 @@ aLoadGroup
 aCallbacks
 aLoadFlags
 aIoService
-aSandboxFlags
 )
 ;
 }
@@ -1709,8 +1706,6 @@ aLoadFlags
 nsIIOService
 *
 aIoService
-uint32_t
-aSandboxFlags
 )
 {
 AssertLoadingPrincipalAndClientInfoMatch
@@ -1751,7 +1746,6 @@ aLoadGroup
 aCallbacks
 aLoadFlags
 aIoService
-aSandboxFlags
 )
 ;
 }
@@ -1809,8 +1803,6 @@ aLoadFlags
 nsIIOService
 *
 aIoService
-uint32_t
-aSandboxFlags
 )
 {
 NS_ENSURE_ARG_POINTER
@@ -1861,7 +1853,6 @@ aLoadingClientInfo
 aController
 aSecurityFlags
 aContentPolicyType
-aSandboxFlags
 getter_AddRefs
 (
 channel
@@ -2356,8 +2347,6 @@ aLoadFlags
 nsIIOService
 *
 aIoService
-uint32_t
-aSandboxFlags
 )
 {
 NS_ASSERTION
@@ -2419,7 +2408,6 @@ aLoadGroup
 aCallbacks
 aLoadFlags
 aIoService
-aSandboxFlags
 )
 ;
 }
