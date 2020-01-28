@@ -19450,7 +19450,7 @@ remote
 .
 autostart
 "
-false
+true
 )
 ;
 #
