@@ -7,6 +7,8 @@ os
 sys
 json
 re
+import
+collections
 script_directory
 =
 os
@@ -228,6 +230,11 @@ json
 load
 (
 f
+object_pairs_hook
+=
+collections
+.
+OrderedDict
 )
         
 except
