@@ -4041,8 +4041,7 @@ GetCurrentFontStyle
 (
 )
 ;
-TextMetrics
-*
+nsresult
 DrawOrMeasureText
 (
 const
@@ -4062,9 +4061,9 @@ double
 aMaxWidth
 TextDrawOperation
 aOp
-ErrorResult
-&
-aError
+float
+*
+aWidth
 )
 ;
 struct
