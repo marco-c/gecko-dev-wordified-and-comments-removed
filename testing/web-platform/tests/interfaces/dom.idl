@@ -324,6 +324,9 @@ detail
 null
 )
 ;
+/
+/
+historical
 }
 ;
 dictionary
@@ -1637,6 +1640,9 @@ DOMString
 interface
 )
 ;
+/
+/
+historical
 [
 NewObject
 ]
