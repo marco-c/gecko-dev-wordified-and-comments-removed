@@ -5131,6 +5131,16 @@ kernel
 Linux
 '
 )
+or
+\
+target
+.
+os
+=
+=
+'
+FreeBSD
+'
 :
 return
 bool
