@@ -8621,6 +8621,12 @@ ESClass
 :
 Error
 :
+case
+ESClass
+:
+:
+Function
+:
 break
 ;
 case

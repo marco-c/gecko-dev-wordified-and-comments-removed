@@ -3493,6 +3493,7 @@ SetIterator
 Arguments
 Error
 BigInt
+Function
 Other
 }
 ;
