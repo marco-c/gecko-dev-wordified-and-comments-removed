@@ -461,6 +461,16 @@ ChildProcessChannelListener
 .
 h
 '
+'
+SyncedContext
+.
+h
+'
+'
+SyncedContextInlines
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
