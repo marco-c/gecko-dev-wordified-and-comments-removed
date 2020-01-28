@@ -3725,7 +3725,7 @@ this
 .
 _win
 .
-SyntaxError
+DOMException
 (
 {
 msg
@@ -3737,6 +3737,9 @@ URI
 {
 uriStr
 }
+"
+SyntaxError
+"
 )
 ;
 }
@@ -3809,7 +3812,7 @@ this
 .
 _win
 .
-SyntaxError
+DOMException
 (
 {
 msg
@@ -3818,6 +3821,9 @@ msg
 urls
 is
 empty
+"
+SyntaxError
+"
 )
 ;
 }
@@ -4057,7 +4063,7 @@ this
 .
 _win
 .
-SyntaxError
+DOMException
 (
 {
 msg
@@ -4069,6 +4075,9 @@ scheme
 {
 scheme
 }
+"
+SyntaxError
+"
 )
 ;
 }
