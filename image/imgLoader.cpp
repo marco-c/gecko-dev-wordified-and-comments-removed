@@ -455,6 +455,12 @@ CompositorManagerChild
 *
 manager
 =
+mozilla
+:
+:
+layers
+:
+:
 CompositorManagerChild
 :
 :

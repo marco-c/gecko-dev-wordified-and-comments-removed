@@ -280,6 +280,11 @@ FrameTimeout
 h
 '
 '
+ImageBlocker
+.
+h
+'
+'
 ImageCacheKey
 .
 h
@@ -456,6 +461,11 @@ cpp
 '
 '
 Image
+.
+cpp
+'
+'
+ImageBlocker
 .
 cpp
 '
