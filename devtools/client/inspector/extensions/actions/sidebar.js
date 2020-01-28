@@ -6,7 +6,7 @@ strict
 const
 {
 EXTENSION_SIDEBAR_OBJECT_TREEVIEW_UPDATE
-EXTENSION_SIDEBAR_OBJECT_GRIP_VIEW_UPDATE
+EXTENSION_SIDEBAR_EXPRESSION_RESULT_VIEW_UPDATE
 EXTENSION_SIDEBAR_PAGE_UPDATE
 EXTENSION_SIDEBAR_REMOVE
 }
@@ -49,10 +49,10 @@ object
 }
 ;
 }
-updateObjectValueGripView
+updateExpressionResultView
 (
 sidebarId
-objectValueGrip
+expressionResult
 rootTitle
 )
 {
@@ -60,9 +60,9 @@ return
 {
 type
 :
-EXTENSION_SIDEBAR_OBJECT_GRIP_VIEW_UPDATE
+EXTENSION_SIDEBAR_EXPRESSION_RESULT_VIEW_UPDATE
 sidebarId
-objectValueGrip
+expressionResult
 rootTitle
 }
 ;

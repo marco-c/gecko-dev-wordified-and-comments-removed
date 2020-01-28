@@ -88,6 +88,11 @@ MPL
 DevToolsModules
 (
 '
+ExpressionResultView
+.
+js
+'
+'
 ExtensionPage
 .
 js
@@ -99,11 +104,6 @@ js
 '
 '
 ObjectTreeView
-.
-js
-'
-'
-ObjectValueGripView
 .
 js
 '

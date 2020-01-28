@@ -137,7 +137,7 @@ ObjectTreeView
 )
 ;
 const
-ObjectValueGripView
+ExpressionResultView
 =
 createFactory
 (
@@ -154,7 +154,7 @@ extensions
 /
 components
 /
-ObjectValueGripView
+ExpressionResultView
 "
 )
 )
@@ -254,7 +254,7 @@ const
 {
 iframeURL
 object
-objectValueGrip
+expressionResult
 rootTitle
 viewMode
 =
@@ -313,10 +313,10 @@ view
 :
 sidebarContentEl
 =
-ObjectValueGripView
+ExpressionResultView
 (
 {
-objectValueGrip
+expressionResult
 rootTitle
 serviceContainer
 }

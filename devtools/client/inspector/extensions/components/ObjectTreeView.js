@@ -105,7 +105,7 @@ TreeViewClass
 )
 ;
 class
-ObjectTreeView
+ExpressionResultView
 extends
 PureComponent
 {
@@ -241,5 +241,5 @@ module
 .
 exports
 =
-ObjectTreeView
+ExpressionResultView
 ;
