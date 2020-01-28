@@ -28612,7 +28612,7 @@ nsresult
 QuotaManager
 :
 :
-MaybeUpgradePersistentStorageDirectory
+MaybeUpgradeFromPersistentStorageDirectoryToDefaultStorageDirectory
 (
 )
 {
@@ -33882,7 +33882,7 @@ rv
 }
 rv
 =
-MaybeUpgradePersistentStorageDirectory
+MaybeUpgradeFromPersistentStorageDirectoryToDefaultStorageDirectory
 (
 )
 ;
