@@ -39,7 +39,7 @@ documentElement
 .
 style
 .
-MozColumnCount
+columnCount
 =
 '
 15
