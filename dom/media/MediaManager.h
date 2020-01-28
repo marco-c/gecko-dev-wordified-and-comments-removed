@@ -1416,11 +1416,6 @@ aCallback
 )
 ;
 void
-StopMediaStreams
-(
-)
-;
-void
 RemoveMediaDevicesCallback
 (
 uint64_t
