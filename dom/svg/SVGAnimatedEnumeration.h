@@ -164,7 +164,7 @@ SVGElement
 aSVGElement
 )
 ;
-nsresult
+void
 SetBaseValue
 (
 uint16_t
@@ -172,6 +172,9 @@ aValue
 SVGElement
 *
 aSVGElement
+ErrorResult
+&
+aRv
 )
 ;
 uint16_t
@@ -360,17 +363,12 @@ SetBaseVal
 (
 uint16_t
 aBaseVal
-mozilla
-:
-:
 ErrorResult
 &
 aRv
 )
 override
 {
-aRv
-=
 mVal
 -
 >
@@ -378,6 +376,7 @@ SetBaseValue
 (
 aBaseVal
 mSVGElement
+aRv
 )
 ;
 }

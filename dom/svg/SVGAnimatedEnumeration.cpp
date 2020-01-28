@@ -313,7 +313,7 @@ nsGkAtoms
 _empty
 ;
 }
-nsresult
+void
 SVGAnimatedEnumeration
 :
 :
@@ -324,6 +324,9 @@ aValue
 SVGElement
 *
 aSVGElement
+ErrorResult
+&
+aRv
 )
 {
 const
@@ -411,7 +414,6 @@ mAttrEnum
 ;
 }
 return
-NS_OK
 ;
 }
 mapping
@@ -420,7 +422,18 @@ mapping
 ;
 }
 return
-NS_ERROR_DOM_TYPE_ERR
+aRv
+.
+ThrowTypeError
+(
+u
+"
+Invalid
+SVGAnimatedEnumeration
+base
+value
+"
+)
 ;
 }
 void
