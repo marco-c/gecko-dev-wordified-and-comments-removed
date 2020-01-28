@@ -3068,6 +3068,8 @@ const
 nsAString
 &
 aResultingClientId
+bool
+aIsReload
 )
 {
 AssertIsOnMainThread
@@ -3185,6 +3187,7 @@ nsString
 (
 aResultingClientId
 )
+aIsReload
 nsContentUtils
 :
 :

@@ -908,6 +908,9 @@ bool
 isInThirdPartyContext
 ;
 bool
+isDocshellReload
+;
+bool
 isFormSubmission
 ;
 bool

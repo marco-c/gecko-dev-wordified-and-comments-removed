@@ -169,6 +169,11 @@ attribute
 DOMString
 resultingClientId
 ;
+readonly
+attribute
+boolean
+isReload
+;
 [
 Throws
 ]
@@ -204,6 +209,11 @@ resultingClientId
 =
 "
 "
+;
+boolean
+isReload
+=
+false
 ;
 }
 ;

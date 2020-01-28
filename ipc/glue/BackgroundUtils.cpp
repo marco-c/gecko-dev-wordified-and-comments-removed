@@ -3118,6 +3118,12 @@ GetIsInThirdPartyContext
 aLoadInfo
 -
 >
+GetIsDocshellReload
+(
+)
+aLoadInfo
+-
+>
 GetIsFormSubmission
 (
 )
@@ -4237,6 +4243,11 @@ initialSecurityCheckDone
 loadInfoArgs
 .
 isInThirdPartyContext
+(
+)
+loadInfoArgs
+.
+isDocshellReload
 (
 )
 loadInfoArgs

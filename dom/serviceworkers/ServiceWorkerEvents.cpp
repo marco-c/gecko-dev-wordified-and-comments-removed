@@ -670,6 +670,10 @@ mPreventDefaultColumnNumber
 (
 0
 )
+mIsReload
+(
+false
+)
 mWaitToRespond
 (
 false
@@ -889,6 +893,15 @@ mResultingClientId
 aOptions
 .
 mResultingClientId
+;
+e
+-
+>
+mIsReload
+=
+aOptions
+.
+mIsReload
 ;
 return
 e

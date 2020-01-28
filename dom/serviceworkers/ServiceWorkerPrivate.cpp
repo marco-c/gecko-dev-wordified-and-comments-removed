@@ -6434,6 +6434,9 @@ nsString
 mResultingClientId
 ;
 bool
+mIsReload
+;
+bool
 mMarkLaunchServiceWorkerEnd
 ;
 RequestCache
@@ -6523,6 +6526,8 @@ nsAString
 &
 aResultingClientId
 bool
+aIsReload
+bool
 aMarkLaunchServiceWorkerEnd
 bool
 aIsNonSubresourceRequest
@@ -6549,6 +6554,10 @@ aClientId
 mResultingClientId
 (
 aResultingClientId
+)
+mIsReload
+(
+aIsReload
 )
 mMarkLaunchServiceWorkerEnd
 (
@@ -8161,6 +8170,12 @@ mResultingClientId
 mResultingClientId
 ;
 }
+init
+.
+mIsReload
+=
+mIsReload
+;
 RefPtr
 <
 FetchEvent
@@ -8374,6 +8389,8 @@ const
 nsAString
 &
 aResultingClientId
+bool
+aIsReload
 )
 {
 MOZ_ASSERT
@@ -8786,6 +8803,7 @@ registration
 aChannel
 aClientId
 aResultingClientId
+aIsReload
 )
 ;
 }
@@ -8927,6 +8945,7 @@ ScriptSpec
 regInfo
 aClientId
 aResultingClientId
+aIsReload
 newWorkerCreated
 isNonSubresourceRequest
 )
