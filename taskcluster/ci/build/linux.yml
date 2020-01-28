@@ -5353,7 +5353,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 try

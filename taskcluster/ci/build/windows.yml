@@ -2444,7 +2444,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 try
@@ -2637,7 +2639,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 try
