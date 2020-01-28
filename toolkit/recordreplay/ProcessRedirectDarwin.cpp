@@ -1772,7 +1772,6 @@ Macro
 (
 kCFTypeArrayCallBacks
 )
-\
 Macro
 (
 kCFTypeDictionaryKeyCallBacks
@@ -1793,7 +1792,6 @@ Macro
 (
 kCFAllocatorDefault
 )
-\
 Macro
 (
 kCFAllocatorNull
@@ -1843,12 +1841,14 @@ FetchEnumAddress
 (
 Name
 )
+\
 case
 FixedInput
 :
 :
 Name
 :
+\
 return
 &
 Name
@@ -1866,12 +1866,14 @@ FetchEnum
 (
 Name
 )
+\
 case
 FixedInput
 :
 :
 Name
 :
+\
 return
 Name
 ;
@@ -20032,6 +20034,7 @@ NewPlatformSymbol
 (
 Name
 )
+\
 {
 #
 Name
