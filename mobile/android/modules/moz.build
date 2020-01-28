@@ -253,11 +253,6 @@ Notifications
 jsm
 '
 '
-Prompt
-.
-jsm
-'
-'
 RuntimePermissions
 .
 jsm
