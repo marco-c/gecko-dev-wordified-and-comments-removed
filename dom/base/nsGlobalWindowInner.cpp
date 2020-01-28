@@ -12034,14 +12034,6 @@ Range
 }
 {
 "
-nsIDOMSVGLength
-"
-"
-SVGLength
-"
-}
-{
-"
 nsIDOMNodeFilter
 "
 "
