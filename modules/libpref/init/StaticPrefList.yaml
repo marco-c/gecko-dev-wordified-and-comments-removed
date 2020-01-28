@@ -24142,6 +24142,12 @@ bool
 if
 defined
 (
+XP_WIN
+)
+|
+|
+defined
+(
 XP_MACOSX
 )
 value
