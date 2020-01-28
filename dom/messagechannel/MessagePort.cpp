@@ -420,9 +420,6 @@ mPostMessageRunnable
 this
 )
 ;
-nsresult
-rv
-=
 DispatchMessage
 (
 )
@@ -449,7 +446,7 @@ Dispatch
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 nsresult
@@ -477,7 +474,7 @@ NS_OK
 }
 private
 :
-nsresult
+void
 DispatchMessage
 (
 )
@@ -532,7 +529,6 @@ object
 )
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 JSContext
@@ -545,7 +541,7 @@ cx
 (
 )
 ;
-ErrorResult
+IgnoredErrorResult
 rv
 ;
 JS
@@ -698,6 +694,11 @@ Failed
 )
 )
 {
+JS_ClearPendingException
+(
+cx
+)
+;
 mPort
 -
 >
@@ -706,11 +707,6 @@ DispatchError
 )
 ;
 return
-rv
-.
-StealNSResult
-(
-)
 ;
 }
 nsCOMPtr
@@ -778,7 +774,6 @@ DispatchError
 )
 ;
 return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 event
@@ -828,9 +823,6 @@ DispatchEvent
 *
 event
 )
-;
-return
-NS_OK
 ;
 }
 private
