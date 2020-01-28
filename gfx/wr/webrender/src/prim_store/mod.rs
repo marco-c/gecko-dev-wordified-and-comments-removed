@@ -273,7 +273,6 @@ picture
 PictureCompositeMode
 PicturePrimitive
 ClusterFlags
-TileCacheLogger
 }
 ;
 use
@@ -12298,11 +12297,6 @@ scratch
 &
 mut
 PrimitiveScratchBuffer
-tile_cache_log
-:
-&
-mut
-TileCacheLogger
 )
 -
 >
@@ -12383,7 +12377,6 @@ subpixel_mode
 frame_state
 frame_context
 scratch
-tile_cache_log
 )
 {
 Some
@@ -12596,7 +12589,6 @@ frame_context
 frame_state
 data_stores
 scratch
-tile_cache_log
 )
 ;
 self
@@ -12758,11 +12750,6 @@ scratch
 &
 mut
 PrimitiveScratchBuffer
-tile_cache_log
-:
-&
-mut
-TileCacheLogger
 )
 {
 for
@@ -12941,7 +12928,6 @@ frame_state
 plane_split_anchor
 data_stores
 scratch
-tile_cache_log
 )
 {
 frame_state
