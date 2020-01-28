@@ -313,9 +313,6 @@ Mode
 mMode
 ;
 bool
-mCreating
-;
-bool
 mRegistered
 ;
 FlippedOnce
@@ -1097,6 +1094,11 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 IDBTransaction
 DOMEventTargetHelper
 )
+void
+CommitIfNotStarted
+(
+)
+;
 JSObject
 *
 WrapObject
