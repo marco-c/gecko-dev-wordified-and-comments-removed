@@ -1327,13 +1327,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCExternalHandlerService
 .
 h
@@ -40598,11 +40591,14 @@ return
 }
 mEditorData
 =
+WrapUnique
+(
 aSHEntry
 -
 >
 ForgetEditorData
 (
+)
 )
 ;
 if
@@ -40823,7 +40819,7 @@ SetEditorData
 (
 mEditorData
 .
-forget
+release
 (
 )
 )
@@ -43886,7 +43882,7 @@ nullptr
 call
 below
 .
-nsAutoPtr
+UniquePtr
 <
 nsDocShellEditorData
 >
@@ -43929,7 +43925,7 @@ SetEditorData
 (
 data
 .
-forget
+release
 (
 )
 )
@@ -75405,8 +75401,10 @@ docshell
 .
 mEditorData
 =
-new
+MakeUnique
+<
 nsDocShellEditorData
+>
 (
 this
 )

@@ -3377,7 +3377,10 @@ RestorePresentationEvent
 >
 mRestorePresentationEvent
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsDocShellEditorData
 >

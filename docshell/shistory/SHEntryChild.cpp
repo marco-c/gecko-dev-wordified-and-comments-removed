@@ -3819,7 +3819,7 @@ mShared
 >
 mEditorData
 .
-forget
+release
 (
 )
 ;
@@ -3877,7 +3877,10 @@ mShared
 >
 mEditorData
 =
+WrapUnique
+(
 aData
+)
 ;
 }
 }

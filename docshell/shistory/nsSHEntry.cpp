@@ -4872,7 +4872,7 @@ GetState
 >
 mEditorData
 .
-forget
+release
 (
 )
 ;
@@ -4936,7 +4936,13 @@ GetState
 >
 mEditorData
 =
+mozilla
+:
+:
+WrapUnique
+(
 aData
+)
 ;
 }
 }
