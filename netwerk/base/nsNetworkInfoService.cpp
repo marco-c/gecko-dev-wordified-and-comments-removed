@@ -92,8 +92,8 @@ build
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 NS_IMPL_ISUPPORTS
@@ -408,6 +408,5 @@ hostnameStr
 return
 NS_OK
 ;
-}
 }
 }

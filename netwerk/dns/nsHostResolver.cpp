@@ -362,8 +362,8 @@ thread
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 LazyLogModule
@@ -447,7 +447,6 @@ LogLevel
 :
 Debug
 )
-}
 }
 #
 if

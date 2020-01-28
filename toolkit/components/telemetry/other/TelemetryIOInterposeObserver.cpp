@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 Telemetry
 {
 TelemetryIOInterposeObserver
@@ -938,6 +938,5 @@ aMallocSizeOf
 return
 size
 ;
-}
 }
 }

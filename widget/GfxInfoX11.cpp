@@ -118,8 +118,8 @@ fire_glxtest_process
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 #
@@ -3369,5 +3369,4 @@ NS_OK
 }
 #
 endif
-}
 }

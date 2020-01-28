@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 using
@@ -688,6 +688,5 @@ aProxyType
 )
 )
 ;
-}
 }
 }

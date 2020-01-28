@@ -282,8 +282,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gl
 {
 using
@@ -4787,6 +4787,5 @@ Shutdown
 (
 )
 {
-}
 }
 }

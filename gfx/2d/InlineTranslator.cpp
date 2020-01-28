@@ -62,8 +62,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 InlineTranslator
@@ -521,6 +521,5 @@ forget
 (
 )
 ;
-}
 }
 }

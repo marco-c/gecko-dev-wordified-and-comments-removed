@@ -5321,8 +5321,8 @@ mMessageCounter
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 dom
 {
 class
@@ -6112,7 +6112,6 @@ aData
 return
 NS_OK
 ;
-}
 }
 }
 already_AddRefed

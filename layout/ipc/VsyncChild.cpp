@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layout
 {
 VsyncChild
@@ -432,6 +432,5 @@ IPC_OK
 (
 )
 ;
-}
 }
 }

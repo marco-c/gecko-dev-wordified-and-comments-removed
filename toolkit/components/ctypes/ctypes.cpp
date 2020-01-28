@@ -74,8 +74,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 ctypes
 {
 static
@@ -575,6 +575,5 @@ targetObj
 return
 NS_OK
 ;
-}
 }
 }

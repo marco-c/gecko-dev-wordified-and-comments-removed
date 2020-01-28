@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 reflect
 {
 NS_IMPL_ISUPPORTS
@@ -165,6 +165,5 @@ global
 return
 NS_OK
 ;
-}
 }
 }

@@ -32,11 +32,11 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
-{
-namespace
+:
+:
 lsb
 {
 static
@@ -406,7 +406,5 @@ codename
 return
 true
 ;
-}
-}
 }
 }

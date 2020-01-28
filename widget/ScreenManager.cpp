@@ -100,8 +100,8 @@ WidgetScreen
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 NS_IMPL_ISUPPORTS
@@ -1277,6 +1277,5 @@ pixels
 return
 NS_OK
 ;
-}
 }
 }

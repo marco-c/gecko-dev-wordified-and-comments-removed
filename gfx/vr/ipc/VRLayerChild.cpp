@@ -106,8 +106,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 VRLayerChild
@@ -661,6 +661,5 @@ Release
 (
 )
 ;
-}
 }
 }

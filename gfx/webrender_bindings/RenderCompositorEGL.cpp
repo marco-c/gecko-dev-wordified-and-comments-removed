@@ -132,8 +132,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 wr
 {
 UniquePtr
@@ -960,6 +960,5 @@ GetClientSize
 ;
 #
 endif
-}
 }
 }

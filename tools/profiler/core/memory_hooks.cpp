@@ -236,8 +236,8 @@ gBernoulli
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 profiler
 {
 static
@@ -1698,7 +1698,6 @@ aPtr
 }
 }
 }
-}
 using
 namespace
 mozilla
@@ -2162,8 +2161,8 @@ profiler_replace_remove
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 profiler
 {
 void
@@ -2297,7 +2296,6 @@ Reset
 (
 )
 ;
-}
 }
 }
 }

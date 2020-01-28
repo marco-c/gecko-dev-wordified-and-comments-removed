@@ -21,8 +21,8 @@ h
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 MOZ_ALWAYS_INLINE
@@ -2135,7 +2135,6 @@ _mm_cvtsi128_si32
 final
 )
 ;
-}
 }
 }
 }

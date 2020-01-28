@@ -42,8 +42,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 PathBuilderSkia
@@ -1123,7 +1123,6 @@ MOZ_ASSERT
 false
 )
 ;
-}
 }
 }
 }

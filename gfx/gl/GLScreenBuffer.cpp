@@ -174,8 +174,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gl
 {
 using
@@ -3844,6 +3844,5 @@ fReadBuffer
 internalMode
 )
 ;
-}
 }
 }

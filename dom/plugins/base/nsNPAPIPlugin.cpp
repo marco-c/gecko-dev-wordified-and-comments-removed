@@ -1901,11 +1901,11 @@ nullptr
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
-{
-namespace
+:
+:
 parent
 {
 NPError
@@ -9119,7 +9119,5 @@ surface
 changed
 )
 ;
-}
-}
 }
 }

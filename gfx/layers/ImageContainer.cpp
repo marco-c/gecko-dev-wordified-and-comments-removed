@@ -277,8 +277,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 using
@@ -4494,6 +4494,5 @@ return
 +
 sProducerID
 ;
-}
 }
 }

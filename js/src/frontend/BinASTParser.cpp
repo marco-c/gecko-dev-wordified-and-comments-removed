@@ -169,8 +169,8 @@ RegExpFlags
 ;
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 template
@@ -25969,5 +25969,4 @@ BinASTParser
 BinASTTokenReaderMultipart
 >
 ;
-}
 }

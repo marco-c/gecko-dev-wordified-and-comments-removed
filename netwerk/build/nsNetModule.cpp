@@ -404,8 +404,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 static
@@ -546,7 +546,6 @@ true
 #
 undef
 WEB_SOCKET_HANDLER_CONSTRUCTOR
-}
 }
 #
 include

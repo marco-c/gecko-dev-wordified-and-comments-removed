@@ -33,8 +33,8 @@ algorithm
 >
 namespace
 mozilla
-{
-namespace
+:
+:
 SSE2
 {
 static
@@ -350,6 +350,5 @@ return
 -
 1
 ;
-}
 }
 }

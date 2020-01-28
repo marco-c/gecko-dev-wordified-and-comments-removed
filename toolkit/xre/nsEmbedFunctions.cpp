@@ -1279,8 +1279,8 @@ aProcessType
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 startup
 {
 GeckoProcessType
@@ -1288,7 +1288,6 @@ sChildProcessType
 =
 GeckoProcessType_Default
 ;
-}
 }
 #
 if

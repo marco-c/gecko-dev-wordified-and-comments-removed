@@ -23,8 +23,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 static
@@ -2007,6 +2007,5 @@ purgeBuffer
 (
 )
 ;
-}
 }
 }
