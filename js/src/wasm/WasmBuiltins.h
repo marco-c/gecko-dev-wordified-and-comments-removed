@@ -215,6 +215,11 @@ SASigFuncRef
 extern
 const
 SymbolicAddressSignature
+SASigPreBarrierFiltering
+;
+extern
+const
+SymbolicAddressSignature
 SASigPostBarrier
 ;
 extern
