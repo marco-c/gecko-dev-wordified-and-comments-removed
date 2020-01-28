@@ -3299,9 +3299,6 @@ if
 args
 .
 browsertime
-is
-not
-None
 and
 next_test
 .
