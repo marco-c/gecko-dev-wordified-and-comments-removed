@@ -305,6 +305,11 @@ ObjLiteral
 cpp
 '
 '
+OptionalEmitter
+.
+cpp
+'
+'
 ParseContext
 .
 cpp
