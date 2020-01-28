@@ -253,11 +253,6 @@ RuntimePermissions
 jsm
 '
 '
-Sanitizer
-.
-jsm
-'
-'
 SharedPreferences
 .
 jsm
