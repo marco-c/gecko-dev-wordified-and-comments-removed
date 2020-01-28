@@ -195,11 +195,6 @@ LightweightThemeConsumer
 jsm
 '
 '
-SharedPreferences
-.
-jsm
-'
-'
 Snackbars
 .
 jsm
