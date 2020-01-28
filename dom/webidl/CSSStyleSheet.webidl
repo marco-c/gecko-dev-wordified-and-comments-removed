@@ -322,7 +322,7 @@ enabled
 void
 replaceSync
 (
-USVString
+UTF8String
 text
 )
 ;
