@@ -401,6 +401,15 @@ inline
 solid
 transparent
 ;
+margin
+-
+block
+-
+start
+:
+-
+urlbarBreakoutExtend
+;
 }
 .
 urlbarView
