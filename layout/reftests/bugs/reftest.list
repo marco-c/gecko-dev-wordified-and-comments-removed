@@ -5176,6 +5176,9 @@ fails
 -
 if
 (
+webrender
+&
+&
 browserIsFission
 )
 =
@@ -21694,7 +21697,7 @@ skiaContent
 -
 5
 )
-fails
+random
 -
 if
 (
@@ -31736,6 +31739,9 @@ fails
 -
 if
 (
+webrender
+&
+&
 browserIsFission
 )
 =
