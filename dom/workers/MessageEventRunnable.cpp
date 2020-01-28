@@ -96,7 +96,7 @@ TransferringSupported
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 }

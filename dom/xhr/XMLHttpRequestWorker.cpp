@@ -820,7 +820,7 @@ TransferringNotSupported
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 mStringBody
 (

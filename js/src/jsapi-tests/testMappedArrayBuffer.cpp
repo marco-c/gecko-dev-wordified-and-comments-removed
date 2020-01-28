@@ -667,7 +667,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 nullptr
 nullptr
 )
@@ -956,7 +956,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 nullptr
 nullptr
 )

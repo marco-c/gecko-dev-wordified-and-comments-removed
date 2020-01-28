@@ -120,7 +120,7 @@ of
 [
 [
 '
-SameProcessDifferentThread
+SameProcess
 '
 '
 DifferentProcessForIndexedDB
@@ -128,7 +128,7 @@ DifferentProcessForIndexedDB
 ]
 [
 '
-SameProcessDifferentThread
+SameProcess
 '
 '
 DifferentProcess

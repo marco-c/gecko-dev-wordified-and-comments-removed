@@ -109,7 +109,7 @@ StructuredCloneScope
 :
 uint32_t
 {
-SameProcessDifferentThread
+SameProcess
 =
 1
 DifferentProcess
