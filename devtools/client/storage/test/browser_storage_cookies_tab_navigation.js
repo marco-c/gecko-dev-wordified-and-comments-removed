@@ -65,7 +65,7 @@ PressKeyXTimes
 "
 VK_TAB
 "
-18
+15
 )
 ;
 is
@@ -93,7 +93,7 @@ PressKeyXTimes
 "
 VK_TAB
 "
-18
+15
 {
 shiftKey
 :
