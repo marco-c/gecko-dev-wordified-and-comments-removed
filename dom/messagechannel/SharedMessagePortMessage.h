@@ -57,6 +57,10 @@ ipc
 :
 StructuredCloneData
 (
+StructuredCloneScope
+:
+:
+UnknownDestination
 )
 {
 }
@@ -79,7 +83,7 @@ SharedMessagePortMessage
 aData
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aArray
@@ -91,7 +95,7 @@ FromMessagesToSharedChild
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aArray
@@ -125,7 +129,7 @@ SharedMessagePortMessage
 aData
 FallibleTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aArray
@@ -137,7 +141,7 @@ FromMessagesToSharedParent
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aArray
@@ -158,8 +162,9 @@ private
 SharedMessagePortMessage
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

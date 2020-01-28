@@ -1829,7 +1829,7 @@ data
 ;
 AutoTArray
 <
-ClonedMessageData
+MessageData
 1
 >
 messages
@@ -2327,7 +2327,7 @@ Entangled
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aMessages
@@ -2375,7 +2375,7 @@ IsEmpty
 {
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 messages
 ;
@@ -2520,7 +2520,7 @@ MessagesReceived
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aMessages
@@ -2666,7 +2666,7 @@ eStateDisentangled
 {
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 messages
 ;
