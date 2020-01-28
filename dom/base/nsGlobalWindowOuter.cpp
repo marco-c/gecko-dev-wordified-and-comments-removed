@@ -42029,7 +42029,7 @@ Element
 nsGlobalWindowOuter
 :
 :
-GetFrameElementOuter
+GetFrameElement
 (
 nsIPrincipal
 &
