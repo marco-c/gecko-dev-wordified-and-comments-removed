@@ -2159,6 +2159,10 @@ SerializeSpecifiedValue
 (
 nsCSSPropertyID
 aProperty
+const
+RawServoStyleSet
+*
+aRawSet
 nsAString
 &
 aString
@@ -2174,6 +2178,7 @@ Servo_AnimationValue_Serialize
 (
 mServo
 aProperty
+aRawSet
 &
 aString
 )

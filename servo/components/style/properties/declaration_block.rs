@@ -3815,6 +3815,10 @@ Option
 &
 PropertyDeclarationBlock
 >
+environment
+:
+&
+CssEnvironment
 )
 -
 >
@@ -3880,11 +3884,6 @@ Error
 }
 ;
 let
-env
-=
-CssEnvironment
-;
-let
 custom_properties
 =
 if
@@ -3914,8 +3913,7 @@ cv
 custom_properties
 (
 )
-&
-env
+environment
 )
 }
 else
@@ -3979,8 +3977,7 @@ QuirksMode
 :
 :
 NoQuirks
-&
-env
+environment
 )
 .
 to_css
