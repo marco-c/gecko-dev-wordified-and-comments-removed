@@ -1911,6 +1911,10 @@ if
 i
 <
 OBJECT_PREVIEW_MAX_ITEMS
+&
+&
+!
+isReplaying
 )
 {
 preview
@@ -3753,6 +3757,15 @@ grip
 rawObj
 )
 {
+if
+(
+isReplaying
+)
+{
+return
+false
+;
+}
 let
 keys
 ;
