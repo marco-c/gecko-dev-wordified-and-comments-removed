@@ -2347,6 +2347,14 @@ RecursionDepth
 )
 )
 ;
+JS
+:
+:
+ClearKeptObjects
+(
+mJSContext
+)
+;
 }
 void
 CycleCollectedJSContext
