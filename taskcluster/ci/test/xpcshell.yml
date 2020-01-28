@@ -540,7 +540,10 @@ aarch64
 *
 :
 2
-linux64
+linux
+.
+*
+64
 -
 ccov
 /
