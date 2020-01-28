@@ -450,7 +450,11 @@ nsIFile
 >
 mFile
 ;
+Atomic
+<
 int64_t
+Relaxed
+>
 mFileSize
 ;
 PRFileDesc
