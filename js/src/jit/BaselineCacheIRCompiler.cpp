@@ -13612,7 +13612,7 @@ MutableHandleValue
 callVM
 <
 Fn
-CreateThis
+CreateThisFromIC
 >
 (
 masm
