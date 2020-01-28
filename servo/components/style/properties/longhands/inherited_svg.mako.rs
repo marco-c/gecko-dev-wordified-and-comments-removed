@@ -780,6 +780,11 @@ html
 #
 StrokeLinejoinProperty
 "
+gecko_enum_prefix
+=
+"
+StyleStrokeLinejoin
+"
 )
 }
 {

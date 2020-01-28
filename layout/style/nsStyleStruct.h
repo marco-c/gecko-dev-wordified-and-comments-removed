@@ -9420,7 +9420,10 @@ mozilla
 StyleStrokeLinecap
 mStrokeLinecap
 ;
-uint8_t
+mozilla
+:
+:
+StyleStrokeLinejoin
 mStrokeLinejoin
 ;
 uint8_t

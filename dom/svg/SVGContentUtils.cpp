@@ -1515,7 +1515,10 @@ mStrokeLinejoin
 )
 {
 case
-NS_STYLE_STROKE_LINEJOIN_MITER
+StyleStrokeLinejoin
+:
+:
+Miter
 :
 aStrokeOptions
 -
@@ -1530,7 +1533,10 @@ MITER_OR_BEVEL
 break
 ;
 case
-NS_STYLE_STROKE_LINEJOIN_ROUND
+StyleStrokeLinejoin
+:
+:
+Round
 :
 aStrokeOptions
 -
@@ -1545,7 +1551,10 @@ ROUND
 break
 ;
 case
-NS_STYLE_STROKE_LINEJOIN_BEVEL
+StyleStrokeLinejoin
+:
+:
+Bevel
 :
 aStrokeOptions
 -
