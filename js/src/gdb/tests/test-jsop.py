@@ -21,7 +21,10 @@ assert_pretty
 undefined
 '
 '
-JSOP_UNDEFINED
+JSOp
+:
+:
+Undefined
 '
 )
 assert_pretty
@@ -30,6 +33,9 @@ assert_pretty
 debugger
 '
 '
-JSOP_DEBUGGER
+JSOp
+:
+:
+Debugger
 '
 )
