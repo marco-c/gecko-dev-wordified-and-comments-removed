@@ -3074,9 +3074,10 @@ desc
 if
 (
 reg
-=
-=
-InvalidFloatReg
+.
+isInvalid
+(
+)
 )
 {
 return
