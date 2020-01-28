@@ -5126,7 +5126,6 @@ RefPtr
 <
 GMPParent
 >
-&
 aOnDeathsDoor
 )
 {

@@ -368,6 +368,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 aPacket
@@ -396,6 +397,7 @@ std
 string
 &
 aTransportId
+const
 MediaPacket
 &
 aPacket
