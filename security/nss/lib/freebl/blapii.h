@@ -291,6 +291,16 @@ ssse3_support
 )
 ;
 PRBool
+sse4_1_support
+(
+)
+;
+PRBool
+sse4_2_support
+(
+)
+;
+PRBool
 arm_neon_support
 (
 )
