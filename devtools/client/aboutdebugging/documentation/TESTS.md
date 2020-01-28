@@ -29,7 +29,7 @@ two
 subfolders
 browser
 and
-unit
+xpcshell
 .
 browser
 contains
@@ -70,7 +70,7 @@ are
 browser
 mochitests
 .
-unit
+xpcshell
 contains
 our
 [
