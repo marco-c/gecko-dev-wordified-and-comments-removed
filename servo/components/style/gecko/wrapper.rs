@@ -5594,11 +5594,6 @@ get_font
 FontBaseSize
 :
 :
-InheritedStyleButStripEmUnits
-|
-FontBaseSize
-:
-:
 InheritedStyle
 =
 >
