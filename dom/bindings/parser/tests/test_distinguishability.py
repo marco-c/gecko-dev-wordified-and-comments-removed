@@ -1300,9 +1300,6 @@ ArrayBuffer
 "
 ArrayBufferView
 "
-"
-SharedArrayBuffer
-"
                  
 "
 Uint8Array
@@ -1520,14 +1517,6 @@ Uint16Array
 "
 ]
     
-sharedBufferSourceTypes
-=
-[
-"
-SharedArrayBuffer
-"
-]
-    
 interfaces
 =
 [
@@ -1548,8 +1537,6 @@ UnrelatedInterface
 ]
 +
 bufferSourceTypes
-+
-sharedBufferSourceTypes
     
 nullables
 =
@@ -1687,8 +1674,6 @@ dates
 sequences
 +
 bufferSourceTypes
-+
-sharedBufferSourceTypes
 )
     
 records
@@ -2261,25 +2246,6 @@ ArrayBufferView
 "
 "
 Uint16Array
-"
-"
-object
-"
-]
-)
-)
-    
-setDistinguishable
-(
-"
-SharedArrayBuffer
-"
-allBut
-(
-argTypes
-[
-"
-SharedArrayBuffer
 "
 "
 object

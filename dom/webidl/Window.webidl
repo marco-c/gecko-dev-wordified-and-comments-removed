@@ -616,7 +616,7 @@ RTCIceTransport
 RTCSctpTransport
 Sensor
 SensorErrorEvent
-_SharedArrayBuffer
+SharedArrayBuffer
 styleMedia
 StylePropertyMap
 StylePropertyMapReadOnly
