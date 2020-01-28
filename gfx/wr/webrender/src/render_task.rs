@@ -239,6 +239,12 @@ RenderTaskCacheKey
 RenderTaskCacheKeyKind
 }
 ;
+use
+smallvec
+:
+:
+SmallVec
+;
 const
 RENDER_TASK_SIZE_SANITY_CHECK
 :
@@ -1994,6 +2000,19 @@ stddev_y
 }
 }
 }
+pub
+type
+TaskDependencies
+=
+SmallVec
+<
+[
+RenderTaskId
+;
+2
+]
+>
+;
 #
 [
 cfg_attr
@@ -2035,10 +2054,7 @@ RenderTaskLocation
 pub
 children
 :
-Vec
-<
-RenderTaskId
->
+TaskDependencies
 pub
 kind
 :
@@ -2071,10 +2087,7 @@ size
 DeviceIntSize
 children
 :
-Vec
-<
-RenderTaskId
->
+TaskDependencies
 kind
 :
 RenderTaskKind
@@ -2131,10 +2144,7 @@ location
 RenderTaskLocation
 children
 :
-Vec
-<
-RenderTaskId
->
+TaskDependencies
 )
 -
 >
@@ -2297,7 +2307,7 @@ RenderTask
 location
 children
 :
-Vec
+TaskDependencies
 :
 :
 new
@@ -2375,7 +2385,7 @@ RenderTask
 with_dynamic_location
 (
 size
-Vec
+TaskDependencies
 :
 :
 new
@@ -2420,7 +2430,7 @@ with_dynamic_location
 screen_rect
 .
 size
-Vec
+TaskDependencies
 :
 :
 new
@@ -2502,7 +2512,7 @@ task_id
 }
 =
 >
-vec
+smallvec
 !
 [
 task_id
@@ -2517,7 +2527,7 @@ Image
 }
 =
 >
-vec
+smallvec
 !
 [
 ]
@@ -2577,7 +2587,7 @@ RenderTask
 with_dynamic_location
 (
 size
-Vec
+TaskDependencies
 :
 :
 new
@@ -2960,7 +2970,7 @@ with_dynamic_location
 outer_rect
 .
 size
-vec
+smallvec
 !
 [
 ]
@@ -3034,7 +3044,7 @@ RenderTask
 with_dynamic_location
 (
 size
-Vec
+TaskDependencies
 :
 :
 new
@@ -3494,7 +3504,7 @@ RenderTask
 with_dynamic_location
 (
 adjusted_blur_target_size
-vec
+smallvec
 !
 [
 downscaling_src_task_id
@@ -3546,7 +3556,7 @@ RenderTask
 with_dynamic_location
 (
 adjusted_blur_target_size
-vec
+smallvec
 !
 [
 blur_task_v_id
@@ -3634,7 +3644,7 @@ RenderTask
 with_dynamic_location
 (
 size
-Vec
+TaskDependencies
 :
 :
 new
@@ -3758,7 +3768,7 @@ task_id
 uv_rect_kind
 (
 )
-vec
+smallvec
 !
 [
 task_id
@@ -3779,7 +3789,7 @@ UvRectKind
 :
 :
 Rect
-vec
+smallvec
 !
 [
 ]
@@ -3973,7 +3983,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 task_id
@@ -4017,7 +4027,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 task_id
@@ -4175,7 +4185,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_1_task_id
@@ -4220,7 +4230,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 ]
@@ -4294,7 +4304,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4378,7 +4388,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4442,7 +4452,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4546,7 +4556,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4610,7 +4620,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4702,7 +4712,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4788,7 +4798,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_task_id
@@ -4869,7 +4879,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 input_1_task_id
@@ -4947,7 +4957,7 @@ RenderTask
 :
 new_svg_filter_primitive
 (
-vec
+smallvec
 !
 [
 render_task_id
@@ -4978,10 +4988,7 @@ new_svg_filter_primitive
 (
 tasks
 :
-Vec
-<
-RenderTaskId
->
+TaskDependencies
 target_size
 :
 DeviceIntSize

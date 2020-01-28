@@ -3268,6 +3268,19 @@ cfg
 test
 )
 ]
+use
+smallvec
+:
+:
+SmallVec
+;
+#
+[
+cfg
+(
+test
+)
+]
 fn
 dyn_location
 (
@@ -3359,7 +3372,7 @@ dyn_location
 640
 640
 )
-Vec
+SmallVec
 :
 :
 new
@@ -3386,7 +3399,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 a
@@ -3412,7 +3425,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 a
@@ -3446,7 +3459,7 @@ rect
 1800
 )
 )
-vec
+smallvec
 !
 [
 b1
@@ -3656,7 +3669,7 @@ dyn_location
 640
 640
 )
-Vec
+SmallVec
 :
 :
 new
@@ -3683,7 +3696,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 pic
@@ -3709,7 +3722,7 @@ dyn_location
 160
 160
 )
-vec
+smallvec
 !
 [
 scale1
@@ -3735,7 +3748,7 @@ dyn_location
 80
 80
 )
-vec
+smallvec
 !
 [
 scale2
@@ -3761,7 +3774,7 @@ dyn_location
 40
 40
 )
-vec
+smallvec
 !
 [
 scale3
@@ -3787,7 +3800,7 @@ dyn_location
 40
 40
 )
-vec
+smallvec
 !
 [
 scale4
@@ -3813,7 +3826,7 @@ dyn_location
 40
 40
 )
-vec
+smallvec
 !
 [
 vblur1
@@ -3839,7 +3852,7 @@ dyn_location
 40
 40
 )
-vec
+smallvec
 !
 [
 scale4
@@ -3865,7 +3878,7 @@ dyn_location
 40
 40
 )
-vec
+smallvec
 !
 [
 vblur2
@@ -3891,7 +3904,7 @@ dyn_location
 80
 80
 )
-vec
+smallvec
 !
 [
 scale3
@@ -3917,7 +3930,7 @@ dyn_location
 80
 80
 )
-vec
+smallvec
 !
 [
 vblur3
@@ -3943,7 +3956,7 @@ dyn_location
 160
 160
 )
-vec
+smallvec
 !
 [
 scale2
@@ -3969,7 +3982,7 @@ dyn_location
 160
 160
 )
-vec
+smallvec
 !
 [
 vblur4
@@ -4003,7 +4016,7 @@ rect
 1800
 )
 )
-vec
+smallvec
 !
 [
 hblur1
@@ -4510,7 +4523,7 @@ dyn_location
 640
 640
 )
-Vec
+SmallVec
 :
 :
 new
@@ -4537,7 +4550,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 a1
@@ -4563,7 +4576,7 @@ dyn_location
 640
 640
 )
-Vec
+SmallVec
 :
 :
 new
@@ -4590,7 +4603,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 b1
@@ -4616,7 +4629,7 @@ dyn_location
 320
 320
 )
-vec
+smallvec
 !
 [
 b2
@@ -4650,7 +4663,7 @@ rect
 1800
 )
 )
-vec
+smallvec
 !
 [
 b2
