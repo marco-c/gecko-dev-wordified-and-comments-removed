@@ -1744,8 +1744,6 @@ mAscent
 nscoord
 GetOuterMainSize
 (
-AxisOrientationType
-aMainAxis
 )
 const
 {
@@ -1754,15 +1752,12 @@ mMainSize
 +
 GetMarginBorderPaddingSizeInMainAxis
 (
-aMainAxis
 )
 ;
 }
 nscoord
 GetOuterCrossSize
 (
-AxisOrientationType
-aCrossAxis
 )
 const
 {
@@ -1771,7 +1766,6 @@ mCrossSize
 +
 GetMarginBorderPaddingSizeInCrossAxis
 (
-aCrossAxis
 )
 ;
 }
@@ -2308,8 +2302,6 @@ mCBWM
 nscoord
 GetMarginBorderPaddingSizeInMainAxis
 (
-AxisOrientationType
-aAxis
 )
 const
 {
@@ -2326,8 +2318,6 @@ GetBorderPaddingSizeInMainAxis
 nscoord
 GetMarginBorderPaddingSizeInCrossAxis
 (
-AxisOrientationType
-aAxis
 )
 const
 {
@@ -7595,7 +7585,6 @@ marginBStartToBaseline
 :
 GetOuterCrossSize
 (
-crossAxis
 )
 -
 marginBStartToBaseline
@@ -11168,7 +11157,6 @@ item
 >
 GetOuterMainSize
 (
-mPhysicalAxis
 )
 ;
 mNumAutoMarginsInMainAxis
@@ -12676,11 +12664,6 @@ item
 >
 GetOuterCrossSize
 (
-aAxisTracker
-.
-GetPhysicalCrossAxis
-(
-)
 )
 ;
 if
@@ -12941,7 +12924,6 @@ aLineCrossSize
 -
 GetMarginBorderPaddingSizeInCrossAxis
 (
-crossAxis
 )
 ;
 stretchedSize
@@ -13071,7 +13053,6 @@ aItem
 .
 GetOuterCrossSize
 (
-mPhysicalAxis
 )
 ;
 if
@@ -13431,7 +13412,6 @@ aItem
 .
 GetOuterCrossSize
 (
-mPhysicalAxis
 )
 &
 &
@@ -13477,7 +13457,6 @@ aItem
 .
 GetOuterCrossSize
 (
-mPhysicalAxis
 )
 ;
 break
@@ -13499,7 +13478,6 @@ aItem
 .
 GetOuterCrossSize
 (
-mPhysicalAxis
 )
 )
 /
@@ -13618,7 +13596,6 @@ aItem
 .
 GetOuterCrossSize
 (
-mPhysicalAxis
 )
 ;
 mPosition
@@ -14967,11 +14944,6 @@ item
 >
 GetOuterMainSize
 (
-aAxisTracker
-.
-GetPhysicalMainAxis
-(
-)
 )
 ;
 if
