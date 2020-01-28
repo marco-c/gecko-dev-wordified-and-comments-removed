@@ -153,6 +153,11 @@ Element
 ariaDescribedByElements
 ;
 attribute
+DOMString
+?
+ariaDescription
+;
+attribute
 Element
 ?
 ariaDetailsElement
