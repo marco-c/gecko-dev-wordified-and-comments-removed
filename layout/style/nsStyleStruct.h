@@ -9854,7 +9854,10 @@ mFloodOpacity
 uint8_t
 mVectorEffect
 ;
-uint8_t
+mozilla
+:
+:
+StyleMaskType
 mMaskType
 ;
 }

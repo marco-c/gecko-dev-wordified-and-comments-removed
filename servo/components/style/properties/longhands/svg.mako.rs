@@ -440,6 +440,11 @@ engines
 "
 gecko
 "
+gecko_enum_prefix
+=
+"
+StyleMaskType
+"
 animation_value_type
 =
 "
