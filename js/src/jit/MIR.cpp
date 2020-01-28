@@ -32821,8 +32821,6 @@ const
 Args
 &
 args
-MIRType
-resultType
 uint32_t
 stackArgAreaSizeUnaligned
 MDefinition
@@ -32843,14 +32841,6 @@ MWasmCall
 desc
 callee
 stackArgAreaSizeUnaligned
-)
-;
-call
--
->
-setResultType
-(
-resultType
 )
 ;
 if
@@ -33055,8 +33045,6 @@ const
 Args
 &
 args
-MIRType
-resultType
 uint32_t
 stackArgAreaSizeUnaligned
 )
@@ -33088,7 +33076,6 @@ alloc
 desc
 callee
 args
-resultType
 stackArgAreaSizeUnaligned
 nullptr
 )
