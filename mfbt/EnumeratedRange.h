@@ -53,6 +53,7 @@ template
 typename
 EnumType
 >
+constexpr
 explicit
 EnumeratedIterator
 (
@@ -652,6 +653,7 @@ template
 typename
 EnumType
 >
+constexpr
 EnumeratedRange
 (
 EnumType
@@ -807,7 +809,7 @@ template
 typename
 EnumType
 >
-inline
+constexpr
 detail
 :
 :
@@ -858,7 +860,7 @@ template
 typename
 EnumType
 >
-inline
+constexpr
 detail
 :
 :
