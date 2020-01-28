@@ -816,8 +816,14 @@ aCachedMotionPath
 )
 ;
 static
-StyleSVGPathData
-NormalizeSVGPathData
+nsTArray
+<
+layers
+:
+:
+PathCommand
+>
+NormalizeAndConvertToPathCommands
 (
 const
 StyleSVGPathData
