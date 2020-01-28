@@ -2305,7 +2305,7 @@ aIndex
 )
 ;
 void
-SelectFramesForContent
+SelectFramesOf
 (
 nsIContent
 *
@@ -2316,7 +2316,7 @@ aSelected
 const
 ;
 nsresult
-SelectAllFramesForContent
+SelectFramesOfInclusiveDescendantsOfContent
 (
 PostContentIterator
 &

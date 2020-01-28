@@ -6410,7 +6410,7 @@ void
 Selection
 :
 :
-SelectFramesForContent
+SelectFramesOf
 (
 nsIContent
 *
@@ -6500,7 +6500,7 @@ nsresult
 Selection
 :
 :
-SelectAllFramesForContent
+SelectFramesOfInclusiveDescendantsOfContent
 (
 PostContentIterator
 &
@@ -6524,7 +6524,7 @@ HasChildren
 )
 )
 {
-SelectFramesForContent
+SelectFramesOf
 (
 aContent
 aSelected
@@ -6606,7 +6606,7 @@ AsContent
 :
 nullptr
 ;
-SelectFramesForContent
+SelectFramesOf
 (
 innercontent
 aSelected
@@ -7088,7 +7088,7 @@ if
 isFirstContentTextNode
 )
 {
-SelectFramesForContent
+SelectFramesOf
 (
 startContent
 aSelect
@@ -7194,7 +7194,7 @@ AsContent
 :
 nullptr
 ;
-SelectAllFramesForContent
+SelectFramesOfInclusiveDescendantsOfContent
 (
 postOrderIter
 content
