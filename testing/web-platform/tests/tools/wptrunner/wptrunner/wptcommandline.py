@@ -1,6 +1,7 @@
 from
 __future__
 import
+absolute_import
 print_function
 import
 argparse
@@ -73,13 +74,19 @@ path
 )
 :
     
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
     
 parsed
 =
-urlparse
-.
 urlparse
 (
 path

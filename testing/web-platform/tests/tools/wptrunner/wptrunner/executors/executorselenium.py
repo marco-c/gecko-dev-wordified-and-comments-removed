@@ -1,3 +1,7 @@
+from
+__future__
+import
+absolute_import
 import
 json
 import
@@ -11,9 +15,17 @@ time
 import
 traceback
 import
-urlparse
-import
 uuid
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+urljoin
 from
 .
 base
@@ -426,8 +438,6 @@ runner_handle
         
 url
 =
-urlparse
-.
 urljoin
 (
 self
@@ -440,7 +450,7 @@ server_url
 (
 url_protocol
 )
-                               
+                      
 "
 /
 testharness_runner
