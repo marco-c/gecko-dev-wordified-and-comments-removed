@@ -2916,6 +2916,14 @@ extra_prefixes
 =
 "
 moz
+:
+layout
+.
+css
+.
+prefixes
+.
+columns
 "
 servo_2013_pref
 =
