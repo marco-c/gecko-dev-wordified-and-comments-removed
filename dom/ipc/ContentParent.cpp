@@ -8579,12 +8579,9 @@ mRemoteType
 )
 )
 {
-nsTArray
-<
-ContentParent
-*
->
-*
+const
+auto
+&
 contentParents
 =
 entry

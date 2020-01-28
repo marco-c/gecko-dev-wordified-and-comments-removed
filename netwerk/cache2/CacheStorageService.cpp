@@ -134,13 +134,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -9087,7 +9080,10 @@ BeginReading
 )
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 CacheEntryTable
 >

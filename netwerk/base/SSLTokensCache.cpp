@@ -1436,7 +1436,7 @@ get
 )
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 TokenCacheRecord
 >
@@ -1488,6 +1488,10 @@ mExpirationArray
 RemoveElement
 (
 rec
+.
+get
+(
+)
 )
 )
 {

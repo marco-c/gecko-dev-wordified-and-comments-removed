@@ -755,7 +755,10 @@ __FUNCTION__
 aPluginId
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTArray
 <
@@ -2386,7 +2389,7 @@ helpers
 =
 iter
 .
-Data
+UserData
 (
 )
 ;

@@ -1405,7 +1405,10 @@ return
 NS_ERROR_ILLEGAL_VALUE
 ;
 }
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 INIValue
 >
@@ -1430,7 +1433,7 @@ Put
 aNewName
 val
 .
-forget
+release
 (
 )
 )
@@ -1510,7 +1513,7 @@ val
 =
 iter
 .
-Data
+UserData
 (
 )
 ;

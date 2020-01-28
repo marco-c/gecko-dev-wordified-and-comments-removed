@@ -349,8 +349,9 @@ NS_ENSURE_ARG
 aCommandObserver
 )
 ;
-ObserverList
-*
+const
+auto
+&
 commandObservers
 =
 mObserversTable

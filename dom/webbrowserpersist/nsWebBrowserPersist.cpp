@@ -38,13 +38,6 @@ algorithm
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -9593,7 +9586,10 @@ if
 matchingKey
 )
 {
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 OutputData
 >
@@ -9642,7 +9638,7 @@ Put
 keyPtr
 outputData
 .
-forget
+release
 (
 )
 )

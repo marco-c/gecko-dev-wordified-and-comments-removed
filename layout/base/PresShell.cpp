@@ -68086,8 +68086,9 @@ if
 mDumpFrameCounts
 )
 {
-ReflowCounter
-*
+const
+auto
+&
 counter
 =
 mCounts
@@ -68159,8 +68160,9 @@ void
 aFrame
 )
 ;
-IndiReflowCounter
-*
+const
+auto
+&
 counter
 =
 mIndiFrameCounts
@@ -68226,9 +68228,6 @@ classes
 if
 (
 counter
-!
-=
-nullptr
 &
 &
 counter
@@ -69684,7 +69683,7 @@ counter
 =
 iter
 .
-Data
+UserData
 (
 )
 ;

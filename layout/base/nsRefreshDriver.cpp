@@ -5694,8 +5694,9 @@ aRequest
 }
 else
 {
-ImageStartData
-*
+const
+auto
+&
 start
 =
 mStartTable
