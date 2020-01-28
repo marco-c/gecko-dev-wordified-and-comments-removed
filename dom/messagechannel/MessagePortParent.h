@@ -91,7 +91,7 @@ Entangled
 const
 nsTArray
 <
-MessageData
+ClonedMessageData
 >
 &
 aMessages
@@ -160,7 +160,7 @@ RecvPostMessages
 (
 nsTArray
 <
-MessageData
+ClonedMessageData
 >
 &
 &
@@ -178,7 +178,7 @@ RecvDisentangle
 (
 nsTArray
 <
-MessageData
+ClonedMessageData
 >
 &
 &

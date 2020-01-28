@@ -65,9 +65,6 @@ namespace
 dom
 {
 class
-MessageData
-;
-class
 MessagePortChild
 ;
 struct
@@ -78,9 +75,6 @@ PostMessageRunnable
 ;
 class
 SharedMessagePortMessage
-;
-class
-RefMessageBodyService
 ;
 class
 StrongWorkerRef
@@ -481,7 +475,7 @@ Entangled
 (
 nsTArray
 <
-MessageData
+ClonedMessageData
 >
 &
 aMessages
@@ -492,7 +486,7 @@ MessagesReceived
 (
 nsTArray
 <
-MessageData
+ClonedMessageData
 >
 &
 aMessages
@@ -640,12 +634,6 @@ RefPtr
 MessagePort
 >
 mUnshippedEntangledPort
-;
-RefPtr
-<
-RefMessageBodyService
->
-mRefMessageBodyService
 ;
 nsTArray
 <

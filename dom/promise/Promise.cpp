@@ -4040,9 +4040,6 @@ JSObject
 *
 >
 aObj
-bool
-*
-aSameProcessScopeRequired
 )
 {
 if
