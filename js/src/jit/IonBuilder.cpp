@@ -51947,9 +51947,11 @@ jitcode
 will
 come
 from
-JSOP_
+JSOp
+:
+:
 *
-ALIASEDVAR
+AliasedVar
 /
 /
 opcodes
