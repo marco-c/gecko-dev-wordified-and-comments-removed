@@ -465,9 +465,11 @@ async
 function
 testName
 (
+{
 client
 CDP
 tab
+}
 )
 {
 /
@@ -601,7 +603,9 @@ async
 function
 testName
 (
+{
 client
+}
 )
 {
 /

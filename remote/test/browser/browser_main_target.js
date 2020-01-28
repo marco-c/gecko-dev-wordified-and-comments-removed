@@ -8,8 +8,9 @@ add_task
 async
 function
 (
-_client
+{
 CDP
+}
 )
 {
 const

@@ -23,7 +23,9 @@ async
 function
 testCDP
 (
+{
 client
+}
 )
 {
 await
