@@ -253,10 +253,6 @@ Glean
 new
 (
 cfg
-.
-clone
-(
-)
 )
 .
 unwrap
@@ -334,6 +330,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -537,6 +534,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -766,6 +764,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let

@@ -60,6 +60,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 assert
@@ -102,6 +103,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -208,6 +210,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let
@@ -268,10 +271,6 @@ into
 send_in_pings
 :
 store_names
-.
-clone
-(
-)
 disabled
 :
 false
@@ -417,6 +416,7 @@ _t
 =
 new_glean
 (
+None
 )
 ;
 let

@@ -49,13 +49,6 @@ init
 (
 )
 ;
-color_backtrace
-:
-:
-install
-(
-)
-;
 let
 mut
 args

@@ -55,6 +55,13 @@ Error
 for
 Error
 {
+#
+[
+allow
+(
+deprecated
+)
+]
 fn
 description
 (

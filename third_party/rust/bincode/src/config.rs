@@ -423,6 +423,13 @@ Big
 Little
 Native
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Config

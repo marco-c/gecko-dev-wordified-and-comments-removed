@@ -2997,13 +2997,12 @@ Self
 debug_assert
 !
 (
+!
 pattern
 .
-len
+is_empty
 (
 )
->
-0
 )
 ;
 let

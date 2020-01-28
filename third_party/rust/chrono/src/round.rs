@@ -2,7 +2,7 @@ use
 Timelike
 ;
 use
-std
+core
 :
 :
 ops

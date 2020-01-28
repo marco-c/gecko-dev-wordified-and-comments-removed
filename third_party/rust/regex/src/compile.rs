@@ -379,14 +379,12 @@ Error
 debug_assert
 !
 (
+!
 exprs
 .
-len
+is_empty
 (
 )
->
-=
-1
 )
 ;
 self

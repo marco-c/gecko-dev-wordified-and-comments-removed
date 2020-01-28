@@ -96,7 +96,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -396,7 +396,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -978,7 +978,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -1117,7 +1117,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -1351,7 +1351,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -1529,7 +1529,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -1558,7 +1558,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -1895,7 +1895,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -2106,7 +2106,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -2446,7 +2446,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -2743,7 +2743,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -3175,7 +3175,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -3247,7 +3247,7 @@ version
 .
 2
 .
-0
+1
 "
 source
 =
@@ -3275,35 +3275,6 @@ index
 dependencies
 =
 [
-"
-autocfg
-0
-.
-1
-.
-6
-(
-registry
-+
-https
-:
-/
-/
-github
-.
-com
-/
-rust
--
-lang
-/
-crates
-.
-io
--
-index
-)
-"
 "
 byteorder
 1
@@ -3339,7 +3310,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -3652,7 +3623,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -3845,7 +3816,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -4097,7 +4068,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -4126,7 +4097,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -4385,7 +4356,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -4617,7 +4588,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -5241,7 +5212,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -5898,7 +5869,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -6538,7 +6509,7 @@ version
 .
 4
 .
-6
+10
 "
 source
 =
@@ -6634,7 +6605,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -8957,7 +8928,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -9396,7 +9367,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -9620,7 +9591,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -13498,7 +13469,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -13833,7 +13804,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -13862,7 +13833,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -14388,7 +14359,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -14417,7 +14388,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -14596,7 +14567,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -15097,7 +15068,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -15713,7 +15684,7 @@ preview
 .
 0
 .
-4
+5
 (
 registry
 +
@@ -15742,7 +15713,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -16571,7 +16542,7 @@ chrono
 .
 4
 .
-6
+10
 (
 registry
 +
@@ -16687,7 +16658,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -16756,7 +16727,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -16785,7 +16756,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -16814,7 +16785,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -17019,7 +16990,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -17135,7 +17106,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -17855,7 +17826,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -18261,7 +18232,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -18901,7 +18872,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -19396,7 +19367,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -20314,7 +20285,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -20778,7 +20749,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -20923,7 +20894,7 @@ core
 version
 =
 "
-22
+24
 .
 0
 .
@@ -20961,7 +20932,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -20990,7 +20961,7 @@ chrono
 .
 4
 .
-6
+10
 (
 registry
 +
@@ -21011,33 +20982,6 @@ crates
 io
 -
 index
-)
-"
-"
-failure
-0
-.
-1
-.
-6
-(
-git
-+
-https
-:
-/
-/
-github
-.
-com
-/
-badboy
-/
-failure
-?
-rev
-=
-64af847bc5fdcb6d2438bec8a6030812a80519a5
 )
 "
 "
@@ -21106,7 +21050,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -21164,7 +21108,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -21222,7 +21166,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -21323,7 +21267,7 @@ version
 .
 0
 .
-4
+5
 "
 source
 =
@@ -21355,7 +21299,7 @@ dependencies
 glean
 -
 core
-22
+24
 .
 0
 .
@@ -21534,7 +21478,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -21945,7 +21889,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -23411,7 +23355,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -24726,7 +24670,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -25297,7 +25241,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -26644,7 +26588,7 @@ version
 .
 4
 .
-6
+8
 "
 source
 =
@@ -26757,7 +26701,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -26962,7 +26906,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -27298,7 +27242,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -28733,7 +28677,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -28945,7 +28889,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -29448,7 +29392,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -30065,7 +30009,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -30287,7 +30231,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -30424,7 +30368,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -31165,7 +31109,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -31194,7 +31138,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -31422,7 +31366,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -31480,7 +31424,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -31509,7 +31453,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -31870,7 +31814,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -32093,7 +32037,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -32263,7 +32207,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -32425,7 +32369,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -32791,7 +32735,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -32932,7 +32876,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -32994,7 +32938,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -33023,7 +32967,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -33133,7 +33077,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -33406,7 +33350,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -33615,7 +33559,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -36123,7 +36067,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -38095,7 +38039,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -38319,7 +38263,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -42113,7 +42057,7 @@ version
 .
 3
 .
-1
+3
 "
 source
 =
@@ -42234,11 +42178,11 @@ index
 "
 "
 thread_local
+1
+.
 0
 .
-3
-.
-6
+1
 (
 registry
 +
@@ -42388,7 +42332,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -42525,7 +42469,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -42732,7 +42676,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -42956,7 +42900,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -43465,7 +43409,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -43670,7 +43614,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -43699,7 +43643,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -43861,7 +43805,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -44066,7 +44010,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -44126,7 +44070,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -44155,7 +44099,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -44509,7 +44453,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -44590,7 +44534,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -45806,7 +45750,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -46170,7 +46114,7 @@ version
 .
 0
 .
-102
+104
 "
 source
 =
@@ -46204,7 +46148,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -46279,7 +46223,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -46320,7 +46264,7 @@ version
 .
 0
 .
-102
+104
 "
 source
 =
@@ -46547,7 +46491,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -46815,7 +46759,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -46981,7 +46925,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -48005,7 +47949,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -49142,7 +49086,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -49545,7 +49489,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -49582,7 +49526,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -50346,7 +50290,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -50575,7 +50519,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -52159,11 +52103,11 @@ thread_local
 version
 =
 "
+1
+.
 0
 .
-3
-.
-6
+1
 "
 source
 =
@@ -53888,7 +53832,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -54195,7 +54139,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -54769,7 +54713,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -55161,7 +55105,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -55476,7 +55420,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -55704,7 +55648,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -57213,7 +57157,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -57464,7 +57408,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -57582,7 +57526,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -57941,7 +57885,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -57970,7 +57914,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -57999,7 +57943,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -58256,7 +58200,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -58728,7 +58672,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -58906,7 +58850,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -59431,7 +59375,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -59489,7 +59433,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -59607,7 +59551,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -59874,7 +59818,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -60087,7 +60031,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -60193,7 +60137,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -60663,7 +60607,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -60866,7 +60810,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -61787,7 +61731,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -62819,7 +62763,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -63799,7 +63743,7 @@ bincode
 .
 2
 .
-0
+1
 (
 registry
 +
@@ -63824,7 +63768,7 @@ index
 "
 =
 "
-b8ab639324e3ee8774d296864fbc0dbbb256cf1a41c490b94cba90c082915f92
+5753e2a71534719bf3f4e57006c3a4f0d2c672a4b676eec84161f763eca87dbf
 "
 "
 checksum
@@ -64523,7 +64467,7 @@ chrono
 .
 4
 .
-6
+10
 (
 registry
 +
@@ -64548,7 +64492,7 @@ index
 "
 =
 "
-45912881121cb26fad7c38c17ba7daa18764771836b34fab7d3fbd93ed633878
+31850b4a4d6bae316f7a09e691c944c28299298837edc0a03f755618c23cbc01
 "
 "
 checksum
@@ -67777,7 +67721,7 @@ checksum
 glean
 -
 core
-22
+24
 .
 0
 .
@@ -67806,7 +67750,7 @@ index
 "
 =
 "
-37b55f71885fc523ac6327feb24e31bde57d9c5679b4553e942306adb44be408
+40afd759281422c5a9d17c5a2cfd6b703fbc6fea0ce1d82d09c4c53a4d98f4cf
 "
 "
 checksum
@@ -67817,7 +67761,7 @@ preview
 .
 0
 .
-4
+5
 (
 registry
 +
@@ -67842,7 +67786,7 @@ index
 "
 =
 "
-cb3bf34b889307680056e1493552dc6385becaea073ed99743a5e1a340ed2342
+182218f42395f369a1a5372d334699458a606aa557dd2e23998ba25704964e2c
 "
 "
 checksum
@@ -69099,7 +69043,7 @@ log
 .
 4
 .
-6
+8
 (
 registry
 +
@@ -69124,7 +69068,7 @@ index
 "
 =
 "
-c84ec4b527950aa83a329754b01dbe3f58361d1c5efacd1f6d68c494d08a17c6
+14b6052be84e6b71ab17edffc2eeabf5c2c3ae1fdb464aae35ac50c67a44e1f7
 "
 "
 checksum
@@ -72756,7 +72700,7 @@ regex
 .
 3
 .
-1
+3
 (
 registry
 +
@@ -72781,7 +72725,7 @@ index
 "
 =
 "
-dc220bd33bdce8f093101afe22a037b8eb0e5af33592e6a9caafff0d4cb81cbd
+b5508c1941e4e7cb19965abef075d35a9a8b5cdf0846f30b4050e9b55dc55e87
 "
 "
 checksum
@@ -73765,7 +73709,7 @@ serde
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -73790,7 +73734,7 @@ index
 "
 =
 "
-0c4b39bd9b0b087684013a792c59e3e07a46a01d2322518d8a1104641a0b1be0
+414115f25f818d7dfccec8ee535d76949ae78584fc4f79a6f45a904bf8ab4449
 "
 "
 checksum
@@ -73833,7 +73777,7 @@ serde_derive
 .
 0
 .
-102
+104
 (
 registry
 +
@@ -73858,7 +73802,7 @@ index
 "
 =
 "
-ca13fc1a832f793322228923fbb3aba9f3f44444898f835d31ad1b74fa0a2bf8
+128f9e303a5a29922045a830221b8f78ec74a5f544944f3d5984f8ec3895ef64
 "
 "
 checksum
@@ -75067,11 +75011,11 @@ index
 "
 checksum
 thread_local
+1
+.
 0
 .
-3
-.
-6
+1
 (
 registry
 +
@@ -75096,7 +75040,7 @@ index
 "
 =
 "
-c6b53e329000edc2b34dbe8545fd20e55a333362d0a321909685a19bd28c3f1b
+d40c6d1b69745a6ec6fb1ca717914848da4b44ae29d9b3080cbee91d72a69b14
 "
 "
 checksum

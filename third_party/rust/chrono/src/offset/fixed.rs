@@ -1,5 +1,5 @@
 use
-std
+core
 :
 :
 ops
@@ -11,7 +11,7 @@ Sub
 }
 ;
 use
-std
+core
 :
 :
 fmt
@@ -227,6 +227,10 @@ else
 None
 }
 }
+#
+[
+inline
+]
 pub
 fn
 local_minus_utc
@@ -242,6 +246,10 @@ self
 .
 local_minus_utc
 }
+#
+[
+inline
+]
 pub
 fn
 utc_minus_local

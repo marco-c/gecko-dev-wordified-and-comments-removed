@@ -82,7 +82,7 @@ send_if_empty
 }
 pub
 fn
-send
+submit
 (
 &
 self
@@ -100,7 +100,7 @@ bool
 {
 glean
 .
-send_ping
+submit_ping
 (
 self
 )

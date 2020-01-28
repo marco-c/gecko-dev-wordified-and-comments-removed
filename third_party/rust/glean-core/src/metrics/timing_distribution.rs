@@ -607,7 +607,7 @@ meta
 ErrorType
 :
 :
-InvalidValue
+InvalidOverflow
 msg
 None
 )
@@ -762,7 +762,7 @@ num_negative_samples
 ;
 let
 mut
-num_too_log_samples
+num_too_long_samples
 =
 0
 ;
@@ -864,7 +864,7 @@ sample
 >
 MAX_SAMPLE_TIME
 {
-num_too_log_samples
+num_too_long_samples
 +
 =
 1
@@ -931,7 +931,7 @@ num_negative_samples
 ;
 }
 if
-num_too_log_samples
+num_too_long_samples
 >
 0
 {
@@ -951,7 +951,7 @@ than
 10
 minutes
 "
-num_too_log_samples
+num_too_long_samples
 )
 ;
 record_error
@@ -964,9 +964,9 @@ meta
 ErrorType
 :
 :
-InvalidValue
+InvalidOverflow
 msg
-num_too_log_samples
+num_too_long_samples
 )
 ;
 }

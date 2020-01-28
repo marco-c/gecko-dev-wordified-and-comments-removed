@@ -122,7 +122,7 @@ version
 .
 0
 .
-102
+104
 "
 authors
 =
@@ -322,9 +322,12 @@ serde_derive
 version
 =
 "
+=
 1
 .
 0
+.
+104
 "
 optional
 =

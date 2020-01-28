@@ -360,7 +360,7 @@ glean
 ;
 glean
 .
-send_ping
+submit_ping
 (
 &
 ping

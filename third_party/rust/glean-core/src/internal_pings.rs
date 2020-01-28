@@ -96,7 +96,9 @@ PingType
 new
 (
 "
-deletion_request
+deletion
+-
+request
 "
 true
 true

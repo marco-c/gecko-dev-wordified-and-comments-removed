@@ -820,17 +820,15 @@ https
 :
 /
 /
-docs
+doc
 .
-rs
+rust
+-
+lang
+.
+org
 /
-time
-/
-0
-.
-1
-.
-40
+std
 /
 time
 /
@@ -961,8 +959,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1114,8 +1110,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1175,8 +1169,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1221,8 +1213,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1263,8 +1253,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1374,8 +1362,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1427,8 +1413,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -1474,8 +1458,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2030,8 +2012,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2059,8 +2039,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2096,6 +2074,10 @@ and
 time
 :
 rust
+extern
+crate
+time
+;
 use
 chrono
 :
@@ -2135,11 +2117,29 @@ returned
 let
 dt
 =
-Local
+FixedOffset
 :
 :
-now
+east
 (
+9
+*
+3600
+)
+.
+ymd
+(
+2014
+11
+28
+)
+.
+and_hms_nano
+(
+21
+45
+59
+324310806
 )
 ;
 /
@@ -2263,7 +2263,7 @@ Mon
 .
 .
 .
-Sat
+Sun
 =
 7
 assert_eq
@@ -2665,8 +2665,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2712,8 +2710,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2772,8 +2768,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -2805,8 +2799,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -3308,8 +3300,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -3389,8 +3379,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -3425,8 +3413,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -3471,8 +3457,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -3556,8 +3540,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4115,8 +4097,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4172,8 +4152,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4212,8 +4190,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4258,8 +4234,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4300,8 +4274,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4335,8 +4307,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4382,7 +4352,11 @@ use
 chrono
 :
 :
+{
+DateTime
 TimeZone
+Utc
+}
 ;
 /
 /
@@ -4507,8 +4481,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4724,8 +4696,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4771,8 +4741,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4840,8 +4808,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4874,8 +4840,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4909,8 +4873,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -4995,8 +4957,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -5036,8 +4996,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
@@ -5163,8 +5121,6 @@ chrono
 0
 .
 4
-.
-6
 /
 chrono
 /
