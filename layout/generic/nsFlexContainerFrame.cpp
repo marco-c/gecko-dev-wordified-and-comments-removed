@@ -7813,13 +7813,13 @@ mPosition
 }
 inline
 AxisOrientationType
-GetAxis
+GetPhysicalAxis
 (
 )
 const
 {
 return
-mAxis
+mPhysicalAxis
 ;
 }
 void
@@ -7839,7 +7839,7 @@ side
 =
 kAxisOrientationToSidesMap
 [
-mAxis
+mPhysicalAxis
 ]
 [
 eAxisEdge_Start
@@ -7873,7 +7873,7 @@ side
 =
 kAxisOrientationToSidesMap
 [
-mAxis
+mPhysicalAxis
 ]
 [
 eAxisEdge_End
@@ -7955,14 +7955,14 @@ protected
 PositionTracker
 (
 AxisOrientationType
-aAxis
+aPhysicalAxis
 bool
 aIsAxisReversed
 )
 :
-mAxis
+mPhysicalAxis
 (
-aAxis
+aPhysicalAxis
 )
 mIsAxisReversed
 (
@@ -7977,7 +7977,7 @@ mPosition
 ;
 const
 AxisOrientationType
-mAxis
+mPhysicalAxis
 =
 eAxis_LR
 ;
@@ -11039,7 +11039,7 @@ item
 >
 GetOuterMainSize
 (
-mAxis
+mPhysicalAxis
 )
 ;
 mNumAutoMarginsInMainAxis
@@ -11050,7 +11050,7 @@ item
 >
 GetNumAutoMarginsInAxis
 (
-mAxis
+mPhysicalAxis
 )
 ;
 }
@@ -11486,7 +11486,7 @@ side
 =
 kAxisOrientationToSidesMap
 [
-mAxis
+mPhysicalAxis
 ]
 [
 i
@@ -12935,7 +12935,7 @@ aItem
 .
 GetOuterCrossSize
 (
-mAxis
+mPhysicalAxis
 )
 ;
 if
@@ -12956,7 +12956,7 @@ aItem
 .
 GetNumAutoMarginsInAxis
 (
-mAxis
+mPhysicalAxis
 )
 ;
 if
@@ -13013,7 +13013,7 @@ side
 =
 kAxisOrientationToSidesMap
 [
-mAxis
+mPhysicalAxis
 ]
 [
 i
@@ -13116,7 +13116,7 @@ aItem
 .
 GetNumAutoMarginsInAxis
 (
-mAxis
+mPhysicalAxis
 )
 )
 {
@@ -13308,7 +13308,7 @@ aItem
 .
 GetOuterCrossSize
 (
-mAxis
+mPhysicalAxis
 )
 &
 &
@@ -13354,7 +13354,7 @@ aItem
 .
 GetOuterCrossSize
 (
-mAxis
+mPhysicalAxis
 )
 ;
 break
@@ -13376,7 +13376,7 @@ aItem
 .
 GetOuterCrossSize
 (
-mAxis
+mPhysicalAxis
 )
 )
 /
@@ -13495,7 +13495,7 @@ aItem
 .
 GetOuterCrossSize
 (
-mAxis
+mPhysicalAxis
 )
 ;
 mPosition
@@ -15622,7 +15622,7 @@ GetBorderPaddingSizeInAxis
 (
 mainAxisPosnTracker
 .
-GetAxis
+GetPhysicalAxis
 (
 )
 )
