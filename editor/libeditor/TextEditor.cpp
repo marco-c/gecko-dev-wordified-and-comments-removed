@@ -11322,8 +11322,10 @@ NS_ERROR_NOT_INITIALIZED
 }
 if
 (
+RefPtr
+<
 PresShell
-*
+>
 presShell
 =
 document
@@ -11334,6 +11336,9 @@ GetObservingPresShell
 )
 )
 {
+nsAutoScriptBlocker
+blockRunningScript
+;
 uint32_t
 valueLength
 =

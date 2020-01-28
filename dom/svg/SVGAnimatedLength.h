@@ -102,6 +102,9 @@ nsMathUtils
 h
 "
 class
+mozAutoDocUpdate
+;
+class
 nsIFrame
 ;
 namespace
@@ -881,6 +884,10 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 ;
 nsresult

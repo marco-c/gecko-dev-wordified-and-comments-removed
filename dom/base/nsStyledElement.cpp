@@ -316,6 +316,17 @@ aData
 {
 MOZ_ASSERT
 (
+!
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
+MOZ_ASSERT
+(
 OwnerDoc
 (
 )
