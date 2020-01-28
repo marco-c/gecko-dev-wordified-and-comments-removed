@@ -19724,11 +19724,6 @@ FunctionNode
 funbox
 (
 )
--
->
-function
-(
-)
 name
 )
 )
@@ -19933,9 +19928,9 @@ BytecodeEmitter
 :
 setFunName
 (
-JSFunction
+FunctionBox
 *
-fun
+funbox
 JSAtom
 *
 name
@@ -19979,7 +19974,7 @@ time
 .
 if
 (
-fun
+funbox
 -
 >
 hasInferredName
@@ -19989,7 +19984,7 @@ hasInferredName
 {
 MOZ_ASSERT
 (
-fun
+funbox
 -
 >
 isInterpretedLazy
@@ -19999,7 +19994,7 @@ isInterpretedLazy
 ;
 MOZ_ASSERT
 (
-fun
+funbox
 -
 >
 inferredName
@@ -20014,7 +20009,7 @@ return
 true
 ;
 }
-fun
+funbox
 -
 >
 setInferredName
@@ -56337,11 +56332,6 @@ ctor
 -
 >
 funbox
-(
-)
--
->
-function
 (
 )
 nameForAnonymousClass

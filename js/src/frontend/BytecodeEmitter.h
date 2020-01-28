@@ -3058,7 +3058,7 @@ MOZ_MUST_USE
 bool
 setFunName
 (
-JSFunction
+FunctionBox
 *
 fun
 JSAtom
