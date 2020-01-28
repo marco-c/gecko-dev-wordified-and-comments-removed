@@ -542,10 +542,6 @@ RequestRedirect
 :
 Follow
 )
-mAuthenticationFlag
-(
-false
-)
 mPreserveContentCodings
 (
 false
@@ -688,10 +684,6 @@ aRequestRedirect
 mIntegrity
 (
 aIntegrity
-)
-mAuthenticationFlag
-(
-false
 )
 mPreserveContentCodings
 (
@@ -843,12 +835,6 @@ mFragment
 aOther
 .
 mFragment
-)
-mAuthenticationFlag
-(
-aOther
-.
-mAuthenticationFlag
 )
 mPreserveContentCodings
 (
