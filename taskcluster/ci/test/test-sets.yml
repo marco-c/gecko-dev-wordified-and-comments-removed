@@ -287,6 +287,12 @@ platform
 -
 tests
 -
+web
+-
+platform
+-
+tests
+-
 crashtests
 -
 web
@@ -304,12 +310,6 @@ tests
 -
 1604
 :
--
-web
--
-platform
--
-tests
 -
 web
 -
