@@ -311,6 +311,7 @@ nsIPrefBranch
 aPrefBranch
 )
 ;
+static
 bool
 RequireThirdPartyCheck
 (
