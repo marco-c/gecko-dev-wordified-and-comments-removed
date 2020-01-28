@@ -140,17 +140,6 @@ aURI
 )
 ;
 static
-void
-NotifyChannelClassifierProtectionDisabled
-(
-nsIChannel
-*
-aChannel
-uint32_t
-aAcceptedReason
-)
-;
-static
 bool
 ShouldEnableClassifier
 (
