@@ -2,6 +2,10 @@ from
 datetime
 import
 datetime
+from
+six
+import
+ensure_str
 def
 main
 (
@@ -12,6 +16,8 @@ response
     
 last_event_id
 =
+ensure_str
+(
 request
 .
 headers
@@ -27,6 +33,7 @@ Id
 "
 "
 "
+)
 )
     
 ident

@@ -23,9 +23,26 @@ __file__
 path
 }
     
-execfile
+exec
+(
+compile
+(
+open
 (
 path
+"
+r
+"
+)
+.
+read
+(
+)
+path
+'
+exec
+'
+)
 environ
 environ
 )

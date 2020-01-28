@@ -2729,7 +2729,6 @@ self
 .
 add_handler
 (
-b
 "
 GET
 "

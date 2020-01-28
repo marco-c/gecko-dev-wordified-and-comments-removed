@@ -1,3 +1,7 @@
+from
+six
+import
+ensure_str
 def
 main
 (
@@ -28,6 +32,8 @@ stream
   
 last_event_id
 =
+ensure_str
+(
 request
 .
 headers
@@ -41,7 +47,9 @@ Event
 -
 ID
 "
-None
+"
+"
+)
 )
   
 if
