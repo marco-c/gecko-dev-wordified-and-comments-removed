@@ -5389,12 +5389,6 @@ AddBlocker
 p
 )
 ;
-nsAutoString
-remoteType
-(
-aRemoteType
-)
-;
 return
 launchPromise
 -
@@ -5408,7 +5402,6 @@ __func__
 [
 p
 recordReplayState
-remoteType
 launchPromise
 ]
 (
@@ -5439,7 +5432,12 @@ contentParents
 =
 GetOrCreatePool
 (
-remoteType
+p
+-
+>
+GetRemoteType
+(
+)
 )
 ;
 contentParents
