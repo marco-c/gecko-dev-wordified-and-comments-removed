@@ -156,7 +156,7 @@ undefined
 installPackage
 (
 "
-originAttributesUpgrade_profile
+version0_0_profile
 "
 )
 ;
