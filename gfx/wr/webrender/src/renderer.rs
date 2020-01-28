@@ -37661,7 +37661,7 @@ enable_aa
 true
 enable_dithering
 :
-true
+false
 debug_flags
 :
 DebugFlags
