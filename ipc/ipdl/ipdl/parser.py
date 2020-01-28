@@ -698,6 +698,10 @@ sync
 '
     
 '
+tainted
+'
+    
+'
 union
 '
     
@@ -3276,6 +3280,9 @@ MessageVerify
                         
 |
 MessageCompress
+                        
+|
+MessageTainted
 "
 "
 "
@@ -3331,6 +3338,32 @@ COMPRESS
                        
 |
 COMPRESSALL
+"
+"
+"
+    
+p
+[
+0
+]
+=
+p
+[
+1
+]
+def
+p_MessageTainted
+(
+p
+)
+:
+    
+"
+"
+"
+MessageTainted
+:
+TAINTED
 "
 "
 "
