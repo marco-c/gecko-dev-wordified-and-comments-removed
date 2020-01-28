@@ -140,9 +140,7 @@ UNSUPPORTED
 4
 _state
 :
-this
-.
-NOT_STARTED
+0
 init
 (
 )
