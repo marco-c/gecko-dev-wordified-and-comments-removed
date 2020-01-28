@@ -256,7 +256,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessSameThread
+SameProcessDifferentThread
 )
 ;
 mHolder

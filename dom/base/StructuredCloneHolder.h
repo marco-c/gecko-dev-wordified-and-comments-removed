@@ -126,7 +126,7 @@ aScope
 StructuredCloneScope
 :
 :
-SameProcessSameThread
+SameProcessDifferentThread
 )
 ;
 virtual

@@ -11,9 +11,6 @@ scope
 of
 [
 "
-SameProcessSameThread
-"
-"
 SameProcessDifferentThread
 "
 "
