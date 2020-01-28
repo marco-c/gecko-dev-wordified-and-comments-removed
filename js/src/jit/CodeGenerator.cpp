@@ -48140,7 +48140,10 @@ line
 object
 allocation
 for
-JSOP_NEWOBJECT
+JSOp
+:
+:
+NewObject
 .
 class
 OutOfLineNewObject
@@ -58905,7 +58908,10 @@ in
 reverse
 order
 for
-JSOP_LE
+JSOp
+:
+:
+Le
 :
 /
 /
@@ -58974,7 +58980,10 @@ in
 reverse
 order
 for
-JSOP_GT
+JSOp
+:
+:
+Gt
 :
 /
 /
