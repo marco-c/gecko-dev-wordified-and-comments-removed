@@ -538,6 +538,13 @@ Initialize
 (
 )
 ;
+CompositorBridgeParent
+:
+:
+InitializeStatics
+(
+)
+;
 }
 GPUProcessManager
 :
