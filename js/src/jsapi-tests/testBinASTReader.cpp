@@ -1799,6 +1799,7 @@ ScopeKind
 :
 :
 Global
+binParseInfo
 directives
 false
 )

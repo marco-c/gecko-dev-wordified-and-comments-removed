@@ -31965,6 +31965,7 @@ ScopeKind
 :
 :
 Global
+parseInfo
 directives
 false
 )
@@ -32621,6 +32622,7 @@ modulesc
 (
 cx
 module
+parseInfo
 nullptr
 builder
 )

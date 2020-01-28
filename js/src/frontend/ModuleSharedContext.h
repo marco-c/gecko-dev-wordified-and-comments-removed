@@ -121,6 +121,9 @@ cx
 ModuleObject
 *
 module
+ParseInfo
+&
+parseInfo
 Scope
 *
 enclosingScope

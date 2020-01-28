@@ -1417,6 +1417,9 @@ cx_
 traceListHead_
 fun
 0
+getParseInfo
+(
+)
 *
 directives
 false
