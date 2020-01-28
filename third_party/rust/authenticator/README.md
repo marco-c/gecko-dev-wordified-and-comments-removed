@@ -112,6 +112,7 @@ Platforms
 Windows
 Linux
 FreeBSD
+OpenBSD
 and
 macOS
 .
