@@ -2770,6 +2770,19 @@ skipHar
 '
 )
         
+if
+not
+matches
+(
+args
+"
+-
+-
+android
+"
+)
+:
+            
 specifies_binaryPath
 =
 matches
@@ -2782,7 +2795,7 @@ firefox
 .
 binaryPath
 '
-                                       
+                                           
 '
 -
 -
@@ -2797,7 +2810,7 @@ firefox
 .
 nightly
 '
-                                       
+                                           
 '
 -
 -
@@ -2813,12 +2826,12 @@ firefox
 developer
 '
 )
-        
+            
 if
 not
 specifies_binaryPath
 :
-            
+                
 specifies_binaryPath
 =
 extract_browser_name
@@ -2830,15 +2843,15 @@ args
 '
 chrome
 '
-        
+            
 if
 not
 specifies_binaryPath
 :
-            
+                
 try
 :
-                
+                    
 extra_args
 .
 extend
@@ -2858,11 +2871,11 @@ get_binary_path
 )
 )
 )
-            
+                
 except
 Exception
 :
-                
+                    
 print
 (
 '
@@ -2875,7 +2888,7 @@ mach
 build
 |
 '
-                      
+                          
 '
 or
 specify
@@ -2891,7 +2904,7 @@ binaryPath
 .
 '
 )
-                
+                    
 return
 1
         
