@@ -3,6 +3,11 @@ use
 strict
 "
 ;
+add_task
+(
+setup
+)
+;
 const
 {
 EnterprisePolicyTesting

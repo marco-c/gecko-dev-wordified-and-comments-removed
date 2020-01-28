@@ -5,6 +5,11 @@ strict
 ;
 add_task
 (
+setup
+)
+;
+add_task
+(
 async
 function
 testDirtyEnable
