@@ -221,6 +221,11 @@ mPlayingControlledMediaNum
 =
 0
 ;
+bool
+mShutdown
+=
+false
+;
 PlaybackState
 mState
 =
