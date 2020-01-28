@@ -4312,6 +4312,9 @@ bufferData
 (
 GLenum
 target
+[
+AllowShared
+]
 ArrayBuffer
 ?
 data
@@ -4324,6 +4327,9 @@ bufferData
 (
 GLenum
 target
+[
+AllowShared
+]
 ArrayBufferView
 data
 GLenum
@@ -4344,6 +4350,9 @@ GLenum
 target
 GLintptr
 offset
+[
+AllowShared
+]
 ArrayBuffer
 data
 )
@@ -4355,6 +4364,9 @@ GLenum
 target
 GLintptr
 offset
+[
+AllowShared
+]
 ArrayBufferView
 data
 )
@@ -4381,6 +4393,9 @@ GLsizei
 height
 GLint
 border
+[
+AllowShared
+]
 ArrayBufferView
 data
 )
@@ -4409,6 +4424,9 @@ GLsizei
 height
 GLenum
 format
+[
+AllowShared
+]
 ArrayBufferView
 data
 )
@@ -4439,6 +4457,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 pixels
@@ -4490,6 +4511,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 pixels
@@ -4663,6 +4687,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 pixels

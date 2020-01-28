@@ -1888,6 +1888,9 @@ bufferData
 (
 GLenum
 target
+[
+AllowShared
+]
 ArrayBuffer
 ?
 srcData
@@ -1900,6 +1903,9 @@ bufferData
 (
 GLenum
 target
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLenum
@@ -1913,6 +1919,9 @@ GLenum
 target
 GLintptr
 offset
+[
+AllowShared
+]
 ArrayBuffer
 srcData
 )
@@ -1924,6 +1933,9 @@ GLenum
 target
 GLintptr
 offset
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 )
@@ -1937,6 +1949,9 @@ bufferData
 (
 GLenum
 target
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLenum
@@ -1957,6 +1972,9 @@ GLenum
 target
 GLintptr
 dstByteOffset
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLuint
@@ -2030,6 +2048,9 @@ GLenum
 target
 GLintptr
 srcByteOffset
+[
+AllowShared
+]
 ArrayBufferView
 dstData
 optional
@@ -2243,6 +2264,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 pixels
@@ -2403,6 +2427,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 pixels
@@ -2767,6 +2794,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLuint
@@ -3004,6 +3034,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 srcData
@@ -3039,6 +3072,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLuint
@@ -3262,6 +3298,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 GLuint
@@ -3513,6 +3552,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 srcData
@@ -3582,6 +3624,9 @@ GLsizei
 height
 GLint
 border
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 optional
@@ -3636,6 +3681,9 @@ GLsizei
 depth
 GLint
 border
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 optional
@@ -3690,6 +3738,9 @@ GLsizei
 height
 GLenum
 format
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 optional
@@ -3752,6 +3803,9 @@ GLsizei
 depth
 GLenum
 format
+[
+AllowShared
+]
 ArrayBufferView
 srcData
 optional
@@ -4454,6 +4508,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 ?
 dstData
@@ -4529,6 +4586,9 @@ GLenum
 format
 GLenum
 type
+[
+AllowShared
+]
 ArrayBufferView
 dstData
 GLuint

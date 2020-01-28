@@ -136,6 +136,16 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+IsArrayBufferViewShared
+(
+JSObject
+*
+obj
+)
+;
 }
 #
 endif

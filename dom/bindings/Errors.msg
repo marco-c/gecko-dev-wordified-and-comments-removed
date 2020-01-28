@@ -1040,9 +1040,13 @@ can
 t
 be
 a
-typed
-array
-on
+SharedArrayBuffer
+or
+an
+ArrayBufferView
+backed
+by
+a
 SharedArrayBuffer
 "
 )
