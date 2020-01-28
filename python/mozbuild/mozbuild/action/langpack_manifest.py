@@ -3,6 +3,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 argparse
 import
@@ -1060,6 +1061,8 @@ chrome_entries
     
 locales
 =
+list
+(
 map
 (
 lambda
@@ -1076,6 +1079,7 @@ split
 (
 '
 '
+)
 )
 )
     
@@ -1460,11 +1464,6 @@ indent
 ensure_ascii
 =
 False
-encoding
-=
-'
-utf8
-'
 )
 def
 main
