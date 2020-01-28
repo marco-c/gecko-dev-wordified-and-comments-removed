@@ -66,6 +66,12 @@ SwapChain
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 public
 :
 }

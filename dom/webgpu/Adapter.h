@@ -99,9 +99,13 @@ Adapter
 =
 delete
 ;
-virtual
 ~
 Adapter
+(
+)
+;
+void
+Cleanup
 (
 )
 ;

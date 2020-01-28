@@ -197,6 +197,11 @@ language
 "
 C
 "
+style
+=
+"
+tag
+"
 [
 export
 ]
@@ -219,6 +224,15 @@ parse_deps
 =
 true
 include
+=
+[
+"
+wgpu
+-
+core
+"
+]
+extra_bindings
 =
 [
 "

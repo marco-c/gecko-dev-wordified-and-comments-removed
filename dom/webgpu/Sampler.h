@@ -63,6 +63,12 @@ Sampler
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

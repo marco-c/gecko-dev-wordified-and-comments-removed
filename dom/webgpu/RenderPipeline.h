@@ -63,6 +63,12 @@ RenderPipeline
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 }
 ;
 }

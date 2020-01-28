@@ -62,7 +62,6 @@ delete
 ;
 private
 :
-virtual
 ~
 RenderBundleEncoder
 (

@@ -74,6 +74,9 @@ D3D11
 "
 DXGI
 "
+"
+setupapi
+"
 )
 elseif
 (

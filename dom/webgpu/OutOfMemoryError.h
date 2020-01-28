@@ -70,6 +70,12 @@ OutOfMemoryError
 (
 )
 ;
+void
+Cleanup
+(
+)
+{
+}
 public
 :
 }
