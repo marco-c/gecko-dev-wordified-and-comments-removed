@@ -3376,11 +3376,11 @@ int32_t
 )
 int32_t
 *
-aPoint
+aInsertionPoint
 )
 {
 *
-aPoint
+aInsertionPoint
 =
 0
 ;
@@ -3509,7 +3509,7 @@ beginSearch
 ;
 }
 *
-aPoint
+aInsertionPoint
 =
 beginSearch
 ;
