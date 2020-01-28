@@ -1047,6 +1047,12 @@ StyleVisibility
 -
 >
 mDirection
+=
+=
+StyleDirection
+:
+:
+Rtl
 )
 ;
 mSqrChar

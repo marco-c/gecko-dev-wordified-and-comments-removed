@@ -9652,7 +9652,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 {
 PresContext
@@ -38126,7 +38129,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 ;
 if
@@ -58260,7 +58266,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 if
 (

@@ -1286,6 +1286,12 @@ StyleVisibility
 -
 >
 mDirection
+=
+=
+StyleDirection
+:
+:
+Rtl
 ;
 ApplyUnstretchedMetrics
 (

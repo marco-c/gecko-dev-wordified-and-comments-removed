@@ -15700,9 +15700,15 @@ GetBidiOptions
 =
 IBMBIDI_TEXTDIRECTION_RTL
 ?
-NS_STYLE_DIRECTION_RTL
+StyleDirection
 :
-NS_STYLE_DIRECTION_LTR
+:
+Rtl
+:
+StyleDirection
+:
+:
+Ltr
 )
 mVisible
 (

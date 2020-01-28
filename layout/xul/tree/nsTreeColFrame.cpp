@@ -404,7 +404,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 {
 bool

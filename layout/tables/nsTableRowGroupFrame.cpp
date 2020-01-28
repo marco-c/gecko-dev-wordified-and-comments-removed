@@ -8683,7 +8683,10 @@ GetDirection
 {
 return
 (
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 GetTableFrame
@@ -9244,7 +9247,10 @@ bool
 isRTL
 =
 (
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 table

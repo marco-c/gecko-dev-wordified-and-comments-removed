@@ -1891,7 +1891,7 @@ nullContainerSize
 )
 ;
 }
-uint8_t
+StyleDirection
 direction
 =
 aBlockFrame
@@ -1938,7 +1938,10 @@ sides_are_logical
 direction
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 ;
 const

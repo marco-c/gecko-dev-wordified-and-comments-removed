@@ -14207,7 +14207,7 @@ const
 nsSize
 &
 aScrollPortSize
-uint8_t
+StyleDirection
 aDirection
 )
 {
@@ -14251,7 +14251,10 @@ SetDirectionFromBidiLevel
 aDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ?
 1
 :

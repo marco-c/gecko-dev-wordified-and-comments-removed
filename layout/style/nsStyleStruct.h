@@ -5359,7 +5359,10 @@ mozilla
 StyleImageOrientation
 mImageOrientation
 ;
-uint8_t
+mozilla
+:
+:
+StyleDirection
 mDirection
 ;
 mozilla

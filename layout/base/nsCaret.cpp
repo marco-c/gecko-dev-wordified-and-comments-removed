@@ -4012,7 +4012,10 @@ StyleVisibility
 ;
 if
 (
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 vis

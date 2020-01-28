@@ -4587,7 +4587,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nscoord
 currX
@@ -6362,7 +6365,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nsPresContext
 *
@@ -14512,7 +14518,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nsRect
 cellRect
@@ -15393,7 +15402,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nscoord
 rightEdge
@@ -15848,7 +15860,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nscoord
 rightEdge
@@ -16476,7 +16491,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 ;
 nsAutoString
 text
@@ -17195,6 +17213,7 @@ checkboxRect
 .
 height
 )
+{
 imageSize
 .
 height
@@ -17203,6 +17222,7 @@ checkboxRect
 .
 height
 ;
+}
 if
 (
 imageSize
@@ -17213,6 +17233,7 @@ checkboxRect
 .
 width
 )
+{
 imageSize
 .
 width
@@ -17221,6 +17242,7 @@ checkboxRect
 .
 width
 ;
+}
 if
 (
 StyleVisibility
@@ -17231,8 +17253,12 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
+{
 checkboxRect
 .
 x
@@ -17243,6 +17269,7 @@ checkboxRect
 .
 width
 ;
+}
 ImgDrawResult
 result
 =

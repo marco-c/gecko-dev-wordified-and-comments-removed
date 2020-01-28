@@ -1185,7 +1185,6 @@ IsXULHorizontal
 {
 aIsNormal
 =
-(
 StyleVisibility
 (
 )
@@ -1194,8 +1193,10 @@ StyleVisibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_LTR
-)
+StyleDirection
+:
+:
+Ltr
 ;
 if
 (

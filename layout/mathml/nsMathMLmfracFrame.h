@@ -227,9 +227,6 @@ DisplaySlash
 nsDisplayListBuilder
 *
 aBuilder
-nsIFrame
-*
-aFrame
 const
 nsRect
 &

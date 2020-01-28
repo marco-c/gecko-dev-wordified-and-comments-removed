@@ -3122,7 +3122,10 @@ visibility
 mDirection
 =
 =
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 )
 ;
 if
@@ -16740,7 +16743,7 @@ IsAlignedLeft
 (
 uint8_t
 aAlignment
-uint8_t
+StyleDirection
 aDirection
 uint8_t
 aUnicodeBidi
@@ -16774,7 +16777,10 @@ NS_STYLE_TEXT_ALIGN_START
 aAlignment
 &
 &
-NS_STYLE_DIRECTION_LTR
+StyleDirection
+:
+:
+Ltr
 =
 =
 aDirection
@@ -16788,7 +16794,10 @@ NS_STYLE_TEXT_ALIGN_END
 aAlignment
 &
 &
-NS_STYLE_DIRECTION_RTL
+StyleDirection
+:
+:
+Rtl
 =
 =
 aDirection

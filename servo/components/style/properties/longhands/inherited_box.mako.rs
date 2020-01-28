@@ -356,9 +356,11 @@ propdef
 -
 direction
 "
-needs_conversion
+gecko_enum_prefix
 =
-True
+"
+StyleDirection
+"
 servo_restyle_damage
 =
 "

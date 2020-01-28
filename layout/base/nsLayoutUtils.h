@@ -1821,8 +1821,10 @@ const
 nsSize
 &
 aScrollPortSize
-uint8_t
-aDirection
+mozilla
+:
+:
+StyleDirection
 )
 ;
 static
