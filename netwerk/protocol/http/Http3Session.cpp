@@ -2735,7 +2735,6 @@ Http3Session
 :
 SetupTimer
 to
-0x
 %
 "
 PRIu64
