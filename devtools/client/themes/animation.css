@@ -1229,8 +1229,7 @@ column
 ;
 height
 :
-100
-%
+inherit
 ;
 padding
 -
@@ -1422,8 +1421,7 @@ column
 ;
 height
 :
-100
-%
+inherit
 ;
 padding
 -
@@ -2747,8 +2745,7 @@ flex
 ;
 height
 :
-100
-%
+inherit
 ;
 justify
 -
@@ -3047,8 +3044,7 @@ column
 ;
 height
 :
-100
-%
+inherit
 ;
 padding
 -
@@ -3953,11 +3949,11 @@ subgrid
 ;
 grid
 -
-template
+auto
 -
 rows
 :
-max
+min
 -
 content
 ;
