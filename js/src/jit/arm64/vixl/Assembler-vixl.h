@@ -1509,7 +1509,9 @@ CPURegister
 (
 r
 .
-code_
+encoding
+(
+)
 r
 .
 size
@@ -1544,7 +1546,9 @@ CPURegister
 (
 r
 .
-code_
+encoding
+(
+)
 size
 kVRegister
 )

@@ -277,7 +277,13 @@ ABIArg
 (
 FloatRegister
 (
+FloatRegisters
+:
+:
+Encoding
+(
 floatRegIndex_
+)
 type
 =
 =
