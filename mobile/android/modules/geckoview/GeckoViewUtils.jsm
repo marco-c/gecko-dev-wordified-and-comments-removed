@@ -313,8 +313,6 @@ GeckoViewUtils
 =
 {
 addLazyGetter
-:
-function
 (
 scope
 name
@@ -722,8 +720,6 @@ ged
 }
 }
 _addLazyListeners
-:
-function
 (
 events
 handler
@@ -859,8 +855,6 @@ listener
 }
 }
 addLazyEventListener
-:
-function
 (
 target
 events
@@ -985,8 +979,6 @@ args
 ;
 }
 registerLazyWindowEventListener
-:
-function
 (
 window
 events
@@ -1100,8 +1092,6 @@ args
 ;
 }
 addLazyPrefObserver
-:
-function
 (
 aPrefs
 {
@@ -1353,8 +1343,6 @@ args
 ;
 }
 getRootDocShell
-:
-function
 (
 aWin
 )
@@ -1412,8 +1400,6 @@ nsIInterfaceRequestor
 ;
 }
 getChromeWindow
-:
-function
 (
 aWin
 )
@@ -1438,8 +1424,6 @@ domWindow
 ;
 }
 getContentFrameMessageManager
-:
-function
 (
 aWin
 )
@@ -1471,8 +1455,6 @@ messageManager
 ;
 }
 getDispatcherForWindow
-:
-function
 (
 aWin
 )
@@ -1563,8 +1545,6 @@ null
 ;
 }
 getActiveDispatcherAndWindow
-:
-function
 (
 )
 {
@@ -1644,8 +1624,6 @@ null
 ;
 }
 initLogging
-:
-function
 (
 aTag
 aScope
@@ -1867,8 +1845,6 @@ _rootLogger
 ;
 }
 _log
-:
-function
 (
 aLogger
 aLevel

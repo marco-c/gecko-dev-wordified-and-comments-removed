@@ -17,8 +17,6 @@ APIS
 =
 {
 AddHistogram
-:
-function
 (
 {
 id
@@ -38,8 +36,6 @@ value
 ;
 }
 SetScalar
-:
-function
 (
 {
 id
@@ -59,8 +55,6 @@ value
 ;
 }
 GetRequestedLocales
-:
-function
 (
 )
 {
@@ -75,8 +69,6 @@ getRequestedLocales
 ;
 }
 GetLinkColor
-:
-function
 (
 {
 uri
@@ -97,8 +89,6 @@ selector
 ;
 }
 GetPrefs
-:
-function
 (
 {
 prefs
@@ -117,8 +107,6 @@ prefs
 ;
 }
 RemoveCertOverride
-:
-function
 (
 {
 host
@@ -138,8 +126,6 @@ port
 ;
 }
 RestorePrefs
-:
-function
 (
 {
 oldPrefs
@@ -158,8 +144,6 @@ oldPrefs
 ;
 }
 SetPrefs
-:
-function
 (
 {
 oldPrefs
@@ -180,8 +164,6 @@ newPrefs
 ;
 }
 SetResolutionAndScaleTo
-:
-function
 (
 {
 resolution

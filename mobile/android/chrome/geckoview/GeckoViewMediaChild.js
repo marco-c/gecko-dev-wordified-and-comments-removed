@@ -2417,8 +2417,6 @@ aElement
 .
 id
 code
-:
-code
 }
 )
 ;

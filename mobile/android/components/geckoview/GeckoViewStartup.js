@@ -254,8 +254,6 @@ nsIObserver
 ]
 )
 observe
-:
-function
 (
 aSubject
 aTopic

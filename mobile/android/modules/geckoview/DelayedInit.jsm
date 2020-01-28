@@ -65,8 +65,6 @@ DelayedInit
 =
 {
 schedule
-:
-function
 (
 fn
 object
@@ -87,8 +85,6 @@ maxWait
 ;
 }
 scheduleList
-:
-function
 (
 fns
 maxWait
@@ -130,8 +126,6 @@ pendingInits
 [
 ]
 onIdle
-:
-function
 (
 )
 {
@@ -273,8 +267,6 @@ time
 }
 }
 addPendingInit
-:
-function
 (
 fn
 wait
@@ -284,8 +276,6 @@ const
 init
 =
 {
-fn
-:
 fn
 due
 :
@@ -300,8 +290,6 @@ complete
 :
 false
 maybeInit
-:
-function
 (
 )
 {
@@ -383,8 +371,6 @@ init
 ;
 }
 scheduleInit
-:
-function
 (
 fn
 object
@@ -541,8 +527,6 @@ value
 ;
 }
 set
-:
-function
 (
 newVal
 )

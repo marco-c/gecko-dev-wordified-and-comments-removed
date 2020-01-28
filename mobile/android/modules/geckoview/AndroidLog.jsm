@@ -129,8 +129,6 @@ AndroidLog
 =
 {
 MAX_TAG_LENGTH
-:
-MAX_TAG_LENGTH
 v
 :
 (
@@ -222,16 +220,12 @@ tag
 msg
 )
 bind
-:
-function
 (
 tag
 )
 {
 return
 {
-MAX_TAG_LENGTH
-:
 MAX_TAG_LENGTH
 v
 :

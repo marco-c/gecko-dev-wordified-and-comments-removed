@@ -338,8 +338,6 @@ origin
 :
 key
 blockData
-:
-blockData
 }
 ;
 }
@@ -504,8 +502,6 @@ GeckoView
 :
 ContentBlockingEvent
 "
-uri
-:
 uri
 category
 :

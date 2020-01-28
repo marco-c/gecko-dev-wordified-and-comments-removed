@@ -161,8 +161,6 @@ prototype
 =
 {
 registerListener
-:
-function
 (
 aListener
 aEvents
@@ -203,8 +201,6 @@ aEvents
 ;
 }
 unregisterListener
-:
-function
 (
 aListener
 aEvents
@@ -245,8 +241,6 @@ aEvents
 ;
 }
 dispatch
-:
-function
 (
 aEvent
 aData
@@ -362,8 +356,6 @@ forwardData
 ;
 }
 sendRequest
-:
-function
 (
 aMsg
 aCallback
@@ -393,8 +385,6 @@ aCallback
 ;
 }
 sendRequestForResult
-:
-function
 (
 aMsg
 )
@@ -510,8 +500,6 @@ callback
 ;
 }
 finalize
-:
-function
 (
 )
 {
@@ -587,8 +575,6 @@ clear
 ;
 }
 receiveMessage
-:
-function
 (
 aMsg
 )
@@ -770,8 +756,6 @@ androidBridge
 undefined
 )
 for
-:
-function
 (
 aWindow
 )
@@ -880,8 +864,6 @@ view
 ;
 }
 forMessageManager
-:
-function
 (
 aMessageManager
 )
@@ -896,8 +878,6 @@ aMessageManager
 ;
 }
 receiveMessage
-:
-function
 (
 aMsg
 )

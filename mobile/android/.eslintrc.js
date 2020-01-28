@@ -38,15 +38,6 @@ redeclare
 "
 off
 "
-"
-object
--
-shorthand
-"
-:
-"
-off
-"
 }
 "
 overrides

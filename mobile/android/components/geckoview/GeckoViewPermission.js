@@ -177,8 +177,6 @@ _appPermissions
 {
 }
 observe
-:
-function
 (
 aSubject
 aTopic
@@ -315,8 +313,6 @@ break
 }
 }
 handleMediaAskDevicePermission
-:
-function
 (
 aType
 aCallback
@@ -451,8 +447,6 @@ callback
 }
 }
 handleMediaRequest
-:
-function
 (
 aRequest
 )
@@ -1017,8 +1011,6 @@ denyRequest
 ;
 }
 handlePeerConnectionRequest
-:
-function
 (
 aRequest
 )
@@ -1044,8 +1036,6 @@ callID
 ;
 }
 checkAppPermissions
-:
-function
 (
 aPerms
 )
@@ -1068,8 +1058,6 @@ perm
 ;
 }
 getAppPermissions
-:
-function
 (
 aDispatcher
 aPerms
@@ -1125,8 +1113,6 @@ GeckoView
 AndroidPermission
 "
 perms
-:
-perms
 }
 )
 .
@@ -1168,8 +1154,6 @@ granted
 ;
 }
 prompt
-:
-function
 (
 aRequest
 )
