@@ -143,10 +143,10 @@ fuzzy
 if
 (
 gtkWidget
-0
+255
 -
 255
-0
+46
 -
 46
 )
@@ -165,6 +165,7 @@ ref
 .
 html
 #
+gtkWidget
 Bug
 1600777
 !

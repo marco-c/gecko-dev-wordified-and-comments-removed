@@ -148,10 +148,10 @@ fuzzy
 if
 (
 gtkWidget
-0
+24
 -
 24
-0
+16
 -
 16
 )
@@ -174,10 +174,9 @@ ref
 .
 html
 #
-bug
-1599622
-for
 gtkWidget
+Bug
+1599622
 fails
 -
 if
