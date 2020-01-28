@@ -1035,10 +1035,6 @@ custom_properties
 (
 )
 device
-.
-environment
-(
-)
 )
 ;
 for
@@ -1795,10 +1791,6 @@ self
 context
 .
 device
-(
-)
-.
-environment
 (
 )
 )

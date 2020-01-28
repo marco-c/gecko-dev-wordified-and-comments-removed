@@ -10980,15 +10980,10 @@ CustomPropertiesMap
 quirks_mode
 :
 QuirksMode
-environment
+device
 :
 &
-:
-:
-custom_properties
-:
-:
-CssEnvironment
+Device
 )
 -
 >
@@ -11058,7 +11053,7 @@ self
 .
 first_token_type
 custom_properties
-environment
+device
 )
 {
 Ok
