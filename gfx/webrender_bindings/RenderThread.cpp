@@ -2609,14 +2609,6 @@ mCompositionRecorders
 end
 (
 )
-&
-&
-renderer
--
->
-EnsureAsyncScreenshot
-(
-)
 )
 {
 recorderIt

@@ -70,9 +70,9 @@ RendererScreenshotGrabber
 void
 MaybeGrabScreenshot
 (
-RendererOGL
+Renderer
 *
-aRendererOGL
+aRenderer
 const
 gfx
 :
@@ -85,7 +85,7 @@ aWindowSize
 void
 MaybeProcessQueue
 (
-RendererOGL
+Renderer
 *
 aRenderer
 )
