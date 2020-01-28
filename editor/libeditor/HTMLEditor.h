@@ -6249,6 +6249,14 @@ nsAString
 aValue
 )
 ;
+enum
+class
+RemoveRelatedElements
+{
+Yes
+No
+}
+;
 MOZ_CAN_RUN_SCRIPT
 MOZ_MUST_USE
 nsresult
@@ -6260,6 +6268,8 @@ aProperty
 nsAtom
 *
 aAttribute
+RemoveRelatedElements
+aRemoveRelatedElements
 )
 ;
 MOZ_CAN_RUN_SCRIPT
