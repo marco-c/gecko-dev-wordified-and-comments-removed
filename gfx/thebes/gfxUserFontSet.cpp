@@ -3350,8 +3350,10 @@ LogMessage
 (
 this
 "
-download
 failed
+to
+start
+download
 "
 nsIScriptError
 :
