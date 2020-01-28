@@ -2313,6 +2313,7 @@ aContent
 bool
 aSelected
 )
+const
 ;
 nsresult
 SelectAllFramesForContent
@@ -2326,6 +2327,7 @@ aContent
 bool
 aSelected
 )
+const
 ;
 nsresult
 SelectFrames
