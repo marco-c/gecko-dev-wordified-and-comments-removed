@@ -85,6 +85,12 @@ u64
 u16
 )
 ;
+pub
+type
+ItemKey
+=
+u16
+;
 bitflags
 !
 {
@@ -292,6 +298,13 @@ pub
 flags
 :
 PrimitiveFlags
+pub
+item_key
+:
+Option
+<
+ItemKey
+>
 }
 impl
 CommonItemProperties
@@ -335,6 +348,9 @@ PrimitiveFlags
 default
 (
 )
+item_key
+:
+None
 }
 }
 }
