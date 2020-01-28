@@ -7405,7 +7405,8 @@ AUTO_PROFILER_TRACING_DOCSHELL
 Paint
 "
 "
-Scripts
+requestAnimationFrame
+callbacks
 "
 GRAPHICS
 GetDocShell
