@@ -887,7 +887,10 @@ IsScrollbarOnRight
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 aMargin
 .

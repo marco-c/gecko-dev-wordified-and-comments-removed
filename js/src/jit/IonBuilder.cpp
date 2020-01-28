@@ -21992,10 +21992,10 @@ op
 )
 )
 {
-mozilla
+std
 :
 :
-Swap
+swap
 (
 target1
 target2

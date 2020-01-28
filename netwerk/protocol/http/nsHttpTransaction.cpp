@@ -11732,7 +11732,10 @@ GetLock
 )
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 mForTakeResponseTrailers
 httpTrailers

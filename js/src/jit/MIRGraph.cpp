@@ -72,12 +72,6 @@ js
 :
 jit
 ;
-using
-mozilla
-:
-:
-Swap
-;
 MIRGenerator
 :
 :
@@ -6630,7 +6624,10 @@ break
 ;
 }
 }
-Swap
+std
+:
+:
+swap
 (
 predecessors_
 [

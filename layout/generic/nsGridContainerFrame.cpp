@@ -11616,10 +11616,10 @@ map
 mIsSameDirection
 )
 ;
-mozilla
+std
 :
 :
-Swap
+swap
 (
 min
 max
@@ -20028,7 +20028,10 @@ transposed
 as
 well
 .
-Swap
+std
+:
+:
+swap
 (
 isSameDirInAxis
 isSameDirInOppositeAxis
@@ -29084,7 +29087,10 @@ r
 second
 )
 {
-Swap
+std
+:
+:
+swap
 (
 r
 .

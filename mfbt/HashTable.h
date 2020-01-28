@@ -3510,6 +3510,12 @@ bool
 aIsLive
 )
 {
+using
+std
+:
+:
+swap
+;
 if
 (
 this
@@ -3526,7 +3532,7 @@ if
 aIsLive
 )
 {
-Swap
+swap
 (
 *
 valuePtr
@@ -3822,7 +3828,10 @@ isLive
 )
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 *
 mKeyHash

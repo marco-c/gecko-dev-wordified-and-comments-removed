@@ -1153,10 +1153,10 @@ lock
 mutex_
 )
 ;
-mozilla
+std
 :
 :
-Swap
+swap
 (
 dispatchQueue
 internalDispatchQueue_

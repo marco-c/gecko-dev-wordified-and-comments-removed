@@ -2347,7 +2347,10 @@ lock
 mMutex
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 plugins
 mPlugins

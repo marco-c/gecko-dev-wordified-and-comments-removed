@@ -90,12 +90,6 @@ using
 mozilla
 :
 :
-Swap
-;
-using
-mozilla
-:
-:
 UniqueFreePtr
 ;
 using
@@ -581,7 +575,10 @@ get
 p1
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 n1
 n2
@@ -2566,7 +2563,10 @@ get
 p1
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 n1
 n2

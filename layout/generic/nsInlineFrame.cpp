@@ -597,7 +597,10 @@ IsBidiRTL
 )
 )
 {
-Swap
+std
+:
+:
+swap
 (
 haveStart
 haveEnd

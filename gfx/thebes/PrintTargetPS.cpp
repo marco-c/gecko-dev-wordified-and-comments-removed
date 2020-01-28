@@ -203,7 +203,10 @@ aOrientation
 LANDSCAPE
 )
 {
-Swap
+std
+:
+:
+swap
 (
 aSizeInPoints
 .

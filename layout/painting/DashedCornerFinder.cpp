@@ -261,7 +261,10 @@ aBorderWidthH
 aBorderWidthV
 )
 {
-Swap
+std
+:
+:
+swap
 (
 mInnerBezier
 .
@@ -277,7 +280,10 @@ mPoints
 ]
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 mInnerBezier
 .
@@ -293,7 +299,10 @@ mPoints
 ]
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 mOuterBezier
 .
@@ -309,7 +318,10 @@ mPoints
 ]
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 mOuterBezier
 .

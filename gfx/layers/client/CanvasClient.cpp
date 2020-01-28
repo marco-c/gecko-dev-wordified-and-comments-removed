@@ -1134,7 +1134,10 @@ uint8_t
 pixel
 )
 {
-Swap
+std
+:
+:
+swap
 (
 pixel
 [

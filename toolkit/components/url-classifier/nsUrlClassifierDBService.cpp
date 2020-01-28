@@ -10797,7 +10797,10 @@ backgroundThread
 =
 nullptr
 ;
-Swap
+std
+:
+:
+swap
 (
 backgroundThread
 gDbBackgroundThread

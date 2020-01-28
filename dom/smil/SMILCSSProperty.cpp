@@ -175,7 +175,10 @@ SMILCSSValueType
 sSingleton
 )
 ;
-Swap
+std
+:
+:
+swap
 (
 baseValue
 tmpVal
