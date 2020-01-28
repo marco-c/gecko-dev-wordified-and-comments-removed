@@ -40875,6 +40875,9 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
+Document
+*
+aDocument
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -40890,10 +40893,13 @@ dom_allow_cut_copy
 )
 &
 &
-UserActivation
-:
-:
-IsHandlingUserInput
+aDocument
+&
+&
+aDocument
+-
+>
+HasValidTransientUserGestureActivation
 (
 )
 )

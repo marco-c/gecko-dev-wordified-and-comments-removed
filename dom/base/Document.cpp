@@ -28480,6 +28480,7 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
+this
 aSubjectPrincipal
 )
 )
@@ -30123,6 +30124,7 @@ nsContentUtils
 :
 IsCutCopyAllowed
 (
+this
 aSubjectPrincipal
 )
 ;
