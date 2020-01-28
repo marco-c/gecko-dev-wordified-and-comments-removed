@@ -902,6 +902,12 @@ TouchList
 class
 TreeWalker
 ;
+enum
+class
+ViewportFitType
+:
+uint8_t
+;
 class
 XPathEvaluator
 ;
@@ -13803,6 +13809,9 @@ NoValidContent
 ;
 ViewportType
 mViewportType
+;
+ViewportFitType
+mViewportFit
 ;
 PLDHashTable
 *

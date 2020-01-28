@@ -274,6 +274,13 @@ viewportSize
 mAutoSizeFlag
 mAutoScaleFlag
 mZoomFlag
+dom
+:
+:
+ViewportFitType
+:
+:
+Auto
 )
 ;
 }
