@@ -345,11 +345,11 @@ kNameSpaceID_None
 nsGkAtoms
 :
 :
-role
+aria_hidden
 NS_LITERAL_STRING
 (
 "
-button
+true
 "
 )
 false
