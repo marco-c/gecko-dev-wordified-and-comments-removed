@@ -11345,7 +11345,6 @@ mFrameConstructor
 ContentInserted
 (
 root
-nullptr
 nsCSSFrameConstructor
 :
 :
@@ -27919,7 +27918,6 @@ mFrameConstructor
 ContentInserted
 (
 aChild
-nullptr
 nsCSSFrameConstructor
 :
 :

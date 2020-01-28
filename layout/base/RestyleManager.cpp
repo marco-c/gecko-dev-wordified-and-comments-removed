@@ -6504,7 +6504,6 @@ ContentRangeInserted
 (
 start
 end
-nullptr
 nsCSSFrameConstructor
 :
 :
