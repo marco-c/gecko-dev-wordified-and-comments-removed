@@ -25,16 +25,6 @@ MediaDrmCDMCallbackProxy
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-java
-:
-:
-sdk
-;
 namespace
 mozilla
 {
