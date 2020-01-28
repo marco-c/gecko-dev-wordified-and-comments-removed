@@ -30238,7 +30238,7 @@ nsGlobalWindowInner
 SetCursor
 (
 const
-nsAString
+nsACString
 &
 aCursor
 ErrorResult

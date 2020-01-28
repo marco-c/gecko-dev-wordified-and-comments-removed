@@ -3547,7 +3547,7 @@ IsPrivilegedChromeWindow
 void
 setCursor
 (
-DOMString
+UTF8String
 cursor
 )
 ;

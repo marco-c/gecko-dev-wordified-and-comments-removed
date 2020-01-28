@@ -5398,7 +5398,7 @@ void
 SetCursor
 (
 const
-nsAString
+nsACString
 &
 aCursor
 mozilla
