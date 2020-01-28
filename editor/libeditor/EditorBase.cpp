@@ -10130,6 +10130,7 @@ nsContentUtils
 DispatchInputEvent
 (
 targetElement
+eEditorInput
 ToInputType
 (
 aEditAction
