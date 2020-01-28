@@ -1699,6 +1699,14 @@ WebRender
 standalone
 '
 '
+Wgpu
+'
+:
+'
+WebGPU
+standalone
+'
+'
 Gd
 '
 :
