@@ -5,6 +5,9 @@ mozilla_dom_DOMSecurityMonitor_h
 define
 mozilla_dom_DOMSecurityMonitor_h
 class
+nsIChannel
+;
+class
 nsIPrincipal
 ;
 class
@@ -24,6 +27,15 @@ const
 nsAString
 &
 aFragment
+)
+;
+static
+void
+AuditUseOfJavaScriptURI
+(
+nsIChannel
+*
+aChannel
 )
 ;
 private
