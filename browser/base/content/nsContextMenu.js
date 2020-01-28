@@ -6780,7 +6780,11 @@ true
 false
 referrerInfo
 null
-null
+"
+image
+/
+jpeg
+"
 null
 isPrivate
 this
@@ -7869,7 +7873,11 @@ true
 false
 referrerInfo
 null
-null
+"
+image
+/
+png
+"
 null
 isPrivate
 document

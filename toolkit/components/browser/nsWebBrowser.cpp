@@ -2961,6 +2961,8 @@ aExtraHeaders
 nsISupports
 *
 aFile
+nsContentPolicyType
+aContentPolicyType
 nsILoadContext
 *
 aPrivacyContext
@@ -2976,6 +2978,7 @@ aReferrerInfo
 aPostData
 aExtraHeaders
 aFile
+aContentPolicyType
 aPrivacyContext
 &
 &
@@ -3015,6 +3018,8 @@ aExtraHeaders
 nsISupports
 *
 aFile
+nsContentPolicyType
+aContentPolicyType
 bool
 aIsPrivate
 )
@@ -3155,6 +3160,7 @@ aReferrerInfo
 aPostData
 aExtraHeaders
 aFile
+aContentPolicyType
 aIsPrivate
 )
 ;

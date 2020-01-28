@@ -218,7 +218,11 @@ true
 false
 null
 null
-null
+"
+image
+/
+jpeg
+"
 null
 false
 gBrowser
@@ -466,7 +470,11 @@ true
 false
 null
 doc
-null
+"
+image
+/
+jpeg
+"
 null
 )
 ;
