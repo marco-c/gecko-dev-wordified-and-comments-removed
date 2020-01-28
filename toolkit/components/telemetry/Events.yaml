@@ -4655,14 +4655,6 @@ products
 "
 firefox
 "
--
-"
-fennec
-"
--
-"
-geckoview
-"
 record_in_processes
 :
 [
@@ -4690,6 +4682,7 @@ bug_numbers
 [
 1524665
 1585459
+1606203
 ]
 notification_emails
 :
@@ -4710,7 +4703,7 @@ com
 expiry_version
 :
 "
-74
+never
 "
 extra_keys
 :
@@ -4815,14 +4808,6 @@ products
 "
 firefox
 "
--
-"
-fennec
-"
--
-"
-geckoview
-"
 record_in_processes
 :
 [
@@ -4852,6 +4837,7 @@ bug_numbers
 :
 [
 1542334
+1606203
 ]
 notification_emails
 :
@@ -4872,7 +4858,7 @@ com
 expiry_version
 :
 "
-73
+never
 "
 extra_keys
 :
