@@ -143,11 +143,6 @@ TestServerTimingHeader
 cpp
 '
 '
-TestSocketTransportService
-.
-cpp
-'
-'
 TestStandardURL
 .
 cpp
