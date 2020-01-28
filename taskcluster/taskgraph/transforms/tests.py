@@ -9410,12 +9410,6 @@ marionette
 '
 mochitest
 -
-a11y
-'
-    
-'
-mochitest
--
 browser
 -
 chrome
@@ -9447,12 +9441,6 @@ mochitest
 devtools
 -
 webreplay
-'
-    
-'
-mochitest
--
-plain
 '
     
 '
