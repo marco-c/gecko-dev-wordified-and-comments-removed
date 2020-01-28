@@ -9,7 +9,8 @@ Policy
 same
 -
 origin
+unsafe
 -
 allow
 -
-popups
+outgoing

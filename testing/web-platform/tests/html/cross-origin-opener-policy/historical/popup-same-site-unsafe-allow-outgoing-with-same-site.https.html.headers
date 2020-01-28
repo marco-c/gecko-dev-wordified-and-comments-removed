@@ -8,8 +8,9 @@ Policy
 :
 same
 -
-origin
+site
+unsafe
 -
 allow
 -
-popups
+outgoing

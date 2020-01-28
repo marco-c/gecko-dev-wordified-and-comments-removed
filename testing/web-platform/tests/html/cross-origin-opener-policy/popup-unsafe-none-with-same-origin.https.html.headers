@@ -6,10 +6,6 @@ Opener
 -
 Policy
 :
-same
+unsafe
 -
-origin
--
-allow
--
-popups
+none
