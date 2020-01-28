@@ -1,5 +1,5 @@
 use
-spirv_cross
+spirv_cross_internal
 :
 :
 {
@@ -263,7 +263,7 @@ ast_compiles_all_versions_to_glsl
 )
 {
 use
-spirv_cross
+spirv_cross_internal
 :
 :
 glsl

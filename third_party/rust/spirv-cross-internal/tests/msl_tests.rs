@@ -1,5 +1,5 @@
 use
-spirv_cross
+spirv_cross_internal
 :
 :
 {
@@ -1639,9 +1639,6 @@ resource_binding_overrides
 .
 insert
 (
-spirv_cross
-:
-:
 msl
 :
 :
@@ -1666,9 +1663,6 @@ msl
 :
 ARGUMENT_BUFFER_BINDING
 }
-spirv_cross
-:
-:
 msl
 :
 :
@@ -1696,9 +1690,6 @@ CompilerOptions
 {
 resource_binding_overrides
 version
-:
-spirv_cross
-:
 :
 msl
 :

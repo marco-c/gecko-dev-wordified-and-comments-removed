@@ -1,5 +1,5 @@
 use
-spirv_cross
+spirv_cross_internal
 :
 :
 {
