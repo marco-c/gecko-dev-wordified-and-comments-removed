@@ -752,6 +752,10 @@ in
 unsigned
 long
 aContentPolicyType
+in
+unsigned
+long
+aSandboxFlags
 out
 nsIChannel
 aResult
