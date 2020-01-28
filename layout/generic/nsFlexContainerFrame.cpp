@@ -3255,7 +3255,7 @@ aMainGapSize
 {
 }
 nscoord
-GetSumOfGaps
+SumOfGaps
 (
 )
 const
@@ -3277,7 +3277,7 @@ mMainGapSize
 ;
 }
 nscoord
-GetTotalOuterHypotheticalMainSize
+TotalOuterHypotheticalMainSize
 (
 )
 const
@@ -3615,7 +3615,7 @@ aAxisTracker
 )
 ;
 nscoord
-GetLineCrossSize
+LineCrossSize
 (
 )
 const
@@ -3637,7 +3637,7 @@ aLineCrossSize
 ;
 }
 nscoord
-GetFirstBaselineOffset
+FirstBaselineOffset
 (
 )
 const
@@ -3647,7 +3647,7 @@ mFirstBaselineOffset
 ;
 }
 nscoord
-GetLastBaselineOffset
+LastBaselineOffset
 (
 )
 const
@@ -3656,18 +3656,8 @@ return
 mLastBaselineOffset
 ;
 }
-uint32_t
-GetNumItems
-(
-)
-const
-{
-return
-mNumItems
-;
-}
 nscoord
-GetMainGapSize
+MainGapSize
 (
 )
 const
@@ -3969,7 +3959,7 @@ itemIdxInContainer
 line
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 )
@@ -8194,7 +8184,7 @@ mPosition
 =
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 ;
@@ -9785,7 +9775,7 @@ aFlexContainerMainSize
 (
 mTotalItemMBP
 +
-GetSumOfGaps
+SumOfGaps
 (
 )
 )
@@ -11095,7 +11085,7 @@ mPackingSpaceRemaining
 aLine
 -
 >
-GetSumOfGaps
+SumOfGaps
 (
 )
 ;
@@ -11850,7 +11840,7 @@ NS_CSS_MINMAX
 aFirstLine
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 aReflowInput
@@ -11902,7 +11892,7 @@ mPackingSpaceRemaining
 line
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 ;
@@ -12321,7 +12311,7 @@ newSize
 line
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 +
@@ -12938,7 +12928,7 @@ spaceForAutoMargins
 =
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 -
@@ -13295,7 +13285,7 @@ if
 (
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 <
@@ -13340,7 +13330,7 @@ mPosition
 =
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 -
@@ -13361,7 +13351,7 @@ mPosition
 (
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 -
@@ -13441,13 +13431,13 @@ useFirst
 ?
 aLine
 .
-GetFirstBaselineOffset
+FirstBaselineOffset
 (
 )
 :
 aLine
 .
-GetLastBaselineOffset
+LastBaselineOffset
 (
 )
 ;
@@ -13491,7 +13481,7 @@ mPosition
 =
 aLine
 .
-GetLineCrossSize
+LineCrossSize
 (
 )
 -
@@ -14643,7 +14633,7 @@ AddChecked
 curLine
 -
 >
-GetTotalOuterHypotheticalMainSize
+TotalOuterHypotheticalMainSize
 (
 )
 itemOuterHypotheticalMainSize
@@ -14862,7 +14852,7 @@ largestLineOuterSize
 line
 -
 >
-GetTotalOuterHypotheticalMainSize
+TotalOuterHypotheticalMainSize
 (
 )
 )
@@ -17133,7 +17123,7 @@ mCrossSize
 line
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 ;
@@ -17144,7 +17134,7 @@ mFirstBaselineOffset
 line
 -
 >
-GetFirstBaselineOffset
+FirstBaselineOffset
 (
 )
 ;
@@ -17155,7 +17145,7 @@ mLastBaselineOffset
 line
 -
 >
-GetLastBaselineOffset
+LastBaselineOffset
 (
 )
 ;
@@ -18302,7 +18292,7 @@ sumLineCrossSizes
 line
 -
 >
-GetLineCrossSize
+LineCrossSize
 (
 )
 ;
@@ -18421,7 +18411,7 @@ getFirst
 )
 -
 >
-GetFirstBaselineOffset
+FirstBaselineOffset
 (
 )
 ;
@@ -18742,7 +18732,7 @@ getLast
 )
 -
 >
-GetFirstBaselineOffset
+FirstBaselineOffset
 (
 )
 ;
@@ -19501,7 +19491,7 @@ getLast
 )
 -
 >
-GetLastBaselineOffset
+LastBaselineOffset
 (
 )
 ;
