@@ -536,7 +536,7 @@ MediaController
 *
 controller
 =
-GetControllerById
+GetActiveControllerById
 (
 aId
 )
@@ -565,7 +565,7 @@ MediaController
 MediaControlService
 :
 :
-GetControllerById
+GetActiveControllerById
 (
 uint64_t
 aId
@@ -591,7 +591,7 @@ void
 MediaControlService
 :
 :
-AddMediaController
+RegisterActiveMediaController
 (
 MediaController
 *
@@ -602,7 +602,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mControllerManager
 "
-Add
+Register
 controller
 before
 initializing
@@ -621,7 +621,7 @@ aController
 LOG
 (
 "
-Add
+Register
 media
 controller
 %
@@ -639,7 +639,7 @@ aController
 Id
 (
 )
-GetControllersNum
+GetActiveControllersNum
 (
 )
 )
@@ -648,7 +648,7 @@ mMediaControllerAmountChangedEvent
 .
 Notify
 (
-GetControllersNum
+GetActiveControllersNum
 (
 )
 )
@@ -658,7 +658,7 @@ void
 MediaControlService
 :
 :
-RemoveMediaController
+UnregisterActiveMediaController
 (
 MediaController
 *
@@ -669,7 +669,7 @@ MOZ_DIAGNOSTIC_ASSERT
 (
 mControllerManager
 "
-Remove
+Unregister
 controller
 before
 initializing
@@ -688,7 +688,7 @@ aController
 LOG
 (
 "
-Remove
+Unregister
 media
 controller
 %
@@ -706,7 +706,7 @@ aController
 Id
 (
 )
-GetControllersNum
+GetActiveControllersNum
 (
 )
 )
@@ -715,7 +715,7 @@ mMediaControllerAmountChangedEvent
 .
 Notify
 (
-GetControllersNum
+GetActiveControllersNum
 (
 )
 )
@@ -725,7 +725,7 @@ uint64_t
 MediaControlService
 :
 :
-GetControllersNum
+GetActiveControllersNum
 (
 )
 const

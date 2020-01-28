@@ -256,7 +256,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -292,7 +292,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
@@ -316,7 +316,7 @@ ASSERT_TRUE
 service
 -
 >
-GetControllersNum
+GetActiveControllersNum
 (
 )
 =
