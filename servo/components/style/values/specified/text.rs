@@ -818,7 +818,7 @@ size
 ;
 computed_calc
 .
-percentage_relative_to
+resolve
 (
 base
 )

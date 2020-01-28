@@ -1814,8 +1814,14 @@ Ok
 (
 self
 .
-length_component
+resolve
 (
+Zero
+:
+:
+zero
+(
+)
 )
 .
 px
