@@ -64,6 +64,11 @@ parsers
 DevToolsModules
 (
 '
+cbor
+.
+js
+'
+'
 FrameFilterMenu
 .
 js
@@ -125,6 +130,11 @@ js
 '
 '
 FramePayload
+.
+js
+'
+'
+msgpack
 .
 js
 '
