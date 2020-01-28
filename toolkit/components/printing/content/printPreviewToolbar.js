@@ -320,15 +320,6 @@ preview
 -
 pageNumber
 "
-class
-=
-"
-input
--
-number
--
-mozbox
-"
 hidespinbuttons
 =
 "
