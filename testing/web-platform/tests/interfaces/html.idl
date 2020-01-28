@@ -9874,10 +9874,6 @@ onmouseup
 ;
 attribute
 EventHandler
-onwheel
-;
-attribute
-EventHandler
 onpause
 ;
 attribute
@@ -9971,6 +9967,10 @@ onwebkitanimationstart
 attribute
 EventHandler
 onwebkittransitionend
+;
+attribute
+EventHandler
+onwheel
 ;
 }
 ;
