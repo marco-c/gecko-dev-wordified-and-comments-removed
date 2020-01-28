@@ -264,6 +264,17 @@ setup
 (
 )
 {
+sessionRule
+.
+runtime
+.
+webExtensionController
+.
+setTabActive
+(
+mainSession
+true
+)
 /
 /
 This
