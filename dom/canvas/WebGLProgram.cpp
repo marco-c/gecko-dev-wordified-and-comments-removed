@@ -4030,6 +4030,8 @@ WebGLShader
 >
 *
 shaderSlot
+=
+nullptr
 ;
 switch
 (
@@ -4291,6 +4293,8 @@ WebGLShader
 >
 *
 shaderSlot
+=
+nullptr
 ;
 switch
 (
