@@ -3,11 +3,6 @@
 content_security
 "
 :
-{
-"
-policies
-"
-:
 [
 "
 script
@@ -17,11 +12,10 @@ src
 self
 '
 '
-nonce
+unsafe
 -
-test
+inline
 '
 "
 ]
-}
 }
