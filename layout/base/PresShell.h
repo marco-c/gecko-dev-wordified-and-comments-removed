@@ -1182,6 +1182,11 @@ aHeight
 ResizeReflowOptions
 )
 ;
+void
+AddResizeEventFlushObserverIfNeeded
+(
+)
+;
 private
 :
 void
