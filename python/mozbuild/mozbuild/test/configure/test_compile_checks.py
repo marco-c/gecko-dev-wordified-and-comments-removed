@@ -17,7 +17,7 @@ path
 as
 mozpath
 from
-StringIO
+six
 import
 StringIO
 from

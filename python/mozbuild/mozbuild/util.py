@@ -8006,6 +8006,24 @@ self
 other
 )
     
+def
+__hash__
+(
+self
+)
+:
+        
+return
+super
+(
+EnumString
+self
+)
+.
+__hash__
+(
+)
+    
 staticmethod
     
 def
