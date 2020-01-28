@@ -719,7 +719,6 @@ TypedIndex
 BigIntCreationData
 >
 ;
-}
 class
 ScopeCreationData
 {
@@ -1356,6 +1355,7 @@ nextFrameSlot
 }
 ;
 }
+}
 namespace
 JS
 {
@@ -1366,6 +1366,9 @@ struct
 GCPolicy
 <
 js
+:
+:
+frontend
 :
 :
 ScopeCreationData
@@ -1380,6 +1383,9 @@ JSTracer
 *
 trc
 js
+:
+:
+frontend
 :
 :
 ScopeCreationData
