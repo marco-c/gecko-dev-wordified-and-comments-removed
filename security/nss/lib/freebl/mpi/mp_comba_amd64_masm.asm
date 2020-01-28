@@ -1169,7 +1169,7 @@ ptr
 rdx
 ]
 cmp
-dword
+qword
 ptr
 [
 r11
@@ -4076,7 +4076,7 @@ ptr
 rdx
 ]
 cmp
-dword
+qword
 ptr
 [
 r11
@@ -13554,7 +13554,7 @@ ptr
 rdx
 ]
 cmp
-dword
+qword
 ptr
 [
 r11
@@ -44036,7 +44036,7 @@ ptr
 rdx
 ]
 cmp
-dword
+qword
 ptr
 [
 r9
@@ -44812,7 +44812,7 @@ mov
 r10d
 ecx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -44845,7 +44845,7 @@ mov
 eax
 edx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -46816,7 +46816,7 @@ mov
 r14d
 ecx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -46849,7 +46849,7 @@ mov
 r9d
 edx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -51760,7 +51760,7 @@ mov
 r9d
 ecx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -51793,7 +51793,7 @@ mov
 eax
 edx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -68372,7 +68372,7 @@ mov
 r10d
 ecx
 cmp
-dword
+qword
 ptr
 [
 rsi
@@ -68405,7 +68405,7 @@ mov
 eax
 edx
 cmp
-dword
+qword
 ptr
 [
 rsi

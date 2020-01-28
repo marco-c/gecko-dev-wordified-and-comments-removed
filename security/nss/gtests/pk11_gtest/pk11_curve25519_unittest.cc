@@ -72,7 +72,7 @@ testing
 :
 TestWithParam
 <
-curve25519_testvector
+EcdhTestVectorStr
 >
 {
 protected
@@ -594,7 +594,7 @@ void
 Derive
 (
 const
-curve25519_testvector
+EcdhTestVectorStr
 testvector
 )
 {

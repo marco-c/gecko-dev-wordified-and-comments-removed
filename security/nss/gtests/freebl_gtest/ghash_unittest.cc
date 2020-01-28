@@ -46,7 +46,7 @@ testing
 :
 TestWithParam
 <
-gcm_kat_value
+AesGcmKatValue
 >
 {
 protected
@@ -55,7 +55,7 @@ void
 TestGHash
 (
 const
-gcm_kat_value
+AesGcmKatValue
 val
 bool
 sw

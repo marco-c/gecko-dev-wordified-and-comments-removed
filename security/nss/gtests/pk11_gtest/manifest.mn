@@ -110,6 +110,10 @@ pk11_ecdsa_unittest
 .
 cc
 \
+pk11_ecdh_unittest
+.
+cc
+\
 pk11_encrypt_derive_unittest
 .
 cc
