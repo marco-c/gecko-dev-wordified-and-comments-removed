@@ -519,7 +519,7 @@ return
 SurfaceType
 :
 :
-RECORDING
+WRAP_AND_RECORD
 ;
 }
 IntSize
@@ -706,7 +706,7 @@ GetType
 SurfaceType
 :
 :
-RECORDING
+WRAP_AND_RECORD
 )
 {
 return
