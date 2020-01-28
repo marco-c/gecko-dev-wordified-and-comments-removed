@@ -3205,10 +3205,11 @@ else
 *
 aCmp
 =
+*
 nsContentUtils
 :
 :
-ComparePoints_Deprecated
+ComparePoints
 (
 aCompareNode
 aCompareOffset
@@ -3318,10 +3319,11 @@ else
 *
 aCmp
 =
+*
 nsContentUtils
 :
 :
-ComparePoints_Deprecated
+ComparePoints
 (
 aCompareNode
 aCompareOffset
