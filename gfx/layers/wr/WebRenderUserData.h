@@ -74,6 +74,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
@@ -967,7 +976,7 @@ BasicLayerManager
 >
 mBasicLayerManager
 ;
-nsAutoPtr
+UniquePtr
 <
 nsDisplayItemGeometry
 >

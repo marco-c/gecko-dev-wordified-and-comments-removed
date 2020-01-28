@@ -126,13 +126,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsAutoRef
 .
 h
@@ -814,6 +807,10 @@ mBackendData
 [
 aBackend
 ]
+.
+get
+(
+)
 ;
 }
 void
@@ -831,7 +828,13 @@ mBackendData
 aBackend
 ]
 =
+mozilla
+:
+:
+WrapUnique
+(
 aData
+)
 ;
 }
 int32_t
@@ -1005,7 +1008,7 @@ LayersBackend
 :
 :
 LAYERS_LAST
-nsAutoPtr
+UniquePtr
 <
 ImageBackendData
 >

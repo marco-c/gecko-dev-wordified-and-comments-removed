@@ -52,13 +52,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -242,7 +235,13 @@ SetUnknown
 ;
 mSink
 =
+mozilla
+:
+:
+WrapUnique
+(
 aSink
+)
 ;
 }
 ReadbackSink
@@ -253,6 +252,10 @@ GetSink
 {
 return
 mSink
+.
+get
+(
+)
 ;
 }
 void
@@ -535,7 +538,7 @@ override
 uint64_t
 mSequenceCounter
 ;
-nsAutoPtr
+UniquePtr
 <
 ReadbackSink
 >
