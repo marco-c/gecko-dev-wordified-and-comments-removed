@@ -2417,7 +2417,9 @@ SwitchDocumentDirection
 '
 SwitchDocumentDirection
 '
-true
+'
+roots
+'
 )
 ;
 "
