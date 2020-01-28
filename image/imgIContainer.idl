@@ -930,6 +930,13 @@ TYPE_VECTOR
 =
 1
 ;
+const
+unsigned
+short
+TYPE_REQUEST
+=
+2
+;
 /
 *
 *
