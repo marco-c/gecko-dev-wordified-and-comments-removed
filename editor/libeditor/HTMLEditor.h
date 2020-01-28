@@ -6139,8 +6139,6 @@ PasteInternal
 (
 int32_t
 aClipboardType
-bool
-aDispatchPasteEvent
 )
 ;
 MOZ_CAN_RUN_SCRIPT
