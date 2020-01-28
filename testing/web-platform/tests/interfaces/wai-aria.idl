@@ -155,7 +155,7 @@ ariaDescribedByElements
 attribute
 Element
 ?
-ariaDetailsElements
+ariaDetailsElement
 ;
 attribute
 DOMString
