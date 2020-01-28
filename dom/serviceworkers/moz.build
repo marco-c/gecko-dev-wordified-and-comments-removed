@@ -230,11 +230,6 @@ ServiceWorkerRegistrationInfo
 h
 '
 '
-ServiceWorkerShutdownState
-.
-h
-'
-'
 ServiceWorkerUtils
 .
 h
@@ -456,11 +451,6 @@ cpp
 '
 '
 ServiceWorkerShutdownBlocker
-.
-cpp
-'
-'
-ServiceWorkerShutdownState
 .
 cpp
 '

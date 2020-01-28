@@ -110,9 +110,6 @@ state
 struct
 ServiceWorkerTerminateWorkerOpArgs
 {
-uint32_t
-shutdownStateId
-;
 }
 ;
 struct
