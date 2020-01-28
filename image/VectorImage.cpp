@@ -4916,8 +4916,10 @@ InsertOutcome
 :
 :
 SUCCESS
-&
-&
+)
+{
+if
+(
 aParams
 .
 size
@@ -4938,6 +4940,14 @@ ImageKey
 this
 )
 )
+;
+}
+}
+else
+{
+aWillCache
+=
+false
 ;
 }
 return
