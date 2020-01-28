@@ -2613,7 +2613,7 @@ Assert
 function
 waitForEvent
 (
-threadFront
+front
 type
 predicate
 )
@@ -2625,7 +2625,7 @@ predicate
 )
 {
 return
-threadFront
+front
 .
 once
 (
@@ -2660,7 +2660,7 @@ packet
 return
 ;
 }
-threadFront
+front
 .
 off
 (
@@ -2674,7 +2674,7 @@ packet
 )
 ;
 }
-threadFront
+front
 .
 on
 (

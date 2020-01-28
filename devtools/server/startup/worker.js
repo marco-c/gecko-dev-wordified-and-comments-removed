@@ -559,6 +559,12 @@ addActor
 consoleActor
 )
 ;
+parent
+.
+_consoleActor
+=
+consoleActor
+;
 postMessage
 (
 JSON
