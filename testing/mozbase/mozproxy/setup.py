@@ -21,6 +21,9 @@ PACKAGE_VERSION
 deps
 =
 [
+"
+redo
+"
 ]
 setup
 (
