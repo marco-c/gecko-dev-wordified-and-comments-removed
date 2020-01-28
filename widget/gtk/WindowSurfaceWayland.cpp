@@ -3598,6 +3598,16 @@ GetBounds
 (
 )
 ;
+lockedScreenRect
+.
+x
+=
+lockedScreenRect
+.
+y
+=
+0
+;
 gfx
 :
 :
