@@ -104,7 +104,7 @@ XPCSHELL_TESTS_MANIFESTS
 '
 test
 /
-xpcshell
+unit
 /
 xpcshell
 .
