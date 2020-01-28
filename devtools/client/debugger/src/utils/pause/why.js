@@ -88,13 +88,6 @@ whyPaused
 .
 interrupted
 "
-replayForcedPause
-:
-"
-whyPaused
-.
-replayForcedPause
-"
 DOM
 :
 "
