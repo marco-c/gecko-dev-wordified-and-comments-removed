@@ -733,7 +733,7 @@ test_record_id
 ;
 }
 function
-createNDEFPushOptions
+createNDEFWriteOptions
 (
 ignoreRead
 )

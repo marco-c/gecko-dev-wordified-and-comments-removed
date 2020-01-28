@@ -11362,7 +11362,7 @@ web
 -
 nfc
 /
-NDEFWriter_push
+NDEFWriter_write
 .
 https
 .

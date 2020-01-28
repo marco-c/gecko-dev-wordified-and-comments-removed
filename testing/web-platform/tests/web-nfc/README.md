@@ -126,7 +126,7 @@ the
 pushed
 NDEFMessageSource
 .
-pushOptions
+writeOptions
 (
 )
 ;
@@ -135,7 +135,7 @@ pushOptions
 Gets
 the
 pushed
-NDEFPushOptions
+NDEFWriteOptions
 .
 simulateNonNDEFTagDiscovered
 (
