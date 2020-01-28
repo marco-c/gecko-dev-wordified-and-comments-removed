@@ -352,8 +352,6 @@ sweepFinalizationGroups
 Zone
 *
 zone
-bool
-isShuttingDown
 )
 {
 auto
@@ -461,10 +459,6 @@ group
 if
 (
 group
-&
-&
-!
-isShuttingDown
 )
 {
 group
