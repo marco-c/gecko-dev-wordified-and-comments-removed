@@ -53408,13 +53408,13 @@ by
 BaselineCompiler
 :
 :
-emit_JSOP_NEWARRAY
+emit_NewArray
 "
 "
 BaselineCompiler
 :
 :
-emit_JSOP_INITELEM_ARRAY
+emit_InitElemArray
 "
 "
 and

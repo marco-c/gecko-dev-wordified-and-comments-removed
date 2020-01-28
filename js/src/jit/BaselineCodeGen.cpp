@@ -8985,7 +8985,7 @@ Handler
 >
 :
 :
-emit_JSOP_NOP
+emit_Nop
 (
 )
 {
@@ -9005,7 +9005,7 @@ Handler
 >
 :
 :
-emit_JSOP_ITERNEXT
+emit_IterNext
 (
 )
 {
@@ -9025,7 +9025,7 @@ Handler
 >
 :
 :
-emit_JSOP_NOP_DESTRUCTURING
+emit_NopDestructuring
 (
 )
 {
@@ -9045,7 +9045,7 @@ Handler
 >
 :
 :
-emit_JSOP_TRY_DESTRUCTURING
+emit_TryDestructuring
 (
 )
 {
@@ -9065,7 +9065,7 @@ Handler
 >
 :
 :
-emit_JSOP_POP
+emit_Pop
 (
 )
 {
@@ -9086,7 +9086,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_POPN
+emit_PopN
 (
 )
 {
@@ -9115,7 +9115,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_POPN
+emit_PopN
 (
 )
 {
@@ -9151,7 +9151,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_DUPAT
+emit_DupAt
 (
 )
 {
@@ -9210,7 +9210,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_DUPAT
+emit_DupAt
 (
 )
 {
@@ -9265,7 +9265,7 @@ Handler
 >
 :
 :
-emit_JSOP_DUP
+emit_Dup
 (
 )
 {
@@ -9314,7 +9314,7 @@ Handler
 >
 :
 :
-emit_JSOP_DUP2
+emit_Dup2
 (
 )
 {
@@ -9383,7 +9383,7 @@ Handler
 >
 :
 :
-emit_JSOP_SWAP
+emit_Swap
 (
 )
 {
@@ -9419,7 +9419,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_PICK
+emit_Pick
 (
 )
 {
@@ -9539,7 +9539,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_PICK
+emit_Pick
 (
 )
 {
@@ -9673,7 +9673,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_UNPICK
+emit_Unpick
 (
 )
 {
@@ -9823,7 +9823,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_UNPICK
+emit_Unpick
 (
 )
 {
@@ -10813,7 +10813,7 @@ Handler
 >
 :
 :
-emit_JSOP_GOTO
+emit_Goto
 (
 )
 {
@@ -10963,7 +10963,7 @@ Handler
 >
 :
 :
-emit_JSOP_IFEQ
+emit_IfEq
 (
 )
 {
@@ -10986,7 +10986,7 @@ Handler
 >
 :
 :
-emit_JSOP_IFNE
+emit_IfNe
 (
 )
 {
@@ -11086,7 +11086,7 @@ Handler
 >
 :
 :
-emit_JSOP_AND
+emit_And
 (
 )
 {
@@ -11109,7 +11109,7 @@ Handler
 >
 :
 :
-emit_JSOP_OR
+emit_Or
 (
 )
 {
@@ -11132,7 +11132,7 @@ Handler
 >
 :
 :
-emit_JSOP_COALESCE
+emit_Coalesce
 (
 )
 {
@@ -11214,7 +11214,7 @@ Handler
 >
 :
 :
-emit_JSOP_NOT
+emit_Not
 (
 )
 {
@@ -11284,7 +11284,7 @@ Handler
 >
 :
 :
-emit_JSOP_POS
+emit_Pos
 (
 )
 {
@@ -11381,7 +11381,7 @@ Handler
 >
 :
 :
-emit_JSOP_TONUMERIC
+emit_ToNumeric
 (
 )
 {
@@ -11478,14 +11478,14 @@ Handler
 >
 :
 :
-emit_JSOP_LOOPHEAD
+emit_LoopHead
 (
 )
 {
 if
 (
 !
-emit_JSOP_JUMPTARGET
+emit_JumpTarget
 (
 )
 )
@@ -11625,7 +11625,7 @@ Handler
 >
 :
 :
-emit_JSOP_VOID
+emit_Void
 (
 )
 {
@@ -11660,7 +11660,7 @@ Handler
 >
 :
 :
-emit_JSOP_UNDEFINED
+emit_Undefined
 (
 )
 {
@@ -11689,7 +11689,7 @@ Handler
 >
 :
 :
-emit_JSOP_HOLE
+emit_Hole
 (
 )
 {
@@ -11719,7 +11719,7 @@ Handler
 >
 :
 :
-emit_JSOP_NULL
+emit_Null
 (
 )
 {
@@ -11748,7 +11748,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKISOBJ
+emit_CheckIsObj
 (
 )
 {
@@ -11855,7 +11855,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKISCALLABLE
+emit_CheckIsCallable
 (
 )
 {
@@ -11944,7 +11944,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKTHIS
+emit_CheckThis
 (
 )
 {
@@ -11988,7 +11988,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKTHISREINIT
+emit_CheckThisReinit
 (
 )
 {
@@ -12172,7 +12172,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKRETURN
+emit_CheckReturn
 (
 )
 {
@@ -12365,7 +12365,7 @@ Handler
 >
 :
 :
-emit_JSOP_FUNCTIONTHIS
+emit_FunctionThis
 (
 )
 {
@@ -12535,7 +12535,7 @@ Handler
 >
 :
 :
-emit_JSOP_GLOBALTHIS
+emit_GlobalThis
 (
 )
 {
@@ -12684,7 +12684,7 @@ Handler
 >
 :
 :
-emit_JSOP_TRUE
+emit_True
 (
 )
 {
@@ -12714,7 +12714,7 @@ Handler
 >
 :
 :
-emit_JSOP_FALSE
+emit_False
 (
 )
 {
@@ -12744,7 +12744,7 @@ Handler
 >
 :
 :
-emit_JSOP_ZERO
+emit_Zero
 (
 )
 {
@@ -12774,7 +12774,7 @@ Handler
 >
 :
 :
-emit_JSOP_ONE
+emit_One
 (
 )
 {
@@ -12799,7 +12799,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_INT8
+emit_Int8
 (
 )
 {
@@ -12831,7 +12831,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_INT8
+emit_Int8
 (
 )
 {
@@ -12876,7 +12876,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_INT32
+emit_Int32
 (
 )
 {
@@ -12908,7 +12908,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_INT32
+emit_Int32
 (
 )
 {
@@ -12953,7 +12953,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_UINT16
+emit_Uint16
 (
 )
 {
@@ -12985,7 +12985,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_UINT16
+emit_Uint16
 (
 )
 {
@@ -13030,7 +13030,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_UINT24
+emit_Uint24
 (
 )
 {
@@ -13062,7 +13062,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_UINT24
+emit_Uint24
 (
 )
 {
@@ -13113,12 +13113,12 @@ Handler
 >
 :
 :
-emit_JSOP_RESUMEINDEX
+emit_ResumeIndex
 (
 )
 {
 return
-emit_JSOP_UINT24
+emit_Uint24
 (
 )
 ;
@@ -13130,7 +13130,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_DOUBLE
+emit_Double
 (
 )
 {
@@ -13159,7 +13159,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_DOUBLE
+emit_Double
 (
 )
 {
@@ -13187,7 +13187,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_BIGINT
+emit_BigInt
 (
 )
 {
@@ -13232,7 +13232,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_BIGINT
+emit_BigInt
 (
 )
 {
@@ -13291,7 +13291,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_STRING
+emit_String
 (
 )
 {
@@ -13330,7 +13330,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_STRING
+emit_String
 (
 )
 {
@@ -13391,7 +13391,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_SYMBOL
+emit_Symbol
 (
 )
 {
@@ -13451,7 +13451,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_SYMBOL
+emit_Symbol
 (
 )
 {
@@ -13608,7 +13608,7 @@ Handler
 >
 :
 :
-emit_JSOP_OBJECT
+emit_Object
 (
 )
 {
@@ -13711,7 +13711,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_CALLSITEOBJ
+emit_CallSiteObj
 (
 )
 {
@@ -13773,7 +13773,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_CALLSITEOBJ
+emit_CallSiteObj
 (
 )
 {
@@ -13853,7 +13853,7 @@ Handler
 >
 :
 :
-emit_JSOP_REGEXP
+emit_RegExp
 (
 )
 {
@@ -13945,7 +13945,7 @@ Handler
 >
 :
 :
-emit_JSOP_LAMBDA
+emit_Lambda
 (
 )
 {
@@ -14062,7 +14062,7 @@ Handler
 >
 :
 :
-emit_JSOP_LAMBDA_ARROW
+emit_LambdaArrow
 (
 )
 {
@@ -14192,7 +14192,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETFUNNAME
+emit_SetFunName
 (
 )
 {
@@ -14293,7 +14293,7 @@ Handler
 >
 :
 :
-emit_JSOP_BITOR
+emit_BitOr
 (
 )
 {
@@ -14315,7 +14315,7 @@ Handler
 >
 :
 :
-emit_JSOP_BITXOR
+emit_BitXor
 (
 )
 {
@@ -14337,7 +14337,7 @@ Handler
 >
 :
 :
-emit_JSOP_BITAND
+emit_BitAnd
 (
 )
 {
@@ -14359,7 +14359,7 @@ Handler
 >
 :
 :
-emit_JSOP_LSH
+emit_Lsh
 (
 )
 {
@@ -14381,7 +14381,7 @@ Handler
 >
 :
 :
-emit_JSOP_RSH
+emit_Rsh
 (
 )
 {
@@ -14403,7 +14403,7 @@ Handler
 >
 :
 :
-emit_JSOP_URSH
+emit_Ursh
 (
 )
 {
@@ -14425,7 +14425,7 @@ Handler
 >
 :
 :
-emit_JSOP_ADD
+emit_Add
 (
 )
 {
@@ -14447,7 +14447,7 @@ Handler
 >
 :
 :
-emit_JSOP_SUB
+emit_Sub
 (
 )
 {
@@ -14469,7 +14469,7 @@ Handler
 >
 :
 :
-emit_JSOP_MUL
+emit_Mul
 (
 )
 {
@@ -14491,7 +14491,7 @@ Handler
 >
 :
 :
-emit_JSOP_DIV
+emit_Div
 (
 )
 {
@@ -14513,7 +14513,7 @@ Handler
 >
 :
 :
-emit_JSOP_MOD
+emit_Mod
 (
 )
 {
@@ -14535,7 +14535,7 @@ Handler
 >
 :
 :
-emit_JSOP_POW
+emit_Pow
 (
 )
 {
@@ -14649,7 +14649,7 @@ Handler
 >
 :
 :
-emit_JSOP_BITNOT
+emit_BitNot
 (
 )
 {
@@ -14671,7 +14671,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEG
+emit_Neg
 (
 )
 {
@@ -14693,7 +14693,7 @@ Handler
 >
 :
 :
-emit_JSOP_INC
+emit_Inc
 (
 )
 {
@@ -14715,7 +14715,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEC
+emit_Dec
 (
 )
 {
@@ -14737,7 +14737,7 @@ Handler
 >
 :
 :
-emit_JSOP_LT
+emit_Lt
 (
 )
 {
@@ -14759,7 +14759,7 @@ Handler
 >
 :
 :
-emit_JSOP_LE
+emit_Le
 (
 )
 {
@@ -14781,7 +14781,7 @@ Handler
 >
 :
 :
-emit_JSOP_GT
+emit_Gt
 (
 )
 {
@@ -14803,7 +14803,7 @@ Handler
 >
 :
 :
-emit_JSOP_GE
+emit_Ge
 (
 )
 {
@@ -14825,7 +14825,7 @@ Handler
 >
 :
 :
-emit_JSOP_EQ
+emit_Eq
 (
 )
 {
@@ -14847,7 +14847,7 @@ Handler
 >
 :
 :
-emit_JSOP_NE
+emit_Ne
 (
 )
 {
@@ -14916,7 +14916,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTEQ
+emit_StrictEq
 (
 )
 {
@@ -14938,7 +14938,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTNE
+emit_StrictNe
 (
 )
 {
@@ -14960,7 +14960,7 @@ Handler
 >
 :
 :
-emit_JSOP_CASE
+emit_Case
 (
 )
 {
@@ -15027,7 +15027,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEFAULT
+emit_Default
 (
 )
 {
@@ -15038,7 +15038,7 @@ pop
 )
 ;
 return
-emit_JSOP_GOTO
+emit_Goto
 (
 )
 ;
@@ -15055,7 +15055,7 @@ Handler
 >
 :
 :
-emit_JSOP_LINENO
+emit_Lineno
 (
 )
 {
@@ -15075,7 +15075,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEWARRAY
+emit_NewArray
 (
 )
 {
@@ -15125,7 +15125,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_NEWARRAY_COPYONWRITE
+emit_NewArrayCopyOnWrite
 (
 )
 {
@@ -15240,7 +15240,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_NEWARRAY_COPYONWRITE
+emit_NewArrayCopyOnWrite
 (
 )
 {
@@ -15320,7 +15320,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITELEM_ARRAY
+emit_InitElemArray
 (
 )
 {
@@ -15384,7 +15384,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEWOBJECT
+emit_NewObject
 (
 )
 {
@@ -15406,7 +15406,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEWOBJECT_WITHGROUP
+emit_NewObjectWithGroup
 (
 )
 {
@@ -15428,7 +15428,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEWINIT
+emit_NewInit
 (
 )
 {
@@ -15496,7 +15496,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITELEM
+emit_InitElem
 (
 )
 {
@@ -15581,12 +15581,12 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENELEM
+emit_InitHiddenElem
 (
 )
 {
 return
-emit_JSOP_INITELEM
+emit_InitElem
 (
 )
 ;
@@ -15603,7 +15603,7 @@ Handler
 >
 :
 :
-emit_JSOP_MUTATEPROTO
+emit_MutateProto
 (
 )
 {
@@ -15716,7 +15716,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITPROP
+emit_InitProp
 (
 )
 {
@@ -15789,12 +15789,12 @@ Handler
 >
 :
 :
-emit_JSOP_INITLOCKEDPROP
+emit_InitLockedProp
 (
 )
 {
 return
-emit_JSOP_INITPROP
+emit_InitProp
 (
 )
 ;
@@ -15811,12 +15811,12 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENPROP
+emit_InitHiddenProp
 (
 )
 {
 return
-emit_JSOP_INITPROP
+emit_InitProp
 (
 )
 ;
@@ -15833,7 +15833,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETELEM
+emit_GetElem
 (
 )
 {
@@ -15879,7 +15879,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETELEM_SUPER
+emit_GetElemSuper
 (
 )
 {
@@ -15957,12 +15957,12 @@ Handler
 >
 :
 :
-emit_JSOP_CALLELEM
+emit_CallElem
 (
 )
 {
 return
-emit_JSOP_GETELEM
+emit_GetElem
 (
 )
 ;
@@ -15979,7 +15979,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETELEM
+emit_SetElem
 (
 )
 {
@@ -16044,12 +16044,12 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETELEM
+emit_StrictSetElem
 (
 )
 {
 return
-emit_JSOP_SETELEM
+emit_SetElem
 (
 )
 ;
@@ -16234,7 +16234,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETELEM_SUPER
+emit_SetElemSuper
 (
 )
 {
@@ -16257,7 +16257,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETELEM_SUPER
+emit_StrictSetElemSuper
 (
 )
 {
@@ -16437,7 +16437,7 @@ Handler
 >
 :
 :
-emit_JSOP_DELELEM
+emit_DelElem
 (
 )
 {
@@ -16460,7 +16460,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTDELELEM
+emit_StrictDelElem
 (
 )
 {
@@ -16483,7 +16483,7 @@ Handler
 >
 :
 :
-emit_JSOP_IN
+emit_In
 (
 )
 {
@@ -16529,7 +16529,7 @@ Handler
 >
 :
 :
-emit_JSOP_HASOWN
+emit_HasOwn
 (
 )
 {
@@ -16715,7 +16715,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETGNAME
+emit_GetGName
 (
 )
 {
@@ -16729,7 +16729,7 @@ this
 )
 {
 return
-emit_JSOP_GETNAME
+emit_GetName
 (
 )
 ;
@@ -17035,7 +17035,7 @@ Handler
 >
 :
 :
-emit_JSOP_BINDGNAME
+emit_BindGName
 (
 )
 {
@@ -17069,7 +17069,7 @@ Handler
 >
 :
 :
-emit_JSOP_BINDVAR
+emit_BindVar
 (
 )
 {
@@ -17172,7 +17172,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 {
@@ -17225,12 +17225,12 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETPROP
+emit_StrictSetProp
 (
 )
 {
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -17247,12 +17247,12 @@ Handler
 >
 :
 :
-emit_JSOP_SETNAME
+emit_SetName
 (
 )
 {
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -17269,12 +17269,12 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETNAME
+emit_StrictSetName
 (
 )
 {
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -17291,12 +17291,12 @@ Handler
 >
 :
 :
-emit_JSOP_SETGNAME
+emit_SetGName
 (
 )
 {
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -17313,12 +17313,12 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETGNAME
+emit_StrictSetGName
 (
 )
 {
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -17497,7 +17497,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETPROP_SUPER
+emit_SetPropSuper
 (
 )
 {
@@ -17520,7 +17520,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSETPROP_SUPER
+emit_StrictSetPropSuper
 (
 )
 {
@@ -17543,7 +17543,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETPROP
+emit_GetProp
 (
 )
 {
@@ -17589,12 +17589,12 @@ Handler
 >
 :
 :
-emit_JSOP_CALLPROP
+emit_CallProp
 (
 )
 {
 return
-emit_JSOP_GETPROP
+emit_GetProp
 (
 )
 ;
@@ -17611,12 +17611,12 @@ Handler
 >
 :
 :
-emit_JSOP_LENGTH
+emit_Length
 (
 )
 {
 return
-emit_JSOP_GETPROP
+emit_GetProp
 (
 )
 ;
@@ -17633,12 +17633,12 @@ Handler
 >
 :
 :
-emit_JSOP_GETBOUNDNAME
+emit_GetBoundName
 (
 )
 {
 return
-emit_JSOP_GETPROP
+emit_GetProp
 (
 )
 ;
@@ -17655,7 +17655,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETPROP_SUPER
+emit_GetPropSuper
 (
 )
 {
@@ -17872,7 +17872,7 @@ Handler
 >
 :
 :
-emit_JSOP_DELPROP
+emit_DelProp
 (
 )
 {
@@ -17895,7 +17895,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTDELPROP
+emit_StrictDelProp
 (
 )
 {
@@ -18525,7 +18525,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETALIASEDVAR
+emit_GetAliasedVar
 (
 )
 {
@@ -18574,7 +18574,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_SETALIASEDVAR
+emit_SetAliasedVar
 (
 )
 {
@@ -18705,7 +18705,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_SETALIASEDVAR
+emit_SetAliasedVar
 (
 )
 {
@@ -19076,7 +19076,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETNAME
+emit_GetName
 (
 )
 {
@@ -19297,7 +19297,7 @@ Handler
 >
 :
 :
-emit_JSOP_BINDNAME
+emit_BindName
 (
 )
 {
@@ -19320,7 +19320,7 @@ Handler
 >
 :
 :
-emit_JSOP_DELNAME
+emit_DelName
 (
 )
 {
@@ -19426,7 +19426,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_GETIMPORT
+emit_GetImport
 (
 )
 {
@@ -19696,7 +19696,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_GETIMPORT
+emit_GetImport
 (
 )
 {
@@ -19812,7 +19812,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETINTRINSIC
+emit_GetIntrinsic
 (
 )
 {
@@ -19858,7 +19858,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETINTRINSIC
+emit_SetIntrinsic
 (
 )
 {
@@ -19939,7 +19939,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEFVAR
+emit_DefVar
 (
 )
 {
@@ -20127,7 +20127,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEFCONST
+emit_DefConst
 (
 )
 {
@@ -20150,7 +20150,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEFLET
+emit_DefLet
 (
 )
 {
@@ -20173,7 +20173,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEFFUN
+emit_DefFun
 (
 )
 {
@@ -20417,7 +20417,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITPROP_GETTER
+emit_InitPropGetter
 (
 )
 {
@@ -20439,7 +20439,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENPROP_GETTER
+emit_InitHiddenPropGetter
 (
 )
 {
@@ -20461,7 +20461,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITPROP_SETTER
+emit_InitPropSetter
 (
 )
 {
@@ -20483,7 +20483,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENPROP_SETTER
+emit_InitHiddenPropSetter
 (
 )
 {
@@ -20653,7 +20653,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITELEM_GETTER
+emit_InitElemGetter
 (
 )
 {
@@ -20675,7 +20675,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENELEM_GETTER
+emit_InitHiddenElemGetter
 (
 )
 {
@@ -20697,7 +20697,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITELEM_SETTER
+emit_InitElemSetter
 (
 )
 {
@@ -20719,7 +20719,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITHIDDENELEM_SETTER
+emit_InitHiddenElemSetter
 (
 )
 {
@@ -20741,7 +20741,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITELEM_INC
+emit_InitElemInc
 (
 )
 {
@@ -20869,7 +20869,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_GETLOCAL
+emit_GetLocal
 (
 )
 {
@@ -20931,7 +20931,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_GETLOCAL
+emit_GetLocal
 (
 )
 {
@@ -20986,7 +20986,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_SETLOCAL
+emit_SetLocal
 (
 )
 {
@@ -21035,7 +21035,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_SETLOCAL
+emit_SetLocal
 (
 )
 {
@@ -21907,7 +21907,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETARG
+emit_GetArg
 (
 )
 {
@@ -21930,7 +21930,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETARG
+emit_SetArg
 (
 )
 {
@@ -22189,7 +22189,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_NEWTARGET
+emit_NewTarget
 (
 )
 {
@@ -22311,7 +22311,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_NEWTARGET
+emit_NewTarget
 (
 )
 {
@@ -22544,7 +22544,7 @@ Handler
 >
 :
 :
-emit_JSOP_THROWSETCONST
+emit_ThrowSetConst
 (
 )
 {
@@ -22566,7 +22566,7 @@ Handler
 >
 :
 :
-emit_JSOP_THROWSETALIASEDCONST
+emit_ThrowSetAliasedConst
 (
 )
 {
@@ -22588,7 +22588,7 @@ Handler
 >
 :
 :
-emit_JSOP_THROWSETCALLEE
+emit_ThrowSetCallee
 (
 )
 {
@@ -22698,7 +22698,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_CHECKLEXICAL
+emit_CheckLexical
 (
 )
 {
@@ -22743,7 +22743,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_CHECKLEXICAL
+emit_CheckLexical
 (
 )
 {
@@ -22799,12 +22799,12 @@ Handler
 >
 :
 :
-emit_JSOP_INITLEXICAL
+emit_InitLexical
 (
 )
 {
 return
-emit_JSOP_SETLOCAL
+emit_SetLocal
 (
 )
 ;
@@ -22821,7 +22821,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITGLEXICAL
+emit_InitGLexical
 (
 )
 {
@@ -22845,7 +22845,7 @@ R0
 )
 ;
 return
-emit_JSOP_SETPROP
+emit_SetProp
 (
 )
 ;
@@ -22862,7 +22862,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKALIASEDLEXICAL
+emit_CheckAliasedLexical
 (
 )
 {
@@ -22897,12 +22897,12 @@ Handler
 >
 :
 :
-emit_JSOP_INITALIASEDLEXICAL
+emit_InitAliasedLexical
 (
 )
 {
 return
-emit_JSOP_SETALIASEDVAR
+emit_SetAliasedVar
 (
 )
 ;
@@ -22919,7 +22919,7 @@ Handler
 >
 :
 :
-emit_JSOP_UNINITIALIZED
+emit_Uninitialized
 (
 )
 {
@@ -23251,7 +23251,7 @@ Handler
 >
 :
 :
-emit_JSOP_CALL
+emit_Call
 (
 )
 {
@@ -23274,7 +23274,7 @@ Handler
 >
 :
 :
-emit_JSOP_CALL_IGNORES_RV
+emit_CallIgnoresRv
 (
 )
 {
@@ -23297,7 +23297,7 @@ Handler
 >
 :
 :
-emit_JSOP_CALLITER
+emit_CallIter
 (
 )
 {
@@ -23320,7 +23320,7 @@ Handler
 >
 :
 :
-emit_JSOP_NEW
+emit_New
 (
 )
 {
@@ -23343,7 +23343,7 @@ Handler
 >
 :
 :
-emit_JSOP_SUPERCALL
+emit_SuperCall
 (
 )
 {
@@ -23366,7 +23366,7 @@ Handler
 >
 :
 :
-emit_JSOP_FUNCALL
+emit_FunCall
 (
 )
 {
@@ -23389,7 +23389,7 @@ Handler
 >
 :
 :
-emit_JSOP_FUNAPPLY
+emit_FunApply
 (
 )
 {
@@ -23412,7 +23412,7 @@ Handler
 >
 :
 :
-emit_JSOP_EVAL
+emit_Eval
 (
 )
 {
@@ -23435,7 +23435,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTEVAL
+emit_StrictEval
 (
 )
 {
@@ -23458,7 +23458,7 @@ Handler
 >
 :
 :
-emit_JSOP_SPREADCALL
+emit_SpreadCall
 (
 )
 {
@@ -23481,7 +23481,7 @@ Handler
 >
 :
 :
-emit_JSOP_SPREADNEW
+emit_SpreadNew
 (
 )
 {
@@ -23504,7 +23504,7 @@ Handler
 >
 :
 :
-emit_JSOP_SPREADSUPERCALL
+emit_SpreadSuperCall
 (
 )
 {
@@ -23527,7 +23527,7 @@ Handler
 >
 :
 :
-emit_JSOP_SPREADEVAL
+emit_SpreadEval
 (
 )
 {
@@ -23550,7 +23550,7 @@ Handler
 >
 :
 :
-emit_JSOP_STRICTSPREADEVAL
+emit_StrictSpreadEval
 (
 )
 {
@@ -23573,7 +23573,7 @@ Handler
 >
 :
 :
-emit_JSOP_OPTIMIZE_SPREADCALL
+emit_OptimizeSpreadCall
 (
 )
 {
@@ -23670,7 +23670,7 @@ Handler
 >
 :
 :
-emit_JSOP_IMPLICITTHIS
+emit_ImplicitThis
 (
 )
 {
@@ -23778,7 +23778,7 @@ Handler
 >
 :
 :
-emit_JSOP_GIMPLICITTHIS
+emit_GImplicitThis
 (
 )
 {
@@ -23815,7 +23815,7 @@ this
 )
 {
 return
-emit_JSOP_IMPLICITTHIS
+emit_ImplicitThis
 (
 )
 ;
@@ -23853,7 +23853,7 @@ Handler
 >
 :
 :
-emit_JSOP_INSTANCEOF
+emit_Instanceof
 (
 )
 {
@@ -23899,7 +23899,7 @@ Handler
 >
 :
 :
-emit_JSOP_TYPEOF
+emit_Typeof
 (
 )
 {
@@ -23945,12 +23945,12 @@ Handler
 >
 :
 :
-emit_JSOP_TYPEOFEXPR
+emit_TypeofExpr
 (
 )
 {
 return
-emit_JSOP_TYPEOF
+emit_Typeof
 (
 )
 ;
@@ -23967,7 +23967,7 @@ Handler
 >
 :
 :
-emit_JSOP_THROWMSG
+emit_ThrowMsg
 (
 )
 {
@@ -24023,7 +24023,7 @@ Handler
 >
 :
 :
-emit_JSOP_THROW
+emit_Throw
 (
 )
 {
@@ -24081,7 +24081,7 @@ Handler
 >
 :
 :
-emit_JSOP_TRY
+emit_Try
 (
 )
 {
@@ -24101,7 +24101,7 @@ Handler
 >
 :
 :
-emit_JSOP_FINALLY
+emit_Finally
 (
 )
 {
@@ -24130,7 +24130,7 @@ Handler
 >
 :
 :
-emit_JSOP_GOSUB
+emit_Gosub
 (
 )
 {
@@ -24473,7 +24473,7 @@ Handler
 >
 :
 :
-emit_JSOP_RETSUB
+emit_Retsub
 (
 )
 {
@@ -24816,7 +24816,7 @@ Handler
 >
 :
 :
-emit_JSOP_PUSHLEXICALENV
+emit_PushLexicalEnv
 (
 )
 {
@@ -24907,7 +24907,7 @@ Handler
 >
 :
 :
-emit_JSOP_POPLEXICALENV
+emit_PopLexicalEnv
 (
 )
 {
@@ -25062,7 +25062,7 @@ Handler
 >
 :
 :
-emit_JSOP_FRESHENLEXICALENV
+emit_FreshenLexicalEnv
 (
 )
 {
@@ -25217,7 +25217,7 @@ Handler
 >
 :
 :
-emit_JSOP_RECREATELEXICALENV
+emit_RecreateLexicalEnv
 (
 )
 {
@@ -25372,7 +25372,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEBUGLEAVELEXICALENV
+emit_DebugLeaveLexicalEnv
 (
 )
 {
@@ -25463,7 +25463,7 @@ Handler
 >
 :
 :
-emit_JSOP_PUSHVARENV
+emit_PushVarEnv
 (
 )
 {
@@ -25550,7 +25550,7 @@ Handler
 >
 :
 :
-emit_JSOP_POPVARENV
+emit_PopVarEnv
 (
 )
 {
@@ -25618,7 +25618,7 @@ Handler
 >
 :
 :
-emit_JSOP_ENTERWITH
+emit_EnterWith
 (
 )
 {
@@ -25722,7 +25722,7 @@ Handler
 >
 :
 :
-emit_JSOP_LEAVEWITH
+emit_LeaveWith
 (
 )
 {
@@ -25790,7 +25790,7 @@ Handler
 >
 :
 :
-emit_JSOP_EXCEPTION
+emit_Exception
 (
 )
 {
@@ -25850,7 +25850,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEBUGGER
+emit_Debugger
 (
 )
 {
@@ -26161,7 +26161,7 @@ Handler
 >
 :
 :
-emit_JSOP_RETURN
+emit_Return
 (
 )
 {
@@ -26290,7 +26290,7 @@ Handler
 >
 :
 :
-emit_JSOP_RETRVAL
+emit_RetRval
 (
 )
 {
@@ -26405,7 +26405,7 @@ Handler
 >
 :
 :
-emit_JSOP_TOID
+emit_ToId
 (
 )
 {
@@ -26551,7 +26551,7 @@ Handler
 >
 :
 :
-emit_JSOP_TOASYNCITER
+emit_ToAsyncIter
 (
 )
 {
@@ -26685,7 +26685,7 @@ Handler
 >
 :
 :
-emit_JSOP_TRYSKIPAWAIT
+emit_TrySkipAwait
 (
 )
 {
@@ -26866,7 +26866,7 @@ Handler
 >
 :
 :
-emit_JSOP_ASYNCAWAIT
+emit_AsyncAwait
 (
 )
 {
@@ -27004,7 +27004,7 @@ Handler
 >
 :
 :
-emit_JSOP_ASYNCRESOLVE
+emit_AsyncResolve
 (
 )
 {
@@ -27152,7 +27152,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKOBJCOERCIBLE
+emit_CheckObjCoercible
 (
 )
 {
@@ -27277,7 +27277,7 @@ Handler
 >
 :
 :
-emit_JSOP_TOSTRING
+emit_ToString
 (
 )
 {
@@ -27816,7 +27816,7 @@ Handler
 >
 :
 :
-emit_JSOP_TABLESWITCH
+emit_TableSwitch
 (
 )
 {
@@ -27907,7 +27907,7 @@ Handler
 >
 :
 :
-emit_JSOP_ITER
+emit_Iter
 (
 )
 {
@@ -27953,7 +27953,7 @@ Handler
 >
 :
 :
-emit_JSOP_MOREITER
+emit_MoreIter
 (
 )
 {
@@ -28126,7 +28126,7 @@ Handler
 >
 :
 :
-emit_JSOP_ISNOITER
+emit_IsNoIter
 (
 )
 {
@@ -28148,7 +28148,7 @@ Handler
 >
 :
 :
-emit_JSOP_ENDITER
+emit_EndIter
 (
 )
 {
@@ -28275,7 +28275,7 @@ Handler
 >
 :
 :
-emit_JSOP_ISGENCLOSING
+emit_IsGenClosing
 (
 )
 {
@@ -28297,7 +28297,7 @@ Handler
 >
 :
 :
-emit_JSOP_GETRVAL
+emit_GetRval
 (
 )
 {
@@ -28336,7 +28336,7 @@ Handler
 >
 :
 :
-emit_JSOP_SETRVAL
+emit_SetRval
 (
 )
 {
@@ -28394,7 +28394,7 @@ Handler
 >
 :
 :
-emit_JSOP_CALLEE
+emit_Callee
 (
 )
 {
@@ -28471,7 +28471,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_ENVCALLEE
+emit_EnvCallee
 (
 )
 {
@@ -28587,7 +28587,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_ENVCALLEE
+emit_EnvCallee
 (
 )
 {
@@ -28682,7 +28682,7 @@ Handler
 >
 :
 :
-emit_JSOP_SUPERBASE
+emit_SuperBase
 (
 )
 {
@@ -28913,7 +28913,7 @@ Handler
 >
 :
 :
-emit_JSOP_SUPERFUN
+emit_SuperFun
 (
 )
 {
@@ -29167,7 +29167,7 @@ Handler
 >
 :
 :
-emit_JSOP_ARGUMENTS
+emit_Arguments
 (
 )
 {
@@ -29374,7 +29374,7 @@ Handler
 >
 :
 :
-emit_JSOP_REST
+emit_Rest
 (
 )
 {
@@ -29420,7 +29420,7 @@ Handler
 >
 :
 :
-emit_JSOP_GENERATOR
+emit_Generator
 (
 )
 {
@@ -29522,7 +29522,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITIALYIELD
+emit_InitialYield
 (
 )
 {
@@ -29783,7 +29783,7 @@ Handler
 >
 :
 :
-emit_JSOP_YIELD
+emit_Yield
 (
 )
 {
@@ -30145,12 +30145,12 @@ Handler
 >
 :
 :
-emit_JSOP_AWAIT
+emit_Await
 (
 )
 {
 return
-emit_JSOP_YIELD
+emit_Yield
 (
 )
 ;
@@ -30330,14 +30330,14 @@ Handler
 >
 :
 :
-emit_JSOP_AFTERYIELD
+emit_AfterYield
 (
 )
 {
 if
 (
 !
-emit_JSOP_JUMPTARGET
+emit_JumpTarget
 (
 )
 )
@@ -30464,7 +30464,7 @@ Handler
 >
 :
 :
-emit_JSOP_FINALYIELDRVAL
+emit_FinalYieldRval
 (
 )
 {
@@ -30833,7 +30833,7 @@ Handler
 >
 :
 :
-emit_JSOP_RESUME
+emit_Resume
 (
 )
 {
@@ -32117,7 +32117,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECK_RESUMEKIND
+emit_CheckResumeKind
 (
 )
 {
@@ -32343,7 +32343,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_RESUMEKIND
+emit_ResumeKind
 (
 )
 {
@@ -32383,7 +32383,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_RESUMEKIND
+emit_ResumeKind
 (
 )
 {
@@ -32433,7 +32433,7 @@ Handler
 >
 :
 :
-emit_JSOP_DEBUGCHECKSELFHOSTED
+emit_DebugCheckSelfHosted
 (
 )
 {
@@ -32520,7 +32520,7 @@ Handler
 >
 :
 :
-emit_JSOP_IS_CONSTRUCTING
+emit_IsConstructing
 (
 )
 {
@@ -32545,7 +32545,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_JUMPTARGET
+emit_JumpTarget
 (
 )
 {
@@ -32575,7 +32575,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_JUMPTARGET
+emit_JumpTarget
 (
 )
 {
@@ -32775,7 +32775,7 @@ Handler
 >
 :
 :
-emit_JSOP_CHECKCLASSHERITAGE
+emit_CheckClassHeritage
 (
 )
 {
@@ -32847,7 +32847,7 @@ Handler
 >
 :
 :
-emit_JSOP_INITHOMEOBJECT
+emit_InitHomeObject
 (
 )
 {
@@ -32980,7 +32980,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_BUILTINPROTO
+emit_BuiltinProto
 (
 )
 {
@@ -33030,7 +33030,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_BUILTINPROTO
+emit_BuiltinProto
 (
 )
 {
@@ -33105,7 +33105,7 @@ Handler
 >
 :
 :
-emit_JSOP_OBJWITHPROTO
+emit_ObjWithProto
 (
 )
 {
@@ -33210,7 +33210,7 @@ Handler
 >
 :
 :
-emit_JSOP_FUNWITHPROTO
+emit_FunWithProto
 (
 )
 {
@@ -33356,7 +33356,7 @@ Handler
 >
 :
 :
-emit_JSOP_CLASSCONSTRUCTOR
+emit_ClassConstructor
 (
 )
 {
@@ -33455,7 +33455,7 @@ Handler
 >
 :
 :
-emit_JSOP_DERIVEDCONSTRUCTOR
+emit_DerivedConstructor
 (
 )
 {
@@ -33562,7 +33562,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_IMPORTMETA
+emit_ImportMeta
 (
 )
 {
@@ -33664,7 +33664,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_IMPORTMETA
+emit_ImportMeta
 (
 )
 {
@@ -33738,7 +33738,7 @@ Handler
 >
 :
 :
-emit_JSOP_DYNAMIC_IMPORT
+emit_DynamicImport
 (
 )
 {
@@ -33823,7 +33823,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_ACTIVE
+emit_InstrumentationActive
 (
 )
 {
@@ -33900,7 +33900,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_ACTIVE
+emit_InstrumentationActive
 (
 )
 {
@@ -33955,7 +33955,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_CALLBACK
+emit_InstrumentationCallback
 (
 )
 {
@@ -34003,7 +34003,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_CALLBACK
+emit_InstrumentationCallback
 (
 )
 {
@@ -34067,7 +34067,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_SCRIPT_ID
+emit_InstrumentationScriptId
 (
 )
 {
@@ -34131,7 +34131,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_INSTRUMENTATION_SCRIPT_ID
+emit_InstrumentationScriptId
 (
 )
 {
@@ -34191,7 +34191,7 @@ bool
 BaselineCompilerCodeGen
 :
 :
-emit_JSOP_FORCEINTERPRETER
+emit_ForceInterpreter
 (
 )
 {
@@ -34212,7 +34212,7 @@ bool
 BaselineInterpreterCodeGen
 :
 :
-emit_JSOP_FORCEINTERPRETER
+emit_ForceInterpreter
 (
 )
 {
@@ -34932,14 +34932,18 @@ Method_Error
 define
 EMIT_OP
 (
-OP
+op
+op_camel
 .
 .
 .
 )
 \
 case
-OP
+JSOp
+:
+:
+op_camel
 :
 \
 if
@@ -34953,7 +34957,7 @@ this
 emit_
 #
 #
-OP
+op_camel
 (
 )
 )
@@ -35459,7 +35463,8 @@ JSOP_LIMIT
 define
 EMIT_OP
 (
-OP
+op
+op_camel
 .
 .
 .
@@ -35476,7 +35481,10 @@ opLabels
 [
 uint8_t
 (
-OP
+JSOp
+:
+:
+op_camel
 )
 ]
 )
@@ -35486,7 +35494,10 @@ handler
 .
 setCurrentOp
 (
-OP
+JSOp
+:
+:
+op_camel
 )
 ;
 \
@@ -35499,7 +35510,7 @@ this
 emit_
 #
 #
-OP
+op_camel
 (
 )
 )
@@ -35516,8 +35527,11 @@ if
 !
 opEpilogue
 (
-OP
-OP
+JSOp
+:
+:
+op_camel
+op
 #
 #
 _LENGTH
