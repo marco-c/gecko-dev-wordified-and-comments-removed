@@ -30,3 +30,15 @@ dummy
 report
 .
 php
+;
+require
+-
+trusted
+-
+types
+-
+for
+'
+script
+'
+;

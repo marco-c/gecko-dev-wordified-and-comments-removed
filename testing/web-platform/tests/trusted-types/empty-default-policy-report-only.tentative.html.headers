@@ -12,3 +12,15 @@ trusted
 -
 types
 *
+;
+require
+-
+trusted
+-
+types
+-
+for
+'
+script
+'
+;
