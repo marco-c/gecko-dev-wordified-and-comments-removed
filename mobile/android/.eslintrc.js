@@ -134,13 +134,6 @@ extensions
 *
 *
 "
-"
-modules
-/
-WebsiteMetadata
-.
-jsm
-"
 ]
 rules
 :
