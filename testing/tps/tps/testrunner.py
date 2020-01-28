@@ -516,7 +516,7 @@ False
 '
 extensions
 .
-legacy
+experiments
 .
 enabled
 '

@@ -4,6 +4,16 @@ prefs
 .
 setBoolPref
 (
+PREF_DISABLE_SECURITY
+true
+)
+;
+Services
+.
+prefs
+.
+setBoolPref
+(
 PREF_EM_STRICT_COMPATIBILITY
 false
 )

@@ -341,7 +341,7 @@ user_pref
 "
 extensions
 .
-legacy
+experiments
 .
 enabled
 "
