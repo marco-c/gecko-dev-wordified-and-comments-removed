@@ -60,6 +60,15 @@ _state
 ;
 }
 get
+contentBlockingEvent
+(
+)
+{
+return
+0
+;
+}
+get
 secInfo
 (
 )

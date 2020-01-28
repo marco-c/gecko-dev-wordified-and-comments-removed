@@ -88801,6 +88801,13 @@ mMallocSizeOf
 )
 ;
 }
+mContentBlockingLog
+.
+AddSizeOfExcludingThis
+(
+aWindowSizes
+)
+;
 DocumentOrShadowRoot
 :
 :
