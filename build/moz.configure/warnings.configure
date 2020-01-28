@@ -1250,8 +1250,6 @@ check_and_add_gcc_warning
 -
 Wno
 -
-error
-=
 multistatement
 -
 macros
