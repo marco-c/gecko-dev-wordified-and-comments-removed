@@ -776,6 +776,7 @@ undefined
 setElementPickerState
 (
 state
+pickerType
 )
 {
 this
@@ -785,6 +786,7 @@ touchSimulator
 setElementPickerState
 (
 state
+pickerType
 )
 ;
 }
