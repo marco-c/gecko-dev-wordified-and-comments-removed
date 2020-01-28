@@ -985,7 +985,7 @@ if
 hadEditor
 )
 {
-todo
+ok
 (
 beforeInputFired
 "
