@@ -103,6 +103,15 @@ load
 1
 .
 xhtml
+pref
+(
+canvas
+.
+mozgetasfile
+.
+enabled
+true
+)
 load
 681190
 .

@@ -280,6 +280,15 @@ mozOpaque
 [
 Throws
 NeedsSubjectPrincipal
+Pref
+=
+"
+canvas
+.
+mozgetasfile
+.
+enabled
+"
 ]
 File
 mozGetAsFile
