@@ -4309,6 +4309,14 @@ e
 if
 (
 !
+request
+.
+eager
+)
+{
+if
+(
+!
 awaitResult
 )
 {
@@ -4343,6 +4351,7 @@ res
 }
 )
 ;
+}
 }
 return
 {
