@@ -1,6 +1,7 @@
 export
 {
 loadFilter
+makeFilter
 }
 from
 '

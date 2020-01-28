@@ -12,6 +12,7 @@ tests
 import
 {
 TestGroup
+assert
 pcombine
 poptions
 }
@@ -423,16 +424,13 @@ getContext
 '
 )
 ;
-if
+assert
 (
-!
 imageCanvasContext
-)
-{
-throw
-new
-Error
-(
+!
+=
+=
+null
 '
 Cannot
 create
@@ -448,7 +446,6 @@ imageBitmap
 '
 )
 ;
-}
 imageCanvasContext
 .
 drawImage
