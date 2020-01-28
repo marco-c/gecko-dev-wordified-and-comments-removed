@@ -371,7 +371,12 @@ endif
 ifdef
 MOZ_WAYLAND
 bool
-UseWaylandDMABufSurfaces
+UseWaylandDMABufTextures
+(
+)
+;
+bool
+UseWaylandDMABufWebGL
 (
 )
 ;
