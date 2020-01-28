@@ -181,6 +181,8 @@ marionette
 -
 mochitest
 -
+mochitest
+-
 a11y
 -
 mochitest
@@ -2512,6 +2514,8 @@ marionette
 -
 mochitest
 -
+mochitest
+-
 browser
 -
 chrome
@@ -2574,8 +2578,6 @@ gtest
 jsreftest
 -
 jittest
--
-mochitest
 -
 mochitest
 -
@@ -2671,8 +2673,6 @@ jsreftest
 -
 mochitest
 -
-mochitest
--
 a11y
 -
 mochitest
@@ -2723,8 +2723,6 @@ tests
 -
 mochitest
 -
-mochitest
--
 remote
 -
 mochitest
@@ -2764,6 +2762,8 @@ qr
 -
 tests
 :
+-
+mochitest
 -
 mochitest
 -
