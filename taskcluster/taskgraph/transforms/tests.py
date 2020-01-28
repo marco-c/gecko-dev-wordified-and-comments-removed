@@ -2940,9 +2940,6 @@ video
 =
 True
         
-else
-:
-            
 test
 [
 '
