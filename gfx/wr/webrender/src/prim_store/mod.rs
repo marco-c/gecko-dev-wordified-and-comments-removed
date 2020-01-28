@@ -12612,6 +12612,9 @@ pic_index
 .
 restore_context
 (
+pic_context
+.
+surface_index
 prim_list
 pic_context_for_children
 pic_state_for_children
