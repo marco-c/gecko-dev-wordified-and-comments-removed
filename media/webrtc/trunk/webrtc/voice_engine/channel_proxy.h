@@ -756,6 +756,7 @@ RtpPacketObserver
 observer
 )
 ;
+virtual
 void
 SetRtcpEventObserver
 (

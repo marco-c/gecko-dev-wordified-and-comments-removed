@@ -5402,6 +5402,14 @@ mRecvChannel
 )
 {
 mRecvChannelProxy
+-
+>
+SetRtcpEventObserver
+(
+nullptr
+)
+;
+mRecvChannelProxy
 =
 nullptr
 ;
