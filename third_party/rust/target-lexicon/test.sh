@@ -8,6 +8,8 @@ set
 -
 oeu
 pipefail
+cargo
+clean
 for
 trip
 in

@@ -9,6 +9,13 @@ Operator
 Result
 }
 ;
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 OperatorsReader
@@ -17,6 +24,10 @@ OperatorsReader
 a
 >
 {
+pub
+(
+crate
+)
 reader
 :
 BinaryReader

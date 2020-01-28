@@ -4,7 +4,7 @@ MAX_WASM_TYPES
 :
 usize
 =
-1000000
+1_000_000
 ;
 pub
 const
@@ -12,7 +12,7 @@ MAX_WASM_FUNCTIONS
 :
 usize
 =
-1000000
+1_000_000
 ;
 pub
 const
@@ -20,7 +20,7 @@ _MAX_WASM_IMPORTS
 :
 usize
 =
-100000
+100_000
 ;
 pub
 const
@@ -28,7 +28,7 @@ _MAX_WASM_EXPORTS
 :
 usize
 =
-100000
+100_000
 ;
 pub
 const
@@ -36,7 +36,7 @@ MAX_WASM_GLOBALS
 :
 usize
 =
-1000000
+1_000_000
 ;
 pub
 const
@@ -44,7 +44,7 @@ _MAX_WASM_DATA_SEGMENTS
 :
 usize
 =
-100000
+100_000
 ;
 pub
 const
@@ -60,7 +60,7 @@ MAX_WASM_STRING_SIZE
 :
 usize
 =
-100000
+100_000
 ;
 pub
 const
@@ -114,7 +114,7 @@ _MAX_WASM_TABLE_SIZE
 :
 usize
 =
-10000000
+10_000_000
 ;
 pub
 const
@@ -122,7 +122,7 @@ MAX_WASM_TABLE_ENTRIES
 :
 usize
 =
-10000000
+10_000_000
 ;
 pub
 const

@@ -1,16 +1,4 @@
 use
-core
-:
-:
-iter
-:
-:
-{
-IntoIterator
-Iterator
-}
-;
-use
 super
 :
 :

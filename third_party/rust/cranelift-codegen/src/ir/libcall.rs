@@ -968,7 +968,7 @@ flags
 (
 )
 .
-colocated_libcalls
+use_colocated_libcalls
 (
 )
 }

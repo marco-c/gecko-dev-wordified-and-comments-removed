@@ -646,6 +646,7 @@ Vec
 OperandConstraint
 >
 >
+pub
 compute_size
 :
 Option

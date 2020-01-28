@@ -825,6 +825,14 @@ entry
 =
 >
 {
+let
+layout
+=
+&
+func
+.
+layout
+;
 debug_assert
 !
 (
@@ -839,9 +847,6 @@ get
 (
 )
 inst
-&
-func
-.
 layout
 )
 )
