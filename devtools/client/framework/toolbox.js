@@ -14255,16 +14255,6 @@ objectActor
 ;
 if
 (
-this
-.
-currentToolId
-!
-=
-"
-inspector
-"
-&
-&
 objectGrip
 .
 preview
