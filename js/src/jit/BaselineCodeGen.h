@@ -696,7 +696,6 @@ define
 EMIT_OP
 (
 op
-op_camel
 .
 .
 .
@@ -705,7 +704,7 @@ bool
 emit_
 #
 #
-op_camel
+op
 (
 )
 ;
