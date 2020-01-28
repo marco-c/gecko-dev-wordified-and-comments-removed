@@ -3535,6 +3535,10 @@ ClearCaches
 (
 ClearCache
 )
+EnableNativeCompositor
+(
+bool
+)
 InvalidateGpuCache
 SimulateLongSceneBuild
 (
