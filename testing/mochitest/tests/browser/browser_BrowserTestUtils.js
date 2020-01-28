@@ -133,7 +133,7 @@ top
 ;
 width
 :
-30px
+80px
 ;
 height
 :
@@ -258,7 +258,7 @@ is
 details
 "
 button
-31
+56
 34
 "
 "
