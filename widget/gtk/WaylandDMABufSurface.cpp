@@ -2577,6 +2577,9 @@ WaylandDMABufSurface
 (
 )
 ;
+if
+(
+!
 surf
 -
 >
@@ -2586,7 +2589,12 @@ aWidth
 aHeight
 aWaylandDMABufSurfaceFlags
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 surf
 .
@@ -2627,6 +2635,9 @@ WaylandDMABufSurface
 (
 )
 ;
+if
+(
+!
 surf
 -
 >
@@ -2634,7 +2645,12 @@ Create
 (
 aDesc
 )
+)
+{
+return
+nullptr
 ;
+}
 return
 surf
 .
