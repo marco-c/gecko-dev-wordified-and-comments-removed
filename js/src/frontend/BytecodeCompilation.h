@@ -551,12 +551,6 @@ char16_t
 >
 &
 srcBuf
-ScriptSourceObject
-*
-*
-sourceObjectOut
-=
-nullptr
 )
 ;
 extern
@@ -579,12 +573,6 @@ Utf8Unit
 >
 &
 srcBuf
-ScriptSourceObject
-*
-*
-sourceObjectOut
-=
-nullptr
 )
 ;
 class
