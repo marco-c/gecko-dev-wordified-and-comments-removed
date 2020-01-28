@@ -2306,7 +2306,7 @@ api
 -
 16
 -
-gcp
+aws
 /
 debug
 :
@@ -2339,7 +2339,7 @@ api
 -
 16
 -
-gcp
+aws
 -
 debug
 attributes
@@ -2380,7 +2380,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -2406,7 +2406,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -2457,7 +2457,7 @@ android
 -
 x86
 -
-gcp
+aws
 /
 opt
 :
@@ -2485,7 +2485,7 @@ android
 -
 x86
 -
-gcp
+aws
 -
 opt
 attributes
@@ -2524,7 +2524,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -2552,7 +2552,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -2601,7 +2601,7 @@ api
 -
 16
 -
-gcp
+aws
 /
 opt
 :
@@ -2634,7 +2634,7 @@ api
 -
 16
 -
-gcp
+aws
 -
 opt
 attributes
@@ -2675,7 +2675,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -2701,7 +2701,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -2750,7 +2750,7 @@ android
 -
 aarch64
 -
-gcp
+aws
 /
 opt
 :
@@ -2778,7 +2778,7 @@ android
 -
 aarch64
 -
-gcp
+aws
 -
 opt
 attributes
@@ -2817,7 +2817,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -2843,7 +2843,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -2890,7 +2890,7 @@ android
 -
 aarch64
 -
-gcp
+aws
 /
 debug
 :
@@ -2918,7 +2918,7 @@ android
 -
 aarch64
 -
-gcp
+aws
 -
 debug
 attributes
@@ -2957,7 +2957,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -2983,7 +2983,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -3032,7 +3032,7 @@ android
 -
 x86_64
 -
-gcp
+aws
 /
 opt
 :
@@ -3062,7 +3062,7 @@ android
 -
 x86_64
 -
-gcp
+aws
 -
 opt
 attributes
@@ -3101,7 +3101,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -3129,7 +3129,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions
@@ -3176,7 +3176,7 @@ android
 -
 x86_64
 -
-gcp
+aws
 /
 debug
 :
@@ -3206,7 +3206,7 @@ android
 -
 x86_64
 -
-gcp
+aws
 -
 debug
 attributes
@@ -3245,7 +3245,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 env
@@ -3273,7 +3273,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 actions

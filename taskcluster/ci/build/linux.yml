@@ -6557,7 +6557,7 @@ wasi
 sysroot
 linux
 -
-gcp
+aws
 /
 debug
 :
@@ -6582,7 +6582,7 @@ name
 :
 linux
 -
-gcp
+aws
 -
 debug
 attributes
@@ -6615,7 +6615,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 docker
@@ -6644,7 +6644,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
@@ -6772,7 +6772,7 @@ wasi
 sysroot
 linux
 -
-gcp
+aws
 /
 opt
 :
@@ -6797,7 +6797,7 @@ name
 :
 linux
 -
-gcp
+aws
 -
 opt
 attributes
@@ -6830,7 +6830,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 docker
@@ -6859,7 +6859,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
@@ -6973,7 +6973,7 @@ wasi
 sysroot
 linux64
 -
-gcp
+aws
 /
 debug
 :
@@ -6998,7 +6998,7 @@ name
 :
 linux64
 -
-gcp
+aws
 -
 debug
 attributes
@@ -7031,7 +7031,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 max
@@ -7045,7 +7045,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
@@ -7159,7 +7159,7 @@ wasi
 sysroot
 linux64
 -
-gcp
+aws
 /
 opt
 :
@@ -7184,7 +7184,7 @@ name
 :
 linux64
 -
-gcp
+aws
 -
 opt
 attributes
@@ -7217,7 +7217,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 max
@@ -7231,7 +7231,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
