@@ -778,8 +778,9 @@ a
 different
 result
 .
+-
 returned
-.
+:
 The
 user
 abandoned
@@ -826,8 +827,9 @@ original
 search
 string
 .
+-
 restarted
-.
+:
 The
 user
 abandoned
