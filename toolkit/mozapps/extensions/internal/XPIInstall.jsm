@@ -7309,11 +7309,7 @@ updateAddonDisabledState
 this
 .
 existingAddon
-{
-userDisabled
-:
 false
-}
 )
 ;
 this
