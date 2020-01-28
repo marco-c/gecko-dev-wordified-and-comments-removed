@@ -5671,8 +5671,6 @@ file
 "
 +
 aFile
-.
-path
 )
 ;
 }
