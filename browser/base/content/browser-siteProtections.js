@@ -405,7 +405,6 @@ state
 )
 ;
 }
-async
 updateSubView
 (
 )
@@ -413,7 +412,6 @@ updateSubView
 let
 contentBlockingLog
 =
-await
 gBrowser
 .
 selectedBrowser
@@ -1054,7 +1052,6 @@ state
 )
 ;
 }
-async
 updateSubView
 (
 )
@@ -1062,7 +1059,6 @@ updateSubView
 let
 contentBlockingLog
 =
-await
 gBrowser
 .
 selectedBrowser
@@ -1984,7 +1980,6 @@ innerWindowID
 let
 contentBlockingLog
 =
-await
 gBrowser
 .
 selectedBrowser
@@ -3337,7 +3332,6 @@ STATE_COOKIES_LOADED
 0
 ;
 }
-async
 updateSubView
 (
 )
@@ -3345,7 +3339,6 @@ updateSubView
 let
 contentBlockingLog
 =
-await
 gBrowser
 .
 selectedBrowser
@@ -5170,7 +5163,6 @@ list
 )
 ;
 }
-async
 updateSubView
 (
 )
@@ -5178,7 +5170,6 @@ updateSubView
 let
 contentBlockingLog
 =
-await
 gBrowser
 .
 selectedBrowser
