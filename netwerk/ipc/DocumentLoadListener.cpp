@@ -5594,7 +5594,7 @@ NS_IMETHODIMP
 DocumentLoadListener
 :
 :
-GetCrossOriginOpenerPolicy
+GetCachedCrossOriginOpenerPolicy
 (
 nsILoadInfo
 :

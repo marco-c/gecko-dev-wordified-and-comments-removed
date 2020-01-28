@@ -214,6 +214,18 @@ NeckoMessageUtils
 h
 "
 ;
+using
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+from
+"
+nsILoadInfo
+.
+h
+"
+;
 namespace
 mozilla
 {
@@ -860,6 +872,8 @@ uint32_t
 multiPartId
 bool
 isLastPartOfMultiPart
+CrossOriginOpenerPolicy
+policy
 )
 ;
 /

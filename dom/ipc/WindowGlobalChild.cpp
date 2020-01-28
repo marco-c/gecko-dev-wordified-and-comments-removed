@@ -542,12 +542,8 @@ NS_SUCCEEDED
 httpChan
 -
 >
-ComputeCrossOriginOpenerPolicy
+GetCrossOriginOpenerPolicy
 (
-nsILoadInfo
-:
-:
-OPENER_POLICY_NULL
 &
 policy
 )

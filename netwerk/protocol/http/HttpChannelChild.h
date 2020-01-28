@@ -626,6 +626,13 @@ const
 bool
 &
 aIsLastPartOfMultiPart
+const
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+&
+aOpenerPolicy
 )
 override
 ;
@@ -2071,6 +2078,13 @@ const
 bool
 &
 aIsLastPartOfMultiPart
+const
+nsILoadInfo
+:
+:
+CrossOriginOpenerPolicy
+&
+aOpenerPolicy
 )
 ;
 void
