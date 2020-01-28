@@ -4567,7 +4567,7 @@ let
 addEventListenerStub
 ;
 let
-message
+messages
 ;
 let
 browser
@@ -4580,7 +4580,7 @@ async
 =
 >
 {
-message
+messages
 =
 (
 await
@@ -4689,7 +4689,7 @@ instance
 forceShowMessage
 (
 browser
-message
+messages
 )
 ;
 assert
@@ -4734,7 +4734,7 @@ instance
 forceShowMessage
 (
 browser
-message
+messages
 )
 ;
 assert
@@ -4758,8 +4758,17 @@ force
 true
 messages
 :
+Array
+.
+isArray
+(
+messages
+)
+?
+messages
+:
 [
-message
+messages
 ]
 }
 )
@@ -4794,7 +4803,7 @@ instance
 forceShowMessage
 (
 browser
-message
+messages
 )
 ;
 assert

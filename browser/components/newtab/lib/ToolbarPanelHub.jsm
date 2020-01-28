@@ -2964,7 +2964,7 @@ true
 forceShowMessage
 (
 browser
-message
+messages
 )
 {
 const
@@ -3006,8 +3006,17 @@ force
 true
 messages
 :
+Array
+.
+isArray
+(
+messages
+)
+?
+messages
+:
 [
-message
+messages
 ]
 }
 )
