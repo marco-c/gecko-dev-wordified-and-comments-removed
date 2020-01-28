@@ -105,7 +105,7 @@ getContext
 '
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR
@@ -132,7 +132,7 @@ createRadialGradient
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR
@@ -159,7 +159,7 @@ createRadialGradient
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR

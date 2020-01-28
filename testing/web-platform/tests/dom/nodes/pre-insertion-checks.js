@@ -168,7 +168,7 @@ function
 parent
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 HierarchyRequestError
@@ -266,7 +266,7 @@ appendChild
 parent
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 HierarchyRequestError
@@ -365,7 +365,7 @@ function
 node
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError
@@ -468,7 +468,7 @@ foo
 null
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError
@@ -517,7 +517,7 @@ function
 parent
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError
@@ -652,7 +652,7 @@ div
 )
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError
@@ -698,7 +698,7 @@ div
 )
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError
@@ -763,7 +763,7 @@ html
 "
 "
 )
-assert_throws
+assert_throws_dom
 (
 "
 NotFoundError

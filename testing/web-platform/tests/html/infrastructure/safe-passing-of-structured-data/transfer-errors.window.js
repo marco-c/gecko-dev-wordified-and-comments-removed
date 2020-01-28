@@ -4,7 +4,7 @@ assert_transfer_error
 transferList
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -162,7 +162,7 @@ transferable
 ]
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -334,7 +334,7 @@ true
 }
 }
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError

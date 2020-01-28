@@ -420,7 +420,7 @@ type
 }
 else
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -567,7 +567,7 @@ type
 }
 else
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -702,7 +702,7 @@ type
 }
 else
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidAccessError
@@ -808,7 +808,7 @@ type
 }
 else
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError

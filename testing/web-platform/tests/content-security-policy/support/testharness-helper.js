@@ -606,7 +606,7 @@ src
 )
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -720,7 +720,7 @@ src
 )
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError

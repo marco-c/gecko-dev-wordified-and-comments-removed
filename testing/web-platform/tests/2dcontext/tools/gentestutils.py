@@ -1885,7 +1885,7 @@ _ERR
                 
 r
 '
-assert_throws
+assert_throws_dom
 (
 "
 \

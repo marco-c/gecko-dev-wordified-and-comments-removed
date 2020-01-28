@@ -108,7 +108,7 @@ createLinearGradient
 0
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR
@@ -132,7 +132,7 @@ addColorStop
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR

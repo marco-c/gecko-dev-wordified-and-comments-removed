@@ -379,7 +379,7 @@ createHTMLDocument
 .
 documentElement
 ;
-assert_throws
+assert_throws_dom
 (
 "
 HIERARCHY_REQUEST_ERR
@@ -433,7 +433,7 @@ createHTMLDocument
 .
 documentElement
 ;
-assert_throws
+assert_throws_dom
 (
 "
 HIERARCHY_REQUEST_ERR
@@ -482,7 +482,7 @@ h3
 '
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR
@@ -516,7 +516,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 SYNTAX_ERR

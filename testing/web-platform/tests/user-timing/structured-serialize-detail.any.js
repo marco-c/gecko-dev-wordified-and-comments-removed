@@ -210,7 +210,7 @@ Symbol
 )
 }
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -473,7 +473,7 @@ Symbol
 )
 }
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError

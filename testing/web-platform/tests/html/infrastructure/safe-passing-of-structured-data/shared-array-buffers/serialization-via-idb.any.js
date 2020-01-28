@@ -53,7 +53,7 @@ key
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -163,7 +163,7 @@ getter2Called
 =
 false
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError

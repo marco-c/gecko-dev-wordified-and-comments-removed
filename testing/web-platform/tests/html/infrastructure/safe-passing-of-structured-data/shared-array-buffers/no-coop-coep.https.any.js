@@ -21,7 +21,7 @@ MessageChannel
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -80,7 +80,7 @@ egal
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError
@@ -135,7 +135,7 @@ SharedArrayBuffer
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 DataCloneError

@@ -56,7 +56,7 @@ Node
 DOCUMENT_TYPE_NODE
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_NODE_TYPE_ERR
@@ -130,7 +130,7 @@ point
 )
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 INDEX_SIZE_ERR

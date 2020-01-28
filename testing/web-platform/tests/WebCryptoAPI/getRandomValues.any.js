@@ -4,7 +4,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 TypeMismatchError
@@ -30,7 +30,7 @@ Float32Array
 Float32Array
 "
 )
-assert_throws
+assert_throws_dom
 (
 "
 TypeMismatchError
@@ -56,7 +56,7 @@ Float64Array
 Float64Array
 "
 )
-assert_throws
+assert_throws_dom
 (
 "
 TypeMismatchError
@@ -86,7 +86,7 @@ long
 )
 "
 )
-assert_throws
+assert_throws_dom
 (
 "
 TypeMismatchError
@@ -252,7 +252,7 @@ array
 BYTES_PER_ELEMENT
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 QuotaExceededError

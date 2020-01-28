@@ -963,7 +963,7 @@ undefined
 500
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError

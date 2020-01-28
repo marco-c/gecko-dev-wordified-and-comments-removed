@@ -208,7 +208,7 @@ client
 send
 (
 )
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -236,7 +236,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -325,7 +325,7 @@ send
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError

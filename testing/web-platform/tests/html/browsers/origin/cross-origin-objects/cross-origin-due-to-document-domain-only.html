@@ -194,7 +194,7 @@ setDocumentDomain
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -208,7 +208,7 @@ innerSelf
 expandosForever
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -222,7 +222,7 @@ innerLocation
 expandosForever
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -244,7 +244,7 @@ parent
 self
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError
@@ -258,7 +258,7 @@ innerSelf
 frameElement
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 SecurityError

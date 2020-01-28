@@ -11,7 +11,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -33,7 +33,7 @@ afterend
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -55,7 +55,7 @@ beforebegin
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -78,7 +78,7 @@ foo
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -132,7 +132,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -162,7 +162,7 @@ fail
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -223,7 +223,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR
@@ -252,7 +252,7 @@ div
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 NO_MODIFICATION_ALLOWED_ERR

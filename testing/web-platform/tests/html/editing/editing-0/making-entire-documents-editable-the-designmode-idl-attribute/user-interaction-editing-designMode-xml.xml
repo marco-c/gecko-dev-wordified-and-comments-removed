@@ -210,7 +210,7 @@ value
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -230,7 +230,7 @@ delete
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -288,7 +288,7 @@ value
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -308,7 +308,7 @@ delete
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -371,7 +371,7 @@ value
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError
@@ -391,7 +391,7 @@ delete
 }
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError

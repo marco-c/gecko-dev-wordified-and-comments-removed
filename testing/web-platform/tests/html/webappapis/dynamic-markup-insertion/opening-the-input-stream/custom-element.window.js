@@ -139,7 +139,7 @@ element
 "
 )
 ;
-assert_throws
+assert_throws_dom
 (
 "
 InvalidStateError

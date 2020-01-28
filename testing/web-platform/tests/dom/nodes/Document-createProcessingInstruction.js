@@ -138,7 +138,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_dom
 (
 "
 INVALID_CHARACTER_ERR
