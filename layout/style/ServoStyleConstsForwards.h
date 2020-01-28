@@ -389,6 +389,13 @@ class
 Document
 ;
 }
+namespace
+ipc
+{
+class
+ByteBuf
+;
+}
 template
 <
 typename
