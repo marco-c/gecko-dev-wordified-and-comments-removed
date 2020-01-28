@@ -17533,7 +17533,7 @@ aError
 {
 FORWARD_TO_OUTER_OR_THROW
 (
-GetRealFrameElementOuter
+GetFrameElement
 (
 )
 aError

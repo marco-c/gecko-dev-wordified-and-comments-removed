@@ -11285,16 +11285,10 @@ Element
 >
 frameElement
 =
-nsGlobalWindowOuter
-:
-:
-Cast
-(
 context
-)
 -
 >
-GetRealFrameElementOuter
+GetFrameElement
 (
 )
 ;
