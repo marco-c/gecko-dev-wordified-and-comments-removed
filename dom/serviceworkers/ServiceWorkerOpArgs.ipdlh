@@ -231,9 +231,6 @@ nsString
 resultingClientId
 ;
 bool
-isReload
-;
-bool
 isNonSubresourceRequest
 ;
 }
