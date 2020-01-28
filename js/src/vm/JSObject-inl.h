@@ -3498,15 +3498,7 @@ if
 callee
 -
 >
-isBoundFunction
-(
-)
-|
-|
-callee
--
->
-isDerivedClassConstructor
+constructorNeedsUninitializedThis
 (
 )
 )
