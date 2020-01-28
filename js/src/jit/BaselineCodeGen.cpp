@@ -35058,8 +35058,7 @@ Method_Error
 define
 EMIT_OP
 (
-op
-op_camel
+OP
 .
 .
 .
@@ -35069,7 +35068,7 @@ case
 JSOp
 :
 :
-op_camel
+OP
 :
 \
 if
@@ -35083,7 +35082,7 @@ this
 emit_
 #
 #
-op_camel
+OP
 (
 )
 )
@@ -35592,8 +35591,7 @@ JSOP_LIMIT
 define
 EMIT_OP
 (
-op
-op_camel
+OP
 .
 .
 .
@@ -35613,7 +35611,7 @@ uint8_t
 JSOp
 :
 :
-op_camel
+OP
 )
 ]
 )
@@ -35626,7 +35624,7 @@ setCurrentOp
 JSOp
 :
 :
-op_camel
+OP
 )
 ;
 \
@@ -35639,7 +35637,7 @@ this
 emit_
 #
 #
-op_camel
+OP
 (
 )
 )
@@ -35659,11 +35657,11 @@ opEpilogue
 JSOp
 :
 :
-op_camel
+OP
 JSOpLength_
 #
 #
-op_camel
+OP
 )
 )
 {

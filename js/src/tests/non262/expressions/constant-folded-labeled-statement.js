@@ -72,7 +72,7 @@ reportCompare
 (
 true
 /
-int8
+Int8
 4
 /
 .
