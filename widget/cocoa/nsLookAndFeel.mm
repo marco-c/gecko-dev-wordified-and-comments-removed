@@ -300,6 +300,15 @@ mAllowOverlayScrollbarsOverlapCached
 (
 false
 )
+mPrefersReducedMotion
+(
+-
+1
+)
+mPrefersReducedMotionCached
+(
+false
+)
 mSystemUsesDarkTheme
 (
 -
