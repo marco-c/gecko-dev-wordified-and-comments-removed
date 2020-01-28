@@ -60,7 +60,7 @@ version_info
 else
 six
 .
-ensure_string
+ensure_str
     
 return
 {
