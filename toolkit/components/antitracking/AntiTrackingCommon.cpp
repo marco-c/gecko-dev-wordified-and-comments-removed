@@ -5340,7 +5340,10 @@ if
 GetParentPrincipalAndTrackingOrigin
 (
 parentWindow
-behavior
+nsICookieService
+:
+:
+BEHAVIOR_ACCEPT
 getter_AddRefs
 (
 topLevelStoragePrincipal
