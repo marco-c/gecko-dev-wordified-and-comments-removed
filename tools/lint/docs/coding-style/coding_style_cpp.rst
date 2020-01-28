@@ -1167,11 +1167,8 @@ C
 method
 names
 should
-be
-capitalized
-and
 use
-camelCase
+UpperCamelCase
 .
 Getters
 that
