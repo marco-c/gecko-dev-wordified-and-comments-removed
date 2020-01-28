@@ -25590,7 +25590,7 @@ mAborted
 (
 false
 )
-mHasTriedToDispatchedBeforeInputEvent
+mHasTriedToDispatchBeforeInputEvent
 (
 false
 )
@@ -25825,7 +25825,9 @@ aData
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 It
 '
@@ -26011,7 +26013,9 @@ IsReadOnly
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 It
 '
@@ -26062,7 +26066,9 @@ aTransferable
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 It
 '
@@ -26140,7 +26146,9 @@ aString
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 It
 '
@@ -26218,7 +26226,9 @@ aClipboardType
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 It
 '
@@ -26303,7 +26313,9 @@ MaybeDispatchBeforeInputEvent
 MOZ_ASSERT
 (
 !
-mHasTriedToDispatchedBeforeInputEvent
+HasTriedToDispatchBeforeInputEvent
+(
+)
 "
 We
 '
@@ -26329,7 +26341,7 @@ NeedsToDispatchBeforeInputEvent
 )
 )
 ;
-mHasTriedToDispatchedBeforeInputEvent
+mHasTriedToDispatchBeforeInputEvent
 =
 true
 ;
