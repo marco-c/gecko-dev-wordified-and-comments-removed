@@ -77,7 +77,7 @@ class
 PostMessageRunnable
 ;
 class
-SharedMessagePortMessage
+SharedMessageBody
 ;
 class
 RefMessageBodyService
@@ -651,7 +651,7 @@ nsTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 mMessages
@@ -660,7 +660,7 @@ nsTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 mMessagesForTheOtherPort

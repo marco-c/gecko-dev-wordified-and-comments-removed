@@ -172,11 +172,6 @@ MessagePortService
 .
 cpp
 '
-'
-SharedMessagePortMessage
-.
-cpp
-'
 ]
 IPDL_SOURCES
 +

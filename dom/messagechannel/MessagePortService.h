@@ -35,7 +35,7 @@ class
 MessagePortParent
 ;
 class
-SharedMessagePortMessage
+SharedMessageBody
 ;
 class
 MessagePortService
@@ -90,7 +90,7 @@ FallibleTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 &
@@ -115,7 +115,7 @@ FallibleTArray
 <
 RefPtr
 <
-SharedMessagePortMessage
+SharedMessageBody
 >
 >
 &

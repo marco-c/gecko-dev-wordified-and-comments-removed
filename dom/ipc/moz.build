@@ -362,6 +362,11 @@ RemoteWebProgressRequest
 h
 '
 '
+SharedMessageBody
+.
+h
+'
+'
 TabContext
 .
 h
@@ -605,6 +610,11 @@ cpp
 '
 '
 SharedMap
+.
+cpp
+'
+'
+SharedMessageBody
 .
 cpp
 '
