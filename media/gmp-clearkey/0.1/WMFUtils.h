@@ -1100,7 +1100,15 @@ char
 WMFDecoderDllName
 (
 )
+{
+return
+"
+msmpeg2vdec
+.
+dll
+"
 ;
+}
 int32_t
 GetNumThreads
 (
