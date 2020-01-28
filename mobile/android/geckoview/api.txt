@@ -12969,17 +12969,6 @@ PromptDelegate
 )
 ;
 method
-AnyThread
-public
-void
-setTabActive
-(
-NonNull
-GeckoSession
-boolean
-)
-;
-method
 UiThread
 public
 void
