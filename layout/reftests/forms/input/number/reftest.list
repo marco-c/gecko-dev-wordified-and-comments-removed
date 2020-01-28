@@ -650,10 +650,10 @@ fuzzy
 if
 (
 gtkWidget
-0
+181
 -
 181
-0
+722
 -
 722
 )
@@ -671,6 +671,10 @@ selected
 ref
 .
 html
+#
+gtkWidget
+Bug
+1591611
 #
 pseudo
 -
@@ -810,10 +814,10 @@ fuzzy
 if
 (
 gtkWidget
-0
+255
 -
 255
-0
+502
 -
 502
 )
@@ -836,8 +840,6 @@ ref
 .
 html
 #
-permissive
-due
-to
+gtkWidget
 Bug
 1591613
