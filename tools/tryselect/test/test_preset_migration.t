@@ -11,12 +11,6 @@ migration
 of
 syntax
 preset
-rm
-MOZBUILD_STATE_PATH
-/
-try_presets
-.
-yml
 cat
 >
 MOZBUILD_STATE_PATH
