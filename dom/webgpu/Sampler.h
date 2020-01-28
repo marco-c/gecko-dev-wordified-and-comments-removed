@@ -49,10 +49,6 @@ GPU_DECL_JS_WRAP
 (
 Sampler
 )
-const
-RawId
-mId
-;
 private
 :
 Sampler

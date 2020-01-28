@@ -1235,10 +1235,6 @@ char
 WGPURawString
 ;
 typedef
-uint32_t
-WGPUDynamicOffset
-;
-typedef
 uint64_t
 WGPUId_ComputePipeline_Dummy
 ;
@@ -1468,11 +1464,11 @@ WGPUBufferUsage_STORAGE
 128
 #
 define
-WGPUBufferUsage_INDIRECT
+WGPUBufferUsage_STORAGE_READ
 256
 #
 define
-WGPUBufferUsage_STORAGE_READ
+WGPUBufferUsage_INDIRECT
 512
 #
 define
@@ -2299,7 +2295,7 @@ index
 WGPUBindGroupId
 bind_group_id
 const
-WGPUDynamicOffset
+WGPUBufferAddress
 *
 offsets
 uintptr_t
@@ -2682,7 +2678,7 @@ index
 WGPUBindGroupId
 bind_group_id
 const
-WGPUDynamicOffset
+WGPUBufferAddress
 *
 offsets
 uintptr_t

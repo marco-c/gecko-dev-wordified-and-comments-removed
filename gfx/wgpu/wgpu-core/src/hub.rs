@@ -115,10 +115,6 @@ std
 :
 :
 {
-fmt
-:
-:
-Debug
 marker
 :
 :
@@ -2042,15 +2038,11 @@ IdentityFilter
 <
 I
 >
-:
-Debug
 {
 type
 Input
 :
 Clone
-+
-Debug
 ;
 fn
 process
@@ -2089,8 +2081,6 @@ I
 TypedId
 +
 Clone
-+
-Debug
 >
 IdentityFilter
 <
@@ -2140,8 +2130,6 @@ impl
 I
 :
 TypedId
-+
-Debug
 >
 IdentityFilter
 <
