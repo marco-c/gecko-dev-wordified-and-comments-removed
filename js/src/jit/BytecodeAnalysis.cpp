@@ -314,9 +314,9 @@ length
 )
 )
 CodeName
-[
+(
 op
-]
+)
 )
 ;
 if

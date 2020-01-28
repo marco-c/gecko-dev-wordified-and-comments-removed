@@ -4686,9 +4686,9 @@ int
 )
 pcOff
 CodeName
-[
+(
 op
-]
+)
 PCToLineNumber
 (
 script
@@ -5080,9 +5080,9 @@ after
 at
 "
 CodeName
-[
+(
 op
-]
+)
 PCToLineNumber
 (
 script

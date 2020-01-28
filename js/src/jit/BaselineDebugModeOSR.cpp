@@ -1118,13 +1118,13 @@ RetAddrEntryKindToString
 frameKind
 )
 CodeName
-[
 (
 JSOp
-)
+(
 *
 pc
-]
+)
+)
 )
 ;
 }
