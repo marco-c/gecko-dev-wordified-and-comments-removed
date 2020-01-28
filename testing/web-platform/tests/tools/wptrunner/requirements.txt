@@ -28,6 +28,12 @@ mozdebug
 1
 .
 1
+#
+Pillow
+7
+requires
+Python
+3
 pillow
 =
 =
@@ -36,6 +42,13 @@ pillow
 2
 .
 1
+#
+pyup
+:
+<
+7
+.
+0
 urllib3
 [
 secure
