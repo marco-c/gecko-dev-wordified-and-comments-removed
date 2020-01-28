@@ -21,6 +21,8 @@ json
 import
 logging
 import
+six
+import
 requests
 from
 requests
@@ -1075,12 +1077,17 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
+six
+.
+ensure_text
+(
+                            
 json
 .
 dumps
 (
 {
-                            
+                                
 task
 .
 task
@@ -1108,8 +1115,9 @@ testPath
 '
 ]
 ]
-                        
+                            
 }
+)
 )
                     
 cmd_parts

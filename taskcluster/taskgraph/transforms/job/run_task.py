@@ -180,7 +180,7 @@ profile
 :
 Any
 (
-basestring
+text_type
 None
 )
     
@@ -217,7 +217,7 @@ workdir
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -845,7 +845,7 @@ isinstance
 (
 run_command
 (
-basestring
+text_type
 dict
 )
 )
@@ -1608,7 +1608,7 @@ if
 isinstance
 (
 run_command
-basestring
+text_type
 )
 :
         

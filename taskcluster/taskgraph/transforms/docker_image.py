@@ -12,6 +12,10 @@ from
 collections
 import
 deque
+from
+six
+import
+text_type
 import
 taskgraph
 from
@@ -117,7 +121,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -126,7 +130,7 @@ parent
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -135,7 +139,7 @@ symbol
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -146,7 +150,7 @@ from
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -156,9 +160,9 @@ args
 )
 :
 {
-basestring
+text_type
 :
-basestring
+text_type
 }
     
 Optional
@@ -168,7 +172,7 @@ definition
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -178,7 +182,7 @@ packages
 )
 :
 [
-basestring
+text_type
 ]
     
 Optional

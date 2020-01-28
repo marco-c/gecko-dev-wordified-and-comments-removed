@@ -43,6 +43,8 @@ json
 import
 os
 import
+six
+import
 subprocess
 import
 sys
@@ -1103,6 +1105,11 @@ env
 MOZHARNESS_TEST_PATHS
 '
 :
+six
+.
+ensure_text
+(
+                    
 json
 .
 dumps
@@ -1110,6 +1117,7 @@ dumps
 resolve_tests_by_suite
 (
 paths
+)
 )
 )
             

@@ -25,6 +25,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -107,7 +111,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -116,7 +120,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -139,7 +143,7 @@ locale
 '
 )
 :
-basestring
+text_type
     
 Optional
 (

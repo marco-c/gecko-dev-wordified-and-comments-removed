@@ -14,6 +14,8 @@ import
 os
 import
 shutil
+import
+six
 from
 collections
 import
@@ -2217,6 +2219,10 @@ Parameters
                 
 level
 =
+six
+.
+ensure_text
+(
 os
 .
 environ
@@ -2229,6 +2235,7 @@ MOZ_SCM_LEVEL
 '
 3
 '
+)
 )
                 
 strict

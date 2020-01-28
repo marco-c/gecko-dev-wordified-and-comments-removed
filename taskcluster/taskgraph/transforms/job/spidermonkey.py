@@ -19,6 +19,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 util
@@ -109,7 +113,7 @@ variant
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -120,7 +124,7 @@ platform
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -129,7 +133,7 @@ workdir
 '
 )
 :
-basestring
+text_type
     
 Required
 (

@@ -8,6 +8,12 @@ import
 json
 import
 os
+import
+six
+from
+six
+import
+text_type
 from
 voluptuous
 import
@@ -187,7 +193,7 @@ workdir
 '
 )
 :
-basestring
+text_type
 }
 )
 def
@@ -823,10 +829,18 @@ true
 '
         
 '
+NEED_COMPIZ
+'
+:
+'
+true
+'
+        
+'
 ENABLE_E10S
 '
 :
-str
+text_type
 (
 bool
 (
@@ -1104,18 +1118,25 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
+        
 '
 task
 -
 reference
 '
 :
+six
+.
+ensure_text
+(
 json
 .
 dumps
 (
 extra_config
 )
+)
+    
 }
     
 command
@@ -1183,6 +1204,11 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
+six
+.
+ensure_text
+(
+            
 json
 .
 dumps
@@ -1204,6 +1230,7 @@ manifests
 '
 ]
 }
+)
 )
     
 elif
@@ -2405,18 +2432,25 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
+        
 '
 task
 -
 reference
 '
 :
+six
+.
+ensure_text
+(
 json
 .
 dumps
 (
 extra_config
 )
+)
+    
 }
     
 if
@@ -2680,7 +2714,7 @@ download
 symbols
 '
 ]
-basestring
+text_type
 )
 :
             
@@ -2790,6 +2824,11 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
+six
+.
+ensure_text
+(
+            
 json
 .
 dumps
@@ -2811,6 +2850,7 @@ manifests
 '
 ]
 }
+)
 )
     
 elif
@@ -3786,18 +3826,25 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
+        
 '
 task
 -
 reference
 '
 :
+six
+.
+ensure_text
+(
 json
 .
 dumps
 (
 extra_config
 )
+)
+    
 }
     
 script
@@ -3945,6 +3992,11 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
+six
+.
+ensure_text
+(
+            
 json
 .
 dumps
@@ -3966,6 +4018,7 @@ manifests
 '
 ]
 }
+)
 )
     
 elif
