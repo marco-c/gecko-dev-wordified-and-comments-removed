@@ -714,6 +714,9 @@ default
 hit_info
 :
 None
+item_key
+:
+None
 }
 }
 fn
@@ -749,6 +752,9 @@ default
 (
 )
 hit_info
+:
+None
+item_key
 :
 None
 }
@@ -1900,6 +1906,9 @@ default
 hit_info
 :
 None
+item_key
+:
+None
 }
 ;
 builder
@@ -2450,6 +2459,9 @@ default
 (
 )
 hit_info
+:
+None
+item_key
 :
 None
 }
@@ -3080,6 +3092,9 @@ default
 hit_info
 :
 None
+item_key
+:
+None
 }
 ;
 builder
@@ -3311,6 +3326,9 @@ default
 (
 )
 hit_info
+:
+None
+item_key
 :
 None
 }
@@ -3586,6 +3604,9 @@ default
 (
 )
 hit_info
+:
+None
+item_key
 :
 None
 }
@@ -6753,6 +6774,9 @@ default
 hit_info
 :
 None
+item_key
+:
+None
 }
 ;
 builder
@@ -8371,6 +8395,9 @@ Some
 4
 )
 )
+item_key
+:
+None
 clip_rect
 :
 rect
@@ -8496,6 +8523,9 @@ Some
 5
 )
 )
+item_key
+:
+None
 clip_rect
 :
 rect
