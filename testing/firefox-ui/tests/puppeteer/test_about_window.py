@@ -148,19 +148,6 @@ elements
         
 self
 .
-assertNotEqual
-(
-self
-.
-about_window
-.
-dtds
-[
-]
-)
-        
-self
-.
 assertEqual
 (
 self
