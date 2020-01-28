@@ -2402,6 +2402,11 @@ needsPrototypeProperty
 )
 ;
 bool
+hasNonConfigurablePrototypeDataProperty
+(
+)
+;
+bool
 constructorNeedsUninitializedThis
 (
 )
