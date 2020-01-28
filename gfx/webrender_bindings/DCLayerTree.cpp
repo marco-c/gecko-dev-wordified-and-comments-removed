@@ -1207,6 +1207,10 @@ EndDraw
 (
 )
 ;
+DestroyEGLSurface
+(
+)
+;
 mCurrentSurface
 =
 Nothing
