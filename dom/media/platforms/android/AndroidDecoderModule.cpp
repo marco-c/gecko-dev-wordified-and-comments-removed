@@ -153,16 +153,6 @@ namespace
 mozilla
 ;
 using
-namespace
-mozilla
-:
-:
-java
-:
-:
-sdk
-;
-using
 media
 :
 :
