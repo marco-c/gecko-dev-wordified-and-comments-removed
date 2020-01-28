@@ -243,11 +243,6 @@ HomeProvider
 jsm
 '
 '
-InputWidgetHelper
-.
-jsm
-'
-'
 LightweightThemeConsumer
 .
 jsm
