@@ -6090,7 +6090,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 JS_ReportErrorNumberASCII
@@ -13410,7 +13410,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 ;
 }
 if
@@ -13423,7 +13423,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 |
 |
 storedScope
@@ -15482,7 +15482,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 callbacks
 closure
 )

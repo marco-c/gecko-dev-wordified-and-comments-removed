@@ -4088,7 +4088,7 @@ StructuredCloneHolder
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 ;
 #
@@ -4199,7 +4199,7 @@ StructuredCloneHolder
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 ;
 if
@@ -4547,7 +4547,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 JS
@@ -4615,7 +4615,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 return
@@ -4871,7 +4871,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 ImageBitmap
@@ -4951,7 +4951,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 |
 |
 mStructuredCloneScope
@@ -5038,7 +5038,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 &
 &
 JS
@@ -5325,7 +5325,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 MOZ_ASSERT
@@ -5430,7 +5430,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 MOZ_ASSERT
@@ -5687,7 +5687,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 OffscreenCanvas
@@ -5978,7 +5978,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 MOZ_ASSERT
@@ -6019,7 +6019,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 MOZ_ASSERT
@@ -6129,7 +6129,7 @@ mStructuredCloneScope
 StructuredCloneScope
 :
 :
-SameProcessDifferentThread
+SameProcess
 )
 {
 OffscreenCanvas

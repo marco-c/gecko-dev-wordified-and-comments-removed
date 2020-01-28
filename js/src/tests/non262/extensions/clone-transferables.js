@@ -11,7 +11,7 @@ scope
 of
 [
 "
-SameProcessDifferentThread
+SameProcess
 "
 "
 DifferentProcess
