@@ -25,10 +25,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -122,7 +118,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -212,7 +208,7 @@ optionally_keyed_by
 '
 project
 '
-text_type
+basestring
 )
     
 Required
@@ -246,7 +242,7 @@ type
 '
 )
 :
-text_type
+basestring
     
 Required
 (

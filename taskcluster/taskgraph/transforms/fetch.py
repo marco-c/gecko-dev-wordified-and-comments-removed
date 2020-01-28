@@ -12,15 +12,9 @@ quote
 as
 shell_quote
 import
-io
-import
 os
 import
 re
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -95,7 +89,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -106,7 +100,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -115,7 +109,7 @@ description
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -146,7 +140,7 @@ url
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -155,7 +149,7 @@ sha256
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -186,7 +180,7 @@ url
 '
 )
 :
-text_type
+basestring
                 
 Required
 (
@@ -197,7 +191,7 @@ path
 '
 )
 :
-text_type
+basestring
             
 }
             
@@ -210,7 +204,7 @@ name
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -232,7 +226,7 @@ prefix
 '
 )
 :
-text_type
+basestring
         
 }
         
@@ -255,7 +249,7 @@ script
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -264,7 +258,7 @@ platform
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -273,7 +267,7 @@ revision
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -284,7 +278,7 @@ name
 '
 )
 :
-text_type
+basestring
         
 }
         
@@ -305,7 +299,7 @@ repo
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -314,7 +308,7 @@ revision
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -325,7 +319,7 @@ name
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -336,7 +330,7 @@ prefix
 '
 )
 :
-text_type
+basestring
         
 }
     
@@ -958,13 +952,11 @@ path
 )
         
 with
-io
-.
 open
 (
 key_path
 '
-r
+rb
 '
 )
 as

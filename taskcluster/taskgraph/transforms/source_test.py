@@ -48,12 +48,6 @@ import
 copy
 import
 os
-import
-six
-from
-six
-import
-text_type
 from
 taskgraph
 .
@@ -134,9 +128,9 @@ platform
 :
 Any
 (
-text_type
+basestring
 [
-text_type
+basestring
 ]
 )
     
@@ -234,7 +228,7 @@ fetches
 :
 {
         
-text_type
+basestring
 :
 optionally_keyed_by
 (
@@ -249,7 +243,7 @@ fetches
 '
 ]
 [
-text_type
+basestring
 ]
 )
     
@@ -416,7 +410,7 @@ job
 platform
 '
 ]
-text_type
+basestring
 )
 :
             
@@ -1476,10 +1470,6 @@ DECISION_TASK_ID
 '
 ]
 =
-six
-.
-ensure_text
-(
 os
 .
 environ
@@ -1491,7 +1481,6 @@ TASK_ID
 '
 '
 '
-)
 )
         
 yield

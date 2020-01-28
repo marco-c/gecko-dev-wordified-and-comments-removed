@@ -25,10 +25,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 loader
@@ -108,7 +104,7 @@ checksums
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -117,7 +113,7 @@ label
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -375,13 +371,18 @@ checksums
 dependencies
 =
 {
+            
+str
+(
 dep_job
 .
 kind
+)
 :
 dep_job
 .
 label
+        
 }
         
 upstream_artifacts

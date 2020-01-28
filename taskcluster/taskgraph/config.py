@@ -63,7 +63,7 @@ domain
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -78,7 +78,7 @@ prefix
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -89,7 +89,7 @@ dir
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -110,9 +110,9 @@ names
 )
 :
 {
-text_type
+basestring
 :
-text_type
+basestring
 }
     
 }
@@ -134,7 +134,7 @@ products
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -158,10 +158,10 @@ builds
 )
 :
 {
-text_type
+basestring
 :
 [
-text_type
+basestring
 ]
 }
     
@@ -186,7 +186,7 @@ products
 )
 :
 [
-text_type
+basestring
 ]
         
 Required
@@ -197,7 +197,7 @@ flavors
 )
 :
 {
-text_type
+basestring
 :
 {
             
@@ -208,7 +208,7 @@ product
 '
 )
 :
-text_type
+basestring
             
 Required
 (
@@ -221,7 +221,7 @@ method
 '
 )
 :
-text_type
+basestring
             
 Optional
 (
@@ -244,7 +244,7 @@ kinds
 )
 :
 [
-text_type
+basestring
 ]
             
 Optional
@@ -292,7 +292,7 @@ prefix
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -304,10 +304,10 @@ types
 )
 :
 {
-text_type
+basestring
 :
 [
-text_type
+basestring
 ]
 }
     
@@ -408,7 +408,7 @@ type
                                 
 Any
 (
-text_type
+basestring
 None
 )
 )
@@ -447,7 +447,7 @@ type
                                 
 Any
 (
-text_type
+basestring
 None
 )
 )

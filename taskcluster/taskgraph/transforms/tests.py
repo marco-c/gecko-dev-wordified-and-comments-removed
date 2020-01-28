@@ -148,10 +148,6 @@ copy
 import
 logging
 from
-six
-import
-text_type
-from
 mozbuild
 .
 schedules
@@ -1599,7 +1595,7 @@ Schema
 description
 '
 :
-text_type
+basestring
     
 Optional
 (
@@ -1611,7 +1607,7 @@ suite
 Any
 (
         
-text_type
+basestring
         
 {
 Optional
@@ -1621,7 +1617,7 @@ category
 '
 )
 :
-text_type
+basestring
 Optional
 (
 '
@@ -1629,7 +1625,7 @@ name
 '
 )
 :
-text_type
+basestring
 }
     
 )
@@ -1652,7 +1648,7 @@ platform
         
 Any
 (
-text_type
+basestring
 '
 default
 '
@@ -1668,7 +1664,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -1678,7 +1674,7 @@ tags
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -1689,7 +1685,7 @@ treeherder
 symbol
 '
 :
-text_type
+basestring
     
 Optional
 (
@@ -1702,7 +1698,7 @@ platform
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -1712,7 +1708,7 @@ attributes
 )
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -1726,7 +1722,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -1751,7 +1747,7 @@ platform
 Any
 (
 [
-text_type
+basestring
 ]
 '
 built
@@ -1786,7 +1782,7 @@ platform
 Any
 (
 [
-text_type
+basestring
 ]
 '
 built
@@ -1876,7 +1872,7 @@ after
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -2068,7 +2064,7 @@ platform
 Any
 (
             
-text_type
+basestring
             
 {
 '
@@ -2077,7 +2073,7 @@ in
 tree
 '
 :
-text_type
+basestring
 }
             
 {
@@ -2085,7 +2081,7 @@ text_type
 indexed
 '
 :
-text_type
+basestring
 }
         
 )
@@ -2190,7 +2186,7 @@ test
 platform
 '
             
-text_type
+basestring
 )
         
 Required
@@ -2210,7 +2206,7 @@ platform
 '
             
 [
-text_type
+basestring
 ]
 )
         
@@ -2223,7 +2219,7 @@ flavor
 '
 )
 :
-text_type
+basestring
         
 Optional
 (
@@ -2233,7 +2229,7 @@ actions
 )
 :
 [
-text_type
+basestring
 ]
         
 Required
@@ -2255,7 +2251,7 @@ platform
 '
             
 [
-text_type
+basestring
 ]
 )
         
@@ -2270,7 +2266,7 @@ name
 '
 )
 :
-text_type
+basestring
         
 Optional
 (
@@ -2281,7 +2277,7 @@ url
 '
 )
 :
-text_type
+basestring
         
 Required
 (
@@ -2408,7 +2404,7 @@ manifests
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -2441,7 +2437,7 @@ platform
 '
         
 [
-text_type
+basestring
 ]
 )
     
@@ -2474,7 +2470,7 @@ build
 platform
 '
 :
-text_type
+basestring
     
 '
 build
@@ -2482,7 +2478,7 @@ build
 label
 '
 :
-text_type
+basestring
     
 Optional
 (
@@ -2495,7 +2491,7 @@ label
 '
 )
 :
-text_type
+basestring
     
 '
 build
@@ -2504,7 +2500,7 @@ attributes
 '
 :
 {
-text_type
+basestring
 :
 object
 }
@@ -2515,7 +2511,7 @@ test
 platform
 '
 :
-text_type
+basestring
     
 Optional
 (
@@ -2534,7 +2530,7 @@ app
 '
         
 [
-text_type
+basestring
 ]
     
 )
@@ -2545,7 +2541,7 @@ test
 name
 '
 :
-text_type
+basestring
     
 Optional
 (
@@ -2554,7 +2550,7 @@ product
 '
 )
 :
-text_type
+basestring
     
 Exclusive
 (
@@ -2581,7 +2577,7 @@ changed
 )
 :
 [
-text_type
+basestring
 ]
     
 }
@@ -2616,7 +2612,7 @@ optimization
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -2638,7 +2634,7 @@ platform
         
 Any
 (
-text_type
+basestring
 None
 )
     
@@ -2705,19 +2701,19 @@ platform
         
 Any
 (
-text_type
+basestring
 None
 {
 '
 index
 '
 :
-text_type
+basestring
 '
 name
 '
 :
-text_type
+basestring
 }
 )
     
@@ -2732,7 +2728,7 @@ fetches
 :
 {
         
-text_type
+basestring
 :
 optionally_keyed_by
 (
@@ -2742,7 +2738,7 @@ test
 platform
 '
 [
-text_type
+basestring
 ]
 )
     
@@ -3723,7 +3719,7 @@ test
 suite
 '
 ]
-text_type
+basestring
 )
 :
             

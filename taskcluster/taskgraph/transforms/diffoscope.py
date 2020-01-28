@@ -26,10 +26,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 transforms
@@ -80,7 +76,7 @@ index_or_string
 Any
 (
     
-text_type
+basestring
     
 {
 Required
@@ -92,7 +88,7 @@ search
 '
 )
 :
-text_type
+basestring
 }
 )
 diff_description_schema
@@ -108,7 +104,7 @@ name
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -117,7 +113,7 @@ symbol
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -128,7 +124,7 @@ from
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -155,7 +151,7 @@ args
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -166,7 +162,7 @@ args
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -202,7 +198,7 @@ commands
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -308,7 +304,7 @@ if
 isinstance
 (
 value
-text_type
+basestring
 )
 :
                 

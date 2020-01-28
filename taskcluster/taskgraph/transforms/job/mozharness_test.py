@@ -8,12 +8,6 @@ import
 json
 import
 os
-import
-six
-from
-six
-import
-text_type
 from
 voluptuous
 import
@@ -193,7 +187,7 @@ workdir
 '
 )
 :
-text_type
+basestring
 }
 )
 def
@@ -840,7 +834,7 @@ true
 ENABLE_E10S
 '
 :
-text_type
+str
 (
 bool
 (
@@ -1334,25 +1328,18 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
-        
 '
 task
 -
 reference
 '
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
 (
 extra_config
 )
-)
-    
 }
     
 command
@@ -1420,11 +1407,6 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
@@ -1446,7 +1428,6 @@ manifests
 '
 ]
 }
-)
 )
     
 elif
@@ -2648,25 +2629,18 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
-        
 '
 task
 -
 reference
 '
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
 (
 extra_config
 )
-)
-    
 }
     
 if
@@ -2930,7 +2904,7 @@ download
 symbols
 '
 ]
-text_type
+basestring
 )
 :
             
@@ -3040,11 +3014,6 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
@@ -3066,7 +3035,6 @@ manifests
 '
 ]
 }
-)
 )
     
 elif
@@ -4042,25 +4010,18 @@ EXTRA_MOZHARNESS_CONFIG
 ]
 =
 {
-        
 '
 task
 -
 reference
 '
 :
-six
-.
-ensure_text
-(
 json
 .
 dumps
 (
 extra_config
 )
-)
-    
 }
     
 script
@@ -4208,11 +4169,6 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
@@ -4234,7 +4190,6 @@ manifests
 '
 ]
 }
-)
 )
     
 elif

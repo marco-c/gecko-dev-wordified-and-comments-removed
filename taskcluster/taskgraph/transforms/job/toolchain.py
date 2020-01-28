@@ -33,10 +33,6 @@ mozpack
 import
 path
 from
-six
-import
-text_type
-from
 taskgraph
 .
 util
@@ -123,7 +119,7 @@ script
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -133,7 +129,7 @@ arguments
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -171,7 +167,7 @@ profile
 :
 Any
 (
-text_type
+basestring
 None
 )
     
@@ -183,7 +179,7 @@ resources
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -195,7 +191,7 @@ artifact
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -206,7 +202,7 @@ alias
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -215,7 +211,7 @@ workdir
 '
 )
 :
-text_type
+basestring
 }
 )
 def

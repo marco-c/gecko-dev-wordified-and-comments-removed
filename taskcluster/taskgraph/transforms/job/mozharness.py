@@ -36,12 +36,6 @@ print_function
 unicode_literals
 import
 json
-import
-six
-from
-six
-import
-text_type
 from
 textwrap
 import
@@ -135,7 +129,7 @@ script
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -147,7 +141,7 @@ paths
 )
 :
 [
-text_type
+basestring
 ]
     
 Required
@@ -158,7 +152,7 @@ config
 )
 :
 [
-text_type
+basestring
 ]
     
 Optional
@@ -261,7 +255,7 @@ cfg
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -287,7 +281,7 @@ key
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -324,7 +318,7 @@ Any
 (
 bool
 [
-text_type
+basestring
 ]
 )
     
@@ -370,7 +364,7 @@ script
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -442,7 +436,7 @@ workdir
 '
 )
 :
-text_type
+basestring
 }
 )
 mozharness_defaults
@@ -1104,11 +1098,6 @@ EXTRA_MOZHARNESS_CONFIG
 '
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
@@ -1122,7 +1111,6 @@ extra
 -
 config
 '
-)
 )
 )
     
@@ -1794,11 +1782,6 @@ EXTRA_MOZHARNESS_CONFIG
 '
 ]
 =
-six
-.
-ensure_text
-(
-            
 json
 .
 dumps
@@ -1812,7 +1795,6 @@ extra
 -
 config
 '
-)
 )
 )
     

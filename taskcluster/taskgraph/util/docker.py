@@ -17,8 +17,6 @@ requests
 import
 requests_unixsocket
 import
-six
-import
 sys
 import
 urllib
@@ -1193,7 +1191,6 @@ image
 return
 stream_context_tar
 (
-        
 topsrcdir
 image_path
 VoidWriter
@@ -1299,17 +1296,12 @@ self
 :
         
 return
-six
-.
-ensure_text
-(
 self
 .
 _hash
 .
 hexdigest
 (
-)
 )
 def
 create_context_tar

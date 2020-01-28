@@ -19,10 +19,6 @@ absolute_import
 print_function
 unicode_literals
 from
-six
-import
-text_type
-from
 taskgraph
 .
 util
@@ -92,7 +88,7 @@ command
 '
 )
 :
-text_type
+basestring
     
 Optional
 (
@@ -101,7 +97,7 @@ mozconfig
 '
 )
 :
-text_type
+basestring
     
 Required
 (
@@ -117,7 +113,7 @@ Any
 (
 bool
 [
-text_type
+basestring
 ]
 )
     
@@ -128,7 +124,7 @@ workdir
 '
 )
 :
-text_type
+basestring
 }
 )
 run_job_using

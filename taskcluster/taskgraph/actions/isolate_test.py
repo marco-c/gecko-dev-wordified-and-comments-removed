@@ -1370,15 +1370,11 @@ MOZHARNESS_TEST_PATHS
 '
 ]
 =
-six
-.
-ensure_text
-(
-                    
 json
 .
 dumps
 (
+                    
 {
 suite
 :
@@ -1386,7 +1382,6 @@ suite
 failure_path
 ]
 }
-)
 )
             
 logger

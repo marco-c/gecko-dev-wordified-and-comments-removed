@@ -19,8 +19,6 @@ unicode_literals
 import
 requests
 import
-six
-import
 subprocess
 from
 redo
@@ -300,10 +298,6 @@ revision
 "
     
 return
-six
-.
-ensure_text
-(
 subprocess
 .
 check_output
@@ -338,10 +332,6 @@ revision
 cwd
 =
 root
-universal_newlines
-=
-True
-)
 )
 def
 get_hg_commit_message
