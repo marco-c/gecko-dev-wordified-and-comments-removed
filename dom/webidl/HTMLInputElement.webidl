@@ -606,7 +606,7 @@ ValueAsDateEnabled
 "
 ]
 attribute
-Date
+object
 ?
 valueAsDate
 ;
