@@ -716,6 +716,17 @@ args
 ;
 }
 ;
+JSString
+*
+ErrorToSource
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
 }
 template
 <
