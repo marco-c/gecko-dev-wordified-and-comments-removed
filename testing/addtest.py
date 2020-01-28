@@ -107,7 +107,7 @@ path
 data
 )
 tuples
-coresponding
+corresponding
 to
 the
 files

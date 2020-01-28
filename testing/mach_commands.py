@@ -1485,6 +1485,12 @@ path
 "
 w
 "
+newline
+=
+'
+\
+n
+'
 )
 as
 f
