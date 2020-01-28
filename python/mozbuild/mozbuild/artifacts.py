@@ -257,6 +257,8 @@ requests
 import
 shutil
 import
+six
+import
 stat
 import
 subprocess
@@ -265,6 +267,12 @@ tarfile
 import
 tempfile
 import
+six
+.
+moves
+.
+urllib_parse
+as
 urlparse
 import
 zipfile
@@ -1438,12 +1446,13 @@ for
 filename
 entry
 in
-reader
-.
-entries
+six
 .
 iteritems
 (
+reader
+.
+entries
 )
 :
                 
@@ -7030,10 +7039,11 @@ for
 tree
 pushid
 in
-found_pushids
+six
 .
 iteritems
 (
+found_pushids
 )
 :
                 
@@ -7543,11 +7553,16 @@ node
         
 pairs
 =
-map
-(
+[
 to_pair
-last_revs
+(
+r
 )
+for
+r
+in
+last_revs
+]
         
 nodes
 =
@@ -9274,8 +9289,6 @@ distdir
 elif
 source
 and
-urlparse
-.
 urlparse
 (
 source
