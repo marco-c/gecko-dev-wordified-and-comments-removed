@@ -1894,12 +1894,9 @@ MIR
 :
 "
 CodeName
-(
-JSOp
-(
+[
 pcOpcode_
-)
-)
+]
 )
 ;
 MDefinition

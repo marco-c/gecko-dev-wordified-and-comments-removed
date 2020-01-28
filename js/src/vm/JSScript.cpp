@@ -27378,11 +27378,8 @@ JSOP_EVAL_LENGTH
 ;
 MOZ_ASSERT
 (
-JSOp
-(
 *
 nextpc
-)
 =
 =
 JSOP_LINENO
@@ -30923,11 +30920,8 @@ code
 ;
 while
 (
-JSOp
-(
 *
 pc
-)
 !
 =
 JSOP_ARGUMENTS
@@ -30949,11 +30943,8 @@ JSOP_ARGUMENTS_LENGTH
 ;
 MOZ_ASSERT
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_SETALIASEDVAR

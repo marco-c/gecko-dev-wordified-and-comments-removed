@@ -3858,11 +3858,8 @@ pc
 {
 MOZ_ASSERT
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_NEW
@@ -8305,11 +8302,8 @@ prototypeObject
 {
 MOZ_ASSERT
 (
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_INSTANCEOF

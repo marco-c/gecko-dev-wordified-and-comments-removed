@@ -21989,13 +21989,10 @@ s
 n
 "
 CodeName
-(
-JSOp
-(
+[
 *
 pc
-)
-)
+]
 )
 ;
 MaybeDumpScope

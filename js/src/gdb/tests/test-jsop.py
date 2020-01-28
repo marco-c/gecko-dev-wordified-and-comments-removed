@@ -33,3 +33,12 @@ debugger
 JSOP_DEBUGGER
 '
 )
+assert_pretty
+(
+'
+limit
+'
+'
+JSOP_LIMIT
+'
+)

@@ -481,11 +481,8 @@ code
 )
 |
 |
-JSOp
-(
 *
 pc
-)
 =
 =
 JSOP_LOOPHEAD
@@ -502,11 +499,8 @@ pc
 ;
 if
 (
-JSOp
-(
 *
 pc
-)
 !
 =
 JSOP_LOOPHEAD
