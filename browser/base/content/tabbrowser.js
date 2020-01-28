@@ -10567,7 +10567,7 @@ usercontextid
 }
 this
 .
-setTabAttributes
+_setTabAttributes
 (
 t
 {
@@ -10599,7 +10599,7 @@ batchInsertingTabs
 {
 this
 .
-updateTabPosition
+_insertTabAtIndex
 (
 t
 {
@@ -10972,7 +10972,7 @@ batchInsertingTabs
 {
 this
 .
-_fireOpenTab
+_fireTabOpen
 (
 t
 eventDetail
@@ -11614,7 +11614,7 @@ _invalidateCachedTabs
 ;
 this
 .
-_fireOpenTab
+_fireTabOpen
 (
 tab
 {
@@ -11879,7 +11879,7 @@ selected
 {
 this
 .
-_fireOpenTab
+_fireTabOpen
 (
 tab
 {
@@ -12309,7 +12309,7 @@ return
 reallyClose
 ;
 }
-setTabAttributes
+_setTabAttributes
 (
 tab
 {
@@ -12491,7 +12491,7 @@ tabContainer
 ;
 }
 }
-updateTabPosition
+_insertTabAtIndex
 (
 tab
 {
@@ -12830,7 +12830,7 @@ update
 )
 ;
 }
-_fireOpenTab
+_fireTabOpen
 (
 tab
 eventDetail
