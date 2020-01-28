@@ -1283,7 +1283,7 @@ strong
 property
 to
 something
-else
+other
 than
 <
 strong
