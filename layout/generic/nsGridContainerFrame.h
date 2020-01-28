@@ -1729,6 +1729,14 @@ ComputeSelfSubgridBits
 )
 const
 ;
+bool
+WillHaveAtLeastOneTrackInAxis
+(
+LogicalAxis
+aAxis
+)
+const
+;
 private
 :
 struct
