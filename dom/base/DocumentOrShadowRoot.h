@@ -85,6 +85,9 @@ class
 Element
 ;
 class
+Document
+;
+class
 DocumentOrShadowRoot
 ;
 class
@@ -98,6 +101,14 @@ StyleSheetList
 ;
 class
 ShadowRoot
+;
+template
+<
+typename
+T
+>
+class
+Sequence
 ;
 class
 DocumentOrShadowRoot
@@ -246,12 +257,7 @@ ErrorResult
 aRv
 )
 const
-{
-aAdoptedStyleSheets
-=
-mAdoptedStyleSheets
 ;
-}
 void
 SetAdoptedStyleSheets
 (

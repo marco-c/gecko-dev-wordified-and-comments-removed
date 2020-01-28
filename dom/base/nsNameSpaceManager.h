@@ -28,17 +28,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-Document
-.
-h
-"
-#
-include
-"
 nsStringFwd
 .
 h
