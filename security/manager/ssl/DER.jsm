@@ -221,7 +221,7 @@ _contents
 }
 }
 class
-DER
+DERDecoder
 {
 constructor
 (
@@ -969,8 +969,7 @@ tag
 ;
 }
 }
-this
-.
+const
 DER
 =
 {
@@ -989,11 +988,10 @@ GeneralizedTime
 UTF8String
 SEQUENCE
 SET
-DER
+DERDecoder
 }
 ;
-this
-.
+var
 EXPORTED_SYMBOLS
 =
 [
