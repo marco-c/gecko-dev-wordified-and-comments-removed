@@ -60,11 +60,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -112,6 +107,11 @@ include
 stdint
 .
 h
+>
+#
+include
+<
+utility
 >
 #
 include

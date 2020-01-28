@@ -7,12 +7,12 @@ js_Fifo_h
 #
 include
 <
-utility
+algorithm
 >
 #
 include
 <
-algorithm
+utility
 >
 #
 include

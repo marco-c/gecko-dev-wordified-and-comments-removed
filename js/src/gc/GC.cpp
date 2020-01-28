@@ -1824,11 +1824,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -1897,6 +1892,11 @@ include
 string
 .
 h
+>
+#
+include
+<
+utility
 >
 #
 ifndef
