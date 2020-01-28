@@ -971,9 +971,7 @@ child
 =
 content
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 ;
 let
 actorChild
