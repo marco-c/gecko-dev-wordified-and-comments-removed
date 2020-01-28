@@ -4622,6 +4622,15 @@ idStr
 if
 (
 !
+keyStr
+)
+{
+return
+;
+}
+if
+(
+!
 reportScanStack
 )
 {
