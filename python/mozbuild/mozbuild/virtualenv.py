@@ -1272,6 +1272,18 @@ level
 "
 "
         
+os
+.
+environ
+.
+pop
+(
+'
+__PYVENV_LAUNCHER__
+'
+None
+)
+        
 if
 self
 .
