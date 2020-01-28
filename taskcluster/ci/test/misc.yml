@@ -577,8 +577,10 @@ em
 .
 *
 :
-[
-]
+-
+linux64
+-
+node
 test
 -
 verify
@@ -1127,8 +1129,10 @@ em
 .
 *
 :
-[
-]
+-
+linux64
+-
+node
 test
 -
 coverage
