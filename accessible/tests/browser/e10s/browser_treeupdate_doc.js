@@ -490,7 +490,7 @@ setAttribute
 role
 "
 "
-button
+application
 "
 )
 ;
@@ -517,7 +517,7 @@ tree
 {
 role
 :
-ROLE_PUSHBUTTON
+ROLE_APPLICATION
 children
 :
 [
@@ -1552,7 +1552,7 @@ setAttribute
 role
 "
 "
-button
+application
 "
 )
 ;
@@ -1585,7 +1585,7 @@ tree
 {
 role
 :
-ROLE_PUSHBUTTON
+ROLE_APPLICATION
 children
 :
 [
