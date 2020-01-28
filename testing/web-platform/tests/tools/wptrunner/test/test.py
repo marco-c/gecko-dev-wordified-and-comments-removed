@@ -3,8 +3,6 @@ __future__
 import
 print_function
 import
-ConfigParser
-import
 argparse
 import
 os
@@ -27,6 +25,14 @@ mozlog
 formatters
 import
 MachFormatter
+from
+six
+.
+moves
+.
+configparser
+import
+ConfigParser
 from
 wptrunner
 import
@@ -371,8 +377,6 @@ read_config
     
 parser
 =
-ConfigParser
-.
 ConfigParser
 (
 )
