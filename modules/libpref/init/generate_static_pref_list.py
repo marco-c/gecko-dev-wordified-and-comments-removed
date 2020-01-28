@@ -4,20 +4,20 @@ import
 print_function
 import
 buildconfig
-from
-collections
-import
-defaultdict
 import
 os
-from
-six
-import
-StringIO
 import
 sys
 import
 yaml
+from
+collections
+import
+defaultdict
+from
+io
+import
+BytesIO
 from
 mozbuild
 .
@@ -2221,7 +2221,7 @@ pp
 .
 out
 =
-StringIO
+BytesIO
 (
 )
     
