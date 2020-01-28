@@ -1931,13 +1931,10 @@ Error
                 
 r
 '
-assert_throws
+assert_throws_js
 (
-new
 \
 1
-(
-)
 function
 (
 )

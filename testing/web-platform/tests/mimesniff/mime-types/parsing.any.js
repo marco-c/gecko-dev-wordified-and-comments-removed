@@ -332,12 +332,9 @@ incompatible
 "
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
@@ -369,12 +366,9 @@ input
 )
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =

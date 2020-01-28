@@ -282,12 +282,9 @@ ThrowingOptions
 whatShouldThrow
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 Error
-(
-)
 (
 )
 =

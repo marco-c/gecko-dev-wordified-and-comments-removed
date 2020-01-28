@@ -91,12 +91,9 @@ of
 thisValues
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
@@ -377,12 +374,9 @@ buffers
 "
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =

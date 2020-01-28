@@ -880,12 +880,9 @@ function
 (
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 function
 (
 )
@@ -987,11 +984,9 @@ to
 handle
 that
 .
-setTimeout
-(
 this
 .
-step_func
+step_timeout
 (
 function
 (
@@ -1081,7 +1076,6 @@ q
 true
 ;
 }
-)
 10
 )
 ;

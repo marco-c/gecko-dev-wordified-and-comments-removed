@@ -24,12 +24,9 @@ function
 v
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 function
 (
 )
@@ -87,12 +84,9 @@ function
 v
 )
 {
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 function
 (
 )

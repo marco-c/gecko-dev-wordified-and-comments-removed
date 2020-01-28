@@ -189,12 +189,9 @@ Table
 argument
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
@@ -256,12 +253,9 @@ Table
 argument
 )
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =

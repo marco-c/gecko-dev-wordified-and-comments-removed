@@ -443,12 +443,9 @@ wss
 .
 connection
 ;
-assert_throws
+assert_throws_js
 (
-new
 TypeError
-(
-)
 (
 )
 =
