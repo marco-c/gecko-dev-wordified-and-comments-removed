@@ -11067,6 +11067,15 @@ aPrincipal
 {
 if
 (
+!
+aPrincipal
+)
+{
+return
+;
+}
+if
+(
 XRE_IsParentProcess
 (
 )
