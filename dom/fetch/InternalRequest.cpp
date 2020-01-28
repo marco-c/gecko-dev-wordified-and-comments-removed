@@ -566,10 +566,6 @@ mUnsafeRequest
 (
 false
 )
-mUseURLCredentials
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -714,10 +710,6 @@ mSynchronous
 false
 )
 mUnsafeRequest
-(
-false
-)
-mUseURLCredentials
 (
 false
 )
