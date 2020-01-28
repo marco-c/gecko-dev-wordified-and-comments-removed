@@ -556,9 +556,7 @@ iframe
 .
 contentWindow
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 ;
 let
 actorChild
