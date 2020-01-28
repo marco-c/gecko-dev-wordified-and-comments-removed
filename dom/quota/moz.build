@@ -151,6 +151,17 @@ test
 /
 unit
 /
+upgrades
+/
+xpcshell
+.
+ini
+'
+'
+test
+/
+unit
+/
 xpcshell
 .
 ini
