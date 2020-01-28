@@ -1201,7 +1201,7 @@ aAncestorOffsets
 static
 nsINode
 *
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 nsINode
 *

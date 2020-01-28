@@ -167,7 +167,7 @@ mIsPositioned
 }
 nsINode
 *
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 const

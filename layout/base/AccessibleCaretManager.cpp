@@ -6573,7 +6573,7 @@ commonAncestorNode
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

@@ -849,7 +849,7 @@ nullptr
 ;
 }
 return
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

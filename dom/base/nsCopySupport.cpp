@@ -3104,7 +3104,7 @@ IsInsideRuby
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 )

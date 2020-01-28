@@ -21353,7 +21353,7 @@ focusNode
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

@@ -6746,7 +6746,7 @@ node
 aRange
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -14399,7 +14399,7 @@ commonAncestorNode
 range
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;

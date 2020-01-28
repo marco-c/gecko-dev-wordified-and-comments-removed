@@ -2738,7 +2738,7 @@ GetAnchorFocusRange
 )
 -
 >
-GetCommonAncestor
+GetClosestCommonInclusiveAncestor
 (
 )
 ;
