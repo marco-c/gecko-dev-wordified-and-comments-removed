@@ -342,6 +342,11 @@ ReferrerInfoUtils
 h
 '
 '
+RefMessageBodyService
+.
+h
+'
+'
 RemoteBrowser
 .
 h
@@ -575,6 +580,11 @@ cpp
 '
 '
 ReferrerInfoUtils
+.
+cpp
+'
+'
+RefMessageBodyService
 .
 cpp
 '
