@@ -254,13 +254,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -3317,7 +3310,10 @@ XPCWrappedNativeScope
 (
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 JSObject2JSObjectMap
 >

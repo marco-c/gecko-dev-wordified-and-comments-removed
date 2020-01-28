@@ -93,13 +93,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -2923,7 +2916,10 @@ Compartment
 compartment
 )
 {
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 CompartmentPrivate
 >

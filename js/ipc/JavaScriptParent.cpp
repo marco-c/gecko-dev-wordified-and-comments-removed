@@ -116,13 +116,6 @@ Telemetry
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 namespace
 js
