@@ -38,6 +38,13 @@ queue
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

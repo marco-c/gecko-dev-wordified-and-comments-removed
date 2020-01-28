@@ -826,7 +826,6 @@ static
 void
 ReleaseGmp_g
 (
-const
 RefPtr
 <
 WebrtcGmpVideoEncoder
@@ -961,7 +960,6 @@ static
 void
 Encode_g
 (
-const
 RefPtr
 <
 WebrtcGmpVideoEncoder
@@ -1675,7 +1673,6 @@ static
 void
 ReleaseGmp_g
 (
-const
 RefPtr
 <
 WebrtcGmpVideoDecoder
@@ -1796,12 +1793,10 @@ WebrtcGmpVideoDecoder
 >
 &
 aThis
-UniquePtr
+nsAutoPtr
 <
 GMPDecodeData
 >
-&
-&
 aDecodeData
 )
 ;

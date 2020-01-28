@@ -1012,7 +1012,6 @@ static
 void
 ShutdownThread
 (
-const
 nsCOMPtr
 <
 nsIThread

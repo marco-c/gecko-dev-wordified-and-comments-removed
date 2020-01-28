@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -801,12 +808,11 @@ const
 PRNetAddr
 &
 from
-UniquePtr
+nsAutoPtr
 <
 MediaPacket
 >
 &
-&
 data
 )
 :
@@ -816,13 +822,7 @@ from
 )
 data
 (
-std
-:
-:
-move
-(
 data
-)
 )
 {
 }
@@ -834,7 +834,7 @@ nr_udp_message
 PRNetAddr
 from
 ;
-UniquePtr
+nsAutoPtr
 <
 MediaPacket
 >
@@ -1158,7 +1158,7 @@ net
 NetAddr
 &
 addr
-UniquePtr
+nsAutoPtr
 <
 MediaPacket
 >
@@ -1193,7 +1193,6 @@ dom
 UDPSocketChild
 *
 aChild
-const
 nsCOMPtr
 <
 nsIEventTarget

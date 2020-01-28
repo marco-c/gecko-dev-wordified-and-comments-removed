@@ -30,6 +30,13 @@ h
 #
 include
 "
+nsAutoPtr
+.
+h
+"
+#
+include
+"
 MediaConduitInterface
 .
 h

@@ -2669,7 +2669,6 @@ MediaPipeline
 :
 RtpPacketReceived
 (
-const
 MediaPacket
 &
 packet
@@ -3159,7 +3158,6 @@ MediaPipeline
 :
 RtcpPacketReceived
 (
-const
 MediaPacket
 &
 packet
@@ -3402,7 +3400,6 @@ std
 string
 &
 aTransportId
-const
 MediaPacket
 &
 packet
@@ -3533,7 +3530,6 @@ std
 string
 &
 aTransportId
-const
 MediaPacket
 &
 aPacket

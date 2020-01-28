@@ -43,9 +43,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "
@@ -1988,7 +1986,7 @@ VideoCodecConfig
 >
 mRecvCodecList
 ;
-UniquePtr
+nsAutoPtr
 <
 VideoCodecConfig
 >
