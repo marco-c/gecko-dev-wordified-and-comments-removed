@@ -223,11 +223,6 @@ FormAssistant
 jsm
 '
 '
-FxAccountsWebChannel
-.
-jsm
-'
-'
 HelperApps
 .
 jsm
