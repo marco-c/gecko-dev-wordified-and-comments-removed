@@ -497,7 +497,7 @@ sb
 enable
 (
 "
-allones_funcaddrs
+emit_all_ones_funcaddrs
 "
 )
 ?
@@ -529,7 +529,7 @@ sb
 set
 (
 "
-probestack_enabled
+enable_probestack
 "
 "
 false
@@ -577,7 +577,7 @@ opt_level
 ?
 ;
 let
-jump_tables_enabled
+enable_jump_tables
 =
 match
 env_flags
@@ -607,10 +607,10 @@ sb
 set
 (
 "
-jump_tables_enabled
+enable_jump_tables
 "
 if
-jump_tables_enabled
+enable_jump_tables
 {
 "
 true
