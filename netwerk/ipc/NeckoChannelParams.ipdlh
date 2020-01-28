@@ -1139,9 +1139,6 @@ documentHasUserInteracted
 bool
 documentHasLoaded
 ;
-bool
-allowListFutureDocumentsCreatedFromThisRedirectChain
-;
 nsString
 cspNonce
 ;
@@ -1444,9 +1441,6 @@ documentHasUserInteracted
 ;
 bool
 documentHasLoaded
-;
-bool
-allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
 CookieSettingsArgs
 ?
