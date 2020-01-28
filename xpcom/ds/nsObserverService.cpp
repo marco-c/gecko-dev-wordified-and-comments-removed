@@ -1456,6 +1456,9 @@ nsDependentCString
 aTopic
 )
 OTHER
+Nothing
+(
+)
 profiler_get_backtrace
 (
 )

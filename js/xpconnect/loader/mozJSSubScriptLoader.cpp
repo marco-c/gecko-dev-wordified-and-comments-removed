@@ -1824,6 +1824,9 @@ SubScript
 "
 asciiUrl
 JS
+Nothing
+(
+)
 profiler_get_backtrace
 (
 )

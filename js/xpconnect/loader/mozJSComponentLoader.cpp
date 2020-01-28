@@ -2037,6 +2037,9 @@ XPCOM
 "
 spec
 JS
+Nothing
+(
+)
 profiler_get_backtrace
 (
 )
@@ -6328,6 +6331,9 @@ import
 "
 aLocation
 JS
+Nothing
+(
+)
 profiler_get_backtrace
 (
 )
