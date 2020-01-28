@@ -3653,6 +3653,10 @@ HasDivergedFromRecording
 )
 )
 ;
+EnsureNonMainThreadsAreSpawned
+(
+)
+;
 if
 (
 !

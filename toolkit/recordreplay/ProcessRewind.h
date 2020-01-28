@@ -81,6 +81,11 @@ ForkProcess
 )
 ;
 void
+EnsureNonMainThreadsAreSpawned
+(
+)
+;
+void
 ResumeExecution
 (
 )
