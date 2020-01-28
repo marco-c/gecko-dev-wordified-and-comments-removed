@@ -2148,6 +2148,9 @@ lastBrowserUpdateDate
 if
 (
 updateManager
+&
+&
+updateManager
 .
 updateCount
 )
