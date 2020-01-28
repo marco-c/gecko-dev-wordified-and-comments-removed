@@ -79,8 +79,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 recordreplay
 {
 #
@@ -999,5 +999,4 @@ endif
 #
 undef
 ENABLE_RECORD_REPLAY
-}
 }

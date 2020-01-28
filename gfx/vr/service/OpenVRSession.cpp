@@ -243,8 +243,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 namespace
@@ -15395,6 +15395,5 @@ stats
 .
 m_nNumReprojectedFrames
 ;
-}
 }
 }

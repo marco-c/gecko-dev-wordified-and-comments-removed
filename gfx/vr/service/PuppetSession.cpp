@@ -80,8 +80,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 PuppetSession
@@ -581,6 +581,5 @@ StopAllHaptics
 (
 )
 ;
-}
 }
 }

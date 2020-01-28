@@ -72,8 +72,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 ConvolutionFilter
@@ -760,6 +760,5 @@ numValues
 =
 aDstSize
 ;
-}
 }
 }

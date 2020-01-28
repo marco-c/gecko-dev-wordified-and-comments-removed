@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 using
@@ -201,7 +201,6 @@ SurfaceFormat
 :
 UNKNOWN
 ;
-}
 }
 }
 }

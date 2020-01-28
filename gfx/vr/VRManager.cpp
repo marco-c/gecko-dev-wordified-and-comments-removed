@@ -283,8 +283,8 @@ gl
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 const
@@ -6410,5 +6410,4 @@ NS_IMPL_ISUPPORTS
 VRManager
 nsIObserver
 )
-}
 }

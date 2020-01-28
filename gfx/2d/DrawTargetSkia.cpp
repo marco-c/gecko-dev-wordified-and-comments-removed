@@ -267,8 +267,8 @@ h
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 class
@@ -10348,7 +10348,6 @@ SkSurface
 kRetain_ContentChangeMode
 )
 ;
-}
 }
 }
 }

@@ -218,8 +218,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 net
 {
 #
@@ -7649,5 +7649,4 @@ nsIHttpChannelAuthProvider
 nsIAuthPromptCallback
 nsIHttpAuthenticatorCallback
 )
-}
 }

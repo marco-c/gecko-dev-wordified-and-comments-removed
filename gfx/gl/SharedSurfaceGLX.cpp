@@ -106,8 +106,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gl
 {
 UniquePtr
@@ -770,6 +770,5 @@ IsSameProcess
 )
 )
 ;
-}
 }
 }

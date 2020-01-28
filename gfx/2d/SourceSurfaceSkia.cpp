@@ -57,8 +57,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 SourceSurfaceSkia
@@ -829,7 +829,6 @@ mDrawTarget
 =
 nullptr
 ;
-}
 }
 }
 }

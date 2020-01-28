@@ -256,8 +256,8 @@ while
 )
 namespace
 mozilla
-{
-namespace
+:
+:
 hal
 {
 static
@@ -2028,6 +2028,5 @@ sInitialized
 =
 false
 ;
-}
 }
 }

@@ -846,8 +846,8 @@ end
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 plugins
 {
 class
@@ -1268,7 +1268,6 @@ sPendingBlocklistStateRequests
 =
 0
 ;
-}
 }
 nsPluginHost
 :

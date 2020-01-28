@@ -197,8 +197,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 frontend
 {
 using
@@ -4499,5 +4499,4 @@ BinASTParserPerTokenizer
 BinASTTokenReaderMultipart
 >
 ;
-}
 }

@@ -824,8 +824,8 @@ kAsyncDragDropTimeout
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 void
@@ -870,7 +870,6 @@ WritingMode
 mWritingMode
 )
 ;
-}
 }
 }
 NS_IMPL_ISUPPORTS
@@ -10419,8 +10418,8 @@ nullptr
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 widget
 {
 const
@@ -14967,7 +14966,6 @@ Clear
 }
 #
 endif
-}
 }
 #
 ifdef

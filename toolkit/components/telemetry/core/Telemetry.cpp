@@ -9673,8 +9673,8 @@ leafName
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 Telemetry
 {
 void
@@ -10894,7 +10894,6 @@ ShutdownTelemetry
 (
 )
 ;
-}
 }
 }
 NS_IMPL_COMPONENT_FACTORY

@@ -72,8 +72,8 @@ h
 "
 namespace
 js
-{
-namespace
+:
+:
 vtune
 {
 static
@@ -940,6 +940,5 @@ n
 "
 )
 ;
-}
 }
 }

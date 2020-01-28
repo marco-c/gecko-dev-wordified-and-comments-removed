@@ -77,8 +77,8 @@ endif
 }
 namespace
 mozilla
-{
-namespace
+:
+:
 Telemetry
 {
 const
@@ -1013,6 +1013,5 @@ rawStack
 ;
 #
 endif
-}
 }
 }

@@ -127,8 +127,8 @@ gfx
 ;
 namespace
 mozilla
-{
-namespace
+:
+:
 layers
 {
 X11TextureData
@@ -740,6 +740,5 @@ DefaultXDisplay
 return
 texture
 ;
-}
 }
 }

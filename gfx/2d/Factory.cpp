@@ -1135,8 +1135,8 @@ aFTLibrary
 endif
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 #
@@ -7273,5 +7273,4 @@ data
 }
 #
 endif
-}
 }

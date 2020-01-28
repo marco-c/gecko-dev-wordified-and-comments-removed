@@ -18,8 +18,8 @@ h
 "
 namespace
 mozilla
-{
-namespace
+:
+:
 gfx
 {
 void
@@ -604,6 +604,5 @@ Wait
 mMutex
 )
 ;
-}
 }
 }
