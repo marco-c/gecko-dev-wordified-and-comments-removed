@@ -576,6 +576,20 @@ spec_json
 [
         
 "
+selection_pattern
+"
+"
+test_file_path_pattern
+"
+        
+"
+test_description_template
+"
+"
+test_page_title_template
+"
+        
+"
 specification
 "
 "
