@@ -808,6 +808,11 @@ Element
 aEmbedder
 )
 ;
+void
+Embed
+(
+)
+;
 nsPIDOMWindowOuter
 *
 GetDOMWindow
