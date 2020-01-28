@@ -1104,18 +1104,7 @@ server
 /
 tests
 /
-unit
-/
-babel_and_browserify_script_with_source_map
-.
-js
-devtools
-/
-server
-/
-tests
-/
-unit
+xpcshell
 /
 setBreakpoint
 *
@@ -1125,7 +1114,7 @@ server
 /
 tests
 /
-unit
+xpcshell
 /
 sourcemapped
 .
@@ -1163,7 +1152,7 @@ server
 /
 tests
 /
-unit
+xpcshell
 /
 xpcshell_debugging_script
 .

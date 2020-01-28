@@ -211,7 +211,7 @@ node
 Jest
 unit
 tests
-unit
+xpcshell
 -
 >
 xpcshell
@@ -1389,7 +1389,7 @@ application
 /
 test
 /
-unit
+xpcshell
 .
 Other
 unit
