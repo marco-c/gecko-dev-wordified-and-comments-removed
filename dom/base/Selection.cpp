@@ -2153,7 +2153,7 @@ nsresult
 Selection
 :
 :
-AddTableCellRange
+MaybeAddTableCellRange
 (
 nsRange
 *
@@ -9113,7 +9113,7 @@ rangeIndex
 nsresult
 result
 =
-AddTableCellRange
+MaybeAddTableCellRange
 (
 range
 &
