@@ -11358,6 +11358,8 @@ bug_numbers
 :
 -
 1560327
+-
+1607488
 description
 :
 >
@@ -11373,7 +11375,7 @@ opened
 expiry_version
 :
 "
-75
+80
 "
 notification_emails
 :
@@ -11471,6 +11473,8 @@ bug_numbers
 1560327
 -
 1602015
+-
+1607488
 description
 :
 >
@@ -11487,10 +11491,15 @@ panel
 expiry_version
 :
 "
-75
+80
 "
 notification_emails
 :
+-
+ewright
+mozilla
+.
+com
 -
 nhnt11
 mozilla
