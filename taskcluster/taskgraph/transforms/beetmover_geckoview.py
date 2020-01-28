@@ -25,6 +25,10 @@ copy
 import
 deepcopy
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -129,7 +133,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -138,7 +142,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -218,7 +222,7 @@ release
 -
 level
 '
-basestring
+text_type
 )
     
 Optional

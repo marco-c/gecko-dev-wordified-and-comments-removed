@@ -19,6 +19,8 @@ unicode_literals
 import
 copy
 import
+io
+import
 json
 from
 mozbuild
@@ -26,6 +28,10 @@ mozbuild
 chunkify
 import
 chunkify
+from
+six
+import
+text_type
 from
 taskgraph
 .
@@ -143,7 +149,7 @@ name
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -154,7 +160,7 @@ platform
 '
 )
 :
-basestring
+text_type
     
 Required
 (
@@ -182,7 +188,7 @@ locales
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
     
@@ -204,7 +210,7 @@ script
 :
 _by_platform
 (
-basestring
+text_type
 )
         
 Required
@@ -217,7 +223,7 @@ config
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
         
@@ -231,7 +237,7 @@ paths
 )
 :
 [
-basestring
+text_type
 ]
         
 Optional
@@ -244,7 +250,7 @@ options
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
         
@@ -258,7 +264,7 @@ actions
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
         
@@ -296,7 +302,7 @@ product
 :
 _by_platform
 (
-basestring
+text_type
 )
         
 Required
@@ -310,7 +316,7 @@ name
 :
 _by_platform
 (
-basestring
+text_type
 )
         
 Optional
@@ -322,7 +328,7 @@ type
 :
 _by_platform
 (
-basestring
+text_type
 )
     
 }
@@ -336,7 +342,7 @@ description
 :
 _by_platform
 (
-basestring
+text_type
 )
     
 Optional
@@ -372,7 +378,7 @@ type
 :
 _by_platform
 (
-basestring
+text_type
 )
     
 Required
@@ -386,7 +392,7 @@ file
 :
 _by_platform
 (
-basestring
+text_type
 )
     
 Required
@@ -433,7 +439,7 @@ in
 tree
 '
 :
-basestring
+text_type
 }
         
 None
@@ -450,12 +456,12 @@ fetches
 :
 {
         
-basestring
+text_type
 :
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
     
@@ -477,7 +483,7 @@ Any
 (
 bool
 [
-basestring
+text_type
 ]
 )
 )
@@ -500,7 +506,7 @@ platform
 :
 _by_platform
 (
-basestring
+text_type
 )
         
 Required
@@ -510,7 +516,7 @@ symbol
 '
 )
 :
-basestring
+text_type
         
 Required
 (
@@ -536,7 +542,7 @@ env
 _by_platform
 (
 {
-basestring
+text_type
 :
 taskref_or_string
 }
@@ -566,9 +572,9 @@ dependencies
 )
 :
 {
-basestring
+text_type
 :
-basestring
+text_type
 }
     
 Optional
@@ -587,7 +593,7 @@ changed
 '
 :
 [
-basestring
+text_type
 ]
     
 }
@@ -697,6 +703,8 @@ locales
 ]
     
 with
+io
+.
 open
 (
 locales_file
@@ -742,7 +750,6 @@ data
 revision
 '
 ]
-                
 for
 locale
 data
@@ -1428,7 +1435,7 @@ if
 isinstance
 (
 v1
-basestring
+text_type
 )
 :
                 

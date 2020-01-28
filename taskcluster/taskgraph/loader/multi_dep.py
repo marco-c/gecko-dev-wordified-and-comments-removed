@@ -7,6 +7,10 @@ unicode_literals
 import
 copy
 from
+six
+import
+text_type
+from
 voluptuous
 import
 Required
@@ -76,7 +80,7 @@ kind
 )
 :
 {
-basestring
+text_type
 :
 Task
 }
@@ -1292,7 +1296,7 @@ if
 isinstance
 (
 primary_dependencies
-basestring
+text_type
 )
 :
         

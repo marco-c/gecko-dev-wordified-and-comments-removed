@@ -24,6 +24,10 @@ unicode_literals
 import
 os
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -91,7 +95,7 @@ repackage
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -100,7 +104,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (

@@ -23,6 +23,10 @@ unicode_literals
 import
 copy
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -221,7 +225,7 @@ build
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -230,7 +234,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -240,7 +244,7 @@ routes
 )
 :
 [
-basestring
+text_type
 ]
     
 Optional
@@ -305,7 +309,7 @@ formats
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
     
@@ -328,7 +332,7 @@ config
 _by_platform
 (
 [
-basestring
+text_type
 ]
 )
         
@@ -342,7 +346,7 @@ paths
 )
 :
 [
-basestring
+text_type
 ]
         
 Required

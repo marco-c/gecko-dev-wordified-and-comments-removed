@@ -21,6 +21,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 loader
@@ -125,7 +129,7 @@ taskType
 '
 )
 :
-basestring
+text_type
         
 Required
 (
@@ -135,7 +139,7 @@ paths
 )
 :
 [
-basestring
+text_type
 ]
         
 Required
@@ -146,7 +150,7 @@ formats
 )
 :
 [
-basestring
+text_type
 ]
     
 }
@@ -159,7 +163,7 @@ depname
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -169,7 +173,7 @@ attributes
 )
 :
 {
-basestring
+text_type
 :
 object
 }
@@ -181,7 +185,7 @@ label
 '
 )
 :
-basestring
+text_type
     
 Optional
 (
@@ -205,7 +209,7 @@ routes
 )
 :
 [
-basestring
+text_type
 ]
     
 Optional
@@ -265,7 +269,7 @@ extra
 )
 :
 {
-basestring
+text_type
 :
 object
 }

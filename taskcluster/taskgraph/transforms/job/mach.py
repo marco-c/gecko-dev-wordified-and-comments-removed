@@ -22,6 +22,10 @@ absolute_import
 print_function
 unicode_literals
 from
+six
+import
+text_type
+from
 taskgraph
 .
 transforms
@@ -86,7 +90,7 @@ profile
 :
 Any
 (
-basestring
+text_type
 None
 )
     
@@ -108,7 +112,7 @@ workdir
 '
 )
 :
-basestring
+text_type
 }
 )
 defaults
