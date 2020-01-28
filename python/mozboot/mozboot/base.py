@@ -4960,6 +4960,24 @@ update
 '
 ]
 )
+        
+subprocess
+.
+check_call
+(
+[
+rustup
+'
+component
+'
+'
+add
+'
+'
+rustfmt
+'
+]
+)
     
 def
 install_rust
@@ -5173,6 +5191,15 @@ default
 host
 '
 platform
+                                   
+'
+-
+-
+component
+'
+'
+rustfmt
+'
 ]
 )
             
