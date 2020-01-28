@@ -2398,7 +2398,7 @@ aValue
 )
 const
 {
-AccessibleWrap
+HTMLTextFieldAccessible
 :
 :
 Value
@@ -2448,7 +2448,7 @@ const
 double
 value
 =
-AccessibleWrap
+HTMLTextFieldAccessible
 :
 :
 MaxValue
@@ -2497,7 +2497,7 @@ const
 double
 value
 =
-AccessibleWrap
+HTMLTextFieldAccessible
 :
 :
 MinValue
@@ -2546,7 +2546,7 @@ const
 double
 value
 =
-AccessibleWrap
+HTMLTextFieldAccessible
 :
 :
 Step
@@ -2595,7 +2595,7 @@ const
 double
 value
 =
-AccessibleWrap
+HTMLTextFieldAccessible
 :
 :
 CurValue

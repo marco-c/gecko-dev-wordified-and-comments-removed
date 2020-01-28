@@ -1012,7 +1012,7 @@ java
 SessionAccessibility
 :
 :
-CLASSNAME_VIEW
+CLASSNAME_EDITTEXT
 eNameFromValueRule
 )
 ROLE
