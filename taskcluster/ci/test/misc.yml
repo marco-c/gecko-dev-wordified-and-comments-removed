@@ -378,6 +378,9 @@ do
 not
 run
 on
+mozilla
+-
+central
 beta
 or
 release
@@ -391,7 +394,7 @@ default
 :
 [
 '
-trunk
+autoland
 '
 '
 try
@@ -755,6 +758,9 @@ do
 not
 run
 on
+mozilla
+-
+central
 beta
 or
 release
@@ -768,7 +774,7 @@ default
 :
 [
 '
-trunk
+autoland
 '
 '
 try
