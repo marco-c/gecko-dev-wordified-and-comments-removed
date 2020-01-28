@@ -1063,7 +1063,7 @@ device_rect
 (
 tile
 .
-world_rect
+world_tile_rect
 *
 global_device_pixel_scale
 )
