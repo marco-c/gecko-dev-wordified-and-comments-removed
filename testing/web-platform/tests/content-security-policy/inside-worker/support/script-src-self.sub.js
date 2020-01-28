@@ -155,11 +155,9 @@ t
 =
 >
 {
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
 _
 =
 >
@@ -184,11 +182,9 @@ EvalError
 "
 )
 ;
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
 _
 =
 >

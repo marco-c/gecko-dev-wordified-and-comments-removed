@@ -136,11 +136,9 @@ function
 )
 {
     
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
                   
 function
 (
@@ -168,11 +166,9 @@ EvalError
 '
 )
     
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
                   
 function
 (
@@ -589,11 +585,9 @@ function
 )
 {
     
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
                   
 function
 (
@@ -621,11 +615,9 @@ EvalError
 '
 )
     
-assert_throws
+assert_throws_js
 (
 EvalError
-(
-)
                   
 function
 (

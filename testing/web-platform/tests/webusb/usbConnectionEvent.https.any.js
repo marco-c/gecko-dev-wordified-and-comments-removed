@@ -76,11 +76,9 @@ t
 =
 >
 {
-assert_throws
+assert_throws_js
 (
 TypeError
-(
-)
 (
 )
 =
@@ -99,11 +97,9 @@ null
 )
 )
 ;
-assert_throws
+assert_throws_js
 (
 TypeError
-(
-)
 (
 )
 =

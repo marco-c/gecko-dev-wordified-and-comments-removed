@@ -180,11 +180,9 @@ implemented
 )
 )
 {
-assert_throws
+assert_throws_js
 (
 TypeError
-(
-)
 v
 )
 ;
