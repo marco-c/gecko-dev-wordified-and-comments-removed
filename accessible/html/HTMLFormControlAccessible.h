@@ -189,6 +189,7 @@ override
 ;
 class
 HTMLTextFieldAccessible
+final
 :
 public
 HyperTextAccessibleWrap
@@ -454,10 +455,9 @@ override
 ;
 class
 HTMLSpinnerAccessible
-final
 :
 public
-HTMLTextFieldAccessible
+AccessibleWrap
 {
 public
 :
@@ -471,7 +471,7 @@ DocAccessible
 aDoc
 )
 :
-HTMLTextFieldAccessible
+AccessibleWrap
 (
 aContent
 aDoc

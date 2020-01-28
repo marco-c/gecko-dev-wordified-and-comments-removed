@@ -7436,7 +7436,7 @@ i
 ]
 -
 >
-IsSingleLineTextControl
+IsSingleLineTextOrNumberControl
 (
 false
 )
@@ -7497,7 +7497,7 @@ if
 element
 -
 >
-IsTextControl
+IsTextOrNumberControl
 (
 false
 )

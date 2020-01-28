@@ -7255,7 +7255,7 @@ allowedToDispatch
 formCtrl
 -
 >
-IsTextControl
+IsTextOrNumberControl
 (
 false
 )
