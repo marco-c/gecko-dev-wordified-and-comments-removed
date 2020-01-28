@@ -2403,9 +2403,9 @@ op
 if
 (
 CodeSpec
-[
+(
 op
-]
+)
 .
 nuses
 >
@@ -10785,7 +10785,10 @@ code
 0
 ]
 =
+jsbytecode
+(
 JSOP_NEWINIT
+)
 ;
 code
 [
@@ -36564,6 +36567,8 @@ isDerivedClassConstructor
 {
 MOZ_ASSERT
 (
+JSOp
+(
 bytecodeSection
 (
 )
@@ -36578,6 +36583,7 @@ value
 (
 )
 ]
+)
 =
 =
 JSOP_SETRVAL
@@ -36656,7 +36662,10 @@ value
 )
 ]
 =
+jsbytecode
+(
 JSOP_SETRVAL
+)
 ;
 if
 (
@@ -52870,10 +52879,13 @@ offset
 ;
 MOZ_ASSERT
 (
+JSOp
+(
 code
 [
 0
 ]
+)
 =
 =
 JSOP_NEWINIT
@@ -52884,7 +52896,10 @@ code
 0
 ]
 =
+jsbytecode
+(
 JSOP_NEWOBJECT
+)
 ;
 SET_UINT32
 (

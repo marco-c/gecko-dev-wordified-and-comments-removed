@@ -1720,7 +1720,7 @@ code
 )
 pcDelta
 CodeName
-[
+(
 JSOp
 (
 *
@@ -1728,7 +1728,7 @@ ref
 .
 pc
 )
-]
+)
 script
 -
 >
