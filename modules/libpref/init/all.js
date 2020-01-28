@@ -40412,3 +40412,15 @@ locked
 ;
 #
 endif
+pref
+(
+"
+browser
+.
+privatebrowsing
+.
+autostart
+"
+false
+)
+;
