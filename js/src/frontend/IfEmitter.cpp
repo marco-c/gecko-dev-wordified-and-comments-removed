@@ -137,10 +137,7 @@ bce_
 >
 emitJump
 (
-JSOp
-:
-:
-IfEq
+JSOP_IFEQ
 &
 jumpAroundThen_
 )
@@ -295,10 +292,7 @@ bce_
 >
 emitJump
 (
-JSOp
-:
-:
-Goto
+JSOP_GOTO
 &
 jumpsAroundElse_
 )

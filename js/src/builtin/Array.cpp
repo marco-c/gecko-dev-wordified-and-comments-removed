@@ -9690,10 +9690,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-GetArg
+JSOP_GETARG
 )
 {
 return
@@ -9710,7 +9707,7 @@ pc
 pc
 +
 =
-JSOpLength_GetArg
+JSOP_GETARG_LENGTH
 ;
 if
 (
@@ -9721,10 +9718,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-GetArg
+JSOP_GETARG
 )
 {
 return
@@ -9741,7 +9735,7 @@ pc
 pc
 +
 =
-JSOpLength_GetArg
+JSOP_GETARG_LENGTH
 ;
 if
 (
@@ -9752,10 +9746,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-Sub
+JSOP_SUB
 )
 {
 return
@@ -9765,7 +9756,7 @@ Match_None
 pc
 +
 =
-JSOpLength_Sub
+JSOP_SUB_LENGTH
 ;
 if
 (
@@ -9776,10 +9767,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-Return
+JSOP_RETURN
 )
 {
 return

@@ -18040,10 +18040,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-CheckThis
+JSOP_CHECKTHIS
 |
 |
 JSOp
@@ -18056,10 +18053,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-CheckThisReinit
+JSOP_CHECKTHISREINIT
 |
 |
 JSOp
@@ -18072,10 +18066,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-CheckReturn
+JSOP_CHECKRETURN
 )
 ;
 MonitorBytecodeType

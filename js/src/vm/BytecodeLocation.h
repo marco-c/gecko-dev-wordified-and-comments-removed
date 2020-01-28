@@ -747,10 +747,7 @@ isJump
 |
 is
 (
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 )
 ;
@@ -778,10 +775,7 @@ MOZ_ASSERT
 (
 is
 (
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 )
 ;
@@ -804,10 +798,7 @@ MOZ_ASSERT
 (
 is
 (
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 )
 ;

@@ -290,10 +290,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 MOZ_ASSERT_IF
@@ -308,10 +305,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 pc
 >
 script
@@ -494,10 +488,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 )
 ;
 uint32_t
@@ -518,10 +509,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-LoopHead
+JSOP_LOOPHEAD
 |
 |
 JitOptions

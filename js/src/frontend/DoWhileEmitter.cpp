@@ -137,10 +137,7 @@ bce_
 >
 emit1
 (
-JSOp
-:
-:
-Nop
+JSOP_NOP
 )
 )
 {
@@ -271,10 +268,7 @@ loopInfo_
 emitLoopEnd
 (
 bce_
-JSOp
-:
-:
-IfNe
+JSOP_IFNE
 JSTRY_LOOP
 )
 )

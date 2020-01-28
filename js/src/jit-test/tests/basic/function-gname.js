@@ -89,7 +89,7 @@ b
 .
 includes
 (
-GetGName
+getgname
 "
 {
 v
@@ -105,7 +105,7 @@ b
 .
 includes
 (
-GetName
+getname
 "
 {
 v

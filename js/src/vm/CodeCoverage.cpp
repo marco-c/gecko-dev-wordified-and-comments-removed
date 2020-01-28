@@ -785,10 +785,7 @@ op
 op
 =
 =
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 ;
 bool
 fallsthrough
@@ -802,10 +799,7 @@ op
 op
 !
 =
-JSOp
-:
-:
-Gosub
+JSOP_GOSUB
 ;
 if
 (
@@ -1330,10 +1324,7 @@ jump
 op
 =
 =
-JSOp
-:
-:
-TableSwitch
+JSOP_TABLESWITCH
 )
 {
 jsbytecode

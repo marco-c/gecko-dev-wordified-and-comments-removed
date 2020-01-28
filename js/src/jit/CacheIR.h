@@ -7537,10 +7537,7 @@ ignoresReturnValue
 op
 =
 =
-JSOp
-:
-:
-CallIgnoresRv
+JSOP_CALL_IGNORES_RV
 &
 &
 calleeFunc

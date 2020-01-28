@@ -1143,10 +1143,7 @@ func
 alloc
 p
 c0
-JSOp
-:
-:
-Lt
+JSOP_LT
 )
 ;
 cmp
@@ -1279,10 +1276,7 @@ func
 alloc
 p
 c0
-JSOp
-:
-:
-Ge
+JSOP_GE
 )
 ;
 elseCmp
@@ -1834,10 +1828,7 @@ func
 alloc
 p
 c0
-JSOp
-:
-:
-StrictEq
+JSOP_STRICTEQ
 )
 ;
 entry

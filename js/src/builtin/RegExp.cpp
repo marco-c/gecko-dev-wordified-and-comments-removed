@@ -8429,10 +8429,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-GetAliasedVar
+JSOP_GETALIASEDVAR
 |
 |
 fun
@@ -8525,7 +8522,7 @@ ec
 pc
 +
 =
-JSOpLength_GetAliasedVar
+JSOP_GETALIASEDVAR_LENGTH
 ;
 if
 (
@@ -8536,10 +8533,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-GetArg
+JSOP_GETARG
 |
 |
 GET_ARGNO
@@ -8558,7 +8552,7 @@ true
 pc
 +
 =
-JSOpLength_GetArg
+JSOP_GETARG_LENGTH
 ;
 if
 (
@@ -8569,10 +8563,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-GetElem
+JSOP_GETELEM
 )
 {
 return
@@ -8582,7 +8573,7 @@ true
 pc
 +
 =
-JSOpLength_GetElem
+JSOP_GETELEM_LENGTH
 ;
 if
 (
@@ -8593,10 +8584,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-Return
+JSOP_RETURN
 )
 {
 return

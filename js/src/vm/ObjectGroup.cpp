@@ -909,10 +909,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-New
+JSOP_NEW
 )
 {
 return
@@ -922,7 +919,7 @@ false
 pc
 +
 =
-JSOpLength_New
+JSOP_NEW_LENGTH
 ;
 if
 (
@@ -933,10 +930,7 @@ pc
 )
 !
 =
-JSOp
-:
-:
-SetProp
+JSOP_SETPROP
 )
 {
 return
@@ -7949,10 +7943,7 @@ pc
 )
 =
 =
-JSOp
-:
-:
-NewObject
+JSOP_NEWOBJECT
 )
 {
 Shape

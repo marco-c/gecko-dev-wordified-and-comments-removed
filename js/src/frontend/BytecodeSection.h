@@ -1242,7 +1242,7 @@ offset
 =
 BytecodeOffsetDiff
 (
-JSOpLength_JumpTarget
+JSOP_JUMPTARGET_LENGTH
 )
 ;
 }
