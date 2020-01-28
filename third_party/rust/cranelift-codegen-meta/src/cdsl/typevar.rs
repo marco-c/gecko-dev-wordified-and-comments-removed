@@ -410,7 +410,7 @@ scalar_type
 LaneType
 :
 :
-IntType
+Int
 (
 int_type
 )
@@ -437,7 +437,7 @@ bits
 LaneType
 :
 :
-FloatType
+Float
 (
 float_type
 )
@@ -464,7 +464,7 @@ bits
 LaneType
 :
 :
-BoolType
+Bool
 (
 bool_type
 )
@@ -8004,7 +8004,7 @@ Lane
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -8121,7 +8121,7 @@ new
 LaneType
 :
 :
-FloatType
+Float
 (
 shared_types
 :

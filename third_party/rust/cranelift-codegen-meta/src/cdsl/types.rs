@@ -743,21 +743,21 @@ crate
 enum
 LaneType
 {
-BoolType
+Bool
 (
 shared_types
 :
 :
 Bool
 )
-FloatType
+Float
 (
 shared_types
 :
 :
 Float
 )
-IntType
+Int
 (
 shared_types
 :
@@ -784,7 +784,7 @@ self
 LaneType
 :
 :
-BoolType
+Bool
 (
 _
 )
@@ -812,7 +812,7 @@ lane_bits
 LaneType
 :
 :
-FloatType
+Float
 (
 shared_types
 :
@@ -871,7 +871,7 @@ implementations
 LaneType
 :
 :
-FloatType
+Float
 (
 shared_types
 :
@@ -930,7 +930,7 @@ implementations
 LaneType
 :
 :
-IntType
+Int
 (
 _
 )
@@ -981,7 +981,7 @@ lane_bits
 LaneType
 :
 :
-IntType
+Int
 (
 _
 )
@@ -1024,7 +1024,7 @@ self
 LaneType
 :
 :
-BoolType
+Bool
 (
 ref
 b
@@ -1038,7 +1038,7 @@ u64
 LaneType
 :
 :
-FloatType
+Float
 (
 ref
 f
@@ -1052,7 +1052,7 @@ u64
 LaneType
 :
 :
-IntType
+Int
 (
 ref
 i
@@ -1086,7 +1086,7 @@ self
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1102,7 +1102,7 @@ B1
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1118,7 +1118,7 @@ B8
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1134,7 +1134,7 @@ B16
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1150,7 +1150,7 @@ B32
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1166,7 +1166,7 @@ B64
 LaneType
 :
 :
-BoolType
+Bool
 (
 shared_types
 :
@@ -1182,7 +1182,7 @@ B128
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -1198,7 +1198,7 @@ I8
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -1214,7 +1214,7 @@ I16
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -1230,7 +1230,7 @@ I32
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -1246,7 +1246,7 @@ I64
 LaneType
 :
 :
-IntType
+Int
 (
 shared_types
 :
@@ -1262,7 +1262,7 @@ I128
 LaneType
 :
 :
-FloatType
+Float
 (
 shared_types
 :
@@ -1278,7 +1278,7 @@ F32
 LaneType
 :
 :
-FloatType
+Float
 (
 shared_types
 :
@@ -1308,7 +1308,7 @@ LaneType
 LaneType
 :
 :
-BoolType
+Bool
 (
 match
 num_bits
@@ -1405,7 +1405,7 @@ LaneType
 LaneType
 :
 :
-IntType
+Int
 (
 match
 num_bits
@@ -1492,7 +1492,7 @@ LaneType
 LaneType
 :
 :
-FloatType
+Float
 (
 match
 num_bits
@@ -1597,7 +1597,7 @@ self
 LaneType
 :
 :
-FloatType
+Float
 (
 _
 )
@@ -1626,7 +1626,7 @@ self
 LaneType
 :
 :
-IntType
+Int
 (
 _
 )
@@ -1676,7 +1676,7 @@ self
 LaneType
 :
 :
-BoolType
+Bool
 (
 _
 )
@@ -1700,7 +1700,7 @@ lane_bits
 LaneType
 :
 :
-FloatType
+Float
 (
 _
 )
@@ -1724,7 +1724,7 @@ lane_bits
 LaneType
 :
 :
-IntType
+Int
 (
 _
 )
@@ -1811,7 +1811,7 @@ self
 LaneType
 :
 :
-BoolType
+Bool
 (
 _
 )
@@ -1832,7 +1832,7 @@ inner_msg
 LaneType
 :
 :
-FloatType
+Float
 (
 _
 )
@@ -1853,7 +1853,7 @@ inner_msg
 LaneType
 :
 :
-IntType
+Int
 (
 _
 )
@@ -1903,7 +1903,7 @@ Self
 LaneType
 :
 :
-BoolType
+Bool
 (
 b
 )
@@ -1937,7 +1937,7 @@ Self
 LaneType
 :
 :
-FloatType
+Float
 (
 f
 )
@@ -1971,7 +1971,7 @@ Self
 LaneType
 :
 :
-IntType
+Int
 (
 i
 )

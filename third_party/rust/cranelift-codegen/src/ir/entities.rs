@@ -219,6 +219,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 #
@@ -304,6 +306,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -440,6 +444,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -507,6 +513,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 #
@@ -592,6 +600,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -659,6 +669,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -726,6 +738,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -793,6 +807,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
@@ -860,6 +876,8 @@ Clone
 PartialEq
 Eq
 Hash
+PartialOrd
+Ord
 )
 ]
 pub
