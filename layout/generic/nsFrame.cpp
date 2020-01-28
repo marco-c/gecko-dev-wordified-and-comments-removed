@@ -43382,7 +43382,7 @@ isGridItem
 blockStyleCoord
 -
 >
-BehavesLikeInitialValueOnBlockAxis
+IsAuto
 (
 )
 &
