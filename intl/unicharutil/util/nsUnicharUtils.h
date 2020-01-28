@@ -775,6 +775,10 @@ aRightNext
 bool
 *
 aErr
+bool
+aMatchDiacritics
+=
+true
 )
 ;
 namespace

@@ -477,6 +477,16 @@ return
 mHistoryEnabled
 ;
 }
+bool
+MatchDiacritics
+(
+)
+const
+{
+return
+mMatchDiacritics
+;
+}
 static
 const
 int32_t
@@ -1430,6 +1440,9 @@ hashTable
 ;
 bool
 mHistoryEnabled
+;
+bool
+mMatchDiacritics
 ;
 int32_t
 mNumVisitsForFrecency
