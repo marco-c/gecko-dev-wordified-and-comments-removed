@@ -4801,14 +4801,6 @@ nullptr
 mRecvChannelProxy
 -
 >
-SetRtcpEventObserver
-(
-nullptr
-)
-;
-mRecvChannelProxy
--
->
 RegisterTransport
 (
 nullptr
