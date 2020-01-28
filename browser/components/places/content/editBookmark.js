@@ -5960,6 +5960,11 @@ title
 )
 ;
 }
+onItemRemoved
+(
+)
+{
+}
 onBeginUpdateBatch
 (
 )

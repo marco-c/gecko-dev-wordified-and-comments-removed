@@ -623,13 +623,6 @@ remove
 bm2
 )
 ;
-await
-PlacesTestUtils
-.
-promiseAsyncUpdates
-(
-)
-;
 for
 (
 let
