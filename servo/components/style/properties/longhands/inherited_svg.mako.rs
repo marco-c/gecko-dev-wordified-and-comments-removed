@@ -141,6 +141,11 @@ dominant
 -
 baseline
 "
+gecko_enum_prefix
+=
+"
+StyleDominantBaseline
+"
 )
 }
 {

@@ -9429,7 +9429,10 @@ mozilla
 StyleStrokeLinejoin
 mStrokeLinejoin
 ;
-uint8_t
+mozilla
+:
+:
+StyleDominantBaseline
 mDominantBaseline
 ;
 mozilla
