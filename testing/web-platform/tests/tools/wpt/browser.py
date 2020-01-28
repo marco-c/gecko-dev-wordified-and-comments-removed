@@ -14,8 +14,6 @@ import
 subprocess
 import
 tempfile
-import
-urlparse
 from
 abc
 import
@@ -32,9 +30,20 @@ distutils
 spawn
 import
 find_executable
+from
+six
+.
+moves
+.
+urllib
+.
+parse
+import
+urlsplit
 import
 requests
 from
+.
 utils
 import
 call
@@ -1122,8 +1131,6 @@ filename
             
 filename
 =
-urlparse
-.
 urlsplit
 (
 resp
