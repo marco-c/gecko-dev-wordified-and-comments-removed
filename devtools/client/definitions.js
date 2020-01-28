@@ -2784,10 +2784,15 @@ tooltip
 )
 inMenu
 :
-false
+AppConstants
+.
+NIGHTLY_BUILD
 hiddenInOptions
 :
-true
+!
+AppConstants
+.
+NIGHTLY_BUILD
 isTargetSupported
 :
 function

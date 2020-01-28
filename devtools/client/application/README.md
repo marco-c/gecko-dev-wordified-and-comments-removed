@@ -55,7 +55,13 @@ moment
 the
 panel
 is
-hidden
+shown
+by
+default
+on
+Nightly
+builds
+only
 behind
 a
 configuration
