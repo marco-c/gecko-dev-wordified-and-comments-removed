@@ -100,7 +100,7 @@ global
 /
 aboutNetworking
 .
-xhtml
+html
 #
 ifndef
 ANDROID
