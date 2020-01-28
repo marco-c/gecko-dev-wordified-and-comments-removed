@@ -1307,11 +1307,6 @@ INNER_TO_OUTER_MESSAGES
 :
 [
 "
-Browser
-:
-LoadURI
-"
-"
 PageStyle
 :
 StyleSheets
