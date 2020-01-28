@@ -204,7 +204,7 @@ tryOpOffset_
 +
 BytecodeOffsetDiff
 (
-JSOP_TRY_LENGTH
+JSOpLength_Try
 )
 ;
 }

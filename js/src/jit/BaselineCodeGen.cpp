@@ -28611,7 +28611,7 @@ scratchReg
 ;
 static_assert
 (
-JSOP_ENVCALLEE_LENGTH
+JSOpLength_EnvCallee
 -
 sizeof
 (
@@ -35531,10 +35531,10 @@ JSOp
 :
 :
 op_camel
-op
+JSOpLength_
 #
 #
-_LENGTH
+op_camel
 )
 )
 {
