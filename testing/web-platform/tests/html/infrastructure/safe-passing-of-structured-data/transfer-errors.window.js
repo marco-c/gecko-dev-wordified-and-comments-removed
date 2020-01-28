@@ -240,7 +240,7 @@ transferable
 ]
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 customError
 (
