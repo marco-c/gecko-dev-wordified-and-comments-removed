@@ -747,8 +747,6 @@ params
 )
 ;
 }
-return
-;
 }
 void
 PerformanceObserver
