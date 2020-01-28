@@ -240,6 +240,16 @@ info
 "
     
 "
+minidump_stackwalk_path
+"
+:
+"
+linux64
+-
+minidump_stackwalk
+"
+    
+"
 per_test_category
 "
 :

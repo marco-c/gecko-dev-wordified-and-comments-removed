@@ -372,6 +372,16 @@ info
 "
     
 "
+minidump_stackwalk_path
+"
+:
+"
+linux64
+-
+minidump_stackwalk
+"
+    
+"
 suite_definitions
 "
 :
