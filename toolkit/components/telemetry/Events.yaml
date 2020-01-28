@@ -11009,6 +11009,8 @@ bug_numbers
 :
 -
 1557050
+-
+1610897
 description
 :
 >
@@ -11022,7 +11024,7 @@ report
 expiry_version
 :
 "
-75
+80
 "
 record_in_processes
 :
@@ -11038,6 +11040,11 @@ opt
 out
 notification_emails
 :
+-
+ewright
+mozilla
+.
+com
 -
 chsiang
 mozilla
@@ -11084,6 +11091,8 @@ bug_numbers
 :
 -
 1557050
+-
+1610897
 description
 :
 >
@@ -11097,7 +11106,7 @@ report
 expiry_version
 :
 "
-75
+80
 "
 record_in_processes
 :
@@ -11113,6 +11122,11 @@ opt
 out
 notification_emails
 :
+-
+ewright
+mozilla
+.
+com
 -
 chsiang
 mozilla
@@ -11154,6 +11168,8 @@ bug_numbers
 1557050
 -
 1572825
+-
+1610897
 description
 :
 >
@@ -11201,7 +11217,7 @@ trackers_about_link
 expiry_version
 :
 "
-75
+80
 "
 record_in_processes
 :
@@ -11217,6 +11233,11 @@ opt
 out
 notification_emails
 :
+-
+ewright
+mozilla
+.
+com
 -
 chsiang
 mozilla
