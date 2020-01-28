@@ -797,7 +797,7 @@ JS
 StructuredCloneScope
 :
 :
-SameProcess
+SameProcessDifferentThread
 )
 )
 ;

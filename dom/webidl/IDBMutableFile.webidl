@@ -132,6 +132,15 @@ readonly
 "
 )
 ;
+[
+Throws
+UseCounter
+]
+DOMRequest
+getFile
+(
+)
+;
 attribute
 EventHandler
 onabort

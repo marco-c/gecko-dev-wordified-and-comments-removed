@@ -233,7 +233,7 @@ forget
 )
 ;
 }
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+NS_INLINE_DECL_REFCOUNTING
 (
 SharedJSAllocatedData
 )
@@ -301,13 +301,6 @@ StructuredCloneData
 &
 &
 aOther
-)
-;
-explicit
-StructuredCloneData
-(
-StructuredCloneScope
-aScope
 )
 ;
 ~

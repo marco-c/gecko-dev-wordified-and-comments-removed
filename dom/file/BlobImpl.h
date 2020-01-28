@@ -421,6 +421,17 @@ return
 false
 ;
 }
+virtual
+bool
+MayBeClonedToOtherThreads
+(
+)
+const
+{
+return
+true
+;
+}
 protected
 :
 virtual
