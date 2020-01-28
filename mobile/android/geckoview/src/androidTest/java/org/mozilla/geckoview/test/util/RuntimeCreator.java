@@ -91,11 +91,13 @@ annotation
 UiThread
 ;
 import
-android
-.
-support
+androidx
 .
 test
+.
+platform
+.
+app
 .
 InstrumentationRegistry
 ;
@@ -683,6 +685,10 @@ GeckoRuntime
 create
 (
 InstrumentationRegistry
+.
+getInstrumentation
+(
+)
 .
 getTargetContext
 (

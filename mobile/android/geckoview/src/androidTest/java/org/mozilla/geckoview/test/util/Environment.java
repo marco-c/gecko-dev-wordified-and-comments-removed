@@ -40,11 +40,13 @@ os
 Debug
 ;
 import
-android
-.
-support
+androidx
 .
 test
+.
+platform
+.
+app
 .
 InstrumentationRegistry
 ;

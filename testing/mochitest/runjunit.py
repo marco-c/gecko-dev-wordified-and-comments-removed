@@ -2906,9 +2906,7 @@ runner
 default
 =
 "
-android
-.
-support
+androidx
 .
 test
 .
