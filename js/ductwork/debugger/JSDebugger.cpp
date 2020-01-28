@@ -86,8 +86,8 @@ JSDEBUGGER_CID
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 jsdebugger
 {
 NS_IMPL_ISUPPORTS
@@ -297,5 +297,6 @@ NS_ERROR_FAILURE
 return
 NS_OK
 ;
+}
 }
 }

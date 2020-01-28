@@ -37,8 +37,8 @@ it
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 void
@@ -579,5 +579,6 @@ aK3
 aK4
 )
 ;
+}
 }
 }

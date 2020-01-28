@@ -209,8 +209,8 @@ true
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
 {
 void
@@ -767,5 +767,6 @@ SizeOfExcludingThis
 return
 n
 ;
+}
 }
 }

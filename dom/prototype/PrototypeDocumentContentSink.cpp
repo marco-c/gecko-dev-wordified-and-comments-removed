@@ -504,8 +504,8 @@ NS_OK
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 PrototypeDocumentContentSink
@@ -4861,5 +4861,6 @@ rv
 return
 NS_OK
 ;
+}
 }
 }

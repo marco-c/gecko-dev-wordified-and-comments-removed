@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 already_AddRefed
@@ -454,5 +454,6 @@ Finish
 (
 )
 ;
+}
 }
 }

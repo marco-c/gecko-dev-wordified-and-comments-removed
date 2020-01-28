@@ -97,8 +97,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 const
@@ -2308,5 +2308,6 @@ Ok
 (
 )
 ;
+}
 }
 }

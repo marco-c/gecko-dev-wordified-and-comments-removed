@@ -209,8 +209,8 @@ x
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 static
@@ -10868,5 +10868,6 @@ aIsUp
 =
 mLinkUp
 ;
+}
 }
 }

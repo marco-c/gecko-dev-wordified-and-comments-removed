@@ -29,8 +29,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 template
@@ -584,5 +584,6 @@ current_
 +
 +
 ;
+}
 }
 }

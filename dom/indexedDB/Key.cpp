@@ -165,11 +165,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 indexedDB
 {
 IDBResult
@@ -4578,5 +4578,7 @@ dataLength
 return
 NS_OK
 ;
+}
+}
 }
 }

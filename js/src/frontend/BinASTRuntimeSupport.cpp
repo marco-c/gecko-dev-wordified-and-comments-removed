@@ -43,8 +43,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 BinASTSourceMetadata
@@ -508,6 +508,7 @@ dictionary_
 =
 nullptr
 ;
+}
 }
 }
 }

@@ -20,8 +20,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 BinASTParserBase
@@ -53,5 +53,6 @@ Kind
 BinASTParser
 )
 {
+}
 }
 }

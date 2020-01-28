@@ -21,8 +21,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 NativeFontResourceFreeType
@@ -471,4 +471,5 @@ aFTLibrary
 }
 #
 endif
+}
 }

@@ -7,8 +7,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 widget
 {
 mozilla
@@ -26,5 +26,6 @@ CreateMediaControlKeysEventSource
 return
 nullptr
 ;
+}
 }
 }

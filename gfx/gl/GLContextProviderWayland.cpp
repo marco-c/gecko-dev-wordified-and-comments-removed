@@ -30,8 +30,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gl
 {
 using
@@ -344,6 +344,7 @@ Shutdown
 (
 )
 ;
+}
 }
 }
 }

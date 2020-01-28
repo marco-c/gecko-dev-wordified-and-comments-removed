@@ -158,8 +158,8 @@ h
 "
 namespace
 js
-:
-:
+{
+namespace
 frontend
 {
 #
@@ -16782,5 +16782,6 @@ last
 1
 )
 ;
+}
 }
 }

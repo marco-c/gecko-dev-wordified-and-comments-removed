@@ -560,8 +560,8 @@ h
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 using
@@ -3365,5 +3365,6 @@ XRE_ShutdownChildProcess
 (
 )
 ;
+}
 }
 }

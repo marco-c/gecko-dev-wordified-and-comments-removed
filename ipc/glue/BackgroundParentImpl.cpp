@@ -908,8 +908,8 @@ override
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 ipc
 {
 using
@@ -6582,6 +6582,7 @@ SendPFileDescriptorSetConstructor
 aFD
 )
 ;
+}
 }
 }
 void

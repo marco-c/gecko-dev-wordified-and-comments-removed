@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 wr
 {
 RenderWaylandDMABUFTextureHostOGL
@@ -383,6 +383,7 @@ mTextureHandle
 =
 0
 ;
+}
 }
 }
 }

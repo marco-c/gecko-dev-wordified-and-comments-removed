@@ -234,8 +234,8 @@ get
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 telemetry
 {
 class
@@ -2406,5 +2406,6 @@ SuppressErrors
 =
 aTesting
 ;
+}
 }
 }

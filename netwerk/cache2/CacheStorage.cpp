@@ -91,8 +91,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 NS_IMPL_ISUPPORTS
@@ -1193,5 +1193,6 @@ rv
 return
 NS_OK
 ;
+}
 }
 }

@@ -89,8 +89,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 bool
@@ -1096,6 +1096,7 @@ data
 FT_Err_Ok
 )
 {
+}
 }
 }
 }

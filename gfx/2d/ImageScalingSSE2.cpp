@@ -507,8 +507,8 @@ carry
 }
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 void
@@ -2174,6 +2174,7 @@ pixels
 )
 )
 ;
+}
 }
 }
 }

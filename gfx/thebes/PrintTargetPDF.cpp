@@ -23,8 +23,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 static
@@ -295,5 +295,6 @@ Close
 (
 )
 ;
+}
 }
 }

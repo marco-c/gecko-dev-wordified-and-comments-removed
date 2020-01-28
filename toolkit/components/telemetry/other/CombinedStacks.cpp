@@ -32,8 +32,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
 {
 const
@@ -1296,5 +1296,6 @@ nullptr
 return
 ret
 ;
+}
 }
 }

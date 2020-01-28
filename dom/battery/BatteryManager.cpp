@@ -117,11 +117,11 @@ chargingtimechange
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
-:
-:
+{
+namespace
 battery
 {
 BatteryManager
@@ -912,6 +912,8 @@ CHARGINGTIMECHANGE_EVENT_NAME
 DISCHARGINGTIMECHANGE_EVENT_NAME
 )
 ;
+}
+}
 }
 }
 }

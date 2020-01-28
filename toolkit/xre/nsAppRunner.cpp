@@ -17284,8 +17284,8 @@ disableWayland
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 startup
 {
 Result
@@ -17343,6 +17343,7 @@ move
 crashFile
 )
 ;
+}
 }
 }
 Result

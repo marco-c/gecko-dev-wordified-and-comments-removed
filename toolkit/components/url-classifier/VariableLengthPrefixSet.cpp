@@ -133,8 +133,8 @@ Debug
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 safebrowsing
 {
 #
@@ -2777,5 +2777,6 @@ aMallocSizeOf
 return
 n
 ;
+}
 }
 }

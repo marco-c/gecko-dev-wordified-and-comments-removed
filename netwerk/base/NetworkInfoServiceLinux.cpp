@@ -82,8 +82,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 static
@@ -425,5 +425,6 @@ addrStr
 return
 NS_OK
 ;
+}
 }
 }

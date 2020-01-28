@@ -493,8 +493,8 @@ while
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 using
@@ -8945,5 +8945,6 @@ this
 return
 true
 ;
+}
 }
 }

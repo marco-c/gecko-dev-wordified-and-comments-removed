@@ -1198,8 +1198,8 @@ PR_Close
 ;
 namespace
 dom
-:
-:
+{
+namespace
 indexedDB
 {
 using
@@ -147706,10 +147706,12 @@ rv
 /
 /
 namespace
-dom
-:
-:
 indexedDB
+}
+/
+/
+namespace
+dom
 }
 /
 /

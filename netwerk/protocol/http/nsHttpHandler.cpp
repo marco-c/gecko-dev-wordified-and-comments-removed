@@ -854,8 +854,8 @@ Promise
 ;
 namespace
 mozilla
-:
-:
+{
+namespace
 net
 {
 LazyLogModule
@@ -16095,5 +16095,6 @@ trans
 reason
 )
 ;
+}
 }
 }

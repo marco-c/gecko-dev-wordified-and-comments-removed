@@ -140,8 +140,8 @@ Debug
 )
 namespace
 mozilla
-:
-:
+{
+namespace
 safebrowsing
 {
 const
@@ -6004,5 +6004,6 @@ ReadChunkNumbers
 return
 mSubChunks
 ;
+}
 }
 }

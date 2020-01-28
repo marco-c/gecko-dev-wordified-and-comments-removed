@@ -394,8 +394,8 @@ while
 endif
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
 {
 using
@@ -10306,5 +10306,6 @@ aJournalQuotaObject
 return
 NS_OK
 ;
+}
 }
 }

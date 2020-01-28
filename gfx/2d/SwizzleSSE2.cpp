@@ -14,8 +14,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 static
@@ -2028,4 +2028,5 @@ int32_t
 IntSize
 )
 ;
+}
 }

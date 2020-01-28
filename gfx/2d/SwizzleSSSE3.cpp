@@ -21,8 +21,8 @@ h
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 template
@@ -310,4 +310,5 @@ uint8_t
 int32_t
 )
 ;
+}
 }

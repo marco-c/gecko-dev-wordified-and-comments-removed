@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 WaylandDMABUFTextureHostOGL
@@ -787,5 +787,6 @@ NON_PREMULTIPLIED
 )
 )
 ;
+}
 }
 }

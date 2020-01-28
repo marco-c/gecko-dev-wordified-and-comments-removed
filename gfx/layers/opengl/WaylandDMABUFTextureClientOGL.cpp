@@ -25,8 +25,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 layers
 {
 using
@@ -572,5 +572,6 @@ IntPoint
 return
 true
 ;
+}
 }
 }

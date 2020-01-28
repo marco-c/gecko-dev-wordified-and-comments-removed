@@ -58,8 +58,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 storage
 {
 namespace
@@ -2095,5 +2095,6 @@ aIndex
 value
 )
 ;
+}
 }
 }

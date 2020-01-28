@@ -86,11 +86,11 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 Telemetry
-:
-:
+{
+namespace
 Common
 {
 bool
@@ -1034,5 +1034,7 @@ Firefox
 ;
 #
 endif
+}
+}
 }
 }

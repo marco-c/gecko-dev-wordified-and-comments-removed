@@ -104,8 +104,8 @@ h
 "
 namespace
 mozilla
-:
-:
+{
+namespace
 dom
 {
 class
@@ -1127,6 +1127,7 @@ npprint
 return
 NS_OK
 ;
+}
 }
 }
 nsresult

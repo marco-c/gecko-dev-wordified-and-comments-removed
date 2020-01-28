@@ -30,8 +30,8 @@ vector
 >
 namespace
 mozilla
-:
-:
+{
+namespace
 gfx
 {
 PrintTargetSkPDF
@@ -548,5 +548,6 @@ do_AddRef
 mRefDT
 )
 ;
+}
 }
 }
