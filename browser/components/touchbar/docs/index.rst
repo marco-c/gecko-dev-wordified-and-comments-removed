@@ -574,7 +574,7 @@ are
 defined
 in
 the
-kBuiltInInputs
+gBuiltInInputs
 object
 in
 that
@@ -587,7 +587,7 @@ a
 new
 object
 in
-kBuiltInInputs
+gBuiltInInputs
 the
 available
 properties
@@ -961,7 +961,7 @@ properties
 as
 members
 of
-kBuiltInInputs
+gBuiltInInputs
 .
 When
 used
@@ -1388,7 +1388,7 @@ Examples
 Some
 examples
 of
-kBuiltInInputs
+gBuiltInInputs
 objects
 follow
 .
@@ -1835,7 +1835,7 @@ a
 new
 object
 to
-kBuiltInInputs
+gBuiltInInputs
 .
 This
 will
@@ -1896,7 +1896,7 @@ set
 for
 title
 in
-kBuiltInInputs
+gBuiltInInputs
 .
 You
 should
@@ -2528,7 +2528,7 @@ for
 each
 input
 in
-kBuiltInInputs
+gBuiltInInputs
 .
 nsTouchBar
 uses

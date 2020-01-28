@@ -87,6 +87,14 @@ Home
 fullscreen
 =
 Fullscreen
+touchbar
+-
+fullscreen
+-
+exit
+=
+Exit
+Fullscreen
 find
 =
 Find
