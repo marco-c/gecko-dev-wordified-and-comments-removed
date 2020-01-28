@@ -22629,6 +22629,9 @@ type
 :
 RelaxedAtomicBool
 #
+ifdef
+XP_WIN
+#
 Prefer
 flipping
 between
@@ -22647,7 +22650,14 @@ OS
 .
 value
 :
-true
+IS_NIGHTLY_BUILD
+#
+else
+value
+:
+false
+#
+endif
 mirror
 :
 always
