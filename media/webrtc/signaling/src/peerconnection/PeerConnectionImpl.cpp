@@ -5840,7 +5840,7 @@ IsRecordingOrReplaying
 )
 {
 return
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_UNEXPECTED
 ;
 }
 RefPtr
@@ -5938,7 +5938,7 @@ aStream
 NS_ENSURE_TRUE
 (
 dataChannel
-NS_ERROR_FAILURE
+NS_ERROR_NOT_AVAILABLE
 )
 ;
 CSFLogDebug
