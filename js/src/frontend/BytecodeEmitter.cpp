@@ -758,9 +758,8 @@ h
 /
 /
 JSOp
-JSOP_
+JSOpLength_
 *
-_LENGTH
 #
 include
 "
@@ -2600,7 +2599,7 @@ lastTargetOffset
 +
 BytecodeOffsetDiff
 (
-JSOP_JUMPTARGET_LENGTH
+JSOpLength_JumpTarget
 )
 )
 {
@@ -36654,7 +36653,7 @@ top
 +
 BytecodeOffsetDiff
 (
-JSOP_RETURN_LENGTH
+JSOpLength_Return
 )
 !
 =
@@ -52910,10 +52909,10 @@ false
 }
 static_assert
 (
-JSOP_NEWINIT_LENGTH
+JSOpLength_NewInit
 =
 =
-JSOP_NEWOBJECT_LENGTH
+JSOpLength_NewObject
 "
 newinit
 and

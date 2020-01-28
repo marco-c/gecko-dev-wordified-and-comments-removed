@@ -14294,7 +14294,7 @@ JSOp
 (
 pc
 [
-JSOP_POP_LENGTH
+JSOpLength_Pop
 ]
 )
 =
@@ -87795,7 +87795,7 @@ nextPc
 =
 pc
 +
-JSOP_CHECKALIASEDLEXICAL_LENGTH
+JSOpLength_CheckAliasedLexical
 ;
 MOZ_ASSERT
 (

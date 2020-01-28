@@ -936,7 +936,7 @@ bce_
 emitN
 (
 JSOP_TABLESWITCH
-JSOP_TABLESWITCH_LENGTH
+JSOpLength_TableSwitch
 -
 sizeof
 (

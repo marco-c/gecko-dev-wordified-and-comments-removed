@@ -8522,7 +8522,7 @@ ec
 pc
 +
 =
-JSOP_GETALIASEDVAR_LENGTH
+JSOpLength_GetAliasedVar
 ;
 if
 (
@@ -8552,7 +8552,7 @@ true
 pc
 +
 =
-JSOP_GETARG_LENGTH
+JSOpLength_GetArg
 ;
 if
 (
@@ -8573,7 +8573,7 @@ true
 pc
 +
 =
-JSOP_GETELEM_LENGTH
+JSOpLength_GetElem
 ;
 if
 (

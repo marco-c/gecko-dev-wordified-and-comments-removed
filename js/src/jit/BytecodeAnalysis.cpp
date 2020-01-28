@@ -588,7 +588,7 @@ start
 =
 offset
 +
-JSOP_TRY_LENGTH
+JSOpLength_Try
 &
 &
 (

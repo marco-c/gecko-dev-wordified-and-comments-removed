@@ -4749,10 +4749,10 @@ len
 \
 constexpr
 size_t
-op
+JSOpLength_
 #
 #
-_LENGTH
+op_camel
 =
 len
 ;

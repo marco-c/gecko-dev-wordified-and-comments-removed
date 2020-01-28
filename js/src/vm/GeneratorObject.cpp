@@ -2198,10 +2198,10 @@ false
 }
 static_assert
 (
-JSOP_YIELD_LENGTH
+JSOpLength_Yield
 =
 =
-JSOP_INITIALYIELD_LENGTH
+JSOpLength_InitialYield
 "
 JSOP_YIELD
 and
@@ -2216,10 +2216,10 @@ length
 ;
 static_assert
 (
-JSOP_YIELD_LENGTH
+JSOpLength_Yield
 =
 =
-JSOP_AWAIT_LENGTH
+JSOpLength_Await
 "
 JSOP_YIELD
 and
@@ -2237,7 +2237,7 @@ offset
 =
 nextOffset
 -
-JSOP_YIELD_LENGTH
+JSOpLength_Yield
 ;
 JSOp
 prevOp

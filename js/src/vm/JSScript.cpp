@@ -26044,7 +26044,7 @@ tryPc
 =
 tryStart
 -
-JSOP_TRY_LENGTH
+JSOpLength_Try
 ;
 MOZ_ASSERT
 (
@@ -27234,10 +27234,10 @@ pc
 ;
 static_assert
 (
-JSOP_SPREADEVAL_LENGTH
+JSOpLength_SpreadEval
 =
 =
-JSOP_STRICTSPREADEVAL_LENGTH
+JSOpLength_StrictSpreadEval
 "
 next
 op
@@ -27254,10 +27254,10 @@ offset
 ;
 static_assert
 (
-JSOP_EVAL_LENGTH
+JSOpLength_Eval
 =
 =
-JSOP_STRICTEVAL_LENGTH
+JSOpLength_StrictEval
 "
 next
 op
@@ -27348,9 +27348,9 @@ pc
 (
 isSpread
 ?
-JSOP_SPREADEVAL_LENGTH
+JSOpLength_SpreadEval
 :
-JSOP_EVAL_LENGTH
+JSOpLength_Eval
 )
 ;
 MOZ_ASSERT
@@ -30922,7 +30922,7 @@ pc
 pc
 +
 =
-JSOP_ARGUMENTS_LENGTH
+JSOpLength_Arguments
 ;
 MOZ_ASSERT
 (
