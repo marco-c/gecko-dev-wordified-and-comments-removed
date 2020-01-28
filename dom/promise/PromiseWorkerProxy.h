@@ -219,13 +219,6 @@ aCx
 JSStructuredCloneReader
 *
 aReader
-const
-JS
-:
-:
-CloneDataPolicy
-&
-aCloneDataPolicy
 uint32_t
 aTag
 uint32_t

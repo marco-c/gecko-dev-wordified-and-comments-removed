@@ -17752,7 +17752,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemory
 (
 )
 ;

@@ -20165,7 +20165,7 @@ allow
 {
 policy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemory
 (
 )
 ;
@@ -20659,7 +20659,7 @@ allow
 {
 policy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemory
 (
 )
 ;
