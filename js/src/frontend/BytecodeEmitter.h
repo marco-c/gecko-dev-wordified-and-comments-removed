@@ -3623,7 +3623,10 @@ Exit
 &
 emit1
 (
-JSOP_RETRVAL
+JSOp
+:
+:
+RetRval
 )
 ;
 }

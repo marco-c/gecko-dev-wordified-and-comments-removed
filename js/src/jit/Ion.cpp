@@ -12009,7 +12009,10 @@ JSOp
 pc
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 if
@@ -12321,7 +12324,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 ;
 MOZ_ASSERT
 (
@@ -13039,7 +13045,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 if

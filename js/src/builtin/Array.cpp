@@ -9699,7 +9699,10 @@ pc
 )
 !
 =
-JSOP_GETARG
+JSOp
+:
+:
+GetArg
 )
 {
 return
@@ -9727,7 +9730,10 @@ pc
 )
 !
 =
-JSOP_GETARG
+JSOp
+:
+:
+GetArg
 )
 {
 return
@@ -9755,7 +9761,10 @@ pc
 )
 !
 =
-JSOP_SUB
+JSOp
+:
+:
+Sub
 )
 {
 return
@@ -9776,7 +9785,10 @@ pc
 )
 !
 =
-JSOP_RETURN
+JSOp
+:
+:
+Return
 )
 {
 return

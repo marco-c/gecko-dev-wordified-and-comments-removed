@@ -909,7 +909,10 @@ pc
 )
 !
 =
-JSOP_NEW
+JSOp
+:
+:
+New
 )
 {
 return
@@ -930,7 +933,10 @@ pc
 )
 !
 =
-JSOP_SETPROP
+JSOp
+:
+:
+SetProp
 )
 {
 return
@@ -7943,7 +7949,10 @@ pc
 )
 =
 =
-JSOP_NEWOBJECT
+JSOp
+:
+:
+NewObject
 )
 {
 Shape

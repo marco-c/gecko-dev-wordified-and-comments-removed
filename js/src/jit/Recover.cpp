@@ -534,7 +534,10 @@ if
 bailOp
 =
 =
-JSOP_FUNCALL
+JSOp
+:
+:
+FunCall
 )
 {
 MOZ_ASSERT
@@ -554,7 +557,10 @@ if
 bailOp
 !
 =
-JSOP_FUNAPPLY
+JSOp
+:
+:
+FunApply
 &
 &
 !
