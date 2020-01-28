@@ -1628,7 +1628,7 @@ Duration
 :
 from_millis
 (
-10
+1
 )
 )
 )
@@ -1648,7 +1648,7 @@ Duration
 :
 from_millis
 (
-10
+1
 )
 )
 )
