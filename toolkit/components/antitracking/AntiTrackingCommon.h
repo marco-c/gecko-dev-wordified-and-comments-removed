@@ -418,6 +418,17 @@ static
 void
 NotifyContentBlockingEvent
 (
+nsIChannel
+*
+aChannel
+uint32_t
+aRejectedReason
+)
+;
+static
+void
+NotifyContentBlockingEvent
+(
 nsPIDOMWindowOuter
 *
 aWindow
