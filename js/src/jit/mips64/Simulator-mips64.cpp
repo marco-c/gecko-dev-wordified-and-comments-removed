@@ -479,7 +479,7 @@ instructionType
 const
 ;
 inline
-Opcode
+OpcodeField
 opcodeValue
 (
 )
@@ -488,7 +488,7 @@ const
 return
 static_cast
 <
-Opcode
+OpcodeField
 >
 (
 bits
@@ -806,7 +806,7 @@ FBtrueShift
 ;
 }
 inline
-Opcode
+OpcodeField
 opcodeFieldRaw
 (
 )
@@ -815,7 +815,7 @@ const
 return
 static_cast
 <
-Opcode
+OpcodeField
 >
 (
 instructionBits
@@ -979,7 +979,7 @@ secondaryValue
 )
 const
 {
-Opcode
+OpcodeField
 op
 =
 opcodeFieldRaw
@@ -13903,7 +13903,7 @@ do_interrupt
 )
 {
 const
-Opcode
+OpcodeField
 op
 =
 instr
@@ -16293,7 +16293,7 @@ instr
 )
 {
 const
-Opcode
+OpcodeField
 op
 =
 instr
@@ -19311,7 +19311,7 @@ SimInstruction
 instr
 )
 {
-Opcode
+OpcodeField
 op
 =
 instr

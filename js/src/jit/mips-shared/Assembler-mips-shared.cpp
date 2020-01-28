@@ -16935,11 +16935,11 @@ rt
 =
 0
 ;
-Opcode
+OpcodeField
 op
 =
 (
-Opcode
+OpcodeField
 )
 (
 branch
@@ -17441,11 +17441,11 @@ InstImm
 branch
 )
 {
-Opcode
+OpcodeField
 op
 =
 (
-Opcode
+OpcodeField
 )
 (
 branch
