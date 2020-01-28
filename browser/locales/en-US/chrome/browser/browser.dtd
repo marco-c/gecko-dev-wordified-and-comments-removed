@@ -1779,16 +1779,6 @@ o
 <
 !
 ENTITY
-bookmarksWinCmd
-.
-commandkey
-"
-i
-"
->
-<
-!
-ENTITY
 historyButton
 .
 label
