@@ -958,7 +958,7 @@ uint64_t
 aFwdTransactionId
 )
 {
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint

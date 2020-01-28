@@ -1443,7 +1443,7 @@ Metric
 Rasterization
 )
 ;
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint
@@ -3273,7 +3273,7 @@ bool
 aScheduleComposite
 )
 {
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint

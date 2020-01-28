@@ -1326,7 +1326,7 @@ WebRenderBackgroundData
 aBackground
 )
 {
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint
@@ -2062,7 +2062,7 @@ EndCanvasTransaction
 )
 ;
 {
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint

@@ -57304,11 +57304,12 @@ TRACE
 reason
 )
 \
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 Layout
 "
+\
 "
 MaybeRecreateContainerForFrameRemoval
 :
@@ -76456,7 +76457,7 @@ column
 containing
 block
 .
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 Layout
@@ -78810,7 +78811,7 @@ TRACE
 reason
 )
 \
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 Layout
@@ -79326,7 +79327,7 @@ TRACE
 reason
 )
 \
-PROFILER_TRACING
+PROFILER_TRACING_MARKER
 (
 "
 Layout

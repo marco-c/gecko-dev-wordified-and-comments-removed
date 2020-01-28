@@ -401,7 +401,7 @@ name
 #
 ifdef
 MOZ_GECKO_PROFILER
-profiler_tracing
+profiler_tracing_marker
 (
 "
 WebRender
@@ -432,7 +432,7 @@ name
 #
 ifdef
 MOZ_GECKO_PROFILER
-profiler_tracing
+profiler_tracing_marker
 (
 "
 WebRender
@@ -7676,7 +7676,7 @@ aTxnURL
 )
 ;
 }
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint
@@ -8697,7 +8697,7 @@ aTxnURL
 )
 ;
 }
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint
@@ -12591,7 +12591,7 @@ aRect
 nullptr
 )
 ;
-AUTO_PROFILER_TRACING
+AUTO_PROFILER_TRACING_MARKER
 (
 "
 Paint
