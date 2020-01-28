@@ -3310,6 +3310,14 @@ char
 aReason
 )
 ;
+void
+HandleOrphanedMinidump
+(
+nsString
+*
+aDumpId
+)
+;
 virtual
 ~
 ContentParent
