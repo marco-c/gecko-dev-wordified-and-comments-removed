@@ -1164,6 +1164,10 @@ FWD_DECLARE_VS_FUNCTION
 (
 yuv_brush_vs
 )
+FWD_DECLARE_VS_FUNCTION
+(
+opacity_brush_vs
+)
 void
 multi_brush_vs
 (
@@ -1892,6 +1896,11 @@ radial_gradient_brush_fs
 ;
 Fragment
 yuv_brush_fs
+(
+)
+;
+Fragment
+opacity_brush_fs
 (
 )
 ;
