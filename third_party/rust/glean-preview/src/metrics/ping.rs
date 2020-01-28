@@ -100,7 +100,7 @@ ping_type
 }
 pub
 fn
-send
+submit
 (
 &
 self
@@ -112,7 +112,7 @@ bool
 crate
 :
 :
-send_ping
+submit_ping
 (
 self
 )

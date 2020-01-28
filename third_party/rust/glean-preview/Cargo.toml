@@ -129,7 +129,7 @@ version
 .
 0
 .
-2
+4
 "
 authors
 =
@@ -170,6 +170,11 @@ md
 "
 "
 LICENSE
+"
+"
+CHANGELOG
+.
+md
 "
 "
 src
