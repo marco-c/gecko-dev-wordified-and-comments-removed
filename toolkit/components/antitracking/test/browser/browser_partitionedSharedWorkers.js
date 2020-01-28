@@ -281,6 +281,9 @@ tabs
 -
 SharedWorker
 "
+"
+sharedworker
+"
 async
 win
 =

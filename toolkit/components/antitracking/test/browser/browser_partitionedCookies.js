@@ -484,6 +484,9 @@ tabs
 DOM
 Cookies
 "
+"
+cookies
+"
 async
 win
 =
@@ -565,6 +568,9 @@ tabs
 -
 Network
 Cookies
+"
+"
+cookies
 "
 async
 win

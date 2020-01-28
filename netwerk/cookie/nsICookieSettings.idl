@@ -227,6 +227,14 @@ attribute
 boolean
 rejectThirdPartyTrackers
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+limitForeignContexts
+;
 /
 *
 *
