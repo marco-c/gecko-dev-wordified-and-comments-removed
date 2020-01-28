@@ -1060,6 +1060,13 @@ using
 run
 -
 task
+sparse
+-
+profile
+:
+profile
+-
+generate
 cwd
 :
 '
