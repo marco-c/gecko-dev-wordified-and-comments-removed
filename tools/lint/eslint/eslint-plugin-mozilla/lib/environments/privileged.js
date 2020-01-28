@@ -284,6 +284,9 @@ false
 ClipboardEvent
 :
 false
+ClonedErrorHolder
+:
+false
 CloseEvent
 :
 false

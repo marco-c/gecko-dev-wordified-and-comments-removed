@@ -1670,6 +1670,16 @@ openConduit
 (
 subject
 {
+id
+:
+subject
+.
+id
+|
+|
+getUniqueId
+(
+)
 extensionId
 :
 this
