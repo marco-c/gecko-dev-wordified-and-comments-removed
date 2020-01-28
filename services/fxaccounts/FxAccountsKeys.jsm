@@ -372,6 +372,8 @@ every
 k
 =
 >
+!
+!
 userData
 [
 k
@@ -894,15 +896,6 @@ currentState
 updateUserAccountData
 (
 updateData
-)
-;
-await
-this
-.
-_fxia
-.
-updateDeviceRegistration
-(
 )
 ;
 data
