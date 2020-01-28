@@ -127,11 +127,6 @@ CheckForMixedContent
 (
 )
 ;
-void
-CheckForContentBlockingEvents
-(
-)
-;
 nsresult
 UpdateStateAndSecurityInfo
 (

@@ -369,16 +369,6 @@ aState
 )
 ;
 void
-OnContentBlockingEvent
-(
-nsISupports
-*
-aContext
-uint32_t
-aEvent
-)
-;
-void
 SetDocumentOpenedButNotLoaded
 (
 )
