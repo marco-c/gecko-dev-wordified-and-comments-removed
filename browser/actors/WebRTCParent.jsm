@@ -2032,7 +2032,7 @@ message
 "
 getUserMedia
 .
-shareMicrophoneUnsafeDelegation
+shareMicrophoneUnsafeDelegations
 .
 message
 "
