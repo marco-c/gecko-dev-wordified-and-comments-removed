@@ -131,7 +131,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 sys
 import
@@ -4544,21 +4543,13 @@ args
 )
         
 if
-isinstance
+type
 (
 val
-six
-.
-text_type
 )
-or
-isinstance
-(
-val
-six
-.
-binary_type
-)
+=
+=
+str
 :
             
 val
@@ -4615,6 +4606,8 @@ self
 .
 disableLevel
 )
+        
+pass
     
 def
 do_ifdef
@@ -4731,6 +4724,8 @@ self
 .
 disableLevel
 )
+        
+pass
     
 def
 do_ifndef
@@ -4847,6 +4842,8 @@ self
 .
 disableLevel
 )
+        
+pass
     
 def
 do_else
@@ -5162,9 +5159,7 @@ context
 :
                 
 return
-six
-.
-text_type
+str
 (
 self
 .
@@ -5583,9 +5578,7 @@ context
 :
                 
 return
-six
-.
-text_type
+str
 (
 self
 .
@@ -5732,9 +5725,7 @@ try
                 
 args
 =
-six
-.
-text_type
+str
 (
 args
 )
@@ -5809,9 +5800,7 @@ self
 '
 FILE_NOT_FOUND
 '
-six
-.
-text_type
+str
 (
 args
 )
@@ -6207,9 +6196,7 @@ self
 Error
 :
 '
-six
-.
-text_type
+str
 (
 args
 )
