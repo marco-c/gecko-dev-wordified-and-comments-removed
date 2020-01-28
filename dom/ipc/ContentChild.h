@@ -3952,7 +3952,7 @@ aContext
 BrowsingContext
 :
 :
-Transaction
+BaseTransaction
 &
 &
 aTransaction

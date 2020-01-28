@@ -455,6 +455,10 @@ uint64_t
 aProcessId
 Type
 aType
+FieldTuple
+&
+&
+aFields
 )
 ;
 private
