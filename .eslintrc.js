@@ -327,6 +327,11 @@ exports
 {
 ignorePatterns
 "
+root
+"
+:
+true
+"
 extends
 "
 :
