@@ -3209,7 +3209,7 @@ Capture
 uint8_t
 bits
 =
-7
+3
 ;
 const
 char
