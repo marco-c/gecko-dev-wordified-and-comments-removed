@@ -136,6 +136,13 @@ cd
 MOZ_FETCHES_DIR
 /
 sccache
+COMMON_FEATURES
+=
+"
+native
+-
+zlib
+"
 case
 "
 (
@@ -252,6 +259,7 @@ build
 features
 "
 all
+COMMON_FEATURES
 "
 -
 -
@@ -403,6 +411,7 @@ all
 dist
 -
 server
+COMMON_FEATURES
 "
 -
 -
@@ -434,6 +443,7 @@ dist
 client
 s3
 gcs
+COMMON_FEATURES
 "
 ;
 ;
