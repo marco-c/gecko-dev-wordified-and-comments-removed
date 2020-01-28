@@ -1645,6 +1645,17 @@ gfx
 :
 Matrix4x4Typed
 <
+LayoutDevicePixel
+ParentLayerPixel
+>
+LayoutDeviceToParentLayerMatrix4x4
+;
+typedef
+gfx
+:
+:
+Matrix4x4Typed
+<
 LayerPixel
 ParentLayerPixel
 >
