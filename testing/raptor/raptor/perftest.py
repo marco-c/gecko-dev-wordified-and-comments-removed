@@ -13,6 +13,8 @@ shutil
 import
 subprocess
 import
+sys
+import
 tempfile
 from
 abc
@@ -25,6 +27,101 @@ import
 mozprocess
 import
 mozversion
+from
+mozprofile
+import
+create_profile
+from
+mozproxy
+import
+get_playback
+here
+=
+os
+.
+path
+.
+abspath
+(
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+)
+paths
+=
+[
+here
+]
+webext_dir
+=
+os
+.
+path
+.
+join
+(
+here
+"
+.
+.
+"
+"
+webext
+"
+)
+paths
+.
+append
+(
+webext_dir
+)
+for
+path
+in
+paths
+:
+    
+if
+not
+os
+.
+path
+.
+exists
+(
+path
+)
+:
+        
+raise
+IOError
+(
+"
+%
+s
+does
+not
+exist
+.
+"
+%
+path
+)
+    
+sys
+.
+path
+.
+insert
+(
+0
+path
+)
 from
 cmdline
 import
@@ -49,14 +146,6 @@ logger
 import
 RaptorLogger
 from
-mozprofile
-import
-create_profile
-from
-mozproxy
-import
-get_playback
-from
 gecko_profile
 import
 GeckoProfile
@@ -70,28 +159,11 @@ RaptorLogger
 (
 component
 =
-'
+"
 raptor
 -
 perftest
-'
-)
-here
-=
-os
-.
-path
-.
-abspath
-(
-os
-.
-path
-.
-dirname
-(
-__file__
-)
+"
 )
 try
 :
@@ -156,89 +228,110 @@ ABCMeta
 def
 __init__
 (
+        
 self
+        
 app
+        
 binary
+        
 run_local
 =
 False
+        
 noinstall
 =
 False
-                 
+        
 obj_path
 =
 None
+        
 profile_class
 =
 None
+        
 installerpath
 =
 None
-                 
+        
 gecko_profile
 =
 False
+        
 gecko_profile_interval
 =
 None
+        
 gecko_profile_entries
 =
 None
-                 
+        
 symbols_path
 =
 None
+        
 host
 =
 None
+        
 power_test
 =
 False
+        
 cpu_test
 =
 False
+        
 memory_test
 =
 False
-                 
+        
 is_release_build
 =
 False
+        
 debug_mode
 =
 False
+        
 post_startup_delay
 =
 None
-                 
+        
 interrupt_handler
 =
 None
+        
 e10s
 =
 True
+        
 enable_webrender
 =
 False
-                 
+        
 results_handler_class
 =
 RaptorResultsHandler
+        
 no_conditioned_profile
 =
 False
-                 
+        
 device_name
 =
 None
+        
 extra_prefs
 =
 {
 }
+        
 *
 *
 kwargs
+    
 )
 :
         
@@ -246,9 +339,9 @@ if
 host
 =
 =
-'
+"
 HOST_IP
-'
+"
 :
             
 host
@@ -257,9 +350,9 @@ os
 .
 environ
 [
-'
+"
 HOST_IP
-'
+"
 ]
         
 self
@@ -268,151 +361,151 @@ config
 =
 {
             
-'
+"
 app
-'
+"
 :
 app
             
-'
+"
 binary
-'
+"
 :
 binary
             
-'
+"
 platform
-'
+"
 :
 mozinfo
 .
 os
             
-'
+"
 processor
-'
+"
 :
 mozinfo
 .
 processor
             
-'
+"
 run_local
-'
+"
 :
 run_local
             
-'
+"
 obj_path
-'
+"
 :
 obj_path
             
-'
+"
 gecko_profile
-'
+"
 :
 gecko_profile
             
-'
+"
 gecko_profile_interval
-'
+"
 :
 gecko_profile_interval
             
-'
+"
 gecko_profile_entries
-'
+"
 :
 gecko_profile_entries
             
-'
+"
 symbols_path
-'
+"
 :
 symbols_path
             
-'
+"
 host
-'
+"
 :
 host
             
-'
+"
 power_test
-'
+"
 :
 power_test
             
-'
+"
 memory_test
-'
+"
 :
 memory_test
             
-'
+"
 cpu_test
-'
+"
 :
 cpu_test
             
-'
+"
 is_release_build
-'
+"
 :
 is_release_build
             
-'
+"
 enable_control_server_wait
-'
+"
 :
 memory_test
 or
 cpu_test
             
-'
+"
 e10s
-'
+"
 :
 e10s
             
-'
+"
 enable_webrender
-'
+"
 :
 enable_webrender
             
-'
+"
 no_conditioned_profile
-'
+"
 :
 no_conditioned_profile
             
-'
+"
 device_name
-'
+"
 :
 device_name
             
-'
+"
 enable_fission
-'
+"
 :
 extra_prefs
 .
 get
 (
-'
+"
 fission
 .
 autostart
-'
+"
 False
 )
             
-'
+"
 extra_prefs
-'
+"
 :
 extra_prefs
         
@@ -429,68 +522,68 @@ self
 no_condprof
 =
 (
+            
 (
 self
 .
 config
 [
-'
+"
 platform
-'
+"
 ]
 =
 =
-'
+"
 win
-'
-                             
+"
 and
 self
 .
 config
 [
-'
+"
 processor
-'
+"
 ]
 =
 =
-'
+"
 aarch64
-'
+"
 )
+            
 or
-                            
 self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 =
 =
-'
+"
 org
 .
 mozilla
 .
 fennec_aurora
-'
+"
+            
 or
-                            
 self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 =
 =
-'
+"
 org
 .
 mozilla
@@ -500,17 +593,18 @@ reference
 browser
 .
 raptor
-'
+"
+            
 or
-                            
 self
 .
 config
 [
-'
+"
 no_conditioned_profile
-'
+"
 ]
+        
 )
         
 LOG
@@ -540,24 +634,24 @@ self
 .
 config
 [
-'
+"
 app
-'
+"
 ]
 =
 =
-'
+"
 fennec
-'
+"
 :
             
 self
 .
 config
 [
-'
+"
 e10s
-'
+"
 ]
 =
 False
@@ -589,11 +683,11 @@ os
 getcwd
 (
 )
-'
+"
 raptor
 -
 venv
-'
+"
 )
         
 self
@@ -703,9 +797,9 @@ self
 .
 config
 [
-'
+"
 app
-'
+"
 ]
 browser_version
 )
@@ -720,9 +814,9 @@ self
 .
 config
 [
-'
+"
 run_local
-'
+"
 ]
 else
 False
@@ -749,6 +843,7 @@ LOG
 .
 info
 (
+                
 "
 debug
 -
@@ -765,11 +860,12 @@ to
 d
 ms
 "
-                     
+                
 %
 self
 .
 post_startup_delay
+            
 )
         
 LOG
@@ -817,16 +913,16 @@ config
 .
 get
 (
-'
+"
 host
-'
+"
 )
 in
 (
-'
+"
 localhost
-'
-'
+"
+"
 127
 .
 0
@@ -834,7 +930,7 @@ localhost
 0
 .
 1
-'
+"
 )
     
 def
@@ -882,6 +978,7 @@ LOG
 .
 info
 (
+            
 "
 Making
 temp_download_dir
@@ -891,12 +988,14 @@ get_conditioned_profile
 {
 }
 "
-                 
 .
 format
 (
+                
 temp_download_dir
+            
 )
+        
 )
         
 if
@@ -1003,9 +1102,9 @@ cond_prof_target_dir
 =
 get_profile
 (
+                
 temp_download_dir
 platform
-                                               
 "
 settled
 "
@@ -1014,6 +1113,7 @@ repo
 "
 try
 "
+            
 )
         
 self
@@ -1026,8 +1126,10 @@ path
 .
 join
 (
+            
 temp_download_dir
 cond_prof_target_dir
+        
 )
         
 if
@@ -1046,6 +1148,7 @@ LOG
 .
 critical
 (
+                
 "
 Can
 '
@@ -1059,7 +1162,7 @@ get_profile
 (
 )
 "
-                         
+                
 "
 temp_download_dir
 {
@@ -1069,14 +1172,16 @@ platform
 }
 settled
 "
-                         
 .
 format
 (
+                    
 cond_prof_target_dir
 temp_download_dir
 platform
+                
 )
+            
 )
             
 raise
@@ -1086,6 +1191,7 @@ LOG
 .
 info
 (
+            
 "
 self
 .
@@ -1097,14 +1203,16 @@ set
 {
 }
 "
-                 
 .
 format
 (
+                
 self
 .
 conditioned_profile_dir
+            
 )
+        
 )
         
 shutil
@@ -1158,6 +1266,7 @@ profile
 =
 create_profile
 (
+                
 self
 .
 profile_class
@@ -1166,6 +1275,7 @@ profile
 self
 .
 conditioned_profile_dir
+            
 )
         
 with
@@ -1180,15 +1290,15 @@ join
 self
 .
 profile_data_dir
-'
+"
 profiles
 .
 json
-'
+"
 )
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -1203,9 +1313,9 @@ load
 fh
 )
 [
-'
+"
 raptor
-'
+"
 ]
         
 for
@@ -1260,18 +1370,18 @@ self
 .
 config
 [
-'
+"
 extra_prefs
-'
+"
 ]
 .
 get
 (
-'
+"
 fission
 .
 autostart
-'
+"
 False
 )
 :
@@ -1280,26 +1390,26 @@ LOG
 .
 info
 (
-'
+"
 Enabling
 fission
 via
 browser
 preferences
-'
+"
 )
             
 LOG
 .
 info
 (
-'
+"
 Browser
 preferences
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1307,9 +1417,9 @@ self
 .
 config
 [
-'
+"
 extra_prefs
-'
+"
 ]
 )
 )
@@ -1324,9 +1434,9 @@ self
 .
 config
 [
-'
+"
 extra_prefs
-'
+"
 ]
 )
         
@@ -1334,9 +1444,9 @@ self
 .
 config
 [
-'
+"
 local_profile_dir
-'
+"
 ]
 =
 self
@@ -1349,14 +1459,14 @@ LOG
 .
 info
 (
-'
+"
 Local
 browser
 profile
 :
 {
 }
-'
+"
 .
 format
 (
@@ -1378,9 +1488,9 @@ self
 :
         
 if
-'
+"
 MOZ_DEVELOPER_REPO_DIR
-'
+"
 in
 os
 .
@@ -1394,20 +1504,22 @@ path
 .
 join
 (
+                
 os
 .
 environ
 [
-'
+"
 MOZ_DEVELOPER_REPO_DIR
-'
+"
 ]
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
+            
 )
         
 if
@@ -1424,12 +1536,12 @@ join
 build
 .
 topsrcdir
-'
+"
 testing
-'
-'
+"
+"
 profiles
-'
+"
 )
         
 return
@@ -1440,9 +1552,9 @@ path
 join
 (
 here
-'
+"
 profile_data
-'
+"
 )
     
 property
@@ -1469,17 +1581,17 @@ config
 .
 get
 (
-'
+"
 run_local
-'
+"
 False
 )
 :
             
 if
-'
+"
 MOZ_DEVELOPER_REPO_DIR
-'
+"
 in
 os
 .
@@ -1494,24 +1606,28 @@ path
 .
 join
 (
+                    
 os
 .
 environ
 [
-'
+"
 MOZ_DEVELOPER_REPO_DIR
-'
+"
 ]
-                                            
-'
+                    
+"
 testing
-'
-'
+"
+                    
+"
 mozharness
-'
-'
+"
+                    
+"
 build
-'
+"
+                
 )
             
 else
@@ -1526,9 +1642,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
 :
             
@@ -1538,9 +1654,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
         
 return
@@ -1570,9 +1686,9 @@ s
 %
 test
 [
-'
+"
 name
-'
+"
 ]
 )
         
@@ -1580,18 +1696,18 @@ self
 .
 config
 [
-'
+"
 subtest_alert_on
-'
+"
 ]
 =
 test
 .
 get
 (
-'
+"
 alert_on
-'
+"
 )
         
 if
@@ -1599,9 +1715,9 @@ test
 .
 get
 (
-'
+"
 playback
-'
+"
 )
 is
 not
@@ -1641,9 +1757,9 @@ set_browser_test_prefs
 (
 test
 [
-'
+"
 preferences
-'
+"
 ]
 )
     
@@ -1703,9 +1819,9 @@ test
 .
 get
 (
-'
+"
 page_timeout
-'
+"
 )
 )
 )
@@ -1805,9 +1921,9 @@ self
 .
 config
 [
-'
+"
 gecko_profile
-'
+"
 ]
 :
             
@@ -1860,11 +1976,11 @@ join
 self
 .
 artifact_dir
-'
+"
 raptor
 .
 json
-'
+"
 )
         
 if
@@ -1875,9 +1991,9 @@ config
 .
 get
 (
-'
+"
 run_local
-'
+"
 False
 )
 :
@@ -1895,20 +2011,20 @@ os
 getcwd
 (
 )
-'
+"
 local
 .
 json
-'
+"
 )
         
 self
 .
 config
 [
-'
+"
 raptor_json_path
-'
+"
 ]
 =
 raptor_json_path
@@ -1917,9 +2033,9 @@ self
 .
 config
 [
-'
+"
 artifact_dir
-'
+"
 ]
 =
 self
@@ -2085,6 +2201,7 @@ LOG
 .
 info
 (
+                
 "
 No
 playback
@@ -2100,6 +2217,7 @@ getting
 recording
 info
 "
+            
 )
             
 return
@@ -2112,12 +2230,12 @@ _recording_paths
             
 json_path
 =
-'
+"
 {
 }
 .
 json
-'
+"
 .
 format
 (
@@ -2125,9 +2243,9 @@ r
 .
 split
 (
-'
+"
 .
-'
+"
 )
 [
 0
@@ -2169,9 +2287,9 @@ read
 .
 get
 (
-'
+"
 recording_date
-'
+"
 )
                     
 if
@@ -2185,29 +2303,32 @@ LOG
 .
 info
 (
-'
+                            
+"
 Playback
 recording
 date
 :
 {
 }
-'
+"
 .
-                                 
 format
 (
+                                
 recording_date
 .
 split
 (
-'
-'
+"
+"
 )
 [
 0
 ]
+                            
 )
+                        
 )
                     
 else
@@ -2217,13 +2338,13 @@ LOG
 .
 info
 (
-'
+"
 Playback
 recording
 date
 not
 available
-'
+"
 )
             
 else
@@ -2233,13 +2354,13 @@ LOG
 .
 info
 (
-'
+"
 Playback
 recording
 information
 not
 available
-'
+"
 )
     
 def
@@ -2256,9 +2377,9 @@ self
 .
 config
 [
-'
+"
 platform
-'
+"
 ]
         
 playback_dir
@@ -2270,9 +2391,9 @@ path
 join
 (
 here
-'
+"
 playback
-'
+"
 )
         
 self
@@ -2281,32 +2402,33 @@ config
 .
 update
 (
+            
 {
-            
-'
+                
+"
 playback_tool
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback
-'
+"
 )
-            
-'
+                
+"
 playback_version
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback_version
-'
+"
 "
 4
 .
@@ -2315,80 +2437,81 @@ playback_version
 4
 "
 )
-            
-'
+                
+"
 playback_binary_zip
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback_binary_zip_
 %
 s
-'
+"
 %
 platform
 )
-            
-'
+                
+"
 playback_pageset_zip
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback_pageset_zip_
 %
 s
-'
+"
 %
 platform
 )
-            
-'
+                
+"
 playback_binary_manifest
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback_binary_manifest
-'
+"
 )
-            
-'
+                
+"
 playback_pageset_manifest
-'
+"
 :
 test
 .
 get
 (
-'
+"
 playback_pageset_manifest
-'
+"
 )
-        
+            
 }
+        
 )
         
 for
 key
 in
 (
-'
+"
 playback_pageset_manifest
-'
-'
+"
+"
 playback_pageset_zip
-'
+"
 )
 :
             
@@ -2447,9 +2570,9 @@ self
 .
 config
 [
-'
+"
 playback_tool
-'
+"
 ]
 )
     
@@ -2473,11 +2596,11 @@ self
 profile
 .
 profile
-'
+"
 user
 .
 js
-'
+"
 )
         
 with
@@ -2506,11 +2629,11 @@ pref
 in
 prefs
 if
-'
+"
 network
 .
 proxy
-'
+"
 not
 in
 pref
@@ -2520,9 +2643,9 @@ with
 open
 (
 userjspath
-'
+"
 w
-'
+"
 )
 as
 userjsfile
@@ -2567,9 +2690,9 @@ playback
 .
 config
 [
-'
+"
 playback_files
-'
+"
 ]
 =
 self
@@ -2619,9 +2742,9 @@ os
 .
 getenv
 (
-'
+"
 MOZ_UPLOAD_DIR
-'
+"
 )
         
 if
@@ -2654,11 +2777,9 @@ gecko_profiler
 GeckoProfile
 (
 upload_dir
-                                               
 self
 .
 config
-                                               
 test
 )
 class
@@ -2692,9 +2813,9 @@ test
 )
 :
         
-'
-'
-'
+"
+"
+"
 Sets
 up
 chrome
@@ -2723,9 +2844,9 @@ unittest
 failures
 .
         
-'
-'
-'
+"
+"
+"
         
 raise
 NotImplementedError
@@ -2737,9 +2858,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Returns
 the
 browser
@@ -2803,9 +2924,9 @@ Firefox
 browsers
 .
         
-'
-'
-'
+"
+"
+"
         
 browser_name
 =
@@ -2820,9 +2941,9 @@ self
 .
 config
 [
-'
+"
 app
-'
+"
 ]
 in
 self
@@ -2852,9 +2973,9 @@ meta
 .
 get
 (
-'
+"
 application_name
-'
+"
 )
                 
 browser_version
@@ -2863,9 +2984,9 @@ meta
 .
 get
 (
-'
+"
 application_version
-'
+"
 )
             
 except
@@ -2896,8 +3017,8 @@ s
 %
 s
 "
-%
                     
+%
 (
 e
 .
@@ -3017,9 +3138,9 @@ device
 .
 create_socket_connection
 (
-'
+"
 reverse
-'
+"
 tcp_port
 tcp_port
 )
@@ -3044,9 +3165,9 @@ config
 .
 get
 (
-'
+"
 browsertime
-'
+"
 False
 )
 is
@@ -3195,11 +3316,11 @@ join
 self
 .
 profile_data_dir
-'
+"
 raptor
 -
 android
-'
+"
 )
         
 LOG
@@ -3235,8 +3356,9 @@ profile
 .
 set_preferences
 (
+            
 {
-'
+"
 browser
 .
 tabs
@@ -3244,17 +3366,18 @@ tabs
 remote
 .
 autostart
-'
+"
 :
 self
 .
 config
 [
-'
+"
 e10s
-'
+"
 ]
 }
+        
 )
     
 def
@@ -3280,9 +3403,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
         
@@ -3303,9 +3426,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
     
@@ -3335,9 +3458,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
         
@@ -3365,9 +3488,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
     
@@ -3410,9 +3533,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
 :
@@ -3420,21 +3543,21 @@ binary
 raise
 Exception
 (
-'
+"
 %
 s
 is
 not
 installed
-'
+"
 %
 self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
         
@@ -3639,15 +3762,16 @@ self
 .
 config
 [
-'
+"
 host
-'
+"
 ]
         
 LOG
 .
 info
 (
+            
 "
 setting
 profile
@@ -3666,8 +3790,11 @@ proxy
 .
 format
 (
+                
 proxy_prefs
+            
 )
+        
 )
         
 self
@@ -3708,9 +3835,9 @@ test
 )
 :
         
-'
-'
-'
+"
+"
+"
 Sets
 up
 chrome
@@ -3739,9 +3866,9 @@ unittest
 failures
 .
         
-'
-'
-'
+"
+"
+"
         
 raise
 NotImplementedError
@@ -3754,9 +3881,9 @@ test
 )
 :
         
-'
-'
-'
+"
+"
+"
 Returns
 cmd
 line
@@ -3803,15 +3930,14 @@ localhost
 1
 .
         
-'
-'
-'
+"
+"
+"
         
 chrome_args
 =
 [
-            
-'
+"
 -
 -
 use
@@ -3819,9 +3945,8 @@ use
 mock
 -
 keychain
-'
-            
-'
+"
+"
 -
 -
 no
@@ -3831,8 +3956,7 @@ default
 browser
 -
 check
-'
-        
+"
 ]
         
 if
@@ -3840,9 +3964,9 @@ test
 .
 get
 (
-'
+"
 playback
-'
+"
 False
 )
 :
@@ -3851,7 +3975,7 @@ pb_args
 =
 [
                 
-'
+"
 -
 -
 proxy
@@ -3863,7 +3987,7 @@ s
 :
 %
 d
-'
+"
 %
 (
 self
@@ -3878,7 +4002,7 @@ playback
 port
 )
                 
-'
+"
 -
 -
 proxy
@@ -3896,9 +4020,9 @@ localhost
 0
 .
 1
-'
+"
                 
-'
+"
 -
 -
 ignore
@@ -3906,7 +4030,7 @@ ignore
 certificate
 -
 errors
-'
+"
             
 ]
             
@@ -3929,7 +4053,7 @@ pb_args
 .
 replace
 (
-'
+"
 127
 .
 0
@@ -3937,14 +4061,14 @@ replace
 0
 .
 1
-'
+"
 self
 .
 config
 [
-'
+"
 host
-'
+"
 ]
 )
             
@@ -3966,7 +4090,7 @@ chrome_args
 extend
 (
 [
-'
+"
 -
 -
 auto
@@ -3978,7 +4102,7 @@ devtools
 for
 -
 tabs
-'
+"
 ]
 )
         
@@ -3992,9 +4116,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Returns
 the
 browser
@@ -4048,9 +4172,9 @@ the
 outlier
 .
         
-'
-'
-'
+"
+"
+"
         
 browser_name
 =
@@ -4075,9 +4199,9 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 )
             
@@ -4087,9 +4211,9 @@ meta
 .
 get
 (
-'
+"
 application_name
-'
+"
 )
             
 browser_version
@@ -4098,9 +4222,9 @@ meta
 .
 get
 (
-'
+"
 application_version
-'
+"
 )
         
 except
@@ -4130,8 +4254,8 @@ s
 %
 s
 "
-%
                 
+%
 (
 e
 .
@@ -4165,31 +4289,36 @@ try
 :
                 
 if
-'
+(
+                    
+"
 linux
-'
+"
 in
 self
 .
 config
 [
-'
+"
 platform
-'
+"
 ]
+                    
 or
-'
+"
 mac
-'
+"
 in
 self
 .
 config
 [
-'
+"
 platform
-'
+"
 ]
+                
+)
 :
                     
 command
@@ -4199,15 +4328,15 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
-'
+"
 -
 -
 version
-'
+"
 ]
                     
 proc
@@ -4307,9 +4436,9 @@ self
 .
 config
 [
-'
+"
 app
-'
+"
 ]
                             
 browser_version
@@ -4366,17 +4495,17 @@ self
 .
 config
 [
-'
+"
 binary
-'
+"
 ]
 .
 replace
 (
-'
+"
 \
 \
-'
+"
 r
 "
 \
@@ -4447,9 +4576,9 @@ self
 .
 config
 [
-'
+"
 app
-'
+"
 ]
                         
 browser_version
@@ -4507,8 +4636,8 @@ s
 %
 s
 "
-%
                     
+%
 (
 e
 .

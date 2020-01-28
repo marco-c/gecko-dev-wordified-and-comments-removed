@@ -15,7 +15,7 @@ import
 tarfile
 import
 sys
-HERE
+here
 =
 os
 .
@@ -46,11 +46,11 @@ path
 .
 dirname
 (
-HERE
+here
 )
-'
+"
 raptor
-'
+"
 )
 sys
 .
@@ -90,7 +90,7 @@ path
 .
 join
 (
-HERE
+here
 "
 geckoProfile
 .
@@ -130,34 +130,37 @@ mkdtemp
 raptor_config
 =
 {
-'
+        
+"
 symbols_path
-'
+"
 :
 symbols_path
-'
+        
+"
 browsertime
-'
+"
 :
 True
-                     
-'
+        
+"
 browsertime_result_dir
-'
+"
 :
 result_dir
+    
 }
     
 test_config
 =
 {
-'
+"
 name
-'
+"
 :
-'
+"
 tp6
-'
+"
 }
     
 try
@@ -190,9 +193,9 @@ os
 .
 environ
 [
-'
+"
 RAPTOR_LATEST_GECKO_PROFILE_ARCHIVE
-'
+"
 ]
         
 assert
@@ -242,9 +245,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
