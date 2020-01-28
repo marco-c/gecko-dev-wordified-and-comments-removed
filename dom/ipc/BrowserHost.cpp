@@ -602,11 +602,9 @@ BrowserHost
 Show
 (
 const
-ScreenIntSize
+OwnerShowInfo
 &
-aSize
-bool
-aParentIsActive
+aShowInfo
 )
 {
 return
@@ -615,8 +613,7 @@ mRoot
 >
 Show
 (
-aSize
-aParentIsActive
+aShowInfo
 )
 ;
 }

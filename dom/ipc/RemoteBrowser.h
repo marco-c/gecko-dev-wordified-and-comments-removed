@@ -105,6 +105,9 @@ class
 BrowserBridgeHost
 ;
 class
+OwnerShowInfo
+;
+class
 RemoteBrowser
 :
 public
@@ -240,11 +243,8 @@ bool
 Show
 (
 const
-ScreenIntSize
+OwnerShowInfo
 &
-aSize
-bool
-aParentIsActive
 )
 =
 0
