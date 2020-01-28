@@ -591,8 +591,6 @@ aValue
 override
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
-NS_IMETHOD_
-(
 already_AddRefed
 <
 mozilla
@@ -600,7 +598,6 @@ mozilla
 :
 TextEditor
 >
-)
 GetTextEditor
 (
 )

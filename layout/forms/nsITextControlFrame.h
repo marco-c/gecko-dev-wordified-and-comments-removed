@@ -11,6 +11,15 @@ nsIFormControlFrame
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AlreadyAddRefed
+.
+h
+"
 class
 nsISelectionController
 ;
@@ -44,8 +53,7 @@ eForward
 eBackward
 }
 ;
-NS_IMETHOD_
-(
+virtual
 already_AddRefed
 <
 mozilla
@@ -53,7 +61,6 @@ mozilla
 :
 TextEditor
 >
-)
 GetTextEditor
 (
 )
