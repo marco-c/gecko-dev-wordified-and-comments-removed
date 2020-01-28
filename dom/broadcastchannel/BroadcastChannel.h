@@ -68,6 +68,9 @@ class
 BroadcastChannelMessage
 ;
 class
+RefMessageBodyService
+;
+class
 WorkerRef
 ;
 class
@@ -204,6 +207,10 @@ const
 nsAString
 &
 aChannel
+const
+nsID
+&
+aPortUUID
 )
 ;
 ~
@@ -230,6 +237,12 @@ mActor
 ;
 RefPtr
 <
+RefMessageBodyService
+>
+mRefMessageBodyService
+;
+RefPtr
+<
 WorkerRef
 >
 mWorkerRef
@@ -243,6 +256,9 @@ StateActive
 StateClosed
 }
 mState
+;
+nsID
+mPortUUID
 ;
 }
 ;
