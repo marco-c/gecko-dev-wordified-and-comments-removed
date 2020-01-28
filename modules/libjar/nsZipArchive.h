@@ -439,6 +439,9 @@ mFd
 nsCString
 mURI
 ;
+bool
+mUseZipLog
+;
 private
 :
 nsZipItem
