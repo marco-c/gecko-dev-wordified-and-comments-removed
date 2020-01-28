@@ -12975,6 +12975,7 @@ merge_base_profiles
 (
 self
 options
+category
 )
 :
         
@@ -13079,9 +13080,7 @@ load
 fh
 )
 [
-'
-mochitest
-'
+category
 ]
         
 interpolation
@@ -13365,6 +13364,9 @@ self
 merge_base_profiles
 (
 options
+'
+mochitest
+'
 )
         
 prefs
