@@ -1213,8 +1213,18 @@ function
 loadURL
 (
 url
+expectedURL
+=
+undefined
 )
 {
+expectedURL
+=
+expectedURL
+|
+|
+url
+;
 const
 browser
 =
@@ -1233,7 +1243,7 @@ browserLoaded
 (
 browser
 false
-url
+expectedURL
 )
 ;
 BrowserTestUtils
