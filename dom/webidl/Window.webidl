@@ -835,6 +835,7 @@ stop
 [
 Throws
 CrossOriginCallable
+NeedsCallerType
 ]
 void
 focus

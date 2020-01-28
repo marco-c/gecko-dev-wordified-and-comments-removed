@@ -12461,6 +12461,14 @@ SetFocus
 (
 Raise
 aRaise
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 {
 if
@@ -12482,6 +12490,7 @@ mPopupContentView
 SetFocus
 (
 aRaise
+aCallerType
 )
 ;
 }

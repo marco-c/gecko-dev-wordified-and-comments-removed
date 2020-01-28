@@ -15640,6 +15640,8 @@ nsGlobalWindowInner
 :
 Focus
 (
+CallerType
+aCallerType
 ErrorResult
 &
 aError
@@ -15649,6 +15651,7 @@ FORWARD_TO_OUTER_OR_THROW
 (
 FocusOuter
 (
+aCallerType
 )
 aError
 )
@@ -15660,6 +15663,8 @@ nsGlobalWindowInner
 :
 Focus
 (
+CallerType
+aCallerType
 )
 {
 ErrorResult
@@ -15667,6 +15672,7 @@ rv
 ;
 Focus
 (
+aCallerType
 rv
 )
 ;

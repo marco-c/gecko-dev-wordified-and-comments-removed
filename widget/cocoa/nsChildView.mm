@@ -3860,6 +3860,14 @@ nsChildView
 SetFocus
 (
 Raise
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NSRESULT

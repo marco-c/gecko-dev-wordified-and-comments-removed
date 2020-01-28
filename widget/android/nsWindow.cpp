@@ -9928,6 +9928,14 @@ nsWindow
 SetFocus
 (
 Raise
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+aCallerType
 )
 {
 FindTopLevel

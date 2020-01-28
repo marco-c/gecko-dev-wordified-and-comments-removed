@@ -616,6 +616,16 @@ const
 bool
 &
 aRaise
+const
+mozilla
+:
+:
+dom
+:
+:
+CallerType
+&
+aCallerType
 )
 {
 ENSURE_CHANNEL
@@ -659,6 +669,7 @@ Raise
 :
 :
 No
+aCallerType
 )
 ;
 return
