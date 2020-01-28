@@ -303,6 +303,11 @@ PopupBlockingChild
 jsm
 '
 '
+PopupBlockingParent
+.
+jsm
+'
+'
 PrintingChild
 .
 jsm
