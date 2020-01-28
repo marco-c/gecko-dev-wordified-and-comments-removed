@@ -3588,11 +3588,8 @@ nsDocShell
 :
 ValidateOrigin
 (
-mDocShell
+this
 bc
--
->
-mDocShell
 )
 )
 {
