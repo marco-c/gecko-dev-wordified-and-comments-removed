@@ -642,17 +642,3 @@ request
 false
 )
 ;
-user_pref
-(
-"
-dom
-.
-media
-.
-mediasession
-.
-enabled
-"
-true
-)
-;
