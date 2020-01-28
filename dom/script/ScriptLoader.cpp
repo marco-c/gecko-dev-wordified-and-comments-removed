@@ -19854,6 +19854,12 @@ NS_ERROR_ABORT
 )
 ;
 }
+mDynamicImportRequests
+.
+Clear
+(
+)
+;
 if
 (
 mParserBlockingRequest
