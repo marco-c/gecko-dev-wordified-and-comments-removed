@@ -1920,6 +1920,9 @@ bool
 mEnforceAssocReq
 ;
 nsCString
+mImageAcceptHeader
+;
+nsCString
 mAcceptLanguages
 ;
 nsCString
