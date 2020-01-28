@@ -736,6 +736,7 @@ function
 obj
 )
 {
+{
 let
 src
 =
@@ -793,6 +794,7 @@ trackingURL
 await
 p
 ;
+}
 }
 )
 ;
