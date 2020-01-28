@@ -26,7 +26,7 @@ title
 This
 test
 validates
-LargestContenfulPaint
+LargestContentfulPaint
 information
 for
 cross
@@ -133,16 +133,11 @@ t
 =
 >
 {
-if
+assert_precondition
 (
-!
 window
 .
 LargestContentfulPaint
-)
-{
-assert_unreached
-(
 "
 LargestContentfulPaint
 is
@@ -151,7 +146,6 @@ implemented
 "
 )
 ;
-}
 let
 destUrl
 =
@@ -222,6 +216,8 @@ timing
 resources
 /
 circle
+-
+tao
 .
 svg
 '
