@@ -1027,13 +1027,6 @@ AudioOutputChannelCount
 )
 const
 ;
-void
-SetMaxOutputChannelCount
-(
-uint32_t
-aMaxChannelCount
-)
-;
 double
 AudioOutputLatency
 (
@@ -2157,9 +2150,6 @@ mNextMainThreadGraphTime
 ;
 double
 mAudioOutputLatency
-;
-uint32_t
-mMaxOutputChannelCount
 ;
 }
 ;
