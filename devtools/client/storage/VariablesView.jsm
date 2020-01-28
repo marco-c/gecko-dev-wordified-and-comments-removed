@@ -340,8 +340,7 @@ nsIClipboardHelper
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -353,10 +352,6 @@ escapeHTML
 "
 ]
 ;
-this
-.
-VariablesView
-=
 function
 VariablesView
 (
@@ -565,7 +560,6 @@ this
 )
 ;
 }
-;
 VariablesView
 .
 prototype

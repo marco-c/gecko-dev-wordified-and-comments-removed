@@ -45,8 +45,7 @@ keycodes
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -76,10 +75,6 @@ WeakMap
 (
 )
 ;
-this
-.
-SplitView
-=
 function
 SplitView
 (
@@ -456,7 +451,6 @@ false
 )
 ;
 }
-;
 SplitView
 .
 prototype

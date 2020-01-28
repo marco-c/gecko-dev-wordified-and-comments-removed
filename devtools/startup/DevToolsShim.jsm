@@ -172,8 +172,7 @@ policy
 disabled
 "
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -217,8 +216,7 @@ index
 ;
 }
 }
-this
-.
+const
 DevToolsShim
 =
 {
@@ -966,8 +964,6 @@ of
 webExtensionsMethods
 )
 {
-this
-.
 DevToolsShim
 [
 method

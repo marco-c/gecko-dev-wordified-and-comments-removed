@@ -87,8 +87,7 @@ emitter
 "
 )
 ;
-this
-.
+const
 EXPORTED_SYMBOLS
 =
 [
@@ -159,12 +158,6 @@ this
 ;
 }
 }
-this
-.
-AbstractTreeItem
-=
-AbstractTreeItem
-;
 AbstractTreeItem
 .
 prototype
