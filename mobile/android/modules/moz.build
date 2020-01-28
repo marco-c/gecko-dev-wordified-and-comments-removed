@@ -194,11 +194,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-ActionBarHandler
-.
-jsm
-'
-'
 dbg
 -
 browser
