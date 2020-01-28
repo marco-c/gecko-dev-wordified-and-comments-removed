@@ -17988,7 +17988,7 @@ maybeReopen
 &
 gURLBar
 .
-openViewOnFocusForCurrentTab
+openViewOnFocus
 )
 {
 gURLBar

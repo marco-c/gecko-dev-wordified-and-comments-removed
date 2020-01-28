@@ -20,9 +20,9 @@ win
 .
 gURLBar
 .
-openViewOnFocusForCurrentTab
+openViewOnFocus
 "
-openViewOnFocusForCurrentTab
+openViewOnFocus
 should
 be
 true
@@ -236,9 +236,9 @@ win
 .
 gURLBar
 .
-openViewOnFocusForCurrentTab
+openViewOnFocus
 "
-openViewOnFocusForCurrentTab
+openViewOnFocus
 should
 be
 false
@@ -648,7 +648,7 @@ page
 )
 ;
 await
-checkDoesNotOpenOnFocus
+checkOpensOnFocus
 (
 )
 ;
@@ -697,7 +697,7 @@ browser
 )
 ;
 await
-checkDoesNotOpenOnFocus
+checkOpensOnFocus
 (
 )
 ;
@@ -724,7 +724,7 @@ checkOpensOnFocus
 )
 ;
 await
-checkDoesNotOpenOnFocus
+checkOpensOnFocus
 (
 )
 ;
