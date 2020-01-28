@@ -126,6 +126,11 @@ phase
 :
 promote
 worker
+-
+type
+:
+balrog
+worker
 :
 implementation
 :

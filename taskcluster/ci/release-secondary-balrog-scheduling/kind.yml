@@ -135,6 +135,11 @@ phase
 :
 ship
 worker
+-
+type
+:
+balrog
+worker
 :
 implementation
 :

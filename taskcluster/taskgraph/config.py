@@ -293,23 +293,6 @@ prefix
 )
 :
 text_type
-        
-Required
-(
-'
-worker
--
-types
-'
-)
-:
-{
-text_type
-:
-[
-text_type
-]
-}
     
 }
     

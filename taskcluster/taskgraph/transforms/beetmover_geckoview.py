@@ -95,11 +95,7 @@ util
 .
 scriptworker
 import
-(
 generate_beetmover_artifact_map
-                                         
-get_worker_type_for_scope
-)
 from
 taskgraph
 .
@@ -727,18 +723,9 @@ worker
 type
 '
 :
-get_worker_type_for_scope
-(
-config
-job
-[
 '
-bucket
--
-scope
+beetmover
 '
-]
-)
             
 '
 scopes
