@@ -532,6 +532,9 @@ aIsUsed
 ;
 ImageMemoryCounter
 (
+imgRequest
+*
+aRequest
 Image
 *
 aImage
@@ -643,6 +646,16 @@ const
 {
 return
 mHasError
+;
+}
+bool
+IsValidating
+(
+)
+const
+{
+return
+mValidating
 ;
 }
 bool
@@ -782,6 +795,9 @@ mIsUsed
 ;
 bool
 mHasError
+;
+bool
+mValidating
 ;
 }
 ;
