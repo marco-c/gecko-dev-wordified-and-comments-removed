@@ -32,11 +32,15 @@ fakeWindow
 =
 {
 VTTCue
+:
+function
 (
 )
 {
 }
 VTTRegion
+:
+function
 (
 )
 {
