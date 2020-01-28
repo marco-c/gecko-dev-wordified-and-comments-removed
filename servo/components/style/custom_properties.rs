@@ -320,11 +320,7 @@ safe_area_insets
 right
 )
 }
-lazy_static
-!
-{
 static
-ref
 ENVIRONMENT_VARIABLES
 :
 [
@@ -408,7 +404,6 @@ get_safearea_inset_right
 )
 ]
 ;
-}
 impl
 CssEnvironment
 {
