@@ -49,11 +49,6 @@ onEndUpdateBatch
 )
 {
 }
-onItemRemoved
-(
-)
-{
-}
 onItemVisited
 (
 )
