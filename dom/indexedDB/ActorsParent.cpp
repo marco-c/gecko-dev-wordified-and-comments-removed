@@ -34536,8 +34536,8 @@ PBackgroundIDBRequestParent
 *
 AllocRequest
 (
+const
 RequestParams
-&
 &
 aParams
 bool
@@ -38770,8 +38770,8 @@ RefPtr
 TransactionBase
 >
 aTransaction
+const
 RequestParams
-&
 &
 aParams
 )
@@ -77138,8 +77138,8 @@ TransactionBase
 :
 AllocRequest
 (
+const
 RequestParams
-&
 &
 aParams
 bool
@@ -77256,13 +77256,7 @@ new
 ObjectStoreAddOrPutRequestOp
 (
 this
-std
-:
-:
-move
-(
 aParams
-)
 )
 ;
 break
@@ -130935,8 +130929,8 @@ RefPtr
 TransactionBase
 >
 aTransaction
+const
 RequestParams
-&
 &
 aParams
 )
@@ -130952,11 +130946,6 @@ aTransaction
 )
 )
 mParams
-(
-std
-:
-:
-move
 (
 aParams
 .
@@ -130988,7 +130977,6 @@ get_ObjectStorePutParams
 .
 commonParams
 (
-)
 )
 )
 mGroup
