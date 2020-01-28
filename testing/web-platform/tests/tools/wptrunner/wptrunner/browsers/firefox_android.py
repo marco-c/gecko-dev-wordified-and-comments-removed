@@ -351,6 +351,17 @@ kwargs
 )
             
 "
+e10s
+"
+:
+run_info_data
+[
+"
+e10s
+"
+]
+            
+"
 leak_check
 "
 :
@@ -835,6 +846,33 @@ preload
 :
 True
         
+}
+)
+        
+if
+self
+.
+e10s
+:
+            
+self
+.
+profile
+.
+set_preferences
+(
+{
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+:
+True
 }
 )
         
