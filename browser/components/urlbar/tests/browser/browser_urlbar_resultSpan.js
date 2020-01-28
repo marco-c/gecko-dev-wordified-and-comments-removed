@@ -1235,7 +1235,7 @@ return
 true
 ;
 }
-isRestricting
+getPriority
 (
 context
 )
@@ -1244,6 +1244,10 @@ return
 this
 .
 _isRestricting
+?
+1
+:
+0
 ;
 }
 async

@@ -627,7 +627,7 @@ return
 true
 ;
 }
-isRestricting
+getPriority
 (
 context
 )
@@ -647,7 +647,7 @@ in
 )
 ;
 return
-false
+0
 ;
 }
 async

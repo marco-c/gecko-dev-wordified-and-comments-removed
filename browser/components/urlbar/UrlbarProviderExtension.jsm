@@ -270,7 +270,7 @@ inactive
 "
 ;
 }
-isRestricting
+getPriority
 (
 context
 )
@@ -284,6 +284,10 @@ behavior
 "
 restricting
 "
+?
+999
+:
+0
 ;
 }
 setEventListener

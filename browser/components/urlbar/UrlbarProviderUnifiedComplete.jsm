@@ -244,15 +244,6 @@ return
 true
 ;
 }
-isRestricting
-(
-queryContext
-)
-{
-return
-false
-;
-}
 async
 startQuery
 (
