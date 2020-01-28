@@ -52,6 +52,11 @@ bug852175
 js
 basic
 /
+bug1610192
+.
+js
+basic
+/
 bug632964
 -
 regexp
