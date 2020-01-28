@@ -55,13 +55,7 @@ moment
 the
 panel
 is
-shown
-by
-default
-on
-Nightly
-builds
-only
+hidden
 behind
 a
 configuration
