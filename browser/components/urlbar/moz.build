@@ -118,6 +118,11 @@ UrlbarProviderPrivateSearch
 jsm
 '
 '
+UrlbarProviderSearchTips
+.
+jsm
+'
+'
 UrlbarProvidersManager
 .
 jsm
