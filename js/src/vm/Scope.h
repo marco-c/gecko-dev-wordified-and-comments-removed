@@ -122,14 +122,6 @@ h
 namespace
 js
 {
-namespace
-frontend
-{
-class
-ScopeCreationData
-;
-}
-;
 class
 BaseScopeData
 ;
@@ -1070,9 +1062,6 @@ GCMarker
 ;
 friend
 class
-frontend
-:
-:
 ScopeCreationData
 ;
 const
@@ -1720,9 +1709,6 @@ GCMarker
 ;
 friend
 class
-frontend
-:
-:
 ScopeCreationData
 ;
 public
@@ -2435,9 +2421,6 @@ Scope
 ;
 friend
 class
-frontend
-:
-:
 ScopeCreationData
 ;
 public
@@ -3061,9 +3044,6 @@ GCMarker
 ;
 friend
 class
-frontend
-:
-:
 ScopeCreationData
 ;
 public
@@ -3408,9 +3388,6 @@ AbstractScope
 ;
 friend
 class
-frontend
-:
-:
 ScopeCreationData
 ;
 static
