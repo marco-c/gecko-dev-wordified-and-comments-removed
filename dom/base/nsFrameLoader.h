@@ -1290,6 +1290,11 @@ mDocShell
 ;
 }
 void
+AssertSafeToInit
+(
+)
+;
+void
 UpdateBaseWindowPositionAndSize
 (
 nsSubDocumentFrame
