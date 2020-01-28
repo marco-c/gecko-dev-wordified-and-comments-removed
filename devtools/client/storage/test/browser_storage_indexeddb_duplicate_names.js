@@ -101,12 +101,6 @@ temporary
 )
 "
 "
-idb1
-(
-persistent
-)
-"
-"
 idb2
 (
 default
@@ -116,12 +110,6 @@ default
 idb2
 (
 temporary
-)
-"
-"
-idb2
-(
-persistent
 )
 "
 ]
