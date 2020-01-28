@@ -431,6 +431,15 @@ n
 "
 leak
 :
+libX11
+.
+so
+\
+n
+"
+"
+leak
+:
 pthread_setspecific_internal
 \
 n
