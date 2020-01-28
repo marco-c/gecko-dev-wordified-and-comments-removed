@@ -3965,13 +3965,6 @@ session_duration
 :
 4199
 "
-region
-"
-:
-"
-US
-"
-"
 profile_creation_date
 "
 :
