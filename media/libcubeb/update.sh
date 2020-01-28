@@ -313,15 +313,6 @@ cp
 /
 src
 /
-cubeb_pulse
-.
-c
-src
-cp
-1
-/
-src
-/
 cubeb_resampler
 .
 cpp
