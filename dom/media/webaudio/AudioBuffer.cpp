@@ -1457,7 +1457,7 @@ aRv
 {
 aDestination
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1652,7 +1652,7 @@ aRv
 {
 aSource
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

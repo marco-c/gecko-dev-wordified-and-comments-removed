@@ -115,7 +115,7 @@ value
 ;
 aSource
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

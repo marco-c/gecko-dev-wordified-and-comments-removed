@@ -1096,7 +1096,7 @@ ArrayBuffer
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1166,7 +1166,7 @@ ArrayBufferView
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1239,7 +1239,7 @@ ArrayBuffer
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1313,7 +1313,7 @@ ArrayBufferView
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

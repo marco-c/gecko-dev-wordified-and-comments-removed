@@ -1061,7 +1061,7 @@ Value
 ;
 array
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

@@ -281,7 +281,7 @@ aBuffer
 ;
 aObject
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

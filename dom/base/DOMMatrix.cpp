@@ -1321,7 +1321,7 @@ aRv
 {
 aArray32
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1405,7 +1405,7 @@ aRv
 {
 aArray64
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -4682,7 +4682,7 @@ aRv
 {
 aArray32
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -4766,7 +4766,7 @@ aRv
 {
 aArray64
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

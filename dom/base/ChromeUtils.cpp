@@ -686,7 +686,7 @@ GetAsArrayBuffer
 ;
 buffer
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -730,7 +730,7 @@ GetAsArrayBufferView
 ;
 view
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

@@ -1981,7 +1981,7 @@ nullptr
 }
 aValue
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -2126,7 +2126,7 @@ nullptr
 }
 aValue
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

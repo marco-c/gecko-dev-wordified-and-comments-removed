@@ -151,7 +151,7 @@ aError
 {
 aDst
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

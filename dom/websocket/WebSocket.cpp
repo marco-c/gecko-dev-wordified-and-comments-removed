@@ -9810,7 +9810,7 @@ AssertIsOnTargetThread
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -9901,7 +9901,7 @@ AssertIsOnTargetThread
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

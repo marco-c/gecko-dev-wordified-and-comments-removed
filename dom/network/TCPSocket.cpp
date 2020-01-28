@@ -3703,7 +3703,7 @@ stream
 ;
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

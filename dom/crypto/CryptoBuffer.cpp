@@ -221,7 +221,7 @@ aData
 {
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -256,7 +256,7 @@ aData
 {
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -425,7 +425,7 @@ aArray
 {
 aArray
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

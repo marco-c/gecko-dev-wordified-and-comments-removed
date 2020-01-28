@@ -335,7 +335,7 @@ mLength
 }
 inline
 void
-ComputeLengthAndData
+ComputeState
 (
 )
 const

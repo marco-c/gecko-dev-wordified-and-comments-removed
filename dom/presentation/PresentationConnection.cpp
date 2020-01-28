@@ -1282,7 +1282,7 @@ return
 }
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1482,7 +1482,7 @@ return
 }
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

@@ -1066,7 +1066,7 @@ Value
 (
 )
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -1078,7 +1078,7 @@ Value
 (
 )
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

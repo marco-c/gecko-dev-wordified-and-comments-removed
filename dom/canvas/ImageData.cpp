@@ -298,7 +298,7 @@ aRv
 {
 aData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

@@ -426,7 +426,7 @@ aEventInitDict
 .
 mMessage
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;

@@ -2527,13 +2527,13 @@ aRv
 {
 aRealData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
 aImagData
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
@@ -3081,7 +3081,7 @@ nullptr
 }
 aBuffer
 .
-ComputeLengthAndData
+ComputeState
 (
 )
 ;
