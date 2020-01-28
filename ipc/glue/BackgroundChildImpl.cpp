@@ -2411,7 +2411,6 @@ dom
 :
 BroadcastChannelChild
 (
-aOrigin
 )
 ;
 return
