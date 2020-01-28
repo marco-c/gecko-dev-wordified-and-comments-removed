@@ -92,15 +92,6 @@ privacy
 .
 userContext
 .
-longPressBehavior
-"
-:
-2
-"
-privacy
-.
-userContext
-.
 ui
 .
 enabled
