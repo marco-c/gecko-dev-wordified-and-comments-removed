@@ -3614,11 +3614,6 @@ GetEditor
 )
 ;
 bool
-HasEditor
-(
-)
-;
-bool
 IsInputEventTarget
 (
 )

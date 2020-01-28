@@ -62,9 +62,7 @@ eInsertTableRowElement
 eRemoveTableRowElement
 eInsertTableColumn
 eRemoveTableColumn
-eResizingElement
 eResizeElement
-eMovingElement
 eMoveElement
 eUnknown
 eSetAttribute

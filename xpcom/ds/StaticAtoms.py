@@ -7571,16 +7571,6 @@ onbeforecut
 Atom
 (
 "
-onbeforeinput
-"
-"
-onbeforeinput
-"
-)
-    
-Atom
-(
-"
 onbeforepaste
 "
 "
