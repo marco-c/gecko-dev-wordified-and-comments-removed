@@ -205,7 +205,6 @@ Fn
 (
 OsString
 &
-dyn
 Fn
 (
 )
@@ -245,7 +244,6 @@ Fn
 (
 OsString
 &
-dyn
 Fn
 (
 )
@@ -304,7 +302,6 @@ self
 alive
 :
 &
-dyn
 Fn
 (
 )

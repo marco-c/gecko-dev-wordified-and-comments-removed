@@ -1,14 +1,3 @@
-#
-!
-[
-allow
-(
-clippy
-:
-:
-unreadable_literal
-)
-]
 pub
 mod
 device
@@ -19,9 +8,6 @@ transaction
 ;
 mod
 hidraw
-;
-mod
-hidwrapper
 ;
 mod
 monitor

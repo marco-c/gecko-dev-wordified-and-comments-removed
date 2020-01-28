@@ -79,7 +79,6 @@ Fn
 (
 OsString
 &
-dyn
 Fn
 (
 )
