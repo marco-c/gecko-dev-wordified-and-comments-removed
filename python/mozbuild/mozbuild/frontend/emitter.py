@@ -7312,10 +7312,6 @@ WIN32_EXE_LDFLAGS
 '
 USE_EXTENSION_MANIFEST
 '
-            
-'
-HAS_MISC_RULE
-'
         
 ]
         

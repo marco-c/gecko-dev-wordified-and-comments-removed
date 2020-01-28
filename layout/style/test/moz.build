@@ -233,9 +233,6 @@ DIRS
 gtest
 '
 ]
-HAS_MISC_RULE
-=
-True
 HostSimplePrograms
 (
 [
