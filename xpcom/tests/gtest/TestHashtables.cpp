@@ -86,6 +86,12 @@ include
 <
 numeric
 >
+using
+mozilla
+:
+:
+UniquePtr
+;
 namespace
 TestHashtables
 {
@@ -2348,7 +2354,7 @@ entity
 .
 SetData
 (
-nsAutoPtr
+UniquePtr
 <
 TestUniChar
 >
@@ -3380,6 +3386,10 @@ nullptr
 ;
 }
 )
+.
+get
+(
+)
 ;
 ASSERT_FALSE
 (
@@ -3698,6 +3708,10 @@ return
 nullptr
 ;
 }
+)
+.
+get
+(
 )
 ;
 ASSERT_FALSE
