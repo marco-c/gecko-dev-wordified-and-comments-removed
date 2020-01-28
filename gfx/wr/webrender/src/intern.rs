@@ -137,7 +137,6 @@ UpdateList
 S
 >
 {
-pub
 updates
 :
 Vec
@@ -496,11 +495,9 @@ pub
 struct
 Update
 {
-pub
 index
 :
 usize
-pub
 kind
 :
 UpdateKind
