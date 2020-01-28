@@ -1266,9 +1266,13 @@ sort
 ;
 loginSort
 .
-selectedIndex
+value
 =
-1
+"
+last
+-
+used
+"
 ;
 loginSort
 .
