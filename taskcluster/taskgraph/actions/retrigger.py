@@ -1051,7 +1051,7 @@ times
 for
 i
 in
-xrange
+range
 (
 times
 )
@@ -1730,7 +1730,7 @@ label
 for
 j
 in
-xrange
+range
 (
 times
 )

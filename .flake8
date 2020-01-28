@@ -945,12 +945,6 @@ mozversioncontrol
 *
 :
 F821
-taskcluster
-/
-*
-*
-:
-F821
 testing
 /
 mozharness
