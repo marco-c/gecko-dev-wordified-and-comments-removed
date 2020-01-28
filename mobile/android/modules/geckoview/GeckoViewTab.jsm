@@ -123,6 +123,12 @@ browser
 =
 browser
 ;
+this
+.
+active
+=
+false
+;
 }
 getActive
 (
@@ -131,9 +137,7 @@ getActive
 return
 this
 .
-browser
-.
-docShellIsActive
+active
 ;
 }
 }
