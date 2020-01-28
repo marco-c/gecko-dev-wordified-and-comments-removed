@@ -84439,15 +84439,11 @@ insn
 0xFF
 &
 &
-(
 insn
 [
 -
 1
 ]
-&
-0xF8
-)
 =
 =
 0xD0
@@ -84459,7 +84455,10 @@ insn
 call
 *
 %
-r_
+{
+rax
+eax
+}
 insn
 [
 -

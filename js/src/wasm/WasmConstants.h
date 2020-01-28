@@ -108,12 +108,9 @@ FuncRef
 AnyRef
 =
 0x6f
-NullRef
-=
-0x6e
 Ref
 =
-0x6d
+0x6e
 Func
 =
 0x60
@@ -123,6 +120,9 @@ Struct
 BlockVoid
 =
 0x40
+NullRef
+=
+0x39
 Limit
 =
 0x80
