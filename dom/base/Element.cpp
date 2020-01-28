@@ -13585,7 +13585,7 @@ GetFlags
 ;
 if
 (
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )

@@ -1449,7 +1449,7 @@ RangeHashTable
 protected
 :
 void
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 nsINode
 *
@@ -1457,7 +1457,7 @@ aNode
 )
 ;
 void
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 nsINode
 *
@@ -1514,7 +1514,7 @@ false
 ;
 nsINode
 *
-GetRegisteredCommonAncestor
+GetRegisteredClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -1651,7 +1651,7 @@ mCommonAncestor
 mRange
 -
 >
-GetRegisteredCommonAncestor
+GetRegisteredClosestCommonInclusiveAncestor
 (
 )
 ;
@@ -1686,7 +1686,7 @@ mRoot
 nsINode
 *
 MOZ_NON_OWNING_REF
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 ;
 mozilla
 :

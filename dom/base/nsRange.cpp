@@ -772,7 +772,7 @@ aNode
 aNode
 -
 >
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -783,7 +783,7 @@ if
 aNode
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -1590,7 +1590,7 @@ AbstractRange
 (
 aNode
 )
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 (
 nullptr
 )
@@ -1764,18 +1764,18 @@ if
 tmp
 -
 >
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 )
 {
 tmp
 -
 >
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 tmp
 -
 >
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 true
 )
 ;
@@ -1868,7 +1868,7 @@ node
 node
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -1878,7 +1878,7 @@ if
 node
 -
 >
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -1925,7 +1925,7 @@ if
 aNode
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -1950,7 +1950,7 @@ node
 node
 -
 >
-ClearDescendantOfCommonAncestorForRangeInSelection
+ClearDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -1960,7 +1960,7 @@ if
 node
 -
 >
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -1996,7 +1996,7 @@ void
 nsRange
 :
 :
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 nsINode
 *
@@ -2026,7 +2026,7 @@ selection
 "
 )
 ;
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 =
 aNode
 ;
@@ -2090,7 +2090,7 @@ this
 aNode
 -
 >
-SetCommonAncestorForRangeInSelection
+SetClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -2099,7 +2099,7 @@ void
 nsRange
 :
 :
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 nsINode
 *
@@ -2122,7 +2122,7 @@ NS_ASSERTION
 aNode
 -
 >
-IsCommonAncestorForRangeInSelection
+IsClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 "
@@ -2136,7 +2136,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aNode
 =
 =
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 "
 wrong
 node
@@ -2162,7 +2162,7 @@ MOZ_ASSERT
 ranges
 )
 ;
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 =
 nullptr
 ;
@@ -2241,7 +2241,7 @@ isEmpty
 aNode
 -
 >
-ClearCommonAncestorForRangeInSelection
+ClearClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -3007,7 +3007,7 @@ if
 isCommonAncestor
 )
 {
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 mStart
 .
@@ -3017,7 +3017,7 @@ Container
 false
 )
 ;
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 newStart
 .
@@ -3036,7 +3036,7 @@ Container
 )
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -3048,7 +3048,7 @@ Container
 )
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -3334,7 +3334,7 @@ Container
 )
 )
 {
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 mStart
 .
@@ -3344,7 +3344,7 @@ Container
 false
 )
 ;
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 mStart
 .
@@ -3365,7 +3365,7 @@ Container
 )
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -3380,7 +3380,7 @@ Container
 )
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -3392,7 +3392,7 @@ Container
 )
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -3719,7 +3719,7 @@ if
 child
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -3732,7 +3732,7 @@ child
 child
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -3955,7 +3955,7 @@ IsSelectionDescendant
 aChild
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -3968,7 +3968,7 @@ aChild
 aChild
 -
 >
-SetDescendantOfCommonAncestorForRangeInSelection
+SetDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -4396,7 +4396,7 @@ IsSelectionDescendant
 aChild
 -
 >
-IsDescendantOfCommonAncestorForRangeInSelection
+IsDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 )
@@ -4404,7 +4404,7 @@ IsDescendantOfCommonAncestorForRangeInSelection
 aChild
 -
 >
-ClearDescendantOfCommonAncestorForRangeInSelection
+ClearDescendantOfClosestCommonInclusiveAncestorForRangeInSelection
 (
 )
 ;
@@ -5426,7 +5426,7 @@ nsINode
 *
 oldCommonAncestor
 =
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 ;
 nsINode
 *
@@ -5449,7 +5449,7 @@ if
 oldCommonAncestor
 )
 {
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
 oldCommonAncestor
 false
@@ -5461,7 +5461,7 @@ if
 newCommonAncestor
 )
 {
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 newCommonAncestor
 )
@@ -5487,7 +5487,7 @@ nullptr
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 "
 How
 can
@@ -5528,7 +5528,7 @@ have
 no
 "
 "
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 "
 )
 ;
@@ -5686,7 +5686,7 @@ nodes
 "
 )
 ;
-RegisterCommonAncestor
+RegisterClosestCommonInclusiveAncestor
 (
 commonAncestor
 )
@@ -5695,19 +5695,19 @@ commonAncestor
 else
 if
 (
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 )
 {
-UnregisterCommonAncestor
+UnregisterClosestCommonInclusiveAncestor
 (
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 false
 )
 ;
 MOZ_DIAGNOSTIC_ASSERT
 (
 !
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 "
 How
 can
@@ -5745,7 +5745,7 @@ have
 no
 "
 "
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 after
 unregistering
 "
@@ -14490,7 +14490,7 @@ nsINode
 nsRange
 :
 :
-GetRegisteredCommonAncestor
+GetRegisteredClosestCommonInclusiveAncestor
 (
 )
 {
@@ -14500,11 +14500,13 @@ IsInSelection
 (
 )
 "
-GetRegisteredCommonAncestor
+GetRegisteredClosestCommonInclusiveAncestor
 only
 valid
 for
 range
+"
+"
 in
 selection
 "
@@ -14512,11 +14514,11 @@ selection
 ;
 MOZ_ASSERT
 (
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 )
 ;
 return
-mRegisteredCommonAncestor
+mRegisteredClosestCommonInclusiveAncestor
 ;
 }
 bool
@@ -14576,7 +14578,7 @@ commonAncestor
 mRange
 -
 >
-GetRegisteredCommonAncestor
+GetRegisteredClosestCommonInclusiveAncestor
 (
 )
 ;
