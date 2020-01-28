@@ -276,13 +276,6 @@ h
 #
 include
 "
-nsIPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsIWidget
 .
 h
@@ -4978,7 +4971,7 @@ editorBase
 >
 RemoveFlags
 (
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorSkipSpellCheck

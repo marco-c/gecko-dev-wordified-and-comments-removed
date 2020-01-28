@@ -32730,7 +32730,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask

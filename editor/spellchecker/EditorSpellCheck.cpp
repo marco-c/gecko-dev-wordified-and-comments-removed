@@ -284,13 +284,6 @@ nsXULAppAPI
 .
 h
 "
-#
-include
-"
-nsIPlaintextEditor
-.
-h
-"
 namespace
 mozilla
 {
@@ -2247,7 +2240,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -2591,7 +2584,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -2646,7 +2639,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
@@ -3197,7 +3190,7 @@ if
 (
 flags
 &
-nsIPlaintextEditor
+nsIEditor
 :
 :
 eEditorMailMask
