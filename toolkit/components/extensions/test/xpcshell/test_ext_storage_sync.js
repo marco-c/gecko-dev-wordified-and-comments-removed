@@ -2268,7 +2268,7 @@ token
 )
 ;
 }
-sessionStatus
+checkAccountStatus
 (
 )
 {
