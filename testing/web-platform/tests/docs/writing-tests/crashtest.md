@@ -117,6 +117,8 @@ specify
 a
 class
 =
+test
+-
 wait
 attribute
 on
