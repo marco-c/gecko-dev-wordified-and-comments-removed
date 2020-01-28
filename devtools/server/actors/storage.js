@@ -292,10 +292,10 @@ STRICT
 "
 Strict
 "
-UNSET
+NONE
 :
 "
-Unset
+None
 "
 }
 ;
@@ -2439,7 +2439,7 @@ STRICT
 return
 COOKIE_SAMESITE
 .
-UNSET
+NONE
 ;
 }
 populateStoresForHost

@@ -86,10 +86,10 @@ STRICT
 "
 Strict
 "
-UNSET
+NONE
 :
 "
-Unset
+None
 "
 }
 ;
@@ -857,7 +857,7 @@ default
 return
 COOKIE_SAMESITE
 .
-UNSET
+NONE
 ;
 }
 }
