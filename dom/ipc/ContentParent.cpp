@@ -12944,7 +12944,7 @@ GetInstance
 )
 -
 >
-GetAppLocalesAsLangTags
+GetAppLocalesAsBCP47
 (
 xpcomInit
 .
