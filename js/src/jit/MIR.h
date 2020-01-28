@@ -9532,7 +9532,7 @@ loop
 headers
 (
 at
-JSOP_TRACE
+JSOP_LOOPHEAD
 )
 .
 /
