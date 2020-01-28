@@ -1842,7 +1842,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 user_prefs
 :
 this
@@ -2172,7 +2172,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 }
 ;
 if

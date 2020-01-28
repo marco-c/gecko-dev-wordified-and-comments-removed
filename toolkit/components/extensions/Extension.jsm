@@ -8845,7 +8845,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ]
 ;
 }
@@ -9978,7 +9978,7 @@ Services
 .
 locale
 .
-appLocalesAsLangTags
+appLocalesAsBCP47
 Array
 .
 from

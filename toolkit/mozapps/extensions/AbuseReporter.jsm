@@ -742,7 +742,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 const
 getTranslatedValue
@@ -1274,7 +1274,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 data
 .

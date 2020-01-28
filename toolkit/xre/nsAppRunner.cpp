@@ -20722,7 +20722,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 userAgentLocale
 )

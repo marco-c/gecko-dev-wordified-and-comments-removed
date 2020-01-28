@@ -3813,7 +3813,7 @@ GetInstance
 )
 -
 >
-GetAppLocaleAsLangTag
+GetAppLocaleAsBCP47
 (
 utf8DictName
 )

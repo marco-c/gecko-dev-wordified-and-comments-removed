@@ -1572,7 +1572,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 }
 get
@@ -1586,14 +1586,14 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 &
 &
 Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 .
 substr
 (

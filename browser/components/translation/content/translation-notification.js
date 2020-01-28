@@ -2406,7 +2406,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 ;
 if
 (

@@ -547,7 +547,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 endianness
 :
 endianness

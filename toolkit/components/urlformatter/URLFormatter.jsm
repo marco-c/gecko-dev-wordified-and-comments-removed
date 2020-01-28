@@ -376,7 +376,7 @@ Services
 .
 locale
 .
-appLocaleAsLangTag
+appLocaleAsBCP47
 REGION
 (
 )
