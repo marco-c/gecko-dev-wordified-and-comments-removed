@@ -997,10 +997,11 @@ org
 if
 defined
 (
-RELEASE_OR_BETA
+EARLY_BETA_OR_EARLIER
 )
-|
-|
+&
+&
+!
 defined
 (
 MOZ_WIDGET_ANDROID
@@ -1016,7 +1017,7 @@ crlite_filters
 .
 enabled
 "
-false
+true
 )
 ;
 #
@@ -1032,7 +1033,7 @@ crlite_filters
 .
 enabled
 "
-true
+false
 )
 ;
 #
