@@ -1425,13 +1425,6 @@ isFunctionBox
 {
 if
 (
-parseInfo
-.
-isDeferred
-(
-)
-&
-&
 !
 this
 -
