@@ -16295,11 +16295,6 @@ implemented
 .
 break
 ;
-case
-JSOP_LIMIT
-:
-break
-;
 }
 /
 /

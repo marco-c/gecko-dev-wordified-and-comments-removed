@@ -190,7 +190,7 @@ kind_
 JSOp
 testOp_
 =
-JSOP_LIMIT
+JSOP_UNDEFINED
 ;
 PendingEdge
 (
@@ -202,7 +202,7 @@ kind
 JSOp
 testOp
 =
-JSOP_LIMIT
+JSOP_UNDEFINED
 )
 :
 block_
