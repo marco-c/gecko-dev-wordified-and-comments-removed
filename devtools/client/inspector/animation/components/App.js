@@ -560,6 +560,11 @@ initialHeight
 splitterSize
 :
 1
+minSize
+:
+"
+30px
+"
 startPanel
 :
 AnimationListContainer
