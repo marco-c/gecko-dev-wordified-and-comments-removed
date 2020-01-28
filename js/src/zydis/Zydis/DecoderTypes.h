@@ -121,6 +121,7 @@ ZyanU16
 element_count
 ;
 struct
+ZydisDecodedOperandReg_
 {
 ZydisRegister
 value
@@ -129,6 +130,7 @@ value
 reg
 ;
 struct
+ZydisDecodedOperandMem_
 {
 ZydisMemoryOperandType
 type
@@ -146,6 +148,7 @@ ZyanU8
 scale
 ;
 struct
+ZydisDecodedOperandMemDisp_
 {
 ZyanBool
 has_displacement
@@ -160,6 +163,7 @@ disp
 mem
 ;
 struct
+ZydisDecodedOperandPtr_
 {
 ZyanU16
 segment
@@ -171,6 +175,7 @@ offset
 ptr
 ;
 struct
+ZydisDecodedOperandImm_
 {
 ZyanBool
 is_signed
@@ -179,6 +184,7 @@ ZyanBool
 is_relative
 ;
 union
+ZydisDecodedOperandImmValue_
 {
 ZyanU64
 u
@@ -1134,6 +1140,7 @@ ZydisInstructionAttributes
 attributes
 ;
 struct
+ZydisDecodedInstructionAccessedFlags_
 {
 ZydisCPUFlagAction
 action
@@ -1147,11 +1154,13 @@ ZYDIS_CPUFLAG_MAX_VALUE
 ]
 ;
 struct
+ZydisDecodedInstructionAvx_
 {
 ZyanU16
 vector_length
 ;
 struct
+ZydisDecodedInstructionAvxMask_
 {
 ZydisMaskMode
 mode
@@ -1163,6 +1172,7 @@ reg
 mask
 ;
 struct
+ZydisDecodedInstructionAvxBroadcast_
 {
 ZyanBool
 is_static
@@ -1174,6 +1184,7 @@ mode
 broadcast
 ;
 struct
+ZydisDecodedInstructionAvxRounding_
 {
 ZydisRoundingMode
 mode
@@ -1182,6 +1193,7 @@ mode
 rounding
 ;
 struct
+ZydisDecodedInstructionAvxSwizzle_
 {
 ZydisSwizzleMode
 mode
@@ -1190,6 +1202,7 @@ mode
 swizzle
 ;
 struct
+ZydisDecodedInstructionAvxConversion_
 {
 ZydisConversionMode
 mode
@@ -1207,6 +1220,7 @@ has_eviction_hint
 avx
 ;
 struct
+ZydisDecodedInstructionMeta_
 {
 ZydisInstructionCategory
 category
@@ -1227,11 +1241,13 @@ exception_class
 meta
 ;
 struct
+ZydisDecodedInstructionRaw_
 {
 ZyanU8
 prefix_count
 ;
 struct
+ZydisDecodedInstructionRawPrefixes_
 {
 ZydisPrefixType
 type
@@ -1246,6 +1262,7 @@ ZYDIS_MAX_INSTRUCTION_LENGTH
 ]
 ;
 struct
+ZydisDecodedInstructionRawRex_
 {
 ZyanU8
 W
@@ -1266,6 +1283,7 @@ offset
 rex
 ;
 struct
+ZydisDecodedInstructionRawXop_
 {
 ZyanU8
 R
@@ -1298,6 +1316,7 @@ offset
 xop
 ;
 struct
+ZydisDecodedInstructionRawVex_
 {
 ZyanU8
 R
@@ -1333,6 +1352,7 @@ size
 vex
 ;
 struct
+ZydisDecodedInstructionRawEvex_
 {
 ZyanU8
 R
@@ -1383,6 +1403,7 @@ offset
 evex
 ;
 struct
+ZydisDecodedInstructionRawMvex_
 {
 ZyanU8
 R
@@ -1427,6 +1448,7 @@ offset
 mvex
 ;
 struct
+ZydisDecodedInstructionModRm_
 {
 ZyanU8
 mod
@@ -1444,6 +1466,7 @@ offset
 modrm
 ;
 struct
+ZydisDecodedInstructionRawSib_
 {
 ZyanU8
 scale
@@ -1461,6 +1484,7 @@ offset
 sib
 ;
 struct
+ZydisDecodedInstructionRawDisp_
 {
 ZyanI64
 value
@@ -1475,6 +1499,7 @@ offset
 disp
 ;
 struct
+ZydisDecodedInstructionRawImm_
 {
 ZyanBool
 is_signed
@@ -1483,6 +1508,7 @@ ZyanBool
 is_relative
 ;
 union
+ZydisDecodedInstructionRawImmValue_
 {
 ZyanU64
 u

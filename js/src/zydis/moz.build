@@ -98,6 +98,13 @@ c
 '
 Zycore
 /
+ArgParse
+.
+c
+'
+'
+Zycore
+/
 Bitset
 .
 c
@@ -106,6 +113,13 @@ c
 Zycore
 /
 Format
+.
+c
+'
+'
+Zycore
+/
+List
 .
 c
 '

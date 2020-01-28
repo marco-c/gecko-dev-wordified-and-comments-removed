@@ -24,6 +24,7 @@ ZYAN_NO_LIBC
 )
 &
 &
+\
 (
 !
 defined
@@ -557,5 +558,16 @@ ZYAN_TERNARY_UNKNOWN
 define
 ZYAN_TERNARY_TRUE
 0x01
+typedef
+char
+*
+ZyanCharPointer
+;
+typedef
+const
+char
+*
+ZyanConstCharPointer
+;
 #
 endif

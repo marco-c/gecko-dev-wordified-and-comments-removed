@@ -65,6 +65,9 @@ CLWB
 CLZERO
 "
 "
+ENQCMD
+"
+"
 F16C
 "
 "
@@ -135,6 +138,9 @@ PT
 "
 "
 RDPID
+"
+"
+RDPRU
 "
 "
 RDRAND

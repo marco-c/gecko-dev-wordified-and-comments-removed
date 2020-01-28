@@ -150,7 +150,7 @@ i
 {
 ZYAN_CHECK
 (
-ZyanVectorPush
+ZyanVectorPushBack
 (
 vector
 &
@@ -320,6 +320,7 @@ sizeof
 ZyanU8
 )
 bytes
+ZYAN_NULL
 allocator
 growth_factor
 shrink_threshold
@@ -410,6 +411,7 @@ ZyanU8
 )
 buffer
 capacity
+ZYAN_NULL
 )
 )
 ;
@@ -456,7 +458,6 @@ bitset
 -
 >
 bits
-ZYAN_NULL
 )
 ;
 }
@@ -1404,7 +1405,7 @@ zero
 ;
 ZYAN_CHECK
 (
-ZyanVectorPush
+ZyanVectorPushBack
 (
 &
 bitset
@@ -1467,7 +1468,7 @@ size
 )
 {
 return
-ZyanVectorPop
+ZyanVectorPopBack
 (
 &
 bitset

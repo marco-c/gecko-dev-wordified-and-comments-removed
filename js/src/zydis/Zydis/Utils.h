@@ -47,6 +47,10 @@ C
 {
 #
 endif
+#
+define
+ZYDIS_MAX_INSTRUCTION_SEGMENT_COUNT
+9
 typedef
 enum
 ZydisInstructionSegment_
@@ -96,7 +100,7 @@ size
 }
 segments
 [
-8
+ZYDIS_MAX_INSTRUCTION_SEGMENT_COUNT
 ]
 ;
 }

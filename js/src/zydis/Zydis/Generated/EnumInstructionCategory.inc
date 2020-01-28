@@ -44,6 +44,9 @@ AVX512_BITALG
 AVX512_VBMI
 "
 "
+AVX512_VP2INTERSECT
+"
+"
 BINARY
 "
 "
@@ -99,6 +102,9 @@ DATAXFER
 "
 "
 DECIMAL
+"
+"
+ENQCMD
 "
 "
 EXPAND
@@ -195,6 +201,9 @@ PUSH
 "
 "
 RDPID
+"
+"
+RDPRU
 "
 "
 RDRAND

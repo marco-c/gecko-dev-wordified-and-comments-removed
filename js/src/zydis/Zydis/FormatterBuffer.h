@@ -182,8 +182,7 @@ token
 ZydisTokenType
 *
 type
-char
-*
+ZyanConstCharPointer
 *
 value
 )
