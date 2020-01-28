@@ -6505,6 +6505,14 @@ executableExts
 "
 air
 "
+#
+ifdef
+MOZ_WIDGET_COCOA
+"
+fileloc
+"
+#
+endif
 "
 jar
 "
