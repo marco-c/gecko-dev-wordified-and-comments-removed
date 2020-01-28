@@ -1827,11 +1827,6 @@ MaybeUpgradeFromPersistentStorageDirectoryToDefaultStorageDirectory
 (
 )
 ;
-nsresult
-MaybeRemoveOldDirectories
-(
-)
-;
 template
 <
 typename
