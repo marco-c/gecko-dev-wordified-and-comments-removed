@@ -2802,7 +2802,6 @@ browserLoaded
 gBrowser
 .
 selectedBrowser
-true
 )
 ;
 await
