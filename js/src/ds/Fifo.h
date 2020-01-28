@@ -6,13 +6,9 @@ define
 js_Fifo_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 <

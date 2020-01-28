@@ -6,13 +6,9 @@ define
 mozilla_gfx_2d_CaptureCommandList_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

@@ -6,13 +6,9 @@ define
 nsClassHashtable_h__
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

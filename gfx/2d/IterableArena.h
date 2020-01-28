@@ -6,13 +6,9 @@ define
 MOZILLA_GFX_ITERABLEARENA_H_
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

@@ -6,13 +6,9 @@ define
 mozilla_mscom_Interceptor_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

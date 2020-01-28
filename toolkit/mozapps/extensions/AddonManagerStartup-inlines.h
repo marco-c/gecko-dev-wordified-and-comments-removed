@@ -38,13 +38,9 @@ h
 "
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 namespace
 mozilla
 {

@@ -397,11 +397,6 @@ MemoryReporting
 h
 '
 '
-Move
-.
-h
-'
-'
 NonDereferenceable
 .
 h

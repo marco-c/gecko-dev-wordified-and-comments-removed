@@ -6,13 +6,9 @@ define
 mozilla_Tuple_h
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "

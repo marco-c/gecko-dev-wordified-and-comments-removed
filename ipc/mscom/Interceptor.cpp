@@ -3,13 +3,9 @@ define
 INITGUID
 #
 include
-"
-mozilla
-/
-Move
-.
-h
-"
+<
+utility
+>
 #
 include
 "
