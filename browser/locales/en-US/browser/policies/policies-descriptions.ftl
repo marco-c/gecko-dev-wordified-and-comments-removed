@@ -1093,7 +1093,7 @@ manager
 .
 policy
 -
-Permissions
+Permissions2
 =
 Configure
 permissions
@@ -1101,8 +1101,9 @@ for
 camera
 microphone
 location
-and
 notifications
+and
+autoplay
 .
 policy
 -
