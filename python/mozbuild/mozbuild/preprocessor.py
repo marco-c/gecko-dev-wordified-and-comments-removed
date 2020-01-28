@@ -131,6 +131,7 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 sys
 import
@@ -209,6 +210,43 @@ Preprocessor
 preprocess
 '
 ]
+def
+_to_text
+(
+a
+)
+:
+    
+if
+isinstance
+(
+a
+(
+six
+.
+text_type
+six
+.
+binary_type
+)
+)
+:
+        
+return
+six
+.
+ensure_text
+(
+a
+)
+    
+return
+six
+.
+text_type
+(
+a
+)
 def
 path_starts_with
 (
@@ -4543,13 +4581,21 @@ args
 )
         
 if
-type
+isinstance
 (
 val
+six
+.
+text_type
 )
-=
-=
-str
+or
+isinstance
+(
+val
+six
+.
+binary_type
+)
 :
             
 val
@@ -4606,8 +4652,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_ifdef
@@ -4724,8 +4768,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_ifndef
@@ -4842,8 +4884,6 @@ self
 .
 disableLevel
 )
-        
-pass
     
 def
 do_else
@@ -5159,7 +5199,7 @@ context
 :
                 
 return
-str
+_to_text
 (
 self
 .
@@ -5578,7 +5618,7 @@ context
 :
                 
 return
-str
+_to_text
 (
 self
 .
@@ -5725,7 +5765,7 @@ try
                 
 args
 =
-str
+_to_text
 (
 args
 )
@@ -5800,7 +5840,7 @@ self
 '
 FILE_NOT_FOUND
 '
-str
+_to_text
 (
 args
 )
@@ -6196,7 +6236,7 @@ self
 Error
 :
 '
-str
+_to_text
 (
 args
 )
