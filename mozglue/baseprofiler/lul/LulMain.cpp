@@ -55,6 +55,11 @@ string
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -95,15 +100,6 @@ include
 mozilla
 /
 MemoryChecking
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Move
 .
 h
 "
