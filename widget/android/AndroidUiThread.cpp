@@ -1075,6 +1075,9 @@ if
 headOfList
 )
 {
+java
+:
+:
 GeckoThread
 :
 :
