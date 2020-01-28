@@ -16,7 +16,7 @@ t
 =
 >
 {
-assert_throws
+assert_throws_dom
 (
 '
 NetworkError

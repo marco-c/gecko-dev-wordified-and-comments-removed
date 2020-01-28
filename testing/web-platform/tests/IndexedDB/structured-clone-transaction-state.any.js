@@ -100,7 +100,7 @@ getterCalled
 =
 true
 ;
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError
@@ -299,7 +299,7 @@ getterCalled
 =
 true
 ;
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError
@@ -512,7 +512,7 @@ getterCalled
 =
 true
 ;
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError

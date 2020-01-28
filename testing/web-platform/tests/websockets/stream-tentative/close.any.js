@@ -512,7 +512,7 @@ repeat
 124
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 SyntaxError
@@ -659,7 +659,7 @@ wss
 .
 connection
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidAccessError

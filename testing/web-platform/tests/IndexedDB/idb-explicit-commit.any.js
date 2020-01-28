@@ -454,7 +454,7 @@ commit
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError
@@ -605,7 +605,7 @@ step_func
 =
 >
 {
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError
@@ -759,7 +759,7 @@ commit
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 TransactionInactiveError
@@ -939,7 +939,7 @@ abort
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidStateError
@@ -1048,7 +1048,7 @@ commit
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidStateError
@@ -1178,7 +1178,7 @@ commit
 (
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidStateError
@@ -1378,7 +1378,7 @@ timeoutPromise
 0
 )
 ;
-assert_throws
+assert_throws_dom
 (
 '
 InvalidStateError
