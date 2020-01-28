@@ -1242,6 +1242,16 @@ aBrowser
 ;
 this
 .
+messageManager
+=
+this
+.
+browser
+.
+messageManager
+;
+this
+.
 principal
 =
 aInstallingPrincipal
@@ -1416,8 +1426,6 @@ subject
 !
 =
 this
-.
-browser
 .
 messageManager
 )
@@ -11784,6 +11792,11 @@ install
 target
 listener
 installPromise
+messageManager
+:
+target
+.
+messageManager
 }
 )
 ;
@@ -12187,8 +12200,6 @@ installs
 if
 (
 info
-.
-target
 .
 messageManager
 =
