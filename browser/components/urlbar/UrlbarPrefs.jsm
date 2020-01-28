@@ -279,12 +279,6 @@ false
 [
 "
 searchTips
-"
-false
-]
-[
-"
-searchTips
 .
 shownCount
 "
@@ -373,6 +367,14 @@ update1
 view
 .
 stripHttps
+"
+false
+]
+[
+"
+update1
+.
+searchTips
 "
 false
 ]
