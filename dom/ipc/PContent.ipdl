@@ -1748,10 +1748,16 @@ nsIPrincipal
 subjectPrincipal
 ;
 nsIURI
-callerDocumentURI
+callerURI
 ;
 bool
 isFromPrivateWindow
+;
+nsCString
+scriptLocation
+;
+uint64_t
+innerWindowId
 ;
 }
 ;
