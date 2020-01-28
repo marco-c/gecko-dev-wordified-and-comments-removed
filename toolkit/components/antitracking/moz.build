@@ -143,11 +143,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-AsyncStreamReader
-.
-jsm
-'
-'
 ContentBlockingAllowList
 .
 jsm

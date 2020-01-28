@@ -1793,6 +1793,11 @@ useTrackingProtection
 =
 false
 ;
+if
+(
+mFrameElement
+)
+{
 nsCOMPtr
 <
 nsIDocShell
@@ -1825,6 +1830,7 @@ GetUseTrackingProtection
 useTrackingProtection
 )
 ;
+}
 }
 loadContext
 =
