@@ -112,6 +112,15 @@ funcType_
 "
 )
 .
+whitelist_function
+(
+"
+stackmaps_
+.
+*
+"
+)
+.
 whitelist_type
 (
 "
