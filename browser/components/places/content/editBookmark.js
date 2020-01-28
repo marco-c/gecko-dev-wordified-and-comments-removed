@@ -5960,11 +5960,6 @@ title
 )
 ;
 }
-onItemRemoved
-(
-)
-{
-}
 onBeginUpdateBatch
 (
 )

@@ -1229,6 +1229,9 @@ false
 PlacesBookmarkAddition
 :
 false
+PlacesBookmarkRemoved
+:
+false
 PlacesEvent
 :
 false
