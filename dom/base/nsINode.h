@@ -3288,7 +3288,7 @@ LinkedList
 nsRange
 >
 >
-mCommonAncestorRanges
+mClosestCommonInclusiveAncestorRanges
 ;
 }
 ;
@@ -6540,7 +6540,7 @@ LinkedList
 nsRange
 >
 *
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 const
@@ -6563,7 +6563,7 @@ GetExistingSlots
 )
 -
 >
-mCommonAncestorRanges
+mClosestCommonInclusiveAncestorRanges
 .
 get
 (
@@ -6578,7 +6578,7 @@ LinkedList
 nsRange
 >
 *
-GetExistingCommonAncestorRanges
+GetExistingClosestCommonInclusiveAncestorRanges
 (
 )
 {
@@ -6600,7 +6600,7 @@ GetExistingSlots
 )
 -
 >
-mCommonAncestorRanges
+mClosestCommonInclusiveAncestorRanges
 .
 get
 (
@@ -6621,7 +6621,7 @@ nsRange
 >
 >
 &
-GetCommonAncestorRangesPtr
+GetClosestCommonInclusiveAncestorRangesPtr
 (
 )
 {
@@ -6631,7 +6631,7 @@ Slots
 )
 -
 >
-mCommonAncestorRanges
+mClosestCommonInclusiveAncestorRanges
 ;
 }
 nsIWeakReference
