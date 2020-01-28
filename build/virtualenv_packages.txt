@@ -352,15 +352,6 @@ third_party
 /
 python
 /
-which
-mozilla
-.
-pth
-:
-third_party
-/
-python
-/
 pystache
 python2
 :
