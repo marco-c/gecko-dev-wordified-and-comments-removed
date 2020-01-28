@@ -13782,7 +13782,7 @@ nsresult
 nsContentUtils
 :
 :
-GetAncestors
+GetInclusiveAncestors
 (
 nsINode
 *
@@ -13829,7 +13829,7 @@ nsresult
 nsContentUtils
 :
 :
-GetAncestorsAndOffsets
+GetInclusiveAncestorsAndOffsets
 (
 nsINode
 *
