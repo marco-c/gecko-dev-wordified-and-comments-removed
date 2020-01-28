@@ -7,6 +7,12 @@ subprocess
 import
 tempfile
 from
+six
+.
+moves
+import
+range
+from
 .
 .
 import
@@ -96,7 +102,7 @@ initial
 for
 i
 in
-xrange
+range
 (
 len
 (

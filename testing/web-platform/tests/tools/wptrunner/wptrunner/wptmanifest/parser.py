@@ -14,7 +14,7 @@ six
 .
 moves
 import
-xrange
+range
 from
 .
 node
@@ -3342,7 +3342,7 @@ value
 for
 i
 in
-xrange
+range
 (
 length
 )
