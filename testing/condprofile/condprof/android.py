@@ -334,6 +334,25 @@ device
 return
 None
         
+old_verbose
+=
+self
+.
+device
+.
+_verbose
+        
+self
+.
+device
+.
+_verbose
+=
+False
+        
+try
+:
+            
 return
 self
 .
@@ -342,6 +361,17 @@ device
 get_logcat
 (
 )
+        
+finally
+:
+            
+self
+.
+device
+.
+_verbose
+=
+old_verbose
     
 def
 prepare
@@ -1000,6 +1030,9 @@ self
 app_name
 )
         
+try
+:
+            
 self
 .
 device
@@ -1012,6 +1045,25 @@ app_name
 root
 =
 True
+)
+        
+except
+ADBError
+:
+            
+LOG
+(
+"
+Could
+not
+stop
+the
+application
+using
+force
+-
+stop
+"
 )
         
 time
@@ -1318,11 +1370,6 @@ binary
             
 "
 -
-vv
-"
-            
-"
--
 -
 log
 "
@@ -1513,6 +1560,15 @@ self
 )
 :
         
+LOG
+(
+"
+Dumping
+Android
+logs
+"
+)
+        
 try
 :
             
@@ -1525,29 +1581,11 @@ device
 get_logcat
 (
 )
-        
-except
-(
-ADBError
-ValueError
-)
-:
             
-ERROR
-(
-"
-logcat
-call
-failure
-"
-)
-            
-return
-        
 if
 logcat
 :
-            
+                
 logfile
 =
 os
@@ -1565,7 +1603,7 @@ logcat
 log
 "
 )
-            
+                
 LOG
 (
 "
@@ -1578,7 +1616,7 @@ s
 %
 logfile
 )
-            
+                
 with
 open
 (
@@ -1590,13 +1628,13 @@ wb
 as
 f
 :
-                
+                    
 for
 line
 in
 logcat
 :
-                    
+                        
 f
 .
 write
@@ -1608,6 +1646,11 @@ encode
 "
 utf8
 "
+errors
+=
+"
+replace
+"
 )
 +
 b
@@ -1616,10 +1659,10 @@ b
 n
 "
 )
-        
+            
 else
 :
-            
+                
 LOG
 (
 "
@@ -1627,6 +1670,21 @@ logcat
 came
 back
 empty
+"
+)
+        
+except
+Exception
+:
+            
+ERROR
+(
+"
+Could
+not
+extract
+the
+logcat
 "
 )
     
