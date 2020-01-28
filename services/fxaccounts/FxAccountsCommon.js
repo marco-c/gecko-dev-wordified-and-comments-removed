@@ -505,6 +505,14 @@ oldsync
 ;
 exports
 .
+FX_MONITOR_OAUTH_CLIENT_ID
+=
+"
+802d56ef2a9af9fa
+"
+;
+exports
+.
 UI_REQUEST_SIGN_IN_FLOW
 =
 "
