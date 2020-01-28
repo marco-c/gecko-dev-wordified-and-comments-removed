@@ -108,7 +108,7 @@ return
 mMediaControlKeysManager
 ;
 }
-void
+bool
 RegisterActiveMediaController
 (
 MediaController
@@ -116,7 +116,7 @@ MediaController
 aController
 )
 ;
-void
+bool
 UnregisterActiveMediaController
 (
 MediaController
@@ -189,7 +189,7 @@ ControllerManager
 =
 default
 ;
-void
+bool
 AddController
 (
 MediaController
@@ -197,7 +197,7 @@ MediaController
 aController
 )
 ;
-void
+bool
 RemoveController
 (
 MediaController

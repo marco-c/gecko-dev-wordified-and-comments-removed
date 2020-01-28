@@ -206,6 +206,11 @@ mAudible
 =
 false
 ;
+bool
+mIsRegisteredToService
+=
+false
+;
 int64_t
 mControlledMediaNum
 =
