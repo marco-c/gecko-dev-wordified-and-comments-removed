@@ -223,11 +223,6 @@ FormAssistant
 jsm
 '
 '
-HelperApps
-.
-jsm
-'
-'
 Home
 .
 jsm
