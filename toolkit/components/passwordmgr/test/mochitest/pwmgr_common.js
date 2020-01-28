@@ -468,9 +468,7 @@ wrap
 window
 )
 .
-getWindowGlobalChild
-(
-)
+windowGlobalChild
 .
 browsingContext
 ;
