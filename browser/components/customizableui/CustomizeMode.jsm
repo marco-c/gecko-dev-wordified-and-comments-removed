@@ -593,6 +593,11 @@ gBrowser
 removeTab
 (
 gTab
+{
+animate
+:
+true
+}
 )
 ;
 gTab
