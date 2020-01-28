@@ -466,6 +466,11 @@ SyncedContextInlines
 .
 h
 '
+'
+WindowContext
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -558,6 +563,11 @@ cpp
 '
 '
 SerializedLoadContext
+.
+cpp
+'
+'
+WindowContext
 .
 cpp
 '

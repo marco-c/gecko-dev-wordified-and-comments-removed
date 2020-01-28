@@ -50181,6 +50181,15 @@ frameCtx
 if
 (
 frameCtx
+&
+&
+!
+frameCtx
+-
+>
+IsDiscarded
+(
+)
 )
 {
 frameCtx
