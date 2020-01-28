@@ -2256,7 +2256,7 @@ Get
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 BlocklistStringSet
 >
