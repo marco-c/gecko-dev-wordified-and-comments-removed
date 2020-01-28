@@ -84,6 +84,11 @@ DirectoryPicker
 js
 '
 '
+Presets
+.
+js
+'
+'
 ProfilerEventHandling
 .
 js
