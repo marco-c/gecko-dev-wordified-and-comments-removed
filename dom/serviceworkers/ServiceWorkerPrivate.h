@@ -366,8 +366,6 @@ const
 nsAString
 &
 aResultingClientId
-bool
-aIsReload
 )
 =
 0
@@ -554,8 +552,6 @@ const
 nsAString
 &
 aResultingClientId
-bool
-aIsReload
 )
 ;
 bool
