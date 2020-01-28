@@ -111,7 +111,9 @@ windowGlobal
 =
 window
 .
-windowGlobalChild
+getWindowGlobalChild
+(
+)
 ;
 }
 else
