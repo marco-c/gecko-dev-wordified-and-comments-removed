@@ -60,10 +60,6 @@ include
 protocol
 PBackgroundFileHandle
 ;
-include
-protocol
-PPendingIPCBlob
-;
 using
 struct
 mozilla
@@ -129,17 +125,6 @@ FileRequestFlushResponse
 {
 }
 ;
-struct
-FileRequestGetFileResponse
-{
-PPendingIPCBlob
-file
-;
-FileRequestMetadata
-metadata
-;
-}
-;
 union
 FileRequestResponse
 {
@@ -154,8 +139,6 @@ FileRequestWriteResponse
 FileRequestTruncateResponse
 ;
 FileRequestFlushResponse
-;
-FileRequestGetFileResponse
 ;
 }
 ;

@@ -154,10 +154,6 @@ PMediaTransport
 ;
 include
 protocol
-PPendingIPCBlob
-;
-include
-protocol
 PRemoteWorker
 ;
 include
@@ -398,9 +394,6 @@ PIPCBlobInputStream
 ;
 manages
 PMediaTransport
-;
-manages
-PPendingIPCBlob
 ;
 manages
 PRemoteWorker
@@ -1009,13 +1002,6 @@ PCacheStreamControl
 async
 PParentToChildStream
 (
-)
-;
-async
-PPendingIPCBlob
-(
-IPCBlob
-blob
 )
 ;
 async
