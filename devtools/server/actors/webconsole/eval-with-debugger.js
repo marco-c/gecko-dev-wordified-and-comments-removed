@@ -869,12 +869,6 @@ null
 ;
 dbg
 .
-addAllGlobalsAsDebuggees
-(
-)
-;
-dbg
-.
 onEnterFrame
 =
 frame
