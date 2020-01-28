@@ -303,6 +303,13 @@ StructuredCloneData
 aOther
 )
 ;
+explicit
+StructuredCloneData
+(
+StructuredCloneScope
+aScope
+)
+;
 ~
 StructuredCloneData
 (
