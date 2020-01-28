@@ -1024,6 +1024,12 @@ mozilla
 :
 StyleMaskMode
 "
+"
+mozilla
+:
+:
+StyleScrollBehavior
+"
 ]
 whitelist
 -

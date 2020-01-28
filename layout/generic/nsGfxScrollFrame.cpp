@@ -50242,7 +50242,10 @@ StyleDisplay
 mScrollBehavior
 =
 =
-NS_STYLE_SCROLL_BEHAVIOR_SMOOTH
+StyleScrollBehavior
+:
+:
+Smooth
 )
 ;
 }

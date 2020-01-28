@@ -6655,7 +6655,10 @@ mozilla
 StyleTouchAction
 mTouchAction
 ;
-uint8_t
+mozilla
+:
+:
+StyleScrollBehavior
 mScrollBehavior
 ;
 mozilla
