@@ -554,10 +554,6 @@ mSkipServiceWorker
 (
 false
 )
-mSynchronous
-(
-false
-)
 mUnsafeRequest
 (
 false
@@ -694,10 +690,6 @@ mSameOriginDataURL
 true
 )
 mSkipServiceWorker
-(
-false
-)
-mSynchronous
 (
 false
 )
