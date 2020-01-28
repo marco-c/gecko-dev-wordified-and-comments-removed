@@ -5221,6 +5221,13 @@ Deserialize
 )
 )
 ]
+#
+[
+derive
+(
+Debug
+)
+]
 pub
 struct
 LineDecorationJob
