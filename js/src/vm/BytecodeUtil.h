@@ -108,7 +108,6 @@ ENUMERATE_OPCODE
 #
 undef
 ENUMERATE_OPCODE
-JSOP_LIMIT
 }
 ;
 enum
@@ -2119,7 +2118,10 @@ op
 {
 MOZ_ASSERT
 (
+uint8_t
+(
 op
+)
 <
 JSOP_LIMIT
 )
