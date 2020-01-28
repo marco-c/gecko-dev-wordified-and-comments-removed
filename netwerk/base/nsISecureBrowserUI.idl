@@ -140,12 +140,6 @@ state
 ;
 readonly
 attribute
-unsigned
-long
-contentBlockingEvent
-;
-readonly
-attribute
 bool
 isSecureContext
 ;
