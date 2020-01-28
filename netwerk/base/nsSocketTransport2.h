@@ -1553,6 +1553,11 @@ mSSLCallbackSet
 bool
 mUsingQuic
 ;
+bool
+mPortRemappingApplied
+=
+false
+;
 }
 ;
 }
