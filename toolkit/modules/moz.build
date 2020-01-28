@@ -1825,9 +1825,6 @@ var
 in
 (
 '
-MOZ_ALLOW_ADDON_SIDELOAD
-'
-'
 MOZ_SYSTEM_NSS
 '
 '
