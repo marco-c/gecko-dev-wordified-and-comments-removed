@@ -96,8 +96,9 @@ DesktopVector
 &
 position
 )
-{
-}
+=
+0
+;
 virtual
 void
 OnMouseCursorPosition
