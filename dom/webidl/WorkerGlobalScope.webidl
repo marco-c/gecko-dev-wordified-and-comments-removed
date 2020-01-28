@@ -220,6 +220,10 @@ onerror
 ;
 attribute
 EventHandler
+onlanguagechange
+;
+attribute
+EventHandler
 onoffline
 ;
 attribute
