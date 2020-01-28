@@ -456,6 +456,10 @@ MOZ_MUST_USE
 bool
 initScript
 (
+const
+FieldInitializers
+&
+fieldInitializers
 )
 ;
 private

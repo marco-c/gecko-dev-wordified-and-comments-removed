@@ -16301,6 +16301,9 @@ fse
 .
 initScript
 (
+getFieldInitializers
+(
+)
 )
 )
 {
@@ -16308,14 +16311,6 @@ return
 false
 ;
 }
-script
--
->
-setFieldInitializers
-(
-fieldInitializers_
-)
-;
 return
 true
 ;
