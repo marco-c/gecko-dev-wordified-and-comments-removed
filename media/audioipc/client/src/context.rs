@@ -2372,7 +2372,7 @@ platform_handles
 0
 ]
 .
-as_raw
+into_raw
 (
 )
 )
