@@ -257,6 +257,7 @@ content
 window
 ;
 return
+false
 ;
 }
 return
@@ -330,6 +331,7 @@ content
 window
 ;
 return
+null
 ;
 }
 if

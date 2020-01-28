@@ -553,6 +553,11 @@ closed
 )
 {
 return
+Promise
+.
+resolve
+(
+)
 ;
 }
 let
