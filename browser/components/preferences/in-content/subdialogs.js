@@ -2267,6 +2267,11 @@ dialog
 "
 )
 ;
+if
+(
+contentPane
+)
+{
 contentPane
 .
 classList
@@ -2278,6 +2283,7 @@ doScroll
 "
 )
 ;
+}
 }
 this
 .
