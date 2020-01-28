@@ -140,10 +140,6 @@ NULL
 LIBRARY_NAME
 =
 zlib
-PROGRAMS
-=
-example
-minigzip
 #
 REQUIRES
 =

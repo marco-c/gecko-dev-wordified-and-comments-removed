@@ -1,7 +1,6 @@
 local
 const
-unsigned
-long
+z_crc_t
 FAR
 crc_table
 [

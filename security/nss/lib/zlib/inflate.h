@@ -10,6 +10,8 @@ typedef
 enum
 {
 HEAD
+=
+16180
 FLAGS
 TIME
 OS
@@ -47,6 +49,9 @@ inflate_mode
 struct
 inflate_state
 {
+z_streamp
+strm
+;
 inflate_mode
 mode
 ;
