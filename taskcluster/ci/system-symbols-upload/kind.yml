@@ -209,11 +209,6 @@ symbols
 .
 zip
 >
--
--
-ignore
--
-missing
 "
 }
 sparse
