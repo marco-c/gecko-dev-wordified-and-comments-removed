@@ -1745,14 +1745,7 @@ aCv
 )
 ;
 nsresult
-ChangeTextSize
-(
-int32_t
-change
-)
-;
-nsresult
-ChangeFullZoom
+ChangeZoom
 (
 int32_t
 change
