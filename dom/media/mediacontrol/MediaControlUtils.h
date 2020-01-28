@@ -231,7 +231,7 @@ case
 MediaControlKeysTestEvent
 :
 :
-PrevTrack
+Previoustrack
 :
 return
 MediaControlKeysEvent
@@ -243,7 +243,7 @@ case
 MediaControlKeysTestEvent
 :
 :
-NextTrack
+Nexttrack
 :
 return
 MediaControlKeysEvent
@@ -255,7 +255,7 @@ case
 MediaControlKeysTestEvent
 :
 :
-SeekBackward
+Seekbackward
 :
 return
 MediaControlKeysEvent
@@ -267,7 +267,7 @@ case
 MediaControlKeysTestEvent
 :
 :
-SeekForward
+Seekforward
 :
 return
 MediaControlKeysEvent
