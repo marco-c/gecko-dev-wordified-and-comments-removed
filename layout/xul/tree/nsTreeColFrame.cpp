@@ -608,15 +608,6 @@ aAttribute
 nsGkAtoms
 :
 :
-ordinal
-|
-|
-aAttribute
-=
-=
-nsGkAtoms
-:
-:
 primary
 )
 {

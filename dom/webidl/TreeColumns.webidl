@@ -274,10 +274,5 @@ invalidateColumns
 (
 )
 ;
-void
-restoreNaturalOrder
-(
-)
-;
 }
 ;
