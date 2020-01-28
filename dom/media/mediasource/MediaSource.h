@@ -349,7 +349,7 @@ aType
 )
 ;
 static
-nsresult
+void
 IsTypeSupported
 (
 const
@@ -359,6 +359,9 @@ aType
 DecoderDoctorDiagnostics
 *
 aDiagnostics
+ErrorResult
+&
+aRv
 )
 ;
 IMPL_EVENT_HANDLER
