@@ -109,8 +109,9 @@ StructuredCloneScope
 :
 uint32_t
 {
-SameProcessSameThread
 SameProcessDifferentThread
+=
+1
 DifferentProcess
 DifferentProcessForIndexedDB
 Unassigned
