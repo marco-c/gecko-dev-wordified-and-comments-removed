@@ -5695,11 +5695,6 @@ cbindgen
 ]
 [
 '
-dump_syms
-'
-]
-[
-'
 nasm
 '
 ]
