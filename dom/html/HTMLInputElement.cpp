@@ -4834,10 +4834,6 @@ mPickerRunning
 (
 false
 )
-mSelectionCached
-(
-true
-)
 mIsPreviewEnabled
 (
 false
