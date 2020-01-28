@@ -4665,6 +4665,12 @@ MemCheckKind
 MakeUndefined
 )
 ;
+bitmap
+.
+clear
+(
+)
+;
 decommitAllArenas
 (
 )
