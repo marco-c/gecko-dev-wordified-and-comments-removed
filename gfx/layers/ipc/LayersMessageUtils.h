@@ -6163,6 +6163,10 @@ IMPL_PARAMTRAITS_BY_SERDE
 (
 StyleTranslate
 )
+IMPL_PARAMTRAITS_BY_SERDE
+(
+StyleTransform
+)
 }
 #
 endif
