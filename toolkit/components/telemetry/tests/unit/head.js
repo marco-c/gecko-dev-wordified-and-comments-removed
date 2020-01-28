@@ -1243,6 +1243,18 @@ bytes
 )
 ;
 }
+if
+(
+payload
+&
+&
+"
+clientId
+"
+in
+payload
+)
+{
 Assert
 .
 notEqual
@@ -1275,6 +1287,7 @@ server
 .
 )
 ;
+}
 return
 payload
 ;
