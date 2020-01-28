@@ -1304,11 +1304,11 @@ showing
 =
 true
 ;
-this
+Services
 .
-window
+tm
 .
-setTimeout
+dispatchToMainThread
 (
 (
 )
@@ -1552,11 +1552,11 @@ function
 "
 )
 {
-this
+Services
 .
-window
+tm
 .
-setTimeout
+dispatchToMainThread
 (
 (
 )
@@ -1571,7 +1571,6 @@ this
 )
 ;
 }
-0
 )
 ;
 }
