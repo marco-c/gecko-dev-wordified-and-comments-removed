@@ -195,7 +195,7 @@ AnyrefCode
 const
 RefCode
 =
-0x6d
+0x6e
 ;
 const
 FuncCode

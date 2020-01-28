@@ -643,7 +643,7 @@ cranelift
 rev
 =
 "
-eb20fcab349ce20ac6f8659d1c4b058108d5e627
+98633eeb0d249efae23ee69ec03dc35b7d9bec17
 "
 [
 patch
@@ -674,5 +674,5 @@ cranelift
 rev
 =
 "
-eb20fcab349ce20ac6f8659d1c4b058108d5e627
+98633eeb0d249efae23ee69ec03dc35b7d9bec17
 "

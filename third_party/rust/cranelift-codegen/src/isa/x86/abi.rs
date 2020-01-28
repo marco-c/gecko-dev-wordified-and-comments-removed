@@ -1739,13 +1739,6 @@ ty
 is_bool
 (
 )
-|
-|
-ty
-.
-is_ref
-(
-)
 {
 GPR
 }
