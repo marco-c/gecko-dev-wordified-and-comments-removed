@@ -14,13 +14,6 @@ tests
 project
 is
 a
-W3C
--
-coordinated
-attempt
-to
-build
-a
 cross
 -
 browser

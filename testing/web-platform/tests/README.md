@@ -124,13 +124,6 @@ tests
 Project
 is
 a
-W3C
--
-coordinated
-attempt
-to
-build
-a
 cross
 -
 browser
