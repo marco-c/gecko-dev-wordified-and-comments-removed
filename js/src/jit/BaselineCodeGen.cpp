@@ -34690,9 +34690,9 @@ pc
 )
 )
 CodeName
-(
+[
 op
-)
+]
 )
 ;
 BytecodeInfo
@@ -35474,10 +35474,7 @@ bind
 &
 opLabels
 [
-uint8_t
-(
 OP
-)
 ]
 )
 ;

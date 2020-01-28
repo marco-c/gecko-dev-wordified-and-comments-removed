@@ -30,8 +30,6 @@ MACRO
 MACRO
 (
 JSOP_UNDEFINED
-Undefined
-undefined
 js_undefined_str
 "
 "
@@ -67,8 +65,6 @@ null
 MACRO
 (
 JSOP_NULL
-Null
-null
 js_null_str
 js_null_str
 1
@@ -81,8 +77,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_FALSE
-False
-false_
 js_false_str
 js_false_str
 1
@@ -94,8 +88,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TRUE
-True
-true_
 js_true_str
 js_true_str
 1
@@ -108,8 +100,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INT32
-Int32
-int32
 "
 int32
 "
@@ -124,8 +114,6 @@ JOF_INT32
 MACRO
 (
 JSOP_ZERO
-Zero
-zero
 "
 zero
 "
@@ -142,8 +130,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ONE
-One
-one
 "
 one
 "
@@ -160,8 +146,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INT8
-Int8
-int8
 "
 int8
 "
@@ -176,8 +160,6 @@ JOF_INT8
 MACRO
 (
 JSOP_UINT16
-Uint16
-uint16
 "
 uint16
 "
@@ -192,8 +174,6 @@ JOF_UINT16
 MACRO
 (
 JSOP_UINT24
-Uint24
-uint24
 "
 uint24
 "
@@ -208,8 +188,6 @@ JOF_UINT24
 MACRO
 (
 JSOP_DOUBLE
-Double
-double_
 "
 double
 "
@@ -224,8 +202,6 @@ JOF_DOUBLE
 MACRO
 (
 JSOP_BIGINT
-BigInt
-big_int
 "
 bigint
 "
@@ -240,8 +216,6 @@ JOF_BIGINT
 MACRO
 (
 JSOP_STRING
-String
-string
 "
 string
 "
@@ -256,8 +230,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_SYMBOL
-Symbol
-symbol
 "
 symbol
 "
@@ -272,8 +244,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_VOID
-Void
-void_
 js_void_str
 NULL
 1
@@ -286,8 +256,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TYPEOF
-Typeof
-typeof_
 js_typeof_str
 NULL
 1
@@ -303,8 +271,6 @@ JOF_IC
 MACRO
 (
 JSOP_TYPEOFEXPR
-TypeofExpr
-typeof_expr
 "
 typeofexpr
 "
@@ -323,8 +289,6 @@ JOF_IC
 MACRO
 (
 JSOP_POS
-Pos
-pos
 "
 pos
 "
@@ -341,8 +305,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEG
-Neg
-neg
 "
 neg
 "
@@ -361,8 +323,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITNOT
-BitNot
-bit_not
 "
 bitnot
 "
@@ -381,8 +341,6 @@ JOF_IC
 MACRO
 (
 JSOP_NOT
-Not
-not_
 "
 not
 "
@@ -403,8 +361,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITOR
-BitOr
-bit_or
 "
 bitor
 "
@@ -422,8 +378,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITXOR
-BitXor
-bit_xor
 "
 bitxor
 "
@@ -441,8 +395,6 @@ JOF_IC
 MACRO
 (
 JSOP_BITAND
-BitAnd
-bit_and
 "
 bitand
 "
@@ -461,8 +413,6 @@ JOF_IC
 MACRO
 (
 JSOP_EQ
-Eq
-eq
 "
 eq
 "
@@ -483,8 +433,6 @@ JOF_IC
 MACRO
 (
 JSOP_NE
-Ne
-ne
 "
 ne
 "
@@ -506,8 +454,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTEQ
-StrictEq
-strict_eq
 "
 stricteq
 "
@@ -529,8 +475,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTNE
-StrictNe
-strict_ne
 "
 strictne
 "
@@ -553,8 +497,6 @@ JOF_IC
 MACRO
 (
 JSOP_LT
-Lt
-lt
 "
 lt
 "
@@ -572,8 +514,6 @@ JOF_IC
 MACRO
 (
 JSOP_GT
-Gt
-gt
 "
 gt
 "
@@ -591,8 +531,6 @@ JOF_IC
 MACRO
 (
 JSOP_LE
-Le
-le
 "
 le
 "
@@ -611,8 +549,6 @@ JOF_IC
 MACRO
 (
 JSOP_GE
-Ge
-ge
 "
 ge
 "
@@ -632,8 +568,6 @@ JOF_IC
 MACRO
 (
 JSOP_INSTANCEOF
-Instanceof
-instanceof
 js_instanceof_str
 js_instanceof_str
 1
@@ -648,8 +582,6 @@ JOF_IC
 MACRO
 (
 JSOP_IN
-In
-in_
 js_in_str
 js_in_str
 1
@@ -664,8 +596,6 @@ JOF_IC
 MACRO
 (
 JSOP_LSH
-Lsh
-lsh
 "
 lsh
 "
@@ -684,8 +614,6 @@ JOF_IC
 MACRO
 (
 JSOP_RSH
-Rsh
-rsh
 "
 rsh
 "
@@ -704,8 +632,6 @@ JOF_IC
 MACRO
 (
 JSOP_URSH
-Ursh
-ursh
 "
 ursh
 "
@@ -726,8 +652,6 @@ JOF_IC
 MACRO
 (
 JSOP_ADD
-Add
-add
 "
 add
 "
@@ -746,8 +670,6 @@ JOF_IC
 MACRO
 (
 JSOP_SUB
-Sub
-sub
 "
 sub
 "
@@ -766,8 +688,6 @@ JOF_IC
 MACRO
 (
 JSOP_INC
-Inc
-inc
 "
 inc
 "
@@ -783,8 +703,6 @@ JOF_IC
 MACRO
 (
 JSOP_DEC
-Dec
-dec
 "
 dec
 "
@@ -801,8 +719,6 @@ JOF_IC
 MACRO
 (
 JSOP_MUL
-Mul
-mul
 "
 mul
 "
@@ -820,8 +736,6 @@ JOF_IC
 MACRO
 (
 JSOP_DIV
-Div
-div
 "
 div
 "
@@ -839,8 +753,6 @@ JOF_IC
 MACRO
 (
 JSOP_MOD
-Mod
-mod
 "
 mod
 "
@@ -859,8 +771,6 @@ JOF_IC
 MACRO
 (
 JSOP_POW
-Pow
-pow
 "
 pow
 "
@@ -880,8 +790,6 @@ JOF_IC
 MACRO
 (
 JSOP_TOID
-ToId
-to_id
 "
 toid
 "
@@ -896,8 +804,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TONUMERIC
-ToNumeric
-to_numeric
 "
 tonumeric
 "
@@ -912,8 +818,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TOSTRING
-ToString
-to_string
 "
 tostring
 "
@@ -928,8 +832,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_GLOBALTHIS
-GlobalThis
-global_this
 "
 globalthis
 "
@@ -944,8 +846,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEWTARGET
-NewTarget
-new_target
 "
 newtarget
 "
@@ -960,8 +860,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DYNAMIC_IMPORT
-DynamicImport
-dynamic_import
 "
 dynamic
 -
@@ -978,8 +876,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_IMPORTMETA
-ImportMeta
-import_meta
 "
 importmeta
 "
@@ -994,8 +890,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEWINIT
-NewInit
-new_init
 "
 newinit
 "
@@ -1012,8 +906,6 @@ JOF_IC
 MACRO
 (
 JSOP_NEWOBJECT
-NewObject
-new_object
 "
 newobject
 "
@@ -1029,8 +921,6 @@ JOF_IC
 MACRO
 (
 JSOP_NEWOBJECT_WITHGROUP
-NewObjectWithGroup
-new_object_with_group
 "
 newobjectwithgroup
 "
@@ -1047,8 +937,6 @@ JOF_IC
 MACRO
 (
 JSOP_OBJECT
-Object
-object
 "
 object
 "
@@ -1063,8 +951,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_OBJWITHPROTO
-ObjWithProto
-obj_with_proto
 "
 objwithproto
 "
@@ -1079,8 +965,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INITPROP
-InitProp
-init_prop
 "
 initprop
 "
@@ -1103,8 +987,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITHIDDENPROP
-InitHiddenProp
-init_hidden_prop
 "
 inithiddenprop
 "
@@ -1127,8 +1009,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITLOCKEDPROP
-InitLockedProp
-init_locked_prop
 "
 initlockedprop
 "
@@ -1151,8 +1031,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITELEM
-InitElem
-init_elem
 "
 initelem
 "
@@ -1174,8 +1052,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITHIDDENELEM
-InitHiddenElem
-init_hidden_elem
 "
 inithiddenelem
 "
@@ -1198,8 +1074,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITPROP_GETTER
-InitPropGetter
-init_prop_getter
 "
 initprop_getter
 "
@@ -1219,8 +1093,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITHIDDENPROP_GETTER
-InitHiddenPropGetter
-init_hidden_prop_getter
 "
 inithiddenprop_getter
 "
@@ -1241,8 +1113,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITELEM_GETTER
-InitElemGetter
-init_elem_getter
 "
 initelem_getter
 "
@@ -1262,8 +1132,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITHIDDENELEM_GETTER
-InitHiddenElemGetter
-init_hidden_elem_getter
 "
 inithiddenelem_getter
 "
@@ -1284,8 +1152,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITPROP_SETTER
-InitPropSetter
-init_prop_setter
 "
 initprop_setter
 "
@@ -1305,8 +1171,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITHIDDENPROP_SETTER
-InitHiddenPropSetter
-init_hidden_prop_setter
 "
 inithiddenprop_setter
 "
@@ -1327,8 +1191,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITELEM_SETTER
-InitElemSetter
-init_elem_setter
 "
 initelem_setter
 "
@@ -1348,8 +1210,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITHIDDENELEM_SETTER
-InitHiddenElemSetter
-init_hidden_elem_setter
 "
 inithiddenelem_setter
 "
@@ -1370,8 +1230,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_GETPROP
-GetProp
-get_prop
 "
 getprop
 "
@@ -1391,8 +1249,6 @@ JOF_IC
 MACRO
 (
 JSOP_CALLPROP
-CallProp
-call_prop
 "
 callprop
 "
@@ -1413,8 +1269,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETELEM
-GetElem
-get_elem
 "
 getelem
 "
@@ -1434,8 +1288,6 @@ JOF_IC
 MACRO
 (
 JSOP_CALLELEM
-CallElem
-call_elem
 "
 callelem
 "
@@ -1456,8 +1308,6 @@ JOF_IC
 MACRO
 (
 JSOP_LENGTH
-Length
-length
 "
 length
 "
@@ -1478,8 +1328,6 @@ JOF_IC
 MACRO
 (
 JSOP_SETPROP
-SetProp
-set_prop
 "
 setprop
 "
@@ -1504,8 +1352,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTSETPROP
-StrictSetProp
-strict_set_prop
 "
 strict
 -
@@ -1532,8 +1378,6 @@ JOF_IC
 MACRO
 (
 JSOP_SETELEM
-SetElem
-set_elem
 "
 setelem
 "
@@ -1558,8 +1402,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTSETELEM
-StrictSetElem
-strict_set_elem
 "
 strict
 -
@@ -1586,8 +1428,6 @@ JOF_IC
 MACRO
 (
 JSOP_DELPROP
-DelProp
-del_prop
 "
 delprop
 "
@@ -1606,8 +1446,6 @@ JOF_CHECKSLOPPY
 MACRO
 (
 JSOP_STRICTDELPROP
-StrictDelProp
-strict_del_prop
 "
 strict
 -
@@ -1628,8 +1466,6 @@ JOF_CHECKSTRICT
 MACRO
 (
 JSOP_DELELEM
-DelElem
-del_elem
 "
 delelem
 "
@@ -1648,8 +1484,6 @@ JOF_CHECKSLOPPY
 MACRO
 (
 JSOP_STRICTDELELEM
-StrictDelElem
-strict_del_elem
 "
 strict
 -
@@ -1670,8 +1504,6 @@ JOF_CHECKSTRICT
 MACRO
 (
 JSOP_HASOWN
-HasOwn
-has_own
 "
 hasown
 "
@@ -1688,8 +1520,6 @@ JOF_IC
 MACRO
 (
 JSOP_SUPERBASE
-SuperBase
-super_base
 "
 superbase
 "
@@ -1704,8 +1534,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_GETPROP_SUPER
-GetPropSuper
-get_prop_super
 "
 getprop
 -
@@ -1728,8 +1556,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETELEM_SUPER
-GetElemSuper
-get_elem_super
 "
 getelem
 -
@@ -1752,8 +1578,6 @@ JOF_IC
 MACRO
 (
 JSOP_SETPROP_SUPER
-SetPropSuper
-set_prop_super
 "
 setprop
 -
@@ -1778,8 +1602,6 @@ JOF_CHECKSLOPPY
 MACRO
 (
 JSOP_STRICTSETPROP_SUPER
-StrictSetPropSuper
-strict_set_prop_super
 "
 strictsetprop
 -
@@ -1804,8 +1626,6 @@ JOF_CHECKSTRICT
 MACRO
 (
 JSOP_SETELEM_SUPER
-SetElemSuper
-set_elem_super
 "
 setelem
 -
@@ -1830,8 +1650,6 @@ JOF_CHECKSLOPPY
 MACRO
 (
 JSOP_STRICTSETELEM_SUPER
-StrictSetElemSuper
-strict_set_elem_super
 "
 strict
 -
@@ -1858,8 +1676,6 @@ JOF_CHECKSTRICT
 MACRO
 (
 JSOP_ITER
-Iter
-iter
 "
 iter
 "
@@ -1876,8 +1692,6 @@ JOF_IC
 MACRO
 (
 JSOP_MOREITER
-MoreIter
-more_iter
 "
 moreiter
 "
@@ -1892,8 +1706,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ISNOITER
-IsNoIter
-is_no_iter
 "
 isnoiter
 "
@@ -1908,8 +1720,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ITERNEXT
-IterNext
-iter_next
 "
 iternext
 "
@@ -1924,8 +1734,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ENDITER
-EndIter
-end_iter
 "
 enditer
 "
@@ -1940,8 +1748,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_CHECKISOBJ
-CheckIsObj
-check_is_obj
 "
 checkisobj
 "
@@ -1956,8 +1762,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_CHECKISCALLABLE
-CheckIsCallable
-check_is_callable
 "
 checkiscallable
 "
@@ -1972,8 +1776,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_CHECKOBJCOERCIBLE
-CheckObjCoercible
-check_obj_coercible
 "
 checkobjcoercible
 "
@@ -1988,8 +1790,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_TOASYNCITER
-ToAsyncIter
-to_async_iter
 "
 toasynciter
 "
@@ -2004,8 +1804,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_MUTATEPROTO
-MutateProto
-mutate_proto
 "
 mutateproto
 "
@@ -2020,8 +1818,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEWARRAY
-NewArray
-new_array
 "
 newarray
 "
@@ -2038,8 +1834,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITELEM_ARRAY
-InitElemArray
-init_elem_array
 "
 initelem_array
 "
@@ -2062,8 +1856,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITELEM_INC
-InitElemInc
-init_elem_inc
 "
 initelem_inc
 "
@@ -2084,8 +1876,6 @@ JOF_IC
 MACRO
 (
 JSOP_HOLE
-Hole
-hole
 "
 hole
 "
@@ -2100,8 +1890,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEWARRAY_COPYONWRITE
-NewArrayCopyOnWrite
-new_array_copy_on_write
 "
 newarray_copyonwrite
 "
@@ -2116,8 +1904,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_REGEXP
-RegExp
-reg_exp
 "
 regexp
 "
@@ -2132,8 +1918,6 @@ JOF_REGEXP
 MACRO
 (
 JSOP_LAMBDA
-Lambda
-lambda
 "
 lambda
 "
@@ -2148,8 +1932,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_LAMBDA_ARROW
-LambdaArrow
-lambda_arrow
 "
 lambda_arrow
 "
@@ -2164,8 +1946,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_SETFUNNAME
-SetFunName
-set_fun_name
 "
 setfunname
 "
@@ -2180,8 +1960,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_INITHOMEOBJECT
-InitHomeObject
-init_home_object
 "
 inithomeobject
 "
@@ -2196,8 +1974,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_CHECKCLASSHERITAGE
-CheckClassHeritage
-check_class_heritage
 "
 checkclassheritage
 "
@@ -2212,8 +1988,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_FUNWITHPROTO
-FunWithProto
-fun_with_proto
 "
 funwithproto
 "
@@ -2228,8 +2002,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_CLASSCONSTRUCTOR
-ClassConstructor
-class_constructor
 "
 classconstructor
 "
@@ -2244,8 +2016,6 @@ JOF_CLASS_CTOR
 MACRO
 (
 JSOP_DERIVEDCONSTRUCTOR
-DerivedConstructor
-derived_constructor
 "
 derivedconstructor
 "
@@ -2260,8 +2030,6 @@ JOF_CLASS_CTOR
 MACRO
 (
 JSOP_BUILTINPROTO
-BuiltinProto
-builtin_proto
 "
 builtinproto
 "
@@ -2276,8 +2044,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_CALL
-Call
-call
 "
 call
 "
@@ -2298,8 +2064,6 @@ JOF_IC
 MACRO
 (
 JSOP_CALLITER
-CallIter
-call_iter
 "
 calliter
 "
@@ -2320,8 +2084,6 @@ JOF_IC
 MACRO
 (
 JSOP_FUNAPPLY
-FunApply
-fun_apply
 "
 funapply
 "
@@ -2342,8 +2104,6 @@ JOF_IC
 MACRO
 (
 JSOP_FUNCALL
-FunCall
-fun_call
 "
 funcall
 "
@@ -2364,8 +2124,6 @@ JOF_IC
 MACRO
 (
 JSOP_CALL_IGNORES_RV
-CallIgnoresRv
-call_ignores_rv
 "
 call
 -
@@ -2391,8 +2149,6 @@ JOF_IC
 MACRO
 (
 JSOP_SPREADCALL
-SpreadCall
-spread_call
 "
 spreadcall
 "
@@ -2415,8 +2171,6 @@ JOF_IC
 MACRO
 (
 JSOP_OPTIMIZE_SPREADCALL
-OptimizeSpreadCall
-optimize_spread_call
 "
 optimize
 -
@@ -2433,8 +2187,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_EVAL
-Eval
-eval
 "
 eval
 "
@@ -2458,8 +2210,6 @@ JOF_IC
 MACRO
 (
 JSOP_SPREADEVAL
-SpreadEval
-spread_eval
 "
 spreadeval
 "
@@ -2484,8 +2234,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTEVAL
-StrictEval
-strict_eval
 "
 strict
 -
@@ -2511,8 +2259,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTSPREADEVAL
-StrictSpreadEval
-strict_spread_eval
 "
 strict
 -
@@ -2539,8 +2285,6 @@ JOF_IC
 MACRO
 (
 JSOP_IMPLICITTHIS
-ImplicitThis
-implicit_this
 "
 implicitthis
 "
@@ -2556,8 +2300,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_GIMPLICITTHIS
-GImplicitThis
-g_implicit_this
 "
 gimplicitthis
 "
@@ -2573,8 +2315,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_CALLSITEOBJ
-CallSiteObj
-call_site_obj
 "
 callsiteobj
 "
@@ -2589,8 +2329,6 @@ JOF_OBJECT
 MACRO
 (
 JSOP_IS_CONSTRUCTING
-IsConstructing
-is_constructing
 "
 is
 -
@@ -2607,8 +2345,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_NEW
-New
-new_
 "
 new
 "
@@ -2633,8 +2369,6 @@ JOF_IC
 MACRO
 (
 JSOP_SUPERCALL
-SuperCall
-super_call
 "
 supercall
 "
@@ -2658,8 +2392,6 @@ JOF_IC
 MACRO
 (
 JSOP_SPREADNEW
-SpreadNew
-spread_new
 "
 spreadnew
 "
@@ -2683,8 +2415,6 @@ JOF_IC
 MACRO
 (
 JSOP_SPREADSUPERCALL
-SpreadSuperCall
-spread_super_call
 "
 spreadsupercall
 "
@@ -2709,8 +2439,6 @@ JOF_IC
 MACRO
 (
 JSOP_SUPERFUN
-SuperFun
-super_fun
 "
 superfun
 "
@@ -2725,8 +2453,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_CHECKTHISREINIT
-CheckThisReinit
-check_this_reinit
 "
 checkthisreinit
 "
@@ -2741,8 +2467,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_GENERATOR
-Generator
-generator
 "
 generator
 "
@@ -2757,8 +2481,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INITIALYIELD
-InitialYield
-initial_yield
 "
 initialyield
 "
@@ -2773,8 +2495,6 @@ JOF_RESUMEINDEX
 MACRO
 (
 JSOP_AFTERYIELD
-AfterYield
-after_yield
 "
 afteryield
 "
@@ -2789,8 +2509,6 @@ JOF_ICINDEX
 MACRO
 (
 JSOP_FINALYIELDRVAL
-FinalYieldRval
-final_yield_rval
 "
 finalyieldrval
 "
@@ -2805,8 +2523,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_YIELD
-Yield
-yield
 "
 yield
 "
@@ -2821,8 +2537,6 @@ JOF_RESUMEINDEX
 MACRO
 (
 JSOP_ISGENCLOSING
-IsGenClosing
-is_gen_closing
 "
 isgenclosing
 "
@@ -2837,8 +2551,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ASYNCAWAIT
-AsyncAwait
-async_await
 "
 async
 -
@@ -2855,8 +2567,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ASYNCRESOLVE
-AsyncResolve
-async_resolve
 "
 async
 -
@@ -2873,8 +2583,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_AWAIT
-Await
-await
 "
 await
 "
@@ -2889,8 +2597,6 @@ JOF_RESUMEINDEX
 MACRO
 (
 JSOP_TRYSKIPAWAIT
-TrySkipAwait
-try_skip_await
 "
 tryskipawait
 "
@@ -2905,8 +2611,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RESUMEKIND
-ResumeKind
-resume_kind
 "
 resumekind
 "
@@ -2921,8 +2625,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_CHECK_RESUMEKIND
-CheckResumeKind
-check_resume_kind
 "
 check
 -
@@ -2939,8 +2641,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RESUME
-Resume
-resume
 "
 resume
 "
@@ -2957,8 +2657,6 @@ JOF_INVOKE
 MACRO
 (
 JSOP_JUMPTARGET
-JumpTarget
-jump_target
 "
 jumptarget
 "
@@ -2973,8 +2671,6 @@ JOF_ICINDEX
 MACRO
 (
 JSOP_LOOPHEAD
-LoopHead
-loop_head
 "
 loophead
 "
@@ -2989,8 +2685,6 @@ JOF_LOOPHEAD
 MACRO
 (
 JSOP_GOTO
-Goto
-goto_
 "
 goto
 "
@@ -3005,8 +2699,6 @@ JOF_JUMP
 MACRO
 (
 JSOP_IFEQ
-IfEq
-if_eq
 "
 ifeq
 "
@@ -3025,8 +2717,6 @@ JOF_IC
 MACRO
 (
 JSOP_IFNE
-IfNe
-if_ne
 "
 ifne
 "
@@ -3043,8 +2733,6 @@ JOF_IC
 MACRO
 (
 JSOP_AND
-And
-and_
 "
 and
 "
@@ -3063,8 +2751,6 @@ JOF_IC
 MACRO
 (
 JSOP_OR
-Or
-or_
 "
 or
 "
@@ -3083,8 +2769,6 @@ JOF_IC
 MACRO
 (
 JSOP_COALESCE
-Coalesce
-coalesce
 "
 coalesce
 "
@@ -3101,8 +2785,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_CASE
-Case
-case_
 "
 case
 "
@@ -3117,8 +2799,6 @@ JOF_JUMP
 MACRO
 (
 JSOP_DEFAULT
-Default
-default_
 "
 default
 "
@@ -3133,8 +2813,6 @@ JOF_JUMP
 MACRO
 (
 JSOP_TABLESWITCH
-TableSwitch
-table_switch
 "
 tableswitch
 "
@@ -3151,8 +2829,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_RETURN
-Return
-return_
 "
 return
 "
@@ -3167,8 +2843,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_GETRVAL
-GetRval
-get_rval
 "
 getrval
 "
@@ -3183,8 +2857,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_SETRVAL
-SetRval
-set_rval
 "
 setrval
 "
@@ -3199,8 +2871,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RETRVAL
-RetRval
-ret_rval
 "
 retrval
 "
@@ -3215,8 +2885,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_CHECKRETURN
-CheckReturn
-check_return
 "
 checkreturn
 "
@@ -3231,8 +2899,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_THROW
-Throw
-throw_
 js_throw_str
 NULL
 1
@@ -3245,8 +2911,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_THROWMSG
-ThrowMsg
-throw_msg
 "
 throwmsg
 "
@@ -3261,8 +2925,6 @@ JOF_UINT16
 MACRO
 (
 JSOP_THROWSETALIASEDCONST
-ThrowSetAliasedConst
-throw_set_aliased_const
 "
 throwsetaliasedconst
 "
@@ -3281,8 +2943,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_THROWSETCALLEE
-ThrowSetCallee
-throw_set_callee
 "
 throwsetcallee
 "
@@ -3297,8 +2957,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_THROWSETCONST
-ThrowSetConst
-throw_set_const
 "
 throwsetconst
 "
@@ -3317,8 +2975,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_TRY
-Try
-try_
 "
 try
 "
@@ -3333,8 +2989,6 @@ JOF_CODE_OFFSET
 MACRO
 (
 JSOP_TRY_DESTRUCTURING
-TryDestructuring
-try_destructuring
 "
 try
 -
@@ -3351,8 +3005,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_EXCEPTION
-Exception
-exception
 "
 exception
 "
@@ -3367,8 +3019,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RESUMEINDEX
-ResumeIndex
-resume_index
 "
 resume
 -
@@ -3385,8 +3035,6 @@ JOF_RESUMEINDEX
 MACRO
 (
 JSOP_GOSUB
-Gosub
-gosub
 "
 gosub
 "
@@ -3401,8 +3049,6 @@ JOF_JUMP
 MACRO
 (
 JSOP_FINALLY
-Finally
-finally
 "
 finally
 "
@@ -3417,8 +3063,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RETSUB
-Retsub
-retsub
 "
 retsub
 "
@@ -3433,8 +3077,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_UNINITIALIZED
-Uninitialized
-uninitialized
 "
 uninitialized
 "
@@ -3449,8 +3091,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INITLEXICAL
-InitLexical
-init_lexical
 "
 initlexical
 "
@@ -3469,8 +3109,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_INITGLEXICAL
-InitGLexical
-init_g_lexical
 "
 initglexical
 "
@@ -3493,8 +3131,6 @@ JOF_IC
 MACRO
 (
 JSOP_INITALIASEDLEXICAL
-InitAliasedLexical
-init_aliased_lexical
 "
 initaliasedlexical
 "
@@ -3515,8 +3151,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_CHECKLEXICAL
-CheckLexical
-check_lexical
 "
 checklexical
 "
@@ -3533,8 +3167,6 @@ JOF_NAME
 MACRO
 (
 JSOP_CHECKALIASEDLEXICAL
-CheckAliasedLexical
-check_aliased_lexical
 "
 checkaliasedlexical
 "
@@ -3551,8 +3183,6 @@ JOF_NAME
 MACRO
 (
 JSOP_CHECKTHIS
-CheckThis
-check_this
 "
 checkthis
 "
@@ -3567,8 +3197,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_BINDGNAME
-BindGName
-bind_g_name
 "
 bindgname
 "
@@ -3589,8 +3217,6 @@ JOF_IC
 MACRO
 (
 JSOP_BINDNAME
-BindName
-bind_name
 "
 bindname
 "
@@ -3609,8 +3235,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETNAME
-GetName
-get_name
 "
 getname
 "
@@ -3631,8 +3255,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETGNAME
-GetGName
-get_g_name
 "
 getgname
 "
@@ -3655,8 +3277,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETARG
-GetArg
-get_arg
 "
 getarg
 "
@@ -3673,8 +3293,6 @@ JOF_NAME
 MACRO
 (
 JSOP_GETLOCAL
-GetLocal
-get_local
 "
 getlocal
 "
@@ -3691,8 +3309,6 @@ JOF_NAME
 MACRO
 (
 JSOP_GETALIASEDVAR
-GetAliasedVar
-get_aliased_var
 "
 getaliasedvar
 "
@@ -3713,8 +3329,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETIMPORT
-GetImport
-get_import
 "
 getimport
 "
@@ -3735,8 +3349,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETBOUNDNAME
-GetBoundName
-get_bound_name
 "
 getboundname
 "
@@ -3757,8 +3369,6 @@ JOF_IC
 MACRO
 (
 JSOP_GETINTRINSIC
-GetIntrinsic
-get_intrinsic
 "
 getintrinsic
 "
@@ -3779,8 +3389,6 @@ JOF_IC
 MACRO
 (
 JSOP_CALLEE
-Callee
-callee
 "
 callee
 "
@@ -3795,8 +3403,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ENVCALLEE
-EnvCallee
-env_callee
 "
 envcallee
 "
@@ -3811,8 +3417,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_SETNAME
-SetName
-set_name
 "
 setname
 "
@@ -3837,8 +3441,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTSETNAME
-StrictSetName
-strict_set_name
 "
 strict
 -
@@ -3865,8 +3467,6 @@ JOF_IC
 MACRO
 (
 JSOP_SETGNAME
-SetGName
-set_g_name
 "
 setgname
 "
@@ -3893,8 +3493,6 @@ JOF_IC
 MACRO
 (
 JSOP_STRICTSETGNAME
-StrictSetGName
-strict_set_g_name
 "
 strict
 -
@@ -3923,8 +3521,6 @@ JOF_IC
 MACRO
 (
 JSOP_SETARG
-SetArg
-set_arg
 "
 setarg
 "
@@ -3941,8 +3537,6 @@ JOF_NAME
 MACRO
 (
 JSOP_SETLOCAL
-SetLocal
-set_local
 "
 setlocal
 "
@@ -3961,8 +3555,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_SETALIASEDVAR
-SetAliasedVar
-set_aliased_var
 "
 setaliasedvar
 "
@@ -3983,8 +3575,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_SETINTRINSIC
-SetIntrinsic
-set_intrinsic
 "
 setintrinsic
 "
@@ -4003,8 +3593,6 @@ JOF_DETECTING
 MACRO
 (
 JSOP_PUSHLEXICALENV
-PushLexicalEnv
-push_lexical_env
 "
 pushlexicalenv
 "
@@ -4019,8 +3607,6 @@ JOF_SCOPE
 MACRO
 (
 JSOP_POPLEXICALENV
-PopLexicalEnv
-pop_lexical_env
 "
 poplexicalenv
 "
@@ -4035,8 +3621,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DEBUGLEAVELEXICALENV
-DebugLeaveLexicalEnv
-debug_leave_lexical_env
 "
 debugleavelexicalenv
 "
@@ -4051,8 +3635,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_RECREATELEXICALENV
-RecreateLexicalEnv
-recreate_lexical_env
 "
 recreatelexicalenv
 "
@@ -4067,8 +3649,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_FRESHENLEXICALENV
-FreshenLexicalEnv
-freshen_lexical_env
 "
 freshenlexicalenv
 "
@@ -4083,8 +3663,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_PUSHVARENV
-PushVarEnv
-push_var_env
 "
 pushvarenv
 "
@@ -4099,8 +3677,6 @@ JOF_SCOPE
 MACRO
 (
 JSOP_POPVARENV
-PopVarEnv
-pop_var_env
 "
 popvarenv
 "
@@ -4115,8 +3691,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_ENTERWITH
-EnterWith
-enter_with
 "
 enterwith
 "
@@ -4131,8 +3705,6 @@ JOF_SCOPE
 MACRO
 (
 JSOP_LEAVEWITH
-LeaveWith
-leave_with
 "
 leavewith
 "
@@ -4147,8 +3719,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_BINDVAR
-BindVar
-bind_var
 "
 bindvar
 "
@@ -4163,8 +3733,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DEFVAR
-DefVar
-def_var
 "
 defvar
 "
@@ -4179,8 +3747,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_DEFFUN
-DefFun
-def_fun
 "
 deffun
 "
@@ -4195,8 +3761,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DEFLET
-DefLet
-def_let
 "
 deflet
 "
@@ -4211,8 +3775,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_DEFCONST
-DefConst
-def_const
 "
 defconst
 "
@@ -4227,8 +3789,6 @@ JOF_ATOM
 MACRO
 (
 JSOP_DELNAME
-DelName
-del_name
 "
 delname
 "
@@ -4247,8 +3807,6 @@ JOF_CHECKSLOPPY
 MACRO
 (
 JSOP_ARGUMENTS
-Arguments
-arguments
 "
 arguments
 "
@@ -4263,8 +3821,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_REST
-Rest
-rest
 "
 rest
 "
@@ -4283,8 +3839,6 @@ JOF_IC
 MACRO
 (
 JSOP_FUNCTIONTHIS
-FunctionThis
-function_this
 "
 functionthis
 "
@@ -4299,8 +3853,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_POP
-Pop
-pop
 "
 pop
 "
@@ -4315,8 +3867,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_POPN
-PopN
-pop_n
 "
 popn
 "
@@ -4332,8 +3882,6 @@ JOF_UINT16
 MACRO
 (
 JSOP_DUP
-Dup
-dup
 "
 dup
 "
@@ -4348,8 +3896,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DUP2
-Dup2
-dup2
 "
 dup2
 "
@@ -4364,8 +3910,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DUPAT
-DupAt
-dup_at
 "
 dupat
 "
@@ -4380,8 +3924,6 @@ JOF_UINT24
 MACRO
 (
 JSOP_SWAP
-Swap
-swap
 "
 swap
 "
@@ -4396,8 +3938,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_PICK
-Pick
-pick
 "
 pick
 "
@@ -4412,8 +3952,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_UNPICK
-Unpick
-unpick
 "
 unpick
 "
@@ -4428,8 +3966,6 @@ JOF_UINT8
 MACRO
 (
 JSOP_NOP
-Nop
-nop
 "
 nop
 "
@@ -4444,8 +3980,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_LINENO
-Lineno
-lineno
 "
 lineno
 "
@@ -4460,8 +3994,6 @@ JOF_UINT32
 MACRO
 (
 JSOP_NOP_DESTRUCTURING
-NopDestructuring
-nop_destructuring
 "
 nop
 -
@@ -4478,8 +4010,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_FORCEINTERPRETER
-ForceInterpreter
-force_interpreter
 "
 forceinterpreter
 "
@@ -4494,8 +4024,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DEBUGCHECKSELFHOSTED
-DebugCheckSelfHosted
-debug_check_self_hosted
 "
 debug
 -
@@ -4512,8 +4040,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INSTRUMENTATION_ACTIVE
-InstrumentationActive
-instrumentation_active
 "
 instrumentationActive
 "
@@ -4528,8 +4054,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INSTRUMENTATION_CALLBACK
-InstrumentationCallback
-instrumentation_callback
 "
 instrumentationCallback
 "
@@ -4544,8 +4068,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_INSTRUMENTATION_SCRIPT_ID
-InstrumentationScriptId
-instrumentation_script_id
 "
 instrumentationScriptId
 "
@@ -4560,8 +4082,6 @@ JOF_BYTE
 MACRO
 (
 JSOP_DEBUGGER
-Debugger
-debugger
 "
 debugger
 "
@@ -4671,19 +4191,6 @@ PLUS_ONE
 \
 +
 1
-constexpr
-int
-JSOP_LIMIT
-=
-0
-FOR_EACH_OPCODE
-(
-PLUS_ONE
-)
-;
-#
-undef
-PLUS_ONE
 #
 define
 TRAILING_VALUE_AND_VALUE_PLUS_ONE
@@ -4704,7 +4211,11 @@ val
 static_assert
 (
 (
-JSOP_LIMIT
+0
+FOR_EACH_OPCODE
+(
+PLUS_ONE
+)
 =
 =
 FOR_EACH_TRAILING_UNUSED_OPCODE
@@ -4733,12 +4244,13 @@ to
 undef
 TRAILING_VALUE_AND_VALUE_PLUS_ONE
 #
+undef
+PLUS_ONE
+#
 define
 DEFINE_LENGTH_CONSTANT
 (
 op
-op_camel
-op_snake
 name
 image
 len

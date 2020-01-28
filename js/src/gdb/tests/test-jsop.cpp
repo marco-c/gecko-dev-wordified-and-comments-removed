@@ -32,6 +32,11 @@ debugger
 =
 JSOP_DEBUGGER
 ;
+JSOp
+limit
+=
+JSOP_LIMIT
+;
 breakpoint
 (
 )
@@ -44,6 +49,11 @@ undefined
 use
 (
 debugger
+)
+;
+use
+(
+limit
 )
 ;
 }

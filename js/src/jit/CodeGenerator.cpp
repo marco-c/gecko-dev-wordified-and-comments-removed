@@ -44730,7 +44730,7 @@ u
 u
 "
 CodeName
-(
+[
 JSOp
 (
 *
@@ -44741,7 +44741,7 @@ pc
 (
 )
 )
-)
+]
 site
 -
 >
@@ -80939,9 +80939,11 @@ LhsInput
 )
 )
 ;
-uint8_t
+JSOp
 op
 =
+JSOp
+(
 *
 lir
 -
@@ -80958,6 +80960,7 @@ resumePoint
 >
 pc
 (
+)
 )
 ;
 pushArg
