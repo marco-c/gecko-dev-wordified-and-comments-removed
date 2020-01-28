@@ -210,11 +210,6 @@ CallbackObject
 h
 '
 '
-Date
-.
-h
-'
-'
 DOMJSClass
 .
 h
@@ -624,11 +619,6 @@ cpp
 '
 '
 CallbackObject
-.
-cpp
-'
-'
-Date
 .
 cpp
 '

@@ -79,17 +79,6 @@ mozilla
 /
 dom
 /
-Date
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 Promise
 .
 h

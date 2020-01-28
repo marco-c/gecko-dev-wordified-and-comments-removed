@@ -1135,6 +1135,17 @@ index
 "
 )
     
+#
+Now
+let
+'
+s
+test
+our
+whole
+distinguishability
+table
+    
 argTypes
 =
 [
@@ -1264,16 +1275,8 @@ long
 "
                  
 "
-Date
-"
-"
-Date
-?
-"
-"
 any
 "
-                 
 "
 Promise
 <
@@ -1324,6 +1327,19 @@ Dict
 "
     
 ]
+    
+#
+Try
+to
+categorize
+things
+a
+bit
+to
+keep
+list
+lengths
+down
     
 def
 allBut
@@ -1602,18 +1618,6 @@ Callback
 )
 )
     
-dates
-=
-[
-"
-Date
-"
-"
-Date
-?
-"
-]
-    
 sequences
 =
 [
@@ -1636,8 +1640,6 @@ nonUserObjects
 nonObjects
 +
 interfaces
-+
-dates
 +
 sequences
     
@@ -1668,8 +1670,6 @@ UnrelatedInterface
 +
                             
 otherObjects
-+
-dates
 +
 sequences
 +
@@ -1709,6 +1709,36 @@ long
 >
 "
 ]
+#
+JSString
+not
+supported
+in
+records
+    
+#
+Build
+a
+representation
+of
+the
+distinguishability
+table
+as
+a
+dict
+    
+#
+of
+dicts
+holding
+True
+values
+where
+needed
+holes
+elsewhere
+.
     
 data
 =
@@ -2069,6 +2099,13 @@ Dict
 nonUserObjects
 )
     
+#
+JSString
+not
+supported
+in
+records
+    
 setDistinguishable
 (
 "
@@ -2091,45 +2128,6 @@ long
 >
 "
 nonUserObjects
-)
-    
-setDistinguishable
-(
-"
-Date
-"
-allBut
-(
-argTypes
-dates
-+
-[
-"
-object
-"
-]
-)
-)
-    
-setDistinguishable
-(
-"
-Date
-?
-"
-allBut
-(
-argTypes
-dates
-+
-nullables
-+
-[
-"
-object
-"
-]
-)
 )
     
 setDistinguishable
@@ -2609,6 +2607,27 @@ type1
 type2
 )
 )
+    
+#
+Enumerate
+over
+everything
+in
+both
+orders
+since
+order
+matters
+in
+    
+#
+terms
+of
+our
+implementation
+of
+distinguishability
+checks
     
 for
 type1
