@@ -606,6 +606,7 @@ line
 .
 split
 (
+b
 '
 =
 '
