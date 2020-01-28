@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 CompositionTransaction
 .
@@ -32,11 +37,6 @@ Selection
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

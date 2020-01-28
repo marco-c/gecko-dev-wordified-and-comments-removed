@@ -13,6 +13,11 @@ h
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -38,11 +43,6 @@ Monitor
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "
@@ -116,7 +116,7 @@ h
 #
 include
 "
-nsTArray
+nsIAndroidBridge
 .
 h
 "
@@ -130,7 +130,7 @@ h
 #
 include
 "
-nsIAndroidBridge
+nsTArray
 .
 h
 "

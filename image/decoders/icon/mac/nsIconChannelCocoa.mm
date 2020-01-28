@@ -133,6 +133,13 @@ h
 #
 include
 "
+nsIInputStream
+.
+h
+"
+#
+include
+"
 nsIInterfaceRequestor
 .
 h

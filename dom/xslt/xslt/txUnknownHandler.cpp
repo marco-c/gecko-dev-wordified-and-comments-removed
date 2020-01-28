@@ -13,6 +13,13 @@ utility
 #
 include
 "
+nsGkAtoms
+.
+h
+"
+#
+include
+"
 txExecutionState
 .
 h
@@ -28,13 +35,6 @@ h
 include
 "
 txStylesheet
-.
-h
-"
-#
-include
-"
-nsGkAtoms
 .
 h
 "

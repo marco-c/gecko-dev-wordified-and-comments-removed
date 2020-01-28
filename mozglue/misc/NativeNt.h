@@ -39,6 +39,11 @@ algorithm
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -82,11 +87,6 @@ Maybe
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

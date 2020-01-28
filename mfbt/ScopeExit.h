@@ -6,6 +6,11 @@ define
 mozilla_ScopeExit_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -22,11 +27,6 @@ GuardObjects
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

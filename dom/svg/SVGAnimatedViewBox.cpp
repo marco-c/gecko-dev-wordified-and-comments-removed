@@ -29,6 +29,13 @@ utility
 #
 include
 "
+SVGViewBoxSMILType
+.
+h
+"
+#
+include
+"
 mozilla
 /
 SMILValue
@@ -59,13 +66,6 @@ h
 include
 "
 nsCharSeparatedTokenizer
-.
-h
-"
-#
-include
-"
-SVGViewBoxSMILType
 .
 h
 "

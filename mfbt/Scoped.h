@@ -6,6 +6,11 @@ define
 mozilla_Scoped_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -31,11 +36,6 @@ GuardObjects
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

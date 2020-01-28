@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+utility
+>
+#
+include
 "
 LayersLogging
 .
@@ -30,11 +35,6 @@ IPCMessageUtils
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

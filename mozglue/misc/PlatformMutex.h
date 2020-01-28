@@ -6,6 +6,11 @@ define
 mozilla_PlatformMutex_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -22,11 +27,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

@@ -6,6 +6,11 @@ define
 mozilla_UniquePtr_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -31,11 +36,6 @@ Compiler
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

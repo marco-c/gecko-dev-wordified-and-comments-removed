@@ -6,6 +6,11 @@ define
 nsCertOverrideService_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -13,11 +18,6 @@ HashFunctions
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

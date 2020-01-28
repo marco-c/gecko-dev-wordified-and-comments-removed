@@ -7,6 +7,13 @@ __SECURITY_SANDBOX_SANDBOXTARGET_H__
 #
 include
 <
+windows
+.
+h
+>
+#
+include
+<
 functional
 >
 #
@@ -17,9 +24,7 @@ list
 #
 include
 <
-windows
-.
-h
+utility
 >
 #
 include
@@ -30,11 +35,6 @@ Assertions
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 sandbox
 {

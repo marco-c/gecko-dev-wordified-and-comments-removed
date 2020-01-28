@@ -41,11 +41,6 @@ h
 "
 #
 include
-<
-utility
->
-#
-include
 "
 mozilla
 /
@@ -58,7 +53,7 @@ include
 "
 mozilla
 /
-Types
+TypeTraits
 .
 h
 "
@@ -67,7 +62,7 @@ include
 "
 mozilla
 /
-TypeTraits
+Types
 .
 h
 "

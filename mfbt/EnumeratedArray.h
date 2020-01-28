@@ -6,6 +6,11 @@ define
 mozilla_EnumeratedArray_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -13,11 +18,6 @@ Array
 .
 h
 "
-#
-include
-<
-utility
->
 namespace
 mozilla
 {

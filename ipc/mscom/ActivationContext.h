@@ -6,6 +6,11 @@ define
 mozilla_mscom_ActivationContext_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -13,11 +18,6 @@ Attributes
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

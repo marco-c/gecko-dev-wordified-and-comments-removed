@@ -6,6 +6,11 @@ define
 mozilla_mscom_COMPtrHolder_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -31,11 +36,6 @@ DebugOnly
 .
 h
 "
-#
-include
-<
-utility
->
 #
 include
 "

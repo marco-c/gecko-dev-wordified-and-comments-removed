@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsStringFwd
+.
+h
+"
+#
+include
+"
 prio
 .
 h
