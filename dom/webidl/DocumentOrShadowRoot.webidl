@@ -451,7 +451,7 @@ details
 Pure
 Cached
 Frozen
-Throws
+SetterThrows
 Pref
 =
 "

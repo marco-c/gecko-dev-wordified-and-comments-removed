@@ -3432,9 +3432,6 @@ StyleSheet
 >
 &
 aAdoptedStyleSheets
-ErrorResult
-&
-aRv
 )
 const
 {
