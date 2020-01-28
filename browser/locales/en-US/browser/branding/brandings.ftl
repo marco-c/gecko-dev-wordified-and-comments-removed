@@ -162,3 +162,12 @@ name
 =
 Firefox
 Send
+-
+screenshots
+-
+brand
+-
+name
+=
+Firefox
+Screenshots
