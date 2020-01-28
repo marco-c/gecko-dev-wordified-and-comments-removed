@@ -27,28 +27,6 @@ os
 getcwd
 (
 )
-TOOLTOOL_MANIFEST_PATH
-=
-"
-config
-/
-tooltool
--
-manifests
-/
-macosx64
-/
-releng
-.
-manifest
-"
-MINIDUMP_STACKWALK_PATH
-=
-"
-macosx64
--
-minidump_stackwalk
-"
 ABS_WORK_DIR
 =
 os
@@ -187,18 +165,6 @@ tests
 "
     
 ]
-    
-"
-minidump_stackwalk_path
-"
-:
-MINIDUMP_STACKWALK_PATH
-    
-"
-minidump_tooltool_manifest_path
-"
-:
-TOOLTOOL_MANIFEST_PATH
     
 "
 tooltool_cache
