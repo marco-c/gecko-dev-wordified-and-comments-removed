@@ -15,17 +15,6 @@ ReportBody
 .
 h
 "
-#
-include
-"
-mozilla
-/
-dom
-/
-Date
-.
-h
-"
 namespace
 mozilla
 {
@@ -53,7 +42,7 @@ aId
 const
 Nullable
 <
-Date
+uint64_t
 >
 &
 aDate
@@ -111,7 +100,7 @@ const
 ;
 Nullable
 <
-Date
+uint64_t
 >
 GetAnticipatedRemoval
 (
@@ -180,7 +169,7 @@ mId
 const
 Nullable
 <
-Date
+uint64_t
 >
 mDate
 ;

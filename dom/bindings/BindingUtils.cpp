@@ -20553,12 +20553,7 @@ DeprecationReportBody
 (
 aWindow
 type
-Nullable
-<
-Date
->
-(
-)
+nullptr
 msg
 aFileName
 aLineNumber
