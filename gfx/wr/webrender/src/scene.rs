@@ -1231,6 +1231,9 @@ CompositorKind
 default
 (
 )
+tile_size_override
+:
+None
 }
 }
 }

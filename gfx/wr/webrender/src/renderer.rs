@@ -12561,6 +12561,9 @@ options
 .
 clear_color
 compositor_kind
+tile_size_override
+:
+None
 }
 ;
 info
@@ -13315,6 +13318,9 @@ global_enable_picture_caching
 {
 tile_cache_sizes
 (
+config
+.
+testing
 )
 }
 else
@@ -16691,6 +16697,14 @@ DebugCommand
 :
 :
 SetTransactionLogging
+(
+_
+)
+|
+DebugCommand
+:
+:
+SetPictureTileSize
 (
 _
 )

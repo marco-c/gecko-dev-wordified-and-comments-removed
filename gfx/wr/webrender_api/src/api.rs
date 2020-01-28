@@ -3548,6 +3548,13 @@ SetTransactionLogging
 (
 bool
 )
+SetPictureTileSize
+(
+Option
+<
+DeviceIntSize
+>
+)
 }
 #
 [
