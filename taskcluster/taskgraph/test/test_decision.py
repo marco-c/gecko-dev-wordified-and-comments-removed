@@ -47,6 +47,12 @@ dir
 '
 browser
 '
+'
+taskgraph
+'
+:
+{
+}
 }
 class
 TestDecision
