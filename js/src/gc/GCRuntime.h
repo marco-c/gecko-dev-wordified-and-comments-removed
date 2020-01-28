@@ -3759,6 +3759,10 @@ sweepFinalizationGroups
 Zone
 *
 zone
+bool
+isShuttingDown
+=
+false
 )
 ;
 void
