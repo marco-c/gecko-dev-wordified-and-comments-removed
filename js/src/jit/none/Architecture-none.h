@@ -533,6 +533,17 @@ MOZ_CRASH
 )
 ;
 }
+bool
+isInvalid
+(
+)
+const
+{
+MOZ_CRASH
+(
+)
+;
+}
 FloatRegister
 asSingle
 (
