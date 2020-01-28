@@ -373,16 +373,6 @@ MOZ_MUST_USE
 bool
 createScriptSource
 (
-const
-mozilla
-:
-:
-Maybe
-<
-uint32_t
->
-&
-parameterListEnd
 )
 ;
 MOZ_MUST_USE

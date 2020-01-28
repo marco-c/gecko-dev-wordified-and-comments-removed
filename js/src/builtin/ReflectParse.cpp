@@ -21285,12 +21285,6 @@ CreateScriptSourceObject
 (
 cx
 options
-mozilla
-:
-:
-Nothing
-(
-)
 )
 )
 ;

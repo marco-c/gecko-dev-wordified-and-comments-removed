@@ -31780,9 +31780,6 @@ CreateScriptSourceObject
 (
 cx
 options
-Nothing
-(
-)
 )
 )
 ;
@@ -32317,9 +32314,6 @@ CreateScriptSourceObject
 (
 cx
 options
-Nothing
-(
-)
 )
 )
 ;
@@ -32747,9 +32741,6 @@ CreateScriptSourceObject
 (
 cx
 options
-Nothing
-(
-)
 )
 )
 ;

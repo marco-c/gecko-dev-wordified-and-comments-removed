@@ -314,12 +314,6 @@ CreateScriptSourceObject
 (
 gCx
 options
-mozilla
-:
-:
-Nothing
-(
-)
 )
 )
 ;
