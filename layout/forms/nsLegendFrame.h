@@ -102,7 +102,10 @@ override
 ;
 #
 endif
-int32_t
+HTMLLegendElement
+:
+:
+LegendAlignValue
 GetLogicalAlign
 (
 mozilla
