@@ -3504,6 +3504,10 @@ aEventTarget
 mozilla
 :
 :
+eEditorInput
+mozilla
+:
+:
 EditorInputType
 :
 :
@@ -3585,6 +3589,11 @@ aEventTarget
 mozilla
 :
 :
+EventMessage
+aEventMessage
+mozilla
+:
+:
 EditorInputType
 aEditorInputType
 mozilla
@@ -3597,6 +3606,11 @@ const
 InputEventOptions
 &
 aOptions
+nsEventStatus
+*
+aEventStatus
+=
+nullptr
 )
 ;
 static

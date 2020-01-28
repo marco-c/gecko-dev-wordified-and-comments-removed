@@ -1039,6 +1039,10 @@ eEditorInput
 )
 NS_EVENT_MESSAGE
 (
+eEditorBeforeInput
+)
+NS_EVENT_MESSAGE
+(
 eSelectStart
 )
 NS_EVENT_MESSAGE

@@ -526,6 +526,13 @@ eBasicEventClass
 )
 EVENT
 (
+beforeinput
+eEditorBeforeInput
+EventNameType_HTMLXUL
+eEditorInputEventClass
+)
+EVENT
+(
 input
 eEditorInput
 EventNameType_HTMLXUL

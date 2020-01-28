@@ -12446,6 +12446,7 @@ GetTextControlElement
 (
 )
 )
+eEditorInput
 EditorInputType
 :
 :
