@@ -1130,6 +1130,13 @@ ClearAllCaches
 )
 ;
 void
+EnableNativeCompositor
+(
+bool
+aEnable
+)
+;
+void
 Pause
 (
 )
