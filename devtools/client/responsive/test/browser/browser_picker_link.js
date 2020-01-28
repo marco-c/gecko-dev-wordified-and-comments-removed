@@ -263,7 +263,6 @@ element
 )
 ;
 }
-true
 )
 ;
 async

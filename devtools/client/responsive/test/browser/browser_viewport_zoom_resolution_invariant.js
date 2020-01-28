@@ -491,7 +491,6 @@ resolution
 ;
 }
 }
-true
 )
 ;
 }
