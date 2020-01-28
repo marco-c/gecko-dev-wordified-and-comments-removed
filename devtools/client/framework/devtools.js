@@ -2345,7 +2345,7 @@ nodeFront
 await
 inspector
 .
-inspectorFront
+walker
 .
 getNodeActorFromContentDomReference
 (
@@ -2444,6 +2444,8 @@ nodeFront
 =
 await
 inspectorFront
+.
+walker
 .
 getNodeActorFromContentDomReference
 (
