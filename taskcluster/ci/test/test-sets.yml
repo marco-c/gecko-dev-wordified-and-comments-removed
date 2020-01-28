@@ -155,8 +155,6 @@ marionette
 -
 mochitest
 -
-mochitest
--
 browser
 -
 chrome
@@ -2442,8 +2440,6 @@ marionette
 -
 mochitest
 -
-mochitest
--
 browser
 -
 chrome
@@ -2500,6 +2496,8 @@ gtest
 jsreftest
 -
 jittest
+-
+mochitest
 -
 mochitest
 -
@@ -2601,6 +2599,8 @@ jsreftest
 -
 mochitest
 -
+mochitest
+-
 a11y
 -
 mochitest
@@ -2674,6 +2674,8 @@ gtest
 jittest
 -
 jsreftest
+-
+mochitest
 -
 mochitest
 -
@@ -2762,8 +2764,6 @@ qr
 -
 tests
 :
--
-mochitest
 -
 mochitest
 -
