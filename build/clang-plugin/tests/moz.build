@@ -257,6 +257,11 @@ TestNoRefcountedInsideLambdas
 cpp
 '
 '
+TestNoUsingNamespaceMozillaJava
+.
+cpp
+'
+'
 TestOverrideBaseCall
 .
 cpp

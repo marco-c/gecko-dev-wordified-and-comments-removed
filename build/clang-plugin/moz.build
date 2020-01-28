@@ -224,6 +224,11 @@ NonParamInsideFunctionDeclChecker
 cpp
 '
 '
+NoUsingNamespaceMozillaJavaChecker
+.
+cpp
+'
+'
 OverrideBaseCallChecker
 .
 cpp
