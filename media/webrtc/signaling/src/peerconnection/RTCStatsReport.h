@@ -146,7 +146,7 @@ mRandomTimelineSeed
 0
 ;
 DOMHighResTimeStamp
-mStartWallClockRaw
+mStartWallClock
 =
 (
 double
