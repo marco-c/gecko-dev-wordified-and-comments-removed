@@ -1015,7 +1015,6 @@ profile
 generate
 '
 c_compiler
-rustc_info
 )
 def
 moz_pgo_rust
@@ -1024,7 +1023,6 @@ pgo
 profile_use
 profile_generate
 c_compiler
-rustc
 )
 :
 if
