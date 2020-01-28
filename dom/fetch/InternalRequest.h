@@ -1516,9 +1516,10 @@ MOZ_INIT_OUTSIDE_CTOR
 bool
 mSameOriginDataURL
 ;
-MOZ_INIT_OUTSIDE_CTOR
 bool
 mSkipServiceWorker
+=
+false
 ;
 bool
 mSynchronous

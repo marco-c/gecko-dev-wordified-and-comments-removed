@@ -543,10 +543,6 @@ mSameOriginDataURL
 (
 true
 )
-mSkipServiceWorker
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -670,10 +666,6 @@ false
 mSameOriginDataURL
 (
 true
-)
-mSkipServiceWorker
-(
-false
 )
 {
 MOZ_ASSERT
