@@ -3340,17 +3340,6 @@ GetContentBlockingEvents
 (
 )
 ;
-ContentBlockingLog
-*
-GetContentBlockingLog
-(
-)
-{
-return
-&
-mContentBlockingLog
-;
-}
 bool
 GetHasTrackingContentBlocked
 (
