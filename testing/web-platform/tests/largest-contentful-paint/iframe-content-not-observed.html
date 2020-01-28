@@ -86,16 +86,11 @@ t
 =
 >
 {
-if
+assert_precondition
 (
-!
 window
 .
 LargestContentfulPaint
-)
-{
-assert_unreached
-(
 "
 LargestContentfulPaint
 is
@@ -104,7 +99,6 @@ implemented
 "
 )
 ;
-}
 const
 observer
 =

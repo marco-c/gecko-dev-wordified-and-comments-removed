@@ -113,16 +113,11 @@ function
 t
 )
 {
-if
+assert_precondition
 (
-!
 window
 .
 PerformanceElementTiming
-)
-{
-assert_unreached
-(
 "
 PerformanceElementTiming
 is
@@ -131,7 +126,6 @@ implemented
 "
 )
 ;
-}
 const
 observer
 =
