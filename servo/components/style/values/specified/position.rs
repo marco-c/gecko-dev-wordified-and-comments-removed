@@ -1893,16 +1893,10 @@ unclamped_length
 ComputedLengthPercentage
 :
 :
-with_clamping_mode
+new_calc
 (
 l
-Some
-(
 p
-)
-length
-.
-clamping_mode
 )
 }
 PositionComponent
