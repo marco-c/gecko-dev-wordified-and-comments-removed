@@ -408,6 +408,14 @@ hasrtldomain
 "
 )
 ;
+this
+.
+inputField
+.
+scrollLeft
+=
+0
+;
 }
 }
 )
