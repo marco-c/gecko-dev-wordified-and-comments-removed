@@ -1,6 +1,15 @@
 import
 os
 from
+collections
+import
+deque
+from
+six
+import
+string_types
+text_type
+from
 six
 .
 moves
@@ -10,14 +19,6 @@ urllib
 parse
 import
 urljoin
-from
-collections
-import
-deque
-from
-six
-import
-text_type
 from
 .
 wptmanifest
@@ -239,7 +240,7 @@ if
 isinstance
 (
 list_prop
-basestring
+string_types
 )
 :
             
