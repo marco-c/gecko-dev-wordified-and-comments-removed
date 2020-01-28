@@ -190,7 +190,7 @@ badge
 "
 :
 "
-value
+text
 =
 badge
 style
@@ -361,6 +361,8 @@ icon
 /
 >
 <
+html
+:
 label
 class
 =
@@ -368,11 +370,6 @@ class
 toolbarbutton
 -
 badge
-"
-crop
-=
-"
-none
 "
 /
 >

@@ -3255,7 +3255,7 @@ is
 (
 badge
 .
-value
+textContent
 "
 hi
 "
@@ -3326,7 +3326,7 @@ is
 (
 badge
 .
-value
+textContent
 "
 hi
 "
