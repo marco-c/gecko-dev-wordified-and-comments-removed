@@ -250,11 +250,6 @@ MediaControlService
 MediaControlService
 (
 )
-:
-mAudioFocusManager
-(
-this
-)
 {
 LOG
 (
@@ -497,12 +492,6 @@ Shutdown
 mControllerManager
 -
 >
-Shutdown
-(
-)
-;
-mAudioFocusManager
-.
 Shutdown
 (
 )
