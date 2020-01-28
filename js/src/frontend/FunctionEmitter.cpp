@@ -200,7 +200,7 @@ bce_
 -
 >
 cx
-fun_
+funbox_
 -
 >
 explicitName
@@ -312,7 +312,7 @@ Start
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpreted
@@ -323,7 +323,7 @@ isInterpreted
 MOZ_ASSERT
 (
 !
-fun_
+funbox_
 -
 >
 isInterpretedLazy
@@ -460,7 +460,7 @@ Start
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpreted
@@ -470,7 +470,7 @@ isInterpreted
 ;
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isInterpretedLazy
@@ -527,12 +527,7 @@ bce_
 emittingRunOnceLambda
 )
 {
-fun_
--
->
-baseScript
-(
-)
+funbox_
 -
 >
 setTreatAsRunOnce
@@ -1127,7 +1122,7 @@ index
 {
 MOZ_ASSERT
 (
-fun_
+funbox_
 -
 >
 isArrow
@@ -1148,7 +1143,7 @@ Arrow
 ;
 if
 (
-fun_
+funbox_
 -
 >
 isArrow
