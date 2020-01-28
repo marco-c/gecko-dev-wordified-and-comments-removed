@@ -17056,6 +17056,16 @@ skip_html_fragment_assertion
 false
 )
 ;
+pref
+(
+"
+domsecurity
+.
+skip_remote_script_assertion_in_system_priv_context
+"
+false
+)
+;
 #
 endif
 #
