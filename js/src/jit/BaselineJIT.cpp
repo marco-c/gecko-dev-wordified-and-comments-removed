@@ -804,7 +804,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 EnterJitData
@@ -2036,7 +2039,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 ;
 MethodStatus
@@ -2087,7 +2093,10 @@ pc
 )
 =
 =
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 )
 {
 MOZ_ASSERT

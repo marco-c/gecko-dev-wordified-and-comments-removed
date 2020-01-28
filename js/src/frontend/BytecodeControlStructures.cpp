@@ -326,7 +326,10 @@ bce
 >
 emit1
 (
-JSOP_NOP
+JSOp
+:
+:
+Nop
 )
 )
 {
@@ -391,7 +394,10 @@ bce
 >
 emitJumpTargetOp
 (
-JSOP_LOOPHEAD
+JSOp
+:
+:
+LoopHead
 &
 off
 )

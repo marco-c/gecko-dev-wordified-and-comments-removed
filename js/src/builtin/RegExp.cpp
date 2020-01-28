@@ -8429,7 +8429,10 @@ pc
 )
 !
 =
-JSOP_GETALIASEDVAR
+JSOp
+:
+:
+GetAliasedVar
 |
 |
 fun
@@ -8533,7 +8536,10 @@ pc
 )
 !
 =
-JSOP_GETARG
+JSOp
+:
+:
+GetArg
 |
 |
 GET_ARGNO
@@ -8563,7 +8569,10 @@ pc
 )
 !
 =
-JSOP_GETELEM
+JSOp
+:
+:
+GetElem
 )
 {
 return
@@ -8584,7 +8593,10 @@ pc
 )
 !
 =
-JSOP_RETURN
+JSOp
+:
+:
+Return
 )
 {
 return

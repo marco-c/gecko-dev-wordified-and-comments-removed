@@ -190,7 +190,10 @@ kind_
 JSOp
 testOp_
 =
-JSOP_UNDEFINED
+JSOp
+:
+:
+Undefined
 ;
 PendingEdge
 (
@@ -202,7 +205,10 @@ kind
 JSOp
 testOp
 =
-JSOP_UNDEFINED
+JSOp
+:
+:
+Undefined
 )
 :
 block_
@@ -7319,7 +7325,10 @@ pc
 )
 =
 =
-JSOP_FUNAPPLY
+JSOp
+:
+:
+FunApply
 )
 {
 }

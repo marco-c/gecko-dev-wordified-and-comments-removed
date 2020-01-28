@@ -11275,7 +11275,10 @@ pc_
 )
 !
 =
-JSOP_FUNAPPLY
+JSOp
+:
+:
+FunApply
 )
 {
 numActualArgs_
@@ -11295,7 +11298,10 @@ pc_
 )
 =
 =
-JSOP_FUNCALL
+JSOp
+:
+:
+FunCall
 )
 {
 MOZ_ASSERT
