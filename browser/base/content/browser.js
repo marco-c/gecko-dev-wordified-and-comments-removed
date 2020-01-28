@@ -17894,6 +17894,11 @@ CustomizationHandler
 isCustomizing
 (
 )
+|
+|
+CustomizationHandler
+.
+isExitingCustomizeMode
 )
 {
 gNavToolbox
