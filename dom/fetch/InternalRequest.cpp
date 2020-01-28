@@ -554,10 +554,6 @@ mSkipServiceWorker
 (
 false
 )
-mUnsafeRequest
-(
-false
-)
 {
 MOZ_ASSERT
 (
@@ -690,10 +686,6 @@ mSameOriginDataURL
 true
 )
 mSkipServiceWorker
-(
-false
-)
-mUnsafeRequest
 (
 false
 )

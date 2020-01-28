@@ -1521,9 +1521,10 @@ mSynchronous
 =
 false
 ;
-MOZ_INIT_OUTSIDE_CTOR
 bool
 mUnsafeRequest
+=
+false
 ;
 bool
 mUseURLCredentials
