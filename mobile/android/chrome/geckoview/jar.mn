@@ -99,11 +99,6 @@ config
 xhtml
 content
 /
-ErrorPageEventHandler
-.
-js
-content
-/
 geckoview
 .
 xhtml
