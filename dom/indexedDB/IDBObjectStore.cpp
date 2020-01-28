@@ -7358,7 +7358,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -7459,7 +7459,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -8397,7 +8397,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -9023,7 +9023,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -9987,7 +9987,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -10254,7 +10254,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -10571,7 +10571,7 @@ mTransaction
 transaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -11216,7 +11216,7 @@ mTransaction
 transaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -11598,7 +11598,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -11852,7 +11852,7 @@ if
 mTransaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
@@ -12680,7 +12680,7 @@ mTransaction
 transaction
 -
 >
-CanAcceptRequests
+IsActive
 (
 )
 )
