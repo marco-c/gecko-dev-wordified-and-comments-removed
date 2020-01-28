@@ -1139,16 +1139,6 @@ self
 debug_mode
 :
             
-if
-self
-.
-runner
-.
-is_running
-(
-)
-:
-                
 self
 .
 runner
