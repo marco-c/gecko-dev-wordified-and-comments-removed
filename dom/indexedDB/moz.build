@@ -304,11 +304,6 @@ ActorsParent
 h
 '
 '
-FileSnapshot
-.
-h
-'
-'
 IDBResult
 .
 h
@@ -345,11 +340,6 @@ cpp
 '
 '
 FileInfo
-.
-cpp
-'
-'
-FileSnapshot
 .
 cpp
 '

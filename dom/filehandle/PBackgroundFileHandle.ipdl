@@ -187,11 +187,6 @@ FileRequestFlushParams
 {
 }
 ;
-struct
-FileRequestGetFileParams
-{
-}
-;
 union
 FileRequestParams
 {
@@ -204,8 +199,6 @@ FileRequestWriteParams
 FileRequestTruncateParams
 ;
 FileRequestFlushParams
-;
-FileRequestGetFileParams
 ;
 }
 ;
