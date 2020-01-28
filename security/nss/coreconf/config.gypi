@@ -1038,13 +1038,6 @@ coverage
 '
 :
 0
-'
-softfp_cflags
-%
-'
-:
-'
-'
 }
 '
 target_defaults

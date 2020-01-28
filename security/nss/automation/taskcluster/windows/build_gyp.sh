@@ -168,15 +168,7 @@ install
 -
 -
 upgrade
-'
 setuptools
-<
-45
-.
-0
-.
-0
-'
 #
 Fool
 GYP
