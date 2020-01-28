@@ -330,9 +330,9 @@ this
 .
 _window
 .
-windowUtils
+document
 .
-isHandlingUserInput
+hasValidTransientUserGestureActivation
 ;
 return
 this
