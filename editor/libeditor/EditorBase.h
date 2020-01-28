@@ -4837,6 +4837,16 @@ MaybeCreatePaddingBRElementForEmptyEditor
 )
 ;
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
+nsresult
+MarkElementDirty
+(
+Element
+&
+aElement
+)
+;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 DoTransactionInternal
 (

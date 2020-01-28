@@ -71,8 +71,6 @@ eSetAttribute
 eRemoveAttribute
 eInsertNode
 eRemoveNode
-eSplitNode
-eJoinNodes
 eInsertBlockElement
 eInsertHorizontalRuleElement
 eInsertLinkElement
