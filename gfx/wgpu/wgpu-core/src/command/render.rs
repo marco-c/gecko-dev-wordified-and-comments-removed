@@ -60,6 +60,7 @@ track
 TrackerSet
 BufferAddress
 Color
+DynamicOffset
 Stored
 }
 ;
@@ -439,7 +440,7 @@ phantom_offsets
 :
 PhantomSlice
 <
-BufferAddress
+DynamicOffset
 >
 }
 SetPipeline
@@ -4473,6 +4474,8 @@ assert_eq
 (
 *
 off
+as
+BufferAddress
 %
 BIND_BUFFER_ALIGNMENT
 0
@@ -6370,6 +6373,7 @@ crate
 id
 BufferAddress
 Color
+DynamicOffset
 RawString
 }
 ;
@@ -6416,7 +6420,7 @@ offsets
 :
 *
 const
-BufferAddress
+DynamicOffset
 offset_length
 :
 usize
