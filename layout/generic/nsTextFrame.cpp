@@ -52382,7 +52382,7 @@ void
 nsTextFrame
 :
 :
-SetSelectedRange
+SelectionStateChanged
 (
 uint32_t
 aStart

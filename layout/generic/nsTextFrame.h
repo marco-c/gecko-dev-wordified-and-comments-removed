@@ -1482,7 +1482,7 @@ aPoint
 )
 ;
 void
-SetSelectedRange
+SelectionStateChanged
 (
 uint32_t
 aStart
