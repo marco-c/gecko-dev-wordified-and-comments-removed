@@ -636,6 +636,10 @@ in
 unsigned
 long
 aContentPolicyType
+in
+unsigned
+long
+aSandboxFlags
 )
 ;
 /
