@@ -5616,18 +5616,6 @@ nodeProc
 =
 {
 }
-        
-self
-.
-moz_http2_port
-=
-None
-        
-self
-.
-moznode_exec_port
-=
-None
     
 def
 getTestManifest
@@ -7263,44 +7251,6 @@ MOZ_WEBRENDER
 "
 0
 "
-        
-if
-self
-.
-moz_http2_port
-:
-            
-self
-.
-env
-[
-"
-MOZHTTP2_PORT
-"
-]
-=
-self
-.
-moz_http2_port
-        
-if
-self
-.
-moznode_exec_port
-:
-            
-self
-.
-env
-[
-"
-MOZNODE_EXEC_PORT
-"
-]
-=
-self
-.
-moznode_exec_port
     
 def
 buildEnvironment
@@ -8387,7 +8337,12 @@ searchObj
                         
 self
 .
-moz_http2_port
+env
+[
+"
+MOZHTTP2_PORT
+"
+]
 =
 searchObj
 .
@@ -8398,7 +8353,12 @@ group
                         
 self
 .
-moznode_exec_port
+env
+[
+"
+MOZNODE_EXEC_PORT
+"
+]
 =
 searchObj
 .
@@ -9855,12 +9815,6 @@ symbolsPath
         
 self
 .
-trySetupNode
-(
-)
-        
-self
-.
 buildEnvironment
 (
 )
@@ -9894,6 +9848,12 @@ appname
 -
 appdir
 "
+        
+self
+.
+trySetupNode
+(
+)
         
 pStdout
 pStderr
