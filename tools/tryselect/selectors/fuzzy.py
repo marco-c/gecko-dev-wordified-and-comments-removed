@@ -283,6 +283,22 @@ laptop
 '
     
 '
+.
+*
+windows10
+-
+64
+-
+ref
+-
+hw
+-
+2017
+.
+*
+'
+    
+'
 android
 -
 hw
