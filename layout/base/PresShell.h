@@ -5098,6 +5098,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 MaybeHandleEventWithAccessibleCaret
 (
+nsIFrame
+*
+aFrameForPresShell
 WidgetGUIEvent
 *
 aGUIEvent
