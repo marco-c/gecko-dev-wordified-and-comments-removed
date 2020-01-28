@@ -1654,13 +1654,6 @@ defined
 (
 MOZ_WIDGET_ANDROID
 )
-using
-namespace
-mozilla
-:
-:
-java
-;
 typedef
 struct
 {
@@ -1698,6 +1691,9 @@ nsCString
 VIDEO_MP4
 )
 EME_CODEC_H264
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1713,6 +1709,9 @@ nsCString
 VIDEO_MP4
 )
 EME_CODEC_VP9
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1728,6 +1727,9 @@ nsCString
 AUDIO_MP4
 )
 EME_CODEC_AAC
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1743,6 +1745,9 @@ nsCString
 AUDIO_MP4
 )
 EME_CODEC_FLAC
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1758,6 +1763,9 @@ nsCString
 AUDIO_MP4
 )
 EME_CODEC_OPUS
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1773,6 +1781,9 @@ nsCString
 VIDEO_WEBM
 )
 EME_CODEC_VP8
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1788,6 +1799,9 @@ nsCString
 VIDEO_WEBM
 )
 EME_CODEC_VP9
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1803,6 +1817,9 @@ nsCString
 AUDIO_WEBM
 )
 EME_CODEC_VORBIS
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1818,6 +1835,9 @@ nsCString
 AUDIO_WEBM
 )
 EME_CODEC_OPUS
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1841,6 +1861,9 @@ validationList
 {
 if
 (
+java
+:
+:
 MediaDrmProxy
 :
 :

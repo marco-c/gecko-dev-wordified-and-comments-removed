@@ -28,13 +28,6 @@ MediaCodec
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-java
-;
 namespace
 mozilla
 {
@@ -61,6 +54,9 @@ class
 MediaDrmJavaCallbacksSupport
 :
 public
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -75,6 +71,9 @@ MediaDrmJavaCallbacksSupport
 public
 :
 typedef
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1162,6 +1161,9 @@ false
 {
 mJavaCallbacks
 =
+java
+:
+:
 MediaDrmProxy
 :
 :
@@ -1174,6 +1176,9 @@ New
 ;
 mBridgeProxy
 =
+java
+:
+:
 MediaDrmProxy
 :
 :

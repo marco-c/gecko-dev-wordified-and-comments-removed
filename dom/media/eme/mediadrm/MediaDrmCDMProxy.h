@@ -101,13 +101,6 @@ nsString
 .
 h
 "
-using
-namespace
-mozilla
-:
-:
-java
-;
 namespace
 mozilla
 {
