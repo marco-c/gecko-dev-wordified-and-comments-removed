@@ -116,7 +116,7 @@ somerandomwebsite
 com
 "
 "
-document
+cookie
 "
 )
 ;
@@ -342,7 +342,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -351,7 +351,7 @@ perms
 .
 ALLOW_ACTION
 "
-document
+cookie
 -
 1
 "
@@ -602,7 +602,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -611,7 +611,7 @@ perms
 .
 ALLOW_ACTION
 "
-document
+cookie
 -
 2
 "
@@ -696,7 +696,7 @@ someotherrandomwebsite
 com
 "
 "
-document
+cookie
 "
 )
 ;
@@ -1058,7 +1058,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -1067,7 +1067,7 @@ perms
 .
 ALLOW_ACTION
 "
-document
+cookie
 -
 3
 "
@@ -1098,7 +1098,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -1107,7 +1107,7 @@ perms
 .
 ALLOW_ACTION
 "
-otherdocument
+othercookie
 -
 3
 "
@@ -1522,7 +1522,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -1531,7 +1531,7 @@ perms
 .
 ALLOW_ACTION
 "
-document
+cookie
 -
 4
 "
@@ -1562,7 +1562,7 @@ com
 "
 )
 "
-document
+cookie
 "
 )
 Services
@@ -1571,7 +1571,7 @@ perms
 .
 ALLOW_ACTION
 "
-otherdocument
+othercookie
 -
 4
 "

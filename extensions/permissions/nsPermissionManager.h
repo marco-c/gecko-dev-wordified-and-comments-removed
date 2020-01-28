@@ -964,11 +964,6 @@ nsIRunnable
 aRunnable
 )
 ;
-bool
-HasPreloadPermissions
-(
-)
-;
 private
 :
 virtual

@@ -120,11 +120,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsContentBlocker
-.
-cpp
-'
-'
 nsPermission
 .
 cpp
