@@ -4467,6 +4467,12 @@ HTMLMetaElement
 aElement
 )
 ;
+ViewportMetaData
+GetViewportMetaData
+(
+)
+const
+;
 void
 UpdateForScrollAnchorAdjustment
 (
@@ -11328,12 +11334,6 @@ FeaturePolicy
 GetParentFeaturePolicy
 (
 )
-;
-ViewportMetaData
-GetViewportMetaData
-(
-)
-const
 ;
 FlashClassification
 DocumentFlashClassificationInternal
