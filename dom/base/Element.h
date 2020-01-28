@@ -5617,6 +5617,16 @@ ReparseAttributes
 Yes
 )
 ;
+static
+nsAtom
+*
+GetEventNameForAttr
+(
+nsAtom
+*
+aAttr
+)
+;
 private
 :
 #
