@@ -199,9 +199,6 @@ mod
 display_item
 ;
 mod
-display_item_cache
-;
-mod
 display_list
 ;
 mod
@@ -246,16 +243,6 @@ display_item
 :
 :
 *
-;
-pub
-use
-crate
-:
-:
-display_item_cache
-:
-:
-DisplayItemCache
 ;
 pub
 use

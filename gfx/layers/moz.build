@@ -1691,13 +1691,6 @@ h
 '
 wr
 /
-DisplayItemCache
-.
-h
-'
-'
-wr
-/
 IpcResourceUpdateQueue
 .
 h
@@ -3436,13 +3429,6 @@ cpp
 wr
 /
 ClipManager
-.
-cpp
-'
-'
-wr
-/
-DisplayItemCache
 .
 cpp
 '
