@@ -688,6 +688,11 @@ USER_CONTEXTS
 [
 userContextId
 ]
++
+"
+=
+true
+"
 ;
 let
 {
