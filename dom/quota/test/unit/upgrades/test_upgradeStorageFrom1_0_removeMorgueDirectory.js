@@ -56,7 +56,7 @@ package
 installPackage
 (
 "
-morgueCleanup_profile
+version1_0_morgueDirectory_profile
 "
 )
 ;

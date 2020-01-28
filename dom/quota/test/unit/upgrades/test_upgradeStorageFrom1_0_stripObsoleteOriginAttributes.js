@@ -311,7 +311,7 @@ package
 installPackage
 (
 "
-obsoleteOriginAttributes_profile
+version1_0_obsoleteOriginAttributes_profile
 "
 )
 ;
