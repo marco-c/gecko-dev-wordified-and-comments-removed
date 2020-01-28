@@ -4370,7 +4370,7 @@ this
 .
 _fxaService
 .
-sessionStatus
+checkAccountStatus
 (
 )
 ;
