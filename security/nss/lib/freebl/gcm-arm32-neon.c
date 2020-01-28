@@ -49,13 +49,7 @@ h
 if
 defined
 (
-__ARM_NEON__
-)
-|
-|
-defined
-(
-__ARM_NEON
+IS_LITTLE_ENDIAN
 )
 #
 include

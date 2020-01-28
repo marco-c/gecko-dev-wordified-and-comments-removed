@@ -328,7 +328,7 @@ time
 llvm_verify
 m
 "
-Hacl_Chacha20_chacha20
+Hacl_Chacha20_chacha20_encrypt
 "
 [
 ]
@@ -355,7 +355,7 @@ time
 llvm_verify
 m
 "
-Hacl_Chacha20_chacha20
+Hacl_Chacha20_chacha20_encrypt
 "
 [
 ]

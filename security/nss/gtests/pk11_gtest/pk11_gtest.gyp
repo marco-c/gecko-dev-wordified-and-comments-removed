@@ -174,6 +174,11 @@ pk11_find_certs_unittest
 cc
 '
 '
+pk11_hkdf_unittest
+.
+cc
+'
+'
 pk11_import_unittest
 .
 cc
@@ -210,6 +215,11 @@ cc
 '
 '
 pk11_prng_unittest
+.
+cc
+'
+'
+pk11_rsaencrypt_unittest
 .
 cc
 '
