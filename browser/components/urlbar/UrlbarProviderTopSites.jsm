@@ -283,13 +283,13 @@ searchString
 )
 ;
 }
-getPriority
+isRestricting
 (
 queryContext
 )
 {
 return
-1
+true
 ;
 }
 async

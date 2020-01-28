@@ -395,6 +395,15 @@ return
 false
 ;
 }
+isRestricting
+(
+queryContext
+)
+{
+return
+false
+;
+}
 async
 registerOpenTab
 (
