@@ -65,6 +65,9 @@ namespace
 dom
 {
 class
+MessageData
+;
+class
 MessagePortChild
 ;
 struct
@@ -475,7 +478,7 @@ Entangled
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aMessages
@@ -486,7 +489,7 @@ MessagesReceived
 (
 nsTArray
 <
-ClonedMessageData
+MessageData
 >
 &
 aMessages
