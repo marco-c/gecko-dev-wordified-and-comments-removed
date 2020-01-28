@@ -983,6 +983,16 @@ py
 PRINT
 STATEMENT
 :
+resources
+/
+test
+/
+conftest
+.
+py
+PRINT
+STATEMENT
+:
 webdriver
 /
 tests
