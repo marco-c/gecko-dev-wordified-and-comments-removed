@@ -112,8 +112,10 @@ derive
 (
 Clone
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToAnimatedZero
 ToComputedValue
@@ -795,8 +797,10 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToAnimatedZero
 ToShmem
@@ -2127,8 +2131,10 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToAnimatedZero
 ToShmem
@@ -2186,8 +2192,10 @@ Clone
 ComputeSquaredDistance
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToAnimatedZero
 ToCss
@@ -2245,8 +2253,10 @@ derive
 Clone
 Copy
 Debug
+Deserialize
 MallocSizeOf
 PartialEq
+Serialize
 SpecifiedValueInfo
 ToShmem
 )
