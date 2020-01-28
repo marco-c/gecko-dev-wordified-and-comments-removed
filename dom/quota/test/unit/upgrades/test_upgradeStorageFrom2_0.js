@@ -69,7 +69,7 @@ undefined
 installPackage
 (
 "
-version2_1upgrade_profile
+version2_0_profile
 "
 )
 ;
@@ -78,11 +78,11 @@ info
 "
 Checking
 padding
-file
+files
 before
 upgrade
 (
-QM
+storage
 version
 2
 .
@@ -173,13 +173,6 @@ padding
 files
 after
 upgrade
-(
-QM
-version
-2
-.
-1
-)
 "
 )
 ;
