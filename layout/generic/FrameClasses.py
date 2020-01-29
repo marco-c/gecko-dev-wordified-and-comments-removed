@@ -786,7 +786,7 @@ Frame
 nsNumberControlFrame
 "
 "
-NumberControl
+TextInput
 "
 LEAF
 )
