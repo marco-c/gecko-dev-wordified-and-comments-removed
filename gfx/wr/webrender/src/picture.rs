@@ -70,12 +70,12 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
 ROOT_SPATIAL_NODE_INDEX
-ClipScrollTree
+SpatialTree
 CoordinateSpaceMapping
 SpatialNodeIndex
 VisibleFace
@@ -8519,7 +8519,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 if
@@ -8611,7 +8611,7 @@ spatial_node_index
 shared_clips
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 &
 mut
 frame_state
@@ -8650,7 +8650,7 @@ map_local_to_surface
 pic_to_world_mapper
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 frame_state
 .
 gpu_cache
@@ -10099,10 +10099,10 @@ ClipChainInstance
 local_prim_rect
 :
 LayoutRect
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 data_stores
 :
 &
@@ -10167,7 +10167,7 @@ map_local_to_surface
 set_target_spatial_node
 (
 prim_spatial_node_index
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -10240,7 +10240,7 @@ map_child_pic_to_surface
 set_target_spatial_node
 (
 surface_spatial_node_index
-clip_scroll_tree
+spatial_tree
 )
 ;
 self
@@ -11156,7 +11156,7 @@ let
 prim_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -11171,7 +11171,7 @@ let
 surface_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -11620,7 +11620,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -11668,7 +11668,7 @@ root_transform
 =
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -11758,7 +11758,7 @@ self
 spatial_node_index
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -12856,10 +12856,10 @@ f32
 world_rect
 :
 WorldRect
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 device_pixel_scale
 :
 DevicePixelScale
@@ -12879,7 +12879,7 @@ new_with_target
 ROOT_SPATIAL_NODE_INDEX
 surface_spatial_node_index
 world_rect
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -15877,10 +15877,10 @@ get_raster_space
 (
 &
 self
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -15890,7 +15890,7 @@ let
 spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -15911,7 +15911,7 @@ is_ancestor_or_self_zooming
 let
 scale_factors
 =
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -16166,7 +16166,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -16217,7 +16217,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -19313,10 +19313,10 @@ splitter
 &
 mut
 PlaneSplitter
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 prim_spatial_node_index
 :
 SpatialNodeIndex
@@ -19341,7 +19341,7 @@ bool
 let
 transform
 =
-clip_scroll_tree
+spatial_tree
 .
 get_world_transform
 (
@@ -19612,10 +19612,10 @@ gpu_cache
 &
 mut
 GpuCache
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 {
 let
@@ -19717,7 +19717,7 @@ let
 transform
 =
 match
-clip_scroll_tree
+spatial_tree
 .
 get_world_transform
 (
@@ -19997,7 +19997,7 @@ context_3d
 match
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_local_visible_face
 (
@@ -20287,7 +20287,7 @@ has_svg_filter
 |
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -20324,7 +20324,7 @@ global_screen_world_rect
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 frame_context
 .
 global_device_pixel_scale
@@ -20466,7 +20466,7 @@ context_3d
 match
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -20504,7 +20504,7 @@ spatial_node
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -20559,7 +20559,7 @@ max_rect
 )
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 for
@@ -20627,7 +20627,7 @@ max_rect
 )
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -20755,7 +20755,7 @@ cluster
 spatial_node_index
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 cluster
@@ -20871,7 +20871,7 @@ surface
 device_pixel_scale
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 surface
@@ -21054,7 +21054,7 @@ self
 spatial_node_index
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 if
@@ -21153,7 +21153,7 @@ gpu_cache
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 }
@@ -21990,10 +21990,10 @@ SpatialNodeIndex
 world_rect
 :
 WorldRect
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -22021,7 +22021,7 @@ new_with_target
 ROOT_SPATIAL_NODE_INDEX
 raster_spatial_node_index
 world_rect
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -22054,7 +22054,7 @@ new_with_target
 raster_spatial_node_index
 surface_spatial_node_index
 raster_bounds
-clip_scroll_tree
+spatial_tree
 )
 ;
 (
@@ -22071,10 +22071,10 @@ SpatialNodeIndex
 cache_spatial_node_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -22089,7 +22089,7 @@ cache_spatial_node_index
 =
 spatial_node_index
 {
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -22099,7 +22099,7 @@ spatial_node_index
 }
 else
 {
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (

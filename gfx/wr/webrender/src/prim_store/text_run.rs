@@ -177,11 +177,11 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
-ClipScrollTree
+SpatialTree
 SpatialNodeIndex
 }
 ;
@@ -1200,10 +1200,10 @@ SubpixelMode
 raster_space
 :
 RasterSpace
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -1429,7 +1429,7 @@ spatial_node_index
 surface
 .
 device_pixel_scale
-clip_scroll_tree
+spatial_tree
 )
 ;
 snap_to_device
@@ -1588,10 +1588,10 @@ render_tasks
 &
 mut
 RenderTaskGraph
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 scratch
 :
 &
@@ -1612,7 +1612,7 @@ spatial_node_index
 transform
 subpixel_mode
 raster_space
-clip_scroll_tree
+spatial_tree
 )
 ;
 if

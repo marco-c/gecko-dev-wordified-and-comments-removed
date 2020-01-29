@@ -50,7 +50,7 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 SpatialNodeIndex

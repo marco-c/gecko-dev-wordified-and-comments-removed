@@ -673,7 +673,7 @@ DebugCommand
 :
 FetchDocuments
 "
-fetch_clip_scroll_tree
+fetch_spatial_tree
 "
 =
 >
@@ -1780,7 +1780,7 @@ Serialize
 ]
 pub
 struct
-ClipScrollTreeList
+SpatialTreeList
 {
 kind
 :
@@ -1793,7 +1793,7 @@ root
 TreeNode
 }
 impl
-ClipScrollTreeList
+SpatialTreeList
 {
 pub
 fn
@@ -1804,12 +1804,12 @@ new
 >
 Self
 {
-ClipScrollTreeList
+SpatialTreeList
 {
 kind
 :
 "
-clip_scroll_tree
+spatial_tree
 "
 root
 :

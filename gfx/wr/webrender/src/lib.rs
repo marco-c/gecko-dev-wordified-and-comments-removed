@@ -190,7 +190,7 @@ mod
 clip
 ;
 mod
-clip_scroll_tree
+spatial_tree
 ;
 mod
 composite

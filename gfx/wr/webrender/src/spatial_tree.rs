@@ -482,7 +482,7 @@ Front
 }
 pub
 struct
-ClipScrollTree
+SpatialTree
 {
 pub
 spatial_nodes
@@ -1053,7 +1053,7 @@ Scrolled
 Unscrolled
 }
 impl
-ClipScrollTree
+SpatialTree
 {
 pub
 fn
@@ -1064,7 +1064,7 @@ new
 >
 Self
 {
-ClipScrollTree
+SpatialTree
 {
 spatial_nodes
 :
@@ -3563,7 +3563,7 @@ PrintTree
 new
 (
 "
-clip_scroll
+spatial
 tree
 "
 )
@@ -3583,7 +3583,7 @@ pt
 impl
 PrintableTree
 for
-ClipScrollTree
+SpatialTree
 {
 fn
 print_with
@@ -3641,7 +3641,7 @@ cst
 :
 &
 mut
-ClipScrollTree
+SpatialTree
 parent
 :
 Option
@@ -3707,7 +3707,7 @@ f32
 cst
 :
 &
-ClipScrollTree
+SpatialTree
 child
 :
 SpatialNodeIndex
@@ -3848,7 +3848,7 @@ let
 mut
 cst
 =
-ClipScrollTree
+SpatialTree
 :
 :
 new
@@ -4105,7 +4105,7 @@ let
 mut
 cst
 =
-ClipScrollTree
+SpatialTree
 :
 :
 new
@@ -4382,7 +4382,7 @@ let
 mut
 cst
 =
-ClipScrollTree
+SpatialTree
 :
 :
 new
@@ -4742,7 +4742,7 @@ let
 mut
 cst
 =
-ClipScrollTree
+SpatialTree
 :
 :
 new

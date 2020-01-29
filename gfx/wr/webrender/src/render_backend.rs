@@ -127,7 +127,7 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 SpatialNodeIndex
@@ -2528,7 +2528,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 get_scroll_node_state
 (
@@ -2642,7 +2642,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 .
@@ -2958,7 +2958,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 update_tree
 (
@@ -3078,7 +3078,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 discard_frame_state_for_pipeline
 (
@@ -3111,7 +3111,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 scroll_nearest_scrolling_ancestor
 (
@@ -3144,7 +3144,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 scroll_node
 (
@@ -3213,7 +3213,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 drain
 (
@@ -3247,7 +3247,7 @@ self
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 finalize_and_apply_pending_scroll_offsets
 (
@@ -5764,7 +5764,7 @@ json
 =
 self
 .
-get_clip_scroll_tree_for_debugger
+get_spatial_tree_for_debugger
 (
 )
 ;
@@ -8204,7 +8204,7 @@ debugger
 )
 ]
 fn
-get_clip_scroll_tree_for_debugger
+get_spatial_tree_for_debugger
 (
 &
 self
@@ -8232,7 +8232,7 @@ debugger
 )
 ]
 fn
-get_clip_scroll_tree_for_debugger
+get_spatial_tree_for_debugger
 (
 &
 self
@@ -8257,7 +8257,7 @@ debug_root
 debug_server
 :
 :
-ClipScrollTreeList
+SpatialTreeList
 :
 :
 new
@@ -8288,9 +8288,7 @@ new
 (
 "
 document
-clip
--
-scroll
+spatial
 tree
 "
 )
@@ -8314,7 +8312,7 @@ doc
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 .
 print_with
 (
@@ -8914,9 +8912,7 @@ format
 !
 (
 "
-clip
--
-scroll
+spatial
 -
 {
 }
@@ -8943,7 +8939,7 @@ doc
 .
 scene
 .
-clip_scroll_tree
+spatial_tree
 file_name
 )
 ;

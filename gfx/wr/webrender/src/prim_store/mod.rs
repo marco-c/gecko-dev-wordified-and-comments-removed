@@ -93,12 +93,12 @@ use
 crate
 :
 :
-clip_scroll_tree
+spatial_tree
 :
 :
 {
 ROOT_SPATIAL_NODE_INDEX
-ClipScrollTree
+SpatialTree
 CoordinateSpaceMapping
 SpatialNodeIndex
 VisibleFace
@@ -1013,10 +1013,10 @@ SpatialNodeIndex
 device_pixel_scale
 :
 DevicePixelScale
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -1046,7 +1046,7 @@ snapper
 set_target_spatial_node
 (
 target_node_index
-clip_scroll_tree
+spatial_tree
 )
 ;
 snapper
@@ -1061,10 +1061,10 @@ self
 target_node_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 {
 if
@@ -1081,7 +1081,7 @@ let
 ref_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -1098,7 +1098,7 @@ let
 target_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -1600,10 +1600,10 @@ Rect
 f32
 T
 >
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 -
 >
@@ -1627,7 +1627,7 @@ mapper
 set_target_spatial_node
 (
 target_node_index
-clip_scroll_tree
+spatial_tree
 )
 ;
 mapper
@@ -1642,10 +1642,10 @@ self
 target_node_index
 :
 SpatialNodeIndex
-clip_scroll_tree
+spatial_tree
 :
 &
-ClipScrollTree
+SpatialTree
 )
 {
 if
@@ -1662,7 +1662,7 @@ let
 ref_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -1679,7 +1679,7 @@ let
 target_spatial_node
 =
 &
-clip_scroll_tree
+spatial_tree
 .
 spatial_nodes
 [
@@ -1750,7 +1750,7 @@ else
 let
 transform
 =
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -9147,7 +9147,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -9212,7 +9212,7 @@ cluster
 spatial_node_index
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 for
@@ -9872,7 +9872,7 @@ current_clips_array
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 &
 mut
 frame_state
@@ -9899,7 +9899,7 @@ map_surface_to_world
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 frame_state
 .
 gpu_cache
@@ -9957,7 +9957,7 @@ as_ref
 prim_local_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 frame_state
 .
 data_stores
@@ -10889,7 +10889,7 @@ surface
 device_pixel_scale
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 surface_rect
@@ -11090,7 +11090,7 @@ max_rect
 )
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 map_surface_to_parent_surface
@@ -11372,7 +11372,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -12785,7 +12785,7 @@ cluster
 spatial_node_index
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 for
@@ -13298,7 +13298,7 @@ transform
 =
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_relative_transform
 (
@@ -13351,7 +13351,7 @@ get_raster_space
 (
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 let
@@ -13414,7 +13414,7 @@ frame_state
 render_tasks
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 scratch
 )
 ;
@@ -13617,7 +13617,7 @@ scale
 =
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 .
 get_world_transform
 (
@@ -14724,7 +14724,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 gradient
@@ -14986,7 +14986,7 @@ frame_context
 global_screen_world_rect
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 )
 ;
 prim_data
@@ -15206,7 +15206,7 @@ add_split_plane
 splitter
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 prim_spatial_node_index
 pic
 .
@@ -17611,7 +17611,7 @@ prim_spatial_node_index
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 &
 data_stores
 .
@@ -17652,7 +17652,7 @@ map_pic_to_world
 &
 frame_context
 .
-clip_scroll_tree
+spatial_tree
 frame_state
 .
 gpu_cache

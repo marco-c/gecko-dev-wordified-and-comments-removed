@@ -197,7 +197,7 @@ is
 handled
 by
 the
-ClipScrollTree
+SpatialTree
 .
 The
 name
@@ -222,7 +222,7 @@ clipping
 .
 Currently
 the
-ClipScrollTree
+SpatialTree
 holds
 :
 1
@@ -555,7 +555,7 @@ traversed
 hierarchically
 during
 the
-ClipScrollTree
+SpatialTree
 :
 :
 update
@@ -763,7 +763,7 @@ are
 calculated
 during
 the
-ClipScrollTree
+SpatialTree
 :
 :
 update
@@ -1224,7 +1224,7 @@ the
 scene
 -
 wide
-ClipScrollTree
+SpatialTree
 .
 Nodes
 are
@@ -1277,13 +1277,13 @@ node
 arrays
 of
 the
-ClipScrollTree
+SpatialTree
 .
 In
 this
 case
 the
-ClipScrollTree
+SpatialTree
 fills
 in
 the
@@ -1320,7 +1320,7 @@ hit
 testing
 from
 the
-ClipScrollTree
+SpatialTree
 .
 This
 is
@@ -1336,7 +1336,7 @@ place
 while
 a
 new
-ClipScrollTree
+SpatialTree
 is
 under
 construction
@@ -1366,7 +1366,7 @@ having
 to
 duplicate
 the
-ClipScrollTree
+SpatialTree
 for
 hit
 testing
@@ -1381,7 +1381,7 @@ placeholder
 nodes
 in
 the
-ClipScrollTree
+SpatialTree
 while
 processing
 iframes
