@@ -1,0 +1,12 @@
+async
+(
+)
+=
+>
+class
+{
+x
+=
+await
+}
+;
