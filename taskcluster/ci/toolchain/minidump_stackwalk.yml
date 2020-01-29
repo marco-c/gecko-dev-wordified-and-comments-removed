@@ -242,7 +242,7 @@ rust
 -
 1
 .
-39
+40
 macosx64
 -
 minidump
@@ -335,7 +335,7 @@ macos
 -
 1
 .
-39
+40
 win32
 -
 minidump
@@ -393,4 +393,4 @@ rust
 -
 1
 .
-39
+40
