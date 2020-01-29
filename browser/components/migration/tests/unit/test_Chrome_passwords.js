@@ -1373,6 +1373,7 @@ resourceTypes
 .
 PASSWORDS
 PROFILE
+true
 )
 ;
 logins
@@ -1668,6 +1669,7 @@ resourceTypes
 .
 PASSWORDS
 PROFILE
+true
 )
 ;
 logins
