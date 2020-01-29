@@ -22921,6 +22921,7 @@ CellMap
 struct
 Cell
 {
+constexpr
 Cell
 (
 )
