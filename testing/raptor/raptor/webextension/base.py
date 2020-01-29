@@ -1140,6 +1140,12 @@ self
 .
 raptor_webext
 )
+        
+self
+.
+raptor_webext
+=
+None
     
 def
 clean_up
