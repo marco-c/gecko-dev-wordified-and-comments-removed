@@ -2354,8 +2354,6 @@ getEmptyEnvironmentShape
 JSContext
 *
 cx
-bool
-hasParameterExprs
 )
 ;
 }
