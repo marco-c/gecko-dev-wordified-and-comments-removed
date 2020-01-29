@@ -201,10 +201,6 @@ chaining
 "
     
 "
-WeakRef
-"
-    
-"
 top
 -
 level
@@ -583,6 +579,7 @@ None
 def
 createRefTestEntry
 (
+options
 skip
 skipIf
 error
@@ -638,6 +635,17 @@ comments
 =
 [
 ]
+    
+if
+options
+:
+        
+terms
+.
+extend
+(
+options
+)
     
 if
 skip
@@ -1471,6 +1479,11 @@ utf
 testName
 )
     
+refTestOptions
+=
+[
+]
+    
 refTestSkip
 =
 [
@@ -1916,6 +1929,50 @@ atomics
 "
 )
 )
+            
+if
+"
+WeakRef
+"
+in
+testRec
+[
+"
+features
+"
+]
+or
+"
+FinalizationGroup
+"
+in
+testRec
+[
+"
+features
+"
+]
+:
+                
+refTestOptions
+.
+append
+(
+"
+shell
+-
+option
+(
+-
+-
+enable
+-
+weak
+-
+refs
+)
+"
+)
     
 if
 "
@@ -1986,16 +2043,19 @@ comments
 =
 createRefTestEntry
 (
+refTestOptions
 refTestSkip
 refTestSkipIf
 errorType
-isModule
                                            
+isModule
 isAsync
 )
     
 if
 raw
+or
+refTestOptions
 :
         
 refTest
@@ -2183,6 +2243,11 @@ file
 "
 "
     
+refTestOptions
+=
+[
+]
+    
 refTestSkip
 =
 [
@@ -2218,11 +2283,12 @@ comments
 =
 createRefTestEntry
 (
+refTestOptions
 refTestSkip
 refTestSkipIf
 errorType
-isModule
                                            
+isModule
 isAsync
 )
     
