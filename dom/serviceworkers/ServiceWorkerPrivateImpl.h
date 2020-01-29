@@ -464,6 +464,8 @@ GenericNonExclusivePromise
 >
 ShutdownInternal
 (
+uint32_t
+aShutdownStateId
 )
 ;
 nsresult
