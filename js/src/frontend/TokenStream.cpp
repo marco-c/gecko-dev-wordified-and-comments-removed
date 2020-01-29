@@ -7849,7 +7849,7 @@ AnyCharsAccess
 >
 :
 :
-seek
+seekTo
 (
 const
 Position
@@ -7989,7 +7989,7 @@ AnyCharsAccess
 >
 :
 :
-seek
+seekTo
 (
 const
 Position
@@ -8022,7 +8022,7 @@ return
 false
 ;
 }
-seek
+seekTo
 (
 pos
 )
