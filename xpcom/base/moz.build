@@ -533,6 +533,11 @@ mozilla
 =
 [
 '
+AppShutdown
+.
+h
+'
+'
 AutoRestore
 .
 h
@@ -644,6 +649,11 @@ h
 '
 '
 OwningNonNull
+.
+h
+'
+'
+ShutdownPhase
 .
 h
 '
@@ -762,6 +772,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+AppShutdown
+.
+cpp
+'
 '
 AvailableMemoryTracker
 .

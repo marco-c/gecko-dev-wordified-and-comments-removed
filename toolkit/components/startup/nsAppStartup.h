@@ -162,9 +162,6 @@ bool
 mAttemptingQuit
 ;
 bool
-mRestart
-;
-bool
 mInterrupted
 ;
 bool
