@@ -334,9 +334,8 @@ mRootMargin
 {
 aRv
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 "
 rootMargin
 must
