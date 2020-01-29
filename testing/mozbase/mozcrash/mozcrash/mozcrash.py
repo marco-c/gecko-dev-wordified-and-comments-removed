@@ -1397,6 +1397,10 @@ for
 path
 in
                                 
+reversed
+(
+sorted
+(
 glob
 .
 glob
@@ -1410,11 +1414,14 @@ join
 self
 .
 dump_directory
+                                                                       
 '
 *
 .
 dmp
 '
+)
+)
 )
 )
 ]
