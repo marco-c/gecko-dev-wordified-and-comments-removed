@@ -130,6 +130,10 @@ public
 nsIChildChannel
 public
 nsIWrapperChannel
+public
+nsIInterfaceRequestor
+public
+nsIChannelEventSink
 {
 public
 :
@@ -143,6 +147,8 @@ NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSIHTTPCHANNEL
 NS_DECL_NSICHILDCHANNEL
 NS_DECL_NSIWRAPPERCHANNEL
+NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSICHANNELEVENTSINK
 NS_FORWARD_SAFE_NSICACHEINFOCHANNEL
 (
 mCacheInfoChannel
@@ -257,6 +263,12 @@ nsIURI
 *
 aResult
 )
+;
+nsCOMPtr
+<
+nsIInterfaceRequestor
+>
+mCallbacks
 ;
 nsCOMPtr
 <
