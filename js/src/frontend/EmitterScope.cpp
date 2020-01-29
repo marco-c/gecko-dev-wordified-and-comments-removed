@@ -3631,13 +3631,6 @@ nextFrameSlot_
 }
 if
 (
-!
-funbox
--
->
-hasParameterExprs
-&
-&
 funbox
 -
 >
