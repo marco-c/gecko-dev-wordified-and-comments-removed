@@ -7437,12 +7437,6 @@ ScopeKind
 :
 FunctionBodyVar
 :
-case
-ScopeKind
-:
-:
-ParameterExpressionVar
-:
 {
 VarScope
 :

@@ -22,7 +22,6 @@ uint8_t
 {
 Function
 FunctionBodyVar
-ParameterExpressionVar
 Lexical
 SimpleCatch
 Catch
