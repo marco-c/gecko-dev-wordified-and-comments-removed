@@ -1381,11 +1381,6 @@ hasParameterExprs
 1
 ;
 bool
-hasDirectEvalInParameterExpr
-:
-1
-;
-bool
 hasDuplicateParameters
 :
 1
