@@ -190,7 +190,7 @@ rust
 -
 1
 .
-40
+39
 macosx64
 -
 cbindgen
@@ -299,7 +299,7 @@ macos
 -
 1
 .
-40
+39
 win64
 -
 cbindgen
@@ -398,4 +398,4 @@ rust
 -
 1
 .
-40
+39
