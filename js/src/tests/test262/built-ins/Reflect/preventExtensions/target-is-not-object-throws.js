@@ -9,7 +9,7 @@ function
 {
 Reflect
 .
-isExtensible
+preventExtensions
 (
 1
 )
@@ -28,7 +28,7 @@ function
 {
 Reflect
 .
-isExtensible
+preventExtensions
 (
 null
 )
@@ -47,7 +47,7 @@ function
 {
 Reflect
 .
-isExtensible
+preventExtensions
 (
 undefined
 )
@@ -66,7 +66,7 @@ function
 {
 Reflect
 .
-isExtensible
+preventExtensions
 (
 '
 '

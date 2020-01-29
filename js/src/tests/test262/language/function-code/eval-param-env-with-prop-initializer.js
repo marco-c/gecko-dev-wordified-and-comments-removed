@@ -33,7 +33,7 @@ sameValue
 (
 x
 "
-outer
+inner
 "
 )
 ;

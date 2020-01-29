@@ -66,7 +66,7 @@ probe1
 (
 )
 '
-outside
+inside
 '
 )
 ;
