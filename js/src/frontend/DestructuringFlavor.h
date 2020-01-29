@@ -15,7 +15,6 @@ class
 DestructuringFlavor
 {
 Declaration
-FormalParameterInVarScope
 Assignment
 }
 ;
