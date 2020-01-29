@@ -833,6 +833,12 @@ inHighFrequencyGCMode_
 ;
 public
 :
+MainThreadOrGCTaskData
+<
+bool
+>
+inPageLoad
+;
 GCSchedulingState
 (
 )
@@ -1265,6 +1271,8 @@ const
 GCSchedulingState
 &
 state
+bool
+isAtomsZone
 const
 AutoLockGC
 &

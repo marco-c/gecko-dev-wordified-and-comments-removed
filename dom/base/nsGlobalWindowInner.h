@@ -7200,6 +7200,13 @@ aIsLoading
 )
 override
 ;
+void
+HintIsLoading
+(
+bool
+aIsLoading
+)
+;
 protected
 :
 bool
@@ -7305,6 +7312,11 @@ mWasCurrentInnerWindow
 }
 bool
 mHasSeenGamepadInput
+:
+1
+;
+bool
+mHintedWasLoading
 :
 1
 ;

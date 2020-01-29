@@ -1353,6 +1353,13 @@ AutoLockGC
 lock
 )
 ;
+void
+setPerformanceHint
+(
+PerformanceHint
+hint
+)
+;
 MOZ_MUST_USE
 bool
 triggerGC
@@ -5122,6 +5129,12 @@ MainThreadData
 bool
 >
 alwaysPreserveCode
+;
+MainThreadData
+<
+size_t
+>
+inPageLoadCount
 ;
 MainThreadData
 <
