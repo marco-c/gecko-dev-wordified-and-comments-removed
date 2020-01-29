@@ -556,18 +556,6 @@ talos
 /
 unittests
 /
-test_ffsetup
-.
-py
--
-testing
-/
-talos
-/
-talos
-/
-unittests
-/
 test_test
 .
 py
@@ -581,8 +569,6 @@ talos
 unittests
 /
 test_xtalos
-/
-test_etlparser
 .
 py
 -
