@@ -48,13 +48,6 @@ mozilla
 .
 org
 "
-version
-:
-"
-1
-.
-0
-"
 }
 orderHint
 :
@@ -109,13 +102,6 @@ search
 mozilla
 .
 org
-"
-version
-:
-"
-1
-.
-0
 "
 }
 orderHint

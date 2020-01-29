@@ -183,6 +183,16 @@ is
 Remote
 Settings
 _
+Search
+Engine
+WebExtension
+updates
+will
+be
+delivered
+by
+Normandy
+.
 Remote
 settings
 -
