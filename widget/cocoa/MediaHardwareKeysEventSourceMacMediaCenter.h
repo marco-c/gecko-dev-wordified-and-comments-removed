@@ -123,6 +123,17 @@ IsOpened
 const
 override
 ;
+void
+SetPlaybackState
+(
+dom
+:
+:
+PlaybackState
+aState
+)
+override
+;
 private
 :
 ~
