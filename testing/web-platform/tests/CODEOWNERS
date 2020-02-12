@@ -13,7 +13,6 @@ apiclient
 /
 plinss
 jgraham
-gsnedders
 #
 Prevent
 accidentally
@@ -27,4 +26,3 @@ tools
 third_party
 /
 jgraham
-gsnedders
