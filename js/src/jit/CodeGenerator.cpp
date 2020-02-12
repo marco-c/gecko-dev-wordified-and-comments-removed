@@ -20505,7 +20505,7 @@ defined
 (
 JS_NUNBOX32
 )
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherRegExpReg
 !
@@ -20513,7 +20513,7 @@ RegExpMatcherRegExpReg
 JSReturnReg_Type
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherRegExpReg
 !
@@ -20521,7 +20521,7 @@ RegExpMatcherRegExpReg
 JSReturnReg_Data
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherStringReg
 !
@@ -20529,7 +20529,7 @@ RegExpMatcherStringReg
 JSReturnReg_Type
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherStringReg
 !
@@ -20537,7 +20537,7 @@ RegExpMatcherStringReg
 JSReturnReg_Data
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherLastIndexReg
 !
@@ -20545,7 +20545,7 @@ RegExpMatcherLastIndexReg
 JSReturnReg_Type
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherLastIndexReg
 !
@@ -20559,7 +20559,7 @@ defined
 (
 JS_PUNBOX64
 )
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherRegExpReg
 !
@@ -20567,7 +20567,7 @@ RegExpMatcherRegExpReg
 JSReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherStringReg
 !
@@ -20575,7 +20575,7 @@ RegExpMatcherStringReg
 JSReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpMatcherLastIndexReg
 !
@@ -21794,7 +21794,7 @@ output
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterRegExpReg
 !
@@ -21802,7 +21802,7 @@ RegExpTesterRegExpReg
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterStringReg
 !
@@ -21810,7 +21810,7 @@ RegExpTesterStringReg
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterLastIndexReg
 !
@@ -22572,7 +22572,7 @@ output
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterRegExpReg
 !
@@ -22580,7 +22580,7 @@ RegExpTesterRegExpReg
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterStringReg
 !
@@ -22588,7 +22588,7 @@ RegExpTesterStringReg
 ReturnReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 RegExpTesterLastIndexReg
 !

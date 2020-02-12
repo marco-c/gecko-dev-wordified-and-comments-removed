@@ -476,7 +476,7 @@ JSReturnReg_Type
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 static
@@ -487,7 +487,7 @@ JSReturnReg_Data
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 static
@@ -498,7 +498,7 @@ JSReturnReg
 Registers
 :
 :
-invalid_reg
+invalid_reg2
 }
 ;
 #
