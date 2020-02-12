@@ -47031,6 +47031,8 @@ callNode
 OptionalEmitter
 &
 oe
+ValueUsage
+valueUsage
 )
 {
 /
@@ -47220,10 +47222,7 @@ ArgumentsKind
 :
 :
 Other
-ValueUsage
-:
-:
-WantValue
+valueUsage
 )
 ;
 ParseNode
@@ -48583,6 +48582,17 @@ pn
 OptionalEmitter
 &
 oe
+ValueUsage
+valueUsage
+/
+*
+=
+ValueUsage
+:
+:
+WantValue
+*
+/
 )
 {
 if
@@ -48935,6 +48945,7 @@ CallNode
 (
 )
 oe
+valueUsage
 )
 )
 {
@@ -49517,6 +49528,8 @@ emitOptionalChain
 UnaryNode
 *
 optionalChain
+ValueUsage
+valueUsage
 )
 {
 ParseNode
@@ -49550,6 +49563,7 @@ emitOptionalTree
 (
 expr
 oe
+valueUsage
 )
 )
 {
@@ -63406,6 +63420,7 @@ UnaryNode
 >
 (
 )
+valueUsage
 )
 )
 {
