@@ -2383,7 +2383,7 @@ urlbar
 .
 update1
 .
-expandTextOnFocus
+searchTips
 "
 false
 )
@@ -2395,9 +2395,9 @@ browser
 .
 urlbar
 .
-update1
+update2
 .
-searchTips
+expandTextOnFocus
 "
 false
 )
