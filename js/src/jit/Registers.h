@@ -279,6 +279,7 @@ return
 r
 ;
 }
+constexpr
 static
 Register
 Invalid
