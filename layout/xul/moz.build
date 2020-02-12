@@ -286,11 +286,6 @@ nsDocElementBoxFrame
 cpp
 '
 '
-nsGroupBoxFrame
-.
-cpp
-'
-'
 nsImageBoxFrame
 .
 cpp
