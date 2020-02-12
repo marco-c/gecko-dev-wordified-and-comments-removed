@@ -243,7 +243,8 @@ PositionChangedResult
 uint8_t
 {
 NotChanged
-Changed
+Position
+Zoom
 Invisible
 }
 ;
