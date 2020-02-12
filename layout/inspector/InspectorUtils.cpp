@@ -2222,8 +2222,6 @@ NS_ERROR_FAILURE
 )
 ;
 }
-return
-;
 }
 void
 InspectorUtils
