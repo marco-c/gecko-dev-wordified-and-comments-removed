@@ -597,15 +597,9 @@ Destroy
 (
 )
 ;
-static
 void
-DeferredDestroy
+AfterDestroy
 (
-RefPtr
-<
-VRManagerChild
->
-aVRManagerChild
 )
 ;
 PVRLayerChild
