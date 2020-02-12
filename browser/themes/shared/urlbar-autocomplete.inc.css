@@ -445,7 +445,7 @@ var
 (
 -
 -
-urlbar
+panel
 -
 separator
 -
@@ -3207,9 +3207,9 @@ var
 (
 -
 -
-urlbar
+panel
 -
-separator
+disabled
 -
 color
 )
