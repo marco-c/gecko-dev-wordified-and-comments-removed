@@ -1511,6 +1511,9 @@ test_types
 =
 [
 "
+crashtest
+"
+"
 testharness
 "
 "
