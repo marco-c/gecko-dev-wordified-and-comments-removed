@@ -174,7 +174,9 @@ end
 \
 count
 cache
+innerWindowID
 timings
+\
 redirect
 .
 .
@@ -2819,7 +2821,9 @@ end
 \
 count
 cache
+innerWindowID
 timings
+\
 redirect
 .
 .
@@ -2837,8 +2841,10 @@ end
 count
 \
 cache
+innerWindowID
 timings
 redirect
+\
 #
 #
 __VA_ARGS__
@@ -2875,6 +2881,8 @@ net
 :
 CacheDisposition
 aCacheDisposition
+uint64_t
+aInnerWindowID
 const
 mozilla
 :
