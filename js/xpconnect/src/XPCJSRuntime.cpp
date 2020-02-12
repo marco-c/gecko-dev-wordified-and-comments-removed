@@ -1000,7 +1000,6 @@ mWrappedJSMap
 new
 JSObject2WrappedJSMap
 (
-XPC_JS_MAP_LENGTH
 )
 )
 mScope
@@ -16329,7 +16328,6 @@ mWrappedJSMap
 new
 JSObject2WrappedJSMap
 (
-XPC_JS_MAP_LENGTH
 )
 )
 mIID2NativeInterfaceMap
@@ -16337,7 +16335,6 @@ mIID2NativeInterfaceMap
 new
 IID2NativeInterfaceMap
 (
-XPC_NATIVE_INTERFACE_MAP_LENGTH
 )
 )
 mClassInfo2NativeSetMap
@@ -16345,7 +16342,6 @@ mClassInfo2NativeSetMap
 new
 ClassInfo2NativeSetMap
 (
-XPC_NATIVE_SET_MAP_LENGTH
 )
 )
 mNativeSetMap
@@ -16353,7 +16349,6 @@ mNativeSetMap
 new
 NativeSetMap
 (
-XPC_NATIVE_SET_MAP_LENGTH
 )
 )
 mWrappedNativeScopes
@@ -16364,7 +16359,6 @@ mDyingWrappedNativeProtoMap
 new
 XPCWrappedNativeProtoMap
 (
-XPC_DYING_NATIVE_PROTO_MAP_LENGTH
 )
 )
 mGCIsRunning

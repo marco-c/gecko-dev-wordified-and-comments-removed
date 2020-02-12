@@ -252,7 +252,6 @@ mWrappedNativeMap
 new
 Native2WrappedNativeMap
 (
-XPC_NATIVE_MAP_LENGTH
 )
 )
 mWrappedNativeProtoMap
@@ -260,7 +259,6 @@ mWrappedNativeProtoMap
 new
 ClassInfo2WrappedNativeProtoMap
 (
-XPC_NATIVE_PROTO_MAP_LENGTH
 )
 )
 mComponents
