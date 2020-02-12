@@ -70525,7 +70525,7 @@ Some
 browserChild
 -
 >
-GetRemoteDocumentRect
+GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
 .

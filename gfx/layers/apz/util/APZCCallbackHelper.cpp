@@ -1287,7 +1287,7 @@ ContentProcessIsLayerInUiProcess
 )
 msg
 .
-GetRemoteDocumentRect
+GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
 )

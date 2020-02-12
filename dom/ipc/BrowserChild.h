@@ -1221,7 +1221,7 @@ mozilla
 :
 ScreenRect
 &
-aRemoteDocumentRect
+aTopLevelViewportVisibleRectInBrowserCoords
 )
 ;
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -3097,7 +3097,7 @@ mozilla
 :
 :
 ScreenRect
-GetRemoteDocumentRect
+GetTopLevelViewportVisibleRectInBrowserCoords
 (
 )
 const
@@ -4047,7 +4047,7 @@ LayoutDeviceToLayoutDeviceMatrix4x4
 mChildToParentConversionMatrix
 ;
 ScreenRect
-mRemoteDocumentRect
+mTopLevelViewportVisibleRectInBrowserCoords
 ;
 #
 ifdef
