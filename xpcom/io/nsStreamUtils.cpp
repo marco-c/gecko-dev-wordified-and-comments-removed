@@ -147,6 +147,8 @@ public
 CancelableRunnable
 public
 nsIInputStreamCallback
+public
+nsIRunnablePriority
 {
 public
 :
@@ -163,6 +165,8 @@ aCallback
 nsIEventTarget
 *
 aTarget
+uint32_t
+aPriority
 )
 :
 CancelableRunnable
@@ -176,6 +180,10 @@ aCallback
 mTarget
 (
 aTarget
+)
+mPriority
+(
+aPriority
 )
 {
 }
@@ -236,6 +244,7 @@ nsInputStreamReadyEvent
 "
 mCallback
 mTarget
+mPriority
 )
 ;
 mCallback
@@ -388,6 +397,24 @@ return
 NS_OK
 ;
 }
+NS_IMETHOD
+GetPriority
+(
+uint32_t
+*
+aPriority
+)
+override
+{
+*
+aPriority
+=
+mPriority
+;
+return
+NS_OK
+;
+}
 private
 :
 nsCOMPtr
@@ -408,6 +435,9 @@ nsIEventTarget
 >
 mTarget
 ;
+uint32_t
+mPriority
+;
 }
 ;
 NS_IMPL_ISUPPORTS_INHERITED
@@ -415,6 +445,7 @@ NS_IMPL_ISUPPORTS_INHERITED
 nsInputStreamReadyEvent
 CancelableRunnable
 nsIInputStreamCallback
+nsIRunnablePriority
 )
 class
 nsOutputStreamReadyEvent
@@ -703,6 +734,8 @@ aCallback
 nsIEventTarget
 *
 aTarget
+uint32_t
+aPriority
 )
 {
 NS_ASSERTION
@@ -735,6 +768,7 @@ nsInputStreamReadyEvent
 aName
 aCallback
 aTarget
+aPriority
 )
 ;
 return

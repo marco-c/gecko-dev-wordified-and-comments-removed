@@ -32,6 +32,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsIRunnable
+.
+h
+"
 class
 nsIAsyncInputStream
 ;
@@ -64,6 +71,13 @@ aNotify
 nsIEventTarget
 *
 aTarget
+uint32_t
+aPriority
+=
+nsIRunnablePriority
+:
+:
+PRIORITY_NORMAL
 )
 ;
 extern

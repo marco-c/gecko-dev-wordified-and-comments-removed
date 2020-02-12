@@ -150,6 +150,11 @@ nsIInputStreamLength
 idl
 '
 '
+nsIInputStreamPriority
+.
+idl
+'
+'
 nsIInputStreamTee
 .
 idl
