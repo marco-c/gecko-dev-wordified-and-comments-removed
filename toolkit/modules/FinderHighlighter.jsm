@@ -8189,11 +8189,6 @@ this
 )
 ;
 }
-notifyDocumentCreated
-(
-)
-{
-}
 notifyDocumentStateChanged
 (
 aDirty
