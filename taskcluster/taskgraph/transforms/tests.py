@@ -1899,10 +1899,9 @@ project
         
 Any
 (
-TEST_VARIANTS
-.
-keys
+list
 (
+TEST_VARIANTS
 )
 )
 )

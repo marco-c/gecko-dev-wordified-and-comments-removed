@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 logging
+import
+six
 from
 .
 .
@@ -242,6 +244,10 @@ for
 name
 job
 in
+six
+.
+iteritems
+(
 config
 .
 get
@@ -252,9 +258,6 @@ jobs
 {
 }
 )
-.
-iteritems
-(
 )
 :
             
@@ -347,10 +350,11 @@ for
 name
 job
 in
-tasks
+six
 .
 iteritems
 (
+tasks
 )
 :
                 

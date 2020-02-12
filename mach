@@ -148,7 +148,6 @@ artifact
 awsy
 -
 test
-bootstrap
 browsertime
 build
 build

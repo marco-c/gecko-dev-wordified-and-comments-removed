@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 re
+import
+six
 INTEGRATION_PROJECTS
 =
 {
@@ -301,10 +303,11 @@ for
 kwkey
 kwval
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
         
@@ -452,10 +455,11 @@ for
 k
 v
 in
-attributes
+six
 .
 iteritems
 (
+attributes
 )
 if
 re
