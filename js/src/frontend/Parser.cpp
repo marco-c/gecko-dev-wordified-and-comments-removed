@@ -52600,7 +52600,7 @@ begin
 Node
 operand
 =
-memberExpr
+optionalExpr
 (
 yieldHandling
 TripledotProhibited
