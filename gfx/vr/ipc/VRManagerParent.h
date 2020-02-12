@@ -148,6 +148,12 @@ PVRManagerParent
 aEndpoint
 )
 ;
+static
+void
+Shutdown
+(
+)
+;
 bool
 IsSameProcess
 (
@@ -436,6 +442,12 @@ RecvResetPuppet
 private
 :
 void
+ActorDealloc
+(
+)
+override
+;
+void
 RegisterWithManager
 (
 )
@@ -466,8 +478,9 @@ VRManagerParent
 aVRManager
 )
 ;
+static
 void
-DeferredDestroy
+ShutdownInternal
 (
 )
 ;

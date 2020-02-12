@@ -214,6 +214,11 @@ Shutdown
 (
 )
 ;
+void
+ShutdownVRManagerParents
+(
+)
+;
 #
 if
 !
