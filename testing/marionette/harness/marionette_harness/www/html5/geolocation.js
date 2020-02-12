@@ -4,7 +4,7 @@ success
 position
 )
 {
-var
+let
 message
 =
 document
@@ -198,7 +198,7 @@ error
 msg
 )
 {
-var
+let
 message
 =
 document
@@ -245,13 +245,13 @@ else
 {
 error
 (
-'
+"
 Geolocation
 is
 not
 supported
 .
-'
+"
 )
 ;
 }
