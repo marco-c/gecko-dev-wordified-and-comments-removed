@@ -283,6 +283,7 @@ binCompilationInfo
 (
 gCx
 allocScope
+options
 )
 ;
 if
@@ -290,10 +291,9 @@ if
 !
 binCompilationInfo
 .
-initFromOptions
+init
 (
 gCx
-options
 )
 )
 {

@@ -1517,6 +1517,7 @@ compilationInfo
 (
 cx
 allocScope
+txtOptions
 )
 ;
 if
@@ -1524,10 +1525,9 @@ if
 !
 compilationInfo
 .
-initFromOptions
+init
 (
 cx
-txtOptions
 )
 )
 {
@@ -1760,6 +1760,7 @@ binCompilationInfo
 (
 cx
 allocScope
+binOptions
 )
 ;
 if
@@ -1767,10 +1768,9 @@ if
 !
 binCompilationInfo
 .
-initFromOptions
+init
 (
 cx
-binOptions
 )
 )
 {
