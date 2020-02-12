@@ -16144,7 +16144,7 @@ value
 data_
 data_
 .
-scope
+scopeForInternalWriting
 (
 )
 cloneDataPolicy
