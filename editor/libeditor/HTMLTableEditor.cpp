@@ -3857,8 +3857,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 &
 aTableElement

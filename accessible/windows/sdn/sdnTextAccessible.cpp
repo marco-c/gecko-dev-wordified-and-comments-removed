@@ -725,8 +725,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 mAccessible
 -

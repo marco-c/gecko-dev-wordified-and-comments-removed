@@ -19736,8 +19736,10 @@ nsRange
 >
 jumpToRange
 =
-new
 nsRange
+:
+:
+Create
 (
 mDocument
 )
@@ -32481,8 +32483,10 @@ nsRange
 >
 range
 =
-new
 nsRange
+:
+:
+Create
 (
 aNode
 )
