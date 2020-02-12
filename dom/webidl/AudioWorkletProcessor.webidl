@@ -156,12 +156,6 @@ Throws
 ]
 constructor
 (
-optional
-AudioWorkletNodeOptions
-options
-=
-{
-}
 )
 ;
 readonly
