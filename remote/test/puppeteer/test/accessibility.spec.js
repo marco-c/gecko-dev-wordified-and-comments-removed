@@ -42,7 +42,7 @@ afterEach
 =
 testRunner
 ;
-describe
+describe_fails_ffox
 (
 '
 Accessibility
@@ -785,7 +785,6 @@ setContent
 (
 <
 textarea
-autofocus
 >
 hi
 <
@@ -877,7 +876,7 @@ children
 role
 :
 '
-GenericContainer
+generic
 '
 name
 :
@@ -1635,7 +1634,7 @@ image
 role
 :
 '
-GenericContainer
+generic
 '
 name
 :
@@ -2130,7 +2129,7 @@ toEqual
 role
 :
 '
-GenericContainer
+generic
 '
 name
 :
@@ -2239,7 +2238,7 @@ toEqual
 role
 :
 '
-GenericContainer
+generic
 '
 name
 :
@@ -2714,7 +2713,7 @@ golden
 }
 )
 ;
-describe_fails_ffox
+describe
 (
 '
 root
@@ -3279,7 +3278,7 @@ toEqual
 role
 :
 '
-GenericContainer
+generic
 '
 name
 :
@@ -3300,6 +3299,23 @@ name
 My
 Button
 '
+children
+:
+[
+{
+role
+:
+'
+text
+'
+name
+:
+'
+My
+Button
+'
+}
+]
 }
 ]
 }
