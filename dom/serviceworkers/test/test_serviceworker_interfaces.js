@@ -24,7 +24,7 @@ name
 "
 Atomics
 "
-earlyBetaOrEalier
+earlyBetaOrEarlier
 :
 true
 }
@@ -154,7 +154,7 @@ name
 "
 SharedArrayBuffer
 "
-earlyBetaOrEalier
+earlyBetaOrEarlier
 :
 true
 }
@@ -713,7 +713,7 @@ isRelease
 |
 entry
 .
-earlyBetaOrEalier
+earlyBetaOrEarlier
 =
 =
 =
