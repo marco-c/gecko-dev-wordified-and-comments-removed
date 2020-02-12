@@ -248,9 +248,8 @@ result
 ;
 result
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Bad
 request
@@ -689,9 +688,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Unknown
 Client
@@ -729,9 +727,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Client
 load
@@ -809,9 +806,8 @@ result
 ;
 result
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Invalid
 worker
@@ -1047,9 +1043,8 @@ result
 ;
 result
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Document
 is
@@ -1122,9 +1117,8 @@ result
 ;
 result
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Document
 '

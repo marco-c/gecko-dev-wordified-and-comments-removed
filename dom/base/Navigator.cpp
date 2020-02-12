@@ -3935,9 +3935,8 @@ get
 ;
 aRv
 .
-ThrowDOMException
+ThrowSecurityError
 (
-NS_ERROR_DOM_SECURITY_ERR
 message
 )
 ;
@@ -3977,9 +3976,8 @@ get
 ;
 aRv
 .
-ThrowDOMException
+ThrowSecurityError
 (
-NS_ERROR_DOM_SECURITY_ERR
 message
 )
 ;
@@ -4034,9 +4032,8 @@ spec
 {
 aRv
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 "
 Handler
 URI

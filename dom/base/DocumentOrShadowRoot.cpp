@@ -551,9 +551,8 @@ IsConstructed
 return
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 Each
 adopted
@@ -564,9 +563,9 @@ be
 created
 through
 the
-"
-"
 Constructable
+"
+"
 StyleSheets
 API
 "
@@ -594,9 +593,8 @@ OwnerDoc
 return
 aRv
 .
-ThrowDOMException
+ThrowNotAllowedError
 (
-NS_ERROR_DOM_NOT_ALLOWED_ERR
 "
 Each
 adopted

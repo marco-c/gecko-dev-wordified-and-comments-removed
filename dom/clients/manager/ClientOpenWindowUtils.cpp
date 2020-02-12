@@ -304,9 +304,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Document
 is
@@ -690,9 +689,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 openWindow
 aborted
@@ -1494,9 +1492,8 @@ result
 ;
 result
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 "
 Bad
 URL
@@ -1553,9 +1550,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 No
 browsing

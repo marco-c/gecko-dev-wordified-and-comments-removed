@@ -3622,9 +3622,8 @@ nameSpaceID
 {
 aRv
 .
-ThrowDOMException
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
 nsPrintfCString
 (
 "
@@ -3666,9 +3665,8 @@ nameAtom
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -3757,9 +3755,8 @@ name
 ;
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -3845,9 +3842,8 @@ kNameSpaceID_XHTML
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "
@@ -3971,9 +3967,8 @@ mIsCustomDefinitionRunning
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Cannot
 define
@@ -5033,9 +5028,8 @@ GetShadowRoot
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 nsPrintfCString
 (
 "

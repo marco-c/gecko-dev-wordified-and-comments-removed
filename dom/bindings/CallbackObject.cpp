@@ -1024,9 +1024,8 @@ wrappedCallback
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Cannot
 execute
@@ -1091,9 +1090,8 @@ Allowed
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Refusing
 to
@@ -1154,9 +1152,8 @@ HasActiveDocument
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Refusing
 to
@@ -1216,9 +1213,8 @@ HasJSGlobal
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Refusing
 to
@@ -1284,9 +1280,8 @@ HasJSGlobal
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Refusing
 to

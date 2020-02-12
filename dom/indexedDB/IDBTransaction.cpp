@@ -4072,10 +4072,7 @@ IsCommittingOrFinished
 {
 aRv
 .
-ThrowDOMException
-(
-NS_ERROR_DOM_INVALID_STATE_ERR
-NS_LITERAL_CSTRING
+ThrowInvalidStateError
 (
 "
 Transaction
@@ -4086,7 +4083,6 @@ or
 done
 .
 "
-)
 )
 ;
 return

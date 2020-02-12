@@ -531,9 +531,8 @@ else
 {
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 We
 can

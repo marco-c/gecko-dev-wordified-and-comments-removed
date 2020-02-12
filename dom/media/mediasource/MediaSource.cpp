@@ -531,9 +531,8 @@ containerType
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Unknown
 type
@@ -560,9 +559,8 @@ CANPLAY_NO
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -627,9 +625,8 @@ media_mediasource_mp4_enabled
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -744,9 +741,8 @@ aDiagnostics
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -799,9 +795,8 @@ media_mediasource_webm_audio_enabled
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Can
 '
@@ -818,9 +813,8 @@ return
 return
 aRv
 .
-ThrowDOMException
+ThrowNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Type
 not

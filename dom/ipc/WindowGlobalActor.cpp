@@ -662,9 +662,8 @@ get
 ;
 aRv
 .
-ThrowDOMException
+ThrowNotFoundError
 (
-NS_ERROR_DOM_NOT_FOUND_ERR
 message
 )
 ;

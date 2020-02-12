@@ -230,9 +230,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Can
 '
@@ -368,9 +367,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Failed
 to

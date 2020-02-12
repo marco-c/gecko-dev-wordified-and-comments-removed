@@ -939,9 +939,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowSecurityError
 (
-NS_ERROR_DOM_SECURITY_ERR
 message
 )
 ;

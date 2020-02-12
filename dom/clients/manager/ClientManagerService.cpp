@@ -1290,9 +1290,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Unknown
 client
@@ -1414,9 +1413,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Client
 is
@@ -2190,9 +2188,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 err
 )
 ;
@@ -2688,9 +2685,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Unknown
 client
@@ -2787,9 +2783,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Unknown
 client
@@ -3040,9 +3035,8 @@ rv
 ;
 rv
 .
-ThrowDOMException
+ThrowAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 Opening
 window

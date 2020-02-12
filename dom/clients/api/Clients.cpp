@@ -1645,9 +1645,8 @@ Activated
 {
 aRv
 .
-ThrowDOMException
+ThrowInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Service
 worker
