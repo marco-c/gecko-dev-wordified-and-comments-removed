@@ -304,6 +304,17 @@ override
 ;
 virtual
 void
+SetDamage
+(
+const
+nsIntRegion
+&
+aDamageRegion
+)
+override
+;
+virtual
+void
 GetWSIInfo
 (
 nsCString
@@ -496,6 +507,9 @@ bool
 mOwnsContext
 =
 true
+;
+nsIntRegion
+mDamageRegion
 ;
 static
 EGLSurface

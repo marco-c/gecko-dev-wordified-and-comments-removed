@@ -2070,6 +2070,12 @@ gfx
 IntSize
 mViewportSize
 ;
+gfx
+:
+:
+IntRegion
+mCurrentFrameInvalidRegion
+;
 ShaderProgramOGL
 *
 mCurrentProgram
