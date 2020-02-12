@@ -105,6 +105,10 @@ FileDescriptor
 >
 &
 aBrokerFd
+const
+bool
+&
+aCanRecordReleaseTelemetry
 )
 ;
 mozilla

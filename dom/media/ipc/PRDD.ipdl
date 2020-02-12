@@ -252,6 +252,8 @@ vars
 FileDescriptor
 ?
 sandboxBroker
+bool
+canRecordReleaseTelemetry
 )
 ;
 async
