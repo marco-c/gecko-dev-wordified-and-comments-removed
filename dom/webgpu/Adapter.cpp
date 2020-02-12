@@ -265,9 +265,8 @@ else
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 "
 Unable
 to

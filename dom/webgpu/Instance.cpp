@@ -405,9 +405,8 @@ isSome
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithAbortError
 (
-NS_ERROR_DOM_ABORT_ERR
 "
 Internal
 communication
@@ -422,9 +421,8 @@ else
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 No
 matching

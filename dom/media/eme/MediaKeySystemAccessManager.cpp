@@ -267,9 +267,8 @@ mPromise
 mPromise
 -
 >
-MaybeReject
+MaybeRejectWithInvalidAccessError
 (
-NS_ERROR_DOM_INVALID_ACCESS_ERR
 NS_ConvertUTF16toUTF8
 (
 aReason
@@ -301,9 +300,8 @@ mPromise
 mPromise
 -
 >
-MaybeReject
+MaybeRejectWithNotSupportedError
 (
-NS_ERROR_DOM_NOT_SUPPORTED_ERR
 NS_ConvertUTF16toUTF8
 (
 aReason

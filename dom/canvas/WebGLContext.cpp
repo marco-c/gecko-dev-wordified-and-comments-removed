@@ -9788,9 +9788,8 @@ IsContextLost
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Can
 not

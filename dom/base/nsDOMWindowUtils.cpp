@@ -20458,9 +20458,8 @@ else
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 The
 composition
@@ -20492,9 +20491,8 @@ ResponseRejectReason
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 Could
 not
@@ -20696,9 +20694,8 @@ else
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithInvalidStateError
 (
-NS_ERROR_DOM_INVALID_STATE_ERR
 "
 The
 composition
@@ -20730,9 +20727,8 @@ ResponseRejectReason
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithUnknownError
 (
-NS_ERROR_DOM_UNKNOWN_ERR
 "
 Could
 not
@@ -20786,9 +20782,8 @@ aFrames
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithUnknownError
 (
-NS_ERROR_DOM_UNKNOWN_ERR
 "
 Could
 not
@@ -20918,9 +20913,8 @@ char
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithUnknownError
 (
-NS_ERROR_DOM_UNKNOWN_ERR
 "
 Could
 not
@@ -21083,9 +21077,8 @@ ResponseRejectReason
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithUnknownError
 (
-NS_ERROR_DOM_UNKNOWN_ERR
 "
 Could
 not

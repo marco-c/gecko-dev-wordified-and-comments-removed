@@ -44363,10 +44363,7 @@ mAttachingMediaKey
 promise
 -
 >
-MaybeReject
-(
-NS_ERROR_DOM_INVALID_STATE_ERR
-NS_LITERAL_CSTRING
+MaybeRejectWithInvalidStateError
 (
 "
 A
@@ -44378,7 +44375,6 @@ attaching
 operation
 .
 "
-)
 )
 ;
 return
@@ -47908,9 +47904,8 @@ NS_ERROR_NOT_AVAILABLE
 promise
 -
 >
-MaybeRejectWithDOMException
+MaybeRejectWithNotFoundError
 (
-NS_ERROR_DOM_NOT_FOUND_ERR
 "
 The
 object
