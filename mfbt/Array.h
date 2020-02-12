@@ -297,6 +297,7 @@ return
 mArr
 ;
 }
+constexpr
 const_iterator
 begin
 (
@@ -307,6 +308,7 @@ return
 mArr
 ;
 }
+constexpr
 const_iterator
 cbegin
 (
@@ -330,6 +332,7 @@ mArr
 Length
 ;
 }
+constexpr
 const_iterator
 end
 (
@@ -342,6 +345,7 @@ mArr
 Length
 ;
 }
+constexpr
 const_iterator
 cend
 (
