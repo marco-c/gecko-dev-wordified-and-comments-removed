@@ -837,7 +837,7 @@ NumIntArgRegs
 4
 ;
 static
-const
+constexpr
 Register
 IntArgRegs
 [
@@ -852,7 +852,7 @@ r9
 }
 ;
 static
-const
+constexpr
 Register
 CallTempNonArgRegs
 [
@@ -866,7 +866,7 @@ rsi
 }
 ;
 static
-const
+constexpr
 uint32_t
 NumCallTempNonArgRegs
 =
@@ -980,7 +980,7 @@ NumIntArgRegs
 6
 ;
 static
-const
+constexpr
 Register
 IntArgRegs
 [
@@ -997,7 +997,7 @@ r9
 }
 ;
 static
-const
+constexpr
 Register
 CallTempNonArgRegs
 [
@@ -1009,7 +1009,7 @@ rbx
 }
 ;
 static
-const
+constexpr
 uint32_t
 NumCallTempNonArgRegs
 =

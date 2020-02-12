@@ -509,7 +509,7 @@ CallTempReg5
 edx
 ;
 static
-const
+constexpr
 Register
 CallTempNonArgRegs
 [
@@ -525,7 +525,7 @@ edx
 }
 ;
 static
-const
+constexpr
 uint32_t
 NumCallTempNonArgRegs
 =
