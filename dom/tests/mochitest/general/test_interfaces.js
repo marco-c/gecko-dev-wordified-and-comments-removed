@@ -200,7 +200,7 @@ Atomics
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -543,7 +543,7 @@ SharedArrayBuffer
 insecureContext
 :
 true
-nightly
+earlyBetaOrEarlier
 :
 true
 }
@@ -6979,6 +6979,16 @@ entry
 .
 insecureContext
 )
+|
+|
+entry
+.
+earlyBetaOrEarlier
+=
+=
+=
+!
+isEarlyBetaOrEarlier
 |
 |
 entry

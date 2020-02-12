@@ -44,7 +44,7 @@ Atomics
 insecureContext
 :
 true
-nightly
+earlerBetaOrEarlier
 :
 true
 }
@@ -407,7 +407,7 @@ SharedArrayBuffer
 insecureContext
 :
 true
-nightly
+earlerBetaOrEarlier
 :
 true
 }
@@ -1526,6 +1526,7 @@ createInterfaceMap
 (
 {
 isNightly
+isEarlyBetaOrEarlier
 isRelease
 isDesktop
 isAndroid
@@ -1703,6 +1704,16 @@ entry
 .
 insecureContext
 )
+|
+|
+entry
+.
+earlyBetaOrEarlier
+=
+=
+=
+!
+isEarlyBetaOrEarlier
 |
 |
 entry

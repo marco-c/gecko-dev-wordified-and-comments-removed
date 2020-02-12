@@ -24,7 +24,7 @@ name
 "
 Atomics
 "
-nightly
+earlyBetaOrEalier
 :
 true
 }
@@ -154,7 +154,7 @@ name
 "
 SharedArrayBuffer
 "
-nightly
+earlyBetaOrEalier
 :
 true
 }
@@ -516,6 +516,7 @@ createInterfaceMap
 (
 {
 isNightly
+isEarlyBetaOrEarlier
 isRelease
 isDesktop
 isAndroid
@@ -708,6 +709,16 @@ release
 =
 !
 isRelease
+|
+|
+entry
+.
+earlyBetaOrEalier
+=
+=
+=
+!
+isEarlyBetaOrEarlier
 |
 |
 entry
