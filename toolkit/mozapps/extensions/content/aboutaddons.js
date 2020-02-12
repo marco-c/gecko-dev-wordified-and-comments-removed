@@ -9459,14 +9459,6 @@ requestUpdatePosition
 (
 )
 ;
-window
-.
-windowUtils
-.
-flushApzRepaints
-(
-)
-;
 }
 }
 100
