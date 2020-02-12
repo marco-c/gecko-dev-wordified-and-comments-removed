@@ -919,6 +919,7 @@ if
 !
 err
 )
+{
 err
 =
 allocateBranchIsland
@@ -953,6 +954,7 @@ __FILE__
 __LINE__
 )
 ;
+}
 #
 if
 defined
