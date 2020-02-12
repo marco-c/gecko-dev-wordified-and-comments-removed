@@ -35,7 +35,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+Mutex
 .
 h
 "
@@ -44,7 +46,7 @@ include
 "
 mozilla
 /
-Mutex
+UniquePtr
 .
 h
 "
@@ -900,7 +902,7 @@ CacheFileChunkBuffer
 >
 mOldBufs
 ;
-nsAutoPtr
+UniquePtr
 <
 CacheFileChunkReadHandle
 >

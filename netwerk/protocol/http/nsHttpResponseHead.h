@@ -185,6 +185,7 @@ uint16_t
 Status
 (
 )
+const
 ;
 void
 StatusText
@@ -319,6 +320,7 @@ HasHeader
 nsHttpAtom
 h
 )
+const
 ;
 void
 SetContentType
@@ -784,6 +786,7 @@ mCacheControlImmutable
 bool
 mPragmaNoCache
 ;
+mutable
 RecursiveMutex
 mRecursiveMutex
 ;

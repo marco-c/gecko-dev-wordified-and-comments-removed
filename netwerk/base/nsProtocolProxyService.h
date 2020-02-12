@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -693,7 +686,7 @@ mFilterLocalHosts
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 HostInfo
 >

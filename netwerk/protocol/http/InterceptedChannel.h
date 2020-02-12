@@ -72,7 +72,7 @@ mController
 ;
 Maybe
 <
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >

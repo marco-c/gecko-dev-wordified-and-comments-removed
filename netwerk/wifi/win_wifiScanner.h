@@ -4,7 +4,9 @@ once
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -53,7 +55,10 @@ accessPoints
 ;
 private
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 WinWLANLibrary
 >

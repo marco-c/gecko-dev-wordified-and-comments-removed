@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIWebSocketEventService
 .
 h

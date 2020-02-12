@@ -919,7 +919,7 @@ sPreflightCache
 return
 true
 ;
-nsAutoPtr
+UniquePtr
 <
 nsPreflightCache
 >
@@ -945,7 +945,7 @@ sPreflightCache
 =
 newCache
 .
-forget
+release
 (
 )
 ;

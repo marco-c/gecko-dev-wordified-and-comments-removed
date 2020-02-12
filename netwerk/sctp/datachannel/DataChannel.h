@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -1094,7 +1103,7 @@ SendBufferedMessages
 (
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >
@@ -1122,7 +1131,7 @@ SendMsgInternalOrBuffer
 (
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >
@@ -1701,7 +1710,7 @@ PENDING_NONE
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 QueuedDataMessage
 >
@@ -1710,7 +1719,7 @@ mQueuedData
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >
@@ -2337,7 +2346,7 @@ mRecvBuffer
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >

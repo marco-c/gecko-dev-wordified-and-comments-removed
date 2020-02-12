@@ -340,6 +340,7 @@ nsHttpResponseHead
 Status
 (
 )
+const
 {
 RecursiveMutexAutoLock
 monitor
@@ -865,6 +866,7 @@ HasHeader
 nsHttpAtom
 h
 )
+const
 {
 RecursiveMutexAutoLock
 monitor

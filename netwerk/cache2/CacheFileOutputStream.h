@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 CacheFileChunk
 .
 h

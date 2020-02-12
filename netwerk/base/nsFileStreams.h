@@ -7,7 +7,9 @@ nsFileStreams_h__
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -494,7 +496,10 @@ aClearBuf
 true
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsLineBuffer
 <

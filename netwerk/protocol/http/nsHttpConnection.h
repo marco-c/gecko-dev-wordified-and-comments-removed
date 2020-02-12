@@ -35,13 +35,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h

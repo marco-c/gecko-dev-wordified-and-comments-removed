@@ -402,8 +402,10 @@ mTrailers
 {
 mTrailers
 =
-new
+MakeUnique
+<
 nsHttpHeaderArray
+>
 (
 )
 ;

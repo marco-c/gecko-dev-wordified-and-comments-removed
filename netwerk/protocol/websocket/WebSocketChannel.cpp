@@ -246,13 +246,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetCID
 .
 h
@@ -4665,7 +4658,7 @@ stream
 "
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 nsCString
 >
@@ -4739,7 +4732,7 @@ mValue
 =
 temp
 .
-forget
+release
 (
 )
 ;
@@ -4807,7 +4800,7 @@ return
 false
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 nsCString
 >
@@ -4992,7 +4985,7 @@ mValue
 =
 temp
 .
-forget
+release
 (
 )
 ;
@@ -10267,6 +10260,10 @@ mCurrentOut
 DeflatePayload
 (
 mPMCECompressor
+.
+get
+(
+)
 )
 )
 {
@@ -12939,8 +12936,10 @@ serverMaxWindowBits
 }
 mPMCECompressor
 =
-new
+MakeUnique
+<
 PMCECompression
+>
 (
 clientNoContextTakeover
 clientMaxWindowBits
@@ -18382,8 +18381,10 @@ serverMaxWindowBits
 }
 mPMCECompressor
 =
-new
+MakeUnique
+<
 PMCECompression
+>
 (
 serverNoContextTakeover
 serverMaxWindowBits

@@ -3236,8 +3236,10 @@ aContentDispositionFilename
 {
 mContentDispositionFilename
 =
-new
+MakeUnique
+<
 nsString
+>
 (
 aContentDispositionFilename
 )
@@ -9717,7 +9719,10 @@ cacheKeys
 {
 mRedirectedCachekeys
 =
+WrapUnique
+(
 cacheKeys
+)
 ;
 return
 NS_OK
@@ -15742,7 +15747,7 @@ SetCacheKeysRedirectChain
 (
 mRedirectedCachekeys
 .
-forget
+release
 (
 )
 )
@@ -18658,7 +18663,7 @@ void
 ParseServerTimingHeader
 (
 const
-nsAutoPtr
+UniquePtr
 <
 T
 >

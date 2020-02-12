@@ -1419,10 +1419,10 @@ mChannel
 BeginNonIPCRedirect
 (
 responseURI
-*
 mSynthesizedResponseHead
-.
-ptr
+-
+>
+get
 (
 )
 aResponseRedirected

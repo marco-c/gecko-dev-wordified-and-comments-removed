@@ -943,7 +943,10 @@ private
 :
 friend
 class
-nsAutoPtr
+mozilla
+:
+:
+DefaultDelete
 <
 Http2Stream
 >

@@ -2423,8 +2423,10 @@ aContentDispositionFilename
 {
 mContentDispositionFilename
 =
-new
+MakeUnique
+<
 nsString
+>
 (
 aContentDispositionFilename
 )

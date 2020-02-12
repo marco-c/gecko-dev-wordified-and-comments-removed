@@ -2030,11 +2030,15 @@ mLineBuffer
 {
 mLineBuffer
 =
-new
+MakeUnique
+<
 nsLineBuffer
 <
 char
 >
+>
+(
+)
 ;
 }
 return

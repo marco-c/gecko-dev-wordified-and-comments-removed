@@ -1307,10 +1307,11 @@ aInput
 nsIInterceptedBodyCallback
 *
 aCallback
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >
+&
 &
 aHead
 nsICacheInfoChannel
@@ -1361,7 +1362,7 @@ nsIInterceptedBodyCallback
 >
 mCallback
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >
@@ -1546,7 +1547,7 @@ ResetInterception
 void
 OverrideWithSynthesizedResponse
 (
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >

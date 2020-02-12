@@ -49,13 +49,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Attributes
@@ -215,8 +208,11 @@ head
 )
 {
 mResponseHead
-=
+.
+reset
+(
 head
+)
 ;
 }
 NS_DECL_ISUPPORTS
@@ -247,7 +243,7 @@ nsIStreamListener
 >
 mListener
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

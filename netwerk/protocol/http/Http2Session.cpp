@@ -10745,7 +10745,7 @@ SetConnection
 self
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 Http2PushedStream
 >
@@ -10890,7 +10890,7 @@ pushedWeak
 =
 pushedStream
 .
-forget
+release
 (
 )
 ;

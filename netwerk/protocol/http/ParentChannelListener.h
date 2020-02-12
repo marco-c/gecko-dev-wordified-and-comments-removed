@@ -188,7 +188,7 @@ mShouldSuspendIntercept
 bool
 mInterceptCanceled
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >

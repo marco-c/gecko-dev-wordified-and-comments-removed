@@ -128,13 +128,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 ssl
 .
 h
@@ -1188,7 +1181,7 @@ Relaxed
 >
 mSelfAddrIsSet
 ;
-nsAutoPtr
+UniquePtr
 <
 NetAddr
 >

@@ -168,13 +168,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsNetUtil
 .
 h
@@ -6746,7 +6739,7 @@ SendBufferedMessages
 (
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >
@@ -13245,7 +13238,7 @@ SendMsgInternalOrBuffer
 (
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 BufferedOutgoingMsg
 >

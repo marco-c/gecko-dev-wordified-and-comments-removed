@@ -1703,7 +1703,7 @@ serializedSecurityInfoOut
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 nsHttpResponseHead
 >
@@ -1925,7 +1925,7 @@ MOZ_ASSERT
 mTransaction
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpHeaderArray
 >

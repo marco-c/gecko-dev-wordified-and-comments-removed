@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsProxyRelease
 .
 h
@@ -287,7 +280,10 @@ mReentrantMonitor
 #
 ifdef
 XP_WIN
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 WinWifiScanner
 >

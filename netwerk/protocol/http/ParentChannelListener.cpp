@@ -1519,8 +1519,10 @@ aResponseHead
 {
 mSynthesizedResponseHead
 =
-new
+MakeUnique
+<
 nsHttpResponseHead
+>
 (
 aResponseHead
 )

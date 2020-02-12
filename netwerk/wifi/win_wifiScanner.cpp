@@ -215,12 +215,15 @@ WinWifiScanner
 )
 {
 mWlanLibrary
-=
+.
+reset
+(
 WinWLANLibrary
 :
 :
 Load
 (
+)
 )
 ;
 if
@@ -324,6 +327,7 @@ NS_ERROR_FAILURE
 ScopedWLANObject
 scopedInterfaceList
 (
+*
 mWlanLibrary
 interface_list
 )
@@ -558,6 +562,7 @@ continue
 ScopedWLANObject
 scopedBssList
 (
+*
 mWlanLibrary
 bss_list
 )

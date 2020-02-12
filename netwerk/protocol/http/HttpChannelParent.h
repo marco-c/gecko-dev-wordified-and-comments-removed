@@ -1216,7 +1216,7 @@ nsIAsyncVerifyRedirectCallback
 >
 mRedirectCallback
 ;
-nsAutoPtr
+UniquePtr
 <
 class
 nsHttpChannel

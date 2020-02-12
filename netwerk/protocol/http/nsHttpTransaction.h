@@ -1123,7 +1123,7 @@ mReportedResponseHeader
 bool
 mResponseHeadTaken
 ;
-nsAutoPtr
+UniquePtr
 <
 nsHttpHeaderArray
 >

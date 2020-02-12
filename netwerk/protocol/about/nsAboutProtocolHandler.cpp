@@ -89,13 +89,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIWritablePropertyBag2
 .
 h
