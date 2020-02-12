@@ -10252,11 +10252,6 @@ HasScriptsBlockedBySandbox
 (
 )
 ;
-bool
-InlineScriptAllowedByCSP
-(
-)
-;
 void
 ReportHasScrollLinkedEffect
 (
