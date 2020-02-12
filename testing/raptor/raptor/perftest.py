@@ -1094,6 +1094,21 @@ get_current_platform
 (
 )
         
+LOG
+.
+info
+(
+"
+Platform
+used
+:
+%
+s
+"
+%
+platform
+)
+        
 try
 :
             
