@@ -32640,6 +32640,9 @@ onClose
 this
 .
 closeModal
+showSignInLink
+:
+true
 }
 )
 )

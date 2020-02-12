@@ -1075,6 +1075,11 @@ this
 .
 closeModal
 }
+showSignInLink
+=
+{
+true
+}
 /
 >
 <
