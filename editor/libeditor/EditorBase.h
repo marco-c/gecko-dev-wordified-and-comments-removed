@@ -3321,12 +3321,6 @@ case
 EditAction
 :
 :
-eReplaceOverrideStyleSheet
-:
-case
-EditAction
-:
-:
 eEnableStyleSheet
 :
 case
