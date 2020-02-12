@@ -2227,14 +2227,6 @@ D3D11_RESOURCE_MISC_SHARED
 ;
 if
 (
-gfxVars
-:
-:
-UseWebRender
-(
-)
-|
-|
 !
 NS_IsMainThread
 (
