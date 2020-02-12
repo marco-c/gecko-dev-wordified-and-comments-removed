@@ -3102,6 +3102,15 @@ GetTopLevelViewportVisibleRectInBrowserCoords
 )
 const
 ;
+Maybe
+<
+LayoutDeviceRect
+>
+GetTopLevelViewportVisibleRectInSelfCoords
+(
+)
+const
+;
 void
 FlushAllCoalescedMouseData
 (
