@@ -255,11 +255,16 @@ get
 ;
 #
 endif
+#
+ifndef
+MOZ_TSAN
 PR_UnloadLibrary
 (
 mCupsLib
 )
 ;
+#
+endif
 mCupsLib
 =
 nullptr

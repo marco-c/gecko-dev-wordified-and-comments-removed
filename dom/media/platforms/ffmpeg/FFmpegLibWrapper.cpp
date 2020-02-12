@@ -834,6 +834,9 @@ nullptr
 )
 ;
 }
+#
+ifndef
+MOZ_TSAN
 if
 (
 mAVUtilLib
@@ -862,6 +865,8 @@ mAVCodecLib
 )
 ;
 }
+#
+endif
 PodZero
 (
 this

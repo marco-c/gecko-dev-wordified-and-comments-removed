@@ -831,6 +831,18 @@ if
 ca_context_create
 )
 {
+#
+ifdef
+MOZ_TSAN
+libcanberra
+=
+nullptr
+;
+return
+NS_OK
+;
+#
+endif
 PR_UnloadLibrary
 (
 libcanberra
@@ -949,6 +961,9 @@ Shutdown
 (
 )
 {
+#
+ifndef
+MOZ_TSAN
 if
 (
 libcanberra
@@ -964,6 +979,8 @@ libcanberra
 nullptr
 ;
 }
+#
+endif
 }
 namespace
 mozilla

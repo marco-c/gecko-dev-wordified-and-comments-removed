@@ -4808,6 +4808,9 @@ gtkver_len
 )
 ;
 }
+#
+ifndef
+MOZ_TSAN
 void
 *
 libpulse
@@ -4900,6 +4903,8 @@ libpulse
 )
 ;
 }
+#
+endif
 rv
 =
 SetPropertyAsACString
