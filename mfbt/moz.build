@@ -407,11 +407,6 @@ NotNull
 h
 '
 '
-NullPtr
-.
-h
-'
-'
 Opaque
 .
 h
