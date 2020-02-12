@@ -218,7 +218,7 @@ asdf
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 error1
 (
@@ -256,7 +256,7 @@ throws
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 error1
 (

@@ -359,7 +359,7 @@ closeCalled
 =
 false
 ;
-assert_throws
+assert_throws_exactly
 (
 passedError
 (

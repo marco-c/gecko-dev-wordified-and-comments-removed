@@ -23,7 +23,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (
@@ -150,7 +150,7 @@ highWaterMark
 }
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 thrownError
 (
@@ -364,7 +364,7 @@ start
 c
 )
 {
-assert_throws
+assert_throws_exactly
 (
 theError
 (
@@ -470,7 +470,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (

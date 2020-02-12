@@ -23,7 +23,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (
@@ -92,7 +92,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (
@@ -160,7 +160,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (
@@ -634,7 +634,7 @@ string
 '
 )
 ;
-assert_throws
+assert_throws_exactly
 (
 theError
 (
