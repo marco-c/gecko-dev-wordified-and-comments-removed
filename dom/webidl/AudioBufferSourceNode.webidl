@@ -206,9 +206,6 @@ options
 }
 )
 ;
-[
-SetterThrows
-]
 attribute
 AudioBuffer
 ?
