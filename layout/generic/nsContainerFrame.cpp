@@ -8764,7 +8764,7 @@ return
 false
 ;
 }
-uint16_t
+StyleAlignFlags
 nsContainerFrame
 :
 :
@@ -8830,7 +8830,10 @@ method
 )
 ;
 return
-NS_STYLE_ALIGN_START
+StyleAlignFlags
+:
+:
+START
 ;
 }
 #

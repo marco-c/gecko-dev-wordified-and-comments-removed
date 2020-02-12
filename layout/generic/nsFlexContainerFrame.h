@@ -393,7 +393,10 @@ GetLineClampValue
 )
 const
 ;
-uint16_t
+mozilla
+:
+:
+StyleAlignFlags
 CSSAlignmentForAbsPosChild
 (
 const
@@ -415,7 +418,12 @@ CalculatePackingSpace
 (
 uint32_t
 aNumThingsToPack
-uint8_t
+const
+mozilla
+:
+:
+StyleContentDistribution
+&
 aAlignVal
 nscoord
 *

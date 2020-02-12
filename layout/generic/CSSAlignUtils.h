@@ -19,6 +19,9 @@ mozilla
 struct
 ReflowInput
 ;
+struct
+StyleAlignFlags
+;
 class
 CSSAlignUtils
 {
@@ -55,7 +58,9 @@ static
 nscoord
 AlignJustifySelf
 (
-uint8_t
+const
+StyleAlignFlags
+&
 aAlignment
 LogicalAxis
 aAxis
