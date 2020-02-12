@@ -1037,6 +1037,7 @@ r
 )
 {
 }
+constexpr
 bool
 operator
 =
@@ -1056,6 +1057,7 @@ other
 reg
 ;
 }
+constexpr
 bool
 operator
 !
@@ -1114,6 +1116,7 @@ l
 )
 {
 }
+constexpr
 bool
 operator
 =
@@ -1141,6 +1144,7 @@ other
 low
 ;
 }
+constexpr
 bool
 operator
 !

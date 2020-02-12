@@ -2108,7 +2108,7 @@ defined
 (
 JS_CODEGEN_X86
 )
-MOZ_ASSERT
+static_assert
 (
 AtomicValReg64
 =
@@ -2120,7 +2120,7 @@ eax
 )
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 AtomicVal2Reg64
 =
