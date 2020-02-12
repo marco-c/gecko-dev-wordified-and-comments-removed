@@ -441,13 +441,7 @@ GetFormat
 (
 )
 dragRect
-IPC
-:
-:
-Principal
-(
 principal
-)
 csp
 )
 ;
@@ -486,13 +480,7 @@ SurfaceFormat
 0
 )
 dragRect
-IPC
-:
-:
-Principal
-(
 principal
-)
 csp
 )
 ;

@@ -349,13 +349,7 @@ aDeviceId
 )
 aWindowId
 tabId
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 )
 )
 ;

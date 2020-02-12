@@ -2667,13 +2667,7 @@ action
 (
 topOuterWindowId
 internalId
-IPC
-:
-:
-Principal
-(
 aTopLevelPrincipal
-)
 methodData
 details
 options
