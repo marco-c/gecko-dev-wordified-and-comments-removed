@@ -5645,7 +5645,7 @@ nsPoint
 *
 contentScrollPos
 =
-GetProperty
+TakeProperty
 (
 ContentScrollPos
 (
@@ -5705,13 +5705,6 @@ RestoreState
 fakePresState
 .
 get
-(
-)
-)
-;
-TakeProperty
-(
-ContentScrollPos
 (
 )
 )

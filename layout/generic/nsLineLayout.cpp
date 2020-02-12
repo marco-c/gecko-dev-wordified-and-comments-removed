@@ -4407,7 +4407,7 @@ pfd
 mFrame
 -
 >
-TakeProperty
+DeleteProperty
 (
 nsIFrame
 :

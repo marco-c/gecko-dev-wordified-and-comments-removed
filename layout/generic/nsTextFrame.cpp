@@ -67483,7 +67483,7 @@ width
 em
 )
 {
-TakeProperty
+DeleteProperty
 (
 TextCombineScaleFactorProperty
 (

@@ -1078,6 +1078,9 @@ aPostDestroyData
 }
 else
 {
+Unused
+<
+<
 TakeProperty
 (
 aProp
@@ -6367,6 +6370,9 @@ IsEmpty
 )
 )
 {
+Unused
+<
+<
 aFrame
 -
 >

@@ -15759,10 +15759,13 @@ Count
 )
 )
 {
+Unused
+<
+<
 frame
 -
 >
-RemoveProperty
+TakeProperty
 (
 WebRenderUserDataProperty
 :

@@ -73012,7 +73012,7 @@ FirstContinuation
 aBlockFrame
 -
 >
-TakeProperty
+DeleteProperty
 (
 nsContainerFrame
 :
