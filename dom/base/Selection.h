@@ -2286,6 +2286,7 @@ static
 nsresult
 GetTableCellLocationFromRange
 (
+const
 nsRange
 *
 aRange
