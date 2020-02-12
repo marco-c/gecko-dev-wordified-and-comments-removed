@@ -25680,7 +25680,7 @@ NS_WARN_IF
 topParent
 -
 >
-IsMozBrowser
+IsMozBrowserElement
 (
 )
 )

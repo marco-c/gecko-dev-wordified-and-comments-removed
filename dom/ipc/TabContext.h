@@ -65,12 +65,6 @@ IsMozBrowserElement
 const
 ;
 bool
-IsMozBrowser
-(
-)
-const
-;
-bool
 IsJSPlugin
 (
 )

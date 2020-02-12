@@ -11649,7 +11649,7 @@ true
 ;
 if
 (
-IsMozBrowser
+IsMozBrowserElement
 (
 )
 )
@@ -13244,7 +13244,7 @@ true
 ;
 if
 (
-IsMozBrowser
+IsMozBrowserElement
 (
 )
 )
