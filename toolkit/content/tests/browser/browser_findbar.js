@@ -1082,7 +1082,7 @@ EventUtils
 synthesizeAndWaitKey
 (
 "
-f
+F
 "
 {
 accelKey
