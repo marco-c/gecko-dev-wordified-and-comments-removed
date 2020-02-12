@@ -4691,9 +4691,6 @@ context
 =
 Context
 {
-is_root_element
-:
-false
 builder
 :
 StyleBuilder

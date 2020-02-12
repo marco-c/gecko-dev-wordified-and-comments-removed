@@ -3307,6 +3307,8 @@ MatchParent
 if
 _context
 .
+builder
+.
 is_root_element
 {
 return

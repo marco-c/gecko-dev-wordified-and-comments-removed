@@ -471,6 +471,9 @@ ComputedFontWeightRange
 ComputedTimingFunction
 "
 "
+ComputedValueFlags
+"
+"
 CursorKind
 "
 "
