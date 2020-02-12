@@ -41,14 +41,6 @@ XZ_OPT
 =
 -
 T0
-ENV
-LANG
-=
-C
-.
-UTF
--
-8
 #
 %
 ARG

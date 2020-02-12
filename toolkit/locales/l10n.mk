@@ -1883,7 +1883,7 @@ PKG_LANGPACK_PATH
 )
 (
 call
-py3_action
+py_action
 langpack_manifest
 -
 -
@@ -1966,7 +1966,7 @@ AB_CD
 )
 (
 call
-py3_action
+py_action
 zip
 -
 C
