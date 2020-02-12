@@ -2731,7 +2731,7 @@ nullptr
 module
 -
 >
-init
+initScriptSlots
 (
 compilationInfo
 .

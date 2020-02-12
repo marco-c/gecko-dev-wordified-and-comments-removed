@@ -1292,7 +1292,7 @@ cx
 )
 ;
 void
-init
+initScriptSlots
 (
 HandleScript
 script
