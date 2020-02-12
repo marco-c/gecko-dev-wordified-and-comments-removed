@@ -1504,8 +1504,12 @@ ApplyPendingPlaybackRate
 (
 )
 ;
-UpdateRelevance
+UpdateEffect
 (
+PostRestyleMode
+:
+:
+Never
 )
 ;
 if
