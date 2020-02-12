@@ -233,6 +233,10 @@ TimingStructArgs
 timings
 int32_t
 proxyConnectResponseCode
+uint8_t
+[
+]
+dataForSniffer
 )
 ;
 async

@@ -318,6 +318,15 @@ NS_HTTP_TRR_MODE_MASK
 )
 #
 define
+NS_HTTP_CALL_CONTENT_SNIFFER
+(
+1
+<
+<
+21
+)
+#
+define
 NS_HTTP_TRR_FLAGS_FROM_MODE
 (
 x
