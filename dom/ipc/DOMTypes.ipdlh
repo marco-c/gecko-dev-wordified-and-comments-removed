@@ -185,6 +185,7 @@ h
 "
 ;
 using
+moveonly
 struct
 mozilla
 :
