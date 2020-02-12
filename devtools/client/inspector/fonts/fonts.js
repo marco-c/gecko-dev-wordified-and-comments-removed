@@ -2561,6 +2561,11 @@ slnt
 :
 value
 =
+-
+value
+;
+value
+=
 oblique
 {
 value
