@@ -527,12 +527,6 @@ type
 for
 text
 -
-underline
--
-offset
-and
-text
--
 decoration
 -
 thickness
@@ -540,7 +534,7 @@ thickness
 /
 /
 which
-take
+takes
 the
 grammar
 of
