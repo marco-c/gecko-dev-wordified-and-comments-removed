@@ -33,6 +33,11 @@ isWorker
 :
 true
 "
+isReplaying
+"
+:
+true
+"
 loader
 "
 :

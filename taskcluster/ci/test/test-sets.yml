@@ -3366,6 +3366,12 @@ chrome
 -
 mochitest
 -
+devtools
+-
+webreplay
+-
+mochitest
+-
 gpu
 -
 mochitest
