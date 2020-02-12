@@ -775,7 +775,7 @@ consoleFront
 await
 panel
 .
-target
+currentTarget
 .
 getFront
 (
