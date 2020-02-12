@@ -274,6 +274,16 @@ n
 "
 leak
 :
+RegisteredThread
+:
+:
+RegisteredThread
+\
+n
+"
+"
+leak
+:
 libcairo
 .
 so
