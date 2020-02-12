@@ -540,16 +540,6 @@ aarch64
 *
 :
 2
-linux
-.
-*
-64
--
-ccov
-/
-opt
-:
-3
 default
 :
 default
