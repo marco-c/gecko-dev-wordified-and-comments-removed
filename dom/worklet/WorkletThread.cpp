@@ -1152,13 +1152,9 @@ WorkletThread
 WorkletThread
 (
 )
-{
-MOZ_ASSERT
-(
-mExitLoop
-)
+=
+default
 ;
-}
 already_AddRefed
 <
 WorkletThread
