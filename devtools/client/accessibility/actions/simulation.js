@@ -26,7 +26,7 @@ exports
 simulate
 =
 (
-simulateFunc
+simulator
 simTypes
 =
 [
@@ -37,9 +37,15 @@ simTypes
 dispatch
 =
 >
-simulateFunc
+simulator
+.
+simulate
 (
+{
+types
+:
 simTypes
+}
 )
 .
 then
