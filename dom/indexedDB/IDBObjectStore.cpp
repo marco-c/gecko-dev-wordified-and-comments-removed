@@ -8150,13 +8150,7 @@ RequestParams
 {
 ObjectStorePutParams
 (
-std
-:
-:
-move
-(
 commonParams
-)
 )
 }
 :
@@ -8164,13 +8158,7 @@ RequestParams
 {
 ObjectStoreAddParams
 (
-std
-:
-:
-move
-(
 commonParams
-)
 )
 }
 ;

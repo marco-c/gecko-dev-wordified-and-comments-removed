@@ -363,8 +363,8 @@ ClientOpPromise
 >
 StartOp
 (
+const
 ClientOpConstructorArgs
-&
 &
 aArgs
 )

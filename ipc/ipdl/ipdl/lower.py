@@ -3187,12 +3187,6 @@ isMoveonly
         
 t
 .
-const
-=
-True
-        
-t
-.
 ref
 =
 True
