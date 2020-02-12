@@ -1181,7 +1181,7 @@ log
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -4118,7 +4118,7 @@ log
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -4396,7 +4396,7 @@ log
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -4961,7 +4961,7 @@ quote
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -7116,7 +7116,7 @@ hashglobe
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -8139,7 +8139,7 @@ servo_arc
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -12630,7 +12630,7 @@ smallbitvec
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -14638,7 +14638,7 @@ traits
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -14787,7 +14787,7 @@ rand
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -20711,7 +20711,7 @@ servo_arc
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -21872,7 +21872,7 @@ version
 "
 1
 .
-0
+2
 .
 0
 "
@@ -21902,7 +21902,7 @@ index
 checksum
 =
 "
-4ecf3b85f68e8abaa7555aa5abdb1153079387e60b718283d732f03897fcfc86
+5c2fb2ec9bcd216a5b0d0ccf31ab17b5ed1d627960edff65bbe95d3ce221cefc
 "
 [
 [
@@ -22513,7 +22513,7 @@ smallbitvec
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -22726,7 +22726,7 @@ size_of_test
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -23852,7 +23852,7 @@ smallbitvec
 smallvec
 1
 .
-0
+2
 .
 0
 "
@@ -26921,7 +26921,7 @@ memory
 smallvec
 1
 .
-0
+2
 .
 0
 "

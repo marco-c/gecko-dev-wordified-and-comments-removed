@@ -125,7 +125,7 @@ version
 "
 1
 .
-0
+2
 .
 0
 "
@@ -173,11 +173,9 @@ https
 :
 /
 /
-doc
+docs
 .
-servo
-.
-org
+rs
 /
 smallvec
 /
