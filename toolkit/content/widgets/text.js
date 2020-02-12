@@ -1817,6 +1817,12 @@ win
 open
 (
 href
+"
+_blank
+"
+"
+noopener
+"
 )
 ;
 }
