@@ -4249,9 +4249,7 @@ new
 CustomEvent
 (
 "
-urlbar
--
-reopen
+tabswitch
 "
 )
 }

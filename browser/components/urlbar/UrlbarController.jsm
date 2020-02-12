@@ -2552,15 +2552,10 @@ keydown
 mousedown
 "
 "
-TabSelect
+tabswitch
 "
 "
 focus
-"
-"
-urlbar
--
-reopen
 "
 ]
 ;
