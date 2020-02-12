@@ -1017,7 +1017,13 @@ RTCPeerConnectionIceErrorEventInit
 EventInit
 {
 DOMString
-hostCandidate
+?
+address
+;
+unsigned
+short
+?
+port
 ;
 DOMString
 url
