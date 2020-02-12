@@ -629,17 +629,6 @@ numExec
 scriptName
 )
 ;
-outFNDA_
-.
-put
-(
-"
-\
-n
-"
-1
-)
-;
 hits
 =
 1
