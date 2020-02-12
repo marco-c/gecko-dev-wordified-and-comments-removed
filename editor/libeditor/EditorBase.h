@@ -205,13 +205,6 @@ h
 #
 include
 "
-nsIPlaintextEditor
-.
-h
-"
-#
-include
-"
 nsISelectionController
 .
 h
@@ -497,7 +490,7 @@ class
 EditorBase
 :
 public
-nsIPlaintextEditor
+nsIEditor
 public
 nsISelectionListener
 public

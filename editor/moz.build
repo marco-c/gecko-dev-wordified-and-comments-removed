@@ -162,11 +162,6 @@ nsIHTMLObjectResizer
 idl
 '
 '
-nsIPlaintextEditor
-.
-idl
-'
-'
 nsITableEditor
 .
 idl
