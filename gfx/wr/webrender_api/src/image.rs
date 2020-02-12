@@ -1502,6 +1502,17 @@ namespace
 IdNamespace
 )
 ;
+fn
+enable_multithreading
+(
+&
+mut
+self
+enable
+:
+bool
+)
+;
 }
 pub
 trait

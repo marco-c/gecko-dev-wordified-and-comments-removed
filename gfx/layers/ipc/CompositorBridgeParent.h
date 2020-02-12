@@ -3584,6 +3584,12 @@ UpdateDebugFlags
 (
 )
 ;
+static
+void
+UpdateWebRenderMultithreading
+(
+)
+;
 Maybe
 <
 CollectedFramesParams

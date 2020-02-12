@@ -1137,6 +1137,13 @@ aEnable
 )
 ;
 void
+EnableMultithreading
+(
+bool
+aEnable
+)
+;
+void
 Pause
 (
 )

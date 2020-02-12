@@ -3539,6 +3539,10 @@ EnableNativeCompositor
 (
 bool
 )
+EnableMultithreading
+(
+bool
+)
 InvalidateGpuCache
 SimulateLongSceneBuild
 (
