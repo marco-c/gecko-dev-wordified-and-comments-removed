@@ -4567,7 +4567,7 @@ waitForEvent
 (
 browser
 "
-PostFullZoomChange
+FullZoomResolutionStable
 "
 )
 ;
