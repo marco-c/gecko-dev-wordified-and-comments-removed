@@ -2135,7 +2135,7 @@ linux64
 node
 macosx64
 -
-gcp
+aws
 /
 debug
 :
@@ -2164,7 +2164,7 @@ name
 :
 macosx64
 -
-gcp
+aws
 -
 debug
 attributes
@@ -2199,7 +2199,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 max
@@ -2232,7 +2232,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
@@ -2361,7 +2361,7 @@ linux64
 node
 macosx64
 -
-gcp
+aws
 /
 opt
 :
@@ -2390,7 +2390,7 @@ name
 :
 macosx64
 -
-gcp
+aws
 -
 opt
 attributes
@@ -2425,7 +2425,7 @@ b
 -
 linux
 -
-gcp
+aws
 worker
 :
 max
@@ -2458,7 +2458,7 @@ manifest
 "
 PERFHERDER_EXTRA_OPTIONS
 :
-gcp
+aws
 run
 :
 using
