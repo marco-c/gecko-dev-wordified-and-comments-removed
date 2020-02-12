@@ -331,11 +331,6 @@ JitcodeMap
 cpp
 '
 '
-JitContext
-.
-cpp
-'
-'
 JitFrames
 .
 cpp

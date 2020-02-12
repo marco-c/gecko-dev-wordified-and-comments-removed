@@ -261,15 +261,6 @@ include
 "
 jit
 /
-Ion
-.
-h
-"
-#
-include
-"
-jit
-/
 JitRealm
 .
 h
@@ -17730,7 +17721,6 @@ jit
 :
 IsBaselineJitEnabled
 (
-cx
 )
 )
 {
@@ -36206,7 +36196,6 @@ jit
 :
 IsBaselineJitEnabled
 (
-cx
 )
 )
 {

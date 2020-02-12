@@ -1177,7 +1177,6 @@ MOZ_ASSERT
 (
 IsBaselineJitEnabled
 (
-cx
 )
 )
 ;
@@ -1348,7 +1347,6 @@ if
 !
 IsBaselineJitEnabled
 (
-cx
 )
 )
 {

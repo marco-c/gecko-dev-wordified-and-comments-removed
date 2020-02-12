@@ -506,12 +506,6 @@ true
 ;
 SET_DEFAULT
 (
-jitForTrustedPrincipals
-false
-)
-;
-SET_DEFAULT
-(
 nativeRegExp
 true
 )

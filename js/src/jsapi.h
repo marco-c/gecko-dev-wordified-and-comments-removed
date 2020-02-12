@@ -8472,16 +8472,6 @@ enable
 \
 Register
 (
-JIT_TRUSTEDPRINCIPALS_ENABLE
-"
-jit_trustedprincipals
-.
-enable
-"
-)
-\
-Register
-(
 ION_CHECK_RANGE_ANALYSIS
 "
 ion
