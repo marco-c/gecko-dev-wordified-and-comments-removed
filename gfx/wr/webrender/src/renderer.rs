@@ -3099,7 +3099,7 @@ VertexAttribute
 name
 :
 "
-aAxisSelect
+aOrientation
 "
 count
 :
@@ -3109,7 +3109,7 @@ kind
 VertexAttributeKind
 :
 :
-F32
+I32
 }
 ]
 }
