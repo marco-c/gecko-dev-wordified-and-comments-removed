@@ -592,7 +592,10 @@ aRect
 x
 <
 =
+float
+(
 LONG_MIN
+)
 ?
 LONG_MIN
 :
@@ -607,7 +610,10 @@ aRect
 y
 <
 =
+float
+(
 LONG_MIN
+)
 ?
 LONG_MIN
 :
@@ -622,7 +628,10 @@ aRect
 z
 >
 =
+float
+(
 LONG_MAX
+)
 ?
 LONG_MAX
 :
@@ -637,7 +646,10 @@ aRect
 w
 >
 =
+float
+(
 LONG_MAX
+)
 ?
 LONG_MAX
 :
