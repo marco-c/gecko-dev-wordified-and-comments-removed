@@ -228,17 +228,6 @@ xfailure
 .
 1
 "
-raw
--
-cpuid
-=
-"
-7
-.
-0
-.
-3
-"
 #
 This
 is

@@ -125,7 +125,6 @@ module_data
 :
 {
 ModuleData
-ModuleFeatures
 MODULE_DATA_SYM
 }
 ;

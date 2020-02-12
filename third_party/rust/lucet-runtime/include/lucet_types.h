@@ -198,9 +198,6 @@ stack_size
 uint64_t
 globals_size
 ;
-uint64_t
-signal_stack_size
-;
 }
 ;
 typedef

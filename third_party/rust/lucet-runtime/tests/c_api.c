@@ -64,12 +64,6 @@ stack_size
 globals_size
 =
 4096
-.
-signal_stack_size
-=
-12
-*
-1024
 }
 ;
 enum
@@ -460,12 +454,6 @@ stack_size
 globals_size
 =
 4096
-.
-signal_stack_size
-=
-12
-*
-1024
 }
 ;
 enum
