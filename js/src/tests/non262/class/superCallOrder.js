@@ -31,6 +31,12 @@ beforeSwizzle
 (
 )
 ;
+function
+MyError
+(
+)
+{
+}
 class
 beforeThrow
 extends
@@ -47,7 +53,7 @@ thrower
 {
 throw
 new
-Error
+MyError
 (
 )
 ;
@@ -81,7 +87,7 @@ new
 beforeThrow
 (
 )
-TypeError
+MyError
 )
 ;
 if

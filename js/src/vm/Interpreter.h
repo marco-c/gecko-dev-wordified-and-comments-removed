@@ -2469,17 +2469,6 @@ HandleObject
 homeObj
 )
 ;
-JSObject
-*
-SuperFunOperation
-(
-JSContext
-*
-cx
-HandleObject
-callee
-)
-;
 bool
 SetPropertySuper
 (

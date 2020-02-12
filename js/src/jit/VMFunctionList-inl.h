@@ -2800,15 +2800,6 @@ SubstringKernel
 \
 _
 (
-SuperFunOperation
-js
-:
-:
-SuperFunOperation
-)
-\
-_
-(
 ThrowBadDerivedReturn
 js
 :
