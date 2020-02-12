@@ -233,7 +233,7 @@ MOCHITEST_CHROME_MANIFESTS
 '
 tests
 /
-mochitest
+chrome
 /
 chrome
 .

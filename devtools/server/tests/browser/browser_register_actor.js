@@ -35,7 +35,7 @@ server
 /
 tests
 /
-mochitest
+chrome
 /
 hello
 -

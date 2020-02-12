@@ -60,7 +60,7 @@ MOCHITEST_CHROME_MANIFESTS
 '
 test
 /
-mochitest
+chrome
 /
 chrome
 .

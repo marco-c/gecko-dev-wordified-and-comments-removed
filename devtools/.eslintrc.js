@@ -269,6 +269,8 @@ webconsole
 /
 test
 /
+chrome
+/
 *
 .
 html

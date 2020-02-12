@@ -119,7 +119,7 @@ MOCHITEST_CHROME_MANIFESTS
 =
 [
 '
-test
+chrome
 /
 chrome
 .

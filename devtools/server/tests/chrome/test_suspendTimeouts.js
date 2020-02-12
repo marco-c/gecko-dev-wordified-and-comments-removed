@@ -52,7 +52,7 @@ server
 /
 tests
 /
-mochitest
+chrome
 /
 suspendTimeouts_content
 .

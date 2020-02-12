@@ -134,7 +134,7 @@ server
 /
 tests
 /
-mochitest
+chrome
 /
 setup
 -
