@@ -1207,11 +1207,6 @@ ErrorResult
 aRv
 )
 ;
-nsresult
-RemoveAllRangesTemporarily
-(
-)
-;
 enum
 class
 FlushFrames
@@ -2551,12 +2546,6 @@ RefPtr
 nsRange
 >
 mAnchorFocusRange
-;
-RefPtr
-<
-nsRange
->
-mCachedRange
 ;
 RefPtr
 <
