@@ -2796,7 +2796,17 @@ mBuffer
 ;
 testDataLen
 =
+std
+:
+:
+min
+<
+uint32_t
+>
+(
 mBufferLen
+MAX_BUFFER_SIZE
+)
 ;
 }
 else
