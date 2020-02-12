@@ -127,7 +127,9 @@ aResult
 this
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 aResult
 )
 {

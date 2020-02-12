@@ -792,7 +792,7 @@ aExnType
 MOZ_MUST_USE
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 MaybeClaimClient
 (
@@ -808,7 +808,7 @@ aWorkerRegistration
 MOZ_MUST_USE
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 MaybeClaimClient
 (
@@ -1065,7 +1065,7 @@ aRegistrar
 ;
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 StartControllingClient
 (

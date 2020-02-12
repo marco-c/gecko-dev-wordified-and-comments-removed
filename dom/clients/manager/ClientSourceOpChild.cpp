@@ -115,6 +115,16 @@ if
 source
 )
 {
+CopyableErrorResult
+rv
+;
+rv
+.
+Throw
+(
+NS_ERROR_DOM_ABORT_ERR
+)
+;
 Unused
 <
 <
@@ -124,7 +134,7 @@ PClientSourceOpChild
 Send__delete__
 (
 this
-NS_ERROR_DOM_ABORT_ERR
+rv
 )
 ;
 return
@@ -206,7 +216,9 @@ this
 promise
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 aRv
 )
 {

@@ -202,7 +202,7 @@ const
 ;
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 Control
 (
@@ -224,7 +224,7 @@ aCallerType
 ;
 RefPtr
 <
-GenericPromise
+GenericErrorResultPromise
 >
 PostMessage
 (
