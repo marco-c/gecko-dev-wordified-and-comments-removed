@@ -177,6 +177,13 @@ sinon
 spy
 (
 )
+getIntPref
+:
+sinon
+.
+spy
+(
+)
 getBoolPref
 :
 sinon
