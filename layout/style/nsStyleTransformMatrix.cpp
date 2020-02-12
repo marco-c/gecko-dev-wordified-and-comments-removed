@@ -498,7 +498,7 @@ TransformReferenceBox
 Init
 (
 const
-nsSize
+nsRect
 &
 aDimensions
 )
@@ -515,11 +515,15 @@ mIsCached
 ;
 mX
 =
-0
+aDimensions
+.
+x
 ;
 mY
 =
-0
+aDimensions
+.
+y
 ;
 mWidth
 =

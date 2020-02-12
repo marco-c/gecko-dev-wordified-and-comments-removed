@@ -12056,10 +12056,8 @@ TransformReferenceBox
 refBox
 (
 mInnerFrame
-nsSize
+nsRect
 (
-0
-0
 )
 )
 ;
