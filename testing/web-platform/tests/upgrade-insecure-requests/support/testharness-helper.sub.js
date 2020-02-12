@@ -1439,6 +1439,8 @@ requestViaSharedWorker
 test
 .
 url
+{
+}
 )
 test
 .
