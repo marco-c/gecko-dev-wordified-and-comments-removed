@@ -397,6 +397,14 @@ aState
 if
 (
 mEventSource
+&
+&
+mEventSource
+-
+>
+IsOpened
+(
+)
 )
 {
 mEventSource
