@@ -174,6 +174,18 @@ ToCss
 ;
 pub
 type
+ImageLayer
+=
+generic
+:
+:
+GenericImageLayer
+<
+Image
+>
+;
+pub
+type
 Image
 =
 generic
@@ -302,7 +314,7 @@ MozImageRect
 generic
 :
 :
-GenericMozImageRect
+MozImageRect
 <
 NumberOrPercentage
 ComputedImageUrl
