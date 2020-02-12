@@ -7047,6 +7047,9 @@ val
 GetCssText
 (
 argumentStr
+IgnoreErrors
+(
+)
 )
 ;
 fitContentStr
@@ -7207,6 +7210,9 @@ argValue
 GetCssText
 (
 argumentStr
+IgnoreErrors
+(
+)
 )
 ;
 minmaxStr
@@ -7249,6 +7255,9 @@ argValue
 GetCssText
 (
 argumentStr
+IgnoreErrors
+(
+)
 )
 ;
 minmaxStr
