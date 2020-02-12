@@ -9541,7 +9541,7 @@ aContent
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -9552,7 +9552,7 @@ DisplayPort
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -62199,7 +62199,7 @@ paintRequestTime
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

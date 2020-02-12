@@ -231,7 +231,7 @@ GetParent
 )
 -
 >
-DeleteProperty
+RemoveProperty
 (
 property
 )

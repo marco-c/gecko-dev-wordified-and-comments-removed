@@ -152,7 +152,7 @@ mOriginatingElement
 mOriginatingElement
 -
 >
-DeleteProperty
+RemoveProperty
 (
 GetCSSPseudoElementPropertyAtom
 (

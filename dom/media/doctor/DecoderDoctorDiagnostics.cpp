@@ -820,7 +820,7 @@ mDocument
 mDocument
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

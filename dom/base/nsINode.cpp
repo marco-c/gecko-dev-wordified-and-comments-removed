@@ -1290,7 +1290,7 @@ void
 nsINode
 :
 :
-DeleteProperty
+RemoveProperty
 (
 const
 nsAtom
@@ -1307,7 +1307,7 @@ PropertyTable
 (
 )
 .
-DeleteProperty
+RemoveProperty
 (
 this
 aPropertyName
@@ -3407,7 +3407,7 @@ AsDocument
 )
 -
 >
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
@@ -3434,7 +3434,7 @@ OwnerDoc
 document
 -
 >
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 this
 )
@@ -7315,7 +7315,7 @@ HasProperties
 tmp
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -7326,7 +7326,7 @@ keepobjectsalive
 tmp
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

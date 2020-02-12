@@ -2605,7 +2605,7 @@ aPropertyValue
 ;
 }
 void
-DeleteProperty
+RemoveProperty
 (
 const
 nsAtom

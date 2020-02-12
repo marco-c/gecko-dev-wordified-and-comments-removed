@@ -672,7 +672,7 @@ nullptr
 aElement
 -
 >
-DeleteProperty
+RemoveProperty
 (
 propName
 )

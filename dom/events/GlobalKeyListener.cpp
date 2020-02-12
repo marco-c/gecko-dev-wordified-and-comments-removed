@@ -2363,7 +2363,7 @@ manager
 aElementTarget
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

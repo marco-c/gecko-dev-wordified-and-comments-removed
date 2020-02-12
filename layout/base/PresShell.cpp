@@ -8271,7 +8271,7 @@ mContentToScrollTo
 mContentToScrollTo
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -22032,7 +22032,7 @@ mContentToScrollTo
 mContentToScrollTo
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -22319,7 +22319,7 @@ frame
 mContentToScrollTo
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -26879,7 +26879,7 @@ mContentToScrollTo
 mContentToScrollTo
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

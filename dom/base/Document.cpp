@@ -14719,7 +14719,7 @@ void
 Document
 :
 :
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 {
@@ -14727,7 +14727,7 @@ PropertyTable
 (
 )
 .
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
@@ -14736,7 +14736,7 @@ void
 Document
 :
 :
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 nsINode
 *
@@ -14747,7 +14747,7 @@ PropertyTable
 (
 )
 .
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 aNode
 )
@@ -57386,7 +57386,7 @@ PropertyTable
 (
 )
 .
-DeleteAllPropertiesFor
+RemoveAllPropertiesFor
 (
 node
 )
@@ -57438,7 +57438,7 @@ rv
 =
 oldTable
 .
-TransferOrDeleteAllPropertiesFor
+TransferOrRemoveAllPropertiesFor
 (
 node
 newTable

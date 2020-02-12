@@ -6477,7 +6477,7 @@ mGeneratedContentWithInitializer
 content
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

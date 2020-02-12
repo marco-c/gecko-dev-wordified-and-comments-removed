@@ -30004,7 +30004,7 @@ NS_HAS_NEWLINE_PROPERTY
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -30035,7 +30035,7 @@ NS_HAS_FLOWLENGTH_PROPERTY
 aContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -33003,7 +33003,7 @@ NS_HAS_NEWLINE_PROPERTY
 mContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -33034,7 +33034,7 @@ NS_HAS_FLOWLENGTH_PROPERTY
 mContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -68654,7 +68654,7 @@ cachedNewlineOffset
 mContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -72117,7 +72117,7 @@ NS_HAS_FLOWLENGTH_PROPERTY
 mContent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

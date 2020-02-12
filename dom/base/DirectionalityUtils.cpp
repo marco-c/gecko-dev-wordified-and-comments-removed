@@ -1671,7 +1671,7 @@ ClearHasDirAutoSet
 aElement
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -2026,7 +2026,7 @@ ClearHasDirAutoSet
 rootNode
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :
@@ -2191,7 +2191,7 @@ ClearHasDirAutoSet
 el
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsGkAtoms
 :

@@ -204,7 +204,7 @@ true
 mElement
 -
 >
-DeleteProperty
+RemoveProperty
 (
 mElementProperty
 )
