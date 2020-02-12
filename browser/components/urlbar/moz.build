@@ -108,6 +108,11 @@ UrlbarProviderExtension
 jsm
 '
 '
+UrlbarProviderInterventions
+.
+jsm
+'
+'
 UrlbarProviderOpenTabs
 .
 jsm
