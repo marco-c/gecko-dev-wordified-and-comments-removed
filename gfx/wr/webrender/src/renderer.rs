@@ -584,10 +584,7 @@ api
 channel
 :
 :
-{
 MsgSender
-PayloadReceiverHelperMethods
-}
 ;
 use
 crate

@@ -45,11 +45,6 @@ core
 text
 "
 "
-crossbeam
--
-utils
-"
-"
 gl_generator
 "
 "
