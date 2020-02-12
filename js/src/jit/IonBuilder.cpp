@@ -74313,6 +74313,8 @@ JS_CODEGEN_X86
 )
 if
 (
+mirGen_
+.
 instrumentedProfiling
 (
 )
