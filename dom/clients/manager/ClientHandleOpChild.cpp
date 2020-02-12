@@ -37,9 +37,14 @@ rv
 ;
 rv
 .
-Throw
+ThrowDOMException
 (
 NS_ERROR_DOM_ABORT_ERR
+"
+Client
+load
+aborted
+"
 )
 ;
 mRejectCallback
