@@ -147,7 +147,7 @@ ServiceWorkerRegistrationData
 aData
 )
 ;
-nsresult
+void
 ServiceWorkerScopeAndScriptAreValid
 (
 const
@@ -160,6 +160,9 @@ aScopeURI
 nsIURI
 *
 aScriptURI
+ErrorResult
+&
+aRv
 )
 ;
 }
