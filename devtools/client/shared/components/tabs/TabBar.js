@@ -214,6 +214,16 @@ PropTypes
 func
 .
 isRequired
+alignRight
+:
+PropTypes
+.
+bool
+canVerticalSplit
+:
+PropTypes
+.
+bool
 }
 )
 }
