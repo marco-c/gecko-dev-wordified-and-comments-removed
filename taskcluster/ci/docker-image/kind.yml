@@ -1346,7 +1346,7 @@ condprof
 )
 parent
 :
-debian10
+ubuntu1804
 -
 test
 visual
