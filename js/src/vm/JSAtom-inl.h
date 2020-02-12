@@ -68,7 +68,7 @@ JSAtom
 atom
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 JSID_INT_MIN
 =
@@ -748,7 +748,7 @@ type
 JSTYPE_LIMIT
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -770,7 +770,7 @@ JSAtomState
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSTYPE_UNDEFINED
 =
@@ -812,7 +812,7 @@ key
 JSProto_LIMIT
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (
@@ -834,7 +834,7 @@ JSAtomState
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSProto_Null
 =

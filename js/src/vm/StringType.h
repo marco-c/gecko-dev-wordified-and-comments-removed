@@ -7156,7 +7156,7 @@ size_t
 length
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

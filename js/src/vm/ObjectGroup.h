@@ -1507,7 +1507,7 @@ staticAsserts
 (
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 offsetof
 (

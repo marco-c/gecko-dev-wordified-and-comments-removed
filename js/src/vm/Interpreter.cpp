@@ -7702,7 +7702,7 @@ error
 ;
 \
 JS_END_MACRO
-JS_STATIC_ASSERT
+static_assert
 (
 JSOpLength_SetName
 =
@@ -7710,7 +7710,7 @@ JSOpLength_SetName
 JSOpLength_SetProp
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSOpLength_IfNe
 =
@@ -7718,7 +7718,7 @@ JSOpLength_IfNe
 JSOpLength_IfEq
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 uint8_t
 (
