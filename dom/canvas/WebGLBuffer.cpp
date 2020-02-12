@@ -854,6 +854,13 @@ platform
 "
 )
 ;
+if
+(
+!
+dataLen
+)
+return
+;
 const
 void
 *
