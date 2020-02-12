@@ -4164,11 +4164,13 @@ Nullable
 String
 homepageUrl
 ;
+public
 final
 Nullable
 String
 optionsPageUrl
 ;
+public
 final
 boolean
 openOptionsPageInTab
@@ -4377,7 +4379,7 @@ bundle
 getString
 (
 "
-optionsPageUrl
+optionsPageURL
 "
 )
 ;
