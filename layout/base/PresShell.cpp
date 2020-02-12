@@ -1477,15 +1477,6 @@ include
 "
 mozilla
 /
-ScrollTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ServoBindings
 .
 h
@@ -14622,7 +14613,7 @@ aForward
 -
 1
 )
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES
@@ -14707,7 +14698,7 @@ lineCount
 -
 lineCount
 )
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -14792,7 +14783,7 @@ h
 h
 0
 )
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -14859,7 +14850,7 @@ aForward
 -
 1
 )
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE

@@ -63,6 +63,9 @@ public
 :
 CalcSnapPoints
 (
+nsIScrollableFrame
+:
+:
 ScrollUnit
 aUnit
 const
@@ -191,6 +194,9 @@ y
 }
 protected
 :
+nsIScrollableFrame
+:
+:
 ScrollUnit
 mUnit
 ;
@@ -222,6 +228,9 @@ CalcSnapPoints
 :
 CalcSnapPoints
 (
+nsIScrollableFrame
+:
+:
 ScrollUnit
 aUnit
 const
@@ -481,7 +490,7 @@ if
 mUnit
 !
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
@@ -503,7 +512,7 @@ if
 mUnit
 !
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE
@@ -602,7 +611,7 @@ if
 mUnit
 =
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 DEVICE_PIXELS
@@ -611,7 +620,7 @@ DEVICE_PIXELS
 mUnit
 =
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -665,7 +674,7 @@ if
 mUnit
 =
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES
@@ -761,7 +770,7 @@ if
 mUnit
 =
 =
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE
@@ -1037,6 +1046,9 @@ const
 ScrollSnapInfo
 &
 aSnapInfo
+nsIScrollableFrame
+:
+:
 ScrollUnit
 aUnit
 const

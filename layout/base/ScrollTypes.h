@@ -17,16 +17,6 @@ SmoothMsd
 Normal
 }
 ;
-enum
-class
-ScrollUnit
-{
-DEVICE_PIXELS
-LINES
-PAGES
-WHOLE
-}
-;
 }
 #
 endif

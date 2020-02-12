@@ -15,6 +15,9 @@ mozilla
 namespace
 layers
 {
+nsIScrollableFrame
+:
+:
 ScrollUnit
 KeyboardScrollAction
 :
@@ -40,7 +43,7 @@ KeyboardScrollAction
 eScrollCharacter
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -52,7 +55,7 @@ KeyboardScrollAction
 eScrollLine
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 LINES
@@ -64,7 +67,7 @@ KeyboardScrollAction
 eScrollPage
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 PAGES
@@ -76,14 +79,14 @@ KeyboardScrollAction
 eScrollComplete
 :
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE
 ;
 }
 return
-ScrollUnit
+nsIScrollableFrame
 :
 :
 WHOLE
