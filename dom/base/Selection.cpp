@@ -3780,10 +3780,8 @@ return
 NS_OK
 ;
 }
+static
 void
-Selection
-:
-:
 UserSelectRangesToAdd
 (
 nsRange
