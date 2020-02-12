@@ -7839,9 +7839,9 @@ newtab
 -
 pocket
 -
-whats
+learn
 -
-pocket
+more
 "
 }
 link_url
@@ -8300,9 +8300,9 @@ newtab
 -
 pocket
 -
-whats
+learn
 -
-pocket
+more
 "
 }
 link_url
