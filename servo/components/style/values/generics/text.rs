@@ -553,6 +553,10 @@ font
 <
 length
 >
+|
+<
+percentage
+>
 /
 /
 /
@@ -636,7 +640,7 @@ GenericTextDecorationLength
 L
 >
 {
-Length
+LengthPercentage
 (
 L
 )
