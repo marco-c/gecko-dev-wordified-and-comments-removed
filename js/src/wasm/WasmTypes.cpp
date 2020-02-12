@@ -4736,7 +4736,7 @@ void
 TrapSiteVectorArray
 :
 :
-podResizeToFit
+shrinkStorageToFit
 (
 )
 {
@@ -4762,7 +4762,7 @@ this
 trap
 ]
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;

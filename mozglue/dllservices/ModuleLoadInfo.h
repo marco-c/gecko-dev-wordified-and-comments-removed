@@ -315,7 +315,7 @@ numCaptured
 ;
 mBacktrace
 .
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;

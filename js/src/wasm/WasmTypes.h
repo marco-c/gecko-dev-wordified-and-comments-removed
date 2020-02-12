@@ -8392,7 +8392,7 @@ rhs
 )
 ;
 void
-podResizeToFit
+shrinkStorageToFit
 (
 )
 ;
