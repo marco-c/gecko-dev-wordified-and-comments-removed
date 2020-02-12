@@ -828,4 +828,7 @@ SERVO_32_BITS
 #
 endif
 #
+define
+CBINDGEN_IS_GECKO
+#
 endif
