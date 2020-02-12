@@ -232,9 +232,9 @@ MOZ_MUST_USE
 bool
 CreateMIRRootList
 (
-IonBuilder
+IonCompileTask
 &
-builder
+task
 )
 ;
 void
