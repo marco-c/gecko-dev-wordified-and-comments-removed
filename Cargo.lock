@@ -13962,9 +13962,6 @@ dependencies
 libc
 "
 "
-log
-"
-"
 quote
 "
 "
