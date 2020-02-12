@@ -3495,17 +3495,7 @@ get_run_info
 kwargs
 [
 "
-test_paths
-"
-]
-[
-"
-/
-"
-]
-[
-"
-metadata_path
+run_info
 "
 ]
                                     
