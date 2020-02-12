@@ -192,9 +192,6 @@ CompilationInfo
 &
 compilationInfo
 ;
-Directives
-directives
-;
 JS
 :
 :
@@ -455,6 +452,8 @@ globalsc_
 cx
 scopeKind
 compilationInfo
+compilationInfo
+.
 directives
 options
 .
@@ -610,6 +609,8 @@ cx
 environment_
 compilationInfo
 enclosingScope
+compilationInfo
+.
 directives
 options
 .
