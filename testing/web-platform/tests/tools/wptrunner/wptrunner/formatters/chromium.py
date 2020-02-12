@@ -186,7 +186,7 @@ expected
 the
 expected
 subtest
-status
+statuses
         
 :
 param
@@ -255,10 +255,10 @@ status
 if
 expected
 and
-expected
-!
-=
 status
+not
+in
+expected
 :
             
 prefix
@@ -373,7 +373,7 @@ str
 expected
 :
 expected
-status
+statuses
 of
 the
 test
@@ -488,8 +488,8 @@ SKIP
             
 if
 actual
-!
-=
+not
+in
 expected
 :
                 
@@ -725,7 +725,7 @@ data
 Gets
 the
 expected
-status
+statuses
 from
 a
 |
@@ -833,6 +833,46 @@ s
 not
 .
         
+If
+the
+test
+has
+multiple
+statuses
+it
+will
+have
+other
+statuses
+listed
+as
+        
+"
+known_intermittent
+"
+in
+|
+data
+|
+.
+If
+these
+exist
+they
+will
+be
+appended
+to
+        
+the
+returned
+status
+with
+spaced
+in
+between
+.
+        
 :
 param
 str
@@ -864,14 +904,17 @@ str
 :
 the
 expected
-status
+statuses
+as
+a
+string
         
 "
 "
 "
         
-return
-(
+expected_statuses
+=
 self
 .
 _map_status_name
@@ -883,7 +926,6 @@ expected
 "
 ]
 )
-                
 if
 "
 expected
@@ -892,7 +934,48 @@ in
 data
 else
 actual_status
+        
+if
+"
+known_intermittent
+"
+in
+data
+:
+            
+expected_statuses
++
+=
+"
+"
++
+"
+"
+.
+join
+(
+                
+[
+self
+.
+_map_status_name
+(
+other_status
 )
+for
+other_status
+in
+data
+[
+"
+known_intermittent
+"
+]
+]
+)
+        
+return
+expected_statuses
     
 def
 suite_start
@@ -945,10 +1028,6 @@ test
 "
 ]
         
-is_unexpected
-=
-None
-        
 actual_status
 =
 self
@@ -963,7 +1042,7 @@ status
 ]
 )
         
-expected_status
+expected_statuses
 =
 self
 .
@@ -976,9 +1055,9 @@ data
 is_unexpected
 =
 actual_status
-!
-=
-expected_status
+not
+in
+expected_statuses
         
 if
 is_unexpected
@@ -1019,10 +1098,8 @@ data
 subtest
 "
 ]
-                                      
 actual_status
-expected_status
-                                      
+expected_statuses
 data
 [
 "
@@ -1092,7 +1169,7 @@ remove
 test_name
 )
         
-expected_status
+expected_statuses
 =
 self
 .
@@ -1117,8 +1194,7 @@ _append_test_message
 test_name
 None
 actual_status
-                                      
-expected_status
+expected_statuses
 data
 [
 "
@@ -1133,8 +1209,7 @@ _store_test_result
 (
 test_name
 actual_status
-expected_status
-                                
+expected_statuses
 self
 .
 messages
