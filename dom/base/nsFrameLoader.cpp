@@ -12512,13 +12512,10 @@ frameName
 )
 )
 {
-Unused
-<
-<
-browserParent
+mBrowsingContext
 -
 >
-SendSetWindowName
+SetName
 (
 frameName
 )
