@@ -350,7 +350,7 @@ event
 >
 {
 const
-db
+dbResult
 =
 event
 .
@@ -361,7 +361,7 @@ result
 const
 store1
 =
-db
+dbResult
 .
 createObjectStore
 (
@@ -411,10 +411,7 @@ true
 }
 )
 ;
-const
-store2
-=
-db
+dbResult
 .
 createObjectStore
 (
@@ -443,7 +440,7 @@ oncomplete
 {
 done
 (
-db
+dbResult
 )
 ;
 }
@@ -682,7 +679,7 @@ event
 >
 {
 const
-db2
+db2Result
 =
 event
 .
@@ -693,7 +690,7 @@ result
 const
 store3
 =
-db2
+db2Result
 .
 createObjectStore
 (
@@ -739,7 +736,7 @@ oncomplete
 {
 done
 (
-db2
+db2Result
 )
 ;
 }

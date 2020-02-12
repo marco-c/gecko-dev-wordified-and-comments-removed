@@ -116,7 +116,7 @@ TEST_URL
 +
 "
 :
-27
+29
 :
 38
 "
@@ -137,7 +137,7 @@ handler
 =
 >
 {
-var
+const
 handler1
 =
 function
@@ -152,7 +152,7 @@ alert
 ;
 }
 ;
-var
+const
 handler2
 =
 function
@@ -167,7 +167,7 @@ alert
 ;
 }
 ;
-var
+const
 handler3
 =
 function
@@ -182,7 +182,7 @@ alert
 ;
 }
 ;
-var
+const
 handler4
 =
 function
@@ -197,7 +197,7 @@ alert
 ;
 }
 ;
-var
+const
 handler5
 =
 function
@@ -212,7 +212,7 @@ alert
 ;
 }
 ;
-var
+const
 handler6
 =
 function
@@ -227,7 +227,7 @@ alert
 ;
 }
 ;
-var
+const
 handler7
 =
 function
@@ -242,7 +242,7 @@ alert
 ;
 }
 ;
-var
+const
 handler8
 =
 function
@@ -257,7 +257,7 @@ alert
 ;
 }
 ;
-var
+const
 handler9
 =
 function
@@ -272,7 +272,7 @@ alert
 ;
 }
 ;
-var
+const
 handler10
 =
 function
@@ -438,7 +438,7 @@ handler10
 )
 ;
 }
-var
+const
 div
 =
 (
@@ -623,9 +623,9 @@ TEST_URL
 +
 "
 :
-34
+36
 :
-41
+43
 "
 attributes
 :
@@ -660,9 +660,9 @@ TEST_URL
 +
 "
 :
-35
+37
 :
-41
+43
 "
 attributes
 :
@@ -697,9 +697,9 @@ TEST_URL
 +
 "
 :
-36
+38
 :
-42
+44
 "
 attributes
 :
@@ -746,9 +746,9 @@ TEST_URL
 +
 "
 :
-28
+30
 :
-47
+49
 "
 attributes
 :
@@ -838,9 +838,9 @@ TEST_URL
 +
 "
 :
-29
+31
 :
-48
+50
 "
 attributes
 :
