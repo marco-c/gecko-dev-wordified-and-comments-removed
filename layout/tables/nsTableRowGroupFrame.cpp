@@ -9692,7 +9692,7 @@ RemoveStateBits
 NS_ROWGROUP_HAS_ROW_CURSOR
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 RowCursorProperty
 (

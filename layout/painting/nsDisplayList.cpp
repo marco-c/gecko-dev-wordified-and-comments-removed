@@ -12736,7 +12736,7 @@ i
 ]
 -
 >
-DeleteProperty
+RemoveProperty
 (
 OutOfFlowDisplayDataProperty
 (

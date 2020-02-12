@@ -4700,7 +4700,7 @@ nullptr
 aFloat
 -
 >
-DeleteProperty
+RemoveProperty
 (
 ShapeInvalidationDataProperty
 (

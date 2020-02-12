@@ -607,7 +607,7 @@ Revoke
 (
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 TextControlInitializer
 (

@@ -628,7 +628,7 @@ IsEmpty
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 BlobGroupDataProperty
 (

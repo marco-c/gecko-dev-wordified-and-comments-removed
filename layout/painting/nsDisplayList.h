@@ -1657,7 +1657,7 @@ mIsRetained
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 AnimatedGeometryRootCache
 (
@@ -2301,7 +2301,7 @@ mScrollableFrame
 f
 -
 >
-DeleteProperty
+RemoveProperty
 (
 ActiveScrolledRootCache
 (

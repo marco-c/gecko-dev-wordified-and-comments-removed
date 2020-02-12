@@ -15045,7 +15045,7 @@ blockEndEdgeOfChildren
 }
 else
 {
-DeleteProperty
+RemoveProperty
 (
 BlockEndEdgeOfChildrenProperty
 (
@@ -54547,7 +54547,7 @@ NS_BLOCK_HAS_LINE_CURSOR
 return
 ;
 }
-DeleteProperty
+RemoveProperty
 (
 LineCursorProperty
 (

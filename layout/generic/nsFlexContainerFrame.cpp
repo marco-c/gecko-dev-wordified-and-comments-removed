@@ -6348,7 +6348,7 @@ aItemFrame
 aItemFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 CachedFlexMeasuringReflow
 (
@@ -17152,7 +17152,7 @@ AutoFlexItemMainSizeOverride
 mItemFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

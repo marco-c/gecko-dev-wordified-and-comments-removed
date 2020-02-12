@@ -13633,7 +13633,7 @@ properties
 aFrame
 -
 >
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;

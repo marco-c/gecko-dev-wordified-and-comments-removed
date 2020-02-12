@@ -712,7 +712,7 @@ nullptr
 oof
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

@@ -21255,7 +21255,7 @@ GetContentOffset
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 TabWidthProperty
 (
@@ -25415,7 +25415,7 @@ frame
 mFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 TabWidthProperty
 (
@@ -30231,7 +30231,7 @@ here
 primaryFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 OffsetToFrameProperty
 (
@@ -32698,7 +32698,7 @@ UninflatedTextRunProperty
 aTextRun
 )
 {
-DeleteProperty
+RemoveProperty
 (
 UninflatedTextRunProperty
 (
@@ -32846,7 +32846,7 @@ TEXT_HAS_FONT_INFLATION
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 UninflatedTextRunProperty
 (
@@ -36781,7 +36781,7 @@ HasEffectiveTextEmphasis
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 EmphasisMarkProperty
 (
@@ -58181,7 +58181,7 @@ RemoveStateBits
 TEXT_HAS_FONT_INFLATION
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 FontSizeInflationProperty
 (
@@ -63961,7 +63961,7 @@ mReflowRequestedForCharDataChange
 =
 false
 ;
-DeleteProperty
+RemoveProperty
 (
 WebRenderTextBounds
 (
@@ -67483,7 +67483,7 @@ width
 em
 )
 {
-DeleteProperty
+RemoveProperty
 (
 TextCombineScaleFactorProperty
 (
@@ -69536,7 +69536,7 @@ bool
 aIncludeShadows
 )
 {
-DeleteProperty
+RemoveProperty
 (
 WebRenderTextBounds
 (

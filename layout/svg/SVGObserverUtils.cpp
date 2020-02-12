@@ -5758,7 +5758,7 @@ aTextPathFrame
 aTextPathFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 HrefAsTextPathProperty
 (
@@ -5933,7 +5933,7 @@ aFrame
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 HrefToTemplateProperty
 (
@@ -6555,7 +6555,7 @@ element
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 FilterProperty
 (
@@ -6565,7 +6565,7 @@ FilterProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 MaskProperty
 (
@@ -6575,7 +6575,7 @@ MaskProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 ClipPathProperty
 (
@@ -6585,7 +6585,7 @@ ClipPathProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 MarkerStartProperty
 (
@@ -6595,7 +6595,7 @@ MarkerStartProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 MarkerMidProperty
 (
@@ -6605,7 +6605,7 @@ MarkerMidProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 MarkerEndProperty
 (
@@ -6615,7 +6615,7 @@ MarkerEndProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 FillProperty
 (
@@ -6625,7 +6625,7 @@ FillProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 StrokeProperty
 (
@@ -6635,7 +6635,7 @@ StrokeProperty
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 BackgroundImageProperty
 (
@@ -7012,7 +7012,7 @@ return
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsSVGUtils
 :
@@ -7148,6 +7148,8 @@ uint32_t
 aFlags
 )
 {
+if
+(
 nsIFrame
 *
 frame
@@ -7158,16 +7160,12 @@ aElement
 GetPrimaryFrame
 (
 )
-;
-if
-(
-frame
 )
 {
 frame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsSVGUtils
 :

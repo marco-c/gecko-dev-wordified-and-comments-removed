@@ -3605,7 +3605,7 @@ columnlines_
 tableFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 AttributeToProperty
 (
@@ -5323,7 +5323,7 @@ return
 NS_OK
 ;
 }
-DeleteProperty
+RemoveProperty
 (
 AttributeToProperty
 (
@@ -5481,7 +5481,7 @@ nsGkAtoms
 columnalign_
 )
 {
-DeleteProperty
+RemoveProperty
 (
 AttributeToProperty
 (

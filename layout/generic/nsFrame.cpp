@@ -1364,7 +1364,7 @@ aClear
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 BoxMetricsProperty
 (
@@ -2351,7 +2351,7 @@ RemoveStateBits
 NS_FRAME_HAS_ABSPOS_CHILDREN
 )
 ;
-DeleteProperty
+RemoveProperty
 (
 AbsoluteContainingBlockProperty
 (
@@ -6232,7 +6232,7 @@ forget
 }
 /
 /
-Delete
+Remove
 all
 properties
 attached
@@ -6255,7 +6255,7 @@ are
 handled
 properly
 .
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 ;
@@ -6987,7 +6987,7 @@ IsEmpty
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 DisplayItems
 (
@@ -9023,7 +9023,7 @@ IsRelativelyPositionedStyle
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 NormalPositionProperty
 (
@@ -10067,7 +10067,7 @@ to
 delete
 it
 .
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -10085,7 +10085,7 @@ if
 oldPath
 )
 {
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -52609,7 +52609,7 @@ NS_FRAME_HAS_INVALID_RECT
 aFrame
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -66207,7 +66207,7 @@ mType
 NS_FRAME_OVERFLOW_LARGE
 )
 {
-DeleteProperty
+RemoveProperty
 (
 OverflowAreasProperty
 (
@@ -68632,7 +68632,7 @@ aOverflowAreas
 }
 else
 {
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -68665,7 +68665,7 @@ else
 #
 ifdef
 DEBUG
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -69888,7 +69888,7 @@ aOverflowAreas
 }
 else
 {
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

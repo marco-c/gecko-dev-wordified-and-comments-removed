@@ -1153,6 +1153,8 @@ NS_FRAME_PART_OF_IBSPLIT
 )
 )
 {
+if
+(
 nsIFrame
 *
 prevSib
@@ -1166,10 +1168,6 @@ IBSplitPrevSibling
 (
 )
 )
-;
-if
-(
-prevSib
 )
 {
 NS_WARNING_ASSERTION
@@ -1201,7 +1199,7 @@ inconsistent
 prevSib
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -1212,6 +1210,8 @@ IBSplitSibling
 )
 ;
 }
+if
+(
 nsIFrame
 *
 nextSib
@@ -1225,10 +1225,6 @@ IBSplitSibling
 (
 )
 )
-;
-if
-(
-nextSib
 )
 {
 NS_WARNING_ASSERTION
@@ -1260,7 +1256,7 @@ inconsistent
 nextSib
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :

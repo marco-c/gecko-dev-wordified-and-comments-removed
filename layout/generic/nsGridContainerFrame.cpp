@@ -27753,7 +27753,7 @@ count
 0
 )
 {
-DeleteProperty
+RemoveProperty
 (
 ImplicitNamedAreasProperty
 (
@@ -35823,7 +35823,7 @@ else
 aChild
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsIFrame
 :
@@ -36054,7 +36054,7 @@ DEBUG
 parent
 -
 >
-DeleteProperty
+RemoveProperty
 (
 nsContainerFrame
 :
@@ -49585,7 +49585,7 @@ else
 aChild
 -
 >
-DeleteProperty
+RemoveProperty
 (
 aProp
 )
@@ -50038,7 +50038,7 @@ else
 aChild
 -
 >
-DeleteProperty
+RemoveProperty
 (
 BClampMarginBoxMinSizeProperty
 (
@@ -50486,7 +50486,7 @@ else
 aChild
 -
 >
-DeleteProperty
+RemoveProperty
 (
 FragStretchBSizeProperty
 (
@@ -56732,7 +56732,7 @@ IsEmpty
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 OverflowContainersProperty
 (
@@ -61458,7 +61458,7 @@ areas
 }
 else
 {
-DeleteProperty
+RemoveProperty
 (
 ExplicitNamedAreasProperty
 (
@@ -61803,7 +61803,7 @@ GetNextInFlow
 )
 )
 {
-DeleteProperty
+RemoveProperty
 (
 SharedGridData
 :
@@ -61872,7 +61872,7 @@ if
 newBits
 )
 {
-DeleteProperty
+RemoveProperty
 (
 Subgrid
 :

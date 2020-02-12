@@ -715,7 +715,7 @@ NS_FRAME_HAS_LAYER_ACTIVITY_PROPERTY
 f
 -
 >
-DeleteProperty
+RemoveProperty
 (
 LayerActivityProperty
 (

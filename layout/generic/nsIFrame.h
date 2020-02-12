@@ -8560,7 +8560,7 @@ typename
 T
 >
 void
-DeleteProperty
+RemoveProperty
 (
 FrameProperties
 :
@@ -8574,7 +8574,7 @@ aProperty
 {
 mProperties
 .
-Delete
+Remove
 (
 aProperty
 this
@@ -8582,13 +8582,13 @@ this
 ;
 }
 void
-DeleteAllProperties
+RemoveAllProperties
 (
 )
 {
 mProperties
 .
-DeleteAll
+RemoveAll
 (
 this
 )
