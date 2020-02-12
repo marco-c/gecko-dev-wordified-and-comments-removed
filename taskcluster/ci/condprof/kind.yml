@@ -558,7 +558,9 @@ firefox
 )
 platform
 :
-macosx64
+macosx1014
+-
+64
 /
 opt
 dependencies

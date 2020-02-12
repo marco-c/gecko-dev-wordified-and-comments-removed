@@ -760,9 +760,9 @@ treeherder
 :
 platform
 :
-macosx64
+osx
 -
-qr
+cross
 /
 opt
 symbol
@@ -997,7 +997,9 @@ treeherder
 :
 platform
 :
-macosx64
+macosx1014
+-
+64
 -
 qr
 /
@@ -1198,9 +1200,9 @@ treeherder
 :
 platform
 :
-macosx64
+osx
 -
-qr
+cross
 /
 debug
 symbol
@@ -1413,7 +1415,9 @@ treeherder
 :
 platform
 :
-macosx64
+macosx1014
+-
+64
 -
 qr
 /
