@@ -1188,6 +1188,9 @@ fetch
 /
 TypeError
 :
+URL
+constructor
+:
 3
 is
 not

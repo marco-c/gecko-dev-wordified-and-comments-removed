@@ -121,6 +121,10 @@ JSObject
 *
 >
 aFrames
+const
+char
+*
+aContext
 ErrorResult
 &
 aRv
