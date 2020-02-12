@@ -26,16 +26,6 @@ idlArray
 add_objects
 (
 {
-DOMParser
-:
-[
-'
-new
-DOMParser
-(
-)
-'
-]
 Element
 :
 [
