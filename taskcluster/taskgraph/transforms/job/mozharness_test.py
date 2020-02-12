@@ -110,12 +110,6 @@ stylo
 '
     
 '
-stylo
--
-disabled
-'
-    
-'
 qr
 '
     
