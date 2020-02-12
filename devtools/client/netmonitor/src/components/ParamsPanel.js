@@ -1009,6 +1009,9 @@ sectionNames
 SECTION_NAMES
 openLink
 targetSearchResult
+useQuotes
+:
+true
 }
 )
 )

@@ -190,10 +190,11 @@ is
 keyValue
 .
 innerText
-"
 file
 \
-tfoo
+t
+"
+foo
 #
 bar
 "
