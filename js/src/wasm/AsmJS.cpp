@@ -10004,7 +10004,7 @@ options
 throwOnAsmJSValidationFailureOption
 )
 {
-ReportCompileErrorLatin1
+ReportCompileError
 (
 cx_
 std
