@@ -442,9 +442,10 @@ bool
 aBlocked
 uint32_t
 aRejectedReason
-nsIURI
-*
-aURI
+const
+nsACString
+&
+aTrackingOrigin
 const
 Maybe
 <

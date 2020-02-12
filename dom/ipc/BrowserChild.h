@@ -3229,9 +3229,10 @@ nsIChannel
 aChannel
 bool
 aBlocked
-nsIURI
-*
-aHintURI
+const
+nsACString
+&
+aTrackingOrigin
 const
 nsTArray
 <

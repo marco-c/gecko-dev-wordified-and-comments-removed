@@ -3904,8 +3904,8 @@ RequestData
 aRequestData
 bool
 aBlocked
-nsIURI
-aHintURI
+nsCString
+aTrackingOrigin
 nsCString
 [
 ]
