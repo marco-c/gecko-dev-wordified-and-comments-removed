@@ -13764,7 +13764,10 @@ StyleDisplay
 mPosition
 !
 =
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 )
 {
 return
@@ -14156,7 +14159,10 @@ StyleDisplay
 mPosition
 =
 =
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 &
 &
 nsLayoutUtils
@@ -51769,7 +51775,10 @@ StyleDisplay
 mPosition
 =
 =
-NS_STYLE_POSITION_FIXED
+StylePositionProperty
+:
+:
+Fixed
 "
 IsReallyFixedPos
 called

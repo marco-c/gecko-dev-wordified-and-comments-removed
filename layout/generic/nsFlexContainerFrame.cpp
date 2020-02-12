@@ -20341,7 +20341,10 @@ outerWM
 ;
 if
 (
-NS_STYLE_POSITION_RELATIVE
+StylePositionProperty
+:
+:
+Relative
 =
 =
 aItem

@@ -5080,7 +5080,10 @@ StyleDisplay
 ;
 if
 (
-NS_STYLE_POSITION_RELATIVE
+StylePositionProperty
+:
+:
+Relative
 =
 =
 display
@@ -5107,7 +5110,10 @@ top
 else
 if
 (
-NS_STYLE_POSITION_STICKY
+StylePositionProperty
+:
+:
+Sticky
 =
 =
 display
@@ -11002,7 +11008,10 @@ mFrame
 )
 &
 &
-NS_STYLE_POSITION_RELATIVE
+StylePositionProperty
+:
+:
+Relative
 =
 =
 mStyleDisplay
