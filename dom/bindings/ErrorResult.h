@@ -682,6 +682,12 @@ MaybeSetPendingException
 JSContext
 *
 cx
+const
+char
+*
+description
+=
+nullptr
 )
 {
 WouldReportJSException
@@ -703,6 +709,7 @@ false
 SetPendingException
 (
 cx
+description
 )
 ;
 return
@@ -1742,6 +1749,10 @@ SetPendingException
 JSContext
 *
 cx
+const
+char
+*
+context
 )
 ;
 void
@@ -1750,6 +1761,10 @@ SetPendingExceptionWithMessage
 JSContext
 *
 cx
+const
+char
+*
+context
 )
 ;
 void
@@ -1766,6 +1781,10 @@ SetPendingDOMException
 JSContext
 *
 cx
+const
+char
+*
+context
 )
 ;
 void
@@ -2793,6 +2812,12 @@ MaybeSetPendingException
 JSContext
 *
 cx
+const
+char
+*
+context
+=
+nullptr
 )
 {
 return
@@ -2802,6 +2827,7 @@ OOMReporter
 MaybeSetPendingException
 (
 cx
+context
 )
 ;
 }
