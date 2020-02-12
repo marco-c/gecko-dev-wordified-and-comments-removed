@@ -70,6 +70,13 @@ h
 #
 include
 "
+Visibility
+.
+h
+"
+#
+include
+"
 mozilla
 /
 CORSMode

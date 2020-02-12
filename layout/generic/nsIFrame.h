@@ -140,6 +140,15 @@ include
 "
 mozilla
 /
+PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WritingModes
 .
 h
@@ -294,6 +303,9 @@ nsPresContext
 ;
 class
 nsView
+;
+class
+nsFrameSelection
 ;
 class
 nsIWidget
