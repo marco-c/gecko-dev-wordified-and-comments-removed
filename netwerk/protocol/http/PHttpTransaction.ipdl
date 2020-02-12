@@ -262,6 +262,9 @@ nsHttpHeaderArray
 responseTrailers
 bool
 hasStickyConn
+TransactionObserverResult
+?
+transactionObserverResult
 )
 ;
 async
@@ -319,6 +322,8 @@ bool
 responseTimeoutEnabled
 uint64_t
 channelId
+bool
+hasTransactionObserver
 )
 ;
 async
