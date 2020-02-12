@@ -3971,6 +3971,14 @@ dataset
 isNewLogin
 ;
 }
+this
+.
+_usernameInput
+.
+scrollLeft
+=
+0
+;
 if
 (
 shouldEdit
