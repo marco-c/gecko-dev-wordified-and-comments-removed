@@ -157,7 +157,7 @@ HeapAccess
 ;
 }
 static
-const
+constexpr
 uint32_t
 Simd128DataSize
 =

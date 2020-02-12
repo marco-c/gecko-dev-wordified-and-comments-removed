@@ -967,14 +967,14 @@ accesses
 )
 ;
 static
-const
+constexpr
 uint32_t
 WasmStackAlignment
 =
 SimdMemoryAlignment
 ;
 static
-const
+constexpr
 uint32_t
 WasmTrapInstructionLength
 =
@@ -1029,7 +1029,7 @@ type
 }
 ;
 static
-const
+constexpr
 Scale
 ScalePointer
 =
