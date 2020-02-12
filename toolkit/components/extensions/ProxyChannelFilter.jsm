@@ -1360,11 +1360,9 @@ getRequestHeaders
 }
 if
 (
-this
+channel
 .
-extension
-.
-isPrivileged
+urlClassification
 )
 {
 data
