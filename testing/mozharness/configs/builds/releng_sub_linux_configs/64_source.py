@@ -33,14 +33,6 @@ source
 '
     
 '
-app_ini_path
-'
-:
-'
-FAKE
-'
-    
-'
 env
 '
 :

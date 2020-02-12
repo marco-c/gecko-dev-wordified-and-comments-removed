@@ -23,26 +23,6 @@ build
 ]
     
 '
-app_ini_path
-'
-:
-'
-%
-(
-obj_dir
-)
-s
-/
-dist
-/
-bin
-/
-application
-.
-ini
-'
-    
-'
 vcs_share_base
 '
 :

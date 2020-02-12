@@ -23,26 +23,6 @@ l10n
 ]
     
 '
-app_ini_path
-'
-:
-'
-%
-(
-obj_dir
-)
-s
-/
-dist
-/
-bin
-/
-application
-.
-ini
-'
-    
-'
 max_build_output_timeout
 '
 :
