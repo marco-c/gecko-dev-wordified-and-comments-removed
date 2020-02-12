@@ -17783,6 +17783,12 @@ JS
 CloneDataPolicy
 clonePolicy
 ;
+clonePolicy
+.
+allowIntraClusterClonableSharedObjects
+(
+)
+;
 if
 (
 IsSharedMemoryAllowed
@@ -17792,7 +17798,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowIntraClusterClonableSharedObjects
+allowSharedMemoryObjects
 (
 )
 ;
@@ -22703,10 +22709,6 @@ IsSharedMemoryAllowed
 )
 const
 {
-AssertIsOnWorkerThread
-(
-)
-;
 if
 (
 StaticPrefs
@@ -22736,10 +22738,6 @@ CrossOriginIsolated
 )
 const
 {
-AssertIsOnWorkerThread
-(
-)
-;
 if
 (
 !
