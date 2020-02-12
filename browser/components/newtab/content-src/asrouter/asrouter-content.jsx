@@ -2043,13 +2043,6 @@ props
 .
 document
 .
-getElementById
-(
-"
-root
-"
-)
-.
 dir
 =
 "
