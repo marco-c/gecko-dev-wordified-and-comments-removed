@@ -730,12 +730,6 @@ None
         
 self
 .
-benchmark_port
-=
-0
-        
-self
-.
 gecko_profiler
 =
 None
@@ -3283,9 +3277,14 @@ self
 .
 set_reverse_port
 (
+int
+(
 self
 .
-benchmark_port
+benchmark
+.
+port
+)
 )
         
 else
@@ -3300,7 +3299,7 @@ Reverse
 port
 forwarding
 is
-uded
+used
 only
 on
 local

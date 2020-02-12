@@ -7181,6 +7181,12 @@ browsertime
 tp6m
 -
 profiling
+-
+browsertime
+-
+benchmark
+-
+speedometer
 android
 -
 hw
@@ -7199,3 +7205,9 @@ browsertime
 tp6m
 -
 profiling
+-
+browsertime
+-
+benchmark
+-
+speedometer
