@@ -139,7 +139,7 @@ function
 assert_throws_js
 (
 EvalError
-                  
+                     
 function
 (
 )
@@ -154,7 +154,7 @@ eval
 )
 ;
 }
-                  
+                     
 '
 eval
 (
@@ -169,7 +169,7 @@ EvalError
 assert_throws_js
 (
 EvalError
-                  
+                     
 function
 (
 )
@@ -185,7 +185,7 @@ Function
 )
 ;
 }
-                  
+                     
 '
 new
 Function
@@ -588,7 +588,7 @@ function
 assert_throws_js
 (
 EvalError
-                  
+                     
 function
 (
 )
@@ -603,7 +603,7 @@ eval
 )
 ;
 }
-                  
+                     
 '
 eval
 (
@@ -618,7 +618,7 @@ EvalError
 assert_throws_js
 (
 EvalError
-                  
+                     
 function
 (
 )
@@ -634,7 +634,7 @@ Function
 )
 ;
 }
-                  
+                     
 '
 new
 Function
