@@ -16,6 +16,8 @@ import
 sys
 import
 tempfile
+import
+traceback
 from
 abc
 import
@@ -1144,6 +1146,32 @@ try
 "
             
 )
+        
+except
+Exception
+:
+            
+LOG
+.
+critical
+(
+"
+Could
+not
+get
+the
+conditioned
+profile
+"
+)
+            
+traceback
+.
+print_exc
+(
+)
+            
+raise
         
 self
 .
