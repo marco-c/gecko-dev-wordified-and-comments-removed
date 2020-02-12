@@ -9023,7 +9023,7 @@ IsRelativelyPositionedStyle
 )
 )
 {
-RemoveProperty
+DeleteProperty
 (
 NormalPositionProperty
 (
