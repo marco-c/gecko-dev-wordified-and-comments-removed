@@ -13568,6 +13568,9 @@ void
 args
 )
 {
+#
+ifndef
+NSS_DISABLE_DBM
 char
 *
 secmod
@@ -13603,6 +13606,8 @@ success
 Success
 "
 ;
+#
+endif
 char
 *
 *
@@ -13645,6 +13650,9 @@ return
 NULL
 ;
 }
+#
+ifndef
+NSS_DISABLE_DBM
 secmod
 =
 _NSSUTIL_GetSecmodName
@@ -14046,6 +14054,8 @@ PORT_Free
 filename
 )
 ;
+#
+endif
 return
 rvstr
 ;
