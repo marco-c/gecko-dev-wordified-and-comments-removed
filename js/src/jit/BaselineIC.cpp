@@ -11174,6 +11174,12 @@ JSOp
 InitElemInc
 )
 ;
+int
+objvIndex
+=
+-
+3
+;
 RootedObject
 obj
 (
@@ -11182,6 +11188,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 objv
+objvIndex
 index
 )
 )
@@ -14456,6 +14463,12 @@ name
 )
 )
 ;
+int
+lhsIndex
+=
+-
+2
+;
 RootedObject
 obj
 (
@@ -14464,6 +14477,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 lhs
+lhsIndex
 id
 )
 )

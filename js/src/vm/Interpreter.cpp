@@ -1551,6 +1551,8 @@ JSOp
 op
 HandleValue
 lval
+int
+lvalIndex
 HandleId
 id
 HandleValue
@@ -1585,6 +1587,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 lval
+lvalIndex
 id
 )
 )
@@ -7663,6 +7666,7 @@ cx
 (
 val
 )
+n
 (
 key
 )
@@ -15530,6 +15534,12 @@ size
 "
 )
 ;
+int
+lvalIndex
+=
+-
+2
+;
 HandleValue
 lval
 =
@@ -15537,8 +15547,7 @@ REGS
 .
 stackHandleAt
 (
--
-2
+lvalIndex
 )
 ;
 HandleValue
@@ -15588,6 +15597,7 @@ REGS
 pc
 )
 lval
+lvalIndex
 id
 rval
 )
@@ -15804,6 +15814,12 @@ CASE
 CallElem
 )
 {
+int
+lvalIndex
+=
+-
+2
+;
 MutableHandleValue
 lval
 =
@@ -15811,8 +15827,7 @@ REGS
 .
 stackHandleAt
 (
--
-2
+lvalIndex
 )
 ;
 HandleValue
@@ -15874,7 +15889,7 @@ done
 if
 (
 !
-GetElementOperation
+GetElementOperationWithStackIndex
 (
 cx
 JSOp
@@ -15885,6 +15900,7 @@ REGS
 pc
 )
 lval
+lvalIndex
 rval
 res
 )
@@ -16068,6 +16084,12 @@ size
 "
 )
 ;
+int
+receiverIndex
+=
+-
+3
+;
 HandleValue
 receiver
 =
@@ -16075,8 +16097,7 @@ REGS
 .
 stackHandleAt
 (
--
-3
+receiverIndex
 )
 ;
 ReservedRooted
@@ -16096,6 +16117,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 receiver
+receiverIndex
 REGS
 .
 stackHandleAt
@@ -25130,6 +25152,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 v
+JSDVG_SEARCH_STACK
 name
 )
 )
@@ -26612,6 +26635,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 v
+JSDVG_SEARCH_STACK
 name
 )
 )
@@ -26774,6 +26798,7 @@ ToObjectFromStackForPropertyAccess
 (
 cx
 val
+JSDVG_SEARCH_STACK
 index
 )
 )
