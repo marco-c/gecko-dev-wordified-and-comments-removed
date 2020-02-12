@@ -11547,6 +11547,7 @@ bool
 IsAlive
 (
 )
+const
 {
 return
 !
@@ -11910,6 +11911,7 @@ bool
 IsAlive
 (
 )
+const
 {
 return
 !
