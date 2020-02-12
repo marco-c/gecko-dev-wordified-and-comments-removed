@@ -360,12 +360,6 @@ sourceBuffer
 )
 ;
 }
-bool
-canLazilyParse
-(
-)
-const
-;
 }
 ;
 class
