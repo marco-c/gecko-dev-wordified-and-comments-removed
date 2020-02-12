@@ -10825,7 +10825,7 @@ ScrollMode
 :
 Smooth
 aDirection
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES
@@ -10859,7 +10859,7 @@ ScrollMode
 :
 Instant
 aDirection
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -11087,7 +11087,7 @@ overflow
 ScrollBy
 (
 delta
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -11371,9 +11371,6 @@ ScrollMode
 aMode
 int32_t
 aDirection
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 nsIScrollbarMediator
@@ -16080,7 +16077,7 @@ willSnap
 =
 GetSnapPointForDestination
 (
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -29790,9 +29787,6 @@ ScrollBy
 (
 nsIntPoint
 aDelta
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 ScrollMode
@@ -30002,7 +29996,7 @@ aUnit
 )
 {
 case
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -30056,7 +30050,7 @@ break
 ;
 }
 case
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -30093,7 +30087,7 @@ break
 ;
 }
 case
-nsIScrollableFrame
+ScrollUnit
 :
 :
 PAGES
@@ -30132,7 +30126,7 @@ break
 ;
 }
 case
-nsIScrollableFrame
+ScrollUnit
 :
 :
 WHOLE
@@ -30311,9 +30305,6 @@ positiveTolerance
 =
 0
 ;
-nsIScrollableFrame
-:
-:
 ScrollUnit
 snapUnit
 =
@@ -30368,7 +30359,7 @@ delta
 .
 snapUnit
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 LINES
@@ -30529,7 +30520,7 @@ if
 aUnit
 =
 =
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -31113,7 +31104,7 @@ if
 (
 GetSnapPointForDestination
 (
-nsIScrollableFrame
+ScrollUnit
 :
 :
 DEVICE_PIXELS
@@ -48757,9 +48748,6 @@ ScrollFrameHelper
 :
 GetSnapPointForDestination
 (
-nsIScrollableFrame
-:
-:
 ScrollUnit
 aUnit
 nsPoint
