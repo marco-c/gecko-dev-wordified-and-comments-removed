@@ -22526,11 +22526,6 @@ traits
 num_cpus
 "
 "
-ordered
--
-float
-"
-"
 owning_ref
 "
 "
