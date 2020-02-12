@@ -1776,6 +1776,13 @@ ReleaseDummy
 )
 ;
 }
+nsRange
+:
+:
+Shutdown
+(
+)
+;
 Document
 :
 :
