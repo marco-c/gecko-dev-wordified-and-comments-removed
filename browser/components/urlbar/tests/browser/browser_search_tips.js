@@ -242,6 +242,16 @@ shownCount
 "
 0
 ]
+[
+"
+browser
+.
+urlbar
+.
+openViewOnFocus
+"
+false
+]
 ]
 }
 )
@@ -455,10 +465,6 @@ await
 setDefaultEngine
 (
 defaultEngineName
-)
-;
-resetProvider
-(
 )
 ;
 }
