@@ -256,7 +256,7 @@ defined
 (
 SOLARIS
 )
-JS_STATIC_ASSERT
+static_assert
 (
 JS_STACK_GROWTH_DIRECTION
 <
@@ -304,7 +304,7 @@ defined
 (
 AIX
 )
-JS_STATIC_ASSERT
+static_assert
 (
 JS_STACK_GROWTH_DIRECTION
 <

@@ -126,7 +126,7 @@ TestIterations
 ;
 #
 endif
-JS_STATIC_ASSERT
+static_assert
 (
 TestSize
 <
