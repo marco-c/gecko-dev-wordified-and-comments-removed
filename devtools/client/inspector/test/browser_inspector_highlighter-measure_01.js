@@ -56,8 +56,6 @@ measuring
 -
 tool
 -
-highlighter
--
 "
 ;
 const
