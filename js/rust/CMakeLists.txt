@@ -161,16 +161,6 @@ extensions
 -
 Wno
 -
-return
--
-type
--
-c
--
-linkage
--
-Wno
--
 invalid
 -
 offsetof
