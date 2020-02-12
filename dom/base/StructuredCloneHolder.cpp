@@ -849,6 +849,7 @@ StructuredCloneCallbacksReadTransfer
 StructuredCloneCallbacksWriteTransfer
 StructuredCloneCallbacksFreeTransfer
 StructuredCloneCallbacksCanTransfer
+nullptr
 }
 ;
 StructuredCloneHolderBase
