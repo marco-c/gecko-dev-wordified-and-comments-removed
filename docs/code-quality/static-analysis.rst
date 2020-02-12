@@ -104,7 +104,7 @@ current
 static
 -
 analysis
-infrastruture
+infrastructure
 is
 based
 on

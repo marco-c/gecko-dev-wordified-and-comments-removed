@@ -125,11 +125,13 @@ tree
 documentation
 (
 under
-tools
+docs
+/
+code
+-
+quality
 /
 lint
-/
-docs
 )
 to
 give
