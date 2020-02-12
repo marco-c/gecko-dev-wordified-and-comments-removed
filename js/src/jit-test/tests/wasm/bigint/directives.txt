@@ -50,12 +50,6 @@ wasmBigIntEnabled
 (
 )
 ;
--
--
-wasm
--
-bigint
-;
 include
 :
 wasm
