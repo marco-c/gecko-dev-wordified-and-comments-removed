@@ -26692,6 +26692,9 @@ timeout
 #
 ifdef
 MOZ_GECKO_PROFILER
+nsCString
+str
+;
 if
 (
 profiler_can_accept_markers
@@ -26699,9 +26702,6 @@ profiler_can_accept_markers
 )
 )
 {
-nsCString
-str
-;
 TimeDuration
 originalInterval
 =
@@ -26781,6 +26781,7 @@ Append
 handlerDescription
 )
 ;
+}
 AUTO_PROFILER_TEXT_MARKER_CAUSE
 (
 "
@@ -26801,7 +26802,6 @@ TakeProfilerBacktrace
 )
 )
 ;
-}
 #
 endif
 bool
