@@ -742,6 +742,7 @@ SelectionType
 aSelectionType
 )
 ;
+static
 nsIFrame
 *
 GetFrameForNodeOffset
@@ -757,7 +758,6 @@ int32_t
 *
 aReturnOffset
 )
-const
 ;
 nsIFrame
 *
@@ -1226,6 +1226,7 @@ uint32_t
 aContentOffset
 )
 ;
+static
 nsPrevNextBidiLevels
 GetPrevNextBidiLevels
 (
@@ -1239,7 +1240,6 @@ aHint
 bool
 aJumpLines
 )
-const
 ;
 bool
 AdjustForMaintainedSelection
@@ -1549,6 +1549,7 @@ GetNextCellRange
 (
 )
 ;
+static
 nsIContent
 *
 GetFirstCellNodeInRange
@@ -1557,8 +1558,8 @@ nsRange
 *
 aRange
 )
-const
 ;
+static
 nsIContent
 *
 IsInSameTable
@@ -1570,8 +1571,8 @@ nsIContent
 *
 aContent2
 )
-const
 ;
+static
 nsIContent
 *
 GetParentTable
@@ -1580,7 +1581,6 @@ nsIContent
 *
 aCellNode
 )
-const
 ;
 nsresult
 CreateAndAddRange

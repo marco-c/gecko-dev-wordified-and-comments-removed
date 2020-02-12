@@ -2957,9 +2957,9 @@ theFrameOffset
 ;
 theFrame
 =
-aFrameSelection
--
->
+nsFrameSelection
+:
+:
 GetFrameForNodeOffset
 (
 aContentNode

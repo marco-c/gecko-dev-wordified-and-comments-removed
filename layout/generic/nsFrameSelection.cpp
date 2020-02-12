@@ -3796,7 +3796,6 @@ aHint
 bool
 aJumpLines
 )
-const
 {
 nsIFrame
 *
@@ -6497,7 +6496,6 @@ int32_t
 *
 aReturnOffset
 )
-const
 {
 if
 (
@@ -6507,10 +6505,6 @@ aNode
 |
 !
 aReturnOffset
-|
-|
-!
-mPresShell
 )
 return
 nullptr
@@ -11510,7 +11504,6 @@ nsRange
 *
 aRange
 )
-const
 {
 if
 (
@@ -11763,7 +11756,6 @@ nsIContent
 *
 aContent2
 )
-const
 {
 if
 (
@@ -11819,7 +11811,6 @@ nsIContent
 *
 aCell
 )
-const
 {
 if
 (
