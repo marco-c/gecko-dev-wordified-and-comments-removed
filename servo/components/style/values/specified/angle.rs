@@ -1184,7 +1184,6 @@ value
 allow_unitless_zero
 =
 >
-{
 Ok
 (
 Angle
@@ -1194,7 +1193,6 @@ zero
 (
 )
 )
-}
 ref
 t
 =

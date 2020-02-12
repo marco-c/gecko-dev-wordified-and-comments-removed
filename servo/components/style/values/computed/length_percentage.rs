@@ -104,8 +104,8 @@ serde
 :
 :
 {
-Serialize
 Deserialize
+Serialize
 }
 ;
 use
@@ -152,8 +152,8 @@ hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 #
@@ -185,8 +185,8 @@ hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 #
@@ -218,8 +218,8 @@ hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 #
@@ -278,8 +278,8 @@ hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 #
@@ -319,8 +319,8 @@ hidden
 [
 derive
 (
-Copy
 Clone
+Copy
 )
 ]
 #
@@ -479,8 +479,8 @@ u8
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -788,8 +788,8 @@ Percentage
 derive
 (
 Deserialize
-Serialize
 PartialEq
+Serialize
 )
 ]
 enum
@@ -1038,6 +1038,7 @@ percentage
 )
 )
 )
+;
 }
 Self
 :
@@ -2855,7 +2856,6 @@ value
 )
 =
 >
-{
 LengthPercentage
 :
 :
@@ -2863,7 +2863,6 @@ new_percent
 (
 value
 )
-}
 specified
 :
 :
@@ -2877,7 +2876,6 @@ calc
 )
 =
 >
-{
 (
 *
 *
@@ -2888,7 +2886,6 @@ to_computed_value
 (
 context
 )
-}
 }
 }
 fn
@@ -2947,7 +2944,6 @@ p
 )
 =
 >
-{
 specified
 :
 :
@@ -2958,7 +2954,6 @@ Percentage
 (
 p
 )
-}
 Unpacked
 :
 :
@@ -3535,12 +3530,6 @@ Length
 Length
 {
 use
-std
-:
-:
-f32
-;
-use
 crate
 :
 :
@@ -3554,9 +3543,15 @@ length
 :
 :
 {
-ViewportPercentageLength
 FontRelativeLength
+ViewportPercentageLength
 }
+;
+use
+std
+:
+:
+f32
 ;
 let
 mut

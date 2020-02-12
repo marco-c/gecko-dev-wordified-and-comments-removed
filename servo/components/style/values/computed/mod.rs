@@ -2964,7 +2964,6 @@ percentage
 )
 =
 >
-{
 specified
 :
 :
@@ -2982,7 +2981,6 @@ from_computed_value
 percentage
 )
 )
-}
 AngleOrPercentage
 :
 :

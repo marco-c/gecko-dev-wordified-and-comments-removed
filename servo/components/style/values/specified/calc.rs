@@ -145,9 +145,9 @@ ToCss
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 )
 ]
 pub
@@ -163,9 +163,9 @@ Clamp
 [
 derive
 (
-Debug
-Copy
 Clone
+Copy
+Debug
 Eq
 Ord
 PartialEq
@@ -194,8 +194,8 @@ Other
 [
 derive
 (
-Copy
 Clone
+Copy
 Debug
 PartialEq
 )
@@ -1160,6 +1160,7 @@ Err
 )
 }
 }
+;
 }
 impl
 PartialOrd
@@ -1727,7 +1728,6 @@ l
 )
 =
 >
-{
 match
 *
 l
@@ -1756,7 +1756,6 @@ relative
 )
 =
 >
-{
 match
 *
 relative
@@ -1818,7 +1817,6 @@ SortKey
 :
 Rem
 }
-}
 NoCalcLength
 :
 :
@@ -1829,7 +1827,6 @@ vp
 )
 =
 >
-{
 match
 *
 vp
@@ -1891,7 +1888,6 @@ SortKey
 :
 Vmin
 }
-}
 NoCalcLength
 :
 :
@@ -1906,7 +1902,6 @@ unreachable
 !
 (
 )
-}
 }
 Self
 :
@@ -2208,6 +2203,7 @@ result
 ;
 }
 }
+;
 }
 match
 *
@@ -3305,7 +3301,6 @@ _
 )
 =
 >
-{
 input
 .
 parse_nested_block
@@ -3325,7 +3320,6 @@ expected_unit
 )
 }
 )
-}
 (
 &
 Token
@@ -4744,6 +4738,7 @@ Err
 (
 )
 )
+;
 }
 CalcNode
 :
