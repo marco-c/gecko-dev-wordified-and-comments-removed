@@ -453,7 +453,7 @@ Query
 LIMIT
 }
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 LIMIT
 <

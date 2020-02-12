@@ -2049,7 +2049,7 @@ Policy
 policy
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 MAX_VIRTUAL_REGISTERS
 <

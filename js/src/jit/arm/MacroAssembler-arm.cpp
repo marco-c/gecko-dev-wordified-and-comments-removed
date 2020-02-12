@@ -16444,7 +16444,7 @@ Label
 notInt32
 end
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =
@@ -18018,7 +18018,7 @@ scratch
 )
 ;
 }
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =
@@ -18144,7 +18144,7 @@ asMasm
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 NUNBOX32_PAYLOAD_OFFSET
 =

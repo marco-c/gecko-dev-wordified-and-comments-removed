@@ -2153,7 +2153,7 @@ dest
 JSVAL_TYPE_OBJECT
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JS
 :

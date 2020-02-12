@@ -2841,7 +2841,7 @@ bool
 isNatural
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

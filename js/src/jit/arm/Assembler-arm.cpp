@@ -13106,7 +13106,7 @@ Instruction
 i
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -13145,7 +13145,7 @@ raw
 )
 const
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

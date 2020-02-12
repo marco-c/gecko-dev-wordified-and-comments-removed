@@ -35416,7 +35416,7 @@ current
 /
 StackPointer
 .
-JS_STATIC_ASSERT
+static_assert
 (
 JSJitMethodCallArgsTraits
 :
@@ -35427,7 +35427,7 @@ offsetOfArgv
 0
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JSJitMethodCallArgsTraits
 :
@@ -91576,7 +91576,7 @@ the
 same
 thing
 .
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -92562,7 +92562,7 @@ the
 same
 thing
 .
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (

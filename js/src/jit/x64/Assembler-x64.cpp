@@ -98,7 +98,7 @@ defined
 (
 XP_WIN
 )
-JS_STATIC_ASSERT
+static_assert
 (
 NumIntArgRegs
 =
