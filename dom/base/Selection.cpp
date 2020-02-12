@@ -886,6 +886,11 @@ Selection
 aSelection
 )
 {
+MOZ_ASSERT
+(
+aFrameSelection
+)
+;
 mFrameSelection
 =
 aFrameSelection
