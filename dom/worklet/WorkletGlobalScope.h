@@ -126,7 +126,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 WorkletGlobalScope
 )
-explicit
 WorkletGlobalScope
 (
 const
@@ -136,6 +135,8 @@ nsID
 >
 &
 aAgentClusterId
+bool
+aSharedMemoryAllowed
 )
 ;
 nsIGlobalObject
@@ -302,6 +303,17 @@ return
 mAgentClusterId
 ;
 }
+bool
+IsSharedMemoryAllowed
+(
+)
+const
+override
+{
+return
+mSharedMemoryAllowed
+;
+}
 protected
 :
 ~
@@ -326,6 +338,9 @@ RefPtr
 Console
 >
 mConsole
+;
+bool
+mSharedMemoryAllowed
 ;
 }
 ;
