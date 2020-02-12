@@ -14713,7 +14713,7 @@ ShouldUseMozBoxCollapseBehavior
 const
 nsStyleDisplay
 *
-aThisStyleDisp
+aFlexStyleDisp
 )
 {
 MOZ_ASSERT
@@ -14723,7 +14723,7 @@ StyleDisplay
 )
 =
 =
-aThisStyleDisp
+aFlexStyleDisp
 "
 wrong
 StyleDisplay
@@ -14747,7 +14747,7 @@ false
 }
 if
 (
-aThisStyleDisp
+aFlexStyleDisp
 -
 >
 mDisplay
@@ -14762,7 +14762,7 @@ StyleDisplay
 MozBox
 |
 |
-aThisStyleDisp
+aFlexStyleDisp
 -
 >
 mDisplay
