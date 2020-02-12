@@ -552,9 +552,6 @@ return
 applyTransformMatrix
 (
 cropAndScaleMatrix
-(
-int
-)
 Math
 .
 round
@@ -567,9 +564,6 @@ cropWidth
 float
 )
 width
-)
-(
-int
 )
 Math
 .
