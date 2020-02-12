@@ -7,6 +7,11 @@ mozilla_FunctionTypeTraits_h
 #
 include
 <
+cstddef
+>
+#
+include
+<
 tuple
 >
 namespace
