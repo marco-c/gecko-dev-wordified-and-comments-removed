@@ -130,6 +130,10 @@ bug
 #
 792908
 include
+protocol
+PInputChannelThrottleQueue
+;
+include
 IPCStream
 ;
 include
@@ -353,6 +357,9 @@ hasTransactionObserver
 H2PushedStreamArg
 ?
 pushedStreamArg
+PInputChannelThrottleQueue
+?
+throttleQueue
 )
 ;
 async

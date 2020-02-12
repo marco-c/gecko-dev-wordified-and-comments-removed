@@ -130,6 +130,10 @@ protocol
 PParentToChildStream
 ;
 include
+protocol
+PInputChannelThrottleQueue
+;
+include
 MemoryReportTypes
 ;
 include
@@ -330,6 +334,9 @@ PChildToParentStream
 ;
 manages
 PParentToChildStream
+;
+manages
+PInputChannelThrottleQueue
 ;
 parent
 :
@@ -560,6 +567,15 @@ OnHttpActivityDistributorActivated
 (
 bool
 aIsActivated
+)
+;
+async
+PInputChannelThrottleQueue
+(
+uint32_t
+meanBytesPerSecond
+uint32_t
+maxBytesPerSecond
 )
 ;
 both
