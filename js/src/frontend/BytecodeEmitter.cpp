@@ -45350,7 +45350,7 @@ emitOptionalCalleeAndThis
 ParseNode
 *
 callee
-ParseNode
+CallNode
 *
 call
 CallOrNewEmitter
@@ -45853,16 +45853,7 @@ UnaryNode
 >
 (
 )
-&
 call
--
->
-as
-<
-CallNode
->
-(
-)
 cone
 )
 ;
