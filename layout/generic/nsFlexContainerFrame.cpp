@@ -1554,6 +1554,10 @@ nscoord
 aCrossSize
 WritingMode
 aContainerWM
+const
+FlexboxAxisTracker
+&
+aAxisTracker
 )
 ;
 nsIFrame
@@ -3137,8 +3141,6 @@ mCBWM
 const
 LogicalAxis
 mMainAxis
-=
-eLogicalAxisInline
 ;
 const
 LogicalMargin
@@ -7438,6 +7440,10 @@ nscoord
 aCrossSize
 WritingMode
 aContainerWM
+const
+FlexboxAxisTracker
+&
+aAxisTracker
 )
 :
 mFrame
@@ -7451,6 +7457,14 @@ aContainerWM
 mCBWM
 (
 aContainerWM
+)
+mMainAxis
+(
+aAxisTracker
+.
+MainAxis
+(
+)
 )
 mBorderPadding
 (
@@ -15247,6 +15261,7 @@ aReflowInput
 GetWritingMode
 (
 )
+aAxisTracker
 )
 ;
 }
@@ -15292,6 +15307,7 @@ aReflowInput
 GetWritingMode
 (
 )
+aAxisTracker
 )
 ;
 nextStrutIdx
