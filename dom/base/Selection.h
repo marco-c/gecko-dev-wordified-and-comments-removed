@@ -207,12 +207,16 @@ Selection
 ;
 public
 :
+Selection
+(
+)
+;
 explicit
 Selection
 (
 nsFrameSelection
 *
-aFrameSelection
+aList
 )
 ;
 MOZ_DECLARE_WEAKREFERENCE_TYPENAME
@@ -2286,7 +2290,6 @@ static
 nsresult
 GetTableCellLocationFromRange
 (
-const
 nsRange
 *
 aRange

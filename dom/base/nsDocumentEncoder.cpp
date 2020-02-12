@@ -6074,7 +6074,6 @@ mSelection
 new
 Selection
 (
-nullptr
 )
 ;
 for
