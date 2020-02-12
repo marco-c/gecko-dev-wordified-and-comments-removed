@@ -4374,6 +4374,10 @@ mWidget
 =
 widget
 ;
+status
+=
+nsEventStatus_eIgnore
+;
 if
 (
 event
