@@ -1,4 +1,4 @@
-53005
+53235
 0
 /
 nm
@@ -653,6 +653,9 @@ Agrippa
 /
 M
 Agrippina
+/
+M
+Aguadilla
 /
 M
 Aguascalientes
@@ -1325,6 +1328,9 @@ M
 Alton
 /
 M
+Altoona
+/
+M
 Aludra
 /
 M
@@ -1438,7 +1444,7 @@ Ambrosius
 M
 Ame
 /
-M
+SM
 Amelia
 /
 M
@@ -1482,6 +1488,9 @@ Amerindian
 /
 MS
 Amery
+/
+M
+Ames
 /
 M
 Ameslan
@@ -1761,6 +1770,9 @@ M
 Angle
 /
 MS
+Angleton
+/
+M
 Anglia
 /
 M
@@ -1864,6 +1876,9 @@ Anni
 /
 SM
 Annie
+/
+M
+Anniston
 /
 M
 Annmarie
@@ -2214,6 +2229,9 @@ M
 Arduino
 /
 M
+Arecibo
+/
+M
 Arequipa
 /
 M
@@ -2512,6 +2530,9 @@ M
 Ashe
 /
 RM
+Asheville
+/
+M
 Ashgabat
 Ashikaga
 /
@@ -2652,6 +2673,9 @@ M
 Atari
 /
 M
+Atascadero
+/
+M
 Ataturk
 /
 M
@@ -2744,6 +2768,9 @@ Aubrey
 /
 M
 Aubry
+/
+M
+Auburn
 /
 M
 Auckland
@@ -2952,6 +2979,9 @@ Avogadro
 /
 M
 Avon
+/
+M
+Avondale
 /
 M
 Avram
@@ -3412,6 +3442,9 @@ M
 Barcelona
 /
 M
+Barceloneta
+/
+M
 Barclay
 /
 SM
@@ -3780,6 +3813,9 @@ M
 Beckie
 /
 M
+Beckley
+/
+M
 Beckman
 Becky
 /
@@ -3891,6 +3927,9 @@ M
 Bellevue
 /
 M
+Bellingham
+/
+M
 Bellini
 /
 M
@@ -3901,6 +3940,9 @@ Belmont
 /
 M
 Belmopan
+/
+M
+Beloit
 /
 M
 Belorussian
@@ -3933,6 +3975,9 @@ M
 Benchley
 /
 M
+Bend
+/
+MR
 Bender
 /
 M
@@ -4215,6 +4260,9 @@ M
 Bertrand
 /
 M
+Berwick
+/
+M
 Beryl
 /
 M
@@ -4403,6 +4451,9 @@ M
 Bing
 /
 M
+Binghamton
+/
+M
 Bink
 /
 M
@@ -4511,6 +4562,9 @@ M
 Blackpool
 /
 M
+Blacksburg
+/
+M
 Blackshirt
 /
 M
@@ -4602,6 +4656,12 @@ Bloomfield
 /
 M
 Bloomingdale
+/
+M
+Bloomington
+/
+M
+Bloomsburg
 /
 M
 Bloomsbury
@@ -4946,6 +5006,9 @@ M
 Braden
 /
 M
+Bradenton
+/
+M
 Bradford
 /
 M
@@ -5090,6 +5153,9 @@ Bree
 /
 M
 Bremen
+/
+M
+Bremerton
 /
 M
 Bren
@@ -5899,6 +5965,9 @@ M
 Caledonia
 /
 M
+Calexico
+/
+M
 Calgary
 /
 M
@@ -5971,6 +6040,9 @@ Calvinist
 MS
 Calvinistic
 Camacho
+/
+M
+Camarillo
 /
 M
 Cambodia
@@ -6213,6 +6285,9 @@ M
 Carboloy
 /
 M
+Carbondale
+/
+M
 Carboniferous
 /
 M
@@ -6433,6 +6508,9 @@ Carson
 /
 M
 Carter
+/
+M
+Cartersville
 /
 M
 Cartesian
@@ -6879,6 +6957,12 @@ Chamberlain
 /
 M
 Chambers
+/
+M
+Chambersburg
+/
+M
+Champaign
 /
 M
 Champlain
@@ -7574,6 +7658,9 @@ M
 Clarkson
 /
 M
+Clarksville
+/
+M
 Clary
 /
 M
@@ -8038,6 +8125,9 @@ MR
 Connecticut
 /
 M
+Connellsville
+/
+M
 Connemara
 /
 M
@@ -8069,6 +8159,9 @@ Conrado
 /
 M
 Conrail
+/
+M
+Conroe
 /
 M
 Conroy
@@ -8410,6 +8503,9 @@ M
 Coventry
 /
 SM
+Covington
+/
+M
 Coward
 /
 M
@@ -9010,6 +9106,9 @@ M
 Dana
 /
 M
+Danbury
+/
+M
 Dane
 /
 SM
@@ -9080,6 +9179,9 @@ Danube
 /
 M
 Danubian
+/
+M
+Danville
 /
 M
 Daphne
@@ -9509,6 +9611,9 @@ Delphinus
 /
 M
 Delta
+/
+M
+Deltona
 /
 M
 Dem
@@ -10189,6 +10294,9 @@ M
 Dot
 /
 M
+Dothan
+/
+M
 Dotson
 /
 M
@@ -10336,6 +10444,9 @@ Dublin
 /
 M
 Dubrovnik
+/
+M
+Dubuque
 /
 M
 Duchamp
@@ -10944,6 +11055,9 @@ M
 Elden
 /
 M
+Eldersburg
+/
+M
 Eldin
 /
 M
@@ -11052,7 +11166,13 @@ M
 Elizabethan
 /
 SM
+Elizabethtown
+/
+M
 Elke
+/
+M
+Elkhart
 /
 M
 Ella
@@ -11200,6 +11320,9 @@ Elwood
 /
 M
 Elwyn
+/
+M
+Elyria
 /
 M
 Elyse
@@ -11797,6 +11920,9 @@ M
 Eustacia
 /
 M
+Eustis
+/
+M
 Euterpe
 /
 M
@@ -12030,6 +12156,12 @@ Fairbanks
 /
 M
 Fairfax
+Fairfield
+/
+M
+Fairhope
+/
+M
 Fairleigh
 /
 M
@@ -12043,6 +12175,9 @@ Faisalabad
 /
 M
 Faith
+/
+M
+Fajardo
 /
 M
 Falasha
@@ -12095,6 +12230,9 @@ Farley
 /
 M
 Farmer
+/
+M
+Farmington
 /
 M
 Farr
@@ -12183,6 +12321,9 @@ Faye
 /
 M
 Fayette
+/
+M
+Fayetteville
 /
 M
 Fayre
@@ -12456,6 +12597,9 @@ M
 Fitch
 /
 M
+Fitchburg
+/
+M
 Fitz
 /
 M
@@ -12472,6 +12616,9 @@ Fizeau
 /
 M
 Fla
+Flagstaff
+/
+M
 Flanagan
 /
 M
@@ -12831,6 +12978,9 @@ M
 Frederick
 /
 M
+Fredericksburg
+/
+M
 Frederico
 /
 M
@@ -12931,6 +13081,9 @@ Friederike
 /
 M
 Friedman
+/
+M
+Friedmann
 /
 M
 Friedrich
@@ -13215,6 +13368,9 @@ M
 Gaines
 /
 M
+Gainesville
+/
+M
 Gainsborough
 /
 M
@@ -13453,6 +13609,9 @@ Gasser
 /
 M
 Gaston
+/
+M
+Gastonia
 /
 M
 Gastroenterology
@@ -13913,6 +14072,9 @@ Gilman
 Gilmore
 /
 M
+Gilroy
+/
+M
 Gina
 /
 M
@@ -14180,6 +14342,9 @@ M
 Goldman
 /
 M
+Goldsboro
+/
+M
 Goldsmith
 /
 M
@@ -14426,6 +14591,9 @@ M
 Gray
 /
 M
+Grayslake
+/
+M
 Grazia
 /
 M
@@ -14461,6 +14629,9 @@ Greensleeves
 /
 M
 Greenspan
+/
+M
+Greenville
 /
 M
 Greenwich
@@ -14653,6 +14824,9 @@ M
 Guatemalan
 /
 MS
+Guayama
+/
+M
 Guayaquil
 /
 M
@@ -14732,6 +14906,9 @@ Gujarati
 /
 M
 Gujranwala
+/
+M
+Gulfport
 /
 M
 Gullah
@@ -14944,6 +15121,9 @@ Hagar
 /
 M
 Hagen
+Hagerstown
+/
+M
 Haggai
 /
 M
@@ -15139,6 +15319,9 @@ M
 Haney
 /
 M
+Hanford
+/
+M
 Hangul
 /
 M
@@ -15240,6 +15423,9 @@ M
 Harlin
 /
 M
+Harlingen
+/
+M
 Harlow
 /
 M
@@ -15298,6 +15484,9 @@ Harrisburg
 /
 M
 Harrison
+/
+M
+Harrisonburg
 /
 M
 Harrods
@@ -15382,6 +15571,9 @@ M
 Hattie
 /
 M
+Hattiesburg
+/
+M
 Hatty
 /
 M
@@ -15463,6 +15655,9 @@ Hayyim
 /
 M
 Hazel
+/
+M
+Hazleton
 /
 M
 Hazlett
@@ -15660,6 +15855,9 @@ M
 Helvetian
 Helvetica
 Helvetius
+/
+M
+Hemet
 /
 M
 Hemingway
@@ -15889,6 +16087,9 @@ M
 Hesiod
 /
 M
+Hesperia
+/
+M
 Hesperus
 /
 M
@@ -15965,6 +16166,9 @@ M
 Hickok
 /
 M
+Hickory
+/
+M
 Hicks
 /
 M
@@ -15980,6 +16184,9 @@ Highlander
 SM
 Highlands
 Highness
+/
+M
+Hightstown
 /
 M
 Hilario
@@ -16075,6 +16282,9 @@ Hindustani
 /
 SM
 Hines
+/
+M
+Hinesville
 /
 M
 Hinton
@@ -16413,6 +16623,9 @@ Houdini
 /
 M
 Houghton
+/
+M
+Houma
 /
 M
 House
@@ -16966,6 +17179,9 @@ Indianian
 Indies
 /
 M
+Indio
+/
+M
 Indira
 /
 M
@@ -17204,6 +17420,9 @@ Isaak
 /
 M
 Isabel
+/
+M
+Isabela
 /
 M
 Isabella
@@ -17607,6 +17826,9 @@ Janell
 /
 M
 Janelle
+/
+M
+Janesville
 /
 M
 Janet
@@ -18172,6 +18394,9 @@ M
 Johnston
 /
 M
+Johnstown
+/
+M
 Jojo
 /
 M
@@ -18213,6 +18438,9 @@ Jone
 /
 SM
 Jones
+/
+M
+Jonesboro
 /
 M
 Joni
@@ -18558,6 +18786,9 @@ M
 Kahlua
 /
 M
+Kahului
+/
+M
 Kai
 /
 M
@@ -18568,6 +18799,9 @@ Kaifeng
 /
 M
 Kaila
+/
+M
+Kailua
 /
 M
 Kain
@@ -18655,7 +18889,13 @@ Kandy
 Kane
 /
 M
+Kaneohe
+/
+M
 Kania
+/
+M
+Kankakee
 /
 M
 Kannada
@@ -19076,10 +19316,16 @@ M
 Kennett
 /
 M
+Kennewick
+/
+M
 Kennith
 /
 M
 Kenny
+/
+M
+Kenosha
 /
 M
 Kent
@@ -19295,6 +19541,9 @@ M
 Kilimanjaro
 /
 M
+Killeen
+/
+M
 Killian
 /
 M
@@ -19329,6 +19578,9 @@ King
 /
 M
 Kingsley
+Kingsport
+/
+M
 Kingston
 /
 M
@@ -19414,6 +19666,9 @@ Kishinev
 /
 M
 Kislev
+/
+M
+Kissimmee
 /
 M
 Kissinger
@@ -19553,6 +19808,9 @@ Koizumi
 /
 M
 Kojak
+/
+M
+Kokomo
 /
 M
 Kolyma
@@ -19927,6 +20185,7 @@ M
 Lachesis
 /
 M
+Lactobacillus
 Lacy
 /
 M
@@ -19973,6 +20232,9 @@ Lajos
 /
 M
 Lakeisha
+/
+M
+Lakeland
 /
 M
 Lakers
@@ -20401,6 +20663,9 @@ M
 Leena
 /
 M
+Leesburg
+/
+M
 Leese
 /
 M
@@ -20538,6 +20803,9 @@ Leo
 /
 SM
 Leola
+/
+M
+Leominster
 /
 M
 Leon
@@ -20708,6 +20976,12 @@ Lewinsky
 /
 M
 Lewis
+/
+M
+Lewiston
+/
+M
+Lewisville
 /
 M
 Lexi
@@ -21058,6 +21332,9 @@ M
 LiveJournal
 /
 M
+Livermore
+/
+M
 Liverpool
 /
 M
@@ -21137,6 +21414,9 @@ M
 Lodge
 /
 M
+Lodi
+/
+M
 Lodovico
 /
 M
@@ -21197,6 +21477,9 @@ M
 Lome
 /
 M
+Lompoc
+/
+M
 Lon
 /
 M
@@ -21215,10 +21498,16 @@ M
 Longfellow
 /
 M
+Longmont
+/
+M
 Longstreet
 /
 M
 Longueuil
+Longview
+/
+M
 Loni
 /
 M
@@ -21671,6 +21960,9 @@ M
 Lynch
 /
 M
+Lynchburg
+/
+M
 Lynda
 /
 M
@@ -21941,6 +22233,9 @@ Madelon
 /
 M
 Madelyn
+/
+M
+Madera
 /
 M
 Madge
@@ -22328,6 +22623,9 @@ M
 Mandelbrot
 /
 M
+Mandeville
+/
+M
 Mandi
 /
 M
@@ -22367,6 +22665,9 @@ M
 Manitoulin
 /
 M
+Mankato
+/
+M
 Manley
 /
 M
@@ -22398,6 +22699,9 @@ Mansfield
 /
 M
 Manson
+/
+M
+Manteca
 /
 M
 Mantegna
@@ -22935,6 +23239,9 @@ Marylou
 /
 M
 Marys
+Marysville
+/
+M
 Masada
 /
 M
@@ -23106,6 +23413,9 @@ M
 Maui
 /
 M
+Mauldin
+/
+M
 Maupassant
 /
 M
@@ -23262,6 +23572,9 @@ M
 McAfee
 /
 M
+McAllen
+/
+M
 McBride
 /
 M
@@ -23346,12 +23659,16 @@ M
 McGuire
 /
 M
+McHenry
+/
+M
 McIntosh
 /
 M
 McIntyre
 /
 M
+McJob
 McKay
 /
 M
@@ -23441,6 +23758,9 @@ Medea
 /
 M
 Medellin
+/
+M
+Medford
 /
 M
 Media
@@ -23648,6 +23968,9 @@ Menes
 /
 M
 Mengzi
+Menifee
+/
+M
 Menkalinan
 /
 M
@@ -23692,6 +24015,9 @@ Mercado
 /
 M
 Mercator
+/
+M
+Merced
 /
 M
 Mercedes
@@ -23978,6 +24304,9 @@ M
 Middleton
 /
 M
+Middletown
+/
+M
 Mideast
 Mideastern
 Midland
@@ -24092,6 +24421,7 @@ M
 Milton
 /
 M
+Miltonian
 Miltonic
 /
 M
@@ -24269,6 +24599,9 @@ M
 Mississippian
 /
 SM
+Missoula
+/
+M
 Missouri
 /
 M
@@ -24478,6 +24811,9 @@ SM
 Monera
 /
 M
+Monessen
+/
+M
 Monet
 /
 M
@@ -24561,6 +24897,9 @@ Montenegrin
 /
 M
 Montenegro
+/
+M
+Monterey
 /
 M
 Monterrey
@@ -24672,6 +25011,9 @@ SM
 Morgana
 /
 M
+Morgantown
+/
+M
 Morgen
 /
 M
@@ -24730,6 +25072,9 @@ Morris
 /
 M
 Morrison
+/
+M
+Morristown
 /
 M
 Morrow
@@ -24915,6 +25260,9 @@ M
 Munchhausen
 /
 M
+Muncie
+/
+M
 Munich
 /
 M
@@ -24949,6 +25297,9 @@ M
 Murdock
 /
 M
+Murfreesboro
+/
+M
 Muriel
 /
 M
@@ -24965,6 +25316,9 @@ Murphy
 /
 M
 Murray
+/
+M
+Murrieta
 /
 M
 Murrow
@@ -24992,6 +25346,9 @@ Musharraf
 /
 M
 Musial
+/
+M
+Muskegon
 /
 M
 Muskogee
@@ -25238,6 +25595,9 @@ M
 Namibian
 /
 MS
+Nampa
+/
+M
 Nan
 /
 M
@@ -25696,6 +26056,9 @@ M
 Newark
 /
 M
+Newburgh
+/
+M
 Newcastle
 /
 M
@@ -26086,6 +26449,9 @@ M
 Norma
 /
 M
+Normal
+/
+M
 Norman
 /
 MS
@@ -26391,6 +26757,9 @@ Oberon
 /
 M
 Obie
+Ocala
+/
+M
 Ocaml
 /
 M
@@ -26756,6 +27125,9 @@ Oregonian
 /
 SM
 Orel
+Orem
+/
+M
 Oren
 /
 M
@@ -26960,6 +27332,9 @@ Owen
 /
 SM
 Owens
+/
+M
+Owensboro
 /
 M
 Oxford
@@ -27212,6 +27587,9 @@ M
 Palladio
 /
 M
+Palmdale
+/
+M
 Palmer
 /
 M
@@ -27348,6 +27726,9 @@ M
 Parker
 /
 M
+Parkersburg
+/
+M
 Parkinson
 /
 M
@@ -27398,10 +27779,16 @@ M
 Pasadena
 /
 M
+Pascagoula
+/
+M
 Pascal
 /
 SM
 Pascale
+/
+M
+Pasco
 /
 M
 Pasquale
@@ -28172,6 +28559,9 @@ M
 Pittsburgh
 /
 M
+Pittsfield
+/
+M
 Pius
 /
 M
@@ -28256,6 +28646,9 @@ Po
 /
 M
 Pocahontas
+/
+M
+Pocatello
 /
 M
 Pocono
@@ -28438,6 +28831,9 @@ MR
 Porter
 /
 M
+Porterville
+/
+M
 Portia
 /
 M
@@ -28484,6 +28880,12 @@ Potter
 /
 M
 Potts
+/
+M
+Pottstown
+/
+M
+Poughkeepsie
 /
 M
 Poul
@@ -29173,6 +29575,9 @@ M
 Racine
 /
 M
+Radcliff
+/
+M
 Radcliffe
 /
 M
@@ -29484,6 +29889,9 @@ Red
 /
 SM
 Redd
+/
+GM
+Redding
 /
 M
 Redeemer
@@ -29987,6 +30395,8 @@ Rivers
 /
 M
 Riverside
+/
+M
 Riviera
 /
 MS
@@ -31720,6 +32130,9 @@ M
 Sears
 /
 M
+Seaside
+/
+M
 Seattle
 /
 M
@@ -31730,6 +32143,9 @@ Sebastiano
 /
 M
 Sebastien
+/
+M
+Sebring
 /
 M
 Sec
@@ -32141,6 +32557,9 @@ M
 Shebeli
 /
 M
+Sheboygan
+/
+M
 Sheela
 /
 M
@@ -32537,6 +32956,9 @@ SM
 Simpsons
 /
 M
+Simpsonville
+/
+M
 Sims
 /
 M
@@ -32672,6 +33094,9 @@ M
 Slavonic
 /
 M
+Slidell
+/
+M
 Slinky
 /
 M
@@ -32783,6 +33208,9 @@ Soave
 /
 M
 Soc
+Socastee
+/
+M
 Socorro
 /
 M
@@ -32999,6 +33427,9 @@ M
 Spartan
 /
 MS
+Spartanburg
+/
+M
 Spears
 /
 M
@@ -33066,6 +33497,9 @@ Spock
 /
 M
 Spokane
+/
+M
+Springdale
 /
 M
 Springfield
@@ -33205,6 +33639,9 @@ Stateside
 Staubach
 /
 M
+Staunton
+/
+M
 Stavros
 Ste
 Steadicam
@@ -33298,6 +33735,9 @@ Stetson
 /
 M
 Steuben
+/
+M
+Steubenville
 /
 M
 Steve
@@ -34228,6 +34668,9 @@ M
 Taurus
 /
 MS
+Tavares
+/
+M
 Tawney
 /
 M
@@ -34308,8 +34751,14 @@ M
 Telugu
 /
 M
+Temecula
+/
+M
 Tempe
 Templar
+/
+M
+Temple
 /
 M
 Templeton
@@ -34327,6 +34776,7 @@ M
 Tennyson
 /
 M
+Tennysonian
 Tenochtitlan
 /
 M
@@ -34451,6 +34901,9 @@ M
 Texan
 /
 MS
+Texarkana
+/
+M
 Texas
 /
 M
@@ -34883,6 +35336,9 @@ Tito
 /
 M
 Titus
+/
+M
+Titusville
 /
 M
 Tl
@@ -35469,6 +35925,9 @@ M
 Turkmenistan
 /
 M
+Turlock
+/
+M
 Turner
 /
 M
@@ -35767,6 +36226,9 @@ Union
 /
 SM
 Unionist
+Uniontown
+/
+M
 Uniroyal
 /
 M
@@ -35879,6 +36341,9 @@ MS
 Ute
 /
 SM
+Utica
+/
+M
 Utopia
 /
 SM
@@ -35948,6 +36413,9 @@ VTOL
 Va
 /
 M
+Vacaville
+/
+M
 Vachel
 /
 M
@@ -35973,6 +36441,9 @@ Valdemar
 /
 M
 Valdez
+/
+M
+Valdosta
 /
 M
 Valencia
@@ -36025,6 +36496,8 @@ Valle
 /
 M
 Vallejo
+/
+M
 Valletta
 /
 M
@@ -36340,6 +36813,9 @@ Victorian
 /
 MS
 Victorianism
+Victorville
+/
+M
 Victrola
 /
 M
@@ -36387,8 +36863,11 @@ Vila
 M
 Villa
 /
-M
+SM
 Villarreal
+/
+M
+Villas
 /
 M
 Villon
@@ -36416,6 +36895,9 @@ Vincent
 /
 M
 Vindemiatrix
+/
+M
+Vineland
 /
 M
 Vinnie
@@ -36467,6 +36949,9 @@ Visa
 /
 M
 Visakhapatnam
+/
+M
+Visalia
 /
 M
 Visayans
@@ -36853,10 +37338,16 @@ MS
 Waters
 /
 M
+Watertown
+/
+M
 Watkins
 /
 M
 Watson
+/
+M
+Watsonville
 /
 M
 Watt
@@ -36874,6 +37365,9 @@ M
 Waugh
 /
 M
+Wausau
+/
+M
 Wave
 Waverley
 /
@@ -36888,6 +37382,9 @@ Waylon
 /
 M
 Wayne
+/
+M
+Waynesboro
 /
 M
 Weave
@@ -36947,6 +37444,9 @@ M
 Weinberg
 /
 M
+Weirton
+/
+M
 Weiss
 /
 M
@@ -36987,6 +37487,9 @@ Welshmen
 /
 M
 Welshwoman
+Wenatchee
+/
+M
 Wendel
 /
 M
@@ -37269,7 +37772,13 @@ SM
 Williams
 /
 M
+Williamsburg
+/
+M
 Williamson
+/
+M
+Williamsport
 /
 M
 Willie
@@ -37471,6 +37980,9 @@ Woodhull
 /
 M
 Woodie
+/
+M
+Woodland
 /
 M
 Woodrow
@@ -37820,6 +38332,9 @@ M
 Yates
 /
 M
+Yauco
+/
+M
 Yb
 /
 M
@@ -38155,6 +38670,9 @@ Zeno
 /
 M
 Zephaniah
+/
+M
+Zephyrhills
 /
 M
 Zephyrus
@@ -38953,7 +39471,7 @@ account
 MDSBG
 accountability
 /
-MS
+SM
 accountable
 /
 U
@@ -38990,10 +39508,10 @@ accredited
 U
 accrete
 /
-SD
+NDSX
 accretion
 /
-MS
+M
 accrual
 /
 MS
@@ -39997,6 +40515,7 @@ affiliation
 /
 EM
 affiliations
+affine
 affinity
 /
 SM
@@ -40159,6 +40678,7 @@ SM
 agenda
 /
 SM
+agenesis
 agent
 /
 AMS
@@ -40508,6 +41028,8 @@ aka
 akimbo
 akin
 al
+/
+YV
 alabaster
 /
 M
@@ -40583,7 +41105,7 @@ M
 alderwomen
 ale
 /
-SMV
+SM
 aleatory
 alehouse
 /
@@ -41193,6 +41715,7 @@ amir
 /
 SM
 amiss
+amitriptyline
 amity
 /
 M
@@ -43555,6 +44078,9 @@ MS
 assimilate
 /
 DSGN
+assimilated
+/
+U
 assimilation
 /
 M
@@ -45322,7 +45848,7 @@ bar
 s
 bar
 /
-ECUTS
+ECAUTS
 barb
 /
 SZGMDR
@@ -45379,7 +45905,7 @@ barcarole
 SM
 barcode
 /
-SDG
+GDS
 bard
 /
 SM
@@ -46576,6 +47102,7 @@ M
 bent
 /
 SM
+bentonite
 bentwood
 /
 M
@@ -47195,6 +47722,9 @@ M
 biofeedback
 /
 M
+biofilm
+/
+MS
 biog
 biographer
 /
@@ -47224,6 +47754,9 @@ MS
 biology
 /
 M
+biomarker
+/
+MS
 biomass
 /
 M
@@ -47588,8 +48121,6 @@ blanch
 /
 GDS
 blanche
-/
-S
 blancmange
 /
 MS
@@ -48647,6 +49178,7 @@ MS
 bookworm
 /
 SM
+boolean
 boom
 /
 SZGMDR
@@ -54645,6 +55177,7 @@ U
 cladding
 /
 M
+clade
 claim
 '
 s
@@ -54821,6 +55354,7 @@ ACSDGN
 classiness
 /
 M
+classism
 classless
 /
 P
@@ -55187,6 +55721,7 @@ clonal
 clone
 /
 DSMG
+clonidine
 clonk
 /
 SMDG
@@ -56038,10 +56573,7 @@ M
 collusive
 colocate
 /
-DGS
-colocation
-/
-S
+XDSGN
 cologne
 /
 SM
@@ -56609,7 +57141,7 @@ comparative
 MYS
 compare
 /
-BDSMG
+BDSG
 comparison
 /
 MS
@@ -56814,6 +57346,7 @@ MYGNXPDS
 composition
 /
 CM
+compositional
 compositor
 /
 SM
@@ -56859,7 +57392,7 @@ compress
 s
 compress
 /
-CGDS
+CGVDS
 compressed
 /
 U
@@ -58576,6 +59109,9 @@ copyleft
 copyright
 /
 GSBMD
+copyrightable
+/
+U
 copywriter
 /
 MS
@@ -58995,7 +59531,7 @@ cosmos
 MS
 cosplay
 /
-DGSRZ
+DRSZG
 cosponsor
 /
 GSMD
@@ -59305,7 +59841,7 @@ couple
 s
 couple
 /
-UCGSDRZ
+UCGZSRD
 couplet
 /
 MS
@@ -60020,6 +60556,8 @@ criminality
 /
 M
 criminalization
+/
+C
 criminalize
 /
 CGDS
@@ -60492,7 +61030,7 @@ cryptic
 cryptically
 cryptocurrency
 /
-S
+SM
 cryptogram
 /
 SM
@@ -61530,6 +62068,10 @@ data
 database
 /
 SM
+dataset
+'
+s
+datasets
 datasheet
 /
 SM
@@ -61550,6 +62092,7 @@ MGDS
 dater
 /
 M
+dateset
 dative
 /
 MS
@@ -62075,7 +62618,7 @@ MDS
 decreeing
 decrement
 /
-DS
+GDS
 decrepit
 decrepitude
 /
@@ -62586,7 +63129,7 @@ demimonde
 M
 demise
 /
-MGDS
+MGD
 demitasse
 /
 MS
@@ -63332,6 +63875,7 @@ determinism
 /
 M
 deterministic
+deterministically
 deterred
 /
 U
@@ -63660,6 +64204,7 @@ diatonic
 diatribe
 /
 SM
+diazepam
 dibble
 /
 DSMG
@@ -64961,7 +65506,7 @@ diversity
 SM
 divert
 /
-SDGRZ
+SDRZG
 diverticulitis
 /
 M
@@ -65781,14 +66326,14 @@ dowser
 M
 dox
 /
-SDG
+GDS
 doxastic
 doxology
 /
 SM
 doxx
 /
-SDG
+DSG
 doyen
 /
 SM
@@ -68387,6 +68932,9 @@ SM
 encrypt
 /
 DGS
+encrypted
+/
+U
 encryption
 encumber
 /
@@ -69585,6 +70133,7 @@ estimator
 /
 SM
 estoppel
+estradiol
 estrange
 /
 LDSG
@@ -69593,7 +70142,7 @@ estrangement
 MS
 estrogen
 /
-M
+MS
 estrous
 estrus
 /
@@ -69713,6 +70262,10 @@ eucalypti
 eucalyptus
 /
 MS
+eucaryote
+/
+SM
+eucaryotic
 euchre
 /
 DSMG
@@ -69727,7 +70280,10 @@ MS
 eugenics
 /
 M
-eukaryotes
+eukaryote
+/
+SM
+eukaryotic
 eulogist
 /
 MS
@@ -71233,7 +71789,7 @@ faience
 M
 fail
 /
-MDGJS
+DGJS
 failing
 /
 M
@@ -72600,7 +73156,7 @@ finch
 MS
 find
 /
-JMRZGSB
+BJMRZGS
 finder
 /
 M
@@ -73093,7 +73649,7 @@ flan
 MS
 flaneur
 /
-MS
+SM
 flange
 /
 MS
@@ -73687,6 +74243,7 @@ fluoroscope
 /
 SM
 fluoroscopic
+fluoxetine
 flurry
 /
 GDSM
@@ -75519,7 +76076,7 @@ SM
 functor
 fund
 /
-AMDGSRZ
+AMDRZGS
 fundamental
 /
 SMY
@@ -75635,6 +76192,7 @@ M
 furor
 /
 SM
+furosemide
 furred
 furrier
 /
@@ -76387,8 +76945,7 @@ gazetteer
 MS
 gazillion
 /
-S
-gazillionth
+HS
 gazpacho
 /
 M
@@ -78395,6 +78952,7 @@ M
 greenroom
 /
 SM
+greenstone
 greensward
 /
 M
@@ -79822,7 +80380,6 @@ GS
 handwriting
 /
 M
-handwritten
 handwritten
 handwrote
 handy
@@ -83074,6 +83631,8 @@ MS
 hydrocephalus
 /
 M
+hydrochloride
+hydrocortisone
 hydrodynamic
 /
 S
@@ -83141,6 +83700,7 @@ M
 hydrotherapy
 /
 M
+hydrothermal
 hydrous
 hydroxide
 /
@@ -84785,7 +85345,7 @@ increasing
 Y
 increment
 /
-SMD
+SMDG
 incremental
 /
 Y
@@ -85343,7 +85903,7 @@ infrequent
 Y
 infringe
 /
-RZ
+LZR
 infringement
 /
 MS
@@ -85990,13 +86550,13 @@ SMY
 integrand
 integrate
 /
-AEVNGSD
+AEVNGXSD
 integration
 /
-EAMS
+AEM
 integrationist
 /
-MS
+SM
 integrator
 integrity
 /
@@ -86321,6 +86881,8 @@ interoffice
 interoperability
 interoperable
 interoperate
+/
+S
 interpenetrate
 /
 DSGN
@@ -88352,7 +88914,7 @@ MS
 kibbutzim
 kibibyte
 /
-MS
+SM
 kibitz
 /
 ZGDRS
@@ -89847,6 +90409,8 @@ leapt
 learn
 /
 AUGDS
+learnability
+learnable
 learnedly
 learner
 /
@@ -92054,6 +92618,7 @@ MDNSG
 lumpectomy
 /
 S
+lumpenproletariat
 lumpiness
 /
 M
@@ -93965,6 +94530,8 @@ me
 /
 DSH
 mea
+/
+S
 mead
 /
 M
@@ -94038,7 +94605,6 @@ M
 meany
 /
 SM
-meas
 measles
 /
 M
@@ -94085,7 +94651,7 @@ meaty
 TPR
 mebibyte
 /
-MS
+SM
 mecca
 /
 SM
@@ -94569,7 +95135,7 @@ merchandising
 M
 merchant
 /
-MBSG
+GMBS
 merchantability
 merchantman
 /
@@ -94628,6 +95194,7 @@ merited
 /
 U
 meriting
+meritless
 meritocracy
 /
 SM
@@ -94849,6 +95416,7 @@ M
 meter
 /
 GMD
+metformin
 methadone
 /
 M
@@ -95841,7 +96409,7 @@ M
 misdone
 mise
 /
-S
+CKS
 miser
 /
 SBMY
@@ -96010,6 +96578,9 @@ GJS
 misreading
 /
 M
+misremember
+/
+GDS
 misreport
 /
 MDGS
@@ -96375,6 +96946,7 @@ modishness
 /
 M
 modular
+modularization
 modulate
 /
 CGNDS
@@ -96584,6 +97156,8 @@ monetarist
 MS
 monetary
 monetization
+/
+C
 monetize
 /
 CGDS
@@ -97566,6 +98140,7 @@ mullion
 SMD
 multi
 multicast
+multicellular
 multichannel
 multicolored
 multicultural
@@ -97785,6 +98360,7 @@ M
 musculature
 /
 M
+musculoskeletal
 musculus
 muse
 /
@@ -98716,6 +99292,7 @@ SM
 neoconservative
 /
 SM
+neocortex
 neodymium
 /
 M
@@ -99107,6 +99684,7 @@ M
 niece
 /
 SM
+nifedipine
 niff
 niffy
 nifty
@@ -103036,6 +103614,7 @@ M
 ox
 /
 MN
+oxalate
 oxblood
 /
 M
@@ -103372,6 +103951,7 @@ MS
 paleness
 /
 M
+paleo
 paleographer
 /
 MS
@@ -104560,7 +105140,7 @@ pause
 DSMG
 pave
 /
-AGDSRZ
+AZGDRS
 paved
 /
 U
@@ -104737,7 +105317,7 @@ MGDS
 pebbly
 pebibyte
 /
-MS
+SM
 pecan
 /
 SM
@@ -105513,6 +106093,7 @@ MS
 peroxide
 /
 MGDS
+perpend
 perpendicular
 /
 SMY
@@ -106004,6 +106585,7 @@ phenomenon
 /
 MS
 phenotype
+phenytoin
 pheromone
 /
 MS
@@ -106353,6 +106935,7 @@ M
 physique
 /
 MS
+phytoplankton
 pi
 /
 SMDRHZG
@@ -108447,7 +109030,7 @@ posh
 TR
 posit
 /
-DSGV
+DSG
 position
 /
 CKEMS
@@ -108462,7 +109045,7 @@ positioning
 AK
 positive
 /
-MYPSE
+EMYPS
 positiveness
 /
 M
@@ -108754,7 +109337,7 @@ pound
 s
 pound
 /
-KDSGRZ
+KDRSZG
 poundage
 /
 M
@@ -108921,7 +109504,7 @@ pre
 -
 fill
 /
-SDG
+GDS
 preach
 /
 DRSZGL
@@ -109023,7 +109606,7 @@ preclude
 GDS
 preclusion
 /
-MS
+SM
 precocious
 /
 YP
@@ -109130,6 +109713,7 @@ GDS
 predisposition
 /
 MS
+prednisone
 predominance
 /
 M
@@ -109208,7 +109792,7 @@ prefigure
 GDS
 prefill
 /
-SDG
+GSD
 prefix
 /
 MDSG
@@ -109276,7 +109860,7 @@ SM
 preliterate
 preload
 /
-SDG
+SGD
 prelude
 /
 MS
@@ -109370,7 +109954,7 @@ prepayment
 MS
 prepend
 /
-SDG
+DGS
 preponderance
 /
 SM
@@ -109558,12 +110142,18 @@ pressmen
 pressure
 /
 DSMG
+pressured
+/
+U
 pressurization
 /
 M
 pressurize
 /
 CGDS
+pressurized
+/
+U
 pressurizer
 /
 SM
@@ -109989,6 +110579,10 @@ MS
 procaine
 /
 M
+procaryote
+/
+SM
+procaryotic
 procedural
 procedure
 /
@@ -110263,6 +110857,9 @@ SM
 projector
 /
 MS
+prokaryote
+/
+MS
 prokaryotic
 prole
 /
@@ -110316,7 +110913,7 @@ promiscuous
 Y
 promise
 /
-DSMG
+DMG
 promising
 /
 Y
@@ -110502,6 +111099,7 @@ proposal
 MS
 propped
 propping
+propranolol
 proprietary
 /
 SM
@@ -112608,7 +113206,7 @@ rammed
 ramming
 ramp
 /
-GMSD
+GMDS
 rampage
 /
 DSMG
@@ -113198,9 +113796,6 @@ DSG
 reassuring
 /
 Y
-rebar
-/
-S
 rebate
 /
 M
@@ -114082,7 +114677,9 @@ rel
 relate
 /
 DRSBXZGNV
-relatedly
+related
+/
+YP
 relatedness
 /
 M
@@ -114685,6 +115282,9 @@ rerecord
 /
 GDS
 rerunning
+resample
+/
+GDS
 resat
 rescind
 /
@@ -115060,6 +115660,7 @@ reticulated
 reticulation
 /
 MS
+reticulum
 retina
 /
 SM
@@ -116635,6 +117236,7 @@ SM
 runt
 /
 MS
+runtime
 runty
 /
 RT
@@ -117702,6 +118304,7 @@ scag
 /
 S
 scagged
+scalability
 scalar
 /
 S
@@ -118215,7 +118818,7 @@ scoreboard
 SM
 scorebook
 /
-MS
+SM
 scorecard
 /
 MS
@@ -118231,7 +118834,7 @@ scorer
 M
 scoresheet
 /
-MS
+SM
 scorn
 /
 MDRSZG
@@ -118386,7 +118989,7 @@ screed
 S
 screen
 /
-SJMDGRZ
+SJMDRZG
 screening
 /
 M
@@ -119647,7 +120250,7 @@ serialization
 SM
 serialize
 /
-GDS
+GDSB
 series
 /
 M
@@ -121751,7 +122354,7 @@ skimpy
 RTP
 skin
 /
-MSA
+AMS
 skincare
 /
 M
@@ -123845,6 +124448,7 @@ SM
 spacesuit
 /
 SM
+spacetime
 spacewalk
 /
 SGMD
@@ -124465,6 +125069,7 @@ MS
 spiv
 /
 S
+splanchnic
 splash
 /
 GMDS
@@ -125548,7 +126153,7 @@ steakhouse
 SM
 steal
 /
-SMHGRZ
+SMRHZG
 stealth
 /
 M
@@ -126784,7 +127389,9 @@ M
 stupefy
 /
 DSG
-stupefyingly
+stupefying
+/
+Y
 stupendous
 /
 Y
@@ -127081,7 +127688,7 @@ subprogram
 S
 subrogate
 /
-DNS
+DSN
 subroutine
 /
 SM
@@ -127930,7 +128537,7 @@ supervention
 M
 supervillain
 /
-SM
+MS
 supervise
 /
 XGNDS
@@ -131796,6 +132403,7 @@ M
 toccata
 /
 S
+tocopherol
 tocsin
 /
 SM
@@ -133267,7 +133875,7 @@ triad
 SM
 triage
 /
-MGS
+MGDS
 trial
 /
 ASM
@@ -134544,11 +135152,10 @@ ulcer
 SM
 ulcerate
 /
-XDSGN
+XDSGNV
 ulceration
 /
 M
-ulcerative
 ulcerous
 ulna
 /
@@ -134653,7 +135260,9 @@ Y
 unapparent
 unappetizing
 unappreciative
+unary
 unassertive
+unassimilable
 unassuming
 /
 Y
@@ -134749,7 +135358,6 @@ uncontrollably
 uncontroversial
 uncool
 uncooperative
-uncopyrightable
 uncouth
 /
 Y
@@ -135105,7 +135713,6 @@ uneconomic
 unemployed
 /
 M
-unencrypted
 unending
 unenterprising
 unequal
@@ -135392,8 +135999,6 @@ unpractical
 unprecedented
 /
 Y
-unpressured
-unpressurized
 unprofessional
 /
 Y
@@ -136004,6 +136609,7 @@ vaginae
 vaginal
 /
 Y
+vaginitis
 vagrancy
 /
 M
@@ -136533,6 +137139,7 @@ verandah
 /
 M
 verandahs
+verapamil
 verb
 /
 KMS
@@ -137428,6 +138035,7 @@ volatilize
 /
 DSG
 volcanic
+volcanism
 volcano
 /
 M
@@ -137568,6 +138176,7 @@ voyeurism
 /
 M
 voyeuristic
+vulcanism
 vulcanization
 /
 M
@@ -137966,6 +138575,7 @@ warez
 warfare
 /
 M
+warfarin
 warhead
 /
 MS
@@ -139625,7 +140235,7 @@ M
 winsorization
 winsorize
 /
-SGD
+GDS
 winter
 /
 GSMD
@@ -140829,7 +141439,7 @@ yobbo
 S
 yobibyte
 /
-MS
+SM
 yodel
 /
 SMDRZG
@@ -140993,7 +141603,7 @@ zealousness
 M
 zebibyte
 /
-MS
+SM
 zebra
 /
 SM
