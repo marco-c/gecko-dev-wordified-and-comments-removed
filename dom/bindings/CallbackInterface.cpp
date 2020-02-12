@@ -165,9 +165,11 @@ get
 )
 ;
 ThrowErrorMessage
+<
+MSG_NOT_CALLABLE
+>
 (
 cx
-MSG_NOT_CALLABLE
 description
 .
 get
