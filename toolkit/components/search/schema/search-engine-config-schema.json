@@ -324,10 +324,7 @@ enum
 "
 "
 "
-desktop
-"
-"
-android
+firefox
 "
 ]
 }
@@ -423,7 +420,7 @@ uniqueItems
 true
 }
 "
-minversion
+minVersion
 "
 :
 {
@@ -456,7 +453,7 @@ to
 "
 }
 "
-maxversion
+maxVersion
 "
 :
 {
@@ -486,6 +483,12 @@ version
 this
 applies
 to
+(
+less
+-
+than
+comparison
+)
 "
 }
 }
