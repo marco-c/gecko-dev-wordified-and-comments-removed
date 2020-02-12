@@ -32364,7 +32364,7 @@ Scalar
 Int64
 )
 {
-MOZ_ASSERT
+static_assert
 (
 INT64LOW_OFFSET
 =
@@ -32766,7 +32766,7 @@ Scalar
 Int64
 )
 {
-MOZ_ASSERT
+static_assert
 (
 INT64LOW_OFFSET
 =

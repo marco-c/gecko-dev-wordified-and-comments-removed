@@ -42254,7 +42254,7 @@ allocate
 Count
 )
 {
-MOZ_ASSERT
+static_assert
 (
 Count
 !

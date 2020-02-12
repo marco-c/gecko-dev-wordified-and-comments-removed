@@ -43,7 +43,7 @@ uint32_t
 argSize
 )
 {
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -149,7 +149,7 @@ frameSizeAddr
 }
 #
 endif
-MOZ_ASSERT
+static_assert
 (
 ICTailCallReg
 =

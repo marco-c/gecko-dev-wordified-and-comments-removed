@@ -1787,7 +1787,7 @@ defined
 (
 JS_CODEGEN_X86
 )
-MOZ_ASSERT
+static_assert
 (
 BaselineFrameReg
 =

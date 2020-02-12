@@ -110,7 +110,7 @@ offsetOfFirstStub
 ICStubReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -192,7 +192,7 @@ monitorStubOffset
 ICStubReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -407,7 +407,7 @@ offsetOfNext
 ICStubReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 ICTailCallReg
 =

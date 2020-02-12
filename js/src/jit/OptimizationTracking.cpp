@@ -3931,7 +3931,7 @@ length
 ENC3_LENGTH_MAX
 )
 {
-MOZ_ASSERT
+static_assert
 (
 ENC3_INDEX_MAX
 =
@@ -4033,7 +4033,7 @@ length
 ENC4_LENGTH_MAX
 )
 {
-MOZ_ASSERT
+static_assert
 (
 ENC4_INDEX_MAX
 =

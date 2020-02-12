@@ -110,7 +110,7 @@ offsetOfFirstStub
 ICStubReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 R2
 =
@@ -191,7 +191,7 @@ monitorStubOffset
 ICStubReg
 )
 ;
-MOZ_ASSERT
+static_assert
 (
 R2
 =
