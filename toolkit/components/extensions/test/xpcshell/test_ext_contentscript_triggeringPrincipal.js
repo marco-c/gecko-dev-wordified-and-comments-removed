@@ -1955,9 +1955,14 @@ wrappedJSObject
 .
 cssRules
 /
-operation
-is
-insecure
+Not
+allowed
+to
+access
+cross
+-
+origin
+stylesheet
 /
 "
 Page

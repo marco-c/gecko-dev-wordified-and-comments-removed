@@ -3229,13 +3229,12 @@ ErrorResult
 aRv
 )
 {
-aRv
-=
 aSheet
 .
 ReparseSheet
 (
 aInput
+aRv
 )
 ;
 }

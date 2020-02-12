@@ -2286,9 +2286,13 @@ changed
 {
 aRv
 .
-Throw
+ThrowSyntaxError
 (
-NS_ERROR_DOM_SYNTAX_ERR
+"
+Invalid
+font
+descriptor
+"
 )
 ;
 return

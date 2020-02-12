@@ -1636,6 +1636,9 @@ str
 EmptyString
 (
 )
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -1808,6 +1811,9 @@ opacity
 "
 )
 dummy
+IgnoreErrors
+(
+)
 )
 ;
 }

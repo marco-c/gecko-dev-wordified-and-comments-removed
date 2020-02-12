@@ -2253,6 +2253,9 @@ widthstr
 EmptyString
 (
 )
+IgnoreErrors
+(
+)
 )
 ;
 }
@@ -2324,6 +2327,9 @@ height
 )
 heightstr
 EmptyString
+(
+)
+IgnoreErrors
 (
 )
 )

@@ -430,13 +430,16 @@ aReusableSheets
 nullptr
 )
 ;
-nsresult
+void
 ReparseSheet
 (
 const
 nsACString
 &
 aInput
+ErrorResult
+&
+aRv
 )
 ;
 const
