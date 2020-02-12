@@ -2043,11 +2043,6 @@ NoMoveFrame
 ReflowChildFlags
 :
 :
-NoVisibility
-|
-ReflowChildFlags
-:
-:
 NoSizeView
 ;
 WritingMode

@@ -949,11 +949,6 @@ ReflowChildFlags
 :
 :
 NoSizeView
-|
-ReflowChildFlags
-:
-:
-NoVisibility
 )
 ;
 nsresult
