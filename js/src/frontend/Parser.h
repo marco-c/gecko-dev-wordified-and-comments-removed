@@ -3958,10 +3958,6 @@ TripledotHandling
 tripledotHandling
 TokenKind
 tt
-bool
-allowCallSyntax
-=
-true
 PossibleError
 *
 possibleError
