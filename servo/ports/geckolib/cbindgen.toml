@@ -827,6 +827,9 @@ AlignContent
 "
 JustifyContent
 "
+"
+TransformStyle
+"
 ]
 item_types
 =
