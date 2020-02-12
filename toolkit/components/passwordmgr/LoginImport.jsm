@@ -105,8 +105,6 @@ aPath
 ;
 }
 ;
-this
-.
 LoginImport
 .
 prototype

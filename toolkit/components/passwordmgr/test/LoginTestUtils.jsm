@@ -468,8 +468,6 @@ now
 }
 }
 ;
-this
-.
 LoginTestUtils
 .
 testData
@@ -1682,8 +1680,6 @@ password
 }
 }
 ;
-this
-.
 LoginTestUtils
 .
 recipes
@@ -1749,8 +1745,6 @@ recipeParent
 }
 }
 ;
-this
-.
 LoginTestUtils
 .
 masterPassword
@@ -1940,8 +1934,6 @@ false
 }
 }
 ;
-this
-.
 LoginTestUtils
 .
 loginField
@@ -2050,8 +2042,6 @@ msg
 }
 }
 ;
-this
-.
 LoginTestUtils
 .
 generation
@@ -2087,8 +2077,6 @@ Z2
 /
 }
 ;
-this
-.
 LoginTestUtils
 .
 telemetry

@@ -147,8 +147,6 @@ aPath
 ;
 }
 ;
-this
-.
 DownloadStore
 .
 prototype

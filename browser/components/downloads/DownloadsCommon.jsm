@@ -2364,8 +2364,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 DownloadsCommon
 "
 log
@@ -2392,8 +2390,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 DownloadsCommon
 "
 error

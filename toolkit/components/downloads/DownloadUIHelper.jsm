@@ -295,8 +295,6 @@ aParent
 ;
 }
 ;
-this
-.
 DownloadPrompter
 .
 prototype

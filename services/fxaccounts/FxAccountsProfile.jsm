@@ -205,8 +205,6 @@ channel
 }
 }
 ;
-this
-.
 FxAccountsProfile
 .
 prototype

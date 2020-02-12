@@ -470,8 +470,6 @@ _storeProtectedCount
 ;
 }
 ;
-this
-.
 CrashManager
 .
 prototype
@@ -5096,8 +5094,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 CrashManager
 "
 Singleton

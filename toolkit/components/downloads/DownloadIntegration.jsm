@@ -3707,8 +3707,6 @@ this
 ;
 }
 ;
-this
-.
 DownloadHistoryObserver
 .
 prototype
@@ -3886,8 +3884,6 @@ finalize
 ;
 }
 ;
-this
-.
 DownloadAutoSaveView
 .
 prototype

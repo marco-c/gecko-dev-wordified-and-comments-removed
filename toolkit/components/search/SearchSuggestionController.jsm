@@ -248,8 +248,6 @@ _callback
 callback
 ;
 }
-this
-.
 SearchSuggestionController
 .
 prototype
@@ -1794,8 +1792,6 @@ null
 }
 }
 ;
-this
-.
 SearchSuggestionController
 .
 engineOffersSuggestions
@@ -1819,8 +1815,6 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
-.
 SearchSuggestionController
 .
 prototype
@@ -1835,8 +1829,6 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
-.
 SearchSuggestionController
 .
 prototype
@@ -1851,8 +1843,6 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
-.
 SearchSuggestionController
 .
 prototype

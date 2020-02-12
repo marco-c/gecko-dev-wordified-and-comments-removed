@@ -173,8 +173,6 @@ dbStoreName
 )
 ;
 }
-this
-.
 PushDB
 .
 prototype

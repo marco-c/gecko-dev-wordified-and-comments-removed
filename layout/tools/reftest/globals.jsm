@@ -521,8 +521,6 @@ key
 =
 val
 ;
-this
-.
 EXPORTED_SYMBOLS
 .
 push

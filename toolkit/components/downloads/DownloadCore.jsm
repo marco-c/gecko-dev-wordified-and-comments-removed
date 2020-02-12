@@ -572,8 +572,6 @@ defer
 ;
 }
 ;
-this
-.
 Download
 .
 prototype
@@ -3363,8 +3361,6 @@ function
 {
 }
 ;
-this
-.
 DownloadSource
 .
 prototype
@@ -3520,8 +3516,6 @@ serializable
 }
 }
 ;
-this
-.
 DownloadSource
 .
 fromSerializable
@@ -3780,8 +3774,6 @@ function
 {
 }
 ;
-this
-.
 DownloadTarget
 .
 prototype
@@ -3925,8 +3917,6 @@ serializable
 }
 }
 ;
-this
-.
 DownloadTarget
 .
 fromSerializable
@@ -4358,8 +4348,6 @@ stack
 ;
 }
 ;
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_MALWARE
@@ -4368,8 +4356,6 @@ BLOCK_VERDICT_MALWARE
 Malware
 "
 ;
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_POTENTIALLY_UNWANTED
@@ -4378,8 +4364,6 @@ BLOCK_VERDICT_POTENTIALLY_UNWANTED
 PotentiallyUnwanted
 "
 ;
-this
-.
 DownloadError
 .
 BLOCK_VERDICT_UNCOMMON
@@ -4388,8 +4372,6 @@ BLOCK_VERDICT_UNCOMMON
 Uncommon
 "
 ;
-this
-.
 DownloadError
 .
 prototype
@@ -4495,8 +4477,6 @@ serializable
 }
 }
 ;
-this
-.
 DownloadError
 .
 fromSerializable
@@ -4608,8 +4588,6 @@ function
 {
 }
 ;
-this
-.
 DownloadSaver
 .
 prototype
@@ -4742,8 +4720,6 @@ implemented
 }
 }
 ;
-this
-.
 DownloadSaver
 .
 fromSerializable
@@ -4857,8 +4833,6 @@ function
 {
 }
 ;
-this
-.
 DownloadCopySaver
 .
 prototype
@@ -6414,8 +6388,6 @@ _redirects
 }
 }
 ;
-this
-.
 DownloadCopySaver
 .
 fromSerializable
@@ -6508,8 +6480,6 @@ defer
 ;
 }
 ;
-this
-.
 DownloadLegacySaver
 .
 prototype
@@ -7271,8 +7241,6 @@ redirects
 }
 }
 ;
-this
-.
 DownloadLegacySaver
 .
 fromSerializable
@@ -7298,8 +7266,6 @@ function
 {
 }
 ;
-this
-.
 DownloadPDFSaver
 .
 prototype
@@ -7789,8 +7755,6 @@ null
 }
 }
 ;
-this
-.
 DownloadPDFSaver
 .
 fromSerializable

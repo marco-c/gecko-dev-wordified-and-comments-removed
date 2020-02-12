@@ -268,8 +268,6 @@ null
 ;
 }
 ;
-this
-.
 FxAccountsClient
 .
 prototype

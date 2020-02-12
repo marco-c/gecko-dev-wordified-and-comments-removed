@@ -9984,8 +9984,6 @@ detail
 }
 }
 ;
-this
-.
 UITour
 .
 init

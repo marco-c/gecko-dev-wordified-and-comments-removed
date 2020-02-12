@@ -587,8 +587,6 @@ _setupChannel
 ;
 }
 ;
-this
-.
 FxAccountsWebChannel
 .
 prototype
@@ -1504,8 +1502,6 @@ PrivateBrowsingUtils
 ;
 }
 ;
-this
-.
 FxAccountsWebChannelHelpers
 .
 prototype
@@ -2677,8 +2673,6 @@ contentUri
 singleton
 =
 new
-this
-.
 FxAccountsWebChannel
 (
 {

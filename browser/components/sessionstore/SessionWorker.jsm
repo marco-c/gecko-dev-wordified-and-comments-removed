@@ -74,8 +74,6 @@ js
 "
 )
 ;
-this
-.
 SessionWorker
 .
 ExceptionHandlers

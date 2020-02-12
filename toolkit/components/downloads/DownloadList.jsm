@@ -43,8 +43,6 @@ Set
 ;
 }
 ;
-this
-.
 DownloadList
 .
 prototype
@@ -541,8 +539,6 @@ reportError
 ;
 }
 ;
-this
-.
 DownloadCombinedList
 .
 prototype
@@ -747,8 +743,6 @@ Set
 ;
 }
 ;
-this
-.
 DownloadSummary
 .
 prototype

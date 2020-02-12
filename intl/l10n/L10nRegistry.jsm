@@ -2561,8 +2561,6 @@ L10nRegistryService
 (
 )
 ;
-this
-.
 L10nRegistry
 .
 load
@@ -2615,8 +2613,6 @@ text
 ;
 }
 ;
-this
-.
 L10nRegistry
 .
 loadSync

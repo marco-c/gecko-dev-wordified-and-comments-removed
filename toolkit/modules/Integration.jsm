@@ -173,8 +173,6 @@ ex
 ;
 }
 ;
-this
-.
 IntegrationPoint
 .
 prototype

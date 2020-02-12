@@ -1247,8 +1247,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 LoginManagerAuthPromptFactory
 .
 prototype
@@ -5448,8 +5446,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 LoginManagerAuthPrompter
 .
 prototype

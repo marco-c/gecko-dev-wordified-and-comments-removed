@@ -877,8 +877,6 @@ XPCOMUtils
 .
 defineLazyPreferenceGetter
 (
-this
-.
 InsecurePasswordUtils
 "
 _ignoreLocalIPAddress

@@ -428,8 +428,6 @@ null
 ;
 }
 ;
-this
-.
 BasePromiseWorker
 .
 prototype
@@ -1369,8 +1367,6 @@ data
 data
 ;
 }
-this
-.
 BasePromiseWorker
 .
 Meta

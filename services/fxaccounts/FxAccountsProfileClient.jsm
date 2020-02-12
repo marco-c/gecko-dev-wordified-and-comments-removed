@@ -245,8 +245,6 @@ Initialized
 ;
 }
 ;
-this
-.
 FxAccountsProfileClient
 .
 prototype

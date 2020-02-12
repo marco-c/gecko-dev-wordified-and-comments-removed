@@ -489,8 +489,6 @@ unit
 }
 }
 ;
-this
-.
 DownloadsViewUI
 .
 BaseView
@@ -560,8 +558,6 @@ false
 }
 }
 ;
-this
-.
 DownloadsViewUI
 .
 DownloadElementShell
@@ -572,8 +568,6 @@ function
 {
 }
 ;
-this
-.
 DownloadsViewUI
 .
 DownloadElementShell

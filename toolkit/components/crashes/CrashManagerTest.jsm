@@ -234,8 +234,6 @@ options
 ;
 }
 ;
-this
-.
 TestingCrashManager
 .
 prototype

@@ -16162,16 +16162,12 @@ err
 }
 }
 ;
-this
-.
 AddonManager
 .
 init
 (
 )
 ;
-this
-.
 AddonManager
 .
 addManagerListener

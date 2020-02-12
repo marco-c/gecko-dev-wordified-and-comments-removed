@@ -312,8 +312,6 @@ Initialized
 ;
 }
 ;
-this
-.
 FxAccountsOAuthGrantClient
 .
 prototype

@@ -243,8 +243,6 @@ _translatedCharacterCount
 ;
 }
 ;
-this
-.
 YandexTranslator
 .
 prototype

@@ -4514,8 +4514,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 FormAutofillHeuristics
 "
 RULES
@@ -4572,8 +4570,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 FormAutofillHeuristics
 "
 _prefEnabled
@@ -4608,8 +4604,6 @@ PREF_HEURISTICS_ENABLED
 =
 >
 {
-this
-.
 FormAutofillHeuristics
 .
 _prefEnabled
@@ -4630,8 +4624,6 @@ XPCOMUtils
 .
 defineLazyGetter
 (
-this
-.
 FormAutofillHeuristics
 "
 _sectionEnabled
@@ -4666,8 +4658,6 @@ PREF_SECTION_ENABLED
 =
 >
 {
-this
-.
 FormAutofillHeuristics
 .
 _sectionEnabled

@@ -1838,8 +1838,6 @@ granted
 ;
 }
 ;
-this
-.
 DownloadHistoryList
 .
 prototype
