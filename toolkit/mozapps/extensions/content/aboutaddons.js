@@ -10023,8 +10023,6 @@ height
 data
 .
 height
-+
-1
 }
 px
 ;
