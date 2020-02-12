@@ -1,4 +1,4 @@
-var
+const
 expected
 =
 '
@@ -25,7 +25,7 @@ split
 '
 )
 ;
-var
+let
 log
 =
 '
@@ -33,7 +33,7 @@ log
 ;
 for
 (
-var
+let
 i
 =
 0
@@ -80,10 +80,9 @@ n
 }
 onconnect
 =
-function
-(
 e
-)
+=
+>
 {
 e
 .

@@ -1,9 +1,8 @@
 onconnect
 =
-function
-(
 e
-)
+=
+>
 {
 e
 .

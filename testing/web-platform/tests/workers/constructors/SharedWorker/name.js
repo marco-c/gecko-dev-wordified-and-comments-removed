@@ -1,9 +1,8 @@
 onconnect
 =
-function
-(
 e
-)
+=
+>
 {
 e
 .
@@ -20,3 +19,4 @@ name
 )
 ;
 }
+;

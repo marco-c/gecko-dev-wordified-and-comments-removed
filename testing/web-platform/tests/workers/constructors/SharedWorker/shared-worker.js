@@ -1,11 +1,10 @@
 onconnect
 =
-function
-(
 e
-)
+=
+>
 {
-var
+const
 port
 =
 e
@@ -19,10 +18,9 @@ port
 .
 onmessage
 =
-function
-(
 e
-)
+=
+>
 {
 port
 .
