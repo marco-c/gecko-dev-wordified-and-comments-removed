@@ -294,7 +294,7 @@ totalSlotCount
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -607,7 +607,7 @@ if
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -1443,7 +1443,7 @@ topTree
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -4035,7 +4035,7 @@ tree
 gen
 -
 >
-info
+outerInfo
 (
 )
 .

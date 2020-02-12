@@ -4452,7 +4452,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -4622,7 +4622,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -4793,7 +4793,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -4909,7 +4909,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5052,7 +5052,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5195,7 +5195,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5348,7 +5348,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5503,7 +5503,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5658,7 +5658,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5806,7 +5806,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -5964,7 +5964,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -6124,7 +6124,7 @@ ImmGCPtr
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -41290,7 +41290,7 @@ info
 gen
 -
 >
-info
+outerInfo
 (
 )
 ;
@@ -42700,7 +42700,7 @@ script
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -77156,7 +77156,7 @@ u
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -77171,7 +77171,7 @@ filename
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -77186,7 +77186,7 @@ lineno
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -77227,7 +77227,7 @@ tree
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -77798,7 +77798,7 @@ cx
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -78250,7 +78250,7 @@ argumentSlots
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
@@ -79545,7 +79545,7 @@ setOsrPc
 gen
 -
 >
-info
+outerInfo
 (
 )
 .
