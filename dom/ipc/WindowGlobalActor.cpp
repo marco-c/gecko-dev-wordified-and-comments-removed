@@ -171,6 +171,16 @@ ErrorResult
 aRv
 )
 {
+MOZ_ASSERT
+(
+nsContentUtils
+:
+:
+IsSafeToRunScript
+(
+)
+)
+;
 JSWindowActor
 :
 :
