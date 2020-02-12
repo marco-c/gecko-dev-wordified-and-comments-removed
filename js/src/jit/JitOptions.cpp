@@ -506,7 +506,7 @@ true
 ;
 SET_DEFAULT
 (
-ionForTrustedPrincipals
+jitForTrustedPrincipals
 false
 )
 ;

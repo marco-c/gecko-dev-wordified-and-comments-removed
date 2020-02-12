@@ -8472,9 +8472,9 @@ enable
 \
 Register
 (
-ION_TRUSTEDPRINCIPALS_ENABLE
+JIT_TRUSTEDPRINCIPALS_ENABLE
 "
-ion_trustedprincipals
+jit_trustedprincipals
 .
 enable
 "

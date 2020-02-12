@@ -10653,6 +10653,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 )
 ;
