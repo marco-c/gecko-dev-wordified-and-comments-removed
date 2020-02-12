@@ -2468,6 +2468,12 @@ node
 !
 =
 NodeDottedProperty
+&
+&
+node
+!
+=
+NodeOptionalDottedProperty
 )
 {
 return
