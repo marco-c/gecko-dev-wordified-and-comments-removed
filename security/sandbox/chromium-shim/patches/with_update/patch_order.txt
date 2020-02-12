@@ -76,3 +76,9 @@ patch
 revert_removal_of_app_dir_for_DLL_load
 .
 patch
+more_chromium_linux_x86_x64_syscalls
+.
+patch
+public_siginfo_fields
+.
+patch
