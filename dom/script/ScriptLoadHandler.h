@@ -11,15 +11,6 @@ nsIIncrementalStreamLoader
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TimeStamp
-.
-h
-"
 namespace
 mozilla
 {
@@ -195,9 +186,6 @@ mozilla
 Decoder
 >
 mDecoder
-;
-TimeStamp
-mFirstOnIncrementalData
 ;
 }
 ;
