@@ -26162,6 +26162,14 @@ aPopupMenu
 triggerNode
 &
 &
+(
+aPopupMenu
+.
+triggerNode
+.
+tab
+|
+|
 aPopupMenu
 .
 triggerNode
@@ -26171,6 +26179,7 @@ closest
 "
 tab
 "
+)
 )
 ;
 this
