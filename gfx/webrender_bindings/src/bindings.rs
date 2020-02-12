@@ -5147,7 +5147,6 @@ ThreadPool
 no_mangle
 ]
 pub
-unsafe
 extern
 "
 C
@@ -5249,6 +5248,7 @@ move
 |
 idx
 |
+unsafe
 {
 wr_register_thread_local_arena
 (
@@ -5308,6 +5308,7 @@ exit_handler
 |
 _idx
 |
+unsafe
 {
 gecko_profiler_unregister_thread
 (
