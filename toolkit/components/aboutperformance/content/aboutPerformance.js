@@ -3432,9 +3432,11 @@ window
 .
 docShell
 .
-rootTreeItem
+browsingContext
 .
-domWindow
+embedderElement
+.
+ownerGlobal
 ;
 parentWin
 .
