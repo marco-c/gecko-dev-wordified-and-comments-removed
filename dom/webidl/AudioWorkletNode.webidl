@@ -176,10 +176,7 @@ double
 parameterData
 ;
 object
-?
 processorOptions
-=
-null
 ;
 }
 ;
