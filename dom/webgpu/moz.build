@@ -189,9 +189,6 @@ OutOfMemoryError
 PipelineLayout
 '
 '
-ProgrammablePassEncoder
-'
-'
 Queue
 '
 '
@@ -199,9 +196,6 @@ RenderBundle
 '
 '
 RenderBundleEncoder
-'
-'
-RenderEncoderBase
 '
 '
 RenderPassEncoder
