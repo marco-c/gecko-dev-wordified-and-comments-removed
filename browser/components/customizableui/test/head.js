@@ -215,7 +215,7 @@ xul
 const
 kForceOverflowWidthPx
 =
-300
+450
 ;
 function
 createDummyXULButton

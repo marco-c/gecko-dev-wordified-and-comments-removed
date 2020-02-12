@@ -28,9 +28,14 @@ showMediaSidebar
 "
 ;
 const
-RESIZE
+RESIZE_W
 =
 300
+;
+const
+RESIZE_H
+=
+450
 ;
 const
 LABELS
@@ -49,7 +54,7 @@ max
 -
 width
 :
-400px
+550px
 )
 "
 "
@@ -75,7 +80,7 @@ max
 -
 width
 :
-600px
+750px
 )
 "
 ]
@@ -103,7 +108,7 @@ max
 -
 width
 :
-600px
+750px
 )
 {
 div
@@ -236,8 +241,8 @@ window
 .
 resizeTo
 (
-RESIZE
-RESIZE
+RESIZE_W
+RESIZE_H
 )
 ;
 await
@@ -501,7 +506,7 @@ max
 -
 width
 :
-400px
+550px
 )
 "
 "

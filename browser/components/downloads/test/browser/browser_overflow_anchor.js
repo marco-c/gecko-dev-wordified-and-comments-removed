@@ -1,7 +1,7 @@
 const
 kForceOverflowWidthPx
 =
-200
+450
 ;
 registerCleanupFunction
 (
