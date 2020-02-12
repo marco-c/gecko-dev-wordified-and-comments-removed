@@ -7299,12 +7299,9 @@ const
 auto
 side
 :
-{
-eLogicalSideBStart
-eLogicalSideBEnd
-eLogicalSideIStart
-eLogicalSideIEnd
-}
+AllLogicalSides
+(
+)
 )
 {
 if
