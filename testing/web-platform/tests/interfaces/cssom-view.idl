@@ -145,9 +145,9 @@ void
 resizeTo
 (
 long
-x
+width
 long
-y
+height
 )
 ;
 void
