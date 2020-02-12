@@ -1434,6 +1434,17 @@ this
 .
 docState
 ;
+if
+(
+!
+state
+.
+mousemoveDeferredTask
+)
+{
+return
+;
+}
 state
 .
 mousemoveDeferredTask
