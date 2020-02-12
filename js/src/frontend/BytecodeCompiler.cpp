@@ -1477,9 +1477,9 @@ FunctionNode
 *
 parse
 (
-StandaloneFunctionInfo
+CompilationInfo
 &
-info
+compilationInfo
 HandleFunction
 fun
 HandleScope
@@ -1503,7 +1503,7 @@ compile
 (
 MutableHandleFunction
 fun
-StandaloneFunctionInfo
+CompilationInfo
 &
 info
 FunctionNode
@@ -2985,9 +2985,9 @@ Unit
 :
 parse
 (
-StandaloneFunctionInfo
+CompilationInfo
 &
-info
+compilationInfo
 HandleFunction
 fun
 HandleScope
@@ -3022,16 +3022,12 @@ isTenured
 ;
 assertSourceAndParserCreated
 (
-info
-.
 compilationInfo
 )
 ;
 TokenStreamPosition
 startPosition
 (
-info
-.
 compilationInfo
 .
 keepAtoms
@@ -3050,8 +3046,6 @@ do
 Directives
 newDirectives
 =
-info
-.
 compilationInfo
 .
 directives
@@ -3068,8 +3062,6 @@ enclosingScope
 parameterListEnd
 generatorKind
 asyncKind
-info
-.
 compilationInfo
 .
 directives
@@ -3086,8 +3078,6 @@ fn
 !
 handleParseFailure
 (
-info
-.
 compilationInfo
 newDirectives
 startPosition
@@ -3128,9 +3118,9 @@ compile
 (
 MutableHandleFunction
 fun
-StandaloneFunctionInfo
+CompilationInfo
 &
-info
+compilationInfo
 FunctionNode
 *
 parsedFunction
@@ -3175,8 +3165,6 @@ if
 !
 createFunctionScript
 (
-info
-.
 compilationInfo
 fun
 funbox
@@ -3220,8 +3208,6 @@ if
 !
 emplaceEmitter
 (
-info
-.
 compilationInfo
 emitter
 funbox
@@ -3280,8 +3266,6 @@ fun
 ;
 }
 return
-info
-.
 compilationInfo
 .
 sourceObject
@@ -3294,8 +3278,6 @@ source
 >
 tryCompressOffThread
 (
-info
-.
 compilationInfo
 .
 cx
@@ -5665,14 +5647,6 @@ return
 false
 ;
 }
-StandaloneFunctionInfo
-info
-(
-cx
-compilationInfo
-options
-)
-;
 StandaloneFunctionCompiler
 <
 char16_t
@@ -5735,7 +5709,7 @@ compiler
 .
 parse
 (
-info
+compilationInfo
 fun
 scope
 generatorKind
@@ -5755,7 +5729,7 @@ compiler
 compile
 (
 fun
-info
+compilationInfo
 parsedFunction
 )
 )
@@ -5766,8 +5740,6 @@ false
 }
 if
 (
-info
-.
 compilationInfo
 .
 script
@@ -5798,8 +5770,6 @@ parameterListEnd
 tellDebuggerAboutCompiledScript
 (
 cx
-info
-.
 compilationInfo
 .
 script
