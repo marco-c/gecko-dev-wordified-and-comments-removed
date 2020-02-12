@@ -262,6 +262,10 @@ mProxyConnectResponseCode
 (
 0
 )
+mChannelId
+(
+0
+)
 {
 LOG
 (
@@ -974,6 +978,8 @@ uint32_t
 initialRwin
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 {
 LOG
@@ -1023,6 +1029,10 @@ mTargetThread
 GetCurrentThreadEventTarget
 (
 )
+;
+mChannelId
+=
+channelId
 ;
 HttpConnectionInfoCloneArgs
 infoArgs
@@ -1117,6 +1127,7 @@ requestContextID
 classOfService
 initialRwin
 responseTimeoutEnabled
+mChannelId
 )
 )
 {

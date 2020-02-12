@@ -317,6 +317,8 @@ uint32_t
 initialRwin
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 ;
 async

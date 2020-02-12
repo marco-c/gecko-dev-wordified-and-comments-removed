@@ -152,6 +152,8 @@ uint32_t
 initialRwin
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 =
 0
@@ -570,6 +572,8 @@ initialRwin
 \
 bool
 responseTimeoutEnabled
+uint64_t
+channelId
 )
 override
 ;

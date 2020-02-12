@@ -490,6 +490,9 @@ mResolvedByTRR
 int32_t
 mProxyConnectResponseCode
 ;
+uint64_t
+mChannelId
+;
 NetAddr
 mSelfAddr
 ;
