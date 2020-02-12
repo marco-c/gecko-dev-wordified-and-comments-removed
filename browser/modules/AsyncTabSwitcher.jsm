@@ -2050,6 +2050,16 @@ showTab
 ;
 this
 .
+window
+.
+gURLBar
+.
+afterTabSwitchFocusChange
+(
+)
+;
+this
+.
 maybeActivateDocShell
 (
 this

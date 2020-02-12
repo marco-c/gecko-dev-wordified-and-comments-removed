@@ -5084,6 +5084,12 @@ _adjustFocusAfterTabSwitch
 newTab
 )
 ;
+gURLBar
+.
+afterTabSwitchFocusChange
+(
+)
+;
 }
 }
 updateUserContextUIIndicator
