@@ -637,7 +637,6 @@ image
 GradientItem
 GradientKind
 Image
-ImageLayer
 MozImageRect
 }
 ;

@@ -289,7 +289,7 @@ computed
 image
 :
 :
-ImageLayer
+Image
 16
 )
 ;
@@ -303,7 +303,7 @@ specified
 image
 :
 :
-ImageLayer
+Image
 16
 )
 ;
