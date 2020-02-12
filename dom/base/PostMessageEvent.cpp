@@ -1047,6 +1047,11 @@ Failed
 )
 )
 {
+JS_ClearPendingException
+(
+cx
+)
+;
 DispatchError
 (
 cx
