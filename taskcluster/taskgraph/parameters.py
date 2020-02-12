@@ -58,8 +58,6 @@ Any
     
 Inclusive
     
-PREVENT_EXTRA
-    
 Required
     
 Schema
@@ -236,6 +234,8 @@ app_version_path
 )
 base_schema
 =
+Schema
+(
 {
     
 Required
@@ -676,6 +676,7 @@ version
 :
 text_type
 }
+)
 COMM_PARAMETERS
 =
 [
@@ -696,6 +697,63 @@ comm_head_repository
 comm_head_rev
 '
 ]
+def
+extend_parameters_schema
+(
+schema
+)
+:
+    
+"
+"
+"
+    
+Extend
+the
+schema
+for
+parameters
+to
+include
+per
+-
+project
+configuration
+.
+    
+This
+should
+be
+called
+by
+the
+taskgraph
+.
+register
+function
+in
+the
+    
+graph
+-
+configuration
+.
+    
+"
+"
+"
+    
+global
+base_schema
+    
+base_schema
+=
+base_schema
+.
+extend
+(
+schema
+)
 class
 Parameters
 (
@@ -1236,17 +1294,20 @@ self
         
 schema
 =
-Schema
-(
 base_schema
-extra
-=
-PREVENT_EXTRA
 if
 self
 .
 strict
 else
+base_schema
+.
+extend
+(
+{
+}
+extra
+=
 ALLOW_EXTRA
 )
         
