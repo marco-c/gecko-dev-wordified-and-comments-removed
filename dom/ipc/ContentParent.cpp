@@ -14450,13 +14450,7 @@ nsCString
 aURI
 )
 ipcBlob
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aRevoked
 )
 )
@@ -30095,13 +30089,7 @@ nsCString
 aURI
 )
 ipcBlob
-IPC
-:
-:
-Principal
-(
 aPrincipal
-)
 aRevoked
 )
 )

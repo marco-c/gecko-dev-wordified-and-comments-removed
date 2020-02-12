@@ -1509,7 +1509,7 @@ url
 IPCBlob
 blob
 ;
-Principal
+nsIPrincipal
 principal
 ;
 bool
