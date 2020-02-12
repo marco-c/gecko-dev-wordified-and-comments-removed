@@ -165,6 +165,13 @@ errors
 MOZ_COPY_PDBS
 =
 1
+mk_add_options
+"
+export
+WIDL_TIME_OVERRIDE
+=
+0
+"
 #
 This
 replicates
