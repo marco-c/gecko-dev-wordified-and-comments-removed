@@ -220,6 +220,8 @@ bool
 proxyConnectFailed
 TimingStructArgs
 timings
+int32_t
+proxyConnectResponseCode
 )
 ;
 async
@@ -269,6 +271,8 @@ NetAddr
 selfAddr
 NetAddr
 peerAddr
+bool
+resolvedByTRR
 )
 ;
 async
