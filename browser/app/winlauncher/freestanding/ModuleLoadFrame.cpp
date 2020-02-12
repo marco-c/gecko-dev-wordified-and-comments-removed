@@ -480,11 +480,11 @@ return
 STATUS_SUCCESS
 ;
 }
-SafeThreadLocal
-<
+MOZ_THREAD_LOCAL
+(
 ModuleLoadFrame
 *
->
+)
 ModuleLoadFrame
 :
 :
