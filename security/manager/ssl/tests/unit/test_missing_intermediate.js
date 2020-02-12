@@ -384,11 +384,7 @@ missing
 -
 intermediate
 .
-pem
-"
-"
--
-a
+der
 "
 "
 -

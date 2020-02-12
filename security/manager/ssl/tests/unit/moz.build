@@ -169,9 +169,6 @@ test_ev_certs
 test_intermediate_basic_usage_constraints
 '
 '
-test_intermediate_preloads
-'
-'
 test_keysize
 '
 '
