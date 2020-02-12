@@ -385,7 +385,9 @@ mPromiseRequestHolder
 =
 ]
 (
-nsresult
+const
+CopyableErrorResult
+&
 failure
 )
 {
@@ -393,16 +395,6 @@ mSourcePromiseRequestHolder
 .
 Complete
 (
-)
-;
-CopyableErrorResult
-rv
-;
-rv
-.
-Throw
-(
-NS_ERROR_DOM_ABORT_ERR
 )
 ;
 Unused
@@ -414,7 +406,7 @@ PClientHandleOpParent
 Send__delete__
 (
 this
-rv
+failure
 )
 ;
 return

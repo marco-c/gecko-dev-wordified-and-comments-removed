@@ -15,6 +15,15 @@ PClientHandleParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ErrorResult
+.
+h
+"
 namespace
 mozilla
 {
@@ -32,7 +41,7 @@ MozPromise
 <
 ClientSourceParent
 *
-nsresult
+CopyableErrorResult
 false
 >
 SourcePromise
