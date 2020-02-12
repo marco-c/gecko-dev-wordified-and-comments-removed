@@ -77,6 +77,13 @@ h
 #
 include
 "
+nsQueryObject
+.
+h
+"
+#
+include
+"
 nsSocketTransportService2
 .
 h
