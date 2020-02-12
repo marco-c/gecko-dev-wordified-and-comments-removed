@@ -48750,7 +48750,9 @@ GetSnapPointForDestination
 (
 ScrollUnit
 aUnit
+const
 nsPoint
+&
 aStartPos
 nsPoint
 &
