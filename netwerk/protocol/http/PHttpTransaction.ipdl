@@ -305,6 +305,14 @@ uint64_t
 topLevelOuterContentWindowId
 uint8_t
 httpTrafficCategory
+uint64_t
+requestContextID
+uint32_t
+classOfService
+uint32_t
+initialRwin
+bool
+responseTimeoutEnabled
 )
 ;
 async
