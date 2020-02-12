@@ -287,6 +287,13 @@ clamped
 #
 include
 "
+nsBoxLayoutState
+.
+h
+"
+#
+include
+"
 nsCSSAnonBoxes
 .
 h

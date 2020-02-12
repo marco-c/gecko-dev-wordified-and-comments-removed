@@ -22,6 +22,12 @@ Maybe
 .
 h
 "
+struct
+nsPoint
+;
+struct
+nsRect
+;
 namespace
 mozilla
 {

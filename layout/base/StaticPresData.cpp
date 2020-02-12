@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+ServoUtils
+.
+h
+"
+#
+include
+"
 nsPresContext
 .
 h
