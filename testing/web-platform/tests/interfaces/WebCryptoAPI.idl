@@ -43,7 +43,7 @@ Web
 Cryptography
 API
 (
-https
+http
 :
 /
 /
@@ -55,9 +55,6 @@ io
 /
 webcrypto
 /
-Overview
-.
-html
 )
 partial
 interface
