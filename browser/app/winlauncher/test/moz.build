@@ -92,6 +92,9 @@ GeckoCppUnitTests
 (
 [
 '
+TestSafeThreadLocal
+'
+'
 TestSameBinary
 '
 ]
