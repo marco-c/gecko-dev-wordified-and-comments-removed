@@ -214,7 +214,7 @@ aEncoding
 UTF_8_ENCODING
 Element
 *
-aOriginatingElement
+aSubmitter
 =
 nullptr
 )

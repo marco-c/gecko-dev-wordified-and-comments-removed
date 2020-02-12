@@ -3040,7 +3040,7 @@ submissions
 ;
 nsGenericHTMLElement
 *
-originatingElement
+submitter
 =
 nullptr
 ;
@@ -3065,7 +3065,7 @@ if
 submitEvent
 )
 {
-originatingElement
+submitter
 =
 submitEvent
 -
@@ -3104,7 +3104,7 @@ GetOwnerGlobal
 (
 )
 encoding
-originatingElement
+submitter
 )
 ;
 rv
@@ -3147,7 +3147,7 @@ HTMLFormSubmission
 GetFromForm
 (
 this
-originatingElement
+submitter
 encoding
 aFormSubmission
 )

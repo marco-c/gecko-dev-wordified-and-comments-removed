@@ -1402,7 +1402,7 @@ if
 aFormSubmission
 -
 >
-GetOriginatingElement
+GetSubmitterElement
 (
 )
 !

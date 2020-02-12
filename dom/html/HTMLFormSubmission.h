@@ -99,7 +99,7 @@ HTMLFormElement
 aForm
 nsGenericHTMLElement
 *
-aOriginatingElement
+aSubmitter
 NotNull
 <
 const
@@ -212,13 +212,13 @@ aCharset
 }
 Element
 *
-GetOriginatingElement
+GetSubmitterElement
 (
 )
 const
 {
 return
-mOriginatingElement
+mSubmitter
 .
 get
 (
@@ -285,7 +285,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 :
 mActionURL
@@ -300,9 +300,9 @@ mEncoding
 (
 aEncoding
 )
-mOriginatingElement
+mSubmitter
 (
-aOriginatingElement
+aSubmitter
 )
 mInitiatedFromUserInput
 (
@@ -347,7 +347,7 @@ RefPtr
 <
 Element
 >
-mOriginatingElement
+mSubmitter
 ;
 bool
 mInitiatedFromUserInput
@@ -386,7 +386,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 ;
 virtual
@@ -443,7 +443,7 @@ Encoding
 aEncoding
 Element
 *
-aOriginatingElement
+aSubmitter
 )
 ;
 ~
