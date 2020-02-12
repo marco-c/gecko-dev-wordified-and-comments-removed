@@ -154,7 +154,7 @@ size_t
 numElements
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 ObjectElements
 :

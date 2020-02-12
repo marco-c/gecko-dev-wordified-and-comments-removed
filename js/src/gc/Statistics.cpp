@@ -183,7 +183,7 @@ mozilla
 :
 TimeStamp
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 JS
 :

@@ -89,7 +89,7 @@ gcTracer
 #
 ifdef
 JS_GC_TRACE
-JS_STATIC_ASSERT
+static_assert
 (
 NumAllocKinds
 =
@@ -103,7 +103,7 @@ LIMIT
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 LastObjectAllocKind
 =
@@ -273,7 +273,7 @@ char
 string
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
