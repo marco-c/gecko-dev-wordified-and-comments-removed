@@ -1285,6 +1285,14 @@ sh
      
 {
 '
+download
+-
+firefox
+-
+nightly
+'
+      
+'
 lint
 '
       
