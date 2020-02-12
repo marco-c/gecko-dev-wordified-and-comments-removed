@@ -239,12 +239,12 @@ initialize
 front
 supports
 fluentBundles
-simulator
 toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
+simulate
 }
 )
 {
@@ -284,12 +284,12 @@ accessibility
 :
 front
 fluentBundles
-simulator
 toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
+simulate
 }
 )
 ;
