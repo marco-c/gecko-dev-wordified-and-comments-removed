@@ -388,6 +388,14 @@ false
 ]
 [
 "
+update1
+.
+restrictTabAfterKeyboardFocus
+"
+true
+]
+[
+"
 update2
 .
 searchButton
