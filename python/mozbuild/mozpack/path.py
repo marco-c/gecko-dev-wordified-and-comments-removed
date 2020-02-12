@@ -308,10 +308,11 @@ cargo_workaround
 start
 )
     
+try
+:
+        
 rel
 =
-normsep
-(
 os
 .
 path
@@ -321,6 +322,22 @@ relpath
 path
 start
 )
+    
+except
+ValueError
+:
+        
+return
+abspath
+(
+path
+)
+    
+rel
+=
+normsep
+(
+rel
 )
     
 return
