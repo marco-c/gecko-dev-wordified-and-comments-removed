@@ -61,6 +61,15 @@ PaintWorkletImpl
 aImpl
 )
 :
+WorkletGlobalScope
+(
+aImpl
+-
+>
+GetAgentClusterId
+(
+)
+)
 mImpl
 (
 aImpl
