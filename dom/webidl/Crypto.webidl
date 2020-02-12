@@ -165,6 +165,9 @@ Worker
 interface
 Crypto
 {
+[
+SecureContext
+]
 readonly
 attribute
 SubtleCrypto

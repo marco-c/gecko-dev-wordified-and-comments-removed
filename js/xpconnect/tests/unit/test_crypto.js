@@ -35,7 +35,13 @@ TextEncoder
 "
 TextDecoder
 "
+"
+isSecureContext
+"
 ]
+forceSecureContext
+:
+true
 }
 )
 ;

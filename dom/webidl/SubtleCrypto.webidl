@@ -664,6 +664,7 @@ API
 /
 [
 Serializable
+SecureContext
 Exposed
 =
 Window
@@ -741,6 +742,7 @@ Exposed
 Window
 Worker
 )
+SecureContext
 ]
 interface
 SubtleCrypto

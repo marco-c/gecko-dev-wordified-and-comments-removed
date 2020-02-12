@@ -1252,9 +1252,6 @@ name
 "
 SubtleCrypto
 "
-insecureContext
-:
-true
 }
 {
 name
