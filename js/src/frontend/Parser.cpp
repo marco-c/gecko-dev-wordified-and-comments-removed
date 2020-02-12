@@ -42735,7 +42735,7 @@ null
 }
 classHeritage
 =
-memberExpr
+optionalExpr
 (
 yieldHandling
 TripledotProhibited
