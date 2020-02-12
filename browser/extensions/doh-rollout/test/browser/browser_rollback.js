@@ -334,6 +334,11 @@ DOH_ENABLED_PREF
 )
 ;
 await
+waitForStateTelemetry
+(
+)
+;
+await
 ensureTRRMode
 (
 0
@@ -421,6 +426,11 @@ DOH_ENABLED_PREF
 )
 ;
 await
+waitForStateTelemetry
+(
+)
+;
+await
 ensureNoTRRModeChange
 (
 0
@@ -505,6 +515,11 @@ reset
 prefs
 .
 DOH_ENABLED_PREF
+)
+;
+await
+waitForStateTelemetry
+(
 )
 ;
 await
