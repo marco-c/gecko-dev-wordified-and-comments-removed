@@ -1400,6 +1400,7 @@ dispatchEvaluateExpression
 inspect
 (
 0
+true
 )
 "
 )

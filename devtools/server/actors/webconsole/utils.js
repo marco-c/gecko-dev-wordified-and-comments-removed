@@ -2059,6 +2059,9 @@ function
 (
 owner
 object
+forceExpandInConsole
+=
+false
 )
 {
 const
@@ -2104,6 +2107,7 @@ evalInput
 object
 :
 grip
+forceExpandInConsole
 }
 ;
 }
