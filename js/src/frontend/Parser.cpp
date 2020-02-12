@@ -51799,15 +51799,6 @@ null
 if
 (
 tt
-=
-=
-TokenKind
-:
-:
-Eof
-|
-|
-tt
 !
 =
 TokenKind
@@ -52204,9 +52195,7 @@ lhs
 nextMember
 ;
 }
-UnaryNodeType
-optionalChain
-=
+return
 handler_
 .
 newOptionalChain
@@ -52214,9 +52203,6 @@ newOptionalChain
 begin
 lhs
 )
-;
-return
-optionalChain
 ;
 }
 template
