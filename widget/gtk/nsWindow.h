@@ -2909,6 +2909,11 @@ ConfigureWaylandPopupWindows
 )
 ;
 void
+PauseRemoteRenderer
+(
+)
+;
+void
 HideWaylandWindow
 (
 )
