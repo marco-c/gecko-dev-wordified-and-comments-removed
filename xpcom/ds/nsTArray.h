@@ -2154,6 +2154,11 @@ Item
 aValues
 )
 {
+if
+(
+aValues
+)
+{
 memcpy
 (
 aElements
@@ -2168,6 +2173,7 @@ ElemType
 )
 )
 ;
+}
 }
 }
 ;
