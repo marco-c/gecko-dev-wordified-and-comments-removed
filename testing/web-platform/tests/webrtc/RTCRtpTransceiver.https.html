@@ -9534,6 +9534,12 @@ true
 ]
 )
 ;
+await
+negotiationNeeded
+(
+pc1
+)
+;
 trickle
 (
 t
@@ -9547,12 +9553,6 @@ pc2
 setLocalDescription
 (
 answer
-)
-;
-await
-negotiationNeeded
-(
-pc1
 )
 ;
 await
