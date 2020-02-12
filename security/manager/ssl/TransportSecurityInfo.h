@@ -300,7 +300,15 @@ collected_errors
 nsresult
 SetFailedCertChain
 (
-UniqueCERTCertList
+nsTArray
+<
+nsTArray
+<
+uint8_t
+>
+>
+&
+&
 certList
 )
 ;
