@@ -168,7 +168,7 @@ UTF
 8
 "
 1024
-0xFFFD
+0xfffd
 )
 ;
 inp

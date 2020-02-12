@@ -51,11 +51,11 @@ Shift_JIS
 ;
 load
 (
-'
+"
 CharsetConversionTests
 .
 js
-'
+"
 )
 ;
 function
