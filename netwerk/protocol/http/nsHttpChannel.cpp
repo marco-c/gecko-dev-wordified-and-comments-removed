@@ -44650,11 +44650,6 @@ rv
 gHttpHandler
 -
 >
-ConnMgr
-(
-)
--
->
 DoShiftReloadConnectionCleanup
 (
 mConnectionInfo
@@ -54300,11 +54295,6 @@ nsresult
 rv
 =
 gHttpHandler
--
->
-ConnMgr
-(
-)
 -
 >
 CompleteUpgrade

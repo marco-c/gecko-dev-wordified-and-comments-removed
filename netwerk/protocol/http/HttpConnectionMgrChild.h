@@ -69,6 +69,13 @@ ipc
 IPCResult
 RecvDoShiftReloadConnectionCleanup
 (
+const
+Maybe
+<
+HttpConnectionInfoCloneArgs
+>
+&
+aArgs
 )
 ;
 mozilla

@@ -1358,13 +1358,6 @@ mActivityDistributor
 nullptr
 ;
 }
-mChannel
-=
-do_QueryInterface
-(
-eventsink
-)
-;
 LOG1
 (
 (
@@ -1855,7 +1848,7 @@ throttled
 =
 do_QueryInterface
 (
-mChannel
+eventsink
 )
 ;
 if

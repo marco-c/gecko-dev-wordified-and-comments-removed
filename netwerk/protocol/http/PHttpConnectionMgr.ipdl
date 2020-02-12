@@ -122,6 +122,9 @@ include
 protocol
 PHttpTransaction
 ;
+include
+NeckoChannelParams
+;
 namespace
 mozilla
 {
@@ -146,6 +149,9 @@ __delete__
 async
 DoShiftReloadConnectionCleanup
 (
+HttpConnectionInfoCloneArgs
+?
+aArgs
 )
 ;
 async
