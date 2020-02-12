@@ -200,26 +200,6 @@ nightly_build
 False
                 
 "
-tools_repo
-"
-:
-"
-https
-:
-/
-/
-hg
-.
-mozilla
-.
-org
-/
-build
-/
-tools
-"
-                
-"
 clone_upstream_url
 "
 :
