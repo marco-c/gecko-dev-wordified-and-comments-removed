@@ -1045,11 +1045,6 @@ ResumeIPCAfterAsyncPaint
 )
 ;
 void
-PrepareFinalDestroy
-(
-)
-;
-void
 AfterDestroy
 (
 )
