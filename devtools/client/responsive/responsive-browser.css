@@ -146,6 +146,12 @@ width
 100
 %
 ;
+z
+-
+index
+:
+1
+;
 }
 .
 browserContainer
@@ -167,12 +173,6 @@ rdm
 -
 toolbar
 {
-z
--
-index
-:
-1
-;
 height
 :
 100
