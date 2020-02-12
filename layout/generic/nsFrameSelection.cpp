@@ -8809,14 +8809,7 @@ nsIContent
 *
 aCellContent
 )
-const
 {
-NS_ENSURE_TRUE
-(
-mPresShell
-nullptr
-)
-;
 nsITableCellLayout
 *
 cellLayoutObject
