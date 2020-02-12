@@ -361,6 +361,17 @@ timeout
 }
 else
 {
+this
+.
+_harnessTest
+.
+step
+(
+(
+)
+=
+>
+{
 assert_unreached
 (
 "
@@ -381,6 +392,9 @@ TIMEOUT
 ms
 )
 "
+)
+;
+}
 )
 ;
 }
