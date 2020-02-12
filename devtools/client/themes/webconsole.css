@@ -3180,13 +3180,11 @@ eager
 evaluation
 -
 result
-.
-objectBox
-{
-height
 :
-18px
-;
+last
+-
+child
+{
 overflow
 :
 hidden
@@ -3202,6 +3200,8 @@ white
 space
 :
 pre
+!
+important
 ;
 }
 .
