@@ -112,13 +112,8 @@ try
 {
 state
 =
-await
-new
-Promise
 (
-resolve
-=
->
+await
 attachConsole
 (
 [
@@ -126,9 +121,10 @@ attachConsole
 ConsoleAPI
 "
 ]
-resolve
 )
 )
+.
+state
 ;
 const
 {
