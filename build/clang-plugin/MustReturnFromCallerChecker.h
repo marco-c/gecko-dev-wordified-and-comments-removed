@@ -83,6 +83,15 @@ override
 private
 :
 bool
+isIgnorable
+(
+const
+Stmt
+*
+S
+)
+;
+bool
 immediatelyReturns
 (
 RecurseGuard
