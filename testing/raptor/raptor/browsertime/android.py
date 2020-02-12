@@ -742,6 +742,12 @@ set_reverse_ports
 (
 )
         
+if
+self
+.
+playback
+:
+            
 self
 .
 turn_on_android_app_proxy
