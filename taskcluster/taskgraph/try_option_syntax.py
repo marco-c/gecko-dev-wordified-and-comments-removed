@@ -974,6 +974,20 @@ linux64
 -
 asan
 '
+        
+'
+linux1804
+-
+64
+'
+        
+'
+linux1804
+-
+64
+-
+asan
+'
     
 ]
     
@@ -989,6 +1003,20 @@ linux64
         
 '
 linux64
+-
+asan
+'
+        
+'
+linux1804
+-
+64
+'
+        
+'
+linux1804
+-
+64
 -
 asan
 '
@@ -1125,19 +1153,6 @@ windows7
 32
 -
 vm
-'
-]
-    
-'
-Windows
-8
-'
-:
-[
-'
-windows8
--
-64
 '
 ]
     
