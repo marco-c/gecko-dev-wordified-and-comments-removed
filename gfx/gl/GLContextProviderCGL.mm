@@ -139,6 +139,15 @@ include
 "
 mozilla
 /
+IntegerRange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_gfx
 .
 h

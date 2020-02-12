@@ -14,13 +14,6 @@ h
 #
 include
 "
-DisplayItemClip
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Maybe
@@ -114,6 +107,9 @@ mozilla
 {
 struct
 ContainerLayerParameters
+;
+class
+DisplayItemClip
 ;
 namespace
 layers
