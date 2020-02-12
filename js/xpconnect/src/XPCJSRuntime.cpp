@@ -14559,7 +14559,7 @@ gStats
 .
 helperThread
 .
-parseTask
+wasmCompile
 "
 The
 memory
