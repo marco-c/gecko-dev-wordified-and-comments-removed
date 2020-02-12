@@ -259,14 +259,6 @@ rows
 :
 subgrid
 ;
-grid
--
-template
--
-columns
-:
-subgrid
-;
 }
 .
 webconsole
@@ -277,7 +269,7 @@ primary
 {
 grid
 -
-area
+row
 :
 filter
 -
@@ -299,7 +291,7 @@ secondary
 {
 grid
 -
-area
+row
 :
 filter
 -
