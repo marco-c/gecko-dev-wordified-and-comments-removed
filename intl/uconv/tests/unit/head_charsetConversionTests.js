@@ -424,6 +424,9 @@ expectedText
 function
 testDecodeAliases
 (
+aliases
+inString
+expectedString
 )
 {
 var
@@ -467,6 +470,9 @@ expectedString
 function
 testEncodeAliases
 (
+aliases
+inString
+expectedString
 )
 {
 var
@@ -510,6 +516,9 @@ expectedString
 function
 testDecodeAliasesInternal
 (
+aliases
+inString
+expectedString
 )
 {
 var
@@ -559,6 +568,9 @@ expectedString
 function
 testEncodeAliasesInternal
 (
+aliases
+inString
+expectedString
 )
 {
 var

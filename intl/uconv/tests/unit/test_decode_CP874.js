@@ -1,12 +1,3 @@
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 const
 inString
 =
@@ -620,6 +611,9 @@ run_test
 {
 testDecodeAliases
 (
+aliases
+inString
+expectedString
 )
 ;
 }

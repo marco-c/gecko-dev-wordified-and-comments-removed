@@ -1,12 +1,3 @@
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 function
 run_test
 (

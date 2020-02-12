@@ -49,15 +49,6 @@ charset
 Shift_JIS
 "
 ;
-load
-(
-"
-CharsetConversionTests
-.
-js
-"
-)
-;
 function
 run_test
 (
