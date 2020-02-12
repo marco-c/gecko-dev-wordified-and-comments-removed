@@ -14739,7 +14739,7 @@ invariant
 here
 .
 )
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14759,7 +14759,7 @@ bool
 4
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14770,7 +14770,7 @@ char
 1
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14781,7 +14781,7 @@ short
 2
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14792,7 +14792,7 @@ int
 4
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14803,7 +14803,7 @@ unsigned
 4
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14823,7 +14823,7 @@ long
 8
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14835,7 +14835,7 @@ long
 8
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14849,7 +14849,7 @@ uintptr_t
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14860,7 +14860,7 @@ float
 4
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 sizeof
 (
@@ -14875,7 +14875,7 @@ void
 )
 )
 ;
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -15432,7 +15432,7 @@ TargetType
 j
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -15493,7 +15493,7 @@ TargetType
 j
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -15560,7 +15560,7 @@ TargetType
 j
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -16097,7 +16097,7 @@ IntegerType
 result
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -16680,7 +16680,7 @@ FloatType
 result
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 !
 numeric_limits
@@ -17079,7 +17079,7 @@ bool
 overflow
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -17596,7 +17596,7 @@ bool
 overflow
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -18115,7 +18115,7 @@ IntegerType
 result
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -18444,7 +18444,7 @@ IntegerType
 result
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
@@ -19022,7 +19022,7 @@ N
 result
 )
 {
-JS_STATIC_ASSERT
+static_assert
 (
 numeric_limits
 <
