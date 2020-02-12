@@ -4906,7 +4906,7 @@ GetVisibleRegion
 )
 aLayer
 .
-GetRemoteDocumentRect
+GetRemoteDocumentSize
 (
 )
 aLayer

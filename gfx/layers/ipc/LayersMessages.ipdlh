@@ -490,7 +490,7 @@ using
 mozilla
 :
 :
-LayerIntRect
+LayerIntSize
 from
 "
 Units
@@ -2099,8 +2099,8 @@ id
 EventRegionsOverride
 eventRegionsOverride
 ;
-LayerIntRect
-remoteDocumentRect
+LayerIntSize
+remoteDocumentSize
 ;
 }
 ;

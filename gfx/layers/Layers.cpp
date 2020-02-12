@@ -6992,7 +6992,7 @@ GetReferentId
 (
 )
 mEventRegionsOverride
-mRemoteDocumentRect
+mRemoteDocumentSize
 )
 ;
 }
