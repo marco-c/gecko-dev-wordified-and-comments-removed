@@ -215,6 +215,9 @@ bool
 ion
 ;
 bool
+ionForTrustedPrincipals
+;
+bool
 nativeRegExp
 ;
 bool

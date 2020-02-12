@@ -506,6 +506,12 @@ true
 ;
 SET_DEFAULT
 (
+ionForTrustedPrincipals
+false
+)
+;
+SET_DEFAULT
+(
 nativeRegExp
 true
 )
