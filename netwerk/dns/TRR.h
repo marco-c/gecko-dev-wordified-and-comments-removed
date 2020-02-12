@@ -684,6 +684,11 @@ nsIChannel
 aChannel
 )
 ;
+bool
+UseDefaultServer
+(
+)
+;
 nsCOMPtr
 <
 nsIChannel
