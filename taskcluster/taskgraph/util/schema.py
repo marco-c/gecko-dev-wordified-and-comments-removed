@@ -16,6 +16,7 @@ from
 six
 import
 text_type
+iteritems
 import
 taskgraph
 from
@@ -965,10 +966,9 @@ for
 k
 v
 in
-sch
-.
 iteritems
 (
+sch
 )
 :
                 

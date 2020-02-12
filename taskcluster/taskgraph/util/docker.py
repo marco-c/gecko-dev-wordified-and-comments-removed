@@ -20,10 +20,18 @@ import
 six
 import
 sys
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
 import
-urlparse
+quote
+urlencode
+urlunparse
 from
 mozbuild
 .
@@ -105,8 +113,6 @@ sock
 )
     
 return
-urlparse
-.
 urlunparse
 (
 (
@@ -117,8 +123,6 @@ http
 unix
 '
         
-urllib
-.
 quote
 (
 docker_socket
@@ -133,8 +137,6 @@ path
 '
 '
         
-urllib
-.
 urlencode
 (
 kwargs
