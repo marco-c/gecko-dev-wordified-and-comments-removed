@@ -2150,6 +2150,7 @@ view
 .
 close
 (
+true
 )
 ;
 }
