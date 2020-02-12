@@ -334,9 +334,6 @@ rlib
 "
 staticlib
 "
-"
-cdylib
-"
 ]
 [
 package

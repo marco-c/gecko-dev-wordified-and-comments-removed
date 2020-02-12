@@ -56,6 +56,7 @@ FunctionIndex
 FunctionPointer
 FunctionSpec
 ModuleData
+ModuleFeatures
 Signature
 TrapSite
 UniqueSignatureIndex
@@ -1273,6 +1274,12 @@ exports
 self
 .
 signatures
+ModuleFeatures
+:
+:
+none
+(
+)
 )
 ;
 let
