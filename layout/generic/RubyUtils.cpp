@@ -104,7 +104,7 @@ aFrame
 aFrame
 -
 >
-RemoveProperty
+TakeProperty
 (
 ReservedISize
 (

@@ -3434,7 +3434,7 @@ userDataTable
 aFrame
 -
 >
-RemoveProperty
+TakeProperty
 (
 WebRenderUserDataProperty
 :

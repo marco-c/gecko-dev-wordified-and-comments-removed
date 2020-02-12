@@ -7365,7 +7365,7 @@ WebRenderUserDataTable
 *
 userDataTable
 =
-RemoveProperty
+TakeProperty
 (
 WebRenderUserDataProperty
 :
@@ -7445,7 +7445,7 @@ DisplayItemArray
 *
 items
 =
-RemoveProperty
+TakeProperty
 (
 DisplayItems
 (
@@ -15485,7 +15485,7 @@ false
 uint32_t
 visibleCount
 =
-RemoveProperty
+TakeProperty
 (
 VisibilityStateProperty
 (

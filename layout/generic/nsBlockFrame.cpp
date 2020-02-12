@@ -41327,7 +41327,7 @@ FrameLines
 *
 prop
 =
-RemoveProperty
+TakeProperty
 (
 OverflowLinesProperty
 (
@@ -41445,7 +41445,7 @@ FrameLines
 *
 prop
 =
-RemoveProperty
+TakeProperty
 (
 OverflowLinesProperty
 (
@@ -42171,7 +42171,7 @@ nsFrameList
 *
 result
 =
-RemoveProperty
+TakeProperty
 (
 PushedFloatProperty
 (
