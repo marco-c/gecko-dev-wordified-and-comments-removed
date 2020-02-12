@@ -23470,7 +23470,7 @@ hitTestInfo
 =
 static_cast
 <
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 >
 (

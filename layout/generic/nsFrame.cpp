@@ -21227,7 +21227,7 @@ HitTestInfo
 aHitTestInfo
 )
 {
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 hitTestItem
 ;
@@ -21250,7 +21250,7 @@ hitTestItem
 =
 static_cast
 <
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 >
 (

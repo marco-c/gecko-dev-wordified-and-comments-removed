@@ -23728,14 +23728,14 @@ mClip
 }
 ;
 class
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 public
 nsPaintedDisplayItem
 {
 public
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 nsDisplayListBuilder
 *
@@ -23752,7 +23752,7 @@ aFrame
 )
 {
 }
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 nsDisplayListBuilder
 *
@@ -23774,13 +23774,13 @@ aActiveScrolledRoot
 )
 {
 }
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 nsDisplayListBuilder
 *
 aBuilder
 const
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 &
 aOther
 )
@@ -31344,7 +31344,7 @@ class
 nsDisplayCompositorHitTestInfo
 :
 public
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 {
 public
 :
@@ -31777,7 +31777,7 @@ class
 nsDisplayWrapList
 :
 public
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 {
 public
 :
@@ -31861,7 +31861,7 @@ nsIFrame
 aFrame
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -31957,7 +31957,7 @@ nsDisplayWrapList
 aOther
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aOther
@@ -32075,7 +32075,7 @@ DeleteAll
 aBuilder
 )
 ;
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 Destroy
@@ -32393,7 +32393,7 @@ to
 /
 /
 |
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 UpdateHitTestInfoActiveScrolledRoot
@@ -32412,7 +32412,7 @@ with
 different
 ASR
 .
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 SetActiveScrolledRoot
@@ -32988,7 +32988,7 @@ mHasZIndexOverride
 ?
 mOverrideZIndex
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 ZIndex
@@ -39791,7 +39791,7 @@ class
 nsDisplayTransform
 :
 public
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 {
 typedef
 mozilla
@@ -40023,7 +40023,7 @@ RestoreState
 )
 override
 {
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 RestoreState
@@ -40101,7 +40101,7 @@ DeleteAll
 aBuilder
 )
 ;
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 Destroy
@@ -40554,7 +40554,7 @@ mFrame
 ;
 }
 return
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 ReferenceFrameForChildren
@@ -42196,7 +42196,7 @@ class
 nsDisplayPerspective
 :
 public
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 {
 typedef
 mozilla
@@ -42254,7 +42254,7 @@ DeleteAll
 aBuilder
 )
 ;
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 Destroy

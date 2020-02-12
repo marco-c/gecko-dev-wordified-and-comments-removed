@@ -15935,7 +15935,7 @@ result
 ;
 }
 void
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 AddSizeOfExcludingThis
@@ -15985,7 +15985,7 @@ aSizes
 )
 const
 {
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 AddSizeOfExcludingThis
@@ -35278,7 +35278,7 @@ nsRect
 aArea
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -35422,7 +35422,7 @@ HitTestInfo
 aHitTestInfo
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -35890,7 +35890,7 @@ mOverrideZIndex
 *
 mOverrideZIndex
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 :
 :
 ZIndex
@@ -39265,7 +39265,7 @@ uint16_t
 aIndex
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -39577,7 +39577,7 @@ nsDisplayItem
 aItem
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -51676,7 +51676,7 @@ uint16_t
 aIndex
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -51767,7 +51767,7 @@ bool
 aAllowAsyncAnimation
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -51854,7 +51854,7 @@ ComputeTransformFunction
 aTransformGetter
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame
@@ -60687,7 +60687,7 @@ nsDisplayList
 aList
 )
 :
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 (
 aBuilder
 aFrame

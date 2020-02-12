@@ -25467,7 +25467,7 @@ item
 =
 static_cast
 <
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 >
 (
@@ -29150,7 +29150,7 @@ hitTestInfo
 =
 static_cast
 <
-nsDisplayHitTestInfoItem
+nsDisplayHitTestInfoBase
 *
 >
 (
