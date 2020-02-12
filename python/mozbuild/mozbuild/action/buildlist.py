@@ -45,10 +45,13 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 sys
 import
 os
+import
+io
 from
 mozbuild
 .
@@ -137,6 +140,8 @@ listFile
             
 f
 =
+io
+.
 open
 (
 listFile
@@ -197,11 +202,19 @@ e
 )
         
 with
+io
+.
 open
 (
 listFile
 '
-wb
+w
+'
+newline
+=
+'
+\
+n
 '
 )
 as

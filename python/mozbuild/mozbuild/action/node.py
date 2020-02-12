@@ -12,6 +12,8 @@ import
 subprocess
 import
 sys
+import
+six
 SCRIPT_ALLOWLIST
 =
 [
@@ -397,6 +399,15 @@ splitlines
 )
 :
             
+line
+=
+six
+.
+ensure_text
+(
+line
+)
+            
 if
 '
 dep
@@ -721,15 +732,23 @@ exit
 1
 )
     
+node_script
+=
+six
+.
+ensure_text
+(
+node_script
+)
+    
 if
 not
 isinstance
 (
 node_script
-(
-str
-unicode
-)
+six
+.
+text_type
 )
 :
         
