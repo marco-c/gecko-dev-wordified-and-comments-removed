@@ -202,6 +202,17 @@ mozilla
 /
 dom
 /
+ImageTracker
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Selection
 .
 h
@@ -8155,7 +8166,7 @@ Document
 ;
 ImageLoader
 *
-imageLoader
+loader
 =
 doc
 -
@@ -8347,7 +8358,7 @@ mImage
 AddAndRemoveImageAssociations
 (
 *
-imageLoader
+loader
 this
 oldLayers
 newLayers
@@ -8383,7 +8394,7 @@ mMask
 AddAndRemoveImageAssociations
 (
 *
-imageLoader
+loader
 this
 oldLayers
 newLayers
@@ -9509,7 +9520,7 @@ HasImageRequest
 )
 )
 {
-imageLoader
+loader
 -
 >
 DisassociateRequestFromFrame
@@ -9524,7 +9535,7 @@ if
 newBorderImage
 )
 {
-imageLoader
+loader
 -
 >
 AssociateRequestToFrame
@@ -9591,7 +9602,7 @@ HasImageRequest
 )
 )
 {
-imageLoader
+loader
 -
 >
 DisassociateRequestFromFrame
@@ -9606,7 +9617,7 @@ if
 newShapeImage
 )
 {
-imageLoader
+loader
 -
 >
 AssociateRequestToFrame
