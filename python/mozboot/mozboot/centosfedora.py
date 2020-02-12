@@ -260,11 +260,7 @@ distro
 in
 (
 '
-CentOS
-'
-'
-CentOS
-Linux
+centos
 '
 )
 :
@@ -416,7 +412,7 @@ distro
 =
 =
 '
-Fedora
+fedora
 '
 :
             
@@ -621,11 +617,7 @@ distro
 in
 (
 '
-CentOS
-'
-'
-CentOS
-Linux
+centos
 '
 )
 and
