@@ -2150,7 +2150,7 @@ GetSignalingState
 const
 ;
 void
-OnOfferAnswerComplete
+OnSetDescriptionSuccess
 (
 bool
 rollback
