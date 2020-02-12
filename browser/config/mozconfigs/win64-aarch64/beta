@@ -58,8 +58,6 @@ export
 MOZ_LTO
 =
 cross
-unset
-ENABLE_CLANG_PLUGIN
 .
 "
 topsrcdir

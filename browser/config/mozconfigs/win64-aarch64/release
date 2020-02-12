@@ -75,8 +75,6 @@ export
 MOZ_LTO
 =
 cross
-unset
-ENABLE_CLANG_PLUGIN
 #
 safeguard
 against

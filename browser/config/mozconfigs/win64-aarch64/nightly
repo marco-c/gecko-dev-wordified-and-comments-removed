@@ -62,8 +62,6 @@ browser
 branding
 /
 nightly
-unset
-ENABLE_CLANG_PLUGIN
 .
 "
 topsrcdir

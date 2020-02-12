@@ -75,8 +75,6 @@ browser
 branding
 /
 aurora
-unset
-ENABLE_CLANG_PLUGIN
 .
 "
 topsrcdir
