@@ -519,12 +519,6 @@ JS
 CloneDataPolicy
 clonePolicy
 ;
-clonePolicy
-.
-allowIntraClusterClonableSharedObjects
-(
-)
-;
 if
 (
 NS_IsMainThread
@@ -558,7 +552,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowSharedMemoryObjects
+allowIntraClusterClonableSharedObjects
 (
 )
 ;
@@ -589,7 +583,7 @@ IsSharedMemoryAllowed
 {
 clonePolicy
 .
-allowSharedMemoryObjects
+allowIntraClusterClonableSharedObjects
 (
 )
 ;

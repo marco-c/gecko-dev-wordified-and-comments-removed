@@ -5740,7 +5740,6 @@ IsSharedMemoryAllowed
 (
 )
 const
-override
 ;
 bool
 CrossOriginIsolated
