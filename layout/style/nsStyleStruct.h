@@ -8493,7 +8493,10 @@ aNewData
 )
 const
 ;
-uint8_t
+mozilla
+:
+:
+StyleTableLayout
 mLayoutStrategy
 ;
 int32_t

@@ -983,6 +983,12 @@ mozilla
 StyleTextOrientation
 "
 "
+mozilla
+:
+:
+StyleTableLayout
+"
+"
 nsStyleImageType
 "
 "

@@ -27154,7 +27154,10 @@ StyleTable
 mLayoutStrategy
 =
 =
-NS_STYLE_TABLE_LAYOUT_AUTO
+StyleTableLayout
+:
+:
+Auto
 )
 return
 true
