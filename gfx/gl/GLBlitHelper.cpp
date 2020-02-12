@@ -4587,6 +4587,12 @@ ImageFormat
 :
 TEXTURE_WRAPPER
 :
+case
+ImageFormat
+:
+:
+WAYLAND_DMABUF
+:
 return
 false
 ;

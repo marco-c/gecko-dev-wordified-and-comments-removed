@@ -1963,6 +1963,11 @@ WaylandDMABUFTextureHostOGL
 .
 h
 '
+'
+WaylandDMABUFSurfaceImage
+.
+h
+'
 ]
 SOURCES
 +
@@ -1979,6 +1984,11 @@ cpp
 opengl
 /
 WaylandDMABUFTextureHostOGL
+.
+cpp
+'
+'
+WaylandDMABUFSurfaceImage
 .
 cpp
 '
