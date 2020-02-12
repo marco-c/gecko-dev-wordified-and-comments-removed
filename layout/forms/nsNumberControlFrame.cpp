@@ -362,6 +362,13 @@ PseudoStyleType
 mozNumberWrapper
 )
 ;
+mOuterWrapper
+-
+>
+SetIsNativeAnonymousRoot
+(
+)
+;
 aElements
 .
 AppendElement
