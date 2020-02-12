@@ -64,6 +64,7 @@ search
 .
 init
 (
+true
 )
 ;
 equal

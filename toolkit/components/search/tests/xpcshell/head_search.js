@@ -2614,7 +2614,7 @@ function
 asyncReInit
 (
 {
-waitForRegionFetch
+awaitRegionFetch
 =
 false
 }
@@ -2641,7 +2641,7 @@ complete
 ;
 if
 (
-waitForRegionFetch
+awaitRegionFetch
 )
 {
 promises
@@ -2671,8 +2671,7 @@ search
 .
 reInit
 (
-!
-waitForRegionFetch
+awaitRegionFetch
 )
 ;
 return
