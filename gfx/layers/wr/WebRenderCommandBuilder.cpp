@@ -15759,13 +15759,10 @@ Count
 )
 )
 {
-Unused
-<
-<
 frame
 -
 >
-TakeProperty
+RemoveProperty
 (
 WebRenderUserDataProperty
 :
@@ -15775,8 +15772,9 @@ Key
 )
 )
 ;
-delete
 userDataTable
+=
+nullptr
 ;
 }
 if
