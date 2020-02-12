@@ -116,6 +116,9 @@ ReadOnlyCompileOptions
 &
 options
 ;
+AutoKeepAtoms
+keepAtoms
+;
 UsedNameTracker
 usedNames
 ;
@@ -181,6 +184,10 @@ cx
 options
 (
 options
+)
+keepAtoms
+(
+cx
 )
 usedNames
 (

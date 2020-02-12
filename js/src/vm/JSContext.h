@@ -5162,7 +5162,6 @@ MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
-inline
 AutoKeepAtoms
 (
 JSContext
@@ -5171,7 +5170,6 @@ cx
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
-inline
 ~
 AutoKeepAtoms
 (
