@@ -55,6 +55,7 @@ num
 +
 +
 )
+{
 Assert
 .
 equal
@@ -84,6 +85,7 @@ words
 )
 )
 ;
+}
 Assert
 .
 equal

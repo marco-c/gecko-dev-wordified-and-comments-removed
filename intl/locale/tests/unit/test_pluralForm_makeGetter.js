@@ -100,6 +100,7 @@ num
 +
 +
 )
+{
 Assert
 .
 equal
@@ -112,6 +113,7 @@ words
 )
 )
 ;
+}
 }
 ;
 test
