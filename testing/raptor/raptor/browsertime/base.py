@@ -467,11 +467,13 @@ readlines
 lines
 =
 [
+                
 line
 for
 line
 in
 lines
+                
 if
 not
 line
@@ -483,6 +485,13 @@ startswith
 MozRunner
 "
 )
+and
+line
+.
+strip
+(
+)
+            
 ]
             
 with
