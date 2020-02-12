@@ -16,6 +16,13 @@ h
 #
 include
 "
+jsfriendapi
+.
+h
+"
+#
+include
+"
 js
 /
 Vector
