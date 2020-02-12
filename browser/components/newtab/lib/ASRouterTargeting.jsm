@@ -2358,15 +2358,6 @@ isWhatsNewPanelEnabled
 ;
 }
 get
-isFxABadgeEnabled
-(
-)
-{
-return
-true
-;
-}
-get
 userPrefs
 (
 )
