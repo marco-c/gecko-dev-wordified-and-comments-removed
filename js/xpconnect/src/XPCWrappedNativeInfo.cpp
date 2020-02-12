@@ -1158,16 +1158,6 @@ XPCNativeMember
 totalCount
 ]
 ;
-if
-(
-!
-members
-)
-{
-return
-nullptr
-;
-}
 }
 else
 {
