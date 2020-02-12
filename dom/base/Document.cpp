@@ -292,6 +292,15 @@ include
 "
 mozilla
 /
+MediaFeatureChange
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
