@@ -126,6 +126,15 @@ include
 "
 mozilla
 /
+AccessibleCaretEventHub
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ArrayUtils
 .
 h

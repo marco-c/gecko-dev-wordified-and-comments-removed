@@ -151,6 +151,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 mozilla
 /
 TimelineConsumers

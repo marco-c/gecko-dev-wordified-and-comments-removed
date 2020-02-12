@@ -91,6 +91,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

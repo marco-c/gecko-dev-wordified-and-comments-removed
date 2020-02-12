@@ -191,6 +191,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+nsCSPService
+.
+h
+"
+#
+include
+"
 nsHttp
 .
 h

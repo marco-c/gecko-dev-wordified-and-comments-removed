@@ -83,6 +83,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIAppWindow
 .
 h

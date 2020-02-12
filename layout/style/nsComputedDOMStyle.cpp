@@ -124,6 +124,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIContent
 .
 h
