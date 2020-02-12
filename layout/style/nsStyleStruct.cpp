@@ -7352,7 +7352,10 @@ NS_STYLE_CAPTION_SIDE_TOP
 )
 mEmptyCells
 (
-NS_STYLE_TABLE_EMPTY_CELLS_SHOW
+StyleEmptyCells
+:
+:
+Show
 )
 {
 MOZ_COUNT_CTOR

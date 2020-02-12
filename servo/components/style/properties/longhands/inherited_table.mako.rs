@@ -123,10 +123,10 @@ servo
 -
 2013
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_TABLE_EMPTY_CELLS
+StyleEmptyCells
 "
 animation_value_type
 =

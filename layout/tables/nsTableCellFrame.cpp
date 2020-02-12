@@ -1798,7 +1798,10 @@ StyleTableBorder
 mEmptyCells
 =
 =
-NS_STYLE_TABLE_EMPTY_CELLS_SHOW
+StyleEmptyCells
+:
+:
+Show
 )
 {
 aLists
@@ -2184,7 +2187,10 @@ StyleTableBorder
 mEmptyCells
 =
 =
-NS_STYLE_TABLE_EMPTY_CELLS_SHOW
+StyleEmptyCells
+:
+:
+Show
 ;
 }
 bool
