@@ -45015,7 +45015,10 @@ mImageRendering
 )
 {
 case
-NS_STYLE_IMAGE_RENDERING_OPTIMIZESPEED
+StyleImageRendering
+:
+:
+Optimizespeed
 :
 return
 SamplingFilter
@@ -45024,7 +45027,10 @@ SamplingFilter
 POINT
 ;
 case
-NS_STYLE_IMAGE_RENDERING_OPTIMIZEQUALITY
+StyleImageRendering
+:
+:
+Optimizequality
 :
 return
 SamplingFilter
@@ -45033,7 +45039,10 @@ SamplingFilter
 LINEAR
 ;
 case
-NS_STYLE_IMAGE_RENDERING_CRISP_EDGES
+StyleImageRendering
+:
+:
+CrispEdges
 :
 return
 SamplingFilter

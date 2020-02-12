@@ -15728,7 +15728,10 @@ Visible
 )
 mImageRendering
 (
-NS_STYLE_IMAGE_RENDERING_AUTO
+StyleImageRendering
+:
+:
+Auto
 )
 mWritingMode
 (

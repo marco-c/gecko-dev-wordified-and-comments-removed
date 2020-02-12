@@ -5371,7 +5371,10 @@ mozilla
 StyleVisibility
 mVisible
 ;
-uint8_t
+mozilla
+:
+:
+StyleImageRendering
 mImageRendering
 ;
 uint8_t
