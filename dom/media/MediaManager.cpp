@@ -2129,7 +2129,7 @@ IsHandlingUserInput
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 req
 "
@@ -2459,7 +2459,7 @@ IsHandlingUserInput
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 req
 "
@@ -2621,7 +2621,7 @@ IsHandlingUserInput
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 req
 "
@@ -17910,7 +17910,7 @@ GetObserverService
 obs
 -
 >
-NotifyObservers
+NotifyWhenScriptSafe
 (
 nullptr
 "
