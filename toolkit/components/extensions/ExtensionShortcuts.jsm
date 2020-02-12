@@ -335,7 +335,8 @@ g
 "
 )
 :
-null
+"
+"
 ;
 }
 class
@@ -597,6 +598,9 @@ description
 if
 (
 shortcut
+!
+=
+null
 &
 &
 shortcut
