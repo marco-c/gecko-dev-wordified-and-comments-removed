@@ -3366,6 +3366,7 @@ for
 (
 const
 DebugSecFlagType
+&
 flag
 :
 secTypes
