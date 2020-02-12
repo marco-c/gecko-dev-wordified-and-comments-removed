@@ -1721,6 +1721,9 @@ tempfile
 .
 mkstemp
 (
+text
+=
+True
 )
             
 os
@@ -1728,7 +1731,12 @@ os
 write
 (
 fh
+six
+.
+ensure_binary
+(
 mozconfig
+)
 )
             
 os
