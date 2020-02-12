@@ -141,13 +141,6 @@ kSerializedSCTLengthBytes
 static
 const
 size_t
-kTreeSizeLength
-=
-8
-;
-static
-const
-size_t
 kSthRootHashLength
 =
 32
