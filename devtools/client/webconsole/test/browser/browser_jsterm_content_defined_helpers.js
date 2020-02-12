@@ -50,9 +50,6 @@ inspect
 keys
 "
 "
-pprint
-"
-"
 screenshot
 "
 "
