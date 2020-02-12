@@ -449,7 +449,7 @@ uncaughtError
 .
 name
 "
-InvalidStateError
+TypeError
 "
 msg
 )
@@ -460,7 +460,7 @@ Upgrading
 must
 report
 an
-InvalidStateError
+TypeError
 when
 the
 top
@@ -564,7 +564,7 @@ uncaughtError
 .
 name
 "
-InvalidStateError
+TypeError
 "
 msg
 )
@@ -575,7 +575,7 @@ Upgrading
 must
 report
 an
-InvalidStateError
+TypeError
 when
 the
 top
@@ -704,7 +704,7 @@ uncaughtError
 .
 name
 "
-InvalidStateError
+TypeError
 "
 msg
 )
@@ -715,7 +715,7 @@ Upgrading
 must
 report
 an
-InvalidStateError
+TypeError
 when
 the
 returned
