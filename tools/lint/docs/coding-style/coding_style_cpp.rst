@@ -689,6 +689,7 @@ braces
 .
 note
 :
+:
 For
 this
 rule
@@ -844,6 +845,7 @@ file
 .
 .
 note
+:
 :
 For
 parts
@@ -1261,6 +1263,7 @@ above
 .
 note
 :
+:
 For
 the
 rule
@@ -1617,6 +1620,7 @@ classes
 .
 .
 note
+:
 :
 For
 the
@@ -2166,6 +2170,7 @@ allowed
 .
 note
 :
+:
 For
 the
 C
@@ -2299,6 +2304,7 @@ x
 .
 .
 note
+:
 :
 clang
 -
