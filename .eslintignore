@@ -1052,14 +1052,6 @@ intl
 exclusions
 intl
 /
-locale
-/
-intl
-/
-strres
-/
-intl
-/
 uconv
 /
 #
