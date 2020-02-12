@@ -187,11 +187,6 @@ attribute
 AString
 windowProtocol
 ;
-readonly
-attribute
-AString
-desktopEnvironment
-;
 /
 *
 *
