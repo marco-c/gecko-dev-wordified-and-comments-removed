@@ -218,6 +218,7 @@ IOSurface
 GLXDrawable
 SharedGLTexture
 AndroidSurfaceTexture
+EGLSurfaceDMABUF
 Max
 }
 ;

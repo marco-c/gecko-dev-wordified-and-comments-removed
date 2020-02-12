@@ -699,6 +699,11 @@ GLContextProviderWayland
 .
 cpp
 '
+'
+SharedSurfaceDMABUF
+.
+cpp
+'
 ]
 UNIFIED_SOURCES
 +
