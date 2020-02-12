@@ -14236,16 +14236,10 @@ StyleDisplay
 mPosition
 =
 =
-static_cast
-<
-uint8_t
->
-(
 StylePositionProperty
 :
 :
 Sticky
-)
 )
 ;
 /
