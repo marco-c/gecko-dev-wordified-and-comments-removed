@@ -926,6 +926,16 @@ os
 "
 linux
 "
+|
+|
+mozinfo
+.
+os
+=
+=
+"
+android
+"
 )
 {
 return
