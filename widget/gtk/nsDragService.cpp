@@ -9382,7 +9382,7 @@ gdkAction
 mTargetWaylandDragContext
 -
 >
-GetSelectedDragAction
+GetAvailableDragActions
 (
 )
 ;
