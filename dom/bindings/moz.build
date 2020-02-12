@@ -210,6 +210,11 @@ CallbackObject
 h
 '
 '
+DOMExceptionNames
+.
+h
+'
+'
 DOMJSClass
 .
 h
