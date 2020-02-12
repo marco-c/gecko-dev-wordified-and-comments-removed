@@ -3197,7 +3197,7 @@ get
 ;
 widget
 =
-CreateWindowWidget
+gtk_invisible_new
 (
 )
 ;
