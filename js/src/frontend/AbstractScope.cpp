@@ -21,7 +21,7 @@ include
 "
 frontend
 /
-ParseInfo
+CompilationInfo
 .
 h
 "
@@ -92,7 +92,7 @@ Deferred
 return
 data
 .
-parseInfo
+compilationInfo
 .
 scopeCreationData
 [

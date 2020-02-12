@@ -58,7 +58,7 @@ include
 "
 frontend
 /
-ModuleSharedContext
+CompilationInfo
 .
 h
 "
@@ -67,7 +67,7 @@ include
 "
 frontend
 /
-ParseInfo
+ModuleSharedContext
 .
 h
 "
@@ -18683,7 +18683,7 @@ cx
 parser
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 )
@@ -21481,8 +21481,8 @@ tempLifoAlloc
 )
 )
 ;
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -21491,7 +21491,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -21528,10 +21528,10 @@ length
 (
 )
 false
-parseInfo
+compilationInfo
 nullptr
 nullptr
-parseInfo
+compilationInfo
 .
 sourceObject
 )
@@ -21657,7 +21657,7 @@ modulesc
 (
 cx
 module
-parseInfo
+compilationInfo
 &
 cx
 -

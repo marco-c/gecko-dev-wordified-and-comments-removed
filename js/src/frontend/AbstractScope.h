@@ -86,7 +86,7 @@ namespace
 frontend
 {
 struct
-ParseInfo
+CompilationInfo
 ;
 class
 FunctionBox
@@ -129,9 +129,9 @@ index
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ;
 }
 ;
@@ -213,9 +213,9 @@ AbstractScope
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScopeIndex
 scope
 )
@@ -225,7 +225,7 @@ scope_
 Deferred
 {
 scope
-parseInfo
+compilationInfo
 }
 )
 {

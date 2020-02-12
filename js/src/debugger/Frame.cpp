@@ -4823,8 +4823,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -4833,7 +4833,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -4853,7 +4853,7 @@ EvalScriptInfo
 info
 (
 cx
-parseInfo
+compilationInfo
 options
 env
 scope
@@ -4898,8 +4898,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -4908,7 +4908,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -4928,7 +4928,7 @@ GlobalScriptInfo
 info
 (
 cx
-parseInfo
+compilationInfo
 options
 scopeKind
 )

@@ -1312,9 +1312,9 @@ sc
 ErrorReporter
 &
 errorReporter
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 Directives
 *
 newDirectives
@@ -1399,7 +1399,7 @@ NoAwaitOffset
 )
 scriptId_
 (
-parseInfo
+compilationInfo
 .
 usedNames
 .
@@ -1443,7 +1443,7 @@ tree
 .
 emplace
 (
-parseInfo
+compilationInfo
 .
 treeHolder
 )
@@ -1467,7 +1467,7 @@ emplace
 (
 cx
 parent
-parseInfo
+compilationInfo
 .
 usedNames
 )
@@ -1479,7 +1479,7 @@ emplace
 (
 cx
 parent
-parseInfo
+compilationInfo
 .
 usedNames
 )

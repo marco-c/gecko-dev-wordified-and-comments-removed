@@ -30315,8 +30315,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -30325,7 +30325,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -30369,10 +30369,10 @@ twoByteChars
 )
 length
 true
-parseInfo
+compilationInfo
 nullptr
 nullptr
-parseInfo
+compilationInfo
 .
 sourceObject
 )

@@ -39,7 +39,7 @@ include
 "
 frontend
 /
-ParseInfo
+CompilationInfo
 .
 h
 "
@@ -247,9 +247,9 @@ finish
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 mozilla
 :
 :
@@ -294,9 +294,9 @@ JSContext
 *
 cx
 ;
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ;
 uint32_t
 i
@@ -353,7 +353,7 @@ BigIntCreationData
 &
 data
 =
-parseInfo
+compilationInfo
 .
 bigIntData
 [
@@ -412,7 +412,7 @@ RegExpCreationData
 &
 data
 =
-parseInfo
+compilationInfo
 .
 regExpData
 [
@@ -521,7 +521,7 @@ ScopeCreationData
 >
 data
 =
-parseInfo
+compilationInfo
 .
 scopeCreationData
 [
@@ -594,7 +594,7 @@ Matcher
 m
 {
 cx
-parseInfo
+compilationInfo
 i
 array
 }
@@ -1201,15 +1201,15 @@ cx
 frontend
 :
 :
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 )
 :
 gcThingList_
 (
 cx
-parseInfo
+compilationInfo
 )
 atomIndices_
 (

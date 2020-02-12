@@ -224,9 +224,9 @@ BinASTParserPerTokenizer
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 const
 JS
 :
@@ -247,7 +247,7 @@ lazyScript
 BinASTParserBase
 (
 cx
-parseInfo
+compilationInfo
 sourceObject
 )
 options_
@@ -262,7 +262,7 @@ lazyScript
 handler_
 (
 cx
-parseInfo
+compilationInfo
 .
 allocScope
 .
@@ -1417,7 +1417,7 @@ cx_
 traceListHead_
 fun
 0
-getParseInfo
+getCompilationInfo
 (
 )
 *

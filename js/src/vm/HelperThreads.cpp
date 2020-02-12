@@ -3285,8 +3285,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -3295,7 +3295,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -3311,7 +3311,7 @@ sourceObjects
 .
 infallibleAppend
 (
-parseInfo
+compilationInfo
 .
 sourceObject
 )
@@ -3323,7 +3323,7 @@ GlobalScriptInfo
 info
 (
 cx
-parseInfo
+compilationInfo
 options
 scopeKind
 )

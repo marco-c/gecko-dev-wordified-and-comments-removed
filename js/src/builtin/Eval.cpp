@@ -48,7 +48,7 @@ include
 "
 frontend
 /
-ParseInfo
+CompilationInfo
 .
 h
 "
@@ -1714,8 +1714,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -1724,7 +1724,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -1744,7 +1744,7 @@ EvalScriptInfo
 info
 (
 cx
-parseInfo
+compilationInfo
 options
 env
 enclosing
@@ -2231,8 +2231,8 @@ tempLifoAlloc
 frontend
 :
 :
-ParseInfo
-parseInfo
+CompilationInfo
+compilationInfo
 (
 cx
 allocScope
@@ -2241,7 +2241,7 @@ allocScope
 if
 (
 !
-parseInfo
+compilationInfo
 .
 initFromOptions
 (
@@ -2261,7 +2261,7 @@ EvalScriptInfo
 info
 (
 cx
-parseInfo
+compilationInfo
 options
 env
 enclosing

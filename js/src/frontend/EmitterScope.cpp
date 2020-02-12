@@ -2032,7 +2032,7 @@ scope
 bce
 -
 >
-parseInfo
+compilationInfo
 .
 scopeCreationData
 [
@@ -3020,7 +3020,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 kind
 bindings
 firstFrameSlot
@@ -3331,7 +3331,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 scopeKind
 funbox
 -
@@ -3804,7 +3804,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 funbox
 -
 >
@@ -4084,7 +4084,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 ScopeKind
 :
 :
@@ -4564,7 +4564,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 globalsc
 -
 >
@@ -4699,7 +4699,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 scopeKind
 evalsc
 -
@@ -5183,7 +5183,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 modulesc
 -
 >
@@ -5300,7 +5300,7 @@ cx
 bce
 -
 >
-parseInfo
+compilationInfo
 enclosing
 index
 )

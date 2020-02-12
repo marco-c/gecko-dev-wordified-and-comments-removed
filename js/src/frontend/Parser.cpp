@@ -1098,9 +1098,9 @@ ParserSharedBase
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parserInfo
+compilationInfo
 ScriptSourceObject
 *
 sourceObject
@@ -1167,7 +1167,7 @@ cx
 )
 alloc_
 (
-parserInfo
+compilationInfo
 .
 allocScope
 .
@@ -1175,9 +1175,9 @@ alloc
 (
 )
 )
-parseInfo_
+compilationInfo_
 (
-parserInfo
+compilationInfo
 )
 traceListHead_
 (
@@ -1189,7 +1189,7 @@ nullptr
 )
 usedNames_
 (
-parserInfo
+compilationInfo
 .
 usedNames
 )
@@ -1318,13 +1318,13 @@ gets
 released
 (
 in
-ParseInfo
+CompilationInfo
 )
 to
 ensure
+/
+/
 that
-/
-/
 we
 don
 '
@@ -1403,9 +1403,9 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ScriptSourceObject
 *
 sourceObject
@@ -1414,7 +1414,7 @@ sourceObject
 ParserSharedBase
 (
 cx
-parseInfo
+compilationInfo
 sourceObject
 ParserSharedBase
 :
@@ -1461,7 +1461,7 @@ false
 )
 treeHolder_
 (
-parseInfo
+compilationInfo
 .
 treeHolder
 )
@@ -1528,9 +1528,9 @@ ReadOnlyCompileOptions
 options
 bool
 foldConstants
-ParseInfo
+CompilationInfo
 &
-parserInfo
+compilationInfo
 LazyScript
 *
 lazyOuterFunction
@@ -1547,13 +1547,13 @@ ParserBase
 cx
 options
 foldConstants
-parserInfo
+compilationInfo
 sourceObject
 )
 handler_
 (
 cx
-parserInfo
+compilationInfo
 .
 allocScope
 .
@@ -1599,9 +1599,9 @@ size_t
 length
 bool
 foldConstants
-ParseInfo
+CompilationInfo
 &
-parserInfo
+compilationInfo
 SyntaxParser
 *
 syntaxParser
@@ -1618,7 +1618,7 @@ Base
 cx
 options
 foldConstants
-parserInfo
+compilationInfo
 syntaxParser
 lazyOuterFunction
 sourceObject
@@ -2132,7 +2132,7 @@ toStringStart
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 inheritedDirectives
@@ -2294,7 +2294,7 @@ toStringStart
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 inheritedDirectives
@@ -2691,7 +2691,7 @@ Global
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 directives
@@ -56981,7 +56981,7 @@ index
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -56998,7 +56998,7 @@ if
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -57019,7 +57019,7 @@ if
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -57325,7 +57325,7 @@ index
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -57342,7 +57342,7 @@ if
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -57365,7 +57365,7 @@ if
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 .
@@ -57410,7 +57410,7 @@ cleaned
 up
 by
 the
-ParseInfo
+CompilationInfo
 destructor
 .
 return
@@ -57422,7 +57422,7 @@ index
 this
 -
 >
-getParseInfo
+getCompilationInfo
 (
 )
 pos

@@ -98,7 +98,7 @@ class
 ParseContext
 ;
 struct
-ParseInfo
+CompilationInfo
 ;
 class
 ParserSharedBase
@@ -5804,9 +5804,9 @@ ParseNode
 struct
 Deferred
 {
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 ;
 BigIntIndex
 index
@@ -5875,9 +5875,9 @@ BigIntLiteral
 (
 BigIntIndex
 index
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 const
 TokenPos
 &
@@ -5896,7 +5896,7 @@ data_
 (
 Deferred
 {
-parseInfo
+compilationInfo
 index
 }
 )
@@ -7651,9 +7651,9 @@ getOrCreate
 JSContext
 *
 cx
-ParseInfo
+CompilationInfo
 &
-parseInfo
+compilationInfo
 )
 const
 ;
