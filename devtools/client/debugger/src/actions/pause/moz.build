@@ -149,6 +149,11 @@ setFramePositions
 js
 '
 '
+highlightCalls
+.
+js
+'
+'
 skipPausing
 .
 js

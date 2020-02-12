@@ -120,6 +120,11 @@ Footer
 js
 '
 '
+HighlightCalls
+.
+js
+'
+'
 HighlightLine
 .
 js
@@ -184,6 +189,11 @@ css
 '
 '
 Footer
+.
+css
+'
+'
+HighlightCalls
 .
 css
 '
