@@ -321,7 +321,7 @@ menu
 -
 bookmark
 -
-page
+add
 "
 oncommand
 =
