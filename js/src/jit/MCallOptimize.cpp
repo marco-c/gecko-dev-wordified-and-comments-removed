@@ -6080,7 +6080,8 @@ callInfo
 .
 pushPriorCallStack
 (
-this
+&
+mirGen_
 current
 )
 )
