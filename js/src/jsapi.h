@@ -8023,6 +8023,16 @@ cx
 extern
 JS_PUBLIC_API
 bool
+JS_IsThrowingOutOfMemory
+(
+JSContext
+*
+cx
+)
+;
+extern
+JS_PUBLIC_API
+bool
 JS_GetPendingException
 (
 JSContext
