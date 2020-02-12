@@ -2366,8 +2366,10 @@ GetCanvasTM
 ;
 mCanvasTM
 =
-new
+MakeUnique
+<
 gfxMatrix
+>
 (
 tm
 )

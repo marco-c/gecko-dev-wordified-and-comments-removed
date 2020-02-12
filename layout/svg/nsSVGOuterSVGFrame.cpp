@@ -166,12 +166,14 @@ mForeignObjectHash
 {
 mForeignObjectHash
 =
-new
+MakeUnique
+<
 nsTHashtable
 <
 nsPtrHashKey
 <
 nsSVGForeignObjectFrame
+>
 >
 >
 (
@@ -4159,8 +4161,10 @@ devPxPerCSSPx
 ;
 mCanvasTM
 =
-new
+MakeUnique
+<
 gfxMatrix
+>
 (
 tm
 )

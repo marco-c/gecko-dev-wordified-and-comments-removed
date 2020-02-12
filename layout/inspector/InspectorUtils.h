@@ -15,6 +15,15 @@ InspectorUtilsBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
 class
 nsAtom
 ;

@@ -43,7 +43,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -493,7 +495,10 @@ SVGGeometryFrame
 *
 mSource
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxMatrix
 >

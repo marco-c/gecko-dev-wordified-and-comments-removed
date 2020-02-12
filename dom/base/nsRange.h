@@ -688,7 +688,10 @@ GetUsedFontFaces
 (
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 mozilla
 :

@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsContainerFrame
 .
 h
@@ -506,7 +515,10 @@ override
 ;
 protected
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 gfxMatrix
 >

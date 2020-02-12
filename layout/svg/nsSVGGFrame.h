@@ -23,13 +23,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsSVGContainerFrame
 .
 h

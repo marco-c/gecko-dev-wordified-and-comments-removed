@@ -16,7 +16,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -665,7 +667,10 @@ IsRootOfImage
 (
 )
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 nsTHashtable
 <

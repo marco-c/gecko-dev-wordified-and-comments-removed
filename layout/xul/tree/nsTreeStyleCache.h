@@ -25,7 +25,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -199,7 +201,10 @@ DFAState
 >
 TransitionTable
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 TransitionTable
 >
@@ -216,7 +221,10 @@ ComputedStyle
 >
 ComputedStyleCache
 ;
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 ComputedStyleCache
 >

@@ -624,13 +624,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsBoxFrame
 .
 h
