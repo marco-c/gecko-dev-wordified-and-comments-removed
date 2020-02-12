@@ -11562,6 +11562,12 @@ IsWriteInProgress
 (
 )
 {
+CacheFileAutoLock
+lock
+(
+this
+)
+;
 bool
 result
 =
