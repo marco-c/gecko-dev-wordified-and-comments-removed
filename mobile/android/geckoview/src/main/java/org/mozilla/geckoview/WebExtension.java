@@ -3689,6 +3689,15 @@ ERROR_INCORRECT_ID
 -
 7
 ;
+public
+static
+final
+int
+ERROR_USER_CANCELED
+=
+-
+100
+;
 protected
 ErrorCodes
 (
@@ -3728,6 +3737,9 @@ ERROR_UNEXPECTED_ADDON_TYPE
 ErrorCodes
 .
 ERROR_INCORRECT_ID
+ErrorCodes
+.
+ERROR_USER_CANCELED
 }
 )
 interface
