@@ -302,6 +302,11 @@ HOST_SOURCES
 =
 [
 '
+FopenUsageChecker
+.
+cpp
+'
+'
 LoadLibraryUsageChecker
 .
 cpp

@@ -335,6 +335,11 @@ SOURCES
 =
 [
 '
+TestFopenUsage
+.
+cpp
+'
+'
 TestLoadLibraryUsage
 .
 cpp
