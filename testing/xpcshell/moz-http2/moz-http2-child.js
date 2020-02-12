@@ -58,12 +58,10 @@ process
 .
 on
 (
-'
+"
 message
-'
-(
+"
 msg
-)
 =
 >
 {
@@ -142,6 +140,7 @@ sendBackResponse
 (
 evalResult
 )
+;
 }
 )
 ;
