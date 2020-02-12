@@ -1247,11 +1247,6 @@ StructuredCloneTester
 h
 '
 '
-StyledRange
-.
-h
-'
-'
 StyleSheetList
 .
 h
@@ -2095,11 +2090,6 @@ cpp
 '
 '
 StructuredCloneTester
-.
-cpp
-'
-'
-StyledRange
 .
 cpp
 '

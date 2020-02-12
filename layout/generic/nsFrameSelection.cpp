@@ -848,7 +848,7 @@ mUserInitiated
 ;
 nsTArray
 <
-StyledRange
+RangeData
 >
 &
 ranges
@@ -875,7 +875,7 @@ aMultipleSelection
 {
 for
 (
-StyledRange
+RangeData
 &
 entry
 :
