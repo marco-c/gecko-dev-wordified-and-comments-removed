@@ -388,6 +388,9 @@ Element
 class
 Document
 ;
+class
+ImageTracker
+;
 }
 namespace
 ipc
@@ -626,6 +629,14 @@ T
 mRaw
 ;
 }
+;
+using
+StyleImageTracker
+=
+dom
+:
+:
+ImageTracker
 ;
 using
 StyleLoader
