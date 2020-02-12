@@ -986,7 +986,7 @@ false
 ;
 }
 function
-WifiGeoCoordsObject
+NetworkGeoCoordsObject
 (
 lat
 lon
@@ -1036,7 +1036,7 @@ speed
 NaN
 ;
 }
-WifiGeoCoordsObject
+NetworkGeoCoordsObject
 .
 prototype
 =
@@ -1056,7 +1056,7 @@ nsIDOMGeoPositionCoords
 }
 ;
 function
-WifiGeoPositionObject
+NetworkGeoPositionObject
 (
 lat
 lng
@@ -1068,7 +1068,7 @@ this
 coords
 =
 new
-WifiGeoCoordsObject
+NetworkGeoCoordsObject
 (
 lat
 lng
@@ -1092,7 +1092,7 @@ now
 )
 ;
 }
-WifiGeoPositionObject
+NetworkGeoPositionObject
 .
 prototype
 =
@@ -1112,7 +1112,7 @@ nsIDOMGeoPosition
 }
 ;
 function
-WifiGeoPositionProvider
+NetworkGeolocationProvider
 (
 )
 {
@@ -1197,7 +1197,7 @@ started
 false
 ;
 }
-WifiGeoPositionProvider
+NetworkGeolocationProvider
 .
 prototype
 =
@@ -2094,7 +2094,7 @@ let
 newLocation
 =
 new
-WifiGeoPositionObject
+NetworkGeoPositionObject
 (
 xhr
 .
@@ -2204,7 +2204,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-WifiGeoPositionProvider
+NetworkGeolocationProvider
 "
 ]
 ;
