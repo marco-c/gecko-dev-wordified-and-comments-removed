@@ -1328,6 +1328,7 @@ installPackage
 "
 version2_2_make_it_unusable
 "
+true
 )
 ;
 }
