@@ -2369,7 +2369,7 @@ aOutIndex
 )
 ;
 static
-nsresult
+int32_t
 FindInsertionPoint
 (
 const
@@ -2399,9 +2399,6 @@ const
 nsRange
 &
 )
-int32_t
-*
-aInsertionPoint
 )
 ;
 bool
