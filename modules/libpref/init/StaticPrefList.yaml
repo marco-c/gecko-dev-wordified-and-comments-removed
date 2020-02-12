@@ -10379,14 +10379,12 @@ mirror
 :
 always
 #
-Whether
+Enable
 the
 form
 .
 requestSubmit
 API
-is
-enabled
 -
 name
 :
@@ -10402,7 +10400,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+true
 mirror
 :
 always
