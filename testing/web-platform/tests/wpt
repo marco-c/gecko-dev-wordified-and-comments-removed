@@ -26,6 +26,7 @@ sys
 import
 version_info
 argv
+exit
 args
 extra
 =
@@ -54,6 +55,8 @@ from
 subprocess
 import
 call
+exit
+(
 call
 (
 [
@@ -73,6 +76,7 @@ command
 ]
 +
 extra
+)
 )
 else
 :
