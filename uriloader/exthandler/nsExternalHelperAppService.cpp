@@ -6988,6 +6988,11 @@ mContentLength
 )
 ;
 }
+if
+(
+mBrowsingContext
+)
+{
 mMaybeCloseWindowHelper
 =
 new
@@ -7061,6 +7066,7 @@ tmp
 ;
 }
 }
+}
 if
 (
 aChannel
@@ -7089,6 +7095,9 @@ if
 XRE_IsContentProcess
 (
 )
+&
+&
+mMaybeCloseWindowHelper
 )
 {
 mBrowsingContext

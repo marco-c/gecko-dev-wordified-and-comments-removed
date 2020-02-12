@@ -401,6 +401,11 @@ internalReferrer
 referrer
 )
 ;
+if
+(
+aContext
+)
+{
 WindowGlobalParent
 *
 parent
@@ -472,6 +477,7 @@ SetPrivate
 isPrivate
 )
 ;
+}
 }
 }
 helperAppService
