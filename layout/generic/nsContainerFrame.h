@@ -518,7 +518,7 @@ ReflowChild
 (
 nsIFrame
 *
-aChildFrame
+aKidFrame
 nsPresContext
 *
 aPresContext
