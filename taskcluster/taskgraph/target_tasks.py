@@ -2956,6 +2956,19 @@ build_platform
 '
 )
         
+test_platform
+=
+task
+.
+attributes
+.
+get
+(
+'
+test_platform
+'
+)
+        
 attributes
 =
 task
@@ -3011,6 +3024,25 @@ raptor_try_name
 '
 )
 :
+            
+if
+'
+-
+p2
+'
+in
+test_platform
+and
+'
+-
+arm7
+'
+in
+test_platform
+:
+                
+return
+False
             
 return
 True
