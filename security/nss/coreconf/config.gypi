@@ -869,6 +869,12 @@ disable_werror
 :
 0
 '
+disable_altivec
+%
+'
+:
+0
+'
 mozilla_client
 %
 '

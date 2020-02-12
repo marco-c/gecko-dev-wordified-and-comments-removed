@@ -6238,6 +6238,8 @@ CPU_ARCH
 )
 ppc
 )
+ifndef
+NSS_DISABLE_ALTIVEC
 (
 OBJDIR
 )
@@ -6303,6 +6305,7 @@ mcrypto
 maltivec
 -
 mvsx
+endif
 endif
 (
 OBJDIR
