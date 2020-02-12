@@ -3381,7 +3381,7 @@ FindInsertionPoint
 const
 nsTArray
 <
-RangeData
+StyledRange
 >
 *
 aElementArray
@@ -3556,7 +3556,7 @@ Selection
 :
 SubtractRange
 (
-RangeData
+StyledRange
 *
 aRange
 nsRange
@@ -3564,7 +3564,7 @@ nsRange
 aSubtract
 nsTArray
 <
-RangeData
+StyledRange
 >
 *
 aOutput
@@ -3721,15 +3721,17 @@ aOutput
 InsertElementAt
 (
 0
-RangeData
+StyledRange
 (
 postOverlap
 )
 )
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 (
 *
 aOutput
@@ -3828,15 +3830,17 @@ aOutput
 InsertElementAt
 (
 0
-RangeData
+StyledRange
 (
 preOverlap
 )
 )
 )
+{
 return
 NS_ERROR_OUT_OF_MEMORY
 ;
+}
 (
 *
 aOutput
@@ -4470,7 +4474,7 @@ mRanges
 .
 AppendElement
 (
-RangeData
+StyledRange
 (
 aRange
 )
@@ -4624,7 +4628,7 @@ mRanges
 InsertElementAt
 (
 startIndex
-RangeData
+StyledRange
 (
 aRange
 )
@@ -4654,7 +4658,7 @@ NS_OK
 }
 nsTArray
 <
-RangeData
+StyledRange
 >
 overlaps
 ;
@@ -4747,7 +4751,7 @@ startIndex
 ;
 nsTArray
 <
-RangeData
+StyledRange
 >
 temp
 ;
@@ -4836,7 +4840,7 @@ temp
 InsertElementAt
 (
 insertionPoint
-RangeData
+StyledRange
 (
 aRange
 )
@@ -7632,7 +7636,7 @@ mSelectionType
 =
 aSelectionType
 ;
-RangeData
+StyledRange
 *
 rd
 =
@@ -7992,7 +7996,7 @@ aLimiter
 ;
 }
 }
-RangeData
+StyledRange
 *
 Selection
 :
@@ -8074,7 +8078,7 @@ NS_ENSURE_ARG_POINTER
 aRange
 )
 ;
-RangeData
+StyledRange
 *
 rd
 =
@@ -10532,7 +10536,7 @@ aIndex
 )
 const
 {
-RangeData
+StyledRange
 empty
 (
 nullptr
@@ -14146,7 +14150,7 @@ nullptr
 ;
 for
 (
-RangeData
+StyledRange
 &
 rangeData
 :
