@@ -131,6 +131,16 @@ keepAtoms
 Directives
 directives
 ;
+JS
+:
+:
+Rooted
+<
+JSScript
+*
+>
+script
+;
 UsedNameTracker
 usedNames
 ;
@@ -208,6 +218,10 @@ options
 forceStrictMode
 (
 )
+)
+script
+(
+cx
 )
 usedNames
 (
