@@ -4671,9 +4671,6 @@ FireEventForAccessibility
 HTMLInputElement
 *
 aTarget
-nsPresContext
-*
-aPresContext
 EventMessage
 aEventMessage
 )
@@ -17031,9 +17028,6 @@ NS_FORM_INPUT_CHECKBOX
 FireEventForAccessibility
 (
 this
-aVisitor
-.
-mPresContext
 eFormCheckboxStateChange
 )
 ;
@@ -17043,9 +17037,6 @@ else
 FireEventForAccessibility
 (
 this
-aVisitor
-.
-mPresContext
 eFormRadioStateChange
 )
 ;
@@ -17082,9 +17073,6 @@ previous
 FireEventForAccessibility
 (
 previous
-aVisitor
-.
-mPresContext
 eFormRadioStateChange
 )
 ;
@@ -25509,9 +25497,6 @@ FireEventForAccessibility
 HTMLInputElement
 *
 aTarget
-nsPresContext
-*
-aPresContext
 EventMessage
 aEventMessage
 )
