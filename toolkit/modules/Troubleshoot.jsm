@@ -339,6 +339,13 @@ homepage
 "
 browser
 .
+startup
+.
+page
+"
+"
+browser
+.
 tabs
 .
 "
