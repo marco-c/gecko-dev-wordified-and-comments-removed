@@ -8828,6 +8828,11 @@ indexedDB
 1
 ;
 bool
+isSecureContext
+:
+1
+;
+bool
 rtcIdentityProvider
 :
 1
@@ -9089,6 +9094,10 @@ sameZoneAs
 (
 cx
 )
+forceSecureContext
+(
+false
+)
 freshCompartment
 (
 false
@@ -9159,6 +9168,9 @@ JS
 :
 RootedObject
 sameZoneAs
+;
+bool
+forceSecureContext
 ;
 bool
 freshCompartment
