@@ -1514,7 +1514,7 @@ args
 errorNumber
 )
 ;
-ReportCompileError
+ReportCompileErrorLatin1
 (
 ts
 .
