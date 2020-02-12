@@ -207,16 +207,12 @@ Selection
 ;
 public
 :
-Selection
-(
-)
-;
 explicit
 Selection
 (
 nsFrameSelection
 *
-aList
+aFrameSelection
 )
 ;
 MOZ_DECLARE_WEAKREFERENCE_TYPENAME
