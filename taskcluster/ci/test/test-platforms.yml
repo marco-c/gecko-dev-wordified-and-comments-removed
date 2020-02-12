@@ -2057,7 +2057,7 @@ macosx1014
 -
 ccov
 /
-debug
+opt
 :
 build
 -
@@ -2067,7 +2067,7 @@ macosx64
 -
 ccov
 /
-debug
+opt
 test
 -
 sets
