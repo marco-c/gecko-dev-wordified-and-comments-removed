@@ -3604,6 +3604,15 @@ if
 this
 .
 _restoreFocus
+&
+&
+this
+.
+window
+.
+docShell
+.
+isActive
 )
 {
 this

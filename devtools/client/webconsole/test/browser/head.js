@@ -366,6 +366,7 @@ url
 clearJstermHistory
 =
 true
+hostId
 )
 {
 const
@@ -378,6 +379,7 @@ url
 "
 webconsole
 "
+hostId
 )
 ;
 const
