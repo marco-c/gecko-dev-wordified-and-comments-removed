@@ -232,12 +232,6 @@ features
 =
 [
 "
-release_max_level_info
-"
-"
-release_max_level_warn
-"
-"
 std
 "
 ]
