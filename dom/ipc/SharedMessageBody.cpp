@@ -173,6 +173,18 @@ MOZ_ASSERT
 aRefMessageBodyService
 )
 ;
+JS
+:
+:
+CloneDataPolicy
+cloneDataPolicy
+;
+cloneDataPolicy
+.
+allowIntraClusterClonableSharedObjects
+(
+)
+;
 mCloneData
 =
 MakeUnique
@@ -201,6 +213,7 @@ Write
 aCx
 aValue
 aTransfers
+cloneDataPolicy
 aRv
 )
 ;
