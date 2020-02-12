@@ -548,7 +548,6 @@ classNames
 [
 CEReactions
 Throws
-Pure
 ]
 Element
 ?
