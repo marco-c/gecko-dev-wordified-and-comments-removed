@@ -778,6 +778,33 @@ False
 )
         
 if
+kwargs
+[
+"
+install_fonts
+"
+]
+is
+None
+:
+            
+kwargs
+[
+"
+install_fonts
+"
+]
+=
+True
+        
+if
+kwargs
+[
+"
+install_fonts
+"
+]
+and
 mozinfo
 .
 info
@@ -814,9 +841,6 @@ self
 setup_fonts_firefox
 (
 )
-        
-else
-:
             
 kwargs
 [
@@ -825,7 +849,7 @@ install_fonts
 "
 ]
 =
-True
+False
         
 kwargs
 =
