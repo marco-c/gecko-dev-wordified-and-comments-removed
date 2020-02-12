@@ -742,6 +742,15 @@ SelectionType
 aSelectionType
 )
 ;
+bool
+IsValidSelectionPoint
+(
+nsINode
+*
+aNode
+)
+const
+;
 static
 nsIFrame
 *
