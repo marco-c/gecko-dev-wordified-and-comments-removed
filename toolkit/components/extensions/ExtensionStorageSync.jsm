@@ -4697,11 +4697,6 @@ item
 if
 (
 oldRecord
-&
-&
-oldRecord
-.
-data
 )
 {
 changes
