@@ -420,6 +420,17 @@ GetAgentClusterId
 const
 ;
 virtual
+bool
+IsSharedMemoryAllowed
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
 mozilla
 :
 :
