@@ -207,7 +207,7 @@ namespace
 jit
 {
 class
-IonBuilder
+IonCompileTask
 ;
 }
 namespace
@@ -318,12 +318,12 @@ Vector
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
 0
 SystemAllocPolicy
 >
-IonBuilderVector
+IonCompileTaskVector
 ;
 typedef
 Vector
@@ -423,7 +423,7 @@ unregisterThread
 ;
 private
 :
-IonBuilderVector
+IonCompileTaskVector
 ionWorklist_
 ionFinishedList_
 ionFreeList_
@@ -718,7 +718,7 @@ popBack
 )
 ;
 }
-IonBuilderVector
+IonCompileTaskVector
 &
 ionWorklist
 (
@@ -731,7 +731,7 @@ return
 ionWorklist_
 ;
 }
-IonBuilderVector
+IonCompileTaskVector
 &
 ionFinishedList
 (
@@ -744,7 +744,7 @@ return
 ionFinishedList_
 ;
 }
-IonBuilderVector
+IonCompileTaskVector
 &
 ionFreeList
 (
@@ -1072,7 +1072,7 @@ AutoLockHelperThreadState
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
 highestPriorityPendingIonCompile
 (
@@ -1430,7 +1430,7 @@ Variant
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
 wasm
 :
@@ -1494,9 +1494,9 @@ isNothing
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
-ionBuilder
+ionCompileTask
 (
 )
 {
@@ -1506,7 +1506,7 @@ maybeCurrentTaskAs
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
 >
 (
@@ -1969,9 +1969,9 @@ StartOffThreadIonCompile
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
-builder
+task
 const
 AutoLockHelperThreadState
 &
@@ -1984,9 +1984,9 @@ StartOffThreadIonFree
 jit
 :
 :
-IonBuilder
+IonCompileTask
 *
-builder
+task
 const
 AutoLockHelperThreadState
 &
