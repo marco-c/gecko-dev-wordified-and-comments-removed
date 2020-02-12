@@ -298,7 +298,9 @@ setBoolPref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 scan
 "

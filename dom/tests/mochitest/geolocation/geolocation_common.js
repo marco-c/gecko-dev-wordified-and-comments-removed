@@ -85,9 +85,11 @@ set
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 uri
 ]
@@ -300,7 +302,9 @@ set
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 debug
 .

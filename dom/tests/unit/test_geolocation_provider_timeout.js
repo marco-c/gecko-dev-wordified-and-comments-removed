@@ -152,9 +152,11 @@ setCharPref
 "
 geo
 .
-wifi
+provider
 .
-uri
+network
+.
+url
 "
 "
 http
@@ -202,7 +204,9 @@ setBoolPref
 "
 geo
 .
-wifi
+provider
+.
+network
 .
 scan
 "
@@ -218,9 +222,9 @@ setIntPref
 "
 geo
 .
-wifi
+provider
 .
-xhr
+network
 .
 timeout
 "
