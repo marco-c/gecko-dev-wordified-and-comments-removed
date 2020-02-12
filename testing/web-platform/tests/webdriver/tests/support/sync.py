@@ -435,8 +435,10 @@ condition
 Any
 exceptions
 not
+in
+this
+list
             
-whitelisted
 will
 be
 allowed
@@ -444,7 +446,6 @@ to
 propagate
 terminating
 the
-            
 wait
 .
         
