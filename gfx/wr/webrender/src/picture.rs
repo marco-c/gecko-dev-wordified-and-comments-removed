@@ -3153,8 +3153,12 @@ ctx
 local_rect
 )
 .
-unwrap
+unwrap_or_else
 (
+PictureRect
+:
+:
+zero
 )
 ;
 self
