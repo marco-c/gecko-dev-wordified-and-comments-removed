@@ -256,11 +256,6 @@ do_QueryObject
 this
 )
 ;
-MOZ_ASSERT
-(
-this
-)
-;
 nsILoadContext
 *
 loadContext
