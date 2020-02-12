@@ -5216,6 +5216,17 @@ mResponseCode
 1
 )
 {
+mChannel
+-
+>
+SetContentType
+(
+NS_LITERAL_CSTRING
+(
+APPLICATION_OCTET_STREAM
+)
+)
+;
 Telemetry
 :
 :
