@@ -2,7 +2,7 @@
 define
 API_VERSION_NUMBER
 3
-0
+1
 0
 0
 #
@@ -11,7 +11,7 @@ API_VERSION_NUMBER_STR
 "
 3
 .
-0
+1
 .
 0
 "
@@ -19,8 +19,8 @@ API_VERSION_NUMBER_STR
 define
 PROJECT_VERSION_NUMBER
 0
-4
-0
+5
+2
 0
 #
 define
@@ -28,9 +28,9 @@ PROJECT_VERSION_NUMBER_STR
 "
 0
 .
-4
+5
 .
-0
+2
 "
 #
 include

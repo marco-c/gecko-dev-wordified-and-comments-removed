@@ -364,9 +364,6 @@ h
 ;
 }
 }
-#
-if
-ARCH_AARCH64
 void
 dav1d_sgr_box3_h_neon
 (
@@ -645,7 +642,7 @@ NULL
 lpf
 lpf_stride
 w
-1
+2
 edges
 )
 ;
@@ -1669,8 +1666,6 @@ h
 }
 #
 endif
-#
-endif
 COLD
 void
 bitfn
@@ -1716,9 +1711,6 @@ wiener
 =
 wiener_filter_neon
 ;
-#
-if
-ARCH_AARCH64
 c
 -
 >
@@ -1726,8 +1718,6 @@ selfguided
 =
 sgr_filter_neon
 ;
-#
-endif
 #
 endif
 }

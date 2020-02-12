@@ -144,9 +144,6 @@ BITDEPTH
 =
 =
 8
-&
-&
-ARCH_AARCH64
 c
 -
 >
@@ -207,6 +204,9 @@ VERT_PRED
 =
 dav1d_ipred_v_neon
 ;
+#
+if
+ARCH_AARCH64
 c
 -
 >
@@ -328,6 +328,8 @@ pal_pred
 =
 dav1d_pal_pred_neon
 ;
+#
+endif
 #
 endif
 }

@@ -2848,10 +2848,14 @@ dav1d_sgr_params
 ;
 const
 uint8_t
+ALIGN
+(
 dav1d_sgr_x_by_x
 [
 256
 ]
+16
+)
 =
 {
 255

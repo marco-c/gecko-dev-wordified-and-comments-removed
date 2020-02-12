@@ -10420,7 +10420,7 @@ gb
 ;
 const
 enum
-ObuType
+Dav1dObuType
 type
 =
 dav1d_get_bits
@@ -10608,13 +10608,13 @@ if
 type
 !
 =
-OBU_SEQ_HDR
+DAV1D_OBU_SEQ_HDR
 &
 &
 type
 !
 =
-OBU_TD
+DAV1D_OBU_TD
 &
 &
 has_extension
@@ -10686,7 +10686,7 @@ type
 )
 {
 case
-OBU_SEQ_HDR
+DAV1D_OBU_SEQ_HDR
 :
 {
 Dav1dRef
@@ -10974,7 +10974,7 @@ break
 ;
 }
 case
-OBU_REDUNDANT_FRAME_HDR
+DAV1D_OBU_REDUNDANT_FRAME_HDR
 :
 if
 (
@@ -10986,10 +10986,10 @@ frame_hdr
 break
 ;
 case
-OBU_FRAME
+DAV1D_OBU_FRAME
 :
 case
-OBU_FRAME_HDR
+DAV1D_OBU_FRAME_HDR
 :
 if
 (
@@ -11189,7 +11189,7 @@ if
 type
 !
 =
-OBU_FRAME
+DAV1D_OBU_FRAME
 )
 {
 dav1d_get_bits
@@ -11321,7 +11321,7 @@ if
 type
 !
 =
-OBU_FRAME
+DAV1D_OBU_FRAME
 )
 break
 ;
@@ -11354,7 +11354,7 @@ gb
 )
 ;
 case
-OBU_TILE_GRP
+DAV1D_OBU_TILE_GRP
 :
 {
 if
@@ -11770,7 +11770,7 @@ break
 ;
 }
 case
-OBU_METADATA
+DAV1D_OBU_METADATA
 :
 {
 const
@@ -12442,10 +12442,10 @@ break
 ;
 }
 case
-OBU_PADDING
+DAV1D_OBU_PADDING
 :
 case
-OBU_TD
+DAV1D_OBU_TD
 :
 break
 ;

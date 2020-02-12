@@ -562,6 +562,7 @@ dependencies
 :
 [
 thread_dependency
+rt_dependency
 m_lib
 ]
 )
