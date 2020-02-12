@@ -43428,14 +43428,12 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 {
 sourceDescription
 }
 "
-)
 )
 ;
                   
@@ -43496,14 +43494,12 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 {
 sourceDescription
 }
 "
-)
 )
 ;
                   

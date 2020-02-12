@@ -273,12 +273,10 @@ ThrowTypeError
 MSG_INVALID_URL_SCHEME
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 Request
 "
-)
 aUrl
 )
 ;

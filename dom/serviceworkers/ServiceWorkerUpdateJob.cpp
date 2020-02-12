@@ -886,12 +886,10 @@ NS_ConvertUTF8toUTF16
 (
 mScope
 )
-NS_LITERAL_STRING
-(
+u
 "
 uninstalled
 "
-)
 )
 ;
 FailUpdateJob
@@ -948,12 +946,10 @@ NS_ConvertUTF8toUTF16
 (
 mScope
 )
-NS_LITERAL_STRING
-(
+u
 "
 changed
 "
-)
 )
 ;
 FailUpdateJob

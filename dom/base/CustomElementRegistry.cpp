@@ -3569,8 +3569,7 @@ ThrowTypeError
 MSG_NOT_CONSTRUCTOR
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 Argument
 2
@@ -3579,7 +3578,6 @@ CustomElementRegistry
 .
 define
 "
-)
 )
 ;
 return
@@ -4099,8 +4097,7 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-NS_LITERAL_STRING
-(
+u
 "
 CustomElementRegistry
 .
@@ -4110,7 +4107,6 @@ constructor
 .
 prototype
 "
-)
 )
 ;
 return
