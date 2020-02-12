@@ -145,8 +145,6 @@ changes__declaration
 className
 }
 }
-"
-"
 dom
 .
 span
