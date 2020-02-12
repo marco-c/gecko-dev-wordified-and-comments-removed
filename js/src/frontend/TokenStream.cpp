@@ -3266,7 +3266,7 @@ computeErrorMetadataNoOffset
 metadata
 )
 ;
-ReportCompileError
+ReportCompileErrorLatin1
 (
 cx
 std
@@ -5372,7 +5372,7 @@ badUnitsStr
 break
 ;
 }
-ReportCompileError
+ReportCompileErrorLatin1
 (
 anyChars
 .
