@@ -49,6 +49,7 @@ true
 }
 onload
 =
+async
 function
 (
 )
@@ -91,6 +92,15 @@ body
 appendChild
 (
 portal
+)
+;
+await
+nextEvent
+(
+portal
+'
+load
+'
 )
 ;
 let
@@ -167,6 +177,7 @@ activate
 )
 ;
 }
+;
 <
 /
 script
