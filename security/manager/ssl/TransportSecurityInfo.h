@@ -132,6 +132,8 @@ psm
 enum
 class
 EVStatus
+:
+uint8_t
 {
 NotEV
 =
