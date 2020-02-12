@@ -672,7 +672,9 @@ FIS
 (
 file
 PR_RDONLY
+"
 0644
+"
 Ci
 .
 nsIFileInputStream
@@ -727,7 +729,9 @@ FIS
 (
 file
 PR_RDONLY
+"
 0644
+"
 Ci
 .
 nsIFileInputStream
@@ -751,7 +755,6 @@ codePoints
 )
 {
 var
-sz
 currIndex
 =
 0

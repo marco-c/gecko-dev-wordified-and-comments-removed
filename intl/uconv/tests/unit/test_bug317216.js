@@ -483,12 +483,16 @@ nsIUnicharLineInputStream
 )
 {
 throw
+new
+Error
+(
 "
 not
 line
 input
 stream
 "
+)
 ;
 }
 var

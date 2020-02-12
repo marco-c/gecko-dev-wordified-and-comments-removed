@@ -241,6 +241,7 @@ pos
 pos
 )
 {
+let
 outPos
 =
 outLen
@@ -263,6 +264,7 @@ outPos
 0
 ;
 }
+let
 c0
 =
 inString
@@ -272,6 +274,7 @@ charCodeAt
 0
 )
 ;
+let
 c1
 =
 inString
@@ -281,6 +284,7 @@ charCodeAt
 1
 )
 ;
+let
 c2
 =
 inString
@@ -290,6 +294,7 @@ charCodeAt
 2
 )
 ;
+let
 c3
 =
 inString
