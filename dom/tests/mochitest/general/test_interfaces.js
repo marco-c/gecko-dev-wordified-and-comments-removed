@@ -5056,6 +5056,16 @@ true
 name
 :
 "
+SubmitEvent
+"
+insecureContext
+:
+true
+}
+{
+name
+:
+"
 SVGAElement
 "
 insecureContext

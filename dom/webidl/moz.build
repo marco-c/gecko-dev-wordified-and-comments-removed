@@ -6276,6 +6276,11 @@ StyleSheetApplicableStateChangeEvent
 webidl
 '
 '
+SubmitEvent
+.
+webidl
+'
+'
 TCPServerSocketEvent
 .
 webidl
