@@ -84,6 +84,7 @@ include
 CacheTypes
 ;
 using
+moveonly
 mozilla
 :
 :

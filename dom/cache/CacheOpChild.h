@@ -132,8 +132,8 @@ ipc
 IPCResult
 Recv__delete__
 (
-const
 ErrorResult
+&
 &
 aRv
 const

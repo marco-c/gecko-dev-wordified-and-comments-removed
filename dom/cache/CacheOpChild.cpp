@@ -424,8 +424,8 @@ CacheOpChild
 :
 Recv__delete__
 (
-const
 ErrorResult
+&
 &
 aRv
 const
@@ -471,14 +471,7 @@ mPromise
 >
 MaybeReject
 (
-const_cast
-<
-ErrorResult
-&
->
-(
 aRv
-)
 )
 ;
 mPromise
