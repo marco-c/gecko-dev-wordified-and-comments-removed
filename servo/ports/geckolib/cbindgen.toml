@@ -2147,13 +2147,6 @@ const
 ;
 inline
 bool
-IsFromFont
-(
-)
-const
-;
-inline
-bool
 IsUnder
 (
 )

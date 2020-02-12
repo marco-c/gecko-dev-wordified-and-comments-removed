@@ -16695,7 +16695,7 @@ Zero
 )
 mTextUnderlineOffset
 (
-LengthPercentageOrAuto
+StyleTextDecorationLength
 :
 :
 Auto

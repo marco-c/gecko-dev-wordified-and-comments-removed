@@ -527,6 +527,12 @@ type
 for
 text
 -
+underline
+-
+offset
+and
+text
+-
 decoration
 -
 thickness
@@ -534,7 +540,7 @@ thickness
 /
 /
 which
-takes
+take
 the
 grammar
 of
@@ -546,10 +552,6 @@ font
 |
 <
 length
->
-|
-<
-percentage
 >
 /
 /
@@ -634,7 +636,7 @@ GenericTextDecorationLength
 L
 >
 {
-LengthPercentage
+Length
 (
 L
 )

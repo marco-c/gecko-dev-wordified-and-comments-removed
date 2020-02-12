@@ -3229,7 +3229,7 @@ const
 mozilla
 :
 :
-LengthPercentageOrAuto
+StyleTextDecorationLength
 mTextUnderlineOffset
 ;
 const
@@ -3270,7 +3270,7 @@ const
 mozilla
 :
 :
-LengthPercentageOrAuto
+StyleTextDecorationLength
 &
 aUnderlineOffset
 const
