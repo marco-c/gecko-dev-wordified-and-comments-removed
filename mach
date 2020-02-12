@@ -184,11 +184,6 @@ firefox
 ui
 -
 functional
-fluent
--
-migration
--
-test
 geckodriver
 geckodriver
 -
