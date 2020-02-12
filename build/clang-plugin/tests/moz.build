@@ -252,6 +252,11 @@ TestNonTemporaryClass
 cpp
 '
 '
+TestNonTrivialTypeInFfi
+.
+cpp
+'
+'
 TestNoRefcountedInsideLambdas
 .
 cpp
