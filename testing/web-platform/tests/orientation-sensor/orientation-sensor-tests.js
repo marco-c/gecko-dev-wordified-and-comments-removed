@@ -197,15 +197,11 @@ Float32Array
 )
 )
 ;
-assert_throws
+assert_throws_dom
 (
-{
-name
-:
 '
 NotReadableError
 '
-}
 (
 )
 =
