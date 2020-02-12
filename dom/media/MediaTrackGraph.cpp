@@ -233,6 +233,15 @@ h
 #
 include
 "
+mozilla
+/
+CycleCollectedJSRuntime
+.
+h
+"
+#
+include
+"
 webaudio
 /
 blink
@@ -5515,6 +5524,9 @@ mProcessedTime
 mStateComputedTime
 )
 {
+nsAutoMicroTask
+mt
+;
 GraphTime
 next
 =
