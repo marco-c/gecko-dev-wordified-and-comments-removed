@@ -2742,7 +2742,6 @@ ModuleBuilder
 builder
 (
 cx
-module
 parser
 .
 ptr
@@ -2873,6 +2872,7 @@ builder
 .
 initModule
 (
+module
 )
 )
 {

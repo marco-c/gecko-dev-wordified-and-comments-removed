@@ -6633,8 +6633,6 @@ ModuleBuilder
 JSContext
 *
 cx
-HandleModuleObject
-module
 const
 frontend
 :
@@ -6647,11 +6645,6 @@ eitherParser
 cx_
 (
 cx
-)
-module_
-(
-cx
-module
 )
 eitherParser_
 (
@@ -6992,6 +6985,15 @@ ModuleBuilder
 :
 initModule
 (
+JS
+:
+:
+Handle
+<
+ModuleObject
+*
+>
+module
 )
 {
 RootedArrayObject
@@ -7110,7 +7112,7 @@ return
 false
 ;
 }
-module_
+module
 -
 >
 initImportExportData
