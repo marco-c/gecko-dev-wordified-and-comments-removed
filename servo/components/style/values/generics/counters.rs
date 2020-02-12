@@ -656,9 +656,6 @@ ImageUrl
 inline
 ]
 pub
-(
-crate
-)
 fn
 is_items
 (
