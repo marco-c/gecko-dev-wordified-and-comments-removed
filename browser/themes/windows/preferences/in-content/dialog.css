@@ -18,7 +18,8 @@ dialog
 inc
 .
 css
-dialog
+:
+root
 >
 *
 {
