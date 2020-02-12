@@ -1319,7 +1319,7 @@ void
 nsINode
 :
 :
-UnsetProperty
+TakeProperty
 (
 const
 nsAtom
@@ -1340,7 +1340,7 @@ PropertyTable
 (
 )
 .
-UnsetProperty
+TakeProperty
 (
 this
 aPropertyName

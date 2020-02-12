@@ -2615,7 +2615,7 @@ aPropertyName
 ;
 void
 *
-UnsetProperty
+TakeProperty
 (
 const
 nsAtom

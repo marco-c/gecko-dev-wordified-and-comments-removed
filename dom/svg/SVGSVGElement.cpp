@@ -2556,7 +2556,7 @@ void
 *
 valPtr
 =
-UnsetProperty
+TakeProperty
 (
 nsGkAtoms
 :

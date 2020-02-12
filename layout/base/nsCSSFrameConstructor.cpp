@@ -22318,7 +22318,7 @@ nsGenConInitializer
 aContent
 -
 >
-UnsetProperty
+TakeProperty
 (
 nsGkAtoms
 :
