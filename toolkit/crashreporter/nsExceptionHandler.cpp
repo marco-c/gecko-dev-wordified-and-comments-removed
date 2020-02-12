@@ -3245,6 +3245,7 @@ buf
 ;
 }
 PlatformWriter
+&
 mWriter
 ;
 bool
