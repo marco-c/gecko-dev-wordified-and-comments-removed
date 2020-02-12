@@ -293,7 +293,7 @@ principal
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void

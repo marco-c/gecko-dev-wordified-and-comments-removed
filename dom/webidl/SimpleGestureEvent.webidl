@@ -948,11 +948,7 @@ events
 *
 /
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

@@ -2540,16 +2540,6 @@ namespace
 dom
 {
 bool
-IsChromeOrXBL
-(
-JSContext
-*
-cx
-JSObject
-*
-)
-;
-bool
 IsNotUAWidget
 (
 JSContext
@@ -2560,7 +2550,7 @@ JSObject
 )
 ;
 bool
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 (
 JSContext
 *
@@ -2570,7 +2560,7 @@ JSObject
 )
 ;
 bool
-ThreadSafeIsChromeOrXBLOrUAWidget
+ThreadSafeIsChromeOrUAWidget
 (
 JSContext
 *

@@ -5455,7 +5455,7 @@ ContentPrincipal
 (
 )
 ;
-ContentPrincipal
+auto
 *
 contentPrincipal
 =

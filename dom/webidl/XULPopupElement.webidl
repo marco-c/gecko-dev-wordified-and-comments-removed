@@ -5,9 +5,7 @@
 -
 Mode
 :
-C
-+
-+
+IDL
 ;
 tab
 -
@@ -193,11 +191,7 @@ OpenPopupOptions
 StringOrOpenPopupOptions
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

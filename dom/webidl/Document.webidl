@@ -1415,7 +1415,7 @@ etc
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 readonly
@@ -2750,14 +2750,10 @@ default
 type
 .
 [
+ChromeOnly
 CEReactions
 NewObject
 Throws
-Func
-=
-"
-IsChromeOrXBL
-"
 ]
 Element
 createXULElement

@@ -1124,11 +1124,7 @@ to
 false
 .
 [
-Func
-=
-"
-IsChromeOrXBLOrUAWidget
-"
+ChromeOnly
 ]
 readonly
 attribute
@@ -1185,7 +1181,7 @@ element
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 NeedsSubjectPrincipal
 ]
@@ -1505,7 +1501,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -1532,7 +1528,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -1559,7 +1555,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -1580,7 +1576,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -1603,7 +1599,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -1624,7 +1620,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 BinaryName
 =
@@ -1650,7 +1646,7 @@ datetime
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 BinaryName
 =

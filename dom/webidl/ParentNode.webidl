@@ -157,11 +157,7 @@ long
 childElementCount
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 ]
 HTMLCollection
 getElementsByAttribute
@@ -178,12 +174,8 @@ value
 )
 ;
 [
+ChromeOnly
 Throws
-Func
-=
-"
-IsChromeOrXBL
-"
 ]
 HTMLCollection
 getElementsByAttributeNS

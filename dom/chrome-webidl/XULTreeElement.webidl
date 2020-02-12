@@ -117,11 +117,7 @@ childElt
 }
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

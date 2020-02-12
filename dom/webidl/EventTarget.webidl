@@ -174,7 +174,7 @@ group
 Func
 =
 "
-ThreadSafeIsChromeOrXBLOrUAWidget
+ThreadSafeIsChromeOrUAWidget
 "
 ]
 boolean

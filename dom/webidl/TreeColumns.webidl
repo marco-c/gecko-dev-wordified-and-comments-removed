@@ -57,11 +57,7 @@ MPL
 *
 /
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

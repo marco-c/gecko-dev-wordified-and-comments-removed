@@ -4205,11 +4205,7 @@ callback
 )
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 ]
 readonly
 attribute
@@ -4552,7 +4548,7 @@ HK
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 sequence
@@ -4683,7 +4679,7 @@ US
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 sequence
@@ -4717,7 +4713,7 @@ Throws
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 readonly

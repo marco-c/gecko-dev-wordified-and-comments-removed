@@ -366,7 +366,7 @@ Throws
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 Node
@@ -389,7 +389,7 @@ Throws
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 Node

@@ -5,9 +5,7 @@
 -
 Mode
 :
-C
-+
-+
+IDL
 ;
 tab
 -
@@ -100,11 +98,7 @@ interface
 nsIWebNavigation
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

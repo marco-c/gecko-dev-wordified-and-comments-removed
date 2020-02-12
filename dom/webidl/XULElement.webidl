@@ -95,11 +95,7 @@ interface
 XULControllers
 ;
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

@@ -1003,7 +1003,7 @@ the
 available
 DOM
 interfaces
-is
+are
 limited
 .
 For
@@ -1078,7 +1078,7 @@ for
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 and
 Func

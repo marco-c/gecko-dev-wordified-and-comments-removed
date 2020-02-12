@@ -760,7 +760,7 @@ issues
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 Pure
 BinaryName

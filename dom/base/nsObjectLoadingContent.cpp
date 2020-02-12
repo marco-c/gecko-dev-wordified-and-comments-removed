@@ -11751,15 +11751,6 @@ nsContentUtils
 IsCallerChrome
 (
 )
-&
-&
-!
-nsContentUtils
-:
-:
-IsCallerContentXBL
-(
-)
 )
 ;
 nsCOMPtr

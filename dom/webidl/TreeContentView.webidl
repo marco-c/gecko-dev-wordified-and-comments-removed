@@ -5,9 +5,7 @@
 -
 Mode
 :
-C
-+
-+
+IDL
 ;
 tab
 -
@@ -94,11 +92,7 @@ MPL
 *
 /
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

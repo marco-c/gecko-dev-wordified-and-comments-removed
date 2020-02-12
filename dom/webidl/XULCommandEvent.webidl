@@ -121,11 +121,7 @@ activation
 *
 /
 [
-Func
-=
-"
-IsChromeOrXBL
-"
+ChromeOnly
 Exposed
 =
 Window

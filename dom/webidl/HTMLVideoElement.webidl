@@ -436,7 +436,7 @@ orientation
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 readonly
@@ -473,7 +473,7 @@ orientation
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 attribute
@@ -579,7 +579,7 @@ Throws
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 Promise
@@ -625,7 +625,7 @@ place
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 void
@@ -663,7 +663,7 @@ cloneElementVisually
 Func
 =
 "
-IsChromeOrXBLOrUAWidget
+IsChromeOrUAWidget
 "
 ]
 readonly
