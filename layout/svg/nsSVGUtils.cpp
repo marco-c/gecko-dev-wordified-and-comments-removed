@@ -1710,7 +1710,7 @@ initPositionX
 initPositionY
 )
 ;
-SVGBBox
+gfxRect
 bbox
 =
 nsSVGUtils
