@@ -14393,7 +14393,7 @@ kMaxPixelsBattery
 {
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 *
 aOutGuardedByQualifiedPref
 =
@@ -14858,7 +14858,7 @@ kMaxPixelsBattery
 {
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 *
 aOutGuardedByQualifiedPref
 =
