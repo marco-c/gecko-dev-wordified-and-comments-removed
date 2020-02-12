@@ -4432,17 +4432,6 @@ BaseScript
 ImmutableFlags
 :
 :
-HasInnerFunctions
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 TreatAsRunOnce
 )
 ;
