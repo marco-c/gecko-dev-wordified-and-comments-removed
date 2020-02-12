@@ -101,6 +101,9 @@ Scope
 namespace
 frontend
 {
+struct
+BytecodeEmitter
+;
 class
 EmitterScope
 :

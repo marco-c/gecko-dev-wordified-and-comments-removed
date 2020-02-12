@@ -185,6 +185,11 @@ AbstractScope
 cpp
 '
 '
+BCEScriptStencil
+.
+cpp
+'
+'
 BytecodeCompiler
 .
 cpp
