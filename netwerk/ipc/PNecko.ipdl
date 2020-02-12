@@ -537,6 +537,10 @@ PDNSRequest
 (
 nsCString
 hostName
+nsCString
+trrServer
+uint16_t
+type
 OriginAttributes
 originAttributes
 uint32_t

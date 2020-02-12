@@ -213,6 +213,8 @@ CancelDNSRequest
 (
 nsCString
 hostName
+nsCString
+trrServer
 uint16_t
 type
 OriginAttributes
