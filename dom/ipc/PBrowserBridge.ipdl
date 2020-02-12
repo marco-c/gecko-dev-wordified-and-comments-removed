@@ -703,7 +703,7 @@ aIsUnderHiddenEmbedderElement
 )
 ;
 async
-SkipBrowsingContextDetach
+WillChangeProcess
 (
 )
 ;

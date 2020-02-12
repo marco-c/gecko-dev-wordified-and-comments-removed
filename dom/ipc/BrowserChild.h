@@ -2597,9 +2597,9 @@ ipc
 :
 :
 IPCResult
-RecvSkipBrowsingContextDetach
+RecvWillChangeProcess
 (
-SkipBrowsingContextDetachResolver
+WillChangeProcessResolver
 &
 &
 aResolve

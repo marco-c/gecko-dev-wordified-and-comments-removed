@@ -481,7 +481,7 @@ GetBrowsingContext
 mFrameLoader
 -
 >
-SkipBrowsingContextDetach
+SetWillChangeProcess
 (
 )
 ;

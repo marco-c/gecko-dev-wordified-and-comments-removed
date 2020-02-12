@@ -1179,7 +1179,7 @@ aGivenProto
 override
 ;
 void
-SkipBrowsingContextDetach
+SetWillChangeProcess
 (
 )
 ;
@@ -1584,6 +1584,11 @@ mRemoteBrowserShown
 ;
 bool
 mIsRemoteFrame
+:
+1
+;
+bool
+mWillChangeProcess
 :
 1
 ;

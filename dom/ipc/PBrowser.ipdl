@@ -6160,7 +6160,7 @@ aHandle
 )
 ;
 async
-SkipBrowsingContextDetach
+WillChangeProcess
 (
 )
 returns

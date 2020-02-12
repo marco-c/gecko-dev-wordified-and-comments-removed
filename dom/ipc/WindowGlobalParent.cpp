@@ -678,6 +678,17 @@ ipcinit
 }
 )
 ;
+if
+(
+!
+mBrowsingContext
+-
+>
+IsDiscarded
+(
+)
+)
+{
 mBrowsingContext
 -
 >
@@ -690,6 +701,7 @@ innerWindowId
 )
 )
 ;
+}
 nsCOMPtr
 <
 nsIObserverService

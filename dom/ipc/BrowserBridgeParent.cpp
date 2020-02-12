@@ -1019,7 +1019,7 @@ IPCResult
 BrowserBridgeParent
 :
 :
-RecvSkipBrowsingContextDetach
+RecvWillChangeProcess
 (
 )
 {
@@ -1029,7 +1029,7 @@ Unused
 mBrowserParent
 -
 >
-SendSkipBrowsingContextDetach
+SendWillChangeProcess
 (
 )
 ;

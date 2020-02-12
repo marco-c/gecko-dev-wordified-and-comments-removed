@@ -305,7 +305,7 @@ ipc
 :
 :
 IPCResult
-RecvSkipBrowsingContextDetach
+RecvWillChangeProcess
 (
 )
 ;

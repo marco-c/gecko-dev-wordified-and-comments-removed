@@ -1468,11 +1468,11 @@ MaybeClearStorageAccessFlag
 )
 ;
 void
-SkipBrowsingContextDetach
+SetWillChangeProcess
 (
 )
 {
-mSkipBrowsingContextDetachOnDestroy
+mWillChangeProcess
 =
 true
 ;
@@ -3803,7 +3803,7 @@ mIsFrame
 1
 ;
 bool
-mSkipBrowsingContextDetachOnDestroy
+mWillChangeProcess
 :
 1
 ;
