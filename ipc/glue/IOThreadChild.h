@@ -84,12 +84,14 @@ message_loop
 ;
 }
 static
+UniquePtr
+<
 IPC
 :
 :
 Channel
-*
-channel
+>
+TakeChannel
 (
 )
 {
@@ -105,7 +107,7 @@ current
 ChildThread
 :
 :
-channel
+TakeChannel
 (
 )
 ;

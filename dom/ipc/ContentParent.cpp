@@ -11827,7 +11827,7 @@ Open
 mSubprocess
 -
 >
-GetChannel
+TakeChannel
 (
 )
 procId

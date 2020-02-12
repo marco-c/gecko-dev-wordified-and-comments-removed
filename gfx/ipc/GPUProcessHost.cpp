@@ -606,7 +606,7 @@ mGPUChild
 >
 Open
 (
-GetChannel
+TakeChannel
 (
 )
 base

@@ -519,11 +519,13 @@ const
 char
 *
 aParentBuildID
+UniquePtr
+<
 IPC
 :
 :
 Channel
-*
+>
 aChannel
 uint64_t
 aChildID

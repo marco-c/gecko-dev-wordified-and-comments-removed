@@ -107,11 +107,13 @@ aParentPid
 MessageLoop
 *
 aIOLoop
+UniquePtr
+<
 IPC
 :
 :
 Channel
-*
+>
 aChannel
 )
 ;

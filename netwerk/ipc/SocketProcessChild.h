@@ -97,11 +97,13 @@ aParentBuildID
 MessageLoop
 *
 aIOLoop
+UniquePtr
+<
 IPC
 :
 :
 Channel
-*
+>
 aChannel
 )
 ;

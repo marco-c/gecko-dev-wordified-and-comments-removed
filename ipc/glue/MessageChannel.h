@@ -552,8 +552,10 @@ mListener
 bool
 Open
 (
+UniquePtr
+<
 Transport
-*
+>
 aTransport
 MessageLoop
 *

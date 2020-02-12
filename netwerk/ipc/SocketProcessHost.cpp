@@ -833,7 +833,7 @@ mSocketProcessParent
 >
 Open
 (
-GetChannel
+TakeChannel
 (
 )
 base

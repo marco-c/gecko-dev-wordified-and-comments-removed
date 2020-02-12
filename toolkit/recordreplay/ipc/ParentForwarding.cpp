@@ -1730,7 +1730,7 @@ Open
 gRecordingProcess
 -
 >
-GetChannel
+TakeChannel
 (
 )
 base
