@@ -792,6 +792,8 @@ components
 data
 .
 spocs
+.
+items
 [
 ]
 )
@@ -915,11 +917,15 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 1
 2
 3
 ]
+}
 }
 }
 }
@@ -1264,6 +1270,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -1272,6 +1281,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -1675,6 +1685,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -1683,6 +1696,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -2084,6 +2098,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -2095,6 +2112,7 @@ barSpoc
 lastSpoc
 "
 ]
+}
 }
 }
 ;
@@ -2484,6 +2502,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -2492,6 +2513,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -2834,6 +2856,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -2842,6 +2867,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -3242,6 +3268,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -3250,6 +3279,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -3593,6 +3623,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 "
 fooSpoc
@@ -3601,6 +3634,7 @@ fooSpoc
 barSpoc
 "
 ]
+}
 }
 }
 ;
@@ -6117,6 +6151,9 @@ spocs
 {
 spocs
 :
+{
+items
+:
 [
 {
 name
@@ -6137,6 +6174,7 @@ com
 "
 }
 ]
+}
 }
 }
 ;
