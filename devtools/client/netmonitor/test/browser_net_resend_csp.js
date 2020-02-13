@@ -175,14 +175,6 @@ click
 (
 )
 ;
-await
-performRequests
-(
-monitor
-tab
-1
-)
-;
 const
 selReq
 =
