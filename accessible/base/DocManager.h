@@ -367,8 +367,9 @@ virtual
 DocManager
 (
 )
-{
-}
+=
+default
+;
 bool
 Init
 (

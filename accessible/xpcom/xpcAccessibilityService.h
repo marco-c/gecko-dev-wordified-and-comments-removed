@@ -75,8 +75,8 @@ private
 xpcAccessibilityService
 (
 )
-{
-}
+=
+default
 ;
 nsCOMPtr
 <
