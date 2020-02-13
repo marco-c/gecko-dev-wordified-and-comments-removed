@@ -80,7 +80,7 @@ taskgraph
 .
 transforms
 .
-nightly_l10n_signing
+shippable_l10n_signing
 :
 transforms
 -
