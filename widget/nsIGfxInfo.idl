@@ -161,6 +161,11 @@ usingGPUProcess
 ;
 readonly
 attribute
+boolean
+hasBattery
+;
+readonly
+attribute
 AString
 DWriteVersion
 ;

@@ -515,6 +515,16 @@ return
 0
 ;
 }
+virtual
+uint32_t
+OperatingSystemBuild
+(
+)
+{
+return
+0
+;
+}
 static
 const
 nsCString
@@ -727,6 +737,9 @@ bool
 _retval
 )
 override
+;
+int64_t
+mScreenPixels
 ;
 private
 :
