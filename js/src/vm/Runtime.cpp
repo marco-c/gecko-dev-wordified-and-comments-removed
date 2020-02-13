@@ -1089,6 +1089,7 @@ atomsZone
 >
 init
 (
+true
 )
 )
 {
@@ -1103,15 +1104,6 @@ atomsZone
 atomsZone
 .
 release
-(
-)
-;
-gc
-.
-atomsZone
--
->
-setIsAtomsZone
 (
 )
 ;
