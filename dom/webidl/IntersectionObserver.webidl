@@ -278,14 +278,6 @@ takeRecords
 (
 )
 ;
-[
-ChromeOnly
-]
-readonly
-attribute
-IntersectionCallback
-intersectionCallback
-;
 }
 ;
 callback
