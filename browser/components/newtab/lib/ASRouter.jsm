@@ -3138,6 +3138,7 @@ id
 ;
 }
 }
+return
 this
 .
 setState
