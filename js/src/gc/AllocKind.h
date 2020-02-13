@@ -287,7 +287,7 @@ true
 D
 (
 LAZY_SCRIPT
-LazyScript
+Script
 js
 :
 :
