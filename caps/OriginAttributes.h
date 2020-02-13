@@ -59,8 +59,9 @@ public
 OriginAttributes
 (
 )
-{
-}
+=
+default
+;
 explicit
 OriginAttributes
 (
@@ -453,8 +454,9 @@ public
 OriginAttributesPattern
 (
 )
-{
-}
+=
+default
+;
 explicit
 OriginAttributesPattern
 (
