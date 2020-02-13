@@ -435,7 +435,7 @@ isClosed
 :
 PropTypes
 .
-func
+bool
 .
 isRequired
 closedConnectionDetails
