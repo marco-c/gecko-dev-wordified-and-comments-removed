@@ -10407,6 +10407,12 @@ NotifyIntersectionObservers
 (
 )
 ;
+DOMIntersectionObserver
+*
+GetLazyLoadImageObserver
+(
+)
+;
 nsresult
 Dispatch
 (
@@ -13109,6 +13115,12 @@ DOMIntersectionObserver
 >
 >
 mIntersectionObservers
+;
+RefPtr
+<
+DOMIntersectionObserver
+>
+mLazyLoadImageObserver
 ;
 nsTArray
 <
