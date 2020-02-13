@@ -127,9 +127,9 @@ version
 "
 0
 .
-7
+8
 .
-1
+0
 "
 authors
 =
@@ -211,9 +211,7 @@ version
 "
 0
 .
-7
-.
-1
+8
 "
 [
 dependencies
@@ -229,7 +227,7 @@ version
 "
 0
 .
-7
+8
 "
 optional
 =
@@ -250,7 +248,7 @@ version
 "
 0
 .
-7
+8
 "
 [
 features

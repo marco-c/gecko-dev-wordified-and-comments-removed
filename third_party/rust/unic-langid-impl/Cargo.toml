@@ -129,9 +129,9 @@ version
 "
 0
 .
-7
+8
 .
-2
+0
 "
 authors
 =
@@ -321,7 +321,7 @@ bench
 name
 =
 "
-add_likely_subtags
+likely_subtags
 "
 harness
 =

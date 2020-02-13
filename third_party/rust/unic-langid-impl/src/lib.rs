@@ -416,7 +416,7 @@ ParserError
 ;
 vars
 .
-sort
+sort_unstable
 (
 )
 ;
@@ -755,7 +755,7 @@ other_as_range
 }
 pub
 fn
-get_language
+language
 (
 &
 self
@@ -863,7 +863,7 @@ None
 }
 pub
 fn
-get_script
+script
 (
 &
 self
@@ -970,7 +970,7 @@ None
 }
 pub
 fn
-get_region
+region
 (
 &
 self
@@ -1077,7 +1077,7 @@ None
 }
 pub
 fn
-get_variants
+variants
 (
 &
 self
@@ -1242,7 +1242,7 @@ else
 {
 v
 .
-sort
+sort_unstable
 (
 )
 ;
@@ -1376,7 +1376,7 @@ likelysubtags
 ]
 pub
 fn
-add_likely_subtags
+maximize
 (
 &
 mut
@@ -1396,7 +1396,7 @@ new_li
 likelysubtags
 :
 :
-add_likely_subtags
+maximize
 (
 self
 .
@@ -1453,7 +1453,7 @@ likelysubtags
 ]
 pub
 fn
-remove_likely_subtags
+minimize
 (
 &
 mut
@@ -1473,7 +1473,7 @@ new_li
 likelysubtags
 :
 :
-remove_likely_subtags
+minimize
 (
 self
 .
@@ -1519,7 +1519,7 @@ false
 }
 pub
 fn
-get_character_direction
+character_direction
 (
 &
 self

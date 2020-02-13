@@ -47,7 +47,7 @@ unic_langid_impl
 LanguageIdentifier
 ;
 fn
-get_langid_to_direction_map
+langid_to_direction_map
 (
 path
 :
@@ -340,7 +340,7 @@ iter
 if
 langid
 .
-get_language
+language
 (
 )
 =
@@ -390,7 +390,7 @@ main
 let
 map
 =
-get_langid_to_direction_map
+langid_to_direction_map
 (
 path
 )
@@ -434,7 +434,7 @@ lang
 =
 langid
 .
-get_language
+language
 (
 )
 .

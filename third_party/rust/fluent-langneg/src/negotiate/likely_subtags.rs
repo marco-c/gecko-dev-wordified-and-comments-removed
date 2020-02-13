@@ -67,7 +67,7 @@ trait
 MockLikelySubtags
 {
 fn
-add_likely_subtags
+maximize
 (
 &
 mut
@@ -84,7 +84,7 @@ for
 LanguageIdentifier
 {
 fn
-add_likely_subtags
+maximize
 (
 &
 mut
@@ -209,7 +209,7 @@ lang
 =
 self
 .
-get_language
+language
 (
 )
 ;
@@ -275,7 +275,7 @@ set_language
 (
 langid
 .
-get_language
+language
 (
 )
 )
@@ -293,7 +293,7 @@ subtag
 =
 langid
 .
-get_script
+script
 (
 )
 {
@@ -327,7 +327,7 @@ subtag
 =
 langid
 .
-get_region
+region
 (
 )
 {

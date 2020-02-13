@@ -15,8 +15,8 @@ likelysubtags
 :
 :
 {
-add_likely_subtags
-remove_likely_subtags
+maximize
+minimize
 CLDR_VERSION
 }
 ;
@@ -1035,7 +1035,7 @@ unwrap
 test
 ]
 fn
-add_likely_subtags_test
+maximize_test
 (
 )
 {
@@ -1057,7 +1057,7 @@ i
 let
 result
 =
-add_likely_subtags
+maximize
 (
 chunks
 .
@@ -1108,7 +1108,7 @@ CLDR_VERSION
 test
 ]
 fn
-remove_likely_subtags_test
+minimize_test
 (
 )
 {
@@ -1149,7 +1149,7 @@ unwrap
 let
 result
 =
-remove_likely_subtags
+minimize
 (
 Some
 (
@@ -1233,7 +1233,7 @@ unwrap
 let
 result
 =
-remove_likely_subtags
+minimize
 (
 Some
 (

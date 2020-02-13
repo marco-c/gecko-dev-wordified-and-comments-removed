@@ -88,7 +88,7 @@ assert_eq
 (
 loc
 .
-get_language
+language
 (
 )
 language
@@ -106,7 +106,7 @@ assert_eq
 (
 loc
 .
-get_script
+script
 (
 )
 script
@@ -117,7 +117,7 @@ assert_eq
 (
 loc
 .
-get_region
+region
 (
 )
 region
@@ -128,7 +128,7 @@ assert_eq
 (
 loc
 .
-get_variants
+variants
 (
 )
 .
@@ -692,8 +692,6 @@ into_raw_parts
 let
 langid
 =
-unsafe
-{
 LanguageIdentifier
 :
 :
@@ -706,6 +704,8 @@ map
 |
 l
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -713,6 +713,7 @@ new_unchecked
 (
 l
 )
+}
 )
 script
 .
@@ -721,6 +722,8 @@ map
 |
 s
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -728,6 +731,7 @@ new_unchecked
 (
 s
 )
+}
 )
 region
 .
@@ -736,6 +740,8 @@ map
 |
 r
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -743,6 +749,7 @@ new_unchecked
 (
 r
 )
+}
 )
 variants
 .
@@ -751,6 +758,7 @@ map
 |
 v
 |
+{
 v
 .
 into_iter
@@ -762,6 +770,8 @@ map
 |
 v
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -770,14 +780,15 @@ new_unchecked
 *
 v
 )
+}
 )
 .
 collect
 (
 )
-)
-)
 }
+)
+)
 ;
 assert_eq
 !
@@ -1455,7 +1466,7 @@ assert_eq
 (
 langid
 .
-get_character_direction
+character_direction
 (
 )
 CharacterDirection
@@ -1469,7 +1480,7 @@ assert_eq
 (
 langid2
 .
-get_character_direction
+character_direction
 (
 )
 CharacterDirection

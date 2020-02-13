@@ -370,7 +370,7 @@ Some
 (
 langid
 .
-get_language
+language
 (
 )
 )
@@ -405,17 +405,17 @@ s
 lang
 langid
 .
-get_script
+script
 (
 )
 langid
 .
-get_region
+region
 (
 )
 langid
 .
-get_variants
+variants
 (
 )
 .
@@ -555,8 +555,6 @@ entries
 let
 _
 =
-unsafe
-{
 LanguageIdentifier
 :
 :
@@ -569,6 +567,8 @@ map
 |
 l
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -576,6 +576,7 @@ new_unchecked
 (
 l
 )
+}
 )
 script
 .
@@ -584,6 +585,8 @@ map
 |
 s
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -591,6 +594,7 @@ new_unchecked
 (
 s
 )
+}
 )
 region
 .
@@ -599,6 +603,8 @@ map
 |
 r
 |
+unsafe
+{
 TinyStr4
 :
 :
@@ -606,6 +612,7 @@ new_unchecked
 (
 r
 )
+}
 )
 variants
 .
@@ -630,6 +637,8 @@ map
 |
 v
 |
+unsafe
+{
 TinyStr8
 :
 :
@@ -638,6 +647,7 @@ new_unchecked
 *
 v
 )
+}
 )
 .
 collect
@@ -646,7 +656,6 @@ collect
 }
 )
 )
-}
 ;
 }
 }

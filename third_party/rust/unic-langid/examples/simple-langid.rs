@@ -97,7 +97,7 @@ assert_eq
 (
 langid
 .
-get_language
+language
 (
 )
 "
@@ -152,7 +152,7 @@ assert_eq
 (
 langid
 .
-get_language
+language
 (
 )
 "
@@ -165,7 +165,7 @@ assert_eq
 (
 EN_US
 .
-get_language
+language
 (
 )
 "

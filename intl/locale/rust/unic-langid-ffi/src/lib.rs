@@ -224,7 +224,7 @@ lang
 =
 langid
 .
-get_language
+language
 (
 )
 ;
@@ -347,7 +347,7 @@ script
 =
 langid
 .
-get_script
+script
 (
 )
 .
@@ -476,7 +476,7 @@ region
 =
 langid
 .
-get_region
+region
 (
 )
 .
@@ -603,7 +603,7 @@ v
 in
 langid
 .
-get_variants
+variants
 (
 )
 {
@@ -753,7 +753,7 @@ bool
 {
 langid
 .
-add_likely_subtags
+maximize
 (
 )
 }

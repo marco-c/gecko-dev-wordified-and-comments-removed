@@ -242,7 +242,7 @@ FO
 ]
 ;
 fn
-add_likely_subtags_bench
+maximize_bench
 (
 c
 :
@@ -256,7 +256,7 @@ c
 bench_function
 (
 "
-add_likely_subtags
+maximize
 "
 move
 |
@@ -317,7 +317,7 @@ langids
 {
 s
 .
-add_likely_subtags
+maximize
 (
 )
 ;
@@ -554,7 +554,7 @@ region
 )
 }
 fn
-raw_add_likely_subtags_bench
+raw_maximize_bench
 (
 c
 :
@@ -610,7 +610,7 @@ c
 bench_function
 (
 "
-raw_add_likely_subtags
+raw_maximize
 "
 move
 |
@@ -643,7 +643,7 @@ unic_langid_impl
 likelysubtags
 :
 :
-add_likely_subtags
+maximize
 (
 lang
 .
@@ -673,8 +673,8 @@ criterion_group
 !
 (
 benches
-add_likely_subtags_bench
-raw_add_likely_subtags_bench
+maximize_bench
+raw_maximize_bench
 )
 ;
 criterion_main

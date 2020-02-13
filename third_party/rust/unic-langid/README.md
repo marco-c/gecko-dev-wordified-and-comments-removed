@@ -199,7 +199,7 @@ assert_eq
 (
 loc
 .
-get_language
+language
 (
 )
 "
@@ -212,7 +212,7 @@ assert_eq
 (
 loc
 .
-get_script
+script
 (
 )
 None
@@ -223,7 +223,7 @@ assert_eq
 (
 loc
 .
-get_region
+region
 (
 )
 Some

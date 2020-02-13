@@ -507,7 +507,7 @@ ZZ
 =
 value_langid
 .
-get_region
+region
 (
 )
 {
@@ -537,7 +537,7 @@ lang
 =
 key_langid
 .
-get_language
+language
 (
 )
 ;
@@ -546,7 +546,7 @@ script
 =
 key_langid
 .
-get_script
+script
 (
 )
 ;
@@ -555,7 +555,7 @@ region
 =
 key_langid
 .
-get_region
+region
 (
 )
 ;
@@ -944,7 +944,7 @@ println
 (
 "
 pub
-const
+static
 CLDR_VERSION
 :
 &
@@ -966,10 +966,9 @@ println
 (
 "
 pub
-const
+static
 LANG_ONLY
 :
-&
 [
 (
 u64
@@ -993,7 +992,6 @@ u32
 }
 ]
 =
-&
 [
 "
 lang_only
@@ -1069,7 +1067,7 @@ println
 (
 "
 pub
-const
+static
 LANG_REGION
 :
 [
@@ -1198,7 +1196,7 @@ println
 (
 "
 pub
-const
+static
 LANG_SCRIPT
 :
 [
@@ -1327,7 +1325,7 @@ println
 (
 "
 pub
-const
+static
 SCRIPT_REGION
 :
 [
@@ -1456,7 +1454,7 @@ println
 (
 "
 pub
-const
+static
 SCRIPT_ONLY
 :
 [
@@ -1557,7 +1555,7 @@ println
 (
 "
 pub
-const
+static
 REGION_ONLY
 :
 [

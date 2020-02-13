@@ -293,7 +293,7 @@ false
 if
 req
 .
-get_language
+language
 (
 )
 =
@@ -308,7 +308,7 @@ continue
 if
 req
 .
-add_likely_subtags
+maximize
 (
 )
 {
@@ -342,7 +342,7 @@ clear_region
 if
 req
 .
-add_likely_subtags
+maximize
 (
 )
 {

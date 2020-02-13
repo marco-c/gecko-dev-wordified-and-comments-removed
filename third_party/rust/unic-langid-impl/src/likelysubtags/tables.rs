@@ -21,7 +21,7 @@ unreadable_literal
 )
 ]
 pub
-const
+static
 CLDR_VERSION
 :
 &
@@ -32,10 +32,9 @@ str
 "
 ;
 pub
-const
+static
 LANG_ONLY
 :
-&
 [
 (
 u64
@@ -58,7 +57,6 @@ u32
 1333
 ]
 =
-&
 [
 (
 24929
@@ -20903,7 +20901,7 @@ None
 ]
 ;
 pub
-const
+static
 LANG_REGION
 :
 [
@@ -21743,7 +21741,7 @@ Some
 ]
 ;
 pub
-const
+static
 LANG_SCRIPT
 :
 [
@@ -22277,7 +22275,7 @@ Some
 ]
 ;
 pub
-const
+static
 SCRIPT_REGION
 :
 [
@@ -23369,7 +23367,7 @@ Some
 ]
 ;
 pub
-const
+static
 SCRIPT_ONLY
 :
 [
@@ -26016,7 +26014,7 @@ Some
 ]
 ;
 pub
-const
+static
 REGION_ONLY
 :
 [

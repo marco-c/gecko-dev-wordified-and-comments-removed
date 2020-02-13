@@ -19,7 +19,7 @@ TinyStr8
 ;
 unsafe
 fn
-get_lang_from_parts
+lang_from_parts
 (
 input
 :
@@ -171,7 +171,7 @@ region
 }
 pub
 fn
-add_likely_subtags
+maximize
 (
 lang
 :
@@ -309,7 +309,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -391,7 +391,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -454,7 +454,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -546,7 +546,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -609,7 +609,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -682,7 +682,7 @@ result
 return
 unsafe
 {
-get_lang_from_parts
+lang_from_parts
 (
 tables
 :
@@ -705,7 +705,7 @@ None
 }
 pub
 fn
-remove_likely_subtags
+minimize
 (
 lang
 :
@@ -778,7 +778,7 @@ region
 }
 else
 {
-add_likely_subtags
+maximize
 (
 lang
 script
@@ -794,7 +794,7 @@ Some
 trial
 )
 =
-add_likely_subtags
+maximize
 (
 max_langid
 .
@@ -839,7 +839,7 @@ Some
 trial
 )
 =
-add_likely_subtags
+maximize
 (
 max_langid
 .
@@ -889,7 +889,7 @@ Some
 trial
 )
 =
-add_likely_subtags
+maximize
 (
 max_langid
 .
