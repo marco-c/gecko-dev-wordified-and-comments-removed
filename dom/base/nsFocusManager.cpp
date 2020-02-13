@@ -16406,7 +16406,6 @@ return
 NS_OK
 ;
 }
-}
 if
 (
 aOriginalStartContent
@@ -16432,6 +16431,7 @@ aOriginalStartContent
 return
 NS_OK
 ;
+}
 }
 continue
 ;
