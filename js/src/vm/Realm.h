@@ -1951,16 +1951,7 @@ void
 setIsSelfHostingRealm
 (
 )
-{
-isSelfHostingRealm_
-=
-true
 ;
-isSystem_
-=
-true
-;
-}
 inline
 js
 :

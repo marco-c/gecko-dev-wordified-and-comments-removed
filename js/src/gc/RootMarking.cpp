@@ -2704,6 +2704,10 @@ finishSelfHosting
 (
 )
 ;
+selfHostingZoneFrozen
+=
+false
+;
 for
 (
 ZonesIter
