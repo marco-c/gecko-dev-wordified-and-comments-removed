@@ -1093,6 +1093,12 @@ nsAString
 )
 const
 ;
+Loading
+LoadingState
+(
+)
+const
+;
 already_AddRefed
 <
 Promise
