@@ -261,6 +261,16 @@ ctx
 :
 AeadContext
 }
+#
+[
+allow
+(
+clippy
+:
+:
+unused_self
+)
+]
 impl
 Aead
 {
