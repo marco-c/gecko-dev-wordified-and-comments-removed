@@ -128,6 +128,7 @@ waitForBrowserConsole
 (
 )
 ;
+await
 gDevTools
 .
 restoreDevToolsSession

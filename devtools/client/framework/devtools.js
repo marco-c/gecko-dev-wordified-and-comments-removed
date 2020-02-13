@@ -1373,6 +1373,7 @@ getBrowserToolboxSessionState
 }
 restoreDevToolsSession
 :
+async
 function
 (
 {
@@ -1406,6 +1407,7 @@ getBrowserConsole
 )
 )
 {
+await
 BrowserConsoleManager
 .
 toggleBrowserConsole
