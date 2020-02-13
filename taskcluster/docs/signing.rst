@@ -553,7 +553,7 @@ include
 build
 -
 signing
-nightly
+shippable
 -
 l10n
 -

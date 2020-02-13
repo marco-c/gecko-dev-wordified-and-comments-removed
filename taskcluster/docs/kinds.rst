@@ -472,7 +472,7 @@ the
 same
 source
 .
-nightly
+shippable
 -
 l10n
 -
@@ -497,8 +497,10 @@ signing
 -
 -
 -
+-
+-
 The
-nightly
+shippable
 l10n
 signing
 kind

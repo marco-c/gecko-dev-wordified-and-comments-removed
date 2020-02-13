@@ -112,7 +112,7 @@ kind
 dependencies
 :
 -
-nightly
+shippable
 -
 l10n
 -
