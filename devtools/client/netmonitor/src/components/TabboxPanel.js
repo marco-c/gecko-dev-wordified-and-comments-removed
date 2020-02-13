@@ -164,6 +164,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 CookiesPanel
 "
 )

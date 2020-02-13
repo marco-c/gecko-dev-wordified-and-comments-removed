@@ -216,10 +216,6 @@ expectedLabelValues
 =
 [
 "
-Response
-Cookies
-"
-"
 bob
 "
 "
@@ -245,10 +241,6 @@ httpOnly
 "
 "
 value
-"
-"
-Request
-Cookies
 "
 "
 bob

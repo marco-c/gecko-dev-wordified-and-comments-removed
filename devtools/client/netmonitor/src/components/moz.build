@@ -65,6 +65,11 @@ blocking
 '
 request
 -
+details
+'
+'
+request
+-
 list
 '
 '
@@ -83,11 +88,6 @@ js
 '
 '
 CachePanel
-.
-js
-'
-'
-CookiesPanel
 .
 js
 '
