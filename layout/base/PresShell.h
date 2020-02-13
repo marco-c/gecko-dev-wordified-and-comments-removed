@@ -4665,10 +4665,12 @@ aPresShell
 :
 mPresShell
 (
-aPresShell
-.
-forget
+std
+:
+:
+move
 (
+aPresShell
 )
 )
 mCurrentEventInfoSetter

@@ -4786,10 +4786,12 @@ Element
 >
 oldFocusedElement
 =
-mFocusedElement
-.
-forget
+std
+:
+:
+move
 (
+mFocusedElement
 )
 ;
 nsCOMPtr

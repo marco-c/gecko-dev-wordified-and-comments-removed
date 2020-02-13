@@ -511,8 +511,9 @@ IBar
 IBar
 (
 )
-{
-}
+=
+default
+;
 IBar
 :
 :
@@ -1671,10 +1672,12 @@ IFoo
 >
 fooP2
 (
-fooP
-.
-forget
+std
+:
+:
+move
 (
+fooP
 )
 )
 ;

@@ -1823,10 +1823,12 @@ rv
 ;
 stream
 =
-bufStream
-.
-forget
+std
+:
+:
+move
 (
+bufStream
 )
 ;
 }

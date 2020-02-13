@@ -2497,10 +2497,6 @@ aRv
 ;
 return
 promise
-.
-forget
-(
-)
 ;
 }
 already_AddRefed

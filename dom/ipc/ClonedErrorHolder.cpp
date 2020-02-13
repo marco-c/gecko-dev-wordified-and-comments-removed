@@ -498,10 +498,12 @@ Code
 ;
 exn
 =
-domExn
-.
-forget
+std
+:
+:
+move
 (
+domExn
 )
 ;
 }

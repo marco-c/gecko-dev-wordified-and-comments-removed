@@ -1479,10 +1479,12 @@ NS_ERROR_NOT_INITIALIZED
 {
 m
 =
-h
-.
-forget
+std
+:
+:
+move
 (
+h
 )
 ;
 }

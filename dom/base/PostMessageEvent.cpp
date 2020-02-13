@@ -385,10 +385,12 @@ nsIURI
 >
 callerURI
 =
-mCallerURI
-.
-forget
+std
+:
+:
+move
 (
+mCallerURI
 )
 ;
 RefPtr

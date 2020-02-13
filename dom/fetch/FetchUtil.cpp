@@ -1267,7 +1267,7 @@ mDoomed
 explicit
 Destroyer
 (
-already_AddRefed
+RefPtr
 <
 WorkerStreamOwner
 >
@@ -1552,10 +1552,12 @@ WorkerStreamOwner
 :
 Destroyer
 (
-mWorkerStreamOwner
-.
-forget
+std
+:
+:
+move
 (
+mWorkerStreamOwner
 )
 )
 ;

@@ -3722,12 +3722,7 @@ pinput
 )
 ;
 }
-RefPtr
-<
-RemoteCompositorSession
->
-session
-=
+return
 new
 RemoteCompositorSession
 (
@@ -3736,13 +3731,6 @@ child
 widget
 apz
 aRootLayerTreeId
-)
-;
-return
-session
-.
-forget
-(
 )
 ;
 #

@@ -807,10 +807,12 @@ rv
 }
 retItem
 =
-printableItem
-.
-forget
+std
+:
+:
+move
 (
+printableItem
 )
 ;
 return

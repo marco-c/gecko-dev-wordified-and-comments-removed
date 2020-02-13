@@ -87,7 +87,6 @@ OutputStreamDriver
 void
 SetImage
 (
-const
 RefPtr
 <
 layers
@@ -95,6 +94,7 @@ layers
 :
 Image
 >
+&
 &
 aImage
 const

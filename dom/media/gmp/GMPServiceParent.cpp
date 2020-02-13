@@ -8190,10 +8190,6 @@ barrier
 ;
 return
 barrier
-.
-forget
-(
-)
 ;
 }
 NS_IMETHODIMP

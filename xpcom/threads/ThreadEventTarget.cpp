@@ -203,10 +203,12 @@ nsIRunnable
 >
 r
 =
-mWrappedRunnable
-.
-forget
+std
+:
+:
+move
 (
+mWrappedRunnable
 )
 ;
 return
@@ -305,8 +307,9 @@ private
 DelayedRunnable
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIEventTarget

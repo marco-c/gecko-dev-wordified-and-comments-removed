@@ -241,10 +241,12 @@ false
 *
 aResult
 =
-result
-.
-forget
+std
+:
+:
+move
 (
+result
 )
 ;
 return

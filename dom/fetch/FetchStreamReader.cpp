@@ -343,10 +343,12 @@ streamReader
 >
 mWorkerRef
 =
-workerRef
-.
-forget
+std
+:
+:
+move
 (
+workerRef
 )
 ;
 }

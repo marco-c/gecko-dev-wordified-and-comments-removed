@@ -1062,10 +1062,12 @@ Release
 *
 aResult
 =
-windowContext
-.
-forget
+std
+:
+:
+move
 (
+windowContext
 )
 ;
 return

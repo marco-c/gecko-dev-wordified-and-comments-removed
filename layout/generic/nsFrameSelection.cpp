@@ -11303,10 +11303,12 @@ curCellContent
 ;
 lastCell
 =
-curCellContent
-.
-forget
+std
+:
+:
+move
 (
+curCellContent
 )
 ;
 if

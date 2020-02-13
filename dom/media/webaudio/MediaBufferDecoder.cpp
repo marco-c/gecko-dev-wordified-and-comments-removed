@@ -2531,10 +2531,12 @@ mBuffer
 .
 mBuffer
 =
-buffer
-.
-forget
+std
+:
+:
+move
 (
+buffer
 )
 ;
 mDecodeJob
