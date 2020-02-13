@@ -390,6 +390,11 @@ ProcInfo
 cpp
 '
 '
+RemoteBackbuffer
+.
+cpp
+'
+'
 ScreenHelperWin
 .
 cpp
