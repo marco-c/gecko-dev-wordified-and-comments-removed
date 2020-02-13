@@ -218,7 +218,7 @@ u64
 >
 Self
 {
-Self
+ClientRequestStream
 {
 conn
 handler
