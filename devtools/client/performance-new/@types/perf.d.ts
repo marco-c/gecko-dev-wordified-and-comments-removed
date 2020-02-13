@@ -1438,6 +1438,10 @@ type
 STATUS_QUERY
 "
 ;
+requestId
+:
+number
+;
 }
 |
 {
@@ -1446,6 +1450,10 @@ type
 "
 ENABLE_MENU_BUTTON
 "
+;
+requestId
+:
+number
 ;
 }
 ;
@@ -1465,6 +1473,10 @@ menuButtonIsEnabled
 :
 boolean
 ;
+requestId
+:
+number
+;
 }
 |
 {
@@ -1473,6 +1485,10 @@ type
 "
 ENABLE_MENU_BUTTON_DONE
 "
+;
+requestId
+:
+number
 ;
 }
 export
