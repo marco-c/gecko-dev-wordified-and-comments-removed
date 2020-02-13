@@ -1183,6 +1183,14 @@ if
 options
 .
 use_forkserver
+&
+&
+ForkServiceChild
+:
+:
+Get
+(
+)
 )
 {
 return
