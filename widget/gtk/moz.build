@@ -233,6 +233,11 @@ mozcontainer
 cpp
 '
 '
+MPRISServiceHandler
+.
+cpp
+'
+'
 NativeKeyBindings
 .
 cpp

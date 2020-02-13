@@ -5,6 +5,13 @@ MediaKeysEventSourceFactory
 .
 h
 "
+#
+include
+"
+MPRISServiceHandler
+.
+h
+"
 namespace
 mozilla
 :
@@ -24,7 +31,10 @@ CreateMediaControlKeysEventSource
 )
 {
 return
-nullptr
+new
+MPRISServiceHandler
+(
+)
 ;
 }
 }
