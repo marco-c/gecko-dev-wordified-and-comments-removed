@@ -702,7 +702,7 @@ private
 :
 RefPtr
 <
-WaylandDMABufSurface
+WaylandDMABufSurfaceRGBA
 >
 mDMAbufSurface
 ;
