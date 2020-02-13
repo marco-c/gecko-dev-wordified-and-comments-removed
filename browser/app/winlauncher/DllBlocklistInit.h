@@ -34,6 +34,17 @@ HANDLE
 aChildProcess
 )
 ;
+LauncherVoidResultWithLineInfo
+InitializeDllBlocklistOOPFromLauncher
+(
+const
+wchar_t
+*
+aFullImagePath
+HANDLE
+aChildProcess
+)
+;
 }
 #
 endif
