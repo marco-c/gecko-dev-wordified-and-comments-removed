@@ -378,9 +378,14 @@ constructorUnwrapped
 {
 aRv
 .
-Throw
+ThrowSecurityError
 (
-NS_ERROR_DOM_SECURITY_ERR
+"
+Constructor
+cannot
+be
+called
+"
 )
 ;
 return

@@ -401,7 +401,7 @@ void
 Init
 (
 DOMMediaStream
-*
+&
 aMediaStream
 ErrorResult
 &
