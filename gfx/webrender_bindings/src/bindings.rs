@@ -6031,6 +6031,9 @@ u32
 dirty_rect
 :
 DeviceIntRect
+valid_rect
+:
+DeviceIntRect
 )
 ;
 fn
@@ -6238,6 +6241,9 @@ NativeTileId
 dirty_rect
 :
 DeviceIntRect
+valid_rect
+:
+DeviceIntRect
 )
 -
 >
@@ -6281,6 +6287,7 @@ surface_info
 .
 fbo_id
 dirty_rect
+valid_rect
 )
 ;
 }
