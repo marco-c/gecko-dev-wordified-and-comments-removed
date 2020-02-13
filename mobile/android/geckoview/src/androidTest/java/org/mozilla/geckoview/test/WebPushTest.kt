@@ -1097,6 +1097,8 @@ delegate
 storedSubscription
 !
 !
+.
+scope
 )
 assertThat
 (

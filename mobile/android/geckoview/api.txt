@@ -13381,7 +13381,7 @@ void
 onSubscriptionChanged
 (
 NonNull
-WebPushSubscription
+String
 )
 ;
 method
