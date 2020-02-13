@@ -224,7 +224,6 @@ crate
 fn
 is_valid_for_old_select
 (
-&
 self
 )
 -

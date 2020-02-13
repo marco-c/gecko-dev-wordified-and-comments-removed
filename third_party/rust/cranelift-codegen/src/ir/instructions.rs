@@ -64,7 +64,7 @@ ir
 :
 :
 {
-Ebb
+Block
 FuncRef
 JumpTable
 SigRef
@@ -918,7 +918,7 @@ self
 >
 Option
 <
-Ebb
+Block
 >
 {
 match
@@ -1037,7 +1037,7 @@ Option
 <
 &
 mut
-Ebb
+Block
 >
 {
 match
@@ -1270,7 +1270,7 @@ a
 NotABranch
 SingleDest
 (
-Ebb
+Block
 &
 '
 a
@@ -1283,7 +1283,7 @@ Table
 JumpTable
 Option
 <
-Ebb
+Block
 >
 )
 }

@@ -492,6 +492,9 @@ None
 }
 }
 pub
+(
+crate
+)
 fn
 get_libcall_funcref
 (

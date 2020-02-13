@@ -48,6 +48,10 @@ pub
 mod
 layout
 ;
+pub
+(
+crate
+)
 mod
 libcall
 ;
@@ -163,8 +167,8 @@ entities
 :
 :
 {
+Block
 Constant
-Ebb
 FuncRef
 GlobalValue
 Heap
@@ -328,7 +332,6 @@ libcall
 :
 :
 {
-get_libcall_funcref
 get_probestack_funcref
 LibCall
 }
@@ -516,11 +519,11 @@ Encoding
 ;
 pub
 type
-EbbOffsets
+BlockOffsets
 =
 SecondaryMap
 <
-Ebb
+Block
 binemit
 :
 :

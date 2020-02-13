@@ -40,7 +40,7 @@ flowgraph
 :
 :
 {
-BasicBlock
+BlockPredecessor
 ControlFlowGraph
 }
 ;
@@ -61,8 +61,8 @@ ir
 :
 :
 {
+Block
 DataFlowGraph
-Ebb
 Function
 Inst
 InstBuilder
@@ -335,7 +335,7 @@ dyn
 TargetIsa
 header
 :
-Ebb
+Block
 func
 :
 &
@@ -353,7 +353,7 @@ DominatorTree
 )
 -
 >
-Ebb
+Block
 {
 let
 pool
@@ -379,7 +379,7 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 header
 )
@@ -428,7 +428,7 @@ func
 .
 dfg
 .
-make_ebb
+make_block
 (
 )
 ;
@@ -461,7 +461,7 @@ func
 .
 dfg
 .
-append_ebb_param
+append_block_param
 (
 pre_header
 typ
@@ -471,7 +471,7 @@ pool
 ;
 }
 for
-BasicBlock
+BlockPredecessor
 {
 inst
 :
@@ -532,7 +532,7 @@ header
 ;
 pos
 .
-insert_ebb
+insert_block
 (
 pre_header
 )
@@ -580,14 +580,14 @@ domtree
 DominatorTree
 header
 :
-Ebb
+Block
 )
 -
 >
 Option
 <
 (
-Ebb
+Block
 Inst
 )
 >
@@ -599,11 +599,11 @@ result
 None
 ;
 for
-BasicBlock
+BlockPredecessor
 {
-ebb
+block
 :
-pred_ebb
+pred_block
 inst
 :
 branch_inst
@@ -646,7 +646,7 @@ layout
 .
 last_inst
 (
-pred_ebb
+pred_block
 )
 .
 unwrap
@@ -658,7 +658,7 @@ cfg
 .
 succ_iter
 (
-pred_ebb
+pred_block
 )
 .
 nth
@@ -679,7 +679,7 @@ result
 Some
 (
 (
-pred_ebb
+pred_block
 branch_inst
 )
 )
@@ -985,9 +985,9 @@ func
 )
 ;
 for
-ebb
+block
 in
-postorder_ebbs_loop
+postorder_blocks_loop
 (
 loop_analysis
 cfg
@@ -1011,10 +1011,10 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 *
-ebb
+block
 )
 {
 loop_values
@@ -1031,7 +1031,7 @@ pos
 goto_top
 (
 *
-ebb
+block
 )
 ;
 #
@@ -1126,7 +1126,7 @@ out
 invariant_insts
 }
 fn
-postorder_ebbs_loop
+postorder_blocks_loop
 (
 loop_analysis
 :
@@ -1144,7 +1144,7 @@ Loop
 >
 Vec
 <
-Ebb
+Block
 >
 {
 let

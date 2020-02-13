@@ -84,7 +84,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Function
 Inst
 InstBuilder
@@ -120,7 +120,7 @@ cmp_inst
 Inst
 destination
 :
-Ebb
+Block
 args
 :
 ValueList
@@ -1666,12 +1666,12 @@ while
 let
 Some
 (
-_ebb
+_block
 )
 =
 pos
 .
-next_ebb
+next_block
 (
 )
 {

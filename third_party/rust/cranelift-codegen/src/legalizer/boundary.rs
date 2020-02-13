@@ -54,8 +54,8 @@ ir
 AbiParam
 ArgumentLoc
 ArgumentPurpose
+Block
 DataFlowGraph
-Ebb
 Function
 Inst
 InstBuilder
@@ -395,7 +395,7 @@ mut
 Function
 entry
 :
-Ebb
+Block
 )
 {
 let
@@ -452,7 +452,7 @@ abi_arg
 0
 ;
 let
-ebb_params
+block_params
 =
 pos
 .
@@ -460,7 +460,7 @@ func
 .
 dfg
 .
-detach_ebb_params
+detach_block_params
 (
 entry
 )
@@ -478,7 +478,7 @@ Some
 arg
 )
 =
-ebb_params
+block_params
 .
 get
 (
@@ -540,7 +540,7 @@ func
 .
 dfg
 .
-attach_ebb_param
+attach_block_param
 (
 entry
 arg
@@ -767,7 +767,7 @@ func
 .
 dfg
 .
-append_ebb_param
+append_block_param
 (
 entry
 ty
@@ -1023,7 +1023,7 @@ func
 .
 dfg
 .
-append_ebb_param
+append_block_param
 (
 entry
 arg
@@ -4481,7 +4481,7 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 pos
 .
@@ -4910,7 +4910,7 @@ mut
 Function
 entry
 :
-Ebb
+Block
 )
 {
 for
@@ -4936,7 +4936,7 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 entry
 )

@@ -69,7 +69,7 @@ ir
 :
 {
 self
-Ebb
+Block
 InstBuilder
 ValueLabel
 }
@@ -305,7 +305,7 @@ func
 .
 dfg
 .
-num_ebbs
+num_blocks
 (
 )
 0
@@ -369,13 +369,13 @@ entry_block
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
 builder
 .
-append_ebb_params_for_function_params
+append_block_params_for_function_params
 (
 entry_block
 )
@@ -396,7 +396,7 @@ entry_block
 ;
 builder
 .
-ensure_inserted_ebb
+ensure_inserted_block
 (
 )
 ;
@@ -417,13 +417,13 @@ exit_block
 =
 builder
 .
-create_ebb
+create_block
 (
 )
 ;
 builder
 .
-append_ebb_params_for_function_returns
+append_block_params_for_function_returns
 (
 exit_block
 )
@@ -503,7 +503,7 @@ mut
 FunctionBuilder
 entry_block
 :
-Ebb
+Block
 environ
 :
 &
@@ -601,7 +601,7 @@ param_value
 =
 builder
 .
-ebb_params
+block_params
 (
 entry_block
 )
@@ -637,7 +637,7 @@ param_value
 =
 builder
 .
-ebb_params
+block_params
 (
 entry_block
 )

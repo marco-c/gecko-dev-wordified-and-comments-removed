@@ -27,7 +27,7 @@ ir
 :
 :
 {
-Ebb
+Block
 StackSlot
 Value
 ValueLoc
@@ -170,7 +170,7 @@ EntryRegDiversionsValue
 {
 key
 :
-Ebb
+Block
 divert
 :
 RegDiversions
@@ -183,7 +183,7 @@ map
 :
 SparseMap
 <
-Ebb
+Block
 EntryRegDiversionsValue
 >
 }
@@ -798,7 +798,7 @@ to
 }
 pub
 fn
-at_ebb
+at_block
 (
 &
 mut
@@ -807,9 +807,9 @@ entry_diversions
 :
 &
 EntryRegDiversions
-ebb
+block
 :
-Ebb
+Block
 )
 {
 self
@@ -831,7 +831,7 @@ map
 .
 get
 (
-ebb
+block
 )
 {
 let
@@ -860,7 +860,7 @@ iter
 }
 pub
 fn
-save_for_ebb
+save_for_block
 (
 &
 mut
@@ -872,7 +872,7 @@ mut
 EntryRegDiversions
 target
 :
-Ebb
+Block
 )
 {
 if
@@ -950,7 +950,7 @@ entry_divert
 }
 pub
 fn
-check_ebb_entry
+check_block_entry
 (
 &
 self
@@ -960,7 +960,7 @@ entry_diversions
 EntryRegDiversions
 target
 :
-Ebb
+Block
 )
 -
 >
@@ -1203,7 +1203,7 @@ tmp
 impl
 SparseMapValue
 <
-Ebb
+Block
 >
 for
 EntryRegDiversionsValue
@@ -1216,7 +1216,7 @@ self
 )
 -
 >
-Ebb
+Block
 {
 self
 .

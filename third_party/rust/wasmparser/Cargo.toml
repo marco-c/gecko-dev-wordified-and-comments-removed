@@ -125,9 +125,9 @@ version
 "
 0
 .
-47
+48
 .
-0
+2
 "
 authors
 =
@@ -226,7 +226,7 @@ github
 .
 com
 /
-yurydelendik
+bytecodealliance
 /
 wasmparser
 .
@@ -257,7 +257,7 @@ version
 "
 0
 .
-2
+3
 "
 [
 dev
@@ -269,7 +269,7 @@ wast
 version
 =
 "
-5
+6
 .
 0
 .
@@ -292,7 +292,7 @@ ci
 repository
 =
 "
-yurydelendik
+bytecodealliance
 /
 wasmparser
 .

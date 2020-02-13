@@ -257,7 +257,7 @@ new
 )
 ;
 for
-ebb
+block
 in
 self
 .
@@ -265,13 +265,13 @@ func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 {
 divert
 .
-at_ebb
+at_block
 (
 &
 self
@@ -279,7 +279,7 @@ self
 func
 .
 entry_diversions
-ebb
+block
 )
 ;
 let
@@ -297,9 +297,9 @@ func
 .
 layout
 .
-ebb_insts
+block_insts
 (
-ebb
+block
 )
 {
 let
@@ -1738,7 +1738,7 @@ isa
 )
 SingleDest
 (
-ebb
+block
 _
 )
 =
@@ -1753,7 +1753,7 @@ cfg
 .
 pred_iter
 (
-ebb
+block
 )
 .
 count
@@ -1806,7 +1806,7 @@ lr
 .
 is_livein
 (
-ebb
+block
 &
 self
 .
@@ -1829,7 +1829,7 @@ lr
 .
 is_livein
 (
-ebb
+block
 &
 self
 .
@@ -1877,7 +1877,7 @@ self
 .
 reginfo
 )
-ebb
+block
 )
 )
 )
@@ -1912,7 +1912,7 @@ debug_assert
 (
 divert
 .
-check_ebb_entry
+check_block_entry
 (
 &
 self
@@ -1920,7 +1920,7 @@ self
 func
 .
 entry_diversions
-ebb
+block
 )
 )
 ;
@@ -1929,7 +1929,7 @@ ebb
 Table
 (
 jt
-ebb
+block
 )
 =
 >
@@ -1960,17 +1960,17 @@ if
 let
 Some
 (
-ebb
+block
 )
 =
-ebb
+block
 {
 if
 lr
 .
 is_livein
 (
-ebb
+block
 &
 self
 .
@@ -2020,7 +2020,7 @@ self
 .
 reginfo
 )
-ebb
+block
 )
 )
 )
@@ -2028,7 +2028,7 @@ ebb
 }
 }
 for
-ebb
+block
 in
 self
 .
@@ -2049,7 +2049,7 @@ lr
 is_livein
 (
 *
-ebb
+block
 &
 self
 .
@@ -2099,7 +2099,7 @@ self
 .
 reginfo
 )
-ebb
+block
 )
 )
 )

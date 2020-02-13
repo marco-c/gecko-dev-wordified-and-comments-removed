@@ -15,7 +15,7 @@ ir
 :
 :
 {
-Ebb
+Block
 ExpandedProgramPoint
 Inst
 Layout
@@ -75,7 +75,7 @@ Interval
 {
 begin
 :
-Ebb
+Block
 end
 :
 Inst
@@ -301,13 +301,13 @@ PhantomData
 }
 }
 fn
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -337,7 +337,7 @@ cmp
 interval
 .
 begin
-ebb
+block
 )
 )
 .
@@ -357,7 +357,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -391,14 +391,14 @@ n
 }
 pub
 fn
-extend_in_ebb
+extend_in_block
 (
 &
 mut
 self
-ebb
+block
 :
-Ebb
+Block
 inst
 :
 Inst
@@ -416,7 +416,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -493,9 +493,9 @@ false
 match
 self
 .
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
-ebb
+block
 order
 )
 {
@@ -550,7 +550,7 @@ n
 if
 order
 .
-is_ebb_gap
+is_block_gap
 (
 inst
 next
@@ -651,7 +651,7 @@ next
 |
 order
 .
-is_ebb_gap
+is_block_gap
 (
 inst
 next
@@ -688,12 +688,12 @@ prev
 |
 order
 .
-is_ebb_gap
+is_block_gap
 (
 prev
 .
 end
-ebb
+block
 )
 )
 .
@@ -837,7 +837,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 =
 self
@@ -860,7 +860,7 @@ n
 .
 begin
 =
-ebb
+block
 ;
 }
 (
@@ -881,7 +881,7 @@ Interval
 {
 begin
 :
-ebb
+block
 end
 :
 inst
@@ -988,9 +988,9 @@ livein_local_end
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -1005,9 +1005,9 @@ Inst
 {
 self
 .
-lookup_entry_containing_ebb
+lookup_entry_containing_block
 (
-ebb
+block
 order
 )
 .
@@ -1034,7 +1034,7 @@ cmp
 !
 (
 order
-ebb
+block
 <
 inst
 )
@@ -1064,9 +1064,9 @@ is_livein
 (
 &
 self
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -1080,7 +1080,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 .
@@ -1109,7 +1109,7 @@ Iterator
 Item
 =
 (
-Ebb
+Block
 Inst
 )
 >
@@ -1149,9 +1149,9 @@ self
 def
 :
 ExpandedProgramPoint
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -1211,7 +1211,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 {
@@ -1244,9 +1244,9 @@ self
 user
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -1290,7 +1290,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 {
@@ -1324,9 +1324,9 @@ self
 user
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 order
 :
 &
@@ -1354,7 +1354,7 @@ self
 .
 livein_local_end
 (
-ebb
+block
 order
 )
 =
@@ -1432,7 +1432,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Inst
 Value
 }
@@ -1540,7 +1540,7 @@ index
 ExpandedProgramPoint
 :
 :
-Ebb
+Block
 (
 e
 )
@@ -1586,16 +1586,16 @@ ib
 )
 }
 fn
-is_ebb_gap
+is_block_gap
 (
 &
 self
 inst
 :
 Inst
-ebb
+block
 :
-Ebb
+Block
 )
 -
 >
@@ -1613,7 +1613,7 @@ index
 1
 &
 &
-ebb
+block
 .
 index
 (
@@ -1637,7 +1637,7 @@ impl
 ProgOrder
 {
 fn
-inst_ebb
+inst_block
 (
 &
 self
@@ -1647,7 +1647,7 @@ Inst
 )
 -
 >
-Ebb
+Block
 {
 let
 i
@@ -1658,7 +1658,7 @@ index
 (
 )
 ;
-Ebb
+Block
 :
 :
 new
@@ -1671,7 +1671,7 @@ i
 )
 }
 fn
-pp_ebb
+pp_block
 <
 PP
 :
@@ -1689,7 +1689,7 @@ PP
 )
 -
 >
-Ebb
+Block
 {
 match
 pp
@@ -1709,14 +1709,14 @@ i
 >
 self
 .
-inst_ebb
+inst_block
 (
 i
 )
 ExpandedProgramPoint
 :
 :
-Ebb
+Block
 (
 e
 )
@@ -1740,11 +1740,11 @@ Self
 )
 {
 let
-def_ebb
+def_block
 =
 self
 .
-pp_ebb
+pp_block
 (
 lr
 .
@@ -1754,10 +1754,10 @@ def_begin
 assert_eq
 !
 (
-def_ebb
+def_block
 self
 .
-pp_ebb
+pp_block
 (
 lr
 .
@@ -1951,7 +1951,7 @@ t
 overlap
 the
 def
-EBB
+block
 "
 )
 ;
@@ -2001,7 +2001,7 @@ new
 let
 e0
 =
-Ebb
+Block
 :
 :
 new
@@ -2034,7 +2034,7 @@ new
 let
 e2
 =
-Ebb
+Block
 :
 :
 new
@@ -2212,7 +2212,7 @@ new
 let
 e2
 =
-Ebb
+Block
 :
 :
 new
@@ -2337,7 +2337,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -2406,7 +2406,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i13
@@ -2479,7 +2479,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -2550,7 +2550,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -2619,7 +2619,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -2692,7 +2692,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i11
@@ -2744,7 +2744,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i13
@@ -2815,7 +2815,7 @@ new
 let
 e10
 =
-Ebb
+Block
 :
 :
 new
@@ -2848,7 +2848,7 @@ new
 let
 e20
 =
-Ebb
+Block
 :
 :
 new
@@ -2917,7 +2917,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e10
 i12
@@ -2931,7 +2931,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i22
@@ -2969,7 +2969,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -2999,7 +2999,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i23
@@ -3067,7 +3067,7 @@ new
 let
 e20
 =
-Ebb
+Block
 :
 :
 new
@@ -3089,7 +3089,7 @@ new
 let
 e30
 =
-Ebb
+Block
 :
 :
 new
@@ -3111,7 +3111,7 @@ new
 let
 e40
 =
-Ebb
+Block
 :
 :
 new
@@ -3158,7 +3158,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e30
 i31
@@ -3200,7 +3200,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e40
 i41
@@ -3242,7 +3242,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -3307,7 +3307,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e40
 i41
@@ -3349,7 +3349,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e20
 i21
@@ -3395,7 +3395,7 @@ assert_eq
 (
 lr
 .
-extend_in_ebb
+extend_in_block
 (
 e30
 i31

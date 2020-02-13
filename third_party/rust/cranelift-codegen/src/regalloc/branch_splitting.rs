@@ -1,17 +1,3 @@
-#
-!
-[
-cfg
-(
-feature
-=
-"
-basic
--
-blocks
-"
-)
-]
 use
 alloc
 :
@@ -59,7 +45,7 @@ ir
 :
 :
 {
-Ebb
+Block
 Function
 Inst
 InstBuilder
@@ -219,7 +205,7 @@ func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 )
@@ -228,7 +214,7 @@ while
 let
 Some
 (
-ebb
+block
 )
 =
 self
@@ -256,7 +242,7 @@ cur
 .
 goto_last_inst
 (
-ebb
+block
 )
 ;
 let
@@ -477,7 +463,7 @@ target
 )
 {
 let
-new_ebb
+new_block
 =
 self
 .
@@ -487,7 +473,7 @@ func
 .
 dfg
 .
-make_ebb
+make_block
 (
 )
 ;
@@ -519,9 +505,9 @@ layout_mut
 (
 )
 .
-insert_ebb
+insert_block
 (
-new_ebb
+new_block
 target
 )
 ;
@@ -581,7 +567,7 @@ take_value_list
 expect
 (
 "
-ebb
+block
 parameters
 "
 )
@@ -612,7 +598,7 @@ collect
 let
 (
 branch_args
-ebb_params
+block_params
 )
 =
 old_args
@@ -663,7 +649,7 @@ branch
 "
 )
 =
-new_ebb
+new_block
 ;
 data
 .
@@ -708,7 +694,7 @@ cur
 .
 goto_first_insertion_point
 (
-new_ebb
+new_block
 )
 ;
 self
@@ -722,7 +708,7 @@ ins
 jump
 (
 target
-ebb_params
+block_params
 )
 ;
 self
@@ -888,7 +874,7 @@ target
 )
 {
 let
-new_ebb
+new_block
 =
 self
 .
@@ -898,7 +884,7 @@ func
 .
 dfg
 .
-make_ebb
+make_block
 (
 )
 ;
@@ -921,7 +907,7 @@ ins
 .
 jump
 (
-new_ebb
+new_block
 &
 [
 ]
@@ -931,9 +917,9 @@ self
 .
 cur
 .
-insert_ebb
+insert_block
 (
-new_ebb
+new_block
 )
 ;
 self
@@ -954,7 +940,7 @@ should_split_edge
 self
 target
 :
-Ebb
+Block
 )
 -
 >
@@ -970,7 +956,7 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
 target
 )

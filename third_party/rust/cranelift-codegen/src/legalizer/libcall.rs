@@ -12,6 +12,9 @@ ir
 :
 :
 {
+libcall
+:
+:
 get_libcall_funcref
 InstBuilder
 }

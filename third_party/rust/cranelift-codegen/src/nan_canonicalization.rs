@@ -131,12 +131,12 @@ while
 let
 Some
 (
-_ebb
+_block
 )
 =
 pos
 .
-next_ebb
+next_block
 (
 )
 {
@@ -413,7 +413,7 @@ next_inst
 expect
 (
 "
-EBB
+block
 missing
 terminator
 !

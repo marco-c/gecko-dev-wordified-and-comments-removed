@@ -137,8 +137,6 @@ const
 WASM_MAGIC_NUMBER
 :
 &
-'
-static
 [
 u8
 ;
@@ -7716,11 +7714,9 @@ BinaryReaderError
 message
 :
 "
+invalid
 lane
 index
-out
-of
-range
 "
 offset
 :

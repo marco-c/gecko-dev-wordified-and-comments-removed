@@ -445,6 +445,16 @@ self
 producers_section
 :
 :
+ProducersFieldValuesReader
+;
+pub
+use
+self
+:
+:
+producers_section
+:
+:
 ProducersSectionReader
 ;
 pub

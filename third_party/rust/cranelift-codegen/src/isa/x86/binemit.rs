@@ -56,8 +56,8 @@ ir
 :
 :
 {
+Block
 Constant
-Ebb
 Function
 Inst
 InstructionData
@@ -2419,7 +2419,7 @@ Sized
 (
 destination
 :
-Ebb
+Block
 func
 :
 &
@@ -2475,7 +2475,7 @@ Sized
 (
 destination
 :
-Ebb
+Block
 func
 :
 &

@@ -45,7 +45,7 @@ ir
 :
 {
 self
-Ebb
+Block
 Inst
 Value
 }
@@ -80,7 +80,7 @@ WithElse
 {
 else_block
 :
-Ebb
+Block
 }
 }
 #
@@ -98,7 +98,7 @@ If
 {
 destination
 :
-Ebb
+Block
 else_data
 :
 ElseData
@@ -134,7 +134,7 @@ Block
 {
 destination
 :
-Ebb
+Block
 num_param_values
 :
 usize
@@ -152,10 +152,10 @@ Loop
 {
 destination
 :
-Ebb
+Block
 header
 :
-Ebb
+Block
 num_param_values
 :
 usize
@@ -277,7 +277,7 @@ self
 )
 -
 >
-Ebb
+Block
 {
 match
 *
@@ -326,7 +326,7 @@ self
 )
 -
 >
-Ebb
+Block
 {
 match
 *
@@ -856,7 +856,7 @@ ir
 Signature
 exit_block
 :
-Ebb
+Block
 )
 {
 self
@@ -1364,7 +1364,7 @@ mut
 self
 following_code
 :
-Ebb
+Block
 num_param_types
 :
 usize
@@ -1438,10 +1438,10 @@ mut
 self
 header
 :
-Ebb
+Block
 following_code
 :
-Ebb
+Block
 num_param_types
 :
 usize
@@ -1513,7 +1513,7 @@ mut
 self
 destination
 :
-Ebb
+Block
 else_data
 :
 ElseData

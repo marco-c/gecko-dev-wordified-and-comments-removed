@@ -152,7 +152,7 @@ EntityRefs
 )
 {
 let
-EBB
+block
 =
 &
 Operand
@@ -161,19 +161,18 @@ Operand
 new
 (
 "
-EBB
+block
 "
 &
 entities
 .
-ebb
+block
 )
 .
 with_doc
 (
 "
 Destination
-extended
 basic
 block
 "
@@ -200,7 +199,7 @@ varargs
 with_doc
 (
 "
-EBB
+block
 arguments
 "
 )
@@ -225,14 +224,13 @@ Jump
 Unconditionally
 jump
 to
-an
-extended
+a
 basic
 block
 passing
 the
 specified
-EBB
+block
 arguments
 .
 The
@@ -245,7 +243,7 @@ must
 match
 the
 destination
-EBB
+block
 .
 "
 #
@@ -260,7 +258,7 @@ operands_in
 vec
 !
 [
-EBB
+block
 args
 ]
 )
@@ -296,7 +294,7 @@ through
 to
 the
 next
-EBB
+block
 .
 This
 is
@@ -307,7 +305,7 @@ jump
 except
 the
 destination
-EBB
+block
 must
 be
 the
@@ -356,7 +354,7 @@ operands_in
 vec
 !
 [
-EBB
+block
 args
 ]
 )
@@ -507,7 +505,7 @@ vec
 !
 [
 c
-EBB
+block
 args
 ]
 )
@@ -582,7 +580,7 @@ vec
 !
 [
 c
-EBB
+block
 args
 ]
 )
@@ -787,7 +785,7 @@ br_icmp
 ugt
 v1
 v2
-ebb4
+block4
 (
 v5
 v6
@@ -806,7 +804,7 @@ v1
 v2
 brnz
 v10
-ebb4
+block4
 (
 v5
 v6
@@ -869,7 +867,7 @@ vec
 Cond
 x
 y
-EBB
+block
 args
 ]
 )
@@ -935,7 +933,7 @@ vec
 [
 Cond
 f
-EBB
+block
 args
 ]
 )
@@ -1022,7 +1020,7 @@ vec
 [
 Cond
 f
-EBB
+block
 args
 ]
 )
@@ -1122,7 +1120,7 @@ branch
 to
 the
 corresponding
-EBB
+block
 .
 If
 no
@@ -1143,7 +1141,7 @@ to
 the
 given
 default
-EBB
+block
 .
 Note
 that
@@ -1238,7 +1236,7 @@ vec
 !
 [
 x
-EBB
+block
 JT
 ]
 )
@@ -8511,7 +8509,7 @@ the
 value
 leaves
 the
-EBB
+block
 .
 At
 the
@@ -8519,7 +8517,7 @@ entry
 to
 a
 new
-EBB
+block
 all
 live
 values

@@ -197,7 +197,7 @@ trait
 RelocSink
 {
 fn
-reloc_ebb
+reloc_block
 (
 &
 mut
@@ -488,7 +488,7 @@ x
 ;
 }
 fn
-reloc_ebb
+reloc_block
 (
 &
 mut
@@ -496,7 +496,7 @@ self
 rel
 :
 Reloc
-ebb_offset
+block_offset
 :
 CodeOffset
 )
@@ -514,11 +514,11 @@ self
 .
 relocs
 .
-reloc_ebb
+reloc_block
 (
 ofs
 rel
-ebb_offset
+block_offset
 )
 ;
 }
@@ -831,7 +831,7 @@ for
 NullRelocSink
 {
 fn
-reloc_ebb
+reloc_block
 (
 &
 mut

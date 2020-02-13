@@ -56,7 +56,7 @@ Ord
 ]
 pub
 struct
-Ebb
+Block
 (
 u32
 )
@@ -64,14 +64,14 @@ u32
 entity_impl
 !
 (
-Ebb
+Block
 "
-ebb
+block
 "
 )
 ;
 impl
-Ebb
+Block
 {
 pub
 fn
@@ -885,9 +885,9 @@ enum
 AnyEntity
 {
 Function
-Ebb
+Block
 (
-Ebb
+Block
 )
 Inst
 (
@@ -976,7 +976,7 @@ function
 Self
 :
 :
-Ebb
+Block
 (
 r
 )
@@ -1175,7 +1175,7 @@ f
 impl
 From
 <
-Ebb
+Block
 >
 for
 AnyEntity
@@ -1185,7 +1185,7 @@ from
 (
 r
 :
-Ebb
+Block
 )
 -
 >
@@ -1194,7 +1194,7 @@ Self
 Self
 :
 :
-Ebb
+Block
 (
 r
 )

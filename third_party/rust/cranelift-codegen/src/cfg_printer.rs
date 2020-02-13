@@ -38,7 +38,7 @@ flowgraph
 :
 :
 {
-BasicBlock
+BlockPredecessor
 ControlFlowGraph
 }
 ;
@@ -148,7 +148,7 @@ w
 ;
 self
 .
-ebb_nodes
+block_nodes
 (
 w
 )
@@ -256,7 +256,7 @@ Ok
 )
 }
 fn
-ebb_nodes
+block_nodes
 (
 &
 self
@@ -335,7 +335,7 @@ v
 }
 }
 for
-ebb
+block
 in
 &
 self
@@ -362,7 +362,7 @@ label
 {
 {
 "
-ebb
+block
 )
 ?
 ;
@@ -372,14 +372,14 @@ crate
 write
 :
 :
-write_ebb_header
+write_block_header
 (
 w
 self
 .
 func
 None
-ebb
+block
 4
 )
 ?
@@ -393,9 +393,9 @@ func
 .
 layout
 .
-ebb_insts
+block_insts
 (
-ebb
+block
 )
 {
 write
@@ -467,7 +467,7 @@ Write
 Result
 {
 for
-ebb
+block
 in
 &
 self
@@ -477,9 +477,9 @@ func
 layout
 {
 for
-BasicBlock
+BlockPredecessor
 {
-ebb
+block
 :
 parent
 inst
@@ -491,7 +491,7 @@ cfg
 .
 pred_iter
 (
-ebb
+block
 )
 {
 writeln
@@ -511,7 +511,7 @@ w
 "
 parent
 inst
-ebb
+block
 )
 ?
 ;

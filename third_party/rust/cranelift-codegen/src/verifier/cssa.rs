@@ -27,7 +27,7 @@ flowgraph
 :
 :
 {
-BasicBlock
+BlockPredecessor
 ControlFlowGraph
 }
 ;
@@ -435,7 +435,7 @@ into
 )
 ;
 let
-def_ebb
+def_block
 =
 self
 .
@@ -443,7 +443,7 @@ func
 .
 layout
 .
-pp_ebb
+pp_block
 (
 def
 )
@@ -482,7 +482,7 @@ into
 )
 ;
 let
-prev_ebb
+prev_block
 =
 self
 .
@@ -490,7 +490,7 @@ func
 .
 layout
 .
-pp_ebb
+pp_block
 (
 prev_def
 )
@@ -550,8 +550,8 @@ preorder
 .
 dominates
 (
-def_ebb
-prev_ebb
+def_block
+prev_block
 )
 &
 &
@@ -648,7 +648,7 @@ into
 )
 ;
 let
-prev_ebb
+prev_block
 =
 self
 .
@@ -656,7 +656,7 @@ func
 .
 layout
 .
-pp_ebb
+pp_block
 (
 prev_def
 )
@@ -668,8 +668,8 @@ preorder
 .
 dominates
 (
-prev_ebb
-def_ebb
+prev_block
+def_block
 )
 &
 &
@@ -700,7 +700,7 @@ prev_val
 overlaps_def
 (
 def
-def_ebb
+def_block
 &
 self
 .
@@ -779,7 +779,7 @@ VerifierStepResult
 >
 {
 for
-ebb
+block
 in
 self
 .
@@ -787,12 +787,12 @@ func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 {
 let
-ebb_params
+block_params
 =
 self
 .
@@ -800,13 +800,13 @@ func
 .
 dfg
 .
-ebb_params
+block_params
 (
-ebb
+block
 )
 ;
 for
-BasicBlock
+BlockPredecessor
 {
 inst
 :
@@ -821,7 +821,7 @@ cfg
 .
 pred_iter
 (
-ebb
+block
 )
 {
 let
@@ -841,7 +841,7 @@ pred
 assert_eq
 !
 (
-ebb_params
+block_params
 .
 len
 (
@@ -863,12 +863,12 @@ branch
 for
 (
 &
-ebb_param
+block_param
 &
 pred_arg
 )
 in
-ebb_params
+block_params
 .
 iter
 (
@@ -887,7 +887,7 @@ virtregs
 .
 same_class
 (
-ebb_param
+block_param
 pred_arg
 )
 {
@@ -915,7 +915,7 @@ same
 virtual
 register
 "
-ebb_param
+block_param
 pred_arg
 )
 )
