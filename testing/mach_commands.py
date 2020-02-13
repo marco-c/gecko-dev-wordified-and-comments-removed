@@ -690,10 +690,13 @@ sorted
 (
 ADD_TEST_SUPPORTED_SUITES
 +
+list
+(
 SUITE_SYNONYMS
 .
 keys
 (
+)
 )
 )
                         
