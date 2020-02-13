@@ -272,7 +272,7 @@ i
 mSurface
 -
 >
-GetPlaneCount
+GetTextureCount
 (
 )
 ;
@@ -514,7 +514,7 @@ return
 mSurface
 -
 >
-GetPlaneCount
+GetTextureCount
 (
 )
 ;
@@ -868,7 +868,7 @@ MOZ_ASSERT
 mSurface
 -
 >
-GetPlaneCount
+GetTextureCount
 (
 )
 =
@@ -1156,7 +1156,7 @@ MOZ_ASSERT
 mSurface
 -
 >
-GetPlaneCount
+GetTextureCount
 (
 )
 =

@@ -204,7 +204,7 @@ return
 mSurface
 -
 >
-GetGLTexture
+GetTexture
 (
 )
 ;

@@ -93,7 +93,7 @@ WaylandDMABufSurface
 >
 surface
 =
-WaylandDMABufSurface
+WaylandDMABufSurfaceRGBA
 :
 :
 CreateDMABufSurface
@@ -117,7 +117,7 @@ surface
 surface
 -
 >
-CreateEGLImage
+CreateTexture
 (
 prodGL
 )
@@ -225,7 +225,7 @@ return
 mSurface
 -
 >
-ReleaseEGLImage
+ReleaseTextures
 (
 )
 ;
