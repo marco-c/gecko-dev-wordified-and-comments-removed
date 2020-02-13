@@ -477,6 +477,11 @@ time
 5400
 env
 :
+MOZ_LOW_PARALLELISM_BUILD
+:
+'
+1
+'
 PERFHERDER_EXTRA_OPTIONS
 :
 fuzzing
@@ -4452,6 +4457,11 @@ time
 5400
 env
 :
+MOZ_LOW_PARALLELISM_BUILD
+:
+'
+1
+'
 PERFHERDER_EXTRA_OPTIONS
 :
 fuzzing
@@ -6085,6 +6095,11 @@ time
 7200
 env
 :
+MOZ_LOW_PARALLELISM_BUILD
+:
+'
+1
+'
 FORCE_GCC
 :
 '
@@ -6619,7 +6634,7 @@ wasi
 sysroot
 linux
 -
-aws
+gcp
 /
 debug
 :
@@ -6644,7 +6659,7 @@ name
 :
 linux
 -
-aws
+gcp
 -
 debug
 attributes
@@ -6677,7 +6692,7 @@ b
 -
 linux
 -
-aws
+gcp
 worker
 :
 docker
@@ -6706,7 +6721,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-aws
+gcp
 run
 :
 using
@@ -6834,7 +6849,7 @@ wasi
 sysroot
 linux
 -
-aws
+gcp
 /
 opt
 :
@@ -6859,7 +6874,7 @@ name
 :
 linux
 -
-aws
+gcp
 -
 opt
 attributes
@@ -6892,7 +6907,7 @@ b
 -
 linux
 -
-aws
+gcp
 worker
 :
 docker
@@ -6921,7 +6936,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-aws
+gcp
 run
 :
 using
@@ -7035,7 +7050,7 @@ wasi
 sysroot
 linux64
 -
-aws
+gcp
 /
 debug
 :
@@ -7060,7 +7075,7 @@ name
 :
 linux64
 -
-aws
+gcp
 -
 debug
 attributes
@@ -7093,7 +7108,7 @@ b
 -
 linux
 -
-aws
+gcp
 worker
 :
 max
@@ -7107,7 +7122,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-aws
+gcp
 run
 :
 using
@@ -7221,7 +7236,7 @@ wasi
 sysroot
 linux64
 -
-aws
+gcp
 /
 opt
 :
@@ -7246,7 +7261,7 @@ name
 :
 linux64
 -
-aws
+gcp
 -
 opt
 attributes
@@ -7279,7 +7294,7 @@ b
 -
 linux
 -
-aws
+gcp
 worker
 :
 max
@@ -7293,7 +7308,7 @@ env
 :
 PERFHERDER_EXTRA_OPTIONS
 :
-aws
+gcp
 run
 :
 using
