@@ -497,11 +497,6 @@ memoryOnly
 false
 )
 ;
-void
-MaybeInitShutdownWrite
-(
-)
-;
 static
 void
 IgnoreDiskCache
@@ -636,11 +631,6 @@ WaitOnPrefetchThread
 ;
 void
 StartPrefetchMemoryThread
-(
-)
-;
-void
-MaybeSpawnWriteThread
 (
 )
 ;
