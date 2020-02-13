@@ -2518,12 +2518,10 @@ bodyElement
 {
 mBody
 =
-std
-:
-:
-move
-(
 bodyElement
+.
+forget
+(
 )
 ;
 int32_t

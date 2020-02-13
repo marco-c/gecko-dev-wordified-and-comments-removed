@@ -1061,12 +1061,10 @@ RefPtr
 MediaDataEncoder
 >
 (
-std
-:
-:
-move
-(
 mEncoder
+.
+forget
+(
 )
 )
 ]
@@ -1423,6 +1421,10 @@ timestamp
 ;
 return
 data
+.
+forget
+(
+)
 ;
 }
 int32_t

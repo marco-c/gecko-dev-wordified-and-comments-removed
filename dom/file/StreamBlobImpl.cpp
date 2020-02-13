@@ -403,12 +403,10 @@ replacementStream
 {
 mInputStream
 =
-std
-:
-:
-move
-(
 replacementStream
+.
+forget
+(
 )
 ;
 }

@@ -231,7 +231,7 @@ UnsubscribeResultRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-RefPtr
+already_AddRefed
 <
 PromiseWorkerProxy
 >
@@ -471,12 +471,10 @@ new
 UnsubscribeResultRunnable
 (
 worker
-std
-:
-:
-move
-(
 mProxy
+.
+forget
+(
 )
 aStatus
 aSuccess

@@ -1329,7 +1329,12 @@ derCert
 *
 signedCert
 ;
-return
+RefPtr
+<
+DtlsIdentity
+>
+identity
+=
 new
 DtlsIdentity
 (
@@ -1348,6 +1353,13 @@ move
 certificate
 )
 ssl_kea_ecdh
+)
+;
+return
+identity
+.
+forget
+(
 )
 ;
 }

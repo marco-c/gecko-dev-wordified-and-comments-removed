@@ -1481,12 +1481,10 @@ MediaDataDecoder
 >
 decoder
 =
-std
-:
-:
-move
-(
 mDecoder
+.
+forget
+(
 )
 ;
 mProxy

@@ -1065,6 +1065,10 @@ aCondition
 ;
 return
 p
+.
+forget
+(
+)
 ;
 }
 class

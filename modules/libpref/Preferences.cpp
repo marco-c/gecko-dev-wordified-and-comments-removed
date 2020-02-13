@@ -17245,12 +17245,10 @@ sPreferences
 >
 mCurrentFile
 =
-std
-:
-:
-move
-(
 prefsFile
+.
+forget
+(
 )
 ;
 }

@@ -693,12 +693,10 @@ get
 ;
 stream
 =
-std
-:
-:
-move
-(
 replacement
+.
+forget
+(
 )
 ;
 uint64_t

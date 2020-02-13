@@ -2037,12 +2037,10 @@ IdleRequestCallback
 >
 callback
 (
-std
-:
-:
-move
-(
 mCallback
+.
+forget
+(
 )
 )
 ;

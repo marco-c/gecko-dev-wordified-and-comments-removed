@@ -1672,12 +1672,10 @@ IFoo
 >
 fooP2
 (
-std
-:
-:
-move
-(
 fooP
+.
+forget
+(
 )
 )
 ;

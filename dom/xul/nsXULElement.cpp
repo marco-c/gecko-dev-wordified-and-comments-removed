@@ -7605,12 +7605,10 @@ rv
 }
 child
 =
-std
-:
-:
-move
-(
 script
+.
+forget
+(
 )
 ;
 break
@@ -9320,11 +9318,6 @@ nsIOffThreadScriptReceiver
 >
 receiver
 =
-std
-:
-:
-move
-(
 (
 *
 sReceivers
@@ -9332,6 +9325,9 @@ sReceivers
 [
 index
 ]
+.
+forget
+(
 )
 ;
 sReceivers

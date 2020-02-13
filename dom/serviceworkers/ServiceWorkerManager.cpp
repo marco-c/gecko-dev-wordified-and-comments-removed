@@ -2087,11 +2087,6 @@ ServiceWorkerRegistrationInfo
 >
 old
 =
-std
-:
-:
-move
-(
 entry
 .
 Data
@@ -2100,6 +2095,9 @@ Data
 -
 >
 mRegistrationInfo
+.
+forget
+(
 )
 ;
 if
@@ -2487,11 +2485,6 @@ ServiceWorkerRegistrationInfo
 >
 reg
 =
-std
-:
-:
-move
-(
 entry
 .
 Data
@@ -2500,6 +2493,9 @@ Data
 -
 >
 mRegistrationInfo
+.
+forget
+(
 )
 ;
 entry

@@ -4726,12 +4726,10 @@ microTaskQueue
 >
 push
 (
-std
-:
-:
-move
-(
 runnable
+.
+forget
+(
 )
 )
 ;

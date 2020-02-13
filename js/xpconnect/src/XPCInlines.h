@@ -1127,12 +1127,10 @@ Member
 *
 pInterface
 =
-std
-:
-:
-move
-(
 Interface
+.
+forget
+(
 )
 ;
 return

@@ -9677,12 +9677,10 @@ rv
 ;
 mTransfer
 =
-std
-:
-:
-move
-(
 transfer
+.
+forget
+(
 )
 ;
 return

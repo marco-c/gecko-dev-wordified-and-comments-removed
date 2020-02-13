@@ -142,12 +142,10 @@ mRecentlyUsedParserAtoms
 index
 ]
 =
-std
-:
-:
-move
-(
 atom
+.
+forget
+(
 )
 ;
 return

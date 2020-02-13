@@ -916,12 +916,10 @@ rv
 ;
 mTextParent
 =
-std
-:
-:
-move
-(
 textParent
+.
+forget
+(
 )
 ;
 }

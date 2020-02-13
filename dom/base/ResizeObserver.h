@@ -278,7 +278,7 @@ ResizeObserver
 )
 ResizeObserver
 (
-nsCOMPtr
+already_AddRefed
 <
 nsPIDOMWindowInner
 >
@@ -295,13 +295,7 @@ aCb
 :
 mOwner
 (
-std
-:
-:
-move
-(
 aOwner
-)
 )
 mDocument
 (

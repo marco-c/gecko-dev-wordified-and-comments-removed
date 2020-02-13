@@ -2928,12 +2928,10 @@ mMutex
 ;
 listener
 =
-std
-:
-:
-move
-(
 mOuterListener
+.
+forget
+(
 )
 ;
 }

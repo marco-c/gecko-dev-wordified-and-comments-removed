@@ -1412,12 +1412,10 @@ TimeStamp
 Now
 (
 )
-std
-:
-:
-move
-(
 readbackTexture
+.
+forget
+(
 )
 scaledSize
 aTexture

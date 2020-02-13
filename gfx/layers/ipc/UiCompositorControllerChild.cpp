@@ -815,12 +815,10 @@ nsIWidget
 >
 widget
 =
-std
-:
-:
-move
-(
 mWidget
+.
+forget
+(
 )
 ;
 NS_ReleaseOnMainThreadSystemGroup

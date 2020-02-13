@@ -1655,7 +1655,7 @@ WorkerSyncRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsCOMPtr
+already_AddRefed
 <
 nsIEventTarget
 >
@@ -1671,13 +1671,7 @@ WorkerThreadUnchangedBusyCount
 )
 mSyncLoopTarget
 (
-std
-:
-:
-move
-(
 aSyncLoopTarget
-)
 )
 {
 #
@@ -1781,7 +1775,7 @@ MainThreadStopSyncLoopRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-nsCOMPtr
+already_AddRefed
 <
 nsIEventTarget
 >
@@ -2416,12 +2410,10 @@ new
 MainThreadStopSyncLoopRunnable
 (
 mWorkerPrivate
-std
-:
-:
-move
-(
 mSyncLoopTarget
+.
+forget
+(
 )
 runResult
 )

@@ -359,12 +359,10 @@ aContext
 >
 mContextPaint
 =
-std
-:
-:
-move
-(
 contextPaint
+.
+forget
+(
 )
 ;
 }

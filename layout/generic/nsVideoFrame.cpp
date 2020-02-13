@@ -1329,12 +1329,10 @@ Layer
 >
 result
 =
-std
-:
-:
-move
-(
 layer
+.
+forget
+(
 )
 ;
 return

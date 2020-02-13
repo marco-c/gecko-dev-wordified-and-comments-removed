@@ -1760,12 +1760,10 @@ mFile
 >
 ReleaseOutsideLock
 (
-std
-:
-:
-move
-(
 mChunk
+.
+forget
+(
 )
 )
 ;

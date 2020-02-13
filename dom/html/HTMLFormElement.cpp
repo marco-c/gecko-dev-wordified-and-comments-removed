@@ -7151,12 +7151,10 @@ rv
 ;
 actionURL
 =
-std
-:
-:
-move
-(
 upgradedActionURL
+.
+forget
+(
 )
 ;
 nsAutoCString

@@ -8639,12 +8639,10 @@ mLoadInfo
 .
 mChannel
 =
-std
-:
-:
-move
-(
 channel
+.
+forget
+(
 )
 ;
 return

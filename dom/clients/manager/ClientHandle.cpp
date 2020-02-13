@@ -562,6 +562,10 @@ __func__
 ;
 return
 outerPromise
+.
+forget
+(
+)
 ;
 }
 RefPtr
@@ -659,6 +663,10 @@ __func__
 ;
 return
 outerPromise
+.
+forget
+(
+)
 ;
 }
 RefPtr
@@ -856,6 +864,10 @@ __func__
 ;
 return
 outerPromise
+.
+forget
+(
+)
 ;
 }
 RefPtr

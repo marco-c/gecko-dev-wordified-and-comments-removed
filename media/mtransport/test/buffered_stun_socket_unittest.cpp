@@ -222,12 +222,10 @@ r
 ;
 dummy_
 =
-std
-:
-:
-move
-(
 dummy
+.
+forget
+(
 )
 ;
 r

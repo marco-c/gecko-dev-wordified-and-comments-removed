@@ -2810,12 +2810,10 @@ mapTo
 }
 mFlatURIMap
 =
-std
-:
-:
-move
-(
 flatMap
+.
+forget
+(
 )
 ;
 nsCOMPtr

@@ -1275,12 +1275,10 @@ nsIRunnable
 >
 runnable
 (
-std
-:
-:
-move
-(
 mRunnable
+.
+forget
+(
 )
 )
 ;

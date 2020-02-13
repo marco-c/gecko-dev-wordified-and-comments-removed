@@ -514,12 +514,10 @@ NS_ERROR_FAILURE
 }
 mBrowserParent
 =
-std
-:
-:
-move
-(
 browserParent
+.
+forget
+(
 )
 ;
 mBrowserParent

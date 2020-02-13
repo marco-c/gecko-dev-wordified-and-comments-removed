@@ -7346,12 +7346,10 @@ runnable
 ;
 mFinishNotificationTask
 =
-std
-:
-:
-move
-(
 runnable
+.
+forget
+(
 )
 ;
 }

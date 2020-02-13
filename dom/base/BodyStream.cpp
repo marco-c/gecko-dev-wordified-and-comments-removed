@@ -503,12 +503,10 @@ stream
 >
 mWorkerRef
 =
-std
-:
-:
-move
-(
 workerRef
+.
+forget
+(
 )
 ;
 }

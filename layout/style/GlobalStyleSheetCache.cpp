@@ -1197,12 +1197,10 @@ URLData
 *
 aSheet
 =
-std
-:
-:
-move
-(
 sheet
+.
+forget
+(
 )
 ;
 }

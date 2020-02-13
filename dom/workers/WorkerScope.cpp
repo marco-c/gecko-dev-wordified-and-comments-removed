@@ -3003,12 +3003,10 @@ return
 }
 ref
 =
-std
-:
-:
-move
-(
 swr
+.
+forget
+(
 )
 ;
 *
@@ -3021,6 +3019,10 @@ true
 ;
 return
 ref
+.
+forget
+(
+)
 ;
 }
 RefPtr
@@ -3077,6 +3079,10 @@ aDescriptor
 }
 return
 ref
+.
+forget
+(
+)
 ;
 }
 uint64_t

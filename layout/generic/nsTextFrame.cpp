@@ -28489,12 +28489,10 @@ mWebkitTextFillColor
 ;
 mSelectionPseudoStyle
 =
-std
-:
-:
-move
-(
 style
+.
+forget
+(
 )
 ;
 return

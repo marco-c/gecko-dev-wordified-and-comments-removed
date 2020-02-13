@@ -252,12 +252,10 @@ nullptr
 }
 inst
 =
-std
-:
-:
-move
-(
 clipboard
+.
+forget
+(
 )
 ;
 }

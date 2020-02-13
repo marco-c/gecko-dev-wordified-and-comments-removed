@@ -8707,12 +8707,10 @@ return
 }
 image
 =
-std
-:
-:
-move
-(
 yuvImage
+.
+forget
+(
 )
 ;
 }
