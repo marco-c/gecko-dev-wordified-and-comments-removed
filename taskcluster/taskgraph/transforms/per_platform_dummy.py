@@ -131,11 +131,31 @@ in
 unique_products_and_platforms
 :
             
+attr_denylist
+=
+(
+'
+l10n_chunk
+'
+'
+locale
+'
+'
+artifact_map
+'
+'
+artifact_prefix
+'
+)
+            
 attributes
 =
 copy_attributes_from_dependent_job
 (
 dep_task
+denylist
+=
+attr_denylist
 )
             
 attributes
