@@ -2354,7 +2354,7 @@ scriptsMallocHeapData
 script
 -
 >
-sizeOfData
+sizeOfExcludingThis
 (
 rtStats
 -
