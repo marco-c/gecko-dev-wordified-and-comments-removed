@@ -23244,30 +23244,6 @@ RECORD_AUDIO
             
 ]
             
-if
-self
-.
-version
->
-=
-version_codes
-.
-P
-:
-                
-permissions
-.
-append
-(
-'
-android
-.
-permission
-.
-FOREGROUND_SERVICE
-'
-)
-            
 self
 .
 _logger
