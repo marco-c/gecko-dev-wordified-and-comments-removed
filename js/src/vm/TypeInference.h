@@ -317,7 +317,7 @@ inline
 explicit
 AutoSweepJitScript
 (
-JSScript
+BaseScript
 *
 script
 )

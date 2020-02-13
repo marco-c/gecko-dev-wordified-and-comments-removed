@@ -51,6 +51,9 @@ namespace
 js
 {
 class
+LazyScript
+;
+class
 AccessorShape
 ;
 class
