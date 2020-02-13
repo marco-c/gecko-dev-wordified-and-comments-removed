@@ -664,6 +664,9 @@ const
 {
 return
 mSuspendCalled
+|
+|
+mCloseCalled
 ;
 }
 double
