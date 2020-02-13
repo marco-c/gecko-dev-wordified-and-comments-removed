@@ -1479,7 +1479,7 @@ onAnimationStateChanged
 {
 this
 .
-updateState
+fireUpdateAction
 (
 [
 .
@@ -1697,7 +1697,7 @@ animations
 await
 this
 .
-updateAnimations
+refreshAnimationsState
 (
 animations
 )
@@ -1722,7 +1722,7 @@ return
 }
 this
 .
-updateState
+fireUpdateAction
 (
 animations
 .
@@ -2165,7 +2165,7 @@ animations
 await
 this
 .
-updateAnimations
+refreshAnimationsState
 (
 animations
 )
@@ -2199,7 +2199,7 @@ shouldRefresh
 {
 this
 .
-updateState
+fireUpdateAction
 (
 animations
 )
@@ -2246,7 +2246,7 @@ animations
 await
 this
 .
-updateAnimations
+refreshAnimationsState
 (
 animations
 )
@@ -2280,7 +2280,7 @@ true
 await
 this
 .
-updateState
+fireUpdateAction
 (
 animations
 )
@@ -2449,7 +2449,7 @@ animations
 await
 this
 .
-updateAnimations
+refreshAnimationsState
 (
 animations
 )
@@ -2473,7 +2473,7 @@ return
 await
 this
 .
-updateState
+fireUpdateAction
 (
 animations
 )
@@ -2983,7 +2983,7 @@ nodeFront
 ;
 this
 .
-updateState
+fireUpdateAction
 (
 animations
 )
@@ -3001,7 +3001,7 @@ done
 ;
 }
 async
-updateAnimations
+refreshAnimationsState
 (
 animations
 )
@@ -3108,7 +3108,7 @@ type
 )
 ;
 }
-updateState
+fireUpdateAction
 (
 animations
 )
