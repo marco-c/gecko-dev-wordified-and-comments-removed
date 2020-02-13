@@ -75,8 +75,9 @@ virtual
 LegacySHistory
 (
 )
-{
-}
+=
+default
+;
 void
 EvictOutOfRangeWindowContentViewers
 (

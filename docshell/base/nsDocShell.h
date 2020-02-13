@@ -666,8 +666,9 @@ InterfaceRequestorProxy
 InterfaceRequestorProxy
 (
 )
-{
-}
+=
+default
+;
 nsWeakPtr
 mWeakPtr
 ;
