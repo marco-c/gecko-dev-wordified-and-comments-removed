@@ -8604,16 +8604,9 @@ globals
 set
 (
 "
-aboutNewTabService
+AboutNewTabStartupRecorder
 "
 {
-overridden
-:
-false
-newTabURL
-:
-"
-"
 maybeRecordTopsitesPainted
 :
 spy
