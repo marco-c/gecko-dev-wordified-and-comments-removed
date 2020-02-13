@@ -1454,7 +1454,6 @@ visibility
 visible
 "
 ;
-await
 this
 .
 setupSidebar
@@ -3369,7 +3368,6 @@ setupToolbar
 (
 )
 ;
-await
 this
 .
 addRuleView
@@ -3507,7 +3505,6 @@ sidebarSplitboxWidth
 )
 ;
 }
-async
 addRuleView
 (
 {
@@ -3568,7 +3565,6 @@ ruleview
 "
 )
 ;
-await
 this
 .
 sidebar
@@ -3700,7 +3696,6 @@ hide
 (
 )
 ;
-await
 this
 .
 ruleViewSideBar
@@ -4222,7 +4217,6 @@ return
 panel
 ;
 }
-async
 setupSidebar
 (
 )
@@ -4398,7 +4392,6 @@ layoutview
 "
 ;
 }
-await
 this
 .
 addRuleView

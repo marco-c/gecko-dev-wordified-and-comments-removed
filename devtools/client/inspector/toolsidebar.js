@@ -479,7 +479,6 @@ index
 )
 ;
 }
-async
 removeTab
 (
 tabId
