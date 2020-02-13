@@ -2272,6 +2272,7 @@ aRange
 bool
 aSelect
 )
+const
 ;
 void
 SelectFramesInAllRanges

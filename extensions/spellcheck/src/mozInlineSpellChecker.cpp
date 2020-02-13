@@ -5661,8 +5661,10 @@ index
 -
 )
 {
+RefPtr
+<
 nsRange
-*
+>
 checkRange
 =
 spellCheckSelection

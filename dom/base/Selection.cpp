@@ -6442,6 +6442,7 @@ aRange
 bool
 aSelect
 )
+const
 {
 if
 (
@@ -8869,6 +8870,15 @@ IgnoreErrors
 )
 ;
 }
+if
+(
+!
+mFrameSelection
+)
+{
+return
+;
+}
 RefPtr
 <
 nsPresContext
@@ -8885,13 +8895,6 @@ presContext
 range
 true
 )
-;
-if
-(
-!
-mFrameSelection
-)
-return
 ;
 RefPtr
 <
