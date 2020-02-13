@@ -4439,6 +4439,17 @@ BaseScript
 ImmutableFlags
 :
 :
+IsLazyScript
+)
+|
+uint32_t
+(
+BaseScript
+:
+:
+ImmutableFlags
+:
+:
 TreatAsRunOnce
 )
 ;
