@@ -2869,6 +2869,7 @@ CollapseAdjacentTextNodes
 (
 MOZ_KnownLive
 (
+*
 TopLevelEditSubActionDataRef
 (
 )
