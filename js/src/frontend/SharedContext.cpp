@@ -784,10 +784,6 @@ hasThisBinding_
 (
 false
 )
-hasInnerFunctions_
-(
-false
-)
 nargs_
 (
 0

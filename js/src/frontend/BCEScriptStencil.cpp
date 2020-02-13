@@ -321,6 +321,17 @@ hasModuleGoal
 (
 )
 ;
+hasInnerFunctions
+=
+bce_
+.
+sc
+-
+>
+hasInnerFunctions
+(
+)
+;
 code
 =
 bce_

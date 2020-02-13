@@ -1706,6 +1706,11 @@ hasModuleGoal
 =
 false
 ;
+bool
+hasInnerFunctions
+=
+false
+;
 mozilla
 :
 :
