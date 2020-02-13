@@ -72,8 +72,9 @@ nsControllerCommandTable
 nsControllerCommandTable
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsControllerCommandTable

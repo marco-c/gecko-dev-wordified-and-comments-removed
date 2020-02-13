@@ -91,8 +91,9 @@ nsCommandParams
 nsCommandParams
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsCommandParams
 :

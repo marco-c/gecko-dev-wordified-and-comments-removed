@@ -87,8 +87,9 @@ nsBaseCommandController
 nsBaseCommandController
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsBaseCommandController
 :
