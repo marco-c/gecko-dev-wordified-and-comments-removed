@@ -615,6 +615,15 @@ emitForTests
 {
 }
 hud
+getAllProxies
+:
+(
+)
+=
+>
+[
+proxy
+]
 proxy
 clearNetworkRequests
 :
