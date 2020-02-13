@@ -115,8 +115,9 @@ aValue
 AutoRecordAtomicAccess
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template

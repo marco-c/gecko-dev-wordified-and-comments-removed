@@ -84,8 +84,9 @@ _Length
 Array
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

@@ -1897,8 +1897,9 @@ constexpr
 DefaultDelete
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename
@@ -1993,8 +1994,9 @@ constexpr
 DefaultDelete
 (
 )
-{
-}
+=
+default
+;
 void
 operator
 (

@@ -103,8 +103,9 @@ virtual
 JSONWriteFunc
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 namespace

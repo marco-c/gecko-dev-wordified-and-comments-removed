@@ -75,8 +75,9 @@ public
 SequenceGenerator
 (
 )
-{
-}
+=
+default
+;
 void
 Get
 (
@@ -157,8 +158,9 @@ public
 SequenceVerifier
 (
 )
-{
-}
+=
+default
+;
 void
 Check
 (

@@ -1197,8 +1197,9 @@ virtual
 NE3
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct
@@ -2025,8 +2026,9 @@ DefaultCtor0
 DefaultCtor0
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct
@@ -2046,8 +2048,9 @@ DefaultCtor2
 DefaultCtor2
 (
 )
-{
-}
+=
+default
+;
 explicit
 DefaultCtor2
 (
@@ -2086,8 +2089,9 @@ PrivateCtor0
 PrivateCtor0
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

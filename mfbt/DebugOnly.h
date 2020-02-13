@@ -36,8 +36,9 @@ value
 DebugOnly
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 DebugOnly
 (
@@ -180,8 +181,9 @@ else
 DebugOnly
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 DebugOnly
 (
