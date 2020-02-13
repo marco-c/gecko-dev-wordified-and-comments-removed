@@ -581,7 +581,7 @@ src
 >
 {
 let
-frame
+subFrame
 =
 this
 .
@@ -596,7 +596,7 @@ iframe
 "
 )
 ;
-frame
+subFrame
 .
 src
 =
@@ -612,7 +612,7 @@ body
 .
 appendChild
 (
-frame
+subFrame
 )
 ;
 await
@@ -623,7 +623,7 @@ resolve
 =
 >
 {
-frame
+subFrame
 .
 addEventListener
 (
@@ -646,7 +646,7 @@ SpecialPowers
 .
 spawn
 (
-frame
+subFrame
 [
 ]
 (
