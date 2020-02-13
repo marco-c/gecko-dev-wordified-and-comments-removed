@@ -116,6 +116,12 @@ count
 1
 )
 {
+CacheFileAutoLock
+lock
+(
+mFile
+)
+;
 mFile
 -
 >
