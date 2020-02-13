@@ -108,6 +108,9 @@ hud
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_DOC
 )
 ;

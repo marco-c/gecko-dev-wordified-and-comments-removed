@@ -108,6 +108,9 @@ TEST_URI
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_FILE
 )
 ;

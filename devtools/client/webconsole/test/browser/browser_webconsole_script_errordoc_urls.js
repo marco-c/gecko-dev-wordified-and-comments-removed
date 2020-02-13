@@ -231,6 +231,9 @@ expectUncaughtException
 await
 loadDocument
 (
+hud
+.
+toolbox
 makeURIData
 (
 testData

@@ -221,8 +221,12 @@ warnings
 "
 )
 ;
+await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_VIOLATION
 )
 ;

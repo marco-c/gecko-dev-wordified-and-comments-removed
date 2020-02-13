@@ -167,6 +167,7 @@ open
 await
 loadDocument
 (
+toolbox
 TEST_PATH
 )
 ;

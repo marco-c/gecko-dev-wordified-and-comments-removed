@@ -125,6 +125,9 @@ TEST_FILE
 await
 loadDocument
 (
+hud
+.
+toolbox
 documentUrl
 )
 ;

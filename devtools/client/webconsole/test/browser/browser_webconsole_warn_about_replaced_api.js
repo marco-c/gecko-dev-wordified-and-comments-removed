@@ -120,6 +120,9 @@ closeToolbox
 await
 loadDocument
 (
+hud
+.
+toolbox
 TEST_URI_REPLACED
 )
 ;

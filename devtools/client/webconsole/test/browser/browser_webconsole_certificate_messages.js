@@ -256,6 +256,9 @@ SHA
 await
 loadDocument
 (
+hud
+.
+toolbox
 SHA1_URL
 )
 ;
@@ -354,6 +357,9 @@ TRIGGER_MSG
 await
 loadDocument
 (
+hud
+.
+toolbox
 SHA256_URL
 )
 ;
@@ -521,6 +527,9 @@ TRIGGER_MSG
 await
 loadDocument
 (
+hud
+.
+toolbox
 TLS_1_0_URL
 )
 ;
