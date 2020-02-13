@@ -177,7 +177,7 @@ u16
 >
 Self
 {
-Http3ServerHandler
+Self
 {
 base_handler
 :

@@ -206,7 +206,7 @@ HFrameType
 match
 self
 {
-HFrame
+Self
 :
 :
 Data
@@ -217,7 +217,7 @@ Data
 =
 >
 H3_FRAME_TYPE_DATA
-HFrame
+Self
 :
 :
 Headers
@@ -228,7 +228,7 @@ Headers
 =
 >
 H3_FRAME_TYPE_HEADERS
-HFrame
+Self
 :
 :
 CancelPush
@@ -239,7 +239,7 @@ CancelPush
 =
 >
 H3_FRAME_TYPE_CANCEL_PUSH
-HFrame
+Self
 :
 :
 Settings
@@ -250,7 +250,7 @@ Settings
 =
 >
 H3_FRAME_TYPE_SETTINGS
-HFrame
+Self
 :
 :
 PushPromise
@@ -261,7 +261,7 @@ PushPromise
 =
 >
 H3_FRAME_TYPE_PUSH_PROMISE
-HFrame
+Self
 :
 :
 Goaway
@@ -272,7 +272,7 @@ Goaway
 =
 >
 H3_FRAME_TYPE_GOAWAY
-HFrame
+Self
 :
 :
 MaxPushId
@@ -283,7 +283,7 @@ MaxPushId
 =
 >
 H3_FRAME_TYPE_MAX_PUSH_ID
-HFrame
+Self
 :
 :
 DuplicatePush
@@ -323,7 +323,7 @@ get_type
 match
 self
 {
-HFrame
+Self
 :
 :
 Data
@@ -331,7 +331,7 @@ Data
 len
 }
 |
-HFrame
+Self
 :
 :
 Headers
@@ -350,7 +350,7 @@ len
 )
 ;
 }
-HFrame
+Self
 :
 :
 CancelPush
@@ -380,7 +380,7 @@ push_id
 )
 ;
 }
-HFrame
+Self
 :
 :
 Settings
@@ -398,7 +398,7 @@ enc
 )
 ;
 }
-HFrame
+Self
 :
 :
 PushPromise
@@ -451,7 +451,7 @@ header_block
 )
 ;
 }
-HFrame
+Self
 :
 :
 Goaway
@@ -481,7 +481,7 @@ stream_id
 )
 ;
 }
-HFrame
+Self
 :
 :
 MaxPushId
@@ -511,7 +511,7 @@ push_id
 )
 ;
 }
-HFrame
+Self
 :
 :
 DuplicatePush
@@ -560,7 +560,7 @@ bool
 match
 self
 {
-HFrame
+Self
 :
 :
 Data
@@ -580,7 +580,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 Headers
@@ -600,7 +600,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 CancelPush
@@ -619,7 +619,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 Settings
@@ -638,7 +638,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 PushPromise
@@ -657,7 +657,7 @@ HStreamType
 :
 Request
 )
-HFrame
+Self
 :
 :
 Goaway
@@ -676,7 +676,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 MaxPushId
@@ -695,7 +695,7 @@ HStreamType
 :
 Control
 )
-HFrame
+Self
 :
 :
 DuplicatePush
@@ -798,9 +798,9 @@ new
 )
 -
 >
-HFrameReader
+Self
 {
-HFrameReader
+Self
 {
 state
 :

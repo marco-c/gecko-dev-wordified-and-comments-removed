@@ -16,6 +16,17 @@ warnings
 )
 )
 ]
+#
+!
+[
+warn
+(
+clippy
+:
+:
+pedantic
+)
+]
 use
 neqo_common
 :
@@ -44,7 +55,7 @@ INITIAL_PACKET
 str
 =
 "
-c0ff000018088394c8f03e5157080000
+c0ff000019088394c8f03e5157080000
 \
 449e3b343aa8535064a4268a0d9d7b1c
 \
@@ -192,7 +203,7 @@ d2bee680d8f41a597c262648bb18bcfc
 \
 4709865bac824a94bb19058015e4e42d
 \
-0488c1b9a230f7c894193cbb54ae795e
+aebe13f98ec51170a4aad0a8324bb768
 "
 ;
 #
