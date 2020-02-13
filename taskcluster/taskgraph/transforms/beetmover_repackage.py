@@ -539,7 +539,7 @@ signing
 build_name
 =
 "
-nightly
+shippable
 -
 l10n
 "

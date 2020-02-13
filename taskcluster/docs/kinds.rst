@@ -430,9 +430,11 @@ Desktop_l10n_jobs_
 >
 _
 .
-nightly
+shippable
 -
 l10n
+-
+-
 -
 -
 -
@@ -508,7 +510,7 @@ takes
 artifacts
 from
 the
-nightly
+shippable
 -
 l10n
 kind
@@ -538,7 +540,7 @@ is
 created
 for
 each
-nightly
+shippable
 -
 l10n
 job

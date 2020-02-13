@@ -1160,7 +1160,7 @@ For
 the
 l10n
 and
-nightly
+shippable
 -
 l10n
 kinds
@@ -1235,7 +1235,7 @@ For
 the
 l10n
 and
-nightly
+shippable
 -
 l10n
 kinds
@@ -1274,7 +1274,7 @@ For
 the
 l10n
 and
-nightly
+shippable
 -
 l10n
 kinds
