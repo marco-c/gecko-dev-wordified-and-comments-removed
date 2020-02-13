@@ -463,10 +463,10 @@ hsivonen
 /
 packed_simd
 "
-branch
+rev
 =
 "
-rust_1_32
+3541e3818fdc7c2a24f87e3459151a4ce955a67a
 "
 }
 rlbox_lucet_sandbox
@@ -491,7 +491,7 @@ rlbox_lucet_sandbox
 rev
 =
 "
-5f8bca975d8206e4837786d6bdb57a5c2fbd4016
+6ddc15b70f0d902241742fd55c689649cad100f8
 "
 }
 nix
