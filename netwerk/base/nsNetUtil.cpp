@@ -13455,14 +13455,6 @@ currentContentType
 if
 (
 !
-currentContentType
-.
-IsEmpty
-(
-)
-&
-&
-!
 StringBeginsWith
 (
 currentContentType
