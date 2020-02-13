@@ -2797,10 +2797,12 @@ mFrame
 >
 mImageContainer
 =
-image
-.
-forget
+std
+:
+:
+move
 (
+image
 )
 ;
 }

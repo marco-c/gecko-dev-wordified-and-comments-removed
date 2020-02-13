@@ -522,7 +522,7 @@ GetSubscriptionResultRunnable
 WorkerPrivate
 *
 aWorkerPrivate
-already_AddRefed
+RefPtr
 <
 PromiseWorkerProxy
 >
@@ -944,10 +944,12 @@ new
 GetSubscriptionResultRunnable
 (
 worker
-mProxy
-.
-forget
+std
+:
+:
+move
 (
+mProxy
 )
 aStatus
 endpoint

@@ -4850,7 +4850,7 @@ Scope
 nsIClassInfo
 *
 ClassInfo
-already_AddRefed
+RefPtr
 <
 XPCNativeSet
 >
@@ -6131,7 +6131,7 @@ delete
 ;
 XPCWrappedNative
 (
-already_AddRefed
+nsCOMPtr
 <
 nsISupports
 >
@@ -6145,7 +6145,7 @@ aProto
 ;
 XPCWrappedNative
 (
-already_AddRefed
+nsCOMPtr
 <
 nsISupports
 >
@@ -6155,7 +6155,7 @@ aIdentity
 XPCWrappedNativeScope
 *
 aScope
-already_AddRefed
+RefPtr
 <
 XPCNativeSet
 >

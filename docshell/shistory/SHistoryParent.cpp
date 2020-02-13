@@ -1451,10 +1451,12 @@ else
 *
 aEntry
 =
-shEntry
-.
-forget
+std
+:
+:
+move
 (
+shEntry
 )
 ;
 *

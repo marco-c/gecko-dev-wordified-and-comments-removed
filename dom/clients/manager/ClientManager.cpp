@@ -853,10 +853,6 @@ __func__
 ;
 return
 promise
-.
-forget
-(
-)
 ;
 }
 already_AddRefed

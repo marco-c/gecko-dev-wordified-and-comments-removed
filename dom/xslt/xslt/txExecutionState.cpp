@@ -2196,10 +2196,12 @@ txParameterMap
 >
 oldParams
 =
-mTemplateParams
-.
-forget
+std
+:
+:
+move
 (
+mTemplateParams
 )
 ;
 mTemplateParams

@@ -2673,10 +2673,12 @@ cv
 {
 cv
 =
-parentContentViewer
-.
-forget
+std
+:
+:
+move
 (
+parentContentViewer
 )
 ;
 }

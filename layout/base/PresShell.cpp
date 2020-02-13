@@ -20202,10 +20202,12 @@ nsIContent
 >
 lastAnchor
 =
-mLastAnchorScrolledTo
-.
-forget
+std
+:
+:
+move
 (
+mLastAnchorScrolledTo
 )
 ;
 if

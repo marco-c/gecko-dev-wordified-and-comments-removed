@@ -138,10 +138,12 @@ Init
 ;
 gConnService
 =
-service
-.
-forget
+std
+:
+:
+move
 (
+service
 )
 ;
 ClearOnShutdown

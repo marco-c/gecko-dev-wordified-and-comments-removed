@@ -203,10 +203,12 @@ nsIRunnable
 >
 r
 =
-mWrappedRunnable
-.
-forget
+std
+:
+:
+move
 (
+mWrappedRunnable
 )
 ;
 return

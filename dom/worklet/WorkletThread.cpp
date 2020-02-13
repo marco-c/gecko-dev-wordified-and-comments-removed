@@ -623,10 +623,12 @@ GetMicroTaskQueue
 .
 push
 (
-runnable
-.
-forget
+std
+:
+:
+move
 (
+runnable
 )
 )
 ;

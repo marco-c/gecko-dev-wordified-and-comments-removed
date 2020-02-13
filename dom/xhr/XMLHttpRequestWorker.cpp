@@ -3183,10 +3183,12 @@ new
 MainThreadStopSyncLoopRunnable
 (
 mWorkerPrivate
-mSyncLoopTarget
-.
-forget
+std
+:
+:
+move
 (
+mSyncLoopTarget
 )
 false
 )

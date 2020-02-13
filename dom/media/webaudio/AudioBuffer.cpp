@@ -997,10 +997,12 @@ mSharedChannels
 .
 mBuffer
 =
-buffer
-.
-forget
+std
+:
+:
+move
 (
+buffer
 )
 ;
 mSharedChannels

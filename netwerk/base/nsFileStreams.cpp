@@ -1196,10 +1196,12 @@ mOpenParams
 .
 localFile
 =
-file
-.
-forget
+std
+:
+:
+move
 (
+file
 )
 ;
 NS_ENSURE_TRUE

@@ -1051,7 +1051,7 @@ NS_ERROR_FAILURE
 explicit
 CreateNodeResultBase
 (
-already_AddRefed
+RefPtr
 <
 NodeType
 >
@@ -1062,7 +1062,13 @@ aNode
 :
 mNode
 (
+std
+:
+:
+move
+(
 aNode
+)
 )
 mRv
 (

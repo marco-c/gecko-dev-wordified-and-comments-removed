@@ -600,10 +600,12 @@ rv
 ;
 mThread
 =
-thread
-.
-forget
+std
+:
+:
+move
 (
+thread
 )
 ;
 return

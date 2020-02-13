@@ -17614,12 +17614,14 @@ mCursor
 ;
 container
 =
+std
+:
+:
+move
+(
 customCursor
 .
 mContainer
-.
-forget
-(
 )
 ;
 hotspot

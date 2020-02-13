@@ -1661,10 +1661,12 @@ NS_ERROR_OUT_OF_MEMORY
 }
 stream
 =
-uploadStream
-.
-forget
+std
+:
+:
+move
 (
+uploadStream
 )
 ;
 mContentLength

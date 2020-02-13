@@ -10915,10 +10915,12 @@ vsyncRefreshDriverTimer
 }
 sRegularRateTimer
 =
-vsyncRefreshDriverTimer
-.
-forget
+std
+:
+:
+move
 (
+vsyncRefreshDriverTimer
 )
 ;
 }

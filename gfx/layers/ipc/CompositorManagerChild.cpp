@@ -282,10 +282,12 @@ true
 ;
 sInstance
 =
-child
-.
-forget
+std
+:
+:
+move
 (
+child
 )
 ;
 }

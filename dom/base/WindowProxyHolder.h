@@ -82,7 +82,7 @@ null
 explicit
 WindowProxyHolder
 (
-already_AddRefed
+RefPtr
 <
 BrowsingContext
 >
@@ -157,7 +157,7 @@ WindowProxyHolder
 operator
 =
 (
-already_AddRefed
+RefPtr
 <
 BrowsingContext
 >

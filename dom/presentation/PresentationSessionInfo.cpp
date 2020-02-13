@@ -3943,10 +3943,12 @@ nsIPresentationServiceCallback
 >
 callback
 =
-mReconnectCallback
-.
-forget
+std
+:
+:
+move
 (
+mReconnectCallback
 )
 ;
 if

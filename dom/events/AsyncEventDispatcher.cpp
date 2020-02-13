@@ -116,10 +116,12 @@ EmptyString
 ;
 mEvent
 =
-event
-.
-forget
+std
+:
+:
+move
 (
+event
 )
 ;
 mEventType
