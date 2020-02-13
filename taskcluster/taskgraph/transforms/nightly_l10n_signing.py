@@ -101,7 +101,7 @@ dependency
 symbol
 =
 '
-Ns
+Bs
 {
 }
 '
