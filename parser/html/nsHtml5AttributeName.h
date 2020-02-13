@@ -1340,6 +1340,11 @@ ATTR_HEADERS
 static
 nsHtml5AttributeName
 *
+ATTR_LOADING
+;
+static
+nsHtml5AttributeName
+*
 ATTR_READONLY
 ;
 static
