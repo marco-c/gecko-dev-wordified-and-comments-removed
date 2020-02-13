@@ -64,15 +64,6 @@ aDwriteVersion
 override
 ;
 NS_IMETHOD
-GetHasBattery
-(
-bool
-*
-aHasBattery
-)
-override
-;
-NS_IMETHOD
 GetWindowProtocol
 (
 nsAString

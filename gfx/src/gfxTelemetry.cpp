@@ -363,17 +363,6 @@ case
 FeatureStatus
 :
 :
-Denied
-:
-return
-"
-denied
-"
-;
-case
-FeatureStatus
-:
-:
 Blacklisted
 :
 return
