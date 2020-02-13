@@ -407,8 +407,7 @@ GetData
 (
 )
 override
-{
-}
+;
 static
 void
 AddCollector
@@ -508,6 +507,16 @@ EmptyString
 virtual
 uint32_t
 OperatingSystemVersion
+(
+)
+{
+return
+0
+;
+}
+virtual
+uint32_t
+OperatingSystemBuild
 (
 )
 {
@@ -727,6 +736,9 @@ bool
 _retval
 )
 override
+;
+int64_t
+mScreenPixels
 ;
 private
 :
