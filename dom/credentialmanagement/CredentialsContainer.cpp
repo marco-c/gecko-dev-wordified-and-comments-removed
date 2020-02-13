@@ -498,8 +498,9 @@ CredentialsContainer
 CredentialsContainer
 (
 )
-{
-}
+=
+default
+;
 void
 CredentialsContainer
 :
