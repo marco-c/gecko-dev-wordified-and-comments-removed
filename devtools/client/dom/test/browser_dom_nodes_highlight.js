@@ -53,7 +53,7 @@ getToolbox
 (
 panel
 .
-target
+currentTarget
 )
 ;
 info
