@@ -177,7 +177,7 @@ include
 "
 jit
 /
-IonBuilder
+IonCompileTask
 .
 h
 "
@@ -1089,7 +1089,6 @@ atomsZone
 >
 init
 (
-true
 )
 )
 {
@@ -1104,6 +1103,15 @@ atomsZone
 atomsZone
 .
 release
+(
+)
+;
+gc
+.
+atomsZone
+-
+>
+setIsAtomsZone
 (
 )
 ;

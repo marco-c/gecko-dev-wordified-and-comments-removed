@@ -47,6 +47,15 @@ Compartment
 .
 h
 "
+#
+include
+"
+vm
+/
+Runtime
+.
+h
+"
 struct
 JSRuntime
 ;
