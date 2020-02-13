@@ -219,7 +219,6 @@ image
 :
 :
 {
-ColorStop
 EndingShape
 as
 GradientEndingShape

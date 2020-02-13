@@ -618,7 +618,6 @@ image
 :
 :
 {
-ColorStop
 EndingShape
 as
 GradientEndingShape
@@ -634,7 +633,6 @@ image
 :
 :
 {
-GradientItem
 GradientKind
 Image
 MozImageRect
