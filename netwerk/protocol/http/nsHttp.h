@@ -126,7 +126,7 @@ kHttp3VersionHEX
 ]
 =
 "
-ff00000019
+ff00000018
 "
 ;
 #

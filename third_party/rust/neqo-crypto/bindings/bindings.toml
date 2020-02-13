@@ -134,9 +134,6 @@ SSL_NamedGroupConfig
 SSL_OptionSet
 "
 "
-SSL_OptionGetDefault
-"
-"
 SSL_PeerCertificate
 "
 "

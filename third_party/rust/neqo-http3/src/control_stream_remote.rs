@@ -132,9 +132,9 @@ new
 )
 -
 >
-Self
+ControlStreamRemote
 {
-Self
+ControlStreamRemote
 {
 stream_id
 :

@@ -260,12 +260,12 @@ u16
 >
 Res
 <
-Self
+Http3Server
 >
 {
 Ok
 (
-Self
+Http3Server
 {
 server
 :

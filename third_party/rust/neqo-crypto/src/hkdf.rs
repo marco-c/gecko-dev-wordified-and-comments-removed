@@ -153,6 +153,7 @@ PK11SymKey
 )
 )
 ;
+pub
 fn
 key_size
 (
@@ -225,6 +226,9 @@ Version
 cipher
 :
 Cipher
+size
+:
+usize
 )
 -
 >
@@ -240,13 +244,9 @@ cipher
 &
 random
 (
-key_size
-(
-version
-cipher
+size
 )
 ?
-)
 )
 }
 pub
