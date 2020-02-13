@@ -975,7 +975,6 @@ CHROME_URI
 DISPLAY_MODE
 ALLOW_JAVASCRIPT
 SCREEN_ID
-USE_MULTIPROCESS
 USE_PRIVATE_MODE
 USE_TRACKING_PROTECTION
 FULL_ACCESSIBILITY_TREE
@@ -3757,15 +3756,6 @@ GeckoSessionSettings
 .
 Builder
 (
-)
-.
-useMultiprocess
-(
-env
-.
-isMultiprocess
-(
-)
 )
 .
 build
