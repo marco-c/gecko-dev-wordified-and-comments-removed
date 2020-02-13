@@ -204,6 +204,11 @@ protocol
 .
 h
 '
+'
+va_drmcommon
+.
+h
+'
 ]
 include
 (
