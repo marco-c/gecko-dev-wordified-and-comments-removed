@@ -84,6 +84,11 @@ EditorToolbar
 js
 '
 '
+EvaluationSelector
+.
+js
+'
+'
 JSTerm
 .
 js

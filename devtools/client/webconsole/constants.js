@@ -385,6 +385,17 @@ input
 .
 editorOnboarding
 "
+CONTEXT_SELECTOR
+:
+"
+devtools
+.
+webconsole
+.
+input
+.
+context
+"
 }
 FEATURES
 :
