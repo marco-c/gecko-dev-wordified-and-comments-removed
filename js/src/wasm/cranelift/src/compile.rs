@@ -1236,13 +1236,13 @@ func
 stack_slots
 ;
 for
-ebb
+block
 in
 func
 .
 layout
 .
-ebbs
+blocks
 (
 )
 {
@@ -1263,7 +1263,7 @@ func
 .
 inst_offsets
 (
-ebb
+block
 &
 encinfo
 )
@@ -2863,7 +2863,7 @@ a
 >
 {
 fn
-reloc_ebb
+reloc_block
 (
 &
 mut
@@ -2874,7 +2874,7 @@ CodeOffset
 _reloc
 :
 Reloc
-_ebb_offset
+_block_offset
 :
 CodeOffset
 )
