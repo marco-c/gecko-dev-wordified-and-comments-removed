@@ -461,6 +461,12 @@ errorStrings
 [
 ]
 ;
+let
+infoStrings
+=
+[
+]
+;
 for
 (
 let
@@ -561,7 +567,10 @@ errorString
 }
 }
 return
+{
 errorStrings
+infoStrings
+}
 ;
 }
 )

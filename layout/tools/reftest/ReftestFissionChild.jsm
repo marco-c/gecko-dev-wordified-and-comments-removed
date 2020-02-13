@@ -29,6 +29,7 @@ case
 UpdateLayerTree
 "
 :
+{
 let
 errorString
 =
@@ -83,11 +84,13 @@ errorString
 }
 )
 ;
+}
 case
 "
 FlushRendering
 "
 :
+{
 let
 errorStrings
 =
@@ -228,6 +231,7 @@ e
 n
 "
 )
+;
 }
 }
 if
@@ -259,6 +263,7 @@ location
 .
 href
 )
+;
 anyPendingPaintsGeneratedInDescendants
 =
 true
@@ -412,6 +417,7 @@ infoStrings
 }
 )
 ;
+}
 }
 }
 }
