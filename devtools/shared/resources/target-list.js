@@ -257,6 +257,7 @@ actorID
 return
 ;
 }
+await
 this
 .
 onTargetAvailable
@@ -435,6 +436,7 @@ actorID
 continue
 ;
 }
+await
 this
 .
 onTargetAvailable
@@ -603,6 +605,7 @@ add
 target
 )
 ;
+await
 this
 .
 onTargetAvailable
@@ -892,11 +895,12 @@ _getTargetType
 targetFront
 )
 ;
+await
 this
 .
 _createListeners
 .
-emit
+emitAsync
 (
 targetType
 {
@@ -1774,6 +1778,7 @@ targetFront
 =
 newTarget
 ;
+await
 this
 .
 _onTargetAvailable
