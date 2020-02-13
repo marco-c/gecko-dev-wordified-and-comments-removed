@@ -1162,6 +1162,10 @@ radial_gradient_brush_vs
 )
 FWD_DECLARE_VS_FUNCTION
 (
+conic_gradient_brush_vs
+)
+FWD_DECLARE_VS_FUNCTION
+(
 yuv_brush_vs
 )
 FWD_DECLARE_VS_FUNCTION
@@ -1903,6 +1907,11 @@ linear_gradient_brush_fs
 ;
 Fragment
 radial_gradient_brush_fs
+(
+)
+;
+Fragment
+conic_gradient_brush_fs
 (
 )
 ;

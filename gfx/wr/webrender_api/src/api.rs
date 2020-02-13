@@ -4363,6 +4363,9 @@ LinearGradient
 radial_grad
 :
 RadialGradient
+conic_grad
+:
+ConicGradient
 picture
 :
 Picture
