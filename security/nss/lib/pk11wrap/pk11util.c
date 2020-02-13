@@ -317,6 +317,9 @@ void
 #
 ifdef
 LINUX
+#
+ifndef
+NSS_FIPS_DISABLED
 FILE
 *
 f
@@ -404,6 +407,8 @@ return
 1
 ;
 }
+#
+endif
 #
 endif
 return

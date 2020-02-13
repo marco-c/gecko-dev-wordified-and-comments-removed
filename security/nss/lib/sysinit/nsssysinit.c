@@ -532,6 +532,9 @@ W_OK
 )
 ;
 }
+#
+ifndef
+NSS_FIPS_DISABLED
 static
 PRBool
 getFIPSEnv
@@ -626,6 +629,8 @@ return
 PR_FALSE
 ;
 }
+#
+endif
 static
 PRBool
 getFIPSMode
@@ -633,6 +638,9 @@ getFIPSMode
 void
 )
 {
+#
+ifndef
+NSS_FIPS_DISABLED
 FILE
 *
 f
@@ -715,6 +723,13 @@ PR_FALSE
 return
 PR_TRUE
 ;
+#
+else
+return
+PR_FALSE
+;
+#
+endif
 }
 #
 define
