@@ -944,11 +944,21 @@ in
 tasklist
 ]
     
+if
+longest_paths
+:
+        
 return
 max
 (
 longest_paths
 )
+    
+else
+:
+        
+return
+0
 def
 determine_quantile
 (
