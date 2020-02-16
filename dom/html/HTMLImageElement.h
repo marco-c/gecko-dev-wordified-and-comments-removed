@@ -1554,9 +1554,6 @@ StartLoadingIfNeeded
 bool
 mInDocResponsiveContent
 ;
-bool
-mLazyLoading
-;
 RefPtr
 <
 ImageLoadTask

@@ -572,6 +572,10 @@ mUseUrgentStartForChannel
 (
 false
 )
+mLazyLoading
+(
+false
+)
 mStateChangerDepth
 (
 0
@@ -5615,6 +5619,12 @@ if
 mCurrentRequest
 )
 {
+if
+(
+!
+mLazyLoading
+)
+{
 mBroken
 =
 true
@@ -5624,6 +5634,7 @@ RejectDecodePromises
 NS_ERROR_DOM_IMAGE_BROKEN
 )
 ;
+}
 }
 else
 {
