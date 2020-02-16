@@ -221,7 +221,7 @@ never_settled
 const
 assertion
 =
-promise_rejects
+promise_rejects_dom
 (
 t
 '

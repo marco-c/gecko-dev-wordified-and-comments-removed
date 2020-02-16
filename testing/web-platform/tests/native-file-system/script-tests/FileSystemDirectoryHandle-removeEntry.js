@@ -78,7 +78,7 @@ keep
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -147,7 +147,7 @@ remove
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -264,7 +264,7 @@ keep
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -363,7 +363,7 @@ dir
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

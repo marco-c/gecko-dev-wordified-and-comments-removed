@@ -9,7 +9,7 @@ root
 >
 {
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -515,7 +515,7 @@ root
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -534,7 +534,7 @@ name
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -558,7 +558,7 @@ false
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

@@ -626,7 +626,7 @@ canMakePaymentPromise
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -642,7 +642,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -661,7 +661,7 @@ be
 closed
 "
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -813,7 +813,7 @@ await
 abortPromise
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -823,7 +823,7 @@ acceptPromise
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "

@@ -142,7 +142,7 @@ signal
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -232,7 +232,7 @@ cors
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -532,7 +532,7 @@ request
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -617,7 +617,7 @@ requestFromRequest
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -706,7 +706,7 @@ requestFromRequest
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -810,7 +810,7 @@ requestFromRequest
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -904,7 +904,7 @@ POST
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -1413,7 +1413,7 @@ microtask
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -1753,7 +1753,7 @@ fetches
 )
 {
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -1920,7 +1920,7 @@ fetches
 )
 {
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -2599,7 +2599,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -2812,7 +2812,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -2826,7 +2826,7 @@ read
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -3042,7 +3042,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -3056,7 +3056,7 @@ read
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -3430,7 +3430,7 @@ AbortError
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "

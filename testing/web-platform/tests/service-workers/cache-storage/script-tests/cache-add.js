@@ -1992,7 +1992,7 @@ txt
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2237,7 +2237,7 @@ circle
 ]
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2447,7 +2447,7 @@ omit
 ]
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -2486,7 +2486,7 @@ entry
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '

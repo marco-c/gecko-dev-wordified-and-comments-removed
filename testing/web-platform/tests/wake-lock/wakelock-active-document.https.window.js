@@ -130,7 +130,7 @@ html
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "
@@ -311,7 +311,7 @@ html
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 "

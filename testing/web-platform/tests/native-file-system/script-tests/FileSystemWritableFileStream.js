@@ -245,7 +245,7 @@ true
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -341,7 +341,7 @@ true
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -440,7 +440,7 @@ true
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

@@ -1054,7 +1054,7 @@ createWritable
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -1798,7 +1798,7 @@ true
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '
@@ -2502,7 +2502,7 @@ file_name
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 t
 '

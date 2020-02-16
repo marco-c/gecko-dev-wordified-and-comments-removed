@@ -182,7 +182,7 @@ signal
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -280,7 +280,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_dom
 (
 test
 '
@@ -497,7 +497,7 @@ abort
 )
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '

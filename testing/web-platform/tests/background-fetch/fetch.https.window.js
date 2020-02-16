@@ -1043,7 +1043,7 @@ MAX_SAFE_INTEGER
 }
 ;
 await
-promise_rejects
+promise_rejects_dom
 (
 test
 '
