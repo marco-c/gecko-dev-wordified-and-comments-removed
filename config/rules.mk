@@ -3002,8 +3002,6 @@ OS_ARCH
 LINKER
 )
 -
-NOLOGO
--
 OUT
 :
 -
@@ -3266,8 +3264,6 @@ HOST_OS_ARCH
 (
 HOST_LINKER
 )
--
-NOLOGO
 -
 OUT
 :
@@ -3566,8 +3562,6 @@ OS_ARCH
 LINKER
 )
 -
-nologo
--
 out
 :
 -
@@ -3783,8 +3777,6 @@ GNU_CC
 (
 HOST_LINKER
 )
--
-NOLOGO
 -
 OUT
 :
@@ -4219,8 +4211,6 @@ HOST_CC_TYPE
 (
 HOST_LINKER
 )
--
-NOLOGO
 -
 DLL
 -
