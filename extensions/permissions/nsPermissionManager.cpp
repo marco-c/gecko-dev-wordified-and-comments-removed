@@ -13273,10 +13273,7 @@ GetKey
 -
 >
 mOrigin
-IsOAForceStripPermission
-(
-aPermissionKey
-)
+false
 permissionKey
 )
 ;
