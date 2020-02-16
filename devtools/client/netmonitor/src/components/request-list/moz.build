@@ -86,11 +86,6 @@ RequestListColumnFile
 js
 '
 '
-RequestListColumnInitiator
-.
-js
-'
-'
 RequestListColumnMethod
 .
 js
