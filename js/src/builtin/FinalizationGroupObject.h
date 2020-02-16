@@ -102,7 +102,7 @@ enum
 GroupSlot
 =
 0
-HoldingsSlot
+HeldValueSlot
 SlotCount
 }
 ;
@@ -124,7 +124,7 @@ cx
 HandleFinalizationGroupObject
 group
 HandleValue
-holdings
+heldValue
 )
 ;
 FinalizationGroupObject
@@ -135,7 +135,7 @@ group
 const
 ;
 Value
-holdings
+heldValue
 (
 )
 const

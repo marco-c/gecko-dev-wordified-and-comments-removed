@@ -10873,12 +10873,13 @@ FinalizationGroupCleanupIterator
 )
 MSG_DEF
 (
-JSMSG_BAD_HOLDINGS
+JSMSG_BAD_HELD_VALUE
 0
 JSEXN_TYPEERR
 "
 The
-holdings
+heldValue
+parameter
 passed
 to
 FinalizationGroup
@@ -10890,9 +10891,9 @@ be
 the
 same
 as
-its
+the
 target
-object
+parameter
 "
 )
 MSG_DEF

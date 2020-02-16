@@ -92,7 +92,7 @@ cx
 HandleFinalizationGroupObject
 group
 HandleValue
-holdings
+heldValue
 )
 {
 MOZ_ASSERT
@@ -139,8 +139,8 @@ record
 >
 initReservedSlot
 (
-HoldingsSlot
-holdings
+HeldValueSlot
+heldValue
 )
 ;
 return
@@ -198,7 +198,7 @@ Value
 FinalizationRecordObject
 :
 :
-holdings
+heldValue
 (
 )
 const
@@ -206,7 +206,7 @@ const
 return
 getReservedSlot
 (
-HoldingsSlot
+HeldValueSlot
 )
 ;
 }
@@ -225,7 +225,7 @@ MOZ_ASSERT_IF
 group
 (
 )
-holdings
+heldValue
 (
 )
 .
@@ -266,7 +266,7 @@ NullValue
 ;
 setReservedSlot
 (
-HoldingsSlot
+HeldValueSlot
 UndefinedValue
 (
 )
@@ -981,7 +981,7 @@ UniquePtr
 FinalizationRecordVector
 >
 >
-holdings
+records
 (
 cx
 cx
@@ -1004,7 +1004,7 @@ zone
 if
 (
 !
-holdings
+records
 )
 {
 return
@@ -1066,7 +1066,7 @@ InitReservedSlot
 (
 group
 RecordsToBeCleanedUpSlot
-holdings
+records
 .
 release
 (
@@ -1149,7 +1149,7 @@ if
 (
 FinalizationRecordVector
 *
-holdings
+records
 =
 group
 -
@@ -1159,7 +1159,7 @@ recordsToBeCleanedUp
 )
 )
 {
-holdings
+records
 -
 >
 trace
@@ -1718,7 +1718,7 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_BAD_HOLDINGS
+JSMSG_BAD_HELD_VALUE
 )
 ;
 return
@@ -1726,7 +1726,7 @@ false
 ;
 }
 HandleValue
-holdings
+heldValue
 =
 args
 .
@@ -1829,7 +1829,7 @@ create
 (
 cx
 group
-holdings
+heldValue
 )
 )
 ;
@@ -3722,13 +3722,13 @@ index
 )
 ;
 RootedValue
-holdings
+heldValue
 (
 cx
 record
 -
 >
-holdings
+heldValue
 (
 )
 )
@@ -3740,7 +3740,7 @@ result
 CreateIterResultObject
 (
 cx
-holdings
+heldValue
 false
 )
 ;
