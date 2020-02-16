@@ -151,6 +151,11 @@ G
 :
 false
 }
+cursorBlinkRate
+:
+prefs
+.
+cursorBlinkRate
 }
 )
 ;
