@@ -63,9 +63,7 @@ audio_thread_priority
 "
 0
 .
-20
-.
-2
+22
 "
 audioipc
 =
