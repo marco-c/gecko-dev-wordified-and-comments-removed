@@ -856,8 +856,10 @@ aContext
 void
 Draw
 (
+const
 Range
 aRange
+const
 mozilla
 :
 :
