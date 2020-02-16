@@ -318,17 +318,6 @@ gkrust_utils
 "
 tools
 /
-lint
-/
-test
-/
-files
-/
-clippy
-"
-"
-tools
-/
 fuzzing
 /
 rust
