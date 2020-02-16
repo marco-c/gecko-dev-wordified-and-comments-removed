@@ -220,6 +220,17 @@ textTrackList
 "
 )
 ;
+const
+ttListContainer
+=
+getElementWithinVideo
+(
+video
+"
+textTrackListContainer
+"
+)
+;
 add_task
 (
 async
@@ -637,7 +648,7 @@ executeSoon
 ok
 (
 !
-ttList
+ttListContainer
 .
 hidden
 "
@@ -762,7 +773,7 @@ enabled
 ;
 ok
 (
-ttList
+ttListContainer
 .
 hidden
 "
