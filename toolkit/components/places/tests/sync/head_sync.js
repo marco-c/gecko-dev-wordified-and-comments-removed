@@ -1814,8 +1814,6 @@ dateAdded
 event
 .
 dateAdded
-*
-1000
 ;
 }
 this
