@@ -37,9 +37,9 @@ NODE_MIN_VERSION
 StrictVersion
 (
 "
-8
+10
 .
-11
+19
 .
 0
 "
