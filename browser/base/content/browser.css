@@ -4973,6 +4973,16 @@ width
 50px
 ;
 }
+#
+userContext
+-
+label
+{
+display
+:
+none
+;
+}
 }
 media
 (
