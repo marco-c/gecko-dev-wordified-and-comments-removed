@@ -1501,6 +1501,7 @@ RejectRetry
 (
 ErrorResult
 &
+&
 aRejectReason
 )
 {
@@ -1514,7 +1515,13 @@ mRetryPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 aRejectReason
+)
 )
 ;
 mRetryPromise

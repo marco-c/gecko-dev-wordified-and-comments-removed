@@ -244,6 +244,7 @@ MaybeReject
 (
 ErrorResult
 &
+&
 aArg
 const
 nsACString
@@ -266,7 +267,13 @@ Promise
 :
 MaybeReject
 (
+std
+:
+:
+move
+(
 aArg
+)
 )
 ;
 }

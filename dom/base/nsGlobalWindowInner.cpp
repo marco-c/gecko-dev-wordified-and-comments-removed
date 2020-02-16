@@ -4235,7 +4235,13 @@ mPromise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 error
+)
 )
 ;
 }

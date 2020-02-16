@@ -617,7 +617,13 @@ promise
 >
 MaybeReject
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 return

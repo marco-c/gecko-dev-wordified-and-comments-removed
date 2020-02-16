@@ -694,6 +694,7 @@ nsAString
 aPayerPhone
 ErrorResult
 &
+&
 aResult
 )
 ;
@@ -701,6 +702,7 @@ void
 RejectShowPayment
 (
 ErrorResult
+&
 &
 aRejectReason
 )

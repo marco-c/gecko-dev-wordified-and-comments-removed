@@ -244,7 +244,13 @@ worker
 ;
 aFailureCB
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 return
@@ -380,7 +386,13 @@ worker
 ;
 aFailureCB
 (
+std
+:
+:
+move
+(
 rv
+)
 )
 ;
 }
