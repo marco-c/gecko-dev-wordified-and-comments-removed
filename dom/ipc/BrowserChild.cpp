@@ -6443,14 +6443,8 @@ BrowserChild
 RecvChildToParentMatrix
 (
 const
-mozilla
-:
-:
 Maybe
 <
-mozilla
-:
-:
 gfx
 :
 :
@@ -6459,9 +6453,6 @@ Matrix4x4
 &
 aMatrix
 const
-mozilla
-:
-:
 ScreenRect
 &
 aTopLevelViewportVisibleRectInBrowserCoords
@@ -6498,7 +6489,7 @@ if
 (
 nsPresContext
 *
-presContext
+pc
 =
 toplevelDoc
 -
@@ -6508,7 +6499,7 @@ GetPresContext
 )
 )
 {
-presContext
+pc
 -
 >
 RefreshDriver
@@ -6516,7 +6507,7 @@ RefreshDriver
 )
 -
 >
-IntersectionObservationAdded
+EnsureIntersectionObservationsUpdateHappens
 (
 )
 ;
