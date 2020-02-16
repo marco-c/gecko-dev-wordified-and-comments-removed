@@ -83,7 +83,6 @@ manifest
 item
 as
 manifest_item
-utils
 def
 rel_path_to_test_url
 (
@@ -125,29 +124,6 @@ args
 )
 :
     
-path_parts
-=
-tuple
-(
-path
-.
-split
-(
-"
-/
-"
-)
-)
-    
-path
-=
-utils
-.
-to_os_path
-(
-path
-)
-    
 s
 =
 mock
@@ -157,9 +133,6 @@ Mock
 rel_path
 =
 path
-rel_path_parts
-=
-path_parts
 hash
 =
 hash
@@ -540,15 +513,6 @@ manifest_str
 in
 tests
 :
-        
-test_path
-=
-utils
-.
-to_os_path
-(
-test_path
-)
         
 expected_data
 [
