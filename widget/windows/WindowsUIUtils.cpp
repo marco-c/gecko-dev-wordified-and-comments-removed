@@ -134,10 +134,6 @@ Units
 .
 h
 "
-using
-namespace
-mozilla
-;
 #
 ifndef
 __MINGW32__
@@ -533,6 +529,10 @@ token
 endif
 #
 endif
+using
+namespace
+mozilla
+;
 WindowsUIUtils
 :
 :
