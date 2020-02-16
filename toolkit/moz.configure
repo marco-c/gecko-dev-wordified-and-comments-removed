@@ -16374,6 +16374,7 @@ x86_64
 )
 and
 \
+(
 target
 .
 kernel
@@ -16383,7 +16384,6 @@ kernel
 Linux
 '
 and
-\
 target
 .
 os
@@ -16391,6 +16391,17 @@ os
 =
 '
 Android
+'
+)
+or
+\
+target
+.
+kernel
+=
+=
+'
+Darwin
 '
 )
 :
@@ -16407,6 +16418,8 @@ x86
 -
 64
 Linux
+and
+Mac
 '
 )
 return
