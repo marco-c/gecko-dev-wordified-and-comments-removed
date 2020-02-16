@@ -1212,14 +1212,6 @@ showAllAnonymousContent
 ;
 this
 .
-showUserAgentShadowRoots
-=
-options
-.
-showUserAgentShadowRoots
-;
-this
-.
 walkerSearch
 =
 new
@@ -3576,7 +3568,7 @@ isUAWidget
 !
 this
 .
-showUserAgentShadowRoots
+showAllAnonymousContent
 ;
 const
 showNativeAnonymousChildren
@@ -3586,7 +3578,7 @@ isUAWidget
 &
 this
 .
-showUserAgentShadowRoots
+showAllAnonymousContent
 ;
 const
 templateElement

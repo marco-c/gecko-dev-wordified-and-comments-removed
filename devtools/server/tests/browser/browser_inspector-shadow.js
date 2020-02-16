@@ -1498,7 +1498,7 @@ Test
 UA
 widgets
 when
-showUserAgentShadowRoots
+showAllAnonymousContent
 is
 true
 "
@@ -1519,7 +1519,7 @@ devtools
 .
 inspector
 .
-showUserAgentShadowRoots
+showAllAnonymousContent
 "
 true
 ]
@@ -1575,7 +1575,7 @@ hostChildren
 nodes
 .
 length
-1
+3
 "
 #
 video
@@ -1583,8 +1583,8 @@ video
 controls
 tag
 has
-one
-child
+3
+children
 "
 )
 ;
@@ -1656,7 +1656,7 @@ hostChildren
 nodes
 .
 length
-2
+4
 "
 #
 video
@@ -1667,7 +1667,7 @@ with
 -
 children
 has
-two
+4
 children
 "
 )
@@ -1689,7 +1689,7 @@ Test
 UA
 widgets
 when
-showUserAgentShadowRoots
+showAllAnonymousContent
 is
 false
 "
@@ -1710,7 +1710,7 @@ devtools
 .
 inspector
 .
-showUserAgentShadowRoots
+showAllAnonymousContent
 "
 false
 ]

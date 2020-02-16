@@ -76,7 +76,7 @@ element
 with
 no
 children
-showUserAgentShadowRoots
+showAllAnonymousContent
 =
 true
 "
@@ -92,7 +92,7 @@ await
 setup
 (
 {
-showUserAgentShadowRoots
+showAllAnonymousContent
 :
 true
 }
@@ -185,12 +185,12 @@ getChildContainers
 )
 .
 length
-1
+3
 "
 video
 has
-1
-child
+3
+children
 "
 )
 ;
@@ -238,7 +238,7 @@ video
 element
 with
 children
-showUserAgentShadowRoots
+showAllAnonymousContent
 =
 true
 "
@@ -254,7 +254,7 @@ await
 setup
 (
 {
-showUserAgentShadowRoots
+showAllAnonymousContent
 :
 true
 }
@@ -347,11 +347,11 @@ getChildContainers
 )
 .
 length
-2
+4
 "
 video
 has
-2
+4
 children
 "
 )
@@ -422,7 +422,7 @@ element
 with
 no
 children
-showUserAgentShadowRoots
+showAllAnonymousContent
 =
 false
 "
@@ -438,7 +438,7 @@ await
 setup
 (
 {
-showUserAgentShadowRoots
+showAllAnonymousContent
 :
 false
 }
@@ -542,7 +542,7 @@ video
 element
 with
 children
-showUserAgentShadowRoots
+showAllAnonymousContent
 =
 false
 "
@@ -558,7 +558,7 @@ await
 setup
 (
 {
-showUserAgentShadowRoots
+showAllAnonymousContent
 :
 false
 }
@@ -689,7 +689,7 @@ function
 setup
 (
 {
-showUserAgentShadowRoots
+showAllAnonymousContent
 }
 )
 {
@@ -701,9 +701,9 @@ devtools
 .
 inspector
 .
-showUserAgentShadowRoots
+showAllAnonymousContent
 "
-showUserAgentShadowRoots
+showAllAnonymousContent
 )
 ;
 const
