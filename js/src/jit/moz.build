@@ -311,6 +311,11 @@ IonCacheIRCompiler
 cpp
 '
 '
+IonCompileTask
+.
+cpp
+'
+'
 IonIC
 .
 cpp
@@ -327,6 +332,11 @@ cpp
 '
 '
 JitcodeMap
+.
+cpp
+'
+'
+JitContext
 .
 cpp
 '
