@@ -2075,21 +2075,6 @@ pull_request
 revision_latest
                 
 )
-                
-logger
-.
-info
-(
-'
-Created
-one
-deployment
-returning
-for
-testing
-purposes
-'
-)
         
 else
 :
