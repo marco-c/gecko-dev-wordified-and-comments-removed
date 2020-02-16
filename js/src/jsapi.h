@@ -8472,6 +8472,16 @@ enable
 \
 Register
 (
+ION_TRUSTEDPRINCIPALS_ENABLE
+"
+ion_trustedprincipals
+.
+enable
+"
+)
+\
+Register
+(
 ION_CHECK_RANGE_ANALYSIS
 "
 ion
