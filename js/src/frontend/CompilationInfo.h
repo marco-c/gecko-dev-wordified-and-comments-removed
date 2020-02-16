@@ -172,6 +172,12 @@ BigIntCreationData
 >
 bigIntData
 ;
+Vector
+<
+FunctionCreationData
+>
+funcData
+;
 JS
 :
 :
@@ -249,6 +255,10 @@ regExpData
 cx
 )
 bigIntData
+(
+cx
+)
+funcData
 (
 cx
 )

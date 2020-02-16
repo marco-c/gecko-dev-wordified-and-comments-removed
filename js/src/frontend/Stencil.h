@@ -238,7 +238,7 @@ namespace
 frontend
 {
 struct
-ParseInfo
+CompilationInfo
 ;
 class
 FunctionBox
