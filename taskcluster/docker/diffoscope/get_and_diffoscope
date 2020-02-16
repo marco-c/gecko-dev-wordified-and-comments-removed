@@ -862,12 +862,12 @@ fi
 if
 test
 -
-n
+z
 "
 HAVE_GENERATED_FILES
 "
-&
-&
+|
+|
 diffoscope
 \
 -
