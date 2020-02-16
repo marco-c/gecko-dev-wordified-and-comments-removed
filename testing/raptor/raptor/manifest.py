@@ -3604,8 +3604,16 @@ boolean_string
 )
 :
     
-if
+lower_boolean_str
+=
 boolean_string
+.
+lower
+(
+)
+    
+if
+lower_boolean_str
 =
 =
 '
@@ -3617,7 +3625,7 @@ return
 True
     
 elif
-boolean_string
+lower_boolean_str
 =
 =
 '
