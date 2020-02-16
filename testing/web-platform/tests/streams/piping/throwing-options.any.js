@@ -202,13 +202,10 @@ whatShouldThrow
 )
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 Error
-(
-)
 new
 ReadableStream
 (

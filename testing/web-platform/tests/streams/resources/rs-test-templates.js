@@ -742,7 +742,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -750,7 +750,7 @@ reader
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -809,7 +809,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -819,7 +819,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -829,7 +829,7 @@ read
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -962,7 +962,7 @@ getReader
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -1139,13 +1139,13 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
 cancelPromise1
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -1235,13 +1235,13 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
 cancelPromise1
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -2982,7 +2982,7 @@ factory
 reader
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -3028,7 +3028,7 @@ reader
 closed
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -3115,7 +3115,7 @@ factory
 reader
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error

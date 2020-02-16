@@ -208,7 +208,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -270,7 +270,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1100,7 +1100,7 @@ error1
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1182,7 +1182,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1562,7 +1562,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1644,7 +1644,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2055,7 +2055,7 @@ error1
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2167,7 +2167,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3676,7 +3676,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3735,7 +3735,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

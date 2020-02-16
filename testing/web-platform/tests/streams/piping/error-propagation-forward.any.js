@@ -79,7 +79,7 @@ recordingWritableStream
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -199,7 +199,7 @@ error2
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -350,7 +350,7 @@ recordingWritableStream
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -489,7 +489,7 @@ recordingWritableStream
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -603,7 +603,7 @@ recordingWritableStream
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -716,7 +716,7 @@ recordingWritableStream
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -822,7 +822,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -953,7 +953,7 @@ error2
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -1074,7 +1074,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1202,7 +1202,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1350,7 +1350,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -1489,7 +1489,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1615,7 +1615,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1777,7 +1777,7 @@ error2
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -1929,7 +1929,7 @@ recordingWritableStream
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2088,7 +2088,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2261,7 +2261,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2425,7 +2425,7 @@ highWaterMark
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2630,7 +2630,7 @@ false
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2866,7 +2866,7 @@ false
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3127,7 +3127,7 @@ false
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -3498,7 +3498,7 @@ false
 const
 pipePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

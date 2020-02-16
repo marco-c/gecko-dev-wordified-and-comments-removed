@@ -447,7 +447,7 @@ write
 y
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -467,7 +467,7 @@ the
 error
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1326,7 +1326,7 @@ rejection
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 rejection
@@ -2318,7 +2318,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2341,7 +2341,7 @@ close
 method
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2364,7 +2364,7 @@ close
 method
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2589,7 +2589,7 @@ all
 (
 [
 writePromise
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2867,7 +2867,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2938,7 +2938,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

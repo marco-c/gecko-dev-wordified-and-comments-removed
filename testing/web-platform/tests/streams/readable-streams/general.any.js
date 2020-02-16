@@ -4620,7 +4620,7 @@ controllerError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError
@@ -4705,7 +4705,7 @@ thrownError
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 controllerError

@@ -674,7 +674,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -682,7 +682,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -771,7 +771,7 @@ branch1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -791,7 +791,7 @@ then
 )
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -1554,7 +1554,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -1564,7 +1564,7 @@ cancel
 (
 )
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -1809,7 +1809,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -1824,7 +1824,7 @@ should
 reject
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error
@@ -2048,7 +2048,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2056,7 +2056,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2525,7 +2525,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2533,7 +2533,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2750,7 +2750,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -2758,7 +2758,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -3008,7 +3008,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError
@@ -3016,7 +3016,7 @@ reader1
 .
 closed
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 theError

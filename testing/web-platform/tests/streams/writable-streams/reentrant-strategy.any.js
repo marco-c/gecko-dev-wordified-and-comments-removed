@@ -473,7 +473,7 @@ ready1
 const
 writePromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -513,7 +513,7 @@ write
 const
 readyPromise2
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -548,7 +548,7 @@ ready2
 const
 closedPromise
 =
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -840,7 +840,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

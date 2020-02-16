@@ -1558,7 +1558,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1659,7 +1659,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1815,7 +1815,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -2552,7 +2552,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2741,7 +2741,7 @@ resolveWrite
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -2935,7 +2935,7 @@ abort
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1

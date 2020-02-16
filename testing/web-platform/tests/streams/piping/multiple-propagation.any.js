@@ -95,7 +95,7 @@ getWriter
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -197,7 +197,7 @@ error2
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -253,7 +253,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -275,7 +275,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -358,7 +358,7 @@ then
 ws
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -401,7 +401,7 @@ events
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -494,7 +494,7 @@ error2
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -555,7 +555,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -577,7 +577,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
@@ -664,7 +664,7 @@ then
 ws
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -712,7 +712,7 @@ events
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -818,7 +818,7 @@ releaseLock
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -878,7 +878,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -900,7 +900,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -919,7 +919,7 @@ with
 error1
 '
 )
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1028,7 +1028,7 @@ then
 >
 {
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1087,7 +1087,7 @@ Promise
 all
 (
 [
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1192,7 +1192,7 @@ error1
 )
 ;
 return
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1255,7 +1255,7 @@ getReader
 )
 .
 closed
-promise_rejects
+promise_rejects_exactly
 (
 t
 error1
@@ -1337,7 +1337,7 @@ then
 ws
 =
 >
-promise_rejects
+promise_rejects_exactly
 (
 t
 error2
