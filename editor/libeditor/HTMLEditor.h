@@ -7320,6 +7320,7 @@ start
 end
 }
 ;
+static
 void
 ReplaceOrphanedStructure
 (
@@ -7333,7 +7334,7 @@ nsINode
 >
 >
 &
-aNodeArray
+aArrayOfNodes
 Element
 &
 aListOrTableElement
