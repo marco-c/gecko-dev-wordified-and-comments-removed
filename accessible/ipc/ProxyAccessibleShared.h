@@ -16,7 +16,7 @@ NativeState
 )
 const
 ;
-void
+uint32_t
 Name
 (
 nsString

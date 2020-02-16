@@ -566,7 +566,7 @@ id
 )
 ;
 }
-void
+uint32_t
 ProxyAccessible
 :
 :
@@ -608,6 +608,7 @@ acc
 )
 {
 return
+eNameOK
 ;
 }
 BSTR
@@ -642,6 +643,7 @@ hr
 )
 {
 return
+eNameOK
 ;
 }
 aName
@@ -651,6 +653,9 @@ wchar_t
 *
 )
 resultWrap
+;
+return
+eNameOK
 ;
 }
 void

@@ -630,6 +630,8 @@ returns
 (
 nsString
 name
+uint32_t
+flag
 )
 ;
 nested
