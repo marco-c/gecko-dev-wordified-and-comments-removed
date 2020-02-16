@@ -9390,14 +9390,6 @@ mochitest
 browser
 -
 chrome
-'
-    
-'
-mochitest
--
-browser
--
-chrome
 -
 screenshots
 '
