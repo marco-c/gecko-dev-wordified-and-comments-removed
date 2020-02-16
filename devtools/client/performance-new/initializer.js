@@ -382,6 +382,14 @@ null
 ]
 )
 ;
+recordingPreferences
+.
+presetName
+=
+"
+custom
+"
+;
 store
 .
 dispatch
