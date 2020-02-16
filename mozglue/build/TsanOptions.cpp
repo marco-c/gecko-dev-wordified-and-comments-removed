@@ -1415,16 +1415,6 @@ n
 "
 race
 :
-StartupCache
-:
-:
-WriteToDisk
-\
-n
-"
-"
-race
-:
 _dl_deallocate_tls
 \
 n
