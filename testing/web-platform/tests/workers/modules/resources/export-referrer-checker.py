@@ -59,8 +59,10 @@ return
 response_headers
             
 "
-postMessage
-(
+export
+const
+referrer
+=
 '
 "
 +
@@ -68,6 +70,6 @@ referrer
 +
 "
 '
-)
+;
 "
 )
