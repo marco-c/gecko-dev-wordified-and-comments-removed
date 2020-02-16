@@ -3183,7 +3183,7 @@ ReportValue
 (
 aHandleReport
 aData
-KIND_OTHER
+KIND_NONHEAP
 aPathPrefix
 "
 decoded
