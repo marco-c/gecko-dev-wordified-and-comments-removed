@@ -43,9 +43,9 @@ new
 )
 -
 >
-NewStreamTypeReader
+Self
 {
-NewStreamTypeReader
+Self
 {
 reader
 :

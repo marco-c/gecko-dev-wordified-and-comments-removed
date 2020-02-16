@@ -16,6 +16,17 @@ warnings
 )
 )
 ]
+#
+!
+[
+warn
+(
+clippy
+:
+:
+pedantic
+)
+]
 use
 neqo_crypto
 :
