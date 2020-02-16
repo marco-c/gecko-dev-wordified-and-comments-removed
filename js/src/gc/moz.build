@@ -152,9 +152,6 @@ StatsPhasesGenerated
 .
 h
 '
-py2
-=
-True
 script
 =
 '
@@ -175,9 +172,6 @@ StatsPhasesGenerated
 .
 inc
 '
-py2
-=
-True
 script
 =
 '

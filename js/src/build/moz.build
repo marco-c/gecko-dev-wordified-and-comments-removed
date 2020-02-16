@@ -284,9 +284,6 @@ gen_symverscript
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
@@ -536,9 +533,6 @@ run_spidermonkey_checks
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [

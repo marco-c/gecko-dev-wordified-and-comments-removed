@@ -137,11 +137,6 @@ tbs
 %
 name
 ]
-props
-.
-py2
-=
-True
 STHTestFile
 (
 '

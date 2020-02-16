@@ -382,9 +382,6 @@ gen_cert_header
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 array_name

@@ -175,9 +175,6 @@ subst_header
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
@@ -779,9 +776,6 @@ preprocess_libffi_asm
 .
 py
 '
-py2
-=
-True
 flags
 =
 [
@@ -1035,9 +1029,6 @@ preprocess_libffi_asm
 .
 py
 '
-py2
-=
-True
 flags
 =
 [
@@ -1217,9 +1208,6 @@ preprocess_libffi_asm
 .
 py
 '
-py2
-=
-True
 flags
 =
 [

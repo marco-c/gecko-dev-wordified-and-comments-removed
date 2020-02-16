@@ -174,9 +174,6 @@ gen_multilocale
 .
 py
 '
-py2
-=
-True
 )
 FINAL_TARGET_FILES
 .
@@ -299,11 +296,6 @@ generate_update_locale
 .
 py
 '
-update_locale
-.
-py2
-=
-True
 LOCALIZED_FILES
 +
 =

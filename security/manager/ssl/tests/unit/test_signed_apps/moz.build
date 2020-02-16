@@ -153,11 +153,6 @@ props
 flags
 =
 flags
-props
-.
-py2
-=
-True
 #
 Turn
 RELATIVEDIR

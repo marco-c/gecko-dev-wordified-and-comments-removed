@@ -1250,11 +1250,6 @@ BITDEPTH
 16
 '
 ]
-a
-.
-py2
-=
-True
 GENERATED_FILES
 +
 =
@@ -1340,11 +1335,6 @@ BITDEPTH
 8
 '
 ]
-a
-.
-py2
-=
-True
 elif
 CONFIG
 [
@@ -1590,11 +1580,6 @@ BITDEPTH
 16
 '
 ]
-a
-.
-py2
-=
-True
 GENERATED_FILES
 +
 =
@@ -1680,11 +1665,6 @@ BITDEPTH
 8
 '
 ]
-a
-.
-py2
-=
-True
 #
 BITDEPTH
 .

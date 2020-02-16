@@ -621,11 +621,6 @@ StaticPrefList
 yaml
 '
 ]
-static_pref_list
-.
-py2
-=
-True
 PYTHON_UNITTEST_MANIFESTS
 +
 =

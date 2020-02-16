@@ -513,11 +513,6 @@ extend
 (
 stl_headers
 )
-stl
-.
-py2
-=
-True
 #
 Wrap
 <
@@ -622,9 +617,6 @@ entry_point
 '
 generate
 '
-py2
-=
-True
 inputs
 =
 [
@@ -781,8 +773,3 @@ extend
 (
 system_headers
 )
-system
-.
-py2
-=
-True
