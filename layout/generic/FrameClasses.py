@@ -1014,6 +1014,17 @@ NOT_LEAF
 Frame
 (
 "
+nsStackFrame
+"
+"
+Box
+"
+NOT_LEAF
+)
+    
+Frame
+(
+"
 nsSubDocumentFrame
 "
 "
