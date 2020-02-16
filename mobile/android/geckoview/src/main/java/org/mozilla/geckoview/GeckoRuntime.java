@@ -1451,7 +1451,7 @@ if
 (
 settings
 .
-getUseContentProcessHint
+getUseMultiprocess
 (
 )
 )
