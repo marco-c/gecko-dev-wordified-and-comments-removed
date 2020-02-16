@@ -1106,10 +1106,6 @@ the
 last
 composite
 .
-prio
-(
-mediumhigh
-)
 async
 DidComposite
 (
