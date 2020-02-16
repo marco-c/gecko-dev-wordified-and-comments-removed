@@ -608,10 +608,9 @@ fetch
 "
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 TypeError
 fetch
 (

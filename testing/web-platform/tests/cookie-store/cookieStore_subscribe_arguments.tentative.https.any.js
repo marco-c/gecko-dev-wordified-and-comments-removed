@@ -366,13 +366,10 @@ resolve
 ;
 }
 await
-promise_rejects
+promise_rejects_js
 (
 testCase
-new
 TypeError
-(
-)
 registration
 .
 cookies

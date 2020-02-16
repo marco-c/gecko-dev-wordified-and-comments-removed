@@ -181,13 +181,10 @@ is
 )
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 test
-new
 TypeError
-(
-)
 fetch
 (
 url

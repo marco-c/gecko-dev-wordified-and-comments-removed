@@ -69,13 +69,10 @@ bgFetch
 >
 {
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 TypeError
-(
-)
 bgFetch
 .
 fetch
