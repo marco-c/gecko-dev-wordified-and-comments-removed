@@ -21,6 +21,16 @@ macosx
 mozconfig
 .
 common
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+wasm
+-
+sandboxing
 ac_add_options
 -
 -
