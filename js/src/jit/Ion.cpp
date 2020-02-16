@@ -9994,6 +9994,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 )
 ;

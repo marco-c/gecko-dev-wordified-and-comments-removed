@@ -3551,7 +3551,7 @@ ion
 )
 ;
 bool
-useIonForTrustedPrincipals
+useJitForTrustedPrincipals
 =
 Preferences
 :
@@ -3560,7 +3560,7 @@ GetBool
 (
 JS_OPTIONS_DOT_STR
 "
-ion_trustedprincipals
+jit_trustedprincipals
 "
 )
 ;
@@ -3913,7 +3913,7 @@ useIon
 =
 false
 ;
-useIonForTrustedPrincipals
+useJitForTrustedPrincipals
 =
 false
 ;
@@ -3947,8 +3947,8 @@ useIon
 JS_SetGlobalJitCompilerOption
 (
 cx
-JSJITCOMPILER_ION_TRUSTEDPRINCIPALS_ENABLE
-useIonForTrustedPrincipals
+JSJITCOMPILER_JIT_TRUSTEDPRINCIPALS_ENABLE
+useJitForTrustedPrincipals
 )
 ;
 JS_SetGlobalJitCompilerOption

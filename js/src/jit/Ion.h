@@ -27,6 +27,15 @@ include
 "
 jit
 /
+BaselineJIT
+.
+h
+"
+#
+include
+"
+jit
+/
 CompileWrappers
 .
 h
@@ -597,6 +606,7 @@ MOZ_UNLIKELY
 !
 IsBaselineJitEnabled
 (
+cx
 )
 |
 |
@@ -635,7 +645,7 @@ if
 (
 JitOptions
 .
-ionForTrustedPrincipals
+jitForTrustedPrincipals
 )
 {
 JS

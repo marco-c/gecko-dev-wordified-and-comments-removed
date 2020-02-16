@@ -17730,6 +17730,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 )
 {
@@ -36205,6 +36206,7 @@ jit
 :
 IsBaselineJitEnabled
 (
+cx
 )
 )
 {
