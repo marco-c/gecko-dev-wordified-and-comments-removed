@@ -233,7 +233,10 @@ super
 image
 :
 :
+{
+GradientKind
 Image
+}
 ;
 pub
 use
