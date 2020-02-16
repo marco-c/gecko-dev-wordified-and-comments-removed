@@ -1707,6 +1707,21 @@ protocol
 )
 :
         
+scheme
+=
+"
+https
+"
+if
+protocol
+=
+=
+"
+h2
+"
+else
+protocol
+        
 return
 "
 %
@@ -1722,7 +1737,7 @@ s
 "
 %
 (
-protocol
+scheme
                                
 self
 .
