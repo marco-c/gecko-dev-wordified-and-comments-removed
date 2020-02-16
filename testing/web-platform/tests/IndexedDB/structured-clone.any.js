@@ -105,8 +105,9 @@ value
 verifyFunc
 )
 {
-promise_test
+subsetTest
 (
+promise_test
 async
 t
 =
@@ -324,8 +325,9 @@ cloneFailureTest
 value
 )
 {
-promise_test
+subsetTest
 (
+promise_test
 async
 t
 =
