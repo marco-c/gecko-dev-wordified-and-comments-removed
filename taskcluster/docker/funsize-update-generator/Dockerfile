@@ -74,7 +74,7 @@ recommends
 \
 python3
 .
-6
+8
 python3
 -
 setuptools
