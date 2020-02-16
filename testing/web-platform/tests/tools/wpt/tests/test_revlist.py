@@ -269,7 +269,7 @@ _mon_
 '
 '
     
-tagged_revisons
+tagged_revisions
 =
 revlist
 .
@@ -281,7 +281,7 @@ until
 )
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -293,7 +293,7 @@ N
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -305,7 +305,7 @@ M
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -317,7 +317,7 @@ K
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -329,7 +329,7 @@ J
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -341,7 +341,7 @@ G
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -353,7 +353,7 @@ F
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -365,7 +365,7 @@ C
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -381,7 +381,7 @@ len
 (
 list
 (
-tagged_revisons
+tagged_revisions
 )
 )
 =
@@ -436,7 +436,7 @@ _thu_
 '
 '
     
-tagged_revisons
+tagged_revisions
 =
 revlist
 .
@@ -448,7 +448,7 @@ until
 )
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -460,7 +460,7 @@ G
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -472,7 +472,7 @@ F
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -484,7 +484,7 @@ E
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -496,7 +496,7 @@ D
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -512,7 +512,7 @@ len
 (
 list
 (
-tagged_revisons
+tagged_revisions
 )
 )
 =
@@ -551,7 +551,7 @@ _sat_
 '
 '
     
-tagged_revisons
+tagged_revisions
 =
 revlist
 .
@@ -563,7 +563,7 @@ until
 )
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -575,7 +575,7 @@ G
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -591,7 +591,7 @@ len
 (
 list
 (
-tagged_revisons
+tagged_revisions
 )
 )
 =
@@ -630,7 +630,7 @@ _sud_
 '
 '
     
-tagged_revisons
+tagged_revisions
 =
 revlist
 .
@@ -642,7 +642,7 @@ until
 )
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -654,7 +654,7 @@ G
 '
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -670,7 +670,7 @@ len
 (
 list
 (
-tagged_revisons
+tagged_revisions
 )
 )
 =
@@ -715,7 +715,7 @@ _sud_
 '
 '
     
-tagged_revisons
+tagged_revisions
 =
 revlist
 .
@@ -727,7 +727,7 @@ until
 )
     
 assert
-tagged_revisons
+tagged_revisions
 .
 next
 (
@@ -743,7 +743,7 @@ len
 (
 list
 (
-tagged_revisons
+tagged_revisions
 )
 )
 =
