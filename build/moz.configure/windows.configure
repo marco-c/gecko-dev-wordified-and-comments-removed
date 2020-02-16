@@ -462,7 +462,7 @@ __builtin__
 _import
 =
 '
-WindowsError
+Exception
 '
 )
 def
@@ -525,7 +525,7 @@ d
 )
 ]
 except
-WindowsError
+Exception
 :
 subdirs
 =
