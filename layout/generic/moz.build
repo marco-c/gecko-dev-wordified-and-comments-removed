@@ -1440,6 +1440,9 @@ GenerateFrameLists
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1460,6 +1463,9 @@ GenerateFrameLists
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '

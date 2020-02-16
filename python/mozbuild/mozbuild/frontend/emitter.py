@@ -3472,6 +3472,10 @@ self
 context
 libname
 static_args
+is_gkrust
+=
+False
+                      
 cls
 =
 RustLibrary
@@ -3766,6 +3770,7 @@ dependencies
                    
 features
 cargo_target_dir
+is_gkrust
 *
 *
 static_args
@@ -5620,6 +5625,9 @@ symbols_file
 symbols_file
 ]
 defines
+py2
+=
+True
 )
             
 if
@@ -5650,6 +5658,20 @@ _rust_library
 context
 libname
 static_args
+                                             
+is_gkrust
+=
+bool
+(
+context
+.
+get
+(
+'
+IS_GKRUST
+'
+)
+)
 )
                 
 else
@@ -10291,6 +10313,9 @@ in
 '
 )
 ]
+py2
+=
+True
 )
         
 generated_files
@@ -10621,6 +10646,12 @@ force
 flags
 .
 force
+                                    
+py2
+=
+flags
+.
+py2
 )
     
 def

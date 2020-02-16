@@ -339,6 +339,9 @@ entry_point
 '
 gen_files
 '
+py2
+=
+True
 inputs
 =
 [

@@ -1402,6 +1402,9 @@ generate_source
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1435,6 +1438,9 @@ generate_source
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '

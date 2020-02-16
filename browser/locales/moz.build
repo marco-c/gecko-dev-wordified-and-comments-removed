@@ -227,6 +227,11 @@ updater_append
 ini
 '
 ]
+updater
+.
+py2
+=
+True
 #
 Yes
 this
@@ -373,6 +378,11 @@ bookmarks
 inc
 '
 ]
+bookmarks
+.
+py2
+=
+True
 with
 Files
 (

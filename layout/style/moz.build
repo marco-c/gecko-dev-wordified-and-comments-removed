@@ -1401,6 +1401,9 @@ GenerateCSSPropertyID
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1438,6 +1441,9 @@ GenerateServoCSSPropList
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1473,6 +1479,9 @@ entry_point
 '
 generate_data
 '
+py2
+=
+True
 inputs
 =
 [
@@ -1532,6 +1541,9 @@ GenerateCompositorAnimatableProperties
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1562,6 +1574,9 @@ GenerateCountedUnknownProperties
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1600,6 +1615,9 @@ GenerateComputedDOMStyleGenerated
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1630,6 +1648,9 @@ GenerateCSSPropsGenerated
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1660,6 +1681,9 @@ RunCbindgen
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '

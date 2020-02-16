@@ -324,6 +324,9 @@ gen_ntdll_freestanding_lib
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [

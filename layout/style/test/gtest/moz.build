@@ -132,6 +132,9 @@ generate_example_stylesheet
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [

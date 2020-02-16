@@ -196,6 +196,14 @@ inputs
 [
 indir
 ]
+GENERATED_FILES
+[
+xpi
+]
+.
+py2
+=
+True
 output_dir
 +
 =
