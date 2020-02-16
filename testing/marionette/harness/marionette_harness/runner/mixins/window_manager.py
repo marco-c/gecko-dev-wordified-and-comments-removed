@@ -534,6 +534,9 @@ None
 focus
 =
 False
+private
+=
+False
 )
 :
         
@@ -682,6 +685,9 @@ window
 focus
 =
 focus
+private
+=
+private
 )
                 
 if
