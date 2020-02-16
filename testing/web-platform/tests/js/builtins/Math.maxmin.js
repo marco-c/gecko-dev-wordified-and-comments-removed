@@ -21,7 +21,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_exactly
 (
 test_error
 function
@@ -72,7 +72,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_exactly
 (
 test_error
 function
@@ -125,7 +125,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_exactly
 (
 test_error
 function
@@ -176,7 +176,7 @@ function
 (
 )
 {
-assert_throws
+assert_throws_exactly
 (
 test_error
 function
