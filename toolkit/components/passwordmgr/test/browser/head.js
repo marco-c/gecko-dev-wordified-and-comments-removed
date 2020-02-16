@@ -2848,7 +2848,7 @@ passwordGeneratedPromise
 listenForTestNotification
 (
 "
-PasswordFilledOrEdited
+PasswordEditedOrGenerated
 "
 )
 ;
