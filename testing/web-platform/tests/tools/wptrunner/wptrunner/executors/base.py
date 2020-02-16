@@ -1081,6 +1081,8 @@ self
 protocol
 .
 is_alive
+(
+)
 :
                 
 self
@@ -3480,6 +3482,8 @@ self
 protocol
 .
 is_alive
+(
+)
     
 def
 on_environment_change
@@ -4213,6 +4217,8 @@ self
 server
 .
 is_alive
+(
+)
 :
             
 self
@@ -4222,8 +4228,6 @@ server
 stop
 (
 )
-    
-property
     
 def
 is_alive

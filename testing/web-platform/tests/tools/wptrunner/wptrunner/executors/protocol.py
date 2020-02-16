@@ -204,8 +204,6 @@ executor
 .
 logger
     
-property
-    
 def
 is_alive
 (

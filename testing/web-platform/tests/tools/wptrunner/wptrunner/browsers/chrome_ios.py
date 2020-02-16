@@ -414,6 +414,8 @@ self
 server
 .
 is_alive
+(
+)
     
 def
 cleanup

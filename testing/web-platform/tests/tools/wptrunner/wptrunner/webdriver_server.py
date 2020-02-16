@@ -535,6 +535,8 @@ if
 self
 .
 is_alive
+(
+)
 :
             
 kill_result
@@ -574,8 +576,8 @@ not
 self
 .
 is_alive
-    
-property
+(
+)
     
 def
 is_alive

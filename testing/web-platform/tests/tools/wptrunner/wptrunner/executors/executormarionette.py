@@ -3882,8 +3882,6 @@ teardown
 (
 )
     
-property
-    
 def
 is_alive
 (
@@ -4631,6 +4629,8 @@ self
 protocol
 .
 is_alive
+(
+)
     
 def
 on_environment_change
@@ -5488,6 +5488,8 @@ self
 protocol
 .
 is_alive
+(
+)
     
 def
 on_environment_change
@@ -6566,6 +6568,8 @@ self
 protocol
 .
 is_alive
+(
+)
     
 def
 on_environment_change
