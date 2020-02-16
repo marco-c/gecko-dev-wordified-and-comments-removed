@@ -33007,14 +33007,6 @@ SetDragState
 true
 )
 ;
-fc
--
->
-SetMouseDoubleDown
-(
-true
-)
-;
 return
 HandleMultiplePress
 (
