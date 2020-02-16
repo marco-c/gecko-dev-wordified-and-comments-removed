@@ -301,6 +301,9 @@ embedjs
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '

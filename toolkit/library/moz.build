@@ -751,6 +751,9 @@ symverscript
 in
 '
 ]
+py2
+=
+True
 flags
 =
 [
@@ -2379,6 +2382,9 @@ gen_buildid
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [

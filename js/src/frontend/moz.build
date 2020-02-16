@@ -165,6 +165,9 @@ GenerateReservedWords
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [

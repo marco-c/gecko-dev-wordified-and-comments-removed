@@ -3847,6 +3847,9 @@ genshaders
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [
@@ -3875,6 +3878,9 @@ genshaders
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [
