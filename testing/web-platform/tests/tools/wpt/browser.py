@@ -8562,7 +8562,7 @@ re
 .
 match
 (
-br
+r
 "
 Included
 with
@@ -8609,10 +8609,6 @@ m
 group
 (
 1
-)
-.
-decode
-(
 )
 class
 Servo
@@ -9601,10 +9597,6 @@ dumpmachine
 "
 )
 .
-decode
-(
-)
-.
 strip
 (
 )
@@ -9775,10 +9767,6 @@ binary
 -
 version
 "
-)
-.
-decode
-(
 )
 .
 strip
