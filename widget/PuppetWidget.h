@@ -550,17 +550,7 @@ WidgetToScreenOffset
 (
 )
 override
-{
-return
-GetWindowPosition
-(
-)
-+
-GetChromeOffset
-(
-)
 ;
-}
 virtual
 LayoutDeviceIntPoint
 TopLevelWidgetToScreenOffset
