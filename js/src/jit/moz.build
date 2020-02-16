@@ -1826,9 +1826,6 @@ GenerateOpcodeFiles
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
@@ -1888,9 +1885,6 @@ GenerateOpcodeFiles
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
