@@ -8089,6 +8089,7 @@ mProperty
 ;
 if
 (
+!
 baseStyle
 .
 IsNull
@@ -8096,10 +8097,6 @@ IsNull
 )
 )
 {
-return
-true
-;
-}
 gfx
 :
 :
@@ -8135,6 +8132,7 @@ Size
 return
 true
 ;
+}
 }
 for
 (
