@@ -225,9 +225,13 @@ IPCResult
 RecvUpdateDimensions
 (
 const
-DimensionInfo
+nsIntRect
 &
-aDimensions
+aRect
+const
+ScreenIntSize
+&
+aSize
 )
 ;
 mozilla
