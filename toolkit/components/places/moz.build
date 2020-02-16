@@ -192,6 +192,11 @@ INativePlacesEventCallback
 h
 '
 '
+PageIconProtocolHandler
+.
+h
+'
+'
 Shutdown
 .
 h
@@ -262,6 +267,11 @@ nsNavHistoryResult
 cpp
 '
 '
+PageIconProtocolHandler
+.
+cpp
+'
+'
 PlaceInfo
 .
 cpp
@@ -319,11 +329,6 @@ jsm
 '
 '
 History
-.
-jsm
-'
-'
-PageIconProtocolHandler
 .
 jsm
 '
