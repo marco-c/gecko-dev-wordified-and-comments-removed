@@ -312,9 +312,14 @@ except
 client
 .
 TimeoutException
+                    
 client
 .
 ScriptTimeoutException
+                    
+client
+.
+JavascriptErrorException
 )
 :
                 
@@ -325,6 +330,7 @@ except
 socket
 .
 timeout
+                    
 client
 .
 NoSuchWindowException
@@ -332,6 +338,7 @@ NoSuchWindowException
 client
 .
 UnknownErrorException
+                    
 IOError
 )
 :
