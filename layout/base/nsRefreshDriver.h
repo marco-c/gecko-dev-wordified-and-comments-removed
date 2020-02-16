@@ -1216,7 +1216,7 @@ EnsureTimerStarted
 ;
 }
 void
-IntersectionObservationAdded
+EnsureIntersectionObservationsUpdateHappens
 (
 )
 {
