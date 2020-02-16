@@ -68,7 +68,7 @@ SameObject
 ]
 readonly
 attribute
-XR
+XRSystem
 xr
 ;
 }
@@ -80,7 +80,7 @@ Exposed
 Window
 ]
 interface
-XR
+XRSystem
 :
 EventTarget
 {
