@@ -515,6 +515,11 @@ nsFilePicker
 cpp
 '
 '
+nsSharePicker
+.
+cpp
+'
+'
 nsWidgetFactory
 .
 cpp

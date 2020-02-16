@@ -134,6 +134,10 @@ Units
 .
 h
 "
+using
+namespace
+mozilla
+;
 #
 ifndef
 __MINGW32__
@@ -159,10 +163,6 @@ runtimeobject
 lib
 "
 )
-using
-namespace
-mozilla
-;
 using
 namespace
 ABI
@@ -1258,9 +1258,6 @@ aString
 }
 ;
 typedef
-mozilla
-:
-:
 UniquePtr
 <
 HSTRING
@@ -1268,9 +1265,6 @@ HStringDeleter
 >
 HStringUniquePtr
 ;
-mozilla
-:
-:
 Result
 <
 HStringUniquePtr
@@ -1318,9 +1312,6 @@ hr
 )
 {
 return
-mozilla
-:
-:
 Err
 (
 hr
@@ -1334,9 +1325,6 @@ rawStr
 )
 ;
 }
-mozilla
-:
-:
 Result
 <
 Ok
@@ -1370,9 +1358,6 @@ IsWin10OrLater
 )
 {
 return
-mozilla
-:
-:
 Err
 (
 NS_ERROR_FAILURE
@@ -1393,9 +1378,6 @@ hwnd
 )
 {
 return
-mozilla
-:
-:
 Err
 (
 NS_ERROR_FAILURE
@@ -1460,9 +1442,6 @@ dtm
 )
 {
 return
-mozilla
-:
-:
 Err
 (
 NS_ERROR_FAILURE
@@ -1542,9 +1521,6 @@ hwnd
 )
 {
 return
-mozilla
-:
-:
 Err
 (
 NS_ERROR_FAILURE
@@ -1579,9 +1555,6 @@ aUrl
 auto
 promiseHolder
 =
-mozilla
-:
-:
 MakeRefPtr
 <
 mozilla
@@ -1592,9 +1565,6 @@ media
 :
 Refcountable
 <
-mozilla
-:
-:
 MozPromiseHolder
 <
 SharePromise
