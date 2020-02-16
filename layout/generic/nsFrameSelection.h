@@ -1157,11 +1157,6 @@ nsISelectionListener
 NO_REASON
 )
 ;
-nsresult
-DeleteFromDocument
-(
-)
-;
 mozilla
 :
 :
