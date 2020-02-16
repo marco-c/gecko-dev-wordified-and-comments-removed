@@ -1,5 +1,11 @@
-import
+from
+six
+.
+moves
+.
 urllib
+import
+parse
 def
 main
 (
@@ -19,7 +25,7 @@ Set
 -
 Cookie
 '
-urllib
+parse
 .
 unquote
 (

@@ -2,8 +2,6 @@ from
 mod_pywebsocket
 import
 msgutil
-import
-urllib
 def
 web_socket_do_extra_handshake
 (
@@ -36,6 +34,7 @@ if
 line
 =
 =
+b
 '
 exit
 '
@@ -43,6 +42,13 @@ exit
             
 return
         
+if
+line
+is
+not
+None
+:
+            
 request
 .
 connection
@@ -50,13 +56,4 @@ connection
 write
 (
 line
-.
-decode
-(
-"
-string
--
-escape
-"
-)
 )

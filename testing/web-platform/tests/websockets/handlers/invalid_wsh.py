@@ -15,6 +15,7 @@ connection
 .
 write
 (
+b
 "
 FOO
 BAR
