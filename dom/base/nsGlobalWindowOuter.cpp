@@ -30812,7 +30812,7 @@ already_AddRefed
 <
 nsIDocShellTreeOwner
 >
-nsGlobalWindowOuter
+nsPIDOMWindowOuter
 :
 :
 GetTreeOwner
@@ -30858,7 +30858,7 @@ already_AddRefed
 <
 nsIBaseWindow
 >
-nsGlobalWindowOuter
+nsPIDOMWindowOuter
 :
 :
 GetTreeOwnerWindow
@@ -30911,7 +30911,7 @@ already_AddRefed
 <
 nsIWebBrowserChrome
 >
-nsGlobalWindowOuter
+nsPIDOMWindowOuter
 :
 :
 GetWebBrowserChrome
