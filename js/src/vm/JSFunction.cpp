@@ -9453,16 +9453,6 @@ global
 (
 )
 ;
-RootedValue
-v
-(
-cx
-StringValue
-(
-functionText
-)
-)
-;
 if
 (
 !
@@ -9472,7 +9462,7 @@ GlobalObject
 isRuntimeCodeGenEnabled
 (
 cx
-v
+functionText
 global
 )
 )
