@@ -192,10 +192,6 @@ mojom
 IdleManager
 .
 name
-"
-context
-"
-true
 )
 ;
 interceptor

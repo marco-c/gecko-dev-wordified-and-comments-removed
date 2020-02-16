@@ -47,10 +47,6 @@ mojom
 SmsReceiver
 .
 interfaceName
-"
-context
-"
-true
 )
 ;
 this

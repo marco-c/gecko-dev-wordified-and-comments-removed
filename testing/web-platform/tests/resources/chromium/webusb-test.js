@@ -2649,10 +2649,6 @@ mojom
 WebUsbService
 .
 name
-"
-context
-"
-true
 )
 ;
 internal
