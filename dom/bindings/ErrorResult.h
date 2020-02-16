@@ -2968,6 +2968,14 @@ this
 operator
 ErrorResult
 &
+(
+)
+=
+delete
+;
+operator
+ErrorResult
+&
 &
 (
 )

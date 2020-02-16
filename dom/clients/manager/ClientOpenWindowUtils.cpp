@@ -2257,7 +2257,7 @@ BrowsingContext
 >
 bc
 ;
-CopyableErrorResult
+ErrorResult
 rv
 ;
 OpenWindow
