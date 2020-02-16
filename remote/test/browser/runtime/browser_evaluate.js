@@ -918,11 +918,11 @@ expressions
 =
 [
 "
-NaN
-"
-"
 -
 0
+"
+"
+NaN
 "
 "
 Infinity
