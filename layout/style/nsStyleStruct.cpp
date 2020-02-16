@@ -5575,7 +5575,10 @@ mAspectRatio
 )
 mGridAutoFlow
 (
-NS_STYLE_GRID_AUTO_FLOW_ROW
+StyleGridAutoFlow
+:
+:
+ROW
 )
 mBoxSizing
 (
