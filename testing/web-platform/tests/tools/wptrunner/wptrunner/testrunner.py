@@ -725,7 +725,7 @@ self
 .
 logger
 .
-critical
+error
 (
 traceback
 .
