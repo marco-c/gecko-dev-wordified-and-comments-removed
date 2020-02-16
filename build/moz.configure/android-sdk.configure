@@ -387,7 +387,7 @@ build_tools_versions
 target_sdk_version
 =
 '
-29
+28
 '
 )
 depends
