@@ -3,7 +3,11 @@ time
 import
 threading
 from
-Queue
+six
+.
+moves
+.
+queue
 import
 Queue
 "
