@@ -1231,13 +1231,27 @@ success
 )
 :
             
+pr_number
+=
+deployment
+[
+'
+environment
+'
+]
+[
+len
+(
+DEPLOYMENT_PREFIX
+)
+:
+]
+            
 environment_url
 =
 '
 {
 }
-/
-submissions
 /
 {
 }
@@ -1245,15 +1259,8 @@ submissions
 .
 format
 (
-                
 target
-deployment
-[
-'
-environment
-'
-]
-            
+pr_number
 )
         
 else
