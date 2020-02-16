@@ -298,6 +298,16 @@ shownCount
 ]
 [
 "
+searchTips
+.
+test
+.
+ignoreShowLimits
+"
+false
+]
+[
+"
 speculativeConnect
 .
 enabled
