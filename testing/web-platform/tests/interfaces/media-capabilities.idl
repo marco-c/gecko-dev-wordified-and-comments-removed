@@ -278,6 +278,12 @@ robustness
 "
 "
 ;
+DOMString
+?
+encryptionScheme
+=
+null
+;
 }
 ;
 dictionary
