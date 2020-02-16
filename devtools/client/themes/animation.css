@@ -4343,18 +4343,6 @@ animation
 error
 -
 message
-{
-overflow
-:
-auto
-;
-}
-.
-animation
--
-error
--
-message
 >
 p
 {
@@ -4363,6 +4351,8 @@ white
 space
 :
 pre
+-
+wrap
 ;
 }
 .
