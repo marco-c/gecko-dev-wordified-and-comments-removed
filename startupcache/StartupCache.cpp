@@ -685,11 +685,11 @@ mDirty
 (
 false
 )
-mStartupWriteInitiated
+mWrittenOnce
 (
 false
 )
-mWrittenOnce
+mStartupWriteInitiated
 (
 false
 )
@@ -3634,10 +3634,10 @@ MaybeSpawnWriteThread
 {
 if
 (
-mWrittenOnce
-|
-|
 mWriteThread
+|
+|
+mWrittenOnce
 )
 {
 return

@@ -733,11 +733,14 @@ bool
 >
 mDirty
 ;
+Atomic
+<
 bool
-mStartupWriteInitiated
+>
+mWrittenOnce
 ;
 bool
-mWrittenOnce
+mStartupWriteInitiated
 ;
 bool
 mCurTableReferenced
