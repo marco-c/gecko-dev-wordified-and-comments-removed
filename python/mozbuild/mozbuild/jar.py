@@ -46,17 +46,23 @@ absolute_import
 print_function
 unicode_literals
 import
-sys
+errno
+import
+io
+import
+logging
 import
 os
-import
-errno
 import
 re
 import
 six
+from
+six
 import
-logging
+BytesIO
+import
+sys
 from
 time
 import
@@ -65,10 +71,6 @@ from
 MozZipFile
 import
 ZipFile
-from
-six
-import
-BytesIO
 from
 mozbuild
 .
@@ -3270,13 +3272,27 @@ outHelper
 getOutput
 (
 out
+mode
+=
+'
+w
+'
 )
             
 inf
 =
+io
+.
 open
 (
 realsrc
+encoding
+=
+'
+utf
+-
+8
+'
 )
             
 pp
@@ -3505,6 +3521,11 @@ getOutput
 (
 self
 name
+mode
+=
+'
+wb
+'
 )
 :
             
@@ -3599,6 +3620,11 @@ getOutput
 (
 self
 name
+mode
+=
+'
+wb
+'
 )
 :
             
@@ -3640,12 +3666,45 @@ ENOENT
                     
 raise
             
+if
+'
+b
+'
+in
+mode
+:
+                
 return
+io
+.
 open
 (
 out
+mode
+)
+            
+else
+:
+                
+return
+io
+.
+open
+(
+out
+mode
+encoding
+=
 '
-wb
+utf
+-
+8
+'
+newline
+=
+'
+\
+n
 '
 )
         
