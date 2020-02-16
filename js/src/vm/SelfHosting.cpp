@@ -15085,7 +15085,7 @@ GetTypedObjectModule
 0
 0
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 ObjectIsTypeDescr
@@ -15096,9 +15096,8 @@ js
 ObjectIsTypeDescr
 1
 0
-IntrinsicObjectIsTypeDescr
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 ObjectIsTypedObject
@@ -15109,9 +15108,8 @@ js
 ObjectIsTypedObject
 1
 0
-IntrinsicObjectIsTypedObject
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 TypeDescrIsArrayType
@@ -15122,9 +15120,8 @@ js
 TypeDescrIsArrayType
 1
 0
-IntrinsicTypeDescrIsArrayType
 )
-JS_INLINABLE_FN
+JS_FN
 (
 "
 TypeDescrIsSimpleType
@@ -15135,7 +15132,6 @@ js
 TypeDescrIsSimpleType
 1
 0
-IntrinsicTypeDescrIsSimpleType
 )
 JS_FN
 (
