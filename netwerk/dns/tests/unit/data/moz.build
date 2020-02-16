@@ -142,11 +142,6 @@ flags
 bin
 '
 ]
-fake_remote_dafsa
-.
-py2
-=
-True
 TEST_HARNESS_FILES
 .
 xpcshell

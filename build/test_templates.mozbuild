@@ -123,9 +123,6 @@ pycert
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
@@ -253,9 +250,6 @@ pykey
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
