@@ -805,6 +805,9 @@ null
 let
 sourceHost
 ;
+let
+sourceURL
+;
 try
 {
 sourceHost
@@ -816,6 +819,16 @@ _principal
 URI
 .
 host
+;
+sourceURL
+=
+this
+.
+_principal
+.
+URI
+.
+spec
 ;
 }
 catch
@@ -861,6 +874,7 @@ method
 installTrigger
 "
 sourceHost
+sourceURL
 }
 ;
 return
