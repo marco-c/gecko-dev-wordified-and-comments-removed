@@ -4046,15 +4046,11 @@ substs
 OS_TARGET
 '
 ]
-in
-(
+=
+=
 '
 Linux
 '
-'
-Darwin
-'
-)
         
 self
 .

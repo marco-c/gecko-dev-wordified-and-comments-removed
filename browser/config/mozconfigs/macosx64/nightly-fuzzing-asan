@@ -14,16 +14,6 @@ nightly
 -
 asan
 "
-.
-topsrcdir
-/
-build
-/
-mozconfig
-.
-wasm
--
-sandboxing
 unset
 MOZ_LTO
 ac_add_options
