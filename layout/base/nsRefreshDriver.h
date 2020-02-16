@@ -763,6 +763,16 @@ mHasScheduleFlush
 ;
 }
 void
+ClearHasScheduleFlush
+(
+)
+{
+mHasScheduleFlush
+=
+false
+;
+}
+void
 ScheduleFrameRequestCallbacks
 (
 Document

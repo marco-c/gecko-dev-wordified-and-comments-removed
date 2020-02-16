@@ -9037,6 +9037,13 @@ RevokeViewManagerFlush
 (
 )
 ;
+rd
+-
+>
+ClearHasScheduleFlush
+(
+)
+;
 }
 CancelAllPendingReflows
 (
