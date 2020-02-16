@@ -2748,13 +2748,11 @@ path
 .
 relpath
 (
-item
+six
 .
-encode
+ensure_str
 (
-"
-utf8
-"
+item
 )
 wpt_root
 )
