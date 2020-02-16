@@ -8,7 +8,7 @@ createBody
 expectedBody
 )
 {
-var
+const
 requestInit
 =
 {
@@ -25,7 +25,7 @@ function
 test
 )
 {
-let
+const
 body
 =
 createBody
@@ -36,6 +36,7 @@ if
 (
 body
 )
+{
 requestInit
 [
 "
@@ -45,6 +46,7 @@ body
 =
 body
 ;
+}
 return
 fetch
 (
@@ -113,11 +115,11 @@ method
 ;
 promise_test
 (
-test
+t
 =
 >
 {
-let
+const
 body
 =
 createBody
@@ -128,6 +130,7 @@ if
 (
 body
 )
+{
 requestInit
 [
 "
@@ -137,13 +140,12 @@ body
 =
 body
 ;
+}
 return
-promise_rejects
+promise_rejects_js
 (
-new
+t
 TypeError
-(
-)
 fetch
 (
 url
@@ -156,7 +158,7 @@ desc
 )
 ;
 }
-var
+const
 url
 =
 RESOURCES_DIR
@@ -583,6 +585,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
@@ -650,6 +653,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
@@ -701,6 +705,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
@@ -750,6 +755,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
@@ -799,6 +805,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
@@ -851,6 +858,7 @@ POST
 =
 >
 {
+return
 new
 ReadableStream
 (
