@@ -452,6 +452,16 @@ Encoding
 *
 mPreloadEncoding
 ;
+#
+ifdef
+MOZ_DIAGNOSTIC_ASSERT_ENABLED
+bool
+mSheetCompleteCalled
+=
+false
+;
+#
+endif
 bool
 ShouldDefer
 (
