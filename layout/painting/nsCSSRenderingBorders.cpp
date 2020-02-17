@@ -17795,8 +17795,6 @@ if
 (
 gradient
 .
-kind
-.
 IsLinear
 (
 )

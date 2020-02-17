@@ -3767,6 +3767,12 @@ GenericGradient
 "
 "
 bool
+Repeating
+(
+)
+const
+;
+bool
 IsOpaque
 (
 )
