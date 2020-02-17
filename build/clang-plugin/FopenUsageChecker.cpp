@@ -349,12 +349,6 @@ HANDLE
 )
 )
 )
-unless
-(
-isInWhitelistForFopenUsage
-(
-)
-)
 )
 )
 .
