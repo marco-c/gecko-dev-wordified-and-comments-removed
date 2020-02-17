@@ -13945,6 +13945,13 @@ Document
 aDocument
 )
 :
+mImageOrientation
+(
+StyleImageOrientation
+:
+:
+FromImage
+)
 mDirection
 (
 aDocument
