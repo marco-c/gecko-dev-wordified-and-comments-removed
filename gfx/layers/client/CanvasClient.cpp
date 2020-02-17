@@ -2249,10 +2249,6 @@ Screen
 Factory
 (
 )
-.
-get
-(
-)
 )
 ;
 }
