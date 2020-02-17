@@ -2903,6 +2903,16 @@ GetAsSourceSurface
 (
 )
 ;
+if
+(
+!
+surface
+)
+{
+return
+nullptr
+;
+}
 result
 -
 >
