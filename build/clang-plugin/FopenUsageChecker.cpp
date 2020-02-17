@@ -349,6 +349,12 @@ HANDLE
 )
 )
 )
+unless
+(
+isInWhitelistForFopenUsage
+(
+)
+)
 )
 )
 .
