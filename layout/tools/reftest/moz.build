@@ -234,6 +234,15 @@ xml
 chrome
 /
 userContent
+-
+import
+.
+css
+'
+'
+chrome
+/
+userContent
 .
 css
 '

@@ -66,14 +66,14 @@ SheetLoadData
 )
 ;
 void
-AsyncOpenFailed
+ChannelOpenFailed
 (
 )
 {
 #
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
-mAsyncOpenFailed
+mChannelOpenFailed
 =
 true
 ;
@@ -140,7 +140,7 @@ mBOMBytes
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 bool
-mAsyncOpenFailed
+mChannelOpenFailed
 =
 false
 ;
