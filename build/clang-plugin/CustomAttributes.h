@@ -121,6 +121,7 @@ name
 template
 <
 >
+\
 inline
 bool
 hasCustomAttribute
