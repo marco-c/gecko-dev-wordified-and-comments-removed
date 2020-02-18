@@ -187,6 +187,15 @@ SystemChooser
 )
 {
 }
+void
+AddUniqueExtension
+(
+const
+nsACString
+&
+aExtension
+)
+;
 nsMIMEInfoAndroid
 *
 mOuter
