@@ -2102,6 +2102,13 @@ attribute
 DOMString
 decoding
 ;
+[
+CEReactions
+]
+attribute
+DOMString
+loading
+;
 Promise
 <
 void
