@@ -573,7 +573,7 @@ private
 static
 final
 int
-IME_RANGE_LINE_DOTTED
+IME_RANGE_LINE_SOLID
 =
 1
 ;
@@ -581,7 +581,7 @@ private
 static
 final
 int
-IME_RANGE_LINE_DASHED
+IME_RANGE_LINE_DOTTED
 =
 2
 ;
@@ -589,7 +589,7 @@ private
 static
 final
 int
-IME_RANGE_LINE_SOLID
+IME_RANGE_LINE_DASHED
 =
 3
 ;
