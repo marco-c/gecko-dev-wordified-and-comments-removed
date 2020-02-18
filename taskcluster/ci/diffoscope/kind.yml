@@ -675,7 +675,9 @@ projects
 try
 '
 '
-release
+mozilla
+-
+central
 '
 ]
 #
