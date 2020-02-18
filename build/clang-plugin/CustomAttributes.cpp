@@ -1,10 +1,5 @@
 #
 include
-<
-algorithm
->
-#
-include
 "
 CustomAttributes
 .
@@ -28,6 +23,11 @@ FrontendPluginRegistry
 .
 h
 "
+#
+include
+<
+algorithm
+>
 using
 namespace
 clang
@@ -351,9 +351,11 @@ ATTR
 (
 a
 )
+\
 case
 a
 :
+\
 return
 attrs
 .
@@ -391,7 +393,6 @@ MatchCallback
 {
 public
 :
-virtual
 void
 run
 (
