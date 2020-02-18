@@ -100,7 +100,7 @@ constants
 js
 '
 '
-debugger
+devtools
 -
 client
 .

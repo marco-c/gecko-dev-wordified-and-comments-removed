@@ -1,8 +1,8 @@
 #
-Debugger
+DevTools
 Client
 The
-Debugger
+DevTools
 client
 is
 responsible
@@ -359,7 +359,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 .

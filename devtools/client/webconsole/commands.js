@@ -9,7 +9,7 @@ ConsoleCommands
 constructor
 (
 {
-debuggerClient
+devToolsClient
 proxy
 threadFront
 currentTarget
@@ -18,9 +18,9 @@ currentTarget
 {
 this
 .
-debuggerClient
+devToolsClient
 =
-debuggerClient
+devToolsClient
 ;
 this
 .
@@ -89,7 +89,7 @@ objectFront
 =
 this
 .
-debuggerClient
+devToolsClient
 .
 getFrontByID
 (

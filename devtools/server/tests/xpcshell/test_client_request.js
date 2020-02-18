@@ -182,7 +182,7 @@ init
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

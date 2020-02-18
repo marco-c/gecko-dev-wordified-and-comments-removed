@@ -546,7 +546,7 @@ void
 ;
 export
 type
-DebuggerClient
+DevToolsClient
 =
 {
 _activeRequests

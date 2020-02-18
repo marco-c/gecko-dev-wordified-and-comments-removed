@@ -29,7 +29,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -38,7 +38,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -186,7 +186,7 @@ createLocalServer
 ;
 return
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

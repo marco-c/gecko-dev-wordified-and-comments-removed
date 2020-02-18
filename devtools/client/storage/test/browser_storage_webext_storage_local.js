@@ -29,7 +29,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerClient
+DevToolsClient
 "
 "
 devtools
@@ -38,7 +38,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -85,7 +85,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

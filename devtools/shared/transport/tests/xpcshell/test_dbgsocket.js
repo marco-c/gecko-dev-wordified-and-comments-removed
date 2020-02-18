@@ -250,7 +250,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -567,7 +567,7 @@ toTimeString
 try
 {
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (

@@ -140,7 +140,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -152,7 +152,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -804,7 +804,7 @@ port
 )
 ;
 return
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (

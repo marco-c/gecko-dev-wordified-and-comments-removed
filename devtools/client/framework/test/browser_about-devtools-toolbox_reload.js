@@ -11,7 +11,7 @@ function
 )
 {
 const
-debuggerClient
+devToolsClient
 =
 await
 createLocalClient
@@ -24,7 +24,7 @@ info
 Preload
 a
 local
-DebuggerClient
+DevToolsClient
 as
 this
 -
@@ -75,7 +75,7 @@ this
 -
 firefox
 "
-debuggerClient
+devToolsClient
 {
 }
 )
@@ -273,7 +273,7 @@ await
 onToolboxDestroy
 ;
 await
-debuggerClient
+devToolsClient
 .
 close
 (
@@ -296,7 +296,7 @@ createLocalClient
 {
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -308,7 +308,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -351,10 +351,10 @@ allowChromeProcess
 true
 ;
 const
-debuggerClient
+devToolsClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .
@@ -364,13 +364,13 @@ connectPipe
 )
 ;
 await
-debuggerClient
+devToolsClient
 .
 connect
 (
 )
 ;
 return
-debuggerClient
+devToolsClient
 ;
 }

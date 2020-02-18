@@ -23,7 +23,7 @@ server
 ;
 var
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -35,7 +35,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -107,7 +107,7 @@ connectPipe
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

@@ -187,7 +187,7 @@ true
 )
 ;
 function
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -333,7 +333,7 @@ traits
 )
 ;
 }
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 =
@@ -356,7 +356,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerClient
+DevToolsClient
 "
 Authenticators
 "
@@ -377,7 +377,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerClient
+DevToolsClient
 "
 AuthenticationResult
 "
@@ -394,7 +394,7 @@ AuthenticationResult
 }
 )
 ;
-DebuggerClient
+DevToolsClient
 .
 prototype
 =
@@ -2501,7 +2501,7 @@ EventEmitter
 .
 decorate
 (
-DebuggerClient
+DevToolsClient
 .
 prototype
 )
@@ -2553,6 +2553,6 @@ module
 exports
 =
 {
-DebuggerClient
+DevToolsClient
 }
 ;

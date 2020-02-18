@@ -165,7 +165,7 @@ newConnection
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 gMainTransport
 )

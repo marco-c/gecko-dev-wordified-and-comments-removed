@@ -23,7 +23,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -35,7 +35,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -824,7 +824,7 @@ port
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -861,7 +861,7 @@ connectPipe
 }
 return
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

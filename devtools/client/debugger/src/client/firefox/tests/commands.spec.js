@@ -51,7 +51,7 @@ makeDependencies
 {
 return
 {
-debuggerClient
+devToolsClient
 :
 (
 null

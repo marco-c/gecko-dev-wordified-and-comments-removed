@@ -364,7 +364,7 @@ svg
 ;
 }
 function
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 (
 )
 {
@@ -783,7 +783,7 @@ once
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }
@@ -1033,7 +1033,7 @@ off
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }
@@ -2229,7 +2229,7 @@ off
 "
 closed
 "
-onRemoteDebuggerClientClosed
+onRemoteDevToolsClientClosed
 )
 ;
 }

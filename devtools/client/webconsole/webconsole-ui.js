@@ -569,7 +569,7 @@ new
 ConsoleCommands
 (
 {
-debuggerClient
+devToolsClient
 :
 this
 .

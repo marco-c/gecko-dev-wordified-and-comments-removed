@@ -744,7 +744,7 @@ you
 re
 using
 a
-DebuggerClient
+DevToolsClient
 instance
 you
 can

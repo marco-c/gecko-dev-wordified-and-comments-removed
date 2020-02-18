@@ -723,7 +723,7 @@ to
 settle
 on
 the
-DebuggerClient
+DevToolsClient
 "
 )
 ;
@@ -801,7 +801,7 @@ info
 Create
 a
 local
-DebuggerClient
+DevToolsClient
 "
 )
 ;
@@ -825,7 +825,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -837,7 +837,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -883,7 +883,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

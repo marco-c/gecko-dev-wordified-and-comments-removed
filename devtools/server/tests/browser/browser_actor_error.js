@@ -89,7 +89,7 @@ const
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

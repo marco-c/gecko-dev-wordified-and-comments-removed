@@ -1847,7 +1847,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 trace
 )

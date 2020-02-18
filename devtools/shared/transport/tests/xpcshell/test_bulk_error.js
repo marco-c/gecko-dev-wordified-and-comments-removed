@@ -164,7 +164,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

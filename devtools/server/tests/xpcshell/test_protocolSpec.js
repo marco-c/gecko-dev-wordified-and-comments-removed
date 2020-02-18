@@ -30,7 +30,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 connection
 )

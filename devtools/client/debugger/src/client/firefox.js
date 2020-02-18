@@ -62,7 +62,7 @@ Object
 {
 const
 {
-debuggerClient
+devToolsClient
 targetList
 }
 =
@@ -75,7 +75,7 @@ _actions
 setupCommands
 (
 {
-debuggerClient
+devToolsClient
 }
 )
 ;
@@ -83,7 +83,7 @@ setupEvents
 (
 {
 actions
-debuggerClient
+devToolsClient
 }
 )
 ;

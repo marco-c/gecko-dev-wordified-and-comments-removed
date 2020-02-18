@@ -94,7 +94,7 @@ Services
 ;
 var
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -106,7 +106,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -532,7 +532,7 @@ const
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -546,7 +546,7 @@ webSocket
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

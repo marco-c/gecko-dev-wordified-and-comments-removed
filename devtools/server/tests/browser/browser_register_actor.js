@@ -59,7 +59,7 @@ registerAllActors
 gClient
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

@@ -806,7 +806,7 @@ status
 too
 old
 if
-debugger
+devtools
 client
 is
 not

@@ -5,7 +5,7 @@ SourcePacket
 PausedPacket
 ThreadFront
 Target
-DebuggerClient
+DevToolsClient
 }
 from
 "
@@ -121,9 +121,9 @@ actions
 :
 typeof
 Actions
-debuggerClient
+devToolsClient
 :
-DebuggerClient
+DevToolsClient
 }
 ;
 let
@@ -280,7 +280,7 @@ Dependencies
 {
 const
 {
-debuggerClient
+devToolsClient
 }
 =
 dependencies
@@ -298,7 +298,7 @@ initialize
 actions
 )
 ;
-debuggerClient
+devToolsClient
 .
 mainRoot
 .
@@ -315,7 +315,7 @@ workersListener
 new
 WorkersListener
 (
-debuggerClient
+devToolsClient
 .
 mainRoot
 )

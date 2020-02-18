@@ -25,7 +25,7 @@ const
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 DevToolsServer
 .

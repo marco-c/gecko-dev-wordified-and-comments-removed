@@ -102,7 +102,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -114,7 +114,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -167,7 +167,7 @@ client
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -249,7 +249,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -261,7 +261,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -325,7 +325,7 @@ let
 transport
 =
 await
-DebuggerClient
+DevToolsClient
 .
 socketConnect
 (
@@ -350,7 +350,7 @@ client
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -584,7 +584,7 @@ onTab
 ;
 }
 The
-debugger
+devtools
 client
 will
 send
@@ -915,7 +915,7 @@ server
 ;
 const
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -927,7 +927,7 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
@@ -1026,7 +1026,7 @@ client
 client
 =
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )

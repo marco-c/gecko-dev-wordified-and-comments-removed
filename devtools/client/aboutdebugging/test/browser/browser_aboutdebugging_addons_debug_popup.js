@@ -1302,7 +1302,7 @@ to
 settle
 on
 the
-DebuggerClient
+DevToolsClient
 "
 )
 ;

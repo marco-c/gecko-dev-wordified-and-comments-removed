@@ -229,7 +229,7 @@ async
 function
 checkVersionCompatibility
 (
-debuggerClient
+devToolsClient
 )
 {
 const
@@ -256,7 +256,7 @@ const
 deviceFront
 =
 await
-debuggerClient
+devToolsClient
 .
 mainRoot
 .

@@ -70,7 +70,7 @@ server
 ;
 var
 {
-DebuggerClient
+DevToolsClient
 }
 =
 require
@@ -82,14 +82,14 @@ shared
 /
 client
 /
-debugger
+devtools
 -
 client
 "
 )
 ;
 function
-initDebuggerClient
+initDevToolsClient
 (
 )
 {
@@ -122,7 +122,7 @@ connectPipe
 ;
 return
 new
-DebuggerClient
+DevToolsClient
 (
 transport
 )
@@ -247,7 +247,7 @@ function
 {
 gClient
 =
-initDebuggerClient
+initDevToolsClient
 (
 )
 ;
