@@ -179,9 +179,6 @@ bool
 disableLicm
 ;
 bool
-disableOptimizationTracking
-;
-bool
 disablePgo
 ;
 bool

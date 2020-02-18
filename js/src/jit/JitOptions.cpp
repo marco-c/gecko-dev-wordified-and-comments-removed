@@ -434,12 +434,6 @@ false
 ;
 SET_DEFAULT
 (
-disableOptimizationTracking
-true
-)
-;
-SET_DEFAULT
-(
 disablePgo
 false
 )
