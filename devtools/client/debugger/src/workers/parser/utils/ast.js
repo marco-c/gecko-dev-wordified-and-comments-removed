@@ -403,6 +403,12 @@ objectRestSpread
 "
 dynamicImport
 "
+"
+nullishCoalescingOperator
+"
+"
+optionalChaining
+"
 ]
 .
 .
