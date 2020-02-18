@@ -102,15 +102,6 @@ nsMIMEInfoAndroid
 )
 {
 }
-void
-AddUniqueExtension
-(
-const
-nsACString
-&
-aExtension
-)
-;
 virtual
 MOZ_MUST_USE
 nsresult
