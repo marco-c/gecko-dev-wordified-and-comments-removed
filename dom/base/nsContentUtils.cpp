@@ -12165,7 +12165,9 @@ aDocShell
 )
 {
 return
-false
+ShouldResistFingerprinting
+(
+)
 ;
 }
 return
@@ -12204,7 +12206,9 @@ aDoc
 )
 {
 return
-false
+ShouldResistFingerprinting
+(
+)
 ;
 }
 bool
@@ -12251,7 +12255,9 @@ aPrincipal
 )
 {
 return
-false
+ShouldResistFingerprinting
+(
+)
 ;
 }
 bool
