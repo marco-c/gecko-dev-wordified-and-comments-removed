@@ -237,11 +237,8 @@ warnings
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TEST_VIOLATION
 )
 ;

@@ -177,9 +177,8 @@ open
 )
 ;
 await
-loadDocument
+navigateTo
 (
-toolbox
 TEST_PATH
 )
 ;

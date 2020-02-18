@@ -751,11 +751,8 @@ warn
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 url
 )
 ;

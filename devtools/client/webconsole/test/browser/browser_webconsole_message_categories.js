@@ -681,11 +681,8 @@ file
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 TESTS_PATH
 +
 file

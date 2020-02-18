@@ -300,11 +300,8 @@ value
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud2
-.
-toolbox
 TEST_URI3
 )
 ;
@@ -361,11 +358,8 @@ hud2
 )
 ;
 await
-loadDocument
+navigateTo
 (
-hud2
-.
-toolbox
 TEST_URI4
 )
 ;

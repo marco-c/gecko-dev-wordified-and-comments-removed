@@ -229,11 +229,8 @@ expectUncaughtException
 ;
 }
 await
-loadDocument
+navigateTo
 (
-hud
-.
-toolbox
 makeURIData
 (
 testData
