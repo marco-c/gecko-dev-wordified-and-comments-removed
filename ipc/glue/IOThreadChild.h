@@ -57,8 +57,9 @@ TYPE_IO
 IOThreadChild
 (
 )
-{
-}
+=
+default
+;
 static
 MessageLoop
 *

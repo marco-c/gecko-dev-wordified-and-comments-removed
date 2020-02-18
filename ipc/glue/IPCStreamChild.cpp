@@ -364,8 +364,9 @@ Initialize
 IPCStreamDestinationChild
 (
 )
-{
-}
+=
+default
+;
 private
 :
 void

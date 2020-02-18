@@ -218,8 +218,9 @@ private
 DoWorkRunnable
 (
 )
-{
-}
+=
+default
+;
 MessagePump
 *
 mPump
@@ -259,8 +260,9 @@ MessagePump
 MessagePump
 (
 )
-{
-}
+=
+default
+;
 void
 MessagePump
 :

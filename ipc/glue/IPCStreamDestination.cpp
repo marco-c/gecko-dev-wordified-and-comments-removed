@@ -941,8 +941,9 @@ IPCStreamDestination
 IPCStreamDestination
 (
 )
-{
-}
+=
+default
+;
 nsresult
 IPCStreamDestination
 :

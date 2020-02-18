@@ -63,8 +63,9 @@ public
 SharedMemoryBasic
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 SetHandle
@@ -347,8 +348,9 @@ private
 SharedMemoryBasic
 (
 )
-{
-}
+=
+default
+;
 base
 :
 :
