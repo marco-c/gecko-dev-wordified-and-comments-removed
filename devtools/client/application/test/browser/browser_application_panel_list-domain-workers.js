@@ -224,9 +224,8 @@ worker
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 EMPTY_URL
 )
 ;
@@ -310,9 +309,8 @@ worker
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 OTHER_URL
 )
 ;

@@ -180,9 +180,8 @@ process
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 CONTENT_PROCESS_URI_WORKERS
 )
 ;
@@ -297,7 +296,6 @@ process
 const
 {
 panel
-toolbox
 tab
 }
 =
@@ -383,9 +381,8 @@ process
 )
 ;
 await
-navigate
+navigateTo
 (
-toolbox
 CONTENT_PROCESS_URI_MANIFEST
 )
 ;
