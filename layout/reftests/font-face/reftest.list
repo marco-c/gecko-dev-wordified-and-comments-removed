@@ -2280,7 +2280,6 @@ change
 ref
 .
 html
-fails
 !
 =
 underline
@@ -2305,9 +2304,6 @@ change
 ref
 .
 html
-#
-Bug
-534132
 !
 =
 534352
