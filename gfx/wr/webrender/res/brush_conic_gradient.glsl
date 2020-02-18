@@ -601,6 +601,8 @@ x
 PI
 /
 2
+.
+0
 -
 V_ANGLE
 )
@@ -614,6 +616,8 @@ current_angle
 /
 (
 2
+.
+0
 *
 PI
 )
