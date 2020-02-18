@@ -416,11 +416,6 @@ MoveResolver
 cpp
 '
 '
-OptimizationTracking
-.
-cpp
-'
-'
 PerfSpewer
 .
 cpp
