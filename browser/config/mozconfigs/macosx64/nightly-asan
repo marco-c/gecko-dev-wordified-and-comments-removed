@@ -93,6 +93,16 @@ mozconfig
 .
 common
 "
+.
+topsrcdir
+/
+build
+/
+mozconfig
+.
+wasm
+-
+sandboxing
 #
 This
 is
