@@ -37,7 +37,7 @@ getService
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -47,7 +47,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -95,7 +95,7 @@ for
 const
 id
 in
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -103,7 +103,7 @@ _connections
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 _connections
 [

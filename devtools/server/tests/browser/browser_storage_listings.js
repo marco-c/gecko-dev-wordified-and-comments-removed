@@ -3799,7 +3799,7 @@ forceCollections
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

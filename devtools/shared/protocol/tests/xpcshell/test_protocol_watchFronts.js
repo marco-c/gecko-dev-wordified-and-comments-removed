@@ -350,13 +350,13 @@ run_test
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 =
 RootActor
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (

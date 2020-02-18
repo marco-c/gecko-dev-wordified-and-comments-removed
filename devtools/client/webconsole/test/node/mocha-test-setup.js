@@ -1097,7 +1097,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -1111,7 +1111,7 @@ module
 exports
 =
 {
-DebuggerServer
+DevToolsServer
 :
 {
 }

@@ -64,7 +64,7 @@ pool
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -74,7 +74,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -339,7 +339,7 @@ allowChromeProcess
 )
 {
 return
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 ;
@@ -1124,7 +1124,7 @@ outerWindowID
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 )
@@ -1993,7 +1993,7 @@ id
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 )
@@ -2556,7 +2556,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

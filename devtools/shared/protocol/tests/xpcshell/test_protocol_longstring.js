@@ -98,15 +98,15 @@ traits
 }
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_READ_LENGTH
 =
@@ -404,7 +404,7 @@ run_test
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 =
@@ -420,7 +420,7 @@ conn
 ;
 }
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (

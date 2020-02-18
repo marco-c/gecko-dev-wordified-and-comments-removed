@@ -827,7 +827,6 @@ connecting
 to
 the
 DevTools
-debugger
 server
 and
 getting

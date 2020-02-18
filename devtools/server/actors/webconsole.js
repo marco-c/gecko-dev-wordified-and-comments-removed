@@ -64,7 +64,7 @@ chrome
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -74,7 +74,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -5854,7 +5854,7 @@ lineText
 .
 length
 >
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )
@@ -5866,7 +5866,7 @@ lineText
 substr
 (
 0
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )

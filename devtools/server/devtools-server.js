@@ -75,7 +75,7 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServerConnection
+DevToolsServerConnection
 "
 "
 devtools
@@ -289,7 +289,7 @@ emitter
 )
 ;
 var
-DebuggerServer
+DevToolsServer
 =
 {
 _listeners
@@ -515,7 +515,7 @@ false
 dumpn
 (
 "
-Debugger
+DevTools
 server
 is
 shut
@@ -542,7 +542,7 @@ new
 Error
 (
 "
-DebuggerServer
+DevToolsServer
 has
 not
 been
@@ -572,7 +572,7 @@ Error
 (
 "
 Use
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
@@ -1336,7 +1336,7 @@ const
 conn
 =
 new
-DebuggerServerConnection
+DevToolsServerConnection
 (
 connID
 transport
@@ -1583,7 +1583,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerServer
+DevToolsServer
 "
 Authenticators
 "
@@ -1604,7 +1604,7 @@ DevToolsUtils
 .
 defineLazyGetter
 (
-DebuggerServer
+DevToolsServer
 "
 AuthenticationResult
 "
@@ -1625,12 +1625,12 @@ EventEmitter
 .
 decorate
 (
-DebuggerServer
+DevToolsServer
 )
 ;
 exports
 .
-DebuggerServer
+DevToolsServer
 =
-DebuggerServer
+DevToolsServer
 ;

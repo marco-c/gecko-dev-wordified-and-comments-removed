@@ -170,7 +170,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -180,7 +180,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -293,13 +293,13 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -307,7 +307,7 @@ registerAllActors
 ;
 is
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -337,7 +337,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -360,7 +360,7 @@ open
 ;
 is
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -527,7 +527,7 @@ close
 ;
 is
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -538,7 +538,7 @@ sockets
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

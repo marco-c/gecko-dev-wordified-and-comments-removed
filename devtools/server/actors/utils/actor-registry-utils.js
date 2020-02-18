@@ -18,7 +18,7 @@ chrome
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -28,7 +28,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -77,7 +77,7 @@ options
 )
 ;
 return
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (
@@ -290,7 +290,7 @@ unregisterActorInCurrentProcess
 options
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (

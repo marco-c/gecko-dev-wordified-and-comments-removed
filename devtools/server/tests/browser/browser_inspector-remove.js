@@ -341,7 +341,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -351,7 +351,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -374,7 +374,7 @@ nextActorID
 const
 previous
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (
@@ -384,7 +384,7 @@ previousActorID
 const
 next
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (

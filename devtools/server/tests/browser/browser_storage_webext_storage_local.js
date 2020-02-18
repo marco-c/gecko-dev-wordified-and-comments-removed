@@ -54,7 +54,7 @@ Setting
 up
 and
 connecting
-Debugger
+DevTools
 Server
 and
 Client

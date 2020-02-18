@@ -1364,15 +1364,15 @@ true
 function
 SocketListener
 (
-debuggerServer
+devToolsServer
 socketOptions
 )
 {
 this
 .
-_debuggerServer
+_devToolsServer
 =
-debuggerServer
+devToolsServer
 ;
 this
 .
@@ -1626,7 +1626,7 @@ _validateOptions
 ;
 this
 .
-_debuggerServer
+_devToolsServer
 .
 addSocketListener
 (
@@ -2148,7 +2148,7 @@ null
 }
 this
 .
-_debuggerServer
+_devToolsServer
 .
 removeSocketListener
 (
@@ -3155,7 +3155,7 @@ this
 .
 _listener
 .
-_debuggerServer
+_devToolsServer
 .
 closeAllSocketListeners
 (

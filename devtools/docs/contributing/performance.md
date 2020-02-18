@@ -540,7 +540,7 @@ of
 DevTools
 backend
 (
-DebuggerServer
+DevToolsServer
 actors
 .
 .

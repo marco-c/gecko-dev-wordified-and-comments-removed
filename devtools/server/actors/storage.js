@@ -52,7 +52,7 @@ string
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -62,7 +62,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -2005,7 +2005,7 @@ clear
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -3335,7 +3335,7 @@ this
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -8313,7 +8313,7 @@ value
 const
 maxLength
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 -
@@ -10984,7 +10984,7 @@ value
 const
 maxLength
 =
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 -
@@ -11168,7 +11168,7 @@ maybeSetupChildProcess
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )

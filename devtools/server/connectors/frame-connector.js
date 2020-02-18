@@ -40,14 +40,14 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServer
+DevToolsServer
 "
 "
 devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -226,7 +226,7 @@ onActorCreated
 )
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 _childMessageManagers
 .
@@ -310,7 +310,7 @@ onActorCreated
 )
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 _childMessageManagers
 .
@@ -1106,7 +1106,7 @@ onDisconnected
 }
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 emit
 (

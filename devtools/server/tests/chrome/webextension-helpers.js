@@ -50,7 +50,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -60,7 +60,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -136,18 +136,18 @@ jsm
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 initialized
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -161,7 +161,7 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -447,7 +447,7 @@ addonId
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

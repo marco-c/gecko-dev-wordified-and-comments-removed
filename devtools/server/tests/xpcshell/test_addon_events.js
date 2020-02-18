@@ -52,13 +52,13 @@ startupAddonsManager
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -70,7 +70,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

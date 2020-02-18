@@ -43,7 +43,7 @@ debuggee
 =
 >
 {
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 =

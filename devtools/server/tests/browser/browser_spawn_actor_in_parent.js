@@ -335,7 +335,7 @@ contructor
 argument
 is
 a
-DebuggerServerConnection
+DevToolsServerConnection
 instance
 "
 )

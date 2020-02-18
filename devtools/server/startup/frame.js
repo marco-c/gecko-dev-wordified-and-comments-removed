@@ -127,7 +127,7 @@ DevToolsUtils
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -137,7 +137,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -161,13 +161,13 @@ common
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -236,7 +236,7 @@ addonId
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParent
 (
@@ -726,14 +726,14 @@ destroyServer
 {
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
 )
 |
 |
-DebuggerServer
+DevToolsServer
 .
 keepAlive
 )
@@ -741,7 +741,7 @@ keepAlive
 return
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -751,7 +751,7 @@ connectionchange
 destroyServer
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -770,7 +770,7 @@ destroy
 ;
 }
 }
-DebuggerServer
+DevToolsServer
 .
 on
 (

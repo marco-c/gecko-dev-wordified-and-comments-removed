@@ -187,7 +187,7 @@ child
 setup
 mechanism
 at
-DebuggerServer
+DevToolsServer
 level
 that
 can
@@ -205,7 +205,7 @@ first
 time
 in
 the
-DebuggerServer
+DevToolsServer
 running
 in
 the
@@ -245,7 +245,7 @@ process
 :
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -255,7 +255,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -287,7 +287,7 @@ process
 .
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -308,7 +308,7 @@ setupInParent
 is
 defined
 on
-DebuggerServerConnection
+DevToolsServerConnection
 /
 /
 your
@@ -367,7 +367,7 @@ previous
 example
 uses
 the
-DebuggerServerConnection
+DevToolsServerConnection
 .
 setupInParent
 to
@@ -380,13 +380,13 @@ in
 the
 parent
 process
-Debugger
+DevTools
 Server
 .
 With
 this
 the
-DebuggerServer
+DevToolsServer
 running
 in
 the
@@ -787,7 +787,7 @@ process
 :
 *
 The
-DebuggerServer
+DevToolsServer
 loads
 an
 actor
@@ -797,7 +797,7 @@ the
 actor
 module
 checks
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 to
@@ -818,7 +818,7 @@ module
 then
 uses
 the
-DebuggerServerConnection
+DevToolsServerConnection
 .
 setupInParent
 helper
@@ -833,7 +833,7 @@ process
 counterpart
 *
 the
-DebuggerServerConnection
+DevToolsServerConnection
 .
 setupInParent
 helper
@@ -856,13 +856,13 @@ actor
 module
 uses
 the
-DebuggerServerConnection
+DevToolsServerConnection
 .
 parentMessageManager
 .
 sendSyncMessage
 and
-DebuggerServerConnection
+DevToolsServerConnection
 .
 parentMessageManager
 .
@@ -882,10 +882,10 @@ process
 :
 *
 The
-DebuggerServer
+DevToolsServer
 receives
 the
-DebuggerServerConnection
+DevToolsServerConnection
 .
 setupInParent
 request

@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "

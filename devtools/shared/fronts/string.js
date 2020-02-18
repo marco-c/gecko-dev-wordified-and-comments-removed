@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -193,7 +193,7 @@ thusFar
 .
 length
 +
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_READ_LENGTH
 )

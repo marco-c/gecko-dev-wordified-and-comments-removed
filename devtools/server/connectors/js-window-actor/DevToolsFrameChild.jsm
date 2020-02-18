@@ -252,7 +252,7 @@ prefix
 {
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 this
@@ -266,7 +266,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -318,13 +318,13 @@ frame
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -335,7 +335,7 @@ true
 }
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 on
 (
@@ -350,7 +350,7 @@ _onConnectionChange
 const
 connection
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParentWindowActor
 (
@@ -406,7 +406,7 @@ _onConnectionChange
 {
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 this
@@ -420,7 +420,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -428,14 +428,14 @@ server
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
 )
 |
 |
-DebuggerServer
+DevToolsServer
 .
 keepAlive
 )
@@ -459,7 +459,7 @@ _destroyed
 =
 true
 ;
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -471,7 +471,7 @@ this
 _onConnectionChange
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

@@ -28,14 +28,14 @@ bulk
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
 createRootActor
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -60,7 +60,7 @@ test_bulk_send_error
 local_transport
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

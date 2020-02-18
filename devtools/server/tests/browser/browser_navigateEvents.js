@@ -854,7 +854,7 @@ jsm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -864,7 +864,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -889,7 +889,7 @@ emitter
 const
 targetActor
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (
@@ -1146,7 +1146,7 @@ request
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

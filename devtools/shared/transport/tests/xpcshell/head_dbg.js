@@ -122,7 +122,7 @@ registry
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -132,7 +132,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -373,7 +373,7 @@ string
 }
 while
 (
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .
@@ -382,7 +382,7 @@ eventLoopNestLevel
 0
 )
 {
-DebuggerServer
+DevToolsServer
 .
 xpcInspector
 .
@@ -441,7 +441,7 @@ listener
 )
 ;
 function
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 {
@@ -498,14 +498,14 @@ testactors
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
 createRootActor
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -703,7 +703,7 @@ function
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 )
@@ -711,7 +711,7 @@ listeningSockets
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -742,7 +742,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -767,7 +767,7 @@ debuggerListener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -782,7 +782,7 @@ open
 const
 port
 =
-DebuggerServer
+DevToolsServer
 .
 _listeners
 [
@@ -794,7 +794,7 @@ port
 info
 (
 "
-Debugger
+DevTools
 server
 port
 is
@@ -836,7 +836,7 @@ Promise
 .
 resolve
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

@@ -14050,7 +14050,7 @@ Services
 )
 ;
 var
-DebuggerServer
+DevToolsServer
 =
 require
 (
@@ -14059,13 +14059,13 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
 )
 .
-DebuggerServer
+DevToolsServer
 ;
 var
 window
@@ -14076,7 +14076,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

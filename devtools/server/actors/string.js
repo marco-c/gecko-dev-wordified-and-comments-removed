@@ -5,7 +5,7 @@ strict
 ;
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -101,7 +101,7 @@ str
 .
 length
 <
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_LENGTH
 ;
@@ -179,7 +179,7 @@ str
 substring
 (
 0
-DebuggerServer
+DevToolsServer
 .
 LONG_STRING_INITIAL_LENGTH
 )

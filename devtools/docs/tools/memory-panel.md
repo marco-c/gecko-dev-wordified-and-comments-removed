@@ -233,7 +233,7 @@ use
 of
 the
 Remote
-Debugger
+DevTools
 Server
 and
 the
@@ -1923,7 +1923,7 @@ the
 HeapAnalysesWorker
 the
 Remote
-Debugger
+DevTools
 Server
 or
 the

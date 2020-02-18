@@ -5,7 +5,7 @@ strict
 ;
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -83,13 +83,13 @@ test
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -98,7 +98,7 @@ registerAllActors
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

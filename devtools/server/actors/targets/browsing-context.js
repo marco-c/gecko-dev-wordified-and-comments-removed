@@ -3601,12 +3601,6 @@ Ci
 nsIRequest
 .
 LOAD_BYPASS_CACHE
-|
-Ci
-.
-nsIRequest
-.
-INHIBIT_CACHING
 ;
 this
 .
@@ -3782,12 +3776,6 @@ Ci
 nsIRequest
 .
 LOAD_BYPASS_CACHE
-|
-Ci
-.
-nsIRequest
-.
-INHIBIT_CACHING
 ;
 return
 this

@@ -162,7 +162,7 @@ close
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

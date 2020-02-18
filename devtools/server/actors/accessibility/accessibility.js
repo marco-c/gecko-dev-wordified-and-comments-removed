@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -209,7 +209,7 @@ defer
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -425,7 +425,7 @@ canBeEnabled
 {
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -456,7 +456,7 @@ canBeDisabled
 {
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -513,7 +513,7 @@ messageManager
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -753,7 +753,7 @@ init
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -832,7 +832,7 @@ shutdown
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )
@@ -1246,7 +1246,7 @@ shutdown
 ;
 if
 (
-DebuggerServer
+DevToolsServer
 .
 isInChildProcess
 )

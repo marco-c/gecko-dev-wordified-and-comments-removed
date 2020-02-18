@@ -17,11 +17,11 @@ run_test
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -32,7 +32,7 @@ gClient
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

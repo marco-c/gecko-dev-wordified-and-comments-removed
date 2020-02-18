@@ -8,7 +8,7 @@ run_test
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -37,7 +37,7 @@ local_transport
 json_reply
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

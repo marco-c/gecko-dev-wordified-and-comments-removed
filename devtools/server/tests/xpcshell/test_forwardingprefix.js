@@ -37,7 +37,7 @@ run_test
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -97,7 +97,7 @@ prefix
 let
 conn
 ;
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 =
@@ -124,7 +124,7 @@ connection
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

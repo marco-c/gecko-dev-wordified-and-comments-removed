@@ -85,7 +85,7 @@ helper
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -95,7 +95,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -673,7 +673,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

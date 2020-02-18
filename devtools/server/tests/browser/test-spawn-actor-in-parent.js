@@ -26,7 +26,7 @@ protocol
 ;
 const
 {
-DebuggerServerConnection
+DevToolsServerConnection
 }
 =
 require
@@ -372,7 +372,7 @@ this
 .
 conn
 instanceof
-DebuggerServerConnection
+DevToolsServerConnection
 mm
 :
 Object

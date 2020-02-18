@@ -84,7 +84,7 @@ connection
 javascript
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -94,7 +94,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -131,13 +131,13 @@ Start
 the
 server
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -152,7 +152,7 @@ nsIPipe
 let
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -231,7 +231,7 @@ this
 javascript
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -241,7 +241,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -278,13 +278,13 @@ Start
 the
 server
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -299,7 +299,7 @@ we
 do
 this
 :
-DebuggerServer
+DevToolsServer
 .
 openListener
 (
@@ -897,7 +897,7 @@ demo
 /
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -907,7 +907,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -950,13 +950,13 @@ Start
 the
 server
 .
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -971,7 +971,7 @@ nsIPipe
 let
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -988,7 +988,7 @@ this
 :
 /
 /
-DebuggerServer
+DevToolsServer
 .
 openListener
 (

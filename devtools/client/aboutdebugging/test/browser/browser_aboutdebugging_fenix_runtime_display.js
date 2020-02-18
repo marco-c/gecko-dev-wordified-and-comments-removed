@@ -807,7 +807,7 @@ DebuggerClient
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -817,7 +817,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -867,13 +867,13 @@ wrapper
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -885,7 +885,7 @@ client
 new
 DebuggerClient
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

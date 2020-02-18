@@ -13,14 +13,14 @@ function
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
 const
 connection
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

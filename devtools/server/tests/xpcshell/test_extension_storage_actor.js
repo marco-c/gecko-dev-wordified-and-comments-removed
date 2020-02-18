@@ -175,13 +175,13 @@ startDebugger
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -190,7 +190,7 @@ registerAllActors
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

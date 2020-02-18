@@ -32,14 +32,14 @@ lazyRequireGetter
 (
 this
 "
-DebuggerServer
+DevToolsServer
 "
 "
 devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -308,7 +308,7 @@ wm
 .
 getMostRecentWindow
 (
-DebuggerServer
+DevToolsServer
 .
 chromeWindowType
 )

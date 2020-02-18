@@ -68,7 +68,7 @@ true
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 gLoader
@@ -80,19 +80,19 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerActors
 (
@@ -113,7 +113,7 @@ destroyServer
 {
 if
 (
-DebuggerServer
+DevToolsServer
 .
 hasConnection
 (
@@ -123,7 +123,7 @@ hasConnection
 return
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 off
 (
@@ -133,7 +133,7 @@ connectionchange
 destroyServer
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
@@ -150,7 +150,7 @@ gLoader
 null
 ;
 }
-DebuggerServer
+DevToolsServer
 .
 on
 (
@@ -196,7 +196,7 @@ mm
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 loader
@@ -208,7 +208,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -217,7 +217,7 @@ server
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 connectToParent
 (

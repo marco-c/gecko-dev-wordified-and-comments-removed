@@ -39,7 +39,7 @@ this
 ;
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -49,7 +49,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "

@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -480,7 +480,7 @@ process
 "
 )
 {
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -575,7 +575,7 @@ window
 "
 )
 {
-DebuggerServer
+DevToolsServer
 .
 allowChromeProcess
 =
@@ -838,13 +838,13 @@ webSocket
 }
 else
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -852,7 +852,7 @@ registerAllActors
 ;
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

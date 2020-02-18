@@ -33,10 +33,10 @@ false
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
-_setupDebuggerServer
+_setupDevToolsServer
 (
 [
 testFile
@@ -58,7 +58,7 @@ true
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

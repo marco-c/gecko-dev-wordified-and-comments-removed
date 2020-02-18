@@ -185,7 +185,7 @@ connection
 js
 '
 '
-debugger
+devtools
 -
 server
 .

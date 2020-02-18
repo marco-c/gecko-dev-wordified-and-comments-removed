@@ -181,11 +181,11 @@ for
 creating
 a
 remote
-DebuggerServer
+DevToolsServer
 .
 This
 new
-DebuggerServer
+DevToolsServer
 runs
 in
 the
@@ -198,7 +198,7 @@ from
 any
 existing
 DevTools
-DebuggerServer
+DevToolsServer
 that
 spawned
 earlier
@@ -221,7 +221,7 @@ loaded
 in
 those
 regular
-DebuggerServers
+DevToolsServers
 used
 for
 content

@@ -74,7 +74,7 @@ function
 (
 )
 {
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 ;
@@ -90,7 +90,7 @@ function
 {
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -123,7 +123,7 @@ defer
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -154,7 +154,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -196,7 +196,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -219,7 +219,7 @@ open
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -421,7 +421,7 @@ close
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -444,7 +444,7 @@ function
 {
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -465,7 +465,7 @@ defer
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -496,7 +496,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -538,7 +538,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -561,7 +561,7 @@ open
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -727,7 +727,7 @@ close
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -762,7 +762,7 @@ function
 {
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -795,7 +795,7 @@ defer
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -826,7 +826,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -928,7 +928,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -951,7 +951,7 @@ open
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -1031,7 +1031,7 @@ close
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -1066,7 +1066,7 @@ function
 {
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -1099,7 +1099,7 @@ defer
 const
 AuthenticatorType
 =
-DebuggerServer
+DevToolsServer
 .
 Authenticators
 .
@@ -1130,7 +1130,7 @@ allowConnection
 >
 {
 return
-DebuggerServer
+DevToolsServer
 .
 AuthenticationResult
 .
@@ -1232,7 +1232,7 @@ listener
 new
 SocketListener
 (
-DebuggerServer
+DevToolsServer
 socketOptions
 )
 ;
@@ -1255,7 +1255,7 @@ open
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 1
@@ -1335,7 +1335,7 @@ close
 ;
 equal
 (
-DebuggerServer
+DevToolsServer
 .
 listeningSockets
 0
@@ -1368,7 +1368,7 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

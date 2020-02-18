@@ -39,7 +39,7 @@ Services
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -49,7 +49,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -122,7 +122,7 @@ return
 new
 TracingTransport
 (
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (

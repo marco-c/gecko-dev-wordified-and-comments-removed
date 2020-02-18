@@ -64,7 +64,7 @@ xpcInspector
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -74,7 +74,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -410,7 +410,7 @@ listener
 )
 ;
 function
-initTestDebuggerServer
+initTestDevToolsServer
 (
 )
 {
@@ -430,14 +430,14 @@ testactors
 "
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 setRootActor
 (
 createRootActor
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 init
 (

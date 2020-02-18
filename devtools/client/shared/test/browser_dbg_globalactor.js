@@ -5,7 +5,7 @@ strict
 ;
 var
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -15,7 +15,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -81,13 +81,13 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 init
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -122,7 +122,7 @@ true
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -308,7 +308,7 @@ Object
 .
 getOwnPropertyNames
 (
-DebuggerServer
+DevToolsServer
 .
 _connections
 )
@@ -317,7 +317,7 @@ _connections
 const
 conn
 =
-DebuggerServer
+DevToolsServer
 .
 _connections
 [

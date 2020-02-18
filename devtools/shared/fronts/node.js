@@ -2014,7 +2014,7 @@ null
 }
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -2024,7 +2024,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -2033,7 +2033,7 @@ server
 const
 actor
 =
-DebuggerServer
+DevToolsServer
 .
 searchAllConnectionsForActor
 (

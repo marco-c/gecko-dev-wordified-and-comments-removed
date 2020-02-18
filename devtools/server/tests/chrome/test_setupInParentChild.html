@@ -164,7 +164,7 @@ client
 ;
 const
 {
-DebuggerServer
+DevToolsServer
 }
 =
 require
@@ -174,7 +174,7 @@ devtools
 /
 server
 /
-debugger
+devtools
 -
 server
 "
@@ -316,7 +316,7 @@ Instantiate
 a
 minimal
 server
-DebuggerServer
+DevToolsServer
 .
 init
 (
@@ -325,12 +325,12 @@ init
 if
 (
 !
-DebuggerServer
+DevToolsServer
 .
 createRootActor
 )
 {
-DebuggerServer
+DevToolsServer
 .
 registerAllActors
 (
@@ -348,7 +348,7 @@ iframe
 const
 transport
 =
-DebuggerServer
+DevToolsServer
 .
 connectPipe
 (
@@ -463,7 +463,7 @@ child
 to
 call
 setupInParent
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (
@@ -663,7 +663,7 @@ actor
 =
 >
 {
-DebuggerServer
+DevToolsServer
 .
 setupInChild
 (
@@ -738,7 +738,7 @@ function
 (
 )
 {
-DebuggerServer
+DevToolsServer
 .
 destroy
 (

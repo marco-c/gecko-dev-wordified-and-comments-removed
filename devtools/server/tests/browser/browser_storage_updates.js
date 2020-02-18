@@ -909,7 +909,7 @@ destroy
 (
 )
 ;
-DebuggerServer
+DevToolsServer
 .
 destroy
 (
