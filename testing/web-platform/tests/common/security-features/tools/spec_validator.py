@@ -724,6 +724,32 @@ module
 -
 data
 "
+        
+"
+sharedworker
+-
+classic
+"
+"
+sharedworker
+-
+module
+"
+        
+"
+sharedworker
+-
+classic
+-
+data
+"
+"
+sharedworker
+-
+module
+-
+data
+"
     
 ]
     
