@@ -491,7 +491,11 @@ aMessage
 )
 ;
 static
+Result
+<
+Ok
 bool
+>
 FillInMessageEventInit
 (
 JSContext
