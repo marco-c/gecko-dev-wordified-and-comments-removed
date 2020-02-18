@@ -407,6 +407,8 @@ resolve
 (
 )
 ;
+return
+;
 }
 this
 .
