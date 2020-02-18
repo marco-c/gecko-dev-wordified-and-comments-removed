@@ -307,11 +307,9 @@ reloaded
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-gBrowser
 URL_2
 )
 ;
@@ -368,11 +366,9 @@ reloaded
 "
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-gBrowser
 URL_3
 )
 ;

@@ -375,13 +375,8 @@ enabled
 )
 ;
 await
-BrowserTestUtils
-.
-loadURI
+navigateTo
 (
-tab
-.
-linkedBrowser
 TEST_URL_FRAMES
 )
 ;

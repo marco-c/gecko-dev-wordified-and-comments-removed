@@ -37,7 +37,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -99,13 +98,9 @@ monitor
 N_EXPECTED_REQUESTS
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-tab
-.
-linkedBrowser
 CAUSE_URL
 )
 ;

@@ -12,7 +12,6 @@ function
 {
 const
 {
-tab
 monitor
 }
 =
@@ -107,13 +106,9 @@ monitor
 1
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-tab
-.
-linkedBrowser
 SIMPLE_URL
 )
 ;

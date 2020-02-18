@@ -37,7 +37,6 @@ true
 ;
 const
 {
-tab
 monitor
 }
 =
@@ -124,13 +123,9 @@ monitor
 3
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-tab
-.
-linkedBrowser
 WS_PAGE_EARLY_CONNECTION_URL
 )
 ;

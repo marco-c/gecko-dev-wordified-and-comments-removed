@@ -365,7 +365,6 @@ true
 ;
 const
 {
-tab
 monitor
 }
 =
@@ -451,13 +450,9 @@ EXPECTED_REQUESTS
 length
 )
 ;
-BrowserTestUtils
-.
-loadURI
+await
+navigateTo
 (
-tab
-.
-linkedBrowser
 CAUSE_URL
 )
 ;
