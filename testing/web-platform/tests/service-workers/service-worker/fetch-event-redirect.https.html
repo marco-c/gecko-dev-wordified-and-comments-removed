@@ -477,8 +477,14 @@ should_reject
 )
 {
 return
-assert_promise_rejects
+promise_rejects_js
 (
+t
+frame
+.
+contentWindow
+.
+TypeError
 frame
 .
 contentWindow
@@ -486,10 +492,6 @@ contentWindow
 fetch
 (
 request
-)
-new
-TypeError
-(
 )
 '
 Must

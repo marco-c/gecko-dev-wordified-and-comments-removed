@@ -217,10 +217,6 @@ warnings
 ;
 expect
 (
-(
-)
-=
->
 parseFromString
 (
 input
@@ -230,7 +226,9 @@ baseURL
 .
 toThrow
 (
+'
 TypeError
+'
 )
 ;
 checkWarnings

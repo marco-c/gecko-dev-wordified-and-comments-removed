@@ -2877,7 +2877,7 @@ function
 e
 )
 {
-assert_throws
+assert_throws_DO_NOT_USE
 (
 expected
 function
@@ -7666,7 +7666,7 @@ assert_readonly
 )
 ;
 function
-assert_throws
+assert_throws_DO_NOT_USE
 (
 code
 func
@@ -8474,14 +8474,6 @@ prop
 }
 }
 }
-expose
-(
-assert_throws
-"
-assert_throws
-"
-)
-;
 function
 assert_throws_js
 (

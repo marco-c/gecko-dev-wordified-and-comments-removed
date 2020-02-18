@@ -79,10 +79,6 @@ JSON
 {
 expect
 (
-(
-)
-=
->
 parseFromString
 (
 '
@@ -108,7 +104,9 @@ example
 .
 toThrow
 (
+'
 SyntaxError
+'
 )
 ;
 }
