@@ -180,7 +180,6 @@ page
 await
 navigateTo
 (
-inspector
 TEST_URL_2
 )
 ;
@@ -380,7 +379,6 @@ page
 await
 navigateTo
 (
-inspector
 TEST_URL_4
 )
 ;

@@ -132,7 +132,6 @@ sourceMapURLService
 await
 navigateTo
 (
-inspector
 TEST_URL
 )
 ;

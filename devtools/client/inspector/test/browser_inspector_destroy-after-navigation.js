@@ -48,7 +48,6 @@ function
 {
 const
 {
-inspector
 toolbox
 }
 =
@@ -61,7 +60,6 @@ URL_1
 await
 navigateTo
 (
-inspector
 URL_2
 )
 ;

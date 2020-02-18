@@ -92,7 +92,6 @@ TEST_URI
 ;
 const
 {
-inspector
 view
 }
 =
@@ -213,7 +212,6 @@ visible
 await
 navigateTo
 (
-inspector
 TEST_URI_2
 )
 ;

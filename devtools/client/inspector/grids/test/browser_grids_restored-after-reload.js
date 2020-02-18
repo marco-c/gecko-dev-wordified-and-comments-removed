@@ -662,7 +662,6 @@ highlighted
 await
 navigateTo
 (
-inspector
 otherUri
 )
 ;

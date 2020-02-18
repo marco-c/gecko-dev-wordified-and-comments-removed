@@ -490,7 +490,6 @@ restored
 await
 navigateTo
 (
-inspector
 otherUri
 )
 ;

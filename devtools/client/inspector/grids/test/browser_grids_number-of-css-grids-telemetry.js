@@ -160,7 +160,6 @@ length
 await
 navigateTo
 (
-inspector
 "
 data
 :

@@ -279,7 +279,6 @@ updated
 await
 navigateTo
 (
-inspector
 TEST_URL_2
 )
 ;
