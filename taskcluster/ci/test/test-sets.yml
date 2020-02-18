@@ -346,6 +346,10 @@ talos
 realworld
 -
 webextensions
+-
+talos
+-
+webgl
 #
 -
 talos
@@ -516,6 +520,12 @@ realworld
 webextensions
 -
 profiling
+-
+talos
+-
+webgl
+-
+profiling
 talos
 -
 ref
@@ -526,6 +536,10 @@ hw
 talos
 -
 g4
+-
+talos
+-
+webgl
 raptor
 -
 firefox
@@ -3291,6 +3305,10 @@ talos
 realworld
 -
 webextensions
+-
+talos
+-
+webgl
 #
 -
 talos
@@ -3543,6 +3561,10 @@ talos
 realworld
 -
 webextensions
+-
+talos
+-
+webgl
 #
 -
 talos
