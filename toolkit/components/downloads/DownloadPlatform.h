@@ -18,13 +18,6 @@ nsCOMPtr
 .
 h
 "
-#
-include
-"
-nsIThread
-.
-h
-"
 class
 nsIURI
 ;
@@ -47,10 +40,6 @@ public
 :
 NS_DECL_ISUPPORTS
 NS_DECL_MOZIDOWNLOADPLATFORM
-DownloadPlatform
-(
-)
-;
 static
 DownloadPlatform
 *
@@ -65,12 +54,6 @@ GetDownloadPlatform
 ;
 private
 :
-nsCOMPtr
-<
-nsIThread
->
-mIOThread
-;
 static
 bool
 IsURLPossiblyFromWeb
