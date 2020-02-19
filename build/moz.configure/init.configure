@@ -2859,9 +2859,6 @@ python
 '
 backports
 '
-'
-shutil_which
-'
 )
 )
 if
