@@ -256,10 +256,7 @@ GetOwnerGlobal
 )
 ;
 }
-Maybe
-<
 NonOwningAnimationTarget
->
 GetTargetForAnimation
 (
 )
