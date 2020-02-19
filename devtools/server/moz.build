@@ -176,7 +176,7 @@ ini
 DevToolsModules
 (
 '
-debugger
+devtools
 -
 server
 -
