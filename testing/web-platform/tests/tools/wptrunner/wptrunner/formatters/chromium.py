@@ -323,6 +323,9 @@ name
 actual
 expected
 message
+subtest_failure
+=
+False
 )
 :
         
@@ -394,6 +397,19 @@ errors
 etc
 .
         
+:
+param
+bool
+subtest_failure
+:
+whether
+this
+test
+failed
+because
+of
+subtests
+        
 "
 "
 "
@@ -455,11 +471,9 @@ expected
 expected
         
 if
+subtest_failure
+or
 message
-!
-=
-"
-"
 :
             
 cur_dict
@@ -474,8 +488,55 @@ artifacts
 log
 "
 :
-message
+"
+"
 }
+            
+if
+subtest_failure
+:
+                
+cur_dict
+[
+"
+artifacts
+"
+]
+[
+"
+log
+"
+]
++
+=
+"
+subtest_failure
+\
+n
+"
+            
+if
+message
+!
+=
+"
+"
+:
+                
+cur_dict
+[
+"
+artifacts
+"
+]
+[
+"
+log
+"
+]
++
+=
+message
         
 if
 actual
@@ -1139,6 +1200,20 @@ status
 ]
 )
         
+expected_statuses
+=
+self
+.
+_get_expected_status_from_data
+(
+actual_status
+data
+)
+        
+subtest_failure
+=
+False
+        
 if
 actual_status
 =
@@ -1160,6 +1235,10 @@ actual_status
 FAIL
 "
             
+subtest_failure
+=
+True
+            
 self
 .
 tests_with_subtest_fails
@@ -1167,16 +1246,6 @@ tests_with_subtest_fails
 remove
 (
 test_name
-)
-        
-expected_statuses
-=
-self
-.
-_get_expected_status_from_data
-(
-actual_status
-data
 )
         
 if
@@ -1216,6 +1285,7 @@ messages
 [
 test_name
 ]
+subtest_failure
 )
         
 self
