@@ -127,13 +127,6 @@ timeRange
 auto
 "
 ;
-FillMode
-fill
-=
-"
-none
-"
-;
 }
 ;
 [
@@ -183,11 +176,6 @@ or
 ScrollTimelineAutoKeyword
 )
 timeRange
-;
-readonly
-attribute
-FillMode
-fill
 ;
 }
 ;
