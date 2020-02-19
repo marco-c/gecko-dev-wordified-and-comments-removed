@@ -36103,10 +36103,56 @@ exceptionCode
 )
 )
     
+#
+It
+'
+s
+a
+failure
+in
+the
+committed
+-
+to
+conversion
+not
+a
+failure
+to
+match
+up
+    
+#
+to
+a
+type
+so
+we
+don
+'
+t
+want
+to
+use
+failureCode
+in
+here
+.
+We
+want
+to
+just
+    
+#
+throw
+an
+exception
+unconditionally
+.
+    
 def
 onFailureIsShared
 (
-failureCode
 )
 :
         
@@ -36114,10 +36160,6 @@ return
 CGGeneric
 (
             
-failureCode
-or
-            
-(
 '
 ThrowErrorMessage
 <
@@ -36146,7 +36188,6 @@ firstCap
 sourceDescription
 )
 exceptionCode
-)
 )
 )
     
@@ -45197,7 +45238,6 @@ badType
 =
 onFailureIsShared
 (
-failureCode
 )
 .
 define

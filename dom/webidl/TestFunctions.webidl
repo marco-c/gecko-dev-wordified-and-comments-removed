@@ -915,6 +915,13 @@ buffer
 )
 ;
 void
+testNotAllowShared
+(
+DOMString
+buffer
+)
+;
+void
 testAllowShared
 (
 [
@@ -952,6 +959,8 @@ testUnionOfBuffferSource
 ArrayBuffer
 or
 ArrayBufferView
+or
+DOMString
 )
 foo
 )
