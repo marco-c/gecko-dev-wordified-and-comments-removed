@@ -357,6 +357,11 @@ StringVector
 )
 ;
 bool
+WaitForProcessHandle
+(
+)
+;
+bool
 SyncLaunch
 (
 StringVector
