@@ -738,6 +738,8 @@ Web
 from
 -
 web
+.
+md
 )
 .
 \
@@ -910,6 +912,8 @@ command
 line
 -
 arguments
+.
+md
 )
 .
 eval_rst
