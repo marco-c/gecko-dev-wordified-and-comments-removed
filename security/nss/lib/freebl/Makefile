@@ -6157,6 +6157,10 @@ CFLAGS
 +
 =
 -
+march
+=
+armv7
+-
 mfpu
 =
 neon

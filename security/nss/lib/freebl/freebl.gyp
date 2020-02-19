@@ -964,6 +964,12 @@ cflags
 [
 '
 -
+march
+=
+armv7
+'
+'
+-
 mfpu
 =
 neon
