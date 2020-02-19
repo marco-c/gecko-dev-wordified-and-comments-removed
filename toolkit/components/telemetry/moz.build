@@ -888,6 +888,9 @@ gen_histogram_data
 .
 py
 '
+py2
+=
+True
 inputs
 =
 histogram_files
@@ -908,6 +911,9 @@ gen_histogram_enum
 .
 py
 '
+py2
+=
+True
 inputs
 =
 histogram_files
@@ -928,6 +934,9 @@ gen_histogram_phf
 .
 py
 '
+py2
+=
+True
 inputs
 =
 histogram_files
@@ -981,6 +990,9 @@ gen_scalar_data
 .
 py
 '
+py2
+=
+True
 inputs
 =
 scalar_files
@@ -1001,6 +1013,9 @@ gen_scalar_enum
 .
 py
 '
+py2
+=
+True
 inputs
 =
 scalar_files
@@ -1043,6 +1058,9 @@ gen_scalar_data
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1127,6 +1145,9 @@ gen_event_data
 .
 py
 '
+py2
+=
+True
 inputs
 =
 event_files
@@ -1147,6 +1168,9 @@ gen_event_enum
 .
 py
 '
+py2
+=
+True
 inputs
 =
 event_files
@@ -1189,6 +1213,9 @@ gen_event_data
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -1256,6 +1283,9 @@ gen_process_enum
 .
 py
 '
+py2
+=
+True
 inputs
 =
 processes_files
@@ -1276,6 +1306,9 @@ gen_process_data
 .
 py
 '
+py2
+=
+True
 inputs
 =
 processes_files

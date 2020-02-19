@@ -414,6 +414,9 @@ entry_point
 '
 services_cpp
 '
+py2
+=
+True
 )
 GeneratedFile
 (
@@ -434,6 +437,9 @@ entry_point
 '
 services_h
 '
+py2
+=
+True
 )
 GeneratedFile
 (
@@ -454,6 +460,9 @@ entry_point
 '
 services_rs
 '
+py2
+=
+True
 )
 include
 (

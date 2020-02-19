@@ -6978,6 +6978,10 @@ localized
 '
 force
 '
+        
+'
+py2
+'
     
 )
     
@@ -6999,6 +7003,10 @@ localized
 =
 False
 force
+=
+False
+                 
+py2
 =
 False
 )
@@ -7063,6 +7071,12 @@ self
 force
 =
 force
+        
+self
+.
+py2
+=
+py2
         
 suffixes
 =

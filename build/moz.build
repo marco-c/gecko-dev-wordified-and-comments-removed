@@ -771,6 +771,9 @@ ini
 in
 '
 ]
+py2
+=
+True
 flags
 =
 [
@@ -866,6 +869,9 @@ appini_header
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [
@@ -899,6 +905,9 @@ gen_automation
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [

@@ -223,3 +223,8 @@ rust
 mapped_hyph
 '
 ]
+generated
+.
+py2
+=
+True

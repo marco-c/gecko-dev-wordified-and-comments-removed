@@ -689,6 +689,9 @@ StaticAtoms
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '
@@ -723,6 +726,9 @@ StaticAtoms
 .
 py
 '
+py2
+=
+True
 entry_point
 =
 '

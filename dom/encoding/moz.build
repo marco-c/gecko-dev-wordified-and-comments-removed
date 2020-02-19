@@ -218,6 +218,9 @@ inputs
 [
 input_file
 ]
+py2
+=
+True
 )
 input_file
 =
@@ -254,6 +257,9 @@ props2arrays
 .
 py
 '
+py2
+=
+True
 inputs
 =
 [
