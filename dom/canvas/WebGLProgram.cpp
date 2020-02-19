@@ -3490,11 +3490,6 @@ webgl
 :
 CachedDrawFetchLimits
 fetchLimits
-=
-{
-UINT64_MAX
-UINT64_MAX
-}
 ;
 fetchLimits
 .
