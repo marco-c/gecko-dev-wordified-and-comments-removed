@@ -4067,6 +4067,14 @@ jsop_checkthis
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_checkthisreinit
+(
+)
+;
 enum
 InliningStatus
 {
