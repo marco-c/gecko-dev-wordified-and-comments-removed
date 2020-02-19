@@ -172,9 +172,6 @@ GL_APPLE_fence
 GL_APPLE_texture_range
 "
 "
-GL_APPLE_vertex_array_object
-"
-"
 GL_ARB_blend_func_extended
 "
 "
@@ -292,12 +289,6 @@ GL_EXT_shader_pixel_local_storage
 "
 "
 GL_ANGLE_provoking_vertex
-"
-"
-GL_ANGLE_texture_usage
-"
-"
-GL_CHROMIUM_copy_texture
 "
 "
 GL_KHR_debug
