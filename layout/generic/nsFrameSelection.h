@@ -684,7 +684,7 @@ const
 return
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 !
 =
 mozilla
@@ -703,7 +703,7 @@ ClearTableCellSelection
 {
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 mozilla
 :
@@ -1643,7 +1643,7 @@ mozilla
 :
 :
 TableSelectionMode
-mSelectingTableCellMode
+mMode
 =
 mozilla
 :

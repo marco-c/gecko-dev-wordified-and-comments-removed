@@ -1400,7 +1400,7 @@ tmp
 >
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -5437,7 +5437,7 @@ NS_ERROR_FAILURE
 }
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -9221,7 +9221,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -9232,7 +9232,7 @@ Row
 |
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -9328,7 +9328,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -9347,7 +9347,7 @@ curRowIndex
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -9392,7 +9392,7 @@ SelectRowOrColumn
 childContent
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 )
 ;
 }
@@ -9400,7 +9400,7 @@ if
 (
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -9526,7 +9526,7 @@ curRowIndex
 )
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -9536,7 +9536,7 @@ Row
 else
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 TableSelectionMode
 :
@@ -9549,7 +9549,7 @@ SelectRowOrColumn
 childContent
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 )
 ;
 }
@@ -9683,7 +9683,7 @@ true
 ;
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;
@@ -9762,7 +9762,7 @@ IgnoreErrors
 ;
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;
@@ -9890,7 +9890,7 @@ IgnoreErrors
 ;
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 aTarget
 ;

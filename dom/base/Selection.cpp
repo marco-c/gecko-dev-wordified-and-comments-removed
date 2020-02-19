@@ -2402,7 +2402,7 @@ mFrameSelection
 >
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 tableMode
 ;
@@ -2417,7 +2417,7 @@ mFrameSelection
 >
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 =
 TableSelectionMode
@@ -2431,7 +2431,7 @@ mFrameSelection
 >
 mTableSelection
 .
-mSelectingTableCellMode
+mMode
 =
 tableMode
 ;
