@@ -24,8 +24,6 @@ mozconfig
 wasm
 -
 sandboxing
-unset
-MOZ_LTO
 ac_add_options
 -
 -

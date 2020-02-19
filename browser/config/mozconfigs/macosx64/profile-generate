@@ -31,8 +31,6 @@ MOZ_AUTOMATION_L10N_CHECK
 =
 0
 "
-unset
-MOZ_LTO
 ac_add_options
 -
 -

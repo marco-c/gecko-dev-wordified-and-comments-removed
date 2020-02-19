@@ -10,8 +10,6 @@ mozconfigs
 macosx64
 /
 nightly
-unset
-MOZ_LTO
 #
 add
 -

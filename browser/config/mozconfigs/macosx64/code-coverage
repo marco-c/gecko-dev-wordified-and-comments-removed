@@ -12,8 +12,6 @@ macosx64
 /
 nightly
 "
-unset
-MOZ_LTO
 TOOLTOOL_DIR
 =
 {

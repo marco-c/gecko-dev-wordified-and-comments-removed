@@ -22,10 +22,6 @@ enable
 official
 -
 branding
-export
-MOZ_LTO
-=
-cross
 .
 "
 topsrcdir
