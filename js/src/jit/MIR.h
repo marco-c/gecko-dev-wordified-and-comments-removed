@@ -61527,16 +61527,6 @@ MIRType
 Value
 )
 ;
-setResultTypeSet
-(
-retVal
--
->
-resultTypeSet
-(
-)
-)
-;
 }
 public
 :
