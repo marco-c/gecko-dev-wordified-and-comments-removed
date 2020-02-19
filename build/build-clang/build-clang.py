@@ -2151,7 +2151,7 @@ os
 getenv
 (
 "
-CROSS_CCTOOLS_PATH
+CROSS_SYSROOT
 "
 )
 )
