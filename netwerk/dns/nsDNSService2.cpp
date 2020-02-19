@@ -5850,6 +5850,9 @@ Shutdown
 if
 (
 flushCache
+&
+&
+mResolver
 )
 {
 mResolver
@@ -6180,6 +6183,12 @@ bool
 aTrrToo
 )
 {
+NS_ENSURE_TRUE
+(
+mResolver
+NS_ERROR_NOT_INITIALIZED
+)
+;
 mResolver
 -
 >
