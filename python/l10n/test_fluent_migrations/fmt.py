@@ -379,16 +379,6 @@ writelines
 (
         
 chunk
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-        
 for
 chunk
 in
