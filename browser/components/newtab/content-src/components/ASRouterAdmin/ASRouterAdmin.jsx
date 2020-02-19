@@ -1550,7 +1550,7 @@ data
 .
 spocs
 .
-length
+items
 )
 {
 spocsData
@@ -1560,6 +1560,12 @@ spocs
 data
 .
 spocs
+.
+items
+|
+|
+[
+]
 ;
 }
 return
