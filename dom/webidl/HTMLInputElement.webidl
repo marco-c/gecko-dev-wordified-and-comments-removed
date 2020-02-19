@@ -829,6 +829,7 @@ ChromeOnly
 readonly
 attribute
 XULControllers
+?
 controllers
 ;
 /
