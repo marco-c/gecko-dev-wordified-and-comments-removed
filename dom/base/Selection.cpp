@@ -2415,6 +2415,7 @@ TableSelection
 :
 None
 )
+{
 mFrameSelection
 -
 >
@@ -2422,6 +2423,7 @@ mSelectingTableCellMode
 =
 tableMode
 ;
+}
 *
 aDidAddRange
 =

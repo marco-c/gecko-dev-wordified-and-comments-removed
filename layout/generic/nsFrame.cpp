@@ -35061,6 +35061,7 @@ aParentContentForTableSel
 WidgetGUIEvent
 *
 aEvent
+const
 nsEventStatus
 *
 aEventStatus
