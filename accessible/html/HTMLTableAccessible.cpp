@@ -3707,7 +3707,7 @@ rv
 RemoveRowsOrColumnsFromSelection
 (
 aRowIdx
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -3735,7 +3735,7 @@ fail
 AddRowOrColumnToSelection
 (
 aRowIdx
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -3761,7 +3761,7 @@ rv
 RemoveRowsOrColumnsFromSelection
 (
 aColIdx
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -3789,7 +3789,7 @@ fail
 AddRowOrColumnToSelection
 (
 aColIdx
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -3809,7 +3809,7 @@ aRowIdx
 RemoveRowsOrColumnsFromSelection
 (
 aRowIdx
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -3830,7 +3830,7 @@ aColIdx
 RemoveRowsOrColumnsFromSelection
 (
 aColIdx
-TableSelection
+TableSelectionMode
 :
 :
 Column
@@ -3846,7 +3846,7 @@ AddRowOrColumnToSelection
 (
 int32_t
 aIndex
-TableSelection
+TableSelectionMode
 aTarget
 )
 {
@@ -3857,7 +3857,7 @@ doSelectRow
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -4029,7 +4029,7 @@ RemoveRowsOrColumnsFromSelection
 (
 int32_t
 aIndex
-TableSelection
+TableSelectionMode
 aTarget
 bool
 aIsOuter
@@ -4089,7 +4089,7 @@ doUnselectRow
 aTarget
 =
 =
-TableSelection
+TableSelectionMode
 :
 :
 Row

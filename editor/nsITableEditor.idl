@@ -3284,7 +3284,7 @@ result
 NS_ERROR_FAILURE
 )
 *
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -3305,7 +3305,7 @@ are
 not
 selected
 *
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -3344,7 +3344,7 @@ cells
 are
 selected
 *
-TableSelection
+TableSelectionMode
 :
 :
 Column

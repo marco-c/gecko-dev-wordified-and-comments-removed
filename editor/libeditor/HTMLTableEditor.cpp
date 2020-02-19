@@ -18442,7 +18442,7 @@ static_cast
 uint32_t
 >
 (
-TableSelection
+TableSelectionMode
 :
 :
 Cell
@@ -18592,7 +18592,7 @@ static_cast
 uint32_t
 >
 (
-TableSelection
+TableSelectionMode
 :
 :
 Row
@@ -18740,7 +18740,7 @@ static_cast
 uint32_t
 >
 (
-TableSelection
+TableSelectionMode
 :
 :
 Column
