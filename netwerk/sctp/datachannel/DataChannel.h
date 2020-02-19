@@ -2035,6 +2035,8 @@ SendErrnoToErrorResult
 (
 int
 error
+size_t
+aMessageSize
 ErrorResult
 &
 aRv
