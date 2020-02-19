@@ -106,10 +106,8 @@ dom
 Document
 *
 aDocument
-Maybe
-<
 OwningAnimationTarget
->
+&
 &
 aTarget
 TimingParams
@@ -132,7 +130,13 @@ dom
 KeyframeEffect
 (
 aDocument
+std
+:
+:
+move
+(
 aTarget
+)
 std
 :
 :
