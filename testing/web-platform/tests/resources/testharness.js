@@ -2845,7 +2845,7 @@ function
 promise_rejects
 (
 test
-expected
+code
 promise
 description
 )
@@ -2879,7 +2879,7 @@ e
 {
 assert_throws_DO_NOT_USE
 (
-expected
+code
 function
 (
 )
@@ -2898,7 +2898,7 @@ function
 promise_rejects_js
 (
 test
-expected
+constructor
 promise
 description
 )
@@ -2932,7 +2932,7 @@ e
 {
 assert_throws_js_impl
 (
-expected
+constructor
 function
 (
 )
@@ -2954,7 +2954,7 @@ function
 promise_rejects_dom
 (
 test
-expected
+type
 promise
 description
 )
@@ -2988,7 +2988,7 @@ e
 {
 assert_throws_dom_impl
 (
-expected
+type
 function
 (
 )
@@ -3010,7 +3010,7 @@ function
 promise_rejects_exactly
 (
 test
-expected
+exception
 promise
 description
 )
@@ -3044,7 +3044,7 @@ e
 {
 assert_throws_exactly_impl
 (
-expected
+exception
 function
 (
 )
