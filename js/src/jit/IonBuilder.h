@@ -4043,6 +4043,14 @@ jsop_objwithproto
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_builtinproto
+(
+)
+;
 enum
 InliningStatus
 {
