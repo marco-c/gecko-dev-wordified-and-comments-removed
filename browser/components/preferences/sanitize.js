@@ -1,9 +1,9 @@
 document
 .
-getElementById
+querySelector
 (
 "
-SanitizeDialog
+dialog
 "
 )
 .

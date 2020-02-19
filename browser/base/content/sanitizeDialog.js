@@ -262,10 +262,10 @@ _dialog
 =
 document
 .
-getElementById
+querySelector
 (
 "
-SanitizeDialog
+dialog
 "
 )
 ;
