@@ -473,11 +473,6 @@ mLastEventDelay
 TimeStamp
 mLastEventStart
 ;
-bool
-mProcessHighPriorityQueue
-=
-false
-;
 TimeStamp
 mInputHandlingStartTime
 ;
