@@ -11714,6 +11714,7 @@ nsFrameSelection
 :
 GetFirstCellNodeInRange
 (
+const
 nsRange
 *
 aRange

@@ -1539,6 +1539,7 @@ nsIContent
 *
 GetFirstCellNodeInRange
 (
+const
 nsRange
 *
 aRange
