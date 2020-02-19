@@ -1109,6 +1109,8 @@ id
 )
 {
 return
+id
+?
 this
 .
 textProps
@@ -1126,6 +1128,8 @@ id
 =
 id
 )
+:
+undefined
 ;
 }
 getSourceText

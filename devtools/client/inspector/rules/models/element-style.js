@@ -835,6 +835,8 @@ id
 )
 {
 return
+id
+?
 this
 .
 rules
@@ -854,6 +856,8 @@ actorID
 =
 id
 )
+:
+undefined
 ;
 }
 getUsedFontFamilies
@@ -1831,7 +1835,7 @@ pseudoClassLocks
 async
 modifyDeclarationName
 (
-ruleID
+ruleId
 declarationId
 name
 )
@@ -1843,7 +1847,7 @@ this
 .
 getRule
 (
-ruleID
+ruleId
 )
 ;
 if
