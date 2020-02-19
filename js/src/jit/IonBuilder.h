@@ -4091,6 +4091,14 @@ jsop_superfun
 (
 )
 ;
+AbortReasonOr
+<
+Ok
+>
+jsop_inithomeobject
+(
+)
+;
 enum
 InliningStatus
 {
