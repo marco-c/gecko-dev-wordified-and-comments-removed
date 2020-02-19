@@ -2,6 +2,10 @@ import
 json
 import
 webdriver
+from
+six
+import
+iteritems
 "
 "
 "
@@ -368,10 +372,9 @@ for
 k
 v
 in
-payload
-.
 iteritems
 (
+payload
 )
 }
         
