@@ -1972,6 +1972,19 @@ prefix
 )
             
 if
+version
+and
+prefix
+.
+endswith
+(
+version
+)
+:
+                
+continue
+            
+if
 prefix
 :
                 
