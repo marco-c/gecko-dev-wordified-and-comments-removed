@@ -16,11 +16,11 @@ validate
 )
 Error
 /
-requires
-at
+At
 least
 1
 argument
+required
 /
 )
 ;

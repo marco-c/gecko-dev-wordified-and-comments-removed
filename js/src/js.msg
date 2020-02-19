@@ -343,8 +343,8 @@ JSEXN_TYPEERR
 {
 0
 }
-requires
-at
+:
+At
 least
 {
 1
@@ -353,12 +353,12 @@ argument
 {
 2
 }
+required
 but
 only
 {
 3
 }
-were
 passed
 "
 )
