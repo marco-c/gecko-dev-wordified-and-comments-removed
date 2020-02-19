@@ -1069,6 +1069,7 @@ loadfn
 :
 &
 mut
+dyn
 FnMut
 (
 &
