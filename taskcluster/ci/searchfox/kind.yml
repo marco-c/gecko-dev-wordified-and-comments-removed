@@ -492,6 +492,14 @@ macos
 linux64
 -
 cbindgen
+-
+linux64
+-
+lucetc
+-
+wasi
+-
+sysroot
 win64
 -
 searchfox
