@@ -182,7 +182,9 @@ RejectPromise
 (
 uint32_t
 aPromiseId
-nsresult
+ErrorResult
+&
+&
 aException
 const
 nsCString
@@ -203,7 +205,13 @@ mProxy
 OnRejectPromise
 (
 aPromiseId
+std
+:
+:
+move
+(
 aException
+)
 aMessage
 )
 ;

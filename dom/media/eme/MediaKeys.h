@@ -453,8 +453,10 @@ RejectPromise
 (
 PromiseId
 aId
-nsresult
-aExceptionCode
+ErrorResult
+&
+&
+aException
 const
 nsCString
 &

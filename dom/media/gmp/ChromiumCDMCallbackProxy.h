@@ -101,7 +101,9 @@ RejectPromise
 (
 uint32_t
 aPromiseId
-nsresult
+ErrorResult
+&
+&
 aException
 const
 nsCString
