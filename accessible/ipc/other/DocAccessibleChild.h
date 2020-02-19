@@ -3225,6 +3225,12 @@ AllocPDocAccessiblePlatformExtChild
 )
 override
 ;
+DocAccessiblePlatformExtChild
+*
+GetPlatformExtension
+(
+)
+;
 private
 :
 Accessible

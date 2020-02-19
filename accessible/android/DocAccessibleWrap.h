@@ -124,6 +124,8 @@ aAccessible
 void
 CacheViewport
 (
+bool
+aCachePivotBoundaries
 )
 ;
 enum
@@ -180,6 +182,9 @@ nsCOMPtr
 nsITimer
 >
 mCacheRefreshTimer
+;
+bool
+mCachePivotBoundaries
 ;
 AccessibleHashtable
 mFocusPath
