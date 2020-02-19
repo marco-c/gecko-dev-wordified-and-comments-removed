@@ -7990,6 +7990,17 @@ UseDoubleBufferingWithCompositor
 XRE_IsGPUProcess
 (
 )
+&
+&
+aBackendHints
+.
+Contains
+(
+LayersBackend
+:
+:
+LAYERS_D3D11
+)
 )
 {
 mWidget
