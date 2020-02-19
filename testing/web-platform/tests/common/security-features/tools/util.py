@@ -6,6 +6,7 @@ import
 os
 sys
 json
+json5
 re
 import
 collections
@@ -225,7 +226,7 @@ try
 :
             
 return
-json
+json5
 .
 load
 (
