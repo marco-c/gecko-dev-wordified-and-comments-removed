@@ -105,7 +105,6 @@ syntaxerror
 .
 js
 "
-new
 SyntaxError
 ]
 [
@@ -127,7 +126,6 @@ dot
 .
 js
 "
-new
 TypeError
 {
 differentErrorObjects
@@ -156,7 +154,6 @@ specifier
 .
 js
 "
-new
 TypeError
 ]
 [
@@ -176,7 +173,6 @@ error
 .
 js
 "
-new
 SyntaxError
 {
 differentErrorObjects
@@ -199,7 +195,6 @@ error
 .
 js
 "
-new
 Error
 ]
 ]
@@ -229,7 +224,7 @@ t
 >
 {
 return
-promise_rejects
+promise_rejects_js
 (
 t
 error
@@ -347,7 +342,7 @@ x
 )
 ;
 await
-promise_rejects
+promise_rejects_js
 (
 t
 error
@@ -363,7 +358,7 @@ time
 )
 ;
 await
-promise_rejects
+promise_rejects_js
 (
 t
 error
@@ -483,10 +478,9 @@ window
 after_throwing_error
 ;
 return
-promise_rejects
+promise_rejects_js
 (
 t
-new
 Error
 import
 (

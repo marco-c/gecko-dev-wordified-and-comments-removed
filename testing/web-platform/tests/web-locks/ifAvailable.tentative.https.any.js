@@ -880,7 +880,7 @@ Promise
 )
 ;
 await
-promise_rejects
+promise_rejects_exactly
 (
 t
 test_error
@@ -1028,7 +1028,7 @@ Promise
 )
 ;
 await
-promise_rejects
+promise_rejects_exactly
 (
 t
 test_error

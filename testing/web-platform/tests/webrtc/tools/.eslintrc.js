@@ -52,9 +52,6 @@ true
 promise_test
 :
 true
-promise_rejects
-:
-true
 IdlArray
 :
 true
