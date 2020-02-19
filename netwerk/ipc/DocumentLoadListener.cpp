@@ -5487,7 +5487,7 @@ aPolicy
 nsILoadInfo
 :
 :
-OPENER_POLICY_NULL
+OPENER_POLICY_UNSAFE_NONE
 ;
 return
 NS_OK
