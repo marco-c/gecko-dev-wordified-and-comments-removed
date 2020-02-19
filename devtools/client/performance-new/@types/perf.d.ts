@@ -413,14 +413,6 @@ recording
 "
 |
 "
-other
--
-is
--
-recording
-"
-|
-"
 locked
 -
 by
