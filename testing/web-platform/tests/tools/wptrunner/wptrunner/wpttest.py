@@ -19,6 +19,7 @@ defaultdict
 from
 six
 import
+iteritems
 string_types
 from
 .
@@ -1741,10 +1742,9 @@ for
 key
 value
 in
-threshold
-.
 iteritems
 (
+threshold
 )
 :
                 

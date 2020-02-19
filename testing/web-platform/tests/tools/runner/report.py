@@ -8,6 +8,8 @@ import
 json
 import
 sys
+import
+types
 from
 cgi
 import
@@ -16,8 +18,10 @@ from
 collections
 import
 defaultdict
+from
+six
 import
-types
+iteritems
 def
 html_escape
 (
@@ -230,12 +234,11 @@ for
 key
 value
 in
+iteritems
+(
 self
 .
 attrs
-.
-iteritems
-(
 )
 )
         
@@ -1065,10 +1068,9 @@ for
 UA
 results
 in
-data
-.
 iteritems
 (
+data
 )
 :
         
@@ -1324,10 +1326,9 @@ for
 UA
 results
 in
-data
-.
 iteritems
 (
+data
 )
 :
         
@@ -1714,10 +1715,9 @@ for
 test
 results
 in
-results_by_test
-.
 iteritems
 (
+results_by_test
 )
 :
         
@@ -1768,15 +1768,14 @@ for
 subtest_name
 subtest_results
 in
+iteritems
+(
 results
 [
 "
 subtests
 "
 ]
-.
-iteritems
-(
 )
 :
             
@@ -1990,15 +1989,14 @@ subtest_result
 in
 sorted
 (
+iteritems
+(
 result
 [
 "
 subtests
 "
 ]
-.
-iteritems
-(
 )
 )
 :
@@ -2075,10 +2073,9 @@ result
 in
 sorted
 (
-results_by_test
-.
 iteritems
 (
+results_by_test
 )
 )
 ]

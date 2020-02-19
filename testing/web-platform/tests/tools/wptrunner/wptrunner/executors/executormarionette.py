@@ -12,6 +12,10 @@ import
 uuid
 from
 six
+import
+iteritems
+from
+six
 .
 moves
 .
@@ -3979,6 +3983,8 @@ for
 name
 value
 in
+iteritems
+(
 new_environment
 .
 get
@@ -3989,9 +3995,6 @@ prefs
 {
 }
 )
-.
-iteritems
-(
 )
 :
             
@@ -6001,6 +6004,9 @@ for
 key
 value
 in
+iteritems
+(
+                                    
 self
 .
 executor
@@ -6015,9 +6021,6 @@ url_count
 {
 }
 )
-.
-iteritems
-(
 )
                                 
 if

@@ -809,10 +809,9 @@ for
 manifest
 paths
 in
-manifests
-.
 iteritems
 (
+manifests
 )
 :
         
@@ -1547,10 +1546,9 @@ for
 test_manifest
 paths
 in
-manifests
-.
 iteritems
 (
+manifests
 )
 :
         
