@@ -82,6 +82,11 @@ LaunchRDDProcess
 )
 ;
 bool
+IsRDDProcessLaunching
+(
+)
+;
+bool
 EnsureRDDReady
 (
 )

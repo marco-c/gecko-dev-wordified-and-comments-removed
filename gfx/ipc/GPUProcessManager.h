@@ -373,6 +373,11 @@ LaunchGPUProcess
 )
 ;
 bool
+IsGPUProcessLaunching
+(
+)
+;
+bool
 EnsureGPUReady
 (
 )
