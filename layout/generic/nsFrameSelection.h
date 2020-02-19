@@ -682,6 +682,8 @@ GetTableCellSelection
 const
 {
 return
+mTableSelection
+.
 mSelectingTableCellMode
 !
 =
@@ -699,6 +701,8 @@ ClearTableCellSelection
 (
 )
 {
+mTableSelection
+.
 mSelectingTableCellMode
 =
 mozilla
@@ -1602,6 +1606,9 @@ SelectionType
 )
 ]
 ;
+struct
+TableSelection
+{
 nsCOMPtr
 <
 nsINode
@@ -1650,6 +1657,11 @@ int32_t
 mSelectedCellIndex
 =
 0
+;
+}
+;
+TableSelection
+mTableSelection
 ;
 RefPtr
 <
