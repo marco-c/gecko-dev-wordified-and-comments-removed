@@ -1031,6 +1031,12 @@ HAS_USED_VR
 <
 <
 10
+CONTAINS_REMOTE_SUBFRAMES
+=
+1
+<
+<
+11
 }
 ;
 }
