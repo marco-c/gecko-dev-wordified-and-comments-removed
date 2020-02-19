@@ -299,7 +299,6 @@ aWhy
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -314,7 +313,6 @@ nsresult
 &
 aResult
 )
-override
 ;
 mozilla
 :

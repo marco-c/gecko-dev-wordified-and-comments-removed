@@ -110,7 +110,6 @@ nsresult
 &
 aResult
 )
-override
 {
 MOZ_ASSERT
 (
@@ -230,7 +229,6 @@ URLClassifierLocalResult
 &
 aResults
 )
-override
 {
 nsTArray
 <

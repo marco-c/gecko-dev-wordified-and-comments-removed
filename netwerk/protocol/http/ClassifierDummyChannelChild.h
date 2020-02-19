@@ -128,7 +128,6 @@ uint32_t
 &
 aClassificationFlags
 )
-override
 ;
 nsCOMPtr
 <

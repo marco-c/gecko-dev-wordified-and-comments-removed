@@ -122,7 +122,6 @@ aReason
 )
 override
 ;
-virtual
 mozilla
 :
 :
@@ -141,7 +140,6 @@ CacheOpResult
 &
 aResult
 )
-override
 ;
 virtual
 void

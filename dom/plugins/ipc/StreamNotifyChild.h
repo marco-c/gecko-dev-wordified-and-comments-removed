@@ -98,7 +98,6 @@ reason
 ;
 private
 :
-virtual
 mozilla
 :
 :
@@ -113,7 +112,6 @@ NPReason
 &
 reason
 )
-override
 ;
 mozilla
 :

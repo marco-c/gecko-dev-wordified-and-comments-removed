@@ -79,7 +79,6 @@ nsCString
 &
 aEndpointURL
 )
-override
 ;
 private
 :
