@@ -100,10 +100,6 @@ llvm
 -
 ranlib
 "
-export
-MOZ_LTO
-=
-cross
 .
 "
 topsrcdir
