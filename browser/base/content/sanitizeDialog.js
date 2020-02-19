@@ -453,6 +453,12 @@ true
 if
 (
 !
+window
+.
+opener
+|
+|
+!
 (
 "
 gSubDialog
