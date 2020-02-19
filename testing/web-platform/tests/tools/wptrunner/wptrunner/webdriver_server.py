@@ -1979,9 +1979,8 @@ e
             
 if
 e
-[
-0
-]
+.
+errno
 !
 =
 errno
