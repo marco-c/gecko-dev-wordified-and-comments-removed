@@ -2174,16 +2174,6 @@ gfxPlatform
 )
 ;
 virtual
-bool
-HasBattery
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 InitAcceleration
 (

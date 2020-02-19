@@ -2939,7 +2939,7 @@ aStatus
 nsIGfxInfo
 :
 :
-FEATURE_STATUS_OK
+FEATURE_ALLOW_QUALIFIED
 ;
 }
 return
