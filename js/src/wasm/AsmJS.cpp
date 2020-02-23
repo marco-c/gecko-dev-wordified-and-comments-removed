@@ -10095,6 +10095,8 @@ funbox
 )
 -
 >
+extent
+.
 toStringStart
 ;
 asmJSMetadata_
