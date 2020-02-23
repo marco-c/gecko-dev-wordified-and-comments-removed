@@ -5599,7 +5599,7 @@ NS_ERROR_BLOCKED_URI
 =
 FAILURE
 (
-37
+36
 )
     
 errors
@@ -5611,31 +5611,7 @@ NS_ERROR_HARMFUL_URI
 =
 FAILURE
 (
-38
-)
-    
-errors
-[
-"
-NS_ERROR_MAYBE_TRACKING_URI
-"
-]
-=
-FAILURE
-(
-39
-)
-    
-errors
-[
-"
-NS_ERROR_TRACKING_ANNOTATION_URI
-"
-]
-=
-FAILURE
-(
-40
+37
 )
     
 errors
@@ -5647,7 +5623,7 @@ NS_ERROR_FINGERPRINTING_URI
 =
 FAILURE
 (
-41
+38
 )
     
 errors
@@ -5659,7 +5635,7 @@ NS_ERROR_CRYPTOMINING_URI
 =
 FAILURE
 (
-42
+39
 )
     
 errors
@@ -5671,7 +5647,7 @@ NS_ERROR_SOCIALTRACKING_URI
 =
 FAILURE
 (
-43
+40
 )
     
 errors
