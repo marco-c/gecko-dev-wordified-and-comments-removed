@@ -55376,6 +55376,7 @@ contents
 {
 if
 (
+!
 propdef
 -
 >
@@ -55387,6 +55388,9 @@ ClassField
 )
 )
 {
+continue
+;
+}
 FunctionNode
 *
 initializer
@@ -55473,8 +55477,9 @@ emitFieldInitializerHomeObject
 [
 stack
 ]
-CTOR
-OBJ
+HOMEOBJ
+HERITAGE
+?
 ARRAY
 LAMBDA
 return
@@ -55504,7 +55509,6 @@ ARRAY
 return
 false
 ;
-}
 }
 }
 if
