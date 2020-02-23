@@ -2535,10 +2535,13 @@ APPLICATIONS
 name
 application
 =
+list
+(
 APPLICATIONS
 .
 items
 (
+)
 )
 [
 prompt_choice
