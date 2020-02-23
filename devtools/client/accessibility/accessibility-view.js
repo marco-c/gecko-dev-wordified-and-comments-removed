@@ -237,7 +237,6 @@ initialize
 (
 {
 front
-walker
 supports
 fluentBundles
 simulator
@@ -245,6 +244,7 @@ toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
+audit
 }
 )
 {
@@ -283,15 +283,13 @@ MainFrame
 accessibility
 :
 front
-accessibilityWalker
-:
-walker
 fluentBundles
 simulator
 toolbox
 getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
+audit
 }
 )
 ;
