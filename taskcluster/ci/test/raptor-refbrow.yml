@@ -1122,11 +1122,6 @@ test
 -
 -
 -
-host
-HOST_IP
--
--
--
 activity
 =
 org
@@ -1394,11 +1389,6 @@ test
 power
 -
 test
--
--
--
-host
-HOST_IP
 -
 -
 -
@@ -1528,11 +1518,6 @@ test
 -
 -
 -
-host
-HOST_IP
--
--
--
 activity
 =
 org
@@ -1818,11 +1803,6 @@ test
 power
 -
 test
--
--
--
-host
-HOST_IP
 -
 -
 -

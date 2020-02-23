@@ -2408,11 +2408,6 @@ firefox
 power
 -
 test
--
--
--
-host
-HOST_IP
 raptor
 -
 scn
@@ -2511,11 +2506,6 @@ firefox
 power
 -
 test
--
--
--
-host
-HOST_IP
 raptor
 -
 scn
@@ -2623,11 +2613,6 @@ firefox
 power
 -
 test
--
--
--
-host
-HOST_IP
 raptor
 -
 youtube
