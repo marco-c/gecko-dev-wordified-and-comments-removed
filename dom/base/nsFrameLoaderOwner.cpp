@@ -1029,7 +1029,7 @@ mFrameLoader
 mFrameLoader
 -
 >
-mBrowsingContext
+mPendingBrowsingContext
 -
 >
 SetEmbedderElement
