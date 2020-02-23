@@ -48,13 +48,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SinfParser
 .
 h
@@ -2314,8 +2307,10 @@ Length
 {
 mMoofParser
 =
-new
+MakeUnique
+<
 MoofParser
+>
 (
 aSource
 AsVariant

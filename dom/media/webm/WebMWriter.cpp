@@ -39,14 +39,14 @@ WebMWriter
 ContainerWriter
 (
 )
-{
 mEbmlComposer
-=
+(
 new
 EbmlComposer
 (
 )
-;
+)
+{
 }
 WebMWriter
 :

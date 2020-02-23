@@ -70,13 +70,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsThreadUtils
 .
 h
@@ -1489,7 +1482,7 @@ status
 flags
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 AppleVTDecoder
 :

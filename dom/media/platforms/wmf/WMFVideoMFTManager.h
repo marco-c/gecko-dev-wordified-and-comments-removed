@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx
@@ -335,7 +328,7 @@ KnowsCompositor
 >
 mKnowsCompositor
 ;
-nsAutoPtr
+UniquePtr
 <
 DXVA2Manager
 >

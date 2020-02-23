@@ -12,7 +12,9 @@ vector
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -171,7 +173,7 @@ max_window_dur_
 float
 sample_rate_
 ;
-nsAutoPtr
+UniquePtr
 <
 HistoryRing
 >

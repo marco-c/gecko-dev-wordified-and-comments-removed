@@ -19,13 +19,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 AudioNodeEngine
 .
 h
@@ -369,11 +362,13 @@ channelCount
 {
 mCompressor
 =
-new
+MakeUnique
+<
 WebCore
 :
 :
 DynamicsCompressor
+>
 (
 aTrack
 -
@@ -737,7 +732,7 @@ mAttack
 AudioParamTimeline
 mRelease
 ;
-nsAutoPtr
+UniquePtr
 <
 DynamicsCompressor
 >

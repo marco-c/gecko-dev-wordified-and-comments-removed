@@ -38,13 +38,6 @@ RefPtr
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -482,7 +475,7 @@ TaskQueue
 >
 mTaskQueue
 ;
-nsAutoPtr
+UniquePtr
 <
 MFTManager
 >

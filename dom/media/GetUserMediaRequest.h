@@ -16,14 +16,16 @@ h
 #
 include
 "
-nsISupportsImpl
+mozilla
+/
+UniquePtr
 .
 h
 "
 #
 include
 "
-nsAutoPtr
+nsISupportsImpl
 .
 h
 "
@@ -216,7 +218,7 @@ const
 nsString
 mMediaSource
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaStreamConstraints
 >

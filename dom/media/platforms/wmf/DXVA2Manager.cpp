@@ -2823,7 +2823,7 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 D3D9DXVA2Manager
 >
@@ -2857,7 +2857,7 @@ hr
 return
 d3d9Manager
 .
-forget
+release
 (
 )
 ;
@@ -6854,7 +6854,7 @@ return
 nullptr
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 D3D11DXVA2Manager
 >
@@ -6891,7 +6891,7 @@ nullptr
 return
 manager
 .
-forget
+release
 (
 )
 ;

@@ -721,7 +721,7 @@ AudioProcessing
 >
 mAudioProcessing
 ;
-nsAutoPtr
+UniquePtr
 <
 AudioPacketizer
 <
@@ -731,7 +731,7 @@ float
 >
 mPacketizerInput
 ;
-nsAutoPtr
+UniquePtr
 <
 AudioPacketizer
 <

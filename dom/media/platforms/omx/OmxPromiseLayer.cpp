@@ -104,7 +104,9 @@ aTaskQueue
 )
 {
 mPlatformLayer
-=
+.
+reset
+(
 OmxPlatformLayer
 :
 :
@@ -114,6 +116,7 @@ aDataDecoder
 this
 aTaskQueue
 aImageContainer
+)
 )
 ;
 MOZ_ASSERT

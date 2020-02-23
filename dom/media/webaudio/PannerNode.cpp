@@ -79,13 +79,6 @@ HRTFDatabaseLoader
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 using
 WebCore
 :
@@ -477,8 +470,10 @@ SampleRate
 ;
 mHRTFPanner
 =
-new
+MakeUnique
+<
 HRTFPanner
+>
 (
 NodeMainThread
 (
@@ -1179,7 +1174,7 @@ AudioNodeTrack
 >
 mDestination
 ;
-nsAutoPtr
+UniquePtr
 <
 HRTFPanner
 >

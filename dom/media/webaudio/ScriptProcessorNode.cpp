@@ -89,13 +89,6 @@ h
 "
 #
 include
-"
-nsAutoPtr
-.
-h
-"
-#
-include
 <
 deque
 >
@@ -910,6 +903,10 @@ const
 {
 return
 mSharedBuffers
+.
+get
+(
+)
 ;
 }
 enum
@@ -1833,7 +1830,7 @@ AudioNodeTrack
 >
 mDestination
 ;
-nsAutoPtr
+UniquePtr
 <
 SharedBuffers
 >

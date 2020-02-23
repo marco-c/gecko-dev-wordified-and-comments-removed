@@ -92,8 +92,10 @@ accumulationBuffer
 ;
 m_fftKernel
 =
-new
+MakeUnique
+<
 FFTBlock
+>
 (
 fftSize
 )
@@ -111,8 +113,10 @@ stageLength
 ;
 m_fftConvolver
 =
-new
+MakeUnique
+<
 FFTConvolver
+>
 (
 fftSize
 renderPhase
@@ -290,6 +294,10 @@ m_fftConvolver
 process
 (
 m_fftKernel
+.
+get
+(
+)
 source
 )
 ;

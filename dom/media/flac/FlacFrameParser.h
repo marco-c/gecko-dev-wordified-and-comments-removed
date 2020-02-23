@@ -25,13 +25,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 MediaDecoder
 .
 h
@@ -213,7 +206,7 @@ mFullMetadata
 uint32_t
 mPacketCount
 ;
-nsAutoPtr
+UniquePtr
 <
 OpusParser
 >

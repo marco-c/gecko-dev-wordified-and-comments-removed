@@ -68,13 +68,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -253,7 +246,7 @@ bool
 mPreservesPitch
 ;
 const
-nsAutoPtr
+UniquePtr
 <
 FrameHistory
 >

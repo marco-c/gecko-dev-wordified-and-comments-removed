@@ -38,7 +38,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -55,7 +57,10 @@ StatsReport
 typedef
 nsTArray
 <
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 StatsReport
 >

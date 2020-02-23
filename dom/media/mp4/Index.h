@@ -51,13 +51,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsISupportsImpl
 .
 h
@@ -442,6 +435,8 @@ IsFragmented
 )
 {
 return
+!
+!
 mMoofParser
 ;
 }
@@ -488,7 +483,7 @@ MP4DataOffset
 >
 mDataOffset
 ;
-nsAutoPtr
+UniquePtr
 <
 MoofParser
 >

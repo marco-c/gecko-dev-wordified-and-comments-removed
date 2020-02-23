@@ -11,13 +11,6 @@ ContainerWriter
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -165,7 +158,7 @@ override
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 EbmlComposer
 >

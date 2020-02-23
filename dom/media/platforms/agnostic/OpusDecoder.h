@@ -27,13 +27,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -204,7 +197,7 @@ TaskQueue
 >
 mTaskQueue
 ;
-nsAutoPtr
+UniquePtr
 <
 OpusParser
 >

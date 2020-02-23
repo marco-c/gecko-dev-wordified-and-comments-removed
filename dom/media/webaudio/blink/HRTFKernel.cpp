@@ -246,8 +246,10 @@ x
 }
 m_fftFrame
 =
-new
+MakeUnique
+<
 FFTBlock
+>
 (
 fftSize
 )
@@ -407,7 +409,7 @@ frameDelay
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 FFTBlock
 >
@@ -442,7 +444,13 @@ HRTFKernel
 :
 create
 (
+std
+:
+:
+move
+(
 interpolatedFrame
+)
 frameDelay
 sampleRate1
 )

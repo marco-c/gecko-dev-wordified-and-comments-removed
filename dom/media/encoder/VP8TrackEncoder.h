@@ -221,13 +221,13 @@ mDurationSinceLastKeyframe
 VideoSegment
 mSourceSegment
 ;
-nsAutoPtr
+UniquePtr
 <
 vpx_codec_ctx_t
 >
 mVPXContext
 ;
-nsAutoPtr
+UniquePtr
 <
 vpx_image_t
 >

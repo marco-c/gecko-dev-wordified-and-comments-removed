@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 OMX_Core
 .
 h
@@ -561,7 +554,7 @@ FlushCommand
 >
 mFlushCommands
 ;
-nsAutoPtr
+UniquePtr
 <
 OmxPlatformLayer
 >

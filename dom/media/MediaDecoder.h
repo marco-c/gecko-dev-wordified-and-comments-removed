@@ -153,13 +153,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
@@ -1185,7 +1178,7 @@ virtual
 void
 FirstFrameLoaded
 (
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
@@ -1538,7 +1531,7 @@ mMediaSeekableOnlyInBufferedRanges
 =
 false
 ;
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >

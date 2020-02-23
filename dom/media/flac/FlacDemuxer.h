@@ -27,13 +27,6 @@ MediaResource
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -370,7 +363,7 @@ const
 MediaResourceIndex
 mSource
 ;
-nsAutoPtr
+UniquePtr
 <
 flac
 :

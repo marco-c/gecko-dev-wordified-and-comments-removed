@@ -1230,14 +1230,14 @@ SetReverb
 (
 mReverb
 .
-forget
+release
 (
 )
 mImpulseChanelCount
 )
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 WebCore
 :

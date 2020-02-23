@@ -17019,7 +17019,7 @@ mFirstFrameLoadedEvent
 .
 Notify
 (
-nsAutoPtr
+UniquePtr
 <
 MediaInfo
 >
