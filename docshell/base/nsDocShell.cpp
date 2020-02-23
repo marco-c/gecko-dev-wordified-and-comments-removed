@@ -58566,7 +58566,7 @@ documentChannelPermittedForURI
 .
 static
 bool
-SchemeUsesDocChannel
+URIUsesDocChannel
 (
 nsIURI
 *
@@ -62183,7 +62183,7 @@ sandboxFlags
 SANDBOXED_ORIGIN
 )
 :
-SchemeUsesDocChannel
+URIUsesDocChannel
 (
 aLoadState
 -
