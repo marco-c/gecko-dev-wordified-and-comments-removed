@@ -419,8 +419,9 @@ virtual
 nsXULPrototypeNode
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -982,8 +983,9 @@ virtual
 nsXULPrototypeText
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual
@@ -1077,8 +1079,9 @@ virtual
 nsXULPrototypePI
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual

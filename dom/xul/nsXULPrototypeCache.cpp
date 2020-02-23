@@ -324,8 +324,9 @@ nsXULPrototypeCache
 nsXULPrototypeCache
 (
 )
-{
-}
+=
+default
+;
 nsXULPrototypeCache
 :
 :

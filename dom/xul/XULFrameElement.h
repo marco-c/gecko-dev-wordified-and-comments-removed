@@ -341,8 +341,9 @@ virtual
 XULFrameElement
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 BrowsingContext

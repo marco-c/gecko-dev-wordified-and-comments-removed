@@ -683,8 +683,9 @@ nsXULElement
 nsXULElement
 (
 )
-{
-}
+=
+default
+;
 void
 nsXULElement
 :
