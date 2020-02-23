@@ -869,10 +869,16 @@ ipc
 :
 BackgroundParentImpl
 ;
-MOZ_COUNTED_DEFAULT_CTOR
+TestParent
+(
+)
+{
+MOZ_COUNT_CTOR
 (
 TestParent
 )
+;
+}
 protected
 :
 ~
