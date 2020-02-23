@@ -2074,6 +2074,16 @@ of
 this
 build
 "
+only_for_platforms
+:
+-
+linux64
+-
+shippable
+-
+win64
+-
+shippable
 pretty_name
 :
 firefox
