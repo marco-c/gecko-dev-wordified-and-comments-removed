@@ -208,8 +208,9 @@ ClientWindowState
 ClientWindowState
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :
@@ -475,8 +476,9 @@ ClientWorkerState
 ClientWorkerState
 (
 )
-{
-}
+=
+default
+;
 StorageAccess
 ClientWorkerState
 :
@@ -517,8 +519,9 @@ ClientState
 ClientState
 (
 )
-{
-}
+=
+default
+;
 ClientState
 :
 :
@@ -676,8 +679,9 @@ ClientState
 ClientState
 (
 )
-{
-}
+=
+default
+;
 ClientState
 ClientState
 :
