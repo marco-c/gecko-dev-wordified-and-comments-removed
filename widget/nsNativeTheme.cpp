@@ -1602,7 +1602,6 @@ StyleAppearance
 Menulist
 |
 |
-(
 aAppearance
 =
 =
@@ -1610,15 +1609,6 @@ StyleAppearance
 :
 :
 MenulistButton
-&
-&
-StaticPrefs
-:
-:
-layout_css_webkit_appearance_enabled
-(
-)
-)
 )
 &
 &

@@ -4315,16 +4315,6 @@ alias
 webkit
 -
 appearance
-:
-layout
-.
-css
-.
-webkit
--
-appearance
-.
-enabled
 "
 spec
 =
@@ -4658,7 +4648,7 @@ outside
 basic_shape
 :
 :
-FloatAreaShape
+ShapeOutside
 "
 "
 generics
@@ -4667,7 +4657,7 @@ generics
 basic_shape
 :
 :
-ShapeSource
+ShapeOutside
 :
 :
 None
@@ -4683,7 +4673,7 @@ animation_value_type
 basic_shape
 :
 :
-FloatAreaShape
+ShapeOutside
 "
 spec
 =
