@@ -801,6 +801,7 @@ ConsoleReportCollector
 ConsoleReportCollector
 (
 )
-{
-}
+=
+default
+;
 }

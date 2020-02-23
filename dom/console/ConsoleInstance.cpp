@@ -498,8 +498,9 @@ ConsoleInstance
 ConsoleInstance
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 ConsoleInstance
