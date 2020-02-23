@@ -23973,7 +23973,9 @@ HandleObject
 functionOrGlobal
 HandleScriptSourceObject
 sourceObject
+const
 SourceExtent
+&
 extent
 )
 {
@@ -24129,7 +24131,9 @@ ReadOnlyCompileOptions
 options
 HandleScriptSourceObject
 sourceObject
+const
 SourceExtent
+&
 extent
 )
 {
@@ -30785,7 +30789,9 @@ HandleFunction
 fun
 HandleScriptSourceObject
 sourceObject
+const
 SourceExtent
+&
 extent
 )
 {
@@ -31010,7 +31016,9 @@ frontend
 FunctionBoxVector
 &
 innerFunctionBoxes
+const
 SourceExtent
+&
 extent
 )
 {
