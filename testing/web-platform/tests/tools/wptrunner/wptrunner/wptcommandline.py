@@ -29,6 +29,7 @@ import
 iterkeys
 itervalues
 iteritems
+string_types
 from
 .
 import
@@ -6084,7 +6085,7 @@ extra_prefs
 :
         
 if
-type
+isinstance
 (
 kwargs
 [
@@ -6092,11 +6093,7 @@ kwargs
 extra_prefs
 '
 ]
-)
-in
-(
-str
-unicode
+string_types
 )
 :
             
