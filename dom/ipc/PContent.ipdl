@@ -5263,7 +5263,7 @@ PSessionStorageObserver
 async
 PSHistory
 (
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aContext
 )
 ;

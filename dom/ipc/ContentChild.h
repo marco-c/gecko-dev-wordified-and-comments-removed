@@ -3284,8 +3284,12 @@ PSHistoryChild
 *
 AllocPSHistoryChild
 (
+const
+MaybeDiscarded
+<
 BrowsingContext
-*
+>
+&
 aContext
 )
 ;
