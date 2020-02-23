@@ -2543,6 +2543,9 @@ APPEND_DEVICE
 0x163e
 )
 ;
+#
+if
+0
 APPEND_DEVICE
 (
 0x0412
@@ -2593,6 +2596,8 @@ APPEND_DEVICE
 0x0a1e
 )
 ;
+#
+endif
 break
 ;
 case
