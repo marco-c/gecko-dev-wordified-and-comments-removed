@@ -94,6 +94,9 @@ presentedFrames
 DOMHighResTimeStamp
 captureTime
 ;
+DOMHighResTimeStamp
+receiveTime
+;
 unsigned
 long
 rtpTimestamp
