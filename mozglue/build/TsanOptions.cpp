@@ -1454,6 +1454,16 @@ EndTouch
 n
 "
 "
+race
+:
+ScriptPreloader
+:
+:
+OffThreadDecodeCallback
+\
+n
+"
+"
 mutex
 :
 GLContextGLX
