@@ -671,7 +671,7 @@ this
 props
 ;
 const
-accessibilityWalkerFront
+accessibleWalkerFront
 =
 accessibleFront
 .
@@ -684,7 +684,7 @@ parentFront
 parentFront
 |
 |
-accessibilityWalkerFront
+accessibleWalkerFront
 ;
 if
 (

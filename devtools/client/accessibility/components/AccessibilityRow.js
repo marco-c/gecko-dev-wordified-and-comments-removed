@@ -975,7 +975,7 @@ return
 ;
 }
 const
-accessibilityWalkerFront
+accessibleWalkerFront
 =
 accessibleFront
 .
@@ -986,7 +986,7 @@ parent
 if
 (
 !
-accessibilityWalkerFront
+accessibleWalkerFront
 )
 {
 return
@@ -1006,7 +1006,7 @@ accessibleFront
 )
 ;
 }
-accessibilityWalkerFront
+accessibleWalkerFront
 .
 highlightAccessible
 (
@@ -1054,7 +1054,7 @@ return
 ;
 }
 const
-accessibilityWalkerFront
+accessibleWalkerFront
 =
 accessibleFront
 .
@@ -1065,13 +1065,13 @@ parent
 if
 (
 !
-accessibilityWalkerFront
+accessibleWalkerFront
 )
 {
 return
 ;
 }
-accessibilityWalkerFront
+accessibleWalkerFront
 .
 unhighlight
 (
