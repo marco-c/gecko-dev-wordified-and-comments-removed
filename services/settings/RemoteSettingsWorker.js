@@ -759,12 +759,6 @@ timestamp
 )
 )
 ;
-db
-.
-close
-(
-)
-;
 }
 async
 function
