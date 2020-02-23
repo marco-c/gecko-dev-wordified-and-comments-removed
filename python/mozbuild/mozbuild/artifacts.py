@@ -3321,6 +3321,12 @@ dylib
 '
         
 '
+libgraphitewasm
+.
+dylib
+'
+        
+'
 liblgpllibs
 .
 dylib
@@ -3358,6 +3364,12 @@ dylib
         
 '
 libmozavcodec
+.
+dylib
+'
+        
+'
+libosclientcerts
 .
 dylib
 '
