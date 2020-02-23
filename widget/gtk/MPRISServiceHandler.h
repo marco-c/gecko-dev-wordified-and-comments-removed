@@ -34,6 +34,13 @@ Attributes
 h
 "
 #
+include
+"
+nsString
+.
+h
+"
+#
 define
 DBUS_MRPIS_SERVICE_NAME
 "
@@ -169,6 +176,7 @@ char
 Identity
 (
 )
+const
 ;
 #
 ifdef
@@ -429,6 +437,14 @@ bool
 mInitialized
 =
 false
+;
+nsAutoCString
+mIdentity
+;
+void
+InitIdentity
+(
+)
 ;
 void
 OnNameAcquired
