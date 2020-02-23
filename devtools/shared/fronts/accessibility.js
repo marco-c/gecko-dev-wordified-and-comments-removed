@@ -952,6 +952,17 @@ getWalker
 (
 )
 ;
+this
+.
+simulatorFront
+=
+await
+super
+.
+getSimulator
+(
+)
+;
 (
 {
 enabled

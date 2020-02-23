@@ -267,11 +267,6 @@ PropTypes
 bool
 .
 isRequired
-simulator
-:
-PropTypes
-.
-object
 toolboxDoc
 :
 PropTypes
@@ -286,6 +281,11 @@ PropTypes
 func
 .
 isRequired
+simulate
+:
+PropTypes
+.
+func
 }
 ;
 }
@@ -485,7 +485,7 @@ render
 const
 {
 canBeDisabled
-simulator
+simulate
 toolboxDoc
 audit
 }
@@ -581,7 +581,7 @@ disabledTitle
 const
 optionalSimulationSection
 =
-simulator
+simulate
 ?
 [
 div
@@ -604,7 +604,7 @@ separator
 SimulationMenuButton
 (
 {
-simulator
+simulate
 toolboxDoc
 }
 )
