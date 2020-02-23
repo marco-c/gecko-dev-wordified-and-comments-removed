@@ -1319,9 +1319,6 @@ tile_cache_logger
 &
 mut
 TileCacheLogger
-config
-:
-FrameBuilderConfig
 )
 -
 >
@@ -1597,6 +1594,10 @@ global_screen_world_rect
 surfaces
 debug_flags
 scene_properties
+config
+:
+scene
+.
 config
 }
 ;
@@ -2053,9 +2054,6 @@ tile_cache_logger
 &
 mut
 TileCacheLogger
-config
-:
-FrameBuilderConfig
 )
 -
 >
@@ -2356,7 +2354,6 @@ texture_cache
 mut
 composite_state
 tile_cache_logger
-config
 )
 ;
 let
