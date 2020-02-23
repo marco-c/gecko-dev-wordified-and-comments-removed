@@ -3607,6 +3607,10 @@ mochitest
 mochitest
 -
 gpu
+-
+mochitest
+-
+media
 #
 -
 mochitest
