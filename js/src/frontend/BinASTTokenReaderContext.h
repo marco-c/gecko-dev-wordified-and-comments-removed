@@ -2763,6 +2763,10 @@ class
 HuffmanDictionary
 ;
 class
+alignas
+(
+uintptr_t
+)
 HuffmanDictionaryForMetadata
 {
 static

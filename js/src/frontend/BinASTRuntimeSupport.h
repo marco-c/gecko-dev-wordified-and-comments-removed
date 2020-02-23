@@ -661,6 +661,10 @@ tracer
 }
 ;
 class
+alignas
+(
+uintptr_t
+)
 BinASTSourceMetadataMultipart
 :
 public
@@ -998,6 +1002,10 @@ class
 HuffmanDictionaryForMetadata
 ;
 class
+alignas
+(
+uintptr_t
+)
 BinASTSourceMetadataContext
 :
 public
