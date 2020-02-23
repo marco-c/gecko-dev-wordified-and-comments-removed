@@ -423,3 +423,17 @@ checkForUpdates
 0
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+weakrefs
+"
+true
+)
+;
