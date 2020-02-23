@@ -920,7 +920,7 @@ crate
 command
 :
 :
-RawRenderPass
+RawPass
 ;
 pub
 type

@@ -328,6 +328,13 @@ RawId
 aId
 )
 ;
+void
+DestroyRenderPipeline
+(
+RawId
+aId
+)
+;
 private
 :
 virtual
