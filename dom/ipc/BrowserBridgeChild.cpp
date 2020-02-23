@@ -1351,6 +1351,15 @@ ActorDestroyReason
 aWhy
 )
 {
+if
+(
+!
+mBrowsingContext
+)
+{
+return
+;
+}
 UnblockOwnerDocsLoadEvent
 (
 )
