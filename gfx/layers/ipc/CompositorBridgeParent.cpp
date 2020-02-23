@@ -1677,6 +1677,7 @@ AssertCurrentThreadOwns
 for
 (
 auto
+&
 it
 :
 sIndirectLayerTrees
