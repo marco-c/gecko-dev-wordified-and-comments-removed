@@ -13053,6 +13053,16 @@ aDest
 mBrowsingContext
 -
 >
+EnsureAttached
+(
+)
+;
+aDest
+-
+>
+mBrowsingContext
+-
+>
 SetEmbedderElement
 (
 aDest
