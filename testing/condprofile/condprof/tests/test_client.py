@@ -356,21 +356,25 @@ num_elmts
 2
 )
         
-response_calls
-=
+self
+.
+assertEqual
+(
 len
 (
 responses
 .
 calls
 )
-        
-self
-.
-assertEqual
-(
-response_calls
 2
+)
+        
+responses
+.
+calls
+.
+reset
+(
 )
         
 get_profile
@@ -417,8 +421,6 @@ responses
 .
 calls
 )
-response_calls
-+
 1
 )
 if
