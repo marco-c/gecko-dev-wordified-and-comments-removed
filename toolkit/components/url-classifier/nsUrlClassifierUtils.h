@@ -173,6 +173,12 @@ nsACString
 aTableName
 )
 ;
+static
+bool
+IsInSafeMode
+(
+)
+;
 private
 :
 nsUrlClassifierUtils
