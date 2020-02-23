@@ -2819,9 +2819,6 @@ ThrowObjectCoercible
 js
 :
 :
-jit
-:
-:
 ThrowObjectCoercible
 )
 \

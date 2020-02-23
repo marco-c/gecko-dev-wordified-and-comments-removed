@@ -4837,17 +4837,6 @@ v
 ;
 MOZ_MUST_USE
 bool
-ThrowObjectCoercible
-(
-JSContext
-*
-cx
-HandleValue
-v
-)
-;
-MOZ_MUST_USE
-bool
 BaselineGetFunctionThis
 (
 JSContext

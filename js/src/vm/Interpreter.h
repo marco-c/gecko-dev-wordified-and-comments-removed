@@ -2392,6 +2392,16 @@ cx
 )
 ;
 bool
+ThrowObjectCoercible
+(
+JSContext
+*
+cx
+HandleValue
+value
+)
+;
+bool
 DefaultClassConstructor
 (
 JSContext
