@@ -597,7 +597,7 @@ AddCrashAnnotations
 (
 )
 ;
-bool
+void
 GetCrashID
 (
 nsString
