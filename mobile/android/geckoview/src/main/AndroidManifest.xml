@@ -443,7 +443,7 @@ gecko
 .
 process
 .
-GeckoServiceChildProcess
+GeckoChildProcessServices
 gmplugin
 "
 android
@@ -495,7 +495,7 @@ gecko
 .
 process
 .
-GeckoServiceChildProcess
+GeckoChildProcessServices
 tab
 "
 android
@@ -547,7 +547,7 @@ gecko
 .
 process
 .
-GeckoServiceChildProcess
+GeckoChildProcessServices
 socket
 "
 android
