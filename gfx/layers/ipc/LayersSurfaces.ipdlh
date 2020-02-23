@@ -444,6 +444,9 @@ offsets
 YUVColorSpace
 yUVColorSpace
 ;
+FileDescriptor
+fence
+;
 }
 ;
 struct
