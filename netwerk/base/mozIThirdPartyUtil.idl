@@ -97,8 +97,8 @@ class
 ThirdPartyAnalysis
 {
 IsForeign
-IsTrackingResource
-IsSocialTrackingResource
+IsThirdPartyTrackingResource
+IsThirdPartySocialTrackingResource
 IsFirstPartyStorageAccessGranted
 }
 ;

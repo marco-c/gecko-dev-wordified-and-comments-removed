@@ -701,7 +701,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -710,7 +710,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -874,11 +874,11 @@ aIsForeign
 const
 bool
 &
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 const
 bool
 &
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 const
 bool
 &
@@ -927,8 +927,8 @@ GetCookiesForURI
 hostURI
 nullptr
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 aRejectedReason
 aIsSafeTopLevelNav
@@ -1014,11 +1014,11 @@ aIsForeign
 const
 bool
 &
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 const
 bool
 &
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 const
 bool
 &
@@ -1166,8 +1166,8 @@ SetCookieStringInternal
 (
 hostURI
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 aRejectedReason
 cookieString

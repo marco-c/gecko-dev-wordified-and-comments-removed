@@ -214,9 +214,9 @@ aHostURI
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t

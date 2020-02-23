@@ -926,7 +926,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -935,7 +935,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -1636,9 +1636,9 @@ aHostURI
 bool
 aIsForeign
 bool
-aIsTrackingResource
+aIsThirdPartyTrackingResource
 bool
-aIsSocialTrackingResource
+aIsThirdPartySocialTrackingResource
 bool
 aFirstPartyStorageAccessGranted
 uint32_t
@@ -1843,8 +1843,8 @@ CheckPrefs
 cookieSettings
 aHostURI
 aIsForeign
-aIsTrackingResource
-aIsSocialTrackingResource
+aIsThirdPartyTrackingResource
+aIsThirdPartySocialTrackingResource
 aFirstPartyStorageAccessGranted
 VoidCString
 (
@@ -2890,7 +2890,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -2899,7 +2899,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -3144,7 +3144,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -3153,7 +3153,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
@@ -3232,7 +3232,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsTrackingResource
+IsThirdPartyTrackingResource
 )
 result
 .
@@ -3241,7 +3241,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsSocialTrackingResource
+IsThirdPartySocialTrackingResource
 )
 result
 .
