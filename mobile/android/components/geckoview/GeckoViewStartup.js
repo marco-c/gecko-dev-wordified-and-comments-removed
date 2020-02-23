@@ -207,6 +207,9 @@ WebBrowserChromeChild
 jsm
 "
 }
+includeChrome
+:
+true
 }
 }
 ;
