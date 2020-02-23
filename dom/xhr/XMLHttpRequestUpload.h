@@ -89,8 +89,9 @@ virtual
 XMLHttpRequestUpload
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
