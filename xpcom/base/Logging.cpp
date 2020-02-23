@@ -35,6 +35,15 @@ include
 "
 mozilla
 /
+LateWriteChecks
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Mutex
 .
 h
@@ -1905,6 +1914,9 @@ MOZ_FORMAT_PRINTF
 0
 )
 {
+AutoSuspendLateWriteChecks
+suspendLateWriteChecks
+;
 long
 pid
 =

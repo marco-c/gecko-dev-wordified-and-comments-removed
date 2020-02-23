@@ -85,6 +85,15 @@ include
 "
 mozilla
 /
+LateWriteChecks
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -1674,6 +1683,9 @@ fp
 aFmt
 aArgs
 )
+;
+AutoSuspendLateWriteChecks
+suspend
 ;
 fclose
 (
