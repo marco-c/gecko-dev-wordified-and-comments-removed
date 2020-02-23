@@ -129,8 +129,8 @@ virtual
 FallbackEncoding
 (
 )
-{
-}
+=
+default
 ;
 void
 Invalidate
