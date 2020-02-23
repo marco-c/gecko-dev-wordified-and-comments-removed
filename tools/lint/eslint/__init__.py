@@ -10,6 +10,8 @@ os
 import
 signal
 import
+subprocess
+import
 sys
 sys
 .
@@ -46,10 +48,6 @@ mozbuild
 nodeutil
 import
 find_node_executable
-from
-mozprocess
-import
-ProcessHandler
 from
 mozlint
 import
@@ -474,6 +472,14 @@ shell
 =
 True
     
+encoding
+=
+'
+utf
+-
+8
+'
+    
 orig
 =
 signal
@@ -490,30 +496,27 @@ SIG_IGN
     
 proc
 =
-ProcessHandler
+subprocess
+.
+Popen
 (
 cmd_args
-env
-=
-os
-.
-environ
-stream
-=
-None
-                          
+                            
 shell
 =
 shell
-universal_newlines
+                            
+stdout
 =
-True
-)
-    
-proc
+subprocess
 .
-run
-(
+PIPE
+                            
+stderr
+=
+subprocess
+.
+PIPE
 )
     
 signal
@@ -529,9 +532,12 @@ orig
 try
 :
         
+output
+errors
+=
 proc
 .
-wait
+communicate
 (
 )
     
@@ -550,15 +556,46 @@ return
 ]
     
 if
-not
-proc
+errors
+:
+        
+errors
+=
+errors
 .
+decode
+(
+encoding
+"
+replace
+"
+)
+        
+print
+(
+errors
+)
+    
+if
+not
 output
 :
         
 return
 [
 ]
+    
+output
+=
+output
+.
+decode
+(
+encoding
+"
+replace
+"
+)
     
 try
 :
@@ -569,31 +606,12 @@ json
 .
 loads
 (
-proc
-.
 output
-[
-0
-]
 )
     
 except
 ValueError
 :
-        
-output
-=
-"
-\
-n
-"
-.
-join
-(
-proc
-.
-output
-)
         
 print
 (
