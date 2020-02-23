@@ -820,9 +820,7 @@ mandated
 video
 codec
 .
-default
--
-preferences
+defaults
 test
 -
 pref

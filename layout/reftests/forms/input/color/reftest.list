@@ -16,9 +16,7 @@ color
 ref
 .
 html
-default
--
-preferences
+defaults
 pref
 (
 dom

@@ -55,14 +55,6 @@ defaults
 -
 e
 "
-^
-default
--
-preferences
-"
--
-e
-"
 include
 "
 |

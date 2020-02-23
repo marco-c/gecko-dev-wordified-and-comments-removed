@@ -251,14 +251,6 @@ defaults
 /
 d
 ;
-/
-^
-default
--
-preferences
-/
-d
-;
 s
 /
 \

@@ -110,9 +110,7 @@ for
 these
 tests
 .
-default
--
-preferences
+defaults
 pref
 (
 dom
@@ -6281,6 +6279,4 @@ reset
 the
 default
 preferences
-default
--
-preferences
+defaults

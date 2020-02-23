@@ -3573,9 +3573,7 @@ variation
 font
 format
 hints
-default
--
-preferences
+defaults
 pref
 (
 layout
@@ -3677,9 +3675,7 @@ hint
 ref
 .
 html
-default
--
-preferences
+defaults
 pref
 (
 layout
@@ -3943,6 +3939,4 @@ woff2
 ref
 .
 html
-default
--
-preferences
+defaults

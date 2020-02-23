@@ -224,11 +224,6 @@ done
 #
 Add
 comment
-&
-default
--
-preferences
-line
 to
 reftest
 .

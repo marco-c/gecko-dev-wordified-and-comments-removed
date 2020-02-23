@@ -3,9 +3,7 @@ enable
 variation
 font
 support
-default
--
-preferences
+defaults
 pref
 (
 layout
@@ -135,6 +133,4 @@ reset
 the
 default
 preferences
-default
--
-preferences
+defaults

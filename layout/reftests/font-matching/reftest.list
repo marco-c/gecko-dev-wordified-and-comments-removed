@@ -57,9 +57,7 @@ bug
 1439937
 .
 )
-default
--
-preferences
+defaults
 pref
 (
 gfx
@@ -3112,6 +3110,4 @@ Reset
 default
 prefs
 .
-default
--
-preferences
+defaults

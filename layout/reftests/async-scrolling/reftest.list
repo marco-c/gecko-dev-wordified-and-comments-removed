@@ -3649,9 +3649,7 @@ expect
 checkerboarding
 to
 occur
-default
--
-preferences
+defaults
 pref
 (
 layers
@@ -3726,9 +3724,7 @@ checkerboard
 ref
 .
 html
-default
--
-preferences
+defaults
 skip
 -
 if

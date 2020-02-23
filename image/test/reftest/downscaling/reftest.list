@@ -191,9 +191,7 @@ is
 set
 via
 "
-default
--
-preferences
+defaults
 "
 so
 #
@@ -719,9 +717,7 @@ DISABLED
 =
 =
 =
-default
--
-preferences
+defaults
 pref
 (
 image
@@ -2192,9 +2188,7 @@ ENABLED
 =
 =
 =
-default
--
-preferences
+defaults
 pref
 (
 image
