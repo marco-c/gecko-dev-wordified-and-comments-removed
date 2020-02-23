@@ -101,11 +101,6 @@ jsm
 )
 ;
 const
-SHOW_TIP_DELAY_MS
-=
-200
-;
-const
 MAX_SHOWN_COUNT
 =
 4
@@ -3694,9 +3689,7 @@ resolve
 setTimeout
 (
 resolve
-3
-*
-SHOW_TIP_DELAY_MS
+100
 )
 )
 ;
