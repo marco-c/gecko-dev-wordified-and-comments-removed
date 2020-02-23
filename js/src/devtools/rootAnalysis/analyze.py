@@ -14,11 +14,13 @@ subprocess
 import
 Popen
 import
-subprocess
+argparse
 import
 os
 import
-argparse
+shlex
+import
+subprocess
 import
 sys
 import
@@ -355,6 +357,15 @@ output
 .
 join
 (
+shlex
+.
+quote
+(
+s
+)
+for
+s
+in
 command
 )
     
