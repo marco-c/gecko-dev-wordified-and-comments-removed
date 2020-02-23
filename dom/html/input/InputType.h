@@ -158,6 +158,17 @@ DropReference
 ;
 virtual
 bool
+MinAndMaxLengthApply
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 IsTooLong
 (
 )

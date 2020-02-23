@@ -644,11 +644,6 @@ return
 mPreviewVisibility
 ;
 }
-int32_t
-GetMaxLength
-(
-)
-;
 void
 HideSelectionIfBlurred
 (

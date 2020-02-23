@@ -1094,14 +1094,6 @@ nullptr
 )
 ;
 bool
-GetMaxLength
-(
-int32_t
-*
-aMaxLength
-)
-;
-bool
 AttributeExists
 (
 nsAtom

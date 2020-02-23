@@ -207,6 +207,15 @@ const
 0
 ;
 virtual
+int32_t
+UsedMaxLength
+(
+)
+const
+=
+0
+;
+virtual
 void
 GetTextEditorValue
 (
