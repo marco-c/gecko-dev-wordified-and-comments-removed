@@ -129,6 +129,12 @@ nightly
 opt
 -
 win32
+-
+devedition
+/
+opt
+-
+win32
 /
 opt
 -
@@ -149,6 +155,12 @@ win64
 devedition
 -
 nightly
+/
+opt
+-
+win64
+-
+devedition
 /
 opt
 -

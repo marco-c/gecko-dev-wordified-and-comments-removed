@@ -597,6 +597,11 @@ devedition
 -
 nightly
 '
+'
+linux64
+-
+devedition
+'
                 
 '
 linux64
@@ -625,6 +630,11 @@ macosx64
 devedition
 -
 nightly
+'
+'
+macosx64
+-
+devedition
 '
                 
 '

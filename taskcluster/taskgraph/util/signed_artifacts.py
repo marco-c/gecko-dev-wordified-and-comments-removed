@@ -46,14 +46,25 @@ shippable
 linux64
 -
 devedition
--
-nightly
 '
     
 '
 macosx64
 -
 shippable
+'
+'
+macosx64
+-
+devedition
+'
+    
+'
+linux64
+-
+devedition
+-
+nightly
 '
 '
 macosx64

@@ -1182,6 +1182,11 @@ devedition
 -
 nightly
 '
+'
+linux64
+-
+devedition
+'
 }
     
 OSX_OK_PLATFORMS
@@ -1198,6 +1203,11 @@ macosx64
 devedition
 -
 nightly
+'
+'
+macosx64
+-
+devedition
 '
 }
     

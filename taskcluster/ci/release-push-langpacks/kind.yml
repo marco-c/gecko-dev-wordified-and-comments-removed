@@ -136,6 +136,12 @@ nightly
 /
 opt
 -
+linux64
+-
+devedition
+/
+opt
+-
 macosx64
 -
 shippable
@@ -164,6 +170,12 @@ macosx64
 devedition
 -
 nightly
+/
+opt
+-
+macosx64
+-
+devedition
 /
 opt
 job
