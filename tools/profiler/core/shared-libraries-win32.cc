@@ -897,9 +897,10 @@ moduleNameStr
 modulePathStr
 pdbNameStr
 pdbNameStr
-GetVersion
+NS_LITERAL_CSTRING
 (
-modulePath
+"
+"
 )
 "
 "
