@@ -121,6 +121,15 @@ forget
 )
 ;
 }
+static
+bool
+CanonicalizeLanguageId
+(
+nsACString
+&
+aLocale
+)
+;
 void
 AssignAppLocales
 (
