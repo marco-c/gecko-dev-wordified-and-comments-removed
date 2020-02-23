@@ -63339,6 +63339,16 @@ None
 )
 ;
 }
+MDefinition
+*
+foldsTo
+(
+TempAllocator
+&
+alloc
+)
+override
+;
 }
 ;
 class
