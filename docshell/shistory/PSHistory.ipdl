@@ -173,6 +173,8 @@ LoadSHEntryResult
 nsresult
 ;
 LoadSHEntryData
+[
+]
 ;
 }
 ;
