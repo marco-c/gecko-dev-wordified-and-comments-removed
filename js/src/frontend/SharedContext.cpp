@@ -1017,7 +1017,7 @@ extent
 lazy
 -
 >
-getExtent
+extent
 (
 )
 ;
