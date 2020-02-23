@@ -156,7 +156,9 @@ n
 mAxis
 -
 >
-mAsyncPanZoomController
+OpaqueApzcPointer
+(
+)
 mAxis
 -
 >
@@ -225,7 +227,9 @@ n
 mAxis
 -
 >
-mAsyncPanZoomController
+OpaqueApzcPointer
+(
+)
 mAxis
 -
 >
@@ -670,7 +674,9 @@ n
 mAxis
 -
 >
-mAsyncPanZoomController
+OpaqueApzcPointer
+(
+)
 mAxis
 -
 >

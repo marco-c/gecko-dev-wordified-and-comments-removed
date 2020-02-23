@@ -402,6 +402,10 @@ p
 n
 "
 mSetActiveTask
+.
+get
+(
+)
 )
 ;
 }
@@ -768,6 +772,10 @@ running
 n
 "
 mSetActiveTask
+.
+get
+(
+)
 )
 ;
 mSetActiveTask
@@ -799,6 +807,10 @@ p
 n
 "
 mSetActiveTask
+.
+get
+(
+)
 )
 ;
 if
