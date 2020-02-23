@@ -161,7 +161,7 @@ assertEq
 (
 log
 '
-a
+abc
 '
 )
 ;
