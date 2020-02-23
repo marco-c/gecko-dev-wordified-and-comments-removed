@@ -2619,16 +2619,6 @@ java
 pref
 (
 "
-view_source
-.
-wrap_long_lines
-"
-true
-)
-;
-pref
-(
-"
 ui
 .
 touch
