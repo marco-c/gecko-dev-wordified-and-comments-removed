@@ -1258,8 +1258,6 @@ build_platform
 linux
 -
 devedition
--
-nightly
 extra
 :
 product
@@ -1323,8 +1321,6 @@ build_platform
 linux64
 -
 devedition
--
-nightly
 extra
 :
 product
@@ -1390,8 +1386,6 @@ build_platform
 macosx64
 -
 devedition
--
-nightly
 extra
 :
 product
@@ -1455,8 +1449,6 @@ build_platform
 win32
 -
 devedition
--
-nightly
 extra
 :
 product
@@ -1520,8 +1512,6 @@ build_platform
 win64
 -
 devedition
--
-nightly
 extra
 :
 product
@@ -1589,8 +1579,6 @@ win64
 aarch64
 -
 devedition
--
-nightly
 extra
 :
 product

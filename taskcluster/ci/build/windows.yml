@@ -4567,8 +4567,6 @@ node
 win32
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -4578,7 +4576,9 @@ description
 Win32
 Dev
 Edition
-Nightly
+(
+shippable
+)
 "
 use
 -
@@ -4835,8 +4835,6 @@ node
 win64
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -4846,7 +4844,9 @@ description
 Win64
 Dev
 Edition
-Nightly
+(
+shippable
+)
 "
 use
 -
@@ -6539,8 +6539,6 @@ win64
 aarch64
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -6551,7 +6549,9 @@ AArch64
 Win64
 MSVC
 Devedition
-Nightly
+(
+shippable
+)
 "
 index
 :

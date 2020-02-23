@@ -969,8 +969,6 @@ sysroot
 macosx64
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -982,7 +980,9 @@ X
 Dev
 Edition
 x64
-Nightly
+(
+shippable
+)
 "
 use
 -

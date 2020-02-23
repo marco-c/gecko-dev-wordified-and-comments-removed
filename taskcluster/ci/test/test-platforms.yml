@@ -376,8 +376,6 @@ platform
 linux64
 -
 devedition
--
-nightly
 /
 opt
 test
@@ -792,8 +790,6 @@ platform
 linux64
 -
 devedition
--
-nightly
 /
 opt
 test
@@ -1224,8 +1220,6 @@ platform
 win32
 -
 devedition
--
-nightly
 /
 opt
 test
@@ -1581,8 +1575,6 @@ platform
 win64
 -
 devedition
--
-nightly
 /
 opt
 test
@@ -2004,8 +1996,6 @@ platform
 macosx64
 -
 devedition
--
-nightly
 /
 opt
 test

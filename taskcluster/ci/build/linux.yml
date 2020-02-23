@@ -951,8 +951,6 @@ sysroot
 linux64
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -961,7 +959,9 @@ description
 "
 Linux64
 devedition
-Nightly
+(
+shippable
+)
 "
 use
 -
@@ -2769,8 +2769,6 @@ sysroot
 linux
 -
 devedition
--
-nightly
 /
 opt
 :
@@ -2779,7 +2777,9 @@ description
 "
 Linux32
 devedition
-Nightly
+(
+shippable
+)
 "
 use
 -
