@@ -12,6 +12,8 @@ import
 os
 import
 re
+import
+six
 from
 mozbuild
 .
@@ -1607,12 +1609,13 @@ for
 k
 v
 in
-self
-.
-_files
+six
 .
 iteritems
 (
+self
+.
+_files
 )
 :
             
@@ -1633,10 +1636,11 @@ for
 k2
 v2
 in
-v
+six
 .
 iteritems
 (
+v
 )
 :
                 
@@ -1645,23 +1649,19 @@ normalized
 v2
                 
 if
-k2
-=
-=
-'
-warnings
-'
+isinstance
+(
+v2
+set
+)
 :
                     
 normalized
 =
-[
-w
-for
-w
-in
+list
+(
 v2
-]
+)
                 
 obj
 [
@@ -1739,36 +1739,23 @@ for
 filename
 value
 in
+six
+.
+iteritems
+(
 self
 .
 _files
-.
-iteritems
-(
 )
 :
             
-for
-k
-v
-in
-value
-.
-iteritems
-(
-)
-:
-                
 if
-k
-!
-=
 '
 warnings
 '
+in
+value
 :
-                    
-continue
                 
 normalized
 =
@@ -1779,7 +1766,12 @@ set
 for
 d
 in
-v
+value
+[
+'
+warnings
+'
+]
 :
                     
 w
