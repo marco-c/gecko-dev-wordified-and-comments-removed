@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsITimer
+.
+h
+"
+#
+include
+"
 ServiceWorkerShutdownState
 .
 h
@@ -62,6 +69,8 @@ final
 :
 public
 nsIAsyncShutdownBlocker
+public
+nsITimerCallback
 {
 public
 :
@@ -82,6 +91,7 @@ kInvalidShutdownStateId
 ;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIASYNCSHUTDOWNBLOCKER
+NS_DECL_NSITIMERCALLBACK
 static
 already_AddRefed
 <
@@ -139,6 +149,11 @@ MaybeUnblockShutdown
 (
 )
 ;
+void
+UnblockShutdown
+(
+)
+;
 uint32_t
 PromiseSettled
 (
@@ -155,6 +170,11 @@ GetPendingPromises
 (
 )
 const
+;
+void
+MaybeInitUnblockShutdownTimer
+(
+)
 ;
 struct
 AcceptingPromises
@@ -202,6 +222,12 @@ uint32_t
 ServiceWorkerShutdownState
 >
 mShutdownStates
+;
+nsCOMPtr
+<
+nsITimer
+>
+mTimer
 ;
 }
 ;
