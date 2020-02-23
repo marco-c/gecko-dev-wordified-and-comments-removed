@@ -5,13 +5,6 @@ MediaKeysEventSourceFactory
 .
 h
 "
-#
-include
-"
-WindowsSMTCProvider
-.
-h
-"
 namespace
 mozilla
 {
@@ -31,10 +24,7 @@ CreateMediaControlKeysEventSource
 )
 {
 return
-new
-WindowsSMTCProvider
-(
-)
+nullptr
 ;
 }
 }

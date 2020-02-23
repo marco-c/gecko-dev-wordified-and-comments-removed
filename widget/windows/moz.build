@@ -225,11 +225,6 @@ WindowsEMF
 h
 '
 '
-WindowsSMTCProvider
-.
-h
-'
-'
 WinMessages
 .
 h
@@ -531,11 +526,6 @@ cpp
 '
 '
 WinCompositorWidget
-.
-cpp
-'
-'
-WindowsSMTCProvider
 .
 cpp
 '
