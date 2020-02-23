@@ -5507,6 +5507,8 @@ tabIcon
 .
 src
 ;
+try
+{
 ctx
 .
 drawImage
@@ -5522,6 +5524,13 @@ scale
 scale
 )
 ;
+}
+catch
+(
+e
+)
+{
+}
 let
 dt
 =
