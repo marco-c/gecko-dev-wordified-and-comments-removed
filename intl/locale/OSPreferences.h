@@ -37,15 +37,6 @@ h
 #
 include
 "
-unicode
-/
-uloc
-.
-h
-"
-#
-include
-"
 mozIOSPreferences
 .
 h
