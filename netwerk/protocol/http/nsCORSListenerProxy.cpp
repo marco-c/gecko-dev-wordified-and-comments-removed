@@ -799,16 +799,10 @@ mHeaders
 ;
 }
 ;
-nsPreflightCache
-(
-)
-{
-MOZ_COUNT_CTOR
+MOZ_COUNTED_DEFAULT_CTOR
 (
 nsPreflightCache
 )
-;
-}
 ~
 nsPreflightCache
 (
