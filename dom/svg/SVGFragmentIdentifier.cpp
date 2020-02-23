@@ -516,8 +516,7 @@ if
 valAtom
 |
 |
-NS_FAILED
-(
+!
 mSVGView
 -
 >
@@ -527,7 +526,6 @@ SetBaseValueAtom
 (
 valAtom
 mRoot
-)
 )
 )
 {

@@ -143,7 +143,7 @@ mIsBaseSet
 false
 ;
 }
-nsresult
+bool
 SetBaseValueAtom
 (
 const
