@@ -833,6 +833,25 @@ update
 {
         
 '
+WORKSPACE
+'
+:
+'
+{
+workdir
+}
+/
+workspace
+'
+.
+format
+(
+*
+*
+run
+)
+        
+'
 GECKO_PATH
 '
 :
