@@ -324,7 +324,7 @@ r
 {
 mEventTarget
 .
-dispatch
+execute
 (
 r
 )
