@@ -754,7 +754,6 @@ MOZILLA_OFFICIAL
 define
 MOZ_DBG
 (
-expression_
 .
 .
 .
@@ -771,8 +770,8 @@ MozDbg
 __FILE__
 __LINE__
 #
-expression_
-expression_
+__VA_ARGS__
+__VA_ARGS__
 )
 #
 endif
@@ -801,7 +800,6 @@ define
 MOZ_DEFINE_DBG
 (
 type_
-members_
 .
 .
 .
@@ -842,7 +840,7 @@ type_
 (
 MOZ_ARG_COUNT
 (
-members_
+__VA_ARGS__
 )
 =
 =
@@ -869,7 +867,7 @@ MOZ_DBG_FIELD
 )
 \
 (
-members_
+__VA_ARGS__
 )
 )
 \
@@ -878,7 +876,7 @@ members_
 (
 MOZ_ARG_COUNT
 (
-members_
+__VA_ARGS__
 )
 =
 =
