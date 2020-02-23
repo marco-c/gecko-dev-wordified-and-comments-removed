@@ -123,6 +123,16 @@ radius1
 ;
 gfxPattern
 (
+gfxFloat
+cx
+gfxFloat
+cy
+gfxFloat
+angle
+)
+;
+gfxPattern
+(
 mozilla
 :
 :
