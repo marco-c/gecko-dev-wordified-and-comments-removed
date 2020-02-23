@@ -89,8 +89,9 @@ HTMLTableCellElement
 HTMLTableCellElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLTableCellElement

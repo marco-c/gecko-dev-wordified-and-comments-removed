@@ -46,8 +46,9 @@ nsWrapperCache
 ValidityState
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

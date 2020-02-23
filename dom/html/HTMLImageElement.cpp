@@ -525,8 +525,9 @@ private
 ImageLoadTask
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 HTMLImageElement

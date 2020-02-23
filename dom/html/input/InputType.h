@@ -141,8 +141,9 @@ virtual
 InputType
 (
 )
-{
-}
+=
+default
+;
 static
 const
 mozilla

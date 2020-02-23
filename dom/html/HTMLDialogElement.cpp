@@ -137,8 +137,9 @@ HTMLDialogElement
 HTMLDialogElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLDialogElement

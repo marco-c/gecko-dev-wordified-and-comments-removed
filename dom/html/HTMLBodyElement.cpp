@@ -152,8 +152,9 @@ HTMLBodyElement
 HTMLBodyElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLBodyElement

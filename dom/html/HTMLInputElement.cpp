@@ -3003,8 +3003,9 @@ nsIColorPickerShownCallback
 nsColorPickerShownCallback
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsColorPickerShownCallback

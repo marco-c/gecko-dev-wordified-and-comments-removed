@@ -155,8 +155,9 @@ nsIConstraintValidation
 nsIConstraintValidation
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

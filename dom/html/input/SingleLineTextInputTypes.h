@@ -26,8 +26,9 @@ SingleLineTextInputTypeBase
 (
 )
 override
-{
-}
+=
+default
+;
 bool
 MinAndMaxLengthApply
 (

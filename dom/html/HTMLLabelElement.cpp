@@ -94,8 +94,9 @@ HTMLLabelElement
 HTMLLabelElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLLabelElement

@@ -215,8 +215,9 @@ HTMLScriptElement
 HTMLScriptElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLScriptElement

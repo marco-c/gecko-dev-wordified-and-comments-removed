@@ -531,8 +531,8 @@ private
 ShutdownObserverProxy
 (
 )
-{
-}
+=
+default
 ;
 TextTrackManager
 *

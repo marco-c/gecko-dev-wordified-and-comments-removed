@@ -2252,8 +2252,9 @@ GetCurrentLoadID
 nsMediaEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -6885,8 +6886,9 @@ nsIThreadRetargetableStreamListener
 MediaLoadListener
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER

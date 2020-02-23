@@ -76,8 +76,9 @@ HTMLModElement
 HTMLModElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLModElement

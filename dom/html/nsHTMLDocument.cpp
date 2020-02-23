@@ -773,8 +773,9 @@ nsHTMLDocument
 nsHTMLDocument
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 nsHTMLDocument

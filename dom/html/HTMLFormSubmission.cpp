@@ -3348,8 +3348,9 @@ EncodingFormSubmission
 EncodingFormSubmission
 (
 )
-{
-}
+=
+default
+;
 nsresult
 EncodingFormSubmission
 :

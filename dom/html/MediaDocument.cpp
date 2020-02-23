@@ -470,8 +470,9 @@ MediaDocument
 MediaDocument
 (
 )
-{
-}
+=
+default
+;
 nsresult
 MediaDocument
 :

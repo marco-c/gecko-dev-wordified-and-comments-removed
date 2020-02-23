@@ -455,8 +455,9 @@ PluginDocument
 PluginDocument
 (
 )
-{
-}
+=
+default
+;
 PluginDocument
 :
 :

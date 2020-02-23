@@ -1117,8 +1117,9 @@ HTMLCanvasPrintState
 HTMLCanvasPrintState
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLCanvasPrintState
@@ -3148,8 +3149,9 @@ virtual
 CanvasCaptureTrackSource
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 CanvasCaptureMediaStream

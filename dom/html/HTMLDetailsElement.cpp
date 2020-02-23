@@ -37,8 +37,9 @@ HTMLDetailsElement
 HTMLDetailsElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLDetailsElement

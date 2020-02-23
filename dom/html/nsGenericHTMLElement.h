@@ -1277,8 +1277,9 @@ virtual
 nsGenericHTMLElement
 (
 )
-{
-}
+=
+default
+;
 public
 :
 MOZ_CAN_RUN_SCRIPT

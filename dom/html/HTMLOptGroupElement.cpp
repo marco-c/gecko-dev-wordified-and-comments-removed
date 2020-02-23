@@ -131,8 +131,9 @@ HTMLOptGroupElement
 HTMLOptGroupElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLOptGroupElement

@@ -394,8 +394,9 @@ ImageListener
 ImageListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ImageListener
 :
@@ -813,8 +814,9 @@ ImageDocument
 ImageDocument
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 ImageDocument

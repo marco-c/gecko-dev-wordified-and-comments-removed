@@ -78,8 +78,9 @@ HTMLTableSectionElement
 HTMLTableSectionElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLTableSectionElement

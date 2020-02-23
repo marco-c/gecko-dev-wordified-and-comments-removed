@@ -33,8 +33,9 @@ HTMLDataListElement
 HTMLDataListElement
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 HTMLDataListElement

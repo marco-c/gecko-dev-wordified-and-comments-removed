@@ -72,8 +72,9 @@ HTMLDataElement
 HTMLDataElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLDataElement

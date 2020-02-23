@@ -57,8 +57,9 @@ nsWrapperCache
 MediaError
 (
 )
-{
-}
+=
+default
+;
 public
 :
 MediaError

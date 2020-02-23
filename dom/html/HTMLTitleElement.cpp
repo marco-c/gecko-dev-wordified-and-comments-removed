@@ -108,8 +108,9 @@ HTMLTitleElement
 HTMLTitleElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_INHERITED
 (
 HTMLTitleElement

@@ -159,8 +159,9 @@ protected
 HTMLMapElement
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsContentList

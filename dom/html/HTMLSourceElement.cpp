@@ -162,8 +162,9 @@ HTMLSourceElement
 HTMLSourceElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 HTMLSourceElement

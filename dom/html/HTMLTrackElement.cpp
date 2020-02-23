@@ -657,8 +657,8 @@ private
 WindowDestroyObserver
 (
 )
-{
-}
+=
+default
 ;
 HTMLTrackElement
 *

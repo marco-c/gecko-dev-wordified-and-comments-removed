@@ -102,8 +102,9 @@ HTMLSummaryElement
 HTMLSummaryElement
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ELEMENT_CLONE
 (
 HTMLSummaryElement

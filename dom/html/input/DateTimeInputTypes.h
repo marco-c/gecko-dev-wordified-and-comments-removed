@@ -26,8 +26,9 @@ DateTimeInputTypeBase
 (
 )
 override
-{
-}
+=
+default
+;
 bool
 IsValueMissing
 (
