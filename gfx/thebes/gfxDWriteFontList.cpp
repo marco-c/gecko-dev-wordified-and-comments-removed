@@ -3093,9 +3093,11 @@ aInstances
 gfxFontUtils
 :
 :
-GetVariationInstances
+GetVariationData
 (
 this
+nullptr
+&
 aInstances
 )
 ;
