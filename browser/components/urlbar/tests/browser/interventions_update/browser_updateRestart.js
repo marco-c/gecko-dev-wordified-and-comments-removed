@@ -104,7 +104,9 @@ SEARCH_STRINGS
 UPDATE
 tip
 :
-TIPS
+UrlbarProviderInterventions
+.
+TIP_TYPE
 .
 UPDATE_RESTART
 title
