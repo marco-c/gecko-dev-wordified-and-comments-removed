@@ -129,8 +129,9 @@ GridDimension
 GridDimension
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 GridDimension

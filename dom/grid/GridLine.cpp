@@ -117,8 +117,9 @@ GridLine
 GridLine
 (
 )
-{
-}
+=
+default
+;
 void
 GridLine
 :

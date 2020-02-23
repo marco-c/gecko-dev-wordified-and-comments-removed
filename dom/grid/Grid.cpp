@@ -442,8 +442,9 @@ Grid
 Grid
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 Grid
