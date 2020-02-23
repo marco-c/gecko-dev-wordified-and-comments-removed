@@ -773,7 +773,7 @@ mPersistentStorageAllowed
 Monitor
 mInitPromiseMonitor
 ;
-MozPromiseHolder
+MozMonitoredPromiseHolder
 <
 GenericPromise
 >

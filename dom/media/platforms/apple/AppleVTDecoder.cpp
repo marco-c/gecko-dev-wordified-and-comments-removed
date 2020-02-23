@@ -317,6 +317,11 @@ mMonitor
 AppleVTDecoder
 "
 )
+mPromise
+(
+&
+mMonitor
+)
 mFormat
 (
 nullptr
@@ -352,14 +357,6 @@ video
 "
 mDisplayWidth
 mDisplayHeight
-)
-;
-mPromise
-.
-SetMonitor
-(
-&
-mMonitor
 )
 ;
 }
