@@ -563,13 +563,6 @@ way
 from
 tryselect
 .
-preset
-import
-migrate_old_presets
-        
-from
-tryselect
-.
 util
 .
 dicttools
@@ -586,11 +579,6 @@ handlers
 [
 0
 ]
-        
-migrate_old_presets
-(
-user_presets
-)
         
 if
 preset_action
