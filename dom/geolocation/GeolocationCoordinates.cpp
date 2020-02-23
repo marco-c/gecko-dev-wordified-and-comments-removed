@@ -99,8 +99,9 @@ GeolocationCoordinates
 GeolocationCoordinates
 (
 )
-{
-}
+=
+default
+;
 GeolocationPosition
 *
 GeolocationCoordinates

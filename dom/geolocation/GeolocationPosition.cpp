@@ -287,8 +287,9 @@ nsGeoPositionCoords
 nsGeoPositionCoords
 (
 )
-{
-}
+=
+default
+;
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPositionCoords
@@ -523,8 +524,9 @@ nsGeoPosition
 nsGeoPosition
 (
 )
-{
-}
+=
+default
+;
 NS_INTERFACE_MAP_BEGIN
 (
 nsGeoPosition
@@ -651,8 +653,9 @@ GeolocationPosition
 GeolocationPosition
 (
 )
-{
-}
+=
+default
+;
 nsISupports
 *
 GeolocationPosition

@@ -61,8 +61,9 @@ MLSFallback
 MLSFallback
 (
 )
-{
-}
+=
+default
+;
 nsresult
 MLSFallback
 :
