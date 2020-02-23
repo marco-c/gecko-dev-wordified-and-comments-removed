@@ -1143,13 +1143,6 @@ Await
 )
 ;
 }
-AbstractGeneratorObject
-*
-maybeGeneratorObject
-(
-)
-const
-;
 bool
 buildCompletionValue
 (
