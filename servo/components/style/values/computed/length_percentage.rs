@@ -1162,7 +1162,7 @@ Self
 {
 node
 .
-simplify_and_sort_children
+simplify_and_sort
 (
 )
 ;
