@@ -21,15 +21,6 @@ grcov
 PROJECT
 =
 grcov
-#
-This
-script
-is
-for
-building
-rust
--
-size
 case
 "
 (
