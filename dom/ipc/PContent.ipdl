@@ -9736,7 +9736,7 @@ RestoreBrowsingContextChildren
 (
 MaybeDiscardedBrowsingContext
 aContext
-BrowsingContext
+MaybeDiscardedBrowsingContext
 [
 ]
 aChildren

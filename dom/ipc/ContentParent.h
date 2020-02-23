@@ -2866,10 +2866,13 @@ BrowsingContext
 >
 &
 aContext
+nsTArray
+<
+MaybeDiscarded
+<
 BrowsingContext
-:
-:
-Children
+>
+>
 &
 &
 aChildren
