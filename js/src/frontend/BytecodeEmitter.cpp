@@ -1114,6 +1114,11 @@ lazyScript
 ;
 if
 (
+IsTypeInferenceEnabled
+(
+)
+&
+&
 sc
 -
 >

@@ -620,6 +620,12 @@ options
 disableIon
 (
 )
+|
+|
+!
+IsTypeInferenceEnabled
+(
+)
 )
 )
 {

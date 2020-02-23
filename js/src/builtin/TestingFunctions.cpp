@@ -34981,6 +34981,12 @@ false
 if
 (
 !
+IsTypeInferenceEnabled
+(
+)
+|
+|
+!
 jit
 :
 :
