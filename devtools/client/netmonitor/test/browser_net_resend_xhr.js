@@ -175,6 +175,14 @@ click
 (
 )
 ;
+await
+performRequests
+(
+monitor
+tab
+2
+)
+;
 const
 selectedRequest
 =
