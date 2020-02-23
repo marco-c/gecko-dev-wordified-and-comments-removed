@@ -111,8 +111,9 @@ aValue
 Entry
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mName
 ;

@@ -1340,8 +1340,9 @@ mPromiseProxy
 WorkerFetchResolver
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 FlushConsoleReport

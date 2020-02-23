@@ -241,8 +241,8 @@ virtual
 FetchDriverObserver
 (
 )
-{
-}
+=
+default
 ;
 virtual
 void

@@ -1330,8 +1330,9 @@ InternalHeaders
 InternalHeaders
 (
 )
-{
-}
+=
+default
+;
 bool
 InternalHeaders
 :

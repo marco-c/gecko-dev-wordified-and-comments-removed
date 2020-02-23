@@ -512,8 +512,9 @@ InternalResponse
 InternalResponse
 (
 )
-{
-}
+=
+default
+;
 template
 void
 InternalResponse

@@ -361,8 +361,9 @@ Request
 Request
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 InternalRequest
