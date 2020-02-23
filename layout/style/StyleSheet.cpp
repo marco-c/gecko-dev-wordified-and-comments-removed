@@ -2994,7 +2994,7 @@ StyleSheet
 Replace
 (
 const
-nsAString
+nsACString
 &
 aText
 ErrorResult

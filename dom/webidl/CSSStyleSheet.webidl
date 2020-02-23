@@ -299,7 +299,7 @@ CSSStyleSheet
 >
 replace
 (
-USVString
+UTF8String
 text
 )
 ;
