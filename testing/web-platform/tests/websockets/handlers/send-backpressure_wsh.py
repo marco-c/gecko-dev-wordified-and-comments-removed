@@ -29,6 +29,20 @@ request
 )
 :
     
+request
+.
+ws_stream
+.
+send_message
+(
+b
+'
+'
+binary
+=
+True
+)
+    
 start_time
 =
 time

@@ -67,6 +67,13 @@ read
 (
 )
 ;
+await
+reader
+.
+read
+(
+)
+;
 const
 {
 value
