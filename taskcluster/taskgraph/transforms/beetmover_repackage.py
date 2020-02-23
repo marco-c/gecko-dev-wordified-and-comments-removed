@@ -1179,13 +1179,6 @@ shippable
 linux64
 -
 devedition
--
-nightly
-'
-'
-linux64
--
-devedition
 '
 }
     
@@ -1196,13 +1189,6 @@ OSX_OK_PLATFORMS
 macosx64
 -
 shippable
-'
-'
-macosx64
--
-devedition
--
-nightly
 '
 '
 macosx64

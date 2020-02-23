@@ -133,14 +133,6 @@ opt
 linux64
 -
 devedition
--
-nightly
-/
-opt
--
-linux64
--
-devedition
 /
 opt
 job
