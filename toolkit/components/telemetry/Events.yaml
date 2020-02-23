@@ -11170,6 +11170,8 @@ bug_numbers
 1572825
 -
 1610897
+-
+1612088
 description
 :
 >
@@ -11708,6 +11710,16 @@ synchronization
 process
 in
 milliseconds
+.
+timestamp
+:
+>
+The
+current
+timestamp
+received
+during
+synchronization
 .
 bug_numbers
 :
