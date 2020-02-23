@@ -397,8 +397,12 @@ ipc
 IPCResult
 RecvSubFrameCrashed
 (
+const
+MaybeDiscarded
+<
 BrowsingContext
-*
+>
+&
 aContext
 )
 ;

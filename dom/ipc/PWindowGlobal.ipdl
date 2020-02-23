@@ -350,7 +350,7 @@ __delete__
 async
 MakeFrameLocal
 (
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aFrameContext
 uint64_t
 aSwitchId
@@ -359,7 +359,7 @@ aSwitchId
 async
 MakeFrameRemote
 (
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aFrameContext
 ManagedEndpoint
 <
@@ -473,7 +473,7 @@ global
 async
 LoadURI
 (
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aTargetBC
 nsDocShellLoadState
 aLoadState
@@ -484,7 +484,7 @@ aSetNavigating
 async
 InternalLoad
 (
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aTargetBC
 nsDocShellLoadState
 aLoadState
