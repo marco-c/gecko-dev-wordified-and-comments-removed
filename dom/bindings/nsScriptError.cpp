@@ -212,8 +212,9 @@ nsScriptErrorBase
 nsScriptErrorBase
 (
 )
-{
-}
+=
+default
+;
 void
 nsScriptErrorBase
 :
@@ -2125,8 +2126,9 @@ nsScriptErrorNote
 nsScriptErrorNote
 (
 )
-{
-}
+=
+default
+;
 void
 nsScriptErrorNote
 :

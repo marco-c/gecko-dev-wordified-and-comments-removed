@@ -131,8 +131,9 @@ virtual
 TestInterfaceIterableSingle
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner

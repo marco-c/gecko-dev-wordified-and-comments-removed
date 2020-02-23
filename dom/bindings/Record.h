@@ -70,8 +70,9 @@ public
 RecordEntry
 (
 )
-{
-}
+=
+default
+;
 RecordEntry
 (
 RecordEntry
@@ -227,8 +228,9 @@ SelfType
 Record
 (
 )
-{
-}
+=
+default
+;
 Record
 (
 SelfType

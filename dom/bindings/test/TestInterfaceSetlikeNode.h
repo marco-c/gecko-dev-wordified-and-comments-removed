@@ -110,8 +110,9 @@ virtual
 TestInterfaceSetlikeNode
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowInner
