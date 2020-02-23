@@ -1011,6 +1011,9 @@ if
 windowContext
 )
 {
+#
+ifndef
+FUZZING
 MOZ_CRASH
 (
 "
@@ -1022,6 +1025,8 @@ WindowContext
 "
 )
 ;
+#
+endif
 *
 aResult
 =
