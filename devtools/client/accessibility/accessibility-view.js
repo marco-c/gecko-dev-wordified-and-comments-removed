@@ -242,6 +242,9 @@ supports
 fluentBundles
 simulator
 toolbox
+getAccessibilityTreeRoot
+startListeningForAccessibilityEvents
+stopListeningForAccessibilityEvents
 }
 )
 {
@@ -286,6 +289,9 @@ walker
 fluentBundles
 simulator
 toolbox
+getAccessibilityTreeRoot
+startListeningForAccessibilityEvents
+stopListeningForAccessibilityEvents
 }
 )
 ;
