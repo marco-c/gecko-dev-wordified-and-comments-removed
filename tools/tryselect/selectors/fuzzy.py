@@ -120,6 +120,8 @@ tools
 /
 tryselect
 /
+selectors
+/
 preview
 .
 py
