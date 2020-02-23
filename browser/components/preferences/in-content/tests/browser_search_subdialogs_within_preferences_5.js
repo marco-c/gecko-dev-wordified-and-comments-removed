@@ -60,8 +60,9 @@ await
 evaluateSearchResults
 (
 "
-Text
-Encoding
+Unified
+Canadian
+Syllabary
 "
 "
 fontsGroup
