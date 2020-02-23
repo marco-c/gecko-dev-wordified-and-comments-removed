@@ -2784,7 +2784,6 @@ spawn
 move
 |
 |
-{
 loop
 {
 match
@@ -2870,7 +2869,6 @@ _
 =
 >
 break
-}
 }
 }
 )
