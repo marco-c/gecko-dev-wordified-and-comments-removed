@@ -403,8 +403,9 @@ virtual
 CanvasPath
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports

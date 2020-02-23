@@ -1034,8 +1034,9 @@ nsIMemoryReporter
 Canvas2dPixelsReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -3865,8 +3866,9 @@ private
 CanvasShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 CanvasRenderingContext2D
 *
 mCanvas

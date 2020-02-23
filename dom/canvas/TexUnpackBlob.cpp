@@ -2933,8 +2933,9 @@ TexUnpackImage
 TexUnpackImage
 (
 )
-{
-}
+=
+default
+;
 bool
 TexUnpackImage
 :

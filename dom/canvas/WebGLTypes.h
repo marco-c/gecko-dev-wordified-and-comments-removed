@@ -2882,8 +2882,9 @@ idx
 RawBuffer
 (
 )
-{
-}
+=
+default
+;
 RawBuffer
 (
 const

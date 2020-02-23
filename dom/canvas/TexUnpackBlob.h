@@ -162,8 +162,9 @@ virtual
 TexUnpackBlob
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 bool

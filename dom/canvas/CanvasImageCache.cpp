@@ -344,8 +344,9 @@ mData
 ImageCacheEntry
 (
 )
-{
-}
+=
+default
+;
 bool
 KeyEquals
 (
@@ -521,8 +522,9 @@ mSourceSurface
 AllCanvasImageCacheEntry
 (
 )
-{
-}
+=
+default
+;
 bool
 KeyEquals
 (
@@ -814,8 +816,9 @@ virtual
 ImageCacheObserver
 (
 )
-{
-}
+=
+default
+;
 void
 RegisterMemoryPressureEvent
 (
@@ -926,8 +929,9 @@ nsIObserver
 CanvasImageCacheShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

@@ -494,8 +494,9 @@ private
 ImageBitmapShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 class
 SendShutdownToWorkerThread
 :
@@ -5170,8 +5171,9 @@ virtual
 CreateImageBitmapFromBlob
 (
 )
-{
-}
+=
+default
+;
 bool
 IsCurrentThread
 (

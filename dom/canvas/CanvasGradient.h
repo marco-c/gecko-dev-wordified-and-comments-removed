@@ -308,8 +308,9 @@ virtual
 CanvasGradient
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

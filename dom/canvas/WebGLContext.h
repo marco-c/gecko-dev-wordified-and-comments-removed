@@ -4371,8 +4371,9 @@ info
 FailureReason
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

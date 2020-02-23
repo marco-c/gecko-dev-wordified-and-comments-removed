@@ -173,8 +173,9 @@ OffscreenCanvasCloneData
 OffscreenCanvasCloneData
 (
 )
-{
-}
+=
+default
+;
 OffscreenCanvas
 :
 :
