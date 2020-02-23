@@ -14145,16 +14145,6 @@ val
 cx
 )
 ;
-if
-(
-classField
--
->
-initializer
-(
-)
-)
-{
 ParseNode
 *
 value
@@ -14264,7 +14254,6 @@ setNull
 (
 )
 ;
-}
 }
 return
 propertyName

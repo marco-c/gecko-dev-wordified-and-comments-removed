@@ -8982,16 +8982,6 @@ ParseNodeKind
 :
 :
 ClassField
-initializer
-=
-=
-nullptr
-?
-name
--
->
-pn_pos
-:
 TokenPos
 :
 :
@@ -9073,10 +9063,6 @@ initializer
 const
 {
 return
-right
-(
-)
-?
 &
 right
 (
@@ -9089,8 +9075,6 @@ FunctionNode
 >
 (
 )
-:
-nullptr
 ;
 }
 }
