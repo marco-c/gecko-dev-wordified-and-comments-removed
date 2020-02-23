@@ -8985,10 +8985,8 @@ return
 true
 ;
 }
+static
 bool
-js
-:
-:
 obj_getOwnPropertyNames
 (
 JSContext

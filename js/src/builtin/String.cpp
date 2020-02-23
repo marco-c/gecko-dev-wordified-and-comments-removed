@@ -4657,10 +4657,8 @@ linear
 )
 ;
 }
+static
 bool
-js
-:
-:
 str_toLowerCase
 (
 JSContext
@@ -6997,10 +6995,8 @@ linear
 )
 ;
 }
+static
 bool
-js
-:
-:
 str_toUpperCase
 (
 JSContext
@@ -12332,10 +12328,8 @@ return
 1
 ;
 }
+static
 bool
-js
-:
-:
 str_lastIndexOf
 (
 JSContext
