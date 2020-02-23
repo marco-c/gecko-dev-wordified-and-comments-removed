@@ -18435,8 +18435,9 @@ FullscreenTransitionTask
 (
 )
 override
-{
-}
+=
+default
+;
 enum
 Stage
 {
@@ -33527,5 +33528,6 @@ nsPIDOMWindowOuter
 nsPIDOMWindowOuter
 (
 )
-{
-}
+=
+default
+;

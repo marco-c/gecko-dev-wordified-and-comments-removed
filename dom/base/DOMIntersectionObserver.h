@@ -71,8 +71,9 @@ nsWrapperCache
 DOMIntersectionObserverEntry
 (
 )
-{
-}
+=
+default
+;
 public
 :
 DOMIntersectionObserverEntry

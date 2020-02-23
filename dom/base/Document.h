@@ -1387,8 +1387,9 @@ nsIStreamListener
 PendingLoad
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -1475,8 +1476,9 @@ nsIInterfaceRequestor
 LoadgroupCallbacks
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

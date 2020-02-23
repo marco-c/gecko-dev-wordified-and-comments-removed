@@ -3071,8 +3071,9 @@ virtual
 VibrateWindowListener
 (
 )
-{
-}
+=
+default
+;
 nsWeakPtr
 mWindow
 ;
@@ -4893,8 +4894,9 @@ nsIStreamListener
 BeaconStreamListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 BeaconStreamListener

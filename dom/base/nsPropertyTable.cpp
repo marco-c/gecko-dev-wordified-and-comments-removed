@@ -1090,8 +1090,9 @@ PropertyList
 PropertyList
 (
 )
-{
-}
+=
+default
+;
 void
 nsPropertyTable
 :

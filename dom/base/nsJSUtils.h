@@ -1381,8 +1381,9 @@ public
 nsTAutoJSString
 (
 )
-{
-}
+=
+default
+;
 bool
 init
 (

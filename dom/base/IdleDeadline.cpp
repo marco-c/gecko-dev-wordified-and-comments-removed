@@ -179,8 +179,9 @@ IdleDeadline
 IdleDeadline
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 IdleDeadline

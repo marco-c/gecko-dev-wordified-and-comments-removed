@@ -75,8 +75,9 @@ nsIContentPolicy
 nsNoDataProtocolContentPolicy
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -84,8 +85,9 @@ NS_DECL_NSICONTENTPOLICY
 nsNoDataProtocolContentPolicy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

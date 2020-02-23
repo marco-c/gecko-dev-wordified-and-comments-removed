@@ -164,8 +164,9 @@ nsHistory
 nsHistory
 (
 )
-{
-}
+=
+default
+;
 nsPIDOMWindowInner
 *
 nsHistory

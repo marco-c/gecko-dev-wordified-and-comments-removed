@@ -74,8 +74,9 @@ nsDOMCaretPosition
 nsDOMCaretPosition
 (
 )
-{
-}
+=
+default
+;
 nsINode
 *
 nsDOMCaretPosition

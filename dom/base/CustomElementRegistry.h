@@ -477,8 +477,9 @@ virtual
 CustomElementData
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsAtom
@@ -666,8 +667,9 @@ private
 CustomElementDefinition
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -897,8 +899,9 @@ private
 CustomElementReactionsStack
 (
 )
-{
-}
+=
+default
+;
 ;
 void
 CreateAndPushElementQueue

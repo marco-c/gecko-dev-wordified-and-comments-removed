@@ -140,8 +140,9 @@ mOldRanges
 SelectionChangeEventDispatcher
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

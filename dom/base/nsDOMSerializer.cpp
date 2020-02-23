@@ -77,8 +77,9 @@ nsDOMSerializer
 nsDOMSerializer
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <

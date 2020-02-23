@@ -629,8 +629,9 @@ virtual
 ModifierKeyDataArray
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 void

@@ -197,8 +197,9 @@ nsContentPolicy
 nsContentPolicy
 (
 )
-{
-}
+=
+default
+;
 #
 ifdef
 DEBUG

@@ -128,8 +128,9 @@ nsDOMTokenList
 nsDOMTokenList
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 nsDOMTokenList

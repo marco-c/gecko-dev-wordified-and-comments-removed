@@ -189,8 +189,9 @@ nsHTMLContentSerializer
 nsHTMLContentSerializer
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsHTMLContentSerializer
 :

@@ -319,8 +319,9 @@ virtual
 DOMPointReadOnly
 (
 )
-{
-}
+=
+default
+;
 bool
 ReadStructuredClone
 (

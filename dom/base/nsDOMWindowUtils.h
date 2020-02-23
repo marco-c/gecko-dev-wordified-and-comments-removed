@@ -147,8 +147,9 @@ private
 nsTranslationNodeList
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 nsCOMPtr

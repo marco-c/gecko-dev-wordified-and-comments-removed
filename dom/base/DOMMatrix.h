@@ -1442,8 +1442,9 @@ virtual
 DOMMatrixReadOnly
 (
 )
-{
-}
+=
+default
+;
 void
 SetDataFromMatrix2DInit
 (
@@ -1954,8 +1955,9 @@ virtual
 DOMMatrix
 (
 )
-{
-}
+=
+default
+;
 private
 :
 DOMMatrix

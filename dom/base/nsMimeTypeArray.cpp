@@ -132,8 +132,9 @@ nsMimeTypeArray
 nsMimeTypeArray
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 nsMimeTypeArray
@@ -768,8 +769,9 @@ nsMimeType
 nsMimeType
 (
 )
-{
-}
+=
+default
+;
 nsPIDOMWindowInner
 *
 nsMimeType

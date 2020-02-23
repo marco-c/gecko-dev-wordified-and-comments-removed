@@ -102,8 +102,9 @@ nsOpenURIInFrameParams
 nsOpenURIInFrameParams
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsOpenURIInFrameParams
 :

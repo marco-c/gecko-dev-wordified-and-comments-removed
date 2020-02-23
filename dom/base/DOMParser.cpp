@@ -222,8 +222,9 @@ DOMParser
 DOMParser
 (
 )
-{
-}
+=
+default
+;
 NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 DOMParser

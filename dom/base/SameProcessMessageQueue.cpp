@@ -36,8 +36,9 @@ SameProcessMessageQueue
 SameProcessMessageQueue
 (
 )
-{
-}
+=
+default
+;
 SameProcessMessageQueue
 :
 :

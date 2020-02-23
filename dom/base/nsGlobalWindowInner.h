@@ -7857,16 +7857,6 @@ sInnerWindowsById
 struct
 ChromeFields
 {
-ChromeFields
-(
-)
-:
-mGroupMessageManagers
-(
-1
-)
-{
-}
 RefPtr
 <
 mozilla
@@ -7891,6 +7881,9 @@ dom
 ChromeMessageBroadcaster
 >
 mGroupMessageManagers
+{
+1
+}
 ;
 }
 mChromeFields

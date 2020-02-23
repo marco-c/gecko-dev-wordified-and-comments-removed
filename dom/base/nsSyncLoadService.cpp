@@ -309,8 +309,9 @@ nsForceXMLListener
 nsForceXMLListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsForceXMLListener

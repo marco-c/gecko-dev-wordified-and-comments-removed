@@ -316,8 +316,9 @@ virtual
 MessageManagerCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 DoLoadMessageManagerScript
@@ -2115,8 +2116,9 @@ nsIObserver
 nsScriptCacheCleaner
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 nsScriptCacheCleaner
 (

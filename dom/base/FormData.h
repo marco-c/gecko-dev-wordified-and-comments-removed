@@ -117,8 +117,9 @@ aFormData
 FormData
 (
 )
-{
-}
+=
+default
+;
 struct
 FormDataTuple
 {

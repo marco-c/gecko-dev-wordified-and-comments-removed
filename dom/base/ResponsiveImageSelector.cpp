@@ -551,8 +551,9 @@ ResponsiveImageSelector
 ResponsiveImageSelector
 (
 )
-{
-}
+=
+default
+;
 bool
 ResponsiveImageSelector
 :

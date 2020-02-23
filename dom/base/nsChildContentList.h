@@ -140,8 +140,9 @@ virtual
 nsAttrChildContentList
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr
@@ -242,8 +243,9 @@ private
 nsParentNodeChildContentList
 (
 )
-{
-}
+=
+default
+;
 bool
 ValidateCache
 (

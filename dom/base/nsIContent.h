@@ -2055,8 +2055,9 @@ const
 nsIContent
 (
 )
-{
-}
+=
+default
+;
 public
 :
 #

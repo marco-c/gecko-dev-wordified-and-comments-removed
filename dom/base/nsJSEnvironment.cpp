@@ -1567,8 +1567,9 @@ nsIObserver
 nsJSEnvironmentObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

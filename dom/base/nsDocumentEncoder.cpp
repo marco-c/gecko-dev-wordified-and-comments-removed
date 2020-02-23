@@ -5787,8 +5787,9 @@ nsHTMLCopyEncoder
 nsHTMLCopyEncoder
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsHTMLCopyEncoder
 :

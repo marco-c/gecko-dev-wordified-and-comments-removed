@@ -107,8 +107,9 @@ nsWrapperCache
 DOMImplementation
 (
 )
-{
-}
+=
+default
+;
 public
 :
 DOMImplementation

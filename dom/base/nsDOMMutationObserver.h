@@ -194,8 +194,9 @@ virtual
 nsDOMMutationRecord
 (
 )
-{
-}
+=
+default
+;
 public
 :
 typedef
@@ -583,8 +584,9 @@ virtual
 nsMutationReceiverBase
 (
 )
-{
-}
+=
+default
+;
 nsDOMMutationObserver
 *
 Observer
@@ -2000,8 +2002,9 @@ virtual
 nsAnimationReceiver
 (
 )
-{
-}
+=
+default
+;
 nsAnimationReceiver
 (
 nsINode

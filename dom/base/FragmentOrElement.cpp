@@ -2607,8 +2607,9 @@ nsExtendedContentSlots
 nsExtendedContentSlots
 (
 )
-{
-}
+=
+default
+;
 nsIContent
 :
 :
@@ -3012,8 +3013,9 @@ nsExtendedDOMSlots
 nsExtendedDOMSlots
 (
 )
-{
-}
+=
+default
+;
 void
 FragmentOrElement
 :

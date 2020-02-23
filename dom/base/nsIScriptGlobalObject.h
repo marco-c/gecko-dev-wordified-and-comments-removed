@@ -186,8 +186,9 @@ virtual
 nsIScriptGlobalObject
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

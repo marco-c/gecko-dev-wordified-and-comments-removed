@@ -833,8 +833,9 @@ virtual
 nsSelectionCommandsBase
 (
 )
-{
-}
+=
+default
+;
 static
 nsresult
 GetPresShellFromWindow
@@ -2521,8 +2522,9 @@ nsIControllerCommand
 nsClipboardCommand
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -2939,8 +2941,9 @@ virtual
 nsSelectionCommand
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 IsClipboardCommandEnabled
@@ -4296,8 +4299,9 @@ virtual
 nsLookUpDictionaryCommand
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

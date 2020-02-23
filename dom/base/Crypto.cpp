@@ -131,8 +131,9 @@ Crypto
 Crypto
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 Crypto

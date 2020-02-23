@@ -150,8 +150,9 @@ virtual
 TimeoutHandler
 (
 )
-{
-}
+=
+default
+;
 nsCString
 mFileName
 ;
@@ -259,8 +260,9 @@ virtual
 ScriptTimeoutHandler
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIGlobalObject

@@ -6481,8 +6481,9 @@ eDone
 RangeSubtreeIterator
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (
