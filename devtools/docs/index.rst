@@ -637,6 +637,17 @@ panel
 .
 md
 >
+Network
+<
+/
+devtools
+/
+netmonitor
+/
+architecture
+.
+md
+>
 Frontend
 =
 =

@@ -119,3 +119,16 @@ DevTools
 Netmonitor
 '
 )
+SPHINX_TREES
+[
+'
+/
+devtools
+/
+netmonitor
+'
+]
+=
+'
+docs
+'
