@@ -6492,6 +6492,9 @@ return
 ;
 if
 (
+tex
+&
+&
 numViewLayers
 <
 1
