@@ -893,6 +893,12 @@ mDepthRange
 }
 }
 ;
+webgl
+:
+:
+PixelPackState
+mPixelPackState
+;
 std
 :
 :
