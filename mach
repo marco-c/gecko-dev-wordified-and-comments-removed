@@ -191,6 +191,7 @@ geckoview
 junit
 gradle
 gtest
+hazards
 ide
 import
 -

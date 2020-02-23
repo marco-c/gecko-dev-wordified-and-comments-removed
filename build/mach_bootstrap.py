@@ -190,6 +190,20 @@ py
 '
     
 '
+js
+/
+src
+/
+devtools
+/
+rootAnalysis
+/
+mach_commands
+.
+py
+'
+    
+'
 layout
 /
 tools
