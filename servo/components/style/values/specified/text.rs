@@ -4854,6 +4854,7 @@ TextDecorationSkipInk
 {
 Auto
 None
+All
 }
 pub
 type
