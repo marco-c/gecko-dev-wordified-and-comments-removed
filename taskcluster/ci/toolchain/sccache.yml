@@ -140,16 +140,6 @@ tar
 xz
 fetches
 :
-fetch
-:
--
-openssl
--
-1
-.
-1
-.
-0g
 toolchain
 :
 -
@@ -283,7 +273,7 @@ macos
 -
 1
 .
-39
+41
 -
 linux64
 -
@@ -400,4 +390,4 @@ rust
 -
 1
 .
-39
+41
