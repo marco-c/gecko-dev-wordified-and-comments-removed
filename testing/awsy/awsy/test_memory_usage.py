@@ -1041,26 +1041,6 @@ preloaded
 browser
 .
         
-Note
-:
-Does
-nothing
-on
-older
-builds
-that
-don
-'
-t
-have
-a
-              
-gBrowser
-.
-removePreloadedBrowser
-method
-.
-        
 "
 "
 "
@@ -1103,29 +1083,9 @@ window
             
 }
             
-if
-(
-"
-removePreloadedBrowser
-"
-in
-gBrowser
-)
-{
-                
-return
-gBrowser
-.
-removePreloadedBrowser
-(
-)
-;
-            
-}
-            
 return
 "
-gBrowser
+NewTabPagePreloading
 .
 removePreloadedBrowser
 not
