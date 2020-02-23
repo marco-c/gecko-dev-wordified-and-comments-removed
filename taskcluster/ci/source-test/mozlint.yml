@@ -1966,7 +1966,7 @@ treeherder
 :
 symbol
 :
-misc
+rust
 (
 rustfmt
 )
@@ -2024,7 +2024,7 @@ treeherder
 :
 symbol
 :
-misc
+rust
 (
 clippy
 )
