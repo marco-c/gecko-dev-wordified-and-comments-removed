@@ -322,7 +322,7 @@ h
 #
 include
 "
-ssl
+nsNSSComponent
 .
 h
 "
@@ -3110,7 +3110,10 @@ NSS_IsInitialized
 )
 )
 {
-SSL_ClearSessionCache
+nsNSSComponent
+:
+:
+ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;

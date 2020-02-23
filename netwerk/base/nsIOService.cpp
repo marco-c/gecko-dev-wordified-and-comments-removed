@@ -1477,7 +1477,10 @@ SetValidationOptionsCommon
 )
 ;
 }
-SSL_ClearSessionCache
+nsNSSComponent
+:
+:
+ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;

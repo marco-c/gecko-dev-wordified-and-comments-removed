@@ -136,13 +136,6 @@ pk11sdr
 .
 h
 "
-#
-include
-"
-ssl
-.
-h
-"
 static
 mozilla
 :
@@ -1540,7 +1533,10 @@ PK11_LogoutAll
 (
 )
 ;
-SSL_ClearSessionCache
+nsNSSComponent
+:
+:
+ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;
@@ -1567,7 +1563,10 @@ PK11_LogoutAll
 (
 )
 ;
-SSL_ClearSessionCache
+nsNSSComponent
+:
+:
+ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;

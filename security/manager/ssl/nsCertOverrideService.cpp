@@ -186,13 +186,6 @@ nsThreadUtils
 .
 h
 "
-#
-include
-"
-ssl
-.
-h
-"
 using
 namespace
 mozilla
@@ -2647,7 +2640,10 @@ if
 nss
 )
 {
-SSL_ClearSessionCache
+nss
+-
+>
+ClearSSLExternalAndInternalSessionCache
 (
 )
 ;
@@ -2718,7 +2714,10 @@ if
 nss
 )
 {
-SSL_ClearSessionCache
+nss
+-
+>
+ClearSSLExternalAndInternalSessionCache
 (
 )
 ;

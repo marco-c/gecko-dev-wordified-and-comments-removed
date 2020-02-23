@@ -211,6 +211,12 @@ nsACString
 aKey
 )
 ;
+static
+void
+Clear
+(
+)
+;
 private
 :
 SSLTokensCache
