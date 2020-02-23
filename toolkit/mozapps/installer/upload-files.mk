@@ -2653,6 +2653,8 @@ stub
 exe
 )
 endif
+ifdef
+MOZ_NORMANDY
 ifndef
 CROSS_COMPILE
 UPLOAD_FILES
@@ -2665,6 +2667,7 @@ QUOTED_WILDCARD
 MOZ_NORMANDY_JSON
 )
 )
+endif
 endif
 ifdef
 MOZ_CODE_COVERAGE

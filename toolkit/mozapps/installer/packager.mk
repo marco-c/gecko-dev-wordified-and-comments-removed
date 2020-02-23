@@ -1164,6 +1164,8 @@ download
 \
 )
 endif
+ifdef
+MOZ_NORMANDY
 ifndef
 CROSS_COMPILE
 #
@@ -1226,6 +1228,7 @@ js
 (
 MOZ_NORMANDY_JSON
 )
+endif
 endif
 (
 TOUCH
