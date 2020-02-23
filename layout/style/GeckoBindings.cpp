@@ -8024,9 +8024,6 @@ GetThebesFontGroup
 >
 GetFirstValidFont
 (
-'
-0
-'
 )
 -
 >
