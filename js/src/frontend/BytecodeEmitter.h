@@ -2323,6 +2323,15 @@ emitInitializeInstanceFields
 ;
 MOZ_MUST_USE
 bool
+emitInitializeStaticFields
+(
+ListNode
+*
+classMembers
+)
+;
+MOZ_MUST_USE
+bool
 emitLocalOp
 (
 JSOp

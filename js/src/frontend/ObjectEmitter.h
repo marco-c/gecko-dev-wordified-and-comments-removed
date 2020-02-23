@@ -638,6 +638,7 @@ InstanceFieldInitializers
 InstanceFieldInitializersEnd
 StaticFieldInitializers
 StaticFieldInitializersEnd
+BoundName
 End
 }
 ;
@@ -842,6 +843,12 @@ emitStoreFieldInitializer
 MOZ_MUST_USE
 bool
 emitFieldInitializersEnd
+(
+)
+;
+MOZ_MUST_USE
+bool
+emitBinding
 (
 )
 ;
