@@ -144,6 +144,7 @@ wr
 Renderer
 *
 aRenderer
+const
 wr
 :
 :
@@ -157,6 +158,7 @@ private
 bool
 DidPaintContent
 (
+const
 wr
 :
 :

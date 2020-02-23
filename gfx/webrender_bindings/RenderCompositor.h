@@ -124,7 +124,7 @@ RenderedFrameId
 EndFrame
 (
 const
-FfiVec
+nsTArray
 <
 DeviceIntRect
 >
@@ -360,6 +360,11 @@ wr
 :
 DeviceIntRect
 aDirtyRect
+wr
+:
+:
+DeviceIntRect
+aValidRect
 )
 {
 }

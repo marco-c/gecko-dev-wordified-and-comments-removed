@@ -316,3 +316,15 @@ android
 "
 ANDROID
 "
+[
+export
+.
+rename
+]
+"
+ThinVec
+"
+=
+"
+nsTArray
+"
