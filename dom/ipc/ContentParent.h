@@ -3972,8 +3972,12 @@ URIParams
 >
 &
 aReferrer
+const
+MaybeDiscarded
+<
 BrowsingContext
-*
+>
+&
 aContext
 const
 bool
@@ -4042,8 +4046,12 @@ URIParams
 >
 &
 aReferrer
+const
+MaybeDiscarded
+<
 BrowsingContext
-*
+>
+&
 aContext
 const
 bool

@@ -5833,7 +5833,7 @@ aWasFileChannel
 URIParams
 ?
 aReferrer
-BrowsingContext
+MaybeDiscardedBrowsingContext
 aContext
 bool
 aShouldCloseWindow
