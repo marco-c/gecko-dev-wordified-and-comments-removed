@@ -11899,6 +11899,9 @@ count
 if
 (
 webgl2
+&
+&
+count
 )
 {
 std
