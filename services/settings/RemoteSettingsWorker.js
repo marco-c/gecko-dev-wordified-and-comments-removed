@@ -759,6 +759,12 @@ timestamp
 )
 )
 ;
+db
+.
+close
+(
+)
+;
 }
 async
 function
@@ -804,6 +810,8 @@ reject
 new
 Error
 (
+IndexedDB
+:
 Error
 accessing
 {
