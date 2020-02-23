@@ -265,9 +265,12 @@ void
 bool
 /
 /
+nsIQuotaEstimateResult
+/
+/
 array
 of
-nsIQuotaOriginsResult
+strings
 [
 must_use
 ]

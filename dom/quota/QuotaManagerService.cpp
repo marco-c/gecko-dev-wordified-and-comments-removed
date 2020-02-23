@@ -577,8 +577,9 @@ virtual
 PendingRequestInfo
 (
 )
-{
-}
+=
+default
+;
 RequestBase
 *
 GetRequest
@@ -3370,9 +3371,6 @@ QuotaManagerService
 :
 ListOrigins
 (
-nsIQuotaCallback
-*
-aCallback
 nsIQuotaRequest
 *
 *
@@ -3386,11 +3384,6 @@ NS_IsMainThread
 )
 )
 ;
-MOZ_ASSERT
-(
-aCallback
-)
-;
 RefPtr
 <
 Request
@@ -3400,7 +3393,6 @@ request
 new
 Request
 (
-aCallback
 )
 ;
 ListOriginsParams

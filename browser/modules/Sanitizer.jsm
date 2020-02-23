@@ -2988,6 +2988,10 @@ quotaManagerService
 .
 listOrigins
 (
+)
+.
+callback
+=
 request
 =
 >
@@ -3035,8 +3039,8 @@ list
 ;
 for
 (
-let
-item
+const
+origin
 of
 request
 .
@@ -3052,8 +3056,6 @@ scriptSecurityManager
 .
 createContentPrincipalFromOrigin
 (
-item
-.
 origin
 )
 ;
@@ -3101,7 +3103,6 @@ list
 )
 ;
 }
-)
 ;
 }
 )
