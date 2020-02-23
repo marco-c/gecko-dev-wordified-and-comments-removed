@@ -151,8 +151,9 @@ public
 NullAction
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 RunOnTarget
@@ -686,8 +687,9 @@ private
 SyncResolver
 (
 )
-{
-}
+=
+default
+;
 bool
 mResolved
 ;

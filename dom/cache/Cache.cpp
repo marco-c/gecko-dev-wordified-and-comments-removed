@@ -1029,8 +1029,9 @@ private
 FetchHandler
 (
 )
-{
-}
+=
+default
+;
 void
 Fail
 (

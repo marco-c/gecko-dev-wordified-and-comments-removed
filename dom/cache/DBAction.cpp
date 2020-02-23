@@ -336,8 +336,9 @@ DBAction
 DBAction
 (
 )
-{
-}
+=
+default
+;
 void
 DBAction
 :
@@ -740,8 +741,9 @@ SyncDBAction
 SyncDBAction
 (
 )
-{
-}
+=
+default
+;
 void
 SyncDBAction
 :

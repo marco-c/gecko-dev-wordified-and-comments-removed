@@ -241,8 +241,9 @@ protected
 Listener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 enum

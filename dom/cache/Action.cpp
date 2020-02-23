@@ -58,8 +58,9 @@ Action
 Action
 (
 )
-{
-}
+=
+default
+;
 bool
 Action
 :
