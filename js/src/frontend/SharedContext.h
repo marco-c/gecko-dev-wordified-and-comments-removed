@@ -2016,16 +2016,6 @@ hasExtensibleScope
 )
 |
 |
-needsHomeObject
-(
-)
-|
-|
-isDerivedClassConstructor
-(
-)
-|
-|
 isGenerator
 (
 )
