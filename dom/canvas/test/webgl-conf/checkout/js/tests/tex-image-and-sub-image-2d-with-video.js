@@ -1093,10 +1093,10 @@ gl
 ]
 )
 ;
-var
+const
 tolerance
 =
-5
+6
 ;
 debug
 (

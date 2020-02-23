@@ -8,8 +8,6 @@ import
 sys
 import
 fnmatch
-import
-commands
 from
 collections
 import
@@ -98,6 +96,9 @@ subprocess
 check_output
 (
 command_line
+universal_newlines
+=
+True
 *
 *
 proc_kwargs
@@ -651,7 +652,7 @@ False
 for
 item
 in
-xrange
+range
 (
 len
 (
@@ -666,7 +667,7 @@ whitelist_errors
 in
 data
 .
-iteritems
+items
 (
 )
 :
@@ -1008,6 +1009,9 @@ path
 )
 ]
     
+try
+:
+        
 for
 i
 line
@@ -1017,13 +1021,13 @@ enumerate
 f
 )
 :
-        
+            
 for
 regexp
 in
 applicable_regexps
 :
-            
+                
 if
 regexp
 .
@@ -1032,7 +1036,7 @@ search
 line
 )
 :
-                
+                    
 errors
 .
 append
@@ -1061,6 +1065,38 @@ i
 )
 )
     
+except
+UnicodeDecodeError
+as
+e
+:
+        
+return
+[
+(
+"
+INVALID
+UNICODE
+"
+"
+File
+%
+s
+contains
+non
+-
+UTF
+-
+8
+Unicode
+characters
+"
+%
+path
+None
+)
+]
+    
 return
 errors
 def
@@ -1079,6 +1115,7 @@ errors
 :
         
 print
+(
 "
 %
 s
@@ -1090,6 +1127,7 @@ s
 (
 error_type
 error
+)
 )
 def
 output_error_count
@@ -1126,7 +1164,7 @@ item
 in
 error_count
 .
-iteritems
+items
 (
 )
 )
@@ -1150,6 +1188,7 @@ count
 :
         
 print
+(
 "
 There
 was
@@ -1164,11 +1203,13 @@ s
 (
 by_type
 )
+)
     
 else
 :
         
 print
+(
 "
 There
 were
@@ -1184,6 +1225,7 @@ s
 (
 count
 by_type
+)
 )
 def
 main
@@ -1592,7 +1634,7 @@ sum
 (
 error_count
 .
-itervalues
+values
 (
 )
 )
