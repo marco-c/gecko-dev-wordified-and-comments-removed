@@ -510,6 +510,11 @@ UpdateMultithreading
 (
 )
 ;
+void
+UpdateBatchingParameters
+(
+)
+;
 mozilla
 :
 :

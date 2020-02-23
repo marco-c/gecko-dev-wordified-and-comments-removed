@@ -3554,6 +3554,10 @@ EnableMultithreading
 (
 bool
 )
+SetBatchingLookback
+(
+u32
+)
 InvalidateGpuCache
 SimulateLongSceneBuild
 (

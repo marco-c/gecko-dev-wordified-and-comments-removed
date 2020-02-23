@@ -288,6 +288,13 @@ int32_t
 \
 _
 (
+WebRenderBatchingLookback
+int32_t
+10
+)
+\
+_
+(
 ScreenDepth
 int32_t
 0

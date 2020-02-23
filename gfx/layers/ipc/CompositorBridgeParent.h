@@ -3591,6 +3591,12 @@ UpdateWebRenderMultithreading
 (
 )
 ;
+static
+void
+UpdateWebRenderBatchingParameters
+(
+)
+;
 Maybe
 <
 CollectedFramesParams

@@ -16958,6 +16958,14 @@ _
 DebugCommand
 :
 :
+SetBatchingLookback
+(
+_
+)
+|
+DebugCommand
+:
+:
 EnableMultithreading
 (
 _
