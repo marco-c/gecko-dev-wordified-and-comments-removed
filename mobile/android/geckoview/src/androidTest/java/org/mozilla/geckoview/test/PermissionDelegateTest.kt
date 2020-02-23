@@ -1839,17 +1839,6 @@ to
 true
 )
 )
-sessionRule
-.
-runtime
-.
-settings
-.
-autoplayDefault
-=
-GeckoRuntimeSettings
-.
-AUTOPLAY_DEFAULT_BLOCKED
 mainSession
 .
 loadTestPath
