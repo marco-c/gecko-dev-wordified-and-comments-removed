@@ -6413,15 +6413,6 @@ aURI
 ;
 static
 bool
-IsTrackingResourceWindow
-(
-nsPIDOMWindowInner
-*
-aWindow
-)
-;
-static
-bool
 IsThirdPartyTrackingResourceWindow
 (
 nsPIDOMWindowInner

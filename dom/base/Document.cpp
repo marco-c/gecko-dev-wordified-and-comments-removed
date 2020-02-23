@@ -94684,7 +94684,7 @@ if
 nsContentUtils
 :
 :
-IsTrackingResourceWindow
+IsThirdPartyTrackingResourceWindow
 (
 inner
 )

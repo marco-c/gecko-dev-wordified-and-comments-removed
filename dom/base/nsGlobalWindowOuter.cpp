@@ -10353,7 +10353,7 @@ uri
 nsContentUtils
 :
 :
-IsTrackingResourceWindow
+IsThirdPartyTrackingResourceWindow
 (
 newInnerWindow
 )
