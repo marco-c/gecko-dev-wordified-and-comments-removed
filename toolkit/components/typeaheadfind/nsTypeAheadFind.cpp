@@ -3604,6 +3604,15 @@ mStartPointRange
 nullptr
 )
 ;
+mStartPointRange
+-
+>
+Collapse
+(
+!
+aFindPrev
+)
+;
 }
 else
 {
@@ -3697,7 +3706,6 @@ IgnoreErrors
 )
 )
 ;
-}
 mStartPointRange
 -
 >
@@ -3706,6 +3714,7 @@ Collapse
 true
 )
 ;
+}
 presShell
 .
 forget
