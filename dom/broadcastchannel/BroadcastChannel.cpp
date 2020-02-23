@@ -620,8 +620,9 @@ private
 CloseRunnable
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 BroadcastChannel
