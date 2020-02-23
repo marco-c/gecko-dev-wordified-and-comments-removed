@@ -1251,10 +1251,6 @@ webgl_can_lose_context_in_foreground
 (
 )
 ;
-mColorWriteMask
-=
-0x0f
-;
 mDriverColorMask
 =
 mColorWriteMask
