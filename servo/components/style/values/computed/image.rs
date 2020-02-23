@@ -78,6 +78,7 @@ computed
 :
 :
 {
+AngleOrPercentage
 LengthPercentage
 NonNegativeLength
 NonNegativeLengthPercentage
@@ -200,6 +201,8 @@ LengthPercentage
 NonNegativeLength
 NonNegativeLengthPercentage
 Position
+Angle
+AngleOrPercentage
 Color
 >
 ;
