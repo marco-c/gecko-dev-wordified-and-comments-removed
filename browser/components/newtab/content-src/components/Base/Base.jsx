@@ -1217,6 +1217,15 @@ error
 >
 <
 DiscoveryStreamBase
+locale
+=
+{
+props
+.
+App
+.
+locale
+}
 /
 >
 <

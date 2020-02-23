@@ -238,17 +238,6 @@ about
 welcome
 "
 }
-locale
-=
-{
-global
-.
-document
-.
-documentElement
-.
-lang
-}
 strings
 =
 {

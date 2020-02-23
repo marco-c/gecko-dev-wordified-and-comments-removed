@@ -3888,6 +3888,11 @@ INIT
 data
 :
 {
+locale
+:
+this
+.
+locale
 }
 }
 )

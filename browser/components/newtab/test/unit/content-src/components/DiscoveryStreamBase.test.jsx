@@ -729,6 +729,13 @@ shallow
 (
 <
 DiscoveryStreamBase
+locale
+=
+"
+en
+-
+US
+"
 DiscoveryStream
 =
 {

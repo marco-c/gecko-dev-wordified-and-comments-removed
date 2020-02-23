@@ -105,6 +105,10 @@ App
 initialized
 :
 false
+locale
+:
+"
+"
 }
 ASRouter
 :
