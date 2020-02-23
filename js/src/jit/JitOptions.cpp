@@ -498,6 +498,17 @@ ion
 true
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
+SET_DEFAULT
+(
+typeInference
+true
+)
+;
+#
+endif
 SET_DEFAULT
 (
 jitForTrustedPrincipals
