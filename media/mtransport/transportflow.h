@@ -51,13 +51,6 @@ m_cpp_utils
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 namespace
 mozilla
 {
@@ -243,7 +236,7 @@ static
 void
 DestroyFinal
 (
-nsAutoPtr
+UniquePtr
 <
 std
 :
