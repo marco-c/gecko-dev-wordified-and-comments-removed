@@ -2559,10 +2559,6 @@ expected_unit
 }
 )
 ?
-.
-into_boxed_slice
-(
-)
 ;
 let
 op
@@ -2607,6 +2603,10 @@ Self
 MinMax
 (
 arguments
+.
+into
+(
+)
 op
 )
 )
@@ -2895,6 +2895,10 @@ Sum
 sum
 .
 into_boxed_slice
+(
+)
+.
+into
 (
 )
 )
