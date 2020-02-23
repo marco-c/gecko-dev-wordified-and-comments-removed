@@ -22523,6 +22523,12 @@ gArgc
 gArgv
 )
 ;
+#
+if
+defined
+(
+MOZ_WIDGET_ANDROID
+)
 const
 char
 *
@@ -22737,6 +22743,8 @@ greOmni
 appOmni
 )
 ;
+#
+endif
 return
 rv
 ;
