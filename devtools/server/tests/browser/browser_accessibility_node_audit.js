@@ -280,12 +280,9 @@ html
 const
 a11yWalker
 =
-await
 accessibility
 .
-getWalker
-(
-)
+accessibleWalkerFront
 ;
 await
 accessibility
