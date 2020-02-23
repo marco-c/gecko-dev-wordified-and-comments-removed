@@ -240,8 +240,9 @@ private
 FileList
 (
 )
-{
-}
+=
+default
+;
 FallibleTArray
 <
 RefPtr

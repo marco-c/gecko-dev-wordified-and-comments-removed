@@ -1681,8 +1681,9 @@ private
 ReadReadyRunnable
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1758,8 +1759,9 @@ private
 ReadCallback
 (
 )
-{
-}
+=
+default
+;
 WorkerPrivate
 *
 mWorkerPrivate

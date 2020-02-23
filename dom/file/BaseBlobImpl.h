@@ -642,8 +642,9 @@ virtual
 BaseBlobImpl
 (
 )
-{
-}
+=
+default
+;
 static
 uint64_t
 NextSerialNumber

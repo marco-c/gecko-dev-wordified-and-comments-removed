@@ -54,8 +54,9 @@ private
 FileReaderSync
 (
 )
-{
-}
+=
+default
+;
 nsresult
 ConvertStream
 (

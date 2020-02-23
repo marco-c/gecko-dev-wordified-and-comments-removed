@@ -50,8 +50,9 @@ virtual
 IPCBlobInputStreamParentCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

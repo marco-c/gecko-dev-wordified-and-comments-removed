@@ -518,8 +518,9 @@ private
 DataOwnerAdapter
 (
 )
-{
-}
+=
+default
+;
 DataOwnerAdapter
 (
 DataOwner
@@ -671,8 +672,9 @@ data
 MemoryBlobImpl
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DataOwner
