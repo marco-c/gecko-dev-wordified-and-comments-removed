@@ -227,6 +227,11 @@ updater_append
 ini
 '
 ]
+updater
+.
+py2
+=
+True
 #
 Yes
 this

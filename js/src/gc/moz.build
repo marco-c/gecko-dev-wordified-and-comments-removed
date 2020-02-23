@@ -175,6 +175,9 @@ StatsPhasesGenerated
 .
 inc
 '
+py2
+=
+True
 script
 =
 '

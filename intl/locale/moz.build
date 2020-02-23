@@ -509,6 +509,11 @@ ffi
 '
 ]
 ffi_generated
+.
+py2
+=
+True
+ffi_generated
 =
 GENERATED_FILES
 [
@@ -554,3 +559,8 @@ langneg
 ffi
 '
 ]
+ffi_generated
+.
+py2
+=
+True

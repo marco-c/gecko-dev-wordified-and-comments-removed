@@ -147,6 +147,9 @@ entry_point
 '
 copy
 '
+py2
+=
+True
 inputs
 =
 [
