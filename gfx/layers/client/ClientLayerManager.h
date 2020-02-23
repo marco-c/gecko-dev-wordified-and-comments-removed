@@ -1453,16 +1453,10 @@ ShadowableLayer
 {
 public
 :
-ClientLayer
-(
-)
-{
-MOZ_COUNT_CTOR
+MOZ_COUNTED_DEFAULT_CTOR
 (
 ClientLayer
 )
-;
-}
 ~
 ClientLayer
 (
