@@ -2343,9 +2343,10 @@ negate
 ;
 c
 .
-to_css
+to_css_impl
 (
 dest
+false
 )
 ?
 ;
@@ -2364,9 +2365,10 @@ write_str
 ;
 child
 .
-to_css
+to_css_impl
 (
 dest
+false
 )
 ?
 ;
