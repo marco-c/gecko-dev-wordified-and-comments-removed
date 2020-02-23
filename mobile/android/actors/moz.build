@@ -79,6 +79,16 @@ actors
 =
 [
 '
+BrowserTabParent
+.
+jsm
+'
+'
+GeckoViewContentChild
+.
+jsm
+'
+'
 LoadURIDelegateChild
 .
 jsm
