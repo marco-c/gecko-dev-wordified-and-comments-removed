@@ -23703,8 +23703,11 @@ guardToObject
 thisValId
 )
 ;
-MOZ_ASSERT
+MOZ_ASSERT_IF
 (
+IsTypeInferenceEnabled
+(
+)
 typeCheckInfo_
 .
 needsTypeBarrier

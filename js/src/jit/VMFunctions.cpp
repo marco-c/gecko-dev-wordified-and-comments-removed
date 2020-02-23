@@ -9325,6 +9325,11 @@ if
 NeedsTypeBarrier
 &
 &
+IsTypeInferenceEnabled
+(
+)
+&
+&
 !
 HasTypePropertyId
 (

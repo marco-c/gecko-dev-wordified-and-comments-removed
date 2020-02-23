@@ -9601,6 +9601,13 @@ return
 true
 ;
 }
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 HeapTypeSet
 *
 typeSet
