@@ -947,19 +947,15 @@ f
 .
 open
 (
+mode
+=
+'
+r
+'
 )
 .
 read
 (
-)
-.
-decode
-(
-'
-utf
--
-8
-'
 )
             
 for
