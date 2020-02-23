@@ -32,6 +32,7 @@ kAdditionalWordChars
 "
 _
 -
+.
 "
 ;
 namespace
