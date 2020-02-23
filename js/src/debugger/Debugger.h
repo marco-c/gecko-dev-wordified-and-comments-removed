@@ -1171,7 +1171,7 @@ exnStack
 const
 ;
 void
-updateForNextHandler
+updateFromHookResult
 (
 ResumeMode
 resumeMode
