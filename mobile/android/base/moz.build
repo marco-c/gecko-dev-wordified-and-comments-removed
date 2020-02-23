@@ -241,11 +241,3 @@ py
 :
 assemble_app
 '
-GENERATED_FILES
-[
-t
-]
-.
-py2
-=
-True

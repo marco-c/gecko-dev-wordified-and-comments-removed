@@ -138,9 +138,6 @@ entry_point
 '
 generate
 '
-py2
-=
-True
 inputs
 =
 [

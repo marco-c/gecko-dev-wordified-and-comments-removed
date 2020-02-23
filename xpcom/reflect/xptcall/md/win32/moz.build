@@ -355,9 +355,6 @@ entry_point
 '
 preprocess
 '
-py2
-=
-True
 inputs
 =
 [
