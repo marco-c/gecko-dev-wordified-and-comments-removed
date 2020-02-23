@@ -36,14 +36,6 @@ StaticPrefs_apz
 .
 h
 "
-#
-define
-FLING_PHYS_LOG
-(
-.
-.
-.
-)
 namespace
 mozilla
 {
