@@ -362,7 +362,7 @@ if
 (
 locale
 .
-AddLikelySubtags
+Maximize
 (
 )
 &

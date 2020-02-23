@@ -129,7 +129,7 @@ aOtherRange
 const
 ;
 bool
-AddLikelySubtags
+Maximize
 (
 )
 ;

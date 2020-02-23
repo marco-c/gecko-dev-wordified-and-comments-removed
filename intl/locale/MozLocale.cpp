@@ -298,12 +298,12 @@ bool
 Locale
 :
 :
-AddLikelySubtags
+Maximize
 (
 )
 {
 return
-unic_langid_add_likely_subtags
+unic_langid_maximize
 (
 mRaw
 .
