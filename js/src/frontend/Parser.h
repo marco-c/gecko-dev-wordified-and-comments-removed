@@ -8227,8 +8227,6 @@ classMember
 (
 YieldHandling
 yieldHandling
-DefaultHandling
-defaultHandling
 const
 ParseContext
 :
@@ -8285,10 +8283,6 @@ classMembers
 FunctionNodeType
 fieldInitializerOpt
 (
-YieldHandling
-yieldHandling
-HasHeritage
-hasHeritage
 Node
 name
 HandleAtom

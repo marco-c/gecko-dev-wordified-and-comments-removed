@@ -40769,8 +40769,6 @@ classMember
 (
 YieldHandling
 yieldHandling
-DefaultHandling
-defaultHandling
 const
 ParseContext
 :
@@ -41120,8 +41118,6 @@ initializer
 =
 fieldInitializerOpt
 (
-yieldHandling
-hasHeritage
 propName
 propAtom
 numFieldKeys
@@ -42885,7 +42881,6 @@ if
 classMember
 (
 yieldHandling
-defaultHandling
 classStmt
 className
 classStartOffset
@@ -43354,14 +43349,6 @@ initWithEnclosingParseContext
 pc_
 data
 functionSyntaxKind
-)
-;
-handler_
-.
-setFunctionBox
-(
-funNode
-funbox
 )
 ;
 setFunctionEndFromCurrentToken
@@ -44044,10 +44031,6 @@ Unit
 :
 fieldInitializerOpt
 (
-YieldHandling
-yieldHandling
-HasHeritage
-hasHeritage
 Node
 propName
 HandleAtom
@@ -44290,15 +44273,6 @@ initFieldInitializer
 (
 pc_
 data
-hasHeritage
-)
-;
-handler_
-.
-setFunctionBox
-(
-funNode
-funbox
 )
 ;
 /
