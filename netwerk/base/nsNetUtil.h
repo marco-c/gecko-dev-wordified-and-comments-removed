@@ -2314,6 +2314,14 @@ aChannel
 )
 ;
 bool
+NS_IsSafeMethodNav
+(
+nsIChannel
+*
+aChannel
+)
+;
+bool
 NS_IsSameSiteForeign
 (
 nsIChannel
