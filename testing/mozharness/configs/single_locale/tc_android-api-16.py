@@ -3,16 +3,6 @@ config
 {
     
 "
-l10n_dir
-"
-:
-"
-l10n
--
-central
-"
-    
-"
 locales_dir
 "
 :
@@ -57,9 +47,11 @@ MOZ_OBJDIR
 "
 :
 "
-obj
--
-firefox
+%
+(
+abs_obj_dir
+)
+s
 "
     
 }

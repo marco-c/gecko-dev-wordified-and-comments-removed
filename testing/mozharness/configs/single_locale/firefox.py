@@ -31,14 +31,6 @@ firefox
 "
     
 "
-l10n_dir
-"
-:
-"
-l10n
-"
-    
-"
 locales_dir
 "
 :
