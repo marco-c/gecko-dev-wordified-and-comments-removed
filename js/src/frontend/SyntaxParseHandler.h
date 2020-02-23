@@ -1091,6 +1091,8 @@ Node
 name
 FunctionNodeType
 initializer
+bool
+isStatic
 )
 {
 return

@@ -2477,6 +2477,8 @@ Node
 name
 FunctionNodeType
 initializer
+bool
+isStatic
 )
 {
 MOZ_ASSERT
@@ -2495,6 +2497,7 @@ ClassField
 (
 name
 initializer
+isStatic
 )
 ;
 }

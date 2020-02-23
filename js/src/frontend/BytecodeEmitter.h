@@ -2259,6 +2259,14 @@ ParseNode
 value
 )
 ;
+enum
+class
+FieldPlacement
+{
+Instance
+Static
+}
+;
 mozilla
 :
 :
@@ -2271,6 +2279,8 @@ setupFieldInitializers
 ListNode
 *
 classMembers
+FieldPlacement
+placement
 )
 ;
 MOZ_MUST_USE
@@ -2280,6 +2290,8 @@ emitCreateFieldKeys
 ListNode
 *
 obj
+FieldPlacement
+placement
 )
 ;
 MOZ_MUST_USE
@@ -2292,6 +2304,8 @@ ce
 ListNode
 *
 obj
+FieldPlacement
+placement
 )
 ;
 const
