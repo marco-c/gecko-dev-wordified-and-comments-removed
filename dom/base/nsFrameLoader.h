@@ -542,8 +542,6 @@ LoadContext
 (
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -551,13 +549,11 @@ dom
 :
 :
 BrowsingContext
->
+*
 GetBrowsingContext
 (
 )
 ;
-already_AddRefed
-<
 mozilla
 :
 :
@@ -565,7 +561,7 @@ dom
 :
 :
 BrowsingContext
->
+*
 GetExtantBrowsingContext
 (
 )
