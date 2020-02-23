@@ -31910,7 +31910,7 @@ updateBrowserRemoteness
 (
 gBrowser
 .
-initialBrowser
+selectedBrowser
 {
 opener
 :

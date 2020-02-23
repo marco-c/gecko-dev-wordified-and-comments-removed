@@ -1655,12 +1655,6 @@ shouldActivateDocShell
 browser
 )
 ;
-this
-.
-initialBrowser
-=
-browser
-;
 let
 autoScrollPopup
 =
