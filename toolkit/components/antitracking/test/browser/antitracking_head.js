@@ -4795,6 +4795,9 @@ listener
 )
 ;
 return
+!
+!
+(
 channel
 .
 QueryInterface
@@ -4804,8 +4807,13 @@ Ci
 nsIClassifiedChannel
 )
 .
-isTrackingResource
-(
+classificationFlags
+&
+Ci
+.
+nsIClassifiedChannel
+.
+CLASSIFIED_ANY_BASIC_TRACKING
 )
 ;
 }
