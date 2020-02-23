@@ -1671,7 +1671,7 @@ DelayedNote
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 DelayedNote
 >
@@ -10830,7 +10830,7 @@ gDelayedAnnotations
 new
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 DelayedNote
 >
@@ -10844,7 +10844,10 @@ gDelayedAnnotations
 >
 AppendElement
 (
+WrapUnique
+(
 aNote
+)
 )
 ;
 }
@@ -10860,10 +10863,8 @@ gDelayedAnnotations
 {
 for
 (
-nsAutoPtr
-<
-DelayedNote
->
+const
+auto
 &
 note
 :

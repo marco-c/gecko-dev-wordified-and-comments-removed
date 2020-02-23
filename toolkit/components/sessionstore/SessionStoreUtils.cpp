@@ -156,6 +156,15 @@ h
 #
 include
 "
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
+include
+"
 nsCharSeparatedTokenizer
 .
 h
@@ -5723,7 +5732,7 @@ IsHTMLDocument
 IgnoredErrorResult
 rv
 ;
-nsAutoPtr
+UniquePtr
 <
 XPathExpression
 >

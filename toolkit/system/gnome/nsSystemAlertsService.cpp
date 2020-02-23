@@ -26,13 +26,6 @@ nsAlertsIconListener
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 NS_IMPL_ADDREF
 (
 nsSystemAlertsService

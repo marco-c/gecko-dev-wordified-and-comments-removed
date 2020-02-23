@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIMIMEInfo
 .
 h

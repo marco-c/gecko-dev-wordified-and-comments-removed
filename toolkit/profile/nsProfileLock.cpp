@@ -40,13 +40,6 @@ ProfileUnlockerWin
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 endif
 #
 if
