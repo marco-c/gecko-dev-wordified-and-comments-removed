@@ -6158,7 +6158,11 @@ ObjectGroup
 defaultNewGroup
 (
 cx
-nullptr
+&
+PlainObject
+:
+:
+class_
 TaggedProto
 (
 proto
@@ -6251,7 +6255,11 @@ ObjectGroup
 defaultNewGroup
 (
 cx
-nullptr
+&
+PlainObject
+:
+:
+class_
 TaggedProto
 (
 proto

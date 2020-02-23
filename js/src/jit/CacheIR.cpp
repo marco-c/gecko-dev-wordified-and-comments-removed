@@ -25259,7 +25259,11 @@ ObjectGroup
 defaultNewGroup
 (
 cx_
-nullptr
+&
+PlainObject
+:
+:
+class_
 proto
 newTarget
 )
