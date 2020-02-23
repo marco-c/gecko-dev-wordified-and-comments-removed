@@ -27,6 +27,7 @@ LanguageIdentifierError
 CharacterDirection
 }
 ;
+pub
 fn
 new_langid_for_mozilla
 (
