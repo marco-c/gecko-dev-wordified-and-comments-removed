@@ -347,13 +347,12 @@ __slots__
 :
             
 if
+not
 getattr
 (
 self
 a
 )
-is
-None
 :
                 
 setattr
