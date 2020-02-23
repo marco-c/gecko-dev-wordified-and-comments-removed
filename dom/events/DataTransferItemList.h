@@ -406,8 +406,9 @@ aFilesPrincipal
 DataTransferItemList
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 DataTransfer

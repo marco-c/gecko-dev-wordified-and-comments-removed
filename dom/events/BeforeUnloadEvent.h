@@ -133,8 +133,9 @@ protected
 BeforeUnloadEvent
 (
 )
-{
-}
+=
+default
+;
 nsString
 mText
 ;

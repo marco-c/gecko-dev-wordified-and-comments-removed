@@ -134,8 +134,9 @@ protected
 FocusEvent
 (
 )
-{
-}
+=
+default
+;
 void
 InitFocusEvent
 (

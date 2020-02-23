@@ -99,8 +99,9 @@ StorageEvent
 StorageEvent
 (
 )
-{
-}
+=
+default
+;
 StorageEvent
 *
 StorageEvent

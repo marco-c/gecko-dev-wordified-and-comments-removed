@@ -215,8 +215,9 @@ protected
 NotifyPaintEvent
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsRegion

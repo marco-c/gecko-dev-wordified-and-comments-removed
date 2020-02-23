@@ -1094,8 +1094,9 @@ DataTransfer
 DataTransfer
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 DataTransfer

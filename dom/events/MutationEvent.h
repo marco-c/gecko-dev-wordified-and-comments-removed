@@ -184,8 +184,9 @@ protected
 MutationEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

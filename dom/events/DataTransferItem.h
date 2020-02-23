@@ -444,8 +444,9 @@ private
 DataTransferItem
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 File

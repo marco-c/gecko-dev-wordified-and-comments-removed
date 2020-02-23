@@ -421,8 +421,9 @@ protected
 UIEvent
 (
 )
-{
-}
+=
+default
+;
 nsIntPoint
 GetMovementPoint
 (

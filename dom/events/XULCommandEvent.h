@@ -201,8 +201,9 @@ protected
 XULCommandEvent
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 Event

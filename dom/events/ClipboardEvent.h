@@ -154,8 +154,9 @@ protected
 ClipboardEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

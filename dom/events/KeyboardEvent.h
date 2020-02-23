@@ -385,8 +385,9 @@ protected
 KeyboardEvent
 (
 )
-{
-}
+=
+default
+;
 void
 InitWithKeyboardEventInit
 (

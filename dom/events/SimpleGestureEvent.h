@@ -186,8 +186,9 @@ protected
 SimpleGestureEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

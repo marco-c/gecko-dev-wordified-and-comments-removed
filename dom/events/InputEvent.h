@@ -172,8 +172,9 @@ protected
 InputEvent
 (
 )
-{
-}
+=
+default
+;
 nsString
 mInputTypeValue
 ;

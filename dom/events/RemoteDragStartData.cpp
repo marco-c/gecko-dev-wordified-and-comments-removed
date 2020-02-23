@@ -79,8 +79,9 @@ RemoteDragStartData
 RemoteDragStartData
 (
 )
-{
-}
+=
+default
+;
 RemoteDragStartData
 :
 :

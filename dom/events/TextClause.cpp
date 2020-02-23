@@ -182,7 +182,8 @@ TextClause
 TextClause
 (
 )
-{
-}
+=
+default
+;
 }
 }

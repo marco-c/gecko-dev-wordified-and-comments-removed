@@ -51,8 +51,9 @@ SpeechRecognitionError
 SpeechRecognitionError
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 SpeechRecognitionError

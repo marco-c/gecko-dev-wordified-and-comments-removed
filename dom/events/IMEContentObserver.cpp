@@ -387,8 +387,9 @@ virtual
 WritingModeToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -596,8 +597,9 @@ virtual
 SelectionChangeDataToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -718,8 +720,9 @@ virtual
 TextChangeDataToString
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_CYCLE_COLLECTION_CLASS

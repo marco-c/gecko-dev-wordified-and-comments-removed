@@ -307,8 +307,9 @@ protected
 TouchList
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISupports
@@ -560,8 +561,9 @@ protected
 TouchEvent
 (
 )
-{
-}
+=
+default
+;
 void
 AssignTouchesToWidgetEvent
 (

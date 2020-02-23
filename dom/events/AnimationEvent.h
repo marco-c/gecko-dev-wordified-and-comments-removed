@@ -154,8 +154,9 @@ protected
 AnimationEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
