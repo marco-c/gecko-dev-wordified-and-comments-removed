@@ -477,6 +477,15 @@ nsIFile
 aFile
 )
 ;
+void
+AddUniqueExtension
+(
+const
+nsACString
+&
+aExtension
+)
+;
 nsTArray
 <
 nsCString
