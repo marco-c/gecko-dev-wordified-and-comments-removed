@@ -213,8 +213,9 @@ virtual
 Animation
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit

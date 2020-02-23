@@ -271,8 +271,9 @@ private
 PendingAnimationTracker
 (
 )
-{
-}
+=
+default
+;
 void
 EnsurePaintIsScheduled
 (
