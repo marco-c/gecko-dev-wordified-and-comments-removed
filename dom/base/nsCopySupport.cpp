@@ -2721,6 +2721,16 @@ GetPrimaryExtension
 primaryExtension
 )
 ;
+if
+(
+!
+primaryExtension
+.
+IsEmpty
+(
+)
+)
+{
 rv
 =
 NS_MutateURI
@@ -2753,6 +2763,7 @@ rv
 rv
 )
 ;
+}
 }
 nsAutoCString
 fileName
