@@ -788,6 +788,15 @@ urlprefixtests
 list
 #
 test
+defaults
+include
+defaults
+-
+tests
+.
+list
+#
+test
 default
 -
 preferences

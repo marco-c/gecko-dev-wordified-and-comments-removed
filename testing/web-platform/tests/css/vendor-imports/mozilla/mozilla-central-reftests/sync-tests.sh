@@ -247,6 +247,12 @@ fuzzy
 ;
 /
 ^
+defaults
+/
+d
+;
+/
+^
 default
 -
 preferences

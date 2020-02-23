@@ -50,6 +50,12 @@ v
 e
 "
 ^
+defaults
+"
+-
+e
+"
+^
 default
 -
 preferences
