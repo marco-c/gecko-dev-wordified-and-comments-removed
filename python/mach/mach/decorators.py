@@ -109,6 +109,10 @@ argument_group_names
 '
         
 '
+order
+'
+        
+'
 cls
 '
         
@@ -122,6 +126,10 @@ method
         
 '
 subcommand_handlers
+'
+        
+'
+decl_order
 '
     
 )
@@ -147,6 +155,10 @@ conditions
 =
 None
 parser
+=
+None
+                 
+order
 =
 None
 )
@@ -207,6 +219,12 @@ argument_group_names
         
 self
 .
+order
+=
+order
+        
+self
+.
 cls
 =
 None
@@ -229,6 +247,12 @@ subcommand_handlers
 =
 {
 }
+        
+self
+.
+decl_order
+=
+None
     
 property
     
@@ -325,12 +349,13 @@ __slots__
 :
             
 if
-not
 getattr
 (
 self
 a
 )
+is
+None
 :
                 
 setattr
@@ -1262,6 +1287,10 @@ command
 "
 "
     
+global_order
+=
+0
+    
 def
 __init__
 (
@@ -1293,10 +1322,28 @@ subcommand
 description
 =
 description
+                                          
 parser
 =
 parser
 )
+        
+self
+.
+_mach_command
+.
+decl_order
+=
+SubCommand
+.
+global_order
+        
+SubCommand
+.
+global_order
++
+=
+1
     
 def
 __call__
