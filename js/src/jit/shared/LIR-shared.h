@@ -37951,7 +37951,7 @@ class
 LCheckObjCoercible
 :
 public
-LCallInstructionHelper
+LInstructionHelper
 <
 0
 BOX_PIECES
@@ -37980,7 +37980,7 @@ LBoxAllocation
 value
 )
 :
-LCallInstructionHelper
+LInstructionHelper
 (
 classOpcode
 )
