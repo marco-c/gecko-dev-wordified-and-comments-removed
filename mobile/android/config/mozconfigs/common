@@ -533,6 +533,10 @@ TASKCLUSTER_PGO_PROFILE_USE
 ;
 then
 export
+MOZ_LTO
+=
+cross
+export
 LLVM_PROFDATA
 =
 "
