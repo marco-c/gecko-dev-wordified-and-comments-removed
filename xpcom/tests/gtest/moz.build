@@ -758,9 +758,6 @@ make_dafsa
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [

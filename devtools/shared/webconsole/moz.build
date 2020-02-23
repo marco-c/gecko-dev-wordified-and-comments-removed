@@ -259,9 +259,6 @@ GenerateReservedWordsJS
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [

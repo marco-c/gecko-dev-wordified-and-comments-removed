@@ -364,14 +364,6 @@ stem
 in
 generated
 ]
-GENERATED_FILES
-[
-t
-]
-.
-py2
-=
-True
 FINAL_LIBRARY
 =
 '

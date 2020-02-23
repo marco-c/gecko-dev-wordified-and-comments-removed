@@ -284,9 +284,6 @@ gen_symverscript
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
