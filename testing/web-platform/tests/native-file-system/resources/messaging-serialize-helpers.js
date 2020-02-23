@@ -569,7 +569,7 @@ or
 +
 FileSystemDirectoryHandle
 {
-handle
+left
 }
 ;
 }
