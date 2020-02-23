@@ -70,7 +70,9 @@ throw
 42
 '
 )
-null
+.
+throw
+42
 )
 ;
 assertEq
