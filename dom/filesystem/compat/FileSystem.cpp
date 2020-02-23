@@ -197,8 +197,9 @@ FileSystem
 FileSystem
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 FileSystem

@@ -107,8 +107,9 @@ virtual
 GetFilesCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -134,8 +135,9 @@ virtual
 GetFilesHelperBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 IsCanceled

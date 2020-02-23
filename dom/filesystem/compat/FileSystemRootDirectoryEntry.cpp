@@ -101,8 +101,9 @@ FileSystemRootDirectoryEntry
 FileSystemRootDirectoryEntry
 (
 )
-{
-}
+=
+default
+;
 void
 FileSystemRootDirectoryEntry
 :

@@ -216,8 +216,9 @@ FileSystemEntry
 FileSystemEntry
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 FileSystemEntry

@@ -125,8 +125,9 @@ FileSystemDirectoryEntry
 FileSystemDirectoryEntry
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 FileSystemDirectoryEntry
