@@ -285,6 +285,12 @@ CheckVariationFontSupport
 )
 override
 ;
+void
+InitPlatformGPUProcessPrefs
+(
+)
+override
+;
 private
 :
 void
