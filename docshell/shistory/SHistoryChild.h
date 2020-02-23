@@ -190,10 +190,7 @@ default
 nsresult
 LoadURI
 (
-nsTArray
-<
 LoadSHEntryData
->
 &
 aLoadData
 )
