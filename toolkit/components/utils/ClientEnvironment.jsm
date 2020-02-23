@@ -1150,4 +1150,16 @@ getAttrDataAsync
 )
 ;
 }
+static
+get
+appinfo
+(
+)
+{
+return
+Services
+.
+appinfo
+;
+}
 }
