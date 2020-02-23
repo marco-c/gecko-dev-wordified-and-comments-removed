@@ -175,8 +175,9 @@ private
 GamepadEventChannelParent
 (
 )
-{
-}
+=
+default
+;
 bool
 mHasGamepadListener
 ;

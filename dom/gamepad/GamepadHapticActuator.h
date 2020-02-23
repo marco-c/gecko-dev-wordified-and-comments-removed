@@ -139,8 +139,9 @@ virtual
 GamepadHapticActuator
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsCOMPtr

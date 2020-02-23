@@ -90,8 +90,9 @@ private
 GamepadTestChannelParent
 (
 )
-{
-}
+=
+default
+;
 bool
 mShuttingdown
 ;

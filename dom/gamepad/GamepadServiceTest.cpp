@@ -245,8 +245,9 @@ GamepadServiceTest
 GamepadServiceTest
 (
 )
-{
-}
+=
+default
+;
 void
 GamepadServiceTest
 :

@@ -258,8 +258,8 @@ GamepadManager
 GamepadManager
 (
 )
-{
-}
+=
+default
 ;
 void
 NewConnectionEvent
