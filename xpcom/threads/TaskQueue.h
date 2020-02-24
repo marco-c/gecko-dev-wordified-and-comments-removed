@@ -296,6 +296,7 @@ mQueueMonitor
 ;
 typedef
 struct
+TaskStruct
 {
 nsCOMPtr
 <
