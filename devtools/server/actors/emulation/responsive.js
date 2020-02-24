@@ -1168,6 +1168,8 @@ this
 .
 docShell
 .
+browsingContext
+.
 customUserAgent
 =
 userAgent
@@ -1184,6 +1186,8 @@ return
 this
 .
 docShell
+.
+browsingContext
 .
 customUserAgent
 ;

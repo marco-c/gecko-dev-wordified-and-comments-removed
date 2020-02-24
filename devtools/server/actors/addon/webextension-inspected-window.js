@@ -559,6 +559,19 @@ nsIWebNavigation
 )
 ;
 }
+get
+browsingContext
+(
+)
+{
+return
+this
+.
+docShell
+.
+browsingContext
+;
+}
 start
 (
 )
@@ -606,7 +619,7 @@ userAgent
 {
 this
 .
-docShell
+browsingContext
 .
 customUserAgent
 =
@@ -1069,7 +1082,7 @@ userAgent
 &
 this
 .
-docShell
+browsingContext
 .
 customUserAgent
 =
@@ -1081,7 +1094,7 @@ userAgent
 {
 this
 .
-docShell
+browsingContext
 .
 customUserAgent
 =

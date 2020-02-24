@@ -2473,9 +2473,6 @@ nsString
 ?
 initiatorType
 ;
-nsString
-customUserAgent
-;
 uint64_t
 channelId
 ;

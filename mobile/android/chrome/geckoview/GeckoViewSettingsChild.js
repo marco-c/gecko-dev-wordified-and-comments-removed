@@ -496,6 +496,8 @@ docShell
 {
 docShell
 .
+browsingContext
+.
 customUserAgent
 =
 this
@@ -576,6 +578,8 @@ docShell
 )
 {
 docShell
+.
+browsingContext
 .
 customUserAgent
 =

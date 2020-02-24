@@ -201,6 +201,15 @@ WindowProxy
 ?
 window
 ;
+attribute
+[
+TreatNullAs
+=
+EmptyString
+]
+DOMString
+customUserAgent
+;
 /
 *
 *

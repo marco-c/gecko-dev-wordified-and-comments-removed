@@ -163,6 +163,8 @@ this
 .
 docShell
 .
+browsingContext
+.
 customUserAgent
 =
 userAgent

@@ -3187,9 +3187,6 @@ mHistoryID
 nsString
 mTitle
 ;
-nsString
-mCustomUserAgent
-;
 nsCString
 mOriginalUriString
 ;

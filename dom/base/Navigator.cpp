@@ -1293,6 +1293,11 @@ docshell
 docshell
 -
 >
+GetBrowsingContext
+(
+)
+-
+>
 GetCustomUserAgent
 (
 customUserAgent

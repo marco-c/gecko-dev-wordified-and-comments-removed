@@ -280,11 +280,6 @@ contentBlockingAllowListPrincipal
 )
 aArgs
 .
-customUserAgent
-(
-)
-aArgs
-.
 channelId
 (
 )
