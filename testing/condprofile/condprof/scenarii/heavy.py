@@ -9,7 +9,7 @@ condprof
 .
 util
 import
-LOG
+get_logger
 from
 condprof
 .
@@ -257,25 +257,23 @@ URL_LIST
 )
 :
         
-LOG
+get_logger
 (
-"
-%
-d
-/
-%
-d
-%
-s
-"
-%
+)
+.
+visit_url
 (
+index
+=
 current
 +
 1
+total
+=
 max
 url
-)
+=
+url
 )
         
 retries

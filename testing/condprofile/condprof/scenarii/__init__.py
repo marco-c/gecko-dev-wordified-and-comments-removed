@@ -18,14 +18,6 @@ scenarii
 settled
 import
 settled
-from
-condprof
-.
-scenarii
-.
-synced
-import
-synced
 scenarii
 =
 {
@@ -39,9 +31,4 @@ settled
 "
 :
 settled
-"
-synced
-"
-:
-synced
 }

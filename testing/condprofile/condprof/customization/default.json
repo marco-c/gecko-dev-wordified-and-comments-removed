@@ -32,16 +32,7 @@ heavy
 max_urls
 "
 :
-100
+50
 }
 }
-"
-ignore_scenario
-"
-:
-[
-"
-synced
-"
-]
 }
