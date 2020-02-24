@@ -6817,6 +6817,10 @@ uint8_t
 aAttrEnum
 )
 {
+ClearAnyCachedPath
+(
+)
+;
 if
 (
 SVGGeometryProperty
@@ -6861,10 +6865,6 @@ aAttrEnum
 return
 ;
 }
-ClearAnyCachedPath
-(
-)
-;
 nsIFrame
 *
 frame
