@@ -163,7 +163,7 @@ SVGLength
 generic
 :
 :
-SVGLength
+GenericSVGLength
 <
 LengthPercentage
 >
@@ -175,7 +175,7 @@ SVGWidth
 generic
 :
 :
-SVGLength
+GenericSVGLength
 <
 NonNegativeLengthPercentage
 >
@@ -187,7 +187,7 @@ SVGStrokeDashArray
 generic
 :
 :
-SVGStrokeDashArray
+GenericSVGStrokeDashArray
 <
 NonNegativeLengthPercentage
 >

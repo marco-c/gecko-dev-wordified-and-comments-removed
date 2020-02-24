@@ -597,12 +597,6 @@ GetOpacity
 style
 -
 >
-FillOpacitySource
-(
-)
-style
--
->
 mFillOpacity
 aOuterContextPaint
 )
@@ -669,12 +663,6 @@ nsSVGUtils
 :
 GetOpacity
 (
-style
--
->
-StrokeOpacitySource
-(
-)
 style
 -
 >

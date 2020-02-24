@@ -182,7 +182,7 @@ SVGLength
 generic
 :
 :
-SVGLength
+GenericSVGLength
 <
 LengthPercentage
 >
@@ -223,7 +223,7 @@ SVGWidth
 generic
 :
 :
-SVGLength
+GenericSVGLength
 <
 NonNegativeLengthPercentage
 >
