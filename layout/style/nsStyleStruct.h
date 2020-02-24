@@ -7567,7 +7567,7 @@ StyleScrollbarWidth
 mScrollbarWidth
 ;
 uint8_t
-mForceBrokenImageIcon
+mMozForceBrokenImageIcon
 ;
 mozilla
 :
