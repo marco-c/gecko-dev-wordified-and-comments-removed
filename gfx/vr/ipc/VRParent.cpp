@@ -98,6 +98,15 @@ DeviceManagerDx
 h
 "
 #
+else
+#
+include
+<
+unistd
+.
+h
+>
+#
 endif
 namespace
 mozilla
