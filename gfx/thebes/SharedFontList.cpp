@@ -558,8 +558,7 @@ aListGeneration
 Face
 *
 aFace
-const
-gfxSparseBitSet
+gfxCharacterMap
 *
 aCharMap
 )
@@ -665,9 +664,10 @@ Face
 *
 mFace
 ;
-const
-gfxSparseBitSet
-*
+RefPtr
+<
+gfxCharacterMap
+>
 mCharMap
 ;
 }
@@ -681,8 +681,7 @@ SetCharacterMap
 FontList
 *
 aList
-const
-gfxSparseBitSet
+gfxCharacterMap
 *
 aCharMap
 )
