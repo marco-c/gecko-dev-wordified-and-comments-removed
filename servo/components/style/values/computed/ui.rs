@@ -96,7 +96,7 @@ Cursor
 generics
 :
 :
-Cursor
+GenericCursor
 <
 CursorImage
 >
@@ -108,7 +108,7 @@ CursorImage
 generics
 :
 :
-CursorImage
+GenericCursorImage
 <
 ComputedImageUrl
 Number

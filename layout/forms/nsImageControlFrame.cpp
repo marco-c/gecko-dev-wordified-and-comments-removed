@@ -749,6 +749,8 @@ StyleUI
 -
 >
 mCursor
+.
+keyword
 ;
 if
 (
