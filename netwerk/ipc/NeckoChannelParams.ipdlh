@@ -2592,6 +2592,9 @@ lastVisitInfo
 uint32_t
 loadStateLoadFlags
 ;
+uint32_t
+loadStateLoadType
+;
 nsDOMNavigationTiming
 ?
 timing
