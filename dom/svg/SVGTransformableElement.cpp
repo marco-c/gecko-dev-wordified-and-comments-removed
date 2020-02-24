@@ -369,7 +369,7 @@ if
 mTransforms
 -
 >
-RequiresFrameReconstruction
+CreatedOrRemovedOnLastChange
 (
 )
 )
@@ -388,7 +388,7 @@ isAdditionOrRemoval
 retval
 |
 =
-nsChangeHint_ReconstructFrame
+nsChangeHint_ComprehensiveAddOrRemoveTransform
 ;
 }
 else

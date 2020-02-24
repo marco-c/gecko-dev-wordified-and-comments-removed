@@ -94,7 +94,7 @@ mIsAttrSet
 (
 false
 )
-mRequiresFrameReconstruction
+mCreatedOrRemovedOnLastChange
 (
 true
 )
@@ -238,13 +238,13 @@ mAnimVal
 ;
 }
 bool
-RequiresFrameReconstruction
+CreatedOrRemovedOnLastChange
 (
 )
 const
 {
 return
-mRequiresFrameReconstruction
+mCreatedOrRemovedOnLastChange
 ;
 }
 mozilla
@@ -279,7 +279,7 @@ bool
 mIsAttrSet
 ;
 bool
-mRequiresFrameReconstruction
+mCreatedOrRemovedOnLastChange
 ;
 struct
 SMILAnimatedTransformList
