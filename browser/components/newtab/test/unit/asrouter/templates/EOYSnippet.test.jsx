@@ -104,11 +104,6 @@ button_label
 "
 Donate
 "
-currency_code
-:
-"
-usd
-"
 }
 ;
 describe
