@@ -127,7 +127,7 @@ title
 const
 newItemsLabels
 =
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -218,7 +218,7 @@ foo
 ;
 is
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -266,7 +266,7 @@ completion
 ;
 is
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -305,7 +305,7 @@ prop2
 ;
 ok
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -404,7 +404,7 @@ foo
 ;
 is
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -475,7 +475,7 @@ foo
 ;
 is
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -515,7 +515,7 @@ foo2Obj
 ;
 ok
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -549,7 +549,7 @@ prop1
 ;
 ok
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -586,7 +586,7 @@ prop11
 ;
 ok
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -619,7 +619,7 @@ foo2Obj
 ;
 is
 (
-getPopupLabels
+getAutocompletePopupLabels
 (
 popup
 )
@@ -640,27 +640,3 @@ foo2Obj
 }
 )
 ;
-function
-getPopupLabels
-(
-popup
-)
-{
-return
-popup
-.
-getItems
-(
-)
-.
-map
-(
-item
-=
->
-item
-.
-label
-)
-;
-}
