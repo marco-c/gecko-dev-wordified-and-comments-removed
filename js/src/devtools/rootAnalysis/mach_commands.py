@@ -291,6 +291,38 @@ tools
 '
 )
     
+def
+ensure_tools_dir
+(
+self
+)
+:
+        
+dir
+=
+self
+.
+tools_dir
+        
+try
+:
+            
+os
+.
+mkdir
+(
+dir
+)
+        
+except
+OSError
+:
+            
+pass
+        
+return
+dir
+    
 property
     
 def
@@ -333,7 +365,7 @@ join
 (
 self
 .
-state_dir
+tools_dir
 '
 gcc
 '
@@ -552,7 +584,9 @@ chdir
 (
 self
 .
-tools_dir
+ensure_tools_dir
+(
+)
 )
         
 try
@@ -1433,6 +1467,16 @@ usr
 /
 bin
 "
+                
+gcc_bin
+=
+"
+{
+gcc_dir
+}
+/
+bin
+"
             
 '
 '
@@ -1467,6 +1511,12 @@ sixgill_dir
 self
 .
 sixgill_dir
+                
+gcc_dir
+=
+self
+.
+gcc_dir
 )
             
 fh

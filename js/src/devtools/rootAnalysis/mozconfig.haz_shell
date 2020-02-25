@@ -100,11 +100,11 @@ js
 ac_add_options
 -
 -
-with
--
-system
+enable
 -
 nspr
+-
+build
 mk_add_options
 MOZ_OBJDIR
 =

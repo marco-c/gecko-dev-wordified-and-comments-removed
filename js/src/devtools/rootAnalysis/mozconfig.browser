@@ -217,6 +217,10 @@ wrapper
 =
 MOZBUILD_STATE_PATH
 /
+hazard
+-
+tools
+/
 sixgill
 /
 usr
