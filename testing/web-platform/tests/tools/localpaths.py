@@ -92,7 +92,10 @@ join
 (
 here
 "
-pywebsocket
+third_party
+"
+"
+pywebsocket3
 "
 )
 )
