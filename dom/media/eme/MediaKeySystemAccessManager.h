@@ -341,6 +341,8 @@ mWindow
 ;
 bool
 mAddedObservers
+=
+false
 ;
 Maybe
 <
