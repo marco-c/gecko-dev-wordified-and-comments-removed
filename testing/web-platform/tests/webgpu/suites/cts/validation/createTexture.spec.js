@@ -32,15 +32,15 @@ js
 ;
 import
 {
-kTextureFormatInfo
-kTextureFormats
+textureFormatInfo
+textureFormats
 }
 from
 '
 .
 .
 /
-capability_info
+format_info
 .
 js
 '
@@ -850,7 +850,7 @@ format
 const
 info
 =
-kTextureFormatInfo
+textureFormatInfo
 [
 format
 ]
@@ -908,7 +908,7 @@ poptions
 '
 format
 '
-kTextureFormats
+textureFormats
 )
 )
 ;
