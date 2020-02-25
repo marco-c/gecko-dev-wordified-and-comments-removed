@@ -71,6 +71,9 @@ false
 RPMSetBoolPref
 :
 false
+RPMPrefIsLocked
+:
+false
 RPMGetFormatURLPref
 :
 false
