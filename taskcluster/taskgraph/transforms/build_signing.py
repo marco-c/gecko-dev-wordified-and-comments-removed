@@ -108,22 +108,6 @@ dependency
 '
 ]
         
-enable_signing_routes
-=
-job
-.
-pop
-(
-'
-enable
--
-signing
--
-routes
-'
-True
-)
-        
 job
 [
 '
@@ -145,8 +129,6 @@ get
 shippable
 '
 )
-and
-enable_signing_routes
 :
             
 for
@@ -264,8 +246,6 @@ get
 nightly
 '
 )
-and
-enable_signing_routes
 :
             
 for
@@ -404,22 +384,6 @@ dependency
 '
 ]
         
-upstream_artifact_task
-=
-job
-.
-pop
-(
-'
-upstream
--
-artifact
--
-task
-'
-dep_job
-)
-        
 job
 [
 '
@@ -450,52 +414,8 @@ kind
 config
 .
 kind
-            
-dep_kind
-=
-upstream_artifact_task
-.
-kind
         
 )
-        
-task_ref
-=
-'
-<
-{
-}
->
-'
-.
-format
-(
-upstream_artifact_task
-.
-kind
-)
-        
-task_type
-=
-'
-build
-'
-        
-if
-'
-notarization
-'
-in
-upstream_artifact_task
-.
-kind
-:
-            
-task_type
-=
-'
-scriptworker
-'
         
 job
 [
@@ -520,14 +440,20 @@ task
 reference
 '
 :
-task_ref
+'
+<
+build
+>
+'
 }
             
 '
 taskType
 '
 :
-task_type
+'
+build
+'
             
 '
 paths
