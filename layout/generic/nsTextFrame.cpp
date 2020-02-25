@@ -15366,7 +15366,10 @@ StyleText
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_JUSTIFY
+StyleTextAlign
+:
+:
+Justify
 |
 |
 mLineContainer
@@ -15380,7 +15383,10 @@ StyleText
 mTextAlignLast
 =
 =
-NS_STYLE_TEXT_ALIGN_JUSTIFY
+StyleTextAlignLast
+:
+:
+Justify
 )
 ;
 const
@@ -68820,7 +68826,10 @@ StyleText
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_JUSTIFY
+StyleTextAlign
+:
+:
+Justify
 |
 |
 lineContainer
@@ -68834,7 +68843,10 @@ StyleText
 mTextAlignLast
 =
 =
-NS_STYLE_TEXT_ALIGN_JUSTIFY
+StyleTextAlignLast
+:
+:
+Justify
 |
 |
 shouldSuppressLineBreak

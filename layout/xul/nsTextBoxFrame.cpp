@@ -5211,7 +5211,10 @@ textStyle
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_CENTER
+StyleTextAlign
+:
+:
+Center
 )
 {
 textRect
@@ -5245,7 +5248,10 @@ textStyle
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_END
+StyleTextAlign
+:
+:
+End
 |
 |
 (
@@ -5255,7 +5261,10 @@ textStyle
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_LEFT
+StyleTextAlign
+:
+:
+Left
 &
 &
 wm
@@ -5273,7 +5282,10 @@ textStyle
 mTextAlign
 =
 =
-NS_STYLE_TEXT_ALIGN_RIGHT
+StyleTextAlign
+:
+:
+Right
 &
 &
 wm

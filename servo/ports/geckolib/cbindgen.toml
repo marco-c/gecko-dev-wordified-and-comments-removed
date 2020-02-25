@@ -918,6 +918,12 @@ SVGOpacity
 "
 SVGWidth
 "
+"
+TextAlign
+"
+"
+TextAlignLast
+"
 ]
 item_types
 =

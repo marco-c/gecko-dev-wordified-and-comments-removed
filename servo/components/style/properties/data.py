@@ -2730,6 +2730,10 @@ TextAlign
 "
                 
 "
+TextAlignLast
+"
+                
+"
 TextDecorationLine
 "
                 
