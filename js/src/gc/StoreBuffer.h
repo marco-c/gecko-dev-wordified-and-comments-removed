@@ -1816,6 +1816,7 @@ objectAndKind_
 }
 typedef
 struct
+Hasher
 {
 typedef
 SlotsEdge
