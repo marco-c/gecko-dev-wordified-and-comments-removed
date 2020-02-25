@@ -576,9 +576,6 @@ url_prefix
 "
 /
 "
-timeout
-=
-None
 )
 :
         
@@ -650,9 +647,9 @@ None
         
 self
 .
-_timeout
+_last_request_is_blocked
 =
-timeout
+False
     
 def
 __del__
@@ -742,26 +739,6 @@ conn_kwargs
 =
 {
 }
-            
-if
-self
-.
-_timeout
-is
-not
-None
-:
-                
-conn_kwargs
-[
-"
-timeout
-"
-]
-=
-self
-.
-_timeout
             
 if
 not
@@ -1251,6 +1228,12 @@ indent
 )
 )
         
+self
+.
+_last_request_is_blocked
+=
+True
+        
 response
 =
 self
@@ -1262,6 +1245,12 @@ uri
 payload
 headers
 )
+        
+self
+.
+_last_request_is_blocked
+=
+False
         
 return
 Response
@@ -1349,6 +1338,10 @@ uri
 )
         
 if
+self
+.
+_last_request_is_blocked
+or
 self
 .
 _has_unread_data

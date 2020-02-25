@@ -2496,10 +2496,6 @@ capabilities
 =
 None
                  
-timeout
-=
-None
-                 
 extension
 =
 None
@@ -2514,13 +2510,9 @@ transport
 .
 HTTPWireProtocol
 (
-            
 host
 port
 url_prefix
-timeout
-=
-timeout
 )
         
 self

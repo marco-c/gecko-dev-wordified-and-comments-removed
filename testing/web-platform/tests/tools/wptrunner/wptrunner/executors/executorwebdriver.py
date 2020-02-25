@@ -2000,8 +2000,23 @@ self
 )
 :
         
+socket_previous_timeout
+=
+socket
+.
+getdefaulttimeout
+(
+)
+        
 try
 :
+            
+socket
+.
+setdefaulttimeout
+(
+2
+)
             
 self
 .
@@ -2017,11 +2032,24 @@ timeout
 client
 .
 UnknownErrorException
+client
+.
+InvalidSessionIdException
 )
 :
             
 return
 False
+        
+finally
+:
+            
+socket
+.
+setdefaulttimeout
+(
+socket_previous_timeout
+)
         
 return
 True
