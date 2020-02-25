@@ -644,6 +644,10 @@ const
 nsString
 mRawID
 ;
+const
+nsString
+mRawName
+;
 }
 ;
 typedef

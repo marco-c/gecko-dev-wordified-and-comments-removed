@@ -1078,7 +1078,7 @@ name
 :
 device
 .
-name
+rawName
 deviceIndex
 :
 devices
@@ -1140,7 +1140,7 @@ name
 :
 device
 .
-name
+rawName
 deviceIndex
 :
 devices

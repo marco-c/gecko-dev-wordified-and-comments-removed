@@ -603,7 +603,7 @@ name
 :
 device
 .
-name
+rawName
 mediaSource
 :
 device
