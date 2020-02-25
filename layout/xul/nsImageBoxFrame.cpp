@@ -334,7 +334,7 @@ mozilla
 dom
 :
 :
-Element
+Document
 ;
 using
 mozilla
@@ -343,7 +343,7 @@ mozilla
 dom
 :
 :
-Document
+Element
 ;
 using
 mozilla
