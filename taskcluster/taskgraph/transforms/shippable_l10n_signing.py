@@ -276,6 +276,12 @@ job
 keep_locale_template
 =
 True
+            
+dep_kind
+=
+upstream_artifact_task
+.
+kind
         
 )
         
@@ -289,6 +295,28 @@ spec
 in
 locale_specifications
 :
+            
+task_type
+=
+'
+l10n
+'
+            
+if
+'
+notarization
+'
+in
+upstream_artifact_task
+.
+kind
+:
+                
+task_type
+=
+'
+scriptworker
+'
             
 upstream_artifacts
 .
@@ -326,9 +354,7 @@ kind
 taskType
 '
 :
-'
-l10n
-'
+task_type
                 
 '
 paths
@@ -352,7 +378,7 @@ locale
 for
 locale
 in
-dep_job
+upstream_artifact_task
 .
 attributes
 .
