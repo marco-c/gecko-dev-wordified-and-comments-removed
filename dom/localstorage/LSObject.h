@@ -15,6 +15,13 @@ Storage
 .
 h
 "
+#
+include
+"
+nsAutoPtr
+.
+h
+"
 class
 nsGlobalWindowInner
 ;

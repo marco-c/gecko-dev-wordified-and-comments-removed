@@ -304,6 +304,10 @@ threadLocal
 -
 >
 mIndexedDBThreadLocal
+.
+get
+(
+)
 ;
 MOZ_ASSERT
 (

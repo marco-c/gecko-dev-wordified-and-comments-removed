@@ -23,6 +23,15 @@ Monitor
 h
 "
 #
+include
+"
+mozilla
+/
+UniquePtr
+.
+h
+"
+#
 if
 !
 defined
@@ -181,7 +190,7 @@ PSandboxTestingParent
 aEnd
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 SandboxTestingThread
 >

@@ -70,13 +70,6 @@ nsISupportsImpl
 h
 "
 #
-include
-"
-nsAutoPtr
-.
-h
-"
-#
 endif
 #
 include
