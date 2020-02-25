@@ -6,3 +6,16 @@ pub
 mod
 utils
 ;
+mod
+rect
+;
+pub
+use
+self
+:
+:
+rect
+:
+:
+Rect
+;

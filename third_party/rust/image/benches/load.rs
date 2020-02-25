@@ -123,7 +123,7 @@ format
 ImageFormat
 :
 :
-BMP
+Bmp
 }
 ;
 fn

@@ -6,7 +6,7 @@ self
 decoder
 :
 :
-WebpDecoder
+WebPDecoder
 ;
 mod
 decoder

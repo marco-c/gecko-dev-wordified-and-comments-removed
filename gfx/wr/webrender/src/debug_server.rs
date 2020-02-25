@@ -1740,10 +1740,7 @@ image_loader
 ColorType
 :
 :
-RGBA
-(
-8
-)
+Rgba8
 )
 .
 unwrap

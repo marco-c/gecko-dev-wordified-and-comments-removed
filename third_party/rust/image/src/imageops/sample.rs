@@ -15,6 +15,9 @@ Zero
 }
 ;
 use
+crate
+:
+:
 buffer
 :
 :
@@ -24,12 +27,18 @@ Pixel
 }
 ;
 use
+crate
+:
+:
 image
 :
 :
 GenericImageView
 ;
 use
+crate
+:
+:
 math
 :
 :
@@ -39,6 +48,9 @@ utils
 clamp
 ;
 use
+crate
+:
+:
 traits
 :
 :
@@ -67,6 +79,9 @@ Gaussian
 Lanczos3
 }
 pub
+(
+crate
+)
 struct
 Filter
 <
@@ -75,6 +90,9 @@ a
 >
 {
 pub
+(
+crate
+)
 kernel
 :
 Box
@@ -92,6 +110,9 @@ f32
 a
 >
 pub
+(
+crate
+)
 support
 :
 f32
@@ -376,6 +397,9 @@ k
 0
 }
 pub
+(
+crate
+)
 fn
 gaussian
 (
@@ -444,6 +468,9 @@ exp
 )
 }
 pub
+(
+crate
+)
 fn
 lanczos3_kernel
 (
@@ -464,6 +491,9 @@ x
 )
 }
 pub
+(
+crate
+)
 fn
 gaussian_kernel
 (
@@ -484,6 +514,9 @@ x
 )
 }
 pub
+(
+crate
+)
 fn
 catmullrom_kernel
 (
@@ -507,6 +540,9 @@ x
 )
 }
 pub
+(
+crate
+)
 fn
 triangle_kernel
 (
@@ -547,6 +583,9 @@ else
 }
 }
 pub
+(
+crate
+)
 fn
 box_kernel
 (
@@ -4818,6 +4857,9 @@ FilterType
 }
 ;
 use
+crate
+:
+:
 buffer
 :
 :
@@ -4858,7 +4900,7 @@ benchmarks
 feature
 =
 "
-png_codec
+png
 "
 )
 )
@@ -4888,6 +4930,7 @@ Path
 let
 img
 =
+crate
 :
 :
 open
@@ -4932,6 +4975,7 @@ resize
 img
 200
 200
+FilterType
 :
 :
 Nearest
@@ -5056,7 +5100,7 @@ tiff
 /
 testsuite
 /
-lenna
+mandrill
 .
 tiff
 "
@@ -5065,6 +5109,7 @@ tiff
 let
 image
 =
+crate
 :
 :
 open
@@ -5176,7 +5221,7 @@ tiff
 /
 testsuite
 /
-lenna
+mandrill
 .
 tiff
 "
@@ -5185,6 +5230,7 @@ tiff
 let
 image
 =
+crate
 :
 :
 open
@@ -5302,7 +5348,7 @@ tiff
 /
 testsuite
 /
-lenna
+mandrill
 .
 tiff
 "
@@ -5311,6 +5357,7 @@ tiff
 let
 image
 =
+crate
 :
 :
 open

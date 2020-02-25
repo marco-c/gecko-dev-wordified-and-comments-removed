@@ -18,10 +18,6 @@ extern
 crate
 png
 ;
-extern
-crate
-term
-;
 use
 std
 :

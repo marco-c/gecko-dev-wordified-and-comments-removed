@@ -1,4 +1,7 @@
 use
+crate
+:
+:
 buffer
 :
 :
@@ -8,6 +11,9 @@ Pixel
 }
 ;
 use
+crate
+:
+:
 color
 :
 :
@@ -17,6 +23,9 @@ Rgba
 }
 ;
 use
+crate
+:
+:
 image
 :
 :
@@ -26,12 +35,18 @@ GenericImageView
 }
 ;
 use
+crate
+:
+:
 math
 :
 :
 nq
 ;
 use
+crate
+:
+:
 math
 :
 :
@@ -62,6 +77,9 @@ consts
 PI
 ;
 use
+crate
+:
+:
 traits
 :
 :
@@ -2287,6 +2305,9 @@ super
 *
 ;
 use
+crate
+:
+:
 ImageBuffer
 ;
 #

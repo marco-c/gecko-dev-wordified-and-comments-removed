@@ -6,7 +6,7 @@ self
 decoder
 :
 :
-ICODecoder
+IcoDecoder
 ;
 pub
 use

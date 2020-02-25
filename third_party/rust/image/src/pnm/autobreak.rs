@@ -5,6 +5,9 @@ std
 io
 ;
 pub
+(
+crate
+)
 struct
 AutoBreak
 <

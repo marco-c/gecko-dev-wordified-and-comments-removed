@@ -4144,6 +4144,9 @@ image
 image
 :
 :
+DynamicImage
+:
+:
 ImageLuma8
 (
 _
@@ -4158,12 +4161,15 @@ ImageFormat
 R8
 image
 .
-raw_pixels
+to_bytes
 (
 )
 )
 }
 image
+:
+:
+DynamicImage
 :
 :
 ImageRgba8
@@ -4179,7 +4185,7 @@ pixels
 =
 image
 .
-raw_pixels
+to_bytes
 (
 )
 ;
@@ -4203,6 +4209,9 @@ pixels
 image
 :
 :
+DynamicImage
+:
+:
 ImageRgb8
 (
 _
@@ -4215,7 +4224,7 @@ bytes
 =
 image
 .
-raw_pixels
+to_bytes
 (
 )
 ;

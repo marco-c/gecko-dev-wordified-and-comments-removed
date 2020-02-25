@@ -6,7 +6,7 @@ self
 decoder
 :
 :
-TGADecoder
+TgaDecoder
 ;
 mod
 decoder

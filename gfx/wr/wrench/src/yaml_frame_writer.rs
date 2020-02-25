@@ -6601,10 +6601,7 @@ BGRA8
 ColorType
 :
 :
-RGBA
-(
-8
-)
+Rgba8
 4
 true
 )
@@ -6618,10 +6615,7 @@ R8
 ColorType
 :
 :
-Gray
-(
-8
-)
+L8
 1
 false
 )

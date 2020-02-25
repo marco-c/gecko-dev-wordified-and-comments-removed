@@ -13,6 +13,9 @@ i64
 35468
 ;
 pub
+(
+crate
+)
 fn
 idct4x4
 (
@@ -530,6 +533,9 @@ i32
 }
 }
 pub
+(
+crate
+)
 fn
 iwht4x4
 (

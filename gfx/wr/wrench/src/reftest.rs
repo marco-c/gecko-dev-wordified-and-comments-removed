@@ -1344,10 +1344,7 @@ u32
 ColorType
 :
 :
-RGBA
-(
-8
-)
+Rgba8
 )
 .
 expect
@@ -3563,7 +3560,7 @@ as_path
 ImageFormat
 :
 :
-PNG
+Png
 )
 )
 other
