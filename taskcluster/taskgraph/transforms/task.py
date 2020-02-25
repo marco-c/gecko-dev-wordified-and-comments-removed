@@ -5711,14 +5711,15 @@ Any
 (
         
 "
-mac_notarize
+mac_notarize_part_1
 "
 "
-mac_sign
+mac_notarize_part_3
 "
 "
 mac_sign_and_pkg
 "
+        
 "
 mac_geckodriver
 "
