@@ -198,7 +198,7 @@ aPlane
 mSurface
 -
 >
-GetFormat
+GetFormatGL
 (
 )
 )
