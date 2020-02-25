@@ -22,6 +22,8 @@ ninja
 "
 "
 import
+collections
+import
 os
 import
 re
@@ -43,6 +45,17 @@ import
 gyp
 .
 MSVSVersion
+try
+:
+  
+basestring
+except
+NameError
+:
+  
+basestring
+=
+str
 windows_quoter_regex
 =
 re
@@ -437,16 +450,22 @@ return
 element
   
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+      
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
     
@@ -544,16 +563,22 @@ map
 get
     
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+        
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
       
@@ -658,16 +683,22 @@ None
 :
     
 if
+(
 isinstance
 (
 element
-list
+collections
+.
+Iterable
 )
-or
+and
+        
+not
 isinstance
 (
 element
-tuple
+basestring
+)
 )
 :
       
@@ -1387,7 +1418,7 @@ config
 in
 configs
 .
-iteritems
+items
 (
 )
 :
@@ -4341,11 +4372,13 @@ FS
     
 cflags
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+cflags
+if
 not
 x
 .
@@ -4356,8 +4389,7 @@ startswith
 MP
 '
 )
-cflags
-)
+]
     
 return
 cflags
@@ -6136,33 +6168,28 @@ default
 safeseh_default
 )
     
-base_flags
-=
-filter
+if
+not
+any
 (
-lambda
-x
-:
 '
 DYNAMICBASE
 '
 in
-x
+flag
 or
-x
+flag
 =
 =
 '
 /
 FIXED
 '
-                        
+for
+flag
+in
 ldflags
 )
-    
-if
-not
-base_flags
 :
       
 ldflags
@@ -6177,16 +6204,16 @@ DYNAMICBASE
     
 if
 not
-filter
+any
 (
-lambda
-x
-:
 '
 NXCOMPAT
 '
 in
-x
+flag
+for
+flag
+in
 ldflags
 )
 :
@@ -6203,12 +6230,9 @@ NXCOMPAT
     
 have_def_file
 =
-filter
+any
 (
-lambda
-x
-:
-x
+flag
 .
 startswith
 (
@@ -6218,6 +6242,9 @@ DEF
 :
 '
 )
+for
+flag
+in
 ldflags
 )
     
@@ -8818,7 +8845,7 @@ new
 in
 expansions
 .
-iteritems
+items
 (
 )
 :
@@ -9174,7 +9201,7 @@ value
 in
 envvar_dict
 .
-iteritems
+items
 (
 )
 :
@@ -9728,7 +9755,7 @@ environment
 arch
 )
 '
-wb
+w
 '
 )
     
@@ -9976,11 +10003,13 @@ no_specials
     
 missing
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+relative
+if
 not
 os
 .
@@ -9990,8 +10019,7 @@ exists
 (
 x
 )
-relative
-)
+]
     
 if
 missing

@@ -827,14 +827,11 @@ include_dir
 )
       
 if
-config
-.
-has_key
-(
 '
 include_dirs
 '
-)
+in
+config
 :
         
 include_dirs
@@ -1847,7 +1844,7 @@ sorted
 (
 defines
 .
-iterkeys
+keys
 (
 )
 )
@@ -2949,10 +2946,6 @@ target_list
 configurations
 '
 ]
-.
-keys
-(
-)
     
 for
 config_name

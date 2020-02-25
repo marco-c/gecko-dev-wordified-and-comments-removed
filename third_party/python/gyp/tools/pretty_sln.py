@@ -39,6 +39,10 @@ order
 "
 "
 "
+from
+__future__
+import
+print_function
 __author__
 =
 '
@@ -91,7 +95,9 @@ deps
 )
   
 print
+(
 project
+)
   
 built
 .
@@ -516,6 +522,7 @@ deps
 :
   
 print
+(
 "
 -
 -
@@ -557,16 +564,20 @@ print
 -
 -
 "
+)
   
 print
+(
 "
 Dependencies
 for
 all
 projects
 "
+)
   
 print
+(
 "
 -
 -
@@ -608,14 +619,17 @@ print
 -
 -
 "
+)
   
 print
+(
 "
 -
 -
 -
 -
 "
+)
   
 for
 (
@@ -634,6 +648,7 @@ items
 :
     
 print
+(
 "
 Project
 :
@@ -642,8 +657,10 @@ s
 "
 %
 project
+)
     
 print
+(
 "
 Path
 :
@@ -658,6 +675,7 @@ project
 [
 0
 ]
+)
     
 if
 dep_list
@@ -670,6 +688,7 @@ dep_list
 :
         
 print
+(
 "
 -
 %
@@ -677,18 +696,23 @@ s
 "
 %
 dep
+)
     
 print
+(
 "
 "
+)
   
 print
+(
 "
 -
 -
 -
 -
 "
+)
 def
 PrintBuildOrder
 (
@@ -698,6 +722,7 @@ deps
 :
   
 print
+(
 "
 -
 -
@@ -739,14 +764,18 @@ print
 -
 -
 "
+)
   
 print
+(
 "
 Build
 order
 "
+)
   
 print
+(
 "
 -
 -
@@ -788,14 +817,17 @@ print
 -
 -
 "
+)
   
 print
+(
 "
 -
 -
 -
 -
 "
+)
   
 built
 =
@@ -834,12 +866,14 @@ deps
 )
   
 print
+(
 "
 -
 -
 -
 -
 "
+)
 def
 PrintVCProj
 (
@@ -854,6 +888,7 @@ projects
 :
     
 print
+(
 "
 -
 -
@@ -893,8 +928,10 @@ print
 -
 -
 "
+)
     
 print
+(
 "
 -
 -
@@ -934,17 +971,25 @@ print
 -
 -
 "
+)
     
 print
+(
 project
+)
     
 print
+(
 project
+)
     
 print
+(
 project
+)
     
 print
+(
 "
 -
 -
@@ -984,8 +1029,10 @@ print
 -
 -
 "
+)
     
 print
+(
 "
 -
 -
@@ -1025,6 +1072,7 @@ print
 -
 -
 "
+)
     
 project_path
 =
@@ -1140,6 +1188,7 @@ argv
 :
     
 print
+(
 '
 Usage
 :
@@ -1168,6 +1217,7 @@ argv
 [
 0
 ]
+)
     
 return
 1

@@ -240,6 +240,18 @@ communicate
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
+)
     
 if
 p
@@ -444,6 +456,7 @@ value
     
 except
 OSError
+as
 e
 :
       

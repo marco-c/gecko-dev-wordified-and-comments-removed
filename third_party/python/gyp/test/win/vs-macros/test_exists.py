@@ -20,6 +20,9 @@ argv
 :
   
 raise
+Exception
+(
+)
 open
 (
 sys

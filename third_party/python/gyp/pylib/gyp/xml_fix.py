@@ -260,16 +260,13 @@ _get_attributes
   
 a_names
 =
+sorted
+(
 attrs
 .
 keys
 (
 )
-  
-a_names
-.
-sort
-(
 )
   
 for

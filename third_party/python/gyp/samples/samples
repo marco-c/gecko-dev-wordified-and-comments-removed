@@ -43,6 +43,10 @@ the
 LICENSE
 file
 .
+from
+__future__
+import
+print_function
 import
 os
 .
@@ -444,6 +448,7 @@ pull
 ]
 :
 print
+(
 '
 Usage
 :
@@ -459,6 +464,7 @@ argv
 [
 0
 ]
+)
 return
 1
 path_to_chrome
@@ -526,6 +532,7 @@ push
 '
 :
 print
+(
 '
 Copying
 %
@@ -538,6 +545,7 @@ s
 (
 local_file
 chrome_file
+)
 )
 shutil
 .
@@ -558,6 +566,7 @@ pull
 '
 :
 print
+(
 '
 Copying
 %
@@ -570,6 +579,7 @@ s
 (
 chrome_file
 local_file
+)
 )
 shutil
 .

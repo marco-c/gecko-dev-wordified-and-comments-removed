@@ -15,6 +15,10 @@ fail
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -153,12 +157,25 @@ STDOUT
 )
   
 out
-err
+_
 =
 job
 .
 communicate
 (
+)
+  
+out
+=
+out
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
   
 if
@@ -171,7 +188,9 @@ returncode
 :
     
 print
+(
 out
+)
     
 raise
 Exception

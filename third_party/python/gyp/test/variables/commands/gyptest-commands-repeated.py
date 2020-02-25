@@ -25,6 +25,10 @@ once
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 test
@@ -167,6 +171,7 @@ expect
 :
   
 print
+(
 "
 Unexpected
 contents
@@ -178,6 +183,7 @@ repeated
 gypd
 '
 "
+)
   
 test
 .

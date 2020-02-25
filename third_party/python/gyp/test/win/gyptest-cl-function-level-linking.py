@@ -15,6 +15,10 @@ properly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -127,6 +131,7 @@ output
 :
       
 print
+(
 '
 Did
 not
@@ -143,6 +148,7 @@ s
 (
 search_for
 binary
+)
 )
       
 test
@@ -161,6 +167,7 @@ output
 :
       
 print
+(
 '
 Found
 "
@@ -183,6 +190,7 @@ have
 (
 search_for
 binary
+)
 )
       
 test

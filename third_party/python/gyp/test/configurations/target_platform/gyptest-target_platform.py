@@ -38,6 +38,7 @@ stdout
   
 except
 WindowsError
+as
 e
 :
     

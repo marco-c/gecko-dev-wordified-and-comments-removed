@@ -105,10 +105,25 @@ MSBuild
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 sys
 import
 re
+try
+:
+  
+basestring
+except
+NameError
+:
+  
+basestring
+=
+str
 _msvs_validators
 =
 {
@@ -2579,10 +2594,12 @@ unrecognized
 :
     
 print
->
->
-stderr
+(
 error_msg
+file
+=
+stderr
+)
 def
 FixVCMacroSlashes
 (
@@ -2848,7 +2865,7 @@ new
 in
 replace_map
 .
-iteritems
+items
 (
 )
 :
@@ -2999,7 +3016,7 @@ msvs_tool_settings
 in
 msvs_settings
 .
-iteritems
+items
 (
 )
 :
@@ -3023,7 +3040,7 @@ msvs_value
 in
 msvs_tool_settings
 .
-iteritems
+items
 (
 )
 :
@@ -3048,13 +3065,12 @@ msbuild_settings
           
 except
 ValueError
+as
 e
 :
             
 print
->
->
-stderr
+(
 (
 '
 Warning
@@ -3080,6 +3096,11 @@ msvs_tool_name
 msvs_setting
 e
 )
+)
+                              
+file
+=
+stderr
 )
         
 else
@@ -3126,9 +3147,7 @@ else
 :
       
 print
->
->
-stderr
+(
 (
 '
 Warning
@@ -3148,6 +3167,10 @@ MSBuild
 '
 %
 msvs_tool_name
+)
+file
+=
+stderr
 )
   
 return
@@ -3423,7 +3446,7 @@ settings
 tool_name
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -3447,13 +3470,12 @@ value
           
 except
 ValueError
+as
 e
 :
             
 print
->
->
-stderr
+(
 (
 '
 Warning
@@ -3474,6 +3496,10 @@ tool_name
 setting
 e
 )
+)
+file
+=
+stderr
 )
         
 else
@@ -3512,9 +3538,7 @@ else
 :
       
 print
->
->
-stderr
+(
 (
 '
 Warning
@@ -3526,6 +3550,10 @@ s
 '
 %
 tool_name
+)
+file
+=
+stderr
 )
 _compile
 =

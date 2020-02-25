@@ -4,6 +4,20 @@ import
 os
 import
 locale
+import
+sys
+try
+:
+  
+reduce
+except
+NameError
+:
+  
+from
+functools
+import
+reduce
 def
 XmlToString
 (
@@ -559,7 +573,7 @@ rest
 0
 ]
 .
-iteritems
+items
 (
 )
 )
@@ -874,7 +888,7 @@ r
 n
 '
 )
-  
+    
 default_encoding
 =
 locale
@@ -885,7 +899,7 @@ getdefaultlocale
 [
 1
 ]
-  
+    
 if
 default_encoding
 and
@@ -902,7 +916,10 @@ upper
 (
 )
 :
-    
+      
+try
+:
+        
 xml_string
 =
 xml_string
@@ -916,6 +933,12 @@ encode
 (
 encoding
 )
+      
+except
+AttributeError
+:
+        
+pass
   
 try
 :

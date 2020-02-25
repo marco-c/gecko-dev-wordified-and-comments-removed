@@ -137,7 +137,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -217,7 +217,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -297,7 +297,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -377,7 +377,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -927,7 +927,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -1007,7 +1007,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '
@@ -1118,7 +1118,7 @@ inputs
 :
 [
 '
-copy
+copyfile
 .
 py
 '

@@ -55,6 +55,7 @@ output
 :
     
 print
+(
 '
 File
 :
@@ -71,6 +72,7 @@ s
 '
 %
 output
+)
     
 test
 .
@@ -111,6 +113,7 @@ output
 :
     
 print
+(
 '
 File
 :
@@ -125,6 +128,7 @@ s
 '
 %
 output
+)
     
 test
 .

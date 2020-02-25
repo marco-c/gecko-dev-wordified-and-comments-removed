@@ -30,6 +30,10 @@ generator
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 fcntl
 import
@@ -46,8 +50,6 @@ import
 re
 import
 shutil
-import
-string
 import
 struct
 import
@@ -827,18 +829,31 @@ splitlines
 )
 :
       
+line_decoded
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+      
 if
 ibtool_section_re
 .
 match
 (
-line
+line_decoded
 )
 :
         
 current_section_header
 =
-line
+line_decoded
       
 elif
 not
@@ -846,7 +861,7 @@ ibtool_re
 .
 match
 (
-line
+line_decoded
 )
 :
         
@@ -865,7 +880,7 @@ None
         
 print
 (
-line
+line_decoded
 )
     
 return
@@ -1130,6 +1145,7 @@ header
 .
 startswith
 (
+b
 "
 \
 xFE
@@ -1151,6 +1167,7 @@ header
 .
 startswith
 (
+b
 "
 \
 xFF
@@ -1172,6 +1189,7 @@ header
 .
 startswith
 (
+b
 "
 \
 xEF
@@ -1269,15 +1287,9 @@ keys
 :
       
 plist
-=
-dict
-(
-plist
 .
-items
+update
 (
-)
-+
 json
 .
 loads
@@ -1286,10 +1298,6 @@ keys
 [
 0
 ]
-)
-.
-items
-(
 )
 )
     
@@ -1362,11 +1370,10 @@ key
       
 lines
 =
-string
+lines
 .
 replace
 (
-lines
 evar
 evalue
 )
@@ -1403,11 +1410,10 @@ key
       
 lines
 =
-string
+lines
 .
 replace
 (
-lines
 evar
 evalue
 )
@@ -1444,11 +1450,10 @@ key
       
 lines
 =
-string
+lines
 .
 replace
 (
-lines
 evar
 evalue
 )
@@ -1994,13 +1999,26 @@ splitlines
 )
 :
       
+line_decoded
+=
+line
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+      
 if
 not
 libtool_re
 .
 match
 (
-line
+line_decoded
 )
 and
 not
@@ -2008,17 +2026,19 @@ libtool_re5
 .
 match
 (
-line
+line_decoded
 )
 :
         
 print
->
->
+(
+line_decoded
+file
+=
 sys
 .
 stderr
-line
+)
     
 if
 not
@@ -3032,7 +3052,7 @@ value
 in
 keys
 .
-iteritems
+items
 (
 )
 :
@@ -3785,11 +3805,7 @@ profiles_dir
 :
       
 print
->
->
-sys
-.
-stderr
+(
 (
           
 '
@@ -3803,6 +3819,13 @@ s
 '
 %
 bundle_identifier
+)
+          
+file
+=
+sys
+.
+stderr
 )
       
 sys
@@ -3984,11 +4007,7 @@ valid_provisioning_profiles
 :
       
 print
->
->
-sys
-.
-stderr
+(
 (
           
 '
@@ -4002,6 +4021,13 @@ s
 '
 %
 bundle_identifier
+)
+          
+file
+=
+sys
+.
+stderr
 )
       
 sys
@@ -4170,7 +4196,7 @@ value
 in
 plist
 .
-iteritems
+items
 (
 )
 :
@@ -4928,7 +4954,7 @@ value
 in
 substitutions
 .
-iteritems
+items
 (
 )
 :
@@ -5211,14 +5237,14 @@ items
 key
 =
 lambda
-(
-k
-v
-)
+t
 :
 len
 (
-v
+t
+[
+1
+]
 )
 )
 [

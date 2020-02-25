@@ -535,7 +535,7 @@ input_file
 in
 output_files
 .
-iteritems
+items
 (
 )
 :

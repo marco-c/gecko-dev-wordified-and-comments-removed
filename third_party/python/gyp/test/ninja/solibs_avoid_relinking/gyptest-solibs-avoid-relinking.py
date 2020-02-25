@@ -28,6 +28,10 @@ changed
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -68,6 +72,7 @@ x86
 :
   
 print
+(
 '
 Skipping
 test
@@ -83,6 +88,7 @@ com
 /
 365833
 '
+)
   
 test
 .

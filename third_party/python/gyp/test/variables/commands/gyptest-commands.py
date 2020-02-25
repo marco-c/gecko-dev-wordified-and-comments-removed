@@ -17,6 +17,10 @@ commands
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -141,6 +145,7 @@ expect
 :
   
 print
+(
 "
 Unexpected
 contents
@@ -150,6 +155,7 @@ commands
 gypd
 '
 "
+)
   
 test
 .

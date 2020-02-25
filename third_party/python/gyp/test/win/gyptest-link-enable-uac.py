@@ -430,6 +430,37 @@ execution_level
 .
 attributes
   
+def
+_has_key
+(
+node
+key
+)
+:
+    
+if
+hasattr
+(
+node
+'
+has_key
+'
+)
+:
+      
+return
+node
+.
+has_key
+(
+key
+)
+    
+return
+key
+in
+node
+  
 test
 .
 fail_test
@@ -437,20 +468,18 @@ fail_test
 not
 (
       
-execution_level
-.
-has_key
+_has_key
 (
+execution_level
 '
 level
 '
 )
 and
       
-execution_level
-.
-has_key
+_has_key
 (
+execution_level
 '
 uiAccess
 '
@@ -600,20 +629,18 @@ fail_test
 not
 (
       
-execution_level
-.
-has_key
+_has_key
 (
+execution_level
 '
 level
 '
 )
 and
       
-execution_level
-.
-has_key
+_has_key
 (
+execution_level
 '
 uiAccess
 '

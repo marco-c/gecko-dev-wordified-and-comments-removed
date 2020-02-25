@@ -20,6 +20,10 @@ ninja
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -269,6 +273,7 @@ exe
 :
     
 print
+(
 GetDisasm
 (
 '
@@ -276,6 +281,7 @@ test_ordering_exe
 .
 exe
 '
+)
 )
     
 test
@@ -381,6 +387,7 @@ exe
 :
     
 print
+(
 GetDisasm
 (
 '
@@ -388,6 +395,7 @@ test_ordering_subdirs
 .
 exe
 '
+)
 )
     
 test
@@ -516,6 +524,7 @@ exe
 :
     
 print
+(
 GetDisasm
 (
 '
@@ -523,6 +532,7 @@ test_ordering_subdirs_mixed
 .
 exe
 '
+)
 )
     
 test

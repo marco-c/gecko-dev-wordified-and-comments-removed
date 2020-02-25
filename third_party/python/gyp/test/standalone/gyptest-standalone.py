@@ -33,6 +33,10 @@ path
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -114,10 +118,25 @@ contents
 open
 (
 file
+'
+rb
+'
 )
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
+'
+ignore
+'
 )
     
 if
@@ -131,6 +150,7 @@ contents
 :
       
 print
+(
 '
 gyp
 file
@@ -144,6 +164,7 @@ s
 '
 %
 file
+)
       
 test
 .

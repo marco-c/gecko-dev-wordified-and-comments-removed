@@ -49,6 +49,10 @@ stdout
 "
 "
 "
+from
+__future__
+import
+print_function
 __author__
 =
 '
@@ -78,6 +82,34 @@ dom
 minidom
 import
 Node
+try
+:
+  
+cmp
+except
+NameError
+:
+  
+def
+cmp
+(
+a
+b
+)
+:
+    
+return
+(
+a
+>
+b
+)
+-
+(
+a
+<
+b
+)
 REPLACEMENTS
 =
 dict
@@ -313,6 +345,7 @@ strip
 :
       
 print
+(
 '
 %
 s
@@ -331,6 +364,7 @@ data
 .
 strip
 (
+)
 )
 )
     
@@ -374,6 +408,7 @@ attr_count
 :
     
 print
+(
 '
 %
 s
@@ -392,11 +427,13 @@ node
 .
 nodeName
 )
+)
   
 else
 :
     
 print
+(
 '
 %
 s
@@ -413,6 +450,7 @@ indent
 node
 .
 nodeName
+)
 )
     
 all_attributes
@@ -449,8 +487,16 @@ all_attributes
 .
 sort
 (
-CmpTuple
+key
+=
 (
+lambda
+attr
+:
+attr
+[
+0
+]
 )
 )
     
@@ -464,6 +510,7 @@ all_attributes
 :
       
 print
+(
 '
 %
 s
@@ -484,8 +531,10 @@ indent
 name
 value
 )
+)
     
 print
+(
 '
 %
 s
@@ -498,6 +547,7 @@ s
 *
 indent
 )
+)
   
 if
 node
@@ -506,6 +556,7 @@ nodeValue
 :
     
 print
+(
 '
 %
 s
@@ -521,6 +572,7 @@ indent
 node
 .
 nodeValue
+)
 )
   
 for
@@ -542,6 +594,7 @@ indent
 )
   
 print
+(
 '
 %
 s
@@ -560,6 +613,7 @@ indent
 node
 .
 nodeName
+)
 )
 def
 FlattenFilter
@@ -1652,7 +1706,7 @@ key1
 value1
 ]
 '
-           
+          
 '
 [
 key2

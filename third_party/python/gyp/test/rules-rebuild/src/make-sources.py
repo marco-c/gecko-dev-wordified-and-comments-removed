@@ -38,7 +38,7 @@ open
 (
 filename
 '
-wb
+w
 '
 )
 .
@@ -53,7 +53,7 @@ open
 (
 in_file
 '
-rb
+r
 '
 )
 .

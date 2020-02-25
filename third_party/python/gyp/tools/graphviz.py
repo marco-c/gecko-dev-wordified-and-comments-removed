@@ -29,6 +29,10 @@ targets
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 collections
 import
@@ -271,20 +275,25 @@ src
 )
   
 print
+(
 '
 digraph
 D
 {
 '
+)
   
 print
+(
 '
 fontsize
 =
 8
 '
+)
   
 print
+(
 '
 node
 [
@@ -293,6 +302,7 @@ fontsize
 8
 ]
 '
+)
   
 for
 filename
@@ -332,6 +342,7 @@ target
 )
       
 print
+(
 '
 "
 %
@@ -361,11 +372,13 @@ filename
                                                      
 target_name
 )
+)
     
 else
 :
       
 print
+(
 '
 subgraph
 "
@@ -377,8 +390,10 @@ s
 '
 %
 filename
+)
       
 print
+(
 '
 label
 =
@@ -389,6 +404,7 @@ s
 '
 %
 filename
+)
       
 for
 target
@@ -406,6 +422,7 @@ target
 )
         
 print
+(
 '
 "
 %
@@ -425,11 +442,14 @@ s
 target
 target_name
 )
+)
       
 print
+(
 '
 }
 '
+)
   
 for
 src
@@ -449,6 +469,7 @@ dsts
 :
       
 print
+(
 '
 "
 %
@@ -466,11 +487,14 @@ s
 src
 dst
 )
+)
   
 print
+(
 '
 }
 '
+)
 def
 main
 (
@@ -489,26 +513,26 @@ argv
 :
     
 print
->
->
-sys
-.
-stderr
+(
 __doc__
-    
-print
->
->
+file
+=
 sys
 .
 stderr
+)
     
 print
->
->
+(
+file
+=
 sys
 .
 stderr
+)
+    
+print
+(
 '
 usage
 :
@@ -528,6 +552,12 @@ argv
 [
 0
 ]
+)
+file
+=
+sys
+.
+stderr
 )
     
 return

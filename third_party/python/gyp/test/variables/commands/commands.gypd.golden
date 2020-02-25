@@ -562,9 +562,11 @@ import
 math
 ;
 print
+(
 math
 .
 pi
+)
 '
 '
 third_letters

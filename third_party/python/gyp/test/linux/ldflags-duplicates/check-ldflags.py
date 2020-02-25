@@ -11,6 +11,10 @@ removed
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 sys
 def
@@ -34,6 +38,7 @@ is
 :
     
 print
+(
 '
 ERROR
 :
@@ -54,7 +59,9 @@ s
 %
 (
 substring
+                                                                
 args
+)
 )
     
 return
@@ -86,12 +93,14 @@ argv
 )
   
 print
+(
 "
 args
 =
 "
 +
 args
+)
   
 if
 not

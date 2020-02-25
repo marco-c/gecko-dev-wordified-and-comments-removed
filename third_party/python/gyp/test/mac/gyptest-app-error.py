@@ -15,6 +15,10 @@ fail
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestCmd
 import
@@ -33,6 +37,7 @@ darwin
 :
   
 print
+(
 "
 This
 test
@@ -51,6 +56,7 @@ com
 483696
 .
 "
+)
   
 sys
 .

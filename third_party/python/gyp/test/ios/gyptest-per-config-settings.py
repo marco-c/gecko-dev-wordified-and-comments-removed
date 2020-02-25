@@ -14,6 +14,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 plistlib
 import
@@ -31,6 +35,7 @@ tempfile
 import
 TestMac
 print
+(
 "
 This
 test
@@ -49,6 +54,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit
@@ -115,6 +121,7 @@ o
 :
     
 print
+(
 '
 File
 :
@@ -129,6 +136,7 @@ s
 (
 expected
 o
+)
 )
     
 test
@@ -264,6 +272,7 @@ o
 :
     
 print
+(
 '
 File
 %
@@ -276,6 +285,7 @@ signed
 %
 (
 file
+)
 )
     
 test
@@ -376,6 +386,7 @@ entitlements
 :
     
 print
+(
 '
 No
 valid
@@ -389,6 +400,7 @@ s
 %
 (
 file
+)
 )
     
 test
@@ -405,6 +417,7 @@ expected_entitlements
 :
     
 print
+(
 '
 Unexpected
 entitlements
@@ -417,6 +430,7 @@ s
 %
 (
 file
+)
 )
     
 test
@@ -601,6 +615,7 @@ plist
 :
     
 print
+(
 '
 %
 s
@@ -611,6 +626,7 @@ plist
 '
 %
 key
+)
     
 test
 .
@@ -635,6 +651,7 @@ expected
 :
     
 print
+(
 '
 File
 :
@@ -653,6 +670,7 @@ s
 expected
 actual
 key
+)
 )
     
 test
@@ -675,6 +693,7 @@ plist
 :
     
 print
+(
 '
 %
 s
@@ -687,6 +706,7 @@ plist
 '
 %
 key
+)
     
 test
 .
@@ -926,6 +946,7 @@ plist
 :
         
 print
+(
 '
 plist
 should
@@ -942,6 +963,7 @@ s
 len
 (
 plist
+)
 )
         
 test

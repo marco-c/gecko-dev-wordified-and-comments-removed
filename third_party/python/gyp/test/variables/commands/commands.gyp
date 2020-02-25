@@ -85,9 +85,11 @@ import
 math
 ;
 print
+(
 math
 .
 pi
+)
 '
 '
 third_letters
@@ -297,6 +299,7 @@ python
 c
 "
 print
+(
 \
 '
 <
@@ -318,6 +321,7 @@ letters_list
 )
 \
 '
+)
 "
 )
 '
@@ -334,6 +338,7 @@ python
 c
 "
 print
+(
 \
 '
 <
@@ -342,6 +347,7 @@ letters_list
 )
 \
 '
+)
 "
 )
 '
@@ -360,11 +366,13 @@ python
 c
 "
 print
+(
 \
 '
 letters_list
 \
 '
+)
 "
 )
 )

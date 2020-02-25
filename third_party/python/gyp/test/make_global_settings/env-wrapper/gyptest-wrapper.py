@@ -10,6 +10,10 @@ environment
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 os
 import
@@ -17,6 +21,7 @@ sys
 import
 TestGyp
 print
+(
 "
 This
 test
@@ -35,6 +40,7 @@ com
 483696
 .
 "
+)
 sys
 .
 exit

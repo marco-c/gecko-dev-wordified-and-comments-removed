@@ -10,6 +10,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -28,6 +32,7 @@ win32
 :
   
 print
+(
 "
 This
 test
@@ -46,6 +51,7 @@ com
 483696
 .
 "
+)
   
 sys
 .
@@ -166,6 +172,7 @@ expected_page_size
 :
     
 print
+(
 "
 Expected
 page
@@ -190,6 +197,7 @@ s
 expected_page_size
 page_size
 pdb_path
+)
 )
 if
 sys

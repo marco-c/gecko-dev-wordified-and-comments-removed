@@ -39,6 +39,8 @@ import
 TestGyp
 import
 os
+import
+sys
 test
 =
 TestGyp
@@ -55,6 +57,15 @@ os
 symlink
 '
 )
+or
+sys
+.
+platform
+=
+=
+'
+win32
+'
 :
   
 test
@@ -63,6 +74,8 @@ skip_test
 (
 '
 Missing
+or
+bad
 os
 .
 symlink

@@ -594,7 +594,7 @@ val
 in
 environment
 .
-iteritems
+items
 (
 )
 ]
@@ -861,7 +861,7 @@ self
 .
 configurations
 .
-iteritems
+items
 (
 )
 )

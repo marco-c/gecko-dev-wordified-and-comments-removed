@@ -171,6 +171,15 @@ communicate
 [
 0
 ]
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
     
 assert
 not

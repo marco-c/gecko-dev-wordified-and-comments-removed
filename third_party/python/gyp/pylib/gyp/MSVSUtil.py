@@ -1629,7 +1629,7 @@ configurations
 '
 )
 .
-iteritems
+items
 (
 )
 :

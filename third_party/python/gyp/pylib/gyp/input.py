@@ -1,47 +1,9 @@
 from
-compiler
-.
+__future__
+import
+print_function
+import
 ast
-import
-Const
-from
-compiler
-.
-ast
-import
-Dict
-from
-compiler
-.
-ast
-import
-Discard
-from
-compiler
-.
-ast
-import
-List
-from
-compiler
-.
-ast
-import
-Module
-from
-compiler
-.
-ast
-import
-Node
-from
-compiler
-.
-ast
-import
-Stmt
-import
-compiler
 import
 gyp
 .
@@ -165,6 +127,53 @@ per_process_aux_data
 =
 {
 }
+try
+:
+  
+_str_types
+=
+(
+basestring
+)
+except
+NameError
+:
+  
+_str_types
+=
+(
+str
+)
+try
+:
+  
+_int_types
+=
+(
+int
+long
+)
+except
+NameError
+:
+  
+_int_types
+=
+(
+int
+)
+_str_int_types
+=
+_str_types
++
+_int_types
+_str_int_list_types
+=
+_str_int_types
++
+(
+list
+)
 def
 IsPathSection
 (
@@ -292,6 +301,10 @@ actions
 '
   
 '
+all_dependent_settings
+'
+  
+'
 configurations
 '
   
@@ -309,6 +322,10 @@ dependencies
   
 '
 dependencies_original
+'
+  
+'
+direct_dependent_settings
 '
   
 '
@@ -713,9 +730,9 @@ is
 "
 "
   
-ast
+syntax_tree
 =
-compiler
+ast
 .
 parse
 (
@@ -725,84 +742,49 @@ file_contents
 assert
 isinstance
 (
+syntax_tree
 ast
+.
 Module
 )
   
 c1
 =
-ast
+syntax_tree
 .
-getChildren
-(
-)
-  
-assert
-c1
-[
-0
-]
-is
-None
-  
-assert
-isinstance
-(
-c1
-[
-1
-]
-Stmt
-)
-  
-c2
-=
-c1
-[
-1
-]
-.
-getChildren
-(
-)
-  
-assert
-isinstance
-(
-c2
-[
-0
-]
-Discard
-)
-  
-c3
-=
-c2
-[
-0
-]
-.
-getChildren
-(
-)
+body
   
 assert
 len
 (
-c3
+c1
 )
 =
 =
 1
   
-return
-CheckNode
-(
-c3
+c2
+=
+c1
 [
 0
 ]
+  
+assert
+isinstance
+(
+c2
+ast
+.
+Expr
+)
+  
+return
+CheckNode
+(
+c2
+.
+value
 [
 ]
 )
@@ -818,17 +800,11 @@ if
 isinstance
 (
 node
+ast
+.
 Dict
 )
 :
-    
-c
-=
-node
-.
-getChildren
-(
-)
     
 dict
 =
@@ -836,42 +812,34 @@ dict
 }
     
 for
-n
+key
+value
 in
-range
+zip
 (
-0
-len
-(
-c
-)
-2
+node
+.
+keys
+node
+.
+values
 )
 :
       
 assert
 isinstance
 (
-c
-[
-n
-]
-Const
+key
+ast
+.
+Str
 )
       
 key
 =
-c
-[
-n
-]
+key
 .
-getChildren
-(
-)
-[
-0
-]
+s
       
 if
 key
@@ -950,12 +918,7 @@ key
 =
 CheckNode
 (
-c
-[
-n
-+
-1
-]
+value
 kp
 )
     
@@ -966,17 +929,11 @@ elif
 isinstance
 (
 node
+ast
+.
 List
 )
 :
-    
-c
-=
-node
-.
-getChildren
-(
-)
     
 children
 =
@@ -989,7 +946,9 @@ child
 in
 enumerate
 (
-c
+node
+.
+elts
 )
 :
       
@@ -1028,19 +987,16 @@ elif
 isinstance
 (
 node
-Const
+ast
+.
+Str
 )
 :
     
 return
 node
 .
-getChildren
-(
-)
-[
-0
-]
+s
   
 else
 :
@@ -1119,10 +1075,22 @@ build_file_contents
 open
 (
 build_file_path
+'
+rb
+'
 )
 .
 read
 (
+)
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
   
 else
@@ -1193,6 +1161,7 @@ None
   
 except
 SyntaxError
+as
 e
 :
     
@@ -1206,6 +1175,7 @@ raise
   
 except
 Exception
+as
 e
 :
     
@@ -1323,6 +1293,7 @@ check
     
 except
 Exception
+as
 e
 :
       
@@ -1532,7 +1503,7 @@ v
 in
 subdict
 .
-iteritems
+items
 (
 )
 :
@@ -2327,6 +2298,7 @@ load_dependencies
       
 except
 Exception
+as
 e
 :
         
@@ -2427,7 +2399,7 @@ value
 in
 global_flags
 .
-iteritems
+items
 (
 )
 :
@@ -2497,6 +2469,7 @@ dependencies
   
 except
 GypError
+as
 e
 :
     
@@ -2523,31 +2496,36 @@ None
   
 except
 Exception
+as
 e
 :
     
 print
->
->
-sys
-.
-stderr
+(
 '
 Exception
 :
 '
 e
-    
-print
->
->
+file
+=
 sys
 .
 stderr
+)
+    
+print
+(
 traceback
 .
 format_exc
 (
+)
+file
+=
+sys
+.
+stderr
 )
     
 return
@@ -3052,6 +3030,7 @@ LoadTargetBuildFileCallback
   
 except
 KeyboardInterrupt
+as
 e
 :
     
@@ -3303,12 +3282,11 @@ string
 "
   
 if
-type
+isinstance
 (
 string
+_str_types
 )
-is
-str
 :
     
 if
@@ -4654,6 +4632,7 @@ build_file_dir
           
 except
 Exception
+as
 e
 :
             
@@ -4707,13 +4686,26 @@ or
 p_stderr
 :
             
+p_stderr_decoded
+=
+p_stderr
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
+            
 sys
 .
 stderr
 .
 write
 (
-p_stderr
+p_stderr_decoded
 )
             
 raise
@@ -4751,6 +4743,15 @@ build_file
 replacement
 =
 p_stdout
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 .
 rstrip
 (
@@ -4891,15 +4892,11 @@ contents
 /
 '
 and
-type
+not
+isinstance
 (
 item
-)
-not
-in
-(
-str
-int
+_str_int_types
 )
 :
           
@@ -4951,15 +4948,11 @@ build_file
 )
     
 elif
-type
+not
+isinstance
 (
 replacement
-)
-not
-in
-(
-str
-int
+_str_int_types
 )
 :
           
@@ -4970,7 +4963,10 @@ GypError
 Variable
 '
 +
+str
+(
 contents
+)
 +
                          
 '
@@ -5231,24 +5227,18 @@ list
     
 for
 index
+outstr
 in
-xrange
-(
-0
-len
+enumerate
 (
 output
-)
 )
 :
       
 if
 IsStrCanonicalInt
 (
-output
-[
-index
-]
+outstr
 )
 :
         
@@ -5259,10 +5249,7 @@ index
 =
 int
 (
-output
-[
-index
-]
+outstr
 )
   
 elif
@@ -5619,15 +5606,11 @@ build_file
 )
   
 if
-type
+not
+isinstance
 (
 cond_expr_expanded
-)
-not
-in
-(
-str
-int
+_str_int_types
 )
 :
     
@@ -5725,6 +5708,7 @@ false_dict
   
 except
 SyntaxError
+as
 e
 :
     
@@ -5796,6 +5780,7 @@ syntax_error
   
 except
 NameError
+as
 e
 :
     
@@ -5961,21 +5946,16 @@ value
 in
 the_dict
 .
-iteritems
+items
 (
 )
 :
     
 if
-type
+isinstance
 (
 value
-)
-in
-(
-str
-int
-list
+_str_int_list_types
 )
 :
       
@@ -6013,22 +5993,17 @@ variables
 }
 )
 .
-iteritems
+items
 (
 )
 :
     
 if
-type
+not
+isinstance
 (
 value
-)
-not
-in
-(
-str
-int
-list
+_str_int_list_types
 )
 :
       
@@ -6188,7 +6163,7 @@ variables
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -6230,7 +6205,7 @@ value
 in
 the_dict
 .
-iteritems
+items
 (
 )
 :
@@ -6243,12 +6218,11 @@ key
 variables
 '
 and
-type
+isinstance
 (
 value
+_str_types
 )
-is
-str
 :
       
 expanded
@@ -6262,15 +6236,11 @@ build_file
 )
       
 if
-type
+not
+isinstance
 (
 expanded
-)
-not
-in
-(
-str
-int
+_str_int_types
 )
 :
         
@@ -6373,7 +6343,7 @@ value
 in
 the_dict
 .
-iteritems
+items
 (
 )
 :
@@ -6386,12 +6356,11 @@ key
 variables
 '
 or
-type
+isinstance
 (
 value
+_str_types
 )
-is
-str
 :
       
 continue
@@ -6434,13 +6403,12 @@ build_file
 )
     
 elif
-type
+not
+isinstance
 (
 value
+_int_types
 )
-is
-not
-int
 :
       
 raise
@@ -6531,12 +6499,11 @@ build_file
 )
     
 elif
-type
+isinstance
 (
 item
+_str_types
 )
-is
-str
 :
       
 expanded
@@ -6550,14 +6517,10 @@ build_file
 )
       
 if
-type
+isinstance
 (
 expanded
-)
-in
-(
-str
-int
+_str_int_types
 )
 :
         
@@ -6640,13 +6603,12 @@ index
 )
     
 elif
-type
+not
+isinstance
 (
 item
+_int_types
 )
-is
-not
-int
 :
       
 raise
@@ -7057,7 +7019,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -7101,14 +7063,11 @@ dependency_key
       
 for
 index
+dep
 in
-xrange
-(
-0
-len
+enumerate
 (
 dependencies
-)
 )
 :
         
@@ -7124,10 +7083,7 @@ ResolveTarget
 (
             
 target_build_file
-dependencies
-[
-index
-]
+dep
 toolset
 )
         
@@ -7372,7 +7328,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -7726,7 +7682,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -7838,7 +7794,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -7947,7 +7903,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -9430,7 +9386,7 @@ spec
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -9465,7 +9421,7 @@ spec
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -9621,14 +9577,13 @@ dependents
       
 target
 =
-targets
-.
-keys
+next
 (
+iter
+(
+targets
 )
-[
-0
-]
+)
       
 target_node
 =
@@ -9754,7 +9709,7 @@ target
 in
 targets
 .
-iterkeys
+keys
 (
 )
 :
@@ -9793,7 +9748,7 @@ spec
 in
 targets
 .
-iteritems
+items
 (
 )
 :
@@ -9851,6 +9806,7 @@ dependency
       
 except
 GypError
+as
 e
 :
         
@@ -9957,7 +9913,7 @@ build_file_node
 in
 dependency_nodes
 .
-itervalues
+values
 (
 )
 :
@@ -10022,14 +9978,17 @@ dependents
       
 file_node
 =
+next
+(
+iter
+(
 dependency_nodes
 .
 values
 (
 )
-[
-0
-]
+)
+)
       
 file_node
 .
@@ -10843,14 +10802,10 @@ singleton
 False
     
 if
-type
+isinstance
 (
 item
-)
-in
-(
-str
-int
+_str_int_types
 )
 :
       
@@ -10877,12 +10832,11 @@ item
 if
 not
 (
-type
+isinstance
 (
 item
+_str_types
 )
-is
-str
 and
 item
 .
@@ -11069,7 +11023,7 @@ v
 in
 fro
 .
-iteritems
+items
 (
 )
 :
@@ -11085,30 +11039,22 @@ bad_merge
 False
       
 if
-type
+isinstance
 (
 v
-)
-in
-(
-str
-int
+_str_int_types
 )
 :
         
 if
-type
+not
+isinstance
 (
 to
 [
 k
 ]
-)
-not
-in
-(
-str
-int
+_str_int_types
 )
 :
           
@@ -11188,14 +11134,10 @@ k
 )
     
 if
-type
+isinstance
 (
 v
-)
-in
-(
-str
-int
+_str_int_types
 )
 :
       
@@ -11775,7 +11717,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
                 
@@ -11828,7 +11770,7 @@ old_configuration_dict
 in
 configs
 .
-iteritems
+items
 (
 )
 :
@@ -11859,7 +11801,7 @@ target_val
 in
 target_dict
 .
-iteritems
+items
 (
 )
 :
@@ -11962,22 +11904,7 @@ configuration
 ]
 )
   
-for
-configuration
-in
-target_dict
-[
-'
-configurations
-'
-]
-.
-keys
-(
-)
-:
-    
-old_configuration_dict
+configs
 =
 target_dict
 [
@@ -11985,12 +11912,32 @@ target_dict
 configurations
 '
 ]
+  
+target_dict
 [
-configuration
+'
+configurations
+'
 ]
-    
+=
+\
+      
+{
+k
+:
+v
+for
+k
+v
+in
+configs
+.
+items
+(
+)
 if
-old_configuration_dict
+not
+v
 .
 get
 (
@@ -11998,18 +11945,7 @@ get
 abstract
 '
 )
-:
-      
-del
-target_dict
-[
-'
-configurations
-'
-]
-[
-configuration
-]
+}
   
 delete_keys
 =
@@ -12475,7 +12411,7 @@ value
 in
 the_dict
 .
-iteritems
+items
 (
 )
 :
@@ -12723,14 +12659,11 @@ exclude_key
         
 for
 index
+list_item
 in
-xrange
-(
-0
-len
+enumerate
 (
 the_list
-)
 )
 :
           
@@ -12738,10 +12671,7 @@ if
 exclude_item
 =
 =
-the_list
-[
-index
-]
+list_item
 :
             
 list_actions
@@ -12852,23 +12782,13 @@ regex_key
         
 for
 index
+list_item
 in
-xrange
-(
-0
-len
+enumerate
 (
 the_list
-)
 )
 :
-          
-list_item
-=
-the_list
-[
-index
-]
           
 if
 list_actions
@@ -12959,7 +12879,7 @@ excluded_list
 for
 index
 in
-xrange
+range
 (
 len
 (
@@ -13023,7 +12943,7 @@ value
 in
 the_dict
 .
-iteritems
+items
 (
 )
 :
@@ -13459,7 +13379,7 @@ files
 in
 basenames
 .
-iteritems
+items
 (
 )
 :
@@ -14144,13 +14064,12 @@ working_directory
 if
 working_directory
 and
-type
+not
+isinstance
 (
 working_directory
+_str_types
 )
-is
-not
-str
 :
     
 raise
@@ -14462,12 +14381,11 @@ items
 :
     
 if
-type
+isinstance
 (
 v
+_int_types
 )
-is
-int
 :
       
 v
@@ -14513,12 +14431,11 @@ v
 )
     
 if
-type
+isinstance
 (
 k
+_int_types
 )
-is
-int
 :
       
 del
@@ -14563,31 +14480,20 @@ strings
   
 for
 index
+item
 in
-xrange
-(
-0
-len
+enumerate
 (
 the_list
-)
 )
 :
     
-item
-=
-the_list
-[
-index
-]
-    
 if
-type
+isinstance
 (
 item
+_int_types
 )
-is
-int
 :
       
 the_list
@@ -15222,6 +15128,7 @@ True
       
 except
 Exception
+as
 e
 :
         
@@ -15280,7 +15187,7 @@ target_dict
 in
 targets
 .
-iteritems
+items
 (
 )
 :

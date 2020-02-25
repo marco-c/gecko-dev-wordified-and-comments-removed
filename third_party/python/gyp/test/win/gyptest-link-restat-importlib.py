@@ -24,6 +24,10 @@ date
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -79,6 +83,7 @@ x86
 :
     
 print
+(
 '
 Skipping
 test
@@ -94,6 +99,7 @@ com
 /
 365833
 '
+)
     
 test
 .

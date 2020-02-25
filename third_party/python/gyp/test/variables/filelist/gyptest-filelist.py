@@ -117,6 +117,7 @@ expect
 :
   
 print
+(
 "
 Unexpected
 contents
@@ -126,6 +127,7 @@ src
 dummy_foo
 '
 "
+)
   
 test
 .

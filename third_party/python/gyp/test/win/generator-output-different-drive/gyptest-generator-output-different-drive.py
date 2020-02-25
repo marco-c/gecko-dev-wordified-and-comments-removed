@@ -95,7 +95,7 @@ c
 in
 string
 .
-uppercase
+ascii_uppercase
 ]
     
 in_use

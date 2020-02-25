@@ -12,7 +12,7 @@ argv
 1
 ]
 '
-wb
+w
 '
 )
 for

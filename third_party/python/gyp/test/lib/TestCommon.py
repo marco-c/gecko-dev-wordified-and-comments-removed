@@ -506,6 +506,10 @@ dll_suffix
 "
 "
 "
+from
+__future__
+import
+print_function
 __author__
 =
 "
@@ -560,11 +564,20 @@ path
 import
 stat
 import
-string
-import
 sys
+try
+:
+    
+from
+UserList
 import
-types
+UserList
+except
+ImportError
+:
+    
+from
+collections
 import
 UserList
 from
@@ -764,13 +777,12 @@ module_suffix
 dll
 '
 elif
-string
-.
-find
-(
 sys
 .
 platform
+.
+find
+(
 '
 irix
 '
@@ -844,13 +856,12 @@ module_prefix
 so
 '
 elif
-string
-.
-find
-(
 sys
 .
 platform
+.
+find
+(
 '
 darwin
 '
@@ -923,13 +934,12 @@ module_suffix
 so
 '
 elif
-string
-.
-find
-(
 sys
 .
 platform
+.
+find
+(
 '
 sunos
 '
@@ -1080,17 +1090,13 @@ type
 e
 )
 is
-types
-.
-ListType
+list
 \
         
 or
 isinstance
 (
 e
-UserList
-.
 UserList
 )
 def
@@ -1283,14 +1289,13 @@ workdir
 "
 "
         
-apply
-(
 TestCmd
 .
 __init__
-[
+(
 self
-]
+*
+*
 kw
 )
         
@@ -1380,25 +1385,27 @@ files
 =
 map
 (
+(
 lambda
 x
 :
-is_List
-(
-x
-)
-and
-apply
-(
 os
 .
 path
 .
 join
+(
+*
 x
 )
-or
+if
+is_List
+(
 x
+)
+else
+x
+)
 files
 )
         
@@ -1412,27 +1419,26 @@ files
         
 unwritable
 =
-filter
-(
-lambda
+[
 x
-iw
-=
-is_writable
-:
-not
-iw
-(
+for
 x
-)
+in
 existing
+if
+not
+is_writable
+(
+x
 )
+]
         
 if
 missing
 :
             
 print
+(
 "
 Missing
 files
@@ -1442,14 +1448,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 missing
-"
-'
-"
+)
 )
         
 if
@@ -1457,6 +1463,7 @@ unwritable
 :
             
 print
+(
 "
 Unwritable
 files
@@ -1466,14 +1473,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 unwritable
-"
-'
-"
+)
 )
         
 self
@@ -1494,7 +1501,7 @@ required
 mode
 =
 '
-rb
+r
 '
 )
 :
@@ -1530,11 +1537,10 @@ mode
 contains
 =
 (
-string
+file_contents
 .
 find
 (
-file_contents
 required
 )
 !
@@ -1549,6 +1555,7 @@ contains
 :
             
 print
+(
 "
 File
 %
@@ -1563,8 +1570,10 @@ string
 "
 %
 file
+)
             
 print
+(
 self
 .
 banner
@@ -1574,11 +1583,15 @@ Required
 string
 '
 )
+)
             
 print
+(
 required
+)
             
 print
+(
 self
 .
 banner
@@ -1591,9 +1604,12 @@ contents
 %
 file
 )
+)
             
 print
+(
 file_contents
+)
             
 self
 .
@@ -1719,11 +1735,10 @@ lambda
 o
 l
 :
-string
+o
 .
 find
 (
-o
 l
 )
 !
@@ -1971,11 +1986,10 @@ lambda
 o
 l
 :
-string
+o
 .
 find
 (
-o
 l
 )
 !
@@ -2182,35 +2196,39 @@ files
 =
 map
 (
+(
 lambda
 x
 :
-is_List
-(
-x
-)
-and
-apply
-(
 os
 .
 path
 .
 join
+(
+*
 x
 )
-or
+if
+is_List
+(
 x
+)
+else
+x
+)
 files
 )
         
 missing
 =
-filter
-(
-lambda
-x
-:
+[
+f
+for
+f
+in
+files
+if
 not
 os
 .
@@ -2218,16 +2236,16 @@ path
 .
 exists
 (
-x
+f
 )
-files
-)
+]
         
 if
 missing
 :
             
 print
+(
 "
 Missing
 files
@@ -2237,14 +2255,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 missing
-"
-'
-"
+)
 )
             
 self
@@ -2263,7 +2281,7 @@ expect
 mode
 =
 '
-rb
+r
 '
 )
 :
@@ -2354,6 +2372,7 @@ except
 :
             
 print
+(
 "
 Unexpected
 contents
@@ -2364,6 +2383,7 @@ s
 "
 %
 file
+)
             
 self
 .
@@ -2387,7 +2407,7 @@ banned
 mode
 =
 '
-rb
+r
 '
 )
 :
@@ -2426,11 +2446,10 @@ mode
 contains
 =
 (
-string
+file_contents
 .
 find
 (
-file_contents
 banned
 )
 !
@@ -2444,6 +2463,7 @@ contains
 :
             
 print
+(
 "
 File
 %
@@ -2456,8 +2476,10 @@ string
 "
 %
 file
+)
             
 print
+(
 self
 .
 banner
@@ -2467,11 +2489,15 @@ Banned
 string
 '
 )
+)
             
 print
+(
 banned
+)
             
 print
+(
 self
 .
 banner
@@ -2484,9 +2510,12 @@ contents
 %
 file
 )
+)
             
 print
+(
 file_contents
+)
             
 self
 .
@@ -2613,11 +2642,10 @@ lambda
 o
 l
 :
-string
+o
 .
 find
 (
-o
 l
 )
 !
@@ -2835,45 +2863,55 @@ files
 =
 map
 (
+(
 lambda
 x
 :
-is_List
-(
-x
-)
-and
-apply
-(
 os
 .
 path
 .
 join
+(
+*
 x
 )
-or
+if
+is_List
+(
 x
+)
+else
+x
+)
 files
 )
         
 existing
 =
-filter
-(
+[
+f
+for
+f
+in
+files
+if
 os
 .
 path
 .
 exists
-files
+(
+f
 )
+]
         
 if
 existing
 :
             
 print
+(
 "
 Unexpected
 files
@@ -2884,14 +2922,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 existing
-"
-'
-"
+)
 )
             
 self
@@ -2978,25 +3016,27 @@ files
 =
 map
 (
+(
 lambda
 x
 :
-is_List
-(
-x
-)
-and
-apply
-(
 os
 .
 path
 .
 join
+(
+*
 x
 )
-or
+if
+is_List
+(
 x
+)
+else
+x
+)
 files
 )
         
@@ -3010,17 +3050,25 @@ files
         
 writable
 =
-filter
-(
-is_writable
+[
+x
+for
+x
+in
 existing
+if
+is_writable
+(
+x
 )
+]
         
 if
 missing
 :
             
 print
+(
 "
 Missing
 files
@@ -3030,14 +3078,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 missing
-"
-'
-"
+)
 )
         
 if
@@ -3045,6 +3093,7 @@ writable
 :
             
 print
+(
 "
 Writable
 files
@@ -3054,14 +3103,14 @@ s
 '
 "
 %
-string
+"
+'
+"
 .
 join
 (
 writable
-"
-'
-"
+)
 )
         
 self
@@ -3148,6 +3197,7 @@ status
 )
             
 print
+(
 "
 %
 s
@@ -3169,10 +3219,13 @@ _status
 self
 )
 )
+                                        
 expect
+)
 )
             
 print
+(
 self
 .
 banner
@@ -3181,11 +3234,15 @@ banner
 STDOUT
 '
 )
+)
             
 print
+(
 actual_stdout
+)
             
 print
+(
 self
 .
 banner
@@ -3194,9 +3251,12 @@ banner
 STDERR
 '
 )
+)
             
 print
+(
 actual_stderr
+)
             
 self
 .
@@ -3214,6 +3274,7 @@ not
 match
 (
 actual_stdout
+                                                     
 expected_stdout
 )
 :
@@ -3234,6 +3295,7 @@ actual_stderr
 :
                 
 print
+(
 self
 .
 banner
@@ -3242,9 +3304,12 @@ banner
 STDERR
 '
 )
+)
                 
 print
+(
 actual_stderr
+)
             
 self
 .
@@ -3262,11 +3327,13 @@ not
 match
 (
 actual_stderr
+                                                     
 expected_stderr
 )
 :
             
 print
+(
 self
 .
 banner
@@ -3275,9 +3342,12 @@ banner
 STDOUT
 '
 )
+)
             
 print
+(
 actual_stdout
+)
             
 self
 .
@@ -3395,20 +3465,18 @@ try
 :
             
 return
-apply
-(
 TestCmd
 .
 start
-                         
 (
 self
 program
 interpreter
 arguments
+                    
 universal_newlines
-)
-                         
+*
+*
 kw
 )
         
@@ -3420,10 +3488,12 @@ raise
         
 except
 Exception
+as
 e
 :
             
 print
+(
 self
 .
 banner
@@ -3432,15 +3502,18 @@ banner
 STDOUT
 '
 )
+)
             
 try
 :
                 
 print
+(
 self
 .
 stdout
 (
+)
 )
             
 except
@@ -3450,6 +3523,7 @@ IndexError
 pass
             
 print
+(
 self
 .
 banner
@@ -3458,15 +3532,18 @@ banner
 STDERR
 '
 )
+)
             
 try
 :
                 
 print
+(
 self
 .
 stderr
 (
+)
 )
             
 except
@@ -3643,15 +3720,14 @@ status
 "
 "
         
-apply
-(
 TestCmd
 .
 finish
 (
 self
 popen
-)
+*
+*
 kw
 )
         
@@ -3932,14 +4008,13 @@ self
 match
 )
         
-apply
-(
 TestCmd
 .
 run
-[
+(
 self
-]
+*
+*
 kw
 )
         

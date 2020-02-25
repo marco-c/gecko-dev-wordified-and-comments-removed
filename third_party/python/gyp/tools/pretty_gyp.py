@@ -14,6 +14,10 @@ file
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 sys
 import
@@ -978,6 +982,7 @@ after
 :
           
 print
+(
 "
 "
 *
@@ -988,6 +993,7 @@ indent
 )
 +
 line
+)
           
 indent
 +
@@ -1003,6 +1009,7 @@ indent
 brace_diff
           
 print
+(
 "
 "
 *
@@ -1013,11 +1020,13 @@ indent
 )
 +
 line
+)
       
 else
 :
         
 print
+(
 "
 "
 *
@@ -1028,13 +1037,16 @@ indent
 )
 +
 line
+)
     
 else
 :
       
 print
+(
 "
 "
+)
     
 last_line
 =

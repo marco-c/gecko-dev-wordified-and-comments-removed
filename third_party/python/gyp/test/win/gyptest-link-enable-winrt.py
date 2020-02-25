@@ -10,6 +10,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -26,6 +30,7 @@ enable
 winrt
 '
 print
+(
 '
 This
 test
@@ -59,6 +64,7 @@ id
 =
 466
 '
+)
 sys
 .
 exit

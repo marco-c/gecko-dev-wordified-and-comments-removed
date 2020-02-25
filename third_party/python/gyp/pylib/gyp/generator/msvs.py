@@ -1,3 +1,9 @@
+from
+__future__
+import
+print_function
+import
+collections
 import
 copy
 import
@@ -84,43 +90,6 @@ gyp
 common
 import
 OrderedSet
-def
-_import_OrderedDict
-(
-)
-:
-  
-import
-collections
-  
-try
-:
-    
-return
-collections
-.
-OrderedDict
-  
-except
-AttributeError
-:
-    
-import
-gyp
-.
-ordered_dict
-    
-return
-gyp
-.
-ordered_dict
-.
-OrderedDict
-OrderedDict
-=
-_import_OrderedDict
-(
-)
 VALID_MSVS_GUID_CHARS
 =
 re
@@ -1146,6 +1115,8 @@ excluded_result
   
 folders
 =
+collections
+.
 OrderedDict
 (
 )
@@ -1962,13 +1933,7 @@ else
 :
         
 print
->
->
-sys
-.
-stdout
 (
-          
 '
 Warning
 :
@@ -1978,7 +1943,7 @@ files
 found
 for
 '
-          
+              
 '
 detected
 Windows
@@ -1991,7 +1956,6 @@ s
 (
 version
 )
-        
 )
 def
 _BuildCommandLineForRuleRaw
@@ -3073,7 +3037,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -5278,11 +5242,7 @@ segments
 :
     
 print
->
->
-sys
-.
-stderr
+(
 (
 '
 Warning
@@ -5303,6 +5263,12 @@ in
 '
 +
 s
+)
+file
+=
+sys
+.
+stderr
 )
   
 return
@@ -6699,7 +6665,7 @@ files
 in
 basenames
 .
-iteritems
+items
 (
 )
 :
@@ -6976,7 +6942,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -9435,7 +9401,7 @@ settings
 in
 tools
 .
-iteritems
+items
 (
 )
 :
@@ -9451,7 +9417,7 @@ value
 in
 settings
 .
-iteritems
+items
 (
 )
 :
@@ -10708,7 +10674,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -10771,7 +10737,7 @@ excluded_configs
 in
 exclusions
 .
-iteritems
+items
 (
 )
 :
@@ -10869,7 +10835,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -10940,7 +10906,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -10989,7 +10955,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -11053,7 +11019,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -11234,7 +11200,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -11561,7 +11527,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -12013,7 +11979,7 @@ contents
 in
 bucket
 .
-iteritems
+items
 (
 )
 :
@@ -12138,14 +12104,13 @@ node
 1
 and
       
-node
-.
-keys
+next
 (
+iter
+(
+node
 )
-[
-0
-]
+)
 =
 =
 parent
@@ -12160,14 +12125,13 @@ vcproj
 return
 node
 [
-node
-.
-keys
+next
 (
+iter
+(
+node
 )
-[
-0
-]
+)
 ]
   
 if
@@ -12289,14 +12253,13 @@ type
 (
 root
 [
-root
-.
-keys
+next
 (
+iter
+(
+root
 )
-[
-0
-]
+)
 ]
 )
 =
@@ -12308,14 +12271,13 @@ root
 =
 root
 [
-root
-.
-keys
+next
 (
+iter
+(
+root
 )
-[
-0
-]
+)
 ]
   
 root
@@ -12508,7 +12470,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -13477,7 +13439,7 @@ build_file_dict
 in
 data
 .
-iteritems
+items
 (
 )
 :
@@ -13560,6 +13522,7 @@ config
 ]
     
 print
+(
 '
 Building
 [
@@ -13574,6 +13537,7 @@ s
 (
 config
 arguments
+)
 )
     
 rtn
@@ -13865,7 +13829,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -14126,17 +14090,14 @@ else
 :
       
 print
->
->
-sys
-.
-stdout
+(
 "
 Warning
 :
 "
 +
 error_message
+)
 def
 _GenerateMSBuildFiltersFile
 (
@@ -18502,7 +18463,7 @@ sorted
 (
 configurations
 .
-iteritems
+items
 (
 )
 )
@@ -18969,7 +18930,7 @@ configurations
 '
 ]
 .
-itervalues
+values
 (
 )
 :
@@ -19115,7 +19076,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -19330,7 +19291,7 @@ sorted
 (
 configurations
 .
-iteritems
+items
 (
 )
 )
@@ -19345,14 +19306,11 @@ settings
 )
     
 if
-settings
-.
-has_key
-(
 '
 msbuild_props
 '
-)
+in
+settings
 :
       
 additional_props
@@ -19466,7 +19424,7 @@ props
 in
 additional_props
 .
-iteritems
+items
 (
 )
 :
@@ -19709,6 +19667,7 @@ else
 :
       
 print
+(
 '
 Warning
 :
@@ -19723,6 +19682,7 @@ attribute
 '
 +
 a
+)
   
 return
 msbuild_attributes
@@ -20400,7 +20360,7 @@ sorted
 (
 configurations
 .
-iteritems
+items
 (
 )
 )
@@ -20593,7 +20553,7 @@ sorted
 (
 tool_settings
 .
-iteritems
+items
 (
 )
 )
@@ -21052,7 +21012,7 @@ sorted
 (
 values
 .
-iteritems
+items
 (
 )
 )
@@ -21131,7 +21091,7 @@ sorted
 (
 configurations
 .
-iteritems
+items
 (
 )
 )
@@ -21175,7 +21135,7 @@ sorted
 (
 msbuild_settings
 .
-iteritems
+items
 (
 )
 )
@@ -21203,7 +21163,7 @@ sorted
 (
 tool_settings
 .
-iteritems
+items
 (
 )
 )
@@ -21425,7 +21385,7 @@ does
 not
 handle
 '
-               
+              
 '
 %
 s
@@ -22485,7 +22445,7 @@ configurations
 '
 ]
 .
-iteritems
+items
 (
 )
 :
@@ -22807,7 +22767,7 @@ configurations
 }
 )
 .
-itervalues
+values
 (
 )
 :
@@ -23182,7 +23142,7 @@ configuration
 in
 configurations
 .
-itervalues
+values
 (
 )
 :
@@ -24102,7 +24062,7 @@ actions
 in
 actions_to_add
 .
-iteritems
+items
 (
 )
 :

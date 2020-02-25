@@ -113,6 +113,15 @@ build_number
 =
 out
 .
+decode
+(
+'
+utf
+-
+8
+'
+)
+.
 splitlines
 (
 )

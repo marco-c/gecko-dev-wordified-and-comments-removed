@@ -486,15 +486,22 @@ if
 sys
 .
 platform
-in
+.
+startswith
 (
 '
-linux2
+linux
 '
+)
+or
+sys
+.
+platform
+=
+=
 '
 darwin
 '
-)
 :
   
 test_format

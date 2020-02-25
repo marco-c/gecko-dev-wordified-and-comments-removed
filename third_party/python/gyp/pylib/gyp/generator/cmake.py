@@ -253,6 +253,10 @@ file
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 multiprocessing
 import
@@ -271,6 +275,23 @@ import
 gyp
 .
 xcode_emulation
+try
+:
+  
+_maketrans
+=
+string
+.
+maketrans
+except
+NameError
+:
+  
+_maketrans
+=
+str
+.
+maketrans
 generator_default_variables
 =
 {
@@ -1926,9 +1947,7 @@ a
 .
 translate
 (
-string
-.
-maketrans
+_maketrans
 (
 '
 /
@@ -6233,6 +6252,7 @@ executable
       
 print
 (
+(
 '
 ERROR
 :
@@ -6253,6 +6273,7 @@ target_type
 target
 '
 target_name
+)
 )
     
 product_prefix
@@ -8345,6 +8366,7 @@ Ninja
 ]
     
 print
+(
 '
 Generating
 [
@@ -8359,6 +8381,7 @@ s
 (
 config_name
 arguments
+)
 )
     
 subprocess
@@ -8385,6 +8408,7 @@ build_dir
 ]
     
 print
+(
 '
 Building
 [
@@ -8399,6 +8423,7 @@ s
 (
 config_name
 arguments
+)
 )
     
 subprocess
@@ -8504,10 +8529,6 @@ target_list
 configurations
 '
 ]
-.
-keys
-(
-)
     
 if
 params
@@ -8568,6 +8589,7 @@ arglists
       
 except
 KeyboardInterrupt
+as
 e
 :
         

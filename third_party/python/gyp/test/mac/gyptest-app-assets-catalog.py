@@ -12,6 +12,10 @@ correctly
 "
 "
 "
+from
+__future__
+import
+print_function
 import
 TestGyp
 import
@@ -36,6 +40,7 @@ darwin
 :
   
 print
+(
 "
 This
 test
@@ -54,6 +59,7 @@ com
 483696
 .
 "
+)
   
 sys
 .
@@ -77,11 +83,7 @@ actual
 :
     
 print
->
->
-sys
-.
-stderr
+(
 '
 Expected
 "
@@ -98,6 +100,12 @@ s
 (
 expected
 actual
+)
+file
+=
+sys
+.
+stderr
 )
     
 test
