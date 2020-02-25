@@ -3617,6 +3617,10 @@ const
 nsCString
 &
 aKey
+const
+nsCString
+&
+aOrigin
 )
 ;
 static
