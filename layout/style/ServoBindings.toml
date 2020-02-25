@@ -536,9 +536,6 @@ SheetParsingMode
 nsStyleSVGOpacitySource
 "
 "
-nsCSSKeyword
-"
-"
 mozilla
 :
 :
@@ -1606,12 +1603,6 @@ nsCSSFontDesc
 "
 "
 nsCSSKTableEntry
-"
-"
-nsCSSKeyword
-"
-"
-nsCSSKeywordAndBoolTableEntry
 "
 "
 nsCSSPropertyID
