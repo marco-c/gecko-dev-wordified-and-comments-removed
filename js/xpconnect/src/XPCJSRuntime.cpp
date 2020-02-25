@@ -681,9 +681,6 @@ interfaceId
 "
 initializer
 "
-"
-print
-"
 }
 ;
 class
