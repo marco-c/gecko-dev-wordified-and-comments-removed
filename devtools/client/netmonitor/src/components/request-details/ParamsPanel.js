@@ -1025,6 +1025,11 @@ error
 REQUEST_TRUNCATED
 ;
 }
+let
+openPayload
+=
+true
+;
 if
 (
 formDataSections
@@ -1097,6 +1102,10 @@ true
 }
 )
 ;
+openPayload
+=
+false
+;
 }
 }
 }
@@ -1145,7 +1154,7 @@ paramsPostPayload
 "
 opened
 :
-true
+openPayload
 }
 )
 ;
