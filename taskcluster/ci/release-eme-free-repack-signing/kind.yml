@@ -153,15 +153,6 @@ shipping
 phase
 :
 promote
-depname
-:
-release
--
-eme
--
-free
--
-repack
 max
 -
 run
