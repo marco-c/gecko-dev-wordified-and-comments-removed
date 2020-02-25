@@ -2055,15 +2055,6 @@ pixman
 -
 enable
 -
-system
--
-sqlite
-'
-'
--
--
-enable
--
 universalchardet
 '
 '
