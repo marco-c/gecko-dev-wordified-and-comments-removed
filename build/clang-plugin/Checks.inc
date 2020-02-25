@@ -203,17 +203,6 @@ constructor
 )
 CHECK
 (
-NoNewThreadsChecker
-"
-no
--
-new
--
-threads
-"
-)
-CHECK
-(
 NonMemMovableMemberChecker
 "
 non

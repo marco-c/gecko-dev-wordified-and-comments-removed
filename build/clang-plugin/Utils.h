@@ -21,13 +21,6 @@ h
 #
 include
 "
-ThreadAllows
-.
-h
-"
-#
-include
-"
 plugin
 .
 h
