@@ -468,7 +468,7 @@ URI
 *
 /
 boolean
-EqualsURI
+equalsURI
 (
 in
 nsIURI
@@ -1653,7 +1653,7 @@ prevention
 readonly
 attribute
 ACString
-ExposablePrePath
+exposablePrePath
 ;
 /
 *
@@ -1758,7 +1758,7 @@ checked
 *
 /
 bool
-IsURIInPrefList
+isURIInPrefList
 (
 in
 string
@@ -1791,7 +1791,7 @@ Principal
 *
 /
 bool
-IsSameOrigin
+isSameOrigin
 (
 in
 nsIURI
@@ -1928,7 +1928,7 @@ one
 *
 /
 uint32_t
-GetAboutModuleFlags
+getAboutModuleFlags
 (
 )
 ;
