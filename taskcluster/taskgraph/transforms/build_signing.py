@@ -108,6 +108,22 @@ dependency
 '
 ]
         
+enable_signing_routes
+=
+job
+.
+pop
+(
+'
+enable
+-
+signing
+-
+routes
+'
+True
+)
+        
 job
 [
 '
@@ -129,6 +145,8 @@ get
 shippable
 '
 )
+and
+enable_signing_routes
 :
             
 for
@@ -246,6 +264,8 @@ get
 nightly
 '
 )
+and
+enable_signing_routes
 :
             
 for
