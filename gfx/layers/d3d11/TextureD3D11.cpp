@@ -3812,7 +3812,7 @@ IsOnPaintThread
 )
 |
 |
-NS_IsInCanvasThread
+NS_IsInCanvasThreadOrWorker
 (
 )
 )

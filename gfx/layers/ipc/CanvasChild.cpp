@@ -129,6 +129,7 @@ ReaderClosed
 final
 {
 return
+!
 mCanvasChild
 -
 >
@@ -137,7 +138,7 @@ GetIPCChannel
 )
 -
 >
-Unsound_IsClosed
+CanSend
 (
 )
 ;
