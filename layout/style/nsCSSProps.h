@@ -1259,13 +1259,6 @@ CSSEnabledState
 es_
 )
 )
-static
-const
-KTableEntry
-kTextDecorationStyleKTable
-[
-]
-;
 }
 ;
 inline
