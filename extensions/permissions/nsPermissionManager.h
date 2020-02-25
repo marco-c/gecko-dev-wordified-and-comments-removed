@@ -769,6 +769,12 @@ bool
 aIgnoreSessionPermissions
 =
 false
+const
+nsACString
+*
+aOriginString
+=
+nullptr
 )
 ;
 nsresult
