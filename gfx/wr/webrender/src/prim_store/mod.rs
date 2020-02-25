@@ -17315,9 +17315,12 @@ PERSPECTIVE_INTERPOLATION
 if
 segments
 .
-is_empty
+len
 (
 )
+<
+=
+1
 {
 *
 segment_instance_index
