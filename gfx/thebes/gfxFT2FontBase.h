@@ -201,12 +201,6 @@ uint32_t
 aCharCode
 )
 ;
-uint32_t
-GetSpaceGlyph
-(
-)
-override
-;
 bool
 ProvidesGetGlyph
 (
@@ -381,9 +375,6 @@ gfx
 SharedFTFace
 >
 mFTFace
-;
-uint32_t
-mSpaceGlyph
 ;
 Metrics
 mMetrics

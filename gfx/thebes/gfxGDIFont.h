@@ -86,12 +86,6 @@ return
 mFont
 ;
 }
-uint32_t
-GetSpaceGlyph
-(
-)
-override
-;
 already_AddRefed
 <
 mozilla
@@ -309,9 +303,6 @@ mFont
 Metrics
 *
 mMetrics
-;
-uint32_t
-mSpaceGlyph
 ;
 bool
 mIsBitmap

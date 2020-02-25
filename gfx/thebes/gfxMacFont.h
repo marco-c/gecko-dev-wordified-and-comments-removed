@@ -91,16 +91,6 @@ return
 mCGFont
 ;
 }
-uint32_t
-GetSpaceGlyph
-(
-)
-override
-{
-return
-mSpaceGlyph
-;
-}
 RunMetrics
 Measure
 (
@@ -358,9 +348,6 @@ mCoreTextShaper
 ;
 Metrics
 mMetrics
-;
-uint32_t
-mSpaceGlyph
 ;
 nscolor
 mFontSmoothingBackgroundColor
