@@ -103,6 +103,14 @@ PCanvasChild
 aEndpoint
 )
 ;
+ipc
+:
+:
+IPCResult
+RecvNotifyDeviceChanged
+(
+)
+;
 void
 EnsureRecorder
 (

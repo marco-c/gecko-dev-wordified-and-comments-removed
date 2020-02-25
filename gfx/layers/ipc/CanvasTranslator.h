@@ -273,6 +273,11 @@ Flush
 )
 ;
 void
+DeviceChangeAcknowledged
+(
+)
+;
+void
 ReturnWrite
 (
 const
@@ -552,6 +557,11 @@ int
 aLineNumber
 )
 ;
+void
+NotifyDeviceChanged
+(
+)
+;
 RefPtr
 <
 CanvasThreadHolder
@@ -683,6 +693,11 @@ true
 ;
 bool
 mIsInTransaction
+=
+false
+;
+bool
+mDeviceResetInProgress
 =
 false
 ;
