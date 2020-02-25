@@ -1532,6 +1532,8 @@ nsCString
 ;
 nsIURI
 ;
+nsIPrincipal
+;
 }
 ;
 struct
