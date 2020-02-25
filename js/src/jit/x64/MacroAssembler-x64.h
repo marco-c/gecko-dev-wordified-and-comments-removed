@@ -6521,9 +6521,10 @@ profilerExitFrame
 ;
 }
 ;
-typedef
-MacroAssemblerX64
+using
 MacroAssemblerSpecific
+=
+MacroAssemblerX64
 ;
 }
 }

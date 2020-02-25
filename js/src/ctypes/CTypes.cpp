@@ -53137,14 +53137,15 @@ return
 true
 ;
 }
-typedef
+using
+InflateUTF8Method
+=
 JS
 :
 :
 TwoByteCharsZ
 (
 *
-InflateUTF8Method
 )
 (
 JSContext

@@ -30,11 +30,12 @@ h
 namespace
 js
 {
-typedef
+using
+UnaryFunType
+=
 double
 (
 *
-UnaryFunType
 )
 (
 double

@@ -407,9 +407,10 @@ JavaScriptShared
 struct
 ObjectIdHasher
 {
-typedef
-ObjectId
+using
 Lookup
+=
+ObjectId
 ;
 static
 js

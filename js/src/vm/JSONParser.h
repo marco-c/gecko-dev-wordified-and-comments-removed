@@ -640,7 +640,9 @@ JSONParserBase
 {
 private
 :
-typedef
+using
+CharPtr
+=
 mozilla
 :
 :
@@ -649,7 +651,6 @@ RangedPtr
 const
 CharT
 >
-CharPtr
 ;
 CharPtr
 current

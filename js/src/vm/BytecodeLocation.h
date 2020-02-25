@@ -34,9 +34,10 @@ h
 namespace
 js
 {
-typedef
-uint32_t
+using
 RawBytecodeLocationOffset
+=
+uint32_t
 ;
 class
 PropertyName
@@ -74,10 +75,11 @@ rawOffset_
 }
 }
 ;
-typedef
+using
+RawBytecode
+=
 jsbytecode
 *
-RawBytecode
 ;
 class
 BytecodeLocation

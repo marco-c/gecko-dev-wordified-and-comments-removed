@@ -3095,9 +3095,10 @@ LastArg
 <
 >
 {
-typedef
-void
+using
 Type
+=
+void
 ;
 static
 constexpr
@@ -3119,9 +3120,10 @@ LastArg
 HeadType
 >
 {
-typedef
-HeadType
+using
 Type
+=
+HeadType
 ;
 static
 constexpr
@@ -3152,7 +3154,9 @@ TailTypes
 .
 >
 {
-typedef
+using
+Type
+=
 typename
 LastArg
 <
@@ -3163,7 +3167,6 @@ TailTypes
 >
 :
 :
-Type
 Type
 ;
 static

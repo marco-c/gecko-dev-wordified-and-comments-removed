@@ -131,7 +131,9 @@ SystemAllocPolicy
 >
 MIRTypeVector
 ;
-typedef
+using
+ABIArgMIRTypeIter
+=
 jit
 :
 :
@@ -139,7 +141,6 @@ ABIArgIter
 <
 MIRTypeVector
 >
-ABIArgMIRTypeIter
 ;
 static
 uint32_t
@@ -8827,9 +8828,10 @@ type
 ;
 }
 }
-typedef
-bool
+using
 ToValue
+=
+bool
 ;
 static
 void

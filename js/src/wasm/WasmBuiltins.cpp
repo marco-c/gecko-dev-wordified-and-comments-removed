@@ -7322,9 +7322,10 @@ abiType
 )
 {
 }
-typedef
-TypedNative
+using
 Lookup
+=
+TypedNative
 ;
 static
 HashNumber

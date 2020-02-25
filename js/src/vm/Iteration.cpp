@@ -334,13 +334,14 @@ mozilla
 :
 PodCopy
 ;
-typedef
+using
+RootedPropertyIteratorObject
+=
 Rooted
 <
 PropertyIteratorObject
 *
 >
-RootedPropertyIteratorObject
 ;
 static
 const

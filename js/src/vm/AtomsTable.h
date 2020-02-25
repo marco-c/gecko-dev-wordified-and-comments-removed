@@ -385,11 +385,12 @@ mallocSizeOf
 )
 ;
 }
-typedef
+using
+Range
+=
 AtomSet
 :
 :
-Range
 Range
 ;
 AtomSet

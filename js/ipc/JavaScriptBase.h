@@ -61,9 +61,10 @@ WrapperAnswer
 public
 Base
 {
-typedef
-WrapperAnswer
+using
 Answer
+=
+WrapperAnswer
 ;
 public
 :

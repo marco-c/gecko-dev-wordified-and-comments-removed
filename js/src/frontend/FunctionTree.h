@@ -146,11 +146,12 @@ funbox_
 node
 ;
 }
-typedef
+using
+FunctionTreeVisitorFunction
+=
 bool
 (
 *
-FunctionTreeVisitorFunction
 )
 (
 ParserBase

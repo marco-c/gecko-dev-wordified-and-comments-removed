@@ -2184,12 +2184,13 @@ obj
 )
 ;
 }
-typedef
+using
+UniquePtrFFIType
+=
 UniquePtr
 <
 ffi_type
 >
-UniquePtrFFIType
 ;
 namespace
 ArrayType

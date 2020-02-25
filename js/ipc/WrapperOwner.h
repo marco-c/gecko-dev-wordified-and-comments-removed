@@ -66,7 +66,9 @@ JavaScriptShared
 {
 public
 :
-typedef
+using
+ActorDestroyReason
+=
 mozilla
 :
 :
@@ -76,7 +78,6 @@ ipc
 IProtocol
 :
 :
-ActorDestroyReason
 ActorDestroyReason
 ;
 WrapperOwner

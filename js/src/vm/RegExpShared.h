@@ -985,9 +985,10 @@ getFlags
 )
 {
 }
-typedef
-Key
+using
 Lookup
+=
+Key
 ;
 static
 HashNumber

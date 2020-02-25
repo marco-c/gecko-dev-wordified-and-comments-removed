@@ -125,9 +125,10 @@ registers
 uint32_t
 registerCount
 ;
-typedef
-uint32_t
+using
 RegisterIndex
+=
+uint32_t
 ;
 Vector
 <

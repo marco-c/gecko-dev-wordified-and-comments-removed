@@ -3152,13 +3152,14 @@ return
 false
 ;
 }
-typedef
+using
+T
+=
 typename
 Vec
 :
 :
 ElementType
-T
 ;
 const
 T

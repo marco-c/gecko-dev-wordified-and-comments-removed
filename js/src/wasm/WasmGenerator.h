@@ -372,12 +372,13 @@ numFailed
 }
 }
 ;
-typedef
+using
+ExclusiveCompileTaskState
+=
 ExclusiveWaitableData
 <
 CompileTaskState
 >
-ExclusiveCompileTaskState
 ;
 struct
 CompileTask

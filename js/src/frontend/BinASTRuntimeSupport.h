@@ -304,10 +304,11 @@ byteLen_
 }
 #
 endif
-typedef
+using
+Lookup
+=
 const
 CharSlice
-Lookup
 ;
 static
 js

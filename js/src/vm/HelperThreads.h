@@ -268,12 +268,13 @@ cancel
 ;
 }
 ;
-typedef
+using
+UniqueTier2GeneratorTask
+=
 UniquePtr
 <
 Tier2GeneratorTask
 >
-UniqueTier2GeneratorTask
 ;
 typedef
 Vector
@@ -335,7 +336,9 @@ SystemAllocPolicy
 >
 ParseTaskVector
 ;
-typedef
+using
+ParseTaskList
+=
 mozilla
 :
 :
@@ -343,7 +346,6 @@ LinkedList
 <
 ParseTask
 >
-ParseTaskList
 ;
 typedef
 Vector
@@ -357,7 +359,9 @@ SystemAllocPolicy
 >
 SourceCompressionTaskVector
 ;
-typedef
+using
+GCParallelTaskList
+=
 mozilla
 :
 :
@@ -365,7 +369,6 @@ LinkedList
 <
 GCParallelTask
 >
-GCParallelTaskList
 ;
 typedef
 Vector

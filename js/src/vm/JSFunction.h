@@ -38,9 +38,10 @@ FunctionExtended
 struct
 SelfHostedLazyScript
 ;
-typedef
-JSNative
+using
 Native
+=
+JSNative
 ;
 }
 static

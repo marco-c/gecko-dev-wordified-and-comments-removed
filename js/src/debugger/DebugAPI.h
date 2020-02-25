@@ -310,7 +310,9 @@ ExecutionObservableSet
 {
 public
 :
-typedef
+using
+ZoneRange
+=
 HashSet
 <
 Zone
@@ -319,7 +321,6 @@ Zone
 :
 :
 Range
-ZoneRange
 ;
 virtual
 Zone

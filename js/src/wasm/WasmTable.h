@@ -452,12 +452,13 @@ const
 ;
 }
 ;
-typedef
+using
+SharedTable
+=
 RefPtr
 <
 Table
 >
-SharedTable
 ;
 typedef
 Vector

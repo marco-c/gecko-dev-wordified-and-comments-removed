@@ -234,9 +234,10 @@ pc
 struct
 EvalCacheHashPolicy
 {
-typedef
-EvalCacheLookup
+using
 Lookup
+=
+EvalCacheLookup
 ;
 static
 HashNumber

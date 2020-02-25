@@ -89,12 +89,13 @@ size
 }
 }
 ;
-typedef
+using
+MaybeSectionRange
+=
 Maybe
 <
 SectionRange
 >
-MaybeSectionRange
 ;
 struct
 CompileArgs

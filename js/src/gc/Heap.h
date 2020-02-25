@@ -2907,12 +2907,13 @@ bits
 "
 )
 ;
-typedef
+using
+PerArenaBitmap
+=
 BitArray
 <
 ArenasPerChunk
 >
-PerArenaBitmap
 ;
 const
 size_t

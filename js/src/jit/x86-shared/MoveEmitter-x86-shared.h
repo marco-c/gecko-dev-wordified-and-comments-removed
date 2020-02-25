@@ -318,9 +318,10 @@ i
 ;
 }
 ;
-typedef
-MoveEmitterX86
+using
 MoveEmitter
+=
+MoveEmitterX86
 ;
 }
 }
