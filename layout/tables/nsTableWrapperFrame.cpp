@@ -1172,6 +1172,8 @@ NS_FRAME_OUT_OF_FLOW
 )
 )
 {
+if
+(
 LogicalSize
 *
 cb
@@ -1182,10 +1184,6 @@ GridItemCBSizeProperty
 (
 )
 )
-;
-if
-(
-cb
 )
 {
 cbSize
@@ -1200,7 +1198,7 @@ cb
 cbSize
 -
 =
-aReflowInput
+aOuterRI
 .
 ComputedLogicalMargin
 (
