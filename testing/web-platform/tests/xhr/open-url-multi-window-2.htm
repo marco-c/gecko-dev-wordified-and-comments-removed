@@ -181,6 +181,17 @@ self
 XMLHttpRequest
 (
 )
+;
+let
+exceptionCtor
+=
+self
+[
+0
+]
+.
+DOMException
+;
 document
 .
 body
@@ -204,6 +215,7 @@ assert_throws_dom
 "
 InvalidStateError
 "
+exceptionCtor
 function
 (
 )
@@ -236,8 +248,10 @@ is
 removed
 "
 )
+;
 }
 )
+;
 }
 <
 /

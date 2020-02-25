@@ -111,6 +111,17 @@ self
 XMLHttpRequest
 (
 )
+;
+let
+exceptionCtor
+=
+self
+[
+0
+]
+.
+DOMException
+;
 client
 .
 open
@@ -147,6 +158,7 @@ assert_throws_dom
 "
 InvalidStateError
 "
+exceptionCtor
 function
 (
 )
@@ -172,6 +184,7 @@ is
 removed
 "
 )
+;
 }
 )
 }

@@ -59,6 +59,11 @@ assert_throws_dom
 "
 InvalidStateError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
@@ -232,6 +237,11 @@ assert_throws_dom
 "
 InvalidStateError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =

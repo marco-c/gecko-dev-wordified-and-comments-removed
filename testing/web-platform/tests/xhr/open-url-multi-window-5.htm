@@ -156,9 +156,11 @@ async_test
 (
 )
 client
+exceptionCtor
 count
 =
 0
+;
 function
 init
 (
@@ -191,6 +193,16 @@ self
 XMLHttpRequest
 (
 )
+;
+exceptionCtor
+=
+self
+[
+0
+]
+.
+DOMException
+;
 count
 +
 +
@@ -219,6 +231,7 @@ assert_throws_dom
 "
 InvalidStateError
 "
+exceptionCtor
 function
 (
 )
@@ -238,6 +251,7 @@ GET
 )
 }
 )
+;
 test
 .
 done

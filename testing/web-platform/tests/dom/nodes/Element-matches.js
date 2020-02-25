@@ -447,6 +447,13 @@ assert_throws_dom
 "
 SyntaxError
 "
+root
+.
+ownerDocument
+.
+defaultView
+.
+DOMException
 function
 (
 )
@@ -460,6 +467,7 @@ q
 )
 }
 )
+;
 }
 type
 +

@@ -95,6 +95,11 @@ assert_throws_dom
 "
 SecurityError
 "
+iframe
+.
+contentWindow
+.
+DOMException
 (
 )
 =
