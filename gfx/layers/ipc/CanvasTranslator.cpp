@@ -1889,6 +1889,16 @@ ReferencePtr
 aSurface
 )
 {
+if
+(
+!
+mPreparedMap
+)
+{
+return
+nullptr
+;
+}
 MOZ_RELEASE_ASSERT
 (
 mMappedSurface
