@@ -51,7 +51,13 @@ panel
 .
 panelWin
 .
-gFront
+gStore
+.
+getState
+(
+)
+.
+front
 ;
 ok
 (
