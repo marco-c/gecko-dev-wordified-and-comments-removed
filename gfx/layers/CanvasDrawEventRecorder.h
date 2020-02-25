@@ -401,8 +401,6 @@ uint32_t
 aReadCount
 TimeDuration
 aTimeout
-int32_t
-aRetryCount
 )
 ;
 bool
