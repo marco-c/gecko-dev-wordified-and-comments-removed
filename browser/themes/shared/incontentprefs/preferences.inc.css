@@ -512,6 +512,8 @@ accessory
 -
 button
 {
+min
+-
 height
 :
 30px
@@ -4449,6 +4451,8 @@ collapse
 }
 menulist
 {
+min
+-
 height
 :
 30px
