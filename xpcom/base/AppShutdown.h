@@ -28,6 +28,12 @@ AppShutdown
 public
 :
 static
+bool
+IsShuttingDown
+(
+)
+;
+static
 void
 SaveEnvVarsForPotentialRestart
 (
