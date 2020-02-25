@@ -90,11 +90,6 @@ App
 js
 '
 '
-CachePanel
-.
-js
-'
-'
 CustomRequestPanel
 .
 js

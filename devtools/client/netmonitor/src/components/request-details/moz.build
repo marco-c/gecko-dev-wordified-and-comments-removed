@@ -56,6 +56,11 @@ MPL
 DevToolsModules
 (
 '
+CachePanel
+.
+js
+'
+'
 CookiesPanel
 .
 js
