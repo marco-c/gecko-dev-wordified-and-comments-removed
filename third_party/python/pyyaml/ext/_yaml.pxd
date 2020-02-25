@@ -199,9 +199,9 @@ data
 char
 *
 buffer
-int
+size_t
 size
-int
+size_t
 *
 size_read
 )
@@ -217,7 +217,7 @@ data
 char
 *
 buffer
-int
+size_t
 size
 )
 except
@@ -226,11 +226,11 @@ ctypedef
 struct
 yaml_mark_t
 :
-int
+size_t
 index
-int
+size_t
 line
-int
+size_t
 column
 ctypedef
 struct
@@ -287,7 +287,7 @@ _yaml_token_scalar_data_t
 char
 *
 value
-int
+size_t
 length
 yaml_scalar_style_t
 style
@@ -392,7 +392,7 @@ tag
 char
 *
 value
-int
+size_t
 length
 int
 plain_implicit
@@ -467,7 +467,7 @@ error
 char
 *
 problem
-int
+size_t
 problem_offset
 int
 problem_value
@@ -580,7 +580,7 @@ tag
 char
 *
 value
-int
+size_t
 length
 int
 plain_implicit
@@ -667,7 +667,7 @@ parser
 char
 *
 input
-int
+size_t
 size
 )
 void
@@ -739,9 +739,9 @@ emitter
 char
 *
 output
-int
+size_t
 size
-int
+size_t
 *
 size_written
 )

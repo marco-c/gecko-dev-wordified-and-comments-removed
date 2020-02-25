@@ -910,12 +910,25 @@ data
         
 if
 data
-in
-[
+is
 None
+:
+            
+return
+True
+        
+if
+isinstance
+(
+data
+tuple
+)
+and
+data
+=
+=
 (
 )
-]
 :
             
 return

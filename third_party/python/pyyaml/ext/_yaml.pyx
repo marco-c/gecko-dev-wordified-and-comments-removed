@@ -5891,9 +5891,9 @@ data
 char
 *
 buffer
-int
+size_t
 size
-int
+size_t
 *
 read
 )
@@ -9625,7 +9625,7 @@ data
 char
 *
 buffer
-int
+size_t
 size
 )
 except

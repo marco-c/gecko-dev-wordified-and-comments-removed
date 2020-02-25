@@ -906,7 +906,7 @@ mark
 "
 could
 not
-found
+find
 expected
 '
 :
@@ -949,14 +949,6 @@ indent
 self
 .
 column
-        
-assert
-self
-.
-allow_simple_key
-or
-not
-required
         
 if
 self
@@ -1068,7 +1060,7 @@ mark
 "
 could
 not
-found
+find
 expected
 '
 :
