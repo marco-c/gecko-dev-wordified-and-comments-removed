@@ -298,6 +298,12 @@ mWrappedTextureHost
 SurfaceDescriptorGPUVideo
 mDescriptor
 ;
+wr
+:
+:
+MaybeExternalImageId
+mExternalImageId
+;
 }
 ;
 }
