@@ -288,6 +288,12 @@ mozilla
 TimeStamp
 mChangeTime
 ;
+mozilla
+:
+:
+TimeStamp
+mNetworkChangeTime
+;
 }
 ;
 #
