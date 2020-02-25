@@ -1025,11 +1025,6 @@ error
 REQUEST_TRUNCATED
 ;
 }
-let
-openPayload
-=
-true
-;
 if
 (
 formDataSections
@@ -1102,10 +1097,6 @@ true
 }
 )
 ;
-openPayload
-=
-false
-;
 }
 }
 }
@@ -1154,7 +1145,7 @@ paramsPostPayload
 "
 opened
 :
-openPayload
+true
 }
 )
 ;
