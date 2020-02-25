@@ -26,7 +26,7 @@ ChromeUtils
 )
 ;
 function
-ConsoleProgressListener
+ConsoleFileActivityListener
 (
 window
 owner
@@ -47,11 +47,11 @@ owner
 }
 exports
 .
-ConsoleProgressListener
+ConsoleFileActivityListener
 =
-ConsoleProgressListener
+ConsoleFileActivityListener
 ;
-ConsoleProgressListener
+ConsoleFileActivityListener
 .
 prototype
 =
