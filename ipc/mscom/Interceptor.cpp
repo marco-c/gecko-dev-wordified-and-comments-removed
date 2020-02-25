@@ -2214,10 +2214,12 @@ mTarget
 get
 (
 )
-weakRef
-.
-forget
+std
+:
+:
+move
 (
+weakRef
 )
 )
 ;

@@ -443,10 +443,12 @@ mCache
 Put
 (
 currState
-newResult
-.
-forget
+std
+:
+:
+move
 (
+newResult
 )
 )
 ;
