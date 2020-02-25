@@ -8404,7 +8404,7 @@ aKey
 )
 ;
 }
-void
+bool
 DisplayListBuilder
 :
 :
@@ -8417,6 +8417,7 @@ ItemKey
 aKey
 )
 {
+return
 wr_dp_end_cached_item
 (
 mWrState
