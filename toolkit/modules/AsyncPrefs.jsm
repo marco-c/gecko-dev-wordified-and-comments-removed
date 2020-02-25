@@ -162,6 +162,15 @@ report
 .
 hide_lockwise_app
 "
+"
+browser
+.
+contentblocking
+.
+report
+.
+show_mobile_app
+"
 ]
 )
 ;
