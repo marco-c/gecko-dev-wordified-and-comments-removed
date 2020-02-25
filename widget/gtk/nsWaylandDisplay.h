@@ -456,6 +456,12 @@ IsDMABufWebGLEnabled
 (
 )
 ;
+static
+bool
+IsDMABufVAAPIEnabled
+(
+)
+;
 int
 GetRenderingCacheModePref
 (
@@ -563,6 +569,10 @@ sIsDMABufPrefBasicCompositorState
 static
 int
 sIsDMABufPrefWebGLState
+;
+static
+int
+sIsDMABufPrefVAAPIState
 ;
 static
 bool
