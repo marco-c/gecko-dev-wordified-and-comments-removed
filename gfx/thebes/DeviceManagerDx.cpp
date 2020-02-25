@@ -5248,17 +5248,6 @@ lock
 mDeviceLock
 )
 ;
-if
-(
-!
-mCanvasDevice
-)
-{
-CreateCanvasDevice
-(
-)
-;
-}
 return
 mCanvasDevice
 ;
