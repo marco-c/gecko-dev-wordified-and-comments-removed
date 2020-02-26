@@ -99,11 +99,6 @@ common
 *
 '
 '
-mochitest
-/
-*
-'
-'
 perf
 /
 *
