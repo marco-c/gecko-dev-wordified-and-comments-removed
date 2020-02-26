@@ -9024,6 +9024,9 @@ const
 nsACString
 &
 aRequestString
+HttpTransactionShell
+*
+aTransaction
 )
 {
 if
@@ -9060,6 +9063,7 @@ OnPush
 aPushedStreamId
 aUrl
 aRequestString
+aTransaction
 )
 ;
 }
@@ -63763,6 +63767,9 @@ const
 nsACString
 &
 aRequestString
+HttpTransactionShell
+*
+aTransaction
 )
 {
 MOZ_ASSERT
@@ -63774,7 +63781,7 @@ NS_IsMainThread
 ;
 MOZ_ASSERT
 (
-mTransaction
+aTransaction
 )
 ;
 LOG
@@ -63799,11 +63806,7 @@ p
 n
 "
 this
-mTransaction
-.
-get
-(
-)
+aTransaction
 )
 )
 ;
@@ -64102,7 +64105,7 @@ channel
 >
 SetPushedStreamTransactionAndId
 (
-mTransaction
+aTransaction
 aPushedStreamId
 )
 ;

@@ -351,6 +351,9 @@ const
 nsACString
 &
 aRequestString
+HttpTransactionShell
+*
+aTransaction
 )
 {
 bool
