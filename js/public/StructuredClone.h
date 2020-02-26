@@ -1476,6 +1476,7 @@ JS_ReadStructuredClone
 JSContext
 *
 cx
+const
 JSStructuredCloneData
 &
 data
