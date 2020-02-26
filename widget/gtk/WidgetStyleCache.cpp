@@ -3195,11 +3195,8 @@ get
 )
 )
 ;
-widget
-=
-gtk_invisible_new
-(
-)
+return
+nullptr
 ;
 }
 GtkStyleContext
