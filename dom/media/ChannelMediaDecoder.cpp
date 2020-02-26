@@ -2859,6 +2859,13 @@ true
 )
 ;
 }
+MediaDecoder
+:
+:
+Suspend
+(
+)
+;
 }
 void
 ChannelMediaDecoder
@@ -2888,6 +2895,13 @@ Resume
 )
 ;
 }
+MediaDecoder
+:
+:
+Resume
+(
+)
+;
 }
 void
 ChannelMediaDecoder

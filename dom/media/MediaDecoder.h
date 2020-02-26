@@ -660,15 +660,13 @@ void
 Suspend
 (
 )
-{
-}
+;
 virtual
 void
 Resume
 (
 )
-{
-}
+;
 virtual
 void
 SetLoadInBackground
