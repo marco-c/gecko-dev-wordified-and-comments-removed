@@ -114,3 +114,17 @@ TRRPerformance
 jsm
 '
 ]
+XPCSHELL_TESTS_MANIFESTS
++
+=
+[
+'
+test
+/
+unit
+/
+xpcshell
+.
+ini
+'
+]
