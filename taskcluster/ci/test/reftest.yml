@@ -119,6 +119,9 @@ debug
 '
 fission
 '
+'
+serviceworker
+'
 ]
 default
 :
