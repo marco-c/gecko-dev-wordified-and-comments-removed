@@ -2911,6 +2911,9 @@ Allow
 )
 ;
 case
+__NR_pread64
+:
+case
 __NR_write
 :
 case
@@ -5016,9 +5019,6 @@ CASES_FOR_getdents
 case
 __NR_writev
 :
-case
-__NR_pread64
-:
 #
 ifdef
 DESKTOP
@@ -5489,6 +5489,9 @@ __NR_getpriority
 :
 case
 __NR_setpriority
+:
+case
+__NR_sched_getattr
 :
 case
 __NR_sched_get_priority_min
