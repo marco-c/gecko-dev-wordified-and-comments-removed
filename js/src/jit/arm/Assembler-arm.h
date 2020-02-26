@@ -6186,12 +6186,11 @@ sp
 #
 endif
 }
-static
-const
 Register
 getStackPointer
 (
 )
+const
 {
 return
 StackPointer

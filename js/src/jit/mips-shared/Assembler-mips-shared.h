@@ -4241,12 +4241,11 @@ buf
 }
 #
 endif
-static
-const
 Register
 getStackPointer
 (
 )
+const
 {
 return
 StackPointer

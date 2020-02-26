@@ -3240,12 +3240,11 @@ MOZ_CRASH
 )
 ;
 }
-static
-const
 Register
 getStackPointer
 (
 )
+const
 {
 MOZ_CRASH
 (
