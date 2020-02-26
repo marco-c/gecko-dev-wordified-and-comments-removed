@@ -85,8 +85,6 @@ MOZ_MUST_USE
 bool
 check
 (
-bool
-populateSafepoints
 )
 ;
 private
@@ -440,12 +438,9 @@ uint32_t
 vreg
 LAllocation
 alloc
-bool
-populateSafepoints
 )
 ;
-MOZ_MUST_USE
-bool
+void
 checkSafepointAllocation
 (
 LInstruction
@@ -455,8 +450,6 @@ uint32_t
 vreg
 LAllocation
 alloc
-bool
-populateSafepoints
 )
 ;
 MOZ_MUST_USE
