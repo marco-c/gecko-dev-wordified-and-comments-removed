@@ -445,6 +445,8 @@ YUVColorSpace
 yUVColorSpace
 ;
 FileDescriptor
+[
+]
 fence
 ;
 }
