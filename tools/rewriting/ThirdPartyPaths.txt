@@ -808,6 +808,12 @@ libyuv
 /
 media
 /
+mp4parse
+-
+rust
+/
+media
+/
 mtransport
 /
 third_party
