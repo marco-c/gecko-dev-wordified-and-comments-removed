@@ -58,6 +58,9 @@ jit
 class
 LIRGenerator
 ;
+#
+ifdef
+DEBUG
 struct
 AllocationIntegrityState
 {
@@ -472,6 +475,8 @@ dump
 ;
 }
 ;
+#
+endif
 class
 CodePosition
 {
