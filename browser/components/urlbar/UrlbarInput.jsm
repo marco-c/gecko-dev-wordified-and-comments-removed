@@ -7221,12 +7221,6 @@ SEARCH_BUTTON_ID
 {
 this
 .
-startLayoutExtend
-(
-)
-;
-this
-.
 _maybeSelectAll
 (
 )
@@ -7288,6 +7282,12 @@ true
 )
 ;
 }
+this
+.
+startLayoutExtend
+(
+)
+;
 if
 (
 this
@@ -7308,13 +7308,6 @@ event
 ;
 }
 else
-{
-this
-.
-startLayoutExtend
-(
-)
-;
 if
 (
 this
@@ -7340,7 +7333,6 @@ _maybeSelectAll
 true
 )
 ;
-}
 }
 this
 .
