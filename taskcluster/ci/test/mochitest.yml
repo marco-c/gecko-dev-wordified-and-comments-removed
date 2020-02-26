@@ -119,9 +119,6 @@ debug
 '
 fission
 '
-'
-serviceworker
-'
 ]
 default
 :
@@ -1896,9 +1893,6 @@ debug
 [
 '
 fission
-'
-'
-serviceworker
 '
 '
 socketprocess
