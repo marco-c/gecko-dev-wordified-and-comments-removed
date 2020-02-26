@@ -140,6 +140,11 @@ ResponsePanel
 js
 '
 '
+SecurityPanel
+.
+js
+'
+'
 SecurityState
 .
 js
