@@ -702,7 +702,6 @@ catch_unwind
 (
 |
 |
-{
 test
 (
 &
@@ -712,7 +711,6 @@ tmp_dir
 &
 remote_path
 )
-}
 )
 ;
 let

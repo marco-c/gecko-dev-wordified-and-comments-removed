@@ -5,9 +5,7 @@ crate
 android
 :
 :
-{
 AndroidHandler
-}
 ;
 use
 crate
@@ -711,6 +709,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -731,6 +730,7 @@ of
 capabilities
 "
 )
+}
 )
 ?
 ;
@@ -979,6 +979,7 @@ map_err
 |
 e
 |
+{
 WebDriverError
 :
 :
@@ -994,6 +995,7 @@ to_string
 (
 )
 )
+}
 )
 ?
 ;
@@ -1158,6 +1160,7 @@ map_err
 |
 e
 |
+{
 WebDriverError
 :
 :
@@ -1182,6 +1185,7 @@ preferences
 e
 )
 )
+}
 )
 ?
 ;
@@ -1305,6 +1309,7 @@ ok_or_else
 (
 |
 |
+{
 WebDriverError
 :
 :
@@ -1351,6 +1356,7 @@ command
 line
 "
 )
+}
 )
 ?
 ;
@@ -3319,6 +3325,7 @@ _
 )
 =
 >
+{
 WebDriverResponse
 :
 :
@@ -3332,6 +3339,7 @@ true
 )
 ?
 )
+}
 GetTimeouts
 =
 >
@@ -8336,6 +8344,7 @@ map_err
 |
 e
 |
+{
 WebDriverError
 :
 :
@@ -8362,6 +8371,7 @@ data
 e
 )
 )
+}
 )
 ?
 ;

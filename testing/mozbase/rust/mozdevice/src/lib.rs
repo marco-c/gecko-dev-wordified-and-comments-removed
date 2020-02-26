@@ -147,9 +147,7 @@ use
 walkdir
 :
 :
-{
 WalkDir
-}
 ;
 use
 crate
@@ -305,6 +303,7 @@ serial
 )
 =
 >
+{
 write
 !
 (
@@ -322,6 +321,7 @@ serial
 "
 serial
 )
+}
 _
 =
 >
