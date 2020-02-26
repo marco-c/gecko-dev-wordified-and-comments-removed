@@ -297,6 +297,11 @@ mLiveSet
 Put
 (
 aKey
+RefPtr
+<
+IWeakReference
+>
+{
 std
 :
 :
@@ -304,6 +309,7 @@ move
 (
 aValue
 )
+}
 )
 ;
 }

@@ -1758,10 +1758,12 @@ aResult
 Put
 (
 key
-rec
-.
-forget
+std
+:
+:
+move
 (
+rec
 )
 )
 ;

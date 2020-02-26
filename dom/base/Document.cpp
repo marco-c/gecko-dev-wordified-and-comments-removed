@@ -71408,10 +71408,12 @@ mPreloadingImages
 Put
 (
 uri
-request
-.
-forget
+std
+:
+:
+move
 (
+request
 )
 )
 ;

@@ -4417,10 +4417,12 @@ modMap
 Put
 (
 resolvedNtPath
-module
-.
-forget
+std
+:
+:
+move
 (
+module
 )
 )
 ;
