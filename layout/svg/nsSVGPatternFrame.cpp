@@ -1375,7 +1375,7 @@ dt
 aDrawTarget
 -
 >
-CreateSimilarDrawTarget
+CreateSimilarDrawTargetWithBacking
 (
 surfaceSize
 SurfaceFormat
@@ -1635,7 +1635,7 @@ return
 dt
 -
 >
-Snapshot
+GetBackingSurface
 (
 )
 ;
