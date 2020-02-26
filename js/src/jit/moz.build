@@ -493,11 +493,6 @@ Snapshots
 cpp
 '
 '
-StupidAllocator
-.
-cpp
-'
-'
 TIOracle
 .
 cpp
