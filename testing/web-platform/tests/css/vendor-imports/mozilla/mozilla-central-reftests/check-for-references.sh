@@ -50,9 +50,7 @@ v
 e
 "
 ^
-default
--
-preferences
+defaults
 "
 -
 e
