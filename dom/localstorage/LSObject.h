@@ -18,7 +18,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -88,13 +90,13 @@ PrincipalInfo
 friend
 nsGlobalWindowInner
 ;
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 PrincipalInfo
 >

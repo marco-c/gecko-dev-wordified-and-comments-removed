@@ -103,7 +103,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -654,7 +656,7 @@ LocalStorageManager
 >
 mManager
 ;
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <
@@ -1018,8 +1020,9 @@ virtual
 CacheParentBridge
 (
 )
-{
-}
+=
+default
+;
 virtual
 const
 nsCString
@@ -1191,8 +1194,9 @@ virtual
 UsageParentBridge
 (
 )
-{
-}
+=
+default
+;
 virtual
 const
 nsCString

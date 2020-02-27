@@ -35663,7 +35663,7 @@ them
 .
 AutoTArray
 <
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <
@@ -35732,13 +35732,7 @@ Invalidate
 (
 )
 ;
-nsAutoPtr
-<
-nsTHashtable
-<
-nsCStringHashKey
->
->
+auto
 &
 clientOrigins
 =
@@ -35760,10 +35754,12 @@ clientOrigins
 {
 clientOrigins
 =
-new
+MakeUnique
+<
 nsTHashtable
 <
 nsCStringHashKey
+>
 >
 (
 )

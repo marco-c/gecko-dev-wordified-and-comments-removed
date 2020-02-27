@@ -14,7 +14,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -158,13 +160,13 @@ nsString
 >
 mValues
 ;
-nsAutoPtr
+UniquePtr
 <
 SnapshotWriteOptimizer
 >
 mWriteOptimizer
 ;
-nsAutoPtr
+UniquePtr
 <
 nsTArray
 <

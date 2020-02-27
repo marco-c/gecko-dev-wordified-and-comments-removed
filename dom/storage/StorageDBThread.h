@@ -75,7 +75,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -656,7 +658,7 @@ mUpdates
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 DBOperation
 >
@@ -741,8 +743,9 @@ virtual
 ThreadObserver
 (
 )
-{
-}
+=
+default
+;
 bool
 mHasPendingEvents
 ;
@@ -808,8 +811,9 @@ private
 ShutdownRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_NSIRUNNABLE
 }
 ;
@@ -824,8 +828,9 @@ virtual
 StorageDBThread
 (
 )
-{
-}
+=
+default
+;
 static
 StorageDBThread
 *
