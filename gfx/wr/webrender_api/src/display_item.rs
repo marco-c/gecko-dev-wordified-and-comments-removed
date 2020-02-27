@@ -993,10 +993,7 @@ CommonItemProperties
 pub
 color
 :
-PropertyBinding
-<
 ColorF
->
 }
 #
 [
