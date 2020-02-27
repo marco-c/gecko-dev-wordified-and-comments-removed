@@ -191,10 +191,14 @@ shadowRoot
 querySelector
 (
 "
-.
+a
+[
+name
+=
+'
 origin
--
-input
+'
+]
 "
 )
 ;
