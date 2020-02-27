@@ -9301,9 +9301,6 @@ Bailout_NonSharedTypedArrayInput
 case
 Bailout_Debugger
 :
-case
-Bailout_UninitializedThis
-:
 break
 ;
 case
@@ -9349,9 +9346,6 @@ break
 ;
 case
 Bailout_BoundsCheck
-:
-case
-Bailout_Detached
 :
 HandleBoundsCheckFailure
 (
