@@ -44,6 +44,9 @@ unittest
 -
 features
 "
+"
+mochitest
+"
 ]
 "
 profileserver
