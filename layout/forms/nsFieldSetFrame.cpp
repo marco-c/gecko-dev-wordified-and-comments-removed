@@ -4828,9 +4828,12 @@ if
 nif
 )
 {
+nsContainerFrame
+:
+:
 RemoveFrame
 (
-kPrincipalList
+kNoReflowPrincipalList
 nif
 )
 ;
