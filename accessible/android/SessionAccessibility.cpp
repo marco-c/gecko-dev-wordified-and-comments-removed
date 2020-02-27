@@ -1911,8 +1911,8 @@ SendClickedEvent
 AccessibleWrap
 *
 aAccessible
-bool
-aChecked
+uint32_t
+aFlags
 )
 {
 GECKOBUNDLE_START
@@ -1924,7 +1924,7 @@ GECKOBUNDLE_PUT
 (
 eventInfo
 "
-checked
+flags
 "
 java
 :
@@ -1937,11 +1937,7 @@ Integer
 :
 ValueOf
 (
-aChecked
-?
-1
-:
-0
+aFlags
 )
 )
 ;

@@ -431,8 +431,8 @@ SendClickedEvent
 AccessibleWrap
 *
 aAccessible
-bool
-aChecked
+uint32_t
+aFlags
 )
 ;
 void
