@@ -31130,6 +31130,8 @@ debugger
 template
 <
 typename
+ReferentType
+typename
 Map
 >
 typename
@@ -31173,10 +31175,6 @@ object
 ;
 Handle
 <
-typename
-Map
-:
-:
 ReferentType
 *
 >
@@ -31187,10 +31185,6 @@ referent
 template
 as
 <
-typename
-Map
-:
-:
 ReferentType
 *
 >
@@ -31392,6 +31386,9 @@ lazyScript
 obj
 =
 wrapVariantReferent
+<
+JSScript
+>
 (
 cx
 scripts
@@ -31494,6 +31491,9 @@ setWrappedByDebugger
 obj
 =
 wrapVariantReferent
+<
+LazyScript
+>
 (
 cx
 lazyScripts
@@ -31517,6 +31517,9 @@ WasmInstanceObject
 obj
 =
 wrapVariantReferent
+<
+WasmInstanceObject
+>
 (
 cx
 wasmInstanceScripts
@@ -31767,6 +31770,9 @@ ScriptSourceObject
 obj
 =
 wrapVariantReferent
+<
+ScriptSourceObject
+>
 (
 cx
 sources
@@ -31779,6 +31785,9 @@ else
 obj
 =
 wrapVariantReferent
+<
+WasmInstanceObject
+>
 (
 cx
 wasmInstanceSources
