@@ -1112,6 +1112,14 @@ parents
                 
 continue
             
+if
+parent_rev
+in
+hg_to_git_commit_map
+:
+                
+continue
+            
 grandparent_rev
 =
 hg_commits
