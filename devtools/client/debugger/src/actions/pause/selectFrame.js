@@ -125,7 +125,15 @@ if
 (
 frame
 .
-asyncCause
+state
+!
+=
+=
+"
+on
+-
+stack
+"
 )
 {
 return
