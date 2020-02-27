@@ -157,17 +157,6 @@ media
 "
 "
 ;
-DOMString
-title
-=
-"
-"
-;
-boolean
-alternate
-=
-false
-;
 boolean
 disabled
 =

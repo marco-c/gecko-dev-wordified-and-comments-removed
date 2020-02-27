@@ -636,16 +636,6 @@ baseURI
 sheet
 -
 >
-SetTitle
-(
-aOptions
-.
-mTitle
-)
-;
-sheet
--
->
 SetPrincipal
 (
 constructorDocument
