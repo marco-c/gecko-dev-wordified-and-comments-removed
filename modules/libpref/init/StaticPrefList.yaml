@@ -42730,7 +42730,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -42770,7 +42770,7 @@ type
 uint32_t
 value
 :
-0
+120
 mirror
 :
 always
@@ -42789,7 +42789,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always

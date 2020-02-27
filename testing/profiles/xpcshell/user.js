@@ -296,3 +296,17 @@ enabled
 true
 )
 ;
+user_pref
+(
+"
+network
+.
+cookie
+.
+sameSite
+.
+laxByDefault
+"
+false
+)
+;
