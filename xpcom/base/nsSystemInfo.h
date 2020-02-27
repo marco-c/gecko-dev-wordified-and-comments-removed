@@ -86,6 +86,12 @@ OSInfo
 uint32_t
 installYear
 ;
+bool
+hasSuperfetch
+;
+bool
+hasPrefetch
+;
 }
 ;
 struct
