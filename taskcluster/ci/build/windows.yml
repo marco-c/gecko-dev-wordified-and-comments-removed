@@ -4265,6 +4265,11 @@ asan
 -
 reporter
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 options
@@ -6824,6 +6829,11 @@ PERFHERDER_EXTRA_OPTIONS
 aarch64
 -
 devedition
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 actions

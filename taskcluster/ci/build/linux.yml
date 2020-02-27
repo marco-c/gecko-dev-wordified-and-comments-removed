@@ -2891,6 +2891,13 @@ run
 time
 :
 7200
+env
+:
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 using
@@ -4736,6 +4743,11 @@ ASAN_OPTIONS
 detect_leaks
 =
 0
+"
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
 "
 max
 -

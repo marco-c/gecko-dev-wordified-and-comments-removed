@@ -1951,6 +1951,11 @@ is
 None
 :
         
+exceptions
+=
+[
+]
+        
 for
 task
 in
@@ -2041,6 +2046,20 @@ shippable
 False
 )
                 
+nightly
+=
+task
+.
+attributes
+.
+get
+(
+'
+nightly
+'
+False
+)
+                
 build_has_tests
 =
 scratch_pad
@@ -2065,8 +2084,9 @@ if
 shippable
 :
                         
-raise
-Exception
+exceptions
+.
+append
 (
 '
 Build
@@ -2080,7 +2100,7 @@ does
 not
 specify
 '
-                                        
+                                          
 '
 MOZ_AUTOMATION_PACKAGE_TESTS
 =
@@ -2088,7 +2108,49 @@ MOZ_AUTOMATION_PACKAGE_TESTS
 in
 the
 '
-                                        
+                                          
+'
+environment
+.
+'
+.
+format
+(
+task
+.
+label
+)
+)
+                    
+if
+nightly
+:
+                        
+exceptions
+.
+append
+(
+'
+Build
+job
+{
+}
+is
+nightly
+and
+does
+not
+specify
+'
+                                          
+'
+MOZ_AUTOMATION_PACKAGE_TESTS
+=
+1
+in
+the
+'
+                                          
 '
 environment
 .
@@ -2106,8 +2168,9 @@ if
 build_has_tests
 :
                         
-raise
-Exception
+exceptions
+.
+append
 (
                             
 '
@@ -2149,10 +2212,20 @@ else
 if
 not
 build_has_tests
+and
+not
+any
+(
+[
+shippable
+nightly
+]
+)
 :
                         
-raise
-Exception
+exceptions
+.
+append
 (
                             
 '
@@ -2199,6 +2272,24 @@ task
 .
 label
 package_tests
+)
+)
+        
+if
+exceptions
+:
+            
+raise
+Exception
+(
+"
+\
+n
+"
+.
+join
+(
+exceptions
 )
 )
         
