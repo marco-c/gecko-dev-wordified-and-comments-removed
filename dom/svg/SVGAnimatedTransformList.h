@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGTransformList
 .
 h
@@ -269,7 +262,7 @@ private
 SVGTransformList
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGTransformList
 >

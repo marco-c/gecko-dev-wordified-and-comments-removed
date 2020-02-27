@@ -7,13 +7,6 @@ __NS_SVGVIEWBOX_H__
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -415,7 +408,7 @@ private
 SVGViewBox
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGViewBox
 >

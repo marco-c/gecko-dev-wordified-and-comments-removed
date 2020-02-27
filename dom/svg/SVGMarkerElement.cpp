@@ -1213,11 +1213,13 @@ y
 ;
 mViewBoxToViewportTransform
 =
-new
+MakeUnique
+<
 gfx
 :
 :
 Matrix
+>
 (
 TM
 )

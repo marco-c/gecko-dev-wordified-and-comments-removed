@@ -1364,7 +1364,7 @@ container
 ;
 }
 }
-nsAutoPtr
+UniquePtr
 <
 SMILCompositorTable
 >
@@ -1444,6 +1444,10 @@ AddAnimationToCompositorTable
 (
 animElem
 currentCompositorTable
+.
+get
+(
+)
 isStyleFlushNeeded
 )
 ;
@@ -1700,10 +1704,12 @@ mightHavePendingStyleUpdates
 }
 mLastCompositorTable
 =
-currentCompositorTable
-.
-forget
+std
+:
+:
+move
 (
+currentCompositorTable
 )
 ;
 mMightHavePendingStyleUpdates

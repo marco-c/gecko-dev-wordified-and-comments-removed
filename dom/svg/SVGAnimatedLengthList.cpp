@@ -254,8 +254,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 SVGLengthList
+>
 (
 )
 ;

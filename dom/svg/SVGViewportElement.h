@@ -27,7 +27,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -629,6 +631,10 @@ const
 {
 return
 mTransforms
+.
+get
+(
+)
 ;
 }
 SVGAnimatedViewBox

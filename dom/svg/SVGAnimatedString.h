@@ -14,13 +14,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsError
 .
 h
@@ -201,7 +194,7 @@ aSVGElement
 ;
 private
 :
-nsAutoPtr
+UniquePtr
 <
 nsString
 >

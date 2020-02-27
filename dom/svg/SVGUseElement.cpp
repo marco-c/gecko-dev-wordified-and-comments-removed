@@ -2445,7 +2445,15 @@ userToParent
 GetUserToParentTransform
 (
 mAnimateMotionTransform
+.
+get
+(
+)
 mTransforms
+.
+get
+(
+)
 )
 ;
 if

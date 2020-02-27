@@ -387,8 +387,10 @@ mAnimVal
 {
 mAnimVal
 =
-new
+MakeUnique
+<
 nsString
+>
 (
 )
 ;

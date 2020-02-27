@@ -43,7 +43,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -577,7 +579,7 @@ Document
 *
 mDocument
 ;
-nsAutoPtr
+UniquePtr
 <
 SMILCompositorTable
 >

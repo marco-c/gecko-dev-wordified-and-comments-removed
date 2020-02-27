@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGNumberList
 .
 h
@@ -213,7 +206,7 @@ private
 SVGNumberList
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGNumberList
 >

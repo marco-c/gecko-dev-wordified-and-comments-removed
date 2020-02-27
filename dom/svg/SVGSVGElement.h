@@ -102,7 +102,7 @@ mViewBox
 SVGAnimatedPreserveAspectRatio
 mPreserveAspectRatio
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGAnimatedTransformList
 >
@@ -889,7 +889,7 @@ sEnumInfo
 1
 ]
 ;
-nsAutoPtr
+UniquePtr
 <
 SMILTimeContainer
 >
@@ -913,13 +913,13 @@ mStartAnimationOnBindToTree
 bool
 mImageNeedsTransformInvalidation
 ;
-nsAutoPtr
+UniquePtr
 <
 nsString
 >
 mCurrentViewID
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGView
 >

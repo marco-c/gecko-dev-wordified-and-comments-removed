@@ -1374,8 +1374,10 @@ it
 ;
 mTransform
 =
-new
+MakeUnique
+<
 SVGTransform
+>
 (
 InternalItem
 (

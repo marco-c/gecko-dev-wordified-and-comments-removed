@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGPathData
 .
 h
@@ -242,7 +235,7 @@ private
 SVGPathData
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGPathData
 >

@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 SVGPointList
 .
 h
@@ -224,7 +217,7 @@ private
 SVGPointList
 mBaseVal
 ;
-nsAutoPtr
+UniquePtr
 <
 SVGPointList
 >

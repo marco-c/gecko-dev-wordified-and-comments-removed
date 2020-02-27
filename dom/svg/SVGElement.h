@@ -78,7 +78,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1303,6 +1305,10 @@ nullptr
 }
 return
 mClassAnimAttr
+.
+get
+(
+)
 ;
 }
 virtual
@@ -2414,7 +2420,7 @@ aNotify
 SVGAnimatedClass
 mClassAttribute
 ;
-nsAutoPtr
+UniquePtr
 <
 nsAttrValue
 >
