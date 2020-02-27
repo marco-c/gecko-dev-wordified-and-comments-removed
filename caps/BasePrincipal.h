@@ -665,6 +665,15 @@ aAsciiHost
 )
 override
 ;
+NS_IMETHOD
+GetLocalStorageQuotaKey
+(
+nsACString
+&
+aRes
+)
+override
+;
 nsresult
 ToJSON
 (
