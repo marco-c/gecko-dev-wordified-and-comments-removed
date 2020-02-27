@@ -62,7 +62,7 @@ include
 "
 jit
 /
-IonBuilder
+IonCompileTask
 .
 h
 "
@@ -9051,12 +9051,6 @@ runTask
 (
 )
 {
-JS
-:
-:
-AutoSuppressGCAnalysis
-nogc
-;
 TimeStamp
 timeStart
 =
@@ -9064,9 +9058,8 @@ ReallyNow
 (
 )
 ;
-func_
+run
 (
-this
 )
 ;
 duration_

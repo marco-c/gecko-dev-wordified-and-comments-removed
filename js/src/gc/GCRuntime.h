@@ -522,10 +522,7 @@ class
 BackgroundSweepTask
 :
 public
-GCParallelTaskHelper
-<
-BackgroundSweepTask
->
+GCParallelTask
 {
 public
 :
@@ -537,7 +534,7 @@ GCRuntime
 gc
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
@@ -547,6 +544,7 @@ void
 run
 (
 )
+override
 ;
 }
 ;
@@ -554,10 +552,7 @@ class
 BackgroundFreeTask
 :
 public
-GCParallelTaskHelper
-<
-BackgroundFreeTask
->
+GCParallelTask
 {
 public
 :
@@ -569,7 +564,7 @@ GCRuntime
 gc
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
@@ -579,6 +574,7 @@ void
 run
 (
 )
+override
 ;
 }
 ;
@@ -586,10 +582,7 @@ class
 BackgroundAllocTask
 :
 public
-GCParallelTaskHelper
-<
-BackgroundAllocTask
->
+GCParallelTask
 {
 GCLockData
 <
@@ -628,6 +621,7 @@ void
 run
 (
 )
+override
 ;
 }
 ;
@@ -635,10 +629,7 @@ class
 BackgroundDecommitTask
 :
 public
-GCParallelTaskHelper
-<
-BackgroundDecommitTask
->
+GCParallelTask
 {
 public
 :
@@ -662,7 +653,7 @@ GCRuntime
 gc
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
@@ -680,6 +671,7 @@ void
 run
 (
 )
+override
 ;
 private
 :
@@ -695,10 +687,7 @@ class
 SweepMarkTask
 :
 public
-GCParallelTaskHelper
-<
-SweepMarkTask
->
+GCParallelTask
 {
 public
 :
@@ -710,7 +699,7 @@ GCRuntime
 gc
 )
 :
-GCParallelTaskHelper
+GCParallelTask
 (
 gc
 )
@@ -746,6 +735,7 @@ void
 run
 (
 )
+override
 ;
 private
 :
