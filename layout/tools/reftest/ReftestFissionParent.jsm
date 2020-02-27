@@ -114,9 +114,7 @@ context
 of
 browsingContext
 .
-getChildren
-(
-)
+children
 )
 {
 this
@@ -226,9 +224,7 @@ context
 of
 browsingContext
 .
-getChildren
-(
-)
+children
 )
 {
 this

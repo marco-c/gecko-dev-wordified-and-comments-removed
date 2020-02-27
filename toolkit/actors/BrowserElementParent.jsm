@@ -653,9 +653,7 @@ push
 .
 currentContext
 .
-getChildren
-(
-)
+children
 )
 ;
 }

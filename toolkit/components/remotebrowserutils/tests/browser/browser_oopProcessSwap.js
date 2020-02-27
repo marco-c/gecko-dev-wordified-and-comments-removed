@@ -105,9 +105,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 0
@@ -215,9 +213,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 1
@@ -400,9 +396,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 1
@@ -569,9 +563,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 0
@@ -679,9 +671,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 1
@@ -864,9 +854,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 .
 length
 1
