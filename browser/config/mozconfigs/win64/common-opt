@@ -45,6 +45,18 @@ channel
 {
 MOZ_UPDATE_CHANNEL
 }
+APIKEYDIR
+=
+"
+{
+APIKEYDIR
+:
+-
+{
+WORKSPACE
+}
+}
+"
 ac_add_options
 -
 -
@@ -61,7 +73,7 @@ api
 keyfile
 =
 {
-WORKSPACE
+APIKEYDIR
 }
 /
 gls
@@ -83,7 +95,7 @@ api
 keyfile
 =
 {
-WORKSPACE
+APIKEYDIR
 }
 /
 sb
@@ -103,7 +115,7 @@ api
 keyfile
 =
 {
-WORKSPACE
+APIKEYDIR
 }
 /
 mozilla
