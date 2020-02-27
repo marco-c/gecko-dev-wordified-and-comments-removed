@@ -13899,15 +13899,6 @@ ssrcval
 )
 ;
 }
-RTCInboundRtpStreamStats
-mInboundRtp
-;
-nsTArray
-<
-RTCRTPContributingSourceStats
->
-mCsrcs
-;
 uint32_t
 packetsSent
 ;
