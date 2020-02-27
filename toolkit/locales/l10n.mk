@@ -1797,6 +1797,9 @@ langpack
 -
 %
 :
+clobber
+-
+%
 echo
 '
 Making
