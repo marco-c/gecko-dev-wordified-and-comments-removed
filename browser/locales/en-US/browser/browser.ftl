@@ -928,11 +928,16 @@ search
 tips
 -
 redirect
+-
+2
 =
 Start
 your
 search
-here
+in
+the
+address
+bar
 to
 see
 suggestions
