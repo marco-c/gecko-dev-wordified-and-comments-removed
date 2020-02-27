@@ -34,15 +34,6 @@ documentchannel
 "
 ;
 const
-FISSION_PREF
-=
-"
-fission
-.
-autostart
-"
-;
-const
 HISTORY
 =
 [
