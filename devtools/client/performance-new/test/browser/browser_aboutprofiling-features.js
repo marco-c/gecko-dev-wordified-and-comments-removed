@@ -64,7 +64,7 @@ platform
 )
 ;
 await
-openAboutProfiling
+withAboutProfiling
 (
 async
 document
