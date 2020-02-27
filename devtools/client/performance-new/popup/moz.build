@@ -79,6 +79,13 @@ jsm
 .
 js
 '
+'
+panel
+.
+jsm
+.
+js
+'
 )
 with
 Files
