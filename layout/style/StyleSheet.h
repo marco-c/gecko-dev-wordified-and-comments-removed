@@ -1551,7 +1551,7 @@ dom
 :
 :
 Document
-*
+&
 aDocument
 )
 const
@@ -1560,6 +1560,7 @@ return
 mConstructorDocument
 =
 =
+&
 aDocument
 ;
 }
@@ -1578,6 +1579,18 @@ MOZ_ASSERT
 (
 IsConstructed
 (
+)
+)
+;
+MOZ_ASSERT
+(
+!
+mAdopters
+.
+Contains
+(
+&
+aAdopter
 )
 )
 ;
