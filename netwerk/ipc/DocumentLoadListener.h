@@ -84,7 +84,7 @@ mozilla
 /
 dom
 /
-CanonicalBrowsingContext
+BrowserParent
 .
 h
 "
@@ -202,9 +202,9 @@ DocumentLoadListener
 dom
 :
 :
-CanonicalBrowsingContext
+BrowserParent
 *
-aProcessTopBrowsingContext
+aBrowser
 nsILoadContext
 *
 aLoadContext
@@ -221,13 +221,12 @@ Open
 dom
 :
 :
-CanonicalBrowsingContext
+BrowserParent
 *
-aProcessTopBrowsingContext
+aBrowser
 nsDocShellLoadState
 *
 aLoadState
-class
 LoadInfo
 *
 aLoadInfo
