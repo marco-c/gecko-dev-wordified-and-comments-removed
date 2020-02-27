@@ -13,6 +13,7 @@ six
 import
 binary_type
 PY3
+iteritems
 from
 six
 .
@@ -1576,27 +1577,26 @@ __cached_properties__
 "
 ]
             
+rv
+=
+{
+key
+:
+value
 for
 key
+value
 in
-rv
-.
-keys
+iteritems
 (
+rv
 )
-:
-                
 if
 key
+not
 in
 cached_properties
-:
-                    
-del
-rv
-[
-key
-]
+}
             
 del
 rv

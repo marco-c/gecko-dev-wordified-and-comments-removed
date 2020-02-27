@@ -389,6 +389,13 @@ subprocess
 .
 STDOUT
 )
+.
+decode
+(
+'
+utf8
+'
+)
         
 except
 Exception
@@ -443,6 +450,13 @@ stderr
 subprocess
 .
 STDOUT
+)
+.
+decode
+(
+'
+utf8
+'
 )
             
 else

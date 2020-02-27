@@ -125,7 +125,6 @@ path
 join
 (
 tests_root
-b
 "
 .
 wptcache
@@ -327,7 +326,6 @@ data
 .
 split
 (
-b
 "
 \
 0
@@ -427,7 +425,6 @@ cmd
 .
 split
 (
-b
 "
 \
 0
@@ -447,7 +444,6 @@ result
 .
 rsplit
 (
-b
 "
 \
 t
@@ -470,7 +466,6 @@ data
 .
 split
 (
-b
 "
 "
 3
@@ -1034,7 +1029,6 @@ CacheFile
     
 file_name
 =
-b
 "
 mtime
 .
@@ -1382,7 +1376,6 @@ MutableMapping
     
 file_name
 =
-b
 "
 gitignore
 .
@@ -1796,7 +1789,6 @@ deque
 [
 (
 root
-b
 "
 "
 )
