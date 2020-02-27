@@ -173,16 +173,6 @@ mozilla
 :
 :
 SequentiallyConsistent
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 sProtectedRegionsInit
 (

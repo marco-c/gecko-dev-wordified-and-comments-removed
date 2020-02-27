@@ -2376,14 +2376,6 @@ setFlags
 FLAT_JS_OBJECT_VALID
 )
 ;
-recordreplay
-:
-:
-HoldJSObject
-(
-object
-)
-;
 }
 inline
 void

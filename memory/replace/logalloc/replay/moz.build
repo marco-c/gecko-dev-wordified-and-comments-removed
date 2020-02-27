@@ -125,14 +125,6 @@ cpp
 /
 mfbt
 /
-RecordReplay
-.
-cpp
-'
-'
-/
-mfbt
-/
 TaggedAnonymousMemory
 .
 cpp

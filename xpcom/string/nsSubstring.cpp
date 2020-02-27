@@ -493,16 +493,6 @@ mozilla
 :
 :
 SequentiallyConsistent
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 AtomicInt
 ;

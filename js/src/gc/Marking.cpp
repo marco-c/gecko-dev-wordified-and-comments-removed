@@ -21612,15 +21612,6 @@ isMarkedGray
 )
 )
 ;
-mozilla
-:
-:
-recordreplay
-:
-:
-AutoDisallowThreadEvents
-d
-;
 AutoGeckoProfilerEntry
 profilingStackFrame
 (

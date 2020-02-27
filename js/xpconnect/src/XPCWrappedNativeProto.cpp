@@ -209,14 +209,6 @@ mJSProtoObject
 this
 )
 ;
-recordreplay
-:
-:
-HoldJSObject
-(
-mJSProtoObject
-)
-;
 }
 return
 success

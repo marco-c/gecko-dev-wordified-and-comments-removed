@@ -2139,10 +2139,6 @@ JS
 :
 HandleObject
 aStackGlobal
-uint64_t
-aTimeWarpTarget
-=
-0
 )
 ;
 static

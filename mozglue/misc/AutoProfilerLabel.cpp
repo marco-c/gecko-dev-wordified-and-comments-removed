@@ -174,16 +174,6 @@ detail
 :
 MutexImpl
 (
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 )
 {
 }

@@ -267,13 +267,6 @@ MemoryOrdering
 :
 :
 Relaxed
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 mIsBeingProfiled
 ;

@@ -167,13 +167,6 @@ using
 namespace
 mozilla
 ;
-using
-namespace
-mozilla
-:
-:
-recordreplay
-;
 #
 ifdef
 ANDROID
@@ -936,10 +929,6 @@ Atomic
 <
 Time
 Relaxed
-Behavior
-:
-:
-DontPreserve
 >
 sNow
 ;
@@ -948,10 +937,6 @@ Atomic
 <
 Delay
 ReleaseAcquire
-Behavior
-:
-:
-DontPreserve
 >
 sAllocDelay
 ;
@@ -961,10 +946,6 @@ Atomic
 <
 Time
 Relaxed
-Behavior
-:
-:
-DontPreserve
 >
 GAtomic
 :
@@ -975,10 +956,6 @@ Atomic
 <
 Delay
 ReleaseAcquire
-Behavior
-:
-:
-DontPreserve
 >
 GAtomic
 :
