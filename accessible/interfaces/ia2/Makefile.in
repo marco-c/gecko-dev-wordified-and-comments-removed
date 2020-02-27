@@ -56,7 +56,11 @@ MPL
 IA2DIR
 =
 (
-topsrcdir
+srcdir_rel
+)
+/
+(
+DEPTH
 )
 /
 other
@@ -632,7 +636,11 @@ missing_base
 do
 \
 (
+call
+WINEWRAP
+(
 MIDL
+)
 )
 (
 MIDL_FLAGS
@@ -682,7 +690,7 @@ typelib_done
 (
 addprefix
 (
-srcdir
+srcdir_rel
 )
 /
 (
@@ -697,7 +705,11 @@ in
 do
 \
 (
+call
+WINEWRAP
+(
 MIDL
+)
 )
 (
 MIDL_FLAGS

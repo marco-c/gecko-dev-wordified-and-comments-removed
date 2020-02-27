@@ -126,7 +126,11 @@ Accessible
 .
 idl
 (
+call
+WINEWRAP
+(
 MIDL
+)
 )
 (
 MIDL_FLAGS
@@ -134,7 +138,7 @@ MIDL_FLAGS
 -
 Oicf
 (
-srcdir
+srcdir_rel
 )
 /
 Accessible

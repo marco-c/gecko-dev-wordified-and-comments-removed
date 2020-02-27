@@ -127,7 +127,11 @@ IGeckoCustom
 .
 idl
 (
+call
+WINEWRAP
+(
 MIDL
+)
 )
 (
 MIDL_FLAGS
@@ -135,12 +139,12 @@ MIDL_FLAGS
 -
 I
 (
-srcdir
+srcdir_rel
 )
 -
 Oicf
 (
-srcdir
+srcdir_rel
 )
 /
 IGeckoCustom
