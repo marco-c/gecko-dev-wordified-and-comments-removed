@@ -1004,6 +1004,15 @@ performComplexRegionMappings
 ;
 MOZ_MUST_USE
 bool
+performVariantMappings
+(
+JSContext
+*
+cx
+)
+;
+MOZ_MUST_USE
+bool
 updateGrandfatheredMappings
 (
 JSContext

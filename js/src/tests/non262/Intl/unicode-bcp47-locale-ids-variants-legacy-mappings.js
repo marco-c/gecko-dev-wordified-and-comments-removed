@@ -16,7 +16,7 @@ AALAND
 "
 sv
 -
-aaland
+AX
 "
 )
 ;
@@ -104,7 +104,7 @@ POLYTONI
 "
 el
 -
-polytoni
+polyton
 "
 )
 ;
