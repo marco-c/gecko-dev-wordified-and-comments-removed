@@ -1007,10 +1007,13 @@ GetWSNodes
 (
 )
 ;
-nsINode
+nsIContent
 *
-GetWSBoundingParent
+GetEditableBlockParentOrTopmotEditableInlineContent
 (
+nsIContent
+*
+aContent
 )
 const
 ;
