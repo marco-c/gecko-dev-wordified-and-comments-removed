@@ -25065,7 +25065,7 @@ zone
 scriptVector
 (
 cx
-ScriptVector
+BaseScriptVector
 (
 cx
 )
@@ -25073,7 +25073,7 @@ cx
 lazyScriptVector
 (
 cx
-LazyScriptVector
+BaseScriptVector
 (
 cx
 )
@@ -26171,7 +26171,7 @@ true
 }
 Handle
 <
-ScriptVector
+BaseScriptVector
 >
 foundScripts
 (
@@ -26184,7 +26184,7 @@ scriptVector
 }
 Handle
 <
-LazyScriptVector
+BaseScriptVector
 >
 foundLazyScripts
 (
@@ -26263,13 +26263,13 @@ innermostForRealm
 ;
 Rooted
 <
-ScriptVector
+BaseScriptVector
 >
 scriptVector
 ;
 Rooted
 <
-LazyScriptVector
+BaseScriptVector
 >
 lazyScriptVector
 ;
@@ -27210,7 +27210,7 @@ false
 }
 Handle
 <
-ScriptVector
+BaseScriptVector
 >
 scripts
 (
@@ -27223,7 +27223,7 @@ foundScripts
 ;
 Handle
 <
-LazyScriptVector
+BaseScriptVector
 >
 lazyScripts
 (

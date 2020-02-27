@@ -2701,14 +2701,14 @@ LazyScriptWeakMap
 lazyScripts
 ;
 using
-LazyScriptVector
+BaseScriptVector
 =
 JS
 :
 :
 GCVector
 <
-LazyScript
+BaseScript
 *
 >
 ;
