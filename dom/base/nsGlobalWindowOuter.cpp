@@ -21518,8 +21518,11 @@ inoutValue
 )
 {
 aReturn
-.
-Assign
+=
+std
+:
+:
+move
 (
 outValue
 )
