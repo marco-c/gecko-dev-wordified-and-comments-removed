@@ -424,7 +424,9 @@ selectedBrowser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 0
 ]

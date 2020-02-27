@@ -127,7 +127,9 @@ children
 =
 browsingContext
 .
-children
+getChildren
+(
+)
 ;
 for
 (

@@ -4113,7 +4113,9 @@ push
 .
 currentContext
 .
-children
+getChildren
+(
+)
 )
 ;
 }

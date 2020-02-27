@@ -3000,7 +3000,9 @@ push
 .
 bc
 .
-children
+getChildren
+(
+)
 )
 ;
 if

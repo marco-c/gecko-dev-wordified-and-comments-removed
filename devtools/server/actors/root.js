@@ -2208,7 +2208,9 @@ return
 (
 parentBrowsingContext
 .
-children
+getChildren
+(
+)
 .
 filter
 (
@@ -2367,7 +2369,9 @@ push
 .
 currentContext
 .
-children
+getChildren
+(
+)
 )
 ;
 }
