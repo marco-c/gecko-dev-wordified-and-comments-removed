@@ -151,12 +151,3 @@ signing
 routes
 :
 false
-run
--
-on
--
-projects
-:
-[
-release
-]

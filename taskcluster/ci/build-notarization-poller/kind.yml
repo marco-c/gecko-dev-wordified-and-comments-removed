@@ -122,12 +122,3 @@ implementation
 notarization
 -
 poller
-run
--
-on
--
-projects
-:
-[
-release
-]
