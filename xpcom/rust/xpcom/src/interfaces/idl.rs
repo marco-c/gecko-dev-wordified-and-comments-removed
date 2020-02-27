@@ -7,12 +7,12 @@ bad_style
 )
 ]
 use
-*
-;
-use
 interfaces
 :
 :
+*
+;
+use
 *
 ;
 /
