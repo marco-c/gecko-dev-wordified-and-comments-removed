@@ -26,7 +26,6 @@ border
 nonzero
 "
 MozTableBorderNonzero
-mozTableBorderNonzero
 _
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -40,7 +39,6 @@ browser
 frame
 "
 MozBrowserFrame
-mozBrowserFrame
 _
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -49,7 +47,6 @@ PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 link
 "
 Link
-link
 IN_UNVISITED_STATE
 _
 )
@@ -60,7 +57,6 @@ any
 link
 "
 AnyLink
-anyLink
 IN_VISITED_OR_UNVISITED_STATE
 _
 )
@@ -69,7 +65,6 @@ _
 visited
 "
 Visited
-visited
 IN_VISITED_STATE
 _
 )
@@ -78,7 +73,6 @@ _
 active
 "
 Active
-active
 IN_ACTIVE_STATE
 _
 )
@@ -87,7 +81,6 @@ _
 checked
 "
 Checked
-checked
 IN_CHECKED_STATE
 _
 )
@@ -96,7 +89,6 @@ _
 defined
 "
 Defined
-defined
 IN_DEFINED_STATE
 _
 )
@@ -105,7 +97,6 @@ _
 disabled
 "
 Disabled
-disabled
 IN_DISABLED_STATE
 _
 )
@@ -114,7 +105,6 @@ _
 enabled
 "
 Enabled
-enabled
 IN_ENABLED_STATE
 _
 )
@@ -123,7 +113,6 @@ _
 focus
 "
 Focus
-focus
 IN_FOCUS_STATE
 _
 )
@@ -134,7 +123,6 @@ focus
 within
 "
 FocusWithin
-focusWithin
 IN_FOCUS_WITHIN_STATE
 _
 )
@@ -145,7 +133,6 @@ focus
 visible
 "
 FocusVisible
-focusVisible
 IN_FOCUS_VISIBLE_STATE
 _
 )
@@ -154,7 +141,6 @@ _
 hover
 "
 Hover
-hover
 IN_HOVER_STATE
 _
 )
@@ -168,7 +154,6 @@ drag
 over
 "
 MozDragOver
-mozDragOver
 IN_DRAGOVER_STATE
 _
 )
@@ -177,7 +162,6 @@ _
 target
 "
 Target
-target
 IN_TARGET_STATE
 _
 )
@@ -186,7 +170,6 @@ _
 indeterminate
 "
 Indeterminate
-indeterminate
 IN_INDETERMINATE_STATE
 _
 )
@@ -200,7 +183,6 @@ devtools
 highlighted
 "
 MozDevtoolsHighlighted
-mozDevtoolsHighlighted
 IN_DEVTOOLS_HIGHLIGHTED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -214,7 +196,6 @@ styleeditor
 transitioning
 "
 MozStyleeditorTransitioning
-mozStyleeditorTransitioning
 IN_STYLEEDITOR_TRANSITIONING_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -223,7 +204,6 @@ PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 fullscreen
 "
 Fullscreen
-fullscreen
 IN_FULLSCREEN_STATE
 _
 )
@@ -252,7 +232,6 @@ moz
 focusring
 "
 MozFocusRing
-mozFocusRing
 IN_FOCUSRING_STATE
 _
 )
@@ -264,7 +243,6 @@ moz
 broken
 "
 MozBroken
-mozBroken
 IN_BROKEN_STATE
 _
 )
@@ -276,7 +254,6 @@ moz
 loading
 "
 MozLoading
-mozLoading
 IN_LOADING_STATE
 _
 )
@@ -288,7 +265,6 @@ moz
 suppressed
 "
 MozSuppressed
-mozSuppressed
 IN_SUPPRESSED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -304,7 +280,6 @@ dir
 attr
 "
 MozHasDirAttr
-mozHasDirAttr
 IN_HAS_DIR_ATTR_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -320,7 +295,6 @@ attr
 ltr
 "
 MozDirAttrLTR
-mozDirAttrLTR
 IN_HAS_DIR_ATTR_LTR_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -336,7 +310,6 @@ attr
 rtl
 "
 MozDirAttrRTL
-mozDirAttrRTL
 IN_HAS_DIR_ATTR_RTL_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -354,7 +327,6 @@ like
 auto
 "
 MozDirAttrLikeAuto
-mozDirAttrLikeAuto
 IN_HAS_DIR_ATTR_LIKE_AUTO_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -366,7 +338,6 @@ moz
 autofill
 "
 MozAutofill
-mozAutofill
 IN_AUTOFILL_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -380,7 +351,6 @@ autofill
 preview
 "
 MozAutofillPreview
-mozAutofillPreview
 IN_AUTOFILL_PREVIEW_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -394,7 +364,6 @@ handler
 clicktoplay
 "
 MozHandlerClickToPlay
-mozHandlerClickToPlay
 IN_HANDLER_CLICK_TO_PLAY_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -410,7 +379,6 @@ vulnerable
 updatable
 "
 MozHandlerVulnerableUpdatable
-mozHandlerVulnerableUpdatable
 IN_HANDLER_VULNERABLE_UPDATABLE_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -428,7 +396,6 @@ no
 update
 "
 MozHandlerVulnerableNoUpdate
-mozHandlerVulnerableNoUpdate
 IN_HANDLER_VULNERABLE_NO_UPDATE_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -442,7 +409,6 @@ handler
 disabled
 "
 MozHandlerDisabled
-mozHandlerDisabled
 IN_HANDLER_DISABLED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -456,7 +422,6 @@ handler
 blocked
 "
 MozHandlerBlocked
-mozHandlerBlocked
 IN_HANDLER_BLOCKED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -470,7 +435,6 @@ handler
 crashed
 "
 MozHandlerCrashed
-mozHandlerCrashed
 IN_HANDLER_CRASHED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -488,7 +452,6 @@ script
 level
 "
 MozMathIncrementScriptLevel
-mozMathIncrementScriptLevel
 IN_INCREMENT_SCRIPT_LEVEL_STATE
 _
 )
@@ -497,7 +460,6 @@ _
 required
 "
 Required
-required
 IN_REQUIRED_STATE
 _
 )
@@ -506,7 +468,6 @@ _
 optional
 "
 Optional
-optional
 IN_OPTIONAL_STATE
 _
 )
@@ -515,7 +476,6 @@ _
 valid
 "
 Valid
-valid
 IN_VALID_STATE
 _
 )
@@ -524,7 +484,6 @@ _
 invalid
 "
 Invalid
-invalid
 IN_INVALID_STATE
 _
 )
@@ -535,7 +494,6 @@ in
 range
 "
 InRange
-inRange
 IN_INRANGE_STATE
 _
 )
@@ -548,7 +506,6 @@ of
 range
 "
 OutOfRange
-outOfRange
 IN_OUTOFRANGE_STATE
 _
 )
@@ -557,7 +514,6 @@ _
 default
 "
 Default
-defaultPseudo
 IN_DEFAULT_STATE
 _
 )
@@ -568,7 +524,6 @@ placeholder
 shown
 "
 PlaceholderShown
-placeholderShown
 IN_PLACEHOLDER_SHOWN_STATE
 _
 )
@@ -582,7 +537,6 @@ read
 only
 "
 MozReadOnly
-mozReadOnly
 IN_MOZ_READONLY_STATE
 _
 )
@@ -596,7 +550,6 @@ read
 write
 "
 MozReadWrite
-mozReadWrite
 IN_MOZ_READWRITE_STATE
 _
 )
@@ -610,7 +563,6 @@ submit
 invalid
 "
 MozSubmitInvalid
-mozSubmitInvalid
 IN_MOZ_SUBMITINVALID_STATE
 _
 )
@@ -624,7 +576,6 @@ ui
 valid
 "
 MozUIValid
-mozUIValid
 IN_MOZ_UI_VALID_STATE
 _
 )
@@ -638,7 +589,6 @@ ui
 invalid
 "
 MozUIInvalid
-mozUIInvalid
 IN_MOZ_UI_INVALID_STATE
 _
 )
@@ -652,7 +602,6 @@ meter
 optimum
 "
 MozMeterOptimum
-mozMeterOptimum
 IN_OPTIMUM_STATE
 _
 )
@@ -668,7 +617,6 @@ sub
 optimum
 "
 MozMeterSubOptimum
-mozMeterSubOptimum
 IN_SUB_OPTIMUM_STATE
 _
 )
@@ -686,7 +634,6 @@ sub
 optimum
 "
 MozMeterSubSubOptimum
-mozMeterSubSubOptimum
 IN_SUB_SUB_OPTIMUM_STATE
 _
 )
@@ -700,7 +647,6 @@ user
 disabled
 "
 MozUserDisabled
-mozUserDisabled
 IN_USER_DISABLED_STATE
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS_AND_CHROME
 )
@@ -714,7 +660,6 @@ first
 node
 "
 MozFirstNode
-firstNode
 _
 _
 )
@@ -728,7 +673,6 @@ last
 node
 "
 MozLastNode
-lastNode
 _
 _
 )
@@ -742,7 +686,6 @@ only
 whitespace
 "
 MozOnlyWhitespace
-mozOnlyWhitespace
 _
 _
 )
@@ -756,7 +699,6 @@ native
 anonymous
 "
 MozNativeAnonymous
-mozNativeAnonymous
 _
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -774,7 +716,6 @@ no
 specificity
 "
 MozNativeAnonymousNoSpecificity
-mozNativeAnonymousNoSpecificity
 _
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -792,7 +733,6 @@ tree
 root
 "
 MozUseShadowTreeRoot
-mozUseShadowTreeRoot
 _
 PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
 )
@@ -806,7 +746,6 @@ is
 html
 "
 MozIsHTML
-mozIsHTML
 _
 _
 )
@@ -818,7 +757,6 @@ moz
 placeholder
 "
 MozPlaceholder
-mozPlaceholder
 _
 _
 )
@@ -830,7 +768,6 @@ moz
 lwtheme
 "
 MozLWTheme
-mozLWTheme
 _
 _
 )
@@ -844,7 +781,6 @@ lwtheme
 brighttext
 "
 MozLWThemeBrightText
-mozLWThemeBrightText
 _
 _
 )
@@ -858,7 +794,6 @@ lwtheme
 darktext
 "
 MozLWThemeDarkText
-mozLWThemeDarkText
 _
 _
 )
@@ -872,7 +807,6 @@ window
 inactive
 "
 MozWindowInactive
-mozWindowInactive
 _
 _
 )
