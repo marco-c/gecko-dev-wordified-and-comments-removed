@@ -171,6 +171,11 @@ opt
 32
 clang
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 config
@@ -326,6 +331,11 @@ debug
 32
 clang
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 config
@@ -468,6 +478,11 @@ PERFHERDER_EXTRA_OPTIONS
 opt
 64
 clang
+"
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
 "
 run
 :
@@ -623,6 +638,11 @@ PERFHERDER_EXTRA_OPTIONS
 debug
 64
 clang
+"
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
 "
 run
 :
