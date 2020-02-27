@@ -4844,6 +4844,12 @@ SetMemoryOnly
 (
 )
 {
+CacheFileAutoLock
+lock
+(
+this
+)
+;
 LOG
 (
 (
@@ -11639,6 +11645,12 @@ bool
 aIsAltData
 )
 {
+CacheFileAutoLock
+lock
+(
+this
+)
+;
 if
 (
 mSkipSizeCheck
