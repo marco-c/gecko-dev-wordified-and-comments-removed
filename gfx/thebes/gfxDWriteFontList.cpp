@@ -8258,7 +8258,10 @@ mFontFamilies
 Put
 (
 name
+RefPtr
+{
 fam
+}
 )
 ;
 uint32_t
@@ -8830,7 +8833,10 @@ mFontSubstitutes
 Put
 (
 substituteName
+RefPtr
+{
 ff
+}
 )
 ;
 }
@@ -9115,7 +9121,10 @@ mFontSubstitutes
 Put
 (
 substituteName
+RefPtr
+{
 ff
+}
 )
 ;
 }

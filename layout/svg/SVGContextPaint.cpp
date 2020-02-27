@@ -1227,7 +1227,10 @@ mPatternCache
 Put
 (
 aOpacity
+RefPtr
+{
 pattern
+}
 )
 ;
 return

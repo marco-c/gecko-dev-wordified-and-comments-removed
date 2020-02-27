@@ -2250,7 +2250,13 @@ mDataSurfaces
 Put
 (
 aRefPtr
+std
+:
+:
+move
+(
 aSurface
+)
 )
 ;
 }

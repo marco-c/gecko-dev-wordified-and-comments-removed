@@ -2567,7 +2567,13 @@ aResolved
 Put
 (
 aTabId
+std
+:
+:
+move
+(
 snapshot
+)
 )
 ;
 return

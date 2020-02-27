@@ -1514,7 +1514,10 @@ mSingleTextureMasks
 Put
 (
 texture
+RefPtr
+{
 op
+}
 )
 ;
 return

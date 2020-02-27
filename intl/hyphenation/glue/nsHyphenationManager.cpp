@@ -826,7 +826,10 @@ mHyphenators
 Put
 (
 aLocale
+RefPtr
+{
 hyph
+}
 )
 ;
 return
@@ -1857,7 +1860,13 @@ mHyphAliases
 Put
 (
 aliasAtom
+std
+:
+:
+move
+(
 valueAtom
+)
 )
 ;
 }

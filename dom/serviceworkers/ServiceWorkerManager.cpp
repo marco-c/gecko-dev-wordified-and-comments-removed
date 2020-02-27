@@ -8890,7 +8890,10 @@ mInfos
 Put
 (
 aScope
+RefPtr
+{
 aInfo
+}
 )
 ;
 swm

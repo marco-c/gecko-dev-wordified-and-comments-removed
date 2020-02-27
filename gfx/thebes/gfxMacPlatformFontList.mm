@@ -5773,7 +5773,10 @@ table
 Put
 (
 key
+RefPtr
+{
 familyEntry
+}
 )
 ;
 /
@@ -7794,7 +7797,13 @@ mFontFamilies
 Put
 (
 key
+std
+:
+:
+move
+(
 familyEntry
+)
 )
 ;
 LOG_FONTLIST

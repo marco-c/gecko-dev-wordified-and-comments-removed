@@ -9316,7 +9316,10 @@ Put
 (
 &
 key
+RefPtr
+{
 sheet
+}
 )
 ;
 #
@@ -9912,7 +9915,13 @@ mInlineSheets
 Put
 (
 aBuffer
+std
+:
+:
+move
+(
 sheet
+)
 )
 ;
 }
@@ -10636,7 +10645,10 @@ Put
 (
 &
 key
+RefPtr
+{
 data
+}
 )
 ;
 data

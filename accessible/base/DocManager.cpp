@@ -632,7 +632,10 @@ mXPCDocumentCache
 Put
 (
 aDocument
+RefPtr
+{
 xpcDoc
+}
 )
 ;
 }
@@ -713,7 +716,10 @@ sRemoteXPCDocumentCache
 Put
 (
 aDoc
+RefPtr
+{
 doc
+}
 )
 ;
 return
@@ -2216,7 +2222,10 @@ mDocAccessibleCache
 Put
 (
 aDocument
+RefPtr
+{
 docAcc
+}
 )
 ;
 docAcc

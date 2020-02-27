@@ -28411,7 +28411,10 @@ mGamepads
 Put
 (
 aIndex
+RefPtr
+{
 aGamepad
+}
 )
 ;
 }

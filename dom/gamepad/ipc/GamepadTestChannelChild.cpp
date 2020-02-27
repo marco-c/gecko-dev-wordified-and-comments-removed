@@ -43,7 +43,10 @@ mPromiseList
 Put
 (
 aID
+RefPtr
+{
 aPromise
+}
 )
 ;
 }

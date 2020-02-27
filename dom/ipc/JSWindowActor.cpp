@@ -1244,7 +1244,10 @@ meta
 queryId
 (
 )
+RefPtr
+{
 promise
+}
 )
 ;
 SendRawMessage

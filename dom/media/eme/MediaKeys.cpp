@@ -597,7 +597,10 @@ session
 GetSessionId
 (
 )
+RefPtr
+{
 session
+}
 )
 ;
 }
@@ -1231,7 +1234,10 @@ mPromises
 Put
 (
 id
+RefPtr
+{
 aPromise
+}
 )
 ;
 return
@@ -1824,7 +1830,10 @@ aSession
 GetSessionId
 (
 )
+RefPtr
+{
 aSession
+}
 )
 ;
 }
@@ -2038,7 +2047,10 @@ session
 GetSessionId
 (
 )
+RefPtr
+{
 session
+}
 )
 ;
 promise
@@ -3256,7 +3268,10 @@ session
 Token
 (
 )
+RefPtr
+{
 session
+}
 )
 ;
 return

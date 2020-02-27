@@ -615,8 +615,11 @@ mNameToProcessorMap
 Put
 (
 aName
+RefPtr
+{
 &
 aProcessorCtor
+}
 fallible
 )
 )

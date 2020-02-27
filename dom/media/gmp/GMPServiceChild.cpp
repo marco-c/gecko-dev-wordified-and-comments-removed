@@ -2473,7 +2473,10 @@ mContentParents
 Put
 (
 aOtherPid
+RefPtr
+{
 parent
+}
 )
 ;
 return

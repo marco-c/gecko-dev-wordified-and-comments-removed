@@ -8923,7 +8923,10 @@ aAccessible
 UniqueID
 (
 )
+RefPtr
+{
 aAccessible
+}
 )
 ;
 aAccessible

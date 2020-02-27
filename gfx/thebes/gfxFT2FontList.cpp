@@ -6861,7 +6861,10 @@ mFontFamilies
 Put
 (
 familyKey
+RefPtr
+{
 family
+}
 )
 ;
 if
@@ -8335,7 +8338,10 @@ mFontFamilies
 Put
 (
 key
+RefPtr
+{
 family
+}
 )
 ;
 if

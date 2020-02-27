@@ -939,8 +939,11 @@ aPolicy
 Id
 (
 )
+RefPtr
+{
 &
 aPolicy
+}
 )
 ;
 mExtensionHosts
@@ -952,8 +955,11 @@ aPolicy
 MozExtensionHostname
 (
 )
+RefPtr
+{
 &
 aPolicy
+}
 )
 ;
 return
@@ -1076,8 +1082,11 @@ Put
 (
 &
 aObserver
+RefPtr
+{
 &
 aObserver
+}
 )
 ;
 return

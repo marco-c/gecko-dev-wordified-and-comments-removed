@@ -26015,7 +26015,10 @@ mConnections
 Put
 (
 aOrigin
+RefPtr
+{
 connection
+}
 )
 ;
 return
@@ -44970,7 +44973,13 @@ gPreparedObsevers
 Put
 (
 observerId
+std
+:
+:
+move
+(
 observer
+)
 )
 ;
 LSRequestPrepareObserverResponse

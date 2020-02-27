@@ -2326,7 +2326,13 @@ mUriVoiceMap
 Put
 (
 aUri
+std
+:
+:
+move
+(
 voice
+)
 )
 ;
 mUseGlobalQueue

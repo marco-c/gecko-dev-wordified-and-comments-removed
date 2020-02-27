@@ -3708,8 +3708,11 @@ mCustomOfflineDevices
 Put
 (
 profilePath
+RefPtr
+{
 *
 aDevice
+}
 )
 ;
 }

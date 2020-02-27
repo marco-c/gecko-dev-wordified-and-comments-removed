@@ -2939,7 +2939,10 @@ mGamepadPromiseList
 Put
 (
 aID
+RefPtr
+{
 aPromise
+}
 )
 ;
 }

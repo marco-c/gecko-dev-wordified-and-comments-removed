@@ -132,12 +132,6 @@ nullptr
 )
 const
 ;
-using
-base_type
-:
-:
-Put
-;
 template
 <
 typename

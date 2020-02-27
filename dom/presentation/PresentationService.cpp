@@ -2351,7 +2351,10 @@ mSessionInfoAtReceiver
 Put
 (
 sessionId
+RefPtr
+{
 info
+}
 )
 ;
 nsCOMPtr
@@ -3517,7 +3520,10 @@ mSessionInfoAtController
 Put
 (
 aSessionId
+RefPtr
+{
 info
+}
 )
 ;
 AddRespondingSessionId
@@ -4906,7 +4912,10 @@ mRespondingListeners
 Put
 (
 aWindowId
+RefPtr
+{
 aListener
+}
 )
 ;
 return

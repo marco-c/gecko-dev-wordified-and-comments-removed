@@ -2588,7 +2588,10 @@ mZips
 Put
 (
 uri
+RefPtr
+{
 zip
+}
 )
 ;
 }
@@ -2860,7 +2863,10 @@ mZips
 Put
 (
 uri
+RefPtr
+{
 zip
+}
 )
 ;
 }

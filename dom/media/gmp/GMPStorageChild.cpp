@@ -480,7 +480,10 @@ mRecords
 Put
 (
 aRecordName
+RefPtr
+{
 record
+}
 )
 ;
 record

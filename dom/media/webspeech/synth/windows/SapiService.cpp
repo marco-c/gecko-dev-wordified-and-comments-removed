@@ -1370,7 +1370,13 @@ mVoices
 Put
 (
 uri
+std
+:
+:
+move
+(
 voiceToken
+)
 )
 ;
 }

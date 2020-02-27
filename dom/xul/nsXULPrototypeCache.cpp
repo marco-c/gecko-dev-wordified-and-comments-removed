@@ -764,7 +764,10 @@ mPrototypeTable
 Put
 (
 uri
+RefPtr
+{
 aDocument
+}
 )
 ;
 return
@@ -822,7 +825,10 @@ mStyleSheetTable
 Put
 (
 uri
+RefPtr
+{
 aStyleSheet
+}
 )
 ;
 return

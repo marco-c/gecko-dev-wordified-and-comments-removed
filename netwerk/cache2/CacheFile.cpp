@@ -2707,7 +2707,6 @@ Key
 (
 )
 ;
-const
 RefPtr
 <
 CacheFileChunk
@@ -2763,7 +2762,10 @@ mChunks
 Put
 (
 idx
+RefPtr
+{
 chunk
+}
 )
 ;
 chunk
@@ -2792,10 +2794,10 @@ IsReady
 ;
 ReleaseOutsideLock
 (
-RefPtr
-<
-nsISupports
->
+std
+:
+:
+move
 (
 chunk
 )
@@ -7126,7 +7128,10 @@ mChunks
 Put
 (
 aIndex
+RefPtr
+{
 chunk
+}
 )
 ;
 mCachedChunks
@@ -7288,7 +7293,10 @@ mChunks
 Put
 (
 aIndex
+RefPtr
+{
 chunk
+}
 )
 ;
 chunk
@@ -7479,7 +7487,10 @@ mChunks
 Put
 (
 aIndex
+RefPtr
+{
 chunk
+}
 )
 ;
 chunk
@@ -8853,7 +8864,10 @@ aChunk
 Index
 (
 )
+RefPtr
+{
 aChunk
+}
 )
 ;
 }

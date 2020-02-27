@@ -1210,7 +1210,13 @@ aSurface
 GetSurfaceKey
 (
 )
+RefPtr
+<
+CachedSurface
+>
+{
 aSurface
+}
 fallible
 )
 ;
@@ -3489,7 +3495,10 @@ aProvider
 GetImageKey
 (
 )
+RefPtr
+{
 cache
+}
 fallible
 )
 )
@@ -4827,7 +4836,10 @@ mImageCaches
 Put
 (
 aImageKey
+RefPtr
+{
 cache
+}
 )
 ;
 }
