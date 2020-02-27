@@ -873,11 +873,21 @@ worker
 type
 '
 :
+job
+.
+get
+(
+'
+worker
+-
+type
+'
 '
 linux
 -
 signing
 '
+)
             
 '
 worker

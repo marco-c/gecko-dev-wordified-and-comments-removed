@@ -166,3 +166,10 @@ attributes
 retrigger
 :
 true
+worker
+-
+type
+:
+linux
+-
+depsigning
