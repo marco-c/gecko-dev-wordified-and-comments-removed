@@ -2924,7 +2924,7 @@ outVisNode
 *
 outVisNode
 =
-mStartReasonNode
+mStartReasonContent
 ;
 }
 if
@@ -3134,7 +3134,7 @@ outVisNode
 *
 outVisNode
 =
-mEndReasonNode
+mEndReasonContent
 ;
 }
 if
@@ -3530,7 +3530,7 @@ WSType
 :
 text
 ;
-mStartReasonNode
+mStartReasonContent
 =
 textNode
 ;
@@ -3632,7 +3632,7 @@ WSType
 :
 otherBlock
 ;
-mStartReasonNode
+mStartReasonContent
 =
 priorNode
 ;
@@ -3826,7 +3826,7 @@ WSType
 :
 text
 ;
-mStartReasonNode
+mStartReasonContent
 =
 textNode
 ;
@@ -3918,7 +3918,7 @@ WSType
 special
 ;
 }
-mStartReasonNode
+mStartReasonContent
 =
 priorNode
 ;
@@ -3949,7 +3949,7 @@ WSType
 :
 thisBlock
 ;
-mStartReasonNode
+mStartReasonContent
 =
 editableBlockParentOrTopmotEditableInlineContent
 ;
@@ -4090,7 +4090,7 @@ WSType
 :
 text
 ;
-mEndReasonNode
+mEndReasonContent
 =
 textNode
 ;
@@ -4188,7 +4188,7 @@ WSType
 :
 otherBlock
 ;
-mEndReasonNode
+mEndReasonContent
 =
 nextNode
 ;
@@ -4373,7 +4373,7 @@ WSType
 :
 text
 ;
-mEndReasonNode
+mEndReasonContent
 =
 textNode
 ;
@@ -4467,7 +4467,7 @@ WSType
 special
 ;
 }
-mEndReasonNode
+mEndReasonContent
 =
 nextNode
 ;
@@ -4498,7 +4498,7 @@ WSType
 :
 thisBlock
 ;
-mEndReasonNode
+mEndReasonContent
 =
 editableBlockParentOrTopmotEditableInlineContent
 ;
