@@ -399,6 +399,7 @@ for
 (
 directory
 filename
+unified
 )
 cmd
 in
@@ -427,11 +428,27 @@ list
 cmd
 )
             
+if
+unified
+is
+None
+:
+                
 cmd
 .
 append
 (
 filename
+)
+            
+else
+:
+                
+cmd
+.
+append
+(
+unified
 )
             
 variables
@@ -745,6 +762,13 @@ obj
 )
 :
         
+if
+not
+obj
+.
+have_unified_mapping
+:
+            
 for
 f
 in
@@ -757,6 +781,36 @@ obj
 files
 )
 )
+:
+                
+self
+.
+_build_db_line
+(
+obj
+.
+objdir
+obj
+.
+relsrcdir
+obj
+.
+config
+f
+                                    
+obj
+.
+canonical_suffix
+)
+            
+return
+        
+for
+f
+in
+obj
+.
+unified_source_mapping
 :
             
 self
@@ -773,13 +827,49 @@ obj
 .
 config
 f
+[
+0
+]
                                 
 obj
 .
 canonical_suffix
 )
-        
-return
+            
+for
+entry
+in
+f
+[
+1
+]
+:
+                
+self
+.
+_build_db_line
+(
+obj
+.
+objdir
+obj
+.
+relsrcdir
+obj
+.
+config
+                                    
+entry
+obj
+.
+canonical_suffix
+unified
+=
+f
+[
+0
+]
+)
     
 def
 _handle_idl_manager
@@ -964,6 +1054,9 @@ cenv
 filename
                        
 canonical_suffix
+unified
+=
+None
 )
 :
         
@@ -989,6 +1082,7 @@ setdefault
 (
 objdir
 filename
+unified
 )
                                  
 cenv
