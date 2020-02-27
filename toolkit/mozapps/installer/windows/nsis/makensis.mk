@@ -98,6 +98,15 @@ USE_UPX
 :
 =
 else
+ifneq
+(
+(
+UPX
+)
+(
+MOZ_AUTOMATION
+)
+)
 USE_UPX
 :
 =
@@ -106,6 +115,7 @@ USE_UPX
 use
 -
 upx
+endif
 endif
 TOOLKIT_NSIS_FILES
 =
