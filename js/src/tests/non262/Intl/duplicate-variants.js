@@ -160,10 +160,6 @@ u
 kn
 -
 false
--
-kn
--
-false
 "
 ]
 )
@@ -193,8 +189,6 @@ en
 u
 -
 attr1
--
-attr2
 -
 attr2
 "

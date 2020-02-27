@@ -906,20 +906,6 @@ friend
 class
 LanguageTagParser
 ;
-public
-:
-enum
-class
-UnicodeExtensionCanonicalForm
-:
-bool
-{
-No
-Yes
-}
-;
-private
-:
 bool
 canonicalizeUnicodeExtension
 (
@@ -932,8 +918,6 @@ JS
 UniqueChars
 &
 unicodeExtension
-UnicodeExtensionCanonicalForm
-canonicalForm
 )
 ;
 bool
@@ -1020,6 +1004,8 @@ JSContext
 cx
 )
 ;
+public
+:
 static
 const
 char
@@ -1535,8 +1521,6 @@ canonicalizeExtensions
 JSContext
 *
 cx
-UnicodeExtensionCanonicalForm
-canonicalForm
 )
 ;
 bool
@@ -1545,8 +1529,6 @@ canonicalize
 JSContext
 *
 cx
-UnicodeExtensionCanonicalForm
-canonicalForm
 )
 {
 return
@@ -1559,7 +1541,6 @@ cx
 canonicalizeExtensions
 (
 cx
-canonicalForm
 )
 ;
 }

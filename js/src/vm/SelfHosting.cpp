@@ -15483,7 +15483,7 @@ JS_FN
 intl_ValidateAndCanonicalizeUnicodeExtensionType
 "
 intl_ValidateAndCanonicalizeUnicodeExtensionType
-2
+3
 0
 )
 JS_INLINABLE_FN

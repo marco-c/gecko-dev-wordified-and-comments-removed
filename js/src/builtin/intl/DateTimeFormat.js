@@ -1143,6 +1143,9 @@ calendar
 "
 calendar
 "
+"
+ca
+"
 )
 ;
 }
@@ -1184,6 +1187,9 @@ intl_ValidateAndCanonicalizeUnicodeExtensionType
 numberingSystem
 "
 numberingSystem
+"
+"
+nu
 "
 )
 ;
