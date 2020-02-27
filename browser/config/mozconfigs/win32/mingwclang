@@ -24,6 +24,14 @@ t
 be
 used
 ?
+#
+DUMP_SYMS
+-
+isn
+'
+t
+used
+.
 .
 "
 topsrcdir
@@ -48,6 +56,8 @@ need
 makecab
 unset
 MAKECAB
+unset
+DUMP_SYMS
 #
 Sets
 :
