@@ -73,7 +73,7 @@ grip
 )
 #
 ifdef
-_WIN32
+TARGET_IS_WINDOWS
 CHECK
 (
 LoadLibraryUsageChecker
