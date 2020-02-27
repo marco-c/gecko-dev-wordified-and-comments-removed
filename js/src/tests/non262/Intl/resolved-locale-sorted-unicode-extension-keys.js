@@ -1,5 +1,5 @@
 function
-isConstructor
+IsIntlService
 (
 c
 )
@@ -21,6 +21,18 @@ hasOwnProperty
 (
 "
 prototype
+"
+)
+&
+&
+c
+.
+prototype
+.
+hasOwnProperty
+(
+"
+resolvedOptions
 "
 )
 ;
@@ -48,7 +60,7 @@ name
 .
 filter
 (
-isConstructor
+IsIntlService
 )
 ;
 const

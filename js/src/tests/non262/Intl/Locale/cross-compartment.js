@@ -5,11 +5,6 @@ newGlobal
 (
 )
 ;
-addIntlLocale
-(
-g
-)
-;
 var
 tag
 =

@@ -4224,6 +4224,7 @@ protoKey
 {
 JSProto_Collator
 JSProto_DateTimeFormat
+JSProto_Locale
 JSProto_NumberFormat
 JSProto_PluralRules
 JSProto_RelativeTimeFormat
