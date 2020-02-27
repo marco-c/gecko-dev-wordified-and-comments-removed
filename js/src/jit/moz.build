@@ -513,6 +513,16 @@ VMFunctions
 cpp
 '
 '
+WarpBuilder
+.
+cpp
+'
+'
+WarpOracle
+.
+cpp
+'
+'
 WasmBCE
 .
 cpp

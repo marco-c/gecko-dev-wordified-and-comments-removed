@@ -23964,6 +23964,17 @@ return
 true
 ;
 }
+if
+(
+JitOptions
+.
+warpBuilder
+)
+{
+return
+true
+;
+}
 static
 const
 uint32_t
