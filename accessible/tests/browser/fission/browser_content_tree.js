@@ -120,7 +120,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 0
 ]

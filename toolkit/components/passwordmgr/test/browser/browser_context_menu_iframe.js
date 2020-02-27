@@ -181,7 +181,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 0
 ]
@@ -218,7 +220,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 0
 ]
@@ -573,7 +577,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 1
 ]
@@ -707,7 +713,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 2
 ]

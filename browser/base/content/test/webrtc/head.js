@@ -1846,7 +1846,9 @@ children
 =
 aBrowsingContext
 .
-children
+getChildren
+(
+)
 ;
 for
 (

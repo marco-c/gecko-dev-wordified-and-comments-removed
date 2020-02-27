@@ -106,7 +106,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 1
 ]
@@ -684,7 +686,9 @@ browser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 1
 ]

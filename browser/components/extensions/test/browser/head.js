@@ -2252,7 +2252,9 @@ selectedBrowser
 .
 browsingContext
 .
-children
+getChildren
+(
+)
 [
 frameIndex
 ]
