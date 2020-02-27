@@ -975,6 +975,17 @@ ParentChannelListener
 (
 this
 aBrowser
+-
+>
+GetBrowsingContext
+(
+)
+aLoadContext
+-
+>
+UsePrivateBrowsing
+(
+)
 )
 ;
 mDocumentChannelBridge
