@@ -1263,6 +1263,12 @@ IsWindowProxy
 (
 obj
 )
+|
+|
+IsDOMRemoteProxyObject
+(
+obj
+)
 )
 ;
 ExposeObjectToActiveJS
