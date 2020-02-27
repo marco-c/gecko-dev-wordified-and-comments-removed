@@ -2937,10 +2937,6 @@ scripts
 (
 cx
 )
-lazyScripts
-(
-cx
-)
 sources
 (
 cx
@@ -17976,11 +17972,6 @@ scripts
 ;
 f
 (
-lazyScripts
-)
-;
-f
-(
 sources
 )
 ;
@@ -18552,7 +18543,7 @@ LazyScript
 dbg
 -
 >
-lazyScripts
+scripts
 .
 hasEntry
 (
@@ -31496,7 +31487,7 @@ LazyScript
 >
 (
 cx
-lazyScripts
+scripts
 referent
 )
 ;
