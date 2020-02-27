@@ -16937,9 +16937,7 @@ wrapper
 +
 \
 [
-provided_assembler
-.
-program
+assembler
 ]
 +
 \
