@@ -177,6 +177,9 @@ source
 optional
 FontFaceDescriptors
 descriptors
+=
+{
+}
 )
 ;
 attribute
@@ -274,6 +277,9 @@ type
 optional
 FontFaceSetLoadEventInit
 eventInitDict
+=
+{
+}
 )
 ;
 [
