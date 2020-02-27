@@ -104,7 +104,7 @@ Cancel
 ;
 }
 }
-NS_IMPL_CYCLE_COLLECTION
+NS_IMPL_CYCLE_COLLECTION_WEAK
 (
 nsBrowserStatusFilter
 mListener

@@ -1145,11 +1145,9 @@ nsISupports
 nsIDOMEventListener
 )
 NS_INTERFACE_MAP_END
-NS_IMPL_CYCLE_COLLECTION
+NS_IMPL_CYCLE_COLLECTION_WEAK
 (
 BrowserParent
-mFrameElement
-mBrowserDOMWindow
 mLoadContext
 mFrameLoader
 mBrowsingContext

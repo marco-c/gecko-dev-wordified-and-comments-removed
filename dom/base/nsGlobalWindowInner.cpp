@@ -6683,13 +6683,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_BEGIN
 (
 nsGlobalWindowInner
 )
-tmp
--
->
-ClearWeakReferences
-(
-)
-;
+NS_IMPL_CYCLE_COLLECTION_UNLINK_WEAK_REFERENCE
 if
 (
 sInnerWindowsById
