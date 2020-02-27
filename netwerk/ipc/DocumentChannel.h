@@ -100,10 +100,6 @@ class
 LoadInfo
 *
 aLoadInfo
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t
@@ -241,13 +237,6 @@ RefPtr
 nsDocShellLoadState
 >
 mLoadState
-;
-const
-Maybe
-<
-nsString
->
-mInitiatorType
 ;
 const
 uint32_t

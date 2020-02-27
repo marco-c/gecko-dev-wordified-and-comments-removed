@@ -86,10 +86,6 @@ net
 LoadInfo
 *
 aLoadInfo
-const
-nsString
-*
-aInitiatorType
 nsLoadFlags
 aLoadFlags
 uint32_t
@@ -108,7 +104,6 @@ DocumentChannel
 (
 aLoadState
 aLoadInfo
-aInitiatorType
 aLoadFlags
 aLoadType
 aCacheKey
@@ -506,14 +501,6 @@ loadFlags
 )
 =
 mLoadFlags
-;
-args
-.
-initiatorType
-(
-)
-=
-mInitiatorType
 ;
 args
 .

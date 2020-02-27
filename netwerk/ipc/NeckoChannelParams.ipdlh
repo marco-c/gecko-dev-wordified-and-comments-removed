@@ -2469,10 +2469,6 @@ contentBlockingAllowListPrincipal
 TimeStamp
 asyncOpenTime
 ;
-nsString
-?
-initiatorType
-;
 uint64_t
 channelId
 ;
