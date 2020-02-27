@@ -45743,9 +45743,7 @@ push
 .
 currentContext
 .
-getChildren
-(
-)
+children
 )
 ;
 }
@@ -50299,9 +50297,7 @@ push
 .
 currentContext
 .
-getChildren
-(
-)
+children
 )
 ;
 }

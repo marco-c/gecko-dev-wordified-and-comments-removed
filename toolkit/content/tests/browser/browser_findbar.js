@@ -1467,9 +1467,7 @@ browser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]
