@@ -22,11 +22,6 @@ unittest
 -
 features
 "
-"
-geckoview
--
-junit
-"
 ]
 "
 mochitest
@@ -48,9 +43,6 @@ required
 unittest
 -
 features
-"
-"
-mochitest
 "
 ]
 "
