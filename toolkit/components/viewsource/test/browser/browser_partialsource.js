@@ -160,9 +160,7 @@ selectedBrowser
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 [
 0
 ]

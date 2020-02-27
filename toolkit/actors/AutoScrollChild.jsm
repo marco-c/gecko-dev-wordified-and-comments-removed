@@ -1655,9 +1655,7 @@ this
 .
 browsingContext
 .
-getChildren
-(
-)
+children
 )
 {
 if

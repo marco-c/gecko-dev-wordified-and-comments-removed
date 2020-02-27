@@ -1985,9 +1985,7 @@ push
 .
 currContext
 .
-getChildren
-(
-)
+children
 )
 ;
 }
