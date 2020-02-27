@@ -3333,6 +3333,9 @@ GRANTED_WITHOUT_USER_PROMPT
 activeTab
 "
 "
+activityLog
+"
+"
 alarms
 "
 "
@@ -3348,7 +3351,7 @@ contextualIdentities
 cookies
 "
 "
-activityLog
+dns
 "
 "
 geckoProfiler
