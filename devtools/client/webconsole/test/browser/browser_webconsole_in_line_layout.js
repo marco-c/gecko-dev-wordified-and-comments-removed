@@ -29,7 +29,7 @@ layout
 const
 MINIMUM_MESSAGE_HEIGHT
 =
-19
+20
 ;
 add_task
 (
