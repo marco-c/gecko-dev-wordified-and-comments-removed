@@ -85,6 +85,13 @@ build
 build
 build
 -
+fat
+-
+aar
+:
+build
+build
+-
 signing
 :
 signing
