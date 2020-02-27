@@ -11675,6 +11675,11 @@ FocusWithin
 NonTSPseudoClass
 :
 :
+FocusVisible
+|
+NonTSPseudoClass
+:
+:
 MozDragOver
 |
 NonTSPseudoClass
