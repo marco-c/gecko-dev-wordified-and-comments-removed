@@ -1185,9 +1185,6 @@ const
 c_void
 )
 ;
-let
-status
-=
 audio_object_get_property_data_with_qualifier
 (
 plugin_id
@@ -1210,8 +1207,6 @@ size
 mut
 device_id
 )
-;
-status
 }
 ;
 if

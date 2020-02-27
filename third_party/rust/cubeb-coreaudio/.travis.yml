@@ -13,6 +13,12 @@ os
 :
 -
 osx
+env
+:
+-
+RUST_BACKTRACE
+=
+1
 before_script
 :
 -
@@ -25,6 +31,11 @@ cargo
 -
 -
 version
+-
+sh
+install_rustfmt_clippy
+.
+sh
 script
 :
 -
