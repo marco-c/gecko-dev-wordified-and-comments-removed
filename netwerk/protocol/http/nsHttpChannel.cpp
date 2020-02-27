@@ -44894,6 +44894,11 @@ mCaps
 ;
 if
 (
+!
+mIsTRRServiceChannel
+&
+&
+(
 mLoadFlags
 &
 VALIDATE_ALWAYS
@@ -44903,6 +44908,7 @@ BYPASS_LOCAL_CACHE
 (
 mLoadFlags
 mPreferCacheLoadOverBypass
+)
 )
 )
 mCaps
