@@ -152,6 +152,11 @@ nsIIDNService
 idl
 '
 '
+nsINativeDNSResolverOverride
+.
+idl
+'
+'
 nsPIDNSService
 .
 idl
