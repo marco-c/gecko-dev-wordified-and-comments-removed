@@ -94,11 +94,11 @@ DEC_MAJ_VERSION
 #
 define
 DEC_MIN_VERSION
-0
+1
 #
 define
 DEC_REV_VERSION
-2
+0
 #
 define
 YUV_SIZE

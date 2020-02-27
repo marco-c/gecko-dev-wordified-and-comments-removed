@@ -2040,6 +2040,9 @@ sign_bit
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0x80
 )
 ;
@@ -2111,6 +2114,9 @@ m_thresh
 =
 _mm_set1_epi8
 (
+(
+char
+)
 thresh
 )
 ;
@@ -2132,6 +2138,9 @@ kFE
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0xFE
 )
 ;
@@ -2244,6 +2253,9 @@ sign_bit
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0x80
 )
 ;
@@ -2369,6 +2381,9 @@ sign_bit
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0x80
 )
 ;
@@ -2660,6 +2675,9 @@ sign_bit
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0x80
 )
 ;
@@ -6156,6 +6174,10 @@ IXABCD
 _mm_insert_epi16
 (
 _XABCD
+(
+short
+)
+(
 I
 |
 (
@@ -6163,6 +6185,7 @@ X
 <
 <
 8
+)
 )
 0
 )

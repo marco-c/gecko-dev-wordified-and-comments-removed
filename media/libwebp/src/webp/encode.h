@@ -26,7 +26,7 @@ endif
 #
 define
 WEBP_ENCODER_ABI_VERSION
-0x020e
+0x020f
 /
 /
 MAJOR
@@ -231,15 +231,6 @@ uint8_t
 *
 *
 output
-)
-;
-WEBP_EXTERN
-void
-WebPFree
-(
-void
-*
-ptr
 )
 ;
 typedef

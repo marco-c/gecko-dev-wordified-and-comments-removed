@@ -7,13 +7,6 @@ WEBP_WEBP_MUX_TYPES_H_
 #
 include
 <
-stdlib
-.
-h
->
-#
-include
-<
 string
 .
 h
@@ -147,7 +140,7 @@ webp_data
 NULL
 )
 {
-free
+WebPFree
 (
 (
 void
@@ -230,7 +223,7 @@ bytes
 uint8_t
 *
 )
-malloc
+WebPMalloc
 (
 src
 -

@@ -367,6 +367,8 @@ val
 >
 0
 )
+&
+0xff
 ;
 data
 [
@@ -379,6 +381,8 @@ val
 >
 8
 )
+&
+0xff
 ;
 }
 static
@@ -425,6 +429,8 @@ val
 >
 16
 )
+&
+0xff
 ;
 }
 static

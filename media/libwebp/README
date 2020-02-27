@@ -78,9 +78,9 @@ ____
 /
 v1
 .
-0
+1
 .
-2
+0
 Description
 :
 =
@@ -6021,6 +6021,7 @@ WEBP_PRESET_PHOTO
 quality_factor
 )
 )
+{
 return
 0
 ;

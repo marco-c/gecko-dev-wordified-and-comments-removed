@@ -171,6 +171,10 @@ dst
 i
 ]
 =
+(
+uint8_t
+)
+(
 src
 [
 i
@@ -180,6 +184,7 @@ pred
 [
 i
 ]
+)
 ;
 }
 else
@@ -203,6 +208,10 @@ dst
 i
 ]
 =
+(
+uint8_t
+)
+(
 src
 [
 i
@@ -212,6 +221,7 @@ pred
 [
 i
 ]
+)
 ;
 }
 }
@@ -805,6 +815,10 @@ out
 w
 ]
 =
+(
+uint8_t
+)
+(
 in
 [
 w
@@ -817,6 +831,7 @@ pred
 :
 -
 pred
+)
 )
 ;
 }
@@ -1007,12 +1022,17 @@ out
 i
 ]
 =
+(
+uint8_t
+)
+(
 pred
 +
 in
 [
 i
 ]
+)
 ;
 pred
 =
@@ -1087,6 +1107,10 @@ out
 i
 ]
 =
+(
+uint8_t
+)
+(
 prev
 [
 i
@@ -1096,6 +1120,7 @@ in
 [
 i
 ]
+)
 ;
 }
 }
@@ -1180,6 +1205,10 @@ i
 ;
 left
 =
+(
+uint8_t
+)
+(
 in
 [
 i
@@ -1190,6 +1219,7 @@ GradientPredictor_C
 left
 top
 top_left
+)
 )
 ;
 top_left

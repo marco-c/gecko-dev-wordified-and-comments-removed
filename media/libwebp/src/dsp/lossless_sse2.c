@@ -1340,9 +1340,7 @@ VP8LPredictorsAdd_C
 in
 +
 i
-upper
-+
-i
+NULL
 num_pixels
 -
 i
@@ -1352,6 +1350,11 @@ i
 )
 ;
 }
+(
+void
+)
+upper
+;
 }
 static
 void

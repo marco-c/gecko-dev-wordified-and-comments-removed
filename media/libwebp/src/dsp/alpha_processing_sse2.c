@@ -1468,6 +1468,9 @@ all_0xff
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0xff
 )
 ;
@@ -1595,6 +1598,9 @@ all_0xff
 =
 _mm_set1_epi8
 (
+(
+char
+)
 0xff
 )
 ;

@@ -26,7 +26,7 @@ endif
 #
 define
 WEBP_DECODER_ABI_VERSION
-0x0208
+0x0209
 /
 /
 MAJOR
@@ -224,15 +224,6 @@ stride
 int
 *
 uv_stride
-)
-;
-WEBP_EXTERN
-void
-WebPFree
-(
-void
-*
-ptr
 )
 ;
 WEBP_EXTERN
