@@ -130,12 +130,7 @@ browsingContext
 =
 loadInfo
 .
-frameBrowsingContext
-|
-|
-loadInfo
-.
-browsingContext
+targetBrowsingContext
 ;
 let
 sourceHost
