@@ -148,6 +148,17 @@ global
 sop
 )
 ;
+mozilla
+:
+:
+recordreplay
+:
+:
+HoldJSObject
+(
+global
+)
+;
 }
 static
 SandboxPrivate

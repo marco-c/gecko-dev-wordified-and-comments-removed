@@ -426,6 +426,16 @@ mozilla
 :
 :
 SequentiallyConsistent
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 lock_
 ;

@@ -1029,6 +1029,16 @@ return
 mIsCrossProcess
 ;
 }
+static
+bool
+MessageOriginatesFromMiddleman
+(
+const
+Message
+&
+aMessage
+)
+;
 #
 ifdef
 OS_WIN

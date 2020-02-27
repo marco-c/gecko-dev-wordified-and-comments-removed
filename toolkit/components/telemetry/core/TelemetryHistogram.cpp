@@ -221,13 +221,13 @@ using
 mozilla
 :
 :
-StaticMutex
+StaticMutexAutoLock
 ;
 using
 mozilla
 :
 :
-StaticMutexAutoLock
+StaticMutexNotRecorded
 ;
 using
 mozilla
@@ -436,7 +436,7 @@ mozilla
 TelemetryIPCAccumulator
 ;
 static
-StaticMutex
+StaticMutexNotRecorded
 gTelemetryHistogramMutex
 ;
 namespace

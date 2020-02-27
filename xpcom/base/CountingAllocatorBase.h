@@ -426,6 +426,13 @@ Atomic
 <
 size_t
 SequentiallyConsistent
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 AmountType
 ;

@@ -193,6 +193,16 @@ MemoryOrdering
 :
 :
 ReleaseAcquire
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 cancel_
 ;

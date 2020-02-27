@@ -561,6 +561,12 @@ HasBeenCloned
 <
 <
 10
+TrackRecordReplayProgress
+=
+1
+<
+<
+11
 HasScriptCounts
 =
 1

@@ -52,11 +52,6 @@ h
 #
 include
 <
-functional
->
-#
-include
-<
 stddef
 .
 h

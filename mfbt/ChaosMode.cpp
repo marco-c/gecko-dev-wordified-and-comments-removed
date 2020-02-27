@@ -17,6 +17,13 @@ Atomic
 <
 uint32_t
 SequentiallyConsistent
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 gChaosModeCounter
 (

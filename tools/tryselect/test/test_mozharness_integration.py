@@ -172,6 +172,16 @@ jsreftest
 '
 mochitest
 -
+devtools
+-
+chrome
+-
+webreplay
+'
+            
+'
+mochitest
+-
 valgrind
 -
 plain

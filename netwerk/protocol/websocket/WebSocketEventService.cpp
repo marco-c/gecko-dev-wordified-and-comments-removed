@@ -109,6 +109,15 @@ XRE_GetProcessType
 !
 =
 GeckoProcessType_Default
+&
+&
+!
+recordreplay
+:
+:
+IsMiddleman
+(
+)
 ;
 }
 }

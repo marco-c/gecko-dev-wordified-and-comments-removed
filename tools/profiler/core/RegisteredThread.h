@@ -352,6 +352,16 @@ MemoryOrdering
 :
 :
 Relaxed
+mozilla
+:
+:
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 mIsBeingProfiled
 ;

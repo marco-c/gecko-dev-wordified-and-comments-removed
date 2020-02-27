@@ -293,11 +293,6 @@ h
 #
 include
 <
-functional
->
-#
-include
-<
 stdint
 .
 h
@@ -903,6 +898,13 @@ MemoryOrdering
 :
 :
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 sActiveAndFeatures
 ;

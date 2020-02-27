@@ -355,6 +355,13 @@ Atomic
 <
 LogLevel
 Relaxed
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 mLevel
 ;
@@ -440,6 +447,13 @@ Atomic
 LogModule
 *
 ReleaseAcquire
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 mLog
 ;

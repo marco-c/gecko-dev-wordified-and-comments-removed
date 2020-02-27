@@ -188,6 +188,13 @@ Atomic
 <
 int32_t
 ReleaseAcquire
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 >
 nsDynamicAtom
 :

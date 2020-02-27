@@ -395,7 +395,7 @@ MarkersStorage
 mMarkersStores
 ;
 static
-StaticMutex
+StaticMutexNotRecorded
 sMutex
 ;
 }

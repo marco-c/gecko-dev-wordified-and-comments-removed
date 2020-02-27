@@ -739,6 +739,13 @@ mModulesLock
 "
 logmodules
 "
+recordreplay
+:
+:
+Behavior
+:
+:
+DontPreserve
 )
 mModules
 (
