@@ -38,6 +38,7 @@ async
 {
 dispatch
 getState
+toolbox
 webConsoleUI
 hud
 }
@@ -83,12 +84,12 @@ getFrameActor
 )
 ;
 const
-webConsoleFront
+webconsoleFront
 =
 await
 webConsoleUI
 .
-getWebConsoleFront
+getWebconsoleFront
 (
 {
 frameActorId
@@ -357,7 +358,7 @@ autocompleteDataFetch
 {
 input
 frameActorId
-webConsoleFront
+webconsoleFront
 authorizedEvaluations
 force
 expressionVars
@@ -419,13 +420,14 @@ autocompleteDataFetch
 input
 frameActorId
 force
-webConsoleFront
+webconsoleFront
 authorizedEvaluations
 expressionVars
 }
 )
 {
 return
+async
 (
 {
 dispatch
@@ -461,7 +463,7 @@ id
 }
 )
 ;
-webConsoleFront
+webconsoleFront
 .
 autocomplete
 (
