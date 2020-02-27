@@ -56803,9 +56803,6 @@ StrongPtrForMember
 %
 s
 >
-:
-:
-Type
 "
 %
 typeName
