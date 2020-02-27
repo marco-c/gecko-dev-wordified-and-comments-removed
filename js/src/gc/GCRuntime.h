@@ -3544,7 +3544,7 @@ trc
 )
 ;
 void
-markFinalizationGroupData
+markFinalizationGroupRoots
 (
 JSTracer
 *
