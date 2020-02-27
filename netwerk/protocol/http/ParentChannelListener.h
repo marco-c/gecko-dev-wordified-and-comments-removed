@@ -42,6 +42,13 @@ h
 #
 include
 "
+nsIRemoteWindowContext
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -104,6 +111,8 @@ public
 nsINetworkInterceptController
 private
 nsIAuthPromptProvider
+private
+nsIRemoteWindowContext
 {
 public
 :
@@ -114,6 +123,7 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_DECL_NSIAUTHPROMPTPROVIDER
+NS_DECL_NSIREMOTEWINDOWCONTEXT
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
 PARENT_CHANNEL_LISTENER
@@ -253,6 +263,11 @@ mBrowsingContext
 ;
 bool
 mIsMultiPart
+=
+false
+;
+bool
+mUsePrivateBrowsing
 =
 false
 ;
