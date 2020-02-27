@@ -1163,9 +1163,6 @@ _blank
 toolbar
 =
 0
-scrollbars
-=
-0
 "
 )
 ;
@@ -1242,11 +1239,11 @@ nsIWebBrowserChrome
 .
 CHROME_SCROLLBARS
 "
-Always
+Should
 have
 scrollbars
-even
 when
+not
 disabled
 explicitly
 "
@@ -1273,11 +1270,11 @@ nsIWebBrowserChrome
 .
 CHROME_SCROLLBARS
 "
-Always
+Should
 have
 scrollbars
-even
 when
+not
 disabled
 explicitly
 "
