@@ -218,6 +218,11 @@ GC
 cpp
 '
 '
+GCParallelTask
+.
+cpp
+'
+'
 GCTrace
 .
 cpp
