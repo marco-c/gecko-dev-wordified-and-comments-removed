@@ -143,6 +143,11 @@ releng
 .
 manifest
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 using
@@ -1084,6 +1089,11 @@ releng
 .
 manifest
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 using
@@ -1841,6 +1851,11 @@ cross
 releng
 .
 manifest
+"
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
 "
 run
 :
