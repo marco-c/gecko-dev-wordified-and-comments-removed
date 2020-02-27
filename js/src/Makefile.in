@@ -515,6 +515,12 @@ check
 jstests
 endif
 endif
+GARBAGE_DIRS
++
+=
+config
+.
+statusd
 DIST_GARBAGE
 =
 config
@@ -526,7 +532,6 @@ log
 config
 .
 status
-*
 \
 config
 /
