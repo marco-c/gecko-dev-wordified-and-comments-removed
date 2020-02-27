@@ -823,6 +823,10 @@ setRecordingPreferences
 :
 SetRecordingPreferences
 ;
+presets
+:
+Presets
+;
 pageContext
 :
 PageContext
@@ -990,6 +994,10 @@ setRecordingPreferences
 :
 SetRecordingPreferences
 ;
+presets
+:
+Presets
+;
 pageContext
 :
 PageContext
@@ -1053,6 +1061,10 @@ ReceiveProfile
 setRecordingPreferences
 :
 SetRecordingPreferences
+;
+presets
+:
+Presets
 ;
 pageContext
 :
@@ -1407,7 +1419,7 @@ number
 }
 export
 interface
-PresetDefinitions
+Presets
 {
 [
 presetName
