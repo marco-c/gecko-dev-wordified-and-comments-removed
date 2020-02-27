@@ -238,9 +238,6 @@ MutableTabContext
 class
 BrowserBridgeChild
 ;
-class
-RemoteFrameChild
-;
 struct
 RemotenessOptions
 ;
