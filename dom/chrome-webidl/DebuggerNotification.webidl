@@ -222,6 +222,9 @@ xhr
 "
 worker
 "
+"
+websocket
+"
 }
 ;
 /
