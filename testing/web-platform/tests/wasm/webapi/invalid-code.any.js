@@ -59,8 +59,8 @@ emptyModuleBinary
 concat
 (
 [
-0
-0
+0xCA
+0xFE
 ]
 )
 )
