@@ -3686,10 +3686,10 @@ launchSSB
 title
 :
 "
-Launch
-Site
-Specific
-Browser
+Install
+Website
+as
+App
 "
 onLocationChange
 (
