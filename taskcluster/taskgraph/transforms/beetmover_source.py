@@ -50,6 +50,26 @@ in
 jobs
 :
         
+for
+depname
+in
+job
+[
+'
+dependencies
+'
+]
+:
+            
+if
+'
+signing
+'
+not
+in
+depname
+:
+                
 del
 job
 [
@@ -58,10 +78,30 @@ dependencies
 '
 ]
 [
-'
-build
-'
+depname
 ]
+                
+break
+        
+else
+:
+            
+raise
+Exception
+(
+"
+Can
+'
+t
+find
+build
+dep
+in
+beetmover
+source
+!
+"
+)
         
 all_upstream_artifacts
 =
@@ -108,9 +148,15 @@ reference
 =
 '
 <
-build
+{
+}
 >
 '
+.
+format
+(
+depname
+)
         
 ]
         
