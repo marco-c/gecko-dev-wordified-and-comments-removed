@@ -10479,12 +10479,11 @@ js
 :
 HandleScriptSourceObject
 sourceObject
-bool
-noScriptRval
-bool
-selfHosted
-bool
-isRunOnce
+js
+:
+:
+ImmutableScriptFlags
+flags
 bool
 hideScriptFromDebugger
 js
