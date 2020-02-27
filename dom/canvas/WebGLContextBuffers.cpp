@@ -606,7 +606,7 @@ return
 if
 (
 !
-IsVirtualBufferTarget
+IsBufferTargetLazilyBound
 (
 target
 )

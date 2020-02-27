@@ -945,11 +945,6 @@ WebGLVertexArrayGL
 .
 cpp
 '
-'
-WebGLVertexAttribData
-.
-cpp
-'
 ]
 SOURCES
 +
