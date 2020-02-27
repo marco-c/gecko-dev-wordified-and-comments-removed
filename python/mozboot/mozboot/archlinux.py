@@ -958,6 +958,17 @@ copy
 makepkg_env
 [
 '
+PKGDEST
+'
+]
+=
+'
+.
+'
+        
+makepkg_env
+[
+'
 PKGEXT
 '
 ]
