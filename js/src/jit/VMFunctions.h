@@ -4840,6 +4840,17 @@ v
 ;
 MOZ_MUST_USE
 bool
+ThrowBadDerivedReturnOrUninitializedThis
+(
+JSContext
+*
+cx
+HandleValue
+v
+)
+;
+MOZ_MUST_USE
+bool
 BaselineGetFunctionThis
 (
 JSContext

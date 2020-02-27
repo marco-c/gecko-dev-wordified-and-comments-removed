@@ -241,7 +241,6 @@ Bailout_NonBigIntInput
 Bailout_NonSharedTypedArrayInput
 Bailout_Debugger
 Bailout_UninitializedThis
-Bailout_BadDerivedConstructorReturn
 Bailout_FirstExecution
 Bailout_OverflowInvalidate
 Bailout_DoubleOutput
@@ -474,14 +473,6 @@ Bailout_UninitializedThis
 return
 "
 Bailout_UninitializedThis
-"
-;
-case
-Bailout_BadDerivedConstructorReturn
-:
-return
-"
-Bailout_BadDerivedConstructorReturn
 "
 ;
 case

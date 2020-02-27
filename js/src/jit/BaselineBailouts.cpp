@@ -9304,9 +9304,6 @@ Bailout_Debugger
 case
 Bailout_UninitializedThis
 :
-case
-Bailout_BadDerivedConstructorReturn
-:
 break
 ;
 case
