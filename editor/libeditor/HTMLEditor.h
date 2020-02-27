@@ -257,6 +257,12 @@ SplitRangeOffResult
 class
 WSRunObject
 ;
+class
+WSRunScanner
+;
+class
+WSScanResult
+;
 enum
 class
 EditSubAction
@@ -4494,9 +4500,9 @@ const
 EditorDOMPoint
 &
 aCaretPoint
-WSRunObject
+WSRunScanner
 &
-aWSRunObjectAtCaret
+aWSRunScannerAtCaret
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -4521,9 +4527,9 @@ const
 EditorDOMPoint
 &
 aCaretPoint
-WSRunObject
+WSRunScanner
 &
-aWSRunObjectAtCaret
+aWSRunScannerAtCaret
 )
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -8601,6 +8607,10 @@ WSRunObject
 friend
 class
 WSRunScanner
+;
+friend
+class
+WSScanResult
 ;
 }
 ;
