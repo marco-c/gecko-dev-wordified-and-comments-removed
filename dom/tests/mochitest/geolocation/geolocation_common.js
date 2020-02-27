@@ -434,6 +434,7 @@ dump
 (
 timestamp
 =
+{
 timestamp
 }
 \
