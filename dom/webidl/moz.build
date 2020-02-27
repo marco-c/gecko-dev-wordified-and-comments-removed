@@ -2739,6 +2739,11 @@ PREPROCESSED_WEBIDL_FILES
 =
 [
 '
+Animation
+.
+webidl
+'
+'
 Node
 .
 webidl
@@ -2784,11 +2789,6 @@ webidl
 '
 '
 Animatable
-.
-webidl
-'
-'
-Animation
 .
 webidl
 '
