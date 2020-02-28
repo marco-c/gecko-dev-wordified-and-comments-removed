@@ -383,11 +383,11 @@ js
 |
 -
 -
-FrameTargetActorProxy
+TabDescriptorActor
 (
-frame
--
-proxy
+descriptors
+/
+tab
 .
 js
 )

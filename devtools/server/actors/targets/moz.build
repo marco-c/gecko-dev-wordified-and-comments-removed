@@ -110,13 +110,6 @@ js
 '
 '
 frame
--
-proxy
-.
-js
-'
-'
-frame
 .
 js
 '
