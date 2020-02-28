@@ -2885,8 +2885,6 @@ current
 sanNameList
 )
 ;
-return
-;
 }
 NS_IMETHODIMP
 nsNSSCertificate
