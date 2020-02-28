@@ -685,6 +685,12 @@ cbindgen
 win64
 -
 nasm
+-
+win64
+-
+dump
+-
+syms
 android
 -
 armv7
