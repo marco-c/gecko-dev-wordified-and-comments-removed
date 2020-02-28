@@ -26,6 +26,14 @@ name
 {
 case
 "
+EmptyMessage
+"
+:
+return
+undefined
+;
+case
+"
 UpdateLayerTree
 "
 :
