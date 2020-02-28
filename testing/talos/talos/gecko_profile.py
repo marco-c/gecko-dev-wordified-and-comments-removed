@@ -410,14 +410,6 @@ update
 {
             
 '
-MOZ_BASE_PROFILER_STARTUP
-'
-:
-'
-1
-'
-            
-'
 MOZ_PROFILER_STARTUP
 '
 :
