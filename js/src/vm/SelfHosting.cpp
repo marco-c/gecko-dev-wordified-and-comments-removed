@@ -1147,7 +1147,7 @@ true
 }
 static
 bool
-intrinsic_ToIntegerPositiveZero
+intrinsic_ToInteger
 (
 JSContext
 *
@@ -13882,12 +13882,12 @@ IntrinsicIsCrossRealmArrayConstructor
 JS_INLINABLE_FN
 (
 "
-ToIntegerPositiveZero
+ToInteger
 "
-intrinsic_ToIntegerPositiveZero
+intrinsic_ToInteger
 1
 0
-IntrinsicToIntegerPositiveZero
+IntrinsicToInteger
 )
 JS_INLINABLE_FN
 (

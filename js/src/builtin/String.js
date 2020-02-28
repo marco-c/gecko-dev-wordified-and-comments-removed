@@ -1768,7 +1768,7 @@ length
 var
 intStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -1786,7 +1786,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -1888,7 +1888,7 @@ this
 var
 intStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -1913,7 +1913,7 @@ undefined
 ?
 size
 :
-ToIntegerPositiveZero
+ToInteger
 (
 length
 )
@@ -2003,7 +2003,7 @@ length
 var
 intStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -2021,7 +2021,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -2118,7 +2118,7 @@ this
 var
 position
 =
-ToIntegerPositiveZero
+ToInteger
 (
 pos
 )
@@ -2244,7 +2244,7 @@ this
 var
 n
 =
-ToIntegerPositiveZero
+ToInteger
 (
 count
 )

@@ -1291,7 +1291,7 @@ std_Math_max
 (
 std_Math_min
 (
-ToIntegerPositiveZero
+ToInteger
 (
 result
 .

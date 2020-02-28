@@ -9,7 +9,7 @@ ToInteger
 getSelfHostedValue
 (
 "
-ToIntegerPositiveZero
+ToInteger
 "
 )
 ;

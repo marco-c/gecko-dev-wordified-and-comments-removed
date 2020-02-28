@@ -693,7 +693,7 @@ assertions
 var
 relativeTarget
 =
-ToIntegerPositiveZero
+ToInteger
 (
 target
 )
@@ -722,7 +722,7 @@ len
 var
 relativeStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -759,7 +759,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -1180,7 +1180,7 @@ value
 var
 relativeStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -1217,7 +1217,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -2008,7 +2008,7 @@ return
 var
 n
 =
-ToIntegerPositiveZero
+ToInteger
 (
 fromIndex
 )
@@ -2359,7 +2359,7 @@ length
 >
 1
 ?
-ToIntegerPositiveZero
+ToInteger
 (
 arguments
 [
@@ -3102,7 +3102,7 @@ O
 var
 relativeStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -3139,7 +3139,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -4421,7 +4421,7 @@ obj
 var
 relativeBegin
 =
-ToIntegerPositiveZero
+ToInteger
 (
 begin
 )
@@ -4458,7 +4458,7 @@ undefined
 ?
 srcLength
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -4626,7 +4626,7 @@ false
 var
 n
 =
-ToIntegerPositiveZero
+ToInteger
 (
 fromIndex
 )
@@ -5388,7 +5388,7 @@ O
 var
 relativeStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -5425,7 +5425,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )
@@ -5741,7 +5741,7 @@ O
 var
 relativeStart
 =
-ToIntegerPositiveZero
+ToInteger
 (
 start
 )
@@ -5778,7 +5778,7 @@ undefined
 ?
 len
 :
-ToIntegerPositiveZero
+ToInteger
 (
 end
 )

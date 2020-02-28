@@ -4871,7 +4871,7 @@ callInfo
 )
 ;
 InliningResult
-inlineToIntegerPositiveZero
+inlineToInteger
 (
 CallInfo
 &
