@@ -167,7 +167,10 @@ readlines
 for
 line
 in
+sorted
+(
 lines
+)
 :
         
 "
