@@ -1704,8 +1704,7 @@ ARefBase
 void
 OnMsgReclaimConnection
 (
-int32_t
-ARefBase
+nsHttpConnection
 *
 )
 ;
