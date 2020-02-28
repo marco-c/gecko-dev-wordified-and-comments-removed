@@ -498,6 +498,11 @@ HttpConnectionMgrParent
 cpp
 '
 '
+HttpConnectionUDP
+.
+cpp
+'
+'
 HttpInfo
 .
 cpp

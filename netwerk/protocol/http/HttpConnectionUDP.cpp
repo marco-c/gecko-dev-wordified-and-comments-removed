@@ -85,7 +85,7 @@ h
 #
 include
 "
-nsHttpConnection
+HttpConnectionUDP
 .
 h
 "
@@ -230,10 +230,10 @@ mozilla
 namespace
 net
 {
-nsHttpConnection
+HttpConnectionUDP
 :
 :
-nsHttpConnection
+HttpConnectionUDP
 (
 )
 :
@@ -456,7 +456,7 @@ LOG
 (
 "
 Creating
-nsHttpConnection
+HttpConnectionUDP
 %
 p
 \
@@ -508,11 +508,11 @@ GetThroughCaptivePortal
 )
 ;
 }
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ~
-nsHttpConnection
+HttpConnectionUDP
 (
 )
 {
@@ -521,7 +521,7 @@ LOG
 (
 "
 Destroying
-nsHttpConnection
+HttpConnectionUDP
 %
 p
 \
@@ -541,7 +541,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 %
 p
 performed
@@ -657,7 +657,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 %
 p
 read
@@ -855,7 +855,7 @@ mFastOpenStatus
 }
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Init
@@ -887,7 +887,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Init
@@ -961,6 +961,97 @@ mSocketOut
 =
 outstream
 ;
+if
+(
+mConnInfo
+-
+>
+IsHttp3
+(
+)
+)
+{
+mHttp3Session
+=
+new
+Http3Session
+(
+)
+;
+nsresult
+rv
+=
+mHttp3Session
+-
+>
+Init
+(
+mConnInfo
+-
+>
+GetOrigin
+(
+)
+mSocketTransport
+this
+)
+;
+if
+(
+NS_FAILED
+(
+rv
+)
+)
+{
+LOG
+(
+(
+"
+HttpConnectionUDP
+:
+:
+Init
+mHttp3Session
+-
+>
+Init
+failed
+"
+"
+[
+this
+=
+%
+p
+rv
+=
+%
+x
+]
+\
+n
+"
+this
+static_cast
+<
+uint32_t
+>
+(
+rv
+)
+)
+)
+;
+return
+rv
+;
+}
+mTransaction
+=
+mHttp3Session
+;
+}
 mCallbacks
 =
 new
@@ -970,7 +1061,7 @@ nsIInterfaceRequestor
 >
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 mCallbacks
@@ -1001,7 +1092,7 @@ NS_OK
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TryTakeSubTransactions
@@ -1149,7 +1240,7 @@ rv
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MoveTransactionsToSpdy
@@ -1195,7 +1286,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MoveTransactionsToSpdy
@@ -1263,7 +1354,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MoveTransactionsToSpdy
@@ -1359,7 +1450,7 @@ NS_OK
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Start0RTTSpdy
@@ -1372,7 +1463,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Start0RTTSpdy
@@ -1455,7 +1546,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Start0RTTSpdy
@@ -1509,7 +1600,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Start0RTTSpdy
@@ -1549,7 +1640,7 @@ mSpdySession
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartSpdy
@@ -1565,7 +1656,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartSpdy
@@ -1735,7 +1826,7 @@ LOG3
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartSpdy
@@ -1896,7 +1987,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartSpdy
@@ -1975,7 +2066,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartSpdy
@@ -2022,7 +2113,7 @@ DontReuse
 }
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2221,7 +2312,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2316,7 +2407,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2346,7 +2437,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2416,7 +2507,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2456,7 +2547,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2552,7 +2643,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2639,7 +2730,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2758,7 +2849,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2842,7 +2933,7 @@ LOG
 (
 (
 "
-nsHttpConection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -2853,9 +2944,9 @@ this
 p
 ]
 closing
+"
+"
 transaction
-"
-"
 %
 p
 "
@@ -2969,7 +3060,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3104,7 +3195,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3147,7 +3238,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3212,7 +3303,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3225,6 +3316,8 @@ p
 setting
 complete
 to
+"
+"
 true
 "
 this
@@ -3338,7 +3431,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3402,7 +3495,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNComplete
@@ -3413,6 +3506,8 @@ this
 p
 ]
 resetting
+"
+"
 Start0RTTSpdy
 "
 this
@@ -3537,7 +3632,7 @@ true
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNCompleteHttp3
@@ -3561,7 +3656,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNCompleteHttp3
@@ -3618,7 +3713,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EnsureNPNCompleteHttp3
@@ -3663,7 +3758,7 @@ mNPNComplete
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnTunnelNudged
@@ -3690,7 +3785,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnTunnelNudged
@@ -3719,7 +3814,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnTunnelNudged
@@ -3741,7 +3836,7 @@ OnSocketWritable
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Activate
@@ -3772,7 +3867,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Activate
@@ -4048,7 +4143,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Activate
@@ -4267,7 +4362,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Activate
@@ -4428,7 +4523,7 @@ rv
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupSSL
@@ -4439,7 +4534,7 @@ LOG1
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupSSL
@@ -4564,7 +4659,7 @@ rv
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupNPNList
@@ -4639,7 +4734,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupSSL
@@ -4734,7 +4829,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupSSL
@@ -4776,7 +4871,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupNPNList
@@ -4805,7 +4900,7 @@ rv
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 AddTransaction
@@ -4992,7 +5087,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 AddTransaction
@@ -5116,7 +5211,7 @@ NS_OK
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Close
@@ -5131,7 +5226,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Close
@@ -5415,7 +5510,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Close
@@ -5470,7 +5565,7 @@ false
 }
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 InitSSLParams
@@ -5485,7 +5580,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 InitSSLParams
@@ -5635,7 +5730,7 @@ NS_OK
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 DontReuse
@@ -5646,7 +5741,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 DontReuse
@@ -5712,7 +5807,7 @@ DontReuse
 }
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TestJoinConnection
@@ -5772,7 +5867,7 @@ false
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 JoinConnection
@@ -5832,7 +5927,7 @@ false
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CanReuse
@@ -5991,7 +6086,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CanReuse
@@ -6041,7 +6136,7 @@ canReuse
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CanDirectlyActivate
@@ -6082,7 +6177,7 @@ RoomForMoreStreams
 ;
 }
 PRIntervalTime
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 IdleTime
@@ -6118,7 +6213,7 @@ mLastReadTime
 ;
 }
 uint32_t
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TimeToLive
@@ -6129,7 +6224,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TTL
@@ -6203,7 +6298,7 @@ timeToLive
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 IsAlive
@@ -6315,7 +6410,7 @@ alive
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetUrgentStartPreferred
@@ -6345,7 +6440,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetUrgentStartPreferred
@@ -6368,7 +6463,7 @@ urgent
 }
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnHeadersAvailable
@@ -6391,7 +6486,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnHeadersAvailable
@@ -7426,7 +7521,7 @@ NS_OK
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 IsReused
@@ -7462,7 +7557,7 @@ mConsiderReusedAfterInterval
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetIsReusedAfter
@@ -7486,7 +7581,7 @@ afterMilliseconds
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TakeTransport
@@ -7598,7 +7693,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TakeTransport
@@ -7627,7 +7722,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 TakeTransport
@@ -7749,7 +7844,7 @@ NS_OK
 ;
 }
 uint32_t
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ReadTimeoutTick
@@ -8098,7 +8193,7 @@ nextTickAfter
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 UpdateTCPKeepalive
@@ -8121,13 +8216,13 @@ MOZ_ASSERT
 aClosure
 )
 ;
-nsHttpConnection
+HttpConnectionUDP
 *
 self
 =
 static_cast
 <
-nsHttpConnection
+HttpConnectionUDP
 *
 >
 (
@@ -8195,7 +8290,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 UpdateTCPKeepalive
@@ -8230,7 +8325,7 @@ rv
 }
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 GetSecurityInfo
@@ -8258,7 +8353,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 GetSecurityInfo
@@ -8362,7 +8457,7 @@ nullptr
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 PushBack
@@ -8379,7 +8474,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 PushBack
@@ -8409,7 +8504,7 @@ mInputOverflow
 NS_ERROR
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 PushBack
@@ -8439,16 +8534,16 @@ NS_OK
 ;
 }
 class
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 :
 public
 Runnable
 {
 public
 :
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 (
-nsHttpConnection
+HttpConnectionUDP
 *
 aConn
 bool
@@ -8463,7 +8558,7 @@ Runnable
 net
 :
 :
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 "
 )
 mConn
@@ -8596,7 +8691,7 @@ private
 :
 RefPtr
 <
-nsHttpConnection
+HttpConnectionUDP
 >
 mConn
 ;
@@ -8609,7 +8704,7 @@ mIsFastOpenForce
 }
 ;
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeSend
@@ -8620,7 +8715,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeSend
@@ -8673,7 +8768,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeSend
@@ -8735,7 +8830,7 @@ true
 NS_DispatchToCurrentThread
 (
 new
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 (
 this
 false
@@ -8763,7 +8858,7 @@ NS_ERROR_UNEXPECTED
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeRecv
@@ -8774,7 +8869,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeRecv
@@ -8813,7 +8908,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ResumeRecv
@@ -8912,7 +9007,7 @@ NS_ERROR_UNEXPECTED
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceSendIO
@@ -8938,13 +9033,13 @@ thread
 "
 )
 ;
-nsHttpConnection
+HttpConnectionUDP
 *
 self
 =
 static_cast
 <
-nsHttpConnection
+HttpConnectionUDP
 *
 >
 (
@@ -8972,7 +9067,7 @@ nullptr
 NS_DispatchToCurrentThread
 (
 new
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 (
 self
 false
@@ -8982,7 +9077,7 @@ false
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MaybeForceSendIO
@@ -9035,7 +9130,7 @@ getter_AddRefs
 (
 mForceSendTimer
 )
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceSendIO
@@ -9049,7 +9144,7 @@ TYPE_ONE_SHOT
 net
 :
 :
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MaybeForceSendIO
@@ -9058,7 +9153,7 @@ MaybeForceSendIO
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceRecv
@@ -9069,7 +9164,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceRecv
@@ -9103,7 +9198,7 @@ return
 NS_DispatchToCurrentThread
 (
 new
-HttpConnectionForceIO
+HttpConnectionUDPForceIO
 (
 this
 true
@@ -9113,7 +9208,7 @@ false
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceSend
@@ -9124,7 +9219,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ForceSend
@@ -9176,7 +9271,7 @@ MaybeForceSendIO
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 BeginIdleMonitoring
@@ -9187,7 +9282,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 BeginIdleMonitoring
@@ -9303,7 +9398,7 @@ nullptr
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EndIdleMonitoring
@@ -9314,7 +9409,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 EndIdleMonitoring
@@ -9403,7 +9498,7 @@ nullptr
 }
 }
 HttpVersion
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 Version
@@ -9445,7 +9540,7 @@ mLastHttpResponseVersion
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CloseTransaction
@@ -9463,7 +9558,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CloseTransaction
@@ -9790,7 +9885,7 @@ true
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 ReadFromStream
@@ -9814,12 +9909,12 @@ uint32_t
 countRead
 )
 {
-nsHttpConnection
+HttpConnectionUDP
 *
 conn
 =
 (
-nsHttpConnection
+HttpConnectionUDP
 *
 )
 closure
@@ -9837,7 +9932,7 @@ countRead
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnReadSegment
@@ -9857,7 +9952,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnReadSegment
@@ -9961,7 +10056,7 @@ mSocketOutCondition
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketWritable
@@ -9972,7 +10067,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketWritable
@@ -10332,7 +10427,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketWritable
@@ -10704,7 +10799,7 @@ rv
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnWriteSegment
@@ -10827,7 +10922,7 @@ mSocketInCondition
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketReadable
@@ -10838,7 +10933,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketReadable
@@ -11014,7 +11109,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketReadable
@@ -11072,7 +11167,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnSocketReadable
@@ -11213,7 +11308,7 @@ rv
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupSecondaryTLS
@@ -11246,7 +11341,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 %
 p
 SetupSecondaryTLS
@@ -11358,7 +11453,7 @@ aSpdyConnectTransaction
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetInSpdyTunnel
@@ -11390,7 +11485,7 @@ false
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MakeConnectString
@@ -11805,7 +11900,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 MakeConnectString
@@ -11861,7 +11956,7 @@ NS_OK
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupProxyConnect
@@ -11872,7 +11967,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetupProxyConnect
@@ -11965,7 +12060,7 @@ buf
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartShortLivedTCPKeepalives
@@ -12047,7 +12142,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartShortLivedTCPKeepalives
@@ -12280,7 +12375,7 @@ mTCPKeepaliveTransitionTimer
 >
 InitWithNamedFuncCallback
 (
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 UpdateTCPKeepalive
@@ -12299,7 +12394,7 @@ TYPE_ONE_SHOT
 net
 :
 :
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartShortLivedTCPKeepalives
@@ -12312,7 +12407,7 @@ else
 NS_WARNING
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartShortLivedTCPKeepalives
@@ -12332,7 +12427,7 @@ NS_OK
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartLongLivedTCPKeepalives
@@ -12451,7 +12546,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 StartLongLivedTCPKeepalives
@@ -12585,7 +12680,7 @@ NS_OK
 ;
 }
 nsresult
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 DisableTCPKeepalives
@@ -12611,7 +12706,7 @@ LOG
 (
 (
 "
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 DisableTCPKeepalives
@@ -12683,15 +12778,15 @@ NS_OK
 }
 NS_IMPL_ADDREF
 (
-nsHttpConnection
+HttpConnectionUDP
 )
 NS_IMPL_RELEASE
 (
-nsHttpConnection
+HttpConnectionUDP
 )
 NS_INTERFACE_MAP_BEGIN
 (
-nsHttpConnection
+HttpConnectionUDP
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -12719,11 +12814,11 @@ HttpConnectionBase
 )
 NS_INTERFACE_MAP_ENTRY_CONCRETE
 (
-nsHttpConnection
+HttpConnectionUDP
 )
 NS_INTERFACE_MAP_END
 NS_IMETHODIMP
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnInputStreamReady
@@ -12899,7 +12994,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnOutputStreamReady
@@ -12984,7 +13079,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 OnTransportStatus
@@ -13019,7 +13114,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 GetInterface
@@ -13084,7 +13179,7 @@ NS_ERROR_NO_INTERFACE
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CheckForTraffic
@@ -13199,7 +13294,7 @@ false
 }
 nsAHttpTransaction
 *
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CloseConnectionFastOpenTakesTooLongOrError
@@ -13407,7 +13502,7 @@ trans
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetFastOpen
@@ -13477,7 +13572,7 @@ UrgentStart
 }
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetFastOpenStatus
@@ -13573,7 +13668,7 @@ tfoStatus
 }
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetEvent
@@ -13730,7 +13825,7 @@ break
 }
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 NoClientCertAuth
@@ -13808,7 +13903,7 @@ GetClientCertSent
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 CanAcceptWebsocket
@@ -13837,7 +13932,7 @@ CanAcceptWebsocket
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 IsProxyConnectInProgress
@@ -13849,7 +13944,7 @@ mProxyConnectInProgress
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 LastTransactionExpectedNoContent
@@ -13861,7 +13956,7 @@ mLastTransactionExpectedNoContent
 ;
 }
 void
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 SetLastTransactionExpectedNoContent
@@ -13876,7 +13971,7 @@ val
 ;
 }
 bool
-nsHttpConnection
+HttpConnectionUDP
 :
 :
 IsPersistent

@@ -112,6 +112,13 @@ h
 #
 include
 "
+HttpConnectionUDP
+.
+h
+"
+#
+include
+"
 sslerr
 .
 h
@@ -360,7 +367,7 @@ aOrigin
 nsISocketTransport
 *
 aSocketTransport
-nsHttpConnection
+HttpConnectionUDP
 *
 readerWriter
 )

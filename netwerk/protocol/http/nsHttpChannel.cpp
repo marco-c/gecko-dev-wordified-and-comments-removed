@@ -806,6 +806,13 @@ h
 #
 include
 "
+nsIDNSRecord
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom

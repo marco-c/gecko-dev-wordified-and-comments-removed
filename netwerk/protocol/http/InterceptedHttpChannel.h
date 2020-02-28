@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsIAsyncVerifyRedirectCallback
+.
+h
+"
+#
+include
+"
 nsINetworkInterceptController
 .
 h
@@ -43,6 +50,13 @@ h
 include
 "
 nsIThreadRetargetableRequest
+.
+h
+"
+#
+include
+"
+nsIThreadRetargetableStreamListener
 .
 h
 "

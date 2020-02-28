@@ -7,14 +7,14 @@ nsHttpConnectionMgr_h__
 #
 include
 "
-HttpConnectionMgrShell
+HttpConnectionBase
 .
 h
 "
 #
 include
 "
-HttpConnectionBase
+HttpConnectionMgrShell
 .
 h
 "
