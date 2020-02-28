@@ -567,7 +567,7 @@ HttpConnectionMgrParent
 :
 ReclaimConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 )
 {

@@ -803,13 +803,6 @@ const
 when
 )
 ;
-HttpVersion
-GetHttpVersionFromSpdy
-(
-SpdyVersion
-sv
-)
-;
 #
 define
 HTTP_ATOM

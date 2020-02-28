@@ -14,6 +14,13 @@ h
 #
 include
 "
+HttpConnectionBase
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -286,7 +293,7 @@ bool
 virtual
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 TakeHttpConnection
 (
@@ -297,7 +304,7 @@ TakeHttpConnection
 virtual
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 HttpConnection
 (
@@ -457,7 +464,7 @@ override
 \
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 TakeHttpConnection
 (
@@ -467,7 +474,7 @@ override
 \
 already_AddRefed
 <
-nsHttpConnection
+HttpConnectionBase
 >
 HttpConnection
 (

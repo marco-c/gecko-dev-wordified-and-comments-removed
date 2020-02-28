@@ -483,6 +483,11 @@ HttpChannelParent
 cpp
 '
 '
+HttpConnectionBase
+.
+cpp
+'
+'
 HttpConnectionMgrChild
 .
 cpp

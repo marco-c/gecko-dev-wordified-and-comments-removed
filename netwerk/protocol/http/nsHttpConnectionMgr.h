@@ -14,6 +14,13 @@ h
 #
 include
 "
+HttpConnectionBase
+.
+h
+"
+#
+include
+"
 nsHttpConnection
 .
 h
@@ -249,7 +256,7 @@ specificCI
 nsHttpConnectionInfo
 *
 wildcardCI
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )
@@ -266,7 +273,7 @@ MOZ_MUST_USE
 nsresult
 CloseIdleConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 )
 ;
@@ -274,14 +281,14 @@ MOZ_MUST_USE
 nsresult
 RemoveIdleConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 )
 ;
 void
 ReportSpdyConnection
 (
-nsHttpConnection
+HttpConnectionBase
 *
 bool
 usingSpdy
@@ -449,7 +456,7 @@ nsTArray
 <
 RefPtr
 <
-nsHttpConnection
+HttpConnectionBase
 >
 >
 mActiveConns
@@ -458,7 +465,7 @@ nsTArray
 <
 RefPtr
 <
-nsHttpConnection
+HttpConnectionBase
 >
 >
 mIdleConns
@@ -649,7 +656,7 @@ nsAHttpConnection
 *
 MakeConnectionHandle
 (
-nsHttpConnection
+HttpConnectionBase
 *
 aWrapped
 )
@@ -657,7 +664,7 @@ aWrapped
 void
 RegisterOriginCoalescingKey
 (
-nsHttpConnection
+HttpConnectionBase
 *
 const
 nsACString
@@ -1335,7 +1342,7 @@ nsConnectionEntry
 *
 nsHttpTransaction
 *
-nsHttpConnection
+HttpConnectionBase
 *
 )
 ;
@@ -1348,7 +1355,7 @@ nsConnectionEntry
 nsAHttpTransaction
 *
 uint32_t
-nsHttpConnection
+HttpConnectionBase
 *
 int32_t
 )
@@ -1411,7 +1418,7 @@ pendingTransInfo
 void
 AddActiveConn
 (
-nsHttpConnection
+HttpConnectionBase
 *
 nsConnectionEntry
 *
@@ -1420,7 +1427,7 @@ nsConnectionEntry
 void
 DecrementActiveConnCount
 (
-nsHttpConnection
+HttpConnectionBase
 *
 )
 ;
@@ -1498,7 +1505,7 @@ nsWeakPtr
 >
 mCoalescingHash
 ;
-nsHttpConnection
+HttpConnectionBase
 *
 FindCoalescableConnection
 (
@@ -1509,7 +1516,7 @@ bool
 justKidding
 )
 ;
-nsHttpConnection
+HttpConnectionBase
 *
 FindCoalescableConnectionByHashKey
 (
@@ -1527,7 +1534,7 @@ justKidding
 void
 UpdateCoalescingForNewConn
 (
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 nsConnectionEntry
@@ -1535,7 +1542,7 @@ nsConnectionEntry
 ent
 )
 ;
-nsHttpConnection
+HttpConnectionBase
 *
 GetH2orH3ActiveConn
 (
@@ -1567,7 +1574,7 @@ pendingQ
 nsConnectionEntry
 *
 ent
-nsHttpConnection
+HttpConnectionBase
 *
 conn
 )
@@ -1611,6 +1618,13 @@ nsConnectionEntry
 ent
 nsresult
 reason
+)
+;
+void
+OnMsgReclaimConnection
+(
+HttpConnectionBase
+*
 )
 ;
 void
@@ -1698,13 +1712,6 @@ OnMsgSpeculativeConnect
 (
 int32_t
 ARefBase
-*
-)
-;
-void
-OnMsgReclaimConnection
-(
-nsHttpConnection
 *
 )
 ;
