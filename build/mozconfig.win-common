@@ -80,6 +80,8 @@ MOZ_FETCHES_DIR
 dump_syms
 /
 dump_syms
+.
+exe
 "
 if
 [
