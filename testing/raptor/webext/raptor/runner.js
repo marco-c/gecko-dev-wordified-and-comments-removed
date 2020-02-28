@@ -1715,7 +1715,7 @@ getGeckoProfile
 (
 )
 {
-let
+const
 fileName
 =
 {
@@ -1841,7 +1841,7 @@ pageCycle
 1
 )
 {
-let
+const
 text
 =
 running
@@ -2183,7 +2183,7 @@ error
 "
 )
 ;
-var
+const
 pendingMetrics
 =
 {
@@ -2213,7 +2213,7 @@ time
 isLoadTimePending
 }
 ;
-var
+let
 msgData
 =
 [
@@ -2268,7 +2268,7 @@ timeoutName
 timeoutMS
 )
 {
-var
+const
 now
 =
 Date
@@ -2277,7 +2277,7 @@ now
 (
 )
 ;
-var
+const
 timeout_when
 =
 now
@@ -2683,7 +2683,7 @@ request
 value
 )
 ;
-var
+const
 _found
 =
 request
@@ -2701,7 +2701,7 @@ hero
 1
 ]
 ;
-var
+const
 index
 =
 pendingHeroes
@@ -2961,7 +2961,7 @@ results
 measurements
 )
 {
-let
+const
 count
 =
 results
@@ -3344,7 +3344,7 @@ raptorRunner
 "
 )
 ;
-let
+const
 config
 =
 getTestConfig

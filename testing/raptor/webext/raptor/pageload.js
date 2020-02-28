@@ -546,12 +546,10 @@ measureHero
 (
 )
 {
-var
+let
 obs
-=
-null
 ;
-var
+const
 heroElementsFound
 =
 window
@@ -602,7 +600,7 @@ entry
 =
 >
 {
-var
+const
 heroFound
 =
 entry
@@ -623,7 +621,7 @@ mark
 heroFound
 )
 ;
-var
+const
 resultType
 =
 hero
@@ -661,7 +659,7 @@ heroFound
 )
 )
 ;
-var
+const
 perfResult
 =
 perfData
@@ -671,7 +669,7 @@ getEntriesByName
 resultType
 )
 ;
-var
+const
 _result
 =
 Math
@@ -714,7 +712,7 @@ disconnect
 )
 ;
 }
-var
+const
 options
 =
 {
@@ -820,7 +818,7 @@ measureFNBPaint
 (
 )
 {
-var
+const
 x
 =
 window
@@ -882,7 +880,7 @@ gRetryCounter
 =
 0
 ;
-var
+const
 startTime
 =
 perfData
@@ -969,7 +967,7 @@ measureDCF
 (
 )
 {
-var
+const
 x
 =
 window
@@ -1033,7 +1031,7 @@ gRetryCounter
 =
 0
 ;
-var
+const
 startTime
 =
 perfData
@@ -1123,7 +1121,7 @@ measureTTFI
 (
 )
 {
-var
+const
 x
 =
 window
@@ -1187,7 +1185,7 @@ gRetryCounter
 =
 0
 ;
-var
+const
 startTime
 =
 perfData
@@ -1289,16 +1287,7 @@ measureFCP
 (
 )
 {
-var
-resultType
-=
-"
-fcp
-"
-;
-var
-result
-;
+let
 result
 =
 window
@@ -1324,7 +1313,7 @@ result
 =
 0
 ;
-let
+const
 perfEntries
 =
 perfData
@@ -1421,7 +1410,7 @@ undefined
 "
 )
 {
-var
+const
 startTime
 =
 perfData
@@ -1439,7 +1428,9 @@ startTime
 }
 sendResult
 (
-resultType
+"
+fcp
+"
 result
 )
 ;
@@ -1536,7 +1527,7 @@ measureLoadTime
 (
 )
 {
-var
+const
 x
 =
 window
@@ -1594,7 +1585,7 @@ gRetryCounter
 =
 0
 ;
-var
+const
 startTime
 =
 perfData
