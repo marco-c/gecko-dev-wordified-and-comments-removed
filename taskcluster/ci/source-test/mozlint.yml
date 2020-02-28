@@ -246,6 +246,7 @@ worker
 mozlint
 .
 json
+*
 when
 :
 files
