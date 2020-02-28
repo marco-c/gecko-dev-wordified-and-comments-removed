@@ -3,8 +3,11 @@ __future__
 import
 absolute_import
 print_function
+unicode_literals
 import
 os
+import
+six
 import
 unittest
 from
@@ -122,10 +125,9 @@ self
 .
 assertEqual
 (
-test
-.
-keys
+list
 (
+test
 )
 [
 ]
@@ -487,10 +489,9 @@ self
 .
 assertEqual
 (
-test
-.
-keys
+list
 (
+test
 )
 [
 ]
@@ -522,10 +523,9 @@ self
 .
 assertEqual
 (
-test
-.
-keys
+list
 (
+test
 )
 [
 ]
@@ -4992,7 +4992,9 @@ ContextDerivedTypedRecord
 '
 field1
 '
-unicode
+six
+.
+text_type
 )
                                       
 (
@@ -5108,7 +5110,9 @@ ContextDerivedTypedRecord
 '
 field1
 '
-unicode
+six
+.
+text_type
 )
                                       
 (
