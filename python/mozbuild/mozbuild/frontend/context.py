@@ -81,8 +81,6 @@ absolute_import
 print_function
 unicode_literals
 import
-operator
-import
 os
 from
 collections
@@ -3559,9 +3557,7 @@ all
 isinstance
 (
 v
-six
-.
-string_types
+basestring
 )
 for
 v
@@ -5163,29 +5159,31 @@ It
 handles
 calling
 __new__
+and
+__init__
 with
 the
 right
 arguments
+    
 in
 cases
 where
 a
 Path
-    
 is
 instantiated
 with
 another
 instance
 of
+    
 Path
 instead
 of
 having
 received
 a
-    
 context
 .
     
@@ -5368,16 +5366,10 @@ value
 class
 Path
 (
-six
-.
-with_metaclass
-(
-PathMeta
 ContextDerivedValue
 six
 .
 text_type
-)
 )
 :
     
@@ -5480,6 +5472,10 @@ paths
 "
 "
     
+__metaclass__
+=
+PathMeta
+    
 def
 __new__
 (
@@ -5491,8 +5487,7 @@ None
 )
 :
         
-self
-=
+return
 super
 (
 Path
@@ -5504,6 +5499,25 @@ __new__
 cls
 value
 )
+    
+def
+__init__
+(
+self
+context
+value
+=
+None
+)
+:
+        
+assert
+self
+.
+__class__
+!
+=
+Path
         
 self
 .
@@ -5518,9 +5532,6 @@ srcdir
 context
 .
 srcdir
-        
-return
-self
     
 def
 join
@@ -5587,11 +5598,10 @@ AssertionError
 )
     
 def
-_cmp
+__eq__
 (
 self
 other
-op
 )
 :
         
@@ -5613,46 +5623,25 @@ srcdir
 :
             
 return
-op
-(
 self
 .
 full_path
+=
+=
 other
 .
 full_path
-)
         
 return
-op
-(
 six
 .
 text_type
 (
 self
 )
+=
+=
 other
-)
-    
-def
-__eq__
-(
-self
-other
-)
-:
-        
-return
-self
-.
-_cmp
-(
-other
-operator
-.
-eq
-)
     
 def
 __ne__
@@ -5662,16 +5651,43 @@ other
 )
 :
         
+if
+isinstance
+(
+other
+Path
+)
+and
+self
+.
+srcdir
+!
+=
+other
+.
+srcdir
+:
+            
 return
 self
 .
-_cmp
-(
+full_path
+!
+=
 other
-operator
 .
-ne
+full_path
+        
+return
+six
+.
+text_type
+(
+self
 )
+!
+=
+other
     
 def
 __lt__
@@ -5681,16 +5697,41 @@ other
 )
 :
         
+if
+isinstance
+(
+other
+Path
+)
+and
+self
+.
+srcdir
+!
+=
+other
+.
+srcdir
+:
+            
 return
 self
 .
-_cmp
-(
+full_path
+<
 other
-operator
 .
-lt
+full_path
+        
+return
+six
+.
+text_type
+(
+self
 )
+<
+other
     
 def
 __gt__
@@ -5700,16 +5741,41 @@ other
 )
 :
         
+if
+isinstance
+(
+other
+Path
+)
+and
+self
+.
+srcdir
+!
+=
+other
+.
+srcdir
+:
+            
 return
 self
 .
-_cmp
-(
+full_path
+>
 other
-operator
 .
-gt
+full_path
+        
+return
+six
+.
+text_type
+(
+self
 )
+>
+other
     
 def
 __le__
@@ -5719,16 +5785,43 @@ other
 )
 :
         
+if
+isinstance
+(
+other
+Path
+)
+and
+self
+.
+srcdir
+!
+=
+other
+.
+srcdir
+:
+            
 return
 self
 .
-_cmp
-(
+full_path
+<
+=
 other
-operator
 .
-le
+full_path
+        
+return
+six
+.
+text_type
+(
+self
 )
+<
+=
+other
     
 def
 __ge__
@@ -5738,16 +5831,43 @@ other
 )
 :
         
+if
+isinstance
+(
+other
+Path
+)
+and
+self
+.
+srcdir
+!
+=
+other
+.
+srcdir
+:
+            
 return
 self
 .
-_cmp
-(
+full_path
+>
+=
 other
-operator
 .
-ge
+full_path
+        
+return
+six
+.
+text_type
+(
+self
 )
+>
+=
+other
     
 def
 __repr__
@@ -5841,13 +5961,11 @@ directory
 "
     
 def
-__new__
+__init__
 (
-cls
+self
 context
 value
-=
-None
 )
 :
         
@@ -5899,17 +6017,14 @@ allowed
 '
 )
         
-self
-=
 super
 (
 SourcePath
-cls
+self
 )
 .
-__new__
+__init__
 (
-cls
 context
 value
 )
@@ -6015,9 +6130,6 @@ normpath
 (
 path
 )
-        
-return
-self
     
 memoized_property
     
@@ -6167,9 +6279,9 @@ backend
 "
     
 def
-__new__
+__init__
 (
-cls
+self
 context
 value
 )
@@ -6183,33 +6295,23 @@ tuple
 )
         
 source
-target_basename
-=
-value
-        
-self
-=
-super
-(
-RenamedSourcePath
-cls
-)
-.
-__new__
-(
-cls
-context
-source
-)
-        
 self
 .
 _target_basename
 =
-target_basename
+value
         
-return
+super
+(
+RenamedSourcePath
 self
+)
+.
+__init__
+(
+context
+source
+)
     
 property
     
@@ -6250,9 +6352,9 @@ directory
 "
     
 def
-__new__
+__init__
 (
-cls
+self
 context
 value
 =
@@ -6287,17 +6389,14 @@ prefix
 '
 )
         
-self
-=
 super
 (
 ObjDirPath
-cls
+self
 )
 .
-__new__
+__init__
 (
-cls
 context
 value
 )
@@ -6361,9 +6460,6 @@ normpath
 (
 path
 )
-        
-return
-self
 class
 AbsolutePath
 (
@@ -6392,9 +6488,9 @@ directories
 "
     
 def
-__new__
+__init__
 (
-cls
+self
 context
 value
 =
@@ -6467,17 +6563,14 @@ value
 ]
 )
         
-self
-=
 super
 (
 AbsolutePath
-cls
+self
 )
 .
-__new__
+__init__
 (
-cls
 context
 value
 )
@@ -6496,9 +6589,6 @@ value
 :
 ]
 )
-        
-return
-self
 memoize
 def
 ContextDerivedTypedList

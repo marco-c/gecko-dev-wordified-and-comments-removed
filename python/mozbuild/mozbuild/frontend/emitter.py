@@ -11,13 +11,11 @@ logging
 import
 os
 import
-six
+traceback
 import
 sys
 import
 time
-import
-traceback
 from
 collections
 import
@@ -309,12 +307,49 @@ self
 .
 info
 =
-dict
-(
+{
+}
+        
+for
+k
+v
+in
 mozinfo
 .
 info
+.
+items
+(
 )
+:
+            
+if
+isinstance
+(
+k
+unicode
+)
+:
+                
+k
+=
+k
+.
+encode
+(
+'
+ascii
+'
+)
+            
+self
+.
+info
+[
+k
+]
+=
+v
         
 self
 .
@@ -1680,7 +1715,6 @@ n
 .
 join
 (
-                    
 '
 -
 %
@@ -1690,21 +1724,13 @@ s
 r
 .
 basename
-                    
+                                   
 for
 r
 in
 sorted
 (
 rust_libs
-key
-=
-lambda
-r
-:
-r
-.
-basename
 )
 )
 )
@@ -1750,7 +1776,7 @@ lib
 StaticLibrary
 )
 and
-                    
+                        
 lib
 .
 link_into
@@ -2633,13 +2659,10 @@ l
             
 candidates
 =
-list
-(
 libs
 .
 values
 (
-)
 )
             
 if
@@ -3250,11 +3273,10 @@ for
 dep_crate_name
 values
 in
-six
+dependencies
 .
 iteritems
 (
-dependencies
 )
 :
             
@@ -3263,12 +3285,8 @@ isinstance
 (
 values
 (
-six
-.
-binary_type
-six
-.
-text_type
+str
+unicode
 )
 )
 :
@@ -3666,10 +3684,6 @@ dependencies
 =
 set
 (
-six
-.
-iterkeys
-(
 config
 .
 get
@@ -3680,6 +3694,9 @@ dependencies
 {
 }
 )
+.
+iterkeys
+(
 )
 )
         
@@ -6236,11 +6253,10 @@ for
 f
 flags
 in
-six
+all_flags
 .
 iteritems
 (
-all_flags
 )
                           
 if
@@ -6396,11 +6412,10 @@ for
 suffix
 alternatives
 in
-six
+suffix_map
 .
 iteritems
 (
-suffix_map
 )
 :
             
@@ -7019,11 +7034,10 @@ flags
 in
 sorted
 (
-six
+all_flags
 .
 iteritems
 (
-all_flags
 )
 )
 :
@@ -10282,9 +10296,7 @@ script
 process_define_file
 '
                                 
-six
-.
-text_type
+unicode
 (
 path
 )
