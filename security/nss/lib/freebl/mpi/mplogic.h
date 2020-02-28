@@ -11,6 +11,7 @@ mpi
 .
 h
 "
+SEC_BEGIN_PROTOS
 #
 define
 MP_EVEN
@@ -175,5 +176,6 @@ mp_int
 a
 )
 ;
+SEC_END_PROTOS
 #
 endif

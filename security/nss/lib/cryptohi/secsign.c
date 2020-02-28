@@ -2970,11 +2970,17 @@ if
 (
 saltLength
 >
+(
+unsigned
+long
+)
+(
 modBytes
 -
 hashLength
 -
 2
+)
 )
 {
 PORT_SetError

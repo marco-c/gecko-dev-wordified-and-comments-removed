@@ -765,7 +765,7 @@ MaskSequenceNumber
 const
 DataBuffer
 &
-mask
+mask_buf
 )
 ;
 bool

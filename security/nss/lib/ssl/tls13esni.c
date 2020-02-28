@@ -2457,6 +2457,10 @@ cipherDef
 calg
 )
 keySize
+ss
+-
+>
+protocolVariant
 &
 keyMat
 -
@@ -2492,6 +2496,10 @@ strlen
 (
 kHkdfPurposeEsniIv
 )
+ss
+-
+>
+protocolVariant
 keyMat
 -
 >
