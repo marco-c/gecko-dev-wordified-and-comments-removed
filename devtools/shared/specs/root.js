@@ -118,7 +118,7 @@ tabs
 "
 array
 :
-browsingContextTarget
+json
 "
 selected
 :

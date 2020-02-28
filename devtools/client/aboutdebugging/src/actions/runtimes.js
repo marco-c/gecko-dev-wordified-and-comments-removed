@@ -1387,6 +1387,7 @@ requestExtensions
 )
 )
 ;
+await
 dispatch
 (
 Actions

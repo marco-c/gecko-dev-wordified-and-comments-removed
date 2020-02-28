@@ -98,6 +98,11 @@ process
 js
 '
 '
+tab
+.
+js
+'
+'
 webextension
 .
 js
