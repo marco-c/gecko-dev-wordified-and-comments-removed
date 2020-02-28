@@ -720,7 +720,7 @@ sandbox
 exec_source
 (
 '
-True
+sorted
 =
 1
 '
@@ -2350,14 +2350,13 @@ e
 sce
 .
 exception
+.
+message
         
 self
 .
-assertEqual
+assertIn
 (
-e
-.
-message
 '
 This
 is
@@ -2365,6 +2364,10 @@ an
 error
 .
 '
+str
+(
+e
+)
 )
     
 def
@@ -3253,12 +3256,8 @@ exc_value
         
 self
 .
-assertEqual
+assertIn
 (
-e
-.
-message
-                         
 '
 Template
 function
@@ -3268,6 +3267,11 @@ be
 CamelCase
 .
 '
+                      
+str
+(
+e
+)
 )
         
 sandbox2
@@ -3355,12 +3359,8 @@ exc_value
         
 self
 .
-assertEqual
+assertIn
 (
-e
-.
-message
-                         
 '
 A
 template
@@ -3377,7 +3377,7 @@ s
 .
 '
 %
-                         
+                      
 sandbox
 .
 normalize_path
@@ -3387,6 +3387,10 @@ templates
 .
 mozbuild
 '
+)
+str
+(
+e
 )
 )
     
