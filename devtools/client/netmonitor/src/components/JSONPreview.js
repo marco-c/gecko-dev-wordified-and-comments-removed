@@ -307,7 +307,7 @@ mode
 :
 MODE
 .
-TINY
+LONG
 cropLimit
 :
 this
