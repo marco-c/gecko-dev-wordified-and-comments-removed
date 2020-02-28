@@ -173,10 +173,6 @@ SVGElement
 ?
 viewportElement
 ;
-attribute
-DOMString
-nonce
-;
 }
 ;
 SVGElement

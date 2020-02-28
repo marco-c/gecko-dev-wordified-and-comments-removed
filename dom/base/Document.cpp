@@ -8381,10 +8381,6 @@ mHasUnsafeInlineCSP
 (
 false
 )
-mHasCSPDeliveredThroughHeader
-(
-false
-)
 mBFCacheDisallowed
 (
 false
@@ -21128,10 +21124,6 @@ IsEmpty
 )
 )
 {
-mHasCSPDeliveredThroughHeader
-=
-true
-;
 rv
 =
 CSP_AppendCSPFromHeader

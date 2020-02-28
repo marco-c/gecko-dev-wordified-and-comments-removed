@@ -344,10 +344,6 @@ attribute
 boolean
 spellcheck
 ;
-attribute
-DOMString
-nonce
-;
 /
 /
 command
