@@ -418,6 +418,15 @@ include
 "
 mozilla
 /
+StaticPrefs_widget
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPresData
 .
 h
