@@ -624,9 +624,6 @@ nsFlexContainerFrame
 void
 DoFlexLayout
 (
-nsPresContext
-*
-aPresContext
 ReflowOutput
 &
 aDesiredSize
@@ -695,9 +692,6 @@ FlexItem
 >
 GenerateFlexItemForChild
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChildFrame
@@ -721,9 +715,6 @@ MeasureAscentAndBSizeForFlexItem
 FlexItem
 &
 aItem
-nsPresContext
-*
-aPresContext
 ReflowInput
 &
 aChildReflowInput
@@ -732,9 +723,6 @@ aChildReflowInput
 nscoord
 MeasureFlexItemContentBSize
 (
-nsPresContext
-*
-aPresContext
 FlexItem
 &
 aFlexItem
@@ -751,9 +739,6 @@ aParentReflowInput
 void
 ResolveAutoFlexBasisAndMinSize
 (
-nsPresContext
-*
-aPresContext
 FlexItem
 &
 aFlexItem
@@ -781,9 +766,6 @@ aFlexStyleDisp
 void
 GenerateFlexLines
 (
-nsPresContext
-*
-aPresContext
 const
 ReflowInput
 &
@@ -864,9 +846,6 @@ aStatus
 void
 SizeItemInCrossAxis
 (
-nsPresContext
-*
-aPresContext
 ReflowInput
 &
 aChildReflowInput
@@ -901,9 +880,6 @@ aContainerSize
 void
 ReflowFlexItem
 (
-nsPresContext
-*
-aPresContext
 const
 FlexboxAxisTracker
 &
@@ -933,9 +909,6 @@ aHasLineClampEllipsis
 void
 ReflowPlaceholders
 (
-nsPresContext
-*
-aPresContext
 const
 ReflowInput
 &
