@@ -10106,9 +10106,16 @@ mRepeatAutoEnd
 =
 mRepeatAutoStart
 +
+std
+:
+:
+max
+(
+0
 extraAutoFillLineCount
 +
 1
+)
 ;
 }
 }
