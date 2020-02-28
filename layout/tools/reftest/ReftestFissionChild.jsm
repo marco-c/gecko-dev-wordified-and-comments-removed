@@ -31,9 +31,10 @@ UpdateLayerTree
 :
 {
 let
-errorString
+errorStrings
 =
-null
+[
+]
 ;
 try
 {
@@ -63,8 +64,10 @@ catch
 e
 )
 {
-errorString
-=
+errorStrings
+.
+push
+(
 "
 updateLayerTree
 failed
@@ -72,6 +75,7 @@ failed
 "
 +
 e
+)
 ;
 }
 return
@@ -80,7 +84,7 @@ Promise
 resolve
 (
 {
-errorString
+errorStrings
 }
 )
 ;
