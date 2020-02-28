@@ -1453,7 +1453,7 @@ TextureClient
 (
 data
 aTextureFlags
-mSurfaceAllocator
+mKnowsCompositor
 -
 >
 GetTextureForwarder

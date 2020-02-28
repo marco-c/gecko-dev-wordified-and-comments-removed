@@ -2238,7 +2238,7 @@ GetD3D11YCbCrRecycleAllocator
 (
 KnowsCompositor
 *
-aAllocator
+aKnowsCompositor
 )
 {
 if
@@ -2246,13 +2246,13 @@ if
 mD3D11YCbCrRecycleAllocator
 &
 &
-aAllocator
+aKnowsCompositor
 =
 =
 mD3D11YCbCrRecycleAllocator
 -
 >
-GetAllocator
+GetKnowsCompositor
 (
 )
 )
@@ -2264,7 +2264,7 @@ mD3D11YCbCrRecycleAllocator
 if
 (
 !
-aAllocator
+aKnowsCompositor
 -
 >
 SupportsD3D11
@@ -2298,7 +2298,7 @@ mD3D11YCbCrRecycleAllocator
 new
 D3D11YCbCrRecycleAllocator
 (
-aAllocator
+aKnowsCompositor
 )
 ;
 return
