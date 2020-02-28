@@ -543,6 +543,12 @@ NoClientCertAuth
 const
 override
 ;
+bool
+CanAcceptWebsocket
+(
+)
+override
+;
 private
 :
 enum
@@ -705,6 +711,12 @@ DisableTCPKeepalives
 ;
 private
 :
+RefPtr
+<
+nsAHttpTransaction
+>
+mTransaction
+;
 nsCOMPtr
 <
 nsIAsyncInputStream
