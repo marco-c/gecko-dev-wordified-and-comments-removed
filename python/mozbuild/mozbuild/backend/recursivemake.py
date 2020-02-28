@@ -10,6 +10,8 @@ import
 os
 import
 re
+import
+six
 from
 collections
 import
@@ -20,7 +22,7 @@ defaultdict
 namedtuple
 )
 from
-StringIO
+six
 import
 StringIO
 from
@@ -180,6 +182,8 @@ ensureParentDir
 FileAvoidWrite
     
 OrderedDefaultDict
+    
+pairwise
 )
 from
 .
@@ -199,222 +203,178 @@ MOZBUILD_VARIABLES
 =
 [
     
-b
 '
 ASFLAGS
 '
     
-b
 '
 CMSRCS
 '
     
-b
 '
 CMMSRCS
 '
     
-b
 '
 CPP_UNIT_TESTS
 '
     
-b
 '
 DIRS
 '
     
-b
 '
 DIST_INSTALL
 '
     
-b
 '
 EXTRA_DSO_LDOPTS
 '
     
-b
 '
 EXTRA_JS_MODULES
 '
     
-b
 '
 EXTRA_PP_COMPONENTS
 '
     
-b
 '
 EXTRA_PP_JS_MODULES
 '
     
-b
 '
 FORCE_SHARED_LIB
 '
     
-b
 '
 FORCE_STATIC_LIB
 '
     
-b
 '
 FINAL_LIBRARY
 '
     
-b
 '
 HOST_CFLAGS
 '
     
-b
 '
 HOST_CSRCS
 '
     
-b
 '
 HOST_CMMSRCS
 '
     
-b
 '
 HOST_CXXFLAGS
 '
     
-b
 '
 HOST_EXTRA_LIBS
 '
     
-b
 '
 HOST_LIBRARY_NAME
 '
     
-b
 '
 HOST_PROGRAM
 '
     
-b
 '
 HOST_SIMPLE_PROGRAMS
 '
     
-b
 '
 JAR_MANIFEST
 '
     
-b
 '
 JAVA_JAR_TARGETS
 '
     
-b
 '
 LIBRARY_NAME
 '
     
-b
 '
 LIBS
 '
     
-b
 '
 MAKE_FRAMEWORK
 '
     
-b
 '
 MODULE
 '
     
-b
 '
 NO_DIST_INSTALL
 '
     
-b
 '
 NO_EXPAND_LIBS
 '
     
-b
 '
 NO_INTERFACES_MANIFEST
 '
     
-b
 '
 OS_LIBS
 '
     
-b
 '
 PARALLEL_DIRS
 '
     
-b
 '
 PREF_JS_EXPORTS
 '
     
-b
 '
 PROGRAM
 '
     
-b
 '
 RESOURCE_FILES
 '
     
-b
 '
 SHARED_LIBRARY_LIBS
 '
     
-b
 '
 SHARED_LIBRARY_NAME
 '
     
-b
 '
 SIMPLE_PROGRAMS
 '
     
-b
 '
 SONAME
 '
     
-b
 '
 STATIC_LIBRARY_NAME
 '
     
-b
 '
 TEST_DIRS
 '
     
-b
 '
 TOOL_DIRS
 '
     
-b
 '
 XPCSHELL_TESTS
 '
     
-b
 '
 XPIDL_MODULE
 '
@@ -423,97 +383,78 @@ DEPRECATED_VARIABLES
 =
 [
     
-b
 '
 ALLOW_COMPILER_WARNINGS
 '
     
-b
 '
 EXPORT_LIBRARY
 '
     
-b
 '
 EXTRA_LIBS
 '
     
-b
 '
 FAIL_ON_WARNINGS
 '
     
-b
 '
 HOST_LIBS
 '
     
-b
 '
 LIBXUL_LIBRARY
 '
     
-b
 '
 MOCHITEST_A11Y_FILES
 '
     
-b
 '
 MOCHITEST_BROWSER_FILES
 '
     
-b
 '
 MOCHITEST_BROWSER_FILES_PARTS
 '
     
-b
 '
 MOCHITEST_CHROME_FILES
 '
     
-b
 '
 MOCHITEST_FILES
 '
     
-b
 '
 MOCHITEST_FILES_PARTS
 '
     
-b
 '
 MOCHITEST_METRO_FILES
 '
     
-b
 '
 MOCHITEST_ROBOCOP_FILES
 '
     
-b
 '
 MODULE_OPTIMIZE_FLAGS
 '
     
-b
 '
 MOZ_CHROME_FILE_FORMAT
 '
     
-b
 '
 SHORT_LIBNAME
 '
     
-b
 '
 TESTING_JS_MODULES
 '
     
-b
 '
 TESTING_JS_MODULE_DIR
 '
@@ -990,29 +931,16 @@ buf
 )
 :
         
-if
-isinstance
-(
-buf
-unicode
-)
-:
-            
 buf
 =
-buf
+six
 .
-encode
+ensure_text
 (
-'
-utf
--
-8
-'
+buf
 )
         
 if
-b
 '
 \
 n
@@ -1021,12 +949,17 @@ n
 buf
 not
 in
+six
+.
+ensure_text
+(
 self
 .
 fh
 .
 getvalue
 (
+)
 )
 :
             
@@ -2298,6 +2231,20 @@ _rust_targets
 set
 (
 )
+        
+self
+.
+_rust_lib_targets
+=
+set
+(
+)
+        
+self
+.
+_gkrust_target
+=
+None
         
 self
 .
@@ -3966,6 +3913,27 @@ add
 (
 build_target
 )
+            
+self
+.
+_rust_lib_targets
+.
+add
+(
+build_target
+)
+            
+if
+obj
+.
+is_gkrust
+:
+                
+self
+.
+_gkrust_target
+=
+build_target
         
 elif
 isinstance
@@ -4750,8 +4718,13 @@ main
         
 all_compile_deps
 =
+six
+.
+moves
+.
 reduce
 (
+            
 lambda
 x
 y
@@ -4759,7 +4732,7 @@ y
 x
 |
 y
-                                  
+            
 self
 .
 _compile_graph
@@ -4785,12 +4758,13 @@ for
 t
 deps
 in
-self
-.
-_compile_graph
+six
 .
 iteritems
 (
+self
+.
+_compile_graph
 )
                          
 if
@@ -4845,6 +4819,22 @@ self
 _rust_targets
 ]
             
+rust_libs
+=
+[
+r
+for
+r
+in
+roots
+if
+r
+in
+self
+.
+_rust_lib_targets
+]
+            
 if
 category
 =
@@ -4874,6 +4864,58 @@ rust_rule
 add_dependencies
 (
 rust_roots
+)
+                
+for
+prior_target
+target
+in
+pairwise
+(
+                        
+sorted
+(
+[
+t
+for
+t
+in
+rust_libs
+]
+                               
+key
+=
+lambda
+t
+:
+t
+!
+=
+self
+.
+_gkrust_target
+)
+)
+:
+                    
+r
+=
+root_deps_mk
+.
+create_rule
+(
+[
+target
+]
+)
+                    
+r
+.
+add_dependencies
+(
+[
+prior_target
+]
 )
             
 rule
@@ -5104,10 +5146,11 @@ for
 category
 graph
 in
-non_default_graphs
+six
 .
 iteritems
 (
+non_default_graphs
 )
 :
             
@@ -5314,10 +5357,11 @@ for
 category
 graphs
 in
-non_default_graphs
+six
 .
 iteritems
 (
+non_default_graphs
 )
 :
             
@@ -5703,7 +5747,6 @@ makefile_content
 :
         
 if
-b
 '
 EXTERNALLY_MANAGED_MAKE_FILE
 '
@@ -5736,7 +5779,6 @@ l
 .
 startswith
 (
-b
 '
 #
 '
@@ -6105,16 +6147,12 @@ for
 t
 in
 (
-b
 '
 XPI_PKGNAME
 '
-b
 '
 INSTALL_EXTENSION_ID
 '
-                              
-b
 '
 tools
 '
@@ -6134,7 +6172,6 @@ if
 t
 =
 =
-b
 '
 tools
 '
@@ -11689,7 +11726,6 @@ pp
 .
 handleLine
 (
-b
 '
 #
 THIS
@@ -11713,7 +11749,6 @@ pp
 .
 handleLine
 (
-b
 '
 DEPTH
 :
@@ -11728,7 +11763,6 @@ pp
 .
 handleLine
 (
-b
 '
 topobjdir
 :
@@ -11743,7 +11777,6 @@ pp
 .
 handleLine
 (
-b
 '
 topsrcdir
 :
@@ -11758,7 +11791,6 @@ pp
 .
 handleLine
 (
-b
 '
 srcdir
 :
@@ -11773,7 +11805,6 @@ pp
 .
 handleLine
 (
-b
 '
 srcdir_rel
 :
@@ -11788,7 +11819,6 @@ pp
 .
 handleLine
 (
-b
 '
 relativesrcdir
 :
@@ -11803,7 +11833,6 @@ pp
 .
 handleLine
 (
-b
 '
 include
 (
@@ -11836,7 +11865,6 @@ pp
 .
 handleLine
 (
-b
 '
 \
 n
@@ -11847,7 +11875,6 @@ pp
 .
 handleLine
 (
-b
 '
 include
 (
