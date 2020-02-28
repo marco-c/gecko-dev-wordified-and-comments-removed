@@ -144,6 +144,8 @@ HandleBorrowRequest
 BorrowResponseData
 *
 aResponseData
+bool
+aAllowSameBuffer
 )
 ;
 void
