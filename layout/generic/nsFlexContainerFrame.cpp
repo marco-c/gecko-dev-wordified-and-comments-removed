@@ -19279,9 +19279,6 @@ line
 getNext
 (
 )
-+
-+
-lineIndex
 )
 {
 line
