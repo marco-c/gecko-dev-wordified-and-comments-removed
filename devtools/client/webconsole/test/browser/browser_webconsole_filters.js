@@ -341,8 +341,15 @@ filterBar
 querySelector
 (
 "
-.
+[
+data
+-
+category
+=
+'
 error
+'
+]
 "
 )
 )
