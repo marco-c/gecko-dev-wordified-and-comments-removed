@@ -11093,6 +11093,8 @@ bug_numbers
 1557050
 -
 1610897
+-
+1612091
 description
 :
 >
@@ -11172,6 +11174,8 @@ bug_numbers
 1610897
 -
 1612088
+-
+1612091
 description
 :
 >
@@ -11214,6 +11218,9 @@ mtr_signup_button
 "
 "
 trackers_about_link
+"
+"
+mobile_app_link
 "
 ]
 expiry_version
