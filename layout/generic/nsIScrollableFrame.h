@@ -208,6 +208,15 @@ const
 0
 ;
 virtual
+bool
+IsForTextControlWithNoScrollbars
+(
+)
+const
+=
+0
+;
+virtual
 mozilla
 :
 :

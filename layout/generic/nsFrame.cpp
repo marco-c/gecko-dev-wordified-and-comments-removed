@@ -74018,6 +74018,15 @@ scrollFrame
 scrollFrame
 -
 >
+IsForTextControlWithNoScrollbars
+(
+)
+&
+&
+!
+scrollFrame
+-
+>
 GetScrollStyles
 (
 )
