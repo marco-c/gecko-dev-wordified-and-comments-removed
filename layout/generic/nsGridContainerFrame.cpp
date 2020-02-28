@@ -62502,10 +62502,9 @@ mGridTemplateColumns
 ;
 if
 (
-!
 gridTemplate
 .
-IsNone
+IsTrackList
 (
 )
 )
