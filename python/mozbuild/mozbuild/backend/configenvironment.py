@@ -1723,18 +1723,28 @@ as
 fh
 :
             
+to_write
+=
 json
 .
-dump
+dumps
 (
 value
-fh
 indent
 =
 4
-encoding
-=
+)
+            
+fh
+.
+write
+(
+to_write
+.
+encode
+(
 system_encoding
+)
 )
         
 return
@@ -1773,10 +1783,11 @@ for
 k
 v
 in
-values
+six
 .
 iteritems
 (
+values
 )
 :
             
