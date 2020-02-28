@@ -261,6 +261,9 @@ endif
 }
 ;
 typedef
+detail
+:
+:
 BaseAutoLock
 <
 CrossProcessMutex
@@ -269,6 +272,9 @@ CrossProcessMutex
 CrossProcessMutexAutoLock
 ;
 typedef
+detail
+:
+:
 BaseAutoUnlock
 <
 CrossProcessMutex
