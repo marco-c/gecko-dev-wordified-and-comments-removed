@@ -924,6 +924,15 @@ Opcode
 :
 InitHomeObject
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+HomeObjectSuperBase
+:
 object
 =
 ins

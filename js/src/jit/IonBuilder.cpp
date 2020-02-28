@@ -69230,14 +69230,6 @@ push
 superBase
 )
 ;
-MOZ_TRY
-(
-resumeAfter
-(
-superBase
-)
-)
-;
 return
 Ok
 (
