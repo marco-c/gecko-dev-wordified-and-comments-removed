@@ -2633,10 +2633,13 @@ l
             
 candidates
 =
+list
+(
 libs
 .
 values
 (
+)
 )
             
 if

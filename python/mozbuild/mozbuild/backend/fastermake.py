@@ -4,6 +4,8 @@ import
 absolute_import
 unicode_literals
 print_function
+import
+six
 from
 mozbuild
 .
@@ -1261,12 +1263,13 @@ for
 target
 entries
 in
-self
-.
-_manifest_entries
+six
 .
 iteritems
 (
+self
+.
+_manifest_entries
 )
 :
             
@@ -1359,12 +1362,13 @@ for
 target
 deps
 in
-self
-.
-_dependencies
+six
 .
 iteritems
 (
+self
+.
+_dependencies
 )
 :
             
@@ -1464,12 +1468,13 @@ for
 target
 deps
 in
-self
-.
-_l10n_dependencies
+six
 .
 iteritems
 (
+self
+.
+_l10n_dependencies
 )
 :
             
@@ -1620,12 +1625,13 @@ for
 base
 install_manifest
 in
-self
-.
-_install_manifests
+six
 .
 iteritems
 (
+self
+.
+_install_manifests
 )
 :
             
@@ -1698,12 +1704,13 @@ for
 base
 install_manifest
 in
-self
-.
-_install_manifests
+six
 .
 iteritems
 (
+self
+.
+_install_manifests
 )
 :
                 
