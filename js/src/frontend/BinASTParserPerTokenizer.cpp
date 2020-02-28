@@ -1721,6 +1721,13 @@ nargs
 )
 ;
 }
+funbox
+-
+>
+emitBytecode
+=
+true
+;
 const
 bool
 canSkipLazyClosedOverBindings

@@ -717,6 +717,10 @@ wasEmitted
 (
 false
 )
+emitBytecode
+(
+false
+)
 declaredArguments
 (
 false
@@ -1491,9 +1495,8 @@ finish
 {
 if
 (
-isInterpretedLazy
-(
-)
+!
+emitBytecode
 )
 {
 function
