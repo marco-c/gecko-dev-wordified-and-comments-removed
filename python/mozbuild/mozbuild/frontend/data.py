@@ -126,8 +126,11 @@ from
 collections
 import
 defaultdict
+OrderedDict
 import
 itertools
+import
+six
 from
 .
 .
@@ -1178,12 +1181,13 @@ for
 define
 value
 in
-self
-.
-defines
+six
 .
 iteritems
 (
+self
+.
+defines
 )
 :
             
@@ -2397,8 +2401,9 @@ lib_defines
 Defines
 (
 context
-{
-}
+OrderedDict
+(
+)
 )
         
 self
