@@ -5359,7 +5359,7 @@ return
 v
 ;
 }
-JSScript
+BaseScript
 *
 unwrappedIntroductionScript
 (
@@ -5402,7 +5402,7 @@ toGCThing
 >
 as
 <
-JSScript
+BaseScript
 >
 (
 )
