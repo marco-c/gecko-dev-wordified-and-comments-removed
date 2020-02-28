@@ -2733,6 +2733,10 @@ mWindowScaleFactor
 =
 1
 ;
+mIsAccelerated
+=
+false
+;
 }
 nsWindow
 :
@@ -24880,8 +24884,7 @@ AllowWebRenderForThisWindow
 (
 )
 ;
-bool
-shouldAccelerate
+mIsAccelerated
 =
 ComputeShouldAccelerate
 (
@@ -24889,7 +24892,7 @@ ComputeShouldAccelerate
 ;
 MOZ_ASSERT
 (
-shouldAccelerate
+mIsAccelerated
 |
 !
 useWebRender
@@ -25106,7 +25109,7 @@ CSD_SUPPORT_NONE
 {
 if
 (
-shouldAccelerate
+mIsAccelerated
 )
 {
 needsAlphaVisual
@@ -25255,7 +25258,7 @@ if
 mIsX11Display
 &
 &
-shouldAccelerate
+mIsAccelerated
 )
 {
 auto
@@ -26144,9 +26147,7 @@ if
 mIsX11Display
 &
 &
-ComputeShouldAccelerate
-(
-)
+mIsAccelerated
 )
 {
 mCompositorInitiallyPaused
@@ -26189,6 +26190,11 @@ MaybeResumeCompositor
 )
 ;
 }
+)
+;
+moz_container_set_accelerated
+(
+mContainer
 )
 ;
 }

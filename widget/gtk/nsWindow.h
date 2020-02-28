@@ -2331,6 +2331,9 @@ mWindowScaleFactorChanged
 int
 mWindowScaleFactor
 ;
+bool
+mIsAccelerated
+;
 private
 :
 void
