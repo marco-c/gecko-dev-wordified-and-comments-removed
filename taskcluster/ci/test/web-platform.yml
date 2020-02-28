@@ -549,16 +549,6 @@ test
 -
 platform
 :
-linux
-.
-*
-64
--
-asan
-/
-opt
-:
-2
 windows10
 -
 aarch64
