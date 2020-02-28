@@ -10772,7 +10772,7 @@ realm
 HandleFunction
 fun
 HandleObject
-newParent
+newEnclosingEnv
 )
 {
 MOZ_ASSERT
@@ -10821,7 +10821,7 @@ false
 }
 if
 (
-newParent
+newEnclosingEnv
 -
 >
 is
@@ -10840,7 +10840,7 @@ if
 (
 IsSyntacticEnvironment
 (
-newParent
+newEnclosingEnv
 )
 )
 {

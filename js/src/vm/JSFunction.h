@@ -5505,7 +5505,7 @@ realm
 HandleFunction
 fun
 HandleObject
-newParent
+newEnclosingEnv
 )
 ;
 extern
@@ -5519,7 +5519,7 @@ cx
 HandleFunction
 fun
 HandleObject
-parent
+enclosingEnv
 gc
 :
 :
@@ -5542,7 +5542,7 @@ cx
 HandleFunction
 fun
 HandleObject
-parent
+enclosingEnv
 HandleScope
 newScope
 Handle
