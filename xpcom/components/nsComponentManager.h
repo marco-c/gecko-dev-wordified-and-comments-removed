@@ -478,9 +478,6 @@ typedef
 mozilla
 :
 :
-detail
-:
-:
 BaseAutoLock
 <
 SafeMutex
@@ -490,9 +487,6 @@ SafeMutexAutoLock
 ;
 typedef
 mozilla
-:
-:
-detail
 :
 :
 BaseAutoUnlock
