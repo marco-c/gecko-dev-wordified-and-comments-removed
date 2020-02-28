@@ -222,6 +222,11 @@ TestNoExplicitMoveConstructor
 cpp
 '
 '
+TestNoNewThreadsChecker
+.
+cpp
+'
+'
 TestNonHeapClass
 .
 cpp
