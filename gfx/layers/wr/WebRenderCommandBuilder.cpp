@@ -13800,7 +13800,15 @@ CreateRecordingDrawTarget
 (
 recorder
 dummyDt
-visibleRect
+(
+dtRect
+-
+dtRect
+.
+TopLeft
+(
+)
+)
 .
 ToUnknownRect
 (
