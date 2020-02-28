@@ -779,6 +779,11 @@ EXPORTS
 =
 [
 '
+JustificationUtils
+.
+h
+'
+'
 nsAtomicContainerFrame
 .
 h
@@ -879,6 +884,11 @@ nsPageSequenceFrame
 h
 '
 '
+nsPlaceholderFrame
+.
+h
+'
+'
 nsPluginFrame
 .
 h
@@ -920,6 +930,11 @@ h
 '
 '
 nsSubDocumentFrame
+.
+h
+'
+'
+nsTextFrame
 .
 h
 '
