@@ -4405,7 +4405,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -
@@ -4499,7 +4499,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 products
 :
 -

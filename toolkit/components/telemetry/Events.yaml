@@ -12463,7 +12463,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 resize
 :
 objects
@@ -12554,7 +12554,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 move
 :
 objects
@@ -12649,7 +12649,7 @@ release_channel_collection
 :
 opt
 -
-in
+out
 security
 .
 doh
