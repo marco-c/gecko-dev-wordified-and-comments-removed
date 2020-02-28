@@ -202,11 +202,6 @@ nsIClientAuthDialogs
 idl
 '
 '
-nsIClientAuthRemember
-.
-idl
-'
-'
 nsIContentSignatureVerifier
 .
 idl
