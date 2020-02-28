@@ -1429,6 +1429,10 @@ BackgroundParentImpl
 AllocPBackgroundSDBConnectionParent
 (
 const
+PersistenceType
+&
+aPersistenceType
+const
 PrincipalInfo
 &
 aPrincipalInfo
@@ -1451,6 +1455,7 @@ dom
 :
 AllocPBackgroundSDBConnectionParent
 (
+aPersistenceType
 aPrincipalInfo
 )
 ;
@@ -1470,6 +1475,10 @@ RecvPBackgroundSDBConnectionConstructor
 PBackgroundSDBConnectionParent
 *
 aActor
+const
+PersistenceType
+&
+aPersistenceType
 const
 PrincipalInfo
 &
@@ -1501,6 +1510,7 @@ dom
 RecvPBackgroundSDBConnectionConstructor
 (
 aActor
+aPersistenceType
 aPrincipalInfo
 )
 )

@@ -157,6 +157,12 @@ init
 in
 nsIPrincipal
 aPrincipal
+[
+optional
+]
+in
+ACString
+aPersistenceType
 )
 ;
 [

@@ -505,6 +505,8 @@ FlushPendingFileDeletions
 async
 PBackgroundSDBConnection
 (
+PersistenceType
+persistenceType
 PrincipalInfo
 principalInfo
 )

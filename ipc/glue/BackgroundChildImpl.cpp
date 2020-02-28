@@ -1154,6 +1154,10 @@ BackgroundChildImpl
 AllocPBackgroundSDBConnectionChild
 (
 const
+PersistenceType
+&
+aPersistenceType
+const
 PrincipalInfo
 &
 aPrincipalInfo

@@ -214,6 +214,10 @@ PBackgroundSDBConnectionChild
 AllocPBackgroundSDBConnectionChild
 (
 const
+PersistenceType
+&
+aPersistenceType
+const
 PrincipalInfo
 &
 aPrincipalInfo
