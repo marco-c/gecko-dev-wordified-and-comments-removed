@@ -273,7 +273,7 @@ MOZ_MUST_USE
 nsresult
 CloseIdleConnection
 (
-HttpConnectionBase
+nsHttpConnection
 *
 )
 ;
@@ -281,7 +281,7 @@ MOZ_MUST_USE
 nsresult
 RemoveIdleConnection
 (
-HttpConnectionBase
+nsHttpConnection
 *
 )
 ;
@@ -465,7 +465,7 @@ nsTArray
 <
 RefPtr
 <
-HttpConnectionBase
+nsHttpConnection
 >
 >
 mIdleConns
