@@ -7,6 +7,8 @@ unicode_literals
 import
 os
 import
+six
+import
 unittest
 from
 mozunit
@@ -2863,10 +2865,11 @@ validation
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 BuildReaderError
 '
 Invalid
@@ -2901,12 +2904,13 @@ validation
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 BuildReaderError
-                                     
+                                   
 '
 A
 list
@@ -3388,12 +3392,13 @@ error
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 BuildReaderError
-                                     
+                                   
 "
 DEFINES
 may
@@ -3713,12 +3718,13 @@ yasm
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 yasm
 is
@@ -4511,13 +4517,15 @@ generated
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 Objdir
 file
@@ -4597,13 +4605,15 @@ files
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 Outputs
 of
@@ -4893,12 +4903,13 @@ script
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Script
 for
@@ -4945,12 +4956,13 @@ inputs
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Input
 for
@@ -4999,12 +5011,13 @@ script
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Script
 for
@@ -5297,12 +5310,13 @@ missing
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 File
 listed
@@ -5369,12 +5383,13 @@ generated
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Objdir
 file
@@ -5718,12 +5733,13 @@ root
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Cannot
 install
@@ -6351,14 +6367,13 @@ manifest
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 BuildReaderError
 '
-IOError
-:
 Missing
 files
 '
@@ -6411,10 +6426,11 @@ empty
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 Empty
@@ -6477,10 +6493,11 @@ support
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 Empty
@@ -6545,13 +6562,15 @@ dupes
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 bar
 .
@@ -6560,7 +6579,7 @@ appears
 multiple
 times
 '
-            
+                
 '
 in
 a
@@ -6988,12 +7007,13 @@ missing
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 entry
 in
@@ -8063,12 +8083,13 @@ generated
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 entry
 in
@@ -8277,12 +8298,13 @@ file
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 lists
 test
@@ -8357,12 +8379,13 @@ unfiltered
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 lists
 test
@@ -8878,10 +8901,12 @@ srcdir
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+                
+self
                 
 SandboxValidationError
                 
@@ -8928,10 +8953,12 @@ objdir
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+                
+self
                 
 SandboxValidationError
                 
@@ -9002,10 +9029,12 @@ filename
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+                
+self
                 
 SandboxValidationError
                 
@@ -9353,10 +9382,11 @@ self
 :
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 limited
@@ -9413,15 +9443,16 @@ rejected
 "
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 XPIDL_MODULE
 '
-                                     
+                                   
 '
 cannot
 be
@@ -9475,17 +9506,18 @@ rejected
 "
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 File
 .
 *
 '
-                                     
+                                   
 '
 from
 XPIDL_SOURCES
@@ -9541,17 +9573,18 @@ rejected
 "
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 Path
 specified
 in
 '
-                                     
+                                   
 '
 LOCAL_INCLUDES
 does
@@ -9686,9 +9719,9 @@ libb
 :
 '
 -
-DIN_LIBA
--
 DIN_LIBB
+-
+DIN_LIBA
 '
             
 '
@@ -12078,7 +12111,9 @@ self
 .
 assertTrue
 (
-unicode
+six
+.
+text_type
 (
 f
 )
@@ -12110,17 +12145,18 @@ errors
 "
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
 '
 File
 listed
 in
 '
-                                     
+                                   
 '
 FINAL_TARGET_PP_FILES
 does
@@ -12199,13 +12235,15 @@ srcdir
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 Only
 source
@@ -12372,7 +12410,9 @@ self
 .
 assertTrue
 (
-unicode
+six
+.
+text_type
 (
 f
 )
@@ -12439,13 +12479,15 @@ us
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 LOCALIZED_FILES
 paths
@@ -12465,6 +12507,9 @@ en
 US
 /
 :
+'
+                
+'
 foo
 .
 js
@@ -12616,7 +12661,9 @@ self
 .
 assertTrue
 (
-unicode
+six
+.
+text_type
 (
 f
 )
@@ -12670,12 +12717,13 @@ toml
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 No
 Cargo
@@ -12741,12 +12789,13 @@ mismatch
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 library
 .
@@ -12820,12 +12869,13 @@ section
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Cargo
 .
@@ -12902,12 +12952,13 @@ type
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 crate
 -
@@ -13134,10 +13185,12 @@ msvc
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+                
+self
                 
 SandboxValidationError
                 
@@ -13320,12 +13373,13 @@ features
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 features
 for
@@ -13391,12 +13445,13 @@ toml
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 No
 Cargo
@@ -13462,12 +13517,13 @@ toml
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 No
 Cargo
@@ -13537,12 +13593,13 @@ name
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Cannot
 find
@@ -13615,12 +13672,13 @@ name
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
+self
 SandboxValidationError
-                                     
+                                   
 '
 Cannot
 find
@@ -14553,13 +14611,15 @@ generated
 )
         
 with
-self
+six
 .
-assertRaisesRegexp
+assertRaisesRegex
 (
-            
+                
+self
+                
 SandboxValidationError
-            
+                
 '
 Objdir
 file
