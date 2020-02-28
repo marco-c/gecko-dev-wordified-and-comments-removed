@@ -1072,7 +1072,7 @@ LooseVersion
 .
 41
 .
-0
+1
 '
 )
 MODERN_NASM_VERSION
