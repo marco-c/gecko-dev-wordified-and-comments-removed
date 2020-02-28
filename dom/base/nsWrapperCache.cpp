@@ -194,14 +194,6 @@ this
 )
 ;
 }
-recordreplay
-:
-:
-HoldJSObject
-(
-aWrapper
-)
-;
 }
 void
 nsWrapperCache

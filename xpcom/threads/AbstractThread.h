@@ -133,16 +133,7 @@ bool
 aRequireTailDispatch
 )
 ;
-NS_DECL_THREADSAFE_ISUPPORTS_WITH_RECORDING
-(
-recordreplay
-:
-:
-Behavior
-:
-:
-Preserve
-)
+NS_DECL_THREADSAFE_ISUPPORTS
 NS_IMETHOD_
 (
 bool

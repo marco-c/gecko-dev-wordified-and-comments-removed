@@ -708,15 +708,6 @@ idle_period_cross_process_scheduling
 XRE_IsContentProcess
 (
 )
-&
-&
-!
-recordreplay
-:
-:
-IsRecordingOrReplaying
-(
-)
 )
 {
 mIdleScheduler

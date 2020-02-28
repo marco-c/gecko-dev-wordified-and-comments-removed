@@ -134,12 +134,9 @@ Define
 the
 global
 Debugger
-and
-RecordReplayControl
-constructors
+constructor
 on
 a
-*
 given
 global
 .

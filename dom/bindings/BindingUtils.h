@@ -13243,14 +13243,6 @@ forget
 pointer
 )
 ;
-recordreplay
-:
-:
-HoldJSObject
-(
-mReflector
-)
-;
 mReflector
 =
 nullptr

@@ -46,16 +46,6 @@ mozilla
 :
 :
 SequentiallyConsistent
-mozilla
-:
-:
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 refcount
 ;

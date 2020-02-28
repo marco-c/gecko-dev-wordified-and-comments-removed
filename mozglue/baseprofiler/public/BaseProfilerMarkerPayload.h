@@ -406,13 +406,6 @@ Atomic
 <
 DeserializerTagAtomic
 ReleaseAcquire
-recordreplay
-:
-:
-Behavior
-:
-:
-DontPreserve
 >
 sDeserializerCount
 ;
