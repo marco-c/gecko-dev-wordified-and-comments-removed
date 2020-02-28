@@ -106,6 +106,14 @@ platform
 tools
 /
 fuzzing
+-
+tools
+/
+sanitizer
+-
+testing
+/
+perfdocs
 l10n_doc
 :
 -

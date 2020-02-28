@@ -432,6 +432,13 @@ lint
 -
 tools
 /
+sanitizer
+/
+docs
+/
+-
+tools
+/
 tryselect
 /
 exclude
