@@ -1682,6 +1682,9 @@ projects
 :
 [
 '
+trunk
+'
+'
 try
 '
 ]
