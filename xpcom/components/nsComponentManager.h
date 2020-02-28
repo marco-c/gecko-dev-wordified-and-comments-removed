@@ -351,8 +351,9 @@ nullptr
 SafeMutex
 (
 )
-{
-}
+=
+default
+;
 void
 Lock
 (
@@ -477,6 +478,9 @@ typedef
 mozilla
 :
 :
+detail
+:
+:
 BaseAutoLock
 <
 SafeMutex
@@ -486,6 +490,9 @@ SafeMutexAutoLock
 ;
 typedef
 mozilla
+:
+:
+detail
 :
 :
 BaseAutoUnlock
@@ -1068,8 +1075,9 @@ aChromeOnly
 ManifestProcessingContext
 (
 )
-{
-}
+=
+default
+;
 NSLocationType
 mType
 ;
