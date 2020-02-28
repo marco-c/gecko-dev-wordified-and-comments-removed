@@ -121,6 +121,8 @@ unicode_literals
 import
 os
 import
+six
+import
 sys
 import
 weakref
@@ -876,6 +878,10 @@ try
             
 source
 =
+six
+.
+ensure_text
+(
 self
 .
 _finder
@@ -887,6 +893,7 @@ path
 .
 read
 (
+)
 )
         
 except
@@ -1668,22 +1675,6 @@ key
 default
 =
 None
-)
-:
-        
-raise
-NotImplementedError
-(
-'
-Not
-supported
-'
-)
-    
-def
-__len__
-(
-self
 )
 :
         
