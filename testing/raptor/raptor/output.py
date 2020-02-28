@@ -1256,7 +1256,7 @@ output_perf_data
 =
 False
         
-elif
+if
 test_type
 =
 =

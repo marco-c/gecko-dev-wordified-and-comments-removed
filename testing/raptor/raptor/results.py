@@ -1022,6 +1022,19 @@ new_result_json
 )
 :
         
+if
+new_result_json
+.
+get
+(
+"
+extra_options
+"
+)
+is
+None
+:
+            
 new_result_json
 [
 "
