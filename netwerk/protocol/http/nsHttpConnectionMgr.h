@@ -288,7 +288,7 @@ nsHttpConnection
 void
 ReportSpdyConnection
 (
-HttpConnectionBase
+nsHttpConnection
 *
 bool
 usingSpdy
@@ -1802,7 +1802,7 @@ uint16_t
 mNumIdleConns
 ;
 uint16_t
-mNumSpdyActiveConns
+mNumSpdyHttp3ActiveConns
 ;
 uint32_t
 mNumHalfOpenConns

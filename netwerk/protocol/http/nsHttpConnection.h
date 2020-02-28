@@ -251,7 +251,6 @@ uint32_t
 TimeToLive
 (
 )
-override
 ;
 bool
 NeedSpdyTunnel
@@ -294,7 +293,6 @@ IsUrgentStartPreferred
 (
 )
 const
-override
 {
 return
 mUrgentStartPreferredKnown
@@ -309,7 +307,6 @@ SetUrgentStartPreferred
 bool
 urgent
 )
-override
 ;
 void
 SetIsReusedAfter
@@ -317,13 +314,11 @@ SetIsReusedAfter
 uint32_t
 afterMilliseconds
 )
-override
 ;
 int64_t
 MaxBytesRead
 (
 )
-override
 {
 return
 mMaxBytesRead
@@ -364,13 +359,11 @@ void
 BeginIdleMonitoring
 (
 )
-override
 ;
 void
 EndIdleMonitoring
 (
 )
-override
 ;
 bool
 UsingSpdy
@@ -403,7 +396,6 @@ bool
 EverUsedSpdy
 (
 )
-override
 {
 return
 mEverUsedSpdy
@@ -423,7 +415,6 @@ bool
 ReportedNPN
 (
 )
-override
 {
 return
 mReportedSpdy
