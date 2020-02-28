@@ -117,8 +117,3 @@ implementation
 notarization
 -
 poller
-attributes
-:
-shipping_phase
-:
-promote
