@@ -1199,10 +1199,6 @@ rval
 setNumber
 (
 result
-+
-0
-.
-0
 )
 ;
 return
