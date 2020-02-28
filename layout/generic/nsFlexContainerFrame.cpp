@@ -19713,7 +19713,7 @@ HadMeasuringReflow
 )
 {
 LogicalSize
-finalFlexItemCBSize
+finalFlexItemSize
 =
 aAxisTracker
 .
@@ -19735,7 +19735,7 @@ CrossSize
 ;
 if
 (
-finalFlexItemCBSize
+finalFlexItemSize
 =
 =
 LogicalSize
