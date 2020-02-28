@@ -5415,6 +5415,15 @@ IsPDFJSEnabled
 ;
 static
 bool
+IsPDFJS
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
+static
+bool
 IsSWFPlayerEnabled
 (
 )
