@@ -166,9 +166,6 @@ gen_feature_definitions
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
