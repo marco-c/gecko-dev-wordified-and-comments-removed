@@ -726,6 +726,12 @@ StyleCursorKind
 :
 uint8_t
 ;
+enum
+class
+StylePrefersColorScheme
+:
+uint8_t
+;
 template
 <
 typename
@@ -11013,6 +11019,12 @@ nsIPermissionDelegateHandler
 PermDelegateHandler
 (
 )
+;
+StylePrefersColorScheme
+PrefersColorScheme
+(
+)
+const
 ;
 static
 bool
