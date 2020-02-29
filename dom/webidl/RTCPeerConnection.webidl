@@ -562,8 +562,12 @@ void
 >
 setLocalDescription
 (
+optional
 RTCSessionDescriptionInit
 description
+=
+{
+}
 )
 ;
 Promise
@@ -572,8 +576,12 @@ void
 >
 setRemoteDescription
 (
+optional
 RTCSessionDescriptionInit
 description
+=
+{
+}
 )
 ;
 readonly

@@ -146,7 +146,6 @@ rollback
 dictionary
 RTCSessionDescriptionInit
 {
-required
 RTCSdpType
 type
 ;
