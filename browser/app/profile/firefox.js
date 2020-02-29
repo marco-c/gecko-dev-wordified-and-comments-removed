@@ -3322,7 +3322,7 @@ remote
 .
 separatePrivilegedContentProcess
 "
-false
+true
 )
 ;
 pref
