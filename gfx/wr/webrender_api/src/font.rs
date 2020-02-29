@@ -1008,6 +1008,14 @@ SUBPIXEL_POSITION
 <
 7
 ;
+const
+VERTICAL
+=
+1
+<
+<
+8
+;
 /
 /
 Windows
