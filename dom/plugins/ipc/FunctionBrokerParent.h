@@ -235,7 +235,7 @@ sSandboxPermissions
 ;
 #
 endif
-nsAutoPtr
+UniquePtr
 <
 FunctionBrokerThread
 >
