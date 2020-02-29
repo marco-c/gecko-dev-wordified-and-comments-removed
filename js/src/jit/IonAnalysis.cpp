@@ -23902,6 +23902,16 @@ analyzedArgsUsage
 )
 )
 ;
+MOZ_ASSERT
+(
+script
+-
+>
+argumentsHasVarBinding
+(
+)
+)
+;
 script
 -
 >
