@@ -779,10 +779,10 @@ optimal_column_index
     
 columns
 =
+list
+(
 columns
-[
-:
-]
+)
     
 columns
 [
