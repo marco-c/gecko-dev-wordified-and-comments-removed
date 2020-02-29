@@ -3061,6 +3061,7 @@ menu
 dismiss
 "
 :
+[
 {
 url
 :
@@ -3073,6 +3074,7 @@ FAKE_SITE
 .
 pocket_id
 }
+]
 menu_action_webext_dismiss
 :
 {

@@ -13340,6 +13340,7 @@ at
 BLOCK_URL
 data
 :
+[
 {
 flight_id
 :
@@ -13347,6 +13348,7 @@ flight_id
 1234
 "
 }
+]
 }
 )
 ;
