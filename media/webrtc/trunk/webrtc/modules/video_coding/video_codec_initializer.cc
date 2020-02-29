@@ -817,7 +817,7 @@ VP9
 >
 flexibleMode
 =
-true
+false
 ;
 RTC_DCHECK_EQ
 (
