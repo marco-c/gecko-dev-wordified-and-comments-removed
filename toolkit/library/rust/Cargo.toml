@@ -218,6 +218,17 @@ shared
 cranelift_none
 "
 ]
+smoosh
+=
+[
+"
+gkrust
+-
+shared
+/
+smoosh
+"
+]
 gecko_profiler
 =
 [

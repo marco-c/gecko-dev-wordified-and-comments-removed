@@ -1354,6 +1354,15 @@ jsrust_shared
 cranelift_none
 "
 ]
+smoosh
+=
+[
+"
+jsrust_shared
+/
+smoosh
+"
+]
 gecko_profiler
 =
 [
