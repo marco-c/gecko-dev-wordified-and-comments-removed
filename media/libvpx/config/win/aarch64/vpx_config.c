@@ -19,11 +19,11 @@ cfg
 -
 target
 =
-aarch64
+arm64
 -
 win64
 -
-vs12
+vs15
 -
 -
 enable

@@ -194,6 +194,12 @@ changes
 any
 more
 .
-Merge
-day
+Bug
+1525393
+-
+Updating
+libvpx
+requires
+a
 clobber
+.
