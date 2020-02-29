@@ -232,9 +232,6 @@ gen_static_components
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [

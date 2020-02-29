@@ -170,8 +170,16 @@ from
 collections
 import
 namedtuple
+from
+mozbuild
+.
+util
+import
+ensure_bytes
 import
 textwrap
+import
+six
 class
 PerfectHash
 (
@@ -797,13 +805,30 @@ key
 )
 :
             
-basis
-^
+if
+six
+.
+PY3
+:
+                
+obyte
+=
+byte
+            
+else
+:
+                
+obyte
 =
 ord
 (
 byte
 )
+            
+basis
+^
+=
+obyte
             
 basis
 *
@@ -833,11 +858,14 @@ entry
 return
 memoryview
 (
+ensure_bytes
+(
 self
 .
 _key
 (
 entry
+)
 )
 )
     
