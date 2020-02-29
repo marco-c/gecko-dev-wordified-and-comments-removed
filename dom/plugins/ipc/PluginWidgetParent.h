@@ -35,9 +35,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "

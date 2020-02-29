@@ -19166,15 +19166,11 @@ Clear
 ;
 mDeletingHash
 =
-MakeUnique
-<
+new
 nsTHashtable
 <
 DeletingObjectEntry
 >
->
-(
-)
 ;
 PluginScriptableObjectChild
 :

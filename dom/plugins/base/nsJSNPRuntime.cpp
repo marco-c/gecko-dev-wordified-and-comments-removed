@@ -17,9 +17,7 @@ h
 #
 include
 "
-mozilla
-/
-UniquePtr
+nsAutoPtr
 .
 h
 "
@@ -1512,7 +1510,7 @@ JSGC_END
 status
 )
 {
-UniquePtr
+nsAutoPtr
 <
 nsTArray
 <
