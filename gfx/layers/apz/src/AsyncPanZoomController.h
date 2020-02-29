@@ -1606,7 +1606,14 @@ ParentLayerPoint
 &
 aPoint
 uint32_t
-aTime
+aTimestampMs
+)
+;
+void
+EndTouch
+(
+uint32_t
+aTimestampMs
 )
 ;
 void
