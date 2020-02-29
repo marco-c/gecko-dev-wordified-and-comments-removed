@@ -70,6 +70,17 @@ Create
 )
 ;
 static
+already_AddRefed
+<
+nsICookieSettings
+>
+Create
+(
+uint32_t
+aCookieBehavior
+)
+;
+static
 CookieSettings
 *
 Cast
