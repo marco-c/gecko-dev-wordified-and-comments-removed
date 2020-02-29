@@ -7630,7 +7630,7 @@ val
 in
 modules
 .
-iteritems
+items
 (
 )
 :
@@ -7671,7 +7671,7 @@ val
 in
 errors
 .
-iteritems
+items
 (
 )
 :
@@ -7746,7 +7746,7 @@ val
 in
 errors
 .
-iteritems
+items
 (
 )
 :
@@ -7936,7 +7936,7 @@ val
 in
 errors
 .
-iteritems
+items
 (
 )
 :
@@ -8092,7 +8092,7 @@ val
 in
 modules
 .
-iteritems
+items
 (
 )
 :
@@ -8136,7 +8136,7 @@ val
 in
 errors
 .
-iteritems
+items
 (
 )
 :
