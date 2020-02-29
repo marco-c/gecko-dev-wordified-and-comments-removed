@@ -1098,6 +1098,17 @@ unexpected
 link
 status
 ]
+(
+expected
+:
+"
++
+info
+.
+linkSuccess
++
+"
+)
 "
 +
 passMsg
