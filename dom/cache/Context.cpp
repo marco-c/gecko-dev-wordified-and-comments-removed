@@ -944,6 +944,12 @@ mState
 =
 STATE_WAIT_FOR_DIRECTORY_LOCK
 ;
+RefPtr
+<
+DirectoryLock
+>
+pendingDirectoryLock
+=
 QuotaManager
 :
 :
