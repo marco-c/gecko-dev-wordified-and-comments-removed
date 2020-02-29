@@ -396,9 +396,6 @@ inputs
 [
 input_file
 ]
-py2
-=
-True
 )
 if
 CONFIG
