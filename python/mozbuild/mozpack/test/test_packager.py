@@ -137,9 +137,7 @@ TestCase
     
 MANIFEST_PATH
 =
-os
-.
-path
+mozpath
 .
 join
 (

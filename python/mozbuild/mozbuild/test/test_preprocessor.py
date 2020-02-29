@@ -3637,21 +3637,6 @@ fin
 n
 '
 )
-.
-replace
-(
-'
-DIR
-/
-'
-'
-DIR
-'
-+
-os
-.
-sep
-)
         
 with
 MockedOpen

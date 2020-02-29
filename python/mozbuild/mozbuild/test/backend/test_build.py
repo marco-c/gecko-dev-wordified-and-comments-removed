@@ -898,12 +898,9 @@ None
         
 test_path
 =
-os
-.
-sep
+mozpath
 .
 join
-(
 (
 '
 SRCDIR
@@ -931,11 +928,6 @@ data
 build
 '
 )
-)
-+
-os
-.
-sep
         
 result
 =
@@ -1214,7 +1206,9 @@ line
 2
 "
 %
-sbaz
+s
+/
+baz
 .
 jsm
 "
@@ -1256,7 +1250,9 @@ line
 2
 "
 %
-sbar
+s
+/
+bar
 .
 js
 "
@@ -1358,7 +1354,9 @@ line
 2
 "
 %
-sbar
+s
+/
+bar
 .
 js
 "
@@ -1481,7 +1479,9 @@ line
 2
 "
 %
-sbaz
+s
+/
+baz
 .
 jsm
 "
@@ -1541,7 +1541,9 @@ line
 4
 "
 %
-squx
+s
+/
+qux
 .
 jsm
 "
@@ -1820,7 +1822,9 @@ line
 2
 "
 %
-sbaz
+s
+/
+baz
 .
 jsm
 "
@@ -1864,7 +1868,9 @@ line
 2
 "
 %
-sbar
+s
+/
+bar
 .
 js
 "
@@ -1974,7 +1980,9 @@ line
 2
 "
 %
-sbar
+s
+/
+bar
 .
 js
 "
@@ -2129,7 +2137,9 @@ line
 2
 "
 %
-sbaz
+s
+/
+baz
 .
 jsm
 "
@@ -2193,7 +2203,9 @@ line
 2
 "
 %
-squx
+s
+/
+qux
 .
 jsm
 "
