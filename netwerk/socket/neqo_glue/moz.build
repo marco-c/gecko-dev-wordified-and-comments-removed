@@ -141,9 +141,7 @@ script
 =
 '
 /
-layout
-/
-style
+build
 /
 RunCbindgen
 .

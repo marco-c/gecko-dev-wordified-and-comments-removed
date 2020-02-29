@@ -1650,6 +1650,9 @@ h
 script
 =
 '
+/
+build
+/
 RunCbindgen
 .
 py

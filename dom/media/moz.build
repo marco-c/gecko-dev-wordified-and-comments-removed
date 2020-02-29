@@ -1980,9 +1980,7 @@ script
 =
 '
 /
-layout
-/
-style
+build
 /
 RunCbindgen
 .
@@ -2017,9 +2015,7 @@ script
 =
 '
 /
-layout
-/
-style
+build
 /
 RunCbindgen
 .
