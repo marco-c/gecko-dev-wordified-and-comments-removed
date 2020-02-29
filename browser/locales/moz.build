@@ -373,11 +373,6 @@ bookmarks
 inc
 '
 ]
-bookmarks
-.
-py2
-=
-True
 with
 Files
 (
