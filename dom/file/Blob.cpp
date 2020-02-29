@@ -1202,7 +1202,7 @@ aBag
 mEndings
 =
 =
-EndingTypes
+EndingType
 :
 :
 Native

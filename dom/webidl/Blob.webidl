@@ -269,7 +269,7 @@ arrayBuffer
 }
 ;
 enum
-EndingTypes
+EndingType
 {
 "
 transparent
@@ -288,7 +288,7 @@ type
 "
 "
 ;
-EndingTypes
+EndingType
 endings
 =
 "
