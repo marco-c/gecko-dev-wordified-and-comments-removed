@@ -533,9 +533,6 @@ run_spidermonkey_checks
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
