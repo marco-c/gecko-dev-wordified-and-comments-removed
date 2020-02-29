@@ -720,6 +720,10 @@ line
 .
 rstrip
 (
+'
+\
+n
+'
 )
             
 fields

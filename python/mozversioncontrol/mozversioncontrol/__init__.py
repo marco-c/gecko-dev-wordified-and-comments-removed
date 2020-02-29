@@ -1872,6 +1872,21 @@ connect
 =
 False
 )
+        
+self
+.
+_client
+.
+_env
+=
+ensure_subprocess_env
+(
+self
+.
+_client
+.
+_env
+)
     
 property
     
