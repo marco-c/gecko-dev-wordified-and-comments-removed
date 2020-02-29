@@ -206,12 +206,6 @@ _pr_bld
 .
 h
 -
-config
-/
-system_header_util
-.
-py
--
 dom
 /
 docs
