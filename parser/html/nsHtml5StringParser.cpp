@@ -103,6 +103,10 @@ new
 nsHtml5Tokenizer
 (
 mTreeBuilder
+.
+get
+(
+)
 false
 )
 )
