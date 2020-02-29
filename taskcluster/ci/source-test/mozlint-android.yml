@@ -101,6 +101,11 @@ once
 .
 lints
 :
+always
+-
+target
+:
+true
 attributes
 :
 build_platform
