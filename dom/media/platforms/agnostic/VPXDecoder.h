@@ -32,9 +32,6 @@ stdint
 h
 >
 #
-define
-VPX_DONT_DEFINE_STDINT_TYPES
-#
 include
 "
 mozilla
