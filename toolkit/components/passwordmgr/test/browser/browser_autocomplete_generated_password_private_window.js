@@ -364,12 +364,7 @@ is
 (
 generatedPasswordItem
 .
-hasAttribute
-(
-"
 disabled
-"
-)
 false
 "
 Generate
