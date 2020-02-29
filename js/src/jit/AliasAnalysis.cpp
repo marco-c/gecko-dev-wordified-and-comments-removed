@@ -1033,15 +1033,6 @@ MDefinition
 Opcode
 :
 :
-SetFrameArgument
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 CompareExchangeTypedArrayElement
 :
 case
