@@ -312,7 +312,7 @@ m6
 m7
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 movq
 rax
 m4
@@ -531,7 +531,7 @@ m4
 m5
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 movq
 rax
 m4

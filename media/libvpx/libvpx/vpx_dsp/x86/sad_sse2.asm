@@ -211,7 +211,7 @@ sad
 %
 2_avg
 5
-ARCH_X86_64
+VPX_ARCH_X86_64
 +
 %
 3
@@ -228,7 +228,7 @@ src_stride3
 ref_stride3
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 define
 n_rowsd

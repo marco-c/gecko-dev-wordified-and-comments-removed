@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_ENCODER_ONYX_INT_H_
+VPX_VP8_ENCODER_ONYX_INT_H_
 #
 define
-VP8_ENCODER_ONYX_INT_H_
+VPX_VP8_ENCODER_ONYX_INT_H_
 #
 include
 <
@@ -246,6 +246,10 @@ define
 VP8_TEMPORAL_ALT_REF
 !
 CONFIG_REALTIME_ONLY
+#
+define
+TICKS_PER_SEC
+10000000
 typedef
 struct
 {
@@ -778,6 +782,12 @@ int
 count_mb_ref_frame_usage
 [
 MAX_REF_FRAMES
+]
+;
+int
+last_q
+[
+2
 ]
 ;
 }
@@ -1555,6 +1565,9 @@ int
 frames_since_last_drop_overshoot
 ;
 int
+last_pred_err_mb
+;
+int
 gf_update_onepass_cbr
 ;
 int
@@ -2109,6 +2122,9 @@ rd_costs
 int
 use_roi_static_threshold
 ;
+int
+ext_refresh_frame_flags_pending
+;
 }
 VP8_COMP
 ;
@@ -2207,7 +2223,9 @@ expr
 do
 {
 \
+(
 lval
+)
 =
 (
 expr
@@ -2217,7 +2235,9 @@ expr
 if
 (
 !
+(
 lval
+)
 )
 \
 vpx_internal_error
@@ -2270,7 +2290,9 @@ expr
 do
 {
 \
+(
 lval
+)
 =
 (
 expr
@@ -2280,7 +2302,9 @@ expr
 if
 (
 !
+(
 lval
+)
 )
 \
 vpx_internal_error

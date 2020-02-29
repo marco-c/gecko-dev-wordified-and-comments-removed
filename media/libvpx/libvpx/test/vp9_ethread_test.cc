@@ -1934,7 +1934,7 @@ single_thr_psnr
 multi_thr_psnr
 0
 .
-1
+2
 )
 ;
 }
@@ -2069,7 +2069,7 @@ testing
 Range
 (
 3
-9
+10
 )
 :
 :

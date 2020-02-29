@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_UTIL_H_
+VPX_TEST_UTIL_H_
 #
 define
-TEST_UTIL_H_
+VPX_TEST_UTIL_H_
 #
 include
 <
@@ -17,6 +17,11 @@ include
 math
 .
 h
+>
+#
+include
+<
+tuple
 >
 #
 include
@@ -51,9 +56,6 @@ GET_PARAM
 k
 )
 std
-:
-:
-tr1
 :
 :
 get

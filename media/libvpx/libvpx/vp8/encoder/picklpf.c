@@ -98,7 +98,7 @@ h
 "
 #
 if
-ARCH_ARM
+VPX_ARCH_ARM
 #
 include
 "

@@ -792,7 +792,6 @@ in
 ]
 )
 {
-register
 UWORD32
 a
 b

@@ -1,5 +1,10 @@
 #
 include
+<
+memory
+>
+#
+include
 "
 third_party
 /
@@ -294,7 +299,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder
@@ -403,13 +408,10 @@ init_flags_
 =
 VPX_CODEC_USE_PSNR
 ;
-testing
+std
 :
 :
-internal
-:
-:
-scoped_ptr
+unique_ptr
 <
 libvpx_test
 :

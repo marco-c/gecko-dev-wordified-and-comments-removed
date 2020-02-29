@@ -14,6 +14,15 @@ vpx_config
 .
 h
 "
+#
+include
+"
+.
+/
+vp8_rtcd
+.
+h
+"
 static
 INLINE
 void

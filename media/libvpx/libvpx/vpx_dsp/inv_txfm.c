@@ -427,7 +427,7 @@ vpx_iwht4x4_1_add_c
 const
 tran_low_t
 *
-in
+input
 uint8_t
 *
 dest
@@ -453,7 +453,7 @@ tran_low_t
 *
 ip
 =
-in
+input
 ;
 tran_low_t
 *
@@ -6547,6 +6547,9 @@ output
 0
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6565,6 +6568,9 @@ output
 1
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6583,6 +6589,9 @@ output
 2
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6601,6 +6610,9 @@ output
 3
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6619,6 +6631,9 @@ output
 4
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6637,6 +6652,9 @@ output
 5
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6655,6 +6673,9 @@ output
 6
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6673,6 +6694,9 @@ output
 7
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6691,6 +6715,9 @@ output
 8
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6709,6 +6736,9 @@ output
 9
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6727,6 +6757,9 @@ output
 10
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6745,6 +6778,9 @@ output
 11
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6763,6 +6799,9 @@ output
 12
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6781,6 +6820,9 @@ output
 13
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6799,6 +6841,9 @@ output
 14
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -6817,6 +6862,9 @@ output
 15
 ]
 =
+(
+tran_low_t
+)
 WRAPLOW
 (
 step2
@@ -13644,7 +13692,7 @@ vpx_highbd_iwht4x4_1_add_c
 const
 tran_low_t
 *
-in
+input
 uint16_t
 *
 dest
@@ -13672,7 +13720,7 @@ tran_low_t
 *
 ip
 =
-in
+input
 ;
 tran_low_t
 *

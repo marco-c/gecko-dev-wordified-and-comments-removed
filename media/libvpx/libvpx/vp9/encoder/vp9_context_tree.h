@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_ENCODER_VP9_CONTEXT_TREE_H_
+VPX_VP9_ENCODER_VP9_CONTEXT_TREE_H_
 #
 define
-VP9_ENCODER_VP9_CONTEXT_TREE_H_
+VPX_VP9_ENCODER_VP9_CONTEXT_TREE_H_
 #
 include
 "
@@ -186,6 +186,9 @@ rate
 int64_t
 dist
 ;
+int64_t
+rdcost
+;
 #
 if
 CONFIG_VP9_TEMPORAL_DENOISING
@@ -229,6 +232,9 @@ pred_interp_filter
 ;
 int32_t
 sum_y_eobs
+;
+uint8_t
+skip_ref_frame_mask
 ;
 }
 PICK_MODE_CONTEXT
@@ -279,6 +285,9 @@ leaf_split
 ]
 ;
 }
+;
+MV
+mv
 ;
 }
 PC_TREE

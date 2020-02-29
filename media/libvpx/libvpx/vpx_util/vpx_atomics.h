@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_UTIL_VPX_ATOMICS_H_
+VPX_VPX_UTIL_VPX_ATOMICS_H_
 #
 define
-VPX_UTIL_VPX_ATOMICS_H_
+VPX_VPX_UTIL_VPX_ATOMICS_H_
 #
 include
 "
@@ -122,10 +122,10 @@ while
 else
 #
 if
-ARCH_X86
+VPX_ARCH_X86
 |
 |
-ARCH_X86_64
+VPX_ARCH_X86_64
 #
 define
 vpx_atomic_memory_barrier
@@ -145,7 +145,7 @@ memory
 )
 #
 elif
-ARCH_ARM
+VPX_ARCH_ARM
 #
 define
 vpx_atomic_memory_barrier
@@ -167,7 +167,7 @@ memory
 )
 #
 elif
-ARCH_MIPS
+VPX_ARCH_MIPS
 #
 define
 vpx_atomic_memory_barrier

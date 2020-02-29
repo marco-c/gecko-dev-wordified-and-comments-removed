@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_VP9_DX_IFACE_H_
+VPX_VP9_VP9_DX_IFACE_H_
 #
 define
-VP9_VP9_DX_IFACE_H_
+VPX_VP9_VP9_DX_IFACE_H_
 #
 include
 "
@@ -95,6 +95,12 @@ svc_decoding
 ;
 int
 svc_spatial_layer
+;
+int
+row_mt
+;
+int
+lpf_opt
 ;
 }
 ;

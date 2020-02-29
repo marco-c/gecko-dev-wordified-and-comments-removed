@@ -69,9 +69,8 @@ transpose_sse2
 .
 h
 "
-static
 void
-highbd_idct8x8_half1d
+vpx_highbd_idct8x8_half1d_sse4_1
 (
 __m128i
 *
@@ -1303,12 +1302,12 @@ io
 ]
 )
 ;
-idct8_sse2
+vpx_idct8_sse2
 (
 io_short
 )
 ;
-idct8_sse2
+vpx_idct8_sse2
 (
 io_short
 )
@@ -1328,7 +1327,7 @@ temp
 4
 ]
 ;
-highbd_idct8x8_half1d
+vpx_highbd_idct8x8_half1d_sse4_1
 (
 io
 )
@@ -1517,7 +1516,7 @@ input
 )
 )
 ;
-highbd_idct8x8_half1d
+vpx_highbd_idct8x8_half1d_sse4_1
 (
 &
 io
@@ -1606,7 +1605,7 @@ io
 11
 ]
 ;
-highbd_idct8x8_half1d
+vpx_highbd_idct8x8_half1d_sse4_1
 (
 io
 )
@@ -1651,7 +1650,7 @@ temp
 3
 ]
 ;
-highbd_idct8x8_half1d
+vpx_highbd_idct8x8_half1d_sse4_1
 (
 &
 io

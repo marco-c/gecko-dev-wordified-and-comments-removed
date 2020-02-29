@@ -30,6 +30,17 @@ vpx_dsp
 /
 arm
 /
+highbd_idct_neon
+.
+h
+"
+#
+include
+"
+vpx_dsp
+/
+arm
+/
 idct_neon
 .
 h

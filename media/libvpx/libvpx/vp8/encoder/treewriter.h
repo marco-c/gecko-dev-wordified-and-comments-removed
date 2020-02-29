@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_ENCODER_TREEWRITER_H_
+VPX_VP8_ENCODER_TREEWRITER_H_
 #
 define
-VP8_ENCODER_TREEWRITER_H_
+VPX_VP8_ENCODER_TREEWRITER_H_
 #
 include
 "
@@ -409,7 +409,7 @@ vp8_cost_tokens
 (
 int
 *
-Costs
+c
 const
 vp8_prob
 *
@@ -421,7 +421,7 @@ vp8_cost_tokens2
 (
 int
 *
-Costs
+c
 const
 vp8_prob
 *

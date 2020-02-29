@@ -15,6 +15,11 @@ string
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -162,9 +167,6 @@ bps
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -1030,9 +1032,6 @@ first_failure
 }
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

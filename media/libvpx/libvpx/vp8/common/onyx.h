@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_COMMON_ONYX_H_
+VPX_VP8_COMMON_ONYX_H_
 #
 define
-VP8_COMMON_ONYX_H_
+VPX_VP8_COMMON_ONYX_H_
 #
 ifdef
 __cplusplus
@@ -514,7 +514,7 @@ vp8_change_config
 struct
 VP8_COMP
 *
-onyx
+cpi
 VP8_CONFIG
 *
 oxcf
@@ -526,7 +526,7 @@ vp8_receive_raw_frame
 struct
 VP8_COMP
 *
-comp
+cpi
 unsigned
 int
 frame_flags
@@ -536,7 +536,7 @@ sd
 int64_t
 time_stamp
 int64_t
-end_time_stamp
+end_time
 )
 ;
 int
@@ -545,7 +545,7 @@ vp8_get_compressed_data
 struct
 VP8_COMP
 *
-comp
+cpi
 unsigned
 int
 *
@@ -577,7 +577,7 @@ vp8_get_preview_raw_frame
 struct
 VP8_COMP
 *
-comp
+cpi
 YV12_BUFFER_CONFIG
 *
 dest
@@ -592,7 +592,7 @@ vp8_use_as_reference
 struct
 VP8_COMP
 *
-comp
+cpi
 int
 ref_frame_flags
 )
@@ -603,7 +603,7 @@ vp8_update_reference
 struct
 VP8_COMP
 *
-comp
+cpi
 int
 ref_frame_flags
 )
@@ -614,7 +614,7 @@ vp8_get_reference
 struct
 VP8_COMP
 *
-comp
+cpi
 enum
 vpx_ref_frame_type
 ref_frame_flag
@@ -629,7 +629,7 @@ vp8_set_reference
 struct
 VP8_COMP
 *
-comp
+cpi
 enum
 vpx_ref_frame_type
 ref_frame_flag
@@ -644,7 +644,7 @@ vp8_update_entropy
 struct
 VP8_COMP
 *
-comp
+cpi
 int
 update
 )
@@ -655,7 +655,7 @@ vp8_set_roimap
 struct
 VP8_COMP
 *
-comp
+cpi
 unsigned
 char
 *
@@ -690,7 +690,7 @@ vp8_set_active_map
 struct
 VP8_COMP
 *
-comp
+cpi
 unsigned
 char
 *
@@ -709,7 +709,7 @@ vp8_set_internal_size
 struct
 VP8_COMP
 *
-comp
+cpi
 VPX_SCALING
 horiz_mode
 VPX_SCALING
@@ -722,7 +722,7 @@ vp8_get_quantizer
 struct
 VP8_COMP
 *
-c
+cpi
 )
 ;
 #

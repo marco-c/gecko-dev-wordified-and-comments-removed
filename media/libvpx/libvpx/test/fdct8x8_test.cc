@@ -21,6 +21,11 @@ h
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -253,9 +258,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 FdctFunc
@@ -269,9 +271,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 FhtFunc
@@ -283,9 +282,6 @@ Ht8x8Param
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -4427,9 +4423,6 @@ using
 std
 :
 :
-tr1
-:
-:
 make_tuple
 ;
 #
@@ -5032,7 +5025,7 @@ if
 HAVE_SSSE3
 &
 &
-ARCH_X86_64
+VPX_ARCH_X86_64
 &
 &
 !

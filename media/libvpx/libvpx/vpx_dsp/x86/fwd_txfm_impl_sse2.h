@@ -421,6 +421,9 @@ _mm_cmplt_epi16
 in0
 _mm_set1_epi16
 (
+(
+int16_t
+)
 0xfc00
 )
 )
@@ -443,6 +446,9 @@ _mm_cmplt_epi16
 in1
 _mm_set1_epi16
 (
+(
+int16_t
+)
 0xfc00
 )
 )

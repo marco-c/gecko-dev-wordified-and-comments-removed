@@ -233,11 +233,11 @@ dq
 unsigned
 char
 *
-dstu
+dst_u
 unsigned
 char
 *
-dstv
+dst_v
 int
 stride
 char
@@ -283,7 +283,7 @@ vp8_idct_dequant_full_2x_sse2
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -294,7 +294,7 @@ vp8_idct_dequant_0_2x_sse2
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -305,7 +305,7 @@ q
 =
 32
 ;
-dstu
+dst_u
 +
 =
 stride
@@ -350,7 +350,7 @@ vp8_idct_dequant_full_2x_sse2
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -361,7 +361,7 @@ vp8_idct_dequant_0_2x_sse2
 (
 q
 dq
-dstu
+dst_u
 stride
 )
 ;
@@ -410,7 +410,7 @@ vp8_idct_dequant_full_2x_sse2
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -421,7 +421,7 @@ vp8_idct_dequant_0_2x_sse2
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -432,7 +432,7 @@ q
 =
 32
 ;
-dstv
+dst_v
 +
 =
 stride
@@ -477,7 +477,7 @@ vp8_idct_dequant_full_2x_sse2
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;
@@ -488,7 +488,7 @@ vp8_idct_dequant_0_2x_sse2
 (
 q
 dq
-dstv
+dst_v
 stride
 )
 ;

@@ -1,6 +1,11 @@
 #
 include
 <
+memory
+>
+#
+include
+<
 string
 >
 #
@@ -508,7 +513,7 @@ return
 ;
 }
 void
-CheckXImageFrameBuffer
+CheckImageFrameBuffer
 (
 const
 vpx_image_t
@@ -1650,8 +1655,6 @@ return
 VPX_CODEC_OK
 ;
 }
-protected
-:
 void
 CheckDecodedFrames
 (
@@ -1695,7 +1698,7 @@ NULL
 {
 fb_list_
 .
-CheckXImageFrameBuffer
+CheckImageFrameBuffer
 (
 img
 )
@@ -1876,13 +1879,10 @@ kVP8TestVectors
 ;
 #
 endif
-testing
+std
 :
 :
-internal
-:
-:
-scoped_ptr
+unique_ptr
 <
 libvpx_test
 :

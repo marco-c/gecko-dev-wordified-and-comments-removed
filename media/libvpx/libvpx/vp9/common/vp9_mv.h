@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_COMMON_VP9_MV_H_
+VPX_VP9_COMMON_VP9_MV_H_
 #
 define
-VP9_COMMON_VP9_MV_H_
+VPX_VP9_COMMON_VP9_MV_H_
 #
 include
 "
@@ -34,6 +34,10 @@ C
 {
 #
 endif
+#
+define
+INVALID_MV
+0x80008000
 typedef
 struct
 mv

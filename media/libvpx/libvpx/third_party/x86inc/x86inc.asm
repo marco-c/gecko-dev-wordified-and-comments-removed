@@ -619,7 +619,7 @@ ifndef
 STACK_ALIGNMENT
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 define
 STACK_ALIGNMENT
@@ -644,7 +644,7 @@ UNIX64
 0
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 ifidn
 __OUTPUT_FORMAT__
@@ -1115,7 +1115,7 @@ endif
 endif
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 =
 =
 0
@@ -1719,7 +1719,7 @@ r
 2
 %
 elif
-ARCH_X86_64
+VPX_ARCH_X86_64
 ;
 memory
 %
@@ -1869,7 +1869,7 @@ e
 2
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 =
 =
 0
@@ -2062,7 +2062,7 @@ DECLARE_REG_TMP_SIZE
 14
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 define
 gprsize
@@ -2958,7 +2958,7 @@ regs_used
 endif
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 &
 &
 regs_used
@@ -3650,7 +3650,7 @@ AUTO_REP_RET
 endmacro
 %
 elif
-ARCH_X86_64
+VPX_ARCH_X86_64
 ;
 *
 nix
@@ -5913,7 +5913,7 @@ endif
 endif
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 |
 |
 cpuflag
@@ -6179,7 +6179,7 @@ num_mmregs
 8
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 define
 num_mmregs
@@ -6274,7 +6274,7 @@ num_mmregs
 8
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 define
 num_mmregs
@@ -9914,7 +9914,7 @@ __YASM_VERSION_ID__
 0x01030000
 &
 &
-ARCH_X86_64
+VPX_ARCH_X86_64
 =
 =
 0

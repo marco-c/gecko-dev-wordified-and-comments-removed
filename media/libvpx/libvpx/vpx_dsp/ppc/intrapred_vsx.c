@@ -163,6 +163,9 @@ dst
 ;
 }
 }
+#
+if
+0
 static
 const
 uint32x4_t
@@ -617,6 +620,8 @@ dst
 )
 ;
 }
+#
+endif
 void
 vpx_h_predictor_16x16_vsx
 (
@@ -1549,6 +1554,9 @@ v15_1
 )
 ;
 }
+#
+if
+0
 void
 vpx_tm_predictor_4x4_vsx
 (
@@ -2240,6 +2248,8 @@ dst
 )
 ;
 }
+#
+endif
 static
 void
 tm_predictor_16x8
@@ -3838,6 +3848,9 @@ above
 )
 ;
 }
+#
+if
+0
 static
 uint8x16_t
 dc_avg8
@@ -3960,6 +3973,8 @@ vec_splat_u16
 )
 ;
 }
+#
+endif
 static
 uint8x16_t
 dc_avg16
@@ -4081,6 +4096,9 @@ vec_splat_u16
 )
 ;
 }
+#
+if
+0
 void
 vpx_dc_predictor_8x8_vsx
 (
@@ -4111,6 +4129,8 @@ left
 )
 ;
 }
+#
+endif
 void
 vpx_dc_predictor_16x16_vsx
 (
@@ -4398,6 +4418,9 @@ sl1
 0x10
 }
 ;
+#
+if
+0
 void
 vpx_d45_predictor_8x8_vsx
 (
@@ -4540,6 +4563,8 @@ sl1
 ;
 }
 }
+#
+endif
 void
 vpx_d45_predictor_16x16_vsx
 (
@@ -4830,6 +4855,9 @@ sl1
 ;
 }
 }
+#
+if
+0
 void
 vpx_d63_predictor_8x8_vsx
 (
@@ -5018,6 +5046,8 @@ sl1
 ;
 }
 }
+#
+endif
 void
 vpx_d63_predictor_16x16_vsx
 (

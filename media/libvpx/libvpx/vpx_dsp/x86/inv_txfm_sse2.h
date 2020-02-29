@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_DSP_X86_INV_TXFM_SSE2_H_
+VPX_VPX_DSP_X86_INV_TXFM_SSE2_H_
 #
 define
-VPX_DSP_X86_INV_TXFM_SSE2_H_
+VPX_VPX_DSP_X86_INV_TXFM_SSE2_H_
 #
 include
 <
@@ -6884,7 +6884,7 @@ in
 )
 ;
 void
-idct8_sse2
+vpx_idct8_sse2
 (
 __m128i
 *
@@ -6916,6 +6916,15 @@ in
 ;
 void
 iadst8_sse2
+(
+__m128i
+*
+const
+in
+)
+;
+void
+vpx_iadst16_8col_sse2
 (
 __m128i
 *

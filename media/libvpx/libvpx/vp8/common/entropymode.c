@@ -545,7 +545,7 @@ void
 vp8_default_bmode_probs
 (
 vp8_prob
-p
+dest
 [
 VP8_BINTRAMODES
 -
@@ -555,7 +555,7 @@ VP8_BINTRAMODES
 {
 memcpy
 (
-p
+dest
 vp8_bmode_prob
 sizeof
 (

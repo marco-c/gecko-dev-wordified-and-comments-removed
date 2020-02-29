@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_REGISTER_STATE_CHECK_H_
+VPX_TEST_REGISTER_STATE_CHECK_H_
 #
 define
-TEST_REGISTER_STATE_CHECK_H_
+VPX_TEST_REGISTER_STATE_CHECK_H_
 #
 include
 "
@@ -45,6 +45,9 @@ defined
 (
 _WIN64
 )
+&
+&
+VPX_ARCH_X86_64
 #
 undef
 NOMINMAX
@@ -532,10 +535,10 @@ statement
 endif
 #
 if
-ARCH_X86
+VPX_ARCH_X86
 |
 |
-ARCH_X86_64
+VPX_ARCH_X86_64
 #
 if
 defined

@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_PORTS_PPC_H_
+VPX_VPX_PORTS_PPC_H_
 #
 define
-VPX_PORTS_PPC_H_
+VPX_VPX_PORTS_PPC_H_
 #
 include
 <

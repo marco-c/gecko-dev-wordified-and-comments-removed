@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_MEM_VPX_MEM_H_
+VPX_VPX_MEM_VPX_MEM_H_
 #
 define
-VPX_MEM_VPX_MEM_H_
+VPX_VPX_MEM_VPX_MEM_H_
 #
 include
 "

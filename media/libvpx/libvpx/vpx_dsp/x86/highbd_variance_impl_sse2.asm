@@ -108,7 +108,7 @@ char
 src_ptr
 ;
 int
-source_stride
+src_stride
 ;
 unsigned
 char
@@ -116,7 +116,7 @@ char
 ref_ptr
 ;
 int
-recon_stride
+ref_stride
 ;
 unsigned
 int
@@ -187,7 +187,7 @@ arg
 )
 ;
 [
-source_stride
+src_stride
 ]
 movsxd
 rdx
@@ -199,7 +199,7 @@ arg
 )
 ;
 [
-recon_stride
+ref_stride
 ]
 add
 rax
@@ -715,7 +715,7 @@ char
 src_ptr
 ;
 int
-source_stride
+src_stride
 ;
 unsigned
 char
@@ -723,7 +723,7 @@ char
 ref_ptr
 ;
 int
-recon_stride
+ref_stride
 ;
 unsigned
 int
@@ -794,7 +794,7 @@ arg
 )
 ;
 [
-source_stride
+src_stride
 ]
 movsxd
 rdx
@@ -806,7 +806,7 @@ arg
 )
 ;
 [
-recon_stride
+ref_stride
 ]
 add
 rax

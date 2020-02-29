@@ -600,7 +600,7 @@ int16_t
 input
 tran_low_t
 *
-final_output
+output
 int
 stride
 )
@@ -620,7 +620,7 @@ pass
 ;
 tran_low_t
 *
-output
+out
 =
 intermediate
 ;
@@ -1056,7 +1056,7 @@ x3
 *
 cospi_24_64
 ;
-output
+out
 [
 0
 ]
@@ -1069,7 +1069,7 @@ fdct_round_shift
 t0
 )
 ;
-output
+out
 [
 2
 ]
@@ -1082,7 +1082,7 @@ fdct_round_shift
 t2
 )
 ;
-output
+out
 [
 4
 ]
@@ -1095,7 +1095,7 @@ fdct_round_shift
 t1
 )
 ;
-output
+out
 [
 6
 ]
@@ -1208,7 +1208,7 @@ x0
 -
 cospi_4_64
 ;
-output
+out
 [
 1
 ]
@@ -1221,7 +1221,7 @@ fdct_round_shift
 t0
 )
 ;
-output
+out
 [
 3
 ]
@@ -1234,7 +1234,7 @@ fdct_round_shift
 t2
 )
 ;
-output
+out
 [
 5
 ]
@@ -1247,7 +1247,7 @@ fdct_round_shift
 t1
 )
 ;
-output
+out
 [
 7
 ]
@@ -1260,7 +1260,7 @@ fdct_round_shift
 t3
 )
 ;
-output
+out
 +
 =
 8
@@ -1270,9 +1270,9 @@ in
 =
 intermediate
 ;
-output
+out
 =
-final_output
+output
 ;
 }
 for
@@ -1304,7 +1304,7 @@ j
 +
 j
 )
-final_output
+output
 [
 j
 +
@@ -8439,7 +8439,7 @@ int16_t
 input
 tran_low_t
 *
-out
+output
 int
 stride
 )
@@ -8449,7 +8449,7 @@ i
 j
 ;
 tran_high_t
-output
+out
 [
 32
 *
@@ -8532,7 +8532,7 @@ j
 +
 j
 )
-output
+out
 [
 j
 *
@@ -8607,7 +8607,7 @@ temp_in
 j
 ]
 =
-output
+out
 [
 j
 +
@@ -8637,7 +8637,7 @@ j
 +
 j
 )
-out
+output
 [
 j
 +
@@ -8683,7 +8683,7 @@ int16_t
 input
 tran_low_t
 *
-out
+output
 int
 stride
 )
@@ -8693,7 +8693,7 @@ i
 j
 ;
 tran_high_t
-output
+out
 [
 32
 *
@@ -8776,7 +8776,7 @@ j
 +
 j
 )
-output
+out
 [
 j
 *
@@ -8851,7 +8851,7 @@ temp_in
 j
 ]
 =
-output
+out
 [
 j
 +
@@ -8881,7 +8881,7 @@ j
 +
 j
 )
-out
+output
 [
 j
 +
@@ -9013,7 +9013,7 @@ int16_t
 input
 tran_low_t
 *
-final_output
+output
 int
 stride
 )
@@ -9021,7 +9021,7 @@ stride
 vpx_fdct8x8_c
 (
 input
-final_output
+output
 stride
 )
 ;
@@ -9035,7 +9035,7 @@ int16_t
 input
 tran_low_t
 *
-final_output
+output
 int
 stride
 )
@@ -9043,7 +9043,7 @@ stride
 vpx_fdct8x8_1_c
 (
 input
-final_output
+output
 stride
 )
 ;
@@ -9101,7 +9101,7 @@ int16_t
 input
 tran_low_t
 *
-out
+output
 int
 stride
 )
@@ -9109,7 +9109,7 @@ stride
 vpx_fdct32x32_c
 (
 input
-out
+output
 stride
 )
 ;
@@ -9123,7 +9123,7 @@ int16_t
 input
 tran_low_t
 *
-out
+output
 int
 stride
 )
@@ -9131,7 +9131,7 @@ stride
 vpx_fdct32x32_rd_c
 (
 input
-out
+output
 stride
 )
 ;
@@ -9145,7 +9145,7 @@ int16_t
 input
 tran_low_t
 *
-out
+output
 int
 stride
 )
@@ -9153,7 +9153,7 @@ stride
 vpx_fdct32x32_1_c
 (
 input
-out
+output
 stride
 )
 ;

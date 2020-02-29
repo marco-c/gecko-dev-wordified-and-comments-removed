@@ -46,6 +46,12 @@ defined
 (
 OUTPUT_YUV_SKINMAP
 )
+|
+|
+defined
+(
+OUTPUT_YUV_SVC_SRC
+)
 unsigned
 char
 *

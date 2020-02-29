@@ -202,7 +202,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder
@@ -326,12 +326,14 @@ GET_PARAM
 >
 0
 )
+{
 EXPECT_GT
 (
 kf_count_
 1
 )
 ;
+}
 }
 TEST_P
 (
@@ -616,6 +618,7 @@ GET_PARAM
 >
 0
 )
+{
 EXPECT_EQ
 (
 2u
@@ -636,6 +639,7 @@ of
 keyframes
 "
 ;
+}
 for
 (
 std

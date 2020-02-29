@@ -337,7 +337,7 @@ v_fn_ptr
 mv_sf
 -
 >
-subpel_iters_per_step
+subpel_search_level
 cond_cost_list
 (
 cpi
@@ -352,6 +352,7 @@ sse
 NULL
 0
 0
+USE_2_TAPS
 )
 ;
 }

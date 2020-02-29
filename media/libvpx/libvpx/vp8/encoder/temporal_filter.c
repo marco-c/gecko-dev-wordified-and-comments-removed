@@ -958,10 +958,14 @@ fn_ptr
 BLOCK_16X16
 ]
 NULL
-NULL
 &
 best_ref_mv1
 )
+;
+(
+void
+)
+bestsme
 ;
 #
 if

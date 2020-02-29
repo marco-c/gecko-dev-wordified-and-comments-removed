@@ -21,6 +21,11 @@ h
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -815,9 +820,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 int
@@ -1290,9 +1292,6 @@ inconsistency
 endif
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

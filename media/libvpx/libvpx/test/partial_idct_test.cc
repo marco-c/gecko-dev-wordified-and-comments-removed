@@ -26,6 +26,11 @@ limits
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -293,9 +298,6 @@ bd
 endif
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -2080,9 +2082,6 @@ results
 }
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

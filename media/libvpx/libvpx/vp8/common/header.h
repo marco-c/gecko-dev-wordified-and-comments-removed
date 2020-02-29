@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_COMMON_HEADER_H_
+VPX_VP8_COMMON_HEADER_H_
 #
 define
-VP8_COMMON_HEADER_H_
+VPX_VP8_COMMON_HEADER_H_
 #
 ifdef
 __cplusplus

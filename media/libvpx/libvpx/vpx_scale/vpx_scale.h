@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_SCALE_VPX_SCALE_H_
+VPX_VPX_SCALE_VPX_SCALE_H_
 #
 define
-VPX_SCALE_VPX_SCALE_H_
+VPX_VPX_SCALE_VPX_SCALE_H_
 #
 include
 "

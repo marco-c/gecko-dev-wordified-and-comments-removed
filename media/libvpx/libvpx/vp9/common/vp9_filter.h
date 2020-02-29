@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_COMMON_VP9_FILTER_H_
+VPX_VP9_COMMON_VP9_FILTER_H_
 #
 define
-VP9_COMMON_VP9_FILTER_H_
+VPX_VP9_COMMON_VP9_FILTER_H_
 #
 include
 "
@@ -80,6 +80,10 @@ BILINEAR
 3
 #
 define
+FOURTAP
+4
+#
+define
 SWITCHABLE_FILTER_CONTEXTS
 (
 SWITCHABLE_FILTERS
@@ -109,7 +113,7 @@ InterpKernel
 *
 vp9_filter_kernels
 [
-4
+5
 ]
 ;
 #

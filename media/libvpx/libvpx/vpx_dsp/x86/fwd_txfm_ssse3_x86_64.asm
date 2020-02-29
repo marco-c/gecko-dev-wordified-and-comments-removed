@@ -180,7 +180,7 @@ SECTION
 text
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 INIT_XMM
 ssse3
 cglobal

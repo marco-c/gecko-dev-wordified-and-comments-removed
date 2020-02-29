@@ -931,6 +931,7 @@ t
 .
 decode_remaining
 )
+{
 ASSERT_EQ
 (
 VPX_CODEC_OK
@@ -942,6 +943,7 @@ byte_alignment
 )
 )
 ;
+}
 }
 INSTANTIATE_TEST_CASE_P
 (

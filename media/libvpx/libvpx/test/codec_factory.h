@@ -1,9 +1,14 @@
 #
 ifndef
-TEST_CODEC_FACTORY_H_
+VPX_TEST_CODEC_FACTORY_H_
 #
 define
-TEST_CODEC_FACTORY_H_
+VPX_TEST_CODEC_FACTORY_H_
+#
+include
+<
+tuple
+>
 #
 include
 "
@@ -193,9 +198,6 @@ TestWithParam
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 const
@@ -229,9 +231,6 @@ testing
 TestWithParam
 <
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -270,9 +269,6 @@ testing
 TestWithParam
 <
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -314,9 +310,6 @@ testing
 TestWithParam
 <
 std
-:
-:
-tr1
 :
 :
 tuple

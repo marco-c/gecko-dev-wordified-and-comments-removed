@@ -4,7 +4,8 @@ file
 is
 used
 by
-gcl
+git
+cl
 to
 get
 repository
@@ -13,16 +14,7 @@ information
 .
 GERRIT_HOST
 :
-chromium
--
-review
-.
-googlesource
-.
-com
-GERRIT_PORT
-:
-29418
+True
 CODE_REVIEW_SERVER
 :
 chromium

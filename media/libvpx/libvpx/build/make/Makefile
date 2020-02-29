@@ -866,6 +866,14 @@ vpx_config
 asm
 ;
 \
+rm
+-
+f
+arm_neon
+.
+h
+;
+\
 else
 \
 rm
@@ -3787,7 +3795,7 @@ DIST
 SRCS
 -
 (
-ARCH_ARM
+VPX_ARCH_ARM
 )
 +
 =
@@ -3803,7 +3811,7 @@ DIST
 SRCS
 -
 (
-ARCH_ARM
+VPX_ARCH_ARM
 )
 +
 =
@@ -3819,7 +3827,7 @@ DIST
 SRCS
 -
 (
-ARCH_ARM
+VPX_ARCH_ARM
 )
 +
 =
@@ -3835,7 +3843,7 @@ DIST
 SRCS
 -
 (
-ARCH_ARM
+VPX_ARCH_ARM
 )
 +
 =

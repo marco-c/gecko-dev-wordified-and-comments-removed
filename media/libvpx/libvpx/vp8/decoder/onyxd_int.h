@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_DECODER_ONYXD_INT_H_
+VPX_VP8_DECODER_ONYXD_INT_H_
 #
 define
-VP8_DECODER_ONYXD_INT_H_
+VPX_VP8_DECODER_ONYXD_INT_H_
 #
 include
 "
@@ -324,6 +324,14 @@ void
 *
 decrypt_state
 ;
+#
+if
+CONFIG_MULTITHREAD
+int
+restart_threads
+;
+#
+endif
 }
 VP8D_COMP
 ;
@@ -351,7 +359,7 @@ vp8_decode_frame
 (
 VP8D_COMP
 *
-cpi
+pbi
 )
 ;
 int
@@ -389,7 +397,9 @@ expr
 do
 {
 \
+(
 lval
+)
 =
 (
 expr
@@ -399,7 +409,9 @@ expr
 if
 (
 !
+(
 lval
+)
 )
 \
 vpx_internal_error
@@ -452,7 +464,9 @@ expr
 do
 {
 \
+(
 lval
+)
 =
 (
 expr
@@ -462,7 +476,9 @@ expr
 if
 (
 !
+(
 lval
+)
 )
 \
 vpx_internal_error

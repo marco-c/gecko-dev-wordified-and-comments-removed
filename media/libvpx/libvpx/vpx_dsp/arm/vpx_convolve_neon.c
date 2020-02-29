@@ -78,7 +78,7 @@ intermediate_height
 =
 h
 +
-7
+8
 ;
 assert
 (
@@ -181,7 +181,7 @@ intermediate_height
 =
 h
 +
-7
+8
 ;
 assert
 (

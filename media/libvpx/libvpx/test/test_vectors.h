@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_TEST_VECTORS_H_
+VPX_TEST_TEST_VECTORS_H_
 #
 define
-TEST_TEST_VECTORS_H_
+VPX_TEST_TEST_VECTORS_H_
 #
 include
 "

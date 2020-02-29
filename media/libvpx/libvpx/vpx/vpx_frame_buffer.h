@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_VPX_FRAME_BUFFER_H_
+VPX_VPX_VPX_FRAME_BUFFER_H_
 #
 define
-VPX_VPX_FRAME_BUFFER_H_
+VPX_VPX_VPX_FRAME_BUFFER_H_
 #
 ifdef
 __cplusplus

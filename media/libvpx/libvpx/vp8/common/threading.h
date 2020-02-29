@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_COMMON_THREADING_H_
+VPX_VP8_COMMON_THREADING_H_
 #
 define
-VP8_COMMON_THREADING_H_
+VPX_VP8_COMMON_THREADING_H_
 #
 include
 "
@@ -961,10 +961,10 @@ endif
 endif
 #
 if
-ARCH_X86
+VPX_ARCH_X86
 |
 |
-ARCH_X86_64
+VPX_ARCH_X86_64
 #
 include
 "

@@ -964,8 +964,8 @@ it
 sed
 -
 i
-'
-'
+.
+bak
 -
 e
 '
@@ -975,6 +975,14 @@ d
 {
 config_file
 }
+"
+rm
+"
+{
+config_file
+}
+.
+bak
 "
 printf
 "
@@ -1805,7 +1813,6 @@ cleanup
 )
 {
 local
-readonly
 res
 =
 ?
@@ -2421,7 +2428,7 @@ IOS_VERSION_OPTIONS
 IOS_VERSION_MIN
 =
 "
-6
+7
 .
 0
 "

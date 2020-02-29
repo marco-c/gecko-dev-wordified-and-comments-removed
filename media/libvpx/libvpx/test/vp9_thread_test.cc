@@ -1148,6 +1148,8 @@ t
 namespace
 impl
 {
+namespace
+{
 void
 Init
 (
@@ -1253,6 +1255,7 @@ VPxWorker
 const
 )
 {
+}
 }
 }
 TEST

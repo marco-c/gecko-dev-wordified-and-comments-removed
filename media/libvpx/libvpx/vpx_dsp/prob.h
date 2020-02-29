@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_DSP_PROB_H_
+VPX_VPX_DSP_PROB_H_
 #
 define
-VPX_DSP_PROB_H_
+VPX_VPX_DSP_PROB_H_
 #
 include
 <
@@ -93,7 +93,9 @@ x
 (
 255
 -
+(
 x
+)
 )
 #
 define

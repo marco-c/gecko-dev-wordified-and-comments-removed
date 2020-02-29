@@ -1,9 +1,9 @@
 #
 ifndef
-WEBMDEC_H_
+VPX_WEBMDEC_H_
 #
 define
-WEBMDEC_H_
+VPX_WEBMDEC_H_
 #
 include
 "

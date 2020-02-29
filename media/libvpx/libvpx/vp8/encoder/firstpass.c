@@ -764,10 +764,6 @@ static
 void
 output_stats
 (
-const
-VP8_COMP
-*
-cpi
 struct
 vpx_codec_pkt_list
 *
@@ -780,11 +776,6 @@ stats
 struct
 vpx_codec_cx_pkt
 pkt
-;
-(
-void
-)
-cpi
 ;
 pkt
 .
@@ -3026,7 +3017,6 @@ cpi
 output_stats
 (
 cpi
-cpi
 -
 >
 output_pkt_list
@@ -3044,9 +3034,6 @@ static
 void
 zz_motion_search
 (
-VP8_COMP
-*
-cpi
 MACROBLOCK
 *
 x
@@ -3162,11 +3149,6 @@ e_mbd
 pre
 .
 y_stride
-;
-(
-void
-)
-cpi
 ;
 raw_ptr
 =
@@ -4363,7 +4345,6 @@ INT_MAX
 ;
 zz_motion_search
 (
-cpi
 x
 cpi
 -
@@ -5700,7 +5681,6 @@ FIRSTPASS_STATS
 ;
 output_stats
 (
-cpi
 cpi
 -
 >
@@ -8436,9 +8416,6 @@ static
 double
 get_prediction_decay_rate
 (
-VP8_COMP
-*
-cpi
 FIRSTPASS_STATS
 *
 next_frame
@@ -8457,11 +8434,6 @@ next_frame
 -
 >
 pcnt_motion
-;
-(
-void
-)
-cpi
 ;
 prediction_decay_rate
 =
@@ -8697,7 +8669,6 @@ decay_rate
 =
 get_prediction_decay_rate
 (
-cpi
 &
 tmp_next_frame
 )
@@ -8807,9 +8778,6 @@ static
 void
 accumulate_frame_motion_stats
 (
-VP8_COMP
-*
-cpi
 FIRSTPASS_STATS
 *
 this_frame
@@ -8835,11 +8803,6 @@ this_frame_mvc_ratio
 ;
 double
 motion_pct
-;
-(
-void
-)
-cpi
 ;
 motion_pct
 =
@@ -9233,7 +9196,6 @@ break
 ;
 accumulate_frame_motion_stats
 (
-cpi
 &
 this_frame
 &
@@ -9293,7 +9255,6 @@ decay_accumulator
 *
 get_prediction_decay_rate
 (
-cpi
 &
 this_frame
 )
@@ -9456,7 +9417,6 @@ break
 ;
 accumulate_frame_motion_stats
 (
-cpi
 &
 this_frame
 &
@@ -9516,7 +9476,6 @@ decay_accumulator
 *
 get_prediction_decay_rate
 (
-cpi
 &
 this_frame
 )
@@ -9948,7 +9907,6 @@ cpi
 ;
 accumulate_frame_motion_stats
 (
-cpi
 &
 next_frame
 &
@@ -9981,7 +9939,6 @@ loop_decay_rate
 =
 get_prediction_decay_rate
 (
-cpi
 &
 next_frame
 )
@@ -11865,17 +11822,18 @@ kf_group_bits
 *
 mod_frame_err
 /
-DOUBLE_DIVIDE_CHECK
-(
 (
 double
 )
+VPXMAX
+(
 cpi
 -
 >
 twopass
 .
 kf_group_error_left
+1
 )
 )
 ;
@@ -14420,7 +14378,6 @@ loop_decay_rate
 =
 get_prediction_decay_rate
 (
-cpi
 &
 next_frame
 )
@@ -15184,7 +15141,6 @@ loop_decay_rate
 =
 get_prediction_decay_rate
 (
-cpi
 &
 next_frame
 )

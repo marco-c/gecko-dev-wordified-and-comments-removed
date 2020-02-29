@@ -111,7 +111,7 @@ if
 HAVE_SSE2
 &
 &
-ARCH_X86_64
+VPX_ARCH_X86_64
 prototype_loopfilter
 (
 vp8_loop_filter_bv_y_sse2
@@ -327,7 +327,7 @@ lfi
 {
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 vp8_loop_filter_bh_y_sse2
 (
 y_ptr
@@ -527,7 +527,7 @@ lfi
 {
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 vp8_loop_filter_bv_y_sse2
 (
 y_ptr

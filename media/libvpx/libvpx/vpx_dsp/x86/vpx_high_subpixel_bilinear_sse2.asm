@@ -173,7 +173,7 @@ arg
 6
 )
 ;
-bps
+bd
 movq
 xmm5
 rdx
@@ -333,7 +333,7 @@ rcx
 endm
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 %
 macro
 HIGH_GET_PARAM
@@ -415,7 +415,7 @@ arg
 6
 )
 ;
-bps
+bd
 movq
 xmm8
 rdx
@@ -815,7 +815,7 @@ rbp
 ret
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 global
 sym
 (
@@ -1032,7 +1032,7 @@ rbp
 ret
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 global
 sym
 (
@@ -1246,7 +1246,7 @@ rbp
 ret
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 global
 sym
 (
@@ -1450,7 +1450,7 @@ rbp
 ret
 %
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 global
 sym
 (

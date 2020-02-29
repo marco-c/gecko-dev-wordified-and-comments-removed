@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_COMMON_FINDNEARMV_H_
+VPX_VP8_COMMON_FINDNEARMV_H_
 #
 define
-VP8_COMMON_FINDNEARMV_H_
+VPX_VP8_COMMON_FINDNEARMV_H_
 #
 include
 "
@@ -498,9 +498,9 @@ int_mv
 nearby
 int_mv
 *
-best
+best_mv
 int
-near_mv_ref_cts
+near_mv_ref_cnts
 [
 4
 ]

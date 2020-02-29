@@ -10,6 +10,15 @@ include
 "
 .
 /
+vpx_config
+.
+h
+"
+#
+include
+"
+.
+/
 vpx_dsp_rtcd
 .
 h
@@ -330,6 +339,10 @@ return
 sum_out
 ;
 }
+#
+if
+!
+CONFIG_VP9_HIGHBITDEPTH
 void
 vpx_hadamard_8x8_msa
 (
@@ -3093,6 +3106,8 @@ return
 satd
 ;
 }
+#
+endif
 void
 vpx_int_pro_row_msa
 (

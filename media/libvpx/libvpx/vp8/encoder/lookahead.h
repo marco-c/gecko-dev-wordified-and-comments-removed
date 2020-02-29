@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_ENCODER_LOOKAHEAD_H_
+VPX_VP8_ENCODER_LOOKAHEAD_H_
 #
 define
-VP8_ENCODER_LOOKAHEAD_H_
+VPX_VP8_ENCODER_LOOKAHEAD_H_
 #
 include
 "
@@ -121,8 +121,10 @@ PEEK_FORWARD
 #
 define
 PEEK_BACKWARD
+(
 -
 1
+)
 struct
 lookahead_entry
 *

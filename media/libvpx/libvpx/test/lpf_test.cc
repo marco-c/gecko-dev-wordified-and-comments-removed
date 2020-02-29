@@ -15,6 +15,11 @@ string
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -294,9 +299,6 @@ typedef
 std
 :
 :
-tr1
-:
-:
 tuple
 <
 loop_op_t
@@ -307,9 +309,6 @@ loop8_param_t
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -462,6 +461,11 @@ tmp_s
 j
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 tmp_s
 [
 j
@@ -474,6 +478,7 @@ limit
 -
 1
 )
+)
 ;
 }
 else
@@ -483,6 +488,11 @@ tmp_s
 j
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 tmp_s
 [
 j
@@ -494,6 +504,7 @@ j
 limit
 -
 1
+)
 )
 ;
 }
@@ -612,6 +623,11 @@ j
 32
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 tmp_s
 [
 (
@@ -639,6 +655,7 @@ j
 limit
 -
 1
+)
 )
 ;
 }
@@ -659,6 +676,11 @@ j
 32
 ]
 =
+static_cast
+<
+uint16_t
+>
+(
 tmp_s
 [
 (
@@ -686,6 +708,7 @@ j
 limit
 -
 1
+)
 )
 ;
 }
@@ -2856,9 +2879,6 @@ first_failure
 }
 using
 std
-:
-:
-tr1
 :
 :
 make_tuple

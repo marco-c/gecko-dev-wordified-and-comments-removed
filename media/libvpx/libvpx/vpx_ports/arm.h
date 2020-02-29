@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_PORTS_ARM_H_
+VPX_VPX_PORTS_ARM_H_
 #
 define
-VPX_PORTS_ARM_H_
+VPX_VPX_PORTS_ARM_H_
 #
 include
 <

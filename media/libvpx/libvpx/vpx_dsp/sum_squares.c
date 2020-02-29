@@ -15,7 +15,7 @@ int16_t
 *
 src
 int
-src_stride
+stride
 int
 size
 )
@@ -79,7 +79,7 @@ v
 src
 +
 =
-src_stride
+stride
 ;
 }
 return

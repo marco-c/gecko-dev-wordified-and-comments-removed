@@ -1,9 +1,9 @@
 #
 ifndef
-ARGS_H_
+VPX_ARGS_H_
 #
 define
-ARGS_H_
+VPX_ARGS_H_
 #
 include
 <

@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_DSP_MIPS_INV_TXFM_DSPR2_H_
+VPX_VPX_DSP_MIPS_INV_TXFM_DSPR2_H_
 #
 define
-VPX_DSP_MIPS_INV_TXFM_DSPR2_H_
+VPX_VPX_DSP_MIPS_INV_TXFM_DSPR2_H_
 #
 include
 <
@@ -71,7 +71,6 @@ input
 \
 (
 {
-\
 \
 int32_t
 tmp

@@ -92,11 +92,11 @@ eob_ptr
 const
 int16_t
 *
-scan_ptr
+scan
 const
 int16_t
 *
-iscan_ptr
+iscan
 )
 {
 __m128i
@@ -105,7 +105,7 @@ zero
 __m128i
 thr
 ;
-int16_t
+int
 nzflag
 ;
 __m128i
@@ -119,7 +119,7 @@ dequant
 (
 void
 )
-scan_ptr
+scan
 ;
 (
 void
@@ -137,7 +137,7 @@ coeff_ptr
 =
 n_coeffs
 ;
-iscan_ptr
+iscan
 +
 =
 n_coeffs
@@ -486,7 +486,7 @@ __m128i
 *
 )
 (
-iscan_ptr
+iscan
 +
 n_coeffs
 )
@@ -502,7 +502,7 @@ __m128i
 *
 )
 (
-iscan_ptr
+iscan
 +
 n_coeffs
 )
@@ -900,7 +900,7 @@ __m128i
 *
 )
 (
-iscan_ptr
+iscan
 +
 n_coeffs
 )
@@ -916,7 +916,7 @@ __m128i
 *
 )
 (
-iscan_ptr
+iscan
 +
 n_coeffs
 )

@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_ENCODER_NOISE_ESTIMATE_H_
+VPX_VP9_ENCODER_VP9_NOISE_ESTIMATE_H_
 #
 define
-VP9_ENCODER_NOISE_ESTIMATE_H_
+VPX_VP9_ENCODER_VP9_NOISE_ESTIMATE_H_
 #
 include
 "
@@ -61,6 +61,10 @@ C
 {
 #
 endif
+#
+define
+MAX_VAR_HIST_BINS
+20
 typedef
 enum
 noise_level
@@ -87,6 +91,9 @@ value
 ;
 int
 thresh
+;
+int
+adapt_thresh
 ;
 int
 count

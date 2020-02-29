@@ -1,9 +1,9 @@
 #
 ifndef
-VPX_PORTS_MEM_OPS_H_
+VPX_VPX_PORTS_MEM_OPS_H_
 #
 define
-VPX_PORTS_MEM_OPS_H_
+VPX_VPX_PORTS_MEM_OPS_H_
 #
 ifndef
 MAU_T

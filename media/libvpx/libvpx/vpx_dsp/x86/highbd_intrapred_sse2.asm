@@ -1405,7 +1405,7 @@ dst
 stride
 above
 left
-bps
+bd
 movd
 m1
 [
@@ -1464,7 +1464,7 @@ m3
 m3
 movd
 m4
-bpsd
+bdd
 psubw
 m0
 m1
@@ -1626,7 +1626,7 @@ dst
 stride
 above
 left
-bps
+bd
 one
 movd
 m1
@@ -1672,7 +1672,7 @@ oned
 0
 pinsrw
 m4
-bpsd
+bdd
 0
 pshuflw
 m3
@@ -1825,7 +1825,7 @@ dst
 stride
 above
 left
-bps
+bd
 movd
 m2
 [
@@ -1867,7 +1867,7 @@ m3
 m3
 movd
 m4
-bpsd
+bdd
 punpcklqdq
 m2
 m2
@@ -2080,7 +2080,7 @@ dst
 stride
 above
 left
-bps
+bd
 movd
 m0
 [
@@ -2136,7 +2136,7 @@ m5
 m5
 movd
 m6
-bpsd
+bdd
 psllw
 m5
 m6

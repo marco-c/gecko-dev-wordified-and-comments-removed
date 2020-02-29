@@ -21,13 +21,6 @@ mem
 .
 h
 "
-#
-include
-"
-filter_x86
-.
-h
-"
 extern
 const
 short

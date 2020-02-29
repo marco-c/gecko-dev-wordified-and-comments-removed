@@ -1,5 +1,10 @@
 #
 include
+<
+memory
+>
+#
+include
 "
 third_party
 /
@@ -1006,13 +1011,10 @@ init_flags_
 =
 VPX_CODEC_USE_HIGHBITDEPTH
 ;
-testing
+std
 :
 :
-internal
-:
-:
-scoped_ptr
+unique_ptr
 <
 libvpx_test
 :

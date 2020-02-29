@@ -1,9 +1,9 @@
 #
 ifndef
-TEST_BUFFER_H_
+VPX_TEST_BUFFER_H_
 #
 define
-TEST_BUFFER_H_
+VPX_TEST_BUFFER_H_
 #
 include
 <

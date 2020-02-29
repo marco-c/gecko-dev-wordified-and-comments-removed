@@ -1023,6 +1023,9 @@ min_input
 ;
 max
 =
+(
+int16_t
+)
 _mm_extract_epi16
 (
 max_input
@@ -1031,6 +1034,9 @@ max_input
 ;
 min
 =
+(
+int16_t
+)
 _mm_extract_epi16
 (
 min_input

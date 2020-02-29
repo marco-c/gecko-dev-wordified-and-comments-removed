@@ -53,6 +53,13 @@ h
 "
 #
 if
+!
+defined
+(
+VPX_MAX_ALLOCABLE_MEMORY
+)
+#
+if
 SIZE_MAX
 >
 (
@@ -90,6 +97,8 @@ VPX_MAX_ALLOCABLE_MEMORY
 16
 )
 )
+#
+endif
 #
 endif
 static

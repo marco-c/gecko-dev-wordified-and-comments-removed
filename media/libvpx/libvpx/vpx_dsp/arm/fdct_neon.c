@@ -17,6 +17,15 @@ h
 #
 include
 "
+.
+/
+vpx_dsp_rtcd
+.
+h
+"
+#
+include
+"
 vpx_dsp
 /
 txfm_common

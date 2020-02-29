@@ -104,7 +104,7 @@ short
 input
 short
 *
-output
+mb_dqcoeff
 )
 global
 sym

@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_COMMON_VP9_SCALE_H_
+VPX_VP9_COMMON_VP9_SCALE_H_
 #
 define
-VP9_COMMON_VP9_SCALE_H_
+VPX_VP9_COMMON_VP9_SCALE_H_
 #
 include
 "
@@ -50,8 +50,10 @@ REF_SCALE_SHIFT
 #
 define
 REF_INVALID_SCALE
+(
 -
 1
+)
 struct
 scale_factors
 {
@@ -165,7 +167,7 @@ this_w
 int
 this_h
 int
-use_high
+use_highbd
 )
 ;
 #

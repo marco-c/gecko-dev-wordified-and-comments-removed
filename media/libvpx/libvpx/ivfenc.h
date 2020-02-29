@@ -1,9 +1,9 @@
 #
 ifndef
-IVFENC_H_
+VPX_IVFENC_H_
 #
 define
-IVFENC_H_
+VPX_IVFENC_H_
 #
 include
 "

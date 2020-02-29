@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_COMMON_VP9_ENTROPYMV_H_
+VPX_VP9_COMMON_VP9_ENTROPYMV_H_
 #
 define
-VP9_COMMON_VP9_ENTROPYMV_H_
+VPX_VP9_COMMON_VP9_ENTROPYMV_H_
 #
 include
 "
@@ -63,7 +63,7 @@ VP9Common
 *
 cm
 int
-usehp
+allow_hp
 )
 ;
 static
@@ -585,7 +585,7 @@ MV
 mv
 nmv_context_counts
 *
-mvctx
+counts
 )
 ;
 #

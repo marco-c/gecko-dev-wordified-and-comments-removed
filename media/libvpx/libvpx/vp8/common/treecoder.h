@@ -1,9 +1,9 @@
 #
 ifndef
-VP8_COMMON_TREECODER_H_
+VPX_VP8_COMMON_TREECODER_H_
 #
 define
-VP8_COMMON_TREECODER_H_
+VPX_VP8_COMMON_TREECODER_H_
 #
 ifdef
 __cplusplus
@@ -80,7 +80,9 @@ x
 (
 255
 -
+(
 x
+)
 )
 typedef
 const

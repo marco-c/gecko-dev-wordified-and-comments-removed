@@ -5,6 +5,11 @@ climits
 >
 #
 include
+<
+tuple
+>
+#
+include
 "
 third_party
 /
@@ -66,9 +71,6 @@ kTestMode
 ;
 typedef
 std
-:
-:
-tr1
 :
 :
 tuple
@@ -161,9 +163,6 @@ mode
 std
 :
 :
-tr1
-:
-:
 get
 <
 kTestMode
@@ -226,7 +225,7 @@ frame
 )
 =
 =
-1
+0
 )
 {
 encoder

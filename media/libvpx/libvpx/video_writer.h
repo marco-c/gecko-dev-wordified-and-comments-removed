@@ -1,9 +1,9 @@
 #
 ifndef
-VIDEO_WRITER_H_
+VPX_VIDEO_WRITER_H_
 #
 define
-VIDEO_WRITER_H_
+VPX_VIDEO_WRITER_H_
 #
 include
 "

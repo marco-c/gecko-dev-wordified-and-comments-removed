@@ -1,9 +1,9 @@
 #
 ifndef
-VP9_COMMON_VP9_LOOPFILTER_H_
+VPX_VP9_COMMON_VP9_LOOPFILTER_H_
 #
 define
-VP9_COMMON_VP9_LOOPFILTER_H_
+VPX_VP9_COMMON_VP9_LOOPFILTER_H_
 #
 include
 "
@@ -270,7 +270,7 @@ mi_col
 MODE_INFO
 *
 *
-mi_8x8
+mi8x8
 const
 int
 mode_info_stride
@@ -373,9 +373,9 @@ cm
 struct
 macroblockd
 *
-mbd
+xd
 int
-filter_level
+frame_filter_level
 int
 y_only
 int

@@ -397,8 +397,6 @@ to
 read
 frame
 size
-\
-n
 "
 )
 ;
@@ -434,8 +432,6 @@ size
 %
 u
 )
-\
-n
 "
 (
 unsigned
@@ -499,8 +495,6 @@ allocate
 compressed
 data
 buffer
-\
-n
 "
 )
 ;
@@ -543,8 +537,6 @@ to
 read
 full
 frame
-\
-n
 "
 )
 ;

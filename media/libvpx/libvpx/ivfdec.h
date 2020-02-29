@@ -1,9 +1,9 @@
 #
 ifndef
-IVFDEC_H_
+VPX_IVFDEC_H_
 #
 define
-IVFDEC_H_
+VPX_IVFDEC_H_
 #
 include
 "

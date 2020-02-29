@@ -671,7 +671,7 @@ best_address
 ;
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 __m128i
 v_ba_q
 =
@@ -829,7 +829,7 @@ v_diff_mv_w
 ;
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 __m128i
 v_blocka
 [
@@ -925,6 +925,9 @@ _mm_xor_si128
 v_inside_d
 _mm_set1_epi8
 (
+(
+int8_t
+)
 0xff
 )
 )
@@ -955,7 +958,7 @@ v_diff_mv_w
 {
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 __m128i
 v_bo10_q
 =
@@ -1657,7 +1660,7 @@ as_int
 ;
 #
 if
-ARCH_X86_64
+VPX_ARCH_X86_64
 v_ba_q
 =
 _mm_set1_epi64x

@@ -1511,6 +1511,9 @@ endif
 #
 if
 HAVE_VSX
+#
+if
+0
 INTRA_PRED_TEST
 (
 VSX
@@ -1547,6 +1550,8 @@ NULL
 vpx_d63_predictor_8x8_vsx
 vpx_tm_predictor_8x8_vsx
 )
+#
+endif
 INTRA_PRED_TEST
 (
 VSX
