@@ -42,9 +42,7 @@ h
 #
 include
 "
-mozilla
-/
-Attributes
+nsAutoPtr
 .
 h
 "
@@ -53,7 +51,7 @@ include
 "
 mozilla
 /
-UniquePtr
+Attributes
 .
 h
 "
@@ -121,10 +119,6 @@ GetSnapshot
 {
 return
 mSnapshot
-.
-get
-(
-)
 ;
 }
 virtual
@@ -162,10 +156,7 @@ mStart
 int32_t
 mStartLineNumber
 ;
-mozilla
-:
-:
-UniquePtr
+nsAutoPtr
 <
 nsAHtml5TreeBuilderState
 >
