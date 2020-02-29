@@ -58,7 +58,7 @@ global
 /
 aboutAbout
 .
-xhtml
+html
 #
 ifdef
 MOZILLA_OFFICIAL
