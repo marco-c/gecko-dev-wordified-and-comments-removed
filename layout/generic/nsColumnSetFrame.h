@@ -356,16 +356,6 @@ mKnownInfeasibleBSize
 =
 0
 ;
-nscoord
-mComputedBSize
-=
-NS_UNCONSTRAINEDSIZE
-;
-nscoord
-mConsumedBSize
-=
-0
-;
 }
 ;
 struct
