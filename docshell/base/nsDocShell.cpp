@@ -55148,11 +55148,6 @@ this
 ;
 }
 }
-bool
-loadFromExternal
-=
-false
-;
 /
 /
 Before
@@ -55179,10 +55174,6 @@ LoadType
 LOAD_NORMAL_EXTERNAL
 )
 {
-loadFromExternal
-=
-true
-;
 /
 /
 Disallow
@@ -57239,7 +57230,6 @@ rv
 DoURILoad
 (
 aLoadState
-loadFromExternal
 aDocShell
 getter_AddRefs
 (
@@ -59940,8 +59930,6 @@ DoURILoad
 nsDocShellLoadState
 *
 aLoadState
-bool
-aLoadFromExternal
 nsIDocShell
 *
 *
@@ -61570,7 +61558,15 @@ loadInfo
 >
 SetLoadTriggeredFromExternal
 (
-aLoadFromExternal
+aLoadState
+-
+>
+LoadType
+(
+)
+=
+=
+LOAD_NORMAL_EXTERNAL
 )
 ;
 loadInfo
