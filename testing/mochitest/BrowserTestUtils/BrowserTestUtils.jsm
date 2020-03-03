@@ -4841,10 +4841,6 @@ shouldClearMinidumps
 =
 true
 browsingContext
-options
-=
-{
-}
 )
 {
 let
@@ -5487,15 +5483,6 @@ BrowserTestUtils
 CrashFrame
 "
 {
-crashType
-:
-options
-.
-crashType
-|
-|
-"
-"
 }
 )
 ;
