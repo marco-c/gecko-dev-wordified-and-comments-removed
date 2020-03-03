@@ -86,6 +86,7 @@ const
 getRecordingPreferencesFromBrowser
 setRecordingPreferencesOnBrowser
 getSymbolsFromThisBrowser
+presets
 }
 =
 ChromeUtils
@@ -382,6 +383,7 @@ perfFront
 perfFrontInterface
 receiveProfile
 supportedFeatures
+presets
 recordingPreferences
 :
 getRecordingPreferencesFromBrowser
