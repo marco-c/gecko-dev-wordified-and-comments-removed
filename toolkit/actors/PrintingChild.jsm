@@ -1708,6 +1708,16 @@ getPrintSettings
 defaultPrinterName
 )
 ;
+printSettings
+.
+title
+=
+contentWindow
+.
+document
+.
+title
+;
 let
 printCancelled
 =
