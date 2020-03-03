@@ -305,6 +305,9 @@ mRetargeting
 bool
 mAsyncStreamIsBuffered
 ;
+bool
+mOffMainThread
+;
 mozilla
 :
 :
