@@ -146,12 +146,6 @@ getFloatPref
 ]
 [
 "
-clickSelectsAll
-"
-false
-]
-[
-"
 ctrlCanonizesURLs
 "
 true
@@ -171,12 +165,6 @@ delay
 [
 "
 disableExtendForTests
-"
-false
-]
-[
-"
-doubleClickSelectsAll
 "
 false
 ]
