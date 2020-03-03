@@ -24,7 +24,7 @@ scenario
 :
 {
 "
-heavy
+full
 "
 :
 {
@@ -32,16 +32,7 @@ heavy
 max_urls
 "
 :
-100
+150
 }
 }
-"
-ignore_scenario
-"
-:
-[
-"
-synced
-"
-]
 }
