@@ -407,6 +407,9 @@ aElement
 ;
 }
 ;
+struct
+ElementPropertyTransition
+;
 namespace
 dom
 {
@@ -810,15 +813,6 @@ const
 ComputedStyle
 *
 aStyle
-)
-;
-void
-ReplaceTransitionStartValue
-(
-AnimationValue
-&
-&
-aStartValue
 )
 ;
 nsCSSPropertyIDSet
