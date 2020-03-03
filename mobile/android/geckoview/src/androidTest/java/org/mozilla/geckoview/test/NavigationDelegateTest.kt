@@ -1309,6 +1309,14 @@ waitForPageStop
 (
 )
 }
+Ignore
+/
+/
+Disabled
+for
+bug
+1619344
+.
 Test
 fun
 loadUnknownProtocol
