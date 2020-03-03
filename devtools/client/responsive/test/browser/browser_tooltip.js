@@ -287,5 +287,10 @@ be
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;

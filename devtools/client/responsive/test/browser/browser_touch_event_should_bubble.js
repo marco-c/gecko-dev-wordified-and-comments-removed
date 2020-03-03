@@ -237,5 +237,10 @@ false
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;

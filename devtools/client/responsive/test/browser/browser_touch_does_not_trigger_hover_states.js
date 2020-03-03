@@ -123,6 +123,11 @@ false
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 async

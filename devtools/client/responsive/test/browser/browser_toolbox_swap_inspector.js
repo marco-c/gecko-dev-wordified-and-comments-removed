@@ -57,8 +57,10 @@ location
 ;
 }
 ;
-add_task
+addRDMTask
 (
+"
+"
 async
 function
 (
@@ -298,6 +300,14 @@ removeTab
 tab
 )
 ;
+}
+{
+usingBrowserUI
+:
+true
+onlyPrefAndTask
+:
+true
 }
 )
 ;
