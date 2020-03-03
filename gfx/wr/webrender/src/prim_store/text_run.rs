@@ -1205,6 +1205,9 @@ RasterSpace
 prim_rect
 :
 PictureRect
+root_scaling_factor
+:
+f32
 spatial_tree
 :
 &
@@ -1245,6 +1248,8 @@ surface
 device_pixel_scale
 .
 0
+*
+root_scaling_factor
 ;
 let
 glyph_raster_scale
@@ -1689,6 +1694,9 @@ SpatialNodeIndex
 raster_space
 :
 RasterSpace
+root_scaling_factor
+:
+f32
 subpixel_mode
 :
 &
@@ -1733,6 +1741,7 @@ transform
 subpixel_mode
 raster_space
 prim_rect
+root_scaling_factor
 spatial_tree
 )
 ;
