@@ -12670,10 +12670,11 @@ mPresShell
 nullptr
 ;
 }
+#
+ifdef
+XP_MACOSX
+static
 nsresult
-nsFrameSelection
-:
-:
 UpdateSelectionCacheOnRepaintSelection
 (
 Selection
@@ -12752,6 +12753,8 @@ return
 NS_OK
 ;
 }
+#
+endif
 int16_t
 AutoCopyListener
 :
