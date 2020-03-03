@@ -9695,6 +9695,10 @@ P
 completedNamedCharacterReference
 (
 mViewSource
+.
+get
+(
+)
 )
 ;
 const
