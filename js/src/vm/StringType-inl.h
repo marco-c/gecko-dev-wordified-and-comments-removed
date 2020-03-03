@@ -54,6 +54,15 @@ include
 "
 gc
 /
+MaybeRooted
+.
+h
+"
+#
+include
+"
+gc
+/
 StoreBuffer
 .
 h

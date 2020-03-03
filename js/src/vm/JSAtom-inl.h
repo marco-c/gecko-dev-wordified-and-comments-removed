@@ -41,6 +41,15 @@ h
 #
 include
 "
+gc
+/
+MaybeRooted
+.
+h
+"
+#
+include
+"
 vm
 /
 Runtime
