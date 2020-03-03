@@ -592,6 +592,12 @@ principal
 aWindow
 -
 >
+GetDocumentContentBlockingAllowListPrincipal
+(
+)
+aWindow
+-
+>
 GetDocumentURI
 (
 )

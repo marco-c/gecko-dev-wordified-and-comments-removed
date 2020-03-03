@@ -682,6 +682,14 @@ innerWindowId
 )
 ;
 }
+mDocContentBlockingAllowListPrincipal
+=
+aInit
+.
+contentBlockingAllowListPrincipal
+(
+)
+;
 nsCOMPtr
 <
 nsIObserverService
