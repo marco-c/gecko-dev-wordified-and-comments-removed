@@ -404,7 +404,11 @@ resolution
 )
 ;
 }
+{
+usingBrowserUI
+:
 true
+}
 )
 ;
 }
