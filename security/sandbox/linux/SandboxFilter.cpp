@@ -5494,6 +5494,9 @@ case
 __NR_sched_getattr
 :
 case
+__NR_sched_setattr
+:
+case
 __NR_sched_get_priority_min
 :
 case
