@@ -36,6 +36,7 @@ units
 DevicePixelScale
 DevicePoint
 PictureRect
+TexelRect
 }
 ;
 use
@@ -518,7 +519,7 @@ i32
 pub
 uv_rect
 :
-DeviceRect
+TexelRect
 }
 impl
 YuvPlaneDescriptor
@@ -544,10 +545,10 @@ texture_layer
 0
 uv_rect
 :
-DeviceRect
+TexelRect
 :
 :
-zero
+invalid
 (
 )
 }
@@ -1836,7 +1837,7 @@ cache_item
 .
 uv_rect
 .
-to_f32
+into
 (
 )
 }

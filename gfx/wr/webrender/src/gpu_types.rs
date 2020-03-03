@@ -1280,7 +1280,7 @@ f32
 uv_rects
 :
 [
-DeviceRect
+TexelRect
 ;
 3
 ]
@@ -1360,10 +1360,10 @@ layer
 uv_rects
 :
 [
-DeviceRect
+TexelRect
 :
 :
-zero
+invalid
 (
 )
 ;
@@ -1403,7 +1403,7 @@ f32
 uv_rects
 :
 [
-DeviceRect
+TexelRect
 ;
 3
 ]

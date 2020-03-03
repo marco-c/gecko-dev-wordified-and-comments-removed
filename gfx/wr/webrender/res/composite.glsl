@@ -307,10 +307,6 @@ aUvRect0
 xy
 aUvRect0
 .
-xy
-+
-aUvRect0
-.
 zw
 aTextureLayers
 .
@@ -331,10 +327,6 @@ aUvRect1
 xy
 aUvRect1
 .
-xy
-+
-aUvRect1
-.
 zw
 aTextureLayers
 .
@@ -353,10 +345,6 @@ write_uv_rect
 aUvRect2
 .
 xy
-aUvRect2
-.
-xy
-+
 aUvRect2
 .
 zw
