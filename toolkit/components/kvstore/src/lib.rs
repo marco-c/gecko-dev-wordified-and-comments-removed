@@ -189,6 +189,7 @@ xpcom
 :
 :
 {
+getter_addrefs
 interfaces
 :
 :
@@ -202,12 +203,11 @@ nsISupports
 nsIThread
 nsIVariant
 }
-getter_addrefs
 nsIID
-RefPtr
-ThreadBoundRefPtr
 xpcom
 xpcom_method
+RefPtr
+ThreadBoundRefPtr
 }
 ;
 type
