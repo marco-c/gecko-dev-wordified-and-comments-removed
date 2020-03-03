@@ -28410,11 +28410,6 @@ nullptr
 )
 ;
 void
-AssociateImageIfNeeded
-(
-)
-;
-void
 DisassociateImage
 (
 )
@@ -28583,9 +28578,6 @@ mImageFlags
 ;
 bool
 mAssociatedImage
-;
-bool
-mTriedToAssociateImage
 ;
 }
 ;
