@@ -112,6 +112,10 @@ true
 )
 ;
 }
+{
+usingBrowserUI
+:
 true
+}
 )
 ;

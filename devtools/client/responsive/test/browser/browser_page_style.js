@@ -269,6 +269,11 @@ enabled
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 function
