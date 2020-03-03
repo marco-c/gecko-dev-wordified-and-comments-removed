@@ -525,7 +525,7 @@ RefPtr
 <
 FileInfo
 >
-CreateFileInfo
+GetNewFileInfo
 (
 )
 ;
