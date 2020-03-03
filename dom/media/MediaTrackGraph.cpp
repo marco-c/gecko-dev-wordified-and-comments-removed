@@ -13460,6 +13460,16 @@ GetMonitor
 )
 )
 ;
+if
+(
+graph
+-
+>
+CurrentDriver
+(
+)
+)
+{
 graph
 -
 >
@@ -13467,6 +13477,7 @@ EnsureNextIteration
 (
 )
 ;
+}
 }
 return
 appended
