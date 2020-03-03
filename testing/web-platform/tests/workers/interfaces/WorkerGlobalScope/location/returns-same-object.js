@@ -1,9 +1,0 @@
-postMessage
-(
-location
-=
-=
-=
-location
-)
-;
