@@ -115,9 +115,7 @@ _processListChanged
 )
 {
 const
-{
 processes
-}
 =
 await
 this

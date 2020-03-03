@@ -875,9 +875,7 @@ target
 )
 ;
 const
-{
 processes
-}
 =
 await
 mainRoot

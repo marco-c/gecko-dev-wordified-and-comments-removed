@@ -197,9 +197,7 @@ client
 mainRoot
 ;
 const
-{
 processes
-}
 =
 await
 mainRoot

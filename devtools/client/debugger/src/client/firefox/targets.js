@@ -603,9 +603,7 @@ devToolsClient
 args
 ;
 const
-{
 processes
-}
 =
 await
 devToolsClient
