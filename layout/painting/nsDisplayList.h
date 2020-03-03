@@ -36111,6 +36111,12 @@ IsScrollbarContainer
 const
 ;
 bool
+IsRootScrollbarContainerWithDynamicToolbar
+(
+)
+const
+;
+bool
 IsZoomingLayer
 (
 )

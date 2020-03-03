@@ -2112,6 +2112,9 @@ aICBSize
 nsSize
 TrueOuterSize
 (
+nsDisplayListBuilder
+*
+aBuilder
 )
 const
 ;

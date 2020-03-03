@@ -304,6 +304,12 @@ IsScrollbarNode
 )
 const
 ;
+bool
+IsScrollbarContainerNode
+(
+)
+const
+;
 ScrollDirection
 GetScrollbarDirection
 (
