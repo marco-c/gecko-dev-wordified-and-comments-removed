@@ -1127,10 +1127,12 @@ handle
 >
 mBuf
 =
-new
+MakeUnique
+<
 nsZipItemPtr
 <
 uint8_t
+>
 >
 (
 zip
