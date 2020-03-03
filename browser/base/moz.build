@@ -324,6 +324,17 @@ content
 /
 test
 /
+outOfProcess
+/
+browser
+.
+ini
+'
+'
+content
+/
+test
+/
 pageActions
 /
 browser
