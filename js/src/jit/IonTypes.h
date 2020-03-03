@@ -1399,6 +1399,7 @@ Slots
 Elements
 Pointer
 RefOrNull
+StackResults
 Shape
 ObjectGroup
 Last
@@ -2142,6 +2143,17 @@ RefOrNull
 return
 "
 RefOrNull
+"
+;
+case
+MIRType
+:
+:
+StackResults
+:
+return
+"
+StackResults
 "
 ;
 case

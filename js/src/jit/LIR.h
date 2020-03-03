@@ -2026,6 +2026,7 @@ FLOAT32
 DOUBLE
 SIMD128INT
 SIMD128FLOAT
+STACKRESULTS
 #
 ifdef
 JS_NUNBOX32
@@ -2900,6 +2901,18 @@ GENERAL
 ;
 #
 endif
+case
+MIRType
+:
+:
+StackResults
+:
+return
+LDefinition
+:
+:
+STACKRESULTS
+;
 case
 MIRType
 :

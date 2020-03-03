@@ -7416,6 +7416,11 @@ mirType
 (
 )
 ;
+MIRType
+concreteType
+=
+mirType_
+;
 switch
 (
 mirType_
@@ -7425,7 +7430,7 @@ case
 MIRType
 :
 :
-Pointer
+StackResults
 :
 /
 /
@@ -7481,6 +7486,13 @@ index_
 )
 )
 ;
+concreteType
+=
+MIRType
+:
+:
+Pointer
+;
 [
 [
 fallthrough
@@ -7533,7 +7545,7 @@ pushLocal
 (
 MIRTypeToSize
 (
-mirType_
+concreteType
 )
 )
 ;
@@ -7579,7 +7591,7 @@ mirType_
 MIRType
 :
 :
-Pointer
+StackResults
 )
 {
 stackResultPointerOffset_

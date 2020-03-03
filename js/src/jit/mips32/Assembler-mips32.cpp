@@ -106,6 +106,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 if
 (
 GetIntArgReg

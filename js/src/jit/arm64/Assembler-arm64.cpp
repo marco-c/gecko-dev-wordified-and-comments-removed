@@ -188,6 +188,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 if
 (
 intRegIndex_

@@ -5814,7 +5814,7 @@ jit
 MIRType
 :
 :
-Pointer
+StackResults
 ;
 }
 return

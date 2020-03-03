@@ -194,6 +194,12 @@ MIRType
 :
 RefOrNull
 :
+case
+MIRType
+:
+:
+StackResults
+:
 current_
 =
 ABIArg
@@ -357,6 +363,12 @@ MIRType
 :
 :
 RefOrNull
+:
+case
+MIRType
+:
+:
+StackResults
 :
 if
 (
