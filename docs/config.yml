@@ -114,6 +114,12 @@ sanitizer
 testing
 /
 perfdocs
+-
+tools
+/
+code
+-
+coverage
 l10n_doc
 :
 -
