@@ -1210,7 +1210,7 @@ int16_t
 aReason
 )
 {
-mSelectionChangeReason
+mSelectionChangeReasons
 =
 aReason
 ;
@@ -1223,9 +1223,9 @@ PopReason
 int16_t
 retval
 =
-mSelectionChangeReason
+mSelectionChangeReasons
 ;
-mSelectionChangeReason
+mSelectionChangeReasons
 =
 nsISelectionListener
 :
@@ -1244,7 +1244,7 @@ const
 {
 return
 (
-mSelectionChangeReason
+mSelectionChangeReasons
 &
 (
 nsISelectionListener
@@ -1714,7 +1714,7 @@ mPresShell
 nullptr
 ;
 int16_t
-mSelectionChangeReason
+mSelectionChangeReasons
 =
 nsISelectionListener
 :
