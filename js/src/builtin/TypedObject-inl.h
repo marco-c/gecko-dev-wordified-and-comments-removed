@@ -59,7 +59,7 @@ MOZ_ASSERT
 nbytes
 <
 =
-MaximumSize
+MaxInlineBytes
 )
 ;
 return
