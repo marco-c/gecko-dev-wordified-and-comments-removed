@@ -278,6 +278,8 @@ host
 =
 principal
 .
+URI
+.
 asciiHost
 ;
 }
