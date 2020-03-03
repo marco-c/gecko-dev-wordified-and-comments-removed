@@ -332,7 +332,7 @@ XP_WIN
 |
 defined
 (
-XP_LINUX
+MOZ_WIDGET_GTK
 )
 RESPATH
 /

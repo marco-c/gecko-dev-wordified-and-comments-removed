@@ -4736,7 +4736,7 @@ svg
 )
 #
 ifndef
-XP_LINUX
+MOZ_WIDGET_GTK
 skin
 /
 classic
@@ -5480,7 +5480,7 @@ svg
 )
 #
 ifndef
-XP_LINUX
+MOZ_WIDGET_GTK
 skin
 /
 classic
