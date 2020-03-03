@@ -2638,10 +2638,11 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 WSRunObject
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 const
 EditorDOMPointBase
@@ -2668,10 +2669,11 @@ PT
 typename
 CT
 >
+MOZ_CAN_RUN_SCRIPT
 WSRunObject
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 const
 EditorDOMPointBase
@@ -2691,10 +2693,11 @@ aScanStartPoint
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 WSRunObject
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 nsINode
 *
@@ -2724,10 +2727,11 @@ aScanEndOffset
 )
 {
 }
+MOZ_CAN_RUN_SCRIPT
 WSRunObject
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 nsINode
 *
@@ -2796,7 +2800,7 @@ nsresult
 PrepareToDeleteRange
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 nsCOMPtr
 <
@@ -2824,7 +2828,7 @@ nsresult
 PrepareToDeleteNode
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 nsIContent
 *
@@ -2837,7 +2841,7 @@ nsresult
 PrepareToSplitAcrossBlocks
 (
 HTMLEditor
-*
+&
 aHTMLEditor
 nsCOMPtr
 <
@@ -3074,7 +3078,7 @@ mEndOffset
 ;
 }
 HTMLEditor
-*
+&
 mHTMLEditor
 ;
 }

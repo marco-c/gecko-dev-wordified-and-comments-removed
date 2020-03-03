@@ -3151,6 +3151,7 @@ rv
 =
 WSRunObject
 (
+*
 this
 pointToAdjust
 )
@@ -3246,6 +3247,7 @@ NS_ERROR_FAILURE
 }
 WSRunObject
 (
+*
 this
 TopLevelEditSubActionDataRef
 (
@@ -3311,6 +3313,7 @@ IsCollapsed
 {
 WSRunObject
 (
+*
 this
 TopLevelEditSubActionDataRef
 (
@@ -8699,6 +8702,7 @@ compositionStartPoint
 WSRunObject
 wsObj
 (
+*
 this
 compositionStartPoint
 compositionEndPoint
@@ -9621,6 +9625,7 @@ subStrLen
 WSRunObject
 wsObj
 (
+*
 this
 currentPoint
 )
@@ -12669,6 +12674,7 @@ aPointToBreak
 WSRunObject
 wsObj
 (
+*
 this
 pointToBreak
 )
@@ -15945,6 +15951,7 @@ deleting
 WSRunObject
 wsObj
 (
+*
 this
 startPoint
 )
@@ -16763,6 +16770,7 @@ WSRunObject
 :
 PrepareToDeleteRange
 (
+*
 this
 address_of
 (
@@ -17933,6 +17941,7 @@ WSRunObject
 :
 PrepareToDeleteNode
 (
+*
 this
 MOZ_KnownLive
 (
@@ -18074,6 +18083,7 @@ WSRunObject
 :
 PrepareToDeleteNode
 (
+*
 this
 MOZ_KnownLive
 (
@@ -20151,6 +20161,7 @@ WSRunObject
 :
 PrepareToDeleteRange
 (
+*
 this
 address_of
 (
@@ -22572,6 +22583,7 @@ NS_OK
 WSRunObject
 wsObj
 (
+*
 this
 aPointToInsert
 )
@@ -54208,6 +54220,7 @@ WSRunObject
 :
 PrepareToSplitAcrossBlocks
 (
+*
 this
 address_of
 (
@@ -56568,6 +56581,7 @@ WSRunObject
 :
 PrepareToSplitAcrossBlocks
 (
+*
 this
 address_of
 (
@@ -57878,6 +57892,7 @@ WSRunObject
 :
 PrepareToSplitAcrossBlocks
 (
+*
 this
 address_of
 (
