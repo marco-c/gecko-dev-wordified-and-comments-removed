@@ -23785,7 +23785,6 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
 leftBlock
 )
 )
@@ -23961,7 +23960,6 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
 leftBlock
 )
 )
@@ -25618,7 +25616,6 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
 leftBlock
 )
 )
@@ -72766,7 +72763,6 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
 targetDivElement
 )
 )
@@ -73204,7 +73200,6 @@ EditorDOMPoint
 :
 AtEndOf
 (
-*
 targetDivElement
 )
 )

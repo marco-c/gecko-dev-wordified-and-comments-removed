@@ -1170,7 +1170,6 @@ EditorDOMPoint
 :
 After
 (
-*
 mContent
 )
 :
@@ -1199,7 +1198,6 @@ EditorRawDOMPoint
 :
 After
 (
-*
 mContent
 )
 :
