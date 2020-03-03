@@ -2789,9 +2789,8 @@ GetAllowsNavigateTo
 nsIURI
 *
 aURI
-nsILoadInfo
-*
-aLoadInfo
+bool
+aIsFormSubmission
 bool
 aWasRedirected
 bool
@@ -2812,12 +2811,7 @@ EnsureIPCPoliciesRead
 ;
 if
 (
-aLoadInfo
--
->
-GetIsFormSubmission
-(
-)
+aIsFormSubmission
 )
 {
 for
