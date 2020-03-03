@@ -1734,14 +1734,6 @@ Data
 (
 )
 )
-buffer
--
->
-StorageSize
-(
-)
--
-1
 )
 ;
 fprintf
