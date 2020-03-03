@@ -3340,6 +3340,15 @@ mHasUnsafeEvalCSP
 aHasUnsafeEvalCSP
 ;
 }
+bool
+GetHasCSPDeliveredThroughHeader
+(
+)
+{
+return
+mHasCSPDeliveredThroughHeader
+;
+}
 typedef
 MozPromise
 <
@@ -12451,6 +12460,11 @@ mHasUnsafeEvalCSP
 ;
 bool
 mHasUnsafeInlineCSP
+:
+1
+;
+bool
+mHasCSPDeliveredThroughHeader
 :
 1
 ;
