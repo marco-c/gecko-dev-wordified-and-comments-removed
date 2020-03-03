@@ -4122,11 +4122,10 @@ const
 nsAString
 &
 aStringToInsert
-Text
+const
+EditorDOMPointInText
 &
-aTextNode
-int32_t
-aOffset
+aPointToInsert
 bool
 aSuppressIME
 =
