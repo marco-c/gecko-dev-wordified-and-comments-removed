@@ -637,12 +637,6 @@ root
 ref
 .
 html
-fails
--
-if
-(
-Android
-)
 needs
 -
 focus
@@ -660,9 +654,6 @@ selection
 ref
 .
 html
-#
-bug
-1602509
 pref
 (
 browser
