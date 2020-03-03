@@ -117,7 +117,7 @@ PFunctionBrokerChild
 aEndpoint
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 FunctionBrokerThread
 >
