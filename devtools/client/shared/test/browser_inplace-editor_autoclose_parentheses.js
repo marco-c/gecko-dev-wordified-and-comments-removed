@@ -285,10 +285,10 @@ autoclose
 )
 ;
 const
-[
+{
 host
 doc
-]
+}
 =
 await
 createHost

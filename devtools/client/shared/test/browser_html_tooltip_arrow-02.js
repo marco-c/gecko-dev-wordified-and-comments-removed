@@ -92,9 +92,9 @@ height
 )
 ;
 const
-[
+{
 doc
-]
+}
 =
 await
 createHost

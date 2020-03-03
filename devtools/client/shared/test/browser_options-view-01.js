@@ -156,10 +156,10 @@ blank
 )
 ;
 const
-[
+{
 host
 win
-]
+}
 =
 await
 createHost

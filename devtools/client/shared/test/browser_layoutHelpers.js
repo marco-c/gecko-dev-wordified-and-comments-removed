@@ -40,10 +40,10 @@ function
 )
 {
 const
-[
+{
 host
 win
-]
+}
 =
 await
 createHost

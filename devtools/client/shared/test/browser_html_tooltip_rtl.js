@@ -102,9 +102,9 @@ TOOLBOX_WIDTH
 )
 ;
 const
-[
+{
 doc
-]
+}
 =
 await
 createHost

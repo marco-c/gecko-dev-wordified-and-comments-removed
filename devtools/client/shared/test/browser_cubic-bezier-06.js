@@ -66,11 +66,11 @@ function
 )
 {
 const
-[
+{
 host
 win
 doc
-]
+}
 =
 await
 createHost
