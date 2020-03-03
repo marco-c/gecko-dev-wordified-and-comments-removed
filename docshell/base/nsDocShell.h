@@ -2092,8 +2092,6 @@ DoURILoad
 nsDocShellLoadState
 *
 aLoadState
-bool
-aLoadFromExternal
 nsIDocShell
 *
 *
