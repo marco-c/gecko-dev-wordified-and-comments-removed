@@ -9,7 +9,7 @@ condprof
 .
 util
 import
-LOG
+logger
 get_credentials
 from
 condprof
@@ -390,7 +390,9 @@ syncing
             
 return
         
-LOG
+logger
+.
+info
 (
 "
 Syncing
@@ -400,7 +402,9 @@ FxSync
 "
 )
         
-LOG
+logger
+.
+info
 (
 "
 Username
@@ -574,7 +578,9 @@ urls
 )
 :
             
-LOG
+logger
+.
+info
 (
 "
 %

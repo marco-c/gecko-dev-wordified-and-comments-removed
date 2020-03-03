@@ -26,7 +26,7 @@ condprof
 .
 util
 import
-LOG
+logger
 METADATA_NAME
 =
 "
@@ -82,7 +82,9 @@ profile_dir
 METADATA_NAME
 )
         
-LOG
+logger
+.
+info
 (
 "
 Reading
@@ -112,7 +114,9 @@ metadata_file
 )
 :
             
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -411,7 +415,9 @@ extras
 )
 :
         
-LOG
+logger
+.
+info
 (
 "
 Creating
@@ -530,7 +536,9 @@ _days2age
 days
 )
         
-LOG
+logger
+.
+info
 (
 "
 Saving

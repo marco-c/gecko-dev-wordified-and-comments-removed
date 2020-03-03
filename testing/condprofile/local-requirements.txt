@@ -16,6 +16,12 @@ mozprofile
 mozbase
 /
 mozdevice
+.
+.
+/
+mozbase
+/
+mozlog
 aiohttp
 =
 =

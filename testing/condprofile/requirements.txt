@@ -7,6 +7,9 @@ mozprofile
 .
 /
 mozdevice
+.
+/
+mozlog
 aiohttp
 =
 =

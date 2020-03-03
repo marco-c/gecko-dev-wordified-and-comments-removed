@@ -192,8 +192,7 @@ condprof
 util
 import
 fresh_profile
-LOG
-ERROR
+logger
 obfuscate_file
 obfuscate
 from
@@ -364,8 +363,11 @@ True
 )
 :
         
-LOG
+logger
+.
+info
 (
+            
 "
 Building
 %
@@ -388,6 +390,7 @@ name
 "
 ]
 )
+        
 )
         
 if
@@ -409,7 +412,9 @@ ignore_scenario
 )
 :
             
-LOG
+logger
+.
+info
 (
 "
 Skipping
@@ -451,7 +456,9 @@ in
 filter_by_platform
 :
             
-LOG
+logger
+.
+info
 (
 "
 Skipping
@@ -527,7 +534,9 @@ archive
             
 return
         
-LOG
+logger
+.
+info
 (
 "
 Creating
@@ -635,7 +644,9 @@ create_archive
 archive_name
 )
         
-LOG
+logger
+.
+info
 (
 "
 Archive
@@ -657,7 +668,9 @@ stat
 archive_name
 )
         
-LOG
+logger
+.
+info
 (
 "
 Current
@@ -672,7 +685,9 @@ statinfo
 st_size
 )
         
-LOG
+logger
+.
+info
 (
 "
 Extracting
@@ -793,7 +808,9 @@ result
 0
 :
             
-LOG
+logger
+.
+info
 (
 "
 The
@@ -901,7 +918,9 @@ scenario
 scenario
 ]
             
-LOG
+logger
+.
+info
 (
 "
 Loaded
@@ -990,7 +1009,9 @@ profile
 customization_data
 )
         
-LOG
+logger
+.
+info
 (
 "
 Updating
@@ -1011,7 +1032,9 @@ Metadata
 profile
 )
         
-LOG
+logger
+.
+info
 (
 "
 Starting
@@ -1057,7 +1080,9 @@ geckodriver
 "
 )
         
-LOG
+logger
+.
+info
 (
 "
 Writing
@@ -1151,7 +1176,9 @@ check_session
 session
 )
                     
-LOG
+logger
+.
+info
 (
 "
 Running
@@ -1176,7 +1203,9 @@ options
 )
 )
                     
-LOG
+logger
+.
+info
 (
 "
 %
@@ -1193,7 +1222,9 @@ except
 Exception
 :
             
-ERROR
+logger
+.
+error
 (
 "
 %
@@ -1213,7 +1244,9 @@ step
 START
 :
                 
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -1231,7 +1264,9 @@ step
 INIT_GECKODRIVER
 :
                 
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -1248,8 +1283,11 @@ step
 START_SESSION
 :
                 
-LOG
+logger
+.
+info
 (
+                    
 "
 Could
 not
@@ -1263,12 +1301,15 @@ first
 "
 %
 geckodriver_logs
+                
 )
             
 else
 :
                 
-LOG
+logger
+.
+info
 (
 "
 Could
@@ -1371,24 +1412,22 @@ target_platform
         
 )
         
-LOG
+logger
+.
+info
 (
 "
 Profile
 at
 %
 s
+.
+\
+nDone
+.
 "
 %
 profile
-)
-        
-LOG
-(
-"
-Done
-.
-"
 )
         
 return
