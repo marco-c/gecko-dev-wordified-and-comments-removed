@@ -708,7 +708,10 @@ StyleSVG
 mColorInterpolationFilters
 =
 =
-NS_STYLE_COLOR_INTERPOLATION_SRGB
+StyleColorInterpolation
+:
+:
+Srgb
 ;
 }
 bool

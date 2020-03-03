@@ -1051,6 +1051,12 @@ mozilla
 :
 StyleScrollBehavior
 "
+"
+mozilla
+:
+:
+StyleColorInterpolation
+"
 ]
 whitelist
 -
