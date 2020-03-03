@@ -925,7 +925,7 @@ aSelection
 mFrameSelection
 -
 >
-mSelectionChangeReason
+mSelectionChangeReasons
 ;
 bool
 isAnchorRelativeOp
@@ -3029,7 +3029,7 @@ aDirection
 eDirPrevious
 )
 {
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -3044,7 +3044,7 @@ CARET_ASSOCIATE_AFTER
 }
 else
 {
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -3060,7 +3060,7 @@ CARET_ASSOCIATE_BEFORE
 }
 else
 {
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -4874,7 +4874,7 @@ aNewFocus
 aContentOffset
 )
 ;
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -6224,7 +6224,7 @@ mDragSelectingCells
 =
 false
 ;
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -8724,7 +8724,7 @@ GetChildCount
 (
 )
 ;
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
@@ -8787,7 +8787,7 @@ nsFrameSelection
 EndBatchChanges
 (
 int16_t
-aReason
+aReasons
 )
 {
 mBatching
@@ -8817,18 +8817,9 @@ mBatching
 mChangesDuringBatching
 )
 {
-int16_t
-postReason
-=
-PopReason
+AddChangeReasons
 (
-)
-|
-aReason
-;
-PostReason
-(
-postReason
+aReasons
 )
 ;
 mChangesDuringBatching
@@ -12517,7 +12508,7 @@ if
 mAncestorLimiter
 )
 {
-PostReason
+SetChangeReasons
 (
 nsISelectionListener
 :
