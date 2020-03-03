@@ -13763,11 +13763,15 @@ tryAttachIsSuspendedGenerator
 AttachDecision
 tryAttachFunCall
 (
+HandleFunction
+calleeFunc
 )
 ;
 AttachDecision
 tryAttachFunApply
 (
+HandleFunction
+calleeFunc
 )
 ;
 AttachDecision
