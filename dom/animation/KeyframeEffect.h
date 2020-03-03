@@ -815,6 +815,15 @@ ComputedStyle
 aStyle
 )
 ;
+void
+ReplaceTransitionStartValue
+(
+AnimationValue
+&
+&
+aStartValue
+)
+;
 nsCSSPropertyIDSet
 GetPropertySet
 (
