@@ -2330,10 +2330,14 @@ shown
 "
 )
 ;
-pageOptionsButton
+EventUtils
 .
-click
+synthesizeMouseAtCenter
 (
+pageOptionsButton
+{
+}
+win
 )
 ;
 await
