@@ -1370,7 +1370,7 @@ connect
 )
 ;
 const
-target
+targetDescriptor
 =
 await
 client
@@ -1380,6 +1380,16 @@ mainRoot
 getProcess
 (
 processId
+)
+;
+const
+target
+=
+await
+targetDescriptor
+.
+getTarget
+(
 )
 ;
 target

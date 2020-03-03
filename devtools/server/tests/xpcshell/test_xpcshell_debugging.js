@@ -123,7 +123,7 @@ works
 )
 ;
 const
-front
+targetDescriptor
 =
 await
 client
@@ -131,6 +131,16 @@ client
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+front
+=
+await
+targetDescriptor
+.
+getTarget
 (
 )
 ;

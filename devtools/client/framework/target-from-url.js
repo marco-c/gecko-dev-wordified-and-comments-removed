@@ -509,7 +509,8 @@ id
 0
 ;
 }
-front
+const
+frontDescriptor
 =
 await
 client
@@ -517,6 +518,16 @@ client
 mainRoot
 .
 getProcess
+(
+id
+)
+;
+front
+=
+await
+frontDescriptor
+.
+getTarget
 (
 id
 )

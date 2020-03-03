@@ -283,7 +283,7 @@ browser
 )
 ;
 const
-front
+descriptorFront
 =
 await
 gClient
@@ -291,6 +291,16 @@ gClient
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+front
+=
+await
+descriptorFront
+.
+getTarget
 (
 )
 ;

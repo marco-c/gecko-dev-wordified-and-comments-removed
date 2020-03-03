@@ -306,7 +306,7 @@ Connected
 )
 ;
 const
-target
+descriptorFront
 =
 await
 client
@@ -314,6 +314,16 @@ client
 mainRoot
 .
 getMainProcess
+(
+)
+;
+const
+target
+=
+await
+descriptorFront
+.
+getTarget
 (
 )
 ;
