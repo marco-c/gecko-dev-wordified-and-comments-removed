@@ -22,9 +22,9 @@ unic_langid
 :
 :
 {
+CharacterDirection
 LanguageIdentifier
 LanguageIdentifierError
-CharacterDirection
 }
 ;
 pub
