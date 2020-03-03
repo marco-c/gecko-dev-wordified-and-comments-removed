@@ -986,6 +986,7 @@ selectors
 const
 {
 getRecordingPreferencesFromBrowser
+presets
 }
 =
 ChromeUtils
@@ -1123,6 +1124,7 @@ getRecordingPreferencesFromBrowser
 setRecordingPreferences
 :
 recordingPreferencesMock
+presets
 getSymbolTableGetter
 :
 (

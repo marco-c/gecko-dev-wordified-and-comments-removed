@@ -70,7 +70,7 @@ return
 ;
 }
 await
-openAboutProfiling
+withAboutProfiling
 (
 async
 document

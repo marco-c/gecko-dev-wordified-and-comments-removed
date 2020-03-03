@@ -31,7 +31,7 @@ changed
 )
 ;
 await
-openAboutProfiling
+withAboutProfiling
 (
 async
 document
