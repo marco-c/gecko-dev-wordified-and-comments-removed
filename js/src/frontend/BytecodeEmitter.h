@@ -2093,17 +2093,6 @@ op
 ;
 MOZ_MUST_USE
 bool
-emitObjectOp
-(
-ObjectBox
-*
-objbox
-JSOp
-op
-)
-;
-MOZ_MUST_USE
-bool
 emitObjectPairOp
 (
 ObjectBox
