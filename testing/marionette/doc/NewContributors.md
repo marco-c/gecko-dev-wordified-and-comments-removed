@@ -273,9 +273,7 @@ the
 team
 .
 :
-ato
-:
-AutomatedTester
+jgraham
 :
 maja_zf
 and

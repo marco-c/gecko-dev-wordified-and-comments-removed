@@ -149,11 +149,7 @@ file
 /
 /
 /
-home
-/
-ato
-/
-src
+code
 /
 gecko
 /
