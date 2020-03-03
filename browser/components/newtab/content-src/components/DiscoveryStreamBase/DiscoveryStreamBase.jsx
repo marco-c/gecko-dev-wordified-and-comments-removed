@@ -1432,6 +1432,17 @@ display_engagement_labels
 {
 ENGAGEMENT_LABEL_ENABLED
 }
+dismissible
+=
+{
+this
+.
+props
+.
+DiscoveryStream
+.
+isCollectionDismissible
+}
 dispatch
 =
 {
