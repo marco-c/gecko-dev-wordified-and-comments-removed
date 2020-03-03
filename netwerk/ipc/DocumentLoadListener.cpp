@@ -1065,6 +1065,13 @@ aPluginsAllowed
 nsDOMNavigationTiming
 *
 aTiming
+Maybe
+<
+ClientInfo
+>
+&
+&
+aInfo
 nsresult
 *
 aRv
@@ -1339,8 +1346,12 @@ false
 AddClientChannelHelperInParent
 (
 mChannel
-GetMainThreadSerialEventTarget
+std
+:
+:
+move
 (
+aInfo
 )
 )
 ;

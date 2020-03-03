@@ -283,6 +283,16 @@ aPluginsAllowed
 nsDOMNavigationTiming
 *
 aTiming
+Maybe
+<
+dom
+:
+:
+ClientInfo
+>
+&
+&
+aInfo
 nsresult
 *
 aRv
