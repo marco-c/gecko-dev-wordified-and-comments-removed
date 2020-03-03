@@ -663,7 +663,9 @@ state
 .
 easing
 "
-linear
+ease
+-
+out
 "
 "
 Transition
@@ -796,13 +798,11 @@ keyframes
 .
 easing
 "
-ease
--
-out
+linear
 "
 "
 Transition
-kerframes
+keyframes
 '
 s
 easing
@@ -1067,7 +1067,7 @@ animation
 s
 easing
 of
-kerframes
+keyframes
 is
 correct
 "
