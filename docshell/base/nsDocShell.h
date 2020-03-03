@@ -1545,6 +1545,13 @@ aCallbacks
 nsDocShell
 *
 aDocShell
+const
+mozilla
+:
+:
+OriginAttributes
+&
+aOriginAttributes
 nsLoadFlags
 aLoadFlags
 uint32_t
