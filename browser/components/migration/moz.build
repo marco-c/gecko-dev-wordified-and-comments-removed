@@ -221,6 +221,11 @@ EXTRA_JS_MODULES
 jsm
 '
 '
+ChromeWindowsLoginCrypto
+.
+jsm
+'
+'
 EdgeProfileMigrator
 .
 jsm

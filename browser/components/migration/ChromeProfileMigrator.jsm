@@ -2268,6 +2268,7 @@ null
 }
 let
 {
+_chromeUserDataPathSuffix
 _keychainServiceName
 _keychainAccountName
 _keychainMockPassphrase
@@ -2389,7 +2390,7 @@ win
 {
 let
 {
-OSCrypto
+ChromeWindowsLoginCrypto
 }
 =
 ChromeUtils
@@ -2401,11 +2402,10 @@ resource
 :
 /
 /
-gre
 /
 modules
 /
-OSCrypto
+ChromeWindowsLoginCrypto
 .
 jsm
 "
@@ -2414,8 +2414,9 @@ jsm
 crypto
 =
 new
-OSCrypto
+ChromeWindowsLoginCrypto
 (
+_chromeUserDataPathSuffix
 )
 ;
 }
@@ -2594,10 +2595,6 @@ crypto
 .
 decryptData
 (
-crypto
-.
-arrayToString
-(
 row
 .
 getResultByName
@@ -2605,7 +2602,6 @@ getResultByName
 "
 password_value
 "
-)
 )
 null
 )
