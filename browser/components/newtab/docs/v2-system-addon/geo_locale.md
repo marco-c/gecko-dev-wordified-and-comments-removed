@@ -1,6 +1,5 @@
 #
-Setting
-custom
+Custom
 geo
 locale
 and

@@ -1,9 +1,6 @@
 #
-Adding
-/
-Changing
 Telemetry
-Checklist
+checklist
 Adding
 telemetry
 generally
