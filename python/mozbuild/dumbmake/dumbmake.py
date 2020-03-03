@@ -2,6 +2,7 @@ from
 __future__
 import
 absolute_import
+print_function
 unicode_literals
 from
 collections
@@ -21,6 +22,8 @@ os
 path
 import
 dirname
+import
+six
 WHITESPACE_CHARACTERS
 =
 '
@@ -225,13 +228,10 @@ pairs
 :
         
 if
-not
-deps
-.
-has_key
-(
 target
-)
+not
+in
+deps
 :
             
 deps
@@ -652,10 +652,11 @@ all_components
 for
 make_dir
 in
-make_dirs
+six
 .
 iterkeys
 (
+make_dirs
 )
 :
         

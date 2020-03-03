@@ -1835,7 +1835,7 @@ open
 (
 filename
 '
-rb
+r
 '
 )
 as
@@ -1912,7 +1912,7 @@ open
 (
 filename
 '
-wb
+w
 '
 )
 as

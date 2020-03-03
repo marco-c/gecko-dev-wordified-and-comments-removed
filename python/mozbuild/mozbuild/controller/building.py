@@ -3628,14 +3628,15 @@ self
 .
 tiers
 =
+six
+.
+viewitems
+(
 monitor
 .
 tiers
 .
 tier_status
-.
-viewitems
-(
 )
     
 def
@@ -7294,7 +7295,6 @@ target_pairs
                     
 no_build_status
 =
-b
 '
 1
 '
@@ -7304,7 +7304,6 @@ is
 not
 None
 else
-b
 '
 '
                     
@@ -8489,7 +8488,6 @@ NO_BUILDSTATUS_MESSAGES
 '
 ]
 =
-b
 '
 1
 '
@@ -9037,7 +9035,6 @@ mozconfig_make_lines
 .
 append
 (
-b
 '
 MOZ_MAKE_FLAGS
 =
@@ -9046,7 +9043,6 @@ s
 '
 %
                                         
-b
 '
 '
 .
@@ -9076,7 +9072,6 @@ mozconfig_make_lines
 .
 append
 (
-b
 '
 MOZ_OBJDIR
 =
@@ -9091,7 +9086,6 @@ mozconfig_make_lines
 .
 append
 (
-b
 '
 OBJDIR
 =
@@ -9115,7 +9109,6 @@ mozconfig_make_lines
 .
 append
 (
-b
 '
 FOUND_MOZCONFIG
 =
@@ -9141,7 +9134,6 @@ mozconfig_make_lines
 .
 append
 (
-b
 '
 export
 FOUND_MOZCONFIG
@@ -9163,13 +9155,11 @@ line
 .
 startswith
 (
-b
 '
 export
 '
 )
 or
-b
 '
 UPLOAD_EXTRA_FILES
 '
@@ -9213,7 +9203,6 @@ fh
 .
 write
 (
-b
 '
 \
 n
@@ -9257,7 +9246,6 @@ fh
 .
 write
 (
-b
 '
 \
 n
@@ -9305,7 +9293,7 @@ path
 '
 ]
 '
-rb
+r
 '
 )
 as

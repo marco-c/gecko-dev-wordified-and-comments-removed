@@ -4718,7 +4718,6 @@ or
         
 append_env
 [
-b
 '
 MACH
 '

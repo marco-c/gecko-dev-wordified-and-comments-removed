@@ -8337,12 +8337,13 @@ for
 action
 script
 in
-gyp_dir
-.
-action_overrides
+six
 .
 iteritems
 (
+gyp_dir
+.
+action_overrides
 )
 :
                 

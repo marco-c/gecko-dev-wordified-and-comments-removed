@@ -11,13 +11,13 @@ gyp
 .
 msvs_emulation
 import
+six
+import
 sys
 import
 os
 import
 time
-import
-types
 import
 mozpack
 .
@@ -127,35 +127,6 @@ chrome_src
 build
 '
 )
-def
-encode
-(
-value
-)
-:
-    
-if
-isinstance
-(
-value
-unicode
-)
-:
-        
-return
-value
-.
-encode
-(
-'
-utf
--
-8
-'
-)
-    
-return
-value
 generator_default_variables
 =
 {
@@ -164,24 +135,19 @@ for
 dirname
 in
 [
-b
 '
 INTERMEDIATE_DIR
 '
-b
 '
 SHARED_INTERMEDIATE_DIR
 '
-b
 '
 PRODUCT_DIR
 '
                 
-b
 '
 LIB_DIR
 '
-b
 '
 SHARED_LIB_DIR
 '
@@ -193,7 +159,6 @@ generator_default_variables
 dirname
 ]
 =
-b
 '
 '
 +
@@ -251,7 +216,6 @@ generator_default_variables
 unused
 ]
 =
-b
 '
 '
 class
@@ -729,7 +693,6 @@ path
 .
 replace
 (
-b
 '
 /
 '
@@ -1293,12 +1256,17 @@ executable
             
 name
 =
+six
+.
+ensure_text
+(
 spec
 [
 '
 target_name
 '
 ]
+)
             
 if
 spec
@@ -1345,15 +1313,6 @@ LIBRARY_NAME
 ]
 =
 name
-.
-decode
-(
-'
-utf
--
-8
-'
-)
             
 else
 :
@@ -1366,15 +1325,6 @@ PROGRAM
 ]
 =
 name
-.
-decode
-(
-'
-utf
--
-8
-'
-)
             
 if
 spec
@@ -2201,9 +2151,9 @@ if
 isinstance
 (
 f
-types
+six
 .
-StringTypes
+string_types
 )
 :
                             
@@ -2614,13 +2564,6 @@ _results
 [
 ]
         
-path
-=
-encode
-(
-path
-)
-        
 if
 config
 .
@@ -2678,14 +2621,12 @@ params
 =
 {
             
-b
 '
 parallel
 '
 :
 False
             
-b
 '
 generator_flags
 '
@@ -2693,7 +2634,6 @@ generator_flags
 {
 }
             
-b
 '
 build_files
 '
@@ -2702,7 +2642,6 @@ build_files
 path
 ]
             
-b
 '
 root_targets
 '
@@ -2741,8 +2680,6 @@ chrome_src
 includes
 =
 [
-encode
-(
 mozpath
 .
 join
@@ -2751,13 +2688,12 @@ script_dir
 '
 gyp_includes
 '
-                                            
+                                     
 '
 common
 .
 gypi
 '
-)
 )
 ]
             
@@ -2772,15 +2708,12 @@ includes
 .
 extend
 (
-encode
-(
 mozpath
 .
 join
 (
 chrome_src
 name
-)
 )
                             
 for
@@ -2805,25 +2738,9 @@ str_vars
 =
 dict
 (
-(
-name
-encode
-(
-value
-)
-)
-for
-name
-value
-in
-                        
 gyp_dir_attrs
 .
 variables
-.
-items
-(
-)
 )
         
 self
@@ -2838,7 +2755,6 @@ load_gyp
 [
 path
 ]
-b
 '
 mozbuild
 '
@@ -2846,10 +2762,7 @@ mozbuild
 str_vars
 includes
                                                   
-encode
-(
 depth
-)
 params
 )
     

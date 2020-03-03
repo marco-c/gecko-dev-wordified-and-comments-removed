@@ -802,7 +802,7 @@ v
 in
 appini_defines
 .
-iteritems
+items
 (
 )
 ]
