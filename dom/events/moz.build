@@ -353,6 +353,11 @@ IMEStateManager
 h
 '
 '
+InputEventOptions
+.
+h
+'
+'
 InputTypeList
 .
 h

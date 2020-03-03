@@ -197,6 +197,15 @@ include
 "
 mozilla
 /
+InputEventOptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
@@ -12055,9 +12064,6 @@ EditorInputType
 :
 eInsertReplacementText
 nullptr
-nsContentUtils
-:
-:
 InputEventOptions
 (
 inputEventData
@@ -12440,9 +12446,6 @@ EditorInputType
 :
 eInsertReplacementText
 nullptr
-nsContentUtils
-:
-:
 InputEventOptions
 (
 inputEventData
