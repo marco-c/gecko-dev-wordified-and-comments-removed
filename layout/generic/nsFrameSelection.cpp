@@ -1456,6 +1456,8 @@ None
 tmp
 -
 >
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -4861,6 +4863,8 @@ nullptr
 if
 (
 !
+mTableSelection
+.
 mDragSelectingCells
 )
 {
@@ -5490,6 +5494,8 @@ TableSelectionMode
 :
 None
 ;
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -6212,6 +6218,8 @@ if
 mDragState
 )
 {
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -9101,6 +9109,8 @@ if
 mDragState
 &
 &
+mTableSelection
+.
 mDragSelectingCells
 &
 &
@@ -9188,6 +9198,8 @@ if
 mDragState
 &
 &
+mTableSelection
+.
 mDragSelectingCells
 )
 {
@@ -9731,6 +9743,8 @@ IgnoreErrors
 )
 ;
 }
+mTableSelection
+.
 mDragSelectingCells
 =
 true
@@ -9843,6 +9857,8 @@ TableSelectionMode
 Table
 )
 {
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -9930,6 +9946,8 @@ aTarget
 ;
 #
 endif
+mTableSelection
+.
 mDragSelectingCells
 =
 true
@@ -9982,6 +10000,10 @@ Mouse
 UP
 event
 .
+"
+"
+mTableSelection
+.
 mDragSelectingCells
 =
 %
@@ -9997,6 +10019,8 @@ p
 \
 n
 "
+mTableSelection
+.
 mDragSelectingCells
 mTableSelection
 .
@@ -10050,6 +10074,8 @@ mAppendStartSelectedCell
 childContent
 )
 {
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -10066,6 +10092,8 @@ childContent
 }
 if
 (
+mTableSelection
+.
 mDragSelectingCells
 )
 {
@@ -10078,6 +10106,8 @@ mTableSelection
 mStartSelectedCell
 ;
 }
+mTableSelection
+.
 mDragSelectingCells
 =
 false
@@ -10610,6 +10640,8 @@ NS_ERROR_NULL_POINTER
 }
 if
 (
+mTableSelection
+.
 mDragSelectingCells
 )
 {

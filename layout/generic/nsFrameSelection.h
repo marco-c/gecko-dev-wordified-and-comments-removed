@@ -1635,6 +1635,11 @@ mSelectedCellIndex
 =
 0
 ;
+bool
+mDragSelectingCells
+=
+false
+;
 }
 ;
 TableSelection
@@ -1731,11 +1736,6 @@ false
 ;
 bool
 mChangesDuringBatching
-=
-false
-;
-bool
-mDragSelectingCells
 =
 false
 ;
