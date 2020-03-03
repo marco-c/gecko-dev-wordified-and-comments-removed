@@ -6345,7 +6345,7 @@ hGlobal
 =
 globalMem
 .
-get
+disown
 (
 )
 ;
