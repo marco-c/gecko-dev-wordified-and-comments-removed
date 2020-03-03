@@ -2837,6 +2837,15 @@ aName
 )
 const
 ;
+void
+ARIADescription
+(
+nsString
+&
+aDescription
+)
+const
+;
 static
 void
 NameFromAssociatedXULLabel
