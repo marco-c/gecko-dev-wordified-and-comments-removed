@@ -661,6 +661,13 @@ PowerOfTwo
 .
 h
 '
+'
+public
+/
+ProfileBufferIndex
+.
+h
+'
 ]
 if
 CONFIG
