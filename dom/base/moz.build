@@ -767,6 +767,11 @@ AbstractRange
 h
 '
 '
+AncestorIterator
+.
+h
+'
+'
 AnonymousContent
 .
 h
@@ -978,6 +983,11 @@ h
 '
 '
 EventSource
+.
+h
+'
+'
+FilteredNodeIterator
 .
 h
 '
