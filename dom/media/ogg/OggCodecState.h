@@ -1414,8 +1414,8 @@ eTrackOrder
 eTrackDependencies
 }
 ;
-typedef
 struct
+FieldPatternType
 {
 const
 char
@@ -1426,10 +1426,9 @@ EMsgHeaderType
 mMsgHeaderType
 ;
 }
-FieldPatternType
 ;
-typedef
 struct
+MessageField
 {
 nsClassHashtable
 <
@@ -1439,7 +1438,6 @@ nsCString
 mValuesStore
 ;
 }
-MessageField
 ;
 class
 SkeletonState
