@@ -3015,6 +3015,12 @@ nsIStreamListener
 >
 mCompressListener
 ;
+nsCOMPtr
+<
+nsIEventTarget
+>
+mCurrentThread
+;
 private
 :
 void

@@ -2014,6 +2014,12 @@ mProxyInfo
 =
 aProxyInfo
 ;
+mCurrentThread
+=
+GetCurrentThreadEventTarget
+(
+)
+;
 return
 rv
 ;
@@ -12627,7 +12633,10 @@ ReleaseListeners
 {
 MOZ_ASSERT
 (
-NS_IsMainThread
+mCurrentThread
+-
+>
+IsOnCurrentThread
 (
 )
 "
@@ -12637,9 +12646,8 @@ be
 called
 on
 the
-main
+current
 thread
-.
 "
 )
 ;
