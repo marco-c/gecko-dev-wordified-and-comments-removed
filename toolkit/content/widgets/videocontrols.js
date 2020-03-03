@@ -435,7 +435,7 @@ false
 const
 MIN_VIDEO_DIMENSION
 =
-160
+140
 ;
 if
 (
