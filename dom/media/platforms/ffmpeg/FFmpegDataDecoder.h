@@ -212,6 +212,11 @@ InitDecoder
 )
 ;
 MediaResult
+AllocateExtraData
+(
+)
+;
+MediaResult
 DoDecode
 (
 MediaRawData
@@ -318,10 +323,6 @@ return
 PARSER_FLAG_COMPLETE_FRAMES
 ;
 }
-static
-StaticMutex
-sMonitor
-;
 const
 RefPtr
 <
@@ -340,6 +341,10 @@ media
 :
 TimeUnit
 mLastInputDts
+;
+static
+StaticMutex
+sMonitor
 ;
 }
 ;
