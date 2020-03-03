@@ -965,8 +965,10 @@ target
 URI
 *
 param
-aIsFormSubmission
-True
+aLoadInfo
+used
+to
+check
 if
 the
 navigation
@@ -1087,8 +1089,8 @@ in
 nsIURI
 aURI
 in
-boolean
-aIsFormSubmission
+nsILoadInfo
+aLoadInfo
 in
 boolean
 aWasRedirected

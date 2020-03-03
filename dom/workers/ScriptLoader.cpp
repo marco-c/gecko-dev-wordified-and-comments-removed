@@ -4586,6 +4586,7 @@ mWorkerPrivate
 HybridEventTarget
 (
 )
+false
 )
 ;
 if

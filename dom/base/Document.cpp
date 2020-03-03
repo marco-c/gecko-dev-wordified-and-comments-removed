@@ -19338,11 +19338,6 @@ GetAllowsNavigateTo
 (
 mDocumentURI
 loadInfo
--
->
-GetIsFormSubmission
-(
-)
 !
 loadInfo
 -

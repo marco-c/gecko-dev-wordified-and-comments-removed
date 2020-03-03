@@ -1140,11 +1140,6 @@ GetAllowsNavigateTo
 (
 aNewURI
 aLoadInfo
--
->
-GetIsFormSubmission
-(
-)
 true
 false
 &

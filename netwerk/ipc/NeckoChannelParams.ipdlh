@@ -2501,13 +2501,6 @@ nsDOMNavigationTiming
 ?
 timing
 ;
-IPCClientInfo
-?
-initialClientInfo
-;
-uint64_t
-outerWindowId
-;
 }
 ;
 struct
