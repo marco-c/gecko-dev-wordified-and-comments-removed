@@ -155,5 +155,10 @@ disabled
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;

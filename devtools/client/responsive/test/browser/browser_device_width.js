@@ -299,6 +299,11 @@ ui
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+}
 )
 ;
 async
