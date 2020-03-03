@@ -548,6 +548,9 @@ n
 IAccessible2_2
 \
 n
+IAccessible2_3
+\
+n
 IAccessibleAction
 \
 n
@@ -601,6 +604,9 @@ section
 _structs
 Structs
 IA2Locale
+\
+n
+IA2Range
 \
 n
 IA2TableModelChange
