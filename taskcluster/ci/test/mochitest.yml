@@ -375,6 +375,8 @@ win_unittest
 .
 py
 mochitest
+-
+plain
 :
 description
 :
@@ -383,13 +385,6 @@ Mochitest
 plain
 run
 "
-suite
-:
-name
-:
-mochitest
--
-plain
 treeherder
 -
 symbol

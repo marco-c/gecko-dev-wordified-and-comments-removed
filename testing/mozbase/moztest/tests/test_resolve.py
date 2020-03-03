@@ -2423,6 +2423,8 @@ linux64
 opt
 -
 mochitest
+-
+plain
 '
         
 '
@@ -2433,6 +2435,8 @@ linux64
 debug
 -
 mochitest
+-
+plain
 -
 e10s
 '
@@ -2603,18 +2607,6 @@ media
 e10s
 -
 11
-'
-        
-'
-test
--
-linux64
-/
-opt
--
-mochitest
--
-plain
 '
         
 '
@@ -3015,6 +3007,8 @@ linux64
 opt
 -
 mochitest
+-
+plain
 '
             
 '
@@ -3026,19 +3020,9 @@ debug
 -
 mochitest
 -
-e10s
-'
-            
-'
-test
--
-linux64
-/
-opt
--
-mochitest
--
 plain
+-
+e10s
 '
         
 ]

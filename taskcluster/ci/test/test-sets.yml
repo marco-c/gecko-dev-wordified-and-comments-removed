@@ -2554,6 +2554,8 @@ jittest
 -
 mochitest
 -
+plain
+-
 mochitest
 -
 a11y
@@ -2664,6 +2666,8 @@ jsreftest
 -
 mochitest
 -
+plain
+-
 mochitest
 -
 a11y
@@ -2745,6 +2749,8 @@ jittest
 jsreftest
 -
 mochitest
+-
+plain
 -
 mochitest
 -
@@ -2870,6 +2876,8 @@ crashtest
 -
 mochitest
 -
+plain
+-
 mochitest
 -
 browser
@@ -2945,6 +2953,8 @@ jsreftest
 marionette
 -
 mochitest
+-
+plain
 -
 mochitest
 -
@@ -3133,6 +3143,8 @@ gtest
 marionette
 -
 mochitest
+-
+plain
 -
 mochitest
 -
@@ -3355,6 +3367,8 @@ jsreftest
 marionette
 -
 mochitest
+-
+plain
 -
 mochitest
 -
@@ -3603,6 +3617,8 @@ junit
 gtest
 -
 mochitest
+-
+plain
 -
 mochitest
 -
@@ -7253,5 +7269,7 @@ tests
 :
 -
 mochitest
+-
+plain
 -
 xpcshell
