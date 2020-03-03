@@ -73,8 +73,11 @@ slice
 )
 ;
 await
+UrlbarTestUtils
+.
 promiseSearchComplete
 (
+window
 )
 ;
 }

@@ -206,8 +206,11 @@ substr
 )
 ;
 await
+UrlbarTestUtils
+.
 promiseSearchComplete
 (
+window
 )
 ;
 }
