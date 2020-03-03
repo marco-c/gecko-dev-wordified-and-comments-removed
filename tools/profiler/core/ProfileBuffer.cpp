@@ -181,10 +181,7 @@ isNothing
 )
 ;
 }
-BlocksRingBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 ProfileBuffer
 :
 :
@@ -265,7 +262,7 @@ KIND
 )
 ;
 return
-BlockIndex
+ProfileBufferBlockIndex
 {
 }
 ;
@@ -290,15 +287,12 @@ mEntries
 aEntry
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
 }
-BlocksRingBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 ProfileBuffer
 :
 :
@@ -342,7 +336,7 @@ mEntries
 aThreadId
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;

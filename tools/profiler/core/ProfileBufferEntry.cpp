@@ -3102,13 +3102,10 @@ aReader
 .
 At
 (
-BlocksRingBuffer
+ProfileBufferBlockIndex
 :
 :
-BlockIndex
-:
-:
-ConvertFromU64
+CreateFromProfileBufferIndex
 (
 aInitialReadPos
 )
@@ -3242,10 +3239,7 @@ return
 mBlockIt
 ;
 }
-ProfileBuffer
-:
-:
-BlockIndex
+ProfileBufferBlockIndex
 CurBlockIndex
 (
 )
@@ -3270,7 +3264,7 @@ CurBlockIndex
 (
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
@@ -4957,7 +4951,7 @@ CurrentBlockIndex
 (
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 unresponsiveDuration
@@ -8990,7 +8984,7 @@ aTime
 )
 {
 const
-BlockIndex
+ProfileBufferBlockIndex
 firstBlockToKeep
 =
 mEntries
@@ -9024,6 +9018,8 @@ session
 when
 sampler
 is
+"
+"
 running
 "
 )
@@ -9036,7 +9032,7 @@ aReader
 )
 ;
 const
-BlockIndex
+ProfileBufferBlockIndex
 bufferStartPos
 =
 e
@@ -9111,7 +9107,7 @@ IsThreadId
 )
 ;
 const
-BlockIndex
+ProfileBufferBlockIndex
 sampleStartPos
 =
 e

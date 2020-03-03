@@ -50,14 +50,6 @@ final
 {
 public
 :
-using
-BlockIndex
-=
-BlocksRingBuffer
-:
-:
-BlockIndex
-;
 ProfileBuffer
 (
 BlocksRingBuffer
@@ -296,7 +288,7 @@ const
 private
 :
 static
-BlockIndex
+ProfileBufferBlockIndex
 AddEntry
 (
 BlocksRingBuffer
@@ -309,7 +301,7 @@ aEntry
 )
 ;
 static
-BlockIndex
+ProfileBufferBlockIndex
 AddThreadIdEntry
 (
 BlocksRingBuffer
@@ -340,7 +332,7 @@ GetState
 .
 mRangeStart
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
@@ -360,7 +352,7 @@ GetState
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;

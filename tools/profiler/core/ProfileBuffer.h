@@ -51,17 +51,6 @@ final
 {
 public
 :
-using
-BlockIndex
-=
-mozilla
-:
-:
-BlocksRingBuffer
-:
-:
-BlockIndex
-;
 ProfileBuffer
 (
 mozilla
@@ -370,7 +359,7 @@ CurrentBlockIndex
 (
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 >
@@ -388,7 +377,7 @@ CurrentBlockIndex
 (
 )
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 =
@@ -496,7 +485,10 @@ const
 private
 :
 static
-BlockIndex
+mozilla
+:
+:
+ProfileBufferBlockIndex
 AddEntry
 (
 mozilla
@@ -512,7 +504,10 @@ aEntry
 )
 ;
 static
-BlockIndex
+mozilla
+:
+:
+ProfileBufferBlockIndex
 AddThreadIdEntry
 (
 mozilla
@@ -549,7 +544,7 @@ GetState
 .
 mRangeStart
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
@@ -569,7 +564,7 @@ GetState
 .
 mRangeEnd
 .
-ConvertToU64
+ConvertToProfileBufferIndex
 (
 )
 ;
