@@ -59,7 +59,6 @@ CFTypeRef
 SecTransformRef
 ;
 typedef
-struct
 OpaqueSecKeyRef
 *
 SecKeyRef
