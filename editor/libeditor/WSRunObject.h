@@ -2277,7 +2277,7 @@ typename
 CT
 >
 WSPoint
-GetNextCharPointInternal
+LookForNextCharPointWithinAllTextNodes
 (
 const
 EditorDOMPointBase
@@ -2298,7 +2298,7 @@ typename
 CT
 >
 WSPoint
-GetPreviousCharPointInternal
+LookForPreviousCharPointWithinAllTextNodes
 (
 const
 EditorDOMPointBase
