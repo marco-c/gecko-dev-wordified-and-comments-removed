@@ -407,9 +407,6 @@ aElement
 ;
 }
 ;
-struct
-ElementPropertyTransition
-;
 namespace
 dom
 {
