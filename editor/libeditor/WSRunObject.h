@@ -2260,7 +2260,7 @@ aPoint
 const
 ;
 WSPoint
-GetNextCharPoint
+GetNextCharPointFromPointInText
 (
 const
 WSPoint
@@ -2433,7 +2433,7 @@ aPoint
 const
 ;
 WSPoint
-GetPreviousCharPoint
+GetPreviousCharPointFromPointInText
 (
 const
 WSPoint
