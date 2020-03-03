@@ -558,14 +558,6 @@ click
 await
 switched
 ;
-await
-waitForRequestsToSettle
-(
-AboutDebugging
-.
-store
-)
-;
 info
 (
 "
