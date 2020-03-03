@@ -505,7 +505,7 @@ QueryInterface
 (
 Ci
 .
-nsISSLSocketControl
+nsITransportSecurityInfo
 )
 .
 resumed
