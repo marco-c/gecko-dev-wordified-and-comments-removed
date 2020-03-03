@@ -2505,6 +2505,9 @@ IPCClientInfo
 ?
 initialClientInfo
 ;
+uint64_t
+outerWindowId
+;
 }
 ;
 struct
