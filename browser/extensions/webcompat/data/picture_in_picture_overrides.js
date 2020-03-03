@@ -96,7 +96,7 @@ https
 :
 /
 /
-www
+*
 .
 udemy
 .
