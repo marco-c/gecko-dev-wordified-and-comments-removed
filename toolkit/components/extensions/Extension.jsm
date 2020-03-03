@@ -8124,6 +8124,12 @@ cachePermissions
 (
 )
 ;
+this
+.
+updatePermissions
+(
+)
+;
 }
 )
 ;
@@ -8247,6 +8253,12 @@ whiteListedHosts
 this
 .
 cachePermissions
+(
+)
+;
+this
+.
+updatePermissions
 (
 )
 ;
