@@ -3253,6 +3253,7 @@ FileInfo
 :
 GetFileForFileInfo
 (
+*
 aFile
 .
 mFileInfo
