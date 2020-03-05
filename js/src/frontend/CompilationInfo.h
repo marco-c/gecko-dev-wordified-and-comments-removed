@@ -72,6 +72,15 @@ include
 "
 js
 /
+GCVector
+.
+h
+"
+#
+include
+"
+js
+/
 RealmOptions
 .
 h
@@ -172,7 +181,10 @@ BigIntCreationData
 >
 bigIntData
 ;
-Vector
+JS
+:
+:
+RootedVector
 <
 FunctionCreationData
 >
