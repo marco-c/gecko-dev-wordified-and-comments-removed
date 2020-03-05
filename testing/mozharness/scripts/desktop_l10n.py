@@ -2679,6 +2679,19 @@ query_l10n_env
 (
 )
         
+env
+[
+'
+PYTHONIOENCODING
+'
+]
+=
+'
+utf
+-
+8
+'
+        
 self
 .
 _copy_mozconfig
