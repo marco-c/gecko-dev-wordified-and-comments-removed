@@ -50,8 +50,9 @@ public
 ManualNACPtr
 (
 )
-{
-}
+=
+default
+;
 MOZ_IMPLICIT
 ManualNACPtr
 (

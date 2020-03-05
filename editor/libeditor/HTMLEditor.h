@@ -6542,8 +6542,9 @@ private
 BlobReader
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 dom
