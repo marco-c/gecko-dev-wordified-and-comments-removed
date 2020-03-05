@@ -27944,7 +27944,7 @@ theme
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 ;
@@ -31998,7 +31998,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 ;
@@ -32369,7 +32369,7 @@ theme
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 ;
@@ -32477,7 +32477,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 ;
@@ -32692,7 +32692,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 ;
@@ -32785,7 +32785,7 @@ ToReferenceFrame
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -35569,14 +35569,11 @@ theme
 pc
 -
 >
-GetTheme
+Theme
 (
 )
 ;
 return
-theme
-&
-&
 theme
 -
 >

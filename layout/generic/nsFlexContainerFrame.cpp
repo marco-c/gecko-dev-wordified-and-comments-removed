@@ -4855,7 +4855,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 -

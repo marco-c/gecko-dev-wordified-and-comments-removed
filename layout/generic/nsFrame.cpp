@@ -11688,7 +11688,7 @@ widgetBorder
 pc
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -11882,7 +11882,7 @@ if
 pc
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -29122,7 +29122,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -41952,7 +41952,7 @@ border
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -42004,7 +42004,7 @@ if
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -44420,7 +44420,7 @@ PresContext
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -68909,15 +68909,12 @@ theme
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 ;
 if
 (
-theme
-&
-&
 theme
 -
 >
@@ -70088,7 +70085,7 @@ if
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -

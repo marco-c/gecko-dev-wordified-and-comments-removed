@@ -3342,7 +3342,7 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -7002,7 +7002,7 @@ disp
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -

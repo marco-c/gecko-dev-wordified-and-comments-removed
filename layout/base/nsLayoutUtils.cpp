@@ -36107,7 +36107,7 @@ PresContext
 pc
 -
 >
-GetTheme
+Theme
 (
 )
 -
@@ -58489,7 +58489,7 @@ PresContext
 presContext
 -
 >
-GetTheme
+Theme
 (
 )
 -

@@ -10034,15 +10034,12 @@ PresContext
 )
 -
 >
-GetTheme
+Theme
 (
 )
 ;
 if
 (
-theme
-&
-&
 theme
 -
 >
