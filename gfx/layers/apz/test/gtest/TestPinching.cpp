@@ -1521,6 +1521,9 @@ DoPinchWithPreventDefaultTest
 )
 ;
 }
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCPinchGestureDetectorTester
@@ -1592,6 +1595,8 @@ AssertStateIsFling
 )
 ;
 }
+#
+endif
 TEST_F
 (
 APZCPinchGestureDetectorTester

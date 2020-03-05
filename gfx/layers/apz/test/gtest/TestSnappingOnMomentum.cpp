@@ -36,6 +36,9 @@ APZCTreeManagerTester
 {
 }
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCSnappingOnMomentumTester
@@ -495,3 +498,5 @@ y
 )
 ;
 }
+#
+endif

@@ -117,6 +117,9 @@ fm
 }
 }
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCGestureDetectorTester
@@ -730,6 +733,8 @@ AssertStateIsReset
 )
 ;
 }
+#
+endif
 TEST_F
 (
 APZCGestureDetectorTester
@@ -1759,6 +1764,9 @@ AssertStateIsReset
 }
 }
 ;
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1783,6 +1791,11 @@ false
 )
 ;
 }
+#
+endif
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1807,6 +1820,11 @@ true
 )
 ;
 }
+#
+endif
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1831,6 +1849,11 @@ false
 )
 ;
 }
+#
+endif
+#
+ifndef
+MOZ_WIDGET_ANDROID
 TEST_F
 (
 APZCFlingStopTester
@@ -1855,6 +1878,8 @@ true
 )
 ;
 }
+#
+endif
 TEST_F
 (
 APZCGestureDetectorTester
