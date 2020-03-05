@@ -162,11 +162,6 @@ SessionFile
 jsm
 '
 '
-SessionHistoryListener
-.
-jsm
-'
-'
 SessionMigration
 .
 jsm
