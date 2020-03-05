@@ -642,7 +642,7 @@ minidump
 -
 stackwalk
 -
-win64
+win32
 -
 fix
 -
@@ -665,7 +665,7 @@ minidump
 -
 stackwalk
 -
-win64
+win32
 -
 fix
 -
