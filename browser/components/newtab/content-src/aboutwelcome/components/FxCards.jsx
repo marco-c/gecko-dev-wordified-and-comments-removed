@@ -349,7 +349,7 @@ let
 UTMTerm
 =
 "
-utm_term_separate_welcome
+about_welcome
 "
 ;
 if

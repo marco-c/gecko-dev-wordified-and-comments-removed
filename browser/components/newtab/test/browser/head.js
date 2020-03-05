@@ -597,6 +597,13 @@ function
 test_newtab
 (
 testInfo
+browserURL
+=
+"
+about
+:
+newtab
+"
 )
 {
 let
@@ -728,11 +735,7 @@ BrowserTestUtils
 openNewForegroundTab
 (
 gBrowser
-"
-about
-:
-newtab
-"
+browserURL
 false
 )
 ;
