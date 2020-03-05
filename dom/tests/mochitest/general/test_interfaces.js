@@ -807,9 +807,6 @@ AnimationTimeline
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
@@ -1643,9 +1640,6 @@ DocumentTimeline
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
