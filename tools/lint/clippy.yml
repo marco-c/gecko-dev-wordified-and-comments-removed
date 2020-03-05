@@ -24,15 +24,6 @@ media
 gtest
 /
 -
-dom
-/
-webauthn
-/
-libudev
--
-sys
-/
--
 gfx
 /
 webrender_bindings
