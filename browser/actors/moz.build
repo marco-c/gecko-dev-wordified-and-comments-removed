@@ -371,6 +371,11 @@ SearchTelemetryChild
 jsm
 '
 '
+SearchTelemetryParent
+.
+jsm
+'
+'
 SwitchDocumentDirectionChild
 .
 jsm
