@@ -2568,8 +2568,8 @@ ThrowSetAliasedConst
 throw_set_aliased_const
 NULL
 5
-1
-1
+0
+0
 JOF_ENVCOORD
 |
 JOF_NAME
@@ -2584,8 +2584,8 @@ ThrowSetCallee
 throw_set_callee
 NULL
 1
-1
-1
+0
+0
 JOF_BYTE
 )
 \
@@ -2596,8 +2596,8 @@ ThrowSetConst
 throw_set_const
 NULL
 4
-1
-1
+0
+0
 JOF_LOCAL
 |
 JOF_NAME
