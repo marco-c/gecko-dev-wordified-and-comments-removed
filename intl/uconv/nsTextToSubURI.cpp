@@ -89,8 +89,9 @@ nsTextToSubURI
 nsTextToSubURI
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsTextToSubURI

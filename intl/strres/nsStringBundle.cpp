@@ -1334,8 +1334,9 @@ nsStringBundle
 nsStringBundle
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsStringBundleBase
 :

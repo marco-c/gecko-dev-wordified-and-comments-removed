@@ -1664,8 +1664,9 @@ public
 Decoder
 (
 )
-{
-}
+=
+default
+;
 static
 void
 operator
@@ -2341,8 +2342,9 @@ public
 Encoder
 (
 )
-{
-}
+=
+default
+;
 static
 void
 operator

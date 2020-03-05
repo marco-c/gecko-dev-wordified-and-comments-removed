@@ -133,8 +133,9 @@ private
 WordBreaker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

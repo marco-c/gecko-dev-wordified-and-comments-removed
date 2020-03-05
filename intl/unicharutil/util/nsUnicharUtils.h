@@ -578,8 +578,9 @@ public
 nsASCIICaseInsensitiveStringComparator
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 operator
