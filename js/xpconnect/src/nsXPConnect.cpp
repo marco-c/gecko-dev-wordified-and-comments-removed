@@ -1924,6 +1924,18 @@ message
 )
 )
 {
+if
+(
+!
+JSREPORT_IS_WARNING
+(
+aReport
+-
+>
+flags
+)
+)
+{
 JSLinearString
 *
 name
@@ -1970,6 +1982,7 @@ AppendLiteral
 "
 )
 ;
+}
 }
 aString
 .
