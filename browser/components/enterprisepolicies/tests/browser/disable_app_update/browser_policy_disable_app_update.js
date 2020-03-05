@@ -127,7 +127,7 @@ function
 )
 {
 let
-updateRadioGroup
+setting
 =
 content
 .
@@ -136,13 +136,13 @@ document
 getElementById
 (
 "
-updateRadioGroup
+updateSettingsContainer
 "
 )
 ;
 is
 (
-updateRadioGroup
+setting
 .
 hidden
 true
@@ -151,7 +151,7 @@ Update
 choices
 should
 be
-diabled
+disabled
 when
 app
 update
