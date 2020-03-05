@@ -373,6 +373,9 @@ OS_LIBS
 '
 rpcrt4
 '
+'
+oleacc
+'
 ]
 RCINCLUDE
 =
