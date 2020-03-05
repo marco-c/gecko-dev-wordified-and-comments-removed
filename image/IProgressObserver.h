@@ -132,8 +132,9 @@ virtual
 IProgressObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
