@@ -5256,6 +5256,7 @@ JSContext
 aCx
 StructuredCloneReadInfo
 &
+&
 aCloneReadInfo
 JS
 :

@@ -1482,9 +1482,15 @@ IDBObjectStore
 DeserializeValue
 (
 aCx
+std
+:
+:
+move
+(
 mData
 .
 mCloneInfo
+)
 &
 val
 )
