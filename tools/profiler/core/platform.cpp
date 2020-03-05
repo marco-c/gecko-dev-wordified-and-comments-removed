@@ -10422,7 +10422,6 @@ GeckoJavaSampler
 :
 GetSampleTime
 (
-0
 sampleId
 )
 ;
@@ -10493,7 +10492,6 @@ GeckoJavaSampler
 :
 GetFrameName
 (
-0
 sampleId
 frameId
 +
