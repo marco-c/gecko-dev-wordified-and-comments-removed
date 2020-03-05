@@ -1564,6 +1564,9 @@ BrowsingContext
 >
 mActiveBrowsingContextInContent
 ;
+bool
+mActiveBrowsingContextInContentSetFromOtherProcess
+;
 RefPtr
 <
 mozilla
