@@ -190,6 +190,7 @@ Forever
 )
 ;
 }
+virtual
 void
 GetTiming
 (
@@ -199,6 +200,7 @@ aRetVal
 )
 const
 ;
+virtual
 void
 GetComputedTimingAsDict
 (
