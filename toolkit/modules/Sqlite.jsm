@@ -2182,7 +2182,9 @@ _open
 &
 this
 .
-_hasInProgressTransaction
+_dbConn
+.
+transactionInProgress
 ;
 }
 executeTransaction
