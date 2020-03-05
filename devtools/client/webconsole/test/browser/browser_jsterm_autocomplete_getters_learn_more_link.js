@@ -44,6 +44,9 @@ properties
 .
 *
 /
+let
+sideEffect
+;
 window
 .
 foo
@@ -63,6 +66,12 @@ bar
 (
 )
 {
+sideEffect
+=
+"
+bar
+"
+;
 return
 "
 hello

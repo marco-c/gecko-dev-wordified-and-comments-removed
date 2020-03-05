@@ -23,6 +23,9 @@ head
 <
 script
 >
+let
+sideEffect
+;
 window
 .
 foo
@@ -33,6 +36,12 @@ rab
 (
 )
 {
+sideEffect
+=
+"
+getRab
+"
+;
 return
 "
 rab
