@@ -465,7 +465,16 @@ already_AddRefed
 <
 nsITheme
 >
-do_GetNativeTheme
+do_GetNativeThemeDoNotUseDirectly
+(
+)
+;
+extern
+already_AddRefed
+<
+nsITheme
+>
+do_GetBasicNativeThemeDoNotUseDirectly
 (
 )
 ;
