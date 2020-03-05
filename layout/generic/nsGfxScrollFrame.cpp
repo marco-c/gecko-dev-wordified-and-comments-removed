@@ -12158,6 +12158,7 @@ nsIFrame
 :
 AddXULMinSize
 (
+aState
 this
 min
 widthSet
