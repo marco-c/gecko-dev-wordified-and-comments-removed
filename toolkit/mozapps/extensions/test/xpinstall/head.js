@@ -374,7 +374,7 @@ setBoolPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "
@@ -569,7 +569,7 @@ clearUserPref
 "
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 "

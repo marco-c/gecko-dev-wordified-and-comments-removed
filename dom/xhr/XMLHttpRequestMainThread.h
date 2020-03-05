@@ -861,9 +861,9 @@ aPrincipal
 nsIGlobalObject
 *
 aGlobalObject
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 bool
 aForWorker
 nsIURI
@@ -910,9 +910,9 @@ mLoadGroup
 =
 aLoadGroup
 ;
-mCookieSettings
+mCookieJarSettings
 =
-aCookieSettings
+aCookieJarSettings
 ;
 mForWorker
 =
@@ -2090,9 +2090,9 @@ mXMLParserStreamListener
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 RefPtr
 <

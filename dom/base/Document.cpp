@@ -1145,7 +1145,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -19898,11 +19898,11 @@ rv
 loadInfo
 -
 >
-GetCookieSettings
+GetCookieJarSettings
 (
 getter_AddRefs
 (
-mCookieSettings
+mCookieJarSettings
 )
 )
 ;
@@ -34767,7 +34767,7 @@ storageAccess
 StoragePartitioningEnabled
 (
 storageAccess
-CookieSettings
+CookieJarSettings
 (
 )
 )
@@ -35082,7 +35082,7 @@ storageAccess
 StoragePartitioningEnabled
 (
 storageAccess
-CookieSettings
+CookieJarSettings
 (
 )
 )
@@ -94136,7 +94136,7 @@ MaybeAllowStorageForOpenerAfterUserInteraction
 if
 (
 !
-CookieSettings
+CookieJarSettings
 (
 )
 -
@@ -97178,7 +97178,7 @@ them
 if
 (
 !
-CookieSettings
+CookieJarSettings
 (
 )
 -
@@ -97532,7 +97532,7 @@ fulfilled
 .
 if
 (
-CookieSettings
+CookieJarSettings
 (
 )
 -
@@ -99831,12 +99831,12 @@ language
 )
 ;
 }
-nsICookieSettings
+nsICookieJarSettings
 *
 Document
 :
 :
-CookieSettings
+CookieJarSettings
 (
 )
 {
@@ -99864,7 +99864,7 @@ we
 must
 have
 a
-nsCookieSettings
+nsCookieJarSettings
 .
 Let
 '
@@ -99875,7 +99875,7 @@ it
 if
 (
 !
-mCookieSettings
+mCookieJarSettings
 )
 {
 Document
@@ -99886,14 +99886,14 @@ GetInProcessParentDocument
 (
 )
 ;
-mCookieSettings
+mCookieJarSettings
 =
 inProcessParent
 ?
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -99901,7 +99901,7 @@ Create
 inProcessParent
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 -
@@ -99914,7 +99914,7 @@ GetCookieBehavior
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -99923,7 +99923,7 @@ Create
 ;
 }
 return
-mCookieSettings
+mCookieJarSettings
 ;
 }
 nsIPrincipal
@@ -100090,7 +100090,7 @@ this
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )

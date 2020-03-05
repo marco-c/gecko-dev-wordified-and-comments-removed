@@ -276,7 +276,7 @@ h
 #
 include
 "
-nsICookieSettings
+nsICookieJarSettings
 .
 h
 "
@@ -764,9 +764,9 @@ InitializeConnection
 nsIPrincipal
 *
 aPrincipal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 ;
 void
@@ -4553,7 +4553,7 @@ NodePrincipal
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )
@@ -4612,7 +4612,7 @@ GetPrincipal
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )
@@ -5396,7 +5396,7 @@ doc
 doc
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 :
@@ -7305,9 +7305,9 @@ InitializeConnection
 nsIPrincipal
 *
 aPrincipal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 {
 AssertIsOnMainThread
@@ -7518,7 +7518,7 @@ NodePrincipal
 :
 aPrincipal
 aPrincipal
-aCookieSettings
+aCookieJarSettings
 nsILoadInfo
 :
 :

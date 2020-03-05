@@ -1287,9 +1287,9 @@ aLoadGroup
 nsIEventTarget
 *
 aMainThreadEventTarget
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 PerformanceStorage
 *
 aPerformanceStorage
@@ -1313,9 +1313,9 @@ mMainThreadEventTarget
 (
 aMainThreadEventTarget
 )
-mCookieSettings
+mCookieJarSettings
 (
-aCookieSettings
+aCookieJarSettings
 )
 mPerformanceStorage
 (
@@ -2041,12 +2041,12 @@ MOZ_ASSERT
 mDocument
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 =
 =
-mCookieSettings
+mCookieJarSettings
 )
 ;
 rv
@@ -2107,7 +2107,7 @@ mRequest
 ContentPolicyType
 (
 )
-mCookieSettings
+mCookieJarSettings
 mPerformanceStorage
 mLoadGroup
 nullptr
@@ -2135,7 +2135,7 @@ mRequest
 ContentPolicyType
 (
 )
-mCookieSettings
+mCookieJarSettings
 mPerformanceStorage
 mLoadGroup
 nullptr

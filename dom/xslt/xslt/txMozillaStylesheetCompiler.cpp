@@ -2783,7 +2783,7 @@ OwnerDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 :

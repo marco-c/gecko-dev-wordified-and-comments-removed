@@ -928,7 +928,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "

@@ -2515,7 +2515,7 @@ access
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 )

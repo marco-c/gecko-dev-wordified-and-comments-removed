@@ -6575,8 +6575,8 @@ PrincipalInfo
 loadingPrincipal
 bool
 stickDocument
-CookieSettingsArgs
-cookieSettings
+CookieJarSettingsArgs
+cookieJarSettings
 )
 ;
 /

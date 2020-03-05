@@ -613,7 +613,7 @@ OwnerDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 nullptr

@@ -17868,7 +17868,7 @@ newInnerWindow
 aDocument
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 -

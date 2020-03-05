@@ -330,7 +330,7 @@ net
 -
 /
 /
-CookieSettings
+CookieJarSettings
 IPDL
 structs
 /
@@ -424,7 +424,7 @@ cookiePermission
 }
 ;
 struct
-CookieSettingsArgs
+CookieJarSettingsArgs
 {
 /
 /
@@ -1148,8 +1148,8 @@ skipContentSniffing
 bool
 isFromProcessingFrameAttributes
 ;
-CookieSettingsArgs
-cookieSettings
+CookieJarSettingsArgs
+cookieJarSettings
 ;
 uint32_t
 requestBlockingReason
@@ -1445,9 +1445,9 @@ documentHasLoaded
 bool
 allowListFutureDocumentsCreatedFromThisRedirectChain
 ;
-CookieSettingsArgs
+CookieJarSettingsArgs
 ?
-cookieSettings
+cookieJarSettings
 ;
 uint32_t
 requestBlockingReason

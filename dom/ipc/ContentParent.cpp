@@ -23738,9 +23738,9 @@ bool
 &
 aStickDocument
 const
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 {
 RefPtr
@@ -23806,9 +23806,9 @@ bool
 &
 aStickDocument
 const
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 {
 MOZ_ASSERT
@@ -23855,7 +23855,7 @@ aManifestURI
 aDocumentURI
 aLoadingPrincipal
 aStickDocument
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 ;
 if

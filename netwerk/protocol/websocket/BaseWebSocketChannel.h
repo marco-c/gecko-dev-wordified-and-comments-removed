@@ -282,9 +282,9 @@ aLoadingPrincipal
 nsIPrincipal
 *
 aTriggeringPrincipal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 uint32_t
 aSecurityFlags
 uint32_t

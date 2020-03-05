@@ -81,7 +81,7 @@ class
 nsIContentSecurityPolicy
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsILoadGroup
@@ -158,9 +158,9 @@ mStoragePrincipal
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 nsCOMPtr
 <
@@ -276,8 +276,9 @@ private
 InterfaceRequestor
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 nsIBrowserChild

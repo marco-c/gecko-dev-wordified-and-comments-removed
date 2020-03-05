@@ -138,7 +138,7 @@ interface
 nsIContentSecurityPolicy
 ;
 interface
-nsICookieSettings
+nsICookieJarSettings
 ;
 interface
 nsICSPEventListener
@@ -3394,6 +3394,7 @@ cookiePolicy
 *
 The
 cookie
+jar
 settings
 inherited
 from
@@ -3415,8 +3416,8 @@ null
 *
 /
 attribute
-nsICookieSettings
-cookieSettings
+nsICookieJarSettings
+cookieJarSettings
 ;
 /
 *

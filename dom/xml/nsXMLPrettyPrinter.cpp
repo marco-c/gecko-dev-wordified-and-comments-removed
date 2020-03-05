@@ -366,7 +366,7 @@ nullptr
 aDocument
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 true

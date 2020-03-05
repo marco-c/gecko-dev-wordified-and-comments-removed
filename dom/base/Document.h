@@ -80,7 +80,7 @@ h
 #
 include
 "
-nsICookieSettings
+nsICookieJarSettings
 .
 h
 "
@@ -4055,9 +4055,9 @@ StorageAccessSandboxed
 )
 const
 ;
-nsICookieSettings
+nsICookieJarSettings
 *
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -13529,9 +13529,9 @@ mPendingInitialTranslation
 ;
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-mCookieSettings
+mCookieJarSettings
 ;
 int32_t
 mGeneration

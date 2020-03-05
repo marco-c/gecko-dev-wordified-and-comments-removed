@@ -535,7 +535,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -11552,12 +11552,12 @@ globalWindow
 ;
 loadInfo
 .
-mCookieSettings
+mCookieJarSettings
 =
 document
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -11776,7 +11776,7 @@ eAllow
 ;
 loadInfo
 .
-mCookieSettings
+mCookieJarSettings
 =
 mozilla
 :
@@ -11784,7 +11784,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -11795,7 +11795,7 @@ MOZ_ASSERT
 (
 loadInfo
 .
-mCookieSettings
+mCookieJarSettings
 )
 ;
 loadInfo
@@ -11914,7 +11914,7 @@ aWorkerType
 )
 loadInfo
 .
-mCookieSettings
+mCookieJarSettings
 loadInfo
 .
 mReferrerInfo

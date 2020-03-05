@@ -125,7 +125,7 @@ interface
 nsIObserver
 ;
 interface
-nsICookieSettings
+nsICookieJarSettings
 ;
 webidl
 Document
@@ -730,10 +730,11 @@ unknown
 .
 *
 param
-aCookieSettings
+aCookieJarSettings
 *
 The
 cookie
+jar
 settings
 belonging
 to
@@ -764,8 +765,8 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsICookieSettings
-aCookieSettings
+nsICookieJarSettings
+aCookieJarSettings
 )
 ;
 /

@@ -353,7 +353,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -1731,12 +1731,12 @@ OriginAttributesRef
 ;
 info
 .
-mCookieSettings
+mCookieJarSettings
 =
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -2102,7 +2102,7 @@ nsIContentPolicy
 TYPE_INTERNAL_SHARED_WORKER
 info
 .
-mCookieSettings
+mCookieJarSettings
 info
 .
 mReferrerInfo

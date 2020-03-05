@@ -43906,7 +43906,7 @@ mirror
 always
 #
 Allow
-CookieSettings
+CookieJarSettings
 to
 be
 unblocked
@@ -43928,7 +43928,7 @@ name
 :
 network
 .
-cookieSettings
+cookieJarSettings
 .
 unblocked_for_testing
 type

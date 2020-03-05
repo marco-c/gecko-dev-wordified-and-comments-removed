@@ -9960,7 +9960,7 @@ GetExtantDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 -
@@ -11578,7 +11578,7 @@ GetExtantDoc
 )
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 -

@@ -856,9 +856,9 @@ nsContentPolicyType
 aMainScriptContentPolicyType
 nsLoadFlags
 aLoadFlags
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -1199,7 +1199,7 @@ ref
 aController
 secFlags
 contentPolicyType
-aCookieSettings
+aCookieJarSettings
 performanceStorage
 loadGroup
 nullptr
@@ -1222,7 +1222,7 @@ uri
 principal
 secFlags
 contentPolicyType
-aCookieSettings
+aCookieJarSettings
 performanceStorage
 loadGroup
 nullptr
@@ -4454,7 +4454,7 @@ loadFlags
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 referrerInfo
@@ -8482,12 +8482,12 @@ GetLoadGroup
 ;
 mLoadInfo
 .
-mCookieSettings
+mCookieJarSettings
 =
 mWorkerPrivate
 -
 >
-CookieSettings
+CookieJarSettings
 (
 )
 ;
@@ -8603,7 +8603,7 @@ nsIContentPolicy
 TYPE_INTERNAL_WORKER
 mLoadInfo
 .
-mCookieSettings
+mCookieJarSettings
 mLoadInfo
 .
 mReferrerInfo
@@ -10421,9 +10421,9 @@ ClientInfo
 aClientInfo
 nsContentPolicyType
 aMainScriptContentPolicyType
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -10496,7 +10496,7 @@ nsIRequest
 :
 :
 LOAD_NORMAL
-aCookieSettings
+aCookieJarSettings
 aReferrerInfo
 aChannel
 )

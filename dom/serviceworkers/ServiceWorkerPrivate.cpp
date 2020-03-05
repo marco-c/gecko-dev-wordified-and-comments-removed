@@ -337,7 +337,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -7674,7 +7674,7 @@ mPrincipal
 ;
 info
 .
-mCookieSettings
+mCookieJarSettings
 =
 mozilla
 :
@@ -7682,7 +7682,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -7693,7 +7693,7 @@ MOZ_ASSERT
 (
 info
 .
-mCookieSettings
+mCookieJarSettings
 )
 ;
 info
@@ -7707,7 +7707,7 @@ info
 mPrincipal
 info
 .
-mCookieSettings
+mCookieJarSettings
 )
 ;
 info

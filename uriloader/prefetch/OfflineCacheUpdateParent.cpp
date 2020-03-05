@@ -282,9 +282,9 @@ bool
 &
 stickDocument
 const
-CookieSettingsArgs
+CookieJarSettingsArgs
 &
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 {
 LOG
@@ -498,9 +498,9 @@ rv
 update
 -
 >
-SetCookieSettingsArgs
+SetCookieJarSettingsArgs
 (
-aCookieSettingsArgs
+aCookieJarSettingsArgs
 )
 ;
 update

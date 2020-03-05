@@ -51,7 +51,7 @@ class
 nsIChannel
 ;
 class
-nsICookieSettings
+nsICookieJarSettings
 ;
 class
 nsIPermission
@@ -144,9 +144,9 @@ IsFirstPartyStorageAccessGrantedFor
 nsIPrincipal
 *
 aPrincipal
-nsICookieSettings
+nsICookieJarSettings
 *
-aCookieSettings
+aCookieJarSettings
 )
 ;
 enum

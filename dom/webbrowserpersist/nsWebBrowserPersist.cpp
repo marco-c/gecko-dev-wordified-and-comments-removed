@@ -302,7 +302,7 @@ mozilla
 /
 net
 /
-CookieSettings
+CookieJarSettings
 .
 h
 "
@@ -5213,9 +5213,9 @@ LOAD_FROM_CACHE
 }
 nsCOMPtr
 <
-nsICookieSettings
+nsICookieJarSettings
 >
-cookieSettings
+cookieJarSettings
 =
 mozilla
 :
@@ -5223,7 +5223,7 @@ mozilla
 net
 :
 :
-CookieSettings
+CookieJarSettings
 :
 :
 Create
@@ -5251,7 +5251,7 @@ nsILoadInfo
 :
 SEC_ALLOW_CROSS_ORIGIN_DATA_IS_NULL
 aContentPolicyType
-cookieSettings
+cookieJarSettings
 nullptr
 nullptr
 static_cast

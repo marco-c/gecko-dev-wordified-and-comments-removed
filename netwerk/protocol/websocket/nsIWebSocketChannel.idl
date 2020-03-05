@@ -112,7 +112,7 @@ MPL
 *
 /
 interface
-nsICookieSettings
+nsICookieJarSettings
 ;
 interface
 nsIURI
@@ -506,7 +506,7 @@ param
 aTriggeringPrincipal
 *
 param
-aCookieSettings
+aCookieJarSettings
 *
 param
 aSecurityFlags
@@ -626,8 +626,8 @@ in
 nsIPrincipal
 aTriggeringPrincipal
 in
-nsICookieSettings
-aCookieSettings
+nsICookieJarSettings
+aCookieJarSettings
 in
 unsigned
 long
@@ -653,7 +653,7 @@ previous
 one
 but
 without
-nsICookieSettings
+nsICookieJarSettings
 .
 *
 This
@@ -664,7 +664,7 @@ by
 JS
 code
 where
-nsICookieSettings
+nsICookieJarSettings
 is
 not
 exposed
