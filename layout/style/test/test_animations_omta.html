@@ -22878,20 +22878,6 @@ done_div
 }
 )
 ;
-if
-(
-SpecialPowers
-.
-DOMWindowUtils
-.
-layerManagerType
-!
-=
-'
-WebRender
-'
-)
-{
 /
 /
 Normal
@@ -23105,7 +23091,7 @@ waitForPaintsFlushed
 (
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23122,7 +23108,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23148,7 +23134,7 @@ advance_clock
 5000
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23165,7 +23151,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23302,7 +23288,7 @@ waitForPaintsFlushed
 (
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23319,7 +23305,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23345,7 +23331,7 @@ advance_clock
 500
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23362,7 +23348,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23409,7 +23395,7 @@ waitForPaintsFlushed
 (
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23426,7 +23412,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23671,7 +23657,7 @@ waitForPaintsFlushed
 (
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23688,7 +23674,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23714,7 +23700,7 @@ advance_clock
 500
 )
 ;
-omta_is
+omta_todo_is
 (
 "
 background
@@ -23731,7 +23717,7 @@ rgb
 "
 RunningOn
 .
-Compositor
+ToDoCompositor
 "
 background
 -
@@ -23817,7 +23803,7 @@ getOMTAStyle
 directly
 instead
 .
-is
+todo_is
 (
 SpecialPowers
 .
@@ -23874,7 +23860,6 @@ null
 }
 )
 ;
-}
 /
 /
 Normal

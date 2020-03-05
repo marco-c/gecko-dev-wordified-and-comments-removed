@@ -55,6 +55,7 @@ TransformFrameInactive
 TransformIsBlockedByImportantRules
 OpacityFrameInactive
 HasRenderingObserver
+HasCurrentColor
 }
 ;
 explicit
