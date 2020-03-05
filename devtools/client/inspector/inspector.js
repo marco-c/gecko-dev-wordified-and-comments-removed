@@ -6159,6 +6159,14 @@ if
 this
 .
 reflowFront
+|
+|
+!
+this
+.
+reflowFront
+.
+actorID
 )
 {
 return
@@ -6556,12 +6564,6 @@ onNewRoot
 this
 .
 cancelUpdate
-(
-)
-;
-this
-.
-untrackReflowsInSelection
 (
 )
 ;
