@@ -12488,6 +12488,16 @@ public
 static
 final
 int
+ERROR_POSTPONED
+=
+-
+101
+;
+field
+public
+static
+final
+int
 ERROR_SIGNEDSTATE_REQUIRED
 =
 -

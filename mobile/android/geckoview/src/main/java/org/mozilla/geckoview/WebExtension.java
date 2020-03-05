@@ -4290,6 +4290,15 @@ ERROR_USER_CANCELED
 -
 100
 ;
+public
+static
+final
+int
+ERROR_POSTPONED
+=
+-
+101
+;
 protected
 ErrorCodes
 (
@@ -4332,6 +4341,9 @@ ERROR_INCORRECT_ID
 ErrorCodes
 .
 ERROR_USER_CANCELED
+ErrorCodes
+.
+ERROR_POSTPONED
 }
 )
 interface
