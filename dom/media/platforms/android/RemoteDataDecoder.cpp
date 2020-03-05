@@ -4913,13 +4913,6 @@ ReturnDecodedData
 (
 )
 ;
-mJavaDecoder
--
->
-Flush
-(
-)
-;
 }
 void
 RemoteDataDecoder
