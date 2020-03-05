@@ -18663,7 +18663,7 @@ pc
 ;
 if
 (
-FlowsIntoNext
+BytecodeFallsThrough
 (
 op
 )

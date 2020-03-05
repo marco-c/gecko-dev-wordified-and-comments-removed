@@ -5890,7 +5890,7 @@ frontOpcode
 ;
 if
 (
-FlowsIntoNext
+BytecodeFallsThrough
 (
 prevOp
 )
