@@ -19,6 +19,8 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
     
 NasmInstall
@@ -172,14 +174,22 @@ class
 DebianBootstrapper
 (
         
-NasmInstall
-NodeInstall
-StyloInstall
 ClangStaticAnalysisInstall
         
-SccacheInstall
+FixStacksInstall
+        
 LucetcInstall
+        
+NasmInstall
+        
+NodeInstall
+        
+SccacheInstall
+        
+StyloInstall
+        
 WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :

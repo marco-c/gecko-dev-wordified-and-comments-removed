@@ -19,6 +19,8 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
     
 NasmInstall
@@ -56,14 +58,22 @@ class
 GentooBootstrapper
 (
         
-NasmInstall
-NodeInstall
-StyloInstall
 ClangStaticAnalysisInstall
         
-SccacheInstall
+FixStacksInstall
+        
 LucetcInstall
+        
+NasmInstall
+        
+NodeInstall
+        
+SccacheInstall
+        
+StyloInstall
+        
 WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :

@@ -29,6 +29,8 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
     
 NodeInstall
@@ -56,13 +58,20 @@ class
 ArchlinuxBootstrapper
 (
         
-NodeInstall
-StyloInstall
-SccacheInstall
 ClangStaticAnalysisInstall
         
+FixStacksInstall
+        
 LucetcInstall
+        
+NodeInstall
+        
+SccacheInstall
+        
+StyloInstall
+        
 WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :
