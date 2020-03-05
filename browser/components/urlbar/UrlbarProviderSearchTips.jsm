@@ -1951,6 +1951,13 @@ isOpen
 |
 window
 .
+gHighPriorityNotificationBox
+.
+currentNotification
+|
+|
+window
+.
 gBrowser
 .
 getNotificationBox
