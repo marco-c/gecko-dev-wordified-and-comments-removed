@@ -146,6 +146,17 @@ managed
 .
 policy
 -
+AppAutoUpdate
+=
+Enable
+or
+disable
+automatic
+application
+update
+.
+policy
+-
 AppUpdateURL
 =
 Set
