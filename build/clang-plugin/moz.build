@@ -234,6 +234,11 @@ NonTrivialTypeInFfiChecker
 cpp
 '
 '
+NoPrincipalGetURI
+.
+cpp
+'
+'
 NoUsingNamespaceMozillaJavaChecker
 .
 cpp

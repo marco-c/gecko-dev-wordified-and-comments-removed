@@ -262,6 +262,11 @@ TestNonTrivialTypeInFfi
 cpp
 '
 '
+TestNoPrincipalGetUri
+.
+cpp
+'
+'
 TestNoRefcountedInsideLambdas
 .
 cpp

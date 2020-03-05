@@ -138,6 +138,17 @@ expr
 )
 CHECK
 (
+NoPrincipalGetURI
+"
+no
+-
+principal
+-
+geturi
+"
+)
+CHECK
+(
 NeedsNoVTableTypeChecker
 "
 needs
