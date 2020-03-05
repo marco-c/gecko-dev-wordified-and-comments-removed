@@ -44,6 +44,12 @@ mozilla
 namespace
 dom
 {
+constexpr
+int64_t
+MULTIPARTBLOBIMPL_UNKNOWN_LAST_MODIFIED
+=
+INT64_MAX
+;
 class
 MultipartBlobImpl
 final
@@ -136,6 +142,7 @@ EmptyString
 (
 )
 UINT64_MAX
+MULTIPARTBLOBIMPL_UNKNOWN_LAST_MODIFIED
 )
 {
 }
@@ -313,6 +320,13 @@ aBlobImplType
 const
 override
 ;
+void
+SetLastModified
+(
+int64_t
+aLastModified
+)
+;
 protected
 :
 MultipartBlobImpl
@@ -348,6 +362,7 @@ MultipartBlobImpl
 aName
 aContentType
 UINT64_MAX
+MULTIPARTBLOBIMPL_UNKNOWN_LAST_MODIFIED
 )
 mBlobImpls
 (
