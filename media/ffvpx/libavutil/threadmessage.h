@@ -105,6 +105,14 @@ msg
 )
 )
 ;
+int
+av_thread_message_queue_nb_elems
+(
+AVThreadMessageQueue
+*
+mq
+)
+;
 void
 av_thread_message_flush
 (

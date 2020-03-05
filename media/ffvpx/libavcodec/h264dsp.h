@@ -92,7 +92,7 @@ h264_v_loop_filter_luma
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -112,7 +112,7 @@ h264_h_loop_filter_luma
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -132,7 +132,7 @@ h264_h_loop_filter_luma_mbaff
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -152,7 +152,7 @@ h264_v_loop_filter_luma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -169,7 +169,7 @@ h264_h_loop_filter_luma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -186,7 +186,7 @@ h264_h_loop_filter_luma_mbaff_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -203,7 +203,7 @@ h264_v_loop_filter_chroma
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -223,7 +223,7 @@ h264_h_loop_filter_chroma
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -243,7 +243,7 @@ h264_h_loop_filter_chroma_mbaff
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -263,7 +263,7 @@ h264_v_loop_filter_chroma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -280,7 +280,7 @@ h264_h_loop_filter_chroma_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha
@@ -297,7 +297,7 @@ h264_h_loop_filter_chroma_mbaff_intra
 uint8_t
 *
 pix
-int
+ptrdiff_t
 stride
 int
 alpha

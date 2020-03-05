@@ -389,6 +389,11 @@ parser
 c
 '
 '
+parsers
+.
+c
+'
+'
 pthread
 .
 c

@@ -1486,7 +1486,7 @@ part
 +
 0
 0
-1
+AV_BPRINT_SIZE_AUTOMATIC
 )
 ;
 av_bprint_init
@@ -1495,7 +1495,7 @@ part
 +
 1
 0
-1
+AV_BPRINT_SIZE_AUTOMATIC
 )
 ;
 av_bprint_init
@@ -1504,7 +1504,7 @@ part
 +
 2
 0
-1
+AV_BPRINT_SIZE_AUTOMATIC
 )
 ;
 av_bprint_init

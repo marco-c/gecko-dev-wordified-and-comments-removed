@@ -197,6 +197,10 @@ DECLARE_BLOCK_FUNCTIONS
 (
 16
 )
+DECLARE_BLOCK_FUNCTIONS
+(
+32
+)
 static
 const
 av_pixelutils_sad_fn
@@ -209,6 +213,7 @@ block_sad_2x2_c
 block_sad_4x4_c
 block_sad_8x8_c
 block_sad_16x16_c
+block_sad_32x32_c
 }
 ;
 #

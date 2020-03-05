@@ -544,11 +544,6 @@ size_t
 size
 )
 ;
-av_alloc_size
-(
-2
-3
-)
 int
 av_reallocp_array
 (
