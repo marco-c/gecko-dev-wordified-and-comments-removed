@@ -1231,12 +1231,6 @@ prio
 '
         
 '
-ubuntu
--
-bionic
-'
-        
-'
 disable
 -
 pgo

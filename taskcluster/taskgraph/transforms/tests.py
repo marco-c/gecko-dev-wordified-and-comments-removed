@@ -3145,25 +3145,6 @@ test
 platform
 '
 ]
-or
-                
-config
-.
-params
-[
-'
-try_task_config
-'
-]
-.
-get
-(
-'
-ubuntu
--
-bionic
-'
-)
 )
 :
             
