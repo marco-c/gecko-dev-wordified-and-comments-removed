@@ -4544,6 +4544,9 @@ mReadyState
 {
 MOZ_ASSERT
 (
+mFiredCompleteOrAbort
+|
+|
 IsAborted
 (
 )
