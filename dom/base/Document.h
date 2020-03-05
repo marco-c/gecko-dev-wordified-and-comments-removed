@@ -10432,6 +10432,16 @@ DOMIntersectionObserver
 GetLazyLoadImageObserver
 (
 )
+{
+return
+mLazyLoadImageObserver
+;
+}
+DOMIntersectionObserver
+&
+EnsureLazyLoadImageObserver
+(
+)
 ;
 nsresult
 Dispatch
