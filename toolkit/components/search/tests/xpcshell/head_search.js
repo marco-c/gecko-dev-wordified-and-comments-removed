@@ -2171,6 +2171,8 @@ defaultBranch
 getCharPref
 (
 PREF_SEARCH_URL
+"
+"
 )
 ;
 defaultBranch
