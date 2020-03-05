@@ -256,7 +256,7 @@ false
 "
 openViewOnFocus
 "
-false
+true
 ]
 [
 "
@@ -364,7 +364,7 @@ expire_days
 "
 update1
 "
-false
+true
 ]
 [
 "
@@ -372,7 +372,7 @@ update1
 .
 interventions
 "
-false
+true
 ]
 [
 "
@@ -382,7 +382,7 @@ view
 .
 stripHttps
 "
-false
+true
 ]
 [
 "
@@ -390,7 +390,7 @@ update1
 .
 searchTips
 "
-false
+true
 ]
 [
 "
