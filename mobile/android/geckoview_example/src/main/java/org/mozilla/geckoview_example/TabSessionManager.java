@@ -141,7 +141,11 @@ mTabSessions
 {
 session
 .
-setWebExtensionActionDelegate
+getWebExtensionController
+(
+)
+.
+setActionDelegate
 (
 extension
 delegate

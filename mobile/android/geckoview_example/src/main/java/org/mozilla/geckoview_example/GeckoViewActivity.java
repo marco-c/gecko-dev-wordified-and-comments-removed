@@ -3618,7 +3618,11 @@ null
 {
 session
 .
-setWebExtensionActionDelegate
+getWebExtensionController
+(
+)
+.
+setActionDelegate
 (
 sExtensionManager
 .
