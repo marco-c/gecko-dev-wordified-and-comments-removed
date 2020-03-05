@@ -134,6 +134,10 @@ protocol
 PInputChannelThrottleQueue
 ;
 include
+protocol
+PBackground
+;
+include
 MemoryReportTypes
 ;
 include
@@ -487,6 +491,16 @@ uint64_t
 aExtraSizeData
 nsCString
 aExtraStringData
+)
+;
+async
+InitBackground
+(
+Endpoint
+<
+PBackgroundParent
+>
+aEndpoint
 )
 ;
 child

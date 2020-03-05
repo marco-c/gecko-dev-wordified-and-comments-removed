@@ -49,6 +49,9 @@ net
 class
 SocketProcessBridgeParent
 ;
+class
+SocketProcessParent
+;
 }
 namespace
 dom
@@ -134,6 +137,16 @@ net
 :
 :
 SocketProcessBridgeParent
+;
+friend
+class
+mozilla
+:
+:
+net
+:
+:
+SocketProcessParent
 ;
 public
 :
