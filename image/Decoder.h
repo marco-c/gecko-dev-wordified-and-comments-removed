@@ -1120,10 +1120,6 @@ DecoderTestHelper
 ;
 friend
 class
-nsBMPDecoder
-;
-friend
-class
 nsICODecoder
 ;
 friend
