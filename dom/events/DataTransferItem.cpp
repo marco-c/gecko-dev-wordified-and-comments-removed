@@ -1951,16 +1951,13 @@ return
 File
 :
 :
-CreateMemoryFile
+CreateMemoryFileWithLastModifiedNow
 (
 global
 data
 available
 fileName
 mType
-PR_Now
-(
-)
 )
 ;
 }
