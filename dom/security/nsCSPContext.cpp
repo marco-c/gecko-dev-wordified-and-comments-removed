@@ -7266,8 +7266,9 @@ CSPViolationReportListener
 CSPViolationReportListener
 (
 )
-{
-}
+=
+default
+;
 CSPViolationReportListener
 :
 :
@@ -7275,8 +7276,9 @@ CSPViolationReportListener
 CSPViolationReportListener
 (
 )
-{
-}
+=
+default
+;
 nsresult
 AppendSegmentToString
 (
@@ -7414,8 +7416,9 @@ CSPReportRedirectSink
 CSPReportRedirectSink
 (
 )
-{
-}
+=
+default
+;
 CSPReportRedirectSink
 :
 :
@@ -7423,8 +7426,9 @@ CSPReportRedirectSink
 CSPReportRedirectSink
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 CSPReportRedirectSink
 :

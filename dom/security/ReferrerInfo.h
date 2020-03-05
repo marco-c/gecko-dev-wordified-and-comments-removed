@@ -483,8 +483,9 @@ virtual
 ReferrerInfo
 (
 )
-{
-}
+=
+default
+;
 ReferrerInfo
 (
 const

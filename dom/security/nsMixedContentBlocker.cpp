@@ -932,8 +932,9 @@ nsMixedContentBlocker
 nsMixedContentBlocker
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsMixedContentBlocker

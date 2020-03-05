@@ -128,8 +128,9 @@ CSPService
 CSPService
 (
 )
-{
-}
+=
+default
+;
 CSPService
 :
 :
@@ -137,8 +138,9 @@ CSPService
 CSPService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 CSPService
