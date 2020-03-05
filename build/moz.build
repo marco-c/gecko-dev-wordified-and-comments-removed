@@ -286,6 +286,16 @@ fix_stack_using_bpsyms
 .
 py
 '
+'
+/
+tools
+/
+rb
+/
+fix_stacks
+.
+py
+'
 ]
 if
 CONFIG

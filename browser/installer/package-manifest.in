@@ -2472,6 +2472,11 @@ dmd
 py
 RESPATH
 /
+fix_stacks
+.
+py
+RESPATH
+/
 fix_stack_using_bpsyms
 .
 py
