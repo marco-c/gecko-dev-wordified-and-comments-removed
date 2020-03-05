@@ -1910,6 +1910,14 @@ id
 if
 (
 accWrap
+&
+&
+accWrap
+-
+>
+GetContent
+(
+)
 )
 nsCoreUtils
 :
