@@ -101,6 +101,13 @@ h
 #
 include
 "
+nsIThreadInternal
+.
+h
+"
+#
+include
+"
 nsITimer
 .
 h
@@ -237,6 +244,8 @@ GraphInterface
 public
 nsIMemoryReporter
 public
+nsIThreadObserver
+public
 nsITimerCallback
 public
 nsINamed
@@ -245,6 +254,7 @@ public
 :
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIMEMORYREPORTER
+NS_DECL_NSITHREADOBSERVER
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSINAMED
 explicit

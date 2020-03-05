@@ -1379,6 +1379,7 @@ Shutdown
 )
 override
 ;
+virtual
 void
 RunThread
 (
@@ -1590,6 +1591,12 @@ return
 this
 ;
 }
+void
+RunThread
+(
+)
+override
+;
 protected
 :
 TimeDuration
