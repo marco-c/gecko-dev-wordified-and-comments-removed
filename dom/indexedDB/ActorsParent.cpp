@@ -73306,7 +73306,7 @@ fileInfo
 mFileManager
 -
 >
-GetNewFileInfo
+CreateFileInfo
 (
 )
 ;
@@ -87277,7 +87277,7 @@ FileInfo
 FileManager
 :
 :
-GetNewFileInfo
+CreateFileInfo
 (
 )
 {
@@ -124233,7 +124233,7 @@ init
 fileManager
 -
 >
-GetNewFileInfo
+CreateFileInfo
 (
 )
 )
@@ -133597,7 +133597,7 @@ GetFileManager
 )
 -
 >
-GetNewFileInfo
+CreateFileInfo
 (
 )
 MakeRefPtr
