@@ -86,6 +86,17 @@ ClientInfo
 aInitialClientInfo
 )
 ;
+void
+CreateReservedSourceIfNeeded
+(
+nsIChannel
+*
+aChannel
+nsISerialEventTarget
+*
+aEventTarget
+)
+;
 }
 }
 #

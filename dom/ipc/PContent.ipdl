@@ -4633,9 +4633,6 @@ returns
 (
 nsresult
 rv
-LoadInfoArgs
-?
-arg
 )
 ;
 /
