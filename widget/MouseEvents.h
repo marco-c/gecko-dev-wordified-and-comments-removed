@@ -364,6 +364,10 @@ mInputSource
 (
 1
 )
+mHitCluster
+(
+false
+)
 {
 }
 WidgetMouseEventBase
@@ -401,6 +405,10 @@ mButtons
 mInputSource
 (
 1
+)
+mHitCluster
+(
+false
 )
 {
 }
@@ -455,6 +463,9 @@ mButtons
 ;
 uint16_t
 mInputSource
+;
+bool
+mHitCluster
 ;
 bool
 IsLeftButtonPressed
@@ -585,6 +596,12 @@ mPressure
 aEvent
 .
 mPressure
+;
+mHitCluster
+=
+aEvent
+.
+mHitCluster
 ;
 mInputSource
 =
