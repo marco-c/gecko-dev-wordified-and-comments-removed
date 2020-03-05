@@ -544,7 +544,7 @@ return
 mOwner
 ;
 }
-Element
+nsINode
 *
 GetRoot
 (
@@ -718,7 +718,7 @@ mCallback
 ;
 RefPtr
 <
-Element
+nsINode
 >
 mRoot
 ;

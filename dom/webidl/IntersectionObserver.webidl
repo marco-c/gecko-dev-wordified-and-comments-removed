@@ -227,7 +227,7 @@ Constant
 ]
 readonly
 attribute
-Element
+Node
 ?
 root
 ;
@@ -322,7 +322,11 @@ target
 dictionary
 IntersectionObserverInit
 {
+(
 Element
+or
+Document
+)
 ?
 root
 =
