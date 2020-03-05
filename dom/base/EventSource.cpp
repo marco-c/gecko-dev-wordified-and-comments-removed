@@ -1326,6 +1326,14 @@ IsShutDown
 return
 ;
 }
+RefPtr
+<
+EventSourceImpl
+>
+kungFuDeathGrip
+=
+this
+;
 if
 (
 NS_IsMainThread
