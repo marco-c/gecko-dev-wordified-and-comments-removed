@@ -83655,7 +83655,6 @@ the
 active
 window
 .
-static
 bool
 IsInActiveTab
 (

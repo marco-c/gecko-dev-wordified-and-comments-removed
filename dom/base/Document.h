@@ -13862,6 +13862,14 @@ mDoc
 ;
 }
 ;
+bool
+IsInActiveTab
+(
+Document
+*
+aDoc
+)
+;
 }
 }
 nsresult
