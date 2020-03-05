@@ -962,7 +962,6 @@ IDBObjectStore
 >
 CreateObjectStore
 (
-const
 indexedDB
 :
 :
