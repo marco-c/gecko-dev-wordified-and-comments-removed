@@ -383,7 +383,6 @@ cx
 GetErrorMessage
 nullptr
 errorNumber
-nullptr
 ArgumentsAreLatin1
 err
 *
@@ -608,7 +607,6 @@ js
 GetErrorMessage
 nullptr
 errorNumber
-nullptr
 argumentsType
 err
 *

@@ -3231,7 +3231,6 @@ cx
 GetErrorMessage
 nullptr
 JSMSG_UNCAUGHT_EXCEPTION
-nullptr
 ArgumentsAreUTF8
 &
 ownedReport
