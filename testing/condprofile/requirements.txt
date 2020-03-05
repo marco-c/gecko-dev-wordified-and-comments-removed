@@ -3,13 +3,13 @@
 mozfile
 .
 /
+mozlog
+.
+/
 mozprofile
 .
 /
 mozdevice
-.
-/
-mozlog
 aiohttp
 =
 =

@@ -83,7 +83,7 @@ mozinfo
 mozlog
 >
 =
-5
+6
 .
 0
 '
@@ -133,7 +133,7 @@ crash
 mozcrash
 >
 =
-1
+2
 .
 0
 '

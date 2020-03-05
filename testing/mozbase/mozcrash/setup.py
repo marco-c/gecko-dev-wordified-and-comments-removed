@@ -14,9 +14,9 @@ mozcrash
 PACKAGE_VERSION
 =
 '
-1
-.
 2
+.
+0
 .
 0
 '
@@ -36,7 +36,7 @@ mozfile
 mozlog
 >
 =
-5
+6
 .
 0
 '
