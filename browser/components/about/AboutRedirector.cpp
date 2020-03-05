@@ -378,7 +378,7 @@ content
 /
 aboutPrivateBrowsing
 .
-xhtml
+html
 "
 nsIAboutModule
 :
