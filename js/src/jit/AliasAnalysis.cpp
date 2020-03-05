@@ -1189,15 +1189,6 @@ MDefinition
 Opcode
 :
 :
-ArrayJoin
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 ArraySlice
 :
 case
