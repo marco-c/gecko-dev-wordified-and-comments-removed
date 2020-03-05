@@ -782,6 +782,11 @@ ResumeFromChrome
 (
 )
 ;
+void
+OfflineClose
+(
+)
+;
 already_AddRefed
 <
 AudioBufferSourceNode

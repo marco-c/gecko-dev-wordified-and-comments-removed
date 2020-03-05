@@ -1920,7 +1920,7 @@ Context
 context
 -
 >
-Shutdown
+OfflineClose
 (
 )
 ;
@@ -1998,6 +1998,13 @@ AudioContextState
 :
 :
 Closed
+)
+;
+mOfflineRenderingRef
+.
+Drop
+(
+this
 )
 ;
 }
