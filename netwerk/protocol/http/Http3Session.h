@@ -123,8 +123,6 @@ public
 nsAHttpSegmentReader
 public
 nsAHttpSegmentWriter
-public
-nsITimerCallback
 {
 public
 :
@@ -140,7 +138,6 @@ mConnection
 )
 NS_DECL_NSAHTTPSEGMENTREADER
 NS_DECL_NSAHTTPSEGMENTWRITER
-NS_DECL_NSITIMERCALLBACK
 Http3Session
 (
 )
@@ -452,6 +449,11 @@ int32_t
 aError
 )
 ;
+nsresult
+ProcessOutputAndEvents
+(
+)
+;
 private
 :
 ~
@@ -507,11 +509,6 @@ bool
 again
 )
 ;
-nsresult
-ProcessOutputAndEvents
-(
-)
-;
 void
 SetupTimer
 (
@@ -555,6 +552,11 @@ CallCertVerification
 ;
 void
 SetSecInfo
+(
+)
+;
+void
+MaybeResumeSend
 (
 )
 ;
