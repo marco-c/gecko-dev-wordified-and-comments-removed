@@ -5477,7 +5477,6 @@ nullptr
 ;
 for
 (
-const
 auto
 &
 objSpec
@@ -5515,15 +5514,8 @@ foundObjectStoreSpec
 ;
 foundObjectStoreSpec
 =
-const_cast
-<
-ObjectStoreSpec
-*
->
-(
 &
 objSpec
-)
 ;
 }
 if
