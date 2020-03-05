@@ -58,7 +58,7 @@ sSamplingThread
 ;
 private
 static
-SamplingThread
+SamplingRunnable
 sSamplingRunnable
 ;
 private
@@ -304,7 +304,7 @@ className
 private
 static
 class
-SamplingThread
+SamplingRunnable
 implements
 Runnable
 {
@@ -337,7 +337,7 @@ int
 mSamplePos
 ;
 public
-SamplingThread
+SamplingRunnable
 (
 final
 int
@@ -791,7 +791,7 @@ return
 sSamplingRunnable
 =
 new
-SamplingThread
+SamplingRunnable
 (
 aInterval
 aSamples
