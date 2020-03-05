@@ -3391,7 +3391,7 @@ document
 getElementById
 (
 "
-updateRadioGroup
+updateSettingsContainer
 "
 )
 .
