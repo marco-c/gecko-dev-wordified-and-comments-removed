@@ -2395,7 +2395,13 @@ SyncedBookmarksMirror
 .
 MergeConflictError
 (
-message
+"
+Local
+tree
+changed
+during
+merge
+"
 )
 )
 ;
