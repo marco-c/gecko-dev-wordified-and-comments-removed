@@ -104,7 +104,6 @@ cookies
 setCookieString
 (
 uri
-null
 "
 oh
 =
@@ -194,7 +193,6 @@ cookies
 setCookieString
 (
 uri
-null
 "
 oh2
 =
@@ -210,7 +208,6 @@ cookies
 setCookieStringFromHttp
 (
 uri
-null
 null
 "
 oh3

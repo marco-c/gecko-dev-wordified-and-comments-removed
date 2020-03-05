@@ -170,7 +170,6 @@ cookies
 setCookieString
 (
 uri1
-null
 "
 oh
 =
@@ -261,7 +260,6 @@ cookies
 setCookieString
 (
 uri2
-null
 "
 oh
 =
@@ -372,7 +370,6 @@ cookies
 setCookieString
 (
 uri2
-null
 "
 oh
 =
@@ -545,7 +542,6 @@ cookies
 setCookieString
 (
 uri2
-null
 "
 oh
 =

@@ -475,7 +475,6 @@ nsICookieService
 setCookieString
 (
 postRedirectURI
-null
 sentCookieVal
 chan
 )
