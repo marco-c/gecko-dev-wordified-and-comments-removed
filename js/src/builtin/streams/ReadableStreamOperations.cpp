@@ -2258,7 +2258,7 @@ return
 true
 ;
 }
-JSObject
+PromiseObject
 *
 js
 :
