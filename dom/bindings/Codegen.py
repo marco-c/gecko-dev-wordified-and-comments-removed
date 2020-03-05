@@ -58810,8 +58810,6 @@ extendedAttributes
         
 if
 isFallible
-or
-canOOM
 :
             
 args
@@ -58822,6 +58820,28 @@ CGGeneric
 (
 "
 rv
+"
+)
+)
+        
+elif
+canOOM
+:
+            
+args
+.
+append
+(
+CGGeneric
+(
+"
+OOMReporter
+:
+:
+From
+(
+rv
+)
 "
 )
 )
@@ -59238,28 +59258,6 @@ or
 canOOM
 :
             
-if
-isFallible
-:
-                
-reporterClass
-=
-"
-FastErrorResult
-"
-            
-else
-:
-                
-reporterClass
-=
-"
-binding_danger
-:
-:
-OOMReporterInstantiator
-"
-            
 self
 .
 cgRoot
@@ -59269,15 +59267,12 @@ prepend
 CGGeneric
 (
 "
-%
-s
+FastErrorResult
 rv
 ;
 \
 n
 "
-%
-reporterClass
 )
 )
             
