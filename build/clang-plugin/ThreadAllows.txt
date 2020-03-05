@@ -114,8 +114,6 @@ Thread
 Timer
 Thread
 ToastBgThread
-TRR
-Background
 URL
 Classifier
 Update
