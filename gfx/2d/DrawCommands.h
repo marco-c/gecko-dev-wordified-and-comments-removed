@@ -4570,8 +4570,9 @@ public
 PopClipCommand
 (
 )
-{
-}
+=
+default
+;
 CommandType
 GetType
 (
@@ -4676,8 +4677,9 @@ public
 PopLayerCommand
 (
 )
-{
-}
+=
+default
+;
 CommandType
 GetType
 (

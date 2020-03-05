@@ -121,8 +121,9 @@ BufferCache
 BufferCache
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 MLGBuffer

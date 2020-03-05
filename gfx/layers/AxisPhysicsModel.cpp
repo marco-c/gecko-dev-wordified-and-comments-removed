@@ -62,8 +62,9 @@ AxisPhysicsModel
 AxisPhysicsModel
 (
 )
-{
-}
+=
+default
+;
 double
 AxisPhysicsModel
 :

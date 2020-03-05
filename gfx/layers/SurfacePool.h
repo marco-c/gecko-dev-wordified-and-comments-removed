@@ -123,8 +123,9 @@ virtual
 SurfacePool
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -185,8 +186,9 @@ virtual
 SurfacePoolHandle
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

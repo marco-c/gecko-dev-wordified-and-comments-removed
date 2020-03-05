@@ -35,8 +35,9 @@ DrawingJobBuilder
 DrawingJobBuilder
 (
 )
-{
-}
+=
+default
+;
 DrawingJobBuilder
 :
 :

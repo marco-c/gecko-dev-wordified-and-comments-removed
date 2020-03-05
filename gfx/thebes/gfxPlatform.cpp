@@ -7772,8 +7772,9 @@ gfxPlatform
 gfxPlatform
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 DrawTarget

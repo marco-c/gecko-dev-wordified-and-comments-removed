@@ -854,8 +854,9 @@ KnowsCompositor
 KnowsCompositor
 (
 )
-{
-}
+=
+default
+;
 KnowsCompositorMediaProxy
 :
 :
@@ -897,8 +898,9 @@ KnowsCompositorMediaProxy
 KnowsCompositorMediaProxy
 (
 )
-{
-}
+=
+default
+;
 TextureForwarder
 *
 KnowsCompositorMediaProxy

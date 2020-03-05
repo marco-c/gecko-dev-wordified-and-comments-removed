@@ -68,8 +68,9 @@ SurfaceDescriptorX11
 SurfaceDescriptorX11
 (
 )
-{
-}
+=
+default
+;
 explicit
 SurfaceDescriptorX11
 (

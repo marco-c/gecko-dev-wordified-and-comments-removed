@@ -498,8 +498,9 @@ private
 MockWidget
 (
 )
-{
-}
+=
+default
+;
 int
 mCompWidth
 ;

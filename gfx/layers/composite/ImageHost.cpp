@@ -140,8 +140,9 @@ ImageHost
 ImageHost
 (
 )
-{
-}
+=
+default
+;
 void
 ImageHost
 :

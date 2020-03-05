@@ -38,8 +38,9 @@ nsIFontEnumerator
 nsThebesFontEnumerator
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsThebesFontEnumerator

@@ -62,8 +62,9 @@ VsyncBridgeChild
 VsyncBridgeChild
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 VsyncBridgeChild

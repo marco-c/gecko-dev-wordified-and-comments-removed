@@ -74,8 +74,8 @@ public
 X11DataTextureSourceBasic
 (
 )
-{
-}
+=
+default
 ;
 const
 char

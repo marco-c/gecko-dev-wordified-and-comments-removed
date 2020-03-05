@@ -448,8 +448,9 @@ ImageBridgeParent
 ImageBridgeParent
 (
 )
-{
-}
+=
+default
+;
 ImageBridgeParent
 *
 ImageBridgeParent

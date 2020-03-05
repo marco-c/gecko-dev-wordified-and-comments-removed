@@ -298,8 +298,9 @@ SourceSurfaceCapture
 SourceSurfaceCapture
 (
 )
-{
-}
+=
+default
+;
 void
 SourceSurfaceCapture
 :

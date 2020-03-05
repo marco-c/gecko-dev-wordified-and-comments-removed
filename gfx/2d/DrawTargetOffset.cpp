@@ -31,8 +31,9 @@ DrawTargetOffset
 DrawTargetOffset
 (
 )
-{
-}
+=
+default
+;
 bool
 DrawTargetOffset
 :

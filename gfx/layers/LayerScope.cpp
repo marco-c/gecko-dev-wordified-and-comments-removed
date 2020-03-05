@@ -576,8 +576,9 @@ NS_DECL_THREADSAFE_ISUPPORTS
 SocketListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 OnSocketAccepted
 (

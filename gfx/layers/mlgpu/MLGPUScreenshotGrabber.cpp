@@ -310,8 +310,9 @@ MLGPUScreenshotGrabber
 MLGPUScreenshotGrabber
 (
 )
-{
-}
+=
+default
+;
 void
 MLGPUScreenshotGrabber
 :

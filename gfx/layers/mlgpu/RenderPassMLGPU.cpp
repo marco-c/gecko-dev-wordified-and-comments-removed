@@ -844,8 +844,9 @@ RenderPassMLGPU
 RenderPassMLGPU
 (
 )
-{
-}
+=
+default
+;
 bool
 RenderPassMLGPU
 :

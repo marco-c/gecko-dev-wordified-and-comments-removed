@@ -665,8 +665,9 @@ protected
 ImageBackendData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1124,8 +1125,9 @@ Mutex
 BufferRecycleBin
 (
 )
-{
-}
+=
+default
+;
 Mutex
 mLock
 ;
@@ -1164,8 +1166,9 @@ ImageContainer
 ImageFactory
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 ImageFactory

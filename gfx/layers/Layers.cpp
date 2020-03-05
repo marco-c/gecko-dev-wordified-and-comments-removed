@@ -985,8 +985,9 @@ Layer
 Layer
 (
 )
-{
-}
+=
+default
+;
 void
 Layer
 :
@@ -4165,8 +4166,9 @@ ContainerLayer
 ContainerLayer
 (
 )
-{
-}
+=
+default
+;
 bool
 ContainerLayer
 :

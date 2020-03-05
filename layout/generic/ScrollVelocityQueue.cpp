@@ -275,9 +275,6 @@ MostRecentRefresh
 (
 )
 ;
-nsPoint
-velocity
-;
 uint32_t
 timeDelta
 =

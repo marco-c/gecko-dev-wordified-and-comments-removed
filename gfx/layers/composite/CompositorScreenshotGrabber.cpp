@@ -251,8 +251,9 @@ CompositorScreenshotGrabber
 CompositorScreenshotGrabber
 (
 )
-{
-}
+=
+default
+;
 CompositorScreenshotGrabber
 :
 :
@@ -260,8 +261,9 @@ CompositorScreenshotGrabber
 CompositorScreenshotGrabber
 (
 )
-{
-}
+=
+default
+;
 void
 CompositorScreenshotGrabber
 :

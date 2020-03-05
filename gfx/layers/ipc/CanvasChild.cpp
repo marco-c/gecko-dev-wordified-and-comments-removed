@@ -573,8 +573,9 @@ CanvasChild
 CanvasChild
 (
 )
-{
-}
+=
+default
+;
 ipc
 :
 :

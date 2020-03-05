@@ -174,8 +174,9 @@ NS_DECL_NSIOBSERVER
 ObserverToDestroyFeaturesAlreadyReported
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual

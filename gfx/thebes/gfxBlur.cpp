@@ -126,8 +126,9 @@ gfxAlphaBoxBlur
 gfxAlphaBoxBlur
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 gfxContext

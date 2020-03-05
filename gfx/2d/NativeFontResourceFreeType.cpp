@@ -72,8 +72,9 @@ NativeFontResourceFreeType
 NativeFontResourceFreeType
 (
 )
-{
-}
+=
+default
+;
 template
 <
 class

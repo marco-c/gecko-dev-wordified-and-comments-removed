@@ -1193,8 +1193,9 @@ Factory
 FilterNode
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

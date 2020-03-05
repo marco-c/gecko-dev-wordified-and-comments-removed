@@ -269,8 +269,9 @@ ImageKeyData
 ImageKeyData
 (
 )
-{
-}
+=
+default
+;
 void
 SharedSurfacesChild
 :

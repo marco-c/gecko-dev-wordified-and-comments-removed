@@ -667,8 +667,9 @@ RefLayerMLGPU
 RefLayerMLGPU
 (
 )
-{
-}
+=
+default
+;
 ColorLayerMLGPU
 :
 :
@@ -704,7 +705,8 @@ ColorLayerMLGPU
 ColorLayerMLGPU
 (
 )
-{
-}
+=
+default
+;
 }
 }

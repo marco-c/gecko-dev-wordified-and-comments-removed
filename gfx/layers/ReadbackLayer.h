@@ -104,8 +104,9 @@ public
 ReadbackSink
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 ReadbackSink

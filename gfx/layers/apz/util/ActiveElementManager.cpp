@@ -148,8 +148,9 @@ ActiveElementManager
 ActiveElementManager
 (
 )
-{
-}
+=
+default
+;
 void
 ActiveElementManager
 :

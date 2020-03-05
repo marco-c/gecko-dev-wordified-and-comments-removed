@@ -204,6 +204,11 @@ wr
 :
 DeviceIntRect
 aDirtyRect
+wr
+:
+:
+DeviceIntRect
+aValidRect
 )
 {
 RenderCompositor
@@ -228,6 +233,7 @@ aId
 aOffset
 aFboId
 aDirtyRect
+aValidRect
 )
 ;
 }
@@ -630,8 +636,9 @@ RenderCompositor
 RenderCompositor
 (
 )
-{
-}
+=
+default
+;
 bool
 RenderCompositor
 :

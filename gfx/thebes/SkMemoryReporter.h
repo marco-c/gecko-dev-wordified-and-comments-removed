@@ -47,8 +47,9 @@ private
 SkMemoryReporter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -606,8 +606,9 @@ protected
 GradientStops
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -3063,8 +3064,9 @@ protected
 UnscaledFont
 (
 )
-{
-}
+=
+default
+;
 private
 :
 static

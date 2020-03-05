@@ -740,8 +740,9 @@ public
 CompositableTextureRef
 (
 )
-{
-}
+=
+default
+;
 explicit
 CompositableTextureRef
 (

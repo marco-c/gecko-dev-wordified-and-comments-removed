@@ -245,8 +245,9 @@ VideoBridgeChild
 VideoBridgeChild
 (
 )
-{
-}
+=
+default
+;
 VideoBridgeChild
 *
 VideoBridgeChild

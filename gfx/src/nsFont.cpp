@@ -149,8 +149,9 @@ nsFont
 nsFont
 (
 )
-{
-}
+=
+default
+;
 bool
 nsFont
 :

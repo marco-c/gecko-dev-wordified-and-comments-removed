@@ -173,8 +173,9 @@ FrameBuilder
 FrameBuilder
 (
 )
-{
-}
+=
+default
+;
 bool
 FrameBuilder
 :

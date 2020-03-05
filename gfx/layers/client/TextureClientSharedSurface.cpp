@@ -115,8 +115,9 @@ SharedSurfaceTextureData
 SharedSurfaceTextureData
 (
 )
-{
-}
+=
+default
+;
 void
 SharedSurfaceTextureData
 :

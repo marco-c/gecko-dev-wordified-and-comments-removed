@@ -965,8 +965,9 @@ CompositorBridgeParentBase
 CompositorBridgeParentBase
 (
 )
-{
-}
+=
+default
+;
 ProcessId
 CompositorBridgeParentBase
 :

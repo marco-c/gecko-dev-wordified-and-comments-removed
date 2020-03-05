@@ -343,8 +343,9 @@ MLGDevice
 MLGDevice
 (
 )
-{
-}
+=
+default
+;
 bool
 MLGDevice
 :

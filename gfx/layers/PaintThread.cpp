@@ -201,8 +201,9 @@ PaintThread
 PaintThread
 (
 )
-{
-}
+=
+default
+;
 void
 PaintThread
 :

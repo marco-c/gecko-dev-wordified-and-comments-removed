@@ -190,8 +190,9 @@ RemoteContentController
 RemoteContentController
 (
 )
-{
-}
+=
+default
+;
 void
 RemoteContentController
 :

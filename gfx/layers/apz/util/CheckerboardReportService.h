@@ -122,8 +122,9 @@ private
 CheckerboardEventStorage
 (
 )
-{
-}
+=
+default
+;
 virtual
 ~
 CheckerboardEventStorage

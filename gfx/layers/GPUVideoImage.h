@@ -76,8 +76,8 @@ virtual
 IGPUVideoSurfaceManager
 (
 )
-{
-}
+=
+default
 ;
 public
 :

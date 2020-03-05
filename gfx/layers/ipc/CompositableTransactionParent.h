@@ -84,8 +84,9 @@ public
 CompositableParentManager
 (
 )
-{
-}
+=
+default
+;
 void
 DestroyActor
 (

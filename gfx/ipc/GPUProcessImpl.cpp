@@ -106,8 +106,9 @@ GPUProcessImpl
 GPUProcessImpl
 (
 )
-{
-}
+=
+default
+;
 bool
 GPUProcessImpl
 :

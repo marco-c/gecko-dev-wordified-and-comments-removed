@@ -503,8 +503,9 @@ AsyncCompositionManager
 AsyncCompositionManager
 (
 )
-{
-}
+=
+default
+;
 void
 AsyncCompositionManager
 :

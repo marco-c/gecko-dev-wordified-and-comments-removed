@@ -56,8 +56,9 @@ public
 MatrixMessage
 (
 )
-{
-}
+=
+default
+;
 MatrixMessage
 (
 const

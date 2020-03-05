@@ -413,8 +413,9 @@ LayerTransactionParent
 LayerTransactionParent
 (
 )
-{
-}
+=
+default
+;
 void
 LayerTransactionParent
 :

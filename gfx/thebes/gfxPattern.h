@@ -318,8 +318,9 @@ private
 gfxPattern
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

@@ -762,8 +762,9 @@ HostLayerManager
 HostLayerManager
 (
 )
-{
-}
+=
+default
+;
 void
 HostLayerManager
 :
@@ -8408,8 +8409,9 @@ LayerComposite
 LayerComposite
 (
 )
-{
-}
+=
+default
+;
 void
 LayerComposite
 :

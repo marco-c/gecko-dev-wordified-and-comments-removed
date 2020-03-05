@@ -383,8 +383,9 @@ aIsRootContent
 GeckoContentController
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Destroy

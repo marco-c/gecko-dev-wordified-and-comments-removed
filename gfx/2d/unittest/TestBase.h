@@ -110,8 +110,9 @@ public
 TestBase
 (
 )
-{
-}
+=
+default
+;
 typedef
 void
 (

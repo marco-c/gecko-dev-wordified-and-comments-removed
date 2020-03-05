@@ -190,8 +190,9 @@ ISurfaceAllocator
 ISurfaceAllocator
 (
 )
-{
-}
+=
+default
+;
 virtual
 mozilla
 :
@@ -357,8 +358,9 @@ public
 ClientIPCAllocator
 (
 )
-{
-}
+=
+default
+;
 ClientIPCAllocator
 *
 AsClientAllocator
@@ -415,8 +417,9 @@ public
 HostIPCAllocator
 (
 )
-{
-}
+=
+default
+;
 HostIPCAllocator
 *
 AsHostIPCAllocator
@@ -691,8 +694,9 @@ nsIMemoryReporter
 GfxMemoryImageReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

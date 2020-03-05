@@ -114,8 +114,9 @@ SharedSurfacesParent
 SharedSurfacesParent
 (
 )
-{
-}
+=
+default
+;
 SharedSurfacesParent
 :
 :

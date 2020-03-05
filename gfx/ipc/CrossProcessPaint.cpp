@@ -1385,8 +1385,9 @@ CrossProcessPaint
 CrossProcessPaint
 (
 )
-{
-}
+=
+default
+;
 static
 dom
 :

@@ -2523,8 +2523,9 @@ TextureSource
 TextureSource
 (
 )
-{
-}
+=
+default
+;
 BufferTextureHost
 :
 :
@@ -2718,8 +2719,9 @@ BufferTextureHost
 BufferTextureHost
 (
 )
-{
-}
+=
+default
+;
 void
 BufferTextureHost
 :

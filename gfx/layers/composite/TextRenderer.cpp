@@ -270,8 +270,9 @@ TextRenderer
 TextRenderer
 (
 )
-{
-}
+=
+default
+;
 TextRenderer
 :
 :

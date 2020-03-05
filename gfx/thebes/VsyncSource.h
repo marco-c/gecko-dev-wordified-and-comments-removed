@@ -335,8 +335,9 @@ aTime
 VsyncEvent
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

@@ -51,8 +51,9 @@ nsTransform2D
 (
 void
 )
-{
-}
+=
+default
+;
 void
 SetToTranslate
 (

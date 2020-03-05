@@ -1262,8 +1262,9 @@ UiCompositorControllerChild
 UiCompositorControllerChild
 (
 )
-{
-}
+=
+default
+;
 void
 UiCompositorControllerChild
 :

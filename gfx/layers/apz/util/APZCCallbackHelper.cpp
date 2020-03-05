@@ -3684,8 +3684,9 @@ DisplayportSetListener
 DisplayportSetListener
 (
 )
-{
-}
+=
+default
+;
 bool
 DisplayportSetListener
 :

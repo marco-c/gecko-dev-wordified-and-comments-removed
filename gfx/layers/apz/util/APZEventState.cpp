@@ -650,8 +650,9 @@ APZEventState
 APZEventState
 (
 )
-{
-}
+=
+default
+;
 class
 DelayedFireSingleTapEvent
 final
@@ -805,8 +806,9 @@ private
 DelayedFireSingleTapEvent
 (
 )
-{
-}
+=
+default
+;
 nsWeakPtr
 mWidget
 ;

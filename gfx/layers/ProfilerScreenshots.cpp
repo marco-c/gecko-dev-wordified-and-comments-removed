@@ -107,8 +107,9 @@ ProfilerScreenshots
 ProfilerScreenshots
 (
 )
-{
-}
+=
+default
+;
 bool
 ProfilerScreenshots
 :

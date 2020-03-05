@@ -164,8 +164,9 @@ BezierControlPoints
 BezierControlPoints
 (
 )
-{
-}
+=
+default
+;
 BezierControlPoints
 (
 const
@@ -232,8 +233,9 @@ Path
 Path
 (
 )
-{
-}
+=
+default
+;
 Path
 :
 :
@@ -241,8 +243,9 @@ Path
 Path
 (
 )
-{
-}
+=
+default
+;
 Float
 Path
 :

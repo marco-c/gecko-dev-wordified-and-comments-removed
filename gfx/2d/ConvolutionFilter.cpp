@@ -101,8 +101,9 @@ ConvolutionFilter
 ConvolutionFilter
 (
 )
-{
-}
+=
+default
+;
 int32_t
 ConvolutionFilter
 :

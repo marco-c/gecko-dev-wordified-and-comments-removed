@@ -914,8 +914,8 @@ virtual
 DrawEventRecorderMemory
 (
 )
-{
-}
+=
+default
 ;
 private
 :

@@ -225,8 +225,9 @@ public
 TileHost
 (
 )
-{
-}
+=
+default
+;
 TileHost
 (
 TextureReadLock
