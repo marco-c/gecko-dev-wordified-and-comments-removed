@@ -2863,7 +2863,6 @@ nsIFrame
 :
 AddXULMinSize
 (
-aState
 box
 cssSize
 widthSet

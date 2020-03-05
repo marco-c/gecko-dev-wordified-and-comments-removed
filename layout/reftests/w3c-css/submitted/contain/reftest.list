@@ -1002,12 +1002,6 @@ html
 #
 bug
 1480862
-fails
--
-if
-(
-Android
-)
 =
 =
 contain
@@ -1034,9 +1028,6 @@ elem
 ref
 .
 html
-#
-bug
-1588212
 =
 =
 contain
