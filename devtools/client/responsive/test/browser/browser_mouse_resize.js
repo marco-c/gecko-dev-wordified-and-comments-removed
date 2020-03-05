@@ -156,5 +156,13 @@ ui
 )
 ;
 }
+{
+usingBrowserUI
+:
+true
+waitForDeviceList
+:
+true
+}
 )
 ;

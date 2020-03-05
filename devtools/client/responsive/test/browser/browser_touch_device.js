@@ -119,7 +119,6 @@ function
 (
 {
 ui
-manager
 }
 )
 {
@@ -179,6 +178,14 @@ reloadOnTouchChange
 false
 )
 ;
+}
+{
+usingBrowserUI
+:
+true
+waitForDeviceList
+:
+true
 }
 )
 ;

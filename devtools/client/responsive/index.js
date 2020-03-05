@@ -948,6 +948,9 @@ browser
 ;
 if
 (
+browser
+&
+&
 !
 browser
 .
