@@ -75,13 +75,11 @@ openNewBrowserWindow
 (
 )
 ;
-Services
+window2
 .
 focus
-.
-activeWindow
-=
-window2
+(
+)
 ;
 await
 promiseWaitForFocus

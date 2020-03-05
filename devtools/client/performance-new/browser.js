@@ -383,13 +383,11 @@ win
 .
 gBrowser
 ;
-Services
+win
 .
 focus
-.
-activeWindow
-=
-win
+(
+)
 ;
 const
 baseUrl
