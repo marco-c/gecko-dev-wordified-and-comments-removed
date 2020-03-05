@@ -1094,7 +1094,6 @@ inflation
 lineThreshold
 0
 )
-fails
 =
 =
 input
@@ -1220,7 +1219,6 @@ inflation
 lineThreshold
 0
 )
-fails
 =
 =
 input
@@ -1346,7 +1344,6 @@ inflation
 lineThreshold
 0
 )
-fails
 =
 =
 input
@@ -5276,7 +5273,6 @@ inflation
 lineThreshold
 100
 )
-fails
 =
 =
 threshold
@@ -5361,7 +5357,6 @@ inflation
 lineThreshold
 100
 )
-fails
 =
 =
 threshold
