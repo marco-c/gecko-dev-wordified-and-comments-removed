@@ -3928,6 +3928,8 @@ sessionRule
 .
 session
 .
+webExtensionController
+.
 setMessageDelegate
 (
 webExtension
@@ -5721,6 +5723,8 @@ sessionRule
 .
 session
 .
+webExtensionController
+.
 setMessageDelegate
 (
 messaging
@@ -5923,6 +5927,8 @@ extension
 )
 )
 mainSession
+.
+webExtensionController
 .
 setMessageDelegate
 (

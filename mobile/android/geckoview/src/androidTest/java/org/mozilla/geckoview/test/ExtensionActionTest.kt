@@ -398,6 +398,8 @@ sessionRule
 .
 session
 .
+webExtensionController
+.
 setMessageDelegate
 (
 extension
@@ -1080,7 +1082,9 @@ sessionRule
 .
 session
 .
-setWebExtensionActionDelegate
+webExtensionController
+.
+setActionDelegate
 (
 extension
 !
@@ -1093,7 +1097,9 @@ sessionRule
 .
 session
 .
-setWebExtensionActionDelegate
+webExtensionController
+.
+setActionDelegate
 (
 extension
 !
@@ -3279,7 +3285,9 @@ sessionRule
 .
 session
 .
-setWebExtensionActionDelegate
+webExtensionController
+.
+setActionDelegate
 (
 extension
 !
