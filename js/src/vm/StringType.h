@@ -177,6 +177,7 @@ namespace
 JS
 {
 class
+JS_FRIEND_API
 AutoStableStringChars
 ;
 }
