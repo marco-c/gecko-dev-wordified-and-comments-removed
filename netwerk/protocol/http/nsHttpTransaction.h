@@ -1248,9 +1248,6 @@ mTunnelProvider
 TransactionObserverFunc
 mTransactionObserver
 ;
-TransactionObserverResult
-mTransactionObserverResult
-;
 NetAddr
 mSelfAddr
 ;
