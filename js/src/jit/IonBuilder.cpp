@@ -3006,7 +3006,7 @@ if
 target
 -
 >
-hasScript
+hasBytecode
 (
 )
 )
@@ -28447,7 +28447,7 @@ MOZ_ASSERT
 target
 -
 >
-hasScript
+hasBytecode
 (
 )
 )
@@ -37386,7 +37386,7 @@ if
 target
 -
 >
-hasScript
+hasBytecode
 (
 )
 )
@@ -37754,7 +37754,7 @@ target
 target
 -
 >
-hasScript
+hasBytecode
 (
 )
 )
@@ -43098,7 +43098,7 @@ if
 target
 -
 >
-hasScript
+hasBytecode
 (
 )
 )

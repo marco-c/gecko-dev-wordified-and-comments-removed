@@ -190,7 +190,7 @@ if
 fun
 -
 >
-hasScript
+hasBytecode
 (
 )
 )

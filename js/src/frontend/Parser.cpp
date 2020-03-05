@@ -13253,16 +13253,6 @@ setIsSelfHostedBuiltin
 (
 )
 ;
-MOZ_ASSERT
-(
-fun
--
->
-hasScript
-(
-)
-)
-;
 }
 if
 (
