@@ -5340,6 +5340,15 @@ method
 AnyThread
 public
 void
+reload
+(
+int
+)
+;
+method
+AnyThread
+public
+void
 restoreState
 (
 NonNull
