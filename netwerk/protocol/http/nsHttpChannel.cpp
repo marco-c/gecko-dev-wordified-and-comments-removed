@@ -55788,6 +55788,10 @@ MaybeReportTimingData
 (
 )
 ;
+MaybeFlushConsoleReports
+(
+)
+;
 #
 ifdef
 MOZ_GECKO_PROFILER

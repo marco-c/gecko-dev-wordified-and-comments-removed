@@ -989,6 +989,10 @@ TimeStamp
 lastActiveTabOptimization
 nsHttpHeaderArray
 responseTrailers
+ConsoleReportCollected
+[
+]
+consoleReport
 )
 ;
 /
