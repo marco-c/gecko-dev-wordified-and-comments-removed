@@ -400,6 +400,7 @@ return
 mEffect
 ;
 }
+virtual
 void
 SetEffect
 (
