@@ -219,6 +219,12 @@ baselines
 ref
 .
 html
+fails
+-
+if
+(
+cocoaWidget
+)
 =
 =
 overflow
@@ -229,6 +235,9 @@ overflow
 ref
 .
 html
+#
+bug
+1620120
 #
 button
 element
