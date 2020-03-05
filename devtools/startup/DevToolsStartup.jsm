@@ -2235,6 +2235,12 @@ AppConstants
 NIGHTLY_BUILD
 )
 ;
+this
+.
+initializeProfilerWebChannel
+(
+)
+;
 if
 (
 !
@@ -2244,12 +2250,6 @@ isPopupFeatureFlagEnabled
 return
 ;
 }
-this
-.
-initializeProfilerWebChannel
-(
-)
-;
 if
 (
 isProfilerButtonEnabled
