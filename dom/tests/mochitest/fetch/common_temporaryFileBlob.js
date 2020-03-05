@@ -129,7 +129,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 "
@@ -346,7 +346,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 "
@@ -511,7 +511,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 "
@@ -694,7 +694,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 "

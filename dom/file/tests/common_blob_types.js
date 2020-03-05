@@ -356,7 +356,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 }

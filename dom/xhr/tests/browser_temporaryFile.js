@@ -376,7 +376,7 @@ blobImplType
 "
 StreamBlobImpl
 [
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 ]
 "
 "
@@ -386,7 +386,7 @@ a
 StreamBlobImpl
 holding
 a
-TemporaryBlobImpl
+TemporaryFileBlobImpl
 on
 the
 parent

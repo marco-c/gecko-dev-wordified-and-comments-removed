@@ -324,7 +324,6 @@ GetFileId
 =
 0
 ;
-virtual
 nsresult
 GetSendInfo
 (
@@ -342,8 +341,6 @@ nsACString
 &
 aCharset
 )
-=
-0
 ;
 virtual
 void
