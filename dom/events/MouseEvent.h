@@ -348,12 +348,6 @@ MozPressure
 )
 const
 ;
-bool
-HitCluster
-(
-)
-const
-;
 uint16_t
 MozInputSource
 (
