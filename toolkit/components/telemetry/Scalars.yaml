@@ -15589,12 +15589,15 @@ bug_numbers
 :
 -
 1614777
+-
+1619954
 description
 :
 >
 Records
-KBs
-has
+bytes
+that
+have
 been
 transferred
 for
