@@ -2304,7 +2304,7 @@ Selection
 MaybeAddTableCellRange
 (
 nsRange
-*
+&
 aRange
 bool
 *
@@ -2323,9 +2323,11 @@ aDidAddRange
 !
 aOutIndex
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 *
 aDidAddRange
 =
@@ -2345,14 +2347,6 @@ mFrameSelection
 return
 NS_OK
 ;
-if
-(
-!
-aRange
-)
-return
-NS_ERROR_NULL_POINTER
-;
 nsresult
 result
 ;
@@ -2367,6 +2361,7 @@ result
 =
 GetTableCellLocationFromRange
 (
+&
 aRange
 &
 tableMode
@@ -2444,6 +2439,7 @@ true
 return
 AddRangesForSelectableNodes
 (
+&
 aRange
 aOutIndex
 )
@@ -8780,6 +8776,7 @@ result
 =
 MaybeAddTableCellRange
 (
+*
 range
 &
 didAddRange
