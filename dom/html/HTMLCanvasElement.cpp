@@ -4378,7 +4378,7 @@ file
 File
 :
 :
-CreateMemoryFileWithLastModifiedNow
+CreateMemoryFile
 (
 win
 -
@@ -4390,6 +4390,9 @@ imgData
 imgSize
 aName
 type
+PR_Now
+(
+)
 )
 ;
 if

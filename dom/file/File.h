@@ -64,16 +64,11 @@ already_AddRefed
 <
 File
 >
-CreateMemoryFileWithLastModifiedNow
+Create
 (
 nsIGlobalObject
 *
 aGlobal
-void
-*
-aMemoryBuffer
-uint64_t
-aLength
 const
 nsAString
 &
@@ -82,6 +77,10 @@ const
 nsAString
 &
 aContentType
+uint64_t
+aLength
+int64_t
+aLastModifiedDate
 )
 ;
 static
@@ -89,7 +88,7 @@ already_AddRefed
 <
 File
 >
-CreateMemoryFileWithCustomLastModified
+CreateMemoryFile
 (
 nsIGlobalObject
 *
