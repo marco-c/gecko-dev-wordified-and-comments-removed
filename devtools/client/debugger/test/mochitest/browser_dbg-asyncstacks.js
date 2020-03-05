@@ -16,7 +16,7 @@ features
 .
 async
 -
-live
+captured
 -
 stacks
 "
@@ -93,7 +93,7 @@ frame
 .
 innerText
 "
-await
+async
 \
 nmain
 \
