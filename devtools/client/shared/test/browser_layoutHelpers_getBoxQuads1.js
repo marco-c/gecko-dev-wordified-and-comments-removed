@@ -9,9 +9,7 @@ TEST_URI
 TEST_URI_ROOT
 +
 "
-doc_layoutHelpers
--
-getBoxQuads
+doc_layoutHelpers_getBoxQuads1
 .
 html
 "
