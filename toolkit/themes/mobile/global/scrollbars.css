@@ -160,9 +160,7 @@ moz
 -
 appearance
 :
-scrollbarthumb
--
-vertical
+none
 !
 important
 ;
@@ -226,9 +224,7 @@ moz
 -
 appearance
 :
-scrollbarthumb
--
-horizontal
+none
 !
 important
 ;
