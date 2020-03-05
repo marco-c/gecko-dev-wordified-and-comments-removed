@@ -595,7 +595,7 @@ Create
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;

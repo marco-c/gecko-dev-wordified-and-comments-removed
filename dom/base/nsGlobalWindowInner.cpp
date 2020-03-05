@@ -20425,7 +20425,7 @@ net
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;

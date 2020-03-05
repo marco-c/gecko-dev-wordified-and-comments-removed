@@ -10059,7 +10059,7 @@ cookieJarSettings
 CookieJarSettings
 :
 :
-CreateBlockingAll
+GetBlockingAll
 (
 )
 ;
