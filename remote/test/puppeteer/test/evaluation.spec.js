@@ -126,7 +126,7 @@ toBe
 (
 bigint
 ?
-it_fails_ffox
+it
 :
 xit
 )
@@ -1430,7 +1430,7 @@ object
 (
 bigint
 ?
-it_fails_ffox
+it
 :
 xit
 )
@@ -1932,7 +1932,7 @@ undefined
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2188,7 +2188,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2270,7 +2270,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2384,7 +2384,7 @@ disposed
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2504,7 +2504,7 @@ created
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2693,7 +2693,7 @@ navigation
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2783,7 +2783,7 @@ toEqual
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2951,7 +2951,7 @@ promise
 }
 )
 ;
-describe_fails_ffox
+describe
 (
 '
 Page
@@ -3207,7 +3207,7 @@ function
 (
 )
 {
-it_fails_ffox
+it
 (
 '
 should
@@ -3381,7 +3381,7 @@ bar
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
