@@ -478,6 +478,7 @@ TimeDuration
 aNewStartTime
 )
 ;
+virtual
 void
 SetStartTimeAsDouble
 (
@@ -668,7 +669,6 @@ ErrorResult
 aRv
 )
 ;
-virtual
 void
 Play
 (
@@ -698,7 +698,6 @@ AutoRewind
 )
 ;
 }
-virtual
 void
 Pause
 (
@@ -707,6 +706,7 @@ ErrorResult
 aRv
 )
 ;
+virtual
 void
 PauseFromJS
 (
@@ -728,6 +728,7 @@ double
 aPlaybackRate
 )
 ;
+virtual
 void
 Reverse
 (
