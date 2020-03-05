@@ -1225,7 +1225,7 @@ normalWS
 nsresult
 rv
 =
-ReplacePreviousNBSPIfUnncessary
+ReplacePreviousNBSPIfUnnecessary
 (
 beforeRun
 pointToInsert
@@ -1571,7 +1571,7 @@ normalWS
 nsresult
 rv
 =
-ReplacePreviousNBSPIfUnncessary
+ReplacePreviousNBSPIfUnnecessary
 (
 beforeRun
 pointToInsert
@@ -8979,7 +8979,7 @@ nsresult
 WSRunObject
 :
 :
-ReplacePreviousNBSPIfUnncessary
+ReplacePreviousNBSPIfUnnecessary
 (
 WSFragment
 *
@@ -9041,6 +9041,14 @@ if
 atPreviousChar
 .
 IsSet
+(
+)
+&
+&
+!
+atPreviousChar
+.
+IsEndOfContainer
 (
 )
 &
