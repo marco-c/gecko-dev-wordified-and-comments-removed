@@ -436,8 +436,9 @@ Performance
 Performance
 (
 )
-{
-}
+=
+default
+;
 DOMHighResTimeStamp
 Performance
 :
@@ -2393,8 +2394,9 @@ private
 NotifyObserversTask
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 Performance

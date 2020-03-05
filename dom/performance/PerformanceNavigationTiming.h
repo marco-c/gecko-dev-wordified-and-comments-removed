@@ -246,8 +246,9 @@ private
 PerformanceNavigationTiming
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

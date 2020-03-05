@@ -78,8 +78,9 @@ PerformanceMeasure
 PerformanceMeasure
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PerformanceMeasure

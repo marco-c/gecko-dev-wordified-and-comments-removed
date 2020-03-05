@@ -157,8 +157,9 @@ PerformanceResourceTiming
 PerformanceResourceTiming
 (
 )
-{
-}
+=
+default
+;
 DOMHighResTimeStamp
 PerformanceResourceTiming
 :

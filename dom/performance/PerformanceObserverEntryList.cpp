@@ -83,8 +83,9 @@ PerformanceObserverEntryList
 PerformanceObserverEntryList
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PerformanceObserverEntryList
