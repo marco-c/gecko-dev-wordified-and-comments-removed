@@ -311,8 +311,9 @@ ProcessingInstruction
 ProcessingInstruction
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_INHERITED0
 (
 ProcessingInstruction

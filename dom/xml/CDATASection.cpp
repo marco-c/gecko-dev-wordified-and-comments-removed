@@ -42,8 +42,9 @@ CDATASection
 CDATASection
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 CDATASection

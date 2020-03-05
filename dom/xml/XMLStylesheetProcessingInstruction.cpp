@@ -75,8 +75,9 @@ XMLStylesheetProcessingInstruction
 XMLStylesheetProcessingInstruction
 (
 )
-{
-}
+=
+default
+;
 nsresult
 XMLStylesheetProcessingInstruction
 :
