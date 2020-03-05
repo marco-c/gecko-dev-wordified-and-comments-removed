@@ -691,6 +691,11 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
+showEvaluationSelector
+:
+PropTypes
+.
+bool
 }
 ;
 }
@@ -1421,6 +1426,7 @@ dispatch
 reverseSearchInputVisible
 serviceContainer
 webConsoleUI
+showEvaluationSelector
 }
 =
 this
@@ -1444,6 +1450,7 @@ editorMode
 dispatch
 reverseSearchInputVisible
 serviceContainer
+showEvaluationSelector
 webConsoleUI
 }
 )
@@ -2116,6 +2123,13 @@ state
 prefs
 .
 autocomplete
+showEvaluationSelector
+:
+state
+.
+ui
+.
+showEvaluationSelector
 }
 )
 ;

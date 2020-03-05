@@ -727,6 +727,13 @@ getLabel
 className
 :
 "
+webconsole
+-
+evaluation
+-
+selector
+-
+button
 devtools
 -
 button
