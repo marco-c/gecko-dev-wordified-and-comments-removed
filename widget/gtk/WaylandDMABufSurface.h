@@ -944,6 +944,10 @@ void
 *
 mMappedRegion
 ;
+void
+*
+mMappedRegionData
+;
 uint32_t
 mMappedRegionStride
 ;
