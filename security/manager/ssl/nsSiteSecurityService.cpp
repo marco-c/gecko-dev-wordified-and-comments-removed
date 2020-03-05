@@ -170,6 +170,13 @@ h
 #
 include
 "
+nsNSSCertificateDB
+.
+h
+"
+#
+include
+"
 nsNSSComponent
 .
 h
