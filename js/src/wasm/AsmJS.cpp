@@ -7046,7 +7046,7 @@ cx_
 FunctionFlags
 :
 :
-INTERPRETED
+BASESCRIPT
 nullptr
 nullptr
 gc

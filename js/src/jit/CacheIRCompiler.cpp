@@ -17804,7 +17804,7 @@ Imm32
 FunctionFlags
 :
 :
-INTERPRETED_LAZY
+SELFHOSTLAZY
 |
 FunctionFlags
 :
