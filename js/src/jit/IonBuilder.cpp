@@ -16620,12 +16620,6 @@ JSOp
 :
 PushVarEnv
 :
-case
-JSOp
-:
-:
-PopVarEnv
-:
 /
 /
 Compound
