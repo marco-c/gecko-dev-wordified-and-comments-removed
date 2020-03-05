@@ -11606,9 +11606,6 @@ bool
 bounds
 '
 '
-enum
-'
-'
 integer
 -
 divide
