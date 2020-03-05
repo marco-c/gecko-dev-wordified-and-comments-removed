@@ -776,6 +776,7 @@ aAnimation
 )
 override
 ;
+virtual
 void
 SetKeyframes
 (
