@@ -32,12 +32,10 @@ true
 }
 )
 ;
-const
+let
 gShouldObserveSubframes
 =
-SpecialPowers
-.
-useRemoteSubframes
+false
 ;
 var
 gTests
@@ -2531,6 +2529,12 @@ test_outofprocess
 (
 )
 {
+gShouldObserveSubframes
+=
+SpecialPowers
+.
+useRemoteSubframes
+;
 let
 observeSubFrameIds
 =
