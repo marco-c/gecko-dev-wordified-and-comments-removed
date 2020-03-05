@@ -7,8 +7,6 @@ imp
 import
 os
 import
-six
-import
 sys
 from
 six
@@ -626,11 +624,10 @@ config_path
 for
 paths
 in
-six
+test_paths
 .
 itervalues
 (
-test_paths
 )
 :
         
@@ -873,11 +870,10 @@ test_paths
 for
 paths
 in
-six
+test_paths
 .
 itervalues
 (
-test_paths
 )
 :
         
@@ -1268,7 +1264,7 @@ open
 (
 dest_config_path
 '
-wt
+wb
 '
 )
 as
@@ -1335,11 +1331,10 @@ for
 url_base
 paths
 in
-six
+test_paths
 .
 iteritems
 (
-test_paths
 )
 :
         

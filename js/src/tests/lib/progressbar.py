@@ -21,7 +21,6 @@ win
 :
     
 from
-.
 terminal_win
 import
 Terminal
@@ -29,7 +28,6 @@ else
 :
     
 from
-.
 terminal_unix
 import
 Terminal
