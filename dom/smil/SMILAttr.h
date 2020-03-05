@@ -115,8 +115,9 @@ virtual
 SMILAttr
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

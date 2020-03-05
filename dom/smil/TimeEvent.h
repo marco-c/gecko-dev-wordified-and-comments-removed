@@ -196,8 +196,9 @@ private
 TimeEvent
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsPIDOMWindowOuter
