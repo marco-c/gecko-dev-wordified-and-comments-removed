@@ -136,8 +136,9 @@ virtual
 ThreadSharedObject
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

@@ -136,8 +136,9 @@ FlacFrameParser
 FlacFrameParser
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 FlacFrameParser
 :

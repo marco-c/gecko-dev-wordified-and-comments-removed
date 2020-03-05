@@ -36,8 +36,9 @@ DummyDataCreator
 DummyDataCreator
 (
 )
-{
-}
+=
+default
+;
 DummyMediaDataDecoder
 :
 :

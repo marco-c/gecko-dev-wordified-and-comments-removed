@@ -654,8 +654,9 @@ virtual
 Chunk
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

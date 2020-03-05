@@ -288,8 +288,8 @@ virtual
 GMPVideoEncoderParent
 (
 )
-{
-}
+=
+default
 ;
 void
 ActorDestroy

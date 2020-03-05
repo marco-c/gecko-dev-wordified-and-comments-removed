@@ -602,8 +602,9 @@ virtual
 MediaStreamTrackSource
 (
 )
-{
-}
+=
+default
+;
 bool
 IsActive
 (
@@ -1001,8 +1002,9 @@ protected
 BasicTrackSource
 (
 )
-{
-}
+=
+default
+;
 const
 MediaSourceEnum
 mMediaSource

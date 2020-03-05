@@ -186,8 +186,9 @@ public
 RemoteDecoderManagerThreadHolder
 (
 )
-{
-}
+=
+default
+;
 private
 :
 ~

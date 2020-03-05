@@ -1669,8 +1669,9 @@ mDecodedNAL
 SPSNAL
 (
 )
-{
-}
+=
+default
+;
 bool
 IsValid
 (

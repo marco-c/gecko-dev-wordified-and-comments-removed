@@ -1473,8 +1473,9 @@ virtual
 MediaData
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1682,8 +1683,9 @@ protected
 AudioData
 (
 )
-{
-}
+=
+default
+;
 private
 :
 AudioDataValue
@@ -2711,8 +2713,9 @@ private
 MediaByteBuffer
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

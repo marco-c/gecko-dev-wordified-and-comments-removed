@@ -317,8 +317,9 @@ MediaKeySystemAccess
 MediaKeySystemAccess
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 MediaKeySystemAccess

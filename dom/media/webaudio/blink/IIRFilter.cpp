@@ -119,8 +119,9 @@ IIRFilter
 IIRFilter
 (
 )
-{
-}
+=
+default
+;
 void
 IIRFilter
 :

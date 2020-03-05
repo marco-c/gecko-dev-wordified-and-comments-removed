@@ -134,8 +134,9 @@ explicit
 GMPCapability
 (
 )
-{
-}
+=
+default
+;
 GMPCapability
 (
 GMPCapability

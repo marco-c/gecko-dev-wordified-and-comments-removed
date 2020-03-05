@@ -339,8 +339,9 @@ AudioBufferMemoryTracker
 AudioBufferMemoryTracker
 (
 )
-{
-}
+=
+default
+;
 void
 AudioBufferMemoryTracker
 :

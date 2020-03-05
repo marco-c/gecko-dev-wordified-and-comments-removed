@@ -753,8 +753,9 @@ private
 WAVTrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 media
 :
 :

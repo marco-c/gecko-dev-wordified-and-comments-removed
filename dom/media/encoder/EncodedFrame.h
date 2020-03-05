@@ -202,8 +202,9 @@ private
 EncodedFrame
 (
 )
-{
-}
+=
+default
+;
 nsTArray
 <
 uint8_t

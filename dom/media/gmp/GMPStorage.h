@@ -139,8 +139,9 @@ virtual
 GMPStorage
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 already_AddRefed

@@ -732,8 +732,9 @@ ConstantSourceNode
 ConstantSourceNode
 (
 )
-{
-}
+=
+default
+;
 size_t
 ConstantSourceNode
 :

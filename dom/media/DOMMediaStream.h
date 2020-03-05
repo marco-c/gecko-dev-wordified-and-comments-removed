@@ -186,8 +186,9 @@ virtual
 TrackListener
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 NotifyTrackAdded

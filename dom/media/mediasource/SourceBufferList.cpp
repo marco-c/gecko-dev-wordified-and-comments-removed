@@ -205,8 +205,9 @@ SourceBufferList
 SourceBufferList
 (
 )
-{
-}
+=
+default
+;
 SourceBuffer
 *
 SourceBufferList

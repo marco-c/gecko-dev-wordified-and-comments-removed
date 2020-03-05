@@ -61,8 +61,9 @@ virtual
 PEMFactory
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 PlatformEncoderModule

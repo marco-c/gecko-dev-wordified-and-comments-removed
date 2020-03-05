@@ -164,8 +164,9 @@ TextTrackList
 TextTrackList
 (
 )
-{
-}
+=
+default
+;
 void
 TextTrackList
 :

@@ -594,8 +594,9 @@ private
 SpeechDispatcherVoice
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -647,8 +648,9 @@ private
 SpeechDispatcherCallback
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsISpeechTask

@@ -139,8 +139,9 @@ virtual
 MediaResourceCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

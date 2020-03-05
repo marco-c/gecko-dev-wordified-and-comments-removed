@@ -165,8 +165,9 @@ private
 GMPRecordImpl
 (
 )
-{
-}
+=
+default
+;
 const
 nsCString
 mName
@@ -291,8 +292,9 @@ protected
 GMPStorageChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

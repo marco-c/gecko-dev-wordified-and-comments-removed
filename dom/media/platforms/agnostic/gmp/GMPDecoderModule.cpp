@@ -109,8 +109,9 @@ GMPDecoderModule
 GMPDecoderModule
 (
 )
-{
-}
+=
+default
+;
 GMPDecoderModule
 :
 :
@@ -118,8 +119,9 @@ GMPDecoderModule
 GMPDecoderModule
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <

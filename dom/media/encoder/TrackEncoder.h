@@ -100,8 +100,9 @@ virtual
 TrackEncoderListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

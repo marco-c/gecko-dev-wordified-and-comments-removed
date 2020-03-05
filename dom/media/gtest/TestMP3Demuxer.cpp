@@ -106,8 +106,9 @@ virtual
 MockMP3MediaResource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -156,8 +157,9 @@ virtual
 MockMP3StreamMediaResource
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct

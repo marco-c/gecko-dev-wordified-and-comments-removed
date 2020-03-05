@@ -238,8 +238,9 @@ virtual
 RefcountableBase
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
@@ -361,8 +362,9 @@ T
 >
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template
@@ -429,8 +431,9 @@ T
 >
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 RefPtr
@@ -512,8 +515,9 @@ virtual
 ShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 private
 :
 const

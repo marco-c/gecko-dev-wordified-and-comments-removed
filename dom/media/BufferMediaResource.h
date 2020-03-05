@@ -76,8 +76,9 @@ virtual
 BufferMediaResource
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsresult

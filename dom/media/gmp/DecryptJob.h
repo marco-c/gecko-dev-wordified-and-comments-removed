@@ -86,8 +86,9 @@ private
 DecryptJob
 (
 )
-{
-}
+=
+default
+;
 MozPromiseHolder
 <
 DecryptPromise

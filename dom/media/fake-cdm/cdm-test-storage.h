@@ -89,8 +89,9 @@ virtual
 ReadContinuation
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 operator
@@ -253,8 +254,9 @@ virtual
 OpenContinuation
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 operator

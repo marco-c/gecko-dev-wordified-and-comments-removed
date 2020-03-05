@@ -75,8 +75,9 @@ virtual
 SandboxStarter
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Start
@@ -101,8 +102,9 @@ virtual
 GMPAdapter
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetAdaptee

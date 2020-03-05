@@ -395,8 +395,9 @@ public
 MediaCodecs
 (
 )
-{
-}
+=
+default
+;
 explicit
 MediaCodecs
 (

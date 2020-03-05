@@ -400,8 +400,9 @@ aPath
 DirectoryFilter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 void

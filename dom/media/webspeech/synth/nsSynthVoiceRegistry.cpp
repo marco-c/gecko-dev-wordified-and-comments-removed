@@ -381,8 +381,9 @@ private
 VoiceData
 (
 )
-{
-}
+=
+default
+;
 public
 :
 VoiceData
@@ -471,8 +472,9 @@ private
 GlobalQueueItem
 (
 )
-{
-}
+=
+default
+;
 public
 :
 GlobalQueueItem

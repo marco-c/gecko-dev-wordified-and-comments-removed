@@ -7724,8 +7724,9 @@ MediaMemoryTracker
 MediaMemoryTracker
 (
 )
-{
-}
+=
+default
+;
 void
 MediaMemoryTracker
 :

@@ -433,8 +433,9 @@ private
 FrameStatistics
 (
 )
-{
-}
+=
+default
+;
 mutable
 ReentrantMonitor
 mReentrantMonitor

@@ -115,8 +115,9 @@ VideoFrame
 VideoFrame
 (
 )
-{
-}
+=
+default
+;
 void
 VideoFrame
 :
@@ -695,6 +696,7 @@ VideoSegment
 VideoSegment
 (
 )
-{
-}
+=
+default
+;
 }

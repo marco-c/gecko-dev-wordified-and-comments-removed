@@ -79,8 +79,9 @@ mStream
 CloneableWithRangeMediaResource
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Open
 (

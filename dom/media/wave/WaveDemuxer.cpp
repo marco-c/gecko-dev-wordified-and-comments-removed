@@ -3984,8 +3984,9 @@ DataParser
 DataParser
 (
 )
-{
-}
+=
+default
+;
 void
 DataParser
 :

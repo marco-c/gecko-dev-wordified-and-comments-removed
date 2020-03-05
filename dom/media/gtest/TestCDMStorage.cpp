@@ -600,8 +600,9 @@ virtual
 GMPShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -956,8 +957,9 @@ virtual
 ClearCDMStorageTask
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIRunnable
@@ -5147,8 +5149,9 @@ private
 CDMStorageTest
 (
 )
-{
-}
+=
+default
+;
 struct
 ExpectedMessage
 {

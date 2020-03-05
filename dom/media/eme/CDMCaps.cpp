@@ -39,8 +39,9 @@ CDMCaps
 CDMCaps
 (
 )
-{
-}
+=
+default
+;
 CDMCaps
 :
 :
@@ -48,8 +49,9 @@ CDMCaps
 CDMCaps
 (
 )
-{
-}
+=
+default
+;
 static
 bool
 IsUsableStatus

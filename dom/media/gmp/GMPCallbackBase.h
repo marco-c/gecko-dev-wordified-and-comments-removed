@@ -14,8 +14,9 @@ virtual
 GMPCallbackBase
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Terminated

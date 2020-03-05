@@ -165,8 +165,9 @@ virtual
 MediaEncoderListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

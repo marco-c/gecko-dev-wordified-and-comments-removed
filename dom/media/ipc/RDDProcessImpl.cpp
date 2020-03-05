@@ -75,8 +75,9 @@ RDDProcessImpl
 RDDProcessImpl
 (
 )
-{
-}
+=
+default
+;
 bool
 RDDProcessImpl
 :

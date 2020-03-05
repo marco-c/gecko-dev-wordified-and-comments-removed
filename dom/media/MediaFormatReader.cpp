@@ -2973,8 +2973,9 @@ private
 Data
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 RefPtr

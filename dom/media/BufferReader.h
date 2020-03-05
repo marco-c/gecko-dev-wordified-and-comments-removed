@@ -325,8 +325,9 @@ mRemaining
 BufferReader
 (
 )
-{
-}
+=
+default
+;
 size_t
 Offset
 (

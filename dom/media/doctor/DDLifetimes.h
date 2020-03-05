@@ -445,8 +445,9 @@ mValue
 DDLogObjectHashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (

@@ -42,8 +42,9 @@ MediaSystemResourceManagerChild
 MediaSystemResourceManagerChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

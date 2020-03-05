@@ -58,8 +58,9 @@ QueueObject
 QueueObject
 (
 )
-{
-}
+=
+default
+;
 void
 QueueObject
 :

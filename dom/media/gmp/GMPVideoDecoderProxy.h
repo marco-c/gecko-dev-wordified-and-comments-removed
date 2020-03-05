@@ -77,8 +77,9 @@ virtual
 GMPVideoDecoderCallbackProxy
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

@@ -220,8 +220,9 @@ mSig
 HostFileData
 (
 )
-{
-}
+=
+default
+;
 HostFile
 mBinary
 ;

@@ -169,8 +169,9 @@ TextTrackCueList
 TextTrackCueList
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 TextTrackCueList

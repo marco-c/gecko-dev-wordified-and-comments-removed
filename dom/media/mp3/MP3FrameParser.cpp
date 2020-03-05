@@ -172,8 +172,9 @@ FrameParser
 FrameParser
 (
 )
-{
-}
+=
+default
+;
 void
 FrameParser
 :

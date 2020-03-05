@@ -1323,8 +1323,9 @@ MediaChangeMonitor
 MediaChangeMonitor
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 MediaDataDecoder

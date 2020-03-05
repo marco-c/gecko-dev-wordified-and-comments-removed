@@ -59,8 +59,9 @@ virtual
 TrackMetadataBase
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

@@ -195,8 +195,9 @@ virtual
 OmxPlatformLayer
 (
 )
-{
-}
+=
+default
+;
 OMX_U32
 InputPortIndex
 (

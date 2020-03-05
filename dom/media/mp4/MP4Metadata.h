@@ -167,8 +167,9 @@ mOffset
 StreamAdaptor
 (
 )
-{
-}
+=
+default
+;
 bool
 Read
 (

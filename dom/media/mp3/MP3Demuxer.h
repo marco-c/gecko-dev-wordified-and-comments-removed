@@ -326,8 +326,9 @@ private
 MP3TrackDemuxer
 (
 )
-{
-}
+=
+default
+;
 media
 :
 :

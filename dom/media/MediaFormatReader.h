@@ -1222,8 +1222,9 @@ private
 SharedShutdownPromiseHolder
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct

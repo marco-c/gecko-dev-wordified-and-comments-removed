@@ -342,8 +342,9 @@ SpeechSynthesis
 SpeechSynthesis
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 SpeechSynthesis

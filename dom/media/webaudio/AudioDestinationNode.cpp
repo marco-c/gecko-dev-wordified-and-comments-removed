@@ -1544,8 +1544,9 @@ AudioDestinationNode
 AudioDestinationNode
 (
 )
-{
-}
+=
+default
+;
 size_t
 AudioDestinationNode
 :

@@ -54,8 +54,9 @@ aData
 ByteWriter
 (
 )
-{
-}
+=
+default
+;
 MOZ_MUST_USE
 bool
 WriteU8

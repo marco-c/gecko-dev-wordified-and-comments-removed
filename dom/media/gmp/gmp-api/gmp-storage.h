@@ -82,8 +82,9 @@ virtual
 GMPRecord
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -132,8 +133,9 @@ virtual
 GMPRecordClient
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

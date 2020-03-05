@@ -306,8 +306,9 @@ virtual
 TestStream
 (
 )
-{
-}
+=
+default
+;
 const
 uint8_t
 *

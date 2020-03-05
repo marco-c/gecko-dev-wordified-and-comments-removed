@@ -133,8 +133,9 @@ virtual
 CaptureTask
 (
 )
-{
-}
+=
+default
+;
 void
 PostTrackEndEvent
 (

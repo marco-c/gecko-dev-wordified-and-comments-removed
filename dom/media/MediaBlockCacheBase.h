@@ -91,8 +91,9 @@ virtual
 MediaBlockCacheBase
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual

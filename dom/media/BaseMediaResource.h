@@ -328,8 +328,9 @@ virtual
 BaseMediaResource
 (
 )
-{
-}
+=
+default
+;
 void
 ModifyLoadFlags
 (

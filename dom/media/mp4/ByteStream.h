@@ -121,8 +121,9 @@ virtual
 ByteStream
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

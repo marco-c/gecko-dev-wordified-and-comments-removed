@@ -42,8 +42,9 @@ AudioSinkWrapper
 AudioSinkWrapper
 (
 )
-{
-}
+=
+default
+;
 void
 AudioSinkWrapper
 :

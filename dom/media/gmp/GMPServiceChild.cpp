@@ -2367,8 +2367,9 @@ GMPServiceChild
 GMPServiceChild
 (
 )
-{
-}
+=
+default
+;
 GMPServiceChild
 :
 :
@@ -2376,8 +2377,9 @@ GMPServiceChild
 GMPServiceChild
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 GMPContentParent

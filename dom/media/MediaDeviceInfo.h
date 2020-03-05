@@ -186,8 +186,9 @@ virtual
 MediaDeviceInfo
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR

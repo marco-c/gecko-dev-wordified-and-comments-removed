@@ -897,8 +897,9 @@ SystemClockDriver
 SystemClockDriver
 (
 )
-{
-}
+=
+default
+;
 void
 ThreadedDriver
 :
@@ -1574,8 +1575,9 @@ OfflineClockDriver
 OfflineClockDriver
 (
 )
-{
-}
+=
+default
+;
 void
 OfflineClockDriver
 :
@@ -1706,8 +1708,9 @@ AsyncCubebTask
 AsyncCubebTask
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 AsyncCubebTask
 :

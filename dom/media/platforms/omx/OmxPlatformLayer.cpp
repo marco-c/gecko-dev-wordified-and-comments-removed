@@ -128,8 +128,9 @@ virtual
 OmxConfig
 (
 )
-{
-}
+=
+default
+;
 virtual
 OMX_ERRORTYPE
 Apply

@@ -485,8 +485,9 @@ virtual
 TimerDriver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 const
@@ -571,8 +572,9 @@ virtual
 AutoDriver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_CYCLE_COLLECTION_INHERITED

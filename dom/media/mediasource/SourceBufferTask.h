@@ -160,8 +160,9 @@ virtual
 SourceBufferTask
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

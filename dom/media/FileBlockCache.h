@@ -390,8 +390,9 @@ private
 BlockChange
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 private

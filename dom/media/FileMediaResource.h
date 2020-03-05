@@ -81,8 +81,9 @@ aSize
 FileMediaResource
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Open
 (

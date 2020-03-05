@@ -216,7 +216,13 @@ pssh
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 psshInfo
+)
 )
 ;
 }

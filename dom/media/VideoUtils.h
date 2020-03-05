@@ -379,8 +379,9 @@ aThread
 ShutdownThreadEvent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -1112,8 +1113,9 @@ virtual
 SimpleTimer
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (

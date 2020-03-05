@@ -887,8 +887,9 @@ virtual
 MP4DemuxerBinding
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 TEST

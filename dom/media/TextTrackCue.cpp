@@ -458,8 +458,9 @@ TextTrackCue
 TextTrackCue
 (
 )
-{
-}
+=
+default
+;
 nsresult
 TextTrackCue
 :

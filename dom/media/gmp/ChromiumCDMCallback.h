@@ -65,8 +65,9 @@ virtual
 ChromiumCDMCallback
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetSessionId

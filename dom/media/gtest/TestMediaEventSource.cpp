@@ -1678,8 +1678,9 @@ private
 RefCounter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 TEST

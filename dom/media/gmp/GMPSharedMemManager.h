@@ -99,8 +99,9 @@ virtual
 GMPSharedMem
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 CheckThread
@@ -165,8 +166,9 @@ virtual
 GMPSharedMemManager
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 MgrAllocShmem

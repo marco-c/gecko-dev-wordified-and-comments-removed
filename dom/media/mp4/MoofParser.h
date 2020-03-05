@@ -779,8 +779,9 @@ public
 CencSampleEncryptionInfoEntry
 (
 )
-{
-}
+=
+default
+;
 Result
 <
 Ok

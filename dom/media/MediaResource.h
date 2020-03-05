@@ -260,8 +260,8 @@ virtual
 MediaResource
 (
 )
-{
-}
+=
+default
 ;
 private
 :

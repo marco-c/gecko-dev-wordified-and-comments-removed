@@ -97,8 +97,9 @@ GMPTestRunner
 GMPTestRunner
 (
 )
-{
-}
+=
+default
+;
 void
 DoTest
 (
@@ -178,8 +179,9 @@ private
 GMPTestRunner
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template

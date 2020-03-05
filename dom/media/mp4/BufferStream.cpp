@@ -78,8 +78,9 @@ BufferStream
 BufferStream
 (
 )
-{
-}
+=
+default
+;
 bool
 BufferStream
 :

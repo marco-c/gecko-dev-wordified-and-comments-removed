@@ -294,8 +294,9 @@ private
 RTCCertificate
 (
 )
-{
-}
+=
+default
+;
 void
 operator
 =
