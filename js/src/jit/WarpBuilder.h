@@ -206,6 +206,16 @@ InitLexical
 \
 _
 (
+GetArg
+)
+\
+_
+(
+SetArg
+)
+\
+_
+(
 ToNumeric
 )
 \
