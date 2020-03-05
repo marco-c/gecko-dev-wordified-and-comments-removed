@@ -107,12 +107,7 @@ MockGraphInterface
 public
 GraphInterface
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-MockGraphInterface
-override
-)
-;
+NS_DECL_THREADSAFE_ISUPPORTS
 MOCK_METHOD4
 (
 NotifyOutputData
@@ -245,6 +240,10 @@ default
 ;
 }
 ;
+NS_IMPL_ISUPPORTS0
+(
+MockGraphInterface
+)
 TEST
 (
 TestAudioCallbackDriver

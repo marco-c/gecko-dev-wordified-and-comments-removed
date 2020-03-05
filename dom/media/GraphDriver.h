@@ -214,6 +214,9 @@ AudioContextOperation
 }
 struct
 GraphInterface
+:
+public
+nsISupports
 {
 class
 IterationResult
@@ -795,7 +798,6 @@ Switched
 }
 }
 ;
-NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 void
 NotifyOutputData
