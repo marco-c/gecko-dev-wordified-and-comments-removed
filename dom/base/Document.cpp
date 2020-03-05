@@ -15143,6 +15143,13 @@ HasChildren
 )
 )
 {
+nsMutationGuard
+:
+:
+DidMutate
+(
+)
+;
 nsCOMPtr
 <
 nsIContent
