@@ -428,6 +428,14 @@ netwerk
 /
 base
 '
+'
+/
+netwerk
+/
+protocol
+/
+http
+'
 ]
 USE_LIBS
 +
