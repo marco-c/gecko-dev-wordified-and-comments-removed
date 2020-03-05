@@ -1827,6 +1827,7 @@ exports
 =
 {
 allAnonymousContentTreeWalkerFilter
+isWhitespaceTextNode
 findGridParentContainerForNode
 getBackgroundColor
 getClosestBackgroundColor
