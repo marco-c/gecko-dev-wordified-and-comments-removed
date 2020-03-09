@@ -86,12 +86,6 @@ aContentType
 :
 BaseBlobImpl
 (
-NS_LITERAL_STRING
-(
-"
-StringBlobImpl
-"
-)
 aContentType
 aData
 .
