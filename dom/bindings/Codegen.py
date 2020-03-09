@@ -50150,6 +50150,11 @@ cx
 {
 val
 }
+"
+{
+sourceDescription
+}
+"
 &
 {
 writeLoc
@@ -50180,6 +50185,13 @@ typeName
 conversionBehavior
 =
 conversionBehavior
+                
+sourceDescription
+=
+firstCap
+(
+sourceDescription
+)
                 
 writeLoc
 =
@@ -50245,6 +50257,11 @@ cx
 {
 val
 }
+"
+{
+sourceDescription
+}
+"
 &
 {
 writeLoc
@@ -50271,6 +50288,13 @@ typeName
 conversionBehavior
 =
 conversionBehavior
+            
+sourceDescription
+=
+firstCap
+(
+sourceDescription
+)
             
 writeLoc
 =
