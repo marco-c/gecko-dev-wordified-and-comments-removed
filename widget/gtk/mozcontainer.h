@@ -182,6 +182,9 @@ gboolean
 opaque_region_subtract_corners
 ;
 gboolean
+opaque_region_fullscreen
+;
+gboolean
 surface_position_needs_update
 ;
 gboolean
@@ -380,6 +383,8 @@ MozContainer
 container
 bool
 aSubtractCorners
+bool
+aFullScreen
 )
 ;
 void
