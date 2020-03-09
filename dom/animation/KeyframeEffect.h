@@ -685,7 +685,6 @@ GetKeyframes
 (
 JSContext
 *
-&
 aCx
 nsTArray
 <
