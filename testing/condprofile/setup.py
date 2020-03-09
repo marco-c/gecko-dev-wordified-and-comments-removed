@@ -39,7 +39,7 @@ creator
 =
 condprof
 .
-runner
+main
 :
 main
       

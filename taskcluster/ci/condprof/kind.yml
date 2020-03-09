@@ -308,7 +308,7 @@ python3
 exe
 condprof
 /
-runner
+main
 .
 py
 -
@@ -509,7 +509,7 @@ python3
 7
 condprof
 /
-runner
+main
 .
 py
 -
@@ -702,7 +702,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
@@ -964,7 +964,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
@@ -1263,7 +1263,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
@@ -1558,7 +1558,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
@@ -1824,7 +1824,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
@@ -2115,7 +2115,7 @@ bin
 python3
 condprof
 /
-runner
+main
 .
 py
 -
