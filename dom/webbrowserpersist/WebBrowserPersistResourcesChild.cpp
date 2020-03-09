@@ -26,8 +26,9 @@ WebBrowserPersistResourcesChild
 WebBrowserPersistResourcesChild
 (
 )
-{
-}
+=
+default
+;
 WebBrowserPersistResourcesChild
 :
 :
