@@ -175,7 +175,7 @@ bin
 isysroot
 %
 (
-abs_src_dir
+abs_work_dir
 )
 s
 /
@@ -247,7 +247,7 @@ bin
 isysroot
 %
 (
-abs_src_dir
+abs_work_dir
 )
 s
 /
