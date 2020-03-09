@@ -425,10 +425,6 @@ tooltip
 "
 aHTMLTooltip
 "
-context
-=
-"
-"
 >
 <
 html
