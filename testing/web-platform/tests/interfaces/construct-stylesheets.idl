@@ -124,6 +124,7 @@ false
 ;
 partial
 interface
+mixin
 DocumentOrShadowRoot
 {
 attribute
