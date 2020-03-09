@@ -437,6 +437,10 @@ Point
 aCenter
 Float
 aAngle
+Float
+aStartOffset
+Float
+aEndOffset
 GradientStops
 *
 aStops
@@ -470,6 +474,8 @@ ConicGradientPattern
 (
 aCenter
 aAngle
+aStartOffset
+aEndOffset
 aStops
 aMatrix
 )

@@ -648,6 +648,12 @@ mCenter
 Float
 mAngle
 ;
+Float
+mStartOffset
+;
+Float
+mEndOffset
+;
 ReferencePtr
 mStops
 ;
