@@ -1321,8 +1321,9 @@ aPromise
 WorkletFetchHandler
 (
 )
-{
-}
+=
+default
+;
 void
 AddPromise
 (
