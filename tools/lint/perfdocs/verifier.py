@@ -686,7 +686,7 @@ tests
 ]
                 
 for
-mnf_pth
+test_name
 in
 ytests
 :
@@ -738,7 +738,7 @@ tb
 )
                         
 if
-mnf_pth
+test_name
 =
 =
 tb
@@ -751,7 +751,7 @@ True
 break
                         
 if
-mnf_pth
+test_name
 in
 tb
 :
@@ -763,7 +763,7 @@ suite
 .
 append
 (
-mnf_pth
+test_name
 )
                             
 foundtest
@@ -802,7 +802,7 @@ name
 format
 (
                                 
-mnf_pth
+test_name
                             
 )
                             
@@ -856,7 +856,7 @@ yml_path
         
 for
 suite
-manifest_paths
+test_list
 in
 framework_info
 [
@@ -957,9 +957,14 @@ test_to_manifest
 }
             
 for
-mnf_pth
+test_name
+manifest_path
 in
-manifest_paths
+test_list
+.
+items
+(
+)
 :
                 
 tb
@@ -970,7 +975,7 @@ path
 .
 basename
 (
-mnf_pth
+manifest_path
 )
                 
 tb
@@ -1002,7 +1007,7 @@ stests
 .
 get
 (
-mnf_pth
+test_name
 )
 :
                     
@@ -1015,16 +1020,16 @@ continue
                 
 test_to_manifest
 [
-tb
+test_name
 ]
 =
-mnf_pth
+manifest_path
                 
 missing_tests
 .
 append
 (
-tb
+test_name
 )
             
 new_mtests
@@ -1043,7 +1048,7 @@ found
 False
                 
 for
-mnf_pth
+test_name
 in
 global_descriptions
 [
@@ -1052,7 +1057,22 @@ suite
 :
                     
 if
-mnf_pth
+mt
+.
+startswith
+(
+test_name
+)
+:
+                        
+found
+=
+True
+                        
+break
+                    
+if
+test_name
 in
 mt
 :
@@ -1083,7 +1103,7 @@ new_mtests
 :
                 
 for
-mnf_pth
+test_name
 in
 new_mtests
 :
@@ -1107,17 +1127,15 @@ for
 .
 format
 (
-mnf_pth
+test_name
 )
                         
 test_to_manifest
 [
-mnf_pth
+test_name
 ]
                     
 )
-                
-continue
     
 def
 validate_yaml
@@ -1741,6 +1759,41 @@ matched_rst
             
 }
             
+for
+file_format
+valid
+in
+_valid_files
+.
+items
+(
+)
+:
+                
+if
+not
+valid
+:
+                    
+logger
+.
+log
+(
+"
+File
+validation
+error
+:
+{
+}
+"
+.
+format
+(
+file_format
+)
+)
+            
 if
 not
 all
@@ -1752,31 +1805,6 @@ values
 )
 )
 :
-                
-logger
-.
-log
-(
-"
-Bad
-perfdocs
-directory
-found
-in
-{
-}
-"
-.
-format
-(
-matched
-[
-'
-path
-'
-]
-)
-)
                 
 continue
             
