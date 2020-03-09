@@ -327,7 +327,7 @@ PendingRequest
 RejectPromiseWithTypeError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )
@@ -810,7 +810,6 @@ mPromise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 Browsing
 context
@@ -1869,7 +1868,6 @@ mPromise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 Key
 system
@@ -1902,7 +1900,6 @@ mPromise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 Candidate
 MediaKeySystemConfigs

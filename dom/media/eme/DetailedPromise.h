@@ -321,7 +321,7 @@ void
 MaybeRejectWithTypeError
 (
 const
-nsAString
+nsACString
 &
 aMessage
 )
@@ -345,10 +345,7 @@ move
 (
 res
 )
-NS_ConvertUTF16toUTF8
-(
 aMessage
-)
 )
 ;
 }
@@ -361,7 +358,7 @@ void
 MaybeRejectWithTypeError
 (
 const
-char16_t
+char
 (
 &
 aMessage
@@ -373,7 +370,7 @@ N
 {
 MaybeRejectWithTypeError
 (
-nsLiteralString
+nsLiteralCString
 (
 aMessage
 )
@@ -409,7 +406,7 @@ void
 MaybeRejectWithRangeError
 (
 const
-nsAString
+nsACString
 &
 aMessage
 )
@@ -433,10 +430,7 @@ move
 (
 res
 )
-NS_ConvertUTF16toUTF8
-(
 aMessage
-)
 )
 ;
 }
@@ -449,7 +443,7 @@ void
 MaybeRejectWithRangeError
 (
 const
-char16_t
+char
 (
 &
 aMessage
@@ -461,7 +455,7 @@ N
 {
 MaybeRejectWithRangeError
 (
-nsLiteralString
+nsLiteralCString
 (
 aMessage
 )

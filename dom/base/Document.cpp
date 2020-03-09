@@ -80506,7 +80506,6 @@ change
 >
 MayRejectPromise
 (
-u
 "
 Document
 is
@@ -82076,7 +82075,6 @@ aExit
 >
 MayRejectPromise
 (
-u
 "
 No
 active
@@ -82108,7 +82106,6 @@ aExit
 >
 MayRejectPromise
 (
-u
 "
 Not
 in
@@ -84699,7 +84696,6 @@ aRequest
 .
 MayRejectPromise
 (
-u
 "
 An
 unexpected
@@ -85112,7 +85108,6 @@ aRequest
 >
 MayRejectPromise
 (
-u
 "
 No
 active
@@ -85544,7 +85539,6 @@ request
 >
 MayRejectPromise
 (
-u
 "
 Fullscreen
 request

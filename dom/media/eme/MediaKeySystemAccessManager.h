@@ -209,7 +209,7 @@ void
 RejectPromiseWithTypeError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )

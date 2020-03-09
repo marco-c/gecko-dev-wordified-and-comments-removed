@@ -708,7 +708,6 @@ mPromise
 >
 MaybeRejectWithTypeError
 (
-u
 "
 CacheStorage
 .
