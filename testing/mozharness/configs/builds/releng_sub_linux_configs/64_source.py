@@ -66,6 +66,18 @@ LC_ALL
 '
 C
 '
+        
+'
+MOZ_OBJDIR
+'
+:
+'
+%
+(
+abs_obj_dir
+)
+s
+'
     
 }
     
