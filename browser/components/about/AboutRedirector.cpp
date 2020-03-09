@@ -356,7 +356,7 @@ policies
 /
 aboutPolicies
 .
-xhtml
+html
 "
 nsIAboutModule
 :
