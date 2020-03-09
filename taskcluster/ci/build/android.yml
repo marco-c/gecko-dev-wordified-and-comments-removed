@@ -768,6 +768,14 @@ clang
 linux64
 -
 sccache
+optimization
+:
+fuzzing
+-
+builds
+:
+-
+android
 android
 -
 x86
@@ -3609,3 +3617,11 @@ cross
 linux64
 -
 sccache
+optimization
+:
+fuzzing
+-
+builds
+:
+-
+android
