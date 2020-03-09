@@ -1793,7 +1793,7 @@ generate
 the
 JSON
 files
-containg
+containing
 coverage
 information
 locally

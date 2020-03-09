@@ -105,7 +105,7 @@ The
 normal
 entrypoint
 is
-throught
+through
 nsIURILoader
 :
 :
