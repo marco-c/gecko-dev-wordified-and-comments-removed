@@ -300,8 +300,9 @@ nsDeviceSensorData
 nsDeviceSensorData
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsDeviceSensorData
 :
