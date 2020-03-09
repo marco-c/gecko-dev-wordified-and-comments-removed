@@ -2339,6 +2339,11 @@ if
 channel
 .
 loadInfo
+&
+&
+channel
+.
+loadInfo
 .
 externalContentPolicyType
 =
@@ -2415,6 +2420,11 @@ url
 }
 if
 (
+channel
+.
+loadInfo
+&
+&
 channel
 .
 loadInfo
