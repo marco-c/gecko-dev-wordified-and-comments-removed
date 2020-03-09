@@ -58,6 +58,15 @@ BackgroundParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+Unused
+.
+h
+"
 extern
 mozilla
 :
@@ -419,6 +428,11 @@ NS_SUCCEEDED
 nrv
 )
 )
+;
+Unused
+<
+<
+nrv
 ;
 }
 }
