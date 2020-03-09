@@ -157,6 +157,17 @@ self
 .
 path
 )
+and
+os
+.
+path
+.
+isdir
+(
+self
+.
+lib_path
+)
     
 property
     
