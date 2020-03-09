@@ -541,6 +541,7 @@ aCell
 ;
 public
 :
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 RemoveCellsFromSelection
 (
@@ -557,6 +558,7 @@ int32_t
 aEndColumnIndex
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 RestrictCellsToSelection
 (
@@ -1567,6 +1569,7 @@ Selection
 aNormalSelection
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SelectBlockOfCells
 (
@@ -1604,7 +1607,7 @@ Selection
 aNormalSelection
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 UnselectCells
 (
