@@ -245,6 +245,11 @@ CHILD_PROCESSES_ONLY
 '
 CHILD_PROCESSES_ONLY
 '
+BROWSER_PROCESS_ONLY
+=
+'
+BROWSER_PROCESS_ONLY
+'
 SUBSTITUTE_LSP_PASSTHROUGH
 =
 '
@@ -1928,6 +1933,14 @@ flagspec
 {
                         
 '
+BROWSER_PROCESS
+'
+:
+{
+BROWSER_PROCESS_ONLY
+}
+                        
+'
 CHILD_PROCESSES
 '
 :
@@ -1946,6 +1959,14 @@ ALL_DEFINITION_LISTS
 flagspec
 =
 {
+                        
+'
+BROWSER_PROCESS
+'
+:
+{
+BROWSER_PROCESS_ONLY
+}
                         
 '
 CHILD_PROCESSES
