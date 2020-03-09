@@ -125,6 +125,11 @@ button
 -
 label
 "
+message_id
+:
+"
+START_BROWSING_BUTTON
+"
 action
 :
 {
