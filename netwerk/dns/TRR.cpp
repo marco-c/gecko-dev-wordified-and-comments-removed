@@ -1041,7 +1041,7 @@ return
 gHttpHandler
 -
 >
-CreateSimpleHttpChannel
+CreateTRRServiceChannel
 (
 aUri
 nullptr
