@@ -443,7 +443,7 @@ evt
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
