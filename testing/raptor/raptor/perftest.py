@@ -1924,23 +1924,6 @@ as
 e
 :
                     
-self
-.
-check_for_crashes
-(
-)
-                    
-if
-self
-.
-runner
-.
-crashed
-=
-=
-0
-:
-                        
 LOG
 .
 critical
@@ -1957,7 +1940,7 @@ out
 .
 "
 )
-                        
+                    
 LOG
 .
 error
