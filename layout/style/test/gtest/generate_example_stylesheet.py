@@ -12,7 +12,7 @@ open
 (
 stylesheet
 '
-rb
+r
 '
 )
 .
