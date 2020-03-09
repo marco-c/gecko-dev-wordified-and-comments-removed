@@ -9764,6 +9764,13 @@ data_
 )
 ;
 }
+inline
+JSScript
+*
+asJSScript
+(
+)
+;
 static
 constexpr
 size_t

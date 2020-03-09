@@ -5305,13 +5305,11 @@ bytecode
 )
 ;
 return
-static_cast
-<
-JSScript
-*
->
-(
 script
+-
+>
+asJSScript
+(
 )
 ;
 }
