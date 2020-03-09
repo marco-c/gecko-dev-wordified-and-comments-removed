@@ -908,9 +908,6 @@ gen_histogram_enum
 .
 py
 '
-py2
-=
-True
 inputs
 =
 histogram_files
