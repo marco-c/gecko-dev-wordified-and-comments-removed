@@ -2327,12 +2327,6 @@ clip
 ref
 .
 html
-random
--
-if
-(
-browserIsFission
-)
 =
 =
 iframe
