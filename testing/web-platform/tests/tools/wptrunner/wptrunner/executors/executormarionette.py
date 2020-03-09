@@ -497,8 +497,6 @@ break
             
 except
 Exception
-as
-e
 :
                 
 self
@@ -511,7 +509,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
                 
@@ -674,8 +671,6 @@ url
         
 except
 Exception
-as
-e
 :
             
 self
@@ -740,7 +735,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
 )
@@ -4369,7 +4363,6 @@ traceback
 .
 format_exc
 (
-e
 )
                 
 self
@@ -5427,8 +5420,6 @@ teardown
         
 except
 Exception
-as
-e
 :
             
 self
@@ -5454,7 +5445,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
     
@@ -6360,8 +6350,6 @@ handles
         
 except
 Exception
-as
-e
 :
             
 self
@@ -6374,7 +6362,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
 class

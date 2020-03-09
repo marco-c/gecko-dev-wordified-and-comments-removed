@@ -1661,18 +1661,21 @@ as
 e
 :
             
+exception_string
+=
+traceback
+.
+format_exc
+(
+)
+            
 self
 .
 logger
 .
 warning
 (
-traceback
-.
-format_exc
-(
-e
-)
+exception_string
 )
             
 result
@@ -1683,6 +1686,7 @@ result_from_exception
 (
 test
 e
+exception_string
 )
         
 if
@@ -1896,6 +1900,7 @@ result_from_exception
 self
 test
 e
+exception_string
 )
 :
         
@@ -1966,12 +1971,7 @@ n
 message
 +
 =
-traceback
-.
-format_exc
-(
-e
-)
+exception_string
         
 return
 test
@@ -3925,7 +3925,6 @@ traceback
 .
 format_exc
 (
-e
 )
             
 self

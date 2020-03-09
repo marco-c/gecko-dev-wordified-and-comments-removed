@@ -2415,8 +2415,6 @@ __name__
             
 except
 Exception
-as
-e
 :
                 
 self
@@ -2429,7 +2427,6 @@ traceback
 .
 format_exc
 (
-e
 )
 )
                 
