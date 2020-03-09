@@ -53,6 +53,12 @@ gReportReady
 )
 :
 void
+;
+gIsPanelDestroyed
+?
+:
+boolean
+;
 }
 export
 interface
