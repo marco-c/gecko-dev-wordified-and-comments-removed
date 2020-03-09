@@ -326,7 +326,7 @@ button
 let
 notDisabled
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -387,7 +387,7 @@ button
 ;
 notDisabled
 =
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
