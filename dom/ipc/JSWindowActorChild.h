@@ -56,17 +56,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-WindowGlobalChild
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h
@@ -93,6 +82,9 @@ Nullable
 ;
 class
 Document
+;
+class
+WindowGlobalChild
 ;
 class
 WindowProxyHolder
@@ -205,7 +197,6 @@ GetManager
 (
 )
 const
-override
 ;
 void
 Init
