@@ -2139,7 +2139,7 @@ Polygon
 aGeometry
 )
 {
-Color
+DeviceColor
 backgroundColor
 ;
 if
@@ -2752,7 +2752,7 @@ Compositor
 *
 aCompositor
 const
-Color
+DeviceColor
 *
 aBackgroundColor
 EffectChain

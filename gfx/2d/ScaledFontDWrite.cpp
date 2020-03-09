@@ -3014,7 +3014,7 @@ wr
 :
 ToColorU
 (
-Color
+DeviceColor
 (
 )
 )

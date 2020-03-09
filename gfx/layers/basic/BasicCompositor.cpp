@@ -1936,7 +1936,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 const
@@ -2000,7 +2000,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 const
@@ -6067,7 +6067,7 @@ GetBounds
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 r
 g

@@ -2001,7 +2001,7 @@ effect
 new
 EffectSolidColor
 (
-Color
+DeviceColor
 (
 0
 0
@@ -5059,7 +5059,7 @@ mPrimaryEffect
 new
 EffectSolidColor
 (
-Color
+DeviceColor
 (
 r
 g
@@ -8013,7 +8013,7 @@ MaskType
 MaskNone
 ;
 }
-Color
+DeviceColor
 color
 ;
 if

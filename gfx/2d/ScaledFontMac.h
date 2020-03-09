@@ -92,11 +92,11 @@ aOwnsFont
 =
 false
 const
-Color
+DeviceColor
 &
 aFontSmoothingBackgroundColor
 =
-Color
+DeviceColor
 (
 )
 bool
@@ -220,7 +220,7 @@ return
 true
 ;
 }
-Color
+DeviceColor
 FontSmoothingBackgroundColor
 (
 )
@@ -260,7 +260,7 @@ mFont
 CTFontRef
 mCTFont
 ;
-Color
+DeviceColor
 mFontSmoothingBackgroundColor
 ;
 bool
@@ -321,7 +321,7 @@ FontInstancePlatformOptions
 aPlatformOptions
 )
 ;
-Color
+DeviceColor
 mFontSmoothingBackgroundColor
 ;
 bool

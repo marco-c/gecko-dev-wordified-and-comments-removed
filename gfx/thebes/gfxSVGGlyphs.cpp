@@ -295,7 +295,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 SimpleTextContextPaint
 :
 :

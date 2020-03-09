@@ -6597,10 +6597,7 @@ wr
 :
 ToColorF
 (
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 LookAndFeel
 :

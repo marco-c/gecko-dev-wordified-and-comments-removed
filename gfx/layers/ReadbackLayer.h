@@ -446,7 +446,7 @@ mBackgroundColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 )
 ;
@@ -496,7 +496,7 @@ mBackgroundColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 )
 )
@@ -561,7 +561,7 @@ mBackgroundLayerOffset
 gfx
 :
 :
-Color
+DeviceColor
 mBackgroundColor
 ;
 }

@@ -710,7 +710,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const

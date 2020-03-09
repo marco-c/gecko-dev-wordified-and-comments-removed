@@ -940,7 +940,7 @@ device
 Clear
 (
 mTarget
-Color
+DeviceColor
 (
 1
 0

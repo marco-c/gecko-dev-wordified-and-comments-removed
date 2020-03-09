@@ -1144,7 +1144,7 @@ POINT3D
 FORWARD_SET_ATTRIBUTE
 (
 const
-Color
+DeviceColor
 &
 COLOR
 )
@@ -1533,7 +1533,7 @@ mColPat
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -2824,7 +2824,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const

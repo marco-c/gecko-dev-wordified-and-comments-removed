@@ -16397,14 +16397,14 @@ TYPE_SELECTION_OVERLAY
 )
 private
 :
-Color
+DeviceColor
 ComputeColor
 (
 )
 const
 ;
 static
-Color
+DeviceColor
 ComputeColorFromSelectionStyle
 (
 ComputedStyle
@@ -16412,7 +16412,7 @@ ComputedStyle
 )
 ;
 static
-Color
+DeviceColor
 ApplyTransparencyIfNecessary
 (
 nscolor
@@ -16423,7 +16423,7 @@ mSelectionValue
 ;
 }
 ;
-Color
+DeviceColor
 nsDisplaySelectionOverlay
 :
 :
@@ -16497,7 +16497,7 @@ backgrounds
 auto
 color
 =
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -16520,7 +16520,7 @@ color
 )
 ;
 }
-Color
+DeviceColor
 nsDisplaySelectionOverlay
 :
 :
@@ -16547,7 +16547,7 @@ mBackgroundColor
 )
 ;
 }
-Color
+DeviceColor
 nsDisplaySelectionOverlay
 :
 :
@@ -19348,7 +19348,7 @@ AppUnitsPerDevPixel
 (
 )
 ;
-Color
+sRGBColor
 blueOrRed
 (
 aFrame
@@ -19358,7 +19358,7 @@ HasView
 (
 )
 ?
-Color
+sRGBColor
 (
 0
 .
@@ -19374,7 +19374,7 @@ f
 f
 )
 :
-Color
+sRGBColor
 (
 1
 .
@@ -19461,7 +19461,7 @@ purple
 (
 ToDeviceColor
 (
-Color
+sRGBColor
 (
 .
 5f

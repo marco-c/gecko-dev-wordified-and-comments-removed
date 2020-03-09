@@ -1443,7 +1443,7 @@ Array
 gfx
 :
 :
-Color
+DeviceColor
 4
 >
 BorderColors

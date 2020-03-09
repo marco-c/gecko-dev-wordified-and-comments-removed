@@ -357,7 +357,7 @@ _s
 3
 )
 static
-Color
+sRGBColor
 MakeBorderColor
 (
 nscolor
@@ -367,7 +367,7 @@ aBorderColorStyle
 )
 ;
 static
-Color
+sRGBColor
 ComputeColorForLine
 (
 uint32_t
@@ -5296,7 +5296,7 @@ aColor
 }
 }
 }
-Color
+sRGBColor
 MakeBorderColor
 (
 nscolor
@@ -5325,7 +5325,7 @@ case
 BorderColorStyleNone
 :
 return
-Color
+sRGBColor
 (
 0
 .
@@ -5364,7 +5364,7 @@ aColor
 )
 ;
 return
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -5381,7 +5381,7 @@ BorderColorStyleSolid
 default
 :
 return
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -5391,7 +5391,7 @@ aColor
 ;
 }
 }
-Color
+sRGBColor
 ComputeColorForLine
 (
 uint32_t
@@ -6792,7 +6792,7 @@ i
 BorderColorStyleNone
 )
 {
-Color
+sRGBColor
 c
 =
 ComputeColorForLine
@@ -12607,11 +12607,11 @@ Size
 &
 aInnerRadius
 const
-Color
+DeviceColor
 &
 aFirstColor
 const
-Color
+DeviceColor
 &
 aSecondColor
 Float
@@ -13246,11 +13246,11 @@ Size
 &
 aCornerDims
 const
-Color
+DeviceColor
 &
 aFirstColor
 const
-Color
+DeviceColor
 &
 aSecondColor
 Float
@@ -13759,7 +13759,7 @@ sideWidth
 .
 0f
 ;
-Color
+DeviceColor
 firstColor
 secondColor
 ;
@@ -15087,7 +15087,7 @@ corner
 )
 )
 {
-Color
+sRGBColor
 color
 =
 MakeBorderColor

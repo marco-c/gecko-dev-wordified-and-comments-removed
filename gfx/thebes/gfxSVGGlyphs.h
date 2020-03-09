@@ -491,7 +491,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 sZero
 ;
 static

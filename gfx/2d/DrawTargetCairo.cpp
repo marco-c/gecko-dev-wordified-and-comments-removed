@@ -2032,7 +2032,7 @@ PatternType
 COLOR
 :
 {
-Color
+DeviceColor
 color
 =
 static_cast
@@ -4067,7 +4067,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const

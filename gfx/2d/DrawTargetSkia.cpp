@@ -2626,7 +2626,7 @@ PatternType
 COLOR
 :
 {
-Color
+DeviceColor
 color
 =
 static_cast
@@ -4355,7 +4355,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -6723,7 +6723,7 @@ aPattern
 )
 {
 const
-Color
+DeviceColor
 &
 color
 =
@@ -7137,7 +7137,7 @@ FontType
 MAC
 )
 {
-Color
+DeviceColor
 fontSmoothingBackgroundColor
 =
 static_cast

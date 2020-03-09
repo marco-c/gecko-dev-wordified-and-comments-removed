@@ -62,7 +62,7 @@ namespace
 gfx
 {
 struct
-Color
+sRGBColor
 ;
 struct
 RectCornerRadii
@@ -86,8 +86,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla
@@ -264,7 +264,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 *
 aShadowColor
 =
@@ -326,7 +326,7 @@ gfxPoint
 &
 aBlurStdDev
 const
-Color
+sRGBColor
 &
 aShadowColor
 const
@@ -388,7 +388,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aShadowColor
 const
@@ -460,7 +460,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aShadowColor
 const

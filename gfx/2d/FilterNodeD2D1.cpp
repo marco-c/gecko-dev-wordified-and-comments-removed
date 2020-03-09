@@ -3628,7 +3628,7 @@ SetAttribute
 uint32_t
 aIndex
 const
-Color
+DeviceColor
 &
 aValue
 )

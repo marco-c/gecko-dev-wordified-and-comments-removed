@@ -8882,7 +8882,7 @@ aRenderingContext
 .
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR

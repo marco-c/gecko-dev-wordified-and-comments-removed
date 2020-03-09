@@ -1722,7 +1722,7 @@ horizontalPadding
 gfx
 :
 :
-Color
+DeviceColor
 backgroundColor
 (
 0
@@ -1742,7 +1742,7 @@ backgroundColor
 gfx
 :
 :
-Color
+DeviceColor
 tileActiveColor
 (
 1
@@ -1756,7 +1756,7 @@ tileActiveColor
 gfx
 :
 :
-Color
+DeviceColor
 tileBorderColor
 (
 0
@@ -1770,7 +1770,7 @@ tileBorderColor
 gfx
 :
 :
-Color
+DeviceColor
 pageBorderColor
 (
 0
@@ -1781,7 +1781,7 @@ pageBorderColor
 gfx
 :
 :
-Color
+DeviceColor
 criticalDisplayPortColor
 (
 1
@@ -1796,7 +1796,7 @@ f
 gfx
 :
 :
-Color
+DeviceColor
 displayPortColor
 (
 0
@@ -1809,7 +1809,7 @@ f
 gfx
 :
 :
-Color
+DeviceColor
 layoutPortColor
 (
 1
@@ -1822,7 +1822,7 @@ f
 gfx
 :
 :
-Color
+DeviceColor
 visualPortColor
 (
 0

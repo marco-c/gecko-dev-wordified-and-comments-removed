@@ -1600,14 +1600,14 @@ NumVertices
 }
 static
 inline
-Color
+DeviceColor
 ComputeLayerColor
 (
 LayerMLGPU
 *
 aLayer
 const
-Color
+DeviceColor
 &
 aColor
 )
@@ -1623,7 +1623,7 @@ GetComputedOpacity
 )
 ;
 return
-Color
+DeviceColor
 (
 aColor
 .
@@ -2050,7 +2050,7 @@ this
 gfx
 :
 :
-Color
+DeviceColor
 color
 =
 ComputeLayerColor

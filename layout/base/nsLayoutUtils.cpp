@@ -42814,7 +42814,7 @@ aDestCtx
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -64731,7 +64731,7 @@ metadata
 .
 SetBackgroundColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -64785,7 +64785,7 @@ metadata
 .
 SetBackgroundColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR

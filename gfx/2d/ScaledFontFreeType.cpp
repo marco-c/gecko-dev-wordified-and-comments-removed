@@ -503,7 +503,7 @@ wr
 :
 ToColorU
 (
-Color
+DeviceColor
 (
 )
 )

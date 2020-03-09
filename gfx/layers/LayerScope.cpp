@@ -2302,7 +2302,7 @@ void
 *
 layerRef
 const
-Color
+DeviceColor
 &
 color
 int
@@ -3475,7 +3475,7 @@ void
 *
 aLayerRef
 const
-Color
+DeviceColor
 &
 aColor
 int
@@ -3942,7 +3942,7 @@ void
 *
 aLayerRef
 const
-Color
+DeviceColor
 &
 aColor
 int

@@ -3463,7 +3463,7 @@ aOuter
 int32_t
 aBorderWidth
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -3664,7 +3664,7 @@ DrawBorder
 (
 blackBorderBounds
 6
-Color
+DeviceColor
 (
 0
 0
@@ -3693,7 +3693,7 @@ DrawBorder
 (
 warnBorder
 4
-Color
+DeviceColor
 (
 1
 1
@@ -3896,7 +3896,7 @@ EffectSolidColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 1
 0
@@ -3965,7 +3965,7 @@ EffectSolidColor
 gfx
 :
 :
-Color
+DeviceColor
 (
 1
 1
@@ -4393,7 +4393,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 0
@@ -4516,7 +4516,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 1

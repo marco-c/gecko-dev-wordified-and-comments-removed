@@ -2607,7 +2607,7 @@ MaskSurface
 (
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 0

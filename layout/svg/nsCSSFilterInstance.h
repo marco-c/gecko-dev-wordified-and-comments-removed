@@ -81,8 +81,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 typedef
 mozilla
@@ -270,7 +270,7 @@ FilterPrimitiveDescription
 aPrimitiveDescrs
 )
 ;
-Color
+sRGBColor
 ToAttributeColor
 (
 nscolor

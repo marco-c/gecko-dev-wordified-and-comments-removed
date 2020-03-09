@@ -2795,7 +2795,7 @@ ColorPattern
 gfx
 :
 :
-Color
+DeviceColor
 (
 r
 g

@@ -3000,7 +3000,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 GetBackgroundColor
 (
@@ -3018,16 +3018,11 @@ const
 gfx
 :
 :
-Color
+sRGBColor
 &
 aBackgroundColor
 )
-{
-mBackgroundColor
-=
-aBackgroundColor
 ;
-}
 const
 nsCString
 &
@@ -3414,7 +3409,7 @@ mScrollParentId
 gfx
 :
 :
-Color
+DeviceColor
 mBackgroundColor
 ;
 nsCString

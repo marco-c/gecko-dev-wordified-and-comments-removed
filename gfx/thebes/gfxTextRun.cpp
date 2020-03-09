@@ -3014,7 +3014,7 @@ gfxRect
 &
 aBounds
 const
-Color
+DeviceColor
 &
 aAlphaColor
 uint32_t
@@ -3069,9 +3069,9 @@ appsPerDevUnit
 mContext
 -
 >
-SetColor
+SetDeviceColor
 (
-Color
+DeviceColor
 (
 aAlphaColor
 .
@@ -3251,7 +3251,7 @@ DrawMode
 GLYPH_FILL
 )
 {
-Color
+DeviceColor
 currentColor
 ;
 if
@@ -3360,7 +3360,7 @@ aParams
 context
 )
 ;
-Color
+DeviceColor
 currentColor
 ;
 bool

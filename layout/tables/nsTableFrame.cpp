@@ -48931,7 +48931,7 @@ ToColorF
 gfx
 :
 :
-Color
+DeviceColor
 (
 0
 .

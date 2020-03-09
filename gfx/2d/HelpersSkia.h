@@ -1125,7 +1125,7 @@ SkColor
 ColorToSkColor
 (
 const
-Color
+DeviceColor
 &
 color
 Float

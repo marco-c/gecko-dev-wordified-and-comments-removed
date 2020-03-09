@@ -89,7 +89,7 @@ const
 gfx
 :
 :
-Color
+sRGBColor
 &
 aColor
 )
@@ -117,7 +117,7 @@ mIsMidpoint
 gfx
 :
 :
-Color
+sRGBColor
 mColor
 ;
 }

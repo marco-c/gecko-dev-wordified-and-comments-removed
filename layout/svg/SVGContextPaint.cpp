@@ -1021,7 +1021,7 @@ pattern
 new
 gfxPattern
 (
-Color
+DeviceColor
 (
 )
 )
@@ -1041,13 +1041,10 @@ Tag
 Color
 :
 {
-Color
+DeviceColor
 color
 =
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 mPaintDefinition
 .
@@ -1347,7 +1344,7 @@ return
 nullptr
 ;
 }
-Color
+DeviceColor
 fill
 =
 *
@@ -1405,7 +1402,7 @@ return
 nullptr
 ;
 }
-Color
+DeviceColor
 stroke
 =
 *

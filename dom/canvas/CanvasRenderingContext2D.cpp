@@ -1331,7 +1331,7 @@ aStyle
 {
 opaque
 =
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -2817,10 +2817,7 @@ mTempRect
 TopLeft
 (
 )
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 mCtx
 -
@@ -3762,10 +3759,7 @@ newStop
 .
 color
 =
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 color
 )
@@ -18471,7 +18465,7 @@ context
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR

@@ -25001,13 +25001,7 @@ layer
 >
 SetColor
 (
-gfx
-:
-:
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 mColor
 )
@@ -25564,7 +25558,10 @@ GetDrawTarget
 ColorPattern
 color
 (
+ToDeviceColor
+(
 mColor
+)
 )
 ;
 for
@@ -33837,7 +33834,7 @@ if
 mColor
 =
 =
-Color
+sRGBColor
 (
 )
 )
@@ -33904,7 +33901,10 @@ layer
 >
 SetColor
 (
+ToDeviceColor
+(
 mColor
+)
 )
 ;
 int32_t
@@ -34063,7 +34063,7 @@ if
 mColor
 =
 =
-Color
+sRGBColor
 (
 )
 )
@@ -34274,7 +34274,7 @@ if
 mColor
 =
 =
-Color
+sRGBColor
 (
 )
 )
@@ -34528,7 +34528,7 @@ if
 mColor
 =
 =
-Color
+sRGBColor
 (
 )
 )
@@ -35198,7 +35198,7 @@ layer
 >
 SetColor
 (
-Color
+DeviceColor
 (
 )
 )
@@ -36885,7 +36885,7 @@ hookRect
 gfx
 :
 :
-Color
+DeviceColor
 color
 =
 ToDeviceColor
@@ -38572,7 +38572,7 @@ appUnitsPerDevPixel
 gfx
 :
 :
-Color
+sRGBColor
 shadowColor
 =
 nsCSSRendering
@@ -38813,7 +38813,10 @@ wr
 :
 ToColorF
 (
+ToDeviceColor
+(
 shadowColor
+)
 )
 blurRadius
 spreadRadius
@@ -39511,7 +39514,7 @@ ToLayoutRect
 clipRect
 )
 ;
-Color
+sRGBColor
 shadowColor
 =
 nsCSSRendering
@@ -39711,7 +39714,10 @@ wr
 :
 ToColorF
 (
+ToDeviceColor
+(
 shadowColor
+)
 )
 blurRadius
 spreadRadius

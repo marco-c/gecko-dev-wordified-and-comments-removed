@@ -837,7 +837,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 color
 const
@@ -888,7 +888,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 color
 const
@@ -928,7 +928,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -945,7 +945,7 @@ const
 gfx
 :
 :
-Color
+DeviceColor
 &
 aColor
 )
@@ -1746,13 +1746,13 @@ mIsDestroyed
 gfx
 :
 :
-Color
+DeviceColor
 mClearColor
 ;
 gfx
 :
 :
-Color
+DeviceColor
 mDefaultClearColor
 ;
 bool

@@ -77,8 +77,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+DeviceColor
+DeviceColor
 ;
 typedef
 mozilla
@@ -337,7 +337,7 @@ gfxContext
 *
 aContext
 const
-Color
+DeviceColor
 &
 aColor
 int32_t

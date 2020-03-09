@@ -307,10 +307,12 @@ aPipelineId
 void
 SetDisplayList
 (
+const
 gfx
 :
 :
-Color
+DeviceColor
+&
 aBgColor
 Epoch
 aEpoch

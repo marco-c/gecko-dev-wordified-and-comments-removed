@@ -12281,7 +12281,7 @@ Maybe
 gfx
 :
 :
-Color
+DeviceColor
 >
 &
 aHighlight
@@ -12692,7 +12692,7 @@ ColorPattern
 gfx
 :
 :
-Color
+DeviceColor
 (
 r
 g
@@ -12776,7 +12776,7 @@ Maybe
 gfx
 :
 :
-Color
+DeviceColor
 >
 highlight
 =
@@ -12803,7 +12803,7 @@ useBlobImage
 gfx
 :
 :
-Color
+DeviceColor
 (
 1
 .
@@ -12822,7 +12822,7 @@ Color
 gfx
 :
 :
-Color
+DeviceColor
 (
 1
 .

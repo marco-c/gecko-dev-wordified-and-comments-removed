@@ -21456,7 +21456,7 @@ ctx
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -21645,7 +21645,7 @@ ctx
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -21711,7 +21711,7 @@ ctx
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -22096,7 +22096,7 @@ ctx
 >
 SetColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR

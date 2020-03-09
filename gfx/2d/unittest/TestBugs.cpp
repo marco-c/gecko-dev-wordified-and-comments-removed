@@ -357,7 +357,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 0
@@ -604,7 +604,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 .

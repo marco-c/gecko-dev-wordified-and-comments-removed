@@ -808,7 +808,7 @@ Point
 &
 aDest
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -1027,7 +1027,7 @@ mSurface
 Point
 mDest
 ;
-Color
+DeviceColor
 mColor
 ;
 Point

@@ -2633,10 +2633,7 @@ GetUnscaledFont
 GetAdjustedSize
 (
 )
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 mFontSmoothingBackgroundColor
 )

@@ -566,7 +566,7 @@ D2D1_COLOR_F
 D2DColor
 (
 const
-Color
+DeviceColor
 &
 aColor
 )

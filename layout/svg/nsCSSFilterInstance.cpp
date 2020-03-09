@@ -1595,7 +1595,7 @@ y
 )
 ;
 }
-Color
+sRGBColor
 nsCSSFilterInstance
 :
 :
@@ -1606,7 +1606,7 @@ aColor
 )
 {
 return
-Color
+sRGBColor
 (
 NS_GET_R
 (

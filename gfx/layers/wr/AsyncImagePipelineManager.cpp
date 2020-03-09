@@ -2467,7 +2467,7 @@ SetDisplayList
 gfx
 :
 :
-Color
+DeviceColor
 (
 0
 .
@@ -2802,7 +2802,7 @@ SetDisplayList
 gfx
 :
 :
-Color
+DeviceColor
 (
 0
 .

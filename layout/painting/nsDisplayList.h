@@ -27264,8 +27264,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 public
 :
@@ -27296,7 +27296,7 @@ aRegion
 )
 mColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -27526,7 +27526,7 @@ private
 nsRegion
 mRegion
 ;
-Color
+sRGBColor
 mColor
 ;
 }
@@ -29573,8 +29573,8 @@ mozilla
 gfx
 :
 :
-Color
-Color
+sRGBColor
+sRGBColor
 ;
 public
 :
@@ -29622,7 +29622,7 @@ nullptr
 )
 mColor
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -30233,7 +30233,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 mColor
 ;
 struct
@@ -30244,7 +30244,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 mColor
 ;
 }

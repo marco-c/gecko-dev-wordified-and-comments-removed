@@ -588,7 +588,7 @@ atts
 .
 mColor
 =
-Color
+sRGBColor
 (
 0
 .

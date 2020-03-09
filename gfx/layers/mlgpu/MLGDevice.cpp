@@ -1607,7 +1607,7 @@ IsEmpty
 )
 )
 {
-Color
+DeviceColor
 color
 (
 0

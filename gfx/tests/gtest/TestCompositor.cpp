@@ -1103,7 +1103,7 @@ colorLayer
 >
 SetColor
 (
-Color
+DeviceColor
 (
 1
 .
@@ -1162,7 +1162,7 @@ colorLayer
 >
 SetColor
 (
-Color
+DeviceColor
 (
 1
 .
@@ -1221,7 +1221,7 @@ colorLayer
 >
 SetColor
 (
-Color
+DeviceColor
 (
 0
 .
@@ -1284,7 +1284,7 @@ gCompHeight
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 .
@@ -1316,7 +1316,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 .
@@ -1348,7 +1348,7 @@ Rect
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 0
 .

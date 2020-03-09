@@ -186,7 +186,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 from
 "
 mozilla
@@ -1133,7 +1133,7 @@ StepFunction
 struct
 LayerColor
 {
-Color
+DeviceColor
 value
 ;
 }
@@ -2052,19 +2052,6 @@ inheritedYScale
 ;
 float
 presShellResolution
-;
-}
-;
-struct
-GlyphArray
-{
-LayerColor
-color
-;
-Glyph
-[
-]
-glyphs
 ;
 }
 ;

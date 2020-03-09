@@ -621,6 +621,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 layers
@@ -10216,10 +10223,7 @@ ColorPattern
 gfx
 :
 :
-Color
-:
-:
-FromABGR
+ToDeviceColor
 (
 kScrollCaptureFillColor
 )

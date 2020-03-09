@@ -1671,7 +1671,7 @@ height
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 .

@@ -583,7 +583,7 @@ mozilla
 gfx
 :
 :
-Color
+DeviceColor
 &
 GetColorForFrameNumber
 (
@@ -928,14 +928,16 @@ StyleRGBA
 namespace
 gfx
 {
-Color
+DeviceColor
 ToDeviceColor
 (
-Color
+const
+sRGBColor
+&
 aColor
 )
 ;
-Color
+DeviceColor
 ToDeviceColor
 (
 const
@@ -944,7 +946,7 @@ StyleRGBA
 aColor
 )
 ;
-Color
+DeviceColor
 ToDeviceColor
 (
 nscolor

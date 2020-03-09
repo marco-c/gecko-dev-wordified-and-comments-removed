@@ -7416,10 +7416,10 @@ IsNone
 return
 ;
 }
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR
@@ -7783,10 +7783,10 @@ IsNone
 return
 ;
 }
-Color
+sRGBColor
 color
 (
-Color
+sRGBColor
 :
 :
 FromABGR

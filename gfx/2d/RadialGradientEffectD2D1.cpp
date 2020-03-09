@@ -1920,7 +1920,7 @@ interp
 0
 ;
 }
-Color
+DeviceColor
 newColor
 (
 prevColor

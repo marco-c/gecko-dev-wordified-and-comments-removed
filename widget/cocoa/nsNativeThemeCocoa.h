@@ -845,7 +845,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 &
 aParams
 )
@@ -1699,7 +1699,7 @@ mozilla
 gfx
 :
 :
-Color
+sRGBColor
 MenuBackgroundParams
 MenuIconParams
 MenuItemParams

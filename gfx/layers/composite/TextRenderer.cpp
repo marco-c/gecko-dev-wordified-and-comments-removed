@@ -239,7 +239,7 @@ sBackgroundOpacity
 alphaValue
 )
 ;
-Color
+sRGBColor
 pixelColor
 (
 baseValue
@@ -830,7 +830,7 @@ height
 )
 ColorPattern
 (
-Color
+DeviceColor
 (
 1
 .

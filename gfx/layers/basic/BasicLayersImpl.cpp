@@ -379,7 +379,7 @@ Rect
 &
 aRect
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -496,7 +496,7 @@ Rect
 &
 aRect
 const
-Color
+DeviceColor
 &
 aColor
 const
@@ -839,7 +839,7 @@ Rect
 &
 aClipRect
 const
-Color
+DeviceColor
 &
 aColor
 const

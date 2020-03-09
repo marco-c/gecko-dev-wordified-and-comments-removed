@@ -96,13 +96,6 @@ typedef
 gfx
 :
 :
-Color
-Color
-;
-typedef
-gfx
-:
-:
 DataSourceSurface
 DataSourceSurface
 ;
