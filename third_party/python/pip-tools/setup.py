@@ -216,6 +216,13 @@ python_requires
 3
 .
 *
+!
+=
+3
+.
+4
+.
+*
 "
     
 setup_requires
@@ -233,7 +240,7 @@ install_requires
 click
 >
 =
-6
+7
 "
 "
 six
@@ -399,19 +406,6 @@ Python
 :
 3
 .
-4
-"
-        
-"
-Programming
-Language
-:
-:
-Python
-:
-:
-3
-.
 5
 "
         
@@ -439,6 +433,19 @@ Python
 3
 .
 7
+"
+        
+"
+Programming
+Language
+:
+:
+Python
+:
+:
+3
+.
+8
 "
         
 "

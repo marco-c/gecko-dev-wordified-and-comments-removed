@@ -20,6 +20,10 @@ Virtualenvs
 envrc
 .
 direnv
+.
+venv
+venv
+/
 #
 Testing
 .
@@ -46,8 +50,6 @@ cache
 IDE
 .
 idea
-venv
-/
 #
 Test
 files

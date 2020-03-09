@@ -11,10 +11,17 @@ absolute_import
 division
 print_function
 unicode_literals
+import
+logging
 from
 .
 import
 click
+logging
+.
+basicConfig
+(
+)
 class
 LogContext
 (

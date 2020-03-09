@@ -421,11 +421,11 @@ pip
 tools
 =
 =
-3
+4
 .
-9
+5
 .
-0
+1
 \
 -
 -
@@ -433,7 +433,7 @@ hash
 =
 sha256
 :
-0b866b6da097fa1f060a1ce3a22bccf515bf6af7654370bcb6d0fcc65daba2b5
+693f30e451875796b1b25203247f0b4cf48a4c4a5ab7341f4f33ffd498cdcc98
 \
 -
 -
@@ -441,7 +441,8 @@ hash
 =
 sha256
 :
-2457106d7df6b627cc54819e986db75ba5fbe8243ae3bdfbb79159c1f610e90b
+be9c796aa88b2eec5cabf1323ba1cb60a08212b84bfb75b8b4037a8ef8cb8cb6
+\
 pipenv
 =
 =

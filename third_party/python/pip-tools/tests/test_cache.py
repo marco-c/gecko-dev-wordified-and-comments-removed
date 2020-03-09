@@ -88,9 +88,6 @@ file
 "
 "
     
-try
-:
-        
 cache_file
 =
 NamedTemporaryFile
@@ -104,6 +101,9 @@ delete
 =
 False
 )
+    
+try
+:
         
 cache_file
 .

@@ -23,11 +23,13 @@ DEV_PKGS
     
 FAVORITE_HASH
     
-Command
+PIP_VERSION
     
 FormatControl
     
 InstallationCandidate
+    
+InstallCommand
     
 InstallRequirement
     
@@ -39,11 +41,19 @@ PyPI
     
 RequirementSet
     
+Resolver
+    
 Wheel
+    
+WheelCache
     
 cmdoptions
     
 get_installed_distributions
+    
+get_requirement_tracker
+    
+global_tempdir_manager
     
 install_req_from_editable
     
@@ -54,6 +64,8 @@ is_dir_url
 is_file_url
     
 is_vcs_url
+    
+normalize_path
     
 parse_requirements
     

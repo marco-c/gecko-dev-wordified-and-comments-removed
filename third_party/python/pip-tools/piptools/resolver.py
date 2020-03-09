@@ -35,11 +35,6 @@ import
 install_req_from_line
 from
 .
-cache
-import
-DependencyCache
-from
-.
 logging
 import
 log
@@ -62,8 +57,6 @@ is_pinned_requirement
 is_url_requirement
     
 key_from_ireq
-    
-key_from_req
 )
 green
 =
@@ -138,11 +131,9 @@ self
 .
 key
 =
-key_from_req
+key_from_ireq
 (
 ireq
-.
-req
 )
         
 self
@@ -284,15 +275,6 @@ _source_ireqs
 ireq
 ]
 )
-)
-    
-source_ireqs
-.
-sort
-(
-key
-=
-str
 )
     
 combined_ireq
@@ -465,8 +447,6 @@ constraints
 repository
         
 cache
-=
-None
         
 prereleases
 =
@@ -541,18 +521,6 @@ repository
 =
 repository
         
-if
-cache
-is
-None
-:
-            
-cache
-=
-DependencyCache
-(
-)
-        
 self
 .
 dependency_cache
@@ -602,15 +570,32 @@ self
 .
 _group_constraints
 (
+                
 chain
+(
+                    
+sorted
 (
 self
 .
 our_constraints
+key
+=
+str
+)
+                    
+sorted
+(
 self
 .
 their_constraints
+key
+=
+str
 )
+                
+)
+            
 )
         
 )
@@ -861,8 +846,9 @@ after
 "
                     
 "
-%
-d
+{
+max_rounds
+}
 rounds
 of
 resolving
@@ -879,8 +865,13 @@ a
 bug
 .
 "
-%
+.
+format
+(
 max_rounds
+=
+max_rounds
+)
                 
 )
             
@@ -1491,7 +1482,13 @@ self
 .
 _group_constraints
 (
+sorted
+(
 their_constraints
+key
+=
+str
+)
 )
 )
         
@@ -1602,15 +1599,7 @@ sorted
 diff
 key
 =
-lambda
-req
-:
-key_from_req
-(
-req
-.
-req
-)
+key_from_ireq
 )
 :
                 
@@ -1649,20 +1638,10 @@ removed_dependency
 in
 sorted
 (
-                
 removed
 key
 =
-lambda
-req
-:
-key_from_req
-(
-req
-.
-req
-)
-            
+key_from_ireq
 )
 :
                 
@@ -1888,6 +1867,24 @@ ireq
 .
 comes_from
         
+if
+hasattr
+(
+ireq
+"
+_source_ireqs
+"
+)
+:
+            
+best_match
+.
+_source_ireqs
+=
+ireq
+.
+_source_ireqs
+        
 return
 best_match
     
@@ -1958,6 +1955,14 @@ time
 "
 "
 "
+        
+if
+ireq
+.
+constraint
+:
+            
+return
         
 if
 ireq

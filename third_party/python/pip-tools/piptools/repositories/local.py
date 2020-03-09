@@ -32,7 +32,7 @@ piptools
 utils
 import
 as_tuple
-key_from_req
+key_from_ireq
 make_install_requirement
 def
 ireq_satisfied_by_existing_pin
@@ -209,6 +209,22 @@ existing_pins
 property
     
 def
+options
+(
+self
+)
+:
+        
+return
+self
+.
+repository
+.
+options
+    
+property
+    
+def
 finder
 (
 self
@@ -297,11 +313,9 @@ None
         
 key
 =
-key_from_req
+key_from_ireq
 (
 ireq
-.
-req
 )
         
 existing_pin
@@ -393,11 +407,9 @@ ireq
         
 key
 =
-key_from_req
+key_from_ireq
 (
 ireq
-.
-req
 )
         
 existing_pin

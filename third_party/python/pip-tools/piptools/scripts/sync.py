@@ -70,6 +70,40 @@ option
     
 "
 -
+a
+"
+    
+"
+-
+-
+ask
+"
+    
+is_flag
+=
+True
+    
+help
+=
+"
+Show
+what
+would
+happen
+then
+ask
+whether
+to
+continue
+"
+)
+click
+.
+option
+(
+    
+"
+-
 n
 "
     
@@ -456,6 +490,8 @@ nargs
 def
 cli
 (
+    
+ask
     
 dry_run
     
@@ -941,6 +977,10 @@ dry_run
 install_flags
 =
 install_flags
+            
+ask
+=
+ask
         
 )
     
