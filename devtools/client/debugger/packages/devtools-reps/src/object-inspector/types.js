@@ -33,6 +33,7 @@ extensible
 :
 boolean
 location
+?
 :
 {
 url
