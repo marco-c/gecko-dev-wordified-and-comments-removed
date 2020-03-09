@@ -267,8 +267,9 @@ private
 SharedJSAllocatedData
 (
 )
-{
-}
+=
+default
+;
 JSStructuredCloneData
 mData
 ;

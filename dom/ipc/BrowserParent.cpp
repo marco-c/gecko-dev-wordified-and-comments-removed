@@ -1384,8 +1384,9 @@ BrowserParent
 BrowserParent
 (
 )
-{
-}
+=
+default
+;
 void
 BrowserParent
 :
@@ -8673,8 +8674,9 @@ virtual
 SynthesizedEventObserver
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 BrowserParent

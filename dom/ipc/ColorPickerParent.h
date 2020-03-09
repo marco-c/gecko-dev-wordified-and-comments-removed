@@ -116,8 +116,9 @@ private
 ColorPickerShownCallback
 (
 )
-{
-}
+=
+default
+;
 ColorPickerParent
 *
 mColorPickerParent
@@ -131,8 +132,9 @@ virtual
 ColorPickerParent
 (
 )
-{
-}
+=
+default
+;
 bool
 CreateColorPicker
 (

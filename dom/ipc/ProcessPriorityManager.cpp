@@ -827,8 +827,9 @@ ProcessPriorityManagerChild
 ProcessPriorityManagerChild
 (
 )
-{
-}
+=
+default
+;
 DISALLOW_EVIL_CONSTRUCTORS
 (
 ProcessPriorityManagerChild

@@ -311,8 +311,9 @@ StructuredCloneData
 StructuredCloneData
 (
 )
-{
-}
+=
+default
+;
 StructuredCloneData
 &
 StructuredCloneData

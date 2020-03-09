@@ -255,8 +255,9 @@ virtual
 FilePickerShownCallback
 (
 )
-{
-}
+=
+default
+;
 FilePickerParent
 *
 mFilePickerParent

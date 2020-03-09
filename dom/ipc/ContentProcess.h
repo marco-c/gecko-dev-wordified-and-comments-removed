@@ -100,8 +100,9 @@ aParentPid
 ContentProcess
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 Init
