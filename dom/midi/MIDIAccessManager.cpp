@@ -157,8 +157,9 @@ MIDIAccessManager
 MIDIAccessManager
 (
 )
-{
-}
+=
+default
+;
 MIDIAccessManager
 *
 MIDIAccessManager

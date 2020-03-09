@@ -145,8 +145,9 @@ aPortID
 ProcessMessagesRunnable
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHOD
 Run
 (
@@ -247,8 +248,9 @@ aMsgs
 QueueMessagesRunnable
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 RunInternal
