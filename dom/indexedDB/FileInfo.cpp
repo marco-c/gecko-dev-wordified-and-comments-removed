@@ -329,12 +329,13 @@ return
 mFileManager
 -
 >
-RemoveFileInfo
+mFileInfos
+.
+Remove
 (
 Id
 (
 )
-lock
 )
 ;
 needsCleanup
