@@ -84,8 +84,9 @@ private
 U2FSoftTokenManager
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (

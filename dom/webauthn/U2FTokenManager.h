@@ -131,8 +131,9 @@ U2FTokenManager
 U2FTokenManager
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 U2FTokenTransport
