@@ -18330,7 +18330,7 @@ error
 bool
 gcTypesConfigured
 =
-GcTypesAvailable
+HasGcSupport
 (
 cx
 )
@@ -18338,7 +18338,7 @@ cx
 bool
 refTypesConfigured
 =
-ReftypesAvailable
+HasReftypesSupport
 (
 cx
 )
@@ -18346,7 +18346,7 @@ cx
 bool
 multiValueConfigured
 =
-MultiValuesAvailable
+HasMultiValueSupport
 (
 cx
 )
@@ -18359,7 +18359,7 @@ false
 bool
 bigIntConfigured
 =
-I64BigIntConversionAvailable
+HasI64BigIntSupport
 (
 cx
 )

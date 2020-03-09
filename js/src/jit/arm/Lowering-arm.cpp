@@ -5860,7 +5860,7 @@ HasLDSTREXBHD
 )
 "
 by
-HasPlatformSupport
+HasCompilerSupport
 (
 )
 constraints
@@ -6053,7 +6053,7 @@ HasLDSTREXBHD
 )
 "
 by
-HasPlatformSupport
+HasCompilerSupport
 (
 )
 constraints
@@ -6241,7 +6241,7 @@ HasLDSTREXBHD
 )
 "
 by
-HasPlatformSupport
+HasCompilerSupport
 (
 )
 constraints

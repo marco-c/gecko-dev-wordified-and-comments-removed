@@ -29166,7 +29166,7 @@ js
 wasm
 :
 :
-IonPlatformSupport
+IonCanCompile
 (
 )
 {
