@@ -123,7 +123,7 @@ size
 const
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazyOuterFunction_
@@ -361,7 +361,7 @@ cx
 LifoAlloc
 &
 alloc
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 SourceKind

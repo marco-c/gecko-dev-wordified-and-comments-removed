@@ -6600,7 +6600,7 @@ BinASTTokenReaderContext
 :
 registerLazyScript
 (
-LazyScript
+BaseScript
 *
 lazy
 )

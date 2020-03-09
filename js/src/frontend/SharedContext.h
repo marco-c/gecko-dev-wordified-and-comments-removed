@@ -2454,7 +2454,7 @@ interpreted
 void
 initLazyScript
 (
-LazyScript
+BaseScript
 *
 script
 )

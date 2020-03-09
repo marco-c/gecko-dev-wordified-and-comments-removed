@@ -5013,7 +5013,7 @@ Ok
 >
 registerLazyScript
 (
-LazyScript
+BaseScript
 *
 lazy
 )
@@ -5593,7 +5593,7 @@ Rooted
 <
 GCVector
 <
-LazyScript
+BaseScript
 *
 >
 >

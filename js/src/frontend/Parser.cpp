@@ -1373,7 +1373,7 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 ScriptSourceObject
@@ -1447,7 +1447,7 @@ compilationInfo
 SyntaxParser
 *
 syntaxParser
-LazyScript
+BaseScript
 *
 lazyOuterFunction
 ScriptSourceObject
@@ -11092,7 +11092,7 @@ MOZ_ASSERT
 function
 )
 ;
-LazyScript
+BaseScript
 *
 lazy
 =

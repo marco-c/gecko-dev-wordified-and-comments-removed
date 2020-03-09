@@ -266,7 +266,7 @@ HandleScriptSourceObject
 sourceObject
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1341,7 +1341,7 @@ protected
 :
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript_

@@ -276,7 +276,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy
@@ -301,7 +301,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazy

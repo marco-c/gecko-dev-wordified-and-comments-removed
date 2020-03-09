@@ -406,7 +406,7 @@ Ok
 >
 registerLazyScript
 (
-LazyScript
+BaseScript
 *
 lazy
 )

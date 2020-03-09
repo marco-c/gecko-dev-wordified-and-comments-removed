@@ -768,8 +768,7 @@ JSScript
 ScopeNote
 ScriptSourceObject
 FieldInitializers
-JSScript
-LazyScript
+BaseScript
 #
 include
 "
@@ -1019,7 +1018,7 @@ HandleScript
 script
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1183,7 +1182,7 @@ HandleScript
 script
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -1248,7 +1247,7 @@ HandleScript
 script
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript

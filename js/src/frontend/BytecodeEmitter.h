@@ -419,7 +419,7 @@ JS
 :
 Rooted
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -705,7 +705,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -787,7 +787,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -839,7 +839,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript
@@ -899,7 +899,7 @@ JS
 :
 Handle
 <
-LazyScript
+BaseScript
 *
 >
 lazyScript

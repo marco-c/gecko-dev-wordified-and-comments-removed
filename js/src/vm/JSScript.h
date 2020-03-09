@@ -10481,7 +10481,7 @@ Handle
 js
 :
 :
-LazyScript
+BaseScript
 *
 >
 lazy
