@@ -194,6 +194,11 @@ AntiTrackingIPCUtils
 h
 '
 '
+AntiTrackingRedirectHeuristic
+.
+h
+'
+'
 AntiTrackingUtils
 .
 h
@@ -230,6 +235,11 @@ UNIFIED_SOURCES
 [
 '
 AntiTrackingCommon
+.
+cpp
+'
+'
+AntiTrackingRedirectHeuristic
 .
 cpp
 '
