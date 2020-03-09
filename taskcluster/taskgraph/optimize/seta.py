@@ -43,11 +43,6 @@ SETA_PROJECTS
 =
 [
 '
-mozilla
--
-inbound
-'
-'
 autoland
 '
 ]
