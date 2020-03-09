@@ -1586,9 +1586,6 @@ true
 mozconfig_platform
 :
 win64
-mozconfig_variant
-:
-cross
 env
 :
 #
@@ -1669,11 +1666,6 @@ vs2017_15
 4
 /
 "
-mozconfig
--
-variant
-:
-cross
 run
 -
 on
