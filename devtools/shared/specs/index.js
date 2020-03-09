@@ -25,6 +25,9 @@ accessiblewalker
 "
 accessibility
 "
+"
+parentaccessibility
+"
 ]
 spec
 :

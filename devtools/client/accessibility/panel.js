@@ -405,6 +405,15 @@ initAccessibility
 (
 )
 ;
+await
+this
+.
+accessibilityProxy
+.
+ensureReady
+(
+)
+;
 this
 .
 picker
