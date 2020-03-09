@@ -55,8 +55,8 @@ CallbackInterface
 :
 GetCallableProperty
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :

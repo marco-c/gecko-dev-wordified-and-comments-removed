@@ -133487,8 +133487,8 @@ args
 Strip
 out
 the
-JSContext
-*
+BindingCallContext
+&
 /
 JSObject
 *
@@ -133522,8 +133522,8 @@ argType
 =
 =
 "
-JSContext
-*
+BindingCallContext
+&
 "
         
 assert
@@ -133673,7 +133673,7 @@ argnamesWithThis
 "
 s
 .
-GetContext
+GetCallContext
 (
 )
 "
@@ -133690,7 +133690,7 @@ argnamesWithoutThis
 "
 s
 .
-GetContext
+GetCallContext
 (
 )
 "
@@ -136159,13 +136159,29 @@ argCount
 )
 {
                   
-aRv
+/
+/
+That
+threw
+an
+exception
+on
+the
+JSContext
+and
+our
+CallSetup
+will
+do
+                  
+/
+/
+the
+right
+thing
+with
+that
 .
-Throw
-(
-NS_ERROR_OUT_OF_MEMORY
-)
-;
                   
 return
 {
@@ -137349,7 +137365,7 @@ as
 well
 as
 a
-JSContext
+BindingCallContext
 .
         
 return
@@ -137357,8 +137373,8 @@ return
 Argument
 (
 "
-JSContext
-*
+BindingCallContext
+&
 "
 "
 cx
@@ -137530,25 +137546,7 @@ fill
 callSetup
 }
             
-JSContext
-*
-cx
-=
-s
-.
-GetContext
-(
-)
-;
-            
 if
-(
-!
-cx
-)
-{
-              
-MOZ_ASSERT
 (
 aRv
 .
@@ -137556,7 +137554,7 @@ Failed
 (
 )
 )
-;
+{
               
 return
 {
@@ -137565,6 +137563,27 @@ errorReturn
 ;
             
 }
+            
+MOZ_ASSERT
+(
+s
+.
+GetContext
+(
+)
+)
+;
+            
+BindingCallContext
+&
+cx
+=
+s
+.
+GetCallContext
+(
+)
+;
             
 "
 "
