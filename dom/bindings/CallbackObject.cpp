@@ -1392,6 +1392,14 @@ mCx
 =
 cx
 ;
+mCallContext
+.
+emplace
+(
+cx
+nullptr
+)
+;
 }
 bool
 CallbackObject
