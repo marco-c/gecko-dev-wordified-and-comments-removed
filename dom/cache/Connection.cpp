@@ -285,7 +285,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-CreateFunction
+RegisterFunction
 (
 const
 nsACString
@@ -337,7 +337,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-RemoveFunction
+UnregisterFunction
 (
 const
 nsACString
@@ -349,7 +349,7 @@ return
 mBase
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 aFunctionName
 )

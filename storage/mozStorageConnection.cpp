@@ -7257,7 +7257,7 @@ rv
 aClone
 -
 >
-CreateFunction
+RegisterFunction
 (
 key
 data
@@ -9316,7 +9316,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-CreateFunction
+RegisterFunction
 (
 const
 nsACString
@@ -9597,7 +9597,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-RemoveFunction
+UnregisterFunction
 (
 const
 nsACString

@@ -2125,7 +2125,7 @@ Functions
 *
 *
 *
-Create
+Register
 a
 new
 SQL
@@ -2231,7 +2231,7 @@ error
 *
 /
 void
-createFunction
+registerFunction
 (
 in
 AUTF8String
@@ -2356,7 +2356,8 @@ aFunction
 *
 *
 *
-Delete
+Unregisters
+a
 custom
 SQL
 function
@@ -2382,7 +2383,7 @@ remove
 *
 /
 void
-removeFunction
+unregisterFunction
 (
 in
 AUTF8String

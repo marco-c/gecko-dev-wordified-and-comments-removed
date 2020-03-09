@@ -5549,7 +5549,7 @@ rv
 mDB
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -11983,7 +11983,7 @@ rv
 mDB
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -12038,7 +12038,7 @@ AutoRemoveFunc
 mDB
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 NS_LITERAL_CSTRING
 (

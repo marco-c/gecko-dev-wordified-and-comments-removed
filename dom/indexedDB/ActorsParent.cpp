@@ -11665,7 +11665,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 compressorName
 1
@@ -11783,7 +11783,7 @@ rv
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 compressorName
 )
@@ -13271,7 +13271,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 encoderName
 1
@@ -14536,7 +14536,7 @@ rv
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 encoderName
 )
@@ -16746,7 +16746,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 upgradeKeyFunctionName
 1
@@ -16795,7 +16795,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 insertIDVFunctionName
 4
@@ -16823,7 +16823,7 @@ MOZ_ALWAYS_SUCCEEDS
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 upgradeKeyFunctionName
 )
@@ -16846,7 +16846,7 @@ MOZ_ALWAYS_SUCCEEDS
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 upgradeKeyFunctionName
 )
@@ -16857,7 +16857,7 @@ MOZ_ALWAYS_SUCCEEDS
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 insertIDVFunctionName
 )
@@ -20425,7 +20425,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 functionName
 2
@@ -20633,7 +20633,7 @@ rv
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 functionName
 )
@@ -21500,7 +21500,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 functionName
 1
@@ -21580,7 +21580,7 @@ rv
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 functionName
 )
@@ -22318,7 +22318,7 @@ rv
 aConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 functionName
 /
@@ -22401,7 +22401,7 @@ rv
 aConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 functionName
 )
@@ -55111,7 +55111,7 @@ mStorageConnection
 )
 -
 >
-CreateFunction
+RegisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -57421,7 +57421,7 @@ mStorageConnection
 )
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -126916,7 +126916,7 @@ rv
 storageConnection
 -
 >
-CreateFunction
+RegisterFunction
 (
 updateFunctionName
 4
@@ -126957,7 +126957,7 @@ MOZ_ALWAYS_SUCCEEDS
 storageConnection
 -
 >
-RemoveFunction
+UnregisterFunction
 (
 updateFunctionName
 )
