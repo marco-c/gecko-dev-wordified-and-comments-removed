@@ -440,8 +440,9 @@ virtual
 MathMLElement
 (
 )
-{
-}
+=
+default
+;
 virtual
 JSObject
 *
