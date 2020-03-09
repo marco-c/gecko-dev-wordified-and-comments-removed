@@ -47,12 +47,9 @@ VSPATH
 '
 %
 (
-abs_work_dir
+abs_src_dir
 )
 s
-\
-\
-src
 \
 \
 vs2017_15

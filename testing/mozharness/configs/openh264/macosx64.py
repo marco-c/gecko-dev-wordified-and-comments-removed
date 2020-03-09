@@ -175,11 +175,9 @@ bin
 isysroot
 %
 (
-abs_work_dir
+abs_src_dir
 )
 s
-/
-src
 /
 MacOSX10
 .
@@ -249,11 +247,9 @@ bin
 isysroot
 %
 (
-abs_work_dir
+abs_src_dir
 )
 s
-/
-src
 /
 MacOSX10
 .
