@@ -991,8 +991,7 @@ MSG_ENFORCE_RANGE_OUT_OF_RANGE
 >
 (
 cx
-"
-"
+nullptr
 TypeName
 <
 T
