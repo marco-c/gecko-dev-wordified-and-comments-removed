@@ -103,8 +103,6 @@ https
 example
 .
 com
-:
-443
 /
 browser
 /
@@ -118,6 +116,9 @@ test
 /
 browser
 /
+mozsearch
+.
+sjs
 "
 "
 params
@@ -221,6 +222,15 @@ keywordsearch
 "
 }
 ]
+"
+search_url_post_params
+"
+:
+"
+foo
+=
+bar
+"
 }
 }
 }

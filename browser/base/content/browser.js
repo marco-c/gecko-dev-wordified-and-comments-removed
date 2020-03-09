@@ -27342,7 +27342,16 @@ usePrivate
 "
 contextmenu
 "
+Services
+.
+scriptSecurityManager
+.
+createNullPrincipal
+(
 triggeringPrincipal
+.
+originAttributes
+)
 csp
 )
 ;
