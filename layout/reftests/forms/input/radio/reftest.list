@@ -116,6 +116,13 @@ geckoview
 &
 webrender
 )
+fails
+-
+if
+(
+!
+nativeThemePref
+)
 =
 =
 radio
@@ -142,6 +149,10 @@ OSX
 |
 |
 winWidget
+|
+|
+!
+nativeThemePref
 )
 fuzzy
 -

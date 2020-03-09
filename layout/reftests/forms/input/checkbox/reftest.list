@@ -249,6 +249,13 @@ geckoview
 &
 webrender
 )
+fails
+-
+if
+(
+!
+nativeThemePref
+)
 =
 =
 checkbox
@@ -296,6 +303,13 @@ gtkWidget
 32
 -
 32
+)
+fails
+-
+if
+(
+!
+nativeThemePref
 )
 =
 =

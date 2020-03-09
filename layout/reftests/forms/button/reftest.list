@@ -432,6 +432,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =

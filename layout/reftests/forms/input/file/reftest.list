@@ -18,6 +18,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
@@ -63,6 +66,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
@@ -108,6 +114,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
@@ -153,6 +162,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
@@ -195,6 +207,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
@@ -239,6 +254,9 @@ fails
 if
 (
 Android
+&
+&
+nativeThemePref
 )
 =
 =
