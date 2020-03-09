@@ -899,12 +899,6 @@ op
 ;
 MOZ_MUST_USE
 bool
-emitThrowConstAssignment
-(
-)
-;
-MOZ_MUST_USE
-bool
 emitUninitializedLexicalCheck
 (
 const
