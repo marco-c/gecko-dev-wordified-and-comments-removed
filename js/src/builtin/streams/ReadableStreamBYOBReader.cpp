@@ -32,6 +32,17 @@ ReadableStream
 .
 h
 "
+#
+include
+"
+builtin
+/
+streams
+/
+ReadableStreamReader
+.
+h
+"
 using
 JS
 :
