@@ -98,9 +98,6 @@ mozilla
 namespace
 dom
 {
-class
-BindingCallContext
-;
 struct
 DictionaryBase
 {

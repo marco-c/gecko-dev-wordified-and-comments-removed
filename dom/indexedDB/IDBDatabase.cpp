@@ -2457,8 +2457,12 @@ MSG_INVALID_ENUM_VALUE
 (
 u
 "
-argument
+Argument
 2
+of
+IDBDatabase
+.
+transaction
 "
 u
 "

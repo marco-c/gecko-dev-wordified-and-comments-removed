@@ -55,8 +55,8 @@ CallbackInterface
 :
 GetCallableProperty
 (
-BindingCallContext
-&
+JSContext
+*
 cx
 JS
 :
@@ -164,13 +164,12 @@ get
 )
 )
 ;
-cx
-.
 ThrowErrorMessage
 <
 MSG_NOT_CALLABLE
 >
 (
+cx
 description
 .
 get
