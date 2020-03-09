@@ -97,6 +97,14 @@ prim_store
 :
 PrimitiveInstanceKind
 ;
+pub
+const
+MAX_LINE_DECORATION_RESOLUTION
+:
+u32
+=
+4096
+;
 #
 [
 derive
