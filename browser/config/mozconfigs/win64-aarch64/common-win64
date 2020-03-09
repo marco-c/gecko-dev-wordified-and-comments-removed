@@ -18,3 +18,17 @@ aarch64
 windows
 -
 mingw32
+.
+topsrcdir
+/
+build
+/
+win64
+-
+aarch64
+/
+mozconfig
+.
+vs
+-
+latest
