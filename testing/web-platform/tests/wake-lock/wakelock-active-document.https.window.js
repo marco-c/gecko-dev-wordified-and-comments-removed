@@ -109,6 +109,15 @@ html
 )
 ;
 const
+frameDOMException1
+=
+iframe
+.
+contentWindow
+.
+DOMException
+;
+const
 wakeLock2
 =
 await
@@ -136,6 +145,7 @@ t
 "
 NotAllowedError
 "
+frameDOMException1
 wakeLock1
 .
 request
@@ -272,6 +282,15 @@ html
 "
 )
 ;
+const
+innerIframeDOMException
+=
+innerIframe
+.
+contentWindow
+.
+DOMException
+;
 await
 new
 Promise
@@ -317,6 +336,7 @@ t
 "
 NotAllowedError
 "
+innerIframeDOMException
 wakeLock
 .
 request
