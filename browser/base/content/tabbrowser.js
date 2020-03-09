@@ -693,12 +693,6 @@ audioPlaybackStarted
 audioPlaybackStopped
 "
 "
-pauseMedia
-"
-"
-stopMedia
-"
-"
 resumeMedia
 "
 "
