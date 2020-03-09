@@ -18,7 +18,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlockingNotifier
 .
 h
 "
@@ -34,7 +34,7 @@ ParamTraits
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -46,14 +46,14 @@ ContiguousEnumSerializerInclusive
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -63,7 +63,7 @@ eStorageAccessAPI
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason

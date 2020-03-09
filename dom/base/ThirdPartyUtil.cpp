@@ -2169,13 +2169,13 @@ IsFirstPartyStorageAccessGranted
 )
 )
 {
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
-NotifyBlockingDecision
+OnDecision
 (
 aChannel
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 BlockingDecision

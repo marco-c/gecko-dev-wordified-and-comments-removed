@@ -3262,7 +3262,7 @@ aTrackingFullHashes
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason

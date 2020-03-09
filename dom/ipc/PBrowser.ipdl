@@ -1204,7 +1204,7 @@ using
 mozilla
 :
 :
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -1212,7 +1212,7 @@ from
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlockingNotifier
 .
 h
 "

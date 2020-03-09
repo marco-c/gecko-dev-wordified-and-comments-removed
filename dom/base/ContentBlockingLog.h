@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlockingNotifier
 .
 h
 "
@@ -86,6 +86,9 @@ nsWindowSizes
 .
 h
 "
+class
+nsIPrincipal
+;
 namespace
 mozilla
 {
@@ -97,7 +100,7 @@ ContentBlockingLog
 final
 {
 typedef
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -117,7 +120,7 @@ mBlocked
 ;
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -365,7 +368,7 @@ aBlocked
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -395,7 +398,7 @@ aBlocked
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
@@ -1172,7 +1175,7 @@ aBlocked
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
