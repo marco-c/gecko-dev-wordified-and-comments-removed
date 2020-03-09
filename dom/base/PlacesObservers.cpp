@@ -1791,7 +1791,10 @@ events
 )
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 {
+MOZ_KnownLive
+(
 cb
+)
 -
 >
 Call

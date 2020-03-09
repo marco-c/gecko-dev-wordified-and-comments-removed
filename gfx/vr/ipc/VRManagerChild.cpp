@@ -760,6 +760,7 @@ uint32_t
 >
 connectedDisplays
 ;
+const
 nsTArray
 <
 RefPtr
@@ -768,10 +769,9 @@ VRDisplayClient
 >
 >
 prevDisplays
-;
-prevDisplays
-=
+(
 mDisplays
+)
 ;
 for
 (
@@ -1035,7 +1035,10 @@ GetDisplayID
 )
 ;
 }
+MOZ_KnownLive
+(
 display
+)
 -
 >
 UpdateDisplayInfo
@@ -2489,6 +2492,7 @@ uint32_t
 aDisplayID
 )
 {
+const
 nsTArray
 <
 RefPtr
@@ -2510,7 +2514,10 @@ listener
 listeners
 )
 {
+MOZ_KnownLive
+(
 listener
+)
 -
 >
 NotifyVRDisplayPresentChange

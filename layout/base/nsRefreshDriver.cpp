@@ -8449,7 +8449,10 @@ presShell
 continue
 ;
 }
+MOZ_KnownLive
+(
 presShell
+)
 -
 >
 FireResizeEvent

@@ -663,6 +663,7 @@ max
 (
 )
 ;
+const
 nsTArray
 <
 RefPtr
@@ -687,7 +688,10 @@ observers
 uint32_t
 targetDepth
 =
+MOZ_KnownLive
+(
 observer
+)
 -
 >
 BroadcastActiveObservations

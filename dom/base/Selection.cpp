@@ -14420,6 +14420,7 @@ GetDocument
 )
 ;
 }
+const
 AutoTArray
 <
 nsCOMPtr
@@ -14519,7 +14520,10 @@ listener
 selectionListeners
 )
 {
+MOZ_KnownLive
+(
 listener
+)
 -
 >
 NotifySelectionChanged

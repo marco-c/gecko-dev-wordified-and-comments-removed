@@ -13510,6 +13510,7 @@ return
 NS_OK
 ;
 }
+const
 AutoDocumentStateListenerArray
 listeners
 (
@@ -13541,7 +13542,10 @@ listeners
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 listener
+)
 -
 >
 NotifyDocumentWillBeDestroyed
@@ -13658,6 +13662,7 @@ return
 NS_OK
 ;
 }
+const
 AutoDocumentStateListenerArray
 listeners
 (
@@ -13690,7 +13695,10 @@ listeners
 nsresult
 rv
 =
+MOZ_KnownLive
+(
 listener
+)
 -
 >
 NotifyDocumentStateChanged
