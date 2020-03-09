@@ -876,9 +876,6 @@ appini_header
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
