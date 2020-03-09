@@ -12690,6 +12690,13 @@ MetaData
 )
 ;
 field
+NonNull
+public
+final
+String
+baseUrl
+;
+field
 public
 final
 int
