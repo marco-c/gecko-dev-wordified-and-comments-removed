@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+PositionedEventTargeting
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Preferences
 .
 h
@@ -1088,6 +1097,9 @@ nsIWidget
 aWidget
 )
 {
+EventRetargetSuppression
+suppression
+;
 APZCCallbackHelper
 :
 :

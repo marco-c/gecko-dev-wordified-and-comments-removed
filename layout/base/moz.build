@@ -461,6 +461,11 @@ OverflowChangedTracker
 h
 '
 '
+PositionedEventTargeting
+.
+h
+'
+'
 PresShell
 .
 h
