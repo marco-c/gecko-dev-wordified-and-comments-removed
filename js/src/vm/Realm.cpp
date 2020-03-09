@@ -2778,14 +2778,14 @@ hasBytecode
 continue
 ;
 }
-LazyScript
+BaseScript
 *
 lazy
 =
 fun
 -
 >
-lazyScript
+baseScript
 (
 )
 ;

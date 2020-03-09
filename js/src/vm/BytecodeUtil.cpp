@@ -15081,7 +15081,7 @@ rt
 void
 *
 data
-JSScript
+BaseScript
 *
 script
 const
@@ -15130,6 +15130,11 @@ scripts
 append
 (
 script
+-
+>
+asJSScript
+(
+)
 )
 )
 {
