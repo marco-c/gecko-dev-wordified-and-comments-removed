@@ -87,7 +87,11 @@ UpdateMetadata
 (
 uint64_t
 aSessionContextId
+const
+Maybe
+<
 MediaMetadataBase
+>
 &
 aMetadata
 )
