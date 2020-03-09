@@ -36775,7 +36775,7 @@ GetPresContext
 context
 -
 >
-DispatchCharSetChange
+DocumentCharSetChanged
 (
 aEncoding
 )
