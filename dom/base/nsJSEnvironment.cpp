@@ -1627,6 +1627,15 @@ javascript_options_gc_on_memory_pressure
 )
 )
 {
+if
+(
+sShuttingDown
+)
+{
+return
+NS_OK
+;
+}
 nsDependentString
 data
 (
