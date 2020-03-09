@@ -841,12 +841,6 @@ Load
 ;
 static
 bool
-IsLoaded
-(
-)
-;
-static
-bool
 IsAvailable
 (
 )
