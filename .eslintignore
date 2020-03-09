@@ -72,6 +72,11 @@ we
 need
 to
 ignore
+!
+.
+eslintrc
+.
+js
 #
 Always
 ignore
