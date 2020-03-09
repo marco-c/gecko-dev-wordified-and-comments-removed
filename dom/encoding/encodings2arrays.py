@@ -112,12 +112,6 @@ keys
 (
 )
   
-keys
-.
-sort
-(
-)
-  
 header
 .
 write
@@ -205,7 +199,10 @@ _ENCODING
 for
 key
 in
+sorted
+(
 keys
+)
 ]
   
 header
