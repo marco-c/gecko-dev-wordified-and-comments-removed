@@ -891,6 +891,7 @@ int32_t
 aEndOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 SetSelectionBoundsAt
 (
@@ -911,6 +912,7 @@ int32_t
 aEndOffset
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 bool
 RemoveFromSelection
 (
@@ -1244,6 +1246,7 @@ nsRange
 aRanges
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetSelectionRange
 (
