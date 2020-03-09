@@ -40975,7 +40975,7 @@ type
 .
 flatMemberTypes
         
-names
+prettyNames
 =
 [
 ]
@@ -41065,11 +41065,15 @@ name
 )
 )
                 
-names
+prettyNames
 .
 append
 (
-name
+memberType
+.
+prettyName
+(
+)
 )
             
 interfaceObject
@@ -41147,14 +41151,18 @@ sequenceObjectMemberTypes
 =
 1
             
-name
+memberType
 =
-getUnionMemberName
-(
 sequenceObjectMemberTypes
 [
 0
 ]
+            
+name
+=
+getUnionMemberName
+(
+memberType
 )
             
 sequenceObject
@@ -41202,11 +41210,15 @@ name
 )
 )
             
-names
+prettyNames
 .
 append
 (
-name
+memberType
+.
+prettyName
+(
+)
 )
         
 else
@@ -41314,11 +41326,15 @@ name
 )
 )
             
-names
+prettyNames
 .
 append
 (
-name
+memberType
+.
+prettyName
+(
+)
 )
         
 else
@@ -41361,14 +41377,18 @@ dictionaryMemberTypes
 =
 1
             
-name
+memberType
 =
-getUnionMemberName
-(
 dictionaryMemberTypes
 [
 0
 ]
+            
+name
+=
+getUnionMemberName
+(
+memberType
 )
             
 setDictionary
@@ -41416,11 +41436,15 @@ name
 )
 )
             
-names
+prettyNames
 .
 append
 (
-name
+memberType
+.
+prettyName
+(
+)
 )
         
 else
@@ -41463,14 +41487,18 @@ recordMemberTypes
 =
 1
             
-name
+memberType
 =
-getUnionMemberName
-(
 recordMemberTypes
 [
 0
 ]
+            
+name
+=
+getUnionMemberName
+(
+memberType
 )
             
 recordObject
@@ -41518,11 +41546,15 @@ name
 )
 )
             
-names
+prettyNames
 .
 append
 (
-name
+memberType
+.
+prettyName
+(
+)
 )
         
 else
@@ -41660,7 +41692,7 @@ exceptionCode
 )
 )
             
-names
+prettyNames
 .
 append
 (
@@ -41669,7 +41701,9 @@ objectMemberTypes
 0
 ]
 .
-name
+prettyName
+(
+)
 )
         
 else
@@ -42474,7 +42508,7 @@ names
 .
 join
 (
-names
+prettyNames
 )
 )
 )
@@ -43541,6 +43575,10 @@ type
                     
 ctorArgs
 type
+.
+prettyName
+(
+)
 )
 )
 )
@@ -83347,14 +83385,30 @@ name
     
 sourceDescription
 =
+(
 "
-member
+%
+s
+branch
 of
 %
 s
 "
 %
+                         
+(
+type
+.
+prettyName
+(
+)
 unionType
+.
+prettyName
+(
+)
+)
+)
     
 conversionInfo
 =
