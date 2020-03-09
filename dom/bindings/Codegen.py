@@ -34520,12 +34520,13 @@ mutableSource
 target
             
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
 >
 (
-cx
 "
 %
 s
@@ -37125,12 +37126,13 @@ or
             
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 %
 s
@@ -37173,12 +37175,13 @@ or
             
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
 >
 (
-cx
 "
 %
 s
@@ -37267,12 +37270,13 @@ CGGeneric
 (
             
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_TYPEDARRAY_IS_SHARED
 >
 (
-cx
 "
 %
 s
@@ -37313,12 +37317,13 @@ or
             
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_CALLABLE
 >
 (
-cx
 "
 %
 s
@@ -38153,12 +38158,13 @@ val
 )
 {
                   
+cx
+.
 ThrowErrorMessage
 <
 MSG_PERMISSION_DENIED_TO_PASS_ARG
 >
 (
-cx
 "
 {
 sourceDescription
@@ -38308,12 +38314,13 @@ notSequence
 =
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_SEQUENCE
 >
 (
-cx
 "
 %
 s
@@ -39481,12 +39488,13 @@ notRecord
 =
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 %
 s
@@ -42406,12 +42414,13 @@ done
 )
 {
               
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_IN_UNION
 >
 (
-cx
 "
 {
 desc
@@ -47994,10 +48003,7 @@ enumLoc
             
 sourceDescription
 =
-firstCap
-(
 sourceDescription
-)
 )
         
 setNull
@@ -48857,12 +48863,13 @@ val
 )
 {
                   
+cx
+.
 ThrowErrorMessage
 <
 MSG_PERMISSION_DENIED_TO_PASS_ARG
 >
 (
-cx
 "
 {
 sourceDescription
@@ -50348,12 +50355,13 @@ nonFiniteCode
 =
 (
 '
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_FINITE
 >
 (
-cx
 "
 %
 s
@@ -63083,15 +63091,6 @@ thisv
 "
 )
         
-ourName
-=
-GetLabelForErrorReporting
-(
-descriptor
-idlNode
-isConstructor
-)
-        
 if
 idlNode
 .
@@ -63109,10 +63108,7 @@ argument
 index
 )
 d
-of
 "
-+
-ourName
         
 elif
 setter
@@ -63124,12 +63120,7 @@ argDescription
 value
 being
 assigned
-to
-%
-s
 "
-%
-ourName
         
 else
 :
@@ -63996,7 +63987,12 @@ else
             
 context
 =
-ourName
+GetLabelForErrorReporting
+(
+descriptor
+idlNode
+isConstructor
+)
             
 if
 getter
@@ -66313,10 +66309,7 @@ argDesc
 argument
 %
 d
-of
 "
-+
-methodName
         
 if
 method
@@ -69461,12 +69454,13 @@ CGGeneric
                     
 '
 return
+cx
+.
 ThrowErrorMessage
 <
 MSG_OVERLOAD_RESOLUTION_FAILED
 >
 (
-cx
 "
 %
 d
@@ -69474,10 +69468,6 @@ d
 "
 %
 d
-"
-"
-%
-s
 "
 )
 ;
@@ -69491,7 +69481,6 @@ distinguishingIndex
 +
 1
 argCount
-methodName
 )
 )
 )
@@ -69567,7 +69556,7 @@ argCountCases
                      
 CGGeneric
 (
-fill
+dedent
 (
                          
 "
@@ -69618,17 +69607,13 @@ length
 ;
                          
 return
+cx
+.
 ThrowErrorMessage
 <
 MSG_INVALID_OVERLOAD_ARGCOUNT
 >
 (
-cx
-"
-{
-methodName
-}
-"
 argCountStr
 .
 get
@@ -69640,10 +69625,6 @@ get
 "
 "
 "
-                         
-methodName
-=
-methodName
 )
 )
 )
@@ -77116,12 +77097,13 @@ isObject
 {
               
 return
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 {
 interface
@@ -83639,12 +83621,13 @@ obj
 )
 {
               
+cx
+.
 ThrowErrorMessage
 <
 MSG_PERMISSION_DENIED_TO_PASS_ARG
 >
 (
-cx
 "
 {
 sourceDescription
@@ -83689,8 +83672,8 @@ bool
 Argument
 (
 "
-JSContext
-*
+BindingCallContext
+&
 "
 "
 cx
@@ -110101,12 +110084,13 @@ val
 {
                   
 return
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_DICTIONARY
 >
 (
-cx
 sourceDescription
 )
 ;
@@ -114731,12 +114715,13 @@ doing
 .
                   
 return
+cx
+.
 ThrowErrorMessage
 <
 MSG_MISSING_REQUIRED_DICTIONARY_MEMBER
 >
 (
-cx
 "
 %
 s
@@ -132434,6 +132419,20 @@ false
             
 }
             
+BindingCallContext
+callCx
+(
+cx
+"
+{
+ifaceName
+}
+.
+_create
+"
+)
+;
+            
 if
 (
 !
@@ -132449,21 +132448,16 @@ isObject
 {
               
 return
+callCx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 Argument
 1
-of
-{
-ifaceName
-}
-.
-_create
 "
 )
 ;
@@ -132485,21 +132479,16 @@ isObject
 {
               
 return
+callCx
+.
 ThrowErrorMessage
 <
 MSG_NOT_OBJECT
 >
 (
-cx
 "
 Argument
 2
-of
-{
-ifaceName
-}
-.
-_create
 "
 )
 ;
@@ -143845,21 +143834,16 @@ arg0
 )
 {
                   
+cx
+.
 ThrowErrorMessage
 <
 MSG_NOT_CALLABLE
 >
 (
-cx
 "
 Argument
 1
-of
-{
-ifaceName
-}
-.
-forEach
 "
 )
 ;
