@@ -1649,7 +1649,15 @@ is_open
 pull_request
 )
 and
-        
+(
+            
+has_mirroring_label
+(
+pull_request
+)
+or
+(
+                
 pull_request
 [
 '
@@ -1665,8 +1673,7 @@ not
 in
 AUTOMATION_GITHUB_USERS
 and
-(
-            
+                
 pull_request
 [
 '
@@ -1675,11 +1682,7 @@ author_association
 ]
 in
 TRUSTED_AUTHOR_ASSOCIATIONS
-or
             
-has_mirroring_label
-(
-pull_request
 )
         
 )
