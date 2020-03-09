@@ -1399,6 +1399,9 @@ configuration
 ;
 startProfiler
 (
+"
+aboutprofiling
+"
 )
 ;
 Services

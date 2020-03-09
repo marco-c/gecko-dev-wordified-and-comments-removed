@@ -499,7 +499,7 @@ updatePresets
 const
 {
 presets
-getRecordingPreferencesFromBrowser
+getRecordingPreferences
 }
 =
 lazyBackground
@@ -511,8 +511,11 @@ const
 presetName
 }
 =
-getRecordingPreferencesFromBrowser
+getRecordingPreferences
 (
+"
+aboutprofiling
+"
 )
 ;
 const
@@ -1172,6 +1175,9 @@ click
 {
 startProfiler
 (
+"
+aboutprofiling
+"
 )
 ;
 }
@@ -1285,6 +1291,9 @@ command
 {
 changePreset
 (
+"
+aboutprofiling
+"
 elements
 .
 presetsMenuList
