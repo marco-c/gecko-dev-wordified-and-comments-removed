@@ -1029,11 +1029,6 @@ manifest
 "
 run
 :
-use
--
-caches
-:
-false
 options
 :
 [
@@ -1196,11 +1191,6 @@ manifest
 "
 run
 :
-use
--
-caches
-:
-false
 options
 :
 [

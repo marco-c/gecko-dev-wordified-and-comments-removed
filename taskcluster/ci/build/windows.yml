@@ -65,11 +65,6 @@ run
 using
 :
 mozharness
-use
--
-caches
-:
-false
 tooltool
 -
 downloads
