@@ -57,6 +57,13 @@ file_muted_autoplay
 html
 "
 ;
+const
+testVideoId
+=
+"
+autoplay
+"
+;
 add_task
 (
 async
@@ -94,6 +101,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -126,6 +134,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -143,6 +152,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -200,6 +210,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -230,6 +241,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -246,6 +258,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -303,6 +316,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -333,6 +347,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -349,6 +364,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -380,6 +396,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -411,6 +428,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -468,6 +486,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -501,6 +520,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -518,6 +538,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -550,6 +571,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab3
+testVideoId
 )
 ;
 info
@@ -566,6 +588,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -589,6 +612,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info
@@ -647,6 +671,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab1
+testVideoId
 )
 ;
 info
@@ -679,6 +704,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab2
+testVideoId
 )
 ;
 await
@@ -716,6 +742,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab3
+testVideoId
 )
 ;
 info
@@ -734,12 +761,14 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab1
+testVideoId
 )
 ;
 await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab2
+testVideoId
 )
 ;
 info

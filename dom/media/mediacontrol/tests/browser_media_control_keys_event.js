@@ -25,6 +25,13 @@ file_autoplay
 html
 "
 ;
+const
+testVideoId
+=
+"
+autoplay
+"
+;
 add_task
 (
 async
@@ -89,6 +96,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -113,6 +121,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -137,6 +146,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -161,6 +171,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -208,6 +219,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -232,6 +244,7 @@ await
 checkOrWaitUntilMediaStoppedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
@@ -256,6 +269,7 @@ await
 checkOrWaitUntilMediaStartedPlaying
 (
 tab
+testVideoId
 )
 ;
 info
