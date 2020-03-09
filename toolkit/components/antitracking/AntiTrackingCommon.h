@@ -330,7 +330,7 @@ IsOnContentBlockingAllowList
 (
 nsIPrincipal
 *
-aTopWinPrincipal
+aContentBlockingAllowListPrincipal
 bool
 aIsPrivateBrowsing
 bool
