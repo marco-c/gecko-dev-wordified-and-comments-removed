@@ -21801,6 +21801,15 @@ const
 {
 if
 (
+IsContextLost
+(
+)
+)
+return
+false
+;
+if
+(
 mCanvasElement
 &
 &
