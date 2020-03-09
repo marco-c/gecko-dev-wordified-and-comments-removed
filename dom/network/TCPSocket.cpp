@@ -292,8 +292,9 @@ LegacyMozTCPSocket
 LegacyMozTCPSocket
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 TCPSocket
@@ -1594,8 +1595,9 @@ private
 CopierCallbacks
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS

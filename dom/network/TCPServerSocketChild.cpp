@@ -123,8 +123,9 @@ TCPServerSocketChildBase
 TCPServerSocketChildBase
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP_
 (
 MozExternalRefCountType
@@ -285,8 +286,9 @@ TCPServerSocketChild
 TCPServerSocketChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

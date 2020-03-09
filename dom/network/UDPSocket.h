@@ -454,8 +454,9 @@ virtual
 ListenerProxy
 (
 )
-{
-}
+=
+default
+;
 UDPSocket
 *
 mSocket

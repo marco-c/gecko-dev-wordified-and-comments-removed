@@ -195,8 +195,9 @@ TCPServerSocket
 TCPServerSocket
 (
 )
-{
-}
+=
+default
+;
 nsresult
 TCPServerSocket
 :

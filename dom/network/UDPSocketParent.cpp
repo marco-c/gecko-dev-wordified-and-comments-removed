@@ -179,8 +179,9 @@ UDPSocketParent
 UDPSocketParent
 (
 )
-{
-}
+=
+default
+;
 bool
 UDPSocketParent
 :

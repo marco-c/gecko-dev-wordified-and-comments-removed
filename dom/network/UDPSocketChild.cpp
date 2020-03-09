@@ -142,8 +142,9 @@ UDPSocketChildBase
 UDPSocketChildBase
 (
 )
-{
-}
+=
+default
+;
 void
 UDPSocketChildBase
 :
@@ -271,8 +272,9 @@ UDPSocketChild
 UDPSocketChild
 (
 )
-{
-}
+=
+default
+;
 nsresult
 UDPSocketChild
 :

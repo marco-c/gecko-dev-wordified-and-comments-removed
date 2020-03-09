@@ -177,8 +177,9 @@ TCPServerSocketParent
 TCPServerSocketParent
 (
 )
-{
-}
+=
+default
+;
 void
 TCPServerSocketParent
 :

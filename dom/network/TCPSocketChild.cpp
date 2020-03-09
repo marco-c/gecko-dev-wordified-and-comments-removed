@@ -560,8 +560,9 @@ TCPSocketChild
 TCPSocketChild
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :
