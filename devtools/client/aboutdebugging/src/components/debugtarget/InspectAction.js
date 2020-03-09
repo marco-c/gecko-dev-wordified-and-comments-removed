@@ -172,7 +172,7 @@ debugTarget
 isRequired
 title
 :
-Types
+PropTypes
 .
 string
 }
