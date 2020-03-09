@@ -166,6 +166,15 @@ include
 "
 mozilla
 /
+AntiTrackingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ArrayUtils
 .
 h
@@ -98587,7 +98596,7 @@ aPrincipal
 nsAutoCString
 prefix
 ;
-AntiTrackingCommon
+AntiTrackingUtils
 :
 :
 CreateStoragePermissionKey
