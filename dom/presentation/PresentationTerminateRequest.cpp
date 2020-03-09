@@ -67,8 +67,9 @@ PresentationTerminateRequest
 PresentationTerminateRequest
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationTerminateRequest
 :

@@ -142,8 +142,9 @@ private
 CopierCallbacks
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 PresentationTCPSessionTransport
@@ -288,8 +289,9 @@ PresentationTCPSessionTransport
 PresentationTCPSessionTransport
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationTCPSessionTransport
 :

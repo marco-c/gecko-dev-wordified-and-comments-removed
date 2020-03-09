@@ -192,8 +192,9 @@ Presentation
 Presentation
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 Presentation

@@ -153,8 +153,9 @@ PresentationRequesterCallback
 PresentationRequesterCallback
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationRequesterCallback
 :
@@ -331,8 +332,9 @@ PresentationReconnectCallback
 PresentationReconnectCallback
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationReconnectCallback
 :

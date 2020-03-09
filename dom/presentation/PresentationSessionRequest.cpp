@@ -69,8 +69,9 @@ PresentationSessionRequest
 PresentationSessionRequest
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 PresentationSessionRequest
 :

@@ -312,8 +312,9 @@ PresentationParent
 PresentationParent
 (
 )
-{
-}
+=
+default
+;
 PresentationParent
 :
 :
@@ -321,8 +322,9 @@ PresentationParent
 PresentationParent
 (
 )
-{
-}
+=
+default
+;
 bool
 PresentationParent
 :
@@ -1674,8 +1676,9 @@ PresentationRequestParent
 PresentationRequestParent
 (
 )
-{
-}
+=
+default
+;
 void
 PresentationRequestParent
 :

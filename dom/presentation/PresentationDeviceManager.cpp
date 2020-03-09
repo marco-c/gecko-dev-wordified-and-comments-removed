@@ -104,8 +104,9 @@ PresentationDeviceManager
 PresentationDeviceManager
 (
 )
-{
-}
+=
+default
+;
 PresentationDeviceManager
 :
 :

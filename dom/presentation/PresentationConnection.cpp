@@ -307,8 +307,9 @@ PresentationConnection
 PresentationConnection
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 PresentationConnection

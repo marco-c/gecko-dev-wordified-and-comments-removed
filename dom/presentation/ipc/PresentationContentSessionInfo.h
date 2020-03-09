@@ -149,8 +149,9 @@ virtual
 PresentationContentSessionInfo
 (
 )
-{
-}
+=
+default
+;
 nsString
 mSessionId
 ;
