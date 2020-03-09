@@ -573,7 +573,7 @@ HasDebugScript
 <
 <
 13
-DoNotRelazify
+AllowRelazify
 =
 1
 <
