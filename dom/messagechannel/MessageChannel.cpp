@@ -140,8 +140,9 @@ MessageChannel
 MessageChannel
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 MessageChannel
