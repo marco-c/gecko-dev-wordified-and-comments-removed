@@ -345,6 +345,11 @@ PSpdyPush
 h
 '
 '
+SimpleHttpChannel
+.
+h
+'
+'
 TimingStruct
 .
 h
@@ -643,7 +648,7 @@ QuicSocketControl
 cpp
 '
 '
-TRRServiceChannel
+SimpleHttpChannel
 .
 cpp
 '
