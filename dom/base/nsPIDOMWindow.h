@@ -1992,14 +1992,6 @@ SuspendTypes
 aSuspend
 )
 ;
-bool
-IsDisposableSuspend
-(
-SuspendTypes
-aSuspend
-)
-const
-;
 void
 MaybeNotifyMediaResumedFromBlock
 (

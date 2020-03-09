@@ -154,14 +154,6 @@ GetMediaConfig
 )
 const
 ;
-bool
-IsDisposableSuspend
-(
-nsSuspendedTypes
-aSuspend
-)
-const
-;
 already_AddRefed
 <
 nsIAudioChannelAgentCallback
