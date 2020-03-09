@@ -9,11 +9,13 @@ pipes
 import
 re
 from
+.
 progressbar
 import
 NullProgressBar
 ProgressBar
 from
+.
 structuredlog
 import
 TestLogger

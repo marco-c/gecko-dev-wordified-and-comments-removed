@@ -197,9 +197,6 @@ import
 -
 pr
 install
-jit
--
-test
 jsapi
 -
 tests
