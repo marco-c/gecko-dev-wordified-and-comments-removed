@@ -7,6 +7,8 @@ unicode_literals
 import
 codecs
 import
+io
+import
 itertools
 import
 logging
@@ -923,6 +925,8 @@ sanitized_config
 )
     
 with
+io
+.
 open
 (
 '
@@ -932,6 +936,20 @@ in
 '
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
+'
+                 
+newline
+=
+'
+\
+n
 '
 )
 as

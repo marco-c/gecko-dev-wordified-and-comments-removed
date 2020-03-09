@@ -7,6 +7,8 @@ unicode_literals
 import
 errno
 import
+io
+import
 json
 import
 os
@@ -1482,12 +1484,16 @@ does
         
 filenames
 =
+list
+(
+six
+.
+iterkeys
+(
 self
 .
 _files
-.
-keys
-(
+)
 )
         
 for
@@ -1678,15 +1684,28 @@ k2
 =
 normalized
         
+to_write
+=
+six
+.
+ensure_text
+(
 json
 .
-dump
+dumps
 (
 obj
-fh
 indent
 =
 2
+)
+)
+        
+fh
+.
+write
+(
+to_write
 )
     
 def
@@ -1831,11 +1850,20 @@ file
 "
         
 with
+io
+.
 open
 (
 filename
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
@@ -1908,11 +1936,26 @@ EEXIST
 raise
         
 with
+io
+.
 open
 (
 filename
 '
 w
+'
+encoding
+=
+'
+utf
+-
+8
+'
+newline
+=
+'
+\
+n
 '
 )
 as
