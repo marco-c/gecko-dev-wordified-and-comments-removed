@@ -534,6 +534,14 @@ offline
 )
 ;
 async
+InitLinuxSandbox
+(
+FileDescriptor
+?
+sandboxBroker
+)
+;
+async
 InitSocketProcessBridgeParent
 (
 ProcessId
