@@ -1588,9 +1588,6 @@ GenerateComputedDOMStyleGenerated
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
@@ -1621,9 +1618,6 @@ GenerateCSSPropsGenerated
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
