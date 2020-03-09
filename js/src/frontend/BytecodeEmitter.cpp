@@ -57688,10 +57688,7 @@ rather
 than
 /
 /
-NewBuiltinClassInstance
-<
-PlainObject
->
+NewPlainObjectWithProperties
 .
 flags
 +
