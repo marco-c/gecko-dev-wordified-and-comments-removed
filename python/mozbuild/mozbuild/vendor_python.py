@@ -595,6 +595,11 @@ as
 f
 :
             
+comments
+=
+[
+]
+            
 for
 line
 in
@@ -605,14 +610,41 @@ readlines
 )
 :
                 
+line
+=
+line
+.
+strip
+(
+)
+                
+if
+not
+line
+or
+line
+.
+startswith
+(
+'
+#
+'
+)
+:
+                    
+comments
+.
+append
+(
+line
+)
+                    
+continue
+                
 name
 version
 =
 line
-.
-rstrip
-(
-)
 .
 split
 (
@@ -628,6 +660,12 @@ name
 ]
 =
 version
+comments
+                
+comments
+=
+[
+]
         
 for
 package
@@ -654,6 +692,8 @@ name
 ]
 =
 version
+[
+]
         
 with
 open
@@ -669,7 +709,10 @@ f
             
 for
 name
+(
 version
+comments
+)
 in
 sorted
 (
@@ -680,6 +723,35 @@ items
 )
 )
 :
+                
+if
+comments
+:
+                    
+f
+.
+write
+(
+'
+{
+}
+\
+n
+'
+.
+format
+(
+'
+\
+n
+'
+.
+join
+(
+comments
+)
+)
+)
                 
 f
 .
