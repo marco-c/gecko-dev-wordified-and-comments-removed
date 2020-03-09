@@ -3759,10 +3759,8 @@ transactionsThatNeedWarning
 ;
 for
 (
-RefPtr
-<
-IDBTransaction
->
+const
+auto
 &
 transaction
 :
