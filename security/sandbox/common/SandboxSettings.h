@@ -12,6 +12,11 @@ GetEffectiveContentSandboxLevel
 (
 )
 ;
+int
+GetEffectiveSocketProcessSandboxLevel
+(
+)
+;
 bool
 IsContentSandboxEnabled
 (
