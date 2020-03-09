@@ -1273,6 +1273,8 @@ false
 if
 (
 !
+BrowserUtils
+.
 checkEmptyPageOrigin
 (
 browser
