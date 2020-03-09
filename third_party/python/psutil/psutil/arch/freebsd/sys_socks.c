@@ -1109,10 +1109,9 @@ py_tuple
 Py_BuildValue
 (
 "
-(
-iiiNNii
-)
+iiiNNi
 "
+_Py_PARSE_PID
 xf
 -
 >
@@ -1147,7 +1146,7 @@ py_tuple
 goto
 error
 ;
-Py_DECREF
+Py_CLEAR
 (
 py_tuple
 )

@@ -1,7 +1,7 @@
 "
 "
 "
-OSX
+macOS
 platform
 implementation
 .
@@ -16,10 +16,6 @@ import
 functools
 import
 os
-from
-socket
-import
-AF_INET
 from
 collections
 import
@@ -48,12 +44,17 @@ from
 .
 _common
 import
-AF_INET6
+AccessDenied
 from
 .
 _common
 import
 conn_tmap
+from
+.
+_common
+import
+conn_to_ntuple
 from
 .
 _common
@@ -68,17 +69,12 @@ from
 .
 _common
 import
+NoSuchProcess
+from
+.
+_common
+import
 parse_environ_block
-from
-.
-_common
-import
-sockfam_to_enum
-from
-.
-_common
-import
-socktype_to_enum
 from
 .
 _common
@@ -86,19 +82,19 @@ import
 usage_percent
 from
 .
-_exceptions
-import
-AccessDenied
-from
-.
-_exceptions
-import
-NoSuchProcess
-from
-.
-_exceptions
+_common
 import
 ZombieProcess
+from
+.
+_compat
+import
+PermissionError
+from
+.
+_compat
+import
+ProcessLookupError
 __extra__all__
 =
 [
@@ -445,48 +441,6 @@ uss
 '
 )
 )
-pmmap_grouped
-=
-namedtuple
-(
-    
-'
-pmmap_grouped
-'
-    
-'
-path
-rss
-private
-swapped
-dirtied
-ref_count
-shadow_depth
-'
-)
-pmmap_ext
-=
-namedtuple
-(
-    
-'
-pmmap_ext
-'
-'
-addr
-perms
-'
-+
-'
-'
-.
-join
-(
-pmmap_grouped
-.
-_fields
-)
-)
 def
 virtual_memory
 (
@@ -512,6 +466,7 @@ active
 inactive
 wired
 free
+speculative
 =
 cext
 .
@@ -529,9 +484,12 @@ used
 =
 active
 +
-inactive
-+
 wired
+    
+free
+-
+=
+speculative
     
 percent
 =
@@ -543,7 +501,7 @@ total
 avail
 )
 total
-_round
+round_
 =
 1
 )
@@ -606,7 +564,7 @@ usage_percent
 (
 used
 total
-_round
+round_
 =
 1
 )
@@ -829,7 +787,7 @@ frequency
 .
     
 On
-OSX
+macOS
 per
 -
 cpu
@@ -1034,7 +992,6 @@ Return
 battery
 information
 .
-    
 "
 "
 "
@@ -1259,6 +1216,9 @@ in
 names
 :
         
+try
+:
+            
 mtu
 =
 cext_posix
@@ -1267,7 +1227,7 @@ net_if_mtu
 (
 name
 )
-        
+            
 isup
 =
 cext_posix
@@ -1276,7 +1236,7 @@ net_if_flags
 (
 name
 )
-        
+            
 duplex
 speed
 =
@@ -1287,6 +1247,28 @@ net_if_duplex_speed
 name
 )
         
+except
+OSError
+as
+err
+:
+            
+if
+err
+.
+errno
+!
+=
+errno
+.
+ENODEV
+:
+                
+raise
+        
+else
+:
+            
 if
 hasattr
 (
@@ -1296,7 +1278,7 @@ NicDuplex
 '
 )
 :
-            
+                
 duplex
 =
 _common
@@ -1305,7 +1287,7 @@ NicDuplex
 (
 duplex
 )
-        
+            
 ret
 [
 name
@@ -1482,8 +1464,9 @@ create_time
             
 ls
 .
-append
+insert
 (
+0
 0
 )
         
@@ -1499,8 +1482,9 @@ AccessDenied
             
 ls
 .
-append
+insert
 (
+0
 0
 )
     
@@ -1572,22 +1556,9 @@ kwargs
 )
         
 except
-OSError
-as
-err
+ProcessLookupError
 :
             
-if
-err
-.
-errno
-=
-=
-errno
-.
-ESRCH
-:
-                
 raise
 NoSuchProcess
 (
@@ -1598,22 +1569,11 @@ self
 .
 _name
 )
-            
-if
-err
-.
-errno
-in
-(
-errno
-.
-EPERM
-errno
-.
-EACCES
-)
+        
+except
+PermissionError
 :
-                
+            
 raise
 AccessDenied
 (
@@ -1624,8 +1584,26 @@ self
 .
 _name
 )
+        
+except
+cext
+.
+ZombieProcessError
+:
             
 raise
+ZombieProcess
+(
+self
+.
+pid
+self
+.
+_name
+self
+.
+_ppid
+)
     
 return
 wrapper
@@ -1834,6 +1812,9 @@ _name
 "
 _ppid
 "
+"
+_cache
+"
 ]
     
 def
@@ -1861,6 +1842,8 @@ self
 _ppid
 =
 None
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -1896,6 +1879,8 @@ kinfo_proc_map
         
 return
 ret
+    
+wrap_exceptions
     
 memoize_when_activated
     
@@ -1952,6 +1937,7 @@ _get_kinfo_proc
 .
 cache_activate
 (
+self
 )
         
 self
@@ -1960,6 +1946,7 @@ _get_pidtaskinfo
 .
 cache_activate
 (
+self
 )
     
 def
@@ -1975,6 +1962,7 @@ _get_kinfo_proc
 .
 cache_deactivate
 (
+self
 )
         
 self
@@ -1983,6 +1971,7 @@ _get_pidtaskinfo
 .
 cache_deactivate
 (
+self
 )
     
 wrap_exceptions
@@ -2744,69 +2733,9 @@ status
 =
 item
             
-status
-=
-TCP_STATUSES
-[
-status
-]
-            
-fam
-=
-sockfam_to_enum
-(
-fam
-)
-            
-type
-=
-socktype_to_enum
-(
-type
-)
-            
-if
-fam
-in
-(
-AF_INET
-AF_INET6
-)
-:
-                
-if
-laddr
-:
-                    
-laddr
-=
-_common
-.
-addr
-(
-*
-laddr
-)
-                
-if
-raddr
-:
-                    
-raddr
-=
-_common
-.
-addr
-(
-*
-raddr
-)
-            
 nt
 =
-_common
-.
-pconn
+conn_to_ntuple
 (
 fd
 fam
@@ -2814,6 +2743,8 @@ type
 laddr
 raddr
 status
+                                
+TCP_STATUSES
 )
             
 ret
@@ -2989,13 +2920,6 @@ self
 )
 :
         
-with
-catch_zombie
-(
-self
-)
-:
-            
 rawlist
 =
 cext
@@ -3040,29 +2964,3 @@ ntuple
         
 return
 retlist
-    
-wrap_exceptions
-    
-def
-memory_maps
-(
-self
-)
-:
-        
-with
-catch_zombie
-(
-self
-)
-:
-            
-return
-cext
-.
-proc_memory_maps
-(
-self
-.
-pid
-)

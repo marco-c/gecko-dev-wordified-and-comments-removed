@@ -721,7 +721,7 @@ m
 pkg_add
 -
 v
-python3
+python
 gcc
 python3
 -

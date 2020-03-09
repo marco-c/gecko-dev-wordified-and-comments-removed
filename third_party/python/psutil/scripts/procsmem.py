@@ -657,8 +657,6 @@ p
 .
 as_dict
 (
-attrs
-=
 [
 "
 cmdline

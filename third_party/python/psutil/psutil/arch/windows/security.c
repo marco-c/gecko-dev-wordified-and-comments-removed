@@ -402,11 +402,6 @@ psutil_set_se_debug
 HANDLE
 hToken
 ;
-int
-err
-=
-1
-;
 if
 (
 (

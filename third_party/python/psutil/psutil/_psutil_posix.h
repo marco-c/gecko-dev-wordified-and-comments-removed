@@ -1,14 +1,14 @@
 int
 psutil_pid_exists
 (
-long
+pid_t
 pid
 )
 ;
 void
 psutil_raise_for_pid
 (
-long
+pid_t
 pid
 char
 *

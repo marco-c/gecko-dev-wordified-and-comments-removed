@@ -198,7 +198,7 @@ sh
 (
 "
 git
-tags
+tag
 "
 )
     

@@ -347,7 +347,9 @@ exist
 C
 :
 \
-Python37
+Python38
+-
+64
 \
 python
 .
@@ -360,7 +362,9 @@ PYTHON
 C
 :
 \
-Python37
+Python38
+-
+64
 \
 python
 .
@@ -399,7 +403,7 @@ psutil
 \
 tests
 \
-__main__
+runner
 .
 py
 )

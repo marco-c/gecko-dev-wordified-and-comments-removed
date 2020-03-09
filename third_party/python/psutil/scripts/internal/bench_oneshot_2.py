@@ -25,7 +25,7 @@ precise
 import
 sys
 import
-perf
+pyperf
 import
 psutil
 from
@@ -114,7 +114,7 @@ main
     
 runner
 =
-perf
+pyperf
 .
 Runner
 (

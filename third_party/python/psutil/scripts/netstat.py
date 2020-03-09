@@ -309,8 +309,6 @@ psutil
 .
 process_iter
 (
-attrs
-=
 [
 '
 pid

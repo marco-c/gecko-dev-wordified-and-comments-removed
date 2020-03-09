@@ -73,13 +73,6 @@ h
 #
 include
 "
-process_info
-.
-h
-"
-#
-include
-"
 .
 .
 /
@@ -100,6 +93,13 @@ include
 .
 /
 _psutil_posix
+.
+h
+"
+#
+include
+"
+process_info
 .
 h
 "
@@ -475,7 +475,7 @@ return
 int
 psutil_is_zombie
 (
-long
+pid_t
 pid
 )
 {
@@ -520,7 +520,7 @@ PyObject
 *
 psutil_get_cmdline
 (
-long
+pid_t
 pid
 )
 {
@@ -645,9 +645,6 @@ mib
 2
 ]
 =
-(
-pid_t
-)
 pid
 ;
 if
@@ -686,6 +683,7 @@ pid
 NoSuchProcess
 (
 "
+sysctl
 "
 )
 ;
@@ -919,7 +917,7 @@ PyObject
 *
 psutil_get_environ
 (
-long
+pid_t
 pid
 )
 {
@@ -1035,9 +1033,6 @@ mib
 2
 ]
 =
-(
-pid_t
-)
 pid
 ;
 if
@@ -1076,6 +1071,7 @@ pid
 NoSuchProcess
 (
 "
+sysctl
 "
 )
 ;
@@ -1400,7 +1396,7 @@ NULL
 int
 psutil_get_kinfo_proc
 (
-long
+pid_t
 pid
 struct
 kinfo_proc
@@ -1443,9 +1439,6 @@ mib
 3
 ]
 =
-(
-pid_t
-)
 pid
 ;
 len
@@ -1495,6 +1488,13 @@ len
 NoSuchProcess
 (
 "
+sysctl
+(
+len
+=
+=
+0
+)
 "
 )
 ;
@@ -1510,7 +1510,7 @@ return
 int
 psutil_proc_pidinfo
 (
-long
+pid_t
 pid
 int
 flavor
@@ -1532,9 +1532,6 @@ ret
 =
 proc_pidinfo
 (
-(
-int
-)
 pid
 flavor
 arg

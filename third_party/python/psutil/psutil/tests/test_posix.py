@@ -67,7 +67,7 @@ psutil
 .
 tests
 import
-APPVEYOR
+CI_TESTING
 from
 psutil
 .
@@ -273,21 +273,23 @@ SUNOS
         
 fmt_map
 =
-{
+set
+(
+(
 '
 command
 '
 '
 comm
 '
-                   
 '
 start
 '
 '
 stime
 '
-}
+)
+)
         
 fmt
 =
@@ -2310,9 +2312,7 @@ unittest
 .
 skipIf
 (
-APPVEYOR
-or
-TRAVIS
+CI_TESTING
 and
 not
 psutil
@@ -2320,13 +2320,10 @@ psutil
 users
 (
 )
-                     
 "
 unreliable
 on
-APPVEYOR
-or
-TRAVIS
+CI
 "
 )
     
@@ -2360,6 +2357,25 @@ split
 \
 n
 '
+)
+        
+if
+not
+lines
+:
+            
+raise
+self
+.
+skipTest
+(
+"
+no
+users
+on
+this
+system
+"
 )
         
 users

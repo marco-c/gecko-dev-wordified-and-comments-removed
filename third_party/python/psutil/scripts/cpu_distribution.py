@@ -479,8 +479,6 @@ psutil
 .
 process_iter
 (
-attrs
-=
 [
 '
 name
