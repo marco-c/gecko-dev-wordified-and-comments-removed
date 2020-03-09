@@ -160,10 +160,13 @@ _
 in
 enumerate
 (
+sorted
+(
 processes
 .
-iteritems
+items
 (
+)
 )
 )
 :
