@@ -928,9 +928,6 @@ gen_histogram_phf
 .
 py
 '
-py2
-=
-True
 inputs
 =
 histogram_files
