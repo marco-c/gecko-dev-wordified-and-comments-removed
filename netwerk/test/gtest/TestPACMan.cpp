@@ -237,8 +237,8 @@ NS_DECL_NSIDHCPCLIENT
 nsTestDHCPClient
 (
 )
-{
-}
+=
+default
 ;
 nsresult
 Init
@@ -256,8 +256,8 @@ private
 nsTestDHCPClient
 (
 )
-{
-}
+=
+default
 ;
 }
 ;

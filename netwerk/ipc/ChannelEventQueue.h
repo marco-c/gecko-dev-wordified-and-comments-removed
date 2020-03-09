@@ -661,8 +661,9 @@ private
 ChannelEventQueue
 (
 )
-{
-}
+=
+default
+;
 void
 SuspendInternal
 (
