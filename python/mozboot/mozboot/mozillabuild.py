@@ -314,7 +314,19 @@ False
 )
 :
         
+try
+:
+            
 import
+_winreg
+        
+except
+ImportError
+:
+            
+import
+winreg
+as
 _winreg
         
 key
@@ -363,17 +375,18 @@ CloseKey
 key
 )
         
-os
+from
+mach
 .
-environ
-[
+util
+import
+setenv
+        
+setenv
+(
 '
 PATH
 '
-]
-=
-\
-            
 '
 {
 }
@@ -399,7 +412,7 @@ bin
 os
 .
 pathsep
-                            
+                                       
 os
 .
 environ
@@ -409,12 +422,6 @@ PATH
 '
 ]
 )
-.
-encode
-(
-'
-mbcs
-'
 )
         
 self
