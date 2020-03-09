@@ -343,12 +343,10 @@ translation_utils
 :
 {
 get_vmctx_value_label
-DataIndex
 DefinedFuncIndex
 DefinedGlobalIndex
 DefinedMemoryIndex
 DefinedTableIndex
-ElemIndex
 FuncIndex
 Global
 GlobalIndex

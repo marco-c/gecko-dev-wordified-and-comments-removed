@@ -5483,7 +5483,7 @@ instruction
 is
 inserted
 in
-a
+an
 block
 .
 if

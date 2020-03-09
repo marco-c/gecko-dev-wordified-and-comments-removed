@@ -129,7 +129,6 @@ let
 mut
 must_align
 =
-!
 is_leaf
 ;
 for
@@ -579,7 +578,7 @@ new
 let
 is_leaf
 =
-false
+true
 ;
 assert_eq
 !

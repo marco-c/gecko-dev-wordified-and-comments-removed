@@ -1366,6 +1366,7 @@ self
 >
 bool
 {
+!
 self
 .
 dfg

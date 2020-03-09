@@ -846,10 +846,9 @@ return
 Err
 (
 BinaryReaderError
+{
+message
 :
-:
-new
-(
 "
 Function
 body
@@ -861,6 +860,8 @@ the
 code
 section
 "
+offset
+:
 self
 .
 reader
@@ -876,7 +877,7 @@ buffer
 len
 (
 )
-)
+}
 )
 ;
 }

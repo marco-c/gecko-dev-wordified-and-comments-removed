@@ -115,7 +115,6 @@ NearestF64
 Memcpy
 Memset
 Memmove
-ElfTlsGetAddr
 }
 impl
 fmt
@@ -335,18 +334,6 @@ Self
 :
 :
 Memmove
-)
-"
-ElfTlsGetAddr
-"
-=
->
-Ok
-(
-Self
-:
-:
-ElfTlsGetAddr
 )
 _
 =

@@ -13,7 +13,7 @@ version
 "
 0
 .
-59
+58
 .
 0
 "
@@ -110,9 +110,9 @@ version
 "
 0
 .
-51
+48
 .
-0
+2
 "
 default
 -
@@ -131,6 +131,8 @@ path
 .
 .
 /
+cranelift
+-
 codegen
 "
 version
@@ -138,7 +140,7 @@ version
 "
 0
 .
-59
+58
 .
 0
 "
@@ -159,6 +161,8 @@ path
 .
 .
 /
+cranelift
+-
 entity
 "
 version
@@ -166,7 +170,7 @@ version
 "
 0
 .
-59
+58
 .
 0
 "
@@ -182,6 +186,8 @@ path
 .
 .
 /
+cranelift
+-
 frontend
 "
 version
@@ -189,7 +195,7 @@ version
 "
 0
 .
-59
+58
 .
 0
 "
@@ -275,7 +281,7 @@ wat
 .
 0
 .
-9
+7
 "
 target
 -
