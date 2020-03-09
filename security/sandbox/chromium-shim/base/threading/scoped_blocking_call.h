@@ -13,6 +13,15 @@ base_export
 .
 h
 "
+#
+include
+"
+base
+/
+location
+.
+h
+"
 namespace
 base
 {
@@ -32,6 +41,10 @@ public
 :
 ScopedBlockingCall
 (
+const
+Location
+&
+from_here
 BlockingType
 blocking_type
 )

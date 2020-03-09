@@ -272,6 +272,14 @@ chromium
 shim
 '
 ]
+OS_LIBS
++
+=
+[
+'
+version
+'
+]
 USE_LIBS
 +
 =
