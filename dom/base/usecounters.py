@@ -4,6 +4,8 @@ import
 collections
 import
 re
+from
+six
 import
 StringIO
 import

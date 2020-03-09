@@ -2920,9 +2920,6 @@ usecounters
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
@@ -2954,9 +2951,6 @@ usecounters
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '
