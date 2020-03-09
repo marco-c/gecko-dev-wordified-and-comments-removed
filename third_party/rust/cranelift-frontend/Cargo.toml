@@ -23,7 +23,7 @@ version
 "
 0
 .
-58
+59
 .
 0
 "
@@ -112,8 +112,6 @@ path
 .
 .
 /
-cranelift
--
 codegen
 "
 version
@@ -121,7 +119,7 @@ version
 "
 0
 .
-58
+59
 .
 0
 "

@@ -678,12 +678,12 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 rev
 =
 "
-98c818c129979e98a3db150f8f9698f6451b7ef7
+135a48ca7e9a45d7d31911753e602e6de8b14e2a
 "
 [
 patch
@@ -709,10 +709,10 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 rev
 =
 "
-98c818c129979e98a3db150f8f9698f6451b7ef7
+135a48ca7e9a45d7d31911753e602e6de8b14e2a
 "

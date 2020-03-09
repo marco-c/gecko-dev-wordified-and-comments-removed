@@ -194,6 +194,7 @@ ParserState
 :
 Error
 (
+ref
 e
 )
 =
@@ -205,8 +206,6 @@ panic
 unexpected
 error
 {
-:
-?
 }
 "
 e

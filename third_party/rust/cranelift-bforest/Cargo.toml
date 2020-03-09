@@ -23,7 +23,7 @@ version
 "
 0
 .
-58
+59
 .
 0
 "
@@ -131,8 +131,6 @@ path
 .
 .
 /
-cranelift
--
 entity
 "
 version
@@ -140,7 +138,7 @@ version
 "
 0
 .
-58
+59
 .
 0
 "

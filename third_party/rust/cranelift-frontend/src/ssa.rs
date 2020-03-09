@@ -3054,7 +3054,7 @@ as
 a
 predecessor
 to
-an
+a
 block
 "
 )

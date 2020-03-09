@@ -236,9 +236,10 @@ return
 Err
 (
 BinaryReaderError
-{
-message
 :
+:
+new
+(
 "
 Data
 segment
@@ -250,8 +251,6 @@ the
 data
 section
 "
-offset
-:
 self
 .
 reader
@@ -267,7 +266,7 @@ buffer
 len
 (
 )
-}
+)
 )
 ;
 }
@@ -363,9 +362,10 @@ return
 Err
 (
 BinaryReaderError
-{
-message
 :
+:
+new
+(
 "
 invalid
 flags
@@ -374,8 +374,6 @@ in
 data
 segment
 "
-offset
-:
 self
 .
 reader
@@ -385,7 +383,7 @@ original_position
 )
 -
 1
-}
+)
 )
 ;
 }
