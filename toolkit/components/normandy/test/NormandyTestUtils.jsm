@@ -553,11 +553,6 @@ NormandyUtils
 generateUuid
 (
 )
-actionName
-:
-"
-PreferenceExperimentAction
-"
 }
 attrs
 {
