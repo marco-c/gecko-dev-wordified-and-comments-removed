@@ -3133,7 +3133,6 @@ NS_GetFilenameFromDisposition
 (
 aContentDispositionFilename
 header
-mURI
 )
 ;
 }

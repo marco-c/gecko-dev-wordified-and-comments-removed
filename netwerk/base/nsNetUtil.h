@@ -2891,11 +2891,6 @@ const
 nsACString
 &
 aDisposition
-nsIURI
-*
-aURI
-=
-nullptr
 )
 ;
 void

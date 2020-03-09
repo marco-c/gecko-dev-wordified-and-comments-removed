@@ -12883,9 +12883,6 @@ const
 nsACString
 &
 aDisposition
-nsIURI
-*
-aURI
 )
 {
 aFilename
