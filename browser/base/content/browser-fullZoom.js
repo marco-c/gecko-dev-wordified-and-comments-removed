@@ -890,7 +890,7 @@ this
 .
 _applyPrefToZoom
 (
-undefined
+1
 browser
 this
 .
@@ -1498,6 +1498,9 @@ gBrowser
 selectedBrowser
 )
 {
+let
+forceValue
+;
 if
 (
 browser
@@ -1554,6 +1557,10 @@ ZoomReset
 "
 )
 ;
+forceValue
+=
+1
+;
 }
 let
 token
@@ -1592,6 +1599,9 @@ ZoomManager
 setZoomForBrowser
 (
 browser
+forceValue
+|
+|
 value
 )
 ;
