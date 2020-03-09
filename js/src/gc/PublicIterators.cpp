@@ -666,13 +666,13 @@ MOZ_ASSERT_IF
 lazyScript
 -
 >
-hasEnclosingLazyScript
+hasEnclosingScript
 (
 )
 lazyScript
 -
 >
-enclosingLazyScript
+enclosingScript
 (
 )
 =

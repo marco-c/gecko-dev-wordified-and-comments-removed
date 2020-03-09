@@ -363,7 +363,7 @@ ScriptWarmUpData
 :
 initEnclosingScript
 (
-LazyScript
+BaseScript
 *
 enclosingScript
 )
@@ -397,13 +397,13 @@ gc
 :
 :
 TenuredCell
-LazyScript
+BaseScript
 >
 :
 :
 value
 "
-LazyScript
+BaseScript
 must
 be
 TenuredCell
@@ -425,7 +425,7 @@ clearEnclosingScript
 (
 )
 {
-LazyScript
+BaseScript
 :
 :
 writeBarrierPre

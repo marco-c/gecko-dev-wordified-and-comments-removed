@@ -3566,7 +3566,7 @@ setEnclosingLazyScript
 js
 :
 :
-LazyScript
+BaseScript
 *
 enclosingScript
 )
@@ -3576,7 +3576,7 @@ baseScript
 )
 -
 >
-setEnclosingLazyScript
+setEnclosingScript
 (
 enclosingScript
 )
@@ -3739,7 +3739,7 @@ initLazyScript
 js
 :
 :
-LazyScript
+BaseScript
 *
 lazy
 )

@@ -5775,7 +5775,7 @@ TagMask
 JitScriptTag
 ;
 }
-LazyScript
+BaseScript
 *
 toEnclosingScript
 (
@@ -5785,7 +5785,7 @@ const
 return
 getTaggedPtr
 <
-LazyScript
+BaseScript
 *
 EnclosingScriptTag
 >
@@ -5797,7 +5797,7 @@ inline
 void
 initEnclosingScript
 (
-LazyScript
+BaseScript
 *
 enclosingScript
 )
@@ -9342,7 +9342,7 @@ setArgumentsHasVarBinding
 )
 ;
 bool
-hasEnclosingLazyScript
+hasEnclosingScript
 (
 )
 const
@@ -9355,9 +9355,9 @@ isEnclosingScript
 )
 ;
 }
-LazyScript
+BaseScript
 *
-enclosingLazyScript
+enclosingScript
 (
 )
 const
@@ -9371,11 +9371,11 @@ toEnclosingScript
 ;
 }
 void
-setEnclosingLazyScript
+setEnclosingScript
 (
-LazyScript
+BaseScript
 *
-enclosingLazyScript
+enclosingScript
 )
 ;
 bool
