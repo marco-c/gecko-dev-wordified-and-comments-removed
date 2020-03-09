@@ -54,13 +54,6 @@ false
 )
 {
 }
-virtual
-~
-HTMLEditorEventListener
-(
-)
-{
-}
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 HandleEvent

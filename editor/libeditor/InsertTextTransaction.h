@@ -180,6 +180,8 @@ virtual
 InsertTextTransaction
 (
 )
+=
+default
 ;
 bool
 IsSequentialInsert

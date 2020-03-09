@@ -373,15 +373,6 @@ mOffset
 )
 ;
 }
-CompositionTransaction
-:
-:
-~
-CompositionTransaction
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION_INHERITED
 (
 CompositionTransaction

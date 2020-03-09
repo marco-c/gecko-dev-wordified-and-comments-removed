@@ -155,6 +155,8 @@ virtual
 ChangeStyleTransaction
 (
 )
+=
+default
 ;
 void
 AddValueToMultivalueProperty

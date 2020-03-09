@@ -84,6 +84,8 @@ private
 RangeItem
 (
 )
+=
+default
 ;
 public
 :

@@ -282,15 +282,6 @@ NS_IMPL_RELEASE_INHERITED
 ChangeStyleTransaction
 EditTransactionBase
 )
-ChangeStyleTransaction
-:
-:
-~
-ChangeStyleTransaction
-(
-)
-{
-}
 bool
 ChangeStyleTransaction
 :

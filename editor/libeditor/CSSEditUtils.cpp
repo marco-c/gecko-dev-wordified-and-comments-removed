@@ -1728,15 +1728,6 @@ mIsCSSPrefChecked
 )
 ;
 }
-CSSEditUtils
-:
-:
-~
-CSSEditUtils
-(
-)
-{
-}
 bool
 CSSEditUtils
 :

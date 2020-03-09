@@ -148,6 +148,8 @@ virtual
 SplitNodeTransaction
 (
 )
+=
+default
 ;
 RefPtr
 <

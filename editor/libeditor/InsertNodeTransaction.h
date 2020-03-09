@@ -136,6 +136,8 @@ virtual
 InsertNodeTransaction
 (
 )
+=
+default
 ;
 nsCOMPtr
 <

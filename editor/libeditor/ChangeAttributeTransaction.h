@@ -151,6 +151,8 @@ virtual
 ChangeAttributeTransaction
 (
 )
+=
+default
 ;
 nsCOMPtr
 <

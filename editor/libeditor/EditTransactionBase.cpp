@@ -59,15 +59,6 @@ NS_IMPL_CYCLE_COLLECTING_RELEASE
 (
 EditTransactionBase
 )
-EditTransactionBase
-:
-:
-~
-EditTransactionBase
-(
-)
-{
-}
 NS_IMETHODIMP
 EditTransactionBase
 :

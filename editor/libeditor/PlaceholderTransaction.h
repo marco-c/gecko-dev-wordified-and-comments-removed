@@ -229,6 +229,8 @@ virtual
 PlaceholderTransaction
 (
 )
+=
+default
 ;
 RefPtr
 <

@@ -162,6 +162,8 @@ virtual
 CreateElementTransaction
 (
 )
+=
+default
 ;
 void
 InsertNewNode

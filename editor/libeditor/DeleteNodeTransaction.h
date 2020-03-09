@@ -123,6 +123,8 @@ virtual
 DeleteNodeTransaction
 (
 )
+=
+default
 ;
 RefPtr
 <

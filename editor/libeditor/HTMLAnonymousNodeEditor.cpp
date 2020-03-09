@@ -370,8 +370,9 @@ protected
 ElementDeletionObserver
 (
 )
-{
-}
+=
+default
+;
 nsIContent
 *
 mNativeAnonNode

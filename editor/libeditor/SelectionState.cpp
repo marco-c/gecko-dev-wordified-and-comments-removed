@@ -2962,15 +2962,6 @@ mEndOffset
 }
 {
 }
-RangeItem
-:
-:
-~
-RangeItem
-(
-)
-{
-}
 NS_IMPL_CYCLE_COLLECTION
 (
 RangeItem

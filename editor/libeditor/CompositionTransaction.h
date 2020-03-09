@@ -177,10 +177,13 @@ aRanges
 ;
 private
 :
+virtual
 ~
 CompositionTransaction
 (
 )
+=
+default
 ;
 nsresult
 SetSelectionForRanges
