@@ -44983,7 +44983,7 @@ controls
 whether
 to
 use
-SimpleHttpChannel
+TRRServiceChannel
 off
 main
 thread
