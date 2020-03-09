@@ -1,6 +1,7 @@
 #
-Profiler
-Popup
+about
+:
+profiling
 This
 directory
 collects
@@ -8,9 +9,9 @@ the
 code
 that
 powers
-the
-profiler
-popup
+about
+:
+profiling
 .
 See
 devtools
