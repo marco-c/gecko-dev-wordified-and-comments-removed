@@ -147,9 +147,6 @@ scriptURL
 ServiceWorkerState
 state
 ;
-bool
-handlesFetch
-;
 }
 ;
 }
