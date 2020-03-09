@@ -25,9 +25,7 @@ mozdebug
 =
 0
 .
-1
-.
-1
+2
 #
 Pillow
 7
