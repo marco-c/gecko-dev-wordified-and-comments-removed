@@ -146,6 +146,13 @@ CalledProcessError
 return
 False
         
+except
+OSError
+:
+            
+return
+False
+        
 return
 True
 class
@@ -297,6 +304,13 @@ except
 subprocess
 .
 CalledProcessError
+:
+            
+return
+False
+        
+except
+OSError
 :
             
 return
