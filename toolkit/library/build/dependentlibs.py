@@ -99,6 +99,10 @@ stdout
 subprocess
 .
 PIPE
+                            
+universal_newlines
+=
+True
 )
     
 deps
@@ -218,6 +222,10 @@ stdout
 subprocess
 .
 PIPE
+                            
+universal_newlines
+=
+True
 )
     
 deps
@@ -362,6 +370,10 @@ stdout
 subprocess
 .
 PIPE
+                            
+universal_newlines
+=
+True
 )
     
 deps
@@ -790,10 +802,13 @@ gtest_out
         
 libs
 =
+list
+(
 deps
 .
 keys
 (
+)
 )
         
 libs

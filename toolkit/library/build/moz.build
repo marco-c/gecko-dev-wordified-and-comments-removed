@@ -228,9 +228,6 @@ entry_point
 '
 gen_list
 '
-py2
-=
-True
 inputs
 =
 [
