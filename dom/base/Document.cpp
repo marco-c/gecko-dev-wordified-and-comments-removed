@@ -94377,9 +94377,15 @@ return
 }
 /
 /
-No
+We
+care
+about
+first
+-
+party
 tracking
-resource
+resources
+only
 .
 if
 (
@@ -94387,7 +94393,7 @@ if
 nsContentUtils
 :
 :
-IsThirdPartyTrackingResourceWindow
+IsFirstPartyTrackingResourceWindow
 (
 inner
 )

@@ -6359,6 +6359,15 @@ aWindow
 ;
 static
 bool
+IsFirstPartyTrackingResourceWindow
+(
+nsPIDOMWindowInner
+*
+aWindow
+)
+;
+static
+bool
 SerializeNodeToMarkup
 (
 nsINode
