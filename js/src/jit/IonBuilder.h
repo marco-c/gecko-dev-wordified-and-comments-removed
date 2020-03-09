@@ -2882,6 +2882,14 @@ AbortReasonOr
 <
 Ok
 >
+jsop_spreadnew
+(
+)
+;
+AbortReasonOr
+<
+Ok
+>
 jsop_optimize_spreadcall
 (
 )
