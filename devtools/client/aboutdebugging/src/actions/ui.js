@@ -24,6 +24,7 @@ SELECT_PAGE_START
 SELECT_PAGE_SUCCESS
 SELECTED_RUNTIME_ID_UPDATED
 SHOW_PROFILER_DIALOG
+SWITCH_PROFILER_CONTEXT
 USB_RUNTIMES_SCAN_START
 USB_RUNTIMES_SCAN_SUCCESS
 }
@@ -451,6 +452,21 @@ SHOW_PROFILER_DIALOG
 ;
 }
 function
+switchProfilerContext
+(
+profilerContext
+)
+{
+return
+{
+type
+:
+SWITCH_PROFILER_CONTEXT
+profilerContext
+}
+;
+}
+function
 hideProfilerDialog
 (
 )
@@ -759,6 +775,7 @@ removeNetworkLocation
 scanUSBRuntimes
 selectPage
 showProfilerDialog
+switchProfilerContext
 uninstallAdbAddon
 updateAdbAddonStatus
 updateAdbReady

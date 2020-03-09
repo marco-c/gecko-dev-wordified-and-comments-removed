@@ -567,6 +567,16 @@ supportedFeatures
 action
 .
 supportedFeatures
+openAboutProfiling
+:
+action
+.
+openAboutProfiling
+openRemoteDevTools
+:
+action
+.
+openRemoteDevTools
 }
 ;
 default

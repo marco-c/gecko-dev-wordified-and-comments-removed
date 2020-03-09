@@ -1307,6 +1307,13 @@ devtools
 remote
 "
 :
+case
+"
+aboutprofiling
+-
+remote
+"
+:
 return
 "
 .
