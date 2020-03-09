@@ -261,7 +261,7 @@ PendingRequest
 RejectPromiseWithInvalidAccessError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )
@@ -276,10 +276,7 @@ mPromise
 >
 MaybeRejectWithInvalidAccessError
 (
-NS_ConvertUTF16toUTF8
-(
 aReason
-)
 )
 ;
 }
@@ -294,7 +291,7 @@ PendingRequest
 RejectPromiseWithNotSupportedError
 (
 const
-nsAString
+nsACString
 &
 aReason
 )
@@ -309,10 +306,7 @@ mPromise
 >
 MaybeRejectWithNotSupportedError
 (
-NS_ConvertUTF16toUTF8
-(
 aReason
-)
 )
 ;
 }
@@ -427,7 +421,7 @@ i
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Promise
@@ -494,7 +488,7 @@ i
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Promise
@@ -1124,7 +1118,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 EME
@@ -1348,7 +1342,7 @@ aRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Failed
@@ -1769,7 +1763,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 The
@@ -1941,7 +1935,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Key
@@ -2015,7 +2009,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 EME
@@ -2190,7 +2184,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Timed
@@ -2310,10 +2304,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_ConvertUTF8toUTF16
-(
 message
-)
 )
 ;
 return
@@ -2540,7 +2531,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Key
@@ -2770,7 +2761,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Failed
@@ -2839,7 +2830,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Failed
@@ -3403,7 +3394,7 @@ installRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Promise
@@ -3441,7 +3432,7 @@ approvalRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_STRING
+NS_LITERAL_CSTRING
 (
 "
 Promise
