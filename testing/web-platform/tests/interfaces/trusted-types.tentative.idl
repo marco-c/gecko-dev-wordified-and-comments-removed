@@ -116,17 +116,6 @@ that
 have
 been
 created
-[
-Unforgeable
-]
-sequence
-<
-DOMString
->
-getPolicyNames
-(
-)
-;
 }
 ;
 [
