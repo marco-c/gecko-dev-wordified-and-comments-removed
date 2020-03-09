@@ -1,71 +1,3 @@
-#
-This
-Source
-Code
-Form
-is
-subject
-to
-the
-terms
-of
-the
-Mozilla
-Public
-#
-License
-v
-.
-2
-.
-0
-.
-If
-a
-copy
-of
-the
-MPL
-was
-not
-distributed
-with
-this
-#
-file
-You
-can
-obtain
-one
-at
-http
-:
-/
-/
-mozilla
-.
-org
-/
-MPL
-/
-2
-.
-0
-/
-.
-#
-#
-This
-module
-needs
-to
-stay
-Python
-2
-and
-3
-compatible
-#
 from
 __future__
 import
@@ -314,14 +246,6 @@ names
 )
 :
         
-#
-structlog
-'
-s
-ConsoleRenderer
-pads
-values
-        
 for
 name
 in
@@ -390,15 +314,6 @@ str
 (
 message
 )
-        
-#
-converting
-Arsenic
-request
-/
-response
-struct
-log
         
 if
 self
@@ -571,25 +486,12 @@ condprof
 "
 )
     
-#
-wrap
-the
-logger
-into
-the
-BridgeLogger
-    
 new_logger
 =
 BridgeLogger
 (
 new_logger
 )
-    
-#
-bridge
-for
-Arsenic
     
 if
 sys
@@ -628,17 +530,6 @@ except
 ImportError
 :
             
-#
-Arsenic
-is
-not
-installed
-for
-client
--
-only
-usage
-            
 pass
     
 logger
@@ -647,12 +538,6 @@ new_logger
     
 return
 logger
-#
-initializing
-the
-logger
-right
-away
 get_logger
 (
 )
@@ -668,23 +553,6 @@ from
 mozprofile
 import
 create_profile
-#
-NOQA
-    
-#
-XXX
-on
-android
-we
-mgiht
-need
-to
-run
-it
-on
-the
-device
-?
     
 logger
 .
@@ -1079,6 +947,21 @@ archive
 try
 :
         
+logger
+.
+info
+(
+"
+Getting
+headers
+at
+%
+s
+"
+%
+archive
+)
+        
 resp
 =
 requests
@@ -1086,6 +969,9 @@ requests
 head
 (
 archive
+timeout
+=
+DOWNLOAD_TIMEOUT
 )
     
 except
@@ -1108,6 +994,15 @@ in
 )
 :
         
+logger
+.
+info
+(
+"
+Redirected
+"
+)
+        
 return
 check_exists
 (
@@ -1120,11 +1015,6 @@ Location
 "
 ]
 )
-    
-#
-see
-Bug
-1574854
     
 if
 resp
@@ -1152,12 +1042,42 @@ Type
 ]
 :
         
+logger
+.
+info
+(
+"
+Got
+an
+html
+page
+back
+"
+)
+        
 exists
 =
 False
     
 else
 :
+        
+logger
+.
+info
+(
+"
+Response
+code
+is
+%
+d
+"
+%
+resp
+.
+status_code
+)
         
 exists
 =
@@ -1256,28 +1176,6 @@ target
 )
 :
         
-#
-XXX
-for
-now
-reusing
-downloads
-without
-checking
-them
-        
-#
-when
-we
-don
-'
-t
-have
-an
-.
-etag
-file
-        
 if
 etag
 is
@@ -1341,15 +1239,6 @@ Downloaded
 .
 "
 )
-            
-#
-should
-at
-least
-check
-the
-size
-?
             
 return
 target
@@ -1757,15 +1646,6 @@ is
 None
 :
         
-#
-we
-want
-to
-use
-the
-latest
-nightly
-        
 nightly_archive
 =
 get_firefox_download_link
@@ -1791,21 +1671,6 @@ download_file
 (
 nightly_archive
 )
-        
-#
-on
-macOs
-we
-just
-mount
-the
-DMG
-        
-#
-XXX
-replace
-with
-extract_from_dmg
         
 if
 platform
@@ -1863,13 +1728,6 @@ MacOS
 /
 firefox
 "
-        
-#
-on
-linux
-we
-unpack
-it
         
 elif
 platform
@@ -1959,12 +1817,6 @@ binary
 finally
 :
         
-#
-XXX
-replace
-with
-extract_from_dmg
-        
 if
 mounted
 :
@@ -2025,16 +1877,6 @@ system
 Linux
 "
 :
-                
-#
-XXX
-we
-should
-keep
-it
-for
-next
-time
                 
 shutil
 .
