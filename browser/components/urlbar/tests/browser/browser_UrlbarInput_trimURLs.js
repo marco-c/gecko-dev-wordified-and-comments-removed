@@ -50,7 +50,9 @@ clearUserPref
 PREF_TRIMURLS
 )
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

@@ -1707,7 +1707,9 @@ userTypedValue
 =
 null
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;
@@ -1740,7 +1742,9 @@ userTypedValue
 =
 null
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;

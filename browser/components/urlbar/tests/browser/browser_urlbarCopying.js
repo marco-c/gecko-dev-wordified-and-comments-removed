@@ -128,7 +128,9 @@ clearUserPref
 decodeURLpref
 )
 ;
-URLBarSetURI
+gURLBar
+.
+setURI
 (
 )
 ;
