@@ -888,9 +888,6 @@ gen_histogram_data
 .
 py
 '
-py2
-=
-True
 inputs
 =
 histogram_files

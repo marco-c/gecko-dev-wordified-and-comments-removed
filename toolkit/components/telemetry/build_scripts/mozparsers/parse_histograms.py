@@ -17,6 +17,10 @@ sys
 import
 atexit
 import
+six
+from
+.
+import
 shared_telemetry_utils
 as
 utils
@@ -25,6 +29,7 @@ ctypes
 import
 c_int
 from
+.
 shared_telemetry_utils
 import
 ParserError
@@ -558,7 +563,7 @@ allowlist
 in
 allowlists
 .
-iteritems
+items
 (
 )
 :
@@ -2593,7 +2598,10 @@ labels
 if
 len
 (
+list
+(
 invalid
+)
 )
 >
 0
@@ -2699,7 +2707,10 @@ labels
 if
 len
 (
+list
+(
 invalid
+)
 )
 >
 0
@@ -3492,7 +3503,10 @@ keys
 if
 len
 (
+list
+(
 invalid
+)
 )
 >
 0
@@ -3908,25 +3922,33 @@ bool
 expires_in_version
 "
 :
-basestring
+six
+.
+string_types
             
 "
 kind
 "
 :
-basestring
+six
+.
+string_types
             
 "
 description
 "
 :
-basestring
+six
+.
+string_types
             
 "
 releaseChannelCollection
 "
 :
-basestring
+six
+.
+string_types
         
 }
         
@@ -3944,43 +3966,57 @@ int
 alert_emails
 "
 :
-basestring
+six
+.
+string_types
             
 "
 labels
 "
 :
-basestring
+six
+.
+string_types
             
 "
 record_in_processes
 "
 :
-basestring
+six
+.
+string_types
             
 "
 keys
 "
 :
-basestring
+six
+.
+string_types
             
 "
 products
 "
 :
-basestring
+six
+.
+string_types
             
 "
 operating_systems
 "
 :
-basestring
+six
+.
+string_types
             
 "
 record_into_store
 "
 :
-basestring
+six
+.
+string_types
         
 }
         
@@ -4140,7 +4176,7 @@ t
 if
 t
 is
-basestring
+str
 :
                 
 return
@@ -4159,7 +4195,7 @@ key_type
 in
 type_checked_fields
 .
-iteritems
+items
 (
 )
 :
@@ -4293,7 +4329,7 @@ key_type
 in
 type_checked_list_fields
 .
-iteritems
+items
 (
 )
 :
@@ -4395,10 +4431,13 @@ return
 for
 key
 in
+iter
+(
 definition
 .
-iterkeys
+keys
 (
+)
 )
 :
             
@@ -6035,7 +6074,7 @@ definition
 in
 histograms
 .
-iteritems
+items
 (
 )
 :
@@ -6084,15 +6123,21 @@ name
         
 indices
 =
+list
+(
 filter
 (
 filter_function
 enumerate
 (
+iter
+(
 iterable
 .
-iterkeys
+keys
 (
+)
+)
 )
 )
 )
@@ -6255,10 +6300,13 @@ chain
 .
 from_iterable
 (
+iter
+(
 allowlists
 .
-itervalues
+values
 (
+)
 )
 )
         
@@ -6346,7 +6394,7 @@ definition
 in
 all_histograms
 .
-iteritems
+items
 (
 )
 :
