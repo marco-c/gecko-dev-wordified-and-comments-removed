@@ -1147,9 +1147,6 @@ gen_event_enum
 .
 py
 '
-py2
-=
-True
 inputs
 =
 event_files
