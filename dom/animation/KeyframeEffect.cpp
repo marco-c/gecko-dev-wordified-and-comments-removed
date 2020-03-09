@@ -3561,15 +3561,6 @@ aOptions
 IsUnrestrictedDouble
 (
 )
-|
-|
-!
-StaticPrefs
-:
-:
-dom_animations_api_compositing_enabled
-(
-)
 )
 {
 return
