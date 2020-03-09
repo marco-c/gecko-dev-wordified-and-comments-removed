@@ -3337,11 +3337,6 @@ nsAndroidBridge
 nsAndroidBridge
 (
 )
-:
-mAudibleWindowsNum
-(
-0
-)
 {
 if
 (
