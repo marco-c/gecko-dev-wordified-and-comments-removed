@@ -4707,8 +4707,9 @@ private
 FDMonitor
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template

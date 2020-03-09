@@ -16030,8 +16030,9 @@ nsPluginDOMContextMenuListener
 nsPluginDOMContextMenuListener
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsPluginDOMContextMenuListener

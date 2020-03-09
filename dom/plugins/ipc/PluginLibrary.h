@@ -182,8 +182,9 @@ virtual
 PluginLibrary
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetPlugin

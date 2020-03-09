@@ -8339,8 +8339,9 @@ private
 PluginOfflineObserver
 (
 )
-{
-}
+=
+default
+;
 PluginModuleChromeParent
 *
 mPmp

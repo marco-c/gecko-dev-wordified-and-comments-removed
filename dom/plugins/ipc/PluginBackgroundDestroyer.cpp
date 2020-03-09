@@ -43,8 +43,9 @@ PluginBackgroundDestroyerParent
 PluginBackgroundDestroyerParent
 (
 )
-{
-}
+=
+default
+;
 void
 PluginBackgroundDestroyerParent
 :

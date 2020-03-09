@@ -116,8 +116,9 @@ virtual
 FunctionHook
 (
 )
-{
-}
+=
+default
+;
 virtual
 FunctionHookId
 FunctionId

@@ -80,8 +80,9 @@ func
 ChildTimer
 (
 )
-{
-}
+=
+default
+;
 uint32_t
 ID
 (

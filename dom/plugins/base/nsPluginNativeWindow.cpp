@@ -151,8 +151,9 @@ nsPluginNativeWindowImpl
 nsPluginNativeWindowImpl
 (
 )
-{
-}
+=
+default
+;
 nsresult
 PLUG_NewPluginNativeWindow
 (
