@@ -6,7 +6,7 @@ elt
 )
 {
 return
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -660,7 +660,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -816,7 +816,7 @@ true
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
