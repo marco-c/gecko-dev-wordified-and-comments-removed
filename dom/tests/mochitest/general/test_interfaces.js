@@ -1272,9 +1272,6 @@ CSSAnimation
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
@@ -1478,9 +1475,6 @@ CSSTransition
 insecureContext
 :
 true
-release
-:
-false
 }
 {
 name
