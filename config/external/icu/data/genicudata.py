@@ -2,6 +2,8 @@ from
 __future__
 import
 absolute_import
+import
+buildconfig
 def
 main
 (
@@ -10,6 +12,34 @@ data_file
 data_symbol
 )
 :
+    
+if
+buildconfig
+.
+substs
+.
+get
+(
+'
+WINE
+'
+)
+:
+        
+drive
+=
+'
+z
+:
+'
+    
+else
+:
+        
+drive
+=
+'
+'
     
 output
 .
@@ -46,6 +76,9 @@ data_symbol
     
 INCBIN
 {
+drive
+}
+{
 data_file
 }
     
@@ -62,5 +95,8 @@ data_file
 data_symbol
 =
 data_symbol
+drive
+=
+drive
 )
 )
