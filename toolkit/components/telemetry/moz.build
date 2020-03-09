@@ -1127,9 +1127,6 @@ gen_event_data
 .
 py
 '
-py2
-=
-True
 inputs
 =
 event_files
@@ -1195,9 +1192,6 @@ gen_event_data
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '

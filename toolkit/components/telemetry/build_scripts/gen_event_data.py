@@ -1186,6 +1186,9 @@ dump
 (
 event_definitions
 output
+sort_keys
+=
+True
 )
 def
 main
