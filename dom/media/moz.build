@@ -1868,6 +1868,17 @@ netwerk
 /
 base
 '
+'
+/
+toolkit
+/
+content
+/
+tests
+/
+browser
+/
+'
 ]
 if
 CONFIG
