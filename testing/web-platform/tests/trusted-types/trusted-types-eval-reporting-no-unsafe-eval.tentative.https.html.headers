@@ -4,16 +4,6 @@ Security
 -
 Policy
 :
-trusted
--
-types
-*
-Content
--
-Security
--
-Policy
-:
 script
 -
 src
