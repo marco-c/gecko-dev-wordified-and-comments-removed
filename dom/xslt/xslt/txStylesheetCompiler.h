@@ -864,8 +864,9 @@ private
 txStylesheetCompiler
 (
 )
-{
-}
+=
+default
+;
 nsresult
 startElementInternal
 (

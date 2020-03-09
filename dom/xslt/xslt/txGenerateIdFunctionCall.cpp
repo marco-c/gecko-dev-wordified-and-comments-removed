@@ -46,8 +46,9 @@ GenerateIdFunctionCall
 GenerateIdFunctionCall
 (
 )
-{
-}
+=
+default
+;
 nsresult
 GenerateIdFunctionCall
 :

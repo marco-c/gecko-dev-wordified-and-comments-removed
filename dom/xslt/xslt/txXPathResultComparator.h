@@ -66,8 +66,9 @@ virtual
 txXPathResultComparator
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 compareValues

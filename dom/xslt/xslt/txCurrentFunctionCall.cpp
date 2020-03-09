@@ -25,8 +25,9 @@ CurrentFunctionCall
 CurrentFunctionCall
 (
 )
-{
-}
+=
+default
+;
 nsresult
 CurrentFunctionCall
 :

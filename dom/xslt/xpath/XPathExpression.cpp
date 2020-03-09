@@ -242,8 +242,9 @@ XPathExpression
 XPathExpression
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 XPathResult

@@ -25,8 +25,9 @@ txNamespaceMap
 txNamespaceMap
 (
 )
-{
-}
+=
+default
+;
 txNamespaceMap
 :
 :

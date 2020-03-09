@@ -50,8 +50,9 @@ virtual
 txIParseContext
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 resolveNamespacePrefix
@@ -136,8 +137,9 @@ virtual
 txIMatchContext
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 getVariable

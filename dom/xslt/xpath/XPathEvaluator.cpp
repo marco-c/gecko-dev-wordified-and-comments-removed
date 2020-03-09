@@ -315,8 +315,9 @@ XPathEvaluator
 XPathEvaluator
 (
 )
-{
-}
+=
+default
+;
 XPathExpression
 *
 XPathEvaluator

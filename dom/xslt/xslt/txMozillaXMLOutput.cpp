@@ -4294,8 +4294,9 @@ txTransformNotifier
 txTransformNotifier
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 txTransformNotifier
