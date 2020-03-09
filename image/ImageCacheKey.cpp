@@ -15,7 +15,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlocking
 .
 h
 "
@@ -897,10 +897,10 @@ EmptyCString
 if
 (
 !
-AntiTrackingCommon
+ContentBlocking
 :
 :
-MaybeIsFirstPartyStorageAccessGrantedFor
+ApproximateAllowAccessForWithoutChannel
 (
 aDocument
 -

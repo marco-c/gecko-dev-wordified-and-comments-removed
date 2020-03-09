@@ -17,15 +17,6 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Logging
 .
 h

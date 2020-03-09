@@ -8,13 +8,6 @@ h
 #
 include
 "
-AntiTrackingCommon
-.
-h
-"
-#
-include
-"
 nsIObserverService
 .
 h
@@ -30,6 +23,13 @@ h
 include
 "
 nsTHashtable
+.
+h
+"
+#
+include
+"
+nsXULAppAPI
 .
 h
 "

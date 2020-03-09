@@ -25,7 +25,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlocking
 .
 h
 "
@@ -591,10 +591,10 @@ documentURI
 |
 |
 !
-AntiTrackingCommon
+ContentBlocking
 :
 :
-IsFirstPartyStorageAccessGrantedFor
+ShouldAllowAccessFor
 (
 aWindow
 documentURI
@@ -645,10 +645,10 @@ false
 }
 return
 !
-AntiTrackingCommon
+ContentBlocking
 :
 :
-IsFirstPartyStorageAccessGrantedFor
+ShouldAllowAccessFor
 (
 aChannel
 uri
@@ -664,10 +664,10 @@ aPrincipal
 ;
 return
 !
-AntiTrackingCommon
+ContentBlocking
 :
 :
-IsFirstPartyStorageAccessGrantedFor
+ShouldAllowAccessFor
 (
 aPrincipal
 aCookieJarSettings

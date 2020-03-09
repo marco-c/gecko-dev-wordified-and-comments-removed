@@ -24,15 +24,6 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
-.
-h
-"
-#
-include
-"
-mozilla
-/
 BasePrincipal
 .
 h
