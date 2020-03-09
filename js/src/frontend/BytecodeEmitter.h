@@ -3371,17 +3371,6 @@ false
 ;
 MOZ_MUST_USE
 bool
-replaceNewInitWithNewObject
-(
-JSObject
-*
-obj
-BytecodeOffset
-offset
-)
-;
-MOZ_MUST_USE
-bool
 emitHoistedFunctionsInList
 (
 ListNode
