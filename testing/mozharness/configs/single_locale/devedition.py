@@ -23,16 +23,6 @@ devedition
 "
     
 "
-objdir
-"
-:
-"
-obj
--
-firefox
-"
-    
-"
 locales_dir
 "
 :

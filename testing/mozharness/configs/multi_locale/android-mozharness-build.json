@@ -7,15 +7,6 @@ log_name
 multilocale
 "
 "
-objdir
-"
-:
-"
-obj
--
-firefox
-"
-"
 locales_dir
 "
 :

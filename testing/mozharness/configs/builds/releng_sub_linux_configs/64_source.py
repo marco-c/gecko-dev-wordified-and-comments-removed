@@ -15,16 +15,6 @@ source
 ]
     
 '
-objdir
-'
-:
-'
-obj
--
-firefox
-'
-    
-'
 stage_platform
 '
 :

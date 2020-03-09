@@ -3972,13 +3972,11 @@ grcov
 zip
 path
 :
-build
-\
-src
+workspace
 \
 obj
 -
-firefox
+build
 \
 code
 -

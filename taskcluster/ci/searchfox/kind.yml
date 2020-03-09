@@ -789,11 +789,9 @@ builds
 /
 worker
 /
-workspace
+checkouts
 /
-build
-/
-src
+gecko
 /
 mobile
 /

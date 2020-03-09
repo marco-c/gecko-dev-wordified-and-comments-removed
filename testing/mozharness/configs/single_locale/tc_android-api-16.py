@@ -27,16 +27,6 @@ US
 ]
     
 "
-objdir
-"
-:
-"
-obj
--
-firefox
-"
-    
-"
 repack_env
 "
 :

@@ -232,16 +232,6 @@ shared
 '
     
 '
-objdir
-'
-:
-'
-obj
--
-firefox
-'
-    
-'
 multi_locale
 '
 :

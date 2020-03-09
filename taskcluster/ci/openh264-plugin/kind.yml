@@ -212,8 +212,6 @@ worker
 /
 workspace
 /
-build
-/
 openh264
 /
 artifacts
@@ -315,8 +313,6 @@ worker
 /
 workspace
 /
-build
-/
 openh264
 /
 artifacts
@@ -418,8 +414,6 @@ worker
 /
 workspace
 /
-build
-/
 openh264
 /
 artifacts
@@ -512,7 +506,7 @@ private
 openh264
 path
 :
-build
+workspace
 /
 openh264
 /
@@ -597,7 +591,7 @@ private
 openh264
 path
 :
-build
+workspace
 /
 openh264
 /
@@ -688,7 +682,7 @@ private
 openh264
 path
 :
-build
+workspace
 /
 openh264
 /
@@ -791,8 +785,6 @@ builds
 worker
 /
 workspace
-/
-build
 /
 openh264
 /
@@ -949,8 +941,6 @@ builds
 worker
 /
 workspace
-/
-build
 /
 openh264
 /
@@ -1108,8 +1098,6 @@ worker
 /
 workspace
 /
-build
-/
 openh264
 /
 artifacts
@@ -1265,8 +1253,6 @@ builds
 worker
 /
 workspace
-/
-build
 /
 openh264
 /

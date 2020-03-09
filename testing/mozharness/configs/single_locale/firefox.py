@@ -21,16 +21,6 @@ mozconfig
 "
     
 "
-objdir
-"
-:
-"
-obj
--
-firefox
-"
-    
-"
 locales_dir
 "
 :

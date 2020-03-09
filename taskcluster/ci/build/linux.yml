@@ -6157,13 +6157,9 @@ worker
 /
 workspace
 /
-build
-/
-src
-/
 obj
 -
-firefox
+build
 /
 code
 -
