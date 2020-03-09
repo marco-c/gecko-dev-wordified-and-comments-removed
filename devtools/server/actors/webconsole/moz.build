@@ -112,15 +112,6 @@ js
 '
 eager
 -
-ecma
--
-whitelist
-.
-js
-'
-'
-eager
--
 function
 -
 whitelist
