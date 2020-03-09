@@ -1522,12 +1522,11 @@ Update
 verify
 '
 '
-pydep
+pipfu
 '
 :
 '
-python
-dependency
+pipfile
 update
 '
 '
