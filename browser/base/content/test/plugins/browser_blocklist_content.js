@@ -124,10 +124,6 @@ blockNoPlugins
 gTestBrowser
 )
 ;
-resetBlocklist
-(
-)
-;
 gBrowser
 .
 removeCurrentTab

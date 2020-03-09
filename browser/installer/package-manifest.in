@@ -763,13 +763,6 @@ mozavcodec
 DLL_SUFFIX
 #
 endif
-RESPATH
-/
-browser
-/
-blocklist
-.
-xml
 #
 ifdef
 XP_WIN

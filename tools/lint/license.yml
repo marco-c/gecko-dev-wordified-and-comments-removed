@@ -42,14 +42,6 @@ lib
 .
 rs
 -
-browser
-/
-app
-/
-blocklist
-.
-xml
--
 tools
 /
 crashreporter

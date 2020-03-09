@@ -156,10 +156,6 @@ blockNoPlugins
 gTestBrowser
 )
 ;
-resetBlocklist
-(
-)
-;
 gTestBrowser
 =
 null

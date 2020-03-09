@@ -429,11 +429,6 @@ platform
 ini
 BINPATH
 /
-blocklist
-.
-xml
-BINPATH
-/
 defaults
 /
 settings
