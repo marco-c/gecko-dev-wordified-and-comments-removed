@@ -4911,7 +4911,10 @@ mFloodOpacity
 )
 mVectorEffect
 (
-NS_STYLE_VECTOR_EFFECT_NONE
+StyleVectorEffect
+:
+:
+None
 )
 mMaskType
 (

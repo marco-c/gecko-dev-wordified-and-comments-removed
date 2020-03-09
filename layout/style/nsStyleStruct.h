@@ -8541,7 +8541,13 @@ return
 mVectorEffect
 =
 =
-NS_STYLE_VECTOR_EFFECT_NON_SCALING_STROKE
+mozilla
+:
+:
+StyleVectorEffect
+:
+:
+NonScalingStroke
 ;
 }
 mozilla
@@ -8619,7 +8625,10 @@ mStopOpacity
 float
 mFloodOpacity
 ;
-uint8_t
+mozilla
+:
+:
+StyleVectorEffect
 mVectorEffect
 ;
 mozilla
