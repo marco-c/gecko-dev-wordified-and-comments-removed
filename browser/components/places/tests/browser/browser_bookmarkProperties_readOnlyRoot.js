@@ -146,7 +146,7 @@ document
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .

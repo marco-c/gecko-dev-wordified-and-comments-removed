@@ -1016,7 +1016,7 @@ doc
 getElementById
 (
 "
-bookmarkproperties
+bookmarkpropertiesdialog
 "
 )
 .
