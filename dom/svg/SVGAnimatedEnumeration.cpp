@@ -426,7 +426,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Invalid
 SVGAnimatedEnumeration

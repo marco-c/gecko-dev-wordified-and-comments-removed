@@ -522,7 +522,6 @@ dom
 MSG_DOES_NOT_IMPLEMENT_INTERFACE
 >
 (
-u
 "
 '
 root
@@ -531,7 +530,6 @@ member
 of
 IntersectionObserverInit
 "
-u
 "
 Element
 "

@@ -3312,7 +3312,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Buffer
 argument

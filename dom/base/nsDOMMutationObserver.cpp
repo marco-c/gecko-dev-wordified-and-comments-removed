@@ -3457,7 +3457,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 One
 of
@@ -3473,9 +3472,6 @@ characterData
 must
 not
 be
-"
-u
-"
 false
 .
 "
@@ -3512,7 +3508,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 If
 '
@@ -3553,7 +3548,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 If
 '
@@ -3603,7 +3597,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 If
 '
@@ -3618,7 +3611,6 @@ must
 not
 be
 "
-u
 "
 false
 .

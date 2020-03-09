@@ -2743,7 +2743,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 0
 (

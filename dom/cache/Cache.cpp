@@ -273,7 +273,6 @@ ThrowTypeError
 MSG_INVALID_URL_SCHEME
 >
 (
-u
 "
 Request
 "

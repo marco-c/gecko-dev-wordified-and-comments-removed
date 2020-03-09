@@ -1279,7 +1279,6 @@ rv
 .
 ThrowTypeError
 (
-u
 "
 Passing
 \

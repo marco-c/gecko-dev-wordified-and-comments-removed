@@ -946,7 +946,6 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-u
 "
 start
 time
@@ -1056,7 +1055,6 @@ ThrowRangeError
 MSG_VALUE_OUT_OF_RANGE
 >
 (
-u
 "
 stop
 time

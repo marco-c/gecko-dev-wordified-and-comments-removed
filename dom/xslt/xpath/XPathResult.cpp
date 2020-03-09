@@ -367,7 +367,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Result
 is
@@ -662,7 +661,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Result
 type

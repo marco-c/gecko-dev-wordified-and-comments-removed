@@ -1739,7 +1739,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Headers
 are
@@ -2048,7 +2047,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Headers
 require
@@ -2062,7 +2060,6 @@ initialized
 by
 a
 "
-u
 "
 sequence
 .

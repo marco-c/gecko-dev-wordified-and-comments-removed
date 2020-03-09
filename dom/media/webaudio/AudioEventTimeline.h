@@ -457,7 +457,6 @@ aRv
 .
 ThrowRangeError
 (
-u
 "
 The
 exponential
@@ -468,7 +467,6 @@ setTargetAtTime
 must
 be
 "
-u
 "
 non
 -
@@ -542,7 +540,6 @@ aRv
 .
 ThrowRangeError
 (
-u
 "
 The
 curve
@@ -553,7 +550,6 @@ must
 be
 strictly
 "
-u
 "
 positive
 .
@@ -797,7 +793,6 @@ aRv
 .
 ThrowRangeError
 (
-u
 "
 The
 value
@@ -807,7 +802,6 @@ exponentialRampToValueAtTime
 must
 be
 "
-u
 "
 positive
 .

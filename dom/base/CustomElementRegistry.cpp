@@ -3549,7 +3549,6 @@ ThrowTypeError
 MSG_NOT_CONSTRUCTOR
 >
 (
-u
 "
 Argument
 2
@@ -4073,7 +4072,6 @@ ThrowTypeError
 MSG_NOT_OBJECT
 >
 (
-u
 "
 constructor
 .
@@ -5140,7 +5138,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 Custom
 element

@@ -616,7 +616,6 @@ aRv
 .
 ThrowTypeError
 (
-u
 "
 The
 Worker
