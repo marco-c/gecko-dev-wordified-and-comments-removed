@@ -157,6 +157,12 @@ MediaControlKeysEvent
 aEvent
 )
 ;
+MediaMetadataBase
+GetMainControllerMediaMetadata
+(
+)
+const
+;
 private
 :
 MediaControlService
