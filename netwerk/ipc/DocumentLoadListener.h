@@ -204,7 +204,7 @@ dom
 :
 CanonicalBrowsingContext
 *
-aProcessTopBrowsingContext
+aBrowsingContext
 nsILoadContext
 *
 aLoadContext
@@ -218,18 +218,6 @@ aBridge
 bool
 Open
 (
-dom
-:
-:
-CanonicalBrowsingContext
-*
-aBrowsingContext
-dom
-:
-:
-CanonicalBrowsingContext
-*
-aProcessTopBrowsingContext
 nsDocShellLoadState
 *
 aLoadState
