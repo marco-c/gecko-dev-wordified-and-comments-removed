@@ -1380,7 +1380,7 @@ Message
 }
 nsTArray
 <
-nsString
+nsCString
 >
 mArgs
 ;
@@ -1453,7 +1453,7 @@ CleanupPolicy
 >
 nsTArray
 <
-nsString
+nsCString
 >
 &
 TErrorResult
@@ -1878,7 +1878,7 @@ Length
 )
 ;
 const
-char16_t
+char
 *
 args
 [
@@ -1933,7 +1933,7 @@ argCount
 =
 nullptr
 ;
-JS_ReportErrorNumberUCArray
+JS_ReportErrorNumberUTF8Array
 (
 aCx
 dom
