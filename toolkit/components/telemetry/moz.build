@@ -981,9 +981,6 @@ gen_scalar_data
 .
 py
 '
-py2
-=
-True
 inputs
 =
 scalar_files
@@ -1049,9 +1046,6 @@ gen_scalar_data
 .
 py
 '
-py2
-=
-True
 entry_point
 =
 '

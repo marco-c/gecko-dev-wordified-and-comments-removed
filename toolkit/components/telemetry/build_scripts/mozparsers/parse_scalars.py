@@ -1,14 +1,21 @@
 import
+io
+import
 re
+import
+six
 import
 yaml
 import
 atexit
+from
+.
 import
 shared_telemetry_utils
 as
 utils
 from
+.
 shared_telemetry_utils
 import
 ParserError
@@ -738,19 +745,25 @@ list
 description
 '
 :
-basestring
+six
+.
+string_types
             
 '
 expires
 '
 :
-basestring
+six
+.
+string_types
             
 '
 kind
 '
 :
-basestring
+six
+.
+string_types
             
 '
 notification_emails
@@ -780,7 +793,9 @@ OPTIONAL_FIELDS
 release_channel_collection
 '
 :
-basestring
+six
+.
+string_types
             
 '
 keyed
@@ -822,37 +837,49 @@ int
 notification_emails
 '
 :
-basestring
+six
+.
+string_types
             
 '
 record_in_processes
 '
 :
-basestring
+six
+.
+string_types
             
 '
 products
 '
 :
-basestring
+six
+.
+string_types
             
 '
 keys
 '
 :
-basestring
+six
+.
+string_types
             
 '
 operating_systems
 '
 :
-basestring
+six
+.
+string_types
             
 '
 record_into_store
 '
 :
-basestring
+six
+.
+string_types
         
 }
         
@@ -1485,6 +1512,8 @@ handle_later
             
 invalid
 =
+list
+(
 filter
 (
 lambda
@@ -1497,6 +1526,7 @@ k
 >
 MAX_KEY_LENGTH
 keys
+)
 )
             
 if
@@ -3011,11 +3041,20 @@ try
 :
         
 with
+io
+.
 open
 (
 filename
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
@@ -3110,7 +3149,10 @@ scalar_list
 for
 category_name
 in
+sorted
+(
 scalars
+)
 :
         
 category
@@ -3174,7 +3216,10 @@ handle_later
 for
 probe_name
 in
+sorted
+(
 category
+)
 :
             
 scalar_info
