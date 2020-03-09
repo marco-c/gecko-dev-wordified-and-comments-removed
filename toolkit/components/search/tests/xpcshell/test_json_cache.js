@@ -202,7 +202,7 @@ cacheTemplate
 .
 version
 =
-2
+4
 ;
 delete
 cacheTemplate
@@ -212,6 +212,12 @@ visibleDefaultEngines
 }
 else
 {
+cacheTemplate
+.
+version
+=
+3
+;
 cacheTemplate
 .
 visibleDefaultEngines

@@ -1759,7 +1759,7 @@ assertEqual
 (
 engine
 .
-_shortName
+telemetryId
 rule
 .
 telemetryId
@@ -1767,7 +1767,7 @@ Should
 have
 the
 correct
-shortName
+telemetryId
 {
 location
 }
