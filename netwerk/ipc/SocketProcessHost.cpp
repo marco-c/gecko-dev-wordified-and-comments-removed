@@ -964,7 +964,7 @@ policy
 SandboxBrokerPolicyFactory
 :
 :
-GetUtilityPolicy
+GetSocketProcessPolicy
 (
 GetActor
 (
