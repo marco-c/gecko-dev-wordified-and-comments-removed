@@ -2,8 +2,6 @@ from
 __future__
 import
 print_function
-import
-binascii
 def
 file_byte_generator
 (
@@ -97,14 +95,11 @@ hexified
 [
 "
 0x
+%
+02x
 "
-+
-binascii
-.
-hexlify
-(
+%
 byte
-)
 for
 byte
 in

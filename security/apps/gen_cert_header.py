@@ -1,5 +1,3 @@
-import
-binascii
 def
 _file_byte_generator
 (
@@ -55,14 +53,11 @@ hexified
 [
 "
 0x
+%
+02x
 "
-+
-binascii
-.
-hexlify
-(
+%
 byte
-)
 for
 byte
 in
