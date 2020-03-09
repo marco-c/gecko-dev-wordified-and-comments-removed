@@ -172,7 +172,6 @@ render
 const
 {
 isSupportedPlatform
-pageContext
 }
 =
 this
@@ -201,9 +200,7 @@ className
 perf
 perf
 -
-{
-pageContext
-}
+devtools
 }
 RecordingButton
 (
@@ -245,14 +242,6 @@ isSupportedPlatform
 selectors
 .
 getIsSupportedPlatform
-(
-state
-)
-pageContext
-:
-selectors
-.
-getPageContext
 (
 state
 )
