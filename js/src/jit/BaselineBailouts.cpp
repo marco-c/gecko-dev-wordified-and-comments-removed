@@ -9215,7 +9215,7 @@ case
 Bailout_DuringVMCall
 :
 case
-Bailout_NonJSFunctionCallee
+Bailout_TooManyArguments
 :
 case
 Bailout_DynamicNameNotFound

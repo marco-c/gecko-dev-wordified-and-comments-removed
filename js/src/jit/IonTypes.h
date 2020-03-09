@@ -217,7 +217,7 @@ BailoutKind
 {
 Bailout_Inevitable
 Bailout_DuringVMCall
-Bailout_NonJSFunctionCallee
+Bailout_TooManyArguments
 Bailout_DynamicNameNotFound
 Bailout_StringArgumentsEval
 Bailout_Overflow
@@ -282,11 +282,11 @@ Bailout_DuringVMCall
 "
 ;
 case
-Bailout_NonJSFunctionCallee
+Bailout_TooManyArguments
 :
 return
 "
-Bailout_NonJSFunctionCallee
+Bailout_TooManyArguments
 "
 ;
 case
