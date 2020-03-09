@@ -352,9 +352,7 @@ migrateShieldPrefs
 migrateStudiesEnabledWithoutHealthReporting
 AddonStudies
 .
-migrations
-.
-migration01AddonStudyFieldsToSlugAndUserFacingFields
+migrateAddonStudyFieldsToSlugAndUserFacingFields
 PreferenceExperiments
 .
 migrations
@@ -380,11 +378,6 @@ RecipeRunner
 migrations
 .
 migration01RemoveOldRecipesCollection
-AddonStudies
-.
-migrations
-.
-migration02RemoveOldAddonStudyAction
 ]
 }
 ;
