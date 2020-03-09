@@ -14381,8 +14381,8 @@ true
 bool
 ConvertJSValueToByteString
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :
@@ -14397,6 +14397,10 @@ Value
 v
 bool
 nullable
+const
+char
+*
+sourceDescription
 nsACString
 &
 result
@@ -14667,12 +14671,14 @@ d
 badChar
 )
 ;
+cx
+.
 ThrowErrorMessage
 <
 MSG_INVALID_BYTESTRING
 >
 (
-cx
+sourceDescription
 index
 badCharArray
 )

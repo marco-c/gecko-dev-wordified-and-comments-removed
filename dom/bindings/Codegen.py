@@ -40355,6 +40355,13 @@ keyConversionFunction
 (
 cx
 idVal
+"
+key
+of
+{
+sourceDescription
+}
+"
 propName
 )
 )
@@ -40631,6 +40638,10 @@ keyType
 keyConversionFunction
 =
 keyConversionFunction
+            
+sourceDescription
+=
+sourceDescription
             
 typeName
 =
@@ -47560,6 +47571,11 @@ val
 {
 nullable
 }
+"
+{
+sourceDescription
+}
+"
 {
 declName
 }
@@ -47581,6 +47597,10 @@ exceptionCode
 nullable
 =
 nullable
+            
+sourceDescription
+=
+sourceDescription
             
 exceptionCode
 =

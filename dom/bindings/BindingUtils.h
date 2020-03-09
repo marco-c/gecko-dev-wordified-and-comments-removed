@@ -9410,6 +9410,9 @@ JS
 Value
 >
 v
+const
+char
+*
 T
 &
 result
@@ -9474,6 +9477,9 @@ JS
 Value
 >
 v
+const
+char
+*
 T
 &
 result
@@ -9637,8 +9643,8 @@ true
 bool
 ConvertJSValueToByteString
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :
@@ -9653,6 +9659,10 @@ Value
 v
 bool
 nullable
+const
+char
+*
+sourceDescription
 nsACString
 &
 result
@@ -9662,8 +9672,8 @@ inline
 bool
 ConvertJSValueToByteString
 (
-JSContext
-*
+BindingCallContext
+&
 cx
 JS
 :
@@ -9676,6 +9686,10 @@ JS
 Value
 >
 v
+const
+char
+*
+sourceDescription
 nsACString
 &
 result
@@ -9687,6 +9701,7 @@ ConvertJSValueToByteString
 cx
 v
 false
+sourceDescription
 result
 )
 ;
