@@ -18792,6 +18792,8 @@ return
 (
 '
 rc
+.
+exe
 '
 )
 check_prog

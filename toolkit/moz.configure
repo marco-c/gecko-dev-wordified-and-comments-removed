@@ -9906,6 +9906,8 @@ return
 (
 '
 midl
+.
+exe
 '
 )
 depends
