@@ -906,6 +906,15 @@ indent
 )
 )
     
+task_definition
+=
+copy
+.
+deepcopy
+(
+task_definition
+)
+    
 task_name
 =
 task_definition
@@ -1142,6 +1151,21 @@ failures
 :
         
 if
+len
+(
+failures
+[
+failure_group
+]
+)
+=
+=
+0
+:
+            
+continue
+        
+if
 failure_group
 =
 =
@@ -1174,7 +1198,13 @@ else
 [
 ]
         
-else
+elif
+failure_group
+=
+=
+'
+tests
+'
 :
             
 failure_group_suffix
@@ -1200,6 +1230,31 @@ repeatable_task
 else
 [
 ]
+        
+else
+:
+            
+logger
+.
+error
+(
+"
+create_isolate_failure_tasks
+:
+Unknown
+failure_group
+{
+}
+"
+.
+format
+(
+                
+failure_group
+)
+)
+            
+continue
         
 if
 repeat_args
