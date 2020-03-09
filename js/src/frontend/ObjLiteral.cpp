@@ -301,12 +301,6 @@ cx
 ;
 while
 (
-true
-)
-{
-if
-(
-!
 reader
 .
 readInsn
@@ -316,9 +310,6 @@ insn
 )
 )
 {
-break
-;
-}
 MOZ_ASSERT
 (
 insn
@@ -531,12 +522,6 @@ cx
 ;
 while
 (
-true
-)
-{
-if
-(
-!
 reader
 .
 readInsn
@@ -546,9 +531,6 @@ insn
 )
 )
 {
-break
-;
-}
 MOZ_ASSERT
 (
 insn
