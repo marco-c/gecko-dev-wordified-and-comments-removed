@@ -545,10 +545,6 @@ enableReadableStreamPipeTo
 ;
 extern
 bool
-enableFields
-;
-extern
-bool
 enableWeakRefs
 ;
 extern

@@ -179,11 +179,6 @@ hideScriptFromDebugger
 =
 false
 ;
-bool
-fieldsEnabledOption
-=
-true
-;
 const
 char
 *
