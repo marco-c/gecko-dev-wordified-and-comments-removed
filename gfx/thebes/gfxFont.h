@@ -6637,7 +6637,6 @@ bool
 *
 aEmittedGlyphs
 )
-const
 ;
 bool
 DrawMissingGlyph
