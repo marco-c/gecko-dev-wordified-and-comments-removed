@@ -1001,9 +1001,6 @@ gen_scalar_enum
 .
 py
 '
-py2
-=
-True
 inputs
 =
 scalar_files
