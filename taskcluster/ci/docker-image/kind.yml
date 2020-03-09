@@ -1312,6 +1312,16 @@ I
 (
 snap
 )
+firefox
+-
+flatpak
+:
+symbol
+:
+I
+(
+flatpak
+)
 webrender
 :
 symbol

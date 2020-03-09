@@ -1,0 +1,13 @@
+{
+"
+policies
+"
+:
+{
+"
+DisableAppUpdate
+"
+:
+true
+}
+}
