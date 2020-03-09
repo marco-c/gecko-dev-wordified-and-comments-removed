@@ -353,8 +353,9 @@ PaymentAddress
 PaymentAddress
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 PaymentAddress
