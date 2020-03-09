@@ -19090,7 +19090,7 @@ type
 bool
 value
 :
-IS_ANDROID
+false
 mirror
 :
 always

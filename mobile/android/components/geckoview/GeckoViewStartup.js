@@ -570,6 +570,13 @@ GeckoView
 :
 WebExtension
 :
+SetPBAllowed
+"
+"
+GeckoView
+:
+WebExtension
+:
 Uninstall
 "
 "
