@@ -117,8 +117,9 @@ Permissions
 Permissions
 (
 )
-{
-}
+=
+default
+;
 JSObject
 *
 Permissions
