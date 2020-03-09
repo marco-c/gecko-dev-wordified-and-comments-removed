@@ -10146,7 +10146,10 @@ ThrowTypeError
 MSG_NO_ACTIVE_WORKER
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aScope
+)
 )
 ;
 }

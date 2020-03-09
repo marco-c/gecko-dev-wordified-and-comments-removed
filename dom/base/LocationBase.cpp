@@ -253,10 +253,7 @@ ThrowTypeError
 MSG_URL_NOT_LOADABLE
 >
 (
-NS_ConvertUTF8toUTF16
-(
 spec
-)
 )
 ;
 return

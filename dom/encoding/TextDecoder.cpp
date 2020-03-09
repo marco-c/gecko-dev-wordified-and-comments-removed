@@ -96,7 +96,7 @@ if
 encoding
 )
 {
-nsAutoString
+NS_ConvertUTF16toUTF8
 label
 (
 aLabel

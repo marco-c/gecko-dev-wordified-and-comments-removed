@@ -1648,10 +1648,7 @@ aRv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 err
-)
 )
 ;
 }

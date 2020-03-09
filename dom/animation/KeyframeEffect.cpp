@@ -3644,9 +3644,12 @@ ThrowTypeError
 MSG_INVALID_PSEUDO_SELECTOR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 options
 .
 mPseudoElement
+)
 )
 ;
 return
@@ -3687,9 +3690,12 @@ ThrowTypeError
 MSG_UNSUPPORTED_PSEUDO_SELECTOR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 options
 .
 mPseudoElement
+)
 )
 ;
 }
@@ -5154,7 +5160,10 @@ ThrowTypeError
 MSG_INVALID_PSEUDO_SELECTOR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aPseudoElement
+)
 )
 ;
 return
@@ -5190,7 +5199,10 @@ ThrowTypeError
 MSG_UNSUPPORTED_PSEUDO_SELECTOR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aPseudoElement
+)
 )
 ;
 return

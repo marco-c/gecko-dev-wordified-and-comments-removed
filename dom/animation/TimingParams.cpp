@@ -259,10 +259,7 @@ aRv
 .
 ThrowTypeError
 (
-NS_ConvertUTF8toUTF16
-(
 error
-)
 )
 ;
 return
@@ -1089,7 +1086,10 @@ dom
 MSG_INVALID_EASING_ERROR
 >
 (
+NS_ConvertUTF16toUTF8
+(
 aEasing
+)
 )
 ;
 return

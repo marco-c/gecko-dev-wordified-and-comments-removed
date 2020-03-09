@@ -276,7 +276,10 @@ MSG_INVALID_URL_SCHEME
 "
 Request
 "
+NS_ConvertUTF16toUTF8
+(
 aUrl
+)
 )
 ;
 return
@@ -323,12 +326,6 @@ get
 )
 )
 {
-NS_ConvertASCIItoUTF16
-label
-(
-method
-)
-;
 aRv
 .
 ThrowTypeError
@@ -336,7 +333,7 @@ ThrowTypeError
 MSG_INVALID_REQUEST_METHOD
 >
 (
-label
+method
 )
 ;
 return
@@ -431,7 +428,7 @@ Status
 206
 )
 {
-NS_ConvertASCIItoUTF16
+nsCString
 type
 (
 ResponseTypeValues
@@ -447,7 +444,7 @@ Type
 )
 )
 ;
-nsAutoString
+nsAutoCString
 status
 ;
 status
@@ -480,7 +477,10 @@ MSG_CACHE_ADD_FAILED_RESPONSE
 (
 type
 status
+NS_ConvertUTF16toUTF8
+(
 url
+)
 )
 ;
 return
