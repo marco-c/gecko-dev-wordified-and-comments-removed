@@ -32,7 +32,6 @@ tool
 ;
 const
 {
-revertRecordingPreferences
 startProfiler
 }
 =
@@ -238,10 +237,6 @@ record
 )
 ;
 }
-)
-;
-revertRecordingPreferences
-(
 )
 ;
 }

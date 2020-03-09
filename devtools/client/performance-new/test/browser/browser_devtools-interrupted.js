@@ -31,7 +31,6 @@ tool
 ;
 const
 {
-revertRecordingPreferences
 stopProfiler
 :
 stopProfilerByAnotherTool
@@ -218,10 +217,6 @@ interrupted
 )
 ;
 }
-)
-;
-revertRecordingPreferences
-(
 )
 ;
 }

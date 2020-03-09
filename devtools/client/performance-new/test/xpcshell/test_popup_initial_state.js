@@ -348,7 +348,6 @@ const
 {
 getRecordingPreferences
 setRecordingPreferences
-revertRecordingPreferences
 changePreset
 }
 =
@@ -509,10 +508,6 @@ the
 default
 .
 "
-)
-;
-revertRecordingPreferences
-(
 )
 ;
 }
