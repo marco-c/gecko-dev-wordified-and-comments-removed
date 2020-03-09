@@ -2516,6 +2516,14 @@ manifestPermissions
 ;
 addon
 .
+optionalPermissions
+=
+extension
+.
+manifestOptionalPermissions
+;
+addon
+.
 applyBackgroundUpdates
 =
 AddonManager
@@ -15397,6 +15405,7 @@ flushJarCache
 newVersionReason
 recursiveRemove
 syncLoadManifest
+loadManifestFromFile
 _inProgress
 :
 [
