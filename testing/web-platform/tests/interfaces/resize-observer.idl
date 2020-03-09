@@ -169,7 +169,7 @@ contentRect
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 ResizeObserverSize
 >
@@ -177,7 +177,7 @@ borderBoxSize
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 ResizeObserverSize
 >
@@ -185,7 +185,7 @@ contentBoxSize
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 ResizeObserverSize
 >
