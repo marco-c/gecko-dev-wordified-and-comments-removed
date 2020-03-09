@@ -41,9 +41,6 @@ class
 GCMarker
 ;
 class
-LazyScript
-;
-class
 NativeObject
 ;
 class

@@ -2111,9 +2111,9 @@ Script
 js
 :
 :
-LazyScript
+BaseScript
 *
-lazyScript
+baseScript
 =
 nullptr
 ;
@@ -2127,7 +2127,7 @@ ubi
 :
 Node
 (
-lazyScript
+baseScript
 )
 .
 coarseType
