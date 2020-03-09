@@ -1990,8 +1990,9 @@ mInner
 PromiseNativeHandlerShim
 (
 )
-{
-}
+=
+default
+;
 public
 :
 explicit
@@ -3411,8 +3412,9 @@ protected
 PromiseWorkerProxyRunnable
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr
