@@ -32405,7 +32405,7 @@ passwordEditCapture
 .
 enabled
 "
-false
+true
 )
 ;
 pref
