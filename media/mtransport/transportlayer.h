@@ -165,8 +165,9 @@ virtual
 TransportLayer
 (
 )
-{
-}
+=
+default
+;
 nsresult
 Init
 (

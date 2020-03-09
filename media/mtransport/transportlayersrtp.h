@@ -60,8 +60,8 @@ virtual
 TransportLayerSrtp
 (
 )
-{
-}
+=
+default
 ;
 void
 WasInserted

@@ -39,8 +39,9 @@ public
 TransportLayerLogging
 (
 )
-{
-}
+=
+default
+;
 TransportResult
 SendPacket
 (

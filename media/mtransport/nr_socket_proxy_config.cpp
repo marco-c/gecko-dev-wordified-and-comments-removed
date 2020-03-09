@@ -117,8 +117,9 @@ NrSocketProxyConfig
 NrSocketProxyConfig
 (
 )
-{
-}
+=
+default
+;
 const
 net
 :

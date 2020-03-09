@@ -51,8 +51,9 @@ virtual
 nsStunUDPSocketFilterHandler
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
@@ -95,8 +96,9 @@ virtual
 nsStunTCPSocketFilterHandler
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

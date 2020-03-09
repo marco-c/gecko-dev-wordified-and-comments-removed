@@ -83,8 +83,9 @@ virtual
 StunAddrsListener
 (
 )
-{
-}
+=
+default
+;
 ThreadSafeAutoRefCnt
 mRefCnt
 ;
@@ -163,8 +164,9 @@ virtual
 StunAddrsRequestChild
 (
 )
-{
-}
+=
+default
+;
 virtual
 mozilla
 :

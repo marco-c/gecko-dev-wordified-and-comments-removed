@@ -367,8 +367,9 @@ sockets_
 TestNat
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -639,8 +640,9 @@ private
 UdpPacket
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class

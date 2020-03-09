@@ -475,8 +475,9 @@ virtual
 SocketHandler
 (
 )
-{
-}
+=
+default
+;
 private
 :
 SocketTransportServiceTest
