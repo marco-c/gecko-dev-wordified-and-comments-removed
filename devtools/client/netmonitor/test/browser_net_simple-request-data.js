@@ -109,6 +109,7 @@ index
 const
 {
 EVENTS
+TEST_EVENTS
 }
 =
 windowRequire
@@ -233,7 +234,7 @@ reject
 }
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 async
@@ -701,7 +702,7 @@ SIMPLE_SJS
 ;
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_HEADERS
 async
@@ -824,7 +825,7 @@ SIMPLE_SJS
 ;
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_COOKIES
 async
@@ -928,7 +929,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_POST_DATA
 (
@@ -961,7 +962,7 @@ data
 ;
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_HEADERS
 async
@@ -1084,7 +1085,7 @@ SIMPLE_SJS
 ;
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_COOKIES
 async
@@ -1182,7 +1183,7 @@ SIMPLE_SJS
 ;
 expectEvent
 (
-EVENTS
+TEST_EVENTS
 .
 STARTED_RECEIVING_RESPONSE
 async

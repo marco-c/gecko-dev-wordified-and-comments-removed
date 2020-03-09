@@ -360,7 +360,7 @@ api
 .
 off
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onRequest
@@ -398,7 +398,7 @@ api
 .
 on
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 onRequest

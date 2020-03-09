@@ -222,7 +222,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 )

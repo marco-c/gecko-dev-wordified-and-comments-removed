@@ -66,7 +66,7 @@ index
 ;
 const
 {
-EVENTS
+TEST_EVENTS
 }
 =
 windowRequire
@@ -217,7 +217,7 @@ api
 .
 once
 (
-EVENTS
+TEST_EVENTS
 .
 NETWORK_EVENT
 )

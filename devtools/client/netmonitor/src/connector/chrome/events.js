@@ -6,6 +6,7 @@ strict
 const
 {
 EVENTS
+TEST_EVENTS
 }
 =
 require
@@ -670,7 +671,7 @@ window
 .
 emit
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_HEADERS
 header
@@ -753,7 +754,7 @@ window
 .
 emit
 (
-EVENTS
+TEST_EVENTS
 .
 STARTED_RECEIVING_RESPONSE
 requestId
@@ -801,7 +802,7 @@ window
 .
 emit
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_HEADERS
 header
@@ -1002,7 +1003,7 @@ window
 .
 emit
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_RESPONSE_CONTENT
 requestId
@@ -1050,7 +1051,7 @@ window
 .
 emit
 (
-EVENTS
+TEST_EVENTS
 .
 RECEIVED_REQUEST_POST_DATA
 requestId
