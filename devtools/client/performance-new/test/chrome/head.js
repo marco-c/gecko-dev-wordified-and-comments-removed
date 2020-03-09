@@ -873,7 +873,7 @@ new
 /
 components
 /
-DevToolsAndPopup
+DevToolsPanel
 "
 )
 )

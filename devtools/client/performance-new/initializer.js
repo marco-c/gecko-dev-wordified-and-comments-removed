@@ -119,7 +119,7 @@ react
 )
 ;
 const
-DevToolsAndPopup
+DevToolsPanel
 =
 React
 .
@@ -138,7 +138,7 @@ new
 /
 components
 /
-DevToolsAndPopup
+DevToolsPanel
 "
 )
 )
@@ -383,14 +383,6 @@ null
 ]
 )
 ;
-recordingPreferences
-.
-presetName
-=
-"
-custom
-"
-;
 store
 .
 dispatch
@@ -480,7 +472,7 @@ null
 ProfilerEventHandling
 (
 )
-DevToolsAndPopup
+DevToolsPanel
 (
 )
 )
