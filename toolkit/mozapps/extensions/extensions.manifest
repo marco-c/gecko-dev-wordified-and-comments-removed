@@ -85,8 +85,6 @@ addons
 PluginProvider
 .
 jsm
-#
-endif
 category
 addon
 -
@@ -107,5 +105,7 @@ addons
 GMPProvider
 .
 jsm
+#
+endif
 #
 endif

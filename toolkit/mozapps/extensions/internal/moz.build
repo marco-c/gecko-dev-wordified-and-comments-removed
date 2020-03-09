@@ -112,11 +112,6 @@ Content
 js
 '
 '
-GMPProvider
-.
-jsm
-'
-'
 ProductAddonChecker
 .
 jsm
@@ -156,6 +151,11 @@ addons
 +
 =
 [
+'
+GMPProvider
+.
+jsm
+'
 '
 PluginProvider
 .
