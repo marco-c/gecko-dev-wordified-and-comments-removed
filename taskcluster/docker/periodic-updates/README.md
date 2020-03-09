@@ -21,9 +21,7 @@ data
 HPKP
 pinning
 and
-blocklist
-.
-xml
+blocklisting
 and
 will
 produce
@@ -97,11 +95,6 @@ DO_HPKP
 1
 -
 e
-DO_BLOCKLIST
-=
-1
--
-e
 PRODUCT
 =
 "
@@ -144,12 +137,6 @@ DO_HPKP
 and
 the
 HPKP
-checks
-and
-DO_BLOCKLIST
-and
-the
-blocklist
 checks
 .
 Environment
@@ -562,9 +549,6 @@ DO_HSTS
 :
 1
 DO_HPKP
-:
-1
-DO_BLOCKLIST
 :
 1
 PRODUCT
