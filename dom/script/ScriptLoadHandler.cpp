@@ -184,8 +184,9 @@ ScriptLoadHandler
 ScriptLoadHandler
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 ScriptLoadHandler

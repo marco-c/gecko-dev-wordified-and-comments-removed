@@ -3057,8 +3057,9 @@ AutoEntryScript
 AutoEntryScript
 (
 )
-{
-}
+=
+default
+;
 AutoEntryScript
 :
 :
