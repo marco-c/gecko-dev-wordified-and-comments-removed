@@ -22,8 +22,8 @@ b
 branch
 #
 -
-p
-pipfile_directory
+f
+requirements_file
 #
 -
 3
@@ -38,7 +38,7 @@ BRANCH
 test
 "
 {
-PIPFILE_DIRECTORY
+REQUIREMENTS_FILE
 }
 "
 PIP_ARG
@@ -404,10 +404,10 @@ BRANCH
 }
 "
 -
-p
+f
 "
 {
-PIPFILE_DIRECTORY
+REQUIREMENTS_FILE
 }
 "
 {

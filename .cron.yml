@@ -1110,7 +1110,9 @@ minute
 -
 name
 :
-pipfile
+python
+-
+dependency
 -
 update
 job
@@ -1131,7 +1133,7 @@ tasks
 -
 method
 :
-pipfile_update
+python_dependency_update
 run
 -
 on
