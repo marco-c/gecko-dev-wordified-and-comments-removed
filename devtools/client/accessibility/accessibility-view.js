@@ -236,7 +236,6 @@ async
 initialize
 (
 {
-front
 supports
 fluentBundles
 toolbox
@@ -245,6 +244,11 @@ startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
 simulate
+enableAccessibility
+disableAccessibility
+resetAccessiblity
+startListeningForLifecycleEvents
+stopListeningForLifecycleEvents
 }
 )
 {
@@ -257,7 +261,7 @@ dispatch
 (
 reset
 (
-front
+resetAccessiblity
 supports
 )
 )
@@ -280,9 +284,6 @@ mainFrame
 MainFrame
 (
 {
-accessibility
-:
-front
 fluentBundles
 toolbox
 getAccessibilityTreeRoot
@@ -290,6 +291,11 @@ startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
 simulate
+enableAccessibility
+disableAccessibility
+resetAccessiblity
+startListeningForLifecycleEvents
+stopListeningForLifecycleEvents
 }
 )
 ;
