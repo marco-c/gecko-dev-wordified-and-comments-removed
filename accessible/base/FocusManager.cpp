@@ -1136,6 +1136,10 @@ FireDelayedEvent
 event
 )
 ;
+mLastFocus
+=
+aTarget
+;
 #
 ifdef
 A11Y_LOG
@@ -1779,10 +1783,6 @@ FireEvent
 (
 focusEvent
 )
-;
-mLastFocus
-=
-target
 ;
 if
 (
