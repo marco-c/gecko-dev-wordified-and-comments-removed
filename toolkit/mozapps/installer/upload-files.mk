@@ -2874,6 +2874,16 @@ hg
 exclude
 =
 '
+.
+git
+*
+'
+\
+-
+-
+exclude
+=
+'
 CVS
 '
 \
