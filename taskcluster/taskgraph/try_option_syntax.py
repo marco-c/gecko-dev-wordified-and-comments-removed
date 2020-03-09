@@ -14,6 +14,8 @@ import
 re
 import
 shlex
+import
+six
 from
 collections
 import
@@ -2616,12 +2618,13 @@ set
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
 :
             
@@ -2796,10 +2799,12 @@ build_types_arg
         
 build_types
 =
-filter
-(
-None
 [
+_f
+for
+_f
+in
+(
 BUILD_TYPE_ALIASES
 .
 get
@@ -2807,12 +2812,14 @@ get
 build_type
 )
 for
-                             
+                       
 build_type
 in
 build_types_arg
-]
 )
+if
+_f
+]
         
 all_types
 =
@@ -2830,12 +2837,13 @@ build_type
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                         
 if
@@ -3057,12 +3065,13 @@ test_platform
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                              
 if
@@ -3091,12 +3100,13 @@ build_platform
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                               
 if
@@ -3303,12 +3313,13 @@ split
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                             
 if
@@ -3354,12 +3365,13 @@ attr_name
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
                         
 if
@@ -4342,12 +4354,13 @@ set
 for
 t
 in
-graph
-.
-tasks
+six
 .
 itervalues
 (
+graph
+.
+tasks
 )
 :
             
