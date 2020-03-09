@@ -494,6 +494,13 @@ ResetCrossProcessDispatchingState
 (
 )
 ;
+aResult
+-
+>
+MarkAsComingFromAnotherProcess
+(
+)
+;
 }
 return
 ret

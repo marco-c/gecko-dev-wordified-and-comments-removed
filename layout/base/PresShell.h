@@ -4439,6 +4439,13 @@ WidgetGUIEvent
 aEvent
 )
 ;
+inline
+bool
+MouseLocationWasSetBySynthesizedMouseEventForTests
+(
+)
+const
+;
 class
 nsSynthMouseMoveEvent
 final
@@ -5867,6 +5874,7 @@ PresShell
 GetRootPresShell
 (
 )
+const
 ;
 nscolor
 GetDefaultBackgroundColorToDraw
@@ -6779,6 +6787,11 @@ mForceUseLegacyNonPrimaryDispatch
 ;
 bool
 mInitializedWithClickEventDispatchingBlacklist
+:
+1
+;
+bool
+mMouseLocationWasSetBySynthesizedMouseEventForTests
 :
 1
 ;
