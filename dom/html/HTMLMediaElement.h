@@ -3196,11 +3196,6 @@ bool
 aCapture
 )
 ;
-bool
-AudioChannelAgentBlockedPlay
-(
-)
-;
 void
 MaybeDoLoad
 (
