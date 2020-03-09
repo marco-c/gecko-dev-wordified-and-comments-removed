@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 rules
-"
 :
 {
 "
@@ -46,16 +44,12 @@ vars
 error
 "
 {
-"
 vars
-"
 :
 "
 all
 "
-"
 args
-"
 :
 "
 none
@@ -64,3 +58,4 @@ none
 ]
 }
 }
+;

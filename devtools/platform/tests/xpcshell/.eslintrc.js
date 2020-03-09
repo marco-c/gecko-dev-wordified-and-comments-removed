@@ -3,9 +3,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -18,14 +16,10 @@ xpcshell
 test
 "
 ]
-"
 rules
-"
 :
 {
-"
 camelcase
-"
 :
 "
 off
@@ -65,3 +59,4 @@ off
 "
 }
 }
+;

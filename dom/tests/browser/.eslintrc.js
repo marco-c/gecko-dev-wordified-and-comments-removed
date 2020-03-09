@@ -37,9 +37,7 @@ module
 }
 }
 ]
-"
 extends
-"
 :
 [
 "

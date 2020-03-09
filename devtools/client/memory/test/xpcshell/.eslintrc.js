@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 "
 .
@@ -32,9 +30,7 @@ xpcshell
 .
 js
 "
-"
 rules
-"
 :
 {
 "
@@ -50,9 +46,7 @@ vars
 error
 "
 {
-"
 vars
-"
 :
 "
 local

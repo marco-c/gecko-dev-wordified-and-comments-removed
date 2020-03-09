@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -24,3 +22,4 @@ test
 "
 ]
 }
+;

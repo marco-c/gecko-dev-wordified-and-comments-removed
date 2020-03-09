@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -23,9 +21,7 @@ mochitest
 test
 "
 ]
-"
 plugins
-"
 :
 [
 "

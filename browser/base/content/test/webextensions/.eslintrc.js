@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -23,14 +21,10 @@ browser
 test
 "
 ]
-"
 env
-"
 :
 {
-"
 webextensions
-"
 :
 true
 }

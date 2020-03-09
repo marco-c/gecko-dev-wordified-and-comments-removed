@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 "
 plugin

@@ -11,9 +11,7 @@ exports
 rules
 :
 {
-"
 complexity
-"
 :
 [
 "

@@ -78,9 +78,7 @@ module
 }
 }
 {
-"
 files
-"
 :
 "
 test
@@ -91,9 +89,7 @@ head
 .
 js
 "
-"
 rules
-"
 :
 {
 "
@@ -109,16 +105,12 @@ vars
 error
 "
 {
-"
 args
-"
 :
 "
 none
 "
-"
 vars
-"
 :
 "
 local

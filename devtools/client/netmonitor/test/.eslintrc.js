@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 "
 .
@@ -29,14 +27,10 @@ mochitests
 .
 js
 "
-"
 env
-"
 :
 {
-"
 jest
-"
 :
 true
 }

@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -32,9 +30,7 @@ browser
 test
 "
 ]
-"
 rules
-"
 :
 {
 "
@@ -50,16 +46,12 @@ vars
 error
 "
 {
-"
 args
-"
 :
 "
 none
 "
-"
 varsIgnorePattern
-"
 :
 "
 ^

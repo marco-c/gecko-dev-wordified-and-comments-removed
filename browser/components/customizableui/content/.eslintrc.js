@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 env
-"
 :
 {
 "
@@ -23,9 +21,7 @@ window
 :
 true
 }
-"
 plugins
-"
 :
 [
 "

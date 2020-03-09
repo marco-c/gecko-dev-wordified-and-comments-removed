@@ -8,14 +8,10 @@ module
 exports
 =
 {
-"
 globals
-"
 :
 {
-"
 define
-"
 :
 true
 }

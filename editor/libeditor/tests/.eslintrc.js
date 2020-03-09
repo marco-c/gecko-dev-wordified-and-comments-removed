@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 [
 "
@@ -32,9 +30,7 @@ mochitest
 test
 "
 ]
-"
 plugins
-"
 :
 [
 "
@@ -43,9 +39,7 @@ no
 unsanitized
 "
 ]
-"
 rules
-"
 :
 {
 "

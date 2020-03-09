@@ -8,9 +8,7 @@ module
 exports
 =
 {
-"
 extends
-"
 :
 "
 .
@@ -29,9 +27,7 @@ xpcshell
 .
 js
 "
-"
 rules
-"
 :
 {
 "
