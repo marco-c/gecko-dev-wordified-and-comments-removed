@@ -398,9 +398,6 @@ prepare_tlds
 .
 py
 '
-py2
-=
-True
 inputs
 =
 [
