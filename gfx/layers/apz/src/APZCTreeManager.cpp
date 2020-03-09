@@ -12629,7 +12629,7 @@ hitSomething
 wr
 -
 >
-HitTest
+FastHitTest
 (
 wr
 :

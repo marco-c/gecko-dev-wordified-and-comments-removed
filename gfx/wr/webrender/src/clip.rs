@@ -2788,7 +2788,6 @@ SpatialTree
 clip_data_store
 :
 &
-mut
 ClipDataStore
 )
 {

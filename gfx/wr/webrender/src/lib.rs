@@ -955,6 +955,16 @@ use
 crate
 :
 :
+hit_test
+:
+:
+SharedHitTester
+;
+pub
+use
+crate
+:
+:
 screen_capture
 :
 :
