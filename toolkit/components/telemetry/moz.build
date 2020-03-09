@@ -1276,9 +1276,6 @@ gen_process_data
 .
 py
 '
-py2
-=
-True
 inputs
 =
 processes_files
