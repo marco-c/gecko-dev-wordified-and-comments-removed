@@ -71,18 +71,17 @@ name
 '
 retrigger
 -
-mochitest
+custom
 '
     
 title
 =
 '
 Retrigger
-Mochitest
-/
-Reftest
+task
 with
-Debugging
+custom
+parameters
 '
     
 symbol
@@ -101,13 +100,12 @@ description
 Retriggers
 the
 specified
-mochitest
-/
-reftest
-job
+task
 with
-additional
-options
+custom
+environment
+and
+parameters
 "
     
 context
@@ -574,7 +572,7 @@ path
 }
 )
 def
-mochitest_retrigger_action
+custom_retrigger_action
 (
 parameters
 graph_config
