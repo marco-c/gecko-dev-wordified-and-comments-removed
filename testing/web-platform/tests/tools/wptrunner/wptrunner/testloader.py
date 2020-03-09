@@ -1031,6 +1031,10 @@ skip_timeout
 =
 False
                  
+skip_implementation_status
+=
+None
+                 
 chunker_kwargs
 =
 None
@@ -1092,6 +1096,12 @@ self
 skip_timeout
 =
 skip_timeout
+        
+self
+.
+skip_implementation_status
+=
+skip_implementation_status
         
 self
 .
@@ -1738,6 +1748,26 @@ expected
 "
 TIMEOUT
 "
+:
+                
+enabled
+=
+False
+            
+if
+self
+.
+skip_implementation_status
+and
+test
+.
+implementation_status
+(
+)
+in
+self
+.
+skip_implementation_status
 :
                 
 enabled
