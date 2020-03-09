@@ -53779,8 +53779,6 @@ emitPropertyListObjLiteral
 ListNode
 *
 obj
-PropListType
-type
 ObjLiteralFlags
 flags
 )
@@ -57828,7 +57826,6 @@ if
 emitPropertyListObjLiteral
 (
 objNode
-ObjectLiteral
 flags
 )
 )

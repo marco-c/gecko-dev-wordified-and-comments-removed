@@ -2223,8 +2223,6 @@ emitPropertyListObjLiteral
 ListNode
 *
 obj
-PropListType
-type
 ObjLiteralFlags
 flags
 )
