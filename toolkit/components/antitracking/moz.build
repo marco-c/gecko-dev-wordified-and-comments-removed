@@ -214,6 +214,11 @@ ContentBlockingNotifier
 h
 '
 '
+ContentBlockingUserInteraction
+.
+h
+'
+'
 StorageAccess
 .
 h
@@ -255,6 +260,11 @@ cpp
 '
 '
 ContentBlockingNotifier
+.
+cpp
+'
+'
+ContentBlockingUserInteraction
 .
 cpp
 '
