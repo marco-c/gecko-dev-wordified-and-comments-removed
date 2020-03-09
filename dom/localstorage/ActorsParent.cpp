@@ -40777,7 +40777,7 @@ rv
 connection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -40816,7 +40816,7 @@ rv
 connection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -40982,7 +40982,7 @@ rv
 connection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -41012,7 +41012,7 @@ rv
 connection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -49569,7 +49569,7 @@ rv
 connection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -49819,7 +49819,7 @@ rv
 connection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (

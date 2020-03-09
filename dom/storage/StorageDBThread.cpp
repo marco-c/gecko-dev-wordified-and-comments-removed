@@ -5121,7 +5121,7 @@ aThread
 mWorkerConnection
 -
 >
-RegisterFunction
+CreateFunction
 (
 NS_LITERAL_CSTRING
 (
@@ -5200,7 +5200,7 @@ aThread
 mWorkerConnection
 -
 >
-UnregisterFunction
+RemoveFunction
 (
 NS_LITERAL_CSTRING
 (

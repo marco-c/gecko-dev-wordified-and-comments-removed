@@ -7257,7 +7257,7 @@ rv
 aClone
 -
 >
-RegisterFunction
+CreateFunction
 (
 key
 data
@@ -9316,7 +9316,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-RegisterFunction
+CreateFunction
 (
 const
 nsACString
@@ -9324,10 +9324,8 @@ nsACString
 aFunctionName
 int32_t
 aNumArguments
-nsCOMPtr
-<
 mozIStorageFunction
->
+*
 aFunction
 )
 {
@@ -9423,14 +9421,6 @@ info
 =
 {
 aFunction
-.
-forget
-(
-)
-.
-take
-(
-)
 Connection
 :
 :
@@ -9597,7 +9587,7 @@ NS_IMETHODIMP
 Connection
 :
 :
-UnregisterFunction
+RemoveFunction
 (
 const
 nsACString
