@@ -257,6 +257,14 @@ WidgetWayland
 )
 ;
 LazyLogModule
+gWaylandDmabufLog
+(
+"
+WaylandDmabuf
+"
+)
+;
+LazyLogModule
 gClipboardLog
 (
 "
