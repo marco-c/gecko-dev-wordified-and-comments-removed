@@ -20003,7 +20003,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 return
 Some
@@ -23302,7 +23302,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -24217,7 +24217,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 result
 =
@@ -24867,7 +24867,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -25467,7 +25467,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 {
 SInt32
@@ -27054,7 +27054,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 {
 nsIFrame
@@ -27119,7 +27119,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -27816,7 +27816,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance

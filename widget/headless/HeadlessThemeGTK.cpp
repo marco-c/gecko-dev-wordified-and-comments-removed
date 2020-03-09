@@ -422,7 +422,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 result
 .
@@ -608,7 +608,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -1336,7 +1336,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 aResult
 -
@@ -2037,7 +2037,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 return
 (
@@ -2091,7 +2091,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 |
 |
 aAppearance

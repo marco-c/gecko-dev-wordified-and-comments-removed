@@ -865,6 +865,8 @@ moz
 -
 menulist
 -
+arrow
+-
 button
 "
 "
@@ -6347,6 +6349,8 @@ light
 moz
 -
 menulist
+-
+arrow
 -
 button
 "

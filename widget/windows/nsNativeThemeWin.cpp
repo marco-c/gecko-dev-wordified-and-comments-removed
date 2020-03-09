@@ -3474,7 +3474,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 return
 Some
@@ -5837,7 +5837,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 {
 bool
@@ -8626,7 +8626,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 {
 DrawThemeBGRTLAware
@@ -11314,7 +11314,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 {
 rv
@@ -12442,7 +12442,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 )
 &
 &
@@ -12762,7 +12762,7 @@ aAppearance
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 |
 |
 aAppearance
@@ -13479,7 +13479,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -14745,7 +14745,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 (
 *
@@ -16246,7 +16246,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 {
 aPart
@@ -18571,7 +18571,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
@@ -20773,7 +20773,7 @@ case
 StyleAppearance
 :
 :
-MozMenulistButton
+MozMenulistArrowButton
 :
 case
 StyleAppearance
