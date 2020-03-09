@@ -322,6 +322,11 @@ HelperMacros
 h
 '
 '
+InitializedOnce
+.
+h
+'
+'
 IntegerPrintfMacros
 .
 h

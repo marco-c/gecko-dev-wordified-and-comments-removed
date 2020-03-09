@@ -105,6 +105,16 @@ TestSpan
 cpp
 '
 ]
+SOURCES
++
+=
+[
+'
+TestInitializedOnce
+.
+cpp
+'
+]
 if
 not
 CONFIG
