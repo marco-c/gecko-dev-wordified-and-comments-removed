@@ -10391,6 +10391,11 @@ callGCCallback
 (
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 )
 const
 {
@@ -10423,6 +10428,7 @@ mainContextFromOwnThread
 (
 )
 status
+reason
 callback
 .
 data
@@ -44562,6 +44568,12 @@ GCRuntime
 &
 gc_
 ;
+JS
+:
+:
+GCReason
+reason_
+;
 public
 :
 explicit
@@ -44570,11 +44582,20 @@ AutoCallGCCallbacks
 GCRuntime
 &
 gc
+JS
+:
+:
+GCReason
+reason
 )
 :
 gc_
 (
 gc
+)
+reason_
+(
+reason
 )
 {
 gc_
@@ -44582,6 +44603,7 @@ gc_
 maybeCallGCCallback
 (
 JSGC_BEGIN
+reason
 )
 ;
 }
@@ -44595,6 +44617,7 @@ gc_
 maybeCallGCCallback
 (
 JSGC_END
+reason_
 )
 ;
 }
@@ -44608,6 +44631,11 @@ maybeCallGCCallback
 (
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 )
 {
 if
@@ -44698,6 +44726,7 @@ gcCallbackDepth
 callGCCallback
 (
 status
+reason
 )
 ;
 MOZ_ASSERT
@@ -44922,6 +44951,7 @@ callCallbacks
 (
 *
 this
+reason
 )
 ;
 /

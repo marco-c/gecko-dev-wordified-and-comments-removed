@@ -26955,6 +26955,11 @@ JSContext
 cx
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 void
 *
 data
@@ -27063,6 +27068,11 @@ JSContext
 cx
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 void
 *
 data
@@ -27188,6 +27198,11 @@ JSContext
 cx
 JSGCStatus
 status
+JS
+:
+:
+GCReason
+reason
 void
 *
 data

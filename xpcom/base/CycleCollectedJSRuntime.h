@@ -751,6 +751,11 @@ JSContext
 aContext
 JSGCStatus
 aStatus
+JS
+:
+:
+GCReason
+aReason
 void
 *
 aData
@@ -942,6 +947,11 @@ JSContext
 aContext
 JSGCStatus
 aStatus
+JS
+:
+:
+GCReason
+aReason
 )
 ;
 void
