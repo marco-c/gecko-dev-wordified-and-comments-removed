@@ -53,7 +53,11 @@ bash
 queue_base
 =
 "
+{
 TASKCLUSTER_ROOT_URL
+%
+/
+}
 /
 api
 /
@@ -469,8 +473,9 @@ shellcheck
 disable
 =
 SC2086
-pipenv
-run
+python3
+.
+8
 /
 home
 /

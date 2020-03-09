@@ -4679,11 +4679,11 @@ chromium
 _target_task
 (
 '
-pipfile_update
+python_dependency_update
 '
 )
 def
-target_tasks_pipfile_update
+target_tasks_python_update
 (
 full_task_graph
 parameters
@@ -4727,7 +4727,9 @@ kind
 in
 [
 '
-pipfile
+python
+-
+dependency
 -
 update
 '
