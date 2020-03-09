@@ -33815,6 +33815,9 @@ smoosh
 "
 )
 ;
+return
+false
+;
 }
 RootedValue
 optionSmoosh
