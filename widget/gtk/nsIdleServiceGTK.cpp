@@ -134,6 +134,12 @@ Initialize
 if
 (
 !
+gdk_display_get_default
+(
+)
+|
+|
+!
 GDK_IS_X11_DISPLAY
 (
 gdk_display_get_default
@@ -141,8 +147,10 @@ gdk_display_get_default
 )
 )
 )
+{
 return
 ;
+}
 PRLibrary
 *
 xsslib
