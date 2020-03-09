@@ -330,8 +330,9 @@ project
         
 low_value_tasks
 =
-[
-]
+set
+(
+)
         
 url_low
 =
@@ -572,8 +573,6 @@ high_value_tasks
 =
 set
 (
-[
-]
 )
             
 if
@@ -665,7 +664,7 @@ task
             
 high_value_android_tasks
 =
-list
+set
 (
 filter
 (
@@ -1082,9 +1081,8 @@ False
             
 low_value_tasks
 =
-set
-(
-[
+{
+                
 x
 for
 x
@@ -1096,20 +1094,18 @@ new_as_old_is_high_value
 (
 x
 )
-]
-)
+            
+}
             
 low_value_tasks
 =
-set
-(
-[
+{
+                
 x
 for
 x
 in
 low_value_tasks
-                                   
 if
 '
 build
@@ -1123,18 +1119,8 @@ fuzzing
 '
 in
 x
-]
-)
             
-low_value_tasks
-=
-list
-(
-set
-(
-low_value_tasks
-)
-)
+}
         
 except
 exceptions
