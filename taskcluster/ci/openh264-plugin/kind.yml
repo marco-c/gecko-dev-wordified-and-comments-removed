@@ -536,6 +536,11 @@ openh264
 win32
 .
 py
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 toolchain
@@ -621,6 +626,11 @@ openh264
 win64
 .
 py
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 toolchain
@@ -714,6 +724,11 @@ win64
 aarch64
 .
 py
+tooltool
+-
+downloads
+:
+internal
 fetches
 :
 toolchain
