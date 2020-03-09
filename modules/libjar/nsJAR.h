@@ -309,7 +309,7 @@ bool
 mOpened
 ;
 bool
-mIsOmnijar
+mSkipArchiveClosing
 ;
 nsresult
 LoadEntry
