@@ -591,6 +591,7 @@ getFunction
 size_t
 index
 )
+const
 {
 JSObject
 *
@@ -671,6 +672,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 return
 getFunction
@@ -696,6 +698,7 @@ getRegExp
 size_t
 index
 )
+const
 {
 JSObject
 *
@@ -760,6 +763,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 JSObject
 *

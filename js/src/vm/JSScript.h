@@ -12900,6 +12900,7 @@ getObject
 size_t
 index
 )
+const
 {
 MOZ_ASSERT
 (
@@ -12945,6 +12946,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 MOZ_ASSERT
 (
@@ -13087,6 +13089,7 @@ getFunction
 size_t
 index
 )
+const
 ;
 inline
 JSFunction
@@ -13097,6 +13100,7 @@ jsbytecode
 *
 pc
 )
+const
 ;
 inline
 js
@@ -13109,6 +13113,7 @@ getRegExp
 size_t
 index
 )
+const
 ;
 inline
 js
@@ -13122,6 +13127,7 @@ jsbytecode
 *
 pc
 )
+const
 ;
 js
 :
@@ -13133,6 +13139,7 @@ getBigInt
 size_t
 index
 )
+const
 {
 MOZ_ASSERT
 (
@@ -13184,6 +13191,7 @@ jsbytecode
 *
 pc
 )
+const
 {
 MOZ_ASSERT
 (

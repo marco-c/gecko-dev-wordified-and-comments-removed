@@ -1867,6 +1867,17 @@ Type
 type
 )
 {
+MOZ_ASSERT
+(
+!
+jit
+:
+:
+JitOptions
+.
+warpBuilder
+)
+;
 if
 (
 type
