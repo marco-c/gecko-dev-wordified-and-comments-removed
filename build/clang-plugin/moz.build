@@ -622,6 +622,16 @@ DIRS
 tests
 '
 ]
+include
+(
+'
+external
+/
+sources
+.
+mozbuild
+'
+)
 #
 In
 the

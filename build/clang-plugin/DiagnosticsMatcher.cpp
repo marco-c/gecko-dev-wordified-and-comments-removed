@@ -53,6 +53,15 @@ Checks
 inc
 "
 #
+include
+"
+external
+/
+ExternalChecks
+.
+inc
+"
+#
 undef
 CHECK
 }
