@@ -169,6 +169,9 @@ Telemetry
 OriginMetricID
 OriginMetricID
 ;
+namespace
+dom
+{
 NS_NAMED_LITERAL_CSTRING
 (
 ContentBlockingLog
@@ -557,7 +560,7 @@ aBlocked
 const
 Maybe
 <
-ContentBlockingNotifier
+AntiTrackingCommon
 :
 :
 StorageAccessGrantedReason
@@ -1343,6 +1346,7 @@ hash
 }
 break
 ;
+}
 }
 }
 }

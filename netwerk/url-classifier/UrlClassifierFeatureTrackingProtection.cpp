@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+AntiTrackingCommon
+.
+h
+"
+#
+include
+"
+mozilla
+/
 net
 /
 UrlClassifierCommon

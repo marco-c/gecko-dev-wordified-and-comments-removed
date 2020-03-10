@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-ContentBlocking
+AntiTrackingCommon
 .
 h
 "
@@ -267,10 +267,10 @@ eAsyncNeeded
 }
 if
 (
-ContentBlocking
+AntiTrackingCommon
 :
 :
-ShouldAllowAccessFor
+IsFirstPartyStorageAccessGrantedFor
 (
 httpChannel
 uri

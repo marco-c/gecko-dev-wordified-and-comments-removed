@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-ContentBlocking
+AntiTrackingCommon
 .
 h
 "
@@ -150,10 +150,10 @@ rejectedReason
 ;
 if
 (
-ContentBlocking
+AntiTrackingCommon
 :
 :
-ShouldAllowAccessFor
+IsFirstPartyStorageAccessGrantedFor
 (
 aChannel
 uri

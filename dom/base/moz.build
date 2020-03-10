@@ -852,6 +852,11 @@ Comment
 h
 '
 '
+ContentBlockingLog
+.
+h
+'
+'
 ContentFrameMessageManager
 .
 h
@@ -1450,6 +1455,11 @@ cpp
 '
 '
 Comment
+.
+cpp
+'
+'
+ContentBlockingLog
 .
 cpp
 '
