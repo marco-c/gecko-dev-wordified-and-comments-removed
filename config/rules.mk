@@ -3194,7 +3194,7 @@ OS_LIBS
 )
 (
 call
-py3_action
+py_action
 check_binary
 -
 -
@@ -3459,7 +3459,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py3_action
+py_action
 check_binary
 -
 -
@@ -3716,7 +3716,7 @@ OS_LIBS
 )
 (
 call
-py3_action
+py_action
 check_binary
 -
 -
@@ -3869,7 +3869,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py3_action
+py_action
 check_binary
 -
 -
@@ -4387,7 +4387,7 @@ OS_LIBS
 )
 (
 call
-py3_action
+py_action
 check_binary
 -
 -
@@ -5192,7 +5192,7 @@ ifdef
 MOZ_CRASHREPORTER
 (
 call
-py3_action
+py_action
 dumpsymbols
 (
 abspath
@@ -7325,7 +7325,7 @@ FINAL_TARGET
 chrome
 (
 call
-py3_action
+py_action
 jar_maker
 \
 (
@@ -7647,7 +7647,7 @@ xpi
 '
 (
 call
-py3_action
+py_action
 zip
 -
 C
@@ -9572,7 +9572,7 @@ RM
 '
 (
 call
-py3_action
+py_action
 preprocessor
 -
 -

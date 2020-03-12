@@ -1478,10 +1478,10 @@ filter_func
 unified_list
 )
         
-return
-sorted
-(
 filtered_list
+.
+sort
+(
 key
 =
 lambda
@@ -1493,6 +1493,9 @@ get_name
 (
 )
 )
+        
+return
+filtered_list
     
 staticmethod
     
@@ -2011,13 +2014,23 @@ ts
 max_timestamp
 =
 (
+long
+(
 2
+)
 *
 *
 32
 )
 -
 1
+        
+assert
+isinstance
+(
+max_timestamp
+long
+)
         
 if
 ts
@@ -2248,7 +2261,7 @@ self
 .
 _ver
 =
-int
+long
 (
 args
 [
@@ -2401,7 +2414,7 @@ args
         
 return
 (
-int
+long
 (
 args
 [
@@ -2414,7 +2427,7 @@ args
 )
 |
 (
-int
+long
 (
 args
 [
@@ -2429,7 +2442,7 @@ args
 \
             
 (
-int
+long
 (
 args
 [
@@ -2441,7 +2454,7 @@ args
 16
 )
 |
-int
+long
 (
 args
 [
@@ -2478,7 +2491,7 @@ isinstance
 self
 .
 _ver
-int
+long
 )
 :
             

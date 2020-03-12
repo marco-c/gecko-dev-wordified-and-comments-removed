@@ -387,7 +387,7 @@ MAKE_JSSHELL
 =
 (
 call
-py3_action
+py_action
 zip
 -
 C
@@ -765,7 +765,7 @@ INNER_MAKE_PACKAGE
 =
 (
 call
-py3_action
+py_action
 make_zip
 '
 (
@@ -782,7 +782,7 @@ INNER_UNMAKE_PACKAGE
 =
 (
 call
-py3_action
+py_action
 make_unzip
 (
 UNPACKAGE
@@ -804,7 +804,7 @@ INNER_MAKE_PACKAGE
 =
 (
 call
-py3_action
+py_action
 exe_7z_archive
 '
 (
@@ -835,7 +835,7 @@ INNER_UNMAKE_PACKAGE
 =
 (
 call
-py3_action
+py_action
 exe_7z_extract
 (
 UNPACKAGE
@@ -1587,7 +1587,7 @@ INNER_MAKE_PACKAGE
 \
 (
 call
-py3_action
+py_action
 make_dmg
 \
 (
@@ -1663,7 +1663,7 @@ INNER_UNMAKE_PACKAGE
 \
 (
 call
-py3_action
+py_action
 unpack_dmg
 \
 (

@@ -1151,7 +1151,7 @@ artifact
 :
 (
 call
-py3_action
+py_action
 fat_aar
 \
 (
@@ -1484,7 +1484,7 @@ zip
 '
 (
 call
-py3_action
+py_action
 symbols_archive
 '
 (
@@ -1544,7 +1544,7 @@ zip
 '
 (
 call
-py3_action
+py_action
 symbols_archive
 '
 (
@@ -1679,7 +1679,7 @@ sources
 :
 (
 call
-py3_action
+py_action
 package_generated_sources
 '
 (

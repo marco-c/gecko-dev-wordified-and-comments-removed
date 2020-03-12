@@ -116,20 +116,6 @@ executable
     
 (
 '
-PYTHON3
-'
-mozpath
-.
-normsep
-(
-sys
-.
-executable
-)
-)
-    
-(
-'
 MOZ_UI_LOCALE
 '
 '

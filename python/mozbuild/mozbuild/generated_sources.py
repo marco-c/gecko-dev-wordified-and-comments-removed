@@ -210,7 +210,7 @@ open
 (
 gen_sources
 '
-r
+rb
 '
 )
 as

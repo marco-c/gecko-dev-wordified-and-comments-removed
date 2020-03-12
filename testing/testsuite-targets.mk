@@ -1149,7 +1149,7 @@ wpt
 manifest
 (
 call
-py3_action
+py_action
 test_archive
 \
 (

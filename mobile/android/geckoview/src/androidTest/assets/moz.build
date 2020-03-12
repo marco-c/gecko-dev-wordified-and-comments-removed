@@ -205,6 +205,14 @@ GENERATED_FILES
 xpi
 ]
 .
+py2
+=
+True
+GENERATED_FILES
+[
+xpi
+]
+.
 inputs
 =
 [

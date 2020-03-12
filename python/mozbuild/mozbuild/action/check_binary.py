@@ -267,9 +267,6 @@ cmd
 env
 =
 env
-universal_newlines
-=
-True
 )
 .
 splitlines
@@ -347,9 +344,6 @@ and
 open
 (
 binary
-'
-rb
-'
 )
 .
 read
@@ -358,7 +352,6 @@ read
 )
 =
 =
-b
 '
 !
 <

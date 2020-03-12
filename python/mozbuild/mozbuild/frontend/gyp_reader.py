@@ -505,6 +505,12 @@ action
 inputs
 '
 ]
+        
+g
+.
+py2
+=
+True
 def
 handle_copies
 (

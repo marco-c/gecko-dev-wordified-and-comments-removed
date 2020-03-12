@@ -8,8 +8,6 @@ import
 os
 import
 re
-import
-six
 RE_COMMENT
 =
 re
@@ -639,13 +637,6 @@ path
 '
 r
 '
-encoding
-=
-'
-utf
--
-8
-'
 )
 as
 fh
@@ -691,11 +682,15 @@ i
             
 line
 =
-six
-.
-ensure_text
-(
 line
+.
+decode
+(
+'
+utf
+-
+8
+'
 )
             
 if
