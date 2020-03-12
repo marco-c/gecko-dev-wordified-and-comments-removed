@@ -1554,6 +1554,10 @@ name
 :
 Lazy
 <
+extern
+"
+C
+"
 fn
 (
 (
