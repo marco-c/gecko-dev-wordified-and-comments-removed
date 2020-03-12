@@ -2515,9 +2515,6 @@ bool
 isTopLevelDoc
 ;
 bool
-hasNonEmptySandboxingFlags
-;
-bool
 pluginsAllowed
 ;
 nsDOMNavigationTiming

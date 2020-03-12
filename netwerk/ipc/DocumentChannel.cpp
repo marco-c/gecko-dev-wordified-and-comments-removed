@@ -300,8 +300,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 )
 :
 mAsyncOpenTime
@@ -332,10 +330,6 @@ aIsActive
 mIsTopLevelDoc
 (
 aIsTopLevelDoc
-)
-mHasNonEmptySandboxingFlags
-(
-aHasNonEmptySandboxingFlags
 )
 mLoadFlags
 (

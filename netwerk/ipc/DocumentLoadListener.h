@@ -221,7 +221,6 @@ Open
 nsDocShellLoadState
 *
 aLoadState
-class
 LoadInfo
 *
 aLoadInfo
@@ -235,8 +234,6 @@ bool
 aIsActive
 bool
 aIsTopLevelDoc
-bool
-aHasNonEmptySandboxingFlags
 const
 uint64_t
 &
