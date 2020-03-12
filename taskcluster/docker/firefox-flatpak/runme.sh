@@ -1229,7 +1229,7 @@ rw
 -
 device
 =
-dri
+all
 \
 -
 -
