@@ -315,7 +315,7 @@ content
 /
 aboutCheckerboard
 .
-xhtml
+html
 "
 nsIAboutModule
 :
