@@ -37233,6 +37233,12 @@ DEBUG_OVERLAY
 )
 ;
 }
+compositor
+.
+deinit
+(
+)
+;
 }
 self
 .
