@@ -230,11 +230,6 @@ gen_built_in_addons
 .
 py
 '
-manifest
-.
-py2
-=
-True
 if
 CONFIG
 [
