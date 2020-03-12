@@ -3893,6 +3893,10 @@ nsGkAtoms
 :
 :
 input
+nsGkAtoms
+:
+:
+button
 )
 )
 )
