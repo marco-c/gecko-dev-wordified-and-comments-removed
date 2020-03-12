@@ -1956,7 +1956,7 @@ txt
 :
 (
 call
-py_action
+py3_action
 file_generate
 (
 MOZILLA_DIR
@@ -2077,7 +2077,7 @@ txt
 :
 (
 call
-py_action
+py3_action
 file_generate
 (
 MOZILLA_DIR

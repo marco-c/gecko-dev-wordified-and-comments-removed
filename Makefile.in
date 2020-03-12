@@ -1484,7 +1484,7 @@ zip
 '
 (
 call
-py_action
+py3_action
 symbols_archive
 '
 (
@@ -1544,7 +1544,7 @@ zip
 '
 (
 call
-py_action
+py3_action
 symbols_archive
 '
 (
