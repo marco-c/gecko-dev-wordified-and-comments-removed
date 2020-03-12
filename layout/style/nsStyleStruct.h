@@ -5623,7 +5623,10 @@ mozilla
 StyleScale
 mScale
 ;
-uint8_t
+mozilla
+:
+:
+StyleBackfaceVisibility
 mBackfaceVisibility
 ;
 mozilla
@@ -7079,7 +7082,13 @@ return
 mBackfaceVisibility
 =
 =
-NS_STYLE_BACKFACE_VISIBILITY_HIDDEN
+mozilla
+:
+:
+StyleBackfaceVisibility
+:
+:
+Hidden
 ;
 }
 static

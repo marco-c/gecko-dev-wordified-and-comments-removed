@@ -12033,7 +12033,10 @@ None
 )
 mBackfaceVisibility
 (
-NS_STYLE_BACKFACE_VISIBILITY_VISIBLE
+StyleBackfaceVisibility
+:
+:
+Visible
 )
 mTransformStyle
 (

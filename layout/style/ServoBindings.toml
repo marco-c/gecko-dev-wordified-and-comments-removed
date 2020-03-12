@@ -1063,6 +1063,12 @@ mozilla
 :
 StyleVectorEffect
 "
+"
+mozilla
+:
+:
+StyleBackfaceVisibility
+"
 ]
 whitelist
 -

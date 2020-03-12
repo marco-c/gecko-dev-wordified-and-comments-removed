@@ -3916,6 +3916,11 @@ servo
 -
 2013
 "
+gecko_enum_prefix
+=
+"
+StyleBackfaceVisibility
+"
 spec
 =
 "
