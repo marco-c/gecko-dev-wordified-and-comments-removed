@@ -722,6 +722,15 @@ aIsScriptAllowedByPolicy
 )
 override
 ;
+NS_IMETHOD
+GetStorageOriginKey
+(
+nsACString
+&
+aOriginKey
+)
+override
+;
 nsresult
 ToJSON
 (
