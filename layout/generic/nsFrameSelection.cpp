@@ -1423,7 +1423,9 @@ mLimiter
 =
 aLimiter
 ;
-mCaretMovementStyle
+mCaret
+.
+mMovementStyle
 =
 Preferences
 :
@@ -2395,7 +2397,9 @@ nsBidiLevel
 aLevel
 )
 {
-mCaretBidiLevel
+mCaret
+.
+mBidiLevel
 =
 aLevel
 ;
@@ -2441,7 +2445,9 @@ GetCaretBidiLevel
 const
 {
 return
-mCaretBidiLevel
+mCaret
+.
+mBidiLevel
 ;
 }
 void
@@ -2452,7 +2458,9 @@ UndefineCaretBidiLevel
 (
 )
 {
-mCaretBidiLevel
+mCaret
+.
+mBidiLevel
 |
 =
 BIDI_LEVEL_UNDEFINED
@@ -2817,14 +2825,18 @@ eUsePrefStyle
 &
 &
 (
-mCaretMovementStyle
+mCaret
+.
+mMovementStyle
 =
 =
 1
 |
 |
 (
-mCaretMovementStyle
+mCaret
+.
+mMovementStyle
 =
 =
 2
@@ -3051,6 +3063,8 @@ nsISelectionListener
 COLLAPSETOSTART_REASON
 )
 ;
+mCaret
+.
 mHint
 =
 CARET_ASSOCIATE_AFTER
@@ -3066,6 +3080,8 @@ nsISelectionListener
 COLLAPSETOEND_REASON
 )
 ;
+mCaret
+.
 mHint
 =
 CARET_ASSOCIATE_BEFORE
@@ -3332,6 +3348,8 @@ frame
 CaretAssociateHint
 tHint
 (
+mCaret
+.
 mHint
 )
 ;
@@ -3780,6 +3798,8 @@ if
 isBRFrame
 )
 {
+mCaret
+.
 mHint
 =
 CARET_ASSOCIATE_BEFORE
@@ -3847,6 +3867,8 @@ GetPrevNextBidiLevels
 (
 aNode
 aContentOffset
+mCaret
+.
 mHint
 aJumpLines
 )
@@ -4487,6 +4509,8 @@ GetFrameForNodeOffset
 (
 aNode
 aContentOffset
+mCaret
+.
 mHint
 &
 OffsetNotUsed
@@ -5652,6 +5676,8 @@ mAppendStartSelectedCell
 =
 nullptr
 ;
+mCaret
+.
 mHint
 =
 aHint
