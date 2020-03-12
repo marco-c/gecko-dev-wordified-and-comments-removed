@@ -1181,9 +1181,6 @@ bool
 global_device_pixel_scale
 :
 DevicePixelScale
-max_depth_ids
-:
-i32
 )
 -
 >
@@ -1262,7 +1259,6 @@ ZBufferIdGenerator
 new
 (
 0
-max_depth_ids
 )
 dirty_rects_are_valid
 :
@@ -2670,14 +2666,6 @@ self
 enable
 :
 bool
-)
-;
-fn
-deinit
-(
-&
-mut
-self
 )
 ;
 fn

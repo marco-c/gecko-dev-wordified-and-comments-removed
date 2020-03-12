@@ -135,17 +135,14 @@ DIR_HORIZONTAL
 define
 DIR_VERTICAL
 1
-PER_INSTANCE
 in
 int
 aBlurRenderTaskAddress
 ;
-PER_INSTANCE
 in
 int
 aBlurSourceTaskAddress
 ;
-PER_INSTANCE
 in
 int
 aBlurDirection

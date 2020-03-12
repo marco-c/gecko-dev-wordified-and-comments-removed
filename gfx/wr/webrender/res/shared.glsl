@@ -475,7 +475,7 @@ projection
 Attribute
 inputs
 in
-vec2
+vec3
 aPosition
 ;
 /
