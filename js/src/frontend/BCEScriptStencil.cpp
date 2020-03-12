@@ -532,6 +532,12 @@ gcthings
 const
 {
 return
+EmitScriptThingsVector
+(
+cx
+bce_
+.
+compilationInfo
 bce_
 .
 perScriptData
@@ -542,12 +548,9 @@ gcThingList
 (
 )
 .
-finish
+objects
 (
-cx
-bce_
-.
-compilationInfo
+)
 gcthings
 )
 ;
