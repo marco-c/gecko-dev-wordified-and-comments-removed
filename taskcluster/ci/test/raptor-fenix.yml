@@ -120,23 +120,6 @@ beta
 ]
 tier
 :
-by
--
-test
--
-platform
-:
-android
--
-hw
--
-g5
-.
-*
-:
-2
-default
-:
 1
 target
 :
@@ -287,9 +270,6 @@ projects
 :
 [
 ]
-tier
-:
-2
 mozharness
 :
 extra
@@ -390,9 +370,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -493,9 +470,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -596,9 +570,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -699,9 +670,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -802,9 +770,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -905,9 +870,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -1008,9 +970,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -1111,9 +1070,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -1214,9 +1170,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 mozharness
 :
 extra
@@ -1327,9 +1280,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -1449,9 +1399,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -1571,9 +1518,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -1693,9 +1637,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -1815,9 +1756,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -1937,9 +1875,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2059,9 +1994,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2181,9 +2113,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2303,9 +2232,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2425,9 +2351,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2547,9 +2470,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2669,9 +2589,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2791,9 +2708,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -2913,9 +2827,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3035,9 +2946,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3157,9 +3065,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3279,9 +3184,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3401,9 +3303,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3523,9 +3422,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3645,9 +3541,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3767,9 +3660,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -3889,9 +3779,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4011,9 +3898,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4133,9 +4017,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4255,9 +4136,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4377,9 +4255,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4499,9 +4374,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4621,9 +4493,6 @@ projects
 e10s
 :
 true
-tier
-:
-2
 max
 -
 run
@@ -4743,7 +4612,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -4872,7 +4741,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -5013,7 +4882,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -5158,7 +5027,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -5296,7 +5165,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -5446,7 +5315,7 @@ e10s
 true
 tier
 :
-3
+2
 max
 -
 run
@@ -5580,9 +5449,6 @@ run
 time
 :
 3600
-tier
-:
-2
 mozharness
 :
 extra
@@ -5710,9 +5576,6 @@ projects
 :
 [
 ]
-tier
-:
-2
 e10s
 :
 true
@@ -5817,9 +5680,6 @@ projects
 :
 [
 ]
-tier
-:
-2
 e10s
 :
 true
