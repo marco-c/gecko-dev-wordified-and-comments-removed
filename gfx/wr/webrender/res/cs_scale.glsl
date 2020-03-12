@@ -72,14 +72,17 @@ vUvRect
 #
 ifdef
 WR_VERTEX_SHADER
+PER_INSTANCE
 in
 vec4
 aScaleTargetRect
 ;
+PER_INSTANCE
 in
 ivec4
 aScaleSourceRect
 ;
+PER_INSTANCE
 in
 int
 aScaleSourceLayer
