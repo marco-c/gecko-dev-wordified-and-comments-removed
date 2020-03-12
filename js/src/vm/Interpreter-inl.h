@@ -1791,7 +1791,7 @@ ok
 &
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 env

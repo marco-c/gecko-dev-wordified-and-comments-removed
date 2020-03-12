@@ -10711,7 +10711,7 @@ result
 &
 result
 .
-checkStrictErrorOrWarning
+checkStrictModeError
 (
 cx
 obj
