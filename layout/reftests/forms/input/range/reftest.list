@@ -921,6 +921,13 @@ size
 ref
 .
 html
+fails
+-
+if
+(
+!
+nativeThemePref
+)
 =
 =
 auto
@@ -935,6 +942,10 @@ size
 ref
 .
 html
+#
+Snapping
+bug
+1621141
 =
 =
 range
