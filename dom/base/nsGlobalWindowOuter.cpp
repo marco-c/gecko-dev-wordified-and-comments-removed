@@ -214,7 +214,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+AntiTrackingUtils
 .
 h
 "
@@ -223,7 +223,7 @@ include
 "
 mozilla
 /
-AntiTrackingUtils
+ContentBlocking
 .
 h
 "
@@ -17854,10 +17854,10 @@ needlessly
 .
 mHasStorageAccess
 =
-AntiTrackingCommon
+ContentBlocking
 :
 :
-IsFirstPartyStorageAccessGrantedFor
+ShouldAllowAccessFor
 (
 newInnerWindow
 uri
@@ -47937,10 +47937,10 @@ here
 Unused
 <
 <
-AntiTrackingCommon
+ContentBlocking
 :
 :
-AddFirstPartyStorageAccessGrantedFor
+AllowAccessFor
 (
 principal
 inner

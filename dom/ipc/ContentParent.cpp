@@ -231,7 +231,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlocking
 .
 h
 "
@@ -30794,10 +30794,10 @@ FirstPartyStorageAccessGrantedForOriginResolver
 aResolver
 )
 {
-AntiTrackingCommon
+ContentBlocking
 :
 :
-SaveFirstPartyStorageAccessGrantedForOriginOnParentProcess
+SaveAccessForOriginOnParentProcess
 (
 aParentPrincipal
 aTrackingPrincipal
@@ -30824,10 +30824,10 @@ aResolver
 )
 ]
 (
-AntiTrackingCommon
+ContentBlocking
 :
 :
-FirstPartyStorageAccessGrantPromise
+ParentAccessGrantPromise
 :
 :
 ResolveOrRejectValue
