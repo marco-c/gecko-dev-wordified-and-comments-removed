@@ -425,7 +425,7 @@ Package
 mozharness
 (
 call
-py_action
+py3_action
 test_archive
 \
 mozharness
