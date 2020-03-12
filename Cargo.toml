@@ -131,6 +131,13 @@ rust
 "
 toolkit
 /
+components
+/
+updateagent
+"
+"
+toolkit
+/
 library
 /
 gtest
