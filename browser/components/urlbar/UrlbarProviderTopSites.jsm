@@ -446,12 +446,12 @@ favicon
 :
 link
 .
-favicon
+smallFavicon
 |
 |
 link
 .
-tippyTopIcon
+favicon
 |
 |
 null
