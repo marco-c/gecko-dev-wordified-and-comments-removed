@@ -7127,6 +7127,13 @@ nsACString
 topWindowOrigin
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 if
 (
 !

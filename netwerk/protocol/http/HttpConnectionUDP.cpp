@@ -1143,11 +1143,6 @@ NS_HTTP_ERROR_SOFTLY
 gHttpHandler
 -
 >
-AltServiceCache
-(
-)
--
->
 ClearHostMapping
 (
 mConnInfo

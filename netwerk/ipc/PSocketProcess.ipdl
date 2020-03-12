@@ -138,6 +138,10 @@ protocol
 PBackground
 ;
 include
+protocol
+PAltService
+;
+include
 MemoryReportTypes
 ;
 include
@@ -342,6 +346,9 @@ PParentToChildStream
 manages
 PInputChannelThrottleQueue
 ;
+manages
+PAltService
+;
 parent
 :
 async
@@ -501,6 +508,11 @@ Endpoint
 PBackgroundParent
 >
 aEndpoint
+)
+;
+async
+PAltService
+(
 )
 ;
 child

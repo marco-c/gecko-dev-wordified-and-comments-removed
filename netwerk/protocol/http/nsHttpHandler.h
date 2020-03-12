@@ -987,6 +987,14 @@ get
 )
 ;
 }
+void
+ClearHostMapping
+(
+nsHttpConnectionInfo
+*
+aConnInfo
+)
+;
 uint32_t
 GenerateUniqueID
 (
