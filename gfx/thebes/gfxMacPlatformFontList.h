@@ -105,6 +105,7 @@ gfxMacPlatformFontList
 ;
 class
 MacOSFontEntry
+final
 :
 public
 gfxFontEntry
@@ -373,6 +374,7 @@ mUnscaledFont
 ;
 class
 gfxMacPlatformFontList
+final
 :
 public
 gfxPlatformFontList

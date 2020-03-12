@@ -3968,6 +3968,7 @@ mark
 -
 class
 gfxMacFontFamily
+final
 :
 public
 gfxFontFamily
@@ -5112,6 +5113,7 @@ mark
 -
 class
 gfxSingleFaceMacFontFamily
+final
 :
 public
 gfxFontFamily
@@ -10122,6 +10124,7 @@ main
 thread
 class
 MacFontInfo
+final
 :
 public
 FontInfoData

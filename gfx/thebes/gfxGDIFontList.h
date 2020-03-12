@@ -296,6 +296,7 @@ GFX_FONT_TYPE_TYPE1
 ;
 class
 GDIFontEntry
+final
 :
 public
 gfxFontEntry
@@ -701,6 +702,7 @@ mUnscaledFont
 ;
 class
 GDIFontFamily
+final
 :
 public
 gfxFontFamily
@@ -1213,6 +1215,7 @@ data
 ;
 class
 gfxGDIFontList
+final
 :
 public
 gfxPlatformFontList

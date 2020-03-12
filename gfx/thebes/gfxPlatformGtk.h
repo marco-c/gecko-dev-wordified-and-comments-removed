@@ -64,6 +64,7 @@ SystemFontListEntry
 ;
 class
 gfxPlatformGtk
+final
 :
 public
 gfxPlatform

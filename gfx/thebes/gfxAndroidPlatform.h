@@ -56,6 +56,7 @@ FontListEntry
 ;
 class
 gfxAndroidPlatform
+final
 :
 public
 gfxPlatform

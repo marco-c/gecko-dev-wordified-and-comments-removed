@@ -211,6 +211,7 @@ ptr
 ;
 class
 gfxFontconfigFontEntry
+final
 :
 public
 gfxFT2FontEntryBase
@@ -571,6 +572,7 @@ false
 ;
 class
 gfxFontconfigFontFamily
+final
 :
 public
 gfxFontFamily
@@ -726,6 +728,7 @@ mForceScalable
 ;
 class
 gfxFontconfigFont
+final
 :
 public
 gfxFT2FontBase
@@ -843,6 +846,7 @@ mPattern
 ;
 class
 gfxFcPlatformFontList
+final
 :
 public
 gfxPlatformFontList

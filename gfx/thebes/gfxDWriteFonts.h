@@ -81,6 +81,7 @@ h
 "
 class
 gfxDWriteFont
+final
 :
 public
 gfxFont
