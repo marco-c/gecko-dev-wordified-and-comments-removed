@@ -859,6 +859,10 @@ json
 .
 JSONDecoder
              
+timeout
+=
+None
+             
 *
 *
 codec_kwargs
@@ -1244,6 +1248,9 @@ method
 uri
 payload
 headers
+timeout
+=
+None
 )
         
 self
@@ -1276,6 +1283,9 @@ payload
 headers
 =
 None
+timeout
+=
+None
 )
 :
         
@@ -1289,7 +1299,7 @@ text_type
             
 payload
 =
-body
+payload
 .
 encode
 (
@@ -1367,7 +1377,34 @@ payload
 headers
 )
         
-return
+try
+:
+            
+if
+timeout
+:
+                
+previous_timeout
+=
+self
+.
+_conn
+.
+gettimeout
+(
+)
+                
+self
+.
+_conn
+.
+settimeout
+(
+timeout
+)
+            
+response
+=
 self
 .
 connection
@@ -1375,6 +1412,25 @@ connection
 getresponse
 (
 )
+        
+finally
+:
+            
+if
+timeout
+:
+                
+self
+.
+_conn
+.
+settimeout
+(
+previous_timeout
+)
+        
+return
+response
     
 def
 _has_unread_data
