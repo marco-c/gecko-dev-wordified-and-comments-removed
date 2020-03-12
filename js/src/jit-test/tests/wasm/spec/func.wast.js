@@ -14219,14 +14219,6 @@ x0b
 "
 )
 ;
-if
-(
-!
-wasmMultiValueEnabled
-(
-)
-)
-{
 assert_invalid
 (
 "
@@ -14411,7 +14403,6 @@ x0b
 "
 )
 ;
-}
 assert_invalid
 (
 "
