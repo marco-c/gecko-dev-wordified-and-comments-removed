@@ -1298,7 +1298,7 @@ friend
 struct
 GCThingList
 ;
-JSObject
+JSFunction
 *
 object_
 ;
@@ -1922,16 +1922,7 @@ function
 const
 {
 return
-&
 object_
--
->
-as
-<
-JSFunction
->
-(
-)
 ;
 }
 void
