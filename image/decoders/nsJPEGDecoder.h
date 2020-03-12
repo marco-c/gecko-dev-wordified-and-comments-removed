@@ -292,6 +292,9 @@ Decoder
 DecodeStyle
 mDecodeStyle
 ;
+uint32_t
+mCMSMode
+;
 SurfacePipe
 mPipe
 ;
