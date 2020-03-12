@@ -1180,7 +1180,6 @@ client
 ]
 aInputName
 aUntrimmedSearchString
-null
 )
 ;
 if
@@ -1794,7 +1793,6 @@ client
 ]
 aInputName
 aUntrimmedSearchString
-null
 )
 :
 emptyResult
@@ -2311,7 +2309,6 @@ client
 entries
 fieldName
 searchString
-messageManager
 )
 {
 this
@@ -2337,12 +2334,6 @@ this
 searchString
 =
 searchString
-;
-this
-.
-messageManager
-=
-messageManager
 ;
 }
 FormAutoCompleteResult
