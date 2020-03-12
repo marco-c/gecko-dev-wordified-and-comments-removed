@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
+ContentBlockingNotifier
 .
 h
 "
@@ -523,7 +523,7 @@ aTrackingFullHashes
 const
 Maybe
 <
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 StorageAccessGrantedReason
