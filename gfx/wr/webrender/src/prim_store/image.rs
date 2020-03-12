@@ -552,6 +552,7 @@ Deserialize
 [
 derive
 (
+Debug
 MallocSizeOf
 )
 ]
