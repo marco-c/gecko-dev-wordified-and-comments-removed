@@ -422,8 +422,9 @@ nsIObserver
 StartupCacheListener
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOBSERVER
 }
@@ -817,8 +818,9 @@ nsIObjectOutputStream
 StartupCacheDebugOutputStream
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIOBJECTOUTPUTSTREAM
 StartupCacheDebugOutputStream
