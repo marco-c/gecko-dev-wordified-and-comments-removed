@@ -150,11 +150,6 @@ SourceEditor
 js
 '
 '
-StackTracePanel
-.
-js
-'
-'
 StatisticsPanel
 .
 js
@@ -171,11 +166,6 @@ js
 '
 '
 TabboxPanel
-.
-js
-'
-'
-TimingsPanel
 .
 js
 '

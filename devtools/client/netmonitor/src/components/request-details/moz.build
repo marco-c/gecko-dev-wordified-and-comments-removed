@@ -80,4 +80,14 @@ SecurityPanel
 .
 js
 '
+'
+StackTracePanel
+.
+js
+'
+'
+TimingsPanel
+.
+js
+'
 )

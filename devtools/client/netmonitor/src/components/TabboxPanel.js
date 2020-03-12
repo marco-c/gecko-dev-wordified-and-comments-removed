@@ -343,6 +343,10 @@ src
 /
 components
 /
+request
+-
+details
+/
 StackTracePanel
 "
 )
@@ -365,6 +369,10 @@ netmonitor
 src
 /
 components
+/
+request
+-
+details
 /
 TimingsPanel
 "
