@@ -1,10 +1,3 @@
-options
-(
-'
-strict
-'
-)
-;
 evaluate
 (
 oomTest

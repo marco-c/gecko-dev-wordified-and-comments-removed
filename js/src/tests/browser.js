@@ -1762,9 +1762,6 @@ optionName
 of
 [
 "
-strict
-"
-"
 werror
 "
 "

@@ -662,13 +662,6 @@ value
 undefined
 )
 ;
-options
-(
-"
-strict
-"
-)
-;
 eval
 (
 function
