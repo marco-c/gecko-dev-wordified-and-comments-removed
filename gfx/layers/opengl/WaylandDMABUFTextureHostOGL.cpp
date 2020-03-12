@@ -692,9 +692,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 MOZ_ASSERT
@@ -825,7 +822,6 @@ mSurface
 GetFormat
 (
 )
-aPreferCompositorSurface
 )
 ;
 (
@@ -916,7 +912,6 @@ SurfaceFormat
 :
 :
 A8
-aPreferCompositorSurface
 )
 ;
 wr
@@ -952,7 +947,6 @@ SurfaceFormat
 :
 :
 R8G8
-aPreferCompositorSurface
 )
 ;
 (
@@ -1049,6 +1043,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 switch
@@ -1131,6 +1128,25 @@ TextureFlags
 :
 NON_PREMULTIPLIED
 )
+wr
+:
+:
+ColorF
+{
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+1
+.
+0f
+}
+aPreferCompositorSurface
 )
 ;
 break
@@ -1212,6 +1228,7 @@ GetColorRange
 )
 )
 aFilter
+aPreferCompositorSurface
 )
 ;
 break
