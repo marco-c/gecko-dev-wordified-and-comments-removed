@@ -833,7 +833,7 @@ flags
 )
 )
 {
-gcThing
+object_
 =
 fun
 ;
