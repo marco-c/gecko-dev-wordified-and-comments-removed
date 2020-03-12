@@ -194,6 +194,11 @@ AntiTrackingIPCUtils
 h
 '
 '
+AntiTrackingUtils
+.
+h
+'
+'
 ContentBlockingAllowList
 .
 h
