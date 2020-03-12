@@ -549,6 +549,16 @@ ResolveProxy
 (
 )
 ;
+void
+AfterApplyContentConversions
+(
+nsresult
+aResult
+nsIStreamListener
+*
+aListener
+)
+;
 bool
 mTopWindowOriginComputed
 ;
