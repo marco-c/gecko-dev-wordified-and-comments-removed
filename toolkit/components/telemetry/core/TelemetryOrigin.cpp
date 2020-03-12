@@ -324,8 +324,9 @@ mValue
 OriginMetricIDHashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (

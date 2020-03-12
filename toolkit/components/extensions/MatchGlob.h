@@ -279,8 +279,9 @@ public
 MatchGlobSet
 (
 )
-{
-}
+=
+default
+;
 explicit
 MatchGlobSet
 (

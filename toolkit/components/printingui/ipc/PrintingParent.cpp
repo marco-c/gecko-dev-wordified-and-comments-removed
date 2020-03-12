@@ -1381,7 +1381,8 @@ PrintingParent
 PrintingParent
 (
 )
-{
-}
+=
+default
+;
 }
 }

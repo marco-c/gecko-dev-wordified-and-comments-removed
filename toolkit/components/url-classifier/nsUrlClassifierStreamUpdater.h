@@ -119,8 +119,9 @@ private
 nsUrlClassifierStreamUpdater
 (
 )
-{
-}
+=
+default
+;
 void
 DownloadDone
 (

@@ -131,8 +131,9 @@ private
 nsMediaSniffer
 (
 )
-{
-}
+=
+default
+;
 static
 nsMediaSnifferEntry
 sSnifferEntries

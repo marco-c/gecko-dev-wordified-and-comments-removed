@@ -23,8 +23,9 @@ nsPrintProgressParams
 nsPrintProgressParams
 (
 )
-{
-}
+=
+default
+;
 nsPrintProgressParams
 :
 :
@@ -32,8 +33,9 @@ nsPrintProgressParams
 nsPrintProgressParams
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsPrintProgressParams
 :

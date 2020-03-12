@@ -189,8 +189,9 @@ AddonContentPolicy
 AddonContentPolicy
 (
 )
-{
-}
+=
+default
+;
 AddonContentPolicy
 :
 :
@@ -198,8 +199,9 @@ AddonContentPolicy
 AddonContentPolicy
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 AddonContentPolicy

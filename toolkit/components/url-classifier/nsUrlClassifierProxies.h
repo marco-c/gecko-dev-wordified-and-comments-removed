@@ -763,8 +763,9 @@ private
 UrlClassifierDBServiceWorkerProxy
 (
 )
-{
-}
+=
+default
+;
 const
 RefPtr
 <
@@ -909,8 +910,9 @@ private
 UrlClassifierLookupCallbackProxy
 (
 )
-{
-}
+=
+default
+;
 const
 nsMainThreadPtrHandle
 <
@@ -1028,8 +1030,9 @@ private
 UrlClassifierCallbackProxy
 (
 )
-{
-}
+=
+default
+;
 const
 nsMainThreadPtrHandle
 <
@@ -1355,8 +1358,9 @@ private
 UrlClassifierUpdateObserverProxy
 (
 )
-{
-}
+=
+default
+;
 const
 nsMainThreadPtrHandle
 <

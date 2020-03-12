@@ -285,8 +285,9 @@ virtual
 IconCallback
 (
 )
-{
-}
+=
+default
+;
 nsCOMPtr
 <
 nsIAlertsService
@@ -616,8 +617,9 @@ nsAlertsService
 nsAlertsService
 (
 )
-{
-}
+=
+default
+;
 bool
 nsAlertsService
 :

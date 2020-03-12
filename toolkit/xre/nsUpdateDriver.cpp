@@ -3155,8 +3155,9 @@ nsUpdateProcessor
 nsUpdateProcessor
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsUpdateProcessor
 :

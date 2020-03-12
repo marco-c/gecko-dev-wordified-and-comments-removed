@@ -6830,8 +6830,8 @@ errorCode
 nsUrlClassifierClassifyCallback
 (
 )
-{
-}
+=
+default
 ;
 nsCOMPtr
 <

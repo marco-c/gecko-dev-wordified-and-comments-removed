@@ -610,8 +610,9 @@ ReferenceSelf
 nsWatcherWindowEntry
 (
 )
-{
-}
+=
+default
+;
 void
 InsertAfter
 (

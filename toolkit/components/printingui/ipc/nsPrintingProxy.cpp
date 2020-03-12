@@ -155,8 +155,9 @@ nsPrintingProxy
 nsPrintingProxy
 (
 )
-{
-}
+=
+default
+;
 nsPrintingProxy
 :
 :
@@ -164,8 +165,9 @@ nsPrintingProxy
 nsPrintingProxy
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 nsPrintingProxy

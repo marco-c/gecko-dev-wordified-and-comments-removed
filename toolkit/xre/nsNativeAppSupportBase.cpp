@@ -11,8 +11,9 @@ nsNativeAppSupportBase
 nsNativeAppSupportBase
 (
 )
-{
-}
+=
+default
+;
 nsNativeAppSupportBase
 :
 :
@@ -20,8 +21,9 @@ nsNativeAppSupportBase
 nsNativeAppSupportBase
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsNativeAppSupportBase

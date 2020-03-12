@@ -155,8 +155,9 @@ private
 nsAutoCompleteSimpleResult
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 typedef

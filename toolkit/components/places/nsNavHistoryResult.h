@@ -134,8 +134,9 @@ mValue
 nsTrimInt64HashKey
 (
 )
-{
-}
+=
+default
+;
 KeyType
 GetKey
 (
@@ -1341,8 +1342,9 @@ virtual
 nsNavHistoryResultNode
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsNavHistoryResult

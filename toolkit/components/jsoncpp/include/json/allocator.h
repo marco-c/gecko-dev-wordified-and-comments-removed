@@ -270,8 +270,9 @@ T
 SecureAllocator
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

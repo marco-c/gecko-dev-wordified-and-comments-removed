@@ -61,8 +61,9 @@ VisitInfo
 VisitInfo
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 VisitInfo
 :

@@ -3071,8 +3071,9 @@ BackgroundHangMonitor
 BackgroundHangMonitor
 (
 )
-{
-}
+=
+default
+;
 void
 BackgroundHangMonitor
 :

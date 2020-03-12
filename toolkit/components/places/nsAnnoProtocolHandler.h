@@ -85,8 +85,9 @@ public
 nsAnnoProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPROTOCOLHANDLER
 private
@@ -95,8 +96,9 @@ private
 nsAnnoProtocolHandler
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsresult

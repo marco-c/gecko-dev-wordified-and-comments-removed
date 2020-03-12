@@ -4159,8 +4159,9 @@ ExpireFaviconsStatementCallbackNotifier
 ExpireFaviconsStatementCallbackNotifier
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 ExpireFaviconsStatementCallbackNotifier
 :

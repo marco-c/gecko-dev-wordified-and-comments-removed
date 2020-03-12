@@ -450,8 +450,9 @@ virtual
 AsyncFetchAndSetIconForPage
 (
 )
-{
-}
+=
+default
+;
 nsMainThreadPtrHandle
 <
 nsIFaviconDataCallback

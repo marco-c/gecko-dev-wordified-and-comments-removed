@@ -347,8 +347,9 @@ ProtocolParser
 ProtocolParser
 (
 )
-{
-}
+=
+default
+;
 nsresult
 ProtocolParser
 :
@@ -545,8 +546,9 @@ ProtocolParserV2
 ProtocolParserV2
 (
 )
-{
-}
+=
+default
+;
 void
 ProtocolParserV2
 :
@@ -4071,8 +4073,9 @@ ProtocolParserProtobuf
 ProtocolParserProtobuf
 (
 )
-{
-}
+=
+default
+;
 ProtocolParserProtobuf
 :
 :
@@ -4080,8 +4083,9 @@ ProtocolParserProtobuf
 ProtocolParserProtobuf
 (
 )
-{
-}
+=
+default
+;
 void
 ProtocolParserProtobuf
 :

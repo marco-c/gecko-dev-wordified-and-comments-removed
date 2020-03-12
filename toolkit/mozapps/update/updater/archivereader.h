@@ -41,8 +41,9 @@ public
 ArchiveReader
 (
 )
-{
-}
+=
+default
+;
 ~
 ArchiveReader
 (

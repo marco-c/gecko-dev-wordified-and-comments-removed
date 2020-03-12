@@ -293,8 +293,9 @@ nsWebBrowserFind
 nsWebBrowserFind
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsWebBrowserFind

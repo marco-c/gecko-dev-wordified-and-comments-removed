@@ -146,8 +146,9 @@ virtual
 nsHangDetails
 (
 )
-{
-}
+=
+default
+;
 HangDetails
 mDetails
 ;

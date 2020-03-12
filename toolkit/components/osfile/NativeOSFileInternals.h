@@ -40,8 +40,9 @@ private
 NativeOSFileInternalsService
 (
 )
-{
-}
+=
+default
+;
 void
 operator
 =

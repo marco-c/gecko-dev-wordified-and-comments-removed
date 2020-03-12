@@ -45,8 +45,9 @@ nsIGIOService
 nsGIOService
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

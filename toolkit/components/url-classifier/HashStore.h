@@ -212,8 +212,9 @@ virtual
 TableUpdate
 (
 )
-{
-}
+=
+default
+;
 private
 :
 virtual

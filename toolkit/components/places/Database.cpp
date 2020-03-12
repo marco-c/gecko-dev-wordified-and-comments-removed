@@ -1825,8 +1825,9 @@ Database
 Database
 (
 )
-{
-}
+=
+default
+;
 bool
 Database
 :

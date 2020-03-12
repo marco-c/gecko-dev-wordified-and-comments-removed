@@ -135,8 +135,9 @@ virtual
 PlacesShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -170,8 +171,9 @@ private
 ClientsShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -213,8 +215,9 @@ private
 ConnectionShutdownBlocker
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 mozilla

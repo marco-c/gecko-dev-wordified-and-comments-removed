@@ -106,8 +106,9 @@ NS_DECL_ISUPPORTS
 nsXULAlerts
 (
 )
-{
-}
+=
+default
+;
 static
 already_AddRefed
 <
@@ -124,8 +125,9 @@ virtual
 nsXULAlerts
 (
 )
-{
-}
+=
+default
+;
 void
 PersistentAlertFinished
 (
@@ -224,8 +226,9 @@ virtual
 nsXULAlertObserver
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 nsXULAlerts

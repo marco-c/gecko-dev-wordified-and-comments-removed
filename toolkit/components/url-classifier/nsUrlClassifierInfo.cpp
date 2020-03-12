@@ -244,8 +244,9 @@ nsUrlClassifierCacheInfo
 nsUrlClassifierCacheInfo
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsUrlClassifierCacheInfo
 :

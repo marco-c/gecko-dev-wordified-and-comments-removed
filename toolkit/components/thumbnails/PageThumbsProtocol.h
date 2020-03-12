@@ -58,8 +58,9 @@ private
 PageThumbsProtocol
 (
 )
-{
-}
+=
+default
+;
 nsresult
 GetFilePathForURL
 (

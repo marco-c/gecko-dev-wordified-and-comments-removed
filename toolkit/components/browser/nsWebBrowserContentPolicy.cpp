@@ -39,8 +39,9 @@ nsWebBrowserContentPolicy
 nsWebBrowserContentPolicy
 (
 )
-{
-}
+=
+default
+;
 nsWebBrowserContentPolicy
 :
 :
@@ -48,8 +49,9 @@ nsWebBrowserContentPolicy
 nsWebBrowserContentPolicy
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsWebBrowserContentPolicy

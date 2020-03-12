@@ -291,8 +291,9 @@ private
 nsNavHistoryQuery
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 int32_t
@@ -520,8 +521,9 @@ private
 nsNavHistoryQueryOptions
 (
 )
-{
-}
+=
+default
+;
 uint16_t
 mSort
 ;

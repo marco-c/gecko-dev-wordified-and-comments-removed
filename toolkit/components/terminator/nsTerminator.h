@@ -85,8 +85,9 @@ aTopic
 nsTerminator
 (
 )
-{
-}
+=
+default
+;
 bool
 mInitialized
 ;

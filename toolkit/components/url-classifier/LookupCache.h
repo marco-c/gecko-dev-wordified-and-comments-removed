@@ -329,8 +329,9 @@ private
 LookupResult
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 typedef
@@ -445,8 +446,9 @@ virtual
 CacheResult
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1143,8 +1145,9 @@ virtual
 LookupCache
 (
 )
-{
-}
+=
+default
+;
 static
 const
 uint32_t
@@ -1363,8 +1366,9 @@ private
 LookupCacheV2
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 Ver

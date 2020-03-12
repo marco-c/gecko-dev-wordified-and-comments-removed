@@ -21,8 +21,8 @@ virtual
 nsRemoteClient
 (
 )
-{
-}
+=
+default
 ;
 virtual
 nsresult
