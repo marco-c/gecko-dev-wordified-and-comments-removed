@@ -10301,9 +10301,6 @@ in
 '
 )
 ]
-py2
-=
-True
 )
         
 generated_files
