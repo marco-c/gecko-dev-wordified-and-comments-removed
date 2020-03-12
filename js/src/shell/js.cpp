@@ -33130,7 +33130,6 @@ ScopeKind
 Global
 compilationInfo
 directives
-false
 )
 ;
 auto

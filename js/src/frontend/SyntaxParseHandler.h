@@ -2346,14 +2346,6 @@ return
 node
 ;
 }
-void
-setInDirectivePrologue
-(
-UnaryNodeType
-exprStmt
-)
-{
-}
 bool
 isName
 (

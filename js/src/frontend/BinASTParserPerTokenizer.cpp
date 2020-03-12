@@ -1422,7 +1422,6 @@ getCompilationInfo
 )
 *
 directives
-false
 generatorKind
 functionAsyncKind
 )

@@ -317,7 +317,6 @@ ScopeKind
 Global
 binCompilationInfo
 directives
-false
 )
 ;
 BinASTParser

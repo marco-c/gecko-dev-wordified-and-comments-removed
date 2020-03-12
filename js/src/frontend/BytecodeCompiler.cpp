@@ -3594,11 +3594,6 @@ compilationInfo
 compilationInfo
 .
 directives
-compilationInfo
-.
-options
-.
-extraWarningsOption
 )
 ;
 frontend

@@ -1750,9 +1750,6 @@ enclosing
 compilationInfo
 .
 directives
-options
-.
-extraWarningsOption
 )
 ;
 RootedScript
@@ -2264,9 +2261,6 @@ enclosing
 compilationInfo
 .
 directives
-options
-.
-extraWarningsOption
 )
 ;
 JSScript

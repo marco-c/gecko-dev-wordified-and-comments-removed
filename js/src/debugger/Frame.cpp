@@ -4912,9 +4912,6 @@ scope
 compilationInfo
 .
 directives
-options
-.
-extraWarningsOption
 )
 ;
 script
@@ -5013,11 +5010,6 @@ compilationInfo
 compilationInfo
 .
 directives
-compilationInfo
-.
-options
-.
-extraWarningsOption
 )
 ;
 script
