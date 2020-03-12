@@ -6727,6 +6727,15 @@ public
 static
 final
 int
+PERMISSION_MEDIA_KEY_SYSTEM_ACCESS
+=
+6
+;
+field
+public
+static
+final
+int
 PERMISSION_PERSISTENT_STORAGE
 =
 2
