@@ -1350,7 +1350,7 @@ if
 !
 (
 await
-OSKeyStore
+FormAutofillUtils
 .
 ensureLoggedIn
 (
@@ -2745,7 +2745,7 @@ if
 !
 (
 await
-OSKeyStore
+FormAutofillUtils
 .
 ensureLoggedIn
 (
