@@ -1555,8 +1555,6 @@ aOriginAttributes
 nsLoadFlags
 aLoadFlags
 uint32_t
-aLoadType
-uint32_t
 aCacheKey
 bool
 aIsActive

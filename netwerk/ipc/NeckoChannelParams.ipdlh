@@ -2499,9 +2499,6 @@ uint32_t
 loadFlags
 ;
 uint32_t
-loadType
-;
-uint32_t
 cacheKey
 ;
 uint32_t
