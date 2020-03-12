@@ -223,6 +223,15 @@ include
 "
 mozilla
 /
+AntiTrackingUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BindingUtils
@@ -45614,7 +45623,7 @@ NS_OK
 if
 (
 !
-AntiTrackingCommon
+AntiTrackingUtils
 :
 :
 IsStorageAccessPermission
