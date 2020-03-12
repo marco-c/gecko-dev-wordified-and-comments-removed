@@ -742,8 +742,12 @@ aContentType
 )
 ;
 void
-EnsureSuggestedFileName
+EnsureTempFileExtension
 (
+const
+nsString
+&
+aFileExt
 )
 ;
 typedef
