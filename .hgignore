@@ -309,8 +309,11 @@ SpiderMonkey
 clone
 of
 the
-webassembly
-spec
+wasm
+-
+generate
+-
+testsuite
 repository
 ^
 js
@@ -319,7 +322,11 @@ src
 /
 wasm
 /
-spec
+wasm
+-
+generate
+-
+testsuite
 #
 Java
 HTML5
