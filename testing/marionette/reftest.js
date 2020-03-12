@@ -2490,11 +2490,11 @@ activeWindow
 win
 )
 {
-focusManager
-.
-activeWindow
-=
 win
+.
+focus
+(
+)
 ;
 }
 this
