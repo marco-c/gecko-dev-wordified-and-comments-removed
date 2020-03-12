@@ -126,10 +126,8 @@ jarlog
 =
 "
 {
-WORKSPACE
+MOZ_FETCHES_DIR
 }
-/
-fetches
 /
 en
 -
@@ -150,10 +148,8 @@ path
 =
 "
 {
-WORKSPACE
+MOZ_FETCHES_DIR
 }
-/
-fetches
 /
 merged
 .
