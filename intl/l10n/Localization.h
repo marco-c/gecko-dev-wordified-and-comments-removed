@@ -86,10 +86,10 @@ intl
 typedef
 Record
 <
-nsCString
+nsString
 Nullable
 <
-OwningUTF8StringOrDouble
+OwningStringOrDouble
 >
 >
 L10nArgs
@@ -257,7 +257,7 @@ JSContext
 *
 aCx
 const
-nsACString
+nsAString
 &
 aId
 const
