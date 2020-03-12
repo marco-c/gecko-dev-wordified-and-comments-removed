@@ -270,7 +270,12 @@ IsEmpty
 (
 )
 ?
-nullptr
+HyperTextAccessibleWrap
+:
+:
+LandmarkRole
+(
+)
 :
 nsGkAtoms
 :

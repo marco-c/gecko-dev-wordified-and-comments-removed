@@ -4708,11 +4708,10 @@ Elements
 treated
 as
 landmarks
-/
-/
-XXX
-bug
-1371712
+and
+ARIA
+landmarks
+.
 if
 (
 landmark

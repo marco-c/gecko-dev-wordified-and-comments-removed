@@ -1041,7 +1041,12 @@ contentinfo
 }
 }
 return
-nullptr
+HyperTextAccessibleWrap
+:
+:
+LandmarkRole
+(
+)
 ;
 }
 role
@@ -1136,7 +1141,12 @@ IsEmpty
 (
 )
 ?
-nullptr
+HyperTextAccessibleWrap
+:
+:
+LandmarkRole
+(
+)
 :
 nsGkAtoms
 :
