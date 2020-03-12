@@ -114,9 +114,9 @@ GCThingList
 :
 append
 (
-ObjectBox
+FunctionBox
 *
-objbox
+funbox
 uint32_t
 *
 index
@@ -125,13 +125,13 @@ index
 MOZ_ASSERT
 (
 !
-objbox
+funbox
 -
 >
 emitLink
 )
 ;
-objbox
+funbox
 -
 >
 emitLink
@@ -140,7 +140,7 @@ lastbox
 ;
 lastbox
 =
-objbox
+funbox
 ;
 *
 index
@@ -166,7 +166,7 @@ JS
 :
 GCCellPtr
 (
-objbox
+funbox
 -
 >
 object

@@ -240,7 +240,7 @@ class
 BigIntLiteral
 ;
 class
-ObjectBox
+FunctionBox
 ;
 struct
 MOZ_STACK_CLASS
@@ -277,7 +277,7 @@ ListType
 >
 vector
 ;
-ObjectBox
+FunctionBox
 *
 lastbox
 =
@@ -610,9 +610,9 @@ MOZ_MUST_USE
 bool
 append
 (
-ObjectBox
+FunctionBox
 *
-obj
+funbox
 uint32_t
 *
 index
