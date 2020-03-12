@@ -188,7 +188,7 @@ GlobalOverrider
 )
 ;
 const
-overridePageListener
+override
 =
 globals
 .
@@ -198,7 +198,7 @@ stub
 (
 )
 ;
-overridePageListener
+override
 .
 withArgs
 (
@@ -219,7 +219,7 @@ true
 )
 )
 ;
-overridePageListener
+override
 .
 withArgs
 (
@@ -239,7 +239,7 @@ set
 AboutNewTab
 "
 {
-overridePageListener
+override
 reset
 :
 globals
@@ -791,7 +791,7 @@ global
 .
 AboutNewTab
 .
-overridePageListener
+override
 )
 ;
 }
@@ -886,7 +886,7 @@ global
 .
 AboutNewTab
 .
-overridePageListener
+override
 )
 ;
 }

@@ -416,10 +416,10 @@ globals
 set
 (
 "
-AboutNewTab
+aboutNewTabService
 "
 {
-newTabURLOverridden
+overridden
 :
 false
 newTabURL
@@ -8627,7 +8627,7 @@ globals
 set
 (
 "
-AboutNewTab
+AboutNewTabStartupRecorder
 "
 {
 maybeRecordTopsitesPainted
@@ -10831,10 +10831,10 @@ globals
 set
 (
 "
-AboutNewTab
+aboutNewTabService
 "
 {
-newTabURLOverridden
+overridden
 :
 true
 newTabURL
