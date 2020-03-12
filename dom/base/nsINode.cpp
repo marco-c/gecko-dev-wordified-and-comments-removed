@@ -10386,7 +10386,6 @@ refNode
 =
 mFirstChild
 ;
-;
 InsertBefore
 (
 *
