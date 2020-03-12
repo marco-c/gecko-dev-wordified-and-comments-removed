@@ -1078,6 +1078,11 @@ RustTarget
 Stable_1_25
 )
 .
+size_t_is_usize
+(
+true
+)
+.
 disable_untagged_union
 (
 )

@@ -347,6 +347,11 @@ RustTarget
 Stable_1_19
 )
 .
+size_t_is_usize
+(
+true
+)
+.
 header
 (
 "
