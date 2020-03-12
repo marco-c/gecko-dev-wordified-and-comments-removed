@@ -470,6 +470,13 @@ aEnable
 {
 }
 virtual
+void
+DeInit
+(
+)
+{
+}
+virtual
 CompositorCapabilities
 GetCompositorCapabilities
 (
