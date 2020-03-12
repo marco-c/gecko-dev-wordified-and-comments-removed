@@ -92,8 +92,6 @@ uint32_t
 aCacheKey
 bool
 aIsActive
-bool
-aIsTopLevelDoc
 )
 :
 DocumentChannel
@@ -103,7 +101,6 @@ aLoadInfo
 aLoadFlags
 aCacheKey
 aIsActive
-aIsTopLevelDoc
 )
 {
 LOG
@@ -354,14 +351,6 @@ isActive
 )
 =
 mIsActive
-;
-args
-.
-isTopLevelDoc
-(
-)
-=
-mIsTopLevelDoc
 ;
 args
 .

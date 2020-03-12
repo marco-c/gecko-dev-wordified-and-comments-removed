@@ -2509,9 +2509,6 @@ bool
 isActive
 ;
 bool
-isTopLevelDoc
-;
-bool
 pluginsAllowed
 ;
 nsDOMNavigationTiming
