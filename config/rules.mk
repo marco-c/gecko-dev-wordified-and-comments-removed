@@ -7647,7 +7647,7 @@ xpi
 '
 (
 call
-py_action
+py3_action
 zip
 -
 C
@@ -9572,7 +9572,7 @@ RM
 '
 (
 call
-py_action
+py3_action
 preprocessor
 -
 -
