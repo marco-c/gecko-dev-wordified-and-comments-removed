@@ -3367,9 +3367,6 @@ int32_t
 aClientX
 int32_t
 aClientY
-Element
-*
-aTarget
 )
 {
 if

@@ -804,9 +804,6 @@ int32_t
 aX
 int32_t
 aY
-Element
-*
-aTarget
 )
 ;
 MOZ_CAN_RUN_SCRIPT
