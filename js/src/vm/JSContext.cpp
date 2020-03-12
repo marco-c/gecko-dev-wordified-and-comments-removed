@@ -4970,11 +4970,9 @@ return
 false
 ;
 }
-return
-JS_ReportErrorFlagsAndNumberUTF8
+JS_ReportErrorNumberUTF8
 (
 cx
-JSREPORT_ERROR
 GetErrorMessage
 nullptr
 errorNumber
@@ -4986,6 +4984,9 @@ get
 arg1
 arg2
 )
+;
+return
+false
 ;
 }
 JSObject
