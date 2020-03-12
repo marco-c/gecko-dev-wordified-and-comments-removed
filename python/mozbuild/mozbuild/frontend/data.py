@@ -3518,6 +3518,24 @@ cargo_file
 =
 cargo_file
         
+if
+not
+context
+.
+config
+.
+substs
+.
+get
+(
+'
+COMPILE_ENVIRONMENT
+'
+)
+:
+            
+return
+        
 cargo_dir
 =
 cargo_output_directory
