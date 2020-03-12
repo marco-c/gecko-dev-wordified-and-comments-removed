@@ -1,7 +1,9 @@
-Feature
+Document
 -
 Policy
 :
+no
+-
 font
 -
 display
@@ -9,7 +11,3 @@ display
 late
 -
 swap
-'
-none
-'
-;
