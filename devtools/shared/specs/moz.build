@@ -153,11 +153,6 @@ device
 js
 '
 '
-emulation
-.
-js
-'
-'
 environment
 .
 js
