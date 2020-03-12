@@ -284,6 +284,11 @@ StoragePrincipalHelper
 cpp
 '
 '
+TemporaryAccessGrantObserver
+.
+cpp
+'
+'
 URLDecorationStripper
 .
 cpp
