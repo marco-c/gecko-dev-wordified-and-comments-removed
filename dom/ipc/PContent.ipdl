@@ -9869,6 +9869,13 @@ aActiveBrowsingContext
 both
 :
 async
+MaybeExitFullscreen
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
+async
 WindowPostMessage
 (
 MaybeDiscardedBrowsingContext
