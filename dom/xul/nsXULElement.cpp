@@ -3055,14 +3055,6 @@ IsInNativeAnonymousSubtree
 !
 doc
 .
-IsLoadedAsInteractiveData
-(
-)
-&
-&
-!
-doc
-.
 AllowXULXBL
 (
 )

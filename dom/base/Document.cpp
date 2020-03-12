@@ -8245,10 +8245,6 @@ mLoadedAsData
 (
 false
 )
-mLoadedAsInteractiveData
-(
-false
-)
 mMayStartLayout
 (
 true
@@ -51929,9 +51925,6 @@ documents
 if
 (
 mLoadedAsData
-|
-|
-mLoadedAsInteractiveData
 )
 return
 nullptr
