@@ -196,6 +196,7 @@ envs
 *
 *
 {
+                    
 '
 release
 -
@@ -209,6 +210,20 @@ params
 release_level
 (
 )
+                    
+'
+project
+'
+:
+config
+.
+params
+[
+'
+project
+'
+]
+                
 }
             
 )

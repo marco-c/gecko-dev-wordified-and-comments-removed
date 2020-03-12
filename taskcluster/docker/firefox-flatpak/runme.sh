@@ -27,6 +27,10 @@ test
 "
 L10N_CHANGESETS
 "
+test
+"
+FLATPAK_BRANCH
+"
 #
 Optional
 env
@@ -1370,6 +1374,9 @@ disable
 sandbox
 repo
 build
+"
+FLATPAK_BRANCH
+"
 flatpak
 build
 -
