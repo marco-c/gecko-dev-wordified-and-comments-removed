@@ -99,6 +99,11 @@ FluentBindings
 h
 '
 '
+FluentBundle
+.
+h
+'
+'
 FluentResource
 .
 h
@@ -113,6 +118,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+FluentBundle
+.
+cpp
+'
 '
 FluentResource
 .
