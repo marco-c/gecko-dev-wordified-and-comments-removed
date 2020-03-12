@@ -3194,7 +3194,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3459,7 +3459,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3716,7 +3716,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3869,7 +3869,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -4387,7 +4387,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
