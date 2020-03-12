@@ -858,10 +858,10 @@ ReadFlashInfo
 ;
 nsTArray
 <
-std
+mozilla
 :
 :
-pair
+Pair
 <
 bool
 RefPtr
@@ -3108,10 +3108,7 @@ mPluginBlocklistRequests
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 !
 seenBefore

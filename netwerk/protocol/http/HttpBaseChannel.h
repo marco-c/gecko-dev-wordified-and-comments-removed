@@ -3222,10 +3222,7 @@ mPeerAddr
 ;
 nsTArray
 <
-std
-:
-:
-pair
+Pair
 <
 nsString
 nsString

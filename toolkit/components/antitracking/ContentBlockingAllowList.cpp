@@ -647,10 +647,7 @@ permManager
 NS_ERROR_FAILURE
 )
 ;
-std
-:
-:
-pair
+Pair
 <
 const
 nsLiteralCString
@@ -701,6 +698,8 @@ aIsPrivateBrowsing
 type
 .
 second
+(
+)
 )
 {
 continue
@@ -726,6 +725,8 @@ aContentBlockingAllowListPrincipal
 type
 .
 first
+(
+)
 &
 permissions
 )
@@ -765,6 +766,8 @@ s
 type
 .
 first
+(
+)
 .
 get
 (

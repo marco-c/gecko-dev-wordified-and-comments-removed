@@ -9079,6 +9079,8 @@ mTrackListValues
 indices
 .
 first
+(
+)
 ]
 ;
 if
@@ -9095,6 +9097,8 @@ MOZ_ASSERT
 indices
 .
 second
+(
+)
 =
 =
 0
@@ -9124,6 +9128,8 @@ AsSpan
 indices
 .
 second
+(
+)
 ]
 ;
 }
@@ -9324,10 +9330,7 @@ mExpandedTracks
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 i
 size_t
@@ -9415,10 +9418,7 @@ mExpandedTracks
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 i
 size_t
@@ -9479,10 +9479,7 @@ mExpandedTracks
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 i
 k
@@ -9641,10 +9638,7 @@ otherwise
 .
 nsTArray
 <
-std
-:
-:
-pair
+Pair
 <
 size_t
 size_t

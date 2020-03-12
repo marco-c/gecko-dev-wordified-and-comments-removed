@@ -77,10 +77,7 @@ PLDHashEntryHdr
 public
 :
 typedef
-std
-:
-:
-pair
+Pair
 <
 nsCOMPtr
 <
@@ -109,6 +106,8 @@ aKey
 -
 >
 first
+(
+)
 )
 mType
 (
@@ -116,6 +115,8 @@ aKey
 -
 >
 second
+(
+)
 )
 {
 }
@@ -143,10 +144,7 @@ GetKey
 const
 {
 return
-std
-:
-:
-make_pair
+MakePair
 (
 mPrincipal
 mType
@@ -173,6 +171,8 @@ aKey
 -
 >
 first
+(
+)
 &
 &
 mType
@@ -182,6 +182,8 @@ aKey
 -
 >
 second
+(
+)
 &
 &
 (
@@ -197,6 +199,8 @@ aKey
 -
 >
 first
+(
+)
 )
 )
 :
@@ -249,6 +253,8 @@ aKey
 -
 >
 first
+(
+)
 )
 ;
 return
@@ -272,6 +278,8 @@ aKey
 -
 >
 second
+(
+)
 )
 )
 ;

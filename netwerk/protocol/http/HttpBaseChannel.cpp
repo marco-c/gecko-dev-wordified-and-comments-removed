@@ -9708,6 +9708,8 @@ SetTag
 pair
 .
 first
+(
+)
 )
 ;
 message
@@ -9718,6 +9720,8 @@ SetCategory
 pair
 .
 second
+(
+)
 )
 ;
 aMessages
@@ -9780,10 +9784,7 @@ NS_IsMainThread
 nsresult
 rv
 ;
-std
-:
-:
-pair
+Pair
 <
 nsString
 nsString

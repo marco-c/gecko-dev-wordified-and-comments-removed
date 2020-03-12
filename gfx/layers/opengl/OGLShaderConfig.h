@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+Pair
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

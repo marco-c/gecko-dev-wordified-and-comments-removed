@@ -9,7 +9,7 @@ include
 "
 mozilla
 /
-CompactPair
+Pair
 .
 h
 "
@@ -2140,7 +2140,7 @@ ControlStackEntry
 mozilla
 :
 :
-CompactPair
+Pair
 <
 BlockType
 ControlItem
@@ -2358,7 +2358,7 @@ TypeAndValueT
 mozilla
 :
 :
-CompactPair
+Pair
 <
 StackType
 Value

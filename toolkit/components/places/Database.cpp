@@ -10825,10 +10825,7 @@ rv
 ;
 AutoTArray
 <
-std
-:
-:
-pair
+Pair
 <
 int64_t
 nsCString
@@ -10916,10 +10913,7 @@ placeURLs
 .
 AppendElement
 (
-std
-:
-:
-make_pair
+MakePair
 (
 placeId
 url
@@ -10976,6 +10970,8 @@ i
 ]
 .
 first
+(
+)
 ;
 url
 =
@@ -10985,6 +10981,8 @@ i
 ]
 .
 second
+(
+)
 ;
 rv
 =

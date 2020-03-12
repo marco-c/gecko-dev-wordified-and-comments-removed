@@ -22,10 +22,10 @@ Document
 }
 }
 typedef
-std
+mozilla
 :
 :
-pair
+Pair
 <
 nsCString
 mozilla

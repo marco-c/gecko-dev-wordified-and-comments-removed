@@ -18,11 +18,6 @@ tuple
 #
 include
 <
-utility
->
-#
-include
-<
 vector
 >
 #
@@ -9623,10 +9618,7 @@ TypeB
 struct
 PcqParamTraits
 <
-std
-:
-:
-pair
+Pair
 <
 TypeA
 TypeB
@@ -9636,10 +9628,7 @@ TypeB
 using
 ParamType
 =
-std
-:
-:
-pair
+Pair
 <
 TypeA
 TypeB
@@ -9665,6 +9654,8 @@ WriteParam
 aArg
 .
 first
+(
+)
 )
 ;
 return
@@ -9675,6 +9666,8 @@ WriteParam
 aArg
 .
 second
+(
+)
 )
 ;
 }
@@ -9702,6 +9695,8 @@ aArg
 -
 >
 first
+(
+)
 )
 :
 nullptr
@@ -9720,6 +9715,8 @@ aArg
 -
 >
 second
+(
+)
 )
 :
 nullptr
@@ -9755,6 +9752,8 @@ aArg
 -
 >
 first
+(
+)
 :
 nullptr
 )
@@ -9769,6 +9768,8 @@ aArg
 -
 >
 second
+(
+)
 :
 nullptr
 )
