@@ -169,9 +169,6 @@ Telemetry
 OriginMetricID
 OriginMetricID
 ;
-namespace
-dom
-{
 NS_NAMED_LITERAL_CSTRING
 (
 ContentBlockingLog
@@ -1346,7 +1343,6 @@ hash
 }
 break
 ;
-}
 }
 }
 }

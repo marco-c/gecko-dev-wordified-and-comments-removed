@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_ContentBlockingLog_h
+mozilla_ContentBlockingLog_h
 #
 define
-mozilla_dom_ContentBlockingLog_h
+mozilla_ContentBlockingLog_h
 #
 include
 "
@@ -91,9 +91,6 @@ nsIPrincipal
 ;
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 ContentBlockingLog
@@ -2283,7 +2280,6 @@ mLog
 ;
 }
 ;
-}
 }
 #
 endif
