@@ -633,6 +633,9 @@ class
 TextureClient
 ;
 class
+TextureClientRecycleAllocator
+;
+class
 KnowsCompositor
 ;
 class
@@ -1641,6 +1644,14 @@ return
 mImageFactory
 ;
 }
+void
+EnsureRecycleAllocatorForRDD
+(
+KnowsCompositor
+*
+aKnowsCompositor
+)
+;
 #
 ifdef
 XP_WIN
@@ -1794,6 +1805,12 @@ EnsureImageClient
 ;
 RecursiveMutex
 mRecursiveMutex
+;
+RefPtr
+<
+TextureClientRecycleAllocator
+>
+mRecycleAllocator
 ;
 #
 ifdef

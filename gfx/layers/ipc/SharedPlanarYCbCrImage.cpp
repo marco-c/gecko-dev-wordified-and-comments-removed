@@ -217,6 +217,11 @@ mRecycleAllocator
 aRecycleAllocator
 )
 {
+MOZ_COUNT_CTOR
+(
+SharedPlanarYCbCrImage
+)
+;
 }
 SharedPlanarYCbCrImage
 :
