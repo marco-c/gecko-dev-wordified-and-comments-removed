@@ -1204,6 +1204,9 @@ wr
 usize
 mDumpIndent
 ;
+DisplayItemCache
+mDisplayItemCache
+;
 public
 :
 bool
