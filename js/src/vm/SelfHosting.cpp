@@ -16117,12 +16117,6 @@ true
 ;
 options
 .
-extraWarningsOption
-=
-true
-;
-options
-.
 setForceStrictMode
 (
 )

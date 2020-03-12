@@ -3291,13 +3291,6 @@ implicit_jscontext
 ]
 attribute
 boolean
-strict
-;
-[
-implicit_jscontext
-]
-attribute
-boolean
 werror
 ;
 [

@@ -9434,12 +9434,6 @@ NS_OK
 }
 GENERATE_JSCONTEXTOPTION_GETTER_SETTER
 (
-Strict
-extraWarnings
-setExtraWarnings
-)
-GENERATE_JSCONTEXTOPTION_GETTER_SETTER
-(
 Werror
 werror
 setWerror

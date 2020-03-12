@@ -26039,10 +26039,6 @@ ShouldDiscardSystemSource
 xpc
 YA_NXZ
 ?
-ExtraWarningsForSystemJS
-xpc
-YA_NXZ
-?
 IsSystemPrincipal
 nsContentUtils
 SA_NPEAVnsIPrincipal

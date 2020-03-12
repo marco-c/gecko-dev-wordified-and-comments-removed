@@ -132,11 +132,6 @@ selfHostingMode
 false
 ;
 bool
-extraWarningsOption
-=
-false
-;
-bool
 werrorOption
 =
 false
