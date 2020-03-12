@@ -764,13 +764,19 @@ GECKO
         
 self
 .
-buffering
+_buffering
 =
 False
         
 self
 .
 restore_buffering
+=
+buffering
+        
+self
+.
+_buffering_initially_enabled
 =
 buffering
         
@@ -1283,6 +1289,48 @@ message
         
 return
 messages
+    
+property
+    
+def
+buffering
+(
+self
+)
+:
+        
+if
+not
+self
+.
+_buffering_initially_enabled
+:
+            
+return
+False
+        
+return
+self
+.
+_buffering
+    
+buffering
+.
+setter
+    
+def
+buffering
+(
+self
+val
+)
+:
+        
+self
+.
+_buffering
+=
+val
     
 def
 process_message
