@@ -140,7 +140,6 @@ TimeType
 void
 InsertEvent
 (
-const
 AudioTimelineEvent
 &
 aEvent
@@ -192,6 +191,10 @@ mTrack
 aEvent
 .
 mTrack
+.
+forget
+(
+)
 ;
 return
 ;
