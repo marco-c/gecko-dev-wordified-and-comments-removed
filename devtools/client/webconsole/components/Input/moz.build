@@ -84,12 +84,12 @@ EditorToolbar
 js
 '
 '
-EvaluationSelector
+EvaluationContextSelector
 .
 css
 '
 '
-EvaluationSelector
+EvaluationContextSelector
 .
 js
 '

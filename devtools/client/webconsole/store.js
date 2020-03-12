@@ -629,7 +629,7 @@ UI
 .
 MESSAGE_TIMESTAMP
 )
-showEvaluationSelector
+showEvaluationContextSelector
 :
 getBoolPref
 (

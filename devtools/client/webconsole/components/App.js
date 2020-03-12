@@ -691,7 +691,7 @@ FILTERBAR_DISPLAY_MODES
 )
 .
 isRequired
-showEvaluationSelector
+showEvaluationContextSelector
 :
 PropTypes
 .
@@ -1426,7 +1426,7 @@ dispatch
 reverseSearchInputVisible
 serviceContainer
 webConsoleUI
-showEvaluationSelector
+showEvaluationContextSelector
 }
 =
 this
@@ -1450,7 +1450,7 @@ editorMode
 dispatch
 reverseSearchInputVisible
 serviceContainer
-showEvaluationSelector
+showEvaluationContextSelector
 webConsoleUI
 }
 )
@@ -2123,13 +2123,13 @@ state
 prefs
 .
 autocomplete
-showEvaluationSelector
+showEvaluationContextSelector
 :
 state
 .
 ui
 .
-showEvaluationSelector
+showEvaluationContextSelector
 }
 )
 ;
