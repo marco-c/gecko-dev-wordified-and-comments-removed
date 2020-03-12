@@ -1921,7 +1921,7 @@ RefPtr
 <
 ClientOpPromise
 >
-ClientOpenWindowInCurrentProcess
+ClientOpenWindow
 (
 const
 ClientOpenWindowArgs
