@@ -791,7 +791,7 @@ nested
 inside_sync
 )
 sync
-GetLevelInternal
+GroupPosition
 (
 uint64_t
 aID
@@ -799,7 +799,11 @@ aID
 returns
 (
 int32_t
-aLevel
+groupLevel
+int32_t
+similarItemsInGroup
+int32_t
+positionInGroup
 )
 ;
 async

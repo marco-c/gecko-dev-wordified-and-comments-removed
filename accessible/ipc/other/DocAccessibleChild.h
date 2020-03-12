@@ -346,7 +346,7 @@ ipc
 :
 :
 IPCResult
-RecvGetLevelInternal
+RecvGroupPosition
 (
 const
 uint64_t
@@ -355,6 +355,12 @@ aID
 int32_t
 *
 aLevel
+int32_t
+*
+aSimilarItemsInGroup
+int32_t
+*
+aPositionInGroup
 )
 override
 ;

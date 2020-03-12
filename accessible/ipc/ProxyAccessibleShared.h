@@ -118,8 +118,14 @@ ARIARoleAtom
 )
 const
 ;
-int32_t
-GetLevelInternal
+mozilla
+:
+:
+a11y
+:
+:
+GroupPos
+GroupPosition
 (
 )
 ;
