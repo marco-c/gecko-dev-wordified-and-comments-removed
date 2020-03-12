@@ -1201,15 +1201,12 @@ obj
 )
 ;
 return
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 code_
 JSDVG_IGNORE_STACK
 val
-nullptr
-nullptr
 nullptr
 )
 ;
@@ -1296,10 +1293,9 @@ false
 }
 }
 return
-ReportValueErrorFlags
+ReportValueError
 (
 cx
-JSREPORT_ERROR
 code_
 JSDVG_IGNORE_STACK
 val
@@ -1309,7 +1305,6 @@ propName
 get
 (
 )
-nullptr
 )
 ;
 }

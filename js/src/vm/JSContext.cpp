@@ -4899,13 +4899,11 @@ bool
 js
 :
 :
-ReportValueErrorFlags
+ReportValueError
 (
 JSContext
 *
 cx
-unsigned
-flags
 const
 unsigned
 errorNumber
@@ -4976,7 +4974,7 @@ return
 JS_ReportErrorFlagsAndNumberUTF8
 (
 cx
-flags
+JSREPORT_ERROR
 GetErrorMessage
 nullptr
 errorNumber
