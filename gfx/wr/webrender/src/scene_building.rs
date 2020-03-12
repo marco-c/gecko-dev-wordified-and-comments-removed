@@ -2655,6 +2655,10 @@ mut
 self
 .
 picture_cache_spatial_nodes
+&
+self
+.
+config
 )
 ;
 main_prim_list
@@ -15204,6 +15208,10 @@ FastHashSet
 <
 SpatialNodeIndex
 >
+frame_builder_config
+:
+&
+FrameBuilderConfig
 )
 -
 >
@@ -15346,6 +15354,7 @@ scroll_root
 background_color
 shared_clips
 parent_clip_chain_id
+frame_builder_config
 )
 )
 ;
