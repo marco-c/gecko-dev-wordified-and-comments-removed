@@ -590,11 +590,6 @@ return
 NodeGeneric
 ;
 }
-template
-<
-class
-Boxer
->
 RegExpLiteralType
 newRegExp
 (
@@ -604,9 +599,6 @@ const
 TokenPos
 &
 pos
-Boxer
-&
-boxer
 )
 {
 return
