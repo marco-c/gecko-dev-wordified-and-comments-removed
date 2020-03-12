@@ -914,9 +914,6 @@ const
 AnimationValue
 &
 aOther
-ComputedStyle
-*
-aComputedStyle
 )
 const
 {

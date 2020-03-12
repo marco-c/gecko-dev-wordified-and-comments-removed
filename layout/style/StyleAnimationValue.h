@@ -127,9 +127,6 @@ gfx3DMatrix
 namespace
 mozilla
 {
-class
-ComputedStyle
-;
 namespace
 css
 {
@@ -505,9 +502,6 @@ const
 AnimationValue
 &
 aOther
-ComputedStyle
-*
-aComputedStyle
 )
 const
 ;
