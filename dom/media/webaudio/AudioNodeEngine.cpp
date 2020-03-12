@@ -2016,6 +2016,8 @@ ProcessBlocksOnPorts
 AudioNodeTrack
 *
 aTrack
+GraphTime
+aFrom
 Span
 <
 const
