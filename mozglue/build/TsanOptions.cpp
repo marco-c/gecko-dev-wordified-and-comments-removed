@@ -35,6 +35,12 @@ report_signal_unsafe
 =
 0
 "
+"
+:
+allocator_may_return_null
+=
+1
+"
 ;
 }
 extern
