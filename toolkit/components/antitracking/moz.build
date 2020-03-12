@@ -209,6 +209,11 @@ ContentBlockingAllowList
 h
 '
 '
+ContentBlockingLog
+.
+h
+'
+'
 ContentBlockingNotifier
 .
 h
@@ -255,6 +260,11 @@ cpp
 '
 '
 ContentBlockingAllowList
+.
+cpp
+'
+'
+ContentBlockingLog
 .
 cpp
 '
