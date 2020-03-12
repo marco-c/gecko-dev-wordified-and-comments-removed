@@ -680,6 +680,11 @@ GECKO_PATH
 /
 mach
 python
+-
+-
+no
+-
+virtualenv
 toolkit
 /
 mozapps
