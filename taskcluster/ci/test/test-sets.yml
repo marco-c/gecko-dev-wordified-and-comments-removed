@@ -2513,9 +2513,9 @@ web
 platform
 -
 tests
-linux
+linux1604
 -
-common
+legacy
 -
 tests
 :
