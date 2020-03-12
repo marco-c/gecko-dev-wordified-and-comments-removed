@@ -86,6 +86,10 @@ MPL
 /
 .
 EXPORTS
+.
+mozilla
+.
+dom
 +
 =
 [
