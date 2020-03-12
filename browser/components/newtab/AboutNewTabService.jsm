@@ -752,7 +752,7 @@ win
 }
 }
 ;
-subject
+win
 .
 addEventListener
 (
@@ -775,7 +775,7 @@ onUnloaded
 =
 >
 {
-subject
+win
 .
 removeEventListener
 (
@@ -787,7 +787,7 @@ onLoaded
 ;
 }
 ;
-subject
+win
 .
 addEventListener
 (
