@@ -186,6 +186,11 @@ column
 unsigned
 errorNumber
 ;
+const
+char
+*
+errorMessageName
+;
 private
 :
 bool
@@ -218,6 +223,10 @@ column
 errorNumber
 (
 0
+)
+errorMessageName
+(
+nullptr
 )
 ownsMessage_
 (
