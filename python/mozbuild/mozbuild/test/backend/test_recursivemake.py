@@ -9580,10 +9580,10 @@ recurse_compile
 :
 code
 /
-target
+host
 code
 /
-host
+target
 '
 for
 l
