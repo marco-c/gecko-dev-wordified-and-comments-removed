@@ -303,8 +303,9 @@ virtual
 ProfilerMarkerPayload
 (
 )
-{
-}
+=
+default
+;
 static
 mozilla
 :
