@@ -25,6 +25,17 @@ measureMemory
 checkMeasureMemory
 (
 result
+{
+allowed
+:
+[
+window
+.
+location
+.
+href
+]
+}
 )
 ;
 }
