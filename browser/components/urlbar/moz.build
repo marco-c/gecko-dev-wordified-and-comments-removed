@@ -188,6 +188,8 @@ BROWSER_CHROME_MANIFESTS
 tests
 /
 browser
+-
+tips
 /
 browser
 .
@@ -197,8 +199,6 @@ ini
 tests
 /
 browser
-/
-tips
 /
 browser
 .

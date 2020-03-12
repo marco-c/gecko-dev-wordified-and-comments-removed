@@ -185,6 +185,7 @@ test
 *
 /
 browser
+*
 /
 "
 ]
