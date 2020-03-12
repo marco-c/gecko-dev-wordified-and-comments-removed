@@ -764,6 +764,12 @@ GECKO
         
 self
 .
+is_test_running
+=
+False
+        
+self
+.
 _buffering
 =
 False
@@ -1374,6 +1380,12 @@ buffering_on
 '
 :
             
+if
+self
+.
+is_test_running
+:
+                
 self
 .
 buffering
@@ -1611,6 +1623,12 @@ test_end
             
 self
 .
+is_test_running
+=
+False
+            
+self
+.
 buffered_messages
 =
 [
@@ -1647,6 +1665,12 @@ action
 test_start
 '
 :
+            
+self
+.
+is_test_running
+=
+True
             
 if
 self
