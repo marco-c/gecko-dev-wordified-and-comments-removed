@@ -482,15 +482,6 @@ JSObject
 obj
 )
 ;
-BigIntBox
-*
-newBigIntBox
-(
-BigInt
-*
-val
-)
-;
 }
 ;
 class
