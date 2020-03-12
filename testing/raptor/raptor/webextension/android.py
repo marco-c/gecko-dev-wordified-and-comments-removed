@@ -2561,6 +2561,11 @@ remote_dir
 dump_dir
 )
             
+self
+.
+crashes
++
+=
 mozcrash
 .
 log_crashes

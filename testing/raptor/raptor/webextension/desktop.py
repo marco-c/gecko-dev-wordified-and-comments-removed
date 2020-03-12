@@ -1240,6 +1240,17 @@ NotImplementedError
 :
             
 pass
+        
+self
+.
+crashes
++
+=
+self
+.
+runner
+.
+crashed
     
 def
 clean_up

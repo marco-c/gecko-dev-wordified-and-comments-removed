@@ -947,6 +947,12 @@ self
 build_browser_profile
 (
 )
+        
+self
+.
+crashes
+=
+0
     
 property
     
@@ -1924,6 +1930,21 @@ as
 e
 :
                     
+self
+.
+check_for_crashes
+(
+)
+                    
+if
+self
+.
+crashes
+=
+=
+0
+:
+                        
 LOG
 .
 critical
@@ -1940,7 +1961,7 @@ out
 .
 "
 )
-                    
+                        
 LOG
 .
 error
