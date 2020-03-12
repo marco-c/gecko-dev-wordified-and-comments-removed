@@ -3041,6 +3041,9 @@ ProfilerPopupBackground
 .
 toggleProfiler
 (
+"
+aboutprofiling
+"
 )
 ;
 return
