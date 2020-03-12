@@ -664,6 +664,13 @@ h
 '
 public
 /
+ProfileBufferEntrySerialization
+.
+h
+'
+'
+public
+/
 ProfileBufferIndex
 .
 h
