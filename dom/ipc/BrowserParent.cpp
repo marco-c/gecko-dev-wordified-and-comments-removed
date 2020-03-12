@@ -18152,6 +18152,16 @@ aActive
 {
 if
 (
+GetBrowserBridgeParent
+(
+)
+)
+{
+return
+;
+}
+if
+(
 aEpoch
 !
 =
