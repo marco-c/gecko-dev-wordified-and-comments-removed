@@ -311,11 +311,6 @@ data
 )
 ;
 void
-NotifyCrashReporterClientCreated
-(
-)
-;
-void
 AnnotateOOMAllocationSize
 (
 size_t

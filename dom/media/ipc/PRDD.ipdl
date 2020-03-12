@@ -330,8 +330,6 @@ child
 async
 InitCrashReporter
 (
-Shmem
-shmem
 NativeThreadId
 threadId
 )

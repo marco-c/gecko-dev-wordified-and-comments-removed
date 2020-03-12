@@ -945,8 +945,6 @@ aError
 async
 InitCrashReporter
 (
-Shmem
-shmem
 NativeThreadId
 threadId
 )
