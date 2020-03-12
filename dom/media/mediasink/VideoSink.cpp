@@ -279,10 +279,7 @@ mVideoFrameTimeUs
 void
 SerializeTagAndPayload
 (
-BlocksRingBuffer
-:
-:
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEntryWriter
 )
@@ -327,10 +324,7 @@ ProfilerMarkerPayload
 >
 Deserialize
 (
-BlocksRingBuffer
-:
-:
-EntryReader
+ProfileBufferEntryReader
 &
 aEntryReader
 )

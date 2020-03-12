@@ -103,7 +103,7 @@ private
 :
 friend
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -113,7 +113,7 @@ ProfilerBacktrace
 ;
 friend
 struct
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -160,7 +160,7 @@ template
 <
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -233,7 +233,7 @@ SumBytes
 aBacktrace
 .
 mThreadId
-WrapBlocksRingBufferUnownedCString
+WrapProfileBufferUnownedCString
 (
 aBacktrace
 .
@@ -250,7 +250,7 @@ static
 void
 Write
 (
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEW
 const
@@ -312,7 +312,7 @@ aEW
 .
 WriteObject
 (
-WrapBlocksRingBufferUnownedCString
+WrapProfileBufferUnownedCString
 (
 aBacktrace
 .
@@ -333,7 +333,7 @@ typename
 Destructor
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -387,7 +387,7 @@ static
 void
 Write
 (
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEW
 const
@@ -433,7 +433,7 @@ typename
 Destructor
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -449,7 +449,7 @@ static
 void
 ReadInto
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 UniquePtr
@@ -477,7 +477,7 @@ Destructor
 >
 Read
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )

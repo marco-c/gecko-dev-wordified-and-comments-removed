@@ -47,7 +47,7 @@ typename
 T
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -87,7 +87,7 @@ T
 )
 ;
 return
-EntryWriter
+ProfileBufferEntryWriter
 :
 :
 ULEB128Size
@@ -108,7 +108,7 @@ static
 void
 Write
 (
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEW
 const
@@ -144,7 +144,7 @@ bytes
 ;
 aEW
 .
-Write
+WriteBytes
 (
 reinterpret_cast
 <
@@ -171,7 +171,7 @@ typename
 T
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -186,7 +186,7 @@ static
 void
 ReadInto
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 nsTString
@@ -212,7 +212,7 @@ T
 >
 Read
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )
@@ -267,7 +267,7 @@ rv
 ;
 aER
 .
-Read
+ReadBytes
 (
 reinterpret_cast
 <
@@ -311,7 +311,7 @@ size_t
 N
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -353,7 +353,7 @@ T
 )
 ;
 return
-EntryWriter
+ProfileBufferEntryWriter
 :
 :
 ULEB128Size
@@ -374,7 +374,7 @@ static
 void
 Write
 (
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEW
 const
@@ -411,7 +411,7 @@ bytes
 ;
 aEW
 .
-Write
+WriteBytes
 (
 reinterpret_cast
 <
@@ -440,7 +440,7 @@ size_t
 N
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -456,7 +456,7 @@ static
 void
 ReadInto
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 nsTAutoStringN
@@ -484,7 +484,7 @@ N
 >
 Read
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )
@@ -540,7 +540,7 @@ rv
 ;
 aER
 .
-Read
+ReadBytes
 (
 reinterpret_cast
 <
@@ -580,7 +580,7 @@ template
 <
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Serializer
@@ -611,7 +611,7 @@ aS
 )
 {
 return
-EntryWriter
+ProfileBufferEntryWriter
 :
 :
 ULEB128Size
@@ -643,7 +643,7 @@ get
 )
 ;
 return
-EntryWriter
+ProfileBufferEntryWriter
 :
 :
 ULEB128Size
@@ -658,7 +658,7 @@ static
 void
 Write
 (
-EntryWriter
+ProfileBufferEntryWriter
 &
 aEW
 const
@@ -717,7 +717,7 @@ len
 ;
 aEW
 .
-Write
+WriteBytes
 (
 aS
 .
@@ -734,7 +734,7 @@ template
 <
 >
 struct
-BlocksRingBuffer
+ProfileBufferEntryReader
 :
 :
 Deserializer
@@ -749,7 +749,7 @@ static
 void
 ReadInto
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 JS
@@ -775,7 +775,7 @@ JS
 UniqueChars
 Read
 (
-EntryReader
+ProfileBufferEntryReader
 &
 aER
 )
@@ -823,7 +823,7 @@ len
 ;
 aER
 .
-Read
+ReadBytes
 (
 buffer
 len
