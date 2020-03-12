@@ -997,6 +997,8 @@ GetLimiter
 const
 {
 return
+mLimiters
+.
 mLimiter
 ;
 }
@@ -1008,6 +1010,8 @@ GetAncestorLimiter
 const
 {
 return
+mLimiters
+.
 mAncestorLimiter
 ;
 }
@@ -1769,6 +1773,9 @@ mBatching
 =
 0
 ;
+struct
+Limiters
+{
 nsCOMPtr
 <
 nsIContent
@@ -1780,6 +1787,11 @@ nsCOMPtr
 nsIContent
 >
 mAncestorLimiter
+;
+}
+;
+Limiters
+mLimiters
 ;
 mozilla
 :
