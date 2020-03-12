@@ -575,6 +575,9 @@ features
 :
 [
 "
+screenshots
+"
+"
 js
 "
 ]
@@ -633,6 +636,9 @@ interval
 features
 :
 [
+"
+screenshots
+"
 "
 js
 "
@@ -700,6 +706,9 @@ interval
 features
 :
 [
+"
+screenshots
+"
 "
 js
 "
