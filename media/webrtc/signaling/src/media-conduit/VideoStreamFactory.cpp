@@ -1093,9 +1093,7 @@ clear
 ;
 if
 (
-config
-.
-number_of_streams
+streamCount
 >
 1
 )
