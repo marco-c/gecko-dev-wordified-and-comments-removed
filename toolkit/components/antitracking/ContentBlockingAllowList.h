@@ -115,7 +115,7 @@ aWindow
 ;
 friend
 class
-AntiTrackingCommon
+ContentBlocking
 ;
 }
 ;

@@ -48,15 +48,6 @@ include
 "
 mozilla
 /
-AntiTrackingCommon
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
