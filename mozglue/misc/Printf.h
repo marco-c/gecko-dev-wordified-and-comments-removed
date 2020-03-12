@@ -182,8 +182,9 @@ virtual
 PrintfTarget
 (
 )
-{
-}
+=
+default
+;
 virtual
 bool
 append
