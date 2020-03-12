@@ -9907,7 +9907,7 @@ Cell
 *
 gcThing
 ;
-TraceListNode
+FunctionBox
 *
 traceLink
 ;
@@ -9922,7 +9922,7 @@ gc
 Cell
 *
 gcThing
-TraceListNode
+FunctionBox
 *
 traceLink
 )
@@ -9945,7 +9945,7 @@ TraceList
 JSTracer
 *
 trc
-TraceListNode
+FunctionBox
 *
 listHead
 )
@@ -9973,7 +9973,7 @@ ObjectBox
 JSObject
 *
 obj
-TraceListNode
+FunctionBox
 *
 link
 )

@@ -1334,7 +1334,7 @@ FunctionBox
 JSContext
 *
 cx
-TraceListNode
+FunctionBox
 *
 traceListHead
 uint32_t
@@ -1565,7 +1565,7 @@ FunctionBox
 JSContext
 *
 cx
-TraceListNode
+FunctionBox
 *
 traceListHead
 JSFunction
@@ -1591,7 +1591,7 @@ FunctionBox
 JSContext
 *
 cx
-TraceListNode
+FunctionBox
 *
 traceListHead
 uint32_t

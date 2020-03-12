@@ -371,7 +371,7 @@ CompilationInfo
 &
 compilationInfo_
 ;
-TraceListNode
+FunctionBox
 *
 traceListHead_
 ;
@@ -992,7 +992,7 @@ LifoAlloc
 Mark
 mark
 ;
-TraceListNode
+FunctionBox
 *
 traceListHead
 ;
