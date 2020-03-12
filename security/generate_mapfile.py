@@ -58,7 +58,14 @@ open
 (
 input
 '
-rb
+r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
