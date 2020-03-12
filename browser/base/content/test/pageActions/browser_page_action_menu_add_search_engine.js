@@ -2373,7 +2373,7 @@ pinnedToUrlbar
 false
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -3301,7 +3301,7 @@ pinnedToUrlbar
 false
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
