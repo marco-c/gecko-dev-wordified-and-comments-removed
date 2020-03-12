@@ -3182,7 +3182,7 @@ parameterDescriptors
 {
 aRv
 .
-ThrowNotSupportedError
+ThrowInvalidStateError
 (
 NS_LITERAL_CSTRING
 (
