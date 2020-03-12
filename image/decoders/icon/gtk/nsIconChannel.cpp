@@ -366,7 +366,7 @@ out
 +
 )
 =
-0
+0xFF
 ;
 const
 guchar
@@ -400,7 +400,7 @@ mozilla
 gfx
 :
 :
-PremultiplyData
+SwizzleData
 (
 pixels
 instride
