@@ -258,7 +258,7 @@ bool
 ContainsMarkup
 (
 const
-nsAString
+nsACString
 &
 aStr
 )
