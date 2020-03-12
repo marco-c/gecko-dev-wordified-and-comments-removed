@@ -2512,6 +2512,11 @@ asGlobalContext
 ;
 }
 }
+if
+(
+pn
+)
+{
 AutoGeckoProfilerEntry
 pseudoFrame
 (
@@ -2529,11 +2534,6 @@ ProfilingCategoryPair
 JS_Parsing
 )
 ;
-if
-(
-pn
-)
-{
 if
 (
 !
