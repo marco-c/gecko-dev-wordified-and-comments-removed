@@ -68,6 +68,15 @@ pseudo
 .
 2
 "
+intl
+-
+memoizer
+=
+"
+0
+.
+4
+"
 unic
 -
 langid

@@ -7662,6 +7662,11 @@ fluent
 pseudo
 "
 "
+intl
+-
+memoizer
+"
+"
 nsstring
 "
 "
