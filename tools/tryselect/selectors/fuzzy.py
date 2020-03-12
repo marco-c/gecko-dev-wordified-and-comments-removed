@@ -74,7 +74,7 @@ from
 .
 util
 .
-estimates
+manage_estimates
 import
 download_task_history_data
 make_trimmed_taskgraph_cache
@@ -368,7 +368,7 @@ version
 >
 0
 .
-18
+20
 .
 0
 for
@@ -1454,7 +1454,7 @@ StrictVersion
 '
 0
 .
-18
+20
 .
 0
 '
@@ -2511,10 +2511,13 @@ s
 c
 {
 }
+-
+t
 "
 {
 {
 +
+f
 }
 }
 "
@@ -2549,10 +2552,13 @@ preview
 python
 {
 }
+-
+t
 "
 {
 {
 +
+f
 }
 }
 "

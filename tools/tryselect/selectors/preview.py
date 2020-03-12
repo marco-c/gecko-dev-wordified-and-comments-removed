@@ -76,7 +76,6 @@ from
 estimates
 import
 duration_summary
-task_duration_data
 def
 process_args
 (
@@ -122,6 +121,20 @@ action
 "
 store_true
 "
+                           
+help
+=
+"
+Show
+task
+duration
+estimates
+(
+default
+:
+False
+)
+"
 )
     
 argparser
@@ -145,6 +158,16 @@ str
 default
 =
 None
+                           
+help
+=
+"
+Filename
+of
+task
+graph
+dependencies
+"
 )
     
 argparser
@@ -166,6 +189,18 @@ str
 default
 =
 None
+                           
+help
+=
+"
+Path
+to
+cache
+directory
+containing
+task
+durations
+"
 )
     
 argparser
@@ -173,11 +208,33 @@ argparser
 add_argument
 (
 '
+-
+t
+'
+'
+-
+-
 tasklist
 '
 type
 =
 str
+default
+=
+None
+                           
+help
+=
+"
+Path
+to
+temporary
+file
+containing
+the
+selected
+tasks
+"
 )
     
 return
@@ -239,7 +296,7 @@ def
 duration_display
 (
 graph_cache_file
-tasklist
+taskfile
 cache_dir
 )
 :
@@ -260,25 +317,30 @@ metadata
 "
 "
     
+with
+open
+(
+taskfile
+"
+r
+"
+)
+as
+f
+:
+        
 tasklist
 =
 [
-t
+line
 .
 strip
 (
-"
-'
-"
 )
 for
-t
+line
 in
-tasklist
-.
-split
-(
-)
+f
 ]
     
 durations
@@ -459,13 +521,6 @@ duration_width
 =
 5
     
-task_durations
-=
-task_duration_data
-(
-cache_dir
-)
-    
 output
 +
 =
@@ -499,9 +554,12 @@ tasklist
         
 duration
 =
-int
-(
+durations
+[
+"
 task_durations
+"
+]
 .
 get
 (
@@ -509,7 +567,6 @@ task
 0
 .
 0
-)
 )
         
 output
