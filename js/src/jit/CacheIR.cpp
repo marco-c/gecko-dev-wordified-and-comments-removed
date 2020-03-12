@@ -12332,7 +12332,7 @@ if
 fun
 -
 >
-hasBytecode
+hasBaseScript
 (
 )
 |
