@@ -6127,6 +6127,14 @@ XPConnect
 JavaScript
 "
 innerWindowID
+innerWindowID
+=
+=
+0
+?
+true
+:
+false
 )
 ;
 NS_ENSURE_SUCCESS
@@ -6208,7 +6216,11 @@ XPConnect
 JavaScript
 "
 innerWindowID
+innerWindowID
+?
 true
+:
+false
 )
 ;
 NS_ENSURE_SUCCESS
