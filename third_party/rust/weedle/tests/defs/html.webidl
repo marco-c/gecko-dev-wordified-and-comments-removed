@@ -786,6 +786,9 @@ focus
 optional
 FocusOptions
 options
+=
+{
+}
 )
 ;
 void
@@ -3017,6 +3020,9 @@ type
 optional
 TrackEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -5319,6 +5325,9 @@ assignedNodes
 optional
 AssignedNodesOptions
 options
+=
+{
+}
 )
 ;
 sequence
@@ -5330,6 +5339,9 @@ assignedElements
 optional
 AssignedNodesOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -5718,6 +5730,9 @@ setTransform
 optional
 DOMMatrix2DInit
 transform
+=
+{
+}
 )
 ;
 void
@@ -6864,6 +6879,9 @@ setTransform
 optional
 DOMMatrix2DInit
 transform
+=
+{
+}
 )
 ;
 }
@@ -7033,6 +7051,9 @@ path
 optional
 DOMMatrix2DInit
 transform
+=
+{
+}
 )
 ;
 }
@@ -7185,6 +7206,9 @@ convertToBlob
 optional
 ImageEncodeOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -7285,6 +7309,9 @@ constructor
 optional
 ElementDefinitionOptions
 options
+=
+{
+}
 )
 ;
 any
@@ -7552,6 +7579,9 @@ type
 optional
 DragEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -8220,6 +8250,9 @@ type
 optional
 PopStateEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -8257,6 +8290,9 @@ type
 optional
 HashChangeEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -8306,6 +8342,9 @@ type
 optional
 PageTransitionEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface
@@ -8484,6 +8523,9 @@ type
 optional
 ErrorEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -9142,6 +9184,9 @@ image
 optional
 ImageBitmapOptions
 options
+=
+{
+}
 )
 ;
 Promise
@@ -9163,6 +9208,9 @@ sh
 optional
 ImageBitmapOptions
 options
+=
+{
+}
 )
 ;
 }
@@ -9745,6 +9793,9 @@ type
 optional
 MessageEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -9896,6 +9947,9 @@ url
 optional
 EventSourceInit
 eventSourceInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -10163,6 +10217,9 @@ type
 optional
 CloseEventInit
 eventInitDict
+=
+{
+}
 )
 Exposed
 =
@@ -10511,6 +10568,9 @@ scriptURL
 optional
 WorkerOptions
 options
+=
+{
+}
 )
 Exposed
 =
@@ -10619,6 +10679,9 @@ or
 WorkerOptions
 )
 options
+=
+{
+}
 )
 Exposed
 =
@@ -10836,6 +10899,9 @@ type
 optional
 StorageEventInit
 eventInitDict
+=
+{
+}
 )
 ]
 interface

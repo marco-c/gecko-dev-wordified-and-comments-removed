@@ -15,7 +15,7 @@ version
 .
 2
 .
-0
+1
 "
 authors
 =
@@ -102,6 +102,9 @@ lazy_static
 "
 log
 =
+{
+version
+=
 "
 0
 .
@@ -109,6 +112,12 @@ log
 .
 0
 "
+default
+-
+features
+=
+false
+}
 smallvec
 =
 "

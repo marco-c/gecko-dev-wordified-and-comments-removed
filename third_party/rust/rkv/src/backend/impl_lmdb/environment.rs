@@ -61,12 +61,12 @@ EnvironmentBuilder
 impl
 <
 '
-env
+b
 >
 BackendEnvironmentBuilder
 <
 '
-env
+b
 >
 for
 EnvironmentBuilderImpl
@@ -298,12 +298,12 @@ Environment
 impl
 <
 '
-env
+e
 >
 BackendEnvironment
 <
 '
-env
+e
 >
 for
 EnvironmentImpl
@@ -339,7 +339,7 @@ RoTransaction
 RoTransactionImpl
 <
 '
-env
+e
 >
 ;
 type
@@ -348,7 +348,7 @@ RwTransaction
 RwTransactionImpl
 <
 '
-env
+e
 >
 ;
 fn
@@ -457,7 +457,7 @@ begin_ro_txn
 (
 &
 '
-env
+e
 self
 )
 -
@@ -497,7 +497,7 @@ begin_rw_txn
 (
 &
 '
-env
+e
 self
 )
 -

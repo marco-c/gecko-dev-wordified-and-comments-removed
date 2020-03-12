@@ -124,7 +124,7 @@ version
 .
 3
 .
-0
+1
 "
 authors
 =
@@ -253,5 +253,17 @@ nom
 version
 =
 "
-4
+5
 "
+features
+=
+[
+"
+std
+"
+]
+default
+-
+features
+=
+false

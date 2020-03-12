@@ -2158,7 +2158,6 @@ types
 {
 let
 (
-mut
 sub_sum
 name
 )
@@ -2327,7 +2326,6 @@ in
 subsums
 {
 let
-mut
 supersum_entry
 =
 self

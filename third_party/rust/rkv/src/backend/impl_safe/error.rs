@@ -51,7 +51,7 @@ enum
 ErrorImpl
 {
 KeyValuePairNotFound
-DbPoisonError
+EnvPoisonError
 DbsFull
 DbsIllegalOpen
 DbNotFoundError
@@ -127,7 +127,7 @@ mode
 ErrorImpl
 :
 :
-DbPoisonError
+EnvPoisonError
 =
 >
 write
@@ -135,7 +135,7 @@ write
 (
 fmt
 "
-DbPoisonError
+EnvPoisonError
 (
 safe
 mode
@@ -289,7 +289,17 @@ _
 StoreError
 :
 :
-DatabaseInvalid
+FileInvalid
+ErrorImpl
+:
+:
+DbsFull
+=
+>
+StoreError
+:
+:
+DbsFull
 _
 =
 >

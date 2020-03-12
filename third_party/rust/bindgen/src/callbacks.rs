@@ -220,4 +220,16 @@ String
 {
 None
 }
+fn
+include_file
+(
+&
+self
+_filename
+:
+&
+str
+)
+{
+}
 }

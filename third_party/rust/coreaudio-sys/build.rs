@@ -558,6 +558,15 @@ builder
 =
 builder
 .
+size_t_is_usize
+(
+true
+)
+;
+builder
+=
+builder
+.
 clang_args
 (
 &

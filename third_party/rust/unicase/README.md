@@ -64,6 +64,13 @@ case
 is
 not
 important
+(
+using
+Unicode
+Case
+-
+folding
+)
 .
 rust
 /

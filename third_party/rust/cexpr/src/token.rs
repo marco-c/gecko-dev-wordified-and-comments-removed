@@ -9,6 +9,13 @@ PartialEq
 Eq
 )
 ]
+#
+[
+allow
+(
+missing_docs
+)
+]
 pub
 enum
 Kind
@@ -91,8 +98,6 @@ Token
 {
 Token
 {
-kind
-:
 kind
 raw
 :

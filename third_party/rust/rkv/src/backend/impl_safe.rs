@@ -43,7 +43,7 @@ use
 database
 :
 :
-DatabaseId
+DatabaseImpl
 ;
 pub
 use

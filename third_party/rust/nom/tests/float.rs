@@ -10,6 +10,14 @@ use
 nom
 :
 :
+character
+:
+:
+streaming
+:
+:
+digit1
+as
 digit
 ;
 use

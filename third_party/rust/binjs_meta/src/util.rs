@@ -1546,7 +1546,6 @@ len
 gobbled
 {
 let
-mut
 rest
 =
 &

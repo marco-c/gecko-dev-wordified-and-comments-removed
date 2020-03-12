@@ -1658,9 +1658,9 @@ builder
 =
 builder
 .
-derive_debug
+size_t_is_usize
 (
-false
+true
 )
 ;
 builder

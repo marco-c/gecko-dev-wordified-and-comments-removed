@@ -956,7 +956,7 @@ MAX_TRACKED_RANGES
 :
 usize
 =
-100
+32
 ;
 const
 MAX_ACKS_PER_FRAME

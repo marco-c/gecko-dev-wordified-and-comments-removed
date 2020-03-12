@@ -181,7 +181,7 @@ fn
 get
 <
 '
-env
+r
 R
 I
 C
@@ -193,7 +193,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -206,7 +206,7 @@ Result
 Iter
 <
 '
-env
+r
 I
 >
 StoreError
@@ -217,7 +217,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -230,18 +230,22 @@ I
 BackendIter
 <
 '
-env
+r
 >
 C
 :
 BackendRoCursor
 <
 '
-env
+r
 Iter
 =
 I
 >
+K
+:
+'
+r
 {
 self
 .
@@ -266,7 +270,7 @@ fn
 get_first
 <
 '
-env
+r
 R
 >
 (
@@ -276,7 +280,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -291,7 +295,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -302,7 +306,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D

@@ -563,7 +563,7 @@ fn
 get_ids_by_field
 <
 '
-env
+t
 T
 >
 (
@@ -571,7 +571,7 @@ txn
 :
 &
 '
-env
+t
 T
 store
 :
@@ -579,6 +579,8 @@ MultiStore
 field
 :
 &
+'
+t
 str
 )
 -
@@ -593,7 +595,7 @@ T
 Readable
 <
 '
-env
+t
 Database
 =
 LmdbDatabase
@@ -602,7 +604,7 @@ RoCursor
 LmdbRoCursor
 <
 '
-env
+t
 >
 >
 {
@@ -685,7 +687,7 @@ fn
 get_samples
 <
 '
-env
+t
 T
 >
 (
@@ -693,7 +695,7 @@ txn
 :
 &
 '
-env
+t
 T
 samplestore
 :
@@ -717,7 +719,7 @@ T
 Readable
 <
 '
-env
+t
 Database
 =
 LmdbDatabase
@@ -726,7 +728,7 @@ RoCursor
 LmdbRoCursor
 <
 '
-env
+t
 >
 >
 {

@@ -176,7 +176,7 @@ fn
 get
 <
 '
-env
+r
 R
 >
 (
@@ -186,7 +186,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -201,7 +201,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -212,7 +212,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D

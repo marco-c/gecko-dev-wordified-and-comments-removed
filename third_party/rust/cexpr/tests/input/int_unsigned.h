@@ -20,6 +20,14 @@ Int_3
 3L
 #
 define
+Int_4
+0X4
+#
+define
+Int_5
+0B101
+#
+define
 Int_63
 077
 #

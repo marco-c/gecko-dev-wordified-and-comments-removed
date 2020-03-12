@@ -98,7 +98,7 @@ struct
 Iter
 <
 '
-env
+i
 I
 >
 {
@@ -111,7 +111,7 @@ PhantomData
 <
 &
 '
-env
+i
 (
 )
 >
@@ -157,7 +157,7 @@ fn
 get
 <
 '
-env
+r
 R
 I
 C
@@ -170,7 +170,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -183,7 +183,7 @@ Result
 Iter
 <
 '
-env
+r
 I
 >
 StoreError
@@ -194,7 +194,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -207,14 +207,14 @@ I
 BackendIter
 <
 '
-env
+r
 >
 C
 :
 BackendRoCursor
 <
 '
-env
+r
 Iter
 =
 I
@@ -227,6 +227,9 @@ AsRef
 u8
 ]
 >
++
+'
+r
 {
 let
 cursor
@@ -268,7 +271,7 @@ fn
 get_first
 <
 '
-env
+r
 R
 K
 >
@@ -279,7 +282,7 @@ reader
 :
 &
 '
-env
+r
 R
 k
 :
@@ -294,7 +297,7 @@ Option
 Value
 <
 '
-env
+r
 >
 >
 StoreError
@@ -305,7 +308,7 @@ R
 Readable
 <
 '
-env
+r
 Database
 =
 D
@@ -637,7 +640,7 @@ db
 impl
 <
 '
-env
+i
 I
 >
 Iterator
@@ -645,7 +648,7 @@ for
 Iter
 <
 '
-env
+i
 I
 >
 where
@@ -654,7 +657,7 @@ I
 BackendIter
 <
 '
-env
+i
 >
 {
 type
@@ -665,7 +668,7 @@ Result
 (
 &
 '
-env
+i
 [
 u8
 ]
@@ -674,7 +677,7 @@ Option
 Value
 <
 '
-env
+i
 >
 >
 )

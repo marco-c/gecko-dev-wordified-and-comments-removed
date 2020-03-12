@@ -1,10 +1,16 @@
 use
+crate
+:
+:
 attribute
 :
 :
 ExtendedAttributeList
 ;
 use
+crate
+:
+:
 common
 :
 :
@@ -15,6 +21,9 @@ Punctuated
 }
 ;
 use
+crate
+:
+:
 types
 :
 :
@@ -271,6 +280,9 @@ super
 *
 ;
 use
+crate
+:
+:
 literal
 :
 :
@@ -281,6 +293,9 @@ IntegerLit
 }
 ;
 use
+crate
+:
+:
 Parse
 ;
 test
