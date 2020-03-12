@@ -17986,6 +17986,10 @@ ContentParent
 :
 RecvInitCrashReporter
 (
+Shmem
+&
+&
+aShmem
 const
 NativeThreadId
 &
@@ -18000,6 +18004,7 @@ CrashReporterHost
 >
 (
 GeckoProcessType_Content
+aShmem
 aThreadId
 )
 ;

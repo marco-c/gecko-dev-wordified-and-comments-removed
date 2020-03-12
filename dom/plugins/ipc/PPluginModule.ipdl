@@ -528,6 +528,8 @@ seconds
 intr
 InitCrashReporter
 (
+Shmem
+shmem
 )
 returns
 (
