@@ -1875,9 +1875,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -1927,6 +1924,9 @@ ImageKey
 >
 &
 aKeys
+const
+bool
+aPreferCompositorSurface
 )
 {
 MOZ_ASSERT_UNREACHABLE
@@ -2319,9 +2319,6 @@ wr
 ExternalImageId
 &
 aExtID
-const
-bool
-aPreferCompositorSurface
 )
 override
 ;
@@ -2363,6 +2360,9 @@ ImageKey
 >
 &
 aImageKeys
+const
+bool
+aPreferCompositorSurface
 )
 override
 ;

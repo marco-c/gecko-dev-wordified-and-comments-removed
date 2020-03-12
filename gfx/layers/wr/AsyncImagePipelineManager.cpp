@@ -1468,7 +1468,6 @@ aMaybeFastTxn
 op
 keys
 externalImageKey
-true
 )
 ;
 return
@@ -2365,6 +2364,7 @@ aPipeline
 >
 mFilter
 range_keys
+true
 )
 ;
 HoldExternalImage
