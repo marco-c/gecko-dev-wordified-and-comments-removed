@@ -1059,7 +1059,7 @@ hidden
 )
 {
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1297,7 +1297,7 @@ getSystemPrincipal
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -1372,7 +1372,7 @@ tabs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
