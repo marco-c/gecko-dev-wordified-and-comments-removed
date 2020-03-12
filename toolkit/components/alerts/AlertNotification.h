@@ -133,7 +133,7 @@ NotifyMissing
 (
 )
 ;
-void
+nsresult
 NotifyComplete
 (
 )

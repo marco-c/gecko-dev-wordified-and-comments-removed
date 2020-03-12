@@ -81,7 +81,7 @@ delete
 mInvalidationArea
 ;
 }
-void
+NS_IMETHODIMP
 nsTreeImageListener
 :
 :
@@ -109,11 +109,9 @@ imgINotificationObserver
 IS_ANIMATED
 )
 {
-if
-(
+return
 mTreeFrame
-)
-{
+?
 mTreeFrame
 -
 >
@@ -121,9 +119,8 @@ OnImageIsAnimated
 (
 aRequest
 )
-;
-}
-return
+:
+NS_OK
 ;
 }
 if
@@ -214,6 +211,9 @@ Invalidate
 )
 ;
 }
+return
+NS_OK
+;
 }
 void
 nsTreeImageListener

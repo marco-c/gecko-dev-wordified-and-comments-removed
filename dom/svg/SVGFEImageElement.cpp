@@ -1481,7 +1481,7 @@ mode
 }
 }
 }
-void
+NS_IMETHODIMP
 SVGFEImageElement
 :
 :
@@ -1498,6 +1498,9 @@ nsIntRect
 aData
 )
 {
+nsresult
+rv
+=
 nsImageLoadingContent
 :
 :
@@ -1638,6 +1641,9 @@ GetParent
 ;
 }
 }
+return
+rv
+;
 }
 }
 }

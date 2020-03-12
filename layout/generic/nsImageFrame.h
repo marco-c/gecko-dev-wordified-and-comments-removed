@@ -626,7 +626,7 @@ GetCurrentRequest
 )
 const
 ;
-void
+nsresult
 Notify
 (
 imgIRequest
@@ -1114,7 +1114,7 @@ mozilla
 :
 PresShell
 ;
-void
+nsresult
 OnSizeAvailable
 (
 imgIRequest
@@ -1125,7 +1125,7 @@ imgIContainer
 aImage
 )
 ;
-void
+nsresult
 OnFrameUpdate
 (
 imgIRequest
@@ -1137,7 +1137,7 @@ nsIntRect
 aRect
 )
 ;
-void
+nsresult
 OnLoadComplete
 (
 imgIRequest

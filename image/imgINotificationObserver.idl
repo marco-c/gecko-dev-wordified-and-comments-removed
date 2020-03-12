@@ -446,8 +446,6 @@ HAS_TRANSPARENCY
 ;
 [
 noscript
-notxpcom
-nostdcall
 ]
 void
 notify
