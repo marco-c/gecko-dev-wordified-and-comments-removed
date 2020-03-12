@@ -5192,7 +5192,7 @@ ifdef
 MOZ_CRASHREPORTER
 (
 call
-py_action
+py3_action
 dumpsymbols
 (
 abspath
