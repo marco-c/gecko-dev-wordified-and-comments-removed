@@ -209,8 +209,7 @@ resource
 :
 /
 /
-/
-modules
+formautofill
 /
 OSKeyStore
 .
@@ -1644,7 +1643,7 @@ creditCard
 |
 (
 await
-FormAutofillUtils
+OSKeyStore
 .
 ensureLoggedIn
 (
