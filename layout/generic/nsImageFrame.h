@@ -1228,6 +1228,12 @@ ShouldDisplaySelection
 )
 ;
 bool
+ShouldUseMappedAspectRatio
+(
+)
+const
+;
+bool
 UpdateIntrinsicSize
 (
 )
