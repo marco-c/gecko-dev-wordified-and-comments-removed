@@ -29,8 +29,6 @@ Lund
 "
 "
 import
-copy
-import
 sys
 import
 os
@@ -77,22 +75,10 @@ BUILD_BASE_CONFIG_OPTIONS
     
 BuildingConfig
 BuildScript
-from
-mozharness
-.
-mozilla
-.
-testing
-.
-try_tools
-import
-TryToolsMixin
-try_config_options
 class
 FxDesktopBuild
 (
 BuildScript
-TryToolsMixin
 object
 )
 :
@@ -113,13 +99,6 @@ config_options
 '
 :
 BUILD_BASE_CONFIG_OPTIONS
-+
-copy
-.
-deepcopy
-(
-try_config_options
-)
             
 '
 all_actions
@@ -438,31 +417,6 @@ return
 self
 .
 abs_dirs
-    
-def
-set_extra_try_arguments
-(
-self
-action
-success
-=
-None
-)
-:
-        
-"
-"
-"
-Override
-unneeded
-method
-from
-TryToolsMixin
-"
-"
-"
-        
-pass
     
 script
 .
