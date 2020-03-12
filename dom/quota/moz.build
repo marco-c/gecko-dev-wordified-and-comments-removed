@@ -395,11 +395,6 @@ nsIndexedDBProtocolHandler
 cpp
 '
 '
-PersistenceType
-.
-cpp
-'
-'
 QuotaCommon
 .
 cpp
