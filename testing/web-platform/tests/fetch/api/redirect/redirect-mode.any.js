@@ -62,6 +62,16 @@ get_host_info
 .
 REMOTE_HOST
 ;
+url
+.
+port
+=
+get_host_info
+(
+)
+.
+HTTP_PORT
+;
 }
 var
 urlParameters
