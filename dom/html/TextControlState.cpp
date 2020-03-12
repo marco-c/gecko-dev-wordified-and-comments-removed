@@ -1604,13 +1604,6 @@ if
 aPresShell
 )
 {
-mFrameSelection
-=
-new
-nsFrameSelection
-(
-)
-;
 mLimiter
 =
 aLimiter
@@ -1637,9 +1630,9 @@ GetDocShell
 )
 ;
 mFrameSelection
--
->
-Init
+=
+new
+nsFrameSelection
 (
 aPresShell
 mLimiter
