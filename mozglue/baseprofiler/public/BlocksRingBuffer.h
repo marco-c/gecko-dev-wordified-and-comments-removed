@@ -175,7 +175,7 @@ typename
 T
 >
 struct
-Serializer
+Deserializer
 ;
 template
 <
@@ -183,7 +183,7 @@ typename
 T
 >
 struct
-Deserializer
+Serializer
 ;
 enum
 class
