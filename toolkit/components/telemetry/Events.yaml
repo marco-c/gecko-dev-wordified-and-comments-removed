@@ -738,6 +738,11 @@ file
 url
 "
 "
+geckoview
+-
+app
+"
+"
 gmp
 -
 plugin
