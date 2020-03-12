@@ -1151,7 +1151,7 @@ artifact
 :
 (
 call
-py_action
+py3_action
 fat_aar
 \
 (
