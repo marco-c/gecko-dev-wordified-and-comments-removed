@@ -357,6 +357,14 @@ connectResponse
 .
 threadActor
 ;
+this
+.
+_threadActor
+=
+connectResponse
+.
+threadActor
+;
 return
 this
 .

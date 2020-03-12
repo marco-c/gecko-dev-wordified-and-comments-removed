@@ -3436,7 +3436,9 @@ defaultThreadOptions
 )
 ;
 const
+[
 threadFront
+]
 =
 await
 target

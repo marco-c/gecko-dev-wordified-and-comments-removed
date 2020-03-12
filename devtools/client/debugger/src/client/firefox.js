@@ -1,6 +1,7 @@
 import
 {
 setupCommands
+setupCommandsTopTarget
 clientCommands
 }
 from
@@ -75,7 +76,6 @@ setupCommands
 (
 {
 devToolsClient
-targetList
 }
 )
 ;
@@ -156,6 +156,11 @@ threadFront
 return
 ;
 }
+setupCommandsTopTarget
+(
+targetFront
+)
+;
 setupEventsTopTarget
 (
 targetFront
@@ -323,13 +328,6 @@ checkIfAlreadyPaused
 )
 ;
 }
-await
-actions
-.
-updateThreads
-(
-)
-;
 }
 function
 onTargetDestroyed
@@ -377,12 +375,6 @@ targetFront
 )
 ;
 }
-actions
-.
-updateThreads
-(
-)
-;
 }
 export
 {
