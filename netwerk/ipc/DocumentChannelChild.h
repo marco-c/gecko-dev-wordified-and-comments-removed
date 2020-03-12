@@ -65,8 +65,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED

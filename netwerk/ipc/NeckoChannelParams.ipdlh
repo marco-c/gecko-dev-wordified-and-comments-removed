@@ -2506,9 +2506,6 @@ uint32_t
 documentOpenFlags
 ;
 bool
-isActive
-;
-bool
 pluginsAllowed
 ;
 nsDOMNavigationTiming

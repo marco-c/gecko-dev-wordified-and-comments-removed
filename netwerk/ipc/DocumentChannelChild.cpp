@@ -90,8 +90,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 )
 :
 DocumentChannel
@@ -100,7 +98,6 @@ aLoadState
 aLoadInfo
 aLoadFlags
 aCacheKey
-aIsActive
 )
 {
 LOG
@@ -343,14 +340,6 @@ cacheKey
 )
 =
 mCacheKey
-;
-args
-.
-isActive
-(
-)
-=
-mIsActive
 ;
 args
 .

@@ -294,8 +294,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 )
 :
 mAsyncOpenTime
@@ -314,10 +312,6 @@ aLoadState
 mCacheKey
 (
 aCacheKey
-)
-mIsActive
-(
-aIsActive
 )
 mLoadFlags
 (

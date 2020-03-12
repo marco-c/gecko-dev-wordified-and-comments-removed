@@ -115,8 +115,6 @@ nsLoadFlags
 aLoadFlags
 uint32_t
 aCacheKey
-bool
-aIsActive
 )
 ;
 const
@@ -266,10 +264,6 @@ mLoadState
 const
 uint32_t
 mCacheKey
-;
-const
-bool
-mIsActive
 ;
 nsresult
 mStatus
