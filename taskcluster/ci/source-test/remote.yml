@@ -106,7 +106,7 @@ kind
 test
 tier
 :
-3
+2
 worker
 -
 type
