@@ -125,11 +125,6 @@ NetworkActionBar
 js
 '
 '
-NetworkDetailsPanel
-.
-js
-'
-'
 PropertiesView
 .
 js

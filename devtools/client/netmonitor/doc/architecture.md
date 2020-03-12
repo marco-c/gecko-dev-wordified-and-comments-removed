@@ -325,7 +325,7 @@ information
 -
 *
 *
-NetworkDetailsPanel
+NetworkDetailsBar
 *
 *
 Show

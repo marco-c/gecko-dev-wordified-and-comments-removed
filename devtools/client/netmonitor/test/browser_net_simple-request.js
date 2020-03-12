@@ -153,7 +153,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false
@@ -256,7 +256,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false
@@ -358,7 +358,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false
@@ -461,7 +461,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false

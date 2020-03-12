@@ -119,7 +119,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 &
@@ -173,7 +173,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 .
@@ -205,7 +205,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 &
@@ -272,7 +272,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 &
@@ -328,7 +328,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 .
@@ -362,7 +362,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 &

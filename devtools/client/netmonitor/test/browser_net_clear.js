@@ -248,7 +248,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 "

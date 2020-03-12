@@ -233,7 +233,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false
@@ -344,7 +344,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 true
@@ -470,7 +470,7 @@ network
 -
 details
 -
-panel
+bar
 .
 tabs
 -
@@ -495,7 +495,7 @@ network
 -
 details
 -
-panel
+bar
 .
 tab
 -
@@ -1937,7 +1937,7 @@ network
 -
 details
 -
-panel
+bar
 .
 tabs
 -
@@ -2022,7 +2022,7 @@ network
 -
 details
 -
-panel
+bar
 .
 tab
 -
@@ -2066,7 +2066,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 =
@@ -2088,7 +2088,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 .

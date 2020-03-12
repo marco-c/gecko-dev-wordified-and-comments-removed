@@ -4224,7 +4224,7 @@ assets
 /
 styles
 /
-NetworkDetailsPanel
+NetworkDetailsBar
 .
 css
 (
@@ -4236,7 +4236,7 @@ assets
 /
 styles
 /
-NetworkDetailsPanel
+NetworkDetailsBar
 .
 css
 )

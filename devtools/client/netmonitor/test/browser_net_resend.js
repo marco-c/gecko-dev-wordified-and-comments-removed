@@ -437,7 +437,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 null

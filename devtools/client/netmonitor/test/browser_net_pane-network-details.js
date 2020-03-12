@@ -640,7 +640,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false
@@ -769,7 +769,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 true
@@ -891,7 +891,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 false

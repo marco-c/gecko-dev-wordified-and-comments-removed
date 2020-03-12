@@ -66,6 +66,11 @@ CookiesPanel
 js
 '
 '
+NetworkDetailsBar
+.
+js
+'
+'
 ParamsPanel
 .
 js

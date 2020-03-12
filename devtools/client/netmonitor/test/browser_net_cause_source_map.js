@@ -133,7 +133,7 @@ network
 -
 details
 -
-panel
+bar
 "
 )
 ;
