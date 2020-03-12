@@ -646,9 +646,6 @@ aListener
 aUserData
 )
 ;
-nsresult
-rv
-=
 request
 -
 >
@@ -664,7 +661,7 @@ aRequest
 )
 ;
 return
-rv
+NS_OK
 ;
 }
 NS_IMPL_CYCLE_COLLECTION
@@ -781,7 +778,7 @@ NS_BINDING_ABORTED
 ;
 }
 }
-NS_IMETHODIMP
+void
 AlertImageRequest
 :
 :
@@ -847,10 +844,11 @@ STATUS_ERROR
 )
 )
 {
-return
 NotifyMissing
 (
 )
+;
+return
 ;
 }
 if
@@ -911,10 +909,11 @@ image
 )
 )
 {
-return
 NotifyMissing
 (
 )
+;
+return
 ;
 }
 int32_t
@@ -964,7 +963,6 @@ FLAG_HIGH_QUALITY_SCALING
 ;
 }
 return
-NS_OK
 ;
 }
 if
@@ -984,9 +982,6 @@ NotifyComplete
 )
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMETHODIMP
 AlertImageRequest
@@ -1279,7 +1274,7 @@ return
 NS_OK
 ;
 }
-nsresult
+void
 AlertImageRequest
 :
 :
@@ -1321,9 +1316,6 @@ mListener
 )
 )
 {
-nsresult
-rv
-=
 listener
 -
 >
@@ -1337,12 +1329,6 @@ NS_RELEASE_THIS
 (
 )
 ;
-return
-rv
-;
 }
-return
-NS_OK
-;
 }
 }

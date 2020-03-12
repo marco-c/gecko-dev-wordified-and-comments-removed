@@ -242,7 +242,7 @@ NS_DECL_FRAMEARENA_HELPERS
 (
 nsTreeBodyFrame
 )
-nsresult
+void
 OnImageIsAnimated
 (
 imgIRequest

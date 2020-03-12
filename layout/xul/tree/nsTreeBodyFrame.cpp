@@ -21349,7 +21349,7 @@ IsAlive
 )
 ;
 }
-nsresult
+void
 nsTreeBodyFrame
 :
 :
@@ -21371,8 +21371,5 @@ PresContext
 aRequest
 nullptr
 )
-;
-return
-NS_OK
 ;
 }
