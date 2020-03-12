@@ -819,15 +819,6 @@ StatementKind
 :
 :
 Finally
-|
-|
-kind
-=
-=
-StatementKind
-:
-:
-Class
 ;
 }
 template
