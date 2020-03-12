@@ -300,11 +300,6 @@ WindowsDllBlocklistDefs
 in
 '
 ]
-blocklist_defs
-.
-py2
-=
-True
 EXPORTS
 .
 mozilla
