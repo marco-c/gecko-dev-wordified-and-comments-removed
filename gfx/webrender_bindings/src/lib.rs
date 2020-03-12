@@ -8,7 +8,11 @@ warnings
 ]
 extern
 crate
-webrender
+app_units
+;
+extern
+crate
+bincode
 ;
 extern
 crate
@@ -16,7 +20,7 @@ euclid
 ;
 extern
 crate
-app_units
+fxhash
 ;
 extern
 crate
@@ -28,15 +32,11 @@ nsstring
 ;
 extern
 crate
-rayon
-;
-extern
-crate
 num_cpus
 ;
 extern
 crate
-thread_profiler
+rayon
 ;
 extern
 crate
@@ -44,7 +44,7 @@ thin_vec
 ;
 extern
 crate
-bincode
+thread_profiler
 ;
 extern
 crate
@@ -52,7 +52,7 @@ uuid
 ;
 extern
 crate
-fxhash
+webrender
 ;
 #
 [
