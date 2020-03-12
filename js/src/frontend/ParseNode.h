@@ -5982,7 +5982,7 @@ index_
 }
 BigInt
 *
-getOrCreate
+create
 (
 JSContext
 *
@@ -7534,7 +7534,7 @@ dataIndex
 }
 RegExpObject
 *
-getOrCreate
+create
 (
 JSContext
 *

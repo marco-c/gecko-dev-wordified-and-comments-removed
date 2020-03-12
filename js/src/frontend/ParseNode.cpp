@@ -2325,7 +2325,7 @@ BigInt
 BigIntLiteral
 :
 :
-getOrCreate
+create
 (
 JSContext
 *
@@ -2383,7 +2383,7 @@ RootedBigInt
 bi
 (
 cx
-getOrCreate
+create
 (
 cx
 )
@@ -2474,7 +2474,7 @@ RegExpObject
 RegExpLiteral
 :
 :
-getOrCreate
+create
 (
 JSContext
 *
