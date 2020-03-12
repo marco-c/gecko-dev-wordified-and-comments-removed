@@ -614,9 +614,14 @@ nscoord
 aCrossGapSize
 bool
 aHasLineClampEllipsis
+ComputedFlexContainerInfo
+*
+const
+aContainerInfo
 )
 ;
-void
+ComputedFlexContainerInfo
+*
 CreateOrClearFlexContainerInfo
 (
 )
