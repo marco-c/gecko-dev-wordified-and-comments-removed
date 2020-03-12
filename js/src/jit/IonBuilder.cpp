@@ -7293,16 +7293,14 @@ isInWorklist
 )
 &
 &
-(
-!
 use
 -
 >
 isPhi
 (
 )
-|
-|
+&
+&
 !
 use
 -
@@ -7314,7 +7312,6 @@ toPhi
 >
 isIterator
 (
-)
 )
 )
 {
