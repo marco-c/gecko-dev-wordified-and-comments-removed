@@ -1329,7 +1329,6 @@ nsACString
 aGenericFamily
 )
 ;
-virtual
 gfxFontGroup
 *
 CreateFontGroup
@@ -1354,8 +1353,7 @@ aUserFontSet
 gfxFloat
 aDevToCssSize
 )
-=
-0
+const
 ;
 gfxFontEntry
 *
