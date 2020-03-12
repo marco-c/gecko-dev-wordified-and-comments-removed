@@ -265,9 +265,11 @@ return
 uriString
 ;
 }
+async
 promptForMasterPassword
 (
 resolve
+messageId
 )
 {
 resolve
