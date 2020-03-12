@@ -1,10 +1,3 @@
-options
-(
-'
-werror
-'
-)
-;
 g
 =
 newGlobal
