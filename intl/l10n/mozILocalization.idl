@@ -220,7 +220,7 @@ Promise
 formatValue
 (
 in
-AString
+AUTF8String
 aId
 [
 optional

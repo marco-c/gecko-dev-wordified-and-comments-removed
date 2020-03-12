@@ -869,7 +869,10 @@ aResult
 .
 mId
 =
+NS_ConvertUTF16toUTF8
+(
 l10nId
+)
 ;
 }
 if

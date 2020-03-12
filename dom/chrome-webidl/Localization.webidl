@@ -163,9 +163,9 @@ numbers
 typedef
 record
 <
-DOMString
+UTF8String
 (
-DOMString
+UTF8String
 or
 double
 )
@@ -176,7 +176,7 @@ L10nArgs
 dictionary
 L10nKey
 {
-DOMString
+UTF8String
 ?
 id
 =
@@ -262,11 +262,11 @@ dictionary
 AttributeNameValue
 {
 required
-DOMString
+UTF8String
 name
 ;
 required
-DOMString
+UTF8String
 value
 ;
 }
@@ -274,7 +274,7 @@ value
 dictionary
 L10nMessage
 {
-DOMString
+UTF8String
 ?
 value
 =
@@ -671,11 +671,11 @@ NewObject
 ]
 Promise
 <
-DOMString
+UTF8String
 >
 formatValue
 (
-DOMString
+UTF8String
 aId
 optional
 L10nArgs
@@ -776,7 +776,7 @@ Promise
 <
 sequence
 <
-DOMString
+UTF8String
 >
 >
 formatValues
