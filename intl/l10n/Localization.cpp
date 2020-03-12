@@ -891,7 +891,7 @@ JSContext
 *
 aCx
 const
-nsAString
+nsACString
 &
 aId
 const
