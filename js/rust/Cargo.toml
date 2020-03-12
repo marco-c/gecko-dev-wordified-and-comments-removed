@@ -84,6 +84,13 @@ default
 features
 =
 false
+features
+=
+[
+"
+runtime
+"
+]
 }
 #
 disable
