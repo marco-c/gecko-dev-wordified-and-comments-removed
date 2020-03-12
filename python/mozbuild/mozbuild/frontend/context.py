@@ -4466,6 +4466,33 @@ CFLAGS
 '
 )
 )
+            
+(
+'
+NEWPM
+'
+context
+.
+config
+.
+substs
+.
+get
+(
+'
+MOZ_NEW_PASS_MANAGER_FLAGS
+'
+)
+             
+(
+'
+CXXFLAGS
+'
+'
+CFLAGS
+'
+)
+)
         
 )
         
