@@ -1632,6 +1632,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 override
 ;
@@ -1673,9 +1676,6 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
 )
 override
 ;
@@ -1964,6 +1964,9 @@ wr
 ExternalImageId
 &
 aExtID
+const
+bool
+aPreferCompositorSurface
 )
 override
 ;
@@ -2005,9 +2008,6 @@ ImageKey
 >
 &
 aImageKeys
-const
-bool
-aPreferCompositorSurface
 )
 override
 ;

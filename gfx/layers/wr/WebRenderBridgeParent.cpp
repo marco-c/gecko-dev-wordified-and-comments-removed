@@ -5014,6 +5014,7 @@ wrTexture
 GetExternalImageKey
 (
 )
+false
 )
 ;
 auto

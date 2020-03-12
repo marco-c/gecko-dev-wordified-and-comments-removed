@@ -13103,50 +13103,28 @@ prim_flags
 is_backface_visible
 :
 bool
-prefer_compositor_surface
-:
-bool
 )
 -
 >
 PrimitiveFlags
 {
-let
-mut
-flags
-=
+if
+is_backface_visible
+{
+PrimitiveFlags
+:
+:
+IS_BACKFACE_VISIBLE
+}
+else
+{
 PrimitiveFlags
 :
 :
 empty
 (
 )
-;
-if
-is_backface_visible
-{
-flags
-|
-=
-PrimitiveFlags
-:
-:
-IS_BACKFACE_VISIBLE
-;
 }
-if
-prefer_compositor_surface
-{
-flags
-|
-=
-PrimitiveFlags
-:
-:
-PREFER_COMPOSITOR_SURFACE
-;
-}
-flags
 }
 fn
 common_item_properties_for_rect
@@ -13227,7 +13205,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -13580,7 +13557,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -13906,7 +13882,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -14041,7 +14016,6 @@ flags
 prim_flags
 (
 true
-false
 )
 hit_info
 :
@@ -14172,7 +14146,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -14300,7 +14273,6 @@ flags
 prim_flags
 (
 true
-false
 )
 hit_info
 :
@@ -14369,9 +14341,6 @@ bool
 color
 :
 ColorF
-prefer_compositor_surface
-:
-bool
 )
 {
 debug_assert
@@ -14425,7 +14394,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -14577,7 +14545,6 @@ flags
 prim_flags
 (
 is_backface_visible
-prefer_compositor_surface
 )
 hit_info
 :
@@ -14681,9 +14648,6 @@ WrColorRange
 image_rendering
 :
 ImageRendering
-prefer_compositor_surface
-:
-bool
 )
 {
 debug_assert
@@ -14737,7 +14701,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -14826,9 +14789,6 @@ WrColorRange
 image_rendering
 :
 ImageRendering
-prefer_compositor_surface
-:
-bool
 )
 {
 debug_assert
@@ -14882,7 +14842,6 @@ flags
 prim_flags
 (
 is_backface_visible
-prefer_compositor_surface
 )
 hit_info
 :
@@ -14967,9 +14926,6 @@ WrColorRange
 image_rendering
 :
 ImageRendering
-prefer_compositor_surface
-:
-bool
 )
 {
 debug_assert
@@ -15023,7 +14979,6 @@ flags
 prim_flags
 (
 is_backface_visible
-prefer_compositor_surface
 )
 hit_info
 :
@@ -15173,7 +15128,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -15427,7 +15381,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -15615,7 +15568,6 @@ flags
 prim_flags
 (
 is_backface_visible
-prefer_compositor_surface
 )
 hit_info
 :
@@ -15825,7 +15777,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -16065,7 +16016,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -16344,7 +16294,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -16619,7 +16568,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -16804,7 +16752,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -16994,7 +16941,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -17172,7 +17118,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
@@ -17302,7 +17247,6 @@ flags
 prim_flags
 (
 is_backface_visible
-false
 )
 hit_info
 :
