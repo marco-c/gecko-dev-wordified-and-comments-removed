@@ -1961,9 +1961,11 @@ InterpretObjLiteral
 JSContext
 *
 cx
+const
 ObjLiteralAtomVector
 &
 atoms
+const
 mozilla
 :
 :
@@ -1985,6 +1987,7 @@ InterpretObjLiteral
 JSContext
 *
 cx
+const
 ObjLiteralAtomVector
 &
 atoms
@@ -2090,6 +2093,7 @@ JSContext
 *
 cx
 )
+const
 ;
 }
 ;

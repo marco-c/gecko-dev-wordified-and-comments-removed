@@ -95,6 +95,7 @@ JS
 Value
 InterpretObjLiteralValue
 (
+const
 ObjLiteralAtomVector
 &
 atoms
@@ -222,9 +223,11 @@ InterpretObjLiteralObj
 JSContext
 *
 cx
+const
 ObjLiteralAtomVector
 &
 atoms
+const
 mozilla
 :
 :
@@ -466,9 +469,11 @@ InterpretObjLiteralArray
 JSContext
 *
 cx
+const
 ObjLiteralAtomVector
 &
 atoms
+const
 mozilla
 :
 :
@@ -638,9 +643,11 @@ InterpretObjLiteral
 JSContext
 *
 cx
+const
 ObjLiteralAtomVector
 &
 atoms
+const
 mozilla
 :
 :
