@@ -113,9 +113,6 @@ hugeMemory
 bool
 bigIntEnabled
 ;
-bool
-multiValuesEnabled
-;
 static
 SharedCompileArgs
 build
@@ -181,10 +178,6 @@ hugeMemory
 false
 )
 bigIntEnabled
-(
-false
-)
-multiValuesEnabled
 (
 false
 )

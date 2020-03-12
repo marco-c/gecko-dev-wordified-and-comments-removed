@@ -28,9 +28,8 @@ js
 namespace
 wasm
 {
-MOZ_MUST_USE
 bool
-IonPlatformSupport
+IonCanCompile
 (
 )
 ;

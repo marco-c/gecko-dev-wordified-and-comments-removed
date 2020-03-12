@@ -83868,7 +83868,7 @@ js
 wasm
 :
 :
-BaselinePlatformSupport
+BaselineCanCompile
 (
 )
 {

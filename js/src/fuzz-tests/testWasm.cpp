@@ -716,7 +716,7 @@ optByte
 bool
 enableWasmIon
 =
-IonPlatformSupport
+IonCanCompile
 (
 )
 &
@@ -747,7 +747,7 @@ ifdef
 ENABLE_WASM_CRANELIFT
 enableWasmCranelift
 =
-CraneliftPlatformSupport
+CraneliftCanCompile
 (
 )
 &
@@ -774,7 +774,7 @@ bool
 enableWasmAwaitTier2
 =
 (
-IonPlatformSupport
+IonCanCompile
 (
 )
 #
@@ -782,7 +782,7 @@ ifdef
 ENABLE_WASM_CRANELIFT
 |
 |
-CraneliftPlatformSupport
+CraneliftCanCompile
 (
 )
 #
@@ -822,7 +822,7 @@ enableWasmCranelift
 {
 if
 (
-IonPlatformSupport
+IonCanCompile
 (
 )
 )
