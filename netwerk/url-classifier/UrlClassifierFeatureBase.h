@@ -32,6 +32,15 @@ nsString
 .
 h
 "
+#
+include
+"
+mozilla
+/
+AntiTrackingCommon
+.
+h
+"
 namespace
 mozilla
 {

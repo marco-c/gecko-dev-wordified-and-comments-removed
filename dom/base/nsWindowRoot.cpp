@@ -30,15 +30,6 @@ include
 "
 mozilla
 /
-StaticPrefs_browser
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 WindowRootBinding
