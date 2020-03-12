@@ -47943,7 +47943,9 @@ ContentBlocking
 AllowAccessFor
 (
 principal
-inner
+GetBrowsingContext
+(
+)
 ContentBlockingNotifier
 :
 :
