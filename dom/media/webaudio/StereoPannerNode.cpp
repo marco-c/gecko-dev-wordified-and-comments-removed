@@ -815,6 +815,7 @@ StereoPannerNodeEngine
 :
 :
 PAN
+u
 "
 pan
 "

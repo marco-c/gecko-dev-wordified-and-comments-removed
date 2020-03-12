@@ -2547,6 +2547,7 @@ CreateAudioParam
 (
 mPlaybackRate
 PLAYBACKRATE
+u
 "
 playbackRate
 "
@@ -2559,6 +2560,7 @@ CreateAudioParam
 (
 mDetune
 DETUNE
+u
 "
 detune
 "

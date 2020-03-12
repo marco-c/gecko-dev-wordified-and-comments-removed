@@ -106,7 +106,7 @@ aNode
 uint32_t
 aIndex
 const
-char
+char16_t
 *
 aName
 float
@@ -627,7 +627,14 @@ GetParentObject
 CurrentTime
 (
 )
+NS_ConvertUTF16toUTF8
+(
 mName
+)
+.
+get
+(
+)
 ParentNodeId
 (
 )
