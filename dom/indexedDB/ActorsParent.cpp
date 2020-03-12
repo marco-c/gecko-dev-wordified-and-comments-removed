@@ -72646,7 +72646,7 @@ aResult
 .
 Append
 (
-PersistenceTypeString
+PersistenceTypeToString
 (
 mPersistenceType
 )
@@ -96378,10 +96378,14 @@ permanent
 }
 else
 {
-PersistenceTypeToText
+persistenceTypeString
+.
+Assign
+(
+PersistenceTypeToString
 (
 persistenceType
-persistenceTypeString
+)
 )
 ;
 }
@@ -98340,7 +98344,7 @@ aResult
 .
 Append
 (
-PersistenceTypeString
+PersistenceTypeToString
 (
 mPersistenceType
 )
@@ -107722,7 +107726,7 @@ aResult
 .
 Append
 (
-PersistenceTypeString
+PersistenceTypeToString
 (
 mCommonParams
 .
