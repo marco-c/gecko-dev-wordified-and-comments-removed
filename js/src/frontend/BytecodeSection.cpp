@@ -124,16 +124,6 @@ index
 {
 MOZ_ASSERT
 (
-objbox
--
->
-isObjectBox
-(
-)
-)
-;
-MOZ_ASSERT
-(
 !
 objbox
 -
