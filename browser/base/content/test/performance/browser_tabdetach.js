@@ -232,7 +232,7 @@ createTabs
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -339,7 +339,7 @@ TAB_COUNT_FOR_OVERFLOW
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
