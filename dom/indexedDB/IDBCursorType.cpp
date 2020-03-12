@@ -82,7 +82,7 @@ ValueCursorDataBase
 :
 ValueCursorDataBase
 (
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
@@ -113,7 +113,7 @@ CursorData
 (
 Key
 aKey
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
@@ -158,7 +158,7 @@ Key
 aLocaleAwareKey
 Key
 aObjectStoreKey
-StructuredCloneReadInfo
+StructuredCloneReadInfoChild
 &
 &
 aCloneInfo
