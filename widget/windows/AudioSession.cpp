@@ -1233,12 +1233,6 @@ this
 if
 (
 mAudioSessionControl
-&
-&
-!
-IsWin8OrLater
-(
-)
 )
 {
 SpawnASCReleaseThread
@@ -1251,13 +1245,6 @@ move
 mAudioSessionControl
 )
 )
-;
-}
-else
-{
-mAudioSessionControl
-=
-nullptr
 ;
 }
 }
