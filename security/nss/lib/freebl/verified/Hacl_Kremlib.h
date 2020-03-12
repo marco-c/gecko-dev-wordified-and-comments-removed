@@ -38,8 +38,8 @@ __Hacl_Kremlib_H
 #
 define
 __Hacl_Kremlib_H
-inline
 static
+inline
 uint8_t
 FStar_UInt8_eq_mask
 (
@@ -49,8 +49,8 @@ uint8_t
 b
 )
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt64_eq_mask
 (
@@ -60,8 +60,8 @@ uint64_t
 b
 )
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt64_gte_mask
 (
@@ -71,8 +71,8 @@ uint64_t
 b
 )
 ;
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_add
 (
@@ -82,8 +82,8 @@ FStar_UInt128_uint128
 b
 )
 ;
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_right
 (
@@ -93,8 +93,8 @@ uint32_t
 s
 )
 ;
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_uint64_to_uint128
 (
@@ -102,8 +102,8 @@ uint64_t
 a
 )
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt128_uint128_to_uint64
 (
@@ -111,8 +111,8 @@ FStar_UInt128_uint128
 a
 )
 ;
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_mul_wide
 (
