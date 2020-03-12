@@ -158,6 +158,9 @@ TestCeilingFloor
 TestCheckedInt
 '
 '
+TestCompactPair
+'
+'
 TestCountPopulation
 '
 '
@@ -222,9 +225,6 @@ TestNonDereferenceable
 '
 '
 TestNotNull
-'
-'
-TestPair
 '
 '
 TestRandomNum

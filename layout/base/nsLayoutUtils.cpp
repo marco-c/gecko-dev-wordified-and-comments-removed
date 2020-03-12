@@ -2424,7 +2424,10 @@ scale
 using
 MinAndMaxScale
 =
-Pair
+std
+:
+:
+pair
 <
 Size
 Size
@@ -2465,8 +2468,6 @@ minScale
 aMinAndMaxScale
 .
 first
-(
-)
 ;
 Size
 &
@@ -2475,8 +2476,6 @@ maxScale
 aMinAndMaxScale
 .
 second
-(
-)
 ;
 minScale
 =
@@ -2753,7 +2752,10 @@ const
 MinAndMaxScale
 defaultValue
 =
-MakePair
+std
+:
+:
+make_pair
 (
 Size
 (
@@ -3474,8 +3476,6 @@ currMinScale
 pair
 .
 first
-(
-)
 ;
 const
 Size
@@ -3485,8 +3485,6 @@ currMaxScale
 pair
 .
 second
-(
-)
 ;
 if
 (

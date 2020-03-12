@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-Pair
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h

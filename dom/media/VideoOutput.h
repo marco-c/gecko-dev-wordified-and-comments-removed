@@ -209,8 +209,6 @@ chunk
 idChunkPair
 .
 second
-(
-)
 ;
 if
 (
@@ -319,8 +317,6 @@ frameId
 idChunkPair
 .
 first
-(
-)
 ;
 const
 VideoChunk
@@ -330,8 +326,6 @@ chunk
 idChunkPair
 .
 second
-(
-)
 ;
 const
 VideoFrame
@@ -531,8 +525,6 @@ mFrames
 ]
 .
 second
-(
-)
 .
 mFrame
 .
@@ -701,7 +693,10 @@ mFrames
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 mVideoFrameContainer
 -
@@ -872,8 +867,6 @@ mFrames
 idChunkPair
 .
 first
-(
-)
 =
 mVideoFrameContainer
 -
@@ -907,7 +900,10 @@ true
 ;
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 ImageContainer
 :

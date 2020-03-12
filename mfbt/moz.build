@@ -222,6 +222,11 @@ CheckedInt
 h
 '
 '
+CompactPair
+.
+h
+'
+'
 Compiler
 .
 h
@@ -418,11 +423,6 @@ h
 '
 '
 OperatorNewExtensions
-.
-h
-'
-'
-Pair
 .
 h
 '

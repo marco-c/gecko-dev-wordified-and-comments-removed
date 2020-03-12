@@ -32,7 +32,7 @@ include
 "
 mozilla
 /
-Compiler
+CompactPair
 .
 h
 "
@@ -41,7 +41,7 @@ include
 "
 mozilla
 /
-Pair
+Compiler
 .
 h
 "
@@ -277,7 +277,10 @@ Pointer
 ;
 private
 :
-Pair
+mozilla
+:
+:
+CompactPair
 <
 Pointer
 DeleterType
@@ -1162,7 +1165,10 @@ DeleterType
 ;
 private
 :
-Pair
+mozilla
+:
+:
+CompactPair
 <
 Pointer
 DeleterType

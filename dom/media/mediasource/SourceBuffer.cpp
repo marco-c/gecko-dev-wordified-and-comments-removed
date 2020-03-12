@@ -3458,8 +3458,6 @@ if
 aResult
 .
 first
-(
-)
 )
 {
 if
@@ -3562,8 +3560,6 @@ mCurrentAttributes
 aResult
 .
 second
-(
-)
 ;
 CheckEndTime
 (

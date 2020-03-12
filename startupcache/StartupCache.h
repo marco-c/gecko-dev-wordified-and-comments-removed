@@ -6,6 +6,11 @@ define
 StartupCache_h_
 #
 include
+<
+utility
+>
+#
+include
 "
 nsClassHashtable
 .
@@ -107,15 +112,6 @@ include
 mozilla
 /
 MemoryReporting
-.
-h
-"
-#
-include
-"
-mozilla
-/
-Pair
 .
 h
 "
@@ -270,7 +266,10 @@ Comparator
 using
 Value
 =
-Pair
+std
+:
+:
+pair
 <
 const
 nsCString
@@ -297,8 +296,6 @@ return
 a
 .
 second
-(
-)
 -
 >
 mRequestedOrder
@@ -307,8 +304,6 @@ mRequestedOrder
 b
 .
 second
-(
-)
 -
 >
 mRequestedOrder
@@ -332,8 +327,6 @@ return
 a
 .
 second
-(
-)
 -
 >
 mRequestedOrder
@@ -341,8 +334,6 @@ mRequestedOrder
 b
 .
 second
-(
-)
 -
 >
 mRequestedOrder

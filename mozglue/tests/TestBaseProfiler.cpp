@@ -163,6 +163,11 @@ include
 <
 type_traits
 >
+#
+include
+<
+utility
+>
 using
 namespace
 mozilla
@@ -6033,7 +6038,10 @@ uint32_t
 )
 ;
 return
-MakePair
+std
+:
+:
+make_pair
 (
 aEW
 -
@@ -6059,8 +6067,6 @@ bi5
 bi5_6
 .
 first
-(
-)
 ;
 auto
 &
@@ -6069,8 +6075,6 @@ bi6
 bi5_6
 .
 second
-(
-)
 ;
 VERIFY_START_END_PUSHED_CLEARED
 (

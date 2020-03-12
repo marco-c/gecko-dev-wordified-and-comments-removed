@@ -201,6 +201,11 @@ MediaSegment
 h
 "
 #
+include
+<
+utility
+>
+#
 ifdef
 CurrentTime
 #
@@ -2445,8 +2450,6 @@ aSinkId
 mSink
 .
 first
-(
-)
 ;
 }
 RefPtr
@@ -4466,7 +4469,10 @@ AssertReadyStateIsNothing
 (
 )
 ;
-Pair
+std
+:
+:
+pair
 <
 nsString
 RefPtr

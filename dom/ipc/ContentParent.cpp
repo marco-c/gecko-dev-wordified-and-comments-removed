@@ -28990,7 +28990,10 @@ aPrincipal
 {
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsCString
 nsCString
@@ -29032,13 +29035,9 @@ EnsurePermissionsByKey
 pair
 .
 first
-(
-)
 pair
 .
 second
-(
-)
 )
 ;
 }

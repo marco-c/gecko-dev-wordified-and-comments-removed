@@ -186,10 +186,10 @@ nsPluginTag
 >
 nsTArray
 <
-mozilla
+std
 :
 :
-Pair
+pair
 <
 bool
 RefPtr
@@ -364,10 +364,10 @@ mInvalidPlugins
 ;
 nsTArray
 <
-mozilla
+std
 :
 :
-Pair
+pair
 <
 bool
 RefPtr

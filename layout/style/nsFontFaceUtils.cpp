@@ -620,7 +620,10 @@ PopLastElement
 ;
 AutoTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsIFrame
 *
@@ -634,7 +637,10 @@ stack
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 subtreeRoot
 ReflowAlreadyScheduled
@@ -662,8 +668,6 @@ f
 pair
 .
 first
-(
-)
 ;
 ReflowAlreadyScheduled
 alreadyScheduled
@@ -671,8 +675,6 @@ alreadyScheduled
 pair
 .
 second
-(
-)
 ;
 FontUsageKind
 kind
@@ -940,7 +942,10 @@ stack
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 kid
 alreadyScheduled
