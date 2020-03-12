@@ -120,7 +120,7 @@ JS
 :
 GCCellPtr
 >
-gcthings
+output
 )
 const
 ;
