@@ -178,15 +178,6 @@ trc
 )
 ;
 }
-ObjectBox
-*
-newObjectBox
-(
-JSObject
-*
-obj
-)
-;
 }
 ;
 }
