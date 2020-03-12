@@ -410,9 +410,6 @@ aPrincipal
 nsIURI
 *
 aURI
-nsIChannel
-*
-aChannel
 )
 ;
 bool
