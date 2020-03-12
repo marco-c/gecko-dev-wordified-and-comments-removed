@@ -539,7 +539,7 @@ color_management
 .
 mode
 "
-1
+2
 )
 ;
 user_pref
