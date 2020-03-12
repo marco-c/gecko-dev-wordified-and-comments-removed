@@ -47935,7 +47935,7 @@ AddFirstPartyStorageAccessGrantedFor
 (
 principal
 inner
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 eOpener

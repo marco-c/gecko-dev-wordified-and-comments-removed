@@ -94569,7 +94569,7 @@ NodePrincipal
 (
 )
 openerInner
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 eOpenerAfterUserInteraction
@@ -98247,7 +98247,7 @@ NodePrincipal
 (
 )
 inner
-AntiTrackingCommon
+ContentBlockingNotifier
 :
 :
 eStorageAccessAPI
