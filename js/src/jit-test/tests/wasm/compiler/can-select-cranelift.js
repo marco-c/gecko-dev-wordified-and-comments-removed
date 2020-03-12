@@ -1,0 +1,10 @@
+assertEq
+(
+wasmCompileMode
+(
+)
+"
+cranelift
+"
+)
+;
