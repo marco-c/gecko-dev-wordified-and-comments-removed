@@ -14370,7 +14370,7 @@ GetBatching
 frameSelection
 -
 >
-SetDirty
+SetChangesDuringBatchingFlag
 (
 )
 ;
