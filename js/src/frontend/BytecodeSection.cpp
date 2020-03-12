@@ -119,13 +119,13 @@ MOZ_ASSERT
 funbox
 -
 >
-emitLink
+emitLink_
 )
 ;
 funbox
 -
 >
-emitLink
+emitLink_
 =
 lastbox
 ;
@@ -199,7 +199,7 @@ funbox
 funbox
 -
 >
-emitLink
+emitLink_
 ;
 }
 }

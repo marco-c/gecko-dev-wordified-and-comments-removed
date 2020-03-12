@@ -1304,11 +1304,11 @@ object_
 ;
 FunctionBox
 *
-traceLink
+traceLink_
 ;
 FunctionBox
 *
-emitLink
+emitLink_
 ;
 AbstractScope
 enclosingScope_
