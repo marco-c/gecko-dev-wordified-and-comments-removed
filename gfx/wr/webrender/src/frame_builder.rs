@@ -1553,14 +1553,6 @@ scene
 .
 spatial_tree
 global_device_pixel_scale
-(
-1
-.
-0
-1
-.
-0
-)
 )
 ;
 surfaces
