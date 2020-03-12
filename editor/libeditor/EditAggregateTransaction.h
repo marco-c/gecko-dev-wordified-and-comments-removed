@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+OwningNonNull
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -159,7 +168,7 @@ default
 ;
 nsTArray
 <
-RefPtr
+OwningNonNull
 <
 EditTransactionBase
 >
