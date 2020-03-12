@@ -3055,17 +3055,6 @@ AsProxy
 )
 )
 {
-#
-if
-defined
-(
-XP_WIN
-)
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 NS_IF_ADDREF
 (
 *
@@ -3088,8 +3077,6 @@ eDeepestChild
 )
 )
 ;
-#
-endif
 }
 else
 {
