@@ -508,10 +508,6 @@ Option
 <
 DeviceIntSize
 >
-pub
-max_depth_ids
-:
-i32
 }
 #
 [
@@ -2400,11 +2396,6 @@ config
 compositor_kind
 picture_caching_is_enabled
 global_device_pixel_scale
-scene
-.
-config
-.
-max_depth_ids
 )
 ;
 let
@@ -2510,11 +2501,6 @@ ZBufferIdGenerator
 new
 (
 layer
-scene
-.
-config
-.
-max_depth_ids
 )
 ;
 let

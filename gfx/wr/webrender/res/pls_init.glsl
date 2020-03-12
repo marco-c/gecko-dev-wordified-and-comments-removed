@@ -105,7 +105,6 @@ shared
 #
 ifdef
 WR_VERTEX_SHADER
-PER_INSTANCE
 in
 vec4
 aRect

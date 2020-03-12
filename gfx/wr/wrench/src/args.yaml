@@ -205,17 +205,6 @@ Windows
 only
 )
 -
-software
-:
-long
-:
-software
-help
-:
-Enable
-software
-rendering
--
 dp_ratio
 :
 short
