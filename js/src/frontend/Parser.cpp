@@ -16155,6 +16155,7 @@ getCurrentParent
 add
 (
 cx
+funbox
 )
 ;
 if
@@ -16167,14 +16168,6 @@ return
 false
 ;
 }
-child
--
->
-setFunctionBox
-(
-funbox
-)
-;
 holder_
 .
 setCurrentParent
