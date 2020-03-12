@@ -103,7 +103,7 @@ h
 #
 include
 "
-mozDocAccessible
+mozRootAccessible
 .
 h
 "

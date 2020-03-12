@@ -144,12 +144,12 @@ mozActionElements
 mm
 '
 '
-mozDocAccessible
+mozHTMLAccessible
 .
 mm
 '
 '
-mozHTMLAccessible
+mozRootAccessible
 .
 mm
 '

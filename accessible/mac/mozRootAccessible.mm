@@ -105,7 +105,7 @@ h
 #
 import
 "
-mozDocAccessible
+mozRootAccessible
 .
 h
 "
