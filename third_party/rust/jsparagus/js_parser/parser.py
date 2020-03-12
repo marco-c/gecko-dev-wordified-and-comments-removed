@@ -72,28 +72,28 @@ actions
             
 parser_tables
 .
-ctns
-            
-parser_tables
-.
-reductions
-            
-parser_tables
-.
-special_cases
-            
-parser_tables
-.
 error_codes
             
 Script_entry_state
             
 parser_tables
 .
-DefaultBuilder
+DefaultMethods
 (
 )
         
+)
+    
+def
+clone
+(
+self
+)
+:
+        
+return
+JSParser
+(
 )
     
 def
@@ -102,7 +102,7 @@ on_recover
 self
 error_code
 lexer
-t
+stv
 )
 :
         
@@ -137,7 +137,9 @@ self
 .
 closed
 and
-t
+stv
+.
+term
 !
 =
 '

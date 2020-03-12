@@ -1995,12 +1995,9 @@ const
 0
 ;
 virtual
-bool
+void
 initAtomMap
 (
-JSContext
-*
-cx
 GCPtrAtom
 *
 atoms

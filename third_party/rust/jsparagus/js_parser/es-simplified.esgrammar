@@ -5137,6 +5137,12 @@ Await
 ?
 Return
 ]
+[
+lookahead
+!
+=
+else
+]
 =
 >
 if_statement
@@ -5307,6 +5313,12 @@ Yield
 Await
 ~
 Default
+]
+[
+lookahead
+!
+=
+else
 ]
 =
 >

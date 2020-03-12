@@ -29146,14 +29146,10 @@ sharedData
 (
 )
 ;
-if
-(
-!
 stencil
 .
 initAtomMap
 (
-cx
 data
 -
 >
@@ -29161,12 +29157,7 @@ atoms
 (
 )
 )
-)
-{
-return
-false
 ;
-}
 return
 ImmutableScriptData
 :

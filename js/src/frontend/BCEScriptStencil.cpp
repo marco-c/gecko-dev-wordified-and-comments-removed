@@ -552,15 +552,12 @@ gcthings
 )
 ;
 }
-bool
+void
 BCEScriptStencil
 :
 :
 initAtomMap
 (
-JSContext
-*
-cx
 GCPtrAtom
 *
 atoms
@@ -660,9 +657,6 @@ atom
 )
 ;
 }
-return
-true
-;
 }
 void
 BCEScriptStencil

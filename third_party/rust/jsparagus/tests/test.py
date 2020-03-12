@@ -465,8 +465,7 @@ x
             
 (
 '
-expr
-1
+expr_1
 '
                 
 '
@@ -475,8 +474,7 @@ expr
                 
 (
 '
-tail
-1
+tail_1
 '
                     
 '
@@ -485,22 +483,19 @@ lambda
                     
 (
 '
-tail
-1
+tail_1
 '
                         
 (
 '
-expr
-1
+expr_1
 '
 '
 (
 '
 (
 '
-tail
-1
+tail_1
 '
 '
 x
@@ -513,14 +508,12 @@ x
                         
 (
 '
-tail
-1
+tail_1
 '
                             
 (
 '
-expr
-1
+expr_1
 '
                                 
 '
@@ -529,8 +522,7 @@ expr
                                 
 (
 '
-tail
-1
+tail_1
 '
                                     
 '
@@ -539,8 +531,7 @@ tail
                                     
 (
 '
-tail
-1
+tail_1
 '
                                         
 '
@@ -549,8 +540,7 @@ x
                                         
 (
 '
-tail
-1
+tail_1
 '
 '
 x
@@ -752,44 +742,37 @@ the
                 
 (
 '
-list
-1
+list_1
 '
                     
 (
 '
-list
-1
+list_1
 '
                         
 (
 '
-list
-1
+list_1
 '
                             
 (
 '
-list
-1
+list_1
 '
                                 
 (
 '
-list
-1
+list_1
 '
                                     
 (
 '
-list
-1
+list_1
 '
                                         
 (
 '
-list
-1
+list_1
 '
                                             
 '
@@ -1033,14 +1016,12 @@ assertParse
             
 (
 '
-expr
-1
+expr_1
 '
                 
 (
 '
-term
-1
+term_1
 '
 '
 2
@@ -1059,8 +1040,7 @@ term
                 
 (
 '
-term
-1
+term_1
 '
                     
 '
@@ -1073,8 +1053,7 @@ term
                     
 (
 '
-prim
-2
+prim_2
 '
                         
 '
@@ -1083,8 +1062,7 @@ prim
                         
 (
 '
-expr
-1
+expr_1
 '
 '
 5
@@ -1251,9 +1229,6 @@ assertRaisesRegex
 ValueError
 r
 "
-shift
--
-reduce
 conflict
 "
                                
@@ -1346,9 +1321,6 @@ r
 ambiguous
 grammar
 |
-reduce
--
-reduce
 conflict
 "
                 
@@ -1632,8 +1604,7 @@ B
 "
 (
 '
-goal
-1
+goal_1
 '
 '
 A
@@ -1754,8 +1725,7 @@ D
             
 (
 '
-goal
-0
+goal_0
 '
 '
 A
@@ -1786,8 +1756,7 @@ E
             
 (
 '
-goal
-1
+goal_1
 '
 '
 A
@@ -2040,8 +2009,7 @@ z
             
 (
 '
-stmt
-1
+stmt_1
 '
 '
 FOR
@@ -2064,8 +2032,7 @@ y
              
 (
 '
-stmt
-0
+stmt_0
 '
 '
 z
@@ -2097,8 +2064,7 @@ x
             
 (
 '
-stmt
-2
+stmt_2
 '
 '
 FOR
@@ -2127,8 +2093,7 @@ z
              
 (
 '
-stmt
-0
+stmt_0
 '
 '
 x
@@ -2162,8 +2127,7 @@ x
             
 (
 '
-stmt
-3
+stmt_3
 '
 '
 FOR
@@ -2198,8 +2162,7 @@ w
              
 (
 '
-stmt
-0
+stmt_0
 '
 '
 x
@@ -2368,8 +2331,7 @@ B
 "
 (
 '
-s
-0
+s_0
 '
 (
 '
@@ -2395,8 +2357,7 @@ C
 "
 (
 '
-s
-1
+s_1
 '
 (
 '
@@ -2762,8 +2723,7 @@ t
 =
 (
 '
-expr
-0
+expr_0
 '
 '
 x
@@ -2795,8 +2755,7 @@ t
 =
 (
 '
-expr
-2
+expr_2
 '
 '
 (
@@ -2853,8 +2812,7 @@ result
 0
 ]
 '
-expr
-2
+expr_2
 '
 )
             
@@ -3550,8 +3508,7 @@ assertParse
                          
 (
 '
-array
-0
+array_0
 '
 '
 [
@@ -3574,8 +3531,7 @@ assertParse
                          
 (
 '
-array
-0
+array_0
 '
 '
 [
@@ -3602,8 +3558,7 @@ X
             
 (
 '
-array
-2
+array_2
 '
                 
 '
@@ -3612,20 +3567,17 @@ array
                 
 (
 '
-elements
-1
+elements_1
 '
                     
 (
 '
-elements
-0
+elements_0
 '
                         
 (
 '
-elision
-1
+elision_1
 '
                             
 '
@@ -3964,8 +3916,7 @@ goal
 '
 (
 '
-abs
-2
+abs_2
 '
 '
 b
@@ -4504,6 +4455,23 @@ banned
 "
 "
         
+tokenize
+=
+lexer
+.
+LexicalGrammar
+(
+'
+IF
+(
+X
+)
+ELSE
+OTHER
+;
+'
+)
+        
 grammar
 =
 gen
@@ -4511,6 +4479,18 @@ gen
 Grammar
 (
 {
+            
+'
+goal
+'
+:
+[
+[
+'
+stmt
+'
+]
+]
             
 '
 stmt
@@ -4587,33 +4567,247 @@ stmt
 }
 )
         
-self
-.
-assertRaisesRegex
+def
+stmt_0
 (
-            
-ValueError
-            
-r
-"
-invalid
-grammar
+)
 :
-lookahead
-restriction
-at
-end
-of
-production
-"
-            
-lambda
+return
+(
+'
+stmt_0
+'
+'
+OTHER
+'
+'
+;
+'
+)
+        
+def
+stmt_1
+(
+t
+)
 :
-gen
+return
+(
+'
+stmt_1
+'
+'
+IF
+'
+'
+(
+'
+'
+X
+'
+'
+)
+'
+t
+)
+        
+def
+stmt_2
+(
+t
+e
+)
+:
+return
+(
+'
+stmt_2
+'
+'
+IF
+'
+'
+(
+'
+'
+X
+'
+'
+)
+'
+t
+'
+ELSE
+'
+e
+)
+        
+self
 .
 compile
 (
+tokenize
 grammar
+)
+        
+self
+.
+assertParse
+(
+'
+IF
+(
+X
+)
+OTHER
+;
+'
+stmt_1
+(
+stmt_0
+(
+)
+)
+)
+        
+self
+.
+assertParse
+(
+'
+IF
+(
+X
+)
+OTHER
+;
+ELSE
+OTHER
+;
+'
+                         
+stmt_2
+(
+stmt_0
+(
+)
+stmt_0
+(
+)
+)
+)
+        
+self
+.
+assertParse
+(
+'
+IF
+(
+X
+)
+IF
+(
+X
+)
+OTHER
+;
+ELSE
+OTHER
+;
+ELSE
+OTHER
+;
+'
+                         
+stmt_2
+(
+stmt_2
+(
+stmt_0
+(
+)
+stmt_0
+(
+)
+)
+stmt_0
+(
+)
+)
+)
+        
+self
+.
+assertParse
+(
+'
+IF
+(
+X
+)
+OTHER
+;
+ELSE
+IF
+(
+X
+)
+OTHER
+;
+ELSE
+OTHER
+;
+'
+                         
+stmt_2
+(
+stmt_0
+(
+)
+stmt_2
+(
+stmt_0
+(
+)
+stmt_0
+(
+)
+)
+)
+)
+        
+self
+.
+assertParse
+(
+'
+IF
+(
+X
+)
+IF
+(
+X
+)
+OTHER
+;
+ELSE
+OTHER
+;
+'
+                         
+stmt_1
+(
+stmt_2
+(
+stmt_0
+(
+)
+stmt_0
+(
+)
+)
 )
 )
     
@@ -4865,7 +5059,7 @@ IDENT
 '
 got
 '
-PUBLIC
+public
 '
 "
 )
@@ -5334,31 +5528,6 @@ message
 "
 unexpected
 end
-"
-)
-        
-self
-.
-assertNoParse
-(
-"
-function
-x
-(
-)
-{
-}
-+
-+
-;
-"
-message
-=
-"
-got
-'
-;
-'
 "
 )
         
@@ -6830,15 +6999,12 @@ of
 (
 '
 '
-;
-'
-'
 =
 '
 ]
 got
 '
-IDENT
+toOncomingTraffic
 '
 "
 )
@@ -8919,8 +9085,7 @@ goal
 '
 (
 '
-xlist
-0
+xlist_0
 '
 )
 '

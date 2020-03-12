@@ -1,9 +1,12 @@
 #
 !
 /
+usr
+/
 bin
 /
-sh
+env
+bash
 #
 #
 Simplified

@@ -85,7 +85,7 @@ run
 :
 |
 find
-rust
+crates
 -
 iname
 '

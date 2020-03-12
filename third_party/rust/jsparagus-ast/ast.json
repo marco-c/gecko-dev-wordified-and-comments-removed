@@ -85,7 +85,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -105,7 +105,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -125,7 +125,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -145,7 +145,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -1138,7 +1138,7 @@ pattern
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 "
 global
@@ -1186,7 +1186,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -2925,7 +2925,7 @@ module_specifier
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 "
 default_binding
@@ -2965,7 +2965,7 @@ module_specifier
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 "
 default_binding
@@ -3032,7 +3032,7 @@ module_specifier
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -3062,7 +3062,7 @@ module_specifier
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -3418,7 +3418,7 @@ value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -3799,7 +3799,7 @@ Option
 <
 Vec
 <
-String
+SourceAtomSetIndex
 >
 >
 "
@@ -3854,7 +3854,7 @@ raw_value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
@@ -4029,7 +4029,7 @@ raw_value
 "
 :
 "
-String
+SourceAtomSetIndex
 "
 }
 "
