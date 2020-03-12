@@ -6253,13 +6253,15 @@ aContentOffset
 }
 if
 (
-GetBatching
+IsBatching
 (
 )
 )
+{
 return
 NS_OK
 ;
+}
 return
 NotifySelectionListeners
 (
