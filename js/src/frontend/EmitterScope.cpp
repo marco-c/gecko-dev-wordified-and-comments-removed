@@ -12,7 +12,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -686,7 +686,7 @@ return
 nullptr
 ;
 }
-AbstractScope
+AbstractScopePtr
 EmitterScope
 :
 :
@@ -722,7 +722,7 @@ bce
 ;
 }
 return
-AbstractScope
+AbstractScopePtr
 (
 bce
 -
@@ -1970,7 +1970,7 @@ createScope
 {
 Rooted
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 (
@@ -2982,7 +2982,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -3293,7 +3293,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -3766,7 +3766,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -4046,7 +4046,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -4516,7 +4516,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -4641,7 +4641,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -5145,7 +5145,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -5262,7 +5262,7 @@ JSContext
 cx
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 ScopeIndex
@@ -5652,7 +5652,7 @@ return
 true
 ;
 }
-AbstractScope
+AbstractScopePtr
 EmitterScope
 :
 :

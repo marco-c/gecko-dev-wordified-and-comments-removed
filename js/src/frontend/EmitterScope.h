@@ -43,7 +43,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -228,7 +228,7 @@ bce
 )
 const
 ;
-AbstractScope
+AbstractScopePtr
 enclosingScope
 (
 BytecodeEmitter
@@ -521,7 +521,7 @@ return
 noteIndex_
 ;
 }
-AbstractScope
+AbstractScopePtr
 scope
 (
 const

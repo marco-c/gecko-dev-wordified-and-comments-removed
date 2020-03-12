@@ -225,7 +225,7 @@ UNIFIED_SOURCES
 =
 [
 '
-AbstractScope
+AbstractScopePtr
 .
 cpp
 '

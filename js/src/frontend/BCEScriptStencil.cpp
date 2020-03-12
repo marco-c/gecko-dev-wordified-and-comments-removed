@@ -12,7 +12,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -408,7 +408,7 @@ const
 js
 :
 :
-AbstractScope
+AbstractScopePtr
 bodyScope
 =
 bce_
@@ -452,7 +452,7 @@ true
 js
 :
 :
-AbstractScope
+AbstractScopePtr
 outerScope
 =
 bce_

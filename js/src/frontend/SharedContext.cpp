@@ -12,7 +12,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -1048,7 +1048,7 @@ GlobalScope
 ;
 enclosingScope_
 =
-AbstractScope
+AbstractScopePtr
 (
 enclosingScope
 )
@@ -1452,7 +1452,7 @@ enclosingScope
 ;
 enclosingScope_
 =
-AbstractScope
+AbstractScopePtr
 (
 enclosingScope
 )
@@ -1465,7 +1465,7 @@ FunctionBox
 setEnclosingScopeForInnerLazyFunction
 (
 const
-AbstractScope
+AbstractScopePtr
 &
 enclosingScope
 )

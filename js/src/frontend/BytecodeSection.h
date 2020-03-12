@@ -64,7 +64,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -580,7 +580,7 @@ finishInnerFunctions
 (
 )
 ;
-AbstractScope
+AbstractScopePtr
 getScope
 (
 size_t
@@ -617,7 +617,7 @@ GCCellPtr
 )
 {
 return
-AbstractScope
+AbstractScopePtr
 (
 &
 elem
@@ -642,7 +642,7 @@ Scope
 ;
 }
 return
-AbstractScope
+AbstractScopePtr
 (
 compilationInfo
 elem
@@ -656,7 +656,7 @@ ScopeIndex
 )
 ;
 }
-AbstractScope
+AbstractScopePtr
 firstScope
 (
 )

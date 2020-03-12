@@ -149,7 +149,7 @@ class
 ModuleObject
 ;
 class
-AbstractScope
+AbstractScopePtr
 ;
 enum
 class
@@ -1885,7 +1885,7 @@ uint32_t
 firstFrameSlot
 Handle
 <
-AbstractScope
+AbstractScopePtr
 >
 enclosing
 MutableHandle
@@ -1943,7 +1943,7 @@ uint32_t
 nextFrameSlot
 (
 const
-AbstractScope
+AbstractScopePtr
 &
 scope
 )
@@ -2077,7 +2077,7 @@ Scope
 ;
 friend
 class
-AbstractScope
+AbstractScopePtr
 ;
 static
 const
@@ -3032,7 +3032,7 @@ Scope
 ;
 friend
 class
-AbstractScope
+AbstractScopePtr
 ;
 static
 const
@@ -3461,7 +3461,7 @@ Scope
 ;
 friend
 class
-AbstractScope
+AbstractScopePtr
 ;
 friend
 class
@@ -3767,7 +3767,7 @@ GCMarker
 ;
 friend
 class
-AbstractScope
+AbstractScopePtr
 ;
 static
 const
@@ -3984,7 +3984,7 @@ GCMarker
 ;
 friend
 class
-AbstractScope
+AbstractScopePtr
 ;
 static
 const

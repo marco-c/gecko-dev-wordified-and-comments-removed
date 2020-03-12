@@ -305,7 +305,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -5647,7 +5647,7 @@ jumplist
 )
 ;
 }
-AbstractScope
+AbstractScopePtr
 BytecodeEmitter
 :
 :
@@ -10313,7 +10313,7 @@ numHops
 ;
 for
 (
-AbstractScopeIter
+AbstractScopePtrIter
 si
 (
 innermostScope
@@ -10339,7 +10339,7 @@ hasSyntacticEnvironment
 &
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -10356,7 +10356,7 @@ if
 !
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -10373,7 +10373,7 @@ if
 (
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -55695,7 +55695,7 @@ fieldInitializers
 }
 for
 (
-AbstractScopeIter
+AbstractScopePtrIter
 si
 (
 innermostScope
@@ -55714,7 +55714,7 @@ if
 (
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .
@@ -55732,7 +55732,7 @@ fun
 =
 si
 .
-abstractScope
+abstractScopePtr
 (
 )
 .

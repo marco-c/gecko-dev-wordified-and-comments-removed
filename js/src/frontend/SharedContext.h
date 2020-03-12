@@ -43,7 +43,7 @@ include
 "
 frontend
 /
-AbstractScope
+AbstractScopePtr
 .
 h
 "
@@ -1278,7 +1278,7 @@ FunctionBox
 *
 emitLink_
 ;
-AbstractScope
+AbstractScopePtr
 enclosingScope_
 ;
 LexicalScope
@@ -1839,7 +1839,7 @@ void
 setEnclosingScopeForInnerLazyFunction
 (
 const
-AbstractScope
+AbstractScopePtr
 &
 enclosingScope
 )
