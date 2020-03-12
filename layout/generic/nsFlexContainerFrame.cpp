@@ -15637,9 +15637,11 @@ return
 false
 ;
 }
-static
 nscoord
-ResolveFlexContainerMainSize
+nsFlexContainerFrame
+:
+:
+ComputeMainSize
 (
 const
 ReflowInput
@@ -15661,6 +15663,7 @@ nsReflowStatus
 &
 aStatus
 )
+const
 {
 MOZ_ASSERT
 (
@@ -15818,6 +15821,7 @@ nsReflowStatus
 &
 aStatus
 )
+const
 {
 MOZ_ASSERT
 (
@@ -18670,7 +18674,7 @@ aAxisTracker
 }
 aContentBoxMainSize
 =
-ResolveFlexContainerMainSize
+ComputeMainSize
 (
 aReflowInput
 aAxisTracker
