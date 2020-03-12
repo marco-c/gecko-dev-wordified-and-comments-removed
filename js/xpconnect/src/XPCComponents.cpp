@@ -9434,12 +9434,6 @@ NS_OK
 }
 GENERATE_JSCONTEXTOPTION_GETTER_SETTER
 (
-Werror
-werror
-setWerror
-)
-GENERATE_JSCONTEXTOPTION_GETTER_SETTER
-(
 Strict_mode
 strictMode
 setStrictMode
