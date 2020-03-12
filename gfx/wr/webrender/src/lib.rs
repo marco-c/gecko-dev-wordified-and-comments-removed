@@ -718,10 +718,6 @@ extern
 crate
 serde_json
 ;
-extern
-crate
-sha2
-;
 #
 [
 macro_use
