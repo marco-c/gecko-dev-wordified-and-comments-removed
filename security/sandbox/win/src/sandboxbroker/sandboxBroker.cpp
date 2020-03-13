@@ -5070,7 +5070,7 @@ SetTokenLevel
 sandbox
 :
 :
-USER_RESTRICTED_SAME_ACCESS
+USER_LIMITED
 sandbox
 :
 :
