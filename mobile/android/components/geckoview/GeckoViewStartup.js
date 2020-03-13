@@ -535,6 +535,13 @@ GeckoView
 :
 WebExtension
 :
+CancelInstall
+"
+"
+GeckoView
+:
+WebExtension
+:
 Install
 "
 "
