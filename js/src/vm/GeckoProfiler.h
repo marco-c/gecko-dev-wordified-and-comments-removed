@@ -73,12 +73,12 @@ ProfileStringMap
 =
 HashMap
 <
-JSScript
+BaseScript
 *
 UniqueChars
 DefaultHasher
 <
-JSScript
+BaseScript
 *
 >
 SystemAllocPolicy
@@ -183,7 +183,7 @@ allocProfileString
 JSContext
 *
 cx
-JSScript
+BaseScript
 *
 script
 )
@@ -196,7 +196,7 @@ profileString
 JSContext
 *
 cx
-JSScript
+BaseScript
 *
 script
 )
@@ -204,7 +204,7 @@ script
 void
 onScriptFinalized
 (
-JSScript
+BaseScript
 *
 script
 )

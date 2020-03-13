@@ -775,7 +775,7 @@ profileString
 JSContext
 *
 cx
-JSScript
+BaseScript
 *
 script
 )
@@ -880,7 +880,7 @@ GeckoProfilerRuntime
 :
 onScriptFinalized
 (
-JSScript
+BaseScript
 *
 script
 )
@@ -1438,7 +1438,7 @@ allocProfileString
 JSContext
 *
 cx
-JSScript
+BaseScript
 *
 script
 )
@@ -1943,7 +1943,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
@@ -2020,7 +2020,7 @@ popFront
 )
 )
 {
-JSScript
+BaseScript
 *
 script
 =
