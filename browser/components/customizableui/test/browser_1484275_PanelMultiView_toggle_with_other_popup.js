@@ -302,6 +302,12 @@ openMainMenu
 (
 )
 ;
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 let
 bookmarkPanel
 =

@@ -186,6 +186,12 @@ tab
 }
 )
 ;
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 let
 bookmarkPanel
 =
