@@ -31,14 +31,13 @@ value
 xyz
 '
 DEFINES
-=
-{
+[
 '
 FOO
 '
-:
+]
+=
 True
-}
 DEFINES
 [
 '

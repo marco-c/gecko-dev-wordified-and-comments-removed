@@ -24,13 +24,17 @@ defaultdict
 namedtuple
 )
 from
-six
-import
-StringIO
-from
 itertools
 import
 chain
+from
+operator
+import
+itemgetter
+from
+six
+import
+StringIO
 from
 mozpack
 .
@@ -4541,7 +4545,16 @@ for
 tier
 filter
 in
+sorted
+(
 filters
+key
+=
+itemgetter
+(
+0
+)
+)
 :
             
 main
@@ -4562,10 +4575,13 @@ for
 dir
 deps
 in
+sorted
+(
 all_deps
 .
 items
 (
+)
 )
 :
                 
@@ -4613,15 +4629,16 @@ tier
 )
 ]
 )
-                
+                    
 if
 deps
 :
-                    
+                        
 rule
 .
 add_dependencies
 (
+                            
 '
 %
 s
@@ -4637,11 +4654,14 @@ tier
 for
 d
 in
+sorted
+(
 deps
+)
 if
 d
 )
-                
+                    
 if
 dir
 in
@@ -4656,7 +4676,7 @@ tier
 export
 '
 :
-                    
+                        
 rule
 .
 add_dependencies
@@ -4715,7 +4735,10 @@ tier
 for
 d
 in
+sorted
+(
 main
+)
 )
         
 all_compile_deps
@@ -4807,7 +4830,8 @@ category
             
 rust_roots
 =
-[
+sorted
+(
 r
 for
 r
@@ -4819,11 +4843,12 @@ in
 self
 .
 _rust_targets
-]
+)
             
 rust_libs
 =
-[
+sorted
+(
 r
 for
 r
@@ -4835,7 +4860,7 @@ in
 self
 .
 _rust_lib_targets
-]
+)
             
 if
 category
@@ -4964,7 +4989,10 @@ rule
 .
 add_dependencies
 (
+sorted
+(
 deps
+)
 )
         
 non_default_roots
@@ -5148,11 +5176,14 @@ for
 category
 graph
 in
+sorted
+(
 six
 .
 iteritems
 (
 non_default_graphs
+)
 )
 :
             
@@ -5359,11 +5390,14 @@ for
 category
 graphs
 in
+sorted
+(
 six
 .
 iteritems
 (
 non_default_graphs
+)
 )
 :
             
