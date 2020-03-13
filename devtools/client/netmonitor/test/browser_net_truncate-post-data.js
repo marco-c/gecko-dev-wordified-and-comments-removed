@@ -215,9 +215,7 @@ params
 -
 panel
 .
-CodeMirror
--
-code
+responseTextContainer
 "
 )
 ;

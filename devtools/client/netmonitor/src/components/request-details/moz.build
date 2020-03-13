@@ -81,6 +81,11 @@ PropertiesView
 js
 '
 '
+ResponsePanel
+.
+js
+'
+'
 SecurityPanel
 .
 js
