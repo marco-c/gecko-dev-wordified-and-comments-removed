@@ -8,6 +8,14 @@ module
 exports
 =
 {
+appinfo
+:
+{
+OS
+:
+"
+"
+}
 prefs
 :
 {
