@@ -97,6 +97,11 @@ components
 telemetry
 /
 index
+components
+/
+glean
+/
+index
 modules
 /
 toolkit_modules
