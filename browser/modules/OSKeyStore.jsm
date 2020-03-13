@@ -304,6 +304,9 @@ ensureLoggedIn
 reauth
 =
 false
+parentWindow
+=
+null
 generateKeyIfNotAvailable
 =
 true
@@ -480,6 +483,7 @@ osReauthenticator
 asyncReauthenticateUser
 (
 reauth
+parentWindow
 )
 .
 then
