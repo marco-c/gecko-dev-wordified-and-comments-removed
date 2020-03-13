@@ -1901,10 +1901,16 @@ funcData
 .
 emplaceBack
 (
+mozilla
+:
+:
+AsVariant
+(
 fcd
 .
 get
 (
+)
 )
 )
 )
