@@ -54460,19 +54460,8 @@ overflowIncompleteList
 ;
 auto
 *
-pc
-=
-PresContext
-(
-)
-;
-auto
-*
 fc
 =
-pc
--
->
 PresShell
 (
 )
@@ -54660,7 +54649,6 @@ fc
 >
 CreateContinuingFrame
 (
-pc
 child
 this
 )
@@ -54976,7 +54964,6 @@ fc
 >
 CreateContinuingFrame
 (
-pc
 child
 this
 )

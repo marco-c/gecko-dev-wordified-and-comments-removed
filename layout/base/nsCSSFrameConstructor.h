@@ -2210,9 +2210,6 @@ nsIFrame
 *
 CreateContinuingFrame
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -11371,12 +11368,6 @@ nsIFrame
 *
 CreateContinuingOuterTableFrame
 (
-PresShell
-*
-aPresShell
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aFrame
@@ -11395,9 +11386,6 @@ nsIFrame
 *
 CreateContinuingTableFrame
 (
-PresShell
-*
-aPresShell
 nsIFrame
 *
 aFrame

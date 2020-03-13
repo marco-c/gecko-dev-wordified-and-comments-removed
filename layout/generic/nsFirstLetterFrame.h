@@ -354,9 +354,6 @@ mBaseline
 void
 CreateContinuationForFloatingParent
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 aChild

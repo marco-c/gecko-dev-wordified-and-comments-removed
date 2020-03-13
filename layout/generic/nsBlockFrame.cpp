@@ -35395,11 +35395,6 @@ GetNextInFlow
 {
 newFrame
 =
-aState
-.
-mPresContext
--
->
 PresShell
 (
 )
@@ -35412,9 +35407,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aState
-.
-mPresContext
 aFrame
 this
 )
@@ -35603,11 +35595,6 @@ else
 {
 nextInFlow
 =
-aState
-.
-mPresContext
--
->
 PresShell
 (
 )
@@ -35620,9 +35607,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aState
-.
-mPresContext
 aFloat
 this
 )

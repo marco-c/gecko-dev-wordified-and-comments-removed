@@ -6156,9 +6156,6 @@ flag
 ;
 nif
 =
-aPresContext
--
->
 PresShell
 (
 )
@@ -6171,7 +6168,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-aPresContext
 frame
 this
 )
@@ -6961,14 +6957,6 @@ frame
 "
 )
 ;
-nsPresContext
-*
-pc
-=
-PresContext
-(
-)
-;
 nsIFrame
 *
 nextInFlow
@@ -6990,9 +6978,6 @@ nextInFlow
 {
 nextInFlow
 =
-pc
--
->
 PresShell
 (
 )
@@ -7005,7 +6990,6 @@ FrameConstructor
 >
 CreateContinuingFrame
 (
-pc
 aFrame
 this
 )
