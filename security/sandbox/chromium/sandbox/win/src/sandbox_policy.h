@@ -412,6 +412,14 @@ SetLockdownDefaultDacl
 ;
 virtual
 void
+AddRestrictingRandomSid
+(
+)
+=
+0
+;
+virtual
+void
 SetEnableOPMRedirection
 (
 )
