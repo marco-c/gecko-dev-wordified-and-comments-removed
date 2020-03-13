@@ -132,6 +132,14 @@ apt_packages
 =
 (
 '
+compiz
+'
+)
+apt_packages
++
+=
+(
+'
 curl
 '
 )
