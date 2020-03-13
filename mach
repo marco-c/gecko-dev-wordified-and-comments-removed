@@ -148,10 +148,6 @@ awsy
 -
 test
 browsertime
-build
-build
--
-backend
 buildsymbols
 cargo
 check
@@ -161,7 +157,6 @@ clang
 -
 format
 compileflags
-configure
 cppunittest
 cramtest
 crashtest
