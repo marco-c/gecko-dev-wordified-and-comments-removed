@@ -1,6 +1,3 @@
-mod
-ast
-;
 use
 assert_json_diff
 :
@@ -54,6 +51,12 @@ parser
 :
 :
 parse
+;
+use
+fluent_syntax
+:
+:
+json
 ;
 fn
 compare_jsons
@@ -360,7 +363,7 @@ res
 let
 target_json
 =
-ast
+json
 :
 :
 serialize

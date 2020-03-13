@@ -1,5 +1,5 @@
 use
-fluent_syntax
+crate
 :
 :
 ast
@@ -129,7 +129,7 @@ unwrap
 }
 pub
 fn
-_serialize_to_pretty_json
+serialize_to_pretty_json
 <
 '
 s
