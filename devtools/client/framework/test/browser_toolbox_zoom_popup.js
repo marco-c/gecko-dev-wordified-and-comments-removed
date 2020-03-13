@@ -623,8 +623,14 @@ buttonCenter
 ;
 ok
 (
+Math
+.
+round
+(
 delta
+)
 <
+=
 1
 "
 Center
