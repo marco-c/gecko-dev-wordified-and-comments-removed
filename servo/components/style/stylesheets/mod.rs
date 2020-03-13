@@ -446,6 +446,7 @@ stylesheet
 {
 SanitizationData
 SanitizationKind
+AllowImportRules
 }
 ;
 pub
@@ -2020,6 +2021,9 @@ Option
 dyn
 StylesheetLoader
 >
+allow_import_rules
+:
+AllowImportRules
 )
 -
 >
@@ -2131,6 +2135,7 @@ Some
 (
 insert_rule_context
 )
+allow_import_rules
 }
 ;
 parse_one_rule

@@ -4418,6 +4418,10 @@ GetCompatibilityMode
 )
 nullptr
 nullptr
+StyleAllowImportRules
+:
+:
+Yes
 sanitizationKind
 &
 aSanitized

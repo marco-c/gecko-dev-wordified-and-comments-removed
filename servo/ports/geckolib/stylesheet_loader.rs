@@ -171,6 +171,15 @@ style
 stylesheets
 :
 :
+AllowImportRules
+;
+use
+style
+:
+:
+stylesheets
+:
+:
 import_rule
 :
 :
@@ -446,6 +455,9 @@ u32
 should_record_use_counters
 :
 bool
+allow_import_rules
+:
+AllowImportRules
 }
 impl
 AsyncStylesheetParser
@@ -478,6 +490,9 @@ u32
 should_record_use_counters
 :
 bool
+allow_import_rules
+:
+AllowImportRules
 )
 -
 >
@@ -492,6 +507,7 @@ origin
 quirks_mode
 line_number_offset
 should_record_use_counters
+allow_import_rules
 }
 }
 pub
@@ -617,6 +633,9 @@ c
 *
 c
 )
+self
+.
+allow_import_rules
 None
 )
 )

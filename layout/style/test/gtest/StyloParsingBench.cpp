@@ -287,6 +287,10 @@ data
 eCompatibility_FullStandards
 nullptr
 aCounters
+StyleAllowImportRules
+:
+:
+Yes
 StyleSanitizationKind
 :
 :
