@@ -1053,6 +1053,16 @@ grep
 v
 toolkit
 /
+components
+/
+updateagent
+\
+|
+grep
+-
+v
+toolkit
+/
 crashreporter
 /
 rust
