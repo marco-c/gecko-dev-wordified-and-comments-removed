@@ -403,7 +403,7 @@ common
 ref
 .
 html
-fails
+random
 -
 if
 (
@@ -426,6 +426,14 @@ ref
 html
 #
 Snapping
+in
+different
+ways
+in
+debug
+and
+opt
+builds
 bug
 1621141
 =
