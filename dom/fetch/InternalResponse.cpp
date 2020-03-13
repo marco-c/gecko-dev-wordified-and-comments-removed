@@ -1789,13 +1789,6 @@ Opaque
 response
 -
 >
-mTerminationReason
-=
-mTerminationReason
-;
-response
--
->
 mChannelInfo
 =
 mChannelInfo
@@ -1952,13 +1945,6 @@ copy
 mType
 =
 mType
-;
-copy
--
->
-mTerminationReason
-=
-mTerminationReason
 ;
 copy
 -

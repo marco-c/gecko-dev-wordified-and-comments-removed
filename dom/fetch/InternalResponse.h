@@ -1459,9 +1459,6 @@ CreateIncompleteCopy
 ResponseType
 mType
 ;
-nsCString
-mTerminationReason
-;
 nsTArray
 <
 nsCString
