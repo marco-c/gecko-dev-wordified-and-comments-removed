@@ -2911,6 +2911,8 @@ disabled
 async
 EnableDisableCommands
 (
+MaybeDiscardedBrowsingContext
+bc
 nsString
 action
 nsCString

@@ -248,6 +248,11 @@ ControllersChild
 jsm
 '
 '
+ControllersParent
+.
+jsm
+'
+'
 DateTimePickerChild
 .
 jsm

@@ -321,6 +321,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIBrowserController
+.
+idl
+'
+'
 nsIController
 .
 idl

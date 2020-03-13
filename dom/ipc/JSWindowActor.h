@@ -76,7 +76,10 @@ class
 nsIGlobalObject
 ;
 class
-nsQueryActor
+nsQueryActorChild
+;
+class
+nsQueryActorParent
 ;
 namespace
 mozilla
@@ -325,7 +328,13 @@ friend
 class
 :
 :
-nsQueryActor
+nsQueryActorChild
+;
+friend
+class
+:
+:
+nsQueryActorParent
 ;
 nsresult
 QueryInterfaceActor
