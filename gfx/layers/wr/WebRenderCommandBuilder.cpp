@@ -13171,6 +13171,13 @@ visibleSize
 IsEmpty
 (
 )
+|
+|
+dtRect
+.
+IsEmpty
+(
+)
 )
 {
 return
