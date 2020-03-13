@@ -105,11 +105,6 @@ HeadersPanel
 js
 '
 '
-HtmlPreview
-.
-js
-'
-'
 JSONPreview
 .
 js
@@ -126,11 +121,6 @@ js
 '
 '
 PropertiesView
-.
-js
-'
-'
-ResponsePanel
 .
 js
 '

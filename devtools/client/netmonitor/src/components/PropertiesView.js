@@ -341,6 +341,8 @@ src
 /
 components
 /
+previews
+/
 HtmlPreview
 "
 )
