@@ -493,6 +493,17 @@ else
 false
 #
 endif
+MOZ_UPDATE_AGENT
+:
+#
+ifdef
+MOZ_UPDATE_AGENT
+true
+#
+else
+false
+#
+endif
 MOZ_BITS_DOWNLOAD
 :
 #

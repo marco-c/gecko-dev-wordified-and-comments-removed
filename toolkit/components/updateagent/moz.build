@@ -1,0 +1,15 @@
+RUST_PROGRAMS
++
+=
+[
+'
+updateagent
+'
+]
+RCINCLUDE
+=
+'
+updateagent
+.
+rc
+'
