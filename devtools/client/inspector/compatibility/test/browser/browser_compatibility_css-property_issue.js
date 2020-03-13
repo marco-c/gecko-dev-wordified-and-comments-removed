@@ -264,7 +264,7 @@ TEST_URI
 ;
 const
 {
-panel
+selectedElementPane
 }
 =
 await
@@ -282,13 +282,17 @@ of
 the
 issue
 list
+on
+the
+selected
+element
 "
 )
 ;
 await
 assertIssueList
 (
-panel
+selectedElementPane
 TEST_DATA
 )
 ;
