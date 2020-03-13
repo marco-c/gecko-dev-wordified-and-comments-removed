@@ -141,7 +141,7 @@ TEST_URI
 const
 {
 inspector
-selectedElementPane
+panel
 }
 =
 await
@@ -162,7 +162,6 @@ test
 "
 )
 ;
-await
 inspector
 .
 store
@@ -236,7 +235,7 @@ version
 await
 assertIssueList
 (
-selectedElementPane
+panel
 expectedIssues
 )
 ;
