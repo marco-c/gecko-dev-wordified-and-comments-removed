@@ -93,12 +93,6 @@ eraseEverything
 }
 )
 ;
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 let
 bookmarkPanel
 =

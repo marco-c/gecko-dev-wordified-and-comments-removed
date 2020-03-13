@@ -180,12 +180,6 @@ BookmarkingUI
 STATUS_UNSTARRED
 )
 ;
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 let
 bookmarkPanel
 =

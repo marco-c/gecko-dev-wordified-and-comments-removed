@@ -7,12 +7,6 @@ about
 robots
 "
 ;
-StarUI
-.
-_createPanelIfNeeded
-(
-)
-;
 const
 bookmarkPanel
 =
