@@ -1377,7 +1377,7 @@ frontendCollectionPool
 (
 )
 )
-innerFunctionBoxesForLazy
+innerFunctionIndexesForLazy
 (
 cx
 )

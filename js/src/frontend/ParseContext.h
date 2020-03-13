@@ -1110,8 +1110,11 @@ closedOverBindingsForLazy_
 ;
 public
 :
-FunctionBoxVector
-innerFunctionBoxesForLazy
+Vector
+<
+FunctionIndex
+>
+innerFunctionIndexesForLazy
 ;
 Directives
 *
