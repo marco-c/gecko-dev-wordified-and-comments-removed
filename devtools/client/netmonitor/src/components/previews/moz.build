@@ -56,16 +56,6 @@ MPL
 DevToolsModules
 (
 '
-HtmlPreview
-.
-js
-'
-'
-ImagePreview
-.
-js
-'
-'
 SourcePreview
 .
 js
