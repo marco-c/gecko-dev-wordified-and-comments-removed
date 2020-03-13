@@ -1523,7 +1523,9 @@ value
 ;
 window
 .
-SetPageProxyState
+gURLBar
+.
+setPageProxyState
 (
 "
 invalid

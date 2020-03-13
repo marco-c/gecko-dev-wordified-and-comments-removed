@@ -1055,7 +1055,9 @@ com
 "
 )
 ;
-SetPageProxyState
+gURLBar
+.
+setPageProxyState
 (
 "
 invalid
