@@ -1227,7 +1227,7 @@ large
 files
 .
 .
-notes
+note
 :
 :
 The
@@ -1315,7 +1315,7 @@ archive
 .
 .
 .
-notes
+note
 :
 :
 A
