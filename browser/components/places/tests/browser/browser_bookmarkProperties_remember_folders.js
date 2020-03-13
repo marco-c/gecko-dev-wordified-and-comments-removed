@@ -3,6 +3,12 @@ use
 strict
 "
 ;
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 const
 bookmarkPanel
 =

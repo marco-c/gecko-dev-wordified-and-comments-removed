@@ -116,6 +116,12 @@ gBrowser
 .
 selectedBrowser
 ;
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 BrowserTestUtils
 .
 loadURI

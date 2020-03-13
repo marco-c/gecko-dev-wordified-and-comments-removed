@@ -95,6 +95,14 @@ win
 }
 )
 ;
+win
+.
+StarUI
+.
+_createPanelIfNeeded
+(
+)
+;
 let
 bookmarkPanel
 =
