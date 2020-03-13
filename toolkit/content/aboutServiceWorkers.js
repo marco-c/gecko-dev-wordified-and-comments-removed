@@ -489,8 +489,11 @@ bold
 ;
 if
 (
-!
 value
+=
+=
+=
+undefined
 )
 {
 document
