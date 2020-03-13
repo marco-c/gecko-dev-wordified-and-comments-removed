@@ -9036,6 +9036,11 @@ TreatAsRunOnce
 )
 IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
 (
+forceStrict
+ForceStrict
+)
+IMMUTABLE_FLAG_GETTER_SETTER_PUBLIC
+(
 strict
 Strict
 )
