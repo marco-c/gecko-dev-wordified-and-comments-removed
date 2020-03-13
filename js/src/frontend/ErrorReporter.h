@@ -885,7 +885,6 @@ move
 (
 notes
 )
-JSREPORT_WARNING
 errorNumber
 args
 )
@@ -1310,8 +1309,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -1338,7 +1335,6 @@ move
 (
 notes
 )
-flags
 errorNumber
 args
 )

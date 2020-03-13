@@ -233,8 +233,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -294,7 +292,7 @@ err
 >
 flags
 =
-flags
+JSREPORT_WARNING
 ;
 err
 -

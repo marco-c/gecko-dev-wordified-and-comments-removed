@@ -235,8 +235,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
