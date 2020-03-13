@@ -54415,7 +54415,7 @@ newFrame
 =
 NS_NewTableWrapperFrame
 (
-aPresShell
+mPresShell
 aComputedStyle
 )
 ;
@@ -54568,7 +54568,7 @@ newFrame
 =
 NS_NewTableFrame
 (
-aPresShell
+mPresShell
 aComputedStyle
 )
 ;
@@ -54750,7 +54750,7 @@ nsTableRowGroupFrame
 (
 NS_NewTableRowGroupFrame
 (
-aPresShell
+mPresShell
 headerFooterComputedStyle
 )
 )
@@ -54921,17 +54921,6 @@ bool
 aIsFluid
 )
 {
-PresShell
-*
-presShell
-=
-aPresContext
--
->
-PresShell
-(
-)
-;
 ComputedStyle
 *
 computedStyle
@@ -55021,7 +55010,7 @@ newFrame
 =
 NS_NewContinuingTextFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55052,7 +55041,7 @@ newFrame
 =
 NS_NewInlineFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55103,7 +55092,7 @@ newFrame
 =
 NS_NewBlockFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55137,7 +55126,7 @@ newFrame
 =
 NS_NewXULLabelFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55170,7 +55159,7 @@ newFrame
 =
 NS_NewColumnSetWrapperFrame
 (
-presShell
+mPresShell
 computedStyle
 nsFrameState
 (
@@ -55225,7 +55214,7 @@ newFrame
 =
 NS_NewColumnSetFrame
 (
-presShell
+mPresShell
 computedStyle
 nsFrameState
 (
@@ -55264,7 +55253,7 @@ newFrame
 =
 ConstructPageFrame
 (
-presShell
+mPresShell
 aParentFrame
 aFrame
 canvasFrame
@@ -55287,7 +55276,7 @@ newFrame
 =
 CreateContinuingOuterTableFrame
 (
-presShell
+mPresShell
 aPresContext
 aFrame
 aParentFrame
@@ -55312,7 +55301,7 @@ newFrame
 =
 CreateContinuingTableFrame
 (
-presShell
+mPresShell
 aFrame
 aParentFrame
 content
@@ -55336,7 +55325,7 @@ newFrame
 =
 NS_NewTableRowGroupFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55390,7 +55379,7 @@ rowFrame
 =
 NS_NewTableRowFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55599,7 +55588,7 @@ cellFrame
 =
 NS_NewTableCellFrame
 (
-presShell
+mPresShell
 computedStyle
 tableFrame
 )
@@ -55702,7 +55691,7 @@ newFrame
 =
 NS_NewFirstLineFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55733,7 +55722,7 @@ newFrame
 =
 NS_NewFirstLetterFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55780,7 +55769,7 @@ imageFrame
 >
 CreateContinuingFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55811,7 +55800,7 @@ newFrame
 =
 NS_NewImageControlFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55842,7 +55831,7 @@ newFrame
 =
 NS_NewFieldSetFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55873,7 +55862,7 @@ newFrame
 =
 NS_NewLegendFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55904,7 +55893,7 @@ newFrame
 =
 NS_NewFlexContainerFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55935,7 +55924,7 @@ newFrame
 =
 NS_NewGridContainerFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55966,7 +55955,7 @@ newFrame
 =
 NS_NewRubyFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -55997,7 +55986,7 @@ newFrame
 =
 NS_NewRubyBaseContainerFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -56028,7 +56017,7 @@ newFrame
 =
 NS_NewRubyTextContainerFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
@@ -56059,7 +56048,7 @@ newFrame
 =
 NS_NewDetailsFrame
 (
-presShell
+mPresShell
 computedStyle
 )
 ;
