@@ -1873,6 +1873,11 @@ formatPermissionStrings
 (
 info2
 bundle
+{
+collapseOrigins
+:
+true
+}
 )
 ;
 strings

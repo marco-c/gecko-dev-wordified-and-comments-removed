@@ -6337,6 +6337,14 @@ formatPermissionStrings
 (
 info
 bundle
+{
+collapseOrigins
+=
+false
+}
+=
+{
+}
 )
 {
 let
@@ -6626,6 +6634,10 @@ list
 length
 <
 5
+|
+|
+!
+collapseOrigins
 )
 {
 formatItems
