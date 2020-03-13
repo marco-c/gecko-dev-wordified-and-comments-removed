@@ -11291,6 +11291,7 @@ class
 RuntimeTelemetry
 {
 method
+Deprecated
 AnyThread
 NonNull
 public

@@ -115,6 +115,7 @@ getInstance
 )
 ;
 }
+Deprecated
 AnyThread
 public
 NonNull
