@@ -934,7 +934,9 @@ Intl
 .
 Collator
 (
-undefined
+"
+en
+"
 {
 sensitivity
 :
