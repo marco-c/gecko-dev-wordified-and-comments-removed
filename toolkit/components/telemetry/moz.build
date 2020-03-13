@@ -777,6 +777,17 @@ PYTHON_UNITTEST_MANIFESTS
 '
 tests
 /
+integration
+/
+tests
+/
+python
+.
+ini
+'
+'
+tests
+/
 python
 /
 python
