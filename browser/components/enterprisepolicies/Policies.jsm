@@ -7384,7 +7384,7 @@ userprefs
 .
 cfr
 .
-features
+addons
 "
 param
 .
@@ -7419,7 +7419,7 @@ userprefs
 .
 cfr
 .
-addons
+features
 "
 param
 .
