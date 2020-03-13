@@ -208,6 +208,15 @@ dom
 li
 (
 {
+className
+:
+"
+compatibility
+-
+node
+-
+item
+"
 }
 Rep
 (
