@@ -1641,19 +1641,23 @@ MOZ_DISABLE_STACK_FIX
 )
 :
         
-return
-None
-    
-if
-mozinfo
-.
-isMac
-and
-not
-mozinfo
-.
-automation
+print
+(
+"
+WARNING
 :
+No
+stack
+-
+fixing
+will
+occur
+because
+MOZ_DISABLE_STACK_FIX
+is
+set
+"
+)
         
 return
 None
@@ -1777,6 +1781,9 @@ stack_fixer_module
 fixSymbols
 (
 line
+slowWarning
+=
+True
 )
     
 else
