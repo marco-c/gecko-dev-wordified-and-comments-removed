@@ -23,6 +23,11 @@ codeFolding
 Object
 {
 "
+cursorBlinkRate
+"
+:
+530
+"
 enableCodeFolding
 "
 :
@@ -160,6 +165,11 @@ SourceEditor
 =
 Object
 {
+"
+cursorBlinkRate
+"
+:
+530
 "
 enableCodeFolding
 "

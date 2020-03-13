@@ -172,6 +172,11 @@ textarea
 Object
 {
 "
+cursorBlinkRate
+"
+:
+530
+"
 mode
 "
 :
@@ -894,6 +899,11 @@ textarea
 >
 Object
 {
+"
+cursorBlinkRate
+"
+:
+530
 "
 mode
 "
@@ -1625,6 +1635,11 @@ textarea
 >
 Object
 {
+"
+cursorBlinkRate
+"
+:
+530
 "
 mode
 "
