@@ -44,8 +44,9 @@ args
 }
 )
 ;
-add_task
+addRDMTask
 (
+null
 async
 function
 (
@@ -174,6 +175,14 @@ closeWindow
 newWindow
 )
 ;
+}
+{
+usingBrowserUI
+:
+true
+onlyPrefAndTask
+:
+true
 }
 )
 ;
