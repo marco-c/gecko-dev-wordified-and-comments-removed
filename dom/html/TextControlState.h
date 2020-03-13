@@ -1098,8 +1098,6 @@ UnlinkInternal
 void
 ValueWasChanged
 (
-bool
-aNotify
 )
 ;
 MOZ_CAN_RUN_SCRIPT

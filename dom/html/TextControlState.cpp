@@ -4419,7 +4419,6 @@ mTxtCtrlElement
 >
 OnValueChanged
 (
-true
 ValueChangeKind
 :
 :
@@ -5174,7 +5173,6 @@ mTextControlState
 .
 ValueWasChanged
 (
-true
 )
 ;
 }
@@ -11150,9 +11148,6 @@ GetTextControlElement
 >
 OnValueChanged
 (
-!
-!
-mBoundFrame
 changeKind
 )
 ;
@@ -12375,7 +12370,6 @@ GetTextControlElement
 >
 OnValueChanged
 (
-true
 ValueChangeKind
 :
 :
@@ -12471,9 +12465,6 @@ SetIsDirty
 }
 ValueWasChanged
 (
-!
-!
-mBoundFrame
 )
 ;
 return
@@ -12641,13 +12632,11 @@ TextControlState
 :
 ValueWasChanged
 (
-bool
-aNotify
 )
 {
 UpdateOverlayTextVisibility
 (
-aNotify
+true
 )
 ;
 }

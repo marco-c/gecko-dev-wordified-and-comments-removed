@@ -12876,7 +12876,6 @@ mDoneCreating
 {
 OnValueChanged
 (
-true
 ValueChangeKind
 :
 :
@@ -12927,7 +12926,6 @@ PlaceholderApplies
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30012,8 +30010,6 @@ HTMLInputElement
 :
 OnValueChanged
 (
-bool
-aNotify
 ValueChangeKind
 aKind
 )
@@ -30042,7 +30038,7 @@ UserInteraction
 }
 UpdateAllValidityStates
 (
-aNotify
+true
 )
 ;
 if
@@ -30054,7 +30050,7 @@ HasDirAuto
 {
 SetDirectionFromValue
 (
-aNotify
+true
 )
 ;
 }
@@ -30067,7 +30063,6 @@ PlaceholderApplies
 &
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -30077,7 +30072,7 @@ placeholder
 {
 UpdateState
 (
-aNotify
+true
 )
 ;
 }

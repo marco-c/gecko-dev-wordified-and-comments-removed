@@ -487,8 +487,6 @@ virtual
 void
 OnValueChanged
 (
-bool
-aNotify
 ValueChangeKind
 )
 override
