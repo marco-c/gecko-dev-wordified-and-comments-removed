@@ -3039,6 +3039,10 @@ before
 '
 '
 :
+abc
+'
+'
+:
 :
 abc
 '
@@ -3064,9 +3068,11 @@ createDiv
 t
 )
 ;
-assert_throws_js
+assert_throws_dom
 (
-TypeError
+"
+SyntaxError
+"
 (
 )
 =
@@ -3092,7 +3098,10 @@ animate
 (
 )
 with
-the
+a
+non
+-
+null
 invalid
 pseudoElement
 '
@@ -3102,7 +3111,8 @@ pseudo
 '
 throws
 a
-TypeError
++
+SyntaxError
 )
 ;
 }
