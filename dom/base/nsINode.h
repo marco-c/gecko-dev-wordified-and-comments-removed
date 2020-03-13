@@ -1111,6 +1111,13 @@ Node_Binding
 :
 NOTATION_NODE
 ;
+static
+const
+auto
+MAX_NODE_TYPE
+=
+NOTATION_NODE
+;
 template
 <
 class
