@@ -12,7 +12,9 @@ integration
 tests
 platform
 :
-linux64
+linux1804
+-
+64
 /
 opt
 treeherder
