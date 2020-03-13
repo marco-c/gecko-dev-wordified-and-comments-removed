@@ -316,10 +316,6 @@ rust
 -
 cross
 -
-1
-.
-41
--
 linux64
 -
 rust
@@ -615,10 +611,6 @@ rust
 -
 cross
 -
-1
-.
-41
--
 linux64
 -
 rust
@@ -907,10 +899,6 @@ linux64
 rust
 -
 cross
--
-1
-.
-41
 -
 linux64
 -
@@ -1639,10 +1627,6 @@ linux64
 rust
 -
 cross
--
-1
-.
-41
 -
 linux64
 -
@@ -5926,10 +5910,6 @@ rust
 -
 cross
 -
-1
-.
-41
--
 linux64
 -
 rust
@@ -6261,10 +6241,6 @@ linux64
 rust
 -
 cross
--
-1
-.
-41
 -
 linux64
 -

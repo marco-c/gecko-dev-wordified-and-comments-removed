@@ -416,6 +416,15 @@ windows
 msvc
 '
 ]
+toolchain
+-
+alias
+:
+linux64
+-
+rust
+-
+cross
 linux64
 -
 rust
