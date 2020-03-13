@@ -6247,7 +6247,7 @@ aReflowInput
 const
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 )
 :
 mKey
@@ -6256,7 +6256,7 @@ aReflowInput
 )
 mBSize
 (
-aDesiredSize
+aReflowOutput
 .
 BSize
 (
@@ -6269,7 +6269,7 @@ GetWritingMode
 )
 mAscent
 (
-aDesiredSize
+aReflowOutput
 .
 BlockStartAscent
 (
@@ -6436,7 +6436,7 @@ value
 ;
 }
 ReflowOutput
-childDesiredSize
+childReflowOutput
 (
 aChildReflowInput
 )
@@ -6482,7 +6482,7 @@ Frame
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 aChildReflowInput
 outerWM
 dummyPosition
@@ -6532,7 +6532,7 @@ Frame
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 &
 aChildReflowInput
 outerWM
@@ -6548,7 +6548,7 @@ new
 CachedMeasuringReflowResult
 (
 aChildReflowInput
-childDesiredSize
+childReflowOutput
 )
 ;
 aItem
@@ -16533,7 +16533,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -16559,7 +16559,7 @@ DISPLAY_REFLOW
 aPresContext
 this
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 ;
@@ -16611,7 +16611,7 @@ if
 IsFrameTreeTooDeep
 (
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 )
@@ -17050,7 +17050,7 @@ hasLineClampEllipsis
 ;
 ComputeFinalSize
 (
-aDesiredSize
+aReflowOutput
 aReflowInput
 aStatus
 contentBoxMainSize
@@ -20117,7 +20117,7 @@ ComputeFinalSize
 (
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -20198,7 +20198,7 @@ skipSides
 )
 ;
 LogicalSize
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 =
 aAxisTracker
 .
@@ -20208,7 +20208,7 @@ aContentBoxMainSize
 aContentBoxCrossSize
 )
 ;
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 ISize
 (
@@ -20223,7 +20223,7 @@ IStartEnd
 flexWM
 )
 ;
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20290,7 +20290,7 @@ involved
 ;
 aFlexContainerAscent
 =
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20306,7 +20306,7 @@ NS_STATE_FLEX_SYNTHESIZE_BASELINE
 )
 )
 {
-aDesiredSize
+aReflowOutput
 .
 SetBlockStartAscent
 (
@@ -20319,7 +20319,7 @@ ASK_FOR_BASELINE
 }
 else
 {
-aDesiredSize
+aReflowOutput
 .
 SetBlockStartAscent
 (
@@ -20339,7 +20339,7 @@ IsComplete
 nscoord
 desiredBSizeWithBEndBP
 =
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20360,7 +20360,7 @@ AvailableBSize
 NS_UNCONSTRAINEDSIZE
 |
 |
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20391,7 +20391,7 @@ ComputedBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20438,7 +20438,7 @@ nscoord_MIN
 {
 mLastBaselineFromLastReflow
 =
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 .
 BSize
 (
@@ -20448,15 +20448,15 @@ flexWM
 aFlexContainerAscent
 ;
 }
-aDesiredSize
+aReflowOutput
 .
 SetSize
 (
 flexWM
-desiredSizeInFlexWM
+reflowOutputInFlexWM
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 SetOverflowAreasToDesiredBounds
 (
@@ -20473,7 +20473,7 @@ mFrames
 {
 ConsiderChildOverflow
 (
-aDesiredSize
+aReflowOutput
 .
 mOverflowAreas
 childFrame
@@ -20485,7 +20485,7 @@ FinishReflowWithAbsoluteFrames
 PresContext
 (
 )
-aDesiredSize
+aReflowOutput
 aReflowInput
 aStatus
 )
@@ -20494,7 +20494,7 @@ NS_FRAME_SET_TRUNCATION
 (
 aStatus
 aReflowInput
-aDesiredSize
+aReflowOutput
 )
 }
 void
@@ -20977,7 +20977,7 @@ true
 }
 }
 ReflowOutput
-childDesiredSize
+childReflowOutput
 (
 childReflowInput
 )
@@ -20995,7 +20995,7 @@ Frame
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 childReflowInput
 outerWM
 aFramePos
@@ -21042,7 +21042,7 @@ Frame
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 &
 childReflowInput
 outerWM
@@ -21058,7 +21058,7 @@ aItem
 .
 SetAscent
 (
-childDesiredSize
+childReflowOutput
 .
 BlockStartAscent
 (
@@ -21162,7 +21162,7 @@ availSize
 )
 ;
 ReflowOutput
-childDesiredSize
+childReflowOutput
 (
 childReflowInput
 )
@@ -21176,7 +21176,7 @@ placeholder
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 childReflowInput
 outerWM
 aContentBoxOrigin
@@ -21194,7 +21194,7 @@ placeholder
 PresContext
 (
 )
-childDesiredSize
+childReflowOutput
 &
 childReflowInput
 outerWM
