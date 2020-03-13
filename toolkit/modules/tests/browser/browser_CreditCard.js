@@ -41,7 +41,8 @@ resource
 :
 /
 /
-formautofill
+/
+modules
 /
 OSKeyStore
 .
