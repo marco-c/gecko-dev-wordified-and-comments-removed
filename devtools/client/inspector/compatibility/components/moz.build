@@ -103,6 +103,11 @@ IssueList
 js
 "
 "
+IssuePane
+.
+js
+"
+"
 UnsupportedBrowserItem
 .
 js

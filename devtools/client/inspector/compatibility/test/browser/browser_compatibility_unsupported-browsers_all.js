@@ -65,7 +65,7 @@ TEST_URI
 const
 {
 inspector
-panel
+selectedElementPane
 }
 =
 await
@@ -136,7 +136,7 @@ targetBrowsers
 await
 assertIssueList
 (
-panel
+selectedElementPane
 expectedIssues
 )
 ;
