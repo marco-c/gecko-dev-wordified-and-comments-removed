@@ -212,3 +212,15 @@ rect
 ref
 .
 yaml
+platform
+(
+linux
+)
+=
+=
+occlusion
+.
+yaml
+occlusion
+.
+png

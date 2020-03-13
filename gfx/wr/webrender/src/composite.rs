@@ -403,6 +403,10 @@ device_rect
 :
 DeviceRect
 pub
+local_clip_rect
+:
+PictureRect
+pub
 clip_rect
 :
 DeviceRect
