@@ -272,9 +272,11 @@ uriString
 )
 ;
 }
+async
 promptForMasterPassword
 (
 resolve
+messageId
 )
 {
 masterPasswordPromise
@@ -292,7 +294,11 @@ AboutLogins
 :
 MasterPasswordRequest
 "
+messageId
 )
+;
+return
+masterPasswordPromise
 ;
 }
 masterPasswordEnabled
