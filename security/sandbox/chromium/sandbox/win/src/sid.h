@@ -115,12 +115,6 @@ AllRestrictedApplicationPackages
 (
 )
 ;
-static
-Sid
-GenerateRandomSid
-(
-)
-;
 PSID
 GetPSID
 (
