@@ -403,6 +403,13 @@ common
 ref
 .
 html
+fails
+-
+if
+(
+!
+nativeThemePref
+)
 =
 =
 max
@@ -417,6 +424,10 @@ common
 ref
 .
 html
+#
+Snapping
+bug
+1621141
 =
 =
 reset
