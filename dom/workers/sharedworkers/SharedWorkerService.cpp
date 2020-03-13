@@ -67,9 +67,10 @@ namespace
 StaticMutex
 sSharedWorkerMutex
 ;
+CheckedUnsafePtr
+<
 SharedWorkerService
-*
-MOZ_NON_OWNING_REF
+>
 sSharedWorkerService
 ;
 class
@@ -456,6 +457,10 @@ SharedWorkerService
 instance
 =
 sSharedWorkerService
+.
+get
+(
+)
 ;
 return
 instance
