@@ -1278,11 +1278,6 @@ if
 pageError
 .
 warning
-|
-|
-pageError
-.
-strict
 )
 {
 level
