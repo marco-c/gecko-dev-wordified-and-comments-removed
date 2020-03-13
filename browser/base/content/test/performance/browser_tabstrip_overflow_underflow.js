@@ -354,7 +354,7 @@ await
 switchDone
 ;
 await
-TestUtils
+BrowserTestUtils
 .
 waitForCondition
 (
@@ -444,7 +444,7 @@ await
 switchDone
 ;
 await
-TestUtils
+BrowserTestUtils
 .
 waitForCondition
 (
@@ -599,7 +599,7 @@ firstTab
 )
 ;
 await
-TestUtils
+BrowserTestUtils
 .
 waitForCondition
 (
@@ -755,7 +755,7 @@ await
 switchDone
 ;
 await
-TestUtils
+BrowserTestUtils
 .
 waitForCondition
 (
