@@ -304,6 +304,10 @@ ensureLoggedIn
 reauth
 =
 false
+dialogCaption
+=
+"
+"
 parentWindow
 =
 null
@@ -483,6 +487,7 @@ osReauthenticator
 asyncReauthenticateUser
 (
 reauth
+dialogCaption
 parentWindow
 )
 .
