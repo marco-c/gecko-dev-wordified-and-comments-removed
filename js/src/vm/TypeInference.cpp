@@ -18311,7 +18311,7 @@ pc
 JSOp
 :
 :
-CheckLexical
+CheckAliasedLexical
 )
 ;
 MonitorBytecodeType

@@ -3488,6 +3488,12 @@ JSOp
 :
 CheckLexical
 :
+case
+JSOp
+:
+:
+CheckAliasedLexical
+:
 MOZ_ASSERT
 (
 nuses

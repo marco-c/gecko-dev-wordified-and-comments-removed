@@ -8083,6 +8083,12 @@ case
 JSOp
 :
 :
+CheckAliasedLexical
+:
+case
+JSOp
+:
+:
 InitLexical
 :
 case
