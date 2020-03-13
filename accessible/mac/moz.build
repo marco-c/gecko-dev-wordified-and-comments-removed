@@ -154,6 +154,11 @@ mozRootAccessible
 mm
 '
 '
+mozSelectableElements
+.
+mm
+'
+'
 mozTableAccessible
 .
 mm
