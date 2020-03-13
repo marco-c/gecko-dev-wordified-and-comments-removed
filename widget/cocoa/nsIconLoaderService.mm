@@ -718,7 +718,7 @@ mNativeIconImage
 imgINotificationObserver
 /
 /
-NS_IMETHODIMP
+void
 nsIconLoaderService
 :
 :
@@ -801,7 +801,6 @@ mIconRequest
 nullptr
 ;
 return
-NS_ERROR_FAILURE
 ;
 }
 nsCOMPtr
@@ -909,7 +908,6 @@ rv
 )
 {
 return
-rv
 ;
 }
 NSImage
@@ -922,8 +920,6 @@ mNativeIconImage
 =
 nil
 ;
-rv
-=
 mCompletionHandler
 -
 >
@@ -933,7 +929,6 @@ newImage
 )
 ;
 return
-rv
 ;
 }
 if
@@ -972,9 +967,6 @@ nullptr
 ;
 }
 }
-return
-NS_OK
-;
 }
 nsresult
 nsIconLoaderService

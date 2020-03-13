@@ -251,7 +251,7 @@ imgRequestProxy
 *
 )
 ;
-nsresult
+void
 Notify
 (
 imgIRequest
@@ -525,7 +525,7 @@ imgIRequest
 aRequest
 )
 ;
-nsresult
+void
 OnSizeAvailable
 (
 imgIRequest
@@ -536,7 +536,7 @@ imgIContainer
 aImage
 )
 ;
-nsresult
+void
 OnFrameComplete
 (
 imgIRequest
@@ -544,7 +544,7 @@ imgIRequest
 aRequest
 )
 ;
-nsresult
+void
 OnImageIsAnimated
 (
 imgIRequest
@@ -552,7 +552,7 @@ imgIRequest
 aRequest
 )
 ;
-nsresult
+void
 OnFrameUpdate
 (
 imgIRequest
@@ -560,7 +560,7 @@ imgIRequest
 aRequest
 )
 ;
-nsresult
+void
 OnLoadComplete
 (
 imgIRequest

@@ -3013,7 +3013,7 @@ unblocker
 )
 ;
 }
-NS_IMETHODIMP
+void
 GlobalImageObserver
 :
 :
@@ -3056,7 +3056,6 @@ entry
 )
 {
 return
-NS_OK
 ;
 }
 auto
@@ -3150,11 +3149,8 @@ aData
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3384,11 +3380,8 @@ aRequest
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3417,7 +3410,6 @@ presContext
 )
 {
 return
-NS_OK
 ;
 }
 aImage
@@ -3451,7 +3443,6 @@ frameSet
 )
 {
 return
-NS_OK
 ;
 }
 for
@@ -3493,11 +3484,8 @@ SchedulePaint
 ;
 }
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3515,7 +3503,6 @@ mDocument
 )
 {
 return
-NS_OK
 ;
 }
 FrameSet
@@ -3536,7 +3523,6 @@ frameSet
 )
 {
 return
-NS_OK
 ;
 }
 nsPresContext
@@ -3563,11 +3549,8 @@ nullptr
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3585,7 +3568,6 @@ mDocument
 )
 {
 return
-NS_OK
 ;
 }
 FrameSet
@@ -3606,7 +3588,6 @@ frameSet
 )
 {
 return
-NS_OK
 ;
 }
 RequestReflowIfNeeded
@@ -3622,11 +3603,8 @@ aRequest
 true
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3644,7 +3622,6 @@ mDocument
 )
 {
 return
-NS_OK
 ;
 }
 FrameSet
@@ -3665,7 +3642,6 @@ frameSet
 )
 {
 return
-NS_OK
 ;
 }
 RequestPaintIfNeeded
@@ -3675,11 +3651,8 @@ aRequest
 false
 )
 ;
-return
-NS_OK
-;
 }
-nsresult
+void
 ImageLoader
 :
 :
@@ -3697,7 +3670,6 @@ mDocument
 )
 {
 return
-NS_OK
 ;
 }
 FrameSet
@@ -3718,7 +3690,6 @@ frameSet
 )
 {
 return
-NS_OK
 ;
 }
 uint32_t
@@ -3787,9 +3758,6 @@ REQUEST_HAS_BLOCKED_ONLOAD
 }
 }
 }
-return
-NS_OK
-;
 }
 bool
 ImageLoader

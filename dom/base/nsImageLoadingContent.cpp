@@ -740,7 +740,7 @@ unfulfilled
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsImageLoadingContent
 :
 :
@@ -824,7 +824,6 @@ OnUnlockedDraw
 )
 ;
 return
-NS_OK
 ;
 }
 {
@@ -1126,11 +1125,8 @@ true
 )
 ;
 }
-return
-NS_OK
-;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -1174,9 +1170,10 @@ STATUS_LOAD_COMPLETE
 )
 )
 )
+{
 return
-NS_OK
 ;
+}
 AutoStateChanger
 changer
 (
@@ -1326,9 +1323,6 @@ AsElement
 MaybeResolveDecodePromises
 (
 )
-;
-return
-NS_OK
 ;
 }
 static
@@ -1522,7 +1516,7 @@ frame
 )
 ;
 }
-nsresult
+void
 nsImageLoadingContent
 :
 :
@@ -1560,9 +1554,6 @@ requestFlag
 )
 ;
 }
-return
-NS_OK
-;
 }
 void
 nsImageLoadingContent
