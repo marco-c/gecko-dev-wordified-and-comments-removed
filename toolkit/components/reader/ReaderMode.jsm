@@ -61,7 +61,7 @@ emoji
 hidden
 "
 "
-invisble
+invisible
 "
 "
 sr
