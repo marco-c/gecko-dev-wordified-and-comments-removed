@@ -7070,8 +7070,6 @@ CancelDocumentFlushedResolvers
 void
 FireFrameLoadEvent
 (
-bool
-aIsTrusted
 )
 ;
 public

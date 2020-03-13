@@ -4458,8 +4458,6 @@ async
 MaybeFireEmbedderLoadEvents
 (
 bool
-aIsTrusted
-bool
 aFireLoadAtEmbeddingElement
 )
 ;

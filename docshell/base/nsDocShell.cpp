@@ -12364,12 +12364,6 @@ SendMaybeFireEmbedderLoadEvents
 (
 /
 *
-aIsTrusted
-*
-/
-true
-/
-*
 aFireLoadAtEmbeddingElement
 *
 /
@@ -20479,12 +20473,6 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-/
-*
-aIsTrusted
-*
-/
-true
 /
 *
 aFireLoadAtEmbeddingElement

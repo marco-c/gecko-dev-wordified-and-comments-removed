@@ -3670,8 +3670,6 @@ IPCResult
 RecvMaybeFireEmbedderLoadEvents
 (
 bool
-aIsTrusted
-bool
 aFireLoadAtEmbeddingElement
 )
 ;

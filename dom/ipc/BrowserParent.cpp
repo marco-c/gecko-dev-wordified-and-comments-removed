@@ -20704,8 +20704,6 @@ BrowserParent
 RecvMaybeFireEmbedderLoadEvents
 (
 bool
-aIsTrusted
-bool
 aFireLoadAtEmbeddingElement
 )
 {
@@ -20750,7 +20748,6 @@ bridge
 >
 SendMaybeFireEmbedderLoadEvents
 (
-aIsTrusted
 aFireLoadAtEmbeddingElement
 )
 ;

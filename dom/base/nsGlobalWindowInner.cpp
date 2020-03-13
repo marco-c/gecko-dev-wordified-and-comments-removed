@@ -8615,8 +8615,6 @@ nsGlobalWindowInner
 :
 FireFrameLoadEvent
 (
-bool
-aIsTrusted
 )
 {
 if
@@ -8672,7 +8670,7 @@ nsEventStatus_eIgnore
 WidgetEvent
 event
 (
-aIsTrusted
+true
 eLoad
 )
 ;
@@ -8842,7 +8840,6 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-aIsTrusted
 true
 )
 ;
@@ -9062,7 +9059,7 @@ OnDocumentLoaded
 (
 )
 ;
-FireFrameLoadEvent
+MOZ_ASSERT
 (
 aVisitor
 .
@@ -9072,6 +9069,10 @@ mEvent
 IsTrusted
 (
 )
+)
+;
+FireFrameLoadEvent
+(
 )
 ;
 if
