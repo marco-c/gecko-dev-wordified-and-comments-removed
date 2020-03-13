@@ -292,6 +292,13 @@ cookies
 .
 policy
 -
+DisabledCiphers
+=
+Disable
+ciphers
+.
+policy
+-
 DefaultDownloadDirectory
 =
 Set
