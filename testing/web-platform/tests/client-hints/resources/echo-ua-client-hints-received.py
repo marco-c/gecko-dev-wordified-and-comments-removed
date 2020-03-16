@@ -134,6 +134,18 @@ ua
 -
 model
 "
+        
+"
+sec
+-
+ch
+-
+ua
+-
+full
+-
+version
+"
     
 ]
     
