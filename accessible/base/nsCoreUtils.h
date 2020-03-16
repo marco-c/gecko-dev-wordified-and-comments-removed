@@ -265,6 +265,7 @@ aRootNode
 nullptr
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 ScrollSubstringTo
@@ -279,6 +280,7 @@ uint32_t
 aScrollType
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 ScrollSubstringTo

@@ -17667,9 +17667,12 @@ failed
 return
 ;
 }
+MOZ_KnownLive
+(
 range
 .
 mSelection
+)
 -
 >
 AddRangeAndSelectFramesAndNotifyListeners
@@ -18602,9 +18605,12 @@ NS_ERROR_FAILURE
 ErrorResult
 error
 ;
+MOZ_KnownLive
+(
 range
 .
 mSelection
+)
 -
 >
 AddRangeAndSelectFramesAndNotifyListeners
@@ -24204,8 +24210,11 @@ NS_ERROR_FAILURE
 ErrorResult
 err
 ;
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >

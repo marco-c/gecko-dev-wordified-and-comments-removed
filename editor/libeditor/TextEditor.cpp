@@ -5210,8 +5210,11 @@ StealNSResult
 )
 ;
 }
+MOZ_KnownLive
+(
 SelectionRefPtr
 (
+)
 )
 -
 >
