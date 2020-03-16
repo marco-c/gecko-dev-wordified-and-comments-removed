@@ -182,7 +182,7 @@ focused
 await
 synthesizeKeyAndWaitForFocus
 (
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 "
@@ -200,7 +200,7 @@ is
 document
 .
 activeElement
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 "
@@ -325,7 +325,7 @@ focused
 await
 synthesizeKeyAndWaitForFocus
 (
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 "
@@ -343,7 +343,7 @@ is
 document
 .
 activeElement
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 "
@@ -566,7 +566,7 @@ isnot
 document
 .
 activeElement
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 "

@@ -426,7 +426,7 @@ BrowserTestUtils
 .
 is_hidden
 (
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 )

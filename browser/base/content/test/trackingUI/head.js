@@ -239,7 +239,7 @@ ViewShown
 "
 )
 ;
-gIdentityHandler
+gProtectionsHandler
 .
 _trackingProtectionIconContainer
 .
