@@ -12,6 +12,9 @@ webxr
 ]
 [
 '
+permissions
+'
+'
 webgl1
 '
 '
