@@ -426,12 +426,6 @@ using
 mozilla
 :
 :
-PodZero
-;
-using
-mozilla
-:
-:
 PositiveInfinity
 ;
 MOZ_THREAD_LOCAL
