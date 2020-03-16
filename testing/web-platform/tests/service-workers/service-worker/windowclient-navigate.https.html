@@ -648,6 +648,15 @@ function
 event
 )
 {
+if
+(
+event
+.
+data
+.
+port
+)
+{
 pausedLifecyclePort
 =
 event
@@ -656,6 +665,7 @@ data
 .
 port
 ;
+}
 }
 )
 ;
