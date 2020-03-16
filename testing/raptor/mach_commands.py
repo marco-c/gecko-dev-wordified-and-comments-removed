@@ -1556,7 +1556,7 @@ False
 else
 InstallIntent
 .
-PROMPT
+YES
             
 if
 not
