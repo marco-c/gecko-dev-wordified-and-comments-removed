@@ -62,6 +62,10 @@ pgo
 "
         
 "
+strategy
+"
+        
+"
 worker
 -
 overrides
@@ -103,6 +107,31 @@ Tasks
 automatically
 selected
 .
+'
+)
+    
+try_config
+=
+try_config
+or
+{
+}
+    
+try_config
+.
+setdefault
+(
+'
+optimize
+-
+strategies
+'
+'
+taskgraph
+.
+optimize
+:
+bugbug_push_schedules
 '
 )
     
