@@ -7801,6 +7801,16 @@ sourceStart
 (
 )
 ;
+bool
+hadLazyScriptData
+=
+lazy
+-
+>
+hasPrivateScriptData
+(
+)
+;
 if
 (
 ss
@@ -8124,6 +8134,10 @@ script
 isRelazifiable
 (
 )
+&
+&
+!
+hadLazyScriptData
 )
 {
 script
