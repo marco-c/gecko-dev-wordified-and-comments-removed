@@ -298,3 +298,16 @@ windows
 -
 exclude
 compositor
+\
+-
+-
+exclude
+glsl
+-
+to
+-
+cxx
+-
+-
+exclude
+swgl
