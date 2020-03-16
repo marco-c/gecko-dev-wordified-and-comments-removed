@@ -1711,6 +1711,11 @@ asyncKind
 {
 MOZ_ASSERT
 (
+funNode
+)
+;
+MOZ_ASSERT
+(
 fun
 )
 ;
@@ -1877,11 +1882,6 @@ traceListHead_
 =
 funbox
 ;
-if
-(
-funNode
-)
-{
 handler_
 .
 setFunctionBox
@@ -1890,7 +1890,6 @@ funNode
 funbox
 )
 ;
-}
 return
 funbox
 ;
@@ -1927,6 +1926,11 @@ FunctionAsyncKind
 asyncKind
 )
 {
+MOZ_ASSERT
+(
+funNode
+)
+;
 size_t
 index
 =
@@ -2096,11 +2100,6 @@ traceListHead_
 =
 funbox
 ;
-if
-(
-funNode
-)
-{
 handler_
 .
 setFunctionBox
@@ -2109,7 +2108,6 @@ funNode
 funbox
 )
 ;
-}
 return
 funbox
 ;
