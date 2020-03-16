@@ -5870,8 +5870,10 @@ nsGkAtoms
 :
 :
 value
-&
-&
+)
+{
+if
+(
 !
 mValueChanged
 &
@@ -5885,6 +5887,11 @@ VALUE_MODE_VALUE
 )
 {
 SetDefaultValueAsValue
+(
+)
+;
+}
+UpdateStepMismatchValidityState
 (
 )
 ;
