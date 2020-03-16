@@ -6925,8 +6925,13 @@ index
 public
 :
 static
+js
+:
+:
+UniquePtr
+<
 ImmutableScriptData
-*
+>
 new_
 (
 JSContext
