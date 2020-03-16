@@ -1681,6 +1681,15 @@ aDestination
 )
 const
 ;
+nsRect
+RestrictToRootCompositionBounds
+(
+const
+nsRect
+&
+aDisplayportBase
+)
+;
 bool
 DecideScrollableLayer
 (
