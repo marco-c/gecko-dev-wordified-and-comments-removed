@@ -34464,7 +34464,10 @@ aFrame
 nsDisplayList
 *
 aList
-uint8_t
+mozilla
+:
+:
+StyleBlend
 aBlendMode
 const
 ActiveScrolledRoot
@@ -34706,7 +34709,10 @@ BlendMode
 ;
 protected
 :
-uint8_t
+mozilla
+:
+:
+StyleBlend
 mBlendMode
 ;
 uint16_t
@@ -34738,7 +34744,10 @@ aFrame
 nsDisplayList
 *
 aList
-uint8_t
+mozilla
+:
+:
+StyleBlend
 aBlendMode
 const
 ActiveScrolledRoot

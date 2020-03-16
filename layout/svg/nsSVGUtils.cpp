@@ -2492,7 +2492,10 @@ StyleEffects
 mMixBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 ;
 }
 gfxContext

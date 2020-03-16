@@ -28217,7 +28217,10 @@ i
 mBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 needBlendContainer
@@ -28726,7 +28729,10 @@ i
 mBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 DisplayListClipState
@@ -30786,7 +30792,10 @@ layer
 mBlendMode
 =
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 &
 &
 layer
@@ -43892,7 +43901,10 @@ aFrame
 nsDisplayList
 *
 aList
-uint8_t
+mozilla
+:
+:
+StyleBlend
 aBlendMode
 const
 ActiveScrolledRoot

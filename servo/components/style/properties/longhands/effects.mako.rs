@@ -520,10 +520,10 @@ layout
 .
 unimplemented
 "
-gecko_constant_prefix
+gecko_enum_prefix
 =
 "
-NS_STYLE_BLEND
+StyleBlend
 "
 animation_value_type
 =

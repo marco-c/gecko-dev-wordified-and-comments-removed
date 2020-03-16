@@ -1501,7 +1501,10 @@ StyleEffects
 mMixBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 aContext
@@ -1881,7 +1884,10 @@ StyleEffects
 mMixBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 )
 {
 aContext

@@ -1069,6 +1069,12 @@ mozilla
 :
 StyleBackfaceVisibility
 "
+"
+mozilla
+:
+:
+StyleBlend
+"
 ]
 whitelist
 -

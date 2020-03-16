@@ -22273,7 +22273,10 @@ effects
 mMixBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 ;
 if
 (
@@ -80371,7 +80374,10 @@ aStyleEffects
 mMixBlendMode
 !
 =
-NS_STYLE_BLEND_NORMAL
+StyleBlend
+:
+:
+Normal
 |
 |
 nsSVGIntegrationUtils
