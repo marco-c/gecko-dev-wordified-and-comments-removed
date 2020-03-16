@@ -173,6 +173,7 @@ hashchange
 )
 ;
 }
+true
 )
 ;
 addMessageListener

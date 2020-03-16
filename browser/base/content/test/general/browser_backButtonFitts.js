@@ -143,6 +143,7 @@ selectedBrowser
 "
 popstate
 "
+true
 )
 ;
 EventUtils

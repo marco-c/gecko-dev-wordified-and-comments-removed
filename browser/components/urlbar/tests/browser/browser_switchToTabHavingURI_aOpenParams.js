@@ -94,7 +94,7 @@ this
 "
 hashchange
 "
-false
+true
 )
 ;
 }
