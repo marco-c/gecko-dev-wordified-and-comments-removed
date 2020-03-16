@@ -9618,6 +9618,17 @@ data_
 nullptr
 ;
 }
+void
+swapData
+(
+UniquePtr
+<
+PrivateScriptData
+>
+&
+other
+)
+;
 mozilla
 :
 :
