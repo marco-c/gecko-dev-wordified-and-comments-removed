@@ -547,7 +547,7 @@ flatpak
 .
 tar
 .
-gz
+xz
 '
 ]
     

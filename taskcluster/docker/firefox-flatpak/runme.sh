@@ -89,7 +89,7 @@ BASH_SOURCE
 pwd
 )
 "
-TARGET_TAR_GZ_FULL_PATH
+TARGET_TAR_XZ_FULL_PATH
 =
 "
 ARTIFACTS_DIR
@@ -100,7 +100,7 @@ flatpak
 .
 tar
 .
-gz
+xz
 "
 SOURCE_DEST
 =
@@ -1518,12 +1518,12 @@ update
 repo
 repo
 tar
-cvfz
+cvfJ
 flatpak
 .
 tar
 .
-gz
+xz
 repo
 mv
 -
@@ -1532,9 +1532,9 @@ flatpak
 .
 tar
 .
-gz
+xz
 "
-TARGET_TAR_GZ_FULL_PATH
+TARGET_TAR_XZ_FULL_PATH
 "
 #
 XXX
