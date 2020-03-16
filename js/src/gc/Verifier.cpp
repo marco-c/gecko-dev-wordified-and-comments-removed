@@ -354,6 +354,11 @@ term
 nullptr
 )
 {
+setTraceWeakEdges
+(
+false
+)
+;
 }
 ~
 VerifyPreTracer
