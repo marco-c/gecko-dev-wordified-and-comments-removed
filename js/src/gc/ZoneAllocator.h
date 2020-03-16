@@ -74,7 +74,7 @@ ZoneAllocator
 ifdef
 DEBUG
 bool
-CurrentThreadIsGCSweeping
+CurrentThreadIsGCFinalizing
 (
 )
 ;
@@ -325,6 +325,10 @@ use
 ;
 #
 endif
+maybeMallocTriggerZoneGC
+(
+)
+;
 }
 void
 removeCellMemory
@@ -363,7 +367,7 @@ nbytes
 ;
 MOZ_ASSERT_IF
 (
-CurrentThreadIsGCSweeping
+CurrentThreadIsGCFinalizing
 (
 )
 wasSwept
@@ -578,7 +582,7 @@ nbytes
 ;
 MOZ_ASSERT_IF
 (
-CurrentThreadIsGCSweeping
+CurrentThreadIsGCFinalizing
 (
 )
 wasSwept
