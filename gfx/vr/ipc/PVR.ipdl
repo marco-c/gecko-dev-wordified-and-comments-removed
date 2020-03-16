@@ -114,7 +114,7 @@ mozilla
 gfx
 :
 :
-OpenVRControllerType
+VRControllerType
 from
 "
 VRMessageUtils
@@ -232,7 +232,7 @@ aPath
 async
 OpenVRControllerManifestPathToVR
 (
-OpenVRControllerType
+VRControllerType
 aType
 nsCString
 aPath
@@ -290,7 +290,7 @@ aPath
 async
 OpenVRControllerManifestPathToParent
 (
-OpenVRControllerType
+VRControllerType
 aType
 nsCString
 aPath

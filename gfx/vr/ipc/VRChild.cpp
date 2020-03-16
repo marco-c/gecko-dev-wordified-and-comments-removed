@@ -116,7 +116,7 @@ aPath
 void
 SetOpenVRControllerManifestPath
 (
-OpenVRControllerType
+VRControllerType
 aType
 const
 nsCString
@@ -173,7 +173,7 @@ false
 bool
 GetManifestPath
 (
-OpenVRControllerType
+VRControllerType
 aType
 nsCString
 *
@@ -696,7 +696,7 @@ sOpenVRControllerManifestManager
 >
 GetManifestPath
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 Vive
@@ -707,7 +707,7 @@ output
 {
 SendOpenVRControllerManifestPathToVR
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 Vive
@@ -722,7 +722,7 @@ sOpenVRControllerManifestManager
 >
 GetManifestPath
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 WMR
@@ -733,7 +733,7 @@ output
 {
 SendOpenVRControllerManifestPathToVR
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 WMR
@@ -748,7 +748,7 @@ sOpenVRControllerManifestManager
 >
 GetManifestPath
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 Knuckles
@@ -759,7 +759,7 @@ output
 {
 SendOpenVRControllerManifestPathToVR
 (
-OpenVRControllerType
+VRControllerType
 :
 :
 Knuckles
@@ -843,7 +843,7 @@ VRChild
 RecvOpenVRControllerManifestPathToParent
 (
 const
-OpenVRControllerType
+VRControllerType
 &
 aType
 const

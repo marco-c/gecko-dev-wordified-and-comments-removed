@@ -502,7 +502,7 @@ VRParent
 RecvOpenVRControllerManifestPathToVR
 (
 const
-OpenVRControllerType
+VRControllerType
 &
 aType
 const
@@ -997,7 +997,7 @@ VRParent
 :
 GetOpenVRControllerManifestPath
 (
-OpenVRControllerType
+VRControllerType
 aType
 nsCString
 *
