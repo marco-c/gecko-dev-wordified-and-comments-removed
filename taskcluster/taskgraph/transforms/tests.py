@@ -12058,6 +12058,20 @@ params
 is_try
 (
 )
+and
+config
+.
+params
+[
+'
+try_mode
+'
+]
+!
+=
+'
+try_auto
+'
 :
             
 jobdesc
