@@ -386,6 +386,14 @@ tag
 )
 ;
 }
+JSScript
+*
+MaybeForwardedScriptFromCalleeToken
+(
+CalleeToken
+token
+)
+;
 class
 LSafepoint
 ;

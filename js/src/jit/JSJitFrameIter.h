@@ -572,6 +572,13 @@ script
 )
 const
 ;
+JSScript
+*
+maybeForwardedScript
+(
+)
+const
+;
 void
 baselineScriptAndPc
 (
