@@ -2673,6 +2673,14 @@ bool
 )
 ;
 fn
+deinit
+(
+&
+mut
+self
+)
+;
+fn
 get_capabilities
 (
 &
