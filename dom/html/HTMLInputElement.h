@@ -2925,15 +2925,6 @@ GetStep
 )
 const
 ;
-bool
-StepsInputValue
-(
-const
-WidgetKeyboardEvent
-&
-)
-const
-;
 already_AddRefed
 <
 nsINodeList
