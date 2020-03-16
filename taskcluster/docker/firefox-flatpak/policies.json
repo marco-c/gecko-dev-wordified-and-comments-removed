@@ -9,5 +9,10 @@ DisableAppUpdate
 "
 :
 true
+"
+DontCheckDefaultBrowser
+"
+:
+true
 }
 }
