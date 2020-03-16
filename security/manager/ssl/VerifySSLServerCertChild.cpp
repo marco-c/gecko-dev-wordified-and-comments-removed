@@ -48,6 +48,13 @@ nsSerializationHelper
 .
 h
 "
+extern
+mozilla
+:
+:
+LazyLogModule
+gPIPNSSLog
+;
 namespace
 mozilla
 {
