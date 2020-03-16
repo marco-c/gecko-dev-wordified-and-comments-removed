@@ -103,10 +103,6 @@ example
 com
 /
 ?
-service
-=
-sync
-&
 context
 =
 null
@@ -118,6 +114,10 @@ test
 action
 =
 email
+&
+service
+=
+sync
 "
 )
 ;

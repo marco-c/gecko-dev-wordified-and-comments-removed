@@ -573,10 +573,6 @@ example
 com
 /
 ?
-service
-=
-sync
-&
 context
 =
 fx_desktop_v3
@@ -588,6 +584,10 @@ uitour
 action
 =
 email
+&
+service
+=
+sync
 "
 )
 ;
@@ -656,10 +656,6 @@ example
 com
 /
 ?
-service
-=
-sync
-&
 context
 =
 fx_desktop_v3
@@ -671,6 +667,10 @@ uitour
 action
 =
 email
+&
+service
+=
+sync
 &
 utm_foo
 =
@@ -742,10 +742,6 @@ example
 com
 /
 ?
-service
-=
-sync
-&
 context
 =
 fx_desktop_v3
@@ -761,6 +757,10 @@ foo
 40bar
 .
 com
+&
+service
+=
+sync
 "
 )
 ;
@@ -858,10 +858,6 @@ example
 com
 /
 ?
-service
-=
-sync
-&
 context
 =
 fx_desktop_v3
@@ -873,6 +869,10 @@ uitour
 action
 =
 email
+&
+service
+=
+sync
 &
 utm_foo
 =
