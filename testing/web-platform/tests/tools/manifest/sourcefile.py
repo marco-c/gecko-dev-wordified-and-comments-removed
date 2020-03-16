@@ -12,8 +12,8 @@ from
 six
 import
 binary_type
-PY3
 iteritems
+text_type
 from
 six
 .
@@ -1970,8 +1970,12 @@ content
 )
 )
             
-hash_str
+self
+.
+_hash
 =
+text_type
+(
 hashlib
 .
 sha1
@@ -1982,32 +1986,7 @@ data
 hexdigest
 (
 )
-            
-if
-PY3
-:
-                
-self
-.
-_hash
-=
-hash_str
-.
-encode
-(
-"
-ascii
-"
 )
-            
-else
-:
-                
-self
-.
-_hash
-=
-hash_str
         
 return
 self

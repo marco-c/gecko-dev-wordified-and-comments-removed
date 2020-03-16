@@ -3,6 +3,8 @@ errno
 import
 os
 import
+platform
+import
 shutil
 import
 socket
@@ -220,11 +222,23 @@ if
 sys
 .
 version_info
+[
+0
+]
 >
 =
-(
 3
+and
+platform
+.
+system
+(
 )
+=
+=
+"
+Windows
+"
 :
         
 pytest
@@ -234,9 +248,13 @@ xfail
 reason
 =
 "
-broken
-on
-Py3
+virtualenv
+activation
+fails
+in
+Windows
+for
+python3
 "
 )
     
