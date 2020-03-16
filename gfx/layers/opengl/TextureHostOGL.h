@@ -1791,6 +1791,12 @@ aExternalImageId
 )
 override
 ;
+uint32_t
+NumSubTextures
+(
+)
+override
+;
 void
 PushResourceUpdates
 (
