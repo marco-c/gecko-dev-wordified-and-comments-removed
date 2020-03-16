@@ -210,7 +210,7 @@ JS_OPTIMIZED_ARGUMENTS
 }
 static
 inline
-bool
+void
 GuardFunApplyArgumentsOptimization
 (
 JSContext
@@ -298,9 +298,6 @@ argsObj
 ;
 }
 }
-return
-true
-;
 }
 static
 inline

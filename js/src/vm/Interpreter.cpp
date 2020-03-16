@@ -16799,9 +16799,6 @@ REGS
 sp
 )
 ;
-if
-(
-!
 GuardFunApplyArgumentsOptimization
 (
 cx
@@ -16812,12 +16809,7 @@ fp
 )
 args
 )
-)
-{
-goto
-error
 ;
-}
 }
 CASE
 (
