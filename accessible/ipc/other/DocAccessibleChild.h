@@ -3122,12 +3122,13 @@ const
 uint32_t
 &
 aWhich
+PDocAccessibleChild
+*
+*
+aResultDoc
 uint64_t
 *
-aResult
-bool
-*
-aOk
+aResultID
 )
 override
 ;

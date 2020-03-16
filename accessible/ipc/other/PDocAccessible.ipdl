@@ -2803,10 +2803,10 @@ aWhich
 )
 returns
 (
+PDocAccessible
+aResultDoc
 uint64_t
-aResult
-bool
-aOk
+aResultID
 )
 ;
 nested
