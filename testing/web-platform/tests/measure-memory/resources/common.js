@@ -71,7 +71,7 @@ assert_own_property
 (
 breakdown
 '
-userAgentSpecificType
+userAgentSpecificTypes
 '
 )
 ;
@@ -82,7 +82,7 @@ userAgentSpecificType
 of
 breakdown
 .
-userAgentSpecificType
+userAgentSpecificTypes
 )
 {
 assert_equals
