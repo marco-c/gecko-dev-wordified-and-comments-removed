@@ -563,10 +563,13 @@ if
 !
 net_IsValidScheme
 (
+nsDependentCSubstring
+(
 spec
 colon
 -
 spec
+)
 )
 |
 |

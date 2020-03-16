@@ -61,6 +61,15 @@ char
 aChar
 )
 ;
+bool
+rust_net_is_valid_scheme
+(
+const
+nsACString
+&
+scheme
+)
+;
 }
 #
 endif
