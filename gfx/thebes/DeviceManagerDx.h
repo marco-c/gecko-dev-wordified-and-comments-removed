@@ -340,6 +340,11 @@ EnumerateOutputs
 )
 ;
 bool
+CheckHardwareStretchingSupport
+(
+)
+;
+bool
 CreateCompositorDevices
 (
 )
