@@ -333,12 +333,6 @@ HasDirectEval
 <
 <
 26
-IsLazyScript
-=
-1
-<
-<
-27
 }
 ;
 class
@@ -681,7 +675,7 @@ SpewEnabled
 <
 <
 27
-WrappedByDebugger
+IsLazyScript
 =
 1
 <
