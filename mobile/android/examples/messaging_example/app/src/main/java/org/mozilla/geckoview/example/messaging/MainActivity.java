@@ -394,11 +394,10 @@ null
 }
 )
 ;
-session
+extension
 .
 setMessageDelegate
 (
-extension
 messageDelegate
 "
 browser
