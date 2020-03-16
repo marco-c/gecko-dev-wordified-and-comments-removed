@@ -156,6 +156,7 @@ rendering
 in
 pixels
 .
+PER_INSTANCE
 in
 vec4
 aTaskRect
@@ -201,6 +202,7 @@ prim_store
 :
 get_line_decoration_sizes
 .
+PER_INSTANCE
 in
 vec2
 aLocalSize
@@ -219,6 +221,7 @@ line
 to
 draw
 .
+PER_INSTANCE
 in
 int
 aStyle
@@ -240,6 +243,7 @@ a
 vertical
 line
 .
+PER_INSTANCE
 in
 float
 aAxisSelect
@@ -275,6 +279,7 @@ decorated
 line
 )
 .
+PER_INSTANCE
 in
 float
 aWavyLineThickness

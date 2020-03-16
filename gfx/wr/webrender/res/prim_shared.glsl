@@ -223,6 +223,7 @@ sPrimitiveHeadersI
 /
 Instanced
 attributes
+PER_INSTANCE
 in
 ivec4
 aData
