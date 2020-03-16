@@ -1,11 +1,13 @@
 import
 os
-import
-re
 from
 pathlib
 import
 *
+import
+re
+import
+shutil
 WRAPPER_TEMPLATE_FILE
 =
 '
@@ -2922,6 +2924,18 @@ str
 (
 file_dir
 )
+)
+    
+shutil
+.
+rmtree
+(
+file_dir
+/
+'
+generated
+'
+True
 )
     
 testEntryList
