@@ -240,16 +240,6 @@ xhr
 .
 channel
 .
-loadInfo
-.
-httpsOnlyNoUpgrade
-=
-true
-;
-xhr
-.
-channel
-.
 QueryInterface
 (
 Ci
