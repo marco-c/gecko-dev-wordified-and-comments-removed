@@ -639,11 +639,6 @@ ignored
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -657,7 +652,6 @@ z
 extra
 '
 )
-}
         
 tos
 =
@@ -707,11 +701,6 @@ parsing
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -731,7 +720,6 @@ b
 do
 '
 )
-}
         
 tos
 =
@@ -781,11 +769,6 @@ build_types
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -796,7 +779,6 @@ b
 do
 '
 )
-}
         
 tos
 =
@@ -851,11 +833,6 @@ debug
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -866,7 +843,6 @@ b
 d
 '
 )
-}
         
 tos
 =
@@ -918,11 +894,6 @@ opt
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -933,7 +904,6 @@ b
 o
 '
 )
-}
         
 tos
 =
@@ -986,11 +956,6 @@ opt
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1002,7 +967,6 @@ build
 o
 '
 )
-}
         
 tos
 =
@@ -1058,11 +1022,6 @@ x
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1073,7 +1032,6 @@ b
 dx
 '
 )
-}
         
 tos
 =
@@ -1124,11 +1082,6 @@ somejob
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1139,7 +1092,6 @@ j
 somejob
 '
 )
-}
         
 tos
 =
@@ -1194,11 +1146,6 @@ job2
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1210,7 +1157,6 @@ job1
 job2
 '
 )
-}
         
 tos
 =
@@ -1260,11 +1206,6 @@ None
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1275,7 +1216,6 @@ j
 all
 '
 )
-}
         
 tos
 =
@@ -1319,11 +1259,6 @@ job2
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1337,7 +1272,6 @@ j
 job2
 '
 )
-}
         
 tos
 =
@@ -1390,11 +1324,6 @@ None
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1405,7 +1334,6 @@ p
 all
 '
 )
-}
         
 tos
 =
@@ -1454,11 +1382,6 @@ ridealong
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1469,7 +1392,6 @@ p
 linux
 '
 )
-}
         
 tos
 =
@@ -1531,11 +1453,6 @@ win32
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1547,7 +1464,6 @@ linux
 win32
 '
 )
-}
         
 tos
 =
@@ -1602,11 +1518,6 @@ RIDEALONG_BUILDS
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1618,7 +1529,6 @@ linux
 linux64
 '
 )
-}
         
 tos
 =
@@ -1702,11 +1612,6 @@ unittests
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1717,7 +1622,6 @@ u
 none
 '
 )
-}
         
 tos
 =
@@ -1768,11 +1672,6 @@ list
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1783,7 +1682,6 @@ u
 all
 '
 )
-}
         
 tos
 =
@@ -1851,11 +1749,6 @@ core
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1870,7 +1763,6 @@ webgl1
 core
 '
 )
-}
         
 tos
 =
@@ -1937,11 +1829,6 @@ webgl
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -1954,7 +1841,6 @@ mochitest
 gl
 '
 )
-}
         
 tos
 =
@@ -2058,11 +1944,6 @@ unittests
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2073,7 +1954,6 @@ u
 e10s
 '
 )
-}
         
 tos
 =
@@ -2144,11 +2024,6 @@ both
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2164,7 +2039,6 @@ core
 gtest
 '
 )
-}
         
 tos
 =
@@ -2245,11 +2119,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2265,7 +2134,6 @@ gtest
 4
 '
 )
-}
         
 tos
 =
@@ -2338,11 +2206,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2356,7 +2219,6 @@ linux
 ]
 '
 )
-}
         
 tos
 =
@@ -2431,11 +2293,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2450,7 +2307,6 @@ win32
 ]
 '
 )
-}
         
 tos
 =
@@ -2535,11 +2391,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2553,7 +2404,6 @@ Ubuntu
 ]
 '
 )
-}
         
 tos
 =
@@ -2648,11 +2498,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2667,7 +2512,6 @@ linux
 ]
 '
 )
-}
         
 tos
 =
@@ -2766,11 +2610,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2786,7 +2625,6 @@ x64
 ]
 '
 )
-}
         
 tos
 =
@@ -2866,11 +2704,6 @@ gtest
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2887,7 +2720,6 @@ win32
 ]
 '
 )
-}
         
 tos
 =
@@ -2968,11 +2800,6 @@ talos
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -2983,7 +2810,6 @@ t
 none
 '
 )
-}
         
 tos
 =
@@ -3034,11 +2860,6 @@ list
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3049,7 +2870,6 @@ t
 all
 '
 )
-}
         
 tos
 =
@@ -3113,11 +2933,6 @@ webgl
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3130,7 +2945,6 @@ mochitest
 webgl
 '
 )
-}
         
 tos
 =
@@ -3187,11 +3001,6 @@ trigger_tests
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3203,7 +3012,6 @@ rebuild
 10
 '
 )
-}
         
 tos
 =
@@ -3244,11 +3052,6 @@ talos_trigger_tests
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3262,7 +3065,6 @@ talos
 10
 '
 )
-}
         
 tos
 =
@@ -3300,11 +3102,6 @@ interactive
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3315,7 +3112,6 @@ try
 interactive
 '
 )
-}
         
 tos
 =
@@ -3355,11 +3151,6 @@ notifications
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3372,7 +3163,6 @@ all
 emails
 '
 )
-}
         
 tos
 =
@@ -3414,11 +3204,6 @@ notifications
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3431,7 +3216,6 @@ failure
 emails
 '
 )
-}
         
 tos
 =
@@ -3474,11 +3258,6 @@ notifications
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3486,7 +3265,6 @@ try
 :
 '
 )
-}
         
 tos
 =
@@ -3532,14 +3310,8 @@ env
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
-            
 '
 try
 :
@@ -3557,7 +3329,6 @@ VAR2
 value2
 '
 )
-}
         
 tos
 =
@@ -3608,11 +3379,6 @@ true
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3623,25 +3389,23 @@ try
 geckoProfile
 '
 )
-}
         
-tos
-=
-TryOptionSyntax
-(
+assert
 parameters
-graph_with_jobs
-GRAPH_CONFIG
-)
-        
-self
-.
-assertTrue
-(
-tos
-.
+[
+"
+try_task_config
+"
+]
+[
+"
+gecko
+-
 profile
-)
+"
+]
+is
+True
     
 def
 test_tag
@@ -3664,11 +3428,6 @@ value
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3680,7 +3439,6 @@ tag
 tagName
 '
 )
-}
         
 tos
 =
@@ -3724,11 +3482,6 @@ true
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3741,7 +3494,6 @@ no
 retry
 '
 )
-}
         
 tos
 =
@@ -3780,11 +3532,6 @@ true
         
 parameters
 =
-{
-'
-try_options
-'
-:
 parse_message
 (
 '
@@ -3795,25 +3542,25 @@ try
 artifact
 '
 )
-}
         
-tos
-=
-TryOptionSyntax
-(
+assert
 parameters
-graph_with_jobs
-GRAPH_CONFIG
-)
-        
-self
-.
-assertTrue
-(
-tos
-.
+[
+"
+try_task_config
+"
+]
+[
+"
+use
+-
 artifact
-)
+-
+builds
+"
+]
+is
+True
 if
 __name__
 =
