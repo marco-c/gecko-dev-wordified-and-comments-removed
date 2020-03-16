@@ -243,6 +243,14 @@ kVRControllerMaxCount
 ;
 private
 :
+void
+GamepadMappingForWebVR
+(
+VRControllerState
+&
+aControllerState
+)
+;
 VRSubmitFrameResultInfo
 mSubmitFrameResult
 ;
