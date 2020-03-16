@@ -9819,14 +9819,6 @@ false
 ;
 }
 }
-enum
-ParseReportKind
-{
-ParseError
-ParseWarning
-ParseStrictError
-}
-;
 static
 inline
 ParseNode
