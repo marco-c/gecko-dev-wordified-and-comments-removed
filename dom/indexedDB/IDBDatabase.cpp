@@ -3207,7 +3207,7 @@ mSpec
 )
 ;
 return
-PersistenceTypeToStorage
+PersistenceTypeToStorageType
 (
 mSpec
 -
