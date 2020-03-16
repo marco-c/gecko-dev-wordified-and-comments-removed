@@ -2136,6 +2136,16 @@ aMode
 )
 const
 ;
+CSSRect
+GetVisibleRect
+(
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
+)
+const
+;
 private
 :
 friend
