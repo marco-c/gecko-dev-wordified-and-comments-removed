@@ -2035,7 +2035,7 @@ ffi
 RawDateTimeFormatter
 *
 aFormatter
-uintptr_t
+double
 input
 uint32_t
 *

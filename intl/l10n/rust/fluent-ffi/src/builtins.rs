@@ -2089,7 +2089,7 @@ FluentDateTime
 {
 epoch
 :
-usize
+f64
 options
 :
 FluentDateTimeOptions
@@ -2299,7 +2299,7 @@ new
 (
 epoch
 :
-usize
+f64
 options
 :
 FluentDateTimeOptions
@@ -2416,7 +2416,7 @@ format
 self
 input
 :
-usize
+f64
 )
 -
 >
