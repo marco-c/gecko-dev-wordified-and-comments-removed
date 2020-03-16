@@ -22,9 +22,6 @@ mozconfig
 wasm
 -
 sandboxing
-MOZ_AUTOMATION_L10N_CHECK
-=
-0
 .
 topsrcdir
 /
