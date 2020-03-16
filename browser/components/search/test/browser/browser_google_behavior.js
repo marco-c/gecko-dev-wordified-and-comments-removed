@@ -749,7 +749,6 @@ tab
 .
 linkedBrowser
 ;
-await
 BrowserTestUtils
 .
 loadURI
@@ -768,6 +767,12 @@ BrowserTestUtils
 browserLoaded
 (
 browser
+false
+"
+about
+:
+newtab
+"
 )
 ;
 await
