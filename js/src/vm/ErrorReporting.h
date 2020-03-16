@@ -184,8 +184,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -208,8 +206,6 @@ UniquePtr
 JSErrorNotes
 >
 notes
-unsigned
-flags
 unsigned
 errorNumber
 va_list

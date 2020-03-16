@@ -10025,7 +10025,6 @@ move
 metadata
 )
 nullptr
-JSREPORT_ERROR
 JSMSG_USE_ASM_TYPE_FAIL
 &
 args

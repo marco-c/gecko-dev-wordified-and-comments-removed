@@ -3277,7 +3277,6 @@ move
 metadata
 )
 nullptr
-JSREPORT_ERROR
 errorNumber
 args
 )
@@ -5391,7 +5390,6 @@ move
 (
 notes
 )
-JSREPORT_ERROR
 errorNumber
 &
 args

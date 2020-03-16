@@ -876,7 +876,6 @@ move
 metadata
 )
 nullptr
-JSREPORT_ERROR
 errorNumber
 &
 args

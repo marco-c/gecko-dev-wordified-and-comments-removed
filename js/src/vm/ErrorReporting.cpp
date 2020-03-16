@@ -439,8 +439,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -510,7 +508,7 @@ err
 >
 flags
 =
-flags
+JSREPORT_ERROR
 ;
 err
 -
@@ -655,8 +653,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -680,7 +676,6 @@ move
 (
 notes
 )
-flags
 errorNumber
 args
 ArgumentsAreLatin1
@@ -706,8 +701,6 @@ JSErrorNotes
 >
 notes
 unsigned
-flags
-unsigned
 errorNumber
 va_list
 *
@@ -731,7 +724,6 @@ move
 (
 notes
 )
-flags
 errorNumber
 args
 ArgumentsAreUTF8
