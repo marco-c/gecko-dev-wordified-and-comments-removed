@@ -187,7 +187,10 @@ flags
 .
 join
 (
+sorted
+(
 flags
+)
 )
 if
 flags
