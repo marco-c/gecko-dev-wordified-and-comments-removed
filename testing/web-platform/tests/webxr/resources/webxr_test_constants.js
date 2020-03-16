@@ -402,10 +402,10 @@ VALID_RESOLUTION
 {
 width
 :
-20
+200
 height
 :
-20
+200
 }
 ;
 const
