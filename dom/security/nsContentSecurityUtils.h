@@ -100,15 +100,6 @@ nsIHttpChannel
 aHttpChannel
 )
 ;
-static
-void
-PerformCSPFrameAncestorAndXFOCheck
-(
-nsIChannel
-*
-aChannel
-)
-;
 #
 if
 defined
