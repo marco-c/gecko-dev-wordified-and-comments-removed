@@ -189,9 +189,6 @@ installer
 hg
 -
 bundle
-l10n
--
-check
 wget
 -
 en
