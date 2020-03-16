@@ -8,7 +8,7 @@ get_host_info
 (
 )
 .
-HTTPS_ORIGIN
+HTTP_ORIGIN
 name
 :
 "
@@ -26,7 +26,7 @@ get_host_info
 (
 )
 .
-HTTPS_NOTSAMESITE_ORIGIN
+HTTP_REMOTE_ORIGIN
 name
 :
 "
@@ -238,7 +238,6 @@ host
 .
 origin
 }
-/
 {
 path
 }
