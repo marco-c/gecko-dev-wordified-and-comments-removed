@@ -578,12 +578,6 @@ get
 }
 }
 }
-CloneAdoptedSheetsFrom
-(
-*
-aOther
-)
-;
 }
 nsresult
 ShadowRoot
