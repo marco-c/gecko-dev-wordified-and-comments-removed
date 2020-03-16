@@ -166,7 +166,7 @@ writer
 await
 handle
 .
-createWriter
+createWritable
 (
 {
 keepExistingData
@@ -180,7 +180,6 @@ writer
 .
 write
 (
-0
 new
 Blob
 (

@@ -367,7 +367,7 @@ writer
 await
 handle
 .
-createWriter
+createWritable
 (
 )
 ;
@@ -376,7 +376,6 @@ writer
 .
 write
 (
-0
 new
 Blob
 (
