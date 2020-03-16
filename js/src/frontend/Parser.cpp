@@ -11677,12 +11677,6 @@ null
 )
 ;
 }
-funpc
-.
-setIsStandaloneFunctionBody
-(
-)
-;
 YieldHandling
 yieldHandling
 =
