@@ -822,6 +822,7 @@ Bug1447141
 NvidiaBlockWebRender
 NvidiaRolloutWebRender
 IntelRolloutWebRender
+IntelModernRolloutWebRender
 AtiRolloutWebRender
 Max
 }
