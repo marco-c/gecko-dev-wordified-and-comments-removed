@@ -1247,12 +1247,21 @@ OK
 "
 PASS
 "
+                           
 "
 TIME
 "
 :
 "
 TIMEOUT
+"
+                           
+"
+TERMINATED
+"
+:
+"
+CRASH
 "
 }
     
