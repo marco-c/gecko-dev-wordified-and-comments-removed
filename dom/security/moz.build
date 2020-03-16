@@ -190,11 +190,6 @@ ReferrerInfo
 h
 '
 '
-SecFetch
-.
-h
-'
-'
 SRICheck
 .
 h
@@ -301,11 +296,6 @@ cpp
 '
 '
 ReferrerInfo
-.
-cpp
-'
-'
-SecFetch
 .
 cpp
 '
