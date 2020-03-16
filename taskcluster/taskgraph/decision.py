@@ -1157,7 +1157,10 @@ by
 task
 .
 json
+.
+gz
 '
+                   
 full_task_graph_to_manifests_by_task
 (
 full_task_json
