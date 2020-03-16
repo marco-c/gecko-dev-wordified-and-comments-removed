@@ -237,9 +237,6 @@ TransactionWrapper
 class
 WebRenderAPI
 ;
-struct
-WrTransformProperty
-;
 }
 namespace
 layers

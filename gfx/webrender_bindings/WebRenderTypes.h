@@ -3804,7 +3804,7 @@ id
 ;
 prop
 .
-transform
+value
 =
 ToLayoutTransform
 (
@@ -3844,7 +3844,7 @@ id
 ;
 prop
 .
-opacity
+value
 =
 opacity
 ;
@@ -3885,7 +3885,7 @@ id
 ;
 prop
 .
-color
+value
 =
 ToColorF
 (

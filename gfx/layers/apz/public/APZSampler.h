@@ -88,9 +88,6 @@ class
 TransactionWrapper
 ;
 struct
-WrTransformProperty
-;
-struct
 WrWindowId
 ;
 }
