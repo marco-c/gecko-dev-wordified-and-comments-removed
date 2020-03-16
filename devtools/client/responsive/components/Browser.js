@@ -760,9 +760,7 @@ iframe
 {
 allowFullScreen
 :
-"
 true
-"
 className
 :
 "
