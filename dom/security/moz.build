@@ -135,11 +135,6 @@ CSPEvalChecker
 h
 '
 '
-DOMSecurityManager
-.
-h
-'
-'
 DOMSecurityMonitor
 .
 h
@@ -236,11 +231,6 @@ UNIFIED_SOURCES
 [
 '
 CSPEvalChecker
-.
-cpp
-'
-'
-DOMSecurityManager
 .
 cpp
 '
