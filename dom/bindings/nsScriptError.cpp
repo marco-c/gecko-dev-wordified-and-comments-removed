@@ -113,15 +113,6 @@ JSREPORT_EXCEPTION
 nsIScriptError
 :
 :
-strictFlag
-=
-=
-JSREPORT_STRICT
-&
-&
-nsIScriptError
-:
-:
 infoFlag
 =
 =

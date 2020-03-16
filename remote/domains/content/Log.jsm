@@ -539,15 +539,6 @@ Ci
 nsIScriptError
 .
 warningFlag
-|
-|
-flags
-&
-Ci
-.
-nsIScriptError
-.
-strictFlag
 )
 {
 level
