@@ -4,11 +4,6 @@ Security
 -
 Policy
 :
-trusted
--
-types
-*
-;
 require
 -
 trusted
