@@ -422,16 +422,6 @@ html
 -
 python
 /
-mozboot
-/
-support
-/
-ConEmu
-.
-xml
--
-python
-/
 mozbuild
 /
 mozbuild
