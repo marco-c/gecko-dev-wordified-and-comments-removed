@@ -1247,7 +1247,6 @@ response
 ok
 &
 &
-(
 response
 .
 status
@@ -1261,7 +1260,6 @@ response
 status
 <
 400
-)
 )
 {
 let
@@ -2881,7 +2879,6 @@ p
 enabled
 &
 &
-(
 ASRouterPreferences
 .
 getUserPreference
@@ -2922,7 +2919,6 @@ c
 =
 =
 false
-)
 )
 )
 )

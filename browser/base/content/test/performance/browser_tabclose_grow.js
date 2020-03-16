@@ -183,6 +183,7 @@ r
 >
 !
 (
+(
 r
 .
 y1
@@ -251,6 +252,7 @@ gBrowser
 tabs
 .
 length
+)
 )
 )
 )

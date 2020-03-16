@@ -8334,9 +8334,9 @@ getGlobalForObject
 (
 Services
 )
-)
 .
 Object
+)
 (
 )
 ;

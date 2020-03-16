@@ -1017,7 +1017,6 @@ STATE_STOP
 )
 |
 |
-(
 !
 aWebProgress
 .
@@ -1035,7 +1034,6 @@ Components
 isSuccessCode
 (
 aStatus
-)
 )
 )
 {

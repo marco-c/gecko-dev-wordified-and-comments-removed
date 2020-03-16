@@ -173,6 +173,7 @@ r
 >
 !
 (
+(
 r
 .
 y1
@@ -232,6 +233,7 @@ origTab
 clientWidth
 *
 2
+)
 )
 )
 )

@@ -489,7 +489,6 @@ timeout
 )
 |
 |
-(
 !
 Number
 .
@@ -502,7 +501,6 @@ interval
 interval
 <
 0
-)
 )
 {
 throw

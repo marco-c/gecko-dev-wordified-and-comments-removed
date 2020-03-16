@@ -163,6 +163,7 @@ r
 >
 !
 (
+(
 r
 .
 x1
@@ -205,6 +206,7 @@ y2
 dropmarkerRect
 .
 bottom
+)
 )
 )
 }

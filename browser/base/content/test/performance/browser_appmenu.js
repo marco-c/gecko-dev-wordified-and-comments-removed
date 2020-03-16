@@ -241,6 +241,7 @@ r
 >
 !
 (
+(
 r
 .
 y1
@@ -279,6 +280,7 @@ x2
 menuButtonRect
 .
 right
+)
 )
 )
 exceptions

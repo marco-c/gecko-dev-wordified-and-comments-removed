@@ -1694,7 +1694,6 @@ if
 getterValue
 &
 &
-(
 getterValue
 .
 class
@@ -1713,7 +1712,6 @@ promiseState
 "
 rejected
 "
-)
 )
 {
 const

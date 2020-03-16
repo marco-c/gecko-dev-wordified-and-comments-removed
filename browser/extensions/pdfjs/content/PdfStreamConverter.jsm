@@ -725,7 +725,6 @@ total
 0
 |
 |
-(
 typeof
 current
 !
@@ -744,7 +743,6 @@ current
 current
 >
 total
-)
 )
 {
 return

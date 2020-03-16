@@ -47301,7 +47301,6 @@ macosx
 "
 |
 |
-(
 isPBWindow
 |
 |
@@ -47315,7 +47314,6 @@ gBrowser
 closingTabsEnum
 .
 ALL
-)
 )
 )
 ;

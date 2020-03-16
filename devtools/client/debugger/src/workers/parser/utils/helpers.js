@@ -115,7 +115,6 @@ node
 )
 |
 |
-(
 t
 .
 isAwaitExpression
@@ -131,7 +130,6 @@ t
 isAwaitExpression
 (
 parent
-)
 )
 )
 ;
@@ -163,7 +161,6 @@ node
 )
 |
 |
-(
 t
 .
 isYieldExpression
@@ -179,7 +176,6 @@ t
 isYieldExpression
 (
 parent
-)
 )
 )
 ;

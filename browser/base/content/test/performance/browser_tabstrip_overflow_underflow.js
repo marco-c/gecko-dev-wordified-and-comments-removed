@@ -107,6 +107,7 @@ r
 >
 !
 (
+(
 r
 .
 y1
@@ -145,6 +146,7 @@ x2
 tabStripRect
 .
 right
+)
 )
 )
 exceptions

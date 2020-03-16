@@ -364,10 +364,12 @@ profiler
 ;
 delete
 (
+(
 element
-)
 .
 _addedEventListeners
+)
+)
 ;
 }
 }

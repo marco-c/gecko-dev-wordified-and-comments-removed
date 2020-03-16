@@ -87,7 +87,6 @@ element
 disabled
 &
 &
-(
 bounds
 .
 width
@@ -100,7 +99,6 @@ bounds
 height
 >
 0
-)
 ;
 }
 )
