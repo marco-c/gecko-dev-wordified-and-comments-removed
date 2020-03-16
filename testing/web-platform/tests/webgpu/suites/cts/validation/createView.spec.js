@@ -1438,12 +1438,6 @@ arrayLayerCount
 }
 )
 ;
-texture
-.
-destroy
-(
-)
-;
 const
 commandEncoder
 =
@@ -1506,6 +1500,12 @@ a
 renderPass
 .
 endPass
+(
+)
+;
+texture
+.
+destroy
 (
 )
 ;
