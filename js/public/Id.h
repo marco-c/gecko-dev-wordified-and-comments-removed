@@ -205,10 +205,6 @@ id
 .
 asBits
 )
-#
-define
-id
-iden
 static
 MOZ_ALWAYS_INLINE
 bool
@@ -1209,9 +1205,6 @@ isSome
 )
 ;
 }
-#
-undef
-id
 }
 #
 endif
