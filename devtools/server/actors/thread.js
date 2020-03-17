@@ -1563,7 +1563,7 @@ exited
 "
 )
 {
-return
+throw
 {
 error
 :
@@ -1593,7 +1593,7 @@ detached
 "
 )
 {
-return
+throw
 {
 error
 :
@@ -1819,7 +1819,7 @@ if
 packet
 )
 {
-return
+throw
 {
 error
 :
@@ -1883,9 +1883,6 @@ _pushThreadPause
 (
 )
 ;
-return
-null
-;
 }
 catch
 (
@@ -1902,7 +1899,7 @@ SERVER
 e
 )
 ;
-return
+throw
 {
 error
 :
