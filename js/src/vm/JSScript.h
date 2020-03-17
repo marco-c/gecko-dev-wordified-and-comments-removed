@@ -9579,7 +9579,7 @@ enclosingScript
 )
 ;
 bool
-enclosingScriptHasEverBeenCompiled
+isReadyForDelazification
 (
 )
 const

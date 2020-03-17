@@ -2794,7 +2794,7 @@ if
 lazy
 -
 >
-enclosingScriptHasEverBeenCompiled
+isReadyForDelazification
 (
 )
 )

@@ -7867,7 +7867,7 @@ MOZ_ASSERT
 lazy
 -
 >
-isLazyScript
+isReadyForDelazification
 (
 )
 )
@@ -7995,7 +7995,7 @@ MOZ_ASSERT
 lazy
 -
 >
-isLazyScript
+isReadyForDelazification
 (
 )
 )
@@ -8087,7 +8087,7 @@ MOZ_ASSERT
 lazy
 -
 >
-isLazyScript
+isReadyForDelazification
 (
 )
 )
