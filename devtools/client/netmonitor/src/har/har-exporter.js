@@ -707,12 +707,8 @@ connector
 ;
 const
 {
-form
-:
-{
 title
 url
-}
 }
 =
 getTabTarget
