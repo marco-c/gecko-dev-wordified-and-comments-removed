@@ -350,7 +350,7 @@ return
 MediaSessionPlaybackTestState
 :
 :
-None
+Stopped
 ;
 }
 }

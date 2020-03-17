@@ -114,7 +114,7 @@ state
 should
 be
 '
-none
+stopped
 '
 )
 ;
@@ -123,7 +123,7 @@ isActualPlaybackStateEqualTo
 (
 tab
 "
-none
+stopped
 "
 )
 ;
