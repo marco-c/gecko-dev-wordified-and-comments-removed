@@ -8845,8 +8845,9 @@ AllocationMetadataBuilder
 AllocationMetadataBuilder
 (
 )
-{
-}
+=
+default
+;
 virtual
 JSObject
 *

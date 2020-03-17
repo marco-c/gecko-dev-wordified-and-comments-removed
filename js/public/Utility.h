@@ -2552,8 +2552,9 @@ constexpr
 DeletePolicy
 (
 )
-{
-}
+=
+default
+;
 template
 <
 typename

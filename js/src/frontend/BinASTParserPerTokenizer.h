@@ -274,12 +274,6 @@ lazyScript
 nullptr
 )
 ;
-~
-BinASTParserPerTokenizer
-(
-)
-{
-}
 JS
 :
 :

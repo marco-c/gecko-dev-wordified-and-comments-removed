@@ -650,8 +650,9 @@ public
 SymbolRegistry
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 bool

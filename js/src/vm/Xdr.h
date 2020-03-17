@@ -925,8 +925,8 @@ virtual
 XDRState
 (
 )
-{
-}
+=
+default
 ;
 JSContext
 *
@@ -2587,8 +2587,9 @@ virtual
 XDRIncrementalEncoder
 (
 )
-{
-}
+=
+default
+;
 bool
 hasAtomMap
 (

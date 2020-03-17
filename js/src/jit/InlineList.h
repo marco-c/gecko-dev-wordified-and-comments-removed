@@ -3123,8 +3123,9 @@ public
 InlineSpaghettiStack
 (
 )
-{
-}
+=
+default
+;
 public
 :
 using

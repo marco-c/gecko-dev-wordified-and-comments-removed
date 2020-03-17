@@ -2720,8 +2720,9 @@ private
 Handle
 (
 )
-{
-}
+=
+default
+;
 DELETE_ASSIGNMENT_OPS
 (
 Handle
@@ -2993,8 +2994,9 @@ private
 MutableHandle
 (
 )
-{
-}
+=
+default
+;
 DELETE_ASSIGNMENT_OPS
 (
 MutableHandle

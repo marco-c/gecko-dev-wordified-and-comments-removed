@@ -108,8 +108,8 @@ virtual
 XPCLocaleObserver
 (
 )
-{
-}
+=
+default
 ;
 }
 ;

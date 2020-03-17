@@ -120,8 +120,9 @@ constexpr
 XrayTraits
 (
 )
-{
-}
+=
+default
+;
 static
 JSObject
 *

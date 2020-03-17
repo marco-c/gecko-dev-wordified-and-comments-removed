@@ -98,8 +98,9 @@ public
 AutoFile
 (
 )
-{
-}
+=
+default
+;
 ~
 AutoFile
 (

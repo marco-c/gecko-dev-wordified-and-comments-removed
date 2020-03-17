@@ -620,8 +620,9 @@ public
 TraceLoggerGraph
 (
 )
-{
-}
+=
+default
+;
 ~
 TraceLoggerGraph
 (
