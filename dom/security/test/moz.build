@@ -152,6 +152,15 @@ mochitest
 ini
 '
 '
+https
+-
+only
+/
+mochitest
+.
+ini
+'
+'
 mixedcontentblocker
 /
 mochitest
