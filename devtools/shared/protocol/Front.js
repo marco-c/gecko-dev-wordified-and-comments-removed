@@ -162,7 +162,7 @@ Map
 )
 ;
 }
-parent
+getParent
 (
 )
 {

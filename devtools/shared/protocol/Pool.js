@@ -52,7 +52,7 @@ __poolMap
 null
 ;
 }
-parent
+getParent
 (
 )
 {
@@ -176,7 +176,7 @@ parent
 =
 actor
 .
-parent
+getParent
 (
 )
 ;
@@ -419,7 +419,7 @@ parent
 =
 this
 .
-parent
+getParent
 (
 )
 ;

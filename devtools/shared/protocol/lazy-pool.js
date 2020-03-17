@@ -437,7 +437,7 @@ return
 constructor
 ;
 }
-parent
+getParent
 :
 function
 (
@@ -470,7 +470,7 @@ parent
 =
 this
 .
-parent
+getParent
 (
 )
 ;

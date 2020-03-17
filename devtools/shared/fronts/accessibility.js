@@ -299,7 +299,7 @@ marshallPool
 return
 this
 .
-parent
+getParent
 (
 )
 ;
@@ -515,7 +515,7 @@ accessibilityWalkerFront
 =
 this
 .
-parent
+getParent
 (
 )
 ;
@@ -600,7 +600,7 @@ accessibilityWalkerFront
 =
 this
 .
-parent
+getParent
 (
 )
 ;
@@ -631,7 +631,7 @@ accessibilityWalkerFront
 =
 this
 .
-parent
+getParent
 (
 )
 ;

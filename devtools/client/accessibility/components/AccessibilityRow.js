@@ -979,7 +979,7 @@ accessibleWalkerFront
 =
 accessibleFront
 .
-parent
+getParent
 (
 )
 ;
@@ -1058,7 +1058,7 @@ accessibleWalkerFront
 =
 accessibleFront
 .
-parent
+getParent
 (
 )
 ;
