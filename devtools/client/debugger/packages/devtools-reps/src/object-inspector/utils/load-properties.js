@@ -25,7 +25,6 @@ getClosestNonBucketNode
 getFront
 getValue
 nodeHasAccessors
-nodeHasAllEntriesInPreview
 nodeHasProperties
 nodeIsBucket
 nodeIsDefaultProperties
@@ -768,13 +767,6 @@ getClosestNonBucketNode
 (
 item
 )
-)
-&
-&
-!
-nodeHasAllEntriesInPreview
-(
-gripItem
 )
 &
 &
