@@ -483,6 +483,7 @@ aFillRule
 bool
 cacheable
 =
+(
 aDrawTarget
 -
 >
@@ -500,6 +501,16 @@ GetPlatform
 -
 >
 GetDefaultContentBackend
+(
+)
+)
+&
+&
+!
+aDrawTarget
+-
+>
+IsCaptureDT
 (
 )
 ;
