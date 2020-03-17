@@ -1335,12 +1335,6 @@ roles
 :
 SPLITBUTTON
 :
-case
-roles
-:
-:
-TOGGLE_BUTTON
-:
 {
 return
 [
@@ -1366,6 +1360,12 @@ roles
 :
 :
 CHECKBUTTON
+:
+case
+roles
+:
+:
+TOGGLE_BUTTON
 :
 return
 [

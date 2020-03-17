@@ -5906,6 +5906,17 @@ return
 AXInsertStyleGroup
 "
 ;
+case
+roles
+:
+:
+TOGGLE_BUTTON
+:
+return
+"
+AXToggle
+"
+;
 default
 :
 break
