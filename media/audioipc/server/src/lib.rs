@@ -87,15 +87,6 @@ use
 std
 :
 :
-error
-:
-:
-Error
-;
-use
-std
-:
-:
 ffi
 :
 :
@@ -452,10 +443,6 @@ thread
 }
 "
 e
-.
-description
-(
-)
 )
 ;
 Err
@@ -518,10 +505,6 @@ thread
 }
 "
 e
-.
-description
-(
-)
 )
 ;
 Err
