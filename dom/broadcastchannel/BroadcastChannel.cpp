@@ -2065,6 +2065,17 @@ CheckCurrentGlobalCorrectness
 return
 ;
 }
+if
+(
+mState
+!
+=
+StateActive
+)
+{
+return
+;
+}
 nsCOMPtr
 <
 nsIGlobalObject
