@@ -1034,6 +1034,15 @@ MediaMetadataInit
 aMetadata
 )
 ;
+static
+MediaSessionPlaybackTestState
+GetCurrentMediaSessionPlaybackState
+(
+GlobalObject
+&
+aGlobal
+)
+;
 }
 ;
 }

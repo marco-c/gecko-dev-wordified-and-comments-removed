@@ -163,6 +163,12 @@ GetMainControllerMediaMetadata
 )
 const
 ;
+MediaSessionPlaybackState
+GetMainControllerPlaybackState
+(
+)
+const
+;
 private
 :
 MediaControlService
