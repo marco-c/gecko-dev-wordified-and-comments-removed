@@ -185,12 +185,6 @@ Segmenter
 "
     
 "
-optional
--
-chaining
-"
-    
-"
 top
 -
 level
@@ -220,7 +214,7 @@ Atomics
 "
     
 "
-FinalizationGroup
+FinalizationRegistry
 "
 :
 "
@@ -230,7 +224,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 "
@@ -1933,7 +1927,7 @@ features
 ]
 or
 "
-FinalizationGroup
+FinalizationRegistry
 "
 in
 testRec
