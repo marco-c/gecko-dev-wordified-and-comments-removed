@@ -2593,12 +2593,10 @@ start
         
 except
 Exception
-as
-e
 :
             
+exc_cls
 exc
-val
 tb
 =
 sys
@@ -2607,8 +2605,12 @@ exc_info
 (
 )
             
-message
-=
+reraise
+(
+exc_cls
+exc_cls
+(
+                
 "
 Error
 possibly
@@ -2622,17 +2624,11 @@ args
 {
 }
 "
-            
-reraise
-(
-exc
-message
 .
 format
 (
-e
-.
-message
+exc
+)
 )
 tb
 )

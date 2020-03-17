@@ -3383,7 +3383,10 @@ value
 reraise
 (
 IOError
+IOError
+(
 msg
+)
 tb
 )
         
@@ -3450,26 +3453,26 @@ for
 errors
 "
             
-_
-_
-tb
-=
-sys
-.
-exc_info
-(
-)
-            
 reraise
 (
 IOError
+IOError
+(
 msg
 .
 format
 (
 timeout
 )
-tb
+)
+sys
+.
+exc_info
+(
+)
+[
+2
+]
 )
     
 def
@@ -4510,8 +4513,8 @@ decorator
 "
 "
         
+exc_cls
 exc
-val
 tb
 =
 sys
@@ -4529,8 +4532,8 @@ instance
             
 reraise
 (
+exc_cls
 exc
-val
 tb
 )
         
@@ -4689,6 +4692,8 @@ reason
 reraise
 (
 IOError
+IOError
+(
 message
 .
 format
@@ -4698,7 +4703,8 @@ returncode
 returncode
 reason
 =
-val
+exc
+)
 )
 tb
 )
@@ -7235,8 +7241,8 @@ socket
 timeout
 :
                 
-exc
-val
+exc_cls
+_
 tb
 =
 sys
@@ -7291,7 +7297,9 @@ request
                     
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 message
 .
 format
@@ -7299,6 +7307,7 @@ format
 self
 .
 shutdown_timeout
+)
 )
 tb
 )
@@ -7331,7 +7340,9 @@ code
                     
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 msg
 .
 format
@@ -7343,6 +7354,7 @@ instance
 runner
 .
 returncode
+)
 )
 tb
 )

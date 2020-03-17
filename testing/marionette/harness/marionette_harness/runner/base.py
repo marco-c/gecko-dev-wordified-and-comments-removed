@@ -4960,16 +4960,6 @@ as
 e
 :
                     
-exc
-val
-tb
-=
-sys
-.
-exc_info
-(
-)
-                    
 msg
 =
 "
@@ -4992,11 +4982,14 @@ formatted
                     
 reraise
 (
-exc
+ValueError
+ValueError
+(
 msg
 .
 format
 (
+                        
 os
 .
 path
@@ -5006,10 +4999,16 @@ abspath
 path
 )
 e
-.
-message
 )
-tb
+)
+sys
+.
+exc_info
+(
+)
+[
+2
+]
 )
         
 return
@@ -5704,8 +5703,8 @@ as
 e
 :
                     
-exc
-val
+exc_cls
+_
 tb
 =
 sys
@@ -5738,7 +5737,9 @@ error
                     
 reraise
 (
-exc
+exc_cls
+exc_cls
+(
 msg
 .
 format
@@ -5746,6 +5747,7 @@ format
 host
 port
 e
+)
 )
 tb
 )
