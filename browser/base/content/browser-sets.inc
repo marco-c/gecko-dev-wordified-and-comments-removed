@@ -4989,11 +4989,6 @@ preferences
 -
 shortcut
 "
-reserved
-=
-"
-true
-"
 modifiers
 =
 "
