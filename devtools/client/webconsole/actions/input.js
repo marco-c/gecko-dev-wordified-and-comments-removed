@@ -1013,11 +1013,6 @@ return
 null
 ;
 }
-const
-originalExpression
-=
-expression
-;
 dispatch
 (
 {
@@ -1056,8 +1051,6 @@ type
 :
 SET_TERMINAL_EAGER_RESULT
 expression
-:
-originalExpression
 result
 :
 null
@@ -1137,9 +1130,6 @@ dispatch
 type
 :
 SET_TERMINAL_EAGER_RESULT
-expression
-:
-originalExpression
 result
 :
 getEagerEvaluationResult
