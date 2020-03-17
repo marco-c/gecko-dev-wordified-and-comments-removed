@@ -974,7 +974,7 @@ PersistentRooted
 <
 ObjectVector
 >
-finalizationGroupsToCleanUp
+finalizationRegistriesToCleanUp
 ;
 }
 ;

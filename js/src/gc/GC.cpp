@@ -1945,7 +1945,7 @@ include
 "
 builtin
 /
-FinalizationGroupObject
+FinalizationRegistryObject
 .
 h
 "
@@ -10678,16 +10678,16 @@ void
 GCRuntime
 :
 :
-setHostCleanupFinalizationGroupCallback
+setHostCleanupFinalizationRegistryCallback
 (
-JSHostCleanupFinalizationGroupCallback
+JSHostCleanupFinalizationRegistryCallback
 callback
 void
 *
 data
 )
 {
-hostCleanupFinalizationGroupCallback
+hostCleanupFinalizationRegistryCallback
 .
 ref
 (
@@ -10703,11 +10703,11 @@ void
 GCRuntime
 :
 :
-callHostCleanupFinalizationGroupCallback
+callHostCleanupFinalizationRegistryCallback
 (
-FinalizationGroupObject
+FinalizationRegistryObject
 *
-group
+registry
 )
 {
 JS
@@ -10721,7 +10721,7 @@ auto
 &
 callback
 =
-hostCleanupFinalizationGroupCallback
+hostCleanupFinalizationRegistryCallback
 .
 ref
 (
@@ -10738,7 +10738,7 @@ callback
 .
 op
 (
-group
+registry
 callback
 .
 data
@@ -14465,7 +14465,7 @@ sweepTypesAfterCompacting
 zone
 )
 ;
-sweepFinalizationGroups
+sweepFinalizationRegistries
 (
 zone
 )
@@ -33028,7 +33028,7 @@ void
 GCRuntime
 :
 :
-sweepFinalizationGroupsOnMainThread
+sweepFinalizationRegistriesOnMainThread
 (
 )
 {
@@ -33067,7 +33067,7 @@ gcstats
 PhaseKind
 :
 :
-SWEEP_FINALIZATION_GROUPS
+SWEEP_FINALIZATION_REGISTRIES
 )
 ;
 for
@@ -33092,7 +33092,7 @@ next
 )
 )
 {
-sweepFinalizationGroups
+sweepFinalizationRegistries
 (
 zone
 )
@@ -34913,7 +34913,7 @@ sweepJitDataOnMainThread
 fop
 )
 ;
-sweepFinalizationGroupsOnMainThread
+sweepFinalizationRegistriesOnMainThread
 (
 )
 ;

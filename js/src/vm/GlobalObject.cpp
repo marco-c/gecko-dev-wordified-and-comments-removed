@@ -151,7 +151,7 @@ include
 "
 builtin
 /
-FinalizationGroupObject
+FinalizationRegistryObject
 .
 h
 "
@@ -1015,7 +1015,7 @@ case
 JSProto_WeakRef
 :
 case
-JSProto_FinalizationGroup
+JSProto_FinalizationRegistry
 :
 return
 !

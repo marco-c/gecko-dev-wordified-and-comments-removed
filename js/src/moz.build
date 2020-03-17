@@ -1742,7 +1742,7 @@ cpp
 '
 builtin
 /
-FinalizationGroupObject
+FinalizationRegistryObject
 .
 cpp
 '

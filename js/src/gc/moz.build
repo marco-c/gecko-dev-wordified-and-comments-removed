@@ -205,7 +205,7 @@ Barrier
 cpp
 '
 '
-FinalizationGroup
+FinalizationRegistry
 .
 cpp
 '

@@ -697,11 +697,11 @@ IDs
 PhaseKind
 (
 "
-SWEEP_FINALIZATION_GROUPS
+SWEEP_FINALIZATION_REGISTRIES
 "
 "
 Sweep
-FinalizationGroups
+FinalizationRegistries
 "
 74
 [

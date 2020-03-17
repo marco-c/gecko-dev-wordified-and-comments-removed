@@ -28282,7 +28282,7 @@ JavaScript
 WeakRef
 and
 #
-FinalizationGroup
+FinalizationRegistry
 )
 .
 -

@@ -322,7 +322,7 @@ data
 )
 ;
 using
-JSHostCleanupFinalizationGroupCallback
+JSHostCleanupFinalizationRegistryCallback
 =
 void
 (
@@ -331,7 +331,7 @@ void
 (
 JSObject
 *
-group
+registry
 void
 *
 data
@@ -2061,12 +2061,12 @@ rt
 extern
 JS_PUBLIC_API
 void
-SetHostCleanupFinalizationGroupCallback
+SetHostCleanupFinalizationRegistryCallback
 (
 JSContext
 *
 cx
-JSHostCleanupFinalizationGroupCallback
+JSHostCleanupFinalizationRegistryCallback
 cb
 void
 *

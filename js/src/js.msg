@@ -10798,10 +10798,10 @@ Error
 )
 /
 /
-FinalizationGroup
+FinalizationRegistry
 MSG_DEF
 (
-JSMSG_NOT_A_FINALIZATION_GROUP
+JSMSG_NOT_A_FINALIZATION_REGISTRY
 1
 JSEXN_TYPEERR
 "
@@ -10811,7 +10811,7 @@ JSEXN_TYPEERR
 is
 not
 a
-FinalizationGroup
+FinalizationRegistry
 "
 )
 MSG_DEF
@@ -10826,7 +10826,7 @@ JSEXN_TYPEERR
 is
 not
 a
-FinalizationGroupCleanupIterator
+FinalizationRegistryCleanupIterator
 "
 )
 MSG_DEF
@@ -10840,7 +10840,7 @@ heldValue
 parameter
 passed
 to
-FinalizationGroup
+FinalizationRegistry
 .
 register
 must
@@ -10872,7 +10872,7 @@ to
 )
 MSG_DEF
 (
-JSMSG_STALE_FINALIZATION_GROUP_ITERATOR
+JSMSG_STALE_FINALIZATION_REGISTRY_ITERATOR
 0
 JSEXN_TYPEERR
 "
@@ -10882,7 +10882,7 @@ t
 use
 stale
 finalization
-group
+registry
 iterator
 "
 )
@@ -10896,7 +10896,7 @@ Can
 '
 t
 call
-FinalizeGroup
+FinalizeRegistry
 .
 cleanupSome
 while
