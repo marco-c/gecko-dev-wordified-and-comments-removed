@@ -2364,11 +2364,10 @@ mallocSizeOf_
 ;
 if
 (
-!
 base
 -
 >
-isLazyScript
+hasJitScript
 (
 )
 )
