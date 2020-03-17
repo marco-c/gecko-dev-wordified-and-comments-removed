@@ -3849,11 +3849,6 @@ sweepCompressionTasks
 )
 ;
 void
-sweepLazyScripts
-(
-)
-;
-void
 sweepWeakMaps
 (
 )
