@@ -54,7 +54,7 @@ include
 "
 mozilla
 /
-BlocksRingBuffer
+Maybe
 .
 h
 "
@@ -63,7 +63,7 @@ include
 "
 mozilla
 /
-Maybe
+ProfileBufferEntrySerialization
 .
 h
 "
@@ -209,7 +209,7 @@ ProfilerMarkerPayload
 {
 }
 static
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -467,7 +467,7 @@ aCommonProps
 {
 }
 MFBT_API
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -536,7 +536,7 @@ const
 private
 :
 virtual
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -626,13 +626,14 @@ aEntryReader
 ;
 \
 MFBT_API
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
 TagAndSerializationBytes
 (
 )
+\
 const
 override
 ;

@@ -1284,7 +1284,7 @@ aEndTime
 mozilla
 :
 :
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length

@@ -52,15 +52,6 @@ include
 "
 mozilla
 /
-BlocksRingBufferGeckoExtensions
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -82,6 +73,15 @@ include
 mozilla
 /
 Preferences
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ProfileBufferEntrySerializationGeckoExtensions
 .
 h
 "
@@ -416,7 +416,7 @@ aMarkerType
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -434,7 +434,7 @@ sizeof
 DeserializerTag
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -684,7 +684,7 @@ EndObject
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -701,7 +701,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -945,7 +945,7 @@ end
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -962,7 +962,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1207,7 +1207,7 @@ get
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1224,7 +1224,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1565,7 +1565,7 @@ endMark
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1582,7 +1582,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1735,7 +1735,7 @@ get
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1752,7 +1752,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1949,7 +1949,7 @@ get
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1969,7 +1969,7 @@ TagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2189,7 +2189,7 @@ get
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2206,7 +2206,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2654,7 +2654,7 @@ get
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2671,7 +2671,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2892,7 +2892,7 @@ y
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -3012,7 +3012,7 @@ aWriter
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -3029,7 +3029,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -3717,7 +3717,7 @@ responseEnd
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -3734,7 +3734,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -3985,7 +3985,7 @@ height
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -4002,7 +4002,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -4181,7 +4181,7 @@ timings
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -4198,7 +4198,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -4377,7 +4377,7 @@ timings
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -4394,7 +4394,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -4573,7 +4573,7 @@ nursery
 ;
 }
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -4698,7 +4698,7 @@ aUniqueStacks
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -4715,7 +4715,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -4920,7 +4920,7 @@ mStylesReused
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -5054,7 +5054,7 @@ LongTask
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -5071,7 +5071,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -5449,7 +5449,7 @@ mInNursery
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -5466,7 +5466,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -5678,7 +5678,7 @@ mThreadId
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -5695,7 +5695,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes

@@ -81,7 +81,16 @@ include
 "
 mozilla
 /
-BlocksRingBufferGeckoExtensions
+BlocksRingBuffer
+.
+h
+"
+#
+include
+"
+mozilla
+/
+ProfileBufferEntrySerializationGeckoExtensions
 .
 h
 "
@@ -2692,7 +2701,7 @@ sNumDestroyed
 =
 0
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2709,7 +2718,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes

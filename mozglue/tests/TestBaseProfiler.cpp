@@ -10643,7 +10643,7 @@ ProfileBufferEntryReader
 aEntryReader
 )
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -10798,7 +10798,7 @@ data
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length

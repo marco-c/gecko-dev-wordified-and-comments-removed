@@ -381,7 +381,7 @@ aMarkerType
 )
 ;
 }
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -399,7 +399,7 @@ sizeof
 DeserializerTag
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -739,7 +739,7 @@ TracingMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -756,7 +756,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1131,7 +1131,7 @@ FileIOMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1148,7 +1148,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -1613,7 +1613,7 @@ UserTimingMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -1630,7 +1630,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2170,7 +2170,7 @@ TextMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2187,7 +2187,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2444,7 +2444,7 @@ LogMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2461,7 +2461,7 @@ CommonPropsTagAndSerializationBytes
 (
 )
 +
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 SumBytes
@@ -2716,7 +2716,7 @@ HangMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
@@ -2896,7 +2896,7 @@ LongTaskMarkerPayload
 =
 default
 ;
-BlocksRingBuffer
+ProfileBufferEntryWriter
 :
 :
 Length
