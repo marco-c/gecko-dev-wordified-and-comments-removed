@@ -5149,7 +5149,7 @@ nullptr
 delimited
 in
 the
-LazyScript
+BaseScript
 closed
 over
 bindings
@@ -10305,7 +10305,7 @@ Yes
 /
 /
 The
-LazyScript
+BaseScript
 for
 a
 lazily
@@ -16399,7 +16399,8 @@ When
 fully
 parsing
 a
-LazyScript
+lazy
+script
 we
 do
 not
@@ -16420,9 +16421,9 @@ their
 free
 variables
 and
-/
-/
 source
+/
+/
 extents
 are
 recorded

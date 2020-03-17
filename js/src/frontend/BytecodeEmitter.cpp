@@ -14119,7 +14119,8 @@ The
 TreatAsRunOnce
 flag
 on
-LazyScript
+lazy
+BaseScript
 was
 computed
 without
@@ -14136,9 +14137,9 @@ must
 compute
 the
 shouldSuppressRunOnce
-/
-/
 conditions
+/
+/
 now
 that
 we
