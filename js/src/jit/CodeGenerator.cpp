@@ -83229,7 +83229,7 @@ strict
 callVM
 <
 Fn
-DeletePropertyJit
+DelPropOperation
 <
 true
 >
@@ -83244,7 +83244,7 @@ else
 callVM
 <
 Fn
-DeletePropertyJit
+DelPropOperation
 <
 false
 >
@@ -83324,7 +83324,7 @@ strict
 callVM
 <
 Fn
-DeleteElementJit
+DelElemOperation
 <
 true
 >
@@ -83339,7 +83339,7 @@ else
 callVM
 <
 Fn
-DeleteElementJit
+DelElemOperation
 <
 false
 >
