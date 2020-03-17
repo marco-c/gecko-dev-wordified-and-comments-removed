@@ -188,9 +188,7 @@ onPaused
 )
 ;
 const
-[
 threadFront
-]
 =
 await
 targetFront

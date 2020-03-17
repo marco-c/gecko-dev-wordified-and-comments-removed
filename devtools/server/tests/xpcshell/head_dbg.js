@@ -3464,9 +3464,7 @@ attach
 )
 ;
 const
-[
 threadFront
-]
 =
 await
 attachThread

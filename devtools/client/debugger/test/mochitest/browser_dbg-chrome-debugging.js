@@ -312,9 +312,7 @@ attach
 )
 ;
 const
-[
 threadFront
-]
 =
 await
 front

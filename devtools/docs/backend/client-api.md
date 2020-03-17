@@ -790,10 +790,7 @@ then
 (
 function
 (
-[
-response
 threadFront
-]
 )
 {
 if
@@ -1180,10 +1177,7 @@ attachThread
 then
 (
 (
-[
-response
 threadFront
-]
 )
 =
 >
