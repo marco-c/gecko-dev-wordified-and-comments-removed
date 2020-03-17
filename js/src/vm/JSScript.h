@@ -9374,11 +9374,6 @@ MUTABLE_FLAG_GETTER_SETTER
 spewEnabled
 SpewEnabled
 )
-MUTABLE_FLAG_GETTER_SETTER
-(
-isLazyScript
-IsLazyScript
-)
 #
 undef
 IMMUTABLE_FLAG_GETTER

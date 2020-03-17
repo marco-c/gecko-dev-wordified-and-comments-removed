@@ -675,12 +675,6 @@ SpewEnabled
 <
 <
 27
-IsLazyScript
-=
-1
-<
-<
-28
 }
 ;
 class
