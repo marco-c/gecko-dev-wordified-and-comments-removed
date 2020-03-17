@@ -191,7 +191,7 @@ rgba
 ;
 -
 -
-trailhead
+welcome
 -
 header
 -
@@ -204,7 +204,7 @@ color
 ;
 -
 -
-trailhead
+welcome
 -
 cards
 -
@@ -217,7 +217,7 @@ EDEDF0
 ;
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -239,7 +239,7 @@ rgba
 ;
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -263,7 +263,7 @@ rgba
 ;
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -375,7 +375,7 @@ var
 (
 -
 -
-trailhead
+welcome
 -
 cards
 -
@@ -420,7 +420,7 @@ relative
 ;
 }
 .
-trailheadCardGrid
+welcomeCardGrid
 {
 margin
 :
@@ -471,7 +471,7 @@ rows
 ;
 }
 .
-trailheadCardGrid
+welcomeCardGrid
 .
 show
 {
@@ -490,7 +490,7 @@ width
 )
 {
 .
-trailheadCardGrid
+welcomeCardGrid
 {
 grid
 -
@@ -518,7 +518,7 @@ width
 )
 {
 .
-trailheadCardGrid
+welcomeCardGrid
 {
 grid
 -
@@ -537,7 +537,7 @@ fit
 }
 }
 .
-trailheadCards
+welcomeContainer
 {
 text
 -
@@ -556,7 +556,7 @@ width
 )
 {
 .
-trailheadCards
+welcomeContainer
 {
 max
 -
@@ -567,7 +567,7 @@ height
 }
 }
 .
-trailheadCards
+welcomeContainer
 h1
 {
 font
@@ -594,7 +594,7 @@ var
 (
 -
 -
-trailhead
+welcome
 -
 header
 -
@@ -605,7 +605,7 @@ color
 ;
 }
 .
-trailheadCards
+welcomeContainer
 .
 welcome
 -
@@ -625,7 +625,7 @@ height
 ;
 }
 .
-trailheadCards
+welcomeContainer
 .
 welcome
 -
@@ -668,7 +668,7 @@ height
 ;
 }
 .
-trailheadCardsInner
+welcomeContainerInner
 {
 margin
 :
@@ -690,7 +690,7 @@ width
 )
 {
 .
-trailheadCardsInner
+welcomeContainerInner
 {
 width
 :
@@ -708,7 +708,7 @@ width
 )
 {
 .
-trailheadCardsInner
+welcomeContainerInner
 {
 width
 :
@@ -726,7 +726,7 @@ width
 )
 {
 .
-trailheadCardsInner
+welcomeContainerInner
 {
 width
 :
@@ -735,7 +735,7 @@ width
 }
 }
 .
-trailheadCard
+welcomeCard
 {
 position
 :
@@ -800,7 +800,7 @@ width
 )
 {
 .
-trailheadCard
+welcomeCard
 {
 padding
 :
@@ -819,7 +819,7 @@ width
 )
 {
 .
-trailheadCard
+welcomeCard
 {
 font
 -
@@ -830,7 +830,7 @@ size
 }
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingTitle
 {
@@ -878,7 +878,7 @@ width
 )
 {
 .
-trailheadCard
+welcomeCard
 .
 onboardingTitle
 {
@@ -891,7 +891,7 @@ size
 }
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingText
 {
@@ -932,7 +932,7 @@ weight
 ;
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingButton
 {
@@ -957,7 +957,7 @@ var
 (
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -1008,13 +1008,13 @@ pointer
 ;
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingButton
 :
 focus
 .
-trailheadCard
+welcomeCard
 .
 onboardingButton
 :
@@ -1032,7 +1032,7 @@ var
 (
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -1047,7 +1047,7 @@ color
 ;
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingButton
 :
@@ -1060,7 +1060,7 @@ dotted
 ;
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingButton
 :
@@ -1072,7 +1072,7 @@ var
 (
 -
 -
-trailhead
+welcome
 -
 card
 -
@@ -1087,7 +1087,7 @@ color
 ;
 }
 .
-trailheadCard
+welcomeCard
 .
 onboardingButtonContainer
 {

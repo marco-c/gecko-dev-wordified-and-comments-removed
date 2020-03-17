@@ -504,7 +504,7 @@ div
 className
 =
 {
-trailheadCardGrid
+welcomeCardGrid
 show
 }
 >
@@ -536,7 +536,7 @@ card
 className
 =
 "
-trailheadCard
+welcomeCard
 "
 sendUserActionTelemetry
 =

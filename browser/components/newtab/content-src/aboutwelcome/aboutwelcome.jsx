@@ -329,7 +329,7 @@ div
 className
 =
 "
-trailheadCards
+welcomeContainer
 "
 >
 <
@@ -337,7 +337,7 @@ div
 className
 =
 "
-trailheadCardsInner
+welcomeContainerInner
 "
 >
 <
