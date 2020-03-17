@@ -602,6 +602,7 @@ RangeUpdaterRef
 .
 SelAdjDeleteText
 (
+*
 textNode
 mOffset
 mReplaceLength
@@ -766,6 +767,7 @@ RangeUpdaterRef
 .
 SelAdjDeleteText
 (
+*
 textNode
 0
 remainLength

@@ -310,6 +310,7 @@ RangeUpdaterRef
 .
 SelAdjDeleteNode
 (
+*
 mNodeToDelete
 )
 ;
@@ -636,6 +637,7 @@ RangeUpdaterRef
 .
 SelAdjDeleteNode
 (
+*
 mNodeToDelete
 )
 ;
