@@ -399,6 +399,13 @@ this
 ;
 }
 }
+protocol
+.
+registerFront
+(
+RootFront
+)
+;
 function
 run_test
 (
@@ -507,11 +514,9 @@ traits
 {
 rootFront
 =
-new
-RootFront
-(
 client
-)
+.
+mainRoot
 ;
 expectRootChildren
 (

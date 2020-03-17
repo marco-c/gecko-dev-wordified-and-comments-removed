@@ -46,6 +46,7 @@ types
 registeredTypes
 registerFront
 getFront
+createRootFront
 }
 =
 require
@@ -245,6 +246,12 @@ exports
 getFront
 =
 getFront
+;
+exports
+.
+createRootFront
+=
+createRootFront
 ;
 exports
 .

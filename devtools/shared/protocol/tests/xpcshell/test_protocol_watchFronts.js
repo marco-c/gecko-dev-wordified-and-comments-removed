@@ -342,6 +342,13 @@ this
 ;
 }
 }
+protocol
+.
+registerFront
+(
+RootFront
+)
+;
 add_task
 (
 async
@@ -388,11 +395,9 @@ connect
 const
 rootFront
 =
-new
-RootFront
-(
 client
-)
+.
+mainRoot
 ;
 const
 fronts
