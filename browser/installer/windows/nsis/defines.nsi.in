@@ -826,6 +826,14 @@ define
 MOZ_BITS_DOWNLOAD
 #
 endif
+#
+ifdef
+MOZ_DEFAULT_BROWSER_AGENT
+!
+define
+MOZ_DEFAULT_BROWSER_AGENT
+#
+endif
 !
 if
 "
