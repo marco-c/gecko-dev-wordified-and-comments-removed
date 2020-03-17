@@ -508,11 +508,6 @@ psm
 =
 [
 '
-PSMContentListener
-.
-h
-'
-'
 TransportSecurityInfo
 .
 h
@@ -726,11 +721,6 @@ cpp
 '
 '
 PKCS11ModuleDB
-.
-cpp
-'
-'
-PSMContentListener
 .
 cpp
 '
@@ -968,11 +958,6 @@ IPDL_SOURCES
 +
 =
 [
-'
-PPSMContentDownloader
-.
-ipdl
-'
 '
 PSMIPCTypes
 .

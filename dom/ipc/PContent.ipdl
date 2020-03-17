@@ -136,10 +136,6 @@ PCycleCollectWithLogs
 ;
 include
 protocol
-PPSMContentDownloader
-;
-include
-protocol
 PExternalHelperApp
 ;
 include
@@ -1975,9 +1971,6 @@ PContentPermissionRequest
 ;
 manages
 PCycleCollectWithLogs
-;
-manages
-PPSMContentDownloader
 ;
 manages
 PExternalHelperApp
@@ -5530,13 +5523,6 @@ nsString
 type
 NotificationEventData
 data
-)
-;
-async
-PPSMContentDownloader
-(
-uint32_t
-aCertType
 )
 ;
 /
