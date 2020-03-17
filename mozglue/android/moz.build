@@ -141,11 +141,6 @@ SharedMemNatives
 .
 cpp
 '
-'
-SQLiteBridge
-.
-cpp
-'
 ]
 if
 CONFIG
