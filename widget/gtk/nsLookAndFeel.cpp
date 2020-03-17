@@ -398,8 +398,9 @@ nsLookAndFeel
 nsLookAndFeel
 (
 )
-{
-}
+=
+default
+;
 static
 void
 ApplyColorOver

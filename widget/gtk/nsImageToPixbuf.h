@@ -94,8 +94,9 @@ private
 nsImageToPixbuf
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

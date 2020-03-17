@@ -38,8 +38,9 @@ nsPrintSession
 nsPrintSession
 (
 )
-{
-}
+=
+default
+;
 nsPrintSession
 :
 :
@@ -47,8 +48,9 @@ nsPrintSession
 nsPrintSession
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsPrintSession
 :

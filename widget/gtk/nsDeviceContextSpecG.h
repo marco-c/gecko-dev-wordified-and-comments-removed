@@ -244,8 +244,9 @@ nsIPrinterEnumerator
 nsPrinterEnumeratorGTK
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsPrinterEnumeratorGTK

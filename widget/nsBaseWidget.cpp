@@ -15623,8 +15623,9 @@ nsIObserver
 Debug_PrefObserver
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

@@ -42,8 +42,8 @@ HeadlessScreenHelper
 (
 )
 override
-{
-}
+=
+default
 ;
 private
 :

@@ -103,8 +103,9 @@ nsBidiKeyboard
 nsBidiKeyboard
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsBidiKeyboard
 :

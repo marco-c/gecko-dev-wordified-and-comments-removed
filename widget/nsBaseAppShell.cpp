@@ -140,8 +140,9 @@ nsBaseAppShell
 nsBaseAppShell
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsBaseAppShell
 :

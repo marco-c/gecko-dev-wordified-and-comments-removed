@@ -553,8 +553,9 @@ nsNativeThemeGTK
 nsNativeThemeGTK
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsNativeThemeGTK
 :

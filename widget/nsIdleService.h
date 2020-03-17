@@ -117,8 +117,9 @@ aIsIdle
 IdleListener
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
