@@ -126,9 +126,6 @@ include
 InputStreamParams
 ;
 include
-URIParams
-;
-include
 PBackgroundSharedTypes
 ;
 include

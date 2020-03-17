@@ -121,9 +121,6 @@ include
 protocol
 PNecko
 ;
-include
-URIParams
-;
 namespace
 mozilla
 {
