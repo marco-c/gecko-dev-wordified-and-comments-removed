@@ -127,8 +127,9 @@ virtual
 nsNSSCertificateDB
 (
 )
-{
-}
+=
+default
+;
 private
 :
 static

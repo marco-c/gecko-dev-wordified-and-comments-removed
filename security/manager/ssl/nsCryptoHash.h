@@ -110,8 +110,9 @@ virtual
 nsCryptoHash
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :
@@ -144,8 +145,9 @@ virtual
 nsCryptoHMAC
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

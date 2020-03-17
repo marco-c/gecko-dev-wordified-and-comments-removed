@@ -256,8 +256,9 @@ virtual
 DataStorageSharedThread
 (
 )
-{
-}
+=
+default
+;
 private
 :
 DataStorageSharedThread

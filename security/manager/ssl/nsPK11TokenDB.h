@@ -85,8 +85,9 @@ virtual
 nsPK11Token
 (
 )
-{
-}
+=
+default
+;
 private
 :
 friend
@@ -161,8 +162,9 @@ NS_DECL_NSIPK11TOKENDB
 nsPK11TokenDB
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 virtual
@@ -170,8 +172,9 @@ virtual
 nsPK11TokenDB
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #
