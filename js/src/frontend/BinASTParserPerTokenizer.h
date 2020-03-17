@@ -278,9 +278,8 @@ nullptr
 BinASTParserPerTokenizer
 (
 )
-=
-default
-;
+{
+}
 JS
 :
 :

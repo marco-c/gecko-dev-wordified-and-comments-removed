@@ -3165,9 +3165,8 @@ public
 ArgSeq
 (
 )
-=
-default
-;
+{
+}
 inline
 void
 generate
@@ -8930,9 +8929,8 @@ public
 OutOfLineTestObjectWithLabels
 (
 )
-=
-default
-;
+{
+}
 Label
 *
 label1

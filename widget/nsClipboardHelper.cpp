@@ -69,9 +69,8 @@ nsClipboardHelper
 nsClipboardHelper
 (
 )
-=
-default
-;
+{
+}
 nsClipboardHelper
 :
 :

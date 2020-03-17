@@ -199,6 +199,7 @@ ABIResult
 )
 {
 }
+;
 public
 :
 static

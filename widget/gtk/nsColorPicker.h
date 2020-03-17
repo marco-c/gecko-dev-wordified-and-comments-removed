@@ -54,8 +54,8 @@ NS_DECL_NSICOLORPICKER
 nsColorPicker
 (
 )
-=
-default
+{
+}
 ;
 private
 :
@@ -63,8 +63,8 @@ private
 nsColorPicker
 (
 )
-=
-default
+{
+}
 ;
 static
 nsString

@@ -320,9 +320,8 @@ virtual
 SandboxPrivate
 (
 )
-=
-default
-;
+{
+}
 nsCOMPtr
 <
 nsIPrincipal

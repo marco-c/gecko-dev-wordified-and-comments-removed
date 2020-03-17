@@ -305,9 +305,8 @@ else
 LabelDoc
 (
 )
-=
-default
-;
+{
+}
 LabelDoc
 (
 uint32_t
@@ -515,9 +514,8 @@ else
 LiteralDoc
 (
 )
-=
-default
-;
+{
+}
 explicit
 LiteralDoc
 (

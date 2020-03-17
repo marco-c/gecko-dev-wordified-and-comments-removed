@@ -450,9 +450,8 @@ mozJSSubScriptLoader
 mozJSSubScriptLoader
 (
 )
-=
-default
-;
+{
+}
 mozJSSubScriptLoader
 :
 :
@@ -460,9 +459,8 @@ mozJSSubScriptLoader
 mozJSSubScriptLoader
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 mozJSSubScriptLoader

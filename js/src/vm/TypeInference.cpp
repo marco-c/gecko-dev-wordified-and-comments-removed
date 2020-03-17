@@ -8865,9 +8865,8 @@ public
 ConstraintDataFreeze
 (
 )
-=
-default
-;
+{
+}
 const
 char
 *
@@ -11104,9 +11103,8 @@ explicit
 ConstraintDataConstantProperty
 (
 )
-=
-default
-;
+{
+}
 const
 char
 *
@@ -11478,9 +11476,8 @@ explicit
 ConstraintDataInert
 (
 )
-=
-default
-;
+{
+}
 const
 char
 *

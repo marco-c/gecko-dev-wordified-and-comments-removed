@@ -73,9 +73,8 @@ virtual
 JavaScriptBase
 (
 )
-=
-default
-;
+{
+}
 virtual
 void
 ActorDestroy

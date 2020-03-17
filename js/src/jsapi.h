@@ -482,9 +482,8 @@ virtual
 CustomAutoRooter
 (
 )
-=
-default
-;
+{
+}
 virtual
 void
 trace
@@ -5984,9 +5983,8 @@ virtual
 OptimizedEncodingListener
 (
 )
-=
-default
-;
+{
+}
 public
 :
 virtual
@@ -9064,9 +9062,8 @@ virtual
 WasmModule
 (
 )
-=
-default
-;
+{
+}
 virtual
 JSObject
 *

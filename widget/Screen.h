@@ -105,9 +105,8 @@ virtual
 Screen
 (
 )
-=
-default
-;
+{
+}
 LayoutDeviceIntRect
 mRect
 ;

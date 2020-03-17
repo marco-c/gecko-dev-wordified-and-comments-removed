@@ -132,9 +132,8 @@ nsDragServiceProxy
 nsDragServiceProxy
 (
 )
-=
-default
-;
+{
+}
 nsDragServiceProxy
 :
 :
@@ -142,9 +141,8 @@ nsDragServiceProxy
 nsDragServiceProxy
 (
 )
-=
-default
-;
+{
+}
 nsresult
 nsDragServiceProxy
 :

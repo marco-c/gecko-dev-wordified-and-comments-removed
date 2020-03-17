@@ -107,9 +107,8 @@ InputData
 InputData
 (
 )
-=
-default
-;
+{
+}
 InputData
 :
 :

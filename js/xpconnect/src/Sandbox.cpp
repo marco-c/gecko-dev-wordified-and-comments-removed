@@ -2805,9 +2805,8 @@ nsXPCComponents_utils_Sandbox
 nsXPCComponents_utils_Sandbox
 (
 )
-=
-default
-;
+{
+}
 nsXPCComponents_utils_Sandbox
 :
 :
@@ -2815,9 +2814,8 @@ nsXPCComponents_utils_Sandbox
 nsXPCComponents_utils_Sandbox
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_QUERY_INTERFACE
 (
 nsXPCComponents_utils_Sandbox

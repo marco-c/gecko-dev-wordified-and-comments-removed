@@ -649,9 +649,8 @@ virtual
 GetWritingModeName
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 class
@@ -1088,8 +1087,8 @@ virtual
 GetTextRangeStyleText
 (
 )
-=
-default
+{
+}
 ;
 }
 ;

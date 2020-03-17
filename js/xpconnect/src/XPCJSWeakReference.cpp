@@ -29,9 +29,8 @@ xpcJSWeakReference
 xpcJSWeakReference
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 xpcJSWeakReference

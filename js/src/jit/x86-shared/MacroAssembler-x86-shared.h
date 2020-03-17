@@ -408,9 +408,8 @@ call
 MacroAssemblerX86Shared
 (
 )
-=
-default
-;
+{
+}
 bool
 appendRawCode
 (

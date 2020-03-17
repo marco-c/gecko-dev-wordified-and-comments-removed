@@ -30,8 +30,8 @@ public
 GCTrace
 (
 )
-=
-default
+{
+}
 ;
 #
 ifdef

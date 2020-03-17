@@ -44,9 +44,8 @@ NS_DECL_NSICOLORPICKER
 nsColorPickerProxy
 (
 )
-=
-default
-;
+{
+}
 virtual
 mozilla
 :
@@ -87,9 +86,8 @@ private
 nsColorPickerProxy
 (
 )
-=
-default
-;
+{
+}
 nsCOMPtr
 <
 nsIColorPickerShownCallback

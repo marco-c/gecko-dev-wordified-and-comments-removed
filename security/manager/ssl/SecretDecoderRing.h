@@ -68,9 +68,8 @@ NS_DECL_NSISECRETDECODERRING
 SecretDecoderRing
 (
 )
-=
-default
-;
+{
+}
 protected
 :
 virtual
@@ -78,9 +77,8 @@ virtual
 SecretDecoderRing
 (
 )
-=
-default
-;
+{
+}
 private
 :
 nsresult

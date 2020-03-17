@@ -86,9 +86,8 @@ virtual
 Helper
 (
 )
-=
-default
-;
+{
+}
 }
 ;
 public

@@ -125,9 +125,8 @@ virtual
 AbstractOSKeyStore
 (
 )
-=
-default
-;
+{
+}
 virtual
 bool
 SecretAvailable

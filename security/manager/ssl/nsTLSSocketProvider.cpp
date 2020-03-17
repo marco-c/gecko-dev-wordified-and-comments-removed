@@ -40,9 +40,8 @@ nsTLSSocketProvider
 nsTLSSocketProvider
 (
 )
-=
-default
-;
+{
+}
 nsTLSSocketProvider
 :
 :
@@ -50,9 +49,8 @@ nsTLSSocketProvider
 nsTLSSocketProvider
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsTLSSocketProvider

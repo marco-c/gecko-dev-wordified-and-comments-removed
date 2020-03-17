@@ -743,9 +743,8 @@ WidgetCompositionEvent
 TextRangeArray
 (
 )
-=
-default
-;
+{
+}
 NS_INLINE_DECL_REFCOUNTING
 (
 TextRangeArray

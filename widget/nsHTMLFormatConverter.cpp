@@ -67,9 +67,8 @@ nsHTMLFormatConverter
 nsHTMLFormatConverter
 (
 )
-=
-default
-;
+{
+}
 nsHTMLFormatConverter
 :
 :
@@ -77,9 +76,8 @@ nsHTMLFormatConverter
 nsHTMLFormatConverter
 (
 )
-=
-default
-;
+{
+}
 NS_IMPL_ISUPPORTS
 (
 nsHTMLFormatConverter

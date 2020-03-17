@@ -48,9 +48,6 @@ mozilla
 SequentiallyConsistent
 >
 refcount
-{
-0
-}
 ;
 #
 ifdef
@@ -63,9 +60,13 @@ endif
 JSPrincipals
 (
 )
-=
-default
-;
+:
+refcount
+(
+0
+)
+{
+}
 void
 setDebugToken
 (

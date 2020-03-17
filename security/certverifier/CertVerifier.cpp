@@ -637,9 +637,8 @@ CertVerifier
 CertVerifier
 (
 )
-=
-default
-;
+{
+}
 Result
 IsCertChainRootBuiltInRoot
 (

@@ -38,9 +38,8 @@ virtual
 WindowSurface
 (
 )
-=
-default
-;
+{
+}
 virtual
 already_AddRefed
 <

@@ -5620,9 +5620,8 @@ PuppetScreen
 PuppetScreen
 (
 )
-=
-default
-;
+{
+}
 static
 ScreenConfiguration
 ScreenConfig
@@ -5835,9 +5834,8 @@ PuppetScreenManager
 PuppetScreenManager
 (
 )
-=
-default
-;
+{
+}
 NS_IMETHODIMP
 PuppetScreenManager
 :

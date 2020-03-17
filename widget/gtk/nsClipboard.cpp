@@ -358,9 +358,8 @@ nsClipboard
 nsClipboard
 (
 )
-=
-default
-;
+{
+}
 nsClipboard
 :
 :

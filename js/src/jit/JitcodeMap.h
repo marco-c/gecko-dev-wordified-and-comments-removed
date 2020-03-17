@@ -3441,9 +3441,8 @@ nullptr
 JitcodeGlobalTable
 (
 )
-=
-default
-;
+{
+}
 bool
 empty
 (

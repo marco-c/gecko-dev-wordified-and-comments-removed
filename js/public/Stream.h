@@ -50,9 +50,8 @@ virtual
 ReadableStreamUnderlyingSource
 (
 )
-=
-default
-;
+{
+}
 virtual
 void
 requestData
@@ -520,9 +519,8 @@ virtual
 WritableStreamUnderlyingSink
 (
 )
-=
-default
-;
+{
+}
 virtual
 void
 finalize

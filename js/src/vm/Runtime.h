@@ -819,9 +819,8 @@ code
 WellKnownSymbols
 (
 )
-=
-default
-;
+{
+}
 WellKnownSymbols
 (
 const

@@ -1689,9 +1689,8 @@ WindowBackBufferDMABuf
 WindowBackBufferDMABuf
 (
 )
-=
-default
-;
+{
+}
 already_AddRefed
 <
 gfx

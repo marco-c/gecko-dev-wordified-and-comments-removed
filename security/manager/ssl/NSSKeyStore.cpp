@@ -109,9 +109,8 @@ NSSKeyStore
 NSSKeyStore
 (
 )
-=
-default
-;
+{
+}
 nsresult
 NSSKeyStore
 :

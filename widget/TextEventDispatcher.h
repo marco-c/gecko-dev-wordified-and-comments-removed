@@ -87,9 +87,8 @@ final
 TextEventDispatcher
 (
 )
-=
-default
-;
+{
+}
 NS_INLINE_DECL_REFCOUNTING
 (
 TextEventDispatcher

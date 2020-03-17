@@ -44,9 +44,8 @@ virtual
 SourceHook
 (
 )
-=
-default
-;
+{
+}
 virtual
 bool
 load
