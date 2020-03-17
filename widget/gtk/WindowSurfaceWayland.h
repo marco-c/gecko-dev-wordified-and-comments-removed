@@ -391,8 +391,8 @@ virtual
 WindowBackBuffer
 (
 )
-{
-}
+=
+default
 ;
 protected
 :

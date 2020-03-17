@@ -199,8 +199,9 @@ virtual
 HeadlessThemeGTK
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

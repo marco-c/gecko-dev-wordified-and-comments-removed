@@ -54,8 +54,9 @@ protected
 HeadlessClipboard
 (
 )
-{
-}
+=
+default
+;
 private
 :
 UniquePtr

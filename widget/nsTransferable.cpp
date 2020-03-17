@@ -730,8 +730,9 @@ nsTransferable
 nsTransferable
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsTransferable
 :
