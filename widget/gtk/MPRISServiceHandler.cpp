@@ -3107,7 +3107,7 @@ SetPlaybackState
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 {
@@ -3262,10 +3262,10 @@ case
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-ePlaying
+Playing
 :
 return
 g_variant_new_string
@@ -3279,10 +3279,10 @@ case
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-ePaused
+Paused
 :
 return
 g_variant_new_string
@@ -3296,10 +3296,10 @@ case
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-eStopped
+None
 :
 return
 g_variant_new_string

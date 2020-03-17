@@ -209,7 +209,7 @@ mozilla
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 override

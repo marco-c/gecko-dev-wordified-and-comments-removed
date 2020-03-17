@@ -886,7 +886,7 @@ MediaHardwareKeysEventSourceMacMediaCenter
 :
 SetPlaybackState
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 {
@@ -908,10 +908,10 @@ if
 aState
 =
 =
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-ePlaying
+Playing
 )
 {
 center
@@ -927,10 +927,10 @@ if
 aState
 =
 =
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-ePaused
+Paused
 )
 {
 center
@@ -946,10 +946,10 @@ if
 aState
 =
 =
-PlaybackState
+MediaSessionPlaybackState
 :
 :
-eStopped
+None
 )
 {
 center

@@ -394,7 +394,7 @@ MediaControlKeysManager
 :
 SetPlaybackState
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 {
@@ -428,7 +428,7 @@ aState
 ;
 }
 }
-PlaybackState
+MediaSessionPlaybackState
 MediaControlKeysManager
 :
 :

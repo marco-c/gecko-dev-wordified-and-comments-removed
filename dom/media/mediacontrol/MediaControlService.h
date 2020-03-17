@@ -241,7 +241,7 @@ const
 void
 ControllerPlaybackStateChanged
 (
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 ;

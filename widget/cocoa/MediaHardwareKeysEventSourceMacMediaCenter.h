@@ -127,7 +127,7 @@ SetPlaybackState
 dom
 :
 :
-PlaybackState
+MediaSessionPlaybackState
 aState
 )
 override
