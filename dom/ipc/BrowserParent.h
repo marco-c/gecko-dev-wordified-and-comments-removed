@@ -3367,11 +3367,11 @@ aPresShellId
 )
 ;
 void
-SetDestroyingForProcessSwitch
+SuspendProgressEventsUntilAfterNextLoadStarts
 (
 )
 {
-mIsDestroyingForProcessSwitch
+mSuspendedProgressEvents
 =
 true
 ;
@@ -4117,7 +4117,7 @@ mIsMouseEnterIntoWidgetEventSuppressed
 1
 ;
 bool
-mIsDestroyingForProcessSwitch
+mSuspendedProgressEvents
 :
 1
 ;

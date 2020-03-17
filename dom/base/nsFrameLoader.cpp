@@ -8558,7 +8558,7 @@ aForProcessSwitch
 browserParent
 -
 >
-SetDestroyingForProcessSwitch
+SuspendProgressEventsUntilAfterNextLoadStarts
 (
 )
 ;
