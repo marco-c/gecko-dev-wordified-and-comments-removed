@@ -135,10 +135,10 @@ slot
 )
 ;
 var
-fg
+finalizationRegistry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 function
 (
@@ -160,12 +160,12 @@ deref
 .
 call
 (
-fg
+finalizationRegistry
 )
 ;
 }
 '
-FinalizationGroup
+FinalizationRegistry
 instance
 '
 )

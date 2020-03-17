@@ -25,7 +25,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -35,9 +35,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 Symbol
 .
@@ -45,7 +45,7 @@ toStringTag
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -72,7 +72,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -93,9 +93,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -109,7 +109,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -137,7 +137,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -147,9 +147,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -157,7 +157,7 @@ length
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -184,7 +184,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -205,9 +205,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -219,7 +219,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -247,7 +247,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -257,9 +257,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -267,7 +267,7 @@ name
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -294,7 +294,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -304,9 +304,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -318,7 +318,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -345,7 +345,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -355,9 +355,9 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 next
 -
@@ -367,7 +367,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -394,7 +394,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -404,15 +404,15 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
-FinalizationGroupCleanupIteratorPrototype
+FinalizationRegistryCleanupIteratorPrototype
 /
 proto
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -439,7 +439,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -448,13 +448,13 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 constructor
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -481,7 +481,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -491,7 +491,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 gc
 -
@@ -509,7 +509,7 @@ cleanupCallback
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -536,7 +536,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -545,7 +545,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 instance
 -
@@ -553,7 +553,7 @@ extensible
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -580,7 +580,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -589,13 +589,13 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 length
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -622,7 +622,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -631,13 +631,13 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 name
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -664,7 +664,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -673,7 +673,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 newtarget
 -
@@ -687,7 +687,7 @@ object
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -714,7 +714,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -723,7 +723,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prop
 -
@@ -731,7 +731,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -758,7 +758,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -767,7 +767,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 proto
 -
@@ -779,7 +779,7 @@ realm
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -806,7 +806,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -815,13 +815,13 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 proto
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -848,7 +848,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -857,7 +857,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 -
@@ -869,7 +869,7 @@ abrupt
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -896,7 +896,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -905,7 +905,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 -
@@ -917,7 +917,7 @@ custom
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -944,7 +944,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -953,7 +953,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 -
@@ -963,7 +963,7 @@ newtarget
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -990,7 +990,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -999,7 +999,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1009,7 +1009,7 @@ toStringTag
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1036,7 +1036,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1046,7 +1046,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1060,7 +1060,7 @@ proto
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1087,7 +1087,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1096,7 +1096,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1112,7 +1112,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1139,7 +1139,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1149,7 +1149,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1165,7 +1165,7 @@ reference
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1192,7 +1192,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1202,7 +1202,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1218,7 +1218,7 @@ unregister
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1245,7 +1245,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1255,7 +1255,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1271,7 +1271,7 @@ callback
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1298,7 +1298,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1308,7 +1308,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1322,7 +1322,7 @@ proto
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1349,7 +1349,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1358,7 +1358,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1370,7 +1370,7 @@ this
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1397,7 +1397,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1407,7 +1407,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1423,7 +1423,7 @@ values
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1450,7 +1450,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1459,7 +1459,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1469,7 +1469,7 @@ length
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1496,7 +1496,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1505,7 +1505,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1515,7 +1515,7 @@ name
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1542,7 +1542,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1552,7 +1552,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1566,7 +1566,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1593,7 +1593,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1602,7 +1602,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1614,7 +1614,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1641,7 +1641,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1651,7 +1651,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1667,7 +1667,7 @@ gc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1694,7 +1694,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1703,7 +1703,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1715,7 +1715,7 @@ undefined
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1742,7 +1742,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -1762,7 +1762,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1784,7 +1784,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -1812,7 +1812,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1821,7 +1821,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1837,7 +1837,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1864,7 +1864,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1873,7 +1873,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1881,7 +1881,7 @@ constructor
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1908,7 +1908,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1917,7 +1917,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1927,7 +1927,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1954,7 +1954,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -1963,7 +1963,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -1971,7 +1971,7 @@ proto
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -1998,7 +1998,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2007,7 +2007,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2019,7 +2019,7 @@ this
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2046,7 +2046,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2055,7 +2055,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2071,7 +2071,7 @@ type
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2098,7 +2098,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2107,7 +2107,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2123,7 +2123,7 @@ target
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2150,7 +2150,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2159,7 +2159,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2169,7 +2169,7 @@ length
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2196,7 +2196,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2205,7 +2205,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2215,7 +2215,7 @@ name
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2242,7 +2242,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2251,7 +2251,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2263,7 +2263,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2290,7 +2290,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2299,7 +2299,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2315,7 +2315,7 @@ itself
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2342,7 +2342,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2351,7 +2351,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2363,7 +2363,7 @@ undefined
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2390,7 +2390,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2399,7 +2399,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2415,7 +2415,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2442,7 +2442,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -2462,7 +2462,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2484,7 +2484,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -2512,7 +2512,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2521,7 +2521,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2537,7 +2537,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2564,7 +2564,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2573,7 +2573,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2593,7 +2593,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2620,7 +2620,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2629,7 +2629,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2649,7 +2649,7 @@ target
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2676,7 +2676,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2685,7 +2685,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2701,7 +2701,7 @@ holdings
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2728,7 +2728,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2737,7 +2737,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2753,7 +2753,7 @@ target
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2780,7 +2780,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2789,7 +2789,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2801,7 +2801,7 @@ this
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2828,7 +2828,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2837,7 +2837,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2847,7 +2847,7 @@ length
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2874,7 +2874,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2883,7 +2883,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2893,7 +2893,7 @@ name
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2920,7 +2920,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -2929,7 +2929,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -2941,7 +2941,7 @@ desc
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -2968,7 +2968,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -2988,7 +2988,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -3010,7 +3010,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -3038,7 +3038,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3047,7 +3047,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -3063,7 +3063,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3090,7 +3090,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3100,7 +3100,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -3116,7 +3116,7 @@ cell
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3143,7 +3143,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3152,7 +3152,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -3162,7 +3162,7 @@ unregister
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3189,7 +3189,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3198,7 +3198,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 prototype
 /
@@ -3214,7 +3214,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3241,7 +3241,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3250,7 +3250,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 returns
 -
@@ -3264,7 +3264,7 @@ constructor
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3291,7 +3291,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 |
@@ -3311,7 +3311,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 target
 -
@@ -3323,7 +3323,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 WeakRef
 is
 not
@@ -3351,7 +3351,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3360,7 +3360,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 undefined
 -
@@ -3370,7 +3370,7 @@ throws
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -3397,7 +3397,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -3406,7 +3406,7 @@ built
 -
 ins
 /
-FinalizationGroup
+FinalizationRegistry
 /
 unnaffected
 -
@@ -3418,7 +3418,7 @@ cleanupCallback
 .
 js
 #
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled
@@ -4337,7 +4337,7 @@ this
 hasOwnProperty
 (
 '
-FinalizationGroup
+FinalizationRegistry
 '
 )
 )
@@ -4369,7 +4369,7 @@ throws
 js
 #
 WeakRef
-FinalizationGroup
+FinalizationRegistry
 is
 not
 enabled

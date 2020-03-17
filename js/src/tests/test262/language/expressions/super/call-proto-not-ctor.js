@@ -81,15 +81,10 @@ TypeError
 )
 ;
 assert
-.
-sameValue
 (
 evaluatedArg
-false
 '
-did
-not
-perform
+performs
 ArgumentsListEvaluation
 '
 )

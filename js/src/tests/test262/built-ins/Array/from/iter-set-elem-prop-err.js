@@ -14,6 +14,9 @@ this
 0
 '
 {
+writable
+:
+true
 configurable
 :
 false

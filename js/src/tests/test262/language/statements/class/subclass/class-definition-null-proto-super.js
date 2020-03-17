@@ -24,10 +24,6 @@ reachable
 ;
 super
 (
-unreachable
-+
-=
-1
 )
 ;
 unreachable

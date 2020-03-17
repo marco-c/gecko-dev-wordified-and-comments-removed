@@ -5,7 +5,7 @@ Array
 .
 prototype
 .
-lastIndexOf
+indexOf
 .
 call
 (

@@ -21,7 +21,7 @@ ranges
 ]
 [
 0x00A800
-0x00A82B
+0x00A82C
 ]
 ]
 }
@@ -165,7 +165,7 @@ ranges
 0x00A7FF
 ]
 [
-0x00A82C
+0x00A82D
 0x00DBFF
 ]
 [

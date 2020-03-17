@@ -57,6 +57,7 @@ sameValue
 (
 44
 obj
+?
 .
 fn
 (
