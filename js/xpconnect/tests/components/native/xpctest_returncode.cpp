@@ -23,8 +23,9 @@ nsXPCTestReturnCodeParent
 nsXPCTestReturnCodeParent
 (
 )
-{
-}
+=
+default
+;
 nsXPCTestReturnCodeParent
 :
 :
@@ -32,8 +33,9 @@ nsXPCTestReturnCodeParent
 nsXPCTestReturnCodeParent
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsXPCTestReturnCodeParent
 :

@@ -5783,8 +5783,9 @@ nsIMemoryReporter
 JSMainRuntimeTemporaryPeakReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -11192,8 +11193,9 @@ nsIMemoryReporter
 JSMainRuntimeRealmsReporter
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS

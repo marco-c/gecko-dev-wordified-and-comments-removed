@@ -38,8 +38,9 @@ xpcIJSWeakReference
 xpcJSWeakReference
 (
 )
-{
-}
+=
+default
+;
 public
 :
 xpcJSWeakReference

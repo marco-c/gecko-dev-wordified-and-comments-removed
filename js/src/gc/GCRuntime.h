@@ -244,8 +244,9 @@ virtual
 SweepAction
 (
 )
-{
-}
+=
+default
+;
 virtual
 IncrementalProgress
 run

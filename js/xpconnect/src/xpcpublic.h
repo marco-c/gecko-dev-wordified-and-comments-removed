@@ -1677,8 +1677,9 @@ public
 ZoneStatsExtras
 (
 )
-{
-}
+=
+default
+;
 nsCString
 pathPrefix
 ;
@@ -1717,8 +1718,9 @@ public
 RealmStatsExtras
 (
 )
-{
-}
+=
+default
+;
 nsCString
 jsPathPrefix
 ;
@@ -2159,8 +2161,9 @@ private
 ErrorReport
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 void

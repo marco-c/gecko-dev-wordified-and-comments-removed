@@ -401,13 +401,9 @@ Object
 &
 rhs
 )
-:
-Base
-(
-rhs
-)
-{
-}
+=
+default
+;
 bool
 defineProperty
 (

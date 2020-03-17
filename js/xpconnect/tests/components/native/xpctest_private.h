@@ -100,8 +100,9 @@ private
 xpcTestObjectReadOnly
 (
 )
-{
-}
+=
+default
+;
 bool
 boolProperty
 ;

@@ -351,8 +351,9 @@ lazyScript
 BinASTParser
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 using

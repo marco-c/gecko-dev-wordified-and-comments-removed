@@ -787,8 +787,9 @@ protected
 ZoneAllCellIter
 (
 )
-{
-}
+=
+default
+;
 void
 init
 (
