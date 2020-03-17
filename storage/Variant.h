@@ -100,8 +100,9 @@ virtual
 Variant_base
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
