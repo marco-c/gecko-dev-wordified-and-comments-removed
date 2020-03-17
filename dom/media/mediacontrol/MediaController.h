@@ -221,7 +221,7 @@ Deactivate
 )
 ;
 void
-SetPlayState
+SetGuessedPlayState
 (
 PlaybackState
 aState
@@ -253,7 +253,7 @@ mShutdown
 false
 ;
 PlaybackState
-mState
+mGuessedPlaybackState
 =
 PlaybackState
 :
