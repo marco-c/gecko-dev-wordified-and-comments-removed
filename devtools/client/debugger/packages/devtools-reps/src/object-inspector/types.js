@@ -560,12 +560,6 @@ any
 =
 >
 any
-actors
-:
-Set
-<
-string
->
 expandedPaths
 :
 Set
@@ -620,12 +614,6 @@ type
 State
 =
 {
-actors
-:
-Set
-<
-string
->
 expandedPaths
 :
 Set

@@ -414,6 +414,9 @@ props
 .
 rootsChanged
 (
+this
+.
+roots
 )
 ;
 }
@@ -723,6 +726,11 @@ props
 .
 closeObjectInspector
 (
+this
+.
+props
+.
+roots
 )
 ;
 }
