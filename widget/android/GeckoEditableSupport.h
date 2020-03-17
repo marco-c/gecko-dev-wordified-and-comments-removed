@@ -1125,6 +1125,11 @@ int
 aRequestMode
 )
 ;
+void
+OnImeRequestCommit
+(
+)
+;
 }
 ;
 }

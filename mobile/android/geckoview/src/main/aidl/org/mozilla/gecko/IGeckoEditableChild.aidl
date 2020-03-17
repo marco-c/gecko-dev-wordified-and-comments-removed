@@ -251,4 +251,15 @@ int
 requestMode
 )
 ;
+/
+/
+Commit
+current
+composition
+.
+void
+onImeRequestCommit
+(
+)
+;
 }
