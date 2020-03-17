@@ -1370,9 +1370,11 @@ expected
 get
 (
 test_name
+[
 "
 PASS
 "
+]
 )
             
 known_intermittent
