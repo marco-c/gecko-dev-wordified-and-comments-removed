@@ -3956,8 +3956,6 @@ nsString
 aValues
 bool
 aIsFullStorage
-bool
-aNeedCollectSHistory
 uint32_t
 aFlushId
 bool
@@ -3991,13 +3989,6 @@ UpdateEpoch
 (
 uint32_t
 aEpoch
-)
-;
-async
-UpdateSHistory
-(
-bool
-aImmediately
 )
 ;
 parent

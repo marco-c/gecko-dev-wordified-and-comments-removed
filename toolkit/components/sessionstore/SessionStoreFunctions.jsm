@@ -51,7 +51,6 @@ aFlushId
 aIsFinal
 aEpoch
 aData
-aCollectSHistory
 )
 {
 return
@@ -64,7 +63,6 @@ aFlushId
 aIsFinal
 aEpoch
 aData
-aCollectSHistory
 )
 ;
 }
@@ -1529,7 +1527,6 @@ aFlushId
 aIsFinal
 aEpoch
 aData
-aCollectSHistory
 )
 {
 let
@@ -1766,9 +1763,6 @@ aIsFinal
 epoch
 :
 aEpoch
-sHistoryNeeded
-:
-aCollectSHistory
 }
 )
 ;
