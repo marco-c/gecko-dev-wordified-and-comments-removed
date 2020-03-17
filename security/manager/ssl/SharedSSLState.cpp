@@ -387,8 +387,9 @@ virtual
 PrivateBrowsingObserver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 SharedSSLState
@@ -516,8 +517,9 @@ SharedSSLState
 SharedSSLState
 (
 )
-{
-}
+=
+default
+;
 void
 SharedSSLState
 :

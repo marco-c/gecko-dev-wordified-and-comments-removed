@@ -1962,8 +1962,9 @@ nsSiteSecurityService
 nsSiteSecurityService
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsSiteSecurityService

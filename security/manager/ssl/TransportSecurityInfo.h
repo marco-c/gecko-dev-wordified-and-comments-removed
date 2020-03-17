@@ -162,8 +162,9 @@ virtual
 TransportSecurityInfo
 (
 )
-{
-}
+=
+default
+;
 public
 :
 TransportSecurityInfo

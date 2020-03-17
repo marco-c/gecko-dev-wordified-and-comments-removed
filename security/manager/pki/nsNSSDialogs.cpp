@@ -146,8 +146,9 @@ nsNSSDialogs
 nsNSSDialogs
 (
 )
-{
-}
+=
+default
+;
 nsNSSDialogs
 :
 :
@@ -155,8 +156,9 @@ nsNSSDialogs
 nsNSSDialogs
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsNSSDialogs

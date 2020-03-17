@@ -76,8 +76,9 @@ private
 nsRandomGenerator
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

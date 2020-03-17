@@ -553,8 +553,9 @@ nsNSSSocketInfo
 nsNSSSocketInfo
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS_INHERITED
 (
 nsNSSSocketInfo
@@ -6062,8 +6063,9 @@ virtual
 PrefObserver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsSSLIOLayerHelpers

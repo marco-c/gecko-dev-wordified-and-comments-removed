@@ -59,8 +59,9 @@ virtual
 CryptoTask
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsresult
 CalculateResult

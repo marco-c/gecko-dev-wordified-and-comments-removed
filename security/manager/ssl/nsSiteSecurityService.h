@@ -309,8 +309,8 @@ virtual
 SiteHPKPState
 (
 )
-{
-}
+=
+default
 ;
 }
 ;
@@ -437,8 +437,9 @@ virtual
 SiteHSTSState
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 struct
