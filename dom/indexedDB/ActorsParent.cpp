@@ -56132,11 +56132,11 @@ gFileHandleThreadPool
 ;
 }
 nsresult
+FileManager
+:
+:
 AsyncDeleteFile
 (
-FileManager
-*
-aFileManager
 int64_t
 aFileId
 )
@@ -56169,7 +56169,7 @@ quotaClient
 >
 AsyncDeleteFile
 (
-aFileManager
+this
 aFileId
 )
 ;

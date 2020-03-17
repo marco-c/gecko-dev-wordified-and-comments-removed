@@ -215,16 +215,6 @@ override
 ;
 }
 ;
-nsresult
-AsyncDeleteFile
-(
-FileManager
-*
-aFileManager
-int64_t
-aFileId
-)
-;
 }
 }
 }
