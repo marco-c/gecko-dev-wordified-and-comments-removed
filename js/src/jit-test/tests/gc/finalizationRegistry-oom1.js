@@ -1,5 +1,5 @@
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -15,7 +15,7 @@ oomTest
 >
 {
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =

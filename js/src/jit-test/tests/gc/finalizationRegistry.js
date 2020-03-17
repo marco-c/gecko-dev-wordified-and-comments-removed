@@ -93,7 +93,7 @@ assertEq
 typeof
 this
 .
-FinalizationGroup
+FinalizationRegistry
 "
 function
 "
@@ -106,7 +106,7 @@ assertThrowsTypeError
 =
 >
 new
-FinalizationGroup
+FinalizationRegistry
 (
 )
 )
@@ -118,14 +118,14 @@ assertThrowsTypeError
 =
 >
 new
-FinalizationGroup
+FinalizationRegistry
 (
 1
 )
 )
 ;
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -139,7 +139,7 @@ Object
 .
 getPrototypeOf
 (
-FinalizationGroup
+FinalizationRegistry
 )
 Function
 .
@@ -148,7 +148,7 @@ prototype
 ;
 checkPropertyDescriptor
 (
-FinalizationGroup
+FinalizationRegistry
 '
 prototype
 '
@@ -160,7 +160,7 @@ false
 let
 proto
 =
-FinalizationGroup
+FinalizationRegistry
 .
 prototype
 ;
@@ -182,7 +182,7 @@ assertEq
 proto
 .
 constructor
-FinalizationGroup
+FinalizationRegistry
 )
 ;
 assertEq
@@ -266,7 +266,7 @@ Symbol
 toStringTag
 ]
 "
-FinalizationGroup
+FinalizationRegistry
 "
 )
 ;
@@ -282,10 +282,10 @@ true
 )
 ;
 let
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -299,7 +299,7 @@ Object
 .
 getPrototypeOf
 (
-group
+registry
 )
 proto
 )
@@ -310,7 +310,7 @@ Object
 .
 getOwnPropertyNames
 (
-group
+registry
 )
 .
 length
@@ -320,10 +320,10 @@ length
 let
 iterator
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 it
 =
@@ -333,7 +333,7 @@ iterator
 it
 )
 ;
-group
+registry
 .
 register
 (
@@ -353,7 +353,7 @@ drainJobQueue
 assertEq
 (
 typeof
-group
+registry
 '
 object
 '
@@ -446,7 +446,7 @@ Symbol
 toStringTag
 ]
 "
-FinalizationGroup
+FinalizationRegistry
 Cleanup
 Iterator
 "
@@ -482,10 +482,10 @@ heldValues
 [
 ]
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -509,7 +509,7 @@ heldValues
 [
 ]
 ;
-group
+registry
 .
 register
 (
@@ -564,7 +564,7 @@ i
 +
 )
 {
-group
+registry
 .
 register
 (
@@ -645,10 +645,10 @@ heldValues2
 ]
 ;
 let
-group2
+registry2
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -674,7 +674,7 @@ object
 {
 }
 ;
-group
+registry
 .
 register
 (
@@ -682,7 +682,7 @@ object
 1
 )
 ;
-group2
+registry2
 .
 register
 (
@@ -748,7 +748,7 @@ token
 {
 }
 ;
-group
+registry
 .
 register
 (
@@ -758,7 +758,7 @@ register
 token
 )
 ;
-group
+registry
 .
 unregister
 (
@@ -792,7 +792,7 @@ token2
 {
 }
 ;
-group
+registry
 .
 register
 (
@@ -802,7 +802,7 @@ register
 token
 )
 ;
-group
+registry
 .
 register
 (
@@ -812,7 +812,7 @@ register
 token2
 )
 ;
-group
+registry
 .
 register
 (
@@ -822,7 +822,7 @@ register
 token
 )
 ;
-group
+registry
 .
 register
 (
@@ -832,7 +832,7 @@ register
 token2
 )
 ;
-group
+registry
 .
 unregister
 (
@@ -907,7 +907,7 @@ heldValues
 [
 ]
 ;
-group
+registry
 .
 register
 (
@@ -966,7 +966,7 @@ heldValues
 [
 ]
 ;
-group
+registry
 .
 register
 (
@@ -1018,7 +1018,7 @@ heldValues
 [
 ]
 ;
-group
+registry
 .
 register
 (
@@ -1058,7 +1058,7 @@ heldValues
 [
 ]
 ;
-group
+registry
 .
 register
 (
@@ -1068,7 +1068,7 @@ register
 token
 )
 ;
-group
+registry
 .
 unregister
 (
@@ -1092,9 +1092,9 @@ length
 )
 ;
 class
-MyGroup
+MyRegistry
 extends
-FinalizationGroup
+FinalizationRegistry
 {
 constructor
 (
@@ -1109,10 +1109,10 @@ callback
 }
 }
 let
-g2
+r2
 =
 new
-MyGroup
+MyRegistry
 (
 iterator
 =
@@ -1136,7 +1136,7 @@ heldValues
 [
 ]
 ;
-g2
+r2
 .
 register
 (
@@ -1175,10 +1175,10 @@ iterator
 undefined
 ;
 let
-g3
+r3
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -1188,7 +1188,7 @@ iterator
 i
 )
 ;
-g3
+r3
 .
 register
 (
@@ -1228,10 +1228,10 @@ next
 )
 ;
 let
-g4
+r4
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -1253,7 +1253,7 @@ next
 }
 )
 ;
-g4
+r4
 .
 register
 (
@@ -1276,10 +1276,10 @@ heldValues
 ]
 ;
 let
-g5
+r5
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -1294,7 +1294,7 @@ i
 ]
 )
 ;
-g5
+r5
 .
 register
 (
@@ -1303,7 +1303,7 @@ register
 1
 )
 ;
-g5
+r5
 .
 register
 (
@@ -1312,7 +1312,7 @@ register
 2
 )
 ;
-g5
+r5
 .
 register
 (
@@ -1325,7 +1325,7 @@ gc
 (
 )
 ;
-g5
+r5
 .
 cleanupSome
 (
@@ -1384,10 +1384,10 @@ heldValues
 )
 ;
 let
-g6
+r6
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -1399,7 +1399,7 @@ assertThrowsTypeError
 )
 =
 >
-g6
+r6
 .
 cleanupSome
 (
@@ -1409,7 +1409,7 @@ cleanupSome
 }
 )
 ;
-g6
+r6
 .
 register
 (
@@ -1432,10 +1432,10 @@ target
 {
 }
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -1443,7 +1443,7 @@ iterator
 undefined
 )
 ;
-group
+registry
 .
 register
 (
@@ -1457,10 +1457,10 @@ weakRef
 new
 WeakRef
 (
-group
+registry
 )
 ;
-group
+registry
 =
 undefined
 ;
@@ -1504,10 +1504,10 @@ object
 '
 )
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -1515,7 +1515,7 @@ iterator
 undefined
 )
 ;
-group
+registry
 .
 register
 (
@@ -1529,10 +1529,10 @@ weakRef
 new
 WeakRef
 (
-group
+registry
 )
 ;
-group
+registry
 =
 undefined
 ;
@@ -1582,7 +1582,7 @@ heldValues
 ]
 ;
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =

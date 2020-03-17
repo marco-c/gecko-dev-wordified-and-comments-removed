@@ -3,10 +3,10 @@ target
 {
 }
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -14,7 +14,7 @@ iterator
 undefined
 )
 ;
-group
+registry
 .
 register
 (
@@ -29,9 +29,9 @@ grayRoot
 0
 ]
 =
-group
+registry
 ;
-group
+registry
 =
 undefined
 ;

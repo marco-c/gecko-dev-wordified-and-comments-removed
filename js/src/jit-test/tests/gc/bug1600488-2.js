@@ -8,10 +8,10 @@ let
 iterated
 ;
 const
-finalizationGroup
+finalizationRegistry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 items
 =
@@ -37,7 +37,7 @@ object
 {
 }
 ;
-finalizationGroup
+finalizationRegistry
 .
 register
 (
@@ -57,7 +57,7 @@ gc
 ;
 assertEq
 (
-finalizationGroup
+finalizationRegistry
 .
 unregister
 (
@@ -66,7 +66,7 @@ token
 true
 )
 ;
-finalizationGroup
+finalizationRegistry
 .
 cleanupSome
 (

@@ -1,8 +1,8 @@
 let
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -28,7 +28,7 @@ oomTest
 )
 =
 >
-group
+registry
 .
 register
 (

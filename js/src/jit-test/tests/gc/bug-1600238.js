@@ -36,7 +36,7 @@ eval
 (
 "
 new
-FinalizationGroup
+FinalizationRegistry
 (
 function
 (
@@ -82,13 +82,13 @@ e
 ;
 }
 }
-g
+r
 =
 f
 (
 )
 ;
-g
+r
 .
 register
 (

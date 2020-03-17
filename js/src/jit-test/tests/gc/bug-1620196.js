@@ -9,10 +9,10 @@ heldValues
 [
 ]
 ;
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 iterator
 =
@@ -31,7 +31,7 @@ iterator
 }
 )
 ;
-group
+registry
 .
 register
 (

@@ -1,8 +1,8 @@
 var
-group
+registry
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 x
 =
@@ -51,7 +51,7 @@ target1
 {
 }
 ;
-group
+registry
 .
 register
 (
@@ -67,7 +67,7 @@ target2
 {
 }
 ;
-group
+registry
 .
 register
 (

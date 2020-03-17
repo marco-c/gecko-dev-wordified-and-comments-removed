@@ -82,10 +82,10 @@ startTest
 )
 {
 let
-group1
+registry1
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -101,10 +101,10 @@ i
 )
 ;
 let
-group2
+registry2
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -119,7 +119,7 @@ i
 ]
 )
 ;
-group2
+registry2
 .
 register
 (
@@ -128,7 +128,7 @@ register
 1
 )
 ;
-group2
+registry2
 .
 register
 (
@@ -137,7 +137,7 @@ register
 2
 )
 ;
-group2
+registry2
 .
 register
 (
@@ -147,10 +147,10 @@ register
 )
 ;
 let
-group3
+registry3
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -170,7 +170,7 @@ token3
 =
 {
 }
-group3
+registry3
 .
 register
 (
@@ -180,7 +180,7 @@ register
 token3
 )
 ;
-group3
+registry3
 .
 unregister
 (
@@ -188,10 +188,10 @@ token3
 )
 ;
 let
-group4
+registry4
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -212,7 +212,7 @@ object4
 {
 }
 ;
-group4
+registry4
 .
 register
 (
@@ -221,10 +221,10 @@ object4
 )
 ;
 let
-group5
+registry5
 =
 new
-FinalizationGroup
+FinalizationRegistry
 (
 i
 =
@@ -239,7 +239,7 @@ i
 ]
 )
 ;
-group5
+registry5
 .
 register
 (

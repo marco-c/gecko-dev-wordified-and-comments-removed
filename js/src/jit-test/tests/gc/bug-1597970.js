@@ -11,7 +11,7 @@ gczeal
 )
 ;
 new
-FinalizationGroup
+FinalizationRegistry
 (
 function
 (
