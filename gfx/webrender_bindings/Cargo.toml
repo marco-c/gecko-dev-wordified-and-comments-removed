@@ -63,12 +63,12 @@ num_cpus
 .
 0
 "
-thread_profiler
+tracy
+-
+rs
 =
 "
 0
-.
-1
 .
 1
 "

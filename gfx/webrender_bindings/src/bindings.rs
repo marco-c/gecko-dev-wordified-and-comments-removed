@@ -285,7 +285,7 @@ swgl_bindings
 SwCompositor
 ;
 use
-thread_profiler
+tracy_rs
 :
 :
 register_thread_with_profiler
