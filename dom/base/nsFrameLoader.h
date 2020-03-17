@@ -703,6 +703,15 @@ aEpoch
 )
 ;
 void
+RequestSHistoryUpdate
+(
+bool
+aImmediately
+=
+false
+)
+;
+void
 Print
 (
 uint64_t

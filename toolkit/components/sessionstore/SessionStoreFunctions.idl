@@ -166,6 +166,9 @@ aEpoch
 in
 jsval
 aData
+in
+boolean
+aCollectSHistory
 )
 ;
 }
