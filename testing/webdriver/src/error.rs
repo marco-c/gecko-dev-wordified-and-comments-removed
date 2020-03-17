@@ -1436,10 +1436,6 @@ ErrorStatus
 UnknownError
 err
 .
-description
-(
-)
-.
 to_string
 (
 )
@@ -1475,10 +1471,6 @@ ErrorStatus
 :
 UnknownError
 err
-.
-description
-(
-)
 .
 to_string
 (
@@ -1523,10 +1515,6 @@ ErrorStatus
 :
 UnknownError
 err
-.
-description
-(
-)
 .
 to_string
 (

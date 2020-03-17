@@ -99,15 +99,6 @@ use
 std
 :
 :
-error
-:
-:
-Error
-;
-use
-std
-:
-:
 fs
 ;
 use
@@ -761,10 +752,6 @@ ErrorStatus
 :
 SessionNotCreated
 err
-.
-description
-(
-)
 .
 to_string
 (
