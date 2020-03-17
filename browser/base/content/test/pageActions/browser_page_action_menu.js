@@ -862,7 +862,7 @@ pinTabButton
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -892,7 +892,7 @@ pinTabButton
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5193,7 +5193,7 @@ window
 windowUtils
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5565,7 +5565,7 @@ box
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5697,7 +5697,7 @@ await
 contextMenuPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5830,7 +5830,7 @@ await
 contextMenuPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -5967,7 +5967,7 @@ await
 contextMenuPromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
