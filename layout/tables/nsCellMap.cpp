@@ -13600,7 +13600,7 @@ nullptr
 }
 while
 (
-1
+true
 )
 {
 NS_ASSERTION
