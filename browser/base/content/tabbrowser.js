@@ -5483,7 +5483,9 @@ newTab
 isEmpty
 )
 {
-focusAndSelectUrlBar
+gURLBar
+.
+select
 (
 )
 ;
@@ -14689,7 +14691,9 @@ if
 aNewTab
 )
 {
-focusAndSelectUrlBar
+gURLBar
+.
+select
 (
 )
 ;

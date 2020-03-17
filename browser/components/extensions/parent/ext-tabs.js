@@ -4025,7 +4025,9 @@ url
 {
 window
 .
-focusAndSelectUrlBar
+gURLBar
+.
+select
 (
 )
 ;

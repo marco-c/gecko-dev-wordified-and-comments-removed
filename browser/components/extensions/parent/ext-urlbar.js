@@ -182,7 +182,9 @@ select
 {
 window
 .
-focusAndSelectUrlBar
+gURLBar
+.
+select
 (
 )
 ;
