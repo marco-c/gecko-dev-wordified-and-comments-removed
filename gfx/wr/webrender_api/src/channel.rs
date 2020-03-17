@@ -503,15 +503,6 @@ T
 Error
 >
 {
-use
-std
-:
-:
-error
-:
-:
-Error
-;
 self
 .
 rx
@@ -539,7 +530,7 @@ ErrorKind
 Other
 e
 .
-description
+to_string
 (
 )
 )
