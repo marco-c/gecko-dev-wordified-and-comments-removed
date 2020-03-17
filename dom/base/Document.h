@@ -9042,13 +9042,6 @@ GetActiveElement
 (
 )
 ;
-nsIContent
-*
-GetUnretargetedFocusedContent
-(
-)
-const
-;
 bool
 HasFocus
 (

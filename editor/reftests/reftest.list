@@ -1987,9 +1987,6 @@ html
 ref
 .
 html
-needs
--
-focus
 =
 =
 selection_visibility_after_reframe
@@ -2000,9 +1997,6 @@ selection_visibility_after_reframe
 ref
 .
 html
-needs
--
-focus
 !
 =
 selection_visibility_after_reframe
@@ -2015,9 +2009,6 @@ selection_visibility_after_reframe
 ref
 .
 html
-needs
--
-focus
 !
 =
 selection_visibility_after_reframe

@@ -2549,6 +2549,11 @@ if
 IsReadonly
 (
 )
+|
+|
+IsDisabled
+(
+)
 )
 {
 return
@@ -6723,6 +6728,11 @@ CommitComposition
 if
 (
 IsReadonly
+(
+)
+|
+|
+IsDisabled
 (
 )
 )
@@ -22794,6 +22804,11 @@ DONT_CHANGE_OPEN_STATE
 if
 (
 IsReadonly
+(
+)
+|
+|
+IsDisabled
 (
 )
 )
