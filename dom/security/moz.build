@@ -175,11 +175,6 @@ nsCSPUtils
 h
 '
 '
-nsHTTPSOnlyUtils
-.
-h
-'
-'
 nsMixedContentBlocker
 .
 h
@@ -291,11 +286,6 @@ cpp
 '
 '
 nsCSPUtils
-.
-cpp
-'
-'
-nsHTTPSOnlyUtils
 .
 cpp
 '
