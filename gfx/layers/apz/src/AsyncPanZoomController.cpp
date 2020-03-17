@@ -1246,10 +1246,6 @@ AutoApplyAsyncTestAttributes
 const
 AsyncPanZoomController
 *
-const
-RecursiveMutexAutoLock
-&
-aProofOfLock
 )
 ;
 ~
@@ -1277,10 +1273,6 @@ const
 AsyncPanZoomController
 *
 aApzc
-const
-RecursiveMutexAutoLock
-&
-aProofOfLock
 )
 :
 mApzc
@@ -1309,7 +1301,6 @@ mApzc
 >
 ApplyAsyncTestAttributes
 (
-aProofOfLock
 )
 ;
 }
@@ -17393,7 +17384,6 @@ AutoApplyAsyncTestAttributes
 testAttributeApplier
 (
 this
-lock
 )
 ;
 MOZ_ASSERT
@@ -17446,7 +17436,6 @@ AutoApplyAsyncTestAttributes
 testAttributeApplier
 (
 this
-lock
 )
 ;
 return
@@ -17482,7 +17471,6 @@ AutoApplyAsyncTestAttributes
 testAttributeApplier
 (
 this
-lock
 )
 ;
 return
@@ -17515,7 +17503,6 @@ AutoApplyAsyncTestAttributes
 testAttributeApplier
 (
 this
-lock
 )
 ;
 CSSToParentLayerScale2D
@@ -17773,7 +17760,6 @@ AutoApplyAsyncTestAttributes
 testAttributeApplier
 (
 this
-lock
 )
 ;
 CSSToParentLayerScale2D
@@ -18101,12 +18087,14 @@ AsyncPanZoomController
 :
 ApplyAsyncTestAttributes
 (
-const
-RecursiveMutexAutoLock
-&
-aProofOfLock
 )
 {
+RecursiveMutexAutoLock
+lock
+(
+mRecursiveMutex
+)
+;
 if
 (
 mTestAttributeAppliers
@@ -18172,10 +18160,10 @@ FrameMetrics
 aPrevFrameMetrics
 )
 {
-mRecursiveMutex
-.
-AssertCurrentThreadIn
+RecursiveMutexAutoLock
+lock
 (
+mRecursiveMutex
 )
 ;
 MOZ_ASSERT
@@ -18350,13 +18338,6 @@ aProofOfLock
 )
 const
 {
-AutoApplyAsyncTestAttributes
-testAttributeApplier
-(
-this
-aProofOfLock
-)
-;
 CSSPoint
 currentScrollOffset
 =
@@ -18367,6 +18348,8 @@ AsyncPanZoomController
 :
 eForCompositing
 )
++
+mTestAsyncScrollOffset
 ;
 CSSRect
 visible

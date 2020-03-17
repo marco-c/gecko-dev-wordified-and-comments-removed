@@ -2171,10 +2171,6 @@ AutoApplyAsyncTestAttributes
 void
 ApplyAsyncTestAttributes
 (
-const
-RecursiveMutexAutoLock
-&
-aProofOfLock
 )
 ;
 void
