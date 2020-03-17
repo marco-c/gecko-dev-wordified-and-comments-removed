@@ -5672,6 +5672,15 @@ return
 NS_ERROR_FAILURE
 ;
 }
+mPresShell
+-
+>
+FrameSelectionWillTakeFocus
+(
+*
+this
+)
+;
 mTableSelection
 .
 mMode
