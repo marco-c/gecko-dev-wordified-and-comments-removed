@@ -2079,6 +2079,10 @@ false
 }
 }
 }
+DisableDefaultBrowserAgent
+:
+{
+}
 DisableDeveloperTools
 :
 {
