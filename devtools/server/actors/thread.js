@@ -8493,7 +8493,7 @@ PauseActor
 prototype
 =
 {
-actorPrefix
+typeName
 :
 "
 pause

@@ -167,7 +167,7 @@ testOne
 testOneActor
 '
 s
-actorPrefix
+typeName
 should
 be
 used
