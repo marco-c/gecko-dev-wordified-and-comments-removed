@@ -314,6 +314,12 @@ extensions
 /
 permissions
 '
+'
+/
+netwerk
+/
+base
+'
 ]
 include
 (

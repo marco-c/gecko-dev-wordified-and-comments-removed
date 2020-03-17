@@ -184,6 +184,17 @@ FeaturePolicyUtils
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+netwerk
+/
+base
+'
+]
 include
 (
 '

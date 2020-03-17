@@ -85303,13 +85303,10 @@ PA_N
 Z
 ?
 CreateExposableURI
-nsDefaultURIFixup
-UAG
-?
-AW4nsresult
-PAVnsIURI
-PAPAV3
-Z
+nsIOService
+net
+mozilla
+SA_NXZ
 ?
 GetUserPass
 nsSimpleURI

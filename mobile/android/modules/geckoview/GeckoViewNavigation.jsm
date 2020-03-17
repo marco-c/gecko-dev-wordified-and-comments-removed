@@ -2164,7 +2164,7 @@ fixedURI
 =
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (

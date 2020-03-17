@@ -461,6 +461,17 @@ BlockToplevelDataUriNavigations
 (
 )
 ;
+static
+already_AddRefed
+<
+nsIURI
+>
+CreateExposableURI
+(
+nsIURI
+*
+)
+;
 void
 IncrementRequestNumber
 (

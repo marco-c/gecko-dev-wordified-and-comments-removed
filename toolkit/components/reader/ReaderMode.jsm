@@ -899,7 +899,7 @@ try
 return
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (

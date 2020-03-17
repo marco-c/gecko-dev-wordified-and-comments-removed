@@ -3891,7 +3891,7 @@ uri
 =
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (
@@ -6179,7 +6179,7 @@ title
 =
 Services
 .
-uriFixup
+io
 .
 createExposableURI
 (

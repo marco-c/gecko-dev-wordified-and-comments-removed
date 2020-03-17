@@ -84546,13 +84546,10 @@ PEA_N
 Z
 ?
 CreateExposableURI
-nsDefaultURIFixup
-UEAA
-?
-AW4nsresult
-PEAVnsIURI
-PEAPEAV3
-Z
+nsIOService
+net
+mozilla
+SA_NXZ
 ?
 GetUserPass
 nsSimpleURI
