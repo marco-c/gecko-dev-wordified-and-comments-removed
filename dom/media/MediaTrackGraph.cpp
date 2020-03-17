@@ -15327,6 +15327,11 @@ TrackRate
 aSampleRate
 uint32_t
 aChannelCount
+CubebUtils
+:
+:
+AudioDeviceID
+aOutputDeviceID
 AbstractThread
 *
 aMainThread
@@ -15384,7 +15389,7 @@ nullptr
 )
 mOutputDeviceID
 (
-nullptr
+aOutputDeviceID
 )
 mMonitor
 (
@@ -15705,6 +15710,11 @@ nsPIDOMWindowInner
 aWindow
 TrackRate
 aSampleRate
+CubebUtils
+:
+:
+AudioDeviceID
+aOutputDeviceID
 )
 {
 uint32_t
@@ -15728,6 +15738,14 @@ hashkey
 aSampleRate
 )
 ;
+hashkey
+=
+AddToHash
+(
+hashkey
+aOutputDeviceID
+)
+;
 return
 hashkey
 ;
@@ -15744,6 +15762,11 @@ nsPIDOMWindowInner
 aWindow
 TrackRate
 aSampleRate
+CubebUtils
+:
+:
+AudioDeviceID
+aOutputDeviceID
 )
 {
 MOZ_ASSERT
@@ -15779,6 +15802,7 @@ WindowToHash
 (
 aWindow
 sampleRate
+aOutputDeviceID
 )
 ;
 MediaTrackGraphImpl
@@ -15817,6 +15841,11 @@ nsPIDOMWindowInner
 aWindow
 TrackRate
 aSampleRate
+CubebUtils
+:
+:
+AudioDeviceID
+aOutputDeviceID
 )
 {
 MOZ_ASSERT
@@ -15859,6 +15888,7 @@ GetInstanceIfExists
 (
 aWindow
 sampleRate
+aOutputDeviceID
 )
 )
 ;
@@ -15983,6 +16013,7 @@ aGraphDriverRequested
 runType
 sampleRate
 channelCount
+aOutputDeviceID
 mainThread
 )
 ;
@@ -15993,6 +16024,7 @@ WindowToHash
 (
 aWindow
 sampleRate
+aOutputDeviceID
 )
 ;
 gGraphs
@@ -16103,6 +16135,7 @@ OFFLINE_THREAD_DRIVER
 DIRECT_DRIVER
 aSampleRate
 0
+DEFAULT_OUTPUT_DEVICE
 mainThread
 )
 ;

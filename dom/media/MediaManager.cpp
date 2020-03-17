@@ -5337,6 +5337,10 @@ MediaTrackGraph
 :
 :
 REQUEST_DEFAULT_SAMPLE_RATE
+MediaTrackGraph
+:
+:
+DEFAULT_OUTPUT_DEVICE
 )
 ;
 auto
