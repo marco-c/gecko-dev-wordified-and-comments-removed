@@ -1619,7 +1619,11 @@ frame
 )
 {
 const
-location
+{
+url
+line
+column
+}
 =
 this
 .
@@ -1633,9 +1637,9 @@ this
 .
 isBlackBoxed
 (
-location
-.
 url
+line
+column
 )
 ;
 }

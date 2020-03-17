@@ -751,6 +751,7 @@ the
 debugger
 statement
 )
+;
 Assert
 .
 equal
@@ -771,6 +772,7 @@ Add
 set
 watchpoint
 )
+;
 const
 args
 =
@@ -822,6 +824,7 @@ Remove
 set
 watchpoint
 )
+;
 await
 objClient
 .
@@ -843,6 +846,7 @@ pause
 on
 set
 )
+;
 const
 packet2
 =
@@ -1007,6 +1011,7 @@ set
 watchpoint
 "
 )
+;
 const
 args
 =
@@ -1072,6 +1077,7 @@ on
 set
 "
 )
+;
 const
 packet2
 =
