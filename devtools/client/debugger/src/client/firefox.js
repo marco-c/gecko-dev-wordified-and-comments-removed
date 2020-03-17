@@ -76,7 +76,6 @@ setupCommands
 (
 {
 devToolsClient
-targetList
 }
 )
 ;
@@ -329,13 +328,6 @@ checkIfAlreadyPaused
 )
 ;
 }
-await
-actions
-.
-updateThreads
-(
-)
-;
 }
 function
 onTargetDestroyed
@@ -383,12 +375,6 @@ targetFront
 )
 ;
 }
-actions
-.
-updateThreads
-(
-)
-;
 }
 export
 {
