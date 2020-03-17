@@ -1978,10 +1978,10 @@ start
 BINJS_TRY_DECL
 (
 lazy
-LazyScript
+BaseScript
 :
 :
-Create
+CreateLazy
 (
 cx_
 this

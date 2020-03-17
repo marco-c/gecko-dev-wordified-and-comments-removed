@@ -10825,10 +10825,10 @@ BaseScript
 *
 lazy
 =
-LazyScript
+BaseScript
 :
 :
-Create
+CreateLazy
 (
 cx
 compilationInfo
