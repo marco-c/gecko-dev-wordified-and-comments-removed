@@ -549,6 +549,17 @@ enable_webrender
 ]
             
 "
+enable_fission
+"
+:
+kwargs
+[
+"
+enable_fission
+"
+]
+            
+"
 stackfix_dir
 "
 :
@@ -1273,6 +1284,15 @@ True
 fission
 "
 :
+kwargs
+.
+get
+(
+"
+enable_fission
+"
+)
+or
 get_bool_pref
 (
 "
@@ -3482,6 +3502,7 @@ test_type
 extra_prefs
 e10s
                  
+enable_fission
 browser_channel
 binary
 certutil_binary
@@ -3524,6 +3545,12 @@ self
 e10s
 =
 e10s
+        
+self
+.
+enable_fission
+=
+enable_fission
         
 self
 .
@@ -4070,6 +4097,27 @@ True
 if
 self
 .
+enable_fission
+:
+            
+profile
+.
+set_preferences
+(
+{
+"
+fission
+.
+autostart
+"
+:
+True
+}
+)
+        
+if
+self
+.
 test_type
 =
 =
@@ -4580,10 +4628,13 @@ False
 enable_webrender
 =
 False
+enable_fission
+=
+False
+                 
 stackfix_dir
 =
 None
-                 
 binary_args
 =
 None
@@ -4593,10 +4644,10 @@ None
 leak_check
 =
 False
+                 
 asan
 =
 False
-                 
 stylo_threads
 =
 1
@@ -4606,12 +4657,12 @@ None
 config
 =
 None
+                 
 browser_channel
 =
 "
 nightly
 "
-                 
 headless
 =
 None
@@ -4703,6 +4754,8 @@ test_type
 extra_prefs
                                          
 e10s
+                                         
+enable_fission
                                          
 browser_channel
                                          
