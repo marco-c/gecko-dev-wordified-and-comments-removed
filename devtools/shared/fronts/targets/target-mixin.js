@@ -1103,7 +1103,15 @@ if
 !
 this
 .
-_threadActor
+targetForm
+|
+|
+!
+this
+.
+targetForm
+.
+threadActor
 )
 {
 throw
@@ -1116,7 +1124,9 @@ sub
 class
 should
 set
-_threadActor
+targetForm
+.
+threadActor
 before
 calling
 "
