@@ -8,8 +8,13 @@ hub
 :
 IdentityManager
 id
-Backend
 }
+;
+use
+wgt
+:
+:
+Backend
 ;
 pub
 use

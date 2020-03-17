@@ -980,6 +980,8 @@ Buffer
 aBuffer
 uint64_t
 aOffset
+uint64_t
+aSize
 )
 {
 if
@@ -1006,6 +1008,7 @@ aBuffer
 .
 mId
 aOffset
+aSize
 )
 ;
 }
@@ -1024,6 +1027,8 @@ Buffer
 aBuffer
 uint64_t
 aOffset
+uint64_t
+aSize
 )
 {
 if
@@ -1042,18 +1047,16 @@ aBuffer
 ffi
 :
 :
-wgpu_render_pass_set_vertex_buffers
+wgpu_render_pass_set_vertex_buffer
 (
 &
 mRaw
 aSlot
-&
 aBuffer
 .
 mId
-&
 aOffset
-1
+aSize
 )
 ;
 }

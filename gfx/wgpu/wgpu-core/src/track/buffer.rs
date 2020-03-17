@@ -12,16 +12,16 @@ use
 crate
 :
 :
-{
 id
 :
 :
 BufferId
-resource
+;
+use
+wgt
 :
 :
 BufferUsage
-}
 ;
 pub
 type
@@ -594,7 +594,6 @@ id
 :
 :
 TypedId
-Backend
 }
 ;
 #
@@ -639,6 +638,9 @@ zip
 (
 0
 0
+wgt
+:
+:
 Backend
 :
 :

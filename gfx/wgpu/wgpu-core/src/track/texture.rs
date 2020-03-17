@@ -25,11 +25,13 @@ id
 :
 :
 TextureId
-resource
+}
+;
+use
+wgt
 :
 :
 TextureUsage
-}
 ;
 use
 arrayvec

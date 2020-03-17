@@ -27,7 +27,6 @@ TextureViewId
 TypedId
 }
 resource
-Backend
 Epoch
 FastHashMap
 Index
@@ -697,6 +696,9 @@ S
 >
 backend
 :
+wgt
+:
+:
 Backend
 }
 impl
@@ -809,6 +811,9 @@ fn
 new
 (
 backend
+:
+wgt
+:
 :
 Backend
 )
@@ -1360,6 +1365,9 @@ a
 >
 (
 self_backend
+:
+wgt
+:
 :
 Backend
 map
@@ -2437,6 +2445,9 @@ new
 (
 backend
 :
+wgt
+:
+:
 Backend
 )
 -
@@ -2695,6 +2706,9 @@ self
 )
 -
 >
+wgt
+:
+:
 Backend
 {
 self

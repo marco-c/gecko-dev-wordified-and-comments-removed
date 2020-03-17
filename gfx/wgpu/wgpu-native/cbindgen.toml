@@ -237,6 +237,11 @@ wgpu
 -
 core
 "
+"
+wgpu
+-
+types
+"
 ]
 extra_bindings
 =
@@ -245,6 +250,11 @@ extra_bindings
 wgpu
 -
 core
+"
+"
+wgpu
+-
+types
 "
 ]
 [

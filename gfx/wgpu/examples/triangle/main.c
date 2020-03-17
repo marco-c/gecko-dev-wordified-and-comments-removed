@@ -332,11 +332,11 @@ WGPUBindGroupLayoutDescriptor
 )
 {
 .
-bindings
+entries
 =
 NULL
 .
-bindings_length
+entries_length
 =
 0
 }
@@ -358,11 +358,11 @@ layout
 =
 bind_group_layout
 .
-bindings
+entries
 =
 NULL
 .
-bindings_length
+entries_length
 =
 0
 }
@@ -555,10 +555,10 @@ depth_stencil_state
 =
 NULL
 .
-vertex_input
+vertex_state
 =
 (
-WGPUVertexInputDescriptor
+WGPUVertexStateDescriptor
 )
 {
 .
@@ -866,7 +866,7 @@ prev_height
 .
 present_mode
 =
-WGPUPresentMode_Vsync
+WGPUPresentMode_Fifo
 }
 )
 ;
@@ -950,7 +950,7 @@ height
 .
 present_mode
 =
-WGPUPresentMode_Vsync
+WGPUPresentMode_Fifo
 }
 )
 ;
@@ -1087,7 +1087,7 @@ rpass
 WGPUQueueId
 queue
 =
-wgpu_device_get_queue
+wgpu_device_get_default_queue
 (
 device
 )
