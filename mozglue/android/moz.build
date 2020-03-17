@@ -132,11 +132,6 @@ nsGeckoUtils
 cpp
 '
 '
-NSSBridge
-.
-cpp
-'
-'
 pbkdf2_sha256
 .
 c

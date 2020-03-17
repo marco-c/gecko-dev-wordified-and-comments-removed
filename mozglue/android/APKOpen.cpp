@@ -166,13 +166,6 @@ h
 #
 include
 "
-NSSBridge
-.
-h
-"
-#
-include
-"
 Linker
 .
 h
@@ -1578,12 +1571,7 @@ FAILURE
 #
 endif
 return
-setup_nss_functions
-(
-nss_handle
-nspr_handle
-plc_handle
-)
+SUCCESS
 ;
 }
 extern
