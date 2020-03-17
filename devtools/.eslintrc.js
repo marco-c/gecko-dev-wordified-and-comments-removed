@@ -809,6 +809,17 @@ rules
 "
 mozilla
 /
+balanced
+-
+observers
+"
+:
+"
+error
+"
+"
+mozilla
+/
 no
 -
 aArgs
