@@ -193,9 +193,6 @@ gradle
 gtest
 hazards
 ide
-import
--
-pr
 install
 jsapi
 -
