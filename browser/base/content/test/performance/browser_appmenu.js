@@ -601,7 +601,7 @@ viewcontainer
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -669,7 +669,7 @@ await
 promiseViewShown
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
