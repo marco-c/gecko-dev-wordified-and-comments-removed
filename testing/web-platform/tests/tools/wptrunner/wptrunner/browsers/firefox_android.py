@@ -542,6 +542,7 @@ test_type
 extra_prefs
 e10s
                  
+enable_fission
 browser_channel
 certutil_binary
 ca_certificate_path
@@ -563,10 +564,11 @@ test_type
 extra_prefs
                                              
 e10s
+enable_fission
 browser_channel
 None
-certutil_binary
                                              
+certutil_binary
 ca_certificate_path
 )
     
@@ -1026,6 +1028,8 @@ test_type
 extra_prefs
                                               
 e10s
+                                              
+False
                                               
 browser_channel
                                               
