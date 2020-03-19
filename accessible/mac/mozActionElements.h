@@ -49,3 +49,8 @@ mozPaneAccessible
 :
 mozAccessible
 end
+interface
+mozSliderAccessible
+:
+mozAccessible
+end
