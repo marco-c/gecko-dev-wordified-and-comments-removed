@@ -134,6 +134,8 @@ TermValue
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -553,6 +555,8 @@ usize
 >
 Result
 <
+'
+alloc
 bool
 >
 {
@@ -724,6 +728,8 @@ Token
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -784,6 +790,8 @@ usize
 >
 Result
 <
+'
+alloc
 (
 )
 >
@@ -866,6 +874,8 @@ TermValue
 >
 Result
 <
+'
+alloc
 bool
 >
 {

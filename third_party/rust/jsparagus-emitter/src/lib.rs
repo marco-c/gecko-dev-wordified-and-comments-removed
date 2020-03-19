@@ -150,6 +150,10 @@ alloc
 Result
 <
 EmitResult
+<
+'
+alloc
+>
 EmitError
 >
 {

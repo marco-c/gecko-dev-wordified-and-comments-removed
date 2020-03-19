@@ -190,6 +190,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -267,6 +269,8 @@ alloc
 >
 Result
 <
+'
+alloc
 arena
 :
 :
@@ -342,6 +346,8 @@ alloc
 >
 Result
 <
+'
+alloc
 StackValue
 <
 '
@@ -487,6 +493,8 @@ alloc
 >
 Result
 <
+'
+alloc
 bool
 >
 {
