@@ -5042,6 +5042,9 @@ Comment
 comment
 =
 new
+(
+mNodeInfoManager
+)
 Comment
 (
 mNodeInfoManager

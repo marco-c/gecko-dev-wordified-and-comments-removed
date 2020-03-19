@@ -97,6 +97,17 @@ ni
 =
 aNodeInfo
 ;
+auto
+*
+nim
+=
+ni
+-
+>
+NodeInfoManager
+(
+)
+;
 RefPtr
 <
 Comment
@@ -104,6 +115,9 @@ Comment
 it
 =
 new
+(
+nim
+)
 Comment
 (
 ni
