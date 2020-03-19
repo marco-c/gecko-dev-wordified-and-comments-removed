@@ -37910,10 +37910,10 @@ disabledNoReason
 ;
 if
 (
-nsMixedContentBlocker
+StaticPrefs
 :
 :
-ShouldUpgradeMixedDisplayContent
+security_mixed_content_upgrade_display_content
 (
 )
 )
@@ -37989,10 +37989,10 @@ else
 {
 upgradeKey
 =
-nsMixedContentBlocker
+StaticPrefs
 :
 :
-ShouldUpgradeMixedDisplayContent
+security_mixed_content_upgrade_display_content
 (
 )
 ?
