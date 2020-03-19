@@ -236,6 +236,7 @@ unregisterAllWorkers
 target
 .
 client
+doc
 )
 ;
 info

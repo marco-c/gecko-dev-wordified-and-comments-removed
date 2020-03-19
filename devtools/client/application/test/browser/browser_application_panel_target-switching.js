@@ -238,6 +238,7 @@ toolbox
 target
 .
 client
+doc
 )
 ;
 await
