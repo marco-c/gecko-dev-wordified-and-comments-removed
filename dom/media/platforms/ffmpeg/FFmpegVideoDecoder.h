@@ -405,6 +405,16 @@ FindVAAPICodec
 (
 )
 ;
+bool
+IsHardwareAccelerated
+(
+nsACString
+&
+aFailureReason
+)
+const
+override
+;
 MediaResult
 CreateImageVAAPI
 (
