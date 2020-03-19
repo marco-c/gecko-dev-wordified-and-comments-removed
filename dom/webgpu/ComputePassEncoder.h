@@ -121,10 +121,7 @@ ffi
 WGPURawPass
 mRaw
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <
@@ -134,10 +131,7 @@ BindGroup
 >
 mUsedBindGroups
 ;
-std
-:
-:
-vector
+nsTArray
 <
 RefPtr
 <

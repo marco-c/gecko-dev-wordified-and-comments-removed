@@ -53,6 +53,8 @@ GPU_IMPL_CYCLE_COLLECTION
 (
 ComputePassEncoder
 mParent
+mUsedBindGroups
+mUsedPipelines
 )
 GPU_IMPL_JS_WRAP
 (
@@ -194,7 +196,7 @@ mValid
 {
 mUsedBindGroups
 .
-push_back
+AppendElement
 (
 &
 aBindGroup
@@ -244,7 +246,7 @@ mValid
 {
 mUsedPipelines
 .
-push_back
+AppendElement
 (
 &
 aPipeline
