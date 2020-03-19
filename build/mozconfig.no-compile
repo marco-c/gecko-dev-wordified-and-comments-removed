@@ -145,3 +145,5 @@ unset
 LUCETC
 unset
 WASI_SYSROOT
+unset
+PDBSTR
