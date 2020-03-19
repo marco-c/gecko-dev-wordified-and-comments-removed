@@ -208,7 +208,10 @@ func
 test
 (
 block
+(
+result
 anyref
+)
 (
 unreachable
 )
@@ -971,7 +974,10 @@ assertJoin
 "
 (
 block
+(
+result
 anyref
+)
 local
 .
 get
