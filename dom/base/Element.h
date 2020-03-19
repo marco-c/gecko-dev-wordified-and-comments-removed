@@ -4996,6 +4996,14 @@ FontSizeInflation
 (
 )
 ;
+void
+GetImplementedPseudoElement
+(
+nsAString
+&
+)
+const
+;
 ReferrerPolicy
 GetReferrerPolicyAsEnum
 (
