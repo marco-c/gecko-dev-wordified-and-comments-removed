@@ -1018,7 +1018,10 @@ nsWindow
 mWindow
 ;
 LayoutDeviceIntRect
-mBufferScreenRect
+mLockedScreenRect
+;
+LayoutDeviceIntRect
+mWidgetRect
 ;
 nsWaylandDisplay
 *
@@ -1094,9 +1097,6 @@ mBufferNeedsClear
 ;
 bool
 mIsMainThread
-;
-RenderingCacheMode
-mRenderingCacheMode
 ;
 static
 bool

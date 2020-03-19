@@ -1571,6 +1571,11 @@ return
 mContainer
 ;
 }
+LayoutDeviceIntRect
+GetMozContainerSize
+(
+)
+;
 GtkWidget
 *
 GetMozContainerWidget
