@@ -1,8 +1,3 @@
-let
-{
-OSKeyStoreTestUtils
-}
-=
 ChromeUtils
 .
 import
@@ -20,6 +15,7 @@ OSKeyStoreTestUtils
 .
 jsm
 "
+this
 )
 ;
 add_task
