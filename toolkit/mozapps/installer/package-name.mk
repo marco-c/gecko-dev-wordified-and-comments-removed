@@ -671,7 +671,7 @@ BUILDID
 (
 shell
 (
-PYTHON
+PYTHON3
 )
 (
 MOZILLA_DIR
@@ -700,7 +700,7 @@ BUILDID
 (
 shell
 (
-PYTHON
+PYTHON3
 )
 (
 MOZILLA_DIR

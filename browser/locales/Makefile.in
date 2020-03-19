@@ -1053,7 +1053,7 @@ printf
 fx_revision
 '
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -1081,7 +1081,7 @@ printf
 buildid
 '
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir

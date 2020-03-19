@@ -120,6 +120,12 @@ Python
 only
 )
 -
+config
+/
+printconfigsetting
+.
+py
+-
 python
 /
 mozlint

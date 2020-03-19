@@ -613,7 +613,7 @@ printf
 gecko_revision
 '
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -634,7 +634,7 @@ printf
 fennec_revision
 '
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -655,7 +655,7 @@ printf
 buildid
 '
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
