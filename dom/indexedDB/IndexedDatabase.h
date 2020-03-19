@@ -50,6 +50,13 @@ FileInfoFwd
 .
 h
 "
+#
+include
+"
+SafeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -462,7 +469,7 @@ StructuredCloneFileParent
 (
 FileType
 aType
-RefPtr
+SafeRefPtr
 <
 FileInfo
 >
@@ -504,7 +511,7 @@ return
 mContents
 ;
 }
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :
@@ -523,7 +530,7 @@ InitializedOnce
 const
 Maybe
 <
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :
