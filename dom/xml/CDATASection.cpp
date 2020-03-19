@@ -130,6 +130,17 @@ ni
 =
 aNodeInfo
 ;
+auto
+*
+nim
+=
+ni
+-
+>
+NodeInfoManager
+(
+)
+;
 RefPtr
 <
 CDATASection
@@ -137,6 +148,9 @@ CDATASection
 it
 =
 new
+(
+nim
+)
 CDATASection
 (
 ni
