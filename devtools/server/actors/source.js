@@ -871,6 +871,17 @@ actorID
 ]
 ;
 }
+Actor
+.
+prototype
+.
+destroy
+.
+call
+(
+this
+)
+;
 }
 get
 isWasm

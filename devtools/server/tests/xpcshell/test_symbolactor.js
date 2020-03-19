@@ -102,6 +102,14 @@ symbol
 :
 actor
 }
+unmanage
+:
+(
+)
+=
+>
+{
+}
 }
 ;
 actor
