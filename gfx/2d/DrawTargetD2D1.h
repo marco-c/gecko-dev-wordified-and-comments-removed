@@ -1281,6 +1281,7 @@ bool
 IsDeviceContextValid
 (
 )
+const
 ;
 IntSize
 mSize
