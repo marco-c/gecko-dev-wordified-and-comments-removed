@@ -2100,6 +2100,13 @@ MaybeReject
 NS_ERROR_DOM_ABORT_ERR
 )
 ;
+mFinished
+-
+>
+SetSettledPromiseIsHandled
+(
+)
+;
 }
 ResetFinishedPromise
 (
@@ -6836,6 +6843,13 @@ mReady
 MaybeReject
 (
 NS_ERROR_DOM_ABORT_ERR
+)
+;
+mReady
+-
+>
+SetSettledPromiseIsHandled
+(
 )
 ;
 mReady
