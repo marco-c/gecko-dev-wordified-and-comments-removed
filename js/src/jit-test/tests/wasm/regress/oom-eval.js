@@ -43,7 +43,10 @@ func
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '

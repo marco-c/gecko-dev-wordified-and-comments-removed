@@ -122,7 +122,10 @@ export
 "
 func_0
 "
+(
+func
 func1
+)
 )
 (
 func

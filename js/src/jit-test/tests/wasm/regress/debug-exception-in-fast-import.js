@@ -90,7 +90,10 @@ start
 export
 "
 "
+(
+func
 start
+)
 )
 )
 {

@@ -31,7 +31,10 @@ export
 "
 f
 "
+(
+func
 f
+)
 )
 )
 )
@@ -65,7 +68,10 @@ export
 "
 g
 "
+(
+func
 f
+)
 )
 )
 )

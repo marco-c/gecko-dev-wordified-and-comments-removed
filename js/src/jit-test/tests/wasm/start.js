@@ -305,7 +305,10 @@ start
 export
 "
 "
+(
+func
 0
+)
 )
 )
 {
@@ -414,7 +417,10 @@ start
 export
 "
 "
+(
+func
 start
+)
 )
 )
 '

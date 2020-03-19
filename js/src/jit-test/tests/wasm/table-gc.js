@@ -71,7 +71,10 @@ export
 "
 call
 "
+(
+func
 call
+)
 )
 var
 callee
@@ -726,7 +729,10 @@ export
 "
 f0
 "
+(
+func
 f0
+)
 )
 )
 )
@@ -839,7 +845,10 @@ export
 "
 f
 "
+(
+func
 f
+)
 )
 )
 )
@@ -1067,7 +1076,10 @@ export
 "
 f1
 "
+(
+func
 f1
+)
 )
 )
 )
@@ -1098,7 +1110,10 @@ export
 "
 f2
 "
+(
+func
 f2
+)
 )
 )
 )
@@ -1428,7 +1443,10 @@ export
 "
 f
 "
+(
+func
 f
+)
 )
 )
 {
@@ -1574,7 +1592,10 @@ export
 "
 f
 "
+(
+func
 f
+)
 )
 )
 )

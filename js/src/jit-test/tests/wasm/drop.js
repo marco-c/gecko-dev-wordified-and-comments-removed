@@ -63,7 +63,10 @@ export
 "
 test
 "
+(
+func
 test
+)
 )
 )
 )
@@ -146,7 +149,10 @@ export
 "
 test
 "
+(
+func
 test
+)
 )
 )
 )
@@ -200,7 +206,10 @@ export
 "
 test
 "
+(
+func
 test
+)
 )
 )
 [

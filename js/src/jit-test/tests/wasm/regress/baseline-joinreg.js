@@ -64,7 +64,10 @@ export
 "
 run
 "
+(
+func
 run
+)
 )
 )
 )
