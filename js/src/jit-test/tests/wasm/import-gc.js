@@ -31,10 +31,7 @@ export
 "
 f
 "
-(
-func
 f
-)
 )
 )
 )
@@ -58,9 +55,6 @@ a
 "
 f
 "
-(
-func
-)
 )
 (
 func
@@ -71,10 +65,7 @@ export
 "
 g
 "
-(
-func
 f
-)
 )
 )
 )

@@ -62,10 +62,7 @@ export
 "
 run
 "
-(
-func
 run
-)
 )
 )
 )

@@ -3489,6 +3489,7 @@ wasmTextToBinary
 module
 (
 import
+f
 "
 imp
 "
@@ -3496,16 +3497,12 @@ imp
 f
 "
 (
-func
-f
-(
 param
 i32
 )
 (
 result
 i32
-)
 )
 )
 (
@@ -3531,10 +3528,7 @@ export
 "
 h
 "
-(
-func
 h
-)
 )
 )
 )
@@ -3586,10 +3580,7 @@ export
 "
 i
 "
-(
-func
 i
-)
 )
 )
 )

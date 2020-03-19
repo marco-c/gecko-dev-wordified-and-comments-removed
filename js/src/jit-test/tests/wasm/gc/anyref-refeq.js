@@ -75,10 +75,7 @@ f64
 )
 (
 if
-(
-result
 f64
-)
 (
 ref
 .

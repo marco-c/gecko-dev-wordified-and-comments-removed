@@ -16,10 +16,7 @@ export
 "
 g
 "
-(
-func
 f
-)
 )
 )
 )

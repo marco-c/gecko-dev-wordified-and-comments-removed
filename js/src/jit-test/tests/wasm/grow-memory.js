@@ -37,10 +37,7 @@ res
 =
 (
 if
-(
-result
 i32
-)
 (
 i32
 .
@@ -102,10 +99,7 @@ res
 =
 (
 if
-(
-result
 i32
-)
 (
 i32
 .
@@ -506,10 +500,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 ;

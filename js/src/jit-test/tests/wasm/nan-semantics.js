@@ -119,10 +119,7 @@ nan
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
@@ -206,11 +203,8 @@ import
 float32
 "
 (
-func
-(
 param
 f32
-)
 )
 )
 (
@@ -232,10 +226,7 @@ nan
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
@@ -296,10 +287,7 @@ nan
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
@@ -333,11 +321,8 @@ import
 float64
 "
 (
-func
-(
 param
 f64
-)
 )
 )
 (
@@ -359,10 +344,7 @@ nan
 export
 "
 "
-(
-func
 0
-)
 )
 )
 '
