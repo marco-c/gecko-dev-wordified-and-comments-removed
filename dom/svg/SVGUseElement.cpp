@@ -662,6 +662,14 @@ SVGUseElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 SVGUseElement
 (
 do_AddRef
