@@ -49,6 +49,17 @@ mozilla
 /
 dom
 /
+ContentParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 JSWindowActor
 .
 h
