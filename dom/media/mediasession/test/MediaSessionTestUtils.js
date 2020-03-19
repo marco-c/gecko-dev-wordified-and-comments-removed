@@ -9,12 +9,6 @@ play
 pause
 "
 "
-seekbackward
-"
-"
-seekforward
-"
-"
 previoustrack
 "
 "
