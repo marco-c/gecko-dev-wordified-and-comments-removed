@@ -298,13 +298,6 @@ pub
 flags
 :
 PrimitiveFlags
-pub
-item_key
-:
-Option
-<
-ItemKey
->
 }
 impl
 CommonItemProperties
@@ -348,9 +341,6 @@ PrimitiveFlags
 default
 (
 )
-item_key
-:
-None
 }
 }
 }
