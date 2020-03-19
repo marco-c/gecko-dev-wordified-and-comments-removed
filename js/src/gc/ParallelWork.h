@@ -288,6 +288,12 @@ MaxParallelWorkers
 =
 8
 ;
+extern
+size_t
+ParallelWorkerCount
+(
+)
+;
 template
 <
 typename
@@ -333,8 +339,6 @@ phaseKind
 WorkItemIterator
 &
 work
-size_t
-workerCount
 const
 SliceBudget
 &
@@ -361,6 +365,13 @@ tasksStarted
 0
 )
 {
+size_t
+workerCount
+=
+ParallelWorkerCount
+(
+)
+;
 MOZ_ASSERT
 (
 workerCount

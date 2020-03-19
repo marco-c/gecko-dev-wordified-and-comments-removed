@@ -4165,8 +4165,6 @@ Zone
 zone
 AllocKinds
 kinds
-size_t
-bgTaskCount
 )
 ;
 void
