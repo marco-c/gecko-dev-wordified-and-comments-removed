@@ -3558,6 +3558,8 @@ pgo
 unittests
 :
 -
+jittest
+-
 mochitest
 -
 media
@@ -3585,6 +3587,8 @@ debug
 -
 unittests
 :
+-
+jittest
 -
 mochitest
 -
