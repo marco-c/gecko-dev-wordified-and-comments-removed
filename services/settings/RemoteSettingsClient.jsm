@@ -3379,7 +3379,7 @@ this
 .
 db
 .
-deleteAll
+deleteBulk
 (
 toDelete
 )
