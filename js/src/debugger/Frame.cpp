@@ -1447,14 +1447,6 @@ AbstractGeneratorObject
 maybeGenerator
 )
 {
-MOZ_ASSERT
-(
-maybeIter
-|
-|
-maybeGenerator
-)
-;
 DebuggerFrame
 *
 frame

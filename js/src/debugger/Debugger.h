@@ -4134,6 +4134,17 @@ getFrame
 JSContext
 *
 cx
+MutableHandleDebuggerFrame
+result
+)
+;
+MOZ_MUST_USE
+bool
+getFrame
+(
+JSContext
+*
+cx
 const
 FrameIter
 &
