@@ -172,11 +172,24 @@ r
 *
 )
 '
+    
+COMMENT
+=
+r
+'
+/
+/
+.
+*
+'
 )
 def
 list_of
 (
 e
+allow_comments
+=
+False
 )
 :
     
@@ -188,7 +201,8 @@ e
 s
 '
     
-return
+prods
+=
 [
         
 Production
@@ -226,6 +240,36 @@ append
 )
     
 ]
+    
+if
+allow_comments
+:
+        
+prods
+.
+append
+(
+Production
+(
+[
+'
+COMMENT
+'
+]
+CallMethod
+(
+'
+empty
+'
+(
+0
+)
+)
+)
+)
+    
+return
+prods
 def
 call_method
 (
@@ -478,6 +522,12 @@ prod
 Optional
 (
 '
+COMMENT
+'
+)
+Optional
+(
+'
 goal
 '
 )
@@ -490,6 +540,7 @@ IDENT
 '
 {
 '
+                  
 gen
 .
 Optional
@@ -518,6 +569,9 @@ list_of
 '
 prod
 '
+allow_comments
+=
+True
 )
         
 '
@@ -783,6 +837,9 @@ STR
 '
 MATCH
 '
+'
+COMMENT
+'
 ]
 )
 Literal
@@ -1004,6 +1061,18 @@ goal_nts
 )
     
 def
+empty
+(
+self
+value
+)
+:
+        
+return
+[
+]
+    
+def
 single
 (
 self
@@ -1092,6 +1161,16 @@ return
 name
 None
 )
+    
+def
+comment
+(
+self
+comment
+)
+:
+        
+pass
     
 def
 nt_defs_single
@@ -1185,6 +1264,7 @@ def
 nt_def
 (
 self
+_comment
 goal_kw
 ident
 prods

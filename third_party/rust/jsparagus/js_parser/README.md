@@ -65,11 +65,7 @@ spec
 *
 *
 *
-extract
--
-es
--
-grammar
+extract_es_grammar
 .
 py
 *

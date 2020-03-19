@@ -77,6 +77,13 @@ name
 Build
 run
 :
+RUSTFLAGS
+=
+"
+-
+D
+warnings
+"
 make
 all
 -

@@ -139,6 +139,27 @@ v
 1
     
 def
+extend
+(
+self
+iterable
+)
+:
+        
+for
+v
+in
+iterable
+:
+            
+self
+.
+add
+(
+v
+)
+    
+def
 remove
 (
 self

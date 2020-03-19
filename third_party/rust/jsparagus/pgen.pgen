@@ -55,6 +55,10 @@ var
 token
 MATCH
 ;
+var
+token
+COMMENT
+;
 token
 Eq
 =
@@ -263,6 +267,8 @@ nt_defs_append
 nt
 nt_def
 {
+COMMENT
+?
 "
 goal
 "
@@ -284,8 +290,9 @@ prods
 nt_def
 (
 0
-2
-4
+1
+3
+5
 )
 ;
 }
@@ -308,6 +315,14 @@ append
 (
 0
 1
+)
+;
+COMMENT
+=
+>
+empty
+(
+0
 )
 ;
 }

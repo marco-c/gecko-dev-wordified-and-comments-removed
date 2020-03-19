@@ -543,6 +543,7 @@ fn
 check_not_on_new_line
 (
 &
+mut
 self
 _peek
 :
@@ -557,7 +558,7 @@ bool
 {
 Ok
 (
-false
+true
 )
 }
 }

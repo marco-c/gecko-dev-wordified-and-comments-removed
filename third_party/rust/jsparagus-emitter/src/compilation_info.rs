@@ -1,4 +1,13 @@
 use
+crate
+:
+:
+scope
+:
+:
+ScopeDataMap
+;
+use
 ast
 :
 :
@@ -23,6 +32,10 @@ SourceAtomSet
 '
 alloc
 >
+pub
+scope_data_map
+:
+ScopeDataMap
 }
 impl
 <
@@ -46,6 +59,9 @@ SourceAtomSet
 '
 alloc
 >
+scope_data_map
+:
+ScopeDataMap
 )
 -
 >
@@ -54,6 +70,7 @@ Self
 Self
 {
 atoms
+scope_data_map
 }
 }
 }
