@@ -4442,10 +4442,6 @@ UseCompositor
 )
 |
 |
-!
-mSwapChain1
-|
-|
 mWidget
 -
 >
