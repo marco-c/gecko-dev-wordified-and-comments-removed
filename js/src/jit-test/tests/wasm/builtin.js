@@ -228,7 +228,10 @@ i32
 const
 0
 call_indirect
+(
+type
 f_f
+)
 )
 (
 func
@@ -278,7 +281,10 @@ i32
 const
 1
 call_indirect
+(
+type
 d_d
+)
 )
 )
 imports
@@ -590,7 +596,10 @@ i32
 const
 0
 call_indirect
+(
+type
 ff_f
+)
 )
 (
 func
@@ -656,7 +665,10 @@ i32
 const
 1
 call_indirect
+(
+type
 dd_d
+)
 )
 )
 imports

@@ -653,7 +653,10 @@ local
 get
 0
 call_indirect
+(
+type
 t
+)
 )
 )
 3
@@ -798,7 +801,10 @@ local
 get
 0
 call_indirect
+(
+type
 t
+)
 )
 )
 3
