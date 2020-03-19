@@ -2592,6 +2592,14 @@ remove
 ;
 }
 }
+Services
+.
+telemetry
+.
+clearEvents
+(
+)
+;
 }
 )
 ;
