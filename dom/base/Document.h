@@ -10270,6 +10270,12 @@ return
 mDocGroup
 ;
 }
+DocGroup
+*
+GetDocGroupOrCreate
+(
+)
+;
 bool
 StyleOrLayoutObservablyDependsOnParentDocumentLayout
 (
