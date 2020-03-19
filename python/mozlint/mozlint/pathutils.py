@@ -1955,6 +1955,8 @@ continue
             
 yield
 path
+            
+continue
         
 ignore
 =
