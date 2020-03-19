@@ -2449,6 +2449,8 @@ Selection
 :
 Selection
 (
+SelectionType
+aSelectionType
 nsFrameSelection
 *
 aFrameSelection
@@ -2468,10 +2470,7 @@ eDirNext
 )
 mSelectionType
 (
-SelectionType
-:
-:
-eNormal
+aSelectionType
 )
 mCustomColors
 (

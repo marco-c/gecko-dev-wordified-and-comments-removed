@@ -210,6 +210,8 @@ public
 explicit
 Selection
 (
+SelectionType
+aSelectionType
 nsFrameSelection
 *
 aFrameSelection
@@ -2031,18 +2033,6 @@ return
 mSelectionType
 ;
 }
-void
-SetType
-(
-SelectionType
-aSelectionType
-)
-{
-mSelectionType
-=
-aSelectionType
-;
-}
 SelectionCustomColors
 *
 GetCustomColors
@@ -2480,6 +2470,7 @@ mCachedOffsetForFrame
 nsDirection
 mDirection
 ;
+const
 SelectionType
 mSelectionType
 ;

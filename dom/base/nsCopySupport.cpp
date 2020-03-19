@@ -1618,6 +1618,10 @@ selection
 new
 Selection
 (
+SelectionType
+:
+:
+eNormal
 nullptr
 )
 ;
