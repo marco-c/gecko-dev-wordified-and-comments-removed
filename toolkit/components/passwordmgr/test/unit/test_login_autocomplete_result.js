@@ -16,7 +16,7 @@ gre
 /
 modules
 /
-LoginAutoCompleteResult
+LoginAutoComplete
 .
 jsm
 "
