@@ -36989,9 +36989,6 @@ aRefCnt
 int32_t
 *
 aDBRefCnt
-int32_t
-*
-aSliceRefCnt
 bool
 *
 aResult
@@ -44111,10 +44108,6 @@ int32_t
 *
 const
 aDBRefCnt
-int32_t
-*
-const
-aSliceRefCnt
 bool
 *
 const
@@ -44137,11 +44130,6 @@ aDBRefCnt
 ;
 MOZ_ASSERT
 (
-aSliceRefCnt
-)
-;
-MOZ_ASSERT
-(
 aResult
 )
 ;
@@ -44158,12 +44146,6 @@ aMemRefCnt
 ;
 *
 aDBRefCnt
-=
--
-1
-;
-*
-aSliceRefCnt
 =
 -
 1
@@ -44260,7 +44242,6 @@ GetReferences
 (
 aMemRefCnt
 aDBRefCnt
-aSliceRefCnt
 )
 ;
 if
@@ -126739,9 +126720,6 @@ aRefCnt
 int32_t
 *
 aDBRefCnt
-int32_t
-*
-aSliceRefCnt
 bool
 *
 aResult
@@ -126759,11 +126737,6 @@ aRefCnt
 MOZ_ASSERT
 (
 aDBRefCnt
-)
-;
-MOZ_ASSERT
-(
-aSliceRefCnt
 )
 ;
 MOZ_ASSERT
@@ -126938,7 +126911,6 @@ aDatabaseName
 aFileId
 aRefCnt
 aDBRefCnt
-aSliceRefCnt
 aResult
 )
 ;
