@@ -15888,11 +15888,6 @@ cause
 "
 \
 "
-initiator
-\
-"
-\
-"
 type
 \
 "
