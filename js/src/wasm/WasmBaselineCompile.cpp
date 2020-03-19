@@ -6665,8 +6665,12 @@ height
 ;
 masm
 .
-moveStackPtrTo
+movePtr
 (
+AsRegister
+(
+sp_
+)
 dest
 )
 ;
