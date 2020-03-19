@@ -368,7 +368,7 @@ value
 ;
 pool
 .
-addActor
+manage
 (
 actor
 )

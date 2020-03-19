@@ -470,7 +470,7 @@ _thread
 .
 threadLifetimePool
 .
-addActor
+manage
 (
 actor
 )
