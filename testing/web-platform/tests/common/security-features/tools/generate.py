@@ -1752,10 +1752,38 @@ expansion
 '
 )
     
+excluded_selection_pattern
+=
+'
+'
+    
+for
+key
+in
+artifact_order
+:
+        
+excluded_selection_pattern
++
+=
+'
+%
+(
+'
++
+key
++
+'
+)
+s
+/
+'
+    
 exclusion_dict
 =
-{
-}
+set
+(
+)
     
 for
 excluded_pattern
@@ -1804,14 +1832,13 @@ delivery_key
 ]
             
 exclusion_dict
-[
-dump_test_parameters
+.
+add
 (
+excluded_selection_pattern
+%
 excluded_selection
 )
-]
-=
-True
     
 for
 spec
@@ -1974,8 +2001,9 @@ selection_path
 ]
             
 if
-dump_test_parameters
 (
+excluded_selection_pattern
+%
 selection
 )
 in
