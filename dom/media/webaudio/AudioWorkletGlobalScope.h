@@ -155,6 +155,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 ConstructProcessor
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
