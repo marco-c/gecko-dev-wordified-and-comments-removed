@@ -4072,6 +4072,7 @@ i
 {
 if
 (
+(
 r
 =
 nr_interface_prioritizer_add_interface
@@ -4083,6 +4084,15 @@ interface_prioritizer
 addrs
 +
 i
+)
+)
+&
+&
+(
+r
+!
+=
+R_ALREADY
 )
 )
 {
