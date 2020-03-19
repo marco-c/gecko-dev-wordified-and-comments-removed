@@ -1,10 +1,24 @@
 import
+io
+as
+pyio
+import
+json
+import
+os
+import
 unittest
 from
 .
 .
 import
 InFile
+from
+.
+.
+comment_stripper
+import
+CommentStripper
 from
 .
 .
@@ -17,6 +31,14 @@ EXAMPLE_FILE_STEMS
     
 "
 af_NA
+"
+    
+"
+af_VARIANT
+"
+    
+"
+af_ZA_VARIANT
 "
     
 "
@@ -120,6 +142,10 @@ sr_Latn_CS
 "
     
 "
+sr_Latn_ME_VARIANT
+"
+    
+"
 sr_Latn_ME
 "
     
@@ -157,6 +183,10 @@ vai_Vaii
     
 "
 vai
+"
+    
+"
+yue
 "
     
 "
@@ -220,6 +250,111 @@ zh
 "
 ]
 class
+TestIO
+(
+object
+)
+:
+    
+def
+__init__
+(
+self
+)
+:
+        
+pass
+    
+def
+read_locale_deps
+(
+self
+tree
+)
+:
+        
+if
+tree
+not
+in
+(
+"
+brkitr
+"
+"
+locales
+"
+"
+rbnf
+"
+)
+:
+            
+return
+None
+        
+with
+pyio
+.
+open
+(
+os
+.
+path
+.
+join
+(
+                
+os
+.
+path
+.
+dirname
+(
+__file__
+)
+                
+"
+sample_data
+"
+                
+tree
+                
+"
+LOCALE_DEPS
+.
+json
+"
+                
+)
+"
+r
+"
+encoding
+=
+"
+utf
+-
+8
+-
+sig
+"
+)
+as
+f
+:
+            
+return
+json
+.
+load
+(
+CommentStripper
+(
+f
+)
+)
+class
 FiltrationTest
 (
 unittest
@@ -254,6 +389,9 @@ exclude
 "
         
 }
+TestIO
+(
+)
 )
 [
         
@@ -294,6 +432,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -367,6 +508,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 expected_matches
 )
@@ -413,6 +557,9 @@ bs
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -422,6 +569,14 @@ root
             
 "
 af_NA
+"
+            
+"
+af_VARIANT
+"
+            
+"
+af_ZA_VARIANT
 "
             
 "
@@ -487,6 +642,24 @@ expected_matches
 remove
 (
 "
+af_VARIANT
+"
+)
+        
+expected_matches
+.
+remove
+(
+"
+af_ZA_VARIANT
+"
+)
+        
+expected_matches
+.
+remove
+(
+"
 af_ZA
 "
 )
@@ -531,6 +704,9 @@ af
 ]
         
 }
+TestIO
+(
+)
 )
 expected_matches
 )
@@ -583,6 +759,9 @@ zh
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -696,6 +875,9 @@ zh
 ]
         
 }
+TestIO
+(
+)
 )
 expected_matches
 )
@@ -754,6 +936,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -924,6 +1109,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -1042,6 +1230,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -1111,6 +1302,10 @@ sr_Latn_BA
             
 "
 sr_Latn_CS
+"
+            
+"
+sr_Latn_ME_VARIANT
 "
             
 "
@@ -1238,6 +1433,9 @@ zh_Hans
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -1392,6 +1590,9 @@ zh
 ]
         
 }
+TestIO
+(
+)
 )
 [
             
@@ -1435,11 +1636,207 @@ zh
 )
     
 def
+test_hk_deps_normal
+(
+self
+)
+:
+        
+self
+.
+_check_filter
+(
+Filter
+.
+create_from_json
+(
+{
+            
+"
+filterType
+"
+:
+"
+locale
+"
+            
+"
+whitelist
+"
+:
+[
+                
+"
+zh_HK
+"
+            
+]
+        
+}
+TestIO
+(
+)
+)
+[
+            
+"
+root
+"
+            
+"
+zh_Hant
+"
+            
+"
+zh_Hant_HK
+"
+            
+"
+zh_HK
+"
+        
+]
+)
+    
+def
+test_hk_deps_rbnf
+(
+self
+)
+:
+        
+self
+.
+_check_filter
+(
+Filter
+.
+create_from_json
+(
+{
+            
+"
+filterType
+"
+:
+"
+locale
+"
+            
+"
+whitelist
+"
+:
+[
+                
+"
+zh_HK
+"
+            
+]
+        
+}
+TestIO
+(
+)
+)
+[
+            
+"
+root
+"
+            
+"
+yue
+"
+            
+"
+zh_Hant_HK
+"
+            
+"
+zh_HK
+"
+        
+]
+"
+rbnf
+"
+)
+    
+def
+test_no_alias_parent_structure
+(
+self
+)
+:
+        
+self
+.
+_check_filter
+(
+Filter
+.
+create_from_json
+(
+{
+            
+"
+filterType
+"
+:
+"
+locale
+"
+            
+"
+whitelist
+"
+:
+[
+                
+"
+zh_HK
+"
+            
+]
+        
+}
+TestIO
+(
+)
+)
+[
+            
+"
+root
+"
+            
+"
+zh_HK
+"
+            
+"
+zh
+"
+        
+]
+"
+brkitr
+"
+)
+    
+def
 _check_filter
 (
 self
 filter
 expected_matches
+tree
+=
+"
+locales
+"
 )
 :
         
@@ -1458,7 +1855,8 @@ match
 InFile
 (
 "
-locales
+%
+s
 /
 %
 s
@@ -1466,7 +1864,10 @@ s
 txt
 "
 %
+(
+tree
 file_stem
+)
 )
 )
             

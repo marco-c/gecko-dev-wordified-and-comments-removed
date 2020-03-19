@@ -16,7 +16,7 @@ def
 generate
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -32,7 +32,7 @@ requests
 generate_rb
 (
 config
-glob
+io
 common_vars
 )
     
@@ -42,7 +42,7 @@ requests
 generate_sprep
 (
 config
-glob
+io
 common_vars
 )
     
@@ -52,7 +52,7 @@ requests
 generate_conv
 (
 config
-glob
+io
 common_vars
 )
     
@@ -62,7 +62,7 @@ requests
 generate_other
 (
 config
-glob
+io
 common_vars
 )
     
@@ -72,7 +72,7 @@ requests
 generate_copy
 (
 config
-glob
+io
 common_vars
 )
     
@@ -121,7 +121,7 @@ def
 generate_rb
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -555,7 +555,7 @@ def
 generate_sprep
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1059,7 +1059,7 @@ def
 generate_conv
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1206,7 +1206,7 @@ def
 generate_copy
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1318,7 +1318,7 @@ def
 generate_other
 (
 config
-glob
+io
 common_vars
 )
 :

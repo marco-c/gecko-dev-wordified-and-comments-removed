@@ -13,12 +13,6 @@ icutools
 .
 databuilder
 import
-locale_dependencies
-from
-icutools
-.
-databuilder
-import
 utils
 from
 icutools
@@ -36,7 +30,7 @@ def
 generate
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -49,6 +43,8 @@ requests
 if
 len
 (
+io
+.
 glob
 (
 "
@@ -97,7 +93,7 @@ requests
 generate_cnvalias
 (
 config
-glob
+io
 common_vars
 )
     
@@ -107,7 +103,7 @@ requests
 generate_ulayout
 (
 config
-glob
+io
 common_vars
 )
     
@@ -117,7 +113,7 @@ requests
 generate_confusables
 (
 config
-glob
+io
 common_vars
 )
     
@@ -127,7 +123,7 @@ requests
 generate_conversion_mappings
 (
 config
-glob
+io
 common_vars
 )
     
@@ -137,7 +133,7 @@ requests
 generate_brkitr_brk
 (
 config
-glob
+io
 common_vars
 )
     
@@ -147,7 +143,7 @@ requests
 generate_stringprep
 (
 config
-glob
+io
 common_vars
 )
     
@@ -157,7 +153,7 @@ requests
 generate_brkitr_dictionaries
 (
 config
-glob
+io
 common_vars
 )
     
@@ -167,7 +163,7 @@ requests
 generate_normalization
 (
 config
-glob
+io
 common_vars
 )
     
@@ -177,7 +173,7 @@ requests
 generate_coll_ucadata
 (
 config
-glob
+io
 common_vars
 )
     
@@ -187,7 +183,7 @@ requests
 generate_full_unicore_data
 (
 config
-glob
+io
 common_vars
 )
     
@@ -197,7 +193,7 @@ requests
 generate_unames
 (
 config
-glob
+io
 common_vars
 )
     
@@ -207,7 +203,7 @@ requests
 generate_misc
 (
 config
-glob
+io
 common_vars
 )
     
@@ -217,7 +213,7 @@ requests
 generate_curr_supplemental
 (
 config
-glob
+io
 common_vars
 )
     
@@ -227,7 +223,7 @@ requests
 generate_translit
 (
 config
-glob
+io
 common_vars
 )
     
@@ -237,7 +233,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -246,16 +242,6 @@ locales
         
 None
         
-"
-icu
--
-locale
--
-deprecates
-.
-xml
-"
-        
 config
 .
 use_pool_bundle
@@ -270,7 +256,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -281,16 +267,6 @@ curr
 curr
 "
         
-"
-icu
--
-locale
--
-deprecates
-.
-xml
-"
-        
 config
 .
 use_pool_bundle
@@ -305,7 +281,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -316,16 +292,6 @@ lang
 lang
 "
         
-"
-icu
--
-locale
--
-deprecates
-.
-xml
-"
-        
 config
 .
 use_pool_bundle
@@ -340,7 +306,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -351,16 +317,6 @@ region
 region
 "
         
-"
-icu
--
-locale
--
-deprecates
-.
-xml
-"
-        
 config
 .
 use_pool_bundle
@@ -375,7 +331,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -386,14 +342,29 @@ zone
 zone
 "
         
-"
-icu
--
-locale
--
-deprecates
+config
 .
-xml
+use_pool_bundle
+        
+[
+]
+)
+    
+requests
++
+=
+generate_tree
+(
+config
+io
+common_vars
+        
+"
+unit
+"
+        
+"
+unit
 "
         
 config
@@ -410,42 +381,7 @@ requests
 generate_tree
 (
 config
-glob
-common_vars
-        
-"
-unit
-"
-        
-"
-unit
-"
-        
-"
-icu
--
-locale
--
-deprecates
-.
-xml
-"
-        
-config
-.
-use_pool_bundle
-        
-[
-]
-)
-    
-requests
-+
-=
-generate_tree
-(
-config
-glob
+io
 common_vars
         
 "
@@ -454,16 +390,6 @@ coll
         
 "
 coll
-"
-        
-"
-icu
--
-coll
--
-deprecates
-.
-xml
 "
         
 False
@@ -500,7 +426,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -509,16 +435,6 @@ brkitr
         
 "
 brkitr
-"
-        
-"
-icu
--
-locale
--
-deprecates
-.
-xml
 "
         
 False
@@ -545,7 +461,7 @@ requests
 generate_tree
 (
 config
-glob
+io
 common_vars
         
 "
@@ -554,16 +470,6 @@ rbnf
         
 "
 rbnf
-"
-        
-"
-icu
--
-rbnf
--
-deprecates
-.
-xml
 "
         
 False
@@ -617,7 +523,7 @@ def
 generate_cnvalias
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -726,7 +632,7 @@ def
 generate_confusables
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -886,7 +792,7 @@ def
 generate_conversion_mappings
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -901,6 +807,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -1036,7 +944,7 @@ def
 generate_brkitr_brk
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1051,6 +959,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -1201,7 +1111,7 @@ def
 generate_stringprep
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1216,6 +1126,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -1397,7 +1309,7 @@ def
 generate_brkitr_dictionaries
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1412,6 +1324,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -1680,7 +1594,7 @@ def
 generate_normalization
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1695,6 +1609,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -1823,7 +1739,7 @@ def
 generate_coll_ucadata
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -1949,7 +1865,7 @@ def
 generate_full_unicore_data
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2100,7 +2016,7 @@ def
 generate_unames
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2215,7 +2131,7 @@ def
 generate_ulayout
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2338,7 +2254,7 @@ def
 generate_misc
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2353,6 +2269,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -2505,7 +2423,7 @@ def
 generate_curr_supplemental
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2642,7 +2560,7 @@ def
 generate_translit
 (
 config
-glob
+io
 common_vars
 )
 :
@@ -2697,6 +2615,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -2879,15 +2799,13 @@ generate_tree
         
 config
         
-glob
+io
         
 common_vars
         
 sub_dir
         
 out_sub_dir
-        
-xml_filename
         
 use_pool_bundle
         
@@ -2934,6 +2852,8 @@ filename
 for
 filename
 in
+io
+.
 glob
 (
 "
@@ -3382,13 +3302,28 @@ root
 ]
 )
     
+dependency_data
+=
+io
+.
+read_locale_deps
+(
+sub_dir
+)
+    
+if
+"
+aliases
+"
+in
+dependency_data
+:
+        
 alias_locales
 =
 set
 (
-locale_dependencies
-.
-data
+dependency_data
 [
 "
 aliases
@@ -3398,6 +3333,15 @@ aliases
 keys
 (
 )
+)
+    
+else
+:
+        
+alias_locales
+=
+set
+(
 )
     
 alias_files
@@ -3452,9 +3396,7 @@ f
     
 cldr_version
 =
-locale_dependencies
-.
-data
+dependency_data
 [
 "
 cldrVersion

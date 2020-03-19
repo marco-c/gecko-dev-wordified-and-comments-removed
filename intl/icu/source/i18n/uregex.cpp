@@ -5921,6 +5921,14 @@ RIGHTBRACKET
 {
 groupNum
 =
+regexp
+-
+>
+fPat
+-
+>
+fNamedCaptureMap
+?
 uhash_geti
 (
 regexp
@@ -5933,6 +5941,8 @@ fNamedCaptureMap
 &
 groupName
 )
+:
+0
 ;
 if
 (

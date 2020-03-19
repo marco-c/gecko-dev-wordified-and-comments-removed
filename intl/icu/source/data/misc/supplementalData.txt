@@ -3733,6 +3733,8 @@ cldrVersion
 {
 "
 36
+.
+1
 "
 }
 codeMappings
@@ -21105,6 +21107,9 @@ Cham
 Cher
 "
 "
+Chrs
+"
+"
 Copt
 "
 "
@@ -21115,6 +21120,9 @@ Cyrl
 "
 "
 Deva
+"
+"
+Diak
 "
 "
 Dogr
@@ -21231,6 +21239,9 @@ Khmr
 "
 "
 Khoj
+"
+"
+Kits
 "
 "
 Knda
@@ -21497,6 +21508,9 @@ Xpeo
 "
 "
 Xsux
+"
+"
+Yezi
 "
 "
 Yiii

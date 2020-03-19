@@ -229,7 +229,7 @@ nofallback
 DataVersion
 {
 "
-65
+66
 .
 1
 .
@@ -241,7 +241,7 @@ DataVersion
 ICUVersion
 {
 "
-65
+66
 .
 1
 .

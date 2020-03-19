@@ -248,7 +248,7 @@ ExpectCLDRVersionAtLeast
 {
 36
 .
-0
+1
 }
 /
 /
@@ -273,7 +273,7 @@ CurrentCLDRVersion
 {
 36
 .
-0
+1
 }
 /
 /

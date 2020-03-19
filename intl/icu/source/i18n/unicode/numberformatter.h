@@ -3764,7 +3764,6 @@ return
 result
 ;
 }
-;
 #
 endif
 class

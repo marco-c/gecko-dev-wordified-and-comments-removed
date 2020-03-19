@@ -328,7 +328,7 @@ uvernum
 h
 U_ICUDATA_NAME
 =
-icudt65
+icudt66
 #
 #
 #
@@ -435,7 +435,7 @@ version
 .
 U_ICUDATA_NAME
 =
-icudt65
+icudt66
 !
 ENDIF
 U_ICUDATA_ENDIAN_SUFFIX
@@ -443,9 +443,9 @@ U_ICUDATA_ENDIAN_SUFFIX
 l
 UNICODE_VERSION
 =
-12
+13
 .
-1
+0
 ICU_LIB_TARGET
 =
 (
@@ -2727,7 +2727,7 @@ ICUTOOLS
 tool_cfg
 "
 (
-CFG
+CFGTOOLS
 )
 "
 \

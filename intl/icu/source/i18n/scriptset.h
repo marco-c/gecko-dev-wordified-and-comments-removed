@@ -48,6 +48,13 @@ UMemory
 {
 public
 :
+static
+constexpr
+int32_t
+SCRIPT_LIMIT
+=
+224
+;
 ScriptSet
 (
 )
@@ -271,7 +278,9 @@ private
 uint32_t
 bits
 [
-6
+SCRIPT_LIMIT
+/
+32
 ]
 ;
 }

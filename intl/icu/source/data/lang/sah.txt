@@ -467,6 +467,8 @@ Version
 {
 "
 36
+.
+1
 "
 }
 characterLabelPattern

@@ -578,6 +578,11 @@ init
 (
 )
 ;
+bool
+initNamedCaptureMap
+(
+)
+;
 void
 zap
 (
