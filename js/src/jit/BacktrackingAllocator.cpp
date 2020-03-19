@@ -6733,6 +6733,11 @@ areaAlloc
 resultAlloc
 (
 ins
+reg
+.
+def
+(
+)
 )
 )
 ;

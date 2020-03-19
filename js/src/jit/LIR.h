@@ -143,6 +143,9 @@ class
 LInstruction
 ;
 class
+LDefinition
+;
+class
 MBasicBlock
 ;
 class
@@ -2203,6 +2206,9 @@ resultAlloc
 LInstruction
 *
 lir
+LDefinition
+*
+def
 )
 const
 ;
