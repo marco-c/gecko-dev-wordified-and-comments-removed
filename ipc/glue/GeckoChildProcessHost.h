@@ -593,15 +593,6 @@ MOZ_SANDBOX
 )
 static
 bool
-StaticFillMacSandboxInfo
-(
-MacSandboxInfo
-&
-aInfo
-)
-;
-static
-bool
 StartMacSandbox
 (
 int

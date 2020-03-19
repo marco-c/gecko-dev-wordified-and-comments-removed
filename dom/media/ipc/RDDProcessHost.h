@@ -229,15 +229,6 @@ defined
 MOZ_SANDBOX
 )
 static
-bool
-StaticFillMacSandboxInfo
-(
-MacSandboxInfo
-&
-aInfo
-)
-;
-static
 MacSandboxType
 GetMacSandboxType
 (
