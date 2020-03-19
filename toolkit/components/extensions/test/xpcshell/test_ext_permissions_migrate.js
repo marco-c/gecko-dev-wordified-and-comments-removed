@@ -432,6 +432,13 @@ com
 ]
 ;
 await
+AddonTestUtils
+.
+promiseRestartManager
+(
+)
+;
+await
 extension
 .
 upgrade
