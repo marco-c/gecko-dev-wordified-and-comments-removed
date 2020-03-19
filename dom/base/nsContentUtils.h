@@ -860,6 +860,15 @@ else
 endif
 static
 bool
+IsErrorPage
+(
+nsIURI
+*
+aURI
+)
+;
+static
+bool
 IsCallerChromeOrFuzzingEnabled
 (
 JSContext
