@@ -599,6 +599,14 @@ else
 fragment
 =
 new
+(
+document
+-
+>
+NodeInfoManager
+(
+)
+)
 DocumentFragment
 (
 document

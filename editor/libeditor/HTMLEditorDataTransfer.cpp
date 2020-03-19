@@ -13266,6 +13266,14 @@ DocumentFragment
 fragment
 =
 new
+(
+aTargetDocument
+-
+>
+NodeInfoManager
+(
+)
+)
 DocumentFragment
 (
 aTargetDocument
