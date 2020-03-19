@@ -1044,6 +1044,7 @@ mLib
 >
 av_freep
 (
+&
 mCodecContext
 )
 ;
@@ -1094,6 +1095,7 @@ mLib
 >
 av_freep
 (
+&
 mCodecContext
 )
 ;
@@ -1130,6 +1132,7 @@ mLib
 >
 av_freep
 (
+&
 mCodecContext
 )
 ;
