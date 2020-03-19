@@ -8,13 +8,6 @@ h
 #
 include
 "
-FileInfo
-.
-h
-"
-#
-include
-"
 IDBCursorType
 .
 h
