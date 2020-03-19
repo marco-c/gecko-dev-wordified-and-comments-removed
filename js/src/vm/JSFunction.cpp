@@ -6879,7 +6879,7 @@ targetVal
 BoundFunctionEnvironmentSlotValue
 (
 this
-JSSLOT_BOUND_FUNCTION_TARGET
+BoundFunctionEnvTargetSlot
 )
 ;
 MOZ_ASSERT
@@ -6917,7 +6917,7 @@ return
 BoundFunctionEnvironmentSlotValue
 (
 this
-JSSLOT_BOUND_FUNCTION_THIS
+BoundFunctionEnvThisSlot
 )
 ;
 }
@@ -6941,7 +6941,7 @@ argsVal
 BoundFunctionEnvironmentSlotValue
 (
 boundFun
-JSSLOT_BOUND_FUNCTION_ARGS
+BoundFunctionEnvArgsSlot
 )
 ;
 return

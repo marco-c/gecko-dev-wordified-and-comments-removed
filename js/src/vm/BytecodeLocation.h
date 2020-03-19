@@ -40,10 +40,6 @@ StringType
 .
 h
 "
-enum
-class
-FunctionPrefixKind
-;
 namespace
 js
 {
@@ -57,6 +53,10 @@ PropertyName
 ;
 class
 RegExpObject
+;
+enum
+class
+FunctionPrefixKind
 ;
 class
 BytecodeLocationOffset
