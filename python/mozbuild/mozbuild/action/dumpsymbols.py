@@ -258,13 +258,16 @@ info
 )
         
 if
-'
-PDBSTR
-'
-in
-buildconfig
+os
 .
-substs
+environ
+.
+get
+(
+'
+PDBSTR_PATH
+'
+)
 :
             
 sym_store_args

@@ -994,12 +994,12 @@ worker
 ]
     
 worker
-.
-setdefault
-(
+[
 '
 artifacts
 '
+]
+=
 [
 {
         
@@ -1024,7 +1024,6 @@ directory
     
 }
 ]
-)
     
 worker
 [
@@ -1053,15 +1052,11 @@ False
 env
 =
 worker
-.
-setdefault
-(
+[
 '
 env
 '
-{
-}
-)
+]
     
 env
 .
