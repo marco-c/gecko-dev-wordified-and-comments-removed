@@ -487,6 +487,9 @@ ELEMENT_NODE
 mDefaultSummary
 =
 new
+(
+nodeInfoManager
+)
 HTMLSummaryElement
 (
 nodeInfo

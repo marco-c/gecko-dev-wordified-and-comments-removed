@@ -392,6 +392,14 @@ HTMLScriptElement
 it
 =
 new
+(
+aNodeInfo
+-
+>
+NodeInfoManager
+(
+)
+)
 HTMLScriptElement
 (
 do_AddRef

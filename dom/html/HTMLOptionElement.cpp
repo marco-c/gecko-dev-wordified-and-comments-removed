@@ -1346,6 +1346,17 @@ kNameSpaceID_XHTML
 ELEMENT_NODE
 )
 ;
+auto
+*
+nim
+=
+nodeInfo
+-
+>
+NodeInfoManager
+(
+)
+;
 RefPtr
 <
 HTMLOptionElement
@@ -1353,6 +1364,9 @@ HTMLOptionElement
 option
 =
 new
+(
+nim
+)
 HTMLOptionElement
 (
 nodeInfo

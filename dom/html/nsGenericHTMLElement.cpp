@@ -14360,6 +14360,17 @@ kNameSpaceID_XHTML
 ELEMENT_NODE
 )
 ;
+auto
+*
+nim
+=
+ni
+-
+>
+NodeInfoManager
+(
+)
+;
 RefPtr
 <
 HTMLBRElement
@@ -14367,6 +14378,9 @@ HTMLBRElement
 br
 =
 new
+(
+nim
+)
 HTMLBRElement
 (
 ni
