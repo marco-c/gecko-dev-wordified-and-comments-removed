@@ -262,9 +262,6 @@ clientType
 bool
 clientTypeIsExplicit
 ;
-bool
-matchAll
-;
 }
 ;
 struct
@@ -272,6 +269,9 @@ ClearOriginParams
 {
 ClearResetOriginParams
 commonParams
+;
+bool
+matchAll
 ;
 }
 ;
