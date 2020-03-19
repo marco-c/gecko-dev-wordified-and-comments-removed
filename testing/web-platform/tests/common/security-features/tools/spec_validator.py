@@ -669,12 +669,6 @@ excluded_tests
     
 valid_test_expansion_fields
 =
-[
-'
-name
-'
-]
-+
 test_expansion_schema
 .
 keys
@@ -1030,9 +1024,6 @@ spec
 [
             
 '
-name
-'
-'
 title
 '
 '
@@ -1041,20 +1032,11 @@ description
 '
 specification_url
 '
-            
 '
 test_expansion
 '
         
 ]
-)
-        
-assert_non_empty_string
-(
-spec
-'
-name
-'
 )
         
 assert_non_empty_string
@@ -1089,11 +1071,6 @@ test_expansion
 '
 )
         
-used_spec_names
-=
-{
-}
-        
 for
 spec_exp
 in
@@ -1113,34 +1090,6 @@ object
 ]
 =
 spec_exp
-            
-assert_non_empty_string
-(
-spec_exp
-'
-name
-'
-)
-            
-assert_value_unique_in
-(
-(
-spec_exp
-[
-'
-expansion
-'
-]
-spec_exp
-[
-'
-name
-'
-]
-)
-                                   
-used_spec_names
-)
             
 assert_contains_only_fields
 (
