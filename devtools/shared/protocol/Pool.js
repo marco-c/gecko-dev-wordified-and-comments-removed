@@ -27,6 +27,7 @@ EventEmitter
 constructor
 (
 conn
+label
 )
 {
 super
@@ -45,6 +46,12 @@ conn
 conn
 ;
 }
+this
+.
+_label
+=
+label
+;
 this
 .
 __poolMap
