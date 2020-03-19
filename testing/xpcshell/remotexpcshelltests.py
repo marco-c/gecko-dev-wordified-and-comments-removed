@@ -1124,6 +1124,9 @@ pkill
 "
 xpcshell
 "
+root
+=
+True
 )
         
 return
@@ -1279,6 +1282,9 @@ pkill
 "
 xpcshell
 "
+root
+=
+True
 )
     
 def
