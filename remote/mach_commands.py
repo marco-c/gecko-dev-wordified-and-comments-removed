@@ -1361,6 +1361,26 @@ status
 status
 )
             
+if
+status
+=
+=
+"
+SKIP
+"
+:
+                
+expected
+=
+[
+"
+SKIP
+"
+]
+            
+else
+:
+                
 expected
 =
 self
