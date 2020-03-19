@@ -422,7 +422,7 @@ ClearCloneReadInfo
 indexedDB
 :
 :
-StructuredCloneReadInfoChild
+StructuredCloneReadInfo
 &
 aReadInfo
 )

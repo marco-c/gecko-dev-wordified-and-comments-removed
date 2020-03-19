@@ -397,7 +397,7 @@ FileManagerInfo
 public
 :
 MOZ_MUST_USE
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -415,10 +415,8 @@ const
 void
 AddFileManager
 (
-SafeRefPtr
-<
 FileManager
->
+*
 aFileManager
 )
 ;
@@ -485,7 +483,7 @@ private
 :
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -500,7 +498,7 @@ aPersistenceType
 const
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -532,7 +530,7 @@ aPersistenceType
 }
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -541,7 +539,7 @@ mPersistentStorageFileManagers
 ;
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -550,7 +548,7 @@ mTemporaryStorageFileManagers
 ;
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -3147,7 +3145,7 @@ mBackgroundActor
 nullptr
 ;
 }
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -3210,10 +3208,8 @@ IndexedDatabaseManager
 :
 AddFileManager
 (
-SafeRefPtr
-<
 FileManager
->
+*
 aFileManager
 )
 {
@@ -3280,13 +3276,7 @@ info
 >
 AddFileManager
 (
-std
-:
-:
-move
-(
 aFileManager
-)
 )
 ;
 }
@@ -3915,7 +3905,7 @@ idbManager
 mLocale
 ;
 }
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -3985,12 +3975,8 @@ foundIt
 =
 end
 ?
+*
 foundIt
--
->
-clonePtr
-(
-)
 :
 nullptr
 ;
@@ -4001,10 +3987,8 @@ FileManagerInfo
 :
 AddFileManager
 (
-SafeRefPtr
-<
 FileManager
->
+*
 aFileManager
 )
 {
@@ -4014,7 +3998,7 @@ AssertIsOnIOThread
 ;
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -4055,13 +4039,7 @@ managers
 .
 AppendElement
 (
-std
-:
-:
-move
-(
 aFileManager
-)
 )
 ;
 }
@@ -4188,7 +4166,7 @@ AssertIsOnIOThread
 ;
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -4331,7 +4309,7 @@ GetIndex
 }
 nsTArray
 <
-SafeRefPtr
+RefPtr
 <
 FileManager
 >

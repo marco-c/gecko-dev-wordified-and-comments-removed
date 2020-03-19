@@ -2426,7 +2426,7 @@ files
 =
 nsTArray
 <
-StructuredCloneFileChild
+StructuredCloneFile
 >
 (
 count
@@ -2452,7 +2452,7 @@ type
 )
 =
 =
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -2479,7 +2479,7 @@ type
 )
 {
 case
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eBlob
@@ -2560,7 +2560,7 @@ files
 .
 EmplaceBack
 (
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eBlob
@@ -2577,7 +2577,7 @@ break
 ;
 }
 case
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eMutableFile
@@ -2631,7 +2631,7 @@ files
 .
 EmplaceBack
 (
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eMutableFile
@@ -2736,7 +2736,7 @@ break
 ;
 }
 case
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -2822,7 +2822,7 @@ files
 .
 EmplaceBack
 (
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -2857,7 +2857,7 @@ files
 .
 EmplaceBack
 (
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -2868,13 +2868,13 @@ break
 ;
 }
 case
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eWasmBytecode
 :
 case
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eWasmCompiled
@@ -6283,7 +6283,7 @@ nsresult
 Init
 (
 const
-StructuredCloneFileChild
+StructuredCloneFile
 &
 aFile
 )
@@ -12602,7 +12602,7 @@ PreprocessHelper
 Init
 (
 const
-StructuredCloneFileChild
+StructuredCloneFile
 &
 aFile
 )
@@ -12629,7 +12629,7 @@ Type
 )
 =
 =
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 eStructuredClone
@@ -14817,7 +14817,7 @@ mStrongCursor
 ;
 mRequest
 .
-destroy
+reset
 (
 )
 ;
@@ -14827,7 +14827,7 @@ nullptr
 ;
 mSource
 .
-destroy
+reset
 (
 )
 ;
@@ -16137,7 +16137,7 @@ ifdef
 DEBUG
 mRequest
 .
-maybeDestroy
+maybeReset
 (
 )
 ;
@@ -16147,7 +16147,7 @@ nullptr
 ;
 mSource
 .
-maybeDestroy
+maybeReset
 (
 )
 ;

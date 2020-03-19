@@ -201,7 +201,7 @@ dom
 indexedDB
 :
 :
-StructuredCloneFileBase
+StructuredCloneFile
 :
 :
 FileType

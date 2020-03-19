@@ -57,7 +57,7 @@ FileManager
 FileManagerGuard
 &
 aGuard
-SafeRefPtr
+RefPtr
 <
 FileManager
 >
@@ -242,7 +242,7 @@ typename
 FileManager
 >
 FileManager
-&
+*
 FileInfoT
 <
 FileManager
@@ -255,7 +255,6 @@ Manager
 const
 {
 return
-*
 mFileManager
 ;
 }
@@ -560,7 +559,8 @@ directory
 Manager
 (
 )
-.
+-
+>
 GetDirectory
 (
 )
