@@ -3909,7 +3909,7 @@ waitForComputedStyle
 value
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
