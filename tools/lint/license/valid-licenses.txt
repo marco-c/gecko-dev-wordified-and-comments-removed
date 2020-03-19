@@ -197,3 +197,15 @@ upstream
 DO
 NOT
 MODIFY
+GNU
+General
+Public
+License
+FILE
+IS
+GENERATED
+Generated
+by
+do
+not
+edit
