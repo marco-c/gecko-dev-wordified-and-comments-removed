@@ -3232,12 +3232,11 @@ origin
 ;
 rv
 =
-nsContentUtils
-:
-:
-GetASCIIOrigin
-(
 aPrincipal
+-
+>
+GetAsciiOrigin
+(
 origin
 )
 ;
