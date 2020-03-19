@@ -8308,10 +8308,11 @@ const
 {
 if
 (
-StaticPrefs
+!
+AnimationUtils
 :
 :
-dom_animations_offscreen_throttling
+IsOffscreenThrottlingEnabled
 (
 )
 )
