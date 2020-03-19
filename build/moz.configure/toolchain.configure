@@ -12249,8 +12249,6 @@ plugin
 .
 "
 )
-return
-False
 add_old_configure_assignment
 (
 '
