@@ -240,9 +240,7 @@ reload
 (
 panel
 .
-accessibilityProxy
-.
-currentTarget
+target
 )
 expected
 :
