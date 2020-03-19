@@ -173,14 +173,9 @@ AutoObjectMapper
 h
 "
 #
-include
-"
-Linker
-.
-h
-"
+endif
 #
-elif
+if
 defined
 (
 GP_OS_linux
