@@ -8,7 +8,15 @@ import
 sys
 import
 tempfile
+from
+six
+.
+moves
+.
+urllib
 import
+parse
+as
 urlparse
 from
 wptrunner
@@ -36,8 +44,6 @@ import
 Commit
 GitTree
 Patch
-import
-github
 from
 .
 github
