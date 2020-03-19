@@ -38,12 +38,12 @@ get
 func
 run
 (
-result
-i64
-)
-(
 param
 i32
+)
+(
+result
+i64
 )
 i64
 .
