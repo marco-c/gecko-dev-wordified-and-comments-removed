@@ -101,7 +101,7 @@ uint32_t
 aBufferSize
 uint32_t
 *
-aRead
+aTotalBytesRead
 )
 ;
 public
