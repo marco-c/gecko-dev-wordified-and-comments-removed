@@ -276,12 +276,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 Navigator
 )
-static
-void
-Init
-(
-)
-;
 void
 Invalidate
 (
