@@ -711,6 +711,9 @@ mozilla
 -
 central
 '
+'
+release
+'
 ]
 android
 -
@@ -723,7 +726,8 @@ api
 -
 16
 /
-debug
+.
+*
 :
 [
 '
@@ -733,6 +737,9 @@ try
 mozilla
 -
 central
+'
+'
+release
 '
 ]
 default
