@@ -474,9 +474,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 nsIURI
 *
 aURI
