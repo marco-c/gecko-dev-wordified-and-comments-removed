@@ -167,7 +167,7 @@ sys
 .
 exit
 (
-0
+1
 )
 try
 :
@@ -407,7 +407,7 @@ sys
 .
 exit
 (
-0
+1
 )
     
 else
@@ -449,7 +449,7 @@ sys
 .
 exit
 (
-0
+1
 )
 proc
 .
@@ -547,6 +547,13 @@ returncode
 binary_path
 )
 )
+    
+sys
+.
+exit
+(
+1
+)
 elif
 errors
 !
@@ -586,6 +593,13 @@ s
 errors
 binary_path
 )
+)
+    
+sys
+.
+exit
+(
+1
 )
 else
 :
