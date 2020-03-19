@@ -65,6 +65,13 @@ PERSISTENCE_TYPE_TEMPORARY
 PERSISTENCE_TYPE_DEFAULT
 }
 ;
+bool
+IsValidPersistenceType
+(
+PersistenceType
+aPersistenceType
+)
+;
 nsLiteralCString
 PersistenceTypeToString
 (
