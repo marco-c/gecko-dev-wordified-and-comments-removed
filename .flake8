@@ -51,6 +51,9 @@ dom
 encoding
 dom
 /
+security
+dom
+/
 websocket
 gfx
 /
