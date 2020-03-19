@@ -2537,12 +2537,11 @@ NS_OK
 nsAutoCString
 origin
 ;
-nsContentUtils
-:
-:
-GetASCIIOrigin
-(
 aOrigin
+-
+>
+GetAsciiOrigin
+(
 origin
 )
 ;
