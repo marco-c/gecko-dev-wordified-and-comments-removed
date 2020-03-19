@@ -1344,6 +1344,11 @@ GetHadOriginalOpener
 )
 ;
 }
+bool
+SameOriginWithTop
+(
+)
+;
 already_AddRefed
 <
 BrowsingContext
