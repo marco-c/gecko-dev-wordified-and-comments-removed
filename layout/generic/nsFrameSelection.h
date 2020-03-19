@@ -1090,6 +1090,7 @@ nsPoint
 &
 aRetPoint
 )
+const
 ;
 nsFrameSelection
 (

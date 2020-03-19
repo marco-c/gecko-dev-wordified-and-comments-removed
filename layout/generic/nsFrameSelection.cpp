@@ -2095,6 +2095,7 @@ nsPoint
 &
 aRetPoint
 )
+const
 {
 if
 (
@@ -2105,9 +2106,11 @@ aFrame
 !
 aRetFrame
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 *
 aRetFrame
 =
@@ -2136,9 +2139,11 @@ mDomSelections
 index
 ]
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 nsCOMPtr
 <
 nsIContent
@@ -2163,9 +2168,11 @@ if
 !
 anchorContent
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 NS_ENSURE_STATE
 (
 mPresShell
@@ -2390,9 +2397,11 @@ if
 *
 aRetFrame
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 aRetPoint
 =
 aPoint
