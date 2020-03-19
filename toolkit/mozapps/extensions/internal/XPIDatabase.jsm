@@ -11211,6 +11211,9 @@ active
 userDisabled
 "
 "
+embedderDisabled
+"
+"
 applyBackgroundUpdates
 "
 "
