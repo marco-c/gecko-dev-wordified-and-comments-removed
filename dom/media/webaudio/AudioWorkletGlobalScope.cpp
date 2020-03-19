@@ -1491,7 +1491,7 @@ construction
 CallbackFunction
 :
 :
-eReportExceptions
+eRethrowExceptions
 )
 ;
 mPortForProcessor
