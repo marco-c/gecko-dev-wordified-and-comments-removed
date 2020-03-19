@@ -851,11 +851,6 @@ textToSubURI
 .
 unEscapeURIForUI
 (
-"
-UTF
--
-8
-"
 action
 .
 params

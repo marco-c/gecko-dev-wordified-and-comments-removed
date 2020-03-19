@@ -3289,11 +3289,6 @@ textToSubURI
 .
 unEscapeURIForUI
 (
-"
-UTF
--
-8
-"
 uri
 .
 fileName
