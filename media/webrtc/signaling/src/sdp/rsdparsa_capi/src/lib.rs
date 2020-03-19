@@ -135,14 +135,6 @@ SdpSession
 SdpTiming
 }
 ;
-#
-[
-macro_use
-]
-extern
-crate
-log
-;
 pub
 mod
 attribute
@@ -207,7 +199,7 @@ mut
 *
 const
 SdpSession
-parser_error
+error
 :
 *
 mut
@@ -256,7 +248,7 @@ null
 )
 ;
 *
-parser_error
+error
 =
 Box
 :
@@ -322,7 +314,7 @@ parsed
 >
 {
 *
-parser_error
+error
 =
 match
 parsed
@@ -403,7 +395,7 @@ null
 (
 )
 ;
-error
+println
 !
 (
 "
@@ -420,7 +412,7 @@ e
 )
 ;
 *
-parser_error
+error
 =
 Box
 :
@@ -608,7 +600,7 @@ C
 fn
 sdp_get_error_line_num
 (
-parser_error
+error
 :
 *
 mut
@@ -620,7 +612,7 @@ size_t
 {
 match
 *
-parser_error
+error
 {
 SdpParserError
 :
@@ -669,7 +661,7 @@ C
 fn
 sdp_get_error_message
 (
-parser_error
+error
 :
 *
 mut
@@ -790,7 +782,7 @@ C
 fn
 sdp_free_error
 (
-parser_error
+error
 :
 *
 mut
@@ -1119,7 +1111,7 @@ boxed_error
 =
 >
 {
-error
+println
 !
 (
 "
