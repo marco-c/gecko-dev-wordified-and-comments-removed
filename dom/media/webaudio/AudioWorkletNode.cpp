@@ -239,6 +239,9 @@ aSerializedOptions
 UniqueMessagePortId
 &
 aPortIdentifier
+AudioNodeTrack
+*
+aTrack
 )
 ;
 void
@@ -533,6 +536,12 @@ Length
 void
 SendProcessorError
 (
+AudioNodeTrack
+*
+aTrack
+JSContext
+*
+aCx
 )
 ;
 bool
@@ -695,6 +704,12 @@ WorkletNodeEngine
 :
 SendProcessorError
 (
+AudioNodeTrack
+*
+aTrack
+JSContext
+*
+aCx
 )
 {
 ReleaseJSResources
@@ -724,6 +739,9 @@ aSerializedOptions
 UniqueMessagePortId
 &
 aPortIdentifier
+AudioNodeTrack
+*
+aTrack
 )
 {
 MOZ_ASSERT
@@ -783,6 +801,8 @@ global
 {
 SendProcessorError
 (
+aTrack
+nullptr
 )
 ;
 return
@@ -856,6 +876,8 @@ OutputCount
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -951,6 +973,8 @@ object
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -986,6 +1010,8 @@ ParameterCount
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -1050,6 +1076,8 @@ array
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -1104,6 +1132,8 @@ JSPROP_ENUMERATE
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -1127,6 +1157,8 @@ mJSObject
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 return
@@ -2302,6 +2334,8 @@ Zero
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 ProduceSilence
@@ -2517,6 +2551,8 @@ WEBAUDIO_BLOCK_SIZE
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 ProduceSilence
@@ -2627,6 +2663,8 @@ process
 {
 SendProcessorError
 (
+aTrack
+cx
 )
 ;
 ProduceSilence
@@ -3903,6 +3941,7 @@ get
 )
 )
 portId
+track
 )
 ;
 }
