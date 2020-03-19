@@ -7668,6 +7668,17 @@ return
 true
 ;
 }
+const
+bool
+enableMainthreadSynchronizationWithGeometricAnimations
+=
+StaticPrefs
+:
+:
+dom_animations_mainthread_synchronization_with_geometric_animations
+(
+)
+;
 for
 (
 const
@@ -7718,6 +7729,9 @@ continue
 }
 if
 (
+enableMainthreadSynchronizationWithGeometricAnimations
+&
+&
 IsGeometricProperty
 (
 property
