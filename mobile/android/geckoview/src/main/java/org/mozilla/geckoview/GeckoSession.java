@@ -19854,7 +19854,11 @@ mHeight
 height
 )
 {
-throw
+Log
+.
+w
+(
+LOGTAG
 new
 AssertionError
 (
@@ -19887,6 +19891,7 @@ mHeight
 "
 )
 "
+)
 )
 ;
 }
@@ -20556,7 +20561,11 @@ mHeight
 mDynamicToolbarMaxHeight
 )
 {
-throw
+Log
+.
+w
+(
+LOGTAG
 new
 AssertionError
 (
@@ -20589,6 +20598,7 @@ mHeight
 "
 )
 "
+)
 )
 ;
 }
@@ -20628,9 +20638,15 @@ toolbarHeight
 ;
 mClientHeight
 =
+Math
+.
+max
+(
 mHeight
 -
 toolbarHeight
+0
+)
 ;
 if
 (
