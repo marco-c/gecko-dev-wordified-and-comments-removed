@@ -29,6 +29,9 @@ MessagePort
 struct
 NamedAudioParamTimeline
 ;
+struct
+ProcessorErrorDetails
+;
 class
 AudioWorkletNode
 :
@@ -152,6 +155,15 @@ AudioWorkletNode
 "
 ;
 }
+void
+DispatchProcessorErrorEvent
+(
+const
+ProcessorErrorDetails
+&
+aDetails
+)
+;
 size_t
 SizeOfExcludingThis
 (
