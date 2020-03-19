@@ -1271,13 +1271,11 @@ continue
 let
 reauthObserved
 =
-forceAuthTimeoutAndWaitForOSKeyStoreLogin
+OSKeyStoreTestUtils
+.
+waitForOSKeyStoreLogin
 (
-{
-loginResult
-:
 true
-}
 )
 ;
 await
