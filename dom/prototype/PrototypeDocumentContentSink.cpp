@@ -2579,6 +2579,9 @@ nsTextNode
 text
 =
 new
+(
+mNodeInfoManager
+)
 nsTextNode
 (
 mNodeInfoManager

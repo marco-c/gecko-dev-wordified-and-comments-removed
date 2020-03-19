@@ -864,6 +864,14 @@ nsTextNode
 titleText
 =
 new
+(
+doc
+-
+>
+NodeInfoManager
+(
+)
+)
 nsTextNode
 (
 doc

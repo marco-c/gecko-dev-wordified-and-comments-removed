@@ -5284,6 +5284,9 @@ NodeInfoManager
 mDisplayContent
 =
 new
+(
+nimgr
+)
 nsTextNode
 (
 nimgr
