@@ -71,6 +71,13 @@ h
 #
 include
 "
+IndexedDatabaseInlines
+.
+h
+"
+#
+include
+"
 IndexedDatabaseManager
 .
 h

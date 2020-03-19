@@ -577,12 +577,6 @@ PRIVATE_IDBREQUEST_IID
 )
 ;
 const
-uint32_t
-kDeleteTimeoutMs
-=
-1000
-;
-const
 int32_t
 kDefaultDataThresholdBytes
 =
