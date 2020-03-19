@@ -1768,7 +1768,7 @@ actor
 =
 webConsole
 .
-getActorByID
+actor
 (
 options
 .
