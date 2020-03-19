@@ -18,6 +18,13 @@ nsCOMPtr
 .
 h
 "
+#
+include
+"
+SafeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -57,7 +64,7 @@ FileManager
 FileManagerGuard
 &
 aGuard
-RefPtr
+SafeRefPtr
 <
 FileManager
 >
@@ -106,7 +113,7 @@ aDBRefCnt
 )
 ;
 FileManager
-*
+&
 Manager
 (
 )
@@ -172,7 +179,7 @@ ThreadSafeAutoRefCnt
 mDBRefCnt
 ;
 const
-RefPtr
+SafeRefPtr
 <
 FileManager
 >

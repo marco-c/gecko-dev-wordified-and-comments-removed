@@ -220,6 +220,8 @@ FileInfo
 FileManagerGuard
 {
 }
+SafeRefPtr
+{
 static_cast
 <
 FileManager
@@ -228,6 +230,10 @@ FileManager
 (
 this
 )
+AcquireStrongRefFromRawPtr
+{
+}
+}
 id
 )
 ;

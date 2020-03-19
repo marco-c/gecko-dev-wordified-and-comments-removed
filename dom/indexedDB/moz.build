@@ -205,6 +205,11 @@ InitializedOnce
 .
 h
 '
+'
+SafeRefPtr
+.
+h
+'
 ]
 EXPORTS
 .
