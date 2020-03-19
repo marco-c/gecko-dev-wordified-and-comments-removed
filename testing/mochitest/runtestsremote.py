@@ -42,10 +42,6 @@ __file__
 )
 )
 from
-automation
-import
-Automation
-from
 remoteautomation
 import
 RemoteAutomation
@@ -59,6 +55,7 @@ from
 mochitest_options
 import
 MochitestArgumentParser
+build_obj
 from
 mozdevice
 import
@@ -1125,12 +1122,6 @@ options
 .
 utilityPath
         
-localAutomation
-=
-Automation
-(
-)
-        
 paths
 =
 [
@@ -1138,12 +1129,34 @@ paths
 options
 .
 xrePath
-            
-localAutomation
-.
-DIST_BIN
         
 ]
+        
+if
+build_obj
+:
+            
+paths
+.
+append
+(
+os
+.
+path
+.
+join
+(
+build_obj
+.
+topobjdir
+"
+dist
+"
+"
+bin
+"
+)
+)
         
 options
 .
@@ -2291,8 +2304,6 @@ front
 -
 end
 automation
-.
-py
 '
 s
 runApp

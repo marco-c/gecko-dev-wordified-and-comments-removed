@@ -10419,7 +10419,7 @@ allow
 -
 ptrace
 '
-False
+True
 )
             
 worker
