@@ -184,6 +184,15 @@ bool
 Optional
 (
 '
+artifact
+'
+)
+:
+text_type
+    
+Optional
+(
+'
 unpack
 '
 )
@@ -283,6 +292,17 @@ urls
 previous_artifact
 =
 None
+        
+artifact
+=
+task
+.
+get
+(
+'
+artifact
+'
+)
         
 for
 k
@@ -466,6 +486,12 @@ split
 ]
             
 if
+artifact
+:
+                
+pass
+            
+elif
 '
 linux
 '
@@ -786,26 +812,6 @@ html
 '
                     
 '
-diff
-.
-txt
-'
-                    
-'
-generated
--
-files
-.
-diff
-.
-html
-'
-                    
-'
-generated
--
-files
-.
 diff
 .
 txt
