@@ -143,6 +143,15 @@ name
 )
 ;
 void
+gecko_profiler_event_marker
+(
+const
+char
+*
+name
+)
+;
+void
 gecko_profiler_add_text_marker
 (
 const
