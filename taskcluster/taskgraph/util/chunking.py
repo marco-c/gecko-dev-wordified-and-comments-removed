@@ -433,9 +433,9 @@ windows
 :
         
 if
-key
-in
 platform
+in
+key
 :
             
 path
