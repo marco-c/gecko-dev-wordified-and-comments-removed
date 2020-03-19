@@ -774,6 +774,18 @@ py
 "
 "
         
+if
+lintargs
+.
+get
+(
+'
+use_filters
+'
+True
+)
+:
+            
 config
 .
 setdefault
