@@ -698,7 +698,9 @@ false
 ;
 }
 const
-sessionState
+{
+history
+}
 =
 await
 this
@@ -718,11 +720,11 @@ CollectSessionState
 )
 ;
 const
+sessionState
+=
 {
 history
 }
-=
-sessionState
 ;
 if
 (
