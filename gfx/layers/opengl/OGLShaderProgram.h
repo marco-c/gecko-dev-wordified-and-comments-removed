@@ -23,6 +23,11 @@ include
 <
 string
 >
+#
+include
+<
+utility
+>
 namespace
 mozilla
 {
@@ -125,7 +130,10 @@ mFragmentShaderString
 ;
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 nsCString
 GLuint

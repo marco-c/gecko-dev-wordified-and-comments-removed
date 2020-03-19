@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-Pair
+CompactPair
 .
 h
 "
@@ -20,19 +20,19 @@ using
 mozilla
 :
 :
+CompactPair
+;
+using
+mozilla
+:
+:
 IsSame
 ;
 using
 mozilla
 :
 :
-MakePair
-;
-using
-mozilla
-:
-:
-Pair
+MakeCompactPair
 ;
 #
 define
@@ -44,7 +44,7 @@ name
 size
 )
 \
-Pair
+CompactPair
 <
 T1
 T2
@@ -87,7 +87,7 @@ method
 should
 work
 on
-Pair
+CompactPair
 <
 "
 #
@@ -101,6 +101,7 @@ T2
 "
 )
 ;
+\
 \
 static_assert
 (
@@ -124,7 +125,7 @@ method
 should
 work
 on
-Pair
+CompactPair
 <
 "
 #
@@ -138,6 +139,7 @@ T2
 "
 )
 ;
+\
 \
 static_assert
 (
@@ -155,7 +157,7 @@ size
 )
 \
 "
-Pair
+CompactPair
 <
 "
 #
@@ -174,7 +176,8 @@ size
 )
 ;
 \
-Pair
+\
+CompactPair
 <
 T2
 T1
@@ -217,7 +220,7 @@ method
 should
 work
 on
-Pair
+CompactPair
 <
 "
 #
@@ -231,6 +234,7 @@ T1
 "
 )
 ;
+\
 \
 static_assert
 (
@@ -254,7 +258,7 @@ method
 should
 work
 on
-Pair
+CompactPair
 <
 "
 #
@@ -268,6 +272,7 @@ T1
 "
 )
 ;
+\
 \
 static_assert
 (
@@ -285,7 +290,7 @@ size
 )
 \
 "
-Pair
+CompactPair
 <
 "
 #
@@ -520,7 +525,7 @@ IsSame
 <
 decltype
 (
-MakePair
+MakeCompactPair
 (
 A
 (
@@ -532,7 +537,7 @@ B
 )
 )
 )
-Pair
+CompactPair
 <
 A
 B
@@ -542,7 +547,7 @@ B
 :
 value
 "
-MakePair
+MakeCompactPair
 should
 strip
 rvalue
@@ -556,13 +561,13 @@ IsSame
 <
 decltype
 (
-MakePair
+MakeCompactPair
 (
 a
 b
 )
 )
-Pair
+CompactPair
 <
 A
 B
@@ -572,7 +577,7 @@ B
 :
 value
 "
-MakePair
+MakeCompactPair
 should
 strip
 lvalue
@@ -586,13 +591,13 @@ IsSame
 <
 decltype
 (
-MakePair
+MakeCompactPair
 (
 constA
 constB
 )
 )
-Pair
+CompactPair
 <
 A
 B
@@ -602,7 +607,7 @@ B
 :
 value
 "
-MakePair
+MakeCompactPair
 should
 strip
 CV

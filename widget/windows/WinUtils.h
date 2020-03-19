@@ -1515,7 +1515,10 @@ WhitelistVec
 =
 Vector
 <
-Pair
+std
+:
+:
+pair
 <
 nsString
 nsDependentString

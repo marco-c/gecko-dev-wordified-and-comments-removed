@@ -21,7 +21,7 @@ include
 "
 mozilla
 /
-Pair
+CompactPair
 .
 h
 "
@@ -1687,7 +1687,7 @@ explicit
 Tuple
 (
 const
-Pair
+CompactPair
 <
 A
 B
@@ -1714,7 +1714,7 @@ second
 explicit
 Tuple
 (
-Pair
+CompactPair
 <
 A
 B
@@ -1988,7 +1988,7 @@ operator
 =
 (
 const
-Pair
+CompactPair
 <
 AArg
 BArg
@@ -2050,7 +2050,7 @@ Tuple
 operator
 =
 (
-Pair
+CompactPair
 <
 AArg
 BArg

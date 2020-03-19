@@ -2376,7 +2376,10 @@ rwget
 ;
 nsTArray
 <
-Pair
+std
+:
+:
+pair
 <
 const
 nsCString
@@ -2431,7 +2434,10 @@ entries
 .
 AppendElement
 (
-MakePair
+std
+:
+:
+make_pair
 (
 &
 iter
@@ -2506,8 +2512,6 @@ key
 e
 .
 first
-(
-)
 ;
 auto
 value
@@ -2515,8 +2519,6 @@ value
 e
 .
 second
-(
-)
 ;
 auto
 uncompressedSize
@@ -2717,8 +2719,6 @@ value
 e
 .
 second
-(
-)
 ;
 value
 -
@@ -2958,8 +2958,6 @@ value
 e
 .
 second
-(
-)
 ;
 uint8_t
 *

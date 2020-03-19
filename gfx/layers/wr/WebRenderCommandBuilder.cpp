@@ -1281,10 +1281,10 @@ mClippedImageBounds
 ;
 Maybe
 <
-mozilla
+std
 :
 :
-Pair
+pair
 <
 wr
 :
@@ -1527,8 +1527,6 @@ value
 )
 .
 second
-(
-)
 )
 ;
 mKey
@@ -3539,8 +3537,6 @@ value
 )
 .
 second
-(
-)
 ViewAs
 <
 ImagePixel
@@ -4147,7 +4143,10 @@ mKey
 =
 Some
 (
-MakePair
+std
+:
+:
+make_pair
 (
 aBuilder
 .
@@ -4273,8 +4272,6 @@ value
 )
 .
 second
-(
-)
 descriptor
 bytes
 ViewAs
@@ -4317,8 +4314,6 @@ value
 )
 .
 second
-(
-)
 ViewAs
 <
 ImagePixel
@@ -4493,8 +4488,6 @@ value
 )
 .
 second
-(
-)
 )
 )
 ;

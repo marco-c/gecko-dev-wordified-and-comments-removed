@@ -9809,10 +9809,10 @@ result
 .
 emplaceBack
 (
-mozilla
+std
 :
 :
-MakePair
+make_pair
 (
 nsString
 (
@@ -9838,8 +9838,6 @@ back
 )
 .
 second
-(
-)
 .
 SetIsVoid
 (
@@ -9853,10 +9851,10 @@ result
 .
 emplaceBack
 (
-mozilla
+std
 :
 :
-MakePair
+make_pair
 (
 nsString
 (
@@ -9882,8 +9880,6 @@ back
 )
 .
 second
-(
-)
 .
 SetIsVoid
 (
@@ -9964,10 +9960,10 @@ result
 .
 emplaceBack
 (
-mozilla
+std
 :
 :
-MakePair
+make_pair
 (
 nsString
 (
@@ -10567,8 +10563,6 @@ i
 ]
 .
 first
-(
-)
 ;
 const
 nsDependentString
@@ -10581,8 +10575,6 @@ i
 ]
 .
 second
-(
-)
 ;
 if
 (
