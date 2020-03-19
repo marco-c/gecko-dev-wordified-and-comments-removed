@@ -949,13 +949,10 @@ data
 bool
 isURIUniqueOrigin
 =
-net
+StaticPrefs
 :
 :
-nsIOService
-:
-:
-IsDataURIUniqueOpaqueOrigin
+security_data_uri_unique_opaque_origin
 (
 )
 &
