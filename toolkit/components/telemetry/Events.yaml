@@ -4374,6 +4374,9 @@ pageinfo
 "
 preferences
 "
+"
+snippet
+"
 ]
 methods
 :
@@ -4400,6 +4403,7 @@ bug_numbers
 1454733
 1545172
 1550631
+1622971
 ]
 notification_emails
 :
@@ -4430,14 +4434,6 @@ products
 -
 "
 firefox
-"
--
-"
-fennec
-"
--
-"
-geckoview
 "
 record_in_processes
 :
