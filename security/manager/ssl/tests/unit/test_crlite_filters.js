@@ -262,9 +262,7 @@ CRLiteFiltersClient
 .
 client
 .
-openCollection
-(
-)
+db
 ;
 await
 localDB

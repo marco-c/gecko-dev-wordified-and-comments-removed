@@ -362,7 +362,7 @@ setup
 )
 {
 const
-collection
+db
 =
 await
 RemoteSettings
@@ -372,9 +372,7 @@ LoginBreaches
 REMOTE_SETTINGS_COLLECTION
 )
 .
-openCollection
-(
-)
+db
 ;
 if
 (
@@ -382,7 +380,7 @@ EXPECTED_BREACH
 )
 {
 await
-collection
+db
 .
 create
 (
@@ -396,8 +394,6 @@ true
 ;
 }
 await
-collection
-.
 db
 .
 saveLastModified
@@ -685,7 +681,7 @@ EXPECTED_ERROR_MESSAGE
 null
 ;
 await
-collection
+db
 .
 clear
 (
