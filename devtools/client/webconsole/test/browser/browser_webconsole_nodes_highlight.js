@@ -143,16 +143,6 @@ hud
 .
 toolbox
 ;
-await
-registerTestActor
-(
-toolbox
-.
-target
-.
-client
-)
-;
 const
 testActor
 =

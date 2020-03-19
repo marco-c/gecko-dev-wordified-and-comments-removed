@@ -99,16 +99,6 @@ toolbox
 =
 dbg
 ;
-await
-registerTestActor
-(
-toolbox
-.
-target
-.
-client
-)
-;
 const
 testActor
 =
