@@ -412,7 +412,7 @@ mSelection
 }
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
-SetSelection
+RegisterSelection
 (
 mozilla
 :
@@ -421,8 +421,13 @@ dom
 :
 :
 Selection
-*
+&
 aSelection
+)
+;
+void
+UnregisterSelection
+(
 )
 ;
 mozilla

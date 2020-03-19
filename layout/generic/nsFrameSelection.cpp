@@ -1201,9 +1201,8 @@ IsGenerated
 range
 -
 >
-SetSelection
+UnregisterSelection
 (
-nullptr
 )
 ;
 aSelection
