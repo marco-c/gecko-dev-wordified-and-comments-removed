@@ -166,6 +166,17 @@ include
 "
 builtin
 /
+Promise
+-
+inl
+.
+h
+"
+#
+include
+"
+builtin
+/
 streams
 /
 MiscellaneousOperations
@@ -859,6 +870,9 @@ PromiseObject
 )
 ;
 }
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx

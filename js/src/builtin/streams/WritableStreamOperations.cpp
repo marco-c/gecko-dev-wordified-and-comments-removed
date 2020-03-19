@@ -180,6 +180,17 @@ include
 "
 builtin
 /
+Promise
+-
+inl
+.
+h
+"
+#
+include
+"
+builtin
+/
 streams
 /
 HandlerFunction
@@ -3246,6 +3257,9 @@ return
 false
 ;
 }
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx

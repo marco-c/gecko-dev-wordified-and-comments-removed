@@ -175,9 +175,7 @@ include
 "
 builtin
 /
-streams
-/
-MiscellaneousOperations
+Promise
 -
 inl
 .
@@ -683,6 +681,9 @@ setReadyPromise
 promise
 )
 ;
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
@@ -778,6 +779,9 @@ setReadyPromise
 promise
 )
 ;
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
@@ -820,6 +824,9 @@ setClosedPromise
 promise
 )
 ;
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx

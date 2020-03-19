@@ -203,6 +203,17 @@ include
 "
 builtin
 /
+Promise
+-
+inl
+.
+h
+"
+#
+include
+"
+builtin
+/
 streams
 /
 MiscellaneousOperations
@@ -1482,6 +1493,9 @@ closedPromise
 )
 )
 ;
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx

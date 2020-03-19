@@ -137,9 +137,7 @@ include
 "
 builtin
 /
-streams
-/
-MiscellaneousOperations
+Promise
 -
 inl
 .
@@ -480,6 +478,9 @@ return
 false
 ;
 }
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
@@ -861,6 +862,9 @@ closedPromise
 )
 ;
 }
+js
+:
+:
 SetSettledPromiseIsHandled
 (
 cx
