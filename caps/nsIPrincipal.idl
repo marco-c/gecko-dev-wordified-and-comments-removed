@@ -788,14 +788,6 @@ attribute
 boolean
 isScriptAllowedByPolicy
 ;
-boolean
-isL10nAllowed
-(
-in
-nsIURI
-aDocumentURI
-)
-;
 [
 infallible
 ]

@@ -2588,11 +2588,12 @@ mOriginHeaderPrincipal
 nsAutoCString
 origin
 ;
-mOriginHeaderPrincipal
--
->
-GetAsciiOrigin
+nsContentUtils
+:
+:
+GetASCIIOrigin
 (
+mOriginHeaderPrincipal
 origin
 )
 ;
