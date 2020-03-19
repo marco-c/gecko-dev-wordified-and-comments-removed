@@ -328,8 +328,6 @@ ParentProcessDocumentOpenInfo
 ParentChannelListener
 *
 aListener
-bool
-aPluginsAllowed
 uint32_t
 aFlags
 mozilla
@@ -355,10 +353,6 @@ aBrowsingContext
 mListener
 (
 aListener
-)
-mPluginsAllowed
-(
-aPluginsAllowed
 )
 {
 LOG
@@ -632,7 +626,6 @@ new
 ParentProcessDocumentOpenInfo
 (
 mListener
-mPluginsAllowed
 mFlags
 mBrowsingContext
 )
@@ -867,9 +860,6 @@ RefPtr
 ParentChannelListener
 >
 mListener
-;
-bool
-mPluginsAllowed
 ;
 bool
 mCloned
@@ -1464,8 +1454,6 @@ uint32_t
 >
 &
 aDocumentOpenFlags
-bool
-aPluginsAllowed
 nsDOMNavigationTiming
 *
 aTiming
@@ -1965,7 +1953,6 @@ new
 ParentProcessDocumentOpenInfo
 (
 mParentChannelListener
-aPluginsAllowed
 *
 aDocumentOpenFlags
 browsingContext

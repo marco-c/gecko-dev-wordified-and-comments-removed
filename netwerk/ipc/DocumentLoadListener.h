@@ -243,8 +243,6 @@ uint32_t
 >
 &
 aDocumentOpenFlags
-bool
-aPluginsAllowed
 nsDOMNavigationTiming
 *
 aTiming

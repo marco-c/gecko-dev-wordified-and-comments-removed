@@ -176,8 +176,6 @@ SetDocumentOpenFlags
 (
 uint32_t
 aFlags
-bool
-aPluginsAllowed
 )
 {
 mDocumentOpenFlags
@@ -186,10 +184,6 @@ Some
 (
 aFlags
 )
-;
-mPluginsAllowed
-=
-aPluginsAllowed
 ;
 }
 void
@@ -335,11 +329,6 @@ nsCOMPtr
 nsISupports
 >
 mOwner
-;
-bool
-mPluginsAllowed
-=
-false
 ;
 RefPtr
 <

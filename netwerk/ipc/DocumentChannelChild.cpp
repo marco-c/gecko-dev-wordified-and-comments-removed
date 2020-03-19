@@ -367,14 +367,6 @@ mDocumentOpenFlags
 ;
 args
 .
-pluginsAllowed
-(
-)
-=
-mPluginsAllowed
-;
-args
-.
 outerWindowId
 (
 )
