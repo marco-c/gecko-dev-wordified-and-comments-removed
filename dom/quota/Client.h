@@ -141,6 +141,14 @@ LS
 }
 static
 bool
+IsValidType
+(
+Type
+aType
+)
+;
+static
+bool
 TypeToText
 (
 Type
@@ -438,8 +446,9 @@ virtual
 Client
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 END_QUOTA_NAMESPACE
