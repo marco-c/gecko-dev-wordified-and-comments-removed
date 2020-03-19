@@ -978,9 +978,8 @@ is
 None
 :
                 
-LOG
-.
-info
+raise
+TalosError
 (
                     
 "
