@@ -2819,9 +2819,7 @@ aChromeFlags
 bool
 aCalledFromJS
 bool
-aPositionSpecified
-bool
-aSizeSpecified
+aWidthSpecified
 nsIURI
 *
 aURI
@@ -3134,8 +3132,7 @@ GetWindowOpenLocation
 parentWin
 aChromeFlags
 aCalledFromJS
-aPositionSpecified
-aSizeSpecified
+aWidthSpecified
 )
 ;
 if

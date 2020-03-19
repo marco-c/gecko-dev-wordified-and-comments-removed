@@ -66,10 +66,7 @@ boolean
 aCalledFromJS
 in
 boolean
-aPositionSpecified
-in
-boolean
-aSizeSpecified
+aWidthSpecified
 in
 nsIURI
 aURI
