@@ -56,7 +56,7 @@ progress
 TASK_CLUSTER
 =
 "
-TASKCLUSTER_WORKER_TYPE
+TASK_ID
 "
 in
 os
@@ -2430,14 +2430,8 @@ get_tc_secret
 :
     
 if
-"
-TASK_ID
-"
 not
-in
-os
-.
-environ
+TASK_CLUSTER
 :
         
 raise
@@ -2567,6 +2561,9 @@ session
 get
 (
 secrets_url
+timeout
+=
+DOWNLOAD_TIMEOUT
 )
     
 res
@@ -2596,6 +2593,21 @@ obfuscate
 text
 )
 :
+    
+if
+"
+CONDPROF_RUNNER
+"
+not
+in
+os
+.
+environ
+:
+        
+return
+True
+text
     
 username
 password
@@ -2667,6 +2679,19 @@ obfuscate_file
 path
 )
 :
+    
+if
+"
+CONDPROF_RUNNER
+"
+not
+in
+os
+.
+environ
+:
+        
+return
     
 with
 open
@@ -2777,36 +2802,19 @@ None
 :
         
 if
-"
-TASK_ID
-"
 not
-in
-os
-.
-environ
+TASK_CLUSTER
 :
             
 return
 None
 None
         
-try
-:
-            
 secret
 =
 get_tc_secret
 (
 )
-        
-except
-Exception
-:
-            
-return
-None
-None
         
 password
 =
