@@ -5688,7 +5688,7 @@ PL_strncasecmp
 (
 start
 kProxyType_HTTP
-5
+4
 )
 =
 =
