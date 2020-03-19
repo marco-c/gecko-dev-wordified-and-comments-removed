@@ -89,6 +89,16 @@ uint64_t
 aControllerAmount
 )
 ;
+void
+SetMediaMetadata
+(
+const
+MediaMetadataBase
+&
+aMetadata
+)
+override
+;
 private
 :
 ~
@@ -114,6 +124,9 @@ mEventSource
 ;
 MediaEventListener
 mControllerAmountChangedListener
+;
+MediaMetadataBase
+mMetadata
 ;
 }
 ;
