@@ -10054,7 +10054,7 @@ the
 ;
 installer
 calling
-SHChangeNotify
+RefreshShellIcons
 to
 refresh
 the
