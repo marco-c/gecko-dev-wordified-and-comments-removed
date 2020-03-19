@@ -294,6 +294,11 @@ Self
 :
 :
 NoError
+|
+Self
+:
+:
+IdleTimeout
 =
 >
 0

@@ -15,7 +15,7 @@ version
 .
 2
 .
-1
+2
 "
 authors
 =
@@ -124,6 +124,15 @@ features
 =
 false
 }
+static_assertions
+=
+"
+1
+.
+1
+.
+0
+"
 [
 dev
 -

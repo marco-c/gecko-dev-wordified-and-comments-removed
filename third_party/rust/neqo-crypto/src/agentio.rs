@@ -567,6 +567,16 @@ epoch
 )
 ;
 }
+#
+[
+allow
+(
+clippy
+:
+:
+unused_self
+)
+]
 unsafe
 extern
 "
