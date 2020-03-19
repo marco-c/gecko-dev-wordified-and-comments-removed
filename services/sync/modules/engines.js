@@ -3765,6 +3765,15 @@ makeGUID
 )
 ;
 }
+shouldSkipSync
+(
+syncReason
+)
+{
+return
+false
+;
+}
 async
 getLastSync
 (
