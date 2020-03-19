@@ -2795,11 +2795,6 @@ mozilla
 TimeStamp
 mIceStartTime
 ;
-bool
-mIceFinished
-=
-false
-;
 static
 std
 :
