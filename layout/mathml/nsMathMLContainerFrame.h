@@ -1112,8 +1112,9 @@ virtual
 nsMathMLmathBlockFrame
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -1461,8 +1462,9 @@ virtual
 nsMathMLmathInlineFrame
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 #

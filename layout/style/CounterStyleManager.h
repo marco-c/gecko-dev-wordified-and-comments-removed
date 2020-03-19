@@ -536,8 +536,9 @@ private
 AnonymousCounterStyle
 (
 )
-{
-}
+=
+default
+;
 bool
 mSingleString
 ;

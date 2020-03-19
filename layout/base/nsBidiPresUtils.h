@@ -428,8 +428,9 @@ virtual
 BidiProcessor
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 SetText

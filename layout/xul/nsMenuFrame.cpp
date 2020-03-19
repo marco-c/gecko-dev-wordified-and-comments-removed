@@ -6454,8 +6454,9 @@ nsMenuTimerMediator
 nsMenuTimerMediator
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsMenuTimerMediator
 :

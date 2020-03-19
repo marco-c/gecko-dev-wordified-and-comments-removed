@@ -23,8 +23,9 @@ nsLeafFrame
 nsLeafFrame
 (
 )
-{
-}
+=
+default
+;
 nscoord
 nsLeafFrame
 :

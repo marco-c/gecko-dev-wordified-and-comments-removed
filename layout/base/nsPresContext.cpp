@@ -7701,8 +7701,9 @@ virtual
 CounterStyleCleaner
 (
 )
-{
-}
+=
+default
+;
 void
 DidRefresh
 (

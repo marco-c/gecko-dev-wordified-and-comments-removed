@@ -130,8 +130,9 @@ virtual
 nsGenConNode
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 void

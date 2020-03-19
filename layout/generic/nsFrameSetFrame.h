@@ -93,8 +93,9 @@ NO_COLOR
 nsBorderColor
 (
 )
-{
-}
+=
+default
+;
 void
 Set
 (

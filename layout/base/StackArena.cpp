@@ -62,8 +62,9 @@ nullptr
 StackBlock
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 static_assert

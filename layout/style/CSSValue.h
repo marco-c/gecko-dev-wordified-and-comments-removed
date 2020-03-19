@@ -90,8 +90,8 @@ virtual
 CSSValue
 (
 )
-{
-}
+=
+default
 ;
 inline
 nsROCSSPrimitiveValue

@@ -107,8 +107,9 @@ BasicTableLayoutStrategy
 BasicTableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 nscoord
 BasicTableLayoutStrategy
 :

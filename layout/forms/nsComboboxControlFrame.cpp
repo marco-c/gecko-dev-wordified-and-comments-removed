@@ -433,8 +433,9 @@ virtual
 nsComboButtonListener
 (
 )
-{
-}
+=
+default
+;
 public
 :
 NS_DECL_ISUPPORTS
@@ -1762,8 +1763,9 @@ protected
 nsResizeDropdownAtFinalPosition
 (
 )
-{
-}
+=
+default
+;
 public
 :
 virtual

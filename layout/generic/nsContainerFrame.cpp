@@ -252,8 +252,9 @@ nsContainerFrame
 nsContainerFrame
 (
 )
-{
-}
+=
+default
+;
 NS_QUERYFRAME_HEAD
 (
 nsContainerFrame

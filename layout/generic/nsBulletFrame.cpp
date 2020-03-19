@@ -376,8 +376,9 @@ nsBulletFrame
 nsBulletFrame
 (
 )
-{
-}
+=
+default
+;
 CounterStyle
 *
 nsBulletFrame
@@ -7211,8 +7212,9 @@ nsBulletListener
 nsBulletListener
 (
 )
-{
-}
+=
+default
+;
 void
 nsBulletListener
 :

@@ -4336,8 +4336,9 @@ virtual
 DelayedEvent
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Dispatch

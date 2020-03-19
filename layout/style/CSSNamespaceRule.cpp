@@ -35,8 +35,9 @@ CSSNamespaceRule
 CSSNamespaceRule
 (
 )
-{
-}
+=
+default
+;
 #
 ifdef
 DEBUG

@@ -1285,8 +1285,9 @@ ImageStartData
 ImageStartData
 (
 )
-{
-}
+=
+default
+;
 mozilla
 :
 :

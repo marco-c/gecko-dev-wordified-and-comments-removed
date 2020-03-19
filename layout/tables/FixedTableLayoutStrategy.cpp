@@ -83,8 +83,9 @@ FixedTableLayoutStrategy
 FixedTableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 nscoord
 FixedTableLayoutStrategy
 :

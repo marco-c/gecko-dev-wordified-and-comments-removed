@@ -205,8 +205,9 @@ bCoord
 TableRowGroupReflowInput
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }
@@ -243,8 +244,9 @@ nsTableRowGroupFrame
 nsTableRowGroupFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsTableRowGroupFrame
 :

@@ -211,8 +211,9 @@ virtual
 ScrollbarActivity
 (
 )
-{
-}
+=
+default
+;
 bool
 IsActivityOngoing
 (

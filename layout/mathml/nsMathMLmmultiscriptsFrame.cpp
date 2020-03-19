@@ -93,8 +93,9 @@ nsMathMLmmultiscriptsFrame
 nsMathMLmmultiscriptsFrame
 (
 )
-{
-}
+=
+default
+;
 uint8_t
 nsMathMLmmultiscriptsFrame
 :

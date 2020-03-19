@@ -135,8 +135,9 @@ virtual
 PreloadedStyleSheet
 (
 )
-{
-}
+=
+default
+;
 private
 :
 class
@@ -196,8 +197,9 @@ virtual
 StylesheetPreloadObserver
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr

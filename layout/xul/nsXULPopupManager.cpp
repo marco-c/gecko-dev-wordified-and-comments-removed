@@ -4981,8 +4981,9 @@ virtual
 TransitionEnder
 (
 )
-{
-}
+=
+default
+;
 public
 :
 nsCOMPtr

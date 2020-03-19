@@ -350,8 +350,9 @@ virtual
 MouseListener
 (
 )
-{
-}
+=
+default
+;
 nsFileControlFrame
 *
 mFrame

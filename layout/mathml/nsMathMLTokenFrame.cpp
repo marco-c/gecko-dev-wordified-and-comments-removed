@@ -84,8 +84,9 @@ nsMathMLTokenFrame
 nsMathMLTokenFrame
 (
 )
-{
-}
+=
+default
+;
 NS_IMETHODIMP
 nsMathMLTokenFrame
 :

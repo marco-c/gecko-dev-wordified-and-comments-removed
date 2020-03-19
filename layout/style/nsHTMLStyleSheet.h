@@ -247,8 +247,9 @@ delete
 nsHTMLStyleSheet
 (
 )
-{
-}
+=
+default
+;
 nsresult
 ImplLinkColorSetter
 (

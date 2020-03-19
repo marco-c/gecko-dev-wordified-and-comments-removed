@@ -1480,8 +1480,9 @@ private
 IconLoad
 (
 )
-{
-}
+=
+default
+;
 void
 GetPrefs
 (

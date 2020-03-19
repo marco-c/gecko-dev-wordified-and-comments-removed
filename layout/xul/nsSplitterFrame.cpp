@@ -678,8 +678,9 @@ nsSplitterFrameInner
 nsSplitterFrameInner
 (
 )
-{
-}
+=
+default
+;
 nsSplitterFrameInner
 :
 :

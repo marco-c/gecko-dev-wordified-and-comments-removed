@@ -307,8 +307,9 @@ MobileViewportManager
 MobileViewportManager
 (
 )
-{
-}
+=
+default
+;
 void
 MobileViewportManager
 :

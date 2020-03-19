@@ -488,8 +488,9 @@ private
 nsAnonDivObserver
 (
 )
-{
-}
+=
+default
+;
 nsTextControlFrame
 &
 mFrame
@@ -554,8 +555,9 @@ nsTextControlFrame
 nsTextControlFrame
 (
 )
-{
-}
+=
+default
+;
 nsIScrollableFrame
 *
 nsTextControlFrame

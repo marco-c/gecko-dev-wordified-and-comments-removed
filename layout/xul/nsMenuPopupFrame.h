@@ -354,8 +354,9 @@ virtual
 nsXULPopupShownEvent
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsCOMPtr

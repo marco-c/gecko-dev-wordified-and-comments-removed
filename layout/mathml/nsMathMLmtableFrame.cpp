@@ -3361,8 +3361,9 @@ nsMathMLmtableWrapperFrame
 nsMathMLmtableWrapperFrame
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsMathMLmtableWrapperFrame
 :
@@ -4422,8 +4423,9 @@ nsMathMLmtableFrame
 nsMathMLmtableFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMathMLmtableFrame
 :
@@ -5294,8 +5296,9 @@ nsMathMLmtrFrame
 nsMathMLmtrFrame
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsMathMLmtrFrame
 :
@@ -5431,8 +5434,9 @@ nsMathMLmtdFrame
 nsMathMLmtdFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMathMLmtdFrame
 :

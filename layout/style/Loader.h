@@ -186,8 +186,9 @@ public
 LoaderReusableStyleSheets
 (
 )
-{
-}
+=
+default
+;
 bool
 FindReusableStyleSheet
 (

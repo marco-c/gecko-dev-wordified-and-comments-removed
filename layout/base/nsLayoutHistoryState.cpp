@@ -79,8 +79,9 @@ private
 nsLayoutHistoryState
 (
 )
-{
-}
+=
+default
+;
 bool
 mScrollPositionOnly
 ;

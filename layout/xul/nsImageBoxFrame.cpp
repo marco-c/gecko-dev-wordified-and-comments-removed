@@ -749,8 +749,9 @@ nsImageBoxFrame
 nsImageBoxFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsImageBoxFrame
 :
@@ -4329,8 +4330,9 @@ nsImageBoxListener
 nsImageBoxListener
 (
 )
-{
-}
+=
+default
+;
 void
 nsImageBoxListener
 :

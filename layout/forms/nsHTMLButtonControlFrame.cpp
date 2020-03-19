@@ -159,8 +159,9 @@ nsHTMLButtonControlFrame
 nsHTMLButtonControlFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsHTMLButtonControlFrame
 :

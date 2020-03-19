@@ -572,8 +572,8 @@ virtual
 DummyTouchListener
 (
 )
-{
-}
+=
+default
 ;
 }
 ;

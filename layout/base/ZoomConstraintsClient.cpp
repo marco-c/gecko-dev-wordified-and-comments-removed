@@ -282,8 +282,9 @@ ZoomConstraintsClient
 ZoomConstraintsClient
 (
 )
-{
-}
+=
+default
+;
 static
 nsIWidget
 *

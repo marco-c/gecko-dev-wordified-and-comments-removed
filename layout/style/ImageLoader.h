@@ -343,8 +343,9 @@ override
 ImageLoader
 (
 )
-{
-}
+=
+default
+;
 struct
 FrameWithFlags
 {

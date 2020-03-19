@@ -714,8 +714,9 @@ nsTableRowFrame
 nsTableRowFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsTableRowFrame
 :

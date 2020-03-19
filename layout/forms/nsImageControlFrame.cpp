@@ -272,8 +272,9 @@ nsImageControlFrame
 nsImageControlFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsImageControlFrame
 :

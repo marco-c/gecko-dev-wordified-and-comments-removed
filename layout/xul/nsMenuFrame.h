@@ -804,8 +804,9 @@ virtual
 nsMenuFrame
 (
 )
-{
-}
+=
+default
+;
 bool
 SizeToPopup
 (

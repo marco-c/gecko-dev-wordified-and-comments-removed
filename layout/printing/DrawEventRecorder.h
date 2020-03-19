@@ -606,8 +606,8 @@ explicit
 DrawEventRecorderPRFileDesc
 (
 )
-{
-}
+=
+default
 ;
 ~
 DrawEventRecorderPRFileDesc

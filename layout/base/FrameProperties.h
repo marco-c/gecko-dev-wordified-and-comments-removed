@@ -391,8 +391,9 @@ explicit
 FrameProperties
 (
 )
-{
-}
+=
+default
+;
 ~
 FrameProperties
 (

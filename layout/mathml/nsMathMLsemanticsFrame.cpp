@@ -76,8 +76,9 @@ nsMathMLsemanticsFrame
 nsMathMLsemanticsFrame
 (
 )
-{
-}
+=
+default
+;
 nsIFrame
 *
 nsMathMLsemanticsFrame

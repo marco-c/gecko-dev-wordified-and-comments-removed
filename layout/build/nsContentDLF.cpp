@@ -335,8 +335,9 @@ nsContentDLF
 nsContentDLF
 (
 )
-{
-}
+=
+default
+;
 nsContentDLF
 :
 :
@@ -344,8 +345,9 @@ nsContentDLF
 nsContentDLF
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsContentDLF

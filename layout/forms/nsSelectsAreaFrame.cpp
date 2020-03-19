@@ -354,8 +354,9 @@ public
 nsOptionEventGrabberWrapper
 (
 )
-{
-}
+=
+default
+;
 virtual
 nsDisplayItem
 *

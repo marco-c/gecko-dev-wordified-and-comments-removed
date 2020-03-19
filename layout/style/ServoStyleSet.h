@@ -1707,8 +1707,9 @@ private
 UACacheReporter
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 }

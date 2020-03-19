@@ -106,8 +106,9 @@ nsGridRowGroupLayout
 nsGridRowGroupLayout
 (
 )
-{
-}
+=
+default
+;
 void
 nsGridRowGroupLayout
 :

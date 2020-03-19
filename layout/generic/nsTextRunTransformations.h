@@ -210,8 +210,9 @@ private
 nsTransformedCharStyle
 (
 )
-{
-}
+=
+default
+;
 nsTransformedCharStyle
 (
 const
@@ -247,8 +248,9 @@ virtual
 nsTransformingTextRunFactory
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 nsTransformedTextRun

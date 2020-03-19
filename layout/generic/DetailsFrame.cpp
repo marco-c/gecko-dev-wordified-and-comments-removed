@@ -157,8 +157,9 @@ DetailsFrame
 DetailsFrame
 (
 )
-{
-}
+=
+default
+;
 void
 DetailsFrame
 :

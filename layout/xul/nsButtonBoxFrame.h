@@ -217,8 +217,9 @@ virtual
 nsButtonBoxListener
 (
 )
-{
-}
+=
+default
+;
 nsButtonBoxFrame
 *
 mButtonBoxFrame

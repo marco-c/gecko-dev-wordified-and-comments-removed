@@ -85,8 +85,9 @@ nsMathMLmspaceFrame
 nsMathMLmspaceFrame
 (
 )
-{
-}
+=
+default
+;
 void
 nsMathMLmspaceFrame
 :

@@ -46,8 +46,9 @@ virtual
 nsITableLayoutStrategy
 (
 )
-{
-}
+=
+default
+;
 virtual
 nscoord
 GetMinISize

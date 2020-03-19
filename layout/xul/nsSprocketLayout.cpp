@@ -153,8 +153,9 @@ nsSprocketLayout
 nsSprocketLayout
 (
 )
-{
-}
+=
+default
+;
 bool
 nsSprocketLayout
 :

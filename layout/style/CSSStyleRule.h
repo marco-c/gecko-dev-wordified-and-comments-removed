@@ -394,8 +394,9 @@ private
 CSSStyleRule
 (
 )
-{
-}
+=
+default
+;
 friend
 class
 CSSStyleRuleDeclaration

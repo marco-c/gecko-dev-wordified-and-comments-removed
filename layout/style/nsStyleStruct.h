@@ -599,8 +599,9 @@ mYRepeat
 Repeat
 (
 )
-{
-}
+=
+default
+;
 bool
 IsInitialValue
 (
@@ -9336,7 +9337,6 @@ nsTArray_Simple
 )
 {
 }
-;
 }
 ;
 STATIC_ASSERT_TYPE_LAYOUTS_MATCH

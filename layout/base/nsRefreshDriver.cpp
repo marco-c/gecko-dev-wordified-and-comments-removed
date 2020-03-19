@@ -779,8 +779,9 @@ public
 RefreshDriverTimer
 (
 )
-{
-}
+=
+default
+;
 NS_INLINE_DECL_REFCOUNTING
 (
 RefreshDriverTimer
@@ -2483,8 +2484,9 @@ private
 ParentProcessVsyncNotifier
 (
 )
-{
-}
+=
+default
+;
 RefPtr
 <
 RefreshDriverVsyncObserver

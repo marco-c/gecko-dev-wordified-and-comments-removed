@@ -173,8 +173,9 @@ nsStackLayout
 nsStackLayout
 (
 )
-{
-}
+=
+default
+;
 nsSize
 nsStackLayout
 :

@@ -355,8 +355,9 @@ private
 nsListEventListener
 (
 )
-{
-}
+=
+default
+;
 nsListControlFrame
 *
 mFrame

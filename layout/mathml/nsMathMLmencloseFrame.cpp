@@ -225,8 +225,9 @@ nsMathMLmencloseFrame
 nsMathMLmencloseFrame
 (
 )
-{
-}
+=
+default
+;
 nsresult
 nsMathMLmencloseFrame
 :

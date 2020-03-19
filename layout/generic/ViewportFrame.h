@@ -66,8 +66,9 @@ virtual
 ViewportFrame
 (
 )
-{
-}
+=
+default
+;
 virtual
 void
 Init

@@ -333,8 +333,9 @@ nsLayoutDebuggingTools
 nsLayoutDebuggingTools
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsLayoutDebuggingTools

@@ -108,8 +108,9 @@ virtual
 ScrollAnimationPhysics
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 static
