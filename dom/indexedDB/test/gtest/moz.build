@@ -101,11 +101,6 @@ SOURCES
 =
 [
 '
-TestFileInfo
-.
-cpp
-'
-'
 TestKey
 .
 cpp
