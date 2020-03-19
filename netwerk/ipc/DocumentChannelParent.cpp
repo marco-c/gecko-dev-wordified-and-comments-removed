@@ -335,11 +335,6 @@ asyncOpenTime
 )
 aArgs
 .
-documentOpenFlags
-(
-)
-aArgs
-.
 timing
 (
 )

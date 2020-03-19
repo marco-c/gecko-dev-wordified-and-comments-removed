@@ -359,14 +359,6 @@ mAsyncOpenTime
 ;
 args
 .
-documentOpenFlags
-(
-)
-=
-mDocumentOpenFlags
-;
-args
-.
 outerWindowId
 (
 )

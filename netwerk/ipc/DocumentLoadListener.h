@@ -236,13 +236,6 @@ const
 TimeStamp
 &
 aAsyncOpenTime
-const
-Maybe
-<
-uint32_t
->
-&
-aDocumentOpenFlags
 nsDOMNavigationTiming
 *
 aTiming
