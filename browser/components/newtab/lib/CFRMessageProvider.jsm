@@ -3501,6 +3501,15 @@ category
 "
 sync
 "
+entrypoint
+:
+"
+cfr
+-
+save
+-
+login
+"
 }
 }
 }
