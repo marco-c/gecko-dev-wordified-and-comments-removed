@@ -1120,12 +1120,7 @@ jsonpScopeName
 "
 opened
 :
-!
-!
-targetSearchResult
-|
-|
-filterText
+true
 shouldOpen
 :
 item
