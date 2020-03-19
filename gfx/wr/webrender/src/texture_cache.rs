@@ -2929,17 +2929,6 @@ SwizzleSettings
 >
 Self
 {
-if
-cfg
-!
-(
-target_os
-=
-"
-macos
-"
-)
-{
 max_texture_layers
 =
 max_texture_layers
@@ -2949,7 +2938,6 @@ min
 32
 )
 ;
-}
 let
 mut
 pending_updates
