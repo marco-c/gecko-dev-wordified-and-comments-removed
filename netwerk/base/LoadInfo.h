@@ -547,6 +547,8 @@ nsAString
 aCspNonce
 bool
 aSkipContentSniffing
+bool
+aHttpsOnlyNoUpgrade
 uint32_t
 aRequestBlockingReason
 nsINode
@@ -952,6 +954,9 @@ mCspNonce
 ;
 bool
 mSkipContentSniffing
+;
+bool
+mHttpsOnlyNoUpgrade
 ;
 bool
 mIsFromProcessingFrameAttributes

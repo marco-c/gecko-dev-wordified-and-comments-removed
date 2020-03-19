@@ -63,6 +63,13 @@ h
 #
 include
 "
+nsIParentChannel
+.
+h
+"
+#
+include
+"
 nsGlobalWindowInner
 .
 h
