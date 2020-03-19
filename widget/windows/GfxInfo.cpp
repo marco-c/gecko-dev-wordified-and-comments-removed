@@ -8928,7 +8928,7 @@ Windows10
 ScreenSizeStatus
 :
 :
-Small
+SmallAndMedium
 BatteryStatus
 :
 :
