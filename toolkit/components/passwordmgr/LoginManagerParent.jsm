@@ -507,6 +507,16 @@ listener
 ;
 }
 static
+get
+_recipeManager
+(
+)
+{
+return
+gRecipeManager
+;
+}
+static
 getGeneratedPasswordsByPrincipalOrigin
 (
 )

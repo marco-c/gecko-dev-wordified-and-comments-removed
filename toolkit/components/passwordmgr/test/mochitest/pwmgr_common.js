@@ -2499,6 +2499,10 @@ if
 LoginManagerParent
 .
 _recipeManager
+!
+=
+=
+null
 )
 {
 LoginManagerParent
