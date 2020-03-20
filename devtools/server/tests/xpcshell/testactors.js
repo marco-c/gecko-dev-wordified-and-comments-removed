@@ -845,11 +845,6 @@ true
 ;
 return
 {
-type
-:
-"
-tabAttached
-"
 threadActor
 :
 this

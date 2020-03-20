@@ -32,11 +32,6 @@ browsingContextTarget
 attach
 "
 {
-type
-:
-"
-string
-"
 threadActor
 :
 "

@@ -7264,13 +7264,6 @@ from
 targetActor
 >
 "
-type
-"
-:
-"
-tabAttached
-"
-"
 threadActor
 "
 :
