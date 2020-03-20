@@ -264,7 +264,6 @@ Scope
 )
 ;
 }
-else
 if
 (
 elem
