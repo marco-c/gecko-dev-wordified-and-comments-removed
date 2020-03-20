@@ -3179,6 +3179,10 @@ SetVisualCloneTarget
 nullptr
 )
 ;
+CreateStopMediaControlTimerIfNeeded
+(
+)
+;
 if
 (
 IsInComposedDoc
