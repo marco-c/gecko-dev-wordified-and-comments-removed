@@ -2857,6 +2857,13 @@ result
 heuristic
 &
 &
+this
+.
+window
+.
+gKeywordURIFixup
+&
+&
 UrlbarUtils
 .
 looksLikeSingleWordHost
