@@ -746,6 +746,10 @@ const
 uint32_t
 GetCheckerboardMagnitude
 (
+const
+ParentLayerRect
+&
+aClippedCompositionBounds
 )
 const
 ;
@@ -756,6 +760,10 @@ const
 TimeStamp
 &
 aSampleTime
+const
+ParentLayerRect
+&
+aClippedCompositionBounds
 )
 ;
 void
