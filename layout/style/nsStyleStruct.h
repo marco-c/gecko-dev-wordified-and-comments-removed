@@ -799,7 +799,10 @@ mozilla
 StyleBlend
 mBlendMode
 ;
-uint8_t
+mozilla
+:
+:
+StyleMaskComposite
 mComposite
 ;
 mozilla

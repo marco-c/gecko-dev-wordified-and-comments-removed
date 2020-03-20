@@ -12126,7 +12126,10 @@ firstLayer
 mComposite
 !
 =
-NS_STYLE_MASK_COMPOSITE_ADD
+StyleMaskComposite
+:
+:
+Add
 |
 |
 firstLayer
