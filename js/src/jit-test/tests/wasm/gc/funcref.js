@@ -362,7 +362,10 @@ funcref
 )
 (
 block
+(
+result
 funcref
+)
 (
 local
 .
@@ -394,7 +397,10 @@ anyref
 )
 (
 block
+(
+result
 anyref
+)
 (
 local
 .
@@ -426,7 +432,10 @@ anyref
 )
 (
 block
+(
+result
 funcref
+)
 (
 local
 .
@@ -826,7 +835,10 @@ global
 set
 0
 block
+(
+result
 funcref
+)
 local
 .
 get

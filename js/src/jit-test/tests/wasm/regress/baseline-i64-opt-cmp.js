@@ -18,7 +18,10 @@ result
 i64
 )
 block
+(
+result
 i64
+)
 i64
 .
 const

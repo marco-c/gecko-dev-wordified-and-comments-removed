@@ -72,9 +72,15 @@ i32
 store
 end
 block
+(
+result
 i32
+)
 block
+(
+result
 i32
+)
 i32
 .
 const
