@@ -324,7 +324,7 @@ source
 {
 source
 }
-shouldHide
+modifier
 =
 {
 icon
@@ -343,6 +343,10 @@ includes
 (
 icon
 )
+?
+null
+:
+icon
 }
 /
 >
