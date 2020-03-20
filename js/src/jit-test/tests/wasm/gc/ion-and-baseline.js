@@ -16,7 +16,6 @@ gc_feature_opt_in
 )
 (
 import
-tbl
 "
 "
 "
@@ -24,13 +23,13 @@ tbl
 "
 (
 table
+tbl
 4
 funcref
 )
 )
 (
 import
-print
 "
 "
 "
@@ -38,6 +37,7 @@ print
 "
 (
 func
+print
 (
 param
 i32
@@ -204,7 +204,6 @@ wasmTextToBinary
 module
 (
 import
-tbl
 "
 "
 "
@@ -212,13 +211,13 @@ tbl
 "
 (
 table
+tbl
 4
 funcref
 )
 )
 (
 import
-print
 "
 "
 "
@@ -226,6 +225,7 @@ print
 "
 (
 func
+print
 (
 param
 i32
