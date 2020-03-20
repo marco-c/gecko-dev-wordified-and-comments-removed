@@ -910,7 +910,10 @@ func
 select
 (
 if
+(
+result
 f32
+)
 (
 i32
 .
@@ -932,7 +935,10 @@ const
 )
 (
 if
+(
+result
 f32
+)
 (
 i32
 .
