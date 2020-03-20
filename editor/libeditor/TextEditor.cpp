@@ -1669,11 +1669,6 @@ if
 IsReadonly
 (
 )
-|
-|
-IsDisabled
-(
-)
 )
 {
 return
@@ -7505,11 +7500,6 @@ aCount
 IsReadonly
 (
 )
-|
-|
-IsDisabled
-(
-)
 )
 {
 return
@@ -7875,11 +7865,6 @@ aCount
 |
 |
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )
@@ -10066,11 +10051,6 @@ IsEditActionDataAvailable
 if
 (
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )

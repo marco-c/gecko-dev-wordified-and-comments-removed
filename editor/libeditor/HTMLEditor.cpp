@@ -2782,11 +2782,6 @@ if
 IsReadonly
 (
 )
-|
-|
-IsDisabled
-(
-)
 )
 {
 nsresult
@@ -7679,11 +7674,6 @@ ignored
 if
 (
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )
@@ -25346,11 +25336,6 @@ DONT_CHANGE_OPEN_STATE
 if
 (
 IsReadonly
-(
-)
-|
-|
-IsDisabled
 (
 )
 )
