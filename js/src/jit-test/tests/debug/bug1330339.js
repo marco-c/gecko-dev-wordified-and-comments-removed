@@ -30,6 +30,9 @@ global
 "
 func
 "
+(
+func
+)
 )
 (
 func

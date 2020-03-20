@@ -85,7 +85,10 @@ export
 "
 test
 "
+(
+func
 0
+)
 )
 \
 (

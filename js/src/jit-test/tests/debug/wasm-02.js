@@ -65,7 +65,10 @@ func
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '
@@ -119,7 +122,10 @@ export
 "
 a
 "
+(
+func
 0
+)
 )
 )
 '
