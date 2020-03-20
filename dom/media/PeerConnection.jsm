@@ -4297,7 +4297,7 @@ Ci
 .
 nsIScriptError
 .
-exceptionFlag
+errorFlag
 )
 ;
 try

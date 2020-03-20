@@ -104,15 +104,6 @@ JSREPORT_WARNING
 nsIScriptError
 :
 :
-exceptionFlag
-=
-=
-JSREPORT_EXCEPTION
-&
-&
-nsIScriptError
-:
-:
 infoFlag
 =
 =
