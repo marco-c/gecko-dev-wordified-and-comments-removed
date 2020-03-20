@@ -395,13 +395,6 @@ SearchEngineSelector
 (
 )
 ;
-await
-engineSelector
-.
-init
-(
-)
-;
 Assert
 .
 ok

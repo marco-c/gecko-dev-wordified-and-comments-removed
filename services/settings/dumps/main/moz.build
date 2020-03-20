@@ -99,6 +99,13 @@ onboarding
 json
 '
 '
+search
+-
+config
+.
+json
+'
+'
 sites
 -
 classification

@@ -87,6 +87,13 @@ plugins
 /
 "
 BROWSER_SEARCH_PREF
+SETTINGS_KEY
+:
+"
+search
+-
+config
+"
 TOPIC_SEARCH_SERVICE
 :
 "
