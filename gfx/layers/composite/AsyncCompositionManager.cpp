@@ -6423,12 +6423,8 @@ apzAnimating
 apz
 -
 >
-SampleAnimations
+AdvanceAnimations
 (
-LayerMetricsWrapper
-(
-root
-)
 nextFrame
 )
 ;
