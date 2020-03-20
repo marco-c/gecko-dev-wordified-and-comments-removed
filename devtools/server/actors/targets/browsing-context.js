@@ -2982,11 +2982,6 @@ wrongState
 }
 return
 {
-type
-:
-"
-detached
-"
 }
 ;
 }
