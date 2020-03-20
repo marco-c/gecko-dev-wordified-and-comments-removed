@@ -443,7 +443,6 @@ Administrator
 privileges
 )
 :
-bash
 python
 wpt
 make
@@ -455,9 +454,9 @@ file
 Out
 -
 File
-%
+env
+:
 SystemRoot
-%
 \
 System32
 \
