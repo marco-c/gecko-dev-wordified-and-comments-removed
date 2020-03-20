@@ -206,8 +206,11 @@ import
 float32
 "
 (
+func
+(
 param
 f32
+)
 )
 )
 (
@@ -330,8 +333,11 @@ import
 float64
 "
 (
+func
+(
 param
 f64
+)
 )
 )
 (

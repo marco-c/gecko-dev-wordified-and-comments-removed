@@ -2727,7 +2727,7 @@ trunc_s
 f64
 '
 "
-infinity
+inf
 "
 )
 ;
@@ -2744,7 +2744,7 @@ f64
 '
 "
 -
-infinity
+inf
 "
 )
 ;
@@ -2807,7 +2807,7 @@ trunc_u
 f64
 '
 "
-infinity
+inf
 "
 )
 ;
@@ -2824,7 +2824,7 @@ f64
 '
 "
 -
-infinity
+inf
 "
 )
 ;
@@ -2889,7 +2889,7 @@ trunc_s
 f32
 '
 "
-infinity
+inf
 "
 )
 ;
@@ -2906,7 +2906,7 @@ f32
 '
 "
 -
-infinity
+inf
 "
 )
 ;
@@ -2969,7 +2969,7 @@ trunc_u
 f32
 '
 "
-infinity
+inf
 "
 )
 ;
@@ -2986,7 +2986,7 @@ f32
 '
 "
 -
-infinity
+inf
 "
 )
 ;
@@ -3515,7 +3515,7 @@ sat
 f64
 '
 '
-infinity
+inf
 '
 s64max
 )
@@ -3535,7 +3535,7 @@ f64
 '
 '
 -
-infinity
+inf
 '
 s64min
 )
@@ -3614,7 +3614,7 @@ sat
 f64
 '
 '
-infinity
+inf
 '
 u64max
 )
@@ -3634,7 +3634,7 @@ f64
 '
 '
 -
-infinity
+inf
 '
 '
 0
@@ -3715,7 +3715,7 @@ sat
 f32
 '
 '
-infinity
+inf
 '
 s64max
 )
@@ -3735,7 +3735,7 @@ f32
 '
 '
 -
-infinity
+inf
 '
 s64min
 )
@@ -3814,7 +3814,7 @@ sat
 f32
 '
 '
-infinity
+inf
 '
 u64max
 )
@@ -3834,7 +3834,7 @@ f32
 '
 '
 -
-infinity
+inf
 '
 '
 0
@@ -4096,7 +4096,7 @@ trunc_s
 f32
 '
 '
-infinity
+inf
 '
 )
 ;
@@ -4113,7 +4113,7 @@ f32
 '
 '
 -
-infinity
+inf
 '
 )
 ;
@@ -4259,7 +4259,7 @@ trunc_s
 f64
 '
 '
-infinity
+inf
 '
 )
 ;
@@ -4276,7 +4276,7 @@ f64
 '
 '
 -
-infinity
+inf
 '
 )
 ;
@@ -4438,7 +4438,7 @@ trunc_u
 f32
 '
 '
-infinity
+inf
 '
 )
 ;
@@ -4455,7 +4455,7 @@ f32
 '
 '
 -
-infinity
+inf
 '
 )
 ;
@@ -4588,7 +4588,7 @@ trunc_u
 f64
 '
 '
-infinity
+inf
 '
 )
 ;
@@ -4605,7 +4605,7 @@ f64
 '
 '
 -
-infinity
+inf
 '
 )
 ;
