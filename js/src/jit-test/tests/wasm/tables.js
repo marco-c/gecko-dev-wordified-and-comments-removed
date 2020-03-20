@@ -1679,7 +1679,10 @@ export
 "
 tbl
 "
+(
 table
+0
+)
 )
 (
 elem
@@ -1823,7 +1826,10 @@ export
 "
 tbl
 "
+(
 table
+0
+)
 )
 (
 elem
@@ -1982,7 +1988,10 @@ export
 "
 tbl
 "
+(
 table
+0
+)
 )
 (
 elem
@@ -2130,7 +2139,10 @@ export
 "
 tbl
 "
+(
 table
+0
+)
 )
 (
 elem
