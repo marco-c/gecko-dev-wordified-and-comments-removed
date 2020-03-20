@@ -11387,7 +11387,10 @@ mozilla
 Span
 <
 const
-JSTryNote
+js
+:
+:
+TryNote
 >
 trynotes
 (

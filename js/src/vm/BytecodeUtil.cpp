@@ -4469,7 +4469,7 @@ Try
 for
 (
 const
-JSTryNote
+TryNote
 &
 tn
 :

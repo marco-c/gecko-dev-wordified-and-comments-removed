@@ -658,7 +658,7 @@ CGTryNoteList
 {
 Vector
 <
-JSTryNote
+TryNote
 >
 list
 ;
@@ -680,7 +680,7 @@ MOZ_MUST_USE
 bool
 append
 (
-JSTryNoteKind
+TryNoteKind
 kind
 uint32_t
 stackDepth
@@ -696,7 +696,7 @@ mozilla
 Span
 <
 const
-JSTryNote
+TryNote
 >
 span
 (

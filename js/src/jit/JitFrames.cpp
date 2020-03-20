@@ -575,7 +575,7 @@ InlineFrameIterator
 &
 frame
 const
-JSTryNote
+TryNote
 *
 tn
 )
@@ -896,7 +896,7 @@ operator
 )
 (
 const
-JSTryNote
+TryNote
 *
 note
 )
@@ -1138,7 +1138,7 @@ tni
 )
 {
 const
-JSTryNote
+TryNote
 *
 tn
 =
@@ -1421,7 +1421,7 @@ void
 BaselineFrameAndStackPointersFromTryNote
 (
 const
-JSTryNote
+TryNote
 *
 tn
 const
@@ -1508,7 +1508,7 @@ JSContext
 *
 cx
 const
-JSTryNote
+TryNote
 *
 tn
 const
@@ -1632,7 +1632,7 @@ operator
 )
 (
 const
-JSTryNote
+TryNote
 *
 note
 )
@@ -1785,7 +1785,7 @@ tni
 )
 {
 const
-JSTryNote
+TryNote
 *
 tn
 =
@@ -1947,7 +1947,7 @@ tni
 )
 {
 const
-JSTryNote
+TryNote
 *
 tn
 =

@@ -1224,7 +1224,7 @@ JSScript
 *
 script
 const
-JSTryNote
+TryNote
 *
 tn
 )
@@ -1248,12 +1248,12 @@ TryNoteFilter
 isTryNoteValid_
 ;
 const
-JSTryNote
+TryNote
 *
 tn_
 ;
 const
-JSTryNote
+TryNote
 *
 tnEnd_
 ;
@@ -1514,7 +1514,7 @@ tnEnd_
 ;
 }
 const
-JSTryNote
+TryNote
 *
 operator
 *
@@ -1611,7 +1611,7 @@ operator
 )
 (
 const
-JSTryNote
+TryNote
 *
 )
 {

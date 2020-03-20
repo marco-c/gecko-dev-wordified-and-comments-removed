@@ -6250,7 +6250,7 @@ JSScript
 *
 script
 const
-JSTryNote
+TryNote
 *
 tn
 )
@@ -6356,7 +6356,7 @@ JSContext
 *
 cx
 const
-JSTryNote
+TryNote
 *
 tn
 EnvironmentIter
@@ -6462,7 +6462,7 @@ operator
 )
 (
 const
-JSTryNote
+TryNote
 *
 note
 )
@@ -6565,7 +6565,7 @@ tni
 )
 {
 const
-JSTryNote
+TryNote
 *
 tn
 =
@@ -6668,7 +6668,7 @@ tni
 )
 {
 const
-JSTryNote
+TryNote
 *
 tn
 =

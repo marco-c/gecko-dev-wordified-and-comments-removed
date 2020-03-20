@@ -48164,7 +48164,7 @@ BytecodeEmitter
 :
 addTryNote
 (
-JSTryNoteKind
+TryNoteKind
 kind
 uint32_t
 stackDepth

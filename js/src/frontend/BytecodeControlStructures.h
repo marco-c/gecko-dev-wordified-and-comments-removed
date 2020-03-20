@@ -448,7 +448,7 @@ BytecodeEmitter
 bce
 JSOp
 op
-JSTryNoteKind
+TryNoteKind
 tryNoteKind
 )
 ;

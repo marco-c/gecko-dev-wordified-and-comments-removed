@@ -1446,7 +1446,7 @@ MOZ_MUST_USE
 bool
 addTryNote
 (
-JSTryNoteKind
+TryNoteKind
 kind
 uint32_t
 stackDepth
