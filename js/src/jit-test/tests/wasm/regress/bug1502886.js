@@ -143,7 +143,10 @@ funcnopnop
 export
 "
 "
+(
+func
 0
+)
 )
 )
 '

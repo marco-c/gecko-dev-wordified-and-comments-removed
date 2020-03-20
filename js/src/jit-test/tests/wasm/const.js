@@ -69,7 +69,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 expected
@@ -116,7 +119,10 @@ str
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )

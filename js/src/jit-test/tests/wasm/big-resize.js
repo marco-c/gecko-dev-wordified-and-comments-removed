@@ -83,7 +83,10 @@ export
 "
 run
 "
+(
+func
 test
+)
 )
 )
 42
