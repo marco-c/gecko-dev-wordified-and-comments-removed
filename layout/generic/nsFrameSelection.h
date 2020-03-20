@@ -491,6 +491,7 @@ CaretAssociateHint
 aHint
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 HandleDrag
 (
@@ -503,6 +504,7 @@ nsPoint
 aPoint
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleTableSelection
 (
@@ -684,6 +686,7 @@ aSelectionType
 )
 const
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 ScrollSelectionIntoView
 (
@@ -1546,7 +1549,7 @@ Selection
 aNormalSelection
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleSelection
 (
