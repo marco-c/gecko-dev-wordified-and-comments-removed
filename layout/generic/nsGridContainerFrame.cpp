@@ -6291,7 +6291,13 @@ mRepeatAutoEnd
 =
 mRepeatAutoStart
 +
-1
+repeat
+.
+track_sizes
+.
+Length
+(
+)
 ;
 mExpandedTracks
 .
