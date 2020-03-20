@@ -190,6 +190,16 @@ browser
 }
 )
 {
+await
+toolbox
+.
+loadTool
+(
+"
+inspector
+"
+)
+;
 const
 headerSelector
 =
