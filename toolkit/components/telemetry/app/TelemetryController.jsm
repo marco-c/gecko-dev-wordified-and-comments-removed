@@ -2919,11 +2919,6 @@ if
 (
 AppConstants
 .
-EARLY_BETA_OR_EARLIER
-&
-&
-AppConstants
-.
 platform
 =
 =

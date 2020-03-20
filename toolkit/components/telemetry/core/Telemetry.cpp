@@ -445,12 +445,6 @@ defined
 (
 XP_WIN
 )
-&
-&
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 #
 include
 "
@@ -3601,12 +3595,6 @@ if
 defined
 (
 XP_WIN
-)
-&
-&
-defined
-(
-EARLY_BETA_OR_EARLIER
 )
 return
 Telemetry

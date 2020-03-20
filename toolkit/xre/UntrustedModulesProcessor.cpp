@@ -444,12 +444,6 @@ Create
 (
 )
 {
-#
-if
-defined
-(
-EARLY_BETA_OR_EARLIER
-)
 if
 (
 !
@@ -481,13 +475,6 @@ forget
 (
 )
 ;
-#
-else
-return
-nullptr
-;
-#
-endif
 }
 NS_IMPL_ISUPPORTS
 (
