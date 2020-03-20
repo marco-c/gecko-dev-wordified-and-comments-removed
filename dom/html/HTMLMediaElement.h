@@ -4526,6 +4526,12 @@ MediaControlEventListener
 >
 mMediaControlEventListener
 ;
+bool
+IsBeingUsedInPictureInPictureMode
+(
+)
+const
+;
 }
 ;
 bool
