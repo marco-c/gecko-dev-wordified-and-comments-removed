@@ -430,8 +430,10 @@ IsX11Display
 {
 mContext
 =
-new
+MakeUnique
+<
 nsRetrievalContextX11
+>
 (
 )
 ;
@@ -446,8 +448,10 @@ else
 {
 mContext
 =
-new
+MakeUnique
+<
 nsRetrievalContextWayland
+>
 (
 )
 ;
