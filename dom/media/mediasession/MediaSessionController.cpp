@@ -588,8 +588,6 @@ Next
 )
 )
 {
-if
-(
 RefPtr
 <
 BrowsingContext
@@ -608,6 +606,13 @@ Key
 )
 )
 ;
+MOZ_ASSERT
+(
+bc
+)
+;
+if
+(
 bc
 -
 >
