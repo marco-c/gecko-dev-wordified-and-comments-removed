@@ -18,6 +18,10 @@ SEARCH_PATHS
 [
     
 '
+gtest
+'
+    
+'
 marionette
 /
 client
@@ -200,6 +204,14 @@ xpcshell
 MACH_MODULES
 =
 [
+    
+'
+gtest
+/
+mach_test_package_commands
+.
+py
+'
     
 '
 marionette
