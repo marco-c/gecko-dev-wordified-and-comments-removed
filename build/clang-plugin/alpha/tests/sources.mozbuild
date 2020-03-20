@@ -2,4 +2,9 @@ SOURCES
 +
 =
 [
+'
+TestTempRefPtr
+.
+cpp
+'
 ]

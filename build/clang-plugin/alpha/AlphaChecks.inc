@@ -1,0 +1,11 @@
+CHECK
+(
+TempRefPtrChecker
+"
+performance
+-
+temp
+-
+refptr
+"
+)

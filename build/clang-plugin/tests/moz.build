@@ -218,11 +218,6 @@ TestTemporaryClass
 cpp
 '
 '
-TestTempRefPtr
-.
-cpp
-'
-'
 TestTrivialCtorDtor
 .
 cpp

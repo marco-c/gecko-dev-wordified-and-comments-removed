@@ -2,4 +2,9 @@ HOST_SOURCES
 +
 =
 [
+'
+TempRefPtrChecker
+.
+cpp
+'
 ]
