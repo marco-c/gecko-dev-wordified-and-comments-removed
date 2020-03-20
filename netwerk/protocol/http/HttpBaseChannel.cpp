@@ -9341,6 +9341,17 @@ NS_OK
 ;
 if
 (
+IsBrowsingContextDiscarded
+(
+)
+)
+{
+return
+NS_OK
+;
+}
+if
+(
 aCookieHeader
 .
 IsEmpty
