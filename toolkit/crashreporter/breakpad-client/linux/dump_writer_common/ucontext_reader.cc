@@ -102,8 +102,7 @@ ucontext_t
 *
 uc
 const
-struct
-_libc_fpstate
+fpstate_t
 *
 fp
 )
@@ -459,8 +458,7 @@ ucontext_t
 *
 uc
 const
-struct
-_libc_fpstate
+fpstate_t
 *
 fpregs
 )

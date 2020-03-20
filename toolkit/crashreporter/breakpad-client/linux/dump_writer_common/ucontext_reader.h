@@ -36,6 +36,17 @@ h
 #
 include
 "
+linux
+/
+minidump_writer
+/
+minidump_writer
+.
+h
+"
+#
+include
+"
 common
 /
 memory_allocator
@@ -103,8 +114,7 @@ ucontext_t
 *
 uc
 const
-struct
-_libc_fpstate
+fpstate_t
 *
 fp
 )

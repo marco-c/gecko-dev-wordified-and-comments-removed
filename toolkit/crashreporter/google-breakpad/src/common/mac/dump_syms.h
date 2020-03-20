@@ -290,7 +290,7 @@ Module
 module
 )
 ;
-bool
+void
 ReadDwarf
 (
 google_breakpad

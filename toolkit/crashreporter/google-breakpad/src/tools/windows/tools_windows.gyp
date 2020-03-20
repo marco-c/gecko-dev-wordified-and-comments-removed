@@ -325,6 +325,17 @@ gyp
 '
 .
 /
+converter_exe
+/
+converter
+.
+gyp
+:
+*
+'
+'
+.
+/
 dump_syms
 /
 dump_syms

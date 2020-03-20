@@ -803,16 +803,6 @@ CodeModule
 )
 ;
 }
-bool
-IsModuleShrinkEnabled
-(
-)
-const
-{
-return
-false
-;
-}
 private
 :
 typedef

@@ -1,9 +1,6 @@
 GERRIT_HOST
 :
 True
-GERRIT_SQUASH_UPLOADS
-:
-True
 CODE_REVIEW_SERVER
 :
 chromium

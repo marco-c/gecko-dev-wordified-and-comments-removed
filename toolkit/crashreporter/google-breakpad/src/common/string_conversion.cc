@@ -144,11 +144,6 @@ out
 capacity
 (
 )
-*
-sizeof
-(
-uint16_t
-)
 ;
 ConversionResult
 result
@@ -434,11 +429,6 @@ out
 >
 capacity
 (
-)
-*
-sizeof
-(
-uint16_t
 )
 ;
 ConversionResult

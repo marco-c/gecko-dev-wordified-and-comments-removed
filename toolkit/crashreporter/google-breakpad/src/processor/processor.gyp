@@ -937,7 +937,12 @@ postfix_evaluator_unittest
 cc
 '
 '
-range_map_shrink_down_unittest
+range_map_truncate_lower_unittest
+.
+cc
+'
+'
+range_map_truncate_upper_unittest
 .
 cc
 '

@@ -146,15 +146,6 @@ const
 =
 0
 ;
-virtual
-bool
-IsModuleShrinkEnabled
-(
-)
-const
-=
-0
-;
 }
 ;
 }

@@ -1224,6 +1224,13 @@ MDException
 #
 include
 "
+minidump_exception_fuchsia
+.
+h
+"
+#
+include
+"
 minidump_exception_linux
 .
 h
@@ -1621,6 +1628,9 @@ MD_OS_PS3
 MD_OS_NACL
 =
 0x8205
+MD_OS_FUCHSIA
+=
+0x8206
 }
 MDOSPlatform
 ;

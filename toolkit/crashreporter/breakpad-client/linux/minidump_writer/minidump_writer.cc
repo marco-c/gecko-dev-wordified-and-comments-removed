@@ -7463,6 +7463,12 @@ set_crash_thread
 process_blamed_thread
 )
 ;
+MappingList
+mapping_list
+;
+AppMemoryList
+app_memory_list
+;
 MinidumpWriter
 writer
 (
@@ -7470,12 +7476,8 @@ minidump_path
 -
 1
 NULL
-MappingList
-(
-)
-AppMemoryList
-(
-)
+mapping_list
+app_memory_list
 false
 0
 false

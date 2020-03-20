@@ -1499,6 +1499,12 @@ personality_address
 DwarfPointerEncoding
 pointer_encoding
 ;
+uint8
+address_size
+;
+uint8
+segment_size
+;
 }
 ;
 struct

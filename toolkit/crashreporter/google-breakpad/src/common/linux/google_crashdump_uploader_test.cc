@@ -117,7 +117,7 @@ string
 >
 &
 parameters
-int
+long
 *
 http_status_code
 string
