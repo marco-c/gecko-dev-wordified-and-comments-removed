@@ -55,6 +55,13 @@ python
 /
 mozbuild
 "
+"
+testing
+/
+mozbase
+/
+mozfile
+"
 )
 sys
 .
@@ -148,6 +155,10 @@ changedFiles
         
 if
 filename
+.
+decode
+(
+)
 .
 endswith
 (
