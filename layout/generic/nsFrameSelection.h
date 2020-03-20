@@ -821,6 +821,7 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 CharacterMove
 (
@@ -830,16 +831,19 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 CharacterExtendForDelete
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 CharacterExtendForBackspace
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WordMove
 (
@@ -849,6 +853,7 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WordExtendForDelete
 (
@@ -856,6 +861,7 @@ bool
 aForward
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 LineMove
 (
@@ -865,6 +871,7 @@ bool
 aExtend
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 IntraLineMove
 (
@@ -1346,7 +1353,7 @@ eVisual
 eUsePrefStyle
 }
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MoveCaret
 (
