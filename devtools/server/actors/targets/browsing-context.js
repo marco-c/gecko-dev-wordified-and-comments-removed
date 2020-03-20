@@ -2908,9 +2908,9 @@ this
 exited
 )
 {
-return
+throw
 {
-type
+error
 :
 "
 exited

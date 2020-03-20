@@ -7349,7 +7349,7 @@ from
 targetActor
 >
 "
-type
+error
 "
 :
 "
