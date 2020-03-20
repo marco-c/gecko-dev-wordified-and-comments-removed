@@ -1658,6 +1658,15 @@ specification
 '
 ]
     
+if
+target
+=
+=
+"
+debug
+"
+:
+        
 spec_json_js_template
 =
 util
@@ -1672,12 +1681,12 @@ js
 template
 '
 )
-    
+        
 util
 .
 write_file
 (
-        
+            
 os
 .
 path
@@ -1694,7 +1703,7 @@ spec_json
 js
 "
 )
-        
+            
 spec_json_js_template
 %
 {
@@ -1710,12 +1719,12 @@ spec_json
 )
 }
 )
-    
+        
 util
 .
 write_file
 (
-        
+            
 os
 .
 path
@@ -1726,6 +1735,7 @@ spec_directory
 "
 generic
 "
+                         
 "
 debug
 -
@@ -1738,7 +1748,7 @@ src
 json
 "
 )
-        
+            
 json
 .
 dumps
