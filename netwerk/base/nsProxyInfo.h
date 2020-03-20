@@ -23,6 +23,15 @@ include
 "
 mozilla
 /
+Atomics
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Attributes
 .
 h
@@ -363,7 +372,11 @@ mPort
 uint32_t
 mFlags
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mResolveFlags
 ;
 uint32_t
