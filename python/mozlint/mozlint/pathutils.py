@@ -1332,6 +1332,10 @@ for
 f
 in
 keep
+if
+f
+.
+exists
 ]
 collapse
 (
@@ -1343,6 +1347,10 @@ for
 f
 in
 discard
+if
+f
+.
+exists
 ]
 )
 def
