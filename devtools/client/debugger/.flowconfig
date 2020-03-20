@@ -209,3 +209,8 @@ types
 .
 js
 '
+esproposal
+.
+optional_chaining
+=
+enable
