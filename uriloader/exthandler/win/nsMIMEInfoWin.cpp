@@ -1231,6 +1231,9 @@ showCmd
 SW_SHOWNORMAL
 )
 ;
+#
+ifndef
+MOZ_THUNDERBIRD
 mozilla
 :
 :
@@ -1257,11 +1260,17 @@ if
 (
 shellExecuteOk
 .
-isErr
+isOk
 (
 )
 )
 {
+return
+NS_OK
+;
+}
+#
+endif
 SHELLEXECUTEINFOW
 sinfo
 =
@@ -1336,7 +1345,6 @@ rv
 =
 NS_ERROR_FAILURE
 ;
-}
 }
 }
 return
