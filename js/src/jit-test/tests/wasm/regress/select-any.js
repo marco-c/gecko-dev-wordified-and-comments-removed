@@ -28,10 +28,7 @@ nop
 )
 (
 loop
-(
-result
 i32
-)
 (
 i32
 .
@@ -46,10 +43,7 @@ drop
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )
@@ -139,10 +133,7 @@ drop
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )

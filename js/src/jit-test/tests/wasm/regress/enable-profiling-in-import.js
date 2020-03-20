@@ -18,9 +18,6 @@ global
 "
 func
 "
-(
-func
-)
 )
 (
 func

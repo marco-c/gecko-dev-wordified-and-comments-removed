@@ -31,11 +31,8 @@ global
 func
 "
 (
-func
-(
 result
 i32
-)
 )
 )
 (

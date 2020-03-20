@@ -60,10 +60,7 @@ local
 get
 0
 if
-(
-result
 i32
-)
 local
 .
 get

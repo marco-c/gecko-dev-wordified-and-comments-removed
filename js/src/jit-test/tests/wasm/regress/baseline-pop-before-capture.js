@@ -26,10 +26,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 ;

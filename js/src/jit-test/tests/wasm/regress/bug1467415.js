@@ -109,10 +109,7 @@ i32
 )
 (
 block
-(
-result
 i32
-)
 (
 local
 .
@@ -127,10 +124,7 @@ get
 )
 (
 block
-(
-result
 i32
-)
 (
 global
 .
@@ -145,10 +139,7 @@ const
 )
 (
 block
-(
-result
 i32
-)
 (
 local
 .

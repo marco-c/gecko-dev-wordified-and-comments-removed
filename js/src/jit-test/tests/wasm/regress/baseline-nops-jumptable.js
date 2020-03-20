@@ -8,11 +8,11 @@ module
 (
 func
 (
-param
+result
 i32
 )
 (
-result
+param
 i32
 )
 (
@@ -58,10 +58,7 @@ const
 export
 "
 "
-(
-func
 0
-)
 )
 )
 )

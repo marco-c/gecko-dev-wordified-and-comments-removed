@@ -16,6 +16,7 @@ gc_feature_opt_in
 )
 (
 import
+tbl
 "
 "
 "
@@ -23,13 +24,13 @@ tbl
 "
 (
 table
-tbl
 4
 funcref
 )
 )
 (
 import
+print
 "
 "
 "
@@ -37,7 +38,6 @@ print
 "
 (
 func
-print
 (
 param
 i32
@@ -144,10 +144,7 @@ test_h
 )
 (
 call_indirect
-(
-type
 htype
-)
 (
 ref
 .
@@ -173,10 +170,7 @@ test_i
 drop
 (
 call_indirect
-(
-type
 itype
-)
 (
 i32
 .
@@ -204,6 +198,7 @@ wasmTextToBinary
 module
 (
 import
+tbl
 "
 "
 "
@@ -211,13 +206,13 @@ tbl
 "
 (
 table
-tbl
 4
 funcref
 )
 )
 (
 import
+print
 "
 "
 "
@@ -225,7 +220,6 @@ print
 "
 (
 func
-print
 (
 param
 i32
@@ -286,10 +280,7 @@ test_f
 )
 (
 call_indirect
-(
-type
 ftype
-)
 (
 i32
 .
@@ -328,10 +319,7 @@ test_g
 drop
 (
 call_indirect
-(
-type
 gtype
-)
 (
 i32
 .

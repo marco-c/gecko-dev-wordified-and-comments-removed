@@ -42,10 +42,7 @@ export
 "
 f
 "
-(
-func
 f
-)
 )
 )
 )

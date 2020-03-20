@@ -604,11 +604,13 @@ udict
 =
 {
 }
+;
     
 range_start
 =
 -
 1
+;
     
 for
 line
@@ -631,6 +633,7 @@ split
 ;
 '
 )
+;
         
 if
 len
@@ -654,6 +657,7 @@ data
 ]
 16
 )
+;
         
 if
 is_surrogate
@@ -674,7 +678,7 @@ range_start
 for
 i
 in
-range
+xrange
 (
 range_start
 cp
@@ -687,11 +691,13 @@ i
 ]
 =
 data
+;
             
 range_start
 =
 -
 1
+;
         
 if
 data
@@ -711,8 +717,10 @@ First
 range_start
 =
 cp
+;
             
 continue
+;
         
 udict
 [
@@ -720,6 +728,7 @@ cp
 ]
 =
 data
+;
     
 for
 code
@@ -751,6 +760,7 @@ udict
 [
 code
 ]
+;
         
 for
 cat
@@ -2535,27 +2545,25 @@ width_table
 .
 extend
 (
-[
+map
 (
-lo_hi
-[
-0
-]
-lo_hi
-[
-1
-]
+lambda
+(
+lo
+hi
+)
+:
+(
+lo
+hi
 0
 0
 )
-for
-lo_hi
-in
 gencats
 [
 zwcat
 ]
-]
+)
 )
         
 width_table
@@ -2615,56 +2623,52 @@ width_table
 .
 extend
 (
-[
+map
 (
-lo_hi1
-[
-0
-]
-lo_hi1
-[
-1
-]
+lambda
+(
+lo
+hi
+)
+:
+(
+lo
+hi
 2
 2
 )
-for
-lo_hi1
-in
 ea_widths
 [
 dwcat
 ]
-]
+)
 )
         
 width_table
 .
 extend
 (
-[
+map
 (
-lo_hi2
-[
-0
-]
-lo_hi2
-[
-1
-]
+lambda
+(
+lo
+hi
+)
+:
+(
+lo
+hi
 1
 2
 )
-for
-lo_hi2
-in
 ea_widths
 [
 "
 A
 "
 ]
-]
+)
 )
         
 width_table

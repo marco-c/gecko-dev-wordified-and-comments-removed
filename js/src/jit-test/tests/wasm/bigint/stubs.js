@@ -211,6 +211,7 @@ wasmEvalText
 module
 (
 import
+ffi
 "
 a
 "
@@ -218,9 +219,6 @@ a
 ffi
 "
 (
-func
-ffi
-(
 param
 i64
 )
@@ -229,9 +227,9 @@ result
 i64
 )
 )
-)
 (
 import
+ffi2
 "
 a
 "
@@ -239,9 +237,6 @@ a
 ffi2
 "
 (
-func
-ffi2
-(
 param
 i64
 i32
@@ -256,9 +251,9 @@ result
 i64
 )
 )
-)
 (
 import
+ffi3
 "
 a
 "
@@ -266,9 +261,6 @@ a
 ffi3
 "
 (
-func
-ffi3
-(
 param
 i64
 i64
@@ -278,7 +270,6 @@ i64
 (
 result
 i64
-)
 )
 )
 (

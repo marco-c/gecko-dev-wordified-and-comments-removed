@@ -150,6 +150,7 @@ wasmEvalText
 module
 (
 import
+glob
 "
 m
 "
@@ -158,7 +159,6 @@ g
 "
 (
 global
-glob
 anyref
 )
 )
@@ -241,6 +241,7 @@ wasmEvalText
 module
 (
 import
+glob
 "
 m
 "
@@ -249,7 +250,6 @@ g
 "
 (
 global
-glob
 (
 mut
 anyref
@@ -395,6 +395,7 @@ wasmEvalText
 module
 (
 import
+t
 "
 m
 "
@@ -403,7 +404,6 @@ t
 "
 (
 table
-t
 10
 anyref
 )
@@ -508,6 +508,7 @@ wasmEvalText
 module
 (
 import
+t
 "
 m
 "
@@ -516,7 +517,6 @@ t
 "
 (
 table
-t
 10
 anyref
 )
@@ -622,6 +622,7 @@ wasmEvalText
 module
 (
 import
+returner
 "
 m
 "
@@ -630,7 +631,6 @@ returner
 "
 (
 func
-returner
 (
 result
 anyref
@@ -639,6 +639,7 @@ anyref
 )
 (
 import
+receiver
 "
 m
 "
@@ -647,7 +648,6 @@ receiver
 "
 (
 func
-receiver
 (
 param
 anyref

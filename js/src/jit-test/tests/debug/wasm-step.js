@@ -33,10 +33,7 @@ export
 "
 test
 "
-(
-func
 0
-)
 )
 )
 '
@@ -217,10 +214,7 @@ export
 "
 test
 "
-(
-func
 0
-)
 )
 )
 '

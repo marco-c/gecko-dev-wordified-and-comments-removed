@@ -92,10 +92,7 @@ start
 export
 "
 "
-(
-func
 start
-)
 )
 )
 )

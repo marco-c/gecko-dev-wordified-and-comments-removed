@@ -45,11 +45,11 @@ module
 (
 func
 (
-param
+result
 f32
 )
 (
-result
+param
 f32
 )
 {
@@ -61,10 +61,7 @@ export
 "
 run
 "
-(
-func
 0
-)
 )
 )
 ;
