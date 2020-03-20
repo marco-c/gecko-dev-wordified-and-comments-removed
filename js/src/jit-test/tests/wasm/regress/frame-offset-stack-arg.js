@@ -106,7 +106,6 @@ wasmTextToBinary
 module
 (
 import
-f
 "
 m
 "
@@ -115,6 +114,7 @@ f
 "
 (
 func
+f
 (
 param
 i32

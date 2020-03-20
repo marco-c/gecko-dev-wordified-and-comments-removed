@@ -8,11 +8,11 @@ module
 (
 func
 (
-result
+param
 i32
 )
 (
-param
+result
 i32
 )
 (

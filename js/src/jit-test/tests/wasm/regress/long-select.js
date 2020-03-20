@@ -82,12 +82,12 @@ module
 func
 run
 (
-result
-i64
-)
-(
 param
 f32
+)
+(
+result
+i64
 )
 i64
 .

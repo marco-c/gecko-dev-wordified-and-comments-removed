@@ -18,6 +18,9 @@ global
 "
 func
 "
+(
+func
+)
 )
 (
 func
