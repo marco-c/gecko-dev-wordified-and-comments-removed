@@ -1,0 +1,10 @@
+parent
+.
+postMessage
+(
+null
+"
+*
+"
+)
+;
