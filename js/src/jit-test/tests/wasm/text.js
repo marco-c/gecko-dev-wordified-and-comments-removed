@@ -484,7 +484,10 @@ func
 func
 (
 call_indirect
+(
+type
 c
+)
 (
 i32
 .

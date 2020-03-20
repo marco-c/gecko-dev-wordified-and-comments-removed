@@ -1088,7 +1088,10 @@ local
 get
 1
 call_indirect
+(
+type
 t0
+)
 return
 end
 b1
@@ -1100,7 +1103,10 @@ local
 get
 1
 call_indirect
+(
+type
 t1
+)
 return
 end
 b2
@@ -1112,7 +1118,10 @@ local
 get
 1
 call_indirect
+(
+type
 t2
+)
 return
 end
 b3
@@ -1127,7 +1136,10 @@ local
 get
 1
 call_indirect
+(
+type
 t3
+)
 return
 )
 )
