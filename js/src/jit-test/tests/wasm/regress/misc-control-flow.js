@@ -758,7 +758,10 @@ return
 select
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
@@ -768,7 +771,10 @@ const
 )
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
@@ -830,7 +836,10 @@ const
 select
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
@@ -840,7 +849,10 @@ const
 )
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
@@ -1125,7 +1137,10 @@ i32
 )
 (
 loop
+(
+result
 i32
+)
 (
 i32
 .
