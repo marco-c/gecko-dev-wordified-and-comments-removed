@@ -97,5 +97,13 @@ attribute
 nsLoadFlags
 defaultLoadFlags
 ;
+[
+infallible
+]
+readonly
+attribute
+boolean
+isBrowsingContextDiscarded
+;
 }
 ;
