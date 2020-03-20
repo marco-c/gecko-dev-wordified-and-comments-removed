@@ -777,14 +777,10 @@ state
 const
 stacktrace
 =
-(
 state
-&
-&
-state
+?
 .
 stacktrace
-)
 |
 |
 this

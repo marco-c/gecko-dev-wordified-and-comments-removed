@@ -757,9 +757,7 @@ existingRules
 if
 (
 r
-&
-&
-r
+?
 .
 editor
 )

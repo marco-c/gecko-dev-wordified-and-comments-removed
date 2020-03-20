@@ -432,9 +432,7 @@ this_
 if
 (
 vars
-&
-&
-vars
+?
 .
 length
 )

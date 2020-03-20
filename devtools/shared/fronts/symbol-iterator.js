@@ -175,9 +175,7 @@ i
 if
 (
 item
-&
-&
-item
+?
 .
 descriptor
 )

@@ -974,14 +974,10 @@ undefined
 "
 |
 |
-(
 resultGrip
-&
-&
-resultGrip
+?
 .
 optimizedOut
-)
 )
 {
 return

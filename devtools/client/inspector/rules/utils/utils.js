@@ -912,11 +912,7 @@ value
 rule
 .
 sheet
-&
-&
-rule
-.
-sheet
+?
 .
 href
 ?
@@ -959,9 +955,7 @@ node
 while
 (
 node
-&
-&
-node
+?
 .
 classList
 )
@@ -1051,9 +1045,7 @@ node
 while
 (
 node
-&
-&
-node
+?
 .
 classList
 )

@@ -1042,9 +1042,7 @@ const
 postData
 =
 requestPostData
-&
-&
-requestPostData
+?
 .
 postData
 .

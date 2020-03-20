@@ -205,9 +205,7 @@ location
 ;
 return
 position
-&
-&
-position
+?
 .
 generatedLocation
 ;

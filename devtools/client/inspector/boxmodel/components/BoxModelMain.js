@@ -1753,9 +1753,7 @@ nextLayout
 if
 (
 target
-&
-&
-target
+?
 .
 _editable
 )
@@ -1969,9 +1967,7 @@ nextLayout
 if
 (
 target
-&
-&
-target
+?
 .
 _editable
 )

@@ -117,11 +117,7 @@ if
 action
 .
 source
-&
-&
-action
-.
-source
+?
 .
 text
 )
@@ -242,11 +238,7 @@ if
 action
 .
 value
-&
-&
-action
-.
-value
+?
 .
 text
 )
@@ -376,9 +368,7 @@ value
 if
 (
 value
-&
-&
-value
+?
 .
 getGrip
 )

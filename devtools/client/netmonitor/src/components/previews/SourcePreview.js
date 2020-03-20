@@ -616,9 +616,7 @@ props
 if
 (
 targetSearchResult
-&
-&
-targetSearchResult
+?
 .
 line
 )

@@ -134,11 +134,7 @@ className
 action
 .
 grip
-&
-&
-action
-.
-grip
+?
 .
 getGrip
 ?

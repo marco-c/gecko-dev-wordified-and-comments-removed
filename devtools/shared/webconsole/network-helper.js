@@ -569,9 +569,7 @@ loadInfo
 if
 (
 loadInfo
-&
-&
-loadInfo
+?
 .
 isTopLevelLoad
 )
@@ -2169,11 +2167,7 @@ if
 httpActivity
 .
 channel
-&
-&
-httpActivity
-.
-channel
+?
 .
 URI
 )

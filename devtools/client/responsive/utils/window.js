@@ -62,11 +62,7 @@ window
 window
 .
 gBrowserInit
-&
-&
-window
-.
-gBrowserInit
+?
 .
 delayedStartupFinished
 ;

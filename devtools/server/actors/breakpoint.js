@@ -600,11 +600,7 @@ locationAtFinish
 frame
 .
 onPop
-&
-&
-frame
-.
-onPop
+?
 .
 location
 ;

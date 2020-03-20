@@ -1252,9 +1252,7 @@ value
 if
 (
 value
-&
-&
-value
+?
 .
 getGrip
 )

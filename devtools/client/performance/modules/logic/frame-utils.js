@@ -1475,9 +1475,7 @@ name
 return
 (
 name
-&
-&
-name
+?
 .
 charCodeAt
 &
@@ -1803,9 +1801,7 @@ duration
 if
 (
 options
-&
-&
-options
+?
 .
 root
 &
@@ -1882,9 +1878,7 @@ true
 if
 (
 options
-&
-&
-options
+?
 .
 allocations
 &

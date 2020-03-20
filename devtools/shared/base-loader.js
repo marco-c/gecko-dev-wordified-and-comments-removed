@@ -801,9 +801,7 @@ define
 if
 (
 define
-&
-&
-define
+?
 .
 value
 )

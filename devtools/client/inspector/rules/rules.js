@@ -2199,9 +2199,7 @@ const
 nodeName
 =
 target
-&
-&
-target
+?
 .
 nodeName
 ;

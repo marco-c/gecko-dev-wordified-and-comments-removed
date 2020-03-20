@@ -530,9 +530,7 @@ closeDialog
 if
 (
 activeSendDialog
-&
-&
-activeSendDialog
+?
 .
 close
 )

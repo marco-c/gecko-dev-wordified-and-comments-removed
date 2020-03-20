@@ -276,9 +276,7 @@ height
 }
 =
 selectedGrid
-&
-&
-selectedGrid
+?
 .
 gridFragments
 .
@@ -304,9 +302,7 @@ showOutline
 if
 (
 selectedGrid
-&
-&
-selectedGrid
+?
 .
 gridFragments
 .
@@ -1423,9 +1419,7 @@ state
 ;
 return
 selectedGrid
-&
-&
-selectedGrid
+?
 .
 gridFragments
 .

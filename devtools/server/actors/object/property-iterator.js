@@ -966,9 +966,7 @@ e
 if
 (
 desc
-&
-&
-desc
+?
 .
 value
 &

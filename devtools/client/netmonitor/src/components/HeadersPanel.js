@@ -902,9 +902,7 @@ result
 if
 (
 headers
-&
-&
-headers
+?
 .
 headers
 .
@@ -945,9 +943,7 @@ propertiesResult
 if
 (
 headers
-&
-&
-headers
+?
 .
 headers
 .

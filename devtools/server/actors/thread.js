@@ -4625,9 +4625,7 @@ youngestFrame
 if
 (
 frame
-&
-&
-frame
+?
 .
 onStack
 )

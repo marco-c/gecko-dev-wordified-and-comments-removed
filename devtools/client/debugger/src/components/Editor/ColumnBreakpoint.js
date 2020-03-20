@@ -315,9 +315,7 @@ const
 isDisabled
 =
 breakpoint
-&
-&
-breakpoint
+?
 .
 disabled
 ;
@@ -325,9 +323,7 @@ const
 condition
 =
 breakpoint
-&
-&
-breakpoint
+?
 .
 options
 .
@@ -337,9 +333,7 @@ const
 logValue
 =
 breakpoint
-&
-&
-breakpoint
+?
 .
 options
 .

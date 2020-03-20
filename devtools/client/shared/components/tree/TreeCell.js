@@ -423,9 +423,7 @@ defaultRenderValue
 if
 (
 decorator
-&
-&
-decorator
+?
 .
 renderValue
 )

@@ -83,9 +83,7 @@ postData
 if
 (
 rawData
-&
-&
-rawData
+?
 .
 text
 )

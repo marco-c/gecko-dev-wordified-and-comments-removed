@@ -772,9 +772,8 @@ curr
 =
 >
 prev
-&
-&
-prev
+?
+.
 [
 curr
 ]

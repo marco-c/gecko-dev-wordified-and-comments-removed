@@ -1020,9 +1020,7 @@ getBoxModelSection
 if
 (
 flexItemContainer
-&
-&
-flexItemContainer
+?
 .
 actorID
 )

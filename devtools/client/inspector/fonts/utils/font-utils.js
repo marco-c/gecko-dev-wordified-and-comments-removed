@@ -121,9 +121,7 @@ D
 ;
 return
 match
-&
-&
-match
+?
 .
 length
 ?

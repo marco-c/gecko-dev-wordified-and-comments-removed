@@ -330,9 +330,7 @@ CodeMirror
 ;
 return
 cm
-&
-&
-cm
+?
 .
 CodeMirror
 ;

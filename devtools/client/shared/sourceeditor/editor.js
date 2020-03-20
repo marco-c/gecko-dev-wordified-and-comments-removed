@@ -1079,11 +1079,7 @@ if
 config
 .
 extraKeys
-&
-&
-config
-.
-extraKeys
+?
 .
 Tab
 )
@@ -1292,9 +1288,7 @@ this
 ;
 return
 codeMirror
-&
-&
-codeMirror
+?
 .
 constructor
 ;
@@ -6586,9 +6580,7 @@ this
 if
 (
 cm
-&
-&
-cm
+?
 .
 doc
 )

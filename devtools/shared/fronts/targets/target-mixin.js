@@ -261,9 +261,7 @@ desc
 if
 (
 desc
-&
-&
-desc
+?
 .
 methods
 )
@@ -395,14 +393,10 @@ typeName
 ;
 if
 (
-(
 front
-&
-&
-front
+?
 .
 actorID
-)
 |
 |
 (
@@ -489,9 +483,7 @@ typeName
 if
 (
 front
-&
-&
-front
+?
 .
 actorID
 )

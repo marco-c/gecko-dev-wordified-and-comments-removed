@@ -765,9 +765,7 @@ const
 window
 =
 document
-&
-&
-document
+?
 .
 defaultView
 ;
@@ -2323,9 +2321,7 @@ const
 message
 =
 unsafeDereference
-&
-&
-unsafeDereference
+?
 .
 toString
 ?
@@ -2344,9 +2340,7 @@ const
 stack
 =
 unsafeDereference
-&
-&
-unsafeDereference
+?
 .
 stack
 ?

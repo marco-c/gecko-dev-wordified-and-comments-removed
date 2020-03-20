@@ -364,9 +364,7 @@ const
 isError
 =
 result
-&
-&
-result
+?
 .
 class
 &
@@ -533,9 +531,7 @@ const
 grip
 =
 obj
-&
-&
-obj
+?
 .
 getGrip
 &

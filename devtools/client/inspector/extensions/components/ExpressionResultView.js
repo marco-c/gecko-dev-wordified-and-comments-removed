@@ -281,14 +281,10 @@ roots
 {
 path
 :
-(
 expressionResult
-&
-&
-expressionResult
+?
 .
 actorID
-)
 |
 |
 JSON
@@ -318,9 +314,7 @@ null
 if
 (
 expressionResult
-&
-&
-expressionResult
+?
 .
 actorID
 )

@@ -1114,9 +1114,7 @@ RenderLabelCell
 if
 (
 decorator
-&
-&
-decorator
+?
 .
 renderLabelCell
 )
@@ -1194,9 +1192,7 @@ id
 if
 (
 decorator
-&
-&
-decorator
+?
 .
 renderCell
 )

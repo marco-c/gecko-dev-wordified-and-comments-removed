@@ -148,9 +148,7 @@ sourceId
 ;
 return
 source
-&
-&
-source
+?
 .
 isBlackBoxed
 ;
@@ -210,9 +208,7 @@ frame
 ;
 return
 selectedFrame
-&
-&
-selectedFrame
+?
 .
 id
 ;
@@ -535,9 +531,7 @@ return
 Boolean
 (
 generatedSource
-&
-&
-generatedSource
+?
 .
 isWasm
 )

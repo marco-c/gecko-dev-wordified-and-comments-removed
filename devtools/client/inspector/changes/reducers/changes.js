@@ -717,11 +717,7 @@ if
 change
 .
 remove
-&
-&
-change
-.
-remove
+?
 .
 length
 )
@@ -980,11 +976,7 @@ if
 change
 .
 add
-&
-&
-change
-.
-add
+?
 .
 length
 )

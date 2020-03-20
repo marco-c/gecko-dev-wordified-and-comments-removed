@@ -219,11 +219,7 @@ messageText
 message
 .
 messageText
-&
-&
-message
-.
-messageText
+?
 .
 getGrip
 ?

@@ -713,9 +713,7 @@ null
 ;
 return
 tab
-&
-&
-tab
+?
 .
 hasAttribute
 &

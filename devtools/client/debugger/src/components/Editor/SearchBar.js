@@ -1464,9 +1464,8 @@ className
 active
 :
 modifiers
-&
-&
-modifiers
+?
+.
 [
 modVal
 ]

@@ -8987,9 +8987,7 @@ getCurrentPanel
 if
 (
 currentPanel
-&
-&
-currentPanel
+?
 .
 updatePickerButton
 )
@@ -10529,11 +10527,7 @@ docEl
 iframe
 .
 contentWindow
-&
-&
-iframe
-.
-contentWindow
+?
 .
 document
 .
@@ -14322,9 +14316,7 @@ const
 objectGrip
 =
 objectActor
-&
-&
-objectActor
+?
 .
 getGrip
 ?

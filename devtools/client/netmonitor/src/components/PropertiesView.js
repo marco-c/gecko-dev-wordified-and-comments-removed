@@ -1044,9 +1044,7 @@ resetTargetSearchResult
 if
 (
 value
-&
-&
-value
+?
 .
 text
 &

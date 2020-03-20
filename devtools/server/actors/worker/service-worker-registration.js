@@ -416,9 +416,7 @@ activeWorker
 fetch
 :
 newestWorker
-&
-&
-newestWorker
+?
 .
 fetch
 active

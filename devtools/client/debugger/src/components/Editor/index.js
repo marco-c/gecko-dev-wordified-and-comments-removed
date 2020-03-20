@@ -2320,9 +2320,7 @@ return
 if
 (
 selectedSource
-&
-&
-selectedSource
+?
 .
 isBlackBoxed
 )
@@ -3298,9 +3296,7 @@ wrapper
 blackboxed
 :
 selectedSource
-&
-&
-selectedSource
+?
 .
 isBlackBoxed
 "

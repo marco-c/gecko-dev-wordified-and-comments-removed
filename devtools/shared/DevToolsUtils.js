@@ -696,14 +696,13 @@ fn
 ;
 return
 fn
-&
-&
-fn
+?
 .
 callable
 &
 &
 fn
+?
 .
 class
 =
@@ -714,6 +713,7 @@ Function
 &
 &
 fn
+?
 .
 script
 =

@@ -684,9 +684,7 @@ const
 ready
 =
 requests
-&
-&
-requests
+?
 .
 length
 &

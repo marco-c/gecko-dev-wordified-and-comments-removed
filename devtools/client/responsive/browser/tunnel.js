@@ -194,9 +194,7 @@ status
 if
 (
 webProgress
-&
-&
-webProgress
+?
 .
 isTopLevel
 )
@@ -241,9 +239,7 @@ flags
 if
 (
 webProgress
-&
-&
-webProgress
+?
 .
 isTopLevel
 )

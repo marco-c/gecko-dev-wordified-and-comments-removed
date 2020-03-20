@@ -1101,14 +1101,10 @@ sourceId
 )
 |
 |
-(
 source
-&
-&
-source
+?
 .
 isPrettyPrinted
-)
 )
 {
 return

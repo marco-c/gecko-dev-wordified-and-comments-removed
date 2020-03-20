@@ -1096,9 +1096,7 @@ node
 while
 (
 el
-&
-&
-el
+?
 .
 parentNode
 )
@@ -1131,9 +1129,7 @@ node
 while
 (
 el
-&
-&
-el
+?
 .
 parentNode
 )
@@ -2990,11 +2986,7 @@ return
 node
 .
 frameLoader
-&
-&
-node
-.
-frameLoader
+?
 .
 isRemoteFrame
 ;

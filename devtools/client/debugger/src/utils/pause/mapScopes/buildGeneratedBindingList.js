@@ -502,9 +502,7 @@ const
 globalGrip
 =
 globalScope
-&
-&
-globalScope
+?
 .
 object
 ;

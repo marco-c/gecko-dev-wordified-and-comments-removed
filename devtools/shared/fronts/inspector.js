@@ -605,9 +605,7 @@ options
 if
 (
 options
-&
-&
-options
+?
 .
 fromMenu
 )

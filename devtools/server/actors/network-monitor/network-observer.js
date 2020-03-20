@@ -2534,9 +2534,7 @@ loadInfo
 if
 (
 loadingPrincipal
-&
-&
-loadingPrincipal
+?
 .
 URI
 )

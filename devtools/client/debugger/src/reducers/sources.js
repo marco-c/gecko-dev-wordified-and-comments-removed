@@ -3302,9 +3302,7 @@ any
 ;
 return
 source
-&
-&
-source
+?
 .
 id
 ;
@@ -4049,9 +4047,8 @@ state
 ;
 return
 positions
-&
-&
-positions
+?
+.
 [
 sourceId
 ]
@@ -4113,9 +4110,8 @@ sourceId
 ;
 return
 positions
-&
-&
-positions
+?
+.
 [
 line
 ]

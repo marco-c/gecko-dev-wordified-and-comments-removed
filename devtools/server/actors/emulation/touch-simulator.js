@@ -1675,9 +1675,7 @@ const
 win
 =
 target
-&
-&
-target
+?
 .
 ownerDocument
 ?

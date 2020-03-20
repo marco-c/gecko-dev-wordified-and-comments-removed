@@ -398,9 +398,7 @@ longString
 |
 (
 grip
-&
-&
-grip
+?
 .
 getGrip
 &

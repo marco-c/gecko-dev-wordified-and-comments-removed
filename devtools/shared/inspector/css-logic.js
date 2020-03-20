@@ -1906,9 +1906,7 @@ containingShadowRoot
 while
 (
 node
-&
-&
-node
+?
 .
 isNativeAnonymous
 )

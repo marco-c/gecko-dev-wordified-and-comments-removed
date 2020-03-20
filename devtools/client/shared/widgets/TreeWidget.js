@@ -826,11 +826,7 @@ if
 node
 .
 parentNode
-&
-&
-node
-.
-parentNode
+?
 .
 nextSibling
 )

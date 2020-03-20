@@ -1065,9 +1065,7 @@ null
 if
 (
 msgs
-&
-&
-msgs
+?
 .
 length
 )
