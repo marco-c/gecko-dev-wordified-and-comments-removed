@@ -678,10 +678,10 @@ true
 ;
 if
 (
-mDocumentParsingDone
+mDeferCheckpointReached
 )
 {
-mDocumentParsingDone
+mDeferCheckpointReached
 =
 false
 ;
@@ -708,6 +708,11 @@ ParsingComplete
 (
 bool
 aTerminated
+)
+;
+void
+DeferCheckpointReached
+(
 )
 ;
 uint32_t
@@ -1763,7 +1768,7 @@ bool
 mDeferEnabled
 ;
 bool
-mDocumentParsingDone
+mDeferCheckpointReached
 ;
 bool
 mBlockingDOMContentLoaded
