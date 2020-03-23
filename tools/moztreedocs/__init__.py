@@ -587,6 +587,7 @@ self
 .
 _synchronize_docs
 (
+app
 )
         
 logger
@@ -989,6 +990,7 @@ def
 _synchronize_docs
 (
 self
+app
 )
 :
         
@@ -1389,6 +1391,17 @@ t
 ]
 )
         
+if
+app
+.
+srcdir
+=
+=
+self
+.
+topsrcdir
+:
+            
 indexes
 =
 set
@@ -1412,6 +1425,7 @@ index
 '
 )
 )
+                           
 for
 p
 in
@@ -1422,7 +1436,7 @@ keys
 )
 ]
 )
-        
+            
 cats
 =
 '
@@ -1446,7 +1460,7 @@ split
 n
 "
 )
-        
+            
 cats
 =
 [
@@ -1467,7 +1481,7 @@ x
 in
 cats
 ]
-        
+            
 indexes
 =
 tuple
@@ -1482,16 +1496,16 @@ set
 cats
 )
 )
-        
+            
 if
 indexes
 :
-            
+                
 print
 (
 indexes
 )
-            
+                
 raise
 Exception
 (
