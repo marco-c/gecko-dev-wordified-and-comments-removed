@@ -1865,7 +1865,10 @@ local
 get
 i
 call_indirect
+(
+type
 table_type
+)
 )
 (
 func

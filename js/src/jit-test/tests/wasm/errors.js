@@ -1759,7 +1759,10 @@ funcref
 func
 (
 call_indirect
+(
+type
 0
+)
 (
 i32
 .
@@ -1798,7 +1801,10 @@ funcref
 func
 (
 call_indirect
+(
+type
 0
+)
 (
 i32
 .
@@ -1840,7 +1846,10 @@ blah
 func
 (
 call_indirect
+(
+type
 0
+)
 (
 i32
 .
@@ -2395,7 +2404,10 @@ func
 d
 (
 call_indirect
+(
+type
 v2v
+)
 (
 i32
 .

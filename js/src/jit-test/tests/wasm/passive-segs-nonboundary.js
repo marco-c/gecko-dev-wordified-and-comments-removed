@@ -525,7 +525,10 @@ get
 ;
 callIx
 call_indirect
+(
+type
 0
+)
 ;
 ;
 and

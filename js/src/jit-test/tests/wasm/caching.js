@@ -455,7 +455,10 @@ i32
 )
 (
 call_indirect
+(
+type
 T
+)
 (
 local
 .
