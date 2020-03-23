@@ -6,6 +6,7 @@ from
 argparse
 import
 REMAINDER
+SUPPRESS
 ArgumentParser
 from
 mozlint
@@ -13,10 +14,6 @@ mozlint
 formatters
 import
 all_formatters
-SEARCH_PATHS
-=
-[
-]
 class
 MozlintParser
 (
@@ -938,6 +935,50 @@ CPU
 [
 [
 '
+-
+-
+config
+-
+path
+'
+]
+         
+{
+'
+action
+'
+:
+'
+append
+'
+          
+'
+default
+'
+:
+[
+]
+          
+'
+dest
+'
+:
+'
+config_paths
+'
+          
+'
+help
+'
+:
+SUPPRESS
+          
+}
+]
+        
+[
+[
+'
 extra_args
 '
 ]
@@ -1424,6 +1465,7 @@ None
 def
 find_linters
 (
+config_paths
 linters
 =
 None
@@ -1432,13 +1474,13 @@ None
     
 lints
 =
-[
-]
+{
+}
     
 for
 search_path
 in
-SEARCH_PATHS
+config_paths
 :
         
 if
@@ -1533,9 +1575,10 @@ linters
 continue
             
 lints
-.
-append
-(
+[
+name
+]
+=
 os
 .
 path
@@ -1545,10 +1588,13 @@ join
 search_path
 f
 )
-)
     
 return
 lints
+.
+values
+(
+)
 def
 run
 (
@@ -1595,6 +1641,12 @@ lint_paths
 =
 find_linters
 (
+lintargs
+[
+'
+config_paths
+'
+]
 linters
 )
         
@@ -1659,6 +1711,12 @@ read
 (
 find_linters
 (
+lintargs
+[
+'
+config_paths
+'
+]
 linters
 )
 )
