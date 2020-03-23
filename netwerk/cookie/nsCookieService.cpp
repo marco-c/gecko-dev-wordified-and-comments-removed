@@ -2952,6 +2952,7 @@ PR_USEC_PER_SEC
 )
 &
 &
+!
 NS_IsSafeMethodNav
 (
 aChannel
