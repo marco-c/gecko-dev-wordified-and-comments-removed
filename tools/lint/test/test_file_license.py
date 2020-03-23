@@ -39,7 +39,7 @@ results
 )
 =
 =
-2
+3
     
 assert
 "
@@ -85,6 +85,21 @@ relpath
     
 assert
 "
+.
+eslintrc
+.
+js
+"
+in
+results
+[
+1
+]
+.
+relpath
+    
+assert
+"
 No
 matching
 license
@@ -93,7 +108,7 @@ strings
 in
 results
 [
-1
+2
 ]
 .
 message
@@ -101,7 +116,7 @@ message
 assert
 results
 [
-1
+2
 ]
 .
 level
@@ -120,7 +135,7 @@ js
 in
 results
 [
-1
+2
 ]
 .
 relpath
