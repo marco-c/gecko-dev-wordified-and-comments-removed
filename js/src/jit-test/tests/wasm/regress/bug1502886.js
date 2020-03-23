@@ -53,10 +53,7 @@ g
 eval
 (
 var
-{
 binary
-offsets
-}
 =
 wasmTextToBinary
 (
@@ -65,7 +62,14 @@ wasmTextToBinary
 x
 }
 '
-true
+)
+;
+var
+offsets
+=
+wasmCodeOffsets
+(
+binary
 )
 ;
 new
@@ -137,7 +141,9 @@ f
 (
 module
 (
-funcnopnop
+func
+nop
+nop
 )
 (
 export
