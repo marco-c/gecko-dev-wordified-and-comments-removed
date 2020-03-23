@@ -65,11 +65,11 @@ VideoFrameMetadata
 {
 required
 DOMHighResTimeStamp
-presentationTime
+timePresented
 ;
 required
 DOMHighResTimeStamp
-expectedPresentationTime
+expectedDisplayTime
 ;
 required
 unsigned
@@ -109,7 +109,7 @@ VideoFrameRequestCallback
 void
 (
 DOMHighResTimeStamp
-time
+now
 VideoFrameMetadata
 metadata
 )
