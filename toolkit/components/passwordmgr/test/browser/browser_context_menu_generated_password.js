@@ -33,7 +33,7 @@ test
 /
 browser
 /
-form_basic
+form_basic_login
 .
 html
 "

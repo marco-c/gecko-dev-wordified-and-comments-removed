@@ -68,15 +68,6 @@ TESTING_JS_MODULES
 '
 test
 /
-browser
-/
-form_basic
-.
-html
-'
-'
-test
-/
 LoginTestUtils
 .
 jsm
@@ -195,6 +186,11 @@ jsm
 '
 '
 LoginRecipes
+.
+jsm
+'
+'
+NewPasswordModel
 .
 jsm
 '
