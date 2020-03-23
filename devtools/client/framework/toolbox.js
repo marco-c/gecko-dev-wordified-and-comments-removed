@@ -1060,7 +1060,7 @@ NodeFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
