@@ -3069,7 +3069,7 @@ NS_IMETHOD
 SetSelectionFlags
 (
 int16_t
-aInEnable
+aFlags
 )
 override
 ;
@@ -3078,7 +3078,7 @@ GetSelectionFlags
 (
 int16_t
 *
-aOutEnable
+aFlags
 )
 override
 ;
