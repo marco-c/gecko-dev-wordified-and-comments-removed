@@ -53,7 +53,6 @@ markup
 const
 {
 TEXT_NODE
-DOCUMENT_NODE
 }
 =
 require
@@ -547,7 +546,6 @@ node
 )
 {
 return
-(
 super
 .
 _isNodeValid
@@ -560,14 +558,6 @@ isNodeValid
 (
 node
 TEXT_NODE
-)
-|
-|
-isNodeValid
-(
-node
-DOCUMENT_NODE
-)
 )
 ;
 }
