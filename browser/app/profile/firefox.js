@@ -15932,11 +15932,6 @@ cause
 "
 \
 "
-initiator
-\
-"
-\
-"
 type
 \
 "

@@ -440,9 +440,6 @@ file
 cause
 "
 "
-initiator
-"
-"
 type
 "
 "
