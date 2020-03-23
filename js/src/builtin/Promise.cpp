@@ -7703,7 +7703,7 @@ handlerNum
 =
 PromiseHandlerAsyncFromSyncIteratorValueUnwrapDone
 ;
-JSObject
+PlainObject
 *
 resultObj
 =
@@ -18508,7 +18508,7 @@ isNullOrUndefined
 )
 )
 {
-JSObject
+PlainObject
 *
 resultObj
 =

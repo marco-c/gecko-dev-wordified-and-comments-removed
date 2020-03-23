@@ -142,6 +142,15 @@ include
 "
 vm
 /
+NativeObject
+.
+h
+"
+#
+include
+"
+vm
+/
 PromiseLookup
 .
 h
@@ -1438,7 +1447,7 @@ WeakHeapPtr
 js
 :
 :
-NativeObject
+PlainObject
 *
 >
 iterResultTemplate_
@@ -1454,7 +1463,7 @@ WeakHeapPtr
 js
 :
 :
-NativeObject
+PlainObject
 *
 >
 iterResultWithoutPrototypeTemplate_
@@ -2576,7 +2585,7 @@ IterResultObjectDoneSlot
 js
 :
 :
-NativeObject
+PlainObject
 *
 getOrCreateIterResultTemplateObject
 (
@@ -2588,7 +2597,7 @@ cx
 js
 :
 :
-NativeObject
+PlainObject
 *
 getOrCreateIterResultWithoutPrototypeTemplateObject
 (
@@ -2610,7 +2619,7 @@ Yes
 js
 :
 :
-NativeObject
+PlainObject
 *
 createIterResultTemplateObject
 (

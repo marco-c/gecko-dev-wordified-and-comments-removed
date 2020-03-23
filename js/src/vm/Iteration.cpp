@@ -227,6 +227,15 @@ include
 "
 vm
 /
+NativeObject
+.
+h
+"
+#
+include
+"
+vm
+/
 Shape
 .
 h
@@ -4584,7 +4593,7 @@ numGuards
 )
 ;
 }
-JSObject
+PlainObject
 *
 js
 :
@@ -4600,7 +4609,11 @@ bool
 done
 )
 {
-RootedObject
+Rooted
+<
+PlainObject
+*
+>
 templateObject
 (
 cx
@@ -4628,7 +4641,7 @@ return
 nullptr
 ;
 }
-NativeObject
+PlainObject
 *
 resultObj
 ;
@@ -4636,7 +4649,7 @@ JS_TRY_VAR_OR_RETURN_NULL
 (
 cx
 resultObj
-NativeObject
+PlainObject
 :
 :
 createWithTemplate
@@ -4678,7 +4691,7 @@ return
 resultObj
 ;
 }
-NativeObject
+PlainObject
 *
 Realm
 :
@@ -4712,7 +4725,7 @@ return
 iterResultTemplate_
 ;
 }
-NativeObject
+PlainObject
 *
 templateObj
 =
@@ -4736,7 +4749,7 @@ return
 iterResultTemplate_
 ;
 }
-NativeObject
+PlainObject
 *
 Realm
 :
@@ -4770,7 +4783,7 @@ return
 iterResultWithoutPrototypeTemplate_
 ;
 }
-NativeObject
+PlainObject
 *
 templateObj
 =
@@ -4794,7 +4807,7 @@ return
 iterResultWithoutPrototypeTemplate_
 ;
 }
-NativeObject
+PlainObject
 *
 Realm
 :
@@ -4808,7 +4821,11 @@ WithObjectPrototype
 withProto
 )
 {
-RootedNativeObject
+Rooted
+<
+PlainObject
+*
+>
 templateObject
 (
 cx

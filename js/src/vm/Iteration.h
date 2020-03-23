@@ -53,6 +53,9 @@ namespace
 js
 {
 class
+PlainObject
+;
+class
 PropertyIteratorObject
 ;
 struct
@@ -1531,7 +1534,7 @@ nextIteratedValueAndAdvance
 ;
 }
 extern
-JSObject
+PlainObject
 *
 CreateIterResultObject
 (

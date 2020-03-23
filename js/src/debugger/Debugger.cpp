@@ -8544,7 +8544,7 @@ AsyncGeneratorObject
 )
 )
 {
-JSObject
+PlainObject
 *
 pair
 =

@@ -4481,7 +4481,7 @@ heldValue
 )
 )
 ;
-JSObject
+PlainObject
 *
 result
 =
@@ -4548,7 +4548,7 @@ return
 true
 ;
 }
-JSObject
+PlainObject
 *
 result
 =
