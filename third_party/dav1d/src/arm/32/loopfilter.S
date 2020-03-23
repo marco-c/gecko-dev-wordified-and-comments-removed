@@ -1281,7 +1281,7 @@ imin
 f
 +
 4
-128
+127
 )
 vqadd
 .
@@ -1296,7 +1296,7 @@ imin
 f
 +
 3
-128
+127
 )
 vshr
 .
@@ -6153,7 +6153,7 @@ endfunc
 /
 /
 void
-dav1d_lpf_v_sb_y_neon
+dav1d_lpf_v_sb_y_8bpc_neon
 (
 pixel
 *
@@ -6209,7 +6209,7 @@ type
 \
 (
 )
-_neon
+_8bpc_neon
 export
 =
 1

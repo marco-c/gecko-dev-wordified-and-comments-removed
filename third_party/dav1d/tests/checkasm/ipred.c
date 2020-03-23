@@ -258,7 +258,7 @@ const
 c
 )
 {
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 c_dst
@@ -267,7 +267,7 @@ c_dst
 64
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 a_dst
@@ -276,7 +276,7 @@ a_dst
 64
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 topleft_buf
@@ -824,7 +824,7 @@ const
 c
 )
 {
-ALIGN_STK_32
+ALIGN_STK_64
 (
 int16_t
 c_dst
@@ -833,7 +833,7 @@ c_dst
 32
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 int16_t
 a_dst
@@ -842,7 +842,7 @@ a_dst
 32
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 luma
@@ -1226,7 +1226,7 @@ const
 c
 )
 {
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 c_dst
@@ -1235,7 +1235,7 @@ c_dst
 32
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 a_dst
@@ -1244,7 +1244,7 @@ a_dst
 32
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 int16_t
 ac
@@ -1253,7 +1253,7 @@ ac
 32
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 topleft_buf
@@ -1641,7 +1641,7 @@ const
 c
 )
 {
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 c_dst
@@ -1650,7 +1650,7 @@ c_dst
 64
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 a_dst
@@ -1659,7 +1659,7 @@ a_dst
 64
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 uint8_t
 idx

@@ -870,6 +870,12 @@ clobber
 .
 )
 ;
+void
+checkasm_simd_warmup
+(
+void
+)
+;
 #
 define
 declare_new
@@ -925,6 +931,10 @@ call_new
 checkasm_set_signal_handler_state
 (
 1
+)
+\
+checkasm_simd_warmup
+(
 )
 \
 checkasm_stack_clobber

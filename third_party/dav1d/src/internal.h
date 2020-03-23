@@ -778,7 +778,12 @@ top_pre_cdef_toggle
 int
 mask_sz
 lr_mask_sz
-line_sz
+cdef_line_sz
+[
+2
+]
+;
+int
 lr_line_sz
 re_sz
 ;
@@ -814,6 +819,10 @@ tx_lpf_right_edge
 2
 ]
 ;
+uint8_t
+*
+cdef_line_buf
+;
 pixel
 *
 cdef_line
@@ -822,9 +831,6 @@ cdef_line
 ]
 [
 3
-]
-[
-2
 ]
 ;
 pixel
@@ -1115,7 +1121,7 @@ txtp_map
 ALIGN
 (
 union
-32
+64
 )
 {
 struct

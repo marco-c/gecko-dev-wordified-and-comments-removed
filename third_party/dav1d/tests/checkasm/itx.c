@@ -1365,7 +1365,7 @@ dav1d_itx_dsp_init
 c
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 coef
 coeff
@@ -1377,7 +1377,7 @@ coeff
 ]
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 c_dst
@@ -1386,7 +1386,7 @@ c_dst
 64
 )
 ;
-ALIGN_STK_32
+ALIGN_STK_64
 (
 pixel
 a_dst

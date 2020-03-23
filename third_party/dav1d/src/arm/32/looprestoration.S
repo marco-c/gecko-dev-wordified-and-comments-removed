@@ -263,7 +263,7 @@ S
 /
 /
 void
-dav1d_wiener_filter_h_neon
+dav1d_wiener_filter_h_8bpc_neon
 (
 int16_t
 *
@@ -306,7 +306,7 @@ edges
 )
 ;
 function
-wiener_filter_h_neon
+wiener_filter_h_8bpc_neon
 export
 =
 1
@@ -2557,7 +2557,7 @@ endfunc
 /
 /
 void
-dav1d_wiener_filter_v_neon
+dav1d_wiener_filter_v_8bpc_neon
 (
 pixel
 *
@@ -2592,7 +2592,7 @@ mid_stride
 )
 ;
 function
-wiener_filter_v_neon
+wiener_filter_v_8bpc_neon
 export
 =
 1
@@ -3699,7 +3699,7 @@ endfunc
 /
 /
 void
-dav1d_copy_narrow_neon
+dav1d_copy_narrow_8bpc_neon
 (
 pixel
 *
@@ -3719,7 +3719,7 @@ h
 )
 ;
 function
-copy_narrow_neon
+copy_narrow_8bpc_neon
 export
 =
 1
@@ -4491,7 +4491,7 @@ SUM_STRIDE
 /
 /
 void
-dav1d_sgr_box3_h_neon
+dav1d_sgr_box3_h_8bpc_neon
 (
 int32_t
 *
@@ -4536,7 +4536,7 @@ edges
 )
 ;
 function
-sgr_box3_h_neon
+sgr_box3_h_8bpc_neon
 export
 =
 1
@@ -6108,6 +6108,11 @@ d9
 d9
 add3
 4
+subs
+r5
+r5
+#
+4
 vst1
 .
 16
@@ -6156,11 +6161,6 @@ r10
 128
 ]
 !
-subs
-r5
-r5
-#
-4
 ble
 9f
 vext
@@ -6338,7 +6338,7 @@ endfunc
 /
 /
 void
-dav1d_sgr_box5_h_neon
+dav1d_sgr_box5_h_8bpc_neon
 (
 int32_t
 *
@@ -6383,7 +6383,7 @@ edges
 )
 ;
 function
-sgr_box5_h_neon
+sgr_box5_h_8bpc_neon
 export
 =
 1
@@ -6858,7 +6858,7 @@ shift
 q0
 to
 have
-2x
+3x
 the
 first
 byte
@@ -8120,6 +8120,11 @@ d9
 d9
 add5
 4
+subs
+r5
+r5
+#
+4
 vst1
 .
 16
@@ -8168,11 +8173,6 @@ r10
 128
 ]
 !
-subs
-r5
-r5
-#
-4
 ble
 9f
 vext
@@ -10946,9 +10946,9 @@ FILTER_OUT_STRIDE
 /
 /
 void
-dav1d_sgr_finish_filter1_neon
+dav1d_sgr_finish_filter1_8bpc_neon
 (
-coef
+int16_t
 *
 tmp
 /
@@ -10981,7 +10981,7 @@ h
 )
 ;
 function
-sgr_finish_filter1_neon
+sgr_finish_filter1_8bpc_neon
 export
 =
 1
@@ -11755,9 +11755,9 @@ endfunc
 /
 /
 void
-dav1d_sgr_finish_filter2_neon
+dav1d_sgr_finish_filter2_8bpc_neon
 (
-coef
+int16_t
 *
 tmp
 /
@@ -11790,7 +11790,7 @@ h
 )
 ;
 function
-sgr_finish_filter2_neon
+sgr_finish_filter2_8bpc_neon
 export
 =
 1
@@ -12905,7 +12905,7 @@ endfunc
 /
 /
 void
-dav1d_sgr_weighted1_neon
+dav1d_sgr_weighted1_8bpc_neon
 (
 pixel
 *
@@ -12925,7 +12925,7 @@ src_stride
 /
 /
 const
-coef
+int16_t
 *
 t1
 const
@@ -12942,7 +12942,7 @@ wt
 )
 ;
 function
-sgr_weighted1_neon
+sgr_weighted1_8bpc_neon
 export
 =
 1
@@ -13467,7 +13467,7 @@ endfunc
 /
 /
 void
-dav1d_sgr_weighted2_neon
+dav1d_sgr_weighted2_8bpc_neon
 (
 pixel
 *
@@ -13487,11 +13487,11 @@ src_stride
 /
 /
 const
-coef
+int16_t
 *
 t1
 const
-coef
+int16_t
 *
 t2
 /
@@ -13513,7 +13513,7 @@ wt
 )
 ;
 function
-sgr_weighted2_neon
+sgr_weighted2_8bpc_neon
 export
 =
 1

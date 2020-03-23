@@ -3810,6 +3810,8 @@ Dav1dLoopRestorationDSPContext
 *
 const
 c
+int
+bpc
 )
 {
 c
@@ -3841,6 +3843,7 @@ dav1d_loop_restoration_dsp_init_arm
 )
 (
 c
+bpc
 )
 ;
 #

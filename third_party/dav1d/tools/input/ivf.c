@@ -248,17 +248,6 @@ hdr
 32
 ]
 ;
-memset
-(
-c
-0
-sizeof
-(
-*
-c
-)
-)
-;
 if
 (
 !

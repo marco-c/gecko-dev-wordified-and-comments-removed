@@ -76,6 +76,12 @@ h
 "
 #
 endif
+void
+dav1d_init_cpu
+(
+void
+)
+;
 unsigned
 dav1d_get_cpu_flags
 (
@@ -86,7 +92,6 @@ DAV1D_API
 void
 dav1d_set_cpu_flags_mask
 (
-const
 unsigned
 mask
 )

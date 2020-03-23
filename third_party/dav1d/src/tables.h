@@ -458,6 +458,17 @@ dav1d_default_wm_params
 ;
 extern
 const
+int8_t
+dav1d_cdef_directions
+[
+12
+]
+[
+2
+]
+;
+extern
+const
 int16_t
 dav1d_sgr_params
 [

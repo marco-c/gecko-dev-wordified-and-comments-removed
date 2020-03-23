@@ -212,6 +212,8 @@ dav1d_loop_restoration_dsp_init
 Dav1dLoopRestorationDSPContext
 *
 c
+int
+bpc
 )
 ;
 bitfn_decls
@@ -221,6 +223,8 @@ dav1d_loop_restoration_dsp_init_arm
 Dav1dLoopRestorationDSPContext
 *
 c
+int
+bpc
 )
 ;
 bitfn_decls

@@ -2356,7 +2356,7 @@ r2d
 cmp
 hd
 32
-cmovz
+cmove
 r6d
 r2d
 movd
@@ -8325,7 +8325,7 @@ rsp
 cmp
 hd
 4
-cmova
+cmovne
 maxbased
 r3d
 vextracti128
@@ -9374,8 +9374,8 @@ filter_strength
 )
 cmp
 hd
-8
-cmova
+16
+cmovns
 maxbased
 r5d
 mov
@@ -9945,8 +9945,8 @@ r5d
 33
 cmp
 hd
-16
-cmova
+32
+cmovns
 maxbased
 r5d
 mov
@@ -10252,7 +10252,7 @@ maxbased
 cmp
 hd
 32
-cmovb
+cmovs
 maxbased
 r3d
 test
@@ -10668,8 +10668,8 @@ r3d
 65
 cmp
 hd
-32
-cmova
+64
+cmove
 maxbased
 r3d
 packuswb
@@ -12657,7 +12657,7 @@ rsp
 43
 ]
 1
-cmovl
+cmovs
 r5d
 hd
 xor
@@ -13891,7 +13891,7 @@ r5d
 cmp
 hd
 16
-cmovl
+cmovs
 r5d
 hd
 xor
@@ -15208,7 +15208,7 @@ r5d
 cmp
 hd
 16
-cmovl
+cmovs
 r5d
 hd
 xor
@@ -17392,7 +17392,7 @@ rsp
 cmp
 wd
 4
-cmova
+cmovne
 maxbased
 r4d
 vextracti128
@@ -18478,8 +18478,8 @@ r5d
 17
 cmp
 wd
-8
-cmova
+16
+cmovns
 maxbased
 r5d
 neg
@@ -18739,7 +18739,7 @@ dstq
 +
 org_wq
 ]
-cmovg
+cmovns
 dstq
 r6
 punpcklwd
@@ -19354,8 +19354,8 @@ r5d
 33
 cmp
 wd
-16
-cmova
+32
+cmovns
 maxbased
 r5d
 neg
@@ -19644,7 +19644,7 @@ dstq
 +
 org_wq
 ]
-cmovg
+cmovns
 dstq
 r6
 punpcklbw
@@ -20196,7 +20196,7 @@ wd
 21
 -
 w
-cmovg
+cmovns
 r5d
 r4d
 movu
@@ -20563,8 +20563,8 @@ r4d
 65
 cmp
 wd
-32
-cmova
+64
+cmove
 maxbased
 r4d
 packuswb
@@ -25254,7 +25254,7 @@ r2d
 cmp
 hd
 32
-cmovz
+cmove
 r6d
 r2d
 movd
