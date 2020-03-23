@@ -26,7 +26,10 @@ export
 "
 test
 "
+(
+func
 t
+)
 )
 )
 ;

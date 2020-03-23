@@ -95,7 +95,10 @@ export
 "
 run
 "
+(
+func
 f
+)
 )
 )
 42

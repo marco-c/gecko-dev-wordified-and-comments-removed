@@ -92,7 +92,10 @@ start
 export
 "
 "
+(
+func
 start
+)
 )
 )
 )

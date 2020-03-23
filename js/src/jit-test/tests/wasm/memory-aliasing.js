@@ -92,7 +92,10 @@ export
 "
 off1
 "
+(
+func
 off1
+)
 )
 (
 func
@@ -145,7 +148,10 @@ export
 "
 off2
 "
+(
+func
 off2
+)
 )
 )
 )

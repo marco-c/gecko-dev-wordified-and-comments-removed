@@ -39,7 +39,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 /
@@ -92,7 +95,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 /
@@ -152,7 +158,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 emptyStackError
@@ -201,7 +210,10 @@ get
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )
@@ -519,7 +531,10 @@ const
 export
 "
 "
+(
+func
 1
+)
 )
 )
 )
@@ -679,7 +694,10 @@ export
 "
 foo
 "
+(
+func
 4
+)
 )
 )
 {
@@ -771,7 +789,10 @@ drop
 export
 "
 "
+(
+func
 0
+)
 )
 )
 )

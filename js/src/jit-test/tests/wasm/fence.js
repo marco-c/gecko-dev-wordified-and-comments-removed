@@ -13,7 +13,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 )
@@ -37,7 +40,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 )
@@ -63,7 +69,10 @@ export
 "
 run
 "
+(
+func
 0
+)
 )
 )
 )
