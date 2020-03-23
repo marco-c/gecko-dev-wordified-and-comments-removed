@@ -8684,12 +8684,6 @@ axisSize
 20
 |
 |
-instanceCount
-=
-=
-0
-|
-|
 (
 instanceSize
 !
