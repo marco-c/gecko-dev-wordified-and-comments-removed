@@ -970,6 +970,10 @@ get
 command
 )
         
+prog
+=
+command
+        
 usage
 =
 '
@@ -1071,6 +1075,15 @@ subcommand_handlers
 subcommand
 ]
                 
+prog
+=
+prog
++
+'
+'
++
+subcommand
+                
 usage
 =
 '
@@ -1149,6 +1162,19 @@ context
 self
 .
 _context
+            
+subparser
+.
+prog
+=
+subparser
+.
+prog
++
+'
+'
++
+prog
             
 for
 arg
