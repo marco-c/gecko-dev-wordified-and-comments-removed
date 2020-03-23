@@ -1513,12 +1513,6 @@ nsFrameSelection
 >
 mFrameSelection
 ;
-nsCOMPtr
-<
-nsIContent
->
-mLimiter
-;
 nsIScrollableFrame
 *
 mScrollFrame
@@ -1556,7 +1550,6 @@ NS_IMPL_CYCLE_COLLECTION_WEAK
 (
 TextInputSelectionController
 mFrameSelection
-mLimiter
 )
 TextInputSelectionController
 :
@@ -1581,10 +1574,6 @@ if
 aPresShell
 )
 {
-mLimiter
-=
-aLimiter
-;
 bool
 accessibleCaretEnabled
 =
@@ -1612,7 +1601,7 @@ new
 nsFrameSelection
 (
 aPresShell
-mLimiter
+aLimiter
 accessibleCaretEnabled
 )
 ;
