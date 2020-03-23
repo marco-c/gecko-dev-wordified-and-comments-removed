@@ -3,15 +3,6 @@ include
 "
 mozilla
 /
-TypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -3074,8 +3065,8 @@ obj
 gc
 :
 :
-AutoSetThreadIsSweeping
-threadIsSweeping
+AutoSetThreadIsFinalizing
+threadIsFinalizing
 ;
 GCPtrObject
 wrapper1
@@ -3155,8 +3146,8 @@ obj2
 gc
 :
 :
-AutoSetThreadIsSweeping
-threadIsSweeping
+AutoSetThreadIsFinalizing
+threadIsFinalizing
 ;
 GCPtrObject
 wrapper1

@@ -30,7 +30,7 @@ include
 "
 mozilla
 /
-TypeTraits
+TextUtils
 .
 h
 "
