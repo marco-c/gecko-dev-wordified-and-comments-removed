@@ -121,6 +121,12 @@ mozilla
 -
 esr68
 .
+signed
+-
+nightly
+.
+nightly
+.
 latest
 .
 mobile
@@ -128,6 +134,8 @@ mobile
 android
 -
 aarch64
+-
+release
 -
 opt
 name
@@ -149,6 +157,12 @@ mozilla
 -
 esr68
 .
+signed
+-
+nightly
+.
+nightly
+.
 latest
 .
 mobile
@@ -158,6 +172,8 @@ android
 api
 -
 16
+-
+release
 -
 opt
 name
