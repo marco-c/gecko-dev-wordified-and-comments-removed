@@ -828,16 +828,6 @@ pref
 "
 formhelper
 .
-mode
-"
-2
-)
-;
-pref
-(
-"
-formhelper
-.
 autozoom
 "
 true
