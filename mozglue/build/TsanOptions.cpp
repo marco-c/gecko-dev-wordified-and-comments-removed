@@ -774,6 +774,13 @@ n
 "
 race
 :
+fixupShapeTreeAfterMovingGC
+\
+n
+"
+"
+race
+:
 setFlagBit
 \
 n
