@@ -573,8 +573,25 @@ replace
         
 print
 (
+ESLINT_ERROR_MESSAGE
+.
+format
+(
 errors
 )
+)
+    
+if
+proc
+.
+returncode
+>
+=
+2
+:
+        
+return
+1
     
 if
 not
