@@ -572,3 +572,8 @@ payload
 license
 :
 lint
+find
+-
+dotfiles
+:
+true
