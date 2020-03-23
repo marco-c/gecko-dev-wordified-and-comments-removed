@@ -241,13 +241,7 @@ CompilationInfo
 &
 compilationInfo
 ;
-JS
-:
-:
-Rooted
-<
 ScriptThingsVector
->
 vector
 ;
 FunctionBox
@@ -617,10 +611,6 @@ std
 move
 (
 vector
-.
-get
-(
-)
 )
 ;
 }
