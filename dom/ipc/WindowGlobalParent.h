@@ -121,6 +121,13 @@ h
 #
 include
 "
+nsIContentParent
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
@@ -579,6 +586,12 @@ return
 mContentBlockingLog
 ;
 }
+nsIContentParent
+*
+GetContentParent
+(
+)
+;
 protected
 :
 const
