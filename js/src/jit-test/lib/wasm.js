@@ -357,7 +357,7 @@ wasmVal
 =
 =
 '
-infinity
+inf
 '
 )
 return
@@ -371,7 +371,7 @@ wasmVal
 =
 '
 -
-infinity
+inf
 '
 )
 return
