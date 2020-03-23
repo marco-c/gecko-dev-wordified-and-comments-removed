@@ -1210,6 +1210,23 @@ parameters
 {
 }
     
+serialized_scenarios
+=
+sorted
+(
+        
+[
+dump_test_parameters
+(
+scenario
+)
+for
+scenario
+in
+scenarios
+]
+)
+    
 parameters
 [
 '
@@ -1217,9 +1234,14 @@ scenarios
 '
 ]
 =
-dump_test_parameters
+"
+\
+n
+"
+.
+join
 (
-scenarios
+serialized_scenarios
 )
 .
 replace
@@ -1237,7 +1259,7 @@ n
 "
 "
 *
-8
+10
 )
     
 test_directory

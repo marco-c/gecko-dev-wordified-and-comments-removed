@@ -178,11 +178,13 @@ script
 >
 TestCase
 (
+[
 %
 (
 scenarios
 )
 s
+]
 new
 SanityChecker
 (
