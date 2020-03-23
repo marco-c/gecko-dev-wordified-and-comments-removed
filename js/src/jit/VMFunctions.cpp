@@ -3709,6 +3709,14 @@ return
 false
 ;
 }
+if
+(
+!
+JitOptions
+.
+warpBuilder
+)
+{
 jsbytecode
 *
 pc
@@ -3737,6 +3745,7 @@ pc
 rval
 )
 ;
+}
 return
 true
 ;
