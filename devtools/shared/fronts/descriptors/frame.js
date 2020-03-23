@@ -34,7 +34,7 @@ BrowsingContextTargetFront
 "
 devtools
 /
-client
+shared
 /
 fronts
 /

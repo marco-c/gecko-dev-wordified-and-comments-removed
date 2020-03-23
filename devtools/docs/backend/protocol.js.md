@@ -534,7 +534,7 @@ go
 in
 devtools
 /
-client
+shared
 /
 fronts
 /
