@@ -234,6 +234,15 @@ ShutdownPhase
 :
 ShutdownThreads
 ;
+case
+3
+:
+return
+ShutdownPhase
+:
+:
+Shutdown
+;
 }
 return
 ShutdownPhase
