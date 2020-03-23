@@ -2402,13 +2402,6 @@ mIOService
 service
 )
 ;
-gIOService
--
->
-LaunchSocketProcess
-(
-)
-;
 if
 (
 IsNeckoChild
@@ -3517,7 +3510,6 @@ nsIOService
 :
 UseSocketProcess
 (
-true
 )
 &
 &
