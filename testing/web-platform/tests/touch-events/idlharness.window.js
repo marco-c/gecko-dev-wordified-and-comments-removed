@@ -17,10 +17,10 @@ events
 uievents
 '
 '
-dom
-'
-'
 html
+'
+'
+dom
 '
 ]
 idl_array
