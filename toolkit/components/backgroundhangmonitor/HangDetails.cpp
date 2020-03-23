@@ -3158,14 +3158,10 @@ break
 }
 default
 :
-MOZ_CRASH
+return
+Err
 (
-"
-Unsupported
-HangEntry
-type
-?
-"
+NS_ERROR_UNEXPECTED
 )
 ;
 }
