@@ -755,6 +755,10 @@ label
 .
 value
 "
+http
+:
+/
+/
 cryptomining
 .
 example

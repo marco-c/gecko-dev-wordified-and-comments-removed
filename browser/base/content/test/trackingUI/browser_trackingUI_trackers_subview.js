@@ -533,6 +533,10 @@ value
 =
 =
 "
+http
+:
+/
+/
 trackertest
 .
 org
@@ -617,6 +621,10 @@ value
 =
 =
 "
+https
+:
+/
+/
 itisatracker
 .
 org
