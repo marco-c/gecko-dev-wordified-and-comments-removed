@@ -2160,11 +2160,12 @@ aRep
 {
 MOZ_ASSERT
 (
+JSREPORT_IS_WARNING
+(
 aRep
 -
 >
-isWarning
-(
+flags
 )
 )
 ;
