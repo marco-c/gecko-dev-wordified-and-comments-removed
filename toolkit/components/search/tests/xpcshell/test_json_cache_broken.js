@@ -86,11 +86,9 @@ enginesCache
 {
 version
 :
-gModernConfig
-?
-5
-:
-3
+SearchUtils
+.
+CACHE_VERSION
 buildID
 :
 "
