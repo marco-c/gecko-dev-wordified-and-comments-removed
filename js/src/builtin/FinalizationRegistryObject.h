@@ -272,6 +272,11 @@ HandleFinalizationRecordObject
 record
 )
 ;
+void
+sweep
+(
+)
+;
 private
 :
 static
@@ -416,6 +421,11 @@ setCleanupJobActive
 (
 bool
 value
+)
+;
+void
+sweep
+(
 )
 ;
 static

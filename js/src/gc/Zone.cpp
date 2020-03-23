@@ -942,6 +942,11 @@ nurseryShapes_
 (
 this
 )
+finalizationRegistries_
+(
+this
+this
+)
 finalizationRecordMap_
 (
 this
