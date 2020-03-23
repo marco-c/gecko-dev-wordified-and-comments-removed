@@ -14,7 +14,10 @@ export
 "
 mem
 "
+(
 memory
+0
+)
 )
 (
 func
