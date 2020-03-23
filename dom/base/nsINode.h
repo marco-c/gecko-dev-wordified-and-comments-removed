@@ -3879,7 +3879,7 @@ IsRootOfChromeAccessOnlySubtree
 const
 ;
 bool
-IsSelectionDescendant
+IsMaybeSelected
 (
 )
 const
