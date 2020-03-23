@@ -24,12 +24,6 @@ h
 namespace
 mozilla
 {
-using
-media
-:
-:
-TimeUnit
-;
 RemoteDecoderParent
 :
 :

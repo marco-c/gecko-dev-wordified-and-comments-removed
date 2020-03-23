@@ -31,12 +31,6 @@ h
 namespace
 mozilla
 {
-using
-base
-:
-:
-Thread
-;
 RemoteMediaDataDecoder
 :
 :

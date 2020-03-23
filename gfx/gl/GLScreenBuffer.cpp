@@ -197,12 +197,6 @@ mozilla
 :
 gl
 {
-using
-gfx
-:
-:
-SurfaceFormat
-;
 UniquePtr
 <
 GLScreenBuffer

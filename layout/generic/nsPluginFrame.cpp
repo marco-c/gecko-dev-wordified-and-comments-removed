@@ -353,12 +353,6 @@ X11Util
 .
 h
 "
-using
-mozilla
-:
-:
-DefaultXDisplay
-;
 #
 endif
 #

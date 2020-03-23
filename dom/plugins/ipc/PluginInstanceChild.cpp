@@ -234,15 +234,6 @@ namespace
 mozilla
 ;
 using
-mozilla
-:
-:
-ipc
-:
-:
-ProcessChild
-;
-using
 namespace
 mozilla
 :

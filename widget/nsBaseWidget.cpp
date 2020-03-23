@@ -767,12 +767,6 @@ using
 namespace
 mozilla
 ;
-using
-base
-:
-:
-Thread
-;
 #
 define
 TOUCH_INJECT_PUMP_TIMER_MSEC

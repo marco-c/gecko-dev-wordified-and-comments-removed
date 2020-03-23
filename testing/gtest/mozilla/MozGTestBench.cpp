@@ -41,12 +41,6 @@ platform_microbench
 define
 MOZ_GTEST_NUM_ITERATIONS
 5
-using
-mozilla
-:
-:
-TimeStamp
-;
 namespace
 mozilla
 {

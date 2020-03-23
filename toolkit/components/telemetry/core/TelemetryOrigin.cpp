@@ -151,12 +151,6 @@ using
 mozilla
 :
 :
-ErrorResult
-;
-using
-mozilla
-:
-:
 Get
 ;
 using

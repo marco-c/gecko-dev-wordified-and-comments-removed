@@ -137,12 +137,6 @@ using
 mozilla
 :
 :
-Preferences
-;
-using
-mozilla
-:
-:
 StaticAutoPtr
 ;
 using

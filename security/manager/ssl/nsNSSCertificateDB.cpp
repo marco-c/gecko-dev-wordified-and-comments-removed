@@ -310,15 +310,6 @@ mozilla
 :
 psm
 ;
-using
-mozilla
-:
-:
-psm
-:
-:
-SharedSSLState
-;
 extern
 LazyLogModule
 gPIPNSSLog
