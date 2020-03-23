@@ -17,6 +17,17 @@ include
 "
 mozilla
 /
+dom
+/
+DOMTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h

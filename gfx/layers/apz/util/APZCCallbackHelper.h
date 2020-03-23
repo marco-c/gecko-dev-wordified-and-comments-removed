@@ -34,6 +34,17 @@ mozilla
 /
 layers
 /
+APZTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 APZUtils
 .
 h

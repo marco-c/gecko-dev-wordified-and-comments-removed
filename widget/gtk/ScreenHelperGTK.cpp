@@ -61,6 +61,17 @@ include
 "
 mozilla
 /
+dom
+/
+DOMTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Logging
 .
 h

@@ -115,6 +115,14 @@ dom
 class
 ServiceWorkerRegistrationData
 ;
+}
+}
+namespace
+mozilla
+:
+:
+dom
+{
 class
 ServiceWorkerRegistrar
 :
@@ -359,7 +367,6 @@ mRunnableDispatched
 ;
 }
 ;
-}
 }
 #
 endif

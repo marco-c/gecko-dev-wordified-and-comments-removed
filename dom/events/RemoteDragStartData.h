@@ -34,6 +34,17 @@ include
 "
 mozilla
 /
+dom
+/
+DOMTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 DataSurfaceHelpers
