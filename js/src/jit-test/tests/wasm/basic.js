@@ -6298,7 +6298,10 @@ func
 select
 (
 if
+(
+result
 i32
+)
 (
 i32
 .
