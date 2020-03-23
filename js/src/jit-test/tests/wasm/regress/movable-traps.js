@@ -70,7 +70,10 @@ i32
 )
 loop
 top
+(
+result
 i32
+)
 local
 .
 get
