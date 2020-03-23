@@ -1217,7 +1217,7 @@ TextureFilter
 :
 :
 Linear
-16
+4
 )
 array_color8_nearest
 :
@@ -2935,7 +2935,7 @@ max_texture_layers
 .
 min
 (
-16
+32
 )
 ;
 let
