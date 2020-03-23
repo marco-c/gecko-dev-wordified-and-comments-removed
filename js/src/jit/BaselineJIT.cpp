@@ -3796,15 +3796,14 @@ pcOffset
 }
 MOZ_ASSERT
 (
+!
 retAddrEntries
 (
 )
 .
-size
+empty
 (
 )
->
-0
 )
 ;
 const
