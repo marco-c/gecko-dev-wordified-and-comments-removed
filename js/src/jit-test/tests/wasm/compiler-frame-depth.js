@@ -45,11 +45,11 @@ module
 (
 func
 (
-result
+param
 f32
 )
 (
-param
+result
 f32
 )
 {

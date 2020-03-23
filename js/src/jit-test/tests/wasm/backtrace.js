@@ -5,13 +5,16 @@ code
 module
 (
 import
-i
 "
 env
 "
 "
 test
 "
+(
+func
+i
+)
 )
 (
 func
