@@ -1709,6 +1709,14 @@ URI_DISALLOW_IN_PRIVATE_CONTEXT
 ;
 }
 }
+else
+{
+flags
+|
+=
+URI_DANGEROUS_TO_LOAD
+;
+}
 *
 aFlags
 =

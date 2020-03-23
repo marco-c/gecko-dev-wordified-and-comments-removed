@@ -145,6 +145,15 @@ nsIChannel
 aChannel
 )
 ;
+static
+nsresult
+CheckChannelHasProtocolSecurityFlag
+(
+nsIChannel
+*
+aChannel
+)
+;
 virtual
 ~
 nsContentSecurityManager
