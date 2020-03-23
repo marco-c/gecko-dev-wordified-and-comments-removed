@@ -278,6 +278,14 @@ MediaStreamTrack
 selector
 )
 ;
+sequence
+<
+MediaStream
+>
+getRemoteStreams
+(
+)
+;
 /
 *
 Adds
