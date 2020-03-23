@@ -525,6 +525,10 @@ RTCOutboundRtpStreamStats
 :
 RTCSentRtpStreamStats
 {
+unsigned
+long
+rtxSsrc
+;
 DOMString
 trackId
 ;
