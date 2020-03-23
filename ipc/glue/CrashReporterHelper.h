@@ -16,17 +16,6 @@ include
 "
 mozilla
 /
-ipc
-/
-Shmem
-.
-h
-"
-#
-include
-"
-mozilla
-/
 UniquePtr
 .
 h
@@ -74,10 +63,6 @@ nullptr
 IPCResult
 RecvInitCrashReporter
 (
-Shmem
-&
-&
-aShmem
 const
 CrashReporter
 :
@@ -98,7 +83,6 @@ CrashReporterHost
 >
 (
 PT
-aShmem
 aThreadId
 )
 ;
