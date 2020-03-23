@@ -68,7 +68,14 @@ await
 initNetMonitor
 (
 STATUS_CODES_URL
+{
+enableCache
+:
 true
+requestCount
+:
+1
+}
 )
 ;
 info

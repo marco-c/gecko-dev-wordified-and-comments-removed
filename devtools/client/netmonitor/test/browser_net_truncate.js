@@ -58,6 +58,11 @@ await
 initNetMonitor
 (
 URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

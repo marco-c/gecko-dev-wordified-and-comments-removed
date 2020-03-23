@@ -42,6 +42,11 @@ await
 initNetMonitor
 (
 JSON_B64_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

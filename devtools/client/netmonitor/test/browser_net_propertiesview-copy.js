@@ -27,6 +27,11 @@ name
 =
 nogrip
 "
+{
+requestCount
+:
+1
+}
 )
 ;
 info
@@ -388,6 +393,11 @@ await
 initNetMonitor
 (
 SIMPLE_UNSORTED_COOKIES_SJS
+{
+requestCount
+:
+1
+}
 )
 ;
 info

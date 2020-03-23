@@ -25,7 +25,14 @@ await
 initNetMonitor
 (
 INFINITE_GET_URL
+{
+enableCache
+:
 true
+requestCount
+:
+1
+}
 )
 ;
 const

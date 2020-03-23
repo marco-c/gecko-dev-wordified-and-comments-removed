@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 SIMPLE_UNSORTED_COOKIES_SJS
+{
+requestCount
+:
+1
+}
 )
 ;
 info

@@ -23,7 +23,14 @@ about
 :
 config
 "
+{
+enableCache
+:
 true
+requestCount
+:
+1
+}
 )
 ;
 ok

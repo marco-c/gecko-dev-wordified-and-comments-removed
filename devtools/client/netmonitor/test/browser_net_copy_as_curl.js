@@ -31,6 +31,11 @@ await
 initNetMonitor
 (
 CURL_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

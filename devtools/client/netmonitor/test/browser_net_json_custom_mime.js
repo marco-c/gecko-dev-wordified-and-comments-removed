@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 JSON_CUSTOM_MIME_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

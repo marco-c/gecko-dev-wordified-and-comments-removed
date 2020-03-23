@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 OPEN_REQUEST_IN_TAB_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info
@@ -452,6 +457,11 @@ await
 initNetMonitor
 (
 OPEN_REQUEST_IN_TAB_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

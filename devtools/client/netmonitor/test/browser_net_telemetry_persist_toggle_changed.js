@@ -43,6 +43,11 @@ await
 initNetMonitor
 (
 SINGLE_GET_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

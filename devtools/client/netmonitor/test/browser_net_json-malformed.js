@@ -42,6 +42,11 @@ await
 initNetMonitor
 (
 JSON_MALFORMED_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

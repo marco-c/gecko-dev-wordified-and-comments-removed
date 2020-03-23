@@ -98,6 +98,11 @@ await
 initNetMonitor
 (
 TEST_URI
+{
+requestCount
+:
+1
+}
 )
 ;
 info

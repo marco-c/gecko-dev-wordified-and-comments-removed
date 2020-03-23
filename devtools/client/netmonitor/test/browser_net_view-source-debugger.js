@@ -84,6 +84,11 @@ await
 initNetMonitor
 (
 POST_DATA_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

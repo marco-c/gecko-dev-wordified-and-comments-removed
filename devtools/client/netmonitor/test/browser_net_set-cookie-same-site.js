@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 SET_COOKIE_SAME_SITE_SJS
+{
+requestCount
+:
+1
+}
 )
 ;
 info

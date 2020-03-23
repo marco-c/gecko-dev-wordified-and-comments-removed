@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 PAUSE_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

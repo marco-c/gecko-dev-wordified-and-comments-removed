@@ -42,6 +42,11 @@ await
 initNetMonitor
 (
 JSONP_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

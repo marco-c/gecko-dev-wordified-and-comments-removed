@@ -42,6 +42,11 @@ await
 initNetMonitor
 (
 STATUS_CODES_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

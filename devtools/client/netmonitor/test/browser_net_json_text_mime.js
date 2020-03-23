@@ -42,6 +42,11 @@ await
 initNetMonitor
 (
 JSON_TEXT_MIME_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

@@ -32,6 +32,11 @@ page
 .
 html
 "
+{
+requestCount
+:
+1
+}
 )
 ;
 info

@@ -19,6 +19,11 @@ await
 initNetMonitor
 (
 STATISTICS_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 info

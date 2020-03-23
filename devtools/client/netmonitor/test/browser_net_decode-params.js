@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 POST_RAW_URL_WITH_HASH
+{
+requestCount
+:
+1
+}
 )
 ;
 info

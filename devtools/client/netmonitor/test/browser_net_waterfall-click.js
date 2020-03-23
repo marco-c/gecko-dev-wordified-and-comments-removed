@@ -20,6 +20,11 @@ await
 initNetMonitor
 (
 CONTENT_TYPE_WITHOUT_CACHE_URL
+{
+requestCount
+:
+1
+}
 )
 ;
 const
