@@ -497,8 +497,6 @@ mRv
 nsCString
 mSignature
 ;
-private
-:
 SignRunnable
 (
 const
