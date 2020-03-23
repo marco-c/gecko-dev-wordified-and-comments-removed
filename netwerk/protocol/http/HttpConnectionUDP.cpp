@@ -2422,6 +2422,11 @@ mDontReuse
 =
 true
 ;
+if
+(
+mHttp3Session
+)
+{
 mHttp3Session
 -
 >
@@ -2451,6 +2456,7 @@ IsClosed
 {
 return
 ;
+}
 }
 mHttp3Session
 =
