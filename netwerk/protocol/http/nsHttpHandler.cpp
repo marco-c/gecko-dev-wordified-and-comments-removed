@@ -340,11 +340,13 @@ h
 #
 include
 "
-mozilla
+rust
+-
+helper
 /
-net
+src
 /
-rust_helper
+helper
 .
 h
 "
