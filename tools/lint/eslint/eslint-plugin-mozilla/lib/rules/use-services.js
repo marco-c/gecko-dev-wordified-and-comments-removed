@@ -515,11 +515,14 @@ utf8
 )
 ;
 let
+{
 ast
+visitorKeys
+}
 =
 helpers
 .
-getAST
+parseCode
 (
 content
 )
@@ -529,6 +532,7 @@ helpers
 walkAST
 (
 ast
+visitorKeys
 (
 type
 node

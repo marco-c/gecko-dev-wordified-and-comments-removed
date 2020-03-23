@@ -57,6 +57,19 @@ devDependencies
 "
 babel
 /
+core
+"
+:
+"
+7
+.
+8
+.
+3
+"
+"
+babel
+/
 plugin
 -
 syntax
@@ -69,7 +82,6 @@ operator
 "
 :
 "
-^
 7
 .
 8
@@ -89,7 +101,6 @@ chaining
 "
 :
 "
-^
 7
 .
 8
