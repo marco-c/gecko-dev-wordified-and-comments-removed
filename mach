@@ -210,7 +210,6 @@ mozbuild
 -
 reference
 mozharness
-mozregression
 package
 package
 -
