@@ -4484,11 +4484,10 @@ T
 using
 MaybeWrapped
 =
-typename
-mozilla
+std
 :
 :
-Conditional
+conditional_t
 <
 MapTypeToRootKind
 <
@@ -4515,9 +4514,6 @@ T
 >
 T
 >
-:
-:
-Type
 ;
 struct
 FallbackOverload
