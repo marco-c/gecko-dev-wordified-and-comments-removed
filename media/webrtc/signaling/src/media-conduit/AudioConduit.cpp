@@ -1620,9 +1620,6 @@ WebrtcAudioConduit
 :
 GetRtpSources
 (
-const
-int64_t
-aTimeNow
 nsTArray
 <
 dom
@@ -1646,7 +1643,6 @@ mRtpSourceObserver
 .
 GetRtpSources
 (
-aTimeNow
 outSources
 )
 ;

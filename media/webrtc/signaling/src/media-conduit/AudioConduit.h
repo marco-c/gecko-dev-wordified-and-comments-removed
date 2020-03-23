@@ -509,6 +509,15 @@ WebrtcAudioConduit
 mMutex
 "
 )
+mRtpSourceObserver
+(
+mCall
+-
+>
+GetTimestampMaker
+(
+)
+)
 mStsThread
 (
 aStsThread
@@ -761,9 +770,6 @@ override
 void
 GetRtpSources
 (
-const
-int64_t
-aTimeNow
 nsTArray
 <
 dom
