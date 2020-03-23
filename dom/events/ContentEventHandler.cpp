@@ -15017,7 +15017,10 @@ StealNSResult
 ;
 }
 }
+MOZ_KnownLive
+(
 mSelection
+)
 -
 >
 ScrollIntoView

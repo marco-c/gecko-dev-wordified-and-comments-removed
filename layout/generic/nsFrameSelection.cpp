@@ -2953,6 +2953,7 @@ desiredPos
 0
 )
 ;
+const
 int8_t
 index
 =
@@ -2964,6 +2965,7 @@ SelectionType
 eNormal
 )
 ;
+const
 RefPtr
 <
 Selection
@@ -2980,9 +2982,11 @@ if
 !
 sel
 )
+{
 return
 NS_ERROR_NULL_POINTER
 ;
+}
 int32_t
 scrollFlags
 =
@@ -3865,10 +3869,7 @@ result
 {
 result
 =
-mDomSelections
-[
-index
-]
+sel
 -
 >
 ScrollIntoView
