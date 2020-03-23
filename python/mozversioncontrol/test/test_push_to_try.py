@@ -286,6 +286,19 @@ monkeypatch
 )
 :
     
+if
+repo
+.
+vcs
+!
+=
+'
+git
+'
+:
+        
+return
+    
 vcs
 =
 get_repository_object
