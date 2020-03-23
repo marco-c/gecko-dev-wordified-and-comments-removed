@@ -60,7 +60,7 @@ RuleRewriter
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

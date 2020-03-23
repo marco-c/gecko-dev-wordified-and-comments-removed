@@ -132,7 +132,7 @@ initCssProperties
 "
 devtools
 /
-shared
+client
 /
 fronts
 /

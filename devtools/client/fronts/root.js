@@ -79,7 +79,7 @@ TabDescriptorFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
@@ -101,7 +101,7 @@ BrowsingContextTargetFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
@@ -125,7 +125,7 @@ LocalTabTargetFront
 "
 devtools
 /
-shared
+client
 /
 fronts
 /
