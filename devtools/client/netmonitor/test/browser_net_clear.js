@@ -100,11 +100,12 @@ assertNoRequestState
 )
 ;
 let
-onMonitorUpdated
+wait
 =
-waitForAllRequestsFinished
+waitForNetworkEvents
 (
 monitor
+1
 )
 ;
 tab
@@ -116,7 +117,7 @@ reload
 )
 ;
 await
-onMonitorUpdated
+wait
 ;
 assertSingleRequestState
 (
@@ -140,11 +141,12 @@ assertNoRequestState
 (
 )
 ;
-onMonitorUpdated
+wait
 =
-waitForAllRequestsFinished
+waitForNetworkEvents
 (
 monitor
+1
 )
 ;
 tab
@@ -156,7 +158,7 @@ reload
 )
 ;
 await
-onMonitorUpdated
+wait
 ;
 assertSingleRequestState
 (
