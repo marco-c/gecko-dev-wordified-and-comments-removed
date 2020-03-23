@@ -177,6 +177,15 @@ include
 "
 vm
 /
+SharedStencil
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 -
 inl
