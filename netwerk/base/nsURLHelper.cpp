@@ -110,13 +110,11 @@ h
 #
 include
 "
-rust
--
-helper
+mozilla
 /
-src
+net
 /
-helper
+rust_helper
 .
 h
 "
@@ -2249,6 +2247,7 @@ scheme
 return
 rust_net_is_valid_scheme
 (
+&
 scheme
 )
 ;
@@ -4573,6 +4572,7 @@ aAddr
 return
 rust_net_is_valid_ipv4_addr
 (
+&
 aAddr
 )
 ;
@@ -4589,6 +4589,7 @@ aAddr
 return
 rust_net_is_valid_ipv6_addr
 (
+&
 aAddr
 )
 ;
