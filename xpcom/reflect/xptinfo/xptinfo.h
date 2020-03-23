@@ -2236,7 +2236,7 @@ public
 nsTArray_base
 <
 nsTArrayFallibleAllocator
-nsTArray_CopyWithMemutils
+nsTArray_RelocateUsingMemutils
 >
 {
 public

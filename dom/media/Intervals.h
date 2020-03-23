@@ -38,7 +38,7 @@ class
 E
 >
 struct
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 mozilla
 :
@@ -53,7 +53,7 @@ E
 >
 {
 typedef
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 mozilla
 :

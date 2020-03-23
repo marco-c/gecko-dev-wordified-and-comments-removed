@@ -13815,7 +13815,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VLocale
 intl
 mozilla
@@ -35359,7 +35359,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -41126,9 +41126,9 @@ mozilla
 QEAA_NAEAI
 Z
 ?
-MoveNonOverlappingRegion
+RelocateNonOverlappingRegion
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -94632,7 +94632,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UnsStyleFilter
 IEAA
 XZ
@@ -101833,7 +101833,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 function
@@ -122393,7 +122393,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UnsStyleFilter
 IEAA
 ?
@@ -122409,7 +122409,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UnsStyleFilter
 IEAA
 ?
@@ -175505,7 +175505,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAA
@@ -177398,7 +177398,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAA
@@ -177962,7 +177962,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAA
@@ -177980,7 +177980,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAA_N_K
@@ -178000,7 +178000,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAAX_K0
@@ -179415,9 +179415,9 @@ _K
 QEAU12
 Z
 ?
-MoveNonOverlappingRegion
+RelocateNonOverlappingRegion
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 SAXPEAX0_K1
@@ -181157,7 +181157,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VPaintedLayerData
 mozilla
 IEAA
@@ -181174,7 +181174,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VPaintedLayerData
 mozilla
 IEAA
@@ -181932,9 +181932,9 @@ mozilla
 QEBA_NAEBUnsRectAbsolute
 Z
 ?
-MoveOverlappingRegion
+RelocateOverlappingRegion
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 SAXPEAX0_K1
@@ -183069,7 +183069,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VPaintedLayerData
 mozilla
 IEAAX_K0
@@ -183112,7 +183112,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VPaintedLayerData
 mozilla
 IEAA
@@ -188142,7 +188142,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UBand
 regiondetails
 IEAA
@@ -220656,7 +220656,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 function
@@ -246727,7 +246727,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VSerializedStructuredCloneReadInfo
 indexedDB
 dom
@@ -246744,7 +246744,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VSerializedStructuredCloneReadInfo
 indexedDB
 dom
@@ -246764,7 +246764,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VSerializedStructuredCloneReadInfo
 indexedDB
 dom
@@ -246791,7 +246791,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VSerializedStructuredCloneReadInfo
 indexedDB
 dom
@@ -246968,7 +246968,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 UStructuredCloneReadInfo
 indexedDB
 dom
@@ -247119,7 +247119,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 VSerializedStructuredCloneReadInfo
 indexedDB
 dom
@@ -254319,7 +254319,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254343,7 +254343,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254361,7 +254361,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254383,7 +254383,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254407,7 +254407,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254471,7 +254471,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254506,7 +254506,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 AutoTArray
@@ -254734,7 +254734,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -254755,7 +254755,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -254855,7 +254855,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -254874,7 +254874,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap
@@ -254896,7 +254896,7 @@ nsTArray_base
 UnsTArrayInfallibleAllocator
 U
 ?
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 V
 ?
 Heap

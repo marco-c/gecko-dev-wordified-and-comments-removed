@@ -169,7 +169,7 @@ template
 <
 >
 struct
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 regiondetails
 :
@@ -178,7 +178,7 @@ Band
 >
 {
 typedef
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 regiondetails
 :

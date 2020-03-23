@@ -5455,14 +5455,14 @@ mozilla
 :
 IsSame
 <
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 IntIntervals
 >
 :
 :
 Type
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 IntIntervals
 >
@@ -5485,7 +5485,7 @@ mozilla
 :
 IsSame
 <
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 media
 :
@@ -5495,7 +5495,7 @@ TimeIntervals
 :
 :
 Type
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 media
 :

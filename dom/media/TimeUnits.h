@@ -62,7 +62,7 @@ template
 <
 >
 struct
-nsTArray_CopyChooser
+nsTArray_RelocationStrategy
 <
 mozilla
 :
@@ -74,7 +74,7 @@ TimeIntervals
 >
 {
 typedef
-nsTArray_CopyWithConstructors
+nsTArray_RelocateUsingMoveConstructor
 <
 mozilla
 :
