@@ -3203,9 +3203,6 @@ dest
 Label
 *
 onOver
-Label
-*
-onZero
 )
 DEFINED_ON
 (
