@@ -2933,10 +2933,9 @@ this
 window
 .
 gKeywordURIFixup
+.
+check
 (
-{
-target
-:
 this
 .
 window
@@ -2944,10 +2943,7 @@ window
 gBrowser
 .
 selectedBrowser
-data
-:
 fixupInfo
-}
 )
 ;
 }
