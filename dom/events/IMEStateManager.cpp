@@ -6212,6 +6212,7 @@ nsIFocusManager
 :
 MOVEFOCUS_FORWARD
 true
+false
 getter_AddRefs
 (
 nextContent

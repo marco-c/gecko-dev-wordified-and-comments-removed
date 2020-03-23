@@ -537,6 +537,8 @@ int32_t
 aType
 bool
 aNoParentTraversal
+bool
+aNavigateByKey
 nsIContent
 *
 *
@@ -1174,6 +1176,8 @@ aIgnoreTabIndex
 bool
 aForDocumentNavigation
 bool
+aNavigateByKey
+bool
 aSkipOwner
 )
 ;
@@ -1200,6 +1204,8 @@ bool
 aIgnoreTabIndex
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 )
 ;
 nsresult
@@ -1228,6 +1234,8 @@ bool
 aIgnoreTabIndex
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 nsIContent
 *
 *
@@ -1397,6 +1405,8 @@ bool
 aForward
 bool
 aForDocumentNavigation
+bool
+aNavigateByKey
 nsIContent
 *
 *
