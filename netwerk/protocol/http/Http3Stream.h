@@ -317,6 +317,9 @@ nsISocketTransport
 >
 mSocketTransport
 ;
+bool
+mActivatingFailed
+;
 uint64_t
 mTotalSent
 ;
