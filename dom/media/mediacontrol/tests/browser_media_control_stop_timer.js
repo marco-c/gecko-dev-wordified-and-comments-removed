@@ -233,9 +233,6 @@ PIP
 mode
 )
 ;
-let
-pipWin
-=
 await
 triggerPictureInPicture
 (
