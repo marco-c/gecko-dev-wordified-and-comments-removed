@@ -123,6 +123,7 @@ aInputElement
 ;
 class
 NumberInputType
+final
 :
 public
 NumericInputTypeBase
@@ -183,6 +184,18 @@ nsAString
 &
 aMessage
 )
+override
+;
+bool
+ConvertNumberToString
+(
+Decimal
+aValue
+nsAString
+&
+aResultString
+)
+const
 override
 ;
 protected
