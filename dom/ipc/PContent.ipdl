@@ -2896,6 +2896,8 @@ PRemoteSpellcheckEngine
 async
 InitCrashReporter
 (
+Shmem
+shmem
 NativeThreadId
 tid
 )
