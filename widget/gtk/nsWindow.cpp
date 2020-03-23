@@ -17119,15 +17119,7 @@ return
 }
 if
 (
-gtk_check_version
-(
-3
-24
-0
-)
-!
-=
-nullptr
+mIsX11Display
 )
 {
 if
