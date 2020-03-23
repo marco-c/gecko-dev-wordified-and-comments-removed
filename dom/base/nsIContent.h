@@ -1391,6 +1391,7 @@ bool
 HasIndependentSelection
 (
 )
+const
 ;
 mozilla
 :
