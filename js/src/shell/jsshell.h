@@ -502,6 +502,15 @@ enableWasmGc
 ;
 #
 endif
+#
+ifdef
+ENABLE_WASM_MULTI_VALUE
+extern
+bool
+enableWasmMultiValue
+;
+#
+endif
 extern
 bool
 enableWasmVerbose

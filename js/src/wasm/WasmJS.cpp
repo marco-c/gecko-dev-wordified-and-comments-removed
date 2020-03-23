@@ -363,7 +363,16 @@ cx
 ifdef
 ENABLE_WASM_MULTI_VALUE
 return
-true
+cx
+-
+>
+options
+(
+)
+.
+wasmMultiValue
+(
+)
 ;
 #
 else
