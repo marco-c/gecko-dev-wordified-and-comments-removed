@@ -3228,8 +3228,11 @@ return
 }
 provider
 .
-pickResult
+tryMethod
 (
+"
+pickResult
+"
 result
 )
 ;
