@@ -130,8 +130,8 @@ public
 nsString
 mLine
 ;
-uint32_t
-mFlags
+bool
+mIsWarning
 ;
 JSExnType
 mExnType

@@ -3335,12 +3335,11 @@ aReport
 ;
 MOZ_ASSERT
 (
-JSREPORT_IS_WARNING
-(
 aReport
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
