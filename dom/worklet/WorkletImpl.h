@@ -178,6 +178,15 @@ NotifyWorkletFinished
 (
 )
 ;
+virtual
+nsContentPolicyType
+ContentPolicyType
+(
+)
+const
+=
+0
+;
 dom
 :
 :

@@ -140,6 +140,9 @@ Promise
 >
 AddModule
 (
+JSContext
+*
+aCx
 const
 nsAString
 &
