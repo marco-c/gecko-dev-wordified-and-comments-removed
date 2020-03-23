@@ -192,6 +192,15 @@ error
 patch
 "
 "
+tsan
+-
+hang
+-
+be41a98ac222
+.
+patch
+"
+"
 loosen
 -
 msvc
