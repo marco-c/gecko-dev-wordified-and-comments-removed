@@ -84358,6 +84358,9 @@ CORS_origin
 "
 cross_origin
 "
+"
+worklet_load
+"
 ]
 "
 description
