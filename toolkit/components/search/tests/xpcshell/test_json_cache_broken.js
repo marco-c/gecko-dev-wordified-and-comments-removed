@@ -482,9 +482,6 @@ UTF
 -
 8
 "
-_readOnly
-:
-false
 filePath
 :
 "

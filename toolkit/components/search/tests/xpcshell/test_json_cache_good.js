@@ -199,9 +199,6 @@ engines
 :
 [
 {
-_readOnly
-:
-true
 _urls
 :
 [
@@ -390,9 +387,6 @@ org
 "
 }
 {
-_readOnly
-:
-true
 _urls
 :
 [
