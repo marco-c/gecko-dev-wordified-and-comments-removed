@@ -20770,8 +20770,6 @@ false
 MOZ_ASSERT
 (
 !
-JSREPORT_IS_WARNING
-(
 report
 .
 report
@@ -20779,7 +20777,8 @@ report
 )
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
@@ -56139,8 +56138,6 @@ return
 MOZ_ASSERT
 (
 !
-JSREPORT_IS_WARNING
-(
 report
 .
 report
@@ -56148,7 +56145,8 @@ report
 )
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
@@ -56310,16 +56308,10 @@ ErrorFilePointer
 MOZ_ASSERT
 (
 report
-)
-;
-MOZ_ASSERT
-(
-JSREPORT_IS_WARNING
-(
-report
 -
 >
-flags
+isWarning
+(
 )
 )
 ;
