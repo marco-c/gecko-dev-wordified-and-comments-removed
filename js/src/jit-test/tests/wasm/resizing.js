@@ -1271,7 +1271,10 @@ const
 )
 (
 block
+(
+result
 i32
+)
 (
 call
 grow
@@ -1577,7 +1580,10 @@ const
 )
 (
 block
+(
+result
 i32
+)
 (
 call_indirect
 v2v
