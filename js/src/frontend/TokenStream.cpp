@@ -2151,10 +2151,10 @@ maxPtr
 {
 static_assert
 (
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 decltype
 (
@@ -2167,9 +2167,6 @@ allocPolicy
 TempAllocPolicy
 &
 >
-:
-:
-value
 "
 this
 function
