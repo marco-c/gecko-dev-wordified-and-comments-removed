@@ -1,0 +1,9 @@
+(
+module
+(
+func
+atomic
+.
+fence
+)
+)
