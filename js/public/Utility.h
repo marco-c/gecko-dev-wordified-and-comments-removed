@@ -2573,11 +2573,10 @@ DeletePolicy
 U
 >
 other
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 std
 :
@@ -2591,9 +2590,6 @@ T
 >
 int
 >
-:
-:
-Type
 dummy
 =
 0

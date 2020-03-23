@@ -243,11 +243,10 @@ NonConstO
 Type
 typename
 =
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 std
 :
@@ -257,12 +256,7 @@ is_same_v
 DerefO
 Options
 >
-void
-*
 >
-:
-:
-Type
 >
 explicit
 Thread
