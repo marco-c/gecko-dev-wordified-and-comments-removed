@@ -1739,8 +1739,11 @@ ignoreShowLimits
 ;
 if
 (
+(
+await
 isBrowserShowingNotification
 (
+)
 )
 &
 &
@@ -1992,6 +1995,7 @@ SHOW_TIP_DELAY_MS
 ;
 }
 }
+async
 function
 isBrowserShowingNotification
 (
@@ -2235,6 +2239,7 @@ true
 const
 willPrompt
 =
+await
 DefaultBrowserCheck
 .
 willCheckDefaultBrowser
