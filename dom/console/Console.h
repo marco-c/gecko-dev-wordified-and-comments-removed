@@ -1023,6 +1023,7 @@ ConsoleCallData
 aData
 )
 ;
+static
 bool
 PopulateConsoleNotificationInTheTargetScope
 (
@@ -1058,7 +1059,7 @@ JS
 :
 Value
 >
-aValue
+aEventValue
 ConsoleCallData
 *
 aData
