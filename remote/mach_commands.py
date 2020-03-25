@@ -26,6 +26,10 @@ shutil
 import
 subprocess
 from
+collections
+import
+OrderedDict
+from
 six
 import
 iteritems
@@ -1203,8 +1207,9 @@ self
 .
 test_results
 =
-{
-}
+OrderedDict
+(
+)
         
 self
 .
@@ -1490,8 +1495,9 @@ self
         
 new_expected
 =
-{
-}
+OrderedDict
+(
+)
         
 for
 test_name
@@ -1514,10 +1520,7 @@ self
 expected
 :
                 
-new_expected
-[
-test_name
-]
+new_status
 =
 [
 status
@@ -1537,10 +1540,7 @@ test_name
 ]
 :
                     
-new_expected
-[
-test_name
-]
+new_status
 =
 self
 .
@@ -1552,14 +1552,18 @@ test_name
 else
 :
                     
+new_status
+=
+[
+status
+]
+            
 new_expected
 [
 test_name
 ]
 =
-[
-status
-]
+new_status
         
 return
 new_expected
@@ -2466,6 +2470,16 @@ f
 indent
 =
 2
+                          
+separators
+=
+(
+"
+"
+"
+:
+"
+)
 )
         
 if
