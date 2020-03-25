@@ -233,6 +233,7 @@ self
 .
 config
 *
+*
 res
 )
 )
