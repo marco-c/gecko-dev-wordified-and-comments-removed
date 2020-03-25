@@ -58,12 +58,6 @@ mozinfo
 import
 write_mozinfo
 from
-mozbuild
-.
-util
-import
-FileAvoidWrite
-from
 itertools
 import
 chain
@@ -77,6 +71,17 @@ import
 backends
     
 get_backend_class
+)
+from
+mozbuild
+.
+util
+import
+(
+    
+FileAvoidWrite
+    
+process_time
 )
 log_manager
 =
@@ -851,9 +856,7 @@ environ
     
 cpu_start
 =
-time
-.
-clock
+process_time
 (
 )
     
@@ -1076,9 +1079,7 @@ stderr
     
 cpu_time
 =
-time
-.
-clock
+process_time
 (
 )
 -
