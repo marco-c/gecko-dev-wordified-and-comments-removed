@@ -32532,7 +32532,7 @@ NS_ASSERTION
 capturingContent
 -
 >
-GetComposedDoc
+OwnerDoc
 (
 )
 =
@@ -35468,7 +35468,7 @@ NS_ASSERTION
 aCapturingContent
 -
 >
-GetComposedDoc
+OwnerDoc
 (
 )
 =
