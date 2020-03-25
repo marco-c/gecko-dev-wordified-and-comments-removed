@@ -5808,7 +5808,7 @@ aContent
 nsRect
 *
 aResult
-RelativeTo
+DisplayportRelativeTo
 aRelativeTo
 bool
 *
@@ -5866,7 +5866,7 @@ usingDisplayPort
 aRelativeTo
 =
 =
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollFrame
@@ -6056,7 +6056,7 @@ aContent
 nsRect
 *
 aResult
-RelativeTo
+DisplayportRelativeTo
 aRelativeTo
 )
 {
@@ -6089,7 +6089,7 @@ usingDisplayPort
 aRelativeTo
 =
 =
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollFrame
@@ -7036,7 +7036,7 @@ GetDisplayPort
 (
 aContent
 aResult
-RelativeTo
+DisplayportRelativeTo
 :
 :
 ScrollPort
