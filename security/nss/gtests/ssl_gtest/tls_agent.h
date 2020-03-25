@@ -397,6 +397,14 @@ std
 string
 kDelegatorRsae2048
 ;
+static
+const
+std
+:
+:
+string
+kDelegatorRsaPss2048
+;
 TlsAgent
 (
 const

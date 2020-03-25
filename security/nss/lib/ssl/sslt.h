@@ -967,6 +967,9 @@ ssl_extended_master_secret_xtn
 ssl_record_size_limit_xtn
 =
 28
+ssl_delegated_credentials_xtn
+=
+34
 ssl_session_ticket_xtn
 =
 35
@@ -1006,9 +1009,6 @@ ssl_next_proto_nego_xtn
 ssl_renegotiation_info_xtn
 =
 0xff01
-ssl_delegated_credentials_xtn
-=
-0xff02
 ssl_tls13_short_header_xtn
 =
 0xff03

@@ -1494,7 +1494,7 @@ param_buf
 [
 sizeof
 (
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 )
 ]
 ;
@@ -1665,7 +1665,7 @@ len
 =
 sizeof
 (
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 )
 -
 1
@@ -1707,7 +1707,7 @@ len
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -1723,7 +1723,7 @@ param_buf
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -1739,7 +1739,7 @@ ulIvLen
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -1755,7 +1755,7 @@ nullptr
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (
@@ -1771,7 +1771,7 @@ ulAADLen
 ;
 reinterpret_cast
 <
-CK_GCM_PARAMS
+CK_NSS_GCM_PARAMS
 *
 >
 (

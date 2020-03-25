@@ -471,6 +471,10 @@ make_cert
 delegator_rsae2048
 delegator_rsae2048
 sign
+make_cert
+delegator_rsa_pss2048
+delegator_rsa_pss2048
+sign
 }
 #
 #
