@@ -1434,6 +1434,7 @@ HKCU
 "
 ClearErrors
 ReadRegDWORD
+0
 HKCU
 "
 Software
@@ -1452,7 +1453,6 @@ AppUserModelID
 "
 DidRegisterDefaultBrowserAgent
 "
-0
 {
 If
 }
