@@ -3273,8 +3273,6 @@ NS_LITERAL_CSTRING
 HTTP
 /
 2
-.
-0
 "
 )
 )

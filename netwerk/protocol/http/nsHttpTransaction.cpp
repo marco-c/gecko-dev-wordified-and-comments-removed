@@ -6410,8 +6410,6 @@ HTTP2Header
 HTTP
 /
 2
-.
-0
 "
 ;
 static
@@ -6437,8 +6435,6 @@ HTTP3Header
 HTTP
 /
 3
-.
-0
 "
 ;
 static
