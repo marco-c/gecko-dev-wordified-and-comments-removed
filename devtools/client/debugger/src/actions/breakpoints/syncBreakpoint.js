@@ -265,11 +265,11 @@ index
 null
 ;
 let
+{
 line
+}
 =
 location
-.
-line
 ;
 if
 (

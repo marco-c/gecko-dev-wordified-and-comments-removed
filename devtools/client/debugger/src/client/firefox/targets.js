@@ -218,11 +218,11 @@ threadActorID
 targetFront
 ;
 let
+{
 threadFront
+}
 =
 targetFront
-.
-threadFront
 ;
 if
 (

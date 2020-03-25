@@ -124,15 +124,15 @@ dbg
 )
 {
 const
+{
 events
+}
 =
 window
 .
 dbg
 .
 _telemetry
-.
-events
 ;
 if
 (

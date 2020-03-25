@@ -542,11 +542,11 @@ Source
 )
 {
 const
+{
 url
+}
 =
 source
-.
-url
 ;
 if
 (

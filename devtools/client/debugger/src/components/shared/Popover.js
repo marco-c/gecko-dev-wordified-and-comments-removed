@@ -1173,13 +1173,13 @@ this
 props
 ;
 const
+{
 coords
+}
 =
 this
 .
 state
-.
-coords
 ;
 const
 gap

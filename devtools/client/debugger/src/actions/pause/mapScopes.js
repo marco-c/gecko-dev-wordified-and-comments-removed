@@ -318,7 +318,9 @@ i
 )
 {
 const
+{
 expr
+}
 =
 originalVariables
 .
@@ -326,8 +328,6 @@ vars
 [
 i
 ]
-.
-expr
 ;
 const
 expression
@@ -401,7 +401,9 @@ i
 )
 {
 const
+{
 name
+}
 =
 originalVariables
 .
@@ -409,8 +411,6 @@ vars
 [
 i
 ]
-.
-name
 ;
 variables
 [

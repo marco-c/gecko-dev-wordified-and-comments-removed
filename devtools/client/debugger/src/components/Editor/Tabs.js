@@ -1363,13 +1363,13 @@ renderDropdown
 )
 {
 const
+{
 hiddenTabs
+}
 =
 this
 .
 state
-.
-hiddenTabs
 ;
 if
 (

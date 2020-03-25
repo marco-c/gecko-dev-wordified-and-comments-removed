@@ -883,13 +883,13 @@ null
 ;
 }
 const
+{
 watchpoint
+}
 =
 item
 .
 contents
-.
-watchpoint
 ;
 return
 (

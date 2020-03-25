@@ -109,15 +109,6 @@ str
 }
 else
 {
-const
-id
-=
-tree
-.
-contents
-.
-id
-;
 str
 +
 =
@@ -140,6 +131,10 @@ path
 source_id
 =
 {
+tree
+.
+contents
+.
 id
 }
 \

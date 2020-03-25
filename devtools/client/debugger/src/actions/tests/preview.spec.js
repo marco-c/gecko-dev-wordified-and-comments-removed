@@ -330,11 +330,11 @@ base
 )
 ;
 const
+{
 thread
+}
 =
 cx
-.
-thread
 ;
 const
 frames

@@ -36,11 +36,11 @@ prefsSchemaVersion
 11
 ;
 const
+{
 pref
+}
 =
 Services
-.
-pref
 ;
 if
 (
