@@ -151,7 +151,7 @@ let
 notification
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -347,7 +347,7 @@ await
 pageHideHappened
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -483,7 +483,7 @@ iframe
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -556,7 +556,7 @@ remove
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
