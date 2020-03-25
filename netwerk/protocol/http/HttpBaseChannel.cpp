@@ -9249,9 +9249,6 @@ if
 obs
 )
 {
-nsAutoString
-cookie
-;
 obs
 -
 >
