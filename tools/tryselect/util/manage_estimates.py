@@ -647,6 +647,15 @@ set
     
 if
 target_file
+and
+os
+.
+path
+.
+isfile
+(
+target_file
+)
 :
         
 with
