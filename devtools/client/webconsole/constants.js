@@ -724,6 +724,11 @@ TRACKING_PROTECTION_GROUP
 "
 trackingProtectionWarningGroup
 "
+COOKIE_SAMESITE_GROUP
+:
+"
+cookieSameSiteGroup
+"
 CORS_GROUP
 :
 "
