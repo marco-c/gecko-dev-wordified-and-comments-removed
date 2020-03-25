@@ -71,6 +71,13 @@ h
 #
 include
 "
+nsIScriptError
+.
+h
+"
+#
+include
+"
 nsIURI
 .
 h
@@ -4154,7 +4161,10 @@ EmptyString
 )
 0
 0
-JSREPORT_ERROR
+nsIScriptError
+:
+:
+errorFlag
 JSEXN_ERR
 )
 ;

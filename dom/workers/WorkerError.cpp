@@ -449,7 +449,10 @@ EmptyString
 )
 0
 0
-JSREPORT_ERROR
+nsIScriptError
+:
+:
+errorFlag
 JSEXN_ERR
 )
 ;
@@ -787,7 +790,10 @@ EmptyString
 )
 0
 0
-JSREPORT_ERROR
+nsIScriptError
+:
+:
+errorFlag
 JSEXN_ERR
 )
 ;
