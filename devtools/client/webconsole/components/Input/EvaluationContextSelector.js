@@ -384,7 +384,7 @@ item
 {
 thread
 .
-actor
+actorID
 }
 className
 :
@@ -437,6 +437,8 @@ onClick
 selectThread
 (
 thread
+.
+actorID
 )
 }
 )
@@ -893,7 +895,7 @@ dispatch
 {
 selectThread
 :
-thread
+threadActorID
 =
 >
 dispatch
@@ -902,7 +904,7 @@ frameworkActions
 .
 selectThread
 (
-thread
+threadActorID
 )
 )
 }
