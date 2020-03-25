@@ -245,6 +245,10 @@ ini
 *
 ~
 '
+noCompress
+'
+ja
+'
 }
 project
 .
