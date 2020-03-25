@@ -2725,6 +2725,12 @@ isExceptionPending
 JSErrorReport
 report
 ;
+report
+.
+errorNumber
+=
+errorNumber
+;
 if
 (
 JS_ExpandErrorArgumentsASCII
