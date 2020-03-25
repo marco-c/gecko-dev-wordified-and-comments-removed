@@ -3798,6 +3798,8 @@ client
 .
 db
 .
+_wrappedDBForTestOnly
+.
 list
 ;
 client
@@ -3852,6 +3854,8 @@ e
 client
 .
 db
+.
+_wrappedDBForTestOnly
 .
 list
 =
@@ -3911,6 +3915,8 @@ backup
 client
 .
 db
+.
+_wrappedDBForTestOnly
 .
 getLastModified
 ;
@@ -3985,6 +3991,8 @@ client
 .
 db
 .
+_wrappedDBForTestOnly
+.
 getLastModified
 =
 backup
@@ -4043,6 +4051,8 @@ backup
 client
 .
 db
+.
+_wrappedDBForTestOnly
 .
 list
 ;
@@ -4172,6 +4182,8 @@ ThrownError
 client
 .
 db
+.
+_wrappedDBForTestOnly
 .
 list
 =
