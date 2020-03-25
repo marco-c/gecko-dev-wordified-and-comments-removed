@@ -364,6 +364,10 @@ bool
 aCheckRestricted
 =
 true
+bool
+aAllowFilePermission
+=
+false
 )
 const
 {
@@ -394,6 +398,7 @@ aExplicit
 )
 &
 &
+(
 aURI
 .
 Scheme
@@ -405,6 +410,10 @@ nsGkAtoms
 :
 :
 file
+|
+|
+aAllowFilePermission
+)
 ;
 }
 bool
