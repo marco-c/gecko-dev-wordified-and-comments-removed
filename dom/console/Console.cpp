@@ -11433,7 +11433,6 @@ ShouldIncludeStackTrace
 MethodName
 aMethodName
 )
-const
 {
 switch
 (

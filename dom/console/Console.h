@@ -1342,13 +1342,13 @@ aCountValue
 )
 const
 ;
+static
 bool
 ShouldIncludeStackTrace
 (
 MethodName
 aMethodName
 )
-const
 ;
 JSObject
 *
