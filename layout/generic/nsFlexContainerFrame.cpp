@@ -915,6 +915,7 @@ bsize_
 isize_
 )
 enum
+class
 AxisTrackerFlags
 {
 eNoFlags
@@ -951,6 +952,9 @@ aWM
 AxisTrackerFlags
 aFlags
 =
+AxisTrackerFlags
+:
+:
 eNoFlags
 )
 ;
