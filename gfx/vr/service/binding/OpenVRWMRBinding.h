@@ -91,6 +91,7 @@ name
 Firefox
 bindings
 for
+Windows
 Mixed
 Reality
 Controller
