@@ -430,10 +430,9 @@ innerHeight
 }
 if
 (
-!
 args
 .
-selector
+fullpage
 )
 {
 const
