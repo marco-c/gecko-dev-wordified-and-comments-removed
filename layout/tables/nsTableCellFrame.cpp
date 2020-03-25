@@ -1273,9 +1273,8 @@ PresContext
 ;
 displaySelection
 =
-DisplaySelection
+DetermineDisplaySelection
 (
-presContext
 )
 ;
 if

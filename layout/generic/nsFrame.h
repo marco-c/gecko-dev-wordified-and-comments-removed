@@ -1967,15 +1967,8 @@ DISPLAY_FRAMES
 )
 ;
 int16_t
-DisplaySelection
+DetermineDisplaySelection
 (
-nsPresContext
-*
-aPresContext
-bool
-isOkToTurnOn
-=
-false
 )
 ;
 void
