@@ -950,7 +950,7 @@ aRoot
 bool
 aIsFirstPaint
 LayersId
-aOriginatingWrRootId
+aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
 )
@@ -976,7 +976,7 @@ UpdateHitTestingTree
 (
 aRoot
 aIsFirstPaint
-aOriginatingWrRootId
+aOriginatingLayersId
 aPaintSequenceNumber
 )
 ;
@@ -1197,6 +1197,8 @@ second
 )
 isFirstPaint
 aOriginatingWrRootId
+.
+mLayersId
 paintSequenceNumber
 )
 ;
@@ -1339,6 +1341,8 @@ second
 )
 false
 aOriginatingWrRootId
+.
+mLayersId
 aPaintSequenceNumber
 )
 ;

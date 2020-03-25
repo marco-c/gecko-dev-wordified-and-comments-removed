@@ -408,8 +408,8 @@ WebRenderScrollDataWrapper
 aScrollWrapper
 bool
 aIsFirstPaint
-WRRootId
-aOriginatingWrRootId
+LayersId
+aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
 )
@@ -1119,8 +1119,8 @@ ScrollNode
 aRoot
 bool
 aIsFirstPaint
-WRRootId
-aOriginatingWrRootId
+LayersId
+aOriginatingLayersId
 uint32_t
 aPaintSequenceNumber
 )
