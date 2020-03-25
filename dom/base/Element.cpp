@@ -8105,17 +8105,6 @@ rv
 ;
 }
 {
-BindContext
-:
-:
-NestingLevel
-level
-(
-aContext
-*
-this
-)
-;
 for
 (
 nsIContent
