@@ -180,3 +180,15 @@ Trace
 '
 )
 ;
+user_pref
+(
+'
+datareporting
+.
+healthreport
+.
+uploadEnabled
+'
+false
+)
+;
