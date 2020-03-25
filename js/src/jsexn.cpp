@@ -572,12 +572,12 @@ exnType
 copy
 -
 >
-flags
+isWarning_
 =
 report
 -
 >
-flags
+isWarning_
 ;
 if
 (
@@ -3065,9 +3065,9 @@ JSErrorReport
 ;
 ownedReport
 .
-flags
+isWarning_
 =
-JSREPORT_ERROR
+false
 ;
 ownedReport
 .

@@ -4466,7 +4466,7 @@ msg
 )
 ;
 extern
-bool
+void
 PrintError
 (
 JSContext

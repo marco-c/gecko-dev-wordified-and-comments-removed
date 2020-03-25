@@ -1868,7 +1868,7 @@ typename
 T
 >
 static
-bool
+void
 PrintSingleError
 (
 JSContext
@@ -2184,11 +2184,8 @@ fflush
 file
 )
 ;
-return
-true
-;
 }
-bool
+void
 js
 :
 :
@@ -2232,7 +2229,6 @@ reportWarnings
 )
 {
 return
-false
 ;
 }
 PrintErrorKind
@@ -2315,9 +2311,6 @@ Note
 ;
 }
 }
-return
-true
-;
 }
 void
 js

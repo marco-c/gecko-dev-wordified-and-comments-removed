@@ -296,9 +296,9 @@ notes
 err
 -
 >
-flags
+isWarning_
 =
-JSREPORT_WARNING
+true
 ;
 err
 -
@@ -509,9 +509,9 @@ notes
 err
 -
 >
-flags
+isWarning_
 =
-JSREPORT_ERROR
+false
 ;
 err
 -
@@ -2282,7 +2282,7 @@ report
 ;
 report
 .
-flags
+isWarning_
 =
 isWarning
 =
@@ -2291,10 +2291,6 @@ IsWarning
 :
 :
 Yes
-?
-JSREPORT_WARNING
-:
-JSREPORT_ERROR
 ;
 report
 .
@@ -2506,7 +2502,7 @@ report
 ;
 report
 .
-flags
+isWarning_
 =
 isWarning
 =
@@ -2515,10 +2511,6 @@ IsWarning
 :
 :
 Yes
-?
-JSREPORT_WARNING
-:
-JSREPORT_ERROR
 ;
 report
 .
@@ -2725,7 +2717,7 @@ get
 ;
 report
 .
-flags
+isWarning_
 =
 isWarning
 =
@@ -2734,10 +2726,6 @@ IsWarning
 :
 :
 Yes
-?
-JSREPORT_WARNING
-:
-JSREPORT_ERROR
 ;
 report
 .
