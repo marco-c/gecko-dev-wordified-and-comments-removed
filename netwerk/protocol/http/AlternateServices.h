@@ -744,6 +744,8 @@ const
 OriginAttributes
 &
 originAttributes
+bool
+aHttp3Allowed
 )
 ;
 void

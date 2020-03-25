@@ -1481,6 +1481,8 @@ nsHttpConnectionInfo
 *
 bool
 allowWildCard
+bool
+aNoHttp3
 )
 ;
 MOZ_MUST_USE
@@ -1514,6 +1516,8 @@ nsConnectionEntry
 ent
 bool
 justKidding
+bool
+aNoHttp3
 )
 ;
 HttpConnectionBase
@@ -1529,6 +1533,8 @@ nsCString
 key
 bool
 justKidding
+bool
+aNoHttp3
 )
 ;
 void
@@ -1549,6 +1555,8 @@ GetH2orH3ActiveConn
 nsConnectionEntry
 *
 ent
+bool
+aNoHttp3
 )
 ;
 void
