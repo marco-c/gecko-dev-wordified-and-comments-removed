@@ -1025,6 +1025,11 @@ InstrumentationScriptId
 \
 _
 (
+TableSwitch
+)
+\
+_
+(
 SetRval
 )
 \
