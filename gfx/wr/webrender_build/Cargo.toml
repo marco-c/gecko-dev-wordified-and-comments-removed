@@ -85,6 +85,13 @@ serde
 [
 dependencies
 ]
+bitflags
+=
+"
+1
+.
+2
+"
 serde
 =
 {
