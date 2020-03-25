@@ -14622,16 +14622,6 @@ destroy
 ;
 this
 .
-target
-.
-client
-.
-isToolboxDestroy
-=
-true
-;
-this
-.
 off
 (
 "
