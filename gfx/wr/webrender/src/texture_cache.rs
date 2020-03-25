@@ -1178,7 +1178,7 @@ TextureFilter
 :
 :
 Linear
-1
+4
 )
 array_alpha16_linear
 :
