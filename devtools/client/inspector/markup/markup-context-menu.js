@@ -1492,11 +1492,8 @@ i
 }
 ;
 const
-options
-=
-{
 selectedNodeActor
-:
+=
 this
 .
 selection
@@ -1504,7 +1501,6 @@ selection
 nodeFront
 .
 actorID
-}
 ;
 const
 res
@@ -1515,7 +1511,9 @@ hud
 evaluateJSAsync
 (
 evalString
-options
+{
+selectedNodeActor
+}
 )
 ;
 hud
