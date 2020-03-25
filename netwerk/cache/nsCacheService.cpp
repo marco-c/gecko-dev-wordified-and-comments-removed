@@ -53,15 +53,6 @@ h
 #
 include
 "
-necko
--
-config
-.
-h
-"
-#
-include
-"
 nsCache
 .
 h

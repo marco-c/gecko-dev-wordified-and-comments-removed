@@ -261,13 +261,6 @@ config
 .
 h
 \
-netwerk
-/
-necko
--
-config
-.
-h
 xpcom
 /
 xpcom
