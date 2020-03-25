@@ -1238,6 +1238,16 @@ GetLocationInfo
 )
 .
 mHref
+workerPrivate
+-
+>
+GetServiceWorkerDescriptor
+(
+)
+.
+ToIPC
+(
+)
 )
 ;
 RefPtr

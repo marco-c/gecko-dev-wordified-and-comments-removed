@@ -311,6 +311,9 @@ url
 nsCString
 baseURL
 ;
+IPCServiceWorkerDescriptor
+serviceWorker
+;
 }
 ;
 struct
