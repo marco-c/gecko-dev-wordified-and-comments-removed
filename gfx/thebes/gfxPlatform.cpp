@@ -14665,13 +14665,6 @@ SetSuccessful
 (
 )
 ;
-if
-(
-XRE_IsParentProcess
-(
-)
-)
-{
 Preferences
 :
 :
@@ -14736,7 +14729,6 @@ UpdateAllowSacrificingSubpixelAA
 (
 )
 ;
-}
 }
 #
 if
