@@ -4760,6 +4760,7 @@ aAGR
 nsRect
 &
 aOverflow
+const
 nsIFrame
 *
 aStopAtFrame
@@ -4952,6 +4953,7 @@ dummyAGR
 =
 nullptr
 ;
+const
 nsIFrame
 *
 ancestor

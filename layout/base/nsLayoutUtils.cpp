@@ -8428,12 +8428,15 @@ nsLayoutUtils
 :
 IsProperAncestorFrameCrossDoc
 (
+const
 nsIFrame
 *
 aAncestorFrame
+const
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aCommonAncestor
@@ -14119,6 +14122,7 @@ gfxSize
 )
 ;
 }
+const
 nsIFrame
 *
 nsLayoutUtils
@@ -14126,9 +14130,11 @@ nsLayoutUtils
 :
 FindNearestCommonAncestorFrame
 (
+const
 nsIFrame
 *
 aFrame1
+const
 nsIFrame
 *
 aFrame2
@@ -14136,6 +14142,7 @@ aFrame2
 {
 AutoTArray
 <
+const
 nsIFrame
 *
 100
@@ -14144,12 +14151,14 @@ ancestors1
 ;
 AutoTArray
 <
+const
 nsIFrame
 *
 100
 >
 ancestors2
 ;
+const
 nsIFrame
 *
 commonAncestor
@@ -14191,6 +14200,7 @@ GetRootFrame
 }
 for
 (
+const
 nsIFrame
 *
 f
@@ -14223,6 +14233,7 @@ f
 }
 for
 (
+const
 nsIFrame
 *
 f
@@ -14362,6 +14373,7 @@ CSSPoint
 aPoints
 )
 {
+const
 nsIFrame
 *
 nearestCommonAncestor
@@ -14535,9 +14547,11 @@ nsLayoutUtils
 :
 TransformPoint
 (
+const
 nsIFrame
 *
 aFromFrame
+const
 nsIFrame
 *
 aToFrame
@@ -14546,6 +14560,7 @@ nsPoint
 aPoint
 )
 {
+const
 nsIFrame
 *
 nearestCommonAncestor
@@ -14721,9 +14736,11 @@ nsLayoutUtils
 :
 TransformRect
 (
+const
 nsIFrame
 *
 aFromFrame
+const
 nsIFrame
 *
 aToFrame
@@ -14732,6 +14749,7 @@ nsRect
 aRect
 )
 {
+const
 nsIFrame
 *
 nearestCommonAncestor
