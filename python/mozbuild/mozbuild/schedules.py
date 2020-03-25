@@ -157,10 +157,6 @@ ui
     
 '
 geckoview
-'
-    
-'
-geckoview
 -
 junit
 '
@@ -183,10 +179,6 @@ raptor
     
 '
 reftest
-'
-    
-'
-robocop
 '
     
 '
@@ -247,6 +239,36 @@ platform
 tests
 -
 wdspec
+'
+    
+'
+mochitest
+-
+a11y
+'
+    
+'
+mochitest
+-
+browser
+-
+chrome
+'
+    
+'
+mochitest
+-
+chrome
+'
+    
+'
+mochitest
+-
+plain
+'
+    
+'
+crashtest
 '
 ]
 EXCLUSIVE_COMPONENTS
