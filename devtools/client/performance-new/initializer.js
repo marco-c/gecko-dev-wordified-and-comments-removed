@@ -444,6 +444,7 @@ recordingPreferences
 getRecordingPreferences
 (
 pageContext
+supportedFeatures
 )
 presets
 supportedFeatures
