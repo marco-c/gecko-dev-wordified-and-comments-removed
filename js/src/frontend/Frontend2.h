@@ -104,6 +104,11 @@ unimplemented
 ;
 }
 ;
+void
+InitSmoosh
+(
+)
+;
 MOZ_MUST_USE
 bool
 SmooshParseScript
