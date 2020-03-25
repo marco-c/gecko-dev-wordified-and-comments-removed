@@ -171,12 +171,12 @@ nsFlexContainerFrame
 StrutInfo
 ;
 using
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 =
 nsFlexContainerFrame
 :
 :
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 ;
 static
 mozilla
@@ -5929,7 +5929,7 @@ class
 nsFlexContainerFrame
 :
 :
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 {
 struct
 Key
@@ -6047,7 +6047,7 @@ mAscent
 ;
 public
 :
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 (
 const
 ReflowInput
@@ -6161,7 +6161,7 @@ mAscent
 NS_DECLARE_FRAME_PROPERTY_DELETABLE
 (
 Prop
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 )
 }
 ;
@@ -6181,7 +6181,7 @@ aItemFrame
 >
 RemoveProperty
 (
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 :
 :
 Prop
@@ -6191,7 +6191,7 @@ Prop
 ;
 }
 const
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 &
 nsFlexContainerFrame
 :
@@ -6219,7 +6219,7 @@ Frame
 >
 GetProperty
 (
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 :
 :
 Prop
@@ -6396,7 +6396,7 @@ cachedResult
 *
 cachedResult
 =
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 (
 aChildReflowInput
 childReflowOutput
@@ -6408,7 +6408,7 @@ else
 cachedResult
 =
 new
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 (
 aChildReflowInput
 childReflowOutput
@@ -6423,7 +6423,7 @@ Frame
 >
 SetProperty
 (
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 :
 :
 Prop
@@ -6631,9 +6631,9 @@ true
 ;
 }
 const
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 &
-reflowResult
+measurement
 =
 MeasureAscentAndBSizeForFlexItem
 (
@@ -6645,7 +6645,7 @@ aFlexItem
 .
 SetAscent
 (
-reflowResult
+measurement
 .
 Ascent
 (
@@ -6653,7 +6653,7 @@ Ascent
 )
 ;
 return
-reflowResult
+measurement
 .
 BSize
 (
@@ -15791,9 +15791,9 @@ true
 ;
 }
 const
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 &
-reflowResult
+measurement
 =
 MeasureAscentAndBSizeForFlexItem
 (
@@ -15805,7 +15805,7 @@ aItem
 .
 SetCrossSize
 (
-reflowResult
+measurement
 .
 BSize
 (
@@ -15816,7 +15816,7 @@ aItem
 .
 SetAscent
 (
-reflowResult
+measurement
 .
 Ascent
 (

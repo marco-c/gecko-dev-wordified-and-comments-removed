@@ -204,7 +204,7 @@ struct
 StrutInfo
 ;
 class
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 ;
 void
 Init
@@ -698,7 +698,7 @@ aHasLineClampEllipsis
 )
 ;
 const
-CachedMeasuringReflowResult
+CachedBAxisMeasurement
 &
 MeasureAscentAndBSizeForFlexItem
 (
