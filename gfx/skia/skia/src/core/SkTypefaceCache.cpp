@@ -318,6 +318,9 @@ SkTypeface
 face
 )
 {
+#
+ifndef
+SK_DISABLE_TYPEFACE_CACHE
 SkAutoMutexExclusive
 ama
 (
@@ -341,6 +344,8 @@ face
 )
 )
 ;
+#
+endif
 }
 sk_sp
 <
@@ -358,6 +363,9 @@ void
 ctx
 )
 {
+#
+ifndef
+SK_DISABLE_TYPEFACE_CACHE
 SkAutoMutexExclusive
 ama
 (
@@ -377,6 +385,13 @@ proc
 ctx
 )
 ;
+#
+else
+return
+nullptr
+;
+#
+endif
 }
 void
 SkTypefaceCache
@@ -386,6 +401,9 @@ PurgeAll
 (
 )
 {
+#
+ifndef
+SK_DISABLE_TYPEFACE_CACHE
 SkAutoMutexExclusive
 ama
 (
@@ -402,6 +420,8 @@ purgeAll
 (
 )
 ;
+#
+endif
 }
 #
 ifdef
