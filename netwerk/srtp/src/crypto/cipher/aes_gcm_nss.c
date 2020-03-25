@@ -863,6 +863,17 @@ c
 >
 params
 .
+ulIvBits
+=
+GCM_IV_LEN
+*
+8
+;
+c
+-
+>
+params
+.
 pAAD
 =
 c
