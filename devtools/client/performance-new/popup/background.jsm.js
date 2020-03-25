@@ -648,6 +648,9 @@ leaf
 "
 stackwalk
 "
+"
+java
+"
 ]
 threads
 :
@@ -717,6 +720,9 @@ leaf
 "
 "
 stackwalk
+"
+"
+java
 "
 ]
 threads
