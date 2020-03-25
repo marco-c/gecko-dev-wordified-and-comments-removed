@@ -2310,11 +2310,6 @@ aInputQueue
 GeckoContentController
 *
 aGeckoContentController
-wr
-:
-:
-RenderRoot
-aRenderRoot
 GestureBehavior
 aGestures
 )
@@ -2325,7 +2320,13 @@ aLayersId
 )
 mRenderRoot
 (
-aRenderRoot
+wr
+:
+:
+RenderRoot
+:
+:
+Default
 )
 mGeckoContentController
 (

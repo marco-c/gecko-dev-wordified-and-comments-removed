@@ -890,11 +890,6 @@ aLayersId
 GeckoContentController
 *
 aController
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 public
@@ -1423,11 +1418,6 @@ aNextSibling
 TreeBuildingState
 &
 aState
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 template
