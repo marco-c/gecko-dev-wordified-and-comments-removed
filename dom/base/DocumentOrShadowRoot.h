@@ -839,6 +839,13 @@ ClearAdoptedStyleSheets
 (
 )
 ;
+void
+CloneAdoptedSheetsFrom
+(
+DocumentOrShadowRoot
+&
+)
+;
 already_AddRefed
 <
 StyleSheet
