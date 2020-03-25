@@ -264,12 +264,6 @@ aGlobalObject
 ;
 static
 bool
-IsOffscreenThrottlingEnabled
-(
-)
-;
-static
-bool
 FrameHasAnimatedScale
 (
 const
