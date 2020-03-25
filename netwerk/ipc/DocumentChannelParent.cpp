@@ -87,8 +87,6 @@ aContext
 nsILoadContext
 *
 aLoadContext
-PBOverrideStatus
-aOverrideStatus
 )
 {
 LOG
@@ -120,7 +118,6 @@ DocumentLoadListener
 (
 aContext
 aLoadContext
-aOverrideStatus
 this
 )
 ;

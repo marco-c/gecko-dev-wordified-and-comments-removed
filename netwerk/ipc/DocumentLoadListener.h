@@ -208,8 +208,6 @@ aBrowsingContext
 nsILoadContext
 *
 aLoadContext
-PBOverrideStatus
-aOverrideStatus
 ADocumentChannelBridge
 *
 aBridge
@@ -864,9 +862,6 @@ nsCOMPtr
 nsILoadContext
 >
 mLoadContext
-;
-PBOverrideStatus
-mPBOverride
 ;
 nsCOMPtr
 <
