@@ -54,17 +54,6 @@ include
 "
 mozilla
 /
-layers
-/
-RenderRootBoundary
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 RemoteBrowser
