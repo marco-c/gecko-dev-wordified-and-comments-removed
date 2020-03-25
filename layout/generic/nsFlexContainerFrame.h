@@ -206,6 +206,9 @@ StrutInfo
 class
 CachedBAxisMeasurement
 ;
+class
+CachedFlexItemData
+;
 void
 Init
 (
