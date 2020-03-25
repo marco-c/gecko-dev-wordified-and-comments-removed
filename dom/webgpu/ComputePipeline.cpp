@@ -108,7 +108,7 @@ IsOpen
 bridge
 -
 >
-DestroyComputePipeline
+SendComputePipelineDestroy
 (
 mId
 )

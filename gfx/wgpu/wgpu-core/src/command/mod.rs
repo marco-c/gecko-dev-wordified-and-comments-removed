@@ -75,6 +75,7 @@ hub
 {
 GfxBackend
 Global
+GlobalIdentityHandlerFactory
 Storage
 Token
 }
@@ -1322,11 +1323,13 @@ RenderPassDepthStencilAttachmentDescriptor
 }
 impl
 <
-F
+G
+:
+GlobalIdentityHandlerFactory
 >
 Global
 <
-F
+G
 >
 {
 pub

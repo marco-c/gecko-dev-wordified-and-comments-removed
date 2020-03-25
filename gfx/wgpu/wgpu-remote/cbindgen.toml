@@ -170,11 +170,6 @@ typedef
 void
 WGPUEmpty
 ;
-typedef
-struct
-WGPUGlobal
-WGPUGlobal
-;
 "
 "
 "

@@ -119,7 +119,7 @@ IsOpen
 bridge
 -
 >
-DestroySampler
+SendSamplerDestroy
 (
 mId
 )

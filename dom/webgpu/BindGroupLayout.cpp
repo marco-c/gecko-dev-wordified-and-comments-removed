@@ -119,7 +119,7 @@ IsOpen
 bridge
 -
 >
-DestroyBindGroupLayout
+SendBindGroupLayoutDestroy
 (
 mId
 )

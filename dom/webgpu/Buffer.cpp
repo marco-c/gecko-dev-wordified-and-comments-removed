@@ -272,7 +272,7 @@ IsOpen
 bridge
 -
 >
-DestroyBuffer
+SendBufferDestroy
 (
 mId
 )
