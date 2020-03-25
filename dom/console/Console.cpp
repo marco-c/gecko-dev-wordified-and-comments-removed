@@ -10412,7 +10412,6 @@ aTimerLabel
 TimerStatus
 aTimerStatus
 )
-const
 {
 MOZ_ASSERT
 (
@@ -10715,7 +10714,6 @@ aDuration
 TimerStatus
 aStatus
 )
-const
 {
 if
 (
@@ -10814,7 +10812,6 @@ aLabel
 TimerStatus
 aStatus
 )
-const
 {
 MOZ_ASSERT
 (

@@ -1081,6 +1081,7 @@ eTimerJSException
 eTimerMaxReached
 }
 ;
+static
 JS
 :
 :
@@ -1093,11 +1094,10 @@ aCx
 const
 nsAString
 &
-aTimerLabel
+aLabel
 TimerStatus
 aStatus
 )
-const
 ;
 TimerStatus
 StartTimer
@@ -1122,6 +1122,7 @@ DOMHighResTimeStamp
 aTimerValue
 )
 ;
+static
 JS
 :
 :
@@ -1138,7 +1139,6 @@ aTimerLabel
 TimerStatus
 aTimerStatus
 )
-const
 ;
 TimerStatus
 LogTimer
@@ -1165,6 +1165,7 @@ bool
 aCancelTimer
 )
 ;
+static
 JS
 :
 :
@@ -1177,13 +1178,12 @@ aCx
 const
 nsAString
 &
-aTimerLabel
+aLabel
 double
-aTimerDuration
+aDuration
 TimerStatus
-aTimerStatus
+aStatus
 )
-const
 ;
 bool
 ArgumentsToValueList
