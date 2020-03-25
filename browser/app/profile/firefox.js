@@ -10340,6 +10340,9 @@ firstrun
 branches
 "
 "
+join
+-
+dynamic
 "
 )
 ;
@@ -10352,7 +10355,7 @@ aboutwelcome
 .
 enabled
 "
-false
+true
 )
 ;
 pref
