@@ -96,7 +96,6 @@ utcnow
     
 print
 (
-b
 '
 [
 %
