@@ -131,7 +131,7 @@ util
 import
 (
     
-indented_repr
+write_indented_repr
 )
 import
 mozpack
@@ -772,19 +772,15 @@ write
 %
 s
 =
-%
-s
-\
-n
 '
 %
-(
 k
-indented_repr
+)
+            
+write_indented_repr
 (
+fh
 v
-)
-)
 )
         
 fh

@@ -11,9 +11,11 @@ absolute_import
 print_function
 unicode_literals
 import
-itertools
-import
 hashlib
+import
+io
+import
+itertools
 import
 os
 import
@@ -49,8 +51,6 @@ group_unified_files
     
 hash_file
     
-indented_repr
-    
 memoize
     
 memoized_property
@@ -58,6 +58,8 @@ memoized_property
 pair
     
 resolve_target_to_make
+    
+write_indented_repr
     
 MozbuildDeletionError
     
@@ -6571,7 +6573,7 @@ Python
 )
     
 def
-test_indented_repr_py2
+test_write_indented_repr_py2
 (
 self
 )
@@ -6719,6 +6721,7 @@ with_accents
 '
         
 }
+        
 '
 '
 '
@@ -6735,13 +6738,28 @@ eval
 data
 )
         
+buf
+=
+io
+.
+StringIO
+(
+)
+        
+write_indented_repr
+(
+buf
+obj
+)
+        
 self
 .
 assertEqual
 (
-indented_repr
+buf
+.
+getvalue
 (
-obj
 )
 data
 )
@@ -6761,7 +6779,7 @@ Python
 )
     
 def
-test_indented_repr
+test_write_indented_repr
 (
 self
 )
@@ -6899,6 +6917,7 @@ with_accents
 '
 '
 }
+        
 '
 '
 '
@@ -6915,13 +6934,28 @@ eval
 data
 )
         
+buf
+=
+six
+.
+StringIO
+(
+)
+        
+write_indented_repr
+(
+buf
+obj
+)
+        
 self
 .
 assertEqual
 (
-indented_repr
+buf
+.
+getvalue
 (
-obj
 )
 data
 )
