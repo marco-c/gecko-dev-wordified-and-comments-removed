@@ -2118,7 +2118,7 @@ wast
 version
 =
 "
-12
+11
 .
 0
 .
@@ -2150,7 +2150,7 @@ index
 checksum
 =
 "
-0615ba420811bcda39cf80e8a1bd75997aec09222bda35165920a07ef15cc695
+df4d67ba9266f4fcaf2e8a1afadc5e2a959e51aecc07b1ecbdf85a6ddaf08bde
 "
 dependencies
 =
@@ -2176,7 +2176,7 @@ version
 .
 0
 .
-13
+12
 "
 dependencies
 =
