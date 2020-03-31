@@ -928,6 +928,8 @@ tellDebuggerAboutCompiledScript
 JSContext
 *
 cx
+bool
+hideScript
 Handle
 <
 JSScript
@@ -949,6 +951,12 @@ isHelperThreadContext
 return
 ;
 }
+if
+(
+!
+hideScript
+)
+{
 DebugAPI
 :
 :
@@ -958,6 +966,7 @@ cx
 script
 )
 ;
+}
 }
 template
 <
@@ -1059,6 +1068,11 @@ tellDebuggerAboutCompiledScript
 compilationInfo
 .
 cx
+compilationInfo
+.
+options
+.
+hideScriptFromDebugger
 compilationInfo
 .
 script
@@ -1388,6 +1402,11 @@ tellDebuggerAboutCompiledScript
 compilationInfo
 .
 cx
+compilationInfo
+.
+options
+.
+hideScriptFromDebugger
 compilationInfo
 .
 script
@@ -3845,6 +3864,9 @@ sourceObject
 tellDebuggerAboutCompiledScript
 (
 cx
+options
+.
+hideScriptFromDebugger
 script
 )
 ;
@@ -4115,6 +4137,9 @@ nullptr
 tellDebuggerAboutCompiledScript
 (
 cx
+options
+.
+hideScriptFromDebugger
 compilationInfo
 .
 script
@@ -5725,6 +5750,9 @@ parameterListEnd
 tellDebuggerAboutCompiledScript
 (
 cx
+options
+.
+hideScriptFromDebugger
 compilationInfo
 .
 script

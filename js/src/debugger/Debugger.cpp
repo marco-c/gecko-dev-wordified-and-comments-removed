@@ -12068,7 +12068,7 @@ void
 DebugAPI
 :
 :
-slowPathOnNewScript
+onNewScript
 (
 JSContext
 *
