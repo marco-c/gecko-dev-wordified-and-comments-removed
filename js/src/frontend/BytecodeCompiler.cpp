@@ -4450,6 +4450,17 @@ ImmutableFlags
 :
 NeedsFunctionEnvironmentObjects
 )
+|
+uint32_t
+(
+BaseScript
+:
+:
+ImmutableFlags
+:
+:
+AlwaysNeedsArgsObj
+)
 ;
 constexpr
 uint32_t

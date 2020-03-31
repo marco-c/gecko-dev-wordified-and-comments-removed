@@ -557,6 +557,12 @@ NeedsFunctionEnvironmentObjects
 <
 <
 26
+AlwaysNeedsArgsObj
+=
+1
+<
+<
+27
 }
 ;
 class
