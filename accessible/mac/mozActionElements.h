@@ -26,12 +26,6 @@ BOOL
 )
 hasPopup
 ;
--
-(
-void
-)
-click
-;
 end
 interface
 mozCheckboxAccessible
