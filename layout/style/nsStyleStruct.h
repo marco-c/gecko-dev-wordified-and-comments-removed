@@ -3875,7 +3875,10 @@ mTextSizeAdjust
 uint8_t
 mTextCombineUpright
 ;
-uint8_t
+mozilla
+:
+:
+StyleControlCharacterVisibility
 mControlCharacterVisibility
 ;
 uint8_t

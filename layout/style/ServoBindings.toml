@@ -1081,6 +1081,12 @@ mozilla
 :
 StyleMaskComposite
 "
+"
+mozilla
+:
+:
+StyleControlCharacterVisibility
+"
 ]
 whitelist
 -

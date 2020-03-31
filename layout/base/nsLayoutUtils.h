@@ -6416,7 +6416,10 @@ aFrame
 )
 ;
 static
-uint8_t
+mozilla
+:
+:
+StyleControlCharacterVisibility
 ControlCharVisibilityDefault
 (
 )
