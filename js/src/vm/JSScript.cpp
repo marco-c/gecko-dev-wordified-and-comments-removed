@@ -22609,6 +22609,10 @@ rt
 ;
 #
 endif
+destroyScriptCounts
+(
+)
+;
 swapData
 (
 scriptData
