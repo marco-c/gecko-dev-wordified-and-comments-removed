@@ -3224,7 +3224,7 @@ GetSkipContentSniffing
 aLoadInfo
 -
 >
-GetHttpsOnlyNoUpgrade
+GetHttpsOnlyStatus
 (
 )
 aLoadInfo
@@ -4376,7 +4376,7 @@ skipContentSniffing
 )
 loadInfoArgs
 .
-httpsOnlyNoUpgrade
+httpsOnlyStatus
 (
 )
 loadInfoArgs
@@ -4447,7 +4447,10 @@ nsILoadInfo
 :
 TAINTING_BASIC
 false
-false
+nsILoadInfo
+:
+:
+HTTPS_ONLY_UNINITIALIZED
 false
 false
 false
@@ -4641,7 +4644,7 @@ GetSkipContentSniffing
 aLoadInfo
 -
 >
-GetHttpsOnlyNoUpgrade
+GetHttpsOnlyStatus
 (
 )
 aLoadInfo
@@ -4853,11 +4856,11 @@ rv
 aLoadInfo
 -
 >
-SetHttpsOnlyNoUpgrade
+SetHttpsOnlyStatus
 (
 aForwarderArgs
 .
-httpsOnlyNoUpgrade
+httpsOnlyStatus
 (
 )
 )
