@@ -5495,6 +5495,16 @@ if
 (
 !
 aAccessor
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
+if
+(
+!
+aAccessor
 -
 >
 CanAccess
