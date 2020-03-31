@@ -3416,12 +3416,6 @@ functionScopeBindings
 (
 )
 ;
-Maybe
-<
-uint32_t
->
-lastLexicalSlot
-;
 if
 (
 bindings
