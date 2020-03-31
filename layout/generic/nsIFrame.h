@@ -5936,6 +5936,17 @@ aModType
 0
 ;
 virtual
+void
+ContentStatesChanged
+(
+mozilla
+:
+:
+EventStates
+aStates
+)
+;
+virtual
 nsIFrame
 *
 GetPrevContinuation
