@@ -11189,8 +11189,6 @@ when
 compile_environment
 &
 target_is_windows
-&
-host_is_windows
 )
 depends
 (

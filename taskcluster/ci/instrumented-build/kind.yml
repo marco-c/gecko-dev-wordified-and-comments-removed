@@ -1183,6 +1183,10 @@ wine
 linux64
 -
 liblowercase
+-
+win64
+-
+winchecksec
 fetch
 :
 -
@@ -1427,6 +1431,10 @@ wine
 linux64
 -
 liblowercase
+-
+win64
+-
+winchecksec
 fetch
 :
 -

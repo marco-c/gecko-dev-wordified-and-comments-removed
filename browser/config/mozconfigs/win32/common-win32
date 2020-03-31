@@ -293,10 +293,7 @@ PATH
 "
 unset
 VC_PATH
-else
-#
-!
-Linux
+fi
 export
 WINCHECKSEC
 =
@@ -326,7 +323,6 @@ WINCHECKSEC
 then
 unset
 WINCHECKSEC
-fi
 fi
 export
 PDBSTR
