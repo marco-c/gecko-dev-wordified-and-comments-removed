@@ -7702,6 +7702,8 @@ StyledRange
 *
 rd
 =
+mStyledRanges
+.
 FindRangeData
 (
 range
@@ -8089,6 +8091,9 @@ StyledRange
 Selection
 :
 :
+StyledRanges
+:
+:
 FindRangeData
 (
 nsRange
@@ -8111,8 +8116,6 @@ i
 ;
 i
 <
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -8126,8 +8129,6 @@ i
 {
 if
 (
-mStyledRanges
-.
 mRanges
 [
 i
@@ -8138,15 +8139,15 @@ mRange
 =
 aRange
 )
+{
 return
 &
-mStyledRanges
-.
 mRanges
 [
 i
 ]
 ;
+}
 }
 return
 nullptr
@@ -8176,6 +8177,8 @@ StyledRange
 *
 rd
 =
+mStyledRanges
+.
 FindRangeData
 (
 aRange
