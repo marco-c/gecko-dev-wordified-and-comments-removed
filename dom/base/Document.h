@@ -4040,6 +4040,14 @@ StorageAccessSandboxed
 )
 const
 ;
+static
+bool
+StorageAccessSandboxed
+(
+uint32_t
+aSandboxFlags
+)
+;
 nsICookieJarSettings
 *
 CookieJarSettings
