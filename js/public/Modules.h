@@ -276,7 +276,7 @@ extern
 JS_PUBLIC_API
 JSObject
 *
-CompileModuleDontInflate
+CompileModule
 (
 JSContext
 *
