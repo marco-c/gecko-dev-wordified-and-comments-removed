@@ -6,6 +6,11 @@ define
 WEBGLPCQPARAMTRAITS_H_
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -326,8 +331,10 @@ template
 typename
 ElementType
 =
-typename
-RemoveCV
+std
+:
+:
+remove_cv_t
 <
 typename
 ParamType
@@ -335,9 +342,6 @@ ParamType
 :
 ElementType
 >
-:
-:
-Type
 >
 static
 PcqStatus
