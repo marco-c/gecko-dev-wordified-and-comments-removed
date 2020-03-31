@@ -1204,7 +1204,7 @@ MOZ_DIAGNOSTIC_ASSERT
 aInnerWindow
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aInnerWindow
 -
@@ -1214,7 +1214,7 @@ IsCurrentInnerWindow
 )
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 aInnerWindow
 -
