@@ -526,7 +526,7 @@ a
 threshold
 confidence
 is
-achived
+achieved
 the
 bug
 is
@@ -661,7 +661,7 @@ do
 not
 have
 a
-priorty
+priority
 set
 -
 All
@@ -2199,7 +2199,7 @@ triage
 decisions
 will
 be
-overriden
+overridden
 or
 made
 as

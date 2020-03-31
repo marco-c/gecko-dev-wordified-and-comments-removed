@@ -133,7 +133,7 @@ mozilla
 .
 org
 field
-defintions
+definitions
 <
 https
 :
