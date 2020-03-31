@@ -975,6 +975,9 @@ OnProgress
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 int64_t
 aProgress
 int64_t
@@ -999,6 +1002,9 @@ OnStatus
 nsIRequest
 *
 request
+nsISupports
+*
+aContext
 nsresult
 aStatus
 const
