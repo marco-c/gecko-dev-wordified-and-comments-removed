@@ -2653,9 +2653,7 @@ TextRangeArray
 >
 mRanges
 ;
-const
 MSG
-*
 mKeyMsg
 ;
 bool
