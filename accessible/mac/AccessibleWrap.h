@@ -140,6 +140,10 @@ override
 ;
 protected
 :
+friend
+class
+xpcAccessibleMacInterface
+;
 bool
 AncestorIsFlat
 (
