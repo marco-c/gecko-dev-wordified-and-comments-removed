@@ -164,11 +164,12 @@ aWidget
 const
 nsTArray
 <
-nsCOMPtr
+RefPtr
 <
 nsIURI
 >
 >
+&
 &
 aURIs
 )

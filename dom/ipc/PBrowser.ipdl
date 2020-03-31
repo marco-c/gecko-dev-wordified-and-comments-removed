@@ -2986,10 +2986,9 @@ isSupported
 async
 VisitURI
 (
-URIParams
+nsIURI
 aURI
-URIParams
-?
+nsIURI
 aLastVisitedURI
 uint32_t
 aFlags
@@ -2998,7 +2997,7 @@ aFlags
 async
 QueryVisitedState
 (
-URIParams
+nsIURI
 [
 ]
 aURIs
