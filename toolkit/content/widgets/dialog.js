@@ -535,6 +535,13 @@ true
 >
 <
 spacer
+class
+=
+"
+button
+-
+spacer
+"
 part
 =
 "
@@ -605,6 +612,13 @@ true
 >
 <
 spacer
+class
+=
+"
+button
+-
+spacer
+"
 part
 =
 "
@@ -2499,6 +2513,8 @@ querySelector
 (
 "
 .
+button
+-
 spacer
 "
 )
