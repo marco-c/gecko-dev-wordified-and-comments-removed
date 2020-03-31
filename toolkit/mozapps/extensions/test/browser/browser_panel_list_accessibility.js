@@ -132,7 +132,7 @@ doc
 .
 body
 .
-append
+prepend
 (
 anchorButton
 panelList
