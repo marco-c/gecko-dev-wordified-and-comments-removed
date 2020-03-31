@@ -1415,7 +1415,11 @@ template
 typename
 T
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Base64CharToValue
 (

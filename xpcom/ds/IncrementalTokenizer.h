@@ -109,7 +109,11 @@ FinishInput
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Next
 (

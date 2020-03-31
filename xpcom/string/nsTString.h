@@ -1504,7 +1504,11 @@ char_type
 aNewValue
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReplaceSubstring
 (
@@ -1521,7 +1525,11 @@ fallible_t
 &
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReplaceSubstring
 (

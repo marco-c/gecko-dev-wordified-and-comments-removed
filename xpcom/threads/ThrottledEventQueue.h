@@ -121,7 +121,11 @@ AwaitIdle
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 SetIsPaused
 (
