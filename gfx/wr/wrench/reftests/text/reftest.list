@@ -73,6 +73,11 @@ skip_on
 android
 device
 )
+fuzzy
+(
+1
+3
+)
 =
 =
 shadow
