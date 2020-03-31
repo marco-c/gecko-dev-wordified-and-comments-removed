@@ -10,6 +10,11 @@ define
 MozPromise_h_
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -7232,7 +7237,10 @@ detail
 :
 Any
 (
-IsPointer
+std
+:
+:
+is_pointer_v
 <
 typename
 RemoveReference
@@ -7243,9 +7251,6 @@ ActualArgTypes
 :
 Type
 >
-:
-:
-value
 .
 .
 .
