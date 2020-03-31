@@ -122,9 +122,6 @@ class
 JSErrorReport
 ;
 struct
-JSExceptionState
-;
-struct
 JSFunctionSpec
 ;
 struct
