@@ -3268,6 +3268,9 @@ int32_t
 Selection
 :
 :
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 const
@@ -4794,6 +4797,9 @@ rv
 int32_t
 insertionPoint
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
@@ -5622,6 +5628,9 @@ aEndOffset
 int32_t
 endsBeforeIndex
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
@@ -5709,6 +5718,9 @@ endsBeforeIndex
 int32_t
 beginsAfterIndex
 {
+StyledRanges
+:
+:
 FindInsertionPoint
 (
 &
