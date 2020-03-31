@@ -95,7 +95,7 @@ buttonText
 "
 Done
 "
-data
+type
 :
 "
 test
@@ -629,7 +629,7 @@ buttonText
 "
 Done
 "
-data
+type
 :
 "
 test
@@ -1074,7 +1074,7 @@ buttonText
 "
 Done
 "
-data
+type
 :
 "
 test

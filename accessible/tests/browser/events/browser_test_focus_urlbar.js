@@ -1841,7 +1841,7 @@ buttonText
 "
 Done
 "
-data
+type
 :
 "
 test

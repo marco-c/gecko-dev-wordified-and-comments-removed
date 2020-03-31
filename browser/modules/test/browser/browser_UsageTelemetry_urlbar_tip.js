@@ -347,6 +347,11 @@ buttonText
 "
 OK
 "
+type
+:
+"
+test
+"
 }
 )
 {

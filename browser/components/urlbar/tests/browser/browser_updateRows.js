@@ -162,6 +162,11 @@ example
 com
 /
 "
+type
+:
+"
+test
+"
 }
 )
 ]
@@ -576,6 +581,11 @@ example
 .
 com
 /
+"
+type
+:
+"
+test
 "
 }
 )
