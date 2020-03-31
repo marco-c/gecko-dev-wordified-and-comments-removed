@@ -59,6 +59,13 @@ xpcAccessibleMacInterface
 (
 )
 ;
+bool
+SupportsSelector
+(
+SEL
+aSelector
+)
+;
 nsresult
 NSObjectToJsValue
 (
