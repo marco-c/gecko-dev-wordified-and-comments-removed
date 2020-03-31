@@ -12,7 +12,6 @@ function
 const
 {
 DevToolsLoader
-require
 }
 =
 ChromeUtils
@@ -31,19 +30,6 @@ shared
 Loader
 .
 jsm
-"
-)
-;
-require
-(
-"
-devtools
-/
-shared
-/
-event
--
-emitter
 "
 )
 ;
