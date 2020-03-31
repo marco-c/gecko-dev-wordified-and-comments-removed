@@ -1565,11 +1565,6 @@ frameSizeOfInnerMostFrame
 =
 0
 ;
-bool
-checkGlobalDeclarationConflicts
-=
-false
-;
 mozilla
 :
 :

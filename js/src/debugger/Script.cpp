@@ -8796,6 +8796,12 @@ case
 JSOp
 :
 :
+CheckGlobalOrEvalDecl
+:
+case
+JSOp
+:
+:
 SuperFun
 :
 case

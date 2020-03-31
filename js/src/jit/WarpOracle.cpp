@@ -2579,6 +2579,12 @@ case
 JSOp
 :
 :
+CheckGlobalOrEvalDecl
+:
+case
+JSOp
+:
+:
 BindVar
 :
 case
