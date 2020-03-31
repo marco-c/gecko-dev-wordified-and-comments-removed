@@ -9909,6 +9909,8 @@ NoIndex
 {
 if
 (
+(
+!
 values
 [
 wmodeAttributeIndex
@@ -9917,11 +9919,14 @@ wmodeAttributeIndex
 EqualsLiteral
 (
 "
-window
+transparent
 "
 )
-|
-|
+)
+&
+&
+(
+!
 values
 [
 wmodeAttributeIndex
@@ -9930,8 +9935,9 @@ wmodeAttributeIndex
 EqualsLiteral
 (
 "
-gpu
+opaque
 "
+)
 )
 )
 {
