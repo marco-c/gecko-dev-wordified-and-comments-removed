@@ -6,6 +6,11 @@ define
 Tokenizer_h__
 #
 include
+<
+type_traits
+>
+#
+include
 "
 nsString
 .
@@ -1234,7 +1239,10 @@ V
 typename
 EnableIf
 <
-IsSigned
+std
+:
+:
+is_signed_v
 <
 typename
 RemovePointer
@@ -1245,9 +1253,6 @@ T
 :
 Type
 >
-:
-:
-value
 typename
 RemovePointer
 <

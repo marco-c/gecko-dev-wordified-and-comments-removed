@@ -322,13 +322,13 @@ ResultT
 value
 &
 &
-IsSigned
+std
+:
+:
+is_signed_v
 <
 ResultT
 >
-:
-:
-value
 "
 ResultT
 must
