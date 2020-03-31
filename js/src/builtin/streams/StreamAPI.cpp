@@ -1248,6 +1248,10 @@ CreateReadableStreamDefaultReader
 (
 cx
 unwrappedStream
+ForAuthorCodeBool
+:
+:
+No
 )
 ;
 MOZ_ASSERT_IF

@@ -214,9 +214,6 @@ CreateReadableStreamDefaultReader
 JSContext
 *
 cx
-JS
-:
-:
 Handle
 <
 ReadableStream
@@ -225,9 +222,6 @@ ReadableStream
 unwrappedStream
 ForAuthorCodeBool
 forAuthorCode
-JS
-:
-:
 Handle
 <
 JSObject

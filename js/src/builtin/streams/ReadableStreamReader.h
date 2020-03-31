@@ -390,11 +390,6 @@ ReadableStream
 unwrappedStream
 ForAuthorCodeBool
 forAuthorCode
-=
-ForAuthorCodeBool
-:
-:
-No
 JS
 :
 :
@@ -563,11 +558,6 @@ ReadableStream
 unwrappedStream
 ForAuthorCodeBool
 forAuthorCode
-=
-ForAuthorCodeBool
-:
-:
-No
 JS
 :
 :
