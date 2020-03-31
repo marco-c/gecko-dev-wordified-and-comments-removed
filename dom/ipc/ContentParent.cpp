@@ -12701,6 +12701,15 @@ gAppData
 sourceURL
 )
 ;
+nsCString
+updateURL
+(
+gAppData
+-
+>
+updateURL
+)
+;
 Unused
 <
 <
@@ -12713,6 +12722,7 @@ UAName
 ID
 vendor
 sourceURL
+updateURL
 )
 ;
 }

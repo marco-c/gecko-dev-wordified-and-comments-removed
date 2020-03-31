@@ -466,6 +466,9 @@ vendor
 nsCString
 sourceURL
 ;
+nsCString
+updateURL
+;
 }
 ;
 nsresult
@@ -2042,6 +2045,10 @@ const
 nsCString
 &
 sourceURL
+const
+nsCString
+&
+updateURL
 )
 ;
 mozilla
