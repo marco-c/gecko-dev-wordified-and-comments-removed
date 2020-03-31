@@ -1312,13 +1312,13 @@ e
 >
 {
 const
+{
 value
+}
 =
 e
 .
 target
-.
-value
 ;
 if
 (

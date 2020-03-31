@@ -378,7 +378,9 @@ webConsoleUI
 document
 ;
 const
+{
 toolbox
+}
 =
 this
 .
@@ -387,8 +389,6 @@ props
 webConsoleUI
 .
 wrapper
-.
-toolbox
 ;
 const
 tooltipDoc

@@ -728,13 +728,13 @@ webConsoleUI
 document
 ;
 const
+{
 toolbox
+}
 =
 webConsoleUI
 .
 wrapper
-.
-toolbox
 ;
 if
 (

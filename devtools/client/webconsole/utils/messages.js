@@ -445,11 +445,11 @@ messageText
 null
 ;
 const
+{
 timer
+}
 =
 message
-.
-timer
 ;
 switch
 (

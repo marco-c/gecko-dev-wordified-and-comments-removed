@@ -475,11 +475,11 @@ nextState
 )
 {
 const
+{
 outputNode
+}
 =
 this
-.
-outputNode
 ;
 if
 (
@@ -503,11 +503,11 @@ return
 ;
 }
 const
+{
 lastChild
+}
 =
 outputNode
-.
-lastChild
 ;
 const
 visibleMessagesDelta
