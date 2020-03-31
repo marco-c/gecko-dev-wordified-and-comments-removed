@@ -7,15 +7,6 @@ mozilla_HoldDropJSObjects_h
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

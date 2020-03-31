@@ -17,15 +17,6 @@ h
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 nsDebug
 .
 h

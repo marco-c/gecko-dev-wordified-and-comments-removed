@@ -37,15 +37,6 @@ h
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 nsCharTraits
 .
 h

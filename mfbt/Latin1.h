@@ -37,15 +37,6 @@ Tuple
 h
 "
 #
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
 if
 MOZ_HAS_JSRUST
 (

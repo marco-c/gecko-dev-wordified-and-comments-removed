@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-TypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Assertions
 .
 h

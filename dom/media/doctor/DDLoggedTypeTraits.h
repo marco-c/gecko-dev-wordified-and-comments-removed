@@ -9,15 +9,6 @@ include
 <
 type_traits
 >
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 namespace
 mozilla
 {

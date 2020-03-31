@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-TypeTraits
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Vector
 .
 h

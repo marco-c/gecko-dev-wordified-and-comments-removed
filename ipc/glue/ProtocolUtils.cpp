@@ -153,15 +153,6 @@ sddl
 h
 "
 #
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
 endif
 using
 namespace

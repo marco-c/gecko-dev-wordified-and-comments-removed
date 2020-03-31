@@ -130,15 +130,6 @@ h
 #
 include
 "
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
-"
 nsComponentManagerUtils
 .
 h

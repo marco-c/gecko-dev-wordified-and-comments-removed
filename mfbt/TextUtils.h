@@ -23,15 +23,6 @@ Latin1
 h
 "
 #
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
 ifdef
 MOZ_HAS_JSRUST
 extern

@@ -6,15 +6,6 @@ define
 mozilla_fuzzing_FuzzingMutate_h
 #
 include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
-include
 <
 random
 >

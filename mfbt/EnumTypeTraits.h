@@ -7,6 +7,13 @@ mozilla_EnumTypeTraits_h
 #
 include
 <
+stddef
+.
+h
+>
+#
+include
+<
 type_traits
 >
 namespace

@@ -50,15 +50,6 @@ Compiler
 .
 h
 "
-#
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
 namespace
 mozilla
 {

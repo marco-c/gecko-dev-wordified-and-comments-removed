@@ -54,15 +54,6 @@ RefPtr
 h
 "
 #
-include
-"
-mozilla
-/
-TypeTraits
-.
-h
-"
-#
 define
 NS_ADDREF
 (
