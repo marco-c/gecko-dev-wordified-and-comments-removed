@@ -1156,6 +1156,15 @@ KeyboardEvent
 .
 DOM_VK_RETURN
 ;
+case
+"
+"
+:
+return
+KeyboardEvent
+.
+DOM_VK_SPACE
+;
 default
 :
 return
