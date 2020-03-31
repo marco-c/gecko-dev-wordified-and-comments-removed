@@ -1578,8 +1578,8 @@ actionOrigin
 searchString
 previousResult
 forcePasswordGeneration
+hasBeenTypePassword
 isSecure
-isPasswordField
 isProbablyANewPasswordField
 }
 )
@@ -1806,7 +1806,7 @@ username
 ;
 if
 (
-isPasswordField
+hasBeenTypePassword
 )
 {
 return

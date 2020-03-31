@@ -89,10 +89,10 @@ requestId
 "
 foo
 "
-isSecure
+hasBeenTypePassword
 :
 true
-isPasswordField
+isSecure
 :
 true
 isProbablyANewPasswordField
@@ -413,7 +413,7 @@ NEW_PASSWORD_TEMPLATE_ARG
 .
 .
 {
-isPasswordField
+hasBeenTypePassword
 :
 false
 isProbablyANewPasswordField
