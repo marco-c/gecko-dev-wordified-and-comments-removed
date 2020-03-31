@@ -1489,15 +1489,13 @@ color
 >
 {
 if
+!
 color
 .
 is_transparent
 (
 )
 {
-return
-;
-}
 let
 color
 =
@@ -1525,6 +1523,7 @@ into
 )
 )
 )
+}
 }
 PropertyDeclaration
 :
