@@ -7026,7 +7026,7 @@ MutableScriptFlagsEnum
 protected
 :
 ImmutableScriptFlags
-immutableScriptFlags_
+immutableFlags_
 ;
 MutableScriptFlags
 mutableFlags_
@@ -7070,7 +7070,7 @@ extent_
 (
 extent
 )
-immutableScriptFlags_
+immutableFlags_
 (
 immutableFlags
 )
@@ -7667,7 +7667,7 @@ immutableFlags
 const
 {
 return
-immutableScriptFlags_
+immutableFlags_
 ;
 }
 void
@@ -7679,7 +7679,7 @@ ImmutableScriptFlags
 flags
 )
 {
-immutableScriptFlags_
+immutableFlags_
 |
 =
 flags
@@ -7695,7 +7695,7 @@ flag
 const
 {
 return
-immutableScriptFlags_
+immutableFlags_
 .
 hasFlag
 (
@@ -7714,7 +7714,7 @@ b
 true
 )
 {
-immutableScriptFlags_
+immutableFlags_
 .
 setFlag
 (
@@ -7730,7 +7730,7 @@ ImmutableFlags
 flag
 )
 {
-immutableScriptFlags_
+immutableFlags_
 .
 clearFlag
 (
@@ -8881,7 +8881,7 @@ return
 offsetof
 (
 BaseScript
-immutableScriptFlags_
+immutableFlags_
 )
 ;
 }

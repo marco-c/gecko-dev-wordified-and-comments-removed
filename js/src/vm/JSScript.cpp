@@ -23985,7 +23985,7 @@ lazyFlags
 script
 -
 >
-immutableScriptFlags_
+immutableFlags_
 ;
 lazyMutableFlags
 =
@@ -24047,7 +24047,7 @@ lazyEnclosingScope
 script
 -
 >
-immutableScriptFlags_
+immutableFlags_
 =
 lazyFlags
 ;
