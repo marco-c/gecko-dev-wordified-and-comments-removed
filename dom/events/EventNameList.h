@@ -1255,13 +1255,6 @@ eVRDisplayPresentChange
 EventNameType_None
 eBasicEventClass
 )
-WINDOW_ONLY_EVENT
-(
-appinstalled
-eAppInstalled
-EventNameType_None
-eBasicEventClass
-)
 TOUCH_EVENT
 (
 touchstart

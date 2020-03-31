@@ -1616,13 +1616,6 @@ messages
 "
 DOM
 :
-Manifest
-:
-FireAppInstalledEvent
-"
-"
-DOM
-:
 ManifestObtainer
 :
 Obtain
