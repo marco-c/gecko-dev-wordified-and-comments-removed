@@ -743,6 +743,16 @@ aOriginKey
 )
 override
 ;
+NS_IMETHOD
+GetNextSubDomainPrincipal
+(
+nsIPrincipal
+*
+*
+aNextSubDomainPrincipal
+)
+override
+;
 nsresult
 ToJSON
 (
