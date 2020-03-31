@@ -310,13 +310,7 @@ missing
 :
         
 print
->
->
-sys
-.
-stderr
-\
-            
+(
 "
 Missing
 values
@@ -337,6 +331,13 @@ join
 (
 missing
 )
+)
+              
+file
+=
+sys
+.
+stderr
 )
         
 sys
@@ -644,11 +645,7 @@ else
 :
         
 print
->
->
-sys
-.
-stderr
+(
 "
 Usage
 :
@@ -670,3 +667,10 @@ argv
 [
 0
 ]
+              
+file
+=
+sys
+.
+stderr
+)
