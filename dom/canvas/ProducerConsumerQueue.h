@@ -480,7 +480,10 @@ struct
 IsTriviallySerializable
 :
 public
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 bool
 std

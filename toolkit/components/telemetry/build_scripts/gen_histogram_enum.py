@@ -797,7 +797,10 @@ s
 "
               
 "
-IntegralConstant
+std
+:
+:
+integral_constant
 <
 uint32_t
 %
