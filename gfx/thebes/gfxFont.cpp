@@ -21692,6 +21692,14 @@ GetAdjustedSize
 /
 5
 ;
+case
+0x3000
+:
+return
+GetAdjustedSize
+(
+)
+;
 default
 :
 return
