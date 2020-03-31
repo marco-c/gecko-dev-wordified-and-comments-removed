@@ -2459,16 +2459,6 @@ Length
 ;
 gcmParams
 .
-ulIvBits
-=
-gcmParams
-.
-ulIvLen
-*
-8
-;
-gcmParams
-.
 pAAD
 =
 mAad
