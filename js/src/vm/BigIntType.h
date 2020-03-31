@@ -254,10 +254,13 @@ js
 :
 Bit
 (
-Base
+js
 :
 :
-NumFlagBitsReservedForGC
+gc
+:
+:
+CellFlagBitsReservedForGC
 )
 ;
 static
