@@ -22295,7 +22295,8 @@ GetParent
 )
 {
 return
-nullptr
+&
+sSuppressData
 ;
 }
 static
