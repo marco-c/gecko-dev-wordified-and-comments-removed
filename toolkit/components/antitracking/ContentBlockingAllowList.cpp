@@ -393,6 +393,13 @@ bool
 aIsAllowListed
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 aIsAllowListed
 =
 false
