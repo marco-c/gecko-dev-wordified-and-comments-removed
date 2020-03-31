@@ -44,7 +44,7 @@ inheritedAttributes
 return
 {
 "
-.
+#
 scrollbutton
 -
 up
@@ -56,13 +56,7 @@ disabled
 =
 scrolledtostart
 "
-"
-[
-part
-=
 scrollbox
-]
-"
 :
 "
 orient
@@ -72,7 +66,7 @@ dir
 smoothscroll
 "
 "
-.
+#
 scrollbutton
 -
 down
@@ -147,7 +141,7 @@ css
 >
 <
 toolbarbutton
-class
+id
 =
 "
 scrollbutton
@@ -214,7 +208,7 @@ indicator
 >
 <
 toolbarbutton
-class
+id
 =
 "
 scrollbutton
@@ -275,11 +269,7 @@ shadowRoot
 querySelector
 (
 "
-[
-part
-=
 scrollbox
-]
 "
 )
 ;
@@ -291,10 +281,9 @@ this
 .
 shadowRoot
 .
-querySelector
+getElementById
 (
 "
-.
 scrollbutton
 -
 up
@@ -309,10 +298,9 @@ this
 .
 shadowRoot
 .
-querySelector
+getElementById
 (
 "
-.
 scrollbutton
 -
 down
