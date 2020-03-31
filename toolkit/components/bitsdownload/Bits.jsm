@@ -2091,7 +2091,6 @@ function
 wrappedObserver_onProgress
 (
 request
-context
 progress
 progressMax
 )
@@ -2121,7 +2120,6 @@ observer
 onProgress
 (
 wrappedRequest
-context
 progress
 progressMax
 )
@@ -2134,7 +2132,6 @@ function
 wrappedObserver_onStatus
 (
 request
-context
 status
 statusArg
 )
@@ -2164,7 +2161,6 @@ observer
 onStatus
 (
 wrappedRequest
-context
 status
 statusArg
 )

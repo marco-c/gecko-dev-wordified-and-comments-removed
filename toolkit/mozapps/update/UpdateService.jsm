@@ -19902,7 +19902,6 @@ function
 Downloader_onProgress
 (
 request
-context
 progress
 maxProgress
 )
@@ -20119,7 +20118,6 @@ listener
 onProgress
 (
 request
-context
 progress
 maxProgress
 )
@@ -20141,7 +20139,6 @@ function
 Downloader_onStatus
 (
 request
-context
 status
 statusText
 )
@@ -20223,7 +20220,6 @@ listener
 onStatus
 (
 request
-context
 status
 statusText
 )
