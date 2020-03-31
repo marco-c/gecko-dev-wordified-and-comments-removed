@@ -4778,6 +4778,15 @@ size
 100
 %
 ;
+overflow
+:
+-
+moz
+-
+hidden
+-
+unscrollable
+;
 }
 input
 [
@@ -4821,8 +4830,6 @@ self
 center
 ;
 padding
--
-inline
 :
 0
 ;
