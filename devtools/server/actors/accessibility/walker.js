@@ -4030,7 +4030,7 @@ rawAccessible
 =
 docAcc
 .
-getDeepestChildAtPoint
+getDeepestChildAtPointInProcess
 (
 event
 .
