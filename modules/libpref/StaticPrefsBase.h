@@ -221,7 +221,10 @@ Order
 >
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -242,7 +245,10 @@ T
 >
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

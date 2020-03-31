@@ -87,6 +87,11 @@ h
 "
 #
 include
+<
+type_traits
+>
+#
+include
 "
 NamespaceImports
 .
@@ -586,7 +591,10 @@ wasm
 Type
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

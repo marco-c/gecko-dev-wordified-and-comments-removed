@@ -64,10 +64,10 @@ JS
 Value
 >
 :
-mozilla
+std
 :
 :
-TrueType
+true_type
 {
 }
 ;

@@ -22,6 +22,11 @@ h
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 LayersLogging
 .
@@ -112,10 +117,10 @@ IsPixel
 TileCoordUnit
 >
 :
-mozilla
+std
 :
 :
-TrueType
+true_type
 {
 }
 ;

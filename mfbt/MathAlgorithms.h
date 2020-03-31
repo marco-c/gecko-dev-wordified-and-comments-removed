@@ -176,7 +176,10 @@ AllowDeprecatedAbsFixed
 int32_t
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -189,7 +192,10 @@ AllowDeprecatedAbsFixed
 int64_t
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -217,7 +223,10 @@ AllowDeprecatedAbs
 int
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;
@@ -230,7 +239,10 @@ AllowDeprecatedAbs
 long
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

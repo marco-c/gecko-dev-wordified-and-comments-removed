@@ -571,7 +571,10 @@ IsExclusive
 >
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

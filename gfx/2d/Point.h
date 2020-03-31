@@ -85,6 +85,11 @@ include
 <
 cmath
 >
+#
+include
+<
+type_traits
+>
 namespace
 mozilla
 {
@@ -116,7 +121,10 @@ gfx
 UnknownUnits
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

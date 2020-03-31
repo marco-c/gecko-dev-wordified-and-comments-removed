@@ -3760,10 +3760,10 @@ U
 )
 >
 :
-mozilla
+std
 :
 :
-TrueType
+true_type
 {
 }
 ;

@@ -1536,7 +1536,10 @@ E
 >
 >
 :
-TrueType
+std
+:
+:
+true_type
 {
 }
 ;

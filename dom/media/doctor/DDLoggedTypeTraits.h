@@ -142,7 +142,10 @@ TYPE
 using
 HasBase
 =
-TrueType
+std
+:
+:
+true_type
 ;
 \
 using
@@ -291,7 +294,10 @@ NAME
 using
 HasBase
 =
-TrueType
+std
+:
+:
+true_type
 ;
 \
 using
