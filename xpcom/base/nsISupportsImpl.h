@@ -62,6 +62,11 @@ atomic
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -6054,10 +6059,10 @@ AddRef
 if
 (
 !
-mozilla
+std
 :
 :
-IsConvertible
+is_convertible_v
 <
 Class
 *
@@ -6067,9 +6072,6 @@ mozilla
 Runnable
 *
 >
-:
-:
-value
 )
 {
 \
@@ -6150,10 +6152,10 @@ Release
 if
 (
 !
-mozilla
+std
 :
 :
-IsConvertible
+is_convertible_v
 <
 Class
 *
@@ -6163,9 +6165,6 @@ mozilla
 Runnable
 *
 >
-:
-:
-value
 )
 {
 \
