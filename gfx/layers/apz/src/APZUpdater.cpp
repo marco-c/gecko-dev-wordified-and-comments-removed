@@ -1186,7 +1186,6 @@ WebRenderScrollDataWrapper
 (
 *
 self
-aRootLayerTreeId
 &
 (
 root
@@ -1330,7 +1329,6 @@ WebRenderScrollDataWrapper
 (
 *
 self
-aRootLayerTreeId
 &
 (
 root
