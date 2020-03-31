@@ -61,6 +61,15 @@ Scope
 .
 h
 "
+#
+include
+"
+vm
+/
+TryNoteKind
+.
+h
+"
 using
 namespace
 js
@@ -820,7 +829,10 @@ JSOp
 :
 :
 Goto
-JSTRY_FOR_OF
+TryNoteKind
+:
+:
+ForOf
 )
 )
 {
