@@ -4481,6 +4481,8 @@ endIndex
 nsresult
 rv
 =
+mStyledRanges
+.
 GetIndicesForInterval
 (
 aRange
@@ -5452,6 +5454,8 @@ endIndex
 nsresult
 res
 =
+mStyledRanges
+.
 GetIndicesForInterval
 (
 aBeginNode
@@ -5533,6 +5537,9 @@ nsresult
 Selection
 :
 :
+StyledRanges
+:
+:
 GetIndicesForInterval
 (
 const
@@ -5596,8 +5603,6 @@ aEndIndex
 ;
 if
 (
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -5628,14 +5633,9 @@ aEndOffset
 int32_t
 endsBeforeIndex
 {
-StyledRanges
-:
-:
 FindInsertionPoint
 (
 &
-mStyledRanges
-.
 mRanges
 *
 aEndNode
@@ -5658,8 +5658,6 @@ nsRange
 *
 endRange
 =
-mStyledRanges
-.
 mRanges
 [
 endsBeforeIndex
@@ -5718,14 +5716,9 @@ endsBeforeIndex
 int32_t
 beginsAfterIndex
 {
-StyledRanges
-:
-:
 FindInsertionPoint
 (
 &
-mStyledRanges
-.
 mRanges
 *
 aBeginNode
@@ -5743,8 +5736,6 @@ beginsAfterIndex
 (
 int32_t
 )
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -5766,8 +5757,6 @@ endsBeforeIndex
 (
 int32_t
 )
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -5780,8 +5769,6 @@ nsRange
 *
 endRange
 =
-mStyledRanges
-.
 mRanges
 [
 endsBeforeIndex
@@ -5819,8 +5806,6 @@ nsRange
 *
 beginRange
 =
-mStyledRanges
-.
 mRanges
 [
 beginsAfterIndex
@@ -5859,8 +5844,6 @@ aBeginOffset
 {
 beginRange
 =
-mStyledRanges
-.
 mRanges
 [
 beginsAfterIndex
@@ -5900,8 +5883,6 @@ nsRange
 *
 beginRange
 =
-mStyledRanges
-.
 mRanges
 [
 beginsAfterIndex
@@ -5946,8 +5927,6 @@ endsBeforeIndex
 (
 int32_t
 )
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -5960,8 +5939,6 @@ nsRange
 *
 endRange
 =
-mStyledRanges
-.
 mRanges
 [
 endsBeforeIndex
@@ -6008,8 +5985,6 @@ beginsAfterIndex
 endsBeforeIndex
 "
 Is
-mStyledRanges
-.
 mRanges
 not
 ordered
