@@ -39885,7 +39885,6 @@ mProgressSink
 OnStatus
 (
 this
-nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -39927,7 +39926,6 @@ mProgressSink
 OnStatus
 (
 this
-nullptr
 status
 NS_ConvertUTF8toUTF16
 (
@@ -39999,7 +39997,6 @@ mProgressSink
 OnProgress
 (
 this
-nullptr
 progress
 progressMax
 )

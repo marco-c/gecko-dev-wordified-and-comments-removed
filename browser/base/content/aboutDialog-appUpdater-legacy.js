@@ -1849,7 +1849,6 @@ break
 onStatus
 (
 aRequest
-aContext
 aStatus
 aStatusArg
 )
@@ -1858,7 +1857,6 @@ aStatusArg
 onProgress
 (
 aRequest
-aContext
 aProgress
 aProgressMax
 )

@@ -3040,7 +3040,6 @@ mProgressSink
 OnStatus
 (
 this
-nullptr
 status
 statusArg
 .
@@ -3062,7 +3061,6 @@ mProgressSink
 OnProgress
 (
 this
-nullptr
 progress
 progressMax
 )
