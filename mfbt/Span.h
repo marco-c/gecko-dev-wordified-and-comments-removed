@@ -208,10 +208,10 @@ T
 struct
 is_span_oracle
 :
-mozilla
+std
 :
 :
-FalseType
+false_type
 {
 }
 ;
@@ -272,10 +272,10 @@ T
 struct
 is_std_array_oracle
 :
-mozilla
+std
 :
 :
-FalseType
+false_type
 {
 }
 ;

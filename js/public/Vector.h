@@ -45,10 +45,10 @@ T
 struct
 TypeIsGCThing
 :
-mozilla
+std
 :
 :
-FalseType
+false_type
 {
 }
 ;

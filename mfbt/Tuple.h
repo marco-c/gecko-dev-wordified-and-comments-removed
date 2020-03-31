@@ -92,7 +92,10 @@ Target
 false
 >
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;

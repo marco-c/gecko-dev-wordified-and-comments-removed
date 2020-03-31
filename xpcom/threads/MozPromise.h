@@ -544,7 +544,10 @@ Return
 struct
 IsMozPromise
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;

@@ -3707,10 +3707,10 @@ int
 struct
 IsCompareMethod
 :
-mozilla
+std
 :
 :
-FalseType
+false_type
 {
 }
 ;

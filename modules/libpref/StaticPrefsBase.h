@@ -6,6 +6,11 @@ define
 mozilla_StaticPrefsBase_h
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -192,7 +197,10 @@ T
 struct
 IsAtomic
 :
-FalseType
+std
+:
+:
+false_type
 {
 }
 ;
