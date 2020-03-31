@@ -2594,7 +2594,7 @@ nested
 inside_sync
 )
 sync
-AccessibleAtPoint
+ChildAtPoint
 (
 uint64_t
 aID
@@ -2602,8 +2602,6 @@ int32_t
 aX
 int32_t
 aY
-bool
-aNeedsScreenCoords
 uint32_t
 aWhich
 )
