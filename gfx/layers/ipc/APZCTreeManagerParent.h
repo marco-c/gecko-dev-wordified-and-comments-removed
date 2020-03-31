@@ -37,8 +37,8 @@ public
 :
 APZCTreeManagerParent
 (
-WRRootId
-aWrRootId
+LayersId
+aLayersId
 RefPtr
 <
 APZCTreeManager
@@ -64,8 +64,6 @@ GetLayersId
 const
 {
 return
-mWrRootId
-.
 mLayersId
 ;
 }
@@ -307,8 +305,8 @@ SLGuidAndRenderRoot
 aGuid
 )
 ;
-WRRootId
-mWrRootId
+LayersId
+mLayersId
 ;
 RefPtr
 <

@@ -896,16 +896,7 @@ return
 new
 APZCTreeManagerParent
 (
-WRRootId
-(
 aLayersId
-gfxUtils
-:
-:
-GetContentRenderRoot
-(
-)
-)
 temp
 tempUpdater
 )
@@ -919,16 +910,7 @@ mParent
 AllocateAPZCTreeManagerParent
 (
 lock
-WRRootId
-(
 aLayersId
-gfxUtils
-:
-:
-GetContentRenderRoot
-(
-)
-)
 state
 )
 ;
@@ -2948,7 +2930,7 @@ ContentCompositorBridgeParent
 SetTestAsyncScrollOffset
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 const
@@ -2987,8 +2969,6 @@ CompositorBridgeParent
 GetIndirectShadowTree
 (
 aLayersId
-.
-mLayersId
 )
 ;
 if
@@ -3029,7 +3009,7 @@ ContentCompositorBridgeParent
 SetTestAsyncZoom
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 const
@@ -3068,8 +3048,6 @@ CompositorBridgeParent
 GetIndirectShadowTree
 (
 aLayersId
-.
-mLayersId
 )
 ;
 if
@@ -3110,7 +3088,7 @@ ContentCompositorBridgeParent
 FlushApzRepaints
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 )
@@ -3138,8 +3116,6 @@ CompositorBridgeParent
 GetIndirectShadowTree
 (
 aLayersId
-.
-mLayersId
 )
 ;
 if
@@ -3177,7 +3153,7 @@ ContentCompositorBridgeParent
 GetAPZTestData
 (
 const
-WRRootId
+LayersId
 &
 aLayersId
 APZTestData
@@ -3208,8 +3184,6 @@ CompositorBridgeParent
 GetIndirectShadowTree
 (
 aLayersId
-.
-mLayersId
 )
 ;
 if
