@@ -150,6 +150,9 @@ CookieJarSettingsArgs
 uint32_t
 cookieBehavior
 ;
+bool
+isOnContentBlockingAllowList
+;
 CookiePermissionData
 [
 ]
