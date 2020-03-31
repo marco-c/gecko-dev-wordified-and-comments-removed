@@ -917,9 +917,6 @@ in
 nsIPrincipal
 aContentStoragePrincipal
 in
-nsIPrincipal
-aContentBlockingAllowListPrincipal
-in
 nsIContentSecurityPolicy
 aCSP
 in

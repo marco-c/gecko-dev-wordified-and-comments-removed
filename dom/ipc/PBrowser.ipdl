@@ -1214,9 +1214,6 @@ contentPrincipal
 nsIPrincipal
 contentStoragePrincipal
 ;
-nsIPrincipal
-contentBlockingAllowListPrincipal
-;
 nsIContentSecurityPolicy
 csp
 ;

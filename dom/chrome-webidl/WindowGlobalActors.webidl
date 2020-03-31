@@ -325,6 +325,12 @@ documentPrincipal
 ;
 readonly
 attribute
+Principal
+?
+contentBlockingAllowListPrincipal
+;
+readonly
+attribute
 URI
 ?
 documentURI

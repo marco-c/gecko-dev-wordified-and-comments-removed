@@ -326,6 +326,16 @@ return
 mDocumentPrincipal
 ;
 }
+nsIPrincipal
+*
+ContentBlockingAllowListPrincipal
+(
+)
+{
+return
+mDocContentBlockingAllowListPrincipal
+;
+}
 CanonicalBrowsingContext
 *
 BrowsingContext
