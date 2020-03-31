@@ -75,17 +75,6 @@ operators
 .
 txt
 "
-MathMLAssociationCopyright
-=
-"
-Copyright
-(
-c
-)
-2016
-MathML
-Association
-"
 def
 downloadWithProgressBar
 (

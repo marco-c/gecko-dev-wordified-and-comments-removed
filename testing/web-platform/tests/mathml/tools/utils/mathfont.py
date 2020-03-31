@@ -4,10 +4,6 @@ import
 print_function
 import
 fontforge
-from
-misc
-import
-MathMLAssociationCopyright
 em
 =
 1000
@@ -15,6 +11,7 @@ def
 create
 (
 aName
+aCopyRight
 )
 :
     
@@ -68,7 +65,7 @@ mathFont
 .
 copyright
 =
-MathMLAssociationCopyright
+aCopyRight
     
 mathFont
 .

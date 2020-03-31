@@ -24,6 +24,16 @@ d
 "
 %
 v
+                    
+"
+Copyright
+(
+c
+)
+2016
+MathML
+Association
+"
 )
 g
 =
