@@ -8145,11 +8145,6 @@ NeedsArgsAnalysis
 )
 MUTABLE_FLAG_GETTER_SETTER
 (
-hideScriptFromDebugger
-HideScriptFromDebugger
-)
-MUTABLE_FLAG_GETTER_SETTER
-(
 spewEnabled
 SpewEnabled
 )
@@ -9407,8 +9402,6 @@ js
 :
 ImmutableScriptFlags
 flags
-bool
-hideScriptFromDebugger
 js
 :
 :

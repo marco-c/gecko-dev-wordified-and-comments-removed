@@ -25426,9 +25426,6 @@ fromCompileOptions
 (
 transitiveOptions
 )
-transitiveOptions
-.
-hideScriptFromDebugger
 funbox
 -
 >
