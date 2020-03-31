@@ -4408,9 +4408,6 @@ kMinWin10BuildNumber
 ;
 if
 (
-aSystemOSBuild
-&
-&
 aBlockedOS
 =
 =
@@ -4799,13 +4796,9 @@ return
 uint32_t
 osBuild
 =
-aForAllowing
-?
 OperatingSystemBuild
 (
 )
-:
-0
 ;
 nsAutoString
 adapterVendorID
