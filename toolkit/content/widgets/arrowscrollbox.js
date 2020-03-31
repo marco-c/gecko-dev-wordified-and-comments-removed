@@ -51,7 +51,6 @@ up
 "
 :
 "
-orient
 disabled
 =
 scrolledtostart
@@ -73,7 +72,6 @@ down
 "
 :
 "
-orient
 disabled
 =
 scrolledtoend
