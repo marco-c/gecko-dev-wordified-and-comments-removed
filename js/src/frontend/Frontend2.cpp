@@ -509,7 +509,7 @@ mozilla
 Span
 <
 const
-jssrcnote
+SrcNote
 >
 (
 )

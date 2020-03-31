@@ -1435,7 +1435,7 @@ mozilla
 Span
 <
 const
-jssrcnote
+SrcNote
 >
 notes
 mozilla
@@ -1695,7 +1695,7 @@ noteOffset
 )
 ;
 }
-jssrcnote
+SrcNote
 *
 notes
 (
@@ -1704,7 +1704,7 @@ notes
 return
 offsetToPointer
 <
-jssrcnote
+SrcNote
 >
 (
 noteOffset
@@ -1718,7 +1718,7 @@ mozilla
 :
 Span
 <
-jssrcnote
+SrcNote
 >
 notesSpan
 (
