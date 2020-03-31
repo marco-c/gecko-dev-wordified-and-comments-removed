@@ -686,6 +686,10 @@ win64
 dump
 -
 syms
+-
+win64
+-
+winchecksec
 android
 -
 armv7
