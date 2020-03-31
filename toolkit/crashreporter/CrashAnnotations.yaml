@@ -1325,6 +1325,9 @@ process
 type
 :
 boolean
+ping
+:
+true
 DOMIPCEnabled
 :
 description
