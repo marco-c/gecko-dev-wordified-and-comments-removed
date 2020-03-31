@@ -369,13 +369,12 @@ _fullyOpen
 ;
 ok
 (
-!
-scrollbox
+arrowScrollbox
 .
 hasAttribute
 (
 "
-notoverflowing
+overflowing
 "
 )
 "
