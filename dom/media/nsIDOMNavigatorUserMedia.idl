@@ -131,6 +131,11 @@ groupId
 ;
 readonly
 attribute
+AString
+rawGroupId
+;
+readonly
+attribute
 boolean
 scary
 ;
