@@ -8756,7 +8756,7 @@ case
 JSOp
 :
 :
-BuiltinProto
+FunctionProto
 :
 case
 JSOp

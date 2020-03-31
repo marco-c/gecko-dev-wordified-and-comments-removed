@@ -2079,14 +2079,11 @@ script
 ;
 JSObject
 *
-BuiltinProtoOperation
+FunctionProtoOperation
 (
 JSContext
 *
 cx
-jsbytecode
-*
-pc
 )
 ;
 bool

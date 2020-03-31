@@ -3793,7 +3793,7 @@ AbortReasonOr
 <
 Ok
 >
-jsop_builtinproto
+jsop_functionproto
 (
 )
 ;

@@ -2396,13 +2396,12 @@ if
 bce_
 -
 >
-emit2
+emit1
 (
 JSOp
 :
 :
-BuiltinProto
-JSProto_Function
+FunctionProto
 )
 )
 {
