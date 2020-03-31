@@ -62,7 +62,7 @@ WarpRegExp
 \
 _
 (
-WarpBuiltinProto
+WarpFunctionProto
 )
 \
 _
@@ -331,7 +331,7 @@ hasShared_
 }
 ;
 class
-WarpBuiltinProto
+WarpFunctionProto
 :
 public
 WarpOpSnapshot
@@ -350,9 +350,9 @@ ThisKind
 Kind
 :
 :
-WarpBuiltinProto
+WarpFunctionProto
 ;
-WarpBuiltinProto
+WarpFunctionProto
 (
 uint32_t
 offset
