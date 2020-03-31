@@ -5903,6 +5903,12 @@ mIsPrimaryFrame
 aIsPrimary
 ;
 }
+bool
+IsPrimaryFrameOfRootOrBodyElement
+(
+)
+const
+;
 virtual
 nsresult
 CharacterDataChanged
