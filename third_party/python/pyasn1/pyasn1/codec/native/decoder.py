@@ -1,18 +1,41 @@
 from
 pyasn1
+import
+debug
+from
+pyasn1
+import
+error
+from
+pyasn1
 .
 type
 import
 base
-univ
+from
+pyasn1
+.
+type
+import
 char
-useful
+from
+pyasn1
+.
+type
+import
 tag
 from
 pyasn1
+.
+type
 import
-debug
-error
+univ
+from
+pyasn1
+.
+type
+import
+useful
 __all__
 =
 [
@@ -20,6 +43,19 @@ __all__
 decode
 '
 ]
+LOG
+=
+debug
+.
+registerLoggee
+(
+__name__
+flags
+=
+debug
+.
+DEBUG_DECODER
+)
 class
 AbstractScalarDecoder
 (
@@ -864,30 +900,7 @@ options
 :
         
 if
-debug
-.
-logger
-&
-debug
-.
-flagDecoder
-:
-            
-logger
-=
-debug
-.
-logger
-        
-else
-:
-            
-logger
-=
-None
-        
-if
-logger
+LOG
 :
             
 debug
@@ -904,7 +917,7 @@ pyObject
 __name__
 )
             
-logger
+LOG
 (
 '
 decoder
@@ -1055,10 +1068,10 @@ tagSet
 )
         
 if
-logger
+LOG
 :
             
-logger
+LOG
 (
 '
 calling
@@ -1109,10 +1122,10 @@ options
 )
         
 if
-logger
+LOG
 :
             
-logger
+LOG
 (
 '
 decoder

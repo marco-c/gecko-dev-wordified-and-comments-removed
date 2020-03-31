@@ -38,6 +38,16 @@ tests
 .
 type
 .
+test_opentype
+.
+suite
+'
+     
+'
+tests
+.
+type
+.
 test_namedtype
 .
 suite

@@ -2,23 +2,38 @@ import
 datetime
 from
 pyasn1
-.
-type
 import
-univ
-char
-tag
+error
+from
+pyasn1
+.
+compat
+import
+dateandtime
 from
 pyasn1
 .
 compat
 import
 string
-dateandtime
 from
 pyasn1
+.
+type
 import
-error
+char
+from
+pyasn1
+.
+type
+import
+tag
+from
+pyasn1
+.
+type
+import
+univ
 __all__
 =
 [
@@ -558,7 +573,7 @@ int
 ms
 )
 *
-10000
+1000
             
 except
 ValueError
@@ -789,6 +804,7 @@ ASN
 1
 |
 object
+            
 from
         
 Returns
@@ -882,7 +898,7 @@ dt
 microsecond
 /
 /
-10000
+1000
 )
         
 if

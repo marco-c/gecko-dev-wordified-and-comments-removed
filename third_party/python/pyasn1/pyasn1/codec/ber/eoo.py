@@ -4,13 +4,25 @@ pyasn1
 type
 import
 base
+from
+pyasn1
+.
+type
+import
 tag
+__all__
+=
+[
+'
+endOfOctets
+'
+]
 class
 EndOfOctets
 (
 base
 .
-AbstractSimpleAsn1Item
+SimpleAsn1Type
 )
 :
     

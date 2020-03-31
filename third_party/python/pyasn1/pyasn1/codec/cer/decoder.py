@@ -1,9 +1,7 @@
 from
 pyasn1
-.
-type
 import
-univ
+error
 from
 pyasn1
 .
@@ -22,8 +20,10 @@ import
 oct2int
 from
 pyasn1
+.
+type
 import
-error
+univ
 __all__
 =
 [
@@ -178,6 +178,9 @@ _createComponent
 asn1Spec
 tagSet
 value
+*
+*
+options
 )
 tail
 BitStringDecoder

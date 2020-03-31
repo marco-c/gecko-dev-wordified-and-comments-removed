@@ -25,6 +25,11 @@ pyasn1
 type
 import
 namedtype
+from
+pyasn1
+.
+type
+import
 univ
 from
 pyasn1
@@ -342,6 +347,8 @@ univ
 .
 Null
 (
+'
+'
 )
 class
 ObjectIdentifierDecoderTestCase
@@ -549,6 +556,8 @@ univ
 .
 Null
 (
+'
+'
 )
         
 s
