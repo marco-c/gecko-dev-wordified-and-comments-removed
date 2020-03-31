@@ -817,7 +817,7 @@ return
 JS
 :
 :
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options

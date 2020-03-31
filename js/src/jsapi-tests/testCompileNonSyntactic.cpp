@@ -447,7 +447,7 @@ Borrowed
 ;
 script
 =
-CompileForNonSyntacticScopeDontInflate
+CompileForNonSyntacticScope
 (
 cx
 options
