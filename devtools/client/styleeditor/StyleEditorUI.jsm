@@ -4888,6 +4888,17 @@ mode
 -
 opened
 "
+)
+;
+ResponsiveUIManager
+.
+getResponsiveUIForTab
+(
+tab
+)
+.
+setViewportSize
+(
 options
 )
 ;
