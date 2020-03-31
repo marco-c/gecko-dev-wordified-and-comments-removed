@@ -1308,13 +1308,13 @@ string
 static_assert
 (
 !
-IsFunction
+std
+:
+:
+is_function_v
 <
 ValueT
 >
-:
-:
-value
 "
 Expected
 boolean
