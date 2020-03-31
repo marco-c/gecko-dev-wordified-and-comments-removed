@@ -69,7 +69,6 @@ toolchain
 !
 =
 nightly
--
 *
 ]
 ]
