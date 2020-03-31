@@ -153,15 +153,6 @@ rust
 mp4parse_capi
 /
 -
-media
-/
-mp4parse
--
-rust
-/
-mp4parse_fallible
-/
--
 modules
 /
 libpref

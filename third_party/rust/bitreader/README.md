@@ -276,7 +276,7 @@ stream
 of
 bits
 .
-Little
+Big
 endian
 format
 is
