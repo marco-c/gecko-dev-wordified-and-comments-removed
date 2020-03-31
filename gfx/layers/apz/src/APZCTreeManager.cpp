@@ -11322,14 +11322,11 @@ GetUpdater
 >
 RunOnUpdaterThread
 (
-UpdaterQueueSelector
-(
 aGuid
 .
-GetWRRootId
-(
-)
-)
+mScrollableLayerGuid
+.
+mLayersId
 NewRunnableMethod
 <
 SLGuidAndRenderRoot
