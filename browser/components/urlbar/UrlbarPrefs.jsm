@@ -194,16 +194,6 @@ false
 ]
 [
 "
-insertMethod
-"
-UrlbarUtils
-.
-INSERTMETHOD
-.
-MERGE_RELATED
-]
-[
-"
 matchBuckets
 "
 "
