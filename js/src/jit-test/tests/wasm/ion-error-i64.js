@@ -113,7 +113,7 @@ local
 get
 1
 call
-add
+0
 i64
 .
 extend_s
