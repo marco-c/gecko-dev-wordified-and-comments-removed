@@ -939,7 +939,10 @@ BytecodeVector
 typedef
 Vector
 <
-jssrcnote
+js
+:
+:
+SrcNote
 64
 >
 SrcNotesVector
