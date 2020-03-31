@@ -135,7 +135,7 @@ new
 OfflineAudioContext
 (
 1
-120
+DURATION
 *
 samplerate
 samplerate
@@ -170,7 +170,7 @@ new
 OfflineAudioContext
 (
 1
-120
+DURATION
 *
 samplerate
 samplerate
@@ -257,7 +257,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -347,7 +347,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -473,7 +473,7 @@ new
 OfflineAudioContext
 (
 1
-120
+DURATION
 *
 samplerate
 samplerate
@@ -556,7 +556,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -642,7 +642,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -764,7 +764,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -855,7 +855,7 @@ new
 OfflineAudioContext
 (
 1
-120
+DURATION
 *
 samplerate
 samplerate
@@ -946,7 +946,7 @@ new
 OfflineAudioContext
 (
 2
-30
+DURATION
 *
 samplerate
 samplerate
@@ -1049,7 +1049,7 @@ new
 OfflineAudioContext
 (
 2
-30
+DURATION
 *
 samplerate
 samplerate
@@ -1215,7 +1215,7 @@ new
 OfflineAudioContext
 (
 2
-300
+DURATION
 *
 samplerate
 samplerate
@@ -1442,7 +1442,7 @@ new
 OfflineAudioContext
 (
 1
-30
+DURATION
 *
 samplerate
 samplerate
@@ -1682,7 +1682,7 @@ new
 OfflineAudioContext
 (
 1
-30
+DURATION
 *
 samplerate
 samplerate
@@ -1691,7 +1691,7 @@ samplerate
 var
 duration
 =
-30
+DURATION
 *
 samplerate
 ;
@@ -1917,7 +1917,7 @@ samplerate
 var
 duration
 =
-30
+DURATION
 ;
 var
 oac
@@ -2090,7 +2090,7 @@ samplerate
 var
 duration
 =
-30
+DURATION
 ;
 var
 oac
@@ -2317,7 +2317,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -2425,7 +2425,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
@@ -2556,7 +2556,7 @@ new
 OfflineAudioContext
 (
 2
-120
+DURATION
 *
 samplerate
 samplerate
