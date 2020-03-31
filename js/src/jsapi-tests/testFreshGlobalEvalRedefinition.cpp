@@ -270,7 +270,7 @@ CHECK
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts

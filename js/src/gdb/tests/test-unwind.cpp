@@ -466,7 +466,7 @@ cx
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts

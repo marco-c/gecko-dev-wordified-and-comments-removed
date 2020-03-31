@@ -5252,7 +5252,7 @@ Borrowed
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts

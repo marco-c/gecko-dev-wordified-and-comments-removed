@@ -5350,7 +5350,7 @@ return
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 options
@@ -59997,7 +59997,7 @@ if
 JS
 :
 :
-EvaluateDontInflate
+Evaluate
 (
 cx
 opts
