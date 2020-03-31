@@ -8,6 +8,11 @@ h
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
@@ -75,12 +80,6 @@ mozilla
 :
 :
 Get
-;
-using
-mozilla
-:
-:
-IsSame
 ;
 using
 mozilla
@@ -174,7 +173,10 @@ expression
 \
 static_assert
 (
-IsSame
+std
+:
+:
+is_same_v
 <
 decltype
 (
@@ -182,9 +184,6 @@ expression
 )
 __VA_ARGS__
 >
-:
-:
-value
 \
 "
 Type
