@@ -585,7 +585,8 @@ test_count
 /
 tests_per_chunk
     
-return
+chunks
+=
 int
 (
 math
@@ -595,3 +596,19 @@ ceil
 chunks
 )
 )
+    
+if
+is_try
+and
+chunks
+=
+=
+0
+:
+        
+chunks
+=
+1
+    
+return
+chunks
