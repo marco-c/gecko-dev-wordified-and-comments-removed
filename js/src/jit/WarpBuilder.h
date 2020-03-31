@@ -1030,6 +1030,11 @@ TableSwitch
 \
 _
 (
+Rest
+)
+\
+_
+(
 SetRval
 )
 \
