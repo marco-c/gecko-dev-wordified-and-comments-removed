@@ -200,6 +200,9 @@ WebGLTransformFeedback
 ;
 typedef
 (
+[
+AllowShared
+]
 Uint32Array
 or
 sequence

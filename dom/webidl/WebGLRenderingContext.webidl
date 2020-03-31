@@ -791,6 +791,9 @@ precision
 ;
 typedef
 (
+[
+AllowShared
+]
 Float32Array
 or
 sequence
@@ -802,6 +805,9 @@ Float32List
 ;
 typedef
 (
+[
+AllowShared
+]
 Int32Array
 or
 sequence
