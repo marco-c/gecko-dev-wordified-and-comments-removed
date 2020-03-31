@@ -7,6 +7,11 @@ nsCOMPtr_h___
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
@@ -565,11 +570,10 @@ T
 using
 PointedToType
 =
-typename
-mozilla
+std
 :
 :
-RemovePointer
+remove_pointer_t
 <
 decltype
 (
@@ -586,9 +590,6 @@ T
 )
 )
 >
-:
-:
-Type
 ;
 }
 #

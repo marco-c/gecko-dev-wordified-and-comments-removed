@@ -64,6 +64,11 @@ queue
 >
 #
 include
+<
+type_traits
+>
+#
+include
 "
 CSFLog
 .
@@ -488,8 +493,10 @@ rv
 using
 RealCallbackType
 =
-typename
-RemovePointer
+std
+:
+:
+remove_pointer_t
 <
 decltype
 (
@@ -500,9 +507,6 @@ get
 )
 )
 >
-:
-:
-Type
 ;
 RefPtr
 <
