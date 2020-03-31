@@ -481,10 +481,6 @@ URIParams
 ?
 topWindowURI
 ;
-nsIPrincipal
-?
-contentBlockingAllowListPrincipal
-;
 uint32_t
 loadFlags
 ;

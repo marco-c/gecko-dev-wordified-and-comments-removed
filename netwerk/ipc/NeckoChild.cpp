@@ -1995,9 +1995,6 @@ aURI
 nsIURI
 *
 aTopWindowURI
-nsIPrincipal
-*
-aContentBlockingAllowListPrincipal
 const
 nsresult
 &
