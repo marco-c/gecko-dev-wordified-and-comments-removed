@@ -39,6 +39,17 @@ packages
 lib_pypy
 /
 *
+wpt
+/
+*
+wptrunner
+/
+*
+*
+/
+tests
+/
+*
 [
 paths
 ]
