@@ -268,6 +268,14 @@ const
 ;
 already_AddRefed
 <
+nsIWidget
+>
+GetParentProcessWidgetContaining
+(
+)
+;
+already_AddRefed
+<
 WindowGlobalParent
 >
 GetEmbedderWindowGlobal
