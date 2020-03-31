@@ -303,6 +303,9 @@ Module
 loader
 )
 "
+supportAMDModules
+:
+true
 requireHook
 :
 (
