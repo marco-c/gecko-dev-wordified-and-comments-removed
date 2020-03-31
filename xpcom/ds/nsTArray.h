@@ -3179,6 +3179,13 @@ MOZ_DECLARE_COPY_CONSTRUCTIBLE
 (
 nsTString
 <
+char
+>
+)
+MOZ_DECLARE_COPY_CONSTRUCTIBLE
+(
+nsTString
+<
 char16_t
 >
 )
