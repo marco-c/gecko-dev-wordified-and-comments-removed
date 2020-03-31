@@ -69,7 +69,7 @@ resource
 /
 search
 -
-plugins
+extensions
 /
 icon16
 .
@@ -97,7 +97,7 @@ resource
 /
 search
 -
-plugins
+extensions
 /
 icon32
 .
