@@ -97,6 +97,13 @@ nsIAccessibleRole
 ROLE_CHROME_WINDOW
 ;
 const
+ROLE_CODE
+=
+nsIAccessibleRole
+.
+ROLE_CODE
+;
+const
 ROLE_COLUMNHEADER
 =
 nsIAccessibleRole
