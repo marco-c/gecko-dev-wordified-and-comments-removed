@@ -201,12 +201,12 @@ sessionId
 )
 ;
 const
-ACTIVITY_STREAM_ID
+TELEMETRY_TOPIC
 =
 "
-activity
--
-stream
+about
+:
+welcome
 "
 ;
 const
@@ -284,7 +284,7 @@ PingCentre
 {
 topic
 :
-ACTIVITY_STREAM_ID
+TELEMETRY_TOPIC
 }
 )
 }
@@ -468,11 +468,6 @@ this
 _generateStructuredIngestionEndpoint
 (
 )
-{
-filter
-:
-ACTIVITY_STREAM_ID
-}
 )
 ;
 }

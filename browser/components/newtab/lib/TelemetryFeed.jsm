@@ -3058,11 +3058,6 @@ namespace
 pingType
 version
 )
-{
-filter
-:
-ACTIVITY_STREAM_ID
-}
 )
 ;
 }
