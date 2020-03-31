@@ -279,6 +279,7 @@ iid
 onProgress
 (
 request
+context
 progress
 progressMax
 )
@@ -291,6 +292,7 @@ true
 onStatus
 (
 request
+context
 status
 statusArg
 )

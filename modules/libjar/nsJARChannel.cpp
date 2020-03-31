@@ -2502,6 +2502,7 @@ mProgressSink
 OnProgress
 (
 this
+nullptr
 aProgress
 mContentLength
 )

@@ -5204,6 +5204,7 @@ function
 DCSE_onProgress
 (
 aRequest
+aContext
 aProgress
 aProgressMax
 )
