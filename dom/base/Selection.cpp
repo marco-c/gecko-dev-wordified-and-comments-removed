@@ -4910,7 +4910,10 @@ nsresult
 Selection
 :
 :
-RemoveRangeInternal
+StyledRanges
+:
+:
+RemoveRangeAndUnregisterSelection
 (
 nsRange
 &
@@ -4934,8 +4937,6 @@ i
 ;
 i
 <
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -4949,8 +4950,6 @@ i
 {
 if
 (
-mStyledRanges
-.
 mRanges
 [
 i
@@ -4983,8 +4982,6 @@ idx
 return
 NS_ERROR_DOM_NOT_FOUND_ERR
 ;
-mStyledRanges
-.
 mRanges
 .
 RemoveElementAt
@@ -5048,7 +5045,9 @@ Collapsed
 nsresult
 rv
 =
-RemoveRangeInternal
+mStyledRanges
+.
+RemoveRangeAndUnregisterSelection
 (
 *
 mStyledRanges
@@ -9278,7 +9277,9 @@ aRv
 nsresult
 rv
 =
-RemoveRangeInternal
+mStyledRanges
+.
+RemoveRangeAndUnregisterSelection
 (
 aRange
 )
@@ -10725,7 +10726,9 @@ No
 nsresult
 res
 =
-RemoveRangeInternal
+mStyledRanges
+.
+RemoveRangeAndUnregisterSelection
 (
 *
 mAnchorFocusRange
