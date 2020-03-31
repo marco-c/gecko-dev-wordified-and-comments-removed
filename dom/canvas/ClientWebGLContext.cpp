@@ -3230,8 +3230,9 @@ state
 .
 mDrawingBufferSize
 =
-{
-}
+Nothing
+(
+)
 ;
 Run
 <
@@ -25772,8 +25773,9 @@ prog
 .
 mUniformLocByName
 =
-{
-}
+Nothing
+(
+)
 ;
 prog
 .

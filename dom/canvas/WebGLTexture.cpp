@@ -880,8 +880,9 @@ cur
 .
 mUninitializedSlices
 =
-{
-}
+Nothing
+(
+)
 ;
 }
 }
@@ -2245,8 +2246,9 @@ imageInfo
 .
 mUninitializedSlices
 =
-{
-}
+Nothing
+(
+)
 ;
 return
 true

@@ -671,8 +671,9 @@ IsWebGL2
 {
 ret
 =
-{
-}
+Nothing
+(
+)
 ;
 }
 break
@@ -700,8 +701,9 @@ ANGLE_instanced_arrays
 {
 ret
 =
-{
-}
+Nothing
+(
+)
 ;
 }
 break
