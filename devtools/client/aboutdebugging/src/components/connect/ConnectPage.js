@@ -149,7 +149,13 @@ ADB_ADDON_STATES
 "
 devtools
 /
+client
+/
 shared
+/
+remote
+-
+debugging
 /
 adb
 /

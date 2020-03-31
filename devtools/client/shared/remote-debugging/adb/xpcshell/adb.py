@@ -232,13 +232,10 @@ TCPServer
 __init__
 (
 self
-\
                                         
 server_address
-\
                                         
 ADBRequestHandler
-\
                                         
 bind_and_activate
 =

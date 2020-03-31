@@ -67,7 +67,13 @@ require
 "
 devtools
 /
+client
+/
 shared
+/
+remote
+-
+debugging
 /
 adb
 /
@@ -85,7 +91,13 @@ require
 "
 devtools
 /
+client
+/
 shared
+/
+remote
+-
+debugging
 /
 adb
 /
