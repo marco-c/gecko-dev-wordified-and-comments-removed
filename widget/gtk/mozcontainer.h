@@ -211,9 +211,6 @@ void
 >
 initial_draw_cbs
 ;
-gboolean
-is_accelerated
-;
 #
 endif
 gboolean
@@ -385,14 +382,6 @@ bool
 aSubtractCorners
 bool
 aFullScreen
-)
-;
-void
-moz_container_set_accelerated
-(
-MozContainer
-*
-container
 )
 ;
 #

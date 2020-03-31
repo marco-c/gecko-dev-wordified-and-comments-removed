@@ -19781,11 +19781,6 @@ MaybeResumeCompositor
 }
 )
 ;
-moz_container_set_accelerated
-(
-mContainer
-)
-;
 }
 #
 endif
