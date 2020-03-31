@@ -231,11 +231,6 @@ GuardIndexIsNonNegative
 \
 _
 (
-GuardIndexGreaterThanDenseCapacity
-)
-\
-_
-(
 GuardIndexGreaterThanArrayLength
 )
 \
