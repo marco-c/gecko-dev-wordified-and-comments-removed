@@ -169,7 +169,7 @@ solib
 -
 add
 trick
-def
+define
 prun
 tbreak
 main
@@ -196,7 +196,7 @@ solib
 -
 add
 trick
-def
+define
 pmail
 tbreak
 main
@@ -252,7 +252,7 @@ less
 than
 100
 .
-def
+define
 pu
 set
 uni
@@ -479,7 +479,7 @@ t
 work
 for
 .
-def
+define
 ps
 set
 str
@@ -539,7 +539,7 @@ value
 for
 an
 nsAtom
-def
+define
 pa
 set
 atom
@@ -598,7 +598,7 @@ nsXULElement
 *
 pointer
 .
-def
+define
 pxul
 set
 p
@@ -638,7 +638,7 @@ of
 an
 XPCOM
 obj
-def
+define
 prefcnt
 set
 p
@@ -677,7 +677,7 @@ of
 a
 content
 node
-def
+define
 ptag
 set
 p
@@ -1056,14 +1056,14 @@ idx2
 from
 tarray
 end
-def
+define
 js
 call
 DumpJSStack
 (
 )
 end
-def
+define
 ft
 call
 arg0
@@ -1073,7 +1073,7 @@ DumpFrameTree
 (
 )
 end
-def
+define
 ftl
 call
 arg0
