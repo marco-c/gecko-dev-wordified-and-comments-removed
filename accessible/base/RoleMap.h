@@ -3304,7 +3304,7 @@ SUMMARY
 summary
 "
 ATK_ROLE_PUSH_BUTTON
-NSAccessibilityGroupRole
+NSAccessibilityButtonRole
 ROLE_SYSTEM_PUSHBUTTON
 ROLE_SYSTEM_PUSHBUTTON
 java
