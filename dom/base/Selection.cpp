@@ -14294,6 +14294,9 @@ Element
 Selection
 :
 :
+StyledRanges
+:
+:
 GetCommonEditingHostForAllRanges
 (
 )
@@ -14310,8 +14313,6 @@ StyledRange
 &
 rangeData
 :
-mStyledRanges
-.
 mRanges
 )
 {
@@ -14575,6 +14576,8 @@ Element
 >
 newEditingHost
 =
+mStyledRanges
+.
 GetCommonEditingHostForAllRanges
 (
 )

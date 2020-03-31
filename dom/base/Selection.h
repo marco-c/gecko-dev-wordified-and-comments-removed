@@ -2340,12 +2340,6 @@ GetHTMLEditor
 )
 const
 ;
-Element
-*
-GetCommonEditingHostForAllRanges
-(
-)
-;
 void
 Disconnect
 (
@@ -2446,6 +2440,12 @@ aOutIndex
 Selection
 &
 aSelection
+)
+;
+Element
+*
+GetCommonEditingHostForAllRanges
+(
 )
 ;
 AutoTArray
