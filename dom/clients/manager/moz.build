@@ -17,11 +17,6 @@ ClientHandle
 h
 '
 '
-ClientHandleParent
-.
-h
-'
-'
 ClientInfo
 .
 h
