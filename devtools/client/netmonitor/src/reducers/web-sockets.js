@@ -310,6 +310,11 @@ currentChannelId
 nextState
 .
 currentChannelId
+columns
+:
+nextState
+.
+columns
 frameFilterType
 :
 nextState
