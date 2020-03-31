@@ -2363,7 +2363,7 @@ GRID_CELL
 gridcell
 "
 ATK_ROLE_TABLE_CELL
-NSAccessibilityGroupRole
+NSAccessibilityCellRole
 ROLE_SYSTEM_CELL
 ROLE_SYSTEM_CELL
 java
