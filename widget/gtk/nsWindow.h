@@ -2160,6 +2160,10 @@ static
 CSDSupportLevel
 GetSystemCSDSupportLevel
 (
+bool
+aIsPIPWindow
+=
+false
 )
 ;
 static

@@ -19076,6 +19076,7 @@ mCSDSupportLevel
 =
 GetSystemCSDSupportLevel
 (
+mIsPIPWindow
 )
 ;
 GdkScreen
@@ -35417,6 +35418,8 @@ nsWindow
 :
 GetSystemCSDSupportLevel
 (
+bool
+aIsPIPWindow
 )
 {
 if
@@ -35592,7 +35595,11 @@ nullptr
 {
 sCSDSupportLevel
 =
+aIsPIPWindow
+?
 CSD_SUPPORT_CLIENT
+:
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
@@ -35612,7 +35619,11 @@ nullptr
 {
 sCSDSupportLevel
 =
+aIsPIPWindow
+?
 CSD_SUPPORT_CLIENT
+:
+CSD_SUPPORT_SYSTEM
 ;
 }
 else
