@@ -4890,12 +4890,15 @@ selection
 this
 }
 ;
+MOZ_KnownLive
+(
 temp
 [
 i
 ]
 .
 mRange
+)
 -
 >
 RegisterSelection
