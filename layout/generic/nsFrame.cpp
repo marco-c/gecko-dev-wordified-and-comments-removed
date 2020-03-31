@@ -16133,7 +16133,10 @@ case
 nsDisplayTransform
 :
 :
-FullPrerender
+PrerenderDecision
+:
+:
+Full
 :
 allowAsyncAnimation
 =
@@ -16149,7 +16152,10 @@ case
 nsDisplayTransform
 :
 :
-PartialPrerender
+PrerenderDecision
+:
+:
+Partial
 :
 allowAsyncAnimation
 =
@@ -16169,7 +16175,10 @@ case
 nsDisplayTransform
 :
 :
-NoPrerender
+PrerenderDecision
+:
+:
+No
 :
 {
 const
