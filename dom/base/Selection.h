@@ -438,6 +438,14 @@ aOutput
 ;
 private
 :
+enum
+class
+DispatchSelectstartEvent
+{
+No
+Maybe
+}
+;
 nsresult
 AddRangesForSelectableNodes
 (
@@ -447,10 +455,8 @@ aRange
 int32_t
 *
 aOutIndex
-bool
-aNoStartSelect
-=
-false
+DispatchSelectstartEvent
+aDispatchSelectstartEvent
 )
 ;
 nsresult
