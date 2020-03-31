@@ -674,6 +674,7 @@ sourceId
 }
 if
 (
+!
 tabExists
 (
 getState
