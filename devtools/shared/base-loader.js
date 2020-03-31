@@ -1938,8 +1938,8 @@ compileMapping
 paths
 )
 ;
-let
-modules
+const
+builtinModuleExports
 =
 {
 "
@@ -1979,10 +1979,6 @@ ChromeWorker
 }
 ;
 const
-builtinModuleExports
-=
-modules
-;
 modules
 =
 {
