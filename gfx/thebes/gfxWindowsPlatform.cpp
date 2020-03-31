@@ -2067,6 +2067,10 @@ InitializeConfig
 (
 )
 ;
+InitializeAdvancedLayersConfig
+(
+)
+;
 if
 (
 mInitializedDevices
