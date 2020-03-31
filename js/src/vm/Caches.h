@@ -126,8 +126,7 @@ HashMap
 <
 jsbytecode
 *
-const
-SrcNote
+jssrcnote
 *
 PointerHasher
 <

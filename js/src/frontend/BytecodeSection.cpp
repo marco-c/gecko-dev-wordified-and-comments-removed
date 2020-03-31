@@ -778,10 +778,7 @@ end
 TryNote
 note
 (
-uint32_t
-(
 kind
-)
 stackDepth
 start
 .

@@ -52,15 +52,6 @@ Scope
 .
 h
 "
-#
-include
-"
-vm
-/
-TryNoteKind
-.
-h
-"
 using
 namespace
 js
@@ -593,10 +584,7 @@ JSOp
 :
 :
 Goto
-TryNoteKind
-:
-:
-ForIn
+JSTRY_FOR_IN
 )
 )
 {
