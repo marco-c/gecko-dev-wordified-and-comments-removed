@@ -380,9 +380,9 @@ login
 guid
 )
 ;
-if
-(
-!
+let
+logins
+=
 Services
 .
 logins
@@ -391,6 +391,11 @@ searchLogins
 (
 matchData
 )
+;
+if
+(
+!
+logins
 .
 length
 )
@@ -404,7 +409,10 @@ logins
 .
 removeLogin
 (
-login
+logins
+[
+0
+]
 )
 ;
 }

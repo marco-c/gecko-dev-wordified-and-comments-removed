@@ -481,5 +481,15 @@ icon
 )
 ;
 }
+else
+{
+alertIcon
+.
+src
+=
+"
+"
+;
+}
 }
 }
