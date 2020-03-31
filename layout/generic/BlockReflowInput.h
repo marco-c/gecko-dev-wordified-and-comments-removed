@@ -77,10 +77,6 @@ mShouldApplyBStartMargin
 (
 false
 )
-mIsFirstInflow
-(
-false
-)
 mHasLineAdjacentToTop
 (
 false
@@ -90,10 +86,6 @@ mBlockNeedsFloatManager
 false
 )
 mIsLineLayoutEmpty
-(
-false
-)
-mIsOverflowContainer
 (
 false
 )
@@ -123,11 +115,6 @@ mShouldApplyBStartMargin
 1
 ;
 bool
-mIsFirstInflow
-:
-1
-;
-bool
 mHasLineAdjacentToTop
 :
 1
@@ -139,11 +126,6 @@ mBlockNeedsFloatManager
 ;
 bool
 mIsLineLayoutEmpty
-:
-1
-;
-bool
-mIsOverflowContainer
 :
 1
 ;
