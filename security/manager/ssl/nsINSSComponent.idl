@@ -134,17 +134,6 @@ getEnterpriseIntermediates
 (
 )
 ;
-void
-addEnterpriseIntermediate
-(
-in
-Array
-<
-octet
->
-intermediateBytes
-)
-;
 [
 noscript
 ]
