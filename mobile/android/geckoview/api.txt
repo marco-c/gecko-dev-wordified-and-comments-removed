@@ -6580,12 +6580,6 @@ field
 public
 final
 boolean
-isDirectNavigation
-;
-field
-public
-final
-boolean
 isRedirect
 ;
 field

@@ -430,7 +430,7 @@ detachFd
 ;
 ThreadUtils
 .
-runOnUiThread
+postToUiThread
 (
 new
 Runnable

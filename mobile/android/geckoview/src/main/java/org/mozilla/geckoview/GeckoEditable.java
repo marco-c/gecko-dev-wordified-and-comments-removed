@@ -6915,7 +6915,7 @@ assertOnIcThread
 }
 ThreadUtils
 .
-runOnUiThread
+postToUiThread
 (
 new
 Runnable
@@ -7710,7 +7710,7 @@ mIMEFlags
 ;
 ThreadUtils
 .
-runOnUiThread
+postToUiThread
 (
 new
 Runnable

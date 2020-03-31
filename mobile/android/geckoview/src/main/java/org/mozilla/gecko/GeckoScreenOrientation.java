@@ -802,7 +802,7 @@ else
 {
 ThreadUtils
 .
-runOnUiThread
+postToUiThread
 (
 notifier
 )
