@@ -1041,7 +1041,7 @@ MediaControlService
 ControllerManager
 :
 :
-ControllerPlaybackStateChanged
+MainControllerPlaybackStateChanged
 (
 MediaSessionPlaybackState
 aState
@@ -1118,7 +1118,7 @@ MediaControlService
 ControllerManager
 :
 :
-ControllerMetadataChanged
+MainControllerMetadataChanged
 (
 const
 MediaMetadataBase
@@ -1311,7 +1311,7 @@ this
 ControllerManager
 :
 :
-ControllerPlaybackStateChanged
+MainControllerPlaybackStateChanged
 )
 ;
 mMetadataChangedListener
@@ -1336,7 +1336,7 @@ this
 ControllerManager
 :
 :
-ControllerMetadataChanged
+MainControllerMetadataChanged
 )
 ;
 mSource

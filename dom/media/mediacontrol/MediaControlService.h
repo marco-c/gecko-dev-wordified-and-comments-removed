@@ -245,14 +245,14 @@ GetControllersNum
 const
 ;
 void
-ControllerPlaybackStateChanged
+MainControllerPlaybackStateChanged
 (
 MediaSessionPlaybackState
 aState
 )
 ;
 void
-ControllerMetadataChanged
+MainControllerMetadataChanged
 (
 const
 MediaMetadataBase
