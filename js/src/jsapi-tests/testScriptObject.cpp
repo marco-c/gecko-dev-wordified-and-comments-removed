@@ -803,7 +803,7 @@ cx
 JS
 :
 :
-CompileUtf8PathDontInflate
+CompileUtf8Path
 (
 cx
 options
@@ -896,7 +896,7 @@ cx
 JS
 :
 :
-CompileUtf8PathDontInflate
+CompileUtf8Path
 (
 cx
 options

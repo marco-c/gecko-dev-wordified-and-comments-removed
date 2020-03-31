@@ -9593,7 +9593,7 @@ compileOnly
 JS
 :
 :
-CompileUtf8PathDontInflate
+CompileUtf8Path
 (
 cx
 opts
@@ -19337,7 +19337,7 @@ script
 JS
 :
 :
-CompileUtf8PathDontInflate
+CompileUtf8Path
 (
 cx
 options
