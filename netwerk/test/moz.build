@@ -11,6 +11,9 @@ gtest
 '
 unit
 '
+'
+http3server
+'
 ]
 BROWSER_CHROME_MANIFESTS
 +
