@@ -11751,6 +11751,13 @@ startup
 shuttingDown
 )
 {
+if
+(
+Services
+.
+profiler
+)
+{
 Services
 .
 profiler
@@ -11762,6 +11769,7 @@ startupIdleTask
 "
 )
 ;
+}
 try
 {
 task
@@ -12024,6 +12032,13 @@ startup
 shuttingDown
 )
 {
+if
+(
+Services
+.
+profiler
+)
+{
 Services
 .
 profiler
@@ -12035,6 +12050,7 @@ startupLateIdleTask
 "
 )
 ;
+}
 try
 {
 task
