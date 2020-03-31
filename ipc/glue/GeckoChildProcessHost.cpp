@@ -7641,6 +7641,12 @@ false
 #
 ifdef
 MOZ_SANDBOX
+if
+(
+!
+mUseSandbox
+)
+{
 switch
 (
 mProcessType
@@ -7705,6 +7711,7 @@ peer
 }
 break
 ;
+}
 }
 #
 endif
