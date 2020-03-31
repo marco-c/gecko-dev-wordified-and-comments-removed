@@ -157,6 +157,14 @@ nsIChannel
 aChannel
 )
 ;
+static
+bool
+IsRejectThirdPartyTrackers
+(
+uint32_t
+aCookieBehavior
+)
+;
 private
 :
 enum
