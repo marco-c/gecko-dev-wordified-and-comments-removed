@@ -18,6 +18,17 @@ h
 "
 #
 include
+"
+mozilla
+/
+dom
+/
+IPCBlobUtils
+.
+h
+"
+#
+include
 <
 private
 /

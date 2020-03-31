@@ -103,6 +103,9 @@ mozilla
 namespace
 dom
 {
+class
+IPCBlobInputStream
+;
 namespace
 {
 class
