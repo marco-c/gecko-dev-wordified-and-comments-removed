@@ -147,3 +147,5 @@ unset
 WASI_SYSROOT
 unset
 PDBSTR
+unset
+WINCHECKSEC

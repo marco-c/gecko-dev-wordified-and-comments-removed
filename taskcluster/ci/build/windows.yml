@@ -77,6 +77,10 @@ toolchain
 -
 win64
 -
+winchecksec
+-
+win64
+-
 dump
 -
 syms
