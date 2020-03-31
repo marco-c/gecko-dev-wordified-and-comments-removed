@@ -101,11 +101,9 @@ top
 ;
 }
 .
-popup
+menupopup
 -
-internal
--
-box
+arrowscrollbox
 {
 padding
 :
