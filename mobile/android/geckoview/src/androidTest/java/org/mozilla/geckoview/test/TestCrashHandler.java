@@ -452,9 +452,9 @@ ComponentName
 className
 )
 {
-mService
-=
-null
+disconnect
+(
+)
 ;
 }
 }
@@ -683,6 +683,14 @@ unbindService
 (
 mConnection
 )
+;
+mService
+=
+null
+;
+mDoUnbind
+=
+false
 ;
 }
 mThread
