@@ -768,6 +768,8 @@ PartialEq
 Serialize
 SpecifiedValueInfo
 ToAnimatedZero
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2102,6 +2104,8 @@ PartialEq
 Serialize
 SpecifiedValueInfo
 ToAnimatedZero
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2163,7 +2167,9 @@ PartialEq
 Serialize
 SpecifiedValueInfo
 ToAnimatedZero
+ToComputedValue
 ToCss
+ToResolvedValue
 ToShmem
 )
 ]
@@ -2223,6 +2229,8 @@ MallocSizeOf
 PartialEq
 Serialize
 SpecifiedValueInfo
+ToComputedValue
+ToResolvedValue
 ToShmem
 )
 ]
