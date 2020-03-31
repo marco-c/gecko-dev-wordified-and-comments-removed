@@ -1023,6 +1023,11 @@ chrome
 "
 chromium
 "
+'
+chrome
+-
+m
+'
 )
 :
             
@@ -1777,7 +1782,16 @@ format
 .
 join
 (
+[
+str
+(
+c
+)
+for
+c
+in
 cmd
+]
 )
 )
 )

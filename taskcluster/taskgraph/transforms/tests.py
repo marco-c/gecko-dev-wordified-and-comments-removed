@@ -6593,11 +6593,6 @@ android
 '
 linux64
 -
-chromedriver
-'
-'
-linux64
--
 ffmpeg
 -
 4
@@ -6615,7 +6610,6 @@ linux
 '
 :
 [
-                    
 '
 linux64
 -
@@ -6627,7 +6621,6 @@ ffmpeg
 .
 4
 '
-                
 ]
                 
 '
@@ -6637,7 +6630,6 @@ macosx
 '
 :
 [
-                    
 '
 mac64
 -
@@ -6649,7 +6641,6 @@ ffmpeg
 .
 1
 '
-                
 ]
                 
 '
@@ -6662,7 +6653,6 @@ aarch64
 '
 :
 [
-                    
 '
 win64
 -
@@ -6674,7 +6664,6 @@ ffmpeg
 .
 1
 '
-                
 ]
                 
 '
@@ -6688,7 +6677,6 @@ windows
 '
 :
 [
-                    
 '
 win64
 -
@@ -6700,7 +6688,6 @@ ffmpeg
 .
 1
 '
-                
 ]
                 
 '
@@ -6714,7 +6701,6 @@ windows
 '
 :
 [
-                    
 '
 win64
 -
@@ -6726,7 +6712,6 @@ ffmpeg
 .
 1
 '
-                
 ]
             
 }
@@ -6736,6 +6721,32 @@ ffmpeg
 cd_fetches
 =
 {
+            
+'
+android
+.
+*
+'
+:
+[
+                
+'
+linux64
+-
+chromedriver
+-
+80
+'
+                
+'
+linux64
+-
+chromedriver
+-
+81
+'
+            
+]
             
 '
 linux
@@ -6930,6 +6941,8 @@ chrome
 '
 in
 extra_options
+\
+           
 or
 '
 -
@@ -6937,6 +6950,20 @@ or
 app
 =
 chromium
+'
+in
+extra_options
+\
+           
+or
+'
+-
+-
+app
+=
+chrome
+-
+m
 '
 in
 extra_options
@@ -6968,6 +6995,31 @@ cd_fetches
 [
 platform
 ]
+)
+        
+if
+'
+-
+-
+app
+=
+chrome
+-
+m
+'
+in
+extra_options
+:
+            
+extra_options
+.
+append
+(
+'
+-
+-
+noinstall
+'
 )
         
 test
@@ -7398,6 +7450,12 @@ geckoview
         
 '
 refbrow
+'
+        
+'
+chrome
+-
+m
 '
     
 )

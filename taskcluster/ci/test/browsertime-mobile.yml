@@ -194,7 +194,7 @@ default
 :
 [
 ]
-refbrow
+default
 :
 [
 ]
@@ -366,11 +366,6 @@ build
 target
 .
 apk
-geckoview
-:
-geckoview_example
-.
-apk
 refbrow
 :
 by
@@ -438,6 +433,11 @@ name
 target
 .
 apk
+default
+:
+geckoview_example
+.
+apk
 e10s
 :
 true
@@ -488,6 +488,9 @@ reference
 browser
 .
 BrowserTestActivity
+default
+:
+None
 binary
 -
 path
@@ -530,6 +533,9 @@ reference
 browser
 .
 raptor
+default
+:
+None
 mozharness
 :
 script
@@ -688,6 +694,11 @@ fenix
 "
 "
 fennec
+"
+"
+chrome
+-
+m
 "
 ]
 run

@@ -796,27 +796,41 @@ choices
 "
 :
 [
+            
 "
 firefox
 "
+            
 "
 chrome
 "
+            
+"
+chrome
+-
+m
+"
+            
 "
 chromium
 "
+            
 "
 fennec
 "
+            
 "
 geckoview
 "
+            
 "
 refbrow
 "
+            
 "
 fenix
 "
+          
 ]
           
 "
@@ -3092,6 +3106,12 @@ False
         
 self
 .
+chromium_dist_path
+=
+None
+        
+self
+.
 firefox_android_browsers
 =
 [
@@ -3106,6 +3126,22 @@ refbrow
 "
 "
 fenix
+"
+]
+        
+self
+.
+android_browsers
+=
+self
+.
+firefox_android_browsers
++
+[
+"
+chrome
+-
+m
 "
 ]
         
@@ -4189,6 +4225,9 @@ binary
 self
 .
 chromium_dist_path
+or
+"
+"
         
 if
 '
@@ -5481,6 +5520,21 @@ self
 :
         
 if
+not
+self
+.
+config
+.
+get
+(
+'
+noinstall
+'
+False
+)
+:
+            
+if
 self
 .
 app
@@ -5489,7 +5543,7 @@ self
 .
 firefox_android_browsers
 :
-            
+                
 self
 .
 device
@@ -5500,7 +5554,7 @@ self
 .
 binary_path
 )
-            
+                
 self
 .
 install_apk
@@ -5509,10 +5563,10 @@ self
 .
 installer_path
 )
-        
+            
 else
 :
-            
+                
 super
 (
 Raptor
@@ -6285,7 +6339,7 @@ app
 in
 self
 .
-firefox_android_browsers
+android_browsers
 :
             
 self
@@ -6373,7 +6427,7 @@ app
 in
 self
 .
-firefox_android_browsers
+android_browsers
 :
             
 self

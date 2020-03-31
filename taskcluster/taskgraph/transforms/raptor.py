@@ -497,6 +497,16 @@ ChR
 '
         
 '
+chrome
+-
+m
+'
+:
+'
+ChR
+'
+        
+'
 chromium
 '
 :
