@@ -1096,6 +1096,9 @@ bool
 mBufferNeedsClear
 ;
 bool
+mSmoothRendering
+;
+bool
 mIsMainThread
 ;
 static
