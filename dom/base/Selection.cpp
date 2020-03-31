@@ -4567,6 +4567,8 @@ const
 bool
 sameRange
 =
+mStyledRanges
+.
 HasEqualRangeBoundariesAt
 (
 *
@@ -5207,6 +5209,9 @@ bool
 Selection
 :
 :
+StyledRanges
+:
+:
 HasEqualRangeBoundariesAt
 (
 const
@@ -5231,8 +5236,6 @@ aRangeIndex
 (
 int32_t
 )
-mStyledRanges
-.
 mRanges
 .
 Length
@@ -5245,8 +5248,6 @@ nsRange
 *
 range
 =
-mStyledRanges
-.
 mRanges
 [
 aRangeIndex
