@@ -381,6 +381,9 @@ CSPInfo
 ?
 cspToInheritInfo
 ;
+bool
+hasStoragePermission
+;
 }
 ;
 struct
@@ -423,6 +426,9 @@ cookieJarSettings
 ;
 uint32_t
 requestBlockingReason
+;
+bool
+hasStoragePermission
 ;
 }
 ;

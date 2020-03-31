@@ -871,6 +871,13 @@ cookieJarSettings
 [
 infallible
 ]
+attribute
+boolean
+hasStoragePermission
+;
+[
+infallible
+]
 readonly
 attribute
 boolean

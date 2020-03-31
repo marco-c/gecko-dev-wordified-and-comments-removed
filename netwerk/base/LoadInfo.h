@@ -549,6 +549,8 @@ bool
 aSkipContentSniffing
 uint32_t
 aHttpsOnlyStatus
+bool
+aHasStoragePermission
 uint32_t
 aRequestBlockingReason
 nsINode
@@ -957,6 +959,9 @@ mSkipContentSniffing
 ;
 uint32_t
 mHttpsOnlyStatus
+;
+bool
+mHasStoragePermission
 ;
 bool
 mIsFromProcessingFrameAttributes
