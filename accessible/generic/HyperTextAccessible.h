@@ -387,6 +387,7 @@ nsRange
 *
 aRange
 )
+const
 ;
 DOMPoint
 OffsetToDOMPoint
@@ -394,6 +395,7 @@ OffsetToDOMPoint
 int32_t
 aOffset
 )
+const
 ;
 bool
 IsTextRole
@@ -1267,6 +1269,7 @@ nsIContent
 *
 aElementContent
 )
+const
 ;
 nsresult
 GetDOMPointByFrameOffset

@@ -1655,6 +1655,7 @@ nsRange
 *
 aRange
 )
+const
 {
 DOMPoint
 startPoint
@@ -1802,6 +1803,7 @@ OffsetToDOMPoint
 int32_t
 aOffset
 )
+const
 {
 if
 (
@@ -2060,6 +2062,7 @@ nsIContent
 *
 aElementContent
 )
+const
 {
 MOZ_ASSERT
 (
