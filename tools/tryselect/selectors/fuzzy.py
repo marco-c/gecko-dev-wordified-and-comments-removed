@@ -1594,11 +1594,9 @@ if
 update
 and
 not
-os
+fzf_bin
 .
-path
-.
-isdir
+startswith
 (
 fzf_path
 )
