@@ -14021,8 +14021,6 @@ IsEmpty
 )
 )
 {
-if
-(
 PaintedLayerData
 *
 containingPld
@@ -14033,6 +14031,16 @@ mLayerBuilder
 GetContainingPaintedLayerData
 (
 )
+;
+if
+(
+containingPld
+&
+&
+containingPld
+-
+>
+mLayer
 )
 {
 containingPld
