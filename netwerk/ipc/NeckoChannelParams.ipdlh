@@ -365,8 +365,8 @@ cspNonce
 bool
 skipContentSniffing
 ;
-bool
-httpsOnlyNoUpgrade
+uint32_t
+httpsOnlyStatus
 ;
 bool
 isFromProcessingFrameAttributes
@@ -402,8 +402,8 @@ tainting
 bool
 skipContentSniffing
 ;
-bool
-httpsOnlyNoUpgrade
+uint32_t
+httpsOnlyStatus
 ;
 bool
 serviceWorkerTaintingSynthesized
