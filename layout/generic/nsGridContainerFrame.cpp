@@ -5543,10 +5543,6 @@ MOZ_ASSERT
 kMaxLine
 >
 numTracks
--
-NumRepeatTracks
-(
-)
 )
 ;
 const
@@ -5555,13 +5551,7 @@ maxRepeatTrackCount
 =
 kMaxLine
 -
-(
 numTracks
--
-NumRepeatTracks
-(
-)
-)
 ;
 const
 uint32_t
