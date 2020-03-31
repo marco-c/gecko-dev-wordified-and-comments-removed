@@ -210,6 +210,18 @@ return
 false
 ;
 }
+auto
+*
+basePrin
+=
+BasePrincipal
+:
+:
+Cast
+(
+toplevelPrincipal
+)
+;
 nsCOMPtr
 <
 nsIURI
@@ -218,7 +230,7 @@ principalURI
 ;
 rv
 =
-toplevelPrincipal
+basePrin
 -
 >
 GetURI
