@@ -674,7 +674,7 @@ window
 mManager
 -
 >
-WindowGlobal
+GetWindowGlobal
 (
 )
 ;
