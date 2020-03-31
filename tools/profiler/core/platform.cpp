@@ -416,6 +416,11 @@ include
 sstream
 >
 #
+include
+<
+type_traits
+>
+#
 ifdef
 MOZ_TASK_TRACER
 #
@@ -12719,7 +12724,10 @@ aSamplingState
 ;
 static_assert
 (
-IsSame
+std
+:
+:
+is_same_v
 <
 decltype
 (
@@ -12730,9 +12738,6 @@ UniquePtr
 PostSamplingCallbackListItem
 >
 >
-:
-:
-value
 "
 We
 need
