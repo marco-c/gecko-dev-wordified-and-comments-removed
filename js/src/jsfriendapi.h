@@ -5188,13 +5188,6 @@ HandleValue
 exn
 SniffingBehavior
 sniffingBehavior
-JS
-:
-:
-HandleObject
-fallbackStack
-=
-nullptr
 )
 ;
 JSErrorReport
@@ -5228,11 +5221,6 @@ populateUncaughtExceptionReportUTF8
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-fallbackStack
 .
 .
 .
@@ -5244,11 +5232,6 @@ populateUncaughtExceptionReportUTF8VA
 JSContext
 *
 cx
-JS
-:
-:
-HandleObject
-fallbackStack
 va_list
 ap
 )
