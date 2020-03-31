@@ -2242,6 +2242,16 @@ state_dir
 checkout_root
 )
         
+self
+.
+instance
+.
+ensure_fix_stacks_packages
+(
+state_dir
+checkout_root
+)
+        
 if
 not
 self
@@ -2316,16 +2326,6 @@ self
 instance
 .
 ensure_dump_syms_packages
-(
-state_dir
-checkout_root
-)
-            
-self
-.
-instance
-.
-ensure_fix_stacks_packages
 (
 state_dir
 checkout_root
