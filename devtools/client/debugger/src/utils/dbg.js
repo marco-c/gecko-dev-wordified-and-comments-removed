@@ -49,6 +49,19 @@ source
 documents
 "
 ;
+import
+type
+{
+URL
+}
+from
+"
+.
+.
+/
+types
+"
+;
 function
 getThreadFront
 (
@@ -77,7 +90,7 @@ dbg
 any
 url
 :
-string
+URL
 )
 {
 const
@@ -124,7 +137,7 @@ dbg
 any
 url
 :
-string
+URL
 )
 {
 const

@@ -245,10 +245,7 @@ if
 (
 !
 selectedSource
-|
-|
-!
-selectedSource
+?
 .
 content
 )

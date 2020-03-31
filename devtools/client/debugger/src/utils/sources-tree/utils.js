@@ -35,6 +35,7 @@ type
 {
 Source
 Thread
+URL
 }
 from
 "
@@ -143,7 +144,7 @@ pathPart
 string
 debuggeeUrl
 :
-string
+URL
 )
 {
 const
@@ -789,7 +790,7 @@ getRelativePath
 (
 url
 :
-string
+URL
 )
 {
 const

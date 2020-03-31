@@ -2,8 +2,10 @@ import
 type
 {
 Source
+SourceId
 SourceLocation
 Context
+URL
 }
 from
 "
@@ -72,7 +74,7 @@ Context
 +
 sourceId
 :
-string
+SourceId
 +
 epoch
 :
@@ -186,7 +188,7 @@ Context
 +
 url
 :
-string
+URL
 +
 line
 ?
@@ -287,7 +289,7 @@ MOVE_TAB
 +
 url
 :
-string
+URL
 +
 tabIndex
 :
@@ -306,7 +308,7 @@ MOVE_TAB_BY_SOURCE_ID
 +
 sourceId
 :
-string
+SourceId
 +
 tabIndex
 :
@@ -365,7 +367,7 @@ number
 ]
 sourceId
 :
-string
+SourceId
 |
 }
 ;

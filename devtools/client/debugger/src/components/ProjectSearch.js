@@ -209,6 +209,7 @@ import
 type
 {
 Context
+SourceId
 }
 from
 "
@@ -250,7 +251,7 @@ MATCH
 "
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -291,7 +292,7 @@ Match
 >
 sourceId
 :
-string
+SourceId
 }
 ;
 type

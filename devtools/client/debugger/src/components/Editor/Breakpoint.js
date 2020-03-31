@@ -416,11 +416,7 @@ this
 .
 onClick
 ;
-(
 bp
-:
-any
-)
 .
 oncontextmenu
 =

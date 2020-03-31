@@ -5,6 +5,7 @@ Source
 Range
 SourceLocation
 Context
+URL
 }
 from
 "
@@ -257,7 +258,7 @@ Context
 +
 url
 :
-string
+URL
 |
 }
 |

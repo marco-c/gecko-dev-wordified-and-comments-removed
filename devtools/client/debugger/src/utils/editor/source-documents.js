@@ -238,7 +238,7 @@ editor
 SourceEditor
 sourceId
 :
-string
+SourceId
 )
 {
 if

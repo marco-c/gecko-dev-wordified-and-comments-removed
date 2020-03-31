@@ -75,6 +75,20 @@ sources
 import
 type
 {
+SourceId
+URL
+}
+from
+"
+.
+.
+/
+types
+"
+;
+import
+type
+{
 Action
 }
 from
@@ -120,7 +134,7 @@ PersistedTab
 |
 url
 :
-string
+URL
 framework
 ?
 :
@@ -132,7 +146,7 @@ isOriginal
 boolean
 sourceId
 :
-null
+SourceId
 |
 }
 ;
@@ -148,7 +162,7 @@ VisibleTab
 Tab
 sourceId
 :
-string
+SourceId
 |
 }
 ;
@@ -1343,7 +1357,7 @@ state
 State
 sourceId
 :
-string
+SourceId
 )
 {
 return

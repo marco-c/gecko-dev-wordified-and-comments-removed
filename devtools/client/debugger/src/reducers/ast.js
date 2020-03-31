@@ -591,6 +591,8 @@ location
 :
 SourceLocation
 )
+:
+boolean
 {
 return
 !

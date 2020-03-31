@@ -138,6 +138,7 @@ SourceLocation
 ASTLocation
 PendingBreakpoint
 SourceId
+Source
 BreakpointPositions
 Context
 }
@@ -163,6 +164,8 @@ Context
 getState
 dispatch
 }
+:
+ThunkArgs
 location
 :
 SourceLocation
@@ -228,7 +231,11 @@ location
 :
 SourceLocation
 source
+:
+Source
 thunkArgs
+:
+ThunkArgs
 )
 {
 const

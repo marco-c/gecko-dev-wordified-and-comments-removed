@@ -147,6 +147,7 @@ SourceActor
 SourceContent
 SourceLocation
 ThreadId
+URL
 }
 from
 "
@@ -511,7 +512,7 @@ isPrettyURL
 (
 url
 :
-string
+URL
 )
 :
 boolean
@@ -590,7 +591,7 @@ getPrettySourceURL
 url
 :
 ?
-string
+URL
 )
 :
 string
@@ -621,7 +622,7 @@ getRawSourceURL
 (
 url
 :
-string
+URL
 )
 :
 string
@@ -662,7 +663,7 @@ resolveFileURL
 (
 url
 :
-string
+URL
 transformUrl
 :
 transformUrlCallback
@@ -771,7 +772,7 @@ source
 Source
 rawSourceURL
 :
-string
+URL
 =
 getRawSourceURL
 (
@@ -1331,7 +1332,7 @@ getSourcePath
 (
 url
 :
-string
+URL
 )
 {
 if
@@ -2522,7 +2523,7 @@ isUrlExtension
 (
 url
 :
-string
+URL
 )
 {
 return
@@ -2557,7 +2558,7 @@ isExtensionDirectoryPath
 (
 url
 :
-string
+URL
 )
 {
 if
@@ -2650,7 +2651,7 @@ getPlainUrl
 (
 url
 :
-string
+URL
 )
 :
 string

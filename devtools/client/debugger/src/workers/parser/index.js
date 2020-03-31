@@ -85,7 +85,7 @@ findOutOfScopeLocations
 (
 sourceId
 :
-string
+SourceId
 position
 :
 AstPosition
@@ -194,7 +194,7 @@ getSymbols
 (
 sourceId
 :
-string
+SourceId
 )
 :
 Promise

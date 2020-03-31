@@ -485,6 +485,8 @@ function
 isWasmOriginalSourceFrame
 (
 frame
+:
+Frame
 getState
 :
 (
@@ -823,7 +825,13 @@ function
 updateFrameSymbols
 (
 cx
+:
+ThreadContext
 frames
+:
+Frame
+[
+]
 {
 dispatch
 getState

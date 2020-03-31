@@ -93,6 +93,7 @@ type
 Breakpoint
 Source
 SourceLocation
+SourceId
 XHRBreakpoint
 Context
 }
@@ -701,7 +702,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -1017,7 +1018,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -1071,7 +1072,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -1126,7 +1127,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 line
 :
 number

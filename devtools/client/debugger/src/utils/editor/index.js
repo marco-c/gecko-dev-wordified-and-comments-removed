@@ -137,6 +137,7 @@ type
 SearchModifiers
 Source
 SourceLocation
+SourceId
 }
 from
 "
@@ -353,7 +354,7 @@ toEditorLine
 (
 sourceId
 :
-string
+SourceId
 lineOrOffset
 :
 number
@@ -396,7 +397,7 @@ fromEditorLine
 (
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -482,7 +483,7 @@ toEditorRange
 (
 sourceId
 :
-string
+SourceId
 location
 :
 AstLocation
@@ -533,7 +534,7 @@ toSourceLine
 (
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -1047,7 +1048,7 @@ codeMirror
 Object
 sourceId
 :
-string
+SourceId
 event
 :
 MouseEvent

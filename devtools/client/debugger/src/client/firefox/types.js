@@ -9,6 +9,7 @@ Script
 PendingLocation
 SourceId
 Range
+URL
 }
 from
 "
@@ -38,11 +39,6 @@ actions
 /
 types
 "
-;
-type
-URL
-=
-string
 ;
 export
 type
@@ -413,7 +409,7 @@ navigateTo
 {
 url
 :
-string
+URL
 }
 )
 =
@@ -491,7 +487,7 @@ chrome
 Boolean
 url
 :
-string
+URL
 isParentProcess
 :
 Boolean
@@ -851,7 +847,7 @@ location
 {
 url
 :
-string
+URL
 line
 :
 number
@@ -907,7 +903,7 @@ userDisplayName
 string
 url
 :
-string
+URL
 line
 :
 number
@@ -1393,7 +1389,7 @@ Promise
 >
 url
 :
-string
+URL
 setActiveEventBreakpoints
 :
 (
@@ -1480,7 +1476,7 @@ openLink
 (
 url
 :
-string
+URL
 )
 =
 >

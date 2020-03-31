@@ -68,6 +68,7 @@ Script
 SourceId
 SourceActor
 Range
+URL
 }
 from
 "
@@ -1371,7 +1372,7 @@ navigate
 (
 url
 :
-string
+URL
 )
 :
 Promise

@@ -55,6 +55,8 @@ type
 {
 Source
 Context
+SourceId
+URL
 }
 from
 "
@@ -144,7 +146,7 @@ moveTab
 (
 url
 :
-string
+URL
 tabIndex
 :
 number
@@ -170,7 +172,7 @@ moveTabBySourceId
 (
 sourceId
 :
-string
+SourceId
 tabIndex
 :
 number

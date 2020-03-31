@@ -222,8 +222,10 @@ type
 {
 SourceLocation
 PartialPosition
+SourceId
 Source
 Context
+URL
 }
 from
 "
@@ -289,7 +291,7 @@ cx
 Context
 url
 :
-string
+URL
 options
 ?
 :
@@ -358,7 +360,7 @@ cx
 Context
 url
 :
-string
+URL
 options
 ?
 :
@@ -451,7 +453,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 options
 :
 PartialPosition

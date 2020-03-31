@@ -189,6 +189,7 @@ ThreadId
 MappedLocation
 BreakpointPosition
 BreakpointPositions
+URL
 }
 from
 "
@@ -355,7 +356,7 @@ SourceId
 +
 url
 :
-string
+URL
 +
 isBlackBoxed
 :
@@ -367,12 +368,12 @@ boolean
 +
 relativeUrl
 :
-string
+URL
 +
 introductionUrl
 :
 ?
-string
+URL
 +
 introductionType
 :
@@ -2506,7 +2507,7 @@ urls
 UrlsMap
 url
 :
-string
+URL
 )
 :
 Source
@@ -2560,7 +2561,7 @@ state
 OuterState
 url
 :
-string
+URL
 )
 :
 Source
@@ -2591,7 +2592,7 @@ state
 OuterState
 url
 :
-string
+URL
 )
 :
 ?
@@ -2629,7 +2630,7 @@ urls
 UrlsMap
 url
 :
-string
+URL
 isOriginal
 :
 boolean
@@ -2684,7 +2685,7 @@ state
 OuterState
 url
 :
-string
+URL
 isOriginal
 :
 boolean
@@ -2718,7 +2719,7 @@ state
 OuterState
 url
 :
-string
+URL
 )
 :
 ?
@@ -2742,7 +2743,7 @@ state
 OuterState
 url
 :
-string
+URL
 )
 :
 ?
@@ -2817,7 +2818,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 )
 :
 Source
@@ -2940,7 +2941,7 @@ OuterState
 url
 :
 ?
-string
+URL
 )
 :
 string
@@ -3188,7 +3189,7 @@ state
 OuterState
 url
 :
-string
+URL
 )
 {
 const
@@ -3989,7 +3990,7 @@ OuterState
 SourceActorOuterState
 sourceId
 :
-string
+SourceId
 )
 {
 const
@@ -4211,7 +4212,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 )
 :
 ?
@@ -4243,7 +4244,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 )
 :
 boolean
@@ -4267,7 +4268,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -4306,7 +4307,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 line
 :
 number
@@ -4375,7 +4376,7 @@ OuterState
 SourceActorOuterState
 sourceId
 :
-string
+SourceId
 )
 :
 ?
@@ -4509,7 +4510,7 @@ state
 OuterState
 sourceId
 :
-string
+SourceId
 )
 {
 const

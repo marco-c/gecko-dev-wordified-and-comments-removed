@@ -263,7 +263,7 @@ statement
 SimplePath
 sourceId
 :
-string
+SourceId
 position
 :
 AstPosition

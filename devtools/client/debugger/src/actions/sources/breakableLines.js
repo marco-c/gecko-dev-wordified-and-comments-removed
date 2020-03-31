@@ -54,6 +54,7 @@ import
 type
 {
 Context
+SourceId
 }
 from
 "
@@ -155,7 +156,7 @@ cx
 Context
 sourceId
 :
-string
+SourceId
 )
 {
 return
@@ -267,7 +268,11 @@ actors
 .
 map
 (
-actor
+(
+{
+id
+}
+)
 =
 >
 dispatch
@@ -275,10 +280,6 @@ dispatch
 loadSourceActorBreakableLines
 (
 {
-id
-:
-actor
-.
 id
 cx
 }

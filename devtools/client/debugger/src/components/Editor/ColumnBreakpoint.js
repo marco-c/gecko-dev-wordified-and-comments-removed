@@ -397,11 +397,7 @@ onclick
 =
 onClick
 ;
-(
 bp
-:
-any
-)
 .
 oncontextmenu
 =

@@ -38,6 +38,7 @@ type
 {
 Context
 SourceLocation
+SourceId
 }
 from
 "
@@ -72,7 +73,7 @@ Context
 +
 sourceId
 :
-string
+SourceId
 |
 }
 SymbolDeclarations

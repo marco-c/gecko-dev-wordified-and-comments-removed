@@ -12,6 +12,7 @@ SourceId
 SourceWithContentAndType
 SourceWithContent
 TextSourceContent
+URL
 WasmSourceContent
 Why
 }
@@ -56,7 +57,7 @@ makeMockSource
 (
 url
 :
-string
+URL
 =
 "
 url
@@ -649,7 +650,7 @@ makeMockFrameWithURL
 (
 url
 :
-string
+URL
 )
 :
 Frame

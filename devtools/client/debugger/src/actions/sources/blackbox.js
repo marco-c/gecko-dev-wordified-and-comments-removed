@@ -82,6 +82,7 @@ type
 {
 Source
 Context
+SourceId
 }
 from
 "
@@ -114,7 +115,11 @@ blackboxActors
 state
 client
 sourceId
+:
+SourceId
 isBlackBoxed
+:
+boolean
 range
 ?
 )
@@ -156,6 +161,8 @@ function
 getSourceId
 (
 source
+:
+Source
 sourceMaps
 )
 {

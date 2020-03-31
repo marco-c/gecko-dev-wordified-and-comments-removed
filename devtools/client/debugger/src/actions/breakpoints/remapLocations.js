@@ -14,6 +14,7 @@ import
 type
 {
 Breakpoint
+SourceId
 }
 from
 "
@@ -38,7 +39,7 @@ Breakpoint
 ]
 sourceId
 :
-string
+SourceId
 sourceMaps
 :
 SourceMaps

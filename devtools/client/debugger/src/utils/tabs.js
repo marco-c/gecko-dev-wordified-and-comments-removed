@@ -31,6 +31,19 @@ reducers
 types
 "
 ;
+import
+type
+{
+URL
+}
+from
+"
+.
+.
+/
+types
+"
+;
 export
 function
 getHiddenTabs
@@ -165,7 +178,7 @@ tabs
 TabList
 url
 :
-string
+URL
 )
 {
 const
@@ -623,7 +636,7 @@ tab
 Tab
 url
 :
-string
+URL
 isOriginal
 :
 boolean
