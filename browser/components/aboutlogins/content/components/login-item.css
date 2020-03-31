@@ -1945,6 +1945,17 @@ relative
 .
 alert
 -
+date
+{
+display
+:
+block
+;
+;
+}
+.
+alert
+-
 link
 {
 color
