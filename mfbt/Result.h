@@ -1047,8 +1047,10 @@ ok
 using
 Impl
 =
-typename
-Conditional
+std
+:
+:
+conditional_t
 <
 sizeof
 (
@@ -1063,9 +1065,6 @@ EVbool
 VEbool
 EVbool
 >
-:
-:
-Type
 ;
 static
 const

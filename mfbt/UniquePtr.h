@@ -469,8 +469,10 @@ UniquePtr
 (
 Pointer
 aPtr
-typename
-Conditional
+std
+:
+:
+conditional_t
 <
 std
 :
@@ -484,9 +486,6 @@ const
 D
 &
 >
-:
-:
-Type
 aD1
 )
 :
@@ -1338,8 +1337,10 @@ UniquePtr
 (
 Pointer
 aPtr
-typename
-Conditional
+std
+:
+:
+conditional_t
 <
 std
 :
@@ -1353,9 +1354,6 @@ const
 D
 &
 >
-:
-:
-Type
 aD1
 )
 :

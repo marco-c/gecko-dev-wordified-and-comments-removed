@@ -6,6 +6,11 @@ define
 MOZILLA_GENERICREFCOUNTED_H_
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -347,8 +352,10 @@ refCnt
 }
 private
 :
-typename
-Conditional
+std
+:
+:
+conditional_t
 <
 Atomicity
 =
@@ -360,9 +367,6 @@ MozRefCountType
 >
 MozRefCountType
 >
-:
-:
-Type
 refCnt
 ;
 }
