@@ -34,6 +34,15 @@ Opcodes
 .
 h
 "
+#
+include
+"
+vm
+/
+TryNoteKind
+.
+h
+"
 using
 namespace
 js
@@ -350,7 +359,10 @@ JSOp
 :
 :
 Goto
-JSTRY_LOOP
+TryNoteKind
+:
+:
+Loop
 )
 )
 {

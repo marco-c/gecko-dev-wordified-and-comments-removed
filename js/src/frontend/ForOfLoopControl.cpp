@@ -610,7 +610,10 @@ bce
 >
 addTryNote
 (
-JSTRY_FOR_OF_ITERCLOSE
+TryNoteKind
+:
+:
+ForOfIterClose
 0
 start
 end

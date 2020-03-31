@@ -4290,7 +4290,10 @@ bce_
 >
 addTryNote
 (
-JSTRY_FOR_OF_ITERCLOSE
+TryNoteKind
+:
+:
+ForOfIterClose
 0
 start
 end
@@ -14910,7 +14913,10 @@ end
 return
 addTryNote
 (
-JSTRY_DESTRUCTURING
+TryNoteKind
+:
+:
+Destructuring
 iterDepth
 start
 end
@@ -23116,7 +23122,10 @@ JSOp
 :
 :
 Goto
-JSTRY_FOR_OF
+TryNoteKind
+:
+:
+ForOf
 )
 )
 {
@@ -29336,7 +29345,10 @@ JSOp
 :
 :
 Goto
-JSTRY_LOOP
+TryNoteKind
+:
+:
+Loop
 )
 )
 {

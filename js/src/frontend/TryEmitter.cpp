@@ -1133,7 +1133,10 @@ bce_
 >
 addTryNote
 (
-JSTRY_CATCH
+TryNoteKind
+:
+:
+Catch
 depth_
 offsetAfterTryOp
 (
@@ -1164,7 +1167,10 @@ bce_
 >
 addTryNote
 (
-JSTRY_FINALLY
+TryNoteKind
+:
+:
+Finally
 depth_
 offsetAfterTryOp
 (
