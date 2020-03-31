@@ -302,9 +302,6 @@ LayerManagerComposite
 class
 PLayerTransactionChild
 ;
-struct
-SLGuidAndRenderRoot
-;
 class
 WebRenderBridgeChild
 ;
@@ -989,16 +986,6 @@ layers
 :
 PLayerTransactionChild
 PLayerTransactionChild
-;
-typedef
-mozilla
-:
-:
-layers
-:
-:
-SLGuidAndRenderRoot
-SLGuidAndRenderRoot
 ;
 typedef
 mozilla
@@ -2854,7 +2841,7 @@ aInputBlockId
 const
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets
@@ -3232,7 +3219,7 @@ ScreenPoint
 &
 aAnchorLocation
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
@@ -3244,7 +3231,7 @@ void
 StopAsyncAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )

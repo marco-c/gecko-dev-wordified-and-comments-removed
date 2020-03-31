@@ -2882,7 +2882,7 @@ nsTArray
 layers
 :
 :
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 aTargets

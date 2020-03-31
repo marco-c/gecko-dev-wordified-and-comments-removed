@@ -237,9 +237,6 @@ APZCTreeManager
 struct
 ScrollableLayerGuid
 ;
-struct
-SLGuidAndRenderRoot
-;
 class
 CompositorController
 ;

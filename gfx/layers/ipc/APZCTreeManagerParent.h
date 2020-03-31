@@ -107,7 +107,7 @@ IPCResult
 RecvZoomToRect
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -154,7 +154,7 @@ uint64_t
 aInputBlockId
 nsTArray
 <
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 >
 &
 &
@@ -171,7 +171,7 @@ IPCResult
 RecvUpdateZoomConstraints
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -227,7 +227,7 @@ IPCResult
 RecvStartScrollbarDrag
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -246,7 +246,7 @@ IPCResult
 RecvStartAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 const
@@ -265,7 +265,7 @@ IPCResult
 RecvStopAutoscroll
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
@@ -300,7 +300,7 @@ bool
 IsGuidValid
 (
 const
-SLGuidAndRenderRoot
+ScrollableLayerGuid
 &
 aGuid
 )
