@@ -763,7 +763,7 @@ context
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
@@ -836,7 +836,7 @@ context
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
@@ -919,7 +919,7 @@ serviceId
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable

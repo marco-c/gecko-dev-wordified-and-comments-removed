@@ -8907,7 +8907,7 @@ enableNetworkNotifications
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
@@ -8953,7 +8953,7 @@ disableNetworkNotifications
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable

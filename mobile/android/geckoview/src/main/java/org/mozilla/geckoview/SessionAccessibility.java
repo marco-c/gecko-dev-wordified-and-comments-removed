@@ -5758,7 +5758,7 @@ eventData
 {
 ThreadUtils
 .
-postToUiThread
+runOnUiThread
 (
 new
 Runnable
