@@ -177,16 +177,6 @@ return
 mOnOutputDeviceListChange
 ;
 }
-RefPtr
-<
-AudioDeviceInfo
->
-DefaultDevice
-(
-Side
-aSide
-)
-;
 private
 :
 CubebDeviceEnumerator
