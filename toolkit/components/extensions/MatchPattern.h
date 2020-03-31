@@ -6,6 +6,11 @@ define
 mozilla_extensions_MatchPattern_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -476,7 +481,10 @@ const
 >
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 const
 ArrayType
@@ -506,7 +514,10 @@ const
 >
 decltype
 (
-DeclVal
+std
+:
+:
+declval
 <
 const
 ArrayType

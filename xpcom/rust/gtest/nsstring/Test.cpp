@@ -16,6 +16,11 @@ h
 >
 #
 include
+<
+utility
+>
+#
+include
 "
 nsString
 .
@@ -230,10 +235,10 @@ EXPECT_EQ
 size
 sizeof
 (
-mozilla
+std
 :
 :
-DeclVal
+declval
 <
 Hack
 >
@@ -252,10 +257,10 @@ alignof
 (
 decltype
 (
-mozilla
+std
 :
 :
-DeclVal
+declval
 <
 Hack
 >

@@ -391,7 +391,10 @@ remove_reference_t
 decltype
 (
 *
-DeclVal
+std
+:
+:
+declval
 <
 Pointer
 >

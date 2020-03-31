@@ -2026,10 +2026,10 @@ Container
 pointer
 decltype
 (
-mozilla
+std
 :
 :
-DeclVal
+declval
 <
 Container
 >
@@ -2132,10 +2132,10 @@ Container
 pointer
 decltype
 (
-mozilla
+std
 :
 :
-DeclVal
+declval
 <
 Container
 >

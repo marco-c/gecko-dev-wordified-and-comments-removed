@@ -6,6 +6,11 @@ define
 mozilla_ReverseIterator_h
 #
 include
+<
+utility
+>
+#
+include
 "
 mozilla
 /
@@ -81,7 +86,10 @@ mCurrent
 decltype
 (
 *
-DeclVal
+std
+:
+:
+declval
 <
 IteratorT
 >
