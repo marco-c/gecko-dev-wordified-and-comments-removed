@@ -1006,7 +1006,7 @@ cx
 JS
 :
 :
-CompileUtf8FileDontInflate
+CompileUtf8File
 (
 cx
 options
@@ -1086,7 +1086,7 @@ cx
 JS
 :
 :
-CompileUtf8FileDontInflate
+CompileUtf8File
 (
 cx
 options
@@ -1190,7 +1190,7 @@ cx
 JS
 :
 :
-CompileUtf8FileDontInflate
+CompileUtf8File
 (
 cx
 options
