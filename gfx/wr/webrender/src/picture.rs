@@ -3643,6 +3643,14 @@ InvalidationReason
 ValidRectChanged
 )
 ;
+state
+.
+composite_state
+.
+dirty_rects_are_valid
+=
+false
+;
 }
 }
 fn
