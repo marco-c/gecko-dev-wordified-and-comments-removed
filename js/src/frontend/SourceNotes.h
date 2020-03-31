@@ -1265,6 +1265,16 @@ allocator
 1
 )
 ;
+if
+(
+!
+sn
+)
+{
+return
+false
+;
+}
 sn
 -
 >
