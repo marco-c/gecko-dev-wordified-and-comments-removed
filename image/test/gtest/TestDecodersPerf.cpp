@@ -95,6 +95,9 @@ const
 ImageTestCase
 &
 aTestCase
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -420,6 +423,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -502,6 +508,9 @@ Nothing
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -552,6 +561,9 @@ outputSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder

@@ -120,6 +120,9 @@ NoSkia
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder

@@ -177,6 +177,9 @@ const
 ImageTestCase
 &
 aTestCase
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -476,6 +479,9 @@ const
 ImageTestCase
 &
 aTestCase
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -665,6 +671,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -743,6 +752,9 @@ Nothing
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -853,6 +865,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -970,6 +985,9 @@ Nothing
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1079,6 +1097,9 @@ mMimeType
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1259,6 +1280,9 @@ outputSize
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1379,6 +1403,9 @@ aTestCase
 AnimationSurfaceProvider
 *
 aProvider
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1898,6 +1925,9 @@ DefaultSurfaceFlags
 ;
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -1991,6 +2021,9 @@ aTestCase
 AnimationSurfaceProvider
 *
 aProvider
+image
+:
+:
 Decoder
 *
 aDecoder

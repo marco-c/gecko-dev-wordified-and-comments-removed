@@ -209,6 +209,9 @@ aFunc
 {
 RefPtr
 <
+image
+:
+:
 Decoder
 >
 decoder
@@ -417,6 +420,9 @@ WriteFunc
 void
 CheckIterativeWrite
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -483,6 +489,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -556,6 +565,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -591,6 +603,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -791,6 +806,9 @@ checkEarlyExit
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1143,6 +1161,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1176,6 +1197,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1209,6 +1233,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1248,6 +1275,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1587,6 +1617,9 @@ checkEarlyExit
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1914,6 +1947,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1947,6 +1983,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -1980,6 +2019,9 @@ NORMAL
 &
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2019,6 +2061,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2099,6 +2144,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2196,6 +2244,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2331,6 +2382,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2481,6 +2535,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2580,6 +2637,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -2943,6 +3003,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3072,6 +3135,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3355,6 +3421,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -3891,6 +3960,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -4202,6 +4274,9 @@ NORMAL
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
@@ -5027,6 +5102,9 @@ FLIP_VERTICALLY
 [
 ]
 (
+image
+:
+:
 Decoder
 *
 aDecoder
