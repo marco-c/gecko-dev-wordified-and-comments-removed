@@ -21,6 +21,7 @@ resource
 :
 /
 /
+gre
 /
 modules
 /
@@ -133,7 +134,7 @@ OSKeyStoreTestUtils
 TEST_ONLY_REAUTH
 :
 "
-browser
+toolkit
 .
 osKeyStore
 .

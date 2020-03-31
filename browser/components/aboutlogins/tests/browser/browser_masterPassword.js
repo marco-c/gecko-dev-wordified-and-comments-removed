@@ -111,7 +111,7 @@ prefs
 getStringPref
 (
 "
-browser
+toolkit
 .
 osKeyStore
 .
