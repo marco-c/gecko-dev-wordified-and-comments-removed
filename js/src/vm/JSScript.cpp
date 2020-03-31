@@ -28196,6 +28196,15 @@ nullptr
 ;
 }
 }
+DebugAPI
+:
+:
+onNewScript
+(
+cx
+dst
+)
+;
 return
 dst
 ;

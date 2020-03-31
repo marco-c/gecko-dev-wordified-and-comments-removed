@@ -2680,15 +2680,6 @@ return
 false
 ;
 }
-DebugAPI
-:
-:
-onNewScript
-(
-cx
-script
-)
-;
 }
 RootedValue
 rval
