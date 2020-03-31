@@ -110,14 +110,6 @@ em
 0
 )
     
-overlap
-=
-mathfont
-.
-em
-/
-2
-    
 aFont
 [
 radicalCodePoint
@@ -131,6 +123,14 @@ size1
 size2
 size3
 "
+    
+aFont
+.
+math
+.
+MinConnectorOverlap
+=
+0
     
 aFont
 [
