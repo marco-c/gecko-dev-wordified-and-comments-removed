@@ -5,7 +5,6 @@ stepIn
 stepOver
 stepOut
 resume
-seekToPosition
 }
 from
 "
@@ -180,16 +179,5 @@ from
 .
 /
 previewPausedLocation
-"
-;
-export
-{
-setFramePositions
-}
-from
-"
-.
-/
-setFramePositions
 "
 ;

@@ -144,11 +144,6 @@ selectFrame
 js
 '
 '
-setFramePositions
-.
-js
-'
-'
 highlightCalls
 .
 js

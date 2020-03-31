@@ -146,9 +146,6 @@ null
 exceptionDocURL
 :
 null
-executionPoint
-:
-undefined
 cssSelectors
 :
 "

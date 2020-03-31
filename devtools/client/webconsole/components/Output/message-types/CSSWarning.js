@@ -374,7 +374,6 @@ id
 :
 messageId
 indent
-executionPoint
 cssSelectors
 source
 type
@@ -526,7 +525,6 @@ cssSelectors
 .
 length
 dispatch
-executionPoint
 exceptionDocURL
 frame
 indent

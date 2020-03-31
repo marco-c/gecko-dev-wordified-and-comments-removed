@@ -213,10 +213,8 @@ open
 repeat
 serviceContainer
 timestampsVisible
-isPaused
 maybeScrollToBottom
 inWarningGroup
-pausedExecutionPoint
 }
 =
 props
@@ -226,7 +224,6 @@ const
 id
 :
 messageId
-executionPoint
 source
 type
 level
@@ -281,8 +278,6 @@ Message
 {
 dispatch
 messageId
-executionPoint
-isPaused
 open
 collapsible
 :
@@ -316,7 +311,6 @@ notes
 timestampsVisible
 maybeScrollToBottom
 message
-pausedExecutionPoint
 }
 )
 ;

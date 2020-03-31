@@ -1442,15 +1442,6 @@ Promise
 <
 void
 >
-timeWarp
-:
-Function
-=
->
-Promise
-<
-*
->
 fetchAncestorFramePositions
 :
 Function

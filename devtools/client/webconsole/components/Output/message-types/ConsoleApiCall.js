@@ -232,8 +232,6 @@ payload
 serviceContainer
 timestampsVisible
 repeat
-pausedExecutionPoint
-isPaused
 maybeScrollToBottom
 }
 =
@@ -244,7 +242,6 @@ const
 id
 :
 messageId
-executionPoint
 indent
 source
 type
@@ -627,9 +624,6 @@ Message
 (
 {
 messageId
-executionPoint
-pausedExecutionPoint
-isPaused
 open
 collapsible
 collapseTitle

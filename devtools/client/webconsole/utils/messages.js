@@ -1133,11 +1133,6 @@ private
 message
 .
 private
-executionPoint
-:
-message
-.
-executionPoint
 logpointId
 :
 message
@@ -1436,11 +1431,6 @@ private
 pageError
 .
 private
-executionPoint
-:
-pageError
-.
-executionPoint
 chromeContext
 :
 pageError
@@ -1816,11 +1806,6 @@ stacktrace
 message
 .
 stacktrace
-executionPoint
-:
-message
-.
-executionPoint
 }
 function
 (
