@@ -1196,7 +1196,7 @@ length
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 aCx
 aCompileOptions

@@ -805,7 +805,7 @@ return
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options

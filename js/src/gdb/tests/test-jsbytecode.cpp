@@ -184,7 +184,7 @@ script
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 opts

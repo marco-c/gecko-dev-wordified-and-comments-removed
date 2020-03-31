@@ -1749,7 +1749,7 @@ script
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options

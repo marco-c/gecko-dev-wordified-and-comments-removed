@@ -552,7 +552,7 @@ nonSyntactic
 ;
 script
 =
-CompileDontInflate
+Compile
 (
 cx
 options

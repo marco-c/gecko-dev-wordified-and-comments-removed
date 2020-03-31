@@ -637,7 +637,7 @@ cx
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options
@@ -687,7 +687,7 @@ cx
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options
@@ -1088,7 +1088,7 @@ cx
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options
@@ -1116,7 +1116,7 @@ cx
 JS
 :
 :
-CompileDontInflate
+Compile
 (
 cx
 options
