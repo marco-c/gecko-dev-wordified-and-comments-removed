@@ -128,6 +128,15 @@ uint32_t
 aBlockedReason
 )
 ;
+static
+bool
+HasStoragePermissionInParent
+(
+nsIChannel
+*
+aChannel
+)
+;
 }
 ;
 }
