@@ -332,14 +332,11 @@ height
 )
 ;
 void
-moz_container_scale_changed
+moz_container_set_scale_factor
 (
 MozContainer
 *
 container
-GtkAllocation
-*
-aAllocation
 )
 ;
 void
