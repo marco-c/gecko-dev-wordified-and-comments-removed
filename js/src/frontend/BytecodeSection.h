@@ -208,7 +208,7 @@ include
 "
 vm
 /
-JSScript
+Opcodes
 .
 h
 "
@@ -217,7 +217,16 @@ include
 "
 vm
 /
-Opcodes
+SharedStencil
+.
+h
+"
+#
+include
+"
+vm
+/
+TryNoteKind
 .
 h
 "
