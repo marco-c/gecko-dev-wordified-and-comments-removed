@@ -2833,6 +2833,10 @@ sizeof
 (
 nsZipItem
 )
+mozilla
+:
+:
+fallible
 )
 ;
 }
