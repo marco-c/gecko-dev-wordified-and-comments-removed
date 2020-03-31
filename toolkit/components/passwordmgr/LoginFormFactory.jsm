@@ -231,14 +231,10 @@ HTMLInputElement
 |
 |
 (
+!
 aField
 .
-type
-!
-=
-"
-password
-"
+hasBeenTypePassword
 &
 &
 !
