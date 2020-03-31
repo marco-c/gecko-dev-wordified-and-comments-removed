@@ -16,6 +16,15 @@ win
 .
 document
 ;
+doc
+.
+body
+.
+textContent
+=
+"
+"
+;
 let
 panelList
 =
