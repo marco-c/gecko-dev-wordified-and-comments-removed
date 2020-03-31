@@ -571,6 +571,11 @@ getAboutModuleFlags
 (
 )
 ;
+readonly
+attribute
+ACString
+storageOriginKey
+;
 nsIReferrerInfo
 createReferrerInfo
 (
