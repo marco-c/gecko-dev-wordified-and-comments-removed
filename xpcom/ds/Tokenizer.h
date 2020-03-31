@@ -1236,8 +1236,10 @@ T
 typename
 V
 =
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -1260,9 +1262,6 @@ remove_pointer_t
 T
 >
 >
-:
-:
-Type
 >
 [
 [

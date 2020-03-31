@@ -7,6 +7,11 @@ h
 "
 #
 include
+<
+type_traits
+>
+#
+include
 "
 BackgroundChildImpl
 .
@@ -1617,8 +1622,10 @@ template
 class
 T
 >
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 IsSame
 <
@@ -1650,9 +1657,6 @@ IDBMutableFile
 value
 nsresult
 >
-:
-:
-Type
 GetResult
 (
 JSContext

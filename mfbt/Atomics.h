@@ -1312,8 +1312,10 @@ Atomic
 <
 T
 Order
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -1334,9 +1336,6 @@ bool
 :
 value
 >
-:
-:
-Type
 >
 :
 public
@@ -1703,8 +1702,10 @@ Atomic
 <
 T
 Order
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 std
 :
@@ -1714,9 +1715,6 @@ is_enum_v
 T
 >
 >
-:
-:
-Type
 >
 :
 public

@@ -4596,11 +4596,10 @@ template
 class
 T
 >
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 :
 :
@@ -4615,9 +4614,6 @@ T
 :
 value
 >
-:
-:
-Type
 SetDeadlineImpl
 (
 T
@@ -4644,11 +4640,10 @@ template
 class
 T
 >
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 !
 :
@@ -4664,9 +4659,6 @@ T
 :
 value
 >
-:
-:
-Type
 SetDeadlineImpl
 (
 T

@@ -2157,8 +2157,10 @@ typename
 F
 typename
 =
-typename
-EnableIf
+std
+:
+:
+enable_if_t
 <
 detail
 :
@@ -2193,9 +2195,6 @@ nullptr
 :
 value
 >
-:
-:
-Type
 >
 auto
 andThen

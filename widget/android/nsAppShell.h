@@ -14,6 +14,11 @@ h
 #
 include
 <
+type_traits
+>
+#
+include
+<
 utility
 >
 #
@@ -659,11 +664,10 @@ typename
 T
 >
 static
-typename
-mozilla
+std
 :
 :
-EnableIf
+enable_if_t
 <
 !
 std
@@ -679,9 +683,6 @@ T
 value
 void
 >
-:
-:
-Type
 SyncRunEvent
 (
 T
