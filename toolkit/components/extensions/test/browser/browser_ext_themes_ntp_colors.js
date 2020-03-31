@@ -587,11 +587,6 @@ about
 :
 home
 "
-"
-about
-:
-welcome
-"
 ]
 )
 {

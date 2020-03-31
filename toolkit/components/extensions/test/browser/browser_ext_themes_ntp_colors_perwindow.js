@@ -917,11 +917,6 @@ about
 :
 home
 "
-"
-about
-:
-welcome
-"
 ]
 )
 {

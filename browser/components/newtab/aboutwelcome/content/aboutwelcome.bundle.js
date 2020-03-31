@@ -737,9 +737,6 @@ div
 className
 :
 "
-outer
--
-wrapper
 welcomeContainer
 "
 }
