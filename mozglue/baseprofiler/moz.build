@@ -478,6 +478,13 @@ h
 '
 public
 /
+ProfileBufferChunkManager
+.
+h
+'
+'
+public
+/
 ProfileBufferEntrySerialization
 .
 h
