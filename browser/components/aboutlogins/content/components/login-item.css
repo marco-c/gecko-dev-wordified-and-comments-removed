@@ -1819,6 +1819,10 @@ none
 ;
 }
 .
+vulnerable
+-
+alert
+.
 breach
 -
 alert
@@ -1939,8 +1943,6 @@ relative
 ;
 }
 .
-breach
--
 alert
 -
 link
@@ -1963,7 +1965,7 @@ weight
 ;
 }
 .
-breach
+alert
 -
 icon
 {
@@ -2010,8 +2012,6 @@ red
 }
 .
 dismiss
--
-breach
 -
 alert
 {
@@ -2065,14 +2065,6 @@ height
 :
 0
 ;
-}
-.
-dismiss
--
-breach
--
-alert
-{
 background
 -
 color
@@ -2082,8 +2074,6 @@ transparent
 }
 .
 dismiss
--
-breach
 -
 alert
 :
@@ -2109,8 +2099,6 @@ a20
 }
 .
 dismiss
--
-breach
 -
 alert
 :
@@ -2138,8 +2126,6 @@ a30
 }
 .
 dismiss
--
-breach
 -
 alert
 -
@@ -2375,7 +2361,7 @@ theme
 )
 {
 .
-breach
+alert
 -
 icon
 {
@@ -2479,6 +2465,10 @@ color
 cfcfd1
 ;
 }
+.
+vulnerable
+-
+alert
 .
 breach
 -
