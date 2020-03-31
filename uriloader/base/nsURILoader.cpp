@@ -3307,7 +3307,6 @@ childChannel
 CompleteRedirectSetup
 (
 loader
-nullptr
 )
 ;
 }

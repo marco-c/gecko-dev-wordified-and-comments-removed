@@ -238,9 +238,6 @@ completeRedirectSetup
 in
 nsIStreamListener
 aListener
-in
-nsISupports
-aContext
 )
 ;
 }

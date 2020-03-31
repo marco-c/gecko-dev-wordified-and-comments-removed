@@ -148,9 +148,6 @@ CompleteRedirectSetup
 nsIStreamListener
 *
 listener
-nsISupports
-*
-ctx
 )
 {
 nsresult

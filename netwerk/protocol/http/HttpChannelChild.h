@@ -1632,12 +1632,6 @@ nsIStreamListener
 >
 mInterceptedRedirectListener
 ;
-nsCOMPtr
-<
-nsISupports
->
-mInterceptedRedirectContext
-;
 void
 ReleaseMainThreadOnlyReferences
 (
