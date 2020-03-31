@@ -1969,6 +1969,18 @@ include
 %
 gcc_dir
 ]
+            
+cmake_args
++
+=
+[
+"
+-
+DLLVM_ENABLE_LIBXML2
+=
+FORCE_ON
+"
+]
         
 if
 is_windows

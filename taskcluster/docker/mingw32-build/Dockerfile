@@ -128,6 +128,8 @@ jq
 \
 libucl1
 \
+libxml2
+\
 patch
 \
 p7zip

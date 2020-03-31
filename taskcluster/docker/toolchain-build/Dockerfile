@@ -119,6 +119,10 @@ libssl
 -
 dev
 \
+libxml2
+-
+dev
+\
 libtool
 \
 libucl
