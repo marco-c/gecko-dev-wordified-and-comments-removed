@@ -90,6 +90,14 @@ create
 null
 )
 ;
+const
+foo
+=
+obj
+?
+.
+foo
+;
 debugger
 ;
 }
