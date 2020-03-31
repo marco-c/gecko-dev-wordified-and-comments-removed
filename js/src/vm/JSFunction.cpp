@@ -8511,10 +8511,10 @@ return
 }
 if
 (
-realm
--
->
-collectCoverageForDebug
+coverage
+:
+:
+IsLCovEnabled
 (
 )
 )

@@ -22649,6 +22649,17 @@ NeedsFunctionEnvironmentObjects
 MOZ_ASSERT
 (
 !
+coverage
+:
+:
+IsLCovEnabled
+(
+)
+)
+;
+MOZ_ASSERT
+(
+!
 hasScriptCounts
 (
 )
