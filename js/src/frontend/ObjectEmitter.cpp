@@ -84,6 +84,15 @@ include
 "
 vm
 /
+FunctionPrefixKind
+.
+h
+"
+#
+include
+"
+vm
+/
 JSContext
 .
 h

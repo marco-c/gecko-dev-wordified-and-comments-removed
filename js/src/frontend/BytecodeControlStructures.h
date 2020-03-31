@@ -101,6 +101,15 @@ StringType
 .
 h
 "
+#
+include
+"
+vm
+/
+TryNoteKind
+.
+h
+"
 namespace
 js
 {
