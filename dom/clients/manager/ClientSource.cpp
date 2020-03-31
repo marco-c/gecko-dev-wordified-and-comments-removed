@@ -100,6 +100,17 @@ mozilla
 /
 dom
 /
+JSExecutionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 MessageEvent
 .
 h
@@ -1708,6 +1719,9 @@ IsShutdown
 return
 ;
 }
+AutoYieldJSThreadExecution
+yield
+;
 MOZ_DIAGNOSTIC_ASSERT
 (
 aWorkerPrivate

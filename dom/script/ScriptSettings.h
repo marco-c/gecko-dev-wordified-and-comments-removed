@@ -37,6 +37,17 @@ include
 "
 mozilla
 /
+dom
+/
+JSExecutionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -844,6 +855,9 @@ mAutoProfilerLabel
 ;
 #
 endif
+AutoRequestJSThreadExecution
+mJSThreadExecution
+;
 }
 ;
 class
@@ -920,6 +934,9 @@ aCx
 JSContext
 *
 mCx
+;
+AutoYieldJSThreadExecution
+mExecutionYield
 ;
 }
 ;

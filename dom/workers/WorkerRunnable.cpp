@@ -65,6 +65,17 @@ mozilla
 /
 dom
 /
+JSExecutionManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ScriptSettings
 .
 h
