@@ -179,6 +179,7 @@ state
 if
 (
 selected
+?
 .
 _targetFront
 =
