@@ -11633,6 +11633,15 @@ IsShapeAllocKind
 (
 kind
 )
+&
+&
+kind
+!
+=
+AllocKind
+:
+:
+BASE_SHAPE
 ;
 }
 static
