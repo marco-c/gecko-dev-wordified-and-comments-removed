@@ -243,6 +243,8 @@ stream
 lib
 /
 PersonalityProvider
+/
+PersonalityProvider
 .
 jsm
 "

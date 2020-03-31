@@ -48,6 +48,8 @@ stream
 lib
 /
 PersonalityProvider
+/
+PersonalityProvider
 .
 jsm
 "
@@ -499,6 +501,7 @@ scoreStart
 }
 }
 }
+async
 calculateItemRelevanceScore
 (
 item
@@ -514,6 +517,7 @@ affinityProvider
 const
 scoreResult
 =
+await
 this
 .
 affinityProvider

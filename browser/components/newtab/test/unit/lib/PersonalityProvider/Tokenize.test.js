@@ -7,6 +7,8 @@ from
 "
 lib
 /
+PersonalityProvider
+/
 Tokenize
 .
 jsm

@@ -8179,6 +8179,7 @@ spocs
 are
 empty
 "
+async
 (
 )
 =
@@ -8191,6 +8192,7 @@ data
 result
 }
 =
+await
 feed
 .
 transform
@@ -8227,6 +8229,7 @@ based
 on
 item_score
 "
+async
 (
 )
 =
@@ -8239,6 +8242,7 @@ data
 result
 }
 =
+await
 feed
 .
 transform
@@ -8394,6 +8398,7 @@ lower
 than
 min_score
 "
+async
 (
 )
 =
@@ -8407,6 +8412,7 @@ result
 filtered
 }
 =
+await
 feed
 .
 transform
@@ -8572,6 +8578,7 @@ prop
 to
 spocs
 "
+async
 (
 )
 =
@@ -8584,6 +8591,7 @@ data
 result
 }
 =
+await
 feed
 .
 transform
@@ -8634,6 +8642,7 @@ out
 duplicate
 flights
 "
+async
 (
 )
 =
@@ -8647,6 +8656,7 @@ result
 filtered
 }
 =
+await
 feed
 .
 transform
@@ -8895,6 +8905,7 @@ while
 using
 spocs_per_domain
 "
+async
 (
 )
 =
@@ -8937,6 +8948,7 @@ result
 filtered
 }
 =
+await
 feed
 .
 transform
@@ -20497,6 +20509,7 @@ item_score
 and
 min_score
 "
+async
 (
 )
 =
@@ -20510,6 +20523,7 @@ result
 filtered
 }
 =
+await
 feed
 .
 scoreItems
@@ -20664,6 +20678,7 @@ dispatchRelevanceScoreDuration
 if
 available
 "
+async
 (
 )
 =
@@ -20697,6 +20712,7 @@ personalized
 true
 }
 ;
+await
 feed
 .
 scoreItems
@@ -20743,6 +20759,7 @@ with
 affinity
 provider
 "
+async
 (
 )
 =
@@ -20782,6 +20799,7 @@ returns
 (
 )
 ;
+await
 feed
 .
 scoreItem
@@ -20815,6 +20833,7 @@ affinity
 provider
 score
 "
+async
 (
 )
 =
@@ -20861,6 +20880,7 @@ calculateItemRelevanceScore
 const
 result
 =
+await
 feed
 .
 scoreItem
@@ -20894,6 +20914,7 @@ of
 if
 undefined
 "
+async
 (
 )
 =
@@ -20936,6 +20957,7 @@ calculateItemRelevanceScore
 const
 result
 =
+await
 feed
 .
 scoreItem

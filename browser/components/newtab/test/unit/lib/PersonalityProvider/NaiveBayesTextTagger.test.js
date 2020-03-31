@@ -6,6 +6,8 @@ from
 "
 lib
 /
+PersonalityProvider
+/
 NaiveBayesTextTagger
 .
 jsm
@@ -14,10 +16,13 @@ jsm
 import
 {
 tokenize
+toksToTfIdfVector
 }
 from
 "
 lib
+/
+PersonalityProvider
 /
 Tokenize
 .
@@ -294,6 +299,7 @@ new
 NaiveBayesTextTagger
 (
 model
+toksToTfIdfVector
 )
 ;
 let

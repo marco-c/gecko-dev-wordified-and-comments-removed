@@ -799,6 +799,7 @@ with
 affinity
 provider
 "
+async
 (
 )
 =
@@ -817,6 +818,7 @@ affinityProvider
 {
 calculateItemRelevanceScore
 :
+async
 (
 )
 =
@@ -826,6 +828,7 @@ calculateItemRelevanceScore
 5
 }
 ;
+await
 feed
 .
 calculateItemRelevanceScore
