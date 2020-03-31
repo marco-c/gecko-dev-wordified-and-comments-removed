@@ -946,7 +946,11 @@ Pointer
 aFamilyPtr
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 InitializeFamily
 (

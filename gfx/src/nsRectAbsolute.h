@@ -216,7 +216,11 @@ SafeHeight
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsRectAbsolute
 UnsafeUnion
 (

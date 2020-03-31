@@ -135,7 +135,11 @@ aAppUnitsPerPixel
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 nsSize
 ScaleToOtherAppUnits

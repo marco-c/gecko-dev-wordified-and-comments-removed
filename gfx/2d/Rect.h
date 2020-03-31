@@ -1283,7 +1283,11 @@ isValid
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Maybe
 <
 Self
@@ -1363,7 +1367,11 @@ aRect
 ;
 }
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Maybe
 <
 Self
