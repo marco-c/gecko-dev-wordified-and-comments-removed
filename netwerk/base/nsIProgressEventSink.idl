@@ -38,9 +38,6 @@ in
 nsIRequest
 aRequest
 in
-nsISupports
-aContext
-in
 long
 long
 aProgress
@@ -56,9 +53,6 @@ onStatus
 in
 nsIRequest
 aRequest
-in
-nsISupports
-aContext
 in
 nsresult
 aStatus

@@ -1075,7 +1075,6 @@ onProgress
 function
 (
 request
-context
 progress
 progressMax
 )
