@@ -504,6 +504,11 @@ nsPoint
 aPoint
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 HandleTableSelection
@@ -1549,6 +1554,11 @@ Selection
 aNormalSelection
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 nsresult
 HandleSelection
