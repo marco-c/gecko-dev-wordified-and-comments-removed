@@ -6,6 +6,11 @@ define
 mozilla_GenericModule_h
 #
 include
+<
+type_traits
+>
+#
+include
 "
 mozilla
 /
@@ -338,10 +343,10 @@ Type
 static_assert
 (
 \
-mozilla
+std
 :
 :
-IsSame
+is_same_v
 <
 already_AddRefed
 <
@@ -354,9 +359,6 @@ _GetterProc
 )
 )
 >
-:
-:
-value
 \
 "
 Singleton
