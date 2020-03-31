@@ -2007,7 +2007,7 @@ BMB_bookmarksPopup
 :
 part
 (
-popupbox
+arrowscrollbox
 )
 {
 padding
@@ -2022,7 +2022,7 @@ menupopup
 :
 part
 (
-popupbox
+arrowscrollbox
 )
 {
 padding
@@ -2044,7 +2044,7 @@ true
 :
 part
 (
-popupbox
+arrowscrollbox
 )
 {
 padding
