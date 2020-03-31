@@ -259,6 +259,12 @@ source
 startLine
 :
 line
+.
+.
+.
+sourceOptions
+.
+generated
 }
 )
 ;
