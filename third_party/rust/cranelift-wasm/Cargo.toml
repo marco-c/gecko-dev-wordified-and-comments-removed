@@ -13,7 +13,7 @@ version
 "
 0
 .
-58
+60
 .
 0
 "
@@ -50,7 +50,7 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 license
 =
@@ -110,9 +110,9 @@ version
 "
 0
 .
-48
+51
 .
-2
+0
 "
 default
 -
@@ -131,8 +131,6 @@ path
 .
 .
 /
-cranelift
--
 codegen
 "
 version
@@ -140,7 +138,7 @@ version
 "
 0
 .
-58
+60
 .
 0
 "
@@ -161,8 +159,6 @@ path
 .
 .
 /
-cranelift
--
 entity
 "
 version
@@ -170,7 +166,7 @@ version
 "
 0
 .
-58
+60
 .
 0
 "
@@ -186,8 +182,6 @@ path
 .
 .
 /
-cranelift
--
 frontend
 "
 version
@@ -195,7 +189,7 @@ version
 "
 0
 .
-58
+60
 .
 0
 "
@@ -213,7 +207,7 @@ version
 "
 0
 .
-6
+7
 "
 optional
 =
@@ -281,7 +275,7 @@ wat
 .
 0
 .
-7
+9
 "
 target
 -
@@ -360,18 +354,5 @@ status
 =
 "
 experimental
-"
-}
-travis
--
-ci
-=
-{
-repository
-=
-"
-bytecodealliance
-/
-cranelift
 "
 }

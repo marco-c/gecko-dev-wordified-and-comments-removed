@@ -484,7 +484,7 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 ]
 git
@@ -500,7 +500,7 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 replace
 -
@@ -514,7 +514,7 @@ sources
 rev
 =
 "
-98c818c129979e98a3db150f8f9698f6451b7ef7
+5cfcbeb59d477e028c6fb312f1cf63aa711fcc3c
 "
 [
 source

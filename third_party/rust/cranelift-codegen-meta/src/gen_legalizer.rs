@@ -3577,6 +3577,7 @@ allow
 (
 unused_variables
 unused_assignments
+unused_imports
 non_snake_case
 )
 ]

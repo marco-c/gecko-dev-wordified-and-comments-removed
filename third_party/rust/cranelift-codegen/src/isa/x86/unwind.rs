@@ -5,7 +5,10 @@ super
 registers
 :
 :
+{
+GPR
 RU
+}
 ;
 use
 crate
@@ -287,8 +290,13 @@ write_u8
 sink
 (
 (
+GPR
+.
+index_of
+(
 *
 reg
+)
 as
 u8
 )
@@ -1347,7 +1355,12 @@ frame_register_offset
 4
 )
 |
+GPR
+.
+index_of
+(
 reg
+)
 as
 u8
 )

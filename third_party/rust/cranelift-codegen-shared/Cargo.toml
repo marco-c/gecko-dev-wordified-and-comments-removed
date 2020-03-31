@@ -25,7 +25,7 @@ version
 "
 0
 .
-58
+60
 .
 0
 "
@@ -72,7 +72,7 @@ com
 /
 bytecodealliance
 /
-cranelift
+wasmtime
 "
 readme
 =

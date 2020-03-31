@@ -67,9 +67,10 @@ return
 Err
 (
 BinaryReaderError
-{
-message
 :
+:
+new
+(
 "
 Unexpected
 content
@@ -79,13 +80,11 @@ start
 section
 "
 offset
-:
-offset
 +
 reader
 .
 position
-}
+)
 )
 ;
 }
