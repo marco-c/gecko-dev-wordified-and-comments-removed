@@ -61,7 +61,7 @@ moz_xmalloc
 size_t
 size
 )
-MOZ_ALLOCATOR
+MOZ_INFALLIBLE_ALLOCATOR
 ;
 namespace
 std
