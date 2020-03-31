@@ -952,7 +952,7 @@ getCurrent
 )
 )
 ;
-testTheme1
+testEmptyTheme
 (
 await
 browser
@@ -1031,7 +1031,7 @@ true
 await
 focusChanged
 ;
-testTheme1
+testEmptyTheme
 (
 await
 browser
@@ -1043,7 +1043,7 @@ getCurrent
 )
 )
 ;
-testTheme1
+testEmptyTheme
 (
 await
 browser
