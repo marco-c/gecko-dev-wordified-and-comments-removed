@@ -491,7 +491,7 @@ Document
 >
 doc
 =
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 ;
