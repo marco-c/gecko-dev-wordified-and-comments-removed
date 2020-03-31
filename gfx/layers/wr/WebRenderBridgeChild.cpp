@@ -1829,7 +1829,7 @@ if
 aUnscaled
 -
 >
-GetWRFontDescriptor
+GetFontDescriptor
 (
 WriteFontDescriptor
 &
