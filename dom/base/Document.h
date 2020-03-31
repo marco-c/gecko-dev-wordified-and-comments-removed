@@ -4048,6 +4048,15 @@ CookieJarSettings
 (
 )
 ;
+bool
+HasStoragePermission
+(
+)
+{
+return
+mHasStoragePermission
+;
+}
 inline
 void
 Changed
@@ -13484,6 +13493,9 @@ nsCOMPtr
 nsICookieJarSettings
 >
 mCookieJarSettings
+;
+bool
+mHasStoragePermission
 ;
 int32_t
 mGeneration

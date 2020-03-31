@@ -7653,6 +7653,10 @@ mPendingInitialTranslation
 (
 false
 )
+mHasStoragePermission
+(
+false
+)
 mGeneration
 (
 0
@@ -16685,6 +16689,15 @@ NS_ENSURE_SUCCESS
 (
 rv
 rv
+)
+;
+mHasStoragePermission
+=
+loadInfo
+-
+>
+GetHasStoragePermission
+(
 )
 ;
 return
