@@ -68,17 +68,6 @@ WebRTCJNITarget
 import
 org
 .
-mozilla
-.
-gecko
-.
-permissions
-.
-Permissions
-;
-import
-org
-.
 webrtc
 .
 CameraEnumerator
