@@ -4169,7 +4169,7 @@ len
 )
 ;
 case
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 :
 return
 lg_CopyAttributeSigned
@@ -4415,7 +4415,7 @@ len
 )
 ;
 case
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 :
 return
 lg_CopyAttributeSigned
@@ -4635,7 +4635,7 @@ len
 )
 ;
 case
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 :
 return
 lg_CopyAttributeSigned
@@ -7990,7 +7990,7 @@ attr
 type
 =
 =
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 )
 &
 &

@@ -5241,7 +5241,7 @@ attrs
 PK11_SETATTRS
 (
 attrs
-CKA_NSS_MODULE_SPEC
+CKA_NETSCAPE_MODULE_SPEC
 (
 unsigned
 char
@@ -5654,7 +5654,7 @@ rv
 secmod_UserDBOp
 (
 slot
-CKO_NSS_NEWSLOT
+CKO_NETSCAPE_NEWSLOT
 sendSpec
 )
 ;
@@ -5965,7 +5965,7 @@ rv
 secmod_UserDBOp
 (
 slot
-CKO_NSS_DELSLOT
+CKO_NETSCAPE_DELSLOT
 sendSpec
 )
 ;

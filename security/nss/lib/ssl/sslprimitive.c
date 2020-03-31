@@ -692,7 +692,7 @@ i
 ]
 ;
 }
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcmParams
 =
 {

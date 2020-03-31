@@ -1360,7 +1360,7 @@ rv
 PK11_CreateNewObject
 (
 slot
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 theTemplate
 templateCount
 isToken
@@ -4500,7 +4500,7 @@ rv
 PK11_CreateNewObject
 (
 slot
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 privTemplate
 count
 token
@@ -6429,7 +6429,7 @@ if
 session_handle
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 PK11_EnterSlotMonitor
 (
@@ -6450,7 +6450,7 @@ if
 session_handle
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -8105,7 +8105,7 @@ if
 pbeMechType
 =
 =
-CKM_NSS_PBE_SHA1_TRIPLE_DES_CBC
+CKM_NETSCAPE_PBE_SHA1_TRIPLE_DES_CBC
 )
 &
 &
@@ -9697,7 +9697,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError

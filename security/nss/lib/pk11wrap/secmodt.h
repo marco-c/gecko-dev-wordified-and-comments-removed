@@ -269,9 +269,6 @@ evControlMask
 CK_VERSION
 cryptokiVersion
 ;
-CK_FLAGS
-flags
-;
 }
 ;
 #

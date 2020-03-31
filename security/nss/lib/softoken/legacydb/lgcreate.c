@@ -2570,7 +2570,7 @@ if
 (
 lg_hasAttribute
 (
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 )
@@ -2581,7 +2581,7 @@ crv
 lg_Attribute2SSecItem
 (
 arena
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 &
@@ -2697,7 +2697,7 @@ if
 (
 lg_hasAttribute
 (
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 )
@@ -2708,7 +2708,7 @@ crv
 lg_Attribute2SSecItem
 (
 arena
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 &
@@ -2836,7 +2836,7 @@ if
 (
 lg_hasAttribute
 (
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 )
@@ -2847,7 +2847,7 @@ crv
 lg_Attribute2SSecItem
 (
 arena
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 &
@@ -3038,7 +3038,7 @@ crv
 lg_Attribute2SSecItem
 (
 NULL
-CKA_NSS_DB
+CKA_NETSCAPE_DB
 templ
 count
 &

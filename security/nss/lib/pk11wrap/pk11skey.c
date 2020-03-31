@@ -319,7 +319,7 @@ symKey
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 )
 {
@@ -347,7 +347,7 @@ symKey
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 if
@@ -358,7 +358,7 @@ symKey
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 return
 symKey
@@ -426,7 +426,7 @@ symKey
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 if
@@ -437,7 +437,7 @@ symKey
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PK11_FreeSymKey
@@ -458,7 +458,7 @@ symKey
 >
 session
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 ;
 }
 return
@@ -622,7 +622,7 @@ symKey
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PK11_FreeSymKey
@@ -984,7 +984,7 @@ symKey
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 symKey
@@ -1012,7 +1012,7 @@ symKey
 >
 session
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 ;
 symKey
 -
@@ -1455,7 +1455,7 @@ parent
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 if
@@ -1466,7 +1466,7 @@ parent
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PK11_FreeSymKey
@@ -4809,7 +4809,7 @@ if
 session
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 pk11_EnterKeyMonitor
 (
@@ -4822,7 +4822,7 @@ if
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PK11_FreeSymKey
@@ -5026,7 +5026,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 PORT_SetError
@@ -6930,7 +6930,7 @@ if
 session
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 {
 if
@@ -11523,7 +11523,7 @@ PORT_Assert
 rwsession
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 ;
 if
@@ -11531,7 +11531,7 @@ if
 rwsession
 =
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 crv
 =
@@ -11579,7 +11579,7 @@ if
 rwsession
 !
 =
-CK_INVALID_HANDLE
+CK_INVALID_SESSION
 )
 PK11_RestoreROSession
 (

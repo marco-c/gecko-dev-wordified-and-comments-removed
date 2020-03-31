@@ -5670,7 +5670,7 @@ PR_FALSE
 }
 if
 (
-CKO_NSS_CRL
+CKO_NETSCAPE_CRL
 !
 =
 crl_class

@@ -7882,7 +7882,7 @@ unsigned
 int
 uOutLen
 ;
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcmParams
 ;
 const
@@ -51873,7 +51873,7 @@ SSL_LIBRARY_VERSION_TLS_1_2
 {
 tls_mac_params
 .
-prfHashMechanism
+prfMechanism
 =
 CKM_TLS_PRF
 ;
@@ -51882,7 +51882,7 @@ else
 {
 tls_mac_params
 .
-prfHashMechanism
+prfMechanism
 =
 ssl3_GetPrfHashMechanism
 (

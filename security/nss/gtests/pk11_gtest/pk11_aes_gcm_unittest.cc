@@ -223,7 +223,7 @@ empty
 return
 ;
 }
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcm_params
 ;
 gcm_params
@@ -795,7 +795,7 @@ aad
 0
 )
 ;
-CK_NSS_GCM_PARAMS
+CK_GCM_PARAMS
 gcm_params
 ;
 gcm_params

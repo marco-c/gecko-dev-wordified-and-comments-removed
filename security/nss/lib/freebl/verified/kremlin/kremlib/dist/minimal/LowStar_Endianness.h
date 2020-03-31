@@ -67,8 +67,8 @@ FStar_UInt128
 .
 h
 "
-static
 inline
+static
 void
 store128_le
 (
@@ -79,8 +79,8 @@ FStar_UInt128_uint128
 x1
 )
 ;
-static
 inline
+static
 FStar_UInt128_uint128
 load128_le
 (
@@ -89,8 +89,8 @@ uint8_t
 x0
 )
 ;
-static
 inline
+static
 void
 store128_be
 (
@@ -101,8 +101,8 @@ FStar_UInt128_uint128
 x1
 )
 ;
-static
 inline
+static
 FStar_UInt128_uint128
 load128_be
 (
