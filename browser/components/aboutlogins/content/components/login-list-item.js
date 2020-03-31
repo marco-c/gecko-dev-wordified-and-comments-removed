@@ -481,15 +481,5 @@ icon
 )
 ;
 }
-else
-{
-alertIcon
-.
-src
-=
-"
-"
-;
-}
 }
 }
