@@ -209,11 +209,6 @@ tabs
 #
 tabbrowser
 -
-tabs
->
-.
-tabbrowser
--
 arrowscrollbox
 #
 tabbrowser
@@ -223,7 +218,7 @@ tabs
 positionpinnedtabs
 ]
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -301,7 +296,7 @@ width
 0
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -2967,7 +2962,7 @@ opacity
 0
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -2988,7 +2983,7 @@ start
 -
 indicator
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3154,7 +3149,7 @@ index
 3
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3178,7 +3173,7 @@ start
 -
 indicator
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3212,7 +3207,7 @@ scaleX
 )
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3253,7 +3248,7 @@ end
 17px
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3294,7 +3289,7 @@ end
 1px
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3311,7 +3306,7 @@ start
 -
 indicator
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3334,7 +3329,7 @@ opacity
 0
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3348,7 +3343,7 @@ start
 -
 indicator
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3752,7 +3747,7 @@ movingtab
 ]
 )
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -3793,7 +3788,7 @@ movingtab
 ]
 )
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -4273,7 +4268,7 @@ tabs
 positionpinnedtabs
 ]
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -4322,7 +4317,7 @@ tabs
 positionpinnedtabs
 ]
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -4933,7 +4928,7 @@ movingtab
 ]
 )
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -4970,7 +4965,7 @@ movingtab
 ]
 )
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -5024,7 +5019,7 @@ movingtab
 ]
 )
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -5049,7 +5044,7 @@ tabs
 movingtab
 ]
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -5133,7 +5128,7 @@ tabs
 movingtab
 ]
 >
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -5159,7 +5154,7 @@ display
 block
 ;
 }
-.
+#
 tabbrowser
 -
 arrowscrollbox
@@ -5171,7 +5166,7 @@ scrollbutton
 -
 up
 )
-.
+#
 tabbrowser
 -
 arrowscrollbox
