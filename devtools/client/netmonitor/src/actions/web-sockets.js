@@ -10,7 +10,6 @@ WS_SELECT_FRAME
 WS_OPEN_FRAME_DETAILS
 WS_CLEAR_FRAMES
 WS_TOGGLE_FRAME_FILTER_TYPE
-WS_TOGGLE_CONTROL_FRAMES
 WS_SET_REQUEST_FILTER_TEXT
 WS_TOGGLE_COLUMN
 WS_RESET_COLUMNS
@@ -140,19 +139,6 @@ type
 :
 WS_TOGGLE_FRAME_FILTER_TYPE
 filter
-}
-;
-}
-function
-toggleControlFrames
-(
-)
-{
-return
-{
-type
-:
-WS_TOGGLE_CONTROL_FRAMES
 }
 ;
 }
@@ -388,7 +374,6 @@ selectFrame
 openFrameDetails
 clearFrames
 toggleFrameFilterType
-toggleControlFrames
 setFrameFilterText
 resetWebSocketsColumns
 closeConnection
