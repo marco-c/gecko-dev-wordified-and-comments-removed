@@ -274,9 +274,8 @@ const
 nsCString
 &
 aEntityID
-const
-URIParams
-&
+nsIURI
+*
 aURI
 )
 override
@@ -408,9 +407,8 @@ const
 nsCString
 &
 aEntityID
-const
-URIParams
-&
+nsIURI
+*
 aURI
 )
 ;
