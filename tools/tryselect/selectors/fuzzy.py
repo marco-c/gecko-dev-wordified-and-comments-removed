@@ -1591,6 +1591,8 @@ fzf
 )
     
 if
+fzf_bin
+and
 update
 and
 not
