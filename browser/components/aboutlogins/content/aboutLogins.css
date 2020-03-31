@@ -1,3 +1,12 @@
+html
+body
+{
+height
+:
+100
+%
+;
+}
 body
 {
 -
@@ -51,10 +60,6 @@ header
 logins
 login
 "
-;
-height
-:
-100vh
 ;
 }
 header
