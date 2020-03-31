@@ -2441,10 +2441,9 @@ format
 (
 "
 duplicate
-identifier
-for
 {
 }
+identifier
 "
 desc
 )

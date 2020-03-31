@@ -20,7 +20,7 @@ lock
 "
 :
 "
-03517218971dc8dc3399b19f2e5b782e374cdebd8fb5e27ff24e879fe83588ad
+a3a4aea3dfe0d543849ea6d9bfda9a4e88d286d989edd8fe4e327af3be17ce2d
 "
 "
 Cargo
@@ -29,7 +29,7 @@ toml
 "
 :
 "
-d4063537eb48a4d5fd385fbeee4502db8a4461aec2c520bee69e4ab1045895d1
+7eaa1d096d1099c808226ec9dbcde5e78eb0d130ebc0153ef158bccf82c3b791
 "
 "
 LICENSE
@@ -929,19 +929,6 @@ tests
 /
 regression
 /
-annotations
-.
-wast
-"
-:
-"
-fda32272aea7a0eb64fc63abd7574c2ab61af6e4df9860d76a6252f5a88b8d1b
-"
-"
-tests
-/
-regression
-/
 atomics
 .
 wat
@@ -1163,7 +1150,7 @@ rs
 "
 :
 "
-1edb4ee7aa7084258878091c2f3c5c8413059da8e7ac00581ede8ffb3470a505
+e65492063f3fb099bd9c16b4ea5e3e5909b94dcd39fac76253970cc27f5815e9
 "
 }
 "
@@ -1171,6 +1158,6 @@ package
 "
 :
 "
-9a9400dc1c8512087b2d974b1b9b0a6c4e6e26e7e8acf629e3e351165a1ed301
+095f615fbfcae695e3a4cea7d9f02f70561c81274c0142f45a12bf1e154d08bd
 "
 }
