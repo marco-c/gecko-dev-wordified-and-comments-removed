@@ -7829,8 +7829,6 @@ BeginSwapDocShells
 nsISupports
 *
 aSupports
-void
-*
 )
 {
 MOZ_ASSERT
@@ -7942,8 +7940,6 @@ EndSwapDocShells
 nsISupports
 *
 aSupports
-void
-*
 )
 {
 MOZ_ASSERT

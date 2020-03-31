@@ -29556,8 +29556,6 @@ NotifyDocumentTree
 Document
 &
 aDocument
-void
-*
 )
 {
 aDocument
@@ -29565,7 +29563,6 @@ aDocument
 EnumerateSubDocuments
 (
 NotifyDocumentTree
-nullptr
 )
 ;
 aDocument
@@ -29610,7 +29607,6 @@ NotifyDocumentTree
 (
 *
 mDoc
-nullptr
 )
 ;
 }

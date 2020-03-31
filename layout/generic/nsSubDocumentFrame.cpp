@@ -4862,8 +4862,6 @@ BeginSwapDocShellsForDocument
 Document
 &
 aDocument
-void
-*
 )
 {
 if
@@ -4918,7 +4916,6 @@ nsPluginFrame
 :
 :
 BeginSwapDocShells
-nullptr
 )
 ;
 aDocument
@@ -4926,7 +4923,6 @@ aDocument
 EnumerateSubDocuments
 (
 BeginSwapDocShellsForDocument
-nullptr
 )
 ;
 return
@@ -4977,7 +4973,6 @@ BeginSwapDocShellsForDocument
 (
 *
 doc
-nullptr
 )
 ;
 }
@@ -5302,8 +5297,6 @@ EndSwapDocShellsForDocument
 Document
 &
 aDocument
-void
-*
 )
 {
 if
@@ -5457,7 +5450,6 @@ nsPluginFrame
 :
 :
 EndSwapDocShells
-nullptr
 )
 ;
 aDocument
@@ -5465,7 +5457,6 @@ aDocument
 EnumerateSubDocuments
 (
 EndSwapDocShellsForDocument
-nullptr
 )
 ;
 return
@@ -5519,7 +5510,6 @@ EndSwapDocShellsForDocument
 (
 *
 doc
-nullptr
 )
 ;
 }
