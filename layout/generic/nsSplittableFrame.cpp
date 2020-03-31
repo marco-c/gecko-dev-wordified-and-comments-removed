@@ -1030,7 +1030,12 @@ bSize
 prev
 -
 >
-ContentBSize
+ContentSize
+(
+aWM
+)
+.
+BSize
 (
 aWM
 )

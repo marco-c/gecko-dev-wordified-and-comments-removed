@@ -26125,7 +26125,12 @@ contentSize
 child
 -
 >
-ContentBSize
+ContentSize
+(
+childWM
+)
+.
+BSize
 (
 childWM
 )
