@@ -2572,6 +2572,8 @@ SetAnchorFocusRange
 uint32_t
 count
 =
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -2594,6 +2596,8 @@ count
 i
 )
 {
+mStyledRanges
+.
 mRanges
 [
 i
@@ -2787,6 +2791,8 @@ count
 tmp
 -
 >
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -2810,6 +2816,8 @@ i
 {
 NS_IMPL_CYCLE_COLLECTION_TRAVERSE
 (
+mStyledRanges
+.
 mRanges
 [
 i
@@ -2989,6 +2997,8 @@ indx
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -3013,6 +3023,8 @@ else
 {
 mAnchorFocusRange
 =
+mStyledRanges
+.
 mRanges
 [
 indx
@@ -3919,6 +3931,8 @@ aOutIndex
 =
 int32_t
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -4397,6 +4411,8 @@ aOutIndex
 ;
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -4410,6 +4426,8 @@ Length
 if
 (
 !
+mStyledRanges
+.
 mRanges
 .
 AppendElement
@@ -4527,6 +4545,8 @@ startIndex
 {
 startIndex
 =
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -4574,6 +4594,8 @@ endIndex
 if
 (
 !
+mStyledRanges
+.
 mRanges
 .
 InsertElementAt
@@ -4632,6 +4654,8 @@ overlaps
 InsertElementAt
 (
 0
+mStyledRanges
+.
 mRanges
 [
 startIndex
@@ -4659,6 +4683,8 @@ overlaps
 InsertElementAt
 (
 1
+mStyledRanges
+.
 mRanges
 [
 endIndex
@@ -4687,6 +4713,8 @@ endIndex
 i
 )
 {
+mStyledRanges
+.
 mRanges
 [
 i
@@ -4700,6 +4728,8 @@ UnregisterSelection
 )
 ;
 }
+mStyledRanges
+.
 mRanges
 .
 RemoveElementsAt
@@ -4807,6 +4837,8 @@ NS_ERROR_OUT_OF_MEMORY
 if
 (
 !
+mStyledRanges
+.
 mRanges
 .
 InsertElementsAt
@@ -4902,6 +4934,8 @@ i
 ;
 i
 <
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -4915,6 +4949,8 @@ i
 {
 if
 (
+mStyledRanges
+.
 mRanges
 [
 i
@@ -4947,6 +4983,8 @@ idx
 return
 NS_ERROR_DOM_NOT_FOUND_ERR
 ;
+mStyledRanges
+.
 mRanges
 .
 RemoveElementAt
@@ -4981,6 +5019,8 @@ while
 (
 i
 <
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -4990,6 +5030,8 @@ Length
 {
 if
 (
+mStyledRanges
+.
 mRanges
 [
 i
@@ -5009,6 +5051,8 @@ rv
 RemoveRangeInternal
 (
 *
+mStyledRanges
+.
 mRanges
 [
 i
@@ -5062,6 +5106,8 @@ i
 ;
 i
 <
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5073,6 +5119,8 @@ Length
 i
 )
 {
+mStyledRanges
+.
 mRanges
 [
 i
@@ -5088,6 +5136,8 @@ UnregisterSelection
 SelectFrames
 (
 aPresContext
+mStyledRanges
+.
 mRanges
 [
 i
@@ -5098,6 +5148,8 @@ false
 )
 ;
 }
+mStyledRanges
+.
 mRanges
 .
 Clear
@@ -5172,6 +5224,8 @@ aRangeIndex
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5184,6 +5238,8 @@ nsRange
 *
 range
 =
+mStyledRanges
+.
 mRanges
 [
 aRangeIndex
@@ -5450,6 +5506,8 @@ aRanges
 >
 AppendElement
 (
+mStyledRanges
+.
 mRanges
 [
 i
@@ -5533,6 +5591,8 @@ aEndIndex
 ;
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5566,6 +5626,8 @@ endsBeforeIndex
 FindInsertionPoint
 (
 &
+mStyledRanges
+.
 mRanges
 *
 aEndNode
@@ -5588,6 +5650,8 @@ nsRange
 *
 endRange
 =
+mStyledRanges
+.
 mRanges
 [
 endsBeforeIndex
@@ -5649,6 +5713,8 @@ beginsAfterIndex
 FindInsertionPoint
 (
 &
+mStyledRanges
+.
 mRanges
 *
 aBeginNode
@@ -5666,6 +5732,8 @@ beginsAfterIndex
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5687,6 +5755,8 @@ endsBeforeIndex
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5699,6 +5769,8 @@ nsRange
 *
 endRange
 =
+mStyledRanges
+.
 mRanges
 [
 endsBeforeIndex
@@ -5736,6 +5808,8 @@ nsRange
 *
 beginRange
 =
+mStyledRanges
+.
 mRanges
 [
 beginsAfterIndex
@@ -5774,6 +5848,8 @@ aBeginOffset
 {
 beginRange
 =
+mStyledRanges
+.
 mRanges
 [
 beginsAfterIndex
@@ -5813,6 +5889,8 @@ nsRange
 *
 beginRange
 =
+mStyledRanges
+.
 mRanges
 [
 beginsAfterIndex
@@ -5857,6 +5935,8 @@ endsBeforeIndex
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -5869,6 +5949,8 @@ nsRange
 *
 endRange
 =
+mStyledRanges
+.
 mRanges
 [
 endsBeforeIndex
@@ -5915,6 +5997,8 @@ beginsAfterIndex
 endsBeforeIndex
 "
 Is
+mStyledRanges
+.
 mRanges
 not
 ordered
@@ -6571,6 +6655,8 @@ i
 ;
 i
 <
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -6586,6 +6672,8 @@ nsRange
 *
 range
 =
+mStyledRanges
+.
 mRanges
 [
 i
@@ -7287,6 +7375,8 @@ aDetailsHead
 }
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -7699,6 +7789,8 @@ arrCount
 (
 int32_t
 )
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -7738,6 +7830,8 @@ rv
 SelectFrames
 (
 aPresContext
+mStyledRanges
+.
 mRanges
 [
 i
@@ -8051,6 +8145,8 @@ i
 ;
 i
 <
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -8064,6 +8160,8 @@ i
 {
 if
 (
+mStyledRanges
+.
 mRanges
 [
 i
@@ -8076,6 +8174,8 @@ aRange
 )
 return
 &
+mStyledRanges
+.
 mRanges
 [
 i
@@ -9077,6 +9177,8 @@ static_cast
 int32_t
 >
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -9374,6 +9476,8 @@ true
 int32_t
 cnt
 =
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -10209,6 +10313,8 @@ nsRange
 *
 firstRange
 =
+mStyledRanges
+.
 mRanges
 [
 0
@@ -10360,6 +10466,8 @@ nsRange
 *
 lastRange
 =
+mStyledRanges
+.
 mRanges
 [
 cnt
@@ -10567,6 +10675,8 @@ nullptr
 )
 ;
 return
+mStyledRanges
+.
 mRanges
 .
 SafeElementAt
@@ -12301,6 +12411,8 @@ return
 }
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -12600,6 +12712,8 @@ rv
 ;
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -14226,6 +14340,8 @@ StyledRange
 &
 rangeData
 :
+mStyledRanges
+.
 mRanges
 )
 {
@@ -16125,6 +16241,8 @@ GetPresContext
 ;
 if
 (
+mStyledRanges
+.
 mRanges
 .
 Length

@@ -965,6 +965,8 @@ const
 uint32_t
 cnt
 =
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -996,6 +998,8 @@ false
 ;
 }
 return
+mStyledRanges
+.
 mRanges
 [
 0
@@ -1096,6 +1100,8 @@ RangeCount
 const
 {
 return
+mStyledRanges
+.
 mRanges
 .
 Length
@@ -2435,12 +2441,20 @@ Disconnect
 (
 )
 ;
+struct
+StyledRanges
+{
 AutoTArray
 <
 StyledRange
 1
 >
 mRanges
+;
+}
+;
+StyledRanges
+mStyledRanges
 ;
 RefPtr
 <
