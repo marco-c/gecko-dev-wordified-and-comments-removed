@@ -201,7 +201,7 @@ searchBox
 =
 doc
 .
-getElementById
+querySelector
 (
 "
 search
@@ -209,6 +209,8 @@ search
 addons
 "
 )
+.
+input
 ;
 testHtmlKeys
 (
