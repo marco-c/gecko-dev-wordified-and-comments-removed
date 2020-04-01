@@ -134,4 +134,13 @@ browser
 .
 ini
 '
+'
+https
+-
+only
+/
+browser
+.
+ini
+'
 ]
