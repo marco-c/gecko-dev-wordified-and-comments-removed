@@ -1866,6 +1866,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 {
 }
 "
