@@ -5424,6 +5424,9 @@ PWindowGlobalParent
 >
 windowParentEp
 =
+newChild
+-
+>
 OpenPWindowGlobalEndpoint
 (
 windowChild
@@ -5485,7 +5488,6 @@ windowChild
 >
 Init
 (
-newChild
 )
 ;
 if
@@ -9513,6 +9515,9 @@ if
 NS_WARN_IF
 (
 !
+browserChild
+-
+>
 BindPWindowGlobalEndpoint
 (
 std
@@ -9543,7 +9548,6 @@ windowChild
 >
 Init
 (
-browserChild
 )
 ;
 if

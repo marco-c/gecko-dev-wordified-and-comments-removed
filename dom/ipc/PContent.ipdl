@@ -1734,9 +1734,6 @@ PSHistory
 manages
 PBenchmarkStorage
 ;
-manages
-PWindowGlobal
-;
 parent
 :
 async

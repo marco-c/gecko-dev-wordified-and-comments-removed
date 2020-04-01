@@ -1271,6 +1271,9 @@ manages
 PPaymentRequest
 ;
 manages
+PWindowGlobal
+;
+manages
 PBrowserBridge
 ;
 both
