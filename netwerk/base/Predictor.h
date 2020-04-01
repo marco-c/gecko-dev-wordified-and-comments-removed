@@ -1114,15 +1114,6 @@ ClampedPrefetchRollingLoadCount
 bool
 mInitialized
 ;
-bool
-mCleanedUp
-;
-nsCOMPtr
-<
-nsITimer
->
-mCleanupTimer
-;
 nsTArray
 <
 nsCString

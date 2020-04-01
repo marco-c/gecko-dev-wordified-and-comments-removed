@@ -141,13 +141,6 @@ sync
 clients
 .
 lastSync
-network
-.
-predictor
-.
-cleaned
--
-up
 )
 .
 -
