@@ -2716,10 +2716,6 @@ rv
 }
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >

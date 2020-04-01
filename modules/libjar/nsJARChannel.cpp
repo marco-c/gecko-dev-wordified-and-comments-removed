@@ -3775,10 +3775,6 @@ this
 ;
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >

@@ -771,11 +771,6 @@ nsIconChannel
 (
 )
 {
-if
-(
-mLoadInfo
-)
-{
 NS_ReleaseOnMainThreadSystemGroup
 (
 "
@@ -791,7 +786,6 @@ forget
 )
 )
 ;
-}
 if
 (
 mLoadGroup
@@ -1675,10 +1669,6 @@ rv
 }
 MOZ_ASSERT
 (
-!
-mLoadInfo
-|
-|
 mLoadInfo
 -
 >
