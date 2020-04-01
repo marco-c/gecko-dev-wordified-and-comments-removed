@@ -166,6 +166,8 @@ bouncer
 server
 :
 production
+-
+nazgul
 default
 :
 -
@@ -188,6 +190,8 @@ bouncer
 server
 :
 staging
+-
+nazgul
 shipping
 -
 phase
@@ -197,13 +201,13 @@ treeherder
 :
 symbol
 :
-BncLoc
+BncLocNazgul
 kind
 :
 other
 tier
 :
-1
+3
 jobs
 :
 firefox
