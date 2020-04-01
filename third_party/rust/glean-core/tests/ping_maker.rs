@@ -135,6 +135,10 @@ store1
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 glean
@@ -254,6 +258,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -394,6 +399,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -416,28 +422,6 @@ as_object
 .
 unwrap
 (
-)
-;
-assert_eq
-!
-(
-"
-store1
-"
-ping_info
-[
-"
-ping_type
-"
-]
-.
-as_str
-(
-)
-.
-unwrap
-(
-)
 )
 ;
 assert
@@ -524,6 +508,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -599,6 +584,10 @@ unknown
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 glean
@@ -620,6 +609,7 @@ collect
 glean
 &
 unknown_ping_type
+None
 )
 .
 is_none
@@ -756,6 +746,10 @@ new
 ping_name
 true
 false
+vec
+!
+[
+]
 )
 ;
 let
@@ -769,6 +763,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -821,6 +816,10 @@ store1
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 let
@@ -834,6 +833,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -881,6 +881,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -932,6 +933,10 @@ store2
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 let
@@ -945,6 +950,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -996,6 +1002,10 @@ store1
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 let
@@ -1009,6 +1019,7 @@ collect
 glean
 &
 ping_type
+None
 )
 .
 unwrap
@@ -1091,6 +1102,10 @@ store1
 "
 true
 false
+vec
+!
+[
+]
 )
 ;
 glean
@@ -1180,6 +1195,7 @@ submit_ping
 (
 &
 ping_type
+None
 )
 .
 is_ok
@@ -1285,6 +1301,10 @@ store1
 "
 true
 true
+vec
+!
+[
+]
 )
 ;
 glean
@@ -1304,6 +1324,7 @@ submit_ping
 (
 &
 ping_type
+None
 )
 .
 is_ok
@@ -1349,6 +1370,7 @@ submit_ping
 (
 &
 ping_type
+None
 )
 .
 is_ok
@@ -1387,6 +1409,7 @@ submit
 (
 &
 glean
+None
 )
 .
 is_ok

@@ -434,7 +434,7 @@ if
 CONFIG
 [
 '
-MOZ_FOGOTYPE
+MOZ_GLEAN
 '
 ]
 :
@@ -443,7 +443,7 @@ gkrust_features
 =
 [
 '
-fogotype
+glean
 '
 ]
 if

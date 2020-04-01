@@ -154,7 +154,7 @@ cfg
 feature
 =
 "
-fogotype
+glean
 "
 )
 ]

@@ -285,6 +285,11 @@ new
 sample
 "
 true
+true
+vec
+!
+[
+]
 )
 ;
 glean
@@ -364,6 +369,7 @@ submit_ping
 (
 &
 ping
+None
 )
 .
 unwrap

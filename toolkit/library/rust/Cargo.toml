@@ -339,7 +339,7 @@ shared
 remote
 "
 ]
-fogotype
+glean
 =
 [
 "
@@ -347,7 +347,7 @@ gkrust
 -
 shared
 /
-fogotype
+glean
 "
 ]
 [
