@@ -1517,9 +1517,6 @@ localeMatcher
 =
 matcher
 ;
-#
-ifdef
-NIGHTLY_BUILD
 var
 numberingSystem
 =
@@ -1565,8 +1562,6 @@ nu
 =
 numberingSystem
 ;
-#
-endif
 var
 style
 =

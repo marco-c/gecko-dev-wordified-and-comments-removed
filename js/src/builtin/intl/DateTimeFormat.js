@@ -1107,9 +1107,6 @@ localeMatcher
 =
 localeMatcher
 ;
-#
-ifdef
-NIGHTLY_BUILD
 var
 calendar
 =
@@ -1200,8 +1197,6 @@ nu
 =
 numberingSystem
 ;
-#
-endif
 var
 hr12
 =

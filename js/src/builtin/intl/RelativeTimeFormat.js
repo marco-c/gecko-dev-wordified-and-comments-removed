@@ -360,9 +360,6 @@ localeMatcher
 =
 matcher
 ;
-#
-ifdef
-NIGHTLY_BUILD
 let
 numberingSystem
 =
@@ -408,8 +405,6 @@ nu
 =
 numberingSystem
 ;
-#
-endif
 lazyRelativeTimeFormatData
 .
 opt
