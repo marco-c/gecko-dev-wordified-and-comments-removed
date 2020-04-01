@@ -669,7 +669,6 @@ submit_ping_by_name
 (
 &
 store_name
-None
 )
 {
 log
@@ -910,7 +909,6 @@ glean
 submit_ping_by_name
 (
 store_name
-None
 )
 {
 log

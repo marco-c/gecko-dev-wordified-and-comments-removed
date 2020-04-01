@@ -339,7 +339,6 @@ Serialize
 Deserialize
 Clone
 Debug
-PartialEq
 )
 ]
 pub
@@ -792,10 +791,10 @@ e
 )
 =
 >
-e
-.
-as_json
+json
+!
 (
+e
 )
 Metric
 :

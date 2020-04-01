@@ -193,10 +193,6 @@ baseline
 "
 true
 false
-vec
-!
-[
-]
 )
 )
 ;
@@ -215,10 +211,6 @@ metrics
 "
 true
 false
-vec
-!
-[
-]
 )
 )
 ;
@@ -584,7 +576,6 @@ baseline
 unwrap
 (
 )
-None
 )
 .
 unwrap
@@ -627,7 +618,6 @@ metrics
 unwrap
 (
 )
-None
 )
 ;
 println

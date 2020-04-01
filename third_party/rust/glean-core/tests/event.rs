@@ -998,10 +998,6 @@ clone
 )
 true
 false
-vec
-!
-[
-]
 )
 )
 ;

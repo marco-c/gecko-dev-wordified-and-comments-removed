@@ -1044,7 +1044,9 @@ path
 /
 components
 /
-glean
+telemetry
+/
+fog
 "
 optional
 =
@@ -1479,7 +1481,7 @@ remote_agent
 remote
 "
 ]
-glean
+fogotype
 =
 [
 "

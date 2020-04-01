@@ -17,7 +17,7 @@ use
 once_cell
 :
 :
-sync
+unsync
 :
 :
 OnceCell
@@ -153,7 +153,6 @@ Debug
 Clone
 Serialize
 Deserialize
-PartialEq
 )
 ]
 pub

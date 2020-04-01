@@ -178,7 +178,6 @@ Debug
 Clone
 Serialize
 Deserialize
-PartialEq
 )
 ]
 pub

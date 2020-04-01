@@ -314,7 +314,9 @@ toolkit
 /
 components
 /
-glean
+telemetry
+/
+fog
 /
 -
 toolkit
