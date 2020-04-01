@@ -4172,9 +4172,7 @@ nsFrameSelection
 :
 :
 sSelectionEventsOnTextControlsEnabled
-GetDocument
-(
-)
+doc
 )
 ;
 if
