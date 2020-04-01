@@ -6979,7 +6979,11 @@ nullptr
 const
 GCPtrObject
 functionOrGlobal_
+=
+{
+}
 ;
+const
 GCPtr
 <
 ScriptSourceObject
@@ -10451,12 +10455,6 @@ script
 void
 setDefaultClassConstructorSpan
 (
-js
-:
-:
-ScriptSourceObject
-*
-sourceObject
 uint32_t
 start
 uint32_t
