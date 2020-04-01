@@ -886,6 +886,9 @@ value
 ;
 let
 errorThrown
+=
+"
+"
 ;
 try
 {
@@ -946,11 +949,13 @@ errorThrown
 match
 (
 /
-Cannot
+Could
+not
 find
 object
 with
-ID
+given
+id
 /
 )
 "

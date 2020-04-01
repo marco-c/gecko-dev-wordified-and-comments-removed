@@ -79,6 +79,15 @@ ini
 "
 browser
 /
+dom
+/
+browser
+.
+ini
+"
+"
+browser
+/
 emulation
 /
 browser
