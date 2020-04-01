@@ -214,24 +214,6 @@ script
 >
     
 <
-script
-src
-=
-"
-/
-resources
-/
-testharnessreport
-.
-js
-"
->
-<
-/
-script
->
-    
-<
 div
 id
 =
