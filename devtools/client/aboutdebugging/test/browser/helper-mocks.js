@@ -1167,8 +1167,6 @@ require
 "
 devtools
 /
-shared
-/
 client
 /
 devtools

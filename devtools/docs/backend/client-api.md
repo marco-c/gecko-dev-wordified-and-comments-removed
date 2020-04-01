@@ -110,8 +110,6 @@ require
 "
 devtools
 /
-shared
-/
 client
 /
 devtools
@@ -256,8 +254,6 @@ require
 (
 "
 devtools
-/
-shared
 /
 client
 /
@@ -919,8 +915,6 @@ require
 (
 "
 devtools
-/
-shared
 /
 client
 /

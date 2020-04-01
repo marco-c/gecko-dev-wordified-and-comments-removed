@@ -355,8 +355,6 @@ source
 /
 devtools
 /
-shared
-/
 client
 /
 devtools
