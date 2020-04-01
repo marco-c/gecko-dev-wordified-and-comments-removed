@@ -1499,6 +1499,11 @@ processType
 origAppInfo
 .
 processType
+processID
+:
+origAppInfo
+.
+processID
 uniqueProcessID
 :
 origAppInfo
