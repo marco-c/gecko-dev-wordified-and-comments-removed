@@ -1808,7 +1808,17 @@ GetChildToParentConversionMatrix
 LayoutDeviceToCSSScale
 ld2cScale
 (
+(
+float
+)
 appUnitsPerDevPixel
+/
+(
+float
+)
+AppUnitsPerCSSPixel
+(
+)
 )
 ;
 CSSToLayoutDeviceScale
