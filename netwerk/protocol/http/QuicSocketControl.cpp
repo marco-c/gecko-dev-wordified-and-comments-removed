@@ -197,11 +197,6 @@ CallAuthenticated
 (
 )
 {
-if
-(
-mHttp3Session
-)
-{
 RefPtr
 <
 Http3Session
@@ -213,6 +208,11 @@ do_QueryReferent
 mHttp3Session
 )
 ;
+if
+(
+http3Session
+)
+{
 http3Session
 -
 >
