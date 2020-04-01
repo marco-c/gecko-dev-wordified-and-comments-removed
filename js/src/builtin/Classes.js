@@ -27,11 +27,6 @@ args
 }
 }
 ;
-MakeDefaultConstructor
-(
-DefaultDerivedClassConstructor
-)
-;
 var
 DefaultBaseClassConstructor
 =
@@ -43,9 +38,4 @@ constructor
 {
 }
 }
-;
-MakeDefaultConstructor
-(
-DefaultBaseClassConstructor
-)
 ;
