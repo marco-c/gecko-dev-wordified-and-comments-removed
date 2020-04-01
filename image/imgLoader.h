@@ -861,7 +861,11 @@ Init
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 LoadImage
 (
@@ -916,7 +920,11 @@ imgRequestProxy
 _retval
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 LoadImageWithChannel
 (

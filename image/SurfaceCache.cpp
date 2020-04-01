@@ -1140,7 +1140,11 @@ return
 bytes
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Insert
 (

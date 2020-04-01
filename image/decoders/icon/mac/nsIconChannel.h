@@ -182,7 +182,11 @@ mCanceled
 =
 false
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 MakeInputStream
 (

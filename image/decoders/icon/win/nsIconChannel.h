@@ -294,7 +294,11 @@ HICON
 hIcon
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 MakeInputStream
 (
