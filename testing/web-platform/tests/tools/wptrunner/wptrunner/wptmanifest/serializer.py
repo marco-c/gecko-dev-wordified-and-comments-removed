@@ -1,7 +1,10 @@
 from
+__future__
+import
+unicode_literals
+from
 six
 import
-ensure_str
 ensure_text
 from
 .
@@ -186,7 +189,7 @@ rv
 c
     
 return
-ensure_str
+ensure_text
 (
 rv
 )
@@ -824,7 +827,7 @@ node
         
 return
 [
-str
+ensure_text
 (
 node
 .
@@ -1111,7 +1114,7 @@ node
         
 return
 [
-str
+ensure_text
 (
 node
 .
@@ -1129,7 +1132,7 @@ node
         
 return
 [
-str
+ensure_text
 (
 node
 .

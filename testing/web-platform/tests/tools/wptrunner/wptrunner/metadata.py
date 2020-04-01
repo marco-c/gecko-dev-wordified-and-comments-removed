@@ -1968,6 +1968,9 @@ manifest_str
 .
 encode
 (
+"
+utf8
+"
 )
 )
             
