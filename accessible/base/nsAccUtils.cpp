@@ -1513,6 +1513,15 @@ IsGenericHyperText
 &
 !
 roleMapEntry
+&
+&
+!
+table
+-
+>
+IsTable
+(
+)
 )
 )
 {
