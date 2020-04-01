@@ -699,7 +699,7 @@ GetManifestPath
 VRControllerType
 :
 :
-Vive
+HTCVive
 &
 output
 )
@@ -710,7 +710,7 @@ SendOpenVRControllerManifestPathToVR
 VRControllerType
 :
 :
-Vive
+HTCVive
 output
 )
 ;
@@ -725,7 +725,7 @@ GetManifestPath
 VRControllerType
 :
 :
-WMR
+MSMR
 &
 output
 )
@@ -736,7 +736,7 @@ SendOpenVRControllerManifestPathToVR
 VRControllerType
 :
 :
-WMR
+MSMR
 output
 )
 ;
@@ -751,7 +751,7 @@ GetManifestPath
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 &
 output
 )
@@ -762,7 +762,7 @@ SendOpenVRControllerManifestPathToVR
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 output
 )
 ;

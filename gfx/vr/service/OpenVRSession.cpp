@@ -1509,7 +1509,7 @@ GetOpenVRControllerManifestPath
 VRControllerType
 :
 :
-Vive
+HTCVive
 &
 output
 )
@@ -1606,7 +1606,7 @@ GetOpenVRControllerManifestPath
 VRControllerType
 :
 :
-WMR
+MSMR
 &
 output
 )
@@ -1699,7 +1699,7 @@ GetOpenVRControllerManifestPath
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 &
 output
 )
@@ -1790,7 +1790,7 @@ GetOpenVRControllerManifestPath
 VRControllerType
 :
 :
-Cosmos
+HTCViveCosmos
 &
 output
 )
@@ -3590,7 +3590,7 @@ SendOpenVRControllerManifestPathToParent
 VRControllerType
 :
 :
-Vive
+HTCVive
 viveManifest
 )
 ;
@@ -3605,7 +3605,7 @@ SendOpenVRControllerManifestPathToParent
 VRControllerType
 :
 :
-WMR
+MSMR
 WMRManifest
 )
 ;
@@ -3620,7 +3620,7 @@ SendOpenVRControllerManifestPathToParent
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 knucklesManifest
 )
 ;
@@ -3635,7 +3635,7 @@ SendOpenVRControllerManifestPathToParent
 VRControllerType
 :
 :
-Cosmos
+HTCViveCosmos
 cosmosManifest
 )
 ;
@@ -6260,7 +6260,7 @@ case
 VRControllerType
 :
 :
-Vive
+HTCVive
 :
 mControllerMapper
 =
@@ -6277,7 +6277,7 @@ case
 VRControllerType
 :
 :
-Cosmos
+HTCViveCosmos
 :
 mControllerMapper
 =
@@ -6300,7 +6300,7 @@ case
 VRControllerType
 :
 :
-WMR
+MSMR
 :
 mControllerMapper
 =
@@ -6319,7 +6319,7 @@ case
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 :
 mControllerMapper
 =
@@ -7172,7 +7172,7 @@ aControllerType
 VRControllerType
 :
 :
-Vive
+HTCVive
 ;
 }
 else
@@ -7223,7 +7223,7 @@ aControllerType
 VRControllerType
 :
 :
-Knuckles
+ValveIndex
 ;
 }
 else
@@ -7261,7 +7261,7 @@ aControllerType
 VRControllerType
 :
 :
-Cosmos
+HTCViveCosmos
 ;
 }
 if
@@ -7376,7 +7376,7 @@ aControllerType
 VRControllerType
 :
 :
-WMR
+MSMR
 ;
 }
 }
