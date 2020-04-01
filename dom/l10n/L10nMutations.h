@@ -196,6 +196,14 @@ broken
 )
 ;
 }
+bool
+IsInRoots
+(
+nsINode
+*
+aNode
+)
+;
 }
 ;
 }
