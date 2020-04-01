@@ -13206,7 +13206,7 @@ passwords
 .
 enabled
 "
-false
+true
 )
 ;
 pref
