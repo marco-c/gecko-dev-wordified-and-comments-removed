@@ -4376,6 +4376,13 @@ webidl2
 tools
 /
 *
+*
+:
+*
+/
+third_party
+/
+*
 #
 Build
 system
