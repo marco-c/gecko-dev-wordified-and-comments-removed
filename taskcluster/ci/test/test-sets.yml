@@ -173,7 +173,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 -
 web
 -
@@ -181,7 +181,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 -
 web
 -
@@ -3252,7 +3252,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 -
 web
 -
@@ -3260,7 +3260,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 -
 web
 -
@@ -3478,7 +3478,7 @@ platform
 -
 tests
 -
-crashtests
+crashtest
 -
 web
 -
@@ -3486,7 +3486,7 @@ platform
 -
 tests
 -
-reftests
+reftest
 -
 xpcshell
 android
