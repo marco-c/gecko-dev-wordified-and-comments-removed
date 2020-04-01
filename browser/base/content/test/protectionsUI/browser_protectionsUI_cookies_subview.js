@@ -29,7 +29,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookiePage
 .
@@ -62,7 +62,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 containerPage
 .
@@ -226,7 +226,7 @@ tab
 linkedBrowser
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -1732,7 +1732,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -2388,7 +2388,7 @@ window
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -2836,7 +2836,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

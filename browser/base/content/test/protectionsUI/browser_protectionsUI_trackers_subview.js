@@ -51,7 +51,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -145,7 +145,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

@@ -27,7 +27,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -58,7 +58,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 benignPage
 .
@@ -91,7 +91,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 cookiePage
 .
@@ -462,7 +462,7 @@ blocking
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -745,7 +745,7 @@ await
 loaded
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -893,7 +893,7 @@ function
 )
 {
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -1445,7 +1445,7 @@ false
 )
 {
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

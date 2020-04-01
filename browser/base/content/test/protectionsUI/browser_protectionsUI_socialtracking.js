@@ -25,7 +25,7 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
 trackingPage
 .
@@ -580,7 +580,7 @@ await
 promise
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -976,7 +976,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;
@@ -1254,7 +1254,7 @@ waitForContentBlockingEvent
 )
 ;
 await
-openProtectionsPopup
+openProtectionsPanel
 (
 )
 ;

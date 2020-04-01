@@ -22,9 +22,9 @@ content
 /
 test
 /
-trackingUI
+protectionsUI
 /
-file_trackingUI_fetch
+file_protectionsUI_fetch
 .
 html
 "
