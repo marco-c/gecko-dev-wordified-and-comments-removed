@@ -3634,7 +3634,7 @@ kCcm
 kNack
 kTrrInt
 kRemb
-kTransCC
+kTransportCC
 }
 ;
 static
@@ -3914,7 +3914,7 @@ case
 SdpRtcpFbAttributeList
 :
 :
-kTransCC
+kTransportCC
 :
 os
 <
