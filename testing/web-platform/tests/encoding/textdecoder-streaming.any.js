@@ -302,12 +302,9 @@ uintArray
 new
 Uint8Array
 (
-new
-self
-[
-arrayBufferOrSharedArrayBuffer
-]
+createBuffer
 (
+arrayBufferOrSharedArrayBuffer
 sub
 .
 length
