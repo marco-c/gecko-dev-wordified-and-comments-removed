@@ -746,6 +746,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -896,6 +897,7 @@ self
 compare
 (
             
+b
 "
 "
 "
@@ -1046,6 +1048,7 @@ self
 .
 parse
 (
+b
 "
 key
 :
