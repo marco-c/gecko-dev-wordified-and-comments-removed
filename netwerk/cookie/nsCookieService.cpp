@@ -10743,6 +10743,14 @@ return
 case
 STATUS_REJECTED_WITH_ERROR
 :
+NotifyRejected
+(
+aHostURI
+aChannel
+rejectedReason
+OPERATION_WRITE
+)
+;
 return
 ;
 case
