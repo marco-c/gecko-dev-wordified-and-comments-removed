@@ -41,7 +41,13 @@ glean_core
 Configuration
 ;
 mod
+api
+;
+mod
 client_info
+;
+mod
+core_metrics
 ;
 #
 [

@@ -3,6 +3,7 @@
 derive
 (
 Debug
+Clone
 )
 ]
 pub
