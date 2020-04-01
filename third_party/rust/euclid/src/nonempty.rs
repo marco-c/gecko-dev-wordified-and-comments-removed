@@ -20,12 +20,6 @@ max
 }
 ;
 use
-num
-:
-:
-Zero
-;
-use
 core
 :
 :
@@ -196,13 +190,7 @@ T
 :
 Copy
 +
-Clone
-+
-Zero
-+
 PartialOrd
-+
-PartialEq
 +
 Add
 <
