@@ -1942,6 +1942,9 @@ clicking
 "
 PASS
 "
+"
+FAIL
+"
 ]
 "
 Firefox
@@ -2621,7 +2624,7 @@ objects
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -2640,7 +2643,7 @@ object
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -2826,7 +2829,7 @@ navigation
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -4064,7 +4067,7 @@ metaKey
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -4157,6 +4160,9 @@ shiftKey
 [
 "
 PASS
+"
+"
+FAIL
 "
 ]
 "
@@ -4343,7 +4349,7 @@ key
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -5466,7 +5472,7 @@ responses
 :
 [
 "
-FAIL
+SKIP
 "
 ]
 "
@@ -5558,7 +5564,7 @@ iframes
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -8139,7 +8145,7 @@ subframes
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -8232,6 +8238,9 @@ timeout
 "
 PASS
 "
+"
+FAIL
+"
 ]
 "
 Firefox
@@ -8251,6 +8260,9 @@ timeout
 "
 PASS
 "
+"
+FAIL
+"
 ]
 "
 Firefox
@@ -8269,6 +8281,9 @@ load
 [
 "
 PASS
+"
+"
+FAIL
 "
 ]
 "
@@ -10520,7 +10535,7 @@ selector
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -10539,7 +10554,7 @@ xpath
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -10988,7 +11003,7 @@ exists
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11028,7 +11043,7 @@ added
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11050,7 +11065,7 @@ innerHTML
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11072,7 +11087,7 @@ frame
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11090,6 +11105,9 @@ frame
 "
 :
 [
+"
+PASS
+"
 "
 FAIL
 "
@@ -11111,6 +11129,9 @@ detached
 :
 [
 "
+PASS
+"
+"
 FAIL
 "
 ]
@@ -11131,7 +11152,7 @@ navigation
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11149,7 +11170,7 @@ visible
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11168,7 +11189,7 @@ recursively
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11189,7 +11210,7 @@ hidden
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11210,7 +11231,7 @@ none
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11229,7 +11250,7 @@ removal
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11254,7 +11275,7 @@ element
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11298,7 +11319,7 @@ hidden
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11318,7 +11339,7 @@ mutation
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11337,7 +11358,7 @@ handle
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11377,7 +11398,7 @@ xpath
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11454,7 +11475,7 @@ none
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11473,7 +11494,7 @@ handle
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11495,7 +11516,7 @@ node
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11519,7 +11540,7 @@ slash
 :
 [
 "
-FAIL
+PASS
 "
 ]
 "
@@ -11718,7 +11739,7 @@ target
 :
 [
 "
-TIMEOUT
+SKIP
 "
 ]
 "

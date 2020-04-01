@@ -1817,7 +1817,7 @@ toEqual
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -1862,7 +1862,7 @@ undefined
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -2587,7 +2587,7 @@ true
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
