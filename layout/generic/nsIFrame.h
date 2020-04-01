@@ -2407,6 +2407,12 @@ return
 mParent
 ;
 }
+bool
+CanBeDynamicReflowRoot
+(
+)
+const
+;
 inline
 nsContainerFrame
 *
