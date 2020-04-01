@@ -8273,17 +8273,6 @@ return
 }
 this
 .
-classList
-.
-add
-(
-"
-category
-"
-)
-;
-this
-.
 selected
 =
 this
