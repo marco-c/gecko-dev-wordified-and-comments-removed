@@ -471,16 +471,6 @@ nsReflowStatus
 aStatus
 )
 ;
-nscoord
-GetAvailableContentBSize
-(
-const
-ReflowInput
-&
-aReflowInput
-)
-const
-;
 void
 ForEachColumnRule
 (
