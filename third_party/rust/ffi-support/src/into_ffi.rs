@@ -29,6 +29,8 @@ pub
 unsafe
 trait
 IntoFfi
+:
+Sized
 {
 type
 Value

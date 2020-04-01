@@ -998,6 +998,10 @@ clone
 )
 true
 false
+vec
+!
+[
+]
 )
 )
 ;
