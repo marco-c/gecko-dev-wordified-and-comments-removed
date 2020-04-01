@@ -1847,6 +1847,7 @@ true
 }
 update
 :
+async
 function
 (
 windowId
@@ -2069,6 +2070,7 @@ updateInfo
 titlePreface
 )
 ;
+await
 win
 .
 window
@@ -2081,15 +2083,10 @@ updateTitlebar
 ;
 }
 return
-Promise
-.
-resolve
-(
 win
 .
 convert
 (
-)
 )
 ;
 }
