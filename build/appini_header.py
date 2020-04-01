@@ -283,11 +283,6 @@ Gecko
 :
 maxversion
 '
-'
-AppUpdate
-:
-url
-'
 )
     
 missing
@@ -437,6 +432,29 @@ sourceurl
 =
 '
 NULL
+'
+    
+if
+'
+AppUpdate
+:
+url
+'
+not
+in
+appdata
+:
+        
+appdata
+[
+'
+AppUpdate
+:
+url
+'
+]
+=
+'
 '
     
 output
