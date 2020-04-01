@@ -1170,6 +1170,11 @@ optionalFeatures
 ;
 }
 ;
+[
+Exposed
+=
+Window
+]
 interface
 XRPermissionStatus
 :
