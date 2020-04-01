@@ -440,6 +440,16 @@ attribute
 MaybeAspectRatio
 intrinsicRatio
 ;
+readonly
+attribute
+int32_t
+hotspotX
+;
+readonly
+attribute
+int32_t
+hotspotY
+;
 [
 notxpcom
 nostdcall

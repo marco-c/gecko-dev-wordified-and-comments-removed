@@ -28,13 +28,6 @@ h
 #
 include
 "
-nsIProperties
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -260,8 +253,6 @@ final
 public
 ImageResource
 public
-nsIProperties
-public
 SupportsWeakPtr
 <
 RasterImage
@@ -287,7 +278,6 @@ MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 RasterImage
 )
 NS_DECL_THREADSAFE_ISUPPORTS
-NS_DECL_NSIPROPERTIES
 NS_DECL_IMGICONTAINER
 #
 ifdef
@@ -755,11 +745,11 @@ Progress
 >
 mLoadProgress
 ;
-nsCOMPtr
-<
-nsIProperties
->
-mProperties
+gfx
+:
+:
+IntPoint
+mHotspot
 ;
 UniquePtr
 <
