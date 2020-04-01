@@ -339,7 +339,7 @@ MakeCDMHostVerificationPaths
 ;
 nsTArray
 <
-UniquePtr
+RefPtr
 <
 GMPContentChild
 >
