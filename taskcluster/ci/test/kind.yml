@@ -215,6 +215,12 @@ yml
 -
 browsertime
 -
+desktop
+.
+yml
+-
+browsertime
+-
 mobile
 .
 yml
