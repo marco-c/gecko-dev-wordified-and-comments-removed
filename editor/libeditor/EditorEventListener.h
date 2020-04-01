@@ -407,11 +407,7 @@ aEvent
 )
 const
 ;
-[
-[
-nodiscard
-]
-]
+MOZ_MUST_USE
 bool
 EnsureCommitComposition
 (

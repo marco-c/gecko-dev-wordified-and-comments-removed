@@ -2705,12 +2705,8 @@ aScanStartOffset
 )
 {
 }
-[
-[
-nodiscard
-]
-]
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 static
 nsresult
 Scrub
@@ -2724,12 +2720,8 @@ EditorDOMPoint
 aPoint
 )
 ;
-[
-[
-nodiscard
-]
-]
 MOZ_CAN_RUN_SCRIPT
+MOZ_MUST_USE
 static
 nsresult
 PrepareToJoinBlocks
