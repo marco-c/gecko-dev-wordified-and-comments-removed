@@ -65,7 +65,7 @@ VideoFrameMetadata
 {
 required
 DOMHighResTimeStamp
-timePresented
+presentedTime
 ;
 required
 DOMHighResTimeStamp
@@ -85,7 +85,7 @@ double
 presentationTimestamp
 ;
 double
-elapsedProcessingTime
+processingDuration
 ;
 unsigned
 long
