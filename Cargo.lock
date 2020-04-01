@@ -7993,6 +7993,9 @@ nserror
 nsstring
 "
 "
+once_cell
+"
+"
 static_prefs
 "
 "
