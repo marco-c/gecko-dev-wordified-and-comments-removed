@@ -1144,7 +1144,10 @@ XRReferenceSpace
 referenceSpace
 ;
 XRRigidTransform
+?
 transform
+=
+null
 ;
 }
 ;
