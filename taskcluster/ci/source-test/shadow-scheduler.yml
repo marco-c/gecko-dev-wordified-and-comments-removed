@@ -244,7 +244,9 @@ description
 :
 Runs
 the
-bugbug_push_schedules
+bugbug
+.
+all
 optimization
 strategy
 instead
@@ -286,7 +288,9 @@ optimize
 :
 experimental
 .
-bugbug_push_schedules
+bugbug
+.
+all
 seta
 :
 description
