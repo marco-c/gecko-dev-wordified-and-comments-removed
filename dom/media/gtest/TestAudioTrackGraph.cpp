@@ -271,6 +271,13 @@ Destroy
 )
 ;
 }
+#
+if
+!
+defined
+(
+ANDROID
+)
 TEST
 (
 TestAudioTrackGraph
@@ -569,3 +576,5 @@ AwaitFinished
 )
 ;
 }
+#
+endif
