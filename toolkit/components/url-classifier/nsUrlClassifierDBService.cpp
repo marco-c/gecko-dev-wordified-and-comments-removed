@@ -11064,6 +11064,15 @@ actor
 systemGroupEventTarget
 )
 ;
+URIParams
+uri
+;
+SerializeURI
+(
+aURI
+uri
+)
+;
 nsTArray
 <
 IPCURLClassifierFeature
@@ -11186,7 +11195,7 @@ content
 SendPURLClassifierLocalConstructor
 (
 actor
-aURI
+uri
 ipcFeatures
 )
 )
