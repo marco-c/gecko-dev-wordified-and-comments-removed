@@ -389,14 +389,14 @@ mStartReason
 WSType
 :
 :
-none
+NotInitialized
 )
 mEndReason
 (
 WSType
 :
 :
-none
+NotInitialized
 )
 {
 MOZ_ASSERT
@@ -2980,12 +2980,12 @@ IsCharNBSP
 WSType
 :
 :
-normalWS
+NormalWhiteSpaces
 :
 WSType
 :
 :
-text
+NormalText
 )
 ;
 }
@@ -3140,12 +3140,12 @@ IsCharNBSP
 WSType
 :
 :
-normalWS
+NormalWhiteSpaces
 :
 WSType
 :
 :
-text
+NormalText
 )
 ;
 }
@@ -3565,7 +3565,7 @@ mStartReason
 WSType
 :
 :
-text
+NormalText
 ;
 mStartReasonContent
 =
@@ -3667,7 +3667,7 @@ mStartReason
 WSType
 :
 :
-otherBlock
+OtherBlockBoundary
 ;
 mStartReasonContent
 =
@@ -3851,7 +3851,7 @@ mStartReason
 WSType
 :
 :
-text
+NormalText
 ;
 mStartReasonContent
 =
@@ -3932,7 +3932,7 @@ mStartReason
 WSType
 :
 :
-br
+BRElement
 ;
 }
 else
@@ -3942,7 +3942,7 @@ mStartReason
 WSType
 :
 :
-special
+SpecialContent
 ;
 }
 mStartReasonContent
@@ -3974,7 +3974,7 @@ mStartReason
 WSType
 :
 :
-thisBlock
+CurrentBlockBoundary
 ;
 mStartReasonContent
 =
@@ -4115,7 +4115,7 @@ mEndReason
 WSType
 :
 :
-text
+NormalText
 ;
 mEndReasonContent
 =
@@ -4213,7 +4213,7 @@ mEndReason
 WSType
 :
 :
-otherBlock
+OtherBlockBoundary
 ;
 mEndReasonContent
 =
@@ -4388,7 +4388,7 @@ mEndReason
 WSType
 :
 :
-text
+NormalText
 ;
 mEndReasonContent
 =
@@ -4471,7 +4471,7 @@ mEndReason
 WSType
 :
 :
-br
+BRElement
 ;
 }
 else
@@ -4481,7 +4481,7 @@ mEndReason
 WSType
 :
 :
-special
+SpecialContent
 ;
 }
 mEndReasonContent
@@ -4513,7 +4513,7 @@ mEndReason
 WSType
 :
 :
-thisBlock
+CurrentBlockBoundary
 ;
 mEndReasonContent
 =
