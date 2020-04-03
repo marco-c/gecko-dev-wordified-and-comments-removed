@@ -710,15 +710,5 @@ attribute
 boolean
 hasNonEmptySandboxingFlag
 ;
-[
-noscript
-notxpcom
-nostdcall
-]
-void
-DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
-(
-)
-;
 }
 ;

@@ -2406,14 +2406,5 @@ return
 NS_OK
 ;
 }
-void
-ClassifierDummyChannel
-:
-:
-DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
-(
-)
-{
-}
 }
 }
