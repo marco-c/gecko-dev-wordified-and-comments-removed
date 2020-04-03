@@ -615,6 +615,16 @@ nsACString
 aFamily
 )
 ;
+FontVisibility
+GetVisibilityForFamily
+(
+const
+nsACString
+&
+aName
+)
+const
+;
 static
 void
 RegisteredFontsChangedNotificationCallback
