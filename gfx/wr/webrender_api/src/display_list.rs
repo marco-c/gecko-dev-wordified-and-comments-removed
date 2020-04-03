@@ -6944,6 +6944,9 @@ di
 :
 :
 CommonItemProperties
+bounds
+:
+LayoutRect
 color
 :
 ColorF
@@ -6978,6 +6981,7 @@ Value
 (
 color
 )
+bounds
 }
 )
 ;
@@ -7004,6 +7008,9 @@ di
 :
 :
 CommonItemProperties
+bounds
+:
+LayoutRect
 color
 :
 PropertyBinding
@@ -7033,6 +7040,7 @@ common
 *
 common
 color
+bounds
 }
 )
 ;
@@ -7059,6 +7067,9 @@ di
 :
 :
 CommonItemProperties
+bounds
+:
+LayoutRect
 )
 {
 let
@@ -7081,6 +7092,7 @@ common
 :
 *
 common
+bounds
 }
 )
 ;

@@ -549,6 +549,7 @@ new
 local_rect
 space_and_clip
 )
+local_rect
 doc
 .
 color
