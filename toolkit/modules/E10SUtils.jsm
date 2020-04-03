@@ -553,11 +553,6 @@ about
 :
 printpreview
 "
-"
-about
-:
-privatebrowsing
-"
 ]
 ;
 function
