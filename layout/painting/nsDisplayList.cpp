@@ -42412,7 +42412,7 @@ parent
 GetResultingTransformMatrixInternal
 (
 props
-aRefBox
+refBox
 nsPoint
 (
 0
