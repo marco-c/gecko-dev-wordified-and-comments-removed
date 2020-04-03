@@ -4658,6 +4658,10 @@ interning
 :
 InterningMemoryReport
 pub
+display_list
+:
+usize
+pub
 gpu_cache_textures
 :
 usize
