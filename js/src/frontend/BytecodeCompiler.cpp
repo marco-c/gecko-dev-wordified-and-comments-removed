@@ -2288,6 +2288,7 @@ functionOrGlobal
 compilationInfo
 .
 sourceObject
+extent
 ImmutableScriptFlags
 :
 :
@@ -2297,7 +2298,6 @@ compilationInfo
 .
 options
 )
-extent
 )
 ;
 return
@@ -3682,6 +3682,7 @@ global
 compilationInfo
 .
 sourceObject
+extent
 ImmutableScriptFlags
 :
 :
@@ -3689,7 +3690,6 @@ fromCompileOptions
 (
 options
 )
-extent
 )
 )
 ;

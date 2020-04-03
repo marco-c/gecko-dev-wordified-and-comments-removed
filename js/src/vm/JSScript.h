@@ -9401,13 +9401,13 @@ sourceObject
 js
 :
 :
-ImmutableScriptFlags
-flags
+SourceExtent
+extent
 js
 :
 :
-SourceExtent
-extent
+ImmutableScriptFlags
+flags
 )
 ;
 static
