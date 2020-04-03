@@ -492,6 +492,13 @@ h
 '
 public
 /
+ProfileBufferChunkManagerWithLocalLimit
+.
+h
+'
+'
+public
+/
 ProfileBufferEntrySerialization
 .
 h
