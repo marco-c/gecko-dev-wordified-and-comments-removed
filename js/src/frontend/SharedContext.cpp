@@ -717,14 +717,6 @@ hasExprBody_
 (
 false
 )
-argumentsHasLocalBinding_
-(
-false
-)
-definitelyNeedsArgsObj_
-(
-false
-)
 nargs_
 (
 0

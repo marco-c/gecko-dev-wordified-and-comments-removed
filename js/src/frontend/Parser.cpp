@@ -8882,7 +8882,7 @@ if
 funbox
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 )

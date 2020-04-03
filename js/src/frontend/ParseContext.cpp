@@ -3073,7 +3073,7 @@ usesArguments
 funbox
 -
 >
-setArgumentsHasLocalBinding
+setArgumentsHasVarBinding
 (
 )
 ;
@@ -3092,7 +3092,7 @@ bindingsAccessedDynamically
 funbox
 -
 >
-setDefinitelyNeedsArgsObj
+setAlwaysNeedsArgsObj
 (
 )
 ;

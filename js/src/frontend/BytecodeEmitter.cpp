@@ -43498,7 +43498,7 @@ if
 funbox
 -
 >
-argumentsHasLocalBinding
+argumentsHasVarBinding
 (
 )
 )

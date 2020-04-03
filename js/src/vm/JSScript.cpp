@@ -22598,14 +22598,6 @@ ImmutableFlags
 NeedsFunctionEnvironmentObjects
 )
 ;
-clearFlag
-(
-ImmutableFlags
-:
-:
-AlwaysNeedsArgsObj
-)
-;
 MOZ_ASSERT
 (
 !
