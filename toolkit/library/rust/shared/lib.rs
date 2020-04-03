@@ -348,6 +348,10 @@ extern
 crate
 fluent_ffi
 ;
+extern
+crate
+sync15_traits
+;
 #
 [
 cfg
