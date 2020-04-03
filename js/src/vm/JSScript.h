@@ -1561,7 +1561,7 @@ JS
 :
 Handle
 <
-JSScript
+BaseScript
 *
 >
 script
@@ -1594,7 +1594,7 @@ JS
 :
 Handle
 <
-JSScript
+BaseScript
 *
 >
 script
