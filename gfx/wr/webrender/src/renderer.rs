@@ -15617,7 +15617,7 @@ self
 .
 backend_profile_counters
 .
-ipc
+txn
 .
 total_send_time
 .
@@ -15629,7 +15629,7 @@ self
 .
 backend_profile_counters
 .
-ipc
+txn
 .
 display_list_build_time
 .
@@ -15641,7 +15641,7 @@ self
 .
 backend_profile_counters
 .
-ipc
+txn
 .
 scene_build_time
 .
