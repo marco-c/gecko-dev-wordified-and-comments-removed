@@ -201,11 +201,6 @@ IndexedDatabaseManager
 h
 '
 '
-InitializedOnce
-.
-h
-'
-'
 SafeRefPtr
 .
 h

@@ -14812,7 +14812,7 @@ mStrongCursor
 ;
 mRequest
 .
-reset
+destroy
 (
 )
 ;
@@ -14822,7 +14822,7 @@ nullptr
 ;
 mSource
 .
-reset
+destroy
 (
 )
 ;
@@ -16132,7 +16132,7 @@ ifdef
 DEBUG
 mRequest
 .
-maybeReset
+maybeDestroy
 (
 )
 ;
@@ -16142,7 +16142,7 @@ nullptr
 ;
 mSource
 .
-maybeReset
+maybeDestroy
 (
 )
 ;
