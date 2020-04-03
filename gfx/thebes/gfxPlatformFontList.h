@@ -773,6 +773,9 @@ const
 gfxFontStyle
 *
 aStyle
+FontVisibility
+*
+aVisibility
 )
 ;
 enum

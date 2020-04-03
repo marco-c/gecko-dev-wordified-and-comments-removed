@@ -565,7 +565,7 @@ aName
 FontVisibility
 :
 :
-Unknown
+Webfont
 )
 {
 }
