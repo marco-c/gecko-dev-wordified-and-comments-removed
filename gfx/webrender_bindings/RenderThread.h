@@ -636,8 +636,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-aHadSlowFrame
 )
 ;
 void
@@ -760,16 +758,6 @@ aDocFrameCount
 ;
 void
 DecPendingFrameBuildCount
-(
-wr
-:
-:
-WindowId
-aWindowId
-)
-;
-void
-NotifySlowFrame
 (
 wr
 :
@@ -1148,11 +1136,6 @@ mPendingFrameBuild
 ;
 bool
 mIsDestroyed
-=
-false
-;
-bool
-mHadSlowFrame
 =
 false
 ;

@@ -591,8 +591,6 @@ uint8_t
 >
 &
 aReadbackBuffer
-bool
-aHadSlowFrame
 RendererStats
 *
 aOutStats
@@ -820,7 +818,6 @@ width
 size
 .
 height
-aHadSlowFrame
 aOutStats
 &
 dirtyRects
