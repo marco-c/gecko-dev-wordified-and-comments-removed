@@ -4424,6 +4424,12 @@ set
 scene_build_time
 )
 ;
+profile_counters
+.
+scene_changed
+=
+true
+;
 }
 if
 let

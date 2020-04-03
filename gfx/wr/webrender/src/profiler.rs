@@ -3717,6 +3717,10 @@ pub
 intern
 :
 InternProfileCounters
+pub
+scene_changed
+:
+bool
 }
 #
 [
@@ -4469,6 +4473,9 @@ None
 None
 )
 }
+scene_changed
+:
+false
 }
 }
 pub
@@ -4499,6 +4506,12 @@ rasterized_blob_pixels
 reset
 (
 )
+;
+self
+.
+scene_changed
+=
+false
 ;
 }
 }
@@ -9547,7 +9560,7 @@ draw_state
 .
 y_left
 =
-40
+50
 .
 0
 ;
