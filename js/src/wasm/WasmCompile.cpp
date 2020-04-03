@@ -1780,8 +1780,6 @@ CompilerEnvironment
 :
 computeParameters
 (
-bool
-gcFeatureOptIn
 )
 {
 MOZ_ASSERT
@@ -1792,16 +1790,6 @@ state_
 InitialWithModeTierDebug
 )
 ;
-if
-(
-gcTypes_
-)
-{
-gcTypes_
-=
-gcFeatureOptIn
-;
-}
 state_
 =
 Computed
@@ -1816,8 +1804,6 @@ computeParameters
 Decoder
 &
 d
-bool
-gcFeatureOptIn
 )
 {
 MOZ_ASSERT
@@ -1838,7 +1824,6 @@ InitialWithModeTierDebug
 {
 computeParameters
 (
-gcFeatureOptIn
 )
 ;
 return
@@ -1851,9 +1836,6 @@ args_
 -
 >
 gcEnabled
-&
-&
-gcFeatureOptIn
 ;
 bool
 baselineEnabled
