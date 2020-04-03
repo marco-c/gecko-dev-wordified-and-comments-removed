@@ -1141,6 +1141,13 @@ SourceSurfaceCairo
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+gfx
+;
 class
 SRGBOverrideObserver
 final
@@ -10006,9 +10013,6 @@ aStyle
 gfxTextPerfMetrics
 *
 aTextPerf
-FontMatchingStats
-*
-aFontMatchingStats
 gfxUserFontSet
 *
 aUserFontSet
@@ -10024,7 +10028,6 @@ gfxFontGroup
 aFontFamilyList
 aStyle
 aTextPerf
-aFontMatchingStats
 aUserFontSet
 aDevToCssSize
 )

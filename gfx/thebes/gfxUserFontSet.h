@@ -562,10 +562,6 @@ aName
 gfxFontFamily
 (
 aName
-FontVisibility
-:
-:
-Webfont
 )
 {
 }
