@@ -1863,6 +1863,15 @@ MDefinition
 right
 )
 ;
+MDefinition
+*
+maybeConvertToNumber
+(
+MDefinition
+*
+def
+)
+;
 AbortReasonOr
 <
 MBinaryBitwiseInstruction
