@@ -5119,10 +5119,11 @@ hasUsableAbstractFramePtr
 {
 if
 (
+!
 script
 -
 >
-analyzedArgsUsage
+needsArgsAnalysis
 (
 )
 &

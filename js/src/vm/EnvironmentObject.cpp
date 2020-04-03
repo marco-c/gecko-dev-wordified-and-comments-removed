@@ -14476,10 +14476,11 @@ slot
 }
 if
 (
+!
 script
 -
 >
-analyzedArgsUsage
+needsArgsAnalysis
 (
 )
 &

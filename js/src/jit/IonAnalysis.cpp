@@ -23899,11 +23899,10 @@ cx
 ;
 MOZ_ASSERT
 (
-!
 script
 -
 >
-analyzedArgsUsage
+needsArgsAnalysis
 (
 )
 )
