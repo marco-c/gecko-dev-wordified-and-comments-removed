@@ -1349,6 +1349,15 @@ gfxMissingFontRecorder
 )
 ;
 }
+mFontStats
+=
+MakeUnique
+<
+FontMatchingStats
+>
+(
+)
+;
 }
 static
 const
