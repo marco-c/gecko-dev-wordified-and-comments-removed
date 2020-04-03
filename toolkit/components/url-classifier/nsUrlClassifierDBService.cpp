@@ -4548,8 +4548,6 @@ prefix
 )
 ;
 }
-else
-{
 LOG
 (
 (
@@ -4619,7 +4617,6 @@ result
 addChunk
 )
 ;
-}
 }
 RefPtr
 <
