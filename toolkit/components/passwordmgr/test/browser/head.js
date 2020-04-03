@@ -3053,7 +3053,7 @@ function
 openPasswordContextMenu
 (
 browser
-passwordInput
+input
 assertCallback
 =
 null
@@ -3156,7 +3156,7 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-passwordInput
+input
 eventDetails
 browsingContext
 )
@@ -3179,7 +3179,7 @@ BrowserTestUtils
 .
 synthesizeMouseAtCenter
 (
-passwordInput
+input
 eventDetails
 browsingContext
 )
