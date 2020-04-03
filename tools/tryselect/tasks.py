@@ -183,19 +183,38 @@ cache
 )
 :
     
-if
-not
+try
+:
+        
+cmod
+=
 os
 .
 path
 .
-isfile
+getmtime
 (
 cache
 )
+    
+except
+OSError
+as
+e
 :
         
+if
+e
+.
+errno
+=
+=
+2
+:
+            
 return
+        
+raise
     
 tc_dir
 =
@@ -241,17 +260,6 @@ FileFinder
 (
 tc_dir
 )
-)
-    
-cmod
-=
-os
-.
-path
-.
-getmtime
-(
-cache
 )
     
 if
