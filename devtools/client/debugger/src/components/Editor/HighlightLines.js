@@ -201,7 +201,7 @@ removeLineClass
 (
 line
 "
-wrapClass
+line
 "
 "
 highlight
@@ -300,7 +300,7 @@ addLineClass
 (
 line
 "
-wrapClass
+line
 "
 "
 highlight
