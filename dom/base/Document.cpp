@@ -32172,9 +32172,9 @@ if
 mDocumentContainer
 )
 {
-TabGroup
+nsPIDOMWindowOuter
 *
-tabgroup
+window
 =
 mDocumentContainer
 -
@@ -32182,6 +32182,17 @@ mDocumentContainer
 GetWindow
 (
 )
+;
+if
+(
+window
+)
+{
+TabGroup
+*
+tabgroup
+=
+window
 -
 >
 MaybeTabGroup
@@ -32204,6 +32215,7 @@ docGroupKey
 this
 )
 ;
+}
 }
 }
 }
