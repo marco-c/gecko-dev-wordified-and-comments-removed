@@ -214,6 +214,15 @@ h
 #
 include
 "
+vm
+/
+PromiseObject
+.
+h
+"
+#
+include
+"
 builtin
 /
 streams

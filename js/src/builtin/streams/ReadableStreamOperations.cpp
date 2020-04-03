@@ -1207,7 +1207,7 @@ ReadableStreamDefaultReader
 }
 Rooted
 <
-JSObject
+PromiseObject
 *
 >
 readerReadResultPromise

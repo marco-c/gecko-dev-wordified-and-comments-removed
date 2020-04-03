@@ -82,6 +82,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 ReadableStream
 ;
 enum
@@ -485,7 +488,7 @@ unwrappedReader
 ;
 extern
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 ReadableStreamDefaultReaderRead
 (
