@@ -5248,7 +5248,7 @@ false
 ;
 }
 bool
-temporarilyUnsupportedResultCountForJitEntry
+temporarilyUnsupportedResultCountForEntry
 (
 )
 const
@@ -5266,7 +5266,7 @@ length
 ;
 }
 bool
-temporarilyUnsupportedResultCountForJitExit
+temporarilyUnsupportedResultCountForExit
 (
 )
 const
