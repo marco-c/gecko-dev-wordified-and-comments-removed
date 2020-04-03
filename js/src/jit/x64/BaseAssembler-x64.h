@@ -405,7 +405,10 @@ addq
 %
 s
 "
+uint32_t
+(
 imm
+)
 GPReg64Name
 (
 dst
@@ -1383,7 +1386,7 @@ PRIx64
 %
 s
 "
-int64_t
+uint64_t
 (
 imm
 )
@@ -1546,7 +1549,7 @@ PRIx64
 %
 s
 "
-int64_t
+uint64_t
 (
 imm
 )
@@ -2006,7 +2009,7 @@ PRIx64
 %
 s
 "
-int64_t
+uint64_t
 (
 imm
 )
@@ -2916,7 +2919,7 @@ PRIx64
 %
 s
 "
-int64_t
+uint64_t
 (
 rhs
 )
@@ -3012,7 +3015,7 @@ PRIx64
 "
 "
 MEM_ob
-int64_t
+uint64_t
 (
 rhs
 )
@@ -3094,7 +3097,10 @@ cmpq
 x
 "
 MEM_obs
+uint32_t
+(
 rhs
+)
 ADDR_obs
 (
 offset
@@ -3178,7 +3184,7 @@ PRIx64
 %
 p
 "
-int64_t
+uint64_t
 (
 rhs
 )
@@ -3343,7 +3349,7 @@ PRIx64
 %
 s
 "
-int64_t
+uint64_t
 (
 rhs
 )
@@ -3411,7 +3417,7 @@ PRIx64
 "
 "
 MEM_ob
-int64_t
+uint64_t
 (
 rhs
 )
@@ -3464,7 +3470,10 @@ testq
 4x
 "
 MEM_obs
+uint32_t
+(
 rhs
+)
 ADDR_obs
 (
 offset
@@ -4782,7 +4791,10 @@ PRIx64
 %
 s
 "
+uint64_t
+(
 imm
+)
 GPReg64Name
 (
 dst
