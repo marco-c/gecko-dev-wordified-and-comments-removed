@@ -476,7 +476,12 @@ No
 Maybe
 }
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 AddRangesForUserSelectableNodes
 (
@@ -491,7 +496,12 @@ DispatchSelectstartEvent
 aDispatchSelectstartEvent
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 AddRangesForSelectableNodes
 (
@@ -2443,7 +2453,7 @@ aRangeIndex
 )
 const
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 MaybeAddRangeAndTruncateOverlaps
 (

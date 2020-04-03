@@ -4319,10 +4319,13 @@ mStyledRanges
 .
 MaybeAddRangeAndTruncateOverlaps
 (
+MOZ_KnownLive
+(
 rangesToAdd
 [
 i
 ]
+)
 &
 index
 *
