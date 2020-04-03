@@ -522,16 +522,12 @@ Node
 packages
 vendor
 :
-react
-:
 node
 .
 /
 bin
 /
 vendor
--
-react
 .
 js
 fix
