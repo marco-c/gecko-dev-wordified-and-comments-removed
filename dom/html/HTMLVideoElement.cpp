@@ -3037,6 +3037,10 @@ container
 )
 ;
 }
+UpdateMediaControlAfterPictureInPictureModeChanged
+(
+)
+;
 }
 else
 if
@@ -3090,6 +3094,10 @@ mSecondaryVideoOutput
 )
 ;
 }
+UpdateMediaControlAfterPictureInPictureModeChanged
+(
+)
+;
 }
 }
 void
@@ -3179,7 +3187,7 @@ SetVisualCloneTarget
 nullptr
 )
 ;
-CreateStopMediaControlTimerIfNeeded
+UpdateMediaControlAfterPictureInPictureModeChanged
 (
 )
 ;

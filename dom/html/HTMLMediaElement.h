@@ -3471,6 +3471,11 @@ ClearStopMediaControlTimerIfNeeded
 (
 )
 ;
+void
+UpdateMediaControlAfterPictureInPictureModeChanged
+(
+)
+;
 RefPtr
 <
 MediaDecoder
