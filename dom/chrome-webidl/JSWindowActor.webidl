@@ -227,6 +227,12 @@ DOMString
 >
 remoteTypes
 ;
+sequence
+<
+DOMString
+>
+messageManagerGroups
+;
 WindowActorSidedOptions
 parent
 ;

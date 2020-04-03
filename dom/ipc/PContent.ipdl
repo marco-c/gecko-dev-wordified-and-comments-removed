@@ -1393,6 +1393,11 @@ nsString
 ]
 remoteTypes
 ;
+nsString
+[
+]
+messageManagerGroups
+;
 }
 ;
 struct

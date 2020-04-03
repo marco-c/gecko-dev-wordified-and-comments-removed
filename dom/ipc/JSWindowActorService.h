@@ -325,6 +325,14 @@ nsDependentSubstring
 aRemoteType
 )
 ;
+bool
+MessageManagerGroupMatches
+(
+BrowsingContext
+*
+aBrowsingContext
+)
+;
 ~
 JSWindowActorProtocol
 (
@@ -356,6 +364,12 @@ nsTArray
 nsString
 >
 mRemoteTypes
+;
+nsTArray
+<
+nsString
+>
+mMessageManagerGroups
 ;
 ParentSide
 mParent
