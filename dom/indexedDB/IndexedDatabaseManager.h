@@ -403,8 +403,9 @@ CommonPostHandleEvent
 EventChainPostVisitor
 &
 aVisitor
+const
 IDBFactory
-*
+&
 aFactory
 )
 ;

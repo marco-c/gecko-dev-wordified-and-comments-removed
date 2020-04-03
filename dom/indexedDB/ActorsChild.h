@@ -637,7 +637,7 @@ BackgroundFactoryChild
 ;
 }
 IDBFactory
-*
+&
 GetDOMObject
 (
 )
@@ -647,7 +647,13 @@ AssertIsOnOwningThread
 (
 )
 ;
+MOZ_ASSERT
+(
+mFactory
+)
+;
 return
+*
 mFactory
 ;
 }
@@ -664,7 +670,7 @@ explicit
 BackgroundFactoryChild
 (
 IDBFactory
-*
+&
 aFactory
 )
 ;
@@ -842,7 +848,7 @@ class
 PermissionRequestParent
 ;
 const
-RefPtr
+SafeRefPtr
 <
 IDBFactory
 >
@@ -873,8 +879,10 @@ private
 :
 BackgroundFactoryRequestChild
 (
+SafeRefPtr
+<
 IDBFactory
-*
+>
 aFactory
 IDBOpenDBRequest
 *
