@@ -616,7 +616,7 @@ state
 describe
 (
 "
-clearTarget
+unregisterTarget
 "
 (
 )
@@ -725,7 +725,7 @@ dispatch
 (
 actions
 .
-clearTarget
+unregisterTarget
 (
 targetFront1
 )
@@ -779,7 +779,7 @@ dispatch
 (
 actions
 .
-clearTarget
+unregisterTarget
 (
 targetFront2
 )
@@ -886,7 +886,7 @@ dispatch
 (
 actions
 .
-clearTarget
+unregisterTarget
 (
 targetFront2
 )
@@ -1005,7 +1005,7 @@ dispatch
 (
 actions
 .
-clearTarget
+unregisterTarget
 (
 targetFront1
 )

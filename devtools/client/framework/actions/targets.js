@@ -77,7 +77,7 @@ target
 ;
 }
 function
-clearTarget
+unregisterTarget
 (
 targetFront
 )
@@ -87,7 +87,7 @@ return
 type
 :
 "
-CLEAR_TARGET
+UNREGISTER_TARGET
 "
 targetFront
 }
@@ -164,7 +164,7 @@ exports
 =
 {
 registerTarget
-clearTarget
+unregisterTarget
 selectTarget
 TARGET_TYPES
 }
