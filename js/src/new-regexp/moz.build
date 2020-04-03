@@ -162,6 +162,11 @@ stack
 cc
 '
 '
+RegExpAPI
+.
+cpp
+'
+'
 util
 /
 unicode

@@ -67,9 +67,6 @@ SMRegExpMacroAssembler
 JSContext
 *
 cx
-Isolate
-*
-isolate
 js
 :
 :
