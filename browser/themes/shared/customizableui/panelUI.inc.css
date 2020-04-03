@@ -14569,16 +14569,9 @@ profiler
 buttons
 {
 margin
--
-inline
-:
-10px
-;
-margin
--
-block
 :
 7px
+10px
 12px
 ;
 }
