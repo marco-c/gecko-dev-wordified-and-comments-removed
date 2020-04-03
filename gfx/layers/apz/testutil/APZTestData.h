@@ -86,6 +86,17 @@ mozilla
 /
 layers
 /
+LayersMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ScrollableLayerGuid
 .
 h

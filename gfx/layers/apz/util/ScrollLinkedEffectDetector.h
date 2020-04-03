@@ -17,6 +17,13 @@ namespace
 mozilla
 {
 namespace
+dom
+{
+class
+Document
+;
+}
+namespace
 layers
 {
 class

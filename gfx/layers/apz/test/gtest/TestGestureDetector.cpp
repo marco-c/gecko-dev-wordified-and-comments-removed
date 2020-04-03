@@ -15,6 +15,13 @@ h
 #
 include
 "
+InputUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 StaticPrefs_apz

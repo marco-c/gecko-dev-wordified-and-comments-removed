@@ -6,6 +6,11 @@ define
 mozilla_layers_KeyboardScrollAction_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 mozilla
 /
