@@ -42,10 +42,6 @@ log
 ;
 pub
 mod
-once
-;
-pub
-mod
 timer
 ;
 pub
