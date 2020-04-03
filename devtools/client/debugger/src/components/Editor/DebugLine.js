@@ -380,7 +380,7 @@ addLineClass
 (
 line
 "
-line
+wrapClass
 "
 lineClass
 )
@@ -562,7 +562,7 @@ removeLineClass
 (
 line
 "
-line
+wrapClass
 "
 lineClass
 )
