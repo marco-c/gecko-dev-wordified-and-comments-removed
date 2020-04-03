@@ -552,6 +552,16 @@ initFrameAndRegs
 )
 ;
 void
+successHandler
+(
+)
+;
+void
+exitHandler
+(
+)
+;
+void
 Push
 (
 js
