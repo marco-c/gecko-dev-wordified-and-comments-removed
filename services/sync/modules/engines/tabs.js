@@ -13,7 +13,7 @@ TabSetRecord
 const
 TABS_TTL
 =
-1814400
+31622400
 ;
 const
 TAB_ENTRIES_LIMIT
