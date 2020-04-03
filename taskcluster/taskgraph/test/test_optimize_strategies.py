@@ -19,6 +19,7 @@ bugbug
 import
 BugBugPushSchedules
 BugbugTimeoutException
+platform
 from
 taskgraph
 .
@@ -299,6 +300,13 @@ test
 ini
 '
 ]
+'
+build_type
+'
+:
+'
+debug
+'
 }
 }
         
@@ -308,6 +316,13 @@ attributes
 '
 :
 {
+'
+build_type
+'
+:
+'
+debug
+'
 }
 }
         
@@ -328,6 +343,31 @@ test_manifests
     
 )
 )
+def
+idfn
+(
+param
+)
+:
+    
+if
+isinstance
+(
+param
+tuple
+)
+:
+        
+return
+param
+[
+0
+]
+.
+__name__
+    
+return
+None
 pytest
 .
 mark
@@ -335,6 +375,7 @@ mark
 parametrize
 (
 "
+args
 data
 expected
 "
@@ -344,21 +385,31 @@ pytest
 .
 param
 (
+        
+(
+platform
+.
+all
+)
+        
 {
 }
+        
 [
 ]
-id
-=
-'
-empty
-'
+    
 )
     
 pytest
 .
 param
 (
+        
+(
+platform
+.
+all
+)
         
 {
 '
@@ -403,17 +454,6 @@ task
 2
 '
 ]
-        
-id
-=
-'
-only
-tasks
-without
-test
-manifests
-selected
-'
     
 )
     
@@ -421,6 +461,12 @@ pytest
 .
 param
 (
+        
+(
+platform
+.
+all
+)
         
 {
 '
@@ -449,15 +495,6 @@ task
 0
 '
 ]
-        
-id
-=
-'
-tasks
-containing
-group
-selected
-'
     
 )
     
@@ -465,6 +502,12 @@ pytest
 .
 param
 (
+        
+(
+platform
+.
+all
+)
         
 {
 '
@@ -529,27 +572,19 @@ task
 2
 '
 ]
-        
-id
-=
-'
-tasks
-matching
-"
-tasks
-"
-or
-"
-groups
-"
-selected
-'
+    
 )
     
 pytest
 .
 param
 (
+        
+(
+platform
+.
+all
+)
         
 {
 '
@@ -602,16 +637,77 @@ task
 2
 '
 ]
+    
+)
+    
+pytest
+.
+param
+(
         
-id
-=
+(
+platform
+.
+debug
+)
+        
+{
 '
+tasks
+'
+:
+[
+'
+task
+-
+2
+'
+'
+task
+-
+3
+'
+]
+'
+groups
+'
+:
+[
+'
+foo
+/
 test
-old
-format
+.
+ini
 '
+'
+bar
+/
+test
+.
+ini
+'
+]
+}
+        
+[
+'
+task
+-
+1
+'
+'
+task
+-
+2
+'
+]
+    
 )
 ]
+ids
+=
+idfn
 )
 def
 test_bugbug_push_schedules
@@ -619,6 +715,7 @@ test_bugbug_push_schedules
 responses
 params
 tasks
+args
 data
 expected
 )
@@ -681,6 +778,8 @@ opt
 =
 BugBugPushSchedules
 (
+*
+args
 )
     
 labels
@@ -803,6 +902,9 @@ opt
 =
 BugBugPushSchedules
 (
+platform
+.
+all
 )
     
 with
