@@ -562,6 +562,16 @@ exitHandler
 )
 ;
 void
+backtrackHandler
+(
+)
+;
+void
+stackOverflowHandler
+(
+)
+;
+void
 Push
 (
 js
