@@ -816,7 +816,7 @@ uintptr_t
 cell
 )
 &
-Cell
+CellHeader
 :
 :
 RESERVED_MASK
@@ -842,7 +842,7 @@ gcFlags
 =
 dataWithTag_
 &
-Cell
+CellHeader
 :
 :
 RESERVED_MASK
@@ -856,7 +856,7 @@ cell
 |
 gcFlags
 |
-Cell
+CellHeader
 :
 :
 FORWARD_BIT
