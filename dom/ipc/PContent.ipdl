@@ -4011,6 +4011,15 @@ aAudible
 )
 ;
 async
+NotifyPictureInPictureModeChanged
+(
+MaybeDiscardedBrowsingContext
+aContext
+bool
+aEnabled
+)
+;
+async
 NotifyMediaSessionUpdated
 (
 MaybeDiscardedBrowsingContext
