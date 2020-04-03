@@ -1555,6 +1555,9 @@ moz
 -
 extension
 "
+"
+file
+"
 ]
 .
 some
