@@ -30,7 +30,7 @@ breakpoints
 )
 .
 reducer
-threads
+targets
 :
 require
 (
@@ -43,7 +43,7 @@ framework
 /
 reducers
 /
-threads
+targets
 "
 )
 .

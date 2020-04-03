@@ -43,7 +43,7 @@ framework
 /
 actions
 /
-threads
+targets
 "
 )
 }
