@@ -2029,7 +2029,7 @@ promise
 ;
 }
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 js
 :
