@@ -171,6 +171,25 @@ GRADLE_INVOKED_WITHIN_MACH_BUILD
 1
 '
         
+if
+env
+.
+get
+(
+'
+LD_LIBRARY_PATH
+'
+)
+:
+            
+del
+env
+[
+'
+LD_LIBRARY_PATH
+'
+]
+        
 subprocess
 .
 check_call
