@@ -56,6 +56,15 @@ JSObject
 .
 h
 "
+#
+include
+"
+vm
+/
+PromiseObject
+.
+h
+"
 struct
 JS_PUBLIC_API
 JSContext
@@ -68,7 +77,7 @@ PropertyName
 ;
 extern
 MOZ_MUST_USE
-JSObject
+PromiseObject
 *
 PromiseRejectedWithPendingError
 (
@@ -94,7 +103,7 @@ CallArgs
 args
 )
 {
-JSObject
+PromiseObject
 *
 promise
 =

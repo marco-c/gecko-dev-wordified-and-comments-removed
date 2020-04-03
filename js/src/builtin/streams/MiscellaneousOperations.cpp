@@ -160,7 +160,10 @@ JS
 Value
 ;
 MOZ_MUST_USE
-JSObject
+js
+:
+:
+PromiseObject
 *
 js
 :
