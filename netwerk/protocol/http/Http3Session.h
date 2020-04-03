@@ -462,6 +462,9 @@ ProcessOutput
 nsresult
 ProcessInput
 (
+uint32_t
+*
+aCountRead
 )
 ;
 nsresult
@@ -469,9 +472,6 @@ ProcessEvents
 (
 uint32_t
 count
-uint32_t
-*
-countWritten
 )
 ;
 nsresult
@@ -515,9 +515,6 @@ countWritten
 nsresult
 ProcessSlowConsumers
 (
-uint32_t
-*
-countWritten
 )
 ;
 void
