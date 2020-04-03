@@ -307,6 +307,12 @@ using
 js
 :
 :
+PromiseObject
+;
+using
+js
+:
+:
 ReadableStream
 ;
 using
@@ -1742,7 +1748,7 @@ return
 result
 ;
 }
-JSObject
+PromiseObject
 *
 js
 :

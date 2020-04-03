@@ -100,6 +100,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 ReadableStreamController
 :
 public
@@ -1148,7 +1151,7 @@ reason
 )
 ;
 extern
-JSObject
+PromiseObject
 *
 ReadableStreamDefaultControllerPullSteps
 (
