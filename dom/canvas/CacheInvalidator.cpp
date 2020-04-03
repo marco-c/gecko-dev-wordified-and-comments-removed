@@ -19,9 +19,10 @@ const
 {
 while
 (
+!
 mCaches
 .
-size
+empty
 (
 )
 )
