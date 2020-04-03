@@ -991,6 +991,15 @@ h
 "
 ;
 using
+FontVisibility
+from
+"
+gfxFontEntry
+.
+h
+"
+;
+using
 mozilla
 :
 :
@@ -1163,6 +1172,9 @@ styleRange
 uint8_t
 index
 ;
+FontVisibility
+visibility
+;
 }
 ;
 #
@@ -1176,6 +1188,9 @@ SystemFontListEntry
 {
 nsCString
 familyName
+;
+FontVisibility
+visibility
 ;
 uint8_t
 entryType
