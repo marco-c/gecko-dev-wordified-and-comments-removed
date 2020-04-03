@@ -122,10 +122,6 @@ attribute
 AString
 type
 ;
-attribute
-AString
-dlgType
-;
 /
 /
 For
