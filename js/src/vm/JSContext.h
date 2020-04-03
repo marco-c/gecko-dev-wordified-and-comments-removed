@@ -2104,6 +2104,9 @@ JitActivation
 >
 jitActivation
 ;
+#
+ifndef
+ENABLE_NEW_REGEXP
 js
 :
 :
@@ -2119,6 +2122,8 @@ RegExpStack
 >
 regexpStack
 ;
+#
+endif
 js
 :
 :
