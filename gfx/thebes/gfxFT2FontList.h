@@ -320,6 +320,8 @@ const
 nsACString
 &
 aFullName
+FontVisibility
+aVisibility
 )
 ;
 void
@@ -435,11 +437,14 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 )
 :
 gfxFontFamily
 (
 aName
+aVisibility
 )
 {
 }
@@ -599,6 +604,8 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 )
 const
 override

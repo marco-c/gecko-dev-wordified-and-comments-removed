@@ -418,6 +418,8 @@ const
 nsACString
 &
 aName
+FontVisibility
+aVisibility
 )
 const
 override
@@ -529,15 +531,12 @@ FontFamilyEntryType
 kStandardFontFamily
 =
 0
-kHiddenSystemFontFamily
-=
-1
 kTextSizeSystemFontFamily
 =
-2
+1
 kDisplaySizeSystemFontFamily
 =
-3
+2
 }
 ;
 void
@@ -687,8 +686,8 @@ const
 nsACString
 &
 aFamilyName
-bool
-aSystemFont
+FontVisibility
+aVisibility
 )
 ;
 void
@@ -794,9 +793,6 @@ kATSGenerationInitial
 ;
 CTFontRef
 mDefaultFont
-;
-FontFamilyTable
-mSystemFontFamilies
 ;
 bool
 mUseSizeSensitiveSystemFont
