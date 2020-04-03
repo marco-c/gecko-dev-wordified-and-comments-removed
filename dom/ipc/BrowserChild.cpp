@@ -5910,6 +5910,8 @@ windows
 "
 )
 ;
+if
+(
 nsCOMPtr
 <
 nsIDocShell
@@ -5922,7 +5924,8 @@ WebNavigation
 (
 )
 )
-;
+)
+{
 nsDocShell
 :
 :
@@ -5937,6 +5940,7 @@ SetScrollbarPreference
 aPreference
 )
 ;
+}
 return
 IPC_OK
 (
