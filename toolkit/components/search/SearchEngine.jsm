@@ -1866,7 +1866,7 @@ moz
 &
 engine
 .
-isAppProvided
+_isDefault
 )
 {
 if
@@ -2180,7 +2180,7 @@ if
 !
 engine
 .
-isAppProvided
+_isDefault
 )
 {
 return
@@ -5690,7 +5690,7 @@ purpose
 !
 this
 .
-isAppProvided
+_isDefault
 )
 {
 continue
@@ -6394,7 +6394,7 @@ MozParam
 &
 this
 .
-isAppProvided
+_isDefault
 )
 {
 let
@@ -7685,7 +7685,7 @@ identifier
 return
 this
 .
-isAppProvided
+_isDefault
 ?
 this
 .
@@ -8381,7 +8381,7 @@ _extensionID
 ;
 }
 get
-isAppProvided
+_isDefault
 (
 )
 {
