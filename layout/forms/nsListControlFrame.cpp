@@ -4242,7 +4242,7 @@ aIndex
 optionElement
 -
 >
-GetLabel
+GetText
 (
 aStr
 )
@@ -9471,7 +9471,7 @@ text
 optionElement
 -
 >
-GetLabel
+GetText
 (
 text
 )

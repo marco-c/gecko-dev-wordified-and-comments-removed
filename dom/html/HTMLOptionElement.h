@@ -337,7 +337,7 @@ GetForm
 void
 GetLabel
 (
-nsAString
+DOMString
 &
 aLabel
 )
@@ -353,13 +353,6 @@ nsGkAtoms
 :
 label
 aLabel
-)
-|
-|
-aLabel
-.
-IsEmpty
-(
 )
 )
 {
