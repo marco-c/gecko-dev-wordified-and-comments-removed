@@ -305,6 +305,15 @@ uint32_t
 aDefaultFlag
 )
 ;
+static
+bool
+IsPassiveContent
+(
+nsIChannel
+*
+aChannel
+)
+;
 private
 :
 static
