@@ -1802,7 +1802,7 @@ label
 :
 child
 .
-text
+label
 ;
 if
 (
