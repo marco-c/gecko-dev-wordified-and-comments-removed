@@ -38730,6 +38730,15 @@ decode
 enabled
 true
 )
+skip
+-
+if
+(
+Android
+&
+&
+webrender
+)
 =
 =
 1553571
