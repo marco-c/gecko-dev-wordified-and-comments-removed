@@ -12644,8 +12644,6 @@ aRv
 )
 ;
 }
-else
-{
 WorkerDebuggerGlobalScope
 *
 debuggerScope
@@ -12689,7 +12687,6 @@ GetConsole
 aRv
 )
 ;
-}
 }
 bool
 Console
