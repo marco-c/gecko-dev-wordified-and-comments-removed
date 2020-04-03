@@ -32,6 +32,13 @@ pth
 :
 python
 /
+mozperftest
+mozilla
+.
+pth
+:
+python
+/
 mozrelease
 mozilla
 .
