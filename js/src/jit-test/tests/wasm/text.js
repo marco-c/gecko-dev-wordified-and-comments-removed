@@ -237,9 +237,8 @@ foo
 SyntaxError
 /
 duplicate
-identifier
-for
 func
+identifier
 /
 )
 ;
@@ -268,9 +267,8 @@ foo
 SyntaxError
 /
 duplicate
-identifier
-for
 func
+identifier
 /
 )
 ;
@@ -304,9 +302,8 @@ i32
 SyntaxError
 /
 duplicate
-identifier
-for
 local
+identifier
 /
 )
 ;
@@ -377,9 +374,8 @@ i32
 SyntaxError
 /
 duplicate
-identifier
-for
 type
+identifier
 /
 )
 ;

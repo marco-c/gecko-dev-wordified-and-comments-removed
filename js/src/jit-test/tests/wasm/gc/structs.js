@@ -3870,9 +3870,8 @@ i32
 SyntaxError
 /
 duplicate
-identifier
-for
 type
+identifier
 /
 )
 ;
