@@ -29,4 +29,8 @@ pub
 os_version
 :
 String
+pub
+architecture
+:
+String
 }

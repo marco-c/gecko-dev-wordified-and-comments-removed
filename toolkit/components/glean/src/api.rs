@@ -338,9 +338,10 @@ architecture
 set
 (
 glean
-"
-unknown
-"
+&
+client_info
+.
+architecture
 )
 ;
 core_metrics
