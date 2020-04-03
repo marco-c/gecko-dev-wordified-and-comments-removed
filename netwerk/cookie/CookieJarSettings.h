@@ -159,7 +159,15 @@ aChannel
 ;
 static
 bool
-IsRejectThirdPartyTrackers
+IsRejectThirdPartyContexts
+(
+uint32_t
+aCookieBehavior
+)
+;
+static
+bool
+IsRejectThirdPartyWithExceptions
 (
 uint32_t
 aCookieBehavior

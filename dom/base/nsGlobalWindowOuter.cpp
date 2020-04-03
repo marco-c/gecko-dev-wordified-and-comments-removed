@@ -11498,7 +11498,7 @@ CookieJarSettings
 )
 -
 >
-GetRejectThirdPartyTrackers
+GetRejectThirdPartyContexts
 (
 )
 &

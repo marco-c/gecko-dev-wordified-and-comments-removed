@@ -984,7 +984,7 @@ if
 cookieJarSettings
 -
 >
-GetRejectThirdPartyTrackers
+GetRejectThirdPartyContexts
 (
 )
 )
