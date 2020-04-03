@@ -2968,6 +2968,7 @@ formLogin
 dismissedPrompt
 false
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -3021,6 +3022,7 @@ formLogin
 dismissedPrompt
 false
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -3042,6 +3044,8 @@ promptToSavePassword
 promptBrowser
 formLogin
 dismissedPrompt
+false
+autoFilledLoginGuid
 )
 ;
 }
@@ -4249,6 +4253,7 @@ formLogin
 true
 shouldAutoSaveLogin
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -4292,6 +4297,7 @@ formLogin
 true
 shouldAutoSaveLogin
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -4369,6 +4375,7 @@ formLogin
 true
 false
 autoSavedStorageGUID
+autoFilledLoginGuid
 )
 ;
 }
@@ -4399,6 +4406,7 @@ promptBrowser
 formLogin
 true
 shouldAutoSaveLogin
+autoFilledLoginGuid
 )
 ;
 }
