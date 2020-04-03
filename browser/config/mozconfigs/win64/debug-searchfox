@@ -112,9 +112,9 @@ build
 /
 mozconfig
 .
-common
-.
-override
+clang
+-
+cl
 "
 .
 "
@@ -124,7 +124,7 @@ build
 /
 mozconfig
 .
-clang
--
-cl
+common
+.
+override
 "
