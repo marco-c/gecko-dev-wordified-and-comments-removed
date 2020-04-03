@@ -714,13 +714,9 @@ errored
 )
 {
 return
-PromiseObject
-:
-:
-unforgeableResolve
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 ;
 }

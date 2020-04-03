@@ -1145,13 +1145,9 @@ PromiseObject
 startPromise
 (
 cx
-PromiseObject
-:
-:
-unforgeableResolveWithNonPromise
+PromiseResolvedWithUndefined
 (
 cx
-UndefinedHandleValue
 )
 )
 ;
@@ -1812,7 +1808,11 @@ return
 nullptr
 ;
 }
-RootedObject
+Rooted
+<
+PlainObject
+*
+>
 readResult
 (
 cx
@@ -1852,7 +1852,7 @@ return
 PromiseObject
 :
 :
-unforgeableResolve
+unforgeableResolveWithNonPromise
 (
 cx
 val
