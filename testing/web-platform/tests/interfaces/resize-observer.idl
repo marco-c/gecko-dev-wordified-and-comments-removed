@@ -231,7 +231,7 @@ observedBox
 ;
 readonly
 attribute
-sequence
+FrozenArray
 <
 ResizeObserverSize
 >
