@@ -853,6 +853,7 @@ prototype
 .
 _getActorForBrowser
 =
+async
 function
 (
 browser
@@ -882,13 +883,15 @@ _foundCount
 +
 +
 ;
-return
+await
 actor
 .
 update
 (
-browserActorOptions
 )
+;
+return
+actor
 ;
 }
 actor

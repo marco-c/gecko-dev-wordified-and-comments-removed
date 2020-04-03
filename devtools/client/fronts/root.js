@@ -784,7 +784,12 @@ form
 async
 listTabs
 (
-options
+{
+favicons
+}
+=
+{
+}
 )
 {
 const
@@ -798,7 +803,9 @@ super
 .
 listTabs
 (
-options
+{
+favicons
+}
 )
 ;
 const
