@@ -55,6 +55,11 @@ aFilePath
 ;
 #
 endif
+extern
+const
+char
+kPathSeparator
+;
 namespace
 testing
 {

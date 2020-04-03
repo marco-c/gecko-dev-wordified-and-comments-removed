@@ -215,8 +215,6 @@ mFollowSymlinks
 ;
 bool
 mUseDOSDevicePathSyntax
-=
-false
 ;
 nsString
 mWorkingPath
