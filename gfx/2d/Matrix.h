@@ -5022,12 +5022,6 @@ planeNormals
 plane
 ]
 ;
-planeNormal
-.
-Normalize
-(
-)
-;
 Point4DTyped
 <
 UnknownUnits

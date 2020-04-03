@@ -29,32 +29,6 @@ mozilla
 :
 gfx
 ;
-static
-Rect
-NudgedToInt
-(
-const
-Rect
-&
-aRect
-)
-{
-Rect
-r
-(
-aRect
-)
-;
-r
-.
-NudgeToIntegers
-(
-)
-;
-return
-r
-;
-}
 TEST
 (
 Matrix
@@ -327,8 +301,6 @@ IsEmpty
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -341,7 +313,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -358,8 +329,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -372,7 +341,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -389,8 +357,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -403,7 +369,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -420,8 +385,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -434,7 +397,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -450,8 +412,6 @@ Rect
 )
 ;
 EXPECT_TRUE
-(
-NudgedToInt
 (
 m
 .
@@ -465,7 +425,6 @@ Rect
 80
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -482,8 +441,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -496,7 +453,6 @@ Rect
 200
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -513,8 +469,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -527,7 +481,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -543,8 +496,6 @@ Rect
 )
 ;
 EXPECT_TRUE
-(
-NudgedToInt
 (
 m
 .
@@ -558,7 +509,6 @@ Rect
 100
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -575,8 +525,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -589,7 +537,6 @@ Rect
 200
 )
 c
-)
 )
 .
 IsEqualInterior
@@ -606,8 +553,6 @@ Rect
 ;
 EXPECT_TRUE
 (
-NudgedToInt
-(
 m
 .
 TransformAndClipBounds
@@ -620,7 +565,6 @@ Rect
 200
 )
 c
-)
 )
 .
 IsEqualInterior
