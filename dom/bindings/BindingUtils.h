@@ -11410,7 +11410,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 ;
 bool

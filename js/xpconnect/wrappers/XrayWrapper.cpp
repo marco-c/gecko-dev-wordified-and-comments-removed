@@ -8416,7 +8416,7 @@ ObjectOpResult
 result
 bool
 *
-defined
+done
 )
 {
 if
@@ -8440,7 +8440,7 @@ id
 )
 {
 *
-defined
+done
 =
 true
 ;
@@ -8479,7 +8479,7 @@ obj
 id
 desc
 result
-defined
+done
 )
 ;
 }
@@ -9968,7 +9968,7 @@ succeed
 }
 }
 bool
-defined
+done
 =
 false
 ;
@@ -9989,7 +9989,7 @@ desc
 existing_desc
 result
 &
-defined
+done
 )
 )
 {
@@ -9999,7 +9999,7 @@ false
 }
 if
 (
-defined
+done
 )
 {
 return
