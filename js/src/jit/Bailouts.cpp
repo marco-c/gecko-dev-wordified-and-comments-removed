@@ -339,7 +339,7 @@ Snapshot
 offset
 :
 %
-d
+u
 "
 frame
 .
@@ -624,7 +624,7 @@ Snapshot
 offset
 :
 %
-d
+u
 "
 frame
 .

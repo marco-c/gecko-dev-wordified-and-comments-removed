@@ -5594,7 +5594,7 @@ fprintf
 stderr
 "
 %
-d
+u
 x
 "
 entry

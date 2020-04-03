@@ -16576,7 +16576,7 @@ jsprintf
 (
 "
 %
-d
+u
 "
 colspan
 )
