@@ -32,6 +32,12 @@ true
 }
 )
 ;
+if
+(
+!
+isContent
+)
+{
 let
 {
 ww
@@ -49,6 +55,7 @@ ww
 .
 activeWindow
 ;
+}
 let
 pairs
 =
@@ -364,6 +371,10 @@ else
 if
 (
 !
+isContent
+&
+&
+!
 item
 .
 startsWith
@@ -396,6 +407,10 @@ item
 ;
 if
 (
+!
+isContent
+&
+&
 !
 resisting
 )
