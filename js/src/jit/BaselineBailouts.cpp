@@ -4313,6 +4313,14 @@ realm
 isDebuggee
 (
 )
+|
+|
+cx
+-
+>
+isPropagatingForcedReturn
+(
+)
 )
 ;
 if
