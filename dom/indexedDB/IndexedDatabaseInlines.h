@@ -243,7 +243,7 @@ StructuredCloneFileParent
 (
 FileType
 aType
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :
@@ -396,7 +396,7 @@ StructuredCloneFileParent
 ;
 }
 inline
-RefPtr
+SafeRefPtr
 <
 indexedDB
 :
@@ -412,9 +412,15 @@ FileInfoPtr
 const
 {
 return
-*
+(
 *
 mContents
+)
+-
+>
+clonePtr
+(
+)
 ;
 }
 inline
