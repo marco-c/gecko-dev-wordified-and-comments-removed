@@ -61,7 +61,6 @@ Nightly
 "
 MOZ_UPDATER
 =
-1
 MOZ_ANDROID_ANR_REPORTER
 =
 1
