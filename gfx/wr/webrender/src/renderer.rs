@@ -15631,7 +15631,7 @@ backend_profile_counters
 .
 ipc
 .
-build_time
+display_list_build_time
 .
 get
 (
@@ -15640,6 +15640,8 @@ get
 self
 .
 backend_profile_counters
+.
+ipc
 .
 scene_build_time
 .
