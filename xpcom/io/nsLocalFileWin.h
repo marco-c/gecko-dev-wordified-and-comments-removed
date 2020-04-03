@@ -213,6 +213,11 @@ mResolveDirty
 bool
 mFollowSymlinks
 ;
+bool
+mUseDOSDevicePathSyntax
+=
+false
+;
 nsString
 mWorkingPath
 ;
