@@ -171,6 +171,13 @@ h
 #
 include
 "
+OpenVRKnucklesMapper
+.
+h
+"
+#
+include
+"
 OpenVRViveMapper
 .
 h
@@ -6325,7 +6332,7 @@ mControllerMapper
 =
 MakeUnique
 <
-OpenVRDefaultMapper
+OpenVRKnucklesMapper
 >
 (
 )
