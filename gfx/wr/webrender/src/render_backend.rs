@@ -4106,13 +4106,6 @@ content_size
 }
 )
 ;
-let
-display_list_consumed_time
-=
-precise_time_ns
-(
-)
-;
 ipc_profile_counters
 .
 set
@@ -4121,7 +4114,6 @@ builder_start_time
 builder_finish_time
 send_start_time
 display_list_received_time
-display_list_consumed_time
 display_list_len
 )
 ;
