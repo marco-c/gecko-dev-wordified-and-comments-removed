@@ -206,6 +206,12 @@ WindowProxy
 ?
 window
 ;
+readonly
+attribute
+WindowContext
+?
+currentWindowContext
+;
 attribute
 [
 TreatNullAs
