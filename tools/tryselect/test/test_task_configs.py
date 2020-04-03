@@ -368,6 +368,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 foo
 '
 }

@@ -235,6 +235,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 relevant_tests
 bugbug_push_schedules
 :
@@ -282,6 +284,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 bugbug_push_schedules
 seta
 :
@@ -329,4 +333,6 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 seta

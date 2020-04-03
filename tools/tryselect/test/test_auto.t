@@ -14,11 +14,7 @@ selector
 mach
 try
 auto
--
--
-no
--
-push
+testargs
 Commit
 message
 :
@@ -77,6 +73,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 bugbug_push_schedules
 "
 }
@@ -92,11 +90,7 @@ version
 mach
 try
 auto
--
--
-no
--
-push
+testargs
 -
 -
 closed
@@ -164,6 +158,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 bugbug_push_schedules
 "
 }
@@ -179,11 +175,7 @@ version
 mach
 try
 auto
--
--
-no
--
-push
+testargs
 -
 -
 closed
@@ -262,6 +254,8 @@ taskgraph
 .
 optimize
 :
+experimental
+.
 bugbug_push_schedules
 "
 }
