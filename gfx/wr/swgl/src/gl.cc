@@ -4842,7 +4842,7 @@ a
 I32
 c
 =
-roundto
+roundfast
 (
 (
 Float
@@ -5012,7 +5012,7 @@ a
 I32
 c
 =
-roundto
+roundfast
 (
 (
 Float
@@ -14162,7 +14162,7 @@ v
 ivec4
 i
 =
-roundto
+roundfast
 (
 v
 255
@@ -14254,7 +14254,7 @@ v
 I32
 i
 =
-roundto
+roundfast
 (
 (
 Float
@@ -15376,7 +15376,7 @@ c
 return
 packR8
 (
-roundto
+roundfast
 (
 c
 255
