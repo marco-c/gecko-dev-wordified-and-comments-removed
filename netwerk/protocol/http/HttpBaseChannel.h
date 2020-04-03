@@ -1945,6 +1945,12 @@ aListener
 )
 override
 ;
+void
+DoDiagnosticAssertWhenOnStopNotCalledOnDestroy
+(
+)
+override
+;
 NS_IMETHOD
 GetPriority
 (
