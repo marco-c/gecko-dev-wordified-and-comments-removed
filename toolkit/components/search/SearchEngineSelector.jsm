@@ -607,17 +607,6 @@ clear
 (
 )
 ;
-await
-this
-.
-_remoteConfig
-.
-db
-.
-close
-(
-)
-;
 return
 this
 .

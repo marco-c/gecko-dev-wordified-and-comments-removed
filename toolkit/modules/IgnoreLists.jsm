@@ -285,17 +285,6 @@ clear
 (
 )
 ;
-await
-this
-.
-_ignoreListSettings
-.
-db
-.
-close
-(
-)
-;
 return
 this
 .

@@ -1727,15 +1727,6 @@ clear
 (
 )
 ;
-await
-client
-.
-db
-.
-close
-(
-)
-;
 Services
 .
 prefs
