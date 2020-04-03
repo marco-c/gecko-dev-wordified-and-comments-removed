@@ -1878,14 +1878,15 @@ root
                     
 '
 (
-eg
+e
 .
-/
-data
-/
-local
-/
-tests
+g
+.
+%
+(
+default
+)
+s
 )
 '
 )
@@ -3265,13 +3266,9 @@ options
 remote_test_root
                                   
 '
-jit
--
 tests
 '
 '
-jit
--
 tests
 '
 '
