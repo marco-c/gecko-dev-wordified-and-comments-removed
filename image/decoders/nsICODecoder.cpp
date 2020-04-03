@@ -1615,8 +1615,6 @@ toRead
 )
 ;
 }
-else
-{
 int32_t
 bihSize
 =
@@ -1657,7 +1655,6 @@ ReadBIH
 aData
 )
 ;
-}
 }
 LexerTransition
 <
