@@ -424,6 +424,8 @@ tree
 addAccessibleTask
 (
 "
+e10s
+/
 doc_treeupdate_visibility
 .
 html

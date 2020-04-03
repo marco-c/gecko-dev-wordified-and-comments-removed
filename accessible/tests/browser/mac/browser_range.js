@@ -33,11 +33,6 @@ MOCHITESTS_DIR
 ;
 addAccessibleTask
 (
-data
-:
-text
-/
-html
 <
 input
 id

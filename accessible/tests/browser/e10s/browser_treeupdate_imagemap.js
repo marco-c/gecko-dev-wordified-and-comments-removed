@@ -1160,6 +1160,8 @@ onReorder
 addAccessibleTask
 (
 "
+e10s
+/
 doc_treeupdate_imagemap
 .
 html
