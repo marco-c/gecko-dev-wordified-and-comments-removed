@@ -13,10 +13,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 table
 2
 funcref
@@ -1497,10 +1493,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 node
 (
@@ -1513,6 +1505,7 @@ i32
 field
 (
 ref
+opt
 node
 )
 )
@@ -1540,6 +1533,7 @@ local
 list
 (
 ref
+opt
 node
 )
 )
@@ -1730,10 +1724,6 @@ txt
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 big
 (
@@ -1777,6 +1767,7 @@ anyref
 local
 (
 ref
+opt
 big
 )
 )
@@ -1792,6 +1783,7 @@ narrow
 anyref
 (
 ref
+opt
 big
 )
 (
@@ -1848,6 +1840,7 @@ narrow
 anyref
 (
 ref
+opt
 big
 )
 (
@@ -1901,6 +1894,7 @@ narrow
 anyref
 (
 ref
+opt
 big
 )
 (
@@ -1953,6 +1947,7 @@ narrow
 anyref
 (
 ref
+opt
 big
 )
 (
@@ -2195,10 +2190,6 @@ txt
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 big
 (
@@ -2233,6 +2224,7 @@ g
 mut
 (
 ref
+opt
 big
 )
 )
@@ -2780,10 +2772,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 cons
 (
@@ -2796,6 +2784,7 @@ i32
 field
 (
 ref
+opt
 cons
 )
 )
@@ -2808,6 +2797,7 @@ g
 mut
 (
 ref
+opt
 cons
 )
 )
@@ -3068,10 +3058,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 Node
 (
@@ -3131,6 +3117,7 @@ narrow
 anyref
 (
 ref
+opt
 Node
 )
 (
@@ -3202,10 +3189,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -3230,6 +3213,7 @@ param
 p
 (
 ref
+opt
 s
 )
 )
@@ -3259,6 +3243,7 @@ param
 p
 (
 ref
+opt
 s
 )
 )
@@ -3423,10 +3408,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -3476,10 +3457,6 @@ wasmTextToBinary
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 r
@@ -3542,10 +3519,6 @@ wasmTextToBinary
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 r
@@ -3611,10 +3584,6 @@ wasmTextToBinary
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 r
@@ -3688,10 +3657,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 (
 func
@@ -3738,10 +3703,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 p
 (
@@ -3770,6 +3731,7 @@ f
 result
 (
 ref
+opt
 p
 )
 )
@@ -3794,10 +3756,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -3814,10 +3772,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -3837,10 +3791,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -3886,10 +3836,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 )
@@ -3914,10 +3860,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -3931,9 +3873,12 @@ i32
 SyntaxError
 /
 expected
+one
+of
+:
 func
-or
 struct
+array
 /
 )
 ;
@@ -3947,10 +3892,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -3984,10 +3925,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -4020,10 +3957,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -4051,10 +3984,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -4118,10 +4047,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -4258,13 +4183,10 @@ Uint8Array
 0x00
 0x00
 0x00
-0x2a
 0x01
 0x03
 0x01
-0x03
-0x01
-0x50
+0x5f
 0x00
 0x03
 0x02

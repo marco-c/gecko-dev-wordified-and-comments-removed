@@ -55,10 +55,6 @@ Module
 moduleWithSections
 (
 [
-gcFeatureOptInSection
-(
-3
-)
 v2vSigSection
 declSection
 (
@@ -96,7 +92,7 @@ body
 :
 [
 BlockCode
-RefCode
+OptRefCode
 0x42
 EndCode
 ]
@@ -125,7 +121,7 @@ body
 :
 [
 BlockCode
-RefCode
+OptRefCode
 varU32
 (
 1000000

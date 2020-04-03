@@ -7,10 +7,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 p
 (
@@ -125,10 +121,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 p
 (
@@ -211,10 +203,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 q
 (
@@ -239,6 +227,7 @@ field
 mut
 (
 ref
+opt
 q
 )
 )
@@ -412,10 +401,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 q
 (
@@ -440,6 +425,7 @@ field
 mut
 (
 ref
+opt
 q
 )
 )
@@ -612,10 +598,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 p
@@ -787,10 +769,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 p
 (
@@ -838,6 +816,7 @@ narrow
 anyref
 (
 ref
+opt
 q
 )
 (
@@ -871,6 +850,7 @@ narrow
 anyref
 (
 ref
+opt
 p
 )
 (

@@ -6,10 +6,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 cons
 (
@@ -24,6 +20,7 @@ field
 cdr
 (
 ref
+opt
 cons
 )
 )
@@ -46,6 +43,7 @@ field
 to_even
 (
 ref
+opt
 even
 )
 )
@@ -68,6 +66,7 @@ field
 to_odd
 (
 ref
+opt
 odd
 )
 )
@@ -151,6 +150,7 @@ func
 param
 (
 ref
+opt
 cons
 )
 )
@@ -173,6 +173,7 @@ param
 p
 (
 ref
+opt
 cons
 )
 )
@@ -180,6 +181,7 @@ cons
 result
 (
 ref
+opt
 cons
 )
 )
@@ -188,6 +190,7 @@ local
 l
 (
 ref
+opt
 cons
 )
 )
@@ -279,6 +282,7 @@ block
 result
 (
 ref
+opt
 cons
 )
 )
@@ -288,6 +292,7 @@ if
 result
 (
 ref
+opt
 cons
 )
 )
@@ -319,6 +324,7 @@ func
 param
 (
 ref
+opt
 even
 )
 )
@@ -326,6 +332,7 @@ even
 result
 (
 ref
+opt
 odd
 )
 )
@@ -341,6 +348,7 @@ func
 param
 (
 ref
+opt
 odd
 )
 )
@@ -348,6 +356,7 @@ odd
 result
 (
 ref
+opt
 even
 )
 )
@@ -363,6 +372,7 @@ func
 param
 (
 ref
+opt
 cons
 )
 )
@@ -395,6 +405,7 @@ func
 param
 (
 ref
+opt
 cons
 )
 )
@@ -499,10 +510,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -516,6 +523,7 @@ null
 param
 (
 ref
+opt
 s
 )
 )
@@ -548,10 +556,6 @@ wasmTextToBinary
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -569,6 +573,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -609,15 +614,12 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 func
 (
 param
 (
 ref
+opt
 odd
 )
 )
@@ -640,10 +642,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -673,6 +671,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -687,6 +686,7 @@ g
 param
 (
 ref
+opt
 t
 )
 )
@@ -714,10 +714,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -751,6 +747,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -765,6 +762,7 @@ g
 param
 (
 ref
+opt
 t
 )
 )
@@ -807,10 +805,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -847,6 +841,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -861,6 +856,7 @@ g
 param
 (
 ref
+opt
 t
 )
 )
@@ -898,10 +894,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -930,6 +922,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -937,6 +930,7 @@ s
 local
 (
 ref
+opt
 t
 )
 )
@@ -966,10 +960,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -998,6 +988,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -1005,6 +996,7 @@ s
 local
 (
 ref
+opt
 t
 )
 )
@@ -1050,10 +1042,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -1085,6 +1073,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -1099,6 +1088,7 @@ g
 param
 (
 ref
+opt
 t
 )
 )
@@ -1136,10 +1126,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 s
 (
@@ -1168,6 +1154,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -1175,6 +1162,7 @@ s
 result
 (
 ref
+opt
 t
 )
 )
@@ -1198,10 +1186,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -1231,6 +1215,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -1238,6 +1223,7 @@ s
 result
 (
 ref
+opt
 t
 )
 )
@@ -1276,10 +1262,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -1312,6 +1294,7 @@ f
 param
 (
 ref
+opt
 s
 )
 )
@@ -1319,6 +1302,7 @@ s
 result
 (
 ref
+opt
 t
 )
 )
@@ -1358,10 +1342,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 x
 (
@@ -1379,6 +1359,7 @@ f
 param
 (
 ref
+opt
 x
 )
 )
@@ -1413,10 +1394,6 @@ wasmEvalText
 (
 module
 (
-gc_feature_opt_in
-3
-)
-(
 type
 (
 func
@@ -1433,6 +1410,7 @@ f
 param
 (
 ref
+opt
 0
 )
 )
@@ -1465,10 +1443,6 @@ wasmEvalText
 (
 (
 module
-(
-gc_feature_opt_in
-3
-)
 (
 type
 s
@@ -1505,6 +1479,7 @@ g
 param
 (
 ref
+opt
 s
 )
 )
