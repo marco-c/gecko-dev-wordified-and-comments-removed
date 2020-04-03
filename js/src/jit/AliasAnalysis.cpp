@@ -382,7 +382,7 @@ printf
 (
 "
 %
-d
+u
 marked
 depending
 on
@@ -420,7 +420,7 @@ printf
 (
 "
 %
-d
+u
 \
 n
 "
@@ -1871,7 +1871,7 @@ Processing
 loop
 header
 %
-d
+u
 "
 block
 -
@@ -2404,11 +2404,11 @@ Processing
 loop
 backedge
 %
-d
+u
 (
 header
 %
-d
+u
 )
 "
 block
