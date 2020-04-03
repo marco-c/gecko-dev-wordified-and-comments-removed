@@ -1028,12 +1028,12 @@ path
 .
 join
 (
-self
+os
 .
-abs_dirs
+environ
 [
 '
-abs_work_dir
+MOZ_FETCHES_DIR
 '
 ]
 '
