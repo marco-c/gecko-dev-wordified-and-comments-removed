@@ -3080,15 +3080,6 @@ mMostRecentComposite
 Mutex
 mRenderRootRectMutex
 ;
-wr
-:
-:
-NonDefaultRenderRootArray
-<
-ScreenRect
->
-mRenderRootRects
-;
 Maybe
 <
 wr
