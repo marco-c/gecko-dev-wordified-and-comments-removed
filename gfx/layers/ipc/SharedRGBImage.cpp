@@ -106,6 +106,17 @@ mozilla
 /
 layers
 /
+TextureClientRecycleAllocator
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ImageBridgeChild
 .
 h

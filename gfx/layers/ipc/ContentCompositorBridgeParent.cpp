@@ -100,6 +100,15 @@ include
 "
 mozilla
 /
+D3DMessageUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 WebGLParent
