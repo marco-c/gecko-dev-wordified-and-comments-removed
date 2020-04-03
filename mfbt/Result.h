@@ -1624,6 +1624,16 @@ mImpl
 ;
 public
 :
+using
+ok_type
+=
+V
+;
+using
+err_type
+=
+E
+;
 MOZ_IMPLICIT
 Result
 (
