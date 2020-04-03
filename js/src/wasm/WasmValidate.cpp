@@ -10322,6 +10322,7 @@ flags
 %
 "
 PRIu32
+uint32_t
 (
 flags
 &

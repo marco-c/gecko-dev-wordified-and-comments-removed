@@ -11353,8 +11353,11 @@ isDataProperty
 (
 )
 ?
+int32_t
+(
 slot
 (
+)
 )
 :
 -

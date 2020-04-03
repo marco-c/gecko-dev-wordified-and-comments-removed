@@ -2052,6 +2052,8 @@ preTotalHeapBytes
 )
 /
 bytesPerMiB
+int32_t
+(
 counts
 [
 COUNT_NEW_CHUNK
@@ -2061,6 +2063,7 @@ counts
 [
 COUNT_DESTROY_CHUNK
 ]
+)
 counts
 [
 COUNT_NEW_CHUNK
