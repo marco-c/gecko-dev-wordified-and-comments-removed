@@ -8343,11 +8343,6 @@ ParseGoal
 Script
 ;
 }
-void
-setArgumentsHasVarBinding
-(
-)
-;
 bool
 hasEnclosingScript
 (
