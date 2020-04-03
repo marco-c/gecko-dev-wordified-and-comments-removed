@@ -77561,12 +77561,14 @@ subdirNameBase
 &
 NS_WARN_IF
 (
+(
 NS_FAILED
 (
 DeleteFilesNoQuota
 (
 directory
 subdirName
+)
 )
 )
 )
