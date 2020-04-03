@@ -1504,8 +1504,10 @@ aligned
 ;
 static_assert
 (
-offsetOfGroup
+offsetof
 (
+NativeObject
+group_
 )
 =
 =

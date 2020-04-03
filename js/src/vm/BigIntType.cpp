@@ -1038,8 +1038,6 @@ nullptr
 result
 -
 >
-header_
-.
 toggleFlagBit
 (
 SignBit
@@ -9442,8 +9440,6 @@ n
 res
 -
 >
-header_
-.
 setFlagBit
 (
 SignBit

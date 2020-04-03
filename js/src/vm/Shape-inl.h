@@ -688,12 +688,7 @@ BaseShape
 *
 base
 =
-this
--
->
-base
-(
-)
+base_
 ;
 if
 (
@@ -703,9 +698,9 @@ base
 )
 )
 {
-headerAndBase_
+base_
 .
-unsafeSetPtr
+unsafeSet
 (
 Forwarded
 (

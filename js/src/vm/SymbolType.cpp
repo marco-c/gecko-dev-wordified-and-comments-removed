@@ -461,9 +461,7 @@ isWellKnownSymbol
 )
 )
 {
-description
-(
-)
+description_
 -
 >
 dumpCharsNoNewline
@@ -520,14 +518,10 @@ Symbol
 ;
 if
 (
-description
-(
-)
+description_
 )
 {
-description
-(
-)
+description_
 -
 >
 dumpCharsNoNewline

@@ -252,9 +252,7 @@ group
 templateObj
 -
 >
-groupRaw
-(
-)
+group_
 ;
 if
 (

@@ -1153,9 +1153,7 @@ lazySource
 shared
 -
 >
-getSource
-(
-)
+source
 ;
 lazyFlags
 =
