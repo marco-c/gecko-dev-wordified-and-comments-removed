@@ -624,7 +624,13 @@ uint64_t
 >
 mReadyForWriteButBlocked
 ;
-nsDeque
+nsTArray
+<
+RefPtr
+<
+Http3Stream
+>
+>
 mSlowConsumersReadyForRead
 ;
 nsDeque
