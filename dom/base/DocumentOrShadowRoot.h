@@ -842,6 +842,7 @@ ClearAdoptedStyleSheets
 void
 CloneAdoptedSheetsFrom
 (
+const
 DocumentOrShadowRoot
 &
 )

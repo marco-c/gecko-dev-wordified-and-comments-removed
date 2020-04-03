@@ -1769,6 +1769,19 @@ dom
 ReferrerPolicy
 ReferrerPolicyEnum
 ;
+using
+AdoptedStyleSheetCloneCache
+=
+nsRefPtrHashtable
+<
+nsPtrHashKey
+<
+const
+StyleSheet
+>
+StyleSheet
+>
+;
 void
 *
 operator
@@ -7271,6 +7284,7 @@ bool
 IsStaticDocument
 (
 )
+const
 {
 return
 mIsStaticDocument

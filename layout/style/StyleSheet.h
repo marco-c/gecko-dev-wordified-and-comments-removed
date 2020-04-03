@@ -1605,6 +1605,7 @@ false
 bool
 ConstructorDocumentMatches
 (
+const
 dom
 :
 :
