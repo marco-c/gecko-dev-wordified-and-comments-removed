@@ -30913,7 +30913,7 @@ else
 {
 masm
 .
-loadJitCodeMaybeNoArgCheck
+loadJitCodeNoArgCheck
 (
 calleereg
 objreg
@@ -31606,7 +31606,7 @@ else
 {
 masm
 .
-loadJitCodeMaybeNoArgCheck
+loadJitCodeNoArgCheck
 (
 calleereg
 objreg
