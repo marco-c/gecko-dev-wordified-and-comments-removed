@@ -3630,7 +3630,7 @@ aIndex
 )
 returns
 (
-Handle
+SharedMemoryHandle
 aHandle
 )
 ;
