@@ -76,6 +76,13 @@ h
 #
 include
 "
+nsCSSFrameConstructor
+.
+h
+"
+#
+include
+"
 nsCSSRendering
 .
 h
@@ -1919,6 +1926,12 @@ aStatus
 using
 LegendAlignValue
 =
+mozilla
+:
+:
+dom
+:
+:
 HTMLLegendElement
 :
 :
