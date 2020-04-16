@@ -2052,7 +2052,7 @@ DebuggerEnvironment
 *
 obj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 DebuggerEnvironment
 >
