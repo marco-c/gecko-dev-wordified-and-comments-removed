@@ -2780,6 +2780,7 @@ static
 bool
 IsBidiLeaf
 (
+const
 nsIFrame
 *
 aFrame
@@ -6943,11 +6944,13 @@ nsBidiPresUtils
 :
 GetFrameBaseLevel
 (
+const
 nsIFrame
 *
 aFrame
 )
 {
+const
 nsIFrame
 *
 firstLeaf

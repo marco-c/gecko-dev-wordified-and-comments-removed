@@ -2058,6 +2058,7 @@ bool
 HasNonSuppressedText
 (
 )
+const
 ;
 struct
 DrawPathCallbacks

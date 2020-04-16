@@ -543,6 +543,7 @@ bool
 IsInitialized
 (
 )
+const
 {
 return
 mSkipChars

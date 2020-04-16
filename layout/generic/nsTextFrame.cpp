@@ -54132,6 +54132,7 @@ nsTextFrame
 HasNonSuppressedText
 (
 )
+const
 {
 if
 (

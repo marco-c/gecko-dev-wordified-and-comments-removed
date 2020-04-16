@@ -741,6 +741,7 @@ static
 nsBidiLevel
 GetFrameBaseLevel
 (
+const
 nsIFrame
 *
 aFrame
@@ -750,6 +751,7 @@ static
 nsBidiDirection
 ParagraphDirection
 (
+const
 nsIFrame
 *
 aFrame
