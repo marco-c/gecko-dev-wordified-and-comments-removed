@@ -43855,11 +43855,10 @@ priv
 >
 grayRoot
 =
-NewDenseEmptyArray
+NewTenuredDenseEmptyArray
 (
 cx
 nullptr
-TenuredObject
 )
 )
 )

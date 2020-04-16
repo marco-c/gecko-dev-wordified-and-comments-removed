@@ -18323,11 +18323,10 @@ ArrayObject
 {
 clone
 =
-NewDenseEmptyArray
+NewTenuredDenseEmptyArray
 (
 cx
 nullptr
-TenuredObject
 )
 ;
 }
