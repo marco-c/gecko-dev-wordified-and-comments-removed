@@ -2,3 +2,14 @@ extern
 crate
 jsrust_shared
 ;
+extern
+crate
+wat
+;
+extern
+crate
+wasmparser
+;
+mod
+wasm
+;

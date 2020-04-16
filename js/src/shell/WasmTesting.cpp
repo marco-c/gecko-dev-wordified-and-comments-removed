@@ -1,7 +1,7 @@
 #
 include
 "
-wasm
+shell
 /
 WasmTesting
 .
