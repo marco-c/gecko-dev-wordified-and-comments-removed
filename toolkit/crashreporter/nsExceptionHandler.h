@@ -602,7 +602,11 @@ aSequence
 nullptr
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 FinalizeOrphanedMinidump
 (
