@@ -728,7 +728,7 @@ props
 active
 lastSelectedIndex
 :
-null
+0
 }
 ;
 this
@@ -1015,19 +1015,6 @@ length
 return
 ;
 }
-if
-(
-this
-.
-state
-.
-lastSelectedIndex
-!
-=
-=
-null
-)
-{
 this
 .
 selectRow
@@ -1059,7 +1046,6 @@ top
 }
 )
 ;
-}
 }
 get
 visibleRows
@@ -2032,7 +2018,7 @@ row
 )
 {
 return
-null
+0
 ;
 }
 return

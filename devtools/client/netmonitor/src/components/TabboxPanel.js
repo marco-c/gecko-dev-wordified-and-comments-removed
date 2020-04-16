@@ -191,10 +191,6 @@ src
 /
 components
 /
-request
--
-details
-/
 HeadersPanel
 "
 )
