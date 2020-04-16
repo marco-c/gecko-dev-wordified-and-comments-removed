@@ -1723,9 +1723,8 @@ stack_fixer_module
 =
 import_stack_fixer_module
 (
-            
 '
-fix_stack_using_bpsyms
+fix_stacks
 '
 )
         
@@ -1741,7 +1740,13 @@ stack_fixer_module
 .
 fixSymbols
 (
+                
 line
+slowWarning
+=
+True
+breakpadSymsDir
+=
 symbolsPath
 )
     
