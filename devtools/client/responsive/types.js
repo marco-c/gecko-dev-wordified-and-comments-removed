@@ -103,7 +103,7 @@ os
 :
 PropTypes
 .
-String
+string
 displayed
 :
 PropTypes
