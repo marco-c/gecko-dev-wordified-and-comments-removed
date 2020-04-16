@@ -144,8 +144,19 @@ r
 await
 assertNoFirstContentfulPaint
 (
+t
 )
 ;
+/
+/
+Set
+actual
+video
+content
+to
+trigger
+FCP
+.
 const
 video
 =
@@ -195,6 +206,7 @@ resolve
 await
 assertFirstContentfulPaint
 (
+t
 )
 ;
 }
