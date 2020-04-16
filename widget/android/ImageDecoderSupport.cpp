@@ -620,6 +620,10 @@ SendBitmap
 (
 )
 ;
+mImage
+=
+nullptr
+;
 }
 }
 private
