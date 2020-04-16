@@ -18,9 +18,6 @@ h
 class
 nsICookie
 ;
-class
-nsCookieService
-;
 namespace
 mozilla
 {
@@ -36,6 +33,9 @@ net
 {
 class
 Cookie
+;
+class
+CookieService
 ;
 class
 CookieServiceParent
@@ -254,7 +254,7 @@ aHostURI
 ;
 RefPtr
 <
-nsCookieService
+CookieService
 >
 mCookieService
 ;

@@ -204,7 +204,7 @@ Cu
 .
 reportError
 (
-nsCookieService
+CookieService
 :
 :
 CookieExists
@@ -306,7 +306,7 @@ Cu
 .
 reportError
 (
-nsCookieService
+CookieService
 :
 :
 Add

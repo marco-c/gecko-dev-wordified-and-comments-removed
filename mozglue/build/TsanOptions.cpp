@@ -981,7 +981,7 @@ n
 "
 race
 :
-nsCookieService
+CookieService
 :
 :
 CountCookiesFromHostInternal
@@ -991,7 +991,7 @@ n
 "
 race
 :
-nsCookieService
+CookieService
 :
 :
 InitDBStates

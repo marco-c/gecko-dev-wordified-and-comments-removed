@@ -605,13 +605,6 @@ h
 #
 include
 "
-nsCookieService
-.
-h
-"
-#
-include
-"
 nsApplicationCacheService
 .
 h

@@ -491,7 +491,7 @@ CookiePermission
 |
 1005
 |
-nsCookieService
+CookieService
 |
 80
 80

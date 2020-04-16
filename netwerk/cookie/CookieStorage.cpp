@@ -22,6 +22,13 @@ h
 #
 include
 "
+mozIStorageAsyncStatement
+.
+h
+"
+#
+include
+"
 mozIStorageError
 .
 h
@@ -2720,7 +2727,7 @@ continue
 ;
 if
 (
-nsCookieService
+CookieService
 :
 :
 DomainMatches
@@ -2735,7 +2742,7 @@ Host
 )
 |
 |
-nsCookieService
+CookieService
 :
 :
 DomainMatches
@@ -2752,7 +2759,7 @@ Host
 {
 if
 (
-nsCookieService
+CookieService
 :
 :
 PathMatches
@@ -7616,7 +7623,7 @@ continue
 }
 rv
 =
-nsCookieService
+CookieService
 :
 :
 GetBaseDomainFromHost
@@ -9198,7 +9205,7 @@ host
 ;
 rv
 =
-nsCookieService
+CookieService
 :
 :
 GetBaseDomainFromHost
@@ -12473,7 +12480,7 @@ host
 ;
 rv
 =
-nsCookieService
+CookieService
 :
 :
 GetBaseDomainFromHost

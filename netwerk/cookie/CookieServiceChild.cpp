@@ -16,6 +16,17 @@ mozilla
 /
 net
 /
+CookieService
+.
+h
+"
+#
+include
+"
+mozilla
+/
+net
+/
 CookieServiceChild
 .
 h
@@ -133,13 +144,6 @@ h
 include
 "
 Cookie
-.
-h
-"
-#
-include
-"
-nsCookieService
 .
 h
 "
@@ -279,7 +283,7 @@ StaticRefPtr
 <
 CookieServiceChild
 >
-gCookieService
+gCookieChildService
 ;
 static
 uint32_t
@@ -301,10 +305,10 @@ GetSingleton
 if
 (
 !
-gCookieService
+gCookieChildService
 )
 {
-gCookieService
+gCookieChildService
 =
 new
 CookieServiceChild
@@ -314,14 +318,14 @@ CookieServiceChild
 ClearOnShutdown
 (
 &
-gCookieService
+gCookieChildService
 )
 ;
 }
 return
 do_AddRef
 (
-gCookieService
+gCookieChildService
 )
 ;
 }
@@ -787,7 +791,7 @@ CookieServiceChild
 (
 )
 {
-gCookieService
+gCookieChildService
 =
 nullptr
 ;
@@ -1010,7 +1014,7 @@ aAttrs
 nsCString
 baseDomain
 ;
-nsCookieService
+CookieService
 :
 :
 GetBaseDomainFromHost
@@ -1735,7 +1739,7 @@ attrs
 )
 ;
 }
-nsCookieService
+CookieService
 :
 :
 GetBaseDomain
@@ -1830,7 +1834,7 @@ nsICookieJarSettings
 >
 cookieJarSettings
 =
-nsCookieService
+CookieService
 :
 :
 GetCookieJarSettings
@@ -1841,7 +1845,7 @@ aChannel
 CookieStatus
 cookieStatus
 =
-nsCookieService
+CookieService
 :
 :
 CheckPrefs
@@ -1928,7 +1932,7 @@ i
 if
 (
 !
-nsCookieService
+CookieService
 :
 :
 DomainMatches
@@ -2022,7 +2026,7 @@ continue
 if
 (
 !
-nsCookieService
+CookieService
 :
 :
 PathMatches
@@ -2480,7 +2484,7 @@ aAttrs
 nsAutoCString
 baseDomain
 ;
-nsCookieService
+CookieService
 :
 :
 GetBaseDomainFromHost
@@ -3187,7 +3191,7 @@ requireHostMatch
 nsCString
 baseDomain
 ;
-nsCookieService
+CookieService
 :
 :
 GetBaseDomain
@@ -3204,7 +3208,7 @@ nsICookieJarSettings
 >
 cookieJarSettings
 =
-nsCookieService
+CookieService
 :
 :
 GetCookieJarSettings
@@ -3215,7 +3219,7 @@ aChannel
 CookieStatus
 cookieStatus
 =
-nsCookieService
+CookieService
 :
 :
 CheckPrefs
@@ -3314,7 +3318,7 @@ aServerTime
 int64_t
 serverTime
 =
-nsCookieService
+CookieService
 :
 :
 ParseServerTime
@@ -3337,7 +3341,7 @@ false
 ;
 moreCookies
 =
-nsCookieService
+CookieService
 :
 :
 CanSetCookie
