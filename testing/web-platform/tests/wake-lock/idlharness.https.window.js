@@ -76,14 +76,11 @@ set_permission
 name
 :
 '
+screen
+-
 wake
 -
 lock
-'
-type
-:
-'
-screen
 '
 }
 '
