@@ -253,7 +253,7 @@ MOZ_ASSERT
 input
 )
 ;
-JSObject
+ArrayObject
 *
 templateObject
 =

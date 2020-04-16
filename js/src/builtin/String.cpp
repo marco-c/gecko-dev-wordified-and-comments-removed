@@ -22643,7 +22643,7 @@ return
 true
 ;
 }
-JSObject
+ArrayObject
 *
 templateObject
 =
