@@ -138,6 +138,7 @@ CreateElementTransaction
 EditTransactionBase
 )
 NS_DECL_EDITTRANSACTIONBASE
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
@@ -168,6 +169,7 @@ CreateElementTransaction
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 InsertNewNode
 (

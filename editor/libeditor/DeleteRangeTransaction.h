@@ -149,6 +149,7 @@ aInstancePtr
 override
 ;
 NS_DECL_EDITTRANSACTIONBASE
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
