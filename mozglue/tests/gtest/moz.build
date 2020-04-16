@@ -83,4 +83,7 @@ TestDllBlocklist_MatchByName
 '
 TestDllBlocklist_MatchByVersion
 '
+'
+TestDllBlocklist_NoOpEntryPoint
+'
 ]
