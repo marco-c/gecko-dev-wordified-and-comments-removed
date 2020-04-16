@@ -43,7 +43,7 @@ Cap_LinearAcceleration
 <
 <
 4
-Cap_GripSpacePosition
+Cap_TargetRaySpacePosition
 =
 1
 <
