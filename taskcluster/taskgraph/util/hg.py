@@ -48,10 +48,6 @@ changeset
 tipsonly
 =
 1
-&
-full
-=
-1
 '
 def
 find_hg_revision_push_info
