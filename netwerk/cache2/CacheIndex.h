@@ -4465,7 +4465,7 @@ nsIFile
 _retval
 )
 ;
-nsresult
+void
 RemoveFile
 (
 const
