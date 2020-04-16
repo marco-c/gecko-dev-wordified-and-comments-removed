@@ -199,7 +199,7 @@ macosx64
 /
 cross
 -
-clang
+releng
 .
 manifest
 "

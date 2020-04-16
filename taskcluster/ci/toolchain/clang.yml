@@ -1189,7 +1189,7 @@ macosx64
 /
 cross
 -
-clang
+releng
 .
 manifest
 "
@@ -1501,7 +1501,7 @@ macosx64
 /
 cross
 -
-clang
+releng
 .
 manifest
 "
