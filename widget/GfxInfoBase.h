@@ -712,9 +712,9 @@ mozilla
 gfx
 :
 :
-FeatureState
+FeatureStatus
 &
-aFeatureState
+aKnownStatus
 JS
 :
 :
