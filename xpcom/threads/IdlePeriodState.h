@@ -307,6 +307,11 @@ aProofOfUnlock
 )
 ;
 bool
+ShouldGetIdleToken
+(
+)
+;
+bool
 mHasPendingEventsPromisedIdleEvent
 =
 false
