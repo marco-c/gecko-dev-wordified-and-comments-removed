@@ -43,3 +43,13 @@ test
 .
 html
 ;
+exports
+.
+MAIN_PROCESS_URL
+=
+"
+about
+:
+robots
+"
+;
