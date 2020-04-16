@@ -174,10 +174,6 @@ nsCString
 &
 aCookieString
 const
-nsCString
-&
-aServerTime
-const
 bool
 &
 aFromHttp
@@ -230,6 +226,7 @@ OriginAttributes
 aAttrs
 )
 ;
+static
 void
 SerialializeCookieList
 (
@@ -247,9 +244,6 @@ CookieStruct
 >
 &
 aCookiesList
-nsIURI
-*
-aHostURI
 )
 ;
 RefPtr

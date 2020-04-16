@@ -227,7 +227,6 @@ nsIURI
 aURI
 nsIChannel
 *
-aChannel
 nsICookie
 *
 aCookie
@@ -263,10 +262,12 @@ EnsureInitialized
 (
 )
 )
+{
 return
 NS_ERROR_UNEXPECTED
 ;
-Cookie
+}
+auto
 *
 cookie
 =

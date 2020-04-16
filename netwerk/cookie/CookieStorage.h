@@ -439,10 +439,6 @@ bool
 aOldCookieIsSession
 =
 false
-bool
-aFromHttp
-=
-false
 )
 ;
 void
@@ -472,13 +468,14 @@ bool
 aFromHttp
 )
 ;
+static
 void
 CreateOrUpdatePurgeList
 (
 nsIArray
 *
 *
-aPurgeList
+aPurgedList
 nsICookie
 *
 aCookie
@@ -704,6 +701,7 @@ Cookie
 aCookie
 )
 ;
+static
 void
 FindStaleCookies
 (
@@ -732,6 +730,7 @@ Cookie
 aCookie
 )
 ;
+static
 already_AddRefed
 <
 nsIArray

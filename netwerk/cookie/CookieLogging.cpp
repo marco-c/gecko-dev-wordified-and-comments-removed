@@ -12,6 +12,12 @@ Cookie
 .
 h
 "
+constexpr
+auto
+TIME_STRING_LENGTH
+=
+40
+;
 namespace
 mozilla
 {
@@ -137,6 +143,7 @@ if
 (
 aHostURI
 )
+{
 aHostURI
 -
 >
@@ -145,6 +152,7 @@ GetAsciiSpec
 spec
 )
 ;
+}
 MOZ_LOG
 (
 gCookieLog
@@ -237,6 +245,7 @@ if
 (
 aSetCookie
 )
+{
 MOZ_LOG
 (
 gCookieLog
@@ -267,6 +276,7 @@ false
 )
 )
 ;
+}
 LogCookie
 (
 aCookie
@@ -321,8 +331,10 @@ LogLevel
 Warning
 )
 )
+{
 return
 ;
+}
 nsAutoCString
 spec
 ;
@@ -330,6 +342,7 @@ if
 (
 aHostURI
 )
+{
 aHostURI
 -
 >
@@ -338,6 +351,7 @@ GetAsciiSpec
 spec
 )
 ;
+}
 MOZ_LOG
 (
 gCookieLog
@@ -407,6 +421,7 @@ if
 (
 aSetCookie
 )
+{
 MOZ_LOG
 (
 gCookieLog
@@ -432,6 +447,7 @@ BeginReading
 )
 )
 ;
+}
 PRExplodedTime
 explodedTime
 ;
@@ -448,13 +464,13 @@ explodedTime
 char
 timeString
 [
-40
+TIME_STRING_LENGTH
 ]
 ;
 PR_FormatTimeUSEnglish
 (
 timeString
-40
+TIME_STRING_LENGTH
 "
 %
 c
@@ -546,13 +562,13 @@ explodedTime
 char
 timeString
 [
-40
+TIME_STRING_LENGTH
 ]
 ;
 PR_FormatTimeUSEnglish
 (
 timeString
-40
+TIME_STRING_LENGTH
 "
 %
 c
@@ -769,7 +785,7 @@ explodedTime
 PR_FormatTimeUSEnglish
 (
 timeString
-40
+TIME_STRING_LENGTH
 "
 %
 c
@@ -833,7 +849,7 @@ explodedTime
 PR_FormatTimeUSEnglish
 (
 timeString
-40
+TIME_STRING_LENGTH
 "
 %
 c

@@ -51,9 +51,7 @@ h
 #
 include
 <
-stdlib
-.
-h
+cstdlib
 >
 namespace
 mozilla
@@ -861,6 +859,8 @@ Path
 Length
 (
 )
+;
+int32_t
 filepathLen
 =
 0
