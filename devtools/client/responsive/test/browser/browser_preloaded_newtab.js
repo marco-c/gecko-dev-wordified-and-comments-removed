@@ -87,10 +87,10 @@ ui
 )
 ;
 await
-navigateToNewDomain
+load
 (
+browser
 TEST_URL
-ui
 )
 ;
 ok
