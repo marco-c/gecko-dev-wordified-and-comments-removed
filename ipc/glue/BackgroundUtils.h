@@ -280,7 +280,7 @@ aCSPInfo
 )
 ;
 bool
-IsPincipalInfoPrivate
+IsPrincipalInfoPrivate
 (
 const
 PrincipalInfo

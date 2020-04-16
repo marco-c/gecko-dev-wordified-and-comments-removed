@@ -1814,7 +1814,7 @@ NS_OK
 ;
 }
 bool
-IsPincipalInfoPrivate
+IsPrincipalInfoPrivate
 (
 const
 PrincipalInfo

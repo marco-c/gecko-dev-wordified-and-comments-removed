@@ -6206,7 +6206,7 @@ __func__
 if
 (
 !
-IsPincipalInfoPrivate
+IsPrincipalInfoPrivate
 (
 mPrincipalInfo
 )
