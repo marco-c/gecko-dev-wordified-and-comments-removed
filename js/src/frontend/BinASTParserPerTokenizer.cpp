@@ -1450,6 +1450,9 @@ return
 nullptr
 ;
 }
+SourceExtent
+extent
+;
 auto
 *
 funbox
@@ -1463,7 +1466,7 @@ FunctionBox
 (
 cx_
 traceListHead_
-0
+extent
 getCompilationInfo
 (
 )

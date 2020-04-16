@@ -1785,6 +1785,9 @@ MOZ_CRASH
 )
 ;
 }
+SourceExtent
+extent
+;
 frontend
 :
 :
@@ -1807,6 +1810,7 @@ ScopeKind
 Global
 binCompilationInfo
 directives
+extent
 )
 ;
 frontend
