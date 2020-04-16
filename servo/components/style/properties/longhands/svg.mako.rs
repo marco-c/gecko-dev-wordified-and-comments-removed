@@ -715,7 +715,7 @@ computed
 LengthPercentage
 :
 :
-zero
+zero_percent
 (
 )
 "

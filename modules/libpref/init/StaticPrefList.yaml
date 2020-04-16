@@ -33783,13 +33783,16 @@ characters
 visible
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 IS_NOT_RELEASE_OR_BETA
 mirror
 :
 always
+rust
+:
+true
 #
 Is
 support
