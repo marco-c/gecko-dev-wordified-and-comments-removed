@@ -474,6 +474,11 @@ attribute
 ACString
 exposablePrePath
 ;
+readonly
+attribute
+ACString
+exposableSpec
+;
 boolean
 schemeIs
 (
