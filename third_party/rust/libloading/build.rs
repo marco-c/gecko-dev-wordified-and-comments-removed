@@ -181,6 +181,16 @@ solaris
 Ok
 (
 "
+haiku
+"
+)
+=
+>
+{
+}
+Ok
+(
+"
 windows
 "
 )

@@ -13,7 +13,6 @@ peek_poke
 {
 PeekPoke
 Poke
-PeekCopy
 }
 ;
 use
@@ -586,8 +585,7 @@ derive
 (
 Clone
 Copy
-PeekCopy
-Poke
+PeekPoke
 )
 ]
 enum
@@ -667,8 +665,7 @@ derive
 (
 Clone
 Copy
-PeekCopy
-Poke
+PeekPoke
 )
 ]
 enum

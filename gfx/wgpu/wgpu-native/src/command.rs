@@ -55,10 +55,7 @@ desc
 Option
 <
 &
-core
-:
-:
-command
+wgt
 :
 :
 CommandBufferDescriptor
@@ -209,7 +206,7 @@ command
 TextureCopyView
 copy_size
 :
-core
+wgt
 :
 :
 Extent3d
@@ -272,7 +269,7 @@ command
 BufferCopyView
 copy_size
 :
-core
+wgt
 :
 :
 Extent3d
@@ -335,7 +332,7 @@ command
 TextureCopyView
 copy_size
 :
-core
+wgt
 :
 :
 Extent3d

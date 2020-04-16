@@ -584,7 +584,7 @@ spirv_cross
 branch
 =
 "
-wgpu
+wgpu2
 "
 rev
 =

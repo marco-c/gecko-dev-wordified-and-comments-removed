@@ -206,10 +206,7 @@ RecvDeviceCreateTexture
 RawId
 aSelfId
 const
-ffi
-:
-:
-WGPUTextureDescriptor
+SerialTextureDescriptor
 &
 aDesc
 RawId

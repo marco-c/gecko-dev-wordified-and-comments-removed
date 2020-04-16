@@ -449,7 +449,7 @@ ifdef
 SPIRV_CROSS_WRAPPER_MSL
 typedef
 struct
-MslConstSamplerMapping
+ScMslConstSamplerMapping
 {
 uint32_t
 desc_set
@@ -464,7 +464,7 @@ MSLConstexprSampler
 sampler
 ;
 }
-MslConstSamplerMapping
+ScMslConstSamplerMapping
 ;
 ScInternalResult
 sc_internal_compiler_msl_new
@@ -540,7 +540,7 @@ const
 size_t
 res_override_count
 const
-MslConstSamplerMapping
+ScMslConstSamplerMapping
 *
 p_const_samplers
 const

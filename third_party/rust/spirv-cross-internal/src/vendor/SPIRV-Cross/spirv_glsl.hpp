@@ -3387,6 +3387,11 @@ type
 BufferPackingStandard
 packing
 uint32_t
+*
+failed_index
+=
+nullptr
+uint32_t
 start_offset
 =
 0

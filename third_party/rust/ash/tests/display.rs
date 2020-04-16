@@ -1,7 +1,3 @@
-extern
-crate
-ash
-;
 use
 ash
 :

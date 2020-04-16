@@ -313,13 +313,6 @@ LICENSE
 -
 MIT
 )
-and
-[
-COPYRIGHT
-]
-(
-COPYRIGHT
-)
 for
 details
 .

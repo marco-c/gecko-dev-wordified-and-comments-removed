@@ -28,8 +28,6 @@ BufferId
 CommandEncoderId
 TextureId
 }
-Extent3d
-Origin3d
 }
 ;
 use
@@ -39,6 +37,8 @@ wgt
 {
 BufferAddress
 BufferUsage
+Extent3d
+Origin3d
 TextureUsage
 }
 ;
