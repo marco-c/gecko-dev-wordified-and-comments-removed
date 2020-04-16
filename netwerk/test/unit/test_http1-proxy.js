@@ -107,7 +107,6 @@ nsIProtocolProxyFilter
 }
 applyFilter
 (
-pps
 uri
 pi
 cb

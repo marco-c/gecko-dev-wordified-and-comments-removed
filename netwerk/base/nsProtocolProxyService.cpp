@@ -10951,7 +10951,6 @@ filter
 >
 ApplyFilter
 (
-this
 uri
 list
 callback
@@ -10982,7 +10981,6 @@ channelFilter
 >
 ApplyFilter
 (
-this
 channel
 list
 callback

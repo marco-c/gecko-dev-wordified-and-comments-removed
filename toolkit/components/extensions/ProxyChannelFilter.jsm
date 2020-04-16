@@ -1458,7 +1458,6 @@ data
 async
 applyFilter
 (
-service
 channel
 defaultProxyInfo
 proxyFilter
