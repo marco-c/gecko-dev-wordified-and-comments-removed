@@ -960,7 +960,7 @@ dll
 "
 UNVERSIONED
 )
-DllBlocklistEntry
+RedirectToNoOpEntryPoint
 (
 "
 dgapi
@@ -974,7 +974,7 @@ dll
 0xffff
 )
 )
-DllBlocklistEntry
+RedirectToNoOpEntryPoint
 (
 "
 dgapi64
