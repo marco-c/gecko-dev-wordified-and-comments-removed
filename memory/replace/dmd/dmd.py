@@ -1379,14 +1379,8 @@ True
 else
 :
         
-fix
-=
-None
+return
     
-if
-fix
-:
-        
 tmpFile
 =
 tempfile
@@ -1397,17 +1391,17 @@ delete
 =
 False
 )
-        
+    
 tmpFilename
 =
 tmpFile
 .
 name
-        
+    
 if
 isZipped
 :
-            
+        
 tmpFile
 =
 gzip
@@ -1422,7 +1416,7 @@ fileobj
 =
 tmpFile
 )
-        
+    
 with
 opener
 (
@@ -1434,13 +1428,13 @@ rb
 as
 inputFile
 :
-            
+        
 for
 line
 in
 inputFile
 :
-                
+            
 tmpFile
 .
 write
@@ -1450,13 +1444,13 @@ fix
 line
 )
 )
-        
+    
 tmpFile
 .
 close
 (
 )
-        
+    
 shutil
 .
 move
