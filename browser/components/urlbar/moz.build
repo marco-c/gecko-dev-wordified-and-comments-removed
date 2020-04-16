@@ -123,6 +123,11 @@ UrlbarProviderPrivateSearch
 jsm
 '
 '
+UrlbarProviderSearchSuggestions
+.
+jsm
+'
+'
 UrlbarProviderSearchTips
 .
 jsm
