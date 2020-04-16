@@ -30,14 +30,6 @@ taskgraph
 .
 util
 .
-hg
-import
-find_hg_revision_push_info
-from
-taskgraph
-.
-util
-.
 taskcluster
 import
 get_artifact
@@ -621,24 +613,22 @@ specified
                                 
 '
 and
-if
-neither
-pushlog_id
-nor
 previous_graph_kinds
-'
-                                
-'
 is
+not
 specified
 find
 the
-pushlog_id
-using
-the
 '
                                 
 '
+push
+graph
+to
+promote
+based
+on
+the
 revision
 .
 '
@@ -1825,13 +1815,6 @@ optimize
     
 )
     
-parameters
-=
-dict
-(
-parameters
-)
-    
 previous_graph_ids
 =
 input
@@ -1860,21 +1843,15 @@ revision
 )
         
 if
-not
-parameters
-[
-'
-pushlog_id
-'
-]
+revision
 :
             
-repo_param
+head_rev_param
 =
 '
 {
 }
-head_repository
+head_rev
 '
 .
 format
@@ -1893,42 +1870,40 @@ prefix
 ]
 )
             
-push_info
+push_parameters
 =
-find_hg_revision_push_info
-(
+{
                 
-repository
-=
+head_rev_param
+:
+revision
+                
+'
+project
+'
+:
 parameters
 [
-repo_param
+'
+project
+'
 ]
-revision
-=
-revision
-)
             
-parameters
-[
-'
-pushlog_id
-'
-]
+}
+        
+else
+:
+            
+push_parameters
 =
-push_info
-[
-'
-pushid
-'
-]
+parameters
         
 previous_graph_ids
 =
 [
 find_decision_task
 (
-parameters
+push_parameters
 graph_config
 )
 ]
