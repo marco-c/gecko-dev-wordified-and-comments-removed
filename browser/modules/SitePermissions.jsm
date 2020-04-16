@@ -3162,7 +3162,7 @@ throw
 new
 Error
 (
-Unkown
+Unknown
 state
 :
 {
