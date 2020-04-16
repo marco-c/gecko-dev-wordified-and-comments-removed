@@ -1861,7 +1861,7 @@ MOZ_UPDATE_CHANNEL
 ping
 [
 "
-version
+build_version
 "
 ]
 =
