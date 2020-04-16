@@ -806,9 +806,6 @@ IsFromProcessingFrameAttributes
 nsIContentSecurityPolicy
 Csp
 ;
-MaybeDiscardedBrowsingContext
-SourceBrowsingContext
-;
 nsCString
 ?
 OriginalURIString
