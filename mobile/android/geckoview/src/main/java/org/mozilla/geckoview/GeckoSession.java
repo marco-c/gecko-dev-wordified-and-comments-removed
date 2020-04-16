@@ -8685,7 +8685,7 @@ shouldLoadUri
 request
 )
 .
-accept
+getOrAccept
 (
 allowOrDeny
 -
@@ -8895,7 +8895,7 @@ else
 {
 delegateResult
 .
-accept
+getOrAccept
 (
 allowOrDeny
 -
