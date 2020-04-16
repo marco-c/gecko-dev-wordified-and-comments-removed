@@ -379,6 +379,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+const
 override
 ;
 MOZ_CAN_RUN_SCRIPT
@@ -1455,6 +1456,7 @@ Element
 GetInputEventTargetElement
 (
 )
+const
 override
 ;
 MOZ_CAN_RUN_SCRIPT

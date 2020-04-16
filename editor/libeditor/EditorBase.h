@@ -1282,6 +1282,7 @@ EventTarget
 GetDOMEventTarget
 (
 )
+const
 =
 0
 ;
@@ -1837,15 +1838,15 @@ nsIContent
 GetFocusedContent
 (
 )
+const
 ;
 virtual
-already_AddRefed
-<
 nsIContent
->
+*
 GetFocusedContentForIME
 (
 )
+const
 ;
 virtual
 bool
@@ -6145,6 +6146,7 @@ bool
 IsActiveInDOMWindow
 (
 )
+const
 ;
 EditorRawDOMPoint
 FindBetterInsertionPoint
@@ -6573,6 +6575,7 @@ Element
 GetInputEventTargetElement
 (
 )
+const
 =
 0
 ;
