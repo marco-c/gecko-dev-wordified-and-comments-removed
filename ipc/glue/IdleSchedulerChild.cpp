@@ -25,6 +25,17 @@ include
 "
 mozilla
 /
+ipc
+/
+PBackgroundChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Atomics
 .
 h

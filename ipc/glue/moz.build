@@ -75,11 +75,6 @@ CrashReporterHost
 h
 '
 '
-CrashReporterMetadataShmem
-.
-h
-'
-'
 CrossProcessMutex
 .
 h
@@ -710,11 +705,6 @@ cpp
 '
 '
 CrashReporterHost
-.
-cpp
-'
-'
-CrashReporterMetadataShmem
 .
 cpp
 '
