@@ -515,14 +515,6 @@ startRecording
 ;
 }
 }
-this
-.
-panelWin
-.
-gFront
-=
-performanceFront
-;
 }
 }
 _onTargetAvailable
