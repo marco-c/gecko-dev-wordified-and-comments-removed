@@ -737,15 +737,8 @@ gGlobalCache
 new
 gfxFontCache
 (
-SystemGroup
-:
-:
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 )
 ;

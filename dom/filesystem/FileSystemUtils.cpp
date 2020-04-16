@@ -254,15 +254,8 @@ aGlobal
 {
 target
 =
-SystemGroup
-:
-:
-EventTargetFor
+GetMainThreadSerialEventTarget
 (
-TaskCategory
-:
-:
-Other
 )
 ;
 }
