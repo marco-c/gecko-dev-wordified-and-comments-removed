@@ -5945,14 +5945,13 @@ cx
 ;
 proto
 =
-NewObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 TypedProto
 >
 (
 cx
 objProto
-TenuredObject
 )
 ;
 if

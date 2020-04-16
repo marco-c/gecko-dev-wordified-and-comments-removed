@@ -9082,7 +9082,7 @@ DebuggerObject
 *
 obj
 =
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKind
 <
 DebuggerObject
 >
