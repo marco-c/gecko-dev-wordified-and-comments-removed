@@ -27594,14 +27594,6 @@ identifier
 "
 NonEnumerable
 "
-or
-              
-identifier
-=
-=
-"
-NeedsWindowsUndef
-"
 )
 :
             
