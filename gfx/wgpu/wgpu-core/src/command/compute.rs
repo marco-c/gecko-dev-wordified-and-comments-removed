@@ -926,6 +926,8 @@ Some
 pipeline
 .
 layout_id
+.
+value
 )
 {
 let
@@ -937,6 +939,8 @@ pipeline_layout_guard
 pipeline
 .
 layout_id
+.
+value
 ]
 ;
 binder
@@ -948,6 +952,8 @@ Some
 pipeline
 .
 layout_id
+.
+value
 )
 ;
 binder

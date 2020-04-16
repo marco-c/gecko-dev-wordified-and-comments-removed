@@ -419,6 +419,13 @@ pub
 (
 crate
 )
+life_guard
+:
+LifeGuard
+pub
+(
+crate
+)
 bind_group_layout_ids
 :
 ArrayVec
