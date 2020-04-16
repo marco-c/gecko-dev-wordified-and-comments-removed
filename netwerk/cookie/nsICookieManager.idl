@@ -325,5 +325,16 @@ int64_t
 aSinceWhen
 )
 ;
+Array
+<
+nsICookie
+>
+getCookiesSince
+(
+in
+int64_t
+aSinceWhen
+)
+;
 }
 ;
