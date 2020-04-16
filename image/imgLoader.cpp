@@ -5787,6 +5787,9 @@ CreateNewProxyForRequest
 imgRequest
 *
 aRequest
+nsIURI
+*
+aURI
 nsILoadGroup
 *
 aLoadGroup
@@ -5838,23 +5841,6 @@ SetLoadFlags
 aLoadFlags
 )
 ;
-nsCOMPtr
-<
-nsIURI
->
-uri
-;
-aRequest
--
->
-GetURI
-(
-getter_AddRefs
-(
-uri
-)
-)
-;
 nsresult
 rv
 =
@@ -5866,7 +5852,7 @@ Init
 aRequest
 aLoadGroup
 aLoadingDocument
-uri
+aURI
 aObserver
 )
 ;
@@ -8615,6 +8601,7 @@ rv
 CreateNewProxyForRequest
 (
 request
+aURI
 aLoadGroup
 aLoadingDocument
 aObserver
@@ -8747,6 +8734,7 @@ rv
 CreateNewProxyForRequest
 (
 request
+aURI
 aLoadGroup
 aLoadingDocument
 aObserver
@@ -11516,6 +11504,7 @@ rv
 CreateNewProxyForRequest
 (
 request
+aURI
 aLoadGroup
 aLoadingDocument
 aObserver
@@ -12194,6 +12183,7 @@ rv
 CreateNewProxyForRequest
 (
 request
+uri
 loadGroup
 aLoadingDocument
 aObserver
@@ -12328,6 +12318,7 @@ rv
 CreateNewProxyForRequest
 (
 request
+originalURI
 loadGroup
 aLoadingDocument
 aObserver

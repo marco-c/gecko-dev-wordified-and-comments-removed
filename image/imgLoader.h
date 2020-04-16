@@ -1344,6 +1344,9 @@ CreateNewProxyForRequest
 imgRequest
 *
 aRequest
+nsIURI
+*
+aURI
 nsILoadGroup
 *
 aLoadGroup
