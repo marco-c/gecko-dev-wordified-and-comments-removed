@@ -3488,7 +3488,11 @@ again
 in
 implementation
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 DoSomething
 (
@@ -3568,7 +3572,11 @@ value
 first
 then
 adding
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 might
 be
 too

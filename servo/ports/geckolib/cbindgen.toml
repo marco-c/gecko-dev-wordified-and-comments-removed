@@ -2427,7 +2427,11 @@ generate
 MOZ_MUST_USE_TYPE
 #
 or
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 on
 the
 functions
@@ -2959,7 +2963,11 @@ freed
 or
 not
 .
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 inline
 bool
 DecrementRef
