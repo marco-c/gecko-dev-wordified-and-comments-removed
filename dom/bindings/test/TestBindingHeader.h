@@ -85,6 +85,15 @@ Promise
 }
 }
 #
+ifdef
+XP_WIN
+#
+define
+NO_ERROR
+0x1
+#
+endif
+#
 include
 "
 .

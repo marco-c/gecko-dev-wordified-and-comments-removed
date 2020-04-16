@@ -88,15 +88,3 @@ GENERIC_EXECUTE
 auto
 GENERIC_ALL
 ;
-auto
-NO_ERROR
-;
-auto
-WAIT_FAILED
-;
-auto
-WAIT_ABANDONED
-;
-auto
-WAIT_TIMEOUT
-;
