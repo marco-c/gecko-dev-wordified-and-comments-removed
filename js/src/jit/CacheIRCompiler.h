@@ -211,6 +211,11 @@ GuardNoDenseElements
 \
 _
 (
+GuardAndGetInt32FromString
+)
+\
+_
+(
 GuardAndGetNumberFromString
 )
 \
@@ -222,11 +227,6 @@ GuardAndGetNumberFromBoolean
 _
 (
 GuardAndGetIndexFromString
-)
-\
-_
-(
-GuardAndGetInt32FromNumber
 )
 \
 _

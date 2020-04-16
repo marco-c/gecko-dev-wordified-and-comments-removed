@@ -1204,7 +1204,7 @@ matchOp
 CacheOp
 :
 :
-GuardAndGetInt32FromNumber
+GuardAndGetInt32FromString
 )
 )
 {
