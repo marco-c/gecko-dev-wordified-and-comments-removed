@@ -59,7 +59,7 @@ extend
 "
 :
 "
-Permission
+PermissionNoPrompt
 "
 "
 choices
@@ -95,7 +95,7 @@ extend
 "
 :
 "
-OptionalPermission
+OptionalPermissionNoPrompt
 "
 "
 choices

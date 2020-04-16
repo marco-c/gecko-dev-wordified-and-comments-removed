@@ -76,7 +76,7 @@ extend
 "
 :
 "
-OptionalPermission
+OptionalPermissionNoPrompt
 "
 "
 choices
