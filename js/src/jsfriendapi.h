@@ -9623,9 +9623,6 @@ hint
 )
 ;
 }
-#
-ifdef
-DEBUG
 extern
 JS_FRIEND_API
 JS
@@ -9640,8 +9637,6 @@ JSObject
 obj
 )
 ;
-#
-endif
 }
 #
 endif

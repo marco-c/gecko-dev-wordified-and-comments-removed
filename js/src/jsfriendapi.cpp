@@ -9133,9 +9133,6 @@ cx
 }
 #
 endif
-#
-ifdef
-DEBUG
 JS_FRIEND_API
 JS
 :
@@ -9164,5 +9161,3 @@ zoneFromAnyThread
 )
 ;
 }
-#
-endif
