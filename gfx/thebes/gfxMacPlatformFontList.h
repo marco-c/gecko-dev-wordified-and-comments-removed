@@ -187,6 +187,11 @@ GetFontRef
 (
 )
 ;
+CGFontRef
+CreateOrCopyFontRef
+(
+)
+;
 hb_blob_t
 *
 GetFontTable
