@@ -4351,10 +4351,7 @@ LoadImageWithChannel
 (
 aChannel
 this
-ToSupports
-(
 doc
-)
 aListener
 getter_AddRefs
 (
