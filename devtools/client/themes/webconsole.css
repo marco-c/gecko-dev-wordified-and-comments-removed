@@ -2951,6 +2951,12 @@ message
 open
 .
 stacktrace
+:
+not
+(
+:
+empty
+)
 {
 display
 :
