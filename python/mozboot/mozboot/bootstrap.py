@@ -1523,6 +1523,15 @@ distro
 ]
 =
 dist_id
+                
+args
+[
+'
+codename
+'
+]
+=
+codename
             
 elif
 dist_id

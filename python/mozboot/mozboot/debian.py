@@ -217,12 +217,6 @@ nodejs
 '
 python
 -
-pip
-'
-        
-'
-python
--
 setuptools
 '
         
@@ -376,6 +370,7 @@ self
 distro
 version
 dist_id
+codename
 *
 *
 kwargs
@@ -409,6 +404,12 @@ self
 dist_id
 =
 dist_id
+        
+self
+.
+codename
+=
+codename
         
 self
 .
@@ -497,6 +498,53 @@ dev
         
 else
 :
+            
+if
+(
+self
+.
+distro
+=
+=
+'
+ubuntu
+'
+                
+or
+(
+self
+.
+distro
+=
+=
+'
+debian
+'
+and
+self
+.
+codename
+!
+=
+"
+bullseye
+"
+)
+)
+:
+                
+self
+.
+packages
+.
+append
+(
+'
+python
+-
+pip
+'
+)
             
 self
 .
