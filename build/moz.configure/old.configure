@@ -3022,7 +3022,10 @@ _helper
 for
 arg
 in
+list
+(
 helper
+)
 :
 if
 helper
