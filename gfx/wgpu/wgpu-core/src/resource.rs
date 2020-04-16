@@ -21,6 +21,12 @@ Stored
 }
 ;
 use
+gfx_memory
+:
+:
+MemoryBlock
+;
+use
 wgt
 :
 :
@@ -30,12 +36,6 @@ BufferUsage
 TextureFormat
 TextureUsage
 }
-;
-use
-gfx_memory
-:
-:
-MemoryBlock
 ;
 use
 std

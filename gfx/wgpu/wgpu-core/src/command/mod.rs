@@ -65,9 +65,9 @@ device
 :
 :
 {
-MAX_COLOR_TARGETS
 all_buffer_stages
 all_image_stages
+MAX_COLOR_TARGETS
 }
 hub
 :
