@@ -22334,7 +22334,7 @@ IsScrollbarContainer
 const
 ;
 bool
-IsRootScrollbarContainerWithDynamicToolbar
+IsRootScrollbarContainer
 (
 )
 const
@@ -22347,6 +22347,12 @@ const
 ;
 bool
 IsFixedPositionLayer
+(
+)
+const
+;
+bool
+HasDynamicToolbar
 (
 )
 const
