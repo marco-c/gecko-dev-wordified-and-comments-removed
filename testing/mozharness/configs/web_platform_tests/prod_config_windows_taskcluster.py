@@ -149,14 +149,6 @@ prefs
 "
 -
 -
-processes
-=
-1
-"
-        
-"
--
--
 config
 =
 %
