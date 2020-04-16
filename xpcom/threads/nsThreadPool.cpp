@@ -61,7 +61,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -747,7 +747,7 @@ aThread
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

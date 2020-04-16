@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-SystemGroup
+ErrorNames
 .
 h
 "
@@ -46,7 +46,7 @@ include
 "
 mozilla
 /
-ErrorNames
+SchedulerGroup
 .
 h
 "
@@ -126,7 +126,7 @@ return
 nsresult
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

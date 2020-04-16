@@ -214,6 +214,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_network
 .
 h
@@ -6239,7 +6248,7 @@ reason
 originAttributes
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

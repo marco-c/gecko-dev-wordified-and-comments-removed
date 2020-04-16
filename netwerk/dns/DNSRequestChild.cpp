@@ -58,6 +58,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SystemGroup
 .
 h
@@ -927,7 +936,7 @@ NS_IsMainThread
 )
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -1424,7 +1433,7 @@ this
 reason
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

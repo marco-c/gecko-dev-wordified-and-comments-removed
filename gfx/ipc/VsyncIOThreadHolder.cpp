@@ -10,7 +10,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -72,7 +72,7 @@ AsyncShutdown
 }
 else
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

@@ -105,7 +105,7 @@ include
 "
 mozilla
 /
-StorageAccess
+SchedulerGroup
 .
 h
 "
@@ -114,7 +114,7 @@ include
 "
 mozilla
 /
-SystemGroup
+StorageAccess
 .
 h
 "
@@ -599,7 +599,7 @@ nsString
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -1103,7 +1103,7 @@ nsString
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

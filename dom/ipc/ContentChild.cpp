@@ -153,6 +153,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_dom
 .
 h
@@ -4039,7 +4048,7 @@ Content
 #
 ifdef
 NIGHTLY_BUILD
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -6430,7 +6439,7 @@ LaunchRDDProcess
 "
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

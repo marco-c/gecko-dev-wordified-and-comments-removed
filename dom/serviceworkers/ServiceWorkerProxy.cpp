@@ -10,6 +10,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 BackgroundParent
@@ -354,7 +363,7 @@ InitOnMainThread
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -423,7 +432,7 @@ StopListeningOnMainThread
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -539,7 +548,7 @@ aClientState
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

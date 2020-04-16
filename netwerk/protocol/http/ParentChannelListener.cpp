@@ -72,6 +72,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -1232,7 +1241,7 @@ NS_BINDING_ABORTED
 ;
 MOZ_ALWAYS_SUCCEEDS
 (
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

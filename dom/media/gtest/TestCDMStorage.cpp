@@ -19,6 +19,15 @@ h
 #
 include
 "
+mozilla
+/
+SchedulerGroup
+.
+h
+"
+#
+include
+"
 ChromiumCDMCallback
 .
 h
@@ -1024,7 +1033,7 @@ aSince
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -2725,7 +2734,7 @@ get
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -4880,7 +4889,7 @@ mNodeId
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -4967,7 +4976,7 @@ CDMStorageTest
 Dummy
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

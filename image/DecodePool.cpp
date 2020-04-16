@@ -42,6 +42,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_image
 .
 h
@@ -344,7 +353,7 @@ if
 removed
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

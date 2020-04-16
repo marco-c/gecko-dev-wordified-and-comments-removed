@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -217,7 +217,7 @@ set
 true
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

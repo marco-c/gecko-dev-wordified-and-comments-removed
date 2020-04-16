@@ -34,7 +34,7 @@ include
 "
 mozilla
 /
-StaticLocalPtr
+SchedulerGroup
 .
 h
 "
@@ -43,7 +43,7 @@ include
 "
 mozilla
 /
-SystemGroup
+StaticLocalPtr
 .
 h
 "
@@ -641,7 +641,7 @@ return
 bgData
 ;
 }
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

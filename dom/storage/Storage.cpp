@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StorageAccess
 .
 h
@@ -557,7 +566,7 @@ Run
 }
 else
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

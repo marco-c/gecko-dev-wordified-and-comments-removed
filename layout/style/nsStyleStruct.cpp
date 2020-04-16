@@ -191,6 +191,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPresData
 .
 h
@@ -1017,7 +1026,7 @@ Run
 }
 else
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

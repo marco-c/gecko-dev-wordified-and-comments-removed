@@ -40,7 +40,7 @@ include
 "
 mozilla
 /
-SystemGroup
+SchedulerGroup
 .
 h
 "
@@ -471,7 +471,7 @@ sAudioPolicy
 (
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
@@ -545,7 +545,7 @@ sVideoPolicy
 (
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

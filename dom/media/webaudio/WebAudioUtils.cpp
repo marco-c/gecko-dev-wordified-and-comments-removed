@@ -49,6 +49,15 @@ AudioEventTimeline
 .
 h
 "
+#
+include
+"
+mozilla
+/
+SchedulerGroup
+.
+h
+"
 namespace
 mozilla
 {
@@ -567,7 +576,7 @@ aKey
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

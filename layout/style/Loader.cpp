@@ -108,6 +108,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 URLPreloader
 .
 h
@@ -12080,7 +12089,7 @@ else
 {
 rv
 =
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

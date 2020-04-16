@@ -47,6 +47,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SharedThreadPool
 .
 h
@@ -434,7 +443,7 @@ forget
 )
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

@@ -129,6 +129,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -530,7 +539,7 @@ aData
 )
 {
 return
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

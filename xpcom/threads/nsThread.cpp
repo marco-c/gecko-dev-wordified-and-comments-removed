@@ -177,15 +177,6 @@ h
 #
 include
 "
-mozilla
-/
-SystemGroup
-.
-h
-"
-#
-include
-"
 nsXPCOMPrivate
 .
 h
@@ -2094,7 +2085,7 @@ context
 mIsMainThreadJoining
 )
 {
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch

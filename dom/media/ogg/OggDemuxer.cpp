@@ -58,6 +58,15 @@ include
 "
 mozilla
 /
+SchedulerGroup
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SharedThreadPool
 .
 h
@@ -859,7 +868,7 @@ isChained
 }
 )
 ;
-SystemGroup
+SchedulerGroup
 :
 :
 Dispatch
