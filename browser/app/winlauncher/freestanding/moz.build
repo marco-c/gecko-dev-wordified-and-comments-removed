@@ -136,6 +136,13 @@ CONFIG
 COMPILE_ENVIRONMENT
 '
 ]
+and
+CONFIG
+[
+'
+LLVM_DLLTOOL
+'
+]
 :
 GeneratedFile
 (
