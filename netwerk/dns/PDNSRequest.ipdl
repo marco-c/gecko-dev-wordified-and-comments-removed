@@ -52,7 +52,7 @@ PNecko
 or
 PSocketProcess
 ;
-both
+parent
 :
 async
 CancelDNSRequest
@@ -76,6 +76,8 @@ __delete__
 (
 )
 ;
+child
+:
 async
 LookupCompleted
 (
