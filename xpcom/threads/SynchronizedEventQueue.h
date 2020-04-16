@@ -43,6 +43,13 @@ h
 #
 include
 "
+nsIThreadInternal
+.
+h
+"
+#
+include
+"
 nsTObserverArray
 .
 h
@@ -141,8 +148,9 @@ virtual
 ThreadTargetSink
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 class
@@ -353,8 +361,9 @@ virtual
 SynchronizedEventQueue
 (
 )
-{
-}
+=
+default
+;
 private
 :
 nsTObserverArray

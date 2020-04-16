@@ -175,15 +175,6 @@ h
 #
 include
 "
-mozilla
-/
-SystemGroup
-.
-h
-"
-#
-include
-"
 nsISocketFilter
 .
 h

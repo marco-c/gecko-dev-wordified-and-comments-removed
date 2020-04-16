@@ -37,15 +37,6 @@ h
 #
 include
 "
-mozilla
-/
-SystemGroup
-.
-h
-"
-#
-include
-"
 base
 /
 basictypes

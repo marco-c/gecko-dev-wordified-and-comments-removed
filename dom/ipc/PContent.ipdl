@@ -1796,8 +1796,6 @@ PWindowGlobalChild
 windowEp
 TabId
 tabId
-TabId
-sameTabGroupAs
 IPCTabContext
 context
 WindowGlobalInit

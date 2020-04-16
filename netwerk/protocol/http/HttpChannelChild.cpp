@@ -86,17 +86,6 @@ include
 "
 mozilla
 /
-dom
-/
-TabGroup
-.
-h
-"
-#
-include
-"
-mozilla
-/
 extensions
 /
 StreamFilterParent

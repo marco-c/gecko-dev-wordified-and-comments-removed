@@ -974,9 +974,6 @@ aBrowsingContext
 ContentParent
 *
 aOpenerContentParent
-BrowserParent
-*
-aSameTabGroupAs
 uint64_t
 aNextRemoteTabId
 )

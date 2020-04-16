@@ -8,15 +8,6 @@ h
 #
 include
 "
-mozilla
-/
-SystemGroup
-.
-h
-"
-#
-include
-"
 nsITimer
 .
 h

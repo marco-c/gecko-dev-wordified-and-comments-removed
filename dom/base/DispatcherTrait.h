@@ -38,9 +38,6 @@ namespace
 dom
 {
 class
-TabGroup
-;
-class
 DispatcherTrait
 {
 public

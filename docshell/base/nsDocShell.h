@@ -2834,7 +2834,7 @@ aSkipCheckingDynEntries
 )
 ;
 nsresult
-DispatchToTabGroup
+Dispatch
 (
 mozilla
 :
