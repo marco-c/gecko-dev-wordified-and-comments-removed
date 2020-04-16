@@ -3425,31 +3425,6 @@ fission
 "
 )
                     
-if
-self
-.
-app
-!
-=
-"
-firefox
-"
-:
-                        
-new_result
-[
-"
-extra_options
-"
-]
-.
-append
-(
-self
-.
-app
-)
-                    
 return
 new_result
                 
