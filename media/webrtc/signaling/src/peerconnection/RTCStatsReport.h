@@ -176,6 +176,11 @@ NowUnfuzzed
 (
 )
 ;
+bool
+mCrossOriginIsolated
+=
+false
+;
 }
 ;
 typedef
