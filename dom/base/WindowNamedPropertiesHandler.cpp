@@ -1032,13 +1032,6 @@ options
 ;
 options
 .
-setSingleton
-(
-true
-)
-;
-options
-.
 setClass
 (
 &
@@ -1058,14 +1051,10 @@ JSObject
 gsp
 (
 aCx
-)
-;
-gsp
-=
 js
 :
 :
-NewProxyObject
+NewSingletonProxyObject
 (
 aCx
 WindowNamedPropertiesHandler
@@ -1080,6 +1069,7 @@ JS
 NullHandleValue
 aProto
 options
+)
 )
 ;
 if

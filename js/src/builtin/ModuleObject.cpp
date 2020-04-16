@@ -2208,13 +2208,6 @@ setLazyProto
 true
 )
 ;
-options
-.
-setSingleton
-(
-true
-)
-;
 Rooted
 <
 UniquePtr
@@ -2238,7 +2231,7 @@ RootedObject
 object
 (
 cx
-NewProxyObject
+NewSingletonProxyObject
 (
 cx
 &
