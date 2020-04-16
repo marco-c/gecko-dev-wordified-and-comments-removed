@@ -212,10 +212,11 @@ i
 2
 ?
 "
-new
-Date
+console
+.
+log
 (
-0
+null
 )
 "
 :

@@ -6,6 +6,7 @@ strict
 const
 {
 prepareMessage
+getNaturalOrder
 }
 =
 require
@@ -139,6 +140,13 @@ prepareMessage
 packet
 idGenerator
 )
+)
+;
+messages
+.
+sort
+(
+getNaturalOrder
 )
 ;
 for
