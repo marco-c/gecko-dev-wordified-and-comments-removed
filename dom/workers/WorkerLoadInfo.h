@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 ChannelInfo
@@ -180,7 +189,7 @@ nsIContentSecurityPolicy
 >
 mCSP
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
@@ -313,7 +322,7 @@ InterfaceRequestor
 >
 mInterfaceRequestor
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :
@@ -325,7 +334,7 @@ PrincipalInfo
 >
 mPrincipalInfo
 ;
-nsAutoPtr
+UniquePtr
 <
 mozilla
 :

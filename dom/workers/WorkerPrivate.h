@@ -94,6 +94,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UseCounter
 .
 h
@@ -4014,7 +4023,7 @@ endif
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 SyncLoopInfo
 >
@@ -4214,7 +4223,7 @@ mWorkerRefs
 ;
 nsTArray
 <
-nsAutoPtr
+UniquePtr
 <
 TimeoutInfo
 >
