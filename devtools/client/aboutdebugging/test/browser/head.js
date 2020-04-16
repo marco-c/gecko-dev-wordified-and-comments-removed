@@ -1144,6 +1144,12 @@ page
 )
 )
 ;
+await
+waitForRequestsToSettle
+(
+store
+)
+;
 }
 async
 function
