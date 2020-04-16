@@ -26,13 +26,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsMathUtils
 .
 h
@@ -17708,8 +17701,10 @@ GFX_MISSING_FONTS_NOTIFY_PREF
 {
 mMissingFonts
 =
-new
+MakeUnique
+<
 gfxMissingFontRecorder
+>
 (
 )
 ;
@@ -17826,6 +17821,10 @@ Flags
 :
 DontSkipDrawingForPendingUserFonts
 mMissingFonts
+.
+get
+(
+)
 )
 ;
 }
@@ -18877,7 +18876,7 @@ gfxFontGroup
 *
 mFontgrp
 ;
-nsAutoPtr
+UniquePtr
 <
 gfxMissingFontRecorder
 >
