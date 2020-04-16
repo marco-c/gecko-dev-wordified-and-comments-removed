@@ -4715,7 +4715,6 @@ mBrowsingContext
 >
 LoadURI
 (
-nullptr
 loadEntry
 .
 mLoadState
