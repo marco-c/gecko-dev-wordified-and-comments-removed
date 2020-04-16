@@ -320,6 +320,12 @@ js
 /
 src
 /
+jit
+-
+test
+/
+etc
+/
 wasm
 /
 wasm
@@ -327,6 +333,7 @@ wasm
 generate
 -
 testsuite
+/
 #
 Java
 HTML5
