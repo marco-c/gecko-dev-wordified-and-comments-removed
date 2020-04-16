@@ -783,7 +783,7 @@ mozIStorageBindingParamsArray
 *
 aParamsArray
 const
-nsCookieKey
+CookieKey
 &
 aKey
 const
@@ -3006,7 +3006,7 @@ const
 size_t
 amount
 =
-nsCookieKey
+CookieKey
 :
 :
 SizeOfExcludingThis
@@ -9617,7 +9617,7 @@ IsSession
 bindCookieParameters
 (
 paramsArray
-nsCookieKey
+CookieKey
 (
 entry
 )
@@ -10646,7 +10646,7 @@ URI
 return
 ;
 }
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -12241,10 +12241,10 @@ PR_Now
 (
 )
 ;
-nsCookieKey
+CookieKey
 key
 =
-nsCookieKey
+CookieKey
 (
 baseDomain
 *
@@ -12449,7 +12449,7 @@ if
 (
 FindCookie
 (
-nsCookieKey
+CookieKey
 (
 baseDomain
 aAttrs
@@ -13280,7 +13280,7 @@ PopulateFromSuffix
 suffix
 )
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -13940,7 +13940,7 @@ rv
 )
 continue
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -14645,7 +14645,7 @@ stale
 =
 false
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -15273,7 +15273,7 @@ nsIURI
 *
 aHostURI
 const
-nsCookieKey
+CookieKey
 &
 aKey
 CookieStruct
@@ -15988,7 +15988,7 @@ mozilla
 net
 :
 :
-nsCookieKey
+CookieKey
 &
 aKey
 bool
@@ -16277,7 +16277,7 @@ nsCookieService
 AddInternal
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 Cookie
@@ -21422,7 +21422,7 @@ aFoundCookie
 =
 FindCookie
 (
-nsCookieKey
+CookieKey
 (
 baseDomain
 *
@@ -21889,7 +21889,7 @@ mPrivateBrowsingId
 =
 aPrivateBrowsingId
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -22084,10 +22084,10 @@ mPrivateDBState
 :
 mDefaultDBState
 ;
-nsCookieKey
+CookieKey
 key
 =
-nsCookieKey
+CookieKey
 (
 baseDomain
 attrs
@@ -23716,7 +23716,7 @@ nsCookieService
 FindSecureCookie
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 Cookie
@@ -23881,7 +23881,7 @@ nsCookieService
 FindCookie
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 const
@@ -24393,7 +24393,7 @@ mozIStorageBindingParamsArray
 *
 aParamsArray
 const
-nsCookieKey
+CookieKey
 &
 aKey
 const
@@ -24842,7 +24842,7 @@ nsCookieService
 AddCookieToList
 (
 const
-nsCookieKey
+CookieKey
 &
 aKey
 Cookie

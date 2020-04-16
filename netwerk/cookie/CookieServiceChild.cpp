@@ -63,6 +63,17 @@ include
 "
 mozilla
 /
+dom
+/
+nsMixedContentBlocker
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ipc
 /
 URIUtils
@@ -1009,7 +1020,7 @@ host
 baseDomain
 )
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -1731,7 +1742,7 @@ baseDomain
 requireHostMatch
 )
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -2186,7 +2197,7 @@ nullptr
 nsCString
 baseDomain
 ;
-nsCookieKey
+CookieKey
 key
 (
 aBaseDomain
@@ -2480,7 +2491,7 @@ Host
 baseDomain
 )
 ;
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
@@ -3272,7 +3283,7 @@ return
 NS_OK
 ;
 }
-nsCookieKey
+CookieKey
 key
 (
 baseDomain
