@@ -35,7 +35,13 @@ sidebar
 -
 width
 )
+minmax
+(
+min
+-
+content
 1fr
+)
 ;
 grid
 -
