@@ -5,8 +5,8 @@ tests
 for
 the
 [
-Async
-Cookies
+Cookie
+Store
 API
 ]
 (
