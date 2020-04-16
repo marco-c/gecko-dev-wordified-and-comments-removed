@@ -946,19 +946,14 @@ message
 )
 :
     
+print
+(
+message
+file
+=
 sys
 .
 stderr
-.
-write
-(
-message
-+
-b
-"
-\
-n
-"
 )
     
 sys
@@ -1045,13 +1040,6 @@ render
 *
 context
 )
-.
-encode
-(
-"
-utf8
-"
-)
     
 except
 Exception
@@ -1067,13 +1055,6 @@ text_error_template
 .
 render
 (
-)
-.
-encode
-(
-"
-utf8
-"
 )
 )
 def
@@ -1120,7 +1101,14 @@ open
 (
 full_path
 "
-wb
+w
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 .

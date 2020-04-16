@@ -666,7 +666,7 @@ if
 isinstance
 (
 buf
-unicode
+str
 )
 :
             
