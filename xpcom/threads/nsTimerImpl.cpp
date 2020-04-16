@@ -4050,8 +4050,9 @@ nsTimer
 nsTimer
 (
 )
-{
-}
+=
+default
+;
 size_t
 nsTimer
 :
