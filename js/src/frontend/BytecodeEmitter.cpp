@@ -660,8 +660,6 @@ CompilationInfo
 compilationInfo
 EmitterMode
 emitterMode
-FieldInitializers
-fieldInitializers
 )
 :
 sc
@@ -693,10 +691,6 @@ perScriptData_
 (
 cx
 compilationInfo
-)
-fieldInitializers_
-(
-fieldInitializers
 )
 compilationInfo
 (
@@ -778,8 +772,6 @@ CompilationInfo
 compilationInfo
 EmitterMode
 emitterMode
-FieldInitializers
-fieldInitializers
 )
 :
 BytecodeEmitter
@@ -791,7 +783,6 @@ line
 column
 compilationInfo
 emitterMode
-fieldInitializers
 )
 {
 parser
@@ -836,8 +827,6 @@ CompilationInfo
 compilationInfo
 EmitterMode
 emitterMode
-FieldInitializers
-fieldInitializers
 )
 :
 BytecodeEmitter
@@ -849,7 +838,6 @@ line
 column
 compilationInfo
 emitterMode
-fieldInitializers
 )
 {
 ep_
