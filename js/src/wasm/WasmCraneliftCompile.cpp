@@ -681,7 +681,7 @@ return
 false
 ;
 }
-MOZ_ASSERT
+MOZ_ALWAYS_TRUE
 (
 functionEntryStackMap
 )
