@@ -94,15 +94,3 @@ chrome
 %
 brandingsDTD
 ;
-<
-!
-ENTITY
-%
-editBookmarkOverlayDTD
-SYSTEM
-"
-chrome
-:
-%
-editBookmarkOverlayDTD
-;
