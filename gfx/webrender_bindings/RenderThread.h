@@ -891,6 +891,11 @@ IsHandlingWebRenderError
 (
 )
 ;
+void
+NotifyAllAndroidSurfaceTexturesDetatched
+(
+)
+;
 size_t
 RendererCount
 (

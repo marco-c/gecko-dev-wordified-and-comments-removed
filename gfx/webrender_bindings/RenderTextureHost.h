@@ -74,6 +74,9 @@ namespace
 wr
 {
 class
+RenderAndroidSurfaceTextureHostOGL
+;
+class
 RenderDXGITextureHostOGL
 ;
 class
@@ -174,6 +177,17 @@ virtual
 RenderDXGITextureHostOGL
 *
 AsRenderDXGITextureHostOGL
+(
+)
+{
+return
+nullptr
+;
+}
+virtual
+RenderAndroidSurfaceTextureHostOGL
+*
+AsRenderAndroidSurfaceTextureHostOGL
 (
 )
 {
