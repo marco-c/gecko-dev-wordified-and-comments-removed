@@ -11915,8 +11915,6 @@ return
 obj
 ;
 }
-else
-{
 JS
 :
 :
@@ -11941,7 +11939,6 @@ needsFunctionEnvironmentObjects
 (
 )
 ;
-}
 }
 return
 &
