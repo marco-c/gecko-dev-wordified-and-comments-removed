@@ -4005,6 +4005,16 @@ get
 )
 )
 ;
+AddSharedMemoryPaths
+(
+policy
+.
+get
+(
+)
+aPid
+)
+;
 nsCOMPtr
 <
 nsIFile
