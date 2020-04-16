@@ -3686,10 +3686,12 @@ launchSSB
 title
 :
 "
-Install
-Website
-as
+Use
+This
+Site
+in
 App
+Mode
 "
 onLocationChange
 (
