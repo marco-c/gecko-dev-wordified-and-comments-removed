@@ -304,6 +304,7 @@ true
 nsSelectionAmount
 mAmount
 ;
+const
 nsDirection
 mDirection
 ;
