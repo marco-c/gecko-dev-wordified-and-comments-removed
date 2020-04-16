@@ -1466,6 +1466,9 @@ None
 max_depth_ids
 :
 0
+max_target_size
+:
+0
 }
 }
 }
