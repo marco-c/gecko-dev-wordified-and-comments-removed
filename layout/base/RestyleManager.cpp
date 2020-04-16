@@ -251,6 +251,13 @@ h
 #
 include
 "
+nsDocShell
+.
+h
+"
+#
+include
+"
 nsIFrame
 .
 h
