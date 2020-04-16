@@ -46,6 +46,12 @@ gradle
 "
 android
 {
+buildToolsVersion
+project
+.
+ext
+.
+buildToolsVersion
 compileSdkVersion
 project
 .
