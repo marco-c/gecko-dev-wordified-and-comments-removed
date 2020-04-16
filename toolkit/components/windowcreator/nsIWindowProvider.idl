@@ -24,6 +24,9 @@ mozIDOMWindowProxy
 interface
 nsIURI
 ;
+interface
+nsIOpenWindowInfo
+;
 native
 nsDocShellLoadStatePtr
 (
@@ -55,8 +58,8 @@ BrowsingContext
 provideWindow
 (
 in
-mozIDOMWindowProxy
-aParent
+nsIOpenWindowInfo
+aOpenWindowInfo
 in
 unsigned
 long

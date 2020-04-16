@@ -629,8 +629,6 @@ chromeMask
 initialWidth
 initialHeight
 true
-nullptr
-nullptr
 getter_AddRefs
 (
 newWindow
@@ -732,12 +730,6 @@ int32_t
 aInitialWidth
 int32_t
 aInitialHeight
-nsIRemoteTab
-*
-aOpeningTab
-mozIDOMWindowProxy
-*
-aOpenerWindow
 nsIAppWindow
 *
 *
@@ -774,8 +766,6 @@ aChromeMask
 aInitialWidth
 aInitialHeight
 false
-aOpeningTab
-aOpenerWindow
 getter_AddRefs
 (
 newWindow
@@ -2256,12 +2246,6 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
-nsIRemoteTab
-*
-aOpeningTab
-mozIDOMWindowProxy
-*
-aOpenerWindow
 AppWindow
 *
 *
@@ -2907,8 +2891,6 @@ nullptr
 aInitialWidth
 aInitialHeight
 aIsHiddenWindow
-aOpeningTab
-aOpenerWindow
 widgetInitData
 )
 ;
