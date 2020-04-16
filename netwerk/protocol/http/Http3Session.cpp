@@ -1421,6 +1421,8 @@ ProcessTransactionRead
 stream
 not
 found
+"
+"
 stream_id
 =
 0x
