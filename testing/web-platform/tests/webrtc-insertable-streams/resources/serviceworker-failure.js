@@ -84,6 +84,8 @@ sending
 us
 an
 RTCEncodedVideoFrame
+or
+RTCEncodedAudioFrame
 "
 ;
 }
@@ -147,6 +149,8 @@ sending
 us
 an
 RTCEncodedVideoFrame
+or
+RTCEncodedAudioFrame
 "
 )
 {
