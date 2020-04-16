@@ -52,6 +52,7 @@ maxdepth
 glob
 :
 how_to_contribute_firefox
+editor
 reviews
 directory_structure
 .
