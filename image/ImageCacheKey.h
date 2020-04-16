@@ -186,9 +186,6 @@ dom
 Document
 *
 aDocument
-nsIURI
-*
-aURI
 )
 ;
 static
