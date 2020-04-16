@@ -737,9 +737,10 @@ MagicMock
             
 stdout_
 =
+stdout_iter
+.
 next
 (
-stdout_iter
 )
             
 stdout_
@@ -3054,7 +3055,7 @@ self
 .
 canonical_mapping
 .
-items
+iteritems
 (
 )
 :
@@ -3282,7 +3283,7 @@ open
 (
 bad_manifest
 '
-w
+wb
 '
 )
 as
@@ -3867,7 +3868,7 @@ open
 (
 f
 '
-w
+wb
 '
 )
 .
@@ -4437,10 +4438,6 @@ self
 target_bin
 ]
                                          
-universal_newlines
-=
-True
-                                         
 stderr
 =
 None
@@ -4452,23 +4449,22 @@ browser_app
         
 lines
 =
-[
-l
-for
-l
-in
+filter
+(
+lambda
+x
+:
+x
+.
+strip
+(
+)
 output
 .
 splitlines
 (
 )
-if
-l
-.
-strip
-(
 )
-]
         
 self
 .
