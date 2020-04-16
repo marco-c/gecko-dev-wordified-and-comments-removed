@@ -2079,6 +2079,7 @@ nsIFrame
 *
 GetFrameForPoint
 (
+const
 nsIFrame
 *
 aFrame
@@ -2100,6 +2101,7 @@ static
 nsresult
 GetFramesForArea
 (
+const
 nsIFrame
 *
 aFrame
