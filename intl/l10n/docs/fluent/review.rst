@@ -2227,7 +2227,9 @@ mozilla
 .
 org
 /
-tools
+code
+-
+quality
 /
 lint
 /
