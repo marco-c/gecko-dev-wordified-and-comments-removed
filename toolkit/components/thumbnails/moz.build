@@ -73,16 +73,6 @@ PageThumbUtils
 jsm
 '
 ]
-UNIFIED_SOURCES
-+
-=
-[
-'
-PageThumbsProtocol
-.
-cpp
-'
-]
 XPIDL_SOURCES
 +
 =

@@ -32,6 +32,11 @@ ExtensionProtocolHandler
 h
 '
 '
+PageThumbProtocolHandler
+.
+h
+'
+'
 SubstitutingJARURI
 .
 h
@@ -68,6 +73,11 @@ cpp
 '
 '
 nsResProtocolHandler
+.
+cpp
+'
+'
+PageThumbProtocolHandler
 .
 cpp
 '
