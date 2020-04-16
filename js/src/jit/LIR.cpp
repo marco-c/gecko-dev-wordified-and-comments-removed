@@ -4451,16 +4451,13 @@ static_assert
 std
 :
 :
-is_polymorphic
+is_polymorphic_v
 <
 L
 #
 #
 x
 >
-:
-:
-value
 \
 "
 LIR

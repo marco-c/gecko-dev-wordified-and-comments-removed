@@ -275,15 +275,12 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 Latin1Char
 unsigned
 char
 >
-:
-:
-value
 "
 Latin1Char
 must

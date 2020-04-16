@@ -854,14 +854,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 IonIC
 T
 >
-:
-:
-value
 "
 T
 must

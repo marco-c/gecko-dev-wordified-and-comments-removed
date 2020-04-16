@@ -1474,13 +1474,10 @@ static_assert
 std
 :
 :
-is_pod
+is_pod_v
 <
 PackedTypeCode
 >
-:
-:
-value
 "
 must
 be

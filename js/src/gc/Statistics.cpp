@@ -4891,13 +4891,10 @@ static_assert
 std
 :
 :
-is_trivially_constructible
+is_trivially_constructible_v
 <
 ElementType
 >
-:
-:
-value
 "
 Statistics
 :

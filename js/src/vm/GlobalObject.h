@@ -4729,14 +4729,11 @@ static_assert
 std
 :
 :
-is_same
+is_same_v
 <
 T
 PlainObject
 >
-:
-:
-value
 "
 creating
 Object

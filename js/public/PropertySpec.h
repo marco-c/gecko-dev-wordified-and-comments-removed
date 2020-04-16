@@ -1547,7 +1547,7 @@ static_cast
 std
 :
 :
-enable_if
+enable_if_t
 <
 (
 (
@@ -1566,9 +1566,6 @@ JSPROP_PERMANENT
 =
 0
 >
-:
-:
-type
 >
 (
 0

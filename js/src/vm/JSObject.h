@@ -2466,7 +2466,7 @@ static_assert
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 T
 *
@@ -2476,9 +2476,6 @@ js
 Wrapper
 *
 >
-:
-:
-value
 "
 T
 can
@@ -2557,7 +2554,7 @@ static_assert
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 T
 *
@@ -2567,9 +2564,6 @@ js
 Wrapper
 *
 >
-:
-:
-value
 "
 T
 can
@@ -2676,7 +2670,7 @@ static_assert
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 T
 *
@@ -2686,9 +2680,6 @@ js
 Wrapper
 *
 >
-:
-:
-value
 "
 T
 can
@@ -2810,7 +2801,7 @@ static_assert
 std
 :
 :
-is_convertible
+is_convertible_v
 <
 T
 *
@@ -2820,9 +2811,6 @@ js
 Wrapper
 *
 >
-:
-:
-value
 "
 T
 can

@@ -1946,7 +1946,7 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 js
 :
@@ -1954,9 +1954,6 @@ js
 BaseProxyHandler
 Base
 >
-:
-:
-value
 "
 Base
 *

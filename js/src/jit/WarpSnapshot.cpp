@@ -76,13 +76,10 @@ static_assert
 std
 :
 :
-is_polymorphic
+is_polymorphic_v
 <
 WarpOpSnapshot
 >
-:
-:
-value
 "
 WarpOpSnapshot
 should
