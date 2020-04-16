@@ -1215,17 +1215,5 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
-FuzzySecurityInfo
-:
-:
-SetResumptionTokenFromExternalCache
-(
-)
-{
-return
-NS_OK
-;
-}
 }
 }

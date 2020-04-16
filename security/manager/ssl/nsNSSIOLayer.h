@@ -372,12 +372,6 @@ aResult
 )
 override
 ;
-NS_IMETHOD
-SetResumptionTokenFromExternalCache
-(
-)
-override
-;
 PRStatus
 CloseSocketAndDestroy
 (
@@ -787,6 +781,11 @@ psm
 SharedSSLState
 *
 ref
+)
+;
+nsresult
+SetResumptionTokenFromExternalCache
+(
 )
 ;
 protected
