@@ -607,15 +607,6 @@ BindVarOperation
 \
 _
 (
-BitNot
-js
-:
-:
-BitNot
-)
-\
-_
-(
 BoxBoxableValue
 js
 :
