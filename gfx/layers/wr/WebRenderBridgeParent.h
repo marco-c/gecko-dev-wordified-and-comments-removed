@@ -3116,6 +3116,9 @@ mIsFirstPaint
 bool
 mSkippedComposite
 ;
+bool
+mDisablingNativeCompositor
+;
 DataMutex
 <
 nsClassHashtable
