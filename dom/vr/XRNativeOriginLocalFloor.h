@@ -81,8 +81,17 @@ gfx
 PointDouble3D
 mInitialPosition
 ;
+gfx
+:
+:
+Matrix4x4
+mStandingTransform
+;
 bool
 mInitialPositionValid
+;
+double
+mFloorRandom
 ;
 }
 ;

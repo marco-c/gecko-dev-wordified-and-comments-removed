@@ -1774,6 +1774,12 @@ XRReferenceSpaceType
 :
 Local_floor
 :
+case
+XRReferenceSpaceType
+:
+:
+Bounded_floor
+:
 nativeOrigin
 =
 new
