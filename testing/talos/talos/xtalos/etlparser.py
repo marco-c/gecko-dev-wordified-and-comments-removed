@@ -1735,6 +1735,9 @@ in
 gThreads
 :
         
+try
+:
+            
 netEvt
 =
 re
@@ -1765,6 +1768,35 @@ event
 group
 (
 1
+)
+        
+except
+AttributeError
+as
+e
+:
+            
+print
+(
+"
+Error
+matching
+event
+{
+}
+:
+{
+}
+"
+.
+format
+(
+event
+str
+(
+e
+)
+)
 )
         
 if
