@@ -203,7 +203,7 @@ badhost
 dummyLoadInfo
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_MALFORMED_URI
 /
 i
 "
@@ -343,7 +343,7 @@ noURL
 dummyLoadInfo
 )
 /
-NS_ERROR_NOT_AVAILABLE
+NS_ERROR_MALFORMED_URI
 /
 i
 "
