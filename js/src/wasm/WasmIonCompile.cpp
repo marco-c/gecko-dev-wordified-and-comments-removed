@@ -1735,7 +1735,7 @@ ins
 MSub
 :
 :
-New
+NewWasm
 (
 alloc
 (
