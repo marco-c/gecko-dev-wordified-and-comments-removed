@@ -212,7 +212,6 @@ Which
 DirectCall
 IndirectCall
 Trap
-MemoryAccess
 SymbolicAccess
 }
 which
