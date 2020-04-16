@@ -683,6 +683,16 @@ aResult
 const
 override
 ;
+void
+ExtraContainerFrameInfo
+(
+nsACString
+&
+aTo
+)
+const
+override
+;
 #
 endif
 bool
