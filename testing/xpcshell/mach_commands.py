@@ -1528,7 +1528,6 @@ driver
 .
 install_tests
 (
-test_objects
 )
         
 self
