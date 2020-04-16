@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsIPipe
+.
+h
+"
+#
+include
+"
 nsStreamUtils
 .
 h
@@ -418,6 +425,9 @@ getter_AddRefs
 (
 source
 )
+mozilla
+:
+:
 MakeSpan
 (
 aCorruptData
