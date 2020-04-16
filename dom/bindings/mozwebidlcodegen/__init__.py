@@ -1309,7 +1309,7 @@ open
 (
 state_path
 '
-rb
+r
 '
 )
 as
@@ -3585,7 +3585,7 @@ self
 .
 _state_path
 '
-wb
+w
 '
 )
 as
@@ -3837,7 +3837,7 @@ json
 '
 )
 '
-rb
+r
 '
 )
 as
