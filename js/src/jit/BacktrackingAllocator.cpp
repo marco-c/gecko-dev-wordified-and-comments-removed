@@ -6457,7 +6457,7 @@ hasUses
 )
 )
 ;
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -7967,15 +7967,7 @@ LiveBundle
 bundle
 )
 {
-if
-(
-JitSpewEnabled
-(
-JitSpew_RegAlloc
-)
-)
-{
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -8013,7 +8005,6 @@ bundle
 )
 )
 ;
-}
 Requirement
 requirement
 hint
@@ -8389,7 +8380,7 @@ LDefinition
 STACK
 )
 {
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -8554,7 +8545,7 @@ use
 )
 )
 ;
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -9009,7 +9000,7 @@ false
 }
 else
 {
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -9285,7 +9276,7 @@ return
 true
 ;
 }
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -9405,15 +9396,7 @@ LiveBundle
 bundle
 )
 {
-if
-(
-JitSpewEnabled
-(
-JitSpew_RegAlloc
-)
-)
-{
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -9451,7 +9434,6 @@ bundle
 )
 )
 ;
-}
 AnyRegister
 reg
 (
@@ -10122,15 +10104,7 @@ return
 false
 ;
 }
-if
-(
-JitSpewEnabled
-(
-JitSpew_RegAlloc
-)
-)
-{
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -10152,7 +10126,6 @@ get
 )
 )
 ;
-}
 for
 (
 size_t
@@ -16861,7 +16834,7 @@ return
 true
 ;
 }
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -17759,7 +17732,7 @@ return
 true
 ;
 }
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
@@ -18148,7 +18121,7 @@ return
 true
 ;
 }
-JitSpew
+JitSpewIfEnabled
 (
 JitSpew_RegAlloc
 "
