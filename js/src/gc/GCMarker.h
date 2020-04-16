@@ -94,6 +94,15 @@ SMALL_MARK_STACK_BASE_CAPACITY
 namespace
 gc
 {
+enum
+IncrementalProgress
+{
+NotFinished
+=
+0
+Finished
+}
+;
 struct
 Cell
 ;
