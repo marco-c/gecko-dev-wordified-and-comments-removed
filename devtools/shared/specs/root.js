@@ -98,7 +98,7 @@ tabs
 "
 array
 :
-json
+tabDescriptor
 "
 selected
 :
@@ -215,7 +215,7 @@ tab
 RetVal
 (
 "
-json
+tabDescriptor
 "
 )
 }
