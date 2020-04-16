@@ -488,6 +488,7 @@ i
 )
 UnexpectedNamespaceRule
 UnexpectedImportRule
+DisallowedImportRule
 UnexpectedCharsetRule
 UnsupportedAtRule
 (
