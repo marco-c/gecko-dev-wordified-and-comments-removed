@@ -3564,7 +3564,7 @@ nsGlobalWindowInner
 IsPrivilegedChromeWindow
 "
 ]
-DOMString
+long
 getWorkspaceID
 (
 )
@@ -3582,7 +3582,7 @@ IsPrivilegedChromeWindow
 void
 moveToWorkspace
 (
-DOMString
+long
 workspaceID
 )
 ;
