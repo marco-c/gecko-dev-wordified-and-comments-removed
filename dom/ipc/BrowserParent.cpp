@@ -2652,21 +2652,6 @@ mozallowfullscreen
 )
 ;
 bool
-isPrivate
-=
-mFrameElement
--
->
-HasAttr
-(
-kNameSpaceID_None
-nsGkAtoms
-:
-:
-mozprivatebrowsing
-)
-;
-bool
 isTransparent
 =
 nsContentUtils
@@ -2700,7 +2685,6 @@ ParentShowInfo
 (
 name
 allowFullscreen
-isPrivate
 false
 isTransparent
 mDPI
@@ -2717,7 +2701,6 @@ ParentShowInfo
 EmptyString
 (
 )
-false
 false
 false
 false
