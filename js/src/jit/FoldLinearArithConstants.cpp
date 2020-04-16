@@ -182,7 +182,7 @@ if
 add
 -
 >
-specialization
+type
 (
 )
 !

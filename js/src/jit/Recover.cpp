@@ -1961,7 +1961,9 @@ writer
 .
 writeByte
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
@@ -2142,7 +2144,9 @@ writer
 .
 writeByte
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
@@ -2323,7 +2327,9 @@ writer
 .
 writeByte
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
@@ -2576,7 +2582,9 @@ writer
 .
 writeByte
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
