@@ -155,7 +155,7 @@ experimental
 .
 bugbug
 .
-all
+debug
 '
 )
     

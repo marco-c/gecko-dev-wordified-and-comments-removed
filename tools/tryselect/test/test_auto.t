@@ -90,7 +90,7 @@ experimental
 .
 bugbug
 .
-all
+debug
 "
 }
 }
@@ -190,7 +190,7 @@ experimental
 .
 bugbug
 .
-all
+debug
 "
 }
 }
@@ -301,7 +301,7 @@ experimental
 .
 bugbug
 .
-all
+debug
 "
 }
 }
