@@ -1045,6 +1045,15 @@ MDefinition
 Opcode
 :
 :
+CreateThis
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 CompareExchangeTypedArrayElement
 :
 case
