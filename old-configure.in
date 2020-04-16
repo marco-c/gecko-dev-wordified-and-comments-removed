@@ -12173,6 +12173,8 @@ AM_PATH_NSS
 3
 .
 51
+.
+1
 [
 MOZ_SYSTEM_NSS
 =
