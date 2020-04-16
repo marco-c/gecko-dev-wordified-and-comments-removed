@@ -6786,6 +6786,11 @@ invalidateChildren
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 ;
+if
+(
+mChildren
+)
+{
 [
 mChildren
 release
@@ -6795,6 +6800,7 @@ mChildren
 =
 nil
 ;
+}
 NS_OBJC_END_TRY_ABORT_BLOCK
 ;
 }
