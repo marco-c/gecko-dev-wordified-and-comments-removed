@@ -80,6 +80,12 @@ org
 .
 junit
 .
+Ignore
+import
+org
+.
+junit
+.
 Test
 import
 org
@@ -5476,6 +5482,7 @@ testIframeTopLevel
 (
 )
 }
+Ignore
 Test
 fun
 loadWebExtensionPage

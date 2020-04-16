@@ -354,6 +354,8 @@ ClientInfo
 aInfo
 uint64_t
 aOuterWindowId
+bool
+aHasGesture
 nsresult
 *
 aRv
