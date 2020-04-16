@@ -1412,7 +1412,7 @@ aChange
 )
 ;
 nsresult
-PopulateUserContextIdFromAttribute
+PopulateOriginContextIdsFromAttributes
 (
 mozilla
 :
