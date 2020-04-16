@@ -1562,6 +1562,11 @@ value
 =
 =
 0
+|
+|
+socksDNSPref
+.
+locked
 ;
 return
 undefined
