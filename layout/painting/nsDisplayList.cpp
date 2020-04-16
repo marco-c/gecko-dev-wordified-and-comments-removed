@@ -3843,6 +3843,7 @@ refBox
 aFrame
 )
 ;
+const
 nsRect
 bounds
 (
