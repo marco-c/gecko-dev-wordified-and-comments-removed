@@ -1205,7 +1205,7 @@ nullptr
 nsIBrowserDOMWindow
 :
 :
-OPEN_DEFAULTWINDOW
+OPEN_NEWTAB
 nsIBrowserDOMWindow
 :
 :
