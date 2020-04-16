@@ -99,8 +99,10 @@ info
 "
 Test
 that
-hovering
-over
+Shift
+-
+clicking
+the
 margin
 -
 top
@@ -160,8 +162,8 @@ Wait
 for
 mouse
 to
-hover
-over
+click
+the
 margin
 -
 top
@@ -192,11 +194,6 @@ synthesizeMouseAtCenter
 (
 el
 {
-type
-:
-"
-mousemove
-"
 shiftKey
 :
 true
