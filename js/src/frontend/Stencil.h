@@ -1904,6 +1904,13 @@ ScriptStencil
 {
 public
 :
+using
+ImmutableFlags
+=
+ImmutableScriptFlagsEnum
+;
+public
+:
 js
 :
 :
@@ -1995,7 +2002,7 @@ immutableFlags
 .
 hasFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsFunction

@@ -160,7 +160,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 Strict
@@ -178,7 +178,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 NeedsFunctionEnvironmentObjects
@@ -191,7 +191,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 HasNonSyntacticScope
@@ -262,7 +262,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 HasMappedArgsObj
@@ -278,7 +278,7 @@ immutableFlags
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 FunctionHasExtraBodyVarScope

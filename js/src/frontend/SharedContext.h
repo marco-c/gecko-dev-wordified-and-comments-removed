@@ -618,7 +618,7 @@ immutableFlags_
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsFunction
@@ -641,7 +641,7 @@ immutableFlags_
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsModule
@@ -664,7 +664,7 @@ immutableFlags_
 .
 setFlag
 (
-ImmutableScriptFlagsEnum
+ImmutableFlags
 :
 :
 IsForEval
