@@ -19287,14 +19287,13 @@ RootedObject
 unscopables
 (
 cx
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 nullptr
-SingletonObject
 )
 )
 ;

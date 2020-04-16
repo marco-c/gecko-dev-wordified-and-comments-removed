@@ -3108,14 +3108,13 @@ proto
 )
 ;
 return
-NewObjectWithGivenProto
+NewTenuredObjectWithGivenProto
 <
 SavedFrame
 >
 (
 cx
 proto
-TenuredObject
 )
 ;
 }
