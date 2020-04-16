@@ -506,7 +506,7 @@ install
 :
 (
 call
-py_action
+py3_action
 process_install_manifest
 -
 -

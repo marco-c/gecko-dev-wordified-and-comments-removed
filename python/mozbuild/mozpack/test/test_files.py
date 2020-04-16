@@ -134,6 +134,8 @@ mozunit
 import
 os
 import
+platform
+import
 random
 import
 six
@@ -199,6 +201,17 @@ os
 symlink
 '
 )
+and
+platform
+.
+system
+(
+)
+!
+=
+'
+Windows
+'
 :
             
 dummy_path

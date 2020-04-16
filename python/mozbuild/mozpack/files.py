@@ -2183,6 +2183,17 @@ os
 symlink
 '
 )
+or
+platform
+.
+system
+(
+)
+=
+=
+'
+Windows
+'
 :
             
 return
@@ -3211,6 +3222,17 @@ os
 symlink
 '
 )
+and
+platform
+.
+system
+(
+)
+!
+=
+'
+Windows
+'
 :
             
 if
