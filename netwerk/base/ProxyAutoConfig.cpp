@@ -4592,6 +4592,17 @@ setNewCompartmentInSystemZone
 (
 )
 ;
+options
+.
+behaviors
+(
+)
+.
+setClampAndJitterTime
+(
+false
+)
+;
 mGlobal
 =
 JS_NewGlobalObject
