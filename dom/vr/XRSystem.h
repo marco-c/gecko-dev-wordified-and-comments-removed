@@ -121,6 +121,8 @@ RequestSessionRequest
 (
 XRSessionMode
 aSessionMode
+uint32_t
+aPresentationGroup
 Promise
 *
 aPromise
@@ -197,6 +199,12 @@ GetSessionMode
 )
 const
 ;
+uint32_t
+GetPresentationGroup
+(
+)
+const
+;
 private
 :
 ~
@@ -208,6 +216,9 @@ default
 ;
 XRSessionMode
 mSessionMode
+;
+uint32_t
+mPresentationGroup
 ;
 nsTArray
 <

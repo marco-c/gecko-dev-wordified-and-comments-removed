@@ -139,6 +139,8 @@ gfx
 VRDisplayClient
 *
 aClient
+uint32_t
+aPresentationGroup
 const
 nsTArray
 <
@@ -191,6 +193,8 @@ gfx
 VRDisplayClient
 *
 aClient
+uint32_t
+aPresentationGroup
 const
 nsTArray
 <
