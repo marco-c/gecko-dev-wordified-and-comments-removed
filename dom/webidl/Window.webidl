@@ -3160,14 +3160,6 @@ nsIDOMWindowUtils
 windowUtils
 ;
 [
-ChromeOnly
-]
-readonly
-attribute
-boolean
-hasOpenerForInitialContentBrowser
-;
-[
 Pure
 ChromeOnly
 ]

@@ -3264,9 +3264,6 @@ mTitle
 nsCString
 mOriginalUriString
 ;
-nsWeakPtr
-mOpener
-;
 nsTObserverArray
 <
 nsWeakPtr
