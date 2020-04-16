@@ -171,7 +171,7 @@ TOOLCHAIN_DIR
 /
 build
 /
-stage3
+stage4
 /
 clang
 CROSS_PREFIX_DIR

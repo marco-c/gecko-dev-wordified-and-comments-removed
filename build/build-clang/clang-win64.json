@@ -4,8 +4,13 @@ stages
 "
 :
 "
-3
+4
 "
+"
+pgo
+"
+:
+true
 "
 build_libcxx
 "
