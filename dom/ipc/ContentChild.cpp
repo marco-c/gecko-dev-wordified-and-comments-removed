@@ -23127,6 +23127,7 @@ context
 >
 LoadURI
 (
+nullptr
 aLoadState
 aSetNavigating
 )
@@ -23316,6 +23317,7 @@ context
 >
 InternalLoad
 (
+nullptr
 aLoadState
 nullptr
 nullptr
