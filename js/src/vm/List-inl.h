@@ -155,12 +155,13 @@ ListObject
 *
 obj
 =
-NewObjectWithNullTaggedProto
+NewObjectWithGivenProto
 <
 ListObject
 >
 (
 cx
+nullptr
 )
 ;
 if
