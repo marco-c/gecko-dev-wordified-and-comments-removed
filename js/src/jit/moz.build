@@ -428,6 +428,11 @@ WarpOracle
 cpp
 '
 '
+WarpSnapshot
+.
+cpp
+'
+'
 WasmBCE
 .
 cpp
