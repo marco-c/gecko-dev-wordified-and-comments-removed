@@ -223,9 +223,9 @@ res
 if
 (
 limit
+<
 =
-=
-0
+1
 )
 break
 ;
