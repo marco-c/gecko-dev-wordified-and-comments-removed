@@ -22,6 +22,11 @@ DllBlocklist
 cpp
 '
 '
+FunctionTableResolver
+.
+cpp
+'
+'
 LoaderPrivateAPI
 .
 cpp
