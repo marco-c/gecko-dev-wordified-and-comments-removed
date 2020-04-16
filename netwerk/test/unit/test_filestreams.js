@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 do_get_profile
 (
 )
@@ -396,7 +401,7 @@ fstream
 .
 init
 (
-aFile
+file
 -
 1
 0

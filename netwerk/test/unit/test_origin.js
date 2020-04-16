@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 h2Port
 ;
@@ -369,6 +374,9 @@ nsIHttpChannel
 )
 ;
 }
+let
+origin
+;
 var
 nextTest
 ;

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 firstTest
 =
@@ -84,10 +89,8 @@ firstTest
 var
 test_flags
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 testPathBase
@@ -146,7 +149,7 @@ nextTest
 ;
 if
 (
-this
+globalThis
 [
 "
 handler
@@ -176,7 +179,7 @@ undefined
 }
 if
 (
-this
+globalThis
 [
 "
 completeTest
@@ -216,6 +219,7 @@ run_test_number
 num
 )
 {
+let
 testPath
 =
 testPathBase
@@ -227,7 +231,7 @@ httpserver
 registerPathHandler
 (
 testPath
-this
+globalThis
 [
 "
 handler
@@ -245,6 +249,7 @@ setupChannel
 testPath
 )
 ;
+let
 flags
 =
 test_flags
@@ -259,7 +264,7 @@ asyncOpen
 new
 ChannelListener
 (
-this
+globalThis
 [
 "
 completeTest
@@ -595,6 +600,7 @@ attachment
 "
 )
 ;
+let
 filename
 =
 chan
@@ -759,6 +765,7 @@ filename
 "
 )
 ;
+let
 filename
 =
 chan
@@ -917,6 +924,7 @@ inline
 "
 )
 ;
+let
 filename
 =
 chan

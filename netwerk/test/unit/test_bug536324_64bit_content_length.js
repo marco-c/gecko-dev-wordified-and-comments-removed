@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -73,7 +78,9 @@ req
 .
 cancel
 (
-NS_BINDING_ABORT
+Cr
+.
+NS_BINDING_ABORTED
 )
 ;
 }

@@ -111,10 +111,8 @@ index
 var
 test_flags
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 testPathBase

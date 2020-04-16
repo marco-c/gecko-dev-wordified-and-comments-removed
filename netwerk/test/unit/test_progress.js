@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -359,6 +364,8 @@ Assert
 .
 equal
 (
+this
+.
 mStatus
 STATUS_RECEIVING_FROM
 )
@@ -453,6 +460,8 @@ localhost
 "
 )
 ;
+this
+.
 mStatus
 =
 status

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 valid_URIs
 =

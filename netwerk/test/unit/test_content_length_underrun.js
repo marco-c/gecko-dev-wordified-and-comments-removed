@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -69,10 +74,8 @@ index
 var
 test_flags
 =
-new
-Array
-(
-)
+[
+]
 ;
 var
 testPathBase
@@ -259,6 +262,7 @@ run_test_number
 num
 )
 {
+let
 testPath
 =
 testPathBase
@@ -288,6 +292,7 @@ setupChannel
 testPath
 )
 ;
+let
 flags
 =
 test_flags
@@ -322,6 +327,7 @@ run_gzip_test
 num
 )
 {
+let
 testPath
 =
 testPathBase

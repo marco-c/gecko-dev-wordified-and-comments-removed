@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 CC
 =
@@ -1799,6 +1804,7 @@ len
 return
 ;
 }
+let
 buf
 =
 this

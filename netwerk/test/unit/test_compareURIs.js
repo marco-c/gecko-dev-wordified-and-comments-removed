@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 do_info
 (

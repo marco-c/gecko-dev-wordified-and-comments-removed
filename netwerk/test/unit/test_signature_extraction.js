@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 ChromeUtils
 .
 defineModuleGetter
@@ -365,7 +370,7 @@ Components
 .
 Exception
 (
-aResult
+aStatusCode
 )
 )
 ;

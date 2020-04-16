@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -493,6 +498,7 @@ app_handler
 ;
 for
 (
+let
 i
 =
 1

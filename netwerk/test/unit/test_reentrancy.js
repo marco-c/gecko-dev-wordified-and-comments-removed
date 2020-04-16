@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -20,17 +25,6 @@ httpd
 .
 js
 "
-)
-;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
 )
 ;
 XPCOMUtils

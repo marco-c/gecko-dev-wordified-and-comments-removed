@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -1013,8 +1018,6 @@ run_test
 (
 )
 {
-return
-;
 if
 (
 mozinfo

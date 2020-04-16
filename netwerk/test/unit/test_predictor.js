@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -1431,7 +1436,7 @@ html
 )
 ;
 function
-continue_test_redrect
+continue_test_redirect
 (
 )
 {
@@ -1532,7 +1537,7 @@ LEARN_LOAD_REDIRECT
 origin_attributes
 )
 ;
-do_tiemout
+do_timeout
 (
 0
 (
@@ -1611,7 +1616,7 @@ predictor
 .
 learn
 (
-sruris
+sruri
 [
 1
 ]
@@ -1654,7 +1659,7 @@ predictor
 .
 learn
 (
-sruris
+sruri
 [
 2
 ]

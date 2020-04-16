@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -356,8 +361,11 @@ length
 ;
 }
 }
-var
-enforcePref
+let
+enforceSoftPref
+;
+let
+enforceStrictChunkedPref
 ;
 function
 run_test

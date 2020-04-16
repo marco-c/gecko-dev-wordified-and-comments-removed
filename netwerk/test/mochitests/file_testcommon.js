@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 SCRIPT_URL
 =

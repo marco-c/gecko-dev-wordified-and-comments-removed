@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 CookiePolicyHelper
 .
 runTest

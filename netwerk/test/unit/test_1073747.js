@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 test
 =
@@ -145,13 +150,6 @@ return
 x
 ;
 }
-Assert
-.
-ok
-(
-false
-)
-;
 }
 ;
 var

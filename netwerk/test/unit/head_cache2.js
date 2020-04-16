@@ -1,10 +1,13 @@
+"
+use
+strict
+"
+;
 var
 callbacks
 =
-new
-Array
-(
-)
+[
+]
 ;
 const
 NORMAL

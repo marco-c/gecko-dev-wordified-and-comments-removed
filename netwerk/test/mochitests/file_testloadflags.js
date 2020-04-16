@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 SCRIPT_URL
 =
@@ -11,6 +16,9 @@ file_testloadflags_chromescript
 js
 "
 )
+;
+let
+gScript
 ;
 var
 gExpectedCookies

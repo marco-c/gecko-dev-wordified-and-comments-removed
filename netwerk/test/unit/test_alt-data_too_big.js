@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 data
 =
@@ -25,6 +30,7 @@ do_get_profile
 ;
 for
 (
+let
 i
 =
 0

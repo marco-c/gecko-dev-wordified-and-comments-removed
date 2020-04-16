@@ -294,7 +294,6 @@ PROXYCONFIG_SYSTEM
 )
 ;
 return
-await
 new
 Promise
 (
@@ -341,7 +340,6 @@ uri
 )
 {
 return
-await
 TestProxyType
 (
 makeChannel

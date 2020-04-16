@@ -1,13 +1,7 @@
-Cu
-.
-importGlobalProperties
-(
-[
 "
-XMLHttpRequest
+use
+strict
 "
-]
-)
 ;
 function
 generateContent
@@ -7274,8 +7268,7 @@ diskcache
 "
 )
 ;
-chan
-.
+var
 listener
 =
 new
@@ -7396,8 +7389,7 @@ diskcache
 "
 )
 ;
-chan
-.
+var
 listener
 =
 new

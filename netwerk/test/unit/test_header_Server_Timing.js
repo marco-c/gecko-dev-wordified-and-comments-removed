@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 make_and_open_channel
 (

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -22,17 +27,7 @@ js
 "
 )
 ;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
-)
-;
+let
 redirectHook
 =
 "

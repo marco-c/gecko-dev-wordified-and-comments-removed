@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 continue_test
 (

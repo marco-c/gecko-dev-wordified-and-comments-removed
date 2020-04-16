@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 run_test
 (
@@ -1216,6 +1221,7 @@ removeAll
 (
 )
 ;
+let
 emptyuri
 =
 NetUtil

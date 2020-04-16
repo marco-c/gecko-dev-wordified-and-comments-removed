@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 function
 gen_200k
 (

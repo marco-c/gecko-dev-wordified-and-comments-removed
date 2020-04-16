@@ -908,7 +908,6 @@ aNumberToExpect
 var
 hostNumber
 =
-new
 Number
 (
 cookie

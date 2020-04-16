@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 registerCleanupFunction
 (
 function

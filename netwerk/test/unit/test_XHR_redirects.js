@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -44,17 +49,6 @@ Preferences
 .
 jsm
 "
-)
-;
-Cu
-.
-importGlobalProperties
-(
-[
-"
-XMLHttpRequest
-"
-]
 )
 ;
 var

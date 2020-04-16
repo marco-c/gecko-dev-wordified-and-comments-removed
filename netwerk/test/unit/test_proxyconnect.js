@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 var
 socketserver_port
 =
@@ -522,8 +527,7 @@ output
 }
 QueryInterface
 :
-(
-)
+iid
 =
 >
 {

@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -491,10 +496,8 @@ do_test_finished
 var
 responseQueue
 =
-new
-Array
-(
-)
+[
+]
 ;
 function
 setup_http_server

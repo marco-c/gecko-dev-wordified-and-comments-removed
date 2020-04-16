@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 pps
 =
@@ -52,10 +57,10 @@ let
 proxy_port
 ;
 let
-server_port
+filter
 ;
 let
-filter
+proxy
 ;
 const
 proxy_auth
@@ -1401,6 +1406,7 @@ Ci
 nsIEnvironment
 )
 ;
+let
 server_port
 =
 env

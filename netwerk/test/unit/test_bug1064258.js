@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -381,6 +386,7 @@ content1
 "
 )
 ;
+let
 caching
 =
 chan
@@ -516,6 +522,7 @@ content1
 "
 )
 ;
+let
 caching
 =
 chan
@@ -640,6 +647,7 @@ content2
 "
 )
 ;
+let
 caching
 =
 chan
@@ -800,6 +808,7 @@ content2
 "
 )
 ;
+let
 caching
 =
 chan

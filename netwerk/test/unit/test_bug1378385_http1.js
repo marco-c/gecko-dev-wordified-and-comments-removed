@@ -1,3 +1,8 @@
+"
+use
+strict
+"
+;
 const
 {
 HttpServer
@@ -537,10 +542,8 @@ windowId
 var
 responseQueue
 =
-new
-Array
-(
-)
+[
+]
 ;
 function
 setup_http_server
