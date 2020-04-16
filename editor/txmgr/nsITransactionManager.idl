@@ -54,9 +54,6 @@ nsITransactionManager
 :
 nsISupports
 {
-[
-can_run_script
-]
 void
 doTransaction
 (
@@ -65,17 +62,11 @@ nsITransaction
 aTransaction
 )
 ;
-[
-can_run_script
-]
 void
 undoTransaction
 (
 )
 ;
-[
-can_run_script
-]
 void
 redoTransaction
 (
@@ -96,9 +87,6 @@ clearRedoStack
 (
 )
 ;
-[
-can_run_script
-]
 void
 beginBatch
 (

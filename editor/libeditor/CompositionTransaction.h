@@ -152,7 +152,7 @@ MarkFixed
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 static
 nsresult
 SetIMESelection
@@ -186,7 +186,6 @@ CompositionTransaction
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 SetSelectionForRanges
 (

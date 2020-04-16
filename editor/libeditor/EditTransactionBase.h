@@ -49,7 +49,6 @@ NS_DECL_CYCLE_COLLECTION_CLASS_AMBIGUOUS
 EditTransactionBase
 nsITransaction
 )
-MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
@@ -95,7 +94,6 @@ default
 define
 NS_DECL_EDITTRANSACTIONBASE
 \
-MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DoTransaction
 (
@@ -103,7 +101,6 @@ DoTransaction
 override
 ;
 \
-MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 UndoTransaction
 (

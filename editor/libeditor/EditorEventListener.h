@@ -264,7 +264,6 @@ WidgetMouseEvent
 aMouseClickEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 Focus
 (

@@ -995,7 +995,7 @@ rv
 =
 BeginTransaction
 (
-nullptr
+0
 aData
 )
 ;

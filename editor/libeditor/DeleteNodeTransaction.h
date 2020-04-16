@@ -75,9 +75,9 @@ DeleteNodeTransaction
 EditorBase
 &
 aEditorBase
-nsIContent
+nsINode
 &
-aContentToDelete
+aNodeToDelete
 )
 ;
 public
@@ -92,9 +92,9 @@ MaybeCreate
 EditorBase
 &
 aEditorBase
-nsIContent
+nsINode
 &
-aContentToDelete
+aNodeToDelete
 )
 ;
 bool
@@ -110,7 +110,6 @@ DeleteNodeTransaction
 EditTransactionBase
 )
 NS_DECL_EDITTRANSACTIONBASE
-MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
@@ -135,9 +134,9 @@ mEditorBase
 ;
 nsCOMPtr
 <
-nsIContent
+nsINode
 >
-mContentToDelete
+mNodeToDelete
 ;
 nsCOMPtr
 <
@@ -149,7 +148,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mRefContent
+mRefNode
 ;
 }
 ;

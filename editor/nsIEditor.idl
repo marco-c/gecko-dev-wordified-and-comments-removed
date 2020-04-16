@@ -488,9 +488,6 @@ boolean
 canRedo
 )
 ;
-[
-can_run_script
-]
 void
 beginTransaction
 (

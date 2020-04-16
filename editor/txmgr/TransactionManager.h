@@ -115,13 +115,11 @@ PeekRedoStack
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 Undo
 (
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 Redo
 (
@@ -261,7 +259,6 @@ aListener
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillDoNotify
 (
@@ -273,7 +270,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidDoNotify
 (
@@ -284,7 +280,6 @@ nsresult
 aExecuteResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillUndoNotify
 (
@@ -296,7 +291,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidUndoNotify
 (
@@ -307,7 +301,6 @@ nsresult
 aUndoResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillRedoNotify
 (
@@ -319,7 +312,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidRedoNotify
 (
@@ -330,7 +322,6 @@ nsresult
 aRedoResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillBeginBatchNotify
 (
@@ -339,7 +330,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidBeginBatchNotify
 (
@@ -347,7 +337,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillEndBatchNotify
 (
@@ -356,7 +345,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidEndBatchNotify
 (
@@ -364,7 +352,6 @@ nsresult
 aResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 WillMergeNotify
 (
@@ -379,7 +366,6 @@ bool
 aInterrupt
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 DidMergeNotify
 (
@@ -395,7 +381,6 @@ nsresult
 aMergeResult
 )
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 BeginBatchInternal
 (
@@ -421,7 +406,6 @@ TransactionManager
 =
 default
 ;
-MOZ_CAN_RUN_SCRIPT
 nsresult
 BeginTransaction
 (
