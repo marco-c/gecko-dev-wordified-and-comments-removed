@@ -22991,13 +22991,6 @@ return
 InliningStatus_NotInlined
 ;
 }
-static
-constexpr
-size_t
-MaxNumInlinedResults
-=
-1
-;
 if
 (
 sig
@@ -23010,7 +23003,10 @@ length
 (
 )
 >
-MaxNumInlinedResults
+wasm
+:
+:
+MaxResultsForJitInlineCall
 )
 {
 return

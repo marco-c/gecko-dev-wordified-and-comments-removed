@@ -5352,7 +5352,7 @@ length
 (
 )
 >
-1
+MaxResultsForJitEntry
 ;
 }
 bool
@@ -5370,7 +5370,7 @@ length
 (
 )
 >
-1
+MaxResultsForJitExit
 ;
 }
 bool
