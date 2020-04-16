@@ -75,9 +75,18 @@ gc
 CellHeaderWithLengthAndFlags
 '
     
-flags
+header
 =
 value
+[
+'
+header_
+'
+]
+    
+flags
+=
+header
 [
 '
 header_
