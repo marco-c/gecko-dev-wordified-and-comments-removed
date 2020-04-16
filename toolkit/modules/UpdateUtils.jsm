@@ -2395,8 +2395,7 @@ osVersion
 =
 "
 .
-undefined
-;
+unknown
 "
 ;
 }
