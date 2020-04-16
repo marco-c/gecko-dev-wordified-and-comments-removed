@@ -7914,15 +7914,11 @@ AbstractThread
 >
 mainThread
 =
-SystemGroup
+AbstractThread
 :
 :
-AbstractMainThreadFor
+MainThread
 (
-TaskCategory
-:
-:
-Performance
 )
 ;
 nsTArray
