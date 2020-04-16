@@ -807,6 +807,8 @@ clang
 -
 cl
 -
+1stage
+-
 win32
 -
 minidump
@@ -946,6 +948,8 @@ win64
 clang
 -
 cl
+-
+1stage
 -
 win32
 -
