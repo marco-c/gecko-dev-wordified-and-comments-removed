@@ -744,7 +744,7 @@ aCrossOriginIsolated
 ;
 static
 double
-ReduceTimePrecisionAsMSecsRFP
+ReduceTimePrecisionAsMSecsRFPOnly
 (
 double
 aTime
@@ -768,7 +768,7 @@ aCrossOriginIsolated
 ;
 static
 double
-ReduceTimePrecisionAsSecsRFP
+ReduceTimePrecisionAsSecsRFPOnly
 (
 double
 aTime
@@ -1079,6 +1079,12 @@ bool
 aIsSystemPrincipal
 bool
 aCrossOriginIsolated
+)
+;
+static
+TimerPrecisionType
+GetTimerPrecisionTypeRFPOnly
+(
 )
 ;
 static

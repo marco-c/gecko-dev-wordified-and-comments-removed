@@ -1138,7 +1138,7 @@ elapsedTime
 nsRFPService
 :
 :
-ReduceTimePrecisionAsSecsRFP
+ReduceTimePrecisionAsSecsRFPOnly
 (
 elapsedTime
 0

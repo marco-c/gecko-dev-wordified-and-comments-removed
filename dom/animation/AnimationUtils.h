@@ -140,7 +140,7 @@ SetValue
 nsRFPService
 :
 :
-ReduceTimePrecisionAsMSecsRFP
+ReduceTimePrecisionAsMSecsRFPOnly
 (
 aTime
 .
