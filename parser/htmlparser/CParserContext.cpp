@@ -86,7 +86,13 @@ aPrevContext
 )
 mScanner
 (
+mozilla
+:
+:
+WrapUnique
+(
 aScanner
+)
 )
 mDTDMode
 (
