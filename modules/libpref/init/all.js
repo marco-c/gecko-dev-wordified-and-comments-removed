@@ -18428,16 +18428,6 @@ pref
 "
 mousewheel
 .
-min_line_scroll_amount
-"
-5
-)
-;
-pref
-(
-"
-mousewheel
-.
 autodir
 .
 enabled
