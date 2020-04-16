@@ -107,12 +107,6 @@ const
 OriginAttributes
 &
 aOriginAttributes
-mozilla
-:
-:
-net
-:
-:
 Cookie
 *
 aCookie

@@ -274,9 +274,6 @@ CookieStruct
 &
 aCookieData
 const
-mozilla
-:
-:
 OriginAttributes
 &
 aAttrs

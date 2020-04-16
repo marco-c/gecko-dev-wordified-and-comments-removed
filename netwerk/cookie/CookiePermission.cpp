@@ -142,9 +142,6 @@ true
 ;
 namespace
 {
-mozilla
-:
-:
 StaticRefPtr
 <
 CookiePermission
