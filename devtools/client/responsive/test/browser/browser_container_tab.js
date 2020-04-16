@@ -57,13 +57,6 @@ correct
 )
 ;
 const
-browser
-=
-tab
-.
-linkedBrowser
-;
-const
 {
 ui
 }
@@ -81,10 +74,10 @@ ui
 )
 ;
 await
-load
+navigateToNewDomain
 (
-browser
 TEST_URL
+ui
 )
 ;
 ok
