@@ -37,6 +37,11 @@ disablePageLabels
 :
 false
 "
+enablePermissions
+"
+:
+false
+"
 enablePrintAutoRotate
 "
 :
