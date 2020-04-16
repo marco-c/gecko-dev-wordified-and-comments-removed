@@ -3462,7 +3462,7 @@ argparse
 FileType
 (
 '
-ab
+a
 '
 )
                                   
