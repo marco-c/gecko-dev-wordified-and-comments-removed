@@ -2009,6 +2009,7 @@ zero
 ;
 }
 let
+mut
 sticky_rect
 =
 info
@@ -2160,6 +2161,17 @@ margins
 .
 bottom
 {
+sticky_rect
+.
+origin
+.
+y
++
+=
+sticky_offset
+.
+y
+;
 let
 bottom_viewport_edge
 =
@@ -2183,6 +2195,7 @@ bottom_viewport_edge
 sticky_offset
 .
 y
++
 =
 bottom_viewport_edge
 -
@@ -2217,6 +2230,7 @@ bottom_viewport_edge
 sticky_offset
 .
 y
++
 =
 bottom_viewport_edge
 -
@@ -2375,6 +2389,17 @@ margins
 .
 right
 {
+sticky_rect
+.
+origin
+.
+x
++
+=
+sticky_offset
+.
+x
+;
 let
 right_viewport_edge
 =
@@ -2398,6 +2423,7 @@ right_viewport_edge
 sticky_offset
 .
 x
++
 =
 right_viewport_edge
 -
@@ -2432,6 +2458,7 @@ right_viewport_edge
 sticky_offset
 .
 x
++
 =
 right_viewport_edge
 -
