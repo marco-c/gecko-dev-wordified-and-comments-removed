@@ -1277,6 +1277,7 @@ targetBC
 >
 LoadURI
 (
+nullptr
 aLoadState
 aSetNavigating
 )
@@ -1409,6 +1410,9 @@ targetBC
 >
 InternalLoad
 (
+BrowsingContext
+(
+)
 aLoadState
 nullptr
 nullptr
