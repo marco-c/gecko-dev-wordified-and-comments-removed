@@ -2549,12 +2549,12 @@ vat
 :
 aDesc
 .
-mAttributeSet
+mAttributes
 )
 {
 desc
 .
-mAttributeSet
+mAttributes
 .
 AppendElement
 (

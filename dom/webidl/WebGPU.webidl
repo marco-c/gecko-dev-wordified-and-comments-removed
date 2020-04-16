@@ -3219,7 +3219,7 @@ sequence
 <
 GPUVertexAttributeDescriptor
 >
-attributeSet
+attributes
 ;
 }
 ;

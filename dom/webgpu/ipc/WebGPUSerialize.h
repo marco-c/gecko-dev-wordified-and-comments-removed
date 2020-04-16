@@ -759,7 +759,7 @@ webgpu
 SerialVertexBufferLayoutDescriptor
 mArrayStride
 mStepMode
-mAttributeSet
+mAttributes
 )
 ;
 DEFINE_IPC_SERIALIZER_WITH_FIELDS
