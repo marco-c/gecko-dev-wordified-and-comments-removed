@@ -83,6 +83,11 @@ return
 mPath
 ;
 }
+[
+[
+nodiscard
+]
+]
 bool
 MaybeUpdateSize
 (
