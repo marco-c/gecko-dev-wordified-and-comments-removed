@@ -27646,6 +27646,7 @@ DeepCloneObjectLiteral
 (
 cx
 obj
+TenuredObject
 )
 ;
 }
@@ -30366,7 +30367,7 @@ NewInit
 ;
 obj
 =
-NewBuiltinClassInstanceWithKind
+NewBuiltinClassInstance
 <
 PlainObject
 >

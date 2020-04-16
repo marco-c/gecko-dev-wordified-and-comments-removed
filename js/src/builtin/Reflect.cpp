@@ -1083,13 +1083,14 @@ nullptr
 ;
 }
 return
-NewSingletonObjectWithGivenProto
+NewObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 proto
+SingletonObject
 )
 ;
 }

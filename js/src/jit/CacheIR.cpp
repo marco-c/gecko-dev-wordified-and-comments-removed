@@ -26221,9 +26221,10 @@ res
 .
 set
 (
-NewArrayIteratorTemplate
+NewArrayIteratorObject
 (
 cx_
+TenuredObject
 )
 )
 ;
@@ -26244,9 +26245,10 @@ res
 .
 set
 (
-NewStringIteratorTemplate
+NewStringIteratorObject
 (
 cx_
+TenuredObject
 )
 )
 ;
@@ -26267,9 +26269,10 @@ res
 .
 set
 (
-NewRegExpStringIteratorTemplate
+NewRegExpStringIteratorObject
 (
 cx_
+TenuredObject
 )
 )
 ;

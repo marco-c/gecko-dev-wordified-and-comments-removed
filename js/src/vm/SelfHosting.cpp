@@ -5132,7 +5132,7 @@ JSObject
 *
 obj
 =
-NewArrayIterator
+NewArrayIteratorObject
 (
 cx
 )
@@ -5720,7 +5720,7 @@ JSObject
 *
 obj
 =
-NewStringIterator
+NewStringIteratorObject
 (
 cx
 )
@@ -5792,7 +5792,7 @@ JSObject
 *
 obj
 =
-NewRegExpStringIterator
+NewRegExpStringIteratorObject
 (
 cx
 )
@@ -18323,10 +18323,11 @@ ArrayObject
 {
 clone
 =
-NewTenuredDenseEmptyArray
+NewDenseEmptyArray
 (
 cx
 nullptr
+TenuredObject
 )
 ;
 }

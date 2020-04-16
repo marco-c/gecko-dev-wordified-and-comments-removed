@@ -7600,7 +7600,7 @@ ArrayIterator
 :
 resultObject
 =
-NewArrayIterator
+NewArrayIteratorObject
 (
 cx
 )
@@ -7615,7 +7615,7 @@ StringIterator
 :
 resultObject
 =
-NewStringIterator
+NewStringIteratorObject
 (
 cx
 )
@@ -7630,7 +7630,7 @@ RegExpStringIterator
 :
 resultObject
 =
-NewRegExpStringIterator
+NewRegExpStringIteratorObject
 (
 cx
 )

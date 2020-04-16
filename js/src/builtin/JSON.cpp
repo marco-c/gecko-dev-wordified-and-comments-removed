@@ -5511,12 +5511,13 @@ nullptr
 ;
 }
 return
-NewSingletonObjectWithGivenProto
+NewObjectWithGivenProto
 (
 cx
 &
 JSONClass
 proto
+SingletonObject
 )
 ;
 }
