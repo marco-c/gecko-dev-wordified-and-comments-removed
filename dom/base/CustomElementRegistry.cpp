@@ -848,6 +848,7 @@ CustomElementData
 GetCustomElementDefinition
 (
 )
+const
 {
 MOZ_ASSERT_IF
 (
