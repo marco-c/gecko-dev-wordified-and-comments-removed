@@ -2841,11 +2841,6 @@ check_build_environment
 MOZILLABUILD
 '
 mozconfig
-'
--
--
-help
-'
 )
 checking
 (
@@ -2993,13 +2988,8 @@ env_python
 build_env
 mozillabuild
 mozconfig
-help
 )
 :
-if
-help
-:
-return
 with
 LineIO
 (
