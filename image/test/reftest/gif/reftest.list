@@ -150,6 +150,7 @@ frame
 to
 pass
 .
+random
 =
 =
 delaytest
@@ -167,7 +168,15 @@ animation
 -
 finalframe
 .
-html
+gif
+#
+incorrect
+timing
+dependence
+(
+bug
+558678
+)
 #
 test
 for
