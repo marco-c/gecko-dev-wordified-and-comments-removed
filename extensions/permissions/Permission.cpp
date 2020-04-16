@@ -10,13 +10,6 @@ h
 #
 include
 "
-nsContentUtils
-.
-h
-"
-#
-include
-"
 nsIClassInfoImpl
 .
 h
