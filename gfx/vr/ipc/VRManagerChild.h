@@ -363,6 +363,17 @@ Promise
 aPromise
 )
 ;
+gfx
+:
+:
+VRAPIMode
+GetVRAPIMode
+(
+uint32_t
+aDisplayID
+)
+const
+;
 static
 void
 InitSameProcess
