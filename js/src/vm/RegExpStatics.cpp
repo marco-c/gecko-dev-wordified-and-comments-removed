@@ -372,7 +372,6 @@ this
 -
 >
 matches
-nullptr
 )
 ;
 if
