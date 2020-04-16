@@ -99,6 +99,16 @@ EndAnimationFrame
 (
 )
 ;
+void
+StartInputSourceEvent
+(
+)
+;
+void
+EndInputSourceEvent
+(
+)
+;
 nsISupports
 *
 GetParentObject
