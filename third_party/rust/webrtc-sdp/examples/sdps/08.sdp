@@ -1,3 +1,17 @@
+;
+;
+This
+example
+fails
+to
+parse
+because
+of
+a
+mismatched
+fingerprint
+length
+;
 v
 =
 0
