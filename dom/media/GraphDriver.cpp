@@ -2789,7 +2789,7 @@ aGraphInterface
 aPreviousDriver
 aSampleRate
 )
-mOutputChannels
+mOutputChannelCount
 (
 aOutputChannelCount
 )
@@ -2889,7 +2889,7 @@ Graph
 ;
 NS_WARNING_ASSERTION
 (
-mOutputChannels
+mOutputChannelCount
 !
 =
 0
@@ -2903,7 +2903,7 @@ count
 ;
 MOZ_ASSERT
 (
-mOutputChannels
+mOutputChannelCount
 <
 =
 8
@@ -3433,7 +3433,7 @@ CUBEB_SAMPLE_FLOAT32NE
 if
 (
 !
-mOutputChannels
+mOutputChannelCount
 )
 {
 LOG
@@ -3573,7 +3573,7 @@ AudioCallbackBufferWrapper
 AudioDataValue
 >
 (
-mOutputChannels
+mOutputChannelCount
 )
 ;
 mScratchBuffer
@@ -3586,14 +3586,14 @@ WEBAUDIO_BLOCK_SIZE
 2
 >
 (
-mOutputChannels
+mOutputChannelCount
 )
 ;
 output
 .
 channels
 =
-mOutputChannels
+mOutputChannelCount
 ;
 AudioConfig
 :
@@ -3609,7 +3609,7 @@ AudioConfig
 :
 ChannelLayout
 (
-mOutputChannels
+mOutputChannelCount
 )
 .
 Map
@@ -4828,7 +4828,7 @@ PodZero
 aOutputBuffer
 aFrames
 *
-mOutputChannels
+mOutputChannelCount
 )
 ;
 return
@@ -4854,7 +4854,7 @@ PodZero
 aOutputBuffer
 aFrames
 *
-mOutputChannels
+mOutputChannelCount
 )
 ;
 return
@@ -5275,7 +5275,7 @@ size_t
 aFrames
 )
 mSampleRate
-mOutputChannels
+mOutputChannelCount
 )
 ;
 #
@@ -5286,7 +5286,7 @@ if
 mNeedsPanning
 &
 &
-mOutputChannels
+mOutputChannelCount
 =
 =
 2

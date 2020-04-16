@@ -1916,7 +1916,7 @@ OutputChannelCount
 )
 {
 return
-mOutputChannels
+mOutputChannelCount
 ;
 }
 uint32_t
@@ -2130,7 +2130,7 @@ IsOnCurrentThreadInfallible
 }
 const
 uint32_t
-mOutputChannels
+mOutputChannelCount
 ;
 SpillBuffer
 <
