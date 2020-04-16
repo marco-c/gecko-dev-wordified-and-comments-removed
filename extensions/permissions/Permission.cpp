@@ -1,7 +1,9 @@
 #
 include
 "
-nsPermission
+mozilla
+/
+Permission
 .
 h
 "
@@ -58,9 +60,12 @@ StaticPrefs_permissions
 .
 h
 "
+namespace
+mozilla
+{
 NS_IMPL_CLASSINFO
 (
-nsPermission
+Permission
 nullptr
 0
 {
@@ -69,13 +74,13 @@ nullptr
 )
 NS_IMPL_ISUPPORTS_CI
 (
-nsPermission
+Permission
 nsIPermission
 )
-nsPermission
+Permission
 :
 :
-nsPermission
+Permission
 (
 nsIPrincipal
 *
@@ -124,7 +129,7 @@ already_AddRefed
 <
 nsIPrincipal
 >
-nsPermission
+Permission
 :
 :
 ClonePrincipalForPermission
@@ -236,9 +241,9 @@ attrs
 }
 already_AddRefed
 <
-nsPermission
+Permission
 >
-nsPermission
+Permission
 :
 :
 Create
@@ -272,7 +277,7 @@ nsIPrincipal
 >
 principal
 =
-nsPermission
+Permission
 :
 :
 ClonePrincipalForPermission
@@ -288,12 +293,12 @@ nullptr
 ;
 RefPtr
 <
-nsPermission
+Permission
 >
 permission
 =
 new
-nsPermission
+Permission
 (
 principal
 aType
@@ -312,7 +317,7 @@ forget
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetPrincipal
@@ -343,7 +348,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetType
@@ -362,7 +367,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetCapability
@@ -382,7 +387,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetExpireType
@@ -402,7 +407,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetExpireTime
@@ -422,7 +427,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 GetModificationTime
@@ -442,7 +447,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 Matches
@@ -478,7 +483,7 @@ nsIPrincipal
 >
 principal
 =
-nsPermission
+Permission
 :
 :
 ClonePrincipalForPermission
@@ -511,7 +516,7 @@ aMatches
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 MatchesPrincipalForPermission
@@ -901,12 +906,9 @@ return
 NS_OK
 ;
 }
-else
-{
 return
 rv
 ;
-}
 }
 }
 *
@@ -919,7 +921,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsPermission
+Permission
 :
 :
 MatchesURI
@@ -977,4 +979,5 @@ aExactHost
 aMatches
 )
 ;
+}
 }
