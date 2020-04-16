@@ -842,6 +842,20 @@ tmpdir
 f
 )
             
+if
+not
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+                
 self
 .
 logger
@@ -863,11 +877,11 @@ while
 %
 f
 )
-            
+                
 isZipped
 =
 True
-            
+                
 fixStackTraces
 (
 f
