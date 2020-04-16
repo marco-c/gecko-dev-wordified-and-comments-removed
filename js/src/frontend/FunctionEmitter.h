@@ -437,16 +437,6 @@ MOZ_MUST_USE
 bool
 initScript
 (
-const
-mozilla
-:
-:
-Maybe
-<
-FieldInitializers
->
-&
-fieldInitializers
 )
 ;
 private

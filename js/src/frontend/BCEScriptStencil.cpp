@@ -258,6 +258,13 @@ index
 )
 )
 ;
+fieldInitializers
+=
+funbox
+-
+>
+fieldInitializers
+;
 immutableFlags
 .
 setFlag

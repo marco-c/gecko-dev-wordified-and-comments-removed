@@ -1951,6 +1951,15 @@ FunctionIndex
 >
 functionIndex
 ;
+mozilla
+:
+:
+Maybe
+<
+FieldInitializers
+>
+fieldInitializers
+;
 ScriptStencil
 (
 JSContext

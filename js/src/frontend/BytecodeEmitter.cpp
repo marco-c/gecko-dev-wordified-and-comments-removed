@@ -12916,10 +12916,6 @@ fse
 .
 initScript
 (
-funbox
--
->
-fieldInitializers
 )
 )
 {
