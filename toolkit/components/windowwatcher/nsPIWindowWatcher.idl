@@ -36,9 +36,6 @@ nsIArray
 interface
 nsIRemoteTab
 ;
-interface
-nsIOpenWindowInfo
-;
 native
 nsDocShellLoadStatePtr
 (
@@ -141,8 +138,13 @@ in
 float
 aOpenerFullZoom
 in
-nsIOpenWindowInfo
-aOpenWindowInfo
+unsigned
+long
+long
+aNextRemoteTabId
+in
+boolean
+aForceNoOpener
 )
 ;
 }

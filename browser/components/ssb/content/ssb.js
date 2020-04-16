@@ -485,7 +485,7 @@ BrowserDOMWindow
 createContentWindow
 (
 uri
-openWindowInfo
+opener
 where
 flags
 triggeringPrincipal
@@ -518,7 +518,7 @@ NS_ERROR_FAILURE
 openURI
 (
 uri
-openWindowInfo
+opener
 where
 flags
 triggeringPrincipal
@@ -554,6 +554,7 @@ uri
 params
 where
 flags
+nextRemoteTabId
 name
 shouldOpen
 )
@@ -617,6 +618,7 @@ null
 params
 where
 flags
+nextRemoteTabId
 name
 )
 ;
@@ -631,6 +633,7 @@ uri
 params
 where
 flags
+nextRemoteTabId
 name
 )
 {
@@ -643,6 +646,7 @@ uri
 params
 where
 flags
+nextRemoteTabId
 name
 false
 )
@@ -654,6 +658,7 @@ uri
 params
 where
 flags
+nextRemoteTabId
 name
 )
 {
@@ -666,6 +671,7 @@ uri
 params
 where
 flags
+nextRemoteTabId
 name
 true
 )
