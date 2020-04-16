@@ -155,7 +155,9 @@ hasCopyOnWriteElements
 7
 ]
 )
-true
+isTypeInferenceEnabled
+(
+)
 )
 ;
 }

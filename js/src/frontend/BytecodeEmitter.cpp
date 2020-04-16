@@ -41878,6 +41878,11 @@ MinElementsForCopyOnWrite
 ;
 if
 (
+IsTypeInferenceEnabled
+(
+)
+&
+&
 emitterMode
 !
 =

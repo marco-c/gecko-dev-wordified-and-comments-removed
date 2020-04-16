@@ -8277,6 +8277,13 @@ jsbytecode
 pc
 )
 {
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 RootedArrayObject
 obj
 (
