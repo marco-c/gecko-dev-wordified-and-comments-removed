@@ -625,6 +625,15 @@ headersAlreadySet
 new
 Set
 (
+[
+"
+content
+-
+security
+-
+policy
+"
+]
 )
 ;
 for
