@@ -101,6 +101,12 @@ SelectAnchor
 (
 )
 ;
+bool
+CanMaintainAnchor
+(
+)
+const
+;
 void
 UserScrolled
 (
