@@ -6463,6 +6463,16 @@ role
 ]
 )
 ;
+SetControllerSelectionAndSqueezeFrameId
+(
+controllerState
+aState
+.
+displayState
+.
+lastSubmittedFrameId
+)
+;
 }
 }
 void
