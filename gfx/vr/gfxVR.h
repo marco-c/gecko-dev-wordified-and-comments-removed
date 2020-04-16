@@ -122,6 +122,17 @@ uint8_t
 namespace
 gfx
 {
+enum
+class
+VRAPIMode
+:
+uint8_t
+{
+WebXR
+WebVR
+NumVRAPIModes
+}
+;
 class
 VRLayerParent
 ;
