@@ -31,6 +31,15 @@ nsACString
 name
 )
 ;
+const
+char
+*
+GetStaticErrorName
+(
+nsresult
+rv
+)
+;
 }
 #
 endif
