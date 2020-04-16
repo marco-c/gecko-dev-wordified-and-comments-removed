@@ -1402,11 +1402,11 @@ visualmetrics
 py
 "
                     
-video_location
+video_path
 =
 job
 .
-video_location
+video_path
                     
 error
 =
