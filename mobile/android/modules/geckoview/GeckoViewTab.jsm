@@ -210,16 +210,6 @@ this
 selectedBrowser
 )
 ;
-this
-.
-tabs
-=
-[
-this
-.
-selectedTab
-]
-;
 }
 getTabForBrowser
 (
