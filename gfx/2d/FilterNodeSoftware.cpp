@@ -5252,10 +5252,9 @@ FilterNodeSoftware
 {
 MOZ_ASSERT
 (
-!
 mInvalidationListeners
 .
-size
+empty
 (
 )
 "
