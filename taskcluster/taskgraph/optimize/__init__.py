@@ -2189,6 +2189,8 @@ test
 args
 =
 (
+Any
+(
 '
 skip
 -
@@ -2200,9 +2202,13 @@ schedules
 seta
 '
 )
+'
+backstop
+'
+)
 )
 (
-Any
+All
 )
 register_strategy
 (
