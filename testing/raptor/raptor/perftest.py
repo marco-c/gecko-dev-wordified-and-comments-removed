@@ -358,6 +358,12 @@ disable_perf_tuning
 =
 False
         
+conditioned_profile_scenario
+=
+'
+settled
+'
+        
 extra_prefs
 =
 {
@@ -543,6 +549,12 @@ disable_perf_tuning
 "
 :
 disable_perf_tuning
+            
+"
+conditioned_profile_scenario
+"
+:
+conditioned_profile_scenario
             
 "
 extra_prefs
@@ -1168,6 +1180,22 @@ s
 platform
 )
         
+profile_scenario
+=
+self
+.
+config
+.
+get
+(
+"
+conditioned_profile_scenario
+"
+"
+settled
+"
+)
+        
 try
 :
             
@@ -1175,11 +1203,13 @@ cond_prof_target_dir
 =
 get_profile
 (
+                
 temp_download_dir
+                
 platform
-"
-settled
-"
+                
+profile_scenario
+            
 )
         
 except
@@ -1192,10 +1222,11 @@ get_profile
 (
                 
 temp_download_dir
+                
 platform
-"
-settled
-"
+                
+profile_scenario
+                
 repo
 =
 "
@@ -1284,15 +1315,21 @@ temp_download_dir
 platform
 {
 }
-settled
+scenario
+{
+}
 "
 .
 format
 (
                     
 cond_prof_target_dir
+                    
 temp_download_dir
+                    
 platform
+                    
+profile_scenario
                 
 )
             
