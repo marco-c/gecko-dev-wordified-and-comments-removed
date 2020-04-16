@@ -28808,7 +28808,7 @@ rv
 loadInfo
 -
 >
-GetTargetBrowsingContext
+GetBrowsingContext
 (
 getter_AddRefs
 (

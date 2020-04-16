@@ -218,14 +218,6 @@ nsIURI
 aDocumentURI
 )
 ;
-void
-SetDocumentPrincipal
-(
-nsIPrincipal
-*
-aNewDocumentPrincipal
-)
-;
 nsIPrincipal
 *
 DocumentPrincipal
