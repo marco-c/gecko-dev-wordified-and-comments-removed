@@ -94,6 +94,14 @@ WM_APP
 )
 #
 define
+MOZ_WM_DISMISS_ONSCREEN_KEYBOARD
+(
+WM_APP
++
+0x0317
+)
+#
+define
 MOZ_WM_KEYDOWN
 (
 WM_APP
