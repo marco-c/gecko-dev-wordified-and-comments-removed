@@ -38273,7 +38273,7 @@ _ARM64_
 )
 value
 :
-IS_EARLY_BETA_OR_EARLIER
+true
 #
 else
 value
