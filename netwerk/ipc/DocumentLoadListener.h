@@ -105,13 +105,6 @@ h
 #
 include
 "
-nsIObserver
-.
-h
-"
-#
-include
-"
 nsIParentChannel
 .
 h
