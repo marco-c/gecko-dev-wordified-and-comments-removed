@@ -524,10 +524,11 @@ NS_POSTSCRIPT_DRIVER_NAME
 )
 )
 )
+{
 return
 kTypePS
 ;
-else
+}
 if
 (
 StringBeginsWith
@@ -539,10 +540,11 @@ NS_CUPS_PRINTER
 )
 )
 )
+{
 return
 kTypeCUPS
 ;
-else
+}
 return
 kTypeUnknown
 ;
