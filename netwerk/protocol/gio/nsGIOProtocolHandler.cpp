@@ -2328,7 +2328,7 @@ if
 mChannel
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsGIOInputStream

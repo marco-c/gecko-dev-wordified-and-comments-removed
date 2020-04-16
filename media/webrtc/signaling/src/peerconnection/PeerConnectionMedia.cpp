@@ -2666,7 +2666,7 @@ c_str
 )
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 PeerConnectionMedia

@@ -580,7 +580,7 @@ Unlock
 (
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsToolkitProfile

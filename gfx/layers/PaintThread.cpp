@@ -1195,7 +1195,7 @@ layers_omtp_release_capture_on_main_thread
 )
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 PaintTask

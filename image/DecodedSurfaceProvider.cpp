@@ -189,7 +189,7 @@ mImage
 =
 nullptr
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 image
 .

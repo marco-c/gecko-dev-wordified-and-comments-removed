@@ -1223,7 +1223,7 @@ ImageDecoderHelper
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ImageDecoderHelper
@@ -1238,7 +1238,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ImageDecoderHelper

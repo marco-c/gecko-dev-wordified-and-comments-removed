@@ -1185,7 +1185,7 @@ AudioProxyThread
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AudioProxyThread
@@ -1458,7 +1458,7 @@ c_str
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MediaPipeline
@@ -3713,7 +3713,7 @@ PipelineListener
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MediaPipeline
@@ -7458,7 +7458,7 @@ PipelineListener
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MediaPipeline

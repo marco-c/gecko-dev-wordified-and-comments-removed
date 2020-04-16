@@ -158,7 +158,7 @@ StatementData
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 StatementData

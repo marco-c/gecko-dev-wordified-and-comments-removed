@@ -14351,7 +14351,7 @@ mData
 )
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 DataChannelBlobSendRunnable

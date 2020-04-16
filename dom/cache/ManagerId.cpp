@@ -236,7 +236,7 @@ NS_IsMainThread
 return
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ManagerId

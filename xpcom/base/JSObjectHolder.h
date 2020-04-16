@@ -66,8 +66,9 @@ private
 JSObjectHolder
 (
 )
-{
-}
+=
+default
+;
 JS
 :
 :

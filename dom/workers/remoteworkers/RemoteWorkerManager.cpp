@@ -446,7 +446,7 @@ MakeScopeExit
 &
 ]
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 contentParent
 .

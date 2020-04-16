@@ -380,7 +380,7 @@ ClassifierDummyChannel
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ClassifierDummyChannel
@@ -395,7 +395,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ClassifierDummyChannel
@@ -410,7 +410,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ClassifierDummyChannel

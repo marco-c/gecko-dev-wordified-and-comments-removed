@@ -1396,7 +1396,7 @@ RunDuringShutdown
 )
 override
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 DOMMediaStream

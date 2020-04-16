@@ -1737,7 +1737,7 @@ AsyncCloseConnection
 )
 override
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AsyncCloseConnection
@@ -1752,7 +1752,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AsyncCloseConnection

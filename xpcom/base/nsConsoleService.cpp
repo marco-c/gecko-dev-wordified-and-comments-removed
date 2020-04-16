@@ -273,8 +273,9 @@ MessageElement
 MessageElement
 (
 )
-{
-}
+=
+default
+;
 nsConsoleService
 :
 :
@@ -1765,7 +1766,7 @@ if
 retiredMessage
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsConsoleService

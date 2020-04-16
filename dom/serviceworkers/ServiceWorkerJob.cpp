@@ -969,7 +969,7 @@ SuppressException
 (
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 ServiceWorkerJobProxyRunnable

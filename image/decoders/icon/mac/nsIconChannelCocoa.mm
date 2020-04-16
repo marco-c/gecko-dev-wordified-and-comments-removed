@@ -201,7 +201,12 @@ nsIconChannel
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+if
+(
+mLoadInfo
+)
+{
+NS_ReleaseOnMainThread
 (
 "
 nsIconChannel
@@ -216,6 +221,7 @@ forget
 )
 )
 ;
+}
 }
 NS_IMPL_ISUPPORTS
 (

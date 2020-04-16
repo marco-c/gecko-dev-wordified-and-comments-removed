@@ -8455,7 +8455,7 @@ Start
 (
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MediaTrackGraphImpl

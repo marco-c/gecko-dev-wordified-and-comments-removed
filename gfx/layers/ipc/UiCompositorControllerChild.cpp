@@ -823,7 +823,7 @@ move
 mWidget
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 UiCompositorControllerChild

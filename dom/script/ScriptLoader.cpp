@@ -10643,7 +10643,7 @@ NS_IsMainThread
 )
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 NotifyOffThreadScriptLoadCompletedRunnable
@@ -10658,7 +10658,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 NotifyOffThreadScriptLoadCompletedRunnable

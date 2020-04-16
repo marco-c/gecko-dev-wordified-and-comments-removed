@@ -241,7 +241,7 @@ gfxFontSrcURI
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 gfxFontSrcURI

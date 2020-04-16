@@ -5114,7 +5114,7 @@ mWaitingForInitialSsrc
 =
 false
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebrtcVideoConduit
@@ -5746,7 +5746,7 @@ Run
 )
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebrtcVideoConduit
@@ -5836,7 +5836,7 @@ SetActive
 receiving
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebrtcVideoConduit
@@ -10066,7 +10066,7 @@ FrameDeliveredToEncoder
 (
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 SendStreamStatistics
@@ -10383,7 +10383,7 @@ DequeueAll
 this
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebrtcVideoConduit

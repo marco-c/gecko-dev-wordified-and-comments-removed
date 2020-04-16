@@ -2817,7 +2817,7 @@ nsCompleteUpgradeData
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsCompleteUpgradeData

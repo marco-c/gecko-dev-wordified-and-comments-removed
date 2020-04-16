@@ -1374,7 +1374,7 @@ self
 =
 this
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 MainThreadHandoff

@@ -129,7 +129,7 @@ NS_IsMainThread
 )
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 URLExtraData

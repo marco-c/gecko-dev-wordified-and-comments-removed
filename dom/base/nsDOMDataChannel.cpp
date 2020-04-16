@@ -2459,7 +2459,7 @@ ReleaseSelf
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 nsDOMDataChannel

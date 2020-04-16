@@ -78,7 +78,7 @@ gfxFontSrcPrincipal
 (
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 gfxFontSrcPrincipal

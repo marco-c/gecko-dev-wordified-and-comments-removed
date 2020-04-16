@@ -285,7 +285,7 @@ mImage
 return
 ;
 }
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 AnimationSurfaceProvider

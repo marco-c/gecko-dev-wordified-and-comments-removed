@@ -5588,7 +5588,7 @@ mListenerMT
 =
 nullptr
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -5603,7 +5603,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -5618,7 +5618,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -11297,7 +11297,7 @@ if
 mOpenedHttpChannel
 )
 {
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -11312,7 +11312,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -11327,7 +11327,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
@@ -11342,7 +11342,7 @@ forget
 )
 )
 ;
-NS_ReleaseOnMainThreadSystemGroup
+NS_ReleaseOnMainThread
 (
 "
 WebSocketChannel
