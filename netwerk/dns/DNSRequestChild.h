@@ -113,11 +113,6 @@ CallOnLookupComplete
 (
 )
 ;
-void
-CallOnLookupByTypeComplete
-(
-)
-;
 protected
 :
 friend
@@ -177,12 +172,6 @@ nsCOMPtr
 nsIDNSRecord
 >
 mResultRecord
-;
-nsCOMPtr
-<
-nsIDNSByTypeRecord
->
-mResultByTypeRecords
 ;
 nsresult
 mResultStatus

@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsISupports
+nsIDNSRecord
 .
 idl
 "
@@ -107,7 +107,7 @@ uuid
 interface
 nsIDNSByTypeRecord
 :
-nsISupports
+nsIDNSRecord
 {
 CStringArrayRef
 getRecords
