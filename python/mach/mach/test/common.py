@@ -12,6 +12,8 @@ import
 sys
 import
 unittest
+import
+six
 try
 :
     
@@ -79,7 +81,7 @@ def
 get_mach
 (
 cls
-provider_file
+provider_files
 =
 None
 entry_point
@@ -124,14 +126,56 @@ core
         
 m
 .
+define_category
+(
+'
+misc
+'
+'
+Mach
+misc
+'
+'
+Testing
+for
+mach
+core
+'
+20
+)
+        
+m
+.
 populate_context_handler
 =
 context_handler
         
 if
-provider_file
+provider_files
 :
             
+if
+isinstance
+(
+provider_files
+six
+.
+string_types
+)
+:
+                
+provider_files
+=
+[
+provider_files
+]
+            
+for
+path
+in
+provider_files
+:
+                
 m
 .
 load_commands_from_file
@@ -145,7 +189,7 @@ join
 cls
 .
 provider_dir
-provider_file
+path
 )
 )
         
