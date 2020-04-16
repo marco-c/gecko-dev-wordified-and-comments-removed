@@ -973,6 +973,9 @@ sections
 )
 filterText
 targetSearchResult
+defaultSelectFirstNode
+:
+false
 }
 header
 :
@@ -1082,6 +1085,9 @@ json
 )
 filterText
 targetSearchResult
+defaultSelectFirstNode
+:
+false
 }
 header
 :
