@@ -37,6 +37,13 @@ h
 #
 include
 "
+nsStringIterator
+.
+h
+"
+#
+include
+"
 nsCharTraits
 .
 h
@@ -66,8 +73,9 @@ char_type
 nsTStringComparator
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 operator
@@ -112,8 +120,9 @@ char_type
 nsTDefaultStringComparator
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 operator
