@@ -224,6 +224,25 @@ debug
 5
 )
 )
+register_strategy
+(
+"
+bugbug
+-
+reduced
+"
+args
+=
+(
+platform
+.
+all
+0
+.
+7
+True
+)
+)
 class
 BugBugPushSchedules
 (
@@ -303,6 +322,9 @@ __init__
 self
 filterfn
 confidence_threshold
+use_reduced_tasks
+=
+False
 )
 :
         
@@ -317,6 +339,12 @@ self
 confidence_threshold
 =
 confidence_threshold
+        
+self
+.
+use_reduced_tasks
+=
+use_reduced_tasks
     
 memoized_property
     
@@ -633,13 +661,20 @@ confidence_threshold
         
 )
         
+if
+not
+self
+.
+use_reduced_tasks
+:
+            
 tasks
 =
 set
 (
-            
+                
 task
-            
+                
 for
 task
 confidence
@@ -658,7 +693,7 @@ tasks
 items
 (
 )
-            
+                
 if
 confidence
 >
@@ -666,7 +701,46 @@ confidence
 self
 .
 confidence_threshold
+            
+)
         
+else
+:
+            
+tasks
+=
+set
+(
+                
+task
+                
+for
+task
+confidence
+in
+data
+.
+get
+(
+'
+reduced_tasks
+'
+{
+}
+)
+.
+items
+(
+)
+                
+if
+confidence
+>
+=
+self
+.
+confidence_threshold
+            
 )
         
 test_manifests
@@ -686,6 +760,10 @@ if
 test_manifests
 is
 None
+or
+self
+.
+use_reduced_tasks
 :
             
 if
