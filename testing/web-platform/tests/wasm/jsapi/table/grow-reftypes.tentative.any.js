@@ -26,7 +26,6 @@ kSig_v_v
 addBody
 (
 [
-kExprEnd
 ]
 )
 .
