@@ -2865,8 +2865,6 @@ filter_
 (
 callback_context_
 exinfo
-&
-addr_info
 assertion
 )
 )
