@@ -55,6 +55,9 @@ mStatus
 ScrollableLayerGuid
 mTargetGuid
 ;
+bool
+mTargetIsRoot
+;
 uint64_t
 mInputBlockId
 ;

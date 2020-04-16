@@ -134,6 +134,10 @@ mStatus
 (
 nsEventStatus_eIgnore
 )
+mTargetIsRoot
+(
+false
+)
 mInputBlockId
 (
 InputBlockState
