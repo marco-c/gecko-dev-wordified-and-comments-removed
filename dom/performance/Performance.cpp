@@ -464,6 +464,15 @@ NowUnclamped
 (
 )
 ;
+if
+(
+mSystemPrincipal
+)
+{
+return
+rawTime
+;
+}
 return
 nsRFPService
 :
