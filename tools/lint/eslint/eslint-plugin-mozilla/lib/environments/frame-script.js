@@ -83,6 +83,9 @@ false
 RPMSendAsyncMessage
 :
 false
+RPMSendQuery
+:
+false
 RPMAddMessageListener
 :
 false

@@ -1365,6 +1365,11 @@ PromiseUtils
 jsm
 '
 '
+RemotePageAccessManager
+.
+jsm
+'
+'
 RemoteSecurityUI
 .
 jsm
