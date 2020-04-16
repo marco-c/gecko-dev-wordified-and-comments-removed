@@ -320,6 +320,17 @@ inl
 .
 h
 "
+#
+include
+"
+vm
+/
+ObjectGroup
+-
+inl
+.
+h
+"
 using
 namespace
 js
