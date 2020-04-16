@@ -1842,6 +1842,16 @@ FuncImportTls
 realm
 )
 )
+size_of_wasm_frame
+(
+sizeof
+(
+wasm
+:
+:
+Frame
+)
+)
 {
 }
 static
