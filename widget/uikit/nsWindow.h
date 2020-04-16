@@ -56,8 +56,12 @@ NS_INLINE_DECL_REFCOUNTING_INHERITED
 nsWindow
 Inherited
 )
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 Create
 (
