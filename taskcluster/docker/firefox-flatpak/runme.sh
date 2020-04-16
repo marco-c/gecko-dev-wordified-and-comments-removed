@@ -1514,6 +1514,12 @@ pulseaudio
 \
 -
 -
+socket
+=
+pcsc
+\
+-
+-
 persist
 =
 .
