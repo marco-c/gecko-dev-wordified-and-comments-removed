@@ -2501,10 +2501,6 @@ AppendElement
 aFunc
 )
 ;
-LaunchSocketProcess
-(
-)
-;
 }
 }
 int32_t
