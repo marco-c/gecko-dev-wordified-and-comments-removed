@@ -3644,8 +3644,6 @@ RoundsWidgetCoordinatesTo
 )
 ;
 }
-else
-{
 NS_WARNING
 (
 "
@@ -3656,7 +3654,6 @@ parent
 "
 )
 ;
-}
 }
 }
 else
