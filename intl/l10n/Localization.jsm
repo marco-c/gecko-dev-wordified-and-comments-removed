@@ -810,6 +810,11 @@ keys
 .
 length
 )
+.
+fill
+(
+null
+)
 ;
 let
 hasAtLeastOneBundle
@@ -1001,6 +1006,11 @@ Array
 keys
 .
 length
+)
+.
+fill
+(
+null
 )
 ;
 let
@@ -1682,7 +1692,7 @@ i
 !
 =
 =
-undefined
+null
 )
 {
 return
