@@ -160,12 +160,12 @@ tabIndex
 0
 |
 |
-HasAttr
+GetTabIndexAttrValue
 (
-nsGkAtoms
-:
-:
-tabindex
+)
+.
+isSome
+(
 )
 ;
 return

@@ -3990,12 +3990,12 @@ uri
 )
 {
 return
-HasAttr
+GetTabIndexAttrValue
 (
-nsGkAtoms
-:
-:
-tabindex
+)
+.
+isSome
+(
 )
 ;
 }

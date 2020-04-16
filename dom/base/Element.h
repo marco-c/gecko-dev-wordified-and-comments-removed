@@ -727,6 +727,14 @@ TabIndex
 (
 )
 ;
+Maybe
+<
+int32_t
+>
+GetTabIndexAttrValue
+(
+)
+;
 void
 SetTabIndex
 (
