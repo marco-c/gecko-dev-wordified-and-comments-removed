@@ -81,6 +81,13 @@ h
 #
 include
 "
+nsXULAppAPI
+.
+h
+"
+#
+include
+"
 RecordingTypes
 .
 h
