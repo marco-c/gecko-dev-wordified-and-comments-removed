@@ -50485,7 +50485,7 @@ Lt
 callVM
 <
 Fn
-jit
+js
 :
 :
 LessThan
@@ -50505,7 +50505,7 @@ Le
 callVM
 <
 Fn
-jit
+js
 :
 :
 LessThanOrEqual
@@ -50525,7 +50525,7 @@ Gt
 callVM
 <
 Fn
-jit
+js
 :
 :
 GreaterThan
@@ -50545,7 +50545,7 @@ Ge
 callVM
 <
 Fn
-jit
+js
 :
 :
 GreaterThanOrEqual
