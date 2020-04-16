@@ -20417,7 +20417,7 @@ JSContext
 cx
 uint32_t
 length
-JSObject
+ArrayObject
 *
 templateObject
 )
@@ -20478,13 +20478,6 @@ cx
 templateObject
 -
 >
-as
-<
-ArrayObject
->
-(
-)
-.
 lastProperty
 (
 )

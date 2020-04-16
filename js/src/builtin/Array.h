@@ -34,7 +34,7 @@ include
 "
 vm
 /
-ArrayObject
+JSObject
 .
 h
 "
@@ -43,13 +43,16 @@ include
 "
 vm
 /
-JSObject
+NativeObject
 .
 h
 "
 namespace
 js
 {
+class
+ArrayObject
+;
 const
 uint32_t
 MAX_ARRAY_INDEX
@@ -267,7 +270,7 @@ JSContext
 cx
 uint32_t
 length
-JSObject
+ArrayObject
 *
 templateObject
 )
