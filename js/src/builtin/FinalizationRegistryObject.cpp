@@ -562,14 +562,14 @@ registry
 }
 const
 JSClass
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 class_
 =
 {
 "
-FinalizationRecordVector
+FinalizationRegistrations
 "
 JSCLASS_HAS_RESERVED_SLOTS
 (
@@ -584,7 +584,7 @@ JS_NULL_CLASS_SPEC
 ;
 const
 JSClassOps
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 classOps_
@@ -596,7 +596,7 @@ nullptr
 nullptr
 nullptr
 nullptr
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 finalize
@@ -606,9 +606,9 @@ nullptr
 nullptr
 }
 ;
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 *
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 create
@@ -652,7 +652,7 @@ object
 =
 NewObjectWithNullTaggedProto
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 cx
@@ -688,7 +688,7 @@ object
 ;
 }
 void
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 finalize
@@ -710,7 +710,7 @@ obj
 >
 as
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 )
@@ -735,9 +735,9 @@ FinalizationRecordVector
 ;
 }
 inline
-FinalizationRecordVector
+WeakFinalizationRecordVector
 *
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 records
@@ -747,7 +747,7 @@ records
 return
 static_cast
 <
-FinalizationRecordVector
+WeakFinalizationRecordVector
 *
 >
 (
@@ -759,9 +759,9 @@ privatePtr
 }
 inline
 const
-FinalizationRecordVector
+WeakFinalizationRecordVector
 *
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 records
@@ -773,7 +773,7 @@ return
 static_cast
 <
 const
-FinalizationRecordVector
+WeakFinalizationRecordVector
 *
 >
 (
@@ -786,7 +786,7 @@ privatePtr
 inline
 void
 *
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 privatePtr
@@ -836,7 +836,7 @@ ptr
 }
 inline
 bool
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 isEmpty
@@ -864,7 +864,7 @@ empty
 }
 inline
 bool
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 append
@@ -894,7 +894,7 @@ record
 }
 inline
 void
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 remove
@@ -923,7 +923,7 @@ record
 }
 inline
 void
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 sweep
@@ -1610,7 +1610,7 @@ toObject
 .
 as
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 )
@@ -2768,7 +2768,7 @@ registrations
 ;
 Rooted
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 *
 >
 recordsObject
@@ -2800,7 +2800,7 @@ obj
 >
 as
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 )
@@ -2810,7 +2810,7 @@ else
 {
 recordsObject
 =
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 :
 :
 create
@@ -2937,7 +2937,7 @@ obj
 >
 as
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 )
@@ -3165,7 +3165,7 @@ obj
 >
 as
 <
-FinalizationRecordVectorObject
+FinalizationRegistrationsObject
 >
 (
 )
