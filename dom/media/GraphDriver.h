@@ -88,6 +88,13 @@ h
 "
 #
 include
+"
+WavDumper
+.
+h
+"
+#
+include
 <
 thread
 >
@@ -2302,6 +2309,12 @@ mNeedsPanning
 ;
 #
 endif
+WavDumper
+mInputStreamFile
+;
+WavDumper
+mOutputStreamFile
+;
 virtual
 ~
 AudioCallbackDriver
