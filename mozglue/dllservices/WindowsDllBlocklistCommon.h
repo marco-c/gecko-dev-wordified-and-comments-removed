@@ -73,6 +73,12 @@ BROWSER_PROCESS_ONLY
 <
 <
 4
+REDIRECT_TO_NOOP_ENTRYPOINT
+=
+1
+<
+<
+5
 }
 mFlags
 ;
