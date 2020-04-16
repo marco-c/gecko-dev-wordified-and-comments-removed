@@ -929,15 +929,6 @@ nsAString
 aIntegrity
 )
 {
-MOZ_ASSERT
-(
-mIntegrity
-.
-IsEmpty
-(
-)
-)
-;
 mIntegrity
 .
 Assign
