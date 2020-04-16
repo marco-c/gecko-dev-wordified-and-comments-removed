@@ -4,6 +4,11 @@ gfx_src_gfxTelemetry_h__
 #
 define
 gfx_src_gfxTelemetry_h__
+#
+include
+<
+cstdint
+>
 namespace
 mozilla
 {

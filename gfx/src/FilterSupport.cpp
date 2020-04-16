@@ -80,6 +80,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 gfx2DGlue
 .
 h

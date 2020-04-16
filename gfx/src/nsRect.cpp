@@ -51,6 +51,9 @@ static_assert
 (
 int
 (
+mozilla
+:
+:
 eSideTop
 )
 =
@@ -62,6 +65,9 @@ eSideTop
 (
 int
 (
+mozilla
+:
+:
 eSideRight
 )
 =
@@ -73,6 +79,9 @@ eSideRight
 (
 int
 (
+mozilla
+:
+:
 eSideBottom
 )
 =
@@ -84,6 +93,9 @@ eSideBottom
 (
 int
 (
+mozilla
+:
+:
 eSideLeft
 )
 =
