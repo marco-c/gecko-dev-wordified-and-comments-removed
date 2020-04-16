@@ -2870,6 +2870,16 @@ editorMode
 {
 this
 .
+props
+.
+terminalInputChanged
+(
+"
+"
+)
+;
+this
+.
 _setValue
 (
 "
