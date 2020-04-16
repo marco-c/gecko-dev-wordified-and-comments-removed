@@ -322,14 +322,10 @@ WordLock
 {
 pub
 const
-fn
-new
-(
-)
--
->
-Self
-{
+INIT
+:
+WordLock
+=
 WordLock
 {
 state
@@ -342,7 +338,7 @@ new
 0
 )
 }
-}
+;
 #
 [
 inline
