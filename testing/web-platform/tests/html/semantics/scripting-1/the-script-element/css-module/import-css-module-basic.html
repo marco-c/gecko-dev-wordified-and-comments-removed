@@ -214,9 +214,7 @@ iframe
 contentDocument
 .
 load_error
-"
-NotAllowedError
-"
+undefined
 )
 ;
 assert_not_equals
@@ -276,6 +274,12 @@ Module
 should
 not
 load
+but
+should
+not
+throw
+an
+exception
 "
 )
 ;
