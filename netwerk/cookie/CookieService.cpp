@@ -270,7 +270,13 @@ Web
 /
 HTTP
 /
-Cookies
+Headers
+/
+Set
+-
+Cookie
+/
+SameSite
 "
 )
 ;
