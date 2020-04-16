@@ -782,6 +782,9 @@ ReduceTimePrecisionAsUSecsWrapper
 (
 double
 aTime
+JSContext
+*
+aCx
 )
 ;
 static

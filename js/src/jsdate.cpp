@@ -6499,6 +6499,7 @@ now
 sReduceMicrosecondTimePrecisionCallback
 (
 now
+cx
 )
 ;
 }

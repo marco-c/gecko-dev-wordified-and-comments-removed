@@ -379,6 +379,8 @@ double
 )
 (
 double
+JSContext
+*
 )
 ;
 JS_PUBLIC_API
