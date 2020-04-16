@@ -6944,6 +6944,11 @@ aInit
 false
 )
 ;
+Manager
+(
+)
+-
+>
 BindPWindowGlobalEndpoint
 (
 std
@@ -6962,6 +6967,7 @@ wgp
 Init
 (
 aInit
+this
 )
 ;
 return

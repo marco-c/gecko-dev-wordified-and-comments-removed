@@ -360,6 +360,9 @@ aWindow
 void
 Init
 (
+BrowserChild
+*
+aBrowserChild
 )
 ;
 void
@@ -594,6 +597,12 @@ dom
 WindowContext
 >
 mWindowContext
+;
+RefPtr
+<
+BrowserChild
+>
+mBrowserChild
 ;
 nsRefPtrHashtable
 <

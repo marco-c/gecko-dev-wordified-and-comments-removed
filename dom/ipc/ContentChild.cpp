@@ -5542,9 +5542,6 @@ PWindowGlobalParent
 >
 windowParentEp
 =
-newChild
--
->
 OpenPWindowGlobalEndpoint
 (
 windowChild
@@ -5606,6 +5603,7 @@ windowChild
 >
 Init
 (
+newChild
 )
 ;
 nsPIDOMWindowOuter
@@ -9525,9 +9523,6 @@ if
 NS_WARN_IF
 (
 !
-browserChild
--
->
 BindPWindowGlobalEndpoint
 (
 std
@@ -9558,6 +9553,7 @@ windowChild
 >
 Init
 (
+browserChild
 )
 ;
 if
