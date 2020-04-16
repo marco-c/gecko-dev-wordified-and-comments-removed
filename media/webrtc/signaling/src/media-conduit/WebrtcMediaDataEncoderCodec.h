@@ -296,6 +296,13 @@ TaskQueue
 mTaskQueue
 ;
 const
+nsCOMPtr
+<
+nsIEventTarget
+>
+mTaskQueueEventTarget
+;
+const
 RefPtr
 <
 PEMFactory
