@@ -695,6 +695,28 @@ wait_for_quit
 (
 )
                     
+if
+not
+self
+.
+control_server
+.
+is_webextension_loaded
+:
+                        
+raise
+RuntimeError
+(
+"
+Connection
+to
+Raptor
+webextension
+failed
+!
+"
+)
+                    
 raise
 RuntimeError
 (
@@ -1164,6 +1186,15 @@ self
 webext_id
 =
 None
+        
+self
+.
+control_server
+.
+startup_handler
+(
+False
+)
     
 def
 remove_raptor_webext
