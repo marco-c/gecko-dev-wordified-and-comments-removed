@@ -3336,6 +3336,9 @@ dispatch
 registerTarget
 (
 targetFront
+this
+.
+targetList
 )
 )
 ;
