@@ -30367,7 +30367,7 @@ NewInit
 ;
 obj
 =
-NewBuiltinClassInstance
+NewBuiltinClassInstanceWithKind
 <
 PlainObject
 >
