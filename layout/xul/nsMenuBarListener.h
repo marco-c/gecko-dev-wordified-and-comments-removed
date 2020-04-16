@@ -92,12 +92,6 @@ OnDestroyMenuBarFrame
 )
 ;
 static
-void
-InitializeStatics
-(
-)
-;
-static
 nsresult
 GetMenuAccessKey
 (
@@ -327,10 +321,6 @@ mAccessKeyDown
 ;
 bool
 mAccessKeyDownCanceled
-;
-static
-bool
-mAccessKeyFocuses
 ;
 static
 int32_t
