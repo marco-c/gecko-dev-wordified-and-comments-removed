@@ -1775,7 +1775,7 @@ if
 result_
 )
 {
-free_smoosh
+smoosh_free
 (
 *
 result_
@@ -1824,7 +1824,7 @@ if
 result_
 )
 {
-free_smoosh_parse_result
+smoosh_free_parse_result
 (
 *
 result_
@@ -1839,7 +1839,7 @@ InitSmoosh
 (
 )
 {
-init_smoosh
+smoosh_init
 (
 )
 ;
@@ -1973,7 +1973,7 @@ noScriptRval
 SmooshResult
 smoosh
 =
-run_smoosh
+smoosh_run
 (
 bytes
 length
@@ -2577,7 +2577,7 @@ length
 SmooshParseResult
 result
 =
-test_parse_script
+smoosh_test_parse_script
 (
 bytes
 length
@@ -2651,7 +2651,7 @@ length
 SmooshParseResult
 result
 =
-test_parse_module
+smoosh_test_parse_module
 (
 bytes
 length

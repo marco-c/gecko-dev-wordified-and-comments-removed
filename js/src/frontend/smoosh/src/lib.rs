@@ -1302,7 +1302,7 @@ extern
 C
 "
 fn
-init_smoosh
+smoosh_init
 (
 )
 {
@@ -1361,7 +1361,7 @@ extern
 C
 "
 fn
-run_smoosh
+smoosh_run
 (
 text
 :
@@ -2119,7 +2119,7 @@ extern
 C
 "
 fn
-test_parse_script
+smoosh_test_parse_script
 (
 text
 :
@@ -2294,7 +2294,7 @@ extern
 C
 "
 fn
-test_parse_module
+smoosh_test_parse_module
 (
 text
 :
@@ -2469,7 +2469,7 @@ extern
 C
 "
 fn
-free_smoosh_parse_result
+smoosh_free_parse_result
 (
 result
 :
@@ -2735,7 +2735,7 @@ extern
 C
 "
 fn
-free_smoosh
+smoosh_free
 (
 result
 :
