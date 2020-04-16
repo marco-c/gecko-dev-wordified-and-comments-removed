@@ -2966,9 +2966,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 GetInlineStyles
 (
-nsINode
+nsIContent
 &
-aNode
+aContent
 AutoStyleCacheArray
 &
 aStyleCacheArray
@@ -2983,9 +2983,9 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 CacheInlineStyles
 (
-nsINode
+nsIContent
 &
-aNode
+aContent
 )
 ;
 [
