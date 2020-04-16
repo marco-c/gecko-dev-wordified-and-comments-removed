@@ -256,13 +256,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIMutableArray
 .
 h
