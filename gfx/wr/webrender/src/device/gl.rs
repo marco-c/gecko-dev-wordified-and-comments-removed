@@ -3476,6 +3476,8 @@ write
 (
 device
 .
+capabilities
+.
 renderer_name
 .
 as_bytes
@@ -4442,6 +4444,10 @@ pub
 supports_texture_usage
 :
 bool
+pub
+renderer_name
+:
+String
 }
 #
 [
@@ -4658,9 +4664,6 @@ i32
 max_texture_layers
 :
 u32
-renderer_name
-:
-String
 cached_programs
 :
 Option
@@ -6562,6 +6565,7 @@ supports_khr_debug
 supports_texture_swizzle
 supports_nonzero_pbo_offsets
 supports_texture_usage
+renderer_name
 }
 color_formats
 bgra_formats
@@ -6628,7 +6632,6 @@ depth_available
 true
 max_texture_size
 max_texture_layers
-renderer_name
 cached_programs
 frame_id
 :
@@ -9170,6 +9173,8 @@ info
 .
 base_filename
 self
+.
+capabilities
 .
 renderer_name
 error_log
