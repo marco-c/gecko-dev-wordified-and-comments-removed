@@ -6912,9 +6912,9 @@ profiling
 -
 browsertime
 -
-benchmark
--
 speedometer
+-
+mobile
 android
 -
 hw
@@ -6936,9 +6936,9 @@ profiling
 -
 browsertime
 -
-benchmark
--
 speedometer
+-
+mobile
 linux
 -
 tsan
