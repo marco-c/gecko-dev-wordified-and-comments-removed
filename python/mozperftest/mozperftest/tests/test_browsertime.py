@@ -138,17 +138,12 @@ run_process
 _run_process
     
 metadata
-[
-"
-mach_args
-"
-]
-=
-{
+.
+set_arg
+(
 "
 tests
 "
-:
 [
 os
 .
@@ -164,7 +159,7 @@ js
 "
 )
 ]
-}
+)
     
 try
 :

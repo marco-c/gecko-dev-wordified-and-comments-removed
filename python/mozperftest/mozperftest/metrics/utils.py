@@ -86,6 +86,17 @@ type
 "
 "
     
+print
+(
+"
+Reading
+%
+s
+"
+%
+path
+)
+    
 with
 open
 (

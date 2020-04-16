@@ -73,9 +73,6 @@ prefix
 =
 "
 "
-*
-*
-kwargs
 )
 :
         
@@ -495,6 +492,22 @@ files
 else
 :
                 
+if
+str
+(
+p
+)
+.
+endswith
+(
+"
+browsertime
+.
+json
+"
+)
+:
+                    
 res
 .
 append

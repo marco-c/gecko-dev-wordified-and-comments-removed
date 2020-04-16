@@ -4,6 +4,12 @@ from
 mock
 import
 MagicMock
+from
+mozperftest
+.
+metadata
+import
+Metadata
 def
 get_running_env
 (
@@ -78,25 +84,13 @@ mkdtemp
     
 metadata
 =
-{
-"
+Metadata
+(
 mach_cmd
 "
-:
-mach_cmd
+script
 "
-browser
-"
-:
-{
-"
-prefs
-"
-:
-{
-}
-}
-}
+)
     
 return
 mach_cmd

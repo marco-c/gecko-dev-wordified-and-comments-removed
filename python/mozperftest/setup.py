@@ -71,7 +71,6 @@ command
 classifiers
 =
 [
-        
 "
 Programming
 Language
@@ -84,7 +83,6 @@ Python
 .
 6
 "
-    
 ]
     
 keywords
