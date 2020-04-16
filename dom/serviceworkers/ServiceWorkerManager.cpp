@@ -13,13 +13,6 @@ algorithm
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIEffectiveTLDService
 .
 h
