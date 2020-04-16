@@ -3378,7 +3378,7 @@ entries
 it
 creates
 .
-Exec
+ExecWait
 '
 "
 INSTDIR
