@@ -283,6 +283,15 @@ GetEmbedderWindowGlobal
 )
 const
 ;
+already_AddRefed
+<
+WindowGlobalParent
+>
+GetParentWindowGlobal
+(
+)
+const
+;
 nsISHistory
 *
 GetSessionHistory

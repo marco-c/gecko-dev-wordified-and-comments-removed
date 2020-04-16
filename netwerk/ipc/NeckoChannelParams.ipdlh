@@ -916,9 +916,6 @@ DocumentChannelCreationArgs
 DocShellLoadStateInit
 loadState
 ;
-LoadInfoArgs
-loadInfo
-;
 TimeStamp
 asyncOpenTime
 ;
