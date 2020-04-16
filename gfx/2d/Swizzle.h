@@ -122,6 +122,16 @@ aDstFormat
 ;
 GFX2D_API
 SwizzleRowFn
+UnpremultiplyRow
+(
+SurfaceFormat
+aSrcFormat
+SurfaceFormat
+aDstFormat
+)
+;
+GFX2D_API
+SwizzleRowFn
 SwizzleRow
 (
 SurfaceFormat
