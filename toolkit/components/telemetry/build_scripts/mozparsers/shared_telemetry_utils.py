@@ -3,13 +3,11 @@ __future__
 import
 print_function
 import
-os
-import
 re
 import
-sys
-import
 yaml
+import
+sys
 KNOWN_PROCESS_FLAGS
 =
 {
@@ -394,14 +392,11 @@ file
 sys
 .
 stderr
-flush
-=
-True
 )
         
-os
+sys
 .
-_exit
+exit
 (
 1
 )
