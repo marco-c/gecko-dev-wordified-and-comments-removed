@@ -2683,7 +2683,7 @@ BuildOverscrollHandoffChain
 ;
 private
 :
-void
+bool
 CallDispatchScroll
 (
 ParentLayerPoint

@@ -12127,7 +12127,7 @@ return
 true
 ;
 }
-void
+bool
 APZCTreeManager
 :
 :
@@ -12182,6 +12182,7 @@ Length
 )
 {
 return
+false
 ;
 }
 next
@@ -12210,6 +12211,7 @@ IsDestroyed
 )
 {
 return
+false
 ;
 }
 if
@@ -12226,6 +12228,7 @@ aEndPoint
 )
 {
 return
+false
 ;
 }
 if
@@ -12269,7 +12272,13 @@ dispatch
 )
 ;
 }
+return
+false
+;
 }
+return
+true
+;
 }
 ParentLayerPoint
 APZCTreeManager

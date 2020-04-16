@@ -593,12 +593,12 @@ aValues
 )
 override
 ;
-void
+bool
 DispatchScroll
 (
 AsyncPanZoomController
 *
-aApzc
+aPrev
 ParentLayerPoint
 &
 aStartPoint
