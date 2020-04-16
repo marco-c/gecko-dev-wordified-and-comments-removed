@@ -7376,6 +7376,14 @@ isPositionValid
 false
 ;
 }
+controllerState
+.
+targetRayPose
+=
+controllerState
+.
+pose
+;
 }
 }
 }

@@ -185,6 +185,11 @@ XRNativeOriginLocalFloor
 cpp
 '
 '
+XRNativeOriginTracker
+.
+cpp
+'
+'
 XRNativeOriginViewer
 .
 cpp
