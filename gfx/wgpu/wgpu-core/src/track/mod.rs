@@ -343,7 +343,6 @@ Epoch
 derive
 (
 Debug
-PartialEq
 )
 ]
 pub
