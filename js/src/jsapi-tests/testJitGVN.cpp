@@ -2240,6 +2240,10 @@ func
 alloc
 phi0
 phi1
+MIRType
+:
+:
+Int32
 )
 ;
 MConstant
@@ -2274,6 +2278,10 @@ func
 alloc
 phi2
 phi3
+MIRType
+:
+:
+Int32
 )
 ;
 MConstant
