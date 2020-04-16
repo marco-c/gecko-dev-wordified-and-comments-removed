@@ -149,6 +149,7 @@ Cleanup
 (
 )
 ;
+const
 RefPtr
 <
 WebGPUChild

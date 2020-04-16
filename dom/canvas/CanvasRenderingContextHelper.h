@@ -64,7 +64,6 @@ NoContext
 Canvas2D
 WebGL1
 WebGL2
-WebGPU
 ImageBitmap
 }
 ;

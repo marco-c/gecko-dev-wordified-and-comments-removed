@@ -86,16 +86,6 @@ GPUTextureDescriptor
 aDesc
 )
 ;
-Device
-*
-GetParentDevice
-(
-)
-{
-return
-mParent
-;
-}
 const
 RawId
 mId
