@@ -2934,13 +2934,6 @@ AllowScriptsToClose
 )
 ;
 async
-SetOriginAttributes
-(
-OriginAttributes
-aOriginAttributes
-)
-;
-async
 SetWidgetNativeData
 (
 WindowsHandle
