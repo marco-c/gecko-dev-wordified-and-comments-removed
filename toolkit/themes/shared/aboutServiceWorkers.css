@@ -61,7 +61,11 @@ top
 :
 0
 ;
-left
+inset
+-
+inline
+-
+start
 :
 0
 ;
@@ -134,7 +138,9 @@ Field
 ;
 margin
 -
-left
+inline
+-
+start
 :
 auto
 ;
