@@ -2870,7 +2870,13 @@ FunctionScriptEmitter
 initScript
 (
 const
+mozilla
+:
+:
+Maybe
+<
 FieldInitializers
+>
 &
 fieldInitializers
 )
@@ -2958,6 +2964,11 @@ return
 false
 ;
 }
+if
+(
+fieldInitializers
+)
+{
 bce_
 -
 >
@@ -2966,9 +2977,11 @@ script
 >
 setFieldInitializers
 (
+*
 fieldInitializers
 )
 ;
+}
 #
 ifdef
 DEBUG
