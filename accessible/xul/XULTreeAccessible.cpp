@@ -4424,6 +4424,10 @@ nsCoreUtils
 GetFirstSensibleColumn
 (
 mTree
+FlushType
+:
+:
+None
 )
 ;
 GetCellName

@@ -171,6 +171,12 @@ nsTreeColumns
 >
 GetColumns
 (
+FlushType
+=
+FlushType
+:
+:
+Frames
 )
 ;
 already_AddRefed
