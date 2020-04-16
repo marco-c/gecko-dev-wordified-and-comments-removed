@@ -2432,6 +2432,7 @@ PIMAGE_RESOURCE_DIRECTORY
 GetResourceTable
 (
 )
+const
 {
 return
 GetImageDirectoryEntry
@@ -2562,6 +2563,7 @@ uint64_t
 &
 aOutVersion
 )
+const
 {
 auto
 root
@@ -2647,6 +2649,7 @@ DWORD
 &
 aResult
 )
+const
 {
 if
 (
@@ -2945,6 +2948,7 @@ aLangId
 =
 0
 )
+const
 {
 PIMAGE_RESOURCE_DIRECTORY
 topLevel
@@ -3429,6 +3433,7 @@ const
 uint32_t
 aDirectoryIndex
 )
+const
 {
 PIMAGE_DATA_DIRECTORY
 dirEntry
@@ -3586,6 +3591,7 @@ aCurLevel
 WORD
 aId
 )
+const
 {
 auto
 dirEnt
@@ -3656,6 +3662,7 @@ FindFirstResourceEntry
 PIMAGE_RESOURCE_DIRECTORY
 aCurLevel
 )
+const
 {
 auto
 dirEnt
@@ -3705,6 +3712,7 @@ VS_VERSIONINFO_HEADER
 *
 aVerInfo
 )
+const
 {
 WORD
 length
