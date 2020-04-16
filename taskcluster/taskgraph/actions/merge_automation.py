@@ -82,7 +82,7 @@ symbol
 {
 input
 .
-merge_flavor
+behavior
 }
 "
     
@@ -210,7 +210,7 @@ False
 }
             
 "
-merge_flavor
+behavior
 "
 :
 {
@@ -229,7 +229,7 @@ description
 :
 "
 The
-flavor
+type
 of
 release
 promotion
@@ -254,7 +254,7 @@ automation
 ]
 [
 "
-flavors
+behaviors
 "
 ]
 .
@@ -444,7 +444,7 @@ required
 [
             
 "
-merge_flavor
+behavior
 "
         
 ]
@@ -512,13 +512,13 @@ False
 )
         
 "
-merge_flavor
+behavior
 "
 :
 input
 [
 "
-merge_flavor
+behavior
 "
 ]
     
