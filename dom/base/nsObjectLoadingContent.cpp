@@ -2578,7 +2578,6 @@ thisContent
 AsElement
 (
 )
-nullptr
 mNetworkCreated
 )
 ;
@@ -11552,7 +11551,6 @@ content
 AsElement
 (
 )
-nullptr
 false
 )
 ;

@@ -545,7 +545,6 @@ nsFrameLoader
 Create
 (
 this
-mOpenerWindow
 mNetworkCreated
 )
 ;
@@ -1674,7 +1673,6 @@ nsFrameLoader
 Create
 (
 dest
-nullptr
 false
 )
 ;
