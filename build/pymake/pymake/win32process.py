@@ -5,12 +5,12 @@ windll
 POINTER
 byref
 WinError
+WINFUNCTYPE
 from
 ctypes
 .
 wintypes
 import
-WINFUNCTYPE
 HANDLE
 DWORD
 BOOL

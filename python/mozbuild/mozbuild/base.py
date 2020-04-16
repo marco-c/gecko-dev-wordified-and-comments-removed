@@ -3753,6 +3753,7 @@ Structure
 windll
 POINTER
 sizeof
+WINFUNCTYPE
                 
 from
 ctypes
@@ -3761,7 +3762,6 @@ wintypes
 import
 DWORD
 HANDLE
-WINFUNCTYPE
 BOOL
 UINT
                 
