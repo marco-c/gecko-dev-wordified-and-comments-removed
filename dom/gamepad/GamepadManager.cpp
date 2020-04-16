@@ -136,13 +136,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsContentUtils
 .
 h
