@@ -7630,7 +7630,7 @@ RegExpStringIterator
 :
 resultObject
 =
-NewRegExpStringIteratorObject
+NewRegExpStringIterator
 (
 cx
 )
