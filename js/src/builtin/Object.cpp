@@ -10535,14 +10535,13 @@ RootedPlainObject
 objectProto
 (
 cx
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 <
 PlainObject
 >
 (
 cx
 nullptr
-SingletonObject
 )
 )
 ;
