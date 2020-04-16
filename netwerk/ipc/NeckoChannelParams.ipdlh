@@ -369,6 +369,9 @@ uint32_t
 httpsOnlyStatus
 ;
 bool
+allowDeprecatedSystemRequests
+;
+bool
 isFromProcessingFrameAttributes
 ;
 CookieJarSettingsArgs
@@ -407,6 +410,9 @@ skipContentSniffing
 ;
 uint32_t
 httpsOnlyStatus
+;
+bool
+allowDeprecatedSystemRequests
 ;
 bool
 serviceWorkerTaintingSynthesized

@@ -865,6 +865,13 @@ httpsOnlyStatus
 [
 infallible
 ]
+attribute
+boolean
+allowDeprecatedSystemRequests
+;
+[
+infallible
+]
 readonly
 attribute
 boolean
