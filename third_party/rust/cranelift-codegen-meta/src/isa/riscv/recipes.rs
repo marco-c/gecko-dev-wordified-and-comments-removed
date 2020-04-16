@@ -1164,6 +1164,12 @@ sink
 .
 reloc_external
 (
+func
+.
+srclocs
+[
+inst
+]
 Reloc
 :
 :

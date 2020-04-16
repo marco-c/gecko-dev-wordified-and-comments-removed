@@ -502,9 +502,6 @@ inline
 fn
 needs_rex
 (
-bits
-:
-u16
 rex
 :
 u8
@@ -517,22 +514,6 @@ rex
 !
 =
 BASE_REX
-|
-|
-EncodingBits
-:
-:
-from
-(
-bits
-)
-.
-rex_w
-(
-)
-=
-=
-1
 }
 fn
 rex_prefix
@@ -767,7 +748,6 @@ DynRexOp1
 if
 needs_rex
 (
-bits
 rex
 )
 {
@@ -973,7 +953,6 @@ DynRexOp2
 if
 needs_rex
 (
-bits
 rex
 )
 {
@@ -1467,7 +1446,6 @@ usize
 if
 needs_rex
 (
-bits
 rex
 )
 {
@@ -1813,7 +1791,6 @@ usize
 if
 needs_rex
 (
-bits
 rex
 )
 {

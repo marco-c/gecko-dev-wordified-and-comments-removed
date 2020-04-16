@@ -13,7 +13,7 @@ version
 "
 0
 .
-60
+62
 .
 0
 "
@@ -36,6 +36,21 @@ WebAssembly
 to
 Cranelift
 IR
+"
+documentation
+=
+"
+https
+:
+/
+/
+docs
+.
+rs
+/
+cranelift
+-
+wasm
 "
 repository
 =
@@ -138,7 +153,7 @@ version
 "
 0
 .
-60
+62
 .
 0
 "
@@ -166,7 +181,7 @@ version
 "
 0
 .
-60
+62
 .
 0
 "
@@ -189,7 +204,7 @@ version
 "
 0
 .
-60
+62
 .
 0
 "
