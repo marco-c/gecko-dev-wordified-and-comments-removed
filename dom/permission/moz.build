@@ -65,17 +65,6 @@ PermissionUtils
 cpp
 '
 ]
-LOCAL_INCLUDES
-+
-=
-[
-'
-/
-extensions
-/
-permissions
-'
-]
 MOCHITEST_MANIFESTS
 +
 =

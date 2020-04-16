@@ -60,14 +60,14 @@ class
 nsITimer
 ;
 class
-nsPermissionManager
-;
-class
 TemporaryAccessGrantCacheKey
 ;
 namespace
 mozilla
 {
+class
+PermissionManager
+;
 class
 TemporaryAccessGrantCacheKey
 :
@@ -311,7 +311,7 @@ static
 void
 Create
 (
-nsPermissionManager
+PermissionManager
 *
 aPM
 nsIPrincipal
@@ -335,7 +335,7 @@ private
 :
 TemporaryAccessGrantObserver
 (
-nsPermissionManager
+PermissionManager
 *
 aPM
 nsIPrincipal
@@ -382,7 +382,7 @@ mTimer
 ;
 RefPtr
 <
-nsPermissionManager
+PermissionManager
 >
 mPM
 ;

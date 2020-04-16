@@ -490,12 +490,6 @@ LOCAL_INCLUDES
 [
 '
 /
-extensions
-/
-permissions
-'
-'
-/
 js
 /
 xpconnect

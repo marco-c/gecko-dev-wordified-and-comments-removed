@@ -80,7 +80,7 @@ and
 15
 #
 See
-nsPermissionManager
+PermissionManager
 .
 cpp
 for
