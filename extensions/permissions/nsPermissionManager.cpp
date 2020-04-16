@@ -59,6 +59,15 @@ include
 "
 mozilla
 /
+Permission
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Services
 .
 h
@@ -67,13 +76,6 @@ h
 include
 "
 nsPermissionManager
-.
-h
-"
-#
-include
-"
-nsPermission
 .
 h
 "
@@ -9955,7 +9957,7 @@ nsIPermission
 >
 r
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -11003,7 +11005,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -11445,7 +11447,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -11508,7 +11510,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -12071,7 +12073,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
