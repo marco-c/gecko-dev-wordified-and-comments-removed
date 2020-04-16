@@ -461,6 +461,17 @@ mUseUrgentStartForChannel
 =
 mUseUrgentStartForChannel
 ;
+if
+(
+!
+mElement
+-
+>
+IsLazyLoading
+(
+)
+)
+{
 mElement
 -
 >
@@ -471,6 +482,7 @@ true
 mAlwaysLoad
 )
 ;
+}
 }
 mDocument
 -
