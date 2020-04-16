@@ -491,7 +491,7 @@ table
 -
 size
 "
-4096
+0
 )
 ;
 pref
