@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_Permission_h
+nsPermission_h__
 #
 define
-mozilla_Permission_h
+nsPermission_h__
 #
 include
 "
@@ -25,11 +25,8 @@ nsString
 .
 h
 "
-namespace
-mozilla
-{
 class
-Permission
+nsPermission
 :
 public
 nsIPermission
@@ -41,7 +38,7 @@ NS_DECL_NSIPERMISSION
 static
 already_AddRefed
 <
-Permission
+nsPermission
 >
 Create
 (
@@ -76,7 +73,7 @@ aPrincipal
 ;
 protected
 :
-Permission
+nsPermission
 (
 nsIPrincipal
 *
@@ -97,11 +94,11 @@ aModificationTime
 ;
 virtual
 ~
-Permission
+nsPermission
 (
 )
-=
-default
+{
+}
 ;
 nsCOMPtr
 <
@@ -126,6 +123,5 @@ mModificationTime
 ;
 }
 ;
-}
 #
 endif

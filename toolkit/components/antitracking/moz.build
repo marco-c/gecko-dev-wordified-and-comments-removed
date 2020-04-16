@@ -233,6 +233,12 @@ LOCAL_INCLUDES
 [
 '
 /
+extensions
+/
+permissions
+'
+'
+/
 netwerk
 /
 base
