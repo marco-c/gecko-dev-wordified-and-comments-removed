@@ -8102,17 +8102,6 @@ HandleObject
 stack
 )
 ;
-MOZ_MUST_USE
-JS_PUBLIC_API
-JSObject
-*
-GetPendingExceptionStack
-(
-JSContext
-*
-cx
-)
-;
 }
 extern
 JS_PUBLIC_API
