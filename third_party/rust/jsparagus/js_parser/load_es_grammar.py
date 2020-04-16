@@ -25,6 +25,7 @@ from
 jsparagus
 import
 gen
+grammar
 from
 .
 lexer
@@ -37,6 +38,10 @@ parse_esgrammar
 import
 parse_esgrammar
 ECMASCRIPT_LEXICAL_SYNTHETIC_TERMINALS
+:
+grammar
+.
+SyntheticTerminalsDict
 =
 {
     

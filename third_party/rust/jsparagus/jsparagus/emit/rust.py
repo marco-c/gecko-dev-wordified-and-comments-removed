@@ -20,8 +20,6 @@ import
 unicodedata
 import
 sys
-import
-itertools
 from
 .
 .
@@ -51,6 +49,7 @@ Nt
 InitNt
 Optional
 End
+                       
 ErrorSymbol
 )
 from
@@ -58,6 +57,7 @@ from
 .
 actions
 import
+(
 Action
 Reduce
 Lookahead
@@ -65,8 +65,10 @@ CheckNotOnNewLine
 FilterFlag
 PushFlag
 PopFlag
+                       
 FunCall
 Seq
+)
 from
 .
 .
@@ -2145,6 +2147,7 @@ shifted_edges
 num_shifted_edges
             
 except
+Exception
 :
                 
 print
@@ -4631,7 +4634,10 @@ value
 value
 "
                 
-try
+if
+value
+in
+is_packed
 :
                     
 packed
@@ -4641,7 +4647,7 @@ is_packed
 value
 ]
                 
-except
+else
 :
                     
 packed
@@ -4706,11 +4712,6 @@ value
 "
 value
 "
-                
-replay_list
-=
-[
-]
                 
 self
 .
@@ -5046,22 +5047,15 @@ val
 )
 :
                     
-try
-:
-                        
 packed
 =
 is_packed
-[
+.
+get
+(
 val
-]
-                    
-except
-:
-                        
-packed
-=
 True
+)
                     
 if
 packed
@@ -5638,6 +5632,7 @@ self
 write
 (
 0
+                       
 "
 pub
 fn
@@ -5658,6 +5653,9 @@ state
 :
 usize
 )
+"
+                       
+"
 -
 >
 Result
@@ -5873,6 +5871,9 @@ is_packed
 )
                     
 except
+Exception
+as
+exc
 :
                         
 print
@@ -5931,6 +5932,7 @@ n
 )
                         
 raise
+exc
                     
 if
 fallthrough
@@ -6658,6 +6660,7 @@ to_ast
 ?
 ;
 "
+                                           
 index
 rust_ty
 )

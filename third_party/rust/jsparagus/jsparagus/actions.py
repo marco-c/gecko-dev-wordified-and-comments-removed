@@ -9,6 +9,10 @@ grammar
 import
 InitNt
 Nt
+from
+.
+import
+types
 class
 Action
 :
@@ -1764,9 +1768,14 @@ args
                  
 trait
 =
+types
+.
+Type
+(
 "
 AstBuilder
 "
+)
                  
 fallible
 =

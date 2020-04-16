@@ -4,8 +4,6 @@ import
 os
 .
 path
-import
-datetime
 filename
 =
 '

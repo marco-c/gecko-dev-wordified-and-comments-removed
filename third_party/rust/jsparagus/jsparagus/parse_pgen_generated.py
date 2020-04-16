@@ -7,13 +7,16 @@ jsparagus
 .
 runtime
 import
+(
 Nt
 InitNt
 End
 ErrorToken
 StateTermValue
+                               
 ShiftError
 ShiftAccept
+)
 def
 state_43_actions
 (

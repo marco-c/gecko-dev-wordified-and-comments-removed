@@ -17,10 +17,7 @@ from
 .
 grammar
 import
-InitNt
-CallMethod
 Some
-is_concrete_element
 Nt
 ErrorSymbol
 from
@@ -28,6 +25,7 @@ from
 .
 actions
 import
+(
 Action
 Reduce
 Lookahead
@@ -35,14 +33,15 @@ CheckNotOnNewLine
 FilterFlag
 PushFlag
 PopFlag
+                       
 FunCall
 Seq
+)
 from
 .
 .
 runtime
 import
-SPECIAL_CASE_TAG
 ErrorToken
 from
 .
@@ -57,6 +56,22 @@ out
 parse_table
 )
 :
+    
+out
+.
+write
+(
+"
+#
+type
+:
+ignore
+\
+n
+\
+n
+"
+)
     
 out
 .
@@ -93,19 +108,27 @@ out
 .
 write
 (
+            
 "
 from
 jsparagus
 .
 runtime
 import
+(
 Nt
 InitNt
 End
 ErrorToken
 StateTermValue
+\
+n
+"
+            
+"
 ShiftError
 ShiftAccept
+)
 \
 n
 "
@@ -978,6 +1001,7 @@ term
 )
             
 except
+Exception
 :
                 
 print

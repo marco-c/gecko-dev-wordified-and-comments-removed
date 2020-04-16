@@ -1132,7 +1132,7 @@ pattern
 "
 :
 "
-SourceAtomSetIndex
+SourceSliceIndex
 "
 "
 global
@@ -1150,6 +1150,13 @@ bool
 "
 "
 multi_line
+"
+:
+"
+bool
+"
+"
+dot_all
 "
 :
 "

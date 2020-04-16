@@ -868,15 +868,9 @@ name
 )
     
 if
-isinstance
+callable
 (
 fix
-type
-(
-lambda
-:
-0
-)
 )
 :
         
@@ -2886,7 +2880,7 @@ element
 :
 "
 +
-child
+item
 .
 tag
 )
@@ -3281,8 +3275,8 @@ emu
 -
 alg
 '
-and
               
+and
 e
 .
 attrib
@@ -3649,9 +3643,6 @@ __name__
 __main__
 '
 :
-    
-import
-sys
     
 parser
 =

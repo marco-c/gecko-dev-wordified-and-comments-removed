@@ -75,6 +75,8 @@ init
 name
 :
 Build
+&
+Test
 run
 :
 RUSTFLAGS
@@ -84,13 +86,5 @@ RUSTFLAGS
 D
 warnings
 "
-make
-all
--
-name
-:
-Test
-run
-:
 make
 check
