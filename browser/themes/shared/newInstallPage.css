@@ -5,6 +5,7 @@ margin
 0
 0
 40px
+0
 ;
 }
 h3
@@ -27,6 +28,7 @@ margin
 0
 0
 20px
+0
 ;
 }
 #
@@ -43,6 +45,7 @@ margin
 40px
 auto
 0
+auto
 ;
 padding
 :
@@ -372,16 +375,16 @@ bottom
 :
 0
 ;
-margin
--
-inline
-:
-4px
-;
 text
 -
 align
 :
 start
+;
+margin
+-
+inline
+:
+4px
 ;
 }

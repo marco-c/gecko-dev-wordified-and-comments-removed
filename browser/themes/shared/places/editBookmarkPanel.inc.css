@@ -39,9 +39,7 @@ radius
 ;
 margin
 -
-inline
--
-end
+right
 :
 4px
 ;
@@ -244,6 +242,7 @@ margin
 6px
 8px
 0
+8px
 ;
 }
 #
@@ -514,10 +513,15 @@ start
 ;
 margin
 -
-block
+bottom
+:
+6px
+;
+margin
+-
+top
 :
 10px
-6px
 ;
 padding
 -
