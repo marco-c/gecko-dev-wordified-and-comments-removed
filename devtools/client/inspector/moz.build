@@ -132,11 +132,6 @@ panel
 js
 '
 '
-reducers
-.
-js
-'
-'
 store
 .
 js
