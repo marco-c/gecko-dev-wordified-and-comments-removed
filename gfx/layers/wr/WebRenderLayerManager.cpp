@@ -1636,11 +1636,6 @@ mWebRenderCommandBuilder
 .
 GetBuilderDumpIndex
 (
-builder
-.
-GetRenderRoot
-(
-)
 )
 ;
 containsSVGGroup
