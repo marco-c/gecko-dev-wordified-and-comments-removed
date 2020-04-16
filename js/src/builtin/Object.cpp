@@ -5177,7 +5177,7 @@ newKind
 ;
 }
 return
-NewObjectWithGivenProto
+NewObjectWithGivenProtoAndKinds
 <
 PlainObject
 >
