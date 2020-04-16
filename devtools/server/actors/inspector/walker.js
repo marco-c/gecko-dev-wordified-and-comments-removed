@@ -1692,9 +1692,6 @@ form
 traits
 :
 {
-retrieveNodeFromContentDomReference
-:
-true
 }
 }
 ;
