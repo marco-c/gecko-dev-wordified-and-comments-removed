@@ -18020,6 +18020,12 @@ mVideoCompleted
 =
 false
 ;
+if
+(
+!
+mIsMediaSinkSuspended
+)
+{
 StopMediaSink
 (
 )
@@ -18037,6 +18043,7 @@ CreateMediaSink
 (
 )
 ;
+}
 mAmpleAudioThreshold
 =
 mOutputCaptured
