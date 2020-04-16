@@ -362,16 +362,6 @@ true
 "
 update1
 .
-view
-.
-stripHttps
-"
-true
-]
-[
-"
-update1
-.
 searchTips
 "
 true
