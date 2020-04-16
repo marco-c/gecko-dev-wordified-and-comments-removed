@@ -4219,10 +4219,12 @@ MaybeDispatchSelectstartEvent
 (
 *
 aRange
-nsFrameSelection
+StaticPrefs
 :
 :
-sSelectionEventsOnTextControlsEnabled
+dom_select_events_textcontrols_enabled
+(
+)
 doc
 )
 ;

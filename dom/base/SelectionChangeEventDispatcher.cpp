@@ -574,10 +574,12 @@ return
 }
 if
 (
-nsFrameSelection
+StaticPrefs
 :
 :
-sSelectionEventsOnTextControlsEnabled
+dom_select_events_textcontrols_enabled
+(
+)
 )
 {
 nsCOMPtr
