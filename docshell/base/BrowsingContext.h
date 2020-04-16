@@ -2231,6 +2231,14 @@ aConsiderOpener
 true
 )
 ;
+bool
+IsSandboxedFrom
+(
+BrowsingContext
+*
+aTarget
+)
+;
 void
 AddDeprioritizedLoadRunner
 (
