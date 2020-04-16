@@ -2016,15 +2016,11 @@ fun
 &
 &
 /
-\
-(
+=
 js
 :
 :
-AllowGC
-\
-)
-0
+NoGC
 /
 .
 test
