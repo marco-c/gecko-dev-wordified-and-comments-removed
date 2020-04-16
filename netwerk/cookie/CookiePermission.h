@@ -1,9 +1,9 @@
 #
 ifndef
-nsCookiePermission_h__
+mozilla_net_CookiePermission_h
 #
 define
-nsCookiePermission_h__
+mozilla_net_CookiePermission_h
 #
 include
 "
@@ -18,8 +18,14 @@ nsPermissionManager
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+net
+{
 class
-nsCookiePermission
+CookiePermission
 final
 :
 public
@@ -46,7 +52,7 @@ Init
 private
 :
 ~
-nsCookiePermission
+CookiePermission
 (
 )
 =
@@ -80,5 +86,7 @@ mPermMgr
 ;
 }
 ;
+}
+}
 #
 endif
