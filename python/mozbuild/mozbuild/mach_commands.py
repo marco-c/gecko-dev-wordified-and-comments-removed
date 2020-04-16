@@ -4298,6 +4298,14 @@ args
 debugger
 debugger_args
 )
+            
+if
+not
+args
+:
+                
+return
+1
         
 gtest_env
 =
@@ -4869,6 +4877,10 @@ so
 "
 )
         
+exit_code
+=
+0
+        
 import
 imp
         
@@ -4940,6 +4952,8 @@ RemoteGTests
 (
 )
         
+if
+not
 tester
 .
 run_gtest
@@ -4950,12 +4964,17 @@ gtest_filter
 package
 adb_path
 device_serial
-                         
+                                
 remote_test_root
 libxul_path
 None
 enable_webrender
 )
+:
+            
+exit_code
+=
+1
         
 tester
 .
@@ -4964,7 +4983,7 @@ cleanup
 )
         
 return
-0
+exit_code
     
 def
 prepend_debugger_args
@@ -5082,12 +5101,15 @@ get_debugger_info
 debugger
 debugger_args
 )
-            
+        
 if
+not
+debugger
+or
 not
 debuggerInfo
 :
-                
+            
 print
 (
 "
@@ -5103,9 +5125,9 @@ PATH
 .
 "
 )
-                
+            
 return
-1
+None
         
 if
 debugger_args
@@ -5179,7 +5201,7 @@ char
 )
                 
 return
-1
+None
         
 args
 =
@@ -11623,6 +11645,14 @@ args
 debugger
 debugger_args
 )
+            
+if
+not
+args
+:
+                
+return
+1
         
 cwd
 =
