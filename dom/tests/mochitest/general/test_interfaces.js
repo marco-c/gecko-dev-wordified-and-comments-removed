@@ -907,9 +907,6 @@ AudioParamMap
 insecureContext
 :
 false
-nightly
-:
-true
 }
 {
 name
@@ -940,9 +937,6 @@ AudioWorklet
 insecureContext
 :
 false
-nightly
-:
-true
 }
 {
 name
@@ -953,9 +947,6 @@ AudioWorkletNode
 insecureContext
 :
 false
-nightly
-:
-true
 }
 {
 name
@@ -6705,9 +6696,6 @@ Worklet
 insecureContext
 :
 false
-nightly
-:
-true
 }
 {
 name
