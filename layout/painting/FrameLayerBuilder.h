@@ -1768,14 +1768,6 @@ DisplayItemData
 aItem
 )
 ;
-nsIntPoint
-GetLastPaintOffset
-(
-PaintedLayer
-*
-aLayer
-)
-;
 static
 gfxSize
 GetPaintedLayerScaleForFrame
