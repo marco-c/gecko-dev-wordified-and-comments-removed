@@ -29,6 +29,13 @@ h
 #
 include
 "
+OOPCanvasRenderer
+.
+h
+"
+#
+include
+"
 SharedSurface
 .
 h
