@@ -63,7 +63,6 @@ atomics
 )
 feature
 (
-checked_duration_since
 stdsimd
 )
 )
@@ -89,7 +88,6 @@ cloudabi
 feature
 (
 thread_local
-checked_duration_since
 )
 )
 ]
