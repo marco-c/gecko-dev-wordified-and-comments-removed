@@ -57,7 +57,11 @@ aMIMEInfo
 )
 override
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 OSProtocolHandlerExists
 (
