@@ -36,11 +36,13 @@ radius
 }
 xul
 |
-*
-.
 menulist
--
+:
+:
+part
+(
 dropmarker
+)
 {
 margin
 -
