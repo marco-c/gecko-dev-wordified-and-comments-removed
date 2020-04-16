@@ -240,7 +240,7 @@ login
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -314,7 +314,7 @@ abort
 )
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
@@ -412,7 +412,7 @@ await
 windowActivePromise
 ;
 await
-BrowserTestUtils
+TestUtils
 .
 waitForCondition
 (
