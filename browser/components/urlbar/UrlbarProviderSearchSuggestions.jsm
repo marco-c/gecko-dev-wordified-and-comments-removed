@@ -412,9 +412,6 @@ isActive
 queryContext
 )
 {
-return
-false
-;
 if
 (
 !
