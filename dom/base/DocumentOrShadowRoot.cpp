@@ -1813,7 +1813,7 @@ OwnerDoc
 )
 -
 >
-FullscreenStackTop
+GetUnretargetedFullScreenElement
 (
 )
 ;
