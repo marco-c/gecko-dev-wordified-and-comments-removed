@@ -1135,6 +1135,12 @@ f
 )
 ;
 }
+shaders
+.
+sort
+(
+)
+;
 for
 shader
 in
