@@ -145,6 +145,11 @@ DNSListenerProxy
 h
 '
 '
+DNSRequestBase
+.
+h
+'
+'
 DNSRequestChild
 .
 h
