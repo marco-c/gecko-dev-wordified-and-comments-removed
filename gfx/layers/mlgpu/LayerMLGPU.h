@@ -363,6 +363,11 @@ LayerManagerMLGPU
 aManager
 )
 ;
+~
+LayerMLGPU
+(
+)
+;
 LayerManagerMLGPU
 *
 GetManager
