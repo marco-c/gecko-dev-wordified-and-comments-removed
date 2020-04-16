@@ -63,6 +63,15 @@ include
 "
 mozilla
 /
+Permission
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SchedulerGroup
 .
 h
@@ -113,13 +122,6 @@ h
 "
 #
 endif
-#
-include
-"
-nsPermission
-.
-h
-"
 #
 include
 "
@@ -809,7 +811,7 @@ nsIPrincipal
 >
 principal
 =
-nsPermission
+Permission
 :
 :
 ClonePrincipalForPermission
@@ -1043,7 +1045,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -1329,7 +1331,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
@@ -1622,7 +1624,7 @@ nsIPermission
 >
 permission
 =
-nsPermission
+Permission
 :
 :
 Create
