@@ -281,6 +281,9 @@ IsCurrentThreadIn
 ;
 }
 ;
+Mutex
+mCallbackMutex
+;
 const
 RefPtr
 <
