@@ -643,7 +643,11 @@ IsRootForHWND
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 IAccessible
@@ -808,7 +812,11 @@ IAccessible
 aOutInterface
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 IAccessible

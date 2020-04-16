@@ -1323,7 +1323,11 @@ uint32_t
 aIdxInParent
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 CheckDocTree
 (
