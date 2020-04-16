@@ -34,6 +34,7 @@ derive
 (
 Clone
 Debug
+PartialEq
 )
 ]
 pub
