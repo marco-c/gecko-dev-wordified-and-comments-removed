@@ -471,11 +471,6 @@ IsEmpty
 )
 ;
 }
-void
-ClearEventTarget
-(
-)
-;
 private
 :
 DocGroup
