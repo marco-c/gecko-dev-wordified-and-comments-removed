@@ -1433,6 +1433,12 @@ case
 CacheOp
 :
 :
+DoublePowResult
+:
+case
+CacheOp
+:
+:
 DoubleNegationResult
 :
 case
@@ -1488,6 +1494,12 @@ CacheOp
 :
 :
 Int32ModResult
+:
+case
+CacheOp
+:
+:
+Int32PowResult
 :
 case
 CacheOp

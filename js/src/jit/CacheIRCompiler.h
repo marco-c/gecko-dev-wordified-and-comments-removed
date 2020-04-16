@@ -356,6 +356,11 @@ DoubleModResult
 \
 _
 (
+DoublePowResult
+)
+\
+_
+(
 Int32AddResult
 )
 \
@@ -377,6 +382,11 @@ Int32DivResult
 _
 (
 Int32ModResult
+)
+\
+_
+(
+Int32PowResult
 )
 \
 _
