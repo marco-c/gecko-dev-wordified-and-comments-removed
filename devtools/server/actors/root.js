@@ -2155,9 +2155,7 @@ processDescriptor
 ;
 }
 return
-{
 processDescriptor
-}
 ;
 }
 async
