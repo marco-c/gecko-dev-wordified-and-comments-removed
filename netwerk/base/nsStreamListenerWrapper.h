@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIMultiPartChannel
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -46,6 +53,8 @@ final
 :
 public
 nsIStreamListener
+public
+nsIMultiPartChannelListener
 public
 nsIThreadRetargetableStreamListener
 {
@@ -85,6 +94,7 @@ NS_FORWARD_SAFE_NSISTREAMLISTENER
 (
 mListener
 )
+NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 private
 :
