@@ -4695,7 +4695,7 @@ restyleSearches
 await
 PlacesSearchAutocompleteProvider
 .
-ensureInitialized
+ensureReady
 (
 )
 ;
