@@ -423,6 +423,11 @@ WarpBuilder
 cpp
 '
 '
+WarpCacheIRTranspiler
+.
+cpp
+'
+'
 WarpOracle
 .
 cpp
