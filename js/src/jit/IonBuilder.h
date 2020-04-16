@@ -1878,8 +1878,6 @@ binaryBitOpEmit
 (
 JSOp
 op
-MIRType
-specialization
 MDefinition
 *
 left
