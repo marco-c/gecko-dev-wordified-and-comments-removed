@@ -15,11 +15,13 @@ https
 :
 /
 /
+api
+.
 travis
 -
 ci
 .
-org
+com
 /
 ChunMinChang
 /
@@ -45,7 +47,9 @@ travis
 -
 ci
 .
-org
+com
+/
+github
 /
 ChunMinChang
 /
