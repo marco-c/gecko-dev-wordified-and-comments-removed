@@ -186,7 +186,9 @@ height
 :
 500px
 ;
-left
+inset
+-
+inline
 :
 auto
 ;
@@ -212,10 +214,6 @@ calc
 position
 :
 absolute
-;
-right
-:
-auto
 ;
 top
 :
