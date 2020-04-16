@@ -90,6 +90,9 @@ moduleURL
 optional
 WorkletOptions
 options
+=
+{
+}
 )
 ;
 }
