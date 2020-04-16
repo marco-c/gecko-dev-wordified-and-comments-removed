@@ -265,6 +265,11 @@ function
 evaluateExpression
 (
 expression
+from
+=
+"
+input
+"
 )
 {
 return
@@ -347,6 +352,7 @@ type
 :
 EVALUATE_EXPRESSION
 expression
+from
 }
 )
 ;

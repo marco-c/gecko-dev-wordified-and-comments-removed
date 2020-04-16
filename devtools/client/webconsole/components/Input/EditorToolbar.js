@@ -286,6 +286,15 @@ serviceContainer
 getInputSelection
 (
 )
+access
+:
+"
+editor
+-
+toolbar
+-
+icon
+"
 }
 )
 )

@@ -880,6 +880,11 @@ reverseSearchInputToggle
 (
 {
 initialValue
+access
+:
+"
+keyboard
+"
 }
 )
 )
