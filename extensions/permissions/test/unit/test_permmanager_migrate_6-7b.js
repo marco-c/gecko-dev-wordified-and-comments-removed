@@ -63,13 +63,6 @@ test
 (
 )
 {
-let
-profile
-=
-do_get_profile
-(
-)
-;
 Services
 .
 prefs
@@ -85,6 +78,13 @@ defaultsUrl
 "
 "
 "
+)
+;
+let
+profile
+=
+do_get_profile
+(
 )
 ;
 var
