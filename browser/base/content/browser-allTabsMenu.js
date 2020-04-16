@@ -708,6 +708,7 @@ allTabsButton
 }
 showAllTabsPanel
 (
+event
 )
 {
 this
@@ -735,6 +736,7 @@ allTabsView
 this
 .
 allTabsButton
+event
 )
 ;
 }
@@ -768,6 +770,7 @@ panel
 }
 showHiddenTabsPanel
 (
+event
 )
 {
 this
@@ -826,6 +829,7 @@ this
 .
 showAllTabsPanel
 (
+event
 )
 ;
 }
