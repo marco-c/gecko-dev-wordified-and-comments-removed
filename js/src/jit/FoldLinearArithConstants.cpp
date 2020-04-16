@@ -426,10 +426,6 @@ sum
 .
 term
 rhs
-MIRType
-:
-:
-Int32
 add
 -
 >

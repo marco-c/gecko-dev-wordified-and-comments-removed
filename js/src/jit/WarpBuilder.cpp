@@ -14334,10 +14334,10 @@ alloc
 )
 index
 constOne
-MIRType
+MDefinition
 :
 :
-Int32
+Truncate
 )
 ;
 current

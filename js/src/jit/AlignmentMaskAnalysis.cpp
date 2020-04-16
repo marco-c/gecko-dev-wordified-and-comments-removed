@@ -325,7 +325,7 @@ toBitAnd
 and_
 )
 ;
-MInstruction
+auto
 *
 add
 =
@@ -341,10 +341,10 @@ alloc
 )
 and_
 op1
-MIRType
+MDefinition
 :
 :
-Int32
+Truncate
 )
 ;
 ptr
