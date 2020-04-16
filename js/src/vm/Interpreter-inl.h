@@ -2078,7 +2078,7 @@ IncOperation
 JSContext
 *
 cx
-MutableHandleValue
+HandleValue
 val
 MutableHandleValue
 res
@@ -2191,7 +2191,7 @@ DecOperation
 JSContext
 *
 cx
-MutableHandleValue
+HandleValue
 val
 MutableHandleValue
 res
