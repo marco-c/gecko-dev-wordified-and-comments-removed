@@ -350,6 +350,10 @@ fluent_ffi
 ;
 extern
 crate
+rusqlite
+;
+extern
+crate
 sync15_traits
 ;
 #
