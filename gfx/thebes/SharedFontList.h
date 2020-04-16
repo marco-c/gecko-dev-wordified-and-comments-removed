@@ -376,12 +376,8 @@ IsNull
 )
 )
 ;
+return
 nsCString
-res
-;
-res
-.
-AssignLiteral
 (
 static_cast
 <
@@ -399,9 +395,6 @@ aList
 )
 mLength
 )
-;
-return
-res
 ;
 }
 void

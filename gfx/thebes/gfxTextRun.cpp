@@ -9728,7 +9728,7 @@ f
 fonts
 )
 {
-nsAutoCString
+nsCString
 key
 ;
 FontVisibility
