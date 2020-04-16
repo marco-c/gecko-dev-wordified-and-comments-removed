@@ -5896,6 +5896,15 @@ python_path
 gcc_dir
 libcxx_include_dir
 build_wasm
+        
+is_final_stage
+=
+(
+stages
+=
+=
+1
+)
 )
     
 runtimes_source_link
