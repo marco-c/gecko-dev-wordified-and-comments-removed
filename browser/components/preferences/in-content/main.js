@@ -1308,7 +1308,10 @@ brand
 ftl
 "
 ]
+false
+{
 generateBundles
+}
 )
 ;
 }
