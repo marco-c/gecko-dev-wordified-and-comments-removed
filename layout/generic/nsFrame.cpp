@@ -45745,7 +45745,6 @@ PeekWordState
 *
 aState
 bool
-aTrimSpaces
 )
 {
 NS_ASSERTION
