@@ -281,9 +281,6 @@ MOZ_ASSERT
 mXDisplay
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 !
@@ -331,8 +328,6 @@ mXDepth
 )
 ;
 }
-#
-endif
 #
 ifdef
 MOZ_HAVE_SHMIMAGE

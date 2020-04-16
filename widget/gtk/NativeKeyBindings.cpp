@@ -328,9 +328,6 @@ count
 >
 0
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 del_type
@@ -415,8 +412,6 @@ array
 )
 ;
 }
-#
-endif
 gHandled
 =
 true

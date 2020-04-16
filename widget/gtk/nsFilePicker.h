@@ -364,15 +364,10 @@ gboolean
 modal
 )
 ;
-#
-ifdef
-MOZ_WIDGET_GTK
 GtkFileChooserWidget
 *
 mFileChooserDelegate
 ;
-#
-endif
 bool
 mUseNativeFileChooser
 ;
