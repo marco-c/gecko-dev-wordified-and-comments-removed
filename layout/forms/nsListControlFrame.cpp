@@ -7638,6 +7638,8 @@ HTMLOptionElement
 aOptElement
 )
 {
+if
+(
 nsIFrame
 *
 childFrame
@@ -7647,10 +7649,6 @@ aOptElement
 GetPrimaryFrame
 (
 )
-;
-if
-(
-childFrame
 )
 {
 RefPtr
@@ -7701,11 +7699,6 @@ ScrollFlags
 :
 :
 ScrollFirstAncestorOnly
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 }
