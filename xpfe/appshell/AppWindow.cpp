@@ -10063,15 +10063,13 @@ appWin
 -
 >
 mPrimaryContentShell
+!
 aOpenWindowInfo
 -
 >
-GetNextRemoteBrowserId
+GetNextRemoteBrowser
 (
 )
-=
-=
-0
 )
 ;
 newWindow
