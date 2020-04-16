@@ -118,11 +118,6 @@ UNIFIED_SOURCES
 =
 [
 '
-MmapFaultHandler
-.
-cpp
-'
-'
 nsJAR
 .
 cpp
