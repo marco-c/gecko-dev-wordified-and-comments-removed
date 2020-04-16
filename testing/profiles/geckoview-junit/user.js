@@ -12,3 +12,17 @@ laxByDefault
 false
 )
 ;
+user_pref
+(
+"
+browser
+.
+tabs
+.
+remote
+.
+autostart
+"
+true
+)
+;

@@ -374,3 +374,15 @@ approval
 true
 )
 ;
+pref
+(
+"
+extensions
+.
+webextensions
+.
+remote
+"
+true
+)
+;
