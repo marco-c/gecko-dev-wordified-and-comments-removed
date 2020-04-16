@@ -2036,7 +2036,9 @@ endif
 #
 include
 "
-nsPermissionManager
+mozilla
+/
+PermissionManager
 .
 h
 "
@@ -29027,7 +29029,7 @@ nsCString
 >
 pairs
 =
-nsPermissionManager
+PermissionManager
 :
 :
 GetAllKeysForPrincipal
@@ -29263,11 +29265,11 @@ aOrigin
 {
 RefPtr
 <
-nsPermissionManager
+PermissionManager
 >
 permManager
 =
-nsPermissionManager
+PermissionManager
 :
 :
 GetInstance
