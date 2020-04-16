@@ -128,6 +128,11 @@ LoadDenseElementResult
 \
 _
 (
+LoadStringCharResult
+)
+\
+_
+(
 TypeMonitorResult
 )
 \
