@@ -103,7 +103,6 @@ PrimKeyCommonData
 PrimTemplate
 PrimTemplateCommonData
 PrimitiveInstanceKind
-PrimitiveSceneData
 PrimitiveStore
 VectorKey
 InternablePrimitive
@@ -1919,7 +1918,8 @@ PictureTemplate
 type
 InternData
 =
-PrimitiveSceneData
+(
+)
 ;
 }
 impl
