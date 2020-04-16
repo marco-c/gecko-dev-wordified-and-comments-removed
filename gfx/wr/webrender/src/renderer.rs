@@ -11679,6 +11679,9 @@ optimal_texture_stride_alignment
 (
 &
 self
+format
+:
+ImageFormat
 )
 -
 >
@@ -11690,6 +11693,11 @@ device
 .
 optimal_pbo_stride
 (
+)
+.
+num_bytes
+(
+format
 )
 .
 get
