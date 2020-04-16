@@ -337,7 +337,7 @@ BitwisePolicy
 =
 default
 ;
-SPECIALIZATION_DATA_
+EMPTY_DATA_
 ;
 MOZ_MUST_USE
 bool

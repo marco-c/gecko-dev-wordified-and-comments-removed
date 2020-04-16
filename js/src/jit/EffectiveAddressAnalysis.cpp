@@ -68,7 +68,7 @@ if
 lsh
 -
 >
-specialization
+type
 (
 )
 !

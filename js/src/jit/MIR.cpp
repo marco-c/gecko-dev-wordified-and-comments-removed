@@ -14328,7 +14328,9 @@ alloc
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -14373,7 +14375,9 @@ foldUnnecessaryBitop
 {
 if
 (
-specialization_
+type
+(
+)
 !
 =
 MIRType
@@ -20366,7 +20370,9 @@ alloc
 {
 MOZ_ASSERT
 (
-specialization_
+type
+(
+)
 =
 =
 MIRType
@@ -20449,7 +20455,9 @@ toBitNot
 )
 -
 >
-specialization_
+type
+(
+)
 =
 =
 MIRType
