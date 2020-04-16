@@ -696,7 +696,6 @@ aOffset
 )
 const
 ;
-inline
 bool
 Contains
 (
@@ -704,17 +703,7 @@ char_type
 aChar
 )
 const
-{
-return
-FindChar
-(
-aChar
-)
-!
-=
-kNotFound
 ;
-}
 bool
 NS_FASTCALL
 Equals
