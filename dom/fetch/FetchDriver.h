@@ -88,6 +88,15 @@ include
 "
 mozilla
 /
+UniquePtr
+.
+h
+"
+#
+include
+"
+mozilla
+/
 DebugOnly
 .
 h
@@ -487,7 +496,7 @@ nsIChannel
 >
 mChannel
 ;
-nsAutoPtr
+UniquePtr
 <
 SRICheckDataVerifier
 >
