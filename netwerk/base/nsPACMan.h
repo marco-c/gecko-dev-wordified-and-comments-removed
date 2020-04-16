@@ -191,6 +191,8 @@ uri
 nsPACManCallback
 *
 callback
+uint32_t
+flags
 bool
 mainThreadResponse
 )
@@ -226,6 +228,9 @@ mHost
 ;
 int32_t
 mPort
+;
+uint32_t
+mFlags
 ;
 NS_IMETHOD
 Run
@@ -291,6 +296,8 @@ uri
 nsPACManCallback
 *
 callback
+uint32_t
+flags
 bool
 mustCallbackOnMainThread
 )
