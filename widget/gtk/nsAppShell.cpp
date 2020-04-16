@@ -850,7 +850,6 @@ ScreenHelperGTK
 )
 ;
 }
-}
 if
 (
 gtk_check_version
@@ -903,6 +902,7 @@ get
 )
 )
 ;
+}
 }
 }
 #
