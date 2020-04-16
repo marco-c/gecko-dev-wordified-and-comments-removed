@@ -3486,6 +3486,13 @@ mParent
 IsContainerNode
 (
 )
+&
+&
+mOffset
+.
+isSome
+(
+)
 )
 {
 return
