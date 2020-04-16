@@ -618,16 +618,6 @@ aIsForChild
 )
 ;
 [
-noscript
-notxpcom
-nostdcall
-]
-void
-disableAltDataCache
-(
-)
-;
-[
 infallible
 ]
 attribute
