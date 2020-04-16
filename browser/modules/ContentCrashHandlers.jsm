@@ -3766,7 +3766,9 @@ extraExtraKeyVals
 {
 SubmittedFromInfobar
 :
-true
+"
+1
+"
 }
 }
 )
