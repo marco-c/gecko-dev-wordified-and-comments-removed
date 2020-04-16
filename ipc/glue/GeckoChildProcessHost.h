@@ -659,6 +659,10 @@ friend
 class
 PosixProcessLauncher
 ;
+friend
+class
+WindowsProcessLauncher
+;
 protected
 :
 ~
