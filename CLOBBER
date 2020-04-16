@@ -195,11 +195,8 @@ any
 more
 .
 Bug
-1610512
+1624363
 -
-Update
-to
-ICU
-66
-requires
-clobber
+cbindgen
+update
+required
