@@ -1,9 +1,9 @@
 #
 ifndef
-PermissionDelegateHandler_h__
+mozilla_PermissionDelegateHandler_h
 #
 define
-PermissionDelegateHandler_h__
+mozilla_PermissionDelegateHandler_h
 #
 include
 "
@@ -33,7 +33,6 @@ dom
 class
 Document
 ;
-}
 }
 class
 PermissionDelegateHandler
@@ -227,5 +226,6 @@ mPermissionManager
 ;
 }
 ;
+}
 #
 endif
