@@ -510,8 +510,8 @@ nsresult
 StoreURI
 (
 const
-char
-*
+nsACString
+&
 aURI
 nsIWebBrowserPersistDocument
 *
