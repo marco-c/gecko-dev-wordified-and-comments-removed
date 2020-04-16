@@ -60,8 +60,6 @@ bincode
 =
 "
 1
-.
-0
 "
 bytes
 =
@@ -76,8 +74,6 @@ cubeb
 0
 .
 6
-.
-0
 "
 futures
 =
@@ -106,19 +102,11 @@ serde
 =
 "
 1
-.
-*
-.
-*
 "
 serde_derive
 =
 "
 1
-.
-*
-.
-*
 "
 tokio
 =
