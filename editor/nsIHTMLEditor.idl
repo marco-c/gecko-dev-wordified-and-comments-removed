@@ -100,9 +100,6 @@ AString
 aValue
 )
 ;
-[
-can_run_script
-]
 void
 getInlineProperty
 (
@@ -126,9 +123,6 @@ boolean
 aAll
 )
 ;
-[
-can_run_script
-]
 AString
 getInlinePropertyWithAttrValue
 (
@@ -253,9 +247,6 @@ boolean
 aMixed
 )
 ;
-[
-can_run_script
-]
 AString
 getFontFaceState
 (
@@ -264,9 +255,6 @@ boolean
 aMixed
 )
 ;
-[
-can_run_script
-]
 AString
 getHighlightColorState
 (
@@ -309,9 +297,6 @@ boolean
 aDD
 )
 ;
-[
-can_run_script
-]
 void
 getAlignment
 (
