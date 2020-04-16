@@ -926,6 +926,12 @@ mInitializedDevices
 =
 false
 ;
+nsTArray
+<
+uint8_t
+>
+mCachedOutputColorProfile
+;
 }
 ;
 #
