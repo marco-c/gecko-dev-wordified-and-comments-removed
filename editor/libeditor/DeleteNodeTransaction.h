@@ -75,9 +75,9 @@ DeleteNodeTransaction
 EditorBase
 &
 aEditorBase
-nsINode
+nsIContent
 &
-aNodeToDelete
+aContentToDelete
 )
 ;
 public
@@ -92,9 +92,9 @@ MaybeCreate
 EditorBase
 &
 aEditorBase
-nsINode
+nsIContent
 &
-aNodeToDelete
+aContentToDelete
 )
 ;
 bool
@@ -134,9 +134,9 @@ mEditorBase
 ;
 nsCOMPtr
 <
-nsINode
+nsIContent
 >
-mNodeToDelete
+mContentToDelete
 ;
 nsCOMPtr
 <
@@ -148,7 +148,7 @@ nsCOMPtr
 <
 nsIContent
 >
-mRefNode
+mRefContent
 ;
 }
 ;
