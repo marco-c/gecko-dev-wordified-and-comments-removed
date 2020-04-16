@@ -156,6 +156,8 @@ const
 nsAString
 &
 aContentType
+bool
+aCrossOriginIsolated
 )
 {
 int64_t
@@ -170,6 +172,8 @@ PR_Now
 (
 )
 0
+false
+aCrossOriginIsolated
 )
 ;
 return

@@ -32,6 +32,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 BaseBlobImpl
@@ -95,6 +104,8 @@ const
 nsAString
 &
 aContentType
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -162,6 +173,8 @@ MULTIPARTBLOBIMPL_UNKNOWN_LENGTH
 void
 InitializeBlob
 (
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -186,6 +199,8 @@ nsAString
 aContentType
 bool
 aNativeEOL
+bool
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
@@ -405,6 +420,13 @@ default
 void
 SetLengthAndModifiedDate
 (
+const
+Maybe
+<
+bool
+>
+&
+aCrossOriginIsolated
 ErrorResult
 &
 aRv
