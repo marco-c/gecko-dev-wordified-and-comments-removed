@@ -3675,8 +3675,6 @@ JSContext
 cx
 HandleObject
 obj
-NewObjectKind
-newKind
 )
 ;
 bool
