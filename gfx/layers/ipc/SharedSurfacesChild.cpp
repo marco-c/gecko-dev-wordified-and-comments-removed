@@ -705,7 +705,7 @@ TakeDirtyRect
 ;
 aResources
 .
-AddExternalImage
+AddSharedExternalImage
 (
 mId
 entry
@@ -747,7 +747,7 @@ mShared
 ;
 aResources
 .
-UpdateExternalImage
+UpdateSharedExternalImage
 (
 mId
 entry
@@ -832,7 +832,7 @@ data
 ;
 aResources
 .
-AddExternalImage
+AddSharedExternalImage
 (
 mId
 key
@@ -2817,7 +2817,7 @@ AsyncResourceUpdates
 ;
 resourceUpdates
 .
-UpdateExternalImage
+UpdateSharedExternalImage
 (
 mId
 entry
@@ -3067,7 +3067,7 @@ aSurface
 ;
 aResources
 .
-AddExternalImage
+AddSharedExternalImage
 (
 mId
 entry
@@ -3173,7 +3173,7 @@ data
 ;
 aResources
 .
-AddExternalImage
+AddSharedExternalImage
 (
 mId
 aKey
