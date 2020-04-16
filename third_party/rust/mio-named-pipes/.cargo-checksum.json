@@ -11,7 +11,7 @@ toml
 "
 :
 "
-2e062a21894df50c23cbe4d8ecec92bc7fcd84a71760b034f8052b4dd2dffce3
+bad54ddc22173d3bcb894ccac64092fe7318d6dd430815f9b9723cee335b49d7
 "
 "
 LICENSE
@@ -38,7 +38,7 @@ md
 "
 :
 "
-7b08962c6e08aa32089a76af7ba08553fbba42be7efae2e8f935baa7e34394ca
+df073e581e30a7ebdc09b49a2943dc7b6d51ca865607fe46b8dcc91583bc50d8
 "
 "
 appveyor
@@ -87,5 +87,7 @@ rs
 package
 "
 :
-null
+"
+f5e374eff525ce1c5b7687c4cef63943e7686524a387933ad27ca7ec43779cb3
+"
 }
