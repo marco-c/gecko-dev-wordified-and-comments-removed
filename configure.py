@@ -773,7 +773,7 @@ python
 config
 [
 '
-PYTHON
+PYTHON3
 '
 ]
 }

@@ -1516,15 +1516,6 @@ lib
 CDLL
 (
 libclang
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 )
 fun
 =
