@@ -2400,6 +2400,11 @@ group_metadata
 (
 None
 )
+[
+'
+scope
+'
+]
 :
 [
 t
