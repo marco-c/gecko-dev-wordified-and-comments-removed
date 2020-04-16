@@ -8,6 +8,13 @@ h
 #
 include
 "
+GLContext
+.
+h
+"
+#
+include
+"
 RenderThread
 .
 h
