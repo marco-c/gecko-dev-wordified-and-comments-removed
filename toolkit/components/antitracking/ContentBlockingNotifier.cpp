@@ -1114,6 +1114,8 @@ BlockingDecision
 eAllow
 )
 ;
+return
+;
 }
 }
 nsAutoCString
