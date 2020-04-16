@@ -1257,14 +1257,6 @@ aHolder
 #
 ifdef
 DEBUG
-bool
-IsJSHolder
-(
-void
-*
-aHolder
-)
-;
 void
 AssertNoObjectsToTrace
 (
