@@ -1328,9 +1328,6 @@ sterling
 "
 catapult
 "
-"
-nineties
-"
 ]
 ;
 for
