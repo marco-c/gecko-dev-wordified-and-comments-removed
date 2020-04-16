@@ -117,7 +117,7 @@ nsIPrincipal
 TRRLoadInfo
 :
 :
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 {

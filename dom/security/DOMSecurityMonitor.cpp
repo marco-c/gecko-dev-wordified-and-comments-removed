@@ -717,7 +717,7 @@ loadingPrincipal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;

@@ -905,7 +905,7 @@ forget
 aLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 nsILoadInfo

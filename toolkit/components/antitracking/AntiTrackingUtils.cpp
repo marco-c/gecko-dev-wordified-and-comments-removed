@@ -1291,7 +1291,7 @@ targetPrincipal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;

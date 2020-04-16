@@ -9621,7 +9621,7 @@ if
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 )
@@ -9659,7 +9659,7 @@ loadingPrincipal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;
@@ -14790,7 +14790,7 @@ if
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 &
@@ -14798,7 +14798,7 @@ GetLoadingPrincipal
 loadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 -

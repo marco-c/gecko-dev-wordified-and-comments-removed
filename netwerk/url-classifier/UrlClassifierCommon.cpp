@@ -279,7 +279,7 @@ loadingPrincipal
 channelLoadInfo
 -
 >
-GetLoadingPrincipal
+LoadingPrincipal
 (
 )
 ;
