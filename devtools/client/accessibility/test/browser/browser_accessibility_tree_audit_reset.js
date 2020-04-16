@@ -285,7 +285,7 @@ selectAccessibleForNode
 (
 env
 "
-body
+h1
 "
 )
 ;
@@ -309,9 +309,6 @@ Accessibility
 Panel
 Test
 "
-selected
-:
-true
 }
 {
 role
@@ -326,6 +323,9 @@ Top
 level
 header
 "
+selected
+:
+true
 }
 {
 role
