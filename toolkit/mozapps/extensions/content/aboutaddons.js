@@ -15091,6 +15091,8 @@ windowRoot
 .
 ownerGlobal
 .
+BrowserAddonUI
+.
 promptRemoveExtension
 (
 addon
