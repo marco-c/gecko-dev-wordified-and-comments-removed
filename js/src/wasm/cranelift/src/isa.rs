@@ -468,7 +468,7 @@ libcall_call_conv
 if
 env
 .
-platformIsWindows
+platform_is_windows
 {
 "
 baldrdash_windows
@@ -671,7 +671,7 @@ use_pinned_reg_as_heap_base
 if
 env
 .
-refTypesEnabled
+ref_types_enabled
 {
 sb
 .
@@ -758,7 +758,7 @@ if
 !
 env
 .
-hasSse2
+has_sse2
 {
 return
 Err
@@ -781,7 +781,7 @@ into
 if
 env
 .
-hasSse3
+has_sse3
 {
 ib
 .
@@ -805,7 +805,7 @@ from
 if
 env
 .
-hasSse41
+has_sse41
 {
 ib
 .
@@ -829,7 +829,7 @@ from
 if
 env
 .
-hasSse42
+has_sse42
 {
 ib
 .
@@ -853,7 +853,7 @@ from
 if
 env
 .
-hasPopcnt
+has_popcnt
 {
 ib
 .
@@ -877,7 +877,7 @@ from
 if
 env
 .
-hasAvx
+has_avx
 {
 ib
 .
@@ -901,7 +901,7 @@ from
 if
 env
 .
-hasBmi1
+has_bmi1
 {
 ib
 .
@@ -925,7 +925,7 @@ from
 if
 env
 .
-hasBmi2
+has_bmi2
 {
 ib
 .
@@ -949,7 +949,7 @@ from
 if
 env
 .
-hasLzcnt
+has_lzcnt
 {
 ib
 .
