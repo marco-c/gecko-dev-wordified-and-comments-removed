@@ -412,7 +412,9 @@ label
 {
 margin
 -
-left
+inline
+-
+start
 :
 19px
 ;
@@ -441,7 +443,9 @@ label
 {
 margin
 -
-left
+inline
+-
+start
 :
 23px
 ;

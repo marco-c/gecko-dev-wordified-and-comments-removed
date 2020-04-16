@@ -636,13 +636,7 @@ left
 {
 margin
 -
-top
-:
-0
-;
-margin
--
-bottom
+block
 :
 0
 ;
@@ -672,7 +666,7 @@ inline
 -
 start
 :
-0px
+0
 ;
 }
 .
@@ -2853,7 +2847,9 @@ UITourTooltipButtons
 {
 margin
 -
-left
+inline
+-
+start
 :
 -
 10px
