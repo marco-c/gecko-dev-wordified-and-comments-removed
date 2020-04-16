@@ -17183,7 +17183,7 @@ LoadingNode
 mLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 mLoadInfo

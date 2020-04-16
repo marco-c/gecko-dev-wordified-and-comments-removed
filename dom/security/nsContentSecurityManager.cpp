@@ -3598,7 +3598,7 @@ LogPrincipal
 aLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 NS_LITERAL_STRING
@@ -3995,7 +3995,7 @@ if
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 |
@@ -4004,7 +4004,7 @@ LoadingPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 -
@@ -5114,7 +5114,7 @@ loadingPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;
