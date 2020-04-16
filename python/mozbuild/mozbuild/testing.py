@@ -943,6 +943,11 @@ basename
 pattern
 )
 )
+                        
+else
+:
+                            
+continue
                     
 info
 .
