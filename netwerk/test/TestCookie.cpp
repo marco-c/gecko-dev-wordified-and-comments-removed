@@ -121,7 +121,7 @@ h
 #
 include
 "
-nsCookie
+Cookie
 .
 h
 "
@@ -9643,13 +9643,13 @@ uint64_t
 1
 )
 ;
-nsCookie
+Cookie
 *
 cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -9827,7 +9827,7 @@ cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (

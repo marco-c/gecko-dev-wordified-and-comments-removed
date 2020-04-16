@@ -110,7 +110,7 @@ h
 #
 include
 "
-nsCookie
+Cookie
 .
 h
 "
@@ -592,7 +592,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -606,11 +606,11 @@ i
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 newCookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -1064,7 +1064,7 @@ i
 +
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -1171,11 +1171,11 @@ aAttrs
 {
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -1394,11 +1394,11 @@ i
 {
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -1898,7 +1898,7 @@ i
 +
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -2251,11 +2251,11 @@ PR_Now
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -2286,7 +2286,7 @@ expiry
 (
 )
 currentTimeInUsec
-nsCookie
+Cookie
 :
 :
 GenerateUniqueCreationTime
@@ -2453,7 +2453,7 @@ CookieServiceChild
 :
 RecordDocumentCookie
 (
-nsCookie
+Cookie
 *
 aCookie
 const
@@ -2539,7 +2539,7 @@ i
 +
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -3375,7 +3375,7 @@ i
 {
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =

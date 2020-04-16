@@ -97,6 +97,11 @@ UNIFIED_SOURCES
 =
 [
 '
+Cookie
+.
+cpp
+'
+'
 CookieJarSettings
 .
 cpp
@@ -108,11 +113,6 @@ cpp
 '
 '
 CookieServiceParent
-.
-cpp
-'
-'
-nsCookie
 .
 cpp
 '

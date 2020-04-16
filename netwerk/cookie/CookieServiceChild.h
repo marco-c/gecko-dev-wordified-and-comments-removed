@@ -72,9 +72,6 @@ nsThreadUtils
 h
 "
 class
-nsCookie
-;
-class
 nsICookiePermission
 ;
 class
@@ -89,6 +86,9 @@ mozilla
 namespace
 net
 {
+class
+Cookie
+;
 class
 CookieStruct
 ;
@@ -121,7 +121,7 @@ nsTArray
 <
 RefPtr
 <
-nsCookie
+Cookie
 >
 >
 CookiesList
@@ -257,7 +257,7 @@ aFromHttp
 void
 RecordDocumentCookie
 (
-nsCookie
+Cookie
 *
 aCookie
 const

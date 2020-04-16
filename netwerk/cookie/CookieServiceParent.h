@@ -16,9 +16,6 @@ PCookieServiceParent
 h
 "
 class
-nsCookie
-;
-class
 nsICookie
 ;
 class
@@ -37,6 +34,9 @@ mozilla
 namespace
 net
 {
+class
+Cookie
+;
 class
 CookieServiceParent
 :
@@ -236,7 +236,7 @@ SerialializeCookieList
 const
 nsTArray
 <
-nsCookie
+Cookie
 *
 >
 &

@@ -787,7 +787,7 @@ nsCookieKey
 &
 aKey
 const
-nsCookie
+Cookie
 *
 aCookie
 )
@@ -824,7 +824,7 @@ aIndex
 )
 {
 }
-nsCookie
+Cookie
 *
 Cookie
 (
@@ -1280,7 +1280,7 @@ static
 void
 LogCookie
 (
-nsCookie
+Cookie
 *
 aCookie
 )
@@ -1793,7 +1793,7 @@ const
 nsACString
 &
 aCookieString
-nsCookie
+Cookie
 *
 aCookie
 bool
@@ -1978,7 +1978,7 @@ static
 void
 LogEvicted
 (
-nsCookie
+Cookie
 *
 aCookie
 const
@@ -2862,7 +2862,7 @@ ProcessSameSiteCookieForForeignRequest
 nsIChannel
 *
 aChannel
-nsCookie
+Cookie
 *
 aCookie
 bool
@@ -7315,11 +7315,11 @@ isSession
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -9594,7 +9594,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -11073,7 +11073,7 @@ cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -11971,7 +11971,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -12253,11 +12253,11 @@ aOriginAttributes
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -12268,7 +12268,7 @@ host
 aPath
 aExpiry
 currentTimeInUsec
-nsCookie
+Cookie
 :
 :
 GenerateUniqueCreationTime
@@ -12441,7 +12441,7 @@ matchIter
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 ;
@@ -13951,11 +13951,11 @@ OriginAttributes
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 newCookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -13995,7 +13995,7 @@ pathIndex
 )
 expires
 lastAccessedCounter
-nsCookie
+Cookie
 :
 :
 GenerateUniqueCreationTime
@@ -14188,7 +14188,7 @@ nsCookieService
 :
 DomainMatches
 (
-nsCookie
+Cookie
 *
 aCookie
 const
@@ -14237,7 +14237,7 @@ nsCookieService
 :
 PathMatches
 (
-nsCookie
+Cookie
 *
 aCookie
 const
@@ -14373,7 +14373,7 @@ OriginAttributes
 aOriginAttrs
 nsTArray
 <
-nsCookie
+Cookie
 *
 >
 &
@@ -14622,7 +14622,7 @@ IsPotentiallyTrustworthyOrigin
 aHostURI
 )
 ;
-nsCookie
+Cookie
 *
 cookie
 ;
@@ -15086,7 +15086,7 @@ aCookieString
 {
 AutoTArray
 <
-nsCookie
+Cookie
 *
 8
 >
@@ -15108,7 +15108,7 @@ aOriginAttrs
 foundCookieList
 )
 ;
-nsCookie
+Cookie
 *
 cookie
 ;
@@ -16068,11 +16068,11 @@ PR_Now
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
-nsCookie
+Cookie
 :
 :
 Create
@@ -16103,7 +16103,7 @@ expiry
 (
 )
 currentTimeInUsec
-nsCookie
+Cookie
 :
 :
 GenerateUniqueCreationTime
@@ -16171,7 +16171,7 @@ nsICookie
 (
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -16280,7 +16280,7 @@ const
 nsCookieKey
 &
 aKey
-nsCookie
+Cookie
 *
 aCookie
 int64_t
@@ -16454,7 +16454,7 @@ return
 }
 RefPtr
 <
-nsCookie
+Cookie
 >
 oldCookie
 ;
@@ -16982,7 +16982,7 @@ it
 {
 RefPtr
 <
-nsCookie
+Cookie
 >
 evictedCookie
 =
@@ -18411,7 +18411,7 @@ true
 ;
 MOZ_ASSERT
 (
-nsCookie
+Cookie
 :
 :
 ValidateRawSame
@@ -20810,7 +20810,7 @@ entry
 i
 )
 ;
-nsCookie
+Cookie
 *
 cookie
 =
@@ -21037,7 +21037,7 @@ i
 ;
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -21646,7 +21646,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -22801,7 +22801,7 @@ entry
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
@@ -23158,7 +23158,7 @@ i
 ;
 RefPtr
 <
-nsCookie
+Cookie
 >
 cookie
 =
@@ -23378,13 +23378,13 @@ mIndex
 iter
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -23719,7 +23719,7 @@ const
 nsCookieKey
 &
 aKey
-nsCookie
+Cookie
 *
 aCookie
 )
@@ -23784,7 +23784,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -23971,7 +23971,7 @@ Length
 i
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -24397,7 +24397,7 @@ nsCookieKey
 &
 aKey
 const
-nsCookie
+Cookie
 *
 aCookie
 )
@@ -24801,7 +24801,7 @@ UpdateCookieOldestTime
 DBState
 *
 aDBState
-nsCookie
+Cookie
 *
 aCookie
 )
@@ -24845,7 +24845,7 @@ const
 nsCookieKey
 &
 aKey
-nsCookie
+Cookie
 *
 aCookie
 DBState
@@ -25120,7 +25120,7 @@ nsCookieService
 :
 UpdateCookieInList
 (
-nsCookie
+Cookie
 *
 aCookie
 int64_t

@@ -321,7 +321,7 @@ cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -427,7 +427,7 @@ cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -500,7 +500,7 @@ cookie
 =
 static_cast
 <
-nsCookie
+Cookie
 *
 >
 (
@@ -673,7 +673,7 @@ rejectedReason
 ;
 nsTArray
 <
-nsCookie
+Cookie
 *
 >
 foundCookieList
@@ -761,7 +761,7 @@ SerialializeCookieList
 const
 nsTArray
 <
-nsCookie
+Cookie
 *
 >
 &
@@ -797,7 +797,7 @@ i
 +
 )
 {
-nsCookie
+Cookie
 *
 cookie
 =
@@ -914,7 +914,7 @@ aHost
 ;
 nsTArray
 <
-nsCookie
+Cookie
 *
 >
 foundCookieList
