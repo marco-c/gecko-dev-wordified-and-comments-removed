@@ -217,6 +217,10 @@ order
 1
 )
 ;
+let
+engine
+=
+await
 search
 .
 addEngineWithDetails
@@ -280,9 +284,7 @@ Assert
 .
 equal
 (
-metadata
-.
-foo
+engine
 .
 alias
 "
