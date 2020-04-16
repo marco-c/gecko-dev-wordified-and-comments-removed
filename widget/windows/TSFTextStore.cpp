@@ -13708,7 +13708,7 @@ pdcs
 >
 dwDynamicFlags
 =
-0
+TS_SD_INPUTPANEMANUALDISPLAYENABLE
 ;
 pdcs
 -
