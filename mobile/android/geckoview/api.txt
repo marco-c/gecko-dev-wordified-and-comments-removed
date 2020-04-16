@@ -3618,6 +3618,16 @@ implements
 Parcelable
 {
 method
+AnyThread
+public
+void
+appendAppNotesToCrashReport
+(
+NonNull
+String
+)
+;
+method
 UiThread
 public
 void
