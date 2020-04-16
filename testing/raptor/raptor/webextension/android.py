@@ -429,6 +429,14 @@ self
 remote_profile
                 
 "
+-
+-
+allow
+-
+downgrade
+"
+                
+"
 use_multiprocess
 "
                 
@@ -780,6 +788,14 @@ profile
 self
 .
 remote_profile
+            
+"
+-
+-
+allow
+-
+downgrade
+"
             
 "
 -
