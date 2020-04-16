@@ -180,6 +180,14 @@ false
 >
 ProcessInfoPromise
 ;
+nsresult
+CollectProcessInfo
+(
+ProcessInfo
+&
+info
+)
+;
 class
 nsSystemInfo
 final
