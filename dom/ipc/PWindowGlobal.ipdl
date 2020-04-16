@@ -232,6 +232,13 @@ nsCString
 serializedSecInfo
 )
 ;
+async
+DispatchSecurityPolicyViolation
+(
+nsString
+aViolationEventJSON
+)
+;
 both
 :
 async
