@@ -8670,6 +8670,7 @@ nsTableRowGroupFrame
 GetNumLines
 (
 )
+const
 {
 return
 GetRowCount
