@@ -96,9 +96,6 @@ derive
 Copy
 Clone
 Debug
-Eq
-PartialEq
-Hash
 )
 ]
 pub
@@ -265,7 +262,6 @@ Clone
 Debug
 Eq
 PartialEq
-Hash
 )
 ]
 enum
@@ -7630,9 +7626,6 @@ derive
 Copy
 Clone
 Debug
-Eq
-PartialEq
-Hash
 )
 ]
 pub

@@ -125,7 +125,7 @@ version
 "
 0
 .
-18
+17
 .
 0
 "
@@ -420,7 +420,7 @@ version
 "
 0
 .
-20
+19
 "
 [
 dependencies
@@ -434,7 +434,9 @@ version
 "
 0
 .
-19
+17
+.
+3
 "
 [
 dependencies
@@ -511,7 +513,7 @@ version
 "
 0
 .
-22
+17
 "
 [
 features

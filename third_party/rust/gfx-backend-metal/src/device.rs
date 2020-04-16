@@ -8449,8 +8449,6 @@ color_attachments
 object_at
 (
 i
-as
-NSUInteger
 )
 .
 expect
@@ -9026,7 +9024,7 @@ object_at
 (
 location
 as
-NSUInteger
+usize
 )
 .
 expect
@@ -9125,13 +9123,11 @@ private_caps
 .
 max_buffers_per_stage
 as
-NSUInteger
+usize
 -
 1
 -
 i
-as
-NSUInteger
 )
 .
 expect
@@ -12984,7 +12980,6 @@ encoder
 .
 set_sampler_state
 (
-arg_index
 sampler
 .
 raw
@@ -12996,6 +12991,7 @@ as_ref
 unwrap
 (
 )
+arg_index
 )
 ;
 arg_index
@@ -13033,8 +13029,8 @@ encoder
 .
 set_texture
 (
-arg_index
 tex_ref
+arg_index
 )
 ;
 data
@@ -13128,13 +13124,6 @@ encoder
 .
 set_sampler_state
 (
-arg_index
-+
-binding
-.
-count
-as
-NSUInteger
 sampler
 .
 raw
@@ -13146,6 +13135,13 @@ as_ref
 unwrap
 (
 )
+arg_index
++
+binding
+.
+count
+as
+NSUInteger
 )
 ;
 }
@@ -13164,8 +13160,8 @@ encoder
 .
 set_texture
 (
-arg_index
 tex_ref
+arg_index
 )
 ;
 data
@@ -13212,11 +13208,11 @@ encoder
 .
 set_texture
 (
-arg_index
 &
 view
 .
 raw
+arg_index
 )
 ;
 data
@@ -13273,7 +13269,6 @@ encoder
 .
 set_buffer
 (
-arg_index
 buf_raw
 buf_range
 .
@@ -13287,6 +13282,7 @@ unwrap_or
 (
 0
 )
+arg_index
 )
 ;
 data

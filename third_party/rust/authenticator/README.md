@@ -388,7 +388,11 @@ the
 purpose
 ]
 (
-.
+authenticator
+/
+blob
+/
+master
 /
 src
 /

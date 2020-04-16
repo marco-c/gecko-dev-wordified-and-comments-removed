@@ -19,7 +19,7 @@ travis
 -
 ci
 .
-com
+org
 /
 servo
 /
@@ -45,7 +45,7 @@ travis
 -
 ci
 .
-com
+org
 /
 servo
 /

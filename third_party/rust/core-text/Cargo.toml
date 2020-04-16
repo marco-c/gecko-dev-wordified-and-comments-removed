@@ -120,7 +120,7 @@ text
 version
 =
 "
-15
+13
 .
 0
 .
@@ -189,7 +189,7 @@ version
 "
 0
 .
-7
+6
 "
 [
 dependencies
@@ -203,7 +203,7 @@ version
 "
 0
 .
-19
+17
 "
 [
 dependencies
