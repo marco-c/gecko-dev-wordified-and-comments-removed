@@ -14593,7 +14593,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
@@ -14639,7 +14639,7 @@ always
 Expose
 the
 '
-featurePolicy
+policy
 '
 attribute
 in
@@ -14663,7 +14663,7 @@ type
 bool
 value
 :
-false
+IS_NIGHTLY_BUILD
 mirror
 :
 always
