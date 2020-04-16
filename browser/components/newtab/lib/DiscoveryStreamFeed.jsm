@@ -8595,12 +8595,14 @@ getpocket
 com
 /
 explore
-/
-trending
 ?
 src
 =
 fx_new_tab
+&
+cdn
+=
+0
 "
 }
 ]
