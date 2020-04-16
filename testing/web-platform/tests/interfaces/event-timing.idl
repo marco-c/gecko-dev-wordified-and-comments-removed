@@ -83,6 +83,12 @@ attribute
 boolean
 cancelable
 ;
+readonly
+attribute
+Node
+?
+target
+;
 [
 Default
 ]
