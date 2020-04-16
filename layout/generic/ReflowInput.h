@@ -377,7 +377,6 @@ return
 mComputedPadding
 ;
 }
-const
 LogicalMargin
 ComputedLogicalMargin
 (
@@ -392,7 +391,6 @@ mComputedMargin
 )
 ;
 }
-const
 LogicalMargin
 ComputedLogicalBorderPadding
 (
@@ -407,7 +405,6 @@ mComputedBorderPadding
 )
 ;
 }
-const
 LogicalMargin
 ComputedLogicalPadding
 (
