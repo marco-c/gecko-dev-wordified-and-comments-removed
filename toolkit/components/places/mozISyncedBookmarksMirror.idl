@@ -59,13 +59,6 @@ MPL
 #
 include
 "
-mozIServicesLogger
-.
-idl
-"
-#
-include
-"
 nsISupports
 .
 idl
@@ -631,7 +624,7 @@ for
 logging
 .
 attribute
-mozIServicesLogger
+mozISyncedBookmarksMirrorLogger
 logger
 ;
 /
