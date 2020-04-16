@@ -28,7 +28,7 @@ complexity
 "
 error
 "
-59
+57
 ]
 "
 no
