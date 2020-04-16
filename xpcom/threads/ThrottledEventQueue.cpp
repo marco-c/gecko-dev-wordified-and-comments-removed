@@ -28,6 +28,15 @@ include
 "
 mozilla
 /
+CondVar
+.
+h
+"
+#
+include
+"
+mozilla
+/
 EventQueue
 .
 h
