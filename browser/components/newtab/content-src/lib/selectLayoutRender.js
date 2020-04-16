@@ -276,6 +276,9 @@ Navigation
 CardGrid
 "
 "
+CollectionCardGrid
+"
+"
 Hero
 "
 "
