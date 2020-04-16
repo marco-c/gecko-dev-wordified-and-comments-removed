@@ -106,6 +106,15 @@ include
 "
 js
 /
+Exception
+.
+h
+"
+#
+include
+"
+js
+/
 Vector
 .
 h
@@ -1614,7 +1623,7 @@ parse
 (
 )
 ;
-RootedValue
+ExceptionStack
 txtExn
 (
 cx
@@ -1629,10 +1638,7 @@ txtParsed
 if
 (
 !
-js
-:
-:
-GetAndClearException
+StealPendingExceptionStack
 (
 cx
 &
@@ -1832,7 +1838,7 @@ globalsc
 binSource
 )
 ;
-RootedValue
+ExceptionStack
 binExn
 (
 cx
@@ -1850,10 +1856,7 @@ isErr
 if
 (
 !
-js
-:
-:
-GetAndClearException
+StealPendingExceptionStack
 (
 cx
 &
