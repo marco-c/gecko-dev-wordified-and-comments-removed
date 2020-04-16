@@ -2629,7 +2629,7 @@ MOZ_ASSERT
 (
 argTypes
 .
-length
+lengthWithStackResults
 (
 )
 =
@@ -12187,7 +12187,7 @@ size_t
 1
 argTypes
 .
-length
+lengthWithStackResults
 (
 )
 )
@@ -12252,7 +12252,7 @@ i
 <
 argTypes
 .
-length
+lengthWithStackResults
 (
 )
 ;
@@ -12574,7 +12574,7 @@ i
 <
 argTypes
 .
-length
+lengthWithStackResults
 (
 )
 ;

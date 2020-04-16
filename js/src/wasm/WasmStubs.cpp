@@ -10611,7 +10611,7 @@ funcType
 )
 )
 .
-length
+lengthWithStackResults
 (
 )
 ;

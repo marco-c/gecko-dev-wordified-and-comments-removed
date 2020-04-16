@@ -44619,7 +44619,7 @@ abiArgCount
 =
 args
 .
-length
+lengthWithStackResults
 (
 )
 ;
