@@ -78,6 +78,9 @@ called
 ;
 var
 holdings
+=
+[
+]
 ;
 finalizationRegistry
 .
@@ -86,7 +89,7 @@ cleanupSome
 function
 cb
 (
-iterator
+holding
 )
 {
 called
@@ -95,13 +98,11 @@ called
 1
 ;
 holdings
-=
-[
 .
-.
-.
-iterator
-]
+push
+(
+holding
+)
 ;
 }
 )

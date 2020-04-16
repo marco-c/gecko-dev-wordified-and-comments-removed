@@ -6,11 +6,7 @@ from
 '
 .
 /
-define
--
-own
--
-property
+set
 .
 js
 '
@@ -43,11 +39,7 @@ from
 '
 .
 /
-define
--
-own
--
-property
+set
 .
 js
 '

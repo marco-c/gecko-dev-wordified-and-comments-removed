@@ -68,6 +68,12 @@ ca
 -
 gregory
 "
+"
+latn
+"
+"
+latn
+"
 ]
 ;
 for

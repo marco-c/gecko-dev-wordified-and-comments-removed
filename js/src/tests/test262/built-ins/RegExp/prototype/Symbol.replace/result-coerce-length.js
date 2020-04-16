@@ -6,11 +6,6 @@ r
 /
 ;
 var
-counter
-=
-0
-;
-var
 coercibleIndex
 =
 {
@@ -49,6 +44,9 @@ bar
 '
 baz
 '
+index
+:
+0
 }
 ;
 r

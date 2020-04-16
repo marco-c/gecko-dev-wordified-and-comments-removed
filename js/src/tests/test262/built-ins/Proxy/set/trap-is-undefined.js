@@ -15,7 +15,7 @@ Proxy
 (
 target
 {
-get
+set
 :
 undefined
 }
@@ -25,7 +25,7 @@ p
 .
 attr
 =
-1
+2
 ;
 assert
 .
@@ -34,7 +34,7 @@ sameValue
 target
 .
 attr
-1
+2
 )
 ;
 reportCompare

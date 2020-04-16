@@ -1,0 +1,15 @@
+'
+use
+strict
+'
+;
+DONOTEVALUATE
+(
+)
+;
+eval
+?
+?
+=
+20
+;

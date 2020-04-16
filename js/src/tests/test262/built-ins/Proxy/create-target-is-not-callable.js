@@ -20,8 +20,6 @@ function
 )
 {
 p
-.
-call
 (
 )
 ;
