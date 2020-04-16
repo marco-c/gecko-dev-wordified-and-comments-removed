@@ -1736,6 +1736,17 @@ name
 :
 readability
 -
+qualified
+-
+auto
+reliability
+:
+high
+-
+name
+:
+readability
+-
 redundant
 -
 control
