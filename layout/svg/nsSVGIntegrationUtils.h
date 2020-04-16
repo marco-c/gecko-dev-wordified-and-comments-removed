@@ -471,6 +471,9 @@ const
 PaintFramesParams
 &
 aParams
+bool
+&
+aOutIsMaskComplete
 )
 ;
 static

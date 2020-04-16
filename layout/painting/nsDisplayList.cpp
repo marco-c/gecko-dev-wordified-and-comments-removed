@@ -50174,6 +50174,11 @@ params
 )
 ;
 bool
+maskIsComplete
+=
+false
+;
+bool
 painted
 =
 nsSVGIntegrationUtils
@@ -50182,6 +50187,7 @@ nsSVGIntegrationUtils
 PaintMask
 (
 params
+maskIsComplete
 )
 ;
 if
@@ -50207,6 +50213,10 @@ result
 )
 ;
 return
+maskIsComplete
+&
+&
+(
 imgParams
 .
 result
@@ -50227,6 +50237,7 @@ ImgDrawResult
 :
 :
 SUCCESS_NOT_COMPLETE
+)
 ;
 }
 LayerState

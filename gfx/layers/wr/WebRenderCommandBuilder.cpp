@@ -14802,7 +14802,7 @@ maskPainted
 false
 ;
 bool
-paintFinished
+maskIsComplete
 =
 aMaskItem
 -
@@ -15025,7 +15025,7 @@ aResources
 ;
 if
 (
-paintFinished
+maskIsComplete
 )
 {
 maskData
