@@ -70716,7 +70716,7 @@ already_AddRefed
 VnsPIDOMWindowOuter
 XZ
 ?
-GetSameTypeParentIgnoreBrowserBoundaries
+GetSameTypeInProcessParentIgnoreBrowserBoundaries
 nsDocShell
 UEAA
 ?
