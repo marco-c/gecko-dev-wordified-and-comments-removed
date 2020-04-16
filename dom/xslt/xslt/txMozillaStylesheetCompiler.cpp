@@ -258,6 +258,15 @@ mozilla
 dom
 :
 :
+Document
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 ReferrerPolicy
 ;
 static
@@ -2722,6 +2731,9 @@ GetSourceContentModel
 )
 ;
 }
+dom
+:
+:
 nsAutoSyncOperation
 sync
 (

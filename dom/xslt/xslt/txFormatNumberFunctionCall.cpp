@@ -1193,6 +1193,9 @@ bufsize
 auto
 buf
 =
+mozilla
+:
+:
 MakeUnique
 <
 char
@@ -1343,9 +1346,15 @@ hasFraction
 =
 false
 ;
+mozilla
+:
+:
 CheckedUint32
 resRemain
 =
+mozilla
+:
+:
 CheckedUint32
 (
 res

@@ -72,6 +72,9 @@ namespace
 dom
 {
 class
+Document
+;
+class
 XPathResult
 ;
 class
