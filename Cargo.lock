@@ -20879,7 +20879,7 @@ version
 "
 0
 .
-5
+6
 .
 0
 "
@@ -20909,7 +20909,7 @@ index
 checksum
 =
 "
-6ea6999b1c6f2bd14e0208f7f3ffbd2774a9a98078148afc7251e789da930595
+9a5b9bba8f5b985e4923dadd273a987f83669083f3355d65c699e02b9d3d854d
 "
 dependencies
 =
@@ -20922,6 +20922,9 @@ digest
 "
 "
 murmurhash3
+"
+"
+sha2
 "
 ]
 [
