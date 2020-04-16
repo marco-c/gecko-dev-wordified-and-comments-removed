@@ -2341,7 +2341,7 @@ prin
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 )
@@ -2470,7 +2470,7 @@ prin
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 )
@@ -2640,7 +2640,7 @@ prin
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 )

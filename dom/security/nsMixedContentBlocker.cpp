@@ -1194,7 +1194,7 @@ requestingPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;
@@ -1365,7 +1365,7 @@ loadingPrincipal
 aLoadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;

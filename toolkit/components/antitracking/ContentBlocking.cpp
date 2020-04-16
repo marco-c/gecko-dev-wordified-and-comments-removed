@@ -3990,7 +3990,7 @@ toplevelPrincipal
 loadInfo
 -
 >
-LoadingPrincipal
+GetLoadingPrincipal
 (
 )
 ;
