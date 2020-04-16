@@ -2,7 +2,13 @@ Set
 -
 Cookie
 :
-a
+domain
+-
+attribute
+-
+matches
+-
+host
 =
 b
 ;
