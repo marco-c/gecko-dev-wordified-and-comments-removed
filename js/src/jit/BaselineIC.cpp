@@ -18869,6 +18869,15 @@ op
 )
 ;
 }
+MOZ_ASSERT
+(
+res
+.
+isNumeric
+(
+)
+)
+;
 if
 (
 res
@@ -18892,7 +18901,7 @@ UnaryArithIRGenerator
 >
 (
 "
-UniryArith
+UnaryArith
 "
 cx
 frame

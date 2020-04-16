@@ -3254,6 +3254,15 @@ op
 )
 ;
 }
+MOZ_ASSERT
+(
+res
+.
+isNumeric
+(
+)
+)
+;
 TryAttachIonStub
 <
 UnaryArithIRGenerator
