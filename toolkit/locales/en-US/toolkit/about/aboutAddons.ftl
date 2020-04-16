@@ -1898,10 +1898,11 @@ a
 shortcut
 shortcuts
 -
-browserAction
+browserAction2
 =
 Activate
-extension
+toolbar
+button
 shortcuts
 -
 pageAction
