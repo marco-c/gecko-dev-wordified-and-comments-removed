@@ -139,6 +139,9 @@ ipc
 StringInputStreamParams
 ;
 static
+mozilla
+:
+:
 LazyLogModule
 sStorageStreamLog
 (
@@ -1354,8 +1357,9 @@ private
 nsStorageInputStream
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsresult
@@ -2271,6 +2275,12 @@ remaining
 aMaxSize
 )
 {
+mozilla
+:
+:
+ipc
+:
+:
 InputStreamHelper
 :
 :

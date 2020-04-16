@@ -36,6 +36,13 @@ h
 #
 include
 "
+nsIDirectoryService
+.
+h
+"
+#
+include
+"
 nsIFile
 .
 h
@@ -287,8 +294,9 @@ nsAppFileLocationProvider
 nsAppFileLocationProvider
 (
 )
-{
-}
+=
+default
+;
 NS_IMPL_ISUPPORTS
 (
 nsAppFileLocationProvider

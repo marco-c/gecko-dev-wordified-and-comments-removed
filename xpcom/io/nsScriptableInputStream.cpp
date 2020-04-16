@@ -293,6 +293,9 @@ aResult
 SetLength
 (
 aCount
+mozilla
+:
+:
 fallible
 )
 )

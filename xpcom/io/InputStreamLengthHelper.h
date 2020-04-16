@@ -6,6 +6,11 @@ define
 mozilla_InputStreamLengthHelper_h
 #
 include
+<
+functional
+>
+#
+include
 "
 nsISupportsImpl
 .
@@ -15,6 +20,13 @@ h
 include
 "
 nsIInputStreamLength
+.
+h
+"
+#
+include
+"
+nsThreadUtils
 .
 h
 "

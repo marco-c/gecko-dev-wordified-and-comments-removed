@@ -14,6 +14,13 @@ h
 #
 include
 "
+nsCOMPtr
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Attributes
@@ -45,8 +52,9 @@ private
 nsAppFileLocationProvider
 (
 )
-{
-}
+=
+default
+;
 protected
 :
 nsresult

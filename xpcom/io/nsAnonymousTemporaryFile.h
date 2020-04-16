@@ -15,6 +15,13 @@ nscore
 .
 h
 "
+#
+include
+"
+nsIFile
+.
+h
+"
 nsresult
 NS_OpenAnonymousTemporaryFile
 (
