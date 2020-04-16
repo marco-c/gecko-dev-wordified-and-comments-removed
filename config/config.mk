@@ -2122,7 +2122,7 @@ NSINSTALL_PY
 :
 =
 (
-PYTHON
+PYTHON3
 )
 (
 abspath
