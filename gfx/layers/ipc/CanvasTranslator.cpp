@@ -901,6 +901,14 @@ mStream
 =
 nullptr
 ;
+CanvasTranslatorSet
+&
+canvasTranslators
+=
+CanvasTranslators
+(
+)
+;
 CanvasThreadHolder
 :
 :
@@ -913,9 +921,7 @@ forget
 )
 )
 ;
-CanvasTranslators
-(
-)
+canvasTranslators
 .
 RemoveEntry
 (
