@@ -1106,6 +1106,11 @@ states
 :
 :
 SELECTED
+|
+states
+:
+:
+TRAVERSED
 ;
 static
 const
