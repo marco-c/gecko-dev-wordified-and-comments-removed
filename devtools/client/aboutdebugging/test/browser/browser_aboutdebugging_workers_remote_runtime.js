@@ -650,7 +650,7 @@ const
 testTab
 =
 {
-getFavicon
+retrieveAsyncFormData
 :
 (
 )
@@ -665,6 +665,9 @@ traits
 :
 {
 getFavicon
+:
+true
+hasTabInfo
 :
 true
 }

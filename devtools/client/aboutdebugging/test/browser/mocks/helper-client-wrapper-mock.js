@@ -464,7 +464,7 @@ const
 mockAboutDebuggingTab
 =
 {
-getFavicon
+retrieveAsyncFormData
 :
 (
 )
@@ -479,6 +479,9 @@ traits
 :
 {
 getFavicon
+:
+true
+hasTabInfo
 :
 true
 }

@@ -610,7 +610,7 @@ url
 )
 {
 const
-tabs
+tabDescriptors
 =
 await
 client
@@ -622,9 +622,9 @@ listTabs
 )
 ;
 const
-targetFront
+tabDescriptor
 =
-tabs
+tabDescriptors
 .
 find
 (
@@ -640,6 +640,11 @@ url
 )
 ;
 return
-targetFront
+tabDescriptor
+?
+.
+getTarget
+(
+)
 ;
 }
