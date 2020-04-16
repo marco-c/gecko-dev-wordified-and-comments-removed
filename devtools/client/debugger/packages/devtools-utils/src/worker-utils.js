@@ -72,8 +72,7 @@ worker
 .
 onerror
 =
-(
-)
+err
 =
 >
 {
@@ -87,6 +86,9 @@ worker
 {
 url
 }
+err
+.
+message
 )
 ;
 }
