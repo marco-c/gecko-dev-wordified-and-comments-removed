@@ -4958,7 +4958,7 @@ bundle
 getStringArray
 (
 "
-permissions
+promptPermissions
 "
 )
 ;
