@@ -1021,7 +1021,7 @@ LayoutDeviceIntRect
 mLockedScreenRect
 ;
 LayoutDeviceIntRect
-mWidgetRect
+mWLBufferRect
 ;
 nsWaylandDisplay
 *
