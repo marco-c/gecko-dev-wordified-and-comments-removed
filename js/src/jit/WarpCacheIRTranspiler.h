@@ -78,6 +78,11 @@ GuardToObject
 \
 _
 (
+GuardToString
+)
+\
+_
+(
 LoadEnclosingEnvironment
 )
 \
@@ -104,6 +109,11 @@ LoadEnvironmentDynamicSlotResult
 _
 (
 LoadInt32ArrayLengthResult
+)
+\
+_
+(
+LoadStringLengthResult
 )
 \
 _
