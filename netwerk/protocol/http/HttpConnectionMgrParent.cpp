@@ -318,8 +318,6 @@ PrintDiagnostics
 (
 )
 {
-return
-;
 }
 nsresult
 HttpConnectionMgrParent
