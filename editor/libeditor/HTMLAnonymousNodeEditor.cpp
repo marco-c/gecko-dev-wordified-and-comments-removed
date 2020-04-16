@@ -1625,7 +1625,7 @@ IsInlineTableEditorEnabled
 {
 cellElement
 =
-GetElementOrParentByTagNameAtSelection
+GetInclusiveAncestorByTagNameAtSelection
 (
 *
 nsGkAtoms
