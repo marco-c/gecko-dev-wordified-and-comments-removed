@@ -4876,7 +4876,7 @@ aFrames
 mSampleRate
 )
 ;
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;

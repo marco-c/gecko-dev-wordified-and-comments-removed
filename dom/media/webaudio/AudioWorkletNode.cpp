@@ -2178,7 +2178,7 @@ Value
 aCallable
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -2490,7 +2490,7 @@ OutputCount
 )
 )
 ;
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;

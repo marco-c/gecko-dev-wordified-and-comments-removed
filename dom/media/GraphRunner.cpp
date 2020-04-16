@@ -302,7 +302,7 @@ aMixer
 >
 IterationResult
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;

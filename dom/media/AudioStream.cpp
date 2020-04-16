@@ -2453,7 +2453,7 @@ AudioBufferWriter
 aWriter
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -2652,7 +2652,7 @@ AudioBufferWriter
 aWriter
 )
 {
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
@@ -2987,7 +2987,7 @@ GetInputRate
 )
 )
 ;
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;

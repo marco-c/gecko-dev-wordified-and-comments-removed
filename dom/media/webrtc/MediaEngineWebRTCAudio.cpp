@@ -3770,7 +3770,7 @@ TrackTime
 aDesiredTime
 )
 {
-TRACE_AUDIO_CALLBACK_COMMENT
+TRACE_COMMENT
 (
 "
 SourceMediaTrack
@@ -5350,7 +5350,7 @@ OnGraphThread
 )
 )
 ;
-TRACE_AUDIO_CALLBACK
+TRACE
 (
 )
 ;
