@@ -71624,16 +71624,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT
-SystemGroup
-:
-:
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 NS_ENSURE_SUCCESS

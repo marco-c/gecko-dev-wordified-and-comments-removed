@@ -243,7 +243,7 @@ target
 =
 Services
 .
-systemGroupEventTarget
+mainThreadEventTarget
 ;
 let
 timeout1
@@ -636,7 +636,7 @@ target
 =
 Services
 .
-systemGroupEventTarget
+mainThreadEventTarget
 ;
 let
 interval1

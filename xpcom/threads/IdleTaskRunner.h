@@ -101,13 +101,6 @@ const
 MayStopProcessingCallbackType
 &
 aMayStopProcessing
-TaskCategory
-aTaskCategory
-=
-TaskCategory
-:
-:
-Count
 )
 ;
 NS_IMETHOD
@@ -174,8 +167,6 @@ const
 MayStopProcessingCallbackType
 &
 aMayStopProcessing
-TaskCategory
-aTaskCategory
 )
 ;
 ~
@@ -227,10 +218,6 @@ mTimerActive
 ;
 MayStopProcessingCallbackType
 mMayStopProcessing
-;
-const
-TaskCategory
-mTaskCategory
 ;
 const
 char

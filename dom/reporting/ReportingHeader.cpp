@@ -3728,16 +3728,6 @@ nsITimer
 :
 :
 TYPE_ONE_SHOT_LOW_PRIORITY
-SystemGroup
-:
-:
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 Unused

@@ -1571,16 +1571,6 @@ TYPE_REPEATING_PRECISE_CAN_SKIP
 "
 EverySecondTelemetryCallback_m
 "
-SystemGroup
-:
-:
-EventTargetFor
-(
-TaskCategory
-:
-:
-Other
-)
 )
 ;
 NS_ENSURE_SUCCESS
