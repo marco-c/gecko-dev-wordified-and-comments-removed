@@ -38204,6 +38204,8 @@ const
 ActiveScrolledRoot
 *
 aContainerASR
+bool
+aClippedToDisplayPort
 )
 :
 nsDisplayOwnLayer
@@ -38216,6 +38218,10 @@ aActiveScrolledRoot
 mContainerASR
 (
 aContainerASR
+)
+mClippedToDisplayPort
+(
+aClippedToDisplayPort
 )
 {
 MOZ_COUNT_CTOR
