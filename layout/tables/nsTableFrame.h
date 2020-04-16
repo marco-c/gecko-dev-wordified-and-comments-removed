@@ -2308,10 +2308,12 @@ public
 int32_t
 GetStartRowIndex
 (
+const
 nsTableRowGroupFrame
 *
 aRowGroupFrame
 )
+const
 ;
 int32_t
 GetRowCount

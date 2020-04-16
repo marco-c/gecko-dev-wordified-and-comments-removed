@@ -308,6 +308,7 @@ nsTableRowGroupFrame
 GetRowCount
 (
 )
+const
 {
 #
 ifdef
@@ -404,6 +405,7 @@ nsTableRowGroupFrame
 GetStartRowIndex
 (
 )
+const
 {
 int32_t
 result
