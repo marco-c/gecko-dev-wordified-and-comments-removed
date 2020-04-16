@@ -198,11 +198,9 @@ format
 package_version
 :
 "
-9
+10
 .
 0
-.
-1
 "
 clang_checkers
 :
