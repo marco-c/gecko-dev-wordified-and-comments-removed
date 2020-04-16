@@ -87,6 +87,15 @@ include
 "
 frontend
 /
+Parser
+.
+h
+"
+#
+include
+"
+frontend
+/
 smoosh_generated
 .
 h
