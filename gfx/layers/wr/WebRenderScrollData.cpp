@@ -110,6 +110,13 @@ ScrollableLayerGuid
 :
 NULL_SCROLL_ID
 )
+mStickyPosScrollContainerId
+(
+ScrollableLayerGuid
+:
+:
+NULL_SCROLL_ID
+)
 mRenderRoot
 (
 wr
