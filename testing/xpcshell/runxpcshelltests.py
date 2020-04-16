@@ -1002,6 +1002,19 @@ verboseIfFails
         
 self
 .
+headless
+=
+kwargs
+.
+get
+(
+'
+headless
+'
+)
+        
+self
+.
 passCount
 =
 0
@@ -4825,8 +4838,21 @@ get
 '
 headless
 '
-False
+'
+true
+'
+if
+self
+.
+headless
+else
+None
 )
+=
+=
+'
+true
+'
 :
             
 self
@@ -10300,6 +10326,19 @@ enable_webrender
         
 self
 .
+headless
+=
+options
+.
+get
+(
+'
+headless
+'
+)
+        
+self
+.
 testCount
 =
 0
@@ -10840,6 +10879,14 @@ verboseIfFails
 self
 .
 verboseIfFails
+            
+'
+headless
+'
+:
+self
+.
+headless
         
 }
         
