@@ -5720,7 +5720,7 @@ JSObject
 *
 obj
 =
-NewStringIteratorObject
+NewStringIterator
 (
 cx
 )
