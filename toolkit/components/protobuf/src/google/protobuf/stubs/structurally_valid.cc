@@ -3081,6 +3081,12 @@ uint8
 *
 srclimit8
 =
+str_length
+<
+7
+?
+isrc
+:
 srclimit
 -
 7
@@ -3661,6 +3667,12 @@ uint8
 *
 srclimit8
 =
+str_length
+<
+7
+?
+isrc
+:
 srclimit
 -
 7

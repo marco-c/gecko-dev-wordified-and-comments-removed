@@ -82,12 +82,7 @@ status
 /
 \
 const
-:
-:
-google
-:
-:
-protobuf
+PROTOBUF_NAMESPACE_ID
 :
 :
 util
@@ -103,7 +98,7 @@ expr
 \
 if
 (
-GOOGLE_PREDICT_FALSE
+PROTOBUF_PREDICT_FALSE
 (
 !
 _status
@@ -212,7 +207,7 @@ rexpr
 \
 if
 (
-GOOGLE_PREDICT_FALSE
+PROTOBUF_PREDICT_FALSE
 (
 !
 status

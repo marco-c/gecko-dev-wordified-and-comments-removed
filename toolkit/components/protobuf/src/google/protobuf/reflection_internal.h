@@ -54,14 +54,6 @@ RepeatedFieldAccessor
 {
 public
 :
-virtual
-~
-RandomAccessRepeatedFieldAccessor
-(
-)
-{
-}
-virtual
 Iterator
 *
 BeginIterator
@@ -72,6 +64,7 @@ Field
 data
 )
 const
+override
 {
 return
 PositionToIterator
@@ -80,7 +73,6 @@ PositionToIterator
 )
 ;
 }
-virtual
 Iterator
 *
 EndIterator
@@ -91,6 +83,7 @@ Field
 data
 )
 const
+override
 {
 return
 PositionToIterator
@@ -105,7 +98,6 @@ data
 )
 ;
 }
-virtual
 Iterator
 *
 CopyIterator
@@ -120,6 +112,7 @@ Iterator
 iterator
 )
 const
+override
 {
 return
 const_cast
@@ -132,7 +125,6 @@ iterator
 )
 ;
 }
-virtual
 Iterator
 *
 AdvanceIterator
@@ -146,6 +138,7 @@ Iterator
 iterator
 )
 const
+override
 {
 return
 PositionToIterator
@@ -159,7 +152,6 @@ iterator
 )
 ;
 }
-virtual
 bool
 EqualsIterator
 (
@@ -177,6 +169,7 @@ Iterator
 b
 )
 const
+override
 {
 return
 a
@@ -185,7 +178,6 @@ a
 b
 ;
 }
-virtual
 void
 DeleteIterator
 (
@@ -198,9 +190,9 @@ Iterator
 iterator
 )
 const
+override
 {
 }
-virtual
 const
 Value
 *
@@ -219,6 +211,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 Get
@@ -238,6 +231,15 @@ scratch_space
 )
 ;
 }
+protected
+:
+~
+RandomAccessRepeatedFieldAccessor
+(
+)
+=
+default
+;
 private
 :
 static
@@ -300,14 +302,6 @@ RepeatedFieldWrapper
 )
 {
 }
-virtual
-~
-RepeatedFieldWrapper
-(
-)
-{
-}
-virtual
 bool
 IsEmpty
 (
@@ -317,6 +311,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -330,7 +325,6 @@ empty
 )
 ;
 }
-virtual
 int
 Size
 (
@@ -340,6 +334,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -353,7 +348,6 @@ size
 )
 ;
 }
-virtual
 const
 Value
 *
@@ -370,6 +364,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 ConvertFromT
@@ -388,7 +383,6 @@ scratch_space
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -397,6 +391,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -409,7 +404,6 @@ Clear
 )
 ;
 }
-virtual
 void
 Set
 (
@@ -424,6 +418,7 @@ Value
 value
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -441,7 +436,6 @@ value
 )
 ;
 }
-virtual
 void
 Add
 (
@@ -454,6 +448,7 @@ Value
 value
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -470,7 +465,6 @@ value
 )
 ;
 }
-virtual
 void
 RemoveLast
 (
@@ -479,6 +473,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -491,7 +486,6 @@ RemoveLast
 )
 ;
 }
-virtual
 void
 SwapElements
 (
@@ -504,6 +498,7 @@ int
 index2
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -520,6 +515,13 @@ index2
 }
 protected
 :
+~
+RepeatedFieldWrapper
+(
+)
+=
+default
+;
 typedef
 RepeatedField
 <
@@ -618,19 +620,6 @@ RandomAccessRepeatedFieldAccessor
 {
 public
 :
-RepeatedPtrFieldWrapper
-(
-)
-{
-}
-virtual
-~
-RepeatedPtrFieldWrapper
-(
-)
-{
-}
-virtual
 bool
 IsEmpty
 (
@@ -640,6 +629,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -653,7 +643,6 @@ empty
 )
 ;
 }
-virtual
 int
 Size
 (
@@ -663,6 +652,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -676,7 +666,6 @@ size
 )
 ;
 }
-virtual
 const
 Value
 *
@@ -693,6 +682,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 ConvertFromT
@@ -711,7 +701,6 @@ scratch_space
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -720,6 +709,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -732,7 +722,6 @@ Clear
 )
 ;
 }
-virtual
 void
 Set
 (
@@ -747,6 +736,7 @@ Value
 value
 )
 const
+override
 {
 ConvertToT
 (
@@ -764,7 +754,6 @@ index
 )
 ;
 }
-virtual
 void
 Add
 (
@@ -777,6 +766,7 @@ Value
 value
 )
 const
+override
 {
 T
 *
@@ -805,7 +795,6 @@ allocated
 )
 ;
 }
-virtual
 void
 RemoveLast
 (
@@ -814,6 +803,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -826,7 +816,6 @@ RemoveLast
 )
 ;
 }
-virtual
 void
 SwapElements
 (
@@ -839,6 +828,7 @@ int
 index2
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -855,6 +845,13 @@ index2
 }
 protected
 :
+~
+RepeatedPtrFieldWrapper
+(
+)
+=
+default
+;
 typedef
 RepeatedPtrField
 <
@@ -959,6 +956,7 @@ const
 ;
 class
 MapFieldAccessor
+final
 :
 public
 RandomAccessRepeatedFieldAccessor
@@ -977,7 +975,6 @@ MapFieldAccessor
 )
 {
 }
-virtual
 bool
 IsEmpty
 (
@@ -987,6 +984,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -1000,7 +998,6 @@ empty
 )
 ;
 }
-virtual
 int
 Size
 (
@@ -1010,6 +1007,7 @@ Field
 data
 )
 const
+override
 {
 return
 GetRepeatedField
@@ -1023,7 +1021,6 @@ size
 )
 ;
 }
-virtual
 const
 Value
 *
@@ -1040,6 +1037,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 ConvertFromEntry
@@ -1058,7 +1056,6 @@ scratch_space
 )
 ;
 }
-virtual
 void
 Clear
 (
@@ -1067,6 +1064,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -1079,7 +1077,6 @@ Clear
 )
 ;
 }
-virtual
 void
 Set
 (
@@ -1094,6 +1091,7 @@ Value
 value
 )
 const
+override
 {
 ConvertToEntry
 (
@@ -1111,7 +1109,6 @@ index
 )
 ;
 }
-virtual
 void
 Add
 (
@@ -1124,6 +1121,7 @@ Value
 value
 )
 const
+override
 {
 Message
 *
@@ -1152,7 +1150,6 @@ allocated
 )
 ;
 }
-virtual
 void
 RemoveLast
 (
@@ -1161,6 +1158,7 @@ Field
 data
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -1173,7 +1171,6 @@ RemoveLast
 )
 ;
 }
-virtual
 void
 SwapElements
 (
@@ -1186,6 +1183,7 @@ int
 index2
 )
 const
+override
 {
 MutableRepeatedField
 (
@@ -1200,7 +1198,6 @@ index2
 )
 ;
 }
-virtual
 void
 Swap
 (
@@ -1219,6 +1216,7 @@ Field
 other_data
 )
 const
+override
 {
 GOOGLE_CHECK
 (
@@ -1424,6 +1422,7 @@ T
 >
 class
 RepeatedFieldPrimitiveAccessor
+final
 :
 public
 RepeatedFieldWrapper
@@ -1455,14 +1454,6 @@ RepeatedFieldPrimitiveAccessor
 )
 {
 }
-virtual
-~
-RepeatedFieldPrimitiveAccessor
-(
-)
-{
-}
-virtual
 void
 Swap
 (
@@ -1481,6 +1472,7 @@ Field
 other_data
 )
 const
+override
 {
 GOOGLE_CHECK
 (
@@ -1507,7 +1499,6 @@ other_data
 }
 protected
 :
-virtual
 T
 ConvertToT
 (
@@ -1517,6 +1508,7 @@ Value
 value
 )
 const
+override
 {
 return
 *
@@ -1531,7 +1523,6 @@ value
 )
 ;
 }
-virtual
 const
 Value
 *
@@ -1546,6 +1537,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 static_cast
@@ -1564,10 +1556,14 @@ value
 ;
 class
 RepeatedPtrFieldStringAccessor
+final
 :
 public
 RepeatedPtrFieldWrapper
 <
+std
+:
+:
 string
 >
 {
@@ -1592,14 +1588,6 @@ RepeatedPtrFieldStringAccessor
 )
 {
 }
-virtual
-~
-RepeatedPtrFieldStringAccessor
-(
-)
-{
-}
-virtual
 void
 Swap
 (
@@ -1618,6 +1606,7 @@ Field
 other_data
 )
 const
+override
 {
 if
 (
@@ -1646,6 +1635,9 @@ else
 {
 RepeatedPtrField
 <
+std
+:
+:
 string
 >
 tmp
@@ -1689,6 +1681,9 @@ i
 {
 Add
 <
+std
+:
+:
 string
 >
 (
@@ -1698,6 +1693,9 @@ other_mutator
 >
 Get
 <
+std
+:
+:
 string
 >
 (
@@ -1744,6 +1742,9 @@ other_mutator
 >
 Add
 <
+std
+:
+:
 string
 >
 (
@@ -1761,7 +1762,9 @@ i
 }
 protected
 :
-virtual
+std
+:
+:
 string
 *
 New
@@ -1771,15 +1774,18 @@ Value
 *
 )
 const
+override
 {
 return
 new
+std
+:
+:
 string
 (
 )
 ;
 }
-virtual
 void
 ConvertToT
 (
@@ -1787,11 +1793,15 @@ const
 Value
 *
 value
+std
+:
+:
 string
 *
 result
 )
 const
+override
 {
 *
 result
@@ -1800,6 +1810,9 @@ result
 static_cast
 <
 const
+std
+:
+:
 string
 *
 >
@@ -1808,13 +1821,15 @@ value
 )
 ;
 }
-virtual
 const
 Value
 *
 ConvertFromT
 (
 const
+std
+:
+:
 string
 &
 value
@@ -1823,6 +1838,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 static_cast
@@ -1841,6 +1857,7 @@ value
 ;
 class
 RepeatedPtrFieldMessageAccessor
+final
 :
 public
 RepeatedPtrFieldWrapper
@@ -1863,14 +1880,6 @@ RepeatedPtrFieldMessageAccessor
 )
 {
 }
-virtual
-~
-RepeatedPtrFieldMessageAccessor
-(
-)
-{
-}
-virtual
 void
 Swap
 (
@@ -1889,6 +1898,7 @@ Field
 other_data
 )
 const
+override
 {
 GOOGLE_CHECK
 (
@@ -1915,7 +1925,6 @@ other_data
 }
 protected
 :
-virtual
 Message
 *
 New
@@ -1926,6 +1935,7 @@ Value
 value
 )
 const
+override
 {
 return
 static_cast
@@ -1944,7 +1954,6 @@ New
 )
 ;
 }
-virtual
 void
 ConvertToT
 (
@@ -1957,6 +1966,7 @@ Message
 result
 )
 const
+override
 {
 result
 -
@@ -1976,7 +1986,6 @@ value
 )
 ;
 }
-virtual
 const
 Value
 *
@@ -1991,6 +2000,7 @@ Value
 scratch_space
 )
 const
+override
 {
 return
 static_cast

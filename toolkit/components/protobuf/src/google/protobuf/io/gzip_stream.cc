@@ -884,7 +884,7 @@ return
 ok
 ;
 }
-int64
+int64_t
 GzipInputStream
 :
 :
@@ -1495,7 +1495,7 @@ avail_in
 count
 ;
 }
-int64
+int64_t
 GzipOutputStream
 :
 :

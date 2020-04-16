@@ -162,7 +162,7 @@ toolkit
 /
 components
 /
-downloads
+reputationservice
 /
 chromium
 /

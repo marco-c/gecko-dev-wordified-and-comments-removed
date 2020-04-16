@@ -609,7 +609,7 @@ nanos
 else
 if
 (
-durations
+duration
 .
 seconds
 >

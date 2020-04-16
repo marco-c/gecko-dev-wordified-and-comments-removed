@@ -2063,7 +2063,7 @@ value_type
 second_type
 >
 (
-NULL
+nullptr
 )
 )
 )
@@ -2195,7 +2195,7 @@ value_type
 second_type
 >
 (
-NULL
+nullptr
 )
 )
 )
@@ -2952,7 +2952,6 @@ value_type
 :
 second_type
 *
-const
 InsertOrReturnExisting
 (
 Collection
@@ -2999,7 +2998,7 @@ second
 )
 {
 return
-NULL
+nullptr
 ;
 }
 else
@@ -3029,7 +3028,6 @@ value_type
 :
 second_type
 *
-const
 InsertOrReturnExisting
 (
 Collection
@@ -3137,7 +3135,7 @@ end
 )
 {
 return
-NULL
+nullptr
 ;
 }
 typename
@@ -3191,7 +3189,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -3260,7 +3258,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -3319,6 +3317,9 @@ const
 MapContainer
 &
 map_container
+std
+:
+:
 vector
 <
 KeyType
@@ -3332,7 +3333,7 @@ GOOGLE_CHECK
 key_container
 !
 =
-NULL
+nullptr
 )
 ;
 if
@@ -3424,7 +3425,7 @@ GOOGLE_CHECK
 value_container
 !
 =
-NULL
+nullptr
 )
 ;
 for
@@ -3483,6 +3484,9 @@ const
 MapContainer
 &
 map_container
+std
+:
+:
 vector
 <
 ValueType
@@ -3496,7 +3500,7 @@ GOOGLE_CHECK
 value_container
 !
 =
-NULL
+nullptr
 )
 ;
 if
