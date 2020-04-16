@@ -245,6 +245,13 @@ QueueNavigationTimingEntry
 )
 override
 ;
+bool
+CrossOriginIsolated
+(
+)
+const
+override
+;
 protected
 :
 ~
@@ -331,6 +338,10 @@ JSObject
 *
 >
 mMozMemory
+;
+const
+bool
+mCrossOriginIsolated
 ;
 }
 ;

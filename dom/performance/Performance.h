@@ -464,6 +464,15 @@ QueueNavigationTimingEntry
 =
 0
 ;
+virtual
+bool
+CrossOriginIsolated
+(
+)
+const
+=
+0
+;
 protected
 :
 explicit

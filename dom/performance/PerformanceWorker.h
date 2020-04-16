@@ -244,6 +244,13 @@ workers
 )
 ;
 }
+bool
+CrossOriginIsolated
+(
+)
+const
+override
+;
 protected
 :
 ~
