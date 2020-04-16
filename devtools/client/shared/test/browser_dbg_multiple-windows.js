@@ -278,6 +278,8 @@ tabs
 0
 ]
 .
+descriptorFront
+.
 selected
 "
 The
@@ -298,6 +300,8 @@ tabs
 [
 1
 ]
+.
+descriptorFront
 .
 selected
 "
@@ -458,6 +462,8 @@ tabs
 0
 ]
 .
+descriptorFront
+.
 selected
 "
 The
@@ -480,6 +486,8 @@ tabs
 1
 ]
 .
+descriptorFront
+.
 selected
 "
 The
@@ -499,6 +507,8 @@ tabs
 [
 2
 ]
+.
+descriptorFront
 .
 selected
 "
@@ -596,6 +606,8 @@ tabs
 0
 ]
 .
+descriptorFront
+.
 selected
 "
 The
@@ -618,6 +630,8 @@ tabs
 1
 ]
 .
+descriptorFront
+.
 selected
 "
 The
@@ -639,6 +653,8 @@ tabs
 [
 2
 ]
+.
+descriptorFront
 .
 selected
 "
@@ -783,6 +799,8 @@ tabs
 [
 0
 ]
+.
+descriptorFront
 .
 selected
 "
