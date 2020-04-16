@@ -152,6 +152,9 @@ Run
 (
 )
 {
+dom
+:
+:
 AutoJSAPI
 jsapi
 ;

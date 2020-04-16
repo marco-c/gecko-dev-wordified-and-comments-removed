@@ -10,6 +10,13 @@ h
 #
 include
 "
+nsAppRunner
+.
+h
+"
+#
+include
+"
 nsSystemInfo
 .
 h

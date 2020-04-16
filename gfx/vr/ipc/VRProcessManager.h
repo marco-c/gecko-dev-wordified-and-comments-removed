@@ -11,6 +11,17 @@ VRProcessParent
 .
 h
 "
+#
+include
+"
+mozilla
+/
+ipc
+/
+ProtocolUtils
+.
+h
+"
 namespace
 mozilla
 {
