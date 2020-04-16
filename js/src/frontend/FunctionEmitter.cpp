@@ -475,6 +475,15 @@ bce_
 -
 >
 emittingRunOnceLambda
+&
+&
+!
+funbox_
+-
+>
+shouldSuppressRunOnce
+(
+)
 )
 {
 funbox_
