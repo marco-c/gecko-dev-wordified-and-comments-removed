@@ -138,6 +138,13 @@ nsICookieService
 .
 h
 "
+#
+include
+"
+nsNetUtil
+.
+h
+"
 namespace
 mozilla
 {
