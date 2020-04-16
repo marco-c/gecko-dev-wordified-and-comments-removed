@@ -5,6 +5,8 @@ os
 import
 signal
 import
+six
+import
 subprocess
 from
 mozfile
@@ -121,15 +123,11 @@ json
 .
 loads
 (
-issue
+six
 .
-decode
+ensure_text
 (
-"
-utf
--
-8
-"
+issue
 )
 )
             

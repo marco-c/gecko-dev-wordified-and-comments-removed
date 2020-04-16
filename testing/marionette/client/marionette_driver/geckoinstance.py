@@ -3,6 +3,8 @@ __future__
 import
 absolute_import
 import
+codecs
+import
 os
 import
 sys
@@ -27,6 +29,8 @@ mozrunner
 import
 Runner
 FennecEmulatorRunner
+import
+six
 from
 six
 import
@@ -1756,6 +1760,12 @@ NullOutput
 (
 )
 ]
+            
+"
+universal_newlines
+"
+:
+True
         
 }
         
@@ -1770,6 +1780,12 @@ gecko_log
 "
 :
             
+if
+six
+.
+PY2
+:
+                
 process_args
 [
 "
@@ -1777,9 +1793,49 @@ stream
 "
 ]
 =
+codecs
+.
+getwriter
+(
+'
+utf
+-
+8
+'
+)
+(
 sys
 .
 stdout
+)
+            
+else
+:
+                
+process_args
+[
+"
+stream
+"
+]
+=
+codecs
+.
+getwriter
+(
+'
+utf
+-
+8
+'
+)
+(
+sys
+.
+stdout
+.
+buffer
+)
         
 else
 :
@@ -2697,6 +2753,12 @@ NullOutput
 (
 )
 ]
+            
+"
+universal_newlines
+"
+:
+True
         
 }
         
