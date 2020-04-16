@@ -5232,6 +5232,7 @@ return
 let
 cond_args
 =
+{
 cond_inst_args
 .
 as_slice
@@ -5249,10 +5250,12 @@ value_lists
 to_vec
 (
 )
+}
 ;
 let
 term_args
 =
+{
 term_inst_args
 .
 as_slice
@@ -5270,6 +5273,7 @@ value_lists
 to_vec
 (
 )
+}
 ;
 match
 kind
