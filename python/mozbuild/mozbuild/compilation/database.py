@@ -5,8 +5,6 @@ absolute_import
 print_function
 import
 os
-import
-types
 from
 mozbuild
 .
@@ -1163,9 +1161,7 @@ if
 isinstance
 (
 value
-types
-.
-StringTypes
+str
 )
 :
                 
