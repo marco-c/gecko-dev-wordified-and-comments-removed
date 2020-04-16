@@ -69,7 +69,7 @@ aDocument
 void
 Init
 (
-nsTArray
+Sequence
 <
 nsString
 >
