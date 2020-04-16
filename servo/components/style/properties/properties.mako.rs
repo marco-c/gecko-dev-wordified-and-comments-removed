@@ -1984,6 +1984,8 @@ T
 for
 ty
 in
+sorted
+(
 set
 (
 x
@@ -1996,6 +1998,7 @@ for
 x
 in
 others
+)
 )
 :
 impl
@@ -4836,10 +4839,13 @@ LogicalGroup
 for
 group
 in
+sorted
+(
 logical_groups
 .
 keys
 (
+)
 )
 :
 {

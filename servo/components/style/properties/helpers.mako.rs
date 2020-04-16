@@ -4462,7 +4462,10 @@ aliases
 .
 join
 (
+sorted
+(
 aliases
+)
 )
 }
 "
