@@ -4625,7 +4625,7 @@ mFocusedValue
 Decimal
 mRangeThumbDragStartValue
 ;
-nsAutoPtr
+UniquePtr
 <
 DateTimeValue
 >

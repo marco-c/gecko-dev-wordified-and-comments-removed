@@ -25,7 +25,9 @@ h
 #
 include
 "
-nsAutoPtr
+mozilla
+/
+UniquePtr
 .
 h
 "
@@ -1528,7 +1530,7 @@ bool
 >
 mValueMissingRadioGroups
 ;
-nsAutoPtr
+UniquePtr
 <
 HTMLFormSubmission
 >
