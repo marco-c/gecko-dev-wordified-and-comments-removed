@@ -1050,6 +1050,14 @@ nsIRequest
 aRequest
 )
 ;
+nsresult
+CheckSandboxFlags
+(
+nsDocShellLoadState
+*
+aLoadState
+)
+;
 void
 DisplayLoadError
 (
