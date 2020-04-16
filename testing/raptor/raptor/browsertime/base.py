@@ -1338,10 +1338,9 @@ false
 )
         
 if
-not
 self
 .
-no_condprof
+using_condprof
 :
             
 self
