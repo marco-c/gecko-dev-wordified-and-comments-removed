@@ -235,13 +235,6 @@ setClass
 OuterWrapperClass
 )
 ;
-options
-.
-setSingleton
-(
-true
-)
-;
 JS
 :
 :
@@ -255,7 +248,7 @@ js
 Wrapper
 :
 :
-New
+NewSingleton
 (
 cx
 global
@@ -533,7 +526,7 @@ js
 Wrapper
 :
 :
-New
+NewSingleton
 (
 cx
 compartment2
