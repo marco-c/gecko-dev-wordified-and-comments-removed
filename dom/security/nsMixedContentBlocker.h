@@ -158,9 +158,6 @@ aContentType
 nsIURI
 *
 aContentLocation
-nsIURI
-*
-aRequestingLocation
 nsISupports
 *
 aRequestingContext
