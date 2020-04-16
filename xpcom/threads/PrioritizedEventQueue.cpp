@@ -1049,7 +1049,7 @@ mHighQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 aHypotheticalInputEventDelay
 )
@@ -1080,7 +1080,7 @@ mInputQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 aHypotheticalInputEventDelay
 )
@@ -1105,7 +1105,7 @@ mMediumHighQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 )
 ;
@@ -1131,7 +1131,7 @@ mNormalQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 )
 ;
@@ -1202,7 +1202,7 @@ mDeferredTimersQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 )
 ;
@@ -1219,7 +1219,7 @@ mIdleQueue
 >
 GetEvent
 (
-aPriority
+nullptr
 aProofOfLock
 )
 ;
@@ -1277,6 +1277,16 @@ TimeDuration
 )
 ;
 }
+MOZ_ASSERT_IF
+(
+aPriority
+*
+aPriority
+=
+=
+queue
+)
+;
 return
 event
 .
