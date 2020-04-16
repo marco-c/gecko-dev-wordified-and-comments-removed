@@ -87,6 +87,7 @@ nsRect
 &
 aLineBounds
 )
+const
 =
 0
 ;

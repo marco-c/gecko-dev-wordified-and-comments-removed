@@ -7294,6 +7294,7 @@ nsRect
 &
 aLineBounds
 )
+const
 override
 ;
 virtual
