@@ -2682,6 +2682,7 @@ GetTextRun
 TextRunType
 aWhichTextRun
 )
+const
 {
 if
 (
@@ -2710,6 +2711,7 @@ gfxTextRun
 GetUninflatedTextRun
 (
 )
+const
 ;
 void
 SetTextRun

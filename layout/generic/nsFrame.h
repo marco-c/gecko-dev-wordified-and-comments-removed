@@ -903,6 +903,7 @@ aTrimSpaces
 )
 override
 ;
+static
 bool
 BreakWordBetweenPunctuation
 (

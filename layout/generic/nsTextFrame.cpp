@@ -24515,6 +24515,7 @@ nsTextFrame
 GetUninflatedTextRun
 (
 )
+const
 {
 return
 GetProperty
