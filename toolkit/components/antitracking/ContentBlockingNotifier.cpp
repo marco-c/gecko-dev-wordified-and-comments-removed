@@ -872,7 +872,6 @@ ContentBlockingNotifier
 OnEvent
 (
 aTrackingChannel
-aTrackingChannel
 false
 nsIWebProgressListener
 :
@@ -930,7 +929,6 @@ ContentBlockingNotifier
 OnEvent
 (
 aTrackingChannel
-aTrackingChannel
 false
 nsIWebProgressListener
 :
@@ -958,7 +956,6 @@ ContentBlockingNotifier
 :
 OnEvent
 (
-aTrackingChannel
 aTrackingChannel
 false
 nsIWebProgressListener
@@ -1153,7 +1150,6 @@ ContentBlockingNotifier
 OnEvent
 (
 aTrackingChannel
-aTrackingChannel
 true
 aRejectedReason
 trackingOrigin
@@ -1177,9 +1173,6 @@ aURI
 void
 NotifyEventInChild
 (
-nsIChannel
-*
-aReportingChannel
 nsIChannel
 *
 aTrackingChannel
@@ -1218,7 +1211,7 @@ loadContext
 ;
 NS_QueryNotificationCallbacks
 (
-aReportingChannel
+aTrackingChannel
 loadContext
 )
 ;
@@ -1322,7 +1315,7 @@ browserChild
 NotifyContentBlockingEvent
 (
 aRejectedReason
-aReportingChannel
+aTrackingChannel
 aBlocked
 aTrackingOrigin
 trackingFullHashes
@@ -1333,9 +1326,6 @@ aReason
 void
 NotifyEventInParent
 (
-nsIChannel
-*
-aReportingChannel
 nsIChannel
 *
 aTrackingChannel
@@ -1372,7 +1362,7 @@ nsILoadInfo
 >
 loadInfo
 =
-aReportingChannel
+aTrackingChannel
 -
 >
 LoadInfo
@@ -1491,7 +1481,7 @@ wgp
 NotifyContentBlockingEvent
 (
 aRejectedReason
-aReportingChannel
+aTrackingChannel
 aBlocked
 aTrackingOrigin
 trackingFullHashes
@@ -2041,6 +2031,15 @@ GetChannel
 (
 )
 ;
+if
+(
+!
+channel
+)
+{
+return
+;
+}
 nsIURI
 *
 uri
@@ -2069,7 +2068,7 @@ OnEvent
 (
 nsIChannel
 *
-aChannel
+aTrackingChannel
 uint32_t
 aRejectedReason
 )
@@ -2081,7 +2080,7 @@ XRE_IsParentProcess
 )
 &
 &
-aChannel
+aTrackingChannel
 )
 ;
 nsCOMPtr
@@ -2090,7 +2089,7 @@ nsIURI
 >
 uri
 ;
-aChannel
+aTrackingChannel
 -
 >
 GetURI
@@ -2128,8 +2127,7 @@ ContentBlockingNotifier
 :
 OnEvent
 (
-aChannel
-aChannel
+aTrackingChannel
 true
 aRejectedReason
 trackingOrigin
@@ -2142,9 +2140,6 @@ ContentBlockingNotifier
 :
 OnEvent
 (
-nsIChannel
-*
-aReportingChannel
 nsIChannel
 *
 aTrackingChannel
@@ -2174,7 +2169,6 @@ XRE_IsParentProcess
 {
 NotifyEventInParent
 (
-aReportingChannel
 aTrackingChannel
 aBlocked
 aRejectedReason
@@ -2187,7 +2181,6 @@ else
 {
 NotifyEventInChild
 (
-aReportingChannel
 aTrackingChannel
 aBlocked
 aRejectedReason
