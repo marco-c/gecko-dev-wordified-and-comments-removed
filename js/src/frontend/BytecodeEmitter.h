@@ -1654,6 +1654,14 @@ n
 ;
 MOZ_MUST_USE
 bool
+emitPickN
+(
+uint8_t
+n
+)
+;
+MOZ_MUST_USE
+bool
 emitCheckIsObj
 (
 CheckIsObjectKind
