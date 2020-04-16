@@ -39624,7 +39624,7 @@ const
 char
 *
 aPrefix
-uint32_t
+ListFlags
 aFlags
 )
 const
@@ -40653,7 +40653,7 @@ const
 char
 *
 aPrefix
-uint32_t
+ListFlags
 aFlags
 )
 const
