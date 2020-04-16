@@ -222,8 +222,6 @@ _l10n
 new
 DOMLocalization
 (
-[
-]
 )
 ;
 this
