@@ -1,3 +1,11 @@
+#
+[
+derive
+(
+Copy
+Clone
+)
+]
 pub
 struct
 Prefix
@@ -113,7 +121,6 @@ pub
 fn
 len
 (
-&
 self
 )
 -
@@ -128,7 +135,6 @@ pub
 fn
 prefix
 (
-&
 self
 )
 -
@@ -143,7 +149,6 @@ pub
 fn
 cmp_prefix
 (
-&
 self
 b
 :

@@ -171,7 +171,7 @@ new
 (
 max_table_size
 :
-u32
+u64
 max_blocked_streams
 :
 u16

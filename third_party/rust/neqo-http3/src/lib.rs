@@ -591,7 +591,7 @@ QpackError
 QpackError
 :
 :
-EncoderStreamError
+EncoderStream
 )
 0x202
 =
@@ -604,7 +604,7 @@ QpackError
 QpackError
 :
 :
-DecoderStreamError
+DecoderStream
 )
 _
 =

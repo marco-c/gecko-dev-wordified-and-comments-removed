@@ -1180,7 +1180,7 @@ Error
 const
 MAX_TABLE_SIZE
 :
-u32
+u64
 =
 65536
 ;

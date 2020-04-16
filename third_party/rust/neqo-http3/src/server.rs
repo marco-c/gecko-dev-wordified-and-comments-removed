@@ -136,7 +136,7 @@ server
 Server
 max_table_size
 :
-u32
+u64
 max_blocked_streams
 :
 u16
@@ -251,7 +251,7 @@ ConnectionIdManager
 >
 max_table_size
 :
-u32
+u64
 max_blocked_streams
 :
 u16

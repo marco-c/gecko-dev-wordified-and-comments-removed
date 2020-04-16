@@ -372,8 +372,6 @@ enc
 encode_varint
 (
 HTTP3_UNI_STREAM_TYPE_CONTROL
-as
-u64
 )
 ;
 self

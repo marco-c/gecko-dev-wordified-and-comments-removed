@@ -9,7 +9,7 @@ u16
 pub
 prefix_len
 :
-u16
+u8
 }
 pub
 struct

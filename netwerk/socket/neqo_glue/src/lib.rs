@@ -197,7 +197,7 @@ remote_addr
 nsACString
 max_table_size
 :
-u32
+u64
 max_blocked_streams
 :
 u16
@@ -651,7 +651,7 @@ remote_addr
 nsACString
 max_table_size
 :
-u32
+u64
 max_blocked_streams
 :
 u16

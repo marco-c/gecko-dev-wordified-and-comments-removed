@@ -527,7 +527,7 @@ Err
 Error
 :
 :
-DecoderStreamError
+DecoderStream
 )
 }
 DecoderInstructionReaderState
@@ -708,7 +708,7 @@ Err
 Error
 :
 :
-DecoderStreamError
+DecoderStream
 )
 }
 }
@@ -729,7 +729,12 @@ use
 super
 :
 :
-*
+{
+DecoderInstruction
+DecoderInstructionReader
+Error
+QPData
+}
 ;
 use
 crate
@@ -1182,7 +1187,7 @@ Err
 Error
 :
 :
-DecoderStreamError
+DecoderStream
 )
 )
 ;
@@ -1246,7 +1251,7 @@ Err
 Error
 :
 :
-DecoderStreamError
+DecoderStream
 )
 )
 ;
@@ -1310,7 +1315,7 @@ Err
 Error
 :
 :
-DecoderStreamError
+DecoderStream
 )
 )
 ;
