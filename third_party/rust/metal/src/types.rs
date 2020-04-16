@@ -7,6 +7,15 @@ foundation
 :
 NSUInteger
 ;
+use
+std
+:
+:
+default
+:
+:
+Default
+;
 #
 [
 repr
@@ -24,6 +33,7 @@ Debug
 Eq
 PartialEq
 Hash
+Default
 )
 ]
 pub
@@ -60,6 +70,7 @@ Debug
 Eq
 PartialEq
 Hash
+Default
 )
 ]
 pub
@@ -96,6 +107,7 @@ Debug
 Eq
 PartialEq
 Hash
+Default
 )
 ]
 pub

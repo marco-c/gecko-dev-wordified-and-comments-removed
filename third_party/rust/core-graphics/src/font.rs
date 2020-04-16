@@ -1,10 +1,4 @@
 use
-std
-:
-:
-ptr
-;
-use
 core_foundation
 :
 :
@@ -660,13 +654,10 @@ tag
 }
 ;
 if
-data_ref
 !
-=
-ptr
-:
-:
-null
+data_ref
+.
+is_null
 (
 )
 {

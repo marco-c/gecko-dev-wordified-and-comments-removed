@@ -101,8 +101,6 @@ gleam
 0
 .
 10
-.
-0
 "
 glutin
 =
@@ -386,9 +384,7 @@ graphics
 "
 0
 .
-17
-.
-1
+19
 "
 core
 -
@@ -397,9 +393,7 @@ foundation
 "
 0
 .
-6
-.
-4
+7
 "
 [
 features
@@ -505,7 +499,7 @@ loader
 "
 0
 .
-7
+9
 "
 #
 Configuration

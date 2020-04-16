@@ -124,9 +124,9 @@ version
 "
 0
 .
-6
+7
 .
-2
+0
 "
 authors
 =
@@ -153,8 +153,7 @@ to
 Core
 Foundation
 for
-OS
-X
+macOS
 "
 homepage
 =
