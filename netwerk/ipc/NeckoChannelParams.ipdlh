@@ -372,9 +372,6 @@ bool
 allowDeprecatedSystemRequests
 ;
 bool
-parserCreatedScript
-;
-bool
 isFromProcessingFrameAttributes
 ;
 CookieJarSettingsArgs
@@ -416,9 +413,6 @@ httpsOnlyStatus
 ;
 bool
 allowDeprecatedSystemRequests
-;
-bool
-parserCreatedScript
 ;
 bool
 serviceWorkerTaintingSynthesized

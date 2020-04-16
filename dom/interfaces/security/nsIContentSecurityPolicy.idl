@@ -2225,6 +2225,9 @@ in
 nsIURI
 aContentLocation
 in
+nsISupports
+aContext
+in
 ACString
 aMimeTypeGuess
 in
@@ -2236,9 +2239,6 @@ aSendViolationReports
 in
 AString
 aNonce
-in
-boolean
-aParserCreated
 )
 ;
 %

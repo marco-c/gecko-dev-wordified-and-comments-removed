@@ -552,8 +552,6 @@ aHttpsOnlyStatus
 bool
 aAllowDeprecatedSystemRequests
 bool
-aParserCreatedScript
-bool
 aHasStoragePermission
 uint32_t
 aRequestBlockingReason
@@ -966,9 +964,6 @@ mHttpsOnlyStatus
 ;
 bool
 mAllowDeprecatedSystemRequests
-;
-bool
-mParserCreatedScript
 ;
 bool
 mHasStoragePermission

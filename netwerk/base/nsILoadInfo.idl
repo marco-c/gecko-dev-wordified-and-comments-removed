@@ -872,13 +872,6 @@ allowDeprecatedSystemRequests
 [
 infallible
 ]
-attribute
-boolean
-parserCreatedScript
-;
-[
-infallible
-]
 readonly
 attribute
 boolean
