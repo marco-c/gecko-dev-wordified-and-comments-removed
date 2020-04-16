@@ -10,13 +10,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsJARProtocolHandler
 .
 h

@@ -1,13 +1,6 @@
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 sqlite3
 .
 h
