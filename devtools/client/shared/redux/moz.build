@@ -25,11 +25,6 @@ subscriber
 js
 '
 '
-subscriber
-.
-js
-'
-'
 visibility
 -
 handler
