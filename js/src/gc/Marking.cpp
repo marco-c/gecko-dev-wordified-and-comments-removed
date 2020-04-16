@@ -5427,7 +5427,7 @@ TraceEdge
 (
 trc
 &
-base_
+headerAndBase_
 "
 base
 "
