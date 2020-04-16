@@ -59,6 +59,13 @@ CacheOpChild
 .
 h
 "
+#
+include
+"
+CacheWorkerRef
+.
+h
+"
 namespace
 mozilla
 {
