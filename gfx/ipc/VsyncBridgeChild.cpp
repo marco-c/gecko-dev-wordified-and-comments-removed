@@ -23,6 +23,17 @@ ContentChild
 .
 h
 "
+#
+include
+"
+mozilla
+/
+gfx
+/
+GPUProcessManager
+.
+h
+"
 namespace
 mozilla
 {
