@@ -7522,14 +7522,10 @@ timeStamp
 nsRFPService
 :
 :
-ReduceTimePrecisionAsMSecs
+ReduceTimePrecisionAsMSecsRFP
 (
 timeStamp
 0
-TimerPrecisionType
-:
-:
-RFPOnly
 )
 ;
 }
