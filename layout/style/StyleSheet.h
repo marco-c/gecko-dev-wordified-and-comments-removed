@@ -923,7 +923,7 @@ GetParentSheet
 const
 {
 return
-mParent
+mParentSheet
 ;
 }
 void
@@ -1580,7 +1580,7 @@ sheet
 sheet
 -
 >
-mParent
+mParentSheet
 )
 {
 if
@@ -2041,7 +2041,7 @@ aRule
 ;
 StyleSheet
 *
-mParent
+mParentSheet
 ;
 RefPtr
 <

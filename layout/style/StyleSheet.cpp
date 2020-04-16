@@ -231,7 +231,7 @@ SRIMetadata
 aIntegrity
 )
 :
-mParent
+mParentSheet
 (
 nullptr
 )
@@ -318,7 +318,7 @@ nsINode
 aOwningNodeToUse
 )
 :
-mParent
+mParentSheet
 (
 aParentToUse
 )
@@ -922,6 +922,7 @@ mDocumentOrShadowRoot
 }
 for
 (
+const
 auto
 *
 sheet
@@ -935,7 +936,7 @@ sheet
 sheet
 -
 >
-mParent
+mParentSheet
 )
 {
 MOZ_ASSERT
@@ -1157,7 +1158,7 @@ MOZ_ASSERT
 child
 -
 >
-mParent
+mParentSheet
 =
 =
 this
@@ -1174,7 +1175,7 @@ inner
 child
 -
 >
-mParent
+mParentSheet
 =
 nullptr
 ;
@@ -2149,7 +2150,7 @@ mChildren
 child
 -
 >
-mParent
+mParentSheet
 =
 newParent
 ;
@@ -2611,7 +2612,7 @@ current
 current
 -
 >
-mParent
+mParentSheet
 ;
 \
 }
@@ -4311,12 +4312,12 @@ windowID
 0
 &
 &
-mParent
+mParentSheet
 )
 {
 windowID
 =
-mParent
+mParentSheet
 -
 >
 FindOwningWindowInnerID
@@ -4339,7 +4340,7 @@ RemoveFromParent
 if
 (
 !
-mParent
+mParentSheet
 )
 {
 return
@@ -4347,7 +4348,7 @@ return
 }
 MOZ_ASSERT
 (
-mParent
+mParentSheet
 -
 >
 ChildSheets
@@ -4360,7 +4361,7 @@ this
 )
 )
 ;
-mParent
+mParentSheet
 -
 >
 Inner
@@ -4374,7 +4375,7 @@ RemoveElement
 this
 )
 ;
-mParent
+mParentSheet
 =
 nullptr
 ;
@@ -4407,7 +4408,7 @@ if
 child
 -
 >
-mParent
+mParentSheet
 =
 =
 this
@@ -4416,7 +4417,7 @@ this
 child
 -
 >
-mParent
+mParentSheet
 =
 nullptr
 ;
@@ -4694,7 +4695,7 @@ if
 child
 -
 >
-mParent
+mParentSheet
 =
 =
 this
@@ -4766,7 +4767,7 @@ aSheet
 ;
 aSheet
 .
-mParent
+mParentSheet
 =
 this
 ;
@@ -6047,7 +6048,7 @@ ChildSheets
 child
 -
 >
-mParent
+mParentSheet
 =
 nullptr
 ;
