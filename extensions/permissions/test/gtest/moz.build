@@ -8,6 +8,17 @@ PermissionManagerTest
 cpp
 '
 ]
+LOCAL_INCLUDES
++
+=
+[
+'
+/
+extensions
+/
+permissions
+'
+]
 FINAL_LIBRARY
 =
 '

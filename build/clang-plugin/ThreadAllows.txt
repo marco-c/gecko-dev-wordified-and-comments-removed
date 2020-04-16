@@ -80,7 +80,6 @@ Monitor
 OSKeyStore
 OutputDrain
 PaintThread
-Permission
 PlayEventSound
 ProcessHangMon
 ProfSymbolTable

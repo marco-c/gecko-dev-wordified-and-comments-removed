@@ -202,7 +202,7 @@ Init
 {
 mPermMgr
 =
-PermissionManager
+nsPermissionManager
 :
 :
 GetInstance
