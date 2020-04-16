@@ -386,3 +386,17 @@ remote
 true
 )
 ;
+pref
+(
+"
+dom
+.
+ipc
+.
+processPriorityManager
+.
+enabled
+"
+true
+)
+;
