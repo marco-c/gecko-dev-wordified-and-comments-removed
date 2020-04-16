@@ -3568,6 +3568,15 @@ callNode
 ;
 MOZ_MUST_USE
 bool
+emitSelfHostedToNumeric
+(
+BinaryNode
+*
+callNode
+)
+;
+MOZ_MUST_USE
+bool
 emitDo
 (
 BinaryNode

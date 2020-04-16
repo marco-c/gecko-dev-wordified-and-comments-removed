@@ -3736,6 +3736,15 @@ toLocaleString
 \
 MACRO
 (
+ToNumeric
+ToNumeric
+"
+ToNumeric
+"
+)
+\
+MACRO
+(
 toSource
 toSource
 "
