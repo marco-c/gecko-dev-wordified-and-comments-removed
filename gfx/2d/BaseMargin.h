@@ -524,7 +524,8 @@ aSide
 )
 ;
 }
-void
+Sub
+&
 ApplySkipSides
 (
 Sides
@@ -587,6 +588,17 @@ left
 0
 ;
 }
+return
+*
+static_cast
+<
+Sub
+*
+>
+(
+this
+)
+;
 }
 bool
 operator
