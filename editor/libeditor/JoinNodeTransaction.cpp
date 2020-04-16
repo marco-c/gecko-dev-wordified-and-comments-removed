@@ -242,7 +242,6 @@ GetParentNode
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 JoinNodeTransaction
 :
@@ -408,7 +407,6 @@ return
 rv
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 JoinNodeTransaction
 :

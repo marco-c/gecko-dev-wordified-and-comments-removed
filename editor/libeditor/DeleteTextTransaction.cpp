@@ -469,7 +469,6 @@ mTextNode
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 DeleteTextTransaction
 :
@@ -716,7 +715,6 @@ StealNSResult
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
 NS_IMETHODIMP
 DeleteTextTransaction
 :

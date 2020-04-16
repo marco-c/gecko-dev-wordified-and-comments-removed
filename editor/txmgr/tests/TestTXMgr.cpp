@@ -3150,6 +3150,7 @@ override
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DoTransaction
 (
@@ -3187,6 +3188,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 UndoTransaction
 (
@@ -3224,6 +3226,7 @@ NS_ERROR_FAILURE
 NS_OK
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction
 (
@@ -3475,6 +3478,7 @@ override
 =
 default
 ;
+MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 DoTransaction
 (
@@ -3538,7 +3542,10 @@ BATCH_FLAG
 {
 rv
 =
+MOZ_KnownLive
+(
 mTXMgr
+)
 -
 >
 BeginBatch
@@ -3675,7 +3682,10 @@ flags
 ;
 rv
 =
+MOZ_KnownLive
+(
 mTXMgr
+)
 -
 >
 DoTransaction
@@ -3899,6 +3909,7 @@ sRedoOrderArr
 0
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 quick_test
 (
@@ -3926,7 +3937,7 @@ mgr
 >
 DoTransaction
 (
-0
+nullptr
 )
 ;
 EXPECT_EQ
@@ -7083,6 +7094,7 @@ factory
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 quick_batch_test
 (
@@ -9918,6 +9930,7 @@ factory
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 stress_test
 (
