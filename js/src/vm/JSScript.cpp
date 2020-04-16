@@ -26623,7 +26623,6 @@ DeepCloneObjectLiteral
 (
 cx
 obj
-TenuredObject
 )
 ;
 }
