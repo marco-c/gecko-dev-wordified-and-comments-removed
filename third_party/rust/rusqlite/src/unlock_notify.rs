@@ -343,6 +343,7 @@ unlock_notify
 )
 ]
 pub
+unsafe
 fn
 is_locked
 (
@@ -384,8 +385,6 @@ ffi
 SQLITE_LOCKED
 &
 &
-unsafe
-{
 ffi
 :
 :
@@ -393,7 +392,6 @@ sqlite3_extended_errcode
 (
 db
 )
-}
 =
 =
 ffi
@@ -413,6 +411,7 @@ unlock_notify
 )
 ]
 pub
+unsafe
 fn
 wait_for_unlock_notify
 (
@@ -443,8 +442,6 @@ new
 let
 rc
 =
-unsafe
-{
 ffi
 :
 :
@@ -467,7 +464,6 @@ as
 mut
 c_void
 )
-}
 ;
 debug_assert
 !
@@ -532,6 +528,7 @@ unlock_notify
 )
 ]
 pub
+unsafe
 fn
 is_locked
 (
@@ -571,6 +568,7 @@ unlock_notify
 )
 ]
 pub
+unsafe
 fn
 wait_for_unlock_notify
 (

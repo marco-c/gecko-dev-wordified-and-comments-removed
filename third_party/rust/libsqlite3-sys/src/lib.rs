@@ -77,6 +77,10 @@ repr
 i32
 )
 ]
+#
+[
+non_exhaustive
+]
 pub
 enum
 Limit

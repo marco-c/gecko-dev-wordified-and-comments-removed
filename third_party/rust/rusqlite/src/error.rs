@@ -116,6 +116,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 IntegralValueOutOfRange
@@ -233,6 +236,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 ToSqlConversionFailure
@@ -248,6 +254,9 @@ Error
 Send
 +
 Sync
++
+'
+static
 >
 )
 InvalidQuery
@@ -2309,7 +2318,7 @@ provided
 }
 }
 fn
-cause
+source
 (
 &
 self
@@ -2319,11 +2328,16 @@ self
 Option
 <
 &
+(
 dyn
 error
 :
 :
 Error
++
+'
+static
+)
 >
 {
 match
@@ -2664,6 +2678,7 @@ message
 )
 }
 pub
+unsafe
 fn
 error_from_handle
 (
@@ -2699,8 +2714,6 @@ else
 {
 Some
 (
-unsafe
-{
 errmsg_to_string
 (
 ffi
@@ -2711,7 +2724,6 @@ sqlite3_errmsg
 db
 )
 )
-}
 )
 }
 ;

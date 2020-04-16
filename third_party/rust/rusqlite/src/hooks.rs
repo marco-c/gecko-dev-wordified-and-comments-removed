@@ -491,6 +491,7 @@ free_boxed_hook
 F
 >
 as
+unsafe
 fn
 (
 *
@@ -612,10 +613,13 @@ self
 .
 free_commit_hook
 {
+unsafe
+{
 free_boxed_hook
 (
 previous_hook
 )
+}
 ;
 }
 }
@@ -729,6 +733,7 @@ free_boxed_hook
 F
 >
 as
+unsafe
 fn
 (
 *
@@ -850,10 +855,13 @@ self
 .
 free_rollback_hook
 {
+unsafe
+{
 free_boxed_hook
 (
 previous_hook
 )
+}
 ;
 }
 }
@@ -1081,6 +1089,7 @@ free_boxed_hook
 F
 >
 as
+unsafe
 fn
 (
 *
@@ -1202,10 +1211,13 @@ self
 .
 free_update_hook
 {
+unsafe
+{
 free_boxed_hook
 (
 previous_hook
 )
+}
 ;
 }
 }
@@ -1217,6 +1229,7 @@ free_update_hook
 ;
 }
 }
+unsafe
 fn
 free_boxed_hook
 <
@@ -1232,8 +1245,6 @@ c_void
 {
 drop
 (
-unsafe
-{
 Box
 :
 :
@@ -1245,7 +1256,6 @@ as
 mut
 F
 )
-}
 )
 ;
 }

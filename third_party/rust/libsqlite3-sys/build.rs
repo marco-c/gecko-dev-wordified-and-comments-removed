@@ -636,6 +636,11 @@ DHAVE_USLEEP
 1
 "
 )
+.
+warnings
+(
+false
+)
 ;
 if
 cfg
