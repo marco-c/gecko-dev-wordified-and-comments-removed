@@ -855,6 +855,17 @@ storage
 .
 local
 .
+clear
+(
+)
+;
+await
+ext
+.
+storage
+.
+local
+.
 set
 (
 {
