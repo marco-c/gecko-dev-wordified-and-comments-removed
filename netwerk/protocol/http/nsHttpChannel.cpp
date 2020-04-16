@@ -23805,6 +23805,10 @@ true
 if
 (
 !
+mDisableAltDataCache
+&
+&
+!
 altDataType
 .
 IsEmpty
