@@ -2728,6 +2728,12 @@ info
 Add
 a
 username
+to
+the
+auto
+-
+saved
+login
 in
 storage
 "
@@ -3057,7 +3063,6 @@ argument
 ;
 ok
 (
-!
 fakePromptToChangePassword
 .
 getCall
