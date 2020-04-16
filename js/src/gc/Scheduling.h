@@ -260,6 +260,13 @@ true
 ;
 static
 const
+bool
+IncrementalWeakMapMarkingEnabled
+=
+false
+;
+static
+const
 uint32_t
 NurseryFreeThresholdForIdleCollection
 =
