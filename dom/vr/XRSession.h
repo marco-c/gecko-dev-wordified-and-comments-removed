@@ -47,6 +47,9 @@ gfx
 class
 VRDisplayClient
 ;
+class
+VRDisplayPresentation
+;
 }
 namespace
 dom
@@ -376,6 +379,11 @@ StartFrame
 (
 )
 ;
+void
+ExitPresent
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 WillRefresh
@@ -449,6 +457,15 @@ gfx
 VRDisplayClient
 >
 mDisplayClient
+;
+RefPtr
+<
+gfx
+:
+:
+VRDisplayPresentation
+>
+mDisplayPresentation
 ;
 RefPtr
 <

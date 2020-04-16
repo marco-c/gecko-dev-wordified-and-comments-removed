@@ -480,6 +480,11 @@ WebGLParent
 :
 GetVRFrame
 (
+webgl
+:
+:
+ObjectId
+id
 )
 {
 if
@@ -498,6 +503,7 @@ mHost
 >
 GetVRFrame
 (
+id
 )
 ;
 }

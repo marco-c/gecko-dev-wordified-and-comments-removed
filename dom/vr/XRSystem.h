@@ -431,6 +431,12 @@ OnXRPermissionRequestCancel
 (
 )
 ;
+bool
+HasActiveImmersiveSession
+(
+)
+const
+;
 static
 already_AddRefed
 <

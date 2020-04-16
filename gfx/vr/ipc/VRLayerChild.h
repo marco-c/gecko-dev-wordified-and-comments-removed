@@ -47,6 +47,9 @@ mozilla
 class
 WebGLContext
 ;
+class
+WebGLFramebufferJS
+;
 namespace
 dom
 {
@@ -125,6 +128,13 @@ aRightEyeRect
 )
 ;
 void
+SetXRFramebuffer
+(
+WebGLFramebufferJS
+*
+)
+;
+void
 SubmitFrame
 (
 const
@@ -197,6 +207,12 @@ gfx
 :
 Rect
 mRightEyeRect
+;
+RefPtr
+<
+WebGLFramebufferJS
+>
+mFramebuffer
 ;
 RefPtr
 <
