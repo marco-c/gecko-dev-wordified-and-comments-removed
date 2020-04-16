@@ -844,7 +844,9 @@ br
 .
 tabModalPromptBox
 .
-getPrompt
+prompts
+.
+get
 (
 modalElements
 [

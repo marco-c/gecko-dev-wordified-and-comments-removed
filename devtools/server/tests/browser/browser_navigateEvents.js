@@ -545,7 +545,9 @@ browser
 .
 tabModalPromptBox
 .
-getPrompt
+prompts
+.
+get
 (
 dialogs
 [
