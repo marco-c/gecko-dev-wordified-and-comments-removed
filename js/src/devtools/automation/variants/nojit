@@ -10,7 +10,7 @@ args
 -
 disable
 -
-ion
+jit
 -
 -
 enable
