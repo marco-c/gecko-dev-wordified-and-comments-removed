@@ -144,6 +144,15 @@ nsPrintfCString
 .
 h
 "
+#
+ifndef
+TS_SD_INPUTPANEMANUALDISPLAYENABLE
+#
+define
+TS_SD_INPUTPANEMANUALDISPLAYENABLE
+0x40
+#
+endif
 namespace
 mozilla
 {
@@ -13708,7 +13717,7 @@ pdcs
 >
 dwDynamicFlags
 =
-0
+TS_SD_INPUTPANEMANUALDISPLAYENABLE
 ;
 pdcs
 -
