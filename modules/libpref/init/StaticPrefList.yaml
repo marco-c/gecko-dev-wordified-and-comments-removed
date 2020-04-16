@@ -46815,7 +46815,7 @@ isolateBy
 userContext
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
@@ -46832,7 +46832,7 @@ isolateBy
 privateBrowsing
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 IS_EARLY_BETA_OR_EARLIER
