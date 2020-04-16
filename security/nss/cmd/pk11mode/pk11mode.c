@@ -41,10 +41,9 @@ XP_UNIX
 )
 &
 &
-!
 defined
 (
-NO_FORK_CHECK
+DO_FORK_CHECK
 )
 #
 include

@@ -102,6 +102,16 @@ install
 -
 recommends
 \
+apt
+-
+transport
+-
+https
+\
+apt
+-
+utils
+\
 build
 -
 essential

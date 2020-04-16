@@ -661,6 +661,10 @@ j
 )
 )
 )
+#
+define
+GCMIV_RANDOM_BIRTHDAY_BITS
+64
 struct
 DESContextStr
 ;

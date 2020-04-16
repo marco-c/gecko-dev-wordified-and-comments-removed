@@ -229,6 +229,11 @@ pk11_rsaencrypt_unittest
 cc
 '
 '
+pk11_rsaoaep_unittest
+.
+cc
+'
+'
 pk11_rsapkcs1_unittest
 .
 cc

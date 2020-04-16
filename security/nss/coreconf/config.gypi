@@ -875,6 +875,12 @@ disable_altivec
 :
 0
 '
+disable_arm32_neon
+%
+'
+:
+0
+'
 mozilla_client
 %
 '

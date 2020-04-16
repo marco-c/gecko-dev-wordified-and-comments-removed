@@ -92,8 +92,8 @@ extern
 uint32_t
 FStar_UInt64_n_minus_one
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt64_eq_mask
 (
@@ -148,8 +148,8 @@ uint64_t
 1U
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt64_gte_mask
 (
@@ -272,8 +272,8 @@ extern
 uint32_t
 FStar_UInt32_n_minus_one
 ;
-inline
 static
+inline
 uint32_t
 FStar_UInt32_eq_mask
 (
@@ -328,8 +328,8 @@ uint32_t
 1U
 ;
 }
-inline
 static
+inline
 uint32_t
 FStar_UInt32_gte_mask
 (
@@ -452,8 +452,8 @@ extern
 uint32_t
 FStar_UInt16_n_minus_one
 ;
-inline
 static
+inline
 uint16_t
 FStar_UInt16_eq_mask
 (
@@ -508,8 +508,8 @@ uint16_t
 1U
 ;
 }
-inline
 static
+inline
 uint16_t
 FStar_UInt16_gte_mask
 (
@@ -632,8 +632,8 @@ extern
 uint32_t
 FStar_UInt8_n_minus_one
 ;
-inline
 static
+inline
 uint8_t
 FStar_UInt8_eq_mask
 (
@@ -688,8 +688,8 @@ uint8_t
 1U
 ;
 }
-inline
 static
+inline
 uint8_t
 FStar_UInt8_gte_mask
 (

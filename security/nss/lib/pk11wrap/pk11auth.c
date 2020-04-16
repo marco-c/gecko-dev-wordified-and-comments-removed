@@ -383,7 +383,7 @@ slot
 session
 !
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 session
@@ -1252,7 +1252,7 @@ if
 rwsession
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -1481,7 +1481,7 @@ userpw
 CK_SESSION_HANDLE
 rwsession
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 CK_RV
 crv
@@ -1547,7 +1547,7 @@ if
 rwsession
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -1881,7 +1881,7 @@ if
 rwsession
 =
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 )
 {
 PORT_SetError
@@ -2934,7 +2934,7 @@ slot
 >
 session
 =
-CK_INVALID_SESSION
+CK_INVALID_HANDLE
 ;
 return
 PR_FALSE

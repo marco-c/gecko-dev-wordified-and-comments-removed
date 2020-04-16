@@ -289,6 +289,9 @@ CMAC_Begin
 CMAC_Update
 CMAC_Finish
 CMAC_Destroy
+ChaCha20Poly1305_Encrypt
+ChaCha20Poly1305_Decrypt
+AES_AEAD
 }
 ;
 const

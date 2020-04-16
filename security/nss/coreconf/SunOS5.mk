@@ -205,6 +205,11 @@ declaration
 Wno
 -
 switch
+OS_CFLAGS
++
+=
+-
+D__EXTENSIONS__
 CCC
 =
 g

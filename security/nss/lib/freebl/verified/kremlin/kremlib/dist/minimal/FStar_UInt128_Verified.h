@@ -47,8 +47,8 @@ FStar_UInt_8_16_32_64
 .
 h
 "
-inline
 static
+inline
 uint64_t
 FStar_UInt128___proj__Mkuint128__item__low
 (
@@ -62,8 +62,8 @@ projectee
 low
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128___proj__Mkuint128__item__high
 (
@@ -77,8 +77,8 @@ projectee
 high
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_constant_time_carry
 (
@@ -118,8 +118,8 @@ uint32_t
 63U
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_carry
 (
@@ -137,8 +137,8 @@ b
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_add
 (
@@ -193,8 +193,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_add_underspec
 (
@@ -249,8 +249,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_add_mod
 (
@@ -305,8 +305,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_sub
 (
@@ -361,8 +361,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_sub_underspec
 (
@@ -417,8 +417,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_sub_mod_impl
 (
@@ -473,8 +473,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_sub_mod
 (
@@ -492,8 +492,8 @@ b
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_logand
 (
@@ -534,8 +534,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_logxor
 (
@@ -576,8 +576,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_logor
 (
@@ -618,8 +618,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_lognot
 (
@@ -661,8 +661,8 @@ uint32_t
 )
 64U
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt128_add_u64_shift_left
 (
@@ -694,8 +694,8 @@ s
 )
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_add_u64_shift_left_respec
 (
@@ -716,8 +716,8 @@ s
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_left_small
 (
@@ -778,8 +778,8 @@ lit
 ;
 }
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_left_large
 (
@@ -820,8 +820,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_left
 (
@@ -857,8 +857,8 @@ s
 ;
 }
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_add_u64_shift_right
 (
@@ -890,8 +890,8 @@ s
 )
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_add_u64_shift_right_respec
 (
@@ -912,8 +912,8 @@ s
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_right_small
 (
@@ -974,8 +974,8 @@ lit
 ;
 }
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_right_large
 (
@@ -1016,8 +1016,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_shift_right
 (
@@ -1053,8 +1053,8 @@ s
 ;
 }
 }
-inline
 static
+inline
 bool
 FStar_UInt128_eq
 (
@@ -1085,8 +1085,8 @@ b
 high
 ;
 }
-inline
 static
+inline
 bool
 FStar_UInt128_gt
 (
@@ -1127,8 +1127,8 @@ low
 )
 ;
 }
-inline
 static
+inline
 bool
 FStar_UInt128_lt
 (
@@ -1169,8 +1169,8 @@ low
 )
 ;
 }
-inline
 static
+inline
 bool
 FStar_UInt128_gte
 (
@@ -1212,8 +1212,8 @@ low
 )
 ;
 }
-inline
 static
+inline
 bool
 FStar_UInt128_lte
 (
@@ -1255,8 +1255,8 @@ low
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_eq_mask
 (
@@ -1321,8 +1321,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_gte_mask
 (
@@ -1437,8 +1437,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_uint64_to_uint128
 (
@@ -1468,8 +1468,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_uint128_to_uint64
 (
@@ -1483,8 +1483,8 @@ a
 low
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_u64_mod_32
 (
@@ -1510,8 +1510,8 @@ uint32_t
 )
 32U
 ;
-inline
 static
+inline
 uint64_t
 FStar_UInt128_u32_combine
 (
@@ -1532,8 +1532,8 @@ FStar_UInt128_u32_32
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_mul32
 (
@@ -1632,8 +1632,8 @@ return
 lit
 ;
 }
-inline
 static
+inline
 uint64_t
 FStar_UInt128_u32_combine_
 (
@@ -1654,8 +1654,8 @@ FStar_UInt128_u32_32
 )
 ;
 }
-inline
 static
+inline
 FStar_UInt128_uint128
 FStar_UInt128_mul_wide
 (
