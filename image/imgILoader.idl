@@ -32,9 +32,6 @@ nsIReferrerInfo
 interface
 nsISimpleEnumerator
 ;
-webidl
-Document
-;
 #
 include
 "
@@ -112,8 +109,8 @@ in
 imgINotificationObserver
 aObserver
 in
-Document
-aLoadingDocument
+nsISupports
+aCX
 in
 nsLoadFlags
 aLoadFlags
@@ -138,8 +135,8 @@ in
 imgINotificationObserver
 aObserver
 in
-Document
-aLoadingDocument
+nsISupports
+cx
 out
 nsIStreamListener
 aListener
