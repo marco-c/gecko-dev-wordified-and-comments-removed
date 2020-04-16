@@ -1800,9 +1800,16 @@ label
 "
 )
 :
+(
 child
 .
 label
+|
+|
+child
+.
+text
+)
 ;
 if
 (

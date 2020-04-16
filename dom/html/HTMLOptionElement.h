@@ -335,7 +335,7 @@ GetForm
 )
 ;
 void
-GetRenderLabel
+GetRenderedLabel
 (
 nsAString
 &
