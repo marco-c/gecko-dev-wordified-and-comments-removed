@@ -1608,9 +1608,15 @@ cx
 global
 (
 )
-options
 sso
 extent
+ImmutableScriptFlags
+:
+:
+fromCompileOptions
+(
+options
+)
 )
 )
 ;
