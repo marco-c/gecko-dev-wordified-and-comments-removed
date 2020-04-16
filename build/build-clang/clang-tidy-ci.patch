@@ -33,10 +33,10 @@ ClangTidy
 .
 cpp
 index
-40aaf402ec0
+1d813d65f8d
 .
 .
-2184d51c643
+5ef2e6fe9cd
 100644
 -
 -
@@ -75,10 +75,10 @@ ClangTidy
 .
 cpp
 -
-410
+407
 6
 +
-410
+407
 7
 ClangTidyASTConsumerFactory
 :
@@ -160,10 +160,10 @@ ClangTidyCheck
 .
 h
 index
-1ad881f673a
+3064a41caa1
 .
 .
-59982bd377e
+9c7eb4815c4
 100644
 -
 -
@@ -266,6 +266,8 @@ Compiler
 /
 /
 /
+\
+brief
 Override
 this
 to

@@ -6,10 +6,9 @@ warning
 "
 Null
 pointer
-passed
-as
-1st
 argument
+in
+call
 to
 string
 length
