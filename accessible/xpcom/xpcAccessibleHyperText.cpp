@@ -1397,17 +1397,6 @@ aCoordType
 }
 else
 {
-#
-if
-defined
-(
-XP_WIN
-)
-return
-NS_ERROR_NOT_IMPLEMENTED
-;
-#
-else
 *
 aOffset
 =
@@ -1425,8 +1414,6 @@ aY
 aCoordType
 )
 ;
-#
-endif
 }
 return
 NS_OK
