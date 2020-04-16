@@ -22,13 +22,6 @@ h
 #
 include
 "
-CookieService
-.
-h
-"
-#
-include
-"
 mozilla
 /
 FileUtils
@@ -3248,7 +3241,7 @@ continue
 }
 rv
 =
-CookieService
+CookieCommons
 :
 :
 GetBaseDomainFromHost
@@ -4830,7 +4823,7 @@ host
 ;
 rv
 =
-CookieService
+CookieCommons
 :
 :
 GetBaseDomainFromHost
@@ -8105,7 +8098,7 @@ host
 ;
 rv
 =
-CookieService
+CookieCommons
 :
 :
 GetBaseDomainFromHost
