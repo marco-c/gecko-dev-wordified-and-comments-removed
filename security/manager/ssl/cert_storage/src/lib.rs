@@ -5937,13 +5937,6 @@ set_max_dbs
 2
 )
 ;
-builder
-.
-set_map_size
-(
-16777216
-)
-;
 Rkv
 :
 :
