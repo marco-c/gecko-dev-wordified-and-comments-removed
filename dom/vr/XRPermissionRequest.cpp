@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsGlobalWindowInner
+nsIGlobalObject
 .
 h
 "
