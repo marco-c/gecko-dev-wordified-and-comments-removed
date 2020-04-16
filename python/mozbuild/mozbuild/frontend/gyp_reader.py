@@ -1680,6 +1680,21 @@ spec
 }
 )
                 
+msvs_settings
+.
+vs_version
+.
+short_name
+=
+int
+(
+msvs_settings
+.
+vs_version
+.
+short_name
+)
+                
 defines
 .
 extend
