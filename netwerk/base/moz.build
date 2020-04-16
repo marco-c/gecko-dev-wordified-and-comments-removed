@@ -353,6 +353,11 @@ nsIPrivateBrowsingChannel
 idl
 '
 '
+nsIProcessSwitchRequestor
+.
+idl
+'
+'
 nsIProgressEventSink
 .
 idl
