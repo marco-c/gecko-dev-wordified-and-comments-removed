@@ -206,6 +206,7 @@ passed
 )
 *
 /
+readonly
 attribute
 nsIURI
 preferredURI
@@ -256,6 +257,7 @@ bar
 )
 *
 /
+readonly
 attribute
 nsIURI
 fixedURI
@@ -290,6 +292,7 @@ done
 .
 *
 /
+readonly
 attribute
 AString
 keywordProviderName
@@ -323,6 +326,7 @@ done
 .
 *
 /
+readonly
 attribute
 AString
 keywordAsSent
@@ -349,6 +353,7 @@ is
 .
 *
 /
+readonly
 attribute
 boolean
 fixupChangedProtocol
@@ -413,6 +418,7 @@ respectively
 .
 *
 /
+readonly
 attribute
 boolean
 fixupCreatedAlternateURI
@@ -426,6 +432,7 @@ original
 input
 *
 /
+readonly
 attribute
 AUTF8String
 originalInput

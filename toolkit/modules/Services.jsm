@@ -1068,9 +1068,7 @@ org
 /
 docshell
 /
-uri
--
-fixup
+urifixup
 ;
 1
 "
