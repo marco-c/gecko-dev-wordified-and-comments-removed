@@ -25696,7 +25696,10 @@ cpp_type
 val
 ;
 \
+DebugOnly
+<
 nsresult
+>
 rv
 =
 Internals
@@ -25710,7 +25713,7 @@ val
 )
 ;
 \
-MOZ_ALWAYS_TRUE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
@@ -25748,9 +25751,13 @@ cpp_type
 val
 ;
 \
+DebugOnly
+<
 nsresult
+>
 rv
 =
+\
 Internals
 :
 :
@@ -25765,7 +25772,7 @@ val
 )
 ;
 \
-MOZ_ALWAYS_TRUE
+MOZ_ASSERT
 (
 NS_SUCCEEDED
 (
