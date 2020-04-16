@@ -6,6 +6,8 @@ expression
 :
 string
 )
+:
+boolean
 {
 return
 /

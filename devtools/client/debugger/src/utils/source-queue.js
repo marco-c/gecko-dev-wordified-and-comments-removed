@@ -34,6 +34,11 @@ function
 dispatchNewSources
 (
 )
+:
+Promise
+<
+void
+>
 {
 const
 sources

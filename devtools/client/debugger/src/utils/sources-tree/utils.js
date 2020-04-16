@@ -146,6 +146,8 @@ debuggeeUrl
 :
 URL
 )
+:
+boolean
 {
 const
 {
@@ -216,6 +218,8 @@ path
 :
 string
 )
+:
+boolean
 {
 if
 (
@@ -344,6 +348,8 @@ item
 :
 TreeNode
 )
+:
+boolean
 {
 return
 (
@@ -431,6 +437,8 @@ item
 :
 TreeNode
 )
+:
+boolean
 {
 return
 item
@@ -553,6 +561,8 @@ source
 :
 Source
 )
+:
+boolean
 {
 return
 (
@@ -606,6 +616,8 @@ url
 :
 Object
 )
+:
+boolean
 {
 const
 isLastPart
@@ -792,6 +804,8 @@ url
 :
 URL
 )
+:
+string
 {
 const
 {
@@ -854,6 +868,8 @@ path
 :
 string
 )
+:
+string
 {
 const
 pathParts
@@ -934,6 +950,9 @@ source
 ?
 Source
 )
+:
+?
+Source
 {
 const
 targetThread

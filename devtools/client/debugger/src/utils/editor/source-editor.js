@@ -365,6 +365,8 @@ opts
 :
 SourceEditorOpts
 )
+:
+void
 {
 this
 .
@@ -379,6 +381,8 @@ node
 :
 any
 )
+:
+void
 {
 this
 .
@@ -396,6 +400,8 @@ opts
 destroy
 (
 )
+:
+void
 {
 if
 (
@@ -423,7 +429,7 @@ codeMirror
 (
 )
 :
-any
+Object
 {
 return
 this
@@ -435,6 +441,8 @@ get
 CodeMirror
 (
 )
+:
+Object
 {
 return
 CodeMirror
@@ -446,6 +454,8 @@ str
 :
 string
 )
+:
+void
 {
 this
 .
@@ -460,6 +470,8 @@ str
 getText
 (
 )
+:
+string
 {
 return
 this
@@ -477,6 +489,8 @@ value
 :
 Mode
 )
+:
+void
 {
 this
 .
@@ -497,6 +511,8 @@ doc
 :
 any
 )
+:
+void
 {
 this
 .
@@ -511,6 +527,8 @@ doc
 createDocument
 (
 )
+:
+Object
 {
 return
 new
@@ -536,6 +554,8 @@ AlignOpts
 top
 "
 )
+:
+void
 {
 const
 cm
@@ -718,6 +738,8 @@ line
 :
 number
 )
+:
+void
 {
 const
 {

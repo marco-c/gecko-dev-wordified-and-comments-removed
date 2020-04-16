@@ -63,6 +63,8 @@ pathname
 :
 string
 )
+:
+string
 {
 let
 filename

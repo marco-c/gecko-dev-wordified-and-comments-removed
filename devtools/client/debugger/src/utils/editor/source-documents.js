@@ -114,6 +114,8 @@ key
 :
 string
 )
+:
+Object
 {
 return
 sourceDocs
@@ -153,6 +155,8 @@ doc
 :
 any
 )
+:
+void
 {
 sourceDocs
 [
@@ -170,6 +174,8 @@ key
 :
 string
 )
+:
+void
 {
 delete
 sourceDocs
@@ -183,6 +189,8 @@ function
 clearDocuments
 (
 )
+:
+void
 {
 sourceDocs
 =
@@ -197,6 +205,8 @@ editor
 :
 SourceEditor
 )
+:
+void
 {
 const
 cm
@@ -240,6 +250,8 @@ sourceId
 :
 SourceId
 )
+:
+void
 {
 if
 (
@@ -304,6 +316,8 @@ source
 :
 Source
 )
+:
+void
 {
 if
 (
@@ -358,6 +372,8 @@ editor
 :
 SourceEditor
 )
+:
+void
 {
 const
 doc
@@ -410,6 +426,8 @@ editor
 :
 SourceEditor
 )
+:
+void
 {
 let
 doc
@@ -499,6 +517,8 @@ msg
 :
 string
 )
+:
+void
 {
 let
 error
@@ -602,6 +622,8 @@ content
 :
 SourceContent
 )
+:
+void
 {
 if
 (
@@ -678,6 +700,8 @@ content
 SourceContent
 symbols
 )
+:
+void
 {
 if
 (
@@ -777,6 +801,8 @@ symbols
 :
 SymbolDeclarations
 )
+:
+void
 {
 if
 (

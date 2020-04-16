@@ -43,6 +43,8 @@ fields
 {
 }
 )
+:
+void
 {
 let
 sessionId

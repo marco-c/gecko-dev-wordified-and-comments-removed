@@ -36,6 +36,8 @@ method
 :
 string
 )
+:
+Function
 {
 return
 function
@@ -169,6 +171,8 @@ publicInterface
 :
 any
 )
+:
+Function
 {
 return
 function

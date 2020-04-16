@@ -31,6 +31,8 @@ store
 :
 Store
 )
+:
+boolean
 {
 let
 currentStore
@@ -145,6 +147,8 @@ value
 :
 Value
 )
+:
+void
 {
 const
 keysExceptLast
@@ -249,6 +253,8 @@ func
 :
 Function
 )
+:
+Value
 {
 const
 store

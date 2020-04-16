@@ -416,6 +416,8 @@ state
 :
 OuterState
 )
+:
+SearchResults
 {
 return
 state

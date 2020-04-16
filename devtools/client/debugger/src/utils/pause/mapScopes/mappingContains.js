@@ -57,6 +57,8 @@ end
 PartialPosition
 }
 )
+:
+boolean
 {
 return
 (

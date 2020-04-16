@@ -248,6 +248,8 @@ state
 :
 OuterState
 )
+:
+string
 {
 return
 state

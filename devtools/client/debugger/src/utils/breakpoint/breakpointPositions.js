@@ -27,6 +27,7 @@ location
 import
 type
 {
+BreakpointPosition
 BreakpointPositions
 SourceLocation
 }
@@ -53,6 +54,9 @@ location
 :
 SourceLocation
 )
+:
+?
+BreakpointPosition
 {
 if
 (

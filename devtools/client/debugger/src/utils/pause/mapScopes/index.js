@@ -673,6 +673,8 @@ hasLineMappings
 (
 ranges
 )
+:
+boolean
 {
 return
 ranges
@@ -1277,6 +1279,8 @@ pos
 :
 BindingLocation
 )
+:
+boolean
 {
 return
 (

@@ -19,6 +19,8 @@ thread
 :
 Thread
 )
+:
+boolean
 {
 return
 thread

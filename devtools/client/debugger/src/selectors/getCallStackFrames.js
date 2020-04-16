@@ -132,6 +132,9 @@ frame
 Frame
 isGeneratedSource
 )
+:
+?
+Source
 {
 const
 sourceId
@@ -220,6 +223,13 @@ SourceResourceState
 selectedSource
 :
 Source
+)
+:
+?
+(
+Frame
+[
+]
 )
 {
 if

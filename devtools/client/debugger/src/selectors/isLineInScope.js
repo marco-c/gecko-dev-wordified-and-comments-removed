@@ -49,6 +49,8 @@ line
 :
 number
 )
+:
+boolean
 {
 const
 frame

@@ -102,6 +102,8 @@ cx
 :
 Context
 )
+:
+void
 {
 const
 newcx
@@ -147,6 +149,8 @@ cx
 :
 ThreadContext
 )
+:
+void
 {
 const
 newcx
@@ -220,6 +224,8 @@ cx
 :
 Context
 )
+:
+void
 {
 validateNavigateContext
 (
@@ -259,6 +265,8 @@ cx
 :
 ThreadContext
 )
+:
+boolean
 {
 const
 newcx

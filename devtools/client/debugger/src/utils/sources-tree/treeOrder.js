@@ -211,6 +211,17 @@ matcher
 :
 FindNodeInContentsMatcher
 )
+:
+{
+|
+found
+:
+boolean
+index
+:
+number
+|
+}
 {
 if
 (

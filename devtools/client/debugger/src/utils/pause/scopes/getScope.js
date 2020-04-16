@@ -175,6 +175,10 @@ scope
 :
 RenderableScope
 )
+:
+string
+|
+void
 {
 if
 (
@@ -587,6 +591,10 @@ parentItem
 :
 NamedValue
 )
+:
+NamedValue
+|
+void
 {
 if
 (

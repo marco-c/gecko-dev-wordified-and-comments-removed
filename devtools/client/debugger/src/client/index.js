@@ -87,6 +87,11 @@ function
 syncBreakpoints
 (
 )
+:
+Promise
+<
+*
+>
 {
 const
 breakpoints
@@ -149,6 +154,8 @@ function
 syncXHRBreakpoints
 (
 )
+:
+void
 {
 asyncStore
 .

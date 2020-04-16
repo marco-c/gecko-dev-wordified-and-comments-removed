@@ -379,6 +379,8 @@ initialState
 :
 Object
 )
+:
+any
 {
 const
 debugJsModules
@@ -512,6 +514,8 @@ panelWorkers
 :
 Workers
 )
+:
+Object
 {
 const
 workerPath
@@ -646,6 +650,8 @@ function
 teardownWorkers
 (
 )
+:
+void
 {
 if
 (
@@ -690,6 +696,8 @@ panel
 :
 Panel
 )
+:
+void
 {
 if
 (
@@ -751,6 +759,8 @@ state
 :
 any
 )
+:
+void
 {
 const
 previousPendingBreakpoints

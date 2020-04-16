@@ -75,6 +75,7 @@ sources
 import
 type
 {
+Source
 SourceId
 URL
 }
@@ -205,6 +206,8 @@ function
 initialTabState
 (
 )
+:
+TabsState
 {
 return
 {
@@ -220,6 +223,8 @@ resetTabState
 (
 state
 )
+:
+TabsState
 {
 const
 tabs
@@ -544,10 +549,10 @@ tabList
 .
 map
 (
-t
+tab
 =
 >
-t
+tab
 .
 url
 )
@@ -643,7 +648,11 @@ tab
 :
 VisibleTab
 source
+:
+Source
 )
+:
+boolean
 {
 return
 tab
@@ -671,7 +680,11 @@ tab
 :
 Tab
 source
+:
+Source
 )
+:
+boolean
 {
 return
 tab
@@ -705,6 +718,8 @@ state
 :
 TabsState
 source
+:
+Source
 )
 {
 if
@@ -1017,6 +1032,8 @@ isOriginal
 false
 }
 )
+:
+TabsState
 {
 let
 {
@@ -1118,6 +1135,8 @@ tabIndex
 newIndex
 }
 )
+:
+TabsState
 {
 let
 {
@@ -1172,6 +1191,8 @@ tabIndex
 newIndex
 }
 )
+:
+TabsState
 {
 let
 {
@@ -1359,6 +1380,8 @@ sourceId
 :
 SourceId
 )
+:
+boolean
 {
 return
 !

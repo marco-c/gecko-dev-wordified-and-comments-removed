@@ -2009,6 +2009,8 @@ function
 resetSchemaVersion
 (
 )
+:
+void
 {
 prefs
 .
@@ -2022,6 +2024,8 @@ function
 verifyPrefSchema
 (
 )
+:
+void
 {
 if
 (

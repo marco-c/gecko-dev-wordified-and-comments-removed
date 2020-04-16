@@ -67,6 +67,8 @@ function
 SearchState
 (
 )
+:
+void
 {
 this
 .
@@ -103,6 +105,8 @@ cm
 :
 any
 query
+:
+string
 )
 {
 const
@@ -137,6 +141,8 @@ isWhitespace
 (
 query
 )
+:
+boolean
 {
 return
 !
@@ -281,6 +287,8 @@ state
 query
 modifiers
 )
+:
+void
 {
 cm
 .
@@ -323,6 +331,8 @@ cm
 state
 keepSelection
 )
+:
+void
 {
 state
 .
@@ -398,6 +408,8 @@ rev
 :
 boolean
 )
+:
+number
 {
 if
 (
@@ -960,6 +972,8 @@ modifiers
 line
 ch
 )
+:
+void
 {
 const
 {
@@ -1097,6 +1111,8 @@ query
 :
 string
 )
+:
+void
 {
 const
 state
@@ -1169,6 +1185,8 @@ query
 :
 string
 )
+:
+void
 {
 const
 state

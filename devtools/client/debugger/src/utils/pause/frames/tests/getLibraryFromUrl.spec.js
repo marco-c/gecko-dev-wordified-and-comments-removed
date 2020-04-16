@@ -995,9 +995,8 @@ frame
 )
 )
 .
-toEqual
+toBeNull
 (
-null
 )
 ;
 }
@@ -1054,9 +1053,8 @@ callstack
 )
 )
 .
-toEqual
+toBeNull
 (
-null
 )
 ;
 }

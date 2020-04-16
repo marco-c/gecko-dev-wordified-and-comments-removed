@@ -21,6 +21,8 @@ message
 :
 string
 )
+:
+void
 {
 if
 (

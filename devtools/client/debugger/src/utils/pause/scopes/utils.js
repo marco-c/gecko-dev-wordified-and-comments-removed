@@ -285,6 +285,8 @@ item
 :
 Object
 )
+:
+string
 {
 return
 item

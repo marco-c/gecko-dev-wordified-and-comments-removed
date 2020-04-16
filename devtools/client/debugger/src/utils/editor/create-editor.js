@@ -27,6 +27,8 @@ function
 createEditor
 (
 )
+:
+SourceEditor
 {
 const
 gutters
@@ -165,6 +167,8 @@ function
 createHeadlessEditor
 (
 )
+:
+SourceEditor
 {
 const
 editor

@@ -48,6 +48,7 @@ type
 {
 Thread
 ThreadList
+Worker
 }
 from
 "
@@ -393,6 +394,9 @@ thread
 :
 string
 )
+:
+?
+Worker
 {
 return
 getThreads
@@ -500,6 +504,8 @@ state
 :
 State
 )
+:
+boolean
 {
 return
 features
@@ -527,6 +533,9 @@ path
 :
 string
 )
+:
+?
+string
 {
 const
 threadActors

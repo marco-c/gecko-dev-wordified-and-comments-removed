@@ -189,6 +189,8 @@ b
 :
 AstLocation
 )
+:
+boolean
 {
 return
 (
@@ -247,6 +249,8 @@ b
 :
 PartialPosition
 )
+:
+boolean
 {
 const
 bColumn

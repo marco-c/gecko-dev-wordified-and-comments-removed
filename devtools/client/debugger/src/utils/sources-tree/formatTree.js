@@ -29,6 +29,8 @@ string
 "
 "
 )
+:
+string
 {
 const
 whitespace
