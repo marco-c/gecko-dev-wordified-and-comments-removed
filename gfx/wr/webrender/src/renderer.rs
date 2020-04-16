@@ -87,12 +87,6 @@ use
 api
 :
 :
-channel
-;
-use
-api
-:
-:
 units
 :
 :
@@ -104,15 +98,6 @@ api
 :
 :
 DebugFlags
-;
-use
-api
-:
-:
-channel
-:
-:
-MsgSender
 ;
 use
 crate
@@ -815,6 +800,7 @@ mpsc
 :
 {
 channel
+Sender
 Receiver
 }
 ;
@@ -9171,12 +9157,8 @@ api_rx
 )
 =
 channel
-:
-:
-msg_channel
 (
 )
-?
 ;
 let
 (
@@ -32085,7 +32067,7 @@ new
 (
 _
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
@@ -32134,7 +32116,7 @@ enable
 bool
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
@@ -32206,7 +32188,7 @@ _enable
 bool
 api_tx
 :
-MsgSender
+Sender
 <
 ApiMsg
 >
