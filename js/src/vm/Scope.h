@@ -1069,8 +1069,6 @@ frontend
 :
 ScopeCreationData
 ;
-protected
-:
 using
 HeaderWithScope
 =
@@ -1093,6 +1091,8 @@ const
 GCPtrShape
 environmentShape_
 ;
+protected
+:
 BaseScopeData
 *
 data_
