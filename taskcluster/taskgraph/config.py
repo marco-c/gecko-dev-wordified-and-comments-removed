@@ -913,11 +913,35 @@ present
 "
 "
         
+modify_path
+=
+os
+.
+path
+.
+dirname
+(
+self
+.
+root_dir
+)
+        
 if
 GraphConfig
 .
 _PATH_MODIFIED
 :
+            
+if
+GraphConfig
+.
+_PATH_MODIFIED
+=
+=
+modify_path
+:
+                
+return
             
 raise
 Exception
@@ -940,7 +964,7 @@ GraphConfig
 .
 _PATH_MODIFIED
 =
-True
+modify_path
         
 sys
 .
@@ -949,16 +973,7 @@ path
 insert
 (
 0
-os
-.
-path
-.
-dirname
-(
-self
-.
-root_dir
-)
+modify_path
 )
         
 register_path
