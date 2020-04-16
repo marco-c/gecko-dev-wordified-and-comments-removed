@@ -1904,11 +1904,11 @@ NewArrayCopyOnWriteOperation
 \
 _
 (
-NewArrayIteratorObject
+NewArrayIterator
 js
 :
 :
-NewArrayIteratorObject
+NewArrayIterator
 )
 \
 _
