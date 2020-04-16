@@ -31,6 +31,13 @@ h
 #
 include
 "
+nsISupportsUtils
+.
+h
+"
+#
+include
+"
 cairo
 .
 h
@@ -205,6 +212,12 @@ IntSize
 10
 10
 )
+mozilla
+:
+:
+gfx
+:
+:
 SurfaceFormat
 :
 :

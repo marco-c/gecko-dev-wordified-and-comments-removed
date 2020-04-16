@@ -14,6 +14,15 @@ BufferUnrotate
 .
 h
 "
+using
+mozilla
+:
+:
+gfx
+:
+:
+BufferUnrotate
+;
 static
 unsigned
 char

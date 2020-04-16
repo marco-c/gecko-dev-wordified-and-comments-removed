@@ -12,6 +12,13 @@ nsString
 h
 "
 #
+include
+"
+nsTArray
+.
+h
+"
+#
 define
 APPEND_TO_DRIVER_BLOCKLIST_EXT
 (
