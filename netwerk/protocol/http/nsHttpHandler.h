@@ -155,9 +155,6 @@ class
 nsICookieService
 ;
 class
-nsIProcessSwitchRequestor
-;
-class
 nsIIOService
 ;
 class
