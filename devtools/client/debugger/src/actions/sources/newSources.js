@@ -947,6 +947,7 @@ async
 (
 {
 dispatch
+getState
 }
 :
 ThunkArgs
@@ -959,6 +960,9 @@ tabs
 =
 getBlackBoxList
 (
+getState
+(
+)
 )
 ;
 if
