@@ -3718,7 +3718,7 @@ index
 ]
 ;
 }
-handleKeyPress
+handleKeyDown
 (
 event
 numListItems
@@ -3749,7 +3749,7 @@ handled
 =
 this
 .
-_handleKeyPress
+_handleKeyDown
 (
 event
 numListItems
@@ -3779,7 +3779,7 @@ return
 handled
 ;
 }
-_handleKeyPress
+_handleKeyDown
 (
 event
 numListItems
