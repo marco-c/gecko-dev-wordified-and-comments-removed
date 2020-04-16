@@ -3995,8 +3995,8 @@ success
 async
 FirstPartyStorageAccessGrantedForOrigin
 (
-Principal
-aParentPrincipal
+uint64_t
+aParentWindowId
 Principal
 aTrackingPrincipal
 nsCString

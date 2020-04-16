@@ -30380,10 +30380,8 @@ ContentParent
 :
 RecvFirstPartyStorageAccessGrantedForOrigin
 (
-const
-Principal
-&
-aParentPrincipal
+uint64_t
+aParentWindowId
 const
 Principal
 &
@@ -30407,7 +30405,7 @@ ContentBlocking
 :
 SaveAccessForOriginOnParentProcess
 (
-aParentPrincipal
+aParentWindowId
 aTrackingPrincipal
 aTrackingOrigin
 aAllowMode
