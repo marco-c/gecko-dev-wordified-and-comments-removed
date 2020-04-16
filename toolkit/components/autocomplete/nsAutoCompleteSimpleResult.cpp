@@ -1075,8 +1075,6 @@ RemoveValueAt
 (
 int32_t
 aRowIndex
-bool
-aRemoveFromDb
 )
 {
 CHECK_MATCH_INDEX
@@ -1114,7 +1112,6 @@ OnValueRemoved
 (
 this
 value
-aRemoveFromDb
 )
 ;
 }

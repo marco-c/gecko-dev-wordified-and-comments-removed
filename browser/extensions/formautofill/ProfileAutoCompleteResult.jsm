@@ -637,7 +637,6 @@ index
 removeValueAt
 (
 index
-removeFromDatabase
 )
 {
 }

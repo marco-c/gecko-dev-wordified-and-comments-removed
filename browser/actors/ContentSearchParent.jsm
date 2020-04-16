@@ -700,7 +700,6 @@ previousFormHistoryResult
 removeValueAt
 (
 i
-true
 )
 ;
 break

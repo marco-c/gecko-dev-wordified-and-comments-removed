@@ -382,7 +382,6 @@ index
 removeValueAt
 (
 index
-removeFromDatabase
 )
 {
 this
@@ -394,9 +393,6 @@ index
 ;
 if
 (
-removeFromDatabase
-&
-&
 this
 .
 _formHistResult
@@ -418,7 +414,6 @@ _formHistResult
 removeValueAt
 (
 index
-true
 )
 ;
 }
