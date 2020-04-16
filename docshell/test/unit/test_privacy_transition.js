@@ -48,7 +48,7 @@ appShell
 .
 createWindowlessBrowser
 (
-false
+true
 )
 ;
 windowlessBrowser
