@@ -13,6 +13,17 @@ regex
 #
 include
 "
+mozilla
+/
+gfx
+/
+Logging
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

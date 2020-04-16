@@ -22,6 +22,13 @@ h
 #
 include
 "
+GLContextEGL
+.
+h
+"
+#
+include
+"
 GLUploadHelpers
 .
 h
@@ -555,6 +562,9 @@ if
 mTextureFormat
 =
 =
+gfx
+:
+:
 SurfaceFormat
 :
 :
