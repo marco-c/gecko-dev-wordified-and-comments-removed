@@ -2085,6 +2085,16 @@ JSContext
 cx
 )
 ;
+extern
+JS_PUBLIC_API
+bool
+ZoneIsCollecting
+(
+Zone
+*
+zone
+)
+;
 }
 namespace
 js
