@@ -4551,6 +4551,7 @@ aFrame
 int32_t
 aLineNumber
 )
+const
 {
 aFrame
 =
