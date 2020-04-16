@@ -354,6 +354,10 @@ device_name
 =
 None
         
+disable_perf_tuning
+=
+False
+        
 extra_prefs
 =
 {
@@ -533,6 +537,12 @@ autostart
 "
 False
 )
+            
+"
+disable_perf_tuning
+"
+:
+disable_perf_tuning
             
 "
 extra_prefs

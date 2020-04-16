@@ -316,6 +316,17 @@ cpu_test
         
 self
 .
+disable_perf_tuning
+=
+kwargs
+[
+'
+disable_perf_tuning
+'
+]
+        
+self
+.
 device_name
 =
 kwargs
@@ -1147,6 +1158,14 @@ cpu_test
 self
 .
 cpu_test
+            
+'
+disable_perf_tuning
+'
+:
+self
+.
+disable_perf_tuning
             
 '
 is_release_build
