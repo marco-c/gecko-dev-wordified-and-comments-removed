@@ -990,7 +990,7 @@ this
 .
 _log
 .
-warn
+trace
 (
 Failed
 to
@@ -1366,7 +1366,7 @@ from
 +
 record
 .
-clientName
+id
 )
 ;
 this
