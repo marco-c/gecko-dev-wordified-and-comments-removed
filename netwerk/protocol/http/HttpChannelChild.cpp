@@ -5322,10 +5322,6 @@ return
 if
 (
 mMultiPartID
-&
-&
-!
-mIsLastPartOfMultiPart
 )
 {
 LOG
@@ -5805,10 +5801,6 @@ true
 if
 (
 mMultiPartID
-&
-&
-!
-mIsLastPartOfMultiPart
 )
 {
 LOG
