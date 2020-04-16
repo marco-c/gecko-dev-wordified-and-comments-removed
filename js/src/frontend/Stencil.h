@@ -338,15 +338,6 @@ strict
 =
 false
 ;
-mozilla
-:
-:
-Maybe
-<
-FieldInitializers
->
-fieldInitializers
-;
 explicit
 LazyScriptCreationData
 (
