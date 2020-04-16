@@ -3375,6 +3375,8 @@ lastFocusedWindow
 )
 ;
 }
+if
+(
 nsFocusManager
 *
 fm
@@ -3385,12 +3387,10 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
+if
+(
 RefPtr
 <
 Element
@@ -3403,10 +3403,6 @@ aFoundWindow
 GetFrameElementInternal
 (
 )
-;
-if
-(
-frameElement
 )
 {
 fm
@@ -3415,10 +3411,7 @@ fm
 SetFocus
 (
 frameElement
-nsIFocusManager
-:
-:
-FLAG_BYELEMENTFOCUS
+0
 )
 ;
 }

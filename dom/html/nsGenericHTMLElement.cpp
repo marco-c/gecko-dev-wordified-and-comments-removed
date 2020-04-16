@@ -12447,6 +12447,8 @@ focused
 =
 true
 ;
+if
+(
 nsFocusManager
 *
 fm
@@ -12457,10 +12459,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 fm
@@ -12473,11 +12471,6 @@ nsIFocusManager
 :
 :
 FLAG_BYKEY
-|
-nsIFocusManager
-:
-:
-FLAG_BYELEMENTFOCUS
 )
 ;
 nsPIDOMWindowOuter
@@ -12495,7 +12488,6 @@ GetWindow
 ;
 focused
 =
-(
 window
 &
 &
@@ -12504,7 +12496,6 @@ window
 >
 GetFocusedElement
 (
-)
 )
 ;
 }

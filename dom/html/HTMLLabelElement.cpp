@@ -638,7 +638,9 @@ mClickCount
 1
 )
 {
-nsIFocusManager
+if
+(
+nsFocusManager
 *
 fm
 =
@@ -648,10 +650,6 @@ nsFocusManager
 GetFocusManager
 (
 )
-;
-if
-(
-fm
 )
 {
 bool
@@ -696,11 +694,6 @@ nsIFocusManager
 :
 :
 FLAG_BYMOVEFOCUS
-|
-nsIFocusManager
-:
-:
-FLAG_BYELEMENTFOCUS
 |
 (
 byMouse

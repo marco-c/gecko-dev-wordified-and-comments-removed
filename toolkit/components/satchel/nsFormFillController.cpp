@@ -1724,11 +1724,6 @@ ScrollFlags
 :
 :
 ScrollOverflowHidden
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 if

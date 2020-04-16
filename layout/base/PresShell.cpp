@@ -41298,11 +41298,6 @@ ScrollFlags
 :
 :
 ScrollOverflowHidden
-|
-ScrollFlags
-:
-:
-IgnoreMarginAndPadding
 )
 ;
 nsPresContext

@@ -416,11 +416,6 @@ nsIFocusManager
 :
 FLAG_NOPARENTFRAME
 |
-nsIFocusManager
-:
-:
-FLAG_BYELEMENTFOCUS
-|
 nsFocusManager
 :
 :
