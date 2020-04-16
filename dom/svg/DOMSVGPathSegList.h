@@ -541,6 +541,11 @@ aIndex
 mItem
 ;
 }
+void
+RemoveFromTearoffTable
+(
+)
+;
 struct
 ItemProxy
 {

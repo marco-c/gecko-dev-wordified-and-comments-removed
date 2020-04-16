@@ -515,6 +515,11 @@ uint32_t
 aIndex
 )
 ;
+void
+RemoveFromTearoffTable
+(
+)
+;
 FallibleTArray
 <
 nsISVGPoint

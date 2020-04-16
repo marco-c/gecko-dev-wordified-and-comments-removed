@@ -286,6 +286,11 @@ InternalList
 )
 const
 ;
+void
+RemoveFromTearoffTable
+(
+)
+;
 RefPtr
 <
 dom
