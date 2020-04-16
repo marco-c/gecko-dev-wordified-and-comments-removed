@@ -157,6 +157,12 @@ ac_add_options
 -
 disable
 -
+jemalloc
+ac_add_options
+-
+-
+disable
+-
 crashreporter
 ac_add_options
 -
