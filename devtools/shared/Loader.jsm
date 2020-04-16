@@ -117,9 +117,6 @@ false
 freshCompartment
 =
 false
-hasJSMLifetime
-=
-false
 }
 =
 {
@@ -294,7 +291,6 @@ new
 Loader
 (
 {
-hasJSMLifetime
 paths
 invisibleToDebugger
 freshCompartment
@@ -593,9 +589,6 @@ new
 DevToolsLoader
 (
 {
-hasJSMLifetime
-:
-true
 invisibleToDebugger
 :
 Services
