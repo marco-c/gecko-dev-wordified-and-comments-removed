@@ -931,7 +931,7 @@ self
 .
 static_environ
 .
-refTypesEnabled
+ref_types_enabled
 {
 self
 .

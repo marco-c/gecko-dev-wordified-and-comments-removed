@@ -1702,7 +1702,7 @@ self
 bytecode
 self
 .
-bytecodeSize
+bytecode_size
 )
 }
 }
@@ -1746,7 +1746,7 @@ CompiledFunc
 {
 self
 .
-numMetadata
+num_metadata
 =
 compiled_func
 .
@@ -1770,7 +1770,7 @@ as_ptr
 ;
 self
 .
-framePushed
+frame_pushed
 =
 compiled_func
 .
@@ -1780,7 +1780,7 @@ usize
 ;
 self
 .
-containsCalls
+contains_calls
 =
 compiled_func
 .
@@ -1800,7 +1800,7 @@ as_ptr
 ;
 self
 .
-codeSize
+code_size
 =
 compiled_func
 .
@@ -1810,7 +1810,7 @@ usize
 ;
 self
 .
-jumptablesSize
+jumptables_size
 =
 compiled_func
 .
@@ -1820,7 +1820,7 @@ usize
 ;
 self
 .
-rodataSize
+rodata_size
 =
 compiled_func
 .
@@ -1830,7 +1830,7 @@ usize
 ;
 self
 .
-totalSize
+total_size
 =
 compiled_func
 .
@@ -1842,7 +1842,7 @@ len
 ;
 self
 .
-numRodataRelocs
+num_rodata_relocs
 =
 compiled_func
 .
@@ -1854,7 +1854,7 @@ len
 ;
 self
 .
-rodataRelocs
+rodata_relocs
 =
 compiled_func
 .
@@ -1892,10 +1892,8 @@ Self
 which
 :
 CraneliftMetadataEntry_Which_DirectCall
-codeOffset
-:
 code_offset
-moduleBytecodeOffset
+module_bytecode_offset
 :
 srcloc
 .
@@ -1931,10 +1929,10 @@ Self
 which
 :
 CraneliftMetadataEntry_Which_IndirectCall
-codeOffset
+code_offset
 :
 ret_addr
-moduleBytecodeOffset
+module_bytecode_offset
 :
 srcloc
 .
@@ -1969,10 +1967,8 @@ Self
 which
 :
 CraneliftMetadataEntry_Which_Trap
-codeOffset
-:
 code_offset
-moduleBytecodeOffset
+module_bytecode_offset
 :
 srcloc
 .
@@ -2009,10 +2005,8 @@ Self
 which
 :
 CraneliftMetadataEntry_Which_SymbolicAccess
-codeOffset
-:
 code_offset
-moduleBytecodeOffset
+module_bytecode_offset
 :
 srcloc
 .
@@ -2047,7 +2041,7 @@ CallConv
 if
 self
 .
-platformIsWindows
+platform_is_windows
 {
 isa
 :
