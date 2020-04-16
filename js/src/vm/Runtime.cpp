@@ -482,8 +482,10 @@ HelperThreadTaskCallback
 js
 :
 :
+UniquePtr
+<
 RunnableTask
-*
+>
 )
 ;
 bool
