@@ -2177,7 +2177,14 @@ WebAssembly
 CompileError
 /
 initializer
-expression
+type
+and
+expected
+type
+don
+'
+t
+match
 /
 )
 ;
