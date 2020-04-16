@@ -1469,12 +1469,6 @@ mFormat
 ;
 desc
 .
-mArrayLayerCount
-=
-1
-;
-desc
-.
 mMipLevelCount
 =
 1

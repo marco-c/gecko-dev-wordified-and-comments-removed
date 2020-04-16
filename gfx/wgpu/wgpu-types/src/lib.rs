@@ -3973,10 +3973,6 @@ size
 :
 Extent3d
 pub
-array_layer_count
-:
-u32
-pub
 mip_level_count
 :
 u32

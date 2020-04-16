@@ -1720,11 +1720,6 @@ GPUExtent3D
 size
 ;
 u32
-arrayLayerCount
-=
-1
-;
-u32
 mipLevelCount
 =
 1
