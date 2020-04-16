@@ -2718,6 +2718,15 @@ enabled
 =
 autoscroll
 enabled
+zooming
+-
+enabled
+=
+smooth
+pinch
+-
+zoom
+enabled
 #
 #
 Variables
