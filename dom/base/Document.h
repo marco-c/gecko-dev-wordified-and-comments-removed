@@ -43,13 +43,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsCOMArray
 .
 h
@@ -12134,7 +12127,7 @@ SVGUseElement
 SVGUseElementSet
 mSVGUseElementsNeedingShadowTreeUpdate
 ;
-nsAutoPtr
+UniquePtr
 <
 nsTHashtable
 <

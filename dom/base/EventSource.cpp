@@ -145,13 +145,6 @@ h
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsIThreadRetargetableStreamListener
 .
 h
