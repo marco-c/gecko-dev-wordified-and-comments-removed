@@ -19692,8 +19692,6 @@ HandleObject
 protoArg
 NewObjectKind
 newKind
-=
-GenericObject
 )
 {
 gc
