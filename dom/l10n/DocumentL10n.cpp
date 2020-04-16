@@ -170,7 +170,7 @@ DocumentL10n
 :
 Init
 (
-nsTArray
+Sequence
 <
 nsString
 >
@@ -187,6 +187,9 @@ DOMLocalization
 Init
 (
 aResourceIds
+mIsSync
+{
+}
 aRv
 )
 ;
