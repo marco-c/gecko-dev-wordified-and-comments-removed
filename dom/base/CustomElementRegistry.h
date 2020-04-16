@@ -1369,6 +1369,14 @@ elem
 )
 ;
 }
+void
+TraceDefinitions
+(
+JSTracer
+*
+aTrc
+)
+;
 private
 :
 ~
