@@ -1129,6 +1129,7 @@ script
 .
 replace
 (
+b
 '
 >
 .
@@ -1137,6 +1138,7 @@ config
 .
 log
 '
+b
 '
 >
 >
@@ -2367,6 +2369,19 @@ six
 _import
 =
 '
+iteritems
+'
+)
+imports
+(
+_from
+=
+'
+six
+'
+_import
+=
+'
 string_types
 '
 )
@@ -2454,10 +2469,9 @@ pair
 for
 pair
 in
-extra_env
-.
 iteritems
 (
+extra_env
 )
 )
 )
