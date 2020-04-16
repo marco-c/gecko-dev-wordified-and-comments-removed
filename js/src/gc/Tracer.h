@@ -116,14 +116,11 @@ static_assert
 std
 :
 :
-is_base_of
+is_base_of_v
 <
 type
 T
 >
-:
-:
-value
 "
 Failed
 to
