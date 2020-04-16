@@ -481,7 +481,7 @@ RegExpObject
 regexp
 (
 cx
-NewObjectWithClassProto
+NewObjectWithClassProtoAndKind
 <
 RegExpObject
 >
