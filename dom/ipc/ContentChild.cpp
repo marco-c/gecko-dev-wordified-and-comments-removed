@@ -4716,7 +4716,7 @@ aReturn
 =
 nullptr
 ;
-nsAutoPtr
+UniquePtr
 <
 IPCTabContext
 >
@@ -5098,8 +5098,10 @@ IsMozBrowserElement
 ;
 ipcContext
 =
-new
+MakeUnique
+<
 IPCTabContext
+>
 (
 context
 )
@@ -5112,8 +5114,10 @@ unsafeTabContext
 ;
 ipcContext
 =
-new
+MakeUnique
+<
 IPCTabContext
+>
 (
 unsafeTabContext
 )
@@ -12215,8 +12219,9 @@ Length
 ;
 )
 {
-AlertObserver
-*
+const
+auto
+&
 observer
 =
 mAlertObservers
