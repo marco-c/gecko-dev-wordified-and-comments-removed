@@ -4215,6 +4215,8 @@ TransformKeyLength
 ;
 }
 ;
+if
+(
 size_t
 fieldsLength
 =
@@ -4224,8 +4226,6 @@ length
 (
 )
 ;
-if
-(
 fieldsLength
 >
 1
