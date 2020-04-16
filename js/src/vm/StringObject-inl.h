@@ -160,7 +160,7 @@ StringObject
 obj
 (
 cx
-NewObjectWithClassProto
+NewObjectWithClassProtoAndKind
 <
 StringObject
 >
