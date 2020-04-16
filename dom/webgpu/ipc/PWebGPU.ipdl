@@ -421,6 +421,8 @@ RawId
 bufferId
 Shmem
 shmem
+bool
+flush
 )
 ;
 async
