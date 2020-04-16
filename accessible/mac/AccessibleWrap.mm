@@ -660,7 +660,7 @@ nativeAcc
 {
 [
 nativeAcc
-firePlatformEvent
+handleAccessibleEvent
 :
 eventType
 ]

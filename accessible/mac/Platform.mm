@@ -625,7 +625,7 @@ wrapper
 {
 [
 wrapper
-firePlatformEvent
+handleAccessibleEvent
 :
 aEventType
 ]
@@ -696,7 +696,7 @@ wrapper
 {
 [
 wrapper
-firePlatformEvent
+handleAccessibleEvent
 :
 nsIAccessibleEvent
 :
@@ -762,7 +762,7 @@ wrapper
 {
 [
 wrapper
-firePlatformEvent
+handleAccessibleEvent
 :
 aEventType
 ]

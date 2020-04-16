@@ -2821,7 +2821,7 @@ CharacterCount
 (
 void
 )
-firePlatformEvent
+handleAccessibleEvent
 :
 (
 uint32_t
@@ -2879,7 +2879,7 @@ default
 :
 [
 super
-firePlatformEvent
+handleAccessibleEvent
 :
 eventType
 ]

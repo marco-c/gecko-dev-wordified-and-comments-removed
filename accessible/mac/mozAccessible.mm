@@ -6514,7 +6514,7 @@ UNAVAILABLE
 (
 void
 )
-firePlatformEvent
+handleAccessibleEvent
 :
 (
 uint32_t
