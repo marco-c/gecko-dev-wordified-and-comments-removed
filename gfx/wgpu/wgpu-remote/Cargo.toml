@@ -55,6 +55,9 @@ MPL
 .
 0
 "
+publish
+=
+false
 [
 lib
 ]
@@ -123,7 +126,7 @@ version
 "
 0
 .
-1
+5
 "
 features
 =
@@ -159,7 +162,7 @@ version
 "
 0
 .
-1
+5
 "
 features
 =
