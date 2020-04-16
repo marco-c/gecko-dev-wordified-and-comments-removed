@@ -170,7 +170,11 @@ mRatio
 aFloat
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 AspectRatio
 Inverted
 (

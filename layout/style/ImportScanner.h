@@ -106,7 +106,11 @@ EmitUrl
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 State
 Scan
 (

@@ -556,7 +556,11 @@ ClearMaintainedSelection
 )
 const
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 bool
 FlushLayout
