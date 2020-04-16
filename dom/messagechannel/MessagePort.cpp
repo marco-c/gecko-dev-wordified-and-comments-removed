@@ -998,8 +998,10 @@ aGlobal
 ;
 mIdentifier
 =
-new
+MakeUnique
+<
 MessagePortIdentifier
+>
 (
 )
 ;
