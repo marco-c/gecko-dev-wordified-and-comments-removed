@@ -1375,6 +1375,12 @@ mscom
 PreservedStreamPtr
 mDocProxyStream
 ;
+mscom
+:
+:
+PreservedStreamPtr
+mTopLevelDocProxyStream
+;
 #
 endif
 #
