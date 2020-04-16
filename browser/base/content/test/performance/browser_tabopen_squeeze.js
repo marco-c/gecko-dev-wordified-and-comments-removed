@@ -21,6 +21,11 @@ ensureNoPreloadedBrowser
 (
 )
 ;
+await
+disableFxaBadge
+(
+)
+;
 const
 TAB_COUNT_FOR_SQUEEZE
 =
