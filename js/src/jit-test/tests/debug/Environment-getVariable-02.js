@@ -95,7 +95,7 @@ getVariable
 d
 "
 )
-4
+7
 )
 ;
 assertEq
@@ -108,7 +108,7 @@ getVariable
 e
 "
 )
-5
+8
 )
 ;
 hits
@@ -135,6 +135,10 @@ c
 var
 d
 =
+a
++
+b
++
 c
 +
 1

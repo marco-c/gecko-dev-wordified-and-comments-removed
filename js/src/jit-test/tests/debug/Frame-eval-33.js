@@ -102,6 +102,12 @@ expectedInnerFunThis
 "
 )
 ;
+return
+[
+innerFun
+expectedInnerFunThis
+]
+;
 }
 )
 (

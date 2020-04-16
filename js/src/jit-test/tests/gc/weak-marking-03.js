@@ -2419,6 +2419,9 @@ length
 "
 )
 ;
+return
+vals
+;
 }
 if
 (
