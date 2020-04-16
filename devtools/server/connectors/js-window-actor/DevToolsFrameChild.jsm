@@ -377,6 +377,11 @@ new
 ActorPool
 (
 connection
+"
+frame
+-
+child
+"
 )
 ;
 actorPool

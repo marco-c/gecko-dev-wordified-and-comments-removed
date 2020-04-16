@@ -291,6 +291,11 @@ new
 ActorPool
 (
 conn
+"
+content
+-
+process
+"
 )
 ;
 actorPool

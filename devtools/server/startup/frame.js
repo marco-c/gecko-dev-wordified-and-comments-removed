@@ -344,6 +344,11 @@ new
 ActorPool
 (
 conn
+"
+frame
+-
+script
+"
 )
 ;
 actorPool
