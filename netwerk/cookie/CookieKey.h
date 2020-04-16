@@ -53,7 +53,7 @@ default
 CookieKey
 (
 const
-nsCString
+nsACString
 &
 baseDomain
 const

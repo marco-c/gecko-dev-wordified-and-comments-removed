@@ -107,6 +107,11 @@ CookieJarSettings
 cpp
 '
 '
+CookieLogging
+.
+cpp
+'
+'
 CookiePermission
 .
 cpp
