@@ -41999,6 +41999,7 @@ CARET_ASSOCIATE_AFTER
 :
 CARET_ASSOCIATE_BEFORE
 ;
+const
 nsAutoLineIterator
 it
 =
@@ -42014,9 +42015,11 @@ if
 !
 it
 )
+{
 return
 NS_ERROR_FAILURE
 ;
+}
 int32_t
 searchingLine
 =
