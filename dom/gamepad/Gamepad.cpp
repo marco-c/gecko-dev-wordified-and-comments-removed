@@ -145,7 +145,7 @@ const
 nsAString
 &
 aID
-uint32_t
+int32_t
 aIndex
 uint32_t
 aHashKey
@@ -375,7 +375,7 @@ Gamepad
 :
 SetIndex
 (
-uint32_t
+int32_t
 aIndex
 )
 {

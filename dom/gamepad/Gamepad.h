@@ -199,7 +199,7 @@ const
 nsAString
 &
 aID
-uint32_t
+int32_t
 aIndex
 uint32_t
 aHashKey
@@ -258,7 +258,7 @@ aValue
 void
 SetIndex
 (
-uint32_t
+int32_t
 aIndex
 )
 ;
@@ -410,7 +410,7 @@ return
 mConnected
 ;
 }
-uint32_t
+int32_t
 Index
 (
 )
@@ -564,7 +564,7 @@ mParent
 nsString
 mID
 ;
-uint32_t
+int32_t
 mIndex
 ;
 uint32_t

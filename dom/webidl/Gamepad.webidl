@@ -322,7 +322,6 @@ system
 /
 readonly
 attribute
-unsigned
 long
 index
 ;
