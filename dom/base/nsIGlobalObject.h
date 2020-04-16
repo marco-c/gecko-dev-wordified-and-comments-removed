@@ -441,6 +441,17 @@ const
 ;
 virtual
 bool
+CrossOriginIsolated
+(
+)
+const
+{
+return
+false
+;
+}
+virtual
+bool
 IsSharedMemoryAllowed
 (
 )

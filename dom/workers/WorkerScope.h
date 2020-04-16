@@ -642,6 +642,7 @@ CrossOriginIsolated
 (
 )
 const
+override
 ;
 void
 Atob
