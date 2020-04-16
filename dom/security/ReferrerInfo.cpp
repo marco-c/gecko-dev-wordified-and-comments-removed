@@ -838,6 +838,11 @@ Create
 }
 if
 (
+XRE_IsParentProcess
+(
+)
+&
+&
 cjs
 -
 >
