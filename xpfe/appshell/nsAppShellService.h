@@ -118,12 +118,6 @@ int32_t
 aInitialHeight
 bool
 aIsHiddenWindow
-nsIRemoteTab
-*
-aOpeningTab
-mozIDOMWindowProxy
-*
-aOpenerWindow
 mozilla
 :
 :

@@ -3695,6 +3695,8 @@ CreateWindow
 nullable
 PBrowser
 aThisTab
+MaybeDiscardedBrowsingContext
+aParent
 PBrowser
 aNewTab
 uint32_t
@@ -3715,6 +3717,8 @@ nsIContentSecurityPolicy
 aCsp
 nsIReferrerInfo
 aReferrerInfo
+OriginAttributes
+aOriginAttributes
 )
 returns
 (
@@ -3727,6 +3731,8 @@ CreateWindowInDifferentProcess
 (
 PBrowser
 aThisTab
+MaybeDiscardedBrowsingContext
+aParent
 uint32_t
 aChromeFlags
 bool
@@ -3747,6 +3753,8 @@ nsIContentSecurityPolicy
 aCsp
 nsIReferrerInfo
 aReferrerInfo
+OriginAttributes
+aOriginAttributes
 )
 ;
 sync

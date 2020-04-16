@@ -93,12 +93,6 @@ aInitialWidth
 in
 long
 aInitialHeight
-in
-nsIRemoteTab
-aOpeningTab
-in
-mozIDOMWindowProxy
-aOpenerWindow
 )
 ;
 nsIWindowlessBrowser
