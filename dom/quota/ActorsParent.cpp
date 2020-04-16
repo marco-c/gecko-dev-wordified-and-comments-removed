@@ -16790,6 +16790,15 @@ mBasePath
 =
 aBasePath
 ;
+#
+ifdef
+XP_WIN
+CacheUseDOSDevicePathSyntaxPrefValue
+(
+)
+;
+#
+endif
 auto
 baseDirOrErr
 =
