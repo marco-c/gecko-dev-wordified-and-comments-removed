@@ -788,9 +788,12 @@ aMode
 override
 ;
 virtual
-int32_t
+void
 GetWorkspaceID
 (
+nsAString
+&
+workspaceID
 )
 override
 ;
@@ -798,7 +801,9 @@ virtual
 void
 MoveToWorkspace
 (
-int32_t
+const
+nsAString
+&
 workspaceID
 )
 override
