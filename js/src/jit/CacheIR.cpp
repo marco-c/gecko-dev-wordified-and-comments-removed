@@ -26244,10 +26244,9 @@ res
 .
 set
 (
-NewStringIteratorObject
+NewStringIteratorTemplate
 (
 cx_
-TenuredObject
 )
 )
 ;

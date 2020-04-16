@@ -39666,7 +39666,6 @@ StringIteratorObject
 (
 JSContext
 *
-NewObjectKind
 )
 ;
 ool
@@ -39674,16 +39673,12 @@ ool
 oolCallVM
 <
 Fn
-NewStringIteratorObject
+NewStringIterator
 >
 (
 lir
 ArgList
 (
-Imm32
-(
-GenericObject
-)
 )
 StoreRegisterTo
 (
