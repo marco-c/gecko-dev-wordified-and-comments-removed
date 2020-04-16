@@ -35,6 +35,8 @@ import
 WebDriverTestharnessExecutor
                                            
 WebDriverRefTestExecutor
+                                           
+WebDriverCrashtestExecutor
 )
 from
 .
@@ -98,6 +100,14 @@ wdspec
 :
 "
 SafariDriverWdspecExecutor
+"
+                              
+"
+crashtest
+"
+:
+"
+WebDriverCrashtestExecutor
 "
 }
                  
