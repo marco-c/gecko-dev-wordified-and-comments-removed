@@ -2292,8 +2292,12 @@ aDuration
 )
 ;
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 SamplerThread
 *
 Destroy
@@ -13313,8 +13317,12 @@ samplerThread
 ;
 }
 }
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 SamplerThread
 *
 locked_profiler_stop
