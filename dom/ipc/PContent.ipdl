@@ -2689,13 +2689,6 @@ CrossProcessRedirect
 (
 RedirectToRealChannelArgs
 args
-Endpoint
-<
-PStreamFilterParent
->
-[
-]
-aEndpoint
 )
 returns
 (
