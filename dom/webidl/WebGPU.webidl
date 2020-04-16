@@ -3918,8 +3918,6 @@ u64
 size
 )
 ;
-/
-*
 void
 copyBufferToTexture
 (
@@ -3953,6 +3951,8 @@ GPUExtent3D
 copySize
 )
 ;
+/
+*
 void
 copyImageBitmapToTexture
 (
