@@ -2665,6 +2665,7 @@ mPresShellIgnoreScrollFrame
 void
 EnterPresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -2677,6 +2678,7 @@ false
 void
 ResetMarkedFramesForDisplayList
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -2685,6 +2687,7 @@ aReferenceFrame
 void
 LeavePresShell
 (
+const
 nsIFrame
 *
 aReferenceFrame
@@ -2970,6 +2973,7 @@ MarkFrameForDisplay
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
@@ -2981,6 +2985,7 @@ MarkFrameForDisplayIfVisible
 nsIFrame
 *
 aFrame
+const
 nsIFrame
 *
 aStopAtFrame
