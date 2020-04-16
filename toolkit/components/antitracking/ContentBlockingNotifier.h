@@ -105,9 +105,6 @@ static
 void
 OnEvent
 (
-nsPIDOMWindowOuter
-*
-aWindow
 nsIChannel
 *
 aReportingChannel
