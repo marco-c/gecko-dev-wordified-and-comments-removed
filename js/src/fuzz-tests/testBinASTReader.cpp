@@ -301,9 +301,6 @@ return
 0
 ;
 }
-SourceExtent
-extent
-;
 Directives
 directives
 (
@@ -320,7 +317,6 @@ ScopeKind
 Global
 binCompilationInfo
 directives
-extent
 )
 ;
 BinASTParser

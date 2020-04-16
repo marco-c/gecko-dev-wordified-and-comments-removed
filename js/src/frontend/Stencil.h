@@ -1916,6 +1916,16 @@ immutableScriptData
 =
 nullptr
 ;
+unsigned
+lineno
+=
+0
+;
+unsigned
+column
+=
+0
+;
 uint32_t
 natoms
 =
