@@ -354,6 +354,9 @@ loopStack_
 PendingEdgesMap
 pendingEdges_
 ;
+PhiVector
+iterators_
+;
 TempAllocator
 &
 alloc
@@ -569,6 +572,14 @@ MInstruction
 ins
 BytecodeLocation
 loc
+)
+;
+MOZ_MUST_USE
+bool
+addIteratorLoopPhis
+(
+BytecodeLocation
+loopHead
 )
 ;
 MConstant
