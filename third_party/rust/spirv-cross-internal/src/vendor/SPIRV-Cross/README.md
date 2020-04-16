@@ -2517,7 +2517,7 @@ MacOSX
 )
 to
 rename
-varaible
+variable
 base
 on
 location

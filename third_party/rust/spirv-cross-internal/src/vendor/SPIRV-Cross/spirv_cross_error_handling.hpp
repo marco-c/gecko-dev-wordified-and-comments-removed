@@ -73,6 +73,16 @@ noreturn
 ]
 ]
 #
+elif
+defined
+(
+_MSC_VER
+)
+__declspec
+(
+noreturn
+)
+#
 endif
 inline
 void

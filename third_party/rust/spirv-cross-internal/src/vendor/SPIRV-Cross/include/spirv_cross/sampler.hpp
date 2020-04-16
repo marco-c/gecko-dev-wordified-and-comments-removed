@@ -343,7 +343,7 @@ format
 spirv_cross_wrap
 wrap_s
 ;
-spirv_cross_format
+spirv_cross_wrap
 wrap_t
 ;
 spirv_cross_filter
