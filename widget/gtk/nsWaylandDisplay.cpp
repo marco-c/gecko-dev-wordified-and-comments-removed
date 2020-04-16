@@ -2364,6 +2364,12 @@ Shutdown
 (
 )
 {
+StaticMutexAutoLock
+lock
+(
+gWaylandDisplaysMutex
+)
+;
 mDispatcherThreadLoop
 =
 nullptr
