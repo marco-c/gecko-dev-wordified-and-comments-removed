@@ -18702,7 +18702,6 @@ haveParseError
 )
 ;
 }
-else
 if
 (
 start
