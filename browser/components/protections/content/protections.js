@@ -627,6 +627,11 @@ Date
 (
 )
 ;
+var
+hasData
+=
+false
+;
 for
 (
 let
@@ -740,6 +745,10 @@ dateString
 ]
 )
 {
+hasData
+=
+true
+;
 let
 content
 =
@@ -1618,6 +1627,10 @@ socialEnabled
 if
 (
 notBlocking
+&
+&
+!
+hasData
 )
 {
 document
