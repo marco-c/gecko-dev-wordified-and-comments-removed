@@ -874,6 +874,7 @@ GetWritingMode
 )
 )
 ;
+const
 auto
 bp
 =
@@ -881,8 +882,6 @@ GetLogicalUsedBorderAndPadding
 (
 aWM
 )
-;
-bp
 .
 ApplySkipSides
 (

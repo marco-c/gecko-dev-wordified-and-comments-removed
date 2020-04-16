@@ -5269,7 +5269,8 @@ aFromMode
 )
 ;
 }
-void
+LogicalMargin
+&
 ApplySkipSides
 (
 LogicalSides
@@ -5340,6 +5341,10 @@ IEnd
 0
 ;
 }
+return
+*
+this
+;
 }
 bool
 IsAllZero

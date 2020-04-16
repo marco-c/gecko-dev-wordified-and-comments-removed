@@ -2940,6 +2940,7 @@ aWritingMode
 )
 const
 {
+const
 auto
 bp
 =
@@ -2947,8 +2948,6 @@ GetLogicalUsedBorderAndPadding
 (
 aWritingMode
 )
-;
-bp
 .
 ApplySkipSides
 (
