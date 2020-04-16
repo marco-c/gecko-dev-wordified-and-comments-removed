@@ -2398,6 +2398,12 @@ padding
 :
 0
 ;
+overflow
+-
+x
+:
+auto
+;
 }
 .
 dialogBox
@@ -2577,6 +2583,12 @@ flex
 width
 :
 66ch
+;
+min
+-
+width
+:
+inherit
 ;
 }
 #
