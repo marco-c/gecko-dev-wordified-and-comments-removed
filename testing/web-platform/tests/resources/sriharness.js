@@ -439,6 +439,7 @@ SRIPreloadTest
 preload_sri_success
 subresource_sri_success
 name
+number_of_requests
 destination
 resource_url
 link_attrs
@@ -672,6 +673,12 @@ step_func
 =
 >
 {
+verifyNumberOfResourceTimingEntries
+(
+resource_url
+number_of_requests
+)
+;
 test
 .
 done

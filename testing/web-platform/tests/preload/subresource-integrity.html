@@ -114,6 +114,24 @@ js
 script
 >
 <
+script
+src
+=
+"
+.
+/
+resources
+/
+preload_helper
+.
+js
+"
+>
+<
+/
+script
+>
+<
 div
 id
 =
@@ -538,6 +556,12 @@ hash
 name
 *
 /
+1
+/
+*
+number_of_requests
+*
+/
 destination
 /
 *
@@ -600,6 +624,7 @@ correct
 sha384
 hash
 .
+1
 destination
 same_origin_prefix
 +
@@ -636,6 +661,7 @@ correct
 sha512
 hash
 .
+1
 destination
 same_origin_prefix
 +
@@ -671,6 +697,7 @@ with
 empty
 integrity
 .
+1
 destination
 same_origin_prefix
 +
@@ -703,6 +730,7 @@ with
 incorrect
 hash
 .
+1
 destination
 same_origin_prefix
 +
@@ -745,6 +773,7 @@ hashes
 including
 correct
 .
+1
 destination
 same_origin_prefix
 +
@@ -789,6 +818,7 @@ including
 unknown
 algorithm
 .
+1
 destination
 same_origin_prefix
 +
@@ -830,6 +860,7 @@ sha256
 mismatch
 sha512
 match
+1
 destination
 same_origin_prefix
 +
@@ -871,6 +902,7 @@ sha256
 match
 sha512
 mismatch
+1
 destination
 same_origin_prefix
 +
@@ -923,6 +955,7 @@ hash
 ACAO
 :
 *
+1
 destination
 xorigin_prefix
 +
@@ -976,6 +1009,7 @@ hash
 ACAO
 :
 *
+1
 destination
 xorigin_prefix
 +
@@ -1037,6 +1071,7 @@ hash
 CORS
 -
 eligible
+1
 destination
 xorigin_prefix
 +
@@ -1096,6 +1131,7 @@ hash
 CORS
 -
 eligible
+1
 destination
 xorigin_prefix
 +
@@ -1159,6 +1195,7 @@ CORS
 -
 ineligible
 resource
+0
 destination
 /
 /
@@ -1217,6 +1254,7 @@ request
 with
 correct
 hash
+1
 destination
 xorigin_prefix
 +
@@ -1256,6 +1294,7 @@ request
 with
 hash
 mismatch
+1
 destination
 xorigin_prefix
 +
@@ -1300,6 +1339,7 @@ destination
 }
 empty
 integrity
+1
 destination
 xorigin_prefix
 +
@@ -1335,6 +1375,7 @@ correct
 hash
 options
 .
+1
 destination
 same_origin_prefix
 +
@@ -1381,6 +1422,7 @@ unknown
 algorithm
 only
 .
+1
 destination
 same_origin_prefix
 +
@@ -1454,6 +1496,7 @@ with
 matching
 digest
 .
+1
 destination
 same_origin_prefix
 +
@@ -1503,6 +1546,7 @@ with
 matching
 digest
 .
+2
 destination
 same_origin_prefix
 +
@@ -1557,6 +1601,7 @@ non
 matching
 digest
 .
+2
 destination
 same_origin_prefix
 +
@@ -1613,6 +1658,7 @@ non
 matching
 digest
 .
+2
 destination
 same_origin_prefix
 +
