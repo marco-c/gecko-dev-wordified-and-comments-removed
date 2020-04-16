@@ -125,9 +125,6 @@ CreateFromLoadURIOptions
 nsISupports
 *
 aConsumer
-nsIURIFixup
-*
-aURIFixup
 const
 nsAString
 &
