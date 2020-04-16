@@ -7985,6 +7985,12 @@ aSelectStyle
 )
 const
 ;
+bool
+ShouldHaveLineIfEmpty
+(
+)
+const
+;
 virtual
 nsresult
 GetSelectionController
