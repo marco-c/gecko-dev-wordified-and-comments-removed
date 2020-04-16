@@ -8591,16 +8591,6 @@ aIgnoreTabindex
 const
 {
 return
-IsAnyOfHTMLElements
-(
-nsGkAtoms
-:
-:
-embed
-)
-|
-|
-(
 !
 aIgnoreTabindex
 &
@@ -8612,7 +8602,6 @@ nsGkAtoms
 :
 :
 tabindex
-)
 )
 ;
 }
