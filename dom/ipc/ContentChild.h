@@ -468,8 +468,6 @@ aTabOpener
 nsIOpenWindowInfo
 *
 aOpenWindowInfo
-bool
-aIframeMoz
 uint32_t
 aChromeFlags
 bool
