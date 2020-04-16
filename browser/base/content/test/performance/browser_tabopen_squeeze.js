@@ -36,8 +36,9 @@ createTabs
 TAB_COUNT_FOR_SQUEEZE
 )
 ;
-await
-ensureFocusedUrlbar
+gURLBar
+.
+focus
 (
 )
 ;

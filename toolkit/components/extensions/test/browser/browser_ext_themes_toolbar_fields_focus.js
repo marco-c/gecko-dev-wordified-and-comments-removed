@@ -170,10 +170,6 @@ color
 let
 urlBar
 =
-gURLBar
-.
-megabar
-?
 document
 .
 querySelector
@@ -185,10 +181,6 @@ urlbar
 background
 "
 )
-:
-gURLBar
-.
-textbox
 ;
 gURLBar
 .
@@ -480,10 +472,6 @@ true
 let
 urlBar
 =
-gURLBar
-.
-megabar
-?
 document
 .
 querySelector
@@ -495,10 +483,6 @@ urlbar
 background
 "
 )
-:
-gURLBar
-.
-textbox
 ;
 Assert
 .

@@ -1234,17 +1234,6 @@ DOM_VK_TAB
 let
 allowTabbingThroughResults
 =
-!
-UrlbarPrefs
-.
-get
-(
-"
-update1
-"
-)
-|
-|
 this
 .
 input

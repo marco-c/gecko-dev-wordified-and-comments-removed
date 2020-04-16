@@ -21,8 +21,9 @@ ensureNoPreloadedBrowser
 (
 )
 ;
-await
-ensureFocusedUrlbar
+gURLBar
+.
+focus
 (
 )
 ;

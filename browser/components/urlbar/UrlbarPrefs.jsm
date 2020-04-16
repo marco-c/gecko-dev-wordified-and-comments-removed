@@ -353,12 +353,6 @@ expire_days
 [
 "
 update1
-"
-true
-]
-[
-"
-update1
 .
 interventions
 "

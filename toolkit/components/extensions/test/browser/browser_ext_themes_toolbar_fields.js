@@ -207,10 +207,6 @@ let
 fields
 =
 [
-gURLBar
-.
-megabar
-?
 document
 .
 querySelector
@@ -222,10 +218,6 @@ urlbar
 background
 "
 )
-:
-gURLBar
-.
-textbox
 BrowserSearch
 .
 searchBar
