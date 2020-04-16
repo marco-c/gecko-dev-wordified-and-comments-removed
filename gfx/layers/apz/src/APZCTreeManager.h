@@ -1565,6 +1565,16 @@ ScrollableLayerGuid
 aGuid
 )
 ;
+ScreenMargin
+GetCompositorFixedLayerMargins
+(
+const
+MutexAutoLock
+&
+aProofOfMapLock
+)
+const
+;
 protected
 :
 RefPtr
