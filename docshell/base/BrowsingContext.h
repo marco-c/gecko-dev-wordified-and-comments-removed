@@ -1019,9 +1019,6 @@ false
 nsresult
 LoadURI
 (
-BrowsingContext
-*
-aAccessor
 nsDocShellLoadState
 *
 aLoadState
@@ -1034,9 +1031,6 @@ false
 nsresult
 InternalLoad
 (
-BrowsingContext
-*
-aAccessor
 nsDocShellLoadState
 *
 aLoadState
