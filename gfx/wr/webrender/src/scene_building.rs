@@ -1345,7 +1345,7 @@ PrimitiveInstanceKind
 :
 PushClipChain
 )
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -1397,7 +1397,7 @@ PrimitiveInstanceKind
 :
 PopClipChain
 )
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -2672,7 +2672,7 @@ main_prim_list
 add_prim
 (
 instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -6184,11 +6184,6 @@ new
 (
 info
 .
-rect
-.
-origin
-info
-.
 clip_rect
 instance_kind
 clip_chain_id
@@ -6329,9 +6324,9 @@ self
 prim_instance
 :
 PrimitiveInstance
-prim_size
+prim_rect
 :
-LayoutSize
+LayoutRect
 spatial_node_index
 :
 SpatialNodeIndex
@@ -6392,7 +6387,7 @@ prim_list
 add_prim
 (
 prim_instance
-prim_size
+prim_rect
 spatial_node_index
 flags
 )
@@ -6670,8 +6665,6 @@ prim_instance
 info
 .
 rect
-.
-size
 clip_and_scroll
 .
 spatial_node_index
@@ -7334,7 +7327,7 @@ prim_list
 add_prim_to_start
 (
 prim
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -7370,7 +7363,7 @@ prim_list
 add_prim
 (
 prim
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -7821,7 +7814,7 @@ add_prim
 ext_prim
 .
 instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -8025,7 +8018,7 @@ cur_instance
 clone
 (
 )
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -8226,7 +8219,7 @@ prim_list
 add_prim
 (
 cur_instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -9511,12 +9504,6 @@ PrimitiveInstance
 :
 new
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 LayoutRect
 :
 :
@@ -9553,7 +9540,7 @@ self
 add_primitive_to_draw_list
 (
 shadow_prim_instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -9850,8 +9837,6 @@ shadow_prim_instance
 info
 .
 rect
-.
-size
 pending_primitive
 .
 clip_and_scroll
@@ -12317,7 +12302,7 @@ prim_list
 add_prim
 (
 instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -12594,7 +12579,7 @@ prim_list
 add_prim
 (
 filtered_instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -12692,7 +12677,7 @@ prim_list
 add_prim
 (
 flattened_instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -12807,7 +12792,7 @@ prim_list
 add_prim
 (
 instance
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -13110,7 +13095,7 @@ cur_instance
 clone
 (
 )
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -13382,7 +13367,7 @@ cur_instance
 clone
 (
 )
-LayoutSize
+LayoutRect
 :
 :
 zero
@@ -14728,12 +14713,6 @@ PrimitiveInstance
 :
 new
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 LayoutRect
 :
 :
@@ -14776,12 +14755,6 @@ PrimitiveInstance
 :
 new
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 LayoutRect
 :
 :
@@ -15345,12 +15318,6 @@ PrimitiveInstance
 :
 new
 (
-LayoutPoint
-:
-:
-zero
-(
-)
 LayoutRect
 :
 :

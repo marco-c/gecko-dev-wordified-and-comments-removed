@@ -80,7 +80,6 @@ prim_store
 :
 {
 PrimKey
-PrimKeyCommonData
 PrimTemplate
 PrimTemplateCommonData
 InternablePrimitive
@@ -257,12 +256,10 @@ LineDecorationKey
 {
 common
 :
-PrimKeyCommonData
-:
-:
-with_info
-(
 info
+.
+into
+(
 )
 kind
 :
@@ -786,7 +783,7 @@ LineDecorationTemplate
 >
 (
 )
-52
+60
 "
 LineDecorationTemplate
 size
@@ -808,7 +805,7 @@ LineDecorationKey
 >
 (
 )
-32
+40
 "
 LineDecorationKey
 size

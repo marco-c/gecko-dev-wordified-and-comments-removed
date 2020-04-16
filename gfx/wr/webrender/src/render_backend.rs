@@ -1568,14 +1568,6 @@ _
 =
 >
 {
-LayoutRect
-:
-:
-new
-(
-prim_instance
-.
-prim_origin
 self
 .
 as_common_data
@@ -1583,8 +1575,7 @@ as_common_data
 prim_instance
 )
 .
-prim_size
-)
+prim_rect
 }
 }
 }

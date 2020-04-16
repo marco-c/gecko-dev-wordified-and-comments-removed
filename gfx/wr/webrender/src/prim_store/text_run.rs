@@ -307,12 +307,10 @@ TextRunKey
 {
 common
 :
-PrimKeyCommonData
-:
-:
-with_info
-(
 info
+.
+into
+(
 )
 font
 :
@@ -1918,7 +1916,7 @@ TextRunTemplate
 >
 (
 )
-72
+80
 "
 TextRunTemplate
 size
@@ -1940,7 +1938,7 @@ TextRunKey
 >
 (
 )
-64
+72
 "
 TextRunKey
 size
