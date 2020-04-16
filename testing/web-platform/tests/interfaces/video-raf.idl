@@ -41,7 +41,7 @@ Source
 :
 HTMLVideoElement
 .
-requestAnimationFrame
+requestVideoFrameCallback
 (
 )
 (
@@ -122,14 +122,14 @@ HTMLVideoElement
 {
 unsigned
 long
-requestAnimationFrame
+requestVideoFrameCallback
 (
 VideoFrameRequestCallback
 callback
 )
 ;
 void
-cancelAnimationFrame
+cancelVideoFrameCallback
 (
 unsigned
 long
