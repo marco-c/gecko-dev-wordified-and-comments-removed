@@ -2594,7 +2594,6 @@ function
 (
 cryptoCollection
 extension
-context
 )
 {
 let
@@ -4375,7 +4374,6 @@ this
 .
 cryptoCollection
 extension
-context
 )
 ;
 }
