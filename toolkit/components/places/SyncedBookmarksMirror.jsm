@@ -229,7 +229,7 @@ yieldState
 )
 ;
 class
-MirrorLoggerAdapter
+LogAdapter
 {
 constructor
 (
@@ -272,7 +272,7 @@ All
 return
 Ci
 .
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 .
 LEVEL_TRACE
 ;
@@ -292,7 +292,7 @@ Info
 return
 Ci
 .
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 .
 LEVEL_DEBUG
 ;
@@ -312,7 +312,7 @@ Warn
 return
 Ci
 .
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 .
 LEVEL_WARN
 ;
@@ -332,7 +332,7 @@ Error
 return
 Ci
 .
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 .
 LEVEL_ERROR
 ;
@@ -340,7 +340,7 @@ LEVEL_ERROR
 return
 Ci
 .
-mozISyncedBookmarksMirrorLogger
+mozIServicesLogger
 .
 LEVEL_OFF
 ;
@@ -694,7 +694,7 @@ merger
 logger
 =
 new
-MirrorLoggerAdapter
+LogAdapter
 (
 MirrorLog
 )
