@@ -6314,13 +6314,6 @@ R
 .
 attr
 .
-textColor
-android
-.
-R
-.
-attr
-.
 textColorPrimary
 android
 .
