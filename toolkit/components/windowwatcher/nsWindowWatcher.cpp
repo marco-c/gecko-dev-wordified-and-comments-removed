@@ -4716,6 +4716,14 @@ nsDocShellLoadState
 uriToLoad
 )
 ;
+loadState
+-
+>
+SetSourceBrowsingContext
+(
+parentBC
+)
+;
 if
 (
 subjectPrincipal
