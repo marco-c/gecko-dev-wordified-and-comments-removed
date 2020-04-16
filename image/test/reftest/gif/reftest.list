@@ -150,7 +150,6 @@ frame
 to
 pass
 .
-random
 =
 =
 delaytest
@@ -169,14 +168,6 @@ animation
 finalframe
 .
 html
-#
-incorrect
-timing
-dependence
-(
-bug
-558678
-)
 #
 test
 for
