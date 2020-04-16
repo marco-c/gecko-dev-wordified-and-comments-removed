@@ -12523,6 +12523,9 @@ expression
 init
 =
 InitExpr
+:
+:
+fromConstant
 (
 LitVal
 (
@@ -12581,6 +12584,9 @@ expression
 init
 =
 InitExpr
+:
+:
+fromConstant
 (
 LitVal
 (
@@ -12639,6 +12645,9 @@ expression
 init
 =
 InitExpr
+:
+:
+fromConstant
 (
 LitVal
 (
@@ -12694,6 +12703,9 @@ expression
 init
 =
 InitExpr
+:
+:
+fromConstant
 (
 LitVal
 (
@@ -12767,6 +12779,9 @@ gcTypesEnabled
 init
 =
 InitExpr
+:
+:
+fromConstant
 (
 LitVal
 (
@@ -12879,6 +12894,9 @@ expression
 init
 =
 InitExpr
+:
+:
+fromRefFunc
 (
 i
 )
@@ -13149,6 +13167,9 @@ match
 init
 =
 InitExpr
+:
+:
+fromGetGlobal
 (
 i
 expected
@@ -13161,6 +13182,9 @@ else
 init
 =
 InitExpr
+:
+:
+fromGetGlobal
 (
 i
 globals
