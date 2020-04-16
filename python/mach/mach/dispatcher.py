@@ -729,9 +729,6 @@ args
 0
 ]
 args
-namespace
-.
-print_command
 )
                 
 else
@@ -828,9 +825,6 @@ _handle_command_help
 parser
 command
 args
-namespace
-.
-print_command
 )
                         
 sys
@@ -850,9 +844,6 @@ _handle_command_help
 parser
 command
 args
-namespace
-.
-print_command
 )
                     
 sys
@@ -868,6 +859,7 @@ else
 raise
 NoCommandError
 (
+namespace
 )
         
 if
@@ -940,22 +932,30 @@ command
 )
         
 if
-namespace
+getattr
+(
+self
 .
-print_command
+_context
+'
+get_command
+'
+False
+)
+is
+True
 :
             
-print
+setattr
 (
+namespace
+'
+command
+'
 command
 )
             
-sys
-.
-exit
-(
-0
-)
+return
         
 handler
 =
@@ -1975,7 +1975,6 @@ self
 parser
 command
 args
-print_command
 )
 :
         
@@ -2004,22 +2003,6 @@ command
 '
 query
 '
-)
-        
-if
-print_command
-:
-            
-print
-(
-command
-)
-            
-sys
-.
-exit
-(
-0
 )
         
 if
