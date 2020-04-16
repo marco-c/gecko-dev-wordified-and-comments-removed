@@ -5,6 +5,13 @@ CookiePrivateStorage
 .
 h
 "
+#
+include
+"
+Cookie
+.
+h
+"
 namespace
 mozilla
 {

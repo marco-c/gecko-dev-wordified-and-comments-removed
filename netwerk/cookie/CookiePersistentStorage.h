@@ -32,6 +32,17 @@ h
 #
 include
 "
+mozilla
+/
+net
+/
+NeckoChannelParams
+.
+h
+"
+#
+include
+"
 mozIStorageCompletionCallback
 .
 h
@@ -50,6 +61,9 @@ mozIStorageStatementCallback
 .
 h
 "
+class
+mozIStorageAsyncStatement
+;
 class
 mozIStorageService
 ;

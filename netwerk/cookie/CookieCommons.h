@@ -6,6 +6,11 @@ define
 mozilla_net_CookieCommons_h
 #
 include
+<
+cstdint
+>
+#
+include
 "
 prtime
 .

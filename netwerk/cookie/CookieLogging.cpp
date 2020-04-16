@@ -5,6 +5,13 @@ CookieLogging
 .
 h
 "
+#
+include
+"
+Cookie
+.
+h
+"
 namespace
 mozilla
 {
