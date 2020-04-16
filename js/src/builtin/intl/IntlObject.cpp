@@ -4179,13 +4179,12 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 &
 IntlClass
 proto
-SingletonObject
 )
 ;
 }
