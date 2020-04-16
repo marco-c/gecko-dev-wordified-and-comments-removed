@@ -731,7 +731,7 @@ mFinishing
 =
 true
 ;
-MOZ_DIAGNOSTIC_ALWAYS_TRUE
+MOZ_ALWAYS_TRUE
 (
 SendFinish
 (
