@@ -2686,6 +2686,17 @@ aPrincipal
 )
 ;
 void
+TransmitBlobDataIfBlobURL
+(
+nsIURI
+*
+aURI
+nsIPrincipal
+*
+aPrincipal
+)
+;
+void
 OnCompositorDeviceReset
 (
 )
