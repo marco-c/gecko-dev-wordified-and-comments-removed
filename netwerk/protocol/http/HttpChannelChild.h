@@ -738,10 +738,9 @@ const
 uint32_t
 &
 registrarId
-const
-URIParams
-&
-newURI
+nsIURI
+*
+newOriginalURI
 const
 uint32_t
 &
@@ -2180,10 +2179,9 @@ const
 uint32_t
 &
 registrarId
-const
-URIParams
-&
-newUri
+nsIURI
+*
+newOriginalURI
 const
 uint32_t
 &

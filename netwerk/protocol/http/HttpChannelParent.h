@@ -788,12 +788,8 @@ loadFlags
 nsIReferrerInfo
 *
 aReferrerInfo
-const
-Maybe
-<
-URIParams
->
-&
+nsIURI
+*
 apiRedirectUri
 const
 Maybe
@@ -904,9 +900,8 @@ ipc
 IPCResult
 RecvRemoveCorsPreflightCacheEntry
 (
-const
-URIParams
-&
+nsIURI
+*
 uri
 const
 mozilla
