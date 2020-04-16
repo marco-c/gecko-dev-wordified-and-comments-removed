@@ -20,16 +20,6 @@ identityBoxMarginInlineEnd
 )
 %
 define
-urlbarViewFaviconOffset
-(
-urlbarViewPadding
-+
-16px
-+
-urlbarViewIconMarginEnd
-)
-%
-define
 urlbarViewMarginInline
 7px
 %
