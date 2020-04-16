@@ -8688,9 +8688,6 @@ move
 (
 structTypeDescrs
 )
-funcImports
-globalImportValues
-globalObjs
 std
 :
 :
@@ -8741,6 +8738,9 @@ instance
 init
 (
 cx
+funcImports
+globalImportValues
+globalObjs
 dataSegments
 elemSegments
 )
