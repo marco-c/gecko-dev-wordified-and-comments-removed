@@ -4038,6 +4038,7 @@ bool
 *
 aPosIsAfterLastFrame
 )
+const
 {
 MOZ_ASSERT
 (
