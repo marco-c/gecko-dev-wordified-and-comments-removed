@@ -6035,7 +6035,7 @@ fnref
 Instance
 :
 :
-funcRef
+refFunc
 (
 this
 funcIndex
@@ -7207,7 +7207,7 @@ void
 Instance
 :
 :
-funcRef
+refFunc
 (
 Instance
 *
@@ -7218,7 +7218,7 @@ funcIndex
 {
 MOZ_ASSERT
 (
-SASigFuncRef
+SASigRefFunc
 .
 failureMode
 =

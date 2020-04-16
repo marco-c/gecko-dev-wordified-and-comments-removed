@@ -1166,7 +1166,7 @@ tableIndex
 static
 void
 *
-funcRef
+refFunc
 (
 Instance
 *

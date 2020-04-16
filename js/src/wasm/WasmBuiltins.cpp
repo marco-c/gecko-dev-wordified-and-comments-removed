@@ -1013,13 +1013,13 @@ _END
 ;
 const
 SymbolicAddressSignature
-SASigFuncRef
+SASigRefFunc
 =
 {
 SymbolicAddress
 :
 :
-FuncRef
+RefFunc
 _RoN
 _FailOnInvalidRef
 2
@@ -6093,7 +6093,7 @@ case
 SymbolicAddress
 :
 :
-FuncRef
+RefFunc
 :
 *
 abiType
@@ -6115,7 +6115,7 @@ abiType
 =
 ToABIType
 (
-SASigFuncRef
+SASigRefFunc
 )
 )
 ;
@@ -6125,7 +6125,7 @@ FuncCast
 Instance
 :
 :
-funcRef
+refFunc
 *
 abiType
 )
@@ -6994,7 +6994,7 @@ case
 SymbolicAddress
 :
 :
-FuncRef
+RefFunc
 :
 case
 SymbolicAddress

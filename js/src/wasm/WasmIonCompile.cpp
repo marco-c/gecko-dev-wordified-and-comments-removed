@@ -20789,7 +20789,7 @@ SymbolicAddressSignature
 &
 callee
 =
-SASigFuncRef
+SASigRefFunc
 ;
 CallCompileState
 args
