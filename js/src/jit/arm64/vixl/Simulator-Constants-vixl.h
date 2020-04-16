@@ -10,15 +10,12 @@ vixl
 enum
 DebugHltOpcodes
 {
-kUnreachableOpcode
-=
-0xdeb0
 kPrintfOpcode
 kTraceOpcode
 kLogOpcode
 kDebugHltFirstOpcode
 =
-kUnreachableOpcode
+kPrintfOpcode
 kDebugHltLastOpcode
 =
 kLogOpcode
