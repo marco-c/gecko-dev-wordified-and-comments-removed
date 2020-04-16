@@ -958,11 +958,15 @@ mLineBuffer
 {
 mLineBuffer
 =
-new
+MakeUnique
+<
 nsLineBuffer
 <
 char16_t
 >
+>
+(
+)
 ;
 }
 return
