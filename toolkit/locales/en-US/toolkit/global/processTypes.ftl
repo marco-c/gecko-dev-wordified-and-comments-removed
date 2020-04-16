@@ -201,3 +201,17 @@ type
 gpu
 =
 GPU
+#
+process
+used
+to
+perform
+network
+operations
+process
+-
+type
+-
+socket
+=
+Socket
