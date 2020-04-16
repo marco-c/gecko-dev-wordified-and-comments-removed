@@ -79,6 +79,10 @@ mAgcOn
 (
 false
 )
+mHPFOn
+(
+false
+)
 mNoiseOn
 (
 false
@@ -137,6 +141,9 @@ mUseAecMobile
 ;
 bool
 mAgcOn
+;
+bool
+mHPFOn
 ;
 bool
 mNoiseOn

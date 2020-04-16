@@ -326,6 +326,13 @@ aMode
 )
 ;
 void
+UpdateHPFSettings
+(
+bool
+aEnable
+)
+;
+void
 UpdateNSSettings
 (
 bool
@@ -664,6 +671,13 @@ GainControl
 :
 Mode
 aMode
+)
+;
+void
+UpdateHPFSettings
+(
+bool
+aEnable
 )
 ;
 void
