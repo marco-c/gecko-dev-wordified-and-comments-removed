@@ -5888,6 +5888,11 @@ AfterProcessTask
 (
 )
 ;
+SetPendingException
+(
+nullptr
+)
+;
 }
 bool
 XPCJSContext
