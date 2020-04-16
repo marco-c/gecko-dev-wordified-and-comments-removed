@@ -139,16 +139,6 @@ JS
 :
 Rooted
 <
-JSFunction
-*
->
-fun_
-;
-JS
-:
-:
-Rooted
-<
 JSAtom
 *
 >
