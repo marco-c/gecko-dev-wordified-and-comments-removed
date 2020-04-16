@@ -3689,8 +3689,6 @@ HandleObject
 obj
 NewObjectKind
 newKind
-=
-GenericObject
 )
 ;
 bool
