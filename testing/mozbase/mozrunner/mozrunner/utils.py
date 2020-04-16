@@ -1744,9 +1744,6 @@ fixSymbols
 line
 symbolsPath
 )
-        
-return
-stack_fixer_function
     
 elif
 mozinfo
@@ -1762,7 +1759,7 @@ mozinfo
 isWin
 :
         
-fix_stacks
+stack_fixer_module
 =
 import_stack_fixer_module
 (
@@ -1771,22 +1768,29 @@ fix_stacks
 '
 )
         
-fix_stacks
-.
-init
+def
+stack_fixer_function
 (
-slow_warning
+line
+)
+:
+            
+return
+stack_fixer_module
+.
+fixSymbols
+(
+line
+slowWarning
 =
 True
 )
-        
-return
-fix_stacks
-.
-fix
     
 else
 :
         
 return
 None
+    
+return
+stack_fixer_function
