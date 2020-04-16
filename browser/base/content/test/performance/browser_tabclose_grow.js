@@ -21,11 +21,6 @@ ensureNoPreloadedBrowser
 (
 )
 ;
-await
-disableFxaBadge
-(
-)
-;
 Assert
 .
 equal
