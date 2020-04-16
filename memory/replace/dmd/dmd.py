@@ -1314,26 +1314,15 @@ bpsyms
         
 import
 fix_stacks
-as
-fixModule
         
-def
-fix
-(
-line
-)
-:
-            
-return
-fixModule
+fix_stacks
 .
-fixSymbols
+init
 (
-line
-jsonMode
+json_mode
 =
 True
-breakpadSymsDir
+breakpad_syms_dir
 =
 bpsyms
 )
@@ -1356,22 +1345,12 @@ Windows
         
 import
 fix_stacks
-as
-fixModule
         
-def
-fix
-(
-line
-)
-:
-return
-fixModule
+fix_stacks
 .
-fixSymbols
+init
 (
-line
-jsonMode
+json_mode
 =
 True
 )
@@ -1439,6 +1418,8 @@ tmpFile
 .
 write
 (
+fix_stacks
+.
 fix
 (
 line
