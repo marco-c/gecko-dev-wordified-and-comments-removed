@@ -446,6 +446,11 @@ DIRS
 '
 normandy
 '
+'
+messaging
+-
+system
+'
 ]
 if
 CONFIG
