@@ -21886,13 +21886,12 @@ nullptr
 ;
 }
 return
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 &
 WebAssemblyClass
 proto
-SingletonObject
 )
 ;
 }

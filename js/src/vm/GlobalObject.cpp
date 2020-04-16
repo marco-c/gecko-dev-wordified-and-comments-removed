@@ -2817,12 +2817,11 @@ JSObject
 *
 obj
 =
-NewObjectWithGivenProto
+NewSingletonObjectWithGivenProto
 (
 cx
 clasp
 nullptr
-SingletonObject
 )
 ;
 if
