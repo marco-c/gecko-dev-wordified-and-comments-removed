@@ -33,7 +33,7 @@ include_bytes
 !
 (
 "
-default
+shaders
 .
 metallib
 "

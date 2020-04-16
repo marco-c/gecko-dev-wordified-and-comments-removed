@@ -159,4 +159,16 @@ CFBundleRef
 >
 CFURLRef
 ;
+pub
+fn
+CFBundleCopySharedSupportURL
+(
+bundle
+:
+CFBundleRef
+)
+-
+>
+CFURLRef
+;
 }

@@ -122,9 +122,9 @@ version
 "
 0
 .
-17
+19
 .
-3
+0
 "
 authors
 =
@@ -144,8 +144,7 @@ to
 Core
 Graphics
 for
-OS
-X
+macOS
 "
 homepage
 =
@@ -220,7 +219,7 @@ version
 "
 0
 .
-6
+7
 "
 [
 dependencies
