@@ -308,6 +308,9 @@ GL_KHR_blend_equation_advanced
 "
 GL_KHR_blend_equation_advanced_coherent
 "
+"
+GL_ANGLE_copy_texture_3d
+"
 ]
 ;
 let
