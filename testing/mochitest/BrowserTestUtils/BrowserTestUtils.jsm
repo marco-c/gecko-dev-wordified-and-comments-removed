@@ -5495,6 +5495,14 @@ crashType
 |
 "
 "
+asyncCrash
+:
+options
+.
+asyncCrash
+|
+|
+false
 }
 )
 ;
