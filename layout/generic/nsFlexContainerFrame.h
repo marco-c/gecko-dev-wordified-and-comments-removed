@@ -965,7 +965,7 @@ nsSize
 aContainerSize
 )
 ;
-void
+nsReflowStatus
 ReflowFlexItem
 (
 const
@@ -986,6 +986,13 @@ mozilla
 LogicalPoint
 &
 aFramePos
+const
+mozilla
+:
+:
+LogicalSize
+&
+aAvailableSize
 const
 nsSize
 &
