@@ -6254,7 +6254,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
@@ -6353,7 +6352,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
@@ -6646,7 +6644,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
@@ -6744,7 +6741,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
@@ -7306,7 +7302,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
@@ -7427,7 +7422,6 @@ mozilla
 :
 Span
 <
-const
 Item
 >
 aSpan
