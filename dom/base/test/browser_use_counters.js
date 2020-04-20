@@ -693,9 +693,8 @@ gather
 }
 )
 .
-then
+finally
 (
-gather
 gather
 )
 ;

@@ -3166,9 +3166,8 @@ updateNegotiationNeeded
 ;
 p
 .
-then
+finally
 (
-doNextOperation
 doNextOperation
 )
 ;

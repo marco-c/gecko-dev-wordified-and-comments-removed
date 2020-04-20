@@ -566,9 +566,8 @@ this
 .
 _loadClientIdTask
 .
-then
+finally
 (
-clear
 clear
 )
 ;
@@ -1275,9 +1274,8 @@ this
 .
 _removeClientIdTask
 .
-then
+finally
 (
-clear
 clear
 )
 ;
