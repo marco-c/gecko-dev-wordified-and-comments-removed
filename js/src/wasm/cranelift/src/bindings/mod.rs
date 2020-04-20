@@ -1375,6 +1375,14 @@ self
 }
 }
 }
+#
+[
+derive
+(
+Clone
+Copy
+)
+]
 pub
 struct
 ModuleEnvironment

@@ -355,6 +355,12 @@ unwrap
 (
 )
 ;
+compiler
+.
+clear
+(
+)
+;
 if
 let
 Err
