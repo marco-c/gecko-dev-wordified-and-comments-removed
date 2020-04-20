@@ -1537,8 +1537,8 @@ nsAtom
 *
 mARIAAttrOldValue
 ;
-bool
-mStateBitWasOn
+uint64_t
+mPrevStateBits
 ;
 }
 ;
