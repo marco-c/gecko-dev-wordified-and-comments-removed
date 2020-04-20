@@ -6160,7 +6160,11 @@ return
 rv
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 NS_NewBufferedInputStream
 (

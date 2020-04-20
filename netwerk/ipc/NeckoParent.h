@@ -96,7 +96,11 @@ NeckoParent
 =
 default
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 const
 char
@@ -121,7 +125,11 @@ OriginAttributes
 aAttrs
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 static
 const
 char

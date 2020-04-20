@@ -51,7 +51,11 @@ SpdyPushCache
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 RegisterPushedStreamHttp2
 (

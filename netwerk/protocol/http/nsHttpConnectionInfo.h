@@ -334,7 +334,11 @@ nsHttpConnectionInfo
 outParam
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 CreateWildCard
 (

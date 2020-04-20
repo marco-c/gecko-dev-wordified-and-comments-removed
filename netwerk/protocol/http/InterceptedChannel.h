@@ -115,7 +115,11 @@ nsACString
 aReason
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 DoSynthesizeHeader
 (

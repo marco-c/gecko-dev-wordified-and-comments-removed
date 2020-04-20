@@ -731,7 +731,11 @@ PARTIAL_RELIABLE_TIMED
 }
 Type
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 already_AddRefed
 <
 DataChannel

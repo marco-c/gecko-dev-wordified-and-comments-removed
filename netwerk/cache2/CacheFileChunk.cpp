@@ -356,7 +356,11 @@ return
 NS_OK
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 CacheFileChunkBuffer
 :

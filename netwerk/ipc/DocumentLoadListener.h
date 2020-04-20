@@ -612,7 +612,11 @@ return
 0
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 RefPtr
 <
 ChildEndpointPromise

@@ -74,7 +74,11 @@ return
 mReachedEOF
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 HandleChunkedContent
 (
@@ -134,7 +138,11 @@ mChunkRemaining
 }
 private
 :
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 ParseChunkRemaining
 (

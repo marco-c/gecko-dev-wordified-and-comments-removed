@@ -7506,7 +7506,11 @@ CallTransactionHasDataToWrite
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Dispatch
 (
@@ -8687,7 +8691,11 @@ return
 NS_OK
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 Dispatch
 (

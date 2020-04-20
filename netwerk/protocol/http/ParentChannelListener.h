@@ -152,7 +152,11 @@ nsIStreamListener
 aListener
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 SuspendForDiversion
 (

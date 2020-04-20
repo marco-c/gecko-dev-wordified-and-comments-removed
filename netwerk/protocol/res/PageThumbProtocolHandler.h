@@ -113,7 +113,11 @@ PageThumbProtocolHandler
 (
 )
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ResolveSpecialCases
 (
@@ -135,8 +139,12 @@ aResult
 )
 override
 ;
+[
+[
+nodiscard
+]
+]
 virtual
-MOZ_MUST_USE
 nsresult
 SubstituteChannel
 (

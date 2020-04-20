@@ -165,7 +165,11 @@ HttpTransactionShell
 )
 >
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 nsresult
 virtual
 Init
