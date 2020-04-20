@@ -4469,17 +4469,6 @@ BaseScript
 ImmutableFlags
 :
 :
-FunctionHasExtraBodyVarScope
-)
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
 NeedsFunctionEnvironmentObjects
 )
 ;

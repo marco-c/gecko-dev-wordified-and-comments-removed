@@ -545,13 +545,13 @@ HasDirectEval
 <
 <
 24
-HasNonSyntacticScope
+FunctionHasExtraBodyVarScope
 =
 1
 <
 <
 25
-FunctionHasExtraBodyVarScope
+HasNonSyntacticScope
 =
 1
 <
