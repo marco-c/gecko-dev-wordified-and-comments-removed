@@ -274,6 +274,9 @@ MODE
 LONG
 dispatch
 maybeScrollToBottom
+customFormat
+=
+false
 }
 =
 props
@@ -321,6 +324,7 @@ props
 0
 mode
 maybeScrollToBottom
+customFormat
 onCmdCtrlClick
 :
 (

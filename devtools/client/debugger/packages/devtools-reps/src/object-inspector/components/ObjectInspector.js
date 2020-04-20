@@ -1467,6 +1467,7 @@ if
 shouldRenderRootsInReps
 (
 roots
+props
 )
 )
 {

@@ -271,6 +271,15 @@ userProvidedStyles
 serviceContainer
 type
 maybeScrollToBottom
+customFormat
+:
+type
+!
+=
+=
+"
+dir
+"
 }
 ;
 if
@@ -668,6 +677,7 @@ serviceContainer
 userProvidedStyles
 type
 maybeScrollToBottom
+customFormat
 }
 =
 options
@@ -709,6 +719,7 @@ loadedObjectProperties
 loadedObjectEntries
 type
 maybeScrollToBottom
+customFormat
 }
 )
 )

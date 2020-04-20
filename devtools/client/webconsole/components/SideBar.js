@@ -353,6 +353,9 @@ pathPrefix
 "
 WebConsoleSidebar
 "
+customFormat
+:
+false
 }
 )
 ;
