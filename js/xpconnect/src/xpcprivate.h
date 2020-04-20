@@ -10302,9 +10302,6 @@ bool
 isWebExtensionContentScript
 ;
 bool
-allowCPOWs
-;
-bool
 isUAWidgetCompartment
 ;
 bool

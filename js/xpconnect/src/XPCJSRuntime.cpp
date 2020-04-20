@@ -982,10 +982,6 @@ isWebExtensionContentScript
 (
 false
 )
-allowCPOWs
-(
-false
-)
 isUAWidgetCompartment
 (
 false
