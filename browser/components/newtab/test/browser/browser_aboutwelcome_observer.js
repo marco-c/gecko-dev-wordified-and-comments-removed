@@ -80,7 +80,6 @@ about
 :
 welcome
 "
-false
 )
 ;
 registerCleanupFunction
@@ -225,7 +224,7 @@ openAboutWelcomeTab
 )
 ;
 let
-currentWindow
+windowGlobalParent
 =
 gBrowser
 .
@@ -239,7 +238,7 @@ let
 aboutWelcomeActor
 =
 await
-currentWindow
+windowGlobalParent
 .
 getActor
 (
