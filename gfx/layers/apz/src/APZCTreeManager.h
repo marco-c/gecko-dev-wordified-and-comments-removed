@@ -1310,8 +1310,8 @@ aProofOfMapLock
 )
 const
 ;
-bool
-IsStuckToRootContentAtBottom
+SideBits
+SidesStuckToRootContent
 (
 const
 HitTestingTreeNode
@@ -1320,8 +1320,8 @@ aNode
 )
 const
 ;
-bool
-IsStuckToRootContentAtBottom
+SideBits
+SidesStuckToRootContent
 (
 const
 StickyPositionInfo
