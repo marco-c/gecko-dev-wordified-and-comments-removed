@@ -4652,6 +4652,9 @@ hide
 learn_more_breach
 "
 "
+learn_more_vulnerable
+"
+"
 new
 "
 "
@@ -4678,6 +4681,8 @@ bug_numbers
 1600958
 -
 1549115
+-
+1628165
 expiry_version
 :
 never
