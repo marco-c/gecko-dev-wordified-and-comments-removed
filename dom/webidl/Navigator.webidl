@@ -782,14 +782,7 @@ documentURI
 ;
 [
 Throws
-Func
-=
-"
-nsGlobalWindowInner
-:
-:
-RegisterProtocolHandlerAllowedForContext
-"
+SecureContext
 ]
 void
 registerProtocolHandler

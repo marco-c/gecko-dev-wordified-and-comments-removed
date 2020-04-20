@@ -1647,17 +1647,6 @@ JSObject
 ;
 static
 bool
-RegisterProtocolHandlerAllowedForContext
-(
-JSContext
-*
-JSObject
-*
-aObj
-)
-;
-static
-bool
 DeviceSensorsEnabled
 (
 JSContext
