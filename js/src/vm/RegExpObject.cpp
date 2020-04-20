@@ -5557,7 +5557,7 @@ headerAndSource
 (
 source
 )
-parenCount
+pairCount_
 (
 0
 )
@@ -6097,9 +6097,9 @@ patternAtom_
 =
 pattern
 ;
-parenCount
+pairCount_
 =
-0
+1
 ;
 }
 #
@@ -6220,11 +6220,13 @@ false
 re
 -
 >
-parenCount
+pairCount_
 =
 data
 .
 capture_count
++
+1
 ;
 JitCodeTables
 tables

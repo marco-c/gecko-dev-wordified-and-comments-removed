@@ -334,7 +334,7 @@ compilationArray
 ]
 ;
 uint32_t
-parenCount
+pairCount_
 ;
 JS
 :
@@ -552,7 +552,7 @@ table
 ;
 }
 size_t
-getParenCount
+pairCount
 (
 )
 const
@@ -585,7 +585,7 @@ isCompiled
 #
 endif
 return
-parenCount
+pairCount_
 ;
 }
 #
@@ -613,20 +613,6 @@ pattern
 ;
 #
 endif
-size_t
-pairCount
-(
-)
-const
-{
-return
-getParenCount
-(
-)
-+
-1
-;
-}
 JSAtom
 *
 getSource
@@ -871,7 +857,7 @@ flags
 }
 static
 size_t
-offsetOfParenCount
+offsetOfPairCount
 (
 )
 {
@@ -879,7 +865,7 @@ return
 offsetof
 (
 RegExpShared
-parenCount
+pairCount_
 )
 ;
 }
