@@ -1,9 +1,9 @@
 #
 ifndef
-vm_TryNoteKind_h
+vm_StencilEnums_h
 #
 define
-vm_TryNoteKind_h
+vm_StencilEnums_h
 #
 include
 <

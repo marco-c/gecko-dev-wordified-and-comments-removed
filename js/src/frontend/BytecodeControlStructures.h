@@ -97,7 +97,7 @@ include
 "
 vm
 /
-StringType
+StencilEnums
 .
 h
 "
@@ -106,7 +106,7 @@ include
 "
 vm
 /
-TryNoteKind
+StringType
 .
 h
 "

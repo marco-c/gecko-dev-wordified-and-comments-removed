@@ -39,7 +39,7 @@ include
 "
 vm
 /
-TryNoteKind
+StencilEnums
 .
 h
 "
