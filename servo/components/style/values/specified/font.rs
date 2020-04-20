@@ -515,6 +515,7 @@ None
 }
 }
 }
+;
 }
 const
 DEFAULT_SCRIPT_MIN_SIZE_PT
