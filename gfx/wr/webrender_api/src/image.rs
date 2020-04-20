@@ -91,6 +91,14 @@ units
 :
 *
 ;
+pub
+const
+DEFAULT_TILE_SIZE
+:
+TileSize
+=
+512
+;
 #
 [
 repr
@@ -1425,12 +1433,9 @@ visible_rect
 :
 &
 DeviceIntRect
-tiling
+tile_size
 :
-Option
-<
 TileSize
->
 )
 ;
 fn
@@ -2205,8 +2210,5 @@ BlobImageKey
 pub
 tile
 :
-Option
-<
 TileOffset
->
 }
