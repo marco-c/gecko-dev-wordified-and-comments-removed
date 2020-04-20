@@ -1700,13 +1700,6 @@ CpowEntry
 &
 aCpows
 const
-IPC
-:
-:
-Principal
-&
-aPrincipal
-const
 ClonedMessageData
 &
 aData

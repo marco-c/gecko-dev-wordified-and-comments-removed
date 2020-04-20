@@ -904,16 +904,6 @@ aGivenProto
 )
 ;
 }
-nsIPrincipal
-*
-GetPrincipal
-(
-)
-{
-return
-mPrincipal
-;
-}
 already_AddRefed
 <
 Document
@@ -973,9 +963,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -1010,9 +997,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 ;
@@ -2027,9 +2011,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 const
 ClonedMessageData
 &

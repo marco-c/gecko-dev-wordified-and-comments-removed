@@ -271,9 +271,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -354,7 +351,6 @@ true
 aData
 &
 cpows
-aPrincipal
 aRetVal
 IgnoreErrors
 (
@@ -482,9 +478,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 {
 SameProcessMessageQueue
@@ -540,7 +533,6 @@ Init
 (
 aMessage
 aData
-aPrincipal
 )
 ;
 if

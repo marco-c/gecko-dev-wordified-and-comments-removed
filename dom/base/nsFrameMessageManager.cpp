@@ -2572,9 +2572,6 @@ JSObject
 *
 >
 aObjects
-nsIPrincipal
-*
-aPrincipal
 bool
 aIsSync
 nsTArray
@@ -2812,7 +2809,6 @@ aCx
 aMessageName
 data
 aObjects
-aPrincipal
 &
 retval
 aIsSync
@@ -3018,9 +3014,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 {
 if
@@ -3065,7 +3058,6 @@ aCx
 aMessage
 aData
 aCpows
-aPrincipal
 )
 ;
 }
@@ -3095,7 +3087,6 @@ aCx
 aMessage
 aData
 aCpows
-aPrincipal
 )
 ;
 if
@@ -3147,9 +3138,6 @@ JSObject
 *
 >
 aObjects
-nsIPrincipal
-*
-aPrincipal
 JS
 :
 :
@@ -3258,7 +3246,6 @@ aCx
 aMessageName
 data
 aObjects
-aPrincipal
 )
 ;
 }
@@ -3376,9 +3363,6 @@ jsipc
 CpowHolder
 *
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -3892,12 +3876,6 @@ argument
 mName
 =
 aMessage
-;
-argument
-.
-mPrincipal
-=
-aPrincipal
 ;
 argument
 .
@@ -4465,7 +4443,6 @@ aMessage
 aIsSync
 aCloneData
 aCpows
-aPrincipal
 aRetVal
 aError
 )
@@ -7417,9 +7394,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 {
@@ -7464,7 +7438,6 @@ Init
 (
 aMessage
 aData
-aPrincipal
 )
 ;
 if
@@ -7556,9 +7529,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -7677,13 +7647,6 @@ aMessage
 )
 data
 cpows
-IPC
-:
-:
-Principal
-(
-aPrincipal
-)
 aRetVal
 )
 ;
@@ -7700,13 +7663,6 @@ aMessage
 )
 data
 cpows
-IPC
-:
-:
-Principal
-(
-aPrincipal
-)
 aRetVal
 )
 ;
@@ -7733,9 +7689,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 {
@@ -7842,13 +7795,6 @@ PromiseFlatString
 aMessage
 )
 cpows
-IPC
-:
-:
-Principal
-(
-aPrincipal
-)
 data
 )
 )
@@ -7982,9 +7928,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -8062,7 +8005,6 @@ true
 aData
 &
 cpows
-aPrincipal
 aRetVal
 IgnoreErrors
 (
@@ -8096,9 +8038,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 override
 {
@@ -8154,7 +8093,6 @@ Init
 (
 aMessage
 aData
-aPrincipal
 )
 ;
 if
@@ -8645,9 +8583,6 @@ aMessage
 StructuredCloneData
 &
 aData
-nsIPrincipal
-*
-aPrincipal
 )
 {
 if
@@ -8684,10 +8619,6 @@ NS_ERROR_OUT_OF_MEMORY
 mMessage
 =
 aMessage
-;
-mPrincipal
-=
-aPrincipal
 ;
 #
 ifdef
@@ -8759,7 +8690,6 @@ false
 mData
 &
 cpows
-mPrincipal
 nullptr
 IgnoreErrors
 (
