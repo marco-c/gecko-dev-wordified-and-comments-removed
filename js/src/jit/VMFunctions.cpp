@@ -254,6 +254,17 @@ include
 "
 vm
 /
+PlainObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 StringObject
 -
 inl
