@@ -247,7 +247,7 @@ self
 .
 root
 .
-downgrade
+clone
 (
 )
 )
@@ -323,7 +323,7 @@ push
 (
 c
 .
-clone
+upgrade
 (
 )
 )
@@ -1559,13 +1559,6 @@ _
 }
 }
 }
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 (
 crate
