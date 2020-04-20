@@ -369,6 +369,9 @@ uint32_t
 httpsOnlyStatus
 ;
 bool
+hasValidUserGestureActivation
+;
+bool
 allowDeprecatedSystemRequests
 ;
 bool
@@ -413,6 +416,9 @@ skipContentSniffing
 ;
 uint32_t
 httpsOnlyStatus
+;
+bool
+hasValidUserGestureActivation
 ;
 bool
 allowDeprecatedSystemRequests

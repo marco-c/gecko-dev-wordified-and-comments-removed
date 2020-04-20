@@ -867,6 +867,13 @@ infallible
 ]
 attribute
 boolean
+hasValidUserGestureActivation
+;
+[
+infallible
+]
+attribute
+boolean
 allowDeprecatedSystemRequests
 ;
 [

@@ -572,6 +572,8 @@ aSkipContentSniffing
 uint32_t
 aHttpsOnlyStatus
 bool
+aHasValidUserGestureActivation
+bool
 aAllowDeprecatedSystemRequests
 bool
 aParserCreatedScript
@@ -996,6 +998,9 @@ mSkipContentSniffing
 ;
 uint32_t
 mHttpsOnlyStatus
+;
+bool
+mHasValidUserGestureActivation
 ;
 bool
 mAllowDeprecatedSystemRequests

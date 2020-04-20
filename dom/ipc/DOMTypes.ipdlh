@@ -794,6 +794,9 @@ LoadFlags
 bool
 FirstParty
 ;
+bool
+HasValidUserGestureActivation
+;
 nsCString
 TypeHint
 ;
