@@ -185,8 +185,9 @@ gather
 }
 )
 .
-finally
+then
 (
+gather
 gather
 )
 ;

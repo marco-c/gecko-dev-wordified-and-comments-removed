@@ -873,8 +873,9 @@ testBug1239300
 ;
 promise
 .
-finally
+then
 (
+doneTask
 doneTask
 )
 ;

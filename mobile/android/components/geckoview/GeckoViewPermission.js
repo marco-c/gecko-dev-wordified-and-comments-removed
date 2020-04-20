@@ -431,8 +431,9 @@ dispatcher
 perms
 )
 .
-finally
+then
 (
+callback
 callback
 )
 ;

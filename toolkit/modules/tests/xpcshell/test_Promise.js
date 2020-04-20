@@ -215,8 +215,9 @@ test
 ;
 result
 .
-finally
+then
 (
+next
 next
 )
 ;

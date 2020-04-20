@@ -575,6 +575,7 @@ aEvent
 function
 cleanup
 (
+aEventOrError
 )
 {
 aSubject
@@ -584,6 +585,9 @@ removeEventListener
 aEventName
 listener
 )
+;
+return
+aEventOrError
 ;
 }
 aSubject
@@ -599,8 +603,9 @@ eventDeferred
 .
 promise
 .
-finally
+then
 (
+cleanup
 cleanup
 )
 ;

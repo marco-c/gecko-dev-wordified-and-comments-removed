@@ -2767,8 +2767,9 @@ shrink_memory
 "
 )
 .
-finally
+then
 (
+onShrunk
 onShrunk
 )
 ;

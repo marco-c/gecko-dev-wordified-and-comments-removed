@@ -1995,8 +1995,9 @@ this
 .
 _currentAttempt
 .
-finally
+then
 (
+resolve
 resolve
 )
 ;

@@ -7151,8 +7151,9 @@ testRegisterJsProbes
 (
 )
 .
-finally
+then
 (
+doComplete
 doComplete
 )
 ;

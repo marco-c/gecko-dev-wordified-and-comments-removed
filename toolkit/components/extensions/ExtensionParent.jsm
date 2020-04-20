@@ -5014,8 +5014,9 @@ promise
 ;
 promise
 .
-finally
+then
 (
+remove
 remove
 )
 ;

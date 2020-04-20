@@ -3338,8 +3338,9 @@ _hideBoxModel
 (
 )
 .
-finally
+then
 (
+resolve
 resolve
 )
 ;

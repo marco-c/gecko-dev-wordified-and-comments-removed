@@ -2439,8 +2439,9 @@ imageData
 true
 )
 .
-finally
+then
 (
+done
 done
 )
 ;
