@@ -211,7 +211,6 @@ getCurrentThread
 getThreadContext
 getSkipPausing
 getInlinePreview
-getSelectedFrame
 getHighlightedCalls
 }
 from
@@ -468,7 +467,6 @@ type
 SourceLocation
 SourceWithContent
 ThreadContext
-Frame
 HighlightedCalls
 as
 highlightedCallsType
@@ -558,10 +556,6 @@ boolean
 inlinePreviewEnabled
 :
 boolean
-selectedFrame
-:
-?
-Frame
 highlightedCalls
 :
 ?
@@ -1755,7 +1749,6 @@ Meta
 const
 {
 cx
-selectedFrame
 highlightCalls
 }
 =
@@ -1766,7 +1759,6 @@ props
 highlightCalls
 (
 cx
-selectedFrame
 )
 ;
 }
@@ -3450,16 +3442,6 @@ inlinePreviewEnabled
 getInlinePreview
 (
 state
-)
-selectedFrame
-:
-getSelectedFrame
-(
-state
-getCurrentThread
-(
-state
-)
 )
 highlightedCalls
 :
