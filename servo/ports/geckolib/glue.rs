@@ -2279,6 +2279,7 @@ read
 let
 was_initial_style
 =
+!
 element
 .
 has_data
