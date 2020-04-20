@@ -216,7 +216,11 @@ get
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 Interface
 *
 Release

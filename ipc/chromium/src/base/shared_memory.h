@@ -278,7 +278,11 @@ mapped_file_
 }
 #
 endif
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 Freeze
 (
@@ -295,7 +299,11 @@ this
 )
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReadOnlyCopy
 (

@@ -1533,7 +1533,11 @@ self
 write
 (
 '
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 '
 )
         

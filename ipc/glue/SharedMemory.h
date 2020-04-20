@@ -369,8 +369,12 @@ int
 aRights
 )
 ;
+[
+[
+nodiscard
+]
+]
 static
-MOZ_MUST_USE
 bool
 SystemProtectFallible
 (
