@@ -193,7 +193,6 @@ farthestViewportElement
 ;
 [
 NewObject
-Throws
 ]
 SVGRect
 getBBox
