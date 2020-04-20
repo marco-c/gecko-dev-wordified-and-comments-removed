@@ -712,7 +712,7 @@ obj
 ObjId
 clasp
 :
-RawWordField
+RawPointerField
 #
 Add
 a
@@ -748,7 +748,7 @@ global
 ObjectField
 compartment
 :
-RawWordField
+RawPointerField
 -
 name
 :
@@ -811,7 +811,7 @@ obj
 ObjId
 handler
 :
-RawWordField
+RawPointerField
 -
 name
 :
@@ -1033,7 +1033,7 @@ iter
 ObjectField
 enumeratorsAddr
 :
-RawWordField
+RawPointerField
 result
 :
 ObjId
@@ -1582,7 +1582,7 @@ obj
 ObjId
 expandoAndGeneration
 :
-RawWordField
+RawPointerField
 generation
 :
 DOMExpandoGenerationField
@@ -1629,6 +1629,9 @@ StoreFixedSlot
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1647,6 +1650,9 @@ StoreDynamicSlot
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1665,6 +1671,9 @@ AddAndStoreFixedSlot
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1683,7 +1692,6 @@ newGroup
 :
 GroupField
 newShape
-)
 :
 ShapeField
 -
@@ -1693,6 +1701,9 @@ AddAndStoreDynamicSlot
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1711,7 +1722,6 @@ newGroup
 :
 GroupField
 newShape
-)
 :
 ShapeField
 -
@@ -1721,6 +1731,9 @@ AllocateAndStoreDynamicSlot
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1739,7 +1752,6 @@ newGroup
 :
 GroupField
 newShape
-)
 :
 ShapeField
 numNewSlots
@@ -1752,6 +1764,9 @@ StoreTypedObjectReferenceProperty
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1800,6 +1815,9 @@ StoreDenseElement
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1818,6 +1836,9 @@ StoreDenseElementHole
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2092,7 +2113,7 @@ ifdef
 JS_SIMULATOR
 rawTarget
 :
-RawWordField
+RawPointerField
 #
 else
 ignoresReturnValue
@@ -2120,7 +2141,7 @@ flags
 CallFlagsImm
 target
 :
-RawWordField
+RawPointerField
 #
 Meta
 ops
