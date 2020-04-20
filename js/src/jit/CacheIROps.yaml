@@ -712,7 +712,7 @@ obj
 ObjId
 clasp
 :
-RawPointerField
+RawWordField
 #
 Add
 a
@@ -748,7 +748,7 @@ global
 ObjectField
 compartment
 :
-RawPointerField
+RawWordField
 -
 name
 :
@@ -811,7 +811,7 @@ obj
 ObjId
 handler
 :
-RawPointerField
+RawWordField
 -
 name
 :
@@ -1033,7 +1033,7 @@ iter
 ObjectField
 enumeratorsAddr
 :
-RawPointerField
+RawWordField
 result
 :
 ObjId
@@ -1582,7 +1582,7 @@ obj
 ObjId
 expandoAndGeneration
 :
-RawPointerField
+RawWordField
 generation
 :
 DOMExpandoGenerationField
@@ -1629,9 +1629,6 @@ StoreFixedSlot
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1650,9 +1647,6 @@ StoreDynamicSlot
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1671,9 +1665,6 @@ AddAndStoreFixedSlot
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1692,6 +1683,7 @@ newGroup
 :
 GroupField
 newShape
+)
 :
 ShapeField
 -
@@ -1701,9 +1693,6 @@ AddAndStoreDynamicSlot
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1722,6 +1711,7 @@ newGroup
 :
 GroupField
 newShape
+)
 :
 ShapeField
 -
@@ -1731,9 +1721,6 @@ AllocateAndStoreDynamicSlot
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1752,6 +1739,7 @@ newGroup
 :
 GroupField
 newShape
+)
 :
 ShapeField
 numNewSlots
@@ -1764,9 +1752,6 @@ StoreTypedObjectReferenceProperty
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1815,9 +1800,6 @@ StoreDenseElement
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1836,9 +1818,6 @@ StoreDenseElementHole
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1860,9 +1839,6 @@ ArrayPush
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1876,9 +1852,6 @@ name
 :
 ArrayJoinResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -1920,9 +1893,6 @@ CallNativeSetter
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1941,9 +1911,6 @@ CallScriptedSetter
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1965,9 +1932,6 @@ CallSetArrayLength
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -1986,20 +1950,17 @@ CallProxySet
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
 :
 ObjId
-id
-:
-IdField
 rhs
 :
 ValId
+id
+:
+IdField
 strict
 :
 BoolImm
@@ -2010,9 +1971,6 @@ CallProxySetByValue
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -2034,9 +1992,6 @@ CallAddOrUpdateSparseElementHelper
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 obj
@@ -2103,9 +2058,6 @@ CallScriptedFunction
 shared
 :
 false
-gen_boilerplate
-:
-true
 operands
 :
 callee
@@ -2140,7 +2092,7 @@ ifdef
 JS_SIMULATOR
 rawTarget
 :
-RawPointerField
+RawWordField
 #
 else
 ignoresReturnValue
@@ -2168,7 +2120,7 @@ flags
 CallFlagsImm
 target
 :
-RawPointerField
+RawWordField
 #
 Meta
 ops
@@ -2884,9 +2836,6 @@ Int32MulResult
 shared
 :
 true
-gen_boilerplate
-:
-true
 operands
 :
 lhs
@@ -2900,9 +2849,6 @@ name
 :
 Int32DivResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -2920,9 +2866,6 @@ Int32ModResult
 shared
 :
 true
-gen_boilerplate
-:
-true
 operands
 :
 lhs
@@ -2936,9 +2879,6 @@ name
 :
 Int32PowResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -3046,9 +2986,6 @@ Int32BitOrResult
 shared
 :
 true
-gen_boilerplate
-:
-true
 operands
 :
 lhs
@@ -3062,9 +2999,6 @@ name
 :
 Int32BitXorResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -3082,9 +3016,6 @@ Int32BitAndResult
 shared
 :
 true
-gen_boilerplate
-:
-true
 operands
 :
 lhs
@@ -3098,9 +3029,6 @@ name
 :
 Int32LeftShiftResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -3118,9 +3046,6 @@ Int32RightShiftResult
 shared
 :
 true
-gen_boilerplate
-:
-true
 operands
 :
 lhs
@@ -3134,9 +3059,6 @@ name
 :
 Int32URightShiftResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
@@ -3155,9 +3077,6 @@ name
 :
 Int32NotResult
 shared
-:
-true
-gen_boilerplate
 :
 true
 operands
