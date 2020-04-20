@@ -1057,14 +1057,6 @@ getOrientation
 [
 notxpcom
 ]
-bool
-handledOrientation
-(
-)
-;
-[
-notxpcom
-]
 int32_t
 getFirstFrameDelay
 (
