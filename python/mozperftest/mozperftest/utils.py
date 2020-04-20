@@ -161,7 +161,7 @@ platform
 def
 add_option
 (
-metadata
+env
 name
 value
 )
@@ -169,7 +169,7 @@ value
     
 options
 =
-metadata
+env
 .
 get_arg
 (
@@ -196,7 +196,7 @@ name
 value
 )
     
-metadata
+env
 .
 set_arg
 (
@@ -208,7 +208,7 @@ options
 def
 add_options
 (
-metadata
+env
 options
 )
 :
@@ -222,7 +222,7 @@ options
         
 add_option
 (
-metadata
+env
 name
 value
 )
