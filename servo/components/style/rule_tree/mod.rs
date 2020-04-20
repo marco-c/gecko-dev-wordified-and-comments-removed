@@ -1,3 +1,11 @@
+#
+!
+[
+deny
+(
+unsafe_code
+)
+]
 use
 crate
 :
@@ -69,6 +77,9 @@ map
 ;
 mod
 source
+;
+mod
+unsafe_box
 ;
 pub
 use
