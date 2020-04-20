@@ -4440,6 +4440,7 @@ aPreferShorterSlices
 false
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 Shutdown
 (
@@ -4503,6 +4504,7 @@ CheckThreadSafety
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 void
 ShutdownCollect
 (
@@ -17755,10 +17757,19 @@ nsCycleCollector_shutdown
 OTHER
 )
 ;
+{
+RefPtr
+<
+nsCycleCollector
+>
+collector
+=
 data
 -
 >
 mCollector
+;
+collector
 -
 >
 Shutdown
@@ -17773,6 +17784,7 @@ mCollector
 =
 nullptr
 ;
+}
 if
 (
 data
