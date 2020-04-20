@@ -221,7 +221,7 @@ mAPIMode
 VRAPIMode
 :
 :
-WebXR
+WebVR
 )
 {
 MOZ_COUNT_CTOR
