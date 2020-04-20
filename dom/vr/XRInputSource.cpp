@@ -668,7 +668,7 @@ AssignLiteral
 "
 pico
 -
-neco
+neo
 -
 v2
 "
