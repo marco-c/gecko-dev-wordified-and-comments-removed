@@ -271,6 +271,12 @@ using
 js
 :
 :
+PromiseObject
+;
+using
+js
+:
+:
 ReturnPromiseRejectedWithPendingError
 ;
 using
@@ -2004,7 +2010,7 @@ args
 )
 ;
 }
-JSObject
+PromiseObject
 *
 promise
 =

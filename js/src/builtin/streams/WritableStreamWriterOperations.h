@@ -43,6 +43,9 @@ namespace
 js
 {
 class
+PromiseObject
+;
+class
 WritableStreamDefaultWriter
 ;
 extern
@@ -204,7 +207,7 @@ unwrappedWriter
 )
 ;
 extern
-JSObject
+PromiseObject
 *
 WritableStreamDefaultWriterWrite
 (
