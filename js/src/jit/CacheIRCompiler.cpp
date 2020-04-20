@@ -21474,6 +21474,8 @@ CacheIRCompiler
 :
 emitArrayJoinResult
 (
+ObjOperandId
+objId
 )
 {
 JitSpew
@@ -21484,15 +21486,6 @@ JitSpew_Codegen
 s
 "
 __FUNCTION__
-)
-;
-ObjOperandId
-objId
-=
-reader
-.
-objOperandId
-(
 )
 ;
 AutoOutputRegister
