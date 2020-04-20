@@ -1996,7 +1996,7 @@ urlbar
 .
 maxCharsForSearchSuggestions
 "
-20
+100
 )
 ;
 pref
