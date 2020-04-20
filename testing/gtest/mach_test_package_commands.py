@@ -41,7 +41,7 @@ __file__
 parser
 =
 None
-log
+logger
 =
 None
 def
@@ -98,9 +98,9 @@ stdout
 )
     
 global
-log
+logger
     
-log
+logger
 =
 kwargs
 [
@@ -228,7 +228,7 @@ gtest
 '
 )
     
-log
+logger
 .
 info
 (
@@ -255,7 +255,7 @@ utility_path
 s
 "
 %
-             
+                
 (
 prog
 xre_path
@@ -304,7 +304,7 @@ extra_args
 0
 ]
         
-log
+logger
 .
 info
 (
@@ -435,7 +435,7 @@ so
 '
 )
     
-log
+logger
 .
 info
 (
@@ -459,7 +459,7 @@ libxul
 s
 "
 %
-             
+                
 (
 args
 .
@@ -502,7 +502,7 @@ extra_args
 else
 None
     
-log
+logger
 .
 info
 (

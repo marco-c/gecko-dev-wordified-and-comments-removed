@@ -353,13 +353,13 @@ integer
 default
 '
 :
-1
+0
         
 '
 minimum
 '
 :
-1
+0
         
 '
 title
