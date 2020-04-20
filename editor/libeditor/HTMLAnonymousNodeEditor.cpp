@@ -1665,8 +1665,12 @@ focusTagAtom
 {
 focusElement
 =
-GetEnclosingTable
+HTMLEditUtils
+:
+:
+GetClosestAncestorTableElement
 (
+*
 cellElement
 )
 ;

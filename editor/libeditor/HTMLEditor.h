@@ -7608,16 +7608,6 @@ SetSelectionAtDocumentStart
 (
 )
 ;
-static
-Element
-*
-GetEnclosingTable
-(
-nsINode
-*
-aNode
-)
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 PasteAsPlaintextQuotation
