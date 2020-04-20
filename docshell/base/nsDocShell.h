@@ -3175,6 +3175,11 @@ DetermineContentType
 (
 )
 ;
+void
+UnblockEmbedderLoadEventForFailure
+(
+)
+;
 struct
 SameDocumentNavigationState
 {
