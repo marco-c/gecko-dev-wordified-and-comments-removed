@@ -430,9 +430,9 @@ stylesheet
 :
 :
 {
-DocumentStyleSheet
-Namespaces
-Stylesheet
+AllowImportRules
+SanitizationData
+SanitizationKind
 }
 ;
 pub
@@ -444,9 +444,9 @@ stylesheet
 :
 :
 {
-SanitizationData
-SanitizationKind
-AllowImportRules
+DocumentStyleSheet
+Namespaces
+Stylesheet
 }
 ;
 pub

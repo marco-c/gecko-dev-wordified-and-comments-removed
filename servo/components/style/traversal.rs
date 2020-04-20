@@ -2814,7 +2814,6 @@ worklet
 )
 =
 >
-{
 (
 &
 worklet
@@ -2825,7 +2824,6 @@ worklet
 .
 arguments
 )
-}
 _
 =
 >

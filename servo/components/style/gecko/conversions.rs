@@ -17,8 +17,8 @@ structs
 :
 :
 {
-Matrix4x4Components
 nsresult
+Matrix4x4Components
 }
 ;
 use

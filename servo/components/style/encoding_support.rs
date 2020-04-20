@@ -46,6 +46,7 @@ stylesheets
 :
 :
 {
+AllowImportRules
 Origin
 Stylesheet
 StylesheetLoader
@@ -371,6 +372,10 @@ stylesheet_loader
 error_reporter
 quirks_mode
 0
+AllowImportRules
+:
+:
+Yes
 )
 }
 pub
@@ -449,6 +454,10 @@ url_data
 stylesheet_loader
 error_reporter
 0
+AllowImportRules
+:
+:
+Yes
 )
 }
 }
