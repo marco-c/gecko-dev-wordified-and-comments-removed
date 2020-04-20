@@ -504,6 +504,8 @@ aTransformedSubtreeRoot
 Layer
 *
 aStartTraversalAt
+SideBits
+aStuckSides
 ScrollableLayerGuid
 :
 :
@@ -539,6 +541,8 @@ aTransformedSubtreeRoot
 Layer
 *
 aFixedOrSticky
+SideBits
+aStuckSides
 ScrollableLayerGuid
 :
 :

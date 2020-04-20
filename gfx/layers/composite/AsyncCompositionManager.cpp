@@ -1784,6 +1784,8 @@ aTransformedSubtreeRoot
 Layer
 *
 aStartTraversalAt
+SideBits
+aStuckSides
 ScrollableLayerGuid
 :
 :
@@ -1885,6 +1887,7 @@ AlignFixedAndStickyLayers
 (
 aTransformedSubtreeRoot
 child
+aStuckSides
 aTransformScrollId
 aPreviousTransformForRoot
 aCurrentTransformForRoot
@@ -1901,6 +1904,7 @@ AdjustFixedOrStickyLayer
 (
 aTransformedSubtreeRoot
 layer
+aStuckSides
 aTransformScrollId
 aPreviousTransformForRoot
 aCurrentTransformForRoot
@@ -1922,6 +1926,8 @@ aTransformedSubtreeRoot
 Layer
 *
 aFixedOrSticky
+SideBits
+aStuckSides
 ScrollableLayerGuid
 :
 :
@@ -2113,10 +2119,7 @@ GetIsStickyPosition
 sideBits
 &
 =
-SideBits
-:
-:
-eBottom
+aStuckSides
 ;
 }
 ScreenPoint
@@ -2414,6 +2417,7 @@ AlignFixedAndStickyLayers
 (
 aTransformedSubtreeRoot
 child
+aStuckSides
 aTransformScrollId
 aPreviousTransformForRoot
 newTransform
@@ -4910,6 +4914,10 @@ AlignFixedAndStickyLayers
 (
 layer
 layer
+SideBits
+:
+:
+eBottom
 metrics
 .
 GetScrollId
@@ -5463,6 +5471,10 @@ AdjustFixedOrStickyLayer
 (
 zoomContainer
 layer
+SideBits
+:
+:
+eBottom
 sampler
 -
 >
