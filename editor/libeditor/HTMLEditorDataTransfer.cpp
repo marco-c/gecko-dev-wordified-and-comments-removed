@@ -3480,8 +3480,12 @@ IsText
 |
 |
 (
-IsContainer
+HTMLEditUtils
+:
+:
+IsContainerNode
 (
+*
 containerContent
 )
 &

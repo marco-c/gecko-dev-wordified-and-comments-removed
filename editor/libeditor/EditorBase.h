@@ -5628,16 +5628,6 @@ aNode
 )
 const
 ;
-virtual
-bool
-IsContainer
-(
-nsINode
-*
-aNode
-)
-const
-;
 uint32_t
 CountEditableChildren
 (

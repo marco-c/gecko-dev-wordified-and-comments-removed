@@ -1881,17 +1881,6 @@ int32_t
 aReturn
 )
 ;
-virtual
-bool
-IsContainer
-(
-nsINode
-*
-aNode
-)
-const
-override
-;
 MOZ_CAN_RUN_SCRIPT
 nsresult
 CollapseAdjacentTextNodes
