@@ -9058,13 +9058,13 @@ chrome
 :
 /
 /
-global
+browser
 /
 skin
 /
-icons
+preferences
 /
-settings
+general
 .
 svg
 "
@@ -9095,7 +9095,9 @@ skin
 /
 extensions
 /
-extension
+category
+-
+extensions
 .
 svg
 "
