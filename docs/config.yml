@@ -37,6 +37,8 @@ browser
 -
 dom
 -
+layout
+-
 gfx
 -
 devtools
@@ -206,6 +208,11 @@ dom
 dom
 :
 dom
+layout
+/
+layout
+:
+layout
 gfx
 /
 gfx
