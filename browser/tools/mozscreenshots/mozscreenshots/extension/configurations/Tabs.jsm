@@ -37,9 +37,11 @@ chrome
 :
 /
 /
-browser
+global
 /
 skin
+/
+icons
 /
 settings
 .
@@ -916,9 +918,11 @@ PREFS_TAB
 ]
 =
 "
-browser
+global
 /
 skin
+/
+icons
 /
 settings
 .
