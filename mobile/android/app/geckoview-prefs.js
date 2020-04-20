@@ -374,6 +374,9 @@ approval
 true
 )
 ;
+#
+ifndef
+RELEASE_OR_BETA
 pref
 (
 "
@@ -386,6 +389,8 @@ remote
 true
 )
 ;
+#
+endif
 pref
 (
 "
