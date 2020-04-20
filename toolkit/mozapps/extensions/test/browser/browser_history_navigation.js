@@ -73,16 +73,6 @@ api_response_empty
 .
 json
 ;
-Services
-.
-prefs
-.
-setCharPref
-(
-PREF_DISCOVERURL
-MAIN_URL
-)
-;
 var
 gProvider
 =
