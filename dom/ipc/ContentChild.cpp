@@ -14181,7 +14181,7 @@ ContentChild
 RecvUnregisterJSWindowActor
 (
 const
-nsCString
+nsString
 &
 aName
 )

@@ -199,7 +199,7 @@ JSWindowActorChild
 Init
 (
 const
-nsACString
+nsAString
 &
 aName
 WindowGlobalChild

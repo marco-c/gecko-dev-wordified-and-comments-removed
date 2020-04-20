@@ -1378,7 +1378,7 @@ passive
 struct
 JSWindowActorInfo
 {
-nsCString
+nsString
 name
 ;
 bool
@@ -2334,7 +2334,7 @@ aInfos
 async
 UnregisterJSWindowActor
 (
-nsCString
+nsString
 name
 )
 ;

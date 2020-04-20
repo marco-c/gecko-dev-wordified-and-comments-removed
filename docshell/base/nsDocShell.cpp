@@ -9386,6 +9386,7 @@ result
 =
 do_QueryActor
 (
+u
 "
 LoadURIDelegate
 "
