@@ -188,6 +188,11 @@ IsCompositionDisabled
 )
 const
 ;
+void
+SessionEnded
+(
+)
+;
 protected
 :
 virtual
