@@ -4400,7 +4400,7 @@ pwFields
 .
 length
 >
-3
+5
 )
 {
 log
