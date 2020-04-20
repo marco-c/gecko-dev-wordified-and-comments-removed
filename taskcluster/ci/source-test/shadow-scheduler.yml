@@ -238,7 +238,7 @@ optimize
 experimental
 .
 relevant_tests
-bugbug_push_schedules
+bugbug_all
 :
 description
 :
@@ -260,7 +260,7 @@ symbol
 :
 SS
 (
-bugbug_push_schedules
+bugbug_all
 )
 index
 :
@@ -275,7 +275,7 @@ shadow
 -
 scheduler
 -
-bugbug_push_schedules
+bugbug_all
 worker
 :
 env
