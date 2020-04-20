@@ -213,6 +213,11 @@ if
 getState
 .
 didRehydrate
+|
+|
+window
+.
+__FROM_STARTUP_CACHE__
 )
 {
 return
