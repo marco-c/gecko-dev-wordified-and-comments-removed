@@ -2343,13 +2343,6 @@ dtmf_tones
 :
 StringView
 pub
-rtx
-:
-Option
-<
-RtxFmtpParameters
->
-pub
 encodings
 :
 *
@@ -2482,11 +2475,6 @@ as_str
 (
 )
 )
-rtx
-:
-other
-.
-rtx
 encodings
 :
 &
