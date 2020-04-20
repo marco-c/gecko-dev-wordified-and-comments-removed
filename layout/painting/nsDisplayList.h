@@ -6393,9 +6393,6 @@ bool
 mBuildAsyncZoomContainer
 ;
 bool
-mBuildBackdropRootContainer
-;
-bool
 mContainsBackdropFilter
 ;
 nsRect
