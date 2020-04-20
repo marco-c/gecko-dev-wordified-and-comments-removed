@@ -1943,7 +1943,7 @@ pendingNotifications
 .
 get
 (
-window
+browser
 )
 )
 )
@@ -2405,7 +2405,7 @@ pendingNotifications
 .
 set
 (
-window
+browser
 promise
 )
 ;
@@ -2423,7 +2423,7 @@ pendingNotifications
 .
 delete
 (
-window
+browser
 )
 )
 ;
