@@ -2452,6 +2452,10 @@ BaselineCacheIRCompiler
 :
 emitGuardHasGetterSetter
 (
+ObjOperandId
+objId
+uint32_t
+shapeOffset
 )
 {
 JitSpew
@@ -2472,11 +2476,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 Address
@@ -2484,11 +2484,7 @@ shapeAddr
 =
 stubAddress
 (
-reader
-.
-stubOffset
-(
-)
+shapeOffset
 )
 ;
 AutoScratchRegister

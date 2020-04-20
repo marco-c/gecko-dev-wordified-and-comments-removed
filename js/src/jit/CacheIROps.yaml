@@ -948,6 +948,9 @@ GuardNoDenseElements
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1041,6 +1044,9 @@ GuardHasGetterSetter
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1056,6 +1062,9 @@ GuardGroupHasUnanalyzedNewScript
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 group
@@ -1068,6 +1077,9 @@ GuardIndexIsNonNegative
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 index
@@ -1078,6 +1090,9 @@ name
 :
 GuardIndexGreaterThanArrayLength
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -1095,6 +1110,9 @@ GuardIndexIsValidUpdateOrAdd
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -1108,6 +1126,9 @@ name
 :
 GuardIndexGreaterThanDenseInitLength
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -1186,6 +1207,9 @@ GuardNoAllocationMetadataBuilder
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 -
@@ -1193,6 +1217,9 @@ name
 :
 GuardObjectGroupNotPretenured
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -1205,6 +1232,9 @@ name
 :
 GuardFunctionHasJitEntry
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
