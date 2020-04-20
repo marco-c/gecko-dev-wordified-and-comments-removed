@@ -9858,9 +9858,11 @@ IsCollapsed
 )
 |
 |
-IsTextNode
-(
 startContainer
+-
+>
+IsText
+(
 )
 )
 {
@@ -10103,9 +10105,11 @@ else
 {
 if
 (
-IsTextNode
-(
 contentToExamine
+-
+>
+IsText
+(
 )
 )
 {

@@ -3471,12 +3471,11 @@ GetChild
 }
 if
 (
-EditorBase
-:
-:
-IsTextNode
-(
 containerContent
+-
+>
+IsText
+(
 )
 |
 |
