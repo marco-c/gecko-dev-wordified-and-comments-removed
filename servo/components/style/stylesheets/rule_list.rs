@@ -80,9 +80,9 @@ stylesheets
 :
 :
 {
-AllowImportRules
 CssRule
 RulesMutateError
+AllowImportRules
 }
 ;
 #

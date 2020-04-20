@@ -2814,6 +2814,7 @@ worklet
 )
 =
 >
+{
 (
 &
 worklet
@@ -2824,6 +2825,7 @@ worklet
 .
 arguments
 )
+}
 _
 =
 >
@@ -3536,7 +3538,11 @@ as_element
 if
 kid
 .
-has_data
+get_data
+(
+)
+.
+is_some
 (
 )
 {
