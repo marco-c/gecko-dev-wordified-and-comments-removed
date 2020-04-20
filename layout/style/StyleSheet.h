@@ -842,15 +842,6 @@ EnsureUniqueInner
 (
 )
 ;
-enum
-AssociationMode
-:
-uint8_t
-{
-OwnedByDocumentOrShadowRoot
-NotOwnedByDocumentOrShadowRoot
-}
-;
 dom
 :
 :
@@ -889,7 +880,6 @@ dom
 :
 DocumentOrShadowRoot
 *
-AssociationMode
 )
 ;
 void
@@ -900,7 +890,6 @@ ClearAssociatedDocumentOrShadowRoot
 SetAssociatedDocumentOrShadowRoot
 (
 nullptr
-NotOwnedByDocumentOrShadowRoot
 )
 ;
 }
@@ -2089,9 +2078,6 @@ mParsingMode
 ;
 State
 mState
-;
-AssociationMode
-mAssociationMode
 ;
 StyleSheetInfo
 *
