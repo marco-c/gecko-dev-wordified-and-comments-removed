@@ -94,7 +94,6 @@ parser
 {
 Selector
 SelectorIter
-Visit
 }
 ;
 use
