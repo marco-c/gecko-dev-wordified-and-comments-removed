@@ -1716,7 +1716,7 @@ cpp
 GeneratedFile
 (
 '
-MOpcodes
+MOpcodesGenerated
 .
 h
 '
@@ -1745,7 +1745,7 @@ h
 GeneratedFile
 (
 '
-LOpcodes
+LOpcodesGenerated
 .
 h
 '

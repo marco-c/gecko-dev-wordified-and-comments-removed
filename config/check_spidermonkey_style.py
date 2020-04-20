@@ -155,7 +155,7 @@ inc
 '
 jit
 /
-LOpcodes
+LOpcodesGenerated
 .
 h
 '
@@ -163,7 +163,7 @@ h
 '
 jit
 /
-MOpcodes
+MOpcodesGenerated
 .
 h
 '

@@ -367,7 +367,7 @@ c_out
 inputs
 pat
 '
-jit_MOpcodes_h
+jit_MOpcodesGenerated_h
 '
 '
 MIR_OPCODE_LIST
@@ -420,7 +420,7 @@ c_out
 inputs
 pat
 '
-jit_LOpcodes_h
+jit_LOpcodesGenerated_h
 '
 '
 LIR_OPCODE_LIST
