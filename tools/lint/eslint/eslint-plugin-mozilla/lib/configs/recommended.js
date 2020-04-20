@@ -548,6 +548,17 @@ mozilla
 /
 use
 -
+finally
+"
+:
+"
+error
+"
+"
+mozilla
+/
+use
+-
 includes
 -
 instead
