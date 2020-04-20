@@ -50774,6 +50774,7 @@ bug_numbers
 :
 [
 1622335
+1630899
 ]
 "
 expires_in_version
@@ -50788,6 +50789,15 @@ kind
 :
 "
 categorical
+"
+"
+releaseChannelCollection
+"
+:
+"
+opt
+-
+out
 "
 "
 labels
