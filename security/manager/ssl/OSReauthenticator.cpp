@@ -1298,6 +1298,10 @@ reauthenticated
 =
 false
 ;
+isBlankPassword
+=
+false
+;
 #
 if
 defined
