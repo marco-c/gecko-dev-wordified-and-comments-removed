@@ -654,6 +654,9 @@ GuardProto
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -672,6 +675,9 @@ name
 :
 GuardClass
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -696,6 +702,9 @@ GuardAnyClass
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -726,6 +735,9 @@ GuardCompartment
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
