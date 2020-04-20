@@ -747,6 +747,12 @@ nursery
 reallocateBuffer
 (
 obj
+-
+>
+zone
+(
+)
+obj
 oldBuffer
 oldCount
 *
@@ -922,7 +928,7 @@ JS
 :
 BigInt
 *
-obj
+bi
 JS
 :
 :
@@ -965,7 +971,7 @@ oldDigits
 )
 ;
 return
-obj
+bi
 -
 >
 zone
@@ -1061,7 +1067,13 @@ nursery
 .
 reallocateBuffer
 (
-obj
+bi
+-
+>
+zone
+(
+)
+bi
 oldDigits
 oldBytes
 newBytes
