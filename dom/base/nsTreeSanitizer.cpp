@@ -2114,6 +2114,10 @@ transform
 nsGkAtoms
 :
 :
+transform_origin
+nsGkAtoms
+:
+:
 type
 nsGkAtoms
 :
