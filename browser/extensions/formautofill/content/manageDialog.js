@@ -1652,6 +1652,8 @@ ensureLoggedIn
 reauthPasswordPromptMessage
 )
 )
+.
+authenticated
 )
 {
 let

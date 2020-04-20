@@ -1357,6 +1357,8 @@ ensureLoggedIn
 (
 )
 )
+.
+authenticated
 )
 {
 log
@@ -2752,6 +2754,8 @@ ensureLoggedIn
 (
 )
 )
+.
+authenticated
 )
 {
 log

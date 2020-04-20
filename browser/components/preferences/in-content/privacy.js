@@ -9016,6 +9016,8 @@ if
 (
 !
 loggedIn
+.
+authenticated
 )
 {
 return
