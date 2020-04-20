@@ -70,4 +70,8 @@ experimentType
 :
 string
 ;
+source
+:
+string
+;
 }

@@ -317,6 +317,9 @@ args
 recipe
 .
 arguments
+"
+normandy
+"
 ]
 ]
 "
@@ -326,6 +329,11 @@ onRecipe
 with
 recipe
 args
+and
+'
+normandy
+'
+source
 "
 )
 ;
