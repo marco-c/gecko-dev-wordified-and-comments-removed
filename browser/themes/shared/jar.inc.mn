@@ -2921,10 +2921,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 bookmark
 .
 svg
@@ -2934,7 +2930,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 bookmark
 .
@@ -2948,10 +2944,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 critters
 -
 postcard
@@ -2963,7 +2955,7 @@ jpg
 /
 shared
 /
-incontentprefs
+preferences
 /
 critters
 -
@@ -2979,10 +2971,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 extensions
 .
 svg
@@ -2992,7 +2980,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 extensions
 .
@@ -3006,10 +2994,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 face
 -
 sad
@@ -3021,7 +3005,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 face
 -
@@ -3037,10 +3021,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 face
 -
 smile
@@ -3052,7 +3032,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 face
 -
@@ -3068,10 +3048,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 formfill
 .
 svg
@@ -3081,7 +3057,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 formfill
 .
@@ -3095,10 +3071,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 fxaPairDevice
 .
 css
@@ -3108,7 +3080,7 @@ css
 /
 shared
 /
-incontentprefs
+preferences
 /
 fxaPairDevice
 .
@@ -3122,10 +3094,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 general
 .
 svg
@@ -3135,7 +3103,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 general
 .
@@ -3149,10 +3117,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 history
 .
 svg
@@ -3162,7 +3126,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 history
 .
@@ -3175,10 +3139,6 @@ classic
 browser
 /
 preferences
-/
-in
--
-content
 /
 no
 -
@@ -3193,7 +3153,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 no
 -
@@ -3210,10 +3170,6 @@ classic
 browser
 /
 preferences
-/
-in
--
-content
 /
 no
 -
@@ -3228,7 +3184,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 no
 -
@@ -3246,10 +3202,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 preferences
 .
 svg
@@ -3259,7 +3211,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 preferences
 .
@@ -3273,10 +3225,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 privacy
 -
 security
@@ -3288,7 +3236,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 privacy
 -
@@ -3304,10 +3252,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 privacy
 .
 css
@@ -3317,7 +3261,7 @@ css
 /
 shared
 /
-incontentprefs
+preferences
 /
 privacy
 .
@@ -3330,10 +3274,6 @@ classic
 browser
 /
 preferences
-/
-in
--
-content
 /
 search
 -
@@ -3348,7 +3288,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 search
 -
@@ -3366,10 +3306,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 search
 -
 bar
@@ -3381,7 +3317,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 search
 -
@@ -3397,10 +3333,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 search
 .
 css
@@ -3410,7 +3342,7 @@ css
 /
 shared
 /
-incontentprefs
+preferences
 /
 search
 .
@@ -3424,10 +3356,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 search
 .
 svg
@@ -3437,7 +3365,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 search
 .
@@ -3450,10 +3378,6 @@ classic
 browser
 /
 preferences
-/
-in
--
-content
 /
 siteDataSettings
 .
@@ -3464,7 +3388,7 @@ css
 /
 shared
 /
-incontentprefs
+preferences
 /
 siteDataSettings
 .
@@ -3478,10 +3402,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 sync
 .
 svg
@@ -3491,7 +3411,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 sync
 .
@@ -3504,10 +3424,6 @@ classic
 browser
 /
 preferences
-/
-in
--
-content
 /
 tab
 .
@@ -3518,7 +3434,7 @@ svg
 /
 shared
 /
-incontentprefs
+preferences
 /
 tab
 .
@@ -3533,10 +3449,6 @@ browser
 /
 preferences
 /
-in
--
-content
-/
 containers
 .
 css
@@ -3546,7 +3458,7 @@ css
 /
 shared
 /
-incontentprefs
+preferences
 /
 containers
 .
