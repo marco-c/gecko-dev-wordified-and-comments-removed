@@ -2795,6 +2795,13 @@ aIsActive
 )
 ;
 async
+SetSuspendMediaWhenInactive
+(
+bool
+aSuspendMediaWhenInactive
+)
+;
+async
 RenderLayers
 (
 bool
