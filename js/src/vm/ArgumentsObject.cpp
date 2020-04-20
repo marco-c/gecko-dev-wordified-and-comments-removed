@@ -5455,7 +5455,7 @@ data
 {
 nursery
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 nsrc
 -
@@ -5607,7 +5607,7 @@ srcRareData
 {
 nursery
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 srcRareData
 )

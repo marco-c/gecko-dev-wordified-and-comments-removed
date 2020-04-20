@@ -1607,7 +1607,7 @@ range
 {
 nursery
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 range
 )
@@ -6351,7 +6351,7 @@ range
 {
 nursery
 .
-removeMallocedBuffer
+removeMallocedBufferDuringMinorGC
 (
 range
 )

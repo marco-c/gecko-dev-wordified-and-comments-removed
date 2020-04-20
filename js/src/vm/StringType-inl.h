@@ -1559,6 +1559,12 @@ chars
 get
 (
 )
+length
+*
+sizeof
+(
+CharT
+)
 )
 )
 {

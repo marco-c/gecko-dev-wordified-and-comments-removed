@@ -2535,6 +2535,8 @@ obj
 HeapSlot
 *
 slots
+size_t
+nbytes
 )
 {
 if
@@ -2598,6 +2600,7 @@ nursery
 freeBuffer
 (
 slots
+nbytes
 )
 ;
 }
@@ -2632,9 +2635,9 @@ newCount
 0
 )
 {
-RemoveCellMemory
-(
-this
+size_t
+nbytes
+=
 numDynamicSlots
 (
 )
@@ -2643,6 +2646,11 @@ sizeof
 (
 HeapSlot
 )
+;
+RemoveCellMemory
+(
+this
+nbytes
 MemoryUse
 :
 :
@@ -2654,6 +2662,7 @@ FreeSlots
 cx
 this
 slots_
+nbytes
 )
 ;
 slots_
