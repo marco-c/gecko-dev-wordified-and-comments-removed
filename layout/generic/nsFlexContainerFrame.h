@@ -209,6 +209,9 @@ CachedBAxisMeasurement
 class
 CachedFlexItemData
 ;
+struct
+SharedFlexData
+;
 void
 Init
 (
