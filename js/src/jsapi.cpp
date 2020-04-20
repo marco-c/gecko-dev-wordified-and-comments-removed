@@ -9801,8 +9801,13 @@ callback
 js
 :
 :
+UniquePtr
+<
+js
+:
+:
 RunnableTask
-*
+>
 )
 )
 {
