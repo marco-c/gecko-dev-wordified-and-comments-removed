@@ -16,6 +16,9 @@ h
 namespace
 js
 {
+class
+PlainObject
+;
 namespace
 jit
 {
@@ -686,7 +689,11 @@ fun
 ObjectGroup
 *
 group
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 baseobj
 Vector
 <

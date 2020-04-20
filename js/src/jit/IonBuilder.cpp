@@ -206,6 +206,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpStatics
 .
 h

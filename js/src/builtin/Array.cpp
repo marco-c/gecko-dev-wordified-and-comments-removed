@@ -245,6 +245,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 SelfHosting
 .
 h

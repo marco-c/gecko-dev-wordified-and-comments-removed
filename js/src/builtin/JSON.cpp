@@ -155,6 +155,15 @@ h
 #
 include
 "
+vm
+/
+PlainObject
+.
+h
+"
+#
+include
+"
 builtin
 /
 Array

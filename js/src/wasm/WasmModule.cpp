@@ -56,6 +56,15 @@ h
 #
 include
 "
+vm
+/
+PlainObject
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmBaselineCompile

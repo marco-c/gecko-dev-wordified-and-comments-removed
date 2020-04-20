@@ -152,6 +152,15 @@ h
 #
 include
 "
+vm
+/
+PlainObject
+.
+h
+"
+#
+include
+"
 wasm
 /
 WasmCode

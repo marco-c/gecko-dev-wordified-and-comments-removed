@@ -39,6 +39,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 SymbolType
 .
 h

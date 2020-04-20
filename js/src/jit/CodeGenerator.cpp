@@ -415,6 +415,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 .
 h
@@ -87161,7 +87170,7 @@ PrototypeValue
 using
 Fn
 =
-JSObject
+PlainObject
 *
 (
 *

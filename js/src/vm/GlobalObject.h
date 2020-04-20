@@ -257,6 +257,9 @@ class
 LexicalEnvironmentObject
 ;
 class
+PlainObject
+;
+class
 RegExpStatics
 ;
 class

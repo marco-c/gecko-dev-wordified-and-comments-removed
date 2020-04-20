@@ -107,6 +107,9 @@ CompilerConstraintList
 class
 ObjectGroupRealm
 ;
+class
+PlainObject
+;
 namespace
 gc
 {

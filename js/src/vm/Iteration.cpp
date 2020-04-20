@@ -287,6 +287,17 @@ include
 "
 vm
 /
+PlainObject
+-
+inl
+.
+h
+"
+#
+include
+"
+vm
+/
 ReceiverGuard
 -
 inl

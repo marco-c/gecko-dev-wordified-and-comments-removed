@@ -168,6 +168,9 @@ CompilerConstraintList
 class
 HeapTypeSetKey
 ;
+class
+PlainObject
+;
 namespace
 jit
 {

@@ -75,6 +75,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 SelfHosting
 .
 h
@@ -35942,7 +35951,7 @@ templateObject_
 >
 as
 <
-PlainObject
+NativeObject
 >
 (
 )

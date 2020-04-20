@@ -53,6 +53,9 @@ js
 class
 EnvironmentIter
 ;
+class
+PlainObject
+;
 extern
 bool
 BoxNonStrictThis
@@ -2658,7 +2661,7 @@ HandleValue
 heritage
 )
 ;
-JSObject
+PlainObject
 *
 ObjectWithProtoOperation
 (

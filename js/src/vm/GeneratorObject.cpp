@@ -55,6 +55,15 @@ h
 #
 include
 "
+vm
+/
+PlainObject
+.
+h
+"
+#
+include
+"
 debugger
 /
 DebugAPI

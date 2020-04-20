@@ -194,6 +194,15 @@ include
 "
 vm
 /
+PlainObject
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 .
 h

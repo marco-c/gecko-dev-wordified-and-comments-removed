@@ -171,7 +171,7 @@ include
 "
 vm
 /
-NativeObject
+ObjectOperations
 .
 h
 "
@@ -180,7 +180,7 @@ include
 "
 vm
 /
-ObjectOperations
+PlainObject
 .
 h
 "

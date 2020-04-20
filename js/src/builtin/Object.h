@@ -32,6 +32,9 @@ h
 namespace
 js
 {
+class
+PlainObject
+;
 MOZ_MUST_USE
 bool
 obj_construct
@@ -75,7 +78,11 @@ ObjectCreateWithTemplate
 JSContext
 *
 cx
-HandlePlainObject
+Handle
+<
+PlainObject
+*
+>
 templateObj
 )
 ;

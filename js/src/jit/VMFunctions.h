@@ -78,6 +78,9 @@ class
 AsyncFunctionGeneratorObject
 ;
 class
+PlainObject
+;
+class
 RegExpObject
 ;
 class
