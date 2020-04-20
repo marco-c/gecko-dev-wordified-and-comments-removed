@@ -240,9 +240,9 @@ rendering
 test
 guidelines
 ]
-[
+(
 rendering
-]
+)
 for
 tips
 on
