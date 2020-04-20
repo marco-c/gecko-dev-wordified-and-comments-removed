@@ -167,6 +167,7 @@ frame
 }
 )
 ;
+await
 dispatch
 (
 selectLocation

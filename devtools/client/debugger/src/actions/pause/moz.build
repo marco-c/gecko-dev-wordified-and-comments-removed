@@ -109,6 +109,11 @@ inlinePreview
 js
 '
 '
+mapDisplayNames
+.
+js
+'
+'
 mapFrames
 .
 js
