@@ -16804,10 +16804,15 @@ join
 ;
 if
 (
-!
-isIncrementalGCInProgress
+state
 (
 )
+!
+=
+State
+:
+:
+Sweep
 )
 {
 assertBackgroundSweepingFinished
