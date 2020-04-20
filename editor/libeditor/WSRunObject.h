@@ -1711,6 +1711,14 @@ mEditingHost
 }
 protected
 :
+using
+EditorType
+=
+EditorBase
+:
+:
+EditorType
+;
 struct
 WSFragment
 final
