@@ -435,7 +435,7 @@ info
 .
 addon
 .
-icon
+iconURL
 install
 permissions
 :

@@ -6639,6 +6639,13 @@ this
 testScope
 .
 equal
+|
+|
+this
+.
+testScope
+.
+is
 ;
 return
 new

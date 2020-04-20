@@ -1826,11 +1826,6 @@ addon
 install
 )
 {
-attachUpdateHandler
-(
-install
-)
-;
 if
 (
 AddonManager
@@ -1841,6 +1836,11 @@ addon
 )
 )
 {
+attachUpdateHandler
+(
+install
+)
+;
 let
 failed
 =
@@ -14963,6 +14963,13 @@ install
 update
 "
 :
+attachUpdateHandler
+(
+this
+.
+updateInstall
+)
+;
 this
 .
 updateInstall
