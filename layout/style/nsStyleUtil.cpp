@@ -1398,6 +1398,9 @@ nsStyleUtil
 :
 CSPAllowsInlineStyle
 (
+dom
+:
+:
 Element
 *
 aElement

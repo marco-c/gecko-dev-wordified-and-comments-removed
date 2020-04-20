@@ -97,6 +97,9 @@ nsSimpleContentList
 struct
 nsFont
 ;
+class
+ServoComputedData
+;
 namespace
 mozilla
 {

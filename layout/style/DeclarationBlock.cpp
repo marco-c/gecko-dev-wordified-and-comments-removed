@@ -34,6 +34,13 @@ nsCSSProps
 .
 h
 "
+#
+include
+"
+nsIMemoryReporter
+.
+h
+"
 namespace
 mozilla
 {

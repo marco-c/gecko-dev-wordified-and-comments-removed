@@ -785,6 +785,9 @@ RestyleManager
 >
 PostRestyleEvent
 (
+dom
+:
+:
 Element
 :
 :

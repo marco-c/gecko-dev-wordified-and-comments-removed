@@ -55,6 +55,17 @@ mozilla
 /
 dom
 /
+DocumentInlines
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Event
 .
 h
