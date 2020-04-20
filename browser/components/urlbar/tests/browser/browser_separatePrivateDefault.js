@@ -69,6 +69,16 @@ browser
 .
 urlbar
 .
+oneOffSearches
+"
+true
+]
+[
+"
+browser
+.
+urlbar
+.
 suggest
 .
 searches
