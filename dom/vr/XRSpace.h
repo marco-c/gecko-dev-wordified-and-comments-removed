@@ -129,6 +129,15 @@ GetEffectiveOriginPosition
 )
 const
 ;
+gfx
+:
+:
+Matrix4x4Double
+GetEffectiveOriginTransform
+(
+)
+const
+;
 bool
 IsPositionEmulated
 (
