@@ -3,11 +3,13 @@ __future__
 import
 print_function
 import
+os
+import
 re
 import
-yaml
-import
 sys
+import
+yaml
 KNOWN_PROCESS_FLAGS
 =
 {
@@ -396,7 +398,15 @@ stderr
         
 sys
 .
-exit
+stderr
+.
+flush
+(
+)
+        
+os
+.
+_exit
 (
 1
 )
