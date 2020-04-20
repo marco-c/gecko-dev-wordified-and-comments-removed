@@ -324,9 +324,6 @@ Open
 nsDocShellLoadState
 *
 aLoadState
-LoadInfo
-*
-aLoadInfo
 nsLoadFlags
 aLoadFlags
 uint32_t
