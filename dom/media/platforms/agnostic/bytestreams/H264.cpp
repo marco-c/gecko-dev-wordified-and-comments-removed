@@ -5622,12 +5622,7 @@ if
 p
 )
 {
-return
-extradata
-.
-forget
-(
-)
+break
 ;
 }
 uint8_t
