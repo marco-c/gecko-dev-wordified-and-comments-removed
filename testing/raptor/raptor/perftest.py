@@ -369,12 +369,27 @@ extra_prefs
 {
 }
         
+project
+=
+"
+mozilla
+-
+central
+"
+        
 *
 *
 kwargs
     
 )
 :
+        
+self
+.
+_dirs_to_remove
+=
+[
+]
         
 if
 host
@@ -561,6 +576,12 @@ extra_prefs
 "
 :
 extra_prefs
+            
+"
+project
+"
+:
+project
         
 }
         
@@ -572,10 +593,11 @@ FIREFOX_ANDROID_APPS
         
 self
 .
-no_condprof
+using_condprof
 =
+not
 (
-            
+             
 (
 self
 .
@@ -605,7 +627,7 @@ processor
 aarch64
 "
 )
-            
+             
 or
 self
 .
@@ -624,7 +646,7 @@ mozilla
 .
 fennec_aurora
 "
-            
+             
 or
 self
 .
@@ -647,7 +669,47 @@ browser
 .
 raptor
 "
-            
+             
+or
+self
+.
+config
+[
+"
+binary
+"
+]
+=
+=
+"
+org
+.
+mozilla
+.
+firefox
+"
+             
+or
+self
+.
+config
+[
+"
+binary
+"
+]
+.
+startswith
+(
+"
+org
+.
+mozilla
+.
+fenix
+"
+)
+             
 or
 self
 .
@@ -660,27 +722,53 @@ no_conditioned_profile
         
 )
         
+if
+self
+.
+using_condprof
+:
+            
 LOG
 .
 info
 (
 "
-self
+Using
+a
+conditioned
+profile
 .
-no_condprof
-is
-:
-{
-}
 "
+)
+        
+else
+:
+            
+LOG
 .
-format
+info
 (
+"
+Using
+an
+empty
+profile
+.
+"
+)
+        
 self
 .
-no_condprof
-)
-)
+config
+[
+"
+using_condprof
+"
+]
+=
+self
+.
+using_condprof
         
 if
 self
@@ -877,10 +965,9 @@ else
 False
         
 if
-not
 self
 .
-no_condprof
+using_condprof
 and
 not
 self
@@ -982,6 +1069,33 @@ crashes
 =
 0
     
+def
+_get_temp_dir
+(
+self
+)
+:
+        
+tempdir
+=
+tempfile
+.
+mkdtemp
+(
+)
+        
+self
+.
+_dirs_to_remove
+.
+append
+(
+tempdir
+)
+        
+return
+tempdir
+    
 property
     
 def
@@ -1053,9 +1167,9 @@ conditioned_profile_dir
         
 temp_download_dir
 =
-tempfile
+self
 .
-mkdtemp
+_get_temp_dir
 (
 )
         
@@ -1180,6 +1294,54 @@ s
 platform
 )
         
+repo
+=
+self
+.
+config
+[
+"
+project
+"
+]
+        
+alternate_repo
+=
+"
+mozilla
+-
+central
+"
+if
+repo
+!
+=
+"
+mozilla
+-
+central
+"
+else
+"
+try
+"
+        
+LOG
+.
+info
+(
+"
+Getting
+profile
+from
+project
+%
+s
+"
+%
+repo
+)
+        
 profile_scenario
 =
 self
@@ -1209,6 +1371,10 @@ temp_download_dir
 platform
                 
 profile_scenario
+                
+repo
+=
+repo
             
 )
         
@@ -1229,9 +1395,7 @@ profile_scenario
                 
 repo
 =
-"
-try
-"
+alternate_repo
             
 )
         
@@ -1366,13 +1530,6 @@ conditioned_profile_dir
         
 )
         
-shutil
-.
-rmtree
-(
-temp_download_dir
-)
-        
 return
 self
 .
@@ -1386,9 +1543,10 @@ self
 :
         
 if
+not
 self
 .
-no_condprof
+using_condprof
 or
 self
 .
@@ -2259,8 +2417,6 @@ self
         
 pass
     
-abstractmethod
-    
 def
 clean_up
 (
@@ -2268,7 +2424,63 @@ self
 )
 :
         
-pass
+for
+dir_to_rm
+in
+self
+.
+_dirs_to_remove
+:
+            
+if
+not
+os
+.
+path
+.
+exists
+(
+dir_to_rm
+)
+:
+                
+continue
+            
+LOG
+.
+info
+(
+"
+Removing
+temporary
+directory
+:
+{
+}
+"
+.
+format
+(
+dir_to_rm
+)
+)
+            
+shutil
+.
+rmtree
+(
+dir_to_rm
+ignore_errors
+=
+True
+)
+        
+self
+.
+_dirs_to_remove
+=
+[
+]
     
 def
 get_page_timeout_list

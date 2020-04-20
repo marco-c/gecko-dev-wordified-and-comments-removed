@@ -1317,6 +1317,15 @@ etc
 )
 testing
 /
+condprofile
+/
+condprof
+/
+tests
+/
+profile
+testing
+/
 marionette
 /
 atom
