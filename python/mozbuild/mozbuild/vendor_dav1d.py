@@ -1556,14 +1556,6 @@ repository
 add_remove_files
 (
 vendor_dir
-)
-        
-self
-.
-repository
-.
-add_remove_files
-(
 glue_dir
 )
         

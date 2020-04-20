@@ -1153,17 +1153,12 @@ read
             
 return
         
-for
-path
-in
-changed_files
-:
-            
 vcs
 .
 add_remove_files
 (
-path
+*
+changed_files
 )
         
 try

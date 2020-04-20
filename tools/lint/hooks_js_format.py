@@ -255,17 +255,12 @@ call
 js_format_cmd
 )
         
-for
-f
-in
-path_list
-:
-            
 vcs
 .
 add_remove_files
 (
-f
+*
+path_list
 )
         
 return
