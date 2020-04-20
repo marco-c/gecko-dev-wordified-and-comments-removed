@@ -1394,7 +1394,7 @@ false
 bool
 FLAG_regexp_tier_up
 =
-true
+false
 ;
 bool
 FLAG_trace_regexp_assembler

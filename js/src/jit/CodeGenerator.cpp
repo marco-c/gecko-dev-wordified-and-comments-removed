@@ -12376,7 +12376,7 @@ temp1
 RegExpShared
 :
 :
-offsetOfPairCount
+offsetOfParenCount
 (
 )
 )
@@ -12390,7 +12390,7 @@ branch32
 Assembler
 :
 :
-Above
+AboveOrEqual
 temp2
 Imm32
 (
@@ -12400,6 +12400,17 @@ RegExpObject
 MaxPairCount
 )
 failure
+)
+;
+masm
+.
+add32
+(
+Imm32
+(
+1
+)
+temp2
 )
 ;
 masm
