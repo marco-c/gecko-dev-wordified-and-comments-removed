@@ -2596,7 +2596,7 @@ WindowGlobalChild
 GetActor
 (
 const
-nsAString
+nsACString
 &
 aName
 ErrorResult
@@ -2795,7 +2795,7 @@ mInnerWindowId
 endif
 nsRefPtrHashtable
 <
-nsStringHashKey
+nsCStringHashKey
 JSWindowActorChild
 >
 windowActors

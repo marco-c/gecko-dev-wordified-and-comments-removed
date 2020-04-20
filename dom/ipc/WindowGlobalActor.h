@@ -106,7 +106,7 @@ void
 ConstructActor
 (
 const
-nsAString
+nsACString
 &
 aName
 JS
