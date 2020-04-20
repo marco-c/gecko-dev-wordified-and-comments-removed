@@ -50,7 +50,7 @@ h
 "
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 #
 include
 "
@@ -1582,7 +1582,7 @@ errSecSuccess
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 void
 GatherEnterpriseCertsAndroid
 (
@@ -1814,7 +1814,7 @@ NS_ERROR_FAILURE
 endif
 #
 ifdef
-ANDROID
+MOZ_WIDGET_ANDROID
 GatherEnterpriseCertsAndroid
 (
 certs
