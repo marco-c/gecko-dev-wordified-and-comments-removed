@@ -864,6 +864,9 @@ GuardSpecificSymbol
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 sym
@@ -877,6 +880,9 @@ name
 :
 GuardSpecificInt32Immediate
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -894,6 +900,9 @@ GuardSpecificNativeFunction
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -907,6 +916,9 @@ name
 :
 GuardMagicValue
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -924,6 +936,9 @@ GuardFrameHasNoArgumentsObject
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 -

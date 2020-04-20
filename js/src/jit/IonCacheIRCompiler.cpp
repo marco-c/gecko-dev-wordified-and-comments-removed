@@ -4519,6 +4519,10 @@ IonCacheIRCompiler
 :
 emitGuardSpecificSymbol
 (
+SymbolOperandId
+symId
+uint32_t
+expectedOffset
 )
 {
 JitSpew
@@ -4539,11 +4543,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-symbolOperandId
-(
-)
+symId
 )
 ;
 JS
@@ -4555,11 +4555,7 @@ expected
 =
 symbolStubField
 (
-reader
-.
-stubOffset
-(
-)
+expectedOffset
 )
 ;
 FailurePath
