@@ -4213,7 +4213,8 @@ ShouldLoad
 insecureRedirect
 aPolicyType
 contentLocation
-nullptr
+loadingPrincipal
+aTriggeringPrincipal
 ToSupports
 (
 aLoadingDocument
@@ -4221,7 +4222,6 @@ aLoadingDocument
 EmptyCString
 (
 )
-aTriggeringPrincipal
 &
 decision
 )
