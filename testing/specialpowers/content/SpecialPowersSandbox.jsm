@@ -41,6 +41,9 @@ Blob
 ChromeUtils
 "
 "
+FileReader
+"
+"
 TextDecoder
 "
 "
