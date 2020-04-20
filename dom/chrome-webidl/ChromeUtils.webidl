@@ -2857,7 +2857,7 @@ Throws
 void
 registerWindowActor
 (
-DOMString
+UTF8String
 aName
 optional
 WindowActorOptions
@@ -2873,7 +2873,7 @@ ChromeOnly
 void
 unregisterWindowActor
 (
-DOMString
+UTF8String
 aName
 )
 ;

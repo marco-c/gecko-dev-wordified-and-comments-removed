@@ -459,7 +459,7 @@ Throws
 JSWindowActorParent
 getActor
 (
-DOMString
+UTF8String
 name
 )
 ;
@@ -833,7 +833,7 @@ Throws
 JSWindowActorChild
 getActor
 (
-DOMString
+UTF8String
 name
 )
 ;

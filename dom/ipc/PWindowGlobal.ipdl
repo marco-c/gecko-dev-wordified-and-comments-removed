@@ -132,7 +132,7 @@ dom
 struct
 JSWindowActorMessageMeta
 {
-nsString
+nsCString
 actorName
 ;
 nsString

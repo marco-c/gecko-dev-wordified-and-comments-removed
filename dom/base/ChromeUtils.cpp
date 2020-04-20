@@ -6802,7 +6802,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aName
 const
@@ -6856,7 +6856,7 @@ GlobalObject
 &
 aGlobal
 const
-nsAString
+nsACString
 &
 aName
 )

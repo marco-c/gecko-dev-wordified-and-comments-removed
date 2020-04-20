@@ -141,7 +141,7 @@ ActorCreated
 }
 ;
 const
-nsString
+nsCString
 &
 Name
 (
@@ -300,7 +300,7 @@ void
 SetName
 (
 const
-nsAString
+nsACString
 &
 aName
 )
@@ -522,9 +522,6 @@ nsISupports
 mWrappedJS
 ;
 nsCString
-mCName
-;
-nsString
 mName
 ;
 nsRefPtrHashtable
