@@ -4831,13 +4831,6 @@ aSheet
 ;
 }
 void
-RemoveStyleSheet
-(
-StyleSheet
-&
-)
-;
-void
 StyleSheetApplicableStateChanged
 (
 StyleSheet
