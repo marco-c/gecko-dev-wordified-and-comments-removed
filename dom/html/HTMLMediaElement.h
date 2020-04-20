@@ -2347,12 +2347,6 @@ ComputedMuted
 )
 const
 ;
-bool
-IsSuspendedByInactiveDocOrDocShell
-(
-)
-const
-;
 void
 SetMediaInfo
 (
@@ -3911,7 +3905,7 @@ mPlayingBeforeSeek
 false
 ;
 bool
-mSuspendedByInactiveDocOrDocshell
+mSuspendedForInactiveDocument
 =
 false
 ;
@@ -4467,12 +4461,6 @@ dom
 Promise
 >
 mSeekDOMPromise
-;
-bool
-ShouldBeSuspendedByInactiveDocShell
-(
-)
-const
 ;
 void
 AssertReadyStateIsNothing
