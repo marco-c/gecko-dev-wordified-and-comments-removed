@@ -32,9 +32,9 @@ public
 :
 FeaturePolicyViolationReportBody
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 const
 nsAString
 &

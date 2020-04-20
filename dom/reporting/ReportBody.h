@@ -39,7 +39,7 @@ nsWrapperCache
 h
 "
 class
-nsIGlobalObject
+nsPIDOMWindowInner
 ;
 namespace
 mozilla
@@ -68,12 +68,12 @@ ReportBody
 explicit
 ReportBody
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 )
 ;
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -81,7 +81,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mWindow
 ;
 }
 virtual
@@ -106,9 +106,9 @@ ReportBody
 ;
 nsCOMPtr
 <
-nsIGlobalObject
+nsPIDOMWindowInner
 >
-mGlobal
+mWindow
 ;
 }
 ;

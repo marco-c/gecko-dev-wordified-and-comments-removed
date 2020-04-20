@@ -32,9 +32,9 @@ public
 :
 DeprecationReportBody
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 const
 nsAString
 &

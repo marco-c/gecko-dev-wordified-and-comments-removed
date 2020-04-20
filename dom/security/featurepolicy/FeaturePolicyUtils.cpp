@@ -1234,11 +1234,6 @@ new
 FeaturePolicyViolationReportBody
 (
 window
--
->
-AsGlobal
-(
-)
 aFeatureName
 fileName
 lineNumber
@@ -1257,11 +1252,6 @@ ReportingUtils
 Report
 (
 window
--
->
-AsGlobal
-(
-)
 nsGkAtoms
 :
 :

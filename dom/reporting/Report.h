@@ -38,9 +38,6 @@ nsWrapperCache
 .
 h
 "
-class
-nsIGlobalObject
-;
 namespace
 mozilla
 {
@@ -68,9 +65,9 @@ Report
 )
 Report
 (
-nsIGlobalObject
+nsPIDOMWindowInner
 *
-aGlobal
+aWindow
 const
 nsAString
 &
@@ -111,7 +108,7 @@ aGivenProto
 )
 override
 ;
-nsIGlobalObject
+nsPIDOMWindowInner
 *
 GetParentObject
 (
@@ -119,7 +116,7 @@ GetParentObject
 const
 {
 return
-mGlobal
+mWindow
 ;
 }
 void
@@ -156,9 +153,9 @@ Report
 ;
 nsCOMPtr
 <
-nsIGlobalObject
+nsPIDOMWindowInner
 >
-mGlobal
+mWindow
 ;
 const
 nsString

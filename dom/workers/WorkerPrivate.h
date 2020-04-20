@@ -2379,6 +2379,10 @@ GetResolvedScriptURI
 )
 const
 {
+AssertIsOnMainThread
+(
+)
+;
 return
 mLoadInfo
 .
