@@ -521,6 +521,9 @@ nsISupports
 >
 mWrappedJS
 ;
+nsCString
+mCName
+;
 nsString
 mName
 ;
