@@ -6,6 +6,11 @@ define
 nsFlexContainerFrame_h___
 #
 include
+<
+tuple
+>
+#
+include
 "
 mozilla
 /
@@ -930,7 +935,14 @@ FlexboxAxisTracker
 aAxisTracker
 )
 ;
-void
+std
+:
+:
+tuple
+<
+nscoord
+bool
+>
 ReflowChildren
 (
 const
