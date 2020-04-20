@@ -3077,6 +3077,14 @@ build_TryDestructuring
 BytecodeLocation
 )
 {
+graph
+(
+)
+.
+setHasTryBlock
+(
+)
+;
 return
 true
 ;
