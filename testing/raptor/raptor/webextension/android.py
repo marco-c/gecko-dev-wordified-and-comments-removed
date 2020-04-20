@@ -851,6 +851,21 @@ config
 enable_webrender
 "
 ]
+            
+"
+-
+-
+es
+"
+"
+env3
+"
+            
+"
+MOZ_CRASHREPORTER_SHUTDOWN
+=
+1
+"
         
 ]
         

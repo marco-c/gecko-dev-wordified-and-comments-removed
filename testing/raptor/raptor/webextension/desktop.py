@@ -186,6 +186,21 @@ symbols_path
         
 )
         
+self
+.
+runner
+.
+env
+[
+"
+MOZ_CRASHREPORTER_SHUTDOWN
+"
+]
+=
+"
+1
+"
+        
 if
 self
 .
