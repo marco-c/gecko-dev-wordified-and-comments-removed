@@ -205,5 +205,14 @@ forget
 )
 ;
 }
+void
+Texture
+:
+:
+Destroy
+(
+)
+{
+}
 }
 }

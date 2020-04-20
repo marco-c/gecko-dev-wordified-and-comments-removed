@@ -825,5 +825,14 @@ reset
 )
 ;
 }
+void
+Buffer
+:
+:
+Destroy
+(
+)
+{
+}
 }
 }

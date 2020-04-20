@@ -211,6 +211,11 @@ ErrorResult
 aRv
 )
 ;
+void
+Destroy
+(
+)
+;
 }
 ;
 }

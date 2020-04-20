@@ -1448,8 +1448,6 @@ unmap
 (
 )
 ;
-/
-/
 void
 destroy
 (
@@ -1777,8 +1775,6 @@ descriptor
 }
 )
 ;
-/
-/
 void
 destroy
 (
@@ -3037,13 +3033,17 @@ depthCompare
 always
 "
 ;
-required
 GPUStencilStateFaceDescriptor
 stencilFront
+=
+{
+}
 ;
-required
 GPUStencilStateFaceDescriptor
 stencilBack
+=
+{
+}
 ;
 u32
 stencilReadMask
