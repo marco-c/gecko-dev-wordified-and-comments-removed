@@ -357,13 +357,6 @@ null
 selectorFactory
 )
 ;
-Cu
-.
-permitCPOWsInScope
-(
-this
-)
-;
 const
 kAboutPageRegistrationContentScript
 =
