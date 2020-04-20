@@ -267,13 +267,6 @@ nonIncrementalFactor
 testChangeParam
 (
 "
-avoidInterruptFactor
-"
-)
-;
-testChangeParam
-(
-"
 minEmptyChunkCount
 "
 )

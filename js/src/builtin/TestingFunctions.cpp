@@ -3170,15 +3170,6 @@ true
 _
 (
 "
-avoidInterruptFactor
-"
-JSGC_AVOID_INTERRUPT_FACTOR
-true
-)
-\
-_
-(
-"
 minEmptyChunkCount
 "
 JSGC_MIN_EMPTY_CHUNK_COUNT
