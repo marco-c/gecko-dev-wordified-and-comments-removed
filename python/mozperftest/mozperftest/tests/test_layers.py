@@ -3,18 +3,18 @@ mozunit
 from
 mozperftest
 .
-base
+layers
 import
-MachEnvironment
-MultipleMachEnvironment
+Layer
+Layers
 from
 mock
 import
 MagicMock
 class
-Env
+TestLayer
 (
-MachEnvironment
+Layer
 )
 :
     
@@ -50,7 +50,7 @@ called
 =
 1
 def
-test_mach_environement
+test_layer
 (
 )
 :
@@ -61,16 +61,23 @@ MagicMock
 (
 )
     
-with
-Env
+env
+=
+MagicMock
 (
+)
+    
+with
+TestLayer
+(
+env
 mach
 )
 as
-env
+layer
 :
         
-env
+layer
 .
 info
 (
@@ -79,7 +86,7 @@ info
 "
 )
         
-env
+layer
 .
 debug
 (
@@ -89,14 +96,14 @@ debug
 )
     
 assert
-env
+layer
 .
 called
 =
 =
 2
 def
-test_multiple_mach_environement
+test_layers
 (
 )
 :
@@ -110,22 +117,29 @@ MagicMock
 factories
 =
 [
-Env
-Env
-Env
+TestLayer
+TestLayer
+TestLayer
 ]
     
-with
-MultipleMachEnvironment
+env
+=
+MagicMock
 (
+)
+    
+with
+Layers
+(
+env
 mach
 factories
 )
 as
-env
+layers
 :
         
-env
+layers
 .
 info
 (
@@ -134,7 +148,7 @@ info
 "
 )
         
-env
+layers
 .
 debug
 (
@@ -144,15 +158,13 @@ debug
 )
     
 for
-env
+layer
 in
-env
-.
-envs
+layers
 :
         
 assert
-env
+layer
 .
 called
 =

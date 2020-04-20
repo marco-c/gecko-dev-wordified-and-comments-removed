@@ -1,9 +1,9 @@
 from
 mozperftest
 .
-base
+layers
 import
-MachEnvironment
+Layer
 from
 mozperftest
 .
@@ -23,7 +23,7 @@ filter_metrics
 class
 ConsoleOutput
 (
-MachEnvironment
+Layer
 )
 :
     
@@ -60,7 +60,7 @@ flag
 isn
 '
 t
-providec
+provided
 then
 the
         
@@ -164,7 +164,7 @@ warning
             
 output
 =
-metadata
+self
 .
 get_arg
 (
@@ -175,7 +175,7 @@ output
             
 prefix
 =
-metadata
+self
 .
 get_arg
 (
@@ -229,7 +229,7 @@ results
 filter_metrics
 (
 results
-metadata
+self
 .
 get_arg
 (

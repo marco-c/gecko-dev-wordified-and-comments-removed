@@ -27,10 +27,10 @@ get_perftest_parser
 from
 mozperftest
 import
-get_parser
+PerftestArgumentParser
     
 return
-get_parser
+PerftestArgumentParser
 CommandProvider
 class
 Perftest
@@ -115,24 +115,30 @@ kwargs
 from
 mozperftest
 import
-get_env
-get_metadata
+MachEnvironment
+Metadata
         
-system
-browser
-metrics
-=
-get_env
-(
-self
-flavor
+kwargs
+[
+"
 test_objects
-resolve_tests
-)
-        
-metadata
+"
+]
 =
-get_metadata
+test_objects
+        
+kwargs
+[
+"
+resolve_tests
+"
+]
+=
+resolve_tests
+        
+env
+=
+MachEnvironment
 (
 self
 flavor
@@ -141,7 +147,7 @@ flavor
 kwargs
 )
         
-metadata
+env
 .
 run_hook
 (
@@ -152,7 +158,7 @@ before_cycles
         
 cycles
 =
-metadata
+env
 .
 get_arg
 (
@@ -160,6 +166,15 @@ get_arg
 cycles
 "
 1
+)
+        
+metadata
+=
+Metadata
+(
+self
+env
+flavor
 )
         
 try
@@ -178,19 +193,16 @@ cycles
 :
                 
 with
-metadata
+env
 .
 frozen
 (
 )
 as
-m
-system
-browser
-metrics
+e
 :
                     
-m
+e
 .
 run_hook
 (
@@ -205,21 +217,17 @@ cycle
 try
 :
                         
-metrics
+e
+.
+run
 (
-browser
-(
-system
-(
-m
-)
-)
+metadata
 )
                     
 finally
 :
                         
-m
+e
 .
 run_hook
 (
@@ -234,7 +242,7 @@ cycle
 finally
 :
             
-metadata
+env
 .
 run_hook
 (

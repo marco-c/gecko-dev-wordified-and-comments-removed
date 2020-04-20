@@ -11,9 +11,9 @@ mozpath
 from
 mozperftest
 .
-base
+layers
 import
-MachEnvironment
+Layer
 from
 mozperftest
 .
@@ -23,14 +23,21 @@ silence
 class
 NodeRunner
 (
-MachEnvironment
+Layer
 )
 :
+    
+name
+=
+"
+node
+"
     
 def
 __init__
 (
 self
+env
 mach_cmd
 )
 :
@@ -43,6 +50,7 @@ self
 .
 __init__
 (
+env
 mach_cmd
 )
         

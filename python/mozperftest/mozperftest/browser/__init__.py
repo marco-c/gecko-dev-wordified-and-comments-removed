@@ -7,8 +7,19 @@ browsertime
 import
 BrowsertimeRunner
 def
+get_layers
+(
+)
+:
+    
+return
+(
+BrowsertimeRunner
+)
+def
 pick_browser
 (
+env
 flavor
 mach_cmd
 )
@@ -26,6 +37,7 @@ script
 return
 BrowsertimeRunner
 (
+env
 mach_cmd
 )
     

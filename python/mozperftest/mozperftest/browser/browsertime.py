@@ -426,10 +426,25 @@ NodeRunner
 )
 :
     
+name
+=
+"
+browsertime
+(
+%
+s
+)
+"
+%
+NodeRunner
+.
+name
+    
 def
 __init__
 (
 self
+env
 mach_cmd
 )
 :
@@ -442,6 +457,7 @@ self
 .
 __init__
 (
+env
 mach_cmd
 )
         
@@ -2588,7 +2604,7 @@ metadata
         
 test_script
 =
-metadata
+self
 .
 get_arg
 (
@@ -2602,7 +2618,7 @@ tests
         
 output
 =
-metadata
+self
 .
 get_arg
 (
@@ -2722,11 +2738,6 @@ profile
             
 "
 -
-vvv
-"
-            
-"
--
 -
 iterations
 "
@@ -2739,9 +2750,30 @@ test_script
         
 ]
         
+if
+self
+.
+get_arg
+(
+"
+verbose
+"
+)
+:
+            
+args
++
+=
+[
+"
+-
+vvv
+"
+]
+        
 extra_options
 =
-metadata
+self
 .
 get_arg
 (
