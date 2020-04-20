@@ -69,8 +69,6 @@ AnimationState
 :
 UpdateState
 (
-bool
-aAnimationFinished
 RasterImage
 *
 aImage
@@ -115,7 +113,6 @@ return
 UpdateStateInternal
 (
 result
-aAnimationFinished
 aSize
 aAllowInvalidation
 )
@@ -134,8 +131,6 @@ UpdateStateInternal
 LookupResult
 &
 aResult
-bool
-aAnimationFinished
 const
 gfx
 :
@@ -292,9 +287,6 @@ aAllowInvalidation
 if
 (
 mIsCurrentlyDecoded
-|
-|
-aAnimationFinished
 )
 {
 if
@@ -1347,8 +1339,6 @@ const
 TimeStamp
 &
 aTime
-bool
-aAnimationFinished
 )
 {
 RefreshResult
@@ -1409,7 +1399,6 @@ aState
 UpdateStateInternal
 (
 result
-aAnimationFinished
 mSize
 )
 ;
