@@ -355,10 +355,6 @@ aOrientation
 SourceSurface
 *
 aSurface
-const
-nsIntSize
-&
-aSize
 )
 ;
 protected
