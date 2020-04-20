@@ -1750,6 +1750,7 @@ StrongRuleNode
 p
 }
 }
+unsafe
 fn
 downgrade
 (
@@ -1760,8 +1761,6 @@ self
 >
 WeakRuleNode
 {
-unsafe
-{
 WeakRuleNode
 :
 :
@@ -1771,7 +1770,6 @@ self
 .
 p
 )
-}
 }
 pub
 fn
@@ -2002,11 +2000,14 @@ move
 let
 root
 =
+unsafe
+{
 root
 .
 downgrade
 (
 )
+}
 ;
 let
 strong
@@ -2041,11 +2042,14 @@ level
 let
 weak
 =
+unsafe
+{
 strong
 .
 downgrade
 (
 )
+}
 ;
 mem
 :
