@@ -123,6 +123,12 @@ use
 std
 :
 :
+cmp
+;
+use
+std
+:
+:
 fmt
 :
 :
@@ -130,12 +136,6 @@ fmt
 self
 Write
 }
-;
-use
-std
-:
-:
-cmp
 ;
 use
 style_traits
@@ -1629,7 +1629,6 @@ LengthPercentage
 )
 =
 >
-{
 match
 NoCalcLength
 :
@@ -1683,7 +1682,6 @@ UnspecifiedError
 )
 )
 }
-}
 (
 &
 Token
@@ -1745,6 +1743,7 @@ Err
 )
 =
 >
+{
 Err
 (
 location
@@ -1757,6 +1756,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 }
 (
@@ -1820,6 +1820,7 @@ Err
 )
 =
 >
+{
 Err
 (
 location
@@ -1832,6 +1833,7 @@ StyleParseErrorKind
 UnspecifiedError
 )
 )
+}
 }
 }
 (
@@ -2932,7 +2934,6 @@ resolve
 |
 leaf
 |
-{
 match
 *
 leaf
@@ -2963,7 +2964,6 @@ Err
 (
 )
 )
-}
 }
 )
 ?
@@ -3004,7 +3004,6 @@ resolve
 |
 leaf
 |
-{
 match
 *
 leaf
@@ -3035,7 +3034,6 @@ Err
 (
 )
 )
-}
 }
 )
 ?
@@ -3073,7 +3071,6 @@ resolve
 |
 leaf
 |
-{
 match
 *
 leaf
@@ -3100,7 +3097,6 @@ Err
 )
 )
 }
-}
 )
 }
 fn
@@ -3125,7 +3121,6 @@ resolve
 |
 leaf
 |
-{
 match
 *
 leaf
@@ -3151,7 +3146,6 @@ Err
 (
 )
 )
-}
 }
 )
 }

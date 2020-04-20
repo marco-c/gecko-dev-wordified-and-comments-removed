@@ -1161,6 +1161,7 @@ visible
 enabled
 "
 )
+;
 }
 !
 self
