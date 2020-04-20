@@ -52534,7 +52534,7 @@ MOZ_PROFILE_GENERATE
 )
 value
 :
-1
+2
 #
 else
 value
