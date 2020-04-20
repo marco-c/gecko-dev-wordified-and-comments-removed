@@ -756,6 +756,9 @@ GuardIsExtensible
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -766,6 +769,9 @@ name
 :
 GuardIsNativeObject
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -780,6 +786,9 @@ GuardIsProxy
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -792,6 +801,9 @@ GuardHasProxyHandler
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -805,6 +817,9 @@ name
 :
 GuardNotDOMProxy
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands

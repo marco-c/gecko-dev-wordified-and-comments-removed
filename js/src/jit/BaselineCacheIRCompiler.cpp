@@ -1658,6 +1658,10 @@ BaselineCacheIRCompiler
 :
 emitGuardHasProxyHandler
 (
+ObjOperandId
+objId
+uint32_t
+handlerOffset
 )
 {
 JitSpew
@@ -1678,11 +1682,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 AutoScratchRegister
@@ -1715,11 +1715,7 @@ testAddr
 (
 stubAddress
 (
-reader
-.
-stubOffset
-(
-)
+handlerOffset
 )
 )
 ;

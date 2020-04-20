@@ -4051,6 +4051,10 @@ IonCacheIRCompiler
 :
 emitGuardHasProxyHandler
 (
+ObjOperandId
+objId
+uint32_t
+handlerOffset
 )
 {
 JitSpew
@@ -4071,11 +4075,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 const
@@ -4085,11 +4085,7 @@ handler
 =
 proxyHandlerStubField
 (
-reader
-.
-stubOffset
-(
-)
+handlerOffset
 )
 ;
 FailurePath

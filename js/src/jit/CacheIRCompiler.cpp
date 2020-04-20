@@ -11139,6 +11139,8 @@ CacheIRCompiler
 :
 emitGuardIsExtensible
 (
+ObjOperandId
+objId
 )
 {
 JitSpew
@@ -11159,11 +11161,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 AutoScratchRegister
@@ -11617,6 +11615,8 @@ CacheIRCompiler
 :
 emitGuardIsNativeObject
 (
+ObjOperandId
+objId
 )
 {
 JitSpew
@@ -11637,11 +11637,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 AutoScratchRegister
@@ -11693,6 +11689,8 @@ CacheIRCompiler
 :
 emitGuardIsProxy
 (
+ObjOperandId
+objId
 )
 {
 JitSpew
@@ -11713,11 +11711,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 AutoScratchRegister
@@ -11770,6 +11764,8 @@ CacheIRCompiler
 :
 emitGuardNotDOMProxy
 (
+ObjOperandId
+objId
 )
 {
 JitSpew
@@ -11790,11 +11786,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-objOperandId
-(
-)
+objId
 )
 ;
 AutoScratchRegister
