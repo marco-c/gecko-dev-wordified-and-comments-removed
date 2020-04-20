@@ -24903,7 +24903,9 @@ gfx
 .
 vsync
 .
-use
+force
+-
+disable
 -
 waitforvblank
 type
