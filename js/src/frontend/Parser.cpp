@@ -1227,6 +1227,8 @@ sourceObject
 tokenStream
 (
 cx
+&
+compilationInfo
 options
 units
 length

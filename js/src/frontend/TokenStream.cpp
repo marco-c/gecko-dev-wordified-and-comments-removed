@@ -2764,6 +2764,9 @@ TokenStreamCharsBase
 JSContext
 *
 cx
+CompilationInfo
+*
+compilationInfo
 const
 Unit
 *
@@ -2777,6 +2780,7 @@ startOffset
 TokenStreamCharsShared
 (
 cx
+compilationInfo
 )
 sourceUnits
 (
@@ -3131,6 +3135,9 @@ TokenStreamSpecific
 JSContext
 *
 cx
+CompilationInfo
+*
+compilationInfo
 const
 ReadOnlyCompileOptions
 &
@@ -3150,6 +3157,7 @@ AnyCharsAccess
 >
 (
 cx
+compilationInfo
 units
 length
 options

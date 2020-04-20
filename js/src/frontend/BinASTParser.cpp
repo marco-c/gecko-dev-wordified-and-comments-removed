@@ -18190,14 +18190,11 @@ dummyOptions
 cx_
 )
 ;
-TokenStream
+DummyTokenStream
 dummyTokenStream
 (
 cx_
 dummyOptions
-nullptr
-0
-nullptr
 )
 ;
 LifoAllocScope
