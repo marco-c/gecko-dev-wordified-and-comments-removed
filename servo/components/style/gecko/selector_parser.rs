@@ -128,12 +128,7 @@ selectors
 parser
 :
 :
-{
-self
-as
-selector_parser
-Selector
-}
+SelectorParseErrorKind
 ;
 use
 selectors
@@ -142,7 +137,12 @@ selectors
 parser
 :
 :
-SelectorParseErrorKind
+{
+self
+as
+selector_parser
+Selector
+}
 ;
 use
 selectors
