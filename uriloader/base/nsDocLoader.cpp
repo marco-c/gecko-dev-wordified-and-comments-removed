@@ -3143,7 +3143,13 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-false
+dom
+:
+:
+EmbedderElementEventType
+:
+:
+NoEvent
 )
 ;
 }

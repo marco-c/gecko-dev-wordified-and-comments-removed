@@ -9675,7 +9675,10 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-false
+EmbedderElementEventType
+:
+:
+NoEvent
 )
 ;
 }
@@ -15109,7 +15112,10 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-false
+EmbedderElementEventType
+:
+:
+NoEvent
 )
 ;
 }

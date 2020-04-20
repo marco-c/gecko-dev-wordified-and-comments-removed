@@ -20997,8 +20997,8 @@ BrowserParent
 :
 RecvMaybeFireEmbedderLoadEvents
 (
-bool
-aFireLoadAtEmbeddingElement
+EmbedderElementEventType
+aFireEventAtEmbeddingElement
 )
 {
 BrowserBridgeParent
@@ -21042,7 +21042,7 @@ bridge
 >
 SendMaybeFireEmbedderLoadEvents
 (
-aFireLoadAtEmbeddingElement
+aFireEventAtEmbeddingElement
 )
 ;
 return

@@ -8844,7 +8844,10 @@ browserChild
 >
 SendMaybeFireEmbedderLoadEvents
 (
-true
+EmbedderElementEventType
+:
+:
+LoadEvent
 )
 ;
 }

@@ -3178,6 +3178,10 @@ DetermineContentType
 void
 UnblockEmbedderLoadEventForFailure
 (
+bool
+aFireFrameErrorEvent
+=
+false
 )
 ;
 struct

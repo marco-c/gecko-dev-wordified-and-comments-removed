@@ -1213,6 +1213,11 @@ MessageChannel
 aChannel
 )
 ;
+void
+FireErrorEvent
+(
+)
+;
 private
 :
 nsFrameLoader
@@ -1318,11 +1323,6 @@ aURI
 nsIPrincipal
 *
 aTriggeringPrincipal
-)
-;
-void
-FireErrorEvent
-(
 )
 ;
 nsresult
