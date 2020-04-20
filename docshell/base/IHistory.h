@@ -87,7 +87,7 @@ NS_DECLARE_STATIC_IID_ACCESSOR
 IHISTORY_IID
 )
 virtual
-nsresult
+void
 RegisterVisitedCallback
 (
 nsIURI
