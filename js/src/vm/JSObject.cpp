@@ -6545,10 +6545,8 @@ HandleObject
 obj
 Handle
 <
-js
-:
-:
-TaggedProto
+JSObject
+*
 >
 proto
 )
@@ -6606,7 +6604,7 @@ isNative
 {
 clone
 =
-NewObjectWithGivenTaggedProto
+NewTenuredObjectWithGivenProto
 (
 cx
 obj
@@ -6616,10 +6614,6 @@ getClass
 (
 )
 proto
-NewObjectKind
-:
-:
-TenuredObject
 )
 ;
 if
@@ -6767,7 +6761,10 @@ JS
 :
 :
 NullHandleValue
+AsTaggedProto
+(
 proto
+)
 obj
 -
 >
