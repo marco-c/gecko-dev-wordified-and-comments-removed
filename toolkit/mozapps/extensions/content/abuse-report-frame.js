@@ -1303,6 +1303,11 @@ value
 if
 (
 ABUSE_REPORT_ENABLED
+&
+&
+AbuseReporter
+.
+openDialogDisabled
 )
 {
 customElements
