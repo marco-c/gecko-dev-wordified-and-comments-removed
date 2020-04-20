@@ -1,3 +1,7 @@
+from
+__future__
+import
+print_function
 import
 buildconfig
 import
@@ -15,19 +19,11 @@ shutil
 import
 textwrap
 import
-fnmatch
-import
 subprocess
 import
 time
 import
 ctypes
-import
-concurrent
-.
-futures
-import
-multiprocessing
 from
 optparse
 import
@@ -515,7 +511,7 @@ re
 compile
 (
 r
-'
+"
 ^
 \
 S
@@ -541,7 +537,7 @@ s
 S
 +
 )
-'
+"
 )
 def
 read_output
@@ -610,9 +606,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_SOURCE_CHANGESET
-'
+"
 )
         
 if
@@ -624,19 +620,18 @@ rev
 =
 read_output
 (
-'
+"
 hg
-'
-'
+"
+"
 -
 R
-'
+"
 path
-                              
-'
+"
 parent
-'
-'
+"
+"
 -
 -
 template
@@ -644,7 +639,7 @@ template
 {
 node
 }
-'
+"
 )
         
 hg_root
@@ -655,9 +650,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_SOURCE_REPO
-'
+"
 )
         
 if
@@ -675,23 +670,22 @@ root
 =
 read_output
 (
-'
+"
 hg
-'
-'
+"
+"
 -
 R
-'
+"
 path
-                               
-'
+"
 showconfig
-'
-'
+"
+"
 paths
 .
 default
-'
+"
 )
             
 if
@@ -755,9 +749,9 @@ cleanroot
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                     
@@ -778,10 +772,12 @@ None
             
 print
 (
+                
 textwrap
 .
 dedent
 (
+                    
 "
 "
 "
@@ -824,13 +820,15 @@ corrupt
 "
 "
 "
+                
 )
 %
 path
-                  
+                
 sys
 .
 stderr
+            
 )
             
 sys
@@ -1101,9 +1099,9 @@ cleanroot
 .
 endswith
 (
-'
+"
 /
-'
+"
 )
 :
                     
@@ -1124,10 +1122,12 @@ None
             
 print
 (
+                
 textwrap
 .
 dedent
 (
+                    
 "
 "
 "
@@ -1174,18 +1174,21 @@ corrupt
 "
 "
 "
+                
 )
+                
 %
 (
 path
 root
 )
-                  
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 sys
@@ -1368,9 +1371,9 @@ system
 )
 =
 =
-'
+"
 Windows
-'
+"
 :
     
 def
@@ -1380,9 +1383,9 @@ path
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Normalize
 a
@@ -1438,9 +1441,9 @@ the
 path
 .
         
-'
-'
-'
+"
+"
+"
         
 result
 =
@@ -1506,11 +1509,8 @@ kernel32
 GetFinalPathNameByHandleW
 (
 handle
-                                                                    
 None
-                                                                    
 0
-                                                                    
 0
 )
             
@@ -1524,6 +1524,8 @@ size
 )
             
 if
+(
+                
 ctypes
 .
 windll
@@ -1533,15 +1535,15 @@ kernel32
 GetFinalPathNameByHandleW
 (
 handle
-                                                                
 buf
-                                                                
 size
-                                                                
 0
 )
+                
 >
 0
+            
+)
 :
                 
 result
@@ -1645,10 +1647,10 @@ path
 join
 (
 srcdir
-'
+"
 .
 hg
-'
+"
 )
 )
 :
@@ -1813,14 +1815,14 @@ if
 path
 =
 =
-'
-'
+"
+"
 or
 filename
 =
 =
-'
-'
+"
+"
 :
         
 return
@@ -1835,8 +1837,8 @@ None
     
 root
 =
-'
-'
+"
+"
     
 if
 file
@@ -1948,8 +1950,8 @@ arg
 .
 split
 (
-'
-'
+"
+"
 )
         
 if
@@ -2020,13 +2022,12 @@ IOError
 errno
 .
 ENOENT
-'
+"
 Manifest
 file
 not
 found
-'
-                          
+"
 manifest_file
 )
         
@@ -2048,13 +2049,12 @@ IOError
 errno
 .
 ENOENT
-'
+"
 Install
 directory
 not
 found
-'
-                          
+"
 destination
 )
         
@@ -2078,13 +2078,12 @@ IOError
 errno
 .
 EINVAL
-'
+"
 Error
 parsing
 manifest
 file
-'
-                          
+"
 manifest_file
 )
         
@@ -2154,9 +2153,9 @@ if
 hasattr
 (
 src
-'
+"
 path
-'
+"
 )
 :
                 
@@ -2231,9 +2230,9 @@ with
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -2252,7 +2251,7 @@ read
 )
         
 return
-'
+"
 s3
 :
 {
@@ -2263,7 +2262,7 @@ bucket
 path
 }
 :
-'
+"
 .
 format
 (
@@ -2312,33 +2311,33 @@ platform
     
 return
 {
-'
+"
 WINNT
-'
+"
 :
 Dumper_Win32
-            
-'
+"
 Linux
-'
+"
 :
 Dumper_Linux
-            
-'
+"
 Darwin
-'
+"
 :
 Dumper_Mac
 }
 [
+        
 buildconfig
 .
 substs
 [
-'
+"
 OS_ARCH
-'
+"
 ]
+    
 ]
 (
 *
@@ -2396,8 +2395,6 @@ pdbStreamFile
 write
 (
 '
-'
-'
 SRCSRV
 :
 ini
@@ -2451,6 +2448,10 @@ ini
 -
 \
 r
+'
+                        
++
+'
 \
 nVERSION
 =
@@ -2463,12 +2464,20 @@ nINDEXVERSION
 2
 \
 r
+'
+                        
++
+'
 \
 nVERCTRL
 =
 http
 \
 r
+'
+                        
++
+'
 \
 nSRCSRV
 :
@@ -2517,11 +2526,13 @@ variables
 -
 \
 r
+'
+                        
++
+'
 \
 nHGSERVER
 =
-'
-'
 '
 )
     
@@ -2537,8 +2548,6 @@ pdbStreamFile
 write
 (
 '
-'
-'
 \
 r
 \
@@ -2547,6 +2556,10 @@ nSRCSRVVERCTRL
 http
 \
 r
+'
+                        
++
+'
 \
 nHTTP_EXTRACT_TARGET
 =
@@ -2567,6 +2580,10 @@ var2
 %
 \
 r
+'
+                        
++
+'
 \
 nSRCSRVTRG
 =
@@ -2575,6 +2592,10 @@ http_extract_target
 %
 \
 r
+'
+                        
++
+'
 \
 nSRCSRV
 :
@@ -2639,6 +2660,7 @@ pdbStreamFile
 .
 write
 (
+        
 "
 SRCSRV
 :
@@ -2698,6 +2720,7 @@ n
 \
 n
 "
+    
 )
     
 pdbStreamFile
@@ -2889,42 +2912,46 @@ srcdirRepoInfo
 def
 __init__
 (
+        
 self
+        
 dump_syms
+        
 symbol_path
-                 
+        
 archs
 =
 None
-                 
+        
 srcdirs
 =
 [
 ]
-                 
+        
 copy_debug
 =
 False
-                 
+        
 vcsinfo
 =
 False
-                 
+        
 srcsrv
 =
 False
-                 
+        
 generated_files
 =
 None
-                 
+        
 s3_bucket
 =
 None
-                 
+        
 file_mapping
 =
 None
+    
 )
 :
         
@@ -2958,8 +2985,8 @@ self
 archs
 =
 [
-'
-'
+"
+"
 ]
         
 else
@@ -2970,12 +2997,12 @@ self
 archs
 =
 [
-'
+"
 -
 a
 %
 s
-'
+"
 %
 a
 for
@@ -3051,18 +3078,18 @@ buildconfig
 .
 substs
 [
-'
+"
 RUSTC_COMMIT
-'
+"
 ]
         
 rust_srcdir
 =
-'
+"
 /
 rustc
 /
-'
+"
 +
 rust_sha
         
@@ -3084,11 +3111,10 @@ rust_srcdir
 =
 GitRepoInfo
 (
+            
 rust_srcdir
-                                                         
 rust_sha
-                                                         
-'
+"
 https
 :
 /
@@ -3103,7 +3129,8 @@ lang
 /
 rust
 /
-'
+"
+        
 )
     
 def
@@ -3145,13 +3172,13 @@ file
 return
 read_output
 (
-'
+"
 file
-'
-'
+"
+"
 -
 Lb
-'
+"
 file
 )
     
@@ -3350,9 +3377,9 @@ environ
 .
 get
 (
-'
+"
 MOZ_SOURCE_REPO
-'
+"
 )
         
 for
@@ -3371,15 +3398,16 @@ self
 .
 ProcessFileWork
 (
+                
 file
 arch_num
 arch
 vcs_root
 dsymbundle
-                                 
 count_ctors
 =
 count_ctors
+            
 )
     
 def
@@ -3394,9 +3422,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Get
 the
@@ -3407,9 +3435,9 @@ invoke
 dump_syms
 .
         
-'
-'
-'
+"
+"
+"
         
 return
 [
@@ -3422,6 +3450,7 @@ file
 def
 ProcessFileWork
 (
+        
 self
 file
 arch_num
@@ -3430,10 +3459,10 @@ vcs_root
 dsymbundle
 =
 None
-                        
 count_ctors
 =
 False
+    
 )
 :
         
@@ -3469,8 +3498,8 @@ stderr
         
 sourceFileStream
 =
-'
-'
+"
+"
         
 code_id
 code_file
@@ -3607,9 +3636,7 @@ path
 join
 (
 debug_file
-                                        
 guid
-                                        
 sym_file
 )
 .
@@ -3641,7 +3668,6 @@ join
 self
 .
 symbol_path
-                                                          
 rel_path
 )
 )
@@ -3780,17 +3806,19 @@ filename
 =
 get_generated_file_s3_path
 (
+                                    
 filename
 gen_path
 self
 .
 s3_bucket
+                                
 )
                                 
 rootname
 =
-'
-'
+"
+"
                             
 else
 :
@@ -3802,10 +3830,12 @@ rootname
 =
 GetVCSFilename
 (
+                                    
 filename
 self
 .
 srcdirs
+                                
 )
                             
 if
@@ -3813,11 +3843,11 @@ vcs_root
 is
 None
 :
-                              
+                                
 if
 rootname
 :
-                                 
+                                    
 vcs_root
 =
 rootname
@@ -3844,10 +3874,12 @@ filename
 .
 split
 (
+                                
 "
 :
 "
 3
+                            
 )
                             
 sourceFileStream
@@ -3860,10 +3892,13 @@ sourcepath
 "
 +
 source_file
+                            
+sourceFileStream
 +
-'
+=
+"
 *
-'
+"
 +
 revision
 +
@@ -3963,9 +3998,9 @@ FUNC
 :
                             
 if
-'
+"
 _GLOBAL__sub_
-'
+"
 in
 line
 :
@@ -4022,7 +4057,6 @@ retcode
 raise
 RuntimeError
 (
-                        
 "
 dump_syms
 failed
@@ -4053,10 +4087,12 @@ self
 .
 SourceServerIndexing
 (
+                        
 debug_file
 guid
 sourceFileStream
 vcs_root
+                    
 )
                 
 if
@@ -4077,7 +4113,6 @@ CopyDebug
 file
 debug_file
 guid
-                                   
 code_file
 code_id
 )
@@ -4158,8 +4193,9 @@ suites
 "
 :
 [
-{
                     
+{
+                        
 "
 name
 "
@@ -4167,14 +4203,15 @@ name
 "
 compiler_metrics
 "
-                    
+                        
 "
 subtests
 "
 :
 [
+                            
 {
-                        
+                                
 "
 name
 "
@@ -4182,13 +4219,13 @@ name
 "
 num_static_constructors
 "
-                        
+                                
 "
 value
 "
 :
 ctors
-                        
+                                
 "
 alertChangeType
 "
@@ -4196,15 +4233,17 @@ alertChangeType
 "
 absolute
 "
-                        
+                                
 "
 alertThreshold
 "
 :
 3
-                    
+                            
 }
+                        
 ]
+                    
 }
                 
 ]
@@ -4219,11 +4258,11 @@ environ
 .
 get
 (
-'
+"
 PERFHERDER_EXTRA_OPTIONS
-'
-'
-'
+"
+"
+"
 )
             
 for
@@ -4241,9 +4280,9 @@ suite
 in
 perfherder_data
 [
-'
+"
 suites
-'
+"
 ]
 :
                     
@@ -4255,9 +4294,9 @@ suite
 .
 get
 (
-'
+"
 extraOptions
-'
+"
 [
 ]
 )
@@ -4267,9 +4306,9 @@ suite
 .
 setdefault
 (
-'
+"
 extraOptions
-'
+"
 [
 ]
 )
@@ -4280,9 +4319,9 @@ opt
 )
             
 if
-'
+"
 asan
-'
+"
 not
 in
 perfherder_extra_options
@@ -4294,12 +4333,13 @@ lower
                 
 print
 (
-'
+                    
+"
 PERFHERDER_DATA
 :
 %
 s
-'
+"
 %
 json
 .
@@ -4307,12 +4347,12 @@ dumps
 (
 perfherder_data
 )
-                    
 file
 =
 sys
 .
 stderr
+                
 )
         
 elapsed
@@ -4327,7 +4367,7 @@ t_start
         
 print
 (
-'
+"
 Finished
 processing
 %
@@ -4336,13 +4376,12 @@ in
 %
 .
 2fs
-'
+"
 %
 (
 file
 elapsed
 )
-              
 file
 =
 sys
@@ -4356,9 +4395,9 @@ path
 )
 :
     
-'
-'
-'
+"
+"
+"
 Given
 a
 path
@@ -4428,9 +4467,9 @@ be
 located
 .
     
-'
-'
-'
+"
+"
+"
     
 path
 ext
@@ -4448,10 +4487,10 @@ pdb
 =
 path
 +
-'
+"
 .
 pdb
-'
+"
     
 if
 os
@@ -4634,9 +4673,9 @@ path
 1
 ]
 +
-'
+"
 _
-'
+"
             
 makecab
 =
@@ -4644,9 +4683,9 @@ buildconfig
 .
 substs
 [
-'
+"
 MAKECAB
-'
+"
 ]
             
 wine
@@ -4657,9 +4696,9 @@ substs
 .
 get
 (
-'
+"
 WINE
-'
+"
 )
             
 if
@@ -4673,10 +4712,10 @@ lower
 .
 endswith
 (
-'
+"
 .
 exe
-'
+"
 )
 :
                 
@@ -4726,15 +4765,17 @@ open
 os
 .
 devnull
-'
+"
 w
-'
+"
 )
+                
 stderr
 =
 subprocess
 .
 STDOUT
+            
 )
             
 if
@@ -4775,9 +4816,7 @@ path
 join
 (
 debug_file
-                                
 guid
-                                
 debug_file
 )
 .
@@ -4809,7 +4848,6 @@ join
 self
 .
 symbol_path
-                                                  
 rel_path
 )
 )
@@ -4838,9 +4876,9 @@ rel_path
 1
 ]
 +
-'
+"
 _
-'
+"
 )
         
 else
@@ -4873,7 +4911,6 @@ dirname
 (
 file
 )
-                                          
 code_file
 )
             
@@ -4897,14 +4934,13 @@ path
 join
 (
 code_file
-                                        
 code_id
-                                        
 code_file
 )
 .
 replace
 (
+                    
 "
 \
 \
@@ -4912,6 +4948,7 @@ replace
 "
 /
 "
+                
 )
                 
 full_path
@@ -4931,7 +4968,6 @@ join
 self
 .
 symbol_path
-                                                          
 rel_path
 )
 )
@@ -4996,9 +5032,9 @@ rel_path
 1
 ]
 +
-'
+"
 _
-'
+"
 )
                 
 else
@@ -5074,9 +5110,9 @@ substs
 .
 get
 (
-'
+"
 WINE
-'
+"
 )
             
 if
@@ -5103,13 +5139,17 @@ subprocess
 .
 call
 (
+                
 cmd
+                
 +
 [
+                    
 "
 -
 w
 "
+                    
 "
 -
 p
@@ -5124,7 +5164,7 @@ basename
 (
 debug_file
 )
-                             
+                    
 "
 -
 i
@@ -5139,14 +5179,16 @@ basename
 (
 streamFilename
 )
+                    
 "
 -
 s
 :
 srcsrv
 "
+                
 ]
-                            
+                
 cwd
 =
 os
@@ -5157,6 +5199,7 @@ dirname
 (
 stream_output_path
 )
+            
 )
             
 os
@@ -5181,22 +5224,22 @@ os
 .
 environ
 [
-'
+"
 OBJCOPY
-'
+"
 ]
 if
-'
+"
 OBJCOPY
-'
+"
 in
 os
 .
 environ
 else
-'
+"
 objcopy
-'
+"
     
 def
 ShouldProcess
@@ -5317,6 +5360,8 @@ dbg
 "
         
 if
+(
+            
 subprocess
 .
 call
@@ -5325,7 +5370,7 @@ call
 self
 .
 objcopy
-'
+"
 -
 -
 only
@@ -5333,7 +5378,7 @@ only
 keep
 -
 debug
-'
+"
 file
 file_dbg
 ]
@@ -5341,30 +5386,33 @@ file_dbg
 =
 =
 0
+            
 and
-\
-           
 subprocess
 .
 call
 (
+                
 [
+                    
 self
 .
 objcopy
-'
+                    
+"
 -
 -
 remove
 -
 section
-'
-'
+"
+                    
+"
 .
 gnu_debuglink
-'
-                            
-'
+"
+                    
+"
 -
 -
 add
@@ -5375,15 +5423,21 @@ debuglink
 =
 %
 s
-'
+"
 %
 file_dbg
+                    
 file
+                
 ]
+            
 )
+            
 =
 =
 0
+        
+)
 :
             
 rel_path
@@ -5395,9 +5449,7 @@ path
 join
 (
 debug_file
-                                    
 guid
-                                    
 debug_file
 +
 "
@@ -5423,7 +5475,6 @@ join
 self
 .
 symbol_path
-                                                      
 rel_path
 )
 )
@@ -5540,17 +5591,17 @@ output
 .
 split
 (
-'
+"
 \
 t
-'
+"
 )
 [
 1
 ]
-;
         
 except
+Exception
 :
             
 return
@@ -5788,7 +5839,6 @@ s
 "
 %
 file
-              
 file
 =
 sys
@@ -5813,15 +5863,16 @@ Dumper
 .
 ProcessFile
 (
+                
 self
 file
 dsymbundle
 =
 dsymbundle
-                               
 count_ctors
 =
 count_ctors
+            
 )
     
 def
@@ -5836,9 +5887,9 @@ None
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Get
 the
@@ -5849,9 +5900,9 @@ invoke
 dump_syms
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 dsymbundle
@@ -5871,10 +5922,10 @@ split
 )
 +
 [
-'
+"
 -
 g
-'
+"
 dsymbundle
 file
 ]
@@ -5965,7 +6016,6 @@ s
 (
 file
 )
-              
 file
 =
 sys
@@ -6006,9 +6056,9 @@ buildconfig
 .
 substs
 [
-'
+"
 DSYMUTIL
-'
+"
 ]
         
 cmd
@@ -6111,14 +6161,14 @@ returncode
 raise
 RuntimeError
 (
-'
+"
 Error
 running
 dsymutil
 :
 %
 s
-'
+"
 %
 dsymerr
 )
@@ -6162,14 +6212,14 @@ return
 False
         
 if
-'
+"
 warning
 :
 no
 debug
 symbols
 in
-'
+"
 in
 dsymerr
 :
@@ -6196,15 +6246,15 @@ path
 join
 (
 dsymbundle
-'
+"
 Contents
-'
-'
+"
+"
 Resources
-'
-'
+"
+"
 DWARF
-'
+"
 )
         
 if
@@ -6221,6 +6271,7 @@ contents_dir
             
 print
 (
+                
 "
 No
 DWARF
@@ -6236,12 +6287,13 @@ s
 (
 dsymbundle
 )
-                  
+                
 file
 =
 sys
 .
 stderr
+            
 )
             
 return
@@ -6282,7 +6334,6 @@ s
 (
 files
 )
-                  
 file
 =
 sys
@@ -6382,7 +6433,7 @@ t_start
         
 print
 (
-'
+"
 Finished
 processing
 %
@@ -6391,13 +6442,12 @@ in
 %
 .
 2fs
-'
+"
 %
 (
 file
 elapsed
 )
-              
 file
 =
 sys
@@ -6497,10 +6547,10 @@ dsymbundle
 =
 file
 +
-'
+"
 .
 dSYM
-'
+"
         
 rel_path
 =
@@ -6510,10 +6560,9 @@ path
 .
 join
 (
+            
 debug_file
-                                
 guid
-                                
 os
 .
 path
@@ -6529,6 +6578,7 @@ tar
 .
 bz2
 "
+        
 )
         
 full_path
@@ -6548,7 +6598,6 @@ join
 self
 .
 symbol_path
-                                                  
 rel_path
 )
 )
@@ -6559,6 +6608,7 @@ subprocess
 .
 call
 (
+            
 [
 "
 tar
@@ -6576,7 +6626,7 @@ basename
 dsymbundle
 )
 ]
-                                  
+            
 cwd
 =
 os
@@ -6587,7 +6637,7 @@ dirname
 (
 dsymbundle
 )
-                                  
+            
 stdout
 =
 open
@@ -6595,15 +6645,17 @@ open
 os
 .
 devnull
-'
+"
 w
-'
+"
 )
+            
 stderr
 =
 subprocess
 .
 STDOUT
+        
 )
         
 if
@@ -6636,6 +6688,7 @@ parser
 =
 OptionParser
 (
+        
 usage
 =
 "
@@ -6661,36 +6714,41 @@ info
 files
 >
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 c
 "
+        
 "
 -
 -
 copy
 "
-                      
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
 copy_debug
 "
+        
 default
 =
 False
-                      
+        
 help
 =
 "
@@ -6707,33 +6765,37 @@ as
 symbol
 files
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 a
 "
+        
 "
 -
 -
 archs
 "
-                      
+        
 action
 =
 "
 store
 "
+        
 dest
 =
 "
 archs
 "
-                      
+        
 help
 =
 "
@@ -6748,6 +6810,10 @@ for
 each
 space
 separated
+"
+        
++
+"
 cpu
 architecture
 in
@@ -6765,31 +6831,35 @@ parser
 .
 add_option
 (
+        
 "
 -
 s
 "
+        
 "
 -
 -
 srcdir
 "
-                      
+        
 action
 =
 "
 append
 "
+        
 dest
 =
 "
 srcdir
 "
+        
 default
 =
 [
 ]
-                      
+        
 help
 =
 "
@@ -6803,16 +6873,19 @@ to
 source
 files
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 v
 "
+        
 "
 -
 -
@@ -6820,18 +6893,19 @@ vcs
 -
 info
 "
-                      
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
 vcsinfo
 "
-                      
+        
 help
 =
 "
@@ -6848,16 +6922,19 @@ in
 the
 output
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 i
 "
+        
 "
 -
 -
@@ -6865,21 +6942,23 @@ source
 -
 index
 "
-                      
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
 srcsrv
 "
+        
 default
 =
 False
-                      
+        
 help
 =
 "
@@ -6893,6 +6972,10 @@ files
 making
 them
 suitable
+"
+        
++
+"
 for
 use
 in
@@ -6901,12 +6984,14 @@ source
 server
 .
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 -
@@ -6914,23 +6999,24 @@ install
 -
 manifest
 "
-                      
+        
 action
 =
 "
 append
 "
+        
 dest
 =
 "
 install_manifests
 "
-                      
+        
 default
 =
 [
 ]
-                      
+        
 help
 =
 "
@@ -6972,12 +7058,14 @@ pair
 "
 "
 "
+    
 )
     
 parser
 .
 add_option
 (
+        
 "
 -
 -
@@ -6985,21 +7073,23 @@ count
 -
 ctors
 "
-                      
+        
 action
 =
 "
 store_true
 "
+        
 dest
 =
 "
 count_ctors
 "
+        
 default
 =
 False
-                      
+        
 help
 =
 "
@@ -7007,6 +7097,7 @@ Count
 static
 initializers
 "
+    
 )
     
 (
@@ -7027,9 +7118,9 @@ srcsrv
 :
         
 if
-'
+"
 PDBSTR
-'
+"
 not
 in
 buildconfig
@@ -7135,6 +7226,7 @@ manifests
 generated_files
 =
 {
+        
 realpath
 (
 os
@@ -7151,7 +7243,7 @@ f
 )
 :
 f
-                       
+        
 for
 (
 f
@@ -7161,6 +7253,7 @@ in
 get_generated_sources
 (
 )
+    
 }
     
 _
@@ -7174,61 +7267,63 @@ dumper
 =
 GetPlatformSpecificDumper
 (
+        
 dump_syms
 =
 args
 [
 0
 ]
-                                       
+        
 symbol_path
 =
 args
 [
 1
 ]
-                                       
+        
 copy_debug
 =
 options
 .
 copy_debug
-                                       
+        
 archs
 =
 options
 .
 archs
-                                       
+        
 srcdirs
 =
 options
 .
 srcdir
-                                       
+        
 vcsinfo
 =
 options
 .
 vcsinfo
-                                       
+        
 srcsrv
 =
 options
 .
 srcsrv
-                                       
+        
 generated_files
 =
 generated_files
-                                       
+        
 s3_bucket
 =
 bucket
-                                       
+        
 file_mapping
 =
 file_mapping
+    
 )
     
 dumper

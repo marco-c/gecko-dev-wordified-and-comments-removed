@@ -1,15 +1,9 @@
 import
-concurrent
-.
-futures
-import
 mock
 import
 mozunit
 import
 os
-import
-platform
 import
 shutil
 import
@@ -63,6 +57,7 @@ wb
 .
 write
 (
+        
 struct
 .
 pack
@@ -71,7 +66,7 @@ pack
 <
 7B45x
 "
-0x7f
+0x7F
 ord
 (
 "
@@ -94,6 +89,7 @@ F
 1
 1
 )
+    
 )
 def
 write_macho
@@ -120,7 +116,7 @@ pack
 <
 I28x
 "
-0xfeedface
+0xFEEDFACE
 )
 )
 def
@@ -185,9 +181,9 @@ buildconfig
 .
 substs
 [
-'
+"
 OS_TARGET
-'
+"
 ]
 def
 host_platform
@@ -200,34 +196,35 @@ buildconfig
 .
 substs
 [
-'
+"
 HOST_OS_ARCH
-'
+"
 ]
 writer
 =
 {
-'
+    
+"
 WINNT
-'
+"
 :
 write_dll
-          
-'
+    
+"
 Linux
-'
+"
 :
 write_elf
-          
-'
+    
+"
 Sunos5
-'
+"
 :
 write_elf
-          
-'
+    
+"
 Darwin
-'
+"
 :
 write_macho
 }
@@ -239,36 +236,33 @@ target_platform
 extension
 =
 {
-'
+"
 WINNT
-'
+"
 :
 "
 .
 dll
 "
-             
-'
+"
 Linux
-'
+"
 :
 "
 .
 so
 "
-             
-'
+"
 Sunos5
-'
+"
 :
 "
 .
 so
 "
-             
-'
+"
 Darwin
-'
+"
 :
 "
 .
@@ -276,6 +270,7 @@ dylib
 "
 }
 [
+    
 target_platform
 (
 )
@@ -283,28 +278,27 @@ target_platform
 file_output
 =
 [
+    
 {
-'
+"
 WINNT
-'
+"
 :
 "
 bogus
 data
 "
-                
-'
+"
 Linux
-'
+"
 :
 "
 ELF
 executable
 "
-                
-'
+"
 Darwin
-'
+"
 :
 "
 Mach
@@ -314,9 +308,11 @@ executable
 "
 }
 [
+        
 target_platform
 (
 )
+    
 ]
 ]
 def
@@ -420,12 +416,12 @@ for
 e
 in
 (
-'
+"
 MOZ_SOURCE_CHANGESET
-'
-'
+"
+"
 MOZ_SOURCE_REPO
-'
+"
 )
 :
             
@@ -535,12 +531,10 @@ with
 open
 (
 path
-'
+"
 wb
-'
+"
 )
-as
-f
 :
             
 pass
@@ -597,6 +591,8 @@ extra
 :
     
 return
+(
+        
 [
 "
 MODULE
@@ -612,13 +608,13 @@ s
 module_id
 filename
 )
-            
 ]
+        
 +
 extra
+        
 +
 [
-            
 "
 FILE
 0
@@ -626,13 +622,14 @@ foo
 .
 c
 "
-            
 "
 PUBLIC
 xyz
 123
 "
 ]
+    
+)
 class
 TestCopyDebug
 (
@@ -773,17 +770,17 @@ communicate
 return_value
 =
 (
-'
+"
 \
 n
-'
+"
 .
 join
 (
 stdout_
 )
-'
-'
+"
+"
 )
             
 return
@@ -930,6 +927,7 @@ copied
 .
 append
 (
+                
 filename
 [
 len
@@ -940,6 +938,7 @@ symbol_dir
 )
 :
 ]
+                
 if
 filename
 .
@@ -949,8 +948,10 @@ self
 .
 symbol_dir
 )
+                
 else
 filename
+            
 )
         
 self
@@ -973,9 +974,9 @@ target_platform
 )
 !
 =
-'
+"
 WINNT
-'
+"
 :
             
 self
@@ -1088,28 +1089,30 @@ symbolstore
 .
 GetPlatformSpecificDumper
 (
+            
 dump_syms
 =
 "
 dump_syms
 "
-                                                  
+            
 symbol_path
 =
 self
 .
 symbol_dir
-                                                  
+            
 copy_debug
 =
 True
-                                                  
+            
 archs
 =
 "
 abc
 xyz
 "
+        
 )
         
 d
@@ -1160,21 +1163,21 @@ patch
 .
 dict
 (
-'
+"
 buildconfig
 .
 substs
 .
 _dict
-'
+"
 {
-'
+"
 MAKECAB
-'
+"
 :
-'
+"
 makecab
-'
+"
 }
 )
     
@@ -1215,11 +1218,11 @@ join
 self
 .
 test_dir
-'
+"
 foo
 .
 dll
-'
+"
 )
         
 write_dll
@@ -1229,17 +1232,17 @@ test_file
         
 code_file
 =
-'
+"
 foo
 .
 dll
-'
+"
         
 code_id
 =
-'
+"
 abc123
-'
+"
         
 self
 .
@@ -1247,35 +1250,38 @@ stdouts
 .
 append
 (
+            
 mock_dump_syms
 (
-'
+                
+"
 X
-'
+"
 *
 33
-'
+"
 foo
 .
 pdb
-'
-                                           
+"
 [
-'
+"
 INFO
 CODE_ID
 %
 s
 %
 s
-'
+"
 %
 (
 code_id
 code_file
 )
 ]
+            
 )
+        
 )
         
 def
@@ -1299,16 +1305,16 @@ args
 open
 (
 filename
-'
+"
 w
-'
+"
 )
 .
 write
 (
-'
+"
 stuff
-'
+"
 )
             
 return
@@ -1328,21 +1334,21 @@ symbolstore
 .
 Dumper_Win32
 (
+            
 dump_syms
 =
-'
+"
 dump_syms
-'
-                                     
+"
 symbol_path
 =
 self
 .
 symbol_dir
-                                     
 copy_debug
 =
 True
+        
 )
         
 d
@@ -1356,12 +1362,14 @@ self
 .
 assertTrue
 (
+            
 os
 .
 path
 .
 isfile
 (
+                
 os
 .
 path
@@ -1380,11 +1388,13 @@ code_file
 1
 ]
 +
-'
+"
 _
-'
+"
 )
+            
 )
+        
 )
 class
 TestGetVCSFilename
@@ -1454,6 +1464,7 @@ mock_communicate
 side_effect
 =
 [
+            
 (
 "
 abcd1234
@@ -1461,7 +1472,7 @@ abcd1234
 "
 "
 )
-                                        
+            
 (
 "
 http
@@ -1477,6 +1488,7 @@ repo
 "
 "
 )
+        
 ]
         
 os
@@ -1521,6 +1533,7 @@ self
 .
 assertEqual
 (
+            
 "
 hg
 :
@@ -1536,7 +1549,7 @@ c
 :
 abcd1234
 "
-                         
+            
 symbolstore
 .
 GetVCSFilename
@@ -1551,6 +1564,7 @@ test_dir
 [
 0
 ]
+        
 )
     
 patch
@@ -1583,6 +1597,7 @@ mock_communicate
 side_effect
 =
 [
+            
 (
 "
 abcd1234
@@ -1590,7 +1605,7 @@ abcd1234
 "
 "
 )
-                                        
+            
 (
 "
 http
@@ -1606,7 +1621,7 @@ repo
 "
 "
 )
-                                        
+            
 (
 "
 0987ffff
@@ -1614,7 +1629,7 @@ repo
 "
 "
 )
-                                        
+            
 (
 "
 http
@@ -1630,6 +1645,7 @@ other
 "
 "
 )
+        
 ]
         
 srcdir1
@@ -1736,6 +1752,7 @@ self
 .
 assertEqual
 (
+            
 "
 hg
 :
@@ -1751,7 +1768,7 @@ c
 :
 abcd1234
 "
-                         
+            
 symbolstore
 .
 GetVCSFilename
@@ -1765,12 +1782,14 @@ srcdir2
 [
 0
 ]
+        
 )
         
 self
 .
 assertEqual
 (
+            
 "
 hg
 :
@@ -1786,7 +1805,7 @@ c
 :
 0987ffff
 "
-                         
+            
 symbolstore
 .
 GetVCSFilename
@@ -1800,6 +1819,7 @@ srcdir2
 [
 0
 ]
+        
 )
     
 def
@@ -1813,12 +1833,12 @@ os
 .
 environ
 [
-'
+"
 MOZ_SOURCE_REPO
-'
+"
 ]
 =
-'
+"
 https
 :
 /
@@ -1828,20 +1848,20 @@ somewhere
 com
 /
 repo
-'
+"
         
 os
 .
 environ
 [
-'
+"
 MOZ_SOURCE_CHANGESET
-'
+"
 ]
 =
-'
+"
 abcdef0123456
-'
+"
         
 os
 .
@@ -1856,10 +1876,10 @@ join
 self
 .
 test_dir
-'
+"
 .
 hg
-'
+"
 )
 )
         
@@ -1874,18 +1894,19 @@ join
 self
 .
 test_dir
-'
+"
 foo
 .
 c
-'
+"
 )
         
 self
 .
 assertEqual
 (
-'
+            
+"
 hg
 :
 somewhere
@@ -1899,8 +1920,8 @@ foo
 c
 :
 abcdef0123456
-'
-                         
+"
+            
 symbolstore
 .
 GetVCSFilename
@@ -1915,12 +1936,22 @@ test_dir
 [
 0
 ]
+        
 )
 EMPTY_SHA512
 =
-'
-cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff8318d2877eec2f63b931bd47417a81a538327af927da3e
-'
+(
+    
+"
+cf83e1357eefb8bdf1542850d66d8007d620e4050b5715dc83f4a921d36ce9ce47d0d13c5d85f2b0ff
+"
+)
+EMPTY_SHA512
++
+=
+"
+8318d2877eec2f63b931bd47417a81a538327af927da3e
+"
 class
 TestGeneratedFilePath
 (
@@ -1977,38 +2008,36 @@ join
 self
 .
 test_dir
-'
+"
 generated
-'
+"
 )
         
 rel_path
 =
-'
+"
 a
 /
 b
 /
 generated
-'
+"
         
 with
 open
 (
 g
-'
+"
 wb
-'
+"
 )
-as
-f
 :
             
 pass
         
 expected
 =
-'
+"
 s3
 :
 bucket
@@ -2019,12 +2048,11 @@ bucket
 {
 }
 :
-'
+"
 .
 format
 (
 EMPTY_SHA512
-                                             
 rel_path
 )
         
@@ -2032,6 +2060,7 @@ self
 .
 assertEqual
 (
+            
 expected
 symbolstore
 .
@@ -2039,10 +2068,11 @@ get_generated_file_s3_path
 (
 g
 rel_path
-'
+"
 bucket
-'
+"
 )
+        
 )
 if
 host_platform
@@ -2050,9 +2080,9 @@ host_platform
 )
 =
 =
-'
+"
 WINNT
-'
+"
 :
     
 class
@@ -2127,34 +2157,34 @@ files
 =
 [
                 
-'
+"
 one
 \
 \
 two
 .
 c
-'
+"
                 
-'
+"
 three
 \
 \
 Four
 .
 d
-'
+"
                 
-'
+"
 Five
 \
 \
 Six
 .
 e
-'
+"
                 
-'
+"
 seven
 \
 \
@@ -2164,7 +2194,7 @@ Eight
 nine
 .
 F
-'
+"
             
 ]
             
@@ -2191,7 +2221,6 @@ join
 self
 .
 test_dir
-                                                          
 rel_path
 )
 )
@@ -2260,9 +2289,9 @@ target_platform
 )
 =
 =
-'
+"
 WINNT
-'
+"
 :
     
 class
@@ -2297,21 +2326,21 @@ patch
 .
 dict
 (
-'
+"
 buildconfig
 .
 substs
 .
 _dict
-'
+"
 {
-'
+"
 PDBSTR
-'
+"
 :
-'
+"
 pdbstr
-'
+"
 }
 )
         
@@ -2444,6 +2473,7 @@ stdout
 =
 iter
 (
+                
 [
                     
 "
@@ -2482,8 +2512,9 @@ PUBLIC
 xyz
 123
 "
-                    
+                
 ]
+            
 )
             
 mock_Popen
@@ -2509,6 +2540,7 @@ mock_communicate
 side_effect
 =
 [
+                
 (
 "
 abcd1234
@@ -2516,7 +2548,7 @@ abcd1234
 "
 "
 )
-                                            
+                
 (
 "
 http
@@ -2532,7 +2564,7 @@ repo
 "
 "
 )
-                                            
+            
 ]
             
 global
@@ -2595,9 +2627,9 @@ arg
 :
 ]
 )
-'
+"
 r
-'
+"
 )
 .
 read
@@ -2619,33 +2651,35 @@ symbolstore
 .
 GetPlatformSpecificDumper
 (
+                
 dump_syms
 =
 "
 dump_syms
 "
-                                                      
+                
 symbol_path
 =
 symbolpath
-                                                      
+                
 srcdirs
 =
 [
 srcdir
 ]
-                                                      
+                
 vcsinfo
 =
 True
-                                                      
+                
 srcsrv
 =
 True
-                                                      
+                
 copy_debug
 =
 True
+            
 )
             
 d
@@ -2689,11 +2723,13 @@ None
 hgserver
 =
 [
+                
 x
 .
 rstrip
 (
 )
+                
 for
 x
 in
@@ -2702,6 +2738,7 @@ srcsrv_stream
 splitlines
 (
 )
+                
 if
 x
 .
@@ -2712,6 +2749,7 @@ HGSERVER
 =
 "
 )
+            
 ]
             
 self
@@ -2792,9 +2830,9 @@ join
 self
 .
 test_dir
-'
+"
 src
-'
+"
 )
         
 os
@@ -2819,9 +2857,9 @@ join
 self
 .
 test_dir
-'
+"
 obj
-'
+"
 )
         
 os
@@ -2852,12 +2890,12 @@ for
 s
 in
 [
-'
+"
 src1
-'
-'
+"
+"
 src2
-'
+"
 ]
 :
             
@@ -2927,11 +2965,11 @@ join
 self
 .
 test_dir
-'
+"
 install
 -
 manifest
-'
+"
 )
         
 self
@@ -2952,9 +2990,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 that
@@ -2964,18 +3002,18 @@ are
 validated
 .
         
-'
-'
-'
+"
+"
+"
         
 arg
 =
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 self
@@ -3086,9 +3124,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 that
@@ -3102,9 +3140,9 @@ give
 errors
 .
         
-'
-'
-'
+"
+"
+"
         
 missing_manifest
 =
@@ -3117,21 +3155,21 @@ join
 self
 .
 test_dir
-'
+"
 missing
 -
 manifest
-'
+"
 )
         
 arg
 =
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 missing_manifest
@@ -3181,21 +3219,21 @@ join
 self
 .
 test_dir
-'
+"
 missing
 -
 dir
-'
+"
 )
         
 arg
 =
-'
+"
 %
 s
 %
 s
-'
+"
 %
 (
 self
@@ -3241,9 +3279,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 that
@@ -3255,9 +3293,9 @@ give
 errors
 .
         
-'
-'
-'
+"
+"
+"
         
 bad_manifest
 =
@@ -3353,9 +3391,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Test
 that
@@ -3368,9 +3406,9 @@ an
 error
 .
         
-'
-'
-'
+"
+"
+"
         
 with
 self
@@ -3379,8 +3417,6 @@ assertRaises
 (
 ValueError
 )
-as
-e
 :
             
 symbolstore
@@ -3388,9 +3424,9 @@ symbolstore
 validate_install_manifests
 (
 [
-'
+"
 foo
-'
+"
 ]
 )
 class
@@ -3430,9 +3466,9 @@ join
 self
 .
 test_dir
-'
+"
 src
-'
+"
 )
         
 os
@@ -3457,9 +3493,9 @@ join
 self
 .
 test_dir
-'
+"
 obj
-'
+"
 )
         
 os
@@ -3484,9 +3520,9 @@ join
 self
 .
 test_dir
-'
+"
 symbols
-'
+"
 )
         
 os
@@ -3519,29 +3555,28 @@ files
 =
 [
 (
-'
+"
 a
 /
 b
-'
-'
+"
+"
 mozilla
 /
 b
-'
+"
 )
-                 
 (
-'
+"
 c
 /
 d
-'
-'
+"
+"
 foo
 /
 d
-'
+"
 )
 ]
         
@@ -3551,9 +3586,9 @@ os
 sep
 !
 =
-'
+"
 /
-'
+"
 :
             
 files
@@ -3564,9 +3599,9 @@ f
 .
 replace
 (
-'
+"
 /
-'
+"
 os
 .
 sep
@@ -3610,12 +3645,12 @@ join
 self
 .
 objdir
-'
+"
 x
-'
-'
+"
+"
 y
-'
+"
 )
 )
         
@@ -3704,21 +3739,20 @@ join
 self
 .
 objdir
-'
+"
 x
-'
-'
+"
+"
 y
-'
-                                             
-'
+"
+"
 .
 .
-'
-'
+"
+"
 .
 .
-'
+"
 o
 )
 )
@@ -3731,9 +3765,9 @@ X
 "
 *
 33
-'
+"
 somefile
-'
+"
 )
         
 def
@@ -3748,8 +3782,7 @@ iter
 (
                 
 [
-                    
-'
+"
 MODULE
 os
 x86
@@ -3759,16 +3792,14 @@ s
 s
 \
 n
-'
+"
 %
 file_id
-                
 ]
-+
                 
++
 [
-                    
-'
+"
 FILE
 %
 d
@@ -3776,7 +3807,7 @@ d
 s
 \
 n
-'
+"
 %
 (
 i
@@ -3790,20 +3821,17 @@ enumerate
 (
 files
 )
-                
 ]
-+
                 
++
 [
-                    
-'
+"
 PUBLIC
 xyz
 123
 \
 n
-'
-                
+"
 ]
             
 )
@@ -3887,8 +3915,8 @@ f
         
 expected_output
 =
-'
-'
+"
+"
 .
 join
 (
@@ -3906,10 +3934,10 @@ path
 .
 join
 (
+            
 self
 .
 symboldir
-                                   
 file_id
 [
 1
@@ -3923,10 +3951,11 @@ file_id
 1
 ]
 +
-'
+"
 .
 sym
-'
+"
+        
 )
         
 self
@@ -3936,9 +3965,9 @@ assertEqual
 open
 (
 symbol_file
-'
+"
 r
-'
+"
 )
 .
 read
@@ -3956,9 +3985,9 @@ TestCase
 )
 :
     
-'
-'
-'
+"
+"
+"
 Functional
 tests
 of
@@ -4026,9 +4055,9 @@ buildsymbols
 works
 .
     
-'
-'
-'
+"
+"
+"
     
 def
 setUp
@@ -4055,15 +4084,15 @@ buildconfig
 .
 substs
 [
-'
+"
 MOZ_BUILD_APP
-'
+"
 ]
 !
 =
-'
+"
 browser
-'
+"
 :
             
 self
@@ -4079,9 +4108,9 @@ substs
 .
 get
 (
-'
+"
 ENABLE_STRIP
-'
+"
 )
 :
             
@@ -4098,9 +4127,9 @@ substs
 .
 get
 (
-'
+"
 MOZ_CODE_COVERAGE
-'
+"
 )
 :
             
@@ -4128,25 +4157,25 @@ path
 .
 join
 (
+            
 self
 .
 topsrcdir
-'
+"
 toolkit
-'
-                                        
-'
+"
+"
 crashreporter
-'
-'
+"
+"
 tools
-'
-                                        
-'
+"
+"
 symbolstore
 .
 py
-'
+"
+        
 )
         
 if
@@ -4155,9 +4184,9 @@ target_platform
 )
 =
 =
-'
+"
 WINNT
-'
+"
 :
             
 self
@@ -4168,9 +4197,9 @@ buildconfig
 .
 substs
 [
-'
+"
 DUMP_SYMS
-'
+"
 ]
         
 else
@@ -4186,23 +4215,23 @@ path
 .
 join
 (
+                
 buildconfig
 .
 topobjdir
-                                          
-'
+"
 dist
-'
-'
+"
+"
 host
-'
-'
+"
+"
 bin
-'
-                                          
-'
+"
+"
 dump_syms
-'
+"
+            
 )
         
 if
@@ -4211,9 +4240,9 @@ target_platform
 )
 =
 =
-'
+"
 WINNT
-'
+"
 :
             
 self
@@ -4226,22 +4255,22 @@ path
 .
 join
 (
+                
 buildconfig
 .
 topobjdir
-                                           
-'
+"
 dist
-'
-'
+"
+"
 bin
-'
-                                           
-'
+"
+"
 firefox
 .
 exe
-'
+"
+            
 )
         
 else
@@ -4257,21 +4286,22 @@ path
 .
 join
 (
+                
 buildconfig
 .
 topobjdir
-                                           
-'
+"
 dist
-'
-'
+"
+"
 bin
-'
-'
+"
+"
 firefox
 -
 bin
-'
+"
+            
 )
     
 def
@@ -4536,9 +4566,9 @@ symlines
 open
 (
 symbol_file
-'
+"
 r
-'
+"
 )
 .
 readlines
@@ -4558,9 +4588,9 @@ l
 .
 startswith
 (
-'
+"
 FILE
-'
+"
 )
 ]
         
@@ -4590,6 +4620,7 @@ self
 .
 assertTrue
 (
+                
 len
 (
 match_lines
@@ -4597,17 +4628,17 @@ match_lines
 >
 =
 1
-                            
-'
+"
 should
 have
 a
 FILE
 line
 for
-'
+"
 +
 match
+            
 )
             
 if
@@ -4625,10 +4656,10 @@ join
 self
 .
 topsrcdir
-'
+"
 .
 hg
-'
+"
 )
 )
 :
@@ -4658,10 +4689,10 @@ self
 .
 assertEqual
 (
-'
+"
 hg
 :
-'
+"
 filename
 [
 :
@@ -4672,31 +4703,31 @@ filename
 check_hg_path
 (
 file_lines
-'
+"
 nsBrowserApp
 .
 cpp
-'
+"
 )
         
 check_hg_path
 (
 file_lines
-'
+"
 mfbt
 /
 Sprintf
 .
 h
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit
