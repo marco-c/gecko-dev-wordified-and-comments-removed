@@ -723,7 +723,6 @@ RequestRefresh
 *
 mAnimationState
 aTime
-mAnimationFinished
 )
 ;
 }
@@ -2059,7 +2058,6 @@ mAnimationState
 >
 UpdateState
 (
-mAnimationFinished
 this
 size
 .
@@ -4448,7 +4446,6 @@ mAnimationState
 >
 UpdateState
 (
-mAnimationFinished
 this
 size
 .
@@ -5282,7 +5279,6 @@ mAnimationState
 >
 UpdateState
 (
-mAnimationFinished
 this
 ToUnoriented
 (
@@ -7093,7 +7089,6 @@ mAnimationState
 >
 UpdateState
 (
-mAnimationFinished
 this
 size
 .

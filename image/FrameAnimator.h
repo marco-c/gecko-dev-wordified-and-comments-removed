@@ -155,8 +155,6 @@ gfx
 IntRect
 UpdateState
 (
-bool
-aAnimationFinished
 RasterImage
 *
 aImage
@@ -185,8 +183,6 @@ UpdateStateInternal
 LookupResult
 &
 aResult
-bool
-aAnimationFinished
 const
 gfx
 :
@@ -624,8 +620,6 @@ const
 TimeStamp
 &
 aTime
-bool
-aAnimationFinished
 )
 ;
 LookupResult
