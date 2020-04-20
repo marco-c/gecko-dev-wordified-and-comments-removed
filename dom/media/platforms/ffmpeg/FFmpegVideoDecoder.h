@@ -198,6 +198,8 @@ ImageContainer
 aImageContainer
 bool
 aLowLatency
+bool
+aDisableHardwareDecoding
 )
 ;
 RefPtr
@@ -451,6 +453,10 @@ MOZ_WAYLAND_USE_VAAPI
 AVBufferRef
 *
 mVAAPIDeviceContext
+;
+const
+bool
+mDisableHardwareDecoding
 ;
 #
 endif
