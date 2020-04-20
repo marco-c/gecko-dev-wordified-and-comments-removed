@@ -102,12 +102,6 @@ crate
 Zero
 ;
 use
-app_units
-:
-:
-Au
-;
-use
 euclid
 ;
 use
@@ -1559,7 +1553,7 @@ containing_len
 :
 Option
 <
-Au
+ComputedLength
 >
 )
 -
@@ -1590,7 +1584,7 @@ _containing_len
 :
 Option
 <
-Au
+ComputedLength
 >
 )
 -
@@ -1656,7 +1650,7 @@ _containing_len
 :
 Option
 <
-Au
+ComputedLength
 >
 )
 -
@@ -1737,7 +1731,7 @@ _containing_len
 :
 Option
 <
-Au
+ComputedLength
 >
 )
 -
@@ -1777,7 +1771,7 @@ containing_len
 :
 Option
 <
-Au
+ComputedLength
 >
 )
 -
@@ -1802,7 +1796,7 @@ Ok
 (
 self
 .
-to_pixel_length
+resolve
 (
 relative_len
 )
@@ -1861,7 +1855,7 @@ Option
 &
 Rect
 <
-Au
+ComputedLength
 >
 >
 )
@@ -2136,7 +2130,7 @@ Option
 &
 Rect
 <
-Au
+ComputedLength
 >
 >
 )
@@ -2997,7 +2991,7 @@ Option
 &
 Rect
 <
-Au
+ComputedLength
 >
 >
 )
@@ -3219,7 +3213,7 @@ Option
 &
 Rect
 <
-Au
+ComputedLength
 >
 >
 )
