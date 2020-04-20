@@ -153,6 +153,15 @@ _ExperimentManager
 (
 )
 ;
+await
+action
+.
+manager
+.
+onStartup
+(
+)
+;
 const
 onRecipeStub
 =
