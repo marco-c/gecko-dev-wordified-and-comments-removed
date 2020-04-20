@@ -243,10 +243,6 @@ bool
 aMustBeVisible
 bool
 aGetTopVisibleLeaf
-nsRange
-*
-*
-aNewRange
 bool
 *
 aUsesIndependentSelection
