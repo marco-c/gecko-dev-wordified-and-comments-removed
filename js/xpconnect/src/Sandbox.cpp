@@ -728,7 +728,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK_WEAK_REFERENCE
 tmp
 -
 >
-UnlinkHostObjectURIs
+UnlinkObjectsInGlobal
 (
 )
 ;
@@ -740,7 +740,7 @@ SandboxPrivate
 tmp
 -
 >
-TraverseHostObjectURIs
+TraverseObjectsInGlobal
 (
 cb
 )

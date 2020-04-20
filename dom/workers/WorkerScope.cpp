@@ -846,7 +846,7 @@ mDebuggerNotificationManager
 tmp
 -
 >
-TraverseHostObjectURIs
+TraverseObjectsInGlobal
 (
 cb
 )
@@ -913,7 +913,7 @@ mDebuggerNotificationManager
 tmp
 -
 >
-UnlinkHostObjectURIs
+UnlinkObjectsInGlobal
 (
 )
 ;
