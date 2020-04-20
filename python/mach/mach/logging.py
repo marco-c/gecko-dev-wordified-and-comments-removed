@@ -90,9 +90,7 @@ getwriter
 encoding
 )
 (
-sys
-.
-stdout
+fh
 errors
 =
 '
@@ -111,9 +109,7 @@ getwriter
 encoding
 )
 (
-sys
-.
-stdout
+fh
 .
 buffer
                                               
