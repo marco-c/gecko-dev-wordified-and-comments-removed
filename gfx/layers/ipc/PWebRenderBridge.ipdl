@@ -536,6 +536,11 @@ ClearCachedResources
 )
 ;
 async
+InvalidateRenderedFrame
+(
+)
+;
+async
 ScheduleComposite
 (
 )
