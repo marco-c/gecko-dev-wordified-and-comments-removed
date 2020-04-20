@@ -8,12 +8,16 @@ implementation
 "
 "
 "
+import
+sys
 from
 inspect
 import
 getmembers
+from
+six
 import
-sys
+text_type
 class
 Keys
 (
@@ -630,7 +634,7 @@ x
 )
 =
 =
-unicode
+text_type
 )
 ALL_EVENTS
 =

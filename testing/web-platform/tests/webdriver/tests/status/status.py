@@ -1,6 +1,10 @@
 import
 json
 from
+six
+import
+text_type
+from
 tests
 .
 support
@@ -112,7 +116,7 @@ value
 message
 "
 ]
-basestring
+text_type
 )
 def
 test_status_with_session_running_on_endpoint_node

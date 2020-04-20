@@ -1,13 +1,19 @@
 import
 contextlib
 import
-httplib
-import
 json
 from
 six
 import
 text_type
+from
+six
+.
+moves
+.
+http_client
+import
+HTTPConnection
 class
 HTTPRequest
 (
@@ -192,8 +198,6 @@ utf
         
 conn
 =
-httplib
-.
 HTTPConnection
 (
 self

@@ -1,4 +1,8 @@
 from
+six
+import
+text_type
+from
 tests
 .
 support
@@ -239,7 +243,7 @@ body
 value
 "
 ]
-basestring
+text_type
 )
 def
 test_get_current_url_special_pages

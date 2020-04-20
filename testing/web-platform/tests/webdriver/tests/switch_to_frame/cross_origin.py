@@ -1,5 +1,11 @@
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
 import

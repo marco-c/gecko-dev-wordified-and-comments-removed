@@ -3,6 +3,10 @@ uuid
 import
 pytest
 from
+six
+import
+text_type
+from
 tests
 .
 support
@@ -58,7 +62,7 @@ value
 sessionId
 "
 ]
-basestring
+text_type
 )
     
 uuid
@@ -90,21 +94,21 @@ type
 "
 browserName
 "
-basestring
+text_type
 )
     
 (
 "
 browserVersion
 "
-basestring
+text_type
 )
     
 (
 "
 platformName
 "
-basestring
+text_type
 )
     
 (
@@ -118,7 +122,7 @@ bool
 "
 pageLoadStrategy
 "
-basestring
+text_type
 )
     
 (
@@ -153,7 +157,7 @@ bool
 "
 unhandledPromptBehavior
 "
-basestring
+text_type
 )
 ]
 )

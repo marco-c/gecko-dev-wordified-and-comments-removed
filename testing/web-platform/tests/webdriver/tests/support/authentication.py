@@ -1,5 +1,13 @@
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+urlencode
 def
 basic_authentication
 (
@@ -56,8 +64,6 @@ py
                      
 query
 =
-urllib
-.
 urlencode
 (
 query

@@ -107,6 +107,8 @@ docs
     
 frames
 =
+list
+(
 map
 (
 lambda
@@ -136,6 +138,7 @@ doc
 )
 )
 docs
+)
 )
     
 return

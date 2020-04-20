@@ -13,8 +13,16 @@ tests
 "
 "
 "
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+urlencode
 BOILERPLATES
 =
 {
@@ -549,8 +557,6 @@ py
         
 query
 =
-urllib
-.
 urlencode
 (
 query

@@ -7,6 +7,8 @@ struct
 from
 six
 import
+ensure_binary
+text_type
 PY3
 from
 webdriver
@@ -358,7 +360,7 @@ value
 message
 "
 ]
-basestring
+text_type
 )
     
 assert
@@ -377,7 +379,7 @@ value
 stacktrace
 "
 ]
-basestring
+text_type
 )
     
 assert_response_headers
@@ -1505,7 +1507,10 @@ base64
 .
 decodestring
 (
+ensure_binary
+(
 screenshot
+)
 )
     
 mime_type

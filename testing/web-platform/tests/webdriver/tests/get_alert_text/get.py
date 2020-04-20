@@ -1,4 +1,8 @@
 from
+six
+import
+text_type
+from
 webdriver
 .
 error
@@ -194,7 +198,7 @@ assert
 isinstance
 (
 alert_text
-basestring
+text_type
 )
     
 assert
@@ -282,7 +286,7 @@ assert
 isinstance
 (
 confirm_text
-basestring
+text_type
 )
     
 assert
@@ -376,7 +380,7 @@ assert
 isinstance
 (
 prompt_text
-basestring
+text_type
 )
     
 assert
