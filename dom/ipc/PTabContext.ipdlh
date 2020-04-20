@@ -53,6 +53,9 @@ PopupIPCTabContext
 PBrowserOrId
 opener
 ;
+bool
+isMozBrowserElement
+;
 uint64_t
 chromeOuterWindowID
 ;
@@ -63,6 +66,9 @@ FrameIPCTabContext
 {
 OriginAttributes
 originAttributes
+;
+bool
+isMozBrowserElement
 ;
 uint64_t
 chromeOuterWindowID

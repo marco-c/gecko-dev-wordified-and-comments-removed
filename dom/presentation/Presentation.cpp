@@ -536,6 +536,15 @@ dom_presentation_testing_simulate_receiver
 docShell
 -
 >
+GetIsInMozBrowser
+(
+)
+&
+&
+!
+docShell
+-
+>
 GetIsTopLevelContentDocShell
 (
 )
