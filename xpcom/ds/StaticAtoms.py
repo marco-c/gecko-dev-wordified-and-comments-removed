@@ -26552,7 +26552,8 @@ if
 atom
 .
 atom_type
-is
+=
+=
 "
 PseudoElementAtom
 "
@@ -26577,7 +26578,8 @@ elif
 atom
 .
 atom_type
-is
+=
+=
 "
 NonInheritingAnonBoxAtom
 "
@@ -26585,7 +26587,8 @@ or
 atom
 .
 atom_type
-is
+=
+=
 "
 InheritingAnonBoxAtom
 "
