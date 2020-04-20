@@ -33284,7 +33284,7 @@ BitXor
 :
 writer
 .
-int32BitXOrResult
+int32BitXorResult
 (
 lhsIntId
 rhsIntId
@@ -33297,7 +33297,7 @@ BinaryArith
 .
 Bitwise
 .
-BitXOr
+BitXor
 "
 )
 ;
