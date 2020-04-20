@@ -12,6 +12,14 @@ metrics
 perfherder
 import
 Perfherder
+from
+mozperftest
+.
+metrics
+.
+consoleoutput
+import
+ConsoleOutput
 def
 pick_metrics
 (
@@ -34,6 +42,7 @@ MultipleMachEnvironment
 (
 mach_cmd
 (
+ConsoleOutput
 Perfherder
 )
 )
