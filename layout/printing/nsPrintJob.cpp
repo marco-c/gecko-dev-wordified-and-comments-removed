@@ -112,6 +112,13 @@ h
 #
 include
 "
+nsIStringBundle
+.
+h
+"
+#
+include
+"
 nsPIDOMWindow
 .
 h
