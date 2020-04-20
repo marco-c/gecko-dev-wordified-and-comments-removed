@@ -4067,9 +4067,6 @@ sweepBackgroundThings
 ZoneList
 &
 zones
-LifoAlloc
-&
-freeBlocks
 )
 ;
 void
