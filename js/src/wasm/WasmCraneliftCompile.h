@@ -115,6 +115,7 @@ happen
 )
 ;
 }
+inline
 void
 CraneliftFreeReusableData
 (
