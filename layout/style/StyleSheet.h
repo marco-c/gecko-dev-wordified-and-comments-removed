@@ -1839,16 +1839,6 @@ State
 ModifiedRulesForDevtools
 ;
 }
-dom
-:
-:
-ShadowRoot
-*
-GetContainingShadow
-(
-)
-const
-;
 StyleSheetInfo
 &
 Inner
