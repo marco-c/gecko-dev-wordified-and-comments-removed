@@ -8752,9 +8752,6 @@ enterModalState
 ]
 *
 /
-[
-noscript
-]
 boolean
 isInModalState
 (

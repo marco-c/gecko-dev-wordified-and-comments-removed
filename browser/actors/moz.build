@@ -285,6 +285,11 @@ PluginParent
 jsm
 '
 '
+PromptChild
+.
+jsm
+'
+'
 PromptParent
 .
 jsm

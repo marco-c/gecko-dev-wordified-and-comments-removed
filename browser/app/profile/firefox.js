@@ -9415,6 +9415,16 @@ true
 pref
 (
 "
+prompts
+.
+defaultModalType
+"
+3
+)
+;
+pref
+(
+"
 browser
 .
 newtab
