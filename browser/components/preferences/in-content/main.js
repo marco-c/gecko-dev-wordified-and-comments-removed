@@ -2733,7 +2733,7 @@ modules
 /
 translation
 /
-Translation
+TranslationParent
 .
 jsm
 "
@@ -6905,7 +6905,7 @@ modules
 /
 translation
 /
-Translation
+TranslationParent
 .
 jsm
 "
