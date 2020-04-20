@@ -1301,6 +1301,11 @@ aBufferId
 )
 ;
 }
+DeallocShmem
+(
+aShmem
+)
+;
 return
 IPC_OK
 (
@@ -2037,7 +2042,7 @@ aSelfId
 Shmem
 &
 &
-shmem
+aShmem
 )
 {
 ffi
@@ -2047,7 +2052,7 @@ wgpu_server_encode_compute_pass
 (
 mContext
 aSelfId
-shmem
+aShmem
 .
 get
 <
@@ -2055,7 +2060,7 @@ uint8_t
 >
 (
 )
-shmem
+aShmem
 .
 Size
 <
@@ -2063,6 +2068,11 @@ uint8_t
 >
 (
 )
+)
+;
+DeallocShmem
+(
+aShmem
 )
 ;
 return
@@ -2085,7 +2095,7 @@ aSelfId
 Shmem
 &
 &
-shmem
+aShmem
 )
 {
 ffi
@@ -2095,7 +2105,7 @@ wgpu_server_encode_render_pass
 (
 mContext
 aSelfId
-shmem
+aShmem
 .
 get
 <
@@ -2103,7 +2113,7 @@ uint8_t
 >
 (
 )
-shmem
+aShmem
 .
 Size
 <
@@ -2111,6 +2121,11 @@ uint8_t
 >
 (
 )
+)
+;
+DeallocShmem
+(
+aShmem
 )
 ;
 return
