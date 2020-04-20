@@ -136,7 +136,6 @@ NewObjectKind
 {
 GenericObject
 SingletonObject
-NurseryAllocatedProxy
 TenuredObject
 }
 ;
