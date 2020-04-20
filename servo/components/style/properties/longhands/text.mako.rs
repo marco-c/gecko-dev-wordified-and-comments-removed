@@ -222,15 +222,6 @@ servo
 -
 2020
 "
-servo_2020_pref
-=
-"
-layout
-.
-2020
-.
-unimplemented
-"
 initial_specified_value
 =
 "
@@ -311,6 +302,9 @@ engines
 =
 "
 gecko
+servo
+-
+2020
 "
 animation_value_type
 =
@@ -377,6 +371,9 @@ engines
 =
 "
 gecko
+servo
+-
+2020
 "
 initial_specified_value
 =
