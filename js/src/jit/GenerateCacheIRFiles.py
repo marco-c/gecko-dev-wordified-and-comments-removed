@@ -474,6 +474,19 @@ writeRawPointerField
 )
     
 '
+IdField
+'
+:
+(
+'
+jsid
+'
+'
+writeIdField
+'
+)
+    
+'
 JSOpImm
 '
 :
@@ -1036,6 +1049,26 @@ stubOffset
     
 '
 RawPointerField
+'
+:
+(
+'
+uint32_t
+'
+'
+Offset
+'
+'
+reader
+.
+stubOffset
+(
+)
+'
+)
+    
+'
+IdField
 '
 :
 (
