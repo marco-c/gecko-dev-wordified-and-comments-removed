@@ -581,6 +581,8 @@ nscoord
 aFlexContainerAscent
 nscoord
 aAvailableBSizeForContent
+nscoord
+aColumnWrapThreshold
 nsTArray
 <
 FlexLine
@@ -766,7 +768,7 @@ aReflowInput
 nscoord
 aContentBoxMainSize
 nscoord
-aAvailableBSizeForContent
+aColumnWrapThreshold
 const
 nsTArray
 <

@@ -14659,7 +14659,7 @@ aReflowInput
 nscoord
 aContentBoxMainSize
 nscoord
-aAvailableBSizeForContent
+aColumnWrapThreshold
 const
 nsTArray
 <
@@ -14818,7 +14818,7 @@ IsColumnOriented
 )
 &
 &
-aAvailableBSizeForContent
+aColumnWrapThreshold
 !
 =
 NS_UNCONSTRAINEDSIZE
@@ -14832,7 +14832,7 @@ std
 min
 (
 wrapThreshold
-aAvailableBSizeForContent
+aColumnWrapThreshold
 )
 ;
 }
@@ -16575,6 +16575,17 @@ BSize
 wm
 )
 ;
+const
+nscoord
+columnWrapThreshold
+=
+availableSizeForItems
+.
+BSize
+(
+wm
+)
+;
 nscoord
 contentBoxMainSize
 =
@@ -16740,6 +16751,7 @@ contentBoxMainSize
 contentBoxCrossSize
 flexContainerAscent
 availableBSizeForContent
+columnWrapThreshold
 lines
 struts
 placeholders
@@ -16786,6 +16798,7 @@ contentBoxMainSize
 contentBoxCrossSize
 flexContainerAscent
 availableBSizeForContent
+columnWrapThreshold
 lines
 struts
 placeholders
@@ -18323,6 +18336,8 @@ nscoord
 aFlexContainerAscent
 nscoord
 aAvailableBSizeForContent
+nscoord
+aColumnWrapThreshold
 nsTArray
 <
 FlexLine
@@ -18421,7 +18436,7 @@ GenerateFlexLines
 (
 aReflowInput
 aContentBoxMainSize
-aAvailableBSizeForContent
+aColumnWrapThreshold
 aStruts
 aAxisTracker
 aMainGapSize
