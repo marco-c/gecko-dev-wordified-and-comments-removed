@@ -267,7 +267,7 @@ StyleSheet
 aCopy
 StyleSheet
 *
-aParentToUse
+aParentSheetToUse
 dom
 :
 :
@@ -280,6 +280,12 @@ dom
 DocumentOrShadowRoot
 *
 aDocOrShadowRootToUse
+dom
+:
+:
+Document
+*
+aConstructorDocToUse
 nsINode
 *
 aOwningNodeToUse
