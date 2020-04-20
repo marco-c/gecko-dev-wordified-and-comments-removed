@@ -2947,7 +2947,7 @@ Unused
 <
 NS_GetSpecialDirectory
 (
-NS_APP_PROFILE_DIR_STARTUP
+NS_APP_USER_PROFILE_50_DIR
 getter_AddRefs
 (
 mProfileDir
