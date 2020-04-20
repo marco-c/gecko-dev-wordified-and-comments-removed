@@ -2048,16 +2048,13 @@ cx
 ;
 placeholder
 =
-NewObjectWithGivenTaggedProto
+NewObjectWithGivenProto
 <
 OffThreadPlaceholderObject
 >
 (
 cx
-AsTaggedProto
-(
 nullptr
-)
 )
 ;
 if
