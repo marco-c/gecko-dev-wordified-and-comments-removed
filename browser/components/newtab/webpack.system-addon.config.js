@@ -109,6 +109,11 @@ bundle
 .
 js
 "
+library
+:
+"
+NewtabRenderUtils
+"
 }
 devtool
 :
