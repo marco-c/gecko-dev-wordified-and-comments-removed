@@ -84,6 +84,9 @@ aPrompt
 bool
 &
 aReauthenticated
+bool
+&
+aIsBlankPassword
 )
 ;
 #
