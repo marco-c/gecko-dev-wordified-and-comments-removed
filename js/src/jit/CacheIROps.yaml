@@ -2884,6 +2884,9 @@ Int32MulResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2897,6 +2900,9 @@ name
 :
 Int32DivResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2914,6 +2920,9 @@ Int32ModResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2927,6 +2936,9 @@ name
 :
 Int32PowResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3034,6 +3046,9 @@ Int32BitOrResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3047,6 +3062,9 @@ name
 :
 Int32BitXorResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3064,6 +3082,9 @@ Int32BitAndResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3077,6 +3098,9 @@ name
 :
 Int32LeftShiftResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3094,6 +3118,9 @@ Int32RightShiftResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3107,6 +3134,9 @@ name
 :
 Int32URightShiftResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3125,6 +3155,9 @@ name
 :
 Int32NotResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
