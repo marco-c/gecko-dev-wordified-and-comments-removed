@@ -535,13 +535,10 @@ E
 TElement
 {
 if
+!
 child
 .
-get_data
-(
-)
-.
-is_none
+has_data
 (
 )
 {
