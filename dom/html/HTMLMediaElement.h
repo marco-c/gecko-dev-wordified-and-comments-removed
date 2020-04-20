@@ -2347,6 +2347,12 @@ ComputedMuted
 )
 const
 ;
+bool
+IsSuspendedByInactiveDocOrDocShell
+(
+)
+const
+;
 void
 SetMediaInfo
 (
