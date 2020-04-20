@@ -155,6 +155,14 @@ inc
 '
 jit
 /
+CacheIROpsGenerated
+.
+h
+'
+    
+'
+jit
+/
 LOpcodesGenerated
 .
 h
