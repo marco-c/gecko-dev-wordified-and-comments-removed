@@ -4632,7 +4632,7 @@ return
 }
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 true
 ;
@@ -4649,7 +4649,7 @@ conn
 ;
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 false
 ;
@@ -6377,7 +6377,7 @@ true
 {
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 false
 ;
@@ -6390,7 +6390,7 @@ _matchCurrentSearchEngine
 ;
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 =
 true
 ;
@@ -8426,7 +8426,7 @@ if
 (
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 )
 {
 match
@@ -8523,7 +8523,7 @@ if
 (
 this
 .
-_addingHeuristicFirstMatch
+_addingHeuristicResult
 )
 {
 match
