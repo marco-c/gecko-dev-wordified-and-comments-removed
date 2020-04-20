@@ -3339,6 +3339,16 @@ null
 let
 canonizedUrl
 ;
+this
+.
+setPageProxyState
+(
+"
+invalid
+"
+true
+)
+;
 if
 (
 !
