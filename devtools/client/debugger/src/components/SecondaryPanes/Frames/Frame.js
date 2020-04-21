@@ -2,6 +2,7 @@ import
 React
 {
 Component
+memo
 }
 from
 "
@@ -206,8 +207,11 @@ displayFullUrl
 boolean
 }
 ;
-function
+const
 FrameLocation
+=
+memo
+(
 (
 {
 frame
@@ -218,6 +222,8 @@ false
 :
 FrameLocationProps
 )
+=
+>
 {
 if
 (
@@ -361,6 +367,8 @@ span
 )
 ;
 }
+)
+;
 FrameLocation
 .
 displayName
