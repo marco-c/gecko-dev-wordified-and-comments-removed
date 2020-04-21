@@ -402,7 +402,7 @@ TEST_ORIGIN1
 "
 getCookies
 .
-html
+sjs
 "
 async
 function
