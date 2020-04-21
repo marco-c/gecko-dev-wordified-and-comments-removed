@@ -903,7 +903,7 @@ aItem
 )
 ;
 void
-ComputeFinalSize
+PopulateReflowOutput
 (
 ReflowOutput
 &
