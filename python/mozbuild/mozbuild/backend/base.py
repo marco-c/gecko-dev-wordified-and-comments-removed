@@ -16,6 +16,8 @@ abstractmethod
 import
 errno
 import
+io
+import
 itertools
 import
 os
@@ -779,11 +781,22 @@ try
 :
                 
 with
+io
+.
 open
 (
 full_path
+mode
+=
 '
 r
+'
+encoding
+=
+'
+utf
+-
+8
 '
 )
 as
