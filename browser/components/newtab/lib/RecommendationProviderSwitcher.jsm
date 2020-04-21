@@ -165,6 +165,16 @@ affinityProviderV2
 modelKeys
 )
 {
+if
+(
+this
+.
+affinityProvider
+)
+{
+return
+;
+}
 this
 .
 affinityProvider
