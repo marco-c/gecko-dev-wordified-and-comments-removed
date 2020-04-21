@@ -15386,9 +15386,6 @@ aTabContext
 >
 SetTabContext
 (
-OwnerIsMozBrowserFrame
-(
-)
 chromeOuterWindowID
 showFocusRings
 attrs

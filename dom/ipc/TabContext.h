@@ -59,12 +59,6 @@ AsIPCTabContext
 const
 ;
 bool
-IsMozBrowserElement
-(
-)
-const
-;
-bool
 IsJSPlugin
 (
 )
@@ -148,8 +142,6 @@ aFirstPartyDomain
 bool
 SetTabContext
 (
-bool
-aIsMozBrowserElement
 uint64_t
 aChromeOuterWindowID
 UIStateChangeType
@@ -198,9 +190,6 @@ private
 :
 bool
 mInitialized
-;
-bool
-mIsMozBrowserElement
 ;
 uint64_t
 mChromeOuterWindowID
@@ -252,8 +241,6 @@ aContext
 bool
 SetTabContext
 (
-bool
-aIsMozBrowserElement
 uint64_t
 aChromeOuterWindowID
 UIStateChangeType
@@ -276,7 +263,6 @@ TabContext
 :
 SetTabContext
 (
-aIsMozBrowserElement
 aChromeOuterWindowID
 aShowFocusRings
 aOriginAttributes
