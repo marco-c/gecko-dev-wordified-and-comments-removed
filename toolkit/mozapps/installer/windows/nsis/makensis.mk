@@ -214,6 +214,10 @@ UAC
 .
 dll
 \
+WebBrowser
+.
+dll
+\
 (
 NULL
 )
