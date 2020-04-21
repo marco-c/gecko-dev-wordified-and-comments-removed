@@ -83,6 +83,26 @@ COOKIES
 "
 ;
   
+try
+{
+    
+data
+.
+domcookies
+=
+document
+.
+cookie
+;
+  
+}
+catch
+(
+e
+)
+{
+}
+  
 if
 (
 window
