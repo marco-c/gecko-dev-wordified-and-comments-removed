@@ -563,12 +563,6 @@ mEventTarget
 ;
 RefPtr
 <
-AbstractThread
->
-mAbstractThread
-;
-RefPtr
-<
 JSExecutionManager
 >
 mExecutionManager
