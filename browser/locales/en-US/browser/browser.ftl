@@ -2089,12 +2089,15 @@ window
 -
 restore
 -
+down
+-
 button
 =
 .
 tooltiptext
 =
 Restore
+Down
 browser
 -
 window
