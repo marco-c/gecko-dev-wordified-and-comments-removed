@@ -1447,9 +1447,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 ipc
@@ -1485,9 +1482,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 ipc
@@ -1519,9 +1513,6 @@ CpowEntry
 &
 &
 aCpows
-nsIPrincipal
-*
-aPrincipal
 const
 ClonedMessageData
 &
@@ -3395,9 +3386,6 @@ jsipc
 CpowHolder
 *
 aCpows
-nsIPrincipal
-*
-aPrincipal
 nsTArray
 <
 ipc

@@ -8062,7 +8062,6 @@ false
 nullptr
 nullptr
 nullptr
-nullptr
 IgnoreErrors
 (
 )
@@ -20233,13 +20232,6 @@ CpowEntry
 &
 &
 aCpows
-const
-IPC
-:
-:
-Principal
-&
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -20323,7 +20315,6 @@ true
 data
 &
 cpows
-aPrincipal
 aRetvals
 IgnoreErrors
 (
@@ -20364,13 +20355,6 @@ CpowEntry
 &
 &
 aCpows
-const
-IPC
-:
-:
-Principal
-&
-aPrincipal
 nsTArray
 <
 StructuredCloneData
@@ -20454,7 +20438,6 @@ true
 data
 &
 cpows
-aPrincipal
 aRetvals
 IgnoreErrors
 (
@@ -20491,13 +20474,6 @@ CpowEntry
 &
 &
 aCpows
-const
-IPC
-:
-:
-Principal
-&
-aPrincipal
 const
 ClonedMessageData
 &
@@ -20579,7 +20555,6 @@ false
 data
 &
 cpows
-aPrincipal
 nullptr
 IgnoreErrors
 (
@@ -21666,9 +21641,6 @@ JSObject
 *
 >
 aCpows
-nsIPrincipal
-*
-aPrincipal
 )
 {
 ClonedMessageData
@@ -21744,10 +21716,6 @@ nsString
 aMessage
 )
 cpows
-Principal
-(
-aPrincipal
-)
 data
 )
 )
