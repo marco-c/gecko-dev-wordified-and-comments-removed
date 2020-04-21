@@ -351,6 +351,11 @@ public
 nsGenericHTMLElement
 public
 CanvasRenderingContextHelper
+public
+SupportsWeakPtr
+<
+HTMLCanvasElement
+>
 {
 enum
 {
@@ -434,6 +439,10 @@ NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 HTMLCanvasElement
 nsGenericHTMLElement
+)
+MOZ_DECLARE_WEAKREFERENCE_TYPENAME
+(
+HTMLCanvasElement
 )
 uint32_t
 Height

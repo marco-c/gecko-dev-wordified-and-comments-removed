@@ -9209,7 +9209,14 @@ GetKey
 canvasData
 -
 >
-Present
+RefreshExternalImage
+(
+)
+;
+canvasData
+-
+>
+RequestFrameReadback
 (
 )
 ;

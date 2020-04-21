@@ -30,6 +30,9 @@ GPUTextureDescriptor
 struct
 GPUTextureViewDescriptor
 ;
+class
+HTMLCanvasElement
+;
 }
 namespace
 webgpu
@@ -99,6 +102,15 @@ mParent
 const
 RawId
 mId
+;
+WeakPtr
+<
+dom
+:
+:
+HTMLCanvasElement
+>
+mTargetCanvasElement
 ;
 private
 :

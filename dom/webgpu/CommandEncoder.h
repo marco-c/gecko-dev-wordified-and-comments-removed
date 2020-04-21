@@ -159,6 +159,15 @@ WebGPUChild
 >
 mBridge
 ;
+WeakPtr
+<
+dom
+:
+:
+HTMLCanvasElement
+>
+mTargetCanvasElement
+;
 public
 :
 void
