@@ -125,17 +125,6 @@ aPrincipal
 )
 ;
 ACString
-getCookieString
-(
-in
-nsIURI
-aURI
-in
-nsIChannel
-aChannel
-)
-;
-ACString
 getCookieStringFromHttp
 (
 in
