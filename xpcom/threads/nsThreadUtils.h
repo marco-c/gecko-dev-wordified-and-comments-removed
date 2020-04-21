@@ -7622,6 +7622,16 @@ GetMainThreadSerialEventTarget
 (
 )
 ;
+void
+DispatchAsMicroTask
+(
+already_AddRefed
+<
+nsIRunnable
+>
+aRunnable
+)
+;
 size_t
 GetNumberOfProcessors
 (
