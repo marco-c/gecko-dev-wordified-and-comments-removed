@@ -180,6 +180,8 @@ self
 get_arg
 (
 "
+perfherder
+-
 prefix
 "
 )
@@ -234,6 +236,8 @@ self
 get_arg
 (
 "
+perfherder
+-
 metrics
 "
 )

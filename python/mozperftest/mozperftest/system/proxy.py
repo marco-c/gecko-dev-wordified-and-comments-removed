@@ -115,6 +115,21 @@ metadata
 )
 :
         
+if
+not
+self
+.
+get_arg
+(
+"
+proxy
+"
+)
+:
+            
+return
+metadata
+        
 self
 .
 metadata
