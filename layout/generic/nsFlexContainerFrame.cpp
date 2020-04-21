@@ -20031,12 +20031,12 @@ GetWritingMode
 )
 ;
 LogicalSize
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 (
 flexWM
 )
 ;
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 ISize
 (
@@ -20122,7 +20122,7 @@ aMaxBlockEndEdgeOfChildren
 availableBSizeMinusBEndBP
 )
 {
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20134,7 +20134,7 @@ availableBSizeMinusBEndBP
 }
 else
 {
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20209,7 +20209,7 @@ SetIncomplete
 }
 else
 {
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20269,7 +20269,7 @@ involved
 ;
 aFlexContainerAscent
 =
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20310,7 +20310,7 @@ const
 nscoord
 effectiveContentBSizeWithBStartEndBP
 =
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20340,7 +20340,7 @@ AvailableBSize
 )
 &
 &
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20389,7 +20389,7 @@ blockEndContainerBP
 ;
 }
 }
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20451,7 +20451,7 @@ nscoord_MIN
 {
 mLastBaselineFromLastReflow
 =
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 .
 BSize
 (
@@ -20466,7 +20466,7 @@ aReflowOutput
 SetSize
 (
 flexWM
-reflowOutputInFlexWM
+desiredSizeInFlexWM
 )
 ;
 aReflowOutput
