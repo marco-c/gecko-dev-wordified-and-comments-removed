@@ -1253,11 +1253,8 @@ argv
 ]
 )
 def
-fixStackTraces
+initStackFixing
 (
-inputFilename
-isZipped
-opener
 )
 :
     
@@ -1314,26 +1311,16 @@ bpsyms
         
 import
 fix_stacks
-as
-fixModule
         
-def
-fix
-(
-line
-)
-:
-            
 return
-fixModule
+fix_stacks
 .
-fixSymbols
+init
 (
-line
-jsonMode
+json_mode
 =
 True
-breakpadSymsDir
+breakpad_syms_dir
 =
 bpsyms
 )
@@ -1356,22 +1343,13 @@ Windows
         
 import
 fix_stacks
-as
-fixModule
         
-def
-fix
-(
-line
-)
-:
 return
-fixModule
+fix_stacks
 .
-fixSymbols
+init
 (
-line
-jsonMode
+json_mode
 =
 True
 )
@@ -1380,6 +1358,24 @@ else
 :
         
 return
+(
+lambda
+line
+:
+line
+lambda
+:
+None
+)
+def
+fixStackTraces
+(
+fix
+inputFilename
+isZipped
+opener
+)
+:
     
 tmpFile
 =
@@ -1495,11 +1491,25 @@ args
 no_fix_stacks
 :
         
+(
+fix
+finish
+)
+=
+initStackFixing
+(
+)
+        
 fixStackTraces
 (
+fix
 inputFile
 isZipped
 opener
+)
+        
+finish
+(
 )
     
 if
