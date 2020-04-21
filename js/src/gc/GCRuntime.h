@@ -3235,6 +3235,15 @@ friend
 class
 BackgroundDecommitTask
 ;
+bool
+tooManyEmptyChunks
+(
+const
+AutoLockGC
+&
+lock
+)
+;
 ChunkPool
 expireEmptyChunkPool
 (
