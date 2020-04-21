@@ -3393,8 +3393,6 @@ SetCookieStringFromHttp
 nsIURI
 *
 aHostURI
-nsIURI
-*
 const
 nsACString
 &

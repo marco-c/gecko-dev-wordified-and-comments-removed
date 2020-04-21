@@ -156,9 +156,6 @@ in
 nsIURI
 aURI
 in
-nsIURI
-aFirstURI
-in
 ACString
 aCookie
 in

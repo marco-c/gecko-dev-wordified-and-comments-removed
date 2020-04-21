@@ -105,7 +105,6 @@ cookieService
 setCookieStringFromHttp
 (
 cookieURI
-cookieURI
 "
 BadCookie1
 =
@@ -120,7 +119,6 @@ cookieService
 setCookieStringFromHttp
 (
 cookieURI
-cookieURI
 "
 BadCookie2
 =
@@ -134,7 +132,6 @@ cookieService
 .
 setCookieStringFromHttp
 (
-cookieURI
 cookieURI
 "
 Bad
@@ -151,7 +148,6 @@ cookieService
 setCookieStringFromHttp
 (
 cookieURI
-cookieURI
 GOOD_COOKIE
 null
 )
@@ -160,7 +156,6 @@ cookieService
 .
 setCookieStringFromHttp
 (
-cookieURI
 cookieURI
 SPACEY_COOKIE
 null

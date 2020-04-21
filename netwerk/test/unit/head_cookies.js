@@ -463,7 +463,6 @@ cookies
 setCookieStringFromHttp
 (
 uri
-null
 "
 foo
 =
@@ -597,7 +596,6 @@ cookies
 setCookieStringFromHttp
 (
 uri
-null
 "
 cheez
 =
@@ -635,7 +633,6 @@ cookies
 setCookieStringFromHttp
 (
 uri
-null
 "
 hot
 =
