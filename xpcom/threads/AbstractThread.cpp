@@ -391,7 +391,10 @@ EventTargetWrapper
 FireTailDispatcher
 )
 ;
-DispatchAsMicroTask
+nsContentUtils
+:
+:
+RunInStableState
 (
 event
 .
