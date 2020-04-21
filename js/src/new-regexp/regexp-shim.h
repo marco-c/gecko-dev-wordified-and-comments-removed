@@ -5322,10 +5322,6 @@ FLAG_correctness_fuzzer_suppressions
 ;
 extern
 bool
-FLAG_enable_regexp_unaligned_accesses
-;
-extern
-bool
 FLAG_harmony_regexp_sequence
 ;
 extern
@@ -5351,6 +5347,12 @@ FLAG_regexp_possessive_quantifier
 extern
 bool
 FLAG_regexp_tier_up
+;
+const
+bool
+FLAG_enable_regexp_unaligned_accesses
+=
+false
 ;
 extern
 bool
