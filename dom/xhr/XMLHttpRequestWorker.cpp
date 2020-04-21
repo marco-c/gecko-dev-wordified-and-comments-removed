@@ -7341,6 +7341,11 @@ clientInfo
 mWorkerPrivate
 -
 >
+GlobalScope
+(
+)
+-
+>
 GetClientInfo
 (
 )
@@ -7377,6 +7382,11 @@ ref
 (
 )
 mWorkerPrivate
+-
+>
+GlobalScope
+(
+)
 -
 >
 GetController

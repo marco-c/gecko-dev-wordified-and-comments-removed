@@ -160,6 +160,10 @@ attribute
 EventHandler
 onmessage
 ;
+attribute
+EventHandler
+onmessageerror
+;
 [
 Throws
 ]
