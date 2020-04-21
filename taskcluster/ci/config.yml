@@ -4247,6 +4247,11 @@ large
 |
 -
 xlarge
+|
+-
+xlarge
+-
+source
 )
 :
 provisioner
@@ -4571,6 +4576,9 @@ win10
 gpu
 -
 s
+|
+-
+source
 )
 :
 provisioner
