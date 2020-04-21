@@ -1359,11 +1359,6 @@ str
 )
 ;
 bool
-FLAG_correctness_fuzzer_suppressions
-=
-false
-;
-bool
 FLAG_harmony_regexp_sequence
 =
 false
