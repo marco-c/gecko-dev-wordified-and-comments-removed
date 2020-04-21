@@ -6379,7 +6379,12 @@ pairCount
 ;
 ticks_
 =
-10
+jit
+:
+:
+JitOptions
+.
+regexpWarmUpThreshold
 ;
 }
 void
