@@ -521,9 +521,6 @@ IsInComposedDoc
 |
 |
 mFrameLoader
-|
-|
-mFrameLoaderCreationDisallowed
 )
 {
 return
