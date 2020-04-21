@@ -354,6 +354,16 @@ nsresult
 aRv
 )
 ;
+bool
+OpenFromParent
+(
+nsDocShellLoadState
+*
+aLoadState
+uint64_t
+aOuterWindowId
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIREQUESTOBSERVER
 NS_DECL_NSISTREAMLISTENER
@@ -707,10 +717,6 @@ uint64_t
 >
 &
 aDestinationProcess
-=
-Nothing
-(
-)
 )
 ;
 void

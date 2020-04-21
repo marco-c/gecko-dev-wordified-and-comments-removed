@@ -458,6 +458,16 @@ GetMediaController
 )
 ;
 bool
+AttemptLoadURIInParent
+(
+nsDocShellLoadState
+*
+aLoadState
+bool
+aSetNavigating
+)
+;
+bool
 HasHistoryEntry
 (
 nsISHEntry
@@ -684,7 +694,7 @@ net
 :
 DocumentLoadListener
 ;
-void
+bool
 StartDocumentLoad
 (
 net

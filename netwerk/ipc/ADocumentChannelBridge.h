@@ -61,6 +61,16 @@ Delete
 0
 ;
 virtual
+bool
+SupportsRedirectToRealChannel
+(
+)
+{
+return
+true
+;
+}
+virtual
 RefPtr
 <
 PDocumentChannelParent
