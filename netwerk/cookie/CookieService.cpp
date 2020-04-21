@@ -2957,6 +2957,9 @@ continue
 }
 if
 (
+aHttpBound
+&
+&
 aIsSameSiteForeign
 &
 &
