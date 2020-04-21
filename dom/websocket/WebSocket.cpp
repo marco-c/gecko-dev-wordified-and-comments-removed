@@ -6874,7 +6874,7 @@ nsHTTPSOnlyUtils
 LogLocalizedString
 (
 "
-HTTPSOnlyUpgradeInsecureRequest
+HTTPSOnlyUpgradeRequest
 "
 params
 nsIScriptError
