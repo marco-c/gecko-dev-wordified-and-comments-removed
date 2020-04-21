@@ -90,7 +90,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -120,7 +120,7 @@ Then
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -261,7 +261,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -335,7 +335,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -398,7 +398,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -451,7 +451,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__
@@ -501,7 +501,7 @@ InvokeAsync
 RemoteDecoderManagerChild
 :
 :
-GetManagerAbstractThread
+GetManagerThread
 (
 )
 __func__

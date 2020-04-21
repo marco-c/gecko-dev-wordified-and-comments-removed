@@ -89,13 +89,6 @@ GetManagerThread
 (
 )
 ;
-static
-AbstractThread
-*
-GetManagerAbstractThread
-(
-)
-;
 already_AddRefed
 <
 gfx
