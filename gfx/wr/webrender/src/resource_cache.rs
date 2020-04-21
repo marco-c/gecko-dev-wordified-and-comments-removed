@@ -6232,6 +6232,17 @@ All
 ;
 template
 .
+dirty_rect
+=
+DirtyRect
+:
+:
+empty
+(
+)
+;
+template
+.
 valid_tiles_after_bounds_change
 =
 None
