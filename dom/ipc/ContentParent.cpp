@@ -4877,14 +4877,6 @@ mOpener
 =
 aOpener
 ;
-MOZ_DIAGNOSTIC_ASSERT
-(
-p
--
->
-mScriptableHelper
-)
-;
 aContentParents
 .
 AppendElement
