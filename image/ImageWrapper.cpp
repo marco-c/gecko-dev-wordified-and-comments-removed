@@ -1029,7 +1029,10 @@ aWhichFrame
 )
 ;
 }
-bool
+imgIContainer
+:
+:
+DecodeResult
 ImageWrapper
 :
 :

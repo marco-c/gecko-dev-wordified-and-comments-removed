@@ -752,7 +752,7 @@ aFlags
 )
 override
 ;
-bool
+void
 Decode
 (
 const
@@ -763,6 +763,12 @@ uint32_t
 aFlags
 PlaybackType
 aPlaybackType
+bool
+&
+aOutRanSync
+bool
+&
+aOutFailed
 )
 ;
 NS_IMETHOD
@@ -1112,7 +1118,7 @@ IsOpaque
 (
 )
 ;
-DrawableSurface
+LookupResult
 RequestDecodeForSizeInternal
 (
 const

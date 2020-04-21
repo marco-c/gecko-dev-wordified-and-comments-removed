@@ -1136,7 +1136,10 @@ return
 true
 ;
 }
-bool
+imgIContainer
+:
+:
+DecodeResult
 DynamicImage
 :
 :
@@ -1149,7 +1152,10 @@ aWhichFrame
 )
 {
 return
-true
+imgIContainer
+:
+:
+DECODE_SURFACE_AVAILABLE
 ;
 }
 NS_IMETHODIMP

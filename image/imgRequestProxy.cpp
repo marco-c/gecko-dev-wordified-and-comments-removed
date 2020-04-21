@@ -1966,7 +1966,10 @@ return
 false
 ;
 }
-bool
+imgIContainer
+:
+:
+DecodeResult
 imgRequestProxy
 :
 :
@@ -1988,7 +1991,10 @@ mDecodeRequested
 true
 ;
 return
-false
+imgIContainer
+:
+:
+DECODE_REQUESTED
 ;
 }
 RefPtr
@@ -2034,7 +2040,10 @@ StartDecoding
 ;
 }
 return
-false
+imgIContainer
+:
+:
+DECODE_REQUESTED
 ;
 }
 NS_IMETHODIMP
