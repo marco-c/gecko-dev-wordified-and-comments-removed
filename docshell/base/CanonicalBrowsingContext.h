@@ -400,6 +400,13 @@ ErrorResult
 aError
 )
 ;
+void
+Stop
+(
+uint32_t
+aStopFlags
+)
+;
 using
 RemotenessPromise
 =

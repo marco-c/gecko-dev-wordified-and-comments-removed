@@ -675,6 +675,14 @@ aOptions
 }
 )
 ;
+void
+stop
+(
+unsigned
+long
+aStopFlags
+)
+;
 [
 Throws
 ]

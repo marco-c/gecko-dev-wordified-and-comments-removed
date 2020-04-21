@@ -2772,6 +2772,15 @@ aURI
 )
 ;
 async
+StopLoad
+(
+MaybeDiscardedBrowsingContext
+aContext
+uint32_t
+aStopFlags
+)
+;
+async
 UpdateSHEntriesInDocShell
 (
 CrossProcessSHEntry
