@@ -2978,6 +2978,17 @@ false
 }
 if
 (
+GetWatchedByDevtools
+(
+)
+)
+{
+return
+false
+;
+}
+if
+(
 !
 aLoadState
 -
