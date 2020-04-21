@@ -90,6 +90,10 @@ aContent
 aDoc
 )
 {
+mType
+=
+eHTMLLinkType
+;
 }
 role
 HTMLLinkAccessible
