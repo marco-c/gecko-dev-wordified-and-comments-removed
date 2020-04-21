@@ -1814,10 +1814,6 @@ const
 nsACString
 &
 aCookieHeader
-const
-nsACString
-&
-aServerTime
 nsIChannel
 *
 aChannel

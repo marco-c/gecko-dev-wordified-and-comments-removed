@@ -233,7 +233,6 @@ oh3
 hai
 "
 null
-null
 )
 ;
 Assert

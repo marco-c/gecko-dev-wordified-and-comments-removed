@@ -113,7 +113,6 @@ BadCookie1
 x01
 "
 null
-null
 )
 ;
 cookieService
@@ -128,7 +127,6 @@ BadCookie2
 \
 v
 "
-null
 null
 )
 ;
@@ -146,7 +144,6 @@ x07Name
 illegal
 "
 null
-null
 )
 ;
 cookieService
@@ -157,7 +154,6 @@ cookieURI
 cookieURI
 GOOD_COOKIE
 null
-null
 )
 ;
 cookieService
@@ -167,7 +163,6 @@ setCookieStringFromHttp
 cookieURI
 cookieURI
 SPACEY_COOKIE
-null
 null
 )
 ;

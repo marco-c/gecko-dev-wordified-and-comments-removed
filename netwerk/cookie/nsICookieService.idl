@@ -165,9 +165,6 @@ in
 ACString
 aCookie
 in
-ACString
-aServerTime
-in
 nsIChannel
 aChannel
 )
