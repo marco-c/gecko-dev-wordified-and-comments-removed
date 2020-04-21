@@ -1294,11 +1294,6 @@ Capture
 )
 ;
 void
-ToggleCaptureSequence
-(
-)
-;
-void
 SetTransactionLogging
 (
 bool
@@ -1431,9 +1426,6 @@ mUseDComp
 ;
 bool
 mUseTripleBuffering
-;
-bool
-mCaptureSequence
 ;
 layers
 :
