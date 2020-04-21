@@ -1326,14 +1326,6 @@ true
 "
 dom
 .
-mozBrowserFramesEnabled
-"
-true
-]
-[
-"
-dom
-.
 ipc
 .
 tabs

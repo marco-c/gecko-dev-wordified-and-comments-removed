@@ -2784,14 +2784,6 @@ stage
 ]
 [
 "
-dom
-.
-mozBrowserFramesEnabled
-"
-true
-]
-[
-"
 network
 .
 disable
