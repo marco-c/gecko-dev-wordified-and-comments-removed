@@ -461,6 +461,13 @@ JSHolderMap
 {
 public
 :
+enum
+WhichHolders
+{
+AllHolders
+HoldersInCollectingZones
+}
+;
 JSHolderMap
 (
 )
@@ -477,6 +484,10 @@ F
 &
 &
 f
+WhichHolders
+aWhich
+=
+AllHolders
 )
 ;
 bool
@@ -1085,6 +1096,11 @@ TraceNativeGrayRoots
 JSTracer
 *
 aTracer
+JSHolderMap
+:
+:
+WhichHolders
+aWhich
 )
 ;
 public
