@@ -47,6 +47,8 @@ ac_add_options
 enable
 -
 fuzzing
+unset
+MOZ_STDCXX_COMPAT
 #
 Need
 this

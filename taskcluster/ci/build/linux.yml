@@ -492,11 +492,6 @@ MOZ_LOW_PARALLELISM_BUILD
 PERFHERDER_EXTRA_OPTIONS
 :
 fuzzing
-FORCE_GCC
-:
-'
-1
-'
 run
 :
 using
@@ -573,13 +568,11 @@ toolchain
 -
 linux64
 -
-clang
+binutils
 -
 linux64
 -
-gcc
--
-8
+clang
 -
 linux64
 -
