@@ -551,6 +551,11 @@ Capture
 )
 ;
 async
+ToggleCaptureSequence
+(
+)
+;
+async
 SetTransactionLogging
 (
 bool
