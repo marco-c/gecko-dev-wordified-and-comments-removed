@@ -142,6 +142,7 @@ GCCellPtr
 output
 )
 const
+override
 ;
 virtual
 void
@@ -152,6 +153,7 @@ GCPtrAtom
 atoms
 )
 const
+override
 ;
 virtual
 void
@@ -159,6 +161,7 @@ finishInnerFunctions
 (
 )
 const
+override
 ;
 }
 ;
