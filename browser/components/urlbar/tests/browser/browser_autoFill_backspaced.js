@@ -1238,7 +1238,7 @@ UrlbarUtils
 .
 RESULT_TYPE
 .
-URL
+SEARCH
 }
 )
 ;
