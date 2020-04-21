@@ -1995,7 +1995,7 @@ jit
 :
 :
 Label
-convert_capture
+convert_match
 ;
 masm_
 .
@@ -2043,7 +2043,7 @@ a
 '
 )
 &
-convert_capture
+convert_match
 )
 ;
 masm_
@@ -2104,7 +2104,7 @@ masm_
 bind
 (
 &
-convert_capture
+convert_match
 )
 ;
 masm_
@@ -2113,7 +2113,7 @@ load8ZeroExtend
 (
 Address
 (
-current_character_
+current_position_
 0
 )
 temp2_
