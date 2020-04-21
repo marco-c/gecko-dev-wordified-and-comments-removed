@@ -6457,6 +6457,10 @@ file
 }
 if
 (
+!
+gModernConfig
+&
+&
 json
 .
 appVersion
