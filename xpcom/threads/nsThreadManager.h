@@ -169,6 +169,16 @@ MainThreadHasPendingHighPriorityEvents
 (
 )
 ;
+nsIThread
+*
+GetMainThreadWeak
+(
+)
+{
+return
+mMainThread
+;
+}
 private
 :
 nsThreadManager
