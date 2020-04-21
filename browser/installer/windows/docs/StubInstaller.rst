@@ -130,3 +130,4 @@ toctree
 StubConfig
 StubPing
 StubArch
+StubGUI
