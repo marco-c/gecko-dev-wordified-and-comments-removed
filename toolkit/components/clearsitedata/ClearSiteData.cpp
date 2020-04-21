@@ -675,16 +675,12 @@ return
 }
 bool
 secure
-;
-rv
 =
 principal
 -
 >
 GetIsOriginPotentiallyTrustworthy
 (
-&
-secure
 )
 ;
 if
