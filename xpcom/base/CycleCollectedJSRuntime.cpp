@@ -6642,6 +6642,12 @@ if
 tracer
 )
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+nogc
+;
 tracer
 -
 >
