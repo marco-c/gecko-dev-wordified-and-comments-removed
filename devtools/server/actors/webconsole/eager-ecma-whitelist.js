@@ -269,6 +269,14 @@ Function
 prototype
 .
 call
+Function
+.
+prototype
+[
+Symbol
+.
+hasInstance
+]
 Int8Array
 Uint8Array
 Uint8ClampedArray
