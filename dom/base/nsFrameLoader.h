@@ -1065,14 +1065,6 @@ mOwnerContent
 ;
 }
 void
-InitializeFromBrowserParent
-(
-BrowserParent
-*
-aBrowserParent
-)
-;
-void
 SetDetachedSubdocFrame
 (
 nsIFrame
