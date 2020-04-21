@@ -1094,9 +1094,9 @@ useStrict
 sc
 -
 >
-strictScript
-=
-true
+setStrictScript
+(
+)
 ;
 break
 ;
