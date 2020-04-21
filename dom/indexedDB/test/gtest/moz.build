@@ -110,6 +110,11 @@ TestKey
 .
 cpp
 '
+'
+TestSafeRefPtr
+.
+cpp
+'
 ]
 include
 (
