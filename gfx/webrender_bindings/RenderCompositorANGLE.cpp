@@ -765,6 +765,12 @@ egl
 mEGLConfig
 32
 true
+gl
+-
+>
+IsGLES
+(
+)
 )
 )
 {
