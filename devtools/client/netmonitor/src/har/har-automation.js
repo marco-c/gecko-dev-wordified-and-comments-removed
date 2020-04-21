@@ -159,11 +159,11 @@ toolbox
 toolbox
 ;
 const
+{
 target
+}
 =
 toolbox
-.
-target
 ;
 this
 .

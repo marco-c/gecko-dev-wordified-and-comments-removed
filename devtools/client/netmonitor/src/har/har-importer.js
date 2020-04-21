@@ -451,13 +451,13 @@ afterRequest
 )
 {
 const
+{
 afterRequest
+}
 =
 entry
 .
 cache
-.
-afterRequest
 ;
 data
 .

@@ -545,11 +545,11 @@ created
 )
 ;
 const
+{
 data
+}
 =
 imageData
-.
-data
 ;
 ok
 (

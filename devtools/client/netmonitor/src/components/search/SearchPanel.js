@@ -543,11 +543,11 @@ props
 )
 {
 const
+{
 member
+}
 =
 props
-.
-member
 ;
 const
 level

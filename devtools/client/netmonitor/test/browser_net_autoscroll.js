@@ -164,11 +164,11 @@ bottom
 )
 ;
 const
+{
 scrollTop
+}
 =
 requestsContainer
-.
-scrollTop
 ;
 await
 waitForNetworkEvents

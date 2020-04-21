@@ -238,11 +238,11 @@ label2header
 )
 ;
 const
+{
 node
+}
 =
 table
-.
-node
 ;
 const
 title

@@ -215,13 +215,13 @@ true
 )
 ;
 const
+{
 OS
+}
 =
 Services
 .
 appinfo
-.
-OS
 ;
 class
 RequestListContextMenu

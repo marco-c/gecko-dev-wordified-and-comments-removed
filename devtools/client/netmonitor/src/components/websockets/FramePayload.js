@@ -1211,13 +1211,13 @@ render
 )
 {
 let
+{
 payload
+}
 =
 this
 .
 state
-.
-payload
 ;
 let
 isTruncated

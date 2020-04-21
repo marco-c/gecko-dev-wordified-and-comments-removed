@@ -527,11 +527,11 @@ data
 )
 {
 const
+{
 headers
+}
 =
 data
-.
-headers
 ;
 const
 hostName
@@ -651,11 +651,11 @@ data
 )
 {
 const
+{
 headers
+}
 =
 data
-.
-headers
 ;
 const
 contentType

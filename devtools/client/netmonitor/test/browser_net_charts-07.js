@@ -172,11 +172,11 @@ label2
 )
 ;
 const
+{
 node
+}
 =
 table
-.
-node
 ;
 const
 grid

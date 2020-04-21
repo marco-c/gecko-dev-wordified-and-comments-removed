@@ -258,15 +258,15 @@ netmonitor
 )
 ;
 const
+{
 top
+}
 =
 iframe
 .
 ownerDocument
 .
 defaultView
-.
-top
 ;
 top
 .
