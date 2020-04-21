@@ -9620,6 +9620,7 @@ js
 :
 GetObjectZoneFromAnyThread
 (
+const
 JSObject
 *
 obj

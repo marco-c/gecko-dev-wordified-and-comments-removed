@@ -6358,6 +6358,12 @@ aHolder
 nsScriptObjectTracer
 *
 aTracer
+JS
+:
+:
+Zone
+*
+aZone
 )
 {
 mJSHolders
