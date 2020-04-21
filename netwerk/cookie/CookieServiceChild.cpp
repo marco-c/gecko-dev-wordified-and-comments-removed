@@ -3346,8 +3346,6 @@ GetCookieStringFromHttp
 (
 nsIURI
 *
-nsIURI
-*
 nsIChannel
 *
 nsACString

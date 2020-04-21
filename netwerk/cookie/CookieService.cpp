@@ -1511,8 +1511,6 @@ GetCookieStringFromHttp
 nsIURI
 *
 aHostURI
-nsIURI
-*
 nsIChannel
 *
 aChannel

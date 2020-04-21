@@ -131,9 +131,6 @@ in
 nsIURI
 aURI
 in
-nsIURI
-aFirstURI
-in
 nsIChannel
 aChannel
 )

@@ -154,7 +154,6 @@ getCookieStringFromHttp
 (
 uri
 null
-null
 )
 ;
 Assert

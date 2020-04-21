@@ -708,11 +708,7 @@ aCookieService
 const
 char
 *
-aSpec1
-const
-char
-*
-aSpec2
+aSpec
 nsACString
 &
 aCookie
@@ -722,29 +718,15 @@ nsCOMPtr
 <
 nsIURI
 >
-uri1
-uri2
+uri
 ;
 NS_NewURI
 (
 getter_AddRefs
 (
-uri1
+uri
 )
-aSpec1
-)
-;
-if
-(
-aSpec2
-)
-NS_NewURI
-(
-getter_AddRefs
-(
-uri2
-)
-aSpec2
+aSpec
 )
 ;
 Unused
@@ -755,8 +737,7 @@ aCookieService
 >
 GetCookieStringFromHttp
 (
-uri1
-uri2
+uri
 nullptr
 aCookie
 )
@@ -1085,7 +1066,6 @@ basic
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1127,7 +1107,6 @@ testfile
 .
 txt
 "
-nullptr
 cookie
 )
 ;
@@ -1165,7 +1144,6 @@ com
 .
 /
 "
-nullptr
 cookie
 )
 ;
@@ -1197,7 +1175,6 @@ basic
 com
 .
 "
-nullptr
 cookie
 )
 ;
@@ -1235,7 +1212,6 @@ testfile
 .
 txt
 "
-nullptr
 cookie
 )
 ;
@@ -1267,7 +1243,6 @@ basic2
 com
 /
 "
-nullptr
 cookie
 )
 ;
@@ -1328,7 +1303,6 @@ basic
 com
 /
 "
-nullptr
 cookie
 )
 ;
@@ -1385,7 +1359,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1420,7 +1393,6 @@ domain
 com
 .
 "
-nullptr
 cookie
 )
 ;
@@ -1451,7 +1423,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1487,7 +1458,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1556,7 +1526,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1614,7 +1583,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1650,7 +1618,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1686,7 +1653,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1756,7 +1722,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1818,7 +1783,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1877,7 +1841,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1937,7 +1900,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -1998,7 +1960,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -2060,7 +2021,6 @@ domain
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -2127,7 +2087,6 @@ path
 /
 file
 "
-nullptr
 cookie
 )
 ;
@@ -2196,7 +2155,6 @@ path
 /
 file
 "
-nullptr
 cookie
 )
 ;
@@ -2256,7 +2214,6 @@ net
 /
 path
 "
-nullptr
 cookie
 )
 ;
@@ -2293,7 +2250,6 @@ net
 path
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2333,7 +2289,6 @@ hithere
 .
 foo
 "
-nullptr
 cookie
 )
 ;
@@ -2373,7 +2328,6 @@ hithere
 /
 foo
 "
-nullptr
 cookie
 )
 ;
@@ -2409,7 +2363,6 @@ net
 /
 path2
 "
-nullptr
 cookie
 )
 ;
@@ -2441,7 +2394,6 @@ net
 path2
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2509,7 +2461,6 @@ net
 path
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2570,7 +2521,6 @@ net
 /
 path
 "
-nullptr
 cookie
 )
 ;
@@ -2602,7 +2552,6 @@ net
 path
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2676,7 +2625,6 @@ net
 path
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2737,7 +2685,6 @@ net
 /
 path
 "
-nullptr
 cookie
 )
 ;
@@ -2768,7 +2715,6 @@ net
 /
 foo
 "
-nullptr
 cookie
 )
 ;
@@ -2837,7 +2783,6 @@ net
 foo
 /
 "
-nullptr
 cookie
 )
 ;
@@ -2985,7 +2930,6 @@ net
 "
 9012345678901234567890
 "
-nullptr
 cookie
 )
 ;
@@ -3128,7 +3072,6 @@ net
 9012345678901234567890
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3191,7 +3134,6 @@ foo
 tbar
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3244,7 +3186,6 @@ path
 net
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3297,7 +3238,6 @@ path
 net
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3364,7 +3304,6 @@ path
 net
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3422,7 +3361,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3479,7 +3417,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3534,7 +3471,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3603,7 +3539,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3671,7 +3606,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3740,7 +3674,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3797,7 +3730,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3860,7 +3792,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3917,7 +3848,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -3986,7 +3916,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4070,7 +3999,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4150,7 +4078,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4212,7 +4139,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4278,7 +4204,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4349,7 +4274,6 @@ expireme
 org
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4456,7 +4380,6 @@ multiple
 cookies
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4615,7 +4538,6 @@ multiple
 cookies
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4681,7 +4603,6 @@ multiple
 cookies
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4743,7 +4664,6 @@ multiple
 cookies
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4826,7 +4746,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4895,7 +4814,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -4986,7 +4904,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5087,7 +5004,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5136,7 +5052,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5188,7 +5103,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5241,7 +5155,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5295,7 +5208,6 @@ parser
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5545,7 +5457,6 @@ five
 six
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5632,7 +5543,6 @@ httponly
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5685,7 +5595,6 @@ httponly
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5794,7 +5703,6 @@ httponly
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5908,7 +5816,6 @@ httponly
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -5973,7 +5880,6 @@ httponly
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6262,7 +6168,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6338,7 +6243,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6418,7 +6322,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6475,7 +6378,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6645,7 +6547,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -6776,7 +6677,6 @@ prefixed
 test
 /
 "
-nullptr
 cookie
 )
 ;
@@ -7739,7 +7639,6 @@ test
 foo
 /
 "
-nullptr
 cookie
 )
 ;
@@ -8117,7 +8016,6 @@ ordering
 tests
 /
 "
-nullptr
 cookie
 )
 ;
@@ -8273,7 +8171,6 @@ ordering
 tests
 /
 "
-nullptr
 cookie
 )
 ;
@@ -8900,7 +8797,6 @@ notsamesite
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -8957,7 +8853,6 @@ notsamesite
 .
 com
 "
-nullptr
 cookie
 )
 ;
@@ -9106,7 +9001,6 @@ secureURIs
 [
 i
 ]
-nullptr
 cookie
 )
 ;
