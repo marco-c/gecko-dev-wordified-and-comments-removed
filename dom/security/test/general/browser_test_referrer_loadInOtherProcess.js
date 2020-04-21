@@ -413,6 +413,7 @@ BrowserTestUtils
 browserStopped
 (
 gBrowser
+uri
 )
 ;
 }
