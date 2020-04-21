@@ -94,7 +94,7 @@ startWorkerInner
 "
 file
 :
-TOP_FILE_NAME
+TOP_URL
 line
 :
 11
@@ -107,7 +107,7 @@ startWorker
 "
 file
 :
-TOP_FILE_NAME
+TOP_URL
 line
 :
 8
@@ -115,7 +115,7 @@ line
 {
 file
 :
-TOP_FILE_NAME
+TOP_URL
 line
 :
 4
@@ -156,7 +156,7 @@ importScriptsFromWorker
 "
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 14
@@ -164,7 +164,7 @@ line
 {
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 10
@@ -205,7 +205,7 @@ importScriptsFromWorker
 "
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 14
@@ -213,7 +213,7 @@ line
 {
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 10
@@ -256,7 +256,7 @@ startWorkerFromWorker
 "
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 7
@@ -264,7 +264,7 @@ line
 {
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 3
@@ -305,7 +305,7 @@ createJSONRequest
 "
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 22
@@ -313,7 +313,7 @@ line
 {
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 18
@@ -354,7 +354,7 @@ fetchThing
 "
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 29
@@ -362,7 +362,7 @@ line
 {
 file
 :
-WORKER_FILE_NAME
+WORKER_URL
 line
 :
 26

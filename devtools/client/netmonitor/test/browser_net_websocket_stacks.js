@@ -98,7 +98,7 @@ openSocket
 "
 file
 :
-TOP_FILE_NAME
+TOP_URL
 line
 :
 6
@@ -138,7 +138,7 @@ stack
 {
 file
 :
-TOP_FILE_NAME
+TOP_URL
 line
 :
 9
@@ -182,6 +182,8 @@ openWorkerSocket
 "
 file
 :
+EXAMPLE_URL
++
 WORKER_FILE_NAME
 line
 :

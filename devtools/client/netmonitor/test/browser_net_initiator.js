@@ -179,7 +179,7 @@ performXhrRequestCallback
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 30
@@ -218,7 +218,7 @@ performFetchRequest
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 35
@@ -257,7 +257,7 @@ performPromiseFetchRequestCallback
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 41
@@ -270,7 +270,7 @@ performPromiseFetchRequest
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 40
@@ -315,7 +315,7 @@ performTimeoutFetchRequestCallback2
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 48
@@ -328,7 +328,7 @@ performTimeoutFetchRequestCallback1
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 47
@@ -427,7 +427,7 @@ performBeaconRequest
 "
 file
 :
-INITIATOR_FILE_NAME
+INITIATOR_URL
 line
 :
 70
