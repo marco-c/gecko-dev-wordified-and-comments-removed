@@ -1372,8 +1372,6 @@ d
 )
 ;
 }
-public
-:
 template
 <
 typename
@@ -3434,6 +3432,7 @@ asBits_
 )
 ;
 }
+constexpr
 uint64_t
 asRawBits
 (
