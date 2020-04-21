@@ -202,6 +202,7 @@ CanonicalBrowsingContext
 GetBrowsingContext
 (
 )
+const
 {
 return
 mBrowsingContext

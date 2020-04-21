@@ -46,6 +46,8 @@ nsresult
 aStatus
 nsresult
 aLoadGroupStatus
+bool
+aSwitchingToNewProcess
 )
 =
 0
