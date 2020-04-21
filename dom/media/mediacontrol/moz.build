@@ -80,6 +80,11 @@ ContentMediaController
 h
 '
 '
+FetchImageHelper
+.
+h
+'
+'
 MediaControlKeysEvent
 .
 h
@@ -133,6 +138,11 @@ cpp
 '
 '
 ContentMediaController
+.
+cpp
+'
+'
+FetchImageHelper
 .
 cpp
 '
