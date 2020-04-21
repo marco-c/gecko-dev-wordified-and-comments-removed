@@ -777,7 +777,7 @@ lastFrameExists
 {
 const
 {
-filename
+file
 line
 :
 _lineNumber
@@ -794,7 +794,7 @@ initiator
 =
 getUrlBaseName
 (
-filename
+file
 )
 ;
 lineNumber
@@ -877,7 +877,7 @@ stacktraceAvailable
 {
 const
 {
-fileName
+filename
 lineNumber
 }
 =
@@ -891,7 +891,7 @@ initiator
 =
 getUrlBaseName
 (
-fileName
+filename
 )
 +
 "
