@@ -2639,6 +2639,11 @@ causeType
 channel
 .
 loadFlags
+channel
+.
+loadInfo
+.
+internalContentPolicyType
 )
 loadingDocumentUri
 :
@@ -5655,6 +5660,7 @@ causeTypeToString
 (
 causeType
 loadFlags
+internalContentPolicyType
 )
 {
 let
@@ -5676,14 +5682,14 @@ nsIContentPolicy
 TYPE_IMAGESET
 |
 |
-causeType
+internalContentPolicyType
 =
 =
 Ci
 .
 nsIContentPolicy
 .
-TYPE_IMAGE
+TYPE_INTERNAL_IMAGE
 )
 &
 &
