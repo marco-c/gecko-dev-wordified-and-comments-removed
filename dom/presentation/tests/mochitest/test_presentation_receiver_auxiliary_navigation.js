@@ -527,14 +527,6 @@ true
 ]
 [
 "
-dom
-.
-mozBrowserFramesEnabled
-"
-true
-]
-[
-"
 network
 .
 disable
