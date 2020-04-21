@@ -945,14 +945,6 @@ Element
 override
 ;
 NS_IMETHOD
-GetNestedFrameId
-(
-uint64_t
-*
-)
-override
-;
-NS_IMETHOD
 GetIsContent
 (
 bool
