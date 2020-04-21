@@ -215,6 +215,13 @@ BrowserTestUtils
 addTab
 (
 gBrowser
+)
+;
+BrowserTestUtils
+.
+loadURI
+(
+gBrowser
 TESTROOT
 +
 "

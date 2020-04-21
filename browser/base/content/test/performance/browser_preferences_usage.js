@@ -764,7 +764,7 @@ enabled
 {
 min
 :
-39
+45
 max
 :
 55

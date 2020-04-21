@@ -65,6 +65,9 @@ dom
 CanonicalBrowsingContext
 *
 aContext
+nsILoadContext
+*
+aLoadContext
 )
 ;
 bool
@@ -138,8 +141,6 @@ nsresult
 aStatus
 nsresult
 aLoadGroupStatus
-bool
-aSwitchingToNewProcess
 )
 override
 {

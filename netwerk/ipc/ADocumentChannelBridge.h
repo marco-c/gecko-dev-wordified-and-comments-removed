@@ -46,8 +46,6 @@ nsresult
 aStatus
 nsresult
 aLoadGroupStatus
-bool
-aSwitchingToNewProcess
 )
 =
 0
@@ -60,16 +58,6 @@ Delete
 =
 0
 ;
-virtual
-bool
-SupportsRedirectToRealChannel
-(
-)
-{
-return
-true
-;
-}
 virtual
 RefPtr
 <
