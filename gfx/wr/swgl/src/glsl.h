@@ -10596,6 +10596,8 @@ index
 {
 float
 sel_x
+=
+0
 ;
 switch
 (
@@ -10651,6 +10653,8 @@ break
 }
 float
 sel_y
+=
+0
 ;
 switch
 (
@@ -10706,6 +10710,8 @@ break
 }
 float
 sel_z
+=
+0
 ;
 switch
 (
@@ -10761,6 +10767,8 @@ break
 }
 float
 sel_w
+=
+0
 ;
 switch
 (
