@@ -5707,7 +5707,7 @@ Volatile
 #
 ifdef
 JS_USE_LINK_REGISTER
-masm
+masm_
 .
 pushReturnAddress
 (
