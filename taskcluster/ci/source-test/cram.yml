@@ -40,8 +40,6 @@ t
 linux
 -
 xlarge
--
-source
 worker
 :
 docker
