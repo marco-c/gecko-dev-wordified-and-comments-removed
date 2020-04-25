@@ -694,10 +694,10 @@ processed
 ;
 resolve
 (
-.
-.
-.
 args
+[
+0
+]
 )
 ;
 }
