@@ -4,10 +4,6 @@ hashbrown
 ;
 extern
 crate
-hashglobe
-;
-extern
-crate
 smallvec
 ;
 use
