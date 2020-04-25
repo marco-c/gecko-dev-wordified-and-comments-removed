@@ -5650,6 +5650,17 @@ return
 AXTabButton
 "
 ;
+case
+roles
+:
+:
+SEPARATOR
+:
+return
+"
+AXContentSeparator
+"
+;
 default
 :
 break
