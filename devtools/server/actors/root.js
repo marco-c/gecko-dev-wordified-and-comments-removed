@@ -330,9 +330,6 @@ true
 bulk
 :
 true
-webConsoleCommands
-:
-true
 get
 allowChromeProcess
 (

@@ -2490,14 +2490,7 @@ target
 )
 {
 return
-target
-.
-getTrait
-(
-"
-webConsoleCommands
-"
-)
+true
 ;
 }
 build
