@@ -3815,7 +3815,6 @@ DontCheckThresholds
 maybeAllocTriggerZoneGC
 (
 zone
-ArenaSize
 )
 ;
 }
