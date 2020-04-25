@@ -242,9 +242,17 @@ createCopySubMenu
 (
 clickedRequest
 requests
-connector
 )
 {
+const
+{
+connector
+}
+=
+this
+.
+props
+;
 const
 {
 id
@@ -1388,7 +1396,6 @@ createCopySubMenu
 (
 clickedRequest
 requests
-connector
 )
 ;
 const
