@@ -6103,8 +6103,7 @@ textbox
 .
 width
 <
-=
-500
+650
 )
 {
 this
