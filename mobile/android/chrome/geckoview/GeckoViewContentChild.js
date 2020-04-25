@@ -805,7 +805,7 @@ triggerViewportFitChange
 =
 null
 ;
-let
+const
 viewportFit
 =
 content
@@ -935,14 +935,14 @@ ZoomToInput
 "
 :
 {
-let
+const
 dwu
 =
 content
 .
 windowUtils
 ;
-let
+const
 zoomToFocusedInput
 =
 function
@@ -1013,7 +1013,7 @@ flushed
 ;
 }
 ;
-let
+const
 {
 force
 }
@@ -1027,7 +1027,7 @@ gotResize
 =
 false
 ;
-let
+const
 onResize
 =
 function
@@ -1180,7 +1180,7 @@ if
 history
 )
 {
-let
+const
 restoredHistory
 =
 SessionHistory
@@ -1249,7 +1249,7 @@ true
 }
 )
 ;
-let
+const
 scrollRestore
 =
 _
@@ -1413,7 +1413,7 @@ this
 flags
 )
 ;
-let
+const
 webProgress
 =
 docShell
@@ -1591,13 +1591,13 @@ GeckoView
 ScrollBy
 "
 :
-let
+const
 x
 =
 {
 }
 ;
-let
+const
 y
 =
 {
@@ -2514,7 +2514,7 @@ zoom
 displaySize
 )
 {
-let
+const
 utils
 =
 content
@@ -2557,7 +2557,7 @@ removeProgressListener
 this
 )
 ;
-let
+const
 webProgress
 =
 docShell

@@ -109,7 +109,7 @@ case
 mozvisualscroll
 "
 :
-let
+const
 x
 =
 {

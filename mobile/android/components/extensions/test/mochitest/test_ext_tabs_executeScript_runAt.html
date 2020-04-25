@@ -261,7 +261,7 @@ testExecuteScript
 (
 )
 {
-let
+const
 win
 =
 window
@@ -331,7 +331,7 @@ MAX_TRIES
 =
 30
 ;
-let
+const
 onUpdatedPromise
 =
 (
@@ -464,7 +464,7 @@ tries
 +
 )
 {
-let
+const
 url
 =
 {
@@ -485,7 +485,7 @@ random
 )
 }
 ;
-let
+const
 loadingPromise
 =
 onUpdatedPromise
@@ -499,7 +499,7 @@ loading
 "
 )
 ;
-let
+const
 completePromise
 =
 onUpdatedPromise
@@ -537,7 +537,7 @@ url
 await
 loadingPromise
 ;
-let
+const
 states
 =
 await
@@ -912,7 +912,7 @@ runAt
 ;
 }
 }
-let
+const
 extension
 =
 ExtensionTestUtils

@@ -454,7 +454,7 @@ aPrefName
 return
 ;
 }
-let
+const
 item
 =
 AboutConfig
@@ -1029,7 +1029,7 @@ container
 "
 )
 ;
-let
+const
 list
 =
 Services
@@ -1071,7 +1071,7 @@ aPref
 this
 )
 ;
-let
+const
 match
 =
 /
@@ -1339,7 +1339,7 @@ AC_clearPrefsContainer
 (
 )
 {
-let
+const
 empty
 =
 this
@@ -1398,7 +1398,7 @@ AC_addMorePrefsToContainer
 (
 )
 {
-let
+const
 filterExp
 =
 this
@@ -1422,7 +1422,7 @@ i
 :
 null
 ;
-let
+const
 prefsBuffer
 =
 [
@@ -1702,7 +1702,7 @@ selected
 aSelection
 )
 {
-let
+const
 currentSelection
 =
 this
@@ -1856,7 +1856,7 @@ AC_getPrefForNode
 aNode
 )
 {
-let
+const
 pref
 =
 aNode
@@ -1884,7 +1884,7 @@ AC_selectOrToggleBoolPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -1913,7 +1913,7 @@ node
 return
 ;
 }
-let
+const
 pref
 =
 this
@@ -1956,7 +1956,7 @@ AC_setIntOrStringPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -1966,7 +1966,7 @@ getLINodeForEvent
 aEvent
 )
 ;
-let
+const
 pref
 =
 this
@@ -2022,7 +2022,7 @@ AC_resetDefaultPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -2049,7 +2049,7 @@ selected
 node
 ;
 }
-let
+const
 pref
 =
 this
@@ -2083,7 +2083,7 @@ AC_toggleBoolPref
 aEvent
 )
 {
-let
+const
 node
 =
 this
@@ -2093,7 +2093,7 @@ getLINodeForEvent
 aEvent
 )
 ;
-let
+const
 pref
 =
 this
@@ -2140,7 +2140,7 @@ aEvent
 aInt
 )
 {
-let
+const
 node
 =
 this
@@ -2150,7 +2150,7 @@ getLINodeForEvent
 aEvent
 )
 ;
-let
+const
 pref
 =
 this
@@ -2188,7 +2188,7 @@ aTopic
 aPrefName
 )
 {
-let
+const
 pref
 =
 new
@@ -2237,7 +2237,7 @@ reload
 return
 ;
 }
-let
+const
 item
 =
 document
@@ -2287,7 +2287,7 @@ pref
 value
 )
 ;
-let
+const
 input
 =
 item
@@ -2363,7 +2363,7 @@ disabled
 return
 ;
 }
-let
+const
 anyWhere
 =
 this
@@ -2415,7 +2415,7 @@ AC_clipboardCopy
 aField
 )
 {
-let
+const
 pref
 =
 this
@@ -2865,7 +2865,7 @@ menu
 "
 )
 ;
-let
+const
 prefName
 =
 document
@@ -2926,7 +2926,7 @@ appendChild
 prefName
 )
 ;
-let
+const
 prefItemLine
 =
 document
@@ -2950,7 +2950,7 @@ item
 line
 "
 ;
-let
+const
 prefValue
 =
 document
@@ -3030,7 +3030,7 @@ appendChild
 prefValue
 )
 ;
-let
+const
 resetButton
 =
 document
@@ -3097,7 +3097,7 @@ appendChild
 resetButton
 )
 ;
-let
+const
 toggleButton
 =
 document
@@ -3164,7 +3164,7 @@ appendChild
 toggleButton
 )
 ;
-let
+const
 upButton
 =
 document
@@ -3217,7 +3217,7 @@ appendChild
 upButton
 )
 ;
-let
+const
 downButton
 =
 document
@@ -3335,7 +3335,7 @@ this
 value
 )
 ;
-let
+const
 valDiv
 =
 this

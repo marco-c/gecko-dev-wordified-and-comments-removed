@@ -252,7 +252,7 @@ addonId
 ]
 )
 ;
-let
+const
 rect
 =
 item
@@ -287,7 +287,7 @@ height
 /
 2
 ;
-let
+const
 domWinUtils
 =
 content
@@ -562,7 +562,7 @@ resolve
 =
 >
 {
-let
+const
 listener
 =
 (
@@ -701,7 +701,7 @@ test_options_ui_iframe_height
 (
 )
 {
-let
+const
 addonID
 =
 "
@@ -715,7 +715,7 @@ mozilla
 org
 "
 ;
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -1005,7 +1005,7 @@ browser
 "
 )
 ;
-let
+const
 onceAboutAddonsLoaded
 =
 waitAboutAddonsLoaded
@@ -1473,7 +1473,7 @@ test_options_ui_open_aboutaddons_details
 (
 )
 {
-let
+const
 addonID
 =
 "
@@ -1580,7 +1580,7 @@ href
 )
 ;
 }
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -1742,7 +1742,7 @@ browser
 "
 )
 ;
-let
+const
 onceAboutAddonsLoaded
 =
 waitAboutAddonsLoaded
@@ -1907,7 +1907,7 @@ test_options_ui_open_in_tab
 (
 )
 {
-let
+const
 addonID
 =
 "
@@ -2008,7 +2008,7 @@ href
 )
 ;
 }
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -2171,7 +2171,7 @@ browser
 "
 )
 ;
-let
+const
 onceAboutAddonsLoaded
 =
 waitAboutAddonsLoaded
@@ -2263,7 +2263,7 @@ addonID
 navigateToAddonDetails
 )
 ;
-let
+const
 onceAddonOptionsLoaded
 =
 waitDOMContentLoaded
@@ -2420,7 +2420,7 @@ resolve
 =
 >
 {
-let
+const
 {
 BrowserApp
 }
@@ -2438,14 +2438,14 @@ browser
 "
 )
 ;
-let
+const
 expectedBrowser
 =
 nativeTab
 .
 browser
 ;
-let
+const
 tabCloseListener
 =
 (
@@ -2454,7 +2454,7 @@ event
 =
 >
 {
-let
+const
 browser
 =
 event
@@ -2508,7 +2508,7 @@ tabCloseListener
 ;
 }
 ;
-let
+const
 onceOptionsTabClosed
 =
 waitTabClosed
@@ -2516,7 +2516,7 @@ waitTabClosed
 addonOptionsTab
 )
 ;
-let
+const
 onceAboutAddonsClosed
 =
 waitTabClosed
@@ -2728,7 +2728,7 @@ unreachable
 /
 return
 ;
-let
+const
 addonID
 =
 "
@@ -2772,7 +2772,7 @@ href
 )
 ;
 }
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -2933,7 +2933,7 @@ browser
 "
 )
 ;
-let
+const
 onceAboutAddonsLoaded
 =
 waitAboutAddonsLoaded

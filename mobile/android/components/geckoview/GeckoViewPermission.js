@@ -269,7 +269,7 @@ AddCameraPermission
 "
 :
 {
-let
+const
 principal
 =
 Services
@@ -318,7 +318,7 @@ aType
 aCallback
 )
 {
-let
+const
 perms
 =
 [
@@ -380,7 +380,7 @@ PERM_RECORD_AUDIO
 )
 ;
 }
-let
+const
 [
 dispatcher
 ]
@@ -391,7 +391,7 @@ getActiveDispatcherAndWindow
 (
 )
 ;
-let
+const
 callback
 =
 _
@@ -451,7 +451,7 @@ handleMediaRequest
 aRequest
 )
 {
-let
+const
 constraints
 =
 aRequest
@@ -460,14 +460,14 @@ getConstraints
 (
 )
 ;
-let
+const
 callId
 =
 aRequest
 .
 callID
 ;
-let
+const
 denyRequest
 =
 _
@@ -493,7 +493,7 @@ callId
 ;
 }
 ;
-let
+const
 win
 =
 Services
@@ -560,7 +560,7 @@ resolve
 )
 ;
 }
-let
+const
 sources
 =
 devices
@@ -693,7 +693,7 @@ source
 )
 ;
 }
-let
+const
 dispatcher
 =
 GeckoViewUtils
@@ -703,7 +703,7 @@ getDispatcherForWindow
 win
 )
 ;
-let
+const
 uri
 =
 win
@@ -802,7 +802,7 @@ denyRequest
 return
 ;
 }
-let
+const
 allowedDevices
 =
 Cc
@@ -832,7 +832,7 @@ constraints
 video
 )
 {
-let
+const
 video
 =
 devices
@@ -917,7 +917,7 @@ constraints
 audio
 )
 {
-let
+const
 audio
 =
 devices
@@ -1068,7 +1068,7 @@ aDispatcher
 aPerms
 )
 {
-let
+const
 perms
 =
 aPerms
@@ -1134,7 +1134,7 @@ granted
 {
 for
 (
-let
+const
 perm
 of
 perms
@@ -1163,7 +1163,7 @@ prompt
 aRequest
 )
 {
-let
+const
 types
 =
 aRequest
@@ -1197,7 +1197,7 @@ cancel
 return
 ;
 }
-let
+const
 perm
 =
 types
@@ -1257,7 +1257,7 @@ cancel
 return
 ;
 }
-let
+const
 dispatcher
 =
 GeckoViewUtils

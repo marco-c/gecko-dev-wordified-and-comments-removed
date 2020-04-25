@@ -142,7 +142,7 @@ function
 (
 )
 {
-let
+const
 extension
 =
 ExtensionTestUtils
@@ -329,7 +329,7 @@ blank
 "
 }
 ;
-let
+const
 tests
 =
 [
@@ -470,7 +470,7 @@ create
 return
 ;
 }
-let
+const
 test
 =
 tests
@@ -479,7 +479,7 @@ shift
 (
 )
 ;
-let
+const
 expected
 =
 Object
@@ -529,7 +529,7 @@ result
 }
 )
 ;
-let
+const
 updatedPromise
 =
 new
@@ -539,7 +539,7 @@ resolve
 =
 >
 {
-let
+const
 onUpdated
 =
 (
@@ -643,7 +643,7 @@ onUpdated
 }
 )
 ;
-let
+const
 createdPromise
 =
 new
@@ -653,7 +653,7 @@ resolve
 =
 >
 {
-let
+const
 onCreated
 =
 tab
@@ -702,7 +702,7 @@ onCreated
 }
 )
 ;
-let
+const
 [
 tab
 ]
@@ -727,7 +727,7 @@ createdPromise
 ]
 )
 ;
-let
+const
 tabId
 =
 tab
@@ -736,7 +736,7 @@ id
 ;
 for
 (
-let
+const
 key
 of
 Object
@@ -803,7 +803,7 @@ key
 )
 ;
 }
-let
+const
 updated
 =
 await

@@ -115,7 +115,7 @@ contentWindow
 =
 this
 ;
-let
+const
 history
 =
 SessionHistory
@@ -150,7 +150,7 @@ zoom
 =
 1
 ;
-let
+const
 domWindowUtils
 =
 contentWindow
@@ -188,13 +188,13 @@ resolution
 =
 zoom
 ;
-let
+const
 displaySize
 =
 {
 }
 ;
-let
+const
 width
 =
 {

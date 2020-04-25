@@ -299,7 +299,7 @@ _handleClick
 aEvent
 )
 {
-let
+const
 target
 =
 aEvent
@@ -332,7 +332,7 @@ willValidate
 return
 ;
 }
-let
+const
 win
 =
 target
@@ -372,7 +372,7 @@ win
 HTMLInputElement
 )
 {
-let
+const
 type
 =
 target
@@ -450,7 +450,7 @@ _handleSelect
 aElement
 )
 {
-let
+const
 win
 =
 aElement
@@ -462,13 +462,13 @@ id
 =
 0
 ;
-let
+const
 map
 =
 {
 }
 ;
-let
+const
 items
 =
 (
@@ -479,13 +479,13 @@ elem
 disabled
 )
 {
-let
+const
 items
 =
 [
 ]
 ;
-let
+const
 children
 =
 elem
@@ -510,7 +510,7 @@ i
 +
 )
 {
-let
+const
 child
 =
 children
@@ -539,7 +539,7 @@ none
 continue
 ;
 }
-let
+const
 item
 =
 {
@@ -652,7 +652,7 @@ items
 aElement
 )
 ;
-let
+const
 prompt
 =
 new
@@ -723,7 +723,7 @@ aElement
 multiple
 )
 {
-let
+const
 elem
 =
 map
@@ -805,7 +805,7 @@ i
 +
 )
 {
-let
+const
 elem
 =
 map
@@ -813,7 +813,7 @@ map
 i
 ]
 ;
-let
+const
 index
 =
 result
@@ -968,7 +968,7 @@ aElement
 aType
 )
 {
-let
+const
 prompt
 =
 new
@@ -1115,7 +1115,7 @@ _handleContextMenu
 aEvent
 )
 {
-let
+const
 target
 =
 aEvent
@@ -1180,7 +1180,7 @@ menu
 return
 ;
 }
-let
+const
 builder
 =
 {
@@ -1224,7 +1224,7 @@ this
 return
 ;
 }
-let
+const
 newCursor
 =
 {
@@ -1389,7 +1389,7 @@ undoAddSeparator
 (
 )
 {
-let
+const
 sep
 =
 this
@@ -1435,7 +1435,7 @@ closeContainer
 (
 )
 {
-let
+const
 childItems
 =
 this
@@ -1526,7 +1526,7 @@ click
 aId
 )
 {
-let
+const
 item
 =
 this
@@ -1564,7 +1564,7 @@ build
 builder
 )
 ;
-let
+const
 prompt
 =
 new
@@ -1668,7 +1668,7 @@ about
 blank
 "
 ;
-let
+const
 prompt
 =
 new
@@ -1757,7 +1757,7 @@ nsIAuthPrompt
 {
 try
 {
-let
+const
 pwmgr
 =
 Cc
@@ -1815,7 +1815,7 @@ e
 ;
 }
 }
-let
+const
 p
 =
 new
@@ -1841,7 +1841,7 @@ aMethod
 aArguments
 )
 {
-let
+const
 prompt
 =
 new
@@ -2407,7 +2407,7 @@ true
 }
 try
 {
-let
+const
 winUtils
 =
 this
@@ -2429,7 +2429,7 @@ leaveModalState
 )
 ;
 }
-let
+const
 event
 =
 this
@@ -2612,7 +2612,7 @@ handled
 =
 false
 ;
-let
+const
 onResponse
 =
 response
@@ -2788,7 +2788,7 @@ aCheckMsg
 aCheckState
 )
 {
-let
+const
 result
 =
 this
@@ -2899,7 +2899,7 @@ aCheckMsg
 aCheckState
 )
 {
-let
+const
 btnMap
 =
 Array
@@ -2912,7 +2912,7 @@ fill
 null
 )
 ;
-let
+const
 btnTitle
 =
 Array
@@ -2925,7 +2925,7 @@ fill
 null
 )
 ;
-let
+const
 btnCustomTitle
 =
 Array
@@ -2938,7 +2938,7 @@ fill
 null
 )
 ;
-let
+const
 savedButtonId
 =
 [
@@ -2960,7 +2960,7 @@ i
 +
 )
 {
-let
+const
 btnFlags
 =
 aButtonFlags
@@ -3210,7 +3210,7 @@ i
 ;
 }
 }
-let
+const
 result
 =
 this
@@ -3291,7 +3291,7 @@ aCheckMsg
 aCheckState
 )
 {
-let
+const
 result
 =
 this
@@ -3413,7 +3413,7 @@ aCheckMsg
 aCheckState
 )
 {
-let
+const
 msg
 =
 {
@@ -3464,7 +3464,7 @@ value
 }
 }
 ;
-let
+const
 result
 =
 this
@@ -3568,7 +3568,7 @@ aSelectList
 aOutSelection
 )
 {
-let
+const
 choices
 =
 Array
@@ -3607,7 +3607,7 @@ false
 )
 )
 ;
-let
+const
 result
 =
 this
@@ -3870,7 +3870,7 @@ return
 true
 ;
 }
-let
+const
 username
 =
 aResult
@@ -3964,7 +3964,7 @@ aCheckMsg
 aCheckState
 )
 {
-let
+const
 result
 =
 this
@@ -4015,7 +4015,7 @@ responded
 =
 false
 ;
-let
+const
 callback
 =
 result
@@ -4138,7 +4138,7 @@ aChannel
 aAuthInfo
 )
 {
-let
+const
 isProxy
 =
 aAuthInfo
@@ -4151,7 +4151,7 @@ nsIAuthInformation
 .
 AUTH_PROXY
 ;
-let
+const
 isPassOnly
 =
 aAuthInfo
@@ -4164,7 +4164,7 @@ nsIAuthInformation
 .
 ONLY_PASSWORD
 ;
-let
+const
 isCrossOrig
 =
 aAuthInfo
@@ -4177,7 +4177,7 @@ nsIAuthInformation
 .
 CROSS_ORIGIN_SUB_RESOURCE
 ;
-let
+const
 username
 =
 aAuthInfo
@@ -4241,7 +4241,7 @@ u2026
 "
 ;
 }
-let
+const
 bundle
 =
 Services
@@ -4420,7 +4420,7 @@ nsIProxiedChannel
 )
 ;
 }
-let
+const
 info
 =
 aChannel
@@ -4446,7 +4446,7 @@ nsIProxyInfo
 )
 ;
 }
-let
+const
 idnService
 =
 Cc
@@ -4473,7 +4473,7 @@ Ci
 nsIIDNService
 )
 ;
-let
+const
 hostname
 =
 "
@@ -4527,7 +4527,7 @@ realm
 ]
 ;
 }
-let
+const
 hostname
 =
 aChannel

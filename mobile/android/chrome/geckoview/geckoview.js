@@ -776,7 +776,7 @@ loadOptions
 aLoadOptions
 ;
 }
-let
+const
 disabledModules
 =
 [

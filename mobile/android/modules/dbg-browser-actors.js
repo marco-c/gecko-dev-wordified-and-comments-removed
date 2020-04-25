@@ -143,7 +143,7 @@ createRootActor
 aConnection
 )
 {
-let
+const
 parameters
 =
 {

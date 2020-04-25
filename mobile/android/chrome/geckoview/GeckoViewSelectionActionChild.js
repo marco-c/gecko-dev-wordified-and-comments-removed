@@ -762,7 +762,7 @@ currentRect
 .
 top
 ;
-let
+const
 targetDocShell
 =
 currentWindow
@@ -1362,7 +1362,7 @@ id
 return
 ;
 }
-let
+const
 action
 =
 actions

@@ -317,7 +317,7 @@ method
 {
 for
 (
-let
+const
 obs
 of
 this
@@ -639,7 +639,7 @@ return
 null
 ;
 }
-let
+const
 history
 =
 SessionHistory
@@ -1589,7 +1589,7 @@ cleanupTimers
 (
 )
 ;
-let
+const
 data
 =
 {
@@ -1597,7 +1597,7 @@ data
 ;
 for
 (
-let
+const
 [
 key
 func
@@ -1608,7 +1608,7 @@ this
 _data
 )
 {
-let
+const
 value
 =
 func
@@ -1878,7 +1878,7 @@ true
 ;
 for
 (
-let
+const
 handler
 of
 this

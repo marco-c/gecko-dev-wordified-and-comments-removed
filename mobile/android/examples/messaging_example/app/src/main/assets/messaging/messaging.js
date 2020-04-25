@@ -1,4 +1,4 @@
-let
+const
 manifest
 =
 document
@@ -47,7 +47,7 @@ json
 =
 >
 {
-let
+const
 message
 =
 {

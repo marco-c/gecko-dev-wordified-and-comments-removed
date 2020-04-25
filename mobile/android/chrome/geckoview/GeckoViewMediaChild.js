@@ -2377,7 +2377,7 @@ notifyMediaError
 aElement
 )
 {
-let
+const
 code
 =
 aElement
