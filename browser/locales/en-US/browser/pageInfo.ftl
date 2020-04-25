@@ -357,16 +357,6 @@ As
 accesskey
 =
 e
-media
--
-preview
-=
-.
-value
-=
-Media
-Preview
-:
 perm
 -
 tab
