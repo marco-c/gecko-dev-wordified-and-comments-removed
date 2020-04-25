@@ -3411,12 +3411,9 @@ readOp
 uint32_t
 argLength
 =
-CacheIROpFormat
-:
-:
-ArgLengths
+CacheIROpArgLengths
 [
-uint8_t
+size_t
 (
 op
 )

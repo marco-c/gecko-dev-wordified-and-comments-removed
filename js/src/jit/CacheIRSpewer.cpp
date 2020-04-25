@@ -146,7 +146,7 @@ char
 *
 opName
 =
-CacheIrOpNames
+CacheIROpNames
 [
 size_t
 (
@@ -965,7 +965,7 @@ char
 *
 opName
 =
-CacheIrOpNames
+CacheIROpNames
 [
 size_t
 (
