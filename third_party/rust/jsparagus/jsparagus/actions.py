@@ -1,18 +1,21 @@
 from
-.
-ordered
+__future__
 import
-OrderedFrozenSet
+annotations
+import
+typing
 from
 .
 grammar
 import
+Element
 InitNt
 Nt
 from
 .
 import
 types
+grammar
 class
 Action
 :
@@ -20,19 +23,42 @@ Action
 __slots__
 =
 [
-        
 "
 read
 "
-        
 "
 write
 "
-        
 "
 _hash
 "
+]
     
+read
+:
+typing
+.
+List
+[
+str
+]
+    
+write
+:
+typing
+.
+List
+[
+str
+]
+    
+_hash
+:
+typing
+.
+Optional
+[
+int
 ]
     
 def
@@ -40,23 +66,26 @@ __init__
 (
 self
 read
-write
-)
 :
-        
-assert
-isinstance
-(
-read
-list
-)
-        
-assert
-isinstance
-(
+typing
+.
+List
+[
+str
+]
 write
-list
+:
+typing
+.
+List
+[
+str
+]
 )
+-
+>
+None
+:
         
 self
 .
@@ -81,6 +110,9 @@ is_inconsistent
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -88,7 +120,7 @@ self
 "
 Returns
 True
-whether
+if
 this
 action
 is
@@ -136,6 +168,9 @@ is_condition
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -161,6 +196,9 @@ condition
 (
 self
 )
+-
+>
+Action
 :
         
 "
@@ -176,9 +214,8 @@ TypeError
 (
 "
 Action
-:
-:
-condition_flag
+.
+condition
 not
 implemented
 "
@@ -189,6 +226,9 @@ update_stack
 (
 self
 )
+-
+>
+bool
 :
         
 "
@@ -231,22 +271,27 @@ reduce_with
 (
 self
 )
+-
+>
+Reduce
 :
         
 "
+"
+"
 Returns
 the
-non
--
-terminal
+Reduce
+action
 with
 which
 this
 action
 is
 reducing
-with
 .
+"
+"
 "
         
 assert
@@ -261,9 +306,8 @@ TypeError
 (
 "
 Action
-:
-:
-reduce_to
+.
+reduce_with
 not
 implemented
 .
@@ -275,20 +319,110 @@ shifted_action
 (
 self
 shifted_term
+:
+Element
 )
+-
+>
+ShiftedAction
 :
         
 "
-Returns
+"
+"
+Transpose
+this
+action
+with
+shifting
+the
+given
+terminal
+or
+Nt
+.
+        
+That
+is
+the
+sequence
+of
+:
+        
+-
+performing
+the
+action
+self
+then
+        
+-
+shifting
+shifted_term
+        
+has
 the
 same
+effect
+as
+:
+        
+-
+shifting
+shifted_term
+then
+        
+-
+performing
+the
 action
-shifted
-by
-a
-given
-amount
+self
 .
+shifted_action
+(
+shifted_term
+)
+.
+        
+If
+the
+resulting
+shifted
+action
+would
+be
+a
+no
+-
+op
+instead
+return
+True
+.
+        
+If
+this
+is
+a
+conditional
+action
+and
+shifted_term
+indicates
+that
+the
+        
+condition
+wasn
+'
+t
+met
+return
+False
+.
+        
+"
+"
 "
         
 return
@@ -299,7 +433,17 @@ maybe_add
 (
 self
 other
+:
+Action
 )
+-
+>
+typing
+.
+Optional
+[
+Action
+]
 :
         
 "
@@ -337,6 +481,13 @@ others
 "
         
 actions
+:
+typing
+.
+List
+[
+Action
+]
 =
 [
 ]
@@ -404,7 +555,6 @@ other
 if
 any
 (
-[
 a
 .
 is_condition
@@ -414,7 +564,6 @@ for
 a
 in
 actions
-]
 )
 :
             
@@ -424,7 +573,6 @@ None
 if
 any
 (
-[
 a
 .
 update_stack
@@ -438,7 +586,6 @@ actions
 :
 -
 1
-]
 ]
 )
 :
@@ -457,7 +604,12 @@ __eq__
 (
 self
 other
+:
+object
 )
+-
+>
+bool
 :
         
 if
@@ -473,6 +625,13 @@ __class__
             
 return
 False
+        
+assert
+isinstance
+(
+other
+Action
+)
         
 if
 sorted
@@ -548,6 +707,9 @@ __hash__
 (
 self
 )
+-
+>
+int
 :
         
 if
@@ -568,6 +730,14 @@ def
 hashed_content
 (
 )
+-
+>
+typing
+.
+Iterator
+[
+object
+]
 :
             
 yield
@@ -649,7 +819,12 @@ __lt__
 (
 self
 other
+:
+Action
 )
+-
+>
+bool
 :
         
 return
@@ -668,6 +843,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -675,6 +853,36 @@ str
 (
 self
 )
+    
+def
+stable_str
+(
+self
+states
+:
+typing
+.
+Any
+)
+-
+>
+str
+:
+        
+return
+str
+(
+self
+)
+ShiftedAction
+=
+typing
+.
+Union
+[
+Action
+bool
+]
 class
 Reduce
 (
@@ -744,6 +952,7 @@ operation
     
 __slots__
 =
+[
 '
 nt
 '
@@ -753,20 +962,42 @@ replay
 '
 pop
 '
+]
+    
+nt
+:
+Nt
+    
+pop
+:
+int
+    
+replay
+:
+int
     
 def
 __init__
 (
 self
 nt
+:
+Nt
 pop
+:
+int
 replay
+:
+int
 =
 0
 )
+-
+>
+None
 :
         
-name
+nt_name
 =
 nt
 .
@@ -775,7 +1006,7 @@ name
 if
 isinstance
 (
-name
+nt_name
 InitNt
 )
 :
@@ -786,11 +1017,21 @@ name
 Start_
 "
 +
-name
+str
+(
+nt_name
 .
 goal
 .
 name
+)
+        
+else
+:
+            
+name
+=
+nt_name
         
 super
 (
@@ -832,6 +1073,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -865,6 +1109,9 @@ update_stack
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -875,6 +1122,9 @@ reduce_with
 (
 self
 )
+-
+>
+Reduce
 :
         
 return
@@ -885,7 +1135,12 @@ shifted_action
 (
 self
 shifted_term
+:
+Element
 )
+-
+>
+Reduce
 :
         
 return
@@ -943,53 +1198,45 @@ sequences
     
 __slots__
 =
+[
 '
 terms
 '
 '
 accept
 '
+]
+    
+terms
+:
+typing
+.
+FrozenSet
+[
+str
+]
+    
+accept
+:
+bool
     
 def
 __init__
 (
 self
 terms
-accept
-)
 :
-        
-assert
-isinstance
-(
-terms
-(
-OrderedFrozenSet
-frozenset
-)
-)
-        
-assert
-all
-(
-not
-isinstance
-(
-t
-Nt
-)
-for
-t
-in
-terms
-)
-        
-assert
-isinstance
-(
+typing
+.
+FrozenSet
+[
+str
+]
 accept
+:
 bool
 )
+:
         
 super
 (
@@ -1020,6 +1267,9 @@ is_inconsistent
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1030,6 +1280,9 @@ is_condition
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1040,6 +1293,9 @@ condition
 (
 self
 )
+-
+>
+Lookahead
 :
         
 return
@@ -1050,6 +1306,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1078,7 +1337,12 @@ shifted_action
 (
 self
 shifted_term
+:
+Element
 )
+-
+>
+ShiftedAction
 :
         
 if
@@ -1159,18 +1423,29 @@ shifted
     
 __slots__
 =
+[
 '
 offset
 '
+]
+    
+offset
+:
+int
     
 def
 __init__
 (
 self
 offset
+:
+int
 =
 0
 )
+-
+>
+None
 :
         
 super
@@ -1196,6 +1471,9 @@ is_inconsistent
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1211,6 +1489,9 @@ is_condition
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1221,6 +1502,9 @@ condition
 (
 self
 )
+-
+>
+CheckNotOnNewLine
 :
         
 return
@@ -1231,7 +1515,12 @@ shifted_action
 (
 self
 shifted_term
+:
+Element
 )
+-
+>
+ShiftedAction
 :
         
 if
@@ -1260,6 +1549,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1323,20 +1615,37 @@ value
     
 __slots__
 =
+[
 '
 flag
 '
 '
 value
 '
+]
+    
+flag
+:
+str
+    
+value
+:
+object
     
 def
 __init__
 (
 self
 flag
+:
+str
 value
+:
+object
 )
+-
+>
+None
 :
         
 super
@@ -1373,6 +1682,9 @@ is_condition
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -1383,6 +1695,9 @@ condition
 (
 self
 )
+-
+>
+FilterFlag
 :
         
 return
@@ -1393,6 +1708,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1508,20 +1826,37 @@ duplications
     
 __slots__
 =
+[
 '
 flag
 '
 '
 value
 '
+]
+    
+flag
+:
+str
+    
+value
+:
+object
     
 def
 __init__
 (
 self
 flag
+:
+str
 value
+:
+object
 )
+-
+>
+None
 :
         
 super
@@ -1558,6 +1893,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1609,16 +1947,27 @@ stack
     
 __slots__
 =
+[
 '
 flag
 '
+]
+    
+flag
+:
+str
     
 def
 __init__
 (
 self
 flag
+:
+str
 )
+-
+>
+None
 :
         
 super
@@ -1654,6 +2003,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1671,6 +2023,19 @@ self
 .
 flag
 )
+OutputExpr
+=
+typing
+.
+Union
+[
+str
+int
+None
+grammar
+.
+Some
+]
 class
 FunCall
 (
@@ -1740,6 +2105,7 @@ operation
     
 __slots__
 =
+[
 '
 trait
 '
@@ -1758,15 +2124,69 @@ fallible
 '
 set_to
 '
+]
+    
+trait
+:
+types
+.
+Type
+    
+method
+:
+str
+    
+offset
+:
+int
+    
+args
+:
+typing
+.
+Tuple
+[
+OutputExpr
+.
+.
+.
+]
+    
+fallible
+:
+bool
+    
+set_to
+:
+str
     
 def
 __init__
 (
+            
 self
+            
 method
+:
+str
+            
 args
-                 
+:
+typing
+.
+Tuple
+[
+OutputExpr
+.
+.
+.
+]
+            
 trait
+:
+types
+.
+Type
 =
 types
 .
@@ -1776,31 +2196,55 @@ Type
 AstBuilder
 "
 )
-                 
+            
 fallible
+:
+bool
 =
 False
-                 
+            
 set_to
+:
+str
 =
 "
 val
 "
-                 
+            
 offset
+:
+int
 =
 0
-                 
+            
 alias_read
+:
+typing
+.
+List
+[
+str
+]
 =
 [
 ]
-                 
+            
 alias_write
+:
+typing
+.
+List
+[
+str
+]
 =
 [
 ]
+    
 )
+-
+>
+None
 :
         
 super
@@ -1854,6 +2298,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1929,6 +2376,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -1988,7 +2438,12 @@ shifted_action
 (
 self
 shifted_term
+:
+Element
 )
+-
+>
+FunCall
 :
         
 return
@@ -1997,6 +2452,7 @@ FunCall
 self
 .
 method
+                       
 self
 .
 args
@@ -2092,24 +2548,41 @@ stack
     
 __slots__
 =
+[
 '
 actions
 '
+]
+    
+actions
+:
+typing
+.
+Tuple
+[
+Action
+.
+.
+.
+]
     
 def
 __init__
 (
 self
 actions
-)
 :
-        
-assert
-isinstance
-(
-actions
-list
+typing
+.
+Sequence
+[
+Action
+]
 )
+-
+>
+None
+:
         
 read
 =
@@ -2210,6 +2683,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -2245,6 +2721,9 @@ __repr__
 (
 self
 )
+-
+>
+str
 :
         
 return
@@ -2271,6 +2750,9 @@ is_condition
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2290,6 +2772,9 @@ condition
 (
 self
 )
+-
+>
+Action
 :
         
 return
@@ -2305,6 +2790,9 @@ update_stack
 (
 self
 )
+-
+>
+bool
 :
         
 return
@@ -2325,6 +2813,9 @@ reduce_with
 (
 self
 )
+-
+>
+Reduce
 :
         
 return
@@ -2345,28 +2836,68 @@ shifted_action
 (
 self
 shift
+:
+Element
 )
+-
+>
+ShiftedAction
 :
         
 actions
-=
-list
-(
-map
-(
-lambda
-a
 :
+typing
+.
+List
+[
+Action
+]
+=
+[
+]
+        
+for
+a
+in
+self
+.
+actions
+:
+            
+b
+=
 a
 .
 shifted_action
 (
 shift
 )
-self
-.
-actions
+            
+if
+isinstance
+(
+b
+bool
 )
+:
+                
+if
+b
+is
+False
+:
+                    
+return
+False
+            
+else
+:
+                
+actions
+.
+append
+(
+b
 )
         
 return

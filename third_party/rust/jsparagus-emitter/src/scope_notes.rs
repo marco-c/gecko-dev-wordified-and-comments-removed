@@ -2,7 +2,7 @@ use
 crate
 :
 :
-emitter
+bytecode_offset
 :
 :
 BytecodeOffset

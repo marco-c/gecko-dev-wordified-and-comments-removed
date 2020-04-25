@@ -34,15 +34,10 @@ from
 lexer
 import
 JSLexer
-Script_entry_state
-=
-0
 class
 JSParser
 (
-jsparagus
-.
-runtime
+parser_tables
 .
 Parser
 )
@@ -52,37 +47,32 @@ def
 __init__
 (
 self
+goal
+=
+'
+Script
+'
+builder
+=
+None
 )
 :
         
-jsparagus
-.
-runtime
-.
-Parser
+super
+(
+)
 .
 __init__
 (
-            
-self
-            
-parser_tables
-.
-actions
-            
-parser_tables
-.
-error_codes
-            
-Script_entry_state
-            
-parser_tables
-.
-DefaultMethods
-(
+goal
+builder
 )
         
-)
+self
+.
+_goal
+=
+goal
     
 def
 clone
@@ -94,6 +84,12 @@ self
 return
 JSParser
 (
+self
+.
+_goal
+self
+.
+methods
 )
     
 def
@@ -187,6 +183,9 @@ JSLexer
 (
 JSParser
 (
+'
+Script
+'
 )
 )
     

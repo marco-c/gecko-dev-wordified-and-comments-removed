@@ -84,10 +84,25 @@ frozen
 True
 )
 class
-ErrorToken
+ErrorTokenClass
 :
     
-pass
+def
+__repr__
+(
+self
+)
+:
+        
+return
+'
+ErrorToken
+'
+ErrorToken
+=
+ErrorTokenClass
+(
+)
 def
 throw_syntax_error
 (
@@ -180,8 +195,6 @@ input
     
 if
 ErrorToken
-(
-)
 in
 expected
 :
@@ -191,8 +204,6 @@ expected
 remove
 (
 ErrorToken
-(
-)
 )
     
 if
@@ -1042,7 +1053,7 @@ actions
 state
 ]
             
-while
+if
 not
 isinstance
 (
@@ -1101,6 +1112,13 @@ actions
 [
 state
 ]
+                
+assert
+isinstance
+(
+action
+dict
+)
             
 if
 self
@@ -1545,13 +1563,11 @@ stv
 :
         
 if
-isinstance
-(
 stv
 .
 term
+is
 ErrorToken
-)
 :
             
 if
@@ -1649,8 +1665,6 @@ StateTermValue
 (
 0
 ErrorToken
-(
-)
 stv
 .
 value

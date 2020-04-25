@@ -412,6 +412,10 @@ self
 *
 *
 kwargs
+:
+typing
+.
+Any
 )
 -
 >
@@ -963,9 +967,9 @@ self
 _cache
 -
 {
-object
+Any
 :
-object
+Any
 }
 -
 Cache
@@ -1095,8 +1099,12 @@ typing
 .
 Dict
 [
-object
-object
+typing
+.
+Any
+typing
+.
+Any
 ]
     
 def
@@ -1147,13 +1155,7 @@ str
             
 synthetic_terminals
 :
-typing
-.
-Dict
-[
-str
-OrderedFrozenSet
-]
+SyntheticTerminalsDict
 =
 None
             
@@ -5690,6 +5692,9 @@ rhs
 :
 LenientProduction
 )
+-
+>
+str
 :
         
 if
@@ -5830,6 +5835,44 @@ rhs
 )
     
 def
+nt_to_str
+(
+self
+nt
+:
+LenientNt
+)
+-
+>
+str
+:
+        
+if
+isinstance
+(
+nt
+Nt
+)
+:
+            
+return
+self
+.
+element_to_str
+(
+nt
+)
+        
+else
+:
+            
+return
+str
+(
+nt
+)
+    
+def
 production_to_str
 (
             
@@ -5837,13 +5880,7 @@ self
             
 nt
 :
-typing
-.
-Union
-[
-str
-Nt
-]
+LenientNt
             
 rhs
 :
@@ -5878,7 +5915,7 @@ format
             
 self
 .
-element_to_str
+nt_to_str
 (
 nt
 )
@@ -5921,6 +5958,10 @@ typing
 .
 List
 item
+:
+typing
+.
+Any
 )
 -
 >
@@ -6328,6 +6369,9 @@ dump
 (
 self
 )
+-
+>
+None
 :
         
 for
@@ -6347,7 +6391,7 @@ left_side
 =
 self
 .
-element_to_str
+nt_to_str
 (
 nt
 )
@@ -6419,6 +6463,9 @@ dump_type_info
 (
 self
 )
+-
+>
+None
 :
         
 for
@@ -6481,9 +6528,7 @@ name
 .
 join
 (
-types
-.
-type_to_str
+str
 (
 ty
 )
@@ -6495,9 +6540,7 @@ mty
 argument_types
 )
                           
-types
-.
-type_to_str
+str
 (
 mty
 .
@@ -6783,6 +6826,11 @@ ErrorSymbol
 NoLineTerminatorHereClass
 )
 )
+NtParameter
+=
+typing
+.
+Hashable
 class
 Nt
 :
@@ -6837,46 +6885,27 @@ parameters
     
 Parameter
 names
+param0
+.
+.
+.
 are
 strings
 .
 The
+actual
 arguments
-are
-typically
-booleans
+arg0
 .
-They
-can
-be
+.
+.
+are
     
-whatever
-you
-want
-but
-each
-function
-nonterminal
-gets
-expanded
-into
-a
-set
-of
-    
-productions
-one
-for
-every
-different
-argument
-tuple
-that
-is
-ever
-passed
-to
-it
+NtParameters
+(
+see
+above
+)
 .
     
 "
@@ -6915,9 +6944,7 @@ typing
 Tuple
 [
 str
-typing
-.
-Hashable
+NtParameter
 ]
 .
 .
@@ -6950,9 +6977,7 @@ typing
 Tuple
 [
 str
-typing
-.
-Hashable
+NtParameter
 ]
 .
 .
@@ -7007,6 +7032,8 @@ __eq__
 (
 self
 other
+:
+object
 )
 -
 >
@@ -7147,8 +7174,15 @@ def
 arg_to_str
 (
 name
+:
+str
 value
+:
+NtParameter
 )
+-
+>
+str
 :
             
 if
@@ -7572,6 +7606,9 @@ t
 :
 str
 )
+-
+>
+bool
 :
     
 "
@@ -7780,6 +7817,9 @@ __str__
 (
 self
 )
+-
+>
+str
 :
         
 return
