@@ -10,6 +10,14 @@ platform_name
 {
     
 "
+linux
+"
+:
+"
+linux
+"
+    
+"
 linux2
 "
 :
