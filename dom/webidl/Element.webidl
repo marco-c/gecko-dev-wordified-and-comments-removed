@@ -1929,6 +1929,10 @@ Element
 includes
 GeometryUtils
 ;
+Element
+includes
+AccessibilityRole
+;
 /
 /
 https
