@@ -4402,6 +4402,7 @@ errorCode
 ;
 }
 }
+async
 function
 promptError
 (
@@ -4414,11 +4415,6 @@ error
 undefined
 )
 {
-onError
-(
-error
-)
-;
 if
 (
 engine
@@ -4534,6 +4530,7 @@ _location
 ]
 )
 ;
+await
 Services
 .
 prompt
@@ -4546,6 +4543,11 @@ _reqContext
 promptModalType
 title
 text
+)
+;
+onError
+(
+error
 )
 ;
 }

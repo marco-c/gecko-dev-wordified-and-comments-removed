@@ -129,6 +129,7 @@ AddEngine
 "
 )
 {
+return
 this
 .
 addSearchEngine
@@ -139,7 +140,19 @@ data
 )
 ;
 }
+return
+Promise
+.
+reject
+(
+"
+Unsupported
+message
+"
+)
+;
 }
+async
 addSearchEngine
 (
 {
@@ -433,6 +446,7 @@ spec
 ]
 )
 ;
+await
 Services
 .
 prompt
@@ -448,8 +462,10 @@ msg
 )
 ;
 return
+undefined
 ;
 }
+return
 Services
 .
 search
