@@ -3262,7 +3262,7 @@ installing_header
 Push
 "
 (
-STUB_INSTALLING_HEADLINE
+STUB_INSTALLING_HEADLINE2
 )
 "
 {
@@ -3286,7 +3286,7 @@ installing_content
 Push
 "
 (
-STUB_INSTALLING_BODY
+STUB_INSTALLING_BODY2
 )
 "
 {
