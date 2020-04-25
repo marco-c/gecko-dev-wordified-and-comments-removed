@@ -119,10 +119,11 @@ builds
 correctly
 #
 package
-the
-graphite
+any
+Wasm
+sandboxed
 shared
-library
+libraries
 .
 if
 test

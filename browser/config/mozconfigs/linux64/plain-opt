@@ -24,6 +24,7 @@ export
 WASM_SANDBOXED_LIBRARIES
 =
 graphite
+ogg
 export
 LUCETC
 =

@@ -555,6 +555,16 @@ graphitewasm
 DLL_SUFFIX
 #
 endif
+#
+ifdef
+MOZ_WASM_SANDBOXING_OGG
+BINPATH
+/
+DLL_PREFIX
+oggwasm
+DLL_SUFFIX
+#
+endif
 ;
 We
 don
