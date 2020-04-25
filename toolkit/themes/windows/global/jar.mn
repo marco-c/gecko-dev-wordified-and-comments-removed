@@ -76,6 +76,16 @@ toolkit
 .
 jar
 :
+*
+skin
+/
+classic
+/
+global
+/
+arrowpanel
+.
+css
 skin
 /
 classic
@@ -198,7 +208,6 @@ global
 netError
 .
 css
-*
 skin
 /
 classic
