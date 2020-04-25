@@ -138,6 +138,11 @@ UrlbarProvidersManager
 jsm
 '
 '
+UrlbarProviderTokenAliasEngines
+.
+jsm
+'
+'
 UrlbarProviderTopSites
 .
 jsm
