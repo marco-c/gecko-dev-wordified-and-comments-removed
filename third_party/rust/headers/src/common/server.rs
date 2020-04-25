@@ -30,7 +30,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -40,6 +39,17 @@ Server
 HeaderValueString
 )
 ;
+derive_header
+!
+{
+Server
+(
+_
+)
+name
+:
+SERVER
+}
 impl
 Server
 {

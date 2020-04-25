@@ -283,7 +283,7 @@ s
 HeaderValue
 :
 :
-from_shared
+from_maybe_shared
 (
 bytes
 )
@@ -354,7 +354,6 @@ or_else
 |
 _
 |
-{
 time
 :
 :
@@ -378,7 +377,6 @@ T
 Z
 "
 )
-}
 )
 .
 or_else
@@ -386,7 +384,6 @@ or_else
 |
 _
 |
-{
 time
 :
 :
@@ -398,7 +395,6 @@ s
 c
 "
 )
-}
 )
 .
 map
@@ -722,16 +718,16 @@ mod
 tests
 {
 use
-time
-:
-:
-Tm
-;
-use
 super
 :
 :
 HttpDate
+;
+use
+time
+:
+:
+Tm
 ;
 const
 NOV_07

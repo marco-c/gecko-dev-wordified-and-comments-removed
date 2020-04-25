@@ -1,7 +1,3 @@
-extern
-crate
-warp
-;
 use
 warp
 :
@@ -108,7 +104,14 @@ page
 "
 )
 }
-pub
+#
+[
+tokio
+:
+:
+main
+]
+async
 fn
 main
 (
@@ -148,5 +151,7 @@ run
 3030
 )
 )
+.
+await
 ;
 }

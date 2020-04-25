@@ -25,7 +25,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -35,6 +34,17 @@ Expires
 HttpDate
 )
 ;
+derive_header
+!
+{
+Expires
+(
+_
+)
+name
+:
+EXPIRES
+}
 impl
 From
 <

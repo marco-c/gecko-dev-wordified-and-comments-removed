@@ -6,14 +6,6 @@ deny
 warnings
 )
 ]
-extern
-crate
-pretty_env_logger
-;
-extern
-crate
-warp
-;
 use
 warp
 :
@@ -37,8 +29,12 @@ Filter
 ;
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 header
 (
@@ -113,6 +109,8 @@ reply
 &
 no_header
 )
+.
+await
 ;
 assert_eq
 !
@@ -205,6 +203,8 @@ reply
 &
 yes_header
 )
+.
+await
 ;
 assert_eq
 !
@@ -231,8 +231,12 @@ header
 }
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 headers
 (
@@ -349,6 +353,8 @@ reply
 &
 no_header
 )
+.
+await
 ;
 assert_eq
 !
@@ -459,6 +465,8 @@ reply
 &
 yes_header
 )
+.
+await
 ;
 assert_eq
 !
@@ -485,8 +493,12 @@ header
 }
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 default_header
 (
@@ -561,6 +573,8 @@ reply
 &
 no_header
 )
+.
+await
 ;
 assert_eq
 !
@@ -653,6 +667,8 @@ reply
 &
 yes_header
 )
+.
+await
 ;
 assert_eq
 !

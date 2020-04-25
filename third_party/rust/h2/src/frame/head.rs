@@ -8,9 +8,7 @@ use
 bytes
 :
 :
-{
 BufMut
-}
 ;
 #
 [
@@ -115,13 +113,7 @@ Head
 Head
 {
 kind
-:
-kind
 flag
-:
-flag
-stream_id
-:
 stream_id
 }
 }
@@ -284,7 +276,7 @@ remaining_mut
 ;
 dst
 .
-put_uint_be
+put_uint
 (
 payload_len
 as
@@ -314,7 +306,7 @@ flag
 ;
 dst
 .
-put_u32_be
+put_u32
 (
 self
 .

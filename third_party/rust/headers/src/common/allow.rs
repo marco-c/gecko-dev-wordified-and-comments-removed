@@ -26,7 +26,6 @@ derive
 Clone
 Debug
 PartialEq
-Header
 )
 ]
 pub
@@ -36,6 +35,17 @@ Allow
 FlatCsv
 )
 ;
+derive_header
+!
+{
+Allow
+(
+_
+)
+name
+:
+ALLOW
+}
 impl
 Allow
 {
@@ -78,7 +88,6 @@ filter_map
 |
 s
 |
-{
 s
 .
 parse
@@ -88,7 +97,6 @@ parse
 ok
 (
 )
-}
 )
 }
 }

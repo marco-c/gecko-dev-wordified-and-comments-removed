@@ -24,7 +24,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -34,6 +33,17 @@ AccessControlMaxAge
 Seconds
 )
 ;
+derive_header
+!
+{
+AccessControlMaxAge
+(
+_
+)
+name
+:
+ACCESS_CONTROL_MAX_AGE
+}
 impl
 From
 <

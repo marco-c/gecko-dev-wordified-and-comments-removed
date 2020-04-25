@@ -10,7 +10,6 @@ derive
 (
 Clone
 Debug
-Header
 PartialEq
 )
 ]
@@ -21,6 +20,17 @@ AcceptRanges
 FlatCsv
 )
 ;
+derive_header
+!
+{
+AcceptRanges
+(
+_
+)
+name
+:
+ACCEPT_RANGES
+}
 impl
 AcceptRanges
 {

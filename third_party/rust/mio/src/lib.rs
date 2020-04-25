@@ -20,7 +20,7 @@ mio
 .
 6
 .
-19
+21
 "
 )
 ]
@@ -29,7 +29,9 @@ mio
 [
 allow
 (
+bare_trait_objects
 deprecated
+unknown_lints
 )
 ]
 #

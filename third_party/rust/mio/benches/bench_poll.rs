@@ -6,6 +6,14 @@ feature
 test
 )
 ]
+#
+!
+[
+allow
+(
+deprecated
+)
+]
 extern
 crate
 mio

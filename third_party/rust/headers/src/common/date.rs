@@ -25,7 +25,6 @@ Eq
 PartialOrd
 Ord
 Hash
-Header
 )
 ]
 pub
@@ -35,6 +34,17 @@ Date
 HttpDate
 )
 ;
+derive_header
+!
+{
+Date
+(
+_
+)
+name
+:
+DATE
+}
 impl
 From
 <

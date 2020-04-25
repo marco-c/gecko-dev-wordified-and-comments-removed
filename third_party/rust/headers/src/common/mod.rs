@@ -531,8 +531,6 @@ T
 >
 {
 use
-:
-:
 HeaderMapExt
 ;
 let
@@ -615,8 +613,6 @@ http
 HeaderMap
 {
 use
-:
-:
 HeaderMapExt
 ;
 let
@@ -690,8 +686,6 @@ super
 ty
 ;
 use
-:
-:
 HeaderMapExt
 ;
 #
@@ -934,6 +928,7 @@ clear
 }
 }
 }
+;
 }
 mod
 accept_ranges

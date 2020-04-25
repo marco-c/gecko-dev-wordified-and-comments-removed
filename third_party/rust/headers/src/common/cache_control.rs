@@ -42,9 +42,7 @@ Seconds
 }
 ;
 use
-{
 HeaderValue
-}
 ;
 #
 [
@@ -1979,6 +1977,7 @@ len
 )
 =
 >
+{
 match
 (
 &
@@ -2051,6 +2050,7 @@ secs
 )
 =
 >
+{
 secs
 .
 parse
@@ -2074,6 +2074,7 @@ _
 )
 )
 ?
+}
 (
 "
 min
@@ -2084,6 +2085,7 @@ secs
 )
 =
 >
+{
 secs
 .
 parse
@@ -2107,6 +2109,7 @@ _
 )
 )
 ?
+}
 (
 "
 s
@@ -2117,6 +2120,7 @@ secs
 )
 =
 >
+{
 secs
 .
 parse
@@ -2140,6 +2144,7 @@ _
 )
 )
 ?
+}
 _unknown
 =
 >
@@ -2151,6 +2156,7 @@ KnownDirective
 :
 Unknown
 )
+}
 }
 Some
 (
@@ -2188,12 +2194,6 @@ use
 super
 :
 :
-*
-;
-use
-super
-:
-:
 super
 :
 :
@@ -2201,6 +2201,12 @@ super
 test_decode
 test_encode
 }
+;
+use
+super
+:
+:
+*
 ;
 #
 [

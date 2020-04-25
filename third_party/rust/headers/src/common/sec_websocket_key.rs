@@ -7,7 +7,6 @@ Debug
 PartialEq
 Eq
 Hash
-Header
 )
 ]
 pub
@@ -23,3 +22,14 @@ super
 HeaderValue
 )
 ;
+derive_header
+!
+{
+SecWebsocketKey
+(
+_
+)
+name
+:
+SEC_WEBSOCKET_KEY
+}

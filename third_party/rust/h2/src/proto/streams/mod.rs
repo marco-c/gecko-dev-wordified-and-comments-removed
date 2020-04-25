@@ -79,8 +79,8 @@ streams
 :
 :
 {
-StreamRef
 OpaqueStreamRef
+StreamRef
 Streams
 }
 ;
@@ -166,6 +166,9 @@ stream
 Stream
 ;
 use
+crate
+:
+:
 frame
 :
 :
@@ -175,6 +178,9 @@ StreamIdOverflow
 }
 ;
 use
+crate
+:
+:
 proto
 :
 :
@@ -185,15 +191,6 @@ bytes
 :
 :
 Bytes
-;
-use
-http
-:
-:
-{
-Request
-Response
-}
 ;
 use
 std

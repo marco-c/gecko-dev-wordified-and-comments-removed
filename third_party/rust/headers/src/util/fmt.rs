@@ -8,9 +8,7 @@ fmt
 Display
 ;
 use
-{
 HeaderValue
-}
 ;
 pub
 (
@@ -45,13 +43,9 @@ match
 HeaderValue
 :
 :
-from_shared
+from_maybe_shared
 (
 s
-.
-into
-(
-)
 )
 {
 Ok

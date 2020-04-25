@@ -1,7 +1,4 @@
 use
-http
-;
-use
 super
 :
 :
@@ -10,6 +7,9 @@ Error
 Header
 HeaderValue
 }
+;
+use
+http
 ;
 pub
 trait
@@ -125,16 +125,6 @@ H
 name
 (
 )
-)
-.
-expect
-(
-"
-HeaderName
-is
-always
-valid
-"
 )
 ;
 let

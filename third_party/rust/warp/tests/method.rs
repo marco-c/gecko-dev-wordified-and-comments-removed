@@ -6,14 +6,6 @@ deny
 warnings
 )
 ]
-extern
-crate
-pretty_env_logger
-;
-extern
-crate
-warp
-;
 use
 warp
 :
@@ -22,8 +14,12 @@ Filter
 ;
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 method
 (
@@ -45,7 +41,7 @@ get
 warp
 :
 :
-get2
+get
 (
 )
 .
@@ -80,6 +76,8 @@ matches
 &
 get
 )
+.
+await
 )
 ;
 let
@@ -113,6 +111,8 @@ matches
 &
 get
 )
+.
+await
 )
 ;
 let
@@ -145,6 +145,8 @@ reply
 &
 get
 )
+.
+await
 ;
 assert_eq
 !
@@ -160,8 +162,12 @@ status
 }
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 method_not_allowed_trumps_not_found
 (
@@ -183,7 +189,7 @@ get
 warp
 :
 :
-get2
+get
 (
 )
 .
@@ -214,7 +220,7 @@ post
 warp
 :
 :
-post2
+post
 (
 )
 .
@@ -287,6 +293,8 @@ reply
 &
 routes
 )
+.
+await
 ;
 assert_eq
 !
@@ -302,8 +310,12 @@ status
 }
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 bad_request_trumps_method_not_allowed
 (
@@ -325,7 +337,7 @@ get
 warp
 :
 :
-get2
+get
 (
 )
 .
@@ -375,7 +387,7 @@ post
 warp
 :
 :
-post2
+post
 (
 )
 .
@@ -448,6 +460,8 @@ reply
 &
 routes
 )
+.
+await
 ;
 assert_eq
 !

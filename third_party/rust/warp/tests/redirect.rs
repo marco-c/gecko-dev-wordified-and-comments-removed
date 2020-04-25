@@ -6,14 +6,6 @@ deny
 warnings
 )
 ]
-extern
-crate
-pretty_env_logger
-;
-extern
-crate
-warp
-;
 use
 warp
 :
@@ -28,8 +20,12 @@ Filter
 ;
 #
 [
+tokio
+:
+:
 test
 ]
+async
 fn
 redirect_uri
 (
@@ -92,6 +88,8 @@ reply
 &
 over_there
 )
+.
+await
 ;
 assert_eq
 !

@@ -1,9 +1,13 @@
 mod
-encoder
-;
-mod
 decoder
 ;
+mod
+encoder
+;
+pub
+(
+crate
+)
 mod
 header
 ;
@@ -60,5 +64,8 @@ self
 header
 :
 :
+{
+BytesStr
 Header
+}
 ;
