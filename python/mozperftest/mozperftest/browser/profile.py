@@ -148,6 +148,15 @@ self
 pass
     
 def
+_cleanup
+(
+self
+)
+:
+        
+pass
+    
+def
 __call__
 (
 self
@@ -173,10 +182,6 @@ None
             
 return
         
-self
-.
-profile
-=
 profile
 =
 create_profile
@@ -187,6 +192,14 @@ app
 firefox
 "
 )
+        
+profile
+.
+cleanup
+=
+self
+.
+_cleanup
         
 prefs
 =
