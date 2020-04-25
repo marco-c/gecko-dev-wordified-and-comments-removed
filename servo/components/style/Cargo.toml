@@ -103,11 +103,6 @@ style_traits
 gecko
 "
 "
-fallible
-/
-known_system_malloc
-"
-"
 bindgen
 "
 "
