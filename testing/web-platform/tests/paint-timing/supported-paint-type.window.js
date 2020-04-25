@@ -5,7 +5,7 @@ test
 =
 >
 {
-assert_precondition
+assert_implements
 (
 typeof
 PerformanceObserver
@@ -79,7 +79,7 @@ async
 =
 >
 {
-assert_precondition
+assert_implements
 (
 typeof
 PerformanceObserver
@@ -99,7 +99,7 @@ supported
 '
 )
 ;
-assert_precondition
+assert_implements
 (
 typeof
 PerformanceObserver
