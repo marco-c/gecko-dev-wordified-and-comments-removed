@@ -370,6 +370,16 @@ relativeUrl
 :
 URL
 +
+introductionUrl
+:
+?
+URL
++
+introductionType
+:
+?
+string
++
 extensionName
 :
 ?

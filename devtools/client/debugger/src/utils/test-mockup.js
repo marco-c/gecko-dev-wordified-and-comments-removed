@@ -86,6 +86,12 @@ false
 relativeUrl
 :
 url
+introductionUrl
+:
+null
+introductionType
+:
+undefined
 isWasm
 :
 false
@@ -284,6 +290,12 @@ relativeUrl
 "
 url
 "
+introductionUrl
+:
+null
+introductionType
+:
+undefined
 isWasm
 :
 true

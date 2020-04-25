@@ -181,9 +181,6 @@ SourceId
 url
 :
 string
-sourceMapBaseURL
-:
-string
 sourceMapURL
 :
 string

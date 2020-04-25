@@ -149,7 +149,6 @@ http
 foo
 .
 com
-/
 "
 )
 {
