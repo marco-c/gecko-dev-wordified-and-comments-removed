@@ -26,9 +26,6 @@ nsIReferrerInfo
 .
 idl
 "
-interface
-nsIChannel
-;
 %
 {
 C
@@ -395,14 +392,6 @@ isThirdPartyPrincipal
 in
 nsIPrincipal
 principal
-)
-;
-boolean
-isThirdPartyChannel
-(
-in
-nsIChannel
-channel
 )
 ;
 [
