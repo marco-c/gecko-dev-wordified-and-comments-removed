@@ -1741,7 +1741,7 @@ enableColumnDrag
 )
 {
 var
-xulns
+XUL_NS
 =
 "
 http
@@ -1776,7 +1776,7 @@ parentNode
 .
 getElementsByTagNameNS
 (
-xulns
+XUL_NS
 "
 treecol
 "

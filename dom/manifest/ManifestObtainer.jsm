@@ -399,7 +399,7 @@ false
 ;
 }
 const
-XUL
+XUL_NS
 =
 "
 http
@@ -432,7 +432,7 @@ namespaceURI
 =
 =
 =
-XUL
+XUL_NS
 &
 &
 aBrowser

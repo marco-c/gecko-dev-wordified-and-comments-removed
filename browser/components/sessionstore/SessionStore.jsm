@@ -492,7 +492,7 @@ TabUnpinned
 ]
 ;
 const
-NS_XUL
+XUL_NS
 =
 "
 http
@@ -6254,7 +6254,7 @@ target
 namespaceURI
 =
 =
-NS_XUL
+XUL_NS
 &
 &
 target

@@ -622,9 +622,8 @@ otherWin
 .
 document
 .
-createElementNS
+createXULElement
 (
-kNSXUL
 "
 toolbar
 "

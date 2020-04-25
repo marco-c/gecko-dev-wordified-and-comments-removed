@@ -286,9 +286,8 @@ lazyArea
 =
 document
 .
-createElementNS
+createXULElement
 (
-kNSXUL
 "
 hbox
 "
