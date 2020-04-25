@@ -22,9 +22,6 @@ RUST_TESTS
 =
 [
 '
-glean
-'
-'
 selectors
 '
 '
