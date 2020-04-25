@@ -118,11 +118,11 @@ autocfg
 version
 =
 "
+0
+.
 1
 .
-0
-.
-0
+6
 "
 authors
 =
@@ -190,7 +190,7 @@ Apache
 2
 .
 0
-OR
+/
 MIT
 "
 repository
