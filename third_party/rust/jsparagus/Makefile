@@ -649,6 +649,13 @@ all
 static
 -
 check
+dyn
+-
+check
+dyn
+-
+check
+:
 .
 /
 test
@@ -727,6 +734,9 @@ PHONY
 all
 check
 static
+-
+check
+dyn
 -
 check
 jsdemo

@@ -1014,7 +1014,7 @@ IfStatement
 alloc
 >
 )
-LabeledStatement
+LabelledStatement
 {
 label
 :

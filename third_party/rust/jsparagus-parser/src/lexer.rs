@@ -10297,7 +10297,7 @@ borrow_mut
 (
 )
 .
-insert
+push
 (
 s
 )

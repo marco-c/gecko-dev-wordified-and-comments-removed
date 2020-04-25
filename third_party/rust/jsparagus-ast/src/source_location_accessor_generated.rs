@@ -10425,7 +10425,7 @@ end
 Statement
 :
 :
-LabeledStatement
+LabelledStatement
 {
 mut
 loc
@@ -10927,7 +10927,7 @@ get_loc
 Statement
 :
 :
-LabeledStatement
+LabelledStatement
 {
 loc
 .

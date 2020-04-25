@@ -3057,7 +3057,7 @@ ast
 Statement
 :
 :
-LabeledStatement
+LabelledStatement
 {
 label
 body
@@ -3069,7 +3069,7 @@ body
 {
 self
 .
-visit_enum_statement_variant_labeled_statement
+visit_enum_statement_variant_labelled_statement
 (
 label
 body
@@ -4687,7 +4687,7 @@ alloc
 {
 }
 fn
-visit_enum_statement_variant_labeled_statement
+visit_enum_statement_variant_labelled_statement
 (
 &
 mut
@@ -4720,7 +4720,7 @@ alloc
 {
 self
 .
-enter_enum_statement_variant_labeled_statement
+enter_enum_statement_variant_labelled_statement
 (
 label
 body
@@ -4742,7 +4742,7 @@ body
 ;
 self
 .
-leave_enum_statement_variant_labeled_statement
+leave_enum_statement_variant_labelled_statement
 (
 label
 body
@@ -4750,7 +4750,7 @@ body
 ;
 }
 fn
-enter_enum_statement_variant_labeled_statement
+enter_enum_statement_variant_labelled_statement
 (
 &
 mut
@@ -4783,7 +4783,7 @@ alloc
 {
 }
 fn
-leave_enum_statement_variant_labeled_statement
+leave_enum_statement_variant_labelled_statement
 (
 &
 mut
