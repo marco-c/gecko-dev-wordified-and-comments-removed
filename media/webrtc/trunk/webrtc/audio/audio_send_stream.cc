@@ -2257,15 +2257,6 @@ PacketFeedback
 packet_feedback_vector
 )
 {
-RTC_DCHECK
-(
-worker_thread_checker_
-.
-CalledOnValidThread
-(
-)
-)
-;
 rtc
 :
 :
