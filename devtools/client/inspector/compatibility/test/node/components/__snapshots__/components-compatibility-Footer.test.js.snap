@@ -39,6 +39,13 @@ compatibility
 -
 footer__button
 "
+onClick
+=
+{
+[
+Function
+]
+}
 title
 =
 "

@@ -41,6 +41,11 @@ NodePane
 js
 "
 "
+Settings
+.
+js
+"
+"
 UnsupportedBrowserItem
 .
 js
