@@ -144,10 +144,11 @@ GetRequest
 )
 mTransaction
 (
+&
 mRequest
 -
 >
-GetTransaction
+MutableTransactionRef
 (
 )
 )
@@ -227,11 +228,6 @@ AssertIsOnOwningThread
 MOZ_ASSERT
 (
 mRequest
-)
-;
-MOZ_ASSERT
-(
-mTransaction
 )
 ;
 mTransaction
@@ -1966,6 +1962,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -2051,6 +2048,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -2657,6 +2655,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -2891,6 +2890,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -2973,6 +2973,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -3499,6 +3500,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -3592,6 +3594,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -3926,6 +3929,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY
@@ -4019,6 +4023,7 @@ Database
 )
 IDB_LOG_STRINGIFY
 (
+*
 mTransaction
 )
 IDB_LOG_STRINGIFY

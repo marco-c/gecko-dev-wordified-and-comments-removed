@@ -479,7 +479,7 @@ void
 RegisterTransaction
 (
 IDBTransaction
-*
+&
 aTransaction
 )
 ;
@@ -487,7 +487,7 @@ void
 UnregisterTransaction
 (
 IDBTransaction
-*
+&
 aTransaction
 )
 ;
