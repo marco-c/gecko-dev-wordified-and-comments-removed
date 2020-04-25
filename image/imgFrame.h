@@ -7,6 +7,11 @@ mozilla_image_imgFrame_h
 #
 include
 <
+functional
+>
+#
+include
+<
 utility
 >
 #
