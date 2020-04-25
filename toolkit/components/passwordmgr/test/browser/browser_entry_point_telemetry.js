@@ -464,7 +464,11 @@ waitForEvent
 (
 pageInfo
 "
-load
+page
+-
+info
+-
+init
 "
 )
 ;
