@@ -1841,6 +1841,9 @@ load
 mozSystemGroup
 :
 true
+capture
+:
+true
 }
 }
 }
