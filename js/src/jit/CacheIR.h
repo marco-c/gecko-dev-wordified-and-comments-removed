@@ -1061,11 +1061,6 @@ data_
 }
 JS_HAZ_GC_POINTER
 ;
-using
-FieldOffset
-=
-uint8_t
-;
 class
 CallFlags
 {
