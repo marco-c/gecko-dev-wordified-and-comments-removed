@@ -377,6 +377,10 @@ mozilla
 central
 "
         
+verbose
+=
+False
+        
 *
 *
 kwargs
@@ -390,6 +394,12 @@ _dirs_to_remove
 =
 [
 ]
+        
+self
+.
+verbose
+=
+verbose
         
 if
 host
@@ -582,6 +592,12 @@ project
 "
 :
 project
+            
+"
+verbose
+"
+:
+verbose
         
 }
         

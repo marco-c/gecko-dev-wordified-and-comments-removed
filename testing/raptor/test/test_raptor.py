@@ -12,6 +12,8 @@ threading
 import
 time
 import
+traceback
+import
 mock
 import
 pytest
@@ -152,6 +154,44 @@ self
 exc
 =
 None
+    
+def
+print_error
+(
+self
+)
+:
+        
+if
+self
+.
+exc
+is
+None
+:
+            
+return
+        
+type
+value
+tb
+=
+self
+.
+exc
+        
+traceback
+.
+print_exception
+(
+type
+value
+tb
+None
+sys
+.
+stderr
+)
     
 def
 run
@@ -1155,6 +1195,12 @@ sleep
 else
 :
         
+thread
+.
+print_error
+(
+)
+        
 assert
 False
     
@@ -1358,11 +1404,6 @@ str
 (
 DEFAULT_TIMEOUT
 )
-        
-"
--
-vvv
-"
         
 "
 -

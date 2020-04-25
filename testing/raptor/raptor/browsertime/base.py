@@ -1325,11 +1325,6 @@ page_cycles
             
 "
 -
-vvv
-"
-            
-"
--
 -
 resultDir
 "
@@ -1343,6 +1338,22 @@ test
 )
         
 ]
+        
+if
+self
+.
+verbose
+:
+            
+browsertime_options
+.
+append
+(
+"
+-
+vvv
+"
+)
         
 if
 self
