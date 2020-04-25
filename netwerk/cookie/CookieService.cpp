@@ -61,17 +61,6 @@ mozilla
 /
 net
 /
-CookiePermission
-.
-h
-"
-#
-include
-"
-mozilla
-/
-net
-/
 CookiePersistentStorage
 .
 h
