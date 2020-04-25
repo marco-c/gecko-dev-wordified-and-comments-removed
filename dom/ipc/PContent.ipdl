@@ -1847,8 +1847,8 @@ PWebBrowserPersistDocument
 nullable
 PBrowser
 aBrowser
-uint64_t
-aOuterWindowID
+MaybeDiscardedBrowsingContext
+aContext
 )
 ;
 child
