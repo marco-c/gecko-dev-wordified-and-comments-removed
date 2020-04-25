@@ -316,9 +316,9 @@ saveBrowser
 (
 aBrowser
 aSkipPrompt
-aOuterWindowID
+aBrowsingContext
 =
-0
+null
 )
 {
 if
@@ -465,7 +465,7 @@ persistable
 .
 startPersistence
 (
-aOuterWindowID
+aBrowsingContext
 {
 onDocumentReady
 (
