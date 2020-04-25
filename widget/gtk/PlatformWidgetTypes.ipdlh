@@ -31,9 +31,6 @@ XDisplayString
 bool
 Shaped
 ;
-bool
-IsX11Display
-;
 LayoutDeviceIntSize
 InitialClientSize
 ;
