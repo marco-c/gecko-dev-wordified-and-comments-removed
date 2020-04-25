@@ -168,6 +168,13 @@ h
 #
 include
 "
+nsAtom
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -5926,8 +5933,8 @@ MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 BeginPlaceholderTransaction
 (
-nsAtom
-*
+nsStaticAtom
+&
 aTransactionName
 )
 ;
@@ -6462,7 +6469,11 @@ mEditorBase
 >
 BeginPlaceholderTransaction
 (
-nullptr
+*
+nsGkAtoms
+:
+:
+_empty
 )
 ;
 }
@@ -6471,7 +6482,7 @@ AutoPlaceholderBatch
 EditorBase
 &
 aEditorBase
-nsAtom
+nsStaticAtom
 &
 aTransactionName
 MOZ_GUARD_OBJECT_NOTIFIER_PARAM
@@ -6489,7 +6500,6 @@ mEditorBase
 >
 BeginPlaceholderTransaction
 (
-&
 aTransactionName
 )
 ;
@@ -6854,7 +6864,7 @@ PlaceholderTransaction
 >
 mPlaceholderTransaction
 ;
-nsAtom
+nsStaticAtom
 *
 mPlaceholderName
 ;
