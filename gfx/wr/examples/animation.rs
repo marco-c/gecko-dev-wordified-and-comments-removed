@@ -343,7 +343,6 @@ vec
 [
 complex_clip
 ]
-None
 )
 ;
 builder
