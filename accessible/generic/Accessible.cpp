@@ -14385,6 +14385,12 @@ CreateGroupInfo
 this
 )
 ;
+mStateFlags
+&
+=
+~
+eGroupInfoDirty
+;
 return
 mBits
 .
