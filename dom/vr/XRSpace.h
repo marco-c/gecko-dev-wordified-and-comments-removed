@@ -138,6 +138,7 @@ GetEffectiveOriginTransform
 )
 const
 ;
+virtual
 bool
 IsPositionEmulated
 (

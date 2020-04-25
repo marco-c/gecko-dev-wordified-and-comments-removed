@@ -7003,7 +7003,7 @@ dom
 GamepadCapabilityFlags
 :
 :
-Cap_TargetRaySpacePosition
+Cap_GripSpacePosition
 ;
 }
 if

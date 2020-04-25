@@ -84,6 +84,16 @@ VRDisplayCapabilityFlags
 :
 :
 Cap_Position
+|
+|
+sensorState
+.
+flags
+&
+VRDisplayCapabilityFlags
+:
+:
+Cap_PositionEmulated
 )
 {
 mInitialPosition

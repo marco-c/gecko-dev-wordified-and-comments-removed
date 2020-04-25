@@ -977,6 +977,16 @@ return
 nullptr
 ;
 }
+const
+bool
+emulatedPosition
+=
+aSpace
+.
+IsPositionEmulated
+(
+)
+;
 gfx
 :
 :
@@ -1044,7 +1054,7 @@ XRPose
 (
 mParent
 transform
-false
+emulatedPosition
 )
 ;
 return
