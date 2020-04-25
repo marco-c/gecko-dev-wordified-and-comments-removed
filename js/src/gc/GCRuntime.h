@@ -3191,6 +3191,9 @@ Ok
 TriggerResult
 checkHeapThreshold
 (
+Zone
+*
+zone
 const
 HeapSize
 &
@@ -3199,8 +3202,6 @@ const
 HeapThreshold
 &
 heapThreshold
-bool
-isCollecting
 )
 ;
 void
