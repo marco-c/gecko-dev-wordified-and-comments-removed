@@ -465,7 +465,7 @@ resolve
 setTimeout
 (
 resolve
-1000
+500
 )
 )
 ;
@@ -535,7 +535,7 @@ resolve
 setTimeout
 (
 resolve
-1000
+500
 )
 )
 ;
