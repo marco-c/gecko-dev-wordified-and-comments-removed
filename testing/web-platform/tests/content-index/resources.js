@@ -98,7 +98,7 @@ green
 .
 png
 '
-launchUrl
+url
 =
 scope
 includeIcons
@@ -127,7 +127,7 @@ iconUrl
 :
 [
 ]
-launchUrl
+url
 }
 ;
 }
