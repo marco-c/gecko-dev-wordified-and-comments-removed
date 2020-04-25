@@ -783,11 +783,14 @@ for
 k
 v
 in
+sorted
+(
 six
 .
 iteritems
 (
 sanitized_config
+)
 )
 :
             
