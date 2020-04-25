@@ -40,6 +40,15 @@ nsTreeColumns
 .
 h
 "
+using
+mozilla
+:
+:
+dom
+:
+:
+XULTreeElement
+;
 NS_IMPL_ISUPPORTS
 (
 nsTreeImageListener

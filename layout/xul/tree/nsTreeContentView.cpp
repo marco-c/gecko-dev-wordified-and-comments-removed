@@ -95,6 +95,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+XULTreeElement
+.
+h
+"
+#
+include
+"
 nsServiceManagerUtils
 .
 h

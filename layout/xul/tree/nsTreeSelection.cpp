@@ -92,6 +92,12 @@ using
 namespace
 mozilla
 ;
+using
+dom
+:
+:
+XULTreeElement
+;
 struct
 nsTreeRange
 {

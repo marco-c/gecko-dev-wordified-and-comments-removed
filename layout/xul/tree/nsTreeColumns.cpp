@@ -82,6 +82,17 @@ TreeColumnsBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+XULTreeElement
+.
+h
+"
 using
 namespace
 mozilla

@@ -90,6 +90,9 @@ nsIFrame
 *
 NS_NewPopupSetFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell

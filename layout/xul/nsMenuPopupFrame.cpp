@@ -461,6 +461,15 @@ mozilla
 dom
 :
 :
+Element
+;
+using
+mozilla
+:
+:
+dom
+:
+:
 Event
 ;
 using

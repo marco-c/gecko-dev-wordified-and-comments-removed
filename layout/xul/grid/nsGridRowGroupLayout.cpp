@@ -623,6 +623,9 @@ PresShell
 FrameNeedsReflow
 (
 aBox
+mozilla
+:
+:
 IntrinsicDirty
 :
 :

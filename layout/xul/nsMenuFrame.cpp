@@ -295,6 +295,12 @@ using
 namespace
 mozilla
 ;
+using
+dom
+:
+:
+Element
+;
 #
 define
 NS_MENU_POPUP_LIST_INDEX
@@ -4461,6 +4467,9 @@ IsEmpty
 )
 return
 ;
+dom
+:
+:
 Document
 *
 document
@@ -5569,6 +5578,9 @@ IsMeta
 bool
 userinput
 =
+dom
+:
+:
 UserActivation
 :
 :
