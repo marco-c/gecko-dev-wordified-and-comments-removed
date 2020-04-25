@@ -2404,6 +2404,9 @@ LoadInt32ArrayLengthResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2414,6 +2417,9 @@ name
 :
 LoadArgumentsObjectArgResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2431,6 +2437,9 @@ LoadArgumentsObjectLengthResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2441,6 +2450,9 @@ name
 :
 LoadFunctionLengthResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2473,6 +2485,9 @@ LoadStringLengthResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 str
@@ -2485,6 +2500,9 @@ LoadFrameCalleeResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 -
@@ -2494,6 +2512,9 @@ LoadFrameNumActualArgsResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 -
@@ -2503,6 +2524,9 @@ LoadFrameArgumentResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 index
@@ -2515,6 +2539,9 @@ LoadEnvironmentFixedSlotResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2530,6 +2557,9 @@ LoadEnvironmentDynamicSlotResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2543,6 +2573,9 @@ name
 :
 LoadObjectResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
