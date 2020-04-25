@@ -62,9 +62,9 @@ int
 aThreadId
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
-aBlocksRingBuffer
+aProfileChunkedBuffer
 UniquePtr
 <
 ProfileBuffer
@@ -83,14 +83,14 @@ mThreadId
 (
 aThreadId
 )
-mBlocksRingBuffer
+mProfileChunkedBuffer
 (
 std
 :
 :
 move
 (
-aBlocksRingBuffer
+aProfileChunkedBuffer
 )
 )
 mProfileBuffer
@@ -108,7 +108,7 @@ MOZ_ASSERT
 (
 !
 !
-mBlocksRingBuffer
+mProfileChunkedBuffer
 "
 ProfilerBacktrace
 only
@@ -117,9 +117,11 @@ a
 non
 -
 null
+"
+"
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
 "
 )
@@ -147,7 +149,7 @@ ProfileBuffer
 MOZ_ASSERT
 (
 !
-mBlocksRingBuffer
+mProfileChunkedBuffer
 -
 >
 IsThreadSafe
@@ -163,7 +165,7 @@ non
 thread
 -
 safe
-BlocksRingBuffer
+ProfileChunkedBuffer
 "
 )
 ;
@@ -258,7 +260,7 @@ aER
 )
 {
 auto
-blocksRingBuffer
+profileChunkedBuffer
 =
 aER
 .
@@ -266,7 +268,7 @@ ReadObject
 <
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
 >
 (
@@ -275,7 +277,7 @@ BlocksRingBuffer
 if
 (
 !
-blocksRingBuffer
+profileChunkedBuffer
 )
 {
 return
@@ -285,7 +287,7 @@ nullptr
 MOZ_ASSERT
 (
 !
-blocksRingBuffer
+profileChunkedBuffer
 -
 >
 IsThreadSafe
@@ -300,7 +302,7 @@ non
 thread
 -
 safe
-BlocksRingBuffers
+ProfileChunkedBuffers
 "
 )
 ;
@@ -346,7 +348,7 @@ ProfileBuffer
 >
 (
 *
-blocksRingBuffer
+profileChunkedBuffer
 )
 ;
 return
@@ -376,7 +378,7 @@ std
 :
 move
 (
-blocksRingBuffer
+profileChunkedBuffer
 )
 std
 :

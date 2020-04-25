@@ -17,7 +17,7 @@ namespace
 mozilla
 {
 class
-BlocksRingBuffer
+ProfileChunkedBuffer
 ;
 class
 TimeStamp
@@ -52,9 +52,9 @@ int
 aThreadId
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
-aBlocksRingBuffer
+aProfileChunkedBuffer
 UniquePtr
 <
 ProfileBuffer
@@ -115,9 +115,9 @@ mThreadId
 ;
 UniquePtr
 <
-BlocksRingBuffer
+ProfileChunkedBuffer
 >
-mBlocksRingBuffer
+mProfileChunkedBuffer
 ;
 UniquePtr
 <
@@ -182,7 +182,7 @@ SumBytes
 *
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 ;
 if
@@ -252,7 +252,7 @@ SumBytes
 (
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 =
 =
@@ -278,7 +278,7 @@ WriteObject
 (
 aBacktrace
 .
-mBlocksRingBuffer
+mProfileChunkedBuffer
 )
 ;
 aEW
