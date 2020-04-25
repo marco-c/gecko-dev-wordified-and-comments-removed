@@ -222,6 +222,22 @@ sessionOnly
 false
 )
 ;
+Services
+.
+prefs
+.
+setBoolPref
+(
+"
+network
+.
+cookieJarSettings
+.
+unblocked_for_testing
+"
+true
+)
+;
 do_set_cookies
 (
 uri1
@@ -231,7 +247,6 @@ false
 1
 2
 3
-4
 ]
 )
 ;
@@ -244,7 +259,6 @@ true
 1
 2
 3
-4
 ]
 )
 ;
@@ -273,7 +287,7 @@ uri1
 .
 host
 )
-4
+3
 )
 ;
 Assert
@@ -315,7 +329,7 @@ uri1
 .
 host
 )
-4
+3
 )
 ;
 Assert
@@ -368,7 +382,6 @@ false
 1
 2
 3
-4
 ]
 )
 ;
@@ -381,7 +394,6 @@ true
 1
 2
 3
-4
 ]
 )
 ;

@@ -2091,7 +2091,7 @@ bool
 aFromHttp
 )
 {
-NS_ENSURE_ARG
+MOZ_ASSERT
 (
 aHostURI
 )
@@ -3313,6 +3313,11 @@ nsIChannel
 aChannel
 )
 {
+NS_ENSURE_ARG
+(
+aHostURI
+)
+;
 return
 SetCookieStringInternal
 (
@@ -3341,6 +3346,16 @@ nsIChannel
 aChannel
 )
 {
+NS_ENSURE_ARG
+(
+aHostURI
+)
+;
+NS_ENSURE_ARG
+(
+aChannel
+)
+;
 return
 SetCookieStringInternal
 (
