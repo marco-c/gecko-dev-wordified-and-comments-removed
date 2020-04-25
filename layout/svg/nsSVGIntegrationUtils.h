@@ -48,6 +48,15 @@ include
 "
 mozilla
 /
+ServoStyleConsts
+.
+h
+"
+#
+include
+"
+mozilla
+/
 webrender
 /
 WebRenderTypes
