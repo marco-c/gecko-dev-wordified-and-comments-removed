@@ -218,9 +218,6 @@ release
 history
 remote
 repackage
-resource
--
-usage
 robocop
 rusttests
 static

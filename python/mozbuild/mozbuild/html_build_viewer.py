@@ -1,11 +1,7 @@
-from
-__future__
 import
-absolute_import
-print_function
-unicode_literals
-import
-BaseHTTPServer
+http
+.
+server
 import
 json
 import
@@ -15,7 +11,9 @@ requests
 class
 HTTPHandler
 (
-BaseHTTPServer
+http
+.
+server
 .
 BaseHTTPRequestHandler
 )
@@ -102,9 +100,11 @@ keys
 )
 )
             
+s
+=
 json
 .
-dump
+dumps
 (
 {
 '
@@ -126,9 +126,24 @@ in
 keys
 ]
 }
+)
+            
 self
 .
 wfile
+.
+write
+(
+s
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
 )
             
 return
@@ -558,7 +573,9 @@ self
 .
 server
 =
-BaseHTTPServer
+http
+.
+server
 .
 HTTPServer
 (
