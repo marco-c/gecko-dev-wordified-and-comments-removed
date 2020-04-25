@@ -384,10 +384,6 @@ NS_INTERFACE_MAP_BEGIN_CYCLE_COLLECTION
 (
 CompositionTransaction
 )
-NS_INTERFACE_MAP_ENTRY_CONCRETE
-(
-CompositionTransaction
-)
 NS_INTERFACE_MAP_END_INHERITING
 (
 EditTransactionBase
