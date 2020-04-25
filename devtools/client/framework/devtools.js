@@ -2012,7 +2012,7 @@ toolbox
 -
 destroy
 "
-target
+toolbox
 )
 ;
 }
@@ -2048,7 +2048,7 @@ toolbox
 -
 destroyed
 "
-target
+toolbox
 )
 ;
 }
