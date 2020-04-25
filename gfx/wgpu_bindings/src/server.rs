@@ -649,13 +649,6 @@ global
 buffer_map_async
 (
 buffer_id
-wgt
-:
-:
-BufferUsage
-:
-:
-MAP_READ
 start
 .
 .

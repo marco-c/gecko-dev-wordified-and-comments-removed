@@ -31,6 +31,10 @@ GlobalIdentityHandlerFactory
 Token
 }
 id
+resource
+:
+:
+BufferUse
 }
 ;
 use
@@ -1192,7 +1196,7 @@ buffer_guard
 buffer_id
 (
 )
-BufferUsage
+BufferUse
 :
 :
 INDIRECT
