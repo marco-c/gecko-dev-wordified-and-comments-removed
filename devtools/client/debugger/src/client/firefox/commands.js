@@ -634,6 +634,10 @@ resume
 thread
 :
 string
+frameId
+:
+?
+FrameId
 )
 :
 Promise
@@ -658,6 +662,10 @@ stepIn
 thread
 :
 string
+frameId
+:
+?
+FrameId
 )
 :
 Promise
@@ -673,6 +681,7 @@ thread
 .
 stepIn
 (
+frameId
 )
 ;
 }
@@ -682,6 +691,10 @@ stepOver
 thread
 :
 string
+frameId
+:
+?
+FrameId
 )
 :
 Promise
@@ -697,6 +710,7 @@ thread
 .
 stepOver
 (
+frameId
 )
 ;
 }
@@ -706,6 +720,10 @@ stepOut
 thread
 :
 string
+frameId
+:
+?
+FrameId
 )
 :
 Promise
@@ -721,6 +739,7 @@ thread
 .
 stepOut
 (
+frameId
 )
 ;
 }
