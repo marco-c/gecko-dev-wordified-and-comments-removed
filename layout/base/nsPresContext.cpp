@@ -3405,11 +3405,8 @@ GetBrowsingContext
 ;
 if
 (
-NS_WARN_IF
-(
 !
 browsingContext
-)
 )
 {
 return
