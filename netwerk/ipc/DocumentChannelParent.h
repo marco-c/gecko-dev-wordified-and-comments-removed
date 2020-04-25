@@ -188,7 +188,6 @@ SendDeleteSelf
 ;
 }
 }
-virtual
 ProcessId
 OtherPid
 (
@@ -237,6 +236,7 @@ aLoadFlags
 )
 override
 ;
+virtual
 ~
 DocumentChannelParent
 (
