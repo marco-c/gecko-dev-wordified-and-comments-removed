@@ -2336,16 +2336,6 @@ mochitest
 '
             
 '
-reftest
--
-qr
-'
-:
-'
-reftest
-'
-            
-'
 jsreftest
 '
 :
