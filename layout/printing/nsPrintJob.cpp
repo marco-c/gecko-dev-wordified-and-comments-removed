@@ -15037,7 +15037,7 @@ child
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )
