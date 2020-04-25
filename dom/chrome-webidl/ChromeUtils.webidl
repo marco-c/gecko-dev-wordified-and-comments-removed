@@ -4354,6 +4354,9 @@ enum
 MediaControlKeysTestEvent
 {
 "
+focus
+"
+"
 play
 "
 "

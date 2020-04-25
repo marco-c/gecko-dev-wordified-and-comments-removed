@@ -36,6 +36,9 @@ namespace
 dom
 {
 class
+MediaSession
+;
+class
 MOZ_STACK_CLASS
 PlaybackController
 {
@@ -55,6 +58,11 @@ PlaybackController
 )
 =
 default
+;
+void
+Focus
+(
+)
 ;
 void
 Play
@@ -103,6 +111,12 @@ SeekTo
 ;
 private
 :
+MediaSession
+*
+GetMediaSession
+(
+)
+;
 RefPtr
 <
 BrowsingContext

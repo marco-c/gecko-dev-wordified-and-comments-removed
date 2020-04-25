@@ -59,6 +59,7 @@ ePrevTrack
 eNextTrack
 eSeekBackward
 eSeekForward
+eFocus
 eStop
 }
 ;

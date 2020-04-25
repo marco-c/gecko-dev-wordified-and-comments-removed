@@ -98,6 +98,11 @@ aContextId
 )
 ;
 void
+Focus
+(
+)
+;
+void
 Play
 (
 )
