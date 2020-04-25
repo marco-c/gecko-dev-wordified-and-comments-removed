@@ -128,7 +128,7 @@ persistable
 .
 startPersistence
 (
-null
+0
 {
 onDocumentReady
 onError
