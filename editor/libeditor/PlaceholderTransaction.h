@@ -142,6 +142,10 @@ PlaceholderTransaction
 EditAggregateTransaction
 )
 NS_DECL_EDITTRANSACTIONBASE
+NS_DECL_EDITTRANSACTIONBASE_GETASMETHODS_OVERRIDE
+(
+PlaceholderTransaction
+)
 MOZ_CAN_RUN_SCRIPT
 NS_IMETHOD
 RedoTransaction

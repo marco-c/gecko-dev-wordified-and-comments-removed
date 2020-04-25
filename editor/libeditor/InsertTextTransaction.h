@@ -153,6 +153,10 @@ InsertTextTransaction
 EditTransactionBase
 )
 NS_DECL_EDITTRANSACTIONBASE
+NS_DECL_EDITTRANSACTIONBASE_GETASMETHODS_OVERRIDE
+(
+InsertTextTransaction
+)
 NS_IMETHOD
 Merge
 (
