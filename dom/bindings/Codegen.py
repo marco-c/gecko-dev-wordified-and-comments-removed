@@ -14,6 +14,8 @@ from
 perfecthash
 import
 PerfectHash
+import
+six
 from
 WebIDL
 import
@@ -8164,19 +8166,23 @@ dictionary
 )
 )
         
-map
-(
-addHeadersForType
-            
+for
+t
+in
 getAllTypes
 (
 descriptors
 +
 callbackDescriptors
 dictionaries
-                        
+                             
 callbacks
 )
+:
+            
+addHeadersForType
+(
+t
 )
         
 def
@@ -16203,8 +16209,8 @@ PropertyDefiner
 .
 getControllingCondition
 (
-m
-                                                                     
+                    
+maplikeOrSetlikeOrIterable
 descriptor
 )
             
@@ -16263,8 +16269,8 @@ PropertyDefiner
 .
 getControllingCondition
 (
-m
-                                                                     
+                    
+maplikeOrSetlikeOrIterable
 descriptor
 )
             
@@ -16323,8 +16329,8 @@ PropertyDefiner
 .
 getControllingCondition
 (
-m
-                                                                     
+                    
+maplikeOrSetlikeOrIterable
 descriptor
 )
             
@@ -16383,8 +16389,8 @@ PropertyDefiner
 .
 getControllingCondition
 (
-m
-                                                                     
+                    
+maplikeOrSetlikeOrIterable
 descriptor
 )
             
@@ -36234,18 +36240,20 @@ prettyNames
         
 interfaceMemberTypes
 =
-filter
-(
-lambda
+[
+            
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isNonCallbackInterface
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -36372,18 +36380,19 @@ None
         
 sequenceObjectMemberTypes
 =
-filter
-(
-lambda
+[
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isSequence
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -36482,11 +36491,14 @@ None
         
 callbackMemberTypes
 =
-filter
-(
-lambda
+[
+            
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isCallback
@@ -36498,8 +36510,7 @@ t
 isCallbackInterface
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -36598,18 +36609,19 @@ None
         
 dictionaryMemberTypes
 =
-filter
-(
-lambda
+[
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isDictionary
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -36708,18 +36720,19 @@ None
         
 recordMemberTypes
 =
-filter
-(
-lambda
+[
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isRecord
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -36818,18 +36831,19 @@ None
         
 objectMemberTypes
 =
-filter
-(
-lambda
+[
 t
-:
+for
+t
+in
+memberTypes
+if
 t
 .
 isObject
 (
 )
-memberTypes
-)
+]
         
 if
 len
@@ -37271,27 +37285,42 @@ CGList
             
 stringConversion
 =
-map
-(
+[
 getStringOrPrimitiveConversion
-stringTypes
+(
+t
 )
+for
+t
+in
+stringTypes
+]
             
 numericConversion
 =
-map
-(
+[
 getStringOrPrimitiveConversion
-numericTypes
+(
+t
 )
+for
+t
+in
+numericTypes
+]
             
 booleanConversion
 =
-map
-(
+[
 getStringOrPrimitiveConversion
-booleanTypes
+(
+t
 )
+for
+t
+in
+booleanTypes
+]
             
 if
 stringConversion
@@ -58757,11 +58786,18 @@ filterLambda
                 
 sigs
 =
-filter
-(
-filterLambda
+[
+s
+for
+s
+in
 possibleSignatures
+if
+filterLambda
+(
+s
 )
+]
                 
 assert
 len
@@ -66814,13 +66850,15 @@ aliasSet
                 
 returnType
 =
+functools
+.
 reduce
 (
+                    
 CGMemberJITInfo
 .
 getSingleReturnType
 returnTypes
-                                  
 "
 "
 )
@@ -68407,12 +68445,14 @@ JSVAL_TYPE_UNKNOWN
 "
             
 return
+functools
+.
 reduce
 (
 CGMemberJITInfo
 .
 getSingleReturnType
-                          
+                                    
 u
 .
 flatMemberTypes
@@ -68937,12 +68977,14 @@ s
 "
 %
                     
+functools
+.
 reduce
 (
 CGMemberJITInfo
 .
 getSingleArgType
-                           
+                                     
 u
 .
 flatMemberTypes
@@ -82625,15 +82667,16 @@ body
 in
 sorted
 (
+six
+.
+iteritems
+(
 switchDecriptor
 [
 '
 cases
 '
 ]
-.
-iteritems
-(
 )
 )
 :
@@ -104069,12 +104112,13 @@ child
 in
 sorted
 (
-self
-.
-children
+six
 .
 iteritems
 (
+self
+.
+children
 )
 )
 :
@@ -107248,10 +107292,11 @@ for
 header
 include
 in
-bindingHeaders
+six
 .
 iteritems
 (
+bindingHeaders
 )
                           
 if
@@ -107261,20 +107306,22 @@ include
 bindingDeclareHeaders
 =
 [
+            
 header
-                                 
 for
 header
 include
 in
-bindingDeclareHeaders
+six
 .
 iteritems
 (
+bindingDeclareHeaders
 )
-                                 
+            
 if
 include
+        
 ]
         
 curr
@@ -111570,6 +111617,8 @@ op
         
 ops
 =
+sorted
+(
 descriptor
 .
 operations
@@ -111577,11 +111626,6 @@ operations
 items
 (
 )
-        
-ops
-.
-sort
-(
 key
 =
 lambda
@@ -128433,12 +128477,13 @@ unionTypes
 for
 l
 in
-config
-.
-unionsPerFilename
+six
 .
 itervalues
 (
+config
+.
+unionsPerFilename
 )
 :
             
@@ -130181,20 +130226,22 @@ signature
 =
 len
 (
-filter
-(
-lambda
+                    
+[
 x
-:
+for
+x
+in
+iface
+.
+members
+if
 x
 .
 isAttr
 (
 )
-iface
-.
-members
-)
+]
 )
 -
 1

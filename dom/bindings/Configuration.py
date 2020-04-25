@@ -3,7 +3,11 @@ WebIDL
 import
 IDLIncludesStatement
 import
+io
+import
 os
+import
+six
 from
 collections
 import
@@ -177,9 +181,25 @@ glbl
 {
 }
         
-execfile
+exec
+(
+io
+.
+open
 (
 filename
+encoding
+=
+'
+utf
+-
+8
+'
+)
+.
+read
+(
+)
 glbl
 )
         
@@ -782,19 +802,14 @@ descriptors
 .
 sort
 (
+key
+=
 lambda
 x
-y
 :
-cmp
-(
 x
 .
 name
-y
-.
-name
-)
 )
         
 self
@@ -1050,20 +1065,20 @@ filenamesForUnion
                                 
 unionsForFilename
 =
+[
+                                    
+u
+for
+u
+in
 self
 .
 unionsPerFilename
 [
 f
 ]
-                                
-unionsForFilename
-=
-filter
-(
-lambda
-u
-:
+                                    
+if
 u
 .
 name
@@ -1072,9 +1087,8 @@ name
 t
 .
 name
-                                                           
-unionsForFilename
-)
+                                
+]
                                 
 if
 len
@@ -1251,10 +1265,11 @@ for
 key
 val
 in
-filters
+six
 .
 iteritems
 (
+filters
 )
 :
             
@@ -1540,11 +1555,13 @@ tofilter
             
 curr
 =
-filter
-(
-lambda
+[
 x
-:
+for
+x
+in
+curr
+if
 f
 [
 0
@@ -1558,8 +1575,7 @@ f
 [
 1
 ]
-curr
-)
+]
         
 return
 curr
@@ -1573,11 +1589,15 @@ webIDLFile
 :
         
 return
-filter
-(
-lambda
+[
 e
-:
+for
+e
+in
+self
+.
+enums
+if
 e
 .
 filename
@@ -1586,10 +1606,7 @@ filename
 =
 =
 webIDLFile
-self
-.
-enums
-)
+]
     
 def
 getDictionaries
@@ -1600,11 +1617,15 @@ webIDLFile
 :
         
 return
-filter
-(
-lambda
+[
 d
-:
+for
+d
+in
+self
+.
+dictionaries
+if
 d
 .
 filename
@@ -1613,10 +1634,7 @@ filename
 =
 =
 webIDLFile
-self
-.
-dictionaries
-)
+]
     
 def
 getCallbacks
@@ -1627,11 +1645,15 @@ webIDLFile
 :
         
 return
-filter
-(
-lambda
+[
 c
-:
+for
+c
+in
+self
+.
+callbacks
+if
 c
 .
 filename
@@ -1640,10 +1662,7 @@ filename
 =
 =
 webIDLFile
-self
-.
-callbacks
-)
+]
     
 def
 getDescriptor
@@ -1725,18 +1744,19 @@ self
 :
         
 return
-filter
-(
-lambda
+[
 d
-:
+for
 d
-.
-needsConversionToJS
+in
 self
 .
 dictionaries
-)
+if
+d
+.
+needsConversionToJS
+]
     
 def
 getDictionariesConvertibleFromJS
@@ -1746,18 +1766,19 @@ self
 :
         
 return
-filter
-(
-lambda
+[
 d
-:
+for
 d
-.
-needsConversionFromJS
+in
 self
 .
 dictionaries
-)
+if
+d
+.
+needsConversionFromJS
+]
     
 def
 getDictionaryIfExists
@@ -4001,11 +4022,7 @@ self
 :
         
 return
-map
-(
-lambda
-p
-:
+[
 self
 .
 getDescriptor
@@ -4014,10 +4031,13 @@ p
 )
 .
 name
+for
+p
+in
 self
 .
 prototypeChain
-)
+]
     
 property
     
