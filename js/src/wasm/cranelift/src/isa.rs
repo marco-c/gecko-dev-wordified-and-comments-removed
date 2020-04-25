@@ -1,4 +1,10 @@
 use
+log
+:
+:
+warn
+;
+use
 std
 :
 :

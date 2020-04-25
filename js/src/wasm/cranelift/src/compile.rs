@@ -1,4 +1,13 @@
 use
+log
+:
+:
+{
+debug
+info
+}
+;
+use
 std
 :
 :
