@@ -728,6 +728,17 @@ prototype
 =
 {
 get
+cssProperties
+(
+)
+{
+return
+this
+.
+_cssProperties
+;
+}
+get
 currentTarget
 (
 )
