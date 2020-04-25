@@ -7722,11 +7722,6 @@ encodeURIComponent
 StartupCache
 =
 {
-DB_NAME
-:
-"
-ExtensionStartupCache
-"
 STORE_NAMES
 :
 Object
