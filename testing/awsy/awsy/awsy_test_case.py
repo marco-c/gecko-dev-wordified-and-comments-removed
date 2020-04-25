@@ -791,17 +791,7 @@ resultsDir
 from
 dmd
 import
-initStackFixing
 fixStackTraces
-        
-(
-fix
-finish
-)
-=
-initStackFixing
-(
-)
         
 tmpdir
 =
@@ -852,6 +842,20 @@ tmpdir
 f
 )
             
+if
+not
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+                
 self
 .
 logger
@@ -873,14 +877,13 @@ while
 %
 f
 )
-            
+                
 isZipped
 =
 True
-            
+                
 fixStackTraces
 (
-fix
 f
 isZipped
 gzip
@@ -896,10 +899,6 @@ f
 self
 .
 _resultsDir
-)
-        
-finish
-(
 )
         
 for

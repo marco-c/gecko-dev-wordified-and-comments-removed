@@ -1719,7 +1719,7 @@ symbolsPath
 )
 :
         
-fix_stacks
+stack_fixer_module
 =
 import_stack_fixer_module
 (
@@ -1728,25 +1728,27 @@ fix_stacks
 '
 )
         
+def
+stack_fixer_function
 (
-fix
-finish
+line
 )
-=
-fix_stacks
+:
+            
+return
+stack_fixer_module
 .
-init
+fixSymbols
 (
-slow_warning
+                
+line
+slowWarning
 =
 True
-breakpad_syms_dir
+breakpadSymsDir
 =
 symbolsPath
 )
-        
-return
-fix
     
 elif
 mozinfo
@@ -1762,7 +1764,7 @@ mozinfo
 isWin
 :
         
-fix_stacks
+stack_fixer_module
 =
 import_stack_fixer_module
 (
@@ -1771,25 +1773,29 @@ fix_stacks
 '
 )
         
+def
+stack_fixer_function
 (
-fix
-finish
+line
 )
-=
-fix_stacks
+:
+            
+return
+stack_fixer_module
 .
-init
+fixSymbols
 (
-slow_warning
+line
+slowWarning
 =
 True
 )
-        
-return
-fix
     
 else
 :
         
 return
 None
+    
+return
+stack_fixer_function
