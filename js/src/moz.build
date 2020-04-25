@@ -2159,6 +2159,13 @@ cpp
 '
 vm
 /
+FunctionFlags
+.
+cpp
+'
+'
+vm
+/
 GeckoProfiler
 .
 cpp

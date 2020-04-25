@@ -121,6 +121,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 JSAtom
 .
 h

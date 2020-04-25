@@ -34,6 +34,15 @@ include
 "
 frontend
 /
+FunctionSyntaxKind
+.
+h
+"
+#
+include
+"
+frontend
+/
 ParseNode
 .
 h

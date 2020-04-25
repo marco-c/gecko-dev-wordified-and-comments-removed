@@ -516,6 +516,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 GeneratorObject
 .
 h

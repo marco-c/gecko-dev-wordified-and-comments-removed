@@ -158,6 +158,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 RegExpObject
 .
 h

@@ -48,6 +48,15 @@ include
 "
 frontend
 /
+FunctionSyntaxKind
+.
+h
+"
+#
+include
+"
+frontend
+/
 ModuleSharedContext
 .
 h

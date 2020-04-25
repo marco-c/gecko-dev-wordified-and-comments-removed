@@ -111,6 +111,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 .
 h

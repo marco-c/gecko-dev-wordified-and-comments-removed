@@ -170,6 +170,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 TraceLogging
 .
 h

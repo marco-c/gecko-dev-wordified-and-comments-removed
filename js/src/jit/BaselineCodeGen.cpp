@@ -152,6 +152,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 Interpreter
 .
 h

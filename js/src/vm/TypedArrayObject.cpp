@@ -241,6 +241,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 GlobalObject
 .
 h

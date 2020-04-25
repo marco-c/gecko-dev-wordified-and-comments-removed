@@ -397,6 +397,15 @@ include
 "
 vm
 /
+FunctionFlags
+.
+h
+"
+#
+include
+"
+vm
+/
 HelperThreads
 .
 h
