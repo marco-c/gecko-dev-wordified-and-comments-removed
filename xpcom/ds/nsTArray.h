@@ -897,6 +897,8 @@ typename
 E
 typename
 Impl
+typename
+Alloc
 bool
 IsCopyConstructible
 =
@@ -914,12 +916,15 @@ typename
 E
 typename
 Impl
+typename
+Alloc
 >
 class
 nsTArray_CopyEnabler
 <
 E
 Impl
+Alloc
 false
 >
 {
@@ -960,12 +965,15 @@ typename
 E
 typename
 Impl
+typename
+Alloc
 >
 class
 nsTArray_CopyEnabler
 <
 E
 Impl
+Alloc
 true
 >
 {
@@ -1029,6 +1037,11 @@ this
 aOther
 )
 {
+E
+*
+const
+res
+=
 static_cast
 <
 Impl
@@ -1083,6 +1096,23 @@ Length
 )
 )
 ;
+#
+ifdef
+DEBUG
+MOZ_ASSERT
+(
+res
+)
+;
+#
+else
+(
+void
+)
+res
+;
+#
+endif
 }
 return
 *
@@ -1098,6 +1128,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtHelper
@@ -1112,6 +1144,7 @@ nsTArray_CopyEnabler
 <
 E
 Derived
+Alloc
 >
 {
 typedef
@@ -1149,6 +1182,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtHelper
@@ -1156,6 +1191,7 @@ nsTArray_SafeElementAtHelper
 E
 *
 Derived
+Alloc
 >
 :
 public
@@ -1169,6 +1205,7 @@ nsTArray_CopyEnabler
 E
 *
 Derived
+Alloc
 >
 {
 typedef
@@ -1240,6 +1277,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtSmartPtrHelper
@@ -1254,6 +1293,7 @@ nsTArray_CopyEnabler
 <
 E
 Derived
+Alloc
 >
 {
 typedef
@@ -1393,6 +1433,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtHelper
@@ -1402,6 +1444,7 @@ nsCOMPtr
 E
 >
 Derived
+Alloc
 >
 :
 public
@@ -1412,6 +1455,7 @@ nsCOMPtr
 E
 >
 Derived
+Alloc
 >
 {
 }
@@ -1422,6 +1466,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtHelper
@@ -1431,6 +1477,7 @@ RefPtr
 E
 >
 Derived
+Alloc
 >
 :
 public
@@ -1441,6 +1488,7 @@ RefPtr
 E
 >
 Derived
+Alloc
 >
 {
 }
@@ -1463,6 +1511,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_SafeElementAtHelper
@@ -1475,6 +1525,7 @@ OwningNonNull
 E
 >
 Derived
+Alloc
 >
 :
 public
@@ -1488,6 +1539,7 @@ OwningNonNull
 E
 >
 Derived
+Alloc
 >
 {
 }
@@ -3556,6 +3608,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_TypedBase
@@ -3565,6 +3619,7 @@ nsTArray_SafeElementAtHelper
 <
 E
 Derived
+Alloc
 >
 {
 }
@@ -3575,6 +3630,8 @@ class
 E
 class
 Derived
+typename
+Alloc
 >
 struct
 nsTArray_TypedBase
@@ -3587,6 +3644,7 @@ Heap
 E
 >
 Derived
+Alloc
 >
 :
 public
@@ -3600,6 +3658,7 @@ Heap
 E
 >
 Derived
+Alloc
 >
 {
 operator
@@ -4142,6 +4201,7 @@ nsTArray_Impl
 E
 Alloc
 >
+Alloc
 >
 {
 private
@@ -4161,6 +4221,7 @@ nsTArray_Impl
 E
 Alloc
 >
+Alloc
 >
 ;
 typedef
@@ -4232,6 +4293,7 @@ nsTArray_SafeElementAtHelper
 <
 E
 self_type
+Alloc
 >
 safeelementat_helper_type
 ;
@@ -4669,6 +4731,23 @@ template
 <
 typename
 Allocator
+typename
+=
+std
+:
+:
+enable_if_t
+<
+std
+:
+:
+is_same_v
+<
+Alloc
+InfallibleAlloc
+>
+Allocator
+>
 >
 self_type
 &
