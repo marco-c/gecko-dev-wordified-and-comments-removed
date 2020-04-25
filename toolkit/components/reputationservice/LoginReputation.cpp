@@ -1407,7 +1407,6 @@ NS_OK
 ;
 }
 auto
-*
 request
 =
 mQueryRequests

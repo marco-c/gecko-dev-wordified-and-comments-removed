@@ -13040,7 +13040,6 @@ aItems
 )
 {
 auto
-*
 newItem
 =
 aResult

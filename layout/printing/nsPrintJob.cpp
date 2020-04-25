@@ -3341,8 +3341,6 @@ rv
 rv
 )
 ;
-NS_ENSURE_TRUE
-(
 printData
 -
 >
@@ -3358,8 +3356,6 @@ mPrintObject
 get
 (
 )
-)
-NS_ERROR_OUT_OF_MEMORY
 )
 ;
 printData

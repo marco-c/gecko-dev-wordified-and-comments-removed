@@ -3757,14 +3757,11 @@ Children
 aChildren
 )
 {
-MOZ_ALWAYS_TRUE
-(
 aChildren
 .
 AppendElements
 (
 mChildren
-)
 )
 ;
 }

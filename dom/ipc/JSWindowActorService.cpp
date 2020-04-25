@@ -325,7 +325,6 @@ events
 )
 {
 auto
-*
 event
 =
 proto
@@ -539,7 +538,6 @@ mEvents
 )
 {
 auto
-*
 ipc
 =
 info
@@ -1953,7 +1951,6 @@ mMatches
 )
 {
 auto
-*
 entry
 =
 patterns
