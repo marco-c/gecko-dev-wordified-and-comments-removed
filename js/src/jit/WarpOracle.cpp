@@ -53,6 +53,15 @@ include
 "
 jit
 /
+CacheIROpsGenerated
+.
+h
+"
+#
+include
+"
+jit
+/
 JitScript
 .
 h
@@ -3704,7 +3713,7 @@ op
 \
 break
 ;
-WARP_CACHE_IR_OPS
+CACHE_IR_TRANSPILER_OPS
 (
 DEFINE_OP
 )
