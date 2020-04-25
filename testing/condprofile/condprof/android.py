@@ -426,11 +426,21 @@ verbose
 self
 .
 verbose
+                                    
 logger_name
 =
 "
 adb
 "
+                                    
+test_root
+=
+'
+/
+sdcard
+/
+tests
+'
 )
         
 except
