@@ -11769,6 +11769,7 @@ engineURL
 iconURL
 confirm
 extensionID
+reqContext
 )
 {
 SearchUtils
@@ -11809,6 +11810,7 @@ new
 SearchEngine
 (
 {
+reqContext
 uri
 :
 engineURL
