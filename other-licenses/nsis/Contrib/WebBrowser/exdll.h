@@ -146,6 +146,10 @@ extern
 HWND
 g_hwndParent
 ;
+extern
+HINSTANCE
+gHInst
+;
 typedef
 struct
 {
@@ -263,6 +267,14 @@ const
 TCHAR
 *
 str
+)
+;
+UINT_PTR
+__cdecl
+NSISPluginCallback
+(
+NSPIM
+msg
 )
 ;
 #
