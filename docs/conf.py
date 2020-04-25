@@ -291,16 +291,6 @@ mozapps
 /
 extensions
 '
-    
-'
-toolkit
-/
-components
-/
-prompts
-/
-src
-'
 ]
 root_for_relative_js_paths
 =

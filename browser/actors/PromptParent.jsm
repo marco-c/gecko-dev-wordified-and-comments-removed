@@ -719,7 +719,6 @@ return
 null
 ;
 }
-async
 openWindowPrompt
 (
 args
@@ -933,7 +932,12 @@ browser
 }
 }
 return
+Promise
+.
+resolve
+(
 args
+)
 ;
 }
 }
