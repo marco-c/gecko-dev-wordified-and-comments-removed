@@ -270,7 +270,7 @@ _libDir
 null
 croppingPadding
 :
-10
+0
 mochitestScope
 :
 null
