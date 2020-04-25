@@ -318,6 +318,10 @@ memory_test
 =
 False
         
+live_sites
+=
+False
+        
 is_release_build
 =
 False
@@ -514,6 +518,12 @@ cpu_test
 "
 :
 cpu_test
+            
+"
+live_sites
+"
+:
+live_sites
             
 "
 is_release_build

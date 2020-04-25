@@ -324,6 +324,17 @@ cpu_test
         
 self
 .
+live_sites
+=
+kwargs
+[
+'
+live_sites
+'
+]
+        
+self
+.
 disable_perf_tuning
 =
 kwargs
@@ -1177,6 +1188,14 @@ cpu_test
 self
 .
 cpu_test
+            
+'
+live_sites
+'
+:
+self
+.
+live_sites
             
 '
 disable_perf_tuning

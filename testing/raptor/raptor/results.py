@@ -83,6 +83,10 @@ memory_test
 =
 False
         
+live_sites
+=
+False
+        
 app
 =
 None
@@ -121,6 +125,12 @@ self
 memory_test
 =
 memory_test
+        
+self
+.
+live_sites
+=
+live_sites
         
 self
 .
@@ -3432,6 +3442,26 @@ append
 (
 "
 fission
+"
+)
+                    
+if
+self
+.
+live_sites
+:
+                        
+new_result
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+live
 "
 )
                     

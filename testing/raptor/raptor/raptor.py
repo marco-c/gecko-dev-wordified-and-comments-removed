@@ -624,6 +624,12 @@ args
 .
 memory_test
             
+live_sites
+=
+args
+.
+live_sites
+            
 is_release_build
 =
 args
