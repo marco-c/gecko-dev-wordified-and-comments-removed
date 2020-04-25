@@ -4,6 +4,7 @@ from
 mozdevice
 import
 ADBDevice
+ADBError
 from
 mozperftest
 .
@@ -289,10 +290,16 @@ ADBDevice
 verbose
 =
 True
+timeout
+=
+30
 )
         
 except
+(
+ADBError
 AttributeError
+)
 as
 e
 :
