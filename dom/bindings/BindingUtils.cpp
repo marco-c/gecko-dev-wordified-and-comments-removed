@@ -8129,7 +8129,9 @@ setAttributes
 (
 attrSpec
 .
-flags
+attributes
+(
+)
 )
 ;
 JS
@@ -10067,7 +10069,9 @@ JSITER_HIDDEN
 spec
 -
 >
-flags
+attributes
+(
+)
 &
 JSPROP_ENUMERATE
 )

@@ -2149,12 +2149,14 @@ setUndefined
 )
 ;
 unsigned
-flags
+attrs
 =
 psMatch
 -
 >
-flags
+attributes
+(
+)
 ;
 if
 (
@@ -2246,7 +2248,7 @@ funname
 {
 MOZ_ASSERT
 (
-flags
+attrs
 &
 JSPROP_SETTER
 )
@@ -2305,7 +2307,7 @@ holder
 id
 getterObj
 setterObj
-flags
+attrs
 )
 )
 {
@@ -2348,7 +2350,7 @@ setter
 native
 .
 op
-flags
+attrs
 )
 )
 {
@@ -2393,10 +2395,7 @@ cx
 holder
 id
 v
-flags
-&
-~
-JSPROP_INTERNAL_USE_BIT
+attrs
 )
 )
 {

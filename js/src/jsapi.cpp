@@ -16476,7 +16476,9 @@ funname
 ps
 -
 >
-flags
+attributes
+(
+)
 )
 )
 {
@@ -16518,7 +16520,9 @@ native
 ps
 -
 >
-flags
+attributes
+(
+)
 )
 )
 {
@@ -16566,10 +16570,9 @@ v
 ps
 -
 >
-flags
-&
-~
-JSPROP_INTERNAL_USE_BIT
+attributes
+(
+)
 )
 )
 {
