@@ -2439,13 +2439,11 @@ Transition
 (
 _
 _
-frame
+property_animation
 )
 =
 animation
 {
-frame
-.
 property_animation
 .
 update
@@ -2466,8 +2464,6 @@ expired_transitions
 .
 push
 (
-frame
-.
 property_animation
 )
 ;
@@ -2610,7 +2606,7 @@ Transition
 _
 _
 ref
-frame
+property_animation
 )
 =
 *
@@ -2620,8 +2616,6 @@ running_transitions
 .
 push
 (
-frame
-.
 property_animation
 .
 clone
