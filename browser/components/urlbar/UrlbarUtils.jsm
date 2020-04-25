@@ -2008,6 +2008,15 @@ type
 string
 "
 }
+isSearchHistory
+:
+{
+type
+:
+"
+boolean
+"
+}
 suggestion
 :
 {

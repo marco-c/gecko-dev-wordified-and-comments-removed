@@ -1444,6 +1444,9 @@ undefined
 keyword
 :
 undefined
+isSearchHistory
+:
+false
 icon
 :
 "
