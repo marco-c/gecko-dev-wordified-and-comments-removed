@@ -86,6 +86,14 @@ apt_packages
 =
 (
 '
+graphviz
+'
+)
+apt_packages
++
+=
+(
+'
 python
 '
 )
