@@ -94,17 +94,12 @@ false
 aLength
 )
 ;
-if
-(
-!
 items
 .
 AppendElements
 (
 64
 )
-)
-return
 ;
 do
 {
@@ -138,9 +133,6 @@ result
 E_OUTOFMEMORY
 )
 {
-if
-(
-!
 items
 .
 AppendElements
@@ -151,8 +143,6 @@ Length
 (
 )
 )
-)
-return
 ;
 }
 }
@@ -220,9 +210,6 @@ SCRIPT_LOGATTR
 >
 sla
 ;
-if
-(
-!
 sla
 .
 AppendElements
@@ -231,8 +218,6 @@ endOffset
 -
 startOffset
 )
-)
-return
 ;
 if
 (

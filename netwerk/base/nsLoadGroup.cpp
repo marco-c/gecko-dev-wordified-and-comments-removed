@@ -773,11 +773,6 @@ entry
 "
 )
 ;
-bool
-ok
-=
-!
-!
 aArray
 -
 >
@@ -786,15 +781,6 @@ AppendElement
 request
 )
 ;
-if
-(
-!
-ok
-)
-{
-break
-;
-}
 NS_ADDREF
 (
 request

@@ -83,9 +83,6 @@ PangoLogAttr
 >
 attrBuffer
 ;
-if
-(
-!
 attrBuffer
 .
 AppendElements
@@ -94,8 +91,6 @@ aLength
 +
 1
 )
-)
-return
 ;
 NS_ConvertUTF16toUTF8
 aUTF8

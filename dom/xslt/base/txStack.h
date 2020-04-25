@@ -71,15 +71,13 @@ void
 aObject
 )
 {
-return
 AppendElement
 (
 aObject
 )
-?
+;
+return
 NS_OK
-:
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 inline

@@ -1200,9 +1200,6 @@ uri_schemes
 nullptr
 )
 {
-if
-(
-!
 array
 -
 >
@@ -1213,12 +1210,7 @@ AppendElement
 *
 uri_schemes
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 uri_schemes
 +
 +

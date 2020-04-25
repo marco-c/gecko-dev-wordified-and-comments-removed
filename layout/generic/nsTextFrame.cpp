@@ -43023,9 +43023,6 @@ GetContentLength
 (
 )
 ;
-if
-(
-!
 mWordBreaks
 .
 AppendElements
@@ -43034,15 +43031,7 @@ textLen
 +
 1
 )
-)
-{
-mDirection
-=
-0
 ;
-return
-;
-}
 memset
 (
 mWordBreaks

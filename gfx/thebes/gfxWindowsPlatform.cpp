@@ -5071,9 +5071,11 @@ versInfoSize
 =
 =
 0
-|
-|
-!
+)
+{
+return
+;
+}
 versionInfo
 .
 AppendElements
@@ -5083,11 +5085,7 @@ uint32_t
 versInfoSize
 )
 )
-)
-{
-return
 ;
-}
 if
 (
 !

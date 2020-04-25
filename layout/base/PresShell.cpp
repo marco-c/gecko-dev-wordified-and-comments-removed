@@ -24272,9 +24272,8 @@ false
 if
 (
 info
-&
-&
-!
+)
+{
 rangeItems
 .
 AppendElement
@@ -24287,10 +24286,6 @@ move
 info
 )
 )
-)
-{
-return
-nullptr
 ;
 }
 Maybe
@@ -24496,9 +24491,8 @@ true
 if
 (
 info
-&
-&
-!
+)
+{
 rangeItems
 .
 AppendElement
@@ -24511,10 +24505,6 @@ move
 info
 )
 )
-)
-{
-return
-nullptr
 ;
 }
 }

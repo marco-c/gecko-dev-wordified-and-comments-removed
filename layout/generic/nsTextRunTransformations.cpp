@@ -304,9 +304,6 @@ IsEmpty
 )
 )
 {
-if
-(
-!
 mCapitalize
 .
 AppendElements
@@ -315,11 +312,7 @@ GetLength
 (
 )
 )
-)
-{
-return
 ;
-}
 memset
 (
 mCapitalize

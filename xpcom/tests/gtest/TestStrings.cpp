@@ -8289,14 +8289,11 @@ nsCString
 >
 results
 ;
-EXPECT_TRUE
-(
 ParseString
 (
 data
 separator
 results
-)
 )
 ;
 EXPECT_EQ

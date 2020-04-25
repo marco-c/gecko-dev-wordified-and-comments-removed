@@ -1196,13 +1196,15 @@ DocAccessible
 aChildDocument
 )
 {
-return
 mChildDocuments
 .
 AppendElement
 (
 aChildDocument
 )
+;
+return
+true
 ;
 }
 void

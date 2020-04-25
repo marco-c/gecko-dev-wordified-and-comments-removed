@@ -1746,9 +1746,6 @@ keyFirstIndex
 1
 )
 {
-if
-(
-!
 aTokens
 -
 >
@@ -1762,9 +1759,6 @@ equalsIndex
 i
 )
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 keyFirstIndex
@@ -1809,9 +1803,6 @@ keyFirstIndex
 1
 )
 {
-if
-(
-!
 aTokens
 -
 >
@@ -1829,9 +1820,6 @@ Length
 )
 )
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 return

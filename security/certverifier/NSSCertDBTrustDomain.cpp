@@ -1119,9 +1119,6 @@ uint8_t
 >
 subject
 ;
-if
-(
-!
 subject
 .
 AppendElements
@@ -1137,15 +1134,7 @@ GetLength
 (
 )
 )
-)
-{
-return
-Result
-:
-:
-FATAL_ERROR_NO_MEMORY
 ;
-}
 nsTArray
 <
 nsTArray

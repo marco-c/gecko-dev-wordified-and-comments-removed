@@ -220,9 +220,6 @@ Clear
 (
 )
 ;
-if
-(
-!
 dest
 .
 AppendElements
@@ -238,12 +235,7 @@ length
 (
 )
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 return
 NS_OK
 ;

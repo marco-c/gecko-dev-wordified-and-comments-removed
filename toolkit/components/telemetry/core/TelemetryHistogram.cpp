@@ -2866,9 +2866,6 @@ i
 +
 )
 {
-if
-(
-!
 aSnapshot
 .
 mBucketRanges
@@ -2883,12 +2880,7 @@ ranges
 i
 )
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 }
 base
 :
@@ -2924,9 +2916,6 @@ i
 +
 )
 {
-if
-(
-!
 aSnapshot
 .
 mBucketCounts
@@ -2940,12 +2929,7 @@ counts
 i
 )
 )
-)
-{
-return
-NS_ERROR_FAILURE
 ;
-}
 }
 aSnapshot
 .

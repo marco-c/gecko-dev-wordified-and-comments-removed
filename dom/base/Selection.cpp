@@ -4517,9 +4517,6 @@ Length
 0
 )
 {
-if
-(
-!
 mRanges
 .
 AppendElement
@@ -4529,12 +4526,7 @@ StyledRange
 aRange
 )
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 aRange
 -
 >
@@ -5512,9 +5504,6 @@ i
 +
 )
 {
-if
-(
-!
 aRanges
 -
 >
@@ -5529,9 +5518,6 @@ i
 .
 mRange
 )
-)
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
 }
 return

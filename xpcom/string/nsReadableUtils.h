@@ -1587,13 +1587,13 @@ return
 true
 ;
 }
-bool
+void
 ParseString
 (
 const
 nsACString
 &
-aAstring
+aSource
 char
 aDelimiter
 nsTArray

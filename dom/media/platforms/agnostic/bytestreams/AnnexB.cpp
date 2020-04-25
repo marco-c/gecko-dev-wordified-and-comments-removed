@@ -1752,9 +1752,6 @@ kFakeExtraData
 0
 }
 ;
-if
-(
-!
 extradata
 -
 >
@@ -1766,12 +1763,7 @@ ArrayLength
 kFakeExtraData
 )
 )
-)
-{
-return
-false
 ;
-}
 aSample
 -
 >
