@@ -563,13 +563,6 @@ settlePrev
 (
 )
 ;
-static
-constexpr
-size_t
-RegisterResultCount
-=
-1
-;
 public
 :
 explicit
@@ -929,7 +922,7 @@ length
 (
 )
 >
-RegisterResultCount
+MaxRegisterResults
 ;
 }
 static

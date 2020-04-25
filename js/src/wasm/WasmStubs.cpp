@@ -278,7 +278,7 @@ index
 (
 )
 <
-RegisterResultCount
+MaxRegisterResults
 )
 ;
 MOZ_ASSERT_IF
@@ -294,12 +294,12 @@ index
 =
 count_
 -
-RegisterResultCount
+MaxRegisterResults
 )
 ;
 static_assert
 (
-RegisterResultCount
+MaxRegisterResults
 =
 =
 1
@@ -459,7 +459,7 @@ if
 (
 index_
 <
-RegisterResultCount
+MaxRegisterResults
 )
 {
 settleRegister
@@ -532,7 +532,7 @@ index_
 -
 1
 <
-RegisterResultCount
+MaxRegisterResults
 )
 {
 settleRegister
