@@ -5085,6 +5085,7 @@ MapStreamToPlainText
 }
 MapStreamToHttpConnection
 (
+aHeadersOut
 httpResponseCode
 )
 ;
@@ -5127,6 +5128,7 @@ httpResponseCode
 {
 MapStreamToHttpConnection
 (
+aHeadersOut
 )
 ;
 }
@@ -7934,8 +7936,12 @@ Http2Stream
 :
 MapStreamToHttpConnection
 (
+const
+nsACString
+&
+aFlat407Headers
 int32_t
-httpResponseCode
+aHttpResponseCode
 )
 {
 RefPtr
@@ -7969,9 +7975,10 @@ mTransaction
 ConnectionInfo
 (
 )
+aFlat407Headers
 mIsTunnel
 ?
-httpResponseCode
+aHttpResponseCode
 :
 -
 1

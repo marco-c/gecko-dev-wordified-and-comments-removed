@@ -1179,8 +1179,12 @@ MapStreamToPlainText
 void
 MapStreamToHttpConnection
 (
+const
+nsACString
+&
+aFlat407Headers
 int32_t
-httpResponseCode
+aHttpResponseCode
 =
 -
 1

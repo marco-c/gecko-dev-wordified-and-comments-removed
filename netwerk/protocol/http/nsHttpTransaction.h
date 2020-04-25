@@ -579,6 +579,15 @@ aResponseCode
 override
 ;
 void
+SetFlat407Headers
+(
+const
+nsACString
+&
+aHeaders
+)
+;
+void
 OnPush
 (
 Http2PushedStreamWrapper
@@ -1064,6 +1073,9 @@ mHttpVersion
 ;
 uint16_t
 mHttpResponseCode
+;
+nsCString
+mFlat407Headers
 ;
 uint32_t
 mCurrentHttpResponseHeaderSize
