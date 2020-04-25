@@ -979,7 +979,7 @@ ProcessCreation
 (
 )
 )
-mCoreBlocksRingBuffer
+mCoreBuffer
 (
 BlocksRingBuffer
 :
@@ -1203,7 +1203,7 @@ PS_GET_LOCKLESS
 (
 BlocksRingBuffer
 &
-CoreBlocksRingBuffer
+CoreBuffer
 )
 PS_GET
 (
@@ -1755,7 +1755,7 @@ TimeStamp
 mProcessStartTime
 ;
 BlocksRingBuffer
-mCoreBlocksRingBuffer
+mCoreBuffer
 ;
 Vector
 <
@@ -1943,7 +1943,7 @@ mProfileBuffer
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 PowerOfTwo32
@@ -8896,7 +8896,7 @@ lock
 )
 ;
 BlocksRingBuffer
-localBlocksRingBuffer
+localBuffer
 (
 BlocksRingBuffer
 :
@@ -8910,7 +8910,7 @@ WithoutMutex
 ProfileBuffer
 localProfileBuffer
 (
-localBlocksRingBuffer
+localBuffer
 MakePowerOfTwo32
 <
 65536
@@ -8922,7 +8922,7 @@ MakePowerOfTwo32
 auto
 previousState
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -9411,7 +9411,7 @@ localProfileBuffer
 auto
 state
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -9488,7 +9488,7 @@ ConvertToProfileBufferIndex
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -9543,17 +9543,17 @@ else
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
 AppendContents
 (
-localBlocksRingBuffer
+localBuffer
 )
 ;
 }
-localBlocksRingBuffer
+localBuffer
 .
 Clear
 (
@@ -9561,7 +9561,7 @@ Clear
 ;
 previousState
 =
-localBlocksRingBuffer
+localBuffer
 .
 GetState
 (
@@ -14760,7 +14760,7 @@ ProcessStartTime
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
@@ -15056,7 +15056,7 @@ ProcessStartTime
 CorePS
 :
 :
-CoreBlocksRingBuffer
+CoreBuffer
 (
 )
 .
