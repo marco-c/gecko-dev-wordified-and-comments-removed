@@ -65,7 +65,6 @@ sendAsyncMessage
 (
 name
 data
-objects
 )
 {
 this
@@ -77,7 +76,6 @@ push
 {
 name
 data
-objects
 }
 )
 ;
@@ -351,9 +349,6 @@ type
 click
 "
 }
-objects
-:
-undefined
 }
 )
 ;
@@ -548,9 +543,6 @@ type
 click
 "
 }
-objects
-:
-undefined
 }
 )
 ;
@@ -867,9 +859,6 @@ type
 click
 "
 }
-objects
-:
-undefined
 }
 )
 ;
@@ -1720,13 +1709,6 @@ type
 "
 click
 "
-}
-objects
-:
-{
-target
-:
-win
 }
 }
 )

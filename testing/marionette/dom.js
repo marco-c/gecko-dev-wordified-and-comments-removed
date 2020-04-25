@@ -421,7 +421,6 @@ receiveMessage
 {
 name
 data
-objects
 }
 )
 {
@@ -451,11 +450,6 @@ type
 data
 .
 type
-target
-:
-objects
-.
-target
 }
 ;
 this
@@ -663,9 +657,6 @@ OnEvent
 "
 {
 type
-}
-{
-target
 }
 )
 ;
