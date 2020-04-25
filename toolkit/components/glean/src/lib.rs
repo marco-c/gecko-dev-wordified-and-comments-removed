@@ -1,3 +1,8 @@
+pub
+extern
+crate
+glean
+;
 use
 std
 :
