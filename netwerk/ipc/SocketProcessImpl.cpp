@@ -60,6 +60,13 @@ h
 #
 include
 "
+ProcessUtils
+.
+h
+"
+#
+include
+"
 mozilla
 /
 ipc
