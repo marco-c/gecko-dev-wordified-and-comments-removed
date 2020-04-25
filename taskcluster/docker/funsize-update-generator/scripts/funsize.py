@@ -2386,21 +2386,6 @@ make_incremental_update
 sh
 "
     
-make_incremental_update
-=
-"
-/
-home
-/
-worker
-/
-tools
-/
-make_incremental_update
-.
-sh
-"
-    
 cmd
 =
 f
