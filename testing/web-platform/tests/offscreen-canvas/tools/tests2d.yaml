@@ -83114,7 +83114,9 @@ minus
 -
 100
 "
-None
+"
+exception
+"
 )
 (
 "
@@ -83162,7 +83164,9 @@ percent
 100
 %
 "
-100
+"
+exception
+"
 )
 (
 "
@@ -83171,7 +83175,9 @@ em
 "
 100em
 "
-100
+"
+exception
+"
 )
 (
 "
@@ -83182,7 +83188,9 @@ junk
 !
 ?
 "
-None
+"
+exception
+"
 )
 (
 "
