@@ -4419,10 +4419,6 @@ window
 =
 mWindow
 ;
-{
-nsAutoScriptBlocker
-scriptBlocker
-;
 window
 -
 >
@@ -4431,7 +4427,6 @@ Show
 aVisibility
 )
 ;
-}
 nsCOMPtr
 <
 nsIWindowMediator
