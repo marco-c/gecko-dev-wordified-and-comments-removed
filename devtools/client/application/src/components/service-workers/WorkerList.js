@@ -275,9 +275,17 @@ Worker
 {
 key
 :
+{
 worker
 .
 id
+}
+-
+{
+worker
+.
+state
+}
 isDebugEnabled
 :
 canDebugWorkers
