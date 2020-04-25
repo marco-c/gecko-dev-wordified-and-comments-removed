@@ -759,6 +759,7 @@ gen_writer_method
 (
 name
 operands
+custom_writer
 )
 :
     
@@ -794,6 +795,17 @@ name
 1
 :
 ]
+    
+if
+custom_writer
+:
+        
+method_name
++
+=
+'
+_
+'
     
 args_sig
 =
@@ -934,6 +946,28 @@ opnd_name
 code
 =
 '
+'
+    
+if
+custom_writer
+:
+        
+code
++
+=
+'
+private
+:
+\
+\
+\
+n
+'
+    
+code
++
+=
+'
 {
 }
 {
@@ -1019,6 +1053,21 @@ code
 =
 '
 }
+'
+    
+if
+custom_writer
+:
+        
+code
++
+=
+'
+\
+\
+\
+npublic
+:
 '
     
 return
@@ -2465,6 +2514,32 @@ gen_boilerplate
 False
 )
         
+assert
+isinstance
+(
+gen_boilerplate
+bool
+)
+        
+custom_writer
+=
+op
+.
+get
+(
+'
+custom_writer
+'
+False
+)
+        
+assert
+isinstance
+(
+custom_writer
+bool
+)
+        
 if
 operands
 :
@@ -2534,6 +2609,7 @@ gen_writer_method
 (
 name
 operands
+custom_writer
 )
 )
             
