@@ -167,6 +167,13 @@ wptrunner
 import
 wptrunner
         
+from
+mozbuild
+.
+base
+import
+BinaryNotFoundException
+        
 if
 kwargs
 [
@@ -211,6 +218,9 @@ None
 ]
 :
             
+try
+:
+                
 kwargs
 =
 self
@@ -221,6 +231,33 @@ kwargs_firefox
 (
 kwargs
 )
+            
+except
+BinaryNotFoundException
+as
+e
+:
+                
+logger
+.
+error
+(
+e
+)
+                
+logger
+.
+info
+(
+e
+.
+help
+(
+)
+)
+                
+return
+1
         
 elif
 kwargs
