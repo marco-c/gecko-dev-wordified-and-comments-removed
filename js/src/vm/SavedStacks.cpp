@@ -2173,6 +2173,14 @@ SavedFrame
 parentProperty
 0
 )
+JS_STRING_SYM_PS
+(
+toStringTag
+"
+SavedFrame
+"
+JSPROP_READONLY
+)
 JS_PS_END
 }
 ;
