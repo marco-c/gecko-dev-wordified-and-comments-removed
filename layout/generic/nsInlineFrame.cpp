@@ -3700,6 +3700,12 @@ aReflowInput
 )
 const
 {
+LogicalSides
+skip
+(
+mWritingMode
+)
+;
 if
 (
 MOZ_UNLIKELY
@@ -3720,14 +3726,9 @@ Clone
 )
 {
 return
-LogicalSides
-(
-)
-;
-}
-LogicalSides
 skip
 ;
+}
 if
 (
 !
@@ -3872,6 +3873,7 @@ skip
 =
 LogicalSides
 (
+mWritingMode
 eLogicalSideBitsIBoth
 )
 )
