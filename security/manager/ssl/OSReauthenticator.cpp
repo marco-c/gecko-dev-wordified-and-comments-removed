@@ -831,11 +831,6 @@ outCredBuffer
 =
 nullptr
 ;
-BOOL
-save
-=
-false
-;
 err
 =
 CredUIPromptForWindowsCredentialsW
@@ -851,8 +846,7 @@ nullptr
 outCredBuffer
 &
 outCredSize
-&
-save
+nullptr
 CREDUIWIN_ENUMERATE_CURRENT_USER
 )
 ;
