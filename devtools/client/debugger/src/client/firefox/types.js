@@ -1541,9 +1541,6 @@ getToolboxStore
 =
 >
 any
-panelWin
-:
-Object
 |
 }
 ;
