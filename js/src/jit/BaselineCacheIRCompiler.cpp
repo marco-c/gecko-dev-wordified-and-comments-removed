@@ -1853,6 +1853,10 @@ BaselineCacheIRCompiler
 :
 emitGuardSpecificAtom
 (
+StringOperandId
+strId
+uint32_t
+expectedOffset
 )
 {
 JitSpew
@@ -1873,11 +1877,7 @@ allocator
 useRegister
 (
 masm
-reader
-.
-stringOperandId
-(
-)
+strId
 )
 ;
 AutoScratchRegister
@@ -1910,11 +1910,7 @@ atomAddr
 (
 stubAddress
 (
-reader
-.
-stubOffset
-(
-)
+expectedOffset
 )
 )
 ;

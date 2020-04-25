@@ -849,6 +849,9 @@ GuardSpecificAtom
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 str
@@ -856,7 +859,7 @@ str
 StrId
 expected
 :
-StringField
+AtomField
 -
 name
 :
@@ -3556,6 +3559,9 @@ LoadInt32TruthyResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3566,6 +3572,9 @@ name
 :
 LoadDoubleTruthyResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
