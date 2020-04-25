@@ -2144,6 +2144,11 @@ all
 initialPromises
 )
 ;
+await
+waitForTick
+(
+)
+;
 jsterm
 .
 focus
@@ -2176,6 +2181,11 @@ iframeWindow
 ;
 await
 updated
+;
+await
+waitForTick
+(
+)
 ;
 if
 (
