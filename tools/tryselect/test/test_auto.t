@@ -86,7 +86,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 bugbug_debug
 "
@@ -184,7 +184,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 bugbug_debug
 "
@@ -293,7 +293,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 bugbug_debug
 "

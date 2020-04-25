@@ -151,7 +151,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 bugbug_debug
 '

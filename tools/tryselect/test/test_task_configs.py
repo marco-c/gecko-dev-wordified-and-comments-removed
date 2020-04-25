@@ -368,7 +368,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 seta
 '
@@ -423,7 +423,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 '
 ]
 SystemExit

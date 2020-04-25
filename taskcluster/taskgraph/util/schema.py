@@ -1246,6 +1246,27 @@ None
     
 {
 '
+always
+'
+:
+None
+}
+    
+{
+'
+build
+'
+:
+list
+(
+schedules
+.
+ALL_COMPONENTS
+)
+}
+    
+{
+'
 index
 -
 search

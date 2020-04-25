@@ -1978,7 +1978,7 @@ taskgraph
 .
 optimize
 :
-experimental
+tryselect
 .
 {
 }
