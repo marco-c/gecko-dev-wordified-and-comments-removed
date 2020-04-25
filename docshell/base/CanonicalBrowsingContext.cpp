@@ -193,9 +193,9 @@ CanonicalBrowsingContext
 :
 CanonicalBrowsingContext
 (
-BrowsingContext
+WindowContext
 *
-aParent
+aParentWindow
 BrowsingContextGroup
 *
 aGroup
@@ -218,7 +218,7 @@ aFields
 :
 BrowsingContext
 (
-aParent
+aParentWindow
 aGroup
 aBrowsingContextId
 aType
