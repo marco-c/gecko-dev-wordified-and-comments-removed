@@ -917,7 +917,10 @@ MAX_VERTEX_TEXTURE_WIDTH
 :
 usize
 =
-1024
+webrender_build
+:
+:
+MAX_VERTEX_TEXTURE_WIDTH
 ;
 const
 GPU_CACHE_RESIZE_TEST
@@ -6262,12 +6265,9 @@ create_program_linked
 "
 gpu_cache_update
 "
-String
-:
-:
-new
-(
-)
+&
+[
+]
 &
 desc
 :

@@ -92,6 +92,11 @@ bitflags
 .
 2
 "
+lazy_static
+=
+"
+1
+"
 serde
 =
 {

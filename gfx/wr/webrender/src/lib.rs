@@ -866,10 +866,10 @@ device
 :
 :
 {
-build_shader_strings
 UploadMethod
 VertexUsageHint
 get_gl_target
+get_unoptimized_shader_source
 }
 ;
 pub
