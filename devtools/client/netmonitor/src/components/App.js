@@ -256,6 +256,13 @@ PropTypes
 bool
 .
 isRequired
+toolboxDoc
+:
+PropTypes
+.
+object
+.
+isRequired
 }
 ;
 }
@@ -271,6 +278,7 @@ openLink
 openSplitConsole
 sourceMapService
 statisticsOpen
+toolboxDoc
 }
 =
 this
@@ -306,6 +314,7 @@ connector
 openSplitConsole
 sourceMapService
 openLink
+toolboxDoc
 }
 )
 )
