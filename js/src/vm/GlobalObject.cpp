@@ -1692,7 +1692,7 @@ RealmCreationOptions
 &
 options
 =
-cx
+global
 -
 >
 realm
