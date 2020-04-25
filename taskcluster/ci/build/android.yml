@@ -756,9 +756,9 @@ linux64
 sccache
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 android
@@ -3605,9 +3605,9 @@ linux64
 sccache
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 android

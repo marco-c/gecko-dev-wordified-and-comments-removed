@@ -742,9 +742,9 @@ wasi
 sysroot
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 macosx
@@ -981,9 +981,9 @@ wasi
 sysroot
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 macosx

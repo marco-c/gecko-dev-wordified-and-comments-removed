@@ -1164,9 +1164,9 @@ win64
 node
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 windows
@@ -5677,9 +5677,9 @@ win64
 node
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 windows

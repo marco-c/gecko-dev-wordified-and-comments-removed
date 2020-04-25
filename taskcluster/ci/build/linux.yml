@@ -650,9 +650,9 @@ fix
 stacks
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 linux
@@ -4261,9 +4261,9 @@ wasi
 sysroot
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 linux
@@ -4483,9 +4483,9 @@ wasi
 sysroot
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 linux
@@ -4928,9 +4928,9 @@ wasi
 sysroot
 optimization
 :
-fuzzing
+build
 -
-builds
+fuzzing
 :
 -
 linux
