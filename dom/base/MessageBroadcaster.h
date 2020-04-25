@@ -92,15 +92,6 @@ JS
 Value
 >
 aObj
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aObjects
 mozilla
 :
 :
@@ -114,7 +105,6 @@ DispatchAsyncMessage
 aCx
 aMessageName
 aObj
-aObjects
 JS
 :
 :

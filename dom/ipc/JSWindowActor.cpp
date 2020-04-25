@@ -1810,15 +1810,6 @@ aCx
 ;
 argument
 .
-mObjects
-=
-JS_NewPlainObject
-(
-aCx
-)
-;
-argument
-.
 mTarget
 =
 this

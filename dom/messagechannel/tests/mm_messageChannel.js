@@ -59,10 +59,6 @@ mmMessagePort
 :
 finishScriptLoad
 "
-{
-}
-{
-}
 )
 ;
 }

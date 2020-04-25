@@ -860,9 +860,6 @@ virtual
 nsresult
 DoSendAsyncMessage
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -879,15 +876,6 @@ ipc
 StructuredCloneData
 &
 aData
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-aCpows
 )
 override
 ;

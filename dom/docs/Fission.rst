@@ -1336,8 +1336,6 @@ Notably
 absent
 is
 sendSyncMessage
-or
-sendRPCMessage
 .
 Sync
 IPC

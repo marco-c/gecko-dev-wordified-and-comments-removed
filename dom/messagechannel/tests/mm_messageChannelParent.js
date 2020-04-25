@@ -340,8 +340,6 @@ PortCreated
 "
 {
 }
-{
-}
 [
 channel
 .
@@ -483,8 +481,6 @@ PortCreated
 "
 {
 }
-{
-}
 [
 channel
 .
@@ -566,8 +562,6 @@ PortCreated
 "
 {
 }
-{
-}
 [
 ]
 )
@@ -632,8 +626,6 @@ NotTransferableTest
 :
 PortCreated
 "
-{
-}
 {
 }
 [

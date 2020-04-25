@@ -1222,17 +1222,6 @@ stack
 env
 [
 "
-DISABLE_UNSAFE_CPOW_WARNINGS
-"
-]
-=
-"
-1
-"
-        
-env
-[
-"
 MOZ_DISABLE_NONLOCAL_CONNECTIONS
 "
 ]
