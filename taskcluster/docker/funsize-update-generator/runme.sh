@@ -13,11 +13,7 @@ TASK_ID
 "
 test
 "
-SHA1_SIGNING_CERT
-"
-test
-"
-SHA384_SIGNING_CERT
+SIGNING_CERT
 "
 ARTIFACTS_DIR
 =
@@ -526,8 +522,9 @@ worker
 keys
 /
 {
-SHA1_SIGNING_CERT
+SIGNING_CERT
 }
+_sha1
 .
 pubkey
 "
@@ -548,8 +545,9 @@ worker
 keys
 /
 {
-SHA384_SIGNING_CERT
+SIGNING_CERT
 }
+_sha384
 .
 pubkey
 "

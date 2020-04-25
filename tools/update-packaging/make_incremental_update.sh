@@ -726,9 +726,11 @@ fi
 workdir
 =
 "
-newdir
-.
-work
+(
+mktemp
+-
+d
+)
 "
 updatemanifestv2
 =
