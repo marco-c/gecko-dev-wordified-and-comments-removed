@@ -185,12 +185,12 @@ null
 isBlackBoxed
 :
 boolean
-sourceMapURL
+sourceMapBaseURL
 :
 URL
 |
 null
-introductionUrl
+sourceMapURL
 :
 URL
 |

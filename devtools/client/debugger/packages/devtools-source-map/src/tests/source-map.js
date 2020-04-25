@@ -714,7 +714,7 @@ js
 .
 map
 "
-url
+sourceMapBaseURL
 :
 "
 http
