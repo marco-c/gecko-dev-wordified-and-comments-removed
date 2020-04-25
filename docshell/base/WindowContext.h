@@ -43,6 +43,9 @@ mozilla
 namespace
 dom
 {
+class
+WindowGlobalParent
+;
 #
 define
 MOZ_EACH_WC_FIELD

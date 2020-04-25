@@ -192,7 +192,7 @@ preZoomUIZoom
 =
 uiDocShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 ;
@@ -228,7 +228,7 @@ postZoomUIZoom
 =
 uiDocShell
 .
-contentViewer
+browsingContext
 .
 fullZoom
 ;

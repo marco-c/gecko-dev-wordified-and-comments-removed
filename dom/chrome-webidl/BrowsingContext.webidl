@@ -374,6 +374,14 @@ attribute
 boolean
 inRDMPane
 ;
+attribute
+float
+fullZoom
+;
+attribute
+float
+textZoom
+;
 /
 /
 Extension
