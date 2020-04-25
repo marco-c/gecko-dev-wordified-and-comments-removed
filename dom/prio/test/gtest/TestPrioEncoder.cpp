@@ -241,6 +241,8 @@ rand
 2
 ;
 }
+ASSERT_TRUE
+(
 prioParams
 .
 mBooleans
@@ -248,6 +250,7 @@ mBooleans
 Assign
 (
 sequence
+)
 )
 ;
 mozilla
@@ -953,6 +956,8 @@ dataItems
 2
 ]
 ;
+ASSERT_TRUE
+(
 prioParams
 .
 mBooleans
@@ -960,6 +965,7 @@ mBooleans
 Assign
 (
 sequence
+)
 )
 ;
 mozilla
