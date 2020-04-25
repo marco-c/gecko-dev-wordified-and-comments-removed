@@ -64,9 +64,6 @@ nscore
 .
 h
 "
-class
-nsITransaction
-;
 namespace
 mozilla
 {
@@ -133,7 +130,7 @@ Merge
 (
 nsITransaction
 *
-aTransaction
+aOtherTransaction
 bool
 *
 aDidMerge

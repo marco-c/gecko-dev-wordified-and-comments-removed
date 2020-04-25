@@ -4985,7 +4985,7 @@ DoTransactionInternal
 (
 nsITransaction
 *
-aTxn
+aTransaction
 )
 ;
 nsIContent
@@ -6071,7 +6071,7 @@ DoAfterDoTransaction
 (
 nsITransaction
 *
-aTxn
+aTransaction
 )
 ;
 MOZ_CAN_RUN_SCRIPT

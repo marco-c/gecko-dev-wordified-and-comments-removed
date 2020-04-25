@@ -36,13 +36,6 @@ h
 #
 include
 "
-nsITransaction
-.
-h
-"
-#
-include
-"
 nsString
 .
 h
@@ -313,7 +306,7 @@ Merge
 (
 nsITransaction
 *
-aTransaction
+aOtherTransaction
 bool
 *
 aDidMerge
@@ -352,7 +345,7 @@ mChildren
 >
 Merge
 (
-aTransaction
+aOtherTransaction
 aDidMerge
 )
 ;

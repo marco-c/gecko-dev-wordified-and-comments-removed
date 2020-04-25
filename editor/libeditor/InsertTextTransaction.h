@@ -57,9 +57,6 @@ nscore
 .
 h
 "
-class
-nsITransaction
-;
 #
 define
 NS_INSERTTEXTTXN_IID
@@ -162,7 +159,7 @@ Merge
 (
 nsITransaction
 *
-aTransaction
+aOtherTransaction
 bool
 *
 aDidMerge

@@ -192,7 +192,7 @@ Merge
 (
 nsITransaction
 *
-aTransaction
+aOtherTransaction
 bool
 *
 aDidMerge
