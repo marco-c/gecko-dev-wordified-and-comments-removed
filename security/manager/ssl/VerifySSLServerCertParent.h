@@ -141,6 +141,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 ;
 private

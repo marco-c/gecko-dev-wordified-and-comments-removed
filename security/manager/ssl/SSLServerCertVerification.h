@@ -206,6 +206,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 =
 0
@@ -269,6 +271,8 @@ PRErrorCode
 aFinalError
 uint32_t
 aCollectedErrors
+bool
+aIsBuiltCertChainRootBuiltInRoot
 )
 override
 ;
@@ -326,6 +330,9 @@ mFinalError
 ;
 uint32_t
 mCollectedErrors
+;
+bool
+mIsBuiltCertChainRootBuiltInRoot
 ;
 }
 ;
