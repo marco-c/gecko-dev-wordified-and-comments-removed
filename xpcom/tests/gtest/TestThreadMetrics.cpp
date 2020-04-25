@@ -571,11 +571,13 @@ BrowsingContextGroup
 >
 group
 =
-new
 dom
 :
 :
 BrowsingContextGroup
+:
+:
+Create
 (
 )
 ;
