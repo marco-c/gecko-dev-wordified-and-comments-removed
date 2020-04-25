@@ -76,12 +76,12 @@ NetworkDetailsBar
 js
 '
 '
-ParamsPanel
+PropertiesView
 .
 js
 '
 '
-PropertiesView
+RequestPanel
 .
 js
 '

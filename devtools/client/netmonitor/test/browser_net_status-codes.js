@@ -1100,7 +1100,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 tab
 "
@@ -1116,7 +1116,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -1309,8 +1309,9 @@ paramsQueryString
 )
 "
 The
-params
-scope
+request
+query
+section
 doesn
 '
 t

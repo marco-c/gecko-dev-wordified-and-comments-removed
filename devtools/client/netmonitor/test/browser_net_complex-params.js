@@ -119,7 +119,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -176,7 +176,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 tab
 "
@@ -215,7 +215,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -288,7 +288,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -359,7 +359,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 tr
@@ -376,7 +376,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -456,7 +456,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 tr
@@ -473,7 +473,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -555,7 +555,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -573,7 +573,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -682,7 +682,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -755,7 +755,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -828,7 +828,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -901,7 +901,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 tr
@@ -972,7 +972,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 tr
@@ -1069,7 +1069,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -1301,7 +1301,8 @@ paramsQueryString
 )
 "
 The
-params
+request
+query
 section
 doesn
 '
@@ -1484,7 +1485,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -2045,7 +2046,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -2212,7 +2213,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -2478,7 +2479,8 @@ paramsQueryString
 Check
 the
 displayed
-params
+request
+query
 section
 title
 .

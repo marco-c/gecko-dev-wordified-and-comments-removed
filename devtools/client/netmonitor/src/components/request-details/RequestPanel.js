@@ -366,7 +366,7 @@ jsonScopeName
 )
 ;
 const
-PARAMS_EMPTY_TEXT
+REQUEST_EMPTY_TEXT
 =
 L10N
 .
@@ -378,7 +378,7 @@ paramsEmptyText
 )
 ;
 const
-PARAMS_FILTER_TEXT
+REQUEST_FILTER_TEXT
 =
 L10N
 .
@@ -390,7 +390,7 @@ paramsFilterText
 )
 ;
 const
-PARAMS_FORM_DATA
+REQUEST_FORM_DATA
 =
 L10N
 .
@@ -402,7 +402,7 @@ paramsFormData
 )
 ;
 const
-PARAMS_POST_PAYLOAD
+REQUEST_POST_PAYLOAD
 =
 L10N
 .
@@ -414,7 +414,7 @@ paramsPostPayload
 )
 ;
 const
-PARAMS_QUERY_STRING
+REQUEST_QUERY_STRING
 =
 L10N
 .
@@ -438,7 +438,7 @@ requestTruncated
 )
 ;
 class
-ParamsPanel
+RequestPanel
 extends
 Component
 {
@@ -851,7 +851,7 @@ empty
 notice
 "
 }
-PARAMS_EMPTY_TEXT
+REQUEST_EMPTY_TEXT
 )
 ;
 }
@@ -896,11 +896,11 @@ targetSearchResult
 }
 header
 :
-PARAMS_QUERY_STRING
+REQUEST_QUERY_STRING
 id
 :
 "
-paramsQueryString
+requestQueryString
 "
 opened
 :
@@ -979,11 +979,11 @@ false
 }
 header
 :
-PARAMS_FORM_DATA
+REQUEST_FORM_DATA
 id
 :
 "
-paramsFormData
+requestFormData
 "
 opened
 :
@@ -1143,11 +1143,11 @@ targetSearchResult
 }
 header
 :
-PARAMS_POST_PAYLOAD
+REQUEST_POST_PAYLOAD
 id
 :
 "
-paramsPostPayload
+requestPostPayload
 "
 opened
 :
@@ -1233,7 +1233,7 @@ text
 )
 placeholder
 :
-PARAMS_FILTER_TEXT
+REQUEST_FILTER_TEXT
 }
 )
 )
@@ -1283,6 +1283,6 @@ batch
 )
 )
 (
-ParamsPanel
+RequestPanel
 )
 ;

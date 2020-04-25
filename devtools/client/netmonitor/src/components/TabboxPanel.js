@@ -226,7 +226,7 @@ WebSocketsPanel
 )
 ;
 const
-ParamsPanel
+RequestPanel
 =
 createFactory
 (
@@ -247,7 +247,7 @@ request
 -
 details
 /
-ParamsPanel
+RequestPanel
 "
 )
 )
@@ -464,7 +464,7 @@ messages
 )
 ;
 const
-PARAMS_TITLE
+REQUEST_TITLE
 =
 L10N
 .
@@ -475,7 +475,7 @@ netmonitor
 .
 tab
 .
-params
+request
 "
 )
 ;
@@ -934,10 +934,10 @@ id
 :
 PANELS
 .
-PARAMS
+REQUEST
 title
 :
-PARAMS_TITLE
+REQUEST_TITLE
 className
 :
 "
@@ -948,7 +948,7 @@ with
 code
 "
 }
-ParamsPanel
+RequestPanel
 (
 {
 connector

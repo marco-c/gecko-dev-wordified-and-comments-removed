@@ -409,7 +409,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -466,7 +466,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 tab
 "
@@ -492,7 +492,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -511,7 +511,7 @@ waitForDOM
 document
 "
 #
-params
+request
 -
 panel
 .
@@ -591,7 +591,7 @@ querySelector
 (
 "
 #
-params
+request
 -
 panel
 "
@@ -621,7 +621,7 @@ box
 includes
 (
 "
-params
+request
 "
 )
 "
@@ -1052,7 +1052,7 @@ urlencoded
 checkVisibility
 (
 "
-params
+request
 "
 )
 ;
@@ -1175,7 +1175,7 @@ else
 checkVisibility
 (
 "
-params
+request
 editor
 "
 )
