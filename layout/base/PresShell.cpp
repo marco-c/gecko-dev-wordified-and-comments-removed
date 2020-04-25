@@ -53680,7 +53680,7 @@ child
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )
