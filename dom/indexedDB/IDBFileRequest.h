@@ -82,12 +82,8 @@ public
 class
 ResultCallback
 ;
-[
-[
-nodiscard
-]
-]
 static
+MOZ_MUST_USE
 RefPtr
 <
 IDBFileRequest
