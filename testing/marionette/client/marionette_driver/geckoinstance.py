@@ -310,14 +310,6 @@ True
 "
 marionette
 .
-enabled
-"
-:
-True
-        
-"
-marionette
-.
 defaultPrefs
 .
 enabled
