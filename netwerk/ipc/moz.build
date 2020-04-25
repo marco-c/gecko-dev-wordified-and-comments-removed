@@ -72,11 +72,6 @@ NeckoTargetHolder
 h
 '
 '
-ParentProcessDocumentChannel
-.
-h
-'
-'
 SocketProcessBridgeChild
 .
 h
@@ -163,11 +158,6 @@ cpp
 '
 '
 NeckoTargetHolder
-.
-cpp
-'
-'
-ParentProcessDocumentChannel
 .
 cpp
 '

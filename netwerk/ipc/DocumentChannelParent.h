@@ -35,9 +35,6 @@ dom
 class
 CanonicalBrowsingContext
 ;
-class
-BrowserParent
-;
 }
 namespace
 net
@@ -191,6 +188,7 @@ SendDeleteSelf
 ;
 }
 }
+virtual
 ProcessId
 OtherPid
 (
@@ -239,7 +237,6 @@ aLoadFlags
 )
 override
 ;
-virtual
 ~
 DocumentChannelParent
 (
