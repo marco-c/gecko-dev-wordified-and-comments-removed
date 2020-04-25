@@ -83,6 +83,13 @@ normandy
 normandy
 /
 index
+components
+/
+prompts
+/
+prompts
+/
+index
 modules
 /
 subprocess
