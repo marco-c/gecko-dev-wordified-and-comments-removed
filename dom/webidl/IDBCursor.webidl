@@ -195,6 +195,11 @@ attribute
 any
 primaryKey
 ;
+readonly
+attribute
+IDBRequest
+request
+;
 [
 Throws
 ]
