@@ -704,7 +704,7 @@ webBoundingBox
 }
 )
 ;
-describe_fails_ffox
+describe
 (
 '
 ElementHandle

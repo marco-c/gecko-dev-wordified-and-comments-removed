@@ -815,7 +815,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should
@@ -1029,7 +1029,7 @@ toBe
 }
 )
 ;
-it_fails_ffox
+it
 (
 '
 should

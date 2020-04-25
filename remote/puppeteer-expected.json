@@ -1588,7 +1588,7 @@ work
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -1608,7 +1608,7 @@ elements
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -2333,7 +2333,7 @@ reload
 :
 [
 "
-SKIP
+TIMEOUT
 "
 ]
 "
@@ -2391,7 +2391,7 @@ function
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -4741,7 +4741,7 @@ url
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -4762,7 +4762,7 @@ SSL
 :
 [
 "
-TIMEOUT
+FAIL
 "
 ]
 "
@@ -4785,7 +4785,7 @@ redirects
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -4830,7 +4830,7 @@ load
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -5084,7 +5084,7 @@ navigation
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -5200,7 +5200,7 @@ message
 :
 [
 "
-TIMEOUT
+PASS
 "
 ]
 "
@@ -11087,7 +11087,7 @@ frame
 :
 [
 "
-PASS
+SKIP
 "
 ]
 "
@@ -11905,7 +11905,7 @@ work
 :
 [
 "
-SKIP
+FAIL
 "
 ]
 "
@@ -11922,7 +11922,7 @@ work
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
@@ -11939,7 +11939,7 @@ work
 :
 [
 "
-SKIP
+PASS
 "
 ]
 "
