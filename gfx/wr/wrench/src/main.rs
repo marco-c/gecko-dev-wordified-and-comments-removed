@@ -4594,6 +4594,15 @@ create_proxy
 )
 )
 res_path
+!
+args
+.
+is_present
+(
+"
+use_unoptimized_shaders
+"
+)
 dp_ratio
 save_type
 dim

@@ -267,6 +267,13 @@ false
 \
 _
 (
+UseWebRenderOptimizedShaders
+bool
+false
+)
+\
+_
+(
 UseWebRenderMultithreading
 bool
 false

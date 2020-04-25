@@ -9200,6 +9200,9 @@ clone
 )
 options
 .
+use_optimized_shaders
+options
+.
 upload_method
 .
 clone
@@ -31641,6 +31644,10 @@ Option
 PathBuf
 >
 pub
+use_optimized_shaders
+:
+bool
+pub
 enable_aa
 :
 bool
@@ -31904,6 +31911,9 @@ device_pixel_ratio
 resource_override_path
 :
 None
+use_optimized_shaders
+:
+false
 enable_aa
 :
 true
