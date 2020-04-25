@@ -255,6 +255,12 @@ gBrowser
 url
 :
 LOAD_URI
+waitForLoad
+:
+false
+waitForStateStop
+:
+true
 }
 async
 function
