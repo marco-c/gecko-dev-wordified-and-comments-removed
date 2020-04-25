@@ -153,9 +153,7 @@ optimize
 :
 experimental
 .
-bugbug
-.
-debug
+bugbug_debug
 '
 )
     

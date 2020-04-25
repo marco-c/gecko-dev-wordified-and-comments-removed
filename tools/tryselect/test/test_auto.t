@@ -88,9 +88,7 @@ optimize
 :
 experimental
 .
-bugbug
-.
-debug
+bugbug_debug
 "
 }
 }
@@ -188,9 +186,7 @@ optimize
 :
 experimental
 .
-bugbug
-.
-debug
+bugbug_debug
 "
 }
 }
@@ -299,9 +295,7 @@ optimize
 :
 experimental
 .
-bugbug
-.
-debug
+bugbug_debug
 "
 }
 }
