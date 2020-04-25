@@ -8332,6 +8332,9 @@ once_cell
 static_prefs
 "
 "
+tempfile
+"
+"
 xpcom
 "
 ]
@@ -10345,6 +10348,12 @@ core
 "
 "
 log
+"
+"
+once_cell
+"
+"
+tempfile
 "
 ]
 [
