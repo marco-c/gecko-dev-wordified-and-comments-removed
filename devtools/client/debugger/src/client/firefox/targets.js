@@ -721,6 +721,8 @@ features
 windowlessServiceWorkers
 )
 {
+try
+{
 const
 origin
 =
@@ -743,8 +745,6 @@ getAllProcessTargets
 args
 )
 ;
-try
-{
 await
 Promise
 .
