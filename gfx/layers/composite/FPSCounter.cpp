@@ -1367,12 +1367,9 @@ if
 (
 aHistogram
 .
-size
+empty
 (
 )
-=
-=
-0
 )
 {
 return
