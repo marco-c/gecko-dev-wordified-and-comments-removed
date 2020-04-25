@@ -41,6 +41,7 @@ eOuterDocType
 ePluginType
 eTextLeafType
 eApplicationType
+eHTMLLinkType
 eHTMLOptGroupType
 eImageMapType
 eMenuPopupType
