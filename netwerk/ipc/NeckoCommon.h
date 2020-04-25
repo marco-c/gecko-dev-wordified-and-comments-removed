@@ -475,10 +475,6 @@ extern
 bool
 gSecurityDisabled
 ;
-extern
-bool
-gRegisteredBool
-;
 }
 inline
 bool

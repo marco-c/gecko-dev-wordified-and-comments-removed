@@ -95,11 +95,13 @@ g
 .
 network
 .
-disable
+dns
 .
-ipc
-.
-security
+native
+-
+is
+-
+localhost
 )
 .
 -
