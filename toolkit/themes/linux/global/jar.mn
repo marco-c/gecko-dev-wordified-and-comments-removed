@@ -279,8 +279,6 @@ classic
 global
 /
 tree
--
-components
 .
 css
 *
