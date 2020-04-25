@@ -144,6 +144,32 @@ cycles
 }
         
 "
+iterations
+"
+:
+{
+"
+type
+"
+:
+int
+"
+default
+"
+:
+1
+"
+help
+"
+:
+"
+Number
+of
+iterations
+"
+}
+        
+"
 binary
 "
 :
@@ -1903,9 +1929,17 @@ profile
 iterations
 "
             
+str
+(
+self
+.
+get_arg
+(
 "
-1
+iterations
 "
+)
+)
             
 test_script
         
