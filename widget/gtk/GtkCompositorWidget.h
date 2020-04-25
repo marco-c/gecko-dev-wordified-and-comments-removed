@@ -103,8 +103,6 @@ aOptions
 nsWindow
 *
 aWindow
-=
-nullptr
 )
 ;
 ~
