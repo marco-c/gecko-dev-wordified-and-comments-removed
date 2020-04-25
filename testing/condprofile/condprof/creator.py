@@ -198,6 +198,12 @@ obfuscate
 from
 condprof
 .
+helpers
+import
+close_extra_windows
+from
+condprof
+.
 scenarii
 import
 scenarii
@@ -1216,6 +1222,12 @@ done
 "
 %
 scenario
+)
+                    
+await
+close_extra_windows
+(
+session
 )
         
 except
