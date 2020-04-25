@@ -4958,6 +4958,9 @@ toString
 src
 )
 ;
+if
+(
+!
 srcs
 .
 AppendElement
@@ -4968,7 +4971,14 @@ mozilla
 :
 fallible
 )
+)
+{
+mozalloc_handle_oom
+(
+0
+)
 ;
+}
 }
 switch
 (

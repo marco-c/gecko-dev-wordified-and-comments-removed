@@ -4491,6 +4491,9 @@ Value
 }
 else
 {
+(
+void
+)
 sessionTypes
 .
 AppendElement

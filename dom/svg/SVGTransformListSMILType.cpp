@@ -1876,6 +1876,9 @@ Length
 i
 )
 {
+(
+void
+)
 aTransforms
 .
 AppendElement

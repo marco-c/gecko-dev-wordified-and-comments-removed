@@ -612,6 +612,9 @@ HasElementCreatedFromPrototypeAndHasUnmodifiedL10n
 )
 )
 {
+if
+(
+!
 nonProtoElements
 .
 AppendElement
@@ -620,7 +623,14 @@ AppendElement
 elem
 fallible
 )
+)
+{
+mozalloc_handle_oom
+(
+0
+)
 ;
+}
 elements
 .
 RemoveElement

@@ -2091,6 +2091,9 @@ return
 nullptr
 ;
 }
+(
+void
+)
 keyHandleBuf
 .
 AppendElement
@@ -2105,6 +2108,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 keyHandleBuf
 .
 AppendElement
@@ -2119,6 +2125,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 keyHandleBuf
 .
 AppendElements
@@ -3376,6 +3385,9 @@ __func__
 )
 ;
 }
+(
+void
+)
 signedDataBuf
 .
 AppendElement
@@ -3387,6 +3399,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -3398,6 +3413,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -3567,6 +3585,9 @@ __func__
 )
 ;
 }
+(
+void
+)
 registrationBuf
 .
 AppendElement
@@ -3592,6 +3613,9 @@ ec
 publicValue
 )
 ;
+(
+void
+)
 registrationBuf
 .
 AppendElement
@@ -4576,6 +4600,9 @@ __func__
 )
 ;
 }
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -4596,6 +4623,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElement
@@ -4614,6 +4644,9 @@ AppendSECItem
 counterItem
 )
 ;
+(
+void
+)
 signedDataBuf
 .
 AppendElements
@@ -4839,6 +4872,9 @@ __func__
 )
 ;
 }
+(
+void
+)
 signatureDataBuf
 .
 AppendElement

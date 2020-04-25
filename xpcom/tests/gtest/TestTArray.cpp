@@ -2487,6 +2487,9 @@ Movable
 >
 array
 ;
+ASSERT_NE
+(
+nullptr
 array
 .
 AppendElement
@@ -2499,6 +2502,7 @@ move
 movable
 )
 fallible
+)
 )
 ;
 ASSERT_EQ

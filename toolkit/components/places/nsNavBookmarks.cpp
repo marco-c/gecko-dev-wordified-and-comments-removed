@@ -1072,7 +1072,6 @@ PlacesEventType
 :
 :
 Page_visited
-fallible
 )
 ;
 PlacesObservers

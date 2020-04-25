@@ -663,6 +663,9 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
+(
+void
+)
 authDataBuf
 .
 AppendElements
@@ -674,6 +677,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 authDataBuf
 .
 AppendElement
@@ -685,6 +691,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 authDataBuf
 .
 AppendElements
@@ -696,6 +705,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 authDataBuf
 .
 AppendElements
@@ -786,6 +798,9 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
+(
+void
+)
 attestationDataBuf
 .
 AppendElements
@@ -797,6 +812,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 attestationDataBuf
 .
 AppendElement
@@ -819,6 +837,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 attestationDataBuf
 .
 AppendElement
@@ -841,6 +862,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 attestationDataBuf
 .
 AppendElements
@@ -852,6 +876,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 attestationDataBuf
 .
 AppendElements
@@ -968,6 +995,9 @@ i
 +
 )
 {
+(
+void
+)
 aaguidBuf
 .
 AppendElement
@@ -1011,6 +1041,9 @@ return
 NS_ERROR_OUT_OF_MEMORY
 ;
 }
+(
+void
+)
 counterBuf
 .
 AppendElement
@@ -1022,6 +1055,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 counterBuf
 .
 AppendElement
@@ -1033,6 +1069,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 counterBuf
 .
 AppendElement
@@ -1044,6 +1083,9 @@ mozilla
 fallible
 )
 ;
+(
+void
+)
 counterBuf
 .
 AppendElement
