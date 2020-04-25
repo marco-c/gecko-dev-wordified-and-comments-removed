@@ -6466,6 +6466,11 @@ looksLikeOrigin
 this
 .
 _searchString
+{
+ignoreWhitelist
+:
+true
+}
 )
 )
 {
@@ -6869,6 +6874,11 @@ UrlbarTokenizer
 looksLikeOrigin
 (
 searchStr
+{
+ignoreWhitelist
+:
+true
+}
 )
 )
 {
