@@ -897,12 +897,19 @@ default
         
 cwd
 =
+os
+.
+path
+.
+realpath
+(
 cwd
 or
 os
 .
 getcwd
 (
+)
 )
         
 topsrcdir

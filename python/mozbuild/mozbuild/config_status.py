@@ -792,7 +792,7 @@ os
 .
 path
 .
-abspath
+realpath
 (
 '
 .
