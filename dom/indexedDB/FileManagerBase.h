@@ -113,7 +113,11 @@ MutexType
 &
 >
 ;
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 SafeRefPtr
 <
 FileInfo
@@ -172,7 +176,11 @@ AcquireStrongRefFromRawPtr
 }
 ;
 }
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 SafeRefPtr
 <
 FileInfo
