@@ -8355,6 +8355,9 @@ sNumDestroyed
 )
 ;
 }
+#
+if
+0
 TEST
 (
 GeckoProfiler
@@ -8487,7 +8490,7 @@ w
 )
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -8496,7 +8499,7 @@ sNumCreated
 2
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -8505,7 +8508,7 @@ sNumSerialized
 2
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -8514,7 +8517,7 @@ sNumDeserialized
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -8523,7 +8526,7 @@ sNumStreamed
 1
 )
 ;
-ASSERT_EQ
+EXPECT_EQ
 (
 GTestMarkerPayload
 :
@@ -8533,6 +8536,8 @@ sNumDestroyed
 )
 ;
 }
+#
+endif
 #
 define
 COUNTER_NAME
