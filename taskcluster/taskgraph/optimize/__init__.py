@@ -2413,8 +2413,6 @@ schedules
 '
 '
 bugbug
--
-all
 '
 )
     
@@ -2455,8 +2453,6 @@ schedules
 '
 '
 bugbug
--
-all
 -
 low
 '
@@ -2500,8 +2496,6 @@ schedules
 '
 bugbug
 -
-all
--
 high
 '
 )
@@ -2543,6 +2537,9 @@ schedules
 '
 '
 bugbug
+'
+'
+platform
 -
 debug
 '
