@@ -355,10 +355,6 @@ data
 =
 {
 }
-objects
-=
-{
-}
 expectResponse
 =
 true
@@ -394,7 +390,6 @@ sendAsyncMessage
 (
 name
 data
-objects
 )
 ;
 if
