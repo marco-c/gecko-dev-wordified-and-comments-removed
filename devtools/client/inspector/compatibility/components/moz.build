@@ -1,6 +1,11 @@
 DevToolsModules
 (
 "
+BrowserIcon
+.
+js
+"
+"
 CompatibilityApp
 .
 js
