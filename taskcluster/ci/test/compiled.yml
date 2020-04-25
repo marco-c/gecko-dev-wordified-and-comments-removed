@@ -768,7 +768,7 @@ ccov
 /
 debug
 :
-6
+8
 windows10
 -
 64
@@ -777,7 +777,7 @@ ccov
 /
 opt
 :
-6
+8
 macosx
 .
 *
