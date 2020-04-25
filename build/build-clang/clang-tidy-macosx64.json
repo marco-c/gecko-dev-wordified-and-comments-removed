@@ -219,5 +219,10 @@ codesign
 .
 patch
 "
+"
+revert_D69573_clang_10
+.
+patch
+"
 ]
 }
