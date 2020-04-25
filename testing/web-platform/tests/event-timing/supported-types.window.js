@@ -5,7 +5,7 @@ test
 =
 >
 {
-assert_precondition
+assert_implements
 (
 window
 .
@@ -20,7 +20,7 @@ supported
 '
 )
 ;
-assert_precondition
+assert_implements
 (
 typeof
 PerformanceObserver
