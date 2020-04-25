@@ -26,7 +26,7 @@ weight
 ;
 }
 .
-worker
+registration
 -
 list
 -
@@ -42,11 +42,13 @@ start
 ;
 }
 .
-worker
+registration
 -
 list
 -
-empty__tips__item
+empty__tips
+-
+item
 {
 margin
 -

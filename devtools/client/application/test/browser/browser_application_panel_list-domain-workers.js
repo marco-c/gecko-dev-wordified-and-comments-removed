@@ -257,7 +257,9 @@ querySelector
 (
 "
 .
-worker
+js
+-
+registration
 -
 list
 -

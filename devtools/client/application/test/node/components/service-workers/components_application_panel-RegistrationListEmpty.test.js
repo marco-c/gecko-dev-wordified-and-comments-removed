@@ -28,7 +28,7 @@ react
 )
 ;
 const
-WorkerListEmpty
+RegistrationListEmpty
 =
 createFactory
 (
@@ -49,7 +49,7 @@ service
 -
 workers
 /
-WorkerListEmpty
+RegistrationListEmpty
 "
 )
 )
@@ -57,7 +57,7 @@ WorkerListEmpty
 describe
 (
 "
-WorkerListEmpty
+RegistrationListEmpty
 "
 (
 )
@@ -82,7 +82,7 @@ wrapper
 =
 shallow
 (
-WorkerListEmpty
+RegistrationListEmpty
 (
 {
 }

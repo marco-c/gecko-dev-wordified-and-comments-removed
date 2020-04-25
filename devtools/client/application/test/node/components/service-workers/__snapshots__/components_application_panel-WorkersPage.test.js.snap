@@ -42,7 +42,7 @@ page
 "
 >
 <
-WorkerList
+RegistrationList
 canDebugWorkers
 =
 {
@@ -248,7 +248,7 @@ empty
 "
 >
 <
-WorkerListEmpty
+RegistrationListEmpty
 /
 >
 <
@@ -295,7 +295,7 @@ page
 "
 >
 <
-WorkerList
+RegistrationList
 canDebugWorkers
 =
 {
@@ -420,7 +420,7 @@ page
 "
 >
 <
-WorkerList
+RegistrationList
 canDebugWorkers
 =
 {
@@ -689,7 +689,7 @@ empty
 "
 >
 <
-WorkerListEmpty
+RegistrationListEmpty
 /
 >
 <
