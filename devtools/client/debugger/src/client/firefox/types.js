@@ -1541,6 +1541,9 @@ getToolboxStore
 =
 >
 any
+panelWin
+:
+Object
 |
 }
 ;

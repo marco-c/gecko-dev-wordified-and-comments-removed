@@ -1,6 +1,6 @@
 requestLongerTimeout
 (
-3
+6
 )
 ;
 function
