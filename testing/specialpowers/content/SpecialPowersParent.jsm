@@ -5134,15 +5134,6 @@ ext
 {
 if
 (
-!
-ext
-)
-{
-return
-;
-}
-if
-(
 AppConstants
 .
 platform

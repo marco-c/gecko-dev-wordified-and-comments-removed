@@ -514,7 +514,11 @@ extension
 off
 (
 "
-startup
+background
+-
+page
+-
+started
 "
 onBackgroundPageDone
 )
@@ -598,7 +602,11 @@ extension
 on
 (
 "
-startup
+background
+-
+page
+-
+started
 "
 onBackgroundPageDone
 )
