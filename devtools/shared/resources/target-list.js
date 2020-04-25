@@ -1389,7 +1389,7 @@ targetType
 =
 this
 .
-_getTargetType
+getTargetType
 (
 targetFront
 )
@@ -1433,7 +1433,7 @@ targetType
 =
 this
 .
-_getTargetType
+getTargetType
 (
 targetFront
 )
@@ -1786,7 +1786,7 @@ type
 }
 }
 }
-_getTargetType
+getTargetType
 (
 target
 )
@@ -1890,7 +1890,7 @@ type
 =
 this
 .
-_getTargetType
+getTargetType
 (
 target
 )
@@ -1956,7 +1956,7 @@ targetType
 =
 this
 .
-_getTargetType
+getTargetType
 (
 targetFront
 )
@@ -1989,7 +1989,7 @@ type
 :
 this
 .
-_getTargetType
+getTargetType
 (
 targetFront
 )
