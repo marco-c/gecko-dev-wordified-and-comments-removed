@@ -580,8 +580,9 @@ mOpened
 =
 true
 ;
-MOZ_ALWAYS_SUCCEEDS
-(
+nsresult
+rv
+=
 mSocketThread
 -
 >
@@ -606,6 +607,13 @@ WebrtcTCPSocket
 CloseWithReason
 aReason
 )
+)
+;
+MOZ_ASSERT
+(
+NS_SUCCEEDED
+(
+rv
 )
 )
 ;
