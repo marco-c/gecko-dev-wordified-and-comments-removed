@@ -1,13 +1,13 @@
 #
 HTMLVideoElement
 .
-requestAnimationFrame
+requestVideoFrameCallback
 specification
 Tests
 The
 HTMLVideoElement
 .
-requestAnimationFrame
+requestVideoFrameCallback
 specification
 is
 available
@@ -25,7 +25,7 @@ io
 /
 video
 -
-raf
+rvfc
 GitHub
 repository
 :
@@ -41,7 +41,7 @@ WICG
 /
 video
 -
-raf
+rvfc
 File
 an
 issue
@@ -58,7 +58,7 @@ wicg
 /
 video
 -
-raf
+rvfc
 /
 issues
 /
