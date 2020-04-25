@@ -54554,6 +54554,14 @@ mWatchedByDevtools
 =
 aWatched
 ;
+mBrowsingContext
+-
+>
+SetWatchedByDevtools
+(
+aWatched
+)
+;
 return
 NS_OK
 ;

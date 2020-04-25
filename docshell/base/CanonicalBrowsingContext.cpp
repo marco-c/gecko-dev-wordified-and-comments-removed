@@ -2736,6 +2736,17 @@ false
 }
 if
 (
+GetWatchedByDevtools
+(
+)
+)
+{
+return
+false
+;
+}
+if
+(
 net
 :
 :
