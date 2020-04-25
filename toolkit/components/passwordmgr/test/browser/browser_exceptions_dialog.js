@@ -37,6 +37,8 @@ content
 /
 preferences
 /
+dialogs
+/
 permissions
 .
 xhtml

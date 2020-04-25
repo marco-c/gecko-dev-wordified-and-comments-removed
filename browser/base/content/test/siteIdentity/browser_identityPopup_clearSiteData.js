@@ -40,6 +40,8 @@ content
 /
 preferences
 /
+dialogs
+/
 siteDataRemoveSelected
 .
 xhtml

@@ -2015,10 +2015,6 @@ components
 /
 preferences
 /
-in
--
-content
-/
 tests
 /
 browser
@@ -2035,10 +2031,6 @@ browser
 components
 /
 preferences
-/
-in
--
-content
 /
 tests
 /

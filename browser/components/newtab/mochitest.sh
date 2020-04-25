@@ -346,10 +346,6 @@ components
 /
 preferences
 /
-in
--
-content
-/
 tests
 /
 browser_hometab_restore_defaults
@@ -362,10 +358,6 @@ components
 /
 preferences
 /
-in
--
-content
-/
 tests
 /
 browser_newtab_menu
@@ -377,10 +369,6 @@ browser
 components
 /
 preferences
-/
-in
--
-content
 /
 tests
 /
