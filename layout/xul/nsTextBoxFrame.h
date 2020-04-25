@@ -241,7 +241,7 @@ const
 ;
 virtual
 bool
-ComputesOwnOverflowArea
+XULComputesOwnOverflowArea
 (
 )
 override

@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsBoxLayoutState
 .
 h
@@ -641,7 +634,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -693,7 +686,7 @@ aState
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -735,7 +728,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -789,7 +782,7 @@ aComputedColumnCount
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -802,7 +795,7 @@ continue
 }
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -851,7 +844,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -911,7 +904,7 @@ rowCount
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -935,7 +928,7 @@ true
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox

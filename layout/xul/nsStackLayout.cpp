@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsBoxFrame
 .
 h
@@ -201,7 +194,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -225,7 +218,7 @@ GetXULPrefSize
 aState
 )
 ;
-AddMargin
+AddXULMargin
 (
 child
 pref
@@ -304,7 +297,7 @@ height
 }
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -313,7 +306,7 @@ child
 )
 ;
 }
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 aBox
 prefSize
@@ -348,7 +341,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -372,7 +365,7 @@ GetXULMinSize
 aState
 )
 ;
-AddMargin
+AddXULMargin
 (
 child
 min
@@ -451,7 +444,7 @@ height
 }
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -460,7 +453,7 @@ child
 )
 ;
 }
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 aBox
 minSize
@@ -495,7 +488,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -532,16 +525,16 @@ aState
 ;
 max
 =
-nsBox
+nsIFrame
 :
 :
-BoundsCheckMinMax
+XULBoundsCheckMinMax
 (
 min
 max
 )
 ;
-AddMargin
+AddXULMargin
 (
 child
 max
@@ -620,7 +613,7 @@ height
 }
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -629,7 +622,7 @@ child
 )
 ;
 }
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 aBox
 maxSize
@@ -662,7 +655,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -716,7 +709,7 @@ ascent
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -1323,7 +1316,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -1896,7 +1889,7 @@ true
 }
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox

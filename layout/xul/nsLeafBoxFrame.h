@@ -20,13 +20,6 @@ nsLeafFrame
 .
 h
 "
-#
-include
-"
-nsBox
-.
-h
-"
 namespace
 mozilla
 {
@@ -295,7 +288,7 @@ override
 ;
 virtual
 bool
-ComputesOwnOverflowArea
+XULComputesOwnOverflowArea
 (
 )
 override

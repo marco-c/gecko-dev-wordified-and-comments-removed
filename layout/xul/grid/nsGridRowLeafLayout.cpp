@@ -29,13 +29,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h
@@ -246,7 +239,7 @@ index
 isHorizontal
 )
 ;
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 aBox
 minSize
@@ -327,7 +320,7 @@ index
 isHorizontal
 )
 ;
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 aBox
 maxSize
@@ -484,7 +477,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -824,10 +817,10 @@ max
 ;
 pref
 =
-nsBox
+nsIFrame
 :
 :
-BoundsCheck
+XULBoundsCheck
 (
 min
 pref
@@ -947,9 +940,10 @@ column
 >
 mIsBogus
 )
+{
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -957,6 +951,7 @@ GetNextXULBox
 child
 )
 ;
+}
 }
 aBoxSizes
 =
@@ -1332,7 +1327,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -1352,7 +1347,7 @@ child
 {
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox

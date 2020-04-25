@@ -6168,7 +6168,7 @@ aState
 ;
 size
 =
-BoundsCheck
+XULBoundsCheck
 (
 minSize
 size

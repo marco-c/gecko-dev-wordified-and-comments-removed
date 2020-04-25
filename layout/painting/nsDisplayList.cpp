@@ -35375,7 +35375,7 @@ nsIFrame
 *
 thumbFrame
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox

@@ -3067,7 +3067,7 @@ aState
 )
 {
 return
-nsBox
+nsIFrame
 :
 :
 GetXULMinSize

@@ -818,7 +818,7 @@ nsresult
 >
 rv
 =
-nsBox
+nsIFrame
 :
 :
 GetXULMargin
@@ -833,7 +833,7 @@ NS_SUCCEEDED
 rv
 )
 "
-nsBox
+nsIFrame
 :
 :
 GetXULMargin

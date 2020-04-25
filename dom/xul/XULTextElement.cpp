@@ -44,13 +44,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsIScrollableFrame
 .
 h

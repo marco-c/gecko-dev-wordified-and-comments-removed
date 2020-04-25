@@ -278,7 +278,7 @@ override
 ;
 virtual
 bool
-ComputesOwnOverflowArea
+XULComputesOwnOverflowArea
 (
 )
 override

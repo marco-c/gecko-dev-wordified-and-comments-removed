@@ -2866,7 +2866,7 @@ ClassID
 aID
 )
 :
-nsBox
+nsIFrame
 (
 aStyle
 aPresContext
@@ -27501,7 +27501,7 @@ BoxMetrics
 (
 )
 ;
-SizeNeedsRecalc
+XULSizeNeedsRecalc
 (
 metrics
 -
@@ -27509,7 +27509,7 @@ metrics
 mPrefSize
 )
 ;
-SizeNeedsRecalc
+XULSizeNeedsRecalc
 (
 metrics
 -
@@ -27517,7 +27517,7 @@ metrics
 mMinSize
 )
 ;
-SizeNeedsRecalc
+XULSizeNeedsRecalc
 (
 metrics
 -
@@ -27525,7 +27525,7 @@ metrics
 mMaxSize
 )
 ;
-SizeNeedsRecalc
+XULSizeNeedsRecalc
 (
 metrics
 -
@@ -27533,7 +27533,7 @@ metrics
 mBlockPrefSize
 )
 ;
-SizeNeedsRecalc
+XULSizeNeedsRecalc
 (
 metrics
 -
@@ -27541,7 +27541,7 @@ metrics
 mBlockMinSize
 )
 ;
-CoordNeedsRecalc
+XULCoordNeedsRecalc
 (
 metrics
 -
@@ -27549,7 +27549,7 @@ metrics
 mFlex
 )
 ;
-CoordNeedsRecalc
+XULCoordNeedsRecalc
 (
 metrics
 -
@@ -51891,7 +51891,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -51899,9 +51899,11 @@ metrics
 mBlockPrefSize
 )
 )
+{
 return
 NS_OK
 ;
+}
 nsRect
 rect
 =
@@ -52317,7 +52319,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -52456,7 +52458,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -52595,7 +52597,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -52626,7 +52628,7 @@ size
 ;
 size
 =
-nsBox
+nsIFrame
 :
 :
 GetXULMaxSize
@@ -52664,7 +52666,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -52672,18 +52674,20 @@ metrics
 mFlex
 )
 )
+{
 return
 metrics
 -
 >
 mFlex
 ;
+}
 metrics
 -
 >
 mFlex
 =
-nsBox
+nsIFrame
 :
 :
 GetXULFlex
@@ -52719,7 +52723,7 @@ BoxMetrics
 if
 (
 !
-DoesNeedRecalc
+XULNeedsRecalc
 (
 metrics
 -
@@ -52727,12 +52731,14 @@ metrics
 mAscent
 )
 )
+{
 return
 metrics
 -
 >
 mAscent
 ;
+}
 if
 (
 IsXULCollapsed
@@ -53195,7 +53201,7 @@ outerWM
 oldSize
 )
 ;
-SyncLayout
+SyncXULLayout
 (
 aState
 )

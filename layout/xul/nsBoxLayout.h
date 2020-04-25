@@ -241,7 +241,7 @@ aState
 }
 virtual
 void
-AddBorderAndPadding
+AddXULBorderAndPadding
 (
 nsIFrame
 *
@@ -253,7 +253,7 @@ aSize
 ;
 virtual
 void
-AddMargin
+AddXULMargin
 (
 nsIFrame
 *
@@ -265,7 +265,7 @@ aSize
 ;
 virtual
 void
-AddMargin
+AddXULMargin
 (
 nsSize
 &

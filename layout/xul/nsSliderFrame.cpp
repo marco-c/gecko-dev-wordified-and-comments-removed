@@ -1339,7 +1339,7 @@ nsIFrame
 *
 thumb
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -1995,7 +1995,7 @@ nsIFrame
 *
 thumbBox
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -2009,7 +2009,7 @@ if
 thumbBox
 )
 {
-SyncLayout
+SyncXULLayout
 (
 aState
 )
@@ -2378,7 +2378,7 @@ thumbBox
 thumbRect
 )
 ;
-SyncLayout
+SyncXULLayout
 (
 aState
 )
@@ -6439,7 +6439,7 @@ EnsureOrient
 )
 ;
 return
-nsBox
+nsIFrame
 :
 :
 GetXULMinSize

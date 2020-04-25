@@ -22,13 +22,6 @@ h
 #
 include
 "
-nsBox
-.
-h
-"
-#
-include
-"
 nsStackLayout
 .
 h
@@ -204,9 +197,10 @@ if
 (
 aBox
 )
+{
 aBox
 =
-nsBox
+nsIFrame
 :
 :
 GetParentXULBox
@@ -214,6 +208,7 @@ GetParentXULBox
 aBox
 )
 ;
+}
 if
 (
 aBox
@@ -329,7 +324,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
@@ -420,7 +415,7 @@ count
 ;
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -551,7 +546,7 @@ nsIFrame
 *
 next
 =
-nsBox
+nsIFrame
 :
 :
 GetNextXULBox
@@ -563,7 +558,7 @@ nsIFrame
 *
 child
 =
-nsBox
+nsIFrame
 :
 :
 GetChildXULBox
