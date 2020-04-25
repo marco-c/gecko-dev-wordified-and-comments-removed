@@ -371,6 +371,37 @@ set_debug_app_flag
 )
     
 def
+process_exists
+(
+self
+)
+:
+        
+return
+self
+.
+device
+is
+not
+None
+and
+self
+.
+device
+.
+process_exist
+(
+self
+.
+config
+[
+"
+binary
+"
+]
+)
+    
+def
 write_android_app_config
 (
 self
@@ -997,19 +1028,7 @@ if
 not
 self
 .
-device
-.
-process_exist
-(
-self
-.
-config
-[
-"
-binary
-"
-]
-)
+process_exists
 :
                 
 raise
@@ -2242,6 +2261,9 @@ wait_for_test_finish
 (
 test
 timeout
+self
+.
+process_exists
 )
             
 if
@@ -2471,6 +2493,9 @@ wait_for_test_finish
 (
 test
 timeout
+self
+.
+process_exists
 )
         
 if

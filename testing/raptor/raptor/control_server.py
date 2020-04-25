@@ -2597,6 +2597,12 @@ False
         
 self
 .
+_is_shutting_down
+=
+False
+        
+self
+.
 _runtime_error
 =
 None
@@ -3329,6 +3335,12 @@ it
 "
 "
         
+self
+.
+_is_shutting_down
+=
+True
+        
 if
 self
 .
@@ -3386,6 +3398,12 @@ self
 _finished
 =
 True
+        
+self
+.
+_is_shutting_down
+=
+False
     
 def
 submit_supporting_data
