@@ -2880,6 +2880,14 @@ docShell
 >
 SetAffectPrivateSessionLifetime
 (
+mBrowsingContext
+-
+>
+UsePrivateBrowsing
+(
+)
+|
+|
 mChromeFlags
 &
 nsIWebBrowserChrome
