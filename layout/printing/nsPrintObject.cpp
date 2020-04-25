@@ -908,8 +908,13 @@ bc
 BrowsingContext
 :
 :
-CreateIndependent
+CreateWindowless
 (
+nullptr
+nullptr
+EmptyString
+(
+)
 nsDocShell
 :
 :

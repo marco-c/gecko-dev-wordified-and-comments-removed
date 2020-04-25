@@ -1121,8 +1121,13 @@ browsingContext
 BrowsingContext
 :
 :
-CreateIndependent
+Create
 (
+nullptr
+nullptr
+EmptyString
+(
+)
 BrowsingContext
 :
 :
