@@ -63,6 +63,13 @@ messages
 js
 '
 '
+error
+-
+messages
+.
+js
+'
+'
 platform
 -
 messages
