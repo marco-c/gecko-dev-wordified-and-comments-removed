@@ -7,7 +7,9 @@ mozilla_layers_APZInputBridge_h
 #
 include
 "
-APZUtils
+mozilla
+/
+EventForwards
 .
 h
 "
@@ -16,7 +18,9 @@ include
 "
 mozilla
 /
-EventForwards
+layers
+/
+APZUtils
 .
 h
 "
