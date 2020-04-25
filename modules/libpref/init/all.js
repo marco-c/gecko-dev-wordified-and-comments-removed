@@ -33002,7 +33002,7 @@ wayland_vsync
 .
 enabled
 "
-false
+true
 )
 ;
 pref
