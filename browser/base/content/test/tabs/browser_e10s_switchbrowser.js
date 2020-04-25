@@ -377,6 +377,7 @@ BrowserTestUtils
 browserStopped
 (
 gBrowser
+uri
 )
 ;
 if
@@ -502,6 +503,7 @@ BrowserTestUtils
 browserStopped
 (
 gBrowser
+uri
 )
 ;
 if
