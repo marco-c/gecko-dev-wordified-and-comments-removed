@@ -1966,7 +1966,6 @@ GetPrevContinuation
 return
 LogicalSides
 (
-mWritingMode
 eLogicalSideBitsAll
 )
 ;
@@ -1974,7 +1973,6 @@ eLogicalSideBitsAll
 return
 LogicalSides
 (
-mWritingMode
 )
 ;
 }

@@ -13482,15 +13482,6 @@ mNextFragmentStartRow
 (
 0
 )
-mSkipSides
-(
-aFrame
--
->
-GetWritingMode
-(
-)
-)
 mWM
 (
 aWM
