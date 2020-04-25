@@ -1221,10 +1221,8 @@ tmp
 deb_archive
 )
     
-resp
+deb_url
 =
-urlopen
-(
 "
 https
 :
@@ -1245,7 +1243,6 @@ s
 "
 %
 deb_archive
-)
     
 with
 open
@@ -1259,15 +1256,30 @@ as
 f
 :
         
+if
+not
+download_url_to_descriptor
+(
 f
-.
-write
-(
-resp
-.
-read
-(
+deb_url
 )
+:
+            
+raise
+RuntimeError
+(
+"
+Can
+'
+t
+download
+%
+s
+.
+Aborting
+"
+%
+deb_url
 )
     
 run
