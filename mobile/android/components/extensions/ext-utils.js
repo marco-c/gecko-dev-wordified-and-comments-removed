@@ -209,9 +209,6 @@ geckoview
 "
 ;
 let
-tabTracker
-;
-let
 windowTracker
 ;
 class
@@ -1032,6 +1029,7 @@ WindowTracker
 (
 )
 ;
+const
 tabTracker
 =
 new
