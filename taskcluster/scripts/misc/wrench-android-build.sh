@@ -103,6 +103,14 @@ PATH
 MOZ_FETCHES_DIR
 }
 /
+clang
+/
+bin
+:
+{
+MOZ_FETCHES_DIR
+}
+/
 rustc
 /
 bin
