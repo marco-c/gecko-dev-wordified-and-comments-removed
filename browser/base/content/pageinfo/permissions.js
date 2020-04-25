@@ -238,10 +238,13 @@ changed
 "
 )
 ;
-onUnloadRegistry
+window
 .
-push
+addEventListener
 (
+"
+unload
+"
 onUnloadPermission
 )
 ;
