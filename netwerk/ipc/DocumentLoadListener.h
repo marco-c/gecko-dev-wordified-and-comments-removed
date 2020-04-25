@@ -647,6 +647,7 @@ aRedirectFlags
 uint32_t
 aLoadFlags
 )
+const
 ;
 protected
 :
