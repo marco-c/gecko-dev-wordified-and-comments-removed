@@ -9062,15 +9062,6 @@ LayoutRect
 complex_clips
 :
 I
-image_mask
-:
-Option
-<
-di
-:
-:
-ImageMask
->
 scroll_sensitivity
 :
 di
@@ -9151,7 +9142,6 @@ parent_space_and_clip
 clip_id
 scroll_frame_id
 external_id
-image_mask
 scroll_sensitivity
 external_scroll_offset
 }

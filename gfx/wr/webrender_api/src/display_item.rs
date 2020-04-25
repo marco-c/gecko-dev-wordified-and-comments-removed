@@ -934,13 +934,6 @@ Option
 ExternalScrollId
 >
 pub
-image_mask
-:
-Option
-<
-ImageMask
->
-pub
 scroll_sensitivity
 :
 ScrollSensitivity
