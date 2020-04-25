@@ -7983,6 +7983,7 @@ const
 return
 LogicalSides
 (
+mWritingMode
 )
 ;
 }
