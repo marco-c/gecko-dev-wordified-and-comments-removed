@@ -1957,6 +1957,16 @@ usrsctp_sysctl_set_sctp_default_frag_interleave
 2
 )
 ;
+usrsctp_sysctl_set_sctp_asconf_enable
+(
+0
+)
+;
+usrsctp_sysctl_set_sctp_auth_enable
+(
+0
+)
+;
 sctp_initialized
 =
 true
