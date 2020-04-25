@@ -257,7 +257,7 @@ const
 bool
 IncrementalWeakMapMarkingEnabled
 =
-false
+true
 ;
 static
 const
