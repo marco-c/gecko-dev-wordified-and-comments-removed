@@ -136,6 +136,12 @@ using
 mozilla
 :
 :
+Unused
+;
+using
+mozilla
+:
+:
 mscom
 :
 :
@@ -913,6 +919,9 @@ mozilla
 TimeStamp
 callEnd
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -986,6 +995,9 @@ mozilla
 TimeStamp
 captureStart
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
@@ -1020,6 +1032,9 @@ mozilla
 TimeStamp
 captureEnd
 (
+mozilla
+:
+:
 TimeStamp
 :
 :
