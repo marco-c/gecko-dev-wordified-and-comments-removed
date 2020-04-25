@@ -435,7 +435,11 @@ env
 get_arg
 (
 "
-browser_browsertime_extra_options
+browsertime
+-
+extra
+-
+options
 "
 "
 "
@@ -462,7 +466,11 @@ env
 set_arg
 (
 "
-browser_browsertime_extra_options
+browsertime
+-
+extra
+-
+options
 "
 options
 )
@@ -494,19 +502,28 @@ NodeRunner
 )
 :
     
+"
+"
+"
+Runs
+a
+browsertime
+test
+.
+    
+"
+"
+"
+    
 name
 =
 "
 browsertime
-(
-%
-s
-)
 "
-%
-NodeRunner
-.
-name
+    
+activated
+=
+True
     
 arguments
 =
@@ -515,25 +532,20 @@ arguments
 "
 -
 -
-browser
--
 cycles
 "
 :
 {
-            
 "
 type
 "
 :
 int
-            
 "
 default
 "
 :
 1
-            
 "
 help
 "
@@ -544,13 +556,10 @@ of
 full
 cycles
 "
-        
 }
         
 "
 -
--
-browser
 -
 binary
 "
@@ -591,8 +600,6 @@ name
 "
 -
 -
-browsertime
--
 clobber
 "
 :
@@ -629,8 +636,6 @@ installation
         
 "
 -
--
-browsertime
 -
 install
 -
@@ -670,10 +675,6 @@ url
         
 "
 -
--
-browser
--
-browsertime
 -
 extra
 -
@@ -2913,8 +2914,6 @@ self
 get_arg
 (
 "
-browser
--
 cycles
 "
 1
@@ -3169,10 +3168,6 @@ self
 get_arg
 (
 "
-browser
--
-browsertime
--
 extra
 -
 options

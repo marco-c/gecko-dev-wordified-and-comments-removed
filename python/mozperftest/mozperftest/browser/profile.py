@@ -41,15 +41,15 @@ name
 profile
 "
     
+activated
+=
+True
+    
 arguments
 =
 {
         
 "
--
--
-profile
--
 directory
 "
 :
@@ -76,10 +76,6 @@ use
 }
         
 "
--
--
-profile
--
 user
 -
 js
@@ -170,8 +166,6 @@ self
 get_arg
 (
 "
-profile
--
 directory
 "
 )
@@ -235,8 +229,6 @@ self
 get_arg
 (
 "
-profile
--
 user
 -
 js
