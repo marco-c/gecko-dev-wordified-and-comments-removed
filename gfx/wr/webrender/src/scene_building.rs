@@ -1569,6 +1569,14 @@ SceneStats
 >
 BuiltScene
 {
+profile_scope
+!
+(
+"
+build_scene
+"
+)
+;
 let
 root_pipeline_id
 =
