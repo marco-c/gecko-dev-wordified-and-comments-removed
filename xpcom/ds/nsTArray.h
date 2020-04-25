@@ -6808,6 +6808,7 @@ ReconstructElementAt
 index_type
 aIndex
 )
+MOZ_NONNULL_RETURN
 {
 elem_type
 *
