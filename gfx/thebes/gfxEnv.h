@@ -58,14 +58,6 @@ DumpDebug
 DECL_GFX_ENV
 (
 "
-ENABLE_WR_RECORDING
-"
-EnableWebRenderRecording
-)
-;
-DECL_GFX_ENV
-(
-"
 MOZ_DEBUG_SHADERS
 "
 DebugShaders

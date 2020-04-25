@@ -1217,14 +1217,7 @@ bool
 useExternalImage
 =
 !
-gfxEnv
-:
-:
-EnableWebRenderRecording
-(
-)
-&
-&
+!
 wrTexture
 ;
 aPipeline
