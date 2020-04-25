@@ -40,6 +40,8 @@ browser
 /
 toolkit
 /
+components
+/
 forgetaboutsite
 /
 test
