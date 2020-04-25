@@ -824,12 +824,12 @@ loading
 test
 page
 "
-_page
-[
 "
-url
+waiting
+for
+pending
+metrics
 "
-]
 )
                 
 ]
@@ -848,15 +848,33 @@ not
 None
 :
                     
-message
+LOG
 .
-append
-(
+warning
 (
 "
+page
+cycle
+{
+}
+has
 pending
 metrics
+:
+{
+}
 "
+.
+format
+(
+                        
+_page
+[
+"
+page_cycle
+"
+]
+                        
 _page
 [
 "
@@ -864,6 +882,7 @@ pending_metrics
 "
 ]
 )
+                    
 )
                 
 LOG

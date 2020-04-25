@@ -289,6 +289,7 @@ add_page_timeout
 self
 test_name
 page_url
+page_cycle
 pending_metrics
 )
 :
@@ -296,16 +297,25 @@ pending_metrics
 timeout_details
 =
 {
+            
 "
 test_name
 "
 :
 test_name
+            
 "
 url
 "
 :
 page_url
+            
+"
+page_cycle
+"
+:
+page_cycle
+        
 }
         
 if

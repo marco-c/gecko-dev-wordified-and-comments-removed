@@ -256,6 +256,10 @@ metric3
 True
 }
     
+page_cycle
+=
+1
+    
 def
 post_state
 (
@@ -314,6 +318,7 @@ data
 [
 test_name
 url
+page_cycle
 metrics
 ]
             
