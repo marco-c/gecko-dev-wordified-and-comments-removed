@@ -1605,7 +1605,7 @@ child
 aBC
 -
 >
-Children
+GetChildren
 (
 )
 )
