@@ -666,9 +666,6 @@ aFinalCompleteValue
 aLabel
 )
 ;
-if
-(
-!
 mMatches
 .
 InsertElementAt
@@ -676,12 +673,7 @@ InsertElementAt
 aIndex
 match
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 return
 NS_OK
 ;

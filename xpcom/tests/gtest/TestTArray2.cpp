@@ -941,9 +941,6 @@ Length
 /
 2
 ;
-if
-(
-!
 ary
 .
 InsertElementAt
@@ -951,9 +948,6 @@ InsertElementAt
 index
 extra
 )
-)
-return
-false
 ;
 if
 (
@@ -1493,9 +1487,6 @@ return
 false
 ;
 }
-if
-(
-!
 ary
 .
 InsertElementsAt
@@ -1503,9 +1494,6 @@ InsertElementsAt
 0
 copy
 )
-)
-return
-false
 ;
 if
 (

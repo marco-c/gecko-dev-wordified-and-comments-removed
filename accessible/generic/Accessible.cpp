@@ -11553,9 +11553,6 @@ false
 }
 else
 {
-if
-(
-!
 mChildren
 .
 InsertElementAt
@@ -11563,9 +11560,6 @@ InsertElementAt
 aIndex
 aChild
 )
-)
-return
-false
 ;
 MOZ_ASSERT
 (

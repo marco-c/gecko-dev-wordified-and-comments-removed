@@ -2391,9 +2391,6 @@ break
 ;
 }
 }
-if
-(
-!
 aFrameStripSpaceTests
 .
 InsertElementAt
@@ -2401,12 +2398,7 @@ InsertElementAt
 i
 sst
 )
-)
-{
-return
-NS_ERROR_OUT_OF_MEMORY
 ;
-}
 aStripSpaceItem
 -
 >
