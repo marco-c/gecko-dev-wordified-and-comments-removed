@@ -150,6 +150,11 @@ actors
 =
 [
 '
+AboutNewTabChild
+.
+jsm
+'
+'
 AboutReaderChild
 .
 jsm
