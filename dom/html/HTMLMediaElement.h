@@ -3905,7 +3905,7 @@ mPlayingBeforeSeek
 false
 ;
 bool
-mSuspendedForInactiveDocument
+mSuspendedByInactiveDocOrDocshell
 =
 false
 ;
@@ -4461,6 +4461,12 @@ dom
 Promise
 >
 mSeekDOMPromise
+;
+bool
+ShouldBeSuspendedByInactiveDocShell
+(
+)
+const
 ;
 void
 AssertReadyStateIsNothing
