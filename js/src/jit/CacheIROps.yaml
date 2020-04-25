@@ -2017,6 +2017,9 @@ StoreTypedObjectScalarProperty
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2033,7 +2036,7 @@ type
 ScalarTypeImm
 rhs
 :
-ValId
+RawId
 -
 name
 :
@@ -2119,6 +2122,9 @@ StoreTypedElement
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2135,7 +2141,7 @@ index
 Int32Id
 rhs
 :
-AnyId
+RawId
 handleOOB
 :
 BoolImm

@@ -398,6 +398,19 @@ writeOperandId
 )
     
 '
+RawId
+'
+:
+(
+'
+OperandId
+'
+'
+writeOperandId
+'
+)
+    
+'
 ShapeField
 '
 :
@@ -1231,6 +1244,26 @@ Id
 reader
 .
 valueTagOperandId
+(
+)
+'
+)
+    
+'
+RawId
+'
+:
+(
+'
+uint32_t
+'
+'
+Id
+'
+'
+reader
+.
+rawOperandId
 (
 )
 '
@@ -2188,7 +2221,7 @@ Id
 '
         
 '
-AnyId
+RawId
 '
 :
 '
