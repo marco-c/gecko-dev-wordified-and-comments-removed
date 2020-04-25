@@ -95,14 +95,6 @@ app
 fonts
 '
 ]
-TEST_DIRS
-+
-=
-[
-'
-tests
-'
-]
 TEST_HARNESS_FILES
 .
 testing
