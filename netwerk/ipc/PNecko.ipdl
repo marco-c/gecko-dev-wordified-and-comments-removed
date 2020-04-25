@@ -367,8 +367,12 @@ flags
 async
 PDocumentChannel
 (
+PBrowser
+browser
 MaybeDiscardedBrowsingContext
 browsingContext
+SerializedLoadContext
+loadContext
 DocumentChannelCreationArgs
 args
 )

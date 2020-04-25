@@ -832,9 +832,6 @@ SrcdocData
 CrossProcessSHEntry
 SHEntry
 ;
-uint32_t
-LoadIdentifier
-;
 }
 ;
 struct
