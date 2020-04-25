@@ -960,6 +960,10 @@ updater
 -
 dep
 \
+jsreftest
+\
+jittest
+\
 (
 NULL
 )
