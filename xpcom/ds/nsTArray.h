@@ -413,6 +413,7 @@ struct
 nsTArrayFallibleResult
 {
 MOZ_IMPLICIT
+constexpr
 nsTArrayFallibleResult
 (
 bool
@@ -426,6 +427,7 @@ aResult
 {
 }
 MOZ_IMPLICIT
+constexpr
 operator
 bool
 (
@@ -459,6 +461,7 @@ nsTArrayFallibleResult
 ResultTypeProxy
 ;
 static
+constexpr
 ResultType
 Result
 (
@@ -471,6 +474,7 @@ aResult
 ;
 }
 static
+constexpr
 bool
 Successful
 (
@@ -483,6 +487,7 @@ aResult
 ;
 }
 static
+constexpr
 ResultTypeProxy
 SuccessResult
 (
@@ -493,6 +498,7 @@ true
 ;
 }
 static
+constexpr
 ResultTypeProxy
 FailureResult
 (
@@ -503,6 +509,7 @@ false
 ;
 }
 static
+constexpr
 ResultType
 ConvertBoolToResultType
 (
@@ -528,6 +535,7 @@ nsTArrayInfallibleResult
 ResultTypeProxy
 ;
 static
+constexpr
 ResultType
 Result
 (
@@ -537,6 +545,7 @@ aResult
 {
 }
 static
+constexpr
 bool
 Successful
 (
@@ -548,6 +557,7 @@ true
 ;
 }
 static
+constexpr
 ResultTypeProxy
 SuccessResult
 (
@@ -559,6 +569,11 @@ ResultTypeProxy
 )
 ;
 }
+[
+[
+noreturn
+]
+]
 static
 ResultTypeProxy
 FailureResult
@@ -576,13 +591,9 @@ fail
 "
 )
 ;
-return
-ResultTypeProxy
-(
-)
-;
 }
 static
+constexpr
 ResultType
 ConvertBoolToResultType
 (
