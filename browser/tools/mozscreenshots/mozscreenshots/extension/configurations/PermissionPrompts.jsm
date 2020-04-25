@@ -694,9 +694,9 @@ getElementById
 "
 addon
 -
-install
+webext
 -
-confirmation
+permissions
 -
 notification
 "
@@ -728,12 +728,7 @@ waitForCondition
 !
 notification
 .
-hasAttribute
-(
-"
 hidden
-"
-)
 "
 addon
 install
