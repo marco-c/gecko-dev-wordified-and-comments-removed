@@ -4,7 +4,7 @@ t
 =
 >
 {
-assert_precondition
+assert_implements
 (
 window
 .
