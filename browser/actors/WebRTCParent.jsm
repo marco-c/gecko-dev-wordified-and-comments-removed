@@ -1350,6 +1350,7 @@ false
 }
 if
 (
+(
 aRequest
 .
 isThirdPartyOrigin
@@ -1359,6 +1360,12 @@ isThirdPartyOrigin
 aRequest
 .
 shouldDelegatePermission
+)
+|
+|
+aRequest
+.
+secondOrigin
 )
 {
 camAllowed
@@ -1866,11 +1873,6 @@ isPopup
 {
 if
 (
-aRequest
-.
-secondOrigin
-|
-|
 !
 aActor
 .
@@ -2629,12 +2631,6 @@ false
 }
 if
 (
-!
-aRequest
-.
-secondOrigin
-&
-&
 aActor
 .
 checkRequestAllowed
