@@ -3736,6 +3736,11 @@ mIsNavigating
 :
 1
 ;
+bool
+mSuspendMediaWhenInactive
+:
+1
+;
 }
 ;
 #
