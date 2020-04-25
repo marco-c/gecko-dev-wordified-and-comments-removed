@@ -153,6 +153,8 @@ aWindow
 gBrowser
 .
 selectedBrowser
+false
+testURI
 )
 .
 then
