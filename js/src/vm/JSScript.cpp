@@ -22514,14 +22514,6 @@ ImmutableFlags
 HasNonSyntacticScope
 )
 ;
-clearFlag
-(
-ImmutableFlags
-:
-:
-NeedsFunctionEnvironmentObjects
-)
-;
 MOZ_ASSERT
 (
 !

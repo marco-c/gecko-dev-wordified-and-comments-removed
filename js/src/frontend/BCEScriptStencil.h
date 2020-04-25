@@ -86,15 +86,6 @@ BytecodeEmitter
 &
 bce_
 ;
-bool
-getNeedsFunctionEnvironmentObjects
-(
-BytecodeEmitter
-&
-bce
-)
-const
-;
 void
 init
 (

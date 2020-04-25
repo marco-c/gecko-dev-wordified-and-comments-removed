@@ -4460,17 +4460,6 @@ ImmutableFlags
 :
 HasNonSyntacticScope
 )
-|
-uint32_t
-(
-BaseScript
-:
-:
-ImmutableFlags
-:
-:
-NeedsFunctionEnvironmentObjects
-)
 ;
 constexpr
 uint32_t

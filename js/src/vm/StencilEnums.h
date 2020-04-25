@@ -191,13 +191,13 @@ FunctionHasExtraBodyVarScope
 <
 <
 25
-HasNonSyntacticScope
+NeedsFunctionEnvironmentObjects
 =
 1
 <
 <
 26
-NeedsFunctionEnvironmentObjects
+HasNonSyntacticScope
 =
 1
 <
