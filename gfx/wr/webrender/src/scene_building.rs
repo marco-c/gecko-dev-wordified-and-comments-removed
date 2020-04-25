@@ -436,9 +436,7 @@ crate
 render_backend
 :
 :
-{
-DocumentView
-}
+SceneView
 ;
 use
 crate
@@ -1541,7 +1539,7 @@ SharedFontInstanceMap
 view
 :
 &
-DocumentView
+SceneView
 output_pipelines
 :
 &
