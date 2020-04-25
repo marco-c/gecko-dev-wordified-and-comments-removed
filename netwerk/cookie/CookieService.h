@@ -21,13 +21,6 @@ h
 #
 include
 "
-nsICookiePermission
-.
-h
-"
-#
-include
-"
 nsIObserver
 .
 h
@@ -690,12 +683,6 @@ nsString
 &
 aParams
 )
-;
-nsCOMPtr
-<
-nsICookiePermission
->
-mPermissionService
 ;
 nsCOMPtr
 <
