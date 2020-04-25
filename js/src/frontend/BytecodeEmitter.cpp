@@ -26355,7 +26355,9 @@ sourceObject
 funbox
 -
 >
-extent
+getScriptExtent
+(
+)
 ImmutableScriptFlags
 :
 :
