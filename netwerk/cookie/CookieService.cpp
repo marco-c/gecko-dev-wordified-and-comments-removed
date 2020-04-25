@@ -1504,6 +1504,11 @@ NS_ENSURE_ARG
 aHostURI
 )
 ;
+NS_ENSURE_ARG
+(
+aChannel
+)
+;
 aCookieString
 .
 Truncate
@@ -1534,11 +1539,6 @@ rejectedReason
 OriginAttributes
 attrs
 ;
-if
-(
-aChannel
-)
-{
 NS_GetOriginAttributes
 (
 aChannel
@@ -1546,7 +1546,6 @@ attrs
 true
 )
 ;
-}
 bool
 isSafeTopLevelNav
 =
