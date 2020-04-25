@@ -148,7 +148,6 @@ awsy
 -
 test
 browsertime
-buildsymbols
 cargo
 check
 -
@@ -156,7 +155,6 @@ spidermonkey
 clang
 -
 format
-compileflags
 cppunittest
 cramtest
 crashtest
@@ -165,10 +163,6 @@ devtools
 css
 -
 db
-doctor
-empty
--
-makefiles
 file
 -
 info
@@ -188,7 +182,6 @@ gradle
 gtest
 hazards
 ide
-install
 jsapi
 -
 tests
@@ -201,16 +194,7 @@ marionette
 -
 test
 mochitest
-mozbuild
--
-reference
 mozharness
-package
-package
--
-multi
--
-locale
 pastebin
 power
 prettier
@@ -238,11 +222,7 @@ resource
 -
 usage
 robocop
-run
 rusttests
-show
--
-log
 static
 -
 analysis
@@ -277,9 +257,6 @@ valgrind
 -
 test
 visualmetrics
-warnings
--
-list
 web
 -
 platform
