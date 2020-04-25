@@ -3539,6 +3539,9 @@ if
 (
 !
 isGeckoView
+&
+&
+newTabPerCycle
 )
 {
 await
