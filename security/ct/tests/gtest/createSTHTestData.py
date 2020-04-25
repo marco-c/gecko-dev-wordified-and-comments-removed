@@ -597,23 +597,21 @@ length
 )
     
 return
-binascii
-.
-hexlify
+bytes
 (
-chr
-(
+[
 length
 /
+/
 256
-)
-+
-chr
-(
 length
 %
 256
+]
 )
+.
+hex
+(
 )
 def
 createSTH
@@ -919,10 +917,6 @@ signature
     
 spkiHex
 =
-binascii
-.
-hexlify
-(
 encoder
 .
 encode
@@ -933,6 +927,9 @@ asSubjectPublicKeyInfo
 (
 )
 )
+.
+hex
+(
 )
     
 return

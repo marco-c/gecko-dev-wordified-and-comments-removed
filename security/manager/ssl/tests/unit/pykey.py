@@ -232,22 +232,20 @@ from
 pyasn1_modules
 import
 rfc2459
-from
-ecc
-import
-encoding
-from
-ecc
-import
-Key
 import
 base64
 import
 binascii
 import
-mock
+ecdsa
+import
+hashlib
+import
+math
 import
 rsa
+import
+six
 import
 sys
 HASH_MD5
@@ -285,6 +283,146 @@ hash
 :
 sha512
 '
+def
+_gen_k
+(
+curve
+)
+:
+    
+num_bytes
+=
+int
+(
+math
+.
+log
+(
+curve
+.
+order
+-
+1
+2
+)
++
+1
+)
+/
+/
+8
++
+8
+    
+entropy
+=
+int
+.
+from_bytes
+(
+b
+'
+\
+04
+'
+*
+num_bytes
+byteorder
+=
+'
+big
+'
+)
+    
+p
+=
+curve
+.
+curve
+.
+p
+(
+)
+    
+return
+(
+entropy
+%
+(
+p
+-
+1
+)
+)
++
+1
+def
+_truncate_digest
+(
+digest
+curve
+)
+:
+    
+i
+=
+int
+.
+from_bytes
+(
+digest
+byteorder
+=
+'
+big
+'
+)
+    
+p
+=
+curve
+.
+curve
+.
+p
+(
+)
+    
+while
+i
+>
+p
+:
+        
+i
+>
+>
+=
+1
+    
+return
+i
+.
+to_bytes
+(
+math
+.
+ceil
+(
+i
+.
+bit_length
+(
+)
+/
+8
+)
+byteorder
+=
+'
+big
+'
+)
 def
 byteStringToHexifiedBitString
 (
@@ -367,11 +505,15 @@ s
 H
 "
 %
-binascii
+six
 .
-hexlify
+ensure_binary
 (
 string
+)
+.
+hex
+(
 )
 class
 UnknownBaseError
@@ -1133,7 +1275,7 @@ object
     
 sharedRSA_N
 =
-long
+int
 (
         
 '
@@ -1176,11 +1318,11 @@ fe4923fa7251c431d503acda180a35ed8d
     
 sharedRSA_E
 =
-65537L
+65537
     
 sharedRSA_D
 =
-long
+int
 (
         
 '
@@ -1223,7 +1365,7 @@ f4db6603585be9ae0ca3b8e6417aa04b06e470ea1a3b581ca03a6781c931
     
 sharedRSA_P
 =
-long
+int
 (
         
 '
@@ -1250,7 +1392,7 @@ d5e07c1a90f5ce0879de131371ecefc9ce72e9c43dc127d238190de81177
     
 sharedRSA_Q
 =
-long
+int
 (
         
 '
@@ -1277,7 +1419,7 @@ long
     
 sharedRSA_exp1
 =
-long
+int
 (
         
 '
@@ -1304,7 +1446,7 @@ f6ae572a30b1ea309a8712dd4e33241db1ee455fc093f5bc9b592d756e66
     
 sharedRSA_exp2
 =
-long
+int
 (
         
 '
@@ -1331,7 +1473,7 @@ aa4a0665ac25364da20154032e1204b8559d3e34fb5b177c9a56ff93510a
     
 sharedRSA_coef
 =
-long
+int
 (
         
 '
@@ -1358,7 +1500,7 @@ cd2692cfc9e44c51e6f069c735e073ba019f6a7214961c91b26871caeabf
     
 alternateRSA_N
 =
-long
+int
 (
         
 '
@@ -1401,11 +1543,11 @@ a69cd28375131f932b128ce286fa7d251c062ad27ef016f187cdd54e832b
     
 alternateRSA_E
 =
-65537L
+65537
     
 alternateRSA_D
 =
-long
+int
 (
         
 '
@@ -1448,7 +1590,7 @@ b58015af05e1af15c747603ef7f27d03a6ff049d96bbf854c1e4e50ef5b0
     
 alternateRSA_P
 =
-long
+int
 (
         
 '
@@ -1475,7 +1617,7 @@ long
     
 alternateRSA_Q
 =
-long
+int
 (
         
 '
@@ -1502,7 +1644,7 @@ fe764c1967b3e8cadb
     
 alternateRSA_exp1
 =
-long
+int
 (
         
 '
@@ -1529,7 +1671,7 @@ c4d0df278f80c1b6e859d8456adb137defaa9f1f0ac5bac9a9184fd4ea27
     
 alternateRSA_exp2
 =
-long
+int
 (
         
 '
@@ -1556,7 +1698,7 @@ cf01319a6f9bb26b7ca23d3017fc551cd8da8afdd17f6fa2e30d34868798
     
 alternateRSA_coef
 =
-long
+int
 (
         
 '
@@ -1583,7 +1725,7 @@ long
     
 evRSA_N
 =
-long
+int
 (
         
 '
@@ -1626,11 +1768,11 @@ ba49e8aaa981e960e27d87480bdd55dd9417fa18509fbb554ccf81a4397e
     
 evRSA_E
 =
-65537L
+65537
     
 evRSA_D
 =
-long
+int
 (
         
 '
@@ -1673,7 +1815,7 @@ fda0a990be524f5614eac4fdb34a52f951
     
 evRSA_P
 =
-long
+int
 (
         
 '
@@ -1700,7 +1842,7 @@ fda48a9b0ff39d95bc88b15267c8ade97b5107948e41e433249d87f7db10
     
 evRSA_Q
 =
-long
+int
 (
         
 '
@@ -1727,7 +1869,7 @@ a2a76dd5ac284dc883
     
 evRSA_exp1
 =
-long
+int
 (
         
 '
@@ -1754,7 +1896,7 @@ db7033026508db6285
     
 evRSA_exp2
 =
-long
+int
 (
         
 '
@@ -1781,7 +1923,7 @@ a959e07d4996956d95e22b57938b6e47c8d51ffedfc9bf888ce0d1a3e42b
     
 evRSA_coef
 =
-long
+int
 (
         
 '
@@ -1808,7 +1950,7 @@ fe9295d16e8c25c916
     
 evRSA2040_N
 =
-long
+int
 (
         
 '
@@ -1851,11 +1993,11 @@ b1cf5cc3e73e31b7bbefa160e6862ebb
     
 evRSA2040_E
 =
-65537L
+65537
     
 evRSA2040_D
 =
-long
+int
 (
         
 '
@@ -1898,7 +2040,7 @@ f24aef4ed6f149f94d96c9f7d78e647fc778a9017ff208d3b4a1768b1821
     
 evRSA2040_P
 =
-long
+int
 (
         
 '
@@ -1925,7 +2067,7 @@ long
     
 evRSA2040_Q
 =
-long
+int
 (
         
 '
@@ -1952,7 +2094,7 @@ c2423d328d5265a5
     
 evRSA2040_exp1
 =
-long
+int
 (
         
 '
@@ -1979,7 +2121,7 @@ ff7f6b90b9dbd5fb
     
 evRSA2040_exp2
 =
-long
+int
 (
         
 '
@@ -2006,7 +2148,7 @@ long
     
 evRSA2040_coef
 =
-long
+int
 (
         
 '
@@ -2033,7 +2175,7 @@ c0ca62c628023e09e37dc0a901e4ce1224180e2582a3aa4b6a1a7b98e2bd
     
 rsa2040_N
 =
-long
+int
 (
         
 '
@@ -2076,11 +2218,11 @@ d84f3ca024d6fbb9b005b9651ce5d9f2ecf40ed404981a9ffc02636e311b
     
 rsa2040_E
 =
-65537L
+65537
     
 rsa2040_D
 =
-long
+int
 (
         
 '
@@ -2123,7 +2265,7 @@ b20f0b4dade172bee19f26f0dcbe41
     
 rsa2040_P
 =
-long
+int
 (
         
 '
@@ -2150,7 +2292,7 @@ ece1179be12ff3e467d606fc820ea8f07ac9ebffe2236e38168412028822
     
 rsa2040_Q
 =
-long
+int
 (
         
 '
@@ -2177,7 +2319,7 @@ b7da8574b72235b1
     
 rsa2040_exp1
 =
-long
+int
 (
         
 '
@@ -2204,7 +2346,7 @@ long
     
 rsa2040_exp2
 =
-long
+int
 (
         
 '
@@ -2231,7 +2373,7 @@ c22577f6c2f790406f3472adb3b211b7e94494f32c5c6fcc0978839fe472
     
 rsa2040_coef
 =
-long
+int
 (
         
 '
@@ -2258,7 +2400,7 @@ fba2e5a67c05f375
     
 rsa1024_N
 =
-long
+int
 (
         
 '
@@ -2285,11 +2427,11 @@ a94cbc0d9c31d66c0c013bce9c82d0d480328df05fb6bcd7990a5312ddae
     
 rsa1024_E
 =
-65537L
+65537
     
 rsa1024_D
 =
-long
+int
 (
         
 '
@@ -2316,7 +2458,7 @@ d7e47aff2f82699d
     
 rsa1024_P
 =
-long
+int
 (
         
 '
@@ -2335,7 +2477,7 @@ ca71058febdf76d702970ad6579d80ac2f9521075e40ef8f3f39983bd819
     
 rsa1024_Q
 =
-long
+int
 (
         
 '
@@ -2354,7 +2496,7 @@ c5885f7897
     
 rsa1024_exp1
 =
-long
+int
 (
         
 '
@@ -2373,7 +2515,7 @@ c694ff1e9d25d9193d47789b52bb0fa194de1af0b77c09007f12afdfeef9
     
 rsa1024_exp2
 =
-long
+int
 (
         
 '
@@ -2392,7 +2534,7 @@ long
     
 rsa1024_coef
 =
-long
+int
 (
         
 '
@@ -2411,7 +2553,7 @@ ff8cb2cb
     
 rsa1016_N
 =
-long
+int
 (
         
 '
@@ -2438,11 +2580,11 @@ dd0e55d7369a5bdd
     
 rsa1016_E
 =
-65537L
+65537
     
 rsa1016_D
 =
-long
+int
 (
         
 '
@@ -2469,7 +2611,7 @@ f3bf0910951901
     
 rsa1016_P
 =
-long
+int
 (
         
 '
@@ -2488,7 +2630,7 @@ b183ba55
     
 rsa1016_Q
 =
-long
+int
 (
         
 '
@@ -2507,7 +2649,7 @@ aac782611a2c81d9b635cf78c40018859e018c5e9006d12e3d2ee6f346e7
     
 rsa1016_exp1
 =
-long
+int
 (
         
 '
@@ -2526,7 +2668,7 @@ dc5b672a532221b3d8900c9a9d99b9d0a4e102dc450ca1b87b0b1389de65
     
 rsa1016_exp2
 =
-long
+int
 (
         
 '
@@ -2545,7 +2687,7 @@ d895b8c9
     
 rsa1016_coef
 =
-long
+int
 (
         
 '
@@ -3336,11 +3478,16 @@ toDER
         
 b64
 =
+six
+.
+ensure_text
+(
 base64
 .
 b64encode
 (
 der
+)
 )
         
 while
@@ -3836,43 +3983,6 @@ ObjectIdentifier
 35
 '
 )
-secp256k1Params
-=
-(
-long
-(
-'
-fffffffffffffffffffffffffffffffffffffffffffffffffffffffefffffc2f
-'
-16
-)
-                   
-long
-(
-'
-fffffffffffffffffffffffffffffffebaaedce6af48a03bbfd25e8cd0364141
-'
-16
-)
-                   
-7
-                   
-long
-(
-'
-79be667ef9dcbbac55a06295ce870b07029bfcdb2dce28d959f2815b16f81798
-'
-16
-)
-                   
-long
-(
-'
-483ada7726a3c4655da4fbfc0e1108a8fd17b448a68554199c47d08ffb10d4b8
-'
-16
-)
-)
 def
 longToEvenLengthHexString
 (
@@ -3913,20 +4023,6 @@ h
     
 return
 h
-def
-notRandom
-(
-n
-)
-:
-    
-return
-n
-*
-'
-\
-x04
-'
 class
 ECCKey
 (
@@ -3934,132 +4030,118 @@ object
 )
 :
     
-secp256k1Encoded
+secp256k1KeyPair
 =
-str
 (
+        
 '
-08fd87b04fba98090100004035ee7c7289d8fef7a8
+35ee7c7289d8fef7a86afe5da66d8bc2ebb6a8543fd2fead089f45ce7acd0fa6
 '
-                           
++
+        
 '
-6afe5da66d8bc2ebb6a8543fd2fead089f45ce7acd0fa64382a9500c41dad
+4382a9500c41dad770ffd4b511bf4b492eb1238800c32c4f76c73a3f3294e7c5
 '
-                           
+        
 '
-770ffd4b511bf4b492eb1238800c32c4f76c73a3f3294e7c5002067cebc20
-'
-                           
-'
-8a5fa3df16ec2bb34acc59a42ab4abb0538575ca99b92b6a2149a04f
+67cebc208a5fa3df16ec2bb34acc59a42ab4abb0538575ca99b92b6a2149a04f
 '
 )
     
-secp224r1Encoded
+secp224r1KeyPair
 =
-str
 (
+        
 '
-0ee5587c4d18526f00e00038668d72cca6fd6a1b35
+668d72cca6fd6a1b3557b5366104d84408ecb637f08e8c86bbff82cc
 '
-                           
++
+        
 '
-57b5366104d84408ecb637f08e8c86bbff82cc00e88f0066d7af63c3298ba
+00e88f0066d7af63c3298ba377348a1202b03b37fd6b1ff415aa311e
 '
-                           
+        
 '
-377348a1202b03b37fd6b1ff415aa311e001c04389459926c3296c242b83e
-'
-                           
-'
-10a6cd2011c8fe2dae1b772ea5b21067
+04389459926c3296c242b83e10a6cd2011c8fe2dae1b772ea5b21067
 '
 )
     
-secp256r1Encoded
+secp256r1KeyPair
 =
-str
 (
+        
 '
-cb872ac99cd31827010000404fbfbbbb61e0f8f9b1
+4fbfbbbb61e0f8f9b1a60a59ac8704e2ec050b423e3cf72e923f2c4f794b455c
 '
-                           
++
+        
 '
-a60a59ac8704e2ec050b423e3cf72e923f2c4f794b455c2a69d233456c36c
+2a69d233456c36c4119d0706e00eedc8d19390d7991b7b2d07a304eaa04aa6c0
 '
-                           
+        
 '
-4119d0706e00eedc8d19390d7991b7b2d07a304eaa04aa6c000202191403d
-'
-                           
-'
-5710bf15a265818cd42ed6fedf09add92d78b18e7a1e9feb95524702
+2191403d5710bf15a265818cd42ed6fedf09add92d78b18e7a1e9feb95524702
 '
 )
     
-secp384r1Encoded
+secp384r1KeyPair
 =
-str
 (
+        
 '
-d3103f5ac81741e801800060a1687243362b5c7b18
+a1687243362b5c7b1889f379154615a1c73fb48dee863e022915db608e252de4b71
 '
-                           
++
+        
 '
-89f379154615a1c73fb48dee863e022915db608e252de4b7132da8ce98e83
+32da8ce98e831534e6a9c0c0b09c8d639ade83206e5ba813473a11fa330e05da8c9
 '
-                           
++
+        
 '
-1534e6a9c0c0b09c8d639ade83206e5ba813473a11fa330e05da8c96e4383
+6e4383fe27873da97103be2888cff002f05af71a1fddcc8374aa6ea9ce
 '
-                           
+        
 '
-fe27873da97103be2888cff002f05af71a1fddcc8374aa6ea9ce0030035c7
+035c7a1b10d9fafe837b64ad92f22f5ced0789186538669b5c6d872cec3d926122b
 '
-                           
++
+        
 '
-a1b10d9fafe837b64ad92f22f5ced0789186538669b5c6d872cec3d926122
-'
-                           
-'
-b393772b57602ff31365efe1393246
+393772b57602ff31365efe1393246
 '
 )
     
-secp521r1Encoded
+secp521r1KeyPair
 =
-str
 (
+        
 '
-77f4b0ac81948ddc02090084014cdc9cacc4794109
+014cdc9cacc47941096bc9cc66752ec27f597734fa66c62b792f88c519d6d37f0d1
 '
-                           
++
+        
 '
-6bc9cc66752ec27f597734fa66c62b792f88c519d6d37f0d16ea1c483a182
+6ea1c483a1827a010b9128e3a08070ca33ef5f57835b7c1ba251f6cc3521dc42b01
 '
-                           
++
+        
 '
-7a010b9128e3a08070ca33ef5f57835b7c1ba251f6cc3521dc42b01065345
+0653451981b445d343eed3782a35d6cff0ff484f5a883d209f1b9042b726703568b
 '
-                           
++
+        
 '
-1981b445d343eed3782a35d6cff0ff484f5a883d209f1b9042b726703568b
+2f326e18b833bdd8aa0734392bcd19501e10d698a79f53e11e0a22bdd2aad90
 '
-                           
+        
 '
-2f326e18b833bdd8aa0734392bcd19501e10d698a79f53e11e0a22bdd2aad
+014f3284fa698dd9fe1118dd331851cdfaac5a3829278eb8994839de9471c940b85
 '
-                           
++
+        
 '
-900042014f3284fa698dd9fe1118dd331851cdfaac5a3829278eb8994839d
-'
-                           
-'
-e9471c940b858c69d2d05e8c01788a7d0b6e235aa5e783fc1bee807dcc386
-'
-                           
-'
-5f920e12cf8f2d29
+8c69d2d05e8c01788a7d0b6e235aa5e783fc1bee807dcc3865f920e12cf8f2d29
 '
 )
     
@@ -4068,8 +4150,6 @@ __init__
 (
 self
 specification
-=
-None
 )
 :
         
@@ -4082,31 +4162,25 @@ secp256k1
 '
 :
             
-self
-.
-key
+key_pair
 =
-Key
-.
-Key
-.
-decode
-(
-binascii
-.
-unhexlify
-(
 self
 .
-secp256k1Encoded
-)
-)
+secp256k1KeyPair
             
 self
 .
 keyOID
 =
 secp256k1
+            
+self
+.
+curve
+=
+ecdsa
+.
+SECP256k1
         
 elif
 specification
@@ -4117,31 +4191,25 @@ secp224r1
 '
 :
             
-self
-.
-key
+key_pair
 =
-Key
-.
-Key
-.
-decode
-(
-binascii
-.
-unhexlify
-(
 self
 .
-secp224r1Encoded
-)
-)
+secp224r1KeyPair
             
 self
 .
 keyOID
 =
 secp224r1
+            
+self
+.
+curve
+=
+ecdsa
+.
+NIST224p
         
 elif
 specification
@@ -4152,31 +4220,25 @@ secp256r1
 '
 :
             
-self
-.
-key
+key_pair
 =
-Key
-.
-Key
-.
-decode
-(
-binascii
-.
-unhexlify
-(
 self
 .
-secp256r1Encoded
-)
-)
+secp256r1KeyPair
             
 self
 .
 keyOID
 =
 secp256r1
+            
+self
+.
+curve
+=
+ecdsa
+.
+NIST256p
         
 elif
 specification
@@ -4187,31 +4249,25 @@ secp384r1
 '
 :
             
-self
-.
-key
+key_pair
 =
-Key
-.
-Key
-.
-decode
-(
-binascii
-.
-unhexlify
-(
 self
 .
-secp384r1Encoded
-)
-)
+secp384r1KeyPair
             
 self
 .
 keyOID
 =
 secp384r1
+            
+self
+.
+curve
+=
+ecdsa
+.
+NIST384p
         
 elif
 specification
@@ -4222,31 +4278,25 @@ secp521r1
 '
 :
             
-self
-.
-key
+key_pair
 =
-Key
-.
-Key
-.
-decode
-(
-binascii
-.
-unhexlify
-(
 self
 .
-secp521r1Encoded
-)
-)
+secp521r1KeyPair
             
 self
 .
 keyOID
 =
 secp521r1
+            
+self
+.
+curve
+=
+ecdsa
+.
+NIST521p
         
 else
 :
@@ -4255,6 +4305,55 @@ raise
 UnknownKeySpecificationError
 (
 specification
+)
+        
+self
+.
+public_key
+self
+.
+private_key
+=
+(
+binascii
+.
+unhexlify
+(
+key_pair
+[
+0
+]
+)
+                                             
+binascii
+.
+unhexlify
+(
+key_pair
+[
+1
+]
+)
+)
+        
+self
+.
+key
+=
+ecdsa
+.
+SigningKey
+.
+from_string
+(
+self
+.
+private_key
+curve
+=
+self
+.
+curve
 )
     
 def
@@ -4312,78 +4411,81 @@ type
 "
 "
         
-encoded
+p1
+p2
 =
+(
 self
 .
-key
-.
-encode
+public_key
+[
+:
+len
 (
+self
+.
+public_key
+)
+/
+/
+2
+]
+                  
+self
+.
+public_key
+[
+len
+(
+self
+.
+public_key
+)
+/
+/
+2
+:
+]
 )
         
-_
-_
-points
+p1
+p2
 =
-encoding
-.
-Decoder
 (
-encoded
+p1
+.
+lstrip
+(
+b
+'
+\
+0
+'
 )
+p2
 .
-int
+lstrip
 (
-8
+b
+'
+\
+0
+'
 )
-.
-int
-(
-2
-)
-.
-point
-(
-2
-)
-.
-out
-(
 )
         
 return
-"
-'
-%
-s
-%
-s
-%
-s
-'
-H
-"
-%
+byteStringToHexifiedBitString
 (
+b
 '
+\
 04
 '
-longToEvenLengthHexString
-(
-points
-[
-0
-]
-)
-                              
-longToEvenLengthHexString
-(
-points
-[
-1
-]
-)
++
+p1
++
+p2
 )
     
 def
@@ -4440,11 +4542,16 @@ toDER
         
 b64
 =
+six
+.
+ensure_text
+(
 base64
 .
 b64encode
 (
 der
+)
 )
         
 while
@@ -4607,23 +4714,9 @@ privateKey
 '
 ]
 =
-binascii
-.
-unhexlify
-(
-longToEvenLengthHexString
-(
-                                                        
 self
 .
-key
-.
-_priv
-[
-1
-]
-)
-)
+private_key
         
 ecPrivateKey
 [
@@ -4636,18 +4729,17 @@ univ
 .
 BitString
 (
-                                        
+            
 self
 .
 getPublicKeyHexifiedString
 (
 )
-                                                  
 )
 .
 subtype
 (
-                                        
+                
 explicitTag
 =
 tag
@@ -4657,13 +4749,12 @@ Tag
 tag
 .
 tagClassContext
-                                                            
+                                    
 tag
 .
 tagFormatSimple
 1
 )
-                                                           
 )
         
 ecPrivateKeyEncoded
@@ -4855,98 +4946,88 @@ them
 "
 "
         
-with
-mock
+assert
+hashAlgorithm
 .
-patch
+startswith
 (
 '
-ecc
+hash
+:
+'
+)
+        
+hashAlgorithm
+=
+hashAlgorithm
+[
+len
+(
+'
+hash
+:
+'
+)
+:
+]
+        
+k
+=
+_gen_k
+(
+self
 .
+curve
+)
+        
+digest
+=
+hashlib
+.
+new
+(
+hashAlgorithm
+six
+.
+ensure_binary
+(
+data
+)
+)
+.
+digest
+(
+)
+        
+digest
+=
+_truncate_digest
+(
+digest
+self
+.
+curve
+)
+        
+return
+self
+.
+key
+.
+sign_digest
+(
+            
+digest
+sigencode
+=
 ecdsa
 .
-urandom
-'
-side_effect
+util
+.
+sigencode_string
+k
 =
-notRandom
-)
-:
-            
-if
-self
-.
-keyOID
-=
-=
-secp256k1
-:
-                
-with
-mock
-.
-patch
-(
-'
-ecc
-.
-curves
-.
-DOMAINS
-'
-{
-256
-:
-secp256k1Params
-}
-)
-:
-                    
-return
-self
-.
-key
-.
-sign
-(
-data
-hashAlgorithm
-.
-split
-(
-'
-:
-'
-)
-[
--
-1
-]
-)
-            
-else
-:
-                
-return
-self
-.
-key
-.
-sign
-(
-data
-hashAlgorithm
-.
-split
-(
-'
-:
-'
-)
-[
--
-1
-]
+k
 )
     
 def
@@ -4994,20 +5075,14 @@ BitString
 "
 "
         
-x
-y
+raw
 =
-encoding
-.
-dec_point
-(
 self
 .
 signRaw
 (
 data
 hashAlgorithm
-)
 )
         
 point
@@ -5023,7 +5098,27 @@ x
 '
 ]
 =
-x
+int
+.
+from_bytes
+(
+raw
+[
+:
+len
+(
+raw
+)
+/
+/
+2
+]
+byteorder
+=
+'
+big
+'
+)
         
 point
 [
@@ -5032,7 +5127,27 @@ y
 '
 ]
 =
-y
+int
+.
+from_bytes
+(
+raw
+[
+len
+(
+raw
+)
+/
+/
+2
+:
+]
+byteorder
+=
+'
+big
+'
+)
         
 return
 byteStringToHexifiedBitString
@@ -5146,6 +5261,7 @@ __main__
 :
     
 print
+(
 keyFromSpecification
 (
 sys
@@ -5163,4 +5279,5 @@ strip
 .
 toPEM
 (
+)
 )

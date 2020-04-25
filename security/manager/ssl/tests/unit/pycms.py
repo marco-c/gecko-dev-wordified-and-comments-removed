@@ -167,9 +167,11 @@ import
 rfc2315
 rfc2459
 import
-StringIO
-import
 base64
+from
+io
+import
+StringIO
 import
 pycert
 import
@@ -320,8 +322,6 @@ sha256
 signerSpecification
 =
 StringIO
-.
-StringIO
 (
 )
         
@@ -344,13 +344,15 @@ readingSignerSpecification
 :
                 
 print
->
->
-signerSpecification
+(
 line
 .
 strip
 (
+)
+file
+=
+signerSpecification
 )
             
 elif

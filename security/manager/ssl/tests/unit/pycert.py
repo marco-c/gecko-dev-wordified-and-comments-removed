@@ -753,6 +753,8 @@ re
 import
 socket
 import
+six
+import
 sys
 import
 pyct
@@ -2059,14 +2061,20 @@ nameComponent
 encoding
 ]
 =
+six
+.
+ensure_binary
+(
 value
+)
 .
 decode
 (
+                
 encoding
 =
 '
-string_escape
+unicode_escape
 '
 )
         
@@ -2624,18 +2632,8 @@ serialBytesLen
 serialBytes
     
 return
-'
-'
-.
-join
+bytes
 (
-chr
-(
-b
-)
-for
-b
-in
 stringBytes
 )
 class
@@ -2921,6 +2919,10 @@ hasher
 .
 update
 (
+six
+.
+ensure_binary
+(
 str
 (
 self
@@ -2928,28 +2930,43 @@ self
 versionValue
 )
 )
+)
         
 hasher
 .
 update
+(
+six
+.
+ensure_binary
 (
 self
 .
 signature
 )
-        
-hasher
-.
-update
-(
-self
-.
-issuer
 )
         
 hasher
 .
 update
+(
+six
+.
+ensure_binary
+(
+self
+.
+issuer
+)
+)
+        
+hasher
+.
+update
+(
+six
+.
+ensure_binary
 (
 str
 (
@@ -2958,10 +2975,15 @@ self
 notBefore
 )
 )
+)
         
 hasher
 .
 update
+(
+six
+.
+ensure_binary
 (
 str
 (
@@ -2970,14 +2992,20 @@ self
 notAfter
 )
 )
+)
         
 hasher
 .
 update
 (
+six
+.
+ensure_binary
+(
 self
 .
 subject
+)
 )
         
 if
@@ -2998,7 +3026,12 @@ hasher
 .
 update
 (
+six
+.
+ensure_binary
+(
 extensionLine
+)
 )
         
 if
@@ -3011,12 +3044,17 @@ hasher
 .
 update
 (
+six
+.
+ensure_binary
+(
 self
 .
 savedEmbeddedSCTListData
 [
 0
 ]
+)
 )
             
 if
@@ -3034,6 +3072,11 @@ hasher
 .
 update
 (
+                    
+six
+.
+ensure_binary
+(
 self
 .
 savedEmbeddedSCTListData
@@ -3041,14 +3084,12 @@ savedEmbeddedSCTListData
 1
 ]
 )
+)
         
 serialBytes
 =
 [
-ord
-(
 c
-)
 for
 c
 in
@@ -4469,14 +4510,17 @@ dNSName
 '
 ]
 =
+six
+.
+ensure_binary
+(
 name
+)
 .
 decode
 (
-encoding
-=
 '
-string_escape
+unicode_escape
 '
 )
             
@@ -5043,9 +5087,13 @@ Sequence
 )
         
 for
+pos
 feature
 in
+enumerate
+(
 featureList
+)
 :
             
 featureValue
@@ -5090,11 +5138,7 @@ sequence
 .
 setComponentByPosition
 (
-len
-(
-sequence
-)
-                                            
+pos
 univ
 .
 Integer
@@ -5310,8 +5354,9 @@ signed
         
 encodedSCTBytes
 =
-"
-"
+b
+'
+'
 .
 join
 (
@@ -5840,11 +5885,16 @@ toDER
         
 b64
 =
+six
+.
+ensure_text
+(
 base64
 .
 b64encode
 (
 der
+)
 )
         
 while
