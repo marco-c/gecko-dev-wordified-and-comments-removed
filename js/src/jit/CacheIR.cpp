@@ -7845,9 +7845,9 @@ writer
 loadTypedObjectResult
 (
 objId
-fieldOffset
 layout
 typeDescr
+fieldOffset
 )
 ;
 bool

@@ -2206,6 +2206,9 @@ LoadFixedSlotResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2221,6 +2224,9 @@ LoadDynamicSlotResult
 shared
 :
 false
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2234,6 +2240,9 @@ name
 :
 LoadTypedObjectResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2257,6 +2266,9 @@ LoadDenseElementResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2270,6 +2282,9 @@ name
 :
 LoadDenseElementHoleResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2287,6 +2302,9 @@ CallGetSparseElementResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2302,6 +2320,9 @@ LoadDenseElementExistsResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2315,6 +2336,9 @@ name
 :
 LoadTypedElementExistsResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2335,6 +2359,9 @@ LoadDenseElementHoleExistsResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2348,6 +2375,9 @@ name
 :
 LoadTypedElementResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
