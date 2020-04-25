@@ -79,15 +79,6 @@ use
 std
 :
 :
-error
-:
-:
-Error
-;
-use
-std
-:
-:
 io
 :
 :
@@ -1587,10 +1578,6 @@ println
 }
 "
 e
-.
-description
-(
-)
 )
 ;
 assert
