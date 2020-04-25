@@ -297,6 +297,15 @@ aAllocator
 totalLen
 )
 ;
+if
+(
+!
+ptr
+)
+{
+return
+;
+}
 for
 (
 size_t
