@@ -5804,6 +5804,14 @@ newLoadFlags
 )
 )
 ;
+newLoadFlags
+|
+=
+nsIChannel
+:
+:
+LOAD_DOCUMENT_URI
+;
 if
 (
 !
