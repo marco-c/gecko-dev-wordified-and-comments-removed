@@ -80,6 +80,9 @@ dom
 class
 BrowsingContext
 ;
+class
+ContentParent
+;
 }
 class
 ContentBlocking
@@ -281,6 +284,13 @@ privacy_restrict3rdpartystorage_expiration
 ;
 private
 :
+friend
+class
+dom
+:
+:
+ContentParent
+;
 static
 MOZ_MUST_USE
 RefPtr
