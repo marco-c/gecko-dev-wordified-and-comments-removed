@@ -362,13 +362,16 @@ use
 fallible
 :
 :
+{
+FallibleHashMap
 FallibleVec
+}
 ;
 use
-hashglobe
+hashbrown
 :
 :
-FailedAllocationError
+CollectionAllocErr
 ;
 use
 malloc_size_of
@@ -700,7 +703,7 @@ Arc
 <
 UserAgentCascadeData
 >
-FailedAllocationError
+CollectionAllocErr
 >
 where
 I
@@ -1536,7 +1539,7 @@ Result
 <
 (
 )
-FailedAllocationError
+CollectionAllocErr
 >
 where
 S
@@ -7417,7 +7420,7 @@ Result
 <
 (
 )
-FailedAllocationError
+CollectionAllocErr
 >
 where
 S
@@ -8071,7 +8074,7 @@ Result
 <
 (
 )
-FailedAllocationError
+CollectionAllocErr
 >
 where
 S

@@ -7469,6 +7469,9 @@ dependencies
 =
 [
 "
+hashbrown
+"
+"
 hashglobe
 "
 "
@@ -14500,6 +14503,9 @@ cssparser
 "
 "
 euclid
+"
+"
+hashbrown
 "
 "
 hashglobe

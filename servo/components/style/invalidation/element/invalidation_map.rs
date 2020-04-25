@@ -58,10 +58,10 @@ fallible
 FallibleVec
 ;
 use
-hashglobe
+hashbrown
 :
 :
-FailedAllocationError
+CollectionAllocErr
 ;
 use
 selectors
@@ -890,7 +890,7 @@ Result
 <
 (
 )
-FailedAllocationError
+CollectionAllocErr
 >
 {
 debug

@@ -109,7 +109,7 @@ gecko_string_cache
 ;
 extern
 crate
-hashglobe
+hashbrown
 ;
 #
 [
