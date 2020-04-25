@@ -78,6 +78,15 @@ components
 \
 ]
 /
+"
+.
+.
+/
+.
+.
+/
+shared
+"
 ]
 presets
 :
