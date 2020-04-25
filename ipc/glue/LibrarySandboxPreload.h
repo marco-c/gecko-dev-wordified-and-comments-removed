@@ -15,11 +15,6 @@ GetSandboxedGraphitePath
 (
 )
 ;
-nsAutoCString
-GetSandboxedOggPath
-(
-)
-;
 void
 PreloadSandboxedDynamicLibraries
 (
