@@ -187,13 +187,6 @@ Mutex
 .
 h
 "
-#
-include
-"
-nsIProcessSwitchRequestor
-.
-h
-"
 class
 nsDNSPrefetch
 ;
@@ -305,8 +298,6 @@ public
 nsIRequestTailUnblockCallback
 public
 nsITimerCallback
-public
-nsIProcessSwitchRequestor
 {
 public
 :
@@ -333,7 +324,6 @@ NS_HTTPCHANNEL_IID
 NS_DECL_NSIRACECACHEWITHNETWORK
 NS_DECL_NSITIMERCALLBACK
 NS_DECL_NSIREQUESTTAILUNBLOCKCALLBACK
-NS_DECL_NSIPROCESSSWITCHREQUESTOR
 NS_IMETHOD
 GetIsSSL
 (
@@ -2325,6 +2315,15 @@ ComputeCrossOriginOpenerPolicyMismatch
 (
 )
 ;
+bool
+HasCrossOriginOpenerPolicyMismatch
+(
+)
+{
+return
+mHasCrossOriginOpenerPolicyMismatch
+;
+}
 [
 [
 nodiscard
