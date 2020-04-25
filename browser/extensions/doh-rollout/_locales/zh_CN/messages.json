@@ -79,7 +79,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -89,7 +89,6 @@ message
 :
 "
 Firefox
-CloudFlare
 DNS
 "
 "

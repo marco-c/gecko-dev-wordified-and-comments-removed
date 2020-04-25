@@ -98,7 +98,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -127,10 +127,7 @@ glichkeit
 sicher
 an
 einen
-von
-Cloudflare
-bereitgestellten
-Dienst
+Partnerdienst
 weiter
 um
 Sie

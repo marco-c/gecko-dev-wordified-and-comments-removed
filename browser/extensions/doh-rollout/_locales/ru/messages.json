@@ -79,7 +79,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -92,7 +92,6 @@ message
 Firefox
 DNS
 -
-Cloudflare
 -
 .
 "

@@ -100,7 +100,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -143,7 +143,8 @@ un
 service
 fourni
 par
-Cloudflare
+un
+partenaire
 pour
 vous
 prot

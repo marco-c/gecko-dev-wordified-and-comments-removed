@@ -96,7 +96,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -120,10 +120,8 @@ whenever
 possible
 to
 a
+partner
 service
-provided
-by
-Cloudflare
 to
 protect
 you

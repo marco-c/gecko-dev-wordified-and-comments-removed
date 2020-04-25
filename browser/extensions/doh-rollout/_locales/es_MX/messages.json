@@ -95,7 +95,7 @@ DoH
 "
 }
 "
-doorhangerBody
+doorhangerBodyNew
 "
 :
 {
@@ -106,8 +106,7 @@ message
 "
 Tu
 privacidad
-es
-importante
+importa
 .
 Firefox
 ahora
@@ -126,13 +125,11 @@ posible
 a
 un
 servicio
-proporcionado
-por
-Cloudflare
+asociado
 para
-protegerlo
+protegerte
 mientras
-navega
+navegas
 .
 "
 "
