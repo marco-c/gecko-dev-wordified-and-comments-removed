@@ -772,6 +772,11 @@ className
 :
 "
 worker
+js
+-
+sw
+-
+worker
 "
 }
 dl
