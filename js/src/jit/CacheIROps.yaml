@@ -2833,6 +2833,9 @@ LoadInstanceOfObjectResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2848,6 +2851,9 @@ LoadTypeOfObjectResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 obj
@@ -2858,6 +2864,9 @@ name
 :
 DoubleAddResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2875,6 +2884,9 @@ DoubleSubResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2888,6 +2900,9 @@ name
 :
 DoubleMulResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -2905,6 +2920,9 @@ DoubleDivResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2920,6 +2938,9 @@ DoubleModResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -2933,6 +2954,9 @@ name
 :
 DoublePowResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3058,6 +3082,9 @@ BigIntAddResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3071,6 +3098,9 @@ name
 :
 BigIntSubResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3088,6 +3118,9 @@ BigIntMulResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3101,6 +3134,9 @@ name
 :
 BigIntDivResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3118,6 +3154,9 @@ BigIntModResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3131,6 +3170,9 @@ name
 :
 BigIntPowResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3274,6 +3316,9 @@ BigIntBitOrResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3287,6 +3332,9 @@ name
 :
 BigIntBitXorResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3304,6 +3352,9 @@ BigIntBitAndResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3317,6 +3368,9 @@ name
 :
 BigIntLeftShiftResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3334,6 +3388,9 @@ BigIntRightShiftResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 lhs
@@ -3349,6 +3406,9 @@ BigIntNotResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3359,6 +3419,9 @@ name
 :
 Int32NegationResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3373,6 +3436,9 @@ DoubleNegationResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3383,6 +3449,9 @@ name
 :
 BigIntNegationResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3397,6 +3466,9 @@ Int32IncResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3407,6 +3479,9 @@ name
 :
 Int32DecResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3421,6 +3496,9 @@ DoubleIncResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3431,6 +3509,9 @@ name
 :
 DoubleDecResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands
@@ -3445,6 +3526,9 @@ BigIntIncResult
 shared
 :
 true
+gen_boilerplate
+:
+true
 operands
 :
 input
@@ -3455,6 +3539,9 @@ name
 :
 BigIntDecResult
 shared
+:
+true
+gen_boilerplate
 :
 true
 operands

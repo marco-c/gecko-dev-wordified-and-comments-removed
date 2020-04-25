@@ -2967,6 +2967,10 @@ MOZ_MUST_USE
 bool
 emitBigIntBinaryOperationShared
 (
+BigIntOperandId
+lhsId
+BigIntOperandId
+rhsId
 )
 ;
 template
@@ -2980,6 +2984,8 @@ MOZ_MUST_USE
 bool
 emitBigIntUnaryOperationShared
 (
+BigIntOperandId
+inputId
 )
 ;
 bool
@@ -2987,6 +2993,8 @@ emitDoubleIncDecResult
 (
 bool
 isInc
+NumberOperandId
+inputId
 )
 ;
 #
