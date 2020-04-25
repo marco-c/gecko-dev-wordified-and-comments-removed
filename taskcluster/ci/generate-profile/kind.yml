@@ -807,7 +807,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 -
 win32
 -
@@ -949,7 +949,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 -
 win32
 -

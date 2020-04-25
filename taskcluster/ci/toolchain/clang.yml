@@ -1297,7 +1297,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 :
 toolchain
 -
@@ -1307,7 +1307,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 fetches
 :
 toolchain
@@ -1324,7 +1324,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 :
 -
 artifact
@@ -1767,7 +1767,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 :
 description
 :
@@ -1776,7 +1776,7 @@ Clang
 -
 cl
 toolchain
-1
+2
 -
 stage
 quick
@@ -1792,7 +1792,7 @@ clang
 -
 cl
 -
-1stage
+2stage
 )
 worker
 -
@@ -1845,7 +1845,7 @@ clang
 -
 win64
 -
-1stage
+2stage
 .
 json
 '
@@ -1863,7 +1863,7 @@ clang
 -
 win64
 -
-1stage
+2stage
 .
 json
 '
