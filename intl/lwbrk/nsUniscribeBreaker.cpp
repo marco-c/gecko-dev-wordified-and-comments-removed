@@ -267,7 +267,11 @@ for
 uint32_t
 j
 =
+startOffset
+?
 0
+:
+1
 ;
 j
 +
