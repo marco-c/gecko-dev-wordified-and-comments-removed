@@ -1,0 +1,15 @@
+#
+include
+"
+ir
+.
+h
+"
+void
+do_remove_unused_typedecls
+(
+exec_list
+*
+instructions
+)
+;
