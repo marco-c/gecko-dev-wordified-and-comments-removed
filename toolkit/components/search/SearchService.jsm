@@ -5787,6 +5787,12 @@ _currentPrivateEngine
 =
 null
 ;
+this
+.
+__sortedEngines
+=
+null
+;
 await
 this
 .
