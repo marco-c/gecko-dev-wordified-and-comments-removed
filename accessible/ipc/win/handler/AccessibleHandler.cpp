@@ -496,7 +496,6 @@ CleanupDynamicIA2Data
 mCachedData
 .
 mDynamicData
-false
 )
 ;
 if
@@ -1961,7 +1960,6 @@ CleanupDynamicIA2Data
 mCachedData
 .
 mDynamicData
-false
 )
 ;
 mCachedData

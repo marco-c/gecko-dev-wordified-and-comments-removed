@@ -450,15 +450,6 @@ DynamicIA2Data
 aOutDynamicData
 )
 ;
-static
-void
-CleanupStaticIA2Data
-(
-StaticIA2Data
-&
-aData
-)
-;
 bool
 IsTargetInterfaceCacheable
 (
@@ -598,7 +589,7 @@ IA2Payload
 aPayload
 )
 {
-CleanupStaticIA2Data
+ReleaseStaticIA2DataInterfaces
 (
 aPayload
 -
@@ -612,7 +603,6 @@ aPayload
 -
 >
 mDynamicData
-false
 )
 ;
 delete
