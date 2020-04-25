@@ -2350,7 +2350,7 @@ skiaContent
 4
 0
 -
-2
+7
 )
 test
 -
@@ -6107,18 +6107,6 @@ inflation
 .
 lineThreshold
 100
-)
-fuzzy
--
-if
-(
-geckoview
-0
--
-4
-0
--
-2
 )
 =
 =
