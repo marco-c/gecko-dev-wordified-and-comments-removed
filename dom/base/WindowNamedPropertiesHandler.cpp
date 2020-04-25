@@ -747,7 +747,7 @@ child
 bc
 -
 >
-GetChildren
+Children
 (
 )
 )

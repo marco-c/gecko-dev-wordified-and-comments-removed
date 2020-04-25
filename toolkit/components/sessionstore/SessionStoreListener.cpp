@@ -2244,7 +2244,7 @@ child
 aBrowsingContext
 -
 >
-GetChildren
+Children
 (
 )
 )
@@ -2682,7 +2682,7 @@ child
 aBrowsingContext
 -
 >
-GetChildren
+Children
 (
 )
 )
