@@ -201,6 +201,17 @@ third_party
 /
 python
 /
+ecdsa
+/
+src
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 enum34
 mozilla
 .
