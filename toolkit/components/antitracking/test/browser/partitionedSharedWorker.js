@@ -71,7 +71,6 @@ put
 )
 {
 value
-+
 =
 event
 .
