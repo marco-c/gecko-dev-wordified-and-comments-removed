@@ -8,7 +8,7 @@ identity
 IdentityRecyclerFactory
 ;
 use
-core
+wgc
 :
 :
 {
@@ -26,7 +26,7 @@ pub
 type
 Global
 =
-core
+wgc
 :
 :
 hub
@@ -206,7 +206,7 @@ Global
 desc
 :
 &
-core
+wgc
 :
 :
 instance
@@ -247,7 +247,7 @@ global
 pick_adapter
 (
 desc
-core
+wgc
 :
 :
 instance
@@ -606,7 +606,7 @@ wgt
 BufferAddress
 callback
 :
-core
+wgc
 :
 :
 device
@@ -623,7 +623,7 @@ u8
 let
 operation
 =
-core
+wgc
 :
 :
 resource
@@ -1026,7 +1026,7 @@ CommandEncoderId
 source
 :
 &
-core
+wgc
 :
 :
 command
@@ -1036,7 +1036,7 @@ TextureCopyView
 destination
 :
 &
-core
+wgc
 :
 :
 command
@@ -1095,7 +1095,7 @@ CommandEncoderId
 source
 :
 &
-core
+wgc
 :
 :
 command
@@ -1105,7 +1105,7 @@ BufferCopyView
 destination
 :
 &
-core
+wgc
 :
 :
 command
@@ -1164,7 +1164,7 @@ CommandEncoderId
 source
 :
 &
-core
+wgc
 :
 :
 command
@@ -1174,7 +1174,7 @@ TextureCopyView
 destination
 :
 &
-core
+wgc
 :
 :
 command
@@ -1418,7 +1418,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 binding_model
@@ -1514,7 +1514,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 binding_model
@@ -1610,7 +1610,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 binding_model
@@ -1706,7 +1706,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 pipeline
@@ -1802,7 +1802,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 pipeline
@@ -1898,7 +1898,7 @@ DeviceId
 desc
 :
 &
-core
+wgc
 :
 :
 pipeline

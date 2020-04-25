@@ -1,3 +1,6 @@
+Cargo
+.
+lock
 /
 target
 *
@@ -18,13 +21,5 @@ DS_Store
 vscode
 .
 vs
-build
-ffi
-/
-dawn
-*
-.
-h
-dist
 .
 idea

@@ -307,7 +307,7 @@ webgpu
 ]
 extern
 crate
-wgpu_remote
+wgpu_bindings
 ;
 #
 [

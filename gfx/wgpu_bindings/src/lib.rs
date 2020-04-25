@@ -1,5 +1,5 @@
 use
-core
+wgc
 :
 :
 {
@@ -18,7 +18,7 @@ Backend
 ;
 pub
 use
-core
+wgc
 :
 :
 command
@@ -1328,7 +1328,7 @@ _desc
 Option
 <
 &
-core
+wgc
 :
 :
 command
@@ -1339,7 +1339,7 @@ ComputePassDescriptor
 )
 -
 >
-core
+wgc
 :
 :
 command
@@ -1347,7 +1347,7 @@ command
 :
 RawPass
 {
-core
+wgc
 :
 :
 command
@@ -1376,7 +1376,7 @@ wgpu_compute_pass_destroy
 (
 pass
 :
-core
+wgc
 :
 :
 command
@@ -1417,7 +1417,7 @@ CommandEncoderId
 desc
 :
 &
-core
+wgc
 :
 :
 command
@@ -1427,7 +1427,7 @@ RenderPassDescriptor
 )
 -
 >
-core
+wgc
 :
 :
 command
@@ -1435,7 +1435,7 @@ command
 :
 RawPass
 {
-core
+wgc
 :
 :
 command
@@ -1465,7 +1465,7 @@ wgpu_render_pass_destroy
 (
 pass
 :
-core
+wgc
 :
 :
 command

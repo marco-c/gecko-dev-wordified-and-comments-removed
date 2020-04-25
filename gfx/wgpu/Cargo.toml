@@ -12,16 +12,6 @@ core
 "
 wgpu
 -
-native
-"
-"
-wgpu
--
-remote
-"
-"
-wgpu
--
 types
 "
 ]

@@ -941,9 +941,7 @@ optional
 =
 true
 }
-wgpu
--
-remote
+wgpu_bindings
 =
 {
 path
@@ -963,11 +961,7 @@ path
 /
 gfx
 /
-wgpu
-/
-wgpu
--
-remote
+wgpu_bindings
 "
 optional
 =
@@ -1575,9 +1569,7 @@ webgpu
 =
 [
 "
-wgpu
--
-remote
+wgpu_bindings
 "
 ]
 remote_agent
