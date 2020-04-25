@@ -41,6 +41,9 @@ namespace
 dom
 {
 class
+HTMLImageElement
+;
+class
 ImageDocument
 final
 :
@@ -369,9 +372,9 @@ OnHasTransparency
 (
 )
 ;
-nsCOMPtr
+RefPtr
 <
-Element
+HTMLImageElement
 >
 mImageContent
 ;
