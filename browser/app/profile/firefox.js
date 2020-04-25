@@ -13770,7 +13770,7 @@ Warn
 pref
 (
 "
-browser
+toolkit
 .
 osKeyStore
 .
