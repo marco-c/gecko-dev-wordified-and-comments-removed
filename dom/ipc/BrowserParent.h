@@ -2874,9 +2874,8 @@ globalp
 void
 StartPersistence
 (
-CanonicalBrowsingContext
-*
-aContext
+uint64_t
+aOuterWindowID
 nsIWebBrowserPersistDocumentReceiver
 *
 aRecv

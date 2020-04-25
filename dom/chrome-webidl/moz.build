@@ -239,11 +239,6 @@ Fluent
 webidl
 '
 '
-FrameLoader
-.
-webidl
-'
-'
 HeapSnapshot
 .
 webidl
