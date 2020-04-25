@@ -307,6 +307,8 @@ classic
 global
 /
 tree
+-
+components
 .
 css
 skin
