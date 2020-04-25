@@ -279,10 +279,6 @@ Cache
 Control
 "
 "
-Cache
--
-Control
-:
 max
 -
 age
