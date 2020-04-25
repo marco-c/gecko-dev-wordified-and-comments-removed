@@ -3,7 +3,9 @@ os
 from
 mozperftest
 .
-utils
+browser
+.
+browsertime
 import
 add_options
 add_option
