@@ -2642,6 +2642,13 @@ paths
 )
 :
         
+if
+not
+paths
+:
+            
+return
+        
 args
 =
 [
@@ -2736,6 +2743,13 @@ self
 paths
 )
 :
+        
+if
+not
+paths
+:
+            
+return
         
 self
 .
@@ -3740,6 +3754,13 @@ paths
 )
 :
         
+if
+not
+paths
+:
+            
+return
+        
 self
 .
 _run
@@ -3759,6 +3780,13 @@ self
 paths
 )
 :
+        
+if
+not
+paths
+:
+            
+return
         
 self
 .
