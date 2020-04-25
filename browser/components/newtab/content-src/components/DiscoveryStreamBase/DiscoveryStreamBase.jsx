@@ -1479,6 +1479,15 @@ header
 .
 title
 }
+display_variant
+=
+{
+component
+.
+properties
+.
+display_variant
+}
 data
 =
 {
