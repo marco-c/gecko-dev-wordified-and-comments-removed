@@ -92,7 +92,7 @@ CacheIR
 opcodes
 and
 their
-operands
+arguments
 .
 #
 #
@@ -248,12 +248,8 @@ code
 .
 #
 #
-operands
+args
 #
-=
-=
-=
-=
 =
 =
 =
@@ -261,11 +257,18 @@ operands
 #
 List
 of
-operands
+arguments
+encoded
+in
+the
+bytecode
+stream
 .
 There
 are
 three
+argument
+#
 kinds
 :
 #
@@ -407,7 +410,7 @@ there
 '
 s
 an
-operand
+argument
 named
 '
 result
@@ -436,7 +439,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 input
 :
@@ -448,7 +451,7 @@ GuardIsObjectOrNull
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -460,7 +463,7 @@ GuardIsNullOrUndefined
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -472,7 +475,7 @@ GuardIsNotNullOrUndefined
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -484,7 +487,7 @@ GuardIsNull
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -496,7 +499,7 @@ GuardIsUndefined
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -508,7 +511,7 @@ GuardToBoolean
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -526,7 +529,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 input
 :
@@ -541,7 +544,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 input
 :
@@ -556,7 +559,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 input
 :
@@ -571,7 +574,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 input
 :
@@ -583,7 +586,7 @@ GuardToInt32
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -598,7 +601,7 @@ GuardToInt32Index
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -613,7 +616,7 @@ GuardToTypedArrayIndex
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -628,7 +631,7 @@ GuardToInt32ModUint32
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -643,7 +646,7 @@ GuardToUint8Clamped
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -658,7 +661,7 @@ GuardType
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -673,7 +676,7 @@ GuardShape
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -688,7 +691,7 @@ GuardGroup
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -703,7 +706,7 @@ GuardProto
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -723,7 +726,7 @@ GuardClass
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -745,7 +748,7 @@ GuardAnyClass
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -775,7 +778,7 @@ GuardCompartment
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -793,7 +796,7 @@ GuardIsExtensible
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -805,7 +808,7 @@ GuardIsNativeObject
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -817,7 +820,7 @@ GuardIsProxy
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -829,7 +832,7 @@ GuardHasProxyHandler
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -844,7 +847,7 @@ GuardNotDOMProxy
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -856,7 +859,7 @@ GuardSpecificObject
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -871,7 +874,7 @@ GuardSpecificAtom
 shared
 :
 false
-operands
+args
 :
 str
 :
@@ -886,7 +889,7 @@ GuardSpecificSymbol
 shared
 :
 false
-operands
+args
 :
 sym
 :
@@ -901,7 +904,7 @@ GuardSpecificInt32Immediate
 shared
 :
 true
-operands
+args
 :
 integer
 :
@@ -916,7 +919,7 @@ GuardSpecificNativeFunction
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -931,7 +934,7 @@ GuardMagicValue
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -946,7 +949,7 @@ GuardFrameHasNoArgumentsObject
 shared
 :
 false
-operands
+args
 :
 -
 name
@@ -955,7 +958,7 @@ GuardNoDenseElements
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -967,7 +970,7 @@ GuardAndGetIndexFromString
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -982,7 +985,7 @@ GuardAndGetInt32FromString
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -997,7 +1000,7 @@ GuardAndGetNumberFromString
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -1012,7 +1015,7 @@ GuardAndGetNumberFromBoolean
 shared
 :
 true
-operands
+args
 :
 boolean
 :
@@ -1027,7 +1030,7 @@ GuardAndGetIterator
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1048,7 +1051,7 @@ GuardHasGetterSetter
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1063,7 +1066,7 @@ GuardGroupHasUnanalyzedNewScript
 shared
 :
 true
-operands
+args
 :
 group
 :
@@ -1075,7 +1078,7 @@ GuardIndexIsNonNegative
 shared
 :
 true
-operands
+args
 :
 index
 :
@@ -1087,7 +1090,7 @@ GuardIndexGreaterThanArrayLength
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1102,7 +1105,7 @@ GuardIndexIsValidUpdateOrAdd
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1117,7 +1120,7 @@ GuardIndexGreaterThanDenseInitLength
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1132,7 +1135,7 @@ GuardTagNotEqual
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -1147,7 +1150,7 @@ GuardXrayExpandoShapeAndDefaultProto
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1175,7 +1178,7 @@ GuardFunctionPrototype
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1193,7 +1196,7 @@ GuardNoAllocationMetadataBuilder
 shared
 :
 true
-operands
+args
 :
 -
 name
@@ -1202,7 +1205,7 @@ GuardObjectGroupNotPretenured
 shared
 :
 true
-operands
+args
 :
 group
 :
@@ -1214,7 +1217,7 @@ GuardFunctionHasJitEntry
 shared
 :
 true
-operands
+args
 :
 fun
 :
@@ -1229,7 +1232,7 @@ GuardFunctionIsNative
 shared
 :
 true
-operands
+args
 :
 fun
 :
@@ -1241,7 +1244,7 @@ GuardFunctionIsConstructor
 shared
 :
 true
-operands
+args
 :
 fun
 :
@@ -1253,7 +1256,7 @@ GuardNotClassConstructor
 shared
 :
 true
-operands
+args
 :
 fun
 :
@@ -1265,7 +1268,7 @@ GuardFunApply
 shared
 :
 false
-operands
+args
 :
 argc
 :
@@ -1280,7 +1283,7 @@ LoadObject
 shared
 :
 true
-operands
+args
 :
 result
 :
@@ -1295,7 +1298,7 @@ LoadProto
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1310,7 +1313,7 @@ LoadEnclosingEnvironment
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1325,7 +1328,7 @@ LoadWrapperTarget
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1340,7 +1343,7 @@ LoadValueTag
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -1358,7 +1361,7 @@ false
 custom_writer
 :
 true
-operands
+args
 :
 result
 :
@@ -1376,7 +1379,7 @@ false
 custom_writer
 :
 true
-operands
+args
 :
 result
 :
@@ -1394,7 +1397,7 @@ TruncateDoubleToUInt32
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -1409,7 +1412,7 @@ MegamorphicLoadSlotResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1427,7 +1430,7 @@ MegamorphicLoadSlotByValueResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1445,7 +1448,7 @@ MegamorphicStoreSlot
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1466,7 +1469,7 @@ MegamorphicSetElement
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1487,7 +1490,7 @@ MegamorphicHasPropResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1516,7 +1519,7 @@ LoadDOMExpandoValue
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1531,7 +1534,7 @@ LoadDOMExpandoValueGuardGeneration
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1552,7 +1555,7 @@ LoadDOMExpandoValueIgnoreGeneration
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1567,7 +1570,7 @@ GuardDOMExpandoMissingOrGuardShape
 shared
 :
 false
-operands
+args
 :
 expando
 :
@@ -1582,7 +1585,7 @@ StoreFixedSlot
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1600,7 +1603,7 @@ StoreDynamicSlot
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1618,7 +1621,7 @@ AddAndStoreFixedSlot
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1645,7 +1648,7 @@ AddAndStoreDynamicSlot
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1672,7 +1675,7 @@ AllocateAndStoreDynamicSlot
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1702,7 +1705,7 @@ StoreTypedObjectReferenceProperty
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1726,7 +1729,7 @@ StoreTypedObjectScalarProperty
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1750,7 +1753,7 @@ StoreDenseElement
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1768,7 +1771,7 @@ StoreDenseElementHole
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1789,7 +1792,7 @@ ArrayPush
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1804,7 +1807,7 @@ ArrayJoinResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1816,7 +1819,7 @@ StoreTypedElement
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -1843,7 +1846,7 @@ CallNativeSetter
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1861,7 +1864,7 @@ CallScriptedSetter
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1882,7 +1885,7 @@ CallSetArrayLength
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1900,7 +1903,7 @@ CallProxySet
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1921,7 +1924,7 @@ CallProxySetByValue
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1942,7 +1945,7 @@ CallAddOrUpdateSparseElementHelper
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -1963,7 +1966,7 @@ CallInt32ToString
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -1978,7 +1981,7 @@ CallNumberToString
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -1993,7 +1996,7 @@ BooleanToString
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -2008,7 +2011,7 @@ CallScriptedFunction
 shared
 :
 false
-operands
+args
 :
 callee
 :
@@ -2029,7 +2032,7 @@ false
 custom_writer
 :
 true
-operands
+args
 :
 callee
 :
@@ -2063,7 +2066,7 @@ false
 custom_writer
 :
 true
-operands
+args
 :
 callee
 :
@@ -2099,7 +2102,7 @@ true
 custom_writer
 :
 true
-operands
+args
 :
 kind
 :
@@ -2117,7 +2120,7 @@ LoadFixedSlotResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2132,7 +2135,7 @@ LoadDynamicSlotResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2147,7 +2150,7 @@ LoadTypedObjectResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2168,7 +2171,7 @@ LoadDenseElementResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2183,7 +2186,7 @@ LoadDenseElementHoleResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2198,7 +2201,7 @@ CallGetSparseElementResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2213,7 +2216,7 @@ LoadDenseElementExistsResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2228,7 +2231,7 @@ LoadTypedElementExistsResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2246,7 +2249,7 @@ LoadDenseElementHoleExistsResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2261,7 +2264,7 @@ LoadTypedElementResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2285,7 +2288,7 @@ LoadInt32ArrayLengthResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2297,7 +2300,7 @@ LoadArgumentsObjectArgResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2312,7 +2315,7 @@ LoadArgumentsObjectLengthResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2324,7 +2327,7 @@ LoadFunctionLengthResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2336,7 +2339,7 @@ LoadStringCharResult
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -2351,7 +2354,7 @@ LoadStringLengthResult
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -2363,7 +2366,7 @@ LoadFrameCalleeResult
 shared
 :
 false
-operands
+args
 :
 -
 name
@@ -2372,7 +2375,7 @@ LoadFrameNumActualArgsResult
 shared
 :
 false
-operands
+args
 :
 -
 name
@@ -2381,7 +2384,7 @@ LoadFrameArgumentResult
 shared
 :
 false
-operands
+args
 :
 index
 :
@@ -2393,7 +2396,7 @@ LoadEnvironmentFixedSlotResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2408,7 +2411,7 @@ LoadEnvironmentDynamicSlotResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2423,7 +2426,7 @@ LoadObjectResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2435,7 +2438,7 @@ LoadInt32Result
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -2447,7 +2450,7 @@ LoadDoubleResult
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -2459,7 +2462,7 @@ CallScriptedGetterResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2477,7 +2480,7 @@ CallScriptedGetterByValueResult
 shared
 :
 false
-operands
+args
 :
 val
 :
@@ -2495,7 +2498,7 @@ CallNativeGetterResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2510,7 +2513,7 @@ CallNativeGetterByValueResult
 shared
 :
 false
-operands
+args
 :
 val
 :
@@ -2525,7 +2528,7 @@ CallProxyGetResult
 shared
 :
 false
-operands
+args
 :
 obj
 :
@@ -2540,7 +2543,7 @@ CallProxyGetByValueResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2555,7 +2558,7 @@ CallProxyHasPropResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2573,7 +2576,7 @@ CallObjectHasSparseElementResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2588,7 +2591,7 @@ CallNativeGetElementResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2603,7 +2606,7 @@ LoadUndefinedResult
 shared
 :
 true
-operands
+args
 :
 -
 name
@@ -2612,7 +2615,7 @@ LoadBooleanResult
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -2624,7 +2627,7 @@ LoadStringResult
 shared
 :
 false
-operands
+args
 :
 str
 :
@@ -2636,7 +2639,7 @@ LoadInstanceOfObjectResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2651,7 +2654,7 @@ LoadTypeOfObjectResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -2663,7 +2666,7 @@ DoubleAddResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2678,7 +2681,7 @@ DoubleSubResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2693,7 +2696,7 @@ DoubleMulResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2708,7 +2711,7 @@ DoubleDivResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2723,7 +2726,7 @@ DoubleModResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2738,7 +2741,7 @@ DoublePowResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2753,7 +2756,7 @@ Int32AddResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2768,7 +2771,7 @@ Int32SubResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2783,7 +2786,7 @@ Int32MulResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2798,7 +2801,7 @@ Int32DivResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2813,7 +2816,7 @@ Int32ModResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2828,7 +2831,7 @@ Int32PowResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2843,7 +2846,7 @@ BigIntAddResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2858,7 +2861,7 @@ BigIntSubResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2873,7 +2876,7 @@ BigIntMulResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2888,7 +2891,7 @@ BigIntDivResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2903,7 +2906,7 @@ BigIntModResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2918,7 +2921,7 @@ BigIntPowResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2933,7 +2936,7 @@ Int32BitOrResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2948,7 +2951,7 @@ Int32BitXorResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2963,7 +2966,7 @@ Int32BitAndResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2978,7 +2981,7 @@ Int32LeftShiftResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -2993,7 +2996,7 @@ Int32RightShiftResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3008,7 +3011,7 @@ Int32URightShiftResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3026,7 +3029,7 @@ Int32NotResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3038,7 +3041,7 @@ BigIntBitOrResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3053,7 +3056,7 @@ BigIntBitXorResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3068,7 +3071,7 @@ BigIntBitAndResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3083,7 +3086,7 @@ BigIntLeftShiftResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3098,7 +3101,7 @@ BigIntRightShiftResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3113,7 +3116,7 @@ BigIntNotResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3125,7 +3128,7 @@ Int32NegationResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3137,7 +3140,7 @@ DoubleNegationResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3149,7 +3152,7 @@ BigIntNegationResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3161,7 +3164,7 @@ Int32IncResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3173,7 +3176,7 @@ Int32DecResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3185,7 +3188,7 @@ DoubleIncResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3197,7 +3200,7 @@ DoubleDecResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3209,7 +3212,7 @@ BigIntIncResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3221,7 +3224,7 @@ BigIntDecResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3233,7 +3236,7 @@ LoadInt32TruthyResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3245,7 +3248,7 @@ LoadDoubleTruthyResult
 shared
 :
 true
-operands
+args
 :
 input
 :
@@ -3257,7 +3260,7 @@ LoadStringTruthyResult
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -3269,7 +3272,7 @@ LoadObjectTruthyResult
 shared
 :
 true
-operands
+args
 :
 obj
 :
@@ -3281,7 +3284,7 @@ LoadBigIntTruthyResult
 shared
 :
 true
-operands
+args
 :
 bigInt
 :
@@ -3293,7 +3296,7 @@ LoadValueResult
 shared
 :
 false
-operands
+args
 :
 val
 :
@@ -3305,7 +3308,7 @@ LoadNewObjectFromTemplateResult
 shared
 :
 true
-operands
+args
 :
 templateObject
 :
@@ -3323,7 +3326,7 @@ CallStringConcatResult
 shared
 :
 true
-operands
+args
 :
 lhs
 :
@@ -3338,7 +3341,7 @@ CallStringObjectConcatResult
 shared
 :
 false
-operands
+args
 :
 lhs
 :
@@ -3353,7 +3356,7 @@ CallIsSuspendedGeneratorResult
 shared
 :
 true
-operands
+args
 :
 val
 :
@@ -3365,7 +3368,7 @@ CompareStringResult
 shared
 :
 false
-operands
+args
 :
 op
 :
@@ -3383,7 +3386,7 @@ CompareObjectResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3401,7 +3404,7 @@ CompareSymbolResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3419,7 +3422,7 @@ CompareInt32Result
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3437,7 +3440,7 @@ CompareDoubleResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3455,7 +3458,7 @@ CompareBigIntResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3473,7 +3476,7 @@ CompareBigIntInt32Result
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3491,7 +3494,7 @@ CompareInt32BigIntResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3509,7 +3512,7 @@ CompareBigIntNumberResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3527,7 +3530,7 @@ CompareNumberBigIntResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3545,7 +3548,7 @@ CompareBigIntStringResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3563,7 +3566,7 @@ CompareStringBigIntResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3581,7 +3584,7 @@ CompareObjectUndefinedNullResult
 shared
 :
 true
-operands
+args
 :
 op
 :
@@ -3596,7 +3599,7 @@ CallPrintString
 shared
 :
 true
-operands
+args
 :
 str
 :
@@ -3608,7 +3611,7 @@ Breakpoint
 shared
 :
 true
-operands
+args
 :
 -
 name
@@ -3617,7 +3620,7 @@ TypeMonitorResult
 shared
 :
 false
-operands
+args
 :
 -
 name
@@ -3626,7 +3629,7 @@ ReturnFromIC
 shared
 :
 false
-operands
+args
 :
 -
 name
@@ -3635,5 +3638,5 @@ WrapResult
 shared
 :
 true
-operands
+args
 :

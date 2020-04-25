@@ -289,7 +289,7 @@ load
 contents
 OrderedLoader
 )
-operand_writer_info
+arg_writer_info
 =
 {
     
@@ -784,7 +784,7 @@ def
 gen_writer_method
 (
 name
-operands
+args
 custom_writer
 )
 :
@@ -833,7 +833,7 @@ method_name
 _
 '
     
-args_sig
+method_args
 =
 [
 ]
@@ -844,37 +844,37 @@ ret_type
 void
 '
     
-operands_code
+args_code
 =
 '
 '
     
 if
-operands
+args
 :
         
 for
-opnd_name
-opnd_type
+arg_name
+arg_type
 in
 six
 .
 iteritems
 (
-operands
+args
 )
 :
             
-argtype
+cpp_type
 write_method
 =
-operand_writer_info
+arg_writer_info
 [
-opnd_type
+arg_type
 ]
             
 if
-opnd_name
+arg_name
 =
 =
 '
@@ -884,9 +884,9 @@ result
                 
 ret_type
 =
-argtype
+cpp_type
                 
-operands_code
+args_code
 +
 =
 '
@@ -907,10 +907,10 @@ n
 .
 format
 (
-argtype
+cpp_type
 )
                 
-operands_code
+args_code
 +
 =
 '
@@ -928,7 +928,7 @@ n
 else
 :
                 
-args_sig
+method_args
 .
 append
 (
@@ -941,12 +941,12 @@ append
 .
 format
 (
-argtype
-opnd_name
+cpp_type
+arg_name
 )
 )
                 
-operands_code
+args_code
 +
 =
 '
@@ -966,7 +966,7 @@ n
 format
 (
 write_method
-opnd_name
+arg_name
 )
     
 code
@@ -1019,7 +1019,7 @@ method_name
 .
 join
 (
-args_sig
+method_args
 )
 )
     
@@ -1050,7 +1050,7 @@ name
 code
 +
 =
-operands_code
+args_code
     
 if
 ret_type
@@ -1098,7 +1098,7 @@ npublic
     
 return
 code
-operand_compiler_info
+arg_compiler_info
 =
 {
     
@@ -1832,7 +1832,7 @@ def
 gen_compiler_method
 (
 name
-operands
+args
 )
 :
     
@@ -1860,60 +1860,60 @@ emit
 +
 name
     
-args_names
+cpp_args
 =
 [
 ]
     
-args_sig
+method_args
 =
 [
 ]
     
-operands_code
+args_code
 =
 '
 '
     
 if
-operands
+args
 :
         
 for
-opnd_name
-opnd_type
+arg_name
+arg_type
 in
 six
 .
 iteritems
 (
-operands
+args
 )
 :
             
-vartype
+cpp_type
 suffix
 readexpr
 =
-operand_compiler_info
+arg_compiler_info
 [
-opnd_type
+arg_type
 ]
             
-varname
+cpp_name
 =
-opnd_name
+arg_name
 +
 suffix
             
-args_names
+cpp_args
 .
 append
 (
-varname
+cpp_name
 )
             
-args_sig
+method_args
 .
 append
 (
@@ -1926,12 +1926,12 @@ append
 .
 format
 (
-vartype
-varname
+cpp_type
+cpp_name
 )
 )
             
-operands_code
+args_code
 +
 =
 '
@@ -1951,8 +1951,8 @@ n
 .
 format
 (
-vartype
-varname
+cpp_type
+cpp_name
 readexpr
 )
     
@@ -1982,7 +1982,7 @@ method_name
 .
 join
 (
-args_sig
+method_args
 )
 )
     
@@ -2015,7 +2015,7 @@ method_name
 code
 +
 =
-operands_code
+args_code
     
 code
 +
@@ -2043,7 +2043,7 @@ method_name
 .
 join
 (
-args_names
+cpp_args
 )
 )
     
@@ -2085,79 +2085,22 @@ generated
 file
     
 contains
-:
-    
-*
-A
+a
 list
 of
 all
 CacheIR
 ops
-:
-        
-#
-define
-CACHE_IR_OPS
-(
-_
-)
-\
-        
-_
-(
-GuardToObject
-Id
-)
-\
-        
-_
-(
-CompareObjectUndefinedNullResult
-Id
-Byte
-)
-\
-        
-.
-.
-.
-    
-*
-Lists
-of
-shared
 and
-unshared
-ops
-for
-the
-CacheIRCompiler
-classes
-.
-See
-the
-    
-'
-shared
-'
-attribute
-in
-the
-YAML
-file
-.
-    
-*
-Generated
+generated
 source
 code
 for
+    
 CacheIRWriter
 and
 CacheIRCompiler
 .
-    
 "
 "
 "
@@ -2498,23 +2441,23 @@ name
 '
 ]
         
-operands
+args
 =
 op
 [
 '
-operands
+args
 '
 ]
         
 assert
-operands
+args
 is
 None
 or
 isinstance
 (
-operands
+args
 OrderedDict
 )
         
@@ -2554,10 +2497,10 @@ bool
 )
         
 if
-operands
+args
 :
             
-operands_str
+args_str
 =
 '
 '
@@ -2572,7 +2515,7 @@ v
 for
 v
 in
-operands
+args
 .
 values
 (
@@ -2583,7 +2526,7 @@ values
 else
 :
             
-operands_str
+args_str
 =
 '
 None
@@ -2606,7 +2549,7 @@ _
 format
 (
 name
-operands_str
+args_str
 )
 )
         
@@ -2617,7 +2560,7 @@ append
 gen_writer_method
 (
 name
-operands
+args
 custom_writer
 )
 )
@@ -2633,7 +2576,7 @@ append
 gen_compiler_method
 (
 name
-operands
+args
 )
 )
         
@@ -2647,7 +2590,7 @@ append
 gen_compiler_method
 (
 name
-operands
+args
 )
 )
     
