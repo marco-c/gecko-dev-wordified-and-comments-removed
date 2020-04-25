@@ -965,6 +965,7 @@ value
 void
 writeRawPointer
 (
+const
 void
 *
 ptr

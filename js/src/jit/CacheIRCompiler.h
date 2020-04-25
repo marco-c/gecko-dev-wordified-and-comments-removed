@@ -2933,8 +2933,12 @@ index
 bool
 emitComparePointerResultShared
 (
-bool
-symbol
+JSOp
+op
+TypedOperandId
+lhsId
+TypedOperandId
+rhsId
 )
 ;
 bool
