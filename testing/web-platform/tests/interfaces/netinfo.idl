@@ -167,11 +167,6 @@ attribute
 Millisecond
 rtt
 ;
-readonly
-attribute
-boolean
-saveData
-;
 attribute
 EventHandler
 onchange
