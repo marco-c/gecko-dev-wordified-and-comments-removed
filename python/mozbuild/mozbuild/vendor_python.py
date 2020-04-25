@@ -27,7 +27,6 @@ MozbuildObject
 from
 mozfile
 import
-NamedTemporaryFile
 TemporaryDirectory
 from
 mozpack
@@ -250,33 +249,52 @@ txt
 )
         
 with
-NamedTemporaryFile
+TemporaryDirectory
 (
-'
-w
-'
 )
 as
-tmpspec
+spec_dir
 :
+            
+tmpspec
+=
+'
+requirements
+-
+mach
+-
+vendor
+-
+python
+.
+in
+'
+            
+tmpspec_absolute
+=
+os
+.
+path
+.
+join
+(
+spec_dir
+tmpspec
+)
             
 shutil
 .
 copyfile
 (
 spec
-tmpspec
-.
-name
+tmpspec_absolute
 )
             
 self
 .
 _update_packages
 (
-tmpspec
-.
-name
+tmpspec_absolute
 packages
 )
             
@@ -284,14 +302,13 @@ subprocess
 .
 check_output
 (
+                
 [
-                
+                    
 pip_compile
-                
+                    
 tmpspec
-.
-name
-                
+                    
 '
 -
 -
@@ -299,7 +316,7 @@ no
 -
 header
 '
-                
+                    
 '
 -
 -
@@ -307,7 +324,7 @@ no
 -
 index
 '
-                
+                    
 '
 -
 -
@@ -316,7 +333,7 @@ output
 file
 '
 requirements
-                
+                    
 '
 -
 -
@@ -324,7 +341,12 @@ generate
 -
 hashes
 '
+                
 ]
+                
+cwd
+=
+spec_dir
 )
             
 with
@@ -508,9 +530,7 @@ shutil
 .
 copyfile
 (
-tmpspec
-.
-name
+tmpspec_absolute
 spec
 )
             
