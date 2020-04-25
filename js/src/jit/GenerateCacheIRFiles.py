@@ -320,7 +320,7 @@ writeOperandId
 )
     
 '
-StrId
+StringId
 '
 :
 (
@@ -333,7 +333,7 @@ writeOperandId
 )
     
 '
-SymId
+SymbolId
 '
 :
 (
@@ -359,7 +359,7 @@ writeOperandId
 )
     
 '
-NumId
+NumberId
 '
 :
 (
@@ -385,7 +385,7 @@ writeOperandId
 )
     
 '
-ValTagId
+ValueTagId
 '
 :
 (
@@ -1143,7 +1143,7 @@ objOperandId
 )
     
 '
-StrId
+StringId
 '
 :
 (
@@ -1163,7 +1163,7 @@ stringOperandId
 )
     
 '
-SymId
+SymbolId
 '
 :
 (
@@ -1203,7 +1203,7 @@ int32OperandId
 )
     
 '
-NumId
+NumberId
 '
 :
 (
@@ -1243,7 +1243,7 @@ bigIntOperandId
 )
     
 '
-ValTagId
+ValueTagId
 '
 :
 (
@@ -2190,7 +2190,7 @@ Id
 '
         
 '
-StrId
+StringId
 '
 :
 '
@@ -2198,7 +2198,7 @@ Id
 '
         
 '
-SymId
+SymbolId
 '
 :
 '
@@ -2214,7 +2214,7 @@ Id
 '
         
 '
-NumId
+NumberId
 '
 :
 '
@@ -2230,7 +2230,7 @@ Id
 '
         
 '
-ValTagId
+ValueTagId
 '
 :
 '
