@@ -1004,12 +1004,7 @@ fname
 )
         
 except
-(
 TypeError
-binascii
-.
-Error
-)
 :
             
 hash
