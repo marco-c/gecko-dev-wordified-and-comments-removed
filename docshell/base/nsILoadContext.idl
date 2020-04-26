@@ -82,13 +82,6 @@ topFrameElement
 ;
 readonly
 attribute
-unsigned
-long
-long
-nestedFrameId
-;
-readonly
-attribute
 boolean
 isContent
 ;

@@ -2012,11 +2012,7 @@ frame
 )
 {
 return
-!
-!
-context
-.
-nestedFrameId
+false
 ;
 }
 if
