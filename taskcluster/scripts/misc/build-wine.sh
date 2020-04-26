@@ -51,11 +51,9 @@ MOZ_FETCHES_DIR
 /
 wine
 -
-3
+5
 .
 0
-.
-3
 /
 configure
 -
@@ -95,11 +93,9 @@ MOZ_FETCHES_DIR
 /
 wine
 -
-3
+5
 .
 0
-.
-3
 /
 configure
 -
