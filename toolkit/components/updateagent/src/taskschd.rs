@@ -309,6 +309,7 @@ Ok
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -385,6 +386,7 @@ Ok
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -491,6 +493,7 @@ Ok
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -579,6 +582,7 @@ Ok
 )
 }
 }
+;
 }
 macro_rules
 !
@@ -671,6 +675,7 @@ Ok
 )
 }
 }
+;
 }
 pub
 struct

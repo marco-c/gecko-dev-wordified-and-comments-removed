@@ -327,7 +327,7 @@ ident
 )
 =
 >
-(
+{
 fn
 name
 (
@@ -438,7 +438,8 @@ CACHE_LINE
 )
 )
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -463,7 +464,7 @@ ty
 )
 =
 >
-(
+{
 fn
 name
 (
@@ -555,7 +556,8 @@ false
 )
 )
 }
-)
+}
+;
 }
 macro_rules
 !
@@ -580,7 +582,7 @@ ident
 )
 =
 >
-(
+{
 fn
 name
 <
@@ -761,7 +763,8 @@ old_len
 num_ascii
 )
 }
-)
+}
+;
 }
 impl
 nsAString
