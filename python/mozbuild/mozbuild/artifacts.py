@@ -6535,6 +6535,15 @@ ensure_subprocess_env
 env
 )
         
+kwargs
+[
+'
+universal_newlines
+'
+]
+=
+True
+        
 return
 subprocess
 .
@@ -7208,6 +7217,9 @@ HEAD
 '
         
 ]
+universal_newlines
+=
+True
 cwd
 =
 self
@@ -7240,6 +7252,9 @@ rev_list
 splitlines
 (
 )
+universal_newlines
+=
+True
 cwd
 =
 self
@@ -8907,6 +8922,10 @@ devnull
 w
 '
 )
+universal_newlines
+=
+True
+                    
 cwd
 =
 self
@@ -8992,6 +9011,10 @@ git2hg
 '
 revset
 ]
+universal_newlines
+=
+True
+                
 cwd
 =
 self

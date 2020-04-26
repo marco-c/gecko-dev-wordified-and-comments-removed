@@ -3091,6 +3091,9 @@ with
 open
 (
 local
+'
+rb
+'
 )
 as
 fh
