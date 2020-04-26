@@ -108,11 +108,6 @@ BROWSER_CHROME_MANIFESTS
 =
 [
 '
-browser
-.
-ini
-'
-'
 controlCenter
 /
 browser
@@ -142,6 +137,15 @@ ini
 '
 '
 primaryUI
+/
+browser
+.
+ini
+'
+'
+tests
+/
+browser
 /
 browser
 .
