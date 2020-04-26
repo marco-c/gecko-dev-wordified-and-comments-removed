@@ -269,11 +269,7 @@ prog
 VertexAttrib
 *
 attribs
-unsigned
-short
-*
-indices
-int
+uint32_t
 start
 int
 instance
@@ -346,11 +342,7 @@ prog
 VertexAttrib
 *
 attribs
-unsigned
-short
-*
-indices
-int
+uint32_t
 start
 int
 instance
@@ -366,7 +358,6 @@ load_attribs_func
 this
 prog
 attribs
-indices
 start
 instance
 count

@@ -3829,12 +3829,8 @@ prog
 VertexAttrib
 *
 attribs
-unsigned
-short
-*
-indices
 \
-int
+uint32_t
 start
 int
 instance
@@ -3955,7 +3951,6 @@ attrib_locations
 1
 }
 ]
-indices
 start
 instance
 count
