@@ -912,12 +912,6 @@ zero
 )
 layout_size
 )
-Vec
-:
-:
-new
-(
-)
 ScrollSensitivity
 :
 :

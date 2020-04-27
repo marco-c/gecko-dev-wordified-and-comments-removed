@@ -675,10 +675,6 @@ ClipId
 ScrollFrame
 (
 ScrollFrameDisplayItem
-Vec
-<
-ComplexClipRegion
->
 )
 StickyFrame
 (

@@ -13120,10 +13120,6 @@ pipeline_id
 )
 content_rect
 clip_rect
-vec
-!
-[
-]
 ScrollSensitivity
 :
 :
