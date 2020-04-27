@@ -668,11 +668,6 @@ id
 source
 "
 "
-introductionUrl
-"
-:
-null
-"
 isBlackBoxed
 "
 :
@@ -1399,11 +1394,6 @@ id
 source
 "
 "
-introductionUrl
-"
-:
-null
-"
 isBlackBoxed
 "
 :
@@ -2128,11 +2118,6 @@ id
 "
 source
 "
-"
-introductionUrl
-"
-:
-null
 "
 isBlackBoxed
 "
