@@ -188,7 +188,7 @@ name
 js
 .
 map
-url
+sourceMapBaseURL
 :
 http
 :
