@@ -990,7 +990,7 @@ aInsertedLength
 protected
 :
 EditActionResult
-TruncateInsertionStringForMaxLength
+MaybeTruncateInsertionStringForMaxLength
 (
 nsAString
 &
