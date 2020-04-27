@@ -151,6 +151,12 @@ python
 -
 virtualenv
 \
+python3
+-
+distutils
+-
+extra
+\
 subversion
 \
 tar

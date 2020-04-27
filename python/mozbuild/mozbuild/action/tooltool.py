@@ -4174,6 +4174,12 @@ open
 (
 manifest_file
 "
+r
+"
+if
+PY3
+else
+"
 rb
 "
 )
