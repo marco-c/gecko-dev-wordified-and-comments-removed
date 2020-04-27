@@ -6261,9 +6261,10 @@ JS
 :
 GetTenuredGCThingZone
 (
-JSID_TO_GCTHING
-(
 id
+.
+toGCCellPtr
+(
 )
 )
 aName
