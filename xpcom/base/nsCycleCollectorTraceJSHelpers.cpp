@@ -238,14 +238,15 @@ const
 {
 if
 (
-JSID_IS_GCTHING
-(
 aPtr
 -
 >
 unbarrieredGet
 (
 )
+.
+isGCThing
+(
 )
 )
 {
