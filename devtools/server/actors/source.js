@@ -813,12 +813,8 @@ url
 sourceMapURL
 :
 source
-?
-source
 .
 sourceMapURL
-:
-null
 introductionUrl
 :
 introductionUrl
@@ -841,12 +837,8 @@ null
 introductionType
 :
 source
-?
-source
 .
 introductionType
-:
-null
 }
 ;
 }
@@ -1009,11 +1001,6 @@ buffer
 }
 if
 (
-this
-.
-_source
-&
-&
 this
 .
 _source
