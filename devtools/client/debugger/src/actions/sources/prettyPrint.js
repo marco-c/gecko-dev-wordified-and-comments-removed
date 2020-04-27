@@ -428,9 +428,6 @@ false
 introductionUrl
 :
 null
-introductionType
-:
-undefined
 isExtension
 :
 false
