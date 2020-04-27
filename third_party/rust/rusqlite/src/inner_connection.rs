@@ -5,7 +5,7 @@ std
 ffi
 :
 :
-CString
+CStr
 ;
 use
 std
@@ -91,10 +91,7 @@ use
 super
 :
 :
-{
 str_for_sqlite
-str_to_cstring
-}
 ;
 use
 super
@@ -393,7 +390,7 @@ open_with_flags
 c_path
 :
 &
-CString
+CStr
 flags
 :
 OpenFlags
@@ -402,7 +399,7 @@ vfs
 Option
 <
 &
-CString
+CStr
 >
 )
 -
@@ -1140,7 +1137,16 @@ Result
 let
 c_sql
 =
-str_to_cstring
+std
+:
+:
+ffi
+:
+:
+CString
+:
+:
+new
 (
 sql
 )
@@ -1324,6 +1330,9 @@ entry_point
 let
 c_entry
 =
+crate
+:
+:
 str_to_cstring
 (
 entry_point

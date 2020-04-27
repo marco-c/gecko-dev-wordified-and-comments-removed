@@ -5477,14 +5477,14 @@ sqlite3_stmt_isexplain
 sqlite3_api
 -
 >
-isexplain
+stmt_isexplain
 #
 define
 sqlite3_value_frombind
 sqlite3_api
 -
 >
-frombind
+value_frombind
 #
 define
 sqlite3_drop_modules

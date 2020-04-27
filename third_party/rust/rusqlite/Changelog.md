@@ -20,7 +20,7 @@ github
 .
 com
 /
-jgallagher
+rusqlite
 /
 rusqlite
 /
