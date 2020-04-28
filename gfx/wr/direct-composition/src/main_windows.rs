@@ -1006,7 +1006,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rounded_rect
 (
 &
 api
@@ -1019,12 +1019,7 @@ root_scroll
 (
 pipeline_id
 )
-rect
-vec
-!
-[
 region
-]
 )
 ;
 builder

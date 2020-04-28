@@ -333,16 +333,11 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rounded_rect
 (
 &
 space_and_clip
-clip_bounds
-vec
-!
-[
 complex_clip
-]
 )
 ;
 builder
