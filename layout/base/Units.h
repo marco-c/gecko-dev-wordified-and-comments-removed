@@ -1634,6 +1634,17 @@ gfx
 :
 Matrix4x4Typed
 <
+CSSPixel
+CSSPixel
+>
+CSSToCSSMatrix4x4
+;
+typedef
+gfx
+:
+:
+Matrix4x4Typed
+<
 LayoutDevicePixel
 LayoutDevicePixel
 >
