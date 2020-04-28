@@ -4800,7 +4800,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionAsSubAction
