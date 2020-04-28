@@ -3194,6 +3194,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3203,7 +3206,7 @@ scratch2
 branchTestUndefined
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3232,6 +3235,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3241,7 +3247,7 @@ scratch2
 branchTestUndefined
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3311,6 +3317,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3320,7 +3329,7 @@ scratch2
 branchTestInt32
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3349,6 +3358,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3358,7 +3370,7 @@ scratch2
 branchTestInt32
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3387,6 +3399,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3396,7 +3411,7 @@ scratch2
 branchTestDouble
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3425,6 +3440,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3434,7 +3452,7 @@ scratch2
 branchTestDouble
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3604,6 +3622,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3613,7 +3634,7 @@ scratch2
 branchTestBoolean
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3642,6 +3663,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3651,7 +3675,7 @@ scratch2
 branchTestBoolean
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3721,6 +3745,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3730,7 +3757,7 @@ scratch2
 branchTestString
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3759,6 +3786,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3768,7 +3798,7 @@ scratch2
 branchTestString
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3838,6 +3868,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3847,7 +3880,7 @@ scratch2
 branchTestSymbol
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3917,6 +3950,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -3926,7 +3962,7 @@ scratch2
 branchTestBigInt
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -3996,6 +4032,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4005,7 +4044,7 @@ scratch2
 branchTestNull
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -4034,6 +4073,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4043,7 +4085,7 @@ scratch2
 branchTestNull
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -4113,6 +4155,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4122,7 +4167,7 @@ scratch2
 branchTestObject
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -4151,6 +4196,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4160,7 +4208,7 @@ scratch2
 branchTestObject
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -4203,6 +4251,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4211,7 +4262,7 @@ scratch2
 ;
 ma_b
 (
-scratch2
+tag
 ImmTag
 (
 JS
@@ -4274,6 +4325,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4282,7 +4336,7 @@ scratch2
 ;
 ma_b
 (
-scratch2
+tag
 ImmTag
 (
 JS
@@ -4428,6 +4482,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4437,7 +4494,7 @@ scratch2
 branchTestMagic
 (
 cond
-scratch2
+tag
 label
 )
 ;
@@ -4466,6 +4523,9 @@ scratch2
 this
 )
 ;
+Register
+tag
+=
 extractTag
 (
 address
@@ -4475,7 +4535,7 @@ scratch2
 branchTestMagic
 (
 cond
-scratch2
+tag
 label
 )
 ;
