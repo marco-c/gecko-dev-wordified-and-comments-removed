@@ -871,6 +871,8 @@ audio_thread_priority
 0
 .
 22
+.
+1
 "
 mdns_service
 =
