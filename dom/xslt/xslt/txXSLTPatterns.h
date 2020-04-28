@@ -642,6 +642,10 @@ getNodeTest
 {
 return
 mNodeTest
+.
+get
+(
+)
 ;
 }
 void

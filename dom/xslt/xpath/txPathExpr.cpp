@@ -342,6 +342,10 @@ evalDescendants
 pxi
 .
 expr
+.
+get
+(
+)
 eContext
 .
 getContextNode

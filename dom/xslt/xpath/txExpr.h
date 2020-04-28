@@ -529,6 +529,10 @@ aPos
 \
 return
 _Expr1
+.
+get
+(
+)
 ;
 \
 }
@@ -620,6 +624,10 @@ case
 \
 return
 _Expr1
+.
+get
+(
+)
 ;
 \
 case
@@ -628,6 +636,10 @@ case
 \
 return
 _Expr2
+.
+get
+(
+)
 ;
 \
 default
@@ -1497,6 +1509,10 @@ getNodeTest
 {
 return
 mNodeTest
+.
+get
+(
+)
 ;
 }
 void

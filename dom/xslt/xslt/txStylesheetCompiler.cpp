@@ -2169,6 +2169,10 @@ rv
 pushObject
 (
 mElementContext
+.
+get
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2742,6 +2746,10 @@ rv
 pushObject
 (
 mChooseGotoList
+.
+get
+(
+)
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3156,6 +3164,10 @@ txInstruction
 newInstr
 =
 aInstruction
+.
+get
+(
+)
 ;
 *
 mNextInstrPtr
@@ -3304,12 +3316,10 @@ mToplevelIterator
 addBefore
 (
 item
-)
-;
-item
 .
 forget
 (
+)
 )
 ;
 mToplevelIterator
