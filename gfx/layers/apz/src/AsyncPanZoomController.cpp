@@ -17204,6 +17204,7 @@ return
 GetEffectiveLayoutViewport
 (
 aMode
+lock
 )
 ;
 }
@@ -17235,11 +17236,13 @@ return
 GetEffectiveScrollOffset
 (
 aMode
+lock
 )
 *
 GetEffectiveZoom
 (
 aMode
+lock
 )
 ;
 }
@@ -17271,6 +17274,7 @@ return
 GetEffectiveScrollOffset
 (
 aMode
+lock
 )
 ;
 }
@@ -17321,6 +17325,7 @@ effectiveZoom
 GetEffectiveZoom
 (
 aMode
+lock
 )
 ;
 }
@@ -17415,11 +17420,13 @@ currentVisualOffset
 GetEffectiveScrollOffset
 (
 aMode
+lock
 )
 -
 GetEffectiveLayoutViewport
 (
 aMode
+lock
 )
 .
 TopLeft
@@ -17478,6 +17485,7 @@ currentLayoutOffset
 GetEffectiveLayoutViewport
 (
 aMode
+lock
 )
 .
 TopLeft
@@ -17564,6 +17572,7 @@ scale
 GetEffectiveZoom
 (
 aMode
+lock
 )
 ;
 return
@@ -17590,6 +17599,10 @@ GetEffectiveLayoutViewport
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 {
@@ -17646,6 +17659,10 @@ GetEffectiveScrollOffset
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 {
@@ -17702,6 +17719,10 @@ GetEffectiveZoom
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 {
@@ -18122,6 +18143,7 @@ AsyncPanZoomController
 :
 :
 eForCompositing
+aProofOfLock
 )
 ;
 CSSRect

@@ -2099,6 +2099,10 @@ GetEffectiveLayoutViewport
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 ;
@@ -2107,6 +2111,10 @@ GetEffectiveScrollOffset
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 ;
@@ -2115,6 +2123,10 @@ GetEffectiveZoom
 (
 AsyncTransformConsumer
 aMode
+const
+RecursiveMutexAutoLock
+&
+aProofOfLock
 )
 const
 ;
