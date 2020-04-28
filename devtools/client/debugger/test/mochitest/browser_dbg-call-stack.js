@@ -1,3 +1,14 @@
+PromiseTestUtils
+.
+whitelistRejectionsGlobally
+(
+/
+No
+such
+actor
+/
+)
+;
 function
 isFrameSelected
 (
