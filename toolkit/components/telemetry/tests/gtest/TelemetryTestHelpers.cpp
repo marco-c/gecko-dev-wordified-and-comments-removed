@@ -1390,8 +1390,6 @@ Value
 aResult
 bool
 aClear
-=
-false
 )
 {
 nsCOMPtr
