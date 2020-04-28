@@ -61,6 +61,11 @@ PropertiesViewContextMenu
 js
 '
 '
+RequestBlockingContextMenu
+.
+js
+'
+'
 RequestListContextMenu
 .
 js
