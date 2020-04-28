@@ -9931,10 +9931,13 @@ attributesToRemove
 busy
 "
 "
+pendingicon
+"
+"
 progress
 "
 "
-pendingicon
+soundplaying
 "
 ]
 ;
