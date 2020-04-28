@@ -878,6 +878,18 @@ tmp
 #
 endif
 static
+SECStatus
+ssl_InitSessionCache
+(
+)
+{
+return
+ssl_InitializePRErrorTable
+(
+)
+;
+}
+static
 PRUint32
 ssl_CacheNow
 (
@@ -5863,7 +5875,7 @@ rv
 ;
 rv
 =
-ssl_Init
+ssl_InitSessionCache
 (
 )
 ;
@@ -6471,7 +6483,7 @@ endif
 SECStatus
 status
 =
-ssl_Init
+ssl_InitSessionCache
 (
 )
 ;

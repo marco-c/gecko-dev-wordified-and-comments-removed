@@ -8553,7 +8553,7 @@ CKR_OK
 ;
 return
 ~
-CT_NOT_ZERO
+PORT_CT_NOT_ZERO
 (
 rv
 )
@@ -8600,7 +8600,7 @@ unsigned
 int
 goodPad
 =
-CT_DUPLICATE_MSB_TO_ALL
+PORT_CT_DUPLICATE_MSB_TO_ALL
 (
 ~
 (
@@ -8613,7 +8613,7 @@ padSize
 goodPad
 &
 =
-CT_NOT_ZERO
+PORT_CT_NOT_ZERO
 (
 padSize
 )
@@ -8641,7 +8641,7 @@ unsigned
 int
 loopMask
 =
-CT_DUPLICATE_MSB_TO_ALL
+PORT_CT_DUPLICATE_MSB_TO_ALL
 (
 ~
 (
@@ -8669,7 +8669,7 @@ i
 goodPad
 &
 =
-CT_SEL
+PORT_CT_SEL
 (
 loopMask
 ~
@@ -8721,7 +8721,7 @@ goodPad
 ;
 goodPad
 =
-CT_DUPLICATE_MSB_TO_ALL
+PORT_CT_DUPLICATE_MSB_TO_ALL
 (
 goodPad
 )
@@ -8729,7 +8729,7 @@ goodPad
 *
 outPadSize
 =
-CT_SEL
+PORT_CT_SEL
 (
 goodPad
 padSize
@@ -8737,7 +8737,7 @@ padSize
 )
 ;
 return
-CT_SEL
+PORT_CT_SEL
 (
 goodPad
 CKR_OK

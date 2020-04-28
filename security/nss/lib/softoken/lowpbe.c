@@ -5958,7 +5958,7 @@ dest
 >
 len
 =
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (
@@ -5978,7 +5978,7 @@ len
 ;
 PORT_SetError
 (
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (
@@ -6364,7 +6364,7 @@ dest
 >
 len
 =
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (
@@ -6384,7 +6384,7 @@ len
 ;
 PORT_SetError
 (
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (
@@ -6768,7 +6768,7 @@ dest
 >
 len
 =
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (
@@ -6788,7 +6788,7 @@ len
 ;
 PORT_SetError
 (
-CT_SEL
+PORT_CT_SEL
 (
 sftk_CKRVToMask
 (

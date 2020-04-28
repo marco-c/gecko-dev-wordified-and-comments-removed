@@ -124,6 +124,11 @@ pk11_aeskeywrap_unittest
 cc
 '
 '
+pk11_aeskeywrapkwp_unittest
+.
+cc
+'
+'
 pk11_aeskeywrappad_unittest
 .
 cc

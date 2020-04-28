@@ -3818,7 +3818,11 @@ fwObject
 =
 nssCKFWObject_Create
 (
+isTokenObject
+?
 arena
+:
+NULL
 mdObject
 isTokenObject
 ?
@@ -4379,7 +4383,11 @@ rv
 =
 nssCKFWObject_Create
 (
+newIsToken
+?
 arena
+:
+NULL
 mdObject
 newIsToken
 ?

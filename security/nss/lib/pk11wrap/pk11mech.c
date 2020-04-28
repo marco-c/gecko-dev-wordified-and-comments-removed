@@ -744,6 +744,12 @@ case
 CKM_NSS_AES_KEY_WRAP_PAD
 :
 case
+CKM_AES_KEY_WRAP
+:
+case
+CKM_AES_KEY_WRAP_KWP
+:
+case
 CKM_AES_XCBC_MAC
 :
 case
