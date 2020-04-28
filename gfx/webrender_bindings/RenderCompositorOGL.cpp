@@ -153,6 +153,14 @@ true
 true
 )
 ;
+RenderThread
+:
+:
+MaybeEnableGLDebugMessage
+(
+gl
+)
+;
 }
 if
 (
