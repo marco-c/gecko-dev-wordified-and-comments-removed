@@ -2072,6 +2072,7 @@ IgnorePaintSuppression
 IgnoreRootScrollFrame
 IgnoreCrossDoc
 OnlyVisible
+IsRelativeToLayoutViewport
 }
 ;
 static
