@@ -615,8 +615,8 @@ const
 ContentControlKeyEventReceiver
 *
 aMedia
-bool
-aAudible
+MediaAudibleState
+aState
 )
 {
 MOZ_ASSERT
@@ -683,7 +683,13 @@ BC
 %
 "
 PRId64
-aAudible
+aState
+=
+=
+MediaAudibleState
+:
+:
+eAudible
 ?
 "
 audible
@@ -727,7 +733,7 @@ contentChild
 SendNotifyMediaAudibleChanged
 (
 bc
-aAudible
+aState
 )
 ;
 }
@@ -759,7 +765,7 @@ controller
 >
 NotifyMediaAudibleChanged
 (
-aAudible
+aState
 )
 ;
 }
