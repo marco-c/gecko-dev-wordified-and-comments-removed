@@ -223,6 +223,13 @@ dwrote
 :
 FontFile
 }
+unsafe
+impl
+Send
+for
+CachedFont
+{
+}
 impl
 PartialEq
 for
@@ -2474,6 +2481,10 @@ design_units_per_pixel
 face
 .
 metrics
+(
+)
+.
+metrics0
 (
 )
 .
