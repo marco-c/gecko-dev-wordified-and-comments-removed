@@ -53,7 +53,7 @@ itemCount
 0
 ;
 }
-nsresult
+void
 add
 (
 void
@@ -115,7 +115,7 @@ lastItem
 int32_t
 itemCount
 ;
-nsresult
+void
 insertAfter
 (
 void
@@ -126,7 +126,7 @@ ListItem
 sItem
 )
 ;
-nsresult
+void
 insertBefore
 (
 void
@@ -152,7 +152,7 @@ txList
 list
 )
 ;
-nsresult
+void
 addAfter
 (
 void
@@ -160,7 +160,7 @@ void
 objPtr
 )
 ;
-nsresult
+void
 addBefore
 (
 void

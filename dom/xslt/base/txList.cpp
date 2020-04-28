@@ -38,7 +38,7 @@ clear
 )
 ;
 }
-nsresult
+void
 txList
 :
 :
@@ -49,7 +49,6 @@ void
 objPtr
 )
 {
-return
 insertBefore
 (
 objPtr
@@ -69,7 +68,7 @@ return
 itemCount
 ;
 }
-nsresult
+void
 txList
 :
 :
@@ -88,14 +87,16 @@ if
 !
 refItem
 )
-return
+{
 insertBefore
 (
 objPtr
 firstItem
 )
 ;
-return
+}
+else
+{
 insertBefore
 (
 objPtr
@@ -106,7 +107,8 @@ nextItem
 )
 ;
 }
-nsresult
+}
+void
 txList
 :
 :
@@ -240,9 +242,6 @@ item
 +
 +
 itemCount
-;
-return
-NS_OK
 ;
 }
 txList
@@ -423,7 +422,7 @@ atEndOfList
 false
 ;
 }
-nsresult
+void
 txListIterator
 :
 :
@@ -442,7 +441,7 @@ currentItem
 !
 atEndOfList
 )
-return
+{
 list
 -
 >
@@ -452,7 +451,9 @@ objPtr
 currentItem
 )
 ;
-return
+}
+else
+{
 list
 -
 >
@@ -463,7 +464,8 @@ objPtr
 )
 ;
 }
-nsresult
+}
+void
 txListIterator
 :
 :
@@ -481,7 +483,7 @@ currentItem
 |
 atEndOfList
 )
-return
+{
 list
 -
 >
@@ -491,7 +493,9 @@ objPtr
 currentItem
 )
 ;
-return
+}
+else
+{
 list
 -
 >
@@ -501,6 +505,7 @@ objPtr
 0
 )
 ;
+}
 }
 bool
 txListIterator

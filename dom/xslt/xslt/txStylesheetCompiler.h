@@ -407,7 +407,7 @@ enumStackType
 aType
 )
 ;
-nsresult
+void
 addToplevelItem
 (
 txToplevelItem

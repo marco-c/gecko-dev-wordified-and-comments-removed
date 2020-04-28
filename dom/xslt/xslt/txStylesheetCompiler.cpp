@@ -3039,7 +3039,7 @@ return
 value
 ;
 }
-nsresult
+void
 txStylesheetCompilerState
 :
 :
@@ -3050,7 +3050,6 @@ txToplevelItem
 aItem
 )
 {
-return
 mToplevelIterator
 .
 addBefore
@@ -3311,20 +3310,11 @@ item
 NS_ERROR_OUT_OF_MEMORY
 )
 ;
-nsresult
-rv
-=
 mToplevelIterator
 .
 addBefore
 (
 item
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 item
@@ -3388,6 +3378,7 @@ AppendElement
 compiler
 )
 ;
+nsresult
 rv
 =
 mObserver
