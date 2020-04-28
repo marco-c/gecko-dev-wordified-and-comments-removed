@@ -358,9 +358,9 @@ inline
 const
 char
 *
-ToControlledMediaStateStr
+ToMediaPlaybackStateStr
 (
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 {
@@ -370,7 +370,7 @@ aState
 )
 {
 case
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStarted
@@ -381,7 +381,7 @@ started
 "
 ;
 case
-ControlledMediaState
+MediaPlaybackState
 :
 :
 ePlayed
@@ -392,7 +392,7 @@ played
 "
 ;
 case
-ControlledMediaState
+MediaPlaybackState
 :
 :
 ePaused
@@ -403,7 +403,7 @@ paused
 "
 ;
 case
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStopped

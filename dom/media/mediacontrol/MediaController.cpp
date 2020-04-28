@@ -533,9 +533,9 @@ void
 MediaController
 :
 :
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 {
@@ -552,7 +552,7 @@ if
 aState
 =
 =
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStarted
@@ -569,7 +569,7 @@ if
 aState
 =
 =
-ControlledMediaState
+MediaPlaybackState
 :
 :
 eStopped
@@ -586,7 +586,7 @@ if
 aState
 =
 =
-ControlledMediaState
+MediaPlaybackState
 :
 :
 ePlayed
@@ -603,7 +603,7 @@ if
 aState
 =
 =
-ControlledMediaState
+MediaPlaybackState
 :
 :
 ePaused

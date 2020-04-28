@@ -30757,7 +30757,7 @@ IPCResult
 ContentParent
 :
 :
-RecvNotifyMediaStateChanged
+RecvNotifyMediaPlaybackChanged
 (
 const
 MaybeDiscarded
@@ -30766,7 +30766,7 @@ BrowsingContext
 >
 &
 aContext
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 {
@@ -30808,7 +30808,7 @@ GetMediaController
 controller
 -
 >
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
 aState
 )

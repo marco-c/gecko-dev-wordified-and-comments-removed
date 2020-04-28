@@ -184,9 +184,9 @@ aState
 override
 ;
 void
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 ;

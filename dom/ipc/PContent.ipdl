@@ -1012,7 +1012,7 @@ mozilla
 dom
 :
 :
-ControlledMediaState
+MediaPlaybackState
 from
 "
 ipc
@@ -4105,11 +4105,11 @@ aPrincipal
 )
 ;
 async
-NotifyMediaStateChanged
+NotifyMediaPlaybackChanged
 (
 MaybeDiscardedBrowsingContext
 aContext
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 ;

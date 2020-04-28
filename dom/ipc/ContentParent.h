@@ -5775,7 +5775,7 @@ ipc
 :
 :
 IPCResult
-RecvNotifyMediaStateChanged
+RecvNotifyMediaPlaybackChanged
 (
 const
 MaybeDiscarded
@@ -5784,7 +5784,7 @@ BrowsingContext
 >
 &
 aContext
-ControlledMediaState
+MediaPlaybackState
 aState
 )
 ;
