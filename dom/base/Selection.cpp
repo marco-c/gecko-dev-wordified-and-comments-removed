@@ -3421,6 +3421,9 @@ nsresult
 Selection
 :
 :
+StyledRanges
+:
+:
 SubtractRange
 (
 StyledRange
