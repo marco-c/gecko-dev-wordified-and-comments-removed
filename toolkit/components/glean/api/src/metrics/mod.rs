@@ -17,6 +17,9 @@ counter
 mod
 string
 ;
+mod
+uuid
+;
 pub
 use
 self
@@ -46,4 +49,14 @@ string
 :
 :
 StringMetric
+;
+pub
+use
+self
+:
+:
+uuid
+:
+:
+UuidMetric
 ;
