@@ -3508,12 +3508,6 @@ gtest
 -
 mochitest
 -
-chrome
--
-gpu
--
-mochitest
--
 media
 -
 mochitest
