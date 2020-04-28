@@ -686,6 +686,8 @@ OutOfLineCodeBase
 CodeGeneratorMIPSShared
 >
 {
+protected
+:
 LSnapshot
 *
 snapshot_
