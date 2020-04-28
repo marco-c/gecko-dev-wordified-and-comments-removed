@@ -28,6 +28,7 @@ from
 mozdevice
 import
 ADBDevice
+ADBProcessError
 from
 performance_tuning
 import
@@ -667,7 +668,8 @@ shell_output
 (
                 
 "
-cat
+sort
+/
 sys
 /
 class
@@ -681,12 +683,48 @@ temp
             
 )
             
+try
+:
+                
 thermal_zone0
 =
+"
+%
+.
+3f
+"
+%
+(
 float
 (
 thermal_zone0
 )
+/
+1000
+)
+            
+except
+ValueError
+:
+                
+thermal_zone0
+=
+"
+Unknown
+"
+        
+except
+ADBProcessError
+:
+            
+thermal_zone0
+=
+'
+Unknown
+'
+        
+try
+:
             
 zone_type
 =
@@ -699,6 +737,7 @@ shell_output
                 
 "
 cat
+/
 sys
 /
 class
@@ -711,12 +750,22 @@ type
 "
             
 )
+        
+except
+ADBProcessError
+:
             
+zone_type
+=
+'
+Unknown
+'
+        
 LOG
 .
 info
 (
-                
+            
 "
 (
 thermal_zone0
@@ -725,55 +774,20 @@ device
 temperature
 :
 %
-.
-3f
+s
 zone
 type
 :
 %
 s
 "
-                
+            
 %
 (
 thermal_zone0
-/
-1000
 zone_type
 )
-            
-)
         
-except
-Exception
-as
-exc
-:
-            
-LOG
-.
-warning
-(
-"
-Unexpected
-error
-:
-{
-}
--
-{
-}
-"
-.
-format
-(
-exc
-.
-__class__
-.
-__name__
-exc
-)
 )
     
 def
