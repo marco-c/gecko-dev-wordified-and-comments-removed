@@ -2869,6 +2869,13 @@ uint32_t
 aRejectedReason
 )
 ;
+async
+AbortOrientationPendingPromises
+(
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
 parent
 :
 async
@@ -4167,6 +4174,13 @@ aNewLSHE
 nullable
 PSHEntry
 aNewOSHE
+MaybeDiscardedBrowsingContext
+aContext
+)
+;
+async
+AbortOtherOrientationPendingPromises
+(
 MaybeDiscardedBrowsingContext
 aContext
 )

@@ -208,6 +208,15 @@ ScreenOrientation
 aOrientation
 )
 ;
+static
+void
+AbortInProcessOrientationPromises
+(
+BrowsingContext
+*
+aBrowsingContext
+)
+;
 private
 :
 virtual
