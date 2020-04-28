@@ -54,6 +54,12 @@ txPatternOptimizer
 .
 h
 "
+using
+mozilla
+:
+:
+UniquePtr
+;
 nsresult
 txPatternParser
 :

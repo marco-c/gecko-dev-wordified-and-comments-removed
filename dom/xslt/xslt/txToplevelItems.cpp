@@ -31,6 +31,12 @@ txXSLTPatterns
 .
 h
 "
+using
+mozilla
+:
+:
+UniquePtr
+;
 TX_IMPL_GETTYPE
 (
 txAttributeSetItem

@@ -3760,6 +3760,8 @@ GetNextSibling
 {
 node
 =
+WrapUnique
+(
 txXPathNativeNode
 :
 :
@@ -3767,6 +3769,7 @@ createXPathNode
 (
 result
 true
+)
 )
 ;
 rv

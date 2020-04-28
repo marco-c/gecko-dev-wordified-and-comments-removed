@@ -88,7 +88,13 @@ converted
 ;
 mNode
 =
+mozilla
+:
+:
+WrapUnique
+(
 aNode
+)
 ;
 }
 const

@@ -84,6 +84,12 @@ mozilla
 :
 MakeUniqueFallible
 ;
+using
+mozilla
+:
+:
+UniquePtr
+;
 txNodeSorter
 :
 :

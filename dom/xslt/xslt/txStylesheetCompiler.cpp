@@ -1686,6 +1686,8 @@ mDepth
 {
 mElementContext
 =
+WrapUnique
+(
 static_cast
 <
 txElementContext
@@ -1694,6 +1696,7 @@ txElementContext
 (
 popObject
 (
+)
 )
 )
 ;
@@ -2181,6 +2184,9 @@ rv
 rv
 )
 ;
+Unused
+<
+<
 mElementContext
 .
 release
@@ -2529,8 +2535,10 @@ true
 }
 mElementContext
 =
-new
+MakeUnique
+<
 txElementContext
+>
 (
 aStylesheetURI
 )
@@ -2758,6 +2766,9 @@ rv
 rv
 )
 ;
+Unused
+<
+<
 mChooseGotoList
 .
 release
@@ -2766,8 +2777,12 @@ release
 ;
 mChooseGotoList
 =
-new
+MakeUnique
+<
 txList
+>
+(
+)
 ;
 return
 NS_OK
@@ -2783,6 +2798,8 @@ popChooseGotoList
 {
 mChooseGotoList
 =
+WrapUnique
+(
 static_cast
 <
 txList
@@ -2791,6 +2808,7 @@ txList
 (
 popObject
 (
+)
 )
 )
 ;

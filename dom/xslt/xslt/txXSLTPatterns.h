@@ -659,6 +659,12 @@ txNodeTest
 aNodeTest
 )
 {
+mozilla
+:
+:
+Unused
+<
+<
 mNodeTest
 .
 release
@@ -667,7 +673,13 @@ release
 ;
 mNodeTest
 =
+mozilla
+:
+:
+WrapUnique
+(
 aNodeTest
+)
 ;
 }
 private
