@@ -105,6 +105,17 @@ Indianapolis
 "
 America
 /
+Godthab
+"
+:
+"
+America
+/
+Nuuk
+"
+"
+America
+/
 Indianapolis
 "
 :
