@@ -2749,6 +2749,16 @@ APPEND_RANGE
 0x99ff
 )
 ;
+APPEND_DEVICE
+(
+0x15dd
+)
+;
+APPEND_DEVICE
+(
+0x15d8
+)
+;
 break
 ;
 case
