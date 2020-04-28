@@ -15896,7 +15896,7 @@ if
 aDocument
 -
 >
-HasValidTransientUserGestureActivation
+ConsumeTransientUserGestureActivation
 (
 )
 )
