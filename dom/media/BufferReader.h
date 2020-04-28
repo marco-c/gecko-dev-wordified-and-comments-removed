@@ -1767,7 +1767,11 @@ template
 typename
 T
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReadArray
 (
@@ -1856,7 +1860,11 @@ template
 typename
 T
 >
-MOZ_MUST_USE
+[
+[
+nodiscard
+]
+]
 bool
 ReadArray
 (
