@@ -643,7 +643,7 @@ mDragState
 ;
 }
 bool
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 const

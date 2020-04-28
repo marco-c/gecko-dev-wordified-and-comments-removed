@@ -21743,7 +21743,7 @@ selectingTableCells
 aFrameSelection
 -
 >
-GetTableCellSelection
+IsInTableSelectionMode
 (
 )
 ;
