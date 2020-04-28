@@ -1851,7 +1851,7 @@ MediaControlEventListener
 final
 :
 public
-MediaControlKeysEventListener
+ContentControlKeyEventReceiver
 {
 public
 :
@@ -1981,7 +1981,7 @@ eStopped
 mControlAgent
 -
 >
-RemoveListener
+RemoveReceiver
 (
 this
 )
@@ -2238,7 +2238,7 @@ mIsPictureInPictureEnabled
 ;
 }
 void
-OnKeyPressed
+HandleEvent
 (
 MediaControlKeysEvent
 aEvent
@@ -2262,7 +2262,7 @@ IsStarted
 MEDIACONTROL_LOG
 (
 "
-OnKeyPressed
+HandleEvent
 '
 %
 s
@@ -2427,7 +2427,7 @@ false
 mControlAgent
 -
 >
-AddListener
+AddReceiver
 (
 this
 )

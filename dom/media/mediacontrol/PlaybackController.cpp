@@ -279,7 +279,7 @@ mBC
 receiver
 -
 >
-OnKeyPressed
+HandleEvent
 (
 MediaControlKeysEvent
 :
@@ -378,7 +378,7 @@ mBC
 receiver
 -
 >
-OnKeyPressed
+HandleEvent
 (
 MediaControlKeysEvent
 :
@@ -659,7 +659,7 @@ receiver
 receiver
 -
 >
-OnKeyPressed
+HandleEvent
 (
 MediaControlKeysEvent
 :
