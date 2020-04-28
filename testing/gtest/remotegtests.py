@@ -522,6 +522,26 @@ remote_libdir
 parents
 =
 True
+root
+=
+True
+)
+        
+self
+.
+device
+.
+chmod
+(
+self
+.
+remote_libdir
+recursive
+=
+True
+root
+=
+True
 )
         
 log
