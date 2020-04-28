@@ -138,8 +138,6 @@ override
 bool
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 override

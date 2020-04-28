@@ -211,8 +211,6 @@ HTMLAnchorElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -232,7 +230,6 @@ nsGenericHTMLElement
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }

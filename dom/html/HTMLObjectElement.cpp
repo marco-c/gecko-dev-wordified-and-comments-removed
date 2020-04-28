@@ -274,8 +274,6 @@ HTMLObjectElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -295,7 +293,6 @@ nsGenericHTMLFormElement
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }

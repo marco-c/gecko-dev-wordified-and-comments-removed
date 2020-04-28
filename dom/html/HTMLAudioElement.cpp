@@ -397,8 +397,6 @@ HTMLAudioElement
 :
 IsInteractiveHTMLContent
 (
-bool
-aIgnoreTabindex
 )
 const
 {
@@ -418,7 +416,6 @@ HTMLMediaElement
 :
 IsInteractiveHTMLContent
 (
-aIgnoreTabindex
 )
 ;
 }
