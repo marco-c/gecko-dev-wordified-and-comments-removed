@@ -3869,7 +3869,7 @@ aPresShell
 aPresShell
 -
 >
-GetCumulativeNonRootScaleResolution
+GetCumulativeResolution
 (
 )
 :
