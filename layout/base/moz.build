@@ -394,6 +394,11 @@ PresShellInlines
 h
 '
 '
+RelativeTo
+.
+h
+'
+'
 RestyleManager
 .
 h
