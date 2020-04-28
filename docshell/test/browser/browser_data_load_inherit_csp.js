@@ -397,6 +397,7 @@ waitForNewTab
 (
 gBrowser
 DATA_URI
+true
 )
 ;
 await
@@ -501,6 +502,7 @@ waitForNewTab
 (
 gBrowser
 DATA_URI
+true
 )
 ;
 await

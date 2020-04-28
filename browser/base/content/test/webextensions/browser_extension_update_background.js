@@ -941,6 +941,7 @@ about
 :
 addons
 "
+true
 )
 ;
 popupPromise

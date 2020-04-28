@@ -229,6 +229,7 @@ waitForNewTab
 (
 gBrowser
 RESULT_URI
+true
 )
 ;
 BrowserTestUtils

@@ -2793,6 +2793,7 @@ about
 :
 preferences
 "
+true
 )
 ;
 doc
@@ -2832,16 +2833,6 @@ getElementById
 "
 addonsButton
 "
-)
-;
-await
-BrowserTestUtils
-.
-browserLoaded
-(
-tab
-.
-linkedBrowser
 )
 ;
 getAddonsButton

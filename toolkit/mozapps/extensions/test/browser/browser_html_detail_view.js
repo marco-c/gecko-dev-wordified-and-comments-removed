@@ -8270,6 +8270,7 @@ about
 :
 addons
 "
+true
 )
 ;
 let

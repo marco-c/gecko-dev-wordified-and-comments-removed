@@ -433,6 +433,7 @@ principal
 -
 child
 "
+true
 )
 ;
 BrowserTestUtils
@@ -718,6 +719,7 @@ principal
 -
 child
 "
+true
 )
 ;
 BrowserTestUtils

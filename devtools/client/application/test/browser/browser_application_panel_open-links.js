@@ -108,6 +108,7 @@ debugging
 #
 workers
 "
+true
 )
 ;
 doc
