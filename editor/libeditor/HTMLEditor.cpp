@@ -14582,7 +14582,7 @@ eNoStrip
 nsresult
 rv
 =
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionWithTransaction
@@ -14602,7 +14602,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionWithTransaction

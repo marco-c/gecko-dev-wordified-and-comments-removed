@@ -3876,7 +3876,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionWithTransaction
@@ -4010,7 +4010,7 @@ NS_SUCCEEDED
 rv
 )
 "
-TextEditor
+EditorBase
 :
 :
 DeleteSelectionWithTransaction

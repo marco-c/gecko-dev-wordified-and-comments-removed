@@ -753,17 +753,6 @@ bool
 aDispatchInputEvent
 )
 ;
-MOZ_CAN_RUN_SCRIPT
-virtual
-nsresult
-DeleteSelectionWithTransaction
-(
-EDirection
-aAction
-EStripWrappers
-aStripWrappers
-)
-;
 [
 [
 nodiscard
