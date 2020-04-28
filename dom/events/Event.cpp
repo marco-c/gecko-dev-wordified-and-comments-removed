@@ -3170,7 +3170,10 @@ GetEventCoordinatesRelativeTo
 (
 aEvent
 aPoint
+RelativeTo
+{
 rootFrame
+}
 )
 ;
 return
@@ -3369,8 +3372,14 @@ nsLayoutUtils
 :
 TransformPoint
 (
+RelativeTo
+{
 rootFrame
+}
+RelativeTo
+{
 frame
+}
 pt
 )
 =

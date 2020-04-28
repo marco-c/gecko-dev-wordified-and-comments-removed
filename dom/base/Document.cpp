@@ -58354,7 +58354,10 @@ GetEventCoordinatesRelativeTo
 (
 widget
 refPoint
+RelativeTo
+{
 ptFrame
+}
 )
 ;
 nsFrame

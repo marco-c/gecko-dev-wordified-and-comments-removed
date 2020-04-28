@@ -16314,7 +16314,10 @@ GetEventCoordinatesRelativeTo
 (
 widget
 pt
+RelativeTo
+{
 rootFrame
+}
 )
 ;
 nsIFrame
@@ -16350,7 +16353,10 @@ GetEventCoordinatesRelativeTo
 (
 widget
 pt
+RelativeTo
+{
 targetFrame
+}
 )
 ;
 nsresult

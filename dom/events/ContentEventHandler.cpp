@@ -12441,7 +12441,10 @@ GetEventCoordinatesRelativeTo
 (
 &
 eventOnRoot
+RelativeTo
+{
 rootFrame
+}
 )
 ;
 nsIFrame

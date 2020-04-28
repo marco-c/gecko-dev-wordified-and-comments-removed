@@ -11482,8 +11482,14 @@ nsLayoutUtils
 :
 GetTransformToAncestor
 (
+RelativeTo
+{
 referenceFrame
+}
+RelativeTo
+{
 mReferenceFrame
+}
 )
 .
 GetMatrix
@@ -43322,7 +43328,12 @@ nsLayoutUtils
 :
 GetTransformToAncestor
 (
+RelativeTo
+{
 aFrame
+}
+RelativeTo
+{
 nsLayoutUtils
 :
 :
@@ -43330,6 +43341,7 @@ GetDisplayRootFrame
 (
 aFrame
 )
+}
 )
 ;
 const

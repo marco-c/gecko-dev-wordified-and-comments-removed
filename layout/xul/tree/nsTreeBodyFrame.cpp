@@ -11142,7 +11142,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+RelativeTo
+{
 this
+}
 )
 ;
 int32_t
@@ -19618,7 +19621,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+RelativeTo
+{
 this
+}
 )
 ;
 int32_t

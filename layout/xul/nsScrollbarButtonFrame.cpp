@@ -250,7 +250,10 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
+RelativeTo
+{
 this
+}
 )
 ;
 nsRect
