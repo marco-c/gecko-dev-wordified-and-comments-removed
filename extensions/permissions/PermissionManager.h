@@ -918,6 +918,15 @@ bool
 aAdd
 )
 ;
+bool
+HasExpired
+(
+uint32_t
+aExpireType
+int64_t
+aExpireTime
+)
+;
 PermissionHashKey
 *
 GetPermissionHashKey
