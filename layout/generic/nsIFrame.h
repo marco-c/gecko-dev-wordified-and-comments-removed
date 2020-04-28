@@ -7346,9 +7346,9 @@ STOP_AT_STACKING_CONTEXT_AND_DISPLAY_PORT
 Matrix4x4Flagged
 GetTransformMatrix
 (
-const
-nsIFrame
-*
+ViewportType
+aViewportType
+RelativeTo
 aStopAtAncestor
 nsIFrame
 *
