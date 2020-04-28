@@ -7,6 +7,12 @@ mozproxy
 import
 get_playback
 from
+mozproxy
+.
+utils
+import
+LOG
+from
 mozperftest
 .
 layers
@@ -76,6 +82,22 @@ self
 proxy
 =
 None
+        
+LOG
+.
+info
+=
+self
+.
+info
+        
+LOG
+.
+error
+=
+self
+.
+error
     
 def
 setup

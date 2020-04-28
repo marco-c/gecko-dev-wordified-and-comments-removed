@@ -28,6 +28,12 @@ browser
 browsertime
 import
 add_options
+from
+mozperftest
+.
+utils
+import
+silence
 HERE
 =
 os
@@ -181,6 +187,9 @@ with
 browser
 as
 b
+silence
+(
+)
 :
             
 b
