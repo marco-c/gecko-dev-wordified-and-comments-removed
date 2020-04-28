@@ -3152,6 +3152,13 @@ NotifyPrivateBrowsingChanged
 (
 )
 ;
+void
+SetLoadGroupDefaultLoadFlags
+(
+nsLoadFlags
+aLoadFlags
+)
+;
 private
 :
 nsID
@@ -3505,9 +3512,6 @@ mAppType
 ;
 uint32_t
 mLoadType
-;
-uint32_t
-mDefaultLoadFlags
 ;
 uint32_t
 mFailedLoadType
