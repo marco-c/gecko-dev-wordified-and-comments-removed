@@ -253,8 +253,10 @@ align
 {
 AlignContent
 AlignItems
+AlignTracks
 JustifyContent
 JustifyItems
+JustifyTracks
 SelfAlignment
 }
 ;
@@ -762,6 +764,7 @@ position
 {
 GridAutoFlow
 GridTemplateAreas
+MasonryAutoFlow
 Position
 PositionOrAuto
 ZIndex

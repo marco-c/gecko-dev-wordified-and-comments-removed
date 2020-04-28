@@ -99,6 +99,7 @@ position
 {
 GridAutoFlow
 GridTemplateAreas
+MasonryAutoFlow
 }
 ;
 use

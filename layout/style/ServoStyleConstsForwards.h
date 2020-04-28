@@ -287,6 +287,11 @@ PropertyStyleAnimationValuePair
 class
 ComputedStyle
 ;
+enum
+LogicalAxis
+:
+uint8_t
+;
 class
 SeenPtrs
 ;
