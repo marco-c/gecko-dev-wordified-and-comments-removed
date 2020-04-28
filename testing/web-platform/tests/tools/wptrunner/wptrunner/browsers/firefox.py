@@ -3022,6 +3022,10 @@ stackfix_dir
 self
 .
 symbols_path
+                                                        
+hideErrors
+=
+True
 )
         
 else
