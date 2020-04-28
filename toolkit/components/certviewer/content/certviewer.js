@@ -2198,7 +2198,6 @@ append
 new
 AboutCertificateSection
 (
-certs
 )
 )
 ;

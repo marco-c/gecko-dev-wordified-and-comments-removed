@@ -63,11 +63,6 @@ TYPE_SERVER
 =
 8
 ;
-const
-TYPE_ANY
-=
-0xffff
-;
 var
 AboutCertViewerHandler
 =
@@ -116,12 +111,6 @@ TYPE_EMAIL
 ]
 [
 TYPE_SERVER
-]
-:
-[
-]
-[
-TYPE_ANY
 ]
 :
 [
