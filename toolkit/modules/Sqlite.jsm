@@ -10,9 +10,6 @@ EXPORTED_SYMBOLS
 "
 Sqlite
 "
-"
-Barriers
-"
 ]
 ;
 const
