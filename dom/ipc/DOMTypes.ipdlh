@@ -47,6 +47,10 @@ include
 IPCStream
 ;
 include
+protocol
+PIPCBlobInputStream
+;
+include
 ProtocolTypes
 ;
 include
@@ -924,7 +928,8 @@ TimedChannelInfo
 ?
 timedChannel
 ;
-nsIInputStream
+nullable
+PIPCBlobInputStream
 uploadStream
 ;
 bool

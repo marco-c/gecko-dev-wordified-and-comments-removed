@@ -698,6 +698,12 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+dom
+:
+:
+ContentParent
+*
+aParent
 )
 const
 ;

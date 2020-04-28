@@ -4987,6 +4987,9 @@ uint32_t
 aRedirectFlags
 uint32_t
 aLoadFlags
+ContentParent
+*
+aParent
 )
 const
 {
@@ -5404,6 +5407,7 @@ DocumentChannel
 .
 Serialize
 (
+aParent
 )
 )
 ;
@@ -6958,6 +6962,7 @@ args
 aDestinationProcess
 aRedirectFlags
 aLoadFlags
+cp
 )
 ;
 if
