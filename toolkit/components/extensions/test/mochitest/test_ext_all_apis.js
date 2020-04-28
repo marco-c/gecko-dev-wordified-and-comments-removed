@@ -351,6 +351,16 @@ permissions
 remove
 "
 "
+permissions
+.
+onAdded
+"
+"
+permissions
+.
+onRemoved
+"
+"
 runtime
 .
 getBackgroundPage
