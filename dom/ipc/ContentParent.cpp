@@ -23819,9 +23819,12 @@ PBrowserParent
 *
 aBrowser
 const
-uint64_t
+MaybeDiscarded
+<
+BrowsingContext
+>
 &
-aOuterWindowID
+aContext
 )
 {
 return
