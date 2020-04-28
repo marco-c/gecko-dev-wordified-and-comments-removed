@@ -2354,6 +2354,16 @@ reftest
 '
             
 '
+crashtest
+-
+qr
+'
+:
+'
+reftest
+'
+            
+'
 reftest
 -
 debug

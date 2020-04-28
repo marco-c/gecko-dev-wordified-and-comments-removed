@@ -66,6 +66,12 @@ cppunittest
 '
             
 '
+crashtest
+-
+qr
+'
+            
+'
 gtest
 '
             

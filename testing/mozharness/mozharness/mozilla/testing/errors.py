@@ -407,6 +407,14 @@ crashtest_summary
 _reftest_summary
     
 "
+crashtest
+-
+qr_summary
+"
+:
+_reftest_summary
+    
+"
 xpcshell_summary
 "
 :
