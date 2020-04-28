@@ -1841,7 +1841,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 root_space_and_clip
@@ -1856,10 +1856,6 @@ rect
 201
 .
 )
-vec
-!
-[
-]
 )
 ;
 let
@@ -2386,7 +2382,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 root_space_and_clip
@@ -2407,10 +2403,6 @@ rect
 .
 0
 )
-vec
-!
-[
-]
 )
 ;
 let
@@ -3013,7 +3005,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 root_space_and_clip
@@ -3034,10 +3026,6 @@ rect
 .
 0
 )
-vec
-!
-[
-]
 )
 ;
 let
@@ -3245,7 +3233,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 root_space_and_clip
@@ -3266,10 +3254,6 @@ rect
 .
 0
 )
-vec
-!
-[
-]
 )
 ;
 let
@@ -3519,7 +3503,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 root_space_and_clip
@@ -3540,10 +3524,6 @@ rect
 .
 0
 )
-vec
-!
-[
-]
 )
 ;
 let
@@ -6497,7 +6477,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 SpaceAndClipInfo
@@ -6522,12 +6502,6 @@ rect
 200
 .
 )
-None
-:
-:
-<
-ComplexClipRegion
->
 )
 ;
 builder
@@ -6598,7 +6572,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 SpaceAndClipInfo
@@ -6617,12 +6591,6 @@ rect
 90
 .
 )
-None
-:
-:
-<
-ComplexClipRegion
->
 )
 ;
 let
@@ -6833,7 +6801,7 @@ clip_id
 =
 builder
 .
-define_clip
+define_clip_rect
 (
 &
 SpaceAndClipInfo
@@ -6852,12 +6820,6 @@ rect
 100
 .
 )
-None
-:
-:
-<
-ComplexClipRegion
->
 )
 ;
 builder
