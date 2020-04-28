@@ -217,6 +217,8 @@ true
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2418,6 +2420,8 @@ false
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2449,6 +2453,8 @@ TileSize
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2477,6 +2483,8 @@ ImageDirtyRect
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2512,6 +2520,8 @@ TileSize
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2547,6 +2557,8 @@ BlobDirtyRect
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2583,7 +2595,9 @@ derive
 (
 Clone
 Debug
+Deserialize
 PartialEq
+Serialize
 )
 ]
 pub
@@ -2617,6 +2631,8 @@ derive
 Clone
 Debug
 Default
+Deserialize
+Serialize
 )
 ]
 pub
@@ -2638,7 +2654,9 @@ bitflags
 [
 derive
 (
+Deserialize
 MallocSizeOf
+Serialize
 )
 ]
 /
@@ -2673,6 +2691,8 @@ POINT_RELATIVE_TO_PIPELINE_VIEWPORT
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
@@ -4696,6 +4716,8 @@ raw
 derive
 (
 Clone
+Deserialize
+Serialize
 )
 ]
 pub
