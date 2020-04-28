@@ -108,7 +108,10 @@ txBufferingHandler
 TX_DECL_TXAXMLEVENTHANDLER
 protected
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txResultBuffer
 >

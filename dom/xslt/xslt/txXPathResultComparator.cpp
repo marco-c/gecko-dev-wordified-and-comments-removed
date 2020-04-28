@@ -232,7 +232,7 @@ txObject
 aResult
 )
 {
-nsAutoPtr
+UniquePtr
 <
 StringValue
 >
@@ -811,7 +811,7 @@ txObject
 aResult
 )
 {
-nsAutoPtr
+UniquePtr
 <
 NumberValue
 >

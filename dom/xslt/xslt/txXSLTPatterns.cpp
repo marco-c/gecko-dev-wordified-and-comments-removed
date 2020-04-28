@@ -1455,7 +1455,7 @@ getPrivateContext
 (
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txXPathNode
 >

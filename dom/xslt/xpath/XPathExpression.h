@@ -90,7 +90,10 @@ public
 :
 XPathExpression
 (
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 Expr
 >
@@ -278,7 +281,10 @@ aRv
 ;
 private
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 Expr
 >

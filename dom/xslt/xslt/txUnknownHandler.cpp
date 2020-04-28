@@ -744,7 +744,7 @@ eHTMLOutput
 eXMLOutput
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txAXMLEventHandler
 >
@@ -810,7 +810,7 @@ mFlushed
 =
 true
 ;
-nsAutoPtr
+UniquePtr
 <
 txResultBuffer
 >

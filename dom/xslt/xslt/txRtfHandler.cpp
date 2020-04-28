@@ -15,7 +15,7 @@ txResultTreeFragment
 :
 txResultTreeFragment
 (
-nsAutoPtr
+UniquePtr
 <
 txResultBuffer
 >

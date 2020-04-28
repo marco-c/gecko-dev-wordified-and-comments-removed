@@ -428,7 +428,10 @@ Step
 {
 public
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txPattern
 >
@@ -669,7 +672,10 @@ aNodeTest
 }
 private
 :
-nsAutoPtr
+mozilla
+:
+:
+UniquePtr
 <
 txNodeTest
 >

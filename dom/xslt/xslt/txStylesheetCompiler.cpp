@@ -1590,7 +1590,7 @@ mLevel
 )
 )
 {
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -2149,7 +2149,7 @@ return
 NS_OK
 ;
 }
-nsAutoPtr
+UniquePtr
 <
 txElementContext
 >
@@ -3139,7 +3139,7 @@ txStylesheetCompilerState
 :
 addInstruction
 (
-nsAutoPtr
+UniquePtr
 <
 txInstruction
 >
@@ -3295,7 +3295,7 @@ mObserver
 NS_ERROR_NOT_IMPLEMENTED
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 txToplevelItem
 >
@@ -4200,7 +4200,7 @@ compiler
 false
 )
 ;
-nsAutoPtr
+UniquePtr
 <
 FunctionCall
 >
