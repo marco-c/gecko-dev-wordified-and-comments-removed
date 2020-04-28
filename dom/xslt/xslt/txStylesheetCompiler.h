@@ -674,8 +674,13 @@ mTypeStack
 ;
 private
 :
+mozilla
+:
+:
+UniquePtr
+<
 txInstruction
-*
+>
 *
 mNextInstrPtr
 ;
