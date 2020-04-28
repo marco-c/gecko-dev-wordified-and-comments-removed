@@ -1269,15 +1269,6 @@ return
 NS_ERROR_FAILURE
 ;
 }
-nsCOMPtr
-<
-nsIObserver
->
-kungFuDeathGrip
-(
-aObserver
-)
-;
 return
 observerList
 -
