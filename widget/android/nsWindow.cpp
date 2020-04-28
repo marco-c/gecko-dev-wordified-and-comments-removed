@@ -11302,12 +11302,6 @@ mRefPoint
 ;
 hittest
 .
-mIgnoreRootScrollFrame
-=
-true
-;
-hittest
-.
 mInputSource
 =
 MouseEvent_Binding
