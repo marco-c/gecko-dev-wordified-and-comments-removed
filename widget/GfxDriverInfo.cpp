@@ -2688,6 +2688,12 @@ APPEND_RANGE
 0x9bcc
 )
 ;
+APPEND_RANGE
+(
+0x8a50
+0x8a5d
+)
+;
 break
 ;
 case
