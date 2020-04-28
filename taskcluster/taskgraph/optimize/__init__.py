@@ -2538,6 +2538,8 @@ schedules
 '
 bugbug
 -
+combined
+-
 high
 '
 )
