@@ -906,7 +906,7 @@ aPos
 .
 expr
 .
-forget
+release
 (
 )
 ;

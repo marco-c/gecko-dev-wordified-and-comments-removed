@@ -168,7 +168,7 @@ newPattern
 :
 pattern
 .
-forget
+release
 (
 )
 ;
@@ -1546,7 +1546,7 @@ aPattern
 =
 step
 .
-forget
+release
 (
 )
 ;

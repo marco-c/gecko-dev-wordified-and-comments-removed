@@ -661,7 +661,7 @@ aNodeTest
 {
 mNodeTest
 .
-forget
+release
 (
 )
 ;

@@ -1975,7 +1975,7 @@ get
 ;
 templ
 .
-forget
+release
 (
 )
 ;
@@ -2357,7 +2357,7 @@ get
 ;
 attrSet
 .
-forget
+release
 (
 )
 ;
@@ -2884,7 +2884,7 @@ importPtr
 =
 import
 .
-forget
+release
 (
 )
 ;
@@ -3819,7 +3819,7 @@ add
 (
 qname
 .
-forget
+release
 (
 )
 )
@@ -3890,7 +3890,7 @@ addToplevelItem
 (
 item
 .
-forget
+release
 (
 )
 )
@@ -4254,7 +4254,7 @@ rv
 ;
 sst
 .
-forget
+release
 (
 )
 ;
@@ -4265,7 +4265,7 @@ addToplevelItem
 (
 stripItem
 .
-forget
+release
 (
 )
 )
@@ -4474,7 +4474,7 @@ addToplevelItem
 (
 templ
 .
-forget
+release
 (
 )
 )
@@ -4724,7 +4724,7 @@ addToplevelItem
 (
 var
 .
-forget
+release
 (
 )
 )
@@ -5433,7 +5433,7 @@ rv
 ;
 instr
 .
-forget
+release
 (
 )
 ;
@@ -5493,7 +5493,7 @@ LocationStep
 (
 nt
 .
-forget
+release
 (
 )
 LocationStep
@@ -5562,7 +5562,7 @@ rv
 ;
 pushcontext
 .
-forget
+release
 (
 )
 ;
@@ -5684,7 +5684,7 @@ instr
 =
 loop
 .
-forget
+release
 (
 )
 ;
@@ -5889,7 +5889,7 @@ rv
 ;
 instr
 .
-forget
+release
 (
 )
 ;
@@ -6057,7 +6057,7 @@ rv
 ;
 instr
 .
-forget
+release
 (
 )
 ;
@@ -6423,7 +6423,7 @@ instr
 (
 copy
 .
-forget
+release
 (
 )
 )
@@ -7030,7 +7030,7 @@ instr
 (
 pushcontext
 .
-forget
+release
 (
 )
 )
@@ -7364,7 +7364,7 @@ instr
 (
 condGoto
 .
-forget
+release
 (
 )
 )
@@ -7533,7 +7533,7 @@ rv
 ;
 instr
 .
-forget
+release
 (
 )
 ;
@@ -8189,7 +8189,7 @@ instr
 (
 checkParam
 .
-forget
+release
 (
 )
 )
@@ -8317,7 +8317,7 @@ rv
 ;
 var
 .
-forget
+release
 (
 )
 ;
@@ -8438,7 +8438,7 @@ instr
 (
 var
 .
-forget
+release
 (
 )
 )
@@ -8602,7 +8602,7 @@ rv
 ;
 instr
 .
-forget
+release
 (
 )
 ;
@@ -8739,7 +8739,7 @@ LocationStep
 (
 nt
 .
-forget
+release
 (
 )
 LocationStep
@@ -9400,7 +9400,7 @@ rv
 ;
 var
 .
-forget
+release
 (
 )
 ;
@@ -9521,7 +9521,7 @@ instr
 (
 var
 .
-forget
+release
 (
 )
 )
@@ -9754,7 +9754,7 @@ instr
 (
 condGoto
 .
-forget
+release
 (
 )
 )
@@ -9831,7 +9831,7 @@ instr
 (
 gotoinstr
 .
-forget
+release
 (
 )
 )
@@ -10054,7 +10054,7 @@ rv
 ;
 var
 .
-forget
+release
 (
 )
 ;
@@ -10156,7 +10156,7 @@ instr
 (
 var
 .
-forget
+release
 (
 )
 )

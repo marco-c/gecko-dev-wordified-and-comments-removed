@@ -795,7 +795,7 @@ mResultHandler
 =
 handler
 .
-forget
+release
 (
 )
 ;

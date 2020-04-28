@@ -851,7 +851,7 @@ step
 >
 pattern
 .
-forget
+release
 (
 )
 ;

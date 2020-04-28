@@ -445,7 +445,7 @@ add
 (
 key
 .
-forget
+release
 (
 )
 )
