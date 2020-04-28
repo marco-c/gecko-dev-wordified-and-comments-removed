@@ -5317,7 +5317,10 @@ nsLayoutUtils
 :
 GetFramesForArea
 (
+RelativeTo
+{
 rootFrame
+}
 r
 frames
 {

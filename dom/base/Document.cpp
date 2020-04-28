@@ -58282,7 +58282,10 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+RelativeTo
+{
 rootFrame
+}
 pt
 {
 FrameForPointOption
