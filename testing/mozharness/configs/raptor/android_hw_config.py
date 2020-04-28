@@ -66,6 +66,14 @@ webroot
 "
 install
 -
+chrome
+-
+android
+"
+        
+"
+install
+-
 chromium
 -
 distribution

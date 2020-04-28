@@ -3262,22 +3262,6 @@ root
 ]
 =
 True
-        
-job
-[
-'
-run
-'
-]
-[
-'
-tooltool
--
-downloads
-'
-]
-=
-False
     
 configure_taskdesc_for_run
 (
