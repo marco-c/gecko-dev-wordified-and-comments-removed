@@ -6230,10 +6230,6 @@ aX
 aY
 aIgnoreRootScrollFrame
 aFlushLayout
-ViewportType
-:
-:
-Layout
 )
 ;
 el
@@ -16317,10 +16313,7 @@ GetEventCoordinatesRelativeTo
 (
 widget
 pt
-RelativeTo
-{
 rootFrame
-}
 )
 ;
 nsIFrame
@@ -16332,10 +16325,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 rootFrame
-}
 ptInRoot
 )
 ;
@@ -16359,10 +16349,7 @@ GetEventCoordinatesRelativeTo
 (
 widget
 pt
-RelativeTo
-{
 targetFrame
-}
 )
 ;
 nsresult

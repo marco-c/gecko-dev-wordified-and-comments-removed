@@ -218,7 +218,8 @@ GetAllowedTouchBehavior
 nsIWidget
 *
 aWidget
-RelativeTo
+nsIFrame
+*
 aRootFrame
 const
 LayoutDeviceIntPoint
@@ -273,6 +274,13 @@ GetFrameForPoint
 (
 aRootFrame
 relativePoint
+nsLayoutUtils
+:
+:
+FrameForPointOption
+:
+:
+IgnoreRootScrollFrame
 )
 ;
 if

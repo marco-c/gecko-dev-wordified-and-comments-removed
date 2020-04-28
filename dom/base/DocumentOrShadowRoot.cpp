@@ -2014,8 +2014,6 @@ FlushLayout
 aShouldFlushLayout
 Multiple
 aMultiple
-ViewportType
-aViewportType
 nsTArray
 <
 RefPtr
@@ -2186,10 +2184,7 @@ nsLayoutUtils
 :
 GetFramesForArea
 (
-{
 rootFrame
-aViewportType
-}
 aRect
 frames
 aOptions
@@ -2378,8 +2373,6 @@ FlushLayout
 aShouldFlushLayout
 Multiple
 aMultiple
-ViewportType
-aViewportType
 nsTArray
 <
 RefPtr
@@ -2464,7 +2457,6 @@ nsSize
 aOptions
 aShouldFlushLayout
 aMultiple
-aViewportType
 aNodes
 )
 ;
@@ -2490,10 +2482,6 @@ aX
 aY
 false
 true
-ViewportType
-:
-:
-Layout
 )
 ;
 }
@@ -2534,10 +2522,6 @@ Multiple
 :
 :
 Yes
-ViewportType
-:
-:
-Layout
 aElements
 )
 ;
@@ -2579,10 +2563,6 @@ Multiple
 :
 :
 Yes
-ViewportType
-:
-:
-Layout
 aNodes
 )
 ;
@@ -2626,10 +2606,6 @@ Multiple
 :
 :
 No
-ViewportType
-:
-:
-Layout
 nodes
 )
 ;
@@ -2657,8 +2633,6 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-ViewportType
-aViewportType
 )
 {
 EnumSet
@@ -2718,7 +2692,6 @@ Multiple
 :
 :
 No
-aViewportType
 elements
 )
 ;
@@ -2912,10 +2885,6 @@ Multiple
 :
 :
 Yes
-ViewportType
-:
-:
-Layout
 aReturn
 )
 ;

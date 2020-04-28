@@ -2146,14 +2146,7 @@ frame
 >
 GetTransformMatrix
 (
-ViewportType
-:
-:
-Layout
-RelativeTo
-{
 nullptr
-}
 &
 parent
 )

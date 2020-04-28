@@ -15,13 +15,6 @@ LayersTypes
 .
 h
 "
-#
-include
-"
-nsLayoutUtils
-.
-h
-"
 class
 nsIFrame
 ;
@@ -46,7 +39,8 @@ GetAllowedTouchBehavior
 nsIWidget
 *
 aWidget
-RelativeTo
+nsIFrame
+*
 aRootFrame
 const
 LayoutDeviceIntPoint

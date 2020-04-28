@@ -1678,10 +1678,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 kid
-}
 point
 )
 ;

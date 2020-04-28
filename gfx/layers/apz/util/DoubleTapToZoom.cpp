@@ -161,14 +161,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 rootFrame
-ViewportType
-:
-:
-Visual
-}
 CSSPoint
 :
 :
@@ -181,6 +174,10 @@ FrameForPointOption
 :
 :
 IgnorePaintSuppression
+FrameForPointOption
+:
+:
+IgnoreRootScrollFrame
 }
 )
 ;

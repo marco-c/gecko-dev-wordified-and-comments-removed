@@ -58282,10 +58282,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 rootFrame
-}
 pt
 {
 FrameForPointOption
@@ -58357,10 +58354,7 @@ GetEventCoordinatesRelativeTo
 (
 widget
 refPoint
-RelativeTo
-{
 ptFrame
-}
 )
 ;
 nsFrame

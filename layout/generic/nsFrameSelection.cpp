@@ -2291,10 +2291,7 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
-RelativeTo
-{
 rootFrame
-}
 ptInRoot
 )
 ;

@@ -29149,14 +29149,8 @@ nsLayoutUtils
 :
 GetTransformToAncestor
 (
-RelativeTo
-{
 aFrame
-}
-RelativeTo
-{
 root
-}
 )
 *
 transform

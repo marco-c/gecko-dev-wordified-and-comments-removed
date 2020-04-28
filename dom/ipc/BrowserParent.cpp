@@ -12583,14 +12583,6 @@ pt
 ;
 #
 endif
-ViewportType
-viewportType
-=
-ViewportType
-:
-:
-Visual
-;
 nsPoint
 pt
 =
@@ -12612,7 +12604,6 @@ TranslateViewToWidget
 presContext
 rootView
 pt
-viewportType
 widget
 )
 ;

@@ -27,15 +27,6 @@ h
 #
 include
 "
-mozilla
-/
-RelativeTo
-.
-h
-"
-#
-include
-"
 nsClassHashtable
 .
 h
@@ -457,8 +448,6 @@ bool
 aIgnoreRootScrollFrame
 bool
 aFlushLayout
-ViewportType
-aViewportType
 )
 ;
 void

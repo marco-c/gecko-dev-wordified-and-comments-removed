@@ -511,15 +511,12 @@ nsLayoutUtils
 :
 GetFramesForArea
 (
-RelativeTo
-{
 presShell
 -
 >
 GetRootFrame
 (
 )
-}
 scrollPort
 frames
 nsLayoutUtils

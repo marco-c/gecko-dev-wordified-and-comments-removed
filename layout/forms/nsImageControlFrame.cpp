@@ -687,10 +687,7 @@ nsLayoutUtils
 GetEventCoordinatesRelativeTo
 (
 aEvent
-RelativeTo
-{
 this
-}
 )
 ;
 TranslateEventCoords
