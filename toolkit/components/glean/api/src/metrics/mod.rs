@@ -18,6 +18,9 @@ mod
 string
 ;
 mod
+string_list
+;
+mod
 uuid
 ;
 pub
@@ -49,6 +52,16 @@ string
 :
 :
 StringMetric
+;
+pub
+use
+self
+:
+:
+string_list
+:
+:
+StringListMetric
 ;
 pub
 use
