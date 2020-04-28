@@ -1809,7 +1809,13 @@ mLastPaintRequestMetrics
 FrameMetrics
 mExpectedGeckoMetrics
 ;
+std
+:
+:
+deque
+<
 SampledAPZCState
+>
 mSampledState
 ;
 UniquePtr
