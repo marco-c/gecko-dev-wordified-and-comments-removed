@@ -476,6 +476,15 @@ TRRThread_locked
 (
 )
 ;
+bool
+MaybeSetPrivateURI
+(
+const
+nsACString
+&
+aURI
+)
+;
 void
 ProcessURITemplate
 (
@@ -520,6 +529,11 @@ mConfirmationNS
 ;
 nsCString
 mBootstrapAddr
+;
+bool
+mURISetByDetection
+=
+false
 ;
 Atomic
 <
