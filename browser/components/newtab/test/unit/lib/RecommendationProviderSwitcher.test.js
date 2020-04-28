@@ -177,11 +177,6 @@ feed
 .
 setAffinityProvider
 (
-undefined
-undefined
-undefined
-undefined
-undefined
 )
 ;
 assert
@@ -218,11 +213,6 @@ feed
 .
 setAffinityProvider
 (
-undefined
-undefined
-undefined
-undefined
-undefined
 )
 ;
 assert

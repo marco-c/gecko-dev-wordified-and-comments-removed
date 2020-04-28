@@ -420,6 +420,12 @@ instance
 new
 PersonalityProvider
 (
+)
+;
+instance
+.
+setAffinities
+(
 TIME_SEGMENTS
 PARAMETER_SETS
 )
