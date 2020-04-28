@@ -4104,12 +4104,36 @@ append
 test_name
 )
         
+test_env
+=
+os
+.
+environ
+.
+copy
+(
+)
+        
+test_env
+[
+"
+TOPSRCDIR
+"
+]
+=
+self
+.
+topsrcdir
+        
 return
 subprocess
 .
 call
 (
 jsapi_tests_cmd
+env
+=
+test_env
 )
     
 def
