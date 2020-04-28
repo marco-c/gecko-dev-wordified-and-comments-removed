@@ -18,13 +18,6 @@ txNodeSet
 .
 h
 "
-#
-include
-"
-nsAutoPtr
-.
-h
-"
 class
 txNodeSetContext
 :

@@ -7,13 +7,6 @@ TRANSFRMX_TXMOZILLAXSLTPROCESSOR_H
 #
 include
 "
-nsAutoPtr
-.
-h
-"
-#
-include
-"
 nsStubMutationObserver
 .
 h
