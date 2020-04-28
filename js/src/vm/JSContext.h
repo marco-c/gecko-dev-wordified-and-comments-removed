@@ -4650,7 +4650,7 @@ JS
 AutoGCRooter
 :
 :
-Tag
+Kind
 :
 :
 Array
