@@ -783,13 +783,6 @@ h
 #
 include
 "
-nsAgg
-.
-h
-"
-#
-include
-"
 nsAutoRef
 .
 h
