@@ -149,31 +149,18 @@ self
 .
 remote_test_root
 =
-os
-.
-path
-.
-abspath
-(
-            
-os
-.
-path
-.
-join
-(
-os
-.
-sep
 "
-sdcard
-"
-"
+/
+data
+/
+local
+/
+tmp
+/
+tests
+/
 raptor
 "
-)
-        
-)
         
 self
 .
@@ -328,6 +315,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -339,6 +329,12 @@ mkdir
 self
 .
 remote_test_root
+parents
+=
+True
+root
+=
+True
 )
         
 self
@@ -2727,6 +2723,9 @@ force
 =
 True
 recursive
+=
+True
+root
 =
 True
 )
