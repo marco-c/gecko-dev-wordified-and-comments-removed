@@ -1606,8 +1606,6 @@ mName
 )
 )
 ;
-rv
-=
 addInstruction
 (
 std
@@ -1617,12 +1615,6 @@ move
 (
 instr
 )
-)
-;
-NS_ENSURE_SUCCESS
-(
-rv
-rv
 )
 ;
 mInScopeVariables
@@ -3133,7 +3125,7 @@ mNextInstrPtr
 0
 ;
 }
-nsresult
+void
 txStylesheetCompilerState
 :
 :
@@ -3224,9 +3216,6 @@ mGotoTargetPointers
 Clear
 (
 )
-;
-return
-NS_OK
 ;
 }
 nsresult

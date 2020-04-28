@@ -428,7 +428,7 @@ closeInstructionContainer
 (
 )
 ;
-nsresult
+void
 addInstruction
 (
 nsAutoPtr
