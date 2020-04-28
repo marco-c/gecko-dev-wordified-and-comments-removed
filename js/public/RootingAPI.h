@@ -27,6 +27,15 @@ include
 "
 mozilla
 /
+EnumeratedArray
+.
+h
+"
+#
+include
+"
+mozilla
+/
 GuardObjects
 .
 h
