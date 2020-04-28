@@ -929,9 +929,6 @@ uint64_t
 channelId
 ;
 uint32_t
-loadFlags
-;
-uint32_t
 cacheKey
 ;
 bool
@@ -950,6 +947,12 @@ outerWindowId
 ;
 bool
 hasValidTransientUserAction
+;
+bool
+uriModified
+;
+bool
+isXFOError
 ;
 }
 ;
