@@ -19020,6 +19020,21 @@ e
 :
                 
 raise
+            
+if
+'
+Directory
+not
+empty
+'
+in
+str
+(
+e
+)
+:
+                
+raise
     
 def
 rmdir
