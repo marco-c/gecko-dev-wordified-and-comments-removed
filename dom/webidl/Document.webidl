@@ -1854,6 +1854,9 @@ mozSetImageElement
 >
 *
 /
+[
+UseCounter
+]
 void
 mozSetImageElement
 (
