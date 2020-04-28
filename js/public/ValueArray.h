@@ -231,6 +231,14 @@ i
 )
 ;
 }
+void
+trace
+(
+JSTracer
+*
+trc
+)
+;
 MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
