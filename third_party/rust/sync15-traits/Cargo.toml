@@ -135,17 +135,3 @@ failure
 .
 6
 "
-interrupt
--
-support
-=
-{
-path
-=
-"
-.
-.
-/
-interrupt
-"
-}

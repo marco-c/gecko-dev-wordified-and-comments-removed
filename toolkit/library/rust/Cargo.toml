@@ -350,17 +350,6 @@ shared
 glean
 "
 ]
-new_webext_storage
-=
-[
-"
-gkrust
--
-shared
-/
-new_webext_storage
-"
-]
 [
 dependencies
 ]

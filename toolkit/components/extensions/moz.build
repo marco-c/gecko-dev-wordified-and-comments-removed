@@ -267,9 +267,6 @@ DIRS
 schemas
 '
 '
-storage
-'
-'
 webrequest
 '
 ]

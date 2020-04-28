@@ -7,9 +7,6 @@ rust_2018_idioms
 )
 ]
 mod
-bridged_engine
-;
-mod
 changeset
 ;
 pub
@@ -32,16 +29,6 @@ store
 pub
 mod
 telemetry
-;
-pub
-use
-bridged_engine
-:
-:
-{
-ApplyResults
-BridgedEngine
-}
 ;
 pub
 use
