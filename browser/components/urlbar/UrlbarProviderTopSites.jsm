@@ -414,6 +414,11 @@ url
 link
 .
 url
+isPinned
+:
+link
+.
+isPinned
 title
 :
 link
@@ -513,6 +518,11 @@ icon
 site
 .
 favicon
+isPinned
+:
+site
+.
+isPinned
 }
 )
 )
@@ -804,6 +814,11 @@ icon
 site
 .
 favicon
+isPinned
+:
+site
+.
+isPinned
 }
 )
 )
