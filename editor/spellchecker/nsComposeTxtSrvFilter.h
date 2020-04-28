@@ -14,6 +14,9 @@ UniquePtr
 h
 "
 class
+nsINode
+;
+class
 nsComposeTxtSrvFilter
 final
 {

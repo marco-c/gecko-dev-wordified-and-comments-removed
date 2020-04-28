@@ -37,6 +37,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -3799,6 +3808,9 @@ const
 {
 RefPtr
 <
+dom
+:
+:
 Document
 >
 document

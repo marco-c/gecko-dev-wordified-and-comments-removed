@@ -33,6 +33,15 @@ h
 #
 include
 "
+mozilla
+/
+TextEditor
+.
+h
+"
+#
+include
+"
 nsDebug
 .
 h

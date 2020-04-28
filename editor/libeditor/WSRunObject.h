@@ -1698,6 +1698,9 @@ get
 )
 ;
 }
+dom
+:
+:
 Element
 *
 GetEditingHost
@@ -2444,6 +2447,9 @@ mScanEndPoint
 ;
 RefPtr
 <
+dom
+:
+:
 Element
 >
 mEditingHost
@@ -2811,6 +2817,9 @@ Element
 >
 InsertBreak
 (
+dom
+:
+:
 Selection
 &
 aSelection

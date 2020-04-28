@@ -154,6 +154,13 @@ h
 #
 include
 "
+nsIEditorSpellCheck
+.
+h
+"
+#
+include
+"
 nsINode
 .
 h

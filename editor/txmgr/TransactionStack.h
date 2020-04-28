@@ -7,6 +7,15 @@ mozilla_TransactionStack_h
 #
 include
 "
+mozilla
+/
+AlreadyAddRefed
+.
+h
+"
+#
+include
+"
 nsDeque
 .
 h

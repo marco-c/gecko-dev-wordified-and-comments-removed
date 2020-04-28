@@ -25,6 +25,15 @@ include
 "
 mozilla
 /
+SelectionState
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WeakPtr
 .
 h
@@ -32,6 +41,9 @@ h
 namespace
 mozilla
 {
+class
+EditorBase
+;
 class
 PlaceholderTransaction
 final

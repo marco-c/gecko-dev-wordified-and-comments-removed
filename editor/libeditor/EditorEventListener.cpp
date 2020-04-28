@@ -64,6 +64,15 @@ include
 "
 mozilla
 /
+HTMLEditor
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IMEStateManager
 .
 h
