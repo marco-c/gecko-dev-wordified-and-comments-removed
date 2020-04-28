@@ -11673,7 +11673,7 @@ eNone
 nsIEditor
 :
 :
-eStrip
+eNoStrip
 nullptr
 )
 ;
