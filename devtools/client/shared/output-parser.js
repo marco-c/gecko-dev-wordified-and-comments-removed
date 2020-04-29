@@ -7379,6 +7379,16 @@ val
 ;
 swatch
 .
+parentNode
+.
+dataset
+.
+color
+=
+val
+;
+swatch
+.
 emit
 (
 "
