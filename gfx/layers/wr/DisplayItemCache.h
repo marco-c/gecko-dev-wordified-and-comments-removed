@@ -221,6 +221,11 @@ DisplayItemCache
 )
 ;
 void
+Clear
+(
+)
+;
+void
 SetCapacity
 (
 const
@@ -423,11 +428,6 @@ bool
 mUsed
 ;
 }
-;
-void
-ClearCache
-(
-)
 ;
 void
 FreeUnusedSlots

@@ -303,7 +303,7 @@ BeginTransaction
 (
 )
 ;
-void
+bool
 EndTransaction
 (
 nsTArray

@@ -479,7 +479,7 @@ aRenderRoot
 )
 ;
 }
-void
+bool
 WebRenderBridgeChild
 :
 :
@@ -618,6 +618,9 @@ mSentDisplayList
 =
 true
 ;
+bool
+ret
+=
 this
 -
 >
@@ -658,6 +661,9 @@ Clear
 mIsInTransaction
 =
 false
+;
+return
+ret
 ;
 }
 void
