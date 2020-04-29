@@ -2259,6 +2259,9 @@ is_file
 self
 .
 remoteLog
+root
+=
+True
 )
 :
             
@@ -2275,7 +2278,6 @@ sleep
 )
         
 if
-not
 self
 .
 device
@@ -2285,7 +2287,32 @@ is_file
 self
 .
 remoteLog
+root
+=
+True
 )
+:
+            
+self
+.
+device
+.
+chmod
+(
+self
+.
+remoteLog
+mask
+=
+"
+666
+"
+root
+=
+True
+)
+        
+else
 :
             
 print
