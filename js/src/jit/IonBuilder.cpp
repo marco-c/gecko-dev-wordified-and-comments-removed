@@ -21206,11 +21206,11 @@ pop
 (
 )
 ;
-MInstruction
+MToNumeric
 *
 ins
 =
-MUnaryCache
+MToNumeric
 :
 :
 New
@@ -21219,13 +21219,6 @@ alloc
 (
 )
 popped
-)
-;
-ins
--
->
-setResultTypeSet
-(
 types
 )
 ;
