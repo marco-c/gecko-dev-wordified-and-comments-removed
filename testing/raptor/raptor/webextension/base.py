@@ -588,9 +588,17 @@ timeout
 =
 60
         
-elapsed_time
+end_time
 =
-0
+time
+.
+time
+(
+)
++
+timeout
+-
+5
         
 while
 not
@@ -722,23 +730,16 @@ not
 self
 .
 debug_mode
-:
-                
-elapsed_time
-+
-=
-1
-                
-if
-elapsed_time
->
+and
+end_time
+<
+time
+.
+time
 (
-timeout
 )
--
-5
 :
-                    
+                
 self
 .
 control_server
@@ -746,7 +747,7 @@ control_server
 wait_for_quit
 (
 )
-                    
+                
 if
 not
 self
@@ -755,7 +756,7 @@ control_server
 .
 is_webextension_loaded
 :
-                        
+                    
 raise
 RuntimeError
 (
@@ -768,11 +769,11 @@ failed
 !
 "
 )
-                    
+                
 raise
 RuntimeError
 (
-                        
+                    
 "
 Test
 failed
@@ -780,7 +781,7 @@ to
 finish
 .
 "
-                        
+                    
 "
 Application
 timed
@@ -795,7 +796,7 @@ format
 (
 timeout
 )
-                    
+                
 )
         
 if
