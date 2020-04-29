@@ -6095,16 +6095,6 @@ true
 mirror
 :
 always
-#
-If
-set
-use
-DocumentChannel
-with
-parent
-process
-'
-sDocShell
 -
 name
 :
@@ -6120,7 +6110,7 @@ type
 bool
 value
 :
-true
+false
 mirror
 :
 always
