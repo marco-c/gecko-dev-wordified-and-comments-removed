@@ -4998,12 +4998,6 @@ val
 allowTrim
 )
 {
-this
-.
-_untrimmedValue
-=
-val
-;
 let
 originalUrl
 =
@@ -5026,6 +5020,12 @@ originalUrl
 displaySpec
 ;
 }
+this
+.
+_untrimmedValue
+=
+val
+;
 if
 (
 allowTrim
