@@ -72,6 +72,17 @@ suite
 geckoview
 -
 junit
+variants
+:
+[
+"
+geckoview
+-
+e10s
+-
+multi
+"
+]
 treeherder
 -
 symbol
