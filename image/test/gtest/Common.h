@@ -1696,6 +1696,11 @@ GreenWebPTestCase
 )
 ;
 ImageTestCase
+GreenAVIFTestCase
+(
+)
+;
+ImageTestCase
 LargeWebPTestCase
 (
 )
