@@ -859,8 +859,6 @@ delay
 =
 INFINITE
 ;
-AUTO_PROFILER_THREAD_SLEEP
-;
 mozilla
 :
 :

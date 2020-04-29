@@ -22,6 +22,13 @@ h
 #
 include
 "
+GeckoProfiler
+.
+h
+"
+#
+include
+"
 gfxPlatform
 .
 h
@@ -3324,6 +3331,11 @@ break
 }
 DWORD
 result
+;
+{
+AUTO_PROFILER_THREAD_SLEEP
+;
+result
 =
 :
 :
@@ -3338,6 +3350,7 @@ MOZ_QS_ALLEVENT
 waitFlags
 )
 ;
+}
 NS_WARNING_ASSERTION
 (
 result
