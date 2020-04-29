@@ -321,6 +321,7 @@ getTokenFromAssertion
 (
 assertion
 scope
+ttl
 )
 {
 if
@@ -381,6 +382,7 @@ response_type
 "
 token
 "
+ttl
 }
 ;
 return

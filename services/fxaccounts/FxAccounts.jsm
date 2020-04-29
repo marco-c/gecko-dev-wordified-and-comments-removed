@@ -5717,6 +5717,7 @@ async
 _doTokenFetch
 (
 scopeString
+ttl
 )
 {
 let
@@ -5758,6 +5759,7 @@ getTokenFromAssertion
 (
 assertion
 scopeString
+ttl
 )
 ;
 token
@@ -5843,6 +5845,7 @@ getTokenFromAssertion
 (
 assertion
 scopeString
+ttl
 )
 ;
 token
@@ -6041,6 +6044,9 @@ this
 _doTokenFetch
 (
 scopeString
+options
+.
+ttl
 )
 .
 then
