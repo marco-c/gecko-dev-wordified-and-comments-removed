@@ -94,6 +94,7 @@ dlfcn
 .
 h
 >
+static
 const
 char
 *
