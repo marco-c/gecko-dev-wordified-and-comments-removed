@@ -1517,9 +1517,9 @@ bailoutEntries
 size_t
 constants
 size_t
-safepointIndexEntries
+safepointIndices
 size_t
-osiIndexEntries
+osiIndices
 size_t
 icEntries
 size_t
@@ -2266,7 +2266,7 @@ copySafepointIndices
 const
 CodegenSafepointIndex
 *
-firstSafepointIndex
+si
 )
 ;
 void
@@ -2275,7 +2275,7 @@ copyOsiIndices
 const
 OsiIndex
 *
-firstOsiIndex
+oi
 )
 ;
 void
@@ -2293,7 +2293,7 @@ copyICEntries
 const
 uint32_t
 *
-caches
+icEntries
 )
 ;
 void
