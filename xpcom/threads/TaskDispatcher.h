@@ -832,6 +832,14 @@ GetCurrent
 if
 (
 currentThread
+&
+&
+currentThread
+-
+>
+MightHaveTailTasks
+(
+)
 )
 {
 currentThread
