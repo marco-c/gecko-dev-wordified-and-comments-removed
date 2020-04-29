@@ -688,6 +688,9 @@ class
 SafepointWriter
 ;
 class
+CodegenSafepointIndex
+;
+class
 SafepointIndex
 ;
 class
@@ -1934,7 +1937,7 @@ void
 copySafepointIndices
 (
 const
-SafepointIndex
+CodegenSafepointIndex
 *
 firstSafepointIndex
 )

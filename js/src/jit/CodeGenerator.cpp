@@ -66128,7 +66128,7 @@ scriptCounts_
 ;
 for
 (
-SafepointIndex
+CodegenSafepointIndex
 &
 index
 :

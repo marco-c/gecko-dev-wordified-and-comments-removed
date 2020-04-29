@@ -230,7 +230,7 @@ js
 :
 Vector
 <
-SafepointIndex
+CodegenSafepointIndex
 0
 SystemAllocPolicy
 >
@@ -522,7 +522,7 @@ js
 :
 Vector
 <
-SafepointIndex
+CodegenSafepointIndex
 8
 SystemAllocPolicy
 >
