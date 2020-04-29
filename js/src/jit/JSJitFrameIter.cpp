@@ -1257,7 +1257,7 @@ uint8_t
 *
 spillAlign
 =
-alignDoubleSpillWithOffset
+alignDoubleSpill
 (
 reinterpret_cast
 <
@@ -1267,7 +1267,6 @@ uint8_t
 (
 spill
 )
-0
 )
 ;
 char
