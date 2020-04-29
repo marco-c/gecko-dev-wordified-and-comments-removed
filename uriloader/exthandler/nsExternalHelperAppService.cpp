@@ -2201,17 +2201,6 @@ Image
 "
 }
 {
-IMAGE_AVIF
-"
-avif
-"
-"
-AV1
-Image
-File
-"
-}
-{
 MESSAGE_RFC822
 "
 eml
