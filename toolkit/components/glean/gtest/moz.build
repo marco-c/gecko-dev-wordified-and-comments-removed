@@ -1,0 +1,17 @@
+UNIFIED_SOURCES
++
+=
+[
+'
+TestFogInit
+.
+cpp
+'
+]
+FINAL_LIBRARY
+=
+'
+xul
+-
+gtest
+'
