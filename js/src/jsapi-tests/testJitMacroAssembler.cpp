@@ -1296,9 +1296,11 @@ lhsOutput
 rhs
 &
 &
+*
 lhsInput
 !
 =
+*
 rhsInput
 )
 {
@@ -1371,6 +1373,14 @@ lhsOutput
 outputFail
 )
 ;
+if
+(
+lhsOutput
+!
+=
+rhs
+)
+{
 masm
 .
 branch32
@@ -1388,6 +1398,7 @@ rhs
 clobberRhs
 )
 ;
+}
 if
 (
 lhsOutput
