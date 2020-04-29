@@ -16,6 +16,10 @@ pub
 struct
 BooleanMetric
 (
+pub
+(
+crate
+)
 glean_core
 :
 :

@@ -5,6 +5,7 @@ glean_core
 :
 {
 CommonMetricData
+ErrorType
 Lifetime
 }
 ;
@@ -13,6 +14,9 @@ boolean
 ;
 mod
 counter
+;
+mod
+labeled
 ;
 mod
 string
@@ -42,6 +46,16 @@ counter
 :
 :
 CounterMetric
+;
+pub
+use
+self
+:
+:
+labeled
+:
+:
+LabeledMetric
 ;
 pub
 use
