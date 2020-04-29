@@ -4061,11 +4061,7 @@ bool
 HasStoragePermission
 (
 )
-{
-return
-mHasStoragePermission
 ;
-}
 inline
 void
 Changed
