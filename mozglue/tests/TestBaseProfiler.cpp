@@ -357,8 +357,6 @@ MaskValue
 =
 =
 0
-"
-"
 )
 ;
 constexpr
@@ -404,8 +402,6 @@ MaskValue
 =
 =
 0xFFu
-"
-"
 )
 ;
 constexpr
@@ -451,8 +447,6 @@ MaskValue
 =
 =
 0xFFFFFFFFu
-"
-"
 )
 ;
 constexpr
@@ -759,8 +753,6 @@ Value
 =
 =
 1
-"
-"
 )
 ;
 constexpr
@@ -810,8 +802,6 @@ MaskValue
 =
 =
 0
-"
-"
 )
 ;
 static_assert
@@ -830,8 +820,6 @@ Value
 =
 =
 128
-"
-"
 )
 ;
 constexpr
@@ -881,8 +869,6 @@ MaskValue
 =
 =
 127
-"
-"
 )
 ;
 static_assert
@@ -901,8 +887,6 @@ Value
 =
 =
 0x80000000u
-"
-"
 )
 ;
 constexpr
@@ -952,8 +936,6 @@ MaskValue
 =
 =
 0x7FFFFFFFu
-"
-"
 )
 ;
 struct
