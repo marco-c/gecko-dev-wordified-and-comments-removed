@@ -1257,14 +1257,6 @@ reg
 )
 ;
 void
-Push
-(
-const
-Register64
-reg
-)
-;
-void
 PushValue
 (
 const
