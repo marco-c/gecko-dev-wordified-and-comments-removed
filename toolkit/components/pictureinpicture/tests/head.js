@@ -166,7 +166,7 @@ domWindowOpened
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 null
 )
@@ -258,17 +258,6 @@ win
 =
 await
 domWindowOpened
-;
-await
-BrowserTestUtils
-.
-waitForEvent
-(
-win
-"
-load
-"
-)
 ;
 await
 win
@@ -1647,7 +1636,7 @@ domWindowOpened
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 null
 )

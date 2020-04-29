@@ -168,7 +168,7 @@ domWindowOpened
 =
 BrowserTestUtils
 .
-domWindowOpened
+domWindowOpenedAndLoaded
 (
 null
 )
