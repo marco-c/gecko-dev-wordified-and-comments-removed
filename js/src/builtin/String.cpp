@@ -18498,9 +18498,6 @@ String_replace
 2
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_SELF_HOSTED_FN
 (
 "
@@ -18512,8 +18509,6 @@ String_replaceAll
 2
 0
 )
-#
-endif
 JS_SELF_HOSTED_FN
 (
 "
