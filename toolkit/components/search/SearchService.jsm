@@ -10313,6 +10313,10 @@ name
 ;
 if
 (
+!
+gModernConfig
+&
+&
 existingEngine
 &
 &
