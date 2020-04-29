@@ -623,7 +623,7 @@ mDirection
 aDir
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 SetAnchorFocusToRange
 (
@@ -632,6 +632,7 @@ nsRange
 aRange
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 ReplaceAnchorFocusRange
 (
