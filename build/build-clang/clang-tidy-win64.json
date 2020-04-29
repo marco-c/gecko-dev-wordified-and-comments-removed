@@ -99,7 +99,7 @@ errors
 patch
 "
 "
-revert_D69573_clang_10
+clang_format_10
 .
 patch
 "
