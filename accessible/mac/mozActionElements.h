@@ -44,7 +44,7 @@ mozPaneAccessible
 mozAccessible
 end
 interface
-mozSliderAccessible
+mozIncrementableAccessible
 :
 mozAccessible
 end
