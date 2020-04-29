@@ -145,6 +145,12 @@ security
 ssl3
 .
 "
+"
+security
+.
+tls13
+.
+"
 ]
 ;
 ChromeUtils
