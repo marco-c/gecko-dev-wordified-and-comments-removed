@@ -52,7 +52,7 @@ toolbox
 "
 )
 ;
-var
+const
 {
 Task
 }
@@ -68,7 +68,7 @@ task
 "
 )
 ;
-var
+const
 asyncStorage
 =
 require
