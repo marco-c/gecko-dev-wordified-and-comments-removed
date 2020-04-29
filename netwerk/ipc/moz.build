@@ -432,6 +432,14 @@ http
 '
 '
 /
+security
+/
+manager
+/
+ssl
+'
+'
+/
 xpcom
 /
 threads
