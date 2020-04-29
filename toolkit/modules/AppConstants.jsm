@@ -862,6 +862,17 @@ else
 false
 #
 endif
+MOZ_NEW_WEBEXT_STORAGE
+:
+#
+ifdef
+MOZ_NEW_WEBEXT_STORAGE
+true
+#
+else
+false
+#
+endif
 }
 )
 ;
