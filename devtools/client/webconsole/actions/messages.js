@@ -78,6 +78,7 @@ MESSAGES_CLEAR_LOGPOINT
 MESSAGE_OPEN
 MESSAGE_CLOSE
 MESSAGE_TYPE
+MESSAGE_REMOVE
 MESSAGE_UPDATE_PAYLOAD
 PRIVATE_MESSAGES_CLEAR
 }
@@ -377,6 +378,21 @@ data
 ;
 }
 function
+messageRemove
+(
+id
+)
+{
+return
+{
+type
+:
+MESSAGE_REMOVE
+id
+}
+;
+}
+function
 networkMessageUpdate
 (
 packet
@@ -445,6 +461,7 @@ messagesClear
 messagesClearLogpoint
 messageOpen
 messageClose
+messageRemove
 messageGetMatchingElements
 messageUpdatePayload
 networkMessageUpdate
