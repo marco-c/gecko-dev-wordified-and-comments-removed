@@ -25246,6 +25246,10 @@ right
 type
 )
 {
+setCommutative
+(
+)
+;
 }
 MAdd
 (
@@ -25272,10 +25276,6 @@ Int32
 setTruncateKind
 (
 truncateKind
-)
-;
-setCommutative
-(
 )
 ;
 }
@@ -25336,13 +25336,6 @@ ret
 setTruncateKind
 (
 Truncate
-)
-;
-ret
--
->
-setCommutative
-(
 )
 ;
 }
@@ -25678,6 +25671,10 @@ mode_
 mode
 )
 {
+setCommutative
+(
+)
+;
 if
 (
 mode
@@ -25693,10 +25690,6 @@ false
 setTruncateKind
 (
 Truncate
-)
-;
-setCommutative
-(
 )
 ;
 }
