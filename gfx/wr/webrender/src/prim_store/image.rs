@@ -1428,9 +1428,6 @@ Image
 {
 data_handle
 image_instance_index
-is_compositor_surface
-:
-false
 }
 }
 }
