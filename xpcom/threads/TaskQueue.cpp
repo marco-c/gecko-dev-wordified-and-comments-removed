@@ -397,6 +397,14 @@ RequiresTailDispatch
 (
 currentThread
 )
+&
+&
+currentThread
+-
+>
+IsTailDispatcherAvailable
+(
+)
 )
 {
 MOZ_ASSERT

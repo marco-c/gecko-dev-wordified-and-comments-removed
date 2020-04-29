@@ -228,6 +228,16 @@ return
 true
 ;
 }
+virtual
+bool
+IsTailDispatcherAvailable
+(
+)
+{
+return
+true
+;
+}
 nsresult
 TailDispatchTasksFor
 (
