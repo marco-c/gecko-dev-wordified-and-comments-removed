@@ -80,8 +80,9 @@ virtual
 ShutdownObserver
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 template

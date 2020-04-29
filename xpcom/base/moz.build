@@ -210,11 +210,6 @@ nsAlgorithm
 h
 '
 '
-nsAutoPtr
-.
-h
-'
-'
 nsAutoRef
 .
 h
