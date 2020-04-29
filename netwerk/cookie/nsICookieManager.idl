@@ -264,14 +264,6 @@ jsval
 aOriginAttributes
 )
 ;
-void
-importCookies
-(
-in
-nsIFile
-aCookieFile
-)
-;
 Array
 <
 nsICookie
