@@ -98,7 +98,7 @@ void
 CreateStoragePermissionKey
 (
 const
-nsCString
+nsACString
 &
 aTrackingOrigin
 nsACString
@@ -220,6 +220,18 @@ aTrackingOrigin
 static
 bool
 IsFirstLevelSubContext
+(
+dom
+:
+:
+BrowsingContext
+*
+aBrowsingContext
+)
+;
+static
+uint32_t
+GetCookieBehavior
 (
 dom
 :
