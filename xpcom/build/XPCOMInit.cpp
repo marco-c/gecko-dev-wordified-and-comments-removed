@@ -743,6 +743,11 @@ gXPCOMThreadsShutDown
 =
 false
 ;
+bool
+gXPCOMMainThreadEventsAreDoomed
+=
+false
+;
 char16_t
 *
 gGREBinPath
@@ -2843,6 +2848,10 @@ NS_ProcessPendingEvents
 (
 thread
 )
+;
+gXPCOMMainThreadEventsAreDoomed
+=
+true
 ;
 BackgroundHangMonitor
 (
