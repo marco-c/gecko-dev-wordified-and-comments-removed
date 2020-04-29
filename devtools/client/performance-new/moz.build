@@ -103,6 +103,17 @@ management
 js
 '
 '
+typescript
+-
+lazy
+-
+load
+.
+jsm
+.
+js
+'
+'
 utils
 .
 js
