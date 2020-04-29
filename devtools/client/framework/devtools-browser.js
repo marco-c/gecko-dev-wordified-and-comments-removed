@@ -1153,6 +1153,7 @@ toggleEnableDevToolsPopup
 window
 .
 document
+startTime
 )
 ;
 }
