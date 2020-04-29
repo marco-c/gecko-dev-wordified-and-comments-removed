@@ -13462,6 +13462,17 @@ true
 pref
 (
 "
+signon
+.
+showAutoCompleteImport
+"
+"
+"
+)
+;
+pref
+(
+"
 print
 .
 use_simplify_page

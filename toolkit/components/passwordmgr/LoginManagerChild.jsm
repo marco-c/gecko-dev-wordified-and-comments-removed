@@ -2399,6 +2399,11 @@ result
 return
 {
 form
+importable
+:
+result
+.
+importable
 loginsFound
 :
 LoginHelper
@@ -3677,6 +3682,7 @@ loginsFound
 (
 {
 form
+importable
 loginsFound
 recipes
 }
@@ -3739,6 +3745,7 @@ loginsFound
 recipes
 {
 autofillForm
+importable
 }
 )
 ;
@@ -7108,6 +7115,9 @@ null
 autofillForm
 =
 false
+importable
+=
+null
 clobberUsername
 =
 false
@@ -7240,6 +7250,13 @@ if
 foundLogins
 .
 length
+&
+&
+!
+importable
+?
+.
+browsers
 &
 &
 (
