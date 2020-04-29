@@ -3392,6 +3392,9 @@ telemetry
 theme
 "
 "
+unlimitedStorage
+"
+"
 urlbar
 "
 "
