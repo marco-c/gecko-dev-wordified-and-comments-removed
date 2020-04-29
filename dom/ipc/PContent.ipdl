@@ -4060,7 +4060,9 @@ async
 FirstPartyStorageAccessGrantedForOrigin
 (
 uint64_t
-aParentWindowId
+aTopLevelWindowId
+MaybeDiscardedBrowsingContext
+aParentContext
 Principal
 aTrackingPrincipal
 nsCString

@@ -284,7 +284,13 @@ ParentAccessGrantPromise
 SaveAccessForOriginOnParentProcess
 (
 uint64_t
-aParentWindowId
+aTopLevelWindowId
+dom
+:
+:
+BrowsingContext
+*
+aParentContext
 nsIPrincipal
 *
 aTrackingPrinciapl

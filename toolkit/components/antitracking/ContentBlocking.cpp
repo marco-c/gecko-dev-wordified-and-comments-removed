@@ -2285,6 +2285,7 @@ return
 SaveAccessForOriginOnParentProcess
 (
 aTopLevelWindowId
+aParentContext
 trackingPrincipal
 trackingOrigin
 aAllowMode
@@ -2399,6 +2400,7 @@ cc
 SendFirstPartyStorageAccessGrantedForOrigin
 (
 aTopLevelWindowId
+aParentContext
 IPC
 :
 :
@@ -2676,7 +2678,10 @@ ContentBlocking
 SaveAccessForOriginOnParentProcess
 (
 uint64_t
-aParentWindowId
+aTopLevelWindowId
+BrowsingContext
+*
+aParentContext
 nsIPrincipal
 *
 aTrackingPrincipal
@@ -2692,7 +2697,7 @@ aExpirationTime
 {
 MOZ_ASSERT
 (
-aParentWindowId
+aTopLevelWindowId
 !
 =
 0
@@ -2709,7 +2714,7 @@ WindowGlobalParent
 :
 GetByInnerWindowId
 (
-aParentWindowId
+aTopLevelWindowId
 )
 ;
 if
@@ -2744,20 +2749,9 @@ __func__
 )
 ;
 }
-BrowsingContext
-*
-bc
-=
-wgp
--
->
-BrowsingContext
-(
-)
-;
 if
 (
-bc
+aParentContext
 -
 >
 IsTop
@@ -2770,7 +2764,7 @@ ContentBlocking
 :
 UpdateAllowAccessOnParentProcess
 (
-bc
+aParentContext
 aTrackingOrigin
 )
 ;

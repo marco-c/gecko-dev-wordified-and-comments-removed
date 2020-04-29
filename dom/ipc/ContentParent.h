@@ -5693,7 +5693,14 @@ IPCResult
 RecvFirstPartyStorageAccessGrantedForOrigin
 (
 uint64_t
-aParentWindowId
+aTopLevelWindowId
+const
+MaybeDiscarded
+<
+BrowsingContext
+>
+&
+aParentContext
 const
 Principal
 &
