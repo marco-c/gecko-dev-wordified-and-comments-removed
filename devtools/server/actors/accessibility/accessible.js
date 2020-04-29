@@ -1608,6 +1608,8 @@ of
 targets
 )
 {
+try
+{
 if
 (
 target
@@ -1619,6 +1621,15 @@ rootDocument
 doc
 .
 rawAccessible
+)
+{
+continue
+;
+}
+}
+catch
+(
+e
 )
 {
 continue
