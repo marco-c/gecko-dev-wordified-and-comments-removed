@@ -117,6 +117,7 @@ NSAccessibilityFocusedAttribute
 NSAccessibilityTitleAttribute
 NSAccessibilityChildrenAttribute
 NSAccessibilityDescriptionAttribute
+NSAccessibilityRequiredAttribute
 #
 if
 DEBUG
