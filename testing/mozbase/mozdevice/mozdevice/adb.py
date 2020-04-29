@@ -4757,7 +4757,7 @@ ls_dir
 =
 "
 /
-sdcard
+system
 "
         
 boot_completed
