@@ -233,6 +233,9 @@ PIP
 mode
 )
 ;
+const
+winPIP
+=
 await
 triggerPictureInPicture
 (
@@ -297,6 +300,14 @@ info
 (
 remove
 tab
+)
+;
+await
+BrowserTestUtils
+.
+closeWindow
+(
+winPIP
 )
 ;
 await
