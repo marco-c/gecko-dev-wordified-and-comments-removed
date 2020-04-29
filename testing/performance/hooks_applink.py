@@ -24,6 +24,7 @@ com
 common_options
 =
 [
+    
 (
 "
 processStartTime
@@ -32,7 +33,7 @@ processStartTime
 true
 "
 )
-                  
+    
 (
 "
 firefox
@@ -43,7 +44,7 @@ disableBrowsertimeExtension
 true
 "
 )
-                  
+    
 (
 "
 firefox
@@ -59,7 +60,7 @@ a
 '
 "
 )
-                  
+    
 (
 "
 firefox
@@ -80,7 +81,7 @@ VIEW
 '
 "
 )
-                  
+    
 (
 "
 firefox
@@ -96,7 +97,7 @@ d
 '
 "
 )
-                  
+    
 (
 "
 firefox
@@ -123,6 +124,7 @@ geckoview_example
 [
         
 (
+            
 "
 firefox
 .
@@ -130,6 +132,7 @@ android
 .
 activity
 "
+            
 "
 '
 org
@@ -141,6 +144,7 @@ geckoview_example
 GeckoViewActivity
 '
 "
+        
 )
     
 ]

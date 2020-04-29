@@ -13,6 +13,7 @@ support
 import
 get_running_env
 temp_file
+EXAMPLE_TEST
 from
 mozperftest
 .
@@ -119,19 +120,7 @@ set_arg
 tests
 "
 [
-os
-.
-path
-.
-join
-(
-HERE
-"
-example
-.
-js
-"
-)
+EXAMPLE_TEST
 ]
 )
     

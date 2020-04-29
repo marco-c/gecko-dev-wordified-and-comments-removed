@@ -9,6 +9,7 @@ tests
 .
 support
 import
+EXAMPLE_TEST
 get_running_env
 temp_dir
 from
@@ -140,19 +141,7 @@ set_arg
 tests
 "
 [
-os
-.
-path
-.
-join
-(
-HERE
-"
-example
-.
-js
-"
-)
+EXAMPLE_TEST
 ]
 )
         

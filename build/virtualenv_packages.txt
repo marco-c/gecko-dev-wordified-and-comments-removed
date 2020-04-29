@@ -221,6 +221,15 @@ third_party
 /
 python
 /
+esprima
+mozilla
+.
+pth
+:
+third_party
+/
+python
+/
 fluent
 .
 migrate
