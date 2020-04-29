@@ -84299,9 +84299,14 @@ warmUpCount
 AbsoluteAddress
 (
 jitScript
--
->
-addressOfWarmUpCount
+)
+.
+offset
+(
+JitScript
+:
+:
+offsetOfWarmUpCount
 (
 )
 )
