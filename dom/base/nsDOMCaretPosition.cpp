@@ -30,6 +30,15 @@ h
 #
 include
 "
+mozilla
+/
+ErrorResult
+.
+h
+"
+#
+include
+"
 nsRange
 .
 h
@@ -151,6 +160,9 @@ node
 mOffset
 node
 mOffset
+mozilla
+:
+:
 IgnoreErrors
 (
 )

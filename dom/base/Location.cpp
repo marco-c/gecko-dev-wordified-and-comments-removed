@@ -57,6 +57,13 @@ h
 #
 include
 "
+nsIURIMutator
+.
+h
+"
+#
+include
+"
 nsNetUtil
 .
 h

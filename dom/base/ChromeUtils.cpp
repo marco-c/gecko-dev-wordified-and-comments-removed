@@ -295,6 +295,17 @@ include
 "
 mozilla
 /
+dom
+/
+WorkerPrivate
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 GPUProcessManager

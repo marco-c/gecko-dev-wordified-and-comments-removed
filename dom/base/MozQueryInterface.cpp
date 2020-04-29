@@ -14,6 +14,13 @@ h
 "
 #
 include
+"
+xptinfo
+.
+h
+"
+#
+include
 <
 string
 .

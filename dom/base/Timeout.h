@@ -54,6 +54,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsCycleCollectionParticipant
 .
 h
@@ -73,9 +80,6 @@ nsIPrincipal
 ;
 class
 nsIEventTarget
-;
-class
-nsGlobalWindowInner
 ;
 namespace
 mozilla

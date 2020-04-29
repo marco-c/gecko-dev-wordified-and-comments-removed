@@ -19,6 +19,13 @@ h
 #
 include
 "
+ExpandedPrincipal
+.
+h
+"
+#
+include
+"
 mozilla
 /
 DebugOnly
@@ -177,6 +184,13 @@ h
 include
 "
 nsAtom
+.
+h
+"
+#
+include
+"
+nsDocShell
 .
 h
 "

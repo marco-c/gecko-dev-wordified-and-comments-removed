@@ -226,6 +226,13 @@ h
 #
 include
 "
+nsProxyRelease
+.
+h
+"
+#
+include
+"
 nsContentPolicyUtils
 .
 h

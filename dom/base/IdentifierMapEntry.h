@@ -62,6 +62,13 @@ h
 #
 include
 "
+nsContentList
+.
+h
+"
+#
+include
+"
 nsHashKeys
 .
 h
@@ -85,12 +92,6 @@ nsIContent
 ;
 class
 nsINode
-;
-class
-nsContentList
-;
-class
-nsBaseContentList
 ;
 namespace
 mozilla
