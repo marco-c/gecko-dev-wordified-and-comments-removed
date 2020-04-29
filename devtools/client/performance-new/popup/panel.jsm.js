@@ -58,7 +58,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -78,7 +77,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyPanelMultiView
@@ -89,7 +87,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -108,7 +105,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyBackground
@@ -119,7 +115,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -145,7 +140,6 @@ jsm
 .
 js
 "
-)
 )
 )
 ;

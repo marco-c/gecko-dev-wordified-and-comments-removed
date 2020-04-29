@@ -58,7 +58,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -78,7 +77,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyCustomizableUI
@@ -89,7 +87,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -108,7 +105,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyCustomizableWidgets
@@ -119,7 +115,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -138,7 +133,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyPopupPanel
@@ -149,7 +143,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -175,7 +168,6 @@ jsm
 .
 js
 "
-)
 )
 )
 ;

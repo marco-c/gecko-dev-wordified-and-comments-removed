@@ -28,9 +28,7 @@ jsm
 )
 ;
 const
-{
 AppConstants
-}
 =
 ChromeUtils
 .
@@ -50,6 +48,8 @@ AppConstants
 jsm
 "
 )
+.
+AppConstants
 ;
 const
 ENTRIES_PREF
@@ -203,7 +203,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -223,7 +222,6 @@ jsm
 "
 )
 )
-)
 ;
 const
 lazyProfilerGetSymbols
@@ -234,7 +232,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -252,7 +249,6 @@ ProfilerGetSymbols
 .
 jsm
 "
-)
 )
 )
 ;
@@ -501,7 +497,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -531,7 +526,6 @@ js
 "
 )
 )
-)
 ;
 const
 lazyCustomizableUI
@@ -542,7 +536,6 @@ requireLazy
 )
 =
 >
-(
 ChromeUtils
 .
 import
@@ -559,7 +552,6 @@ CustomizableUI
 .
 jsm
 "
-)
 )
 )
 ;

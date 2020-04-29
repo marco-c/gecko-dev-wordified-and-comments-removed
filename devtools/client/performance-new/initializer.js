@@ -298,7 +298,6 @@ presets
 getRecordingPreferences
 }
 =
-(
 ChromeUtils
 .
 import
@@ -324,7 +323,6 @@ jsm
 .
 js
 "
-)
 )
 ;
 async
