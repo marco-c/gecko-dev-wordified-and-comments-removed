@@ -463,7 +463,7 @@ Maybe
 nodiscard
 ]
 ]
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 nsresult
 AddRangesForUserSelectableNodes
 (
@@ -623,6 +623,7 @@ mDirection
 aDir
 ;
 }
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 nsresult
 SetAnchorFocusToRange
 (
@@ -1490,6 +1491,7 @@ ErrorResult
 aRv
 )
 ;
+MOZ_CAN_RUN_SCRIPT_BOUNDARY
 void
 Collapse
 (
