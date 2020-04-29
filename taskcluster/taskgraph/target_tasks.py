@@ -3565,6 +3565,34 @@ in
 try_name
 :
             
+if
+'
+android
+'
+in
+platform
+:
+                
+if
+'
+pgo
+'
+in
+platform
+:
+                    
+return
+True
+                
+else
+:
+                    
+return
+False
+            
+else
+:
+                
 return
 True
         
