@@ -1377,7 +1377,7 @@ schedules
 .
 ALL_COMPONENTS
 )
-None
+dict
 )
 }
     
