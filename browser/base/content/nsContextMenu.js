@@ -5653,15 +5653,6 @@ openPasswordManager
 (
 window
 {
-filterString
-:
-this
-.
-contentData
-.
-documentURIObject
-.
-host
 entryPoint
 :
 "
