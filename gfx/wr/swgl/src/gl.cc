@@ -23305,6 +23305,10 @@ srcUV
 linearQuantize
 (
 srcUV
++
+0
+.
+5f
 128
 )
 ;
