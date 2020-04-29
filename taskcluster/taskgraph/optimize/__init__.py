@@ -2259,6 +2259,7 @@ test
 args
 =
 (
+    
 Any
 (
 '
@@ -2271,7 +2272,11 @@ schedules
 '
 seta
 '
+split_args
+=
+tuple
 )
+    
 '
 backstop
 '
@@ -2414,6 +2419,9 @@ schedules
 '
 bugbug
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2456,6 +2464,9 @@ bugbug
 -
 low
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2498,6 +2509,9 @@ bugbug
 -
 high
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2542,6 +2556,9 @@ combined
 -
 high
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2573,6 +2590,7 @@ test
 :
 Any
 (
+            
 '
 skip
 -
@@ -2580,6 +2598,9 @@ unless
 -
 schedules
 '
+            
+Any
+(
 '
 bugbug
 '
@@ -2588,6 +2609,12 @@ platform
 -
 debug
 '
+)
+            
+split_args
+=
+tuple
+        
 )
     
 }
@@ -2627,6 +2654,9 @@ bugbug
 -
 reduced
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2677,6 +2707,9 @@ reduced
 -
 high
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2735,6 +2768,9 @@ relevant
 -
 tests
 '
+split_args
+=
+tuple
 )
     
 }
@@ -2778,6 +2814,9 @@ schedules
 '
 seta
 '
+split_args
+=
+tuple
 )
     
 }
