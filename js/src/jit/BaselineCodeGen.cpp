@@ -1297,7 +1297,7 @@ BaselineScript
 :
 New
 (
-script
+cx
 warmUpCheckPrologueOffset_
 .
 offset
