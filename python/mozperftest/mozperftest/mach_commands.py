@@ -291,14 +291,34 @@ utils
 import
 install_package
             
+location
+=
+os
+.
+path
+.
+join
+(
+self
+.
+topsrcdir
+"
+third_party
+"
+"
+python
+"
+"
+esprima
+"
+)
+            
 install_package
 (
 self
 .
 virtualenv_manager
-"
-esprima
-"
+location
 )
             
 from
