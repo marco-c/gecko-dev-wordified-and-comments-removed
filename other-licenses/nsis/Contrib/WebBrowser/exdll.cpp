@@ -22,7 +22,9 @@ g_executeCodeSegment
 )
 (
 int
+pos
 HWND
+hwndProgress
 )
 ;
 HWND

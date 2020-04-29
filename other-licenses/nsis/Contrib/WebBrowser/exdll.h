@@ -139,7 +139,9 @@ g_executeCodeSegment
 )
 (
 int
+pos
 HWND
+hwndProgress
 )
 ;
 extern
@@ -225,7 +227,9 @@ ExecuteCodeSegment
 )
 (
 int
+pos
 HWND
+hwndProgress
 )
 ;
 void
