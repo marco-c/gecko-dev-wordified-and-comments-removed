@@ -1633,6 +1633,7 @@ closest
 data
 -
 color
+]
 "
 )
 ;

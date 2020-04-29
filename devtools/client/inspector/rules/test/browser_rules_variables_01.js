@@ -280,9 +280,15 @@ setVarName
 =
 setVar
 .
-firstElementChild
+querySelector
+(
+"
 .
-firstElementChild
+ruleview
+-
+variable
+"
+)
 ;
 is
 (
