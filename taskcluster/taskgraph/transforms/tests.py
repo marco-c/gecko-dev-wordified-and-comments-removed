@@ -1174,7 +1174,7 @@ power
 def
 runs_on_central
 (
-test
+task
 )
 :
     
@@ -1186,7 +1186,7 @@ mozilla
 -
 central
 '
-test
+task
 [
 '
 run
@@ -1200,7 +1200,7 @@ projects
 def
 gv_e10s_multi_filter
 (
-test
+task
 )
 :
     
@@ -1209,7 +1209,7 @@ return
         
 get_mobile_project
 (
-test
+task
 )
 =
 =
@@ -1218,7 +1218,7 @@ geckoview
 '
 and
         
-test
+task
 [
 '
 e10s
@@ -1229,7 +1229,7 @@ e10s
 def
 fission_filter
 (
-test
+task
 )
 :
     
@@ -1238,11 +1238,11 @@ return
         
 runs_on_central
 (
-test
+task
 )
 and
         
-test
+task
 .
 get
 (
@@ -1261,7 +1261,7 @@ and
         
 get_mobile_project
 (
-test
+task
 )
 !
 =
@@ -2749,7 +2749,7 @@ def
 handle_keyed_by_mozharness
 (
 config
-tests
+tasks
 )
 :
     
@@ -2817,9 +2817,9 @@ script
 ]
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 for
@@ -2830,11 +2830,11 @@ fields
             
 resolve_keyed_by
 (
-test
+task
 field
 item_name
 =
-test
+task
 [
 '
 test
@@ -2845,7 +2845,7 @@ name
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -2853,19 +2853,19 @@ def
 set_defaults
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 build_platform
 =
-test
+task
 [
 '
 build
@@ -2885,7 +2885,7 @@ android
 )
 :
             
-test
+task
 [
 '
 mozharness
@@ -2903,7 +2903,7 @@ downloads
 internal
 '
             
-test
+task
 [
 '
 mozharness
@@ -2923,7 +2923,7 @@ secrets
 '
 ]
             
-test
+task
 [
 '
 loopback
@@ -2934,7 +2934,7 @@ video
 =
 True
         
-test
+task
 [
 '
 mozharness
@@ -2955,7 +2955,7 @@ path
 True
         
 if
-test
+task
 [
 '
 test
@@ -2971,7 +2971,7 @@ linux
 '
 )
 and
-test
+task
 [
 '
 suite
@@ -2989,7 +2989,7 @@ raptor
 ]
 :
             
-test
+task
 .
 setdefault
 (
@@ -3008,7 +3008,7 @@ True
 else
 :
             
-test
+task
 [
 '
 allow
@@ -3030,7 +3030,7 @@ qr
 /
 "
 in
-test
+task
 [
 '
 test
@@ -3040,7 +3040,7 @@ platform
 ]
 :
             
-test
+task
 [
 '
 webrender
@@ -3052,7 +3052,7 @@ True
 else
 :
             
-test
+task
 .
 setdefault
 (
@@ -3062,7 +3062,7 @@ webrender
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3072,7 +3072,7 @@ e10s
 True
 )
         
-test
+task
 .
 setdefault
 (
@@ -3081,7 +3081,7 @@ try
 -
 name
 '
-test
+task
 [
 '
 test
@@ -3091,7 +3091,7 @@ name
 ]
 )
         
-test
+task
 .
 setdefault
 (
@@ -3104,7 +3104,7 @@ groups
 ]
 )
         
-test
+task
 .
 setdefault
 (
@@ -3118,7 +3118,7 @@ administrator
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3128,7 +3128,7 @@ chunks
 1
 )
         
-test
+task
 .
 setdefault
 (
@@ -3146,7 +3146,7 @@ projects
 '
 )
         
-test
+task
 .
 setdefault
 (
@@ -3160,7 +3160,7 @@ default
 '
 )
         
-test
+task
 .
 setdefault
 (
@@ -3174,7 +3174,7 @@ time
 3600
 )
         
-test
+task
 .
 setdefault
 (
@@ -3184,7 +3184,7 @@ reboot
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3196,7 +3196,7 @@ virtual
 '
 )
         
-test
+task
 .
 setdefault
 (
@@ -3208,7 +3208,7 @@ audio
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3220,7 +3220,7 @@ video
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3239,7 +3239,7 @@ if
 linux1804
 '
 in
-test
+task
 [
 '
 test
@@ -3250,7 +3250,7 @@ platform
 )
 :
             
-test
+task
 .
 setdefault
 (
@@ -3277,7 +3277,7 @@ test
 else
 :
             
-test
+task
 .
 setdefault
 (
@@ -3301,7 +3301,7 @@ test
 }
 )
         
-test
+task
 .
 setdefault
 (
@@ -3311,7 +3311,7 @@ checkout
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3325,7 +3325,7 @@ extensions
 False
 )
         
-test
+task
 .
 setdefault
 (
@@ -3336,7 +3336,7 @@ variants
 ]
 )
         
-test
+task
 [
 '
 mozharness
@@ -3354,7 +3354,7 @@ options
 ]
 )
         
-test
+task
 [
 '
 mozharness
@@ -3373,7 +3373,7 @@ builds
 False
 )
         
-test
+task
 [
 '
 mozharness
@@ -3392,7 +3392,7 @@ public
 '
 )
         
-test
+task
 [
 '
 mozharness
@@ -3413,7 +3413,7 @@ path
 False
 )
         
-test
+task
 [
 '
 mozharness
@@ -3429,7 +3429,7 @@ False
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -3437,20 +3437,20 @@ def
 resolve_keys
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 resolve_keyed_by
 (
             
-test
+task
 '
 require
 -
@@ -3461,7 +3461,7 @@ extensions
             
 item_name
 =
-test
+task
 [
 '
 test
@@ -3494,7 +3494,7 @@ release_type
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -3502,7 +3502,7 @@ def
 setup_raptor
 (
 config
-tests
+tasks
 )
 :
     
@@ -3540,13 +3540,13 @@ as
 raptor_transforms
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 suite
@@ -3560,7 +3560,7 @@ raptor
 :
             
 yield
-test
+task
             
 continue
         
@@ -3571,7 +3571,7 @@ raptor_transforms
 (
 config
 [
-test
+task
 ]
 )
 :
@@ -3585,19 +3585,19 @@ def
 limit_platforms
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
 not
-test
+task
 [
 '
 limit
@@ -3608,7 +3608,7 @@ platforms
 :
             
 yield
-test
+task
             
 continue
         
@@ -3621,7 +3621,7 @@ key
 for
 key
 in
-test
+task
 [
 '
 limit
@@ -3635,7 +3635,7 @@ if
 keymatch
 (
 limited_platforms
-test
+task
 [
 '
 test
@@ -3647,7 +3647,7 @@ platform
 :
             
 yield
-test
+task
 transforms
 .
 add_validate
@@ -3661,17 +3661,17 @@ def
 handle_suite_category
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
-test
+task
 .
 setdefault
 (
@@ -3685,7 +3685,7 @@ suite
 if
 isinstance
 (
-test
+task
 [
 '
 suite
@@ -3695,7 +3695,7 @@ text_type
 )
 :
             
-test
+task
 [
 '
 suite
@@ -3707,7 +3707,7 @@ suite
 name
 '
 :
-test
+task
 [
 '
 suite
@@ -3717,7 +3717,7 @@ suite
         
 suite
 =
-test
+task
 [
 '
 suite
@@ -3729,7 +3729,7 @@ setdefault
 '
 name
 '
-test
+task
 [
 '
 test
@@ -3741,7 +3741,7 @@ name
         
 category
 =
-test
+task
 [
 '
 suite
@@ -3756,7 +3756,7 @@ category
 suite
 )
         
-test
+task
 .
 setdefault
 (
@@ -3767,7 +3767,7 @@ attributes
 }
 )
         
-test
+task
 [
 '
 attributes
@@ -3781,7 +3781,7 @@ unittest_suite
 =
 suite
         
-test
+task
 [
 '
 attributes
@@ -3797,7 +3797,7 @@ category
         
 script
 =
-test
+task
 [
 '
 mozharness
@@ -3897,7 +3897,7 @@ if
 category_arg
 :
             
-test
+task
 [
 '
 mozharness
@@ -3917,7 +3917,7 @@ options
             
 extra
 =
-test
+task
 [
 '
 mozharness
@@ -3967,7 +3967,7 @@ suite
 )
 )
         
-test
+task
 [
 '
 suite
@@ -3977,7 +3977,7 @@ suite
 suite
         
 yield
-test
+task
 transforms
 .
 add
@@ -3985,7 +3985,7 @@ def
 setup_talos
 (
 config
-tests
+tasks
 )
 :
     
@@ -4012,13 +4012,13 @@ talos
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 suite
@@ -4032,13 +4032,13 @@ talos
 :
             
 yield
-test
+task
             
 continue
         
 extra_options
 =
-test
+task
 .
 setdefault
 (
@@ -4076,7 +4076,7 @@ json
 )
         
 if
-test
+task
 [
 '
 build
@@ -4125,7 +4125,7 @@ true
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -4133,7 +4133,7 @@ def
 setup_browsertime_flag
 (
 config
-tests
+tasks
 )
 :
     
@@ -4175,16 +4175,16 @@ False
 )
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
 not
 browsertime_flag
 or
-test
+task
 [
 '
 suite
@@ -4198,12 +4198,12 @@ raptor
 :
             
 yield
-test
+task
             
 continue
         
 if
-test
+task
 [
 '
 treeherder
@@ -4220,7 +4220,7 @@ Rap
 )
 :
             
-test
+task
 [
 '
 treeherder
@@ -4229,7 +4229,7 @@ symbol
 '
 ]
 =
-test
+task
 [
 '
 treeherder
@@ -4251,7 +4251,7 @@ Btime
         
 extra_options
 =
-test
+task
 .
 setdefault
 (
@@ -4285,7 +4285,7 @@ browsertime
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -4293,7 +4293,7 @@ def
 handle_artifact_prefix
 (
 config
-tests
+tasks
 )
 :
     
@@ -4309,13 +4309,13 @@ appropriately
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 build
@@ -4332,7 +4332,7 @@ artifact_prefix
 )
 :
             
-test
+task
 .
 setdefault
 (
@@ -4349,7 +4349,7 @@ setdefault
 '
 artifact_prefix
 '
-test
+task
 [
 '
 build
@@ -4366,7 +4366,7 @@ artifact_prefix
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -4374,19 +4374,19 @@ def
 set_target
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 build_platform
 =
-test
+task
 [
 '
 build
@@ -4404,18 +4404,18 @@ if
 target
 '
 in
-test
+task
 :
             
 resolve_keyed_by
 (
-test
+task
 '
 target
 '
 item_name
 =
-test
+task
 [
 '
 test
@@ -4427,7 +4427,7 @@ name
             
 target
 =
-test
+task
 [
 '
 target
@@ -4554,7 +4554,7 @@ name
 ]
 )
             
-test
+task
 [
 '
 mozharness
@@ -4573,7 +4573,7 @@ installer_url
 else
 :
             
-test
+task
 [
 '
 mozharness
@@ -4591,12 +4591,12 @@ name
 =
 get_artifact_path
 (
-test
+task
 target
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -4604,7 +4604,7 @@ def
 set_treeherder_machine_platform
 (
 config
-tests
+tasks
 )
 :
     
@@ -4770,9 +4770,9 @@ pgo
 }
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
@@ -4780,7 +4780,7 @@ if
 android
 '
 in
-test
+task
 [
 '
 test
@@ -4795,7 +4795,7 @@ pgo
 opt
 '
 in
-test
+task
 [
 '
 test
@@ -4807,7 +4807,7 @@ platform
             
 platform_new
 =
-test
+task
 [
 '
 test
@@ -4830,7 +4830,7 @@ pgo
 '
 )
             
-test
+task
 [
 '
 treeherder
@@ -4858,7 +4858,7 @@ x86_64
 qr
 '
 in
-test
+task
 [
 '
 test
@@ -4870,7 +4870,7 @@ platform
             
 opt
 =
-test
+task
 [
 '
 test
@@ -4889,7 +4889,7 @@ split
 1
 ]
             
-test
+task
 [
 '
 treeherder
@@ -4923,7 +4923,7 @@ elif
 qr
 '
 in
-test
+task
 [
 '
 test
@@ -4933,7 +4933,7 @@ platform
 ]
 :
             
-test
+task
 [
 '
 treeherder
@@ -4944,7 +4944,7 @@ platform
 '
 ]
 =
-test
+task
 [
 '
 test
@@ -4960,7 +4960,7 @@ android
 hw
 '
 in
-test
+task
 [
 '
 test
@@ -4970,7 +4970,7 @@ platform
 ]
 :
             
-test
+task
 [
 '
 treeherder
@@ -4981,7 +4981,7 @@ platform
 '
 ]
 =
-test
+task
 [
 '
 test
@@ -5003,7 +5003,7 @@ em
 x86_64
 '
 in
-test
+task
 [
 '
 test
@@ -5015,7 +5015,7 @@ platform
             
 opt
 =
-test
+task
 [
 '
 test
@@ -5034,7 +5034,7 @@ split
 1
 ]
             
-test
+task
 [
 '
 treeherder
@@ -5073,7 +5073,7 @@ em
 x86
 '
 in
-test
+task
 [
 '
 test
@@ -5085,7 +5085,7 @@ platform
             
 opt
 =
-test
+task
 [
 '
 test
@@ -5104,7 +5104,7 @@ split
 1
 ]
             
-test
+task
 [
 '
 treeherder
@@ -5139,7 +5139,7 @@ asan
 opt
 '
 in
-test
+task
 [
 '
 test
@@ -5149,7 +5149,7 @@ platform
 ]
 :
             
-test
+task
 [
 '
 treeherder
@@ -5175,7 +5175,7 @@ asan
 opt
 '
 in
-test
+task
 [
 '
 test
@@ -5185,7 +5185,7 @@ platform
 ]
 :
             
-test
+task
 [
 '
 treeherder
@@ -5207,7 +5207,7 @@ asan
 else
 :
             
-test
+task
 [
 '
 treeherder
@@ -5223,7 +5223,7 @@ translation
 get
 (
                 
-test
+task
 [
 '
 build
@@ -5231,7 +5231,7 @@ build
 platform
 '
 ]
-test
+task
 [
 '
 test
@@ -5242,7 +5242,7 @@ platform
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -5250,7 +5250,7 @@ def
 set_tier
 (
 config
-tests
+tasks
 )
 :
     
@@ -5281,9 +5281,9 @@ otherwise
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
@@ -5291,18 +5291,18 @@ if
 tier
 '
 in
-test
+task
 :
             
 resolve_keyed_by
 (
-test
+task
 '
 tier
 '
 item_name
 =
-test
+task
 [
 '
 test
@@ -5319,12 +5319,12 @@ fission
 tier
 '
 in
-test
+task
 :
             
 resolve_keyed_by
 (
-test
+task
 '
 fission
 -
@@ -5332,7 +5332,7 @@ tier
 '
 item_name
 =
-test
+task
 [
 '
 test
@@ -5348,9 +5348,9 @@ tier
 '
 not
 in
-test
+task
 or
-test
+task
 [
 '
 tier
@@ -5364,7 +5364,7 @@ default
 :
             
 if
-test
+task
 [
 '
 test
@@ -5870,7 +5870,7 @@ debug
 ]
 :
                 
-test
+task
 [
 '
 tier
@@ -5882,7 +5882,7 @@ tier
 else
 :
                 
-test
+task
 [
 '
 tier
@@ -5892,7 +5892,7 @@ tier
 2
         
 yield
-test
+task
 transforms
 .
 add
@@ -5900,7 +5900,7 @@ def
 set_expires_after
 (
 config
-tests
+tasks
 )
 :
     
@@ -5933,9 +5933,9 @@ low
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
@@ -5946,7 +5946,7 @@ after
 '
 not
 in
-test
+task
 :
             
 if
@@ -5959,7 +5959,7 @@ is_try
 )
 :
                 
-test
+task
 [
 '
 expires
@@ -5976,7 +5976,7 @@ days
 else
 :
                 
-test
+task
 [
 '
 expires
@@ -5991,7 +5991,7 @@ year
 "
         
 yield
-test
+task
 transforms
 .
 add
@@ -5999,7 +5999,7 @@ def
 set_download_symbols
 (
 config
-tests
+tasks
 )
 :
     
@@ -6048,13 +6048,13 @@ bug
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 test
@@ -6080,7 +6080,7 @@ debug
 '
 :
             
-test
+task
 [
 '
 mozharness
@@ -6097,7 +6097,7 @@ symbols
 True
         
 elif
-test
+task
 [
 '
 build
@@ -6117,7 +6117,7 @@ opt
 or
 \
                 
-test
+task
 [
 '
 build
@@ -6145,7 +6145,7 @@ download
 symbols
 '
 in
-test
+task
 [
 '
 mozharness
@@ -6154,7 +6154,7 @@ mozharness
 :
                 
 del
-test
+task
 [
 '
 mozharness
@@ -6171,7 +6171,7 @@ symbols
 else
 :
             
-test
+task
 [
 '
 mozharness
@@ -6190,7 +6190,7 @@ ondemand
 '
         
 yield
-test
+task
 transforms
 .
 add
@@ -6198,7 +6198,7 @@ def
 handle_keyed_by
 (
 config
-tests
+tasks
 )
 :
     
@@ -6324,9 +6324,9 @@ target
 ]
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 for
@@ -6337,11 +6337,11 @@ fields
             
 resolve_keyed_by
 (
-test
+task
 field
 item_name
 =
-test
+task
 [
 '
 test
@@ -6363,7 +6363,7 @@ project
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -6371,7 +6371,7 @@ def
 setup_browsertime
 (
 config
-tests
+tasks
 )
 :
     
@@ -6398,14 +6398,14 @@ option
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 extra_options
 =
-test
+task
 .
 get
 (
@@ -6428,7 +6428,7 @@ options
 )
         
 if
-test
+task
 [
 '
 suite
@@ -6451,11 +6451,11 @@ extra_options
 :
             
 yield
-test
+task
             
 continue
         
-test
+task
 [
 '
 tier
@@ -6464,7 +6464,7 @@ tier
 =
 max
 (
-test
+task
 [
 '
 tier
@@ -6634,7 +6634,7 @@ node
         
 }
         
-test
+task
 .
 setdefault
 (
@@ -6665,7 +6665,7 @@ fetches
 .
 toolchain
 '
-test
+task
 )
 )
         
@@ -7122,7 +7122,7 @@ noinstall
 '
 )
         
-test
+task
 .
 setdefault
 (
@@ -7153,7 +7153,7 @@ fetches
 .
 fetch
 '
-test
+task
 )
 )
         
@@ -7480,16 +7480,16 @@ extra
 -
 options
 '
-test
+task
 )
 )
         
 yield
-test
+task
 def
 get_mobile_project
 (
-test
+task
 )
 :
     
@@ -7513,7 +7513,7 @@ None
     
 if
 not
-test
+task
 [
 '
 build
@@ -7569,7 +7569,7 @@ mobile_projects
 if
 name
 in
-test
+task
 [
 '
 test
@@ -7584,7 +7584,7 @@ name
     
 target
 =
-test
+task
 .
 get
 (
@@ -7640,20 +7640,20 @@ def
 disable_fennec_e10s
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
 get_mobile_project
 (
-test
+task
 )
 =
 =
@@ -7662,7 +7662,7 @@ fennec
 '
 :
             
-test
+task
 [
 '
 e10s
@@ -7672,7 +7672,7 @@ e10s
 False
         
 yield
-test
+task
 transforms
 .
 add
@@ -7680,7 +7680,7 @@ def
 enable_code_coverage
 (
 config
-tests
+tasks
 )
 :
     
@@ -7701,9 +7701,9 @@ platforms
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
@@ -7711,7 +7711,7 @@ if
 ccov
 '
 in
-test
+task
 [
 '
 build
@@ -7726,7 +7726,7 @@ if
 fuzzing
 '
 in
-test
+task
 [
 '
 build
@@ -7736,7 +7736,7 @@ platform
 ]
 :
                 
-test
+task
 [
 '
 run
@@ -7757,7 +7757,7 @@ if
 android
 '
 in
-test
+task
 [
 '
 build
@@ -7767,7 +7767,7 @@ platform
 ]
 :
                 
-test
+task
 .
 setdefault
 (
@@ -7796,7 +7796,7 @@ grcov
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -7828,11 +7828,11 @@ coverage
 )
                 
 yield
-test
+task
                 
 continue
             
-test
+task
 [
 '
 mozharness
@@ -7861,7 +7861,7 @@ coverage
 '
 )
             
-test
+task
 [
 '
 instance
@@ -7879,7 +7879,7 @@ if
 mac
 '
 in
-test
+task
 [
 '
 build
@@ -7889,7 +7889,7 @@ platform
 ]
 :
                 
-test
+task
 [
 '
 run
@@ -7907,7 +7907,7 @@ try
 ]
             
 if
-test
+task
 [
 '
 run
@@ -7930,7 +7930,7 @@ try
 ]
 :
                 
-test
+task
 [
 '
 run
@@ -7947,7 +7947,7 @@ built
 projects
 '
             
-test
+task
 .
 pop
 (
@@ -7959,7 +7959,7 @@ component
 None
 )
             
-test
+task
 .
 pop
 (
@@ -7969,7 +7969,7 @@ when
 None
 )
             
-test
+task
 [
 '
 optimization
@@ -7983,7 +7983,7 @@ any
 (
 p
 in
-test
+task
 [
 '
 build
@@ -8008,7 +8008,7 @@ win
 )
 :
                 
-test
+task
 .
 setdefault
 (
@@ -8019,7 +8019,7 @@ fetches
 }
 )
                 
-test
+task
 [
 '
 fetches
@@ -8035,7 +8035,7 @@ fetch
 ]
 )
                 
-test
+task
 [
 '
 fetches
@@ -8056,7 +8056,7 @@ if
 linux
 '
 in
-test
+task
 [
 '
 build
@@ -8066,7 +8066,7 @@ platform
 ]
 :
                 
-test
+task
 [
 '
 fetches
@@ -8092,7 +8092,7 @@ elif
 osx
 '
 in
-test
+task
 [
 '
 build
@@ -8102,7 +8102,7 @@ platform
 ]
 :
                 
-test
+task
 [
 '
 fetches
@@ -8130,7 +8130,7 @@ elif
 win
 '
 in
-test
+task
 [
 '
 build
@@ -8140,7 +8140,7 @@ platform
 ]
 :
                 
-test
+task
 [
 '
 fetches
@@ -8166,7 +8166,7 @@ if
 talos
 '
 in
-test
+task
 [
 '
 test
@@ -8176,7 +8176,7 @@ name
 ]
 :
                 
-test
+task
 [
 '
 max
@@ -8194,7 +8194,7 @@ if
 linux
 '
 in
-test
+task
 [
 '
 build
@@ -8204,7 +8204,7 @@ platform
 ]
 :
                     
-test
+task
 [
 '
 docker
@@ -8227,7 +8227,7 @@ test
 "
 }
                 
-test
+task
 [
 '
 mozharness
@@ -8252,7 +8252,7 @@ option
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8276,7 +8276,7 @@ cycles
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8301,7 +8301,7 @@ option
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8325,7 +8325,7 @@ tppagecycles
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8350,7 +8350,7 @@ option
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8377,7 +8377,7 @@ results
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8402,7 +8402,7 @@ option
 '
 )
                 
-test
+task
 [
 '
 mozharness
@@ -8431,7 +8431,7 @@ if
 raptor
 '
 in
-test
+task
 [
 '
 test
@@ -8441,7 +8441,7 @@ name
 ]
 :
                 
-test
+task
 [
 '
 max
@@ -8459,7 +8459,7 @@ if
 linux
 '
 in
-test
+task
 [
 '
 build
@@ -8469,7 +8469,7 @@ platform
 ]
 :
                     
-test
+task
 [
 '
 docker
@@ -8493,7 +8493,7 @@ test
 }
         
 yield
-test
+task
 transforms
 .
 add
@@ -8501,7 +8501,7 @@ def
 handle_run_on_projects
 (
 config
-tests
+tasks
 )
 :
     
@@ -8519,13 +8519,13 @@ appropriately
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 run
@@ -8544,7 +8544,7 @@ projects
 '
 :
             
-test
+task
 [
 '
 run
@@ -8555,7 +8555,7 @@ projects
 '
 ]
 =
-test
+task
 [
 '
 build
@@ -8577,7 +8577,7 @@ all
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -8585,19 +8585,19 @@ def
 split_variants
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 variants
 =
-test
+task
 .
 pop
 (
@@ -8613,7 +8613,7 @@ copy
 .
 deepcopy
 (
-test
+task
 )
         
 for
@@ -8622,13 +8622,13 @@ in
 variants
 :
             
-testv
+taskv
 =
 copy
 .
 deepcopy
 (
-test
+task
 )
             
 variant
@@ -8653,13 +8653,13 @@ filterfn
 '
 ]
 (
-testv
+taskv
 )
 :
                 
 continue
             
-testv
+taskv
 [
 '
 attributes
@@ -8673,7 +8673,7 @@ unittest_variant
 =
 name
             
-testv
+taskv
 [
 '
 description
@@ -8691,7 +8691,7 @@ format
 (
 *
 *
-testv
+taskv
 )
             
 suffix
@@ -8707,7 +8707,7 @@ suffix
 '
 ]
             
-testv
+taskv
 [
 '
 test
@@ -8719,7 +8719,7 @@ name
 =
 suffix
             
-testv
+taskv
 [
 '
 try
@@ -8736,7 +8736,7 @@ symbol
 =
 split_symbol
 (
-testv
+taskv
 [
 '
 treeherder
@@ -8768,7 +8768,7 @@ symbol
 =
 suffix
             
-testv
+taskv
 [
 '
 treeherder
@@ -8783,7 +8783,7 @@ group
 symbol
 )
             
-testv
+taskv
 .
 update
 (
@@ -8800,7 +8800,7 @@ replace
 )
             
 if
-test
+task
 [
 '
 suite
@@ -8813,7 +8813,7 @@ raptor
 '
 :
                 
-testv
+taskv
 [
 '
 tier
@@ -8822,7 +8822,7 @@ tier
 =
 max
 (
-testv
+taskv
 [
 '
 tier
@@ -8834,7 +8834,7 @@ tier
 yield
 merge
 (
-testv
+taskv
 variant
 .
 get
@@ -8853,7 +8853,7 @@ def
 handle_fission_attributes
 (
 config
-tests
+tasks
 )
 :
     
@@ -8871,9 +8871,9 @@ tasks
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 for
@@ -8895,7 +8895,7 @@ tier
             
 fission_attr
 =
-test
+task
 .
 pop
 (
@@ -8914,7 +8914,7 @@ None
 )
             
 if
-test
+task
 [
 '
 attributes
@@ -8940,7 +8940,7 @@ None
                 
 continue
             
-test
+task
 [
 attr
 ]
@@ -8948,7 +8948,7 @@ attr
 fission_attr
         
 yield
-test
+task
 transforms
 .
 add
@@ -8956,19 +8956,19 @@ def
 ensure_spi_disabled_on_all_but_spi
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 variant
 =
-test
+task
 [
 '
 attributes
@@ -8992,7 +8992,7 @@ gtest
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -9005,7 +9005,7 @@ cppunit
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -9018,7 +9018,7 @@ jittest
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -9031,7 +9031,7 @@ junit
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -9044,7 +9044,7 @@ raptor
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -9063,7 +9063,7 @@ socketprocess
 '
 :
             
-test
+task
 [
 '
 mozharness
@@ -9095,7 +9095,7 @@ false
 '
 )
             
-test
+task
 [
 '
 mozharness
@@ -9128,7 +9128,7 @@ false
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -9136,19 +9136,19 @@ def
 split_e10s
 (
 config
-tests
+tasks
 )
 :
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 e10s
 =
-test
+task
 [
 '
 e10s
@@ -9159,16 +9159,16 @@ if
 e10s
 :
             
-test_copy
+task_copy
 =
 copy
 .
 deepcopy
 (
-test
+task
 )
             
-test_copy
+task_copy
 [
 '
 test
@@ -9183,7 +9183,7 @@ name
 e10s
 '
             
-test_copy
+task_copy
 [
 '
 e10s
@@ -9192,7 +9192,7 @@ e10s
 =
 True
             
-test_copy
+task_copy
 [
 '
 attributes
@@ -9207,7 +9207,7 @@ e10s
 True
             
 yield
-test_copy
+task_copy
         
 if
 not
@@ -9221,7 +9221,7 @@ both
 '
 :
             
-test
+task
 [
 '
 test
@@ -9236,7 +9236,7 @@ name
 1proc
 '
             
-test
+task
 [
 '
 try
@@ -9251,7 +9251,7 @@ name
 1proc
 '
             
-test
+task
 [
 '
 e10s
@@ -9260,7 +9260,7 @@ e10s
 =
 False
             
-test
+task
 [
 '
 attributes
@@ -9279,7 +9279,7 @@ symbol
 =
 split_symbol
 (
-test
+task
 [
 '
 treeherder
@@ -9306,7 +9306,7 @@ group
 1proc
 '
             
-test
+task
 [
 '
 treeherder
@@ -9321,7 +9321,7 @@ group
 symbol
 )
             
-test
+task
 [
 '
 mozharness
@@ -9347,7 +9347,7 @@ e10s
 )
             
 yield
-test
+task
 CHUNK_SUITES_BLACKLIST
 =
 (
@@ -9626,7 +9626,7 @@ def
 split_chunks
 (
 config
-tests
+tasks
 )
 :
     
@@ -9669,13 +9669,13 @@ symbol
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 suite
@@ -9693,7 +9693,7 @@ verify
 or
 \
            
-test
+task
 [
 '
 suite
@@ -9750,7 +9750,7 @@ env
 }
 )
             
-test
+task
 [
 '
 chunks
@@ -9804,7 +9804,7 @@ head_rev
 '
 )
                                                       
-test
+task
 [
 '
 test
@@ -9819,7 +9819,7 @@ maximum_number_verify_chunks
 3
             
 if
-test
+task
 [
 '
 chunks
@@ -9829,7 +9829,7 @@ chunks
 maximum_number_verify_chunks
 :
                 
-test
+task
 [
 '
 chunks
@@ -9848,7 +9848,7 @@ taskgraph
 .
 fast
 and
-test
+task
 [
 '
 suite
@@ -9863,7 +9863,7 @@ suite_definition
 =
 TEST_SUITES
 [
-test
+task
 [
 '
 suite
@@ -9875,7 +9875,7 @@ mozinfo
 =
 guess_mozinfo_from_task
 (
-test
+task
 )
             
 chunked_manifests
@@ -9911,7 +9911,7 @@ undefined
 '
 )
                 
-test
+task
 [
 '
 chunks
@@ -9934,7 +9934,7 @@ i
 in
 range
 (
-test
+task
 [
 '
 chunks
@@ -9955,7 +9955,7 @@ copy
 .
 deepcopy
 (
-test
+task
 )
             
 chunked
@@ -10017,7 +10017,7 @@ format
 (
                             
 this_chunk
-test
+task
 [
 '
 test
@@ -10025,7 +10025,7 @@ test
 name
 '
 ]
-test
+task
 [
 '
 test
@@ -10048,7 +10048,7 @@ manifests
 manifests
             
 if
-test
+task
 [
 '
 chunks
@@ -10090,7 +10090,7 @@ def
 allow_software_gl_layers
 (
 config
-tests
+tasks
 )
 :
     
@@ -10123,13 +10123,13 @@ applies
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 .
 get
 (
@@ -10145,7 +10145,7 @@ layers
 )
 :
             
-test
+task
 [
 '
 mozharness
@@ -10181,7 +10181,7 @@ layers
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -10189,7 +10189,7 @@ def
 enable_webrender
 (
 config
-tests
+tasks
 )
 :
     
@@ -10221,13 +10221,13 @@ enabled
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 .
 get
 (
@@ -10239,7 +10239,7 @@ webrender
             
 extra_options
 =
-test
+task
 [
 '
 mozharness
@@ -10272,7 +10272,7 @@ webrender
             
 if
 not
-test
+task
 [
 '
 attributes
@@ -10319,7 +10319,7 @@ false
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -10327,7 +10327,7 @@ def
 set_schedules_for_webrender_android
 (
 config
-tests
+tasks
 )
 :
     
@@ -10350,13 +10350,13 @@ phones
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
-test
+task
 [
 '
 suite
@@ -10374,7 +10374,7 @@ reftest
 and
 \
            
-test
+task
 [
 '
 test
@@ -10393,7 +10393,7 @@ hw
 )
 :
             
-test
+task
 [
 '
 schedules
@@ -10411,7 +10411,7 @@ gfx
 '
         
 yield
-test
+task
 transforms
 .
 add
@@ -10419,7 +10419,7 @@ def
 set_retry_exit_status
 (
 config
-tests
+tasks
 )
 :
     
@@ -10455,12 +10455,12 @@ retried
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
-test
+task
 [
 '
 retry
@@ -10476,7 +10476,7 @@ status
 ]
         
 yield
-test
+task
 transforms
 .
 add
@@ -10484,7 +10484,7 @@ def
 set_profile
 (
 config
-tests
+tasks
 )
 :
     
@@ -10523,15 +10523,15 @@ False
 )
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
 profile
 and
-test
+task
 [
 '
 suite
@@ -10548,7 +10548,7 @@ raptor
 ]
 :
             
-test
+task
 [
 '
 mozharness
@@ -10572,7 +10572,7 @@ geckoProfile
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -10580,7 +10580,7 @@ def
 set_tag
 (
 config
-tests
+tasks
 )
 :
     
@@ -10635,16 +10635,16 @@ tag
 ]
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 if
 tag
 :
             
-test
+task
 [
 '
 mozharness
@@ -10671,7 +10671,7 @@ tag
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -10679,7 +10679,7 @@ def
 set_test_type
 (
 config
-tests
+tasks
 )
 :
     
@@ -10709,9 +10709,9 @@ gtest
 ]
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 for
@@ -10723,7 +10723,7 @@ types
 if
 test_type
 in
-test
+task
 [
 '
 suite
@@ -10737,7 +10737,7 @@ platform
 '
 not
 in
-test
+task
 [
 '
 suite
@@ -10745,7 +10745,7 @@ suite
 ]
 :
                 
-test
+task
 .
 setdefault
 (
@@ -10766,7 +10766,7 @@ type
 test_type
         
 yield
-test
+task
 transforms
 .
 add
@@ -10774,7 +10774,7 @@ def
 set_worker_type
 (
 config
-tests
+tasks
 )
 :
     
@@ -10796,14 +10796,14 @@ platform
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 test_platform
 =
-test
+task
 [
 '
 test
@@ -10813,7 +10813,7 @@ platform
 ]
         
 if
-test
+task
 .
 get
 (
@@ -10849,7 +10849,7 @@ power
 test
 '
 in
-test
+task
 [
 '
 mozharness
@@ -10864,7 +10864,7 @@ options
 ]
 :
                 
-test
+task
 [
 '
 worker
@@ -10887,7 +10887,7 @@ power
 else
 :
                 
-test
+task
 [
 '
 worker
@@ -10917,7 +10917,7 @@ win
 :
             
 if
-test
+task
 [
 '
 virtualization
@@ -11026,7 +11026,7 @@ split
                 
 ]
             
-test
+task
 [
 '
 worker
@@ -11037,7 +11037,7 @@ type
 =
 win_worker_type_platform
 [
-test
+task
 [
 '
 virtualization
@@ -11061,7 +11061,7 @@ g5
 :
             
 if
-test
+task
 [
 '
 suite
@@ -11074,7 +11074,7 @@ raptor
 '
 :
                 
-test
+task
 [
 '
 worker
@@ -11098,7 +11098,7 @@ g5
 else
 :
                 
-test
+task
 [
 '
 worker
@@ -11135,7 +11135,7 @@ p2
 :
             
 if
-test
+task
 [
 '
 suite
@@ -11148,7 +11148,7 @@ raptor
 '
 :
                 
-test
+task
 [
 '
 worker
@@ -11172,7 +11172,7 @@ p2
 else
 :
                 
-test
+task
 [
 '
 worker
@@ -11212,7 +11212,7 @@ x86
 )
 :
             
-test
+task
 [
 '
 worker
@@ -11254,7 +11254,7 @@ android
 :
             
 if
-test
+task
 .
 get
 (
@@ -11277,7 +11277,7 @@ and
 \
                  
 not
-test
+task
 [
 '
 build
@@ -11296,7 +11296,7 @@ ccov
 )
 :
                 
-test
+task
 [
 '
 worker
@@ -11316,7 +11316,7 @@ talos
 else
 :
                 
-test
+task
 [
 '
 worker
@@ -11327,7 +11327,7 @@ type
 =
 LINUX_WORKER_TYPES
 [
-test
+task
 [
 '
 instance
@@ -11357,7 +11357,7 @@ test_platform
 )
         
 yield
-test
+task
 transforms
 .
 add
@@ -11365,7 +11365,7 @@ def
 make_job_description
 (
 config
-tests
+tasks
 )
 :
     
@@ -11397,16 +11397,16 @@ job
 "
     
 for
-test
+task
 in
-tests
+tasks
 :
         
 mobile
 =
 get_mobile_project
 (
-test
+task
 )
         
 if
@@ -11416,7 +11416,7 @@ and
 mobile
 not
 in
-test
+task
 [
 '
 test
@@ -11448,7 +11448,7 @@ format
 config
 .
 kind
-test
+task
 [
 '
 test
@@ -11458,7 +11458,7 @@ platform
 ]
 mobile
                                          
-test
+task
 [
 '
 test
@@ -11489,7 +11489,7 @@ format
 config
 .
 kind
-test
+task
 [
 '
 test
@@ -11497,7 +11497,7 @@ test
 platform
 '
 ]
-test
+task
 [
 '
 test
@@ -11508,7 +11508,7 @@ name
 )
         
 if
-test
+task
 [
 '
 chunks
@@ -11529,7 +11529,7 @@ label
 .
 format
 (
-test
+task
 [
 '
 this
@@ -11541,7 +11541,7 @@ chunk
         
 build_label
 =
-test
+task
 [
 '
 build
@@ -11552,7 +11552,7 @@ label
         
 try_name
 =
-test
+task
 [
 '
 try
@@ -11562,7 +11562,7 @@ name
 ]
         
 if
-test
+task
 [
 '
 suite
@@ -11582,7 +11582,7 @@ talos_try_name
 '
         
 elif
-test
+task
 [
 '
 suite
@@ -11613,7 +11613,7 @@ unittest_try_name
 attr_build_platform
 attr_build_type
 =
-test
+task
 [
 '
 build
@@ -11632,7 +11632,7 @@ split
         
 attributes
 =
-test
+task
 .
 get
 (
@@ -11665,7 +11665,7 @@ attr_build_type
 test_platform
 '
 :
-test
+task
 [
 '
 test
@@ -11680,7 +11680,7 @@ test_chunk
 :
 str
 (
-test
+task
 [
 '
 this
@@ -11694,7 +11694,7 @@ chunk
 test_manifests
 '
 :
-test
+task
 .
 get
 (
@@ -11729,7 +11729,7 @@ name
 .
 format
 (
-test
+task
 [
 '
 test
@@ -11737,7 +11737,7 @@ test
 platform
 '
 ]
-test
+task
 [
 '
 test
@@ -11772,7 +11772,7 @@ description
 '
 ]
 =
-test
+task
 [
 '
 description
@@ -11812,7 +11812,7 @@ from
 '
 ]
 =
-test
+task
 [
 '
 job
@@ -11822,7 +11822,7 @@ from
 ]
         
 if
-test
+task
 .
 get
 (
@@ -11839,7 +11839,7 @@ fetches
 '
 ]
 =
-test
+task
 [
 '
 fetches
@@ -11847,7 +11847,7 @@ fetches
 ]
         
 if
-test
+task
 [
 '
 mozharness
@@ -11880,7 +11880,7 @@ signing
 '
 ]
 =
-test
+task
 [
 '
 build
@@ -11900,7 +11900,7 @@ after
 '
 ]
 =
-test
+task
 [
 '
 expires
@@ -11932,7 +11932,7 @@ projects
 =
 sorted
 (
-test
+task
 [
 '
 run
@@ -11961,7 +11961,7 @@ tags
 '
 ]
 =
-test
+task
 .
 get
 (
@@ -11991,7 +11991,7 @@ chunks
 current
 '
 :
-test
+task
 [
 '
 this
@@ -12004,7 +12004,7 @@ chunk
 total
 '
 :
-test
+task
 [
 '
 chunks
@@ -12039,7 +12039,7 @@ treeherder
 symbol
 '
 :
-test
+task
 [
 '
 treeherder
@@ -12060,7 +12060,7 @@ test
 tier
 '
 :
-test
+task
 [
 '
 tier
@@ -12071,7 +12071,7 @@ tier
 platform
 '
 :
-test
+task
 .
 get
 (
@@ -12082,7 +12082,7 @@ machine
 -
 platform
 '
-test
+task
 [
 '
 build
@@ -12096,7 +12096,7 @@ platform
         
 category
 =
-test
+task
 .
 get
 (
@@ -12139,7 +12139,7 @@ unittest_category
 ]
 platform_family
 (
-test
+task
 [
 '
 build
@@ -12152,7 +12152,7 @@ platform
             
 component
 =
-test
+task
 .
 get
 (
@@ -12175,7 +12175,7 @@ component
 )
         
 if
-test
+task
 .
 get
 (
@@ -12192,7 +12192,7 @@ when
 '
 ]
 =
-test
+task
 [
 '
 when
@@ -12204,7 +12204,7 @@ elif
 optimization
 '
 in
-test
+task
 :
             
 jobdesc
@@ -12214,7 +12214,7 @@ optimization
 '
 ]
 =
-test
+task
 [
 '
 optimization
@@ -12339,14 +12339,14 @@ test
 '
 ]
 =
-test
+task
         
 if
 '
 workdir
 '
 in
-test
+task
 :
             
 run
@@ -12356,7 +12356,7 @@ workdir
 '
 ]
 =
-test
+task
 .
 pop
 (
@@ -12374,7 +12374,7 @@ type
 '
 ]
 =
-test
+task
 .
 pop
 (
@@ -12386,7 +12386,7 @@ type
 )
         
 if
-test
+task
 .
 get
 (
@@ -12403,7 +12403,7 @@ fetches
 '
 ]
 =
-test
+task
 .
 pop
 (
