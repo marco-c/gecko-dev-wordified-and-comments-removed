@@ -46,7 +46,7 @@ attachment_type
 "
 bloomfilter
 -
-full
+base
 "
 generation_time
 :
