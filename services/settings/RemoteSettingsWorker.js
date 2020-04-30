@@ -64,7 +64,7 @@ settings
 const
 IDB_VERSION
 =
-3
+2
 ;
 const
 IDB_RECORDS_STORE
