@@ -181,7 +181,7 @@ js
 namespace
 jit
 {
-struct
+class
 IonScript
 ;
 class

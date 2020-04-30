@@ -708,7 +708,7 @@ OsiIndex
 class
 IonIC
 ;
-struct
+class
 alignas
 (
 8
