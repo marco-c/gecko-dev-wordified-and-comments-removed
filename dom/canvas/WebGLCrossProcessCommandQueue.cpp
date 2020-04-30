@@ -15,8 +15,15 @@ h
 namespace
 mozilla
 {
+#
+if
+0
 bool
 HostWebGLCommandSink
+<
+Consumer
+Queue
+>
 :
 :
 DispatchCommand
@@ -49,4 +56,6 @@ mHostContext
 )
 ;
 }
+#
+endif
 }

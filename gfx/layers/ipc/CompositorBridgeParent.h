@@ -327,9 +327,6 @@ mozilla
 class
 CancelableRunnable
 ;
-class
-HostWebGLCommandSink
-;
 namespace
 dom
 {

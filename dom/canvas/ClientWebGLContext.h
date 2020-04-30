@@ -115,6 +115,13 @@ h
 "
 #
 include
+"
+WebGLCommandQueue
+.
+h
+"
+#
+include
 <
 memory
 >
@@ -946,7 +953,7 @@ mWebGLChild
 ;
 UniquePtr
 <
-ClientWebGLCommandSource
+ClientWebGLCommandSourceP
 >
 mCommandSource
 ;
