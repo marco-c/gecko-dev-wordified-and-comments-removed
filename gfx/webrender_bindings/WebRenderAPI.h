@@ -2724,6 +2724,8 @@ wr
 LayoutRect
 &
 aBounds
+bool
+aIsBackfaceVisible
 wr
 :
 :

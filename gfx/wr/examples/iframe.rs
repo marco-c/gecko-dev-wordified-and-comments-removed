@@ -368,9 +368,8 @@ push_iframe
 (
 sub_bounds
 sub_bounds
+&
 space_and_clip
-.
-spatial_id
 sub_pipeline_id
 false
 )

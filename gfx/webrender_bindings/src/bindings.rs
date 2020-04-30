@@ -13162,9 +13162,13 @@ LayoutRect
 clip
 :
 LayoutRect
-spatial_id
+_is_backface_visible
 :
-WrSpatialId
+bool
+parent
+:
+&
+WrSpaceAndClipChain
 pipeline_id
 :
 WrPipelineId
@@ -13194,7 +13198,8 @@ push_iframe
 (
 rect
 clip
-spatial_id
+&
+parent
 .
 to_webrender
 (

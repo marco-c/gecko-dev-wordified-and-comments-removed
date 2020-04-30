@@ -7339,6 +7339,10 @@ ToLayoutRect
 (
 rect
 )
+!
+BackfaceIsHidden
+(
+)
 mozilla
 :
 :
