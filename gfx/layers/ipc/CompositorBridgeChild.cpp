@@ -77,17 +77,6 @@ include
 "
 mozilla
 /
-dom
-/
-WebGLChild
-.
-h
-"
-#
-include
-"
-mozilla
-/
 layers
 /
 CompositorManagerChild
