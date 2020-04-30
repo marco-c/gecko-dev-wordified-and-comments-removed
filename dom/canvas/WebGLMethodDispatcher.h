@@ -28,7 +28,7 @@ h
 #
 include
 "
-WebGLPcqParamTraits
+WebGLQueueParamTraits
 .
 h
 "
