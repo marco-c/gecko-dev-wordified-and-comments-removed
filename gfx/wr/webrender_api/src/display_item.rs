@@ -4515,9 +4515,9 @@ clip_rect
 :
 LayoutRect
 pub
-space_and_clip
+spatial_id
 :
-SpaceAndClipInfo
+SpatialId
 pub
 pipeline_id
 :

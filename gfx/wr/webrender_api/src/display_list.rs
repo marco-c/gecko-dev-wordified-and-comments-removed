@@ -9697,13 +9697,12 @@ LayoutRect
 clip_rect
 :
 LayoutRect
-space_and_clip
+spatial_id
 :
-&
 di
 :
 :
-SpaceAndClipInfo
+SpatialId
 pipeline_id
 :
 PipelineId
@@ -9730,10 +9729,7 @@ IframeDisplayItem
 {
 bounds
 clip_rect
-space_and_clip
-:
-*
-space_and_clip
+spatial_id
 pipeline_id
 ignore_missing_pipeline
 }
