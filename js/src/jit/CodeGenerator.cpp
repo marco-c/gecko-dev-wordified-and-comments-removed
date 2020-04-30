@@ -73122,16 +73122,6 @@ storageType
 )
 )
 ;
-bool
-canonicalizeDouble
-=
-mir
--
->
-canonicalizeDoubles
-(
-)
-;
 Label
 fail
 ;
@@ -73184,7 +73174,6 @@ out
 temp
 &
 fail
-canonicalizeDouble
 )
 ;
 }
@@ -73225,7 +73214,6 @@ out
 temp
 &
 fail
-canonicalizeDouble
 )
 ;
 }
