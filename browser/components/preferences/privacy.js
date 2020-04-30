@@ -9023,6 +9023,17 @@ caption
 )
 ;
 let
+win
+=
+Services
+.
+wm
+.
+getMostRecentBrowserWindow
+(
+)
+;
+let
 loggedIn
 =
 await
@@ -9036,7 +9047,7 @@ value
 captionText
 .
 value
-window
+win
 false
 )
 ;
