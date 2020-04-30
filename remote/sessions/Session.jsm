@@ -82,11 +82,7 @@ remote
 /
 content
 /
-domains
-/
-parent
-/
-network
+observers
 /
 NetworkObserver
 .

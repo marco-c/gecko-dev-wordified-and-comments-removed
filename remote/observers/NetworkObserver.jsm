@@ -141,11 +141,7 @@ remote
 /
 content
 /
-domains
-/
-parent
-/
-network
+observers
 /
 ChannelEventSink
 .
