@@ -65,17 +65,6 @@ components
 conf
 '
 ]
-EXTRA_JS_MODULES
-.
-aboutpages
-=
-[
-'
-AboutPrivateBrowsingHandler
-.
-jsm
-'
-]
 FINAL_LIBRARY
 =
 '

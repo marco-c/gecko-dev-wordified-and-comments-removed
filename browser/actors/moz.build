@@ -155,6 +155,16 @@ AboutNewTabChild
 jsm
 '
 '
+AboutPrivateBrowsingChild
+.
+jsm
+'
+'
+AboutPrivateBrowsingParent
+.
+jsm
+'
+'
 AboutProtectionsChild
 .
 jsm
