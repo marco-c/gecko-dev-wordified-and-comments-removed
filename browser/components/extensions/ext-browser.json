@@ -506,6 +506,9 @@ events
 "
 uninstall
 "
+"
+startup
+"
 ]
 "
 manifest
