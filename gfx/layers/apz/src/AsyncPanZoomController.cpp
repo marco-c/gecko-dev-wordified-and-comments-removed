@@ -10344,9 +10344,10 @@ consumed
 aFingersOnTouchpad
 )
 {
-mState
-=
+SetState
+(
 NOTHING
+)
 ;
 }
 return
