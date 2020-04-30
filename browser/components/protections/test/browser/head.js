@@ -44,7 +44,11 @@ false
 )
 =
 >
-async
+{
+return
+{
+getLoginData
+:
 (
 )
 =
@@ -79,6 +83,9 @@ deviceCount
 &
 &
 mobileDeviceConnected
+}
+;
+}
 }
 ;
 }

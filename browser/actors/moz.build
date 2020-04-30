@@ -155,6 +155,16 @@ AboutNewTabChild
 jsm
 '
 '
+AboutProtectionsChild
+.
+jsm
+'
+'
+AboutProtectionsParent
+.
+jsm
+'
+'
 AboutReaderChild
 .
 jsm
