@@ -119,6 +119,12 @@ BaselineFrame
 class
 JitActivation
 ;
+class
+SafepointIndex
+;
+class
+OsiIndex
+;
 void
 AssertJitStackInvariants
 (

@@ -235,6 +235,15 @@ include
 "
 jit
 /
+IonScript
+.
+h
+"
+#
+include
+"
+jit
+/
 JitCode
 .
 h

@@ -43,6 +43,15 @@ include
 "
 jit
 /
+IonScript
+.
+h
+"
+#
+include
+"
+jit
+/
 JitFrames
 .
 h

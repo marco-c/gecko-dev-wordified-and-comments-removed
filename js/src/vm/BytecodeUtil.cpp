@@ -139,6 +139,15 @@ h
 #
 include
 "
+jit
+/
+IonScript
+.
+h
+"
+#
+include
+"
 js
 /
 CharacterEncoding

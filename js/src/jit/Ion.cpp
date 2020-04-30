@@ -246,6 +246,15 @@ include
 "
 jit
 /
+IonScript
+.
+h
+"
+#
+include
+"
+jit
+/
 JitcodeMap
 .
 h
