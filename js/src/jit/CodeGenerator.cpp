@@ -72958,12 +72958,12 @@ Scalar
 :
 :
 Type
-readType
+storageType
 =
 mir
 -
 >
-readType
+storageType
 (
 )
 ;
@@ -72975,12 +72975,7 @@ Scalar
 :
 byteSize
 (
-mir
--
->
 storageType
-(
-)
 )
 ;
 Label
@@ -73029,7 +73024,7 @@ masm
 .
 loadFromTypedArray
 (
-readType
+storageType
 source
 out
 temp
@@ -73069,7 +73064,7 @@ masm
 .
 loadFromTypedArray
 (
-readType
+storageType
 source
 out
 temp
