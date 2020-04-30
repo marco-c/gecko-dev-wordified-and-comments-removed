@@ -1495,8 +1495,6 @@ const
 LAllocation
 *
 index
-int32_t
-offsetAdjustment
 )
 ;
 void
@@ -1508,8 +1506,6 @@ const
 LAllocation
 *
 index
-int32_t
-offsetAdjustment
 LSnapshot
 *
 snapshot
