@@ -1121,6 +1121,8 @@ const
 LAllocation
 *
 index
+int32_t
+offsetAdjustment
 )
 ;
 void

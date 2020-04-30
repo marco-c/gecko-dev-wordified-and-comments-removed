@@ -2126,6 +2126,8 @@ temp
 Label
 *
 fail
+bool
+canonicalizeDoubles
 )
 {
 switch
@@ -2338,6 +2340,11 @@ fpu
 )
 )
 ;
+if
+(
+canonicalizeDoubles
+)
+{
 canonicalizeDouble
 (
 dest
@@ -2347,6 +2354,7 @@ fpu
 )
 )
 ;
+}
 break
 ;
 case
@@ -2398,6 +2406,8 @@ temp
 Label
 *
 fail
+bool
+canonicalizeDoubles
 )
 ;
 template
@@ -2423,6 +2433,8 @@ temp
 Label
 *
 fail
+bool
+canonicalizeDoubles
 )
 ;
 template
