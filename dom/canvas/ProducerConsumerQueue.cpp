@@ -22,16 +22,5 @@ pcq
 "
 )
 ;
-mozilla
-:
-:
-LazyLogModule
-gIpdlQueueLog
-(
-"
-ipdlqueue
-"
-)
-;
 }
 }
