@@ -21,7 +21,7 @@ include
 "
 jit
 /
-IonCode
+JitCode
 .
 h
 "
