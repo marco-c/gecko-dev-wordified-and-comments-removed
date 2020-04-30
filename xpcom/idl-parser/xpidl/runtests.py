@@ -1,16 +1,8 @@
-from
-__future__
-import
-absolute_import
 import
 mozunit
 import
 unittest
-from
-xpidl
 import
-xpidl
-from
 xpidl
 import
 header
