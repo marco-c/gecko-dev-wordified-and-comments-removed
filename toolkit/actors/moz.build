@@ -89,12 +89,12 @@ TESTING_JS_MODULES
 =
 [
 '
-TestChild
+TestWindowChild
 .
 jsm
 '
 '
-TestParent
+TestWindowParent
 .
 jsm
 '

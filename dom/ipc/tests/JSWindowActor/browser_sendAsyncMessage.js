@@ -33,7 +33,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -77,7 +77,7 @@ child
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -233,7 +233,7 @@ child
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
