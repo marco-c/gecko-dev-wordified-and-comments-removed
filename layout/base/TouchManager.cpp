@@ -452,7 +452,7 @@ AppendToTouchList
 WidgetTouchEvent
 :
 :
-TouchArray
+TouchArrayBase
 *
 aTouchList
 )

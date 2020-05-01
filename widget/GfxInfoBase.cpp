@@ -6182,6 +6182,10 @@ GfxInfoFeatureStatus
 >
 (
 aFS
+.
+Clone
+(
+)
 )
 ;
 }

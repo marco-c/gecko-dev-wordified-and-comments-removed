@@ -1364,7 +1364,7 @@ class
 TextRangeArray
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 OwningNonNull
 <

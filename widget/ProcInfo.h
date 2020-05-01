@@ -142,7 +142,7 @@ cpuKernel
 =
 0
 ;
-nsTArray
+CopyableTArray
 <
 ThreadInfo
 >

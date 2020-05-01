@@ -2166,7 +2166,7 @@ mVisible
 LayoutDeviceIntRect
 mBounds
 ;
-nsTArray
+CopyableTArray
 <
 LayoutDeviceIntRect
 >

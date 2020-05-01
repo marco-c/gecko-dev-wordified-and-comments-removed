@@ -1058,6 +1058,10 @@ aFilesOrDirectories
 mFilesOrDirectories
 (
 aFilesOrDirectories
+.
+Clone
+(
+)
 )
 mIndex
 (

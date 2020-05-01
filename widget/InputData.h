@@ -526,7 +526,7 @@ aTransform
 MultiTouchType
 mType
 ;
-nsTArray
+CopyableTArray
 <
 SingleTouchData
 >
@@ -1433,7 +1433,7 @@ mKeyCode
 uint32_t
 mCharCode
 ;
-nsTArray
+CopyableTArray
 <
 ShortcutKeyCandidate
 >

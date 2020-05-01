@@ -437,7 +437,7 @@ WidgetInputEvent
 public
 :
 typedef
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -468,6 +468,13 @@ Touch
 10
 >
 AutoTouchArray
+;
+typedef
+AutoTouchArray
+:
+:
+base_type
+TouchArrayBase
 ;
 virtual
 WidgetTouchEvent

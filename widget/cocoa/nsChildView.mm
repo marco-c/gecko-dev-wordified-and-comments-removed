@@ -10532,7 +10532,13 @@ WidgetsReleaserRunnable
 )
 mWidgetArray
 (
+std
+:
+:
+move
+(
 aWidgetArray
+)
 )
 {
 }
