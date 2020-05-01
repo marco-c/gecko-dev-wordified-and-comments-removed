@@ -385,7 +385,7 @@ mozilla
 /
 dom
 /
-JSWindowActorService
+JSActorService
 .
 h
 "
@@ -13999,11 +13999,11 @@ aInfos
 {
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 actSvc
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton
@@ -14044,11 +14044,11 @@ aName
 {
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 actSvc
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton

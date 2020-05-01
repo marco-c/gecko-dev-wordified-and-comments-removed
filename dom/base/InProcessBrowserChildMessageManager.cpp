@@ -139,7 +139,7 @@ mozilla
 /
 dom
 /
-JSWindowActorService
+JSActorService
 .
 h
 "
@@ -218,11 +218,11 @@ XRE_IsParentProcess
 {
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 wasvc
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton
@@ -581,7 +581,7 @@ XRE_IsParentProcess
 )
 )
 {
-JSWindowActorService
+JSActorService
 :
 :
 UnregisterChromeEventTarget

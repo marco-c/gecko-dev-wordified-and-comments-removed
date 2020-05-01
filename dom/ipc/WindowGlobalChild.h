@@ -74,7 +74,7 @@ class
 JSWindowActorChild
 ;
 class
-JSWindowActorMessageMeta
+JSActorMessageMeta
 ;
 class
 BrowserChild
@@ -308,7 +308,7 @@ void
 ReceiveRawMessage
 (
 const
-JSWindowActorMessageMeta
+JSActorMessageMeta
 &
 aMeta
 ipc
@@ -413,7 +413,7 @@ GetRemoteType
 )
 override
 ;
-JSWindowActor
+JSActor
 :
 :
 Type
@@ -423,7 +423,7 @@ GetSide
 override
 {
 return
-JSWindowActor
+JSActor
 :
 :
 Type
@@ -442,7 +442,7 @@ IPCResult
 RecvRawMessage
 (
 const
-JSWindowActorMessageMeta
+JSActorMessageMeta
 &
 aMeta
 const

@@ -745,7 +745,7 @@ mozilla
 /
 dom
 /
-JSWindowActorService
+JSActorService
 .
 h
 "
@@ -13282,11 +13282,11 @@ registrations
 }
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 actorSvc
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton
