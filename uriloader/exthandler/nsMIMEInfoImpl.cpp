@@ -1545,6 +1545,10 @@ aOther
 mExtensions
 =
 mExtensions
+.
+Clone
+(
+)
 ;
 }
 already_AddRefed
