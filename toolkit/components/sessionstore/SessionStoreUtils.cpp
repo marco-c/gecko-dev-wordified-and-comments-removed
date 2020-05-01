@@ -3167,7 +3167,14 @@ value
 =
 AsVariant
 (
+CopyableTArray
+(
 aValue
+.
+Clone
+(
+)
+)
 )
 ;
 AppendEntryToCollectedData
@@ -7611,7 +7618,7 @@ value
 .
 is
 <
-nsTArray
+CopyableTArray
 <
 nsString
 >
@@ -7641,7 +7648,7 @@ value
 .
 as
 <
-nsTArray
+CopyableTArray
 <
 nsString
 >

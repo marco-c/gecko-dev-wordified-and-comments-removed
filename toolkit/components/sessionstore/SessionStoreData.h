@@ -53,7 +53,7 @@ dom
 :
 :
 CollectedNonMultipleSelectValue
-nsTArray
+CopyableTArray
 <
 nsString
 >
