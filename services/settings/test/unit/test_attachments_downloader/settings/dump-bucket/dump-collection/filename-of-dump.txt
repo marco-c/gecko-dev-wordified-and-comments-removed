@@ -1,7 +1,0 @@
-This
-would
-be
-a
-RS
-dump
-.
