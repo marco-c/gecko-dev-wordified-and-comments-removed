@@ -264,6 +264,11 @@ JSActor
 webidl
 '
 '
+JSProcessActor
+.
+webidl
+'
+'
 JSWindowActor
 .
 webidl
