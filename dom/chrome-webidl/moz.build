@@ -259,16 +259,6 @@ IteratorResult
 webidl
 '
 '
-JSActor
-.
-webidl
-'
-'
-JSProcessActor
-.
-webidl
-'
-'
 JSWindowActor
 .
 webidl

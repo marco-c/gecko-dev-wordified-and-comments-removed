@@ -69,7 +69,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -133,7 +133,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -205,7 +205,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -256,7 +256,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -412,7 +412,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -571,7 +571,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -638,7 +638,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -689,7 +689,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -775,7 +775,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -877,7 +877,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -946,7 +946,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -1011,7 +1011,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -1080,7 +1080,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -1133,7 +1133,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -1200,7 +1200,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -1267,7 +1267,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -1389,7 +1389,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 /
@@ -1503,7 +1503,7 @@ child
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;
@@ -1568,7 +1568,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 "
@@ -1623,7 +1623,7 @@ parent
 getActor
 (
 "
-TestWindow
+Test
 "
 )
 ;

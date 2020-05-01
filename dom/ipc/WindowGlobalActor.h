@@ -59,7 +59,7 @@ mozilla
 /
 dom
 /
-JSActor
+JSWindowActor
 .
 h
 "
@@ -139,7 +139,7 @@ GetRemoteType
 0
 ;
 virtual
-JSActor
+JSWindowActor
 :
 :
 Type
