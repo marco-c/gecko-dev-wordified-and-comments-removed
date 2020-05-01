@@ -8491,6 +8491,10 @@ EditCommandsConstRef
 (
 keyBindingsType
 )
+.
+Clone
+(
+)
 ;
 }
 return

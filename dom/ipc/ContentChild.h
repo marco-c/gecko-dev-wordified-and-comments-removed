@@ -509,8 +509,8 @@ aIsForBrowser
 void
 InitXPCOM
 (
-const
 XPCOMInitData
+&
 &
 aXPCOMInit
 const
@@ -2863,8 +2863,8 @@ ipc
 IPCResult
 RecvSetXPCOMProcessAttributes
 (
-const
 XPCOMInitData
+&
 &
 aXPCOMInit
 const
