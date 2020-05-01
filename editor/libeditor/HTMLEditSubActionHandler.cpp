@@ -24440,7 +24440,7 @@ newListItemElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction

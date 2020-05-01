@@ -3121,7 +3121,7 @@ spanElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction
@@ -3251,7 +3251,7 @@ NS_WARNING_ASSERTION
 (
 newContainerElement
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction
@@ -5304,7 +5304,7 @@ spanElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction
@@ -12141,7 +12141,7 @@ NS_WARNING_ASSERTION
 (
 newElement
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction
@@ -12759,7 +12759,7 @@ NS_WARNING_ASSERTION
 (
 newElement
 "
-EditorBase
+HTMLEditor
 :
 :
 InsertContainerWithTransaction
