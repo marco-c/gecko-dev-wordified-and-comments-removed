@@ -89,6 +89,16 @@ TESTING_JS_MODULES
 =
 [
 '
+TestProcessActorChild
+.
+jsm
+'
+'
+TestProcessActorParent
+.
+jsm
+'
+'
 TestWindowChild
 .
 jsm

@@ -905,6 +905,12 @@ false
 IntersectionObserverEntry
 :
 false
+JSProcessActorChild
+:
+false
+JSProcessActorParent
+:
+false
 JSWindowActorChild
 :
 false

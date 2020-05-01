@@ -1152,6 +1152,15 @@ ini
 '
 tests
 /
+JSProcessActor
+/
+browser
+.
+ini
+'
+'
+tests
+/
 JSWindowActor
 /
 browser
