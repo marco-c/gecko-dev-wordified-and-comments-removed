@@ -18,10 +18,9 @@ STRINGS
 identity
 ;
 gcparam
-assertEq4highFrequencyHeapGrowthMax4highFrequencyHeapGrowthMin
-highFrequencyHighLimit
-*
-highFrequencyLowLimit
+assertEq8highFrequencyLargeHeapGrowth8highFrequencySmallHeapGrowth
+largeHeapSizeMin
+smallHeapSizeMax
 [
 TREE
 ]

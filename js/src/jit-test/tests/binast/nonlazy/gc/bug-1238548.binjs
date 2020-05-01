@@ -18,8 +18,8 @@ STRINGS
 ]
 identity
 ;
-H
-gcparam4highFrequencyHeapGrowthMax
+L
+gcparam8highFrequencySmallHeapGrowth
 [
 TREE
 ]

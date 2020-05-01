@@ -8899,7 +8899,7 @@ options
 .
 mem
 .
-gc_high_frequency_low_limit_mb
+gc_small_heap_size_max_mb
 "
 100
 )
@@ -8913,7 +8913,7 @@ options
 .
 mem
 .
-gc_high_frequency_high_limit_mb
+gc_large_heap_size_min_mb
 "
 500
 )
@@ -8927,7 +8927,7 @@ options
 .
 mem
 .
-gc_high_frequency_heap_growth_max
+gc_high_frequency_small_heap_growth
 "
 300
 )
@@ -8941,7 +8941,7 @@ options
 .
 mem
 .
-gc_high_frequency_heap_growth_min
+gc_high_frequency_large_heap_growth
 "
 150
 )

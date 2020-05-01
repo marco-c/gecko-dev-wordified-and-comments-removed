@@ -45,7 +45,7 @@ gc
 gcparam
 (
 '
-highFrequencyHighLimit
+largeHeapSizeMin
 '
 99
 )

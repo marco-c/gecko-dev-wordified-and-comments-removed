@@ -1,7 +1,7 @@
 gcparam
 (
 "
-highFrequencyHeapGrowthMax
+highFrequencySmallHeapGrowth
 "
 1
 )
