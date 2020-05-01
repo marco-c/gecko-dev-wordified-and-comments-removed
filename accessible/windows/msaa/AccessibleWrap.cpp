@@ -2636,6 +2636,10 @@ aArray
 mArray
 (
 aArray
+.
+Clone
+(
+)
 )
 mCurIndex
 (
@@ -2656,6 +2660,10 @@ mArray
 toCopy
 .
 mArray
+.
+Clone
+(
+)
 )
 mCurIndex
 (

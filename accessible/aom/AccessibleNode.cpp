@@ -426,6 +426,10 @@ mStates
 StringArray
 (
 )
+.
+Clone
+(
+)
 ;
 return
 ;
@@ -451,6 +455,10 @@ mStates
 -
 >
 StringArray
+(
+)
+.
+Clone
 (
 )
 ;
