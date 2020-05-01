@@ -84,7 +84,7 @@ TextServicesDocument
 typedef
 MozPromise
 <
-nsTArray
+CopyableTArray
 <
 bool
 >
