@@ -140,6 +140,13 @@ id
 )
 ?
 ;
+store
+.
+wipe_all
+(
+)
+?
+;
 Ok
 (
 (
