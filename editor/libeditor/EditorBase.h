@@ -4327,15 +4327,6 @@ aSourceElement
 )
 ;
 MOZ_CAN_RUN_SCRIPT
-nsresult
-RemoveContainerWithTransaction
-(
-Element
-&
-aElement
-)
-;
-MOZ_CAN_RUN_SCRIPT
 already_AddRefed
 <
 Element

@@ -5477,7 +5477,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
@@ -5547,7 +5547,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
@@ -5752,7 +5752,7 @@ NS_SUCCEEDED
 rvIgnored
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
@@ -5830,7 +5830,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
@@ -12585,7 +12585,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 RemoveContainerWithTransaction
