@@ -15758,7 +15758,7 @@ HeapThreshold
 threshold
 )
 {
-float
+double
 thresholdBytes
 =
 threshold
@@ -15772,7 +15772,7 @@ inHighFrequencyGCMode
 )
 )
 ;
-float
+double
 usedBytes
 =
 size
