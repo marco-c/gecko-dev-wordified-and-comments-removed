@@ -313,7 +313,7 @@ nsCString
 >
 value
 ;
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >

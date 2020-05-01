@@ -350,7 +350,7 @@ kSampleTwo
 =
 2019
 ;
-nsTArray
+CopyableTArray
 <
 uint32_t
 >
@@ -473,7 +473,7 @@ LABELS_TELEMETRY_TEST_CATEGORICAL_OPTOUT
 :
 Label5
 ;
-nsTArray
+CopyableTArray
 <
 uint32_t
 >
@@ -620,7 +620,7 @@ kSample3
 =
 7
 ;
-nsTArray
+CopyableTArray
 <
 uint32_t
 >
@@ -640,7 +640,7 @@ AppendElement
 kSample2
 )
 ;
-nsTArray
+CopyableTArray
 <
 uint32_t
 >
@@ -763,7 +763,7 @@ uint32_t
 sample2
 )
 {
-nsTArray
+CopyableTArray
 <
 uint32_t
 >
@@ -783,7 +783,7 @@ AppendElement
 sample2
 )
 ;
-nsTArray
+CopyableTArray
 <
 uint32_t
 >

@@ -11031,7 +11031,7 @@ mozilla
 :
 Maybe
 <
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >

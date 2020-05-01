@@ -308,7 +308,7 @@ Nothing
 )
 )
 ;
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >
@@ -351,7 +351,7 @@ extra
 )
 )
 ;
-nsTArray
+CopyableTArray
 <
 EventExtraEntry
 >
