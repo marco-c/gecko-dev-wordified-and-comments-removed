@@ -107,6 +107,10 @@ aRequestTables
 mRequestedTables
 =
 aRequestTables
+.
+Clone
+(
+)
 ;
 }
 nsresult

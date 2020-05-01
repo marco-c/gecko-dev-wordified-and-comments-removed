@@ -850,6 +850,10 @@ aArray
 mArray
 =
 aArray
+.
+Clone
+(
+)
 ;
 PrefixArrayToPrefixStringMap
 (

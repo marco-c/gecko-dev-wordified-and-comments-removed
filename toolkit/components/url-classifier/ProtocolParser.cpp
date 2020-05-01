@@ -927,6 +927,10 @@ reset
 mTablesToReset
 =
 mRequestedTables
+.
+Clone
+(
+)
 ;
 }
 else
