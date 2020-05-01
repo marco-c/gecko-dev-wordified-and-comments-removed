@@ -246,7 +246,14 @@ allocationThreshold
 testChangeParam
 (
 "
-nonIncrementalFactor
+smallHeapIncrementalLimit
+"
+)
+;
+testChangeParam
+(
+"
+largeHeapIncrementalLimit
 "
 )
 ;

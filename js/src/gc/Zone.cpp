@@ -441,17 +441,6 @@ retainedBytes
 gc
 .
 tunables
-.
-mallocThresholdBase
-(
-)
-gc
-.
-tunables
-.
-mallocGrowthFactor
-(
-)
 lock
 )
 ;
