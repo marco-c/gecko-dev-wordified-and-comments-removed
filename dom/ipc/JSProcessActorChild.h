@@ -133,6 +133,11 @@ ContentChild
 aManager
 )
 ;
+void
+AfterDestroy
+(
+)
+;
 protected
 :
 virtual
