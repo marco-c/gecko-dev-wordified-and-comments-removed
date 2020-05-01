@@ -306,7 +306,7 @@ status
 uint8_t
 rootIcon
 ;
-nsTArray
+CopyableTArray
 <
 IconPayload
 >

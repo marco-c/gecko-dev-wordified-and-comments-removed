@@ -6976,6 +6976,10 @@ aQuery
 Transitions
 (
 )
+.
+Clone
+(
+)
 )
 {
 }
@@ -16310,8 +16314,12 @@ _fol
 FolderObserverList
 _listCopy
 (
-*
 _fol
+-
+>
+Clone
+(
+)
 )
 ;
 \
@@ -16374,6 +16382,10 @@ _listType
 _listCopy
 (
 _observersList
+.
+Clone
+(
+)
 )
 ;
 \
