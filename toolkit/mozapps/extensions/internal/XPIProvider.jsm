@@ -1901,6 +1901,9 @@ runInSafeMode
 signedState
 "
 "
+signedDate
+"
+"
 startupData
 "
 "
@@ -2270,6 +2273,11 @@ signedState
 this
 .
 signedState
+signedDate
+:
+this
+.
+signedDate
 telemetryKey
 :
 this
@@ -2579,6 +2587,14 @@ signedState
 aDBAddon
 .
 signedState
+;
+this
+.
+signedDate
+=
+aDBAddon
+.
+signedDate
 ;
 this
 .
