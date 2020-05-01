@@ -4264,7 +4264,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction

@@ -10125,7 +10125,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -10720,7 +10720,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -25432,7 +25432,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -32106,7 +32106,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -32194,7 +32194,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -33086,7 +33086,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -42066,7 +42066,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -42113,7 +42113,7 @@ IsSet
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -42223,7 +42223,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -42270,7 +42270,7 @@ IsSet
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -42474,7 +42474,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -43165,7 +43165,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -44686,7 +44686,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -44717,7 +44717,7 @@ DidSplit
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -45734,7 +45734,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -48686,7 +48686,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction

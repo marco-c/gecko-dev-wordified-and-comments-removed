@@ -2185,7 +2185,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -2224,7 +2224,7 @@ IsSet
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
@@ -3796,7 +3796,7 @@ Succeeded
 (
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeDeepWithTransaction
