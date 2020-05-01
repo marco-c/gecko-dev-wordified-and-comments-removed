@@ -324,3 +324,15 @@ enable
 true
 )
 ;
+user_pref
+(
+"
+network
+.
+cookie
+.
+cookieBehavior
+"
+4
+)
+;
