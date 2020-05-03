@@ -16,6 +16,10 @@ pub
 struct
 StringMetric
 (
+pub
+(
+crate
+)
 glean_core
 :
 :
