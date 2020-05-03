@@ -96,6 +96,7 @@ function
 (
 connection
 docShell
+options
 )
 {
 BrowsingContextTargetActor
@@ -108,6 +109,7 @@ call
 (
 this
 connection
+options
 )
 ;
 this
