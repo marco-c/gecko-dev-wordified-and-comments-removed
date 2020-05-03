@@ -924,6 +924,9 @@ archive
 server
 =
 None
+all_types
+=
+False
 )
 :
     
@@ -1017,12 +1020,19 @@ Location
 )
     
 if
+(
+        
+not
+all_types
+        
+and
 resp
 .
 status_code
 =
 =
 200
+        
 and
 "
 text
@@ -1040,6 +1050,8 @@ Content
 Type
 "
 ]
+    
+)
 :
         
 logger

@@ -26,6 +26,7 @@ condprof
 client
 import
 get_profile
+TC_SERVICE
 ROOT_URL
 from
 condprof
@@ -353,6 +354,23 @@ status
         
 )
         
+responses
+.
+add
+(
+responses
+.
+HEAD
+TC_SERVICE
+body
+=
+"
+"
+status
+=
+200
+)
+        
 secret
 =
 {
@@ -629,7 +647,7 @@ responses
 .
 calls
 )
-1
+2
 )
         
 prefs_js
