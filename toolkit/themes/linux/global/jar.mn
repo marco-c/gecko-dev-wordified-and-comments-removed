@@ -76,16 +76,6 @@ toolkit
 .
 jar
 :
-*
-skin
-/
-classic
-/
-global
-/
-arrowpanel
-.
-css
 skin
 /
 classic
