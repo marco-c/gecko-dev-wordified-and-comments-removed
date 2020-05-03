@@ -5564,6 +5564,16 @@ using
 regular
 expressions
 :
+<
+div
+class
+=
+"
+table
+-
+container
+"
+>
 eval_rst
 =
 =
@@ -5910,6 +5920,10 @@ s
 =
 =
 =
+<
+/
+div
+>
 Bear
 in
 mind
