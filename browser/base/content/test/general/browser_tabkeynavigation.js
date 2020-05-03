@@ -243,16 +243,6 @@ set
 [
 [
 "
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-false
-]
-[
-"
 browser
 .
 ctrlTab
@@ -264,6 +254,10 @@ false
 ]
 }
 )
+;
+gReduceMotionOverride
+=
+true
 ;
 gBrowser
 .

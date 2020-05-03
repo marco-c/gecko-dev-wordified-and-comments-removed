@@ -16,6 +16,10 @@ function
 (
 )
 {
+gReduceMotionOverride
+=
+false
+;
 await
 ensureNoPreloadedBrowser
 (

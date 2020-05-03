@@ -10,6 +10,10 @@ waitForExplicitFinish
 (
 )
 ;
+gReduceMotionOverride
+=
+false
+;
 tab
 =
 BrowserTestUtils

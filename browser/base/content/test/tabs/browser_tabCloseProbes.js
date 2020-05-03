@@ -140,6 +140,10 @@ setup
 (
 )
 {
+gReduceMotionOverride
+=
+false
+;
 let
 oldCanRecord
 =
