@@ -425,7 +425,7 @@ Package
 mozharness
 (
 call
-py3_action
+py_action
 test_archive
 \
 mozharness
@@ -1956,7 +1956,7 @@ txt
 :
 (
 call
-py3_action
+py_action
 file_generate
 (
 MOZILLA_DIR
@@ -2077,7 +2077,7 @@ txt
 :
 (
 call
-py3_action
+py_action
 file_generate
 (
 MOZILLA_DIR
