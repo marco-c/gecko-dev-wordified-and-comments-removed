@@ -4265,8 +4265,6 @@ CreateBidiKeyboard
 (
 )
 ;
-protected
-:
 virtual
 double
 GetDefaultScaleInternal
@@ -4279,6 +4277,8 @@ return
 0
 ;
 }
+protected
+:
 nsCOMPtr
 <
 nsIWidget
