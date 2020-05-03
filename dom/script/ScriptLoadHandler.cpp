@@ -1010,7 +1010,7 @@ IsPreload
 mRequest
 -
 >
-GetScriptElement
+Element
 (
 )
 -
@@ -1379,7 +1379,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetScriptElement
+Element
 (
 )
 "
@@ -1446,7 +1446,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetScriptElement
+Element
 (
 )
 "
@@ -1537,7 +1537,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetScriptElement
+Element
 (
 )
 "
@@ -1574,7 +1574,7 @@ TRACE_FOR_TEST
 mRequest
 -
 >
-GetScriptElement
+Element
 (
 )
 "
