@@ -52197,6 +52197,11 @@ previousFlags
 aRedirects
 )
 ;
+if
+(
+aTiming
+)
+{
 self
 -
 >
@@ -52209,6 +52214,7 @@ self
 aTiming
 )
 ;
+}
 if
 (
 aHistoryIndex
