@@ -60,7 +60,7 @@ n
 return
 (
 "
-JSWindowActor
+JSActor
 query
 *
 "

@@ -187,7 +187,7 @@ mozilla
 /
 dom
 /
-JSWindowActorService
+JSActorService
 .
 h
 "
@@ -6852,11 +6852,11 @@ XRE_IsParentProcess
 ;
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 service
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton
@@ -6899,11 +6899,11 @@ XRE_IsParentProcess
 ;
 RefPtr
 <
-JSWindowActorService
+JSActorService
 >
 service
 =
-JSWindowActorService
+JSActorService
 :
 :
 GetSingleton

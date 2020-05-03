@@ -106,6 +106,9 @@ RemoteTab
 interface
 nsITransportSecurityInfo
 ;
+interface
+nsIContentParent
+;
 [
 Exposed
 =

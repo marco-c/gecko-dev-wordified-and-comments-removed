@@ -49,7 +49,18 @@ mozilla
 /
 dom
 /
-JSWindowActor
+ContentChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
+JSActor
 .
 h
 "
@@ -102,7 +113,7 @@ JSWindowActorChild
 final
 :
 public
-JSWindowActor
+JSActor
 {
 public
 :
@@ -110,7 +121,7 @@ NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS_INHERITED
 (
 JSWindowActorChild
-JSWindowActor
+JSActor
 )
 explicit
 JSWindowActorChild
@@ -264,7 +275,7 @@ void
 SendRawMessage
 (
 const
-JSWindowActorMessageMeta
+JSActorMessageMeta
 &
 aMeta
 ipc
