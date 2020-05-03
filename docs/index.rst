@@ -31,7 +31,7 @@
 =
 =
 =
-Mozilla
+Firefox
 Source
 Tree
 Documentation
