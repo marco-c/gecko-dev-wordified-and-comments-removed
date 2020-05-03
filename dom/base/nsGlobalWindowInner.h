@@ -1064,6 +1064,14 @@ GetEffectiveStoragePrincipal
 )
 override
 ;
+virtual
+nsIPrincipal
+*
+IntrinsicStoragePrincipal
+(
+)
+override
+;
 NS_DECL_NSIDOMWINDOW
 NS_DECL_NSIDOMCHROMEWINDOW
 void
@@ -7606,6 +7614,12 @@ nsCOMPtr
 nsIPrincipal
 >
 mDocumentStoragePrincipal
+;
+nsCOMPtr
+<
+nsIPrincipal
+>
+mDocumentIntrinsicStoragePrincipal
 ;
 nsCOMPtr
 <

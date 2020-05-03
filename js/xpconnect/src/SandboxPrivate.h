@@ -202,6 +202,17 @@ return
 mPrincipal
 ;
 }
+nsIPrincipal
+*
+IntrinsicStoragePrincipal
+(
+)
+override
+{
+return
+mPrincipal
+;
+}
 JSObject
 *
 GetGlobalJSObject

@@ -67,6 +67,15 @@ GetEffectiveStoragePrincipal
 =
 0
 ;
+virtual
+nsIPrincipal
+*
+IntrinsicStoragePrincipal
+(
+)
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
