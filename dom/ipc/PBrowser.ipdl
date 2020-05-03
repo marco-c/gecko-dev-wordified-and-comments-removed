@@ -1606,6 +1606,13 @@ aCallerType
 )
 ;
 async
+WheelZoomChange
+(
+bool
+increase
+)
+;
+async
 EnableDisableCommands
 (
 MaybeDiscardedBrowsingContext

@@ -305,14 +305,4 @@ WebNavigationChild
 .
 jsm
 '
-'
-ZoomChild
-.
-jsm
-'
-'
-ZoomParent
-.
-jsm
-'
 ]

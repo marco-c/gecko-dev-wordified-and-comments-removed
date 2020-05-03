@@ -338,6 +338,13 @@ aGivenProto
 override
 ;
 void
+DispatchWheelZoomChange
+(
+bool
+aIncrease
+)
+;
+void
 NotifyStartDelayedAutoplayMedia
 (
 )
