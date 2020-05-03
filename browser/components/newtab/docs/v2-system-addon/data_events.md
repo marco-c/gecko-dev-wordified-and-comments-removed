@@ -8571,7 +8571,7 @@ message_id
 "
 :
 "
-SIMPLIFIED_ABOUT_WELCOME
+ABOUT_WELCOME
 "
 "
 event
@@ -8681,7 +8681,7 @@ message_id
 "
 :
 "
-ABOUT_WELCOME_SESSION_END
+ABOUT_WELCOME
 "
 "
 id
