@@ -804,7 +804,10 @@ aNames
 .
 append
 (
-NON_INTEGER_ATOM_TO_JSID
+PropertyKey
+:
+:
+fromNonIntAtom
 (
 str
 )
@@ -1130,7 +1133,10 @@ aProperties
 .
 append
 (
-NON_INTEGER_ATOM_TO_JSID
+PropertyKey
+:
+:
+fromNonIntAtom
 (
 str
 )
