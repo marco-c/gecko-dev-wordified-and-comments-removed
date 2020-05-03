@@ -3706,6 +3706,9 @@ str
 )
 {
 return
+JS
+:
+:
 PropertyKey
 :
 :
