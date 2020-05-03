@@ -4683,7 +4683,7 @@ this
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetOffsets
@@ -10796,7 +10796,7 @@ false
 }
 ComputedStyle
 *
-nsFrame
+nsIFrame
 :
 :
 GetAdditionalComputedStyle
@@ -10824,7 +10824,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 SetAdditionalComputedStyle
@@ -10851,7 +10851,7 @@ number
 ;
 }
 nscoord
-nsFrame
+nsIFrame
 :
 :
 GetLogicalBaseline
@@ -10919,7 +10919,7 @@ aWritingMode
 const
 nsFrameList
 &
-nsFrame
+nsIFrame
 :
 :
 GetChildList
@@ -10968,7 +10968,7 @@ EmptyList
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 GetChildLists
@@ -21384,7 +21384,7 @@ GetChildList
 }
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetContentForEvent
@@ -27794,7 +27794,7 @@ kid
 }
 }
 nscoord
-nsFrame
+nsIFrame
 :
 :
 GetMinISize
@@ -27820,7 +27820,7 @@ result
 ;
 }
 nscoord
-nsFrame
+nsIFrame
 :
 :
 GetPrefISize
@@ -27846,7 +27846,7 @@ result
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 AddInlineMinISize
@@ -27889,7 +27889,7 @@ isize
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 AddInlinePrefISize
@@ -29248,7 +29248,7 @@ nsIFrame
 :
 :
 IntrinsicSizeOffsetData
-nsFrame
+nsIFrame
 :
 :
 IntrinsicISizeOffsets
@@ -29289,7 +29289,7 @@ false
 ;
 }
 IntrinsicSize
-nsFrame
+nsIFrame
 :
 :
 GetIntrinsicSize
@@ -29303,7 +29303,7 @@ IntrinsicSize
 ;
 }
 AspectRatio
-nsFrame
+nsIFrame
 :
 :
 GetIntrinsicRatio
@@ -34219,7 +34219,7 @@ MarkAllFramesDirty
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 CanContinueTextRun
@@ -34352,7 +34352,7 @@ IsDisabled
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 CharacterDataChanged
@@ -34380,7 +34380,7 @@ NS_OK
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 AttributeChanged
@@ -34400,7 +34400,7 @@ NS_OK
 }
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 GetPrevContinuation
@@ -34413,7 +34413,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 SetPrevContinuation
@@ -34435,7 +34435,7 @@ splittable
 }
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 GetNextContinuation
@@ -34448,7 +34448,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 SetNextContinuation
@@ -34469,7 +34469,7 @@ splittable
 }
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 GetPrevInFlow
@@ -34482,7 +34482,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 SetPrevInFlow
@@ -34504,7 +34504,7 @@ splittable
 }
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 GetNextInFlow
@@ -34517,7 +34517,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 SetNextInFlow
@@ -39063,7 +39063,7 @@ Combines3DTransformWithAncestors
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 ComputeCustomOverflow
@@ -39078,7 +39078,7 @@ true
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 UnionChildOverflow
@@ -41386,7 +41386,7 @@ IsVisibleOrCollapsed
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 IsEmpty
@@ -41433,7 +41433,7 @@ IsEmpty
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 IsSelfEmpty
@@ -41445,7 +41445,7 @@ false
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetSelectionController
@@ -41727,7 +41727,7 @@ GetChildCount
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetPointFromOffset
@@ -41884,7 +41884,7 @@ NS_OK
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetCharacterRectsInRange
@@ -41906,7 +41906,7 @@ NS_ERROR_FAILURE
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetChildFrameContainingOffset
@@ -45737,7 +45737,7 @@ nsIFrame
 :
 :
 FrameSearchResult
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetNoAmount
@@ -45775,7 +45775,7 @@ nsIFrame
 :
 :
 FrameSearchResult
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetCharacter
@@ -46126,7 +46126,7 @@ mSeenNonPunctuationSinceWhitespace
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 CheckVisibility
@@ -47175,7 +47175,7 @@ nullptr
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 ChildIsDirty
@@ -47215,7 +47215,7 @@ a11y
 :
 :
 AccType
-nsFrame
+nsIFrame
 :
 :
 AccessibleType

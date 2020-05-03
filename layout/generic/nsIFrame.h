@@ -2098,8 +2098,6 @@ int32_t
 end
 )
 const
-=
-0
 ;
 virtual
 void
@@ -2378,8 +2376,6 @@ int32_t
 aIndex
 )
 const
-=
-0
 ;
 virtual
 void
@@ -2391,8 +2387,6 @@ ComputedStyle
 *
 aComputedStyle
 )
-=
-0
 ;
 already_AddRefed
 <
@@ -4337,11 +4331,9 @@ mozilla
 :
 :
 WritingMode
-aWM
+aWritingMode
 )
 const
-=
-0
 ;
 inline
 nscoord
@@ -4555,8 +4547,6 @@ ChildListID
 aListID
 )
 const
-=
-0
 ;
 const
 nsFrameList
@@ -4585,8 +4575,6 @@ ChildList
 aLists
 )
 const
-=
-0
 ;
 void
 GetCrossDocChildLists
@@ -5596,8 +5584,6 @@ nsIContent
 *
 aContent
 )
-=
-0
 ;
 struct
 MOZ_STACK_CLASS
@@ -5828,8 +5814,6 @@ nsPoint
 *
 outPoint
 )
-=
-0
 ;
 virtual
 nsresult
@@ -5846,8 +5830,6 @@ nsRect
 &
 aRects
 )
-=
-0
 ;
 virtual
 nsresult
@@ -5865,8 +5847,6 @@ nsIFrame
 *
 outChildFrame
 )
-=
-0
 ;
 nsFrameState
 GetStateBits
@@ -5996,8 +5976,6 @@ const
 CharacterDataChangeInfo
 &
 )
-=
-0
 ;
 virtual
 nsresult
@@ -6011,8 +5989,6 @@ aAttribute
 int32_t
 aModType
 )
-=
-0
 ;
 virtual
 void
@@ -6032,8 +6008,6 @@ GetPrevContinuation
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -6042,8 +6016,6 @@ SetPrevContinuation
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -6052,8 +6024,6 @@ GetNextContinuation
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -6062,8 +6032,6 @@ SetNextContinuation
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -6116,8 +6084,6 @@ GetPrevInFlow
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -6126,8 +6092,6 @@ SetPrevInFlow
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -6136,8 +6100,6 @@ GetNextInFlow
 (
 )
 const
-=
-0
 ;
 virtual
 void
@@ -6146,8 +6108,6 @@ SetNextInFlow
 nsIFrame
 *
 )
-=
-0
 ;
 virtual
 nsIFrame
@@ -6208,8 +6168,6 @@ gfxContext
 *
 aRenderingContext
 )
-=
-0
 ;
 virtual
 nscoord
@@ -6219,8 +6177,6 @@ gfxContext
 *
 aRenderingContext
 )
-=
-0
 ;
 struct
 InlineIntrinsicISizeData
@@ -6478,8 +6434,6 @@ InlineMinISizeData
 *
 aData
 )
-=
-0
 ;
 virtual
 void
@@ -6492,8 +6446,6 @@ InlinePrefISizeData
 *
 aData
 )
-=
-0
 ;
 struct
 IntrinsicSizeOffsetData
@@ -6524,8 +6476,6 @@ aPercentageBasis
 =
 NS_UNCONSTRAINEDSIZE
 )
-=
-0
 ;
 IntrinsicSizeOffsetData
 IntrinsicBSizeOffsets
@@ -6544,8 +6494,6 @@ IntrinsicSize
 GetIntrinsicSize
 (
 )
-=
-0
 ;
 virtual
 mozilla
@@ -6555,8 +6503,6 @@ AspectRatio
 GetIntrinsicRatio
 (
 )
-=
-0
 ;
 enum
 ComputeSizeFlags
@@ -6766,8 +6712,6 @@ nsOverflowAreas
 &
 aOverflowAreas
 )
-=
-0
 ;
 virtual
 void
@@ -6777,8 +6721,6 @@ nsOverflowAreas
 &
 aOverflowAreas
 )
-=
-0
 ;
 virtual
 bool
@@ -6786,8 +6728,6 @@ CanContinueTextRun
 (
 )
 const
-=
-0
 ;
 struct
 RenderedText
@@ -8053,7 +7993,6 @@ ShouldHaveLineIfEmpty
 )
 const
 ;
-virtual
 nsresult
 GetSelectionController
 (
@@ -8065,8 +8004,6 @@ nsISelectionController
 *
 aSelCon
 )
-=
-0
 ;
 already_AddRefed
 <
@@ -8141,8 +8078,6 @@ bool
 *
 _retval
 )
-=
-0
 ;
 virtual
 void
@@ -8152,8 +8087,6 @@ nsIFrame
 *
 aChild
 )
-=
-0
 ;
 #
 ifdef
@@ -8169,8 +8102,6 @@ AccType
 AccessibleType
 (
 )
-=
-0
 ;
 #
 endif
@@ -8449,8 +8380,6 @@ bool
 IsEmpty
 (
 )
-=
-0
 ;
 virtual
 bool
@@ -8463,8 +8392,6 @@ bool
 IsSelfEmpty
 (
 )
-=
-0
 ;
 bool
 IsGeneratedContentFrame
@@ -10997,8 +10924,6 @@ int32_t
 *
 aOffset
 )
-=
-0
 ;
 virtual
 FrameSearchResult
@@ -11016,8 +10941,6 @@ PeekOffsetCharacterOptions
 (
 )
 )
-=
-0
 ;
 static_assert
 (
