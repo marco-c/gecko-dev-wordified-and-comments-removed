@@ -2154,8 +2154,7 @@ if
 done
 )
 {
-return
-true
+break
 ;
 }
 if
