@@ -9151,6 +9151,9 @@ case
 Bailout_TypeBarrierV
 :
 case
+Bailout_ValueGuard
+:
+case
 Bailout_MonitorTypes
 :
 case

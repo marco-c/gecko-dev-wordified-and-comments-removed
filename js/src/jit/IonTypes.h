@@ -246,6 +246,7 @@ Bailout_DoubleOutput
 Bailout_ArgumentCheck
 Bailout_BoundsCheck
 Bailout_ShapeGuard
+Bailout_ValueGuard
 Bailout_UninitializedLexical
 Bailout_IonExceptionDebugMode
 }
@@ -511,6 +512,14 @@ Bailout_ShapeGuard
 return
 "
 Bailout_ShapeGuard
+"
+;
+case
+Bailout_ValueGuard
+:
+return
+"
+Bailout_ValueGuard
 "
 ;
 case
