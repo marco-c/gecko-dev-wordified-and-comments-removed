@@ -1029,12 +1029,16 @@ protections
 -
 close
 -
-button
+button2
 =
 .
 aria
 -
 label
+=
+Close
+.
+title
 =
 Close
 mobile
