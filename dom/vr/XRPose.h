@@ -71,6 +71,13 @@ bool
 aEmulatedPosition
 )
 ;
+void
+SetEmulatedPosition
+(
+bool
+aEmulated
+)
+;
 nsISupports
 *
 GetParentObject

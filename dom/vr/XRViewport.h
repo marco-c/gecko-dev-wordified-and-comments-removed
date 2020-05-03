@@ -146,6 +146,8 @@ nsISupports
 >
 mParent
 ;
+public
+:
 gfx
 :
 :
