@@ -203,6 +203,9 @@ attribute
 boolean
 isPrimary
 ;
+[
+SecureContext
+]
 sequence
 <
 PointerEvent
@@ -268,6 +271,13 @@ onpointerdown
 attribute
 EventHandler
 onpointermove
+;
+[
+SecureContext
+]
+attribute
+EventHandler
+onpointerrawupdate
 ;
 attribute
 EventHandler
