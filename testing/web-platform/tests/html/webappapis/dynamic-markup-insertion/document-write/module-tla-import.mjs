@@ -1,14 +1,3 @@
-<
-!
-doctype
-html
->
-<
-script
-type
-=
-module
->
 document
 .
 write
@@ -47,10 +36,3 @@ documentWriteDone
 )
 )
 ;
-<
-/
-script
->
-Initial
-body
-contents
