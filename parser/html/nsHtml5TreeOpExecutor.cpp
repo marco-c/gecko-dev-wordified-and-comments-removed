@@ -896,7 +896,7 @@ destroying
 mDocument
 -
 >
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;

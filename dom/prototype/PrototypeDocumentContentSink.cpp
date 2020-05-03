@@ -2810,7 +2810,7 @@ HasPendingInitialTranslation
 mDocument
 -
 >
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;

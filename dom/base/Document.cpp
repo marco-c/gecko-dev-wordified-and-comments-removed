@@ -20040,7 +20040,7 @@ void
 Document
 :
 :
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 {

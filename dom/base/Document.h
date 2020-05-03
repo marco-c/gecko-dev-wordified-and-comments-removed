@@ -10573,7 +10573,7 @@ aLinkElement
 )
 ;
 void
-TriggerInitialTranslation
+OnParsingCompleted
 (
 )
 ;
