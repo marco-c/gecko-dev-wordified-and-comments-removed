@@ -196,6 +196,11 @@ ContentParent
 aManager
 )
 ;
+void
+AfterDestroy
+(
+)
+;
 protected
 :
 virtual
