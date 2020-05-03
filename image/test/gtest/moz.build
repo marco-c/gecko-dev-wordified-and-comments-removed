@@ -252,6 +252,11 @@ jpg
 '
 downscaled
 .
+avif
+'
+'
+downscaled
+.
 bmp
 '
 '
@@ -359,6 +364,11 @@ ico
 '
 green
 .
+avif
+'
+'
+green
+.
 bmp
 '
 '
@@ -406,6 +416,11 @@ truncated
 metadata
 .
 bmp
+'
+'
+large
+.
+avif
 '
 '
 large
