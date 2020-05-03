@@ -121,20 +121,6 @@ WINE
 )
 if
 wine
-and
-winchecksec_path
-.
-lower
-(
-)
-.
-endswith
-(
-'
-.
-exe
-'
-)
 :
     
 cmd
