@@ -1320,9 +1320,9 @@ join
 (
 here
 "
-reftest
+test
 -
-wait_webdriver
+wait
 .
 js
 "
@@ -1341,6 +1341,18 @@ f
 read
 (
 )
+%
+{
+"
+classname
+"
+:
+"
+reftest
+-
+wait
+"
+}
     
 def
 reset
