@@ -10,6 +10,15 @@ include
 <
 sstream
 >
+#
+include
+"
+mozilla
+/
+WritingModes
+.
+h
+"
 namespace
 mozilla
 {

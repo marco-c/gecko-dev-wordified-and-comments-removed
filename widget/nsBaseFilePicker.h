@@ -46,6 +46,13 @@ nsString
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 class
 nsPIDOMWindowOuter
 ;

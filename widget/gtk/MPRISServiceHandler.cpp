@@ -68,6 +68,13 @@ nsIXULAppInfo
 h
 "
 #
+include
+"
+nsServiceManagerUtils
+.
+h
+"
+#
 undef
 LOG
 #

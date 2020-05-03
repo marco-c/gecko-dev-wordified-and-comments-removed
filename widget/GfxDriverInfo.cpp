@@ -19,6 +19,13 @@ nsTArray
 .
 h
 "
+#
+include
+"
+nsUnicharUtils
+.
+h
+"
 using
 namespace
 mozilla

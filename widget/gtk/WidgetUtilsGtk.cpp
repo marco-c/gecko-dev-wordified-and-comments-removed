@@ -5,6 +5,15 @@ WidgetUtilsGtk
 .
 h
 "
+#
+include
+<
+gtk
+/
+gtk
+.
+h
+>
 namespace
 mozilla
 {
