@@ -1,3 +1,11 @@
+if
+CONFIG
+[
+'
+MOZ_GLEAN
+'
+]
+:
 UNIFIED_SOURCES
 +
 =
