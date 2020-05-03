@@ -2547,6 +2547,9 @@ this
 browsingContext
 =
 browsingContext
+?
+.
+top
 ;
 this
 .
@@ -2573,6 +2576,9 @@ this
 .
 _domWin
 )
+?
+.
+top
 ;
 }
 else
@@ -2721,8 +2727,6 @@ isChromeWindow
 this
 .
 browsingContext
-.
-top
 .
 embedderElement
 )
