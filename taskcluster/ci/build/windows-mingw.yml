@@ -113,6 +113,16 @@ need
 xvfb
 :
 false
+optimization
+:
+push
+-
+interval
+-
+10
+:
+-
+windows
 win32
 -
 mingwclang
@@ -212,9 +222,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 release
 '
@@ -375,9 +382,6 @@ projects
 :
 [
 '
-try
-'
-'
 release
 '
 ]
@@ -534,9 +538,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 release
 '
@@ -696,9 +697,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 release
 '
