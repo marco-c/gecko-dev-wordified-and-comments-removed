@@ -165,6 +165,9 @@ const
 wchar_t
 *
 HANDLE
+const
+IMAGE_THUNK_DATA
+*
 )
 ;
 virtual

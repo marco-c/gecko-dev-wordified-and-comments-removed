@@ -114,6 +114,10 @@ aProcessType
 const
 bool
 aEnableLogging
+const
+IMAGE_THUNK_DATA
+*
+aCachedNtdllThunk
 void
 *
 *
@@ -290,6 +294,10 @@ aProcessType
 const
 bool
 aEnableLogging
+const
+IMAGE_THUNK_DATA
+*
+aCachedNtdllThunk
 void
 *
 *

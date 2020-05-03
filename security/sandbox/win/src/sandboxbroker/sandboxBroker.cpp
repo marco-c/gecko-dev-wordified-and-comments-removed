@@ -1202,6 +1202,10 @@ aProcessType
 const
 bool
 aEnableLogging
+const
+IMAGE_THUNK_DATA
+*
+aCachedNtdllThunk
 void
 *
 *
@@ -1603,6 +1607,7 @@ aPath
 targetInfo
 .
 hProcess
+aCachedNtdllThunk
 )
 ;
 if

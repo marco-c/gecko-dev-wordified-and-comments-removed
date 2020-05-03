@@ -61,6 +61,9 @@ aProcessType
 const
 bool
 aEnableLogging
+const
+IMAGE_THUNK_DATA
+*
 void
 *
 *
