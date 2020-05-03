@@ -23328,7 +23328,7 @@ Failed
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
@@ -40485,7 +40485,7 @@ ErrorCodeIs
 NS_ERROR_EDITOR_DESTROYED
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
@@ -44176,7 +44176,7 @@ ErrorCodeIs
 NS_ERROR_EDITOR_DESTROYED
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
@@ -45244,7 +45244,7 @@ ErrorCodeIs
 NS_ERROR_EDITOR_DESTROYED
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
@@ -52911,7 +52911,7 @@ ErrorCodeIs
 NS_ERROR_EDITOR_DESTROYED
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
@@ -52943,7 +52943,7 @@ IsElement
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 SplitNodeWithTransaction
