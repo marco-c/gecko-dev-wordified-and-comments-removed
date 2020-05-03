@@ -146,15 +146,11 @@ private
 IPCBlobInputStreamStorage
 (
 )
-=
-default
 ;
 ~
 IPCBlobInputStreamStorage
 (
 )
-=
-default
 ;
 struct
 StreamData
