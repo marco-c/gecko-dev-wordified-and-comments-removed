@@ -4679,7 +4679,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 nsIContent
 &
@@ -4697,7 +4697,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 MoveNodeResult
-MoveChildren
+MoveChildrenWithTransaction
 (
 Element
 &

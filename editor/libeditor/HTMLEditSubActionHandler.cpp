@@ -19367,7 +19367,7 @@ assumed
 MoveNodeResult
 moveNodeResult
 =
-MoveChildren
+MoveChildrenWithTransaction
 (
 *
 rightListElement
@@ -19414,7 +19414,7 @@ Succeeded
 HTMLEditor
 :
 :
-MoveChildren
+MoveChildrenWithTransaction
 (
 )
 failed
@@ -20323,7 +20323,7 @@ content
 result
 |
 =
-MoveChildren
+MoveChildrenWithTransaction
 (
 MOZ_KnownLive
 (
@@ -20361,7 +20361,7 @@ NS_WARNING
 HTMLEditor
 :
 :
-MoveChildren
+MoveChildrenWithTransaction
 (
 )
 failed
@@ -20475,7 +20475,7 @@ continue
 MoveNodeResult
 moveNodeResult
 =
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 MOZ_KnownLive
 (
@@ -20522,7 +20522,7 @@ Succeeded
 HTMLEditor
 :
 :
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 )
 failed
@@ -20571,7 +20571,7 @@ Last
 HTMLEditor
 :
 :
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 )
 failed
@@ -20586,7 +20586,7 @@ MoveNodeResult
 HTMLEditor
 :
 :
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 nsIContent
 &
@@ -20721,7 +20721,7 @@ IsElement
 {
 result
 =
-MoveChildren
+MoveChildrenWithTransaction
 (
 MOZ_KnownLive
 (
@@ -20750,7 +20750,7 @@ NS_WARNING
 HTMLEditor
 :
 :
-MoveChildren
+MoveChildrenWithTransaction
 (
 )
 failed
@@ -20874,7 +20874,7 @@ MoveNodeResult
 HTMLEditor
 :
 :
-MoveChildren
+MoveChildrenWithTransaction
 (
 Element
 &
@@ -20937,7 +20937,7 @@ GetFirstChild
 result
 |
 =
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 MOZ_KnownLive
 (
@@ -20970,7 +20970,7 @@ NS_WARNING
 HTMLEditor
 :
 :
-MoveNodeOrChildren
+MoveNodeOrChildrenWithTransaction
 (
 )
 failed
