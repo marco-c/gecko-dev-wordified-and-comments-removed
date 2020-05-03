@@ -1399,6 +1399,11 @@ stringify
 (
 snapshot
 )
++
+"
+\
+n
+"
 )
 ;
 }
