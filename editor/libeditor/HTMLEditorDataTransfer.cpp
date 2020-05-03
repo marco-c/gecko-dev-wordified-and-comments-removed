@@ -1622,7 +1622,7 @@ rv
 NS_WARNING
 (
 "
-TextEditor
+HTMLEditor
 :
 :
 DeleteSelectionAndPrepareToCreateNode
@@ -11081,7 +11081,7 @@ newBlockquoteElement
 NS_WARNING
 (
 "
-TextEditor
+HTMLEditor
 :
 :
 DeleteSelectionAndCreateElement
@@ -13036,7 +13036,7 @@ NS_WARNING_ASSERTION
 (
 newSpanElement
 "
-TextEditor
+HTMLEditor
 :
 :
 DeleteSelectionAndCreateElement
@@ -14363,7 +14363,7 @@ newBlockquoteElement
 NS_WARNING
 (
 "
-TextEditor
+HTMLEditor
 :
 :
 DeleteSelectionAndCreateElement
