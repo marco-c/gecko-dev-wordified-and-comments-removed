@@ -7,6 +7,11 @@ GLSL_OPTIMIZER_H
 #
 define
 GLSL_OPTIMIZER_H
+extern
+"
+C
+"
+{
 struct
 glslopt_shader
 ;
@@ -325,5 +330,6 @@ int
 approxFlow
 )
 ;
+}
 #
 endif

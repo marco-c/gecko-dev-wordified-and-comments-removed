@@ -38,31 +38,8 @@ non_upper_case_globals
 )
 ]
 mod
-sys
-{
-include
-!
-(
-concat
-!
-(
-env
-!
-(
-"
-OUT_DIR
-"
-)
-"
-/
 bindings
-.
-rs
-"
-)
-)
 ;
-}
 pub
 enum
 ShaderType
@@ -87,7 +64,7 @@ ctx
 :
 *
 mut
-sys
+bindings
 :
 :
 glslopt_ctx
@@ -119,7 +96,7 @@ Target
 OpenGl
 =
 >
-sys
+bindings
 :
 :
 glslopt_target_kGlslTargetOpenGL
@@ -129,7 +106,7 @@ Target
 OpenGles20
 =
 >
-sys
+bindings
 :
 :
 glslopt_target_kGlslTargetOpenGLES20
@@ -139,7 +116,7 @@ Target
 OpenGles30
 =
 >
-sys
+bindings
 :
 :
 glslopt_target_kGlslTargetOpenGLES30
@@ -149,7 +126,7 @@ Target
 Metal
 =
 >
-sys
+bindings
 :
 :
 glslopt_target_kGlslTargetMetal
@@ -160,7 +137,7 @@ ctx
 =
 unsafe
 {
-sys
+bindings
 :
 :
 glslopt_initialize
@@ -203,7 +180,7 @@ ShaderType
 Vertex
 =
 >
-sys
+bindings
 :
 :
 glslopt_shader_type_kGlslOptShaderVertex
@@ -213,7 +190,7 @@ ShaderType
 Fragment
 =
 >
-sys
+bindings
 :
 :
 glslopt_shader_type_kGlslOptShaderFragment
@@ -239,7 +216,7 @@ shader
 =
 unsafe
 {
-sys
+bindings
 :
 :
 glslopt_optimize
@@ -290,7 +267,7 @@ self
 {
 unsafe
 {
-sys
+bindings
 :
 :
 glslopt_cleanup
@@ -311,7 +288,7 @@ shader
 :
 *
 mut
-sys
+bindings
 :
 :
 glslopt_shader
@@ -332,7 +309,7 @@ bool
 {
 unsafe
 {
-sys
+bindings
 :
 :
 glslopt_get_status
@@ -365,7 +342,7 @@ unsafe
 let
 cstr
 =
-sys
+bindings
 :
 :
 glslopt_get_output
@@ -432,7 +409,7 @@ unsafe
 let
 cstr
 =
-sys
+bindings
 :
 :
 glslopt_get_log
@@ -492,7 +469,7 @@ self
 {
 unsafe
 {
-sys
+bindings
 :
 :
 glslopt_shader_delete
