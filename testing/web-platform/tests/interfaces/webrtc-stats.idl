@@ -303,10 +303,6 @@ RTCReceivedRtpStreamStats
 {
 required
 DOMString
-trackId
-;
-required
-DOMString
 receiverId
 ;
 DOMString
@@ -535,9 +531,6 @@ RTCSentRtpStreamStats
 unsigned
 long
 rtxSsrc
-;
-DOMString
-trackId
 ;
 DOMString
 mediaSourceId
