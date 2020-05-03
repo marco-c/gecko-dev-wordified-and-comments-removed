@@ -146,7 +146,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -238,7 +238,7 @@ testing
 -
 common
 /
-TestChild
+TestWindowChild
 .
 jsm
 :
@@ -294,7 +294,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -392,7 +392,7 @@ testing
 -
 common
 /
-TestChild
+TestWindowChild
 .
 jsm
 :
@@ -448,7 +448,7 @@ parent
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
@@ -566,7 +566,7 @@ wgc
 getActor
 (
 "
-Test
+TestWindow
 "
 )
 ;
