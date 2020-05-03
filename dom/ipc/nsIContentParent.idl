@@ -5,6 +5,9 @@ nsISupports
 .
 idl
 "
+webidl
+JSProcessActorParent
+;
 [
 scriptable
 builtinclass
@@ -40,6 +43,14 @@ unsigned
 long
 long
 childID
+;
+JSProcessActorParent
+getActor
+(
+in
+ACString
+name
+)
 ;
 }
 ;
