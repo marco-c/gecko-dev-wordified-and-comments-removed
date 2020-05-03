@@ -1150,6 +1150,9 @@ method
 {
 method
 }
+{
+reason
+}
 for
 {
 params
@@ -1686,6 +1689,9 @@ number
 )
 ;
 }
+return
+started
+;
 }
 checkNotStarted
 (
@@ -6045,6 +6051,9 @@ function
 installBuiltinExtension
 (
 extensionData
+waitForStartup
+=
+true
 )
 {
 let
@@ -6153,6 +6162,11 @@ test
 "
 )
 ;
+if
+(
+waitForStartup
+)
+{
 await
 wrapper
 .
@@ -6160,6 +6174,7 @@ awaitStartup
 (
 )
 ;
+}
 return
 wrapper
 ;
