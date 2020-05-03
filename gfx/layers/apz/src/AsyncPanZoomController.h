@@ -2340,6 +2340,13 @@ GetCurrentPanGestureBlock
 )
 const
 ;
+PinchGestureBlockState
+*
+GetCurrentPinchGestureBlock
+(
+)
+const
+;
 private
 :
 public

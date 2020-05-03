@@ -4739,7 +4739,7 @@ expectedStatus
 =
 aShouldTriggerPinch
 ?
-nsEventStatus_eConsumeNoDefault
+nsEventStatus_eConsumeDoDefault
 :
 nsEventStatus_eIgnore
 ;
