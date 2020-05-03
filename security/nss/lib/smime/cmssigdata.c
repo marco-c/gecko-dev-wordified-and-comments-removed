@@ -2048,6 +2048,13 @@ if
 (
 !
 sigd
+|
+|
+!
+sigd
+-
+>
+signerInfos
 )
 {
 PORT_SetError
@@ -2711,6 +2718,13 @@ if
 (
 !
 sigd
+|
+|
+!
+sigd
+-
+>
+signerInfos
 )
 {
 PORT_SetError

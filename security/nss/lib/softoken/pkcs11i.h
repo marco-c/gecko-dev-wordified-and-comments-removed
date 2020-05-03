@@ -3191,7 +3191,7 @@ SFTKAttribute
 *
 inKey
 const
-CK_MECHANISM_TYPE
+CK_NSS_IKE1_APP_B_PRF_DERIVE_PARAMS
 *
 params
 SFTKObject

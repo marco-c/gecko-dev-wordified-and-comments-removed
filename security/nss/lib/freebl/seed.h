@@ -1082,6 +1082,8 @@ unsigned
 char
 *
 out
+size_t
+inLen
 const
 SEED_KEY_SCHEDULE
 *
