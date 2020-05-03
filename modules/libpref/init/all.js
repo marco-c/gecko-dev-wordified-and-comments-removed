@@ -8236,7 +8236,7 @@ maxReported
 ;
 #
 ifdef
-NIGHTLY_BUILD
+EARLY_BETA_OR_EARLIER
 pref
 (
 "
