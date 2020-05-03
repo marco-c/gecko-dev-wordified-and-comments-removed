@@ -409,7 +409,9 @@ artifacts
 artifact_name
 ]
 =
+[
 artifact_value
+]
     
 def
 _store_test_result
@@ -1099,11 +1101,14 @@ else
 actual_status
         
 if
+data
+.
+get
+(
 "
 known_intermittent
 "
-in
-data
+)
 :
             
 expected_statuses
@@ -1153,12 +1158,17 @@ self
 start_timestamp_seconds
 =
 (
+float
+(
 data
 [
 "
 time
 "
 ]
+)
+/
+1000
 if
 "
 time
