@@ -1138,7 +1138,7 @@ PhaseTimeTable
 phaseTimes
 ;
 PhaseTimeTable
-parallelTimes
+maxParallelTimes
 ;
 TimeDuration
 duration
@@ -1372,9 +1372,6 @@ timedGCTime
 ;
 PhaseTimeTable
 phaseTimes
-;
-PhaseTimeTable
-parallelTimes
 ;
 EnumeratedArray
 <
