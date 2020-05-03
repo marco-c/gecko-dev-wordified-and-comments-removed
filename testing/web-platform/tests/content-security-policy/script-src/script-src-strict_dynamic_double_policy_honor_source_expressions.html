@@ -12,7 +12,8 @@ head
 <
 title
 >
-Whitelists
+Source
+expressions
 in
 a
 separate
@@ -88,7 +89,8 @@ body
 <
 h1
 >
-Whitelists
+Source
+expressions
 in
 a
 separate
@@ -162,7 +164,7 @@ data
 =
 =
 '
-whitelisted
+allowed
 -
 appendChild
 '
@@ -214,7 +216,7 @@ split
 =
 =
 '
-whitelisted
+allowed
 -
 appendChild
 '
@@ -231,7 +233,7 @@ injected
 via
 appendChild
 is
-allowed
+permitted
 with
 strict
 -
@@ -240,7 +242,7 @@ dynamic
 a
 nonce
 +
-whitelist
+allowed
 double
 policy
 .
@@ -268,7 +270,7 @@ e
 id
 =
 '
-whitelisted
+allowed
 -
 appendChild
 '
@@ -322,7 +324,7 @@ injected
 via
 appendChild
 is
-allowed
+permitted
 with
 strict
 -
@@ -331,7 +333,7 @@ dynamic
 a
 nonce
 +
-whitelist
+allowed
 double
 policy
 .
@@ -392,7 +394,7 @@ split
 =
 =
 '
-nonWhitelisted
+nonAllowed
 -
 appendChild
 '
@@ -462,7 +464,7 @@ e
 id
 =
 '
-nonWhitelisted
+nonAllowed
 -
 appendChild
 '
@@ -545,14 +547,14 @@ e
 '
 Non
 -
-whitelisted
+allowed
 script
 injected
 via
 appendChild
 is
 not
-allowed
+permitted
 with
 strict
 -
@@ -561,7 +563,7 @@ dynamic
 a
 nonce
 +
-whitelist
+allowed
 double
 policy
 .
