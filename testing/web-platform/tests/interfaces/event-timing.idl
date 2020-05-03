@@ -137,12 +137,3 @@ eventCounts
 ;
 }
 ;
-partial
-dictionary
-PerformanceObserverInit
-{
-DOMHighResTimeStamp
-durationThreshold
-;
-}
-;

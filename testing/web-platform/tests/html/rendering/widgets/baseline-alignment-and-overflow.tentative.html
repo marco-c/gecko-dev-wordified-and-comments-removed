@@ -1697,7 +1697,7 @@ document
 images
 )
 {
-assert_true
+assert_precondition
 (
 img
 .
@@ -2139,11 +2139,14 @@ async
 =
 >
 {
-assert_equals
+assert_precondition
 (
 input
 .
 type
+=
+=
+=
 input
 .
 getAttribute

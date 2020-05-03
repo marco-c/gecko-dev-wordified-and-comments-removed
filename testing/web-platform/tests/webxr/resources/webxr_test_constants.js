@@ -292,14 +292,13 @@ VALID_FLOOR_ORIGIN
 position
 :
 [
--
 1
 .
 0
--
 1
 .
 65
+-
 1
 .
 0

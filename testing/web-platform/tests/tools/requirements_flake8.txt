@@ -19,9 +19,9 @@ pyflakes
 =
 2
 .
-2
+1
 .
-0
+1
 pep8
 -
 naming

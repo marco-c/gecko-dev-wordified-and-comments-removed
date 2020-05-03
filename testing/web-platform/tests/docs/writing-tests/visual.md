@@ -120,7 +120,6 @@ guidelines
 ]
 (
 general
--
 guidelines
 )
 especially

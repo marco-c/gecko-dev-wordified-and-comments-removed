@@ -94,9 +94,11 @@ writtenBytes
 0
 )
 ;
-assert_equals
+assert_precondition
 (
 writeCount
+=
+=
 4
 )
 ;

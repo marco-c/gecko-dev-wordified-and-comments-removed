@@ -89,7 +89,9 @@ CEReactions
 ]
 attribute
 [
-LegacyNullToEmptyString
+TreatNullAs
+=
+EmptyString
 ]
 DOMString
 innerHTML
@@ -113,7 +115,9 @@ CEReactions
 ]
 attribute
 [
-LegacyNullToEmptyString
+TreatNullAs
+=
+EmptyString
 ]
 DOMString
 outerHTML
