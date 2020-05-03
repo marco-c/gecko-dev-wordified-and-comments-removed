@@ -1604,7 +1604,7 @@ uploadsymbols
 ifdef
 MOZ_CRASHREPORTER
 (
-PYTHON
+PYTHON3
 )
 -
 u

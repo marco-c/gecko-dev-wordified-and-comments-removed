@@ -167,7 +167,7 @@ info
 (
 shell
 (
-PYTHON
+PYTHON3
 )
 (
 MOZILLA_DIR
@@ -473,7 +473,7 @@ cppunittests
 :
 :
 (
-PYTHON
+PYTHON3
 )
 (
 MOZILLA_DIR
@@ -516,7 +516,7 @@ cppunittests
 remote
 :
 (
-PYTHON
+PYTHON3
 )
 -
 u

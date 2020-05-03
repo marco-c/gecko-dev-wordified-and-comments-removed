@@ -781,7 +781,7 @@ defines
 nsi
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -1017,7 +1017,7 @@ defines
 nsi
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir

@@ -440,7 +440,7 @@ defines
 nsi
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -481,7 +481,7 @@ AB_CD
 CONFIG_DIR
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -528,7 +528,7 @@ nsisstrings
 .
 nlf
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
