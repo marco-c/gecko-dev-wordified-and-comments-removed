@@ -948,10 +948,6 @@ Seq
 )
 :
             
-res
-=
-True
-            
 for
 a
 in

@@ -23,8 +23,6 @@ instructions
 "
 "
 "
-import
-jsparagus
 from
 .
 import
