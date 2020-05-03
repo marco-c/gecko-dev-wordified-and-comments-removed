@@ -1938,8 +1938,6 @@ Wait
 IDLE
 )
 ;
-AUTO_PROFILER_THREAD_SLEEP
-;
 lock
 .
 Wait
