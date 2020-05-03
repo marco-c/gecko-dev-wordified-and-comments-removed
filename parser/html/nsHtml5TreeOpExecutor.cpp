@@ -896,7 +896,7 @@ destroying
 mDocument
 -
 >
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
@@ -1145,7 +1145,7 @@ void
 nsHtml5TreeOpExecutor
 :
 :
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {

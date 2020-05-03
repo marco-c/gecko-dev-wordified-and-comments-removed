@@ -4921,7 +4921,7 @@ eXMLContentSinkState_InEpilog
 mDocument
 -
 >
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
@@ -6469,7 +6469,7 @@ void
 nsXMLContentSink
 :
 :
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {

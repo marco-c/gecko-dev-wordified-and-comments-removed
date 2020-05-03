@@ -226,7 +226,7 @@ ContinueInterruptedParsingAsync
 }
 virtual
 void
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {

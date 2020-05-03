@@ -10573,12 +10573,12 @@ aLinkElement
 )
 ;
 void
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
 void
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;

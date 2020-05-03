@@ -19859,7 +19859,7 @@ resourceIds
 mDocumentL10n
 -
 >
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
@@ -20029,7 +20029,7 @@ void
 Document
 :
 :
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 {
@@ -20045,7 +20045,7 @@ mDocumentL10n
 mDocumentL10n
 -
 >
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
@@ -20055,7 +20055,7 @@ void
 Document
 :
 :
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 {

@@ -140,12 +140,12 @@ Ready
 )
 ;
 void
-TriggerInitialDocumentTranslation
+TriggerInitialTranslation
 (
 )
 ;
 void
-InitialDocumentTranslationCompleted
+InitialTranslationCompleted
 (
 )
 ;
