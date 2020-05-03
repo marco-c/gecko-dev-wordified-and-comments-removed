@@ -49,47 +49,32 @@ TARGET_TASK_BLACKLIST
     
 r
 '
+build
 -
-ccov
-/
+.
+*
+-
+gcp
 '
     
 r
 '
-windows10
+build
+-
+.
+*
 -
 aarch64
-/
-opt
 '
     
 r
 '
-win64
--
-aarch64
--
-laptop
+mingwclang
 '
     
 r
 '
-windows10
--
-64
--
-ref
--
-hw
--
-2017
-'
-    
-r
-'
-android
--
-hw
+valgrind
 '
     
 r
@@ -103,15 +88,40 @@ docs
     
 r
 '
-linux1804
+android
 -
-32
+hw
+'
+    
+r
+'
+windows10
+-
+64
+-
+ref
+-
+hw
+'
+    
+r
+'
+windows10
+-
+aarch64
 '
     
 r
 '
 linux
 -
+'
+    
+r
+'
+linux1804
+-
+32
 '
     
 r
@@ -141,6 +151,13 @@ tests
 .
 *
 backlog
+'
+    
+r
+'
+-
+ccov
+/
 '
 ]
 def
@@ -470,6 +487,22 @@ the
 task
 name
 .
+        
+optional_filters
+(
+list
+optional
+)
+:
+            
+Additional
+filters
+to
+apply
+to
+task
+filtering
+.
     
 Returns
 :
@@ -488,7 +521,7 @@ any
 known
 filters
 .
-        
+            
 False
 otherwise
 .
