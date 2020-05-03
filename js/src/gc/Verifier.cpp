@@ -3048,16 +3048,6 @@ PhaseKind
 SWEEP_MARK
 )
 ;
-auto
-unlimited
-=
-SliceBudget
-:
-:
-unlimited
-(
-)
-;
 gc
 -
 >
@@ -3070,7 +3060,6 @@ PhaseKind
 :
 :
 SWEEP_MARK_WEAK
-unlimited
 )
 ;
 for
@@ -3159,7 +3148,6 @@ PhaseKind
 :
 :
 SWEEP_MARK_GRAY_WEAK
-unlimited
 )
 ;
 gc

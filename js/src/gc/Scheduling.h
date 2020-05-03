@@ -249,13 +249,6 @@ true
 ;
 static
 const
-bool
-IncrementalWeakMapMarkingEnabled
-=
-true
-;
-static
-const
 uint32_t
 NurseryFreeThresholdForIdleCollection
 =
