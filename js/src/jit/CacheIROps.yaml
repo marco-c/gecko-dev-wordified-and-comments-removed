@@ -3248,7 +3248,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3266,7 +3266,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3464,7 +3464,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3482,7 +3482,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3500,7 +3500,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3518,7 +3518,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
@@ -3536,7 +3536,7 @@ shared
 true
 transpile
 :
-false
+true
 args
 :
 lhs
