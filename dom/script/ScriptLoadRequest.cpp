@@ -96,7 +96,7 @@ CORSMode
 aCORSMode
 ReferrerPolicy
 aReferrerPolicy
-nsIScriptElement
+Element
 *
 aElement
 nsIPrincipal

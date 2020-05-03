@@ -1358,6 +1358,16 @@ aCx
 WarningOnlyErrorReporter
 )
 ;
+JS
+:
+:
+SetGetElementCallback
+(
+aCx
+&
+GetElementCallback
+)
+;
 #
 ifdef
 DEBUG
