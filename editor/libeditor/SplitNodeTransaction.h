@@ -61,7 +61,7 @@ namespace
 mozilla
 {
 class
-EditorBase
+HTMLEditor
 ;
 class
 SplitNodeTransaction
@@ -81,9 +81,9 @@ CT
 >
 SplitNodeTransaction
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 const
 EditorDOMPointBase
 <
@@ -110,9 +110,9 @@ SplitNodeTransaction
 >
 Create
 (
-EditorBase
+HTMLEditor
 &
-aEditorBase
+aHTMLEditor
 const
 EditorDOMPointBase
 <
@@ -164,9 +164,9 @@ default
 ;
 RefPtr
 <
-EditorBase
+HTMLEditor
 >
-mEditorBase
+mHTMLEditor
 ;
 EditorDOMPoint
 mStartOfRightContent
