@@ -4759,7 +4759,7 @@ dom
 :
 StaticRange
 >
-GetExtendedRangeToIncludeInvisibleNodes
+GetRangeExtendedToIncludeInvisibleNodes
 (
 const
 dom
