@@ -62,13 +62,13 @@ userAgentData
 {
 obj
 .
-uaList
+brands
 =
 navigator
 .
 userAgentData
 .
-uaList
+brands
 ;
 obj
 .
