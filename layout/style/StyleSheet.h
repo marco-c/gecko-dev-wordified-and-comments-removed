@@ -2068,6 +2068,12 @@ StyleSheet
 *
 mParentSheet
 ;
+nsCOMPtr
+<
+nsIGlobalObject
+>
+mRelevantGlobal
+;
 RefPtr
 <
 dom

@@ -182,11 +182,15 @@ aURI
 nsresult
 PutStyleSheet
 (
+RefPtr
+<
 mozilla
 :
 :
 StyleSheet
-*
+>
+&
+&
 aStyleSheet
 )
 ;
