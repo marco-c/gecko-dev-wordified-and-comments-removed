@@ -4353,13 +4353,15 @@ subjectPrincipal
 OriginAttributesRef
 (
 )
-=
-=
+.
+EqualsIgnoringFPD
+(
 newBC
 -
 >
 OriginAttributesRef
 (
+)
 )
 )
 ;
