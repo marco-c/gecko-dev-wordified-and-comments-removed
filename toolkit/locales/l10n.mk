@@ -1752,9 +1752,6 @@ mach
 compare
 -
 locales
-(
-COMPARE_LOCALES_DEFINES
-)
 -
 -
 merge
