@@ -7002,6 +7002,16 @@ DeleteSelectionAndPrepareToCreateNode
 (
 )
 ;
+MOZ_CAN_RUN_SCRIPT
+EditorDOMPoint
+PrepareToInsertBRElement
+(
+const
+EditorDOMPoint
+&
+aPointToInsert
+)
+;
 [
 [
 nodiscard
