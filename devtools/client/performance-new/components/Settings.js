@@ -210,7 +210,7 @@ browser
 const
 PROFILE_ENTRY_SIZE
 =
-9
+8
 ;
 const
 threadColumns
