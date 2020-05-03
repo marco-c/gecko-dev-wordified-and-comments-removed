@@ -262,6 +262,20 @@ False
 )
                     
 "
+py3only
+"
+:
+props
+.
+get
+(
+"
+py3only
+"
+False
+)
+                    
+"
 help
 "
 :
@@ -787,12 +801,34 @@ command
 ]
         
 if
+(
 props
 [
 "
 virtualenv
 "
 ]
+and
+            
+(
+not
+props
+[
+"
+py3only
+"
+]
+or
+sys
+.
+version_info
+.
+major
+=
+=
+3
+)
+)
 :
             
 setup_virtualenv
