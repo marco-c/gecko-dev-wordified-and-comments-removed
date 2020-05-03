@@ -211,6 +211,11 @@ mState
 ;
 }
 ;
+bool
+mBlockingLayout
+=
+false
+;
 }
 ;
 }
