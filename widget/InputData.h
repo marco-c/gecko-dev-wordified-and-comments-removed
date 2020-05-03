@@ -983,15 +983,6 @@ ScreenToParentLayerMatrix4x4
 aTransform
 )
 ;
-WidgetWheelEvent
-ToWidgetWheelEvent
-(
-nsIWidget
-*
-aWidget
-)
-const
-;
 PinchGestureType
 mType
 ;
@@ -1009,9 +1000,6 @@ mCurrentSpan
 ;
 ScreenCoord
 mPreviousSpan
-;
-bool
-mHandledByAPZ
 ;
 template
 <

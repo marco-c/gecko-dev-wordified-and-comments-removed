@@ -8214,12 +8214,6 @@ hit
 .
 mHitResult
 ;
-pinchInput
-.
-mHandledByAPZ
-=
-true
-;
 if
 (
 hit
