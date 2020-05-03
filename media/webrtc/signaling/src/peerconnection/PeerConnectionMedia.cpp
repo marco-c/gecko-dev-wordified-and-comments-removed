@@ -915,7 +915,10 @@ for
 const
 auto
 &
+[
+id
 transceiver
+]
 :
 aSession
 .
@@ -924,6 +927,11 @@ GetTransceivers
 )
 )
 {
+(
+void
+)
+id
+;
 if
 (
 transceiver
@@ -1004,7 +1012,10 @@ for
 const
 auto
 &
+[
+id
 transceiver
+]
 :
 aSession
 .
@@ -1013,6 +1024,11 @@ GetTransceivers
 )
 )
 {
+(
+void
+)
+id
+;
 if
 (
 transceiver
