@@ -1602,7 +1602,7 @@ fd
 url
 max_retries
 =
-3
+5
 )
 :
     
@@ -1668,7 +1668,7 @@ max_retries
     
 wait
 =
-1
+2
     
 for
 current_retry
