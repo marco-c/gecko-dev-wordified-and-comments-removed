@@ -1760,11 +1760,13 @@ aInputR
 [
 WEBAUDIO_BLOCK_SIZE
 ]
+const
 float
 aGainL
 [
 WEBAUDIO_BLOCK_SIZE
 ]
+const
 float
 aGainR
 [
