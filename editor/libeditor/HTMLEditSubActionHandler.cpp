@@ -18017,7 +18017,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 JoinNodesWithTransaction
@@ -48882,7 +48882,7 @@ NS_SUCCEEDED
 rv
 )
 "
-EditorBase
+HTMLEditor
 :
 :
 JoinNodesWithTransaction
@@ -48996,7 +48996,7 @@ rv
 NS_WARNING
 (
 "
-EditorBase
+HTMLEditor
 :
 :
 JoinNodesWithTransaction
