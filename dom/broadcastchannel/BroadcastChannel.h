@@ -269,7 +269,7 @@ nsString
 mChannel
 ;
 nsString
-mOrigin
+mOriginNoSuffix
 ;
 enum
 {
