@@ -221,7 +221,7 @@ log
 &
 &
 (
-PYTHON
+PYTHON3
 )
 _tests
 /
@@ -272,7 +272,7 @@ log
 &
 &
 (
-PYTHON
+PYTHON3
 )
 _tests
 /
@@ -756,7 +756,7 @@ REMOTE_CPPUNITTESTS
 =
 \
 (
-PYTHON
+PYTHON3
 )
 -
 u
@@ -1027,7 +1027,7 @@ MOZ_TEST_PACKAGES_FILE
 )
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -2205,7 +2205,7 @@ cores
 (
 shell
 (
-PYTHON
+PYTHON3
 )
 -
 c

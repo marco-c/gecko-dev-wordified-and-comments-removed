@@ -868,7 +868,7 @@ repackage
 zip
 :
 (
-PYTHON
+PYTHON3
 )
 (
 MOZILLA_DIR

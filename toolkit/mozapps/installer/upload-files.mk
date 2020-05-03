@@ -992,7 +992,7 @@ RPM
 &
 \
 (
-PYTHON
+PYTHON3
 )
 -
 m
