@@ -35,6 +35,13 @@ nsTableWrapperFrame
 .
 h
 "
+#
+include
+"
+TableCellAccessible
+.
+h
+"
 using
 namespace
 mozilla

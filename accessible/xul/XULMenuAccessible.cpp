@@ -66,6 +66,13 @@ h
 #
 include
 "
+nsIDOMXULSelectCntrlEl
+.
+h
+"
+#
+include
+"
 nsIDOMXULSelectCntrlItemEl
 .
 h

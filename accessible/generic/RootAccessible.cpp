@@ -48,6 +48,17 @@ h
 #
 include
 "
+mozilla
+/
+a11y
+/
+DocAccessibleParent
+.
+h
+"
+#
+include
+"
 nsAccessibilityService
 .
 h

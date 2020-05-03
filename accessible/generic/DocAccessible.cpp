@@ -61,6 +61,13 @@ h
 #
 include
 "
+nsDeckFrame
+.
+h
+"
+#
+include
+"
 nsEventShell
 .
 h

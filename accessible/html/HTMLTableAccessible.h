@@ -31,6 +31,9 @@ nsITableCellLayout
 class
 nsTableCellFrame
 ;
+class
+nsTableWrapperFrame
+;
 namespace
 mozilla
 {

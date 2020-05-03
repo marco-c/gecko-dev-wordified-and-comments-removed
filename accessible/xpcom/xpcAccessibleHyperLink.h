@@ -11,6 +11,13 @@ nsIAccessibleHyperLink
 .
 h
 "
+#
+include
+"
+AccessibleOrProxy
+.
+h
+"
 class
 nsIAccessible
 ;
