@@ -1126,6 +1126,15 @@ tests
 marionette
 /
 harness
+mozilla
+.
+pth
+:
+xpcom
+/
+idl
+-
+parser
 optional
 :
 packages
