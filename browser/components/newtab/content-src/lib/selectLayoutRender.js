@@ -270,6 +270,9 @@ TextPromo
 SectionTitle
 "
 "
+Signup
+"
+"
 Navigation
 "
 "
