@@ -1178,6 +1178,12 @@ if
 self
 .
 internals
+|
+|
+!
+internals
+.
+xrTest
 )
 {
 return
