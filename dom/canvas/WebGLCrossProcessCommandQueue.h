@@ -47,6 +47,7 @@ size_t
 ;
 class
 HostWebGLCommandSink
+final
 :
 public
 SyncCommandSink
