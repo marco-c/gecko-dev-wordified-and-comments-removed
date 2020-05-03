@@ -459,21 +459,6 @@ tree
 image
 }
     
-worker
-[
-'
-retry
--
-exit
--
-status
-'
-]
-=
-[
-100
-]
-    
 add_artifacts
 (
 config
