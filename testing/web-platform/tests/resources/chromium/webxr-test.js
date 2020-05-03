@@ -2264,9 +2264,14 @@ standingTransform
 .
 matrix
 =
+XRMathHelper
+.
+inverse
+(
 getMatrixFromTransform
 (
 floorOrigin
+)
 )
 ;
 this
