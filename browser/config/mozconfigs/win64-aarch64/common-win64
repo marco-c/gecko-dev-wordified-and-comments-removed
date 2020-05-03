@@ -325,8 +325,6 @@ MOZ_FETCHES_DIR
 winchecksec
 /
 winchecksec
-.
-exe
 "
 if
 [
