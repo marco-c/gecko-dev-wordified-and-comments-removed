@@ -250,6 +250,14 @@ mach_args
 {
         
 "
+flavor
+"
+:
+"
+script
+"
+        
+"
 test_objects
 "
 :
@@ -293,9 +301,6 @@ env
 MachEnvironment
 (
 mach_cmd
-"
-script
-"
 *
 *
 mach_args

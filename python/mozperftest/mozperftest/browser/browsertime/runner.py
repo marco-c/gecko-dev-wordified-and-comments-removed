@@ -27,6 +27,12 @@ mozpath
 from
 mozperftest
 .
+utils
+import
+install_package
+from
+mozperftest
+.
 browser
 .
 noderunner
@@ -688,27 +694,12 @@ PYSSIM_VERSION
 )
 :
             
-if
-self
-.
-_need_install
+install_package
 (
-dep
-)
-:
-                
 self
 .
 virtualenv_manager
-.
-_run_pip
-(
-[
-"
-install
-"
 dep
-]
 )
         
 if

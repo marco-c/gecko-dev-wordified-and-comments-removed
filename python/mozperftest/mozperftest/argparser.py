@@ -144,7 +144,9 @@ FLAVORS
 default
 "
 :
-None
+"
+script
+"
             
 "
 help
