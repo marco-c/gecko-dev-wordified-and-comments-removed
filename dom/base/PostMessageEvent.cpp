@@ -542,10 +542,16 @@ NS_OK
 if
 (
 !
+BasePrincipal
+:
+:
+Cast
+(
 targetPrin
+)
 -
 >
-Equals
+EqualsIgnoringFPD
 (
 mProvidedPrincipal
 )
