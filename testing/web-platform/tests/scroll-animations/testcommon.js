@@ -148,8 +148,8 @@ KEYFRAMES
 opacity
 :
 [
-1
 0
+1
 ]
 }
 ;
