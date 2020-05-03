@@ -2635,6 +2635,10 @@ AssertThrowsRegexp
 rules
 .
 PromiseRejectsRegexp
+            
+rules
+.
+AssertPreconditionRegexp
 ]
 ]
 def
