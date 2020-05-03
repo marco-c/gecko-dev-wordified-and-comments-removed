@@ -33,8 +33,6 @@ from
 enum
 import
 Enum
-import
-psutil
 from
 mozdevice
 import
@@ -2739,11 +2737,14 @@ running
 "
 "
         
+from
+psutil
+import
+process_iter
+        
 for
 proc
 in
-psutil
-.
 process_iter
 (
 )
