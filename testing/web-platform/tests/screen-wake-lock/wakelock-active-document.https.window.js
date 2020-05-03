@@ -96,6 +96,8 @@ getWakeLockObject
 iframe
 "
 /
+screen
+-
 wake
 -
 lock
@@ -126,6 +128,8 @@ getWakeLockObject
 iframe
 "
 /
+screen
+-
 wake
 -
 lock
@@ -224,6 +228,8 @@ getWakeLockObject
 outerIframe
 "
 /
+screen
+-
 wake
 -
 lock
@@ -270,6 +276,8 @@ getWakeLockObject
 innerIframe
 "
 /
+screen
+-
 wake
 -
 lock
@@ -315,6 +323,8 @@ src
 =
 "
 /
+screen
+-
 wake
 -
 lock
