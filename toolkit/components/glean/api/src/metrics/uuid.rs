@@ -5,7 +5,7 @@ uuid
 Uuid
 ;
 use
-glean_core
+super
 :
 :
 CommonMetricData
