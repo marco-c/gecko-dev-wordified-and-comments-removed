@@ -53314,11 +53314,8 @@ clipId
 =
 aBuilder
 .
-DefineClip
+DefineRectClip
 (
-Nothing
-(
-)
 wr
 :
 :
