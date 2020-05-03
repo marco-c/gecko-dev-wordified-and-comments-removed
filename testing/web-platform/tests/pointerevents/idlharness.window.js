@@ -15,10 +15,10 @@ pointerevents
 uievents
 '
 '
-dom
-'
-'
 html
+'
+'
+dom
 '
 ]
 idl_array
@@ -30,6 +30,13 @@ idl_array
 add_objects
 (
 {
+Document
+:
+[
+'
+document
+'
+]
 Element
 :
 [
