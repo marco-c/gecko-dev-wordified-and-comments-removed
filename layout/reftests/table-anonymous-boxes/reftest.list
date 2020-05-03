@@ -587,9 +587,6 @@ fuzzy
 if
 (
 Android
-&
-&
-isDebugBuild
 0
 -
 4
