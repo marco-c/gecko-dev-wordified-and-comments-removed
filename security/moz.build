@@ -324,7 +324,7 @@ python
 CONFIG
 [
 '
-PYTHON3
+PYTHON
 '
 ]
 gyp_vars

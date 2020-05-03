@@ -167,7 +167,7 @@ info
 (
 shell
 (
-PYTHON3
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -473,7 +473,7 @@ cppunittests
 :
 :
 (
-PYTHON3
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -516,7 +516,7 @@ cppunittests
 remote
 :
 (
-PYTHON3
+PYTHON
 )
 -
 u
@@ -3194,7 +3194,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3459,7 +3459,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3716,7 +3716,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -3869,7 +3869,7 @@ ifndef
 CROSS_COMPILE
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -4387,7 +4387,7 @@ OS_LIBS
 )
 (
 call
-py_action
+py3_action
 check_binary
 -
 -
@@ -5192,7 +5192,7 @@ ifdef
 MOZ_CRASHREPORTER
 (
 call
-py_action
+py3_action
 dumpsymbols
 (
 abspath
@@ -7355,7 +7355,7 @@ FINAL_TARGET
 chrome
 (
 call
-py_action
+py3_action
 jar_maker
 \
 (
@@ -7677,7 +7677,7 @@ xpi
 '
 (
 call
-py_action
+py3_action
 zip
 -
 C
@@ -9602,7 +9602,7 @@ RM
 '
 (
 call
-py_action
+py3_action
 preprocessor
 -
 -

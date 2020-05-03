@@ -868,7 +868,7 @@ repackage
 zip
 :
 (
-PYTHON3
+PYTHON
 )
 (
 MOZILLA_DIR
@@ -1883,7 +1883,7 @@ PKG_LANGPACK_PATH
 )
 (
 call
-py_action
+py3_action
 langpack_manifest
 -
 -
@@ -1966,7 +1966,7 @@ AB_CD
 )
 (
 call
-py_action
+py3_action
 zip
 -
 C

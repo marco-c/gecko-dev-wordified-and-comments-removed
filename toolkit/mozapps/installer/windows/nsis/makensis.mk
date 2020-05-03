@@ -748,7 +748,7 @@ CONFIG_DIR
 )
 (
 call
-py_action
+py3_action
 preprocessor
 -
 Fsubstitution
@@ -781,7 +781,7 @@ defines
 nsi
 )
 (
-PYTHON3
+PYTHON
 )
 (
 topsrcdir
@@ -984,7 +984,7 @@ CONFIG_DIR
 )
 (
 call
-py_action
+py3_action
 preprocessor
 -
 Fsubstitution
@@ -1017,7 +1017,7 @@ defines
 nsi
 )
 (
-PYTHON3
+PYTHON
 )
 (
 topsrcdir

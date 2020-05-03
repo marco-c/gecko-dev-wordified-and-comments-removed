@@ -400,7 +400,7 @@ defaults
 pref
 (
 call
-py_action
+py3_action
 preprocessor
 -
 Fsubstitution
@@ -521,7 +521,7 @@ MAC_BUNDLE_VERSION
 (
 shell
 (
-PYTHON3
+PYTHON
 )
 (
 srcdir

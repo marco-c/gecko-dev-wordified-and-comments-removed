@@ -306,7 +306,7 @@ codegen_dependencies
 )
 (
 call
-py_action
+py3_action
 webidl
 (
 srcdir

@@ -597,7 +597,7 @@ REPORT_BUILD
 t
 (
 call
-py_action
+py3_action
 file_generate
 {
 locale

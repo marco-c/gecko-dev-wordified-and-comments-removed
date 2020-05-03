@@ -195,8 +195,7 @@ x
         
 if
 direction
-=
-=
+is
 -
 1
 :
@@ -224,8 +223,7 @@ else
         
 if
 direction
-=
-=
+is
 -
 1
 :

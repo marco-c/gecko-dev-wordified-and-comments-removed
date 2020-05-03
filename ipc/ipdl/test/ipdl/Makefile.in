@@ -121,7 +121,7 @@ check
 :
 :
 (
-PYTHON3
+PYTHON
 )
 (
 srcdir
@@ -143,7 +143,7 @@ srcdir
 error
 \
 (
-PYTHON3
+PYTHON
 )
 (
 topsrcdir

@@ -750,7 +750,7 @@ endif
 addprefix
 (
 call
-py_action
+py3_action
 process_install_manifest
 -
 -
@@ -854,7 +854,7 @@ files
 :
 (
 call
-py_action
+py3_action
 process_install_manifest
 -
 -
@@ -1144,7 +1144,7 @@ artifact
 :
 (
 call
-py_action
+py3_action
 fat_aar
 \
 (
@@ -1477,7 +1477,7 @@ zip
 '
 (
 call
-py_action
+py3_action
 symbols_archive
 '
 (
@@ -1537,7 +1537,7 @@ zip
 '
 (
 call
-py_action
+py3_action
 symbols_archive
 '
 (
@@ -1604,7 +1604,7 @@ uploadsymbols
 ifdef
 MOZ_CRASHREPORTER
 (
-PYTHON3
+PYTHON
 )
 -
 u
@@ -1672,7 +1672,7 @@ sources
 :
 (
 call
-py_action
+py3_action
 package_generated_sources
 '
 (

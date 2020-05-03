@@ -1136,7 +1136,7 @@ mozconfig
 .
 substs
 .
-PYTHON3
+PYTHON
 args
 "
 {

@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 os
 import
@@ -26,7 +25,7 @@ fileno
 (
 )
 '
-wb
+w
 '
 0
 )
@@ -46,7 +45,7 @@ fileno
 (
 )
 '
-wb
+w
 '
 0
 )
@@ -58,15 +57,6 @@ argv
 [
 1
 ]
-.
-encode
-(
-'
-utf
--
-8
-'
-)
 args
 =
 sys
@@ -108,6 +98,10 @@ stdin
 fileno
 (
 )
+                     
+universal_newlines
+=
+True
 )
 while
 True
@@ -134,13 +128,8 @@ b
         
 break
     
-sys
-.
-stdout
-.
-write
+print
 (
-b
 '
 %
 s
@@ -153,6 +142,11 @@ s
 prefix
 data
 )
+end
+=
+b
+'
+'
 )
 sys
 .

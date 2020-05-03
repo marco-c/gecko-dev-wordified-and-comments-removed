@@ -527,21 +527,12 @@ data
 =
 json
 .
-loads
-(
-six
-.
-ensure_text
+load
 (
 file
 .
 open
 (
-)
-.
-read
-(
-)
 )
 )
             

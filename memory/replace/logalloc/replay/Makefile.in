@@ -266,7 +266,7 @@ p
 '
 |
 (
-PYTHON3
+PYTHON
 )
 (
 srcdir
@@ -326,7 +326,7 @@ test_output
 log
 |
 (
-PYTHON3
+PYTHON
 )
 (
 srcdir
@@ -371,7 +371,7 @@ p
 '
 |
 (
-PYTHON3
+PYTHON
 )
 (
 srcdir

@@ -3,7 +3,6 @@ __future__
 import
 absolute_import
 print_function
-unicode_literals
 import
 subprocess
 import
@@ -321,15 +320,11 @@ stdout
 subprocess
 .
 PIPE
-                         
 stderr
 =
 subprocess
 .
 PIPE
-universal_newlines
-=
-True
 )
     
 (

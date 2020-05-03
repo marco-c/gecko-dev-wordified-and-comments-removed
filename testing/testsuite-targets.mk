@@ -221,7 +221,7 @@ log
 &
 &
 (
-PYTHON3
+PYTHON
 )
 _tests
 /
@@ -272,7 +272,7 @@ log
 &
 &
 (
-PYTHON3
+PYTHON
 )
 _tests
 /
@@ -756,7 +756,7 @@ REMOTE_CPPUNITTESTS
 =
 \
 (
-PYTHON3
+PYTHON
 )
 -
 u
@@ -1027,7 +1027,7 @@ MOZ_TEST_PACKAGES_FILE
 )
 )
 (
-PYTHON3
+PYTHON
 )
 (
 topsrcdir
@@ -1153,7 +1153,7 @@ wpt
 manifest
 (
 call
-py_action
+py3_action
 test_archive
 \
 (
@@ -2205,7 +2205,7 @@ cores
 (
 shell
 (
-PYTHON3
+PYTHON
 )
 -
 c

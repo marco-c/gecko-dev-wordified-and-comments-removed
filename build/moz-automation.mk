@@ -607,7 +607,7 @@ define
 automation_commands
 +
 (
-PYTHON3
+PYTHON
 )
 (
 topsrcdir

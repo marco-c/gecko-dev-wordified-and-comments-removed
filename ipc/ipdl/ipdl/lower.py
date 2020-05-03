@@ -9160,14 +9160,11 @@ sd
             
 permutation
 =
-list
-(
 range
 (
 len
 (
 newfields
-)
 )
 )
             

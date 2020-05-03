@@ -92,7 +92,7 @@ GLOBAL_DEPS
 )
 (
 call
-py_action
+py3_action
 preprocessor
 (
 if

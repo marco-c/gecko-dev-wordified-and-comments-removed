@@ -6886,7 +6886,7 @@ config
 substs
 [
 '
-PYTHON3
+PYTHON
 '
 ]
                         
