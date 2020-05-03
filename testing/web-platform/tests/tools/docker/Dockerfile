@@ -108,6 +108,12 @@ python
 -
 pip
 \
+python3
+\
+python3
+-
+pip
+\
 qemu
 -
 kvm
