@@ -204,9 +204,6 @@ Array
 AString
 >
 resourceIds
-in
-bool
-aEager
 )
 ;
 unsigned
@@ -302,9 +299,6 @@ aKeys
 void
 onChange
 (
-in
-boolean
-aEager
 )
 ;
 }

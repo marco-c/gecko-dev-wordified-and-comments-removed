@@ -127,11 +127,6 @@ sequence
 DOMString
 >
 aResourceIds
-optional
-boolean
-aEager
-=
-false
 )
 ;
 unsigned

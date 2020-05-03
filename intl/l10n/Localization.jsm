@@ -678,7 +678,7 @@ false
 {
 this
 .
-onChange
+regenerateBundles
 (
 eager
 )
@@ -720,9 +720,6 @@ iterable
 addResourceIds
 (
 resourceIds
-eager
-=
-false
 )
 {
 this
@@ -741,7 +738,6 @@ this
 .
 onChange
 (
-eager
 )
 ;
 return
@@ -1384,6 +1380,18 @@ break
 }
 }
 onChange
+(
+)
+{
+this
+.
+regenerateBundles
+(
+false
+)
+;
+}
+regenerateBundles
 (
 eager
 =

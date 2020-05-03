@@ -208,8 +208,6 @@ nsString
 >
 &
 aResourceIds
-bool
-aEager
 )
 ;
 uint32_t
