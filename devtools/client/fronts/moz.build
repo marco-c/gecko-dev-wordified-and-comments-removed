@@ -203,6 +203,11 @@ walker
 js
 '
 '
+watcher
+.
+js
+'
+'
 webconsole
 .
 js

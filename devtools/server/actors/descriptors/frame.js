@@ -128,11 +128,10 @@ Error
 "
 Frame
 Descriptor
-Connect
 requires
 a
 valid
-browsingContext
+BrowsingContext
 .
 "
 )
