@@ -438,6 +438,7 @@ MAP_FAILED
 endif
 static_assert
 (
+(
 sizeof
 (
 uintptr_t
@@ -454,11 +455,9 @@ uintptr_t
 =
 =
 8
-"
-"
 )
-;
-static_assert
+&
+&
 (
 sizeof
 (
@@ -471,8 +470,7 @@ sizeof
 void
 *
 )
-"
-"
+)
 )
 ;
 static
