@@ -4,20 +4,20 @@ import
 absolute_import
 import
 time
-import
-pytest
 from
 datetime
 import
 datetime
-from
-mozunit
-import
-main
 from
 time
 import
 mktime
+import
+pytest
+from
+mozunit
+import
+main
 from
 taskgraph
 .
@@ -37,8 +37,6 @@ import
     
 BugBugPushSchedules
     
-BugbugTimeoutException
-    
 DisperseGroups
     
 SkipUnlessDebug
@@ -49,6 +47,40 @@ taskgraph
 task
 import
 Task
+from
+taskgraph
+.
+util
+.
+bugbug
+import
+(
+    
+BUGBUG_BASE_URL
+    
+BugbugTimeoutException
+    
+push_schedules
+)
+pytest
+.
+fixture
+(
+autouse
+=
+True
+)
+def
+clear_push_schedules_memoize
+(
+)
+:
+    
+push_schedules
+.
+clear
+(
+)
 pytest
 .
 fixture
@@ -1447,8 +1479,6 @@ params
     
 url
 =
-BugBugPushSchedules
-.
 BUGBUG_BASE_URL
 +
 query
@@ -1551,8 +1581,6 @@ params
     
 url
 =
-BugBugPushSchedules
-.
 BUGBUG_BASE_URL
 +
 query
