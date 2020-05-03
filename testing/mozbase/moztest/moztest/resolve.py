@@ -6496,23 +6496,11 @@ manifestupdate
 "
 )
         
-handler
-=
-logging
-.
-StreamHandler
-(
-sys
-.
-stderr
-)
-        
 logger
 .
-addHandler
-(
-handler
-)
+disabled
+=
+True
         
 manifests
 =
