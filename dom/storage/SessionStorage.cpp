@@ -644,7 +644,7 @@ aNewValue
 NotifyChange
 (
 this
-Principal
+StoragePrincipal
 (
 )
 aKey
