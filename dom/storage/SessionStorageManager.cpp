@@ -768,6 +768,7 @@ SessionStorage
 (
 inner
 aPrincipal
+aStoragePrincipal
 cache
 this
 aDocumentURI
@@ -871,6 +872,7 @@ new
 SessionStorage
 (
 inner
+aPrincipal
 aStoragePrincipal
 cache
 this
