@@ -915,10 +915,7 @@ for
 const
 auto
 &
-[
-id
 transceiver
-]
 :
 aSession
 .
@@ -1007,10 +1004,7 @@ for
 const
 auto
 &
-[
-id
 transceiver
-]
 :
 aSession
 .

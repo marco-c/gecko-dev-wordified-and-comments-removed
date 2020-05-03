@@ -7,11 +7,6 @@ _JSEPSESSIONIMPL_H_
 #
 include
 <
-map
->
-#
-include
-<
 set
 >
 #
@@ -711,9 +706,8 @@ const
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -734,9 +728,8 @@ virtual
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -1284,9 +1277,8 @@ restarting
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -1297,9 +1289,8 @@ mTransceivers
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -1396,11 +1387,6 @@ mUsedMids
 ;
 size_t
 mTransportIdCounter
-;
-size_t
-mTransceiverIdCounter
-=
-0
 ;
 std
 :

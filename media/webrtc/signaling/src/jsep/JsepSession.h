@@ -7,11 +7,6 @@ _JSEPSESSION_H_
 #
 include
 <
-map
->
-#
-include
-<
 string
 >
 #
@@ -481,10 +476,7 @@ for
 (
 auto
 &
-[
-id
 transceiver
-]
 :
 GetTransceivers
 (
@@ -552,10 +544,7 @@ for
 (
 auto
 &
-[
-id
 transceiver
-]
 :
 GetTransceivers
 (
@@ -589,9 +578,8 @@ const
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -609,9 +597,8 @@ virtual
 std
 :
 :
-map
+vector
 <
-size_t
 RefPtr
 <
 JsepTransceiver
@@ -1083,10 +1070,7 @@ for
 const
 auto
 &
-[
-id
 transceiver
-]
 :
 GetTransceivers
 (
