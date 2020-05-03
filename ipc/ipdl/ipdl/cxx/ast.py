@@ -1,5 +1,7 @@
 import
 copy
+import
+functools
 class
 Visitor
 :
@@ -2459,6 +2461,9 @@ self
 ret
 =
 ret
+functools
+.
+total_ordering
 class
 Typedef
 (
@@ -2512,29 +2517,27 @@ templateargs
 templateargs
     
 def
-__cmp__
+__lt__
 (
 self
-o
+other
 )
 :
         
 return
-cmp
-(
 self
 .
 totypename
-o
+<
+other
 .
 totypename
-)
     
 def
 __eq__
 (
 self
-o
+other
 )
 :
         
@@ -2545,19 +2548,19 @@ self
 __class__
 =
 =
-o
+other
 .
 __class__
                 
 and
-0
-=
-=
-cmp
-(
 self
-o
-)
+.
+totypename
+=
+=
+other
+.
+totypename
 )
     
 def

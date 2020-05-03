@@ -253,7 +253,7 @@ ini
 ipdl_py_deps
 )
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir

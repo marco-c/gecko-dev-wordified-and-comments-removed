@@ -33,7 +33,7 @@ os
 import
 sys
 from
-cStringIO
+io
 import
 StringIO
 from
@@ -454,6 +454,19 @@ contents
 file
 )
 :
+    
+contents
+=
+contents
+.
+encode
+(
+'
+utf
+-
+8
+'
+)
     
 dir
 =

@@ -1123,7 +1123,7 @@ manifest
 :
 (
 call
-py_action
+py3_action
 download_wpt_manifest
 )
 define
