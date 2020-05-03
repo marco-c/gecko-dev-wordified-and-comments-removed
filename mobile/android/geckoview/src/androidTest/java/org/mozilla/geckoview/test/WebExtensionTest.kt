@@ -5482,7 +5482,6 @@ testIframeTopLevel
 (
 )
 }
-Ignore
 Test
 fun
 loadWebExtensionPage
