@@ -1082,11 +1082,10 @@ aFontSizeInflation
 )
 const
 ;
-nsresult
-ScrollSelectionIntoView
+void
+ScrollSelectionIntoViewAsync
 (
 )
-override
 ;
 private
 :

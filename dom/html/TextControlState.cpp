@@ -8598,12 +8598,10 @@ if
 mBoundFrame
 )
 {
-rv
-=
 mBoundFrame
 -
 >
-ScrollSelectionIntoView
+ScrollSelectionIntoViewAsync
 (
 )
 ;
