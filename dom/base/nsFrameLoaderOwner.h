@@ -144,6 +144,11 @@ ErrorResult
 rv
 )
 ;
+void
+SubframeCrashed
+(
+)
+;
 private
 :
 bool

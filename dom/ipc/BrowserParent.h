@@ -3744,11 +3744,6 @@ UpdateFocus
 (
 )
 ;
-void
-OnSubFrameCrashed
-(
-)
-;
 struct
 APZData
 {
