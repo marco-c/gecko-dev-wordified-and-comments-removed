@@ -340,7 +340,7 @@ public
 JS
 :
 :
-AutoGCRooter
+CustomAutoRooter
 {
 public
 :
@@ -626,6 +626,7 @@ JSTracer
 *
 trc
 )
+final
 ;
 const
 char
