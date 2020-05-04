@@ -1350,11 +1350,11 @@ engine
 .
 name
 )
-identifier
+isAppProvided
 :
 engine
 .
-identifier
+isAppProvided
 }
 )
 ;
@@ -2289,6 +2289,11 @@ _maybeConvertURIToArrayBuffer
 (
 favicon
 )
+isAppProvided
+:
+engine
+.
+isAppProvided
 }
 ;
 return
