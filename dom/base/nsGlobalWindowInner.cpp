@@ -7418,16 +7418,6 @@ if
 (
 !
 mWindowGlobalChild
-&
-&
-(
-XRE_IsParentProcess
-(
-)
-|
-|
-mBrowserChild
-)
 )
 {
 mWindowGlobalChild

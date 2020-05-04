@@ -10159,11 +10159,6 @@ mCreatingInnerWindow
 =
 true
 ;
-bool
-aDefineSharedArrayBufferConstructor
-=
-true
-;
 rv
 =
 CreateNativeGlobalForInner
@@ -10188,7 +10183,12 @@ ComputeIsSecureContext
 (
 aDocument
 )
-aDefineSharedArrayBufferConstructor
+newInnerWindow
+-
+>
+IsSharedMemoryAllowed
+(
+)
 )
 ;
 NS_ASSERTION
