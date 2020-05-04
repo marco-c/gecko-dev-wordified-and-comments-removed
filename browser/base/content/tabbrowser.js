@@ -18289,6 +18289,7 @@ duplicateTab
 (
 aTab
 aRestoreTabImmediately
+aOptions
 )
 {
 return
@@ -18300,6 +18301,7 @@ window
 aTab
 0
 aRestoreTabImmediately
+aOptions
 )
 ;
 }
