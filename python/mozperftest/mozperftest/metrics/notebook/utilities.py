@@ -269,6 +269,13 @@ isinstance
 v
 Iterable
 )
+and
+not
+isinstance
+(
+v
+str
+)
 :
                     
 _helper

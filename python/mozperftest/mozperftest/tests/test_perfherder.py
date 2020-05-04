@@ -1,9 +1,11 @@
 import
+json
+import
 os
 import
-mozunit
+pathlib
 import
-json
+mozunit
 from
 mozperftest
 .
@@ -126,13 +128,19 @@ EXAMPLE_TEST
     
 metadata
 .
-set_result
+add_result
 (
-os
+{
+        
+"
+results
+"
+:
+str
+(
+pathlib
 .
-path
-.
-join
+Path
 (
 HERE
 "
@@ -141,6 +149,17 @@ browsertime
 results
 "
 )
+)
+        
+"
+name
+"
+:
+"
+browsertime
+"
+}
+    
 )
     
 with
