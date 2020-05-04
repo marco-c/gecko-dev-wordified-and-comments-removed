@@ -3482,7 +3482,7 @@ test
 .
 text
 {
-isVariableInUse
+getVariableValue
 :
 getValue
 unmatchedVariableClass

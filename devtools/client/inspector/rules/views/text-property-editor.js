@@ -2382,7 +2382,7 @@ ruleview
 -
 variable
 "
-isVariableInUse
+getVariableValue
 :
 varName
 =
