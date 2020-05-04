@@ -1559,6 +1559,7 @@ RangeCount
 {
 RefPtr
 <
+const
 nsRange
 >
 range

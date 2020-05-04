@@ -1616,6 +1616,7 @@ NS_ERROR_FAILURE
 }
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -7300,6 +7301,7 @@ mLength
 ;
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -8067,6 +8069,7 @@ aSelLength
 {
 RefPtr
 <
+const
 nsRange
 >
 range
