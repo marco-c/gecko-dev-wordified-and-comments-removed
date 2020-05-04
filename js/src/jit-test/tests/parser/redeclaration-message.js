@@ -41,6 +41,7 @@ t
 access
 lexical
 declaration
+'
 aLet
 '
 before
