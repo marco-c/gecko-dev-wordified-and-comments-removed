@@ -3393,6 +3393,7 @@ Length
 ;
 RefPtr
 <
+const
 nsRange
 >
 currentSelectionRange
@@ -4660,6 +4661,7 @@ selection
 {
 RefPtr
 <
+const
 nsRange
 >
 startFindRange

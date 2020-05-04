@@ -1909,6 +1909,7 @@ GetChildCount
 ;
 RefPtr
 <
+const
 nsRange
 >
 range
