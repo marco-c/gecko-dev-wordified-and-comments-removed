@@ -95,7 +95,7 @@ webidl
 Document
 ;
 webidl
-Element
+Node
 ;
 native
 ReferrerPolicy
@@ -814,9 +814,6 @@ object
 void
 initWithDocument
 (
-[
-const
-]
 in
 Document
 aDocument
@@ -894,13 +891,10 @@ object
 *
 /
 void
-initWithElement
+initWithNode
 (
-[
-const
-]
 in
-Element
+Node
 aNode
 )
 ;

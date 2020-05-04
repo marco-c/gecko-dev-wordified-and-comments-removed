@@ -4668,9 +4668,6 @@ nativeType
 (
 self
 calltype
-const
-=
-False
 )
 :
         
@@ -4689,29 +4686,15 @@ RefPtr
 <
 %
 s
-%
-s
 >
 '
 %
-(
-'
-const
-'
-if
-const
-else
-'
-'
 self
 .
 native
-)
         
 return
 "
-%
-s
 %
 s
 *
@@ -4720,18 +4703,9 @@ s
 "
 %
 (
-'
-const
-'
-if
-const
-else
-'
-'
 self
 .
 native
-                             
 '
 *
 '
@@ -4751,9 +4725,6 @@ rustType
 (
 self
 calltype
-const
-=
-False
 )
 :
         

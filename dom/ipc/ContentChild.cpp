@@ -4655,7 +4655,13 @@ referrerInfo
 new
 ReferrerInfo
 (
-*
+)
+;
+referrerInfo
+-
+>
+InitWithDocument
+(
 doc
 )
 ;

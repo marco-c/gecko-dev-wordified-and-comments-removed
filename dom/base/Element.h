@@ -5305,7 +5305,6 @@ ReferrerPolicy
 GetReferrerPolicyAsEnum
 (
 )
-const
 ;
 ReferrerPolicy
 ReferrerPolicyFromAttr
@@ -5315,7 +5314,6 @@ nsAttrValue
 *
 aValue
 )
-const
 ;
 already_AddRefed
 <

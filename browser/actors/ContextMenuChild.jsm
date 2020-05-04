@@ -3168,7 +3168,7 @@ nsIReferrerInfo
 ;
 referrerInfo
 .
-initWithElement
+initWithNode
 (
 aEvent
 .
@@ -3222,7 +3222,7 @@ nsIReferrerInfo
 ;
 linkReferrerInfo
 .
-initWithElement
+initWithNode
 (
 context
 .
