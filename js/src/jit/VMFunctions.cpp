@@ -1215,7 +1215,7 @@ logger
 TraceLogger_Call
 )
 ;
-AutoArrayRooter
+RootedExternalValueArray
 argvRoot
 (
 cx

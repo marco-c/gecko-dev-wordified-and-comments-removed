@@ -16180,7 +16180,7 @@ argc
 +
 constructing
 ;
-AutoArrayRooter
+RootedExternalValueArray
 vpRoot
 (
 cx
@@ -17084,7 +17084,7 @@ op
 )
 )
 ;
-AutoArrayRooter
+RootedExternalValueArray
 vpRoot
 (
 cx

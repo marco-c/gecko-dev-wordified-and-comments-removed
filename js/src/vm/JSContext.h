@@ -4678,7 +4678,7 @@ length_
 ;
 class
 MOZ_RAII
-AutoArrayRooter
+RootedExternalValueArray
 :
 public
 JS
@@ -4691,7 +4691,7 @@ ExternalValueArray
 {
 public
 :
-AutoArrayRooter
+RootedExternalValueArray
 (
 JSContext
 *
