@@ -299,7 +299,7 @@ def
 verify_signature
 (
 mar
-certs
+cert
 )
 :
     
@@ -343,14 +343,7 @@ verify
 (
 verify_key
 =
-certs
-.
-get
-(
-m
-.
-signature_type
-)
+cert
 )
 :
             
@@ -365,19 +358,19 @@ invalid
 :
 %
 s
+(
+%
+s
+)
 against
 %
 s
 "
 mar
-certs
-.
-get
-(
 m
 .
 signature_type
-)
+cert
             
 )
 def
@@ -417,38 +410,6 @@ add_argument
         
 "
 -
--
-sha1
--
-signing
--
-cert
-"
-type
-=
-argparse
-.
-FileType
-(
-"
-rb
-"
-)
-required
-=
-True
-    
-)
-    
-parser
-.
-add_argument
-(
-        
-"
--
--
-sha384
 -
 signing
 -
@@ -1709,7 +1670,7 @@ download_and_verify_mars
     
 partials_config
 allowed_url_prefixes
-signing_certs
+signing_cert
 )
 :
     
@@ -1879,7 +1840,7 @@ url
 download_path
 "
 ]
-signing_certs
+signing_cert
 )
         
 if
@@ -2949,7 +2910,7 @@ def
 async_main
 (
 args
-signing_certs
+signing_cert
 )
 :
     
@@ -3010,7 +2971,7 @@ partials
 "
 ]
 allowed_url_prefixes
-signing_certs
+signing_cert
     
 )
     
@@ -3266,59 +3227,20 @@ args
 log_level
 )
     
-signing_certs
+signing_cert
 =
-{
-        
-"
-sha1
-"
-:
 args
 .
-sha1_signing_cert
-.
-read
-(
-)
-        
-"
-sha384
-"
-:
-args
-.
-sha384_signing_cert
+signing_cert
 .
 read
 (
 )
     
-}
-    
 assert
 get_keysize
 (
-signing_certs
-[
-"
-sha1
-"
-]
-)
-=
-=
-2048
-    
-assert
-get_keysize
-(
-signing_certs
-[
-"
-sha384
-"
-]
+signing_cert
 )
 =
 =
@@ -3365,7 +3287,7 @@ run_until_complete
 async_main
 (
 args
-signing_certs
+signing_cert
 )
 )
     
