@@ -306,6 +306,11 @@ DeviceManagerDx
 h
 '
 '
+DisplayConfigWindows
+.
+h
+'
+'
 PrintTarget
 .
 h

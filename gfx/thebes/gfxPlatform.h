@@ -2118,6 +2118,12 @@ WebRenderEnvvarEnabled
 (
 )
 ;
+static
+bool
+WebRenderEnvvarDisabled
+(
+)
+;
 void
 NotifyFrameStats
 (
