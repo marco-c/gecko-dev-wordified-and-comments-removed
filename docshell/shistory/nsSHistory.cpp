@@ -5957,8 +5957,6 @@ RemoveObject
 entry
 )
 ;
-return
-;
 }
 void
 nsSHistory
