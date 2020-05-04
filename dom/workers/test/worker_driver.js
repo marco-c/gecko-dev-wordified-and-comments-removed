@@ -255,6 +255,13 @@ nsIAndroidBridge
 isFennec
 ;
 const
+isCrossOriginIsolated
+=
+window
+.
+crossOriginIsolated
+;
+const
 result
 =
 {
@@ -268,6 +275,7 @@ isAndroid
 isLinux
 isInsecureContext
 isFennec
+isCrossOriginIsolated
 }
 ;
 worker

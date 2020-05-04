@@ -410,6 +410,9 @@ true
 earlyBetaOrEarlier
 :
 true
+crossOringinIsolated
+:
+true
 }
 {
 name
@@ -1568,6 +1571,7 @@ isDesktop
 isAndroid
 isInsecureContext
 isFennec
+isCrossOringinIsolated
 }
 )
 {
@@ -1750,6 +1754,16 @@ earlyBetaOrEarlier
 =
 !
 isEarlyBetaOrEarlier
+|
+|
+entry
+.
+crossOringinIsolated
+=
+=
+=
+!
+isCrossOringinIsolated
 |
 |
 entry
