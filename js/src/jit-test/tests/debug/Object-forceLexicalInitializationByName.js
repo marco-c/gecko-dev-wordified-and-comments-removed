@@ -119,7 +119,6 @@ t
 access
 lexical
 declaration
-'
 y
 '
 before
