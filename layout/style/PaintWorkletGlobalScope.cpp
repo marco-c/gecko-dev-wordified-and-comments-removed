@@ -108,11 +108,6 @@ JS
 RealmOptions
 options
 ;
-bool
-defineSharedArrayBufferConstructor
-=
-true
-;
 options
 .
 creationOptions
@@ -121,7 +116,9 @@ creationOptions
 .
 setDefineSharedArrayBufferConstructor
 (
-defineSharedArrayBufferConstructor
+IsSharedMemoryAllowed
+(
+)
 )
 ;
 JS
