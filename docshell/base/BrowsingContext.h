@@ -1304,7 +1304,7 @@ Top
 ;
 WindowContext
 *
-GetParentWindow
+GetParentWindowContext
 (
 )
 const
@@ -1313,6 +1313,12 @@ return
 mParentWindow
 ;
 }
+WindowContext
+*
+GetTopWindowContext
+(
+)
+;
 already_AddRefed
 <
 BrowsingContext
