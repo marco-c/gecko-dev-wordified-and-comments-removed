@@ -624,6 +624,7 @@ rangeCount
 i
 )
 {
+const
 nsRange
 *
 range
