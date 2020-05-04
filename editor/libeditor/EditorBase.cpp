@@ -16916,6 +16916,7 @@ RangeCount
 rangeIdx
 )
 {
+const
 nsRange
 *
 range
@@ -17108,6 +17109,7 @@ EditorBase
 :
 CreateTransactionForCollapsedRange
 (
+const
 nsRange
 &
 aCollapsedRange
@@ -22053,6 +22055,7 @@ IsMovingToNewTextNode
 )
 )
 {
+const
 nsRange
 *
 firstRange
@@ -25353,6 +25356,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range
@@ -27282,6 +27286,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range

@@ -1426,6 +1426,7 @@ j
 +
 )
 {
+const
 nsRange
 *
 range

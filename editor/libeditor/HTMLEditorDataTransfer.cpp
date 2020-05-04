@@ -809,6 +809,7 @@ rv
 }
 RefPtr
 <
+const
 nsRange
 >
 range

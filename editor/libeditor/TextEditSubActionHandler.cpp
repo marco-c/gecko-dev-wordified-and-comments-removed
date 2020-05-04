@@ -1111,6 +1111,7 @@ rv
 )
 ;
 }
+const
 nsRange
 *
 firstRange
@@ -2505,6 +2506,7 @@ insertionString
 )
 ;
 }
+const
 nsRange
 *
 firstRange

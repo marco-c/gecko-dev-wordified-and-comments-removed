@@ -19427,6 +19427,7 @@ Failed
 )
 )
 ;
+const
 nsRange
 *
 firstRange
@@ -19758,6 +19759,7 @@ mSelectedCellIndex
 +
 )
 {
+const
 nsRange
 *
 range

@@ -6142,6 +6142,7 @@ EditTransactionBase
 >
 CreateTransactionForCollapsedRange
 (
+const
 nsRange
 &
 aCollapsedRange

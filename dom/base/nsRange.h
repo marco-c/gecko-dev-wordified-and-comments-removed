@@ -755,6 +755,7 @@ ErrorResult
 &
 aError
 )
+const
 ;
 already_AddRefed
 <

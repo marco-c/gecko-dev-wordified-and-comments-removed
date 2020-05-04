@@ -288,6 +288,7 @@ i
 +
 )
 {
+const
 nsRange
 *
 range
@@ -2873,6 +2874,7 @@ RangeItem
 :
 StoreRange
 (
+const
 nsRange
 &
 aRange
