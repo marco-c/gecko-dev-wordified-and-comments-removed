@@ -21722,6 +21722,13 @@ nsIURI
 aRedirectURI
 UniqueProfilerBacktrace
 aSource
+const
+Maybe
+<
+nsDependentCString
+>
+&
+aContentType
 )
 {
 if
@@ -21865,6 +21872,7 @@ move
 (
 aSource
 )
+aContentType
 )
 )
 ;
