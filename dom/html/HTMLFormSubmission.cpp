@@ -8,6 +8,13 @@ h
 #
 include
 "
+HTMLFormElement
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h

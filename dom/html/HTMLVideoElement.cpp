@@ -14,6 +14,15 @@ include
 "
 mozilla
 /
+AsyncEventDispatcher
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLVideoElementBinding

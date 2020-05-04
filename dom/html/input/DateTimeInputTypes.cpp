@@ -54,6 +54,12 @@ nsDOMTokenList
 .
 h
 "
+namespace
+mozilla
+{
+namespace
+dom
+{
 const
 double
 DateTimeInputTypeBase
@@ -104,17 +110,6 @@ kMsPerDay
 60
 *
 1000
-;
-using
-namespace
-mozilla
-;
-using
-namespace
-mozilla
-:
-:
-dom
 ;
 bool
 DateTimeInputTypeBase
@@ -2651,4 +2646,6 @@ minutes
 return
 true
 ;
+}
+}
 }

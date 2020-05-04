@@ -73,10 +73,6 @@ class
 KeyboardEvent
 ;
 }
-using
-namespace
-dom
-;
 class
 KeyEventHandler
 ;
@@ -91,6 +87,9 @@ public
 explicit
 GlobalKeyListener
 (
+dom
+:
+:
 EventTarget
 *
 aTarget
@@ -128,6 +127,9 @@ MOZ_CAN_RUN_SCRIPT
 void
 WalkHandlers
 (
+dom
+:
+:
 KeyboardEvent
 *
 aKeyEvent
@@ -137,6 +139,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersInternal
 (
+dom
+:
+:
 KeyboardEvent
 *
 aKeyEvent
@@ -153,6 +158,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 WalkHandlersAndExecute
 (
+dom
+:
+:
 KeyboardEvent
 *
 aKeyEvent
@@ -175,6 +183,9 @@ MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInDefaultEventGroup
 (
+dom
+:
+:
 KeyboardEvent
 *
 aEvent
@@ -184,6 +195,9 @@ MOZ_CAN_RUN_SCRIPT
 void
 HandleEventOnCaptureInSystemEventGroup
 (
+dom
+:
+:
 KeyboardEvent
 *
 aEvent
@@ -193,6 +207,9 @@ MOZ_CAN_RUN_SCRIPT
 bool
 HasHandlerForEvent
 (
+dom
+:
+:
 KeyboardEvent
 *
 aEvent
@@ -252,6 +269,9 @@ false
 virtual
 already_AddRefed
 <
+dom
+:
+:
 EventTarget
 >
 GetHandlerTarget
@@ -268,6 +288,9 @@ mTarget
 )
 ;
 }
+dom
+:
+:
 EventTarget
 *
 mTarget
@@ -290,9 +313,15 @@ public
 explicit
 XULKeySetGlobalKeyListener
 (
+dom
+:
+:
 Element
 *
 aElement
+dom
+:
+:
 EventTarget
 *
 aTarget
@@ -302,6 +331,9 @@ static
 void
 AttachKeyHandler
 (
+dom
+:
+:
 Element
 *
 aElementTarget
@@ -311,6 +343,9 @@ static
 void
 DetachKeyHandler
 (
+dom
+:
+:
 Element
 *
 aElementTarget
@@ -324,6 +359,9 @@ XULKeySetGlobalKeyListener
 (
 )
 ;
+dom
+:
+:
 Element
 *
 GetElement
@@ -367,6 +405,9 @@ override
 virtual
 already_AddRefed
 <
+dom
+:
+:
 EventTarget
 >
 GetHandlerTarget
@@ -383,6 +424,9 @@ GetElementForHandler
 KeyEventHandler
 *
 aHandler
+dom
+:
+:
 Element
 *
 *
@@ -393,6 +437,9 @@ const
 bool
 IsExecutableElement
 (
+dom
+:
+:
 Element
 *
 aElement
@@ -416,6 +463,9 @@ public
 explicit
 RootWindowGlobalKeyListener
 (
+dom
+:
+:
 EventTarget
 *
 aTarget
@@ -425,6 +475,9 @@ static
 void
 AttachKeyHandler
 (
+dom
+:
+:
 EventTarget
 *
 aTarget

@@ -35,6 +35,13 @@ h
 #
 include
 "
+nsStyleConsts
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
