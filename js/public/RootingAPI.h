@@ -4068,8 +4068,6 @@ AutoGCRooterKind
 :
 uint8_t
 {
-Array
-ValueArray
 Parser
 BinASTParser
 WrapperVector
