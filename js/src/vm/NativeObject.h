@@ -2702,6 +2702,9 @@ lastProperty
 >
 slotSpan
 (
+getClass
+(
+)
 )
 ;
 }
