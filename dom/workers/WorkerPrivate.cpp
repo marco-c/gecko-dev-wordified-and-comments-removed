@@ -9684,10 +9684,13 @@ true
 )
 ;
 }
+const
 bool
 defineSharedArrayBufferConstructor
 =
-true
+IsSharedMemoryAllowed
+(
+)
 ;
 chromeCreationOptions
 .
