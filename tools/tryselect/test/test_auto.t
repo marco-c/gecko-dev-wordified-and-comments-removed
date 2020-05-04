@@ -88,7 +88,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug
+bugbug_reduced
 "
 }
 }
@@ -186,7 +186,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug
+bugbug_reduced
 "
 }
 }
@@ -295,7 +295,7 @@ optimize
 :
 tryselect
 .
-bugbug_debug
+bugbug_reduced
 "
 }
 }
