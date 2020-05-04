@@ -8,6 +8,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 TimelineConsumers
 .
 h

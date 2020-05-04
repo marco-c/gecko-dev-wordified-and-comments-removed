@@ -40,6 +40,13 @@ AutoRestore
 .
 h
 "
+#
+include
+"
+nsIDocShell
+.
+h
+"
 namespace
 mozilla
 {

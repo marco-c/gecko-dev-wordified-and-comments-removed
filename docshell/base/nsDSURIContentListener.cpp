@@ -67,6 +67,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowGlobalParent
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

@@ -9,6 +9,13 @@ ChildProcessChannelListener
 .
 h
 "
+#
+include
+"
+nsDocShellLoadState
+.
+h
+"
 namespace
 mozilla
 {

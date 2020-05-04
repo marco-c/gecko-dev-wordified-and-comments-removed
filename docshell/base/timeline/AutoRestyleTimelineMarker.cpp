@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsIDocShell
+.
+h
+"
+#
+include
+"
 RestyleTimelineMarker
 .
 h

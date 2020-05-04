@@ -56,6 +56,16 @@ include
 <
 utility
 >
+class
+PickleIterator
+;
+namespace
+IPC
+{
+class
+Message
+;
+}
 namespace
 mozilla
 {
