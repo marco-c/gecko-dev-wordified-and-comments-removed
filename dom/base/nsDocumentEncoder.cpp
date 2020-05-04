@@ -941,6 +941,7 @@ aNode
 nsresult
 SerializeRangeToString
 (
+const
 nsRange
 *
 aRange
@@ -1709,6 +1710,7 @@ i
 {
 RefPtr
 <
+const
 nsRange
 >
 range
@@ -4472,6 +4474,7 @@ nsDocumentEncoder
 :
 SerializeRangeToString
 (
+const
 nsRange
 *
 aRange

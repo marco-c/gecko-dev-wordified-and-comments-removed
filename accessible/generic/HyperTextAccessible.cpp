@@ -8838,6 +8838,7 @@ idx
 +
 )
 {
+const
 nsRange
 *
 DOMRange
@@ -10637,6 +10638,7 @@ idx
 +
 )
 {
+const
 nsRange
 *
 range
@@ -10860,6 +10862,7 @@ idx
 0
 )
 {
+const
 nsRange
 *
 prevRange
@@ -10926,6 +10929,7 @@ endOffset
 return
 ;
 }
+const
 nsRange
 *
 prevRange

@@ -22658,6 +22658,7 @@ return
 NS_OK
 ;
 }
+const
 nsRange
 *
 range
