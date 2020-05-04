@@ -5310,6 +5310,9 @@ BufferFilled
 (
 )
 ;
+#
+ifdef
+MOZ_SAMPLE_TYPE_FLOAT32
 NaNToZeroInPlace
 (
 aOutputBuffer
@@ -5318,6 +5321,8 @@ aFrames
 mOutputChannelCount
 )
 ;
+#
+endif
 Graph
 (
 )
