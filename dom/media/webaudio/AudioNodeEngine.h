@@ -785,6 +785,16 @@ WEBAUDIO_BLOCK_SIZE
 ]
 )
 ;
+void
+NaNToZeroInPlace
+(
+float
+*
+aSamples
+size_t
+aCount
+)
+;
 float
 AudioBufferSumOfSquares
 (
