@@ -1000,7 +1000,7 @@ elements
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 "
 )
 ;

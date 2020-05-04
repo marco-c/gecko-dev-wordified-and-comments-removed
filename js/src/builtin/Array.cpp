@@ -17694,7 +17694,7 @@ result
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 4
 >

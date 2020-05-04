@@ -5567,7 +5567,7 @@ hostString
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >

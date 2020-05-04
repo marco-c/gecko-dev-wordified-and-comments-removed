@@ -139,7 +139,7 @@ size_t
 N
 >
 using
-AutoValueArray
+RootedValueArray
 =
 Rooted
 <
@@ -247,7 +247,7 @@ MOZ_IMPLICIT
 HandleValueArray
 (
 const
-AutoValueArray
+RootedValueArray
 <
 N
 >

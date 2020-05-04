@@ -2297,7 +2297,7 @@ rval
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -2524,7 +2524,7 @@ ionScript
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 3
 >
@@ -2697,7 +2697,7 @@ rval
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -2816,7 +2816,7 @@ sep
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 3
 >
@@ -8075,7 +8075,7 @@ native
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -8191,7 +8191,7 @@ native
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >
@@ -8302,7 +8302,7 @@ native
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 3
 >

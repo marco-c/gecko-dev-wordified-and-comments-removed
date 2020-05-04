@@ -244,7 +244,7 @@ mIsKeyAndValue
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 2
 >

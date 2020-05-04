@@ -70,7 +70,7 @@ func
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 1
 >

@@ -202,13 +202,13 @@ using
 JS
 :
 :
-AutoValueArray
+CompileOptions
 ;
 using
 JS
 :
 :
-CompileOptions
+RootedValueArray
 ;
 using
 mozilla
@@ -808,7 +808,7 @@ NodeBuilder
 using
 CallbackArray
 =
-AutoValueArray
+RootedValueArray
 <
 AST_LIMIT
 >

@@ -458,7 +458,7 @@ obj
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 NUM_STAGES
 >
@@ -571,7 +571,7 @@ continue
 JS
 :
 :
-AutoValueArray
+RootedValueArray
 <
 6
 >
