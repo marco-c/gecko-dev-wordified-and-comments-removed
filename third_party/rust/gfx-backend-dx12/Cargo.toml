@@ -131,7 +131,7 @@ version
 .
 5
 .
-0
+1
 "
 authors
 =
@@ -396,8 +396,6 @@ version
 =
 "
 1
-.
-0
 "
 [
 dependencies
