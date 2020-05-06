@@ -523,7 +523,7 @@ uri
 StoragePrincipalHelper
 :
 :
-PrepareOriginAttributes
+PrepareEffectiveStoragePrincipalOriginAttributes
 (
 aChannel
 attrs
