@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsIScreen
+.
+h
+"
+#
+include
+"
 mozilla
 /
 dom
