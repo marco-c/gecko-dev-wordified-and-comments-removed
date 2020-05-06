@@ -5461,7 +5461,7 @@ clone
 let
 latency
 =
-get_presentation_latency
+get_fixed_latency
 (
 device
 scope

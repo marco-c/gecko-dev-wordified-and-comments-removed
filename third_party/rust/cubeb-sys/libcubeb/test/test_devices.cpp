@@ -869,9 +869,7 @@ n
 "
 )
 ;
-r
-=
-CUBEB_OK
+return
 ;
 }
 ASSERT_EQ

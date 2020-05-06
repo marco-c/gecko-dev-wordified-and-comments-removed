@@ -1396,6 +1396,7 @@ kai_stream_stop
 NULL
 kai_stream_get_position
 kai_stream_get_latency
+NULL
 kai_stream_set_volume
 NULL
 NULL

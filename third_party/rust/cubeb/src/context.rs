@@ -42,9 +42,6 @@ Context
 let
 name
 =
-try
-!
-(
 CString
 :
 :
@@ -52,7 +49,7 @@ new
 (
 name
 )
-)
+?
 ;
 Context
 :
