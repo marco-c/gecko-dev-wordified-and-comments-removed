@@ -841,7 +841,7 @@ nsITimer
 mAfterWakeUpTimer
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 Tuple
 <
