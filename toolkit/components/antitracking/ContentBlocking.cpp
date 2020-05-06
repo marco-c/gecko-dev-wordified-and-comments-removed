@@ -1786,6 +1786,15 @@ ContentBlockingNotifier
 :
 :
 eOpener
+&
+&
+!
+bc
+-
+>
+IsDiscarded
+(
+)
 )
 {
 MOZ_ASSERT
