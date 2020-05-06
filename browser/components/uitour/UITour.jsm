@@ -833,8 +833,6 @@ getElementById
 pocket
 -
 button
--
-box
 "
 )
 ;
