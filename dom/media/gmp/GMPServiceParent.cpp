@@ -1799,12 +1799,10 @@ aAPI
 )
 tags
 =
-nsTArray
-<
-nsCString
->
-(
 aTags
+.
+Clone
+(
 )
 helper
 =

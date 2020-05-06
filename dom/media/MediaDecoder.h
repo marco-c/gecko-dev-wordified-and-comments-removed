@@ -1693,7 +1693,7 @@ mOutputCaptured
 ;
 Canonical
 <
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -1843,7 +1843,7 @@ mOutputCaptured
 }
 AbstractCanonical
 <
-nsTArray
+CopyableTArray
 <
 RefPtr
 <

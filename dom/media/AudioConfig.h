@@ -940,7 +940,7 @@ aChannels
 )
 const
 ;
-AutoTArray
+CopyableAutoTArray
 <
 Channel
 MAX_CHANNELS

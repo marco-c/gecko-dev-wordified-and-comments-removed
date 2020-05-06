@@ -105,6 +105,10 @@ aStatus
 mId
 (
 aId
+.
+Clone
+(
+)
 )
 mSessionId
 (
@@ -129,6 +133,10 @@ mId
 aOther
 .
 mId
+.
+Clone
+(
+)
 )
 mSessionId
 (
@@ -278,6 +286,10 @@ aListener
 mKeyId
 (
 aKeyId
+.
+Clone
+(
+)
 )
 mListener
 (

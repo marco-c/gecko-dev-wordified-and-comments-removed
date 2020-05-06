@@ -351,7 +351,7 @@ mMediaTime
 CryptoTrack
 mCrypto
 ;
-nsTArray
+CopyableTArray
 <
 MetadataTag
 >
@@ -596,6 +596,10 @@ mTags
 aOther
 .
 mTags
+.
+Clone
+(
+)
 ;
 MOZ_COUNT_CTOR
 (
@@ -1556,7 +1560,7 @@ aInitData
 nsString
 mType
 ;
-nsTArray
+CopyableTArray
 <
 uint8_t
 >
@@ -1565,7 +1569,7 @@ mInitData
 }
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 InitData
 >

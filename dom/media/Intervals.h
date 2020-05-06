@@ -1446,6 +1446,10 @@ mIntervals
 aOther
 .
 mIntervals
+.
+Clone
+(
+)
 )
 {
 }
@@ -1593,6 +1597,10 @@ mIntervals
 aOther
 .
 mIntervals
+.
+Clone
+(
+)
 ;
 return
 *

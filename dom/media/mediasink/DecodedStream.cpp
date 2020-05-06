@@ -1693,7 +1693,7 @@ DecodedStream
 MediaDecoderStateMachine
 *
 aStateMachine
-nsTArray
+CopyableTArray
 <
 RefPtr
 <
@@ -2437,15 +2437,10 @@ move
 (
 init
 )
-nsTArray
-<
-RefPtr
-<
-ProcessedMediaTrack
->
->
-(
 mOutputTracks
+.
+Clone
+(
 )
 std
 :

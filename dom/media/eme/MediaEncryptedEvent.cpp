@@ -327,6 +327,10 @@ e
 mRawInitData
 =
 aInitData
+.
+Clone
+(
+)
 ;
 e
 -

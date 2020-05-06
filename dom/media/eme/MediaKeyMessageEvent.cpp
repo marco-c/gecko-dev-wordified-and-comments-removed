@@ -327,6 +327,10 @@ e
 mRawMessage
 =
 aMessage
+.
+Clone
+(
+)
 ;
 e
 -

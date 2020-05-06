@@ -790,6 +790,10 @@ nsTArray
 MediaImage
 >
 artwork
+;
+artwork
+.
+Assign
 (
 aArtwork
 )

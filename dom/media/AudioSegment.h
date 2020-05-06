@@ -1332,7 +1332,7 @@ ThreadSharedObject
 >
 mBuffer
 ;
-AutoTArray
+CopyableAutoTArray
 <
 const
 void
@@ -2343,6 +2343,10 @@ ChannelData
 <
 SrcT
 >
+(
+)
+.
+Clone
 (
 )
 ;

@@ -131,7 +131,7 @@ DecodedStream
 MediaDecoderStateMachine
 *
 aStateMachine
-nsTArray
+CopyableTArray
 <
 RefPtr
 <

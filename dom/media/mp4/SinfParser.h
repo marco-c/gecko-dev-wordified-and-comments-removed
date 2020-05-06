@@ -116,7 +116,7 @@ mDefaultCryptByteBlock
 uint8_t
 mDefaultSkipByteBlock
 ;
-nsTArray
+CopyableTArray
 <
 uint8_t
 >

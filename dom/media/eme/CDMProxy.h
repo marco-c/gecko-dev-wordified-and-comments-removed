@@ -167,6 +167,10 @@ aKeyId
 mKeyId
 (
 aKeyId
+.
+Clone
+(
+)
 )
 mStatus
 (
@@ -200,6 +204,10 @@ aStatus
 mKeyId
 (
 aKeyId
+.
+Clone
+(
+)
 )
 mStatus
 (
@@ -224,6 +232,10 @@ mKeyId
 aKeyInfo
 .
 mKeyId
+.
+Clone
+(
+)
 ;
 if
 (

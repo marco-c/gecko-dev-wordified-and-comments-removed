@@ -200,7 +200,7 @@ default
 nsCString
 mAPIName
 ;
-nsTArray
+CopyableTArray
 <
 nsCString
 >
