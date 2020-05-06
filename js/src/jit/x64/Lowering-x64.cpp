@@ -1350,6 +1350,12 @@ case
 Scalar
 :
 :
+V128
+:
+case
+Scalar
+:
+:
 Uint8Clamped
 :
 case

@@ -10002,6 +10002,12 @@ case
 Scalar
 :
 :
+V128
+:
+case
+Scalar
+:
+:
 Float32
 :
 case

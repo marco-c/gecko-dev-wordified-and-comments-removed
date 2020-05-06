@@ -119,6 +119,9 @@ bigIntEnabled
 bool
 multiValuesEnabled
 ;
+bool
+v128Enabled
+;
 static
 SharedCompileArgs
 build
@@ -192,6 +195,10 @@ bigIntEnabled
 false
 )
 multiValuesEnabled
+(
+false
+)
+v128Enabled
 (
 false
 )

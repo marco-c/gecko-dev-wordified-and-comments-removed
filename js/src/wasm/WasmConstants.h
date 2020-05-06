@@ -102,6 +102,9 @@ F32
 F64
 =
 0x7c
+V128
+=
+0x7b
 FuncRef
 =
 0x70
@@ -136,7 +139,7 @@ LowestPrimitiveTypeCode
 TypeCode
 :
 :
-F64
+V128
 ;
 enum
 class

@@ -6633,6 +6633,7 @@ false
 false
 false
 false
+false
 )
 env_
 (
@@ -37276,6 +37277,19 @@ MOZ_CRASH
 (
 "
 int64
+"
+)
+;
+case
+ValType
+:
+:
+V128
+:
+MOZ_CRASH
+(
+"
+v128
 "
 )
 ;

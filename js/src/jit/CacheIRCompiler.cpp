@@ -21689,6 +21689,12 @@ Scalar
 :
 Int64
 :
+case
+Scalar
+:
+:
+V128
+:
 MOZ_CRASH
 (
 "
@@ -23203,6 +23209,12 @@ Scalar
 :
 :
 Int64
+:
+case
+Scalar
+:
+:
+V128
 :
 MOZ_CRASH
 (
