@@ -54,7 +54,7 @@ Version
 .
 4
 .
-17
+19
 '
 )
 GLIBC_MAX_VERSION
@@ -64,7 +64,7 @@ Version
 '
 2
 .
-12
+17
 '
 )
 LIBGCC_MAX_VERSION
