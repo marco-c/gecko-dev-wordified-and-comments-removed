@@ -411,6 +411,10 @@ aColSpacing
 mColSpacing
 =
 aColSpacing
+.
+Clone
+(
+)
 ;
 }
 void
@@ -428,6 +432,10 @@ aRowSpacing
 mRowSpacing
 =
 aRowSpacing
+.
+Clone
+(
+)
 ;
 }
 void
