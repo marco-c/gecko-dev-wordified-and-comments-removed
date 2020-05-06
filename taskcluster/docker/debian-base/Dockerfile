@@ -250,6 +250,12 @@ python3
 \
 python3
 -
+distutils
+-
+extra
+\
+python3
+-
 minimal
 \
 python
