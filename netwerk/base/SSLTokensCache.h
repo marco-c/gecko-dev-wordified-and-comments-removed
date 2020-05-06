@@ -75,12 +75,6 @@ net
 struct
 SessionCacheInfo
 {
-SessionCacheInfo
-Clone
-(
-)
-const
-;
 psm
 :
 :

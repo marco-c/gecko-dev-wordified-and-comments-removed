@@ -925,10 +925,6 @@ IsEmpty
 aRetVal
 =
 mSystemLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -945,10 +941,6 @@ aRetVal
 mSystemLocales
 =
 aRetVal
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -1065,10 +1057,6 @@ IsEmpty
 aRetVal
 =
 mRegionalPrefsLocales
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -1085,10 +1073,6 @@ aRetVal
 mRegionalPrefsLocales
 =
 aRetVal
-.
-Clone
-(
-)
 ;
 return
 NS_OK

@@ -344,15 +344,6 @@ Runnable
 {
 public
 :
-SSLServerCertVerificationJob
-(
-const
-SSLServerCertVerificationJob
-&
-)
-=
-delete
-;
 static
 SECStatus
 Dispatch

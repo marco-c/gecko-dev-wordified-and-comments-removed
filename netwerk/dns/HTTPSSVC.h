@@ -180,7 +180,7 @@ aOther
 mValue
 ;
 }
-CopyableTArray
+nsTArray
 <
 mozilla
 :
@@ -247,7 +247,7 @@ aOther
 mValue
 ;
 }
-CopyableTArray
+nsTArray
 <
 mozilla
 :
@@ -370,7 +370,7 @@ SvcParamKeyNone
 nsCString
 mSvcDomainName
 ;
-CopyableTArray
+nsTArray
 <
 SvcFieldValue
 >

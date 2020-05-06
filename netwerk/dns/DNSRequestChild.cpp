@@ -281,10 +281,6 @@ addrs
 mAddresses
 =
 addrs
-.
-Clone
-(
-)
 ;
 }
 NS_IMETHODIMP
@@ -461,10 +457,6 @@ aAddressArray
 aAddressArray
 =
 mAddresses
-.
-Clone
-(
-)
 ;
 return
 NS_OK
@@ -836,7 +828,7 @@ ChildDNSByTypeRecord
 :
 GetRecords
 (
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -867,7 +859,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >
@@ -915,7 +907,7 @@ mResults
 .
 as
 <
-CopyableTArray
+nsTArray
 <
 nsCString
 >
