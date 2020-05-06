@@ -2355,23 +2355,6 @@ s_valgrind
 .
 py
 '
-        
-'
-tup
-'
-:
-'
-builds
-/
-releng_sub_
-%
-s_configs
-/
-%
-s_tup
-.
-py
-'
     
 }
     

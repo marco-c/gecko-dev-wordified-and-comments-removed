@@ -81,7 +81,6 @@ Optimization
 pgo
 >
 slow
-tup
 environment
 -
 variables

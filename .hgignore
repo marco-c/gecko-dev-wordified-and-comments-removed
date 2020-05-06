@@ -1129,13 +1129,6 @@ lextab
 .
 py
 #
-tup
-database
-^
-\
-.
-tup
-#
 Ignore
 sync
 tps
