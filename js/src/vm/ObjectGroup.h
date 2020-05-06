@@ -34,7 +34,7 @@ include
 "
 gc
 /
-GCTrace
+GCProbes
 .
 h
 "
@@ -289,13 +289,6 @@ gc
 :
 :
 GCRuntime
-;
-friend
-class
-gc
-:
-:
-GCTrace
 ;
 friend
 class

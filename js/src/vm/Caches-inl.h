@@ -27,7 +27,7 @@ include
 "
 gc
 /
-GCTrace
+GCProbes
 .
 h
 "
@@ -448,9 +448,10 @@ obj
 gc
 :
 :
-gcTracer
-.
-traceCreateObject
+gcprobes
+:
+:
+CreateObject
 (
 obj
 )

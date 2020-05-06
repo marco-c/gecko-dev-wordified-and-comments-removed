@@ -19447,9 +19447,10 @@ release
 gc
 :
 :
-gcTracer
-.
-traceTypeNewScript
+gcprobes
+:
+:
+TypeNewScript
 (
 group
 )

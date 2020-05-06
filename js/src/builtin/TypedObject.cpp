@@ -11713,9 +11713,10 @@ js
 gc
 :
 :
-gcTracer
-.
-traceCreateObject
+gcprobes
+:
+:
+CreateObject
 (
 tobj
 )

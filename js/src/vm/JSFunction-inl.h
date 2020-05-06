@@ -27,7 +27,7 @@ include
 "
 gc
 /
-GCTrace
+GCProbes
 .
 h
 "
@@ -803,9 +803,10 @@ js
 gc
 :
 :
-gcTracer
-.
-traceCreateObject
+gcprobes
+:
+:
+CreateObject
 (
 fun
 )

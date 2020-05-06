@@ -21,7 +21,7 @@ include
 "
 gc
 /
-GCTrace
+GCProbes
 .
 h
 "
@@ -858,9 +858,10 @@ proxy
 gc
 :
 :
-gcTracer
-.
-traceCreateObject
+gcprobes
+:
+:
+CreateObject
 (
 proxy
 )
@@ -1289,9 +1290,10 @@ js
 gc
 :
 :
-gcTracer
-.
-traceCreateObject
+gcprobes
+:
+:
+CreateObject
 (
 proxy
 )
