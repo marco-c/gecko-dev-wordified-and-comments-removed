@@ -32,6 +32,10 @@ jsparagus_ast
 as
 ast
 ;
+extern
+crate
+static_assertions
+;
 pub
 use
 ast_builder

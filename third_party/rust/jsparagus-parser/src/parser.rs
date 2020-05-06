@@ -715,6 +715,10 @@ ParseError
 :
 :
 NoLineTerminatorHereExpectedToken
+.
+into
+(
+)
 )
 }
 }
@@ -1284,6 +1288,10 @@ parse_error
 (
 token
 )
+.
+into
+(
+)
 )
 ;
 }
@@ -1413,6 +1421,10 @@ parse_error
 (
 token
 )
+.
+into
+(
+)
 )
 ;
 }
@@ -1422,6 +1434,10 @@ ParseError
 :
 :
 ParserCannotUnpackToken
+.
+into
+(
+)
 )
 }
 pub
@@ -1502,6 +1518,10 @@ Self
 parse_error
 (
 t
+)
+.
+into
+(
 )
 )
 }

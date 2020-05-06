@@ -88,7 +88,6 @@ derive
 Debug
 )
 ]
-pub
 struct
 GlobalEmitterScope
 {
@@ -103,7 +102,6 @@ NameLocation
 impl
 GlobalEmitterScope
 {
-pub
 fn
 new
 (
@@ -457,7 +455,6 @@ derive
 Debug
 )
 ]
-pub
 enum
 EmitterScope
 {
@@ -649,7 +646,6 @@ new
 )
 }
 }
-pub
 fn
 innermost
 (
@@ -918,7 +914,6 @@ leave_global_scope
 )
 ;
 }
-pub
 fn
 dead_zone_frame_slot_range
 (
