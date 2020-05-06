@@ -266,9 +266,6 @@ JSAtomState
 :
 *
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 MOZ_MUST_USE
 bool
 FormattedRelativeTimeToParts
@@ -288,8 +285,6 @@ MutableHandleValue
 result
 )
 ;
-#
-endif
 }
 }
 #
