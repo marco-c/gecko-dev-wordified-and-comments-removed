@@ -220,7 +220,7 @@ foundEmpty
 }
 async
 function
-run_test
+testSteps
 (
 )
 {
@@ -238,10 +238,6 @@ mozilla
 .
 org
 "
-;
-do_test_pending
-(
-)
 ;
 info
 (
@@ -425,10 +421,6 @@ delete
 "
 test
 "
-)
-;
-do_test_finished
-(
 )
 ;
 }
