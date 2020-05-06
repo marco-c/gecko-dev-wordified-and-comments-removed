@@ -10334,6 +10334,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
+const
 nsRange
 *
 firstRange
@@ -10487,6 +10488,7 @@ NS_ERROR_DOM_INVALID_STATE_ERR
 return
 ;
 }
+const
 nsRange
 *
 lastRange
