@@ -168,6 +168,16 @@ third_party
 /
 python
 /
+attrs
+/
+src
+"
+    
+"
+third_party
+/
+python
+/
 dlmanager
 "
     
@@ -177,6 +187,30 @@ third_party
 python
 /
 esprima
+"
+    
+"
+third_party
+/
+python
+/
+importlib_metadata
+"
+    
+"
+third_party
+/
+python
+/
+jsonschema
+"
+    
+"
+third_party
+/
+python
+/
+pyrsistent
 "
     
 "
@@ -240,7 +274,7 @@ bin
 bash
 "
 def
-main
+_setup_path
 (
 )
 :
@@ -305,6 +339,15 @@ join
 SRC_ROOT
 path
 )
+)
+def
+main
+(
+)
+:
+    
+_setup_path
+(
 )
     
 from
@@ -411,6 +454,10 @@ mach_cmd
 kwargs
 )
 :
+    
+_setup_path
+(
+)
     
 from
 mozperftest
