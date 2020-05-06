@@ -390,6 +390,10 @@ IsEmpty
 aRanges
 =
 mRanges
+.
+Clone
+(
+)
 ;
 return
 ;
@@ -493,6 +497,10 @@ targetRange
 aRanges
 =
 mRanges
+.
+Clone
+(
+)
 ;
 }
 }

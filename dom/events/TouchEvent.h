@@ -149,6 +149,10 @@ aParent
 mPoints
 (
 aTouches
+.
+Clone
+(
+)
 )
 {
 nsJSContext
