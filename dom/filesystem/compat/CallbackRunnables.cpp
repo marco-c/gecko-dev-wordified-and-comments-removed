@@ -398,6 +398,10 @@ aDirectory
 mParts
 (
 aParts
+.
+Clone
+(
+)
 )
 mFileSystem
 (
