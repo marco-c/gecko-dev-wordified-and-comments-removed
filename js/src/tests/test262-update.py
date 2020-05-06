@@ -161,14 +161,6 @@ Intl
 .
 DateTimeFormat
 -
-dayPeriod
-"
-    
-"
-Intl
-.
-DateTimeFormat
--
 formatRange
 "
     
@@ -273,6 +265,14 @@ Intl
 DateTimeFormat
 -
 fractionalSecondDigits
+"
+    
+"
+Intl
+.
+DateTimeFormat
+-
+dayPeriod
 "
     
 "
