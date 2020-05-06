@@ -3875,7 +3875,6 @@ aError
 )
 ;
 }
-static
 void
 TokenizeCandidate
 (
