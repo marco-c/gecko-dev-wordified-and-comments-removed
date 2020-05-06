@@ -2769,6 +2769,9 @@ PresContext
 )
 view
 point
+aRootFrame
+.
+mViewportType
 aEvent
 -
 >

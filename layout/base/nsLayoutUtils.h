@@ -2165,6 +2165,8 @@ nsView
 aView
 nsPoint
 aPt
+ViewportType
+aViewportType
 nsIWidget
 *
 aWidget
