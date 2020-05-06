@@ -1817,10 +1817,6 @@ clobberFunction
 fun
 )
 ;
-synchronizeArgCount
-(
-)
-;
 }
 void
 setAsmJSModule

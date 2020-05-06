@@ -3191,6 +3191,13 @@ return
 false
 ;
 }
+funbox
+-
+>
+synchronizeArgCount
+(
+)
+;
 compilationInfo
 .
 script
