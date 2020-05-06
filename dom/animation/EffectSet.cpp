@@ -28,6 +28,15 @@ h
 #
 include
 "
+mozilla
+/
+LayerAnimationInfo
+.
+h
+"
+#
+include
+"
 nsCSSPseudoElements
 .
 h
