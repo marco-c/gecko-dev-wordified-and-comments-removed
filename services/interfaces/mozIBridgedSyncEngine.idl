@@ -71,9 +71,6 @@ nsISupports
 idl
 "
 interface
-nsICancelable
-;
-interface
 nsIVariant
 ;
 /
@@ -1214,7 +1211,7 @@ apply
 is
 called
 .
-nsICancelable
+void
 storeIncoming
 (
 in
@@ -1278,7 +1275,7 @@ successfully
 or
 none
 .
-nsICancelable
+void
 apply
 (
 in
@@ -1328,7 +1325,7 @@ called
 after
 apply
 .
-nsICancelable
+void
 setUploaded
 (
 in
@@ -1414,7 +1411,7 @@ once
 per
 sync
 .
-nsICancelable
+void
 syncFinished
 (
 in
