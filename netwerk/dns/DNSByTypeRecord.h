@@ -60,7 +60,7 @@ Nothing
 using
 TypeRecordTxt
 =
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -68,7 +68,7 @@ nsCString
 using
 TypeRecordHTTPSSVC
 =
-nsTArray
+CopyableTArray
 <
 SVCB
 >
