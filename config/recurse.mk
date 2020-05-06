@@ -1689,6 +1689,8 @@ OS_TARGET
 )
 )
 )
+ifndef
+MOZ_SYSTEM_NSS
 netwerk
 /
 test
@@ -1719,6 +1721,17 @@ ssl
 ssl_ssl3
 /
 target
+endif
+ifndef
+MOZ_SYSTEM_NSPR
+netwerk
+/
+test
+/
+http3server
+/
+target
+:
 config
 /
 external
@@ -1728,7 +1741,10 @@ nspr
 pr
 /
 target
+endif
 else
+ifndef
+MOZ_SYSTEM_NSS
 netwerk
 /
 test
@@ -1740,6 +1756,7 @@ target
 security
 /
 target
+endif
 endif
 #
 Most
