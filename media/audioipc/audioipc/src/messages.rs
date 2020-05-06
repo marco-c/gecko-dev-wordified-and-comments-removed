@@ -1087,6 +1087,10 @@ StreamGetLatency
 (
 usize
 )
+StreamGetInputLatency
+(
+usize
+)
 StreamSetVolume
 (
 usize
@@ -1190,6 +1194,10 @@ StreamPosition
 u64
 )
 StreamLatency
+(
+u32
+)
+StreamInputLatency
 (
 u32
 )
