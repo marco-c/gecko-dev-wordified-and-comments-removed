@@ -615,6 +615,10 @@ find
 lldb
 '
 ]
+                                
+universal_newlines
+=
+True
 )
 .
 strip
