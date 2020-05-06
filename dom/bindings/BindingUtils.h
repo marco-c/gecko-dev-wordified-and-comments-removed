@@ -3598,10 +3598,6 @@ JSObject
 >
 *
 protoCache
-const
-char
-*
-toStringTag
 JS
 :
 :
