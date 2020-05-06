@@ -5,11 +5,6 @@ newGlobal
 (
 )
 ;
-addIntlListFormat
-(
-g
-)
-;
 var
 locale
 =
