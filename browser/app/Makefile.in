@@ -521,7 +521,7 @@ MAC_BUNDLE_VERSION
 (
 shell
 (
-PYTHON
+PYTHON3
 )
 (
 srcdir

@@ -1534,7 +1534,7 @@ then
 if
 test
 "
-PYTHON
+PYTHON3
 -
 m
 mozbuild
@@ -1556,7 +1556,7 @@ ac_ext
 =
 \
 "
-PYTHON
+PYTHON3
 -
 m
 mozbuild
