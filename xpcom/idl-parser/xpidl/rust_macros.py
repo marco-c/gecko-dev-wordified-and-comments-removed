@@ -606,9 +606,11 @@ FILE
 IS
 GENERATED
 FROM
+SRCDIR
+/
 %
 (
-filename
+relpath
 )
 s
 /
@@ -621,7 +623,7 @@ print_rust_macros_bindings
 (
 idl
 fd
-filename
+relpath
 )
 :
     
@@ -642,10 +644,10 @@ header
 %
 {
 '
-filename
+relpath
 '
 :
-filename
+relpath
 }
 )
     
