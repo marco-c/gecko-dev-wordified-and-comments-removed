@@ -2350,7 +2350,8 @@ outdated
 '
 '
 -
-q
+-
+quiet
 '
 ]
                                          
