@@ -1115,6 +1115,10 @@ Point4DType
 clippedPoints
 (
 mPoints
+.
+Clone
+(
+)
 )
 ;
 size_t
@@ -1998,7 +2002,7 @@ w
 Point4DType
 mNormal
 ;
-nsTArray
+CopyableTArray
 <
 Point4DType
 >

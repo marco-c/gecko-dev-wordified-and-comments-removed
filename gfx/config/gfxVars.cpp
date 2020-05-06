@@ -117,6 +117,10 @@ GfxVarUpdate
 >
 (
 aInitUpdates
+.
+Clone
+(
+)
 )
 ;
 }

@@ -123,13 +123,13 @@ mozilla
 FontFamilyList
 fontlist
 ;
-nsTArray
+CopyableTArray
 <
 gfxFontFeature
 >
 fontFeatureSettings
 ;
-nsTArray
+CopyableTArray
 <
 gfxFontVariation
 >

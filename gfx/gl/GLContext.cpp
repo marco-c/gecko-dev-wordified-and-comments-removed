@@ -13589,6 +13589,10 @@ NamedResource
 copy
 (
 aArray
+.
+Clone
+(
+)
 )
 ;
 copy
