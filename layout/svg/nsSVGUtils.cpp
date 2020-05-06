@@ -1598,8 +1598,14 @@ nsLayoutUtils
 :
 GetTransformToAncestor
 (
+RelativeTo
+{
 aFrame
+}
+RelativeTo
+{
 outer
+}
 )
 ;
 float
