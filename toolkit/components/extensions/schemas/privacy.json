@@ -907,6 +907,9 @@ allow_visited
 "
 reject_trackers
 "
+"
+reject_trackers_and_partition_foreign
+"
 ]
 "
 description
