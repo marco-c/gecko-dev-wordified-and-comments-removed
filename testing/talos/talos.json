@@ -111,6 +111,9 @@ cpstartup
 startup_about_home_paint
 "
 "
+startup_about_home_paint_cached
+"
+"
 pdfpaint
 "
 ]
