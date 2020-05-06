@@ -752,8 +752,6 @@ const
 TimeStamp
 &
 aStartTime
-uint8_t
-aDocFrameCount
 )
 ;
 void
@@ -1103,16 +1101,6 @@ mStartTime
 ;
 VsyncId
 mStartId
-;
-uint8_t
-mDocFramesSeen
-=
-0
-;
-uint8_t
-mDocFramesTotal
-=
-0
 ;
 bool
 mFrameNeedsRender
