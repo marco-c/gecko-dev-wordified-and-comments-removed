@@ -174,6 +174,17 @@ version
 :
 str
 }
+        
+Required
+(
+"
+extra_options
+"
+)
+:
+[
+str
+]
     
 }
 )
@@ -1582,6 +1593,26 @@ suites
 suites
     
 }
+    
+for
+entry
+in
+suites
+:
+        
+entry
+[
+"
+extraOptions
+"
+]
+=
+jobs_json
+[
+"
+extra_options
+"
+]
     
 validate
 (
