@@ -712,6 +712,13 @@ platform
 debug
 :
 7200
+android
+.
+*
+/
+opt
+:
+7200
 default
 :
 3600
