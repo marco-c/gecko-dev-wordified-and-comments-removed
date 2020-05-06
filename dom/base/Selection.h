@@ -2360,6 +2360,11 @@ aRange
 )
 ;
 nsresult
+RemoveCollapsedRanges
+(
+)
+;
+nsresult
 RemoveRangeAndUnregisterSelection
 (
 nsRange
