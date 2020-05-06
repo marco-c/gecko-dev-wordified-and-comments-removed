@@ -16458,9 +16458,16 @@ enabled
 )
 {
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_NOT_IMPLEMENTED
+)
 ;
 }
 get

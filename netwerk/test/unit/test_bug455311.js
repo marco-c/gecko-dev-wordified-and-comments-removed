@@ -283,9 +283,16 @@ spec
 )
 ;
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_ABORT
+)
 ;
 }
 }

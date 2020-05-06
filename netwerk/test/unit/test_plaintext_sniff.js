@@ -789,9 +789,16 @@ e
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_ABORT
+)
 ;
 }
 onDataAvailable

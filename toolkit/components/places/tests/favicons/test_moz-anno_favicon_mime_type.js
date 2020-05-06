@@ -1041,9 +1041,16 @@ NS_ERROR_ABORT
 )
 ;
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_ABORT
+)
 ;
 }
 }

@@ -392,9 +392,16 @@ clone
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_FAILURE
+)
 ;
 }
 QueryInterface

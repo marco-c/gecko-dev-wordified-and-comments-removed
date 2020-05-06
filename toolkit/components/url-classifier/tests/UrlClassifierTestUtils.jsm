@@ -1118,9 +1118,16 @@ listener
 ;
 }
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_NO_INTERFACE
+)
 ;
 }
 updateUrlRequested

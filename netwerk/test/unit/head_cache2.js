@@ -1509,9 +1509,16 @@ entry
 )
 ;
 throw
+Components
+.
+Exception
+(
+"
+"
 Cr
 .
 NS_ERROR_FAILURE
+)
 ;
 }
 }
