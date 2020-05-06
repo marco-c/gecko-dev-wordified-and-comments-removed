@@ -6115,10 +6115,6 @@ s
 host
 .
 alias
-add_old_configure_arg
-(
-host_for_sub_configure
-)
 depends
 (
 target
@@ -6170,10 +6166,6 @@ s
 '
 %
 target_alias
-add_old_configure_arg
-(
-target_for_sub_configure
-)
 depends
 (
 target
