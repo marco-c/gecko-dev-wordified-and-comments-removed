@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 globalArrayBuffer
-'
+"
 (
 function
 (
@@ -45,9 +45,7 @@ data
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -89,9 +87,7 @@ defaultGarbagePerFrame
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -147,10 +143,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

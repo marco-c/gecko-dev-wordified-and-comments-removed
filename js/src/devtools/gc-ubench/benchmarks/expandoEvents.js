@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 expandoEvents
-'
+"
 (
 function
 (
@@ -41,9 +41,7 @@ textNode
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -85,9 +83,7 @@ defaultGarbageTotal
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -172,10 +168,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

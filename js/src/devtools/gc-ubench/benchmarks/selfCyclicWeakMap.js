@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 selfCyclicWeakMap
-'
+"
 (
 function
 (
@@ -66,9 +66,7 @@ defaultGarbageTotal
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -100,9 +98,7 @@ garbageIndex
 }
 makeGarbage
 :
-(
 M
-)
 =
 >
 {
@@ -186,10 +182,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

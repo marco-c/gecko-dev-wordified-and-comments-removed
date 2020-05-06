@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 globalArrayLargeObject
-'
+"
 (
 function
 (
@@ -43,9 +43,7 @@ slots
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -87,9 +85,7 @@ defaultGarbagePerFrame
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -145,10 +141,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

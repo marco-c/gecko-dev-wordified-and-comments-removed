@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 globalArrayFgFinalized
-'
+"
 (
 function
 (
@@ -49,9 +49,7 @@ finalized
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -93,9 +91,7 @@ defaultGarbagePerFrame
 "
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -127,6 +123,8 @@ push
 (
 new
 Map
+(
+)
 )
 ;
 }
@@ -148,10 +146,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

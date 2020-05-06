@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 pairCyclicWeakMap
-'
+"
 (
 function
 (
@@ -70,9 +70,7 @@ defaultGarbageTotal
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -104,9 +102,7 @@ garbageIndex
 }
 makeGarbage
 :
-(
 M
-)
 =
 >
 {
@@ -218,10 +214,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

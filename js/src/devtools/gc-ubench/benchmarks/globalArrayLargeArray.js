@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 globalArrayLargeArray
-'
+"
 (
 function
 (
@@ -45,9 +45,7 @@ foo
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -79,9 +77,7 @@ garbageIndex
 }
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
@@ -138,10 +134,12 @@ garbage
 .
 length
 )
+{
 garbageIndex
 =
 0
 ;
+}
 }
 }
 ;

@@ -4,9 +4,9 @@ tests
 .
 set
 (
-'
+"
 noAllocation
-'
+"
 {
 description
 :
@@ -20,9 +20,7 @@ garbage
 "
 load
 :
-(
 N
-)
 =
 >
 {
@@ -37,9 +35,7 @@ unload
 }
 makeGarbage
 :
-(
 N
-)
 =
 >
 {
