@@ -9806,6 +9806,11 @@ LIBS
 "
 _SAVE_LIBS
 "
+CFLAGS
+=
+"
+_SAVE_CFLAGS
+"
 break
 ac_cv_clock_monotonic
 =
