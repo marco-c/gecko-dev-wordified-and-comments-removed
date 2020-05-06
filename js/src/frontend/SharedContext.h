@@ -2262,7 +2262,7 @@ function
 )
 -
 >
-initLazyScript
+initScript
 (
 script
 )
