@@ -62,6 +62,11 @@ TestDLLBlocklist
 .
 cpp
 '
+'
+TestNativeNtGTest
+.
+cpp
+'
 ]
 FINAL_LIBRARY
 =
