@@ -919,14 +919,32 @@ mozproxy_replay
                     
 u
 '
+summarize
+-
+values
+'
+:
+False
+                    
+u
+'
+suite
+-
+suffix
+-
+type
+'
+:
+False
+                    
+u
+'
 type
 '
 :
 u
 '
 mozproxy
--
-replay
 '
                     
 u
