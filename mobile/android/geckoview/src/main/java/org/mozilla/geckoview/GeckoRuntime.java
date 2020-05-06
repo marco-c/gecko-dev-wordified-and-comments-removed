@@ -2256,7 +2256,6 @@ return
 mContentBlockingController
 ;
 }
-Deprecated
 UiThread
 public
 NonNull
@@ -2389,7 +2388,6 @@ return
 result
 ;
 }
-Deprecated
 UiThread
 public
 NonNull

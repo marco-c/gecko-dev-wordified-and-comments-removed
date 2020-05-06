@@ -41,9 +41,6 @@ enum
 "
 geckoViewAddons
 "
-"
-nativeMessagingFromContent
-"
 ]
 }
 ]
