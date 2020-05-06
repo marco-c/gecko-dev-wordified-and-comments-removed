@@ -717,6 +717,16 @@ callback
 (
 window
 .
+XRLayer
+'
+XRLayer
+'
+)
+;
+callback
+(
+window
+.
 XRView
 '
 XRView
