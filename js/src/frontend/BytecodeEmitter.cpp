@@ -44230,7 +44230,7 @@ if
 funbox
 -
 >
-hasThisBinding
+functionHasThisBinding
 (
 )
 )

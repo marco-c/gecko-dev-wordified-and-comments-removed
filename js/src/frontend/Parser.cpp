@@ -33884,7 +33884,7 @@ numFields
 ctorbox
 -
 >
-setHasThisBinding
+setFunctionHasThisBinding
 (
 )
 ;
@@ -43976,7 +43976,7 @@ functionBox
 )
 -
 >
-setHasExtensibleScope
+setFunHasExtensibleScope
 (
 )
 ;
