@@ -628,7 +628,7 @@ shared
 true
 transpile
 :
-true
+false
 custom_writer
 :
 true
@@ -988,7 +988,7 @@ shared
 false
 transpile
 :
-true
+false
 args
 :
 str
@@ -1834,7 +1834,7 @@ shared
 false
 transpile
 :
-true
+false
 args
 :
 obj
@@ -1855,7 +1855,7 @@ shared
 false
 transpile
 :
-true
+false
 args
 :
 obj
@@ -3992,7 +3992,7 @@ shared
 false
 transpile
 :
-true
+false
 args
 :
 op
@@ -4013,7 +4013,7 @@ shared
 true
 transpile
 :
-true
+false
 args
 :
 op
@@ -4076,7 +4076,7 @@ shared
 true
 transpile
 :
-true
+false
 args
 :
 op

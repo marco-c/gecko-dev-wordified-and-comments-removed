@@ -9189,9 +9189,6 @@ Bailout_NonSharedTypedArrayInput
 case
 Bailout_Debugger
 :
-case
-Bailout_SpecificAtomGuard
-:
 break
 ;
 case

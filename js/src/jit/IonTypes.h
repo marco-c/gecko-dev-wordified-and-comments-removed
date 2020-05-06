@@ -231,7 +231,6 @@ Bailout_Hole
 Bailout_NegativeIndex
 Bailout_NonIntegerIndex
 Bailout_ObjectIdentityOrTypeGuard
-Bailout_SpecificAtomGuard
 Bailout_NonInt32Input
 Bailout_NonNumericInput
 Bailout_NonBooleanInput
@@ -250,7 +249,6 @@ Bailout_ShapeGuard
 Bailout_ValueGuard
 Bailout_UninitializedLexical
 Bailout_IonExceptionDebugMode
-Bailout_Limit
 }
 ;
 inline
@@ -397,14 +395,6 @@ Bailout_ObjectIdentityOrTypeGuard
 "
 ;
 case
-Bailout_SpecificAtomGuard
-:
-return
-"
-Bailout_SpecifcAtomGuard
-"
-;
-case
 Bailout_NonInt32Input
 :
 return
@@ -548,12 +538,8 @@ return
 Bailout_IonExceptionDebugMode
 "
 ;
-case
-Bailout_Limit
+default
 :
-break
-;
-}
 MOZ_CRASH
 (
 "
@@ -562,6 +548,7 @@ BailoutKind
 "
 )
 ;
+}
 }
 static
 const
