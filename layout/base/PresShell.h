@@ -2277,11 +2277,6 @@ return
 mResolutionUpdatedByApz
 ;
 }
-float
-GetCumulativeNonRootScaleResolution
-(
-)
-;
 void
 SetRestoreResolution
 (
