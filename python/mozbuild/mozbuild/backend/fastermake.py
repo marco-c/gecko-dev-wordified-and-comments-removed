@@ -1188,10 +1188,6 @@ in
 (
             
 '
-PYTHON
-'
-            
-'
 PYTHON3
 '
             

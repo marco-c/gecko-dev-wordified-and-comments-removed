@@ -55,7 +55,7 @@ buildconfig
 substs
 [
 '
-PYTHON
+PYTHON3
 '
 ]
                                           
