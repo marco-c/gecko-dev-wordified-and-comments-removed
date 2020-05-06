@@ -598,6 +598,10 @@ aItem
 GetDestRects
 (
 )
+.
+Clone
+(
+)
 )
 {
 }

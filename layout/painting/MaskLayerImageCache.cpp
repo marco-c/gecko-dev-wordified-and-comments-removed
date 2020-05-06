@@ -257,6 +257,10 @@ mRoundedClipRects
 aKey
 .
 mRoundedClipRects
+.
+Clone
+(
+)
 )
 mLayerCount
 (

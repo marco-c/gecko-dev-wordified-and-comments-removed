@@ -1466,7 +1466,7 @@ Frame
 return
 ;
 }
-AutoTArray
+CopyableAutoTArray
 <
 nsIFrame
 *
@@ -25333,6 +25333,10 @@ mLayer
 -
 >
 GetAllAncestorMaskLayers
+(
+)
+.
+Clone
 (
 )
 )
