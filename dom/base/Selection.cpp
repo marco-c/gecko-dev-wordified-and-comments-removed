@@ -14825,7 +14825,7 @@ GetDocument
 ;
 }
 const
-AutoTArray
+CopyableAutoTArray
 <
 nsCOMPtr
 <
@@ -14834,9 +14834,8 @@ nsISelectionListener
 5
 >
 selectionListeners
-(
+=
 mSelectionListeners
-)
 ;
 int16_t
 reason

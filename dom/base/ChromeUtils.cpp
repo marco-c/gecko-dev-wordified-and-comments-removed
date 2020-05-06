@@ -4572,6 +4572,7 @@ GetAll
 [
 &
 promises
+&
 contentParents
 ]
 (

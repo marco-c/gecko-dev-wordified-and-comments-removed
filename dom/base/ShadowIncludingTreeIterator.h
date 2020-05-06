@@ -317,7 +317,7 @@ nsINode
 *
 mCurrent
 ;
-AutoTArray
+CopyableAutoTArray
 <
 nsINode
 *

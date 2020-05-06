@@ -4110,6 +4110,10 @@ const
 aAdoptedStyleSheets
 =
 mAdoptedStyleSheets
+.
+Clone
+(
+)
 ;
 }
 void
