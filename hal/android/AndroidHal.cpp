@@ -98,8 +98,8 @@ uint32_t
 >
 &
 pattern
-const
 WindowIdentifier
+&
 &
 )
 {
@@ -197,8 +197,8 @@ pattern
 void
 CancelVibrate
 (
-const
 WindowIdentifier
+&
 &
 )
 {
