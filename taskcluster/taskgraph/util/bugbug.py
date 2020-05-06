@@ -49,12 +49,12 @@ com
 "
 RETRY_TIMEOUT
 =
-4
+8
 *
 60
 RETRY_INTERVAL
 =
-5
+10
 CT_LOW
 =
 0
