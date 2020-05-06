@@ -5967,7 +5967,7 @@ UndefinedValue
 )
 ;
 RootedModuleEnvironmentObject
-scope
+env
 (
 cx
 self
@@ -5981,7 +5981,7 @@ environment
 if
 (
 !
-scope
+env
 )
 {
 JS_ReportErrorASCII
@@ -6007,13 +6007,8 @@ Execute
 (
 cx
 script
-*
-scope
+env
 rval
-.
-address
-(
-)
 )
 ;
 }

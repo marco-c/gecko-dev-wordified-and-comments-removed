@@ -222,9 +222,7 @@ HandleScript
 script
 AbstractFramePtr
 evalInFramePrev
-const
-Value
-&
+HandleValue
 newTargetValue
 HandleObject
 envChain
@@ -2512,9 +2510,7 @@ JSContext
 cx
 HandleScript
 script
-const
-Value
-&
+HandleValue
 newTargetValue
 HandleObject
 envChain
