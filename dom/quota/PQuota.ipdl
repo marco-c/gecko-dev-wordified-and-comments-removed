@@ -180,6 +180,11 @@ namespace
 quota
 {
 struct
+StorageNameParams
+{
+}
+;
+struct
 StorageInitializedParams
 {
 }
@@ -333,6 +338,8 @@ ListOriginsParams
 union
 RequestParams
 {
+StorageNameParams
+;
 StorageInitializedParams
 ;
 TemporaryStorageInitializedParams

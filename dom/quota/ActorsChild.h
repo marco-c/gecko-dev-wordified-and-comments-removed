@@ -376,6 +376,15 @@ void
 HandleResponse
 (
 const
+nsAString
+&
+aResponse
+)
+;
+void
+HandleResponse
+(
+const
 EstimateResponse
 &
 aResponse

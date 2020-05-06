@@ -45,6 +45,14 @@ nsISupports
 must_use
 ]
 nsIQuotaRequest
+storageName
+(
+)
+;
+[
+must_use
+]
+nsIQuotaRequest
 storageInitialized
 (
 )
