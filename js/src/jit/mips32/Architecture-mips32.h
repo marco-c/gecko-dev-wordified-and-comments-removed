@@ -760,6 +760,16 @@ FloatRegisters
 invalid_freg
 ;
 }
+bool
+isSimd128
+(
+)
+const
+{
+return
+false
+;
+}
 FloatRegister
 doubleOverlay
 (

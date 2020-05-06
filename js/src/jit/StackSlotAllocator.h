@@ -103,11 +103,6 @@ allocateQuadSlot
 (
 )
 {
-MOZ_ASSERT
-(
-SupportsSimd
-)
-;
 if
 (
 height_

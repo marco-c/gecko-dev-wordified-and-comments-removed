@@ -853,13 +853,6 @@ Value
 ;
 static
 constexpr
-bool
-SupportsSimd
-=
-false
-;
-static
-constexpr
 uint32_t
 SimdMemoryAlignment
 =

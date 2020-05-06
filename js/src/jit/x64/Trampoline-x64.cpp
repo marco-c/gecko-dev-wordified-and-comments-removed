@@ -1726,13 +1726,9 @@ MacroAssembler
 masm
 )
 {
-if
-(
-JitSupportsSimd
-(
-)
-)
-{
+#
+ifdef
+ENABLE_WASM_SIMD
 masm
 .
 PushRegsInMask
@@ -1740,9 +1736,8 @@ PushRegsInMask
 AllRegs
 )
 ;
-}
+#
 else
-{
 for
 (
 GeneralRegisterBackwardIterator
@@ -1837,7 +1832,8 @@ spillAddress
 )
 ;
 }
-}
+#
+endif
 }
 void
 JitRuntime

@@ -195,6 +195,14 @@ JSContext
 cx
 )
 ;
+bool
+SimdAvailable
+(
+JSContext
+*
+cx
+)
+;
 MOZ_MUST_USE
 bool
 Eval
