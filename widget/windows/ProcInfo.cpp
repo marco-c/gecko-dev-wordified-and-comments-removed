@@ -357,10 +357,6 @@ pid
 int32_t
 childId
 const
-nsString
-&
-origin
-const
 ProcType
 &
 type
@@ -444,12 +440,6 @@ return
 promise
 ;
 }
-nsString
-originCopy
-(
-origin
-)
-;
 RefPtr
 <
 nsIRunnable
@@ -641,12 +631,6 @@ info
 type
 =
 type
-;
-info
-.
-origin
-=
-originCopy
 ;
 info
 .
