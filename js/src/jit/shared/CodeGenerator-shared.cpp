@@ -429,15 +429,6 @@ ENABLE_WASM_SIMD
 #
 ifdef
 JS_CODEGEN_X64
-MOZ_CRASH
-(
-"
-FIXME
-for
-SIMD
-"
-)
-;
 #
 else
 #
