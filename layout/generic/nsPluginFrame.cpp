@@ -1795,6 +1795,10 @@ configuration
 mClipRegion
 =
 mNextConfigurationClipRegion
+.
+Clone
+(
+)
 ;
 #
 if
