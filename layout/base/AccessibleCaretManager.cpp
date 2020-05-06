@@ -2595,7 +2595,10 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+RelativeTo
+{
 rootFrame
+}
 aPoint
 GetHitTestOptions
 (
@@ -5727,7 +5730,10 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+RelativeTo
+{
 rootFrame
+}
 point
 GetHitTestOptions
 (

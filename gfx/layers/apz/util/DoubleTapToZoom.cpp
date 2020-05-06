@@ -161,7 +161,14 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+RelativeTo
+{
 rootFrame
+ViewportType
+:
+:
+Visual
+}
 CSSPoint
 :
 :

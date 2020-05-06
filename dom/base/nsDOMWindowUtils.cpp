@@ -6230,7 +6230,10 @@ aX
 aY
 aIgnoreRootScrollFrame
 aFlushLayout
-false
+ViewportType
+:
+:
+Layout
 )
 ;
 el
@@ -16329,7 +16332,10 @@ nsLayoutUtils
 :
 GetFrameForPoint
 (
+RelativeTo
+{
 rootFrame
+}
 ptInRoot
 )
 ;

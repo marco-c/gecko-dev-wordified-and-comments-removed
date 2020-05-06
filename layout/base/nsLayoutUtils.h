@@ -2097,7 +2097,6 @@ IgnorePaintSuppression
 IgnoreRootScrollFrame
 IgnoreCrossDoc
 OnlyVisible
-IsRelativeToLayoutViewport
 }
 ;
 static
@@ -2105,10 +2104,8 @@ nsIFrame
 *
 GetFrameForPoint
 (
-const
-nsIFrame
-*
-aFrame
+RelativeTo
+aRelativeTo
 nsPoint
 aPt
 mozilla
@@ -2127,10 +2124,8 @@ static
 nsresult
 GetFramesForArea
 (
-const
-nsIFrame
-*
-aFrame
+RelativeTo
+aRelativeTo
 const
 nsRect
 &
