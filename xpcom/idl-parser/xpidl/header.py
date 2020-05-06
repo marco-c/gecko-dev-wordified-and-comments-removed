@@ -1229,11 +1229,9 @@ FILE
 IS
 GENERATED
 FROM
-SRCDIR
-/
 %
 (
-relpath
+filename
 )
 s
  
@@ -1482,7 +1480,6 @@ print_header
 idl
 fd
 filename
-relpath
 )
 :
     
@@ -1494,10 +1491,10 @@ header
 %
 {
 '
-relpath
+filename
 '
 :
-relpath
+filename
                        
 '
 basename
