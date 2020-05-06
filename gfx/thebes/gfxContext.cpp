@@ -2458,9 +2458,11 @@ count
 !
 dashes
 .
-SetLength
+Assign
 (
-count
+state
+.
+dashPattern
 fallible
 )
 )
@@ -2469,12 +2471,6 @@ return
 false
 ;
 }
-dashes
-=
-state
-.
-dashPattern
-;
 *
 offset
 =

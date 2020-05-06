@@ -1371,13 +1371,13 @@ transform
 ;
 }
 ;
-nsTArray
+CopyableTArray
 <
 PushedClip
 >
 pushedClips
 ;
-nsTArray
+CopyableTArray
 <
 Float
 >

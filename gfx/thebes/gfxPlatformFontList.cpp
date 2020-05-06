@@ -2353,7 +2353,13 @@ return
 }
 aFamilies
 =
+std
+:
+:
+move
+(
 accepted
+)
 ;
 }
 bool
@@ -6893,6 +6899,7 @@ AddOtherFamilyName
 gfxFontFamily
 *
 aFamilyEntry
+const
 nsCString
 &
 aOtherFamilyName

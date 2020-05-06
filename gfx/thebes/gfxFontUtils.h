@@ -1996,13 +1996,13 @@ gfxSparseBitSet
 Block
 >
 ;
-nsTArray
+CopyableTArray
 <
 uint16_t
 >
 mBlockIndex
 ;
-nsTArray
+CopyableTArray
 <
 Block
 >

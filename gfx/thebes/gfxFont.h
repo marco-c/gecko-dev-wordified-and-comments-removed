@@ -399,7 +399,7 @@ nsAtom
 >
 language
 ;
-nsTArray
+CopyableTArray
 <
 gfxFontFeature
 >
@@ -417,7 +417,7 @@ gfxFontFeatureValueSet
 >
 featureValueLookup
 ;
-nsTArray
+CopyableTArray
 <
 gfxFontVariation
 >
