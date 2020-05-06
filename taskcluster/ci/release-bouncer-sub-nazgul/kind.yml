@@ -206,7 +206,7 @@ kind
 test
 tier
 :
-3
+1
 jobs
 :
 devedition
@@ -402,6 +402,9 @@ installer
 '
 msi
 '
+'
+pkg
+'
 ]
 esr68
 :
@@ -426,6 +429,9 @@ mar
 '
 '
 msi
+'
+'
+pkg
 '
 ]
 shipping

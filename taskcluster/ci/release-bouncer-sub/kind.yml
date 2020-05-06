@@ -398,6 +398,9 @@ installer
 '
 msi
 '
+'
+pkg
+'
 ]
 esr68
 :
@@ -422,6 +425,9 @@ mar
 '
 '
 msi
+'
+'
+pkg
 '
 ]
 shipping
