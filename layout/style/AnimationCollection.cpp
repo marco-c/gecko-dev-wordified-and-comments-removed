@@ -33,7 +33,11 @@ h
 #
 include
 "
-nsTransitionManager
+mozilla
+/
+dom
+/
+CSSTransition
 .
 h
 "

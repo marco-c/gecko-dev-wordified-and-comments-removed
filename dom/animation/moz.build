@@ -72,6 +72,11 @@ CSSPseudoElement
 h
 '
 '
+CSSTransition
+.
+h
+'
+'
 DocumentTimeline
 .
 h
@@ -215,6 +220,11 @@ cpp
 '
 '
 CSSPseudoElement
+.
+cpp
+'
+'
+CSSTransition
 .
 cpp
 '
