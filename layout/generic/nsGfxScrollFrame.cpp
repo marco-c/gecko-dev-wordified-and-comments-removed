@@ -16706,11 +16706,10 @@ mOuter
 ;
 if
 (
-!
 aBuilder
 -
 >
-IsPaintingToWindow
+IsRelativeToLayoutViewport
 (
 )
 &
