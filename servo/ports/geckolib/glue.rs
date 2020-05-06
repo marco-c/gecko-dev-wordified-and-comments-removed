@@ -32945,6 +32945,7 @@ Gecko_AppendPropertyValuePair
 (
 &
 mut
+*
 (
 *
 keyframe
@@ -33335,6 +33336,7 @@ Gecko_AppendPropertyValuePair
 (
 &
 mut
+*
 (
 *
 keyframe
@@ -33527,6 +33529,7 @@ Gecko_AppendPropertyValuePair
 (
 &
 mut
+*
 (
 *
 keyframe
@@ -33635,6 +33638,7 @@ Gecko_AppendPropertyValuePair
 (
 &
 mut
+*
 (
 *
 keyframe

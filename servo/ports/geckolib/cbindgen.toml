@@ -1047,6 +1047,13 @@ nsString
 nsString
 "
 "
+CopyableTArray
+"
+=
+"
+CopyableTArray
+"
+"
 nsTArray
 "
 =
