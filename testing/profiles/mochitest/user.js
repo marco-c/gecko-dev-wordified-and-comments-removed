@@ -12,3 +12,15 @@ laxByDefault
 false
 )
 ;
+user_pref
+(
+"
+network
+.
+cookie
+.
+cookieBehavior
+"
+4
+)
+;
