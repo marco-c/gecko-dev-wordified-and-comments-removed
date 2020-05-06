@@ -1571,7 +1571,7 @@ add_commands
                         
 '
 (
-PYTHON
+PYTHON3
 )
 -
 m
