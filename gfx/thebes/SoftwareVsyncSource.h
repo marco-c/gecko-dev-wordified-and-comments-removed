@@ -70,10 +70,6 @@ VsyncSource
 :
 Display
 {
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-SoftwareDisplay
-)
 public
 :
 SoftwareDisplay
@@ -139,14 +135,14 @@ Shutdown
 )
 override
 ;
-private
-:
 virtual
 ~
 SoftwareDisplay
 (
 )
 ;
+private
+:
 mozilla
 :
 :
