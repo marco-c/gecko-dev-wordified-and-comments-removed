@@ -113,7 +113,9 @@ querySelector
 .
 js
 -
-manifest
+service
+-
+workers
 -
 page
 "
@@ -128,7 +130,8 @@ ok
 (
 true
 "
-Manifest
+Service
+Workers
 page
 was
 loaded
