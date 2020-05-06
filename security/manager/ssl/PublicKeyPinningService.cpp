@@ -1138,7 +1138,13 @@ evalHost
 ;
 dynamicFingerprints
 =
+std
+:
+:
+move
+(
 pinArray
+)
 ;
 return
 NS_OK
