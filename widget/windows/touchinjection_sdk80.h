@@ -33,9 +33,6 @@ PT_PEN
 PT_MOUSE
 =
 0x00000004
-PT_TOUCHPAD
-=
-0x00000005
 }
 ;
 typedef

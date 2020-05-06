@@ -483,16 +483,6 @@ SOURCES
 =
 [
 '
-DirectManipulationOwner
-.
-cpp
-'
-]
-SOURCES
-+
-=
-[
-'
 InputDeviceUtils
 .
 cpp
