@@ -477,6 +477,7 @@ dict
 raise
 NotImplementedError
 (
+                    
 "
 Subtest
 -
@@ -487,6 +488,7 @@ not
 implemented
 yet
 "
+                
 )
             
 self
@@ -589,12 +591,14 @@ res
 .
 get
 (
+                    
 "
 transformer
 "
 "
 SingleJsonRetriever
 "
+                
 )
             
 elif
@@ -971,19 +975,16 @@ filtered_metrics
 (
         
 self
-        
 group_name
 =
 "
 firefox
 "
-        
 transformer
 =
 "
 SingleJsonRetriever
 "
-        
 metrics
 =
 None

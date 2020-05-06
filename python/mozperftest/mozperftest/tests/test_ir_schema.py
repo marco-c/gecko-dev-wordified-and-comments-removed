@@ -25,7 +25,6 @@ test_results_with_directory
 test_result
 =
 {
-        
 "
 results
 "
@@ -37,7 +36,6 @@ to
 -
 results
 "
-        
 "
 name
 "
@@ -47,7 +45,6 @@ the
 -
 name
 "
-    
 }
     
 validate_intermediate_results

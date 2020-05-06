@@ -310,11 +310,8 @@ filtered_metrics
 (
             
 metadata
-            
 output
-            
 prefix
-            
 metrics
 =
 self
@@ -325,7 +322,6 @@ get_arg
 metrics
 "
 )
-            
 settings
 =
 True
@@ -389,12 +385,14 @@ res
 vals
 =
 [
+                    
 v
 [
 "
 value
 "
 ]
+                    
 for
 v
 in
@@ -404,6 +402,7 @@ r
 data
 "
 ]
+                    
 if
 isinstance
 (
@@ -418,6 +417,7 @@ int
 float
 )
 )
+                
 ]
                 
 if
@@ -1496,8 +1496,8 @@ data
 was
 provided
 "
-+
                 
++
 "
 only
 int
