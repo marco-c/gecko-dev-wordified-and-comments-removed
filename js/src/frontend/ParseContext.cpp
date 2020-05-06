@@ -2860,6 +2860,11 @@ varScope
 )
 ;
 bool
+usesArguments
+=
+false
+;
+bool
 hasExtraBodyVarScope
 =
 &
@@ -2961,9 +2966,6 @@ true
 }
 else
 {
-funbox
--
->
 usesArguments
 =
 true
@@ -3023,9 +3025,6 @@ setDeclaredArguments
 (
 )
 ;
-funbox
--
->
 usesArguments
 =
 true
@@ -3044,9 +3043,6 @@ true
 }
 if
 (
-funbox
--
->
 usesArguments
 )
 {
