@@ -433,7 +433,7 @@ private
 :
 static
 bool
-IsUserSelectionNotCollapsed
+IsUserSelectionCollapsed
 (
 const
 nsRange
