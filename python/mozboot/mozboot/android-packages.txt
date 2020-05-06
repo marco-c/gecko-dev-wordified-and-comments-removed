@@ -16,4 +16,3 @@ android
 -
 29
 emulator
-docs
