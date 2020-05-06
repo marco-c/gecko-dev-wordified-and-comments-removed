@@ -75,7 +75,6 @@ InternalHeaders
 :
 InternalHeaders
 (
-const
 nsTArray
 <
 Entry
@@ -93,7 +92,13 @@ aGuard
 )
 mList
 (
+std
+:
+:
+move
+(
 aHeaders
+)
 )
 mListDirty
 (

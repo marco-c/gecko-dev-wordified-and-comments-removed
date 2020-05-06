@@ -216,7 +216,6 @@ mGuard
 explicit
 InternalHeaders
 (
-const
 nsTArray
 <
 Entry

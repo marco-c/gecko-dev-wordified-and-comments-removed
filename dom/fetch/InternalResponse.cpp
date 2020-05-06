@@ -1906,6 +1906,10 @@ response
 mURLList
 =
 mURLList
+.
+Clone
+(
+)
 ;
 return
 response
@@ -1952,6 +1956,10 @@ copy
 mURLList
 =
 mURLList
+.
+Clone
+(
+)
 ;
 copy
 -
