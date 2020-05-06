@@ -236,7 +236,7 @@ topsrcdir
 &
 &
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -266,7 +266,7 @@ RUN_TEST_PROGRAM
 )
 )
 (
-PYTHON
+PYTHON3
 )
 -
 u
@@ -345,7 +345,7 @@ RUN_TEST_PROGRAM
 )
 )
 (
-PYTHON
+PYTHON3
 )
 -
 u

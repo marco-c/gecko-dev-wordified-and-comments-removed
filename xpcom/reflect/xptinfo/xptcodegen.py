@@ -2971,7 +2971,7 @@ off
 in
 strings
 .
-iteritems
+items
 (
 )
 :

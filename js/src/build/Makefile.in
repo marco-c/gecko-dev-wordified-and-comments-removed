@@ -105,7 +105,7 @@ vanilla
 allocations
 :
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
@@ -156,7 +156,7 @@ allocations
 aggressive
 :
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir

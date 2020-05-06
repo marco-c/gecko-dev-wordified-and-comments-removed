@@ -782,7 +782,7 @@ touch
 PYTHON_PATH
 =
 (
-PYTHON
+PYTHON3
 )
 (
 topsrcdir
