@@ -42,6 +42,15 @@ videoadapter
 .
 h
 "
+#
+include
+"
+call
+/
+video_config
+.
+h
+"
 namespace
 mozilla
 {

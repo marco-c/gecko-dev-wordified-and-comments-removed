@@ -35,6 +35,13 @@ h
 #
 include
 "
+WebrtcGmpVideoCodec
+.
+h
+"
+#
+include
+"
 common_video
 /
 include
