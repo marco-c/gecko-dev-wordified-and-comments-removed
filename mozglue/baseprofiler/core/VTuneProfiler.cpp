@@ -1,14 +1,4 @@
 #
-include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
 ifdef
 XP_WIN
 #
@@ -31,6 +21,13 @@ include
 <
 memory
 >
+#
+include
+"
+BaseProfiler
+.
+h
+"
 namespace
 mozilla
 {
@@ -94,5 +91,3 @@ aName
 }
 }
 }
-#
-endif

@@ -1,15 +1,5 @@
 #
 include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
 <
 stdint
 .
@@ -10522,5 +10512,3 @@ buf
 ;
 }
 }
-#
-endif

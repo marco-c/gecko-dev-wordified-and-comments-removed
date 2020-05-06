@@ -1,16 +1,6 @@
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 BaseProfilerSharedLibraries
 .
 h
@@ -4130,5 +4120,3 @@ Initialize
 )
 {
 }
-#
-endif

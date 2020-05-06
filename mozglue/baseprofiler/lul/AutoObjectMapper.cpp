@@ -1,15 +1,5 @@
 #
 include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
 <
 sys
 /
@@ -64,6 +54,13 @@ include
 mozilla
 /
 Sprintf
+.
+h
+"
+#
+include
+"
+BaseProfiler
 .
 h
 "
@@ -744,7 +741,5 @@ return
 false
 ;
 }
-#
-endif
 #
 endif

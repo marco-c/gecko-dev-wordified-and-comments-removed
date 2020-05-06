@@ -1,16 +1,6 @@
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 BaseProfilingCategory
 .
 h
@@ -30,6 +20,13 @@ include
 mozilla
 /
 Assertions
+.
+h
+"
+#
+include
+"
+BaseProfiler
 .
 h
 "
@@ -224,5 +221,3 @@ categoryPairIndex
 }
 }
 }
-#
-endif

@@ -1,17 +1,14 @@
 #
 include
 "
-BaseProfiler
+ProfiledThreadData
 .
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
-ProfiledThreadData
+BaseProfiler
 .
 h
 "
@@ -767,5 +764,3 @@ EndObject
 }
 }
 }
-#
-endif

@@ -1,15 +1,5 @@
 #
 include
-"
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
 <
 errno
 .
@@ -4575,5 +4565,3 @@ buffer_idx
 ;
 }
 }
-#
-endif

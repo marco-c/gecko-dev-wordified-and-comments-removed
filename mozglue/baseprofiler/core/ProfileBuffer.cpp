@@ -1,16 +1,6 @@
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 ProfileBuffer
 .
 h
@@ -21,6 +11,13 @@ include
 mozilla
 /
 MathAlgorithms
+.
+h
+"
+#
+include
+"
+BaseProfiler
 .
 h
 "
@@ -976,5 +973,3 @@ categoryPair
 }
 }
 }
-#
-endif

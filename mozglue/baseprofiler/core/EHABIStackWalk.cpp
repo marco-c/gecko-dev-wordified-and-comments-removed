@@ -6,9 +6,6 @@ BaseProfiler
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
 EHABIStackWalk
@@ -3414,5 +3411,3 @@ endif
 }
 }
 }
-#
-endif

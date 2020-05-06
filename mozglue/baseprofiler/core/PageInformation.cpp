@@ -1,17 +1,14 @@
 #
 include
 "
-BaseProfiler
+PageInformation
 .
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
-PageInformation
+BaseProfiler
 .
 h
 "
@@ -193,5 +190,3 @@ this
 }
 }
 }
-#
-endif

@@ -1,16 +1,6 @@
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 LulCommonExt
 .
 h
@@ -39,6 +29,13 @@ include
 <
 map
 >
+#
+include
+"
+BaseProfiler
+.
+h
+"
 namespace
 lul
 {
@@ -328,5 +325,3 @@ second
 }
 }
 }
-#
-endif

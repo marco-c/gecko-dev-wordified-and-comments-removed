@@ -1,16 +1,6 @@
 #
 include
 "
-BaseProfiler
-.
-h
-"
-#
-ifdef
-MOZ_GECKO_PROFILER
-#
-include
-"
 BaseProfileJSONWriter
 .
 h
@@ -21,6 +11,13 @@ include
 mozilla
 /
 HashFunctions
+.
+h
+"
+#
+include
+"
+BaseProfiler
 .
 h
 "
@@ -827,5 +824,3 @@ true
 }
 }
 }
-#
-endif

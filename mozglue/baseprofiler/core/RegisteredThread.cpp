@@ -1,17 +1,14 @@
 #
 include
 "
-BaseProfiler
+RegisteredThread
 .
 h
 "
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
 include
 "
-RegisteredThread
+BaseProfiler
 .
 h
 "
@@ -121,5 +118,3 @@ n
 }
 }
 }
-#
-endif
