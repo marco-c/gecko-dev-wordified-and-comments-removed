@@ -11,7 +11,7 @@ toml
 "
 :
 "
-bad54ddc22173d3bcb894ccac64092fe7318d6dd430815f9b9723cee335b49d7
+2e062a21894df50c23cbe4d8ecec92bc7fcd84a71760b034f8052b4dd2dffce3
 "
 "
 LICENSE
@@ -38,7 +38,7 @@ md
 "
 :
 "
-df073e581e30a7ebdc09b49a2943dc7b6d51ca865607fe46b8dcc91583bc50d8
+7b08962c6e08aa32089a76af7ba08553fbba42be7efae2e8f935baa7e34394ca
 "
 "
 appveyor
@@ -58,7 +58,7 @@ rs
 "
 :
 "
-c2cee14a0355256beb55a1feb54ccdcc50c8ab2d9abb3b7f114be00ed8a5583f
+db036a55fc797eab8d5f55caecd49aab960221bbad5f24c903fae28194e19e0e
 "
 "
 src
@@ -69,7 +69,7 @@ rs
 "
 :
 "
-6a950385c8ac24f2358401e84565cdf1afaf643d66879c0bc0786222fbc32d25
+b890af801e60352d039a5d4939b8bbdc75f23c7230c7112c4800afac7532cca8
 "
 "
 tests
@@ -87,7 +87,5 @@ rs
 package
 "
 :
-"
-f5e374eff525ce1c5b7687c4cef63943e7686524a387933ad27ca7ec43779cb3
-"
+null
 }
