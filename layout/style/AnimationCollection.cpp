@@ -26,7 +26,7 @@ h
 #
 include
 "
-nsPresContext
+nsDOMMutationObserver
 .
 h
 "
