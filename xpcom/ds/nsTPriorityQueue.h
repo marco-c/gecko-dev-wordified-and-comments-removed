@@ -491,7 +491,7 @@ aIndexB
 temp
 ;
 }
-nsTArray
+CopyableTArray
 <
 T
 >

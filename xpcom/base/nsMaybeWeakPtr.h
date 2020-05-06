@@ -234,7 +234,7 @@ class
 nsMaybeWeakPtrArray
 :
 public
-nsTArray
+CopyableTArray
 <
 nsMaybeWeakPtr
 <
