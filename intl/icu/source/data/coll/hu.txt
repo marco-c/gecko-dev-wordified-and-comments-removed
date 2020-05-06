@@ -38,9 +38,7 @@ hu
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -475,9 +473,7 @@ ZS
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

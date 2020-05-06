@@ -3043,7 +3043,9 @@ Kigurmukhi
 Hanb
 {
 "
-Hanb
+Kihan
+chenye
+Bopomofo
 "
 }
 Hang
@@ -4271,9 +4273,7 @@ Vai
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

@@ -1360,6 +1360,12 @@ ca
 ca_Latn_ES
 "
 }
+cad
+{
+"
+cad_Latn_US
+"
+}
 can
 {
 "
@@ -2800,6 +2806,12 @@ hi
 hi_Deva_IN
 "
 }
+hi_Latn
+{
+"
+hi_Latn_IN
+"
+}
 hia
 {
 "
@@ -3854,6 +3866,12 @@ ks
 {
 "
 ks_Arab_IN
+"
+}
+ks_Deva
+{
+"
+ks_Deva_IN
 "
 }
 ksb
@@ -5059,7 +5077,7 @@ ms_Arab_CC
 ms_ID
 {
 "
-ms_Arab_ID
+ms_Latn_ID
 "
 }
 mt
@@ -6319,7 +6337,7 @@ sas_Latn_ID
 sat
 {
 "
-sat_Latn_IN
+sat_Olck_IN
 "
 }
 sav

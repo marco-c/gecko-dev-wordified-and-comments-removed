@@ -101,9 +101,6 @@ endif
 }
 URelativeDateTimeUnit
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 URelativeDateTimeFormatterField
@@ -113,8 +110,6 @@ UDAT_REL_NUMERIC_FIELD
 }
 URelativeDateTimeFormatterField
 ;
-#
-endif
 struct
 URelativeDateTimeFormatter
 ;
@@ -155,9 +150,6 @@ URelativeDateTimeFormatter
 reldatefmt
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 struct
 UFormattedRelativeDateTime
 ;
@@ -166,7 +158,7 @@ struct
 UFormattedRelativeDateTime
 UFormattedRelativeDateTime
 ;
-U_DRAFT
+U_STABLE
 UFormattedRelativeDateTime
 *
 U_EXPORT2
@@ -177,7 +169,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 const
 UFormattedValue
 *
@@ -193,7 +185,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ureldatefmt_closeResult
@@ -203,8 +195,6 @@ UFormattedRelativeDateTime
 ufrdt
 )
 ;
-#
-endif
 #
 if
 U_SHOW_CPLUSPLUS_API
@@ -216,9 +206,6 @@ URelativeDateTimeFormatter
 ureldatefmt_close
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 U_DEFINE_LOCAL_OPEN_POINTER
 (
 LocalUFormattedRelativeDateTimePointer
@@ -226,8 +213,6 @@ UFormattedRelativeDateTime
 ureldatefmt_closeResult
 )
 ;
-#
-endif
 U_NAMESPACE_END
 #
 endif
@@ -254,10 +239,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ureldatefmt_formatNumericToResult
@@ -278,8 +260,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2
@@ -303,10 +283,7 @@ UErrorCode
 status
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ureldatefmt_formatToResult
@@ -327,8 +304,6 @@ UErrorCode
 status
 )
 ;
-#
-endif
 U_STABLE
 int32_t
 U_EXPORT2

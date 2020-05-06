@@ -2063,6 +2063,13 @@ Ivory
 Coast
 "
 }
+CV
+{
+"
+Cabo
+Verde
+"
+}
 CZ
 {
 "
@@ -2098,9 +2105,7 @@ Timor
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

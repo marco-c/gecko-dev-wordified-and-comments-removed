@@ -216,6 +216,7 @@ other
 }
 ;
 struct
+U_I18N_API
 CollationCacheEntry
 :
 public

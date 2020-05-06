@@ -42,7 +42,7 @@ ALIAS
 "
 {
 "
-ar
+ar_SA
 "
 }
 }

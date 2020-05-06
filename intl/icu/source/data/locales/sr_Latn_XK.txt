@@ -38,9 +38,7 @@ sr_Latn_XK
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 calendar

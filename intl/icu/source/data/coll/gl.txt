@@ -38,9 +38,7 @@ gl
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -65,9 +63,7 @@ search
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -85,9 +81,7 @@ es
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -52,9 +52,6 @@ UErrorCode
 ec
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 CurrencyUnit
 (
 StringPiece
@@ -64,8 +61,6 @@ UErrorCode
 ec
 )
 ;
-#
-endif
 CurrencyUnit
 (
 const

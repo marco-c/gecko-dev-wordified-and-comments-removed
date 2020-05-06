@@ -3682,7 +3682,6 @@ gRBBIInitOnce
 U_INITONCE_INITIALIZER
 ;
 U_CDECL_BEGIN
-static
 UBool
 U_CALLCONV
 rbbi_cleanup

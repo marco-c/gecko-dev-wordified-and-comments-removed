@@ -187,6 +187,9 @@ calcChainedFollowPos
 RBBINode
 *
 n
+RBBINode
+*
+endMarkNode
 )
 ;
 void
@@ -196,6 +199,11 @@ bofFixup
 ;
 void
 buildStateTable
+(
+)
+;
+void
+mapLookAheadRules
 (
 )
 ;
@@ -387,6 +395,12 @@ fDStates
 UVector
 *
 fSafeTable
+;
+UVector32
+*
+fLookAheadRuleMap
+=
+nullptr
 ;
 RBBITableBuilder
 (

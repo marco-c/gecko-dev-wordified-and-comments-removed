@@ -1878,7 +1878,7 @@ errorCode
 char
 myLocale
 [
-6
+7
 ]
 =
 {
@@ -1893,6 +1893,10 @@ myLocale
 '
 '
 '
+'
+'
+\
+0
 '
 }
 ;
@@ -1996,6 +2000,8 @@ sizeof
 (
 myLocale
 )
+-
+1
 )
 ;
 }

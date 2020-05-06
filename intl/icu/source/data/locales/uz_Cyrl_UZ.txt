@@ -38,9 +38,7 @@ uz_Cyrl_UZ
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -271,6 +271,8 @@ rules
 MutablePatternModifier
 *
 buildReference
+bool
+safe
 const
 MicroPropsGenerator
 *
@@ -331,6 +333,10 @@ data
 ;
 ParsedPatternInfo
 unsafePatternInfo
+;
+MutablePatternModifier
+*
+unsafePatternModifier
 ;
 UBool
 safe

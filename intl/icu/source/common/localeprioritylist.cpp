@@ -780,7 +780,7 @@ isBogus
 {
 errorCode
 =
-U_MEMORY_ALLOCATION_ERROR
+U_ILLEGAL_ARGUMENT_ERROR
 ;
 return
 ;

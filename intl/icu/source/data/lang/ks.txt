@@ -2238,6 +2238,11 @@ Arab
 "
 "
 }
+Aran
+{
+"
+"
+}
 Armn
 {
 "
@@ -3034,9 +3039,7 @@ TARASK
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 codePatterns

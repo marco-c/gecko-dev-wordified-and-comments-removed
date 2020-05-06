@@ -100,7 +100,7 @@ UFormattedNumberRangeData
 :
 FormattedValueStringBuilderImpl
 (
-0
+kUndefinedField
 )
 {
 }

@@ -49,15 +49,6 @@ aositel
 lia
 "
 }
-BRL
-{
-"
-R
-"
-"
-BRL
-"
-}
 FJD
 {
 "
@@ -329,9 +320,7 @@ other
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

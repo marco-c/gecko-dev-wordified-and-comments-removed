@@ -581,9 +581,7 @@ minimumGroupingDigits
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 calendar

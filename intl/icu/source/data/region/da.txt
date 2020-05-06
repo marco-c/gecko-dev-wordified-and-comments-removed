@@ -2002,12 +2002,6 @@ UN
 FN
 "
 }
-US
-{
-"
-USA
-"
-}
 }
 Countries
 %
@@ -2030,12 +2024,6 @@ CG
 "
 Republikken
 Congo
-"
-}
-CI
-{
-"
-Elfenbenskysten
 "
 }
 CZ
@@ -2073,9 +2061,7 @@ sttimor
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

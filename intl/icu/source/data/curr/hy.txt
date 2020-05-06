@@ -286,7 +286,6 @@ CNH
 CNH
 "
 "
-CNH
 "
 }
 CNY
@@ -2287,13 +2286,11 @@ CNH
 one
 {
 "
-CNH
 "
 }
 other
 {
 "
-CNH
 "
 }
 }
@@ -4078,9 +4075,7 @@ other
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

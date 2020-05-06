@@ -173,9 +173,6 @@ FormattedRelativeDateTime
 class
 FormattedRelativeDateTimeData
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 U_I18N_API
 FormattedRelativeDateTime
@@ -347,8 +344,6 @@ RelativeDateTimeFormatter
 ;
 }
 ;
-#
-endif
 class
 U_I18N_API
 RelativeDateTimeFormatter
@@ -452,9 +447,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedRelativeDateTime
 formatToValue
 (
@@ -470,8 +462,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 format
@@ -489,9 +479,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedRelativeDateTime
 formatToValue
 (
@@ -505,8 +492,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 formatNumeric
@@ -524,9 +509,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedRelativeDateTime
 formatNumericToValue
 (
@@ -540,8 +522,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 format
@@ -559,9 +539,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedRelativeDateTime
 formatToValue
 (
@@ -575,8 +552,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 combineDateAndTime
@@ -711,9 +686,6 @@ args
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 template
 <
 typename
@@ -740,8 +712,6 @@ args
 )
 const
 ;
-#
-endif
 void
 formatImpl
 (

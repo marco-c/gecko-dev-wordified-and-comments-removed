@@ -576,6 +576,12 @@ cch
 atsam
 "
 }
+ccp
+{
+"
+akma
+"
+}
 ce
 {
 "
@@ -984,6 +990,12 @@ fa
 {
 "
 persijski
+"
+}
+fa_AF
+{
+"
+dari
 "
 }
 fan
@@ -5634,9 +5646,7 @@ Valencijska
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

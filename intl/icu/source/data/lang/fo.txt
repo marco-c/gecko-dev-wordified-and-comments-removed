@@ -1928,12 +1928,6 @@ rof
 rombo
 "
 }
-root
-{
-"
-root
-"
-}
 ru
 {
 "
@@ -3573,9 +3567,7 @@ Giles
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

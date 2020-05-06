@@ -589,6 +589,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 ff
 {
 "
@@ -2219,6 +2224,11 @@ Arab
 "
 "
 }
+Aran
+{
+"
+"
+}
 Armn
 {
 "
@@ -2897,9 +2907,7 @@ tibt
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

@@ -76,6 +76,7 @@ status
 )
 ;
 class
+U_I18N_API
 UFormattedNumberData
 :
 public
@@ -89,7 +90,7 @@ UFormattedNumberData
 :
 FormattedValueStringBuilderImpl
 (
-0
+kUndefinedField
 )
 {
 }

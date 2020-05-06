@@ -38,9 +38,7 @@ ff_Latn_NE
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

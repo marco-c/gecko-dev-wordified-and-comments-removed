@@ -52,9 +52,6 @@ uobject
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 U_NAMESPACE_BEGIN
 class
 CharString
@@ -254,8 +251,6 @@ extensions_
 }
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

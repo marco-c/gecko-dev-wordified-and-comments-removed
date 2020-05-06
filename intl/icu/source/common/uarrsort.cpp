@@ -1,5 +1,10 @@
 #
 include
+<
+cstddef
+>
+#
+include
 "
 unicode
 /
@@ -46,6 +51,9 @@ sizeInBytes
 +
 sizeof
 (
+std
+:
+:
 max_align_t
 )
 -
@@ -54,6 +62,9 @@ max_align_t
 /
 sizeof
 (
+std
+:
+:
 max_align_t
 )
 ;
@@ -562,6 +573,9 @@ icu
 :
 MaybeStackArray
 <
+std
+:
+:
 max_align_t
 sizeInMaxAlignTs
 (
@@ -961,6 +975,9 @@ icu
 :
 MaybeStackArray
 <
+std
+:
+:
 max_align_t
 sizeInMaxAlignTs
 (

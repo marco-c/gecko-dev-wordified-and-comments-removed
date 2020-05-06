@@ -962,6 +962,12 @@ fa
 Perseg
 "
 }
+fa_AF
+{
+"
+Dari
+"
+}
 fat
 {
 "
@@ -4632,9 +4638,7 @@ Alban
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

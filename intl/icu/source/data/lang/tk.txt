@@ -788,6 +788,13 @@ pars
 dili
 "
 }
+fa_AF
+{
+"
+dari
+dili
+"
+}
 ff
 {
 "
@@ -3926,9 +3933,7 @@ sanlary
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

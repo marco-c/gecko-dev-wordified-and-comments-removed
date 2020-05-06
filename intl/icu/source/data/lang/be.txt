@@ -606,6 +606,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 ff
 {
 "
@@ -2243,11 +2248,6 @@ Languages
 %
 short
 {
-az
-{
-"
-"
-}
 en_GB
 {
 "
@@ -2872,9 +2872,7 @@ tibt
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

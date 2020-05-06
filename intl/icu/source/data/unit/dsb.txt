@@ -38,9 +38,7 @@ dsb
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -147,9 +145,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -4255,7 +4253,7 @@ hektopascala
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -4366,9 +4364,7 @@ milibara
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -4434,6 +4430,8 @@ slobra
 }
 }
 pound
+-
+force
 -
 per
 -
@@ -7393,7 +7391,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 few
 {
@@ -7901,9 +7899,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -11880,7 +11878,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -11972,9 +11970,7 @@ mbar
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -12025,6 +12021,8 @@ Hg
 }
 }
 pound
+-
+force
 -
 per
 -

@@ -275,9 +275,6 @@ number
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UnicodeString
 select
 (
@@ -294,8 +291,6 @@ status
 )
 const
 ;
-#
-endif
 #
 ifndef
 U_HIDE_INTERNAL_API

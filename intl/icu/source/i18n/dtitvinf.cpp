@@ -296,7 +296,7 @@ false
 )
 fIntervalPatterns
 (
-NULL
+nullptr
 )
 {
 fIntervalPatterns
@@ -331,7 +331,7 @@ false
 )
 fIntervalPatterns
 (
-NULL
+nullptr
 )
 {
 initializeData
@@ -536,7 +536,7 @@ dtitvinf
 )
 fIntervalPatterns
 (
-NULL
+nullptr
 )
 {
 *
@@ -663,7 +663,7 @@ fIntervalPatterns
 ;
 fIntervalPatterns
 =
-NULL
+nullptr
 ;
 }
 UBool
@@ -785,7 +785,7 @@ if
 patternsOfOneSkeleton
 !
 =
-NULL
+nullptr
 )
 {
 IntervalPatternIndex
@@ -1661,7 +1661,7 @@ if
 patternsOfOneSkeleton
 =
 =
-NULL
+nullptr
 |
 |
 patternsOfOneSkeleton
@@ -1803,7 +1803,7 @@ ures_getFunctionalEquivalent
 (
 localeWithCalendarKey
 ULOC_LOCALE_IDENTIFIER_CAPACITY
-NULL
+nullptr
 "
 calendar
 "
@@ -1811,7 +1811,7 @@ calendar
 calendar
 "
 locName
-NULL
+nullptr
 FALSE
 &
 status
@@ -1873,7 +1873,7 @@ rb
 =
 ures_open
 (
-NULL
+nullptr
 locName
 &
 status
@@ -1896,7 +1896,7 @@ ures_getByKeyWithFallback
 (
 rb
 gCalendarTag
-NULL
+nullptr
 &
 status
 )
@@ -1933,7 +1933,7 @@ ures_getByKeyWithFallback
 (
 calBundle
 calendarTypeToUse
-NULL
+nullptr
 &
 status
 )
@@ -1944,7 +1944,7 @@ ures_getByKeyWithFallback
 (
 calTypeBundle
 gIntervalDateTimePatternTag
-NULL
+nullptr
 &
 status
 )
@@ -1990,7 +1990,7 @@ ures_getByKeyWithFallback
 (
 calBundle
 gGenericTag
-NULL
+nullptr
 &
 localStatus
 )
@@ -2003,7 +2003,7 @@ ures_getByKeyWithFallback
 (
 genericCalBundle
 gIntervalDateTimePatternTag
-NULL
+nullptr
 &
 localStatus
 )
@@ -2303,7 +2303,7 @@ if
 patternsOfOneSkeleton
 =
 =
-NULL
+nullptr
 )
 {
 patternsOfOneSkeleton
@@ -2314,6 +2314,21 @@ UnicodeString
 kIPI_MAX_INDEX
 ]
 ;
+if
+(
+patternsOfOneSkeleton
+=
+=
+nullptr
+)
+{
+status
+=
+U_MEMORY_ALLOCATION_ERROR
+;
+return
+;
+}
 emptyHash
 =
 true
@@ -2792,7 +2807,7 @@ UnicodeString
 *
 bestSkeleton
 =
-NULL
+nullptr
 ;
 bestMatchDistanceInfo
 =
@@ -2816,7 +2831,7 @@ UHashElement
 *
 elem
 =
-NULL
+nullptr
 ;
 while
 (
@@ -2833,7 +2848,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3250,6 +3265,15 @@ kIPI_SECOND
 ;
 break
 ;
+case
+UCAL_MILLISECOND
+:
+index
+=
+kIPI_MILLISECOND
+;
+break
+;
 default
 :
 status
@@ -3277,7 +3301,7 @@ if
 hTable
 =
 =
-NULL
+nullptr
 )
 {
 return
@@ -3293,7 +3317,7 @@ UHashElement
 *
 element
 =
-NULL
+nullptr
 ;
 while
 (
@@ -3310,7 +3334,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3468,7 +3492,7 @@ status
 )
 {
 return
-NULL
+nullptr
 ;
 }
 Hashtable
@@ -3489,7 +3513,7 @@ status
 )
 =
 =
-NULL
+nullptr
 )
 {
 status
@@ -3497,7 +3521,7 @@ status
 U_MEMORY_ALLOCATION_ERROR
 ;
 return
-NULL
+nullptr
 ;
 }
 if
@@ -3512,7 +3536,7 @@ delete
 hTable
 ;
 return
-NULL
+nullptr
 ;
 }
 hTable
@@ -3566,7 +3590,7 @@ UHashElement
 *
 element
 =
-NULL
+nullptr
 ;
 if
 (
@@ -3588,7 +3612,7 @@ pos
 )
 !
 =
-NULL
+nullptr
 )
 {
 const
@@ -3645,6 +3669,21 @@ UnicodeString
 kIPI_MAX_INDEX
 ]
 ;
+if
+(
+copy
+=
+=
+nullptr
+)
+{
+status
+=
+U_MEMORY_ALLOCATION_ERROR
+;
+return
+;
+}
 int8_t
 i
 ;

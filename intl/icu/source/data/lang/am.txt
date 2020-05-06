@@ -850,6 +850,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 ff
 {
 "
@@ -2728,6 +2733,11 @@ Tibt
 "
 "
 }
+Zmth
+{
+"
+"
+}
 Zsye
 {
 "
@@ -3399,9 +3409,7 @@ vaii
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

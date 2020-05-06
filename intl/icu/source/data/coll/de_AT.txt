@@ -38,9 +38,7 @@ de_AT
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -85,9 +83,7 @@ ss
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

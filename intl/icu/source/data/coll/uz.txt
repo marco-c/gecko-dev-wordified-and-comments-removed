@@ -38,9 +38,7 @@ uz
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -122,9 +120,7 @@ CH
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

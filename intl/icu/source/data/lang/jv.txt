@@ -104,7 +104,7 @@ Languages
 af
 {
 "
-af
+Afrika
 "
 }
 agq
@@ -163,12 +163,6 @@ az
 Azerbaijan
 "
 }
-ban
-{
-"
-ban
-"
-}
 bas
 {
 "
@@ -178,7 +172,7 @@ Basaa
 be
 {
 "
-be
+Belarus
 "
 }
 bem
@@ -232,7 +226,9 @@ Bodo
 bs
 {
 "
-bs
+Bosnia
+lan
+Hercegovina
 "
 }
 ca
@@ -1583,7 +1579,8 @@ Scripts
 Arab
 {
 "
-Arab
+hija
+iyah
 "
 }
 Armn
@@ -1779,6 +1776,12 @@ Taml
 {
 "
 Tamil
+"
+}
+Telu
+{
+"
+Telugu
 "
 }
 Thaa
@@ -2374,9 +2377,7 @@ Tibet
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

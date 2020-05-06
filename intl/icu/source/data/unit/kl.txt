@@ -38,9 +38,7 @@ kl
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -307,7 +305,7 @@ pressure
 {
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -563,7 +561,7 @@ pressure
 {
 inch
 -
-hg
+ofhg
 {
 one
 {

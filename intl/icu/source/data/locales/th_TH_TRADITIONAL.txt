@@ -35,6 +35,12 @@ html
 License
 th_TH_TRADITIONAL
 {
+Version
+{
+"
+37
+"
+}
 calendar
 {
 default

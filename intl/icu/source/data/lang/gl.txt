@@ -506,6 +506,12 @@ catal
 n
 "
 }
+ccp
+{
+"
+chakma
+"
+}
 ce
 {
 "
@@ -855,6 +861,12 @@ fa
 {
 "
 persa
+"
+}
+fa_AF
+{
+"
+dari
 "
 }
 ff
@@ -4278,9 +4290,7 @@ Vai
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

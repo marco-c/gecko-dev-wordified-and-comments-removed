@@ -38,9 +38,7 @@ ar_SA
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 units
@@ -51,9 +49,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 few
 {
@@ -600,11 +598,7 @@ zero
 }
 concentr
 {
-part
--
-per
--
-million
+permillion
 {
 few
 {
@@ -1634,6 +1628,8 @@ zero
 pressure
 {
 pound
+-
+force
 -
 per
 -
@@ -2904,11 +2900,7 @@ zero
 "
 }
 }
-part
--
-per
--
-million
+permillion
 {
 few
 {
@@ -2969,7 +2961,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 few
 {
@@ -4124,6 +4118,8 @@ zero
 }
 }
 pound
+-
+force
 -
 per
 -

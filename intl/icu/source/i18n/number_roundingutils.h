@@ -395,6 +395,8 @@ fRoundingMode
 ;
 bool
 fPassThrough
+=
+true
 ;
 }
 ;

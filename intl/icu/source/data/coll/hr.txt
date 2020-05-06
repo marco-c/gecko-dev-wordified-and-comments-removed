@@ -38,9 +38,7 @@ hr
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -83,9 +81,7 @@ others
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -205,9 +201,7 @@ Z
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

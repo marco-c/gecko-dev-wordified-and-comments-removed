@@ -86,14 +86,6 @@ Bs
 .
 "
 }
-VES
-{
-"
-Bs
-.
-S
-"
-}
 }
 CurrencyPlurals
 {
@@ -120,9 +112,7 @@ soberanos
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

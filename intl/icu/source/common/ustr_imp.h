@@ -49,7 +49,7 @@ UBool
 codePointOrder
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 ustr_hashUCharsN
@@ -62,7 +62,7 @@ int32_t
 length
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 ustr_hashCharsN
@@ -75,7 +75,7 @@ int32_t
 length
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 ustr_hashICharsN
@@ -88,7 +88,16 @@ int32_t
 length
 )
 ;
-U_CAPI
+U_INTERNAL
+UChar
+U_EXPORT2
+u_asciiToUpper
+(
+UChar
+c
+)
+;
+U_INTERNAL
 int32_t
 U_EXPORT2
 u_terminateUChars
@@ -105,7 +114,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 u_terminateChars
@@ -122,7 +131,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 u_terminateUChar32s
@@ -139,7 +148,7 @@ UErrorCode
 pErrorCode
 )
 ;
-U_CAPI
+U_INTERNAL
 int32_t
 U_EXPORT2
 u_terminateWChars

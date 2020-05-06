@@ -38,9 +38,7 @@ sr_Latn
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -65,9 +63,7 @@ search
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -85,9 +81,7 @@ hr
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -38,9 +38,7 @@ ko_KP
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 zoneStrings

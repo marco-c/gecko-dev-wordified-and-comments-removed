@@ -746,6 +746,12 @@ fa
 Persies
 "
 }
+fa_AF
+{
+"
+Dari
+"
+}
 ff
 {
 "
@@ -3947,9 +3953,7 @@ syfers
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

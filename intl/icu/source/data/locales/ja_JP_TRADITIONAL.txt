@@ -35,6 +35,12 @@ html
 License
 ja_JP_TRADITIONAL
 {
+Version
+{
+"
+37
+"
+}
 calendar
 {
 default

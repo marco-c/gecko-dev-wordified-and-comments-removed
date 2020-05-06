@@ -38,9 +38,7 @@ de
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -80,9 +78,7 @@ UE
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -118,9 +114,7 @@ phonebk
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

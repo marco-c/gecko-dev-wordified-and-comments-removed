@@ -38,9 +38,7 @@ ru
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -59,9 +57,7 @@ Cyrl
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

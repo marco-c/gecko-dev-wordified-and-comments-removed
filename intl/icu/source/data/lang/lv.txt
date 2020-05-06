@@ -1092,6 +1092,12 @@ persie
 u
 "
 }
+fa_AF
+{
+"
+dar
+"
+}
 fan
 {
 "
@@ -1564,7 +1570,7 @@ bans
 jgo
 {
 "
-jgo
+ngomba
 "
 }
 jmc
@@ -3722,13 +3728,6 @@ Languages
 %
 short
 {
-az
-{
-"
-azerbaid
-u
-"
-}
 en_GB
 {
 "
@@ -5675,9 +5674,7 @@ cija
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

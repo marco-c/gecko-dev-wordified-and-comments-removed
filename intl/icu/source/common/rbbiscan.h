@@ -168,6 +168,11 @@ parse
 (
 )
 ;
+int32_t
+numRules
+(
+)
+;
 static
 UnicodeString
 stripRules

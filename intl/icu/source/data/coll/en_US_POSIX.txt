@@ -38,9 +38,7 @@ en_US_POSIX
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -99,9 +97,7 @@ u007F
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

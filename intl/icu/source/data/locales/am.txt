@@ -959,9 +959,7 @@ ethi
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 calendar
@@ -5285,7 +5283,7 @@ abbreviated
 variant
 {
 "
-BCE
+/
 "
 "
 CE

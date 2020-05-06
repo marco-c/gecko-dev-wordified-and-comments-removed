@@ -983,6 +983,14 @@ isi
 Persian
 "
 }
+fa_AF
+{
+"
+isi
+-
+Dari
+"
+}
 ff
 {
 "
@@ -5004,9 +5012,7 @@ Vai
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

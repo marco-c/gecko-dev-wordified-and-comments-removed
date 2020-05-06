@@ -1051,12 +1051,6 @@ ME
 Montenegro
 "
 }
-MF
-{
-"
-MF
-"
-}
 MG
 {
 "
@@ -1848,9 +1842,7 @@ Rojhilat
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

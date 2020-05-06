@@ -38,9 +38,7 @@ lo
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -59,9 +57,7 @@ Laoo
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -38,9 +38,7 @@ pt_PT
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 units
@@ -86,9 +84,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -248,7 +246,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -850,6 +850,8 @@ pressure
 {
 pound
 -
+force
+-
 per
 -
 square
@@ -1227,7 +1229,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 one
 {
@@ -1923,9 +1927,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -2374,7 +2378,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -4018,7 +4024,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -4075,9 +4081,7 @@ mb
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -4108,6 +4112,8 @@ Hg
 }
 }
 pound
+-
+force
 -
 per
 -

@@ -468,7 +468,11 @@ CZK
 CZK
 "
 "
-CZK
+koruna
+ya
+Jamhuri
+ya
+Czech
 "
 }
 DJF
@@ -5766,9 +5770,7 @@ other
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

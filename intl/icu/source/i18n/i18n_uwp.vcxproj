@@ -1732,7 +1732,7 @@ OutputFile
 \
 bin32uwp
 \
-icuin66
+icuin67
 .
 dll
 <
@@ -1934,7 +1934,7 @@ OutputFile
 \
 bin32uwp
 \
-icuin66d
+icuin67d
 .
 dll
 <
@@ -2136,7 +2136,7 @@ OutputFile
 \
 bin64uwp
 \
-icuin66
+icuin67
 .
 dll
 <
@@ -2338,7 +2338,7 @@ OutputFile
 \
 bin64uwp
 \
-icuin66d
+icuin67d
 .
 dll
 <
@@ -2540,7 +2540,7 @@ OutputFile
 \
 binARMuwp
 \
-icuin66
+icuin67
 .
 dll
 <
@@ -2742,7 +2742,7 @@ OutputFile
 \
 binARMuwp
 \
-icuin66d
+icuin67d
 .
 dll
 <
@@ -2944,7 +2944,7 @@ OutputFile
 \
 binARM64uwp
 \
-icuin66
+icuin67
 .
 dll
 <
@@ -3146,7 +3146,7 @@ OutputFile
 \
 binARM64uwp
 \
-icuin66d
+icuin67d
 .
 dll
 <
@@ -4274,6 +4274,17 @@ Include
 =
 "
 measunit
+.
+cpp
+"
+/
+>
+<
+ClCompile
+Include
+=
+"
+measunit_extra
 .
 cpp
 "
@@ -6550,6 +6561,17 @@ Include
 =
 "
 japancal
+.
+h
+"
+/
+>
+<
+ClInclude
+Include
+=
+"
+measunit_impl
 .
 h
 "

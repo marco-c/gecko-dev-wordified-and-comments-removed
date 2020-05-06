@@ -38,9 +38,7 @@ kok
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 zoneStrings
@@ -2634,7 +2632,6 @@ Aden
 ec
 {
 "
-Aden
 "
 }
 }
@@ -6215,7 +6212,6 @@ GMT
 ls
 {
 "
-c
 "
 }
 }
@@ -7030,6 +7026,16 @@ meta
 Norfolk
 "
 {
+ld
+{
+"
+"
+}
+lg
+{
+"
+"
+}
 ls
 {
 "

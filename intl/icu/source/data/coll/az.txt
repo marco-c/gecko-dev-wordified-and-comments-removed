@@ -38,9 +38,7 @@ az
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -83,9 +81,7 @@ others
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -212,9 +208,7 @@ W
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

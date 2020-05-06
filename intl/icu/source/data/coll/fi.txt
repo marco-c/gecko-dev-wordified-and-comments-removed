@@ -38,9 +38,7 @@ fi
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -77,9 +75,7 @@ trad
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -184,9 +180,7 @@ before
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -303,9 +297,7 @@ before
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

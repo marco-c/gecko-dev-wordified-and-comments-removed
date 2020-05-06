@@ -81,9 +81,6 @@ FormattedDateIntervalData
 class
 DateIntervalFormat
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 class
 U_I18N_API
 FormattedDateInterval
@@ -255,8 +252,6 @@ DateIntervalFormat
 ;
 }
 ;
-#
-endif
 class
 U_I18N_API
 DateIntervalFormat
@@ -428,9 +423,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedDateInterval
 formatToValue
 (
@@ -444,8 +436,6 @@ status
 )
 const
 ;
-#
-endif
 UnicodeString
 &
 format
@@ -468,9 +458,6 @@ status
 )
 const
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 FormattedDateInterval
 formatToValue
 (
@@ -486,8 +473,6 @@ status
 )
 const
 ;
-#
-endif
 virtual
 void
 parseObject

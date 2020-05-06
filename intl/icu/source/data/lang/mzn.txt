@@ -1326,11 +1326,6 @@ stand
 -
 alone
 {
-Hans
-{
-"
-"
-}
 Hant
 {
 "
@@ -1340,9 +1335,7 @@ Hant
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 codePatterns

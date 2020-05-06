@@ -218,7 +218,6 @@ atLeast
 {
 0
 }
-+
 "
 }
 atMost
@@ -1612,6 +1611,7 @@ w
 {
 0
 }
+.
 w
 prawo
 .
@@ -1672,9 +1672,7 @@ minimumGroupingDigits
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 calendar

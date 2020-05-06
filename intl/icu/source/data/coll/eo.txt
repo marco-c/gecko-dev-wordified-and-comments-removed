@@ -38,9 +38,7 @@ eo
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -101,9 +99,7 @@ U
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

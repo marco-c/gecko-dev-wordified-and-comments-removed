@@ -429,6 +429,12 @@ cch
 "
 "
 }
+ccp
+{
+"
+Chakma
+"
+}
 ce
 {
 "
@@ -769,6 +775,11 @@ ewo
 "
 }
 fa
+{
+"
+"
+}
+fa_AF
 {
 "
 "
@@ -2750,6 +2761,11 @@ Languages
 %
 menu
 {
+yue
+{
+"
+"
+}
 zh
 {
 "
@@ -4423,9 +4439,7 @@ WADEGILE
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

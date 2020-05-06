@@ -2112,13 +2112,6 @@ Countries
 %
 short
 {
-GB
-{
-"
-Reino
-Unido
-"
-}
 HK
 {
 "
@@ -2224,9 +2217,7 @@ Leste
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

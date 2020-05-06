@@ -38,9 +38,7 @@ sq
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -238,9 +236,7 @@ ZH
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

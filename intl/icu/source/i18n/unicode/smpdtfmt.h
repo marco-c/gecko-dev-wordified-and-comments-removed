@@ -617,6 +617,8 @@ UDisplayContext
 capitalizationContext
 int32_t
 fieldNum
+char16_t
+fieldToOutput
 FieldPositionHandler
 &
 handler

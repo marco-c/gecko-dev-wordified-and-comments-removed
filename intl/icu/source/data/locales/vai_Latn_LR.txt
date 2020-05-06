@@ -38,9 +38,7 @@ vai_Latn_LR
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

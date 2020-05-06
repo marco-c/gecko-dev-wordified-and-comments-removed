@@ -351,17 +351,6 @@ Field
 field
 )
 ;
-static
-bool
-isNumericField
-(
-FormattedStringBuilder
-:
-:
-Field
-field
-)
-;
 int32_t
 trimBack
 (

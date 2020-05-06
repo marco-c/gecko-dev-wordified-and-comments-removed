@@ -38,9 +38,7 @@ mzn
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -102,9 +100,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -263,7 +261,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -1915,7 +1915,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -2243,9 +2245,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -2404,7 +2406,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {

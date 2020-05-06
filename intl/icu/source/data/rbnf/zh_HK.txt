@@ -42,7 +42,7 @@ ALIAS
 "
 {
 "
-yue
+zh_Hant_HK
 "
 }
 }

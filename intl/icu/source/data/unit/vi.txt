@@ -38,9 +38,7 @@ vi
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -534,7 +532,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -2597,7 +2597,7 @@ pascal
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -2643,9 +2643,7 @@ millibar
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -2674,6 +2672,8 @@ n
 }
 }
 pound
+-
+force
 -
 per
 -
@@ -2903,6 +2903,8 @@ t
 }
 }
 pound
+-
+force
 -
 foot
 {
@@ -3602,7 +3604,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -4100,7 +4104,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 other
 {
@@ -5599,7 +5603,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -5619,9 +5623,7 @@ mbar
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -5642,6 +5644,8 @@ Hg
 }
 }
 pound
+-
+force
 -
 per
 -
@@ -5706,6 +5710,8 @@ m
 }
 }
 pound
+-
+force
 -
 foot
 {

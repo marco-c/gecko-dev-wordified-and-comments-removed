@@ -38,9 +38,7 @@ et
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -99,9 +97,7 @@ X
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

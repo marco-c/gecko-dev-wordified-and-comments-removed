@@ -291,7 +291,6 @@ fPatternModifier
 ;
 LocalPointer
 <
-const
 ImmutablePatternModifier
 >
 fImmutablePatternModifier

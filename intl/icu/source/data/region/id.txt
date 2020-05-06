@@ -2055,15 +2055,6 @@ Republik
 )
 "
 }
-CI
-{
-"
-C
-te
-d
-Ivoire
-"
-}
 CZ
 {
 "
@@ -2098,9 +2089,7 @@ Timur
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -38,9 +38,7 @@ nn
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -65,9 +63,7 @@ search
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -91,9 +87,7 @@ standard
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

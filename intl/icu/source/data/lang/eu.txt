@@ -789,6 +789,12 @@ fa
 persiera
 "
 }
+fa_AF
+{
+"
+daria
+"
+}
 ff
 {
 "
@@ -2717,12 +2723,6 @@ Languages
 %
 short
 {
-az
-{
-"
-azerbaijanera
-"
-}
 en_GB
 {
 "
@@ -3999,9 +3999,7 @@ VALENTZIERA
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

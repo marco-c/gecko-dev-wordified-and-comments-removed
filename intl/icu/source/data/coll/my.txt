@@ -38,9 +38,7 @@ my
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -3028,9 +3026,7 @@ Mymr
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -1961,11 +1961,6 @@ Languages
 %
 short
 {
-az
-{
-"
-"
-}
 en_GB
 {
 "
@@ -2223,9 +2218,7 @@ Hant
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

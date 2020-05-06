@@ -717,6 +717,9 @@ type_str
 [
 256
 ]
+=
+"
+"
 ;
 u_UCharsToChars
 (

@@ -38,9 +38,7 @@ se
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -1490,7 +1488,7 @@ hehtopascal
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -3062,7 +3060,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -4771,7 +4769,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {

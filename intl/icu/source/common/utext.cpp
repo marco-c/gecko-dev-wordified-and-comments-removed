@@ -1,5 +1,10 @@
 #
 include
+<
+cstddef
+>
+#
+include
 "
 unicode
 /
@@ -2449,6 +2454,9 @@ ExtendedUText
 UText
 ut
 ;
+std
+:
+:
 max_align_t
 extension
 ;
@@ -2524,6 +2532,9 @@ extraSpace
 -
 sizeof
 (
+std
+:
+:
 max_align_t
 )
 ;

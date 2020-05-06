@@ -183,6 +183,7 @@ acceptFirstOnly
 }
 ;
 class
+U_I18N_API
 FieldPositionIteratorHandler
 :
 public

@@ -2156,15 +2156,6 @@ Countries
 %
 short
 {
-GB
-{
-"
-Birle
-en
-Paty
-alyk
-"
-}
 HK
 {
 "
@@ -2255,9 +2246,7 @@ Timor
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -3597,6 +3597,9 @@ locale
 [
 ULOC_FULLNAME_CAPACITY
 ]
+=
+"
+"
 ;
 uprv_strcpy
 (
@@ -4001,6 +4004,9 @@ loc
 [
 ULOC_FULLNAME_CAPACITY
 ]
+=
+"
+"
 ;
 uloc_getName
 (

@@ -562,6 +562,13 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+(
+)
+"
+}
 ff
 {
 "
@@ -620,12 +627,6 @@ fy
 ga
 {
 "
-"
-}
-gaa
-{
-"
-gaa
 "
 }
 gd
@@ -2693,9 +2694,7 @@ tibt
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

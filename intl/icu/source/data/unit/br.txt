@@ -38,9 +38,7 @@ br
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -80,9 +78,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -1474,7 +1472,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -7539,6 +7539,8 @@ baskal
 }
 pound
 -
+force
+-
 per
 -
 square
@@ -10044,9 +10046,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -11373,7 +11375,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -16837,7 +16841,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -17043,9 +17047,7 @@ mbar
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -17148,6 +17150,8 @@ Pa
 }
 }
 pound
+-
+force
 -
 per
 -
@@ -17758,6 +17762,8 @@ m
 }
 }
 pound
+-
+force
 -
 foot
 {
@@ -19420,9 +19426,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -20657,7 +20663,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -25551,7 +25559,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -25661,9 +25669,7 @@ mbar
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {
@@ -25718,6 +25724,8 @@ mmHg
 }
 }
 pound
+-
+force
 -
 per
 -

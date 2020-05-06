@@ -38,9 +38,7 @@ km
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -391,9 +389,7 @@ u17b5
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

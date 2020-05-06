@@ -885,6 +885,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 fan
 {
 "
@@ -4585,9 +4590,7 @@ WADEGILE
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

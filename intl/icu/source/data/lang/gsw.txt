@@ -2936,12 +2936,6 @@ Arab
 Arabisch
 "
 }
-Armi
-{
-"
-Armi
-"
-}
 Armn
 {
 "
@@ -3021,12 +3015,6 @@ Cari
 {
 "
 Karisch
-"
-}
-Cham
-{
-"
-Cham
 "
 }
 Cher
@@ -4071,9 +4059,7 @@ chtschriibig
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 codePatterns

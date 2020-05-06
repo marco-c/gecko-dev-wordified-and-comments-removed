@@ -96,9 +96,6 @@ number
 class
 LocalizedNumberFormatter
 ;
-class
-FormattedNumber
-;
 namespace
 impl
 {
@@ -107,6 +104,9 @@ DecimalQuantity
 ;
 struct
 DecimalFormatFields
+;
+class
+UFormattedNumberData
 ;
 }
 }
@@ -784,9 +784,6 @@ UnicodeString
 newValue
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UBool
 isSignAlwaysShown
 (
@@ -800,8 +797,6 @@ UBool
 value
 )
 ;
-#
-endif
 int32_t
 getMultiplier
 (
@@ -992,9 +987,6 @@ int32_t
 newValue
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 int32_t
 getMinimumGroupingDigits
 (
@@ -1008,8 +1000,6 @@ int32_t
 newValue
 )
 ;
-#
-endif
 UBool
 isDecimalSeparatorAlwaysShown
 (
@@ -1040,9 +1030,6 @@ UBool
 newValue
 )
 ;
-#
-ifndef
-U_HIDE_DRAFT_API
 UBool
 isParseNoExponent
 (
@@ -1082,8 +1069,6 @@ UBool
 value
 )
 ;
-#
-endif
 virtual
 UnicodeString
 &
@@ -1326,9 +1311,6 @@ const
 ;
 #
 endif
-#
-ifndef
-U_HIDE_DRAFT_API
 const
 number
 :
@@ -1343,8 +1325,6 @@ status
 )
 const
 ;
-#
-endif
 static
 UClassID
 U_EXPORT2
@@ -1432,7 +1412,10 @@ const
 number
 :
 :
-FormattedNumber
+impl
+:
+:
+UFormattedNumberData
 &
 formatted
 FieldPosition
@@ -1453,7 +1436,10 @@ const
 number
 :
 :
-FormattedNumber
+impl
+:
+:
+UFormattedNumberData
 &
 formatted
 FieldPositionIterator

@@ -571,6 +571,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 ff
 {
 "
@@ -2737,9 +2742,7 @@ tibt
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

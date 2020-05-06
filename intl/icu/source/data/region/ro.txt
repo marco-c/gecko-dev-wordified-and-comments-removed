@@ -2026,13 +2026,6 @@ Countries
 %
 short
 {
-GB
-{
-"
-Regatul
-Unit
-"
-}
 HK
 {
 "
@@ -2138,9 +2131,7 @@ Est
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -38,9 +38,7 @@ ksh
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -1380,7 +1378,7 @@ Hektopascal
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -2792,7 +2790,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -4331,7 +4329,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {

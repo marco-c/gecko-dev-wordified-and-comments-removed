@@ -597,6 +597,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 ff
 {
 "
@@ -2920,9 +2925,7 @@ SCOTLAND
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

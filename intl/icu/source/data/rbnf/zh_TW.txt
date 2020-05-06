@@ -42,7 +42,7 @@ ALIAS
 "
 {
 "
-zh_Hant
+zh_Hant_TW
 "
 }
 }

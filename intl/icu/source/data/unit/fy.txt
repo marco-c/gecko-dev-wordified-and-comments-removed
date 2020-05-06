@@ -38,9 +38,7 @@ fy
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 durationUnits
@@ -1125,7 +1123,7 @@ hektopaskal
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -2262,7 +2260,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -3542,7 +3540,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 dnam
 {

@@ -836,6 +836,12 @@ fa
 Persian
 "
 }
+fa_AF
+{
+"
+Dari
+"
+}
 ff
 {
 "
@@ -2914,7 +2920,10 @@ Gurmukhi
 Hanb
 {
 "
-Hanb
+Han
+na
+may
+Bopomofo
 "
 }
 Hang
@@ -4694,9 +4703,7 @@ Romanization
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

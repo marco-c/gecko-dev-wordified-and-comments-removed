@@ -38,9 +38,7 @@ ee
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -182,9 +180,7 @@ V
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

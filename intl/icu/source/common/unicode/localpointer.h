@@ -418,9 +418,6 @@ ptr
 NULL
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 explicit
 LocalPointer
 (
@@ -449,8 +446,6 @@ release
 )
 {
 }
-#
-endif
 ~
 LocalPointer
 (
@@ -516,9 +511,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 LocalPointer
 <
 T
@@ -554,8 +546,6 @@ return
 this
 ;
 }
-#
-endif
 void
 swap
 (
@@ -714,9 +704,6 @@ p
 ;
 }
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 operator
 std
 :
@@ -751,8 +738,6 @@ orphan
 )
 ;
 }
-#
-endif
 }
 ;
 template
@@ -878,9 +863,6 @@ ptr
 NULL
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 explicit
 LocalArray
 (
@@ -911,8 +893,6 @@ release
 )
 {
 }
-#
-endif
 ~
 LocalArray
 (
@@ -982,9 +962,6 @@ return
 this
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 LocalArray
 <
 T
@@ -1022,8 +999,6 @@ return
 this
 ;
 }
-#
-endif
 void
 swap
 (
@@ -1212,9 +1187,6 @@ i
 ]
 ;
 }
-#
-ifndef
-U_HIDE_DRAFT_API
 operator
 std
 :
@@ -1253,8 +1225,6 @@ orphan
 )
 ;
 }
-#
-endif
 }
 ;
 #

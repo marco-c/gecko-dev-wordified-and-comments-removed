@@ -1170,7 +1170,7 @@ output
 append
 (
 result
-UNUM_FIELD_COUNT
+kGeneralNumericField
 status
 )
 ;

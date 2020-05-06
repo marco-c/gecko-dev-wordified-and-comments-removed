@@ -114,7 +114,8 @@ Africa
 019
 {
 "
-Americas
+Mga
+Amerika
 "
 }
 021
@@ -768,7 +769,7 @@ Islands
 FR
 {
 "
-Pransiya
+Pransya
 "
 }
 GA
@@ -780,8 +781,8 @@ Gabon
 GB
 {
 "
-Hiniusang
-Gingharian
+United
+Kingdom
 "
 }
 GD
@@ -1030,7 +1031,7 @@ Jordan
 JP
 {
 "
-Hapon
+Japan
 "
 }
 KE
@@ -1970,8 +1971,7 @@ ZZ
 {
 "
 Wala
--
-mailhing
+Mailhing
 Rehiyon
 "
 }
@@ -2003,6 +2003,12 @@ PS
 {
 "
 Palestine
+"
+}
+US
+{
+"
+US
 "
 }
 }
@@ -2070,9 +2076,7 @@ Timor
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

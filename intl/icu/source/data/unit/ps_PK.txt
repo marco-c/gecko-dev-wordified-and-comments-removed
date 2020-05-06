@@ -38,9 +38,7 @@ ps_PK
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 units
@@ -281,7 +279,7 @@ pressure
 {
 inch
 -
-hg
+ofhg
 {
 dnam
 {
@@ -307,9 +305,7 @@ other
 }
 millimeter
 -
-of
--
-mercury
+ofhg
 {
 dnam
 {

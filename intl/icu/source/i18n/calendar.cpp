@@ -4360,6 +4360,9 @@ keyword
 [
 ULOC_FULLNAME_CAPACITY
 ]
+=
+"
+"
 ;
 UErrorCode
 tmpStatus

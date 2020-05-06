@@ -953,6 +953,12 @@ fa
 fars
 "
 }
+fa_AF
+{
+"
+dari
+"
+}
 fan
 {
 "
@@ -5029,9 +5035,7 @@ ri
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

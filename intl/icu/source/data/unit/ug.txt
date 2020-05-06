@@ -38,9 +38,7 @@ ug
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 units
@@ -744,7 +742,7 @@ other
 }
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -1652,7 +1650,7 @@ hPa
 }
 inch
 -
-hg
+ofhg
 {
 one
 {
@@ -2609,7 +2607,7 @@ other
 }
 inch
 -
-hg
+ofhg
 {
 one
 {

@@ -38,9 +38,7 @@ shi_Latn_MA
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

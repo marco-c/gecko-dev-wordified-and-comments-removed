@@ -38,9 +38,7 @@ pa
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -90,9 +88,7 @@ Arab
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

@@ -1980,7 +1980,6 @@ BWP
 other
 {
 "
-Vote
 "
 }
 }
@@ -2291,14 +2290,6 @@ other
 }
 }
 ILS
-{
-other
-{
-"
-"
-}
-}
-INR
 {
 other
 {
@@ -3070,9 +3061,7 @@ other
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

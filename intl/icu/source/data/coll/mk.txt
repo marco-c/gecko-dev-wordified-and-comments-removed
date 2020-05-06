@@ -38,9 +38,7 @@ mk
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -80,9 +78,7 @@ suppressContractions
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

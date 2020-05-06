@@ -38,9 +38,7 @@ kk
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -84,9 +82,7 @@ before
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

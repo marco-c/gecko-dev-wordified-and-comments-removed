@@ -574,6 +574,12 @@ Languages
 %
 menu
 {
+ckb
+{
+"
+sorani
+"
+}
 yue
 {
 "
@@ -645,6 +651,13 @@ Hrkt
 "
 syllabaires
 japonais
+"
+}
+Olck
+{
+"
+ol
+chiki
 "
 }
 Zsye
@@ -824,9 +837,7 @@ mongols
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

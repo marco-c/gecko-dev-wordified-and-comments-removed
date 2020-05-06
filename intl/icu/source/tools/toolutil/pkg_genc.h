@@ -274,6 +274,8 @@ char
 outFilePath
 size_t
 outFilePathCapacity
+UBool
+optWinDllExport
 )
 ;
 #

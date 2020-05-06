@@ -38,9 +38,7 @@ cy
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -165,9 +163,7 @@ TH
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

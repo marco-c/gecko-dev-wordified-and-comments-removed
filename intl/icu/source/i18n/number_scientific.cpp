@@ -169,7 +169,10 @@ ENumberFormatSymbol
 :
 kExponentialSymbol
 )
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_EXPONENT_SYMBOL_FIELD
+}
 status
 )
 ;
@@ -215,7 +218,10 @@ ENumberFormatSymbol
 :
 kMinusSignSymbol
 )
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_EXPONENT_SIGN_FIELD
+}
 status
 )
 ;
@@ -264,7 +270,10 @@ ENumberFormatSymbol
 :
 kPlusSignSymbol
 )
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_EXPONENT_SIGN_FIELD
+}
 status
 )
 ;
@@ -341,7 +350,10 @@ fHandler
 -
 >
 fSymbols
+{
+UFIELD_CATEGORY_NUMBER
 UNUM_EXPONENT_FIELD
+}
 status
 )
 ;
@@ -397,7 +409,7 @@ ScientificModifier
 :
 containsField
 (
-UNumberFormatFields
+Field
 field
 )
 const
@@ -701,6 +713,13 @@ modInner
 =
 &
 mod
+;
+quantity
+.
+adjustExponent
+(
+exponent
+)
 ;
 micros
 .

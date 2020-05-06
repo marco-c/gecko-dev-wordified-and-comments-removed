@@ -46,9 +46,7 @@ en_001
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 units
@@ -280,7 +278,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -832,9 +832,9 @@ meter
 -
 per
 -
-second
+square
 -
-squared
+second
 {
 dnam
 {
@@ -1255,7 +1255,9 @@ liter
 -
 per
 -
-100kilometers
+100
+-
+kilometer
 {
 dnam
 {
@@ -2255,7 +2257,7 @@ pressure
 {
 inch
 -
-hg
+ofhg
 {
 dnam
 {

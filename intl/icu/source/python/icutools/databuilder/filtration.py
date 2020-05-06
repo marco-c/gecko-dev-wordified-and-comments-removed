@@ -1251,6 +1251,21 @@ locale
 "
 root
 "
+"
+Invalid
+locale
+:
+%
+s
+/
+%
+s
+"
+%
+(
+tree
+locale
+)
             
 return
 None

@@ -26,9 +26,6 @@ ufieldpositer
 .
 h
 "
-#
-ifndef
-U_HIDE_DRAFT_API
 typedef
 enum
 UFieldCategory
@@ -68,7 +65,7 @@ struct
 UConstrainedFieldPosition
 UConstrainedFieldPosition
 ;
-U_DRAFT
+U_STABLE
 UConstrainedFieldPosition
 *
 U_EXPORT2
@@ -79,7 +76,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_reset
@@ -92,7 +89,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_close
@@ -102,7 +99,7 @@ UConstrainedFieldPosition
 ucfpos
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_constrainCategory
@@ -117,7 +114,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_constrainField
@@ -134,7 +131,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ucfpos_getCategory
@@ -148,7 +145,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 int32_t
 U_EXPORT2
 ucfpos_getField
@@ -162,7 +159,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_getIndexes
@@ -182,7 +179,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 int64_t
 U_EXPORT2
 ucfpos_getInt64IterationContext
@@ -196,7 +193,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_setInt64IterationContext
@@ -211,7 +208,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 ucfpos_matchesField
@@ -229,7 +226,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 void
 U_EXPORT2
 ucfpos_setState
@@ -258,7 +255,7 @@ struct
 UFormattedValue
 UFormattedValue
 ;
-U_DRAFT
+U_STABLE
 const
 UChar
 *
@@ -277,7 +274,7 @@ UErrorCode
 ec
 )
 ;
-U_DRAFT
+U_STABLE
 UBool
 U_EXPORT2
 ufmtval_nextPosition
@@ -306,8 +303,6 @@ ucfpos_close
 )
 ;
 U_NAMESPACE_END
-#
-endif
 #
 endif
 #

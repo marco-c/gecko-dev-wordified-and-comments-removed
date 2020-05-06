@@ -826,6 +826,11 @@ fa
 "
 "
 }
+fa_AF
+{
+"
+"
+}
 fan
 {
 "
@@ -2862,6 +2867,11 @@ Arab
 "
 "
 }
+Aran
+{
+"
+"
+}
 Armi
 {
 "
@@ -4395,9 +4405,7 @@ WADEGILE
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern

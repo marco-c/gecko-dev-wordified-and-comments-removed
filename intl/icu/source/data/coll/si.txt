@@ -38,9 +38,7 @@ si
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 collations
@@ -84,9 +82,7 @@ Mlym
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }
@@ -128,9 +124,7 @@ Mlym
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 }

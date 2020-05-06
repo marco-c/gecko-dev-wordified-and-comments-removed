@@ -271,12 +271,6 @@ pa
 punyab
 "
 }
-pcm
-{
-"
-pcm
-"
-}
 shu
 {
 "
@@ -332,7 +326,8 @@ tuviniano
 wuu
 {
 "
-wuu
+chino
+wu
 "
 }
 xal
@@ -489,9 +484,7 @@ gujarati
 Version
 {
 "
-36
-.
-1
+37
 "
 }
 characterLabelPattern
