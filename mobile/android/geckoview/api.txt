@@ -3578,6 +3578,7 @@ Parcel
 )
 ;
 method
+Deprecated
 UiThread
 NonNull
 public
@@ -3646,6 +3647,7 @@ shutdown
 )
 ;
 method
+Deprecated
 UiThread
 NonNull
 public
@@ -11733,6 +11735,7 @@ class
 WebExtension
 {
 ctor
+Deprecated
 public
 WebExtension
 (
@@ -11746,6 +11749,7 @@ WebExtensionController
 )
 ;
 ctor
+Deprecated
 public
 WebExtension
 (

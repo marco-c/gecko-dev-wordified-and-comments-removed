@@ -498,6 +498,7 @@ null
 ;
 }
 }
+Deprecated
 public
 WebExtension
 (
@@ -560,6 +561,7 @@ metaData
 null
 ;
 }
+Deprecated
 public
 WebExtension
 (
