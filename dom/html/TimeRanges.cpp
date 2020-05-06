@@ -641,7 +641,13 @@ current
 ;
 mRanges
 =
+std
+:
+:
+move
+(
 normalized
+)
 ;
 }
 }
@@ -833,7 +839,13 @@ j
 }
 mRanges
 =
+std
+:
+:
+move
+(
 intersection
+)
 ;
 }
 TimeRanges
