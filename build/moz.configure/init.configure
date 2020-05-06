@@ -7087,12 +7087,6 @@ append
 (
 arg
 )
-return
-arg
-add_old_configure_arg
-(
-js_option
-)
 js_option
 (
 env
