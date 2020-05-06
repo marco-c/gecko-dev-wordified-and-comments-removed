@@ -31,6 +31,9 @@ pub
 mod
 store
 ;
+mod
+sync
+;
 pub
 fn
 delme_demo_usage
