@@ -2068,6 +2068,9 @@ newExtension
 )
 ;
 }
+NonNull
+AnyThread
+public
 GeckoResult
 <
 WebExtension
@@ -2075,6 +2078,7 @@ WebExtension
 installBuiltIn
 (
 final
+NonNull
 String
 uri
 )
