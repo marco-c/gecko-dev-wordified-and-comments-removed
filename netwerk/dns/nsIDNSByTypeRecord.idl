@@ -111,11 +111,11 @@ TypeRecordResultType
 Variant
 <
 Nothing
-nsTArray
+CopyableTArray
 <
 nsCString
 >
-nsTArray
+CopyableTArray
 <
 SVCB
 >
@@ -131,7 +131,7 @@ ref
 native
 CStringArrayRef
 (
-nsTArray
+CopyableTArray
 <
 nsCString
 >

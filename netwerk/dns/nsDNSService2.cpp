@@ -1798,7 +1798,7 @@ nsDNSByTypeRecord
 :
 GetRecords
 (
-nsTArray
+CopyableTArray
 <
 nsCString
 >
