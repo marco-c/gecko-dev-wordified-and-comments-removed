@@ -270,14 +270,6 @@ set
 "
 Intl
 .
-NumberFormat
--
-unified
-"
-    
-"
-Intl
-.
 DateTimeFormat
 -
 fractionalSecondDigits
