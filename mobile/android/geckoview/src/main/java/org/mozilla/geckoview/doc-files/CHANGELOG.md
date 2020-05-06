@@ -94,6 +94,9 @@ Changelog
 .
 breaking
 change
+and
+deprecation
+notices
 #
 #
 v78
@@ -139,6 +142,17 @@ registerWebExtension
 .
 15
 ]
+which
+is
+now
+deprecated
+and
+will
+be
+removed
+in
+GeckoView
+81
 .
 [
 78
@@ -11394,4 +11408,4 @@ api
 version
 ]
 :
-7332ffcb19b3367e8ac43466f7aae13094fbb1fe
+b4568ed7ee3ee43aa741a01cb4571379d0399299
