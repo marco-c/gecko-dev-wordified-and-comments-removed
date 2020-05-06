@@ -1551,8 +1551,6 @@ nsIPrincipal
 *
 aMaybeScriptedPrincipal
 bool
-aValueMaybeChanged
-bool
 aNotify
 )
 ;
