@@ -3676,6 +3676,10 @@ xpcGCCallback
 callbacks
 (
 extraGCCallbacks
+.
+Clone
+(
+)
 )
 ;
 for
