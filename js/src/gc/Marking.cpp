@@ -7106,6 +7106,13 @@ data
 (
 )
 ;
+if
+(
+data
+.
+canonicalFunction
+)
+{
 traverseObjectEdge
 (
 scope
@@ -7114,6 +7121,7 @@ data
 canonicalFunction
 )
 ;
+}
 names
 =
 &
