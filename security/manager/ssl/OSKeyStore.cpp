@@ -269,11 +269,9 @@ if
 (
 r
 .
-size
+empty
 (
 )
-<
-1
 )
 {
 return
