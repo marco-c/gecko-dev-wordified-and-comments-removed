@@ -11190,9 +11190,6 @@ false
 )
 ;
 }
-#
-ifdef
-MOZ_BASE_PROFILER
 TEST
 (
 GeckoProfiler
@@ -11448,5 +11445,3 @@ profiler_is_active
 )
 ;
 }
-#
-endif

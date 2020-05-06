@@ -7,7 +7,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 ifdef
 XP_WIN

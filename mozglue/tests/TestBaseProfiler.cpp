@@ -97,7 +97,7 @@ h
 "
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 include
 "
@@ -17255,7 +17255,7 @@ TestBlocksRingBufferSerialization
 }
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 class
 BaseTestMarkerPayload
 :
@@ -19601,7 +19601,7 @@ endif
 {
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 printf
 (
 "

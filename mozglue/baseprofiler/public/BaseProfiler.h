@@ -5,14 +5,6 @@ BaseProfiler_h
 define
 BaseProfiler_h
 #
-ifdef
-MOZ_GECKO_PROFILER
-#
-define
-MOZ_BASE_PROFILER
-#
-endif
-#
 include
 "
 mozilla
@@ -23,7 +15,7 @@ h
 "
 #
 ifndef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 define
 AUTO_BASE_PROFILER_INIT

@@ -1045,7 +1045,7 @@ return
 }
 #
 ifdef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 int
 stackBase
 =

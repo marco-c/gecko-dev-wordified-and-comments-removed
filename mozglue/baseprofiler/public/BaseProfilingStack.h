@@ -29,7 +29,7 @@ h
 "
 #
 ifndef
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 #
 error
 Do
@@ -39,7 +39,7 @@ include
 this
 header
 when
-MOZ_BASE_PROFILER
+MOZ_GECKO_PROFILER
 is
 not
 #
