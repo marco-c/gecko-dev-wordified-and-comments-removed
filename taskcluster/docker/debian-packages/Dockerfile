@@ -37,3 +37,5 @@ essential
 devscripts
 \
 fakeroot
+\
+git

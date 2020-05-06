@@ -78,7 +78,7 @@ in
 -
 tree
 :
-debian7
+debian8
 -
 amd64
 -
@@ -313,7 +313,7 @@ in
 -
 tree
 :
-debian7
+debian8
 -
 mozjs
 -
@@ -784,7 +784,7 @@ in
 -
 tree
 :
-debian7
+debian8
 -
 i386
 -
