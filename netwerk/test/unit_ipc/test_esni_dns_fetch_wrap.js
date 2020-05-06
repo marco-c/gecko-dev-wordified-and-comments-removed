@@ -588,9 +588,7 @@ h2Port
 +
 "
 /
-esni
--
-dns
+doh
 "
 )
 ;
