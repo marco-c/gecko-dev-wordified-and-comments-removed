@@ -786,6 +786,10 @@ stream_get_latency
 =
 cbjack_get_latency
 .
+stream_get_input_latency
+=
+NULL
+.
 stream_set_volume
 =
 cbjack_stream_set_volume

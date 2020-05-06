@@ -9663,6 +9663,10 @@ stream_get_latency
 =
 opensl_stream_get_latency
 .
+stream_get_input_latency
+=
+NULL
+.
 stream_set_volume
 =
 opensl_stream_set_volume
