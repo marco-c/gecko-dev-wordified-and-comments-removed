@@ -1,5 +1,3 @@
-window
-.
 tests
 .
 set
