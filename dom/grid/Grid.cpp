@@ -527,6 +527,10 @@ const
 aAreas
 =
 mAreas
+.
+Clone
+(
+)
 ;
 }
 }
