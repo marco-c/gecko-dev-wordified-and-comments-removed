@@ -3,6 +3,10 @@ use
 strict
 "
 ;
+gReduceMotionOverride
+=
+false
+;
 function
 promiseWidgetAnimationOut
 (
