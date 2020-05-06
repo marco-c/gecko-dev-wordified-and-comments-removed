@@ -286,11 +286,6 @@ nsDOMJSUtils
 h
 '
 '
-nsDOMMutationObserver
-.
-h
-'
-'
 nsDOMNavigationTiming
 .
 h

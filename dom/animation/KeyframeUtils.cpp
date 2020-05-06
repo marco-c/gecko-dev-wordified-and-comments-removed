@@ -1833,9 +1833,6 @@ binding_detail
 FastBaseKeyframe
 keyframeDict
 ;
-dom
-:
-:
 BindingCallContext
 callCx
 (
