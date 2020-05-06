@@ -2514,11 +2514,6 @@ wr
 TransactionBuilder
 &
 aTxn
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
@@ -3056,11 +3051,6 @@ Epoch
 >
 mActiveAnimations
 ;
-wr
-:
-:
-RenderRootArray
-<
 std
 :
 :
@@ -3070,7 +3060,6 @@ uint64_t
 RefPtr
 <
 WebRenderImageHost
->
 >
 >
 mAsyncCompositables
