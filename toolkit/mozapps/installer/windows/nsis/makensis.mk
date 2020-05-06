@@ -748,7 +748,7 @@ CONFIG_DIR
 )
 (
 call
-py3_action
+py_action
 preprocessor
 -
 Fsubstitution
@@ -984,7 +984,7 @@ CONFIG_DIR
 )
 (
 call
-py3_action
+py_action
 preprocessor
 -
 Fsubstitution

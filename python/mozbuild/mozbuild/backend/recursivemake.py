@@ -11203,7 +11203,7 @@ add_commands
 '
 (
 call
-py3_action
+py_action
 buildlist
 %
 s
@@ -11262,7 +11262,7 @@ add_commands
 '
 (
 call
-py3_action
+py_action
 buildlist
 %
 s
@@ -11935,7 +11935,7 @@ RM
 '
 (
 call
-py3_action
+py_action
 preprocessor
 (
 DEFINES
@@ -12310,7 +12310,7 @@ RM
 '
 (
 call
-py3_action
+py_action
 preprocessor
 (
 DEFINES
