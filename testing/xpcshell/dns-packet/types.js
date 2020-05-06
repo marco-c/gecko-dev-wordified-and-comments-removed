@@ -324,13 +324,6 @@ return
 '
 ANY
 '
-case
-65345
-:
-return
-'
-HTTPSSVC
-'
 }
 return
 '
@@ -665,13 +658,6 @@ ANY
 :
 return
 255
-case
-'
-HTTPSSVC
-'
-:
-return
-65345
 case
 '
 *
