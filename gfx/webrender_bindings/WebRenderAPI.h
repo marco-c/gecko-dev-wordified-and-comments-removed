@@ -1574,7 +1574,6 @@ PrimitiveFlags
 :
 :
 IS_BACKFACE_VISIBLE
-false
 wr
 :
 :
@@ -1582,7 +1581,13 @@ MixBlendMode
 :
 :
 Normal
-false
+wr
+:
+:
+StackingContextFlags
+{
+0
+}
 }
 {
 }

@@ -101,6 +101,11 @@ type
 stacking
 -
 context
+blend
+-
+container
+:
+true
 bounds
 :
 [
