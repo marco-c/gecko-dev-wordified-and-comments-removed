@@ -225,6 +225,10 @@ aClonedFrom
 -
 >
 mCachedBuffer
+.
+Clone
+(
+)
 )
 mBufferSize
 (
