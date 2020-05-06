@@ -2487,6 +2487,11 @@ StyledRange
 aOutput
 )
 ;
+void
+UnregisterSelection
+(
+)
+;
 AutoTArray
 <
 StyledRange
