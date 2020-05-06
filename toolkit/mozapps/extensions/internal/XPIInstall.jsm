@@ -17792,6 +17792,11 @@ _activateAddon
 addon
 )
 ;
+return
+addon
+.
+wrapper
+;
 }
 async
 _activateAddon
