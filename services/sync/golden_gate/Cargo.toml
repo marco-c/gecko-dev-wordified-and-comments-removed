@@ -94,7 +94,7 @@ services
 rev
 =
 "
-43d69b250d8185ebc53e887b747d85a2a53c7298
+789a936d1a49917fe550360b8f3349fe4eba9169
 "
 }
 log
@@ -170,6 +170,11 @@ rust
 nsstring
 "
 }
+serde_json
+=
+"
+1
+"
 storage_variant
 =
 {
@@ -215,7 +220,7 @@ services
 rev
 =
 "
-43d69b250d8185ebc53e887b747d85a2a53c7298
+789a936d1a49917fe550360b8f3349fe4eba9169
 "
 }
 xpcom

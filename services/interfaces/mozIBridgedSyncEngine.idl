@@ -311,7 +311,7 @@ Array
 <
 AUTF8String
 >
-outgoingRecordsAsJSON
+outgoingEnvelopesAsJSON
 )
 ;
 /
@@ -1219,7 +1219,7 @@ Array
 <
 AUTF8String
 >
-incomingRecordsAsJSON
+incomingEnvelopesAsJSON
 in
 mozIBridgedSyncEngineCallback
 callback

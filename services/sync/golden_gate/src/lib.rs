@@ -59,6 +59,8 @@ sync15_traits
 {
 ApplyResults
 BridgedEngine
+IncomingEnvelope
+OutgoingEnvelope
 }
 ;
 pub
