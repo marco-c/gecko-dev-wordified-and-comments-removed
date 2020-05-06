@@ -128,7 +128,7 @@ std
 string
 mFragmentShaderString
 ;
-nsTArray
+CopyableTArray
 <
 std
 :
@@ -150,7 +150,7 @@ KnownUniform
 KnownUniformCount
 ]
 ;
-nsTArray
+CopyableTArray
 <
 const
 char

@@ -788,7 +788,7 @@ private
 int32_t
 mDescendantCount
 ;
-nsTArray
+CopyableTArray
 <
 size_t
 >

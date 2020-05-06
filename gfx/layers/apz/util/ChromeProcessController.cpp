@@ -318,7 +318,7 @@ PostTask
 (
 NewRunnableMethod
 <
-nsTArray
+CopyableTArray
 <
 MatrixMessage
 >

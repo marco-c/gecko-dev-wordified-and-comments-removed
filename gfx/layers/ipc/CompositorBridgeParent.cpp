@@ -7061,7 +7061,7 @@ NewRunnableMethod
 uint64_t
 StoreCopyPassByConstLRef
 <
-nsTArray
+CopyableTArray
 <
 ScrollableLayerGuid
 >
@@ -13336,6 +13336,10 @@ mCachedPluginData
 lts
 .
 mPluginData
+.
+Clone
+(
+)
 ;
 return
 true

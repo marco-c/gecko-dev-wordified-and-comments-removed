@@ -278,7 +278,7 @@ aOverrideCharCode
 )
 const
 ;
-nsTArray
+CopyableTArray
 <
 KeyboardShortcut
 >

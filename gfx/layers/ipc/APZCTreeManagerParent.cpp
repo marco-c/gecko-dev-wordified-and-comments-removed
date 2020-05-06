@@ -453,7 +453,13 @@ IAPZCTreeManager
 :
 SetTargetAPZC
 aInputBlockId
+std
+:
+:
+move
+(
 aTargets
+)
 )
 )
 ;

@@ -3625,6 +3625,10 @@ aInputBlockId
 mTargets
 (
 aTargets
+.
+Clone
+(
+)
 )
 {
 }

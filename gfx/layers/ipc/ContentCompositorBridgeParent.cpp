@@ -2051,6 +2051,10 @@ aInfo
 plugins
 (
 )
+.
+Clone
+(
+)
 ;
 state
 -

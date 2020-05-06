@@ -2611,6 +2611,10 @@ this
 mScrollMetadata
 =
 aMetadataArray
+.
+Clone
+(
+)
 ;
 ScrollMetadataChanged
 (
@@ -3285,6 +3289,10 @@ this
 mAncestorMaskLayers
 =
 aLayers
+.
+Clone
+(
+)
 ;
 Mutated
 (

@@ -2064,6 +2064,10 @@ mRecursiveMutex
 aImages
 =
 mCurrentImages
+.
+Clone
+(
+)
 ;
 if
 (
