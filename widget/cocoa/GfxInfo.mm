@@ -502,7 +502,7 @@ mOSXVersion
 nsCocoaFeatures
 :
 :
-OSXVersion
+macOSVersion
 (
 )
 ;
