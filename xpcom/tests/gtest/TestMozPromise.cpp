@@ -289,8 +289,9 @@ protected
 DelayedResolveOrReject
 (
 )
-{
-}
+=
+default
+;
 private
 :
 RefPtr
@@ -1431,7 +1432,7 @@ queue
 ]
 (
 const
-nsTArray
+CopyableTArray
 <
 int
 >

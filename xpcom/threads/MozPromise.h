@@ -1358,7 +1358,7 @@ p
 typedef
 MozPromise
 <
-nsTArray
+CopyableTArray
 <
 ResolveValueType
 >
@@ -1660,7 +1660,7 @@ AllPromiseType
 :
 CreateAndResolve
 (
-nsTArray
+CopyableTArray
 <
 ResolveValueType
 >
