@@ -130,7 +130,7 @@ Address
 nsString
 country
 ;
-nsTArray
+CopyableTArray
 <
 nsString
 >
