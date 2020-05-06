@@ -329,7 +329,7 @@ grep
 -
 q
 ^
-8
+7
 \
 \
 .
@@ -339,6 +339,14 @@ etc
 debian_version
 ;
 then
+\
+BACKPORT
+=
+/
+wheezy
+-
+backports
+;
 \
 PKG_CONFIG
 =
@@ -372,7 +380,7 @@ grep
 -
 q
 ^
-8
+7
 \
 \
 .
@@ -388,10 +396,11 @@ LIBSTDCXX
 libstdc
 +
 +
+6
 -
 4
 .
-9
+4
 -
 dev
 ;
@@ -536,6 +545,7 @@ utils
 xvfb
 \
 yasm
+BACKPORT
 \
 zip
 \
@@ -544,6 +554,7 @@ linux
 libc
 -
 dev
+BACKPORT
 \
 linux
 -
@@ -552,6 +563,7 @@ libc
 dev
 :
 ARCH
+BACKPORT
 \
 PKG_CONFIG
 \
