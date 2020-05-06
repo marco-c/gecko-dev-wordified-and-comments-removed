@@ -108,18 +108,6 @@ test_manifest
 '
     
 '
-Tup
-'
-:
-'
-mozbuild
-.
-backend
-.
-tup
-'
-    
-'
 VisualStudio
 '
 :
