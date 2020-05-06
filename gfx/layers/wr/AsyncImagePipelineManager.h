@@ -120,8 +120,6 @@ AsyncImagePipelineManager
 explicit
 AsyncImagePipelineManager
 (
-nsTArray
-<
 RefPtr
 <
 wr
@@ -129,10 +127,9 @@ wr
 :
 WebRenderAPI
 >
->
 &
 &
-aApis
+aApi
 bool
 aUseCompositorWnd
 )
@@ -1124,8 +1121,6 @@ CheckForTextureHostsNotUsedByGPU
 (
 )
 ;
-nsTArray
-<
 RefPtr
 <
 wr
@@ -1133,8 +1128,7 @@ wr
 :
 WebRenderAPI
 >
->
-mApis
+mApi
 ;
 bool
 mUseCompositorWnd
