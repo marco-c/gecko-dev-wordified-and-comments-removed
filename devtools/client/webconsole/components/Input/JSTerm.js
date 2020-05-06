@@ -3584,9 +3584,6 @@ hidePopup
 else
 if
 (
-completionText
-&
-&
 !
 change
 .
@@ -3594,6 +3591,9 @@ canceled
 &
 &
 (
+completionText
+|
+|
 addedCharacterMatchCompletion
 |
 |
