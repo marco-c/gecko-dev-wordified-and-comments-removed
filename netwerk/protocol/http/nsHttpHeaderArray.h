@@ -589,7 +589,7 @@ nsHttpAtom
 header
 )
 ;
-nsTArray
+CopyableTArray
 <
 nsEntry
 >

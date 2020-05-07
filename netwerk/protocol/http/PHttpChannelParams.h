@@ -136,7 +136,7 @@ mEmpty
 }
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 RequestHeaderTuple
 >

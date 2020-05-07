@@ -1641,6 +1641,8 @@ aProxyConnectFailed
 aTimings
 aProxyConnectResponseCode
 aDataForSniffer
+=
+CopyableTArray
 {
 std
 :

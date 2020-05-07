@@ -1029,7 +1029,7 @@ ResourceTimingStructArgs
 const
 nsHttpHeaderArray
 const
-nsTArray
+CopyableTArray
 <
 ConsoleReportCollected
 >

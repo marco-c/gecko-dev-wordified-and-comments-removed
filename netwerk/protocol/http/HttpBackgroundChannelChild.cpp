@@ -847,7 +847,13 @@ aChannelStatus
 aTiming
 aLastActiveTabOptHit
 aResponseTrailers
+consoleReports
+=
 aConsoleReports
+.
+Clone
+(
+)
 ]
 {
 self
@@ -859,7 +865,7 @@ aChannelStatus
 aTiming
 aLastActiveTabOptHit
 aResponseTrailers
-aConsoleReports
+consoleReports
 )
 ;
 }
