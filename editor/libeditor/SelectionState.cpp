@@ -386,7 +386,8 @@ mDirection
 ErrorResult
 error
 ;
-AutoTArray
+const
+CopyableAutoTArray
 <
 RefPtr
 <
@@ -401,6 +402,7 @@ mArray
 ;
 for
 (
+const
 RefPtr
 <
 RangeItem
