@@ -19370,7 +19370,7 @@ IPC_OK
 )
 ;
 }
-MediaActionHandler
+ContentMediaActionHandler
 :
 :
 HandleMediaControlKeysEvent

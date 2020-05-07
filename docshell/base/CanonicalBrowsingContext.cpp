@@ -1437,7 +1437,7 @@ MediaControlKeysEvent
 aEvent
 )
 {
-MediaActionHandler
+ContentMediaActionHandler
 :
 :
 HandleMediaControlKeysEvent
