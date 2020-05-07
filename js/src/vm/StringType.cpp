@@ -683,7 +683,7 @@ size
 Nursery
 :
 :
-stringHeaderSize
+nurseryCellHeaderSize
 (
 )
 ;
