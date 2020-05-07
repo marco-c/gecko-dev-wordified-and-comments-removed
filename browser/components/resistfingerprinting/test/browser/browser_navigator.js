@@ -117,9 +117,7 @@ android
 0
 (
 Android
-8
-.
-1
+9
 )
 "
 other
@@ -258,9 +256,7 @@ android
 :
 "
 Android
-8
-.
-1
+9
 ;
 Mobile
 "
@@ -309,9 +305,7 @@ android
 :
 "
 Android
-8
-.
-1
+9
 ;
 Mobile
 "
