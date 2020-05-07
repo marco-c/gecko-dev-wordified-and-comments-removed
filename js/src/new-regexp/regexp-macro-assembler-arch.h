@@ -1141,7 +1141,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 entry_label_
 ;
 js
@@ -1150,7 +1150,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 start_label_
 ;
 js
@@ -1159,7 +1159,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 backtrack_label_
 ;
 js
@@ -1168,7 +1168,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 success_label_
 ;
 js
@@ -1177,7 +1177,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 exit_label_
 ;
 js
@@ -1186,7 +1186,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 stack_overflow_label_
 ;
 js
@@ -1195,7 +1195,7 @@ js
 jit
 :
 :
-NonAssertingLabel
+Label
 exit_with_exception_label_
 ;
 class
