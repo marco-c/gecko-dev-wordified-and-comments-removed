@@ -912,6 +912,10 @@ aParams
 GetFilters
 (
 )
+.
+Clone
+(
+)
 ;
 aParams
 -

@@ -3751,6 +3751,10 @@ mutant
 GetAnimations
 (
 )
+.
+Clone
+(
+)
 ;
 common
 .
@@ -3779,6 +3783,10 @@ mutant
 -
 >
 GetAllScrollMetadata
+(
+)
+.
+Clone
 (
 )
 ;
@@ -4016,6 +4024,10 @@ mTxn
 -
 >
 mDestroyedActors
+.
+Clone
+(
+)
 ;
 info
 .
@@ -4042,6 +4054,10 @@ plugins
 )
 =
 mPluginWindowData
+.
+Clone
+(
+)
 ;
 info
 .
@@ -4159,6 +4175,10 @@ payload
 )
 =
 aPayload
+.
+Clone
+(
+)
 ;
 TargetConfig
 targetConfig

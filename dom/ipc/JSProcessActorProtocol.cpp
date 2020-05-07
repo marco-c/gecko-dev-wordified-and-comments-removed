@@ -160,6 +160,10 @@ remoteTypes
 )
 =
 mRemoteTypes
+.
+Clone
+(
+)
 ;
 info
 .
@@ -180,6 +184,10 @@ observers
 mChild
 .
 mObservers
+.
+Clone
+(
+)
 ;
 return
 info

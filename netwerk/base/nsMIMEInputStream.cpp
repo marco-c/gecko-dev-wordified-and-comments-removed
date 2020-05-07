@@ -1502,6 +1502,10 @@ headers
 )
 =
 mHeaders
+.
+Clone
+(
+)
 ;
 params
 .

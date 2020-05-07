@@ -1119,6 +1119,10 @@ urlList
 )
 =
 mURLList
+.
+Clone
+(
+)
 ;
 mHeaders
 -

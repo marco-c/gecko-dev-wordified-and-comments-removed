@@ -2020,7 +2020,13 @@ proxyInfo
 (
 )
 =
+std
+:
+:
+move
+(
 proxyInfoArray
+)
 ;
 }
 already_AddRefed
