@@ -194,7 +194,7 @@ mobileDeviceConnected
 }
 ;
 const
-mockGetMonitorDataForLockwiseCard
+mockGetMonitorData
 =
 (
 potentiallyBreachedLogins
@@ -234,7 +234,7 @@ monitoredEmails
 1
 numBreaches
 :
-3
+11
 passwords
 :
 8
