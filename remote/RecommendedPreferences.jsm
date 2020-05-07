@@ -24,15 +24,6 @@ testmode
 :
 true
 "
-gfx
-.
-color_management
-.
-force_srgb
-"
-:
-true
-"
 toolkit
 .
 startup
