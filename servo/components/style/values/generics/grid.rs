@@ -3224,10 +3224,7 @@ fill_data
 unwrap_or
 (
 (
-usize
-:
-:
-MAX
+0
 0
 )
 )
@@ -3329,6 +3326,11 @@ enumerate
 )
 {
 if
+fill_len
+>
+0
+&
+&
 i
 =
 =
@@ -3419,6 +3421,11 @@ write_str
 ?
 ;
 if
+fill_len
+>
+0
+&
+&
 i
 =
 =
