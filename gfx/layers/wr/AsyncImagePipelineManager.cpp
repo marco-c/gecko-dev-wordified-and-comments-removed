@@ -3139,15 +3139,12 @@ mPendingUpdates
 layers
 :
 :
-CompositorThreadHolder
-:
-:
-Loop
+CompositorThread
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NewRunnableMethod
 (

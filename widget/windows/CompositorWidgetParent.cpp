@@ -1146,15 +1146,7 @@ Then
 layers
 :
 :
-CompositorThreadHolder
-:
-:
-Loop
-(
-)
--
->
-SerialEventTarget
+CompositorThread
 (
 )
 __func__
