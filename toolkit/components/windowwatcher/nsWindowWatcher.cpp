@@ -3552,6 +3552,17 @@ if
 newBC
 )
 {
+if
+(
+XRE_IsContentProcess
+(
+)
+)
+{
+return
+NS_OK
+;
+}
 windowIsNew
 =
 true
