@@ -1803,6 +1803,10 @@ rootDoc
 ;
 if
 (
+!
+doc
+|
+|
 isStale
 (
 doc
