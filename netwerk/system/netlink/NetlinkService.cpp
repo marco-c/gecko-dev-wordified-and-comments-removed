@@ -10999,6 +10999,10 @@ mMutex
 aDnsSuffixList
 =
 mDNSSuffixList
+.
+Clone
+(
+)
 ;
 return
 NS_OK
