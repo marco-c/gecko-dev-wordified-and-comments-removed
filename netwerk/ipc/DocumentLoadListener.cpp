@@ -3637,8 +3637,6 @@ ContinueVerification
 this
 )
 ;
-return
-;
 }
 NS_IMETHODIMP
 DocumentLoadListener
