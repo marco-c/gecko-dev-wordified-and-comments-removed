@@ -1188,7 +1188,7 @@ linux64
 -
 liblowercase
 -
-win64
+linux64
 -
 winchecksec
 fetch
@@ -1436,7 +1436,7 @@ linux64
 -
 liblowercase
 -
-win64
+linux64
 -
 winchecksec
 fetch
