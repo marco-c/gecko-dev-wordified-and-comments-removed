@@ -5263,12 +5263,6 @@ aTabOpener
 ShowFocusRings
 (
 )
-browsingContext
--
->
-OriginAttributesRef
-(
-)
 aTabOpener
 -
 >
@@ -5292,12 +5286,6 @@ SetTabContext
 (
 0
 UIStateChangeType_NoChange
-browsingContext
--
->
-OriginAttributesRef
-(
-)
 EmptyString
 (
 )
