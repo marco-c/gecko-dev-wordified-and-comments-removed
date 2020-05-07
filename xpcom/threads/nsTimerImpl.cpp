@@ -1668,7 +1668,7 @@ nsITimerCallback
 *
 aCallback
 uint32_t
-aDelay
+aDelayInMs
 uint32_t
 aType
 )
@@ -1682,7 +1682,7 @@ TimeDuration
 :
 FromMilliseconds
 (
-aDelay
+aDelayInMs
 )
 aType
 )
@@ -1781,7 +1781,7 @@ nsIObserver
 *
 aObserver
 uint32_t
-aDelay
+aDelayInMs
 uint32_t
 aType
 )
@@ -1840,7 +1840,7 @@ mMutex
 return
 InitCommon
 (
-aDelay
+aDelayInMs
 aType
 std
 :
