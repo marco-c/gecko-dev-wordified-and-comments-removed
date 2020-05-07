@@ -33991,16 +33991,6 @@ Scalar
 :
 :
 MaxTypedArrayViewType
-|
-|
-Scalar
-:
-:
-isBigIntType
-(
-*
-arrayType
-)
 )
 {
 return

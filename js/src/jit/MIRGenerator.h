@@ -469,6 +469,16 @@ stringsCanBeInNursery_
 ;
 }
 bool
+bigIntsCanBeInNursery
+(
+)
+const
+{
+return
+bigIntsCanBeInNursery_
+;
+}
+bool
 safeForMinorGC
 (
 )
@@ -689,6 +699,9 @@ safeForMinorGC_
 ;
 bool
 stringsCanBeInNursery_
+;
+bool
+bigIntsCanBeInNursery_
 ;
 uint32_t
 minWasmHeapLength_
