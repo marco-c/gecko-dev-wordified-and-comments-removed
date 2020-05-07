@@ -1836,6 +1836,22 @@ args
         
 return
     
+sys
+.
+stdout
+.
+flush
+(
+)
+    
+sys
+.
+stderr
+.
+flush
+(
+)
+    
 yes
 =
 '
@@ -1870,19 +1886,6 @@ subprocess
 Popen
 (
 args
-                            
-stdout
-=
-subprocess
-.
-PIPE
-                            
-stderr
-=
-subprocess
-.
-STDOUT
-                            
 stdin
 =
 subprocess
@@ -1890,9 +1893,6 @@ subprocess
 PIPE
 )
     
-output
-unused_err
-=
 proc
 .
 communicate
@@ -1929,19 +1929,8 @@ retcode
 cmd
 )
         
-e
-.
-output
-=
-output
-        
 raise
 e
-    
-print
-(
-output
-)
 def
 suggest_mozconfig
 (
