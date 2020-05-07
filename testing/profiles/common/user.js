@@ -645,11 +645,9 @@ false
 user_pref
 (
 "
-geo
+browser
 .
-provider
--
-country
+region
 .
 network
 .
