@@ -2447,10 +2447,8 @@ this
 .
 mLauncher
 .
-saveToDisk
+promptForSaveDestination
 (
-null
-false
 )
 ;
 this
@@ -4300,8 +4298,6 @@ mLauncher
 .
 launchWithApplication
 (
-null
-false
 )
 ;
 }

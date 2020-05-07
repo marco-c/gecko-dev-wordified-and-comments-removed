@@ -127,10 +127,8 @@ launcher
 {
 launcher
 .
-saveToDisk
+promptForSaveDestination
 (
-null
-false
 )
 ;
 }
