@@ -6347,13 +6347,6 @@ IsVertical
 (
 )
 ;
-if
-(
-UsesOverlayScrollbars
-(
-)
-)
-{
 nsIFrame
 *
 box
@@ -6456,7 +6449,6 @@ size
 width
 )
 ;
-}
 }
 nsMargin
 sizes
