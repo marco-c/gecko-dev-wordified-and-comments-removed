@@ -216,6 +216,15 @@ if
 (
 !
 content
+|
+|
+!
+content
+-
+>
+GetPrimaryFrame
+(
+)
 )
 {
 return
