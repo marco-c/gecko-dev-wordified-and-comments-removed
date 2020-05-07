@@ -92,7 +92,7 @@ size_t
 kBucketCount_MAX
 ;
 typedef
-nsTArray
+CopyableTArray
 <
 Count
 >

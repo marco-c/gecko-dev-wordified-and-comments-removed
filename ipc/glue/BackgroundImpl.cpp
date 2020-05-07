@@ -6177,8 +6177,12 @@ ParentImpl
 >
 actorsToClose
 (
-*
 mActorArray
+-
+>
+Clone
+(
+)
 )
 ;
 for
