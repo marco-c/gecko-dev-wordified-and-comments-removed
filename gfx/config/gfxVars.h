@@ -394,6 +394,13 @@ AllowSacrificingSubpixelAA
 bool
 false
 )
+\
+_
+(
+DwmCompositionEnabled
+bool
+true
+)
 class
 gfxVars
 final
