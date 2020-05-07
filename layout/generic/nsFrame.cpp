@@ -3255,7 +3255,7 @@ static
 void
 MaybeScheduleReflowSVGNonDisplayText
 (
-nsFrame
+nsIFrame
 *
 aFrame
 )
@@ -4876,7 +4876,7 @@ AddAndRemoveImageAssociations
 ImageLoader
 &
 aImageLoader
-nsFrame
+nsIFrame
 *
 aFrame
 const
@@ -5913,7 +5913,7 @@ MarkNeedsDisplayItemRebuild
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle
@@ -11857,7 +11857,7 @@ aFrame
 ;
 }
 int16_t
-nsFrame
+nsIFrame
 :
 :
 DetermineDisplaySelection
@@ -21548,7 +21548,7 @@ dispatch
 }
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -21686,7 +21686,7 @@ NS_OK
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 GetDataForTableSelection
@@ -22395,7 +22395,7 @@ this
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandlePress
@@ -23287,7 +23287,7 @@ rv
 ;
 }
 nsresult
-nsFrame
+nsIFrame
 :
 :
 SelectByTypeAtPoint
@@ -23412,7 +23412,7 @@ aSelectFlags
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleMultiplePress
@@ -23889,7 +23889,7 @@ aAmountBack
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleDrag
@@ -24460,7 +24460,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-nsFrame
+nsIFrame
 :
 :
 HandleRelease
@@ -27535,7 +27535,7 @@ Yes
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 MarkIntrinsicISizesDirty
@@ -29376,7 +29376,7 @@ AspectRatio
 ;
 }
 LogicalSize
-nsFrame
+nsIFrame
 :
 :
 ComputeSize
@@ -33318,7 +33318,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 LogicalSize
-nsFrame
+nsIFrame
 :
 :
 ComputeAutoSize
@@ -33433,7 +33433,7 @@ result
 ;
 }
 nscoord
-nsFrame
+nsIFrame
 :
 :
 ShrinkWidthToFit
@@ -34291,7 +34291,7 @@ false
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 Reflow
@@ -46100,7 +46100,7 @@ nsIFrame
 :
 :
 FrameSearchResult
-nsFrame
+nsIFrame
 :
 :
 PeekOffsetWord
@@ -46259,7 +46259,7 @@ CONTINUE
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 BreakWordBetweenPunctuation
@@ -51162,7 +51162,7 @@ nullptr
 }
 ComputedStyle
 *
-nsFrame
+nsIFrame
 :
 :
 DoGetParentComputedStyle
@@ -52557,19 +52557,6 @@ endif
 }
 return
 NS_OK
-;
-}
-nsILineIterator
-*
-nsFrame
-:
-:
-GetLineIterator
-(
-)
-{
-return
-nullptr
 ;
 }
 nsSize
@@ -54701,7 +54688,7 @@ endif
 }
 nsBoxLayoutMetrics
 *
-nsFrame
+nsIFrame
 :
 :
 BoxMetrics
