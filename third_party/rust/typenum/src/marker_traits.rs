@@ -34,6 +34,10 @@ Ordering
 pub
 trait
 Bit
+:
+Copy
++
+Default
 {
 #
 [
@@ -93,6 +97,10 @@ bool
 pub
 trait
 Unsigned
+:
+Copy
++
+Default
 {
 #
 [

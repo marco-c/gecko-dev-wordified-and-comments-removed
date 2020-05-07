@@ -120,7 +120,7 @@ version
 "
 1
 .
-10
+12
 .
 0
 "
@@ -272,6 +272,10 @@ typenum
 "
 [
 features
+]
+force_unix_path_separator
+=
+[
 ]
 i128
 =

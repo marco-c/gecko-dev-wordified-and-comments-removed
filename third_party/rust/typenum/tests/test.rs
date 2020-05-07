@@ -2,7 +2,7 @@
 [
 cfg
 (
-tests
+test
 )
 ]
 include
