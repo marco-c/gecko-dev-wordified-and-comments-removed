@@ -893,7 +893,9 @@ browser
 .
 fixup
 .
-domainsuffixwhitelist
+domainwhitelist
+.
+mochi
 .
 test
 "
