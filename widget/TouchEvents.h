@@ -437,7 +437,7 @@ WidgetInputEvent
 public
 :
 typedef
-CopyableTArray
+nsTArray
 <
 RefPtr
 <

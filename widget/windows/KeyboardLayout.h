@@ -598,7 +598,7 @@ private
 nsAutoString
 mChars
 ;
-AutoTArray
+CopyableAutoTArray
 <
 Modifiers
 5

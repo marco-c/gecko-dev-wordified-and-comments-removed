@@ -3963,7 +3963,7 @@ NewRunnableMethod
 uint64_t
 StoreCopyPassByLRef
 <
-CopyableTArray
+nsTArray
 <
 TouchBehaviorFlags
 >
