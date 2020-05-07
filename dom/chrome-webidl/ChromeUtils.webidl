@@ -3148,9 +3148,6 @@ WebIDLProcType
 web
 "
 "
-webIsolated
-"
-"
 file
 "
 "
@@ -3160,13 +3157,7 @@ extension
 privilegedabout
 "
 "
-privilegedmozilla
-"
-"
 webLargeAllocation
-"
-"
-withCoopCoep
 "
 "
 browser
@@ -3334,12 +3325,6 @@ long
 ChildID
 =
 0
-;
-DOMString
-origin
-=
-"
-"
 ;
 WebIDLProcType
 type
