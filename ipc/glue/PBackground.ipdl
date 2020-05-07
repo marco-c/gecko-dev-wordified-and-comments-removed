@@ -58,10 +58,6 @@ MPL
 /
 include
 protocol
-PBackgroundDataBridge
-;
-include
-protocol
 PBackgroundIDBFactory
 ;
 include
@@ -335,9 +331,6 @@ protocol
 PBackground
 {
 manages
-PBackgroundDataBridge
-;
-manages
 PBackgroundIDBFactory
 ;
 manages
@@ -493,13 +486,6 @@ PBackgroundTest
 (
 nsCString
 testArg
-)
-;
-async
-PBackgroundDataBridge
-(
-uint64_t
-channelID
 )
 ;
 async

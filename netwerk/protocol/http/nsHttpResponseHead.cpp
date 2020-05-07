@@ -5714,7 +5714,6 @@ nsHttpResponseHead
 HasContentType
 (
 )
-const
 {
 RecursiveMutexAutoLock
 monitor

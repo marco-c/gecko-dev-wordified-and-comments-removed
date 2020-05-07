@@ -2254,11 +2254,6 @@ nsresult
 aStatus
 )
 ;
-void
-MaybeConnectToSocketProcess
-(
-)
-;
 [
 [
 nodiscard
