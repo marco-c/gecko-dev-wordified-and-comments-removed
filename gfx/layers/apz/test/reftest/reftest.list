@@ -920,6 +920,13 @@ apz
 allow_zooming
 true
 )
+pref
+(
+apz
+.
+allow_zooming_out
+true
+)
 =
 =
 scrollbar
