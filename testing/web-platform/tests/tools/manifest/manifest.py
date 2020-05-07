@@ -24,8 +24,6 @@ PY3
     
 binary_type
     
-ensure_text
-    
 iteritems
     
 itervalues
