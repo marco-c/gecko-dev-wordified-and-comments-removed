@@ -61,6 +61,16 @@ user_pref
 "
 network
 .
+preload
+"
+true
+)
+;
+user_pref
+(
+"
+network
+.
 proxy
 .
 type
