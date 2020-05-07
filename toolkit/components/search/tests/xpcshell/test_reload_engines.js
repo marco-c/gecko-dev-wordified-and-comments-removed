@@ -718,9 +718,11 @@ prefs
 setCharPref
 (
 "
-browser
+geo
 .
-region
+provider
+-
+country
 .
 network
 .
@@ -931,9 +933,11 @@ prefs
 setCharPref
 (
 "
-browser
+geo
 .
-region
+provider
+-
+country
 .
 network
 .
