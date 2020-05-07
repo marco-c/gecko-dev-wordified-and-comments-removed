@@ -805,6 +805,13 @@ NS_WARN_IF
 (
 mPointToInsert
 .
+GetChild
+(
+)
+&
+&
+mPointToInsert
+.
 GetContainer
 (
 )
