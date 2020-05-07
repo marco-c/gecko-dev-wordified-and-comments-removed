@@ -80,6 +80,11 @@ ContentMediaController
 h
 '
 '
+ContentPlaybackController
+.
+h
+'
+'
 FetchImageHelper
 .
 h
@@ -106,11 +111,6 @@ h
 '
 '
 MediaControlUtils
-.
-h
-'
-'
-PlaybackController
 .
 h
 '
@@ -142,6 +142,11 @@ ContentMediaController
 cpp
 '
 '
+ContentPlaybackController
+.
+cpp
+'
+'
 FetchImageHelper
 .
 cpp
@@ -168,11 +173,6 @@ cpp
 '
 '
 MediaControlUtils
-.
-cpp
-'
-'
-PlaybackController
 .
 cpp
 '

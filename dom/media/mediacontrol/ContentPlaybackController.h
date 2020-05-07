@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_MEDIA_MEDIACONTROL_PLAYBACKCONTROLLER_H_
+DOM_MEDIA_MEDIACONTROL_CONTENTPLAYBACKCONTROLLER_H_
 #
 define
-DOM_MEDIA_MEDIACONTROL_PLAYBACKCONTROLLER_H_
+DOM_MEDIA_MEDIACONTROL_CONTENTPLAYBACKCONTROLLER_H_
 #
 include
 "
@@ -40,12 +40,12 @@ MediaSession
 ;
 class
 MOZ_STACK_CLASS
-PlaybackController
+ContentPlaybackController
 {
 public
 :
 explicit
-PlaybackController
+ContentPlaybackController
 (
 BrowsingContext
 *
@@ -53,7 +53,7 @@ aContext
 )
 ;
 ~
-PlaybackController
+ContentPlaybackController
 (
 )
 =

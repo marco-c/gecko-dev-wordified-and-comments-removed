@@ -1,7 +1,7 @@
 #
 include
 "
-PlaybackController
+ContentPlaybackController
 .
 h
 "
@@ -64,7 +64,7 @@ Debug
 \
 (
 "
-PlaybackController
+ContentPlaybackController
 =
 %
 p
@@ -82,10 +82,10 @@ mozilla
 namespace
 dom
 {
-PlaybackController
+ContentPlaybackController
 :
 :
-PlaybackController
+ContentPlaybackController
 (
 BrowsingContext
 *
@@ -104,7 +104,7 @@ aContext
 }
 MediaSession
 *
-PlaybackController
+ContentPlaybackController
 :
 :
 GetMediaSession
@@ -167,7 +167,7 @@ nullptr
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 NotifyContentControlKeyEventReceiver
@@ -222,7 +222,7 @@ aEvent
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 NotifyMediaSession
@@ -274,7 +274,7 @@ aAction
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 NotifyMediaSessionWhenActionIsSupported
@@ -299,7 +299,7 @@ aAction
 }
 }
 bool
-PlaybackController
+ContentPlaybackController
 :
 :
 IsMediaSessionActionSupported
@@ -334,7 +334,7 @@ false
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 Focus
@@ -372,7 +372,7 @@ System
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 Play
@@ -415,7 +415,7 @@ ePlay
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 Pause
@@ -458,7 +458,7 @@ ePause
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 SeekBackward
@@ -475,7 +475,7 @@ Seekbackward
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 SeekForward
@@ -492,7 +492,7 @@ Seekforward
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 PreviousTrack
@@ -509,7 +509,7 @@ Previoustrack
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 NextTrack
@@ -526,7 +526,7 @@ Nexttrack
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 SkipAd
@@ -537,7 +537,7 @@ return
 ;
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 Stop
@@ -580,7 +580,7 @@ eStop
 }
 }
 void
-PlaybackController
+ContentPlaybackController
 :
 :
 SeekTo
@@ -603,7 +603,7 @@ MediaControlKeysEvent
 aEvent
 )
 {
-PlaybackController
+ContentPlaybackController
 controller
 (
 aContext
