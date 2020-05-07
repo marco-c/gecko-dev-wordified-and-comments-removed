@@ -880,6 +880,15 @@ GetWarningReporter
 (
 )
 ;
+bool
+OnDataAlreadySent
+(
+)
+{
+return
+mDataAlreadySent
+;
+}
 public
 :
 uint32_t
@@ -3010,6 +3019,11 @@ mTopWindowOriginComputed
 ;
 uint32_t
 mHasCrossOriginOpenerPolicyMismatch
+:
+1
+;
+uint32_t
+mDataAlreadySent
 :
 1
 ;

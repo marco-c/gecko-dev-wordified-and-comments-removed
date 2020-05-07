@@ -17,6 +17,13 @@ content_decryption_module
 h
 "
 ;
+include
+"
+GMPMessageUtils
+.
+h
+"
+;
 namespace
 mozilla
 {
