@@ -733,6 +733,9 @@ innerWindowId
 uint64_t
 outerWindowId
 ;
+bool
+allowMixedContent
+;
 }
 ;
 struct
