@@ -508,10 +508,15 @@ NS_OK
 if
 (
 !
-nsUXThemeData
+gfxWindowsPlatform
 :
 :
-CheckForCompositor
+GetPlatform
+(
+)
+-
+>
+DwmCompositionEnabled
 (
 )
 )
