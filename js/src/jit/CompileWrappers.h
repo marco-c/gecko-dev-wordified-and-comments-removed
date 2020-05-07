@@ -283,6 +283,16 @@ setMinorGCShouldCancelIonCompilations
 (
 )
 ;
+uintptr_t
+nurseryCellHeader
+(
+JS
+:
+:
+TraceKind
+kind
+)
+;
 }
 ;
 class
