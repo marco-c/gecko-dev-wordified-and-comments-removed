@@ -24832,12 +24832,6 @@ lir
 ins
 )
 ;
-assignSafepoint
-(
-lir
-ins
-)
-;
 }
 else
 {
