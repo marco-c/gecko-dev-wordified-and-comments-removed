@@ -585,6 +585,10 @@ mFrameRequestCallbackCounter
 mEnabledReferenceSpaceTypes
 (
 aEnabledReferenceSpaceTypes
+.
+Clone
+(
+)
 )
 mViewerPosePoolIndex
 (
