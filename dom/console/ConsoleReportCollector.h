@@ -258,6 +258,10 @@ aMessageName
 mStringParams
 (
 aStringParams
+.
+Clone
+(
+)
 )
 {
 }
@@ -293,7 +297,7 @@ nsCString
 mMessageName
 ;
 const
-nsTArray
+CopyableTArray
 <
 nsString
 >
