@@ -2508,14 +2508,14 @@ if
 (
 flags
 &
-NON_ATOM_BIT
+ATOM_BIT
 )
 out
 .
 put
 (
 "
-NON_ATOM
+ATOM
 "
 )
 ;
@@ -2526,6 +2526,7 @@ put
 (
 "
 (
+NON
 ATOM
 )
 "
