@@ -2302,7 +2302,10 @@ Zone
 zone
 size_t
 size
-AllocKind
+JS
+:
+:
+TraceKind
 kind
 )
 {
