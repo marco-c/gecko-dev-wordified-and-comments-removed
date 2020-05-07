@@ -1219,7 +1219,10 @@ mFontSizeOffset
 )
 mFontSizeKeyword
 (
-NS_STYLE_FONT_SIZE_MEDIUM
+StyleFontSize
+:
+:
+Medium
 )
 mGenericID
 (

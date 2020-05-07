@@ -368,7 +368,10 @@ mFontSizeFactor
 nscoord
 mFontSizeOffset
 ;
-uint8_t
+mozilla
+:
+:
+StyleFontSize
 mFontSizeKeyword
 ;
 mozilla
