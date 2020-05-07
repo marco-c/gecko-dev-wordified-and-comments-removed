@@ -166,9 +166,7 @@ fenix
 .
 v2
 .
-performance
--
-test
+nightly
 .
 latest
 name
@@ -196,9 +194,7 @@ fenix
 .
 v2
 .
-performance
--
-test
+nightly
 .
 latest
 name
@@ -435,7 +431,7 @@ mozilla
 .
 fenix
 .
-performancetest
+nightly
 geckoview
 :
 org

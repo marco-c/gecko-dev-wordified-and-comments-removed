@@ -952,7 +952,7 @@ g5
 -
 fenix
 .
-performancetest
+nightly
 dependencies
 :
 build
@@ -1039,9 +1039,7 @@ fenix
 .
 v2
 .
-performance
--
-test
+nightly
 .
 latest
 /
@@ -1121,7 +1119,7 @@ mozilla
 .
 fenix
 .
-performancetest
+nightly
 .
 .
 /
@@ -1496,7 +1494,7 @@ p2_aarch64
 -
 fenix
 .
-performancetest
+nightly
 dependencies
 :
 build
@@ -1585,9 +1583,7 @@ fenix
 .
 v2
 .
-performance
--
-test
+nightly
 .
 latest
 /
@@ -1667,7 +1663,7 @@ mozilla
 .
 fenix
 .
-performancetest
+nightly
 .
 .
 /
