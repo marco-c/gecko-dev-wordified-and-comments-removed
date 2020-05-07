@@ -3753,6 +3753,11 @@ opcode
 :
 %
 s
+JSOp
+:
+:
+%
+s
 "
 CacheIROpNames
 [
@@ -3761,6 +3766,14 @@ size_t
 op
 )
 ]
+CodeName
+(
+loc
+.
+getOp
+(
+)
+)
 )
 ;
 return
