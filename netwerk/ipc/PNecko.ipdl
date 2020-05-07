@@ -101,6 +101,9 @@ include
 NeckoChannelParams
 ;
 include
+PBrowserOrId
+;
+include
 protocol
 PAltDataOutputStream
 ;
@@ -296,8 +299,7 @@ PCookieService
 async
 PHttpChannel
 (
-nullable
-PBrowser
+PBrowserOrId
 browser
 SerializedLoadContext
 loadContext
@@ -308,8 +310,7 @@ args
 async
 PFTPChannel
 (
-nullable
-PBrowser
+PBrowserOrId
 browser
 SerializedLoadContext
 loadContext
@@ -320,8 +321,7 @@ args
 async
 PWebSocket
 (
-nullable
-PBrowser
+PBrowserOrId
 browser
 SerializedLoadContext
 loadContext
