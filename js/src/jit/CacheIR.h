@@ -5030,6 +5030,17 @@ id
 )
 ;
 AttachDecision
+tryAttachTypedArrayLength
+(
+HandleObject
+obj
+ObjOperandId
+objId
+HandleId
+id
+)
+;
+AttachDecision
 tryAttachModuleNamespace
 (
 HandleObject
