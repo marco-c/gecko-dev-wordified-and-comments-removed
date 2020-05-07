@@ -15754,6 +15754,12 @@ defined
 (
 NIGHTLY_BUILD
 )
+|
+|
+defined
+(
+MOZ_DEV_EDITION
+)
 pref
 (
 "

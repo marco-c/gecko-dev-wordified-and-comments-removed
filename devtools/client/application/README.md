@@ -60,6 +60,9 @@ by
 default
 on
 Nightly
+and
+Dev
+Edition
 builds
 only
 behind
