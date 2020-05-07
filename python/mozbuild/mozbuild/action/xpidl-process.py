@@ -50,6 +50,12 @@ makeutil
 import
 Makefile
 from
+mozpack
+import
+path
+as
+mozpath
+from
 mozbuild
 .
 pythonutil
@@ -321,6 +327,16 @@ idl
 deps
 )
         
+relpath
+=
+mozpath
+.
+relpath
+(
+path
+topsrcdir
+)
+        
 with
 FileAvoidWrite
 (
@@ -335,6 +351,7 @@ print_header
 idl
 fh
 path
+relpath
 )
         
 with
@@ -350,7 +367,7 @@ print_rust_bindings
 (
 idl
 fh
-path
+relpath
 )
         
 with
@@ -366,7 +383,7 @@ print_rust_macros_bindings
 (
 idl
 fh
-path
+relpath
 )
     
 xpt_path
