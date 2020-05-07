@@ -3159,7 +3159,7 @@ LPCSTR
 LPCSTR
 LPCSTR
 LPCSTR
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -3216,7 +3216,7 @@ DWORD_PTR
 cxt
 )
 {
-nsTArray
+CopyableTArray
 <
 nsCString
 >
@@ -3316,7 +3316,7 @@ DWORD_PTR
 cxt
 )
 {
-nsTArray
+CopyableTArray
 <
 nsCString
 >
