@@ -1602,9 +1602,15 @@ verbose
         
 self
 .
+_activate_virtualenv
+(
+)
+        
+self
+.
 log_manager
 .
-enable_all_structured_loggers
+enable_unstructured
 (
 )
         
@@ -2512,9 +2518,15 @@ verbose
         
 self
 .
+_activate_virtualenv
+(
+)
+        
+self
+.
 log_manager
 .
-enable_all_structured_loggers
+enable_unstructured
 (
 )
         
@@ -4483,14 +4495,6 @@ secrets_url
 import
 requests
         
-self
-.
-log_manager
-.
-enable_unstructured
-(
-)
-        
 res
 =
 requests
@@ -4498,14 +4502,6 @@ requests
 get
 (
 secrets_url
-)
-        
-self
-.
-log_manager
-.
-disable_unstructured
-(
 )
         
 res
@@ -6016,9 +6012,15 @@ verbose
         
 self
 .
+_activate_virtualenv
+(
+)
+        
+self
+.
 log_manager
 .
-enable_all_structured_loggers
+enable_unstructured
 (
 )
         
@@ -12471,6 +12473,27 @@ False
 )
 :
         
+self
+.
+_set_log_level
+(
+verbose
+)
+        
+self
+.
+_activate_virtualenv
+(
+)
+        
+self
+.
+log_manager
+.
+enable_unstructured
+(
+)
+        
 if
 len
 (
@@ -12512,21 +12535,6 @@ checked
 )
             
 return
-        
-self
-.
-_set_log_level
-(
-verbose
-)
-        
-self
-.
-log_manager
-.
-enable_all_structured_loggers
-(
-)
         
 rc
 =
