@@ -466,6 +466,9 @@ const
 nsACString
 &
 aFromType
+nsIChannel
+*
+aChannel
 nsACString
 &
 aToType

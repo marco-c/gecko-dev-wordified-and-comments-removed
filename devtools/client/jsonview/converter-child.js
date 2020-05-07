@@ -285,6 +285,7 @@ getConvertedType
 function
 (
 fromType
+channel
 )
 {
 return

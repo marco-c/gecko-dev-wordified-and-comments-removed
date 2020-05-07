@@ -99,6 +99,9 @@ nsISupports
 idl
 "
 interface
+nsIChannel
+;
+interface
 nsIInputStream
 ;
 interface
@@ -339,6 +342,9 @@ convertedType
 in
 ACString
 aFromType
+in
+nsIChannel
+aChannel
 )
 ;
 /
