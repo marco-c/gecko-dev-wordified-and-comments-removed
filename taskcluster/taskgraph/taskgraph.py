@@ -365,10 +365,11 @@ for
 key
 value
 in
-tasks_dict
+six
 .
 iteritems
 (
+tasks_dict
 )
 :
             
@@ -410,15 +411,16 @@ for
 depname
 dep
 in
+six
+.
+iteritems
+(
 value
 [
 '
 dependencies
 '
 ]
-.
-iteritems
-(
 )
 :
                 

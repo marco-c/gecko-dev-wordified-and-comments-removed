@@ -22,6 +22,8 @@ import
 io
 import
 json
+import
+six
 from
 mozbuild
 .
@@ -1415,6 +1417,10 @@ for
 k1
 v1
 in
+six
+.
+iteritems
+(
 job
 .
 get
@@ -1425,9 +1431,6 @@ env
 {
 }
 )
-.
-iteritems
-(
 )
 :
             
@@ -1472,10 +1475,11 @@ for
 k2
 v2
 in
-v1
+six
 .
 iteritems
 (
+v1
 )
 :
                     

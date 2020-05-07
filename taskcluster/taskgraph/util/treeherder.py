@@ -340,6 +340,8 @@ platform
     
 dep_th_collection
 =
+list
+(
 dep_job
 .
 task
@@ -374,6 +376,7 @@ collection
 .
 keys
 (
+)
 )
 [
 0

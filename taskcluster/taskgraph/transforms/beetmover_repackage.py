@@ -1315,6 +1315,8 @@ continue
 for
 path
 in
+list
+(
 map
 [
 '
@@ -1324,6 +1326,7 @@ paths
 .
 keys
 (
+)
 )
 :
                 

@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 copy
+import
+six
 from
 six
 import
@@ -742,10 +744,11 @@ tasks
 for
 combinations
 in
-groups
+six
 .
 itervalues
 (
+groups
 )
 :
         
@@ -1830,10 +1833,13 @@ dependency
 "
         
 return
+list
+(
 dep_tasks
 .
 values
 (
+)
 )
 [
 0

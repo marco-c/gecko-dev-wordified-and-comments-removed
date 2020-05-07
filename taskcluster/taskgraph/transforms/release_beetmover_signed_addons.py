@@ -20,6 +20,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+six
 from
 six
 import
@@ -1076,10 +1078,11 @@ for
 artifact
 artifact_info
 in
-paths
+six
 .
 iteritems
 (
+paths
 )
 :
         

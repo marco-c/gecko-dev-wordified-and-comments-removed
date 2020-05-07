@@ -2378,11 +2378,22 @@ volumes
 =
 set
 (
+[
+six
+.
+ensure_text
+(
+v
+)
+for
+v
+in
 v
 .
 split
 (
 )
+]
 )
     
 return

@@ -21,6 +21,14 @@ absolute_import
 print_function
 unicode_literals
 import
+six
+.
+moves
+.
+urllib
+.
+parse
+as
 urlparse
 from
 taskgraph
