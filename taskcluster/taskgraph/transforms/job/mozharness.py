@@ -678,7 +678,7 @@ tree
 '
 :
 '
-debian8
+debian7
 -
 amd64
 -

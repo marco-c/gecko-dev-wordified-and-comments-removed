@@ -147,7 +147,7 @@ libdrm2
 -
 dbg
 \
-libffi6
+libffi5
 -
 dbg
 \
@@ -199,7 +199,11 @@ libice6
 -
 dbg
 \
-libicu52
+libicu48
+-
+dbg
+\
+libjson0
 -
 dbg
 \
