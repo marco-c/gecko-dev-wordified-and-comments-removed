@@ -3589,17 +3589,6 @@ aLayers
 )
 override
 ;
-virtual
-void
-ScheduleTask
-(
-already_AddRefed
-<
-CancelableRunnable
->
-int
-)
-;
 void
 SetEGLSurfaceRect
 (
