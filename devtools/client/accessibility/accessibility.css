@@ -1065,6 +1065,14 @@ accessibility
 -
 simulation
 {
+margin
+-
+inline
+-
+start
+:
+4px
+;
 display
 :
 flex
