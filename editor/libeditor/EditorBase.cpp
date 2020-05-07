@@ -24708,7 +24708,7 @@ EditActionIgnored
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 levelOfDeletion
 )

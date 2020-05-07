@@ -817,7 +817,7 @@ mHint
 ;
 }
 void
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 nsBidiLevel
 aLevel

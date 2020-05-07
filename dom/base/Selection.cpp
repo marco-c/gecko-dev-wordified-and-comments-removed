@@ -1893,7 +1893,7 @@ else
 mFrameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 aCaretBidiLevel
 .
@@ -16591,7 +16591,7 @@ kbdBidiLevel
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 level
 )
@@ -16600,7 +16600,7 @@ else
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 level
 +
@@ -16621,7 +16621,7 @@ kbdBidiLevel
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 levelBefore
 )
@@ -16630,7 +16630,7 @@ else
 frameSelection
 -
 >
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 levelAfter
 )

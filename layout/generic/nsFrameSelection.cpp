@@ -2480,7 +2480,7 @@ void
 nsFrameSelection
 :
 :
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 nsBidiLevel
 aLevel
@@ -3574,7 +3574,7 @@ GetBidiData
 (
 )
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 visualMovement
 ?
@@ -3618,7 +3618,7 @@ eSelectLine
 aAmount
 )
 {
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 theFrame
 -
@@ -4679,7 +4679,7 @@ aHint
 false
 )
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 aHint
 =
@@ -4748,7 +4748,7 @@ clickInFrame
 )
 return
 ;
-SetCaretBidiLevel
+SetCaretBidiLevelAndMaybeSchedulePaint
 (
 clickInFrame
 -
