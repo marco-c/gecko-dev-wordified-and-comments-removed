@@ -83,7 +83,10 @@ APZThreadUtils
 :
 SetControllerThread
 (
-NS_GetCurrentThread
+MessageLoop
+:
+:
+current
 (
 )
 )

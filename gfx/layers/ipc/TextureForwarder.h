@@ -62,13 +62,6 @@ KnowsCompositor
 .
 h
 "
-#
-include
-"
-nsISerialEventTarget
-.
-h
-"
 namespace
 mozilla
 {
@@ -153,9 +146,9 @@ const
 0
 ;
 virtual
-nsISerialEventTarget
+MessageLoop
 *
-GetThread
+GetMessageLoop
 (
 )
 const

@@ -219,6 +219,15 @@ CompositorVsyncScheduler
 )
 ;
 void
+ScheduleTask
+(
+already_AddRefed
+<
+CancelableRunnable
+>
+)
+;
+void
 PostCompositeTask
 (
 VsyncId
