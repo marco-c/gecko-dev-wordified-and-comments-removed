@@ -3067,6 +3067,25 @@ host
 1
 "
         
+if
+int
+(
+port
+)
+=
+=
+0
+:
+            
+port
+=
+Marionette
+.
+check_port_available
+(
+port
+)
+        
 self
 .
 port
@@ -3661,6 +3680,17 @@ host
 port
 )
 )
+            
+port
+=
+s
+.
+getsockname
+(
+)
+[
+1
+]
         
 finally
 :
@@ -3670,6 +3700,9 @@ s
 close
 (
 )
+            
+return
+port
     
 def
 raise_for_port
