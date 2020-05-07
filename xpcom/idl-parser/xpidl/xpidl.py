@@ -780,11 +780,7 @@ const
 :
             
 print
->
->
-sys
-.
-stderr
+(
 IDLError
 (
                 
@@ -802,12 +798,19 @@ builtin
 types
 .
 "
+                
 self
 .
 location
 warning
 =
 True
+)
+file
+=
+sys
+.
+stderr
 )
             
 const
