@@ -203,9 +203,6 @@ countLogins
 "
 "
 )
-numSyncedDevices
-:
-0
 }
 ;
 }
