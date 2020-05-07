@@ -2153,6 +2153,9 @@ isNamedLambda
 explicitName
 (
 )
+!
+=
+nullptr
 )
 ;
 }
