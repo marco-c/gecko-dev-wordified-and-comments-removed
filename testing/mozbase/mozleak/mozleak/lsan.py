@@ -51,6 +51,10 @@ None
 maxNumRecordedFrames
 =
 None
+                 
+allowAll
+=
+False
 )
 :
         
@@ -125,6 +129,12 @@ self
 allowedMatch
 =
 None
+        
+self
+.
+allowAll
+=
+allowAll
         
 self
 .
@@ -478,6 +488,10 @@ allowedLines
 if
 not
 allowedLines
+or
+self
+.
+allowAll
 :
             
 self
@@ -822,6 +836,29 @@ self
 failures
 =
 0
+        
+if
+self
+.
+allowAll
+:
+            
+self
+.
+logger
+.
+info
+(
+"
+LeakSanitizer
+|
+Leak
+checks
+disabled
+"
+)
+            
+return
         
 if
 self
