@@ -452,7 +452,7 @@ Orientation
 >
 mOrientation
 ;
-nsTArray
+CopyableTArray
 <
 nsIntSize
 >
