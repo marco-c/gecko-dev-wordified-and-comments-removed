@@ -255,6 +255,10 @@ auto
 readStreamList
 =
 mReadStreamList
+.
+Clone
+(
+)
 ;
 ReadStreamList
 :
