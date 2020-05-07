@@ -1406,7 +1406,7 @@ Init
 ;
 if
 (
-XRE_Win32kCallsAllowed
+XRE_IsParentProcess
 (
 )
 )

@@ -33851,9 +33851,6 @@ VTimeStamp
 4
 Z
 ?
-XRE_Win32kCallsAllowed
-YA_NXZ
-?
 Init
 nsBaseAppShell
 IEAA
