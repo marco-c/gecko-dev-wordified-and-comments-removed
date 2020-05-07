@@ -9592,6 +9592,17 @@ numInputOperands
 (
 )
 ;
+MOZ_ASSERT
+(
+numInputs
+=
+=
+NumInputsForCacheKind
+(
+kind
+)
+)
+;
 size_t
 numInputsInRegs
 =
