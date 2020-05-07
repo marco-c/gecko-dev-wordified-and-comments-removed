@@ -138,10 +138,6 @@ Element
 ;
 }
 }
-#
-define
-NS_STATE_ACCELTEXT_IS_DERIVED
-NS_STATE_BOX_CHILD_RESERVED
 enum
 nsMenuType
 {
@@ -768,13 +764,6 @@ UpdateMenuSpecialState
 )
 ;
 void
-BuildAcceleratorText
-(
-bool
-aNotify
-)
-;
-void
 Execute
 (
 mozilla
@@ -874,9 +863,6 @@ mIsMenu
 ;
 bool
 mChecked
-;
-bool
-mIgnoreAccelTextChange
 ;
 bool
 mReflowCallbackPosted

@@ -5755,16 +5755,6 @@ keysystem
 Atom
 (
 "
-keytext
-"
-"
-keytext
-"
-)
-    
-Atom
-(
-"
 keyup
 "
 "
