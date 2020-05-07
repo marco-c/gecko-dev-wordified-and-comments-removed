@@ -291,19 +291,6 @@ debug
 self
 .
 debug
-                             
-optimize
-=
-not
-self
-.
-debug
-                             
-lextab
-=
-"
-ipdl_lextab
-"
 )
         
 self
@@ -319,19 +306,9 @@ debug
 self
 .
 debug
-                                
-optimize
+write_tables
 =
-not
-self
-.
-debug
-                                
-tabmodule
-=
-"
-ipdl_yacctab
-"
+False
 )
         
 self
