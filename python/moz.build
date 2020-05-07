@@ -436,17 +436,6 @@ ini
 '
 mozbuild
 /
-mozbuild
-/
-test
-/
-python2
-.
-ini
-'
-'
-mozbuild
-/
 mozpack
 /
 test
