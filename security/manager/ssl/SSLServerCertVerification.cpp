@@ -1300,7 +1300,7 @@ strictTransportSecurityEnabled
 false
 ;
 bool
-hasPinningInformation
+isStaticallyPinned
 =
 false
 ;
@@ -1346,8 +1346,6 @@ nsISiteSecurityService
 to
 check
 HSTS
-/
-HPKP
 "
 aPtrForLog
 )
@@ -1489,14 +1487,14 @@ IsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 uri
 aProviderFlags
 aOriginAttributes
 nullptr
 nullptr
 &
-hasPinningInformation
+isStaticallyPinned
 )
 ;
 if
@@ -1525,7 +1523,8 @@ PRIx64
 ]
 checking
 for
-HPKP
+static
+pin
 failed
 "
 aPtrForLog
@@ -1543,7 +1542,7 @@ strictTransportSecurityEnabled
 &
 &
 !
-hasPinningInformation
+isStaticallyPinned
 ;
 return
 NS_OK
@@ -5459,7 +5458,8 @@ PRIx64
 ]
 HSTS
 or
-HPKP
+pinned
+host
 -
 no
 overrides

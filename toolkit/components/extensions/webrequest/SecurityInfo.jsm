@@ -526,7 +526,7 @@ isSecureURI
 (
 sss
 .
-HEADER_HPKP
+STATIC_PINNING
 uri
 flags
 )

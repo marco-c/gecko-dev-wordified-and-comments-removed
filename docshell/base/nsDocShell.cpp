@@ -15989,7 +15989,7 @@ IsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 GetOriginAttributes
@@ -16059,7 +16059,7 @@ SendIsSecureURI
 nsISiteSecurityService
 :
 :
-HEADER_HPKP
+STATIC_PINNING
 aURI
 flags
 GetOriginAttributes
