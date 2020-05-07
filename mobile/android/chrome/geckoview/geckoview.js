@@ -347,6 +347,12 @@ appendChild
 aBrowser
 )
 ;
+aBrowser
+.
+docShellIsActive
+=
+true
+;
 WindowEventDispatcher
 .
 registerListener
