@@ -310,6 +310,10 @@ aInheritedDeniedFeatureNames
 aInheritedDeniedFeatureNames
 =
 mInheritedDeniedFeatureNames
+.
+Clone
+(
+)
 ;
 }
 void
@@ -327,6 +331,10 @@ aInheritedDeniedFeatureNames
 mInheritedDeniedFeatureNames
 =
 aInheritedDeniedFeatureNames
+.
+Clone
+(
+)
 ;
 }
 void

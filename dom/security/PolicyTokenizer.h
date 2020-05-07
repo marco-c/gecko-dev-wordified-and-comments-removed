@@ -21,7 +21,7 @@ h
 typedef
 nsTArray
 <
-nsTArray
+CopyableTArray
 <
 nsString
 >
