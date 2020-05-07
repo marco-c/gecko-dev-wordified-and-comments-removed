@@ -152,7 +152,7 @@ set_start
 glean
 now
 .
-as_u64
+as_nanos
 (
 )
 )
@@ -218,7 +218,7 @@ set_stop
 glean
 now
 .
-as_u64
+as_nanos
 (
 )
 )

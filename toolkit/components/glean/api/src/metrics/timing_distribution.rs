@@ -154,7 +154,7 @@ set_start
 (
 now
 .
-as_u64
+as_nanos
 (
 )
 )
@@ -230,7 +230,7 @@ glean
 id
 now
 .
-as_u64
+as_nanos
 (
 )
 )
