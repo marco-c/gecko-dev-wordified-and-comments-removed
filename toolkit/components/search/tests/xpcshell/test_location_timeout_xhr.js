@@ -356,7 +356,7 @@ checkCountryResultTelemetry
 (
 TELEMETRY_RESULT_ENUM
 .
-XHRTIMEOUT
+TIMEOUT
 )
 ;
 verifyProbeSum
