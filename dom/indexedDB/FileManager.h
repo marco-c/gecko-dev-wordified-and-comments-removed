@@ -57,6 +57,11 @@ FileManagerBase
 <
 FileManager
 >
+public
+AtomicSafeRefCounted
+<
+FileManager
+>
 {
 using
 PersistenceType
@@ -383,7 +388,7 @@ int64_t
 aFileId
 )
 ;
-NS_INLINE_DECL_THREADSAFE_REFCOUNTING
+MOZ_DECLARE_REFCOUNTED_TYPENAME
 (
 FileManager
 )
@@ -398,8 +403,6 @@ return
 sMutex
 ;
 }
-private
-:
 ~
 FileManager
 (
