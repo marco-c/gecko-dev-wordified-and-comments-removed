@@ -107,6 +107,10 @@ aInfo
 matches
 (
 )
+.
+Clone
+(
+)
 ;
 proto
 -
@@ -118,6 +122,10 @@ aInfo
 remoteTypes
 (
 )
+.
+Clone
+(
+)
 ;
 proto
 -
@@ -127,6 +135,10 @@ mMessageManagerGroups
 aInfo
 .
 messageManagerGroups
+(
+)
+.
+Clone
 (
 )
 ;
@@ -282,6 +294,10 @@ mObservers
 aInfo
 .
 observers
+(
+)
+.
+Clone
 (
 )
 ;
