@@ -3225,6 +3225,18 @@ thismodule
 =
 __file__
         
+os
+.
+environ
+.
+pop
+(
+'
+__PYVENV_LAUNCHER__
+'
+None
+)
+        
 args
 =
 [
