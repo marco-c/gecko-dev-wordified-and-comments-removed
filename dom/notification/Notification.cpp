@@ -7932,7 +7932,6 @@ aWorkerPrivate
 PromiseWorkerProxy
 *
 aPromiseProxy
-const
 nsTArray
 <
 NotificationStrings
