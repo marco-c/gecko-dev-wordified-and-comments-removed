@@ -3452,6 +3452,13 @@ info
 .
 dli_fbase
 ;
+#
+if
+!
+defined
+(
+XP_FREEBSD
+)
 const
 char
 *
@@ -3576,6 +3583,8 @@ info
 .
 dli_saddr
 ;
+#
+endif
 return
 true
 ;

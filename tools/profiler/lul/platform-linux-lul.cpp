@@ -106,6 +106,12 @@ defined
 (
 GP_OS_android
 )
+|
+|
+defined
+(
+GP_OS_freebsd
+)
 SharedLibraryInfo
 info
 =

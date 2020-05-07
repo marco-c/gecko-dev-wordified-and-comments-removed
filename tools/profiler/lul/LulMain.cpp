@@ -7545,6 +7545,13 @@ defined
 (
 GP_PLAT_x86_android
 )
+|
+|
+\
+defined
+(
+GP_PLAT_amd64_freebsd
+)
 const
 size_t
 wordSzB
