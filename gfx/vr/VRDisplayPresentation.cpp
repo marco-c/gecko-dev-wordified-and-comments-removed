@@ -93,6 +93,10 @@ aDisplayClient
 mDOMLayers
 (
 aLayers
+.
+Clone
+(
+)
 )
 mGroup
 (
@@ -128,6 +132,10 @@ aLayers
 mDOMLayers
 =
 aLayers
+.
+Clone
+(
+)
 ;
 CreateLayers
 (
@@ -788,6 +796,10 @@ result
 result
 =
 mDOMLayers
+.
+Clone
+(
+)
 ;
 }
 VRDisplayPresentation
