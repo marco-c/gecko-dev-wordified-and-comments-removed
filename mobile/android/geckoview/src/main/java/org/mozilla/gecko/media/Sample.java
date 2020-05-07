@@ -254,6 +254,10 @@ hasCryptoInfo
 0
 )
 {
+cryptoInfo
+=
+null
+;
 return
 ;
 }
