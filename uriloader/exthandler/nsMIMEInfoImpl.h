@@ -610,6 +610,15 @@ aDefaultDescription
 )
 override
 ;
+NS_IMETHOD
+IsCurrentAppOSDefault
+(
+bool
+*
+_retval
+)
+override
+;
 void
 SetDefaultApplication
 (

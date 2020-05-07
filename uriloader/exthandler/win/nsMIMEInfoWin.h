@@ -126,6 +126,15 @@ _retval
 )
 override
 ;
+NS_IMETHOD
+IsCurrentAppOSDefault
+(
+bool
+*
+_retval
+)
+override
+;
 NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIPROPERTYBAG
 void
