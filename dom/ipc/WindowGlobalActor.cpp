@@ -176,7 +176,6 @@ documentURI
 aBrowsingContext
 innerWindowId
 outerWindowId
-false
 )
 ;
 }
