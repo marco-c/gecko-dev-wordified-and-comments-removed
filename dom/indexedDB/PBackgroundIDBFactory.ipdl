@@ -148,6 +148,7 @@ DeleteDatabaseRequestParams
 }
 ;
 sync
+refcounted
 protocol
 PBackgroundIDBFactory
 {
@@ -172,11 +173,6 @@ PBackgroundIDBFactoryRequest
 (
 FactoryRequestParams
 params
-)
-;
-async
-IncrementLoggingRequestSerialNumber
-(
 )
 ;
 child

@@ -630,9 +630,13 @@ IDBFactory
 *
 mFactory
 ;
-NS_DECL_OWNINGTHREAD
 public
 :
+NS_INLINE_DECL_REFCOUNTING
+(
+BackgroundFactoryChild
+override
+)
 void
 AssertIsOnOwningThread
 (
