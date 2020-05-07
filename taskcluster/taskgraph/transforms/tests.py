@@ -11286,10 +11286,6 @@ type
 ]
 =
 '
-gecko
--
-t
-/
 t
 -
 linux

@@ -4403,6 +4403,9 @@ xlarge
 xlarge
 -
 source
+|
+-
+metal
 )
 :
 provisioner
