@@ -146,7 +146,7 @@ Variant
 <
 JSFunction
 *
-FunctionCreationData
+ScriptStencilBase
 >
 ;
 struct
