@@ -1713,6 +1713,9 @@ mJoinConnectionCache
 uint64_t
 mCurrentForegroundTabOuterContentWindowId
 ;
+uint32_t
+mCntActivated
+;
 class
 CachePushCheckCallback
 final

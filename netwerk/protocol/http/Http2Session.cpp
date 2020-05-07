@@ -952,14 +952,8 @@ Accumulate
 Telemetry
 :
 :
-SPDY_REQUEST_PER_CONN
-(
-mNextStreamID
--
-1
-)
-/
-2
+SPDY_REQUEST_PER_CONN_2
+mCntActivated
 )
 ;
 Telemetry
@@ -4180,6 +4174,10 @@ IncrementConcurrent
 (
 aStream
 )
+;
+mCntActivated
++
++
 ;
 return
 true
