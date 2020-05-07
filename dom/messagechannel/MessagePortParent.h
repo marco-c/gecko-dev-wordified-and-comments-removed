@@ -88,11 +88,11 @@ aSequenceID
 bool
 Entangled
 (
-const
 nsTArray
 <
 MessageData
 >
+&
 &
 aMessages
 )

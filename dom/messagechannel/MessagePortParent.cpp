@@ -564,11 +564,11 @@ MessagePortParent
 :
 Entangled
 (
-const
 nsTArray
 <
 MessageData
 >
+&
 &
 aMessages
 )

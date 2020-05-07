@@ -1289,7 +1289,7 @@ SharedMessageBody
 >
 &
 aData
-FallibleTArray
+nsTArray
 <
 MessageData
 >
@@ -1354,10 +1354,6 @@ aArray
 .
 AppendElement
 (
-mozilla
-:
-:
-fallible
 )
 ;
 message
