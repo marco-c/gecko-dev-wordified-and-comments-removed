@@ -748,12 +748,11 @@ mozilla
 .
 pth
 :
-other
--
-licenses
+third_party
+/
+python
 /
 ply
-/
 mozilla
 .
 pth
