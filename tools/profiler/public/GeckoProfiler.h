@@ -474,6 +474,9 @@ SpliceableJSONWriter
 namespace
 mozilla
 {
+class
+ProfileBufferControlledChunkManager
+;
 namespace
 net
 {
@@ -1924,6 +1927,15 @@ aFilters
 uint64_t
 *
 aActiveBrowsingContextID
+)
+;
+mozilla
+:
+:
+ProfileBufferControlledChunkManager
+*
+profiler_get_controlled_chunk_manager
+(
 )
 ;
 double
