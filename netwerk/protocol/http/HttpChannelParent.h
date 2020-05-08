@@ -164,9 +164,6 @@ dom
 class
 BrowserParent
 ;
-class
-PBrowserOrId
-;
 }
 namespace
 net
@@ -236,12 +233,11 @@ HTTP_CHANNEL_PARENT_IID
 )
 HttpChannelParent
 (
-const
 dom
 :
 :
-PBrowserOrId
-&
+BrowserParent
+*
 iframeEmbedding
 nsILoadContext
 *
@@ -1321,12 +1317,6 @@ MozPromiseRequestHolder
 GenericNonExclusivePromise
 >
 mRequest
-;
-dom
-:
-:
-TabId
-mNestedFrameId
 ;
 TimeStamp
 mResumedTimestamp

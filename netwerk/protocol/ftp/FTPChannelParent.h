@@ -73,9 +73,6 @@ dom
 class
 BrowserParent
 ;
-class
-PBrowserOrId
-;
 }
 namespace
 net
@@ -110,12 +107,11 @@ NS_DECL_NSIINTERFACEREQUESTOR
 NS_DECL_NSICHANNELEVENTSINK
 FTPChannelParent
 (
-const
 dom
 :
 :
-PBrowserOrId
-&
+BrowserParent
+*
 aIframeEmbedding
 nsILoadContext
 *
