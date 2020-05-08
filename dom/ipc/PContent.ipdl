@@ -4365,6 +4365,17 @@ unused
 )
 ;
 async
+AdjustWindowFocus
+(
+MaybeDiscardedBrowsingContext
+aContext
+bool
+aCheckPermission
+bool
+aIsVisible
+)
+;
+async
 WindowClose
 (
 MaybeDiscardedBrowsingContext
