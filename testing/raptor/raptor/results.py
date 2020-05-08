@@ -3465,6 +3465,26 @@ live
 "
 )
                     
+if
+self
+.
+gecko_profile
+:
+                        
+new_result
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+gecko_profile
+"
+)
+                    
 return
 new_result
                 
@@ -3626,6 +3646,26 @@ append
 self
 .
 app
+)
+                    
+if
+self
+.
+gecko_profile
+:
+                        
+new_result
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+gecko_profile
+"
 )
                     
 return
