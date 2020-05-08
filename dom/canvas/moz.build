@@ -315,6 +315,11 @@ CanvasUtils
 h
 '
 '
+GeneratePlaceholderCanvasData
+.
+h
+'
+'
 ImageBitmap
 .
 h
