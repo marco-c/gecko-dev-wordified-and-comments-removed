@@ -27818,9 +27818,15 @@ GetSandboxFlags
 ;
 if
 (
+(
 sandboxFlags
 &
 SANDBOXED_ORIGIN
+)
+&
+&
+!
+aActor
 )
 {
 if
