@@ -1337,6 +1337,9 @@ parentElement
 if
 (
 parentElement
+&
+&
+parentElement
 .
 tagName
 =
@@ -1345,6 +1348,11 @@ tagName
 "
 TD
 "
+&
+&
+parentElement
+.
+parentElement
 )
 {
 return
@@ -1363,6 +1371,9 @@ textContent
 if
 (
 parentElement
+&
+&
+parentElement
 .
 tagName
 =
@@ -1371,6 +1382,11 @@ tagName
 "
 DD
 "
+&
+&
+parentElement
+.
+previousElementSibling
 )
 {
 return
