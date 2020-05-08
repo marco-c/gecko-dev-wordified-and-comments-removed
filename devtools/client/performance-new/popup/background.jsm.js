@@ -446,7 +446,7 @@ overhead
 "
 entries
 :
-16
+128
 *
 1024
 *
@@ -512,7 +512,7 @@ debugging
 "
 entries
 :
-16
+128
 *
 1024
 *
@@ -589,7 +589,7 @@ debugging
 "
 entries
 :
-16
+128
 *
 1024
 *
@@ -660,7 +660,7 @@ problems
 "
 entries
 :
-16
+128
 *
 1024
 *
