@@ -2659,12 +2659,6 @@ case
 JSOp
 :
 :
-InitElemArray
-:
-case
-JSOp
-:
-:
 InitElemInc
 :
 case
@@ -2719,6 +2713,14 @@ loc
 )
 )
 ;
+break
+;
+case
+JSOp
+:
+:
+InitElemArray
+:
 break
 ;
 case
