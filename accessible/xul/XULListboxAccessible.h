@@ -341,17 +341,6 @@ this
 ;
 }
 virtual
-void
-Value
-(
-nsString
-&
-aValue
-)
-const
-override
-;
-virtual
 TableAccessible
 *
 AsTable
