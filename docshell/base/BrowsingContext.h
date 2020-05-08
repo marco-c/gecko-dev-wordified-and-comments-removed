@@ -2668,11 +2668,6 @@ AssertOriginAttributesMatchPrivateBrowsing
 (
 )
 ;
-void
-AssertCoherentLoadContext
-(
-)
-;
 friend
 class
 :

@@ -13,6 +13,9 @@ include
 protocol
 PBrowser
 ;
+include
+PBrowserOrId
+;
 using
 UIStateChangeType
 from
@@ -47,7 +50,7 @@ dom
 struct
 PopupIPCTabContext
 {
-PBrowser
+PBrowserOrId
 opener
 ;
 uint64_t
@@ -58,6 +61,9 @@ chromeOuterWindowID
 struct
 FrameIPCTabContext
 {
+OriginAttributes
+originAttributes
+;
 uint64_t
 chromeOuterWindowID
 ;
@@ -80,6 +86,11 @@ jsPluginId
 ;
 }
 ;
+struct
+UnsafeIPCTabContext
+{
+}
+;
 union
 IPCTabContext
 {
@@ -88,6 +99,8 @@ PopupIPCTabContext
 FrameIPCTabContext
 ;
 JSPluginFrameIPCTabContext
+;
+UnsafeIPCTabContext
 ;
 }
 ;

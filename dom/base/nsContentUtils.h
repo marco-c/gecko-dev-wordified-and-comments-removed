@@ -488,6 +488,9 @@ class
 nsPIWindowRoot
 ;
 class
+nsIWindowProvider
+;
+class
 nsIReferrerInfo
 ;
 struct
@@ -4446,6 +4449,13 @@ sScriptBlockerCount
 0
 ;
 }
+static
+nsIWindowProvider
+*
+GetWindowProviderForContentProcess
+(
+)
+;
 static
 already_AddRefed
 <
