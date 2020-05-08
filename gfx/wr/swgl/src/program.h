@@ -4,6 +4,10 @@ VertexAttrib
 namespace
 glsl
 {
+typedef
+vec3
+Interpolants
+;
 struct
 VertexShaderImpl
 ;
@@ -55,6 +59,15 @@ const
 char
 *
 name
+)
+const
+=
+0
+;
+virtual
+size_t
+interpolants_size
+(
 )
 const
 =
