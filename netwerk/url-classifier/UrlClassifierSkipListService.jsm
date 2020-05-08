@@ -146,7 +146,7 @@ this
 }
 }
 async
-addObserver
+addAndRunObserver
 (
 observer
 )
@@ -308,17 +308,6 @@ observer
 null
 )
 {
-if
-(
-!
-this
-.
-remoteEntries
-)
-{
-return
-;
-}
 let
 entries
 =
@@ -345,6 +334,13 @@ split
 )
 ;
 }
+if
+(
+this
+.
+remoteEntries
+)
+{
 for
 (
 let
@@ -362,6 +358,7 @@ push
 entry
 )
 ;
+}
 }
 let
 entriesAsString
@@ -688,7 +685,7 @@ features
 feature
 ]
 .
-addObserver
+addAndRunObserver
 (
 observer
 )
