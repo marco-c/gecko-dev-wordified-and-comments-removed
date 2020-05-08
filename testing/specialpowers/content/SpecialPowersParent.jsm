@@ -513,7 +513,9 @@ system
 system
 )
 ;
-chromeShell
+windowlessBrowser
+.
+browsingContext
 .
 useGlobalHistory
 =

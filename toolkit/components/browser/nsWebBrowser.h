@@ -357,10 +357,6 @@ dom
 WindowGlobalChild
 *
 aInitialWindowChild
-bool
-aDisableHistory
-=
-false
 )
 ;
 protected
@@ -387,13 +383,6 @@ aDocShell
 NS_IMETHOD
 EnsureDocShellTreeOwner
 (
-)
-;
-NS_IMETHOD
-EnableGlobalHistory
-(
-bool
-aEnable
 )
 ;
 nsIWidget

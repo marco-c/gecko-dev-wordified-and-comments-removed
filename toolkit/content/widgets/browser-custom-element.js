@@ -5062,6 +5062,8 @@ this
 .
 docShell
 .
+browsingContext
+.
 useGlobalHistory
 =
 true

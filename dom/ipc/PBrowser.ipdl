@@ -2872,13 +2872,6 @@ charCodes
 )
 ;
 async
-SetUseGlobalHistory
-(
-bool
-aUse
-)
-;
-async
 HandledWindowedPluginKeyEvent
 (
 NativeEventData
