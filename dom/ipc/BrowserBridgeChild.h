@@ -158,11 +158,7 @@ nsILoadContext
 GetLoadContext
 (
 )
-{
-return
-nullptr
 ;
-}
 void
 NavigateByKey
 (
