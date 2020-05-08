@@ -514,6 +514,13 @@ h
 '
 public
 /
+ProfileBufferControlledChunkManager
+.
+h
+'
+'
+public
+/
 ProfileBufferEntrySerialization
 .
 h
