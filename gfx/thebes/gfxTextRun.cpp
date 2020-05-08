@@ -19274,6 +19274,7 @@ aRunScript
 mStyle
 &
 visibility
+mFontMatchingStats
 )
 ;
 if
