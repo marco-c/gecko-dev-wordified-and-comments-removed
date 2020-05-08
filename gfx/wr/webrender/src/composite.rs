@@ -415,6 +415,9 @@ Rgb
 image_dependency
 :
 ImageDependency
+flip_y
+:
+bool
 }
 }
 pub
@@ -672,6 +675,9 @@ ImageDependency
 plane
 :
 ExternalPlaneDescriptor
+flip_y
+:
+bool
 }
 }
 #
@@ -2496,6 +2502,7 @@ ExternalSurfaceDependency
 :
 Rgb
 {
+flip_y
 .
 .
 }
@@ -2542,6 +2549,7 @@ planes
 [
 0
 ]
+flip_y
 }
 image_buffer_kind
 update_params
