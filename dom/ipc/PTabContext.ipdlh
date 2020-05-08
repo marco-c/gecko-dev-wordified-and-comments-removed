@@ -80,11 +80,6 @@ jsPluginId
 ;
 }
 ;
-struct
-UnsafeIPCTabContext
-{
-}
-;
 union
 IPCTabContext
 {
@@ -93,8 +88,6 @@ PopupIPCTabContext
 FrameIPCTabContext
 ;
 JSPluginFrameIPCTabContext
-;
-UnsafeIPCTabContext
 ;
 }
 ;
