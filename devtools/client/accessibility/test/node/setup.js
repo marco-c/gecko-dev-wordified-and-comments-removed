@@ -147,3 +147,15 @@ function
 {
 }
 ;
+global
+.
+document
+.
+nodePrincipal
+=
+{
+isSystemPrincipal
+:
+false
+}
+;

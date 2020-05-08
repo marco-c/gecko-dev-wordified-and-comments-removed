@@ -994,7 +994,7 @@ container
 {
 position
 :
-absolute
+static
 ;
 }
 .
