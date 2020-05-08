@@ -329,15 +329,6 @@ CanSend
 )
 ;
 }
-bool
-IsInProcess
-(
-)
-{
-return
-mInProcess
-;
-}
 already_AddRefed
 <
 WindowGlobalChild
@@ -1100,9 +1091,6 @@ nsCStringHashKey
 JSWindowActorParent
 >
 mWindowActors
-;
-bool
-mInProcess
 ;
 bool
 mIsInitialDocument
