@@ -1025,6 +1025,11 @@ ProfilerFeature
 :
 :
 Threads
+|
+ProfilerFeature
+:
+:
+Screenshots
 ;
 }
 static

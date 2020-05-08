@@ -1368,7 +1368,7 @@ MakePowerOfTwo32
 1u
 <
 <
-22
+23
 >
 (
 )
