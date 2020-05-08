@@ -202,11 +202,6 @@ DynamicFpiRedirectHeuristic
 cpp
 '
 '
-RejectForeignAllowList
-.
-cpp
-'
-'
 SettingsChangeObserver
 .
 cpp
