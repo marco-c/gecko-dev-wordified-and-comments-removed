@@ -623,7 +623,7 @@ the
 Tor
 project
 uses
-MingGW
+MinGW
 ;
 make
 sure
@@ -699,7 +699,7 @@ the
 Tor
 project
 uses
-MingGW
+MinGW
 ;
 make
 sure
@@ -782,7 +782,7 @@ the
 Tor
 project
 uses
-MingGW
+MinGW
 ;
 make
 sure
