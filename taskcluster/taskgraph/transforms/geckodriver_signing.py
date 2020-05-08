@@ -89,9 +89,9 @@ depname
 default
 =
 '
-geckodriver
+toolchain
 -
-repackage
+geckodriver
 '
 )
 :
@@ -154,7 +154,7 @@ transforms
 .
 add
 def
-make_repackage_signing_description
+make_signing_description
 (
 config
 jobs
@@ -211,6 +211,30 @@ treeherder
 }
 )
         
+dep_treeherder
+=
+dep_job
+.
+task
+.
+get
+(
+'
+extra
+'
+{
+}
+)
+.
+get
+(
+'
+treeherder
+'
+{
+}
+)
+        
 treeherder
 .
 setdefault
@@ -219,11 +243,24 @@ setdefault
 symbol
 '
 '
-Gd
+{
+}
 (
+gd
+-
 s
 )
 '
+.
+format
+(
+dep_treeherder
+[
+'
+groupSymbol
+'
+]
+)
 )
         
 treeherder
@@ -260,32 +297,10 @@ treeherder
 .
 setdefault
 (
-            
 '
 tier
 '
-            
-dep_job
-.
-task
-.
-get
-(
-'
-extra
-'
-{
-}
-)
-.
-get
-(
-'
-treeherder
-'
-{
-}
-)
+dep_treeherder
 .
 get
 (
@@ -294,7 +309,6 @@ tier
 '
 1
 )
-        
 )
         
 treeherder
@@ -369,9 +383,6 @@ build
 '
 {
 }
-/
-{
-}
 '
 "
 .
@@ -384,15 +395,6 @@ get
 (
 '
 build_platform
-'
-)
-            
-attributes
-.
-get
-(
-'
-build_type
 '
 )
         
@@ -450,6 +452,7 @@ upstream_artifacts
 _craft_upstream_artifacts
 (
 dep_job
+dep_job
 .
 kind
 build_platform
@@ -459,6 +462,20 @@ scopes
 =
 [
 signing_cert_scope
+]
+        
+platform
+=
+build_platform
+.
+split
+(
+"
+-
+"
+)
+[
+0
 ]
         
 task
@@ -539,6 +556,12 @@ attributes
 attributes
             
 '
+treeherder
+'
+:
+treeherder
+            
+'
 run
 -
 on
@@ -546,22 +569,34 @@ on
 projects
 '
 :
-dep_job
-.
-attributes
-.
-get
-(
+[
 '
-run_on_projects
+mozilla
+-
+central
 '
-)
+]
             
 '
-treeherder
+index
 '
 :
-treeherder
+{
+"
+product
+"
+:
+"
+geckodriver
+"
+"
+job
+-
+name
+"
+:
+platform
+}
         
 }
         
@@ -718,6 +753,7 @@ task
 def
 _craft_upstream_artifacts
 (
+dep_job
 dependency_kind
 build_platform
 )
@@ -739,12 +775,6 @@ signing_format
 '
 autograph_authenticode
 '
-        
-extension
-=
-'
-zip
-'
     
 elif
 build_platform
@@ -762,14 +792,6 @@ signing_format
 '
 autograph_gpg
 '
-        
-extension
-=
-'
-tar
-.
-gz
-'
     
 elif
 build_platform
@@ -786,14 +808,6 @@ signing_format
 =
 '
 mac_geckodriver
-'
-        
-extension
-=
-'
-tar
-.
-gz
 '
     
 else
@@ -851,7 +865,7 @@ taskType
 '
 :
 '
-repackage
+build
 '
         
 '
@@ -859,19 +873,16 @@ paths
 '
 :
 [
-'
-public
-/
-geckodriver
+dep_job
 .
-{
-}
+attributes
+[
 '
-.
-format
-(
-extension
-)
+toolchain
+-
+artifact
+'
+]
 ]
         
 '
