@@ -248,6 +248,7 @@ Bailout_ArgumentCheck
 Bailout_BoundsCheck
 Bailout_ShapeGuard
 Bailout_ValueGuard
+Bailout_NullOrUndefinedGuard
 Bailout_UninitializedLexical
 Bailout_IonExceptionDebugMode
 Bailout_Limit
@@ -530,6 +531,14 @@ Bailout_ValueGuard
 return
 "
 Bailout_ValueGuard
+"
+;
+case
+Bailout_NullOrUndefinedGuard
+:
+return
+"
+Bailout_NullOrUndefinedGuard
 "
 ;
 case
