@@ -6321,15 +6321,7 @@ MEMORY
 return
 MoveOperand
 (
-AsRegister
-(
-masm
-.
-getStackPointer
-(
-)
-)
-ToStackOffset
+ToAddress
 (
 a
 )
