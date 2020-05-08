@@ -11739,8 +11739,6 @@ MIRType
 Object
 )
 ;
-if
-(
 JSObject
 *
 obj
@@ -11748,6 +11746,16 @@ obj
 templateObject
 (
 )
+;
+if
+(
+obj
+&
+&
+!
+JitOptions
+.
+warpBuilder
 )
 {
 setResultTypeSet
