@@ -3539,6 +3539,15 @@ scan
 :
 false
 '
+gfx
+.
+color_management
+.
+force_srgb
+'
+:
+true
+'
 hangmonitor
 .
 timeout
