@@ -2862,7 +2862,7 @@ mVisibilityLevel
 FontVisibility
 :
 :
-Base
+Unknown
 ;
 bool
 mFontFamilyWhitelistActive
