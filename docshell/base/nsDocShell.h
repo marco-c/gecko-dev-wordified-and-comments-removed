@@ -3601,11 +3601,6 @@ mIsAppTab
 1
 ;
 bool
-mUseGlobalHistory
-:
-1
-;
-bool
 mDeviceSizeIsPageSize
 :
 1
