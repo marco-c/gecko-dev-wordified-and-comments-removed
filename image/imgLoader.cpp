@@ -4211,14 +4211,8 @@ nsMixedContentBlocker
 ShouldLoad
 (
 insecureRedirect
-aPolicyType
 contentLocation
-loadingPrincipal
-aTriggeringPrincipal
-ToSupports
-(
-aLoadingDocument
-)
+secCheckLoadInfo
 EmptyCString
 (
 )
