@@ -6786,7 +6786,7 @@ friend
 class
 ICStubSpace
 ;
-GCPtrObject
+GCPtrArrayObject
 templateObject_
 ;
 GCPtrObjectGroup
@@ -6821,7 +6821,7 @@ templateGroup
 }
 public
 :
-GCPtrObject
+GCPtrArrayObject
 &
 templateObject
 (
@@ -6834,7 +6834,7 @@ templateObject_
 void
 setTemplateObject
 (
-JSObject
+ArrayObject
 *
 obj
 )

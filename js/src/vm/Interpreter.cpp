@@ -22329,7 +22329,7 @@ REGS
 pc
 )
 ;
-JSObject
+ArrayObject
 *
 obj
 =
@@ -30613,7 +30613,7 @@ templateObject
 )
 ;
 }
-JSObject
+ArrayObject
 *
 js
 :
@@ -30785,7 +30785,7 @@ return
 obj
 ;
 }
-JSObject
+ArrayObject
 *
 js
 :

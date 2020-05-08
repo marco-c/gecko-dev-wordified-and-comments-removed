@@ -20736,7 +20736,7 @@ isSingleton
 )
 )
 {
-JSObject
+ArrayObject
 *
 templateObject
 =

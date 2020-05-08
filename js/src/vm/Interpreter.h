@@ -2405,7 +2405,7 @@ HandleObject
 templateObject
 )
 ;
-JSObject
+ArrayObject
 *
 NewArrayOperation
 (
@@ -2425,7 +2425,7 @@ newKind
 GenericObject
 )
 ;
-JSObject
+ArrayObject
 *
 NewArrayOperationWithTemplate
 (
