@@ -2221,8 +2221,13 @@ HasVideo
 )
 &
 &
+(
+mSrcStream
+|
+|
 HasAudio
 (
+)
 )
 ;
 }
