@@ -25,6 +25,7 @@ optimize
 import
 register_strategy
 OptimizationStrategy
+seta
 from
 taskgraph
 .
@@ -33,6 +34,8 @@ util
 bugbug
 import
 (
+    
+BugbugTimeoutException
     
 push_schedules
     
@@ -107,6 +110,24 @@ args
 =
 (
 CT_MEDIUM
+True
+)
+)
+register_strategy
+(
+"
+bugbug
+-
+reduced
+-
+fallback
+"
+args
+=
+(
+CT_MEDIUM
+True
+False
 True
 )
 )
@@ -255,14 +276,23 @@ False
 def
 __init__
 (
+        
 self
+        
 confidence_threshold
+        
 use_reduced_tasks
 =
 False
+        
 combine_weights
 =
 False
+        
+fallback
+=
+False
+    
 )
 :
         
@@ -283,6 +313,12 @@ self
 combine_weights
 =
 combine_weights
+        
+self
+.
+fallback
+=
+fallback
     
 def
 should_remove_task
@@ -324,6 +360,9 @@ head_rev
 '
 ]
         
+try
+:
+            
 data
 =
 push_schedules
@@ -331,6 +370,34 @@ push_schedules
 branch
 rev
 )
+        
+except
+BugbugTimeoutException
+:
+            
+if
+self
+.
+fallback
+:
+                
+return
+seta
+.
+is_low_value_task
+(
+task
+.
+label
+params
+[
+'
+project
+'
+]
+)
+            
+raise
         
 key
 =
