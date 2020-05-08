@@ -1837,9 +1837,6 @@ Create
 (
 stub
 widget
-OriginAttributes
-(
-)
 browsingContext
 nullptr
 true

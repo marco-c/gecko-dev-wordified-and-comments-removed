@@ -6853,8 +6853,9 @@ NullPrincipal
 :
 Create
 (
-aContext
-.
+aBrowsingContext
+-
+>
 OriginAttributesRef
 (
 )
