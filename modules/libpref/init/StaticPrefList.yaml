@@ -15305,7 +15305,7 @@ type
 bool
 value
 :
-true
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 once
