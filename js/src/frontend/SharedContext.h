@@ -2612,6 +2612,16 @@ FunctionBox
 listHead
 )
 ;
+FunctionBox
+*
+traceLink
+(
+)
+{
+return
+traceLink_
+;
+}
 }
 ;
 #

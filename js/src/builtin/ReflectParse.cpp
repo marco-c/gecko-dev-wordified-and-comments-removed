@@ -21780,7 +21780,7 @@ body
 if
 (
 !
-parser
+compilationInfo
 .
 publishDeferredFunctions
 (
