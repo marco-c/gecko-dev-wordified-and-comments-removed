@@ -6442,7 +6442,7 @@ return
 nsIFrame
 :
 :
-GetXULMinSize
+GetUncachedXULMinSize
 (
 aState
 )
