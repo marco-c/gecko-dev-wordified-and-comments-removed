@@ -1722,6 +1722,17 @@ e
 ;
 }
 }
+this
+.
+emit
+(
+"
+target
+-
+destroyed
+"
+)
+;
 super
 .
 destroy
