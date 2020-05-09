@@ -807,6 +807,8 @@ SDP_MAX_CODED_AUDIO_BW
 SDP_CBR
 SDP_MAX_FR
 SDP_MAX_PLAYBACK_RATE
+SDP_APT
+SDP_RTX_TIME
 SDP_MAX_FMTP_PARAM
 SDP_FMTP_PARAM_UNKNOWN
 }
@@ -1674,6 +1676,15 @@ annex_p_val_warp
 ;
 uint8_t
 flag
+;
+uint8_t
+apt
+;
+tinybool
+has_rtx_time
+;
+uint32_t
+rtx_time
 ;
 }
 sdp_fmtp_t
