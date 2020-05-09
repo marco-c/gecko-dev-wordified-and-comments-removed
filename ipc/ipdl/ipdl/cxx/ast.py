@@ -2,6 +2,12 @@ import
 copy
 import
 functools
+from
+ipdl
+.
+util
+import
+hash_str
 class
 Visitor
 :
@@ -2571,7 +2577,7 @@ self
 :
         
 return
-hash
+hash_str
 (
 self
 .

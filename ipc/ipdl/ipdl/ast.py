@@ -1,3 +1,8 @@
+from
+.
+util
+import
+hash_str
 NOT_NESTED
 =
 1
@@ -1167,7 +1172,7 @@ cls
 )
 :
 return
-hash
+hash_str
 (
 cls
 .

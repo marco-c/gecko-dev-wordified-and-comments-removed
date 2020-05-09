@@ -50,6 +50,12 @@ ActorType
 UnionType
 TypeVisitor
 builtinHeaderIncludes
+from
+ipdl
+.
+util
+import
+hash_str
 class
 LowerToCxx
 :
@@ -276,7 +282,7 @@ value
     
 h
 =
-hash
+hash_str
 (
 value
 )
@@ -12538,9 +12544,6 @@ sentinelKey
 sentinelFail
 )
 :
-        
-assert
-sentinelKey
         
 read
 =
