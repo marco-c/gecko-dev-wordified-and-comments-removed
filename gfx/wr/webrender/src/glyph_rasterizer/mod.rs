@@ -2513,6 +2513,10 @@ transform_glyphs
 :
 bool
 pub
+texture_padding
+:
+bool
+pub
 size
 :
 Au
@@ -2690,6 +2694,9 @@ identity
 transform_glyphs
 :
 false
+texture_padding
+:
+false
 color
 size
 :
@@ -2727,6 +2734,9 @@ identity
 (
 )
 transform_glyphs
+:
+false
+texture_padding
 :
 false
 color
