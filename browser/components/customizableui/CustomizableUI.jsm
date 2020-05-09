@@ -17252,7 +17252,7 @@ localName
 =
 =
 "
-menuseparator
+toolbarseparator
 "
 )
 {
@@ -17266,7 +17266,7 @@ doc
 createXULElement
 (
 "
-menuseparator
+toolbarseparator
 "
 )
 ;
