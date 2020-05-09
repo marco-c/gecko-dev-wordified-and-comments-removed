@@ -3769,9 +3769,10 @@ unwantedReasons
 "
 inspector
 -
-default
--
-selection
+open
+"
+"
+navigateaway
 "
 "
 nodeselected
