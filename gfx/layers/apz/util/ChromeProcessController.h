@@ -46,10 +46,10 @@ class
 nsIDOMWindowUtils
 ;
 class
-nsIWidget
+nsISerialEventTarget
 ;
 class
-MessageLoop
+nsIWidget
 ;
 namespace
 mozilla
@@ -328,9 +328,11 @@ IAPZCTreeManager
 >
 mAPZCTreeManager
 ;
-MessageLoop
-*
-mUILoop
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mUIThread
 ;
 void
 InitializeRoot
