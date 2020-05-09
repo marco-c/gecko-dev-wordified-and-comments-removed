@@ -1523,7 +1523,9 @@ FunctionBox
 >
 (
 cx_
-traceListHead_
+compilationInfo_
+.
+traceListHead
 extent
 getCompilationInfo
 (
@@ -1562,7 +1564,9 @@ raiseOOM
 )
 ;
 }
-traceListHead_
+compilationInfo_
+.
+traceListHead
 =
 funbox
 ;

@@ -384,10 +384,6 @@ CompilationInfo
 &
 compilationInfo_
 ;
-FunctionBox
-*
-traceListHead_
-;
 ParseContext
 *
 pc_
@@ -618,7 +614,8 @@ JSTracer
 trc
 )
 final
-;
+{
+}
 const
 char
 *
@@ -941,7 +938,9 @@ m
 .
 traceListHead
 =
-traceListHead_
+compilationInfo_
+.
+traceListHead
 ;
 return
 m
@@ -963,7 +962,9 @@ m
 mark
 )
 ;
-traceListHead_
+compilationInfo_
+.
+traceListHead
 =
 m
 .
@@ -2258,12 +2259,6 @@ Base
 :
 :
 stringLiteral
-;
-using
-Base
-:
-:
-traceListHead_
 ;
 using
 Base
