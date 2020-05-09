@@ -807,6 +807,11 @@ profraw
 process_args
 =
 {
+'
+universal_newlines
+'
+:
+True
 }
         
 if
