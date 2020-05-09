@@ -33,6 +33,8 @@ FixStacksInstall
     
 LucetcInstall
     
+MinidumpStackwalkInstall
+    
 NodeInstall
     
 SccacheInstall
@@ -63,6 +65,8 @@ ClangStaticAnalysisInstall
 FixStacksInstall
         
 LucetcInstall
+        
+MinidumpStackwalkInstall
         
 NodeInstall
         

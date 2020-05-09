@@ -2334,6 +2334,16 @@ state_dir
 checkout_root
 )
         
+self
+.
+instance
+.
+ensure_minidump_stackwalk_packages
+(
+state_dir
+checkout_root
+)
+        
 if
 not
 self
