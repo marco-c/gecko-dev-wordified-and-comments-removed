@@ -130,6 +130,12 @@ fp
 dereference
 =
 True
+                      
+format
+=
+tarfile
+.
+GNU_FORMAT
 )
 as
 tf
