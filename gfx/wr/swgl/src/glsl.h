@@ -16,6 +16,7 @@ glsl
 #
 if
 USE_SSE2
+SI
 bool
 test_all
 (
@@ -33,6 +34,7 @@ cond
 0xF
 ;
 }
+SI
 bool
 test_any
 (
@@ -50,6 +52,7 @@ cond
 0
 ;
 }
+SI
 bool
 test_none
 (
@@ -69,6 +72,7 @@ cond
 }
 #
 else
+SI
 bool
 test_all
 (
@@ -93,6 +97,7 @@ U8
 0xFFFFFFFFU
 ;
 }
+SI
 bool
 test_any
 (
@@ -117,6 +122,7 @@ U8
 0
 ;
 }
+SI
 bool
 test_none
 (
