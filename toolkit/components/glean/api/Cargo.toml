@@ -43,6 +43,15 @@ false
 [
 dependencies
 ]
+chrono
+=
+"
+0
+.
+4
+.
+10
+"
 glean
 -
 core
