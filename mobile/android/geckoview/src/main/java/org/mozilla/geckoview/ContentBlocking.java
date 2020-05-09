@@ -1558,6 +1558,14 @@ ACCEPT_NON_TRACKERS
 =
 4
 ;
+public
+static
+final
+int
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
+=
+5
+;
 protected
 CookieBehavior
 (

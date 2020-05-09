@@ -1728,6 +1728,15 @@ public
 static
 final
 int
+ACCEPT_FIRST_PARTY_AND_ISOLATE_OTHERS
+=
+5
+;
+field
+public
+static
+final
+int
 ACCEPT_NONE
 =
 2
