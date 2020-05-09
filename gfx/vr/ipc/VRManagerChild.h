@@ -830,6 +830,10 @@ uint64_t
 >
 mNavigatorCallbacks
 ;
+MessageLoop
+*
+mMessageLoop
+;
 struct
 XRFrameRequest
 {

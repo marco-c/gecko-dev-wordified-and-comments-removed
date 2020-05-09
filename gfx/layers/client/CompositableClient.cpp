@@ -809,12 +809,12 @@ GetSingleton
 )
 -
 >
-GetThread
+GetMessageLoop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 runnable
 .

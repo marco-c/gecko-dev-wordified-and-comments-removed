@@ -196,12 +196,15 @@ VideoBridgeParent
 aSource
 )
 ;
-CompositorThread
+CompositorThreadHolder
+:
+:
+Loop
 (
 )
 -
 >
-Dispatch
+PostTask
 (
 NewRunnableMethod
 <

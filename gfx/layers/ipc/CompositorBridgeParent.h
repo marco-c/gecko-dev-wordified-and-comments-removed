@@ -316,6 +316,9 @@ VsyncDispatcher
 h
 "
 class
+MessageLoop
+;
+class
 nsIWidget
 ;
 namespace
@@ -3585,6 +3588,17 @@ PLayerTransactionParent
 aLayers
 )
 override
+;
+virtual
+void
+ScheduleTask
+(
+already_AddRefed
+<
+CancelableRunnable
+>
+int
+)
 ;
 void
 SetEGLSurfaceRect
