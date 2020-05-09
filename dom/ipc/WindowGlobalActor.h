@@ -92,6 +92,15 @@ nsIPrincipal
 aPrincipal
 )
 ;
+static
+WindowGlobalInit
+WindowInitializer
+(
+nsGlobalWindowInner
+*
+aWindow
+)
+;
 protected
 :
 virtual
