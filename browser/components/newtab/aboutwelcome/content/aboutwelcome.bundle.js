@@ -2847,10 +2847,9 @@ window
 .
 AWSendToParent
 (
-"
-SPECIAL_ACTION
-"
 action
+.
+type
 )
 ;
 break
