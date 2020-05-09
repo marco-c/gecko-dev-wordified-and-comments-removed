@@ -77,7 +77,7 @@ garbageIndex
 0
 ;
 }
-defaultGarbageTotal
+defaultGarbagePiles
 :
 "
 8K

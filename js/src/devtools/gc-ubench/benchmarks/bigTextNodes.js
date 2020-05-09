@@ -74,7 +74,7 @@ defaultGarbagePerFrame
 "
 8
 "
-defaultGarbageTotal
+defaultGarbagePiles
 :
 "
 8
