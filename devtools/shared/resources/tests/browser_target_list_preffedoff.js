@@ -554,7 +554,7 @@ FISSION_TEST_URL
 )
 ;
 const
-target
+descriptor
 =
 await
 mainRoot
@@ -564,6 +564,16 @@ getTab
 {
 tab
 }
+)
+;
+const
+target
+=
+await
+descriptor
+.
+getTarget
+(
 )
 ;
 const

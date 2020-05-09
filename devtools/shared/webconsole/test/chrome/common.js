@@ -276,7 +276,8 @@ getTarget
 }
 else
 {
-target
+const
+targetDescriptor
 =
 await
 client
@@ -284,6 +285,15 @@ client
 mainRoot
 .
 getTab
+(
+)
+;
+target
+=
+await
+targetDescriptor
+.
+getTarget
 (
 )
 ;

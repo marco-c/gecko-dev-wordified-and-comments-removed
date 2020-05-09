@@ -878,10 +878,6 @@ tab
 }
 return
 descriptorFront
-.
-getTarget
-(
-)
 ;
 }
 async

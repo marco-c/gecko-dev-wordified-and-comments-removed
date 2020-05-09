@@ -855,7 +855,7 @@ connect
 )
 ;
 const
-targetFront
+descriptor
 =
 await
 client
@@ -867,6 +867,16 @@ getTab
 {
 tab
 }
+)
+;
+const
+targetFront
+=
+await
+descriptor
+.
+getTarget
+(
 )
 ;
 return

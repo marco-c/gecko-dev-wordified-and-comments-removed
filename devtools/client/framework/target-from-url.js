@@ -287,7 +287,8 @@ number
 }
 try
 {
-front
+const
+tabDescriptor
 =
 await
 client
@@ -301,6 +302,15 @@ outerWindowID
 :
 id
 }
+)
+;
+front
+=
+await
+tabDescriptor
+.
+getTarget
+(
 )
 ;
 }

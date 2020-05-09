@@ -594,7 +594,8 @@ connect
 (
 )
 ;
-target
+const
+tabDescriptor
 =
 await
 client
@@ -606,6 +607,15 @@ getTab
 {
 tab
 }
+)
+;
+target
+=
+await
+tabDescriptor
+.
+getTarget
+(
 )
 ;
 target

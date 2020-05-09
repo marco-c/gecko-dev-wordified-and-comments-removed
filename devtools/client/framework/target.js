@@ -214,7 +214,10 @@ connect
 )
 ;
 }
-return
+const
+descriptor
+=
+await
 client
 .
 mainRoot
@@ -224,6 +227,13 @@ getTab
 {
 tab
 }
+)
+;
+return
+descriptor
+.
+getTarget
+(
 )
 ;
 }
