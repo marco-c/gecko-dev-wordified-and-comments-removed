@@ -432,12 +432,6 @@ if
 targetSwitchingEnabled
 )
 {
-this
-.
-shouldCloseClient
-=
-true
-;
 toolbox
 .
 switchToTarget
