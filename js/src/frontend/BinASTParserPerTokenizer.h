@@ -1313,9 +1313,6 @@ tokenizer_
 VariableDeclarationKind
 variableDeclarationKind_
 ;
-FunctionTreeHolder
-treeHolder_
-;
 friend
 class
 BinASTParseContext

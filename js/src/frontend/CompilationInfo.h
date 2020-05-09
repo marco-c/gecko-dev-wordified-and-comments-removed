@@ -36,15 +36,6 @@ include
 "
 frontend
 /
-FunctionTree
-.
-h
-"
-#
-include
-"
-frontend
-/
 SharedContext
 .
 h
@@ -200,9 +191,6 @@ LifoAllocScope
 &
 allocScope
 ;
-FunctionTreeHolder
-treeHolder
-;
 Vector
 <
 RegExpCreationData
@@ -298,10 +286,6 @@ cx
 allocScope
 (
 alloc
-)
-treeHolder
-(
-cx
 )
 regExpData
 (

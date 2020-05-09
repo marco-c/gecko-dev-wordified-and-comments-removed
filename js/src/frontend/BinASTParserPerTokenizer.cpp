@@ -306,10 +306,6 @@ VariableDeclarationKind
 :
 Var
 )
-treeHolder_
-(
-cx
-)
 {
 MOZ_ASSERT_IF
 (
