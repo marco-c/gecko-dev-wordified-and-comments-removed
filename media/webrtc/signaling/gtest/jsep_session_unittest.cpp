@@ -25109,7 +25109,7 @@ uint32_t
 0
 parsed_opus_params
 .
-maxaveragebitrate
+maxAverageBitrate
 )
 ;
 ASSERT_EQ

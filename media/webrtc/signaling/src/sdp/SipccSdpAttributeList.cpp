@@ -4096,7 +4096,7 @@ useinbandfec
 opusParameters
 -
 >
-maxaveragebitrate
+maxAverageBitrate
 =
 fmtp
 -
