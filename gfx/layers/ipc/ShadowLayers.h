@@ -1044,9 +1044,11 @@ Transaction
 *
 mTxn
 ;
-MessageLoop
-*
-mMessageLoop
+nsCOMPtr
+<
+nsISerialEventTarget
+>
+mThread
 ;
 DiagnosticTypes
 mDiagnosticTypes

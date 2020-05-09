@@ -29,6 +29,7 @@ ChainedPipePump
 ChainedPipeRecv
 Checker
 Test
+Compositor
 Cookie
 CrashRep
 Inject
@@ -64,6 +65,7 @@ Launch
 IPDL
 Background
 IdentityCrypto
+ImageBridgeChld
 LS
 Thread
 LayerScope
