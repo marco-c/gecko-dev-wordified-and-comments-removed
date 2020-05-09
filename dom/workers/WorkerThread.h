@@ -225,6 +225,7 @@ nsIRunnable
 *
 aEvent
 )
+const
 override
 ;
 NS_INLINE_DECL_REFCOUNTING_INHERITED
