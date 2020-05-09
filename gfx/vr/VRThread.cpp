@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsThread
+.
+h
+"
+#
+include
+"
 nsThreadUtils
 .
 h

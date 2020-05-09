@@ -307,9 +307,6 @@ class
 WebrtcAudioConduit
 ;
 class
-nsThread
-;
-class
 WebrtcVideoEncoder
 :
 public
