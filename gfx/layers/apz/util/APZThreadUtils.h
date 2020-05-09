@@ -7,15 +7,6 @@ mozilla_layers_APZThreadUtils_h
 #
 include
 "
-base
-/
-message_loop
-.
-h
-"
-#
-include
-"
 nsINamed
 .
 h
@@ -59,9 +50,9 @@ static
 void
 SetControllerThread
 (
-MessageLoop
+nsISerialEventTarget
 *
-aLoop
+aThread
 )
 ;
 static
@@ -91,7 +82,7 @@ IsControllerThread
 ;
 static
 void
-PostDelayedTask
+DelayedDispatch
 (
 already_AddRefed
 <
