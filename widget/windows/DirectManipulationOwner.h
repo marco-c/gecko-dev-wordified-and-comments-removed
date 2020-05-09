@@ -94,6 +94,11 @@ UINT
 aContactId
 )
 ;
+void
+Update
+(
+)
+;
 private
 :
 nsWindow
