@@ -195,6 +195,15 @@ isFromChromeContext
 ;
 attribute
 jsval
+exception
+;
+readonly
+attribute
+boolean
+hasException
+;
+attribute
+jsval
 stack
 ;
 [
