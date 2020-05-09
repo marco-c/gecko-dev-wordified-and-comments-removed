@@ -61,3 +61,16 @@ bottom
 important
 ;
 }
+span
+.
+strikethrough
+{
+text
+-
+decoration
+:
+line
+-
+through
+;
+}
