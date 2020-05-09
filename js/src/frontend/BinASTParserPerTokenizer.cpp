@@ -261,8 +261,6 @@ JS
 ReadOnlyCompileOptions
 &
 options
-HandleScriptSourceObject
-sourceObject
 Handle
 <
 BaseScript
@@ -275,7 +273,6 @@ BinASTParserBase
 (
 cx
 compilationInfo
-sourceObject
 )
 options_
 (
@@ -2143,7 +2140,9 @@ CreateRawLazy
 cx_
 0
 fun
-sourceObject_
+compilationInfo_
+.
+sourceObject
 extent
 immutableFlags
 )

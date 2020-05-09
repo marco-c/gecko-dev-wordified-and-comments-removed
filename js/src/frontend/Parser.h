@@ -360,9 +360,6 @@ cx
 CompilationInfo
 &
 compilationInfo
-ScriptSourceObject
-*
-sourceObject
 Kind
 kind
 )
@@ -398,9 +395,6 @@ pc_
 UsedNameTracker
 &
 usedNames_
-;
-RootedScriptSourceObject
-sourceObject_
 ;
 public
 :
@@ -604,9 +598,6 @@ foldConstants
 CompilationInfo
 &
 compilationInfo
-ScriptSourceObject
-*
-sourceObject
 )
 ;
 ~
@@ -1269,9 +1260,6 @@ compilationInfo
 BaseScript
 *
 lazyOuterFunction
-ScriptSourceObject
-*
-sourceObject
 void
 *
 internalSyntaxParser
@@ -1311,9 +1299,6 @@ syntaxParser
 BaseScript
 *
 lazyOuterFunction
-ScriptSourceObject
-*
-sourceObject
 )
 :
 PerHandlerParser
@@ -1323,7 +1308,6 @@ options
 foldConstants
 compilationInfo
 lazyOuterFunction
-sourceObject
 static_cast
 <
 void
@@ -2825,9 +2809,6 @@ syntaxParser
 BaseScript
 *
 lazyOuterFunction
-ScriptSourceObject
-*
-sourceObject
 )
 ;
 inline

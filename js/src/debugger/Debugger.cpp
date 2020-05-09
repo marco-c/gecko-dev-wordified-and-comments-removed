@@ -29962,9 +29962,6 @@ true
 compilationInfo
 nullptr
 nullptr
-compilationInfo
-.
-sourceObject
 )
 ;
 if
