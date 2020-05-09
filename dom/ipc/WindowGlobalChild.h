@@ -368,6 +368,14 @@ nsGlobalWindowInner
 aWindow
 )
 ;
+void
+OnNewDocument
+(
+Document
+*
+aNewDocument
+)
+;
 nsISupports
 *
 GetParentObject
