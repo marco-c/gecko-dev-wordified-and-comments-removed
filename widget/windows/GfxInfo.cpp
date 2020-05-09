@@ -8671,7 +8671,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -8773,7 +8773,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -8824,7 +8824,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -8878,7 +8878,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -8929,7 +8929,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -8985,7 +8985,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -9036,7 +9036,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
@@ -9087,7 +9087,7 @@ APPEND_TO_DRIVER_BLOCKLIST2_EXT
 OperatingSystem
 :
 :
-Windows10
+Windows
 ScreenSizeStatus
 :
 :
