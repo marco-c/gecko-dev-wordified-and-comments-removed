@@ -2837,6 +2837,11 @@ rootHasSecureConnection
 topWC
 -
 >
+GetBrowsingContext
+(
+)
+-
+>
 GetIsSecure
 (
 )
@@ -2888,6 +2893,11 @@ curWindow
 httpsParentExists
 =
 curWindow
+-
+>
+GetBrowsingContext
+(
+)
 -
 >
 GetIsSecure
