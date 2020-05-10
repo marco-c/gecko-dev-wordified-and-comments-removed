@@ -198,7 +198,7 @@ uint32_t
 CountCookiesFromHashTable
 (
 const
-nsCString
+nsACString
 &
 aBaseDomain
 const
