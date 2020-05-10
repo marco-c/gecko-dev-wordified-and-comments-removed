@@ -237,12 +237,7 @@ SetLevel
 LogLevel
 level
 )
-{
-mLevel
-=
-level
 ;
-}
 void
 Printv
 (
