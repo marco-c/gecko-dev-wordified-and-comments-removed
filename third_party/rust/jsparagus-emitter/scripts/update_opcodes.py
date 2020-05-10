@@ -298,15 +298,6 @@ h
 (
 vm_dir
 '
-CheckIsCallableKind
-.
-h
-'
-)
-    
-(
-vm_dir
-'
 CheckIsObjectKind
 .
 h
@@ -2404,15 +2395,6 @@ extract_enum
 types
 paths
 '
-CheckIsCallableKind
-'
-)
-    
-extract_enum
-(
-types
-paths
-'
 CheckIsObjectKind
 '
 )
@@ -2910,10 +2892,6 @@ copied_types
         
 '
 AsyncFunctionResolveKind
-'
-        
-'
-CheckIsCallableKind
 '
         
 '

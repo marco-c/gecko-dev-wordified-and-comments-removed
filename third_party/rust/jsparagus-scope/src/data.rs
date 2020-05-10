@@ -1149,7 +1149,10 @@ pub
 enum
 ScopeData
 {
-AliasPrevious
+Alias
+(
+ScopeIndex
+)
 Global
 (
 GlobalScopeData
@@ -1859,7 +1862,10 @@ index
 ScopeData
 :
 :
-AliasPrevious
+Alias
+(
+_
+)
 =
 >
 true

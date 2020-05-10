@@ -610,6 +610,8 @@ NULL
 1
 1
 JOF_BYTE
+|
+JOF_IC
 )
 (
 ToString
@@ -1241,15 +1243,6 @@ JOF_BYTE
 (
 CheckIsObj
 check_is_obj
-NULL
-2
-1
-1
-JOF_UINT8
-)
-(
-CheckIsCallable
-check_is_callable
 NULL
 2
 1
