@@ -401,7 +401,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 firstPartyURI
 "
@@ -416,7 +416,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 thirdPartyURI
 "
@@ -527,7 +527,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 firstPartyURI
 "

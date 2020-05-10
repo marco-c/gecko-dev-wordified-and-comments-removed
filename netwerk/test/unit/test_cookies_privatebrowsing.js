@@ -206,7 +206,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 uri1
 "
@@ -220,7 +220,12 @@ age
 =
 1000
 "
-null
+make_channel
+(
+uri1
+.
+spec
+)
 )
 ;
 Assert
@@ -296,7 +301,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 uri2
 "
@@ -402,7 +407,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 uri2
 "
@@ -571,7 +576,7 @@ Services
 .
 cookies
 .
-setCookieString
+setCookieStringFromHttp
 (
 uri2
 "
