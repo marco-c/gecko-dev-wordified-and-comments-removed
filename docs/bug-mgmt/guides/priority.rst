@@ -1,5 +1,5 @@
 Priority
-definitions
+Definitions
 =
 =
 =

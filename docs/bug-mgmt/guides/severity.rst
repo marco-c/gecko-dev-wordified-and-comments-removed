@@ -1,5 +1,5 @@
 Defect
-severity
+Severity
 =
 =
 =
