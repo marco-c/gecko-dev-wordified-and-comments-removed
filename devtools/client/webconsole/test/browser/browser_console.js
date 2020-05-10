@@ -795,15 +795,6 @@ findMessage
 hud
 msg
 )
-Couldn
-'
-t
-find
-"
-{
-msg
-}
-"
 )
 ;
 ok

@@ -844,8 +844,10 @@ lines
 ]
 Error
 :
+"
 error
 object
+"
 )
 ;
 is

@@ -247,17 +247,6 @@ nullable
 json
 "
 )
-hasException
-:
-Option
-(
-0
-"
-nullable
-:
-boolean
-"
-)
 frame
 :
 Option
