@@ -12023,17 +12023,6 @@ AutomaticStorageAccessCanBeGranted
 (
 )
 ;
-already_AddRefed
-<
-nsIChannel
->
-CreateDummyChannelForCookies
-(
-nsIURI
-*
-aContentURI
-)
-;
 static
 void
 AddToplevelLoadingDocument
