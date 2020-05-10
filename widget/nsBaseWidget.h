@@ -2744,6 +2744,13 @@ override
 ;
 virtual
 void
+ClearCachedWebrenderResources
+(
+)
+override
+;
+virtual
+void
 WindowUsesOMTC
 (
 )

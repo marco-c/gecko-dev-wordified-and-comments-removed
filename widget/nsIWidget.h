@@ -3997,6 +3997,13 @@ nullptr
 ;
 }
 virtual
+void
+ClearCachedWebrenderResources
+(
+)
+{
+}
+virtual
 RefPtr
 <
 mozilla
