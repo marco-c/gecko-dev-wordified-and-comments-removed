@@ -1458,10 +1458,7 @@ aDisplayItemType
 using
 AnimationGenerationCallback
 =
-std
-:
-:
-function
+FunctionRef
 <
 bool
 (
@@ -1485,10 +1482,7 @@ const
 nsIFrame
 *
 aFrame
-const
 AnimationGenerationCallback
-&
-aCallback
 )
 ;
 static
