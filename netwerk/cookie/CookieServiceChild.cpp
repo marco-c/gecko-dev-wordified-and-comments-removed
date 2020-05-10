@@ -2771,7 +2771,7 @@ nsICookieJarSettings
 >
 cookieJarSettings
 =
-CookieService
+CookieCommons
 :
 :
 GetCookieJarSettings
