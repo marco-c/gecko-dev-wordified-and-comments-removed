@@ -739,14 +739,12 @@ text
 .
 toEqual
 (
-'
+"
 Error
 :
-"
 Error
 message
 "
-'
 )
 ;
 }
@@ -2109,8 +2107,6 @@ toEqual
 "
 DOMException
 :
-\
-"
 '
 foo
 ;
@@ -2124,8 +2120,6 @@ not
 a
 valid
 selector
-\
-"
 "
 )
 ;
