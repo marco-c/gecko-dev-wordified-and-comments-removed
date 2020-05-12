@@ -491,6 +491,15 @@ tsan
 opt
 :
 7200
+android
+-
+em
+-
+7
+.
+*
+:
+5400
 default
 :
 2700
