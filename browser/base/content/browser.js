@@ -3457,7 +3457,7 @@ gReduceMotionSetting
 }
 )
 ;
-var
+let
 gReduceMotionSetting
 =
 true
