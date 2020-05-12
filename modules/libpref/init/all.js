@@ -6756,7 +6756,7 @@ asyncshutdown
 .
 report_writes_after
 "
-20000
+40000
 )
 ;
 pref
