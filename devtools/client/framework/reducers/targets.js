@@ -135,7 +135,7 @@ state
 targets
 action
 .
-target
+targetFront
 ]
 }
 ;
@@ -159,8 +159,6 @@ target
 =
 >
 target
-.
-_targetFront
 !
 =
 =
@@ -179,9 +177,6 @@ state
 if
 (
 selected
-?
-.
-_targetFront
 =
 =
 =
