@@ -1407,9 +1407,7 @@ clip_node
 )
 spatial_node_index
 :
-clip_node
-.
-item
+node
 .
 spatial_node_index
 parent_clip_chain_id
