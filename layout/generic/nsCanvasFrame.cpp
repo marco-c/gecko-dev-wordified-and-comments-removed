@@ -3209,13 +3209,16 @@ aBuilder
 ;
 thisItemList
 .
-AppendNewToTop
+AppendNewToTopWithIndex
 <
 nsDisplayBlendMode
 >
 (
 aBuilder
 this
+i
++
+1
 &
 thisItemList
 layers
@@ -3227,9 +3230,7 @@ i
 .
 mBlendMode
 thisItemASR
-i
-+
-1
+true
 )
 ;
 }
@@ -3288,6 +3289,7 @@ CreateForBackgroundBlendMode
 (
 aBuilder
 this
+nullptr
 aLists
 .
 BorderBackground
