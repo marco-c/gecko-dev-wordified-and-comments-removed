@@ -4704,13 +4704,6 @@ ScrollClamping
 ToContentBounds
 NoClamping
 }
-#
-[
-derive
-(
-Clone
-)
-]
 pub
 struct
 RenderApiSender
@@ -5807,7 +5800,7 @@ namespace_id
 }
 pub
 fn
-clone_sender
+create_sender
 (
 &
 self
