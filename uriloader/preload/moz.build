@@ -33,6 +33,11 @@ PreloadHashKey
 .
 h
 '
+'
+PreloadService
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
@@ -45,6 +50,11 @@ cpp
 '
 '
 PreloadHashKey
+.
+cpp
+'
+'
+PreloadService
 .
 cpp
 '

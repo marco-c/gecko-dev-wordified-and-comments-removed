@@ -49663,6 +49663,12 @@ mOrientationPendingPromise
 =
 nullptr
 ;
+mPreloadService
+.
+ClearAllPreloads
+(
+)
+;
 }
 void
 Document
