@@ -437,6 +437,11 @@ DocumentStyleRootIterator
 h
 '
 '
+FontPreloader
+.
+h
+'
+'
 GeckoBindings
 .
 h
@@ -916,6 +921,11 @@ cpp
 '
 '
 FontFaceSetIterator
+.
+cpp
+'
+'
+FontPreloader
 .
 cpp
 '
