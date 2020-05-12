@@ -158,6 +158,13 @@ Vector
 .
 h
 "
+#
+include
+"
+ScriptKind
+.
+h
+"
 class
 nsIURI
 ;

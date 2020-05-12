@@ -200,6 +200,11 @@ Decoder
 >
 mDecoder
 ;
+bool
+mPreloadStartNotified
+=
+false
+;
 }
 ;
 }
