@@ -1733,6 +1733,12 @@ nsIContentPolicy
 :
 TYPE_FONT
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FONT_PRELOAD
+:
 destination
 =
 RequestDestination

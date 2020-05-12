@@ -455,6 +455,12 @@ nsIContentPolicy
 :
 TYPE_FONT
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_FONT_PRELOAD
+:
 return
 NS_LITERAL_CSTRING
 (
