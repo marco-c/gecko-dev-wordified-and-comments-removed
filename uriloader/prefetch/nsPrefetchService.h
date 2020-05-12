@@ -310,9 +310,6 @@ bool
 mPrefetchDisabled
 ;
 bool
-mPreloadDisabled
-;
-bool
 mAggressive
 ;
 }
