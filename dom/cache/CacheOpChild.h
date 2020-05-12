@@ -94,8 +94,10 @@ private
 :
 CacheOpChild
 (
+SafeRefPtr
+<
 CacheWorkerRef
-*
+>
 aWorkerRef
 nsIGlobalObject
 *

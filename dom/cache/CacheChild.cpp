@@ -261,7 +261,11 @@ SendPCacheOpConstructor
 new
 CacheOpChild
 (
-GetWorkerRef
+GetWorkerRefPtr
+(
+)
+.
+clonePtr
 (
 )
 aGlobal
