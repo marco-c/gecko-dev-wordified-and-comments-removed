@@ -67,13 +67,6 @@ class
 WidgetPointerEvent
 ;
 }
-MOZ_DECLARE_COPY_CONSTRUCTIBLE
-(
-mozilla
-:
-:
-WidgetPointerEvent
-)
 namespace
 mozilla
 {

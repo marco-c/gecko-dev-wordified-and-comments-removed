@@ -128,10 +128,6 @@ nsIEventTarget
 struct
 ConsoleMsgQueueElem
 ;
-MOZ_DECLARE_COPY_CONSTRUCTIBLE
-(
-ConsoleMsgQueueElem
-)
 namespace
 mozilla
 {
