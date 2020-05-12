@@ -441,7 +441,11 @@ IDBHelpers
 bulkOperationHelper
 (
 store
+{
+reject
+:
 rejectTransaction
+}
 "
 put
 "
@@ -543,7 +547,11 @@ IDBHelpers
 bulkOperationHelper
 (
 store
+{
+reject
+:
 rejectTransaction
+}
 "
 delete
 "
