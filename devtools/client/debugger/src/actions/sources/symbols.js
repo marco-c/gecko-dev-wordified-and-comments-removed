@@ -148,6 +148,8 @@ function
 doSetSymbols
 (
 cx
+:
+Context
 source
 :
 Source

@@ -55,6 +55,8 @@ b
 :
 Object
 )
+:
+boolean
 {
 const
 bColumn

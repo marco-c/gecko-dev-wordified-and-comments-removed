@@ -123,6 +123,13 @@ AstLocation
 ]
 )
 )
+:
+?
+(
+AstLocation
+[
+]
+)
 {
 if
 (

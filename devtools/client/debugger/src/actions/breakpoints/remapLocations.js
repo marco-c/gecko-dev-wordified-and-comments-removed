@@ -44,6 +44,13 @@ sourceMaps
 :
 SourceMaps
 )
+:
+Promise
+<
+Breakpoint
+[
+]
+>
 {
 const
 sourceBreakpoints

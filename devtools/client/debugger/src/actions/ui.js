@@ -137,6 +137,20 @@ reducers
 ui
 "
 ;
+import
+type
+{
+UIAction
+}
+from
+"
+.
+/
+types
+/
+UIAction
+"
+;
 export
 function
 setPrimaryPaneTab
@@ -145,6 +159,8 @@ tabName
 :
 SelectedPrimaryPaneTabType
 )
+:
+UIAction
 {
 return
 {
@@ -162,6 +178,8 @@ function
 closeActiveSearch
 (
 )
+:
+UIAction
 {
 return
 {
@@ -693,6 +711,8 @@ function
 clearHighlightLineRange
 (
 )
+:
+UIAction
 {
 return
 {
@@ -718,6 +738,9 @@ boolean
 =
 false
 )
+:
+?
+UIAction
 {
 if
 (
@@ -745,6 +768,8 @@ function
 closeConditionalPanel
 (
 )
+:
+UIAction
 {
 return
 {
@@ -764,6 +789,8 @@ cx
 :
 Context
 )
+:
+UIAction
 {
 return
 {
@@ -991,6 +1018,8 @@ function
 updateViewport
 (
 )
+:
+UIAction
 {
 return
 {
@@ -1018,6 +1047,8 @@ cursorPosition
 :
 SourceLocation
 )
+:
+UIAction
 {
 return
 {
@@ -1038,6 +1069,8 @@ orientation
 :
 OrientationType
 )
+:
+UIAction
 {
 return
 {

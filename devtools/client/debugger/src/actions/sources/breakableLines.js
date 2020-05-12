@@ -104,6 +104,10 @@ calculateBreakableLines
 (
 positions
 )
+:
+number
+[
+]
 {
 const
 lines
