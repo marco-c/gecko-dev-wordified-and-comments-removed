@@ -406,12 +406,6 @@ mJarEntry
 nsCString
 mInnerJarEntry
 ;
-nsCOMPtr
-<
-nsIEventTarget
->
-mWorker
-;
 }
 ;
 #
