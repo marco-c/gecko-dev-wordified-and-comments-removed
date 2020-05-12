@@ -294,14 +294,9 @@ nsIWebProgress
 NOTIFY_LOCATION
 )
 ;
-BrowserUtils
+docShell
 .
-getRootWindow
-(
-this
-.
-_docShell
-)
+domWindow
 .
 addEventListener
 (
