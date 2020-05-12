@@ -1970,12 +1970,14 @@ FT_Byte
 *
 record
 =
+FT_OFFSET
+(
 face
 -
 >
 hdmx_table
-+
 8
+)
 ;
 for
 (

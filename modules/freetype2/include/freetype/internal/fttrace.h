@@ -92,6 +92,10 @@ sfwoff
 )
 FT_TRACE_DEF
 (
+sfwoff2
+)
+FT_TRACE_DEF
+(
 ttbdf
 )
 FT_TRACE_DEF

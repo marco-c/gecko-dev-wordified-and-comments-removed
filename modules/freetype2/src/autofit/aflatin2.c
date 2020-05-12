@@ -1,5 +1,12 @@
 #
 include
+<
+ft2build
+.
+h
+>
+#
+include
 FT_ADVANCES_H
 #
 ifdef

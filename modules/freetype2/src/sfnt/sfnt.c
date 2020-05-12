@@ -39,6 +39,13 @@ c
 #
 include
 "
+sfwoff2
+.
+c
+"
+#
+include
+"
 ttbdf
 .
 c
@@ -96,6 +103,13 @@ c
 include
 "
 ttsbit
+.
+c
+"
+#
+include
+"
+woff2tags
 .
 c
 "

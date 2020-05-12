@@ -262,11 +262,10 @@ SUCH
 DAMAGE
 .
 #
-#
 Try
 to
 find
-Harfbuzz
+HarfBuzz
 include
 and
 library
@@ -285,6 +284,7 @@ inclusion
 where
 needed
 :
+#
 #
 HARFBUZZ_INCLUDE_DIRS
 -
@@ -464,6 +464,8 @@ harfbuzz_FIND_VERSION
 }
 "
 )
+"
+"
 is
 higher
 than
@@ -485,7 +487,7 @@ include
 (
 FindPackageHandleStandardArgs
 )
-FIND_PACKAGE_HANDLE_STANDARD_ARGS
+find_package_handle_standard_args
 (
 harfbuzz
 REQUIRED_VARS
@@ -500,11 +502,12 @@ HARFBUZZ_INCLUDE_DIRS
 HARFBUZZ_LIBRARIES
 )
 #
-Allows
+Allow
 easy
 linking
 as
 in
+#
 #
 target_link_libraries
 (
@@ -515,6 +518,7 @@ Harfbuzz
 :
 Harfbuzz
 )
+#
 if
 (
 NOT

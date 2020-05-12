@@ -8061,9 +8061,11 @@ cff_parser_run
 &
 parser
 dict
+FT_OFFSET
+(
 dict
-+
 dict_len
+)
 )
 ;
 }

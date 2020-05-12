@@ -1301,9 +1301,11 @@ buf
 .
 end
 =
+FT_OFFSET
+(
 charstring_base
-+
 charstring_len
+)
 ;
 FT_ZERO
 (
@@ -2562,9 +2564,11 @@ buf
 >
 end
 =
+FT_OFFSET
+(
 charstring
-+
 len
+)
 ;
 buf
 -
@@ -3060,11 +3064,12 @@ buf
 >
 end
 =
+FT_OFFSET
+(
 buf
 -
 >
 start
-+
 decoder
 -
 >
@@ -3072,6 +3077,7 @@ locals_len
 [
 idx
 ]
+)
 ;
 else
 {

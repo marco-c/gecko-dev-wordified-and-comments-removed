@@ -202,6 +202,13 @@ __OPTIMIZE__
 &
 &
 \
+defined
+(
+__SSE__
+)
+&
+&
+\
 __BYTE_ORDER__
 =
 =

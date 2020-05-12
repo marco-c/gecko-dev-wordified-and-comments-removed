@@ -395,6 +395,14 @@ result
 =
 0
 ;
+if
+(
+!
+count
+)
+return
+result
+;
 switch
 (
 CoverageFormat

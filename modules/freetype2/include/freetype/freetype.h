@@ -822,6 +822,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -831,6 +834,7 @@ face_flags
 &
 FT_FACE_FLAG_HORIZONTAL
 )
+)
 #
 define
 FT_HAS_VERTICAL
@@ -838,6 +842,9 @@ FT_HAS_VERTICAL
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -848,6 +855,7 @@ face_flags
 &
 FT_FACE_FLAG_VERTICAL
 )
+)
 #
 define
 FT_HAS_KERNING
@@ -855,6 +863,9 @@ FT_HAS_KERNING
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -865,6 +876,7 @@ face_flags
 &
 FT_FACE_FLAG_KERNING
 )
+)
 #
 define
 FT_IS_SCALABLE
@@ -872,6 +884,9 @@ FT_IS_SCALABLE
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -882,6 +897,7 @@ face_flags
 &
 FT_FACE_FLAG_SCALABLE
 )
+)
 #
 define
 FT_IS_SFNT
@@ -889,6 +905,9 @@ FT_IS_SFNT
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -899,6 +918,7 @@ face_flags
 &
 FT_FACE_FLAG_SFNT
 )
+)
 #
 define
 FT_IS_FIXED_WIDTH
@@ -906,6 +926,9 @@ FT_IS_FIXED_WIDTH
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -916,6 +939,7 @@ face_flags
 &
 FT_FACE_FLAG_FIXED_WIDTH
 )
+)
 #
 define
 FT_HAS_FIXED_SIZES
@@ -923,6 +947,9 @@ FT_HAS_FIXED_SIZES
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -932,6 +959,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_FIXED_SIZES
+)
 )
 #
 define
@@ -948,6 +976,9 @@ face
 )
 \
 (
+!
+!
+(
 (
 face
 )
@@ -957,6 +988,7 @@ face_flags
 &
 FT_FACE_FLAG_GLYPH_NAMES
 )
+)
 #
 define
 FT_HAS_MULTIPLE_MASTERS
@@ -964,6 +996,9 @@ FT_HAS_MULTIPLE_MASTERS
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -974,6 +1009,7 @@ face_flags
 &
 FT_FACE_FLAG_MULTIPLE_MASTERS
 )
+)
 #
 define
 FT_IS_NAMED_INSTANCE
@@ -981,6 +1017,9 @@ FT_IS_NAMED_INSTANCE
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -991,6 +1030,7 @@ face_index
 &
 0x7FFF0000L
 )
+)
 #
 define
 FT_IS_VARIATION
@@ -998,6 +1038,9 @@ FT_IS_VARIATION
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -1008,6 +1051,7 @@ face_flags
 &
 FT_FACE_FLAG_VARIATION
 )
+)
 #
 define
 FT_IS_CID_KEYED
@@ -1015,6 +1059,9 @@ FT_IS_CID_KEYED
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -1025,6 +1072,7 @@ face_flags
 &
 FT_FACE_FLAG_CID_KEYED
 )
+)
 #
 define
 FT_IS_TRICKY
@@ -1032,6 +1080,9 @@ FT_IS_TRICKY
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -1042,6 +1093,7 @@ face_flags
 &
 FT_FACE_FLAG_TRICKY
 )
+)
 #
 define
 FT_HAS_COLOR
@@ -1049,6 +1101,9 @@ FT_HAS_COLOR
 face
 )
 \
+(
+!
+!
 (
 (
 face
@@ -1058,6 +1113,7 @@ face
 face_flags
 &
 FT_FACE_FLAG_COLOR
+)
 )
 #
 define
@@ -2342,7 +2398,7 @@ FREETYPE_MINOR
 #
 define
 FREETYPE_PATCH
-1
+2
 FT_EXPORT
 (
 void

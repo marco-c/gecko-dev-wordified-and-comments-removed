@@ -19,7 +19,7 @@ C
 )
 1996
 -
-2019
+2020
 by
 #
 David
@@ -1737,15 +1737,11 @@ rm
 rf
 docs
 /
-reference
-/
 markdown
 rm
 -
 f
 docs
-/
-reference
 /
 mkdocs
 .

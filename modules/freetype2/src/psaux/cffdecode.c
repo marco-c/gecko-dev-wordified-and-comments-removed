@@ -753,9 +753,11 @@ builder
 >
 pos_x
 =
+SUB_LONG
+(
 adx
--
 asb
+)
 ;
 builder
 -
@@ -1262,6 +1264,14 @@ builder
 path_begun
 =
 0
+;
+if
+(
+!
+charstring_base
+)
+return
+FT_Err_Ok
 ;
 zone
 -

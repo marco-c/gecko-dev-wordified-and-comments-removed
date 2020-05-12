@@ -1111,7 +1111,7 @@ Invalid_File_Format
 )
 ;
 goto
-Exit
+Exit1
 ;
 }
 for
@@ -2346,6 +2346,15 @@ Exit
 :
 return
 error
+;
+Exit1
+:
+FT_FRAME_EXIT
+(
+)
+;
+goto
+Exit
 ;
 }
 typedef

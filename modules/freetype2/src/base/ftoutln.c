@@ -3005,6 +3005,13 @@ outline
 |
 !
 matrix
+|
+|
+!
+outline
+-
+>
+points
 )
 return
 ;

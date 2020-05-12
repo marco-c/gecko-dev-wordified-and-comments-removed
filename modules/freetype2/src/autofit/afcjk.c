@@ -3132,12 +3132,14 @@ segments
 AF_Segment
 segment_limit
 =
+FT_OFFSET
+(
 segments
-+
 axis
 -
 >
 num_segments
+)
 ;
 FT_Error
 error

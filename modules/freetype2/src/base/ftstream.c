@@ -1020,12 +1020,14 @@ stream
 >
 limit
 =
+FT_OFFSET
+(
 stream
 -
 >
 cursor
-+
 count
+)
 ;
 stream
 -

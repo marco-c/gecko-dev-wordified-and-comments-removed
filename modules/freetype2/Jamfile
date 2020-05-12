@@ -12,7 +12,7 @@ C
 )
 2001
 -
-2019
+2020
 by
 #
 David
@@ -1087,7 +1087,7 @@ Always
 actions
 RefDoc
 {
-python
+python3
 -
 m
 docwriter
@@ -1106,7 +1106,12 @@ FreeType
 .
 10
 .
-1
+2
+-
+-
+site
+=
+reference
 -
 -
 output

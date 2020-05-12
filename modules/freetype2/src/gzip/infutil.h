@@ -489,6 +489,7 @@ LOADOUT
 ifndef
 NO_INFLATE_MASK
 local
+const
 uInt
 inflate_mask
 [

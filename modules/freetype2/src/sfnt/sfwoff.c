@@ -1664,7 +1664,7 @@ if
 error
 )
 goto
-Exit
+Exit1
 ;
 if
 (
@@ -1701,7 +1701,7 @@ Invalid_Table
 )
 ;
 goto
-Exit
+Exit1
 ;
 }
 #
@@ -1714,7 +1714,7 @@ Unimplemented_Feature
 )
 ;
 goto
-Exit
+Exit1
 ;
 #
 endif
@@ -1862,6 +1862,15 @@ sfnt_stream
 }
 return
 error
+;
+Exit1
+:
+FT_FRAME_EXIT
+(
+)
+;
+goto
+Exit
 ;
 }
 #

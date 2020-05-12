@@ -12,7 +12,7 @@ C
 )
 2002
 -
-2019
+2020
 by
 #
 David
@@ -751,11 +751,11 @@ test
 !
 -
 d
-reference
+docs
 ;
 then
 mkdir
-reference
+docs
 echo
 "
 Copying
@@ -769,12 +769,10 @@ abs_ft2_dir
 /
 docs
 /
-reference
-/
 markdown
 abs_curr_dir
 /
-reference
+docs
 fi
 if
 test
@@ -854,7 +852,7 @@ DOC_DIR
 OBJ_DIR
 )
 /
-reference
+docs
 "
 >
 >

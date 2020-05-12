@@ -745,10 +745,10 @@ FT_ERR
 Unimplemented_Feature
 )
 ;
+}
 return
 error
 ;
-}
 }
 else
 if
