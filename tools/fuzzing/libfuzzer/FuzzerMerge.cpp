@@ -1437,6 +1437,8 @@ ResetMaps
 (
 )
 ;
+if
+(
 ExecuteCallback
 (
 U
@@ -1450,7 +1452,13 @@ size
 (
 )
 )
+>
+0
+)
+{
+continue
 ;
+}
 Set
 <
 size_t
