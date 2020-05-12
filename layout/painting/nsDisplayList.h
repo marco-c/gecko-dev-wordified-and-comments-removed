@@ -25330,8 +25330,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 )
 ;
 nsDisplayTransform
@@ -25349,8 +25347,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 bool
 aAllowAsyncAnimation
 )
@@ -25370,8 +25366,6 @@ const
 nsRect
 &
 aChildrenBuildingRect
-uint16_t
-aIndex
 ComputeTransformFunction
 aTransformGetter
 )
@@ -25686,17 +25680,6 @@ aVisibleRegion
 )
 override
 ;
-uint16_t
-CalculatePerFrameKey
-(
-)
-const
-override
-{
-return
-mIndex
-;
-}
 nsDisplayItemGeometry
 *
 AllocateGeometry
@@ -26574,9 +26557,6 @@ mChildrenBuildingRect
 mutable
 RetainedDisplayList
 mChildren
-;
-uint16_t
-mIndex
 ;
 nsRect
 mChildBounds

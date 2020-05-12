@@ -3469,7 +3469,6 @@ content
 GetBuildingRect
 (
 )
-0
 :
 :
 ComputePageSequenceTransform
