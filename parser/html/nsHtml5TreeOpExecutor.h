@@ -761,6 +761,8 @@ const
 nsAString
 &
 aImageReferrerPolicy
+bool
+aLinkPreload
 )
 ;
 void

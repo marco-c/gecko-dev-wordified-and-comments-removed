@@ -178,6 +178,7 @@ mCrossOriginOrMedia
 mCharsetOrSrcset
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 mReferrerPolicyOrIntegrity
+mIsLinkPreload
 )
 ;
 break

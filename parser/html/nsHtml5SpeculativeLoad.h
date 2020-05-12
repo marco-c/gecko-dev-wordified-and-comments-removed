@@ -271,6 +271,8 @@ nsHtml5String
 aSrcset
 nsHtml5String
 aSizes
+bool
+aLinkPreload
 )
 {
 MOZ_ASSERT
@@ -350,6 +352,10 @@ ToString
 (
 mTypeOrCharsetSourceOrDocumentModeOrMetaCSPOrSizesOrIntegrity
 )
+;
+mIsLinkPreload
+=
+aLinkPreload
 ;
 }
 inline

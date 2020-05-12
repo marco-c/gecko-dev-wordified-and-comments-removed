@@ -16501,6 +16501,8 @@ uint32_t
 aContentPolicyType
 bool
 aUseUrgentStartForChannel
+bool
+aLinkPreload
 )
 {
 MOZ_ASSERT
@@ -16643,6 +16645,7 @@ nullptr
 aContentPolicyType
 initiatorType
 aUseUrgentStartForChannel
+aLinkPreload
 aRequest
 )
 ;
