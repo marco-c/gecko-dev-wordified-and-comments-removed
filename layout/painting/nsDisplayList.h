@@ -19217,10 +19217,6 @@ gfx
 CompositorHitTestInfo
 &
 aHitTestFlags
-uint16_t
-aIndex
-=
-0
 const
 mozilla
 :
@@ -19319,13 +19315,6 @@ aDisplayListBuilder
 )
 override
 ;
-uint16_t
-CalculatePerFrameKey
-(
-)
-const
-override
-;
 int32_t
 ZIndex
 (
@@ -19410,9 +19399,6 @@ ScrollableLayerGuid
 ViewID
 >
 mScrollTarget
-;
-uint16_t
-mIndex
 ;
 mozilla
 :
