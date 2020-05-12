@@ -114,6 +114,10 @@ hashlib
 .
 sha256
 (
+six
+.
+ensure_binary
+(
 os
 .
 path
@@ -123,6 +127,7 @@ abspath
 build
 .
 topsrcdir
+)
 )
 )
 .

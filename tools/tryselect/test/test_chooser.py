@@ -206,6 +206,7 @@ expected_output
 =
 [
         
+b
 "
 "
 "
@@ -223,6 +224,7 @@ title
 "
 "
         
+b
 "
 "
 "
@@ -285,6 +287,7 @@ apply
 "
 "
         
+b
 "
 "
 "
@@ -401,6 +404,7 @@ status_code
 200
     
 assert
+b
 "
 You
 may
@@ -462,6 +466,7 @@ status_code
 200
     
 assert
+b
 "
 You
 may
@@ -537,6 +542,7 @@ status_code
 200
     
 assert
+b
 "
 You
 may

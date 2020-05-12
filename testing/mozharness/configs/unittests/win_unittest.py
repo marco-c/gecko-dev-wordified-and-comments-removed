@@ -2212,6 +2212,7 @@ Windows
 \
 CurrentVersion
 \
+\
 Notifications
 \
 Settings

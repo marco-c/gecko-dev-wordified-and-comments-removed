@@ -20,6 +20,8 @@ mozpack
 path
 as
 mozpath
+import
+six
 from
 moztest
 .
@@ -1556,12 +1558,11 @@ self
 .
 token
 =
+next
+(
 self
 .
 tokens
-.
-next
-(
 )
         
 except
@@ -2847,10 +2848,11 @@ for
 flavor
 flavor_tests
 in
-paths_by_flavor
+six
 .
 iteritems
 (
+paths_by_flavor
 )
 :
             
@@ -3528,10 +3530,11 @@ for
 dest
 value
 in
-extras
+six
 .
 iteritems
 (
+extras
 )
 :
             
@@ -3677,10 +3680,11 @@ for
 key
 values
 in
-parsed
+six
 .
 iteritems
 (
+parsed
 )
 :
                 
@@ -3711,10 +3715,11 @@ item
 for
 item
 in
-rv
+six
 .
 itervalues
 (
+rv
 )
 )
 :
@@ -4868,10 +4873,11 @@ for
 flavor
 paths
 in
-paths_by_flavor
+six
 .
 iteritems
 (
+paths_by_flavor
 )
 :
                 

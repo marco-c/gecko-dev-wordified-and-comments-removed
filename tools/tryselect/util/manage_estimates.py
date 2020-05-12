@@ -14,6 +14,8 @@ datetime
 import
 datetime
 timedelta
+import
+six
 TASK_DURATION_URL
 =
 '
@@ -531,9 +533,14 @@ f
 .
 write
 (
+six
+.
+ensure_text
+(
 r
 .
 content
+)
 )
     
 with

@@ -362,10 +362,13 @@ list
 "
 ]
 +
+list
+(
 TASK_TYPES
 .
 keys
 (
+)
 )
                 
 "
@@ -426,10 +429,13 @@ nightly
 "
 ]
 +
+list
+(
 RELEASE_TO_BRANCH
 .
 keys
 (
+)
 )
                 
 "

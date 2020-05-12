@@ -9,6 +9,8 @@ import
 os
 import
 sys
+import
+six
 from
 mozboot
 .
@@ -1075,7 +1077,7 @@ open
 (
 path
 '
-w
+wb
 '
 )
 as
@@ -1086,7 +1088,12 @@ fh
 .
 write
 (
+six
+.
+ensure_binary
+(
 content
+)
 )
             
 changed_files

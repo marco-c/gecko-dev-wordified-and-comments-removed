@@ -12,6 +12,8 @@ import
 os
 import
 sys
+import
+six
 from
 mach
 .
@@ -959,14 +961,15 @@ try_config
 for
 cls
 in
+six
+.
+itervalues
+(
 self
 .
 parser
 .
 task_configs
-.
-itervalues
-(
 )
 :
             

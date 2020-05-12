@@ -170,6 +170,10 @@ tools
 /
 lint
 -
+tools
+/
+tryselect
+-
 testing
 /
 performance

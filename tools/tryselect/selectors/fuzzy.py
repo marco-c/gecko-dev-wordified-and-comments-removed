@@ -11,6 +11,8 @@ platform
 import
 subprocess
 import
+six
+import
 sys
 from
 distutils
@@ -24,6 +26,12 @@ distutils
 version
 import
 StrictVersion
+from
+six
+.
+moves
+import
+input
 from
 mozbuild
 .
@@ -1334,6 +1342,10 @@ exit
     
 fzf_version
 =
+six
+.
+ensure_text
+(
 fzf_version
 .
 split
@@ -1342,6 +1354,7 @@ split
 [
 0
 ]
+)
     
 if
 StrictVersion
@@ -1649,7 +1662,7 @@ fzf_bin
     
 install
 =
-raw_input
+input
 (
 "
 Could
@@ -1962,12 +1975,16 @@ stdin
 subprocess
 .
 PIPE
+        
 env
 =
 ensure_subprocess_env
 (
 env
 )
+universal_newlines
+=
+True
     
 )
     
@@ -2270,10 +2287,13 @@ disable_target_task_filter
         
 all_tasks
 =
+list
+(
 filter
 (
 filter_tasks_by_blacklist
 all_tasks
+)
 )
     
 if
@@ -2310,10 +2330,11 @@ for
 k
 v
 in
-fzf_shortcuts
+six
 .
 iteritems
 (
+fzf_shortcuts
 )
 ]
     

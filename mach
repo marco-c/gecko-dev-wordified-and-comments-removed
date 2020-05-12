@@ -247,7 +247,6 @@ info
 tps
 -
 build
-try
 valgrind
 -
 test
