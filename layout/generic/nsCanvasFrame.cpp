@@ -3133,6 +3133,7 @@ CreateForFixedBackground
 (
 aBuilder
 this
+nullptr
 bgItem
 i
 )
