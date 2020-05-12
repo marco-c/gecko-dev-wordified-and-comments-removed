@@ -1927,7 +1927,13 @@ mGamepads
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 gamepad
+)
 )
 ;
 }
@@ -3838,7 +3844,13 @@ mGamepads
 .
 AppendElement
 (
+std
+:
+:
+move
+(
 gamepad
+)
 )
 ;
 return

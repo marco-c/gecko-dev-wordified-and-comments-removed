@@ -448,6 +448,10 @@ const
 aButtons
 =
 mButtons
+.
+Clone
+(
+)
 ;
 }
 void
@@ -465,6 +469,10 @@ const
 aAxes
 =
 mAxes
+.
+Clone
+(
+)
 ;
 }
 GamepadPose
@@ -496,6 +504,10 @@ const
 aHapticActuators
 =
 mHapticActuators
+.
+Clone
+(
+)
 ;
 }
 void
@@ -516,6 +528,10 @@ const
 aLightIndicators
 =
 mLightIndicators
+.
+Clone
+(
+)
 ;
 }
 void
@@ -536,6 +552,10 @@ const
 aTouchEvents
 =
 mTouchEvents
+.
+Clone
+(
+)
 ;
 }
 private
