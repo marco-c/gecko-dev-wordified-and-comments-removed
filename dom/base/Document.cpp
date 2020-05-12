@@ -7663,6 +7663,10 @@ mNextControlNumber
 (
 0
 )
+mPreloadService
+(
+this
+)
 {
 MOZ_LOG
 (
