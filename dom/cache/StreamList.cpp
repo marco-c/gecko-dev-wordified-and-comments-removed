@@ -76,8 +76,10 @@ SafeRefPtr
 Manager
 >
 aManager
+SafeRefPtr
+<
 Context
-*
+>
 aContext
 )
 :
@@ -93,7 +95,13 @@ aManager
 )
 mContext
 (
+std
+:
+:
+move
+(
 aContext
+)
 )
 mCacheId
 (
