@@ -981,7 +981,7 @@ api
 :
 &
 RenderApi
-_document_id
+document_id
 :
 DocumentId
 )
@@ -1482,11 +1482,10 @@ _
 }
 api
 .
-update_resources
+send_transaction
 (
+document_id
 txn
-.
-resource_updates
 )
 ;
 return
