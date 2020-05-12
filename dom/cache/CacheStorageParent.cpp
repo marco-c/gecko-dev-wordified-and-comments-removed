@@ -592,8 +592,12 @@ OnPrincipalVerified
 (
 nsresult
 aRv
+const
+SafeRefPtr
+<
 ManagerId
-*
+>
+&
 aManagerId
 )
 {
@@ -635,6 +639,10 @@ aRv
 mManagerId
 =
 aManagerId
+.
+clonePtr
+(
+)
 ;
 mVerifier
 -
