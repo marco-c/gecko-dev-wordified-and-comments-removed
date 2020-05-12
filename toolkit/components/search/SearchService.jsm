@@ -11187,6 +11187,8 @@ ExtensionParent
 let
 icons
 =
+extension
+.
 manifest
 .
 icons
@@ -11479,6 +11481,8 @@ trim
 shortName
 description
 :
+extension
+.
 manifest
 .
 description
