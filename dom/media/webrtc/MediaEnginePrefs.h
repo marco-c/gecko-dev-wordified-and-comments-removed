@@ -95,10 +95,6 @@ mAgc
 (
 0
 )
-mRoutingMode
-(
-0
-)
 mNoise
 (
 0
@@ -157,9 +153,6 @@ mAec
 ;
 int32_t
 mAgc
-;
-int32_t
-mRoutingMode
 ;
 int32_t
 mNoise
