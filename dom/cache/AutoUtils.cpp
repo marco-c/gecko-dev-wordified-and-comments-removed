@@ -1982,8 +1982,10 @@ Add
 (
 CacheId
 aOpenedCacheId
+SafeRefPtr
+<
 Manager
-*
+>
 aManager
 )
 {
@@ -2036,7 +2038,13 @@ SendPCacheConstructor
 new
 CacheParent
 (
+std
+:
+:
+move
+(
 aManager
+)
 aOpenedCacheId
 )
 )
