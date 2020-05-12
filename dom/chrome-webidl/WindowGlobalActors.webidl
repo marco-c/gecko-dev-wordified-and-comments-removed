@@ -350,6 +350,11 @@ URI
 ?
 documentURI
 ;
+readonly
+attribute
+DOMString
+documentTitle
+;
 /
 /
 Bit
