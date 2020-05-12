@@ -486,13 +486,6 @@ CancelChannelAndListener
 )
 ;
 void
-LoadResourceEnd
-(
-nsresult
-aStatus
-)
-;
-void
 MaybeDispatchLoadResource
 (
 )
@@ -590,7 +583,7 @@ aWebVTTListener
 )
 ;
 bool
-mIsLoadingResource
+mLoadResourceDispatched
 ;
 void
 MaybeClearAllCues
