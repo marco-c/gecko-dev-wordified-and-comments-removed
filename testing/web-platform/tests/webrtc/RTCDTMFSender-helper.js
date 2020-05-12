@@ -103,7 +103,7 @@ pc2
 )
 ;
 return
-doSignalingHandshake
+exchangeOfferAnswer
 (
 pc
 pc2

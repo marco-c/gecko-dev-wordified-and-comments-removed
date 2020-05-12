@@ -2524,11 +2524,6 @@ callee
 )
 ;
 }
-const
-doSignalingHandshake
-=
-exchangeOfferAnswer
-;
 async
 function
 exchangeAnswerAndListenToOntrack
