@@ -2056,7 +2056,7 @@ SavedResponse
 &
 aSavedResponse
 StreamList
-*
+&
 aStreamList
 )
 {
@@ -2301,7 +2301,7 @@ SavedRequest
 &
 aSavedRequest
 StreamList
-*
+&
 aStreamList
 )
 {
@@ -2516,7 +2516,7 @@ SavedResponse
 &
 aSavedResponse
 StreamList
-*
+&
 aStreamList
 CacheResponse
 *
@@ -2595,18 +2595,13 @@ nsID
 &
 aId
 StreamList
-*
+&
 aStreamList
 CacheReadStream
 *
 aReadStreamOut
 )
 {
-MOZ_DIAGNOSTIC_ASSERT
-(
-aStreamList
-)
-;
 MOZ_DIAGNOSTIC_ASSERT
 (
 aReadStreamOut
@@ -2625,8 +2620,7 @@ nsIInputStream
 stream
 =
 aStreamList
--
->
+.
 Extract
 (
 aId
@@ -2683,8 +2677,7 @@ return
 }
 }
 aStreamList
--
->
+.
 SetStreamControl
 (
 mStreamControl

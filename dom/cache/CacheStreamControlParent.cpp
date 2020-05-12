@@ -641,8 +641,10 @@ CacheStreamControlParent
 :
 SetStreamList
 (
+SafeRefPtr
+<
 StreamList
-*
+>
 aStreamList
 )
 {
@@ -659,7 +661,13 @@ mStreamList
 ;
 mStreamList
 =
+std
+:
+:
+move
+(
 aStreamList
+)
 ;
 }
 void

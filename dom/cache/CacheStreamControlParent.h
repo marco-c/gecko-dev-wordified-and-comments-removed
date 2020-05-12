@@ -103,8 +103,10 @@ CacheStreamControlParent
 void
 SetStreamList
 (
+SafeRefPtr
+<
 StreamList
-*
+>
 aStreamList
 )
 ;
@@ -262,7 +264,7 @@ NotifyCloseAll
 (
 )
 ;
-RefPtr
+SafeRefPtr
 <
 StreamList
 >
