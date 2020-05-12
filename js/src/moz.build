@@ -3438,6 +3438,15 @@ RelativeTimeFormat
 .
 js
 '
+'
+builtin
+/
+intl
+/
+SanctionedSimpleUnitIdentifiersGenerated
+.
+js
+'
 ]
 if
 CONFIG

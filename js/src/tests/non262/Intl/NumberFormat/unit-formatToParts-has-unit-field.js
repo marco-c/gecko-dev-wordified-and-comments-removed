@@ -209,7 +209,7 @@ formatToParts
 value
 )
 .
-filter
+some
 (
 e
 =
@@ -224,10 +224,6 @@ type
 unit
 "
 )
-.
-length
->
-0
 true
 locale
 =
@@ -308,7 +304,7 @@ formatToParts
 value
 )
 .
-filter
+some
 (
 e
 =
@@ -323,10 +319,6 @@ type
 unit
 "
 )
-.
-length
->
-0
 true
 locale
 =
