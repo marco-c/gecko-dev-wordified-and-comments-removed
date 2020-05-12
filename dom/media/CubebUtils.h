@@ -149,6 +149,11 @@ bool
 aInCommunication
 )
 ;
+bool
+RouteOutputAsVoice
+(
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
