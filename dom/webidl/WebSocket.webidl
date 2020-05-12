@@ -254,6 +254,7 @@ readonly
 attribute
 unsigned
 long
+long
 bufferedAmount
 ;
 /

@@ -450,7 +450,7 @@ ReadyState
 (
 )
 ;
-uint32_t
+uint64_t
 BufferedAmount
 (
 )
@@ -705,7 +705,7 @@ mKeepingAlive
 bool
 mCheckMustKeepAlive
 ;
-CheckedUint32
+CheckedUint64
 mOutgoingBufferedAmount
 ;
 nsString
