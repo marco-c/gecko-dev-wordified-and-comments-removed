@@ -306,7 +306,7 @@ StaticGracefulExitCallback
 (
 )
 ;
-int
+void
 ExecuteCallback
 (
 const
