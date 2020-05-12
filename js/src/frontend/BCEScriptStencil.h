@@ -146,14 +146,6 @@ atoms
 const
 override
 ;
-virtual
-void
-finishInnerFunctions
-(
-)
-const
-override
-;
 }
 ;
 }

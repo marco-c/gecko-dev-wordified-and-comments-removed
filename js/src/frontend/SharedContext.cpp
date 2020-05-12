@@ -934,6 +934,10 @@ wasEmitted
 (
 false
 )
+exposeScript
+(
+false
+)
 isAnnexB
 (
 false

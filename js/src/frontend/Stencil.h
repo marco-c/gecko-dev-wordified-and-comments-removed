@@ -1694,15 +1694,6 @@ const
 =
 0
 ;
-virtual
-void
-finishInnerFunctions
-(
-)
-const
-=
-0
-;
 }
 ;
 }

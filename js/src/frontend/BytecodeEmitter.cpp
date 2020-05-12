@@ -26270,6 +26270,13 @@ return
 false
 ;
 }
+funbox
+-
+>
+exposeScript
+=
+true
+;
 if
 (
 !

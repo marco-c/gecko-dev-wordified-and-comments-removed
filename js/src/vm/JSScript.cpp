@@ -23766,12 +23766,6 @@ script
 ;
 }
 }
-stencil
-.
-finishInnerFunctions
-(
-)
-;
 #
 ifdef
 JS_STRUCTURED_SPEW
