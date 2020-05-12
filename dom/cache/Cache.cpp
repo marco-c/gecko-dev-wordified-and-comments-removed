@@ -1243,6 +1243,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -1390,6 +1391,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -1540,6 +1542,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -1735,6 +1738,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -2012,6 +2016,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -2177,6 +2182,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -2321,6 +2327,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
@@ -3056,6 +3063,7 @@ CacheChild
 AutoLock
 actorLock
 (
+*
 mActor
 )
 ;
