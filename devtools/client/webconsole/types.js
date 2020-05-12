@@ -172,6 +172,9 @@ undefined
 chromeContext
 :
 false
+hasException
+:
+false
 }
 props
 )

@@ -133,7 +133,8 @@ true
 {
 text
 :
-InvalidStateError
+Uncaught
+DOMException
 :
 XMLHttpRequest
 state
@@ -148,6 +149,7 @@ true
 {
 text
 :
+Uncaught
 SyntaxError
 :
 missing
@@ -165,6 +167,7 @@ false
 {
 text
 :
+Uncaught
 ReferenceError
 :
 Bootloaddisableder
