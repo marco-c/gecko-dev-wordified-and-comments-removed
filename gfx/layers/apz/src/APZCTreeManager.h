@@ -1894,7 +1894,7 @@ RefPtr
 <
 AsyncPanZoomController
 >
-mApzcForInputBlock
+mApzcForTouchBlock
 ;
 gfx
 :
