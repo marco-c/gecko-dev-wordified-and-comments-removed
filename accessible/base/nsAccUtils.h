@@ -191,15 +191,6 @@ aAttributes
 nsIContent
 *
 aStartContent
-mozilla
-:
-:
-dom
-:
-:
-Element
-*
-aTopEl
 )
 ;
 static
