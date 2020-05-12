@@ -10711,15 +10711,7 @@ ExternalPoint
 0
 0
 )
-PinchGestureInput
-:
-:
-BothFingersLifted
-<
-ScreenPixel
->
-(
-)
+focusPoint
 newSpan
 newSpan
 aWheelInput

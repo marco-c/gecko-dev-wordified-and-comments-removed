@@ -4315,6 +4315,12 @@ case
 PinchGestureInput
 :
 :
+PINCHGESTURE_FINGERLIFTED
+:
+case
+PinchGestureInput
+:
+:
 PINCHGESTURE_END
 :
 msg
