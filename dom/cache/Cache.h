@@ -411,7 +411,7 @@ GlobalObject
 aGlobal
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -438,7 +438,7 @@ aCx
 const
 nsTArray
 <
-RefPtr
+SafeRefPtr
 <
 Request
 >

@@ -2063,7 +2063,7 @@ cx
 jsGlobal
 )
 ;
-RefPtr
+SafeRefPtr
 <
 Request
 >

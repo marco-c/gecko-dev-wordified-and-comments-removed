@@ -657,7 +657,7 @@ aOptions
 mCredentials
 )
 ;
-RefPtr
+SafeRefPtr
 <
 Request
 >
@@ -716,6 +716,10 @@ SetAsRequest
 )
 =
 request
+.
+unsafeGetRawPtr
+(
+)
 ;
 RefPtr
 <
