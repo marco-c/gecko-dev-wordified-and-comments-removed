@@ -442,7 +442,7 @@ mPromise
 CacheOpArgs
 mArgs
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -1628,7 +1628,7 @@ return
 nullptr
 ;
 }
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -1733,7 +1733,13 @@ entry
 >
 mRequest
 =
+std
+:
+:
+move
+(
 request
+)
 ;
 RunRequest
 (
@@ -2791,6 +2797,7 @@ args
 .
 Add
 (
+*
 aEntry
 -
 >

@@ -51,6 +51,17 @@ RequestBinding
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+SafeRefPtr
+.
+h
+"
 namespace
 mozilla
 {
@@ -94,8 +105,10 @@ Request
 nsIGlobalObject
 *
 aOwner
+SafeRefPtr
+<
 InternalRequest
-*
+>
 aRequest
 AbortSignal
 *
@@ -536,7 +549,7 @@ ErrorResult
 aRv
 )
 ;
-already_AddRefed
+SafeRefPtr
 <
 InternalRequest
 >
@@ -591,7 +604,7 @@ Request
 (
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >

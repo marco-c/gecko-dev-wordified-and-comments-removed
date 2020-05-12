@@ -100,7 +100,7 @@ ServiceWorkerFetchEventOpArgs
 aArgs
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -136,7 +136,7 @@ FetchEventOp
 >
 mOp
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >

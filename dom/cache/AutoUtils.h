@@ -155,8 +155,9 @@ AutoChildOpArgs
 void
 Add
 (
+const
 InternalRequest
-*
+&
 aRequest
 BodyAction
 aBodyAction
@@ -173,8 +174,9 @@ Add
 JSContext
 *
 aCx
+const
 InternalRequest
-*
+&
 aRequest
 BodyAction
 aBodyAction

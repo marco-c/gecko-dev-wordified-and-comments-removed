@@ -4600,7 +4600,13 @@ init
 .
 mPorts
 =
+std
+:
+:
+move
+(
 ports
+)
 ;
 }
 init
@@ -7151,7 +7157,7 @@ get_ServiceWorkerFetchEventOpArgs
 (
 )
 ;
-RefPtr
+SafeRefPtr
 <
 InternalRequest
 >
@@ -7220,6 +7226,10 @@ Request
 (
 globalObjectAsSupports
 internalRequest
+.
+clonePtr
+(
+)
 nullptr
 )
 ;

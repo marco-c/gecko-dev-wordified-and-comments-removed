@@ -158,7 +158,7 @@ nsIHttpChannel
 *
 aChannel
 InternalRequest
-*
+&
 aRequest
 )
 ;
