@@ -511,6 +511,7 @@ self
 api
 :
 &
+mut
 RenderApi
 builder
 :
@@ -1004,6 +1005,7 @@ WindowEvent
 _api
 :
 &
+mut
 RenderApi
 _document_id
 :

@@ -280,6 +280,7 @@ self
 api
 :
 &
+mut
 RenderApi
 device_size
 :
@@ -644,6 +645,7 @@ self
 api
 :
 &
+mut
 RenderApi
 builder
 :
