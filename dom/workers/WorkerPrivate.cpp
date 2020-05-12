@@ -2273,6 +2273,10 @@ aMessage
 mParams
 (
 aParams
+.
+Clone
+(
+)
 )
 {
 }
@@ -2884,6 +2888,10 @@ aWorkerPrivate
 mLanguages
 (
 aLanguages
+.
+Clone
+(
+)
 )
 {
 }

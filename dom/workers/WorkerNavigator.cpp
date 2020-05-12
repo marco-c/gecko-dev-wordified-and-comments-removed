@@ -231,8 +231,9 @@ WorkerNavigator
 WorkerNavigator
 (
 )
-{
-}
+=
+default
+;
 already_AddRefed
 <
 WorkerNavigator
@@ -359,6 +360,10 @@ mProperties
 mLanguages
 =
 aLanguages
+.
+Clone
+(
+)
 ;
 }
 void

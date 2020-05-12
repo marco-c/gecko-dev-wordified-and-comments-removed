@@ -287,6 +287,10 @@ aDebuggers
 mDebuggers
 (
 aDebuggers
+.
+Clone
+(
+)
 )
 mIndex
 (
@@ -1043,6 +1047,10 @@ mMutex
 listeners
 =
 mListeners
+.
+Clone
+(
+)
 ;
 }
 for
@@ -1163,6 +1171,10 @@ mMutex
 listeners
 =
 mListeners
+.
+Clone
+(
+)
 ;
 }
 for
