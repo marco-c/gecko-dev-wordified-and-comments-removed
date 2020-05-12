@@ -1510,7 +1510,10 @@ SharedMemoryBuilder
 )
 -
 >
-ManuallyDrop
+to_shmem
+:
+:
+Result
 <
 Self
 >
@@ -1526,6 +1529,8 @@ read
 (
 )
 ;
+Ok
+(
 ManuallyDrop
 :
 :
@@ -1565,9 +1570,11 @@ to_shmem
 (
 builder
 )
+?
 )
 )
 }
+)
 )
 }
 }
@@ -1608,7 +1615,10 @@ SharedMemoryBuilder
 )
 -
 >
-ManuallyDrop
+to_shmem
+:
+:
+Result
 <
 Self
 >

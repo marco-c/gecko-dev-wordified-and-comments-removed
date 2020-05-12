@@ -1748,6 +1748,9 @@ ToShared
 RawServoSharedMemoryBuilder
 *
 aBuilder
+nsCString
+&
+aErrorMessage
 )
 ;
 void
