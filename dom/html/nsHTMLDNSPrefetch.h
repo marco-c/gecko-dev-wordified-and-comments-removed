@@ -169,7 +169,7 @@ aElement
 ;
 static
 nsresult
-PrefetchHigh
+PrefetchLow
 (
 const
 nsAString
@@ -183,7 +183,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 nsIRequest
 :
 :
@@ -207,7 +207,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 nsIRequest
 :
 :
@@ -217,7 +217,7 @@ aTRRMode
 ;
 static
 nsresult
-PrefetchLow
+PrefetchHigh
 (
 const
 nsAString
@@ -231,7 +231,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 nsIRequest
 :
 :
@@ -255,7 +255,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 nsIRequest
 :
 :
@@ -315,7 +315,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 uint32_t
 flags
 )
@@ -353,7 +353,7 @@ mozilla
 :
 OriginAttributes
 &
-aOriginAttributes
+aPartitionedPrincipalOriginAttributes
 uint32_t
 flags
 nsresult
