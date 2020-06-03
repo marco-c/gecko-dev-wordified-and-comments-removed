@@ -1072,6 +1072,12 @@ NotifyMonitor
 (
 )
 {
+MonitorAutoLock
+lock
+(
+mMonitor
+)
+;
 mDone
 =
 true
