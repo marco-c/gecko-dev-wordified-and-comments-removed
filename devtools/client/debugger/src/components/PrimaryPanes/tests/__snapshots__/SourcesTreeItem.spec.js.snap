@@ -15239,7 +15239,7 @@ getSourcesGroups
 Function
 ]
 "
-hasPrettySource
+hasPrettyTab
 "
 :
 true
@@ -15579,7 +15579,7 @@ getSourcesGroups
 Function
 ]
 }
-hasPrettySource
+hasPrettyTab
 =
 {
 true
@@ -15990,7 +15990,7 @@ getSourcesGroups
 Function
 ]
 "
-hasPrettySource
+hasPrettyTab
 "
 :
 true

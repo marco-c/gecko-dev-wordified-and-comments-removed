@@ -2815,7 +2815,7 @@ item
 createMockItem
 (
 )
-hasPrettySource
+hasPrettyTab
 :
 true
 }
