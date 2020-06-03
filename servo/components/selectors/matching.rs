@@ -1264,16 +1264,9 @@ selector
 ;
 }
 }
-for
-component
-in
-&
-mut
-iter
-{
 if
 !
-component
+iter
 .
 matches_for_stateless_pseudo_element
 (
@@ -1282,7 +1275,6 @@ matches_for_stateless_pseudo_element
 return
 false
 ;
-}
 }
 let
 next_sequence
