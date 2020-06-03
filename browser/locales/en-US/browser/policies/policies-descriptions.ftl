@@ -880,6 +880,15 @@ plugin
 .
 policy
 -
+Handlers
+=
+Configure
+default
+application
+handlers
+.
+policy
+-
 HardwareAcceleration
 =
 If
