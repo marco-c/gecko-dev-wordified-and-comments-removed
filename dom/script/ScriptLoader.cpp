@@ -15250,6 +15250,9 @@ GetScript
 ;
 if
 (
+script
+&
+&
 JS
 :
 :
