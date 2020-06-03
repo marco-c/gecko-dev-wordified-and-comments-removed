@@ -14783,10 +14783,7 @@ nsDocShellLoadState
 :
 CreateFromLoadURIOptions
 (
-GetAsSupports
-(
-this
-)
+mBrowsingContext
 aURI
 aLoadURIOptions
 getter_AddRefs

@@ -102,6 +102,9 @@ nsIURI
 interface
 nsIInputStream
 ;
+webidl
+BrowsingContext
+;
 /
 *
 *
@@ -155,7 +158,7 @@ URI
 *
 /
 attribute
-nsISupports
+BrowsingContext
 consumer
 ;
 /
