@@ -14200,6 +14200,16 @@ GetMonitor
 )
 )
 ;
+if
+(
+graph
+-
+>
+CurrentDriver
+(
+)
+)
+{
 graph
 -
 >
@@ -14207,6 +14217,7 @@ EnsureNextIteration
 (
 )
 ;
+}
 }
 }
 void
