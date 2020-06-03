@@ -111,12 +111,12 @@ use
 crate
 :
 :
-op
+punt
 :
 :
 {
-StorageOp
-StorageTask
+Punt
+PuntTask
 TeardownTask
 }
 ;
@@ -324,9 +324,9 @@ dispatch
 (
 &
 self
-op
+punt
 :
-StorageOp
+Punt
 callback
 :
 &
@@ -343,7 +343,7 @@ Result
 let
 name
 =
-op
+punt
 .
 name
 (
@@ -352,7 +352,7 @@ name
 let
 task
 =
-StorageTask
+PuntTask
 :
 :
 new
@@ -371,7 +371,7 @@ store
 )
 ?
 )
-op
+punt
 callback
 )
 ?
@@ -648,7 +648,7 @@ self
 .
 dispatch
 (
-StorageOp
+Punt
 :
 :
 Set
@@ -765,7 +765,7 @@ self
 .
 dispatch
 (
-StorageOp
+Punt
 :
 :
 Get
@@ -875,7 +875,7 @@ self
 .
 dispatch
 (
-StorageOp
+Punt
 :
 :
 Remove
@@ -971,7 +971,7 @@ self
 .
 dispatch
 (
-StorageOp
+Punt
 :
 :
 Clear
@@ -1062,7 +1062,7 @@ self
 .
 dispatch
 (
-StorageOp
+Punt
 :
 :
 GetBytesInUse
