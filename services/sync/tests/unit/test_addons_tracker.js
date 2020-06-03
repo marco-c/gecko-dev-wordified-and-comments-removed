@@ -346,12 +346,6 @@ engine
 .
 _tracker
 ;
-tracker
-.
-persistChangedIDs
-=
-false
-;
 await
 cleanup
 (

@@ -209,7 +209,7 @@ name
 engine
 )
 {
-Tracker
+LegacyTracker
 .
 call
 (
@@ -231,12 +231,9 @@ prototype
 {
 __proto__
 :
-Tracker
+LegacyTracker
 .
 prototype
-persistChangedIDs
-:
-false
 }
 ;
 function

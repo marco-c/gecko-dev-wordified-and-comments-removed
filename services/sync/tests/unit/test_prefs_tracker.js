@@ -75,12 +75,6 @@ engine
 .
 _tracker
 ;
-tracker
-.
-persistChangedIDs
-=
-false
-;
 let
 prefs
 =

@@ -247,12 +247,6 @@ engine
 .
 _tracker
 ;
-tracker
-.
-persistChangedIDs
-=
-false
-;
 Assert
 .
 ok

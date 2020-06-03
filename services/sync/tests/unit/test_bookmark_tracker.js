@@ -135,12 +135,6 @@ engine
 .
 _tracker
 ;
-tracker
-.
-persistChangedIDs
-=
-false
-;
 }
 )
 ;

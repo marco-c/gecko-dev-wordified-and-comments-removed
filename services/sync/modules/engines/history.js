@@ -99,7 +99,7 @@ const
 {
 Store
 SyncEngine
-Tracker
+LegacyTracker
 }
 =
 ChromeUtils
@@ -2447,7 +2447,7 @@ name
 engine
 )
 {
-Tracker
+LegacyTracker
 .
 call
 (
@@ -2464,7 +2464,7 @@ prototype
 {
 __proto__
 :
-Tracker
+LegacyTracker
 .
 prototype
 onStart
