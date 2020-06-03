@@ -3908,6 +3908,7 @@ HTMLEditor
 :
 IsVisibleBRElement
 (
+const
 nsINode
 *
 aNode

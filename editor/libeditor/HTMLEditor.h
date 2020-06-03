@@ -2030,6 +2030,7 @@ aNode
 bool
 IsVisibleBRElement
 (
+const
 nsINode
 *
 aNode
