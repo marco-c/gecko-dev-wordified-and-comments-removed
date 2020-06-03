@@ -361,6 +361,7 @@ artifact_id
 get_geckoview_artifact_id
 (
             
+config
 platform
 update_channel
         
@@ -395,6 +396,7 @@ minor_version
 def
 get_geckoview_artifact_id
 (
+config
 platform
 update_channel
 =
@@ -402,20 +404,29 @@ None
 )
 :
     
+if
+update_channel
+=
+=
+'
+release
+'
+:
+        
 update_channel
 =
 '
 '
-if
+    
+elif
 update_channel
-in
-(
+is
+not
 None
-'
-release
-'
-)
-else
+:
+        
+update_channel
+=
 '
 -
 {
@@ -425,6 +436,31 @@ else
 format
 (
 update_channel
+)
+    
+else
+:
+        
+update_channel
+=
+'
+-
+nigthly
+-
+{
+}
+'
+.
+format
+(
+config
+.
+params
+[
+'
+project
+'
+]
 )
     
 return
