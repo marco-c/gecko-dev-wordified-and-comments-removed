@@ -99,6 +99,10 @@ linux64
 -
 cctools
 -
+clang
+-
+9
+-
 port
 :
 treeherder
@@ -108,6 +112,10 @@ symbol
 TL
 (
 cctools
+-
+clang
+-
+9
 )
 run
 :
@@ -156,10 +164,6 @@ linux64
 -
 cctools
 -
-clang
--
-10
--
 port
 :
 treeherder
@@ -169,10 +173,6 @@ symbol
 TL
 (
 cctools
--
-clang
--
-10
 )
 run
 :
