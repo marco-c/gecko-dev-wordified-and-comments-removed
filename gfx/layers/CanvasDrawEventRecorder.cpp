@@ -1651,6 +1651,11 @@ nextEvent
 =
 =
 kCheckpointEventType
+&
+&
+good
+(
+)
 )
 {
 ReadElement
