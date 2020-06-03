@@ -276,17 +276,6 @@ GeneratedJNIWrappers
 .
 h
 "
-#
-include
-"
-mozilla
-/
-java
-/
-HardwareCodecCapabilityUtilsWrappers
-.
-h
-"
 using
 namespace
 mozilla
