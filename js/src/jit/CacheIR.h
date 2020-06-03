@@ -6965,7 +6965,7 @@ calleeFunc
 )
 ;
 AttachDecision
-tryAttachSpecialCaseCallNative
+tryAttachInlinableNative
 (
 HandleFunction
 calleeFunc
