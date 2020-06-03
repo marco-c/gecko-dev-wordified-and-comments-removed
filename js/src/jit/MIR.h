@@ -3778,6 +3778,13 @@ empty
 )
 ;
 }
+MDefinition
+*
+maybeSingleDefUse
+(
+)
+const
+;
 void
 addUse
 (
