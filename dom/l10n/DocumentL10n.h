@@ -170,6 +170,8 @@ aRv
 void
 InitialTranslationCompleted
 (
+bool
+aL10nCached
 )
 ;
 Document
