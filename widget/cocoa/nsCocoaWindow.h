@@ -844,6 +844,13 @@ aState
 override
 ;
 virtual
+bool
+NeedsRecreateToReshow
+(
+)
+override
+;
+virtual
 nsIWidget
 *
 GetSheetWindowParent
