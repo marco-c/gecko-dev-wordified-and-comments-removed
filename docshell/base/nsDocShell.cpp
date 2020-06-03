@@ -32696,13 +32696,7 @@ nsIURI
 >
 prinURI
 ;
-BasePrincipal
-:
-:
-Cast
-(
 thisPrincipal
-)
 -
 >
 GetURI
