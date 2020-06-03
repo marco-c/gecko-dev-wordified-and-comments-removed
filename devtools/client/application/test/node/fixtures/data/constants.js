@@ -24,9 +24,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 true
@@ -70,9 +67,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 false
@@ -116,9 +110,6 @@ worker
 -
 example
 "
-isActive
-:
-false
 workerTargetFront
 :
 false
@@ -187,9 +178,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -261,9 +249,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -304,9 +289,6 @@ worker
 -
 example
 "
-isActive
-:
-false
 workerTargetFront
 :
 "
@@ -379,9 +361,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -455,9 +434,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -532,9 +508,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -601,9 +574,6 @@ worker
 -
 example
 "
-isActive
-:
-false
 workerTargetFront
 :
 "
@@ -670,9 +640,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -745,9 +712,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -814,9 +778,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "
@@ -883,9 +844,6 @@ worker
 -
 example
 "
-isActive
-:
-true
 workerTargetFront
 :
 "

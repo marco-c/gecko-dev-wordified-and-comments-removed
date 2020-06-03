@@ -219,6 +219,10 @@ worker
 -
 status
 worker__status
+worker__status
+-
+-
+waiting
 "
 >
 installed
@@ -444,6 +448,10 @@ worker
 -
 status
 worker__status
+worker__status
+-
+-
+active
 "
 >
 serviceworker
@@ -675,6 +683,10 @@ worker
 -
 status
 worker__status
+worker__status
+-
+-
+active
 "
 >
 serviceworker

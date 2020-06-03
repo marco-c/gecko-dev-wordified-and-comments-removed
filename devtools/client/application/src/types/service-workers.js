@@ -36,11 +36,11 @@ PropTypes
 string
 .
 isRequired
-isActive
+state
 :
 PropTypes
 .
-bool
+number
 .
 isRequired
 stateText

@@ -183,11 +183,6 @@ worker
 example
 "
 "
-isActive
-"
-:
-true
-"
 state
 "
 :
@@ -414,11 +409,6 @@ worker
 example
 "
 "
-isActive
-"
-:
-true
-"
 state
 "
 :
@@ -507,11 +497,6 @@ worker
 -
 example
 "
-"
-isActive
-"
-:
-false
 "
 state
 "
@@ -737,11 +722,6 @@ worker
 -
 example
 "
-"
-isActive
-"
-:
-true
 "
 state
 "
