@@ -16,6 +16,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+copy
 from
 re
 import
@@ -45,7 +47,7 @@ _target_task_methods
 =
 {
 }
-TARGET_TASK_BLACKLIST
+UNCOMMON_TRY_TASK_LABELS
 =
 [
     
@@ -480,7 +482,7 @@ in
 platforms
 )
 def
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 (
 task
 optional_filters
@@ -557,21 +559,28 @@ otherwise
 "
 "
     
+filters
+=
+UNCOMMON_TRY_TASK_LABELS
+    
 if
 optional_filters
 :
         
-for
-item
-in
-optional_filters
-:
-            
-TARGET_TASK_BLACKLIST
+filters
+=
+copy
 .
-append
+deepcopy
 (
-item
+filters
+)
+        
+filters
+.
+extend
+(
+optional_filters
 )
     
 return
@@ -586,7 +595,7 @@ task
 for
 pattern
 in
-TARGET_TASK_BLACKLIST
+UNCOMMON_TRY_TASK_LABELS
 )
 def
 filter_release_tasks
@@ -970,7 +979,7 @@ task_matches
 t
 )
 and
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 (
 t
 .
@@ -1479,7 +1488,7 @@ parameters
 )
             
 and
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 (
 t
 .

@@ -37,7 +37,7 @@ taskgraph
 .
 target_tasks
 import
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 here
 =
 os
@@ -223,7 +223,7 @@ keys
                              
 if
 not
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 (
 label
 )

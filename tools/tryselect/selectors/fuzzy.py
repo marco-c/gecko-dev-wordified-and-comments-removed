@@ -89,7 +89,7 @@ taskgraph
 .
 target_tasks
 import
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 terminal
 =
 Terminal
@@ -2291,7 +2291,7 @@ list
 (
 filter
 (
-filter_tasks_by_blacklist
+filter_by_uncommon_try_tasks
 all_tasks
 )
 )
