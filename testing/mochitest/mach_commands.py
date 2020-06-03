@@ -2696,7 +2696,7 @@ items
 )
 :
             
-suite_name
+_
 suite
 =
 get_suite_definition
@@ -2749,19 +2749,6 @@ suite
 kwargs
 '
 ]
-)
-            
-harness_args
-.
-update
-(
-{
-'
-suite_name
-'
-:
-suite_name
-}
 )
             
 result

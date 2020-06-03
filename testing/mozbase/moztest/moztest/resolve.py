@@ -2644,29 +2644,16 @@ tests
 '
         
 '
-build_flavor
-'
-:
-'
-web
--
-platform
--
-tests
-'
-        
-'
 kwargs
 '
 :
 {
 '
-subsuite
+include
 '
 :
-'
-reftest
-'
+[
+]
 }
         
 '
