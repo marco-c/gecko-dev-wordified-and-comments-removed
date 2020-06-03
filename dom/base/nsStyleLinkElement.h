@@ -139,16 +139,6 @@ aStyleSheet
 )
 override
 ;
-mozilla
-:
-:
-StyleSheet
-*
-GetStyleSheet
-(
-)
-override
-;
 void
 InitStyleLinkElement
 (
@@ -341,7 +331,7 @@ aMedia
 ;
 static
 bool
-IsCSSMimeTypeAttribute
+IsCSSMimeTypeAttributeForStyleElement
 (
 const
 mozilla
