@@ -366,6 +366,8 @@ clang
 /
 clang
 -
+9
+-
 linux64
 .
 json
@@ -382,17 +384,12 @@ clang
 /
 clang
 -
+9
+-
 linux64
 .
 json
 '
-toolchain
--
-alias
-:
-linux64
--
-clang
 toolchain
 -
 artifact
@@ -725,7 +722,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 android
 -
@@ -735,7 +732,7 @@ description
 :
 "
 Clang
-9
+10
 toolchain
 build
 "
@@ -745,7 +742,7 @@ symbol
 :
 TL
 (
-clang9
+clang10
 -
 android
 )
@@ -826,7 +823,7 @@ fetch
 -
 clang
 -
-9
+10
 toolchain
 :
 -
@@ -853,7 +850,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 aarch64
 -
@@ -863,7 +860,7 @@ description
 :
 "
 Clang
-9
+10
 toolchain
 build
 with
@@ -876,7 +873,7 @@ symbol
 :
 TL
 (
-clang9
+clang10
 -
 aarch64
 )
@@ -996,7 +993,7 @@ fetch
 -
 clang
 -
-9
+10
 toolchain
 :
 -
@@ -1013,7 +1010,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 macosx
 -
@@ -1023,7 +1020,7 @@ description
 :
 "
 Clang
-9
+10
 toolchain
 build
 with
@@ -1038,7 +1035,7 @@ symbol
 :
 TL
 (
-clang9
+clang10
 -
 macosx
 -
@@ -1178,7 +1175,7 @@ fetch
 -
 clang
 -
-9
+10
 toolchain
 :
 -
@@ -1196,7 +1193,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 linux64
 -
@@ -1207,7 +1204,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 win
 -
@@ -1217,7 +1214,7 @@ description
 :
 "
 Clang
-9
+10
 toolchain
 build
 with
@@ -1232,7 +1229,7 @@ symbol
 :
 TL
 (
-clang9
+clang10
 -
 win
 -
@@ -1321,7 +1318,7 @@ linux64
 -
 clang
 -
-9
+10
 win64
 -
 clang
@@ -1389,8 +1386,6 @@ clang
 /
 clang
 -
-10
--
 linux64
 .
 json
@@ -1407,12 +1402,17 @@ clang
 /
 clang
 -
-10
--
 linux64
 .
 json
 '
+toolchain
+-
+alias
+:
+linux64
+-
+clang
 toolchain
 -
 artifact
@@ -1598,7 +1598,7 @@ fetch
 -
 clang
 -
-9
+10
 toolchain
 :
 -
@@ -1616,7 +1616,7 @@ linux64
 -
 clang
 -
-9
+10
 -
 linux64
 -
@@ -1760,7 +1760,7 @@ fetch
 -
 clang
 -
-9
+10
 -
 cmake
 -
@@ -1910,7 +1910,7 @@ fetch
 -
 clang
 -
-9
+10
 -
 cmake
 -
