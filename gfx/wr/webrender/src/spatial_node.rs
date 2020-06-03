@@ -1450,6 +1450,11 @@ ReferenceFrameKind
 :
 :
 Transform
+|
+ReferenceFrameKind
+:
+:
+Zoom
 =
 >
 source_transform

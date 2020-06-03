@@ -9219,6 +9219,9 @@ surface_index
 tile_cache
 .
 shared_clips
+frame_context
+.
+spatial_tree
 )
 ;
 frame_state
@@ -9246,6 +9249,9 @@ surface_index
 &
 [
 ]
+frame_context
+.
+spatial_tree
 )
 ;
 }

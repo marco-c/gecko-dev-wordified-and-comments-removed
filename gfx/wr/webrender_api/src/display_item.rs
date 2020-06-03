@@ -2563,6 +2563,7 @@ pub
 enum
 ReferenceFrameKind
 {
+Zoom
 Transform
 Perspective
 {
