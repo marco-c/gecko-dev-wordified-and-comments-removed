@@ -543,6 +543,10 @@ const
 VideoCodecConfig
 *
 codecInfo
+const
+RtpRtcpConfig
+&
+aRtpRtcpConfig
 )
 override
 ;
@@ -562,6 +566,10 @@ VideoCodecConfig
 >
 &
 codecConfigList
+const
+RtpRtcpConfig
+&
+aRtpRtcpConfig
 )
 override
 ;

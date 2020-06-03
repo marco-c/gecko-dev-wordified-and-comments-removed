@@ -263,6 +263,9 @@ VideoSessionConduit
 class
 AudioSessionConduit
 ;
+class
+RtpRtcpConfig
+;
 using
 RtpExtList
 =
@@ -1632,6 +1635,10 @@ const
 VideoCodecConfig
 *
 sendSessionConfig
+const
+RtpRtcpConfig
+&
+aRtpRtcpConfig
 )
 =
 0
@@ -1653,6 +1660,10 @@ VideoCodecConfig
 >
 &
 recvCodecConfigList
+const
+RtpRtcpConfig
+&
+aRtpRtcpConfig
 )
 =
 0
