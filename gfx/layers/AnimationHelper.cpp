@@ -1593,6 +1593,9 @@ mBaseStyle
 CanSkipCompose
 canSkipCompose
 =
+aPreviousValue
+&
+&
 aPropertyAnimationGroups
 .
 Length
