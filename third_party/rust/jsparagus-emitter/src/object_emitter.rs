@@ -173,7 +173,7 @@ emitter
 .
 emit
 .
-get_atom_index
+get_atom_gcthing_index
 (
 self
 .

@@ -743,10 +743,9 @@ write_token
 &
 mut
 self
-token
+t
 :
-&
-Token
+TerminalId
 )
 -
 >
@@ -774,9 +773,7 @@ Term
 :
 Terminal
 (
-token
-.
-terminal_id
+t
 )
 value
 :

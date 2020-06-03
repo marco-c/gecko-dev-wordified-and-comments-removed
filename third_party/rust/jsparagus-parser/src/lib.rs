@@ -533,7 +533,6 @@ parser
 .
 write_token
 (
-&
 t
 )
 ?
@@ -689,7 +688,6 @@ parser
 .
 write_token
 (
-&
 t
 )
 ?
