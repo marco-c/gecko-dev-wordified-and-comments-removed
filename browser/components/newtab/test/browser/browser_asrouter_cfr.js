@@ -876,7 +876,7 @@ action
 type
 :
 "
-FOO
+CANCEL
 "
 }
 heading_text
