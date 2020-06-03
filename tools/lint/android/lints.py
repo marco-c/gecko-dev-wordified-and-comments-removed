@@ -215,6 +215,12 @@ verbose
 '
 '
 -
+Pandroid
+-
+lint
+'
+'
+-
 -
 '
 ]
