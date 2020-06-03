@@ -139,9 +139,8 @@ OriginAttributes
 aOriginAttributes
 uint32_t
 aFlags
-nsIDNSListener
-*
-aListener
+uintptr_t
+aListenerAddr
 nsACString
 &
 aHashKey
