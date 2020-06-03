@@ -3186,13 +3186,6 @@ reftest
 '
     
 '
-steeplechase
-'
-:
-'
-'
-    
-'
 telemetry
 -
 tests
