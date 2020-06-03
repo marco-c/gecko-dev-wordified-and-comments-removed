@@ -271,6 +271,11 @@ Resolve
 (
 )
 ;
+nsresult
+ResolveSymlink
+(
+)
+;
 void
 EnsureShortPath
 (
