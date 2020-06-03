@@ -594,6 +594,11 @@ aSide
 )
 ;
 void
+NotifyImpendingShutdown
+(
+)
+;
+void
 Close
 (
 )

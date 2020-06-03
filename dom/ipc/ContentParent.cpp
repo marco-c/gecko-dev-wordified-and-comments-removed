@@ -9529,6 +9529,10 @@ mIPCOpen
 return
 ;
 }
+NotifyImpendingShutdown
+(
+)
+;
 int32_t
 timeoutSecs
 =

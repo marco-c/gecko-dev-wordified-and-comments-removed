@@ -254,6 +254,11 @@ namespace
 {
 enum
 {
+IMPENDING_SHUTDOWN_MESSAGE_TYPE
+=
+kuint16max
+-
+9
 BUILD_IDS_MATCH_MESSAGE_TYPE
 =
 kuint16max
@@ -1844,6 +1849,11 @@ ipc
 :
 :
 UnknownSide
+)
+;
+void
+NotifyImpendingShutdown
+(
 )
 ;
 void
