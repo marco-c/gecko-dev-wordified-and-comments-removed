@@ -5305,9 +5305,6 @@ attributes
 shippable
 :
 true
-nightly
-:
-true
 shipping
 -
 product

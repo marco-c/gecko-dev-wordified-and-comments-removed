@@ -5273,9 +5273,6 @@ Shippable
 "
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true
