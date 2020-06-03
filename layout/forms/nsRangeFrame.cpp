@@ -1284,6 +1284,7 @@ disp
 )
 &
 &
+!
 PresContext
 (
 )
@@ -1294,7 +1295,7 @@ Theme
 )
 -
 >
-ThemeDrawsFocusForWidget
+ThemeWantsButtonInnerFocusRing
 (
 disp
 -
