@@ -3426,12 +3426,6 @@ platform
                 
 if
 '
-pgo
-'
-in
-platform
-or
-'
 shippable
 '
 in
@@ -3466,12 +3460,6 @@ return
 True
         
 if
-'
-pgo
-'
-in
-platform
-or
 '
 shippable
 '
@@ -3572,19 +3560,11 @@ browsertime
 in
 try_name
 and
-(
-'
-pgo
-'
-in
-platform
-or
 '
 shippable
 '
 in
 platform
-)
 :
             
 if
@@ -3680,13 +3660,6 @@ cpu_n_memory_task
 :
             
 if
-'
-pgo
-'
-not
-in
-platform
-and
 '
 shippable
 '
@@ -6007,19 +5980,11 @@ cold
 in
 try_name
 and
-(
-'
-pgo
-'
-in
-platform
-or
 '
 shippable
 '
 in
 platform
-)
 :
             
 if
