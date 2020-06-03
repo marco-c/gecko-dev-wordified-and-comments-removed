@@ -12652,6 +12652,10 @@ AllocKind
 :
 :
 JITCODE
+AllocKind
+:
+:
+REGEXP_SHARED
 }
 ;
 static
