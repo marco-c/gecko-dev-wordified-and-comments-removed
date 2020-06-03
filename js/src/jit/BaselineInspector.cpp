@@ -1160,7 +1160,7 @@ matchOp
 CacheOp
 :
 :
-GuardType
+GuardNonDoubleType
 )
 |
 |
@@ -7966,7 +7966,7 @@ matchOp
 CacheOp
 :
 :
-GuardType
+GuardNonDoubleType
 ValOperandId
 (
 0

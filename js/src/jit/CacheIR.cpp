@@ -7242,7 +7242,7 @@ isUndefined
 {
 writer
 .
-guardType
+guardNonDoubleType
 (
 expandoId
 ValueType
@@ -9304,7 +9304,7 @@ else
 {
 writer
 .
-guardType
+guardNonDoubleType
 (
 valId
 val_
@@ -9397,7 +9397,7 @@ else
 {
 writer
 .
-guardType
+guardNonDoubleType
 (
 valId
 val_
@@ -17618,7 +17618,7 @@ TYPE_STRING
 :
 writer
 .
-guardType
+guardNonDoubleType
 (
 rhsId
 ValueType
@@ -23410,7 +23410,7 @@ else
 {
 writer
 .
-guardType
+guardNonDoubleType
 (
 valId
 val_
@@ -33613,7 +33613,7 @@ setInputOperandId
 ;
 writer
 .
-guardType
+guardNonDoubleType
 (
 valId
 ValueType
@@ -33760,7 +33760,7 @@ setInputOperandId
 ;
 writer
 .
-guardType
+guardNonDoubleType
 (
 valId
 ValueType
