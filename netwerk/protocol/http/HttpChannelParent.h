@@ -777,10 +777,6 @@ const
 nsresult
 &
 status
-const
-uint32_t
-&
-requestBlockingReason
 )
 override
 ;
