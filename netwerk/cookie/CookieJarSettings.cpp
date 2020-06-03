@@ -972,7 +972,13 @@ nsIURI
 >
 uri
 ;
+BasePrincipal
+:
+:
+Cast
+(
 aPrincipal
+)
 -
 >
 GetURI
