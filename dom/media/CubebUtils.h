@@ -154,6 +154,17 @@ RouteOutputAsVoice
 (
 )
 ;
+bool
+EstimatedRoundTripLatencyDefaultDevices
+(
+double
+*
+aMean
+double
+*
+aStdDev
+)
+;
 #
 ifdef
 MOZ_WIDGET_ANDROID
