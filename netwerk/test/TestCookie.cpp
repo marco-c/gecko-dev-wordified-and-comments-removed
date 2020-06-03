@@ -6828,6 +6828,10 @@ nsICookie
 :
 :
 SAMESITE_NONE
+nsICookie
+:
+:
+SCHEME_HTTPS
 )
 )
 )
@@ -6884,6 +6888,10 @@ nsICookie
 :
 :
 SAMESITE_NONE
+nsICookie
+:
+:
+SCHEME_HTTPS
 )
 )
 )
@@ -6934,6 +6942,10 @@ nsICookie
 :
 :
 SAMESITE_NONE
+nsICookie
+:
+:
+SCHEME_HTTPS
 )
 )
 )
