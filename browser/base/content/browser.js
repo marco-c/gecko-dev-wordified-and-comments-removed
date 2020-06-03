@@ -8851,14 +8851,8 @@ getElementById
 BrowserToolbarPalette
 "
 )
-;
-gNavToolbox
 .
-palette
-.
-remove
-(
-)
+content
 ;
 let
 areas
