@@ -2029,11 +2029,9 @@ brand
 ftl
 "
 "
-preview
+browser
 /
-popup
--
-notifications
+browser
 .
 ftl
 "
