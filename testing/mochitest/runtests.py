@@ -247,6 +247,7 @@ from
 mozlog
 import
 commandline
+get_proxy_logger
 from
 mozrunner
 .
@@ -18606,27 +18607,33 @@ MOZ_PROFILER_SHUTDOWN
 "
 ]
             
-print
+profiler_logger
+=
+get_proxy_logger
 (
 "
-TEST
--
-INFO
-|
+profiler
+"
+)
+            
+profiler_logger
+.
+info
+(
+"
 Shutdown
+performance
 profiling
 was
 enabled
 "
 )
             
-print
+profiler_logger
+.
+info
 (
 "
-TEST
--
-INFO
-|
 Profile
 saved
 locally
@@ -18637,30 +18644,6 @@ s
 "
 %
 profile_path
-)
-            
-print
-(
-"
-TEST
--
-INFO
-|
-Symbolicating
-the
-profile
-.
-.
-.
-This
-could
-take
-a
-couple
-of
-minutes
-.
-"
 )
             
 symbolicate_profile_json
@@ -18675,6 +18658,7 @@ view_gecko_profile_from_mochitest
 (
 profile_path
 options
+profiler_logger
 )
             
 if
@@ -22062,6 +22046,7 @@ view_gecko_profile_from_mochitest
 (
 profile_path
 options
+profiler_logger
 )
 :
     
@@ -22201,11 +22186,12 @@ profile_path
 )
 :
         
-print
+profiler_logger
+.
+error
 (
 "
-\
-tNo
+No
 profile
 was
 found
@@ -22214,6 +22200,9 @@ the
 profile
 path
 cannot
+"
+                              
+"
 launch
 profiler
 .
@@ -22226,22 +22215,18 @@ com
         
 return
     
-print
+profiler_logger
+.
+info
 (
 '
-TEST
--
-INFO
-|
 Loading
 this
 profile
 in
-profiler
-.
-firefox
-.
-com
+the
+Firefox
+Profiler
 '
 )
     

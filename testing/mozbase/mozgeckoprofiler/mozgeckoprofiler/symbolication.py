@@ -21,20 +21,27 @@ distutils
 import
 spawn
 from
+mozlog
+import
+get_proxy_logger
+from
 .
 symFileManager
 import
 SymFileManager
 from
 .
-symLogging
-import
-LogMessage
-from
-.
 symbolicationRequest
 import
 SymbolicationRequest
+LOG
+=
+get_proxy_logger
+(
+"
+profiler
+"
+)
 "
 "
 "
@@ -857,7 +864,9 @@ symbol_zip_url
             
 return
         
-LogMessage
+LOG
+.
+info
 (
 "
 Retrieving
@@ -938,7 +947,9 @@ except
 IOError
 :
             
-LogMessage
+LOG
+.
+info
 (
 "
 Symbol

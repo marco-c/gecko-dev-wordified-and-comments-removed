@@ -2,7 +2,6 @@ from
 __future__
 import
 absolute_import
-print_function
 import
 json
 import
@@ -18,6 +17,18 @@ from
 symbolication
 import
 ProfileSymbolicator
+from
+mozlog
+import
+get_proxy_logger
+LOG
+=
+get_proxy_logger
+(
+'
+profiler
+'
+)
 def
 save_gecko_profile
 (
@@ -315,17 +326,30 @@ FIREFOX
 =
 symbol_path
     
-print
+LOG
+.
+info
 (
 "
 Symbolicating
+the
+performance
 profile
-at
-%
-s
+.
+.
+.
+This
+could
+take
+a
+couple
 "
-%
-profile_path
+             
+"
+of
+minutes
+.
+"
 )
     
 try
@@ -379,7 +403,9 @@ except
 MemoryError
 :
         
-print
+LOG
+.
+error
 (
             
 "
@@ -410,9 +436,13 @@ profile_path
     
 except
 Exception
+as
+e
 :
         
-print
+LOG
+.
+error
 (
 "
 Encountered
@@ -420,20 +450,15 @@ an
 exception
 during
 profile
-"
-              
-"
 symbolication
-{
-0
-}
 "
-              
-.
-format
-(
-profile_path
 )
+        
+LOG
+.
+error
+(
+e
 )
     
 shutil
