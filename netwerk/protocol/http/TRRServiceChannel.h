@@ -613,6 +613,16 @@ aRedirectFlags
 )
 override
 ;
+virtual
+bool
+SameOriginWithOriginalUri
+(
+nsIURI
+*
+aURI
+)
+override
+;
 bool
 mTopWindowOriginComputed
 ;

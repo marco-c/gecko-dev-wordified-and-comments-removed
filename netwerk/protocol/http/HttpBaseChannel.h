@@ -2863,6 +2863,7 @@ aResult
 )
 ;
 }
+virtual
 bool
 SameOriginWithOriginalUri
 (
