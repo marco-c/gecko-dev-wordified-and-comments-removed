@@ -14845,7 +14845,7 @@ FloatRegisterSet
 FloatRegisters
 :
 :
-AllVector128Mask
+AllMask
 )
 )
 ;
