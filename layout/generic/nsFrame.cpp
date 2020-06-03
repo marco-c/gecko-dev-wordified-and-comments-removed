@@ -13305,6 +13305,7 @@ disp
 )
 &
 &
+(
 PresContext
 (
 )
@@ -13321,6 +13322,19 @@ disp
 -
 >
 mAppearance
+)
+|
+|
+disp
+-
+>
+mAppearance
+!
+=
+StyleAppearance
+:
+:
+Range
 )
 )
 {
