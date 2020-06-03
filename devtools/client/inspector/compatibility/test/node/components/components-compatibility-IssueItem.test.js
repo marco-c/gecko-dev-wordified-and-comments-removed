@@ -33,13 +33,9 @@ require
 "
 devtools
 /
-client
-/
-inspector
+shared
 /
 compatibility
-/
-lib
 /
 MDNCompatibility
 "
