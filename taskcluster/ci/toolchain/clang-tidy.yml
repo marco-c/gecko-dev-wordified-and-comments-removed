@@ -109,7 +109,7 @@ tidy
 .
 tar
 .
-xz
+zst
 resources
 :
 -

@@ -194,7 +194,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -297,7 +297,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -405,7 +405,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -535,7 +535,7 @@ clangmingw
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -682,7 +682,7 @@ clangmingw
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -818,7 +818,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -988,7 +988,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -1165,7 +1165,7 @@ clang
 .
 tar
 .
-xz
+zst
 tooltool
 -
 downloads
@@ -1292,7 +1292,7 @@ clang
 .
 tar
 .
-xz
+zst
 dependencies
 :
 win64
@@ -1330,6 +1330,23 @@ cl
 -
 2stage
 :
+#
+Put
+this
+into
+a
+new
+directory
+so
+it
+doesn
+'
+t
+conflict
+with
+the
+linux
+toolchain
 -
 artifact
 :
@@ -1337,7 +1354,12 @@ clang
 .
 tar
 .
-bz2
+zst
+dest
+:
+clang
+-
+cl
 extract
 :
 false
@@ -1425,7 +1447,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -1588,7 +1610,7 @@ clang
 .
 tar
 .
-xz
+zst
 fetches
 :
 fetch
@@ -1745,7 +1767,7 @@ clang
 .
 tar
 .
-bz2
+zst
 tooltool
 -
 downloads
@@ -1895,7 +1917,7 @@ clang
 .
 tar
 .
-bz2
+zst
 tooltool
 -
 downloads
