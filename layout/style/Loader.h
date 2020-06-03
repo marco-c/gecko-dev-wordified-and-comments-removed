@@ -488,8 +488,6 @@ No
 enum
 class
 IsPreload
-:
-uint8_t
 {
 No
 FromParser
@@ -921,6 +919,7 @@ LoadSheet
 SheetLoadData
 &
 SheetState
+IsPreload
 )
 ;
 enum
