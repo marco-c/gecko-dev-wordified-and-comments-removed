@@ -4650,6 +4650,11 @@ value
 result
 .
 auth_details
+extra
+:
+result
+.
+auth_details_extra
 }
 ;
 return
