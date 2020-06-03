@@ -19265,9 +19265,6 @@ dependencies
 =
 [
 "
-bindgen
-"
-"
 byteorder
 "
 "
