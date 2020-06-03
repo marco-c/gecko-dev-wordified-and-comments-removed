@@ -33886,7 +33886,7 @@ setNotCrossRealm
 call
 -
 >
-initFunction
+initCallee
 (
 callInfo
 .

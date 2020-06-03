@@ -13506,7 +13506,7 @@ private
 static
 const
 size_t
-FunctionOperandIndex
+CalleeOperandIndex
 =
 0
 ;
@@ -13647,7 +13647,7 @@ objectKind
 )
 ;
 void
-initFunction
+initCallee
 (
 MDefinition
 *
@@ -13656,7 +13656,7 @@ func
 {
 initOperand
 (
-FunctionOperandIndex
+CalleeOperandIndex
 func
 )
 ;
@@ -13748,7 +13748,7 @@ true
 }
 MDefinition
 *
-getFunction
+getCallee
 (
 )
 const
@@ -13756,12 +13756,12 @@ const
 return
 getOperand
 (
-FunctionOperandIndex
+CalleeOperandIndex
 )
 ;
 }
 void
-replaceFunction
+replaceCallee
 (
 MInstruction
 *
@@ -13770,7 +13770,7 @@ newfunc
 {
 replaceOperand
 (
-FunctionOperandIndex
+CalleeOperandIndex
 newfunc
 )
 ;

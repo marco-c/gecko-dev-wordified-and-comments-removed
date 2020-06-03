@@ -5859,7 +5859,7 @@ func
 call
 -
 >
-getFunction
+getCallee
 (
 )
 ;
@@ -5917,7 +5917,7 @@ unbox
 call
 -
 >
-replaceFunction
+replaceCallee
 (
 unbox
 )
