@@ -80,6 +80,14 @@ SupportsWeakPtr
 <
 WebGLParent
 >
+public
+mozilla
+:
+:
+webgl
+:
+:
+PcqActor
 {
 friend
 PWebGLParent
