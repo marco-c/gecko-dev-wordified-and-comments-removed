@@ -9826,7 +9826,7 @@ mFrameSelection
 frameSelection
 -
 >
-InvalidateDesiredPos
+InvalidateDesiredCaretPos
 (
 )
 ;
@@ -16692,7 +16692,7 @@ levelAfter
 frameSelection
 -
 >
-InvalidateDesiredPos
+InvalidateDesiredCaretPos
 (
 )
 ;
