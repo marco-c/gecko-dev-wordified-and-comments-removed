@@ -2890,14 +2890,12 @@ Histogram
 :
 SampleSet
 ss
-;
+=
 h
 -
 >
 SnapshotSample
 (
-&
-ss
 )
 ;
 for
