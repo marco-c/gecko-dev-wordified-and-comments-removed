@@ -994,13 +994,6 @@ KEY_Backspace
 "
 )
 ;
-if
-(
-gURLBar
-.
-openViewOnFocus
-)
-{
 gURLBar
 .
 view
@@ -1009,7 +1002,6 @@ close
 (
 )
 ;
-}
 let
 notShowing
 =

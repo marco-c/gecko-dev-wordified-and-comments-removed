@@ -403,7 +403,9 @@ browser
 .
 urlbar
 .
-openViewOnFocus
+suggest
+.
+topsites
 "
 true
 ]

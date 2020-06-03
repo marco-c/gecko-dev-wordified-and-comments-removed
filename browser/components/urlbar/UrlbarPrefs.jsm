@@ -238,12 +238,6 @@ false
 ]
 [
 "
-openViewOnFocus
-"
-true
-]
-[
-"
 restyleSearches
 "
 false
