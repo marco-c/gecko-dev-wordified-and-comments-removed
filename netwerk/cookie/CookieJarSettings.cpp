@@ -476,6 +476,10 @@ Create
 (
 uint32_t
 aCookieBehavior
+const
+nsAString
+&
+aFirstPartyDomain
 )
 {
 MOZ_ASSERT
@@ -497,6 +501,13 @@ CookieJarSettings
 aCookieBehavior
 eProgressive
 )
+;
+cookieJarSettings
+-
+>
+mFirstPartyDomain
+=
+aFirstPartyDomain
 ;
 return
 cookieJarSettings
