@@ -46193,7 +46193,7 @@ in
 logs
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
