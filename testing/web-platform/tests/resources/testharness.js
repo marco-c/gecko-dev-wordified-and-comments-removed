@@ -5771,9 +5771,15 @@ p
 expected
 :
 expected
+[
+p
+]
 actual
 :
 actual
+[
+p
+]
 }
 )
 ;
