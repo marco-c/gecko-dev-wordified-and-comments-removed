@@ -1113,6 +1113,9 @@ getString
 (
 descString
 )
+descString
+.
+values
 )
 ;
 if
