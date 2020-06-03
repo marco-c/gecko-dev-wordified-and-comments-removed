@@ -997,7 +997,7 @@ return
 (
 void
 )
-postNotification
+moxPostNotification
 :
 (
 NSString
@@ -1007,7 +1007,7 @@ notification
 {
 [
 super
-postNotification
+moxPostNotification
 :
 notification
 ]
@@ -1061,7 +1061,7 @@ mIsOpened
 {
 [
 self
-postNotification
+moxPostNotification
 :
 "
 AXMenuClosed
@@ -1349,7 +1349,7 @@ parent
 ;
 [
 parent
-postNotification
+moxPostNotification
 :
 NSAccessibilitySelectedChildrenChangedNotification
 ]

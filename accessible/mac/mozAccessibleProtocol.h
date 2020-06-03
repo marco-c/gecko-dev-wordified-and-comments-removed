@@ -34,17 +34,6 @@ id
 )
 representedView
 ;
-#
-ifdef
-DEBUG
--
-(
-void
-)
-printHierarchy
-;
-#
-endif
 -
 (
 id

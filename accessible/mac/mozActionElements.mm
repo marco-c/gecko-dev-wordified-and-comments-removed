@@ -442,7 +442,7 @@ childAt
 {
 [
 popup
-postNotification
+moxPostNotification
 :
 (
 enabled
@@ -1194,7 +1194,7 @@ EVENT_VALUE_CHANGE
 :
 [
 self
-postNotification
+moxPostNotification
 :
 NSAccessibilityValueChangedNotification
 ]
