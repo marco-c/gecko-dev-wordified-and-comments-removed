@@ -343,5 +343,16 @@ run_on_projects
 '
 )
         
+job
+[
+'
+optimization
+'
+]
+=
+dep_task
+.
+optimization
+        
 yield
 job
