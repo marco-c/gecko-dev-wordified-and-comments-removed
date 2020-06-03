@@ -231,6 +231,11 @@ HTMLDialogElement
 (
 )
 ;
+void
+FocusDialog
+(
+)
+;
 JSObject
 *
 WrapNode
