@@ -1305,9 +1305,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
-nsIInterfaceRequestor
+BrowsingContext
 *
-aWindowContext
+aBrowsingContext
 )
 {
 NS_ASSERTION
@@ -1506,7 +1506,7 @@ mPreferredApplication
 LaunchWithURI
 (
 aURI
-aWindowContext
+aBrowsingContext
 )
 ;
 }

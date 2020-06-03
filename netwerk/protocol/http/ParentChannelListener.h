@@ -46,13 +46,6 @@ h
 #
 include
 "
-nsIRemoteWindowContext
-.
-h
-"
-#
-include
-"
 nsIStreamListener
 .
 h
@@ -109,8 +102,6 @@ public
 nsIThreadRetargetableStreamListener
 private
 nsIAuthPromptProvider
-private
-nsIRemoteWindowContext
 {
 public
 :
@@ -121,7 +112,6 @@ NS_DECL_NSISTREAMLISTENER
 NS_DECL_NSIMULTIPARTCHANNELLISTENER
 NS_DECL_NSINETWORKINTERCEPTCONTROLLER
 NS_DECL_NSIAUTHPROMPTPROVIDER
-NS_DECL_NSIREMOTEWINDOWCONTEXT
 NS_DECL_NSITHREADRETARGETABLESTREAMLISTENER
 NS_DECLARE_STATIC_IID_ACCESSOR
 (
@@ -266,11 +256,6 @@ mBrowsingContext
 ;
 bool
 mIsMultiPart
-=
-false
-;
-bool
-mUsePrivateBrowsing
 =
 false
 ;

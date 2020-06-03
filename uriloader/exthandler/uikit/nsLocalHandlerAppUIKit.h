@@ -73,9 +73,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
-nsIInterfaceRequestor
+BrowsingContext
 *
-aWindowContext
+aBrowsingContext
 )
 override
 ;

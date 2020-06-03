@@ -604,9 +604,9 @@ LaunchWithURI
 nsIURI
 *
 aURI
-nsIInterfaceRequestor
+BrowsingContext
 *
-aWindowContext
+aBrowsingContext
 )
 {
 return

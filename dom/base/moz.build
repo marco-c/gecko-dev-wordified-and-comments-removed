@@ -101,11 +101,6 @@ nsIObjectLoadingContent
 idl
 '
 '
-nsIRemoteWindowContext
-.
-idl
-'
-'
 nsIScriptableContentIterator
 .
 idl
