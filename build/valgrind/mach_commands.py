@@ -146,7 +146,7 @@ conditions
 [
 conditions
 .
-is_firefox
+is_firefox_or_thunderbird
 is_valgrind_build
 ]
              
