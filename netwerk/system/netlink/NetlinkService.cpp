@@ -5663,6 +5663,13 @@ Remove
 }
 }
 }
+linkInfo
+-
+>
+UpdateStatus
+(
+)
+;
 if
 (
 mInitialScanFinished
