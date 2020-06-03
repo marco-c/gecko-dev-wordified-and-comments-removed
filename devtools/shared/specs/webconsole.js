@@ -669,6 +669,15 @@ Option
 string
 "
 )
+innerWindowID
+:
+Option
+(
+0
+"
+number
+"
+)
 mapped
 :
 Option

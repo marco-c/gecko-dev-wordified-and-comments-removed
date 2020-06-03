@@ -777,6 +777,11 @@ selectedObjectActor
 opts
 .
 selectedObjectActor
+innerWindowID
+:
+opts
+.
+innerWindowID
 mapped
 :
 opts
