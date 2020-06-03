@@ -363,6 +363,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 Exception
 .
 h
@@ -855,6 +864,9 @@ isWarning
 )
 )
 ;
+JS
+:
+:
 PrintError
 (
 cx
@@ -16298,6 +16310,9 @@ isWarning
 )
 )
 ;
+JS
+:
+:
 PrintError
 (
 cx

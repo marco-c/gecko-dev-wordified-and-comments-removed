@@ -698,6 +698,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 Exception
 .
 h
@@ -57231,6 +57240,9 @@ ErrorFilePointer
 (
 )
 ;
+JS
+:
+:
 PrintError
 (
 cx
@@ -57450,6 +57462,9 @@ restore
 )
 ;
 }
+JS
+:
+:
 PrintError
 (
 cx
