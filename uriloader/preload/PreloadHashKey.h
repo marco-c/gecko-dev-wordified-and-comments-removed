@@ -20,7 +20,7 @@ mozilla
 /
 css
 /
-SheetLoadData
+SheetParsingMode
 .
 h
 "
@@ -62,6 +62,13 @@ nsIReferrerInfo
 namespace
 mozilla
 {
+namespace
+css
+{
+class
+SheetLoadData
+;
+}
 class
 PreloadHashKey
 :
@@ -221,7 +228,6 @@ css
 :
 SheetLoadData
 &
-aSheetLoadData
 )
 ;
 static

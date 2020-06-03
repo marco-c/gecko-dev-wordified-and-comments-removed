@@ -211,7 +211,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -239,7 +239,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -272,7 +272,7 @@ nsICSSLoaderObserver
 aObserver
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 nsIReferrerInfo
 *
 aReferrerInfo
@@ -475,7 +475,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mLoaderPrincipal
+mTriggeringPrincipal
 ;
 const
 nsCOMPtr

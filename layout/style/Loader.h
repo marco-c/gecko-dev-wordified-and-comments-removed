@@ -718,7 +718,7 @@ SheetInfo
 aInfo
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 css
 :
 :
@@ -739,7 +739,7 @@ mURI
 aInfo
 .
 mContent
-aLoaderPrincipal
+aTriggeringPrincipal
 aParsingMode
 aInfo
 .
@@ -776,7 +776,7 @@ nsIContent
 aLinkingContent
 nsIPrincipal
 *
-aLoaderPrincipal
+aTriggeringPrincipal
 css
 :
 :

@@ -184,6 +184,17 @@ mozilla
 /
 dom
 /
+LinkStyle
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 ToJSValue
 .
 h

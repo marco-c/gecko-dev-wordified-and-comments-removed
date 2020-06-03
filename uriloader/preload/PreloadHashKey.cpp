@@ -19,6 +19,17 @@ h
 #
 include
 "
+mozilla
+/
+css
+/
+SheetLoadData
+.
+h
+"
+#
+include
+"
 nsIPrincipal
 .
 h
@@ -619,7 +630,7 @@ aSheetLoadData
 mURI
 aSheetLoadData
 .
-mLoaderPrincipal
+mTriggeringPrincipal
 aSheetLoadData
 .
 ReferrerInfo
