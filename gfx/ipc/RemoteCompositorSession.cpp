@@ -70,6 +70,17 @@ include
 "
 mozilla
 /
+layers
+/
+GeckoContentController
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h

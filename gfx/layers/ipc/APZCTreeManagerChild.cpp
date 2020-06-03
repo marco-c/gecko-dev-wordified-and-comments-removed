@@ -56,6 +56,17 @@ mozilla
 /
 layers
 /
+GeckoContentController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 RemoteCompositorSession
 .
 h
