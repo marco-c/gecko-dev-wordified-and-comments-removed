@@ -574,14 +574,6 @@ onPageShow
 event
 )
 {
-this
-.
-contentWindow
-.
-focus
-(
-)
-;
 if
 (
 gNeedsDrawSelection
