@@ -1421,15 +1421,6 @@ slow
 "
 )
 )
-        
-self
-.
-assertTrue
-(
-self
-.
-is_remote_tab
-)
     
 def
 test_navigate_to_same_image_document_twice
