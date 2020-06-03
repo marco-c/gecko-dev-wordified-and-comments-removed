@@ -3791,6 +3791,13 @@ maybeSingleDefUse
 )
 const
 ;
+MDefinition
+*
+maybeMostRecentDefUse
+(
+)
+const
+;
 void
 addUse
 (
