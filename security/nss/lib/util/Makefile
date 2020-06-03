@@ -375,17 +375,6 @@ OPTIONAL
 #
 #
 #
-#
-include
-(
-CORE_DEPTH
-)
-/
-coreconf
-/
-arch
-.
-mk
 include
 (
 CORE_DEPTH
@@ -1195,7 +1184,3 @@ OPTIONAL
 #
 #
 #
-export
-:
-:
-private_export

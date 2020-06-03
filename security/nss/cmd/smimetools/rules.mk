@@ -56,7 +56,6 @@ MPL
 .
 install
 :
-:
 (
 INSTALL
 )

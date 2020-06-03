@@ -82,7 +82,9 @@ MAPFILE
 OBJDIR
 )
 /
-nssdbm
+(
+LIBRARY_NAME
+)
 .
 def
 DEFINES

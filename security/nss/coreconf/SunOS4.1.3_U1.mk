@@ -166,11 +166,6 @@ DSO_CFLAGS
 (
 NOMD_OS_CFLAGS
 )
--
-MDupdate
-(
-DEPENDENCIES
-)
 MKSHLIB
 =
 (

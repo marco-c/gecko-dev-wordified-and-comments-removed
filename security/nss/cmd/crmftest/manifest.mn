@@ -78,12 +78,6 @@ REQUIRED
 MODULE
 =
 nss
-EXPORTS
-=
-\
-(
-NULL
-)
 CSRCS
 =
 \

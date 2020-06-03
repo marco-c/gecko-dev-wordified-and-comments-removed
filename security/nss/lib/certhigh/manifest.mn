@@ -137,6 +137,11 @@ NULL
 LIBRARY_NAME
 =
 certhi
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

@@ -141,6 +141,11 @@ NULL
 LIBRARY_NAME
 =
 pkixtoolpki
+SHARED_LIBRARY
+=
+(
+NULL
+)
 SOURCE_LIB_DIR
 =
 (

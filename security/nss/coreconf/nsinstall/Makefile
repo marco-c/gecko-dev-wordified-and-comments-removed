@@ -120,6 +120,8 @@ OS_TARGET
 )
 PROGRAM
 =
+TARGETS
+=
 else
 TARGETS
 =
@@ -175,14 +177,9 @@ D
 )
 ;
 then
-rm
--
-rf
-(
-D
-)
-;
 mkdir
+-
+p
 (
 D
 )

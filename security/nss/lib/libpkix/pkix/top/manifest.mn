@@ -67,12 +67,6 @@ CORE_DEPTH
 /
 .
 .
-EXPORTS
-=
-\
-(
-NULL
-)
 PRIVATE_EXPORTS
 =
 \
@@ -115,3 +109,8 @@ NULL
 LIBRARY_NAME
 =
 pkixtop
+SHARED_LIBRARY
+=
+(
+NULL
+)

@@ -389,16 +389,3 @@ b
 elf
 -
 G
-#
-Used
-for
-Java
-compiler
-EXPORT_FLAGS
-+
-=
--
-W
-l
--
-Bexport

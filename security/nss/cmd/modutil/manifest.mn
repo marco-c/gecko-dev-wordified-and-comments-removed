@@ -64,8 +64,6 @@ CORE_DEPTH
 MODULE
 =
 sectools
-EXPORTS
-=
 CSRCS
 =
 modutil

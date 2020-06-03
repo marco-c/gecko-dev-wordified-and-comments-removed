@@ -703,7 +703,6 @@ OPTIONAL
 #
 #
 #
--
 include
 config
 .
@@ -1192,10 +1191,6 @@ WARNING_CFLAGS
 (
 NULL
 )
-export
-:
-:
-private_export
 ifeq
 (
 WINNT

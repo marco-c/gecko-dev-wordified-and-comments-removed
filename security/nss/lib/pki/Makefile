@@ -68,10 +68,14 @@ coreconf
 config
 .
 mk
-include
-config
-.
-mk
+ifdef
+BUILD_IDG
+DEFINES
++
+=
+-
+DNSSDEBUG
+endif
 include
 (
 CORE_DEPTH
@@ -82,7 +86,3 @@ coreconf
 rules
 .
 mk
-export
-:
-:
-private_export

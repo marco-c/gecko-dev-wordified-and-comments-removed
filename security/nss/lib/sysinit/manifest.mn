@@ -83,7 +83,9 @@ MAPFILE
 OBJDIR
 )
 /
-nsssysinit
+(
+LIBRARY_NAME
+)
 .
 def
 #

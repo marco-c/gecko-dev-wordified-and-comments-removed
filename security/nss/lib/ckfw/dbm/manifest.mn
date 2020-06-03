@@ -115,6 +115,11 @@ nspr
 LIBRARY_NAME
 =
 nssckdbm
+LIBRARY
+=
+(
+NULL
+)
 EXTRA_SHARED_LIBS
 =
 -

@@ -144,6 +144,11 @@ nspr
 LIBRARY_NAME
 =
 nssb
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

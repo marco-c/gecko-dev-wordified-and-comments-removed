@@ -67,12 +67,6 @@ CORE_DEPTH
 /
 .
 .
-EXPORTS
-=
-\
-(
-NULL
-)
 PRIVATE_EXPORTS
 =
 \
@@ -99,3 +93,8 @@ NULL
 LIBRARY_NAME
 =
 pkixstore
+SHARED_LIBRARY
+=
+(
+NULL
+)

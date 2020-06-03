@@ -234,17 +234,6 @@ dstdir
 /
 lib
 cp
-nssdir
-/
-lib
-/
-manifest
-.
-mn
-dstdir
-/
-lib
-cp
 -
 R
 nssdir

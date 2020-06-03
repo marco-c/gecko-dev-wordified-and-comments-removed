@@ -68,6 +68,11 @@ nss
 LIBRARY_NAME
 =
 cpputil
+SHARED_LIBRARY
+=
+(
+NULL
+)
 ifeq
 (
 (
@@ -105,9 +110,3 @@ cc
 NULL
 )
 endif
-EXPORTS
-=
-\
-(
-NULL
-)

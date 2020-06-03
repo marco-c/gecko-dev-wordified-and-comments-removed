@@ -99,12 +99,6 @@ h
 (
 NULL
 )
-EXPORTS
-=
-\
-(
-NULL
-)
 MODULE
 =
 nss
@@ -165,9 +159,11 @@ nspr
 LIBRARY_NAME
 =
 nsspki
-LIBRARY_VERSION
+SHARED_LIBRARY
 =
-3
+(
+NULL
+)
 #
 This
 part

@@ -380,16 +380,3 @@ DSO_LDOPTS
 =
 -
 G
-#
-Used
-for
-Java
-compiler
-EXPORT_FLAGS
-+
-=
--
-W
-l
--
-Bexport

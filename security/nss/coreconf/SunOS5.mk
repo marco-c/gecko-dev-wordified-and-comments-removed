@@ -244,17 +244,6 @@ NOMD_OS_CFLAGS
 ARCHFLAG
 )
 ifdef
-USE_MDUPDATE
-OS_CFLAGS
-+
-=
--
-MDupdate
-(
-DEPENDENCIES
-)
-endif
-ifdef
 BUILD_OPT
 OPTIMIZER
 =

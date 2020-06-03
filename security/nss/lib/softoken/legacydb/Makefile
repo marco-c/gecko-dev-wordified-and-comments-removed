@@ -1240,10 +1240,6 @@ OPTIONAL
 #
 #
 #
-export
-:
-:
-private_export
 #
 indicates
 dependency

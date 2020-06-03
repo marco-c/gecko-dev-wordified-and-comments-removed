@@ -292,17 +292,6 @@ OS_CFLAGS
 (
 NOMD_OS_CFLAGS
 )
-ifdef
-USE_MDUPDATE
-OS_CFLAGS
-+
-=
--
-MDupdate
-(
-DEPENDENCIES
-)
-endif
 ifeq
 (
 (

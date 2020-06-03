@@ -167,6 +167,16 @@ include
 (
 NULL
 )
+(
+SOFTOKEN_SRCDIRS
+)
+(
+NSS_SRCDIRS
+)
+:
+(
+LIB_SRCDIRS
+)
 include
 (
 CORE_DEPTH
@@ -178,7 +188,6 @@ rules
 .
 mk
 symbols
-:
 :
 echo
 "

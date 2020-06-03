@@ -701,11 +701,6 @@ OPTIONAL
 #
 #
 #
--
-include
-config
-.
-mk
 #
 #
 #
@@ -1185,10 +1180,6 @@ OPTIONAL
 #
 #
 #
-export
-:
-:
-private_export
 (
 OBJDIR
 )
@@ -1283,9 +1274,12 @@ o
 pk11slot
 .
 c
+|
 (
-MAKE_OBJDIR
+D
 )
+/
+d
 (
 CC
 )

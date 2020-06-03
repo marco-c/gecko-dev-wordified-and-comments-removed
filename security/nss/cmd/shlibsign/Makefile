@@ -1497,9 +1497,11 @@ core_abspath
 endif
 endif
 libs
+:
 install
-:
-:
+(
+MAKE
+)
 (
 CHECKLOC
 )

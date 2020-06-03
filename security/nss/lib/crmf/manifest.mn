@@ -184,6 +184,11 @@ NULL
 LIBRARY_NAME
 =
 crmf
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

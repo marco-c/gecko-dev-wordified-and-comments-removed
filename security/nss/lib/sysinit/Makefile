@@ -701,14 +701,6 @@ OPTIONAL
 #
 #
 #
-#
-include
-.
-.
-/
-platlibs
-.
-mk
 include
 config
 .
@@ -1192,11 +1184,3 @@ OPTIONAL
 #
 #
 #
-#
-include
-.
-.
-/
-platrules
-.
-mk

@@ -127,6 +127,11 @@ NULL
 LIBRARY_NAME
 =
 pkcs12
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

@@ -125,6 +125,11 @@ NULL
 LIBRARY_NAME
 =
 pkixtoolmodule
+SHARED_LIBRARY
+=
+(
+NULL
+)
 SOURCE_LIB_DIR
 =
 (

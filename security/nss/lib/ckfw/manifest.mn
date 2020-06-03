@@ -63,7 +63,11 @@ CORE_DEPTH
 .
 DIRS
 =
+.
 builtins
+builtins
+:
+.
 PRIVATE_EXPORTS
 =
 \
@@ -199,6 +203,11 @@ nspr
 LIBRARY_NAME
 =
 nssckfw
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

@@ -346,7 +346,7 @@ dll_prefix
 "
 '
 '
-SHLIB_VERSION
+NSS_SHLIB_VERSION
 =
 \
 "

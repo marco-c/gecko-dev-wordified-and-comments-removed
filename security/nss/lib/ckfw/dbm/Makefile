@@ -59,10 +59,6 @@ manifest
 .
 mn
 include
-config
-.
-mk
-include
 (
 CORE_DEPTH
 )
@@ -72,6 +68,14 @@ coreconf
 config
 .
 mk
+ifdef
+BUILD_IDG
+DEFINES
++
+=
+-
+DNSSDEBUG
+endif
 include
 (
 CORE_DEPTH

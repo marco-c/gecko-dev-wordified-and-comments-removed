@@ -140,10 +140,11 @@ NULL
 LIBRARY_NAME
 =
 zlib
-#
-REQUIRES
+SHARED_LIBRARY
 =
-nss
+(
+NULL
+)
 #
 Define
 verbose

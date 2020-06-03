@@ -1204,7 +1204,3 @@ PLAT_DEPTH
 platrules
 .
 mk
-export
-:
-:
-private_export

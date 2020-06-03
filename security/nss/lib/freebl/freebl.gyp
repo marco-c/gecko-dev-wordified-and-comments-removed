@@ -3339,6 +3339,9 @@ dist
 /
 minimal
 '
+'
+deprecated
+'
 ]
 '
 defines

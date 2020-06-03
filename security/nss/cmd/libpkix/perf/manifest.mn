@@ -110,6 +110,11 @@ NULL
 LIBRARY_NAME
 =
 pkixtoolperf
+SHARED_LIBRARY
+=
+(
+NULL
+)
 SOURCE_LIB_DIR
 =
 (

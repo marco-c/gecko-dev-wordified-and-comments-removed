@@ -74,9 +74,11 @@ gtest
 LIBRARY_NAME
 =
 gtest
-LIBRARY_VERSION
+SHARED_LIBRARY
 =
-1
+(
+NULL
+)
 INCLUDES
 +
 =
@@ -99,12 +101,6 @@ gtest
 all
 .
 cc
-\
-(
-NULL
-)
-EXPORTS
-=
 \
 (
 NULL

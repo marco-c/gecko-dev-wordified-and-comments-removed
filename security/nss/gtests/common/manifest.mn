@@ -74,6 +74,11 @@ nss
 LIBRARY_NAME
 =
 gtestutil
+SHARED_LIBRARY
+=
+(
+NULL
+)
 ifeq
 (
 (

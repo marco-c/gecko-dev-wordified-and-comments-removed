@@ -95,12 +95,6 @@ h
 (
 NULL
 )
-EXPORTS
-=
-\
-(
-NULL
-)
 MODULE
 =
 nss
@@ -132,6 +126,11 @@ nspr
 LIBRARY_NAME
 =
 nssdev
+SHARED_LIBRARY
+=
+(
+NULL
+)
 #
 This
 part

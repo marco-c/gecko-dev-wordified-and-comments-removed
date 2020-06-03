@@ -701,10 +701,6 @@ OPTIONAL
 #
 #
 #
-include
-config
-.
-mk
 #
 #
 #
@@ -1184,7 +1180,3 @@ OPTIONAL
 #
 #
 #
-export
-:
-:
-private_export

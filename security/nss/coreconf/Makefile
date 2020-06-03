@@ -88,7 +88,3 @@ coreconf
 rules
 .
 mk
-export
-:
-:
-libs

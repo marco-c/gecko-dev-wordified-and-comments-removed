@@ -75,8 +75,6 @@ REQUIRED
 MODULE
 =
 nss
-EXPORTS
-=
 CSRCS
 =
 ssltap

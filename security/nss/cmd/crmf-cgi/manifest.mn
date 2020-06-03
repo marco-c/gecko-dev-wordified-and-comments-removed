@@ -64,12 +64,6 @@ CORE_DEPTH
 MODULE
 =
 sectools
-EXPORTS
-=
-\
-(
-NULL
-)
 CSRCS
 =
 \

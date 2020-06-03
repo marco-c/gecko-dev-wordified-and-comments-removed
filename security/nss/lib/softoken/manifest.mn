@@ -79,7 +79,9 @@ MAPFILE
 OBJDIR
 )
 /
-softokn
+(
+LIBRARY_NAME
+)
 .
 def
 DEFINES

@@ -1025,6 +1025,8 @@ sources
 :
 [
 '
+deprecated
+/
 seed
 .
 c

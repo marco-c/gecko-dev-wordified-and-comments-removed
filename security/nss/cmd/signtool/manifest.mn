@@ -74,8 +74,6 @@ I
 ZLIB_INCLUDE_DIR
 )
 endif
-EXPORTS
-=
 CSRCS
 =
 signtool

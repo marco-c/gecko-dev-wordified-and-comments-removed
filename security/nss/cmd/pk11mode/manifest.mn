@@ -64,8 +64,6 @@ CORE_DEPTH
 MODULE
 =
 nss
-EXPORTS
-=
 CSRCS
 =
 pk11mode
