@@ -13609,10 +13609,7 @@ aDirection
 :
 mRequest
 (
-WrapNotNull
-(
 aRequest
-)
 )
 mTransaction
 (
@@ -13668,10 +13665,7 @@ aDirection
 )
 mSource
 (
-WrapNotNull
-(
 aSource
-)
 )
 mCursor
 (

@@ -292,7 +292,7 @@ nsIFile
 *
 aDirectory
 mozIStorageConnection
-&
+*
 aConnection
 )
 ;
