@@ -1,8 +1,14 @@
 How
-to
-contribute
-to
+To
+Contribute
+Code
+To
 Firefox
+=
+=
+=
+=
+=
 =
 =
 =

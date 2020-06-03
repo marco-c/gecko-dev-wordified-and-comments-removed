@@ -1,8 +1,0 @@
-.
-.
-_linux
--
-build
--
-documentation
-:
