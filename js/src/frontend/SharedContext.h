@@ -1323,12 +1323,6 @@ traceLink_
 =
 nullptr
 ;
-FunctionBox
-*
-emitLink_
-=
-nullptr
-;
 AbstractScopePtr
 enclosingScope_
 =

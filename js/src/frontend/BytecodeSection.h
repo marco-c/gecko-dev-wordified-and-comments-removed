@@ -253,12 +253,6 @@ compilationInfo
 ScriptThingsVector
 vector
 ;
-FunctionBox
-*
-lastbox
-=
-nullptr
-;
 mozilla
 :
 :
@@ -614,11 +608,6 @@ return
 vector
 ;
 }
-void
-finishInnerFunctions
-(
-)
-;
 AbstractScopePtr
 getScope
 (
