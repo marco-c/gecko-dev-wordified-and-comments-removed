@@ -1956,7 +1956,7 @@ nsCOMPtr
 <
 nsINode
 >
-mCellParent
+mClosestInclusiveTableCellAncestor
 ;
 nsCOMPtr
 <
