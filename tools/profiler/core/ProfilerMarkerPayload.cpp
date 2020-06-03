@@ -1239,6 +1239,17 @@ isSome
 )
 )
 {
+aWriter
+.
+IntProperty
+(
+"
+threadId
+"
+*
+mIOThreadId
+)
+;
 }
 }
 ProfileBufferEntryWriter
