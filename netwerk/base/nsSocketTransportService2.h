@@ -162,6 +162,9 @@ nsIPrefBranch
 namespace
 mozilla
 {
+class
+AbstractThread
+;
 namespace
 net
 {
@@ -519,6 +522,12 @@ nsCOMPtr
 nsIThread
 >
 mThread
+;
+RefPtr
+<
+AbstractThread
+>
+mAbstractThread
 ;
 UniquePtr
 <
