@@ -10910,7 +10910,7 @@ ChildList
 nsIFrame
 :
 :
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 {
@@ -37082,7 +37082,7 @@ auto
 &
 childList
 :
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 )
@@ -37132,7 +37132,7 @@ auto
 &
 childList
 :
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 )
@@ -54876,7 +54876,7 @@ childList
 aFrame
 -
 >
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 )
@@ -54971,7 +54971,7 @@ childList
 aFrame
 -
 >
-GetCrossDocChildLists
+CrossDocChildLists
 (
 )
 )
