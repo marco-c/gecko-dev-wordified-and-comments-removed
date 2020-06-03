@@ -393,6 +393,7 @@ ResolutionChangeOrigin
 uint8_t
 {
 Apz
+Test
 MainThreadRestore
 MainThreadAdjustment
 }

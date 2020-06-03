@@ -3089,7 +3089,7 @@ aResolution
 ResolutionChangeOrigin
 :
 :
-MainThreadRestore
+Test
 )
 ;
 return
