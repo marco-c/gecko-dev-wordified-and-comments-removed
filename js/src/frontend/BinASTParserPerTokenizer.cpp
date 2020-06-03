@@ -1533,7 +1533,7 @@ functionAsyncKind
 fun
 -
 >
-explicitName
+displayAtom
 (
 )
 fun

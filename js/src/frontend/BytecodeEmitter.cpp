@@ -15203,7 +15203,7 @@ MOZ_ASSERT
 funbox
 -
 >
-inferredName
+displayAtom
 (
 )
 =
