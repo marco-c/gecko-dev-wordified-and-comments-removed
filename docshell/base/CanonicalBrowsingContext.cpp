@@ -2918,7 +2918,7 @@ false
 }
 if
 (
-GetWatchedByDevtools
+WatchedByDevTools
 (
 )
 )

@@ -410,7 +410,7 @@ bool
 mPrincipalIsAddonOrExpandedAddon
 ;
 bool
-mWatchedByDevtools
+mWatchedByDevTools
 ;
 StorageAccess
 mStorageAccess

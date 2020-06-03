@@ -2613,7 +2613,7 @@ if
 worker
 -
 >
-IsWatchedByDevtools
+IsWatchedByDevTools
 (
 )
 )

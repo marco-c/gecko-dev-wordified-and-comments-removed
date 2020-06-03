@@ -3121,7 +3121,7 @@ mServiceWorkersTestingInWindow
 ;
 }
 bool
-IsWatchedByDevtools
+IsWatchedByDevTools
 (
 )
 const
@@ -3129,7 +3129,7 @@ const
 return
 mLoadInfo
 .
-mWatchedByDevtools
+mWatchedByDevTools
 ;
 }
 bool

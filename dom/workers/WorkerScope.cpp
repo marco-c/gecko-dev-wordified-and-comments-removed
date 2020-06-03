@@ -1767,7 +1767,7 @@ if
 mWorkerPrivate
 -
 >
-IsWatchedByDevtools
+IsWatchedByDevTools
 (
 )
 )

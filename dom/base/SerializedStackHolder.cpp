@@ -435,7 +435,7 @@ GetCurrentThreadWorkerPrivate
 )
 -
 >
-IsWatchedByDevtools
+IsWatchedByDevTools
 (
 )
 )
