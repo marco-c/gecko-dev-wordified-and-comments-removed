@@ -46,13 +46,6 @@ MOZ_WIDGET_TOOLKIT
 "
 android
 "
-and
-CONFIG
-[
-'
-MOZ_NEW_WEBEXT_STORAGE
-'
-]
 :
 EXPORTS
 .

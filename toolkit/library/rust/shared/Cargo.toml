@@ -1113,9 +1113,6 @@ storage
 /
 webext_storage_bridge
 "
-optional
-=
-true
 }
 unic
 -
@@ -1711,13 +1708,6 @@ glean
 [
 "
 fog
-"
-]
-new_webext_storage
-=
-[
-"
-webext_storage_bridge
 "
 ]
 [
