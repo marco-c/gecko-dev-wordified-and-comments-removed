@@ -240,7 +240,7 @@ toggle
 "
 :
 "
-listen
+narrate
 "
 "
 .
@@ -358,19 +358,6 @@ narrate
 -
 toggle
 "
-;
-toggleButton
-.
-textContent
-=
-gStrings
-.
-GetStringFromName
-(
-"
-listen
-"
-)
 ;
 toggleButton
 .
@@ -981,7 +968,7 @@ querySelector
 .
 reader
 -
-controls
+toolbar
 "
 )
 ;
