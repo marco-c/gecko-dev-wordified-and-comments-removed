@@ -399,3 +399,17 @@ weakrefs
 true
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+iterator_helpers
+"
+true
+)
+;
