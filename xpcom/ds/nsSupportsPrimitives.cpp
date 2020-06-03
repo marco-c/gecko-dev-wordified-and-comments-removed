@@ -161,6 +161,10 @@ aResult
 ToNewCString
 (
 mData
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -290,6 +294,10 @@ aResult
 ToNewUnicode
 (
 mData
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -2344,6 +2352,10 @@ aResult
 ToNewCString
 (
 mData
+mozilla
+:
+:
+fallible
 )
 ;
 if

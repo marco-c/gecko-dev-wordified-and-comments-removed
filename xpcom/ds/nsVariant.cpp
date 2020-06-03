@@ -154,6 +154,10 @@ pChars
 ToNewCString
 (
 aString
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -3286,6 +3290,10 @@ ToNewCString
 (
 *
 pString
+mozilla
+:
+:
+fallible
 )
 ;
 if

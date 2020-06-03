@@ -2418,6 +2418,10 @@ res
 ToNewCString
 (
 tempStr
+mozilla
+:
+:
+fallible
 )
 ;
 NS_ENSURE_TRUE

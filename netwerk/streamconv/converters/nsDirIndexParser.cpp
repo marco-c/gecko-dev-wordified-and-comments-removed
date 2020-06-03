@@ -286,6 +286,10 @@ aComment
 ToNewCString
 (
 mComment
+mozilla
+:
+:
+fallible
 )
 ;
 if
@@ -342,6 +346,10 @@ aEncoding
 ToNewCString
 (
 mEncoding
+mozilla
+:
+:
+fallible
 )
 ;
 if

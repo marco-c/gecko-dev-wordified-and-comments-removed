@@ -3656,6 +3656,10 @@ convertedText
 ToNewUnicode
 (
 ucs2string
+mozilla
+:
+:
+fallible
 )
 ;
 if

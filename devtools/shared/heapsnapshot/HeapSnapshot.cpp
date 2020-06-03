@@ -8235,6 +8235,10 @@ path
 ToNewCString
 (
 filePath
+mozilla
+:
+:
+fallible
 )
 )
 ;
