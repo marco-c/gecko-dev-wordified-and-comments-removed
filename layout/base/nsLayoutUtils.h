@@ -2378,6 +2378,16 @@ aRounded
 )
 ;
 static
+bool
+ShouldSnapToGrid
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
+static
 nsRect
 GetRectRelativeToFrame
 (
