@@ -922,14 +922,6 @@ aSelection
 )
 ;
 }
-bool
-userSelection
-=
-aSelection
--
->
-mUserInitiated
-;
 nsTArray
 <
 StyledRange
@@ -947,7 +939,10 @@ mRanges
 if
 (
 !
-userSelection
+aSelection
+-
+>
+mUserInitiated
 |
 |
 aMultiRangeSelection
