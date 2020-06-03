@@ -50,6 +50,13 @@ utils
 .
 3
 "
+cstr
+=
+"
+0
+.
+1
+"
 lazy_static
 =
 "
