@@ -8019,8 +8019,12 @@ form
 void
 setValidity
 (
+optional
 ValidityStateFlags
 flags
+=
+{
+}
 optional
 DOMString
 message
