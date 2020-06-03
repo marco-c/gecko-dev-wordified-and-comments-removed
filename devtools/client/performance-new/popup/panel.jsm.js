@@ -1322,6 +1322,9 @@ click
 {
 captureProfile
 (
+"
+aboutprofiling
+"
 )
 ;
 view

@@ -3066,6 +3066,9 @@ ProfilerPopupBackground
 .
 captureProfile
 (
+"
+aboutprofiling
+"
 )
 ;
 return

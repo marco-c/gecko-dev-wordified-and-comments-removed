@@ -103,6 +103,13 @@ management
 js
 '
 '
+symbolication
+.
+jsm
+.
+js
+'
+'
 typescript
 -
 lazy
