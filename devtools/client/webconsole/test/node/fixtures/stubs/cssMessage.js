@@ -248,6 +248,11 @@ cssSelectors
 "
 p
 "
+"
+isPromiseRejection
+"
+:
+false
 }
 "
 type
@@ -423,6 +428,11 @@ cssSelectors
 "
 p
 "
+"
+isPromiseRejection
+"
+:
+false
 }
 "
 type
