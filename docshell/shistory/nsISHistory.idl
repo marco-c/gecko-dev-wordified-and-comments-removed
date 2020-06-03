@@ -1674,14 +1674,5 @@ bool
 aCloneChildren
 )
 ;
-[
-noscript
-notxpcom
-]
-boolean
-isEmptyOrHasEntriesForSingleTopLevelPage
-(
-)
-;
 }
 ;
