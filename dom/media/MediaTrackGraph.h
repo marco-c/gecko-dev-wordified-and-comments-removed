@@ -2497,13 +2497,9 @@ AbstractMainThread
 (
 )
 ;
-static
 void
-DestroyNonRealtimeInstance
+ForceShutDown
 (
-MediaTrackGraph
-*
-aGraph
 )
 ;
 virtual
