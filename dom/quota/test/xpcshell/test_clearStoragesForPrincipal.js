@@ -100,7 +100,7 @@ environment
 installPackage
 (
 "
-clearStorageForPrincipal_profile
+clearStoragesForPrincipal_profile
 "
 )
 ;
