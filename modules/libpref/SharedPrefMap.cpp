@@ -398,9 +398,6 @@ aFlags
 mIsLocked
 aFlags
 .
-mDefaultChanged
-aFlags
-.
 mIsSkippedByIteration
 }
 )
@@ -494,9 +491,6 @@ mIsSticky
 aFlags
 .
 mIsLocked
-aFlags
-.
-mDefaultChanged
 aFlags
 .
 mIsSkippedByIteration
@@ -616,9 +610,6 @@ mIsSticky
 aFlags
 .
 mIsLocked
-aFlags
-.
-mDefaultChanged
 aFlags
 .
 mIsSkippedByIteration
@@ -1088,10 +1079,6 @@ entry
 -
 >
 mIsLocked
-entry
--
->
-mDefaultChanged
 entry
 -
 >
