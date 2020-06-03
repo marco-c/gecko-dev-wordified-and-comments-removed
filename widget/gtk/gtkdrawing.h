@@ -799,7 +799,10 @@ moz_gtk_get_entry_min_height
 (
 gint
 *
-height
+min_content_height
+gint
+*
+border_padding_height
 )
 ;
 gint
