@@ -35,10 +35,10 @@ types
 Function
 ;
 use
+stencil
+:
+:
 scope
-:
-:
-data
 :
 :
 ScopeDataMap

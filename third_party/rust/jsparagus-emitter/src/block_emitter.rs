@@ -17,10 +17,10 @@ emitter
 EmitError
 ;
 use
+stencil
+:
+:
 scope
-:
-:
-data
 :
 :
 ScopeIndex

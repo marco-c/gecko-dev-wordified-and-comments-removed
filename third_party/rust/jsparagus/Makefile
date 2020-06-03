@@ -710,12 +710,6 @@ u
 (
 PYTHON
 )
-crates
-/
-emitter
-/
-scripts
-/
 update_opcodes
 .
 py

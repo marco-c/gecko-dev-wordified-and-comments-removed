@@ -2,7 +2,7 @@ use
 crate
 :
 :
-stencil
+script
 :
 :
 ScriptStencilIndex

@@ -2,7 +2,7 @@ use
 jsparagus
 :
 :
-emitter
+stencil
 :
 :
 opcode_info
