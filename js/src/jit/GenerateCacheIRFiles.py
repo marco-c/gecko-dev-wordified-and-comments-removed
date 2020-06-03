@@ -727,6 +727,19 @@ writeMetaTwoByteKindImm
 )
     
 '
+UnaryMathFunctionImm
+'
+:
+(
+'
+UnaryMathFunction
+'
+'
+writeUnaryMathFunctionImm
+'
+)
+    
+'
 Int32Imm
 '
 :
@@ -1752,6 +1765,25 @@ MetaTwoByteKind
 )
     
 '
+UnaryMathFunctionImm
+'
+:
+(
+'
+UnaryMathFunction
+'
+'
+'
+'
+reader
+.
+unaryMathFunction
+(
+)
+'
+)
+    
+'
 Int32Imm
 '
 :
@@ -2338,6 +2370,14 @@ spewMetaTwoByteKindImm
 '
     
 '
+UnaryMathFunctionImm
+'
+:
+'
+spewUnaryMathFunctionImm
+'
+    
+'
 Int32Imm
 '
 :
@@ -2745,6 +2785,12 @@ ScalarTypeImm
     
 '
 MetaTwoByteKindImm
+'
+:
+1
+    
+'
+UnaryMathFunctionImm
 '
 :
 1
