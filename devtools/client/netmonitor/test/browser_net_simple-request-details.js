@@ -1184,13 +1184,11 @@ objectBox
 )
 .
 innerHTML
-"
 {
 header
 .
 value
 }
-"
 The
 {
 header
@@ -1369,13 +1367,11 @@ objectBox
 )
 .
 innerHTML
-"
 {
 header
 .
 value
 }
-"
 The
 {
 header
