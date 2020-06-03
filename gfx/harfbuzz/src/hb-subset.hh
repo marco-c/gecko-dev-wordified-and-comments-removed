@@ -227,6 +227,10 @@ ds
 .
 )
 )
+hb_blob_t
+*
+source_blob
+;
 hb_subset_plan_t
 *
 plan
@@ -241,6 +245,9 @@ debug_depth
 ;
 hb_subset_context_t
 (
+hb_blob_t
+*
+source_blob_
 hb_subset_plan_t
 *
 plan_
@@ -249,6 +256,10 @@ hb_serialize_context_t
 serializer_
 )
 :
+source_blob
+(
+source_blob_
+)
 plan
 (
 plan_

@@ -1854,7 +1854,7 @@ char
 new_sfnt_data
 new_length
 HB_MEMORY_MODE_WRITABLE
-nullptr
+new_sfnt_data
 free
 )
 ;

@@ -16,7 +16,7 @@ HarfBuzz
 .
 6
 .
-4
+6
 ]
 [
 https
@@ -155,7 +155,6 @@ AC_PROG_CXX
 AX_CXX_COMPILE_STDCXX
 (
 11
-optional
 )
 AC_SYS_LARGEFILE
 PKG_PROG_PKG_CONFIG
@@ -480,8 +479,6 @@ sysconf
 getpagesize
 mmap
 isatty
-newlocale
-strtod_l
 roundf
 )
 AC_CHECK_HEADERS
@@ -492,9 +489,6 @@ h
 sys
 /
 mman
-.
-h
-xlocale
 .
 h
 stdbool

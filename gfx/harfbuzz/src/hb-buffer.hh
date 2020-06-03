@@ -1691,6 +1691,7 @@ cluster
 cluster
 ;
 }
+unsigned
 int
 _unsafe_to_break_find_min_cluster
 (

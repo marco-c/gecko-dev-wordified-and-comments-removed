@@ -1834,12 +1834,7 @@ unsigned
 int
 currclus
 =
-(
-unsigned
-int
-)
--
-1
+UINT_MAX
 ;
 const
 hb_glyph_info_t

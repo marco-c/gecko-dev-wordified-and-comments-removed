@@ -1099,8 +1099,8 @@ var_table
 >
 get_advance_var
 (
-font
 glyph
+font
 )
 )
 ;

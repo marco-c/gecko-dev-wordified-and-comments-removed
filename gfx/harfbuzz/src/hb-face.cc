@@ -1171,6 +1171,12 @@ cmap
 collect_unicodes
 (
 out
+face
+-
+>
+get_num_glyphs
+(
+)
 )
 ;
 }

@@ -513,6 +513,7 @@ true
 *
 Require
 semicolon
+after
 .
 *
 /
