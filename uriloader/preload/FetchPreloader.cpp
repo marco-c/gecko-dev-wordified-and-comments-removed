@@ -108,6 +108,13 @@ nsStringStream
 .
 h
 "
+#
+include
+"
+nsIDocShell
+.
+h
+"
 namespace
 mozilla
 {
