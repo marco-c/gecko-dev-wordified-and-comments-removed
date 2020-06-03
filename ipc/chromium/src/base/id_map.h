@@ -212,7 +212,7 @@ clear
 ;
 }
 T
-Lookup
+Get
 (
 int32_t
 id
