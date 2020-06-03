@@ -122,11 +122,6 @@ friend
 class
 xpcAccessibleMacInterface
 ;
-bool
-AncestorIsFlat
-(
-)
-;
 #
 if
 defined
