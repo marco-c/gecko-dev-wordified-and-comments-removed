@@ -130,9 +130,6 @@ profiler
 startProfiler
 (
 {
-entries
-:
-1e6
 threads
 :
 [

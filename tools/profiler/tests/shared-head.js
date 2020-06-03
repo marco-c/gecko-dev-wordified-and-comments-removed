@@ -28,7 +28,11 @@ defaultSettings
 {
 entries
 :
-1000000
+8
+*
+1024
+*
+1024
 interval
 :
 1
