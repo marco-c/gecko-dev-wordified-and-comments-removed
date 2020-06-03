@@ -94,9 +94,6 @@ Serialize
 ;
 use
 serde_json
-;
-use
-serde_json
 :
 :
 {
@@ -138,7 +135,7 @@ Eq
 ]
 pub
 struct
-RecordedEventData
+RecordedEvent
 {
 pub
 timestamp
@@ -179,9 +176,8 @@ String
 >
 }
 impl
-RecordedEventData
+RecordedEvent
 {
-pub
 fn
 serialize_relative
 (
@@ -199,7 +195,7 @@ json
 !
 (
 &
-RecordedEventData
+RecordedEvent
 {
 timestamp
 :
@@ -263,7 +259,7 @@ HashMap
 String
 Vec
 <
-RecordedEventData
+RecordedEvent
 >
 >
 >
@@ -564,7 +560,7 @@ from_str
 :
 :
 <
-RecordedEventData
+RecordedEvent
 >
 (
 &
@@ -669,7 +665,12 @@ submit_ping_by_name
 (
 &
 store_name
-None
+Some
+(
+"
+startup
+"
+)
 )
 {
 log
@@ -741,7 +742,7 @@ String
 let
 event
 =
-RecordedEventData
+RecordedEvent
 {
 timestamp
 category
@@ -910,7 +911,12 @@ glean
 submit_ping_by_name
 (
 store_name
-None
+Some
+(
+"
+max_capacity
+"
+)
 )
 {
 log
@@ -1516,7 +1522,7 @@ Option
 <
 Vec
 <
-RecordedEventData
+RecordedEvent
 >
 >
 {
@@ -1525,7 +1531,7 @@ value
 :
 Vec
 <
-RecordedEventData
+RecordedEvent
 >
 =
 self
@@ -1842,7 +1848,7 @@ stable_serialization
 let
 event_empty
 =
-RecordedEventData
+RecordedEvent
 {
 timestamp
 :
@@ -1906,7 +1912,7 @@ to_string
 let
 event_data
 =
-RecordedEventData
+RecordedEvent
 {
 timestamp
 :
@@ -2097,7 +2103,7 @@ value
 let
 event_empty
 =
-RecordedEventData
+RecordedEvent
 {
 timestamp
 :
@@ -2161,7 +2167,7 @@ to_string
 let
 event_data
 =
-RecordedEventData
+RecordedEvent
 {
 timestamp
 :

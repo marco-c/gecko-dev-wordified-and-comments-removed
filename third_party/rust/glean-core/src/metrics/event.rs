@@ -37,7 +37,7 @@ crate
 event_database
 :
 :
-RecordedEventData
+RecordedEvent
 ;
 use
 crate
@@ -438,7 +438,7 @@ Option
 <
 Vec
 <
-RecordedEventData
+RecordedEvent
 >
 >
 {

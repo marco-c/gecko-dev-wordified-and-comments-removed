@@ -44,9 +44,6 @@ PathBuf
 }
 ;
 use
-log
-;
-use
 serde_json
 :
 :
@@ -359,7 +356,7 @@ info
 !
 (
 "
-Files
+File
 was
 deleted
 {
@@ -380,7 +377,7 @@ process_file
 (
 &
 self
-uuid
+document_id
 :
 &
 str
@@ -400,7 +397,7 @@ self
 .
 get_file_path
 (
-uuid
+document_id
 )
 {
 Some
@@ -430,7 +427,7 @@ process
 {
 }
 "
-uuid
+document_id
 )
 ;
 return
@@ -595,7 +592,7 @@ PingRequest
 :
 new
 (
-uuid
+document_id
 &
 path
 parsed_body
@@ -630,7 +627,7 @@ as
 JSON
 .
 "
-uuid
+document_id
 )
 ;
 }
@@ -661,7 +658,7 @@ as
 expected
 .
 "
-uuid
+document_id
 )
 ;
 }
@@ -669,7 +666,7 @@ self
 .
 delete_file
 (
-uuid
+document_id
 )
 ;
 None
@@ -887,13 +884,9 @@ b
 {
 a
 .
-partial_cmp
+cmp
 (
 b
-)
-.
-unwrap
-(
 )
 }
 else
@@ -1003,7 +996,7 @@ get_file_path
 (
 &
 self
-uuid
+document_id
 :
 &
 str
@@ -1030,7 +1023,7 @@ dir
 .
 join
 (
-uuid
+document_id
 )
 ;
 if

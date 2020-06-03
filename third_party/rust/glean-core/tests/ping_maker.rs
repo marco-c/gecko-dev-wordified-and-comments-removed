@@ -11,9 +11,6 @@ common
 *
 ;
 use
-iso8601
-;
-use
 glean_core
 :
 :
