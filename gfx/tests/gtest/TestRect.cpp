@@ -15,6 +15,13 @@ h
 #
 include
 "
+gfxTypes
+.
+h
+"
+#
+include
+"
 nsRect
 .
 h
