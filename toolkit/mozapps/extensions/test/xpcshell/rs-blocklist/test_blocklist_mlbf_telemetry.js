@@ -381,6 +381,8 @@ loadBlocklistRawData
 extensionsMLBF
 :
 [
+{
+}
 ]
 }
 )
