@@ -223,7 +223,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 mozilla
@@ -387,7 +389,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 mozilla
@@ -549,7 +553,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 mozilla
@@ -713,7 +719,9 @@ projects
 :
 [
 '
-trunk
+mozilla
+-
+central
 '
 '
 mozilla
