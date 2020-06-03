@@ -33116,6 +33116,15 @@ __func__
 )
 ;
             
+promise__
+-
+>
+UseDirectTaskDispatch
+(
+__func__
+)
+;
+            
 {
 send
 }
