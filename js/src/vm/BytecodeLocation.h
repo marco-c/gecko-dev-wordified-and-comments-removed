@@ -211,7 +211,9 @@ return
 rawBytecode_
 ;
 }
-JS_PUBLIC_API
+#
+ifdef
+DEBUG
 bool
 isValid
 (
@@ -232,6 +234,9 @@ script
 )
 const
 ;
+#
+endif
+inline
 uint32_t
 bytecodeToOffset
 (
@@ -242,6 +247,7 @@ script
 )
 const
 ;
+inline
 uint32_t
 tableSwitchCaseOffset
 (
@@ -254,6 +260,7 @@ caseIndex
 )
 const
 ;
+inline
 uint32_t
 getJumpTargetOffset
 (
@@ -264,6 +271,7 @@ script
 )
 const
 ;
+inline
 uint32_t
 getTableSwitchDefaultOffset
 (
@@ -294,12 +302,14 @@ caseIndex
 )
 const
 ;
+inline
 uint32_t
 useCount
 (
 )
 const
 ;
+inline
 uint32_t
 defCount
 (
@@ -449,6 +459,7 @@ rawBytecode_
 )
 ;
 }
+inline
 Scope
 *
 innermostScope
