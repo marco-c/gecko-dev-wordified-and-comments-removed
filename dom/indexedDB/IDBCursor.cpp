@@ -131,7 +131,10 @@ aBackgroundActor
 :
 mBackgroundActor
 (
+WrapNotNull
+(
 aBackgroundActor
+)
 )
 mRequest
 (
