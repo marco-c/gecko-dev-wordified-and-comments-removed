@@ -81,6 +81,7 @@ args
 (
 10
 0
+False
 )
 )
 register_strategy
@@ -97,6 +98,7 @@ args
 (
 25
 0
+False
 )
 )
 class
@@ -159,6 +161,33 @@ Use
 to
 disable
 .
+        
+test_optimization
+(
+bool
+)
+:
+Boolean
+flag
+to
+indicate
+if
+the
+strategy
+is
+                              
+to
+be
+applied
+as
+part
+of
+the
+test
+optimization
+                              
+strategy
+.
     
 "
 "
@@ -170,6 +199,9 @@ __init__
 self
 push_interval
 time_interval
+test_optimization
+=
+True
 )
 :
         
@@ -184,6 +216,12 @@ self
 time_interval
 =
 time_interval
+        
+self
+.
+test_optimization
+=
+test_optimization
         
 self
 .
@@ -253,8 +291,17 @@ autoland
 '
 :
             
+if
+self
+.
+test_optimization
+:
+                
 return
 True
+            
+return
+False
         
 if
 pushid
