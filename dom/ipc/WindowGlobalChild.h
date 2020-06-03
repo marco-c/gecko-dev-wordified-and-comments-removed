@@ -506,6 +506,10 @@ const
 TabId
 &
 aTabId
+const
+LayersId
+&
+aLayersId
 MakeFrameRemoteResolver
 &
 &
