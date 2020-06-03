@@ -733,8 +733,13 @@ BufferedBookmarksEngine
 }
 ;
 result
-.
-ExtensionStorage
+[
+"
+Extension
+-
+Storage
+"
+]
 =
 {
 module
