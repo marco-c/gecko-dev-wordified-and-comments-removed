@@ -479,6 +479,12 @@ borderify
 "
 )
 )
+assertTrue
+(
+borderify
+.
+isBuiltIn
+)
 mainSession
 .
 reload
@@ -1118,6 +1124,13 @@ version
 .
 0
 "
+)
+assertEquals
+(
+extension
+.
+isBuiltIn
+false
 )
 assertEquals
 (

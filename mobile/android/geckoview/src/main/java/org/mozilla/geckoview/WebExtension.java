@@ -233,6 +233,7 @@ Nullable
 MetaData
 metaData
 ;
+public
 final
 boolean
 isBuiltIn
