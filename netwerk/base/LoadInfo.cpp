@@ -7259,11 +7259,13 @@ LoadInfo
 :
 SetUpgradeInsecureRequests
 (
+bool
+aValue
 )
 {
 mUpgradeInsecureRequests
 =
-true
+aValue
 ;
 }
 void

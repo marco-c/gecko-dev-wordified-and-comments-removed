@@ -354,6 +354,8 @@ SetIsPreflight
 void
 SetUpgradeInsecureRequests
 (
+bool
+aValue
 )
 ;
 void
