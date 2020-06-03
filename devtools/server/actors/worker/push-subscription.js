@@ -98,16 +98,6 @@ endpoint
 subscription
 .
 endpoint
-pushCount
-:
-subscription
-.
-pushCount
-lastPush
-:
-subscription
-.
-lastPush
 quota
 :
 subscription
