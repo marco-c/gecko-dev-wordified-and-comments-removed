@@ -1979,7 +1979,7 @@ font
 FontKey
 glyph_size
 :
-Au
+f32
 options
 :
 Option
@@ -2725,7 +2725,7 @@ FontKey
 pub
 glyph_size
 :
-Au
+f32
 pub
 options
 :

@@ -44,6 +44,7 @@ api
 FilterOp
 FilterPrimitive
 FontInstanceKey
+FontSize
 GlyphInstance
 GlyphOptions
 GradientStop
@@ -11461,11 +11462,14 @@ if
 font_instance
 .
 size
-.
-0
 <
 =
-0
+FontSize
+:
+:
+zero
+(
+)
 {
 return
 ;

@@ -1866,7 +1866,7 @@ text
 str
 size
 :
-Au
+f32
 origin
 :
 LayoutPoint
@@ -2149,10 +2149,6 @@ let
 space_advance
 =
 size
-.
-to_f32_px
-(
-)
 /
 3
 .
@@ -3008,7 +3004,7 @@ font_key
 FontKey
 size
 :
-Au
+f32
 flags
 :
 FontInstanceFlags
