@@ -2835,7 +2835,9 @@ if
 (
 aDocShell
 .
-sameTypeParent
+browsingContext
+.
+parent
 )
 {
 return
