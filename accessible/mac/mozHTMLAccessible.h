@@ -15,3 +15,15 @@ mozLinkAccessible
 :
 mozAccessible
 end
+interface
+MOXSummaryAccessible
+:
+mozAccessible
+-
+(
+NSNumber
+*
+)
+moxExpanded
+;
+end
