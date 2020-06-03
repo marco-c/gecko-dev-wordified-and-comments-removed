@@ -3955,7 +3955,7 @@ bool
 BaselineCacheIRCompiler
 :
 :
-emitLoadStringResult
+emitLoadConstantStringResult
 (
 uint32_t
 strOffset
