@@ -54,6 +54,15 @@ include
 "
 mozilla
 /
+Sprintf
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Types
 .
 h
