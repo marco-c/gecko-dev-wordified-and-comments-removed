@@ -616,9 +616,6 @@ mIsFileChannel
 bool
 mShouldCloseWindow
 ;
-bool
-mHandleInternally
-;
 uint32_t
 mReason
 ;
@@ -702,6 +699,8 @@ CreateTransfer
 nsresult
 CreateFailedTransfer
 (
+bool
+aIsPrivateBrowsing
 )
 ;
 void
