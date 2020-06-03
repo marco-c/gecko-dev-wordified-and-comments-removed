@@ -217,6 +217,9 @@ CachedFlexItemData
 struct
 SharedFlexData
 ;
+class
+FlexItemIterator
+;
 void
 Init
 (
