@@ -15946,13 +15946,6 @@ mCompositorController
 >
 ScheduleRenderOnCompositorThread
 (
-wr
-:
-:
-RenderRootSet
-(
-mRenderRoot
-)
 )
 ;
 }

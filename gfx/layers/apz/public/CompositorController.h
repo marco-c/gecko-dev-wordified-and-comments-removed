@@ -47,13 +47,6 @@ virtual
 void
 ScheduleRenderOnCompositorThread
 (
-const
-wr
-:
-:
-RenderRootSet
-&
-aRenderRoots
 )
 =
 0
