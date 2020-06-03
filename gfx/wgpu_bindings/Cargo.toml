@@ -101,7 +101,7 @@ features
 =
 [
 "
-serde
+trace
 "
 ]
 [
@@ -139,7 +139,7 @@ features
 =
 [
 "
-serde
+trace
 "
 ]
 [

@@ -5,6 +5,9 @@ members
 =
 [
 "
+player
+"
+"
 wgpu
 -
 core
