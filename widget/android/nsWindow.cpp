@@ -2135,6 +2135,8 @@ Param
 aTriggeringUri
 bool
 aHasUserGesture
+bool
+aIsTopLevel
 )
 const
 -
@@ -9205,6 +9207,8 @@ nsIPrincipal
 aTriggeringPrincipal
 bool
 aHasUserGesture
+bool
+aIsTopLevel
 )
 {
 if
@@ -9336,6 +9340,7 @@ get
 (
 )
 aHasUserGesture
+aIsTopLevel
 )
 ;
 return
@@ -12991,6 +12996,8 @@ Param
 aTriggeringUri
 bool
 aHasUserGesture
+bool
+aIsTopLevel
 )
 const
 -
@@ -13036,6 +13043,7 @@ aWindowType
 aFlags
 aTriggeringUri
 aHasUserGesture
+aIsTopLevel
 )
 ;
 }
