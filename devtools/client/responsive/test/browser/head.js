@@ -2858,6 +2858,7 @@ true
 )
 ;
 }
+async
 function
 load
 (
@@ -2874,9 +2875,11 @@ browserLoaded
 (
 browser
 false
-url
+null
+false
 )
 ;
+await
 BrowserTestUtils
 .
 loadURI
@@ -2885,7 +2888,7 @@ browser
 url
 )
 ;
-return
+await
 loaded
 ;
 }
