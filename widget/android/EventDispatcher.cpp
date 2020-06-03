@@ -72,6 +72,17 @@ ScriptSettings
 h
 "
 #
+include
+"
+mozilla
+/
+java
+/
+EventCallbackWrappers
+.
+h
+"
+#
 if
 defined
 (

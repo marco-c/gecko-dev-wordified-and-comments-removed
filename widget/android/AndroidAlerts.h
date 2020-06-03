@@ -49,7 +49,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+WebNotificationWrappers
 .
 h
 "

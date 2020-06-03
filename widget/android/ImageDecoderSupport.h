@@ -7,7 +7,11 @@ ImageDecoderSupport_h__
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+java
+/
+ImageDecoderNatives
 .
 h
 "

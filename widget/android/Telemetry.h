@@ -7,7 +7,11 @@ mozilla_widget_Telemetry_h__
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+java
+/
+TelemetryUtilsNatives
 .
 h
 "

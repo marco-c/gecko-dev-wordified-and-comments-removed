@@ -9,6 +9,17 @@ AndroidWebAuthnTokenManager
 .
 h
 "
+#
+include
+"
+mozilla
+/
+java
+/
+WebAuthnTokenManagerNatives
+.
+h
+"
 namespace
 mozilla
 {

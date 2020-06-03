@@ -42,7 +42,9 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+EventForwards
 .
 h
 "
@@ -51,7 +53,9 @@ include
 "
 mozilla
 /
-EventForwards
+java
+/
+GeckoBundleWrappers
 .
 h
 "
