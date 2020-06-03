@@ -2661,9 +2661,6 @@ endif
 namespace
 mozilla
 {
-namespace
-layout
-{
 AutoFrameListPtr
 :
 :
@@ -2690,7 +2687,6 @@ PresShell
 )
 )
 ;
-}
 }
 }
 }

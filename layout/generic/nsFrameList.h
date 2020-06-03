@@ -1725,11 +1725,10 @@ mCurrent
 namespace
 mozilla
 {
-namespace
-layout
-{
 class
+MOZ_RAII
 AutoFrameListPtr
+final
 {
 public
 :
@@ -1795,6 +1794,9 @@ mFrameList
 }
 ;
 namespace
+layout
+:
+:
 detail
 {
 union
@@ -1820,7 +1822,6 @@ const
 AlignedFrameListBytes
 gEmptyFrameListBytes
 ;
-}
 }
 }
 inline
