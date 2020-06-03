@@ -434,9 +434,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -1425,9 +1422,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -2165,9 +2159,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -2632,9 +2623,6 @@ projects
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 fetches

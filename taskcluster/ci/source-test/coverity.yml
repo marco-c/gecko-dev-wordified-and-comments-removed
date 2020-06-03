@@ -86,8 +86,8 @@ on
 -
 projects
 :
--
-try
+[
+]
 platform
 :
 linux64

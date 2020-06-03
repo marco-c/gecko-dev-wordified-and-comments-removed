@@ -274,9 +274,6 @@ projects
 :
 [
 '
-try
-'
-'
 release
 '
 ]

@@ -2070,8 +2070,8 @@ on
 -
 projects
 :
--
-try
+[
+]
 run
 :
 mach

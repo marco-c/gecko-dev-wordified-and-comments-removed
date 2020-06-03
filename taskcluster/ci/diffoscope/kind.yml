@@ -642,9 +642,6 @@ projects
 :
 [
 '
-try
-'
-'
 mozilla
 -
 central
@@ -713,9 +710,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 mozilla
 -

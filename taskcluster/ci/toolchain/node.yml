@@ -165,8 +165,6 @@ projects
 :
 -
 trunk
--
-try
 run
 :
 arguments
@@ -290,5 +288,3 @@ projects
 :
 -
 trunk
--
-try

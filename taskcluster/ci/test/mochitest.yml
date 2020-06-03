@@ -1872,9 +1872,6 @@ hw
 opt
 :
 [
-'
-try
-'
 ]
 android
 -
@@ -1897,10 +1894,6 @@ pgo
 ?
 :
 [
-'
-try
-'
-'
 trunk
 '
 '
@@ -1922,9 +1915,6 @@ aarch64
 *
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -2223,9 +2213,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -2920,9 +2907,6 @@ projects
 "
 trunk
 "
-"
-try
-"
 ]
 tier
 :
@@ -3069,9 +3053,6 @@ default
 [
 "
 trunk
-"
-"
-try
 "
 ]
 fission

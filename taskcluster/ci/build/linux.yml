@@ -190,9 +190,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -379,9 +376,6 @@ projects
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 fetches
@@ -2369,9 +2363,6 @@ projects
 :
 [
 '
-try
-'
-'
 release
 '
 ]
@@ -2565,10 +2556,6 @@ on
 projects
 :
 [
-'
-try
-'
-'
 release
 '
 ]
@@ -2809,9 +2796,6 @@ projects
 :
 [
 '
-try
-'
-'
 mozilla
 -
 central
@@ -3010,9 +2994,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -3464,9 +3445,6 @@ projects
 :
 [
 '
-try
-'
-'
 release
 '
 ]
@@ -3693,9 +3671,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -4634,9 +4609,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 worker
 -
@@ -4836,9 +4808,6 @@ projects
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 worker
@@ -5840,9 +5809,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -6070,9 +6036,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 fetches
 :
@@ -6255,9 +6218,6 @@ projects
 '
 trunk
 '
-'
-try
-'
 ]
 fetches
 :
@@ -6353,9 +6313,6 @@ projects
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 worker
@@ -7126,9 +7083,6 @@ projects
 :
 [
 '
-try
-'
-'
 release
 '
 ]
@@ -7367,9 +7321,6 @@ on
 projects
 :
 [
-'
-try
-'
 '
 release
 '
@@ -7784,9 +7735,6 @@ projects
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 fetches

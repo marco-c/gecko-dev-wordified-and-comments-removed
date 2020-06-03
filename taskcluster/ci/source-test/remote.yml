@@ -244,9 +244,6 @@ mozilla
 -
 central
 "
-"
-try
-"
 ]
 treeherder
 :
@@ -365,9 +362,6 @@ on
 projects
 :
 [
-"
-try
-"
 ]
 treeherder
 :

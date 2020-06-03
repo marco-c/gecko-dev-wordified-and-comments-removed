@@ -134,7 +134,7 @@ rust
 -
 1
 .
-39
+41
 macosx64
 -
 grcov
@@ -155,8 +155,6 @@ projects
 :
 -
 trunk
--
-try
 fetches
 :
 toolchain
@@ -168,7 +166,7 @@ rust
 -
 1
 .
-39
+41
 win64
 -
 grcov
@@ -256,4 +254,4 @@ rust
 -
 1
 .
-39
+41

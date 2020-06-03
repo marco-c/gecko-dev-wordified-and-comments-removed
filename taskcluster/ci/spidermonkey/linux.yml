@@ -245,9 +245,6 @@ integration
 '
 release
 '
-'
-try
-'
 ]
 sm
 -
@@ -347,9 +344,6 @@ integration
 '
 '
 release
-'
-'
-try
 '
 ]
 sm
@@ -524,9 +518,6 @@ projects
 :
 [
 '
-try
-'
-'
 central
 '
 ]
@@ -608,9 +599,6 @@ projects
 :
 [
 '
-try
-'
-'
 central
 '
 ]
@@ -671,10 +659,6 @@ on
 projects
 :
 [
-'
-try
-'
-'
 mozilla
 -
 central
