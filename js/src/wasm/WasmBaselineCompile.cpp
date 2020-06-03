@@ -8653,11 +8653,7 @@ currentStackHeight
 shuffleStackResultsTowardFP
 (
 src
--
-bytes
 dest
--
-bytes
 bytes
 temp
 )
