@@ -645,6 +645,15 @@ text_type
 Required
 (
 '
+test_manifest_loader
+'
+)
+:
+text_type
+    
+Required
+(
+'
 try_mode
 '
 )
@@ -1175,6 +1184,14 @@ tasks_for
 hg
 -
 push
+'
+            
+'
+test_manifest_loader
+'
+:
+'
+default
 '
             
 '
