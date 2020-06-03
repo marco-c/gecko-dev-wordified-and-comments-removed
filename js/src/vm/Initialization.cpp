@@ -405,6 +405,7 @@ NaN
 endif
 #
 else
+volatile
 double
 infinity
 =
@@ -418,6 +419,7 @@ double
 (
 )
 ;
+volatile
 double
 hardwareNaN
 =
