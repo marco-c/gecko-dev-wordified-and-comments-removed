@@ -7494,6 +7494,14 @@ spatial_node_index
 true
 )
 ;
+let
+has_filters
+=
+current_pic_index
+!
+=
+filtered_pic_index
+;
 current_pic_index
 =
 filtered_pic_index
@@ -7753,6 +7761,10 @@ ref
 parent_sc
 )
 if
+!
+has_filters
+&
+&
 parent_sc
 .
 is_3d
