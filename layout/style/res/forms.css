@@ -593,6 +593,9 @@ default
 }
 :
 :
+placeholder
+:
+:
 -
 moz
 -
@@ -603,9 +606,6 @@ control
 editing
 -
 root
-:
-:
-placeholder
 :
 :
 -
@@ -3259,6 +3259,9 @@ GrayText
 }
 :
 :
+placeholder
+:
+:
 -
 moz
 -
@@ -3269,9 +3272,6 @@ control
 editing
 -
 root
-:
-:
-placeholder
 *
 |
 *
