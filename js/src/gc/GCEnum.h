@@ -474,6 +474,11 @@ RegExpSharedBytecode
 \
 _
 (
+RegExpSharedNamedCaptureData
+)
+\
+_
+(
 TypedArrayElements
 )
 \
