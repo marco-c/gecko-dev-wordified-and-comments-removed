@@ -8595,6 +8595,8 @@ writer
 loadTypedArrayLengthResult
 (
 objId
+&
+fun
 )
 ;
 writer
