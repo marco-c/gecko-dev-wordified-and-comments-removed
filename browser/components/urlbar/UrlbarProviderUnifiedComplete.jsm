@@ -779,6 +779,9 @@ HIGHLIGHT
 .
 SUGGESTED
 ]
+tail
+:
+undefined
 keyword
 :
 [
