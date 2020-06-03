@@ -190,7 +190,7 @@ aDocument
 ;
 static
 nsCString
-GetIsolationKey
+GetTopLevelBaseDomain
 (
 dom
 :
@@ -239,7 +239,7 @@ void
 mControlledDocument
 ;
 nsCString
-mIsolationKey
+mTopLevelBaseDomain
 ;
 mutable
 Maybe
