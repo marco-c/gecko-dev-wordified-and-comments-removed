@@ -1942,7 +1942,7 @@ this
 .
 input
 .
-maybeClearAutofillPlaceholder
+onFirstResult
 (
 firstResult
 )
