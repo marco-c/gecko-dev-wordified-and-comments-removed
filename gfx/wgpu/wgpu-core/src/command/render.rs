@@ -5358,7 +5358,6 @@ for
 index
 (
 entry
-&
 bgl_id
 )
 )
@@ -5391,6 +5390,8 @@ entry
 expect_layout
 (
 bgl_id
+.
+value
 )
 {
 LayoutChange

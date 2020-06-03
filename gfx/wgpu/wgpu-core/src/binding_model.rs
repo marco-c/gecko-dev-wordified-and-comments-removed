@@ -325,6 +325,13 @@ pub
 (
 crate
 )
+life_guard
+:
+LifeGuard
+pub
+(
+crate
+)
 entries
 :
 FastHashMap
@@ -431,7 +438,10 @@ bind_group_layout_ids
 ArrayVec
 <
 [
+Stored
+<
 BindGroupLayoutId
+>
 ;
 wgt
 :
