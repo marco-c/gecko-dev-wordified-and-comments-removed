@@ -116,12 +116,6 @@ opt
 -
 win32
 -
-nightly
-/
-opt
--
-win32
--
 devedition
 /
 opt
@@ -133,12 +127,6 @@ opt
 win64
 -
 shippable
-/
-opt
--
-win64
--
-nightly
 /
 opt
 -

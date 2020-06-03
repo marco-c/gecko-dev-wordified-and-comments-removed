@@ -282,13 +282,6 @@ unlisted
 always
 macosx64
 -
-nightly
-.
-*
-:
-unlisted
-macosx64
--
 shippable
 .
 *
