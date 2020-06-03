@@ -57,6 +57,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (

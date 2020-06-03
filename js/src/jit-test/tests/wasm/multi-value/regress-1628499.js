@@ -15,11 +15,13 @@ anyref
 ref
 .
 null
+extern
 )
 (
 ref
 .
 null
+extern
 )
 )
 (

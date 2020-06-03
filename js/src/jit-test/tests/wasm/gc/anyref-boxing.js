@@ -57,7 +57,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 v
@@ -92,7 +92,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :
@@ -135,7 +135,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 }
 v
@@ -224,7 +224,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :
@@ -330,7 +330,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -378,7 +378,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -491,7 +491,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :

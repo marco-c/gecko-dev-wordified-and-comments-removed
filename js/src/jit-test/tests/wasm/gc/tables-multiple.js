@@ -483,7 +483,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -519,7 +519,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -928,7 +928,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -946,7 +946,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -1014,6 +1014,7 @@ t1
 ref
 .
 null
+extern
 )
 (
 i32
@@ -1131,7 +1132,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -1149,7 +1150,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -1955,7 +1956,7 @@ Table
 element
 :
 "
-anyref
+externref
 "
 initial
 :
@@ -2049,6 +2050,7 @@ t0
 ref
 .
 null
+extern
 )
 (
 i32
@@ -2079,6 +2081,7 @@ t1
 ref
 .
 null
+extern
 )
 (
 i32
@@ -3334,6 +3337,7 @@ grow
 ref
 .
 null
+extern
 )
 (
 i32

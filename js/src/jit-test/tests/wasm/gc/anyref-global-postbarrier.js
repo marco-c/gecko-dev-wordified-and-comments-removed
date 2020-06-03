@@ -40,6 +40,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (
@@ -57,6 +58,7 @@ get
 ref
 .
 null
+extern
 global
 .
 set
@@ -108,6 +110,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (
@@ -177,6 +180,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (

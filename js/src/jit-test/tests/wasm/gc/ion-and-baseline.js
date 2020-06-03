@@ -128,6 +128,7 @@ const
 ref
 .
 null
+extern
 )
 )
 (
@@ -148,6 +149,7 @@ htype
 ref
 .
 null
+extern
 )
 (
 i32

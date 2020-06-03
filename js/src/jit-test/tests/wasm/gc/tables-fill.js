@@ -1065,10 +1065,10 @@ i
 testTableFill
 (
 '
-anyref
+externref
 '
 '
-anyref
+externref
 '
 objs
 )
@@ -1142,17 +1142,6 @@ funcref
 funcs
 )
 ;
-testTableFill
-(
-'
-anyref
-'
-'
-funcref
-'
-funcs
-)
-;
 assertErrorMessage
 (
 (
@@ -1291,6 +1280,7 @@ t
 ref
 .
 null
+extern
 )
 (
 i32
@@ -1352,6 +1342,7 @@ const
 ref
 .
 null
+extern
 )
 (
 f64
@@ -1443,7 +1434,7 @@ type
 f32
 but
 expected
-anyref
+externref
 /
 )
 ;
@@ -1485,6 +1476,7 @@ const
 ref
 .
 null
+extern
 )
 (
 i32
@@ -1553,6 +1545,7 @@ const
 ref
 .
 null
+extern
 )
 (
 i32
@@ -1631,7 +1624,7 @@ CompileError
 expression
 has
 type
-anyref
+externref
 but
 expected
 funcref

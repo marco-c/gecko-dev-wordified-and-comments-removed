@@ -145,6 +145,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )
@@ -184,6 +186,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -582,6 +585,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )
@@ -638,6 +643,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )
@@ -678,6 +685,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -708,6 +716,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -847,6 +856,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )
@@ -948,6 +959,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -1093,6 +1105,8 @@ box
 ref
 .
 null
+opt
+box
 )
 )
 )
@@ -1200,6 +1214,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -1273,6 +1288,8 @@ fn
 ref
 .
 null
+opt
+box
 )
 (
 local
@@ -1431,6 +1448,7 @@ fn
 ref
 .
 null
+extern
 )
 (
 local
@@ -1574,6 +1592,8 @@ fn
 ref
 .
 null
+opt
+box
 )
 (
 local
@@ -1738,6 +1758,7 @@ fn
 ref
 .
 null
+extern
 )
 (
 local
@@ -1919,6 +1940,8 @@ fn
 ref
 .
 null
+opt
+box
 )
 (
 local

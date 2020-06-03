@@ -594,11 +594,12 @@ wasmReftypesEnabled
 '
 (
 global
-anyref
+externref
 (
 ref
 .
 null
+extern
 )
 )
 '
@@ -766,12 +767,13 @@ wasmReftypesEnabled
 global
 (
 mut
-anyref
+externref
 )
 (
 ref
 .
 null
+extern
 )
 )
 '
@@ -853,6 +855,7 @@ wasmReftypesEnabled
 ref
 .
 null
+extern
 )
 (
 global

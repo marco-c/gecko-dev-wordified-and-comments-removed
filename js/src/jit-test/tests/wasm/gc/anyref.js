@@ -49,7 +49,7 @@ mismatchError
 i32
 '
 '
-anyref
+externref
 '
 )
 )
@@ -77,6 +77,7 @@ const
 ref
 .
 null
+extern
 i32
 .
 const
@@ -115,6 +116,7 @@ i32
 ref
 .
 null
+extern
 if
 i32
 .
@@ -128,7 +130,7 @@ CompileError
 mismatchError
 (
 '
-nullref
+externref
 '
 '
 i32
@@ -151,6 +153,7 @@ drop
 ref
 .
 null
+extern
 )
 )
 )
@@ -196,6 +199,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -238,6 +242,7 @@ anyref
 ref
 .
 is_null
+extern
 (
 local
 .
@@ -295,6 +300,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -310,6 +316,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 )
@@ -376,9 +383,11 @@ i32
 ref
 .
 null
+extern
 ref
 .
 is_null
+extern
 )
 (
 func
@@ -418,6 +427,7 @@ i32
 ref
 .
 null
+extern
 i32
 .
 const
@@ -428,6 +438,7 @@ drop
 ref
 .
 is_null
+extern
 )
 (
 func
@@ -448,6 +459,7 @@ anyref
 ref
 .
 null
+extern
 local
 .
 set
@@ -466,6 +478,7 @@ get
 ref
 .
 is_null
+extern
 )
 )
 )
@@ -530,6 +543,7 @@ ref
 ref
 .
 is_null
+extern
 )
 (
 func
@@ -560,6 +574,7 @@ ref
 ref
 .
 null
+extern
 local
 .
 get
@@ -2254,7 +2269,7 @@ import
 glob
 "
 "
-anyref
+externref
 "
 )
 anyref
@@ -2264,7 +2279,7 @@ anyref
 glob
 :
 {
-anyref
+externref
 :
 new
 WebAssembly
@@ -2373,7 +2388,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :
@@ -2392,7 +2407,7 @@ Global
 value
 :
 "
-anyref
+externref
 "
 mutable
 :
@@ -2483,6 +2498,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (
@@ -2507,6 +2523,7 @@ anyref
 ref
 .
 null
+extern
 )
 )
 (
@@ -2921,6 +2938,7 @@ return
 ref
 .
 null
+extern
 )
 (
 drop
@@ -2946,6 +2964,7 @@ return
 ref
 .
 is_null
+extern
 (
 get_local
 0

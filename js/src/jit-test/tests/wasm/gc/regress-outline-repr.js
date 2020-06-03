@@ -276,6 +276,7 @@ const
 ref
 .
 null
+extern
 )
 )
 (

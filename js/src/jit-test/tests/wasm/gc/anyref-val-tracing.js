@@ -22,7 +22,7 @@ import
 glob
 "
 "
-anyref
+externref
 "
 )
 anyref
@@ -49,7 +49,7 @@ anyref
 glob
 :
 {
-anyref
+externref
 :
 {
 sentinel
