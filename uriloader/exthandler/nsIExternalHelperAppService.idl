@@ -211,6 +211,9 @@ promptForSaveDestination
 void
 launchWithApplication
 (
+in
+boolean
+aHandleInternally
 )
 ;
 void

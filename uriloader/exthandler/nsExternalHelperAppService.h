@@ -616,6 +616,9 @@ mIsFileChannel
 bool
 mShouldCloseWindow
 ;
+bool
+mHandleInternally
+;
 uint32_t
 mReason
 ;

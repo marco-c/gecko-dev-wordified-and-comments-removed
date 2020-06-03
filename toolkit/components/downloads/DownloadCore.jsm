@@ -3047,6 +3047,9 @@ launchWhenSucceeded
 "
 contentType
 "
+"
+handleInternally
+"
 ]
 ;
 Download
