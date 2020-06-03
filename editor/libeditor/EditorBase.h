@@ -5716,6 +5716,7 @@ nsIContent
 *
 FindNextLeafNode
 (
+const
 nsINode
 *
 aCurrentNode
@@ -5730,6 +5731,7 @@ nsIContent
 *
 FindNode
 (
+const
 nsINode
 *
 aCurrentNode
