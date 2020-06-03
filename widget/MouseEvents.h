@@ -627,7 +627,7 @@ eSynthesized
 }
 ;
 typedef
-bool
+uint8_t
 ContextMenuTriggerType
 ;
 enum
@@ -637,6 +637,7 @@ ContextMenuTriggerType
 {
 eNormal
 eContextMenuKey
+eControlClick
 }
 ;
 typedef
@@ -841,6 +842,7 @@ mMessage
 eContextMenu
 |
 |
+(
 mButton
 =
 =
@@ -861,6 +863,20 @@ MouseButton
 :
 :
 eLeft
+)
+&
+&
+(
+mContextMenuTrigger
+!
+=
+eControlClick
+|
+|
+IsControl
+(
+)
+)
 )
 "
 Wrong
