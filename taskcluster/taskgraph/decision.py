@@ -197,6 +197,24 @@ try_tasks
 }
     
 '
+kaios
+-
+try
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+try_tasks
+'
+    
+}
+    
+'
 ash
 '
 :
@@ -464,6 +482,22 @@ target_tasks_method
 :
 '
 pine_tasks
+'
+    
+}
+    
+'
+kaios
+'
+:
+{
+        
+'
+target_tasks_method
+'
+:
+'
+kaios_tasks
 '
     
 }
