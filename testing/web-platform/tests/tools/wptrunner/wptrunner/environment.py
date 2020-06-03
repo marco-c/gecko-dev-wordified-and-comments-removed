@@ -257,11 +257,16 @@ __init__
 self
 test_paths
 testharness_timeout_multipler
+                 
 pause_after_test
 debug_info
 options
 ssl_config
 env_extras
+                 
+enable_quic
+=
+False
 )
 :
         
@@ -374,6 +379,12 @@ self
 ssl_config
 =
 ssl_config
+        
+self
+.
+enable_quic
+=
+enable_quic
     
 def
 __enter__
@@ -753,6 +764,25 @@ h2
 ]
         
 }
+        
+if
+self
+.
+enable_quic
+:
+            
+config
+.
+ports
+[
+"
+quic
+"
+]
+=
+[
+10000
+]
         
 if
 os

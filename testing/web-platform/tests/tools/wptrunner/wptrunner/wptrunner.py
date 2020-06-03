@@ -507,6 +507,15 @@ include_https
 =
 ssl_enabled
                                         
+include_quic
+=
+kwargs
+[
+"
+enable_quic
+"
+]
+                                        
 skip_timeout
 =
 kwargs
@@ -1526,6 +1535,13 @@ env_options
 ssl_config
                                  
 env_extras
+                                 
+kwargs
+[
+"
+enable_quic
+"
+]
 )
 as
 test_environment
