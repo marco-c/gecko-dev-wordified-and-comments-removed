@@ -3430,6 +3430,12 @@ pgo
 '
 in
 platform
+or
+'
+shippable
+'
+in
+platform
 :
                     
 return
@@ -3462,6 +3468,12 @@ True
 if
 '
 pgo
+'
+in
+platform
+or
+'
+shippable
 '
 in
 platform
@@ -3560,11 +3572,19 @@ browsertime
 in
 try_name
 and
+(
 '
 pgo
 '
 in
 platform
+or
+'
+shippable
+'
+in
+platform
+)
 :
             
 if
@@ -3662,6 +3682,13 @@ cpu_n_memory_task
 if
 '
 pgo
+'
+not
+in
+platform
+and
+'
+shippable
 '
 not
 in
@@ -5980,11 +6007,19 @@ cold
 in
 try_name
 and
+(
 '
 pgo
 '
 in
 platform
+or
+'
+shippable
+'
+in
+platform
+)
 :
             
 if
