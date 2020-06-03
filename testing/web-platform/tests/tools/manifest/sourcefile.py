@@ -12,6 +12,7 @@ from
 six
 import
 binary_type
+ensure_text
 iteritems
 text_type
 from
@@ -1187,7 +1188,7 @@ __init__
 (
 self
 tests_root
-rel_path
+rel_path_str
 url_base
 hash
 =
@@ -1226,7 +1227,7 @@ tree
         
 :
 param
-rel_path
+rel_path_str
 :
 File
 path
@@ -1268,6 +1269,13 @@ None
 "
 "
         
+rel_path
+=
+ensure_text
+(
+rel_path_str
+)
+        
 assert
 not
 os
@@ -1291,34 +1299,6 @@ nt
 "
 :
             
-if
-isinstance
-(
-rel_path
-binary_type
-)
-:
-                
-rel_path
-=
-rel_path
-.
-replace
-(
-b
-"
-/
-"
-b
-"
-\
-\
-"
-)
-            
-else
-:
-                
 rel_path
 =
 rel_path
@@ -1416,7 +1396,10 @@ self
 .
 tests_root
 =
+ensure_text
+(
 tests_root
+)
         
 self
 .

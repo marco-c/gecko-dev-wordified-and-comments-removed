@@ -24,6 +24,8 @@ PY3
     
 binary_type
     
+ensure_text
+    
 iteritems
     
 itervalues
@@ -901,7 +903,7 @@ to_update
 ]
         
 for
-source_file
+source_file_or_path
 update
 in
 tree
@@ -915,11 +917,18 @@ update
 assert
 isinstance
 (
-source_file
+source_file_or_path
 (
 binary_type
 text_type
 )
+)
+                
+path
+=
+ensure_text
+(
+source_file_or_path
 )
                 
 deleted
@@ -928,7 +937,7 @@ remove
 (
 tuple
 (
-source_file
+path
 .
 split
 (
@@ -948,9 +957,16 @@ assert
 not
 isinstance
 (
-source_file
-bytes
+source_file_or_path
+(
+binary_type
+text_type
 )
+)
+                
+source_file
+=
+source_file_or_path
                 
 rel_path_parts
 =
