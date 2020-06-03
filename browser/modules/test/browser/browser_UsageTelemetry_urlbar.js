@@ -258,9 +258,14 @@ button
 ;
 }
 return
+i
 ;
 }
 }
+return
+-
+1
+;
 }
 async
 function
@@ -3185,6 +3190,9 @@ history
 "
 )
 ;
+let
+foobarIndex
+=
 await
 clickURLBarSuggestion
 (
@@ -3323,7 +3331,7 @@ TelemetryTestUtils
 assertHistogram
 (
 resultIndexHist
-2
+foobarIndex
 1
 )
 ;
@@ -3346,7 +3354,7 @@ resultIndexByTypeHist
 "
 formhistory
 "
-2
+foobarIndex
 1
 )
 ;
