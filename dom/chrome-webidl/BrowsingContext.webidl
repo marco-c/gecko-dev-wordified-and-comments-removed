@@ -657,6 +657,12 @@ WindowGlobalParent
 ?
 currentWindowGlobal
 ;
+readonly
+attribute
+WindowProxy
+?
+topChromeWindow
+;
 /
 /
 XXX
