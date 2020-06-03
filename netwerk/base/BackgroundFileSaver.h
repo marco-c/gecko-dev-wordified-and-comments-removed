@@ -73,7 +73,7 @@ class
 nsIAsyncInputStream
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -126,9 +126,9 @@ mControlEventTarget
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mWorkerThread
+mBackgroundET
 ;
 nsCOMPtr
 <
