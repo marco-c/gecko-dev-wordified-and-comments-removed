@@ -1749,6 +1749,13 @@ build
 update
 -
 repo
+-
+-
+generate
+-
+static
+-
+deltas
 repo
 tar
 cvfJ
