@@ -283,6 +283,8 @@ this
 ;
 this
 .
+session
+.
 contextObserver
 .
 on
@@ -298,6 +300,8 @@ _onContextCreated
 )
 ;
 this
+.
+session
 .
 contextObserver
 .
@@ -326,6 +330,8 @@ disable
 ;
 this
 .
+session
+.
 contextObserver
 .
 off
@@ -341,6 +347,8 @@ _onContextCreated
 )
 ;
 this
+.
+session
 .
 contextObserver
 .

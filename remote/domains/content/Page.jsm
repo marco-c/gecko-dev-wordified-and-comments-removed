@@ -194,6 +194,8 @@ this
 ;
 this
 .
+session
+.
 contextObserver
 .
 on
@@ -225,6 +227,8 @@ false
 )
 ;
 this
+.
+session
 .
 contextObserver
 .
@@ -273,6 +277,8 @@ enabled
 true
 ;
 this
+.
+session
 .
 contextObserver
 .
@@ -413,6 +419,8 @@ enabled
 )
 {
 this
+.
+session
 .
 contextObserver
 .
