@@ -1245,7 +1245,7 @@ void
 DOMEventTargetHelper
 :
 :
-BindToOwnerInternal
+BindToOwner
 (
 nsIGlobalObject
 *
