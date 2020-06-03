@@ -599,7 +599,7 @@ IsEmpty
 mPrintSettingsSvc
 -
 >
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printerName
 )

@@ -23321,7 +23321,7 @@ printerName
 )
 ;
 bool
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 =
 printerName
 .
@@ -23340,7 +23340,7 @@ XRE_IsParentProcess
 )
 )
 {
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 =
 false
 ;
@@ -23349,13 +23349,13 @@ false
 endif
 if
 (
-shouldGetDefaultPrinterName
+shouldGetLastUsedPrinterName
 )
 {
 printSettingsService
 -
 >
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printerName
 )

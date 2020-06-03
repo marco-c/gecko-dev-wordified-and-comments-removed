@@ -1214,7 +1214,7 @@ printerName
 =
 gPrintService
 .
-defaultPrinterName
+lastUsedPrinterName
 ;
 }
 gPrintService

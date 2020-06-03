@@ -2120,7 +2120,7 @@ rv
 printSettingsService
 -
 >
-GetDefaultPrinterName
+GetLastUsedPrinterName
 (
 printerName
 )
