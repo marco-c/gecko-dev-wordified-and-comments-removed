@@ -585,14 +585,16 @@ click
 )
 ;
 let
-submittedResult
+{
+data
+}
 =
 await
 processedPromise
 ;
 is
 (
-submittedResult
+data
 .
 usernameField
 .
@@ -616,7 +618,7 @@ username
 ;
 is
 (
-submittedResult
+data
 .
 newPasswordField
 .

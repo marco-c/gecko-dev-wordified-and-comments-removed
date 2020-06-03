@@ -1277,7 +1277,10 @@ formLike
 )
 ;
 let
-submittedResult
+{
+origin
+data
+}
 =
 await
 submitProcessed
@@ -1293,8 +1296,6 @@ PasswordManager
 onFormSubmit
 is
 (
-submittedResult
-.
 origin
 tc
 .
@@ -1307,7 +1308,7 @@ origin
 ;
 is
 (
-submittedResult
+data
 .
 formActionOrigin
 tc
@@ -1332,7 +1333,7 @@ null
 {
 is
 (
-submittedResult
+data
 .
 usernameField
 tc
@@ -1349,7 +1350,7 @@ else
 {
 is
 (
-submittedResult
+data
 .
 usernameField
 .
@@ -1366,7 +1367,7 @@ usernameField
 }
 is
 (
-submittedResult
+data
 .
 newPasswordField
 .
@@ -1393,7 +1394,7 @@ null
 {
 is
 (
-submittedResult
+data
 .
 oldPasswordField
 tc
@@ -1410,7 +1411,7 @@ else
 {
 is
 (
-submittedResult
+data
 .
 oldPasswordField
 .

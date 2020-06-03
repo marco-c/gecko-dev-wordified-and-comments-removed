@@ -112,9 +112,9 @@ http
 :
 /
 /
-another
+example
 .
-domain
+com
 "
 username
 :
