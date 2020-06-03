@@ -33,6 +33,9 @@ ContentParent
 ;
 }
 class
+PreallocatedProcessManagerImpl
+;
+class
 PreallocatedProcessManager
 final
 {
@@ -48,6 +51,13 @@ ContentParent
 ;
 public
 :
+static
+PreallocatedProcessManagerImpl
+*
+GetPPMImpl
+(
+)
+;
 static
 void
 AddBlocker
