@@ -260,9 +260,6 @@ mRecycleAllocator
 &
 &
 mCompositable
-&
-&
-mCompositable
 )
 {
 if
