@@ -551,9 +551,6 @@ marktplaats
 mercadolibre
 "
 "
-twitter
-"
-"
 wikipedia
 "
 "
