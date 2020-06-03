@@ -134,8 +134,6 @@ NotifyListenersContentViewerEvicted
 (
 )
 ;
-protected
-:
 explicit
 SHEntrySharedParentState
 (
@@ -144,6 +142,8 @@ nsISHistory
 aSHistory
 )
 ;
+protected
+:
 explicit
 SHEntrySharedParentState
 (
