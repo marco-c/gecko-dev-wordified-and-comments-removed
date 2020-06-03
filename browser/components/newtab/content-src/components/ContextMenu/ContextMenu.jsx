@@ -527,6 +527,7 @@ this
 }
 onClick
 (
+event
 )
 {
 this
@@ -545,6 +546,7 @@ option
 .
 onClick
 (
+event
 )
 ;
 }
