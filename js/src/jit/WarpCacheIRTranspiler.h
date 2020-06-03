@@ -104,7 +104,6 @@ const
 WarpCacheIR
 *
 snapshot
-const
 CallInfo
 &
 callInfo
