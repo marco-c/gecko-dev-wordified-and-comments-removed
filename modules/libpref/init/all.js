@@ -17328,16 +17328,6 @@ pref
 "
 security
 .
-cancel_non_local_systemprincipal
-"
-true
-)
-;
-pref
-(
-"
-security
-.
 sri
 .
 enable
