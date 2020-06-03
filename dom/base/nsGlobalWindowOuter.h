@@ -4529,6 +4529,11 @@ nsIURI
 aURI
 )
 ;
+bool
+IsOnlyTopLevelDocumentInSHistory
+(
+)
+;
 public
 :
 virtual
