@@ -3877,17 +3877,6 @@ referenceFrame
 )
 ;
 }
-bool
-snapToGrid
-=
-nsLayoutUtils
-:
-:
-ShouldSnapToGrid
-(
-aFrame
-)
-;
 Maybe
 <
 MotionPathData
@@ -3980,7 +3969,6 @@ devPixelsToAppUnits
 scaleX
 scaleY
 hasPerspectiveParent
-snapToGrid
 motionPathData
 )
 )
