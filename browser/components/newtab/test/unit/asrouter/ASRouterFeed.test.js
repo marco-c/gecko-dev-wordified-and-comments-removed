@@ -239,10 +239,6 @@ FakeToolbarPanelHub
 MomentsPageHub
 :
 FakeMomentsPageHub
-SpecialMessageActions
-:
-{
-}
 }
 )
 ;

@@ -64,6 +64,9 @@ ac
 actionTypes
 as
 at
+ASRouterActions
+as
+ra
 }
 from
 "
@@ -2287,9 +2290,9 @@ locally
 because
 its
 case
-"
+ra
+.
 ENABLE_FIREFOX_MONITOR
-"
 :
 const
 url
@@ -2313,9 +2316,9 @@ executeAction
 {
 type
 :
-"
+ra
+.
 OPEN_URL
-"
 data
 :
 {
