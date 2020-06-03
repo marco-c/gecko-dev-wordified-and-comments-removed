@@ -435,14 +435,6 @@ wr
 Transaction
 *
 aTransaction
-mozilla
-:
-:
-wr
-:
-:
-DocumentId
-aRenderRootId
 const
 mozilla
 :

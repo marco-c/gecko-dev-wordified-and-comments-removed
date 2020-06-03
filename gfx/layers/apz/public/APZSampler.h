@@ -176,13 +176,6 @@ const
 wr
 :
 :
-DocumentId
-&
-aRenderRootId
-const
-wr
-:
-:
 WrPipelineIdEpochs
 *
 aEpochsBeingRendered
@@ -206,11 +199,6 @@ wr
 TransactionWrapper
 &
 aTxn
-wr
-:
-:
-RenderRoot
-aRenderRoot
 const
 wr
 :

@@ -4497,9 +4497,6 @@ transaction
 &
 mut
 Transaction
-document_id
-:
-WrDocumentId
 epochs_being_rendered
 :
 &
@@ -4886,7 +4883,7 @@ sample
 (
 &
 self
-document_id
+_document_id
 :
 DocumentId
 epochs_being_rendered
@@ -4926,7 +4923,6 @@ window_id
 &
 mut
 transaction
-document_id
 &
 epochs_being_rendered
 .
