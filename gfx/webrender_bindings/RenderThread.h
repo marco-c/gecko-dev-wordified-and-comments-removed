@@ -890,11 +890,6 @@ IsHandlingWebRenderError
 )
 ;
 void
-NotifyAllAndroidSurfaceTexturesDetatched
-(
-)
-;
-void
 HandlePrepareForUse
 (
 )
