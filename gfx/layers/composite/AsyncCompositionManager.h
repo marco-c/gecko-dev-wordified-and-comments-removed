@@ -596,6 +596,16 @@ Layer
 aLayer
 )
 ;
+bool
+SampleAnimations
+(
+Layer
+*
+aLayer
+TimeStamp
+aCurrentFrameTime
+)
+;
 TargetConfig
 mTargetConfig
 ;
