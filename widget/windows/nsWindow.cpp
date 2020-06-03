@@ -1247,6 +1247,14 @@ sHaveInitializedPrefs
 =
 false
 ;
+bool
+nsWindow
+:
+:
+sIsRestoringSession
+=
+false
+;
 TriStateBool
 nsWindow
 :
@@ -6628,6 +6636,12 @@ mWnd
 SW_SHOWNOACTIVATE
 )
 ;
+if
+(
+!
+sIsRestoringSession
+)
+{
 Unused
 <
 <
@@ -6636,6 +6650,7 @@ GetAttention
 2
 )
 ;
+}
 }
 break
 ;

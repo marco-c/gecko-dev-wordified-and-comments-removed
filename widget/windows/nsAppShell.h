@@ -131,12 +131,6 @@ Exit
 )
 override
 ;
-#
-if
-defined
-(
-ACCESSIBILITY
-)
 NS_IMETHOD
 Observe
 (
@@ -154,8 +148,6 @@ aData
 )
 override
 ;
-#
-endif
 virtual
 void
 ScheduleNativeEventCallback
