@@ -8744,7 +8744,7 @@ Windows
 ScreenSizeStatus
 :
 :
-Small
+All
 BatteryStatus
 :
 :
@@ -8795,7 +8795,7 @@ RecentWindows10
 ScreenSizeStatus
 :
 :
-Small
+All
 BatteryStatus
 :
 :
