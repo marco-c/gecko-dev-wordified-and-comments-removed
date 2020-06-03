@@ -955,12 +955,10 @@ RegExpFlags
 flags
 )
 {
-if
-(
-RegExpShared
-*
+RootedRegExpShared
 shared
-=
+(
+cx
 cx
 -
 >
@@ -978,6 +976,11 @@ maybeGet
 pattern
 flags
 )
+)
+;
+if
+(
+shared
 )
 {
 #
