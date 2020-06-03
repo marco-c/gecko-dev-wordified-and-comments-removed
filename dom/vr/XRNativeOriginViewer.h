@@ -57,6 +57,15 @@ GetPosition
 )
 override
 ;
+gfx
+:
+:
+QuaternionDouble
+GetOrientation
+(
+)
+override
+;
 private
 :
 ~
