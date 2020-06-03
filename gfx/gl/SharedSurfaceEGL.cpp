@@ -1086,6 +1086,16 @@ SharedSurface_SurfaceTexture
 (
 )
 {
+if
+(
+mOrigEglSurface
+)
+{
+UnlockProd
+(
+)
+;
+}
 GLContextProviderEGL
 :
 :
