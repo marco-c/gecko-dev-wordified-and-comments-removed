@@ -11724,6 +11724,11 @@ MozAutofill
 NonTSPseudoClass
 :
 :
+MozModalDialog
+|
+NonTSPseudoClass
+:
+:
 Active
 |
 NonTSPseudoClass
