@@ -154,13 +154,8 @@ Services
 .
 wm
 .
-getMostRecentWindow
+getMostRecentBrowserWindow
 (
-"
-navigator
-:
-browser
-"
 )
 ;
 let
