@@ -281,7 +281,7 @@ log
 debug
 (
 "
-_reauthInTests
+_ensureReauth
 :
 _testReauth
 :
