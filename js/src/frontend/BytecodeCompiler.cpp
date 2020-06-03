@@ -4462,6 +4462,12 @@ compilationInfo
 cx
 allocScope
 options
+fun
+-
+>
+enclosingScope
+(
+)
 )
 ;
 compilationInfo
@@ -5295,6 +5301,7 @@ compilationInfo
 cx
 allocScope
 options
+enclosingScope
 )
 ;
 if

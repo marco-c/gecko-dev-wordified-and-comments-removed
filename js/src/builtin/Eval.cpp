@@ -1761,6 +1761,8 @@ compilationInfo
 cx
 allocScope
 options
+enclosing
+env
 )
 ;
 if
@@ -1805,7 +1807,6 @@ EvalSharedContext
 evalsc
 (
 cx
-env
 compilationInfo
 enclosing
 compilationInfo
@@ -2331,6 +2332,8 @@ compilationInfo
 cx
 allocScope
 options
+enclosing
+env
 )
 ;
 if
@@ -2375,7 +2378,6 @@ EvalSharedContext
 evalsc
 (
 cx
-env
 compilationInfo
 enclosing
 compilationInfo

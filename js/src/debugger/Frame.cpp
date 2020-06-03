@@ -4908,6 +4908,8 @@ compilationInfo
 cx
 allocScope
 options
+scope
+env
 )
 ;
 if
@@ -4932,7 +4934,6 @@ EvalSharedContext
 evalsc
 (
 cx
-env
 compilationInfo
 scope
 compilationInfo
