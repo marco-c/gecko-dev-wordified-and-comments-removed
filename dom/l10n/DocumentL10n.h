@@ -36,9 +36,10 @@ enum
 class
 DocumentL10nState
 {
-Constructed
+Uninitialized
 =
 0
+Activated
 InitialTranslationTriggered
 Ready
 }
@@ -68,9 +69,14 @@ Create
 Document
 *
 aDocument
+)
+;
+void
+Activate
+(
 const
 bool
-aSync
+aLazy
 )
 ;
 protected
@@ -81,9 +87,6 @@ DocumentL10n
 Document
 *
 aDocument
-const
-bool
-aSync
 )
 ;
 bool
