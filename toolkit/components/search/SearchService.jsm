@@ -3451,19 +3451,6 @@ return
 true
 ;
 }
-if
-(
-extension
-.
-startupReason
-=
-=
-=
-"
-ADDON_INSTALL
-"
-)
-{
 engine
 .
 overrideWithExtension
@@ -3498,7 +3485,6 @@ id
 return
 true
 ;
-}
 }
 if
 (
