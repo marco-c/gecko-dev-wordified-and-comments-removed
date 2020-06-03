@@ -1522,7 +1522,7 @@ rgb10a2unorm
 TextureFormat
 [
 "
-RGB11B10Float
+RG11B10Float
 "
 ]
 =
