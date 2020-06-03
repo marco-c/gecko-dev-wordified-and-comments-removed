@@ -415,6 +415,17 @@ html
 )
 ;
 }
+let
+testAnotherThirdPartyPage
+=
+SpecialPowers
+.
+useRemoteSubframes
+?
+TEST_ANOTHER_3RD_PARTY_PAGE_HTTPS
+:
+TEST_ANOTHER_3RD_PARTY_PAGE
+;
 await
 SpecialPowers
 .
@@ -425,7 +436,7 @@ browser
 {
 page
 :
-TEST_ANOTHER_3RD_PARTY_PAGE
+testAnotherThirdPartyPage
 callback
 :
 loadSubpage
