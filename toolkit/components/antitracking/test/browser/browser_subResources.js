@@ -80,6 +80,16 @@ true
 "
 privacy
 .
+partition
+.
+network_state
+"
+false
+]
+[
+"
+privacy
+.
 restrict3rdpartystorage
 .
 userInteractionRequiredForHosts
