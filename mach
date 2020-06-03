@@ -227,9 +227,6 @@ tests
 -
 client
 test
-test
--
-info
 tps
 -
 build
