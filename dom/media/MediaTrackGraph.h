@@ -1285,6 +1285,7 @@ IncrementSuspendCount
 (
 )
 ;
+virtual
 void
 DecrementSuspendCount
 (
@@ -2260,6 +2261,12 @@ aPort
 ;
 void
 DestroyImpl
+(
+)
+override
+;
+void
+DecrementSuspendCount
 (
 )
 override
