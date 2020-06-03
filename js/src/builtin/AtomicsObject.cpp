@@ -21,15 +21,6 @@ include
 "
 mozilla
 /
-CheckedInt
-.
-h
-"
-#
-include
-"
-mozilla
-/
 DebugOnly
 .
 h
@@ -5164,9 +5155,3 @@ JS_NULL_CLASS_OPS
 AtomicsClassSpec
 }
 ;
-#
-undef
-CXX11_ATOMICS
-#
-undef
-GNU_ATOMICS
