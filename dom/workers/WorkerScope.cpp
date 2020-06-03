@@ -888,7 +888,7 @@ created
 "
 )
 ;
-BindToOwner
+BindToOwnerInternal
 (
 static_cast
 <
