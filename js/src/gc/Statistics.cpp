@@ -6586,7 +6586,7 @@ if
 gc
 -
 >
-isCompactingGc
+didCompactZones
 (
 )
 )

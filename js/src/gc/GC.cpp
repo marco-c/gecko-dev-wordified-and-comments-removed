@@ -4421,6 +4421,10 @@ relocatedArenasToRelease
 (
 nullptr
 )
+zonesCompacted
+(
+0
+)
 #
 ifdef
 JS_GC_ZEAL
@@ -31379,6 +31383,10 @@ startedCompacting
 =
 true
 ;
+zonesCompacted
+=
+0
+;
 }
 IncrementalProgress
 GCRuntime
@@ -31532,6 +31540,10 @@ append
 (
 zone
 )
+;
+zonesCompacted
++
++
 ;
 }
 else
