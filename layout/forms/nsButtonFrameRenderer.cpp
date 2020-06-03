@@ -1962,6 +1962,7 @@ disp
 )
 |
 |
+!
 presContext
 -
 >
@@ -1970,7 +1971,7 @@ Theme
 )
 -
 >
-ThemeWantsButtonInnerFocusRing
+ThemeDrawsFocusForWidget
 (
 disp
 -
@@ -2112,6 +2113,7 @@ disp
 )
 |
 |
+!
 presContext
 -
 >
@@ -2120,7 +2122,7 @@ Theme
 )
 -
 >
-ThemeWantsButtonInnerFocusRing
+ThemeDrawsFocusForWidget
 (
 disp
 -

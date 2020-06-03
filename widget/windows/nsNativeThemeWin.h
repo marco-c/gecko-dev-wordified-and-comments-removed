@@ -292,17 +292,6 @@ aAppearance
 override
 ;
 bool
-ThemeWantsButtonInnerFocusRing
-(
-StyleAppearance
-)
-override
-{
-return
-true
-;
-}
-bool
 ThemeNeedsComboboxDropmarker
 (
 )
