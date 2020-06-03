@@ -129,15 +129,6 @@ IdleDetector
 idle
 '
 ]
-IdleState
-:
-[
-'
-idle
-.
-state
-'
-]
 }
 )
 ;
