@@ -961,7 +961,7 @@ check_bounds
 {
 DCHECK
 (
-is_uint24
+is_int24
 (
 cp_offset
 +

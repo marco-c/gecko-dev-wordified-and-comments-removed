@@ -804,6 +804,16 @@ eats_at_least_
 eats_at_least
 ;
 }
+void
+SetDoNotInline
+(
+)
+{
+trace_count_
+=
+kMaxCopiesCodeGenerated
+;
+}
 BoyerMooreLookahead
 *
 bm_info
