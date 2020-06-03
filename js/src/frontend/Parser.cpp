@@ -1647,7 +1647,7 @@ mozilla
 :
 AsVariant
 (
-ScriptStencilBase
+ScriptStencil
 (
 cx_
 )
@@ -9017,7 +9017,7 @@ CompilationInfo
 compilationInfo
 Handle
 <
-ScriptStencilBase
+ScriptStencil
 >
 stencil
 HandleFunction
@@ -9269,7 +9269,7 @@ true
 }
 Rooted
 <
-ScriptStencilBase
+ScriptStencil
 >
 stencil
 (

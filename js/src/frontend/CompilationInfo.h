@@ -137,7 +137,7 @@ Variant
 <
 JSFunction
 *
-ScriptStencilBase
+ScriptStencil
 >
 ;
 struct
