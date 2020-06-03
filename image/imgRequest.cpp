@@ -2939,6 +2939,13 @@ do_QueryInterface
 aRequest
 )
 ;
+{
+MutexAutoLock
+lock
+(
+mMutex
+)
+;
 MOZ_ASSERT
 (
 multiPartChannel
@@ -2952,13 +2959,6 @@ being
 multipart
 ?
 "
-)
-;
-{
-MutexAutoLock
-lock
-(
-mMutex
 )
 ;
 mNewPartPending
