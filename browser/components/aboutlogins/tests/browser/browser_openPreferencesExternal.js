@@ -317,10 +317,6 @@ waitForCondition
 let
 menuButton
 =
-Cu
-.
-waiveXrays
-(
 content
 .
 document
@@ -332,7 +328,6 @@ menu
 -
 button
 "
-)
 )
 ;
 return
@@ -387,10 +382,6 @@ menuItemSelector
 let
 menuButton
 =
-Cu
-.
-waiveXrays
-(
 content
 .
 document
@@ -402,7 +393,6 @@ menu
 -
 button
 "
-)
 )
 ;
 let
