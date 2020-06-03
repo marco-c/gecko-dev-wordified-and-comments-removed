@@ -793,7 +793,7 @@ DesktopAndCursorComposer
 (
 desktop_capturer
 mouse_monitor
-false
+true
 )
 {
 }
