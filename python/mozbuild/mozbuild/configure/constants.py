@@ -63,10 +63,6 @@ GNU
 '
     
 '
-iOS
-'
-    
-'
 NetBSD
 '
     
