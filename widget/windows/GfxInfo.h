@@ -323,12 +323,6 @@ Init
 )
 override
 ;
-int32_t
-GetMaxRefreshRate
-(
-)
-override
-;
 uint32_t
 OperatingSystemVersion
 (
