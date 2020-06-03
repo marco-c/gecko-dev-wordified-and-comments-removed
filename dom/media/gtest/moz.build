@@ -84,6 +84,11 @@ TestAudioCompactor
 cpp
 '
 '
+TestAudioDriftCorrection
+.
+cpp
+'
+'
 TestAudioMixer
 .
 cpp

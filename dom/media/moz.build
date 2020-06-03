@@ -503,6 +503,11 @@ AudioDeviceInfo
 h
 '
 '
+AudioDriftCorrection
+.
+h
+'
+'
 AudioMixer
 .
 h
