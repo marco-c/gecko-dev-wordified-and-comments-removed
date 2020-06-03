@@ -201,6 +201,8 @@ browser
 /
 webRTC
 -
+legacy
+-
 indicator
 .
 css
@@ -211,6 +213,8 @@ css
 shared
 /
 webRTC
+-
+legacy
 -
 indicator
 .
