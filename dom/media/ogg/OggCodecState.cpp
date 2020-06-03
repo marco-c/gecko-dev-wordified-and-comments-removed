@@ -623,7 +623,7 @@ ogg_stream_state
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 !

@@ -338,7 +338,7 @@ ogg_sync_state
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 state
 !
@@ -5242,7 +5242,7 @@ ogg_page
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 page
 !
@@ -8980,7 +8980,7 @@ ogg_sync_state
 (
 )
 ;
-MOZ_ASSERT
+MOZ_RELEASE_ASSERT
 (
 mState
 !
