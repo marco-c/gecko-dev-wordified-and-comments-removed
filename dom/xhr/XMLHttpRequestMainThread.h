@@ -843,8 +843,12 @@ eTerminated
 ENUM_MAX
 }
 ;
+explicit
 XMLHttpRequestMainThread
 (
+nsIGlobalObject
+*
+aGlobalObject
 )
 ;
 void
@@ -853,9 +857,6 @@ Construct
 nsIPrincipal
 *
 aPrincipal
-nsIGlobalObject
-*
-aGlobalObject
 nsICookieJarSettings
 *
 aCookieJarSettings
@@ -891,11 +892,6 @@ aPrincipal
 mPrincipal
 =
 aPrincipal
-;
-BindToOwner
-(
-aGlobalObject
-)
 ;
 mBaseURI
 =

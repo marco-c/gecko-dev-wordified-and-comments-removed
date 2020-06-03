@@ -1094,8 +1094,15 @@ XMLHttpRequestMainThread
 :
 XMLHttpRequestMainThread
 (
+nsIGlobalObject
+*
+aGlobalObject
 )
 :
+XMLHttpRequest
+(
+aGlobalObject
+)
 mResponseBodyDecodedPos
 (
 0

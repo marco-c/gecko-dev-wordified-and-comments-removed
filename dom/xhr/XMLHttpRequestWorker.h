@@ -940,12 +940,14 @@ mWorkerRef
 }
 private
 :
-explicit
 XMLHttpRequestWorker
 (
 WorkerPrivate
 *
 aWorkerPrivate
+nsIGlobalObject
+*
+aGlobalObject
 )
 ;
 ~
