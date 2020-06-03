@@ -154,6 +154,11 @@ RemoteSettingsWorker
 jsm
 '
 '
+SharedUtils
+.
+jsm
+'
+'
 Utils
 .
 jsm
