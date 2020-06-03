@@ -53,6 +53,17 @@ AndroidBridge
 .
 h
 "
+#
+include
+"
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
+.
+h
+"
 namespace
 java
 =
