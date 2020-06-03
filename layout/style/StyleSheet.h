@@ -1199,8 +1199,17 @@ aMallocSizeOf
 const
 ;
 #
-ifdef
+if
+defined
+(
 DEBUG
+)
+|
+|
+defined
+(
+MOZ_LAYOUT_DEBUGGER
+)
 void
 List
 (
@@ -1214,7 +1223,6 @@ aIndex
 =
 0
 )
-const
 ;
 #
 endif
