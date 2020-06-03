@@ -298,35 +298,6 @@ treeherder
 }
 )
         
-if
-attributes
-.
-get
-(
-'
-nightly
-'
-)
-:
-            
-treeherder
-.
-setdefault
-(
-'
-symbol
-'
-'
-rs
-(
-N
-)
-'
-)
-        
-else
-:
-            
 treeherder
 .
 setdefault
@@ -657,17 +628,8 @@ build_platform
 '
 )
         
-is_nightly
+is_shippable
 =
-dep_job
-.
-attributes
-.
-get
-(
-'
-nightly
-'
 dep_job
 .
 attributes
@@ -678,7 +640,6 @@ get
 shippable
 '
 )
-)
         
 signing_cert_scope
 =
@@ -686,7 +647,7 @@ get_signing_cert_scope_per_platform
 (
             
 build_platform
-is_nightly
+is_shippable
 config
         
 )
