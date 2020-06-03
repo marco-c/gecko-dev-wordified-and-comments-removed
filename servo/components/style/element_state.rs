@@ -1283,7 +1283,7 @@ read
 only
 >
 const
-IN_MOZ_READONLY_STATE
+IN_READONLY_STATE
 =
 1
 <
@@ -1316,7 +1316,7 @@ read
 write
 >
 const
-IN_MOZ_READWRITE_STATE
+IN_READWRITE_STATE
 =
 1
 <

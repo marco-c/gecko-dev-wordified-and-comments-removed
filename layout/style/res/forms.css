@@ -920,17 +920,11 @@ important
 }
 input
 :
--
-moz
--
 read
 -
 write
 textarea
 :
--
-moz
--
 read
 -
 write
@@ -5088,9 +5082,6 @@ date
 "
 ]
 :
--
-moz
--
 read
 -
 only
@@ -5103,9 +5094,6 @@ time
 "
 ]
 :
--
-moz
--
 read
 -
 only
