@@ -1604,6 +1604,9 @@ psutil
 .
 disk_partitions
 (
+all
+=
+True
 )
         
 atime_opts
@@ -1624,6 +1627,11 @@ norelatime
 }
         
 option
+=
+'
+'
+        
+fstype
 =
 '
 '
@@ -1667,6 +1675,12 @@ atime_opts
 mount_opts
 )
                 
+fstype
+=
+partition
+.
+fstype
+                
 if
 len
 (
@@ -1687,6 +1701,44 @@ intersection
 break
         
 if
+fstype
+=
+=
+'
+tmpfs
+'
+:
+            
+status
+=
+'
+GOOD
+'
+            
+desc
+=
+'
+%
+s
+is
+a
+tmpfs
+so
+noatime
+/
+reltime
+is
+not
+needed
+'
+%
+(
+                
+mount
+            
+)
+        
+elif
 not
 option
 :
