@@ -3011,9 +3011,6 @@ Nothing
 )
 targetRect
 intersectionRect
-thresholdIndex
->
-0
 intersectionRatio
 )
 ;
@@ -3049,8 +3046,6 @@ nsRect
 >
 &
 aIntersectionRect
-bool
-aIsIntersecting
 double
 aIntersectionRatio
 )
@@ -3171,7 +3166,11 @@ intersectionRect
 forget
 (
 )
-aIsIntersecting
+aIntersectionRect
+.
+isSome
+(
+)
 aTarget
 aIntersectionRatio
 )
