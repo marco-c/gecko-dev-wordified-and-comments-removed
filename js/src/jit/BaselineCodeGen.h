@@ -68,6 +68,7 @@ enum
 class
 ScriptGCThingType
 {
+Atom
 RegExp
 Function
 Scope
