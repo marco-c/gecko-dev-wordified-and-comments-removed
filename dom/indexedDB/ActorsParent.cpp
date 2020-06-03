@@ -45107,6 +45107,9 @@ ErrorResult
 aRv
 )
 {
+#
+if
+0
 if
 (
 !
@@ -45179,6 +45182,8 @@ aRv
 return
 ;
 }
+#
+endif
 MOZ_ASSERT
 (
 !
