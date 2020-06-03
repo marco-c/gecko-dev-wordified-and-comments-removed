@@ -2502,7 +2502,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Sin
@@ -2518,7 +2518,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Tan
@@ -2534,7 +2534,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Cos
@@ -2550,7 +2550,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Exp
@@ -2566,7 +2566,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Log
@@ -2582,7 +2582,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ASin
@@ -2598,7 +2598,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ATan
@@ -2614,7 +2614,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ACos
@@ -2630,7 +2630,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Log10
@@ -2646,7 +2646,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Log2
@@ -2662,7 +2662,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Log1P
@@ -2678,7 +2678,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ExpM1
@@ -2694,7 +2694,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 CosH
@@ -2710,7 +2710,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 SinH
@@ -2726,7 +2726,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 TanH
@@ -2742,7 +2742,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ACosH
@@ -2758,7 +2758,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ASinH
@@ -2774,7 +2774,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 ATanH
@@ -2790,7 +2790,7 @@ return
 inlineMathFunction
 (
 callInfo
-MMathFunction
+UnaryMathFunction
 :
 :
 Cbrt
@@ -4309,10 +4309,7 @@ inlineMathFunction
 CallInfo
 &
 callInfo
-MMathFunction
-:
-:
-Function
+UnaryMathFunction
 function
 )
 {
@@ -8042,7 +8039,7 @@ getArg
 (
 0
 )
-MMathFunction
+UnaryMathFunction
 :
 :
 Floor
@@ -8347,7 +8344,7 @@ getArg
 (
 0
 )
-MMathFunction
+UnaryMathFunction
 :
 :
 Ceil
@@ -8744,7 +8741,7 @@ getArg
 (
 0
 )
-MMathFunction
+UnaryMathFunction
 :
 :
 Round
@@ -10098,7 +10095,7 @@ getArg
 (
 0
 )
-MMathFunction
+UnaryMathFunction
 :
 :
 Trunc
@@ -20948,7 +20945,7 @@ alloc
 (
 )
 input
-MMathFunction
+UnaryMathFunction
 :
 :
 Trunc

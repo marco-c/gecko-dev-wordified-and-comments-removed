@@ -262,17 +262,6 @@ mozilla
 :
 WrappingMultiply
 ;
-using
-UnaryMathFunctionType
-=
-double
-(
-*
-)
-(
-double
-)
-;
 template
 <
 UnaryMathFunctionType

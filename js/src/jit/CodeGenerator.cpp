@@ -51208,7 +51208,7 @@ function
 )
 {
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Log
@@ -51228,7 +51228,7 @@ math_log_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Sin
@@ -51248,7 +51248,7 @@ math_sin_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Cos
@@ -51268,7 +51268,7 @@ math_cos_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Exp
@@ -51288,7 +51288,7 @@ math_exp_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Tan
@@ -51308,7 +51308,7 @@ math_tan_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ATan
@@ -51328,7 +51328,7 @@ math_atan_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ASin
@@ -51348,7 +51348,7 @@ math_asin_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ACos
@@ -51368,7 +51368,7 @@ math_acos_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Log10
@@ -51388,7 +51388,7 @@ math_log10_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Log2
@@ -51408,7 +51408,7 @@ math_log2_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Log1P
@@ -51428,7 +51428,7 @@ math_log1p_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ExpM1
@@ -51448,7 +51448,7 @@ math_expm1_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 CosH
@@ -51468,7 +51468,7 @@ math_cosh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 SinH
@@ -51488,7 +51488,7 @@ math_sinh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 TanH
@@ -51508,7 +51508,7 @@ math_tanh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ACosH
@@ -51528,7 +51528,7 @@ math_acosh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ASinH
@@ -51548,7 +51548,7 @@ math_asinh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 ATanH
@@ -51568,7 +51568,7 @@ math_atanh_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Trunc
@@ -51588,7 +51588,7 @@ math_trunc_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Cbrt
@@ -51608,7 +51608,7 @@ math_cbrt_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Floor
@@ -51628,7 +51628,7 @@ math_floor_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Ceil
@@ -51648,7 +51648,7 @@ math_ceil_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Round
@@ -51795,7 +51795,7 @@ function
 )
 {
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Floor
@@ -51819,7 +51819,7 @@ DontCheckOther
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Round
@@ -51836,7 +51836,7 @@ math_roundf_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Trunc
@@ -51853,7 +51853,7 @@ math_truncf_impl
 break
 ;
 case
-MMathFunction
+UnaryMathFunction
 :
 :
 Ceil
