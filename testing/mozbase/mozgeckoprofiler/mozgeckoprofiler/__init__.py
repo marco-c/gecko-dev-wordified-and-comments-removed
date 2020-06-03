@@ -23,6 +23,7 @@ from
 profiling
 import
 save_gecko_profile
+symbolicate_profile_json
 from
 .
 symbolication
@@ -37,6 +38,14 @@ save_gecko_profile
 '
   
 '
+symbolicate_profile_json
+'
+  
+'
 ProfileSymbolicator
+'
+  
+'
+view_gecko_profile
 '
 ]
