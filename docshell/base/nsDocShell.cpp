@@ -2754,9 +2754,8 @@ ds
 nsDocLoader
 :
 :
-InitWithBrowsingContext
+Init
 (
-aBrowsingContext
 )
 ;
 if
