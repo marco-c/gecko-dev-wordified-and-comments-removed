@@ -541,6 +541,12 @@ and
 WinXP
 .
 )
+skip
+-
+if
+(
+isCoverageBuild
+)
 pref
 (
 layout
