@@ -226,12 +226,6 @@ TableKind
 :
 AnyRef
 :
-case
-TableKind
-:
-:
-NullRef
-:
 return
 TableRepr
 :

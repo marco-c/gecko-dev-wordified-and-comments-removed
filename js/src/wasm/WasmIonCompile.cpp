@@ -12457,12 +12457,6 @@ RefType
 :
 Any
 :
-case
-RefType
-:
-:
-Null
-:
 MOZ_ASSERT
 (
 value
