@@ -1520,6 +1520,17 @@ return
 (
 <
 CardGrid
+enable_video_playheads
+=
+{
+!
+!
+component
+.
+properties
+.
+enable_video_playheads
+}
 title
 =
 {
