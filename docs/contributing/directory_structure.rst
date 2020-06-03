@@ -166,11 +166,11 @@ ref
 :
 Mercurial
 <
-How
-to
-contribute
-to
 Firefox
+Contributors
+'
+Quick
+Reference
 >
 .
 This
