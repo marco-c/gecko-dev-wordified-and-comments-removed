@@ -410,6 +410,13 @@ test_manifests
 :
 [
 ]
+'
+build_type
+'
+:
+'
+opt
+'
 }
 }
     
@@ -682,6 +689,11 @@ default_tasks
 None
         
 [
+'
+task
+-
+0
+'
 '
 task
 -
