@@ -117,6 +117,10 @@ nsIThread
 aThread
 bool
 aRequireTailDispatch
+bool
+aOnThread
+=
+false
 )
 ;
 NS_DECL_THREADSAFE_ISUPPORTS
@@ -314,6 +318,12 @@ InitTLS
 static
 void
 InitMainThread
+(
+)
+;
+static
+void
+ShutdownMainThread
 (
 )
 ;
