@@ -4488,7 +4488,7 @@ WindowPostMessage
 (
 MaybeDiscardedBrowsingContext
 aContext
-ClonedMessageData
+ClonedOrErrorMessageData
 aMessage
 PostMessageData
 aData
