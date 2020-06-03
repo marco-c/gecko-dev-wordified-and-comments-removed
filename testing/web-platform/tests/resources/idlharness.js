@@ -7004,6 +7004,11 @@ case
 DataView
 "
 :
+case
+"
+Function
+"
+:
 assert_true
 (
 value
