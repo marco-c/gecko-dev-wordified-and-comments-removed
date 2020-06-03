@@ -1716,6 +1716,11 @@ GreenAVIFTestCase
 )
 ;
 ImageTestCase
+StackCheckAVIFTestCase
+(
+)
+;
+ImageTestCase
 LargeWebPTestCase
 (
 )

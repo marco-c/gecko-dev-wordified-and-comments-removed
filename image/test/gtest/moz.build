@@ -507,6 +507,11 @@ rle8
 bmp
 '
 '
+stackcheck
+.
+avif
+'
+'
 transparent
 -
 ico
