@@ -195,7 +195,7 @@ profiler_thread_is_being_profiled
 PROFILER_ADD_MARKER_WITH_PAYLOAD
 (
 tag
-GRAPHICS
+MEDIA_PLAYBACK
 \
 VideoFrameMarkerPayload
 \

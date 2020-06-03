@@ -956,6 +956,17 @@ return
 NS_ERROR_FAILURE
 ;
 }
+PROFILER_ADD_MARKER
+(
+"
+AudioStream
+:
+:
+SetPlaybackRate
+"
+MEDIA_PLAYBACK
+)
+;
 mAudioClock
 .
 SetPlaybackRate
