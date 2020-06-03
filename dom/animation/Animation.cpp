@@ -3009,10 +3009,10 @@ attribute
 )
 ;
 }
-if
-(
+RefPtr
+<
 Document
-*
+>
 doc
 =
 target
@@ -3023,6 +3023,10 @@ mElement
 GetComposedDoc
 (
 )
+;
+if
+(
+doc
 )
 {
 doc
