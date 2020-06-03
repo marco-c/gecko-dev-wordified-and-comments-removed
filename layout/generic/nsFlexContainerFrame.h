@@ -940,7 +940,7 @@ nscoord
 aMaxBlockEndEdgeOfChildren
 const
 bool
-aAreChildrenComplete
+aAnyChildIncomplete
 nscoord
 aFlexContainerAscent
 nsTArray
