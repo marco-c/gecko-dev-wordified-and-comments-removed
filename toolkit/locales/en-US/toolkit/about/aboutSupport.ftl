@@ -1130,6 +1130,16 @@ rate
 Preferred
 Sample
 Rate
+roundtrip
+-
+latency
+=
+Roundtrip
+latency
+(
+standard
+deviation
+)
 media
 -
 title
