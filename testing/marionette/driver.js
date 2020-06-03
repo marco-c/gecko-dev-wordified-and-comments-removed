@@ -9856,6 +9856,7 @@ newCookie
 restrictToHost
 :
 hostname
+protocol
 }
 )
 ;
