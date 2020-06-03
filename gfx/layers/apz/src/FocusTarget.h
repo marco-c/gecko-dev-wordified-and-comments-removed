@@ -36,17 +36,6 @@ include
 "
 mozilla
 /
-webrender
-/
-WebRenderTypes
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Variant
 .
 h
