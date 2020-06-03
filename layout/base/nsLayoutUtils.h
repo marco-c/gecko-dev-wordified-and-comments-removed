@@ -7052,7 +7052,7 @@ GetSizeForViewportUnits
 )
 ;
 float
-ratio
+vhExpansionRatio
 =
 (
 float
@@ -7061,9 +7061,14 @@ sizeForViewportUnits
 .
 height
 /
-sizeForViewportUnits
+aPresContext
+-
+>
+GetVisibleArea
+(
+)
 .
-width
+height
 ;
 MOZ_ASSERT
 (
@@ -7076,8 +7081,8 @@ NSCoordSaturatingNonnegativeMultiply
 (
 aSize
 .
-width
-ratio
+height
+vhExpansionRatio
 )
 )
 ;
@@ -7091,8 +7096,8 @@ NSCoordSaturatingNonnegativeMultiply
 (
 aSize
 .
-width
-ratio
+height
+vhExpansionRatio
 )
 )
 ;
