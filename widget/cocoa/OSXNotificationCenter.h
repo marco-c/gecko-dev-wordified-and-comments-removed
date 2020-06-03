@@ -73,6 +73,8 @@ nsIAlertsService
 public
 nsIAlertsIconData
 public
+nsIAlertsDoNotDisturb
+public
 nsIAlertNotificationImageListener
 {
 public
@@ -80,6 +82,7 @@ public
 NS_DECL_ISUPPORTS
 NS_DECL_NSIALERTSSERVICE
 NS_DECL_NSIALERTSICONDATA
+NS_DECL_NSIALERTSDONOTDISTURB
 NS_DECL_NSIALERTNOTIFICATIONIMAGELISTENER
 OSXNotificationCenter
 (
@@ -151,6 +154,9 @@ OSXNotificationInfo
 >
 >
 mPendingAlerts
+;
+bool
+mSuppressForScreenSharing
 ;
 }
 ;
