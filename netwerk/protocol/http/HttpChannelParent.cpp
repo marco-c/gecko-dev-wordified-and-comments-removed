@@ -7913,7 +7913,7 @@ nsCOMPtr
 <
 nsIChannel
 >
-chan
+multiPartChannel
 =
 do_QueryInterface
 (
@@ -7922,13 +7922,13 @@ aRequest
 ;
 MOZ_ASSERT
 (
-chan
+multiPartChannel
 )
 ;
 nsAutoCString
 contentType
 ;
-chan
+multiPartChannel
 -
 >
 GetContentType
