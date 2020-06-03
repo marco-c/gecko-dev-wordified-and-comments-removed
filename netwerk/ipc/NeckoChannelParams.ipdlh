@@ -961,6 +961,9 @@ sameSite
 int32_t
 rawSameSite
 ;
+uint8_t
+schemeMap
+;
 }
 ;
 struct
