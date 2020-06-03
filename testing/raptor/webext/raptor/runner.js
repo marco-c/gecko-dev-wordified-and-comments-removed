@@ -20,9 +20,12 @@ scenario
 "
 ;
 const
-GECKOVIEW_BROWSERS
+ANDROID_BROWSERS
 =
 [
+"
+fennec
+"
 "
 fenix
 "
@@ -58,7 +61,7 @@ isGecko
 false
 ;
 var
-isGeckoView
+isGeckoAndroid
 =
 false
 ;
@@ -1199,7 +1202,7 @@ postToControlServer
 status
 "
 "
-openinig
+opening
 new
 tab
 "
@@ -3430,7 +3433,7 @@ postStartupDelay
 if
 (
 !
-isGeckoView
+isGeckoAndroid
 )
 {
 await
@@ -3609,9 +3612,9 @@ isGecko
 =
 true
 ;
-isGeckoView
+isGeckoAndroid
 =
-GECKOVIEW_BROWSERS
+ANDROID_BROWSERS
 .
 includes
 (
