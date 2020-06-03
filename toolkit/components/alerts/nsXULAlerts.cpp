@@ -40,6 +40,15 @@ include
 "
 mozilla
 /
+EventForwards
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LookAndFeel
 .
 h
@@ -1938,6 +1947,10 @@ NS_LITERAL_STRING
 XULAlertClose
 "
 )
+ChromeOnlyDispatch
+:
+:
+eYes
 )
 ;
 }

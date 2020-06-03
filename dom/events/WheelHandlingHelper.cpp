@@ -1363,7 +1363,7 @@ test_mousescroll
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 sTargetFrame
 -
@@ -1461,7 +1461,7 @@ test_mousescroll
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 frame
 -

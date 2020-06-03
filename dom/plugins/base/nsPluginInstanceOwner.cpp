@@ -602,7 +602,7 @@ override
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 mContent
 -
@@ -9031,7 +9031,7 @@ GetTopWindowRoot
 nsContentUtils
 :
 :
-DispatchTrustedEvent
+DispatchEventOnlyToChrome
 (
 content
 -

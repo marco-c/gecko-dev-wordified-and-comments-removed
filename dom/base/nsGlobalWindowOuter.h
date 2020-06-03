@@ -1367,6 +1367,11 @@ const
 nsAString
 &
 aEventName
+mozilla
+:
+:
+ChromeOnlyDispatch
+aChromeOnlyDispatch
 )
 override
 ;

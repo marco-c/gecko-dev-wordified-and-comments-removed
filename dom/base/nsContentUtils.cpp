@@ -21365,6 +21365,8 @@ CanBubble
 aCanBubble
 Cancelable
 aCancelable
+Composed
+aComposed
 bool
 *
 aDefaultAction
@@ -21378,10 +21380,7 @@ aTarget
 aEventName
 aCanBubble
 aCancelable
-Composed
-:
-:
-eDefault
+aComposed
 Trusted
 :
 :
