@@ -371,6 +371,10 @@ extern
 crate
 rusqlite
 ;
+extern
+crate
+viaduct
+;
 #
 [
 cfg
