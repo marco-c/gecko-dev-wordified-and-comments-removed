@@ -229,6 +229,9 @@ uint32_t
 sandboxFlags
 ;
 uint32_t
+triggeringSandboxFlags
+;
+uint32_t
 contentPolicyType
 ;
 uint32_t
@@ -428,6 +431,9 @@ allowDeprecatedSystemRequests
 ;
 bool
 parserCreatedScript
+;
+uint32_t
+triggeringSandboxFlags
 ;
 bool
 serviceWorkerTaintingSynthesized
