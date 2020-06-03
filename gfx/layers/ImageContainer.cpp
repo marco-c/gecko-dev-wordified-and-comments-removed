@@ -1685,6 +1685,17 @@ NonOwningImage
 aImages
 )
 {
+AUTO_PROFILER_LABEL
+(
+"
+ImageContainer
+:
+:
+SetCurrentImages
+"
+GRAPHICS
+)
+;
 MOZ_ASSERT
 (
 !
