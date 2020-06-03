@@ -432,8 +432,6 @@ const
 SECTION_ID
 =
 "
-system
-.
 topsites
 "
 ;

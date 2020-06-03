@@ -5265,8 +5265,6 @@ data
 id
 :
 "
-system
-.
 topsites
 "
 }
