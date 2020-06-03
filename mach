@@ -175,6 +175,9 @@ tests
 jsshell
 -
 bench
+marionette
+-
+test
 jstestbrowser
 jstests
 mochitest
