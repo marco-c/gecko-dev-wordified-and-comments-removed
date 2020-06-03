@@ -260,9 +260,6 @@ object_subrequest
 xmlhttprequest
 "
 "
-xbl
-"
-"
 xslt
 "
 "
@@ -690,6 +687,13 @@ ref
 :
 "
 ResourceType
+"
+"
+onError
+"
+:
+"
+warn
 "
 }
 "
