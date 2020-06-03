@@ -1368,6 +1368,20 @@ request_handler
 .
 command
         
+self
+.
+_headers
+=
+None
+        
+self
+.
+raw_headers
+=
+request_handler
+.
+headers
+        
 scheme
 =
 request_handler
@@ -1378,9 +1392,9 @@ scheme
         
 host
 =
-request_handler
+self
 .
-headers
+raw_headers
 .
 get
 (
@@ -1478,9 +1492,9 @@ self
 .
 url
 =
-request_handler
+self
 .
-path
+request_path
         
 else
 :
@@ -1505,12 +1519,10 @@ s
 "
 %
 (
+                
 scheme
-                                      
 host
-                                      
 port
-                                      
 self
 .
 request_path
@@ -1529,25 +1541,11 @@ url
         
 self
 .
-raw_headers
-=
-request_handler
-.
-headers
-        
-self
-.
 request_line
 =
 request_handler
 .
 raw_requestline
-        
-self
-.
-_headers
-=
-None
         
 self
 .
@@ -1563,7 +1561,7 @@ int
 (
 self
 .
-headers
+raw_headers
 .
 get
 (
@@ -2441,6 +2439,7 @@ else
 :
             
 return
+b
 "
 "
 .
