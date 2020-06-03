@@ -36,14 +36,6 @@ list
 include
 bmp
 -
-32bpp
-/
-reftest
-.
-list
-include
-bmp
--
 corrupted
 /
 reftest
