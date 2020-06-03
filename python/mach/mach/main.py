@@ -83,7 +83,7 @@ from
 util
 import
 setenv
-SUGGEST_MACH_BUSTED
+SUGGEST_MACH_BUSTED_TEMPLATE
 =
 r
 '
@@ -121,6 +121,8 @@ use
 mach
 busted
 file
+%
+s
 |
 to
 report
@@ -152,7 +154,7 @@ bug
 lstrip
 (
 )
-MACH_ERROR
+MACH_ERROR_TEMPLATE
 =
 r
 '
@@ -190,7 +192,7 @@ lstrip
 (
 )
 +
-SUGGEST_MACH_BUSTED
+SUGGEST_MACH_BUSTED_TEMPLATE
 ERROR_FOOTER
 =
 r
@@ -229,7 +231,7 @@ follows
 lstrip
 (
 )
-COMMAND_ERROR
+COMMAND_ERROR_TEMPLATE
 =
 r
 '
@@ -271,8 +273,8 @@ lstrip
 (
 )
 +
-SUGGEST_MACH_BUSTED
-MODULE_ERROR
+SUGGEST_MACH_BUSTED_TEMPLATE
+MODULE_ERROR_TEMPLATE
 =
 r
 '
@@ -319,7 +321,7 @@ lstrip
 (
 )
 +
-SUGGEST_MACH_BUSTED
+SUGGEST_MACH_BUSTED_TEMPLATE
 NO_COMMAND_ERROR
 =
 r
@@ -2252,7 +2254,11 @@ stdout
             
 print
 (
-MACH_ERROR
+MACH_ERROR_TEMPLATE
+%
+'
+general
+'
 )
             
 exc_type
@@ -2868,7 +2874,11 @@ stack
                 
 print
 (
-COMMAND_ERROR
+COMMAND_ERROR_TEMPLATE
+%
+handler
+.
+name
 )
                 
 self
@@ -2964,7 +2974,11 @@ other_frames
                 
 print
 (
-MODULE_ERROR
+MODULE_ERROR_TEMPLATE
+%
+handler
+.
+name
 )
             
 else
@@ -2972,7 +2986,11 @@ else
                 
 print
 (
-COMMAND_ERROR
+COMMAND_ERROR_TEMPLATE
+%
+handler
+.
+name
 )
             
 self
