@@ -7249,6 +7249,11 @@ mHasFocus
 1
 ;
 bool
+mShowFocusRingForContent
+:
+1
+;
+bool
 mFocusByKeyOccurred
 :
 1
