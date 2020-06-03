@@ -3737,8 +3737,6 @@ type
 typeEnd
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 if

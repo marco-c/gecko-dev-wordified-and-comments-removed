@@ -9681,8 +9681,6 @@ get
 (
 )
 nsCaseInsensitiveUTF8StringComparator
-(
-)
 )
 ;
 }

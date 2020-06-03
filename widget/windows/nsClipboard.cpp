@@ -4443,8 +4443,6 @@ url
 "
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

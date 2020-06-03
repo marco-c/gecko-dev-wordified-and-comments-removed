@@ -1696,8 +1696,6 @@ Equals
 (
 mPlaceholderCompletionString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -1989,8 +1987,6 @@ Equals
 (
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -2360,8 +2356,6 @@ Equals
 (
 suggestedValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -4129,8 +4123,6 @@ StringBeginsWith
 mPlaceholderCompletionString
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 if
@@ -4693,8 +4685,6 @@ Equals
 (
 mPlaceholderCompletionString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -4923,8 +4913,6 @@ Equals
 (
 matchValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -6025,8 +6013,6 @@ StringBeginsWith
 mPlaceholderCompletionString
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 if
@@ -6428,8 +6414,6 @@ StringBeginsWith
 resultValue
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -6571,8 +6555,6 @@ Equals
 (
 inputValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -6676,8 +6658,6 @@ StringBeginsWith
 aValue
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -6780,8 +6760,6 @@ Equals
 (
 mSearchString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

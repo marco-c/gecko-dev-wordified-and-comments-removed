@@ -19656,8 +19656,6 @@ js
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

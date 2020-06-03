@@ -1193,16 +1193,10 @@ token
 Equals
 (
 header
-comparator
+nsCaseInsensitiveCStringComparator
 )
 ;
 }
-const
-nsCaseInsensitiveCStringComparator
-comparator
-{
-}
-;
 }
 checker
 ;

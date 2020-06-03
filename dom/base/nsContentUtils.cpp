@@ -33505,8 +33505,6 @@ proxy
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 |
 |
@@ -33521,8 +33519,6 @@ sec
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 }

@@ -2670,8 +2670,6 @@ CSP_NONCE
 )
 )
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 |
 |

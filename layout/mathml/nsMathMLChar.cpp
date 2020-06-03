@@ -2834,8 +2834,6 @@ Equals
 (
 aFamily
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

@@ -12001,8 +12001,6 @@ Equals
 (
 sourceHost
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

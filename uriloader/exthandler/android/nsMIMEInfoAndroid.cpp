@@ -431,8 +431,6 @@ nsDependentCString
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 return
@@ -1184,8 +1182,6 @@ nsDependentCString
 "
 )
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 return

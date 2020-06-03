@@ -2096,6 +2096,9 @@ Length
 (
 )
 ;
+mozilla
+:
+:
 CheckedInt
 <
 nsAString
@@ -2314,7 +2317,6 @@ nsScannerIterator
 aSearchEnd
 const
 nsStringComparator
-&
 compare
 )
 {
@@ -2506,7 +2508,6 @@ nsScannerIterator
 aSearchEnd
 const
 nsStringComparator
-&
 aComparator
 )
 {

@@ -385,8 +385,6 @@ crt
 "
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 ;

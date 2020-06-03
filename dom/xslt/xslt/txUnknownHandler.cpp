@@ -654,9 +654,7 @@ NS_LITERAL_STRING
 html
 "
 )
-txCaseInsensitiveStringComparator
-(
-)
+nsCaseInsensitiveStringComparator
 )
 ;
 nsresult

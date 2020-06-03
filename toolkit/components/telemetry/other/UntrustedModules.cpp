@@ -1268,8 +1268,6 @@ mModule
 >
 mSanitizedDllName
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

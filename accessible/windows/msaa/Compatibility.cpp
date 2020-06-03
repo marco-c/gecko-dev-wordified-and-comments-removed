@@ -1416,8 +1416,6 @@ Equals
 (
 kUniversalMarshalerClsid
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

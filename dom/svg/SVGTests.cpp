@@ -343,9 +343,10 @@ aAcceptLangs
 )
 const
 {
-const
-nsCaseInsensitiveStringComparator
+auto
 caseInsensitiveComparator
+=
+nsCaseInsensitiveStringComparator
 ;
 if
 (
@@ -733,10 +734,6 @@ return
 false
 ;
 }
-const
-nsCaseInsensitiveStringComparator
-caseInsensitiveComparator
-;
 for
 (
 uint32_t
@@ -796,7 +793,7 @@ languageTokenizer
 nextToken
 (
 )
-caseInsensitiveComparator
+nsCaseInsensitiveStringComparator
 )
 )
 {

@@ -3142,9 +3142,6 @@ return
 NS_OK
 ;
 }
-nsCaseInsensitiveCStringComparator
-stringComparator
-;
 nsCOMPtr
 <
 nsIURI
@@ -3225,7 +3222,7 @@ scheme
 Equals
 (
 otherScheme
-stringComparator
+nsCaseInsensitiveCStringComparator
 )
 ;
 bool

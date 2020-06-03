@@ -6206,8 +6206,6 @@ Equals
 identity
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

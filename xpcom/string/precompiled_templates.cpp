@@ -131,17 +131,3 @@ nsTSubstringSplitter
 char16_t
 >
 ;
-template
-class
-nsTDefaultStringComparator
-<
-char
->
-;
-template
-class
-nsTDefaultStringComparator
-<
-char16_t
->
-;

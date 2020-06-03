@@ -322,8 +322,6 @@ Equals
 (
 aExtension
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

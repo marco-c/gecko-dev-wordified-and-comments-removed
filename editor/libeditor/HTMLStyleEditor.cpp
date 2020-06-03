@@ -2109,8 +2109,6 @@ Equals
 *
 aValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

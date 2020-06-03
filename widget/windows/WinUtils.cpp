@@ -10605,8 +10605,6 @@ StringBeginsWith
 aPath
 testPath
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

@@ -452,9 +452,10 @@ this
 #
 ifdef
 DEBUG
-const
-nsCaseInsensitiveCStringComparator
+auto
 c
+=
+nsCaseInsensitiveCStringComparator
 ;
 nsACString
 :

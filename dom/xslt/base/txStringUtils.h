@@ -32,10 +32,6 @@ nsContentUtils
 .
 h
 "
-typedef
-nsCaseInsensitiveStringComparator
-txCaseInsensitiveStringComparator
-;
 inline
 bool
 TX_StringEqualsAtom

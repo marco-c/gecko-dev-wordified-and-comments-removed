@@ -579,11 +579,6 @@ size_type
 aOffset
 )
 {
-static
-const
-nsCaseInsensitiveCStringComparator
-kComparator
-;
 nsACString
 :
 :
@@ -613,7 +608,7 @@ RFindInReadable
 aPattern
 begin
 end
-kComparator
+nsCaseInsensitiveCStringComparator
 )
 )
 {
@@ -1002,6 +997,11 @@ Length
 )
 ;
 }
+if
+(
+mozilla
+:
+:
 UniquePtr
 <
 CMimeType
@@ -1015,10 +1015,6 @@ Parse
 (
 mediaType
 )
-;
-if
-(
-parsed
 )
 {
 parsed

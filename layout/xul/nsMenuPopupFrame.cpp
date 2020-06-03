@@ -10077,8 +10077,6 @@ StringBeginsWith
 textKey
 incrementalString
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

@@ -319,9 +319,6 @@ aOther
 >
 mSpec
 thisScheme
-nsDefaultCStringComparator
-(
-)
 )
 )
 {

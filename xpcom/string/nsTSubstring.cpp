@@ -5283,9 +5283,7 @@ const
 self_type
 &
 aStr
-const
 comparator_type
-&
 aComp
 )
 const
@@ -5373,9 +5371,7 @@ const
 substring_tuple_type
 &
 aTuple
-const
 comparator_type
-&
 aComp
 )
 const
@@ -5496,9 +5492,7 @@ const
 char_type
 *
 aData
-const
 comparator_type
-&
 aComp
 )
 const

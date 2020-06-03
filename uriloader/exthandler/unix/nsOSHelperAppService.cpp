@@ -1763,8 +1763,6 @@ Equals
 (
 aFileExtension
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -2515,8 +2513,6 @@ Equals
 (
 aMajorType
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -2530,8 +2526,6 @@ Equals
 (
 aMinorType
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -4369,8 +4363,6 @@ Equals
 (
 aMajorType
 nsCaseInsensitiveStringComparator
-(
-)
 )
 &
 &
@@ -4384,8 +4376,6 @@ Equals
 (
 aMinorType
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

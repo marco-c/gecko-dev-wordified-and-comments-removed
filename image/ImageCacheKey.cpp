@@ -484,8 +484,6 @@ aOther
 .
 mIsolationKey
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

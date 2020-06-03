@@ -1655,8 +1655,6 @@ onload
 "
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

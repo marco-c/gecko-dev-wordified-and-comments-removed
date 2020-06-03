@@ -2798,8 +2798,6 @@ Equals
 (
 in
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

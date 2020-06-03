@@ -3702,10 +3702,6 @@ nsIProtocolProxyService
 RESOLVE_PREFER_HTTPS_PROXY
 )
 {
-const
-nsCaseInsensitiveUTF8StringComparator
-comp
-;
 if
 (
 StringBeginsWith
@@ -3715,7 +3711,7 @@ nsDependentCString
 (
 kProxyType_DIRECT
 )
-comp
+nsCaseInsensitiveUTF8StringComparator
 )
 )
 {

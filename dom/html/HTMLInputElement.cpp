@@ -9927,8 +9927,6 @@ file
 "
 )
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 )
 {

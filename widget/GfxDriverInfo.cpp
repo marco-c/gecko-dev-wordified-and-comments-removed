@@ -665,8 +665,6 @@ Equals
 (
 aDeviceId
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

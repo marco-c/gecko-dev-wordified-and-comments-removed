@@ -19118,8 +19118,6 @@ Equals
 (
 value
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

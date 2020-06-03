@@ -1307,8 +1307,6 @@ type
 )
 currentValue
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -1370,8 +1368,6 @@ charsetEquals
 start
 end
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

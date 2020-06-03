@@ -5884,8 +5884,6 @@ Compare
 str_a
 str_b
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 else

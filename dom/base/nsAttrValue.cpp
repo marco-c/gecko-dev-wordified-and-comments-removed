@@ -4863,8 +4863,6 @@ aAttrLen
 )
 aSearchValue
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -4955,8 +4953,6 @@ aAttrLen
 )
 aSearchValue
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 ;
 }
@@ -5047,8 +5043,6 @@ aAttrValue
 aAttrLen
 )
 nsASCIICaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

@@ -3271,8 +3271,6 @@ WindowProtocol
 WaylandAll
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -3327,8 +3325,6 @@ DriverVendor
 MesaAll
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -3357,8 +3353,6 @@ DriverVendor
 NonMesaAll
 )
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {

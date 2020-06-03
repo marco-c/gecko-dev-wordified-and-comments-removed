@@ -848,8 +848,6 @@ Compare
 aLeft
 aRight
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 }

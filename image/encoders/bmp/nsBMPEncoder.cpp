@@ -1240,8 +1240,6 @@ Equals
 version
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -1306,8 +1304,6 @@ Equals
 bpp
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

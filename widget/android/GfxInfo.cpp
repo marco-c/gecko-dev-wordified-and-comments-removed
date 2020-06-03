@@ -2315,8 +2315,6 @@ Equals
 LT28h
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 |
 |
@@ -2328,8 +2326,6 @@ Equals
 samsung
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 |
 |
@@ -2342,8 +2338,6 @@ galaxy
 nexus
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 if
@@ -2803,8 +2797,6 @@ GT
 N8013
 "
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 ;
 if

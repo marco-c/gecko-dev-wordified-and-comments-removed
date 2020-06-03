@@ -3454,8 +3454,6 @@ Equals
 (
 APPLICATION_GUESS_FROM_EXT
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {
@@ -6023,8 +6021,6 @@ Equals
 (
 mTempFileExtension
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 {
@@ -11249,8 +11245,6 @@ Equals
 (
 APPLICATION_OCTET_STREAM
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 rv
@@ -12507,8 +12501,6 @@ Equals
 (
 aExtension
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

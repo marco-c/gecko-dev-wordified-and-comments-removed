@@ -201,8 +201,6 @@ Equals
 (
 ipv6Literal
 nsCaseInsensitiveUTF8StringComparator
-(
-)
 )
 &
 &
@@ -213,8 +211,6 @@ Equals
 (
 ipv6BareLiteral
 nsCaseInsensitiveUTF8StringComparator
-(
-)
 )
 )
 {
@@ -383,8 +379,6 @@ StringEndsWith
 matchHost
 hostName
 nsCaseInsensitiveUTF8StringComparator
-(
-)
 )
 )
 {

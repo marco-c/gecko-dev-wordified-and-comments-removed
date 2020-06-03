@@ -391,8 +391,6 @@ Equals
 (
 curName
 nsCaseInsensitiveCStringComparator
-(
-)
 )
 )
 {

@@ -2273,8 +2273,6 @@ Equals
 (
 aDictionary
 nsCaseInsensitiveStringComparator
-(
-)
 )
 )
 )
@@ -2864,8 +2862,6 @@ Equals
 (
 dictStr
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 break
@@ -2883,8 +2879,6 @@ DashMatchCompare
 dictStr
 aDictName
 nsCaseInsensitiveStringComparator
-(
-)
 )
 ;
 break
@@ -3645,9 +3639,7 @@ DashMatchCompare
 (
 preferredDict
 langCode
-nsDefaultStringComparator
-(
-)
+nsTDefaultStringComparator
 )
 )
 {
