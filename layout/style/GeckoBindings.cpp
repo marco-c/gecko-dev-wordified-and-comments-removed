@@ -2589,15 +2589,6 @@ if
 (
 !
 presContext
-|
-|
-!
-presContext
--
->
-IsDynamic
-(
-)
 )
 {
 return
