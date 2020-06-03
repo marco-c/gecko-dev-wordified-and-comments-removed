@@ -591,6 +591,10 @@ tabsData
 {
 if
 (
+!
+searchString
+|
+|
 re
 .
 test
