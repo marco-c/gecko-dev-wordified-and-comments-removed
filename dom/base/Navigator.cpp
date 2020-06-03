@@ -558,6 +558,13 @@ h
 #
 include
 "
+nsICookieManager
+.
+h
+"
+#
+include
+"
 nsICookieService
 .
 h
@@ -2451,10 +2458,10 @@ bool
 cookieEnabled
 =
 (
-StaticPrefs
+nsICookieManager
 :
 :
-network_cookie_cookieBehavior
+GetCookieBehavior
 (
 )
 !
