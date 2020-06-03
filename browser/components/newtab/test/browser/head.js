@@ -211,6 +211,8 @@ stream
 .
 feeds
 .
+system
+.
 topsites
 "
 false
@@ -231,6 +233,8 @@ activity
 stream
 .
 feeds
+.
+system
 .
 topsites
 "

@@ -313,9 +313,11 @@ stream
 .
 feeds
 .
+system
+.
 topsites
 "
-false
+true
 )
 )
 ;
