@@ -2875,7 +2875,7 @@ _identityBox
 className
 =
 "
-unknownIdentity
+localResource
 "
 ;
 }
