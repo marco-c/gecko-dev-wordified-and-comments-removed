@@ -3204,9 +3204,6 @@ forkServer
 #
 endif
 "
-preallocated
-"
-"
 unknown
 "
 }
