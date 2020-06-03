@@ -42,6 +42,17 @@ h
 #
 include
 "
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
+.
+h
+"
+#
+include
+"
 nsIScreenManager
 .
 h
