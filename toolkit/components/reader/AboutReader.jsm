@@ -6076,6 +6076,11 @@ open
 )
 ;
 }
+if
+(
+haveOpenDropdowns
+)
+{
 this
 .
 _toolbarContainerElement
@@ -6091,11 +6096,6 @@ open
 "
 )
 ;
-if
-(
-haveOpenDropdowns
-)
-{
 this
 .
 _toggleToolbarFixedPosition
