@@ -109,7 +109,11 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoSurfaceWrappers
 .
 h
 "

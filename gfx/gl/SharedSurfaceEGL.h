@@ -42,13 +42,6 @@ MOZ_WIDGET_ANDROID
 #
 include
 "
-GeneratedJNIWrappers
-.
-h
-"
-#
-include
-"
 AndroidNativeWindow
 .
 h

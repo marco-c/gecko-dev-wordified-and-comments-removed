@@ -219,7 +219,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+webrender
+/
+RenderAndroidSurfaceTextureHostOGL
 .
 h
 "

@@ -35,7 +35,11 @@ h
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoSurfaceWrappers
 .
 h
 "

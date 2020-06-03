@@ -160,7 +160,11 @@ FT_MODULE_H
 #
 include
 "
-GeneratedJNINatives
+mozilla
+/
+java
+/
+VsyncSourceNatives
 .
 h
 "

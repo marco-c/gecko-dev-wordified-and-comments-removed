@@ -7,7 +7,11 @@ MOZILLA_GFX_RENDERANDROIDSURFACETEXTUREHOSTOGL_H
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoSurfaceTextureWrappers
 .
 h
 "
