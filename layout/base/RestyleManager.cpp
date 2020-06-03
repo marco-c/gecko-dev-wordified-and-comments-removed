@@ -11530,9 +11530,6 @@ ProcessPostTraversal
 Element
 *
 aElement
-ComputedStyle
-*
-aParentContext
 ServoRestyleState
 &
 aRestyleState
@@ -12412,7 +12409,6 @@ n
 AsElement
 (
 )
-upToDateStyle
 childrenRestyleState
 childrenFlags
 )
@@ -13148,7 +13144,6 @@ anyStyleChanged
 ProcessPostTraversal
 (
 root
-nullptr
 state
 flags
 )
