@@ -2788,9 +2788,6 @@ mAspectRatio
 ;
 if
 (
-aUseMappedRatio
-&
-&
 !
 ratio
 .
