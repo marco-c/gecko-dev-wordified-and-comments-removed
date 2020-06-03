@@ -28,6 +28,12 @@ IsDynamicCodeDisabled
 (
 )
 ;
+MFBT_API
+bool
+IsEafPlusEnabled
+(
+)
+;
 }
 #
 endif
