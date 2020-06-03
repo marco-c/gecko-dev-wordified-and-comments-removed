@@ -105,8 +105,12 @@ createPolicy
 (
 DOMString
 policyName
+optional
 TrustedTypePolicyOptions
 policyOptions
+=
+{
+}
 )
 ;
 /
