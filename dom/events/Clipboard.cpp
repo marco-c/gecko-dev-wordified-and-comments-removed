@@ -172,9 +172,6 @@ Clipboard
 :
 ReadHelper
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -465,9 +462,6 @@ Clipboard
 :
 Read
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -479,7 +473,6 @@ aRv
 return
 ReadHelper
 (
-aCx
 aSubjectPrincipal
 eRead
 aRv
@@ -495,9 +488,6 @@ Clipboard
 :
 ReadText
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -509,7 +499,6 @@ aRv
 return
 ReadHelper
 (
-aCx
 aSubjectPrincipal
 eReadText
 aRv
@@ -525,9 +514,6 @@ Clipboard
 :
 Write
 (
-JSContext
-*
-aCx
 DataTransfer
 &
 aData
@@ -871,9 +857,6 @@ Clipboard
 :
 WriteText
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -919,7 +902,6 @@ aRv
 return
 Write
 (
-aCx
 *
 dataTransfer
 aSubjectPrincipal

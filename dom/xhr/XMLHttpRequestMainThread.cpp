@@ -12272,9 +12272,6 @@ XMLHttpRequestMainThread
 :
 Send
 (
-JSContext
-*
-aCx
 const
 Nullable
 <

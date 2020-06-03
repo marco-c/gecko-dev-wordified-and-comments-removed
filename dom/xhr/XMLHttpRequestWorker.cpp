@@ -5495,7 +5495,6 @@ mXHR
 >
 Send
 (
-nullptr
 payload
 aRv
 )
@@ -7780,9 +7779,6 @@ XMLHttpRequestWorker
 :
 Send
 (
-JSContext
-*
-aCx
 const
 Nullable
 <

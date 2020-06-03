@@ -32210,9 +32210,6 @@ nsGlobalWindowInner
 :
 CreateImageBitmap
 (
-JSContext
-*
-aCx
 const
 ImageBitmapSource
 &
@@ -32246,9 +32243,6 @@ nsGlobalWindowInner
 :
 CreateImageBitmap
 (
-JSContext
-*
-aCx
 const
 ImageBitmapSource
 &

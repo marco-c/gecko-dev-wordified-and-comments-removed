@@ -222,9 +222,6 @@ MediaKeySession
 :
 MediaKeySession
 (
-JSContext
-*
-aCx
 nsPIDOMWindowInner
 *
 aParent

@@ -324,9 +324,6 @@ MediaKeySession
 >
 CreateSession
 (
-JSContext
-*
-aCx
 MediaKeySessionType
 aSessionType
 ErrorResult

@@ -92,9 +92,6 @@ Promise
 >
 Read
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -109,9 +106,6 @@ Promise
 >
 ReadText
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
@@ -126,9 +120,6 @@ Promise
 >
 Write
 (
-JSContext
-*
-aCx
 DataTransfer
 &
 aData
@@ -146,9 +137,6 @@ Promise
 >
 WriteText
 (
-JSContext
-*
-aCx
 const
 nsAString
 &
@@ -214,9 +202,6 @@ Promise
 >
 ReadHelper
 (
-JSContext
-*
-aCx
 nsIPrincipal
 &
 aSubjectPrincipal
