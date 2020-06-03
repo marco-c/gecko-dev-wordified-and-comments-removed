@@ -263,6 +263,26 @@ automatically
 or
 a
 tuple
+(
+code
+message
+)
+in
+       
+which
+case
+code
+is
+an
+int
+and
+message
+is
+a
+text
+or
+binary
+string
 .
     
 .
@@ -506,11 +526,8 @@ ValueError
 else
 :
                 
-self
-.
-_status
+code
 =
-(
 int
 (
 value
@@ -518,13 +535,40 @@ value
 0
 ]
 )
-str
-(
+                
+message
+=
 value
 [
 1
 ]
+                
+if
+not
+isinstance
+(
+message
+(
+binary_type
+text_type
 )
+)
+:
+                    
+message
+=
+str
+(
+message
+)
+                
+self
+.
+_status
+=
+(
+code
+message
 )
         
 else
@@ -4992,6 +5036,7 @@ self
 .
 write
 (
+b
 "
 %
 s
@@ -5007,6 +5052,8 @@ n
 %
                    
 (
+isomorphic_encode
+(
 self
 .
 _response
@@ -5014,8 +5061,12 @@ _response
 request
 .
 protocol_version
+)
 code
+isomorphic_encode
+(
 message
+)
 )
 )
         
