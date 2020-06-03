@@ -244,6 +244,9 @@ codePrefixes
 "
 ff
 "
+"
+newext
+"
 ]
 extraAdServersRegexps
 :
