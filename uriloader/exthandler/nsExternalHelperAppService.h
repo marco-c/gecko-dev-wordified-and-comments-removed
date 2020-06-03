@@ -338,8 +338,6 @@ const
 nsACString
 &
 aContentType
-bool
-aForceFillDesc
 nsIMIMEInfo
 *
 aMIMEInfo
