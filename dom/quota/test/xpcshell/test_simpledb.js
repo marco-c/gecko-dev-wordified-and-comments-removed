@@ -1,6 +1,5 @@
-const
-commonScriptPath
-=
+loadScript
+(
 "
 dom
 /
@@ -14,14 +13,5 @@ test_simpledb
 .
 js
 "
-;
-loadScript
-(
-commonScriptPath
-)
-;
-loadChildScript
-(
-commonScriptPath
 )
 ;
