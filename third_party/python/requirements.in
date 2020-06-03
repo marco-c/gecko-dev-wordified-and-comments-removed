@@ -228,6 +228,12 @@ cookies
 2
 .
 1
+coverage
+=
+=
+5
+.
+1
 distro
 =
 =
@@ -334,6 +340,14 @@ pyasn1
 4
 .
 8
+pyflakes
+=
+=
+2
+.
+2
+.
+0
 pytest
 =
 =

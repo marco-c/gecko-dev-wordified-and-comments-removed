@@ -1,0 +1,14 @@
+include
+README
+.
+rst
+NEWS
+.
+rst
+include
+AUTHORS
+LICENSE
+include
+bin
+/
+pyflakes
