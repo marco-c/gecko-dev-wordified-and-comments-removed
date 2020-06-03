@@ -10775,12 +10775,8 @@ MakeScopeExit
 mWorkerPrivate
 -
 >
-ScheduleDeletion
+RunLoopNeverRan
 (
-WorkerPrivate
-:
-:
-WorkerRan
 )
 ;
 }

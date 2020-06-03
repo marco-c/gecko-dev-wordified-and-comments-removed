@@ -870,6 +870,11 @@ mDefaultLocale
 )
 ;
 }
+void
+RunLoopNeverRan
+(
+)
+;
 MOZ_CAN_RUN_SCRIPT
 void
 DoRunLoop
