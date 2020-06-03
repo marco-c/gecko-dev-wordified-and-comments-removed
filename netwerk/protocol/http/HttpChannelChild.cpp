@@ -10623,6 +10623,12 @@ RemoteChannelExists
 SendCancel
 (
 aStatus
+mLoadInfo
+-
+>
+GetRequestBlockingReason
+(
+)
 )
 ;
 }
