@@ -21,12 +21,6 @@ load
 1
 .
 html
-skip
--
-if
-(
-Android
-)
 pref
 (
 privacy
@@ -42,9 +36,6 @@ load
 1
 .
 html
-#
-Bug
-1639080
 load
 1399467
 -
