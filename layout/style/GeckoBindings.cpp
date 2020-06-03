@@ -4559,7 +4559,7 @@ ignore_case_
 {
 \
 const
-nsCaseInsensitiveStringComparator
+nsASCIICaseInsensitiveStringComparator
 c_
 ;
 \
