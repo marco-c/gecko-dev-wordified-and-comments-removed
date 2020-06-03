@@ -92,6 +92,9 @@ loadURI
 in
 nsIURI
 aURI
+[
+optional
+]
 in
 BrowsingContext
 aBrowsingContext

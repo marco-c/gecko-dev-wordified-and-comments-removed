@@ -4363,11 +4363,6 @@ NS_ENSURE_ARG_POINTER
 aURI
 )
 ;
-NS_ENSURE_ARG_POINTER
-(
-aBrowsingContext
-)
-;
 if
 (
 XRE_IsContentProcess
