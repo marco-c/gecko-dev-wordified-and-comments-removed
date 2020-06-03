@@ -7600,11 +7600,6 @@ return
 NS_ERROR_INVALID_ARG
 ;
 }
-bool
-rightCheck
-=
-false
-;
 if
 (
 !
@@ -7732,6 +7727,11 @@ StartsFromSpecialContent
 )
 )
 ;
+bool
+followedByVisibleContentOrBRElement
+=
+false
+;
 if
 (
 maybeNBSPFollowingVisibleContent
@@ -7740,8 +7740,8 @@ maybeNBSPFollowingVisibleContent
 isPreviousCharASCIIWhitespace
 )
 {
-if
-(
+followedByVisibleContentOrBRElement
+=
 aRun
 -
 >
@@ -7764,13 +7764,7 @@ aRun
 EndsByBRElement
 (
 )
-)
-{
-rightCheck
-=
-true
 ;
-}
 if
 (
 aRun
@@ -7906,7 +7900,7 @@ GetPreviousEditableCharPoint
 atPreviousCharOfEndOfRun
 )
 ;
-rightCheck
+followedByVisibleContentOrBRElement
 =
 true
 ;
@@ -7917,7 +7911,7 @@ if
 maybeNBSPFollowingVisibleContent
 &
 &
-rightCheck
+followedByVisibleContentOrBRElement
 )
 {
 AutoTransactionsConserveSelection
@@ -8115,7 +8109,7 @@ maybeNBSPFollowingVisibleContent
 isPreviousCharASCIIWhitespace
 &
 &
-rightCheck
+followedByVisibleContentOrBRElement
 )
 {
 MOZ_ASSERT
