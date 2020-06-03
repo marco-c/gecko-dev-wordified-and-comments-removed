@@ -82,6 +82,12 @@ a
 a
 "
 ;
+expected
+.
+groups
+=
+undefined
+;
 for
 (
 let

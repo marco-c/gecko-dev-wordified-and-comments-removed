@@ -229,6 +229,7 @@ a
 "
 abc
 "
+undefined
 ]
 )
 ;

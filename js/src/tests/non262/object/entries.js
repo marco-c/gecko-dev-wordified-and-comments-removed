@@ -294,6 +294,12 @@ input
 abc
 "
 ]
+[
+"
+groups
+"
+undefined
+]
 ]
 )
 ;
