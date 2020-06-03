@@ -513,6 +513,11 @@ AudioPacketizer
 h
 '
 '
+AudioRingBuffer
+.
+h
+'
+'
 AudioSampleFormat
 .
 h
@@ -1105,6 +1110,11 @@ cpp
 '
 '
 AudioDeviceInfo
+.
+cpp
+'
+'
+AudioRingBuffer
 .
 cpp
 '
