@@ -253,18 +253,22 @@ self
 )
 :
         
-self
+"
+"
+"
+The
+remote
+subcommands
+all
+relate
+to
+the
+remote
+protocol
 .
-parser
-.
-print_usage
-(
-)
-        
-exit
-(
-EX_USAGE
-)
+"
+"
+"
     
 SubCommand
 (
