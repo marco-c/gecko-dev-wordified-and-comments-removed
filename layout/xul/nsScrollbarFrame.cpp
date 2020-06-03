@@ -1197,9 +1197,6 @@ auto
 &
 childList
 :
-nsIFrame
-:
-:
 ChildLists
 (
 )
