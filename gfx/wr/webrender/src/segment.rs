@@ -5,6 +5,7 @@ api
 {
 BorderRadius
 ClipMode
+EdgeAaSegmentMask
 }
 ;
 use
@@ -15,15 +16,6 @@ units
 :
 :
 *
-;
-use
-crate
-:
-:
-prim_store
-:
-:
-EdgeAaSegmentMask
 ;
 use
 std
@@ -3036,6 +3028,7 @@ api
 {
 BorderRadius
 ClipMode
+EdgeAaSegmentMask
 }
 ;
 use
@@ -3050,15 +3043,6 @@ LayoutPoint
 LayoutRect
 LayoutSize
 }
-;
-use
-crate
-:
-:
-prim_store
-:
-:
-EdgeAaSegmentMask
 ;
 use
 super

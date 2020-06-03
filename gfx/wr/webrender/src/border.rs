@@ -19,6 +19,7 @@ NormalBorder
 as
 ApiNormalBorder
 RepeatMode
+EdgeAaSegmentMask
 }
 ;
 use
@@ -96,7 +97,6 @@ prim_store
 BorderSegmentInfo
 BrushSegment
 NinePatchDescriptor
-EdgeAaSegmentMask
 }
 ;
 use
