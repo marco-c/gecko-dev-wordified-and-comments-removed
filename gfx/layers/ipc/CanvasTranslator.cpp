@@ -1396,6 +1396,15 @@ defined
 (
 XP_WIN
 )
+if
+(
+!
+mDevice
+)
+{
+return
+;
+}
 gfx
 :
 :
