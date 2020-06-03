@@ -146,12 +146,6 @@ return
 mSubtreeRootChanges
 ;
 }
-bool
-AllowsAutoFocus
-(
-)
-const
-;
 explicit
 BindContext
 (
@@ -314,12 +308,6 @@ script
 )
 ;
 }
-bool
-IsSameOriginAsTop
-(
-)
-const
-;
 Document
 &
 mDoc
