@@ -2663,6 +2663,16 @@ bind
 this
 )
 ;
+Services
+.
+telemetry
+.
+setEventRecordingEnabled
+(
+REACH_EVENT_CATEGORY
+true
+)
+;
 }
 async
 onPrefChange
