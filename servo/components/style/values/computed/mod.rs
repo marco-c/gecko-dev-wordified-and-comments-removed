@@ -1482,7 +1482,7 @@ get_font
 .
 gecko
 .
-mAllowZoomAndMinSize
+mAllowZoom
 {
 self
 .
