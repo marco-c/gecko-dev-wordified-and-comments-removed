@@ -7,6 +7,11 @@ mozilla_css_Loader_h
 #
 include
 <
+tuple
+>
+#
+include
+<
 utility
 >
 #
@@ -712,7 +717,10 @@ Loading
 Complete
 }
 ;
-Tuple
+std
+:
+:
+tuple
 <
 RefPtr
 <
@@ -762,7 +770,10 @@ aSyncLoad
 )
 ;
 }
-Tuple
+std
+:
+:
+tuple
 <
 RefPtr
 <
