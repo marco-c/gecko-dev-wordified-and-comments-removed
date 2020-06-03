@@ -385,11 +385,6 @@ aPipelineId
 WebRenderImageHost
 *
 aImageHost
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
@@ -929,12 +924,6 @@ aMixBlendMode
 }
 bool
 mInitialised
-;
-wr
-:
-:
-RenderRoot
-mRenderRoot
 ;
 bool
 mIsChanged

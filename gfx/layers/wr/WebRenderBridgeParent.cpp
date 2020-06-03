@@ -10415,10 +10415,6 @@ AddAsyncImagePipeline
 (
 aPipelineId
 wrHost
-RenderRootForExternal
-(
-aRenderRoot
-)
 )
 ;
 mAsyncImageManager
