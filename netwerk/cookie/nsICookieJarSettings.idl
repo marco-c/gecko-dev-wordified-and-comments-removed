@@ -68,6 +68,11 @@ attribute
 boolean
 isOnContentBlockingAllowList
 ;
+readonly
+attribute
+AString
+firstPartyDomain
+;
 unsigned
 long
 cookiePermission

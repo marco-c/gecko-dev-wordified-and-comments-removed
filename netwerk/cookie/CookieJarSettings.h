@@ -157,6 +157,14 @@ nsIChannel
 aChannel
 )
 ;
+void
+SetFirstPartyDomain
+(
+nsIURI
+*
+aURI
+)
+;
 static
 bool
 IsRejectThirdPartyContexts
@@ -203,6 +211,9 @@ mCookiePermissions
 ;
 bool
 mIsOnContentBlockingAllowList
+;
+nsString
+mFirstPartyDomain
 ;
 State
 mState
