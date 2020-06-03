@@ -6841,15 +6841,6 @@ invalidate_rendered_frame
 transaction_msg
 .
 invalidate_rendered_frame
-fonts
-:
-self
-.
-resource_cache
-.
-get_font_instances
-(
-)
 }
 )
 ;

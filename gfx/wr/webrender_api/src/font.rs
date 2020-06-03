@@ -325,7 +325,6 @@ BaseFontInstance
 derive
 (
 Clone
-Default
 )
 ]
 #
