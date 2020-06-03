@@ -295,8 +295,6 @@ host
 =
 principal
 .
-URI
-.
 asciiHost
 ;
 }

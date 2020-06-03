@@ -1205,8 +1205,6 @@ if
 (
 principal
 .
-URI
-.
 asciiHost
 =
 =
