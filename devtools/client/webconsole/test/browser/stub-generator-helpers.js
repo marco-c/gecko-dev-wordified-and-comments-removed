@@ -185,6 +185,11 @@ cleanTimeStamp
 packet
 )
 ;
+delete
+packet
+.
+targetFront
+;
 if
 (
 !
