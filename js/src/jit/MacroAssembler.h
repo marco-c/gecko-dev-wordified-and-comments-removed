@@ -6753,12 +6753,7 @@ Label
 *
 label
 )
-DEFINED_ON
-(
-arm
-arm64
-x86_shared
-)
+PER_SHARED_ARCH
 ;
 inline
 void
@@ -7079,6 +7074,7 @@ DEFINED_ON
 (
 arm64
 x64
+mips64
 )
 ;
 template
@@ -7360,12 +7356,7 @@ Label
 *
 label
 )
-DEFINED_ON
-(
-arm
-arm64
-x86_shared
-)
+PER_SHARED_ARCH
 ;
 template
 <
