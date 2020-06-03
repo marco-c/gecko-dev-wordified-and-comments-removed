@@ -2757,6 +2757,15 @@ nsICacheEntry
 >
 mAltDataCacheEntry
 ;
+nsCOMPtr
+<
+nsIURI
+>
+mCacheEntryURI
+;
+nsCString
+mCacheIdExtension
+;
 AutoClose
 <
 nsIInputStream
@@ -3177,6 +3186,11 @@ mFirstResponseSource
 ;
 nsresult
 MaybeRaceCacheWithNetwork
+(
+)
+;
+void
+MaybeCreateCacheEntryWhenRCWN
 (
 )
 ;
