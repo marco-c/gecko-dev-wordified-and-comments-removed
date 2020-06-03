@@ -498,7 +498,7 @@ do_get_cookie_file
 (
 profile
 )
-12
+11
 )
 ;
 Assert
@@ -569,11 +569,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Assert
@@ -2458,7 +2453,7 @@ do_get_cookie_file
 (
 profile
 )
-12
+11
 )
 ;
 db
