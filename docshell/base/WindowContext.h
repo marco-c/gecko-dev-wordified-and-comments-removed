@@ -462,6 +462,13 @@ IPCInitializer
 aInit
 )
 ;
+void
+AddMixedContentSecurityState
+(
+uint32_t
+aStateFlags
+)
+;
 protected
 :
 WindowContext

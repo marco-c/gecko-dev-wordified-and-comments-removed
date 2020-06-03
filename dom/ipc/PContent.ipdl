@@ -3220,6 +3220,15 @@ principal
 )
 ;
 async
+AddMixedContentSecurityState
+(
+MaybeDiscardedWindowContext
+aContext
+uint32_t
+aStateFlags
+)
+;
+async
 NotificationEvent
 (
 nsString

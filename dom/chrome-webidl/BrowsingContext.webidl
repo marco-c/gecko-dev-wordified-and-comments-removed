@@ -95,6 +95,9 @@ interface
 nsIDocShell
 ;
 interface
+nsISecureBrowserUI
+;
+interface
 mixin
 LoadContextMixin
 {
@@ -660,6 +663,12 @@ notifyMediaMutedChanged
 boolean
 muted
 )
+;
+readonly
+attribute
+nsISecureBrowserUI
+?
+secureBrowserUI
 ;
 static
 unsigned
