@@ -34,7 +34,7 @@ h
 #
 include
 "
-mozcontainer
+MozContainer
 .
 h
 "
