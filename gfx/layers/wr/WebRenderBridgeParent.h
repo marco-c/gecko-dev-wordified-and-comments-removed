@@ -866,11 +866,11 @@ FocusTarget
 aFocusTarget
 nsTArray
 <
-RenderRootUpdates
+TransactionData
 >
 &
 &
-aRenderRootUpdates
+aTransactionData
 nsTArray
 <
 OpDestroy
@@ -1770,9 +1770,9 @@ WebRenderBridgeParent
 bool
 ProcessEmptyTransactionUpdates
 (
-RenderRootUpdates
+TransactionData
 &
-aUpdates
+aData
 bool
 *
 aScheduleComposite

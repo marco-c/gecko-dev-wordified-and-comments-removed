@@ -147,7 +147,7 @@ mScrollData
 }
 ;
 struct
-RenderRootUpdates
+TransactionData
 {
 nsTArray
 <
@@ -271,7 +271,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 >
 {
 typedef
@@ -281,7 +281,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 paramType
 ;
 static

@@ -598,7 +598,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 >
 :
 :
@@ -689,7 +689,7 @@ mozilla
 layers
 :
 :
-RenderRootUpdates
+TransactionData
 >
 :
 :

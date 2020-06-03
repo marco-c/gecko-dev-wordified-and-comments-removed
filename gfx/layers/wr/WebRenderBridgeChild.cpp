@@ -637,10 +637,10 @@ FocusTarget
 aFocusTarget
 nsTArray
 <
-RenderRootUpdates
+TransactionData
 >
 &
-aRenderRootUpdates
+transactionData
 TransactionId
 aTransactionId
 const
@@ -702,12 +702,12 @@ for
 (
 auto
 &
-update
+datum
 :
-aRenderRootUpdates
+transactionData
 )
 {
-update
+datum
 .
 mCommands
 =
@@ -751,7 +751,7 @@ std
 :
 move
 (
-aRenderRootUpdates
+transactionData
 )
 mDestroyedActors
 GetFwdTransactionId
