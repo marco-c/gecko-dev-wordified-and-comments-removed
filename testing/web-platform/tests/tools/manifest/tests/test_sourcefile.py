@@ -829,7 +829,11 @@ xht
 "
     
 "
-2dcontext
+html
+/
+canvas
+/
+element
 /
 drawing
 -
@@ -847,7 +851,11 @@ html
 "
     
 "
-2dcontext
+html
+/
+canvas
+/
+element
 /
 line
 -

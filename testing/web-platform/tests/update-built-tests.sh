@@ -10,7 +10,9 @@ sh
 set
 -
 ex
-2dcontext
+html
+/
+canvas
 /
 tools
 /
@@ -27,15 +29,6 @@ build
 .
 sh
 html
-/
-tools
-/
-build
-.
-sh
-offscreen
--
-canvas
 /
 tools
 /
