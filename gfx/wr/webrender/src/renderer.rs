@@ -27354,6 +27354,17 @@ None
 )
 ;
 }
+results
+.
+dirty_rects
+.
+push
+(
+frame
+.
+device_rect
+)
+;
 self
 .
 draw_color_target
