@@ -350,6 +350,17 @@ shared
 glean
 "
 ]
+rust_fxa_client
+=
+[
+"
+gkrust
+-
+shared
+/
+rust_fxa_client
+"
+]
 [
 dependencies
 ]
