@@ -479,15 +479,14 @@ onTargetAvailable
 function
 (
 {
-targetFront
+isTopLevel
+isTargetSwitching
 }
 )
 {
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {

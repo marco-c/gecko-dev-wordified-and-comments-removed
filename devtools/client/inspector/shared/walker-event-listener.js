@@ -189,7 +189,9 @@ async
 _onTargetAvailable
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -244,7 +246,9 @@ listener
 _onTargetDestroyed
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {

@@ -393,7 +393,9 @@ async
 _onTargetAvailable
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 {
@@ -433,7 +435,9 @@ this
 .
 _watchResourcesForTarget
 (
+type
 targetFront
+isTopLevel
 resourceType
 )
 ;
@@ -442,6 +446,7 @@ resourceType
 _onTargetDestroyed
 (
 {
+type
 targetFront
 }
 )
@@ -698,7 +703,16 @@ this
 .
 _watchResourcesForTarget
 (
+targetType
 target
+target
+=
+=
+this
+.
+targetList
+.
+targetFront
 resourceType
 )
 )
@@ -716,7 +730,9 @@ promises
 }
 _watchResourcesForTarget
 (
+targetType
 targetFront
+isTopLevel
 resourceType
 )
 {
@@ -746,7 +762,9 @@ targetList
 this
 .
 targetList
+targetType
 targetFront
+isTopLevel
 isFissionEnabledOnContentToolbox
 :
 this
@@ -1030,7 +1048,9 @@ DOCUMENT_EVENTS
 (
 {
 targetList
+targetType
 targetFront
+isTopLevel
 onAvailable
 }
 )
@@ -1038,8 +1058,6 @@ onAvailable
 if
 (
 !
-targetFront
-.
 isTopLevel
 )
 {

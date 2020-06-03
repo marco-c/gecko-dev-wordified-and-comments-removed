@@ -303,7 +303,9 @@ onProcessAvailable
 =
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 =
@@ -376,7 +378,9 @@ onFrameAvailable
 =
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 =
@@ -384,9 +388,7 @@ targetFront
 {
 is
 (
-targetFront
-.
-targetType
+type
 TargetList
 .
 TYPES
@@ -405,8 +407,6 @@ targets
 ;
 ok
 (
-targetFront
-.
 isTopLevel
 "
 We
@@ -764,7 +764,9 @@ onFrameAvailable
 =
 (
 {
+type
 targetFront
+isTopLevel
 }
 )
 =
@@ -772,9 +774,7 @@ targetFront
 {
 is
 (
-targetFront
-.
-targetType
+type
 TargetList
 .
 TYPES
@@ -793,8 +793,6 @@ targets
 ;
 ok
 (
-targetFront
-.
 isTopLevel
 "
 We
