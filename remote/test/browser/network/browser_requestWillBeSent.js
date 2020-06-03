@@ -220,6 +220,7 @@ history
 configureHistory
 (
 client
+2
 )
 ;
 const
@@ -610,6 +611,7 @@ function
 configureHistory
 (
 client
+total
 )
 {
 const
@@ -634,7 +636,7 @@ history
 new
 RecordEvents
 (
-4
+total
 )
 ;
 history
