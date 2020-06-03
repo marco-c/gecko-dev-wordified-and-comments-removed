@@ -40,7 +40,7 @@ class
 nsIFile
 ;
 class
-nsIThread
+nsISerialEventTarget
 ;
 class
 nsITimer
@@ -193,9 +193,9 @@ mTimers
 ;
 nsCOMPtr
 <
-nsIThread
+nsISerialEventTarget
 >
-mThread
+mBackgroundET
 ;
 bool
 mShutdownPending
