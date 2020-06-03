@@ -2626,6 +2626,13 @@ true
 }
 MOZ_ASSERT
 (
+IsTypeInferenceEnabled
+(
+)
+)
+;
+MOZ_ASSERT
+(
 adi
 .
 shouldSetReturnOverride
