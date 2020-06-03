@@ -122,6 +122,9 @@ _documentURI
 _documentContentType
 "
 "
+_contentTitle
+"
+"
 _characterSet
 "
 "
@@ -256,6 +259,14 @@ _documentContentType
 outer
 .
 _documentContentType
+;
+inner
+.
+_contentTitle
+=
+outer
+.
+_contentTitle
 ;
 inner
 .
@@ -1295,6 +1306,9 @@ INNER_TO_OUTER_MESSAGES
 PageStyle
 :
 StyleSheets
+"
+"
+DOMTitleChanged
 "
 "
 InPermitUnload
