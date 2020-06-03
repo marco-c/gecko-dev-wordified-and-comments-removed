@@ -200,6 +200,17 @@ mozilla
 /
 dom
 /
+SessionHistoryEntry
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 SessionStoreUtils
 .
 h

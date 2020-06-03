@@ -4163,6 +4163,15 @@ MaybeDiscardedBrowsingContext
 aContext
 )
 ;
+async
+HistoryCommit
+(
+MaybeDiscardedBrowsingContext
+aContext
+uint64_t
+aSessionHistoryEntryID
+)
+;
 both
 :
 async
