@@ -623,6 +623,7 @@ serde
 skip_serializing
 )
 ]
+pub
 key
 :
 String
@@ -640,6 +641,7 @@ is_none
 "
 )
 ]
+pub
 old_value
 :
 Option
@@ -660,6 +662,7 @@ is_none
 "
 )
 ]
+pub
 new_value
 :
 Option
@@ -672,6 +675,7 @@ JsonValue
 derive
 (
 Debug
+Default
 Clone
 PartialEq
 )
@@ -690,6 +694,7 @@ StorageValueChange
 impl
 StorageChanges
 {
+pub
 fn
 new
 (
@@ -699,17 +704,13 @@ new
 Self
 {
 Self
-{
-changes
-:
-Vec
 :
 :
-new
+default
 (
 )
 }
-}
+pub
 fn
 with_capacity
 (
@@ -734,6 +735,7 @@ n
 )
 }
 }
+pub
 fn
 is_empty
 (
@@ -752,6 +754,7 @@ is_empty
 (
 )
 }
+pub
 fn
 push
 (
