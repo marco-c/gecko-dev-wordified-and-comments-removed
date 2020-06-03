@@ -7496,15 +7496,6 @@ SimdOp
 V8x16Shuffle
 )
 :
-case
-uint32_t
-(
-SimdOp
-:
-:
-V8x16ShuffleLegacy
-)
-:
 {
 V128
 mask
