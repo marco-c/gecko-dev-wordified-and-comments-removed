@@ -3378,16 +3378,6 @@ urls
 ]
 ;
 }
-getBlockedUrls
-(
-)
-{
-return
-this
-.
-blockedURLs
-;
-}
 _setupResponseListener
 :
 function
