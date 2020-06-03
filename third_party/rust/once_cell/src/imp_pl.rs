@@ -461,7 +461,7 @@ test
 [
 cfg
 (
-target_pointer_width
+pointer_width
 =
 "
 64
@@ -494,9 +494,7 @@ OnceCell
 u32
 >
 >
-(
-)
-3
+2
 *
 size_of
 :
@@ -504,8 +502,6 @@ size_of
 <
 u32
 >
-(
-)
 )
 ;
 }
