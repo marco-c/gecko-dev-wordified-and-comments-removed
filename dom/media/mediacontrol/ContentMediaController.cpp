@@ -599,6 +599,12 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+bc
+-
+>
+Id
+(
+)
 aState
 )
 ;
@@ -765,6 +771,12 @@ controller
 >
 NotifyMediaAudibleChanged
 (
+bc
+-
+>
+Id
+(
+)
 aState
 )
 ;

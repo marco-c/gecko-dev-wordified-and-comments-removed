@@ -30835,6 +30835,11 @@ controller
 >
 NotifyMediaPlaybackChanged
 (
+aContext
+.
+ContextId
+(
+)
 aState
 )
 ;
@@ -30908,6 +30913,11 @@ controller
 >
 NotifyMediaAudibleChanged
 (
+aContext
+.
+ContextId
+(
+)
 aState
 )
 ;
