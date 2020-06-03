@@ -667,6 +667,14 @@ test_name
 )
                     
 )
+                
+documentation
+.
+append
+(
+'
+'
+)
             
 framework_rst
 =

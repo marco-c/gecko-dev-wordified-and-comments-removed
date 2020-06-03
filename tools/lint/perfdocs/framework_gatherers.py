@@ -979,15 +979,10 @@ title
 test_name
         
 return
-self
-.
-_build_section_with_header
-(
+[
+"
+*
+"
++
 title
-test_description
-header_type
-=
-"
-H5
-"
-)
+]
