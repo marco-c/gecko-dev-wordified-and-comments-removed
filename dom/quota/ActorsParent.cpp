@@ -7775,7 +7775,7 @@ void
 RegisterNormalOriginOp
 (
 NormalOriginOperationBase
-*
+&
 aNormalOriginOp
 )
 {
@@ -7802,6 +7802,7 @@ gNormalOriginOps
 >
 AppendElement
 (
+&
 aNormalOriginOp
 )
 ;
@@ -7810,7 +7811,7 @@ void
 UnregisterNormalOriginOp
 (
 NormalOriginOperationBase
-*
+&
 aNormalOriginOp
 )
 {
@@ -7828,6 +7829,7 @@ gNormalOriginOps
 >
 RemoveElement
 (
+&
 aNormalOriginOp
 )
 ;
@@ -18429,6 +18431,7 @@ timestamp
 ;
 RegisterNormalOriginOp
 (
+*
 op
 )
 ;
@@ -37041,6 +37044,7 @@ nullptr
 }
 UnregisterNormalOriginOp
 (
+*
 this
 )
 ;
@@ -38501,6 +38505,7 @@ actor
 ;
 RegisterNormalOriginOp
 (
+*
 actor
 )
 ;
@@ -39015,6 +39020,7 @@ actor
 ;
 RegisterNormalOriginOp
 (
+*
 actor
 )
 ;
