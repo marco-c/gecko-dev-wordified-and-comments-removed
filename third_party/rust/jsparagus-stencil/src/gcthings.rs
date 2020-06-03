@@ -5,7 +5,7 @@ crate
 function
 :
 :
-FunctionCreationDataIndex
+FunctionStencilIndex
 ;
 use
 crate
@@ -51,7 +51,7 @@ SourceAtomSetIndex
 )
 Function
 (
-FunctionCreationDataIndex
+FunctionStencilIndex
 )
 RegExp
 (
@@ -224,7 +224,7 @@ mut
 self
 fun_index
 :
-FunctionCreationDataIndex
+FunctionStencilIndex
 )
 -
 >

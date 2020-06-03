@@ -37,7 +37,7 @@ section
 is
 generated
 by
-update_opcodes
+update_stencil
 .
 py
 .

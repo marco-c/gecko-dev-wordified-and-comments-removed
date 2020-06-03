@@ -493,10 +493,7 @@ bytecode
 &
 result
 .
-scripts
-[
-0
-]
+script
 .
 bytecode
 ;
