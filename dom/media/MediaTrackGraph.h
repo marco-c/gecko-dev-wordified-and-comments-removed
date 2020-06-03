@@ -2656,6 +2656,14 @@ aTicksToProcess
 )
 ;
 void
+NotifyJSContext
+(
+JSContext
+*
+aCx
+)
+;
+void
 DispatchToMainThreadStableState
 (
 already_AddRefed
