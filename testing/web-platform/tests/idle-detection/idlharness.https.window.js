@@ -135,11 +135,6 @@ idle
 new
 IdleDetector
 (
-{
-threshold
-:
-60000
-}
 )
 ;
 let
