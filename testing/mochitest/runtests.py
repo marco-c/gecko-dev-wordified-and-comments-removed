@@ -16385,14 +16385,12 @@ tb
 =
 marionette_exception
             
-raise
-exc
-(
-value
-)
+six
 .
-with_traceback
+reraise
 (
+exc
+value
 tb
 )
         
