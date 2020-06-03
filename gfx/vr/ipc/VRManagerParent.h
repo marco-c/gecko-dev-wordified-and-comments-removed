@@ -478,12 +478,6 @@ VRManagerParent
 aVRManager
 )
 ;
-static
-void
-ShutdownInternal
-(
-)
-;
 RefPtr
 <
 VRManagerParent
