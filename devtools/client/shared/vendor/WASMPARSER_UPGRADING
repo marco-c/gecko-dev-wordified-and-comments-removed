@@ -2,12 +2,12 @@
 wasmparser
 version
 Current
-vesion
+version
 is
 :
 0
 .
-10
+14
 .
 0
 #
@@ -52,7 +52,7 @@ wasmparser
 -
 0
 .
-10
+14
 .
 0
 .
@@ -60,7 +60,7 @@ tgz
 |
 tar
 -
-x
+zx
 -
 -
 strip
