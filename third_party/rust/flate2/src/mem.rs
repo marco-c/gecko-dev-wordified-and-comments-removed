@@ -26,6 +26,9 @@ std
 slice
 ;
 use
+crate
+:
+:
 ffi
 :
 :
@@ -39,6 +42,9 @@ InflateBackend
 }
 ;
 use
+crate
+:
+:
 Compression
 ;
 #
@@ -1660,9 +1666,15 @@ io
 Write
 ;
 use
+crate
+:
+:
 write
 ;
 use
+crate
+:
+:
 {
 Compression
 Decompress
@@ -1681,6 +1693,9 @@ zlib
 )
 ]
 use
+crate
+:
+:
 {
 Compress
 FlushCompress

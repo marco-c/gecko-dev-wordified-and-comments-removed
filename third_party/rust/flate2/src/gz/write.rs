@@ -81,6 +81,9 @@ GzHeader
 }
 ;
 use
+crate
+:
+:
 crc
 :
 :
@@ -90,9 +93,15 @@ CrcWriter
 }
 ;
 use
+crate
+:
+:
 zio
 ;
 use
+crate
+:
+:
 {
 Compress
 Compression

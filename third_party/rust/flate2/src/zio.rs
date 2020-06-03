@@ -23,6 +23,9 @@ std
 mem
 ;
 use
+crate
+:
+:
 {
 Compress
 Decompress
@@ -1343,9 +1346,6 @@ len
 let
 n
 =
-try
-!
-(
 self
 .
 obj
@@ -1365,7 +1365,7 @@ self
 .
 buf
 )
-)
+?
 ;
 if
 n

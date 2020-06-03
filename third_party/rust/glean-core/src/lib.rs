@@ -719,6 +719,7 @@ new
 cfg
 .
 data_path
+false
 )
 data_path
 :
@@ -1502,6 +1503,9 @@ get_upload_task
 (
 &
 self
+log_ping
+:
+bool
 )
 -
 >
@@ -1513,6 +1517,7 @@ upload_manager
 .
 get_upload_task
 (
+log_ping
 )
 }
 pub

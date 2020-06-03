@@ -60,6 +60,9 @@ super
 bufread
 ;
 use
+crate
+:
+:
 bufreader
 :
 :
@@ -112,6 +115,7 @@ r
 R
 level
 :
+crate
 :
 :
 Compression

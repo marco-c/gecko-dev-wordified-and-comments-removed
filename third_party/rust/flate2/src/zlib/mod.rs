@@ -48,6 +48,9 @@ Rng
 }
 ;
 use
+crate
+:
+:
 zlib
 :
 :
@@ -57,6 +60,9 @@ write
 }
 ;
 use
+crate
+:
+:
 Compression
 ;
 #
@@ -108,6 +114,7 @@ default
 let
 v
 =
+crate
 :
 :
 random_bytes
@@ -418,6 +425,7 @@ default
 let
 v
 =
+crate
 :
 :
 random_bytes
@@ -635,6 +643,7 @@ roundtrip2
 let
 v
 =
+crate
 :
 :
 random_bytes
@@ -739,6 +748,7 @@ roundtrip3
 let
 v
 =
+crate
 :
 :
 random_bytes
@@ -854,6 +864,7 @@ reset_decoder
 let
 v
 =
+crate
 :
 :
 random_bytes
