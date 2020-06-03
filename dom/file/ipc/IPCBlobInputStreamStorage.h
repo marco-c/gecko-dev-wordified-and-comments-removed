@@ -82,7 +82,10 @@ uint64_t
 aChildID
 )
 ;
-void
+nsCOMPtr
+<
+nsIInputStream
+>
 ForgetStream
 (
 const
@@ -146,11 +149,15 @@ private
 IPCBlobInputStreamStorage
 (
 )
+=
+default
 ;
 ~
 IPCBlobInputStreamStorage
 (
 )
+=
+default
 ;
 struct
 StreamData
