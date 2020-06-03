@@ -34448,6 +34448,11 @@ initWithEnclosingParseContext
 (
 outerpc
 fun
+-
+>
+flags
+(
+)
 FunctionSyntaxKind
 :
 :
