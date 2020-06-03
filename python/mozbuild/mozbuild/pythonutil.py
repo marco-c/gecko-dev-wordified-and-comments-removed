@@ -72,14 +72,16 @@ items
 :
         
 if
-not
-hasattr
+getattr
 (
 module
 '
 __file__
 '
+None
 )
+is
+None
 :
             
 continue
