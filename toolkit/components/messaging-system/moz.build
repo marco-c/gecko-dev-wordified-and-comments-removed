@@ -60,6 +60,13 @@ SpecialMessageActionSchemas
 js
 '
 '
+schemas
+/
+TriggerActionSchemas
+.
+js
+'
+'
 test
 /
 MSTestUtils
