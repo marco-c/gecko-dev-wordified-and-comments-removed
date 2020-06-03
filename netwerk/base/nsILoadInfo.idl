@@ -894,6 +894,13 @@ isInThirdPartyContext
 [
 infallible
 ]
+attribute
+boolean
+isThirdPartyContextToTopWindow
+;
+[
+infallible
+]
 readonly
 attribute
 unsigned

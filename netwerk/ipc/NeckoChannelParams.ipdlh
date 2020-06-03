@@ -309,6 +309,9 @@ bool
 isInThirdPartyContext
 ;
 bool
+isThirdPartyContextToTopWindow
+;
+bool
 isFormSubmission
 ;
 bool
@@ -467,6 +470,9 @@ requestBlockingReason
 ;
 bool
 hasStoragePermission
+;
+bool
+isThirdPartyContextToTopWindow
 ;
 }
 ;
