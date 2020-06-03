@@ -42901,14 +42901,6 @@ color
 -
 swatch
 "
-"
-:
-file
--
-chooser
--
-button
-"
 ]
 ;
 exports
