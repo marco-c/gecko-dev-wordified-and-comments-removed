@@ -3995,12 +3995,6 @@ g
 .
 compareRetainedDisplayLists
 ;
-sandbox
-.
-skiaPdf
-=
-false
-;
 #
 ifdef
 RELEASE_OR_BETA
