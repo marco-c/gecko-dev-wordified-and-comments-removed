@@ -488,9 +488,13 @@ mMessage
 {
 aRv
 .
-Throw
+NoteJSContextException
 (
-NS_ERROR_OUT_OF_MEMORY
+aGlobal
+.
+Context
+(
+)
 )
 ;
 return
@@ -590,9 +594,9 @@ mMessage
 {
 aRv
 .
-Throw
+NoteJSContextException
 (
-NS_ERROR_OUT_OF_MEMORY
+cx
 )
 ;
 return
