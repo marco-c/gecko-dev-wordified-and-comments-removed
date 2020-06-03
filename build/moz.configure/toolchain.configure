@@ -11216,6 +11216,16 @@ LD_PRINT_OPTIONS
 '
 1
 '
+env
+[
+'
+LC_ALL
+'
+]
+=
+'
+C
+'
 retcode
 stdout
 stderr
