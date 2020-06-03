@@ -118,6 +118,10 @@ clang
 .
 yml
 -
+codeql
+.
+yml
+-
 coverity
 .
 yml
