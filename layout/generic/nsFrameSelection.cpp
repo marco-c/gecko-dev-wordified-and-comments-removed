@@ -535,7 +535,7 @@ aChildOffset
 static
 nsINode
 *
-GetCellParent
+GetClosestInclusiveTableCellAncestor
 (
 nsINode
 *
@@ -2855,7 +2855,7 @@ nullptr
 static
 nsINode
 *
-GetCellParent
+GetClosestInclusiveTableCellAncestor
 (
 nsINode
 *
@@ -6290,7 +6290,7 @@ nsINode
 *
 cellparent
 =
-GetCellParent
+GetClosestInclusiveTableCellAncestor
 (
 aNewFocus
 )
@@ -6375,7 +6375,7 @@ nsINode
 *
 cellparent
 =
-GetCellParent
+GetClosestInclusiveTableCellAncestor
 (
 aNewFocus
 )
