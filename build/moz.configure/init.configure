@@ -2467,6 +2467,7 @@ early_options
 depends
 (
 mozconfig
+early_options
 '
 MOZ_AUTOMATION
 '
@@ -2498,6 +2499,7 @@ def
 mozconfig_options
 (
 mozconfig
+early_options
 automation
 help
 )
@@ -2701,6 +2703,12 @@ s
 %
 arg
 )
+if
+key
+not
+in
+early_options
+:
 helper
 .
 add
