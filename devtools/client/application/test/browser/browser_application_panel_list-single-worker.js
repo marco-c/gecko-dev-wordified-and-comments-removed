@@ -292,7 +292,6 @@ resources
 service
 -
 workers
-/
 "
 ;
 ok

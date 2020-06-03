@@ -185,7 +185,6 @@ resources
 service
 -
 workers
-/
 "
 ;
 ok
