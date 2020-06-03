@@ -106,6 +106,17 @@ config
 json
 '
 '
+search
+-
+default
+-
+override
+-
+allowlist
+.
+json
+'
+'
 sites
 -
 classification

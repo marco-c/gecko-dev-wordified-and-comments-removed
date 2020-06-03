@@ -1150,6 +1150,13 @@ searchStartupPromise
 {
 await
 searchStartupPromise
+.
+catch
+(
+Cu
+.
+reportError
+)
 ;
 }
 return
@@ -1760,6 +1767,7 @@ prompt
 }
 else
 {
+await
 this
 .
 setDefault
