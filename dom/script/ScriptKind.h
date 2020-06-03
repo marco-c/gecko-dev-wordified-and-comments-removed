@@ -16,6 +16,7 @@ ScriptKind
 {
 eClassic
 eModule
+eEvent
 }
 ;
 }
