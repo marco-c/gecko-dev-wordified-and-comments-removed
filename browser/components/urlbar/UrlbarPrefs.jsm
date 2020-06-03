@@ -250,6 +250,14 @@ false
 ]
 [
 "
+richSuggestions
+.
+tail
+"
+false
+]
+[
+"
 searchTips
 .
 test
