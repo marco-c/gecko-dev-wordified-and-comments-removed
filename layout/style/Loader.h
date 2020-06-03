@@ -690,10 +690,9 @@ SheetState
 :
 uint8_t
 {
-Unknown
+NeedsParser
 =
 0
-NeedsParser
 Pending
 Loading
 Complete
