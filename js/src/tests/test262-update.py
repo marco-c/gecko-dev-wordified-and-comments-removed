@@ -91,18 +91,6 @@ private
 "
 regexp
 -
-dotall
-"
-    
-"
-regexp
--
-lookbehind
-"
-    
-"
-regexp
--
 match
 -
 indices
@@ -114,16 +102,6 @@ regexp
 named
 -
 groups
-"
-    
-"
-regexp
--
-unicode
--
-property
--
-escapes
 "
     
 "
