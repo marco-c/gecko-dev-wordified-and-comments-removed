@@ -6797,7 +6797,11 @@ hint
 &
 =
 ~
+(
 nsChangeHint_UpdatePostTransformOverflow
+|
+nsChangeHint_UpdateTransformLayer
+)
 ;
 }
 if
