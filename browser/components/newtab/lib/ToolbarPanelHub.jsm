@@ -2564,12 +2564,11 @@ data
 action
 :
 "
-cfr_user_event
-"
-source
-:
-"
-CFR
+whats
+-
+new
+-
+panel_user_event
 "
 .
 .
