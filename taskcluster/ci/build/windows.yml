@@ -5793,7 +5793,7 @@ win32
 opt
 type
 :
-nightly
+shippable
 attributes
 :
 shippable
@@ -5873,7 +5873,7 @@ devedition
 opt
 symbol
 :
-N
+B
 tier
 :
 1
@@ -6166,7 +6166,7 @@ win64
 opt
 type
 :
-nightly
+shippable
 attributes
 :
 shippable
@@ -6202,7 +6202,7 @@ devedition
 opt
 symbol
 :
-N
+B
 tier
 :
 1
@@ -8457,7 +8457,7 @@ aarch64
 opt
 type
 :
-nightly
+shippable
 attributes
 :
 shippable
@@ -8526,7 +8526,7 @@ devedition
 opt
 symbol
 :
-N
+B
 tier
 :
 1
@@ -9145,7 +9145,7 @@ eme
 opt
 type
 :
-nightly
+shippable
 attributes
 :
 enable

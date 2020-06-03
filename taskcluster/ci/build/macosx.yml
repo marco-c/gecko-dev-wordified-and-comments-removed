@@ -1045,7 +1045,7 @@ macosx64
 opt
 type
 :
-nightly
+shippable
 treeherder
 :
 platform
@@ -1059,7 +1059,7 @@ devedition
 opt
 symbol
 :
-N
+B
 tier
 :
 1
