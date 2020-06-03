@@ -11088,6 +11088,17 @@ continue
 nsAutoCString
 skipHostList
 ;
+if
+(
+aListType
+=
+=
+nsIUrlClassifierFeature
+:
+:
+blacklist
+)
+{
 rv
 =
 feature
@@ -11111,6 +11122,7 @@ rv
 {
 continue
 ;
+}
 }
 ipcFeatures
 .
