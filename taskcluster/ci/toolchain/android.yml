@@ -203,7 +203,7 @@ linux
 .
 tar
 .
-xz
+zst
 toolchain
 -
 alias
@@ -327,7 +327,7 @@ linux
 .
 tar
 .
-xz
+zst
 toolchain
 -
 alias
@@ -449,7 +449,7 @@ ndk
 .
 tar
 .
-xz
+zst
 toolchain
 -
 alias
@@ -630,7 +630,7 @@ dependencies
 .
 tar
 .
-xz
+zst
 toolchain
 -
 alias

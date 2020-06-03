@@ -128,8 +128,7 @@ android
 -
 ndk
 tar
-cf
--
+cv
 -
 C
 /
@@ -143,7 +142,15 @@ android
 -
 ndk
 |
-xz
+GECKO_PATH
+/
+taskcluster
+/
+scripts
+/
+misc
+/
+zstdpy
 >
 UPLOAD_DIR
 /
@@ -153,7 +160,7 @@ ndk
 .
 tar
 .
-xz
+zst
 ls
 -
 al

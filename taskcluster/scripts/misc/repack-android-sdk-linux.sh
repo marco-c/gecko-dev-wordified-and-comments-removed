@@ -137,8 +137,7 @@ sdkmanager
 -
 list
 tar
-cf
--
+cv
 -
 C
 /
@@ -154,7 +153,15 @@ sdk
 -
 linux
 |
-xz
+GECKO_PATH
+/
+taskcluster
+/
+scripts
+/
+misc
+/
+zstdpy
 >
 UPLOAD_DIR
 /
@@ -166,7 +173,7 @@ linux
 .
 tar
 .
-xz
+zst
 ls
 -
 al
