@@ -1107,6 +1107,15 @@ GLContextGLX
 n
 "
 "
+mutex
+:
+libEGL_mesa
+.
+so
+\
+n
+"
+"
 race
 :
 third_party
