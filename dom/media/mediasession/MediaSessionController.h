@@ -165,7 +165,7 @@ void
 SetDeclaredPlaybackState
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 MediaSessionPlaybackState
 aState
 )
@@ -177,7 +177,7 @@ void
 NotifySessionCreated
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 )
 =
 0
@@ -187,7 +187,7 @@ void
 NotifySessionDestroyed
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 )
 =
 0
@@ -197,7 +197,7 @@ void
 UpdateMetadata
 (
 uint64_t
-aSessionContextId
+aBrowsingContextId
 const
 Maybe
 <
@@ -358,7 +358,7 @@ HandleActualPlaybackStateChanged
 0
 ;
 uint64_t
-mTopLevelBCId
+mTopLevelBrowsingContextId
 ;
 Maybe
 <

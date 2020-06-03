@@ -112,12 +112,12 @@ MediaController
 MediaController
 (
 uint64_t
-aContextId
+aBrowsingContextId
 )
 :
 MediaSessionController
 (
-aContextId
+aBrowsingContextId
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -390,7 +390,7 @@ Id
 const
 {
 return
-mTopLevelBCId
+mTopLevelBrowsingContextId
 ;
 }
 bool
