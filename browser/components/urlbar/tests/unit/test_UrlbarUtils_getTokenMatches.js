@@ -948,7 +948,7 @@ phrase
 add_task
 (
 function
-testReverse
+testSuggestions
 (
 )
 {
@@ -1044,6 +1044,10 @@ mOzIlLa
 expected
 :
 [
+[
+2
+5
+]
 ]
 }
 {
@@ -1065,6 +1069,10 @@ mozilla
 expected
 :
 [
+[
+2
+5
+]
 ]
 }
 {
@@ -1098,6 +1106,9 @@ mo
 "
 om
 "
+"
+la
+"
 ]
 phrase
 :
@@ -1117,6 +1128,10 @@ expected
 10
 9
 ]
+[
+21
+2
+]
 ]
 }
 {
@@ -1128,6 +1143,9 @@ mo
 "
 "
 om
+"
+"
+la
 "
 ]
 phrase
@@ -1148,6 +1166,10 @@ expected
 10
 9
 ]
+[
+21
+2
+]
 ]
 }
 {
@@ -1159,6 +1181,9 @@ MO
 "
 "
 OM
+"
+"
+LA
 "
 ]
 phrase
@@ -1178,6 +1203,10 @@ expected
 [
 10
 9
+]
+[
+21
+2
 ]
 ]
 }

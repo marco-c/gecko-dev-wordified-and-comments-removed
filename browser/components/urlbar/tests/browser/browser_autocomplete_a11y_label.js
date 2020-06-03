@@ -571,7 +571,8 @@ expectedSearches
 [
 searchTerm
 "
-foofoo
+foo
+foo
 "
 "
 foo
