@@ -106,6 +106,13 @@ DOMLocalization
 nsIGlobalObject
 *
 aGlobal
+const
+bool
+aSync
+const
+BundleGenerator
+&
+aBundleGenerator
 )
 ;
 static
