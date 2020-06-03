@@ -289,6 +289,17 @@ NSString
 )
 notification
 ;
+-
+(
+BOOL
+)
+moxBlockSelector
+:
+(
+SEL
+)
+selector
+;
 #
 pragma
 mark
