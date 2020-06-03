@@ -407,10 +407,6 @@ origin
 -
 frame
 &
-allowed
-=
-false
-&
 rootdocument
 =
 false
@@ -495,10 +491,6 @@ cross
 origin
 -
 frame
-&
-allowed
-=
-false
 &
 rootdocument
 =
