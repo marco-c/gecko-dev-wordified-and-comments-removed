@@ -1176,6 +1176,17 @@ SetIsNativeAnonymousRoot
 (
 )
 ;
+button
+-
+>
+SetPseudoElementType
+(
+PseudoStyleType
+:
+:
+fileChooserButton
+)
+;
 nsAutoString
 buttonTxt
 ;
