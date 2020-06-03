@@ -73,10 +73,12 @@ PrioPacket
 define
 AAD_LEN
 (
-strlen
+sizeof
 (
 PRIO_TAG
 )
+-
+1
 +
 CURVE25519_KEY_LEN
 +
