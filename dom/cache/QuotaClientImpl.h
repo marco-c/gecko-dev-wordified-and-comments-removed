@@ -512,12 +512,11 @@ const
 AtomicBool
 &
 aCanceled
+bool
+aInitializing
 UsageInfo
 *
 aUsageInfo
-const
-bool
-aInitializing
 )
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING

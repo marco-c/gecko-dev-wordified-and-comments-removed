@@ -927,8 +927,8 @@ aPersistenceType
 aGroup
 aOrigin
 aCanceled
-aUsageInfo
 true
+aUsageInfo
 )
 ;
 }
@@ -964,8 +964,8 @@ aPersistenceType
 aGroup
 aOrigin
 aCanceled
-aUsageInfo
 false
+aUsageInfo
 )
 ;
 }
@@ -1503,12 +1503,12 @@ const
 AtomicBool
 &
 aCanceled
-UsageInfo
-*
-aUsageInfo
 const
 bool
 aInitializing
+UsageInfo
+*
+aUsageInfo
 )
 {
 AssertIsOnIOThread
