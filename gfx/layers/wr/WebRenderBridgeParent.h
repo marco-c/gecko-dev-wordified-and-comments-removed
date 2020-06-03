@@ -2936,9 +2936,6 @@ mSkippedCompositeId
 TimeStamp
 mMostRecentComposite
 ;
-Mutex
-mRenderRootRectMutex
-;
 Maybe
 <
 wr
