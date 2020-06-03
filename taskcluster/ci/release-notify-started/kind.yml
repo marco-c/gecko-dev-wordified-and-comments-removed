@@ -218,13 +218,6 @@ default
 ]
 jobs
 :
-fennec
-:
-shipping
--
-product
-:
-fennec
 firefox
 :
 shipping

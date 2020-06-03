@@ -62,16 +62,6 @@ by
 -
 platform
 :
-fennec
--
-release
-:
--
-pub
-/
-mobile
-/
-candidates
 devedition
 -
 release

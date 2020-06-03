@@ -1154,14 +1154,6 @@ I
 (
 pg
 )
-mozapkpublisher
-:
-symbol
-:
-I
-(
-apk
-)
 update
 -
 verify

@@ -888,7 +888,7 @@ e
 .
 g
 .
-promote_fennec
+promote_firefox
 push_devedition
 or
 ship_firefox
@@ -1649,7 +1649,7 @@ full
 command
 for
 a
-promote_fennec
+promote_firefox
 test
 might
 look
@@ -1689,7 +1689,7 @@ gecko
 /
 params
 /
-promote_fennec
+promote_firefox
 .
 yml
 \
@@ -1706,7 +1706,7 @@ maple
 -
 promote
 -
-fennec
+firefox
 .
 yml
 \
@@ -1736,7 +1736,7 @@ gecko
 /
 params
 /
-promote_fennec
+promote_firefox
 .
 yml
 )
