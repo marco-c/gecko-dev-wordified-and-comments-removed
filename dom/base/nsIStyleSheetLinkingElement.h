@@ -426,17 +426,6 @@ aCharset
 ;
 virtual
 void
-OverrideBaseURI
-(
-nsIURI
-*
-aNewBaseURI
-)
-=
-0
-;
-virtual
-void
 SetLineNumber
 (
 uint32_t

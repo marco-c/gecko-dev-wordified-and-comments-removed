@@ -188,15 +188,6 @@ aCharset
 override
 ;
 void
-OverrideBaseURI
-(
-nsIURI
-*
-aNewBaseURI
-)
-override
-;
-void
 SetLineNumber
 (
 uint32_t
