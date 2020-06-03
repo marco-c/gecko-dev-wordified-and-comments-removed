@@ -38,13 +38,11 @@ true
 )
 ;
 const
-{
-ExtensionBlocklist
-:
 ExtensionBlocklistMLBF
-}
 =
-Blocklist
+getExtensionBlocklistMLBF
+(
+)
 ;
 const
 blockedAddon
