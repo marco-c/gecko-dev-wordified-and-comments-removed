@@ -99,8 +99,14 @@ DWRITE_FONT_FACE_TYPE
 aFaceType
 uint32_t
 aNumberOfFaces
+size_t
+aDataLength
 )
 :
+NativeFontResource
+(
+aDataLength
+)
 mFactory
 (
 aFactory

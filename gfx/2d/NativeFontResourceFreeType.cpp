@@ -45,6 +45,10 @@ FT_Library
 aFTLibrary
 )
 :
+NativeFontResource
+(
+aDataLength
+)
 mFontData
 (
 std

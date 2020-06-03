@@ -1327,6 +1327,13 @@ Config
 aConfig
 )
 ;
+NativeFontResource
+:
+:
+RegisterMemoryReporter
+(
+)
+;
 }
 void
 Factory

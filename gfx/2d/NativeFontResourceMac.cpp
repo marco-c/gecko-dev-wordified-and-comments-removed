@@ -137,6 +137,7 @@ new
 NativeFontResourceMac
 (
 fontRef
+aDataLength
 )
 ;
 return

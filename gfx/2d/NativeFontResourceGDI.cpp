@@ -109,6 +109,7 @@ new
 NativeFontResourceGDI
 (
 fontResourceHandle
+aDataLength
 )
 ;
 return

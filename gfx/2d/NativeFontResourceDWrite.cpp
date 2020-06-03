@@ -1085,6 +1085,7 @@ forget
 )
 faceType
 numberOfFaces
+aDataLength
 )
 ;
 return

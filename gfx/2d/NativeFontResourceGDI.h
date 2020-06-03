@@ -100,8 +100,14 @@ NativeFontResourceGDI
 (
 HANDLE
 aFontResourceHandle
+size_t
+aDataLength
 )
 :
+NativeFontResource
+(
+aDataLength
+)
 mFontResourceHandle
 (
 aFontResourceHandle
