@@ -9263,7 +9263,7 @@ dest
 )
 DEFINED_ON
 (
-x64
+x86_shared
 )
 ;
 inline
@@ -9277,7 +9277,7 @@ dest
 )
 DEFINED_ON
 (
-x64
+x86_shared
 )
 ;
 inline
@@ -9291,7 +9291,7 @@ dest
 )
 DEFINED_ON
 (
-x64
+x86_shared
 )
 ;
 inline
