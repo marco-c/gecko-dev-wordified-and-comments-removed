@@ -25950,14 +25950,8 @@ FrameTransformProperties
 aProperties
 TransformReferenceBox
 &
-const
-nsPoint
-&
-aOrigin
 float
 aAppUnitsPerPixel
-uint32_t
-aFlags
 )
 ;
 struct
