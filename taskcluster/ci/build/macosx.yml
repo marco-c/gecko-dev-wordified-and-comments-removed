@@ -1013,9 +1013,6 @@ shippable
 opt
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true

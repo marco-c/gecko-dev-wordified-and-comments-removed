@@ -5801,9 +5801,6 @@ type
 nightly
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true
@@ -6177,9 +6174,6 @@ type
 nightly
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true
@@ -8471,9 +8465,6 @@ type
 nightly
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true

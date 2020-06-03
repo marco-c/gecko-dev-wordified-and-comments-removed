@@ -121,9 +121,6 @@ locations
 job
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true

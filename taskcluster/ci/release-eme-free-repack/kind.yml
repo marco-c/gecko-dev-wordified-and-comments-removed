@@ -299,9 +299,6 @@ artifact_prefix
 releng
 /
 partner
-nightly
-:
-true
 shippable
 :
 true
@@ -340,9 +337,6 @@ artifact_prefix
 releng
 /
 partner
-nightly
-:
-true
 shippable
 :
 true
@@ -381,9 +375,6 @@ artifact_prefix
 releng
 /
 partner
-nightly
-:
-true
 shippable
 :
 true
