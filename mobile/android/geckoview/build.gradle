@@ -2395,6 +2395,9 @@ type
 Javadoc
 )
 {
+failOnError
+=
+false
 description
 =
 "

@@ -185,19 +185,6 @@ max_wait_seconds
 =
 GRADLE_LOCK_MAX_WAIT_SECONDS
 )
-\
-            
-open
-(
-os
-.
-devnull
-'
-wb
-'
-)
-as
-devnull
 :
         
 cmd_args
@@ -278,12 +265,6 @@ cmd_args
 cwd
 =
 topsrcdir
-stdout
-=
-devnull
-stderr
-=
-devnull
 )
         
 status
