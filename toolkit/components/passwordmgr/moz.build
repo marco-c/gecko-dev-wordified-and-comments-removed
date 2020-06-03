@@ -200,6 +200,11 @@ OSCrypto
 jsm
 '
 '
+PasswordGenerator
+.
+jsm
+'
+'
 storage
 -
 json
@@ -245,11 +250,6 @@ jsm
 '
 '
 LoginStore
-.
-jsm
-'
-'
-PasswordGenerator
 .
 jsm
 '

@@ -1175,6 +1175,7 @@ browser
 loginFormOrigin
 login
 inputElementIdentifier
+style
 }
 )
 {
@@ -1280,6 +1281,7 @@ logins
 :
 jsLogins
 recipes
+style
 }
 )
 ;
@@ -1971,9 +1973,12 @@ getGeneratedPassword
 let
 potentialConflictingLogins
 =
-LoginHelper
+await
+Services
 .
-searchLoginsWithObject
+logins
+.
+searchLoginsAsync
 (
 {
 origin
