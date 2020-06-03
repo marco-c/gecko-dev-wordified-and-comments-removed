@@ -792,6 +792,7 @@ bool
 markedForTierUp
 (
 )
+const
 ;
 void
 setByteCode
