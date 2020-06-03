@@ -130,6 +130,12 @@ return
 mSubtreeRootChanges
 ;
 }
+bool
+AllowsAutoFocus
+(
+)
+const
+;
 explicit
 BindContext
 (
@@ -266,6 +272,12 @@ subtree
 }
 private
 :
+bool
+IsSameOriginAsTop
+(
+)
+const
+;
 Document
 &
 mDoc

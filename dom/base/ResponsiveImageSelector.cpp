@@ -66,6 +66,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+DocumentInlines
+.
+h
+"
+#
+include
+"
 nsContentUtils
 .
 h
