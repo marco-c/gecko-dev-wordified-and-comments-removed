@@ -7,8 +7,6 @@ unicode_literals
 import
 logging
 import
-os
-import
 mozpack
 .
 path
@@ -105,24 +103,7 @@ task_id
 =
 find_task_id
 (
-                    
 index_path
-                    
-use_proxy
-=
-bool
-(
-os
-.
-environ
-.
-get
-(
-'
-TASK_ID
-'
-)
-)
 )
                 
 return
