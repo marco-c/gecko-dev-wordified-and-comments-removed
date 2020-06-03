@@ -394,12 +394,13 @@ _handleTargetAvailable
 (
 {
 targetFront
-isTopLevel
 }
 )
 {
 if
 (
+targetFront
+.
 isTopLevel
 )
 {

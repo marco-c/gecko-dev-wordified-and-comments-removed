@@ -12,9 +12,7 @@ function
 (
 {
 targetList
-targetType
 targetFront
-isTopLevel
 onAvailable
 }
 )
@@ -22,9 +20,13 @@ onAvailable
 const
 isAllowed
 =
+targetFront
+.
 isTopLevel
 |
 |
+targetFront
+.
 targetType
 =
 =
