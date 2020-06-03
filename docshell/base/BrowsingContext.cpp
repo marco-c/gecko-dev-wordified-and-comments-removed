@@ -6606,6 +6606,13 @@ ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
 (
+IsContent
+(
+)
+)
+{
+if
+(
 RefPtr
 <
 BrowsingContext
@@ -6685,6 +6692,7 @@ mOriginAttributes
 )
 )
 ;
+}
 }
 if
 (
