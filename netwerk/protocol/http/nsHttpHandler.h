@@ -1400,11 +1400,6 @@ GetSSService
 (
 )
 ;
-uint32_t
-Get32BitsOfPseudoRandom
-(
-)
-;
 void
 OnFailedOpeningRequest
 (
