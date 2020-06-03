@@ -344,13 +344,6 @@ workerListChanged
 threadListChanged
 )
 ;
-addThreadEventListeners
-(
-targetFront
-.
-threadFront
-)
-;
 if
 (
 features
