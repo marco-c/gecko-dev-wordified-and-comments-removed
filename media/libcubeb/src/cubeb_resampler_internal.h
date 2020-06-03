@@ -923,14 +923,6 @@ data
 out_len
 )
 ;
-assert
-(
-out_len
-=
-=
-output_frame_count
-)
-;
 resampling_in_buffer
 .
 pop
