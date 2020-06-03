@@ -2365,7 +2365,7 @@ helperApps
 .
 showOpenOptionForPdfJS
 "
-false
+true
 )
 ;
 pref
