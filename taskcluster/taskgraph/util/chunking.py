@@ -48,6 +48,7 @@ resolve
 import
 TestResolver
 TestManifestLoader
+get_suite_definition
 from
 taskgraph
 import
@@ -393,8 +394,27 @@ def
 get_runtimes
 (
 platform
+suite_name
 )
 :
+    
+if
+not
+suite_name
+:
+        
+raise
+TypeError
+(
+'
+suite_name
+should
+be
+a
+value
+.
+'
+)
     
 base
 =
@@ -485,6 +505,13 @@ json
 load
 (
 fh
+)
+.
+get
+(
+suite_name
+{
+}
 )
 memoize
 def
@@ -992,6 +1019,7 @@ def
 chunk_manifests
 (
 flavor
+subsuite
 platform
 chunks
 manifests
@@ -1075,6 +1103,15 @@ chunk
 "
 "
     
+suite_name
+_
+=
+get_suite_definition
+(
+flavor
+subsuite
+)
+    
 if
 flavor
 !
@@ -1108,6 +1145,7 @@ chunks
 get_runtimes
 (
 platform
+suite_name
 )
             
 )
@@ -1145,6 +1183,7 @@ runtimes
 get_runtimes
 (
 platform
+suite_name
 )
     
 runtimes

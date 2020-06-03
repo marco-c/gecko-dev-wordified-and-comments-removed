@@ -10131,13 +10131,18 @@ runtimes
 =
 json
 .
-loads
+load
 (
 f
-.
-read
-(
 )
+.
+get
+(
+options
+.
+suite_name
+{
+}
 )
                     
 filters
