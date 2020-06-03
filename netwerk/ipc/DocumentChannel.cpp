@@ -1374,8 +1374,15 @@ nsLoadFlags
 aLoadFlags
 )
 {
-MOZ_CRASH
+NS_ERROR
 (
+"
+DocumentChannel
+:
+:
+SetLoadFlags
+:
+"
 "
 Don
 '
