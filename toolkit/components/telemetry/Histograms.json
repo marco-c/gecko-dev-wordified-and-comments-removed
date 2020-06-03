@@ -7256,6 +7256,9 @@ products
 "
 firefox
 "
+"
+geckoview_streaming
+"
 ]
 "
 alert_emails
@@ -7460,6 +7463,9 @@ fennec
 "
 geckoview
 "
+"
+geckoview_streaming
+"
 ]
 "
 alert_emails
@@ -7550,6 +7556,9 @@ fennec
 "
 "
 geckoview
+"
+"
+geckoview_streaming
 "
 ]
 "
@@ -7642,6 +7651,9 @@ fennec
 "
 geckoview
 "
+"
+geckoview_streaming
+"
 ]
 "
 alert_emails
@@ -7724,6 +7736,9 @@ products
 [
 "
 firefox
+"
+"
+geckoview_streaming
 "
 ]
 "
@@ -8140,6 +8155,9 @@ fennec
 "
 "
 geckoview
+"
+"
+geckoview_streaming
 "
 ]
 "
@@ -9079,6 +9097,9 @@ fennec
 "
 "
 geckoview
+"
+"
+geckoview_streaming
 "
 ]
 "
