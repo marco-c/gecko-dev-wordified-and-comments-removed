@@ -2649,6 +2649,19 @@ hosts
 ]
         
 if
+not
+self
+.
+force_regenerate
+:
+            
+self
+.
+_load_ca_cert
+(
+)
+        
+if
 self
 .
 _ca_key_path
