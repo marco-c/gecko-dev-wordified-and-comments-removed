@@ -124,10 +124,9 @@ addDebuggee
 debuggee
 )
 ;
-const
-{
-windowUtils
-}
+this
+.
+window
 =
 debuggee
 ;
@@ -135,6 +134,8 @@ this
 .
 windowId
 =
+debuggee
+.
 windowUtils
 .
 currentInnerWindowID
