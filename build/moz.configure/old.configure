@@ -1664,13 +1664,6 @@ extensions
 -
 enable
 -
-readline
-'
-'
--
--
-enable
--
 sandbox
 '
 '
