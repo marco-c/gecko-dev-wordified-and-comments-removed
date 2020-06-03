@@ -67,6 +67,11 @@ js
 sw
 -
 scope
+devtools
+-
+ellipsis
+-
+text
 "
 title
 =
@@ -298,6 +303,11 @@ js
 sw
 -
 scope
+devtools
+-
+ellipsis
+-
+text
 "
 title
 =
@@ -617,6 +627,11 @@ js
 sw
 -
 scope
+devtools
+-
+ellipsis
+-
+text
 "
 title
 =

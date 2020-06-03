@@ -115,11 +115,11 @@ plug
 :
 before
 {
-display
+flex
 :
-inline
--
-block
+0
+0
+auto
 ;
 width
 :
