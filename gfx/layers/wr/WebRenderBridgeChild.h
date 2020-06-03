@@ -281,11 +281,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
@@ -731,11 +726,6 @@ aScaledFont
 wr
 :
 :
-RenderRoot
-aRenderRoot
-wr
-:
-:
 IpcResourceUpdateQueue
 *
 aResources
@@ -758,11 +748,6 @@ gfx
 UnscaledFont
 *
 aUnscaledFont
-wr
-:
-:
-RenderRoot
-aRenderRoot
 wr
 :
 :

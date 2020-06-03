@@ -3689,11 +3689,6 @@ WrBridge
 GetFontKeyForScaledFont
 (
 scaled
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 aResources
 )
@@ -13073,11 +13068,6 @@ WrBridge
 GetFontKeyForScaledFont
 (
 scaled
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 aResources
 )
@@ -14407,11 +14397,6 @@ WrBridge
 GetFontKeyForScaledFont
 (
 scaled
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 aResources
 )

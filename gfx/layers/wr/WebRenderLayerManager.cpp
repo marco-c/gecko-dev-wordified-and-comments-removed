@@ -1850,11 +1850,6 @@ mAsyncResourceUpdates
 ref
 (
 )
-mStateManager
-.
-GetRenderRoot
-(
-)
 )
 ;
 }
@@ -2567,13 +2562,6 @@ WrBridge
 UpdateResources
 (
 resources
-wr
-:
-:
-RenderRoot
-:
-:
-Default
 )
 ;
 }

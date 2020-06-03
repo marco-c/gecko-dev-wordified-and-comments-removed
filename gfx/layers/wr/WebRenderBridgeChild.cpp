@@ -376,11 +376,6 @@ wr
 IpcResourceUpdateQueue
 &
 aResources
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 if
@@ -456,7 +451,6 @@ move
 (
 largeShmems
 )
-aRenderRoot
 )
 ;
 }
@@ -1270,11 +1264,6 @@ key
 GetFontKeyForScaledFont
 (
 aFont
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -1332,11 +1321,6 @@ gfx
 ScaledFont
 *
 aScaledFont
-wr
-:
-:
-RenderRoot
-aRenderRoot
 wr
 :
 :
@@ -1454,7 +1438,6 @@ aScaledFont
 GetUnscaledFont
 (
 )
-aRenderRoot
 aResources
 )
 ;
@@ -1583,7 +1566,6 @@ resources
 ref
 (
 )
-aRenderRoot
 )
 ;
 }
@@ -1620,11 +1602,6 @@ gfx
 UnscaledFont
 *
 aUnscaled
-wr
-:
-:
-RenderRoot
-aRenderRoot
 wr
 :
 :
@@ -1758,7 +1735,6 @@ resources
 ref
 (
 )
-aRenderRoot
 )
 ;
 }
