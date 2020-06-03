@@ -35,9 +35,6 @@ rst
 marionette
 .
 rst
-mobile_l10n
-.
-rst
 mobile_partner_repack
 .
 rst
