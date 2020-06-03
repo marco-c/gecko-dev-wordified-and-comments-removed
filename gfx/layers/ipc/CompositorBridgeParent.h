@@ -178,6 +178,17 @@ mozilla
 /
 layers
 /
+GeckoContentController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ISurfaceAllocator
 .
 h
@@ -393,9 +404,6 @@ CompositorManagerParent
 ;
 class
 CompositorVsyncScheduler
-;
-class
-GeckoContentController
 ;
 class
 HostLayerManager

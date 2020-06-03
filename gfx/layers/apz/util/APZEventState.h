@@ -34,7 +34,7 @@ mozilla
 /
 layers
 /
-GeckoContentControllerTypes
+GeckoContentController
 .
 h
 "
@@ -139,7 +139,10 @@ APZEventState
 final
 {
 typedef
-GeckoContentController_APZStateChange
+GeckoContentController
+:
+:
+APZStateChange
 APZStateChange
 ;
 typedef
