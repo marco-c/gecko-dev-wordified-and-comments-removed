@@ -23,6 +23,11 @@ include
 <
 type_traits
 >
+#
+include
+<
+utility
+>
 namespace
 mozilla
 {
@@ -443,7 +448,10 @@ Ret
 (
 func
 (
-static_cast
+std
+:
+:
+forward
 <
 Params
 >
@@ -772,7 +780,10 @@ return
 mAdaptor
 (
 mPayload
-static_cast
+std
+:
+:
+forward
 <
 Params
 >
