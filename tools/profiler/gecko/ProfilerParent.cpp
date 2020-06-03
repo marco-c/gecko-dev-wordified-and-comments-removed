@@ -1336,6 +1336,10 @@ ClearOnShutdown
 (
 &
 sInstance
+ShutdownPhase
+:
+:
+ShutdownThreads
 )
 ;
 }
