@@ -1981,7 +1981,7 @@ rv
 ASSERT_EQ
 (
 (
-int64_t
+uint64_t
 )
 0
 length
@@ -2072,6 +2072,9 @@ rv
 ;
 ASSERT_EQ
 (
+(
+uint64_t
+)
 1
 length
 )
