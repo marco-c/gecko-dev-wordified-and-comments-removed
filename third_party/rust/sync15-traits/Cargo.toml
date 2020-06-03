@@ -85,6 +85,8 @@ version
 =
 "
 1
+.
+0
 "
 features
 =
@@ -98,6 +100,8 @@ serde_json
 =
 "
 1
+.
+0
 "
 log
 =
@@ -128,6 +132,8 @@ failure
 0
 .
 1
+.
+6
 "
 interrupt
 -
