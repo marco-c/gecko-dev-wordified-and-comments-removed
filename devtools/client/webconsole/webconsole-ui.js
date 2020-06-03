@@ -1203,7 +1203,7 @@ resourceWatcher
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 resourceWatcher

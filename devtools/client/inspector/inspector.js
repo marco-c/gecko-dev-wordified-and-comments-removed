@@ -866,7 +866,7 @@ toolbox
 .
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 this

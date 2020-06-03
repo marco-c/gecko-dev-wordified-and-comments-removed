@@ -441,7 +441,7 @@ resource
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 resourceWatcher

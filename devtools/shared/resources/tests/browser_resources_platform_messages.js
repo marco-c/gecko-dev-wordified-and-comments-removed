@@ -109,7 +109,7 @@ before
 calling
 ResourceWatcher
 .
-watch
+watchResources
 in
 order
 to
@@ -303,7 +303,7 @@ done
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
@@ -331,7 +331,7 @@ call
 to
 ResourceWatcher
 .
-watch
+watchResources
 and
 after
 having
@@ -533,7 +533,7 @@ availableResources
 await
 resourceWatcher
 .
-watch
+watchResources
 (
 [
 ResourceWatcher
