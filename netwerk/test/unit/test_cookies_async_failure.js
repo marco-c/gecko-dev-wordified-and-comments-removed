@@ -498,7 +498,7 @@ do_get_cookie_file
 (
 profile
 )
-11
+12
 )
 ;
 Assert
@@ -2453,7 +2453,7 @@ do_get_cookie_file
 (
 profile
 )
-11
+12
 )
 ;
 db
