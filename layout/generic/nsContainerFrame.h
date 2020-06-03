@@ -1121,6 +1121,11 @@ return
 list
 ;
 }
+[
+[
+nodiscard
+]
+]
 nsFrameList
 *
 StealOverflowFrames
@@ -1471,6 +1476,11 @@ aProperty
 )
 const
 ;
+[
+[
+nodiscard
+]
+]
 nsFrameList
 *
 RemovePropTableFrames
