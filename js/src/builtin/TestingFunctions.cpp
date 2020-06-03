@@ -5261,6 +5261,14 @@ setString
 result
 )
 ;
+*
+lastAnalysisResult
+=
+(
+char
+)
+0
+;
 return
 true
 ;

@@ -3224,6 +3224,17 @@ SimdOp
 I64x2ShrS
 )
 {
+if
+(
+!
+rhs
+-
+>
+isConstant
+(
+)
+)
+{
 MConstant
 *
 mask
@@ -3282,6 +3293,7 @@ rhs
 =
 maskedShift
 ;
+}
 }
 auto
 *
