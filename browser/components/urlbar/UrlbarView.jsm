@@ -5548,9 +5548,7 @@ input
 setValueFromResult
 (
 item
-&
-&
-item
+?
 .
 result
 )
