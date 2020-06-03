@@ -5453,6 +5453,12 @@ case
 StyleAppearance
 :
 :
+Range
+:
+case
+StyleAppearance
+:
+:
 Checkbox
 :
 case
