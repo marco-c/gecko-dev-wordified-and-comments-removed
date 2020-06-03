@@ -24,6 +24,13 @@ h
 #
 include
 "
+AccessibleOrProxy
+.
+h
+"
+#
+include
+"
 DocAccessibleParent
 .
 h
@@ -203,19 +210,6 @@ Role
 )
 )
 ;
-uintptr_t
-accWrap
-=
-reinterpret_cast
-<
-uintptr_t
->
-(
-aProxy
-)
-|
-IS_PROXY
-;
 mozAccessible
 *
 mozWrapper
@@ -227,7 +221,7 @@ alloc
 ]
 initWithAccessible
 :
-accWrap
+aProxy
 ]
 ;
 aProxy
@@ -257,7 +251,7 @@ mozAccessible
 *
 wrapper
 =
-GetNativeFromProxy
+GetNativeFromGeckoAccessible
 (
 aProxy
 )
@@ -352,7 +346,7 @@ mozAccessible
 *
 wrapper
 =
-GetNativeFromProxy
+GetNativeFromGeckoAccessible
 (
 aProxy
 )
@@ -387,7 +381,7 @@ mozAccessible
 *
 wrapper
 =
-GetNativeFromProxy
+GetNativeFromGeckoAccessible
 (
 aProxy
 )
@@ -423,7 +417,7 @@ mozAccessible
 *
 wrapper
 =
-GetNativeFromProxy
+GetNativeFromGeckoAccessible
 (
 aTarget
 )
@@ -489,7 +483,7 @@ mozAccessible
 *
 wrapper
 =
-GetNativeFromProxy
+GetNativeFromGeckoAccessible
 (
 aWidget
 )

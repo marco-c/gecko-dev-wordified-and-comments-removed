@@ -193,17 +193,6 @@ IsDefunct
 mustBePruned
 )
 {
-uintptr_t
-accWrap
-=
-reinterpret_cast
-<
-uintptr_t
->
-(
-this
-)
-;
 mNativeObject
 =
 [
@@ -215,7 +204,7 @@ alloc
 ]
 initWithAccessible
 :
-accWrap
+this
 ]
 ;
 }

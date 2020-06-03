@@ -118,6 +118,17 @@ mBits
 )
 {
 }
+MOZ_IMPLICIT
+AccessibleOrProxy
+(
+)
+:
+mBits
+(
+0
+)
+{
+}
 bool
 IsProxy
 (
