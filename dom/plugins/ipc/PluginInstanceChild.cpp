@@ -292,13 +292,6 @@ gdk
 h
 >
 #
-include
-"
-gtk2xtbin
-.
-h
-"
-#
 elif
 defined
 (
