@@ -78,7 +78,6 @@ aWindow
 )
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS
-virtual
 mozilla
 :
 :
@@ -90,7 +89,6 @@ GetExistingListenerManager
 const
 override
 ;
-virtual
 mozilla
 :
 :
@@ -166,7 +164,6 @@ aVisitor
 )
 override
 ;
-virtual
 nsPIDOMWindowOuter
 *
 GetWindow
@@ -174,7 +171,6 @@ GetWindow
 )
 override
 ;
-virtual
 nsresult
 GetControllers
 (
@@ -187,7 +183,6 @@ aResult
 )
 override
 ;
-virtual
 nsresult
 GetControllerForCommand
 (
@@ -204,7 +199,6 @@ _retval
 )
 override
 ;
-virtual
 void
 GetEnabledDisabledCommands
 (
@@ -223,7 +217,6 @@ aDisabledCommands
 )
 override
 ;
-virtual
 already_AddRefed
 <
 nsINode
@@ -233,7 +226,6 @@ GetPopupNode
 )
 override
 ;
-virtual
 void
 SetPopupNode
 (
@@ -243,7 +235,6 @@ aNode
 )
 override
 ;
-virtual
 void
 SetParentTarget
 (
@@ -264,7 +255,6 @@ mParent
 aTarget
 ;
 }
-virtual
 mozilla
 :
 :
@@ -282,7 +272,6 @@ return
 mParent
 ;
 }
-virtual
 nsPIDOMWindowOuter
 *
 GetOwnerGlobalForBindingsInternal
@@ -290,7 +279,6 @@ GetOwnerGlobalForBindingsInternal
 )
 override
 ;
-virtual
 nsIGlobalObject
 *
 GetOwnerGlobal
@@ -305,14 +293,12 @@ GetParentObject
 (
 )
 ;
-virtual
 JSObject
 *
 WrapObject
 (
 JSContext
 *
-aCx
 JS
 :
 :
@@ -329,7 +315,6 @@ NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_CLASS
 (
 nsWindowRoot
 )
-virtual
 void
 AddBrowser
 (
@@ -339,7 +324,6 @@ aBrowser
 )
 override
 ;
-virtual
 void
 RemoveBrowser
 (
@@ -349,7 +333,6 @@ aBrowser
 )
 override
 ;
-virtual
 void
 EnumerateBrowsers
 (
@@ -361,7 +344,6 @@ aArg
 )
 override
 ;
-virtual
 bool
 ShowFocusRings
 (
@@ -372,7 +354,6 @@ return
 mShowFocusRings
 ;
 }
-virtual
 void
 SetShowFocusRings
 (
