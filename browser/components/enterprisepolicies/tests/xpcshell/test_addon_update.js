@@ -732,6 +732,13 @@ installed
 "
 )
 ;
+await
+AddonTestUtils
+.
+promiseShutdownManager
+(
+)
+;
 }
 )
 ;
