@@ -104,7 +104,7 @@ EXPORTS
 =
 [
 '
-MozContainer
+mozcontainer
 .
 h
 '
@@ -141,7 +141,7 @@ IMContextWrapper
 cpp
 '
 '
-MozContainer
+mozcontainer
 .
 cpp
 '
@@ -446,11 +446,6 @@ UNIFIED_SOURCES
 =
 [
 '
-MozContainerWayland
-.
-cpp
-'
-'
 nsClipboardWayland
 .
 cpp
@@ -479,11 +474,6 @@ widget
 +
 =
 [
-'
-MozContainerWayland
-.
-h
-'
 '
 nsWaylandDisplay
 .

@@ -1486,12 +1486,6 @@ mayWait
 #
 ifdef
 MOZ_WAYLAND
-mozilla
-:
-:
-widget
-:
-:
 WaylandDispatchDisplays
 (
 )

@@ -76,7 +76,7 @@ endif
 #
 include
 "
-MozContainer
+mozcontainer
 .
 h
 "
