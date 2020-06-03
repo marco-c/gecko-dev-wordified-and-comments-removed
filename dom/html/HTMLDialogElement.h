@@ -220,6 +220,16 @@ IsInTopLayer
 )
 const
 ;
+void
+QueueCancelDialog
+(
+)
+;
+void
+RunCancelDialogSteps
+(
+)
+;
 nsString
 mReturnValue
 ;

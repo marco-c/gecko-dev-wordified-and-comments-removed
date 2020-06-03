@@ -36,6 +36,15 @@ MOCHITEST_MANIFESTS
 '
 test
 /
+dialog
+/
+mochitest
+.
+ini
+'
+'
+test
+/
 forms
 /
 mochitest

@@ -5312,6 +5312,11 @@ aElement
 )
 ;
 void
+TryCancelDialog
+(
+)
+;
+void
 RemoteFrameFullscreenChanged
 (
 Element
