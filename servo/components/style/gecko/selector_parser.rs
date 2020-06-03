@@ -2151,6 +2151,13 @@ self
 >
 bool
 {
+self
+.
+in_user_agent_stylesheet
+(
+)
+|
+|
 static_prefs
 :
 :
