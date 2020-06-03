@@ -816,7 +816,7 @@ type
 :
 android
 -
-nightly
+shippable
 treeherder
 :
 platform
@@ -1121,7 +1121,7 @@ type
 :
 android
 -
-nightly
+shippable
 -
 with
 -
@@ -1558,7 +1558,7 @@ type
 :
 android
 -
-nightly
+shippable
 treeherder
 :
 platform
@@ -1847,7 +1847,7 @@ type
 :
 android
 -
-nightly
+shippable
 treeherder
 :
 platform
