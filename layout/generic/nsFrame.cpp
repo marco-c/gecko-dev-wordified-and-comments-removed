@@ -13085,7 +13085,7 @@ true
 ;
 }
 void
-nsFrame
+nsContainerFrame
 :
 :
 DisplaySelectionOverlay
@@ -31106,7 +31106,7 @@ result
 ;
 }
 LogicalSize
-nsFrame
+nsContainerFrame
 :
 :
 ComputeSizeWithIntrinsicDimensions
@@ -33167,7 +33167,7 @@ GetVisualOverflowRect
 ;
 }
 nsRect
-nsFrame
+nsContainerFrame
 :
 :
 ComputeSimpleTightBounds
@@ -34265,7 +34265,7 @@ mOverflowAreas
 }
 }
 void
-nsFrame
+nsContainerFrame
 :
 :
 PushDirtyBitToAbsoluteFrames
@@ -39415,7 +39415,7 @@ MAX_REFLOW_DEPTH
 4
 )
 bool
-nsFrame
+nsContainerFrame
 :
 :
 IsFrameTreeTooDeep
@@ -50410,7 +50410,7 @@ result
 ;
 }
 void
-nsFrame
+nsContainerFrame
 :
 :
 ConsiderChildOverflow
@@ -50501,7 +50501,7 @@ GetPosition
 }
 }
 bool
-nsFrame
+nsContainerFrame
 :
 :
 ShouldAvoidBreakInside
