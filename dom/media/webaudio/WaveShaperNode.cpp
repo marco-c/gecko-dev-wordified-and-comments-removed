@@ -992,8 +992,6 @@ aInput
 return
 ;
 }
-else
-{
 nullInput
 =
 true
@@ -1002,7 +1000,6 @@ channelCount
 =
 1
 ;
-}
 }
 aOutput
 -
