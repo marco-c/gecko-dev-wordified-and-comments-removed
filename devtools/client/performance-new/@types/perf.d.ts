@@ -1671,6 +1671,10 @@ recommended
 ?
 :
 boolean
+experimental
+?
+:
+boolean
 disabledReason
 ?
 :
