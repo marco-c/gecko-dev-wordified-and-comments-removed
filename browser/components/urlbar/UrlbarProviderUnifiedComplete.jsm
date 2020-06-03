@@ -809,7 +809,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-TYPED
+NONE
 ]
 isSearchHistory
 :
