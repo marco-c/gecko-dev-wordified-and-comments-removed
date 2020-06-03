@@ -1157,6 +1157,13 @@ attribute
 DOMString
 referrerPolicy
 ;
+[
+CEReactions
+]
+attribute
+boolean
+disabled
+;
 }
 ;
 HTMLLinkElement
