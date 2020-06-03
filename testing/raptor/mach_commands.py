@@ -54,13 +54,6 @@ import
 MachCommandConditions
 as
 Conditions
-from
-raptor
-.
-power
-import
-enable_charging
-disable_charging
 HERE
 =
 os
@@ -1562,6 +1555,14 @@ self
 kwargs
 )
 :
+        
+from
+raptor
+.
+power
+import
+enable_charging
+disable_charging
         
 build_obj
 =
