@@ -2396,12 +2396,14 @@ RootedScript
 script
 (
 cx
-stencil
-.
-intoScript
+JSScript
+:
+:
+fromStencil
 (
 cx
 compilationInfo
+stencil
 extent
 )
 )

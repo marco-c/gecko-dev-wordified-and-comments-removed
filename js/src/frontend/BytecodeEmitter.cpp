@@ -12463,12 +12463,14 @@ false
 }
 outputScript
 =
-stencil
-.
-intoScript
+JSScript
+:
+:
+fromStencil
 (
 cx
 compilationInfo
+stencil
 extent
 )
 ;
