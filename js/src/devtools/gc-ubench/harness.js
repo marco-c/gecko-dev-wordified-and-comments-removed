@@ -142,8 +142,10 @@ return
 NaN
 ;
 }
-class
+var
 AllocationLoad
+=
+class
 {
 constructor
 (
@@ -365,8 +367,11 @@ noAllocation
 ;
 }
 }
-class
+;
+var
 LoadCycle
+=
+class
 {
 constructor
 (
@@ -559,8 +564,11 @@ started
 ;
 }
 }
-class
+;
+var
 AllocationLoadManager
+=
+class
 {
 constructor
 (
@@ -1105,6 +1113,7 @@ now
 ;
 }
 }
+;
 var
 gLoadMgr
 =

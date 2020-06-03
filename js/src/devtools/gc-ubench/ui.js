@@ -227,8 +227,10 @@ return
 NaN
 ;
 }
-class
+var
 Graph
+=
+class
 {
 constructor
 (
@@ -563,8 +565,11 @@ stroke
 ;
 }
 }
-class
+;
+var
 LatencyGraph
+=
+class
 extends
 Graph
 {
@@ -1367,8 +1372,11 @@ scale
 ;
 }
 }
-class
+;
+var
 MemoryGraph
+=
+class
 extends
 Graph
 {
@@ -2033,6 +2041,7 @@ Usage
 ;
 }
 }
+;
 function
 onUpdateDisplayChanged
 (

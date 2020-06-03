@@ -18,8 +18,10 @@ in
 performance
 }
 ;
-class
+var
 FrameTimer
+=
+class
 {
 constructor
 (
@@ -182,6 +184,7 @@ stopped
 ;
 }
 }
+;
 var
 sampleTime
 =
@@ -194,8 +197,10 @@ sampleIndex
 =
 0
 ;
-class
+var
 FrameHistory
+=
+class
 {
 constructor
 (
@@ -727,3 +732,4 @@ is_stopped
 ;
 }
 }
+;
