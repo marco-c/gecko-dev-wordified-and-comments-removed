@@ -646,6 +646,12 @@ msg
 __VA_ARGS__
 )
 )
+using
+std
+:
+:
+move
+;
 namespace
 mozilla
 {
@@ -3432,9 +3438,6 @@ mDecodeJobs
 .
 AppendElement
 (
-std
-:
-:
 move
 (
 job
@@ -4173,9 +4176,6 @@ Other
 >
 Dispatch
 (
-std
-:
-:
 move
 (
 aRunnable
@@ -6383,9 +6383,6 @@ mWorkletParamDescriptors
 Put
 (
 aName
-std
-:
-:
 move
 (
 *
