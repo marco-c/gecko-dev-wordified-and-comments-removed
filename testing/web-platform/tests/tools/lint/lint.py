@@ -165,7 +165,7 @@ typing
 import
 Union
     
-Whitelist
+Ignorelist
 =
 Dict
 [
@@ -408,7 +408,7 @@ to
 the
 lint
 .
-whitelist
+ignore
 file
 in
 the
@@ -458,7 +458,7 @@ to
 the
 lint
 .
-whitelist
+ignore
 file
 .
 %
@@ -2207,7 +2207,7 @@ context2
 return
 errors
 def
-parse_whitelist
+parse_ignorelist
 (
 f
 )
@@ -2219,7 +2219,7 @@ f
     
 Parse
 the
-whitelist
+ignorelist
 file
 given
 by
@@ -2229,6 +2229,41 @@ return
 the
 parsed
 structure
+.
+    
+:
+returns
+:
+a
+tuple
+of
+an
+Ignorelist
+and
+a
+set
+of
+files
+that
+are
+completely
+              
+skipped
+by
+the
+linter
+(
+i
+.
+e
+.
+have
+a
+'
+*
+'
+entry
+)
 .
     
 "
@@ -2247,7 +2282,7 @@ set
 )
 )
     
-ignored_files
+skipped_files
 =
 set
 (
@@ -2378,7 +2413,7 @@ in
 error_types
 :
             
-ignored_files
+skipped_files
 .
 add
 (
@@ -2409,9 +2444,9 @@ line_number
     
 return
 data
-ignored_files
+skipped_files
 def
-filter_whitelist_errors
+filter_ignorelist_errors
 (
 data
 errors
@@ -2428,7 +2463,7 @@ those
 errors
 that
 are
-whitelisted
+ignored
 in
 data
 .
@@ -2446,7 +2481,7 @@ return
 [
 ]
     
-whitelisted
+skipped
 =
 [
 False
@@ -2539,7 +2574,7 @@ file_match
 )
 :
                         
-whitelisted
+skipped
 [
 i
 ]
@@ -2559,7 +2594,7 @@ errors
 )
 if
 not
-whitelisted
+skipped
 [
 i
 ]
@@ -5704,7 +5739,7 @@ path
 "
 lint
 .
-whitelist
+ignore
 "
 or
 path
@@ -6178,7 +6213,7 @@ repo_root
 "
 lint
 .
-whitelist
+ignore
 "
 )
 )
@@ -6186,10 +6221,10 @@ as
 f
 :
         
-whitelist
-ignored_files
+ignorelist
+skipped_files
 =
-parse_whitelist
+parse_ignorelist
 (
 f
 )
@@ -6198,7 +6233,7 @@ if
 ignore_glob
 :
         
-ignored_files
+skipped_files
 .
 add
 (
@@ -6299,9 +6334,9 @@ otherwise
         
 errors
 =
-filter_whitelist_errors
+filter_ignorelist_errors
 (
-whitelist
+ignorelist
 errors
 )
         
@@ -6403,7 +6438,7 @@ file_match
 for
 file_match
 in
-ignored_files
+skipped_files
 )
 :
             
