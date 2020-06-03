@@ -10953,12 +10953,7 @@ root
 {
 childLists
 .
-AppendElement
-(
-nsIFrame
-:
-:
-ChildList
+EmplaceBack
 (
 nsFrameList
 (
@@ -10975,7 +10970,6 @@ nsIFrame
 :
 :
 kPrincipalList
-)
 )
 ;
 }
