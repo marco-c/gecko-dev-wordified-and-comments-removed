@@ -4553,6 +4553,19 @@ sorted
 manifest
 .
 tests
+key
+=
+lambda
+x
+:
+x
+.
+get
+(
+'
+path
+'
+)
 )
 :
             
