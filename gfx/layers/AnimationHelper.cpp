@@ -1811,7 +1811,13 @@ aAnimationValues
 .
 AppendElements
 (
+std
+:
+:
+move
+(
 nonAnimatingValues
+)
 )
 ;
 }
