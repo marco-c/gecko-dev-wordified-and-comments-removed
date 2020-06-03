@@ -388,9 +388,8 @@ Mac
 )
 ;
 var
-isWin
+isWinOrLinux
 =
-(
 navigator
 .
 platform
@@ -401,6 +400,17 @@ includes
 Win
 "
 )
+|
+|
+navigator
+.
+platform
+.
+includes
+(
+"
+Linux
+"
 )
 ;
 function
@@ -633,7 +643,7 @@ expectedVisible
 =
 (
 !
-isWin
+isWinOrLinux
 |
 |
 getComputedStyle
@@ -659,7 +669,7 @@ testHTMLElements
 (
 htmlElements
 isMac
-isWin
+isWinOrLinux
 &
 &
 !
