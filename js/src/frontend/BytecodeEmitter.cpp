@@ -26919,15 +26919,9 @@ MOZ_ASSERT
 sc
 -
 >
-thisBinding
+hasFunctionThisBinding
 (
 )
-=
-=
-ThisBinding
-:
-:
-Function
 )
 ;
 MOZ_ASSERT

@@ -50268,15 +50268,9 @@ sc
 )
 -
 >
-thisBinding
+hasFunctionThisBinding
 (
 )
-=
-=
-ThisBinding
-:
-:
-Function
 )
 {
 thisName
