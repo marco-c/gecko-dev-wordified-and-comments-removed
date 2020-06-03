@@ -2353,16 +2353,6 @@ aShow
 =
 0
 ;
-virtual
-void
-SetShowsFullScreenButton
-(
-bool
-aShow
-)
-=
-0
-;
 enum
 WindowAnimationType
 {
