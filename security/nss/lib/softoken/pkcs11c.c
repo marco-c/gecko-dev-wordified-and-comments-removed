@@ -20657,6 +20657,12 @@ cktrue
 =
 CK_TRUE
 ;
+NSSPKCS5PBEParameter
+*
+pbe_param
+=
+NULL
+;
 int
 i
 ;
@@ -20685,10 +20691,6 @@ nsc_param
 nsc_jpake
 }
 key_gen_type
-;
-NSSPKCS5PBEParameter
-*
-pbe_param
 ;
 SSL3RSAPreMasterSecret
 *
