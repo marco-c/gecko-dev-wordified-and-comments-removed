@@ -8149,17 +8149,6 @@ clear
 (
 )
 ;
-if
-(
-!
-this
-.
-_modified
-)
-{
-return
-;
-}
 try
 {
 await
