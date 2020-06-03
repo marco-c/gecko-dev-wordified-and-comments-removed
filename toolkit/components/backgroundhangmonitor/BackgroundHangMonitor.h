@@ -120,12 +120,6 @@ Shutdown
 (
 )
 ;
-static
-bool
-IsDisabled
-(
-)
-;
 BackgroundHangMonitor
 (
 const
