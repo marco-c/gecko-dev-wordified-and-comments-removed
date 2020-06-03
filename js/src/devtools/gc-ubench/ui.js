@@ -1486,6 +1486,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 zone
 .
 gcBytes
@@ -1504,6 +1506,8 @@ worstEver
 performance
 .
 mozMemory
+.
+gc
 .
 zone
 .
@@ -1879,6 +1883,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 zone
 .
 gcAllocTrigger
@@ -1937,6 +1943,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 zone
 .
 gcAllocTrigger
@@ -1946,6 +1954,8 @@ format_bytes
 performance
 .
 mozMemory
+.
+gc
 .
 zone
 .
@@ -2855,6 +2865,14 @@ if
 performance
 .
 mozMemory
+|
+|
+!
+performance
+.
+mozMemory
+.
+gc
 )
 {
 document

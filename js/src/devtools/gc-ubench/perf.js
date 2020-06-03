@@ -582,6 +582,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 gcBytes
 ;
 }
@@ -603,6 +605,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 gcNumber
 ;
 this
@@ -615,6 +619,8 @@ idx
 performance
 .
 mozMemory
+.
+gc
 .
 minorGCCount
 ;
@@ -629,6 +635,8 @@ performance
 .
 mozMemory
 .
+gc
+.
 majorGCCount
 ;
 this
@@ -642,12 +650,16 @@ performance
 .
 mozMemory
 .
+gc
+.
 sliceCount
 |
 |
 performance
 .
 mozMemory
+.
+gc
 .
 gcNumber
 ;
