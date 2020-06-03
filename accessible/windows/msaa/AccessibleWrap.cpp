@@ -3177,6 +3177,11 @@ AccessibleEnumerator
 selectedItems
 )
 ;
+AssociateCOMObjectForDisconnection
+(
+pEnum
+)
+;
 pvarChildren
 -
 >
