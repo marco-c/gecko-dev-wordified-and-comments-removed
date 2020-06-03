@@ -904,8 +904,6 @@ aCanceled
 UsageInfo
 *
 aUsageInfo
-bool
-aForGetUsage
 )
 {
 AssertIsOnIOThread
