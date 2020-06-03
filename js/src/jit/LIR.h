@@ -2527,6 +2527,9 @@ ifndef
 ENABLE_WASM_SIMD
 MOZ_ASSERT
 (
+this
+-
+>
 type
 (
 )
