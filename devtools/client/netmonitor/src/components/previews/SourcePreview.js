@@ -423,6 +423,17 @@ mode
 text
 )
 {
+if
+(
+this
+?
+.
+editor
+?
+.
+hasCodeMirror
+)
+{
 this
 .
 editor
@@ -441,6 +452,7 @@ setText
 text
 )
 ;
+}
 if
 (
 this
