@@ -5056,6 +5056,11 @@ IsEmpty
 )
 )
 {
+ToLowerCase
+(
+qname
+)
+;
 mCname
 =
 qname
