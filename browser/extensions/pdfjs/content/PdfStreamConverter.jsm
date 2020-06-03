@@ -2450,6 +2450,7 @@ PdfJsTelemetry
 .
 onFallback
 (
+featureId
 )
 ;
 PdfjsContentUtils
