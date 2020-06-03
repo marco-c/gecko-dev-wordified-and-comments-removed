@@ -480,11 +480,14 @@ use_reduced_tasks
 :
             
 if
+data
+.
+get
+(
 "
 known_tasks
 "
-in
-data
+)
 and
 task
 .
