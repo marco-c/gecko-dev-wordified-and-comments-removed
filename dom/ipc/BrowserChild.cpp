@@ -7209,10 +7209,6 @@ const
 int32_t
 &
 aModifiers
-const
-bool
-&
-aIgnoreRootScrollFrame
 )
 {
 RefPtr
@@ -7249,7 +7245,7 @@ aY
 aButton
 aClickCount
 aModifiers
-aIgnoreRootScrollFrame
+false
 MouseEvent_Binding
 :
 :

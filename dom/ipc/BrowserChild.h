@@ -1268,10 +1268,6 @@ const
 int32_t
 &
 aModifiers
-const
-bool
-&
-aIgnoreRootScrollFrame
 )
 ;
 mozilla

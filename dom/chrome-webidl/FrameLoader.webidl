@@ -409,11 +409,6 @@ long
 aClickCount
 long
 aModifiers
-optional
-boolean
-aIgnoreRootScrollFrame
-=
-false
 )
 ;
 /
