@@ -7,7 +7,7 @@ JSON_JSON_H_INCLUDED
 #
 include
 "
-autolink
+config
 .
 h
 "

@@ -401,9 +401,10 @@ LargestUInt
 1
 }
 ;
-typedef
-char
+using
 UIntToStringBuffer
+=
+char
 [
 uintToStringBufferSize
 ]

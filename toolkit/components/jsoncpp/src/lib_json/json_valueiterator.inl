@@ -587,18 +587,6 @@ other
 )
 const
 {
-#
-ifdef
-JSON_USE_CPPTL_SMALLMAP
-return
-other
-.
-current_
--
-current_
-;
-#
-else
 /
 /
 Iterator
@@ -787,8 +775,6 @@ myDistance
 return
 myDistance
 ;
-#
-endif
 }
 bool
 ValueIteratorBase

@@ -53,10 +53,11 @@ CharReaderBuilder
 class
 Features
 ;
-typedef
+using
+ArrayIndex
+=
 unsigned
 int
-ArrayIndex
 ;
 class
 StaticString

@@ -1,9 +1,9 @@
 #
 ifndef
-CPPTL_JSON_ASSERTIONS_H_INCLUDED
+JSON_ASSERTIONS_H_INCLUDED
 #
 define
-CPPTL_JSON_ASSERTIONS_H_INCLUDED
+JSON_ASSERTIONS_H_INCLUDED
 #
 include
 <
@@ -40,6 +40,7 @@ JSON_ASSERT
 condition
 )
 \
+do
 {
 \
 if
@@ -67,6 +68,10 @@ failed
 }
 \
 }
+while
+(
+0
+)
 #
 define
 JSON_FAIL_MESSAGE
@@ -74,6 +79,7 @@ JSON_FAIL_MESSAGE
 message
 )
 \
+do
 {
 \
 OStringStream
@@ -105,6 +111,10 @@ abort
 ;
 \
 }
+while
+(
+0
+)
 #
 else
 #
@@ -169,6 +179,9 @@ condition
 message
 )
 \
+do
+{
+\
 if
 (
 !
@@ -185,5 +198,11 @@ message
 ;
 \
 }
+\
+}
+while
+(
+0
+)
 #
 endif

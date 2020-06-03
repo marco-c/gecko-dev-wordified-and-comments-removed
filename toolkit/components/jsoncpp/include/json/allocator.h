@@ -1,9 +1,9 @@
 #
 ifndef
-CPPTL_JSON_ALLOCATOR_H_INCLUDED
+JSON_ALLOCATOR_H_INCLUDED
 #
 define
-CPPTL_JSON_ALLOCATOR_H_INCLUDED
+JSON_ALLOCATOR_H_INCLUDED
 #
 include
 <
@@ -270,9 +270,8 @@ T
 SecureAllocator
 (
 )
-=
-default
-;
+{
+}
 template
 <
 typename
