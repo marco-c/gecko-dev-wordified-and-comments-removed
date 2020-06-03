@@ -422,8 +422,7 @@ interval
 -
 10
 :
--
-linux
+null
 linux64
 -
 fuzzing
@@ -1337,8 +1336,7 @@ interval
 -
 10
 :
--
-linux
+null
 linux64
 -
 devedition
@@ -1823,8 +1821,7 @@ interval
 -
 10
 :
--
-linux
+null
 worker
 -
 type
@@ -2300,8 +2297,7 @@ interval
 -
 10
 :
--
-linux
+null
 worker
 -
 type
@@ -7200,8 +7196,7 @@ interval
 -
 10
 :
--
-linux
+null
 linux
 -
 gcp
