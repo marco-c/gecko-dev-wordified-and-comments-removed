@@ -2374,6 +2374,10 @@ s
 play
 .
 fd
+(
+uint8_t
+*
+)
 s
 -
 >
@@ -2441,7 +2445,7 @@ frames
 write_ofs
 +
 =
-frames
+n
 ;
 }
 if
@@ -2475,6 +2479,10 @@ s
 record
 .
 fd
+(
+uint8_t
+*
+)
 s
 -
 >
@@ -2516,7 +2524,7 @@ frames
 read_ofs
 +
 =
-frames
+n
 ;
 }
 }
