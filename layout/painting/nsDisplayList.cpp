@@ -1348,11 +1348,6 @@ aManager
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 EffectSet
@@ -23298,11 +23293,6 @@ AddAnimationsForWebRender
 this
 aManager
 aDisplayListBuilder
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 }
@@ -31104,11 +31094,6 @@ AddAnimationsForWebRender
 this
 aManager
 aDisplayListBuilder
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 wr
@@ -40794,11 +40779,6 @@ AddAnimationsForWebRender
 this
 aManager
 aDisplayListBuilder
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 wr
