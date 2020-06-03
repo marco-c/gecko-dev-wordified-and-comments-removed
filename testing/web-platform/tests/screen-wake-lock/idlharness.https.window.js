@@ -7,8 +7,6 @@ idl_test
 (
 [
 '
-screen
--
 wake
 -
 lock
