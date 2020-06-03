@@ -1365,7 +1365,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-NONE
+TYPED
 ]
 isSearchHistory
 :

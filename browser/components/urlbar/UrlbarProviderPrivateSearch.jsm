@@ -544,7 +544,7 @@ UrlbarUtils
 .
 HIGHLIGHT
 .
-NONE
+TYPED
 ]
 icon
 :
