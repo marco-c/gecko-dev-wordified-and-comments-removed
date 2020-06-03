@@ -2567,7 +2567,7 @@ static
 bool
 IsToolbarButtonEnabled
 (
-WidgetNodeType
+ButtonLayout
 *
 aButtonLayout
 int
@@ -2598,6 +2598,8 @@ aButtonLayout
 [
 i
 ]
+.
+mType
 =
 =
 aAppearance
@@ -2718,7 +2720,7 @@ buttonBox
 GTK_STYLE_CLASS_LEFT
 )
 ;
-WidgetNodeType
+ButtonLayout
 buttonLayout
 [
 TOOLBAR_BUTTONS

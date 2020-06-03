@@ -550,6 +550,17 @@ MOZ_GTK_WIDGET_NODE_COUNT
 }
 WidgetNodeType
 ;
+struct
+ButtonLayout
+{
+WidgetNodeType
+mType
+;
+bool
+mAtRight
+;
+}
+;
 gint
 moz_gtk_init
 (
@@ -852,7 +863,7 @@ aAppearance
 int
 GetGtkHeaderBarButtonLayout
 (
-WidgetNodeType
+ButtonLayout
 *
 aButtonLayout
 int

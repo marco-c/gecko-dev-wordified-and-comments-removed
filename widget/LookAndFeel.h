@@ -144,6 +144,9 @@ eIntID_SystemUsesDarkTheme
 eIntID_PrefersReducedMotion
 eIntID_PrimaryPointerCapabilities
 eIntID_AllPointerCapabilities
+eLookAndFeel_GTKCSDCloseButtonPosition
+eLookAndFeel_GTKCSDMinimizeButtonPosition
+eLookAndFeel_GTKCSDMaximizeButtonPosition
 }
 ;
 enum
