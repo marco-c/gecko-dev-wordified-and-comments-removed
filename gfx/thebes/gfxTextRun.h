@@ -2724,10 +2724,13 @@ Flags
 mFlags2
 ;
 bool
-mSkipDrawing
+mDontSkipDrawing
 ;
 bool
 mReleasedFontGroup
+;
+bool
+mReleasedFontGroupSkippedDrawing
 ;
 bool
 mHasGlyphRunArray
