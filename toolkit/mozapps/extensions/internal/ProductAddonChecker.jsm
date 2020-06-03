@@ -1715,16 +1715,6 @@ nsILoadInfo
 HTTPS_ONLY_EXEMPT
 ;
 }
-xhr
-.
-channel
-.
-loadInfo
-.
-allowDeprecatedSystemRequests
-=
-true
-;
 if
 (
 xhr

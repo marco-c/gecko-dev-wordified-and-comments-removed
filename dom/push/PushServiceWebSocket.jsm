@@ -1930,14 +1930,6 @@ nsIContentPolicy
 TYPE_WEBSOCKET
 )
 ;
-socket
-.
-loadInfo
-.
-allowDeprecatedSystemRequests
-=
-true
-;
 return
 socket
 ;

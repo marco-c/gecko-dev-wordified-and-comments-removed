@@ -687,14 +687,6 @@ SetOriginAttributes
 attrs
 )
 ;
-loadInfo
--
->
-SetAllowDeprecatedSystemRequests
-(
-true
-)
-;
 mBeganStream
 =
 false
