@@ -260,5 +260,13 @@ js
 :
 {
 }
+"
+test_extstorage
+.
+js
+"
+:
+{
+}
 }
 }

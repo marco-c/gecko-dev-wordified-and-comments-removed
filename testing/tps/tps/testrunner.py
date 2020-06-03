@@ -522,6 +522,18 @@ enabled
 '
 :
 True
+        
+'
+webextensions
+.
+storage
+.
+sync
+.
+kinto
+'
+:
+False
     
 }
     
