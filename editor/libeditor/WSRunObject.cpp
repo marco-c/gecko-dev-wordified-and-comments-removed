@@ -3402,13 +3402,14 @@ nsIContent
 *
 content
 :
+aContent
+-
+>
 InclusiveAncestorsOfType
 <
 nsIContent
 >
 (
-*
-aContent
 )
 )
 {

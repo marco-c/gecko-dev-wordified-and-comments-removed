@@ -2332,8 +2332,6 @@ InclusiveAncestorsOfType
 nsGenericHTMLElement
 >
 (
-*
-this
 )
 )
 {
@@ -4969,13 +4967,14 @@ Element
 *
 element
 :
+nsElement
+-
+>
 InclusiveAncestorsOfType
 <
 Element
 >
 (
-*
-nsElement
 )
 )
 {
