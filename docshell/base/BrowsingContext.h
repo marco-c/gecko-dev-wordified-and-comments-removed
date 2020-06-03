@@ -349,15 +349,6 @@ bool
 \
 FIELD
 (
-EmbedderPolicy
-nsILoadInfo
-:
-:
-CrossOriginEmbedderPolicy
-)
-\
-FIELD
-(
 OpenerPolicy
 nsILoadInfo
 :

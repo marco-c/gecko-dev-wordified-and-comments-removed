@@ -23436,7 +23436,7 @@ GetWindow
 )
 -
 >
-GetBrowsingContext
+GetWindowContext
 (
 )
 )
@@ -23449,7 +23449,7 @@ GetWindow
 )
 -
 >
-GetBrowsingContext
+GetWindowContext
 (
 )
 -
