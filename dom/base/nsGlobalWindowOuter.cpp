@@ -10939,6 +10939,9 @@ if
 (
 !
 aState
+&
+&
+reUseInnerWindow
 )
 {
 mInnerWindow

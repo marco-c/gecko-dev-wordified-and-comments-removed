@@ -47,6 +47,9 @@ WindowGlobalParent
 class
 WindowGlobalInit
 ;
+class
+BrowsingContextGroup
+;
 #
 define
 MOZ_EACH_WC_FIELD
