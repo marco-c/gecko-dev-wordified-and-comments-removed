@@ -124,6 +124,9 @@ attributes
 nightly
 :
 true
+shippable
+:
+true
 worker
 -
 type

@@ -107,6 +107,8 @@ attributes
 :
 -
 nightly
+-
+shippable
 not
 -
 for

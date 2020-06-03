@@ -158,7 +158,7 @@ projects
 :
 [
 ]
-nightly
+shippable
 :
 false
 attributes

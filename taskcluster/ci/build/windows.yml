@@ -5302,6 +5302,9 @@ Shippable
 "
 attributes
 :
+shippable
+:
+true
 nightly
 :
 true
@@ -5801,6 +5804,9 @@ attributes
 nightly
 :
 true
+shippable
+:
+true
 enable
 -
 full
@@ -6172,6 +6178,9 @@ nightly
 attributes
 :
 nightly
+:
+true
+shippable
 :
 true
 enable
@@ -8463,6 +8472,9 @@ nightly
 attributes
 :
 nightly
+:
+true
+shippable
 :
 true
 enable

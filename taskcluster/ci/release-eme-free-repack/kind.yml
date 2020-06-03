@@ -302,6 +302,9 @@ partner
 nightly
 :
 true
+shippable
+:
+true
 win32
 -
 shippable
@@ -340,6 +343,9 @@ partner
 nightly
 :
 true
+shippable
+:
+true
 win64
 -
 shippable
@@ -376,5 +382,8 @@ releng
 /
 partner
 nightly
+:
+true
+shippable
 :
 true

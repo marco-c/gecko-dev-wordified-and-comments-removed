@@ -768,7 +768,7 @@ config
 kind
 )
         
-is_nightly
+is_shippable
 =
 job
 .
@@ -776,7 +776,7 @@ get
 (
             
 '
-nightly
+shippable
 '
             
 dep_job
@@ -787,7 +787,7 @@ get
 (
                 
 '
-nightly
+shippable
 '
                 
 dep_job
@@ -797,7 +797,7 @@ attributes
 get
 (
 '
-shippable
+nightly
 '
 )
 )
@@ -809,7 +809,7 @@ get_signing_cert_scope_per_platform
 (
             
 build_platform
-is_nightly
+is_shippable
 config
         
 )

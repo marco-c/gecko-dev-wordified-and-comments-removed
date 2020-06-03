@@ -789,6 +789,9 @@ full
 crashsymbols
 :
 true
+shippable
+:
+true
 nightly
 :
 true
@@ -1263,6 +1266,9 @@ enable
 full
 -
 crashsymbols
+:
+true
+shippable
 :
 true
 nightly
@@ -1861,6 +1867,9 @@ full
 crashsymbols
 :
 true
+shippable
+:
+true
 nightly
 :
 true
@@ -2168,6 +2177,9 @@ enable
 full
 -
 crashsymbols
+:
+true
+shippable
 :
 true
 nightly

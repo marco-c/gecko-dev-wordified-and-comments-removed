@@ -679,6 +679,9 @@ attributes
 nightly
 :
 true
+shippable
+:
+true
 enable
 -
 full
