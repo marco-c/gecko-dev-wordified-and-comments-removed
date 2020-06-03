@@ -142,13 +142,6 @@ aImageDataSize
 ;
 private
 :
-int
-CreateTemporaryFile
-(
-int
-aSize
-)
-;
 wl_shm_pool
 *
 mShmPool

@@ -449,6 +449,14 @@ FileDescriptor
 ]
 fence
 ;
+uint32_t
+uid
+;
+FileDescriptor
+[
+]
+refCount
+;
 }
 ;
 struct
