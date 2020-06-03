@@ -2261,6 +2261,11 @@ nsPoint
 aPos
 )
 ;
+void
+Invalidate
+(
+)
+;
 bool
 mIsSet
 =
