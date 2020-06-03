@@ -185,6 +185,10 @@ freeze
 try
 :
             
+with
+self
+:
+                
 yield
 self
         
