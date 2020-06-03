@@ -146,9 +146,10 @@ install
 addon
 )
 {
-install
+return
+addon
 .
-cancel
+uninstall
 (
 )
 ;

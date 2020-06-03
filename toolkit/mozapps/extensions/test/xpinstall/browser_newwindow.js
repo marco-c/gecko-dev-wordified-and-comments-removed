@@ -48,9 +48,12 @@ install
 =
 >
 {
+return
 install
 .
-cancel
+addon
+.
+uninstall
 (
 )
 ;

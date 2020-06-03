@@ -216,9 +216,10 @@ installed
 "
 )
 ;
-install
+return
+addon
 .
-cancel
+uninstall
 (
 )
 ;

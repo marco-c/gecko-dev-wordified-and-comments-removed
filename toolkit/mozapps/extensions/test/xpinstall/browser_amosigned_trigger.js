@@ -256,9 +256,10 @@ html
 }
 )
 ;
-install
+return
+addon
 .
-cancel
+uninstall
 (
 )
 ;
