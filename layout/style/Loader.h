@@ -551,9 +551,6 @@ nsIURI
 *
 aURI
 IsPreload
-nsIPrincipal
-*
-aOriginPrincipal
 const
 Encoding
 *
@@ -565,7 +562,6 @@ nsICSSLoaderObserver
 *
 aObserver
 CORSMode
-aCORSMode
 =
 CORS_NONE
 const
@@ -910,9 +906,6 @@ IsPreload
 SheetParsingMode
 aParsingMode
 UseSystemPrincipal
-nsIPrincipal
-*
-aOriginPrincipal
 const
 Encoding
 *
