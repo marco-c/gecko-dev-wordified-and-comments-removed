@@ -1222,7 +1222,7 @@ masm
 ;
 masm
 .
-loadAlignedSimd128Int
+loadUnalignedSimd128
 (
 toAddress
 (
@@ -1233,7 +1233,7 @@ scratch
 ;
 masm
 .
-storeAlignedSimd128Int
+storeUnalignedSimd128
 (
 scratch
 cycleSlot
@@ -1246,7 +1246,7 @@ else
 {
 masm
 .
-storeAlignedSimd128Int
+storeUnalignedSimd128
 (
 to
 .
@@ -1541,7 +1541,7 @@ masm
 ;
 masm
 .
-loadAlignedSimd128Int
+loadUnalignedSimd128
 (
 cycleSlot
 (
@@ -1551,7 +1551,7 @@ scratch
 ;
 masm
 .
-storeAlignedSimd128Int
+storeUnalignedSimd128
 (
 scratch
 toAddress
@@ -1565,7 +1565,7 @@ else
 {
 masm
 .
-loadAlignedSimd128Int
+loadUnalignedSimd128
 (
 cycleSlot
 (
@@ -2779,7 +2779,7 @@ isFloatReg
 {
 masm
 .
-moveSimd128Int
+moveSimd128
 (
 from
 .
@@ -2798,7 +2798,7 @@ else
 {
 masm
 .
-storeAlignedSimd128Int
+storeUnalignedSimd128
 (
 from
 .
@@ -2825,7 +2825,7 @@ isFloatReg
 {
 masm
 .
-loadAlignedSimd128Int
+loadUnalignedSimd128
 (
 toAddress
 (
@@ -2858,7 +2858,7 @@ masm
 ;
 masm
 .
-loadAlignedSimd128Int
+loadUnalignedSimd128
 (
 toAddress
 (
@@ -2869,7 +2869,7 @@ scratch
 ;
 masm
 .
-storeAlignedSimd128Int
+storeUnalignedSimd128
 (
 scratch
 toAddress

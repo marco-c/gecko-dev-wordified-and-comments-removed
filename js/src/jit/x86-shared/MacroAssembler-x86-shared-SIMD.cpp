@@ -2529,6 +2529,7 @@ Register
 >
 &
 maybeTemp
+const
 uint8_t
 lanes
 [
