@@ -2302,9 +2302,7 @@ urlbar
 -
 go
 -
-end
--
-cap
+button
 =
 .
 tooltiptext
