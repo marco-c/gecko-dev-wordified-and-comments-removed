@@ -112,15 +112,6 @@ FEW_MINUTES
 *
 1000
 ;
-const
-MATCH_PATTERN_OPTIONS
-=
-{
-ignorePath
-:
-true
-}
-;
 function
 isPrivateWindow
 (
@@ -305,8 +296,6 @@ createMatchPatternSet
 (
 patterns
 flags
-=
-MATCH_PATTERN_OPTIONS
 )
 {
 try
