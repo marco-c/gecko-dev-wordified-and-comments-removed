@@ -7621,6 +7621,10 @@ false
 isSecure
 sameSite
 rawSameSite
+nsICookie
+:
+:
+SCHEME_UNSET
 )
 ;
 }
