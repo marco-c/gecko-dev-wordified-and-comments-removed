@@ -518,6 +518,8 @@ projects
 :
 [
 '
+mozilla
+-
 central
 '
 ]
@@ -599,6 +601,8 @@ projects
 :
 [
 '
+mozilla
+-
 central
 '
 ]
