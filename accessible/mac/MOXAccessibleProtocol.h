@@ -219,7 +219,7 @@ NSURL
 *
 _Nullable
 )
-moxUrl
+moxURL
 ;
 -
 (
