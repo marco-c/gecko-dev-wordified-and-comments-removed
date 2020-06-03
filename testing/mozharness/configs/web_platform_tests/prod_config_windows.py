@@ -202,7 +202,7 @@ join
 "
 %
 (
-abs_test_bin_dir
+abs_fetches_dir
 )
 s
 "
