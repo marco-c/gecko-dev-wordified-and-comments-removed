@@ -2493,14 +2493,6 @@ postCheckContextMenuFn
 )
 ;
 }
-if
-(
-!
-options
-.
-keepMenuOpen
-)
-{
 contextMenu
 .
 hidePopup
@@ -2510,5 +2502,4 @@ hidePopup
 await
 awaitPopupHidden
 ;
-}
 }
