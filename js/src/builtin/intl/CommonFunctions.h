@@ -485,6 +485,10 @@ size
 0
 )
 ;
+size
++
++
+;
 if
 (
 !
@@ -508,6 +512,8 @@ status
 =
 U_ZERO_ERROR
 ;
+size
+=
 strFn
 (
 chars
@@ -518,6 +524,14 @@ begin
 size
 &
 status
+)
+;
+MOZ_ASSERT
+(
+status
+!
+=
+U_STRING_NOT_TERMINATED_WARNING
 )
 ;
 }
