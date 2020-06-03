@@ -3470,6 +3470,14 @@ is_valid
 )
 )
 ;
+profile_scope
+!
+(
+"
+begin_frame
+"
+)
+;
 self
 .
 now

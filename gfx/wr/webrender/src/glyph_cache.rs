@@ -1417,6 +1417,14 @@ mut
 GlyphRasterizer
 )
 {
+profile_scope
+!
+(
+"
+begin_frame
+"
+)
+;
 self
 .
 current_frame

@@ -3475,6 +3475,14 @@ prim_list
 .
 clusters
 {
+profile_scope
+!
+(
+"
+cluster
+"
+)
+;
 for
 prim_instance
 in

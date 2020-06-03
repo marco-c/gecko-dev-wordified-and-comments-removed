@@ -526,6 +526,14 @@ mut
 TextureCache
 )
 {
+profile_scope
+!
+(
+"
+begin_frame
+"
+)
+;
 let
 cache_entries
 =
