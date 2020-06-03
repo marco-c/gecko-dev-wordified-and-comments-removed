@@ -60,7 +60,7 @@ point
 (
 BOOL
 )
-accessibilityIsIgnored
+isAccessibilityElement
 ;
 -
 (

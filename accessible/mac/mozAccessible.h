@@ -439,7 +439,7 @@ endif
 (
 BOOL
 )
-accessibilityIsIgnored
+isAccessibilityElement
 ;
 -
 (

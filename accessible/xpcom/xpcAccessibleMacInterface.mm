@@ -1850,7 +1850,7 @@ respondsToSelector
 :
 selector
 (
-accessibilityIsIgnored
+isAccessibilityElement
 )
 ]
 )
