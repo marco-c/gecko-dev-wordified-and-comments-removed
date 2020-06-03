@@ -505,7 +505,7 @@ cx
 const
 currentThreads
 =
-getThreads
+getAllThreads
 (
 getState
 (

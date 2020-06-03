@@ -9,3 +9,9 @@ script
 "
 )
 ;
+function
+noGC
+(
+)
+{
+}
