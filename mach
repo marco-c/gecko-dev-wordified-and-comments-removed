@@ -189,6 +189,7 @@ raptor
 raptor
 -
 test
+reftest
 release
 rusttests
 static
