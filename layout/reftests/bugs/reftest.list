@@ -36152,15 +36152,6 @@ fuzzy
 -
 74
 )
-fails
--
-if
-(
-Android
-|
-|
-gtkWidget
-)
 =
 =
 1174332
@@ -36175,9 +36166,6 @@ html
 ref
 .
 html
-#
-bug
-1312658
 =
 =
 1179078
