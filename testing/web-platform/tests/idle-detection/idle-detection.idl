@@ -1,9 +1,14 @@
 dictionary
 IdleOptions
 {
+[
+EnforceRange
+]
 unsigned
 long
 threshold
+=
+60000
 ;
 }
 ;
