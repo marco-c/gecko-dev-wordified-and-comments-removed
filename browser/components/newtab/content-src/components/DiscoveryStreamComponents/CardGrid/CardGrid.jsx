@@ -291,6 +291,13 @@ rec
 .
 sponsor
 }
+sponsored_by_override
+=
+{
+rec
+.
+sponsored_by_override
+}
 dispatch
 =
 {
