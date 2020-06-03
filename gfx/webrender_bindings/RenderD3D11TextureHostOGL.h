@@ -90,7 +90,6 @@ ClearCachedResources
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -101,8 +100,8 @@ uint8_t
 aChannelIndex
 )
 const
+override
 ;
-virtual
 GLuint
 GetGLHandle
 (
@@ -110,13 +109,14 @@ uint8_t
 aChannelIndex
 )
 const
+override
 ;
-virtual
 RenderDXGITextureHostOGL
 *
 AsRenderDXGITextureHostOGL
 (
 )
+override
 {
 return
 this
@@ -275,7 +275,6 @@ ClearCachedResources
 )
 override
 ;
-virtual
 gfx
 :
 :
@@ -286,8 +285,8 @@ uint8_t
 aChannelIndex
 )
 const
+override
 ;
-virtual
 GLuint
 GetGLHandle
 (
@@ -295,6 +294,7 @@ uint8_t
 aChannelIndex
 )
 const
+override
 ;
 private
 :
