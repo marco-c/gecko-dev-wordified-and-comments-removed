@@ -155,6 +155,13 @@ bool
 aAsIs
 )
 ;
+void
+EnablePrinting
+(
+bool
+aEnable
+)
+;
 nsCOMPtr
 <
 nsIDocShell
