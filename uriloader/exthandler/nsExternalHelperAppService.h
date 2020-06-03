@@ -338,6 +338,8 @@ const
 nsACString
 &
 aContentType
+bool
+aOverwriteDescription
 nsIMIMEInfo
 *
 aMIMEInfo
