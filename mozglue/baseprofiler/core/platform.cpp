@@ -811,14 +811,6 @@ features
 ProfilerFeature
 :
 :
-ClearTrackOptimizations
-(
-features
-)
-;
-ProfilerFeature
-:
-:
 ClearJSTracer
 (
 features

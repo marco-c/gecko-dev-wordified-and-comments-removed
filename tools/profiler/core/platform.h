@@ -284,15 +284,12 @@ JSInstrumentationFlags
 StackSampling
 =
 0x1
-TrackOptimizations
-=
-0x2
 TraceLogging
 =
-0x4
+0x2
 Allocations
 =
-0x8
+0x4
 }
 ;
 void
