@@ -2882,6 +2882,27 @@ scrollbar
 =
 True
         
+prefs
+[
+'
+reftest
+.
+isCoverageBuild
+'
+]
+=
+mozinfo
+.
+info
+.
+get
+(
+'
+ccov
+'
+False
+)
+        
 if
 tests
 :
