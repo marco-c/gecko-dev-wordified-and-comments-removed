@@ -100,9 +100,9 @@ return
 }
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 aContext
 -
@@ -119,7 +119,7 @@ GetMediaController
 if
 (
 !
-controller
+updater
 )
 {
 return
@@ -130,7 +130,7 @@ if
 aIsCreated
 )
 {
-controller
+updater
 -
 >
 NotifySessionCreated
@@ -146,7 +146,7 @@ Id
 }
 else
 {
-controller
+updater
 -
 >
 NotifySessionDestroyed

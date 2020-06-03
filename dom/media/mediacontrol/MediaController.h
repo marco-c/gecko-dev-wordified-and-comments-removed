@@ -170,6 +170,7 @@ SetIsInPictureInPictureMode
 bool
 aIsInPictureInPictureMode
 )
+override
 ;
 bool
 IsInPictureInPictureMode

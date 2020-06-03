@@ -1057,9 +1057,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 currentBC
 -
@@ -1074,7 +1074,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 UpdateMetadata

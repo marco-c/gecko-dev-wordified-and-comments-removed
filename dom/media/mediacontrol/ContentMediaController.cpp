@@ -922,9 +922,9 @@ if
 (
 RefPtr
 <
-MediaController
+IMediaInfoUpdater
 >
-controller
+updater
 =
 bc
 -
@@ -939,7 +939,7 @@ GetMediaController
 )
 )
 {
-controller
+updater
 -
 >
 SetIsInPictureInPictureMode
