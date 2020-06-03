@@ -181,9 +181,6 @@ pastebin
 prettier
 -
 format
-puppeteer
--
-test
 python
 python
 -
