@@ -339,6 +339,11 @@ Deactivate
 (
 )
 ;
+void
+UpdateActivatedStateIfNeeded
+(
+)
+;
 bool
 ShouldActivateController
 (
