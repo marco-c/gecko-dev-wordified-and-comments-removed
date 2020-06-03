@@ -477,6 +477,7 @@ screens
 )
 {
 return
+(
 <
 MultiStageAboutWelcome
 screens
@@ -486,8 +487,18 @@ props
 .
 screens
 }
+metricsFlowUri
+=
+{
+this
+.
+state
+.
+metricsFlowUri
+}
 /
 >
+)
 ;
 }
 let
