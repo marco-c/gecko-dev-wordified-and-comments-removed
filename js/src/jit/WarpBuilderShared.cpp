@@ -463,7 +463,7 @@ initFunction
 (
 callInfo
 .
-fun
+callee
 (
 )
 )

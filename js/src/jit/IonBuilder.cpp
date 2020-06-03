@@ -2456,7 +2456,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -5935,7 +5935,7 @@ initEnvironmentChain
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -21920,7 +21920,7 @@ createThis
 target
 callInfo
 .
-fun
+callee
 (
 )
 callInfo
@@ -22009,7 +22009,7 @@ push
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -24764,7 +24764,7 @@ funcDef
 =
 callInfo
 .
-fun
+callee
 (
 )
 ;
@@ -25135,7 +25135,7 @@ break
 }
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -25185,7 +25185,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -25200,7 +25200,7 @@ constFun
 }
 callInfo
 .
-setFun
+setCallee
 (
 constFun
 )
@@ -25423,7 +25423,7 @@ MOZ_ASSERT
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -25435,7 +25435,7 @@ isGetPropertyCache
 |
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -25461,7 +25461,7 @@ MOZ_ASSERT_IF
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -25482,7 +25482,7 @@ MOZ_ASSERT_IF
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -25616,7 +25616,7 @@ preCallFuncIndex
 =
 fallbackInfo
 .
-fun
+callee
 (
 )
 )
@@ -25813,7 +25813,7 @@ if
 (
 fallbackInfo
 .
-fun
+callee
 (
 )
 -
@@ -25827,7 +25827,7 @@ MOZ_ASSERT
 (
 fallbackInfo
 .
-fun
+callee
 (
 )
 -
@@ -25865,7 +25865,7 @@ barrier
 =
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -26230,7 +26230,7 @@ propTable
 ;
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -26254,7 +26254,7 @@ alloc
 )
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -26619,7 +26619,7 @@ alloc
 )
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -26733,7 +26733,7 @@ inlineBlock
 ;
 inlineInfo
 .
-setFun
+setCallee
 (
 funcDef
 )
@@ -26756,7 +26756,7 @@ getNewTarget
 =
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -27221,7 +27221,7 @@ if
 (
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -27235,7 +27235,7 @@ MOZ_ASSERT
 (
 callInfo
 .
-fun
+callee
 (
 )
 =
@@ -27252,7 +27252,7 @@ barrier
 =
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -32147,7 +32147,7 @@ pop
 ;
 callInfo
 .
-setFun
+setCallee
 (
 argFunc
 )
@@ -33435,7 +33435,7 @@ createThis
 target
 callInfo
 .
-fun
+callee
 (
 )
 callInfo
@@ -33890,7 +33890,7 @@ initFunction
 (
 callInfo
 .
-fun
+callee
 (
 )
 )
@@ -34465,7 +34465,7 @@ setImplicitlyUsedUnchecked
 ;
 callInfo
 .
-fun
+callee
 (
 )
 -
@@ -70275,7 +70275,7 @@ return
 inlineCallInfo_
 -
 >
-fun
+callee
 (
 )
 ;
