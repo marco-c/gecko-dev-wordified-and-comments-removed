@@ -23538,9 +23538,7 @@ if
 (
 stencil
 .
-isFunction
-(
-)
+functionIndex
 )
 {
 JSFunction

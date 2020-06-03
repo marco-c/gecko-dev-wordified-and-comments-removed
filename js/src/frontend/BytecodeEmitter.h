@@ -390,6 +390,9 @@ TDZCheckCache
 class
 TryEmitter
 ;
+class
+ScriptStencil
+;
 enum
 class
 ValueIsOnStack
@@ -1292,6 +1295,14 @@ errorNumber
 .
 .
 .
+)
+;
+bool
+intoScriptStencil
+(
+ScriptStencil
+*
+stencil
 )
 ;
 MOZ_MUST_USE

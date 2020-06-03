@@ -389,6 +389,14 @@ ImmutableScriptData
 immutableData
 )
 {
+using
+ImmutableFlags
+=
+js
+:
+:
+ImmutableScriptFlagsEnum
+;
 bool
 isTopLevelContext
 =
