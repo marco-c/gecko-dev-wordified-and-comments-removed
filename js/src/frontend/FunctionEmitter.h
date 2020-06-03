@@ -438,8 +438,10 @@ emitEndBody
 ;
 MOZ_MUST_USE
 bool
-initScript
+intoStencil
 (
+TopLevelFunction
+isTopLevel
 )
 ;
 private
