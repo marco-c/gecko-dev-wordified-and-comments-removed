@@ -2903,8 +2903,6 @@ artifact
 str
 (
 e
-.
-message
 )
 )
                     
