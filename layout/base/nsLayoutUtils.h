@@ -6413,9 +6413,6 @@ static
 nsRect
 ComputePartialPrerenderArea
 (
-nsIFrame
-*
-aFrame
 const
 nsRect
 &
