@@ -7372,6 +7372,9 @@ fennec
 "
 geckoview
 "
+"
+geckoview_streaming
+"
 ]
 "
 alert_emails
