@@ -7690,6 +7690,9 @@ NS_DISPATCH_NORMAL
 )
 ;
 extern
+"
+C
+"
 nsresult
 NS_DispatchBackgroundTask
 (
