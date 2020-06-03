@@ -1655,6 +1655,8 @@ messageText
 value
 :
 "
+NOT
+SUPPORTED
 "
 }
 ;
