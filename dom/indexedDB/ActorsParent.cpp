@@ -39874,7 +39874,7 @@ result
 ;
 }
 bool
-GetBaseFilename
+GetFilenameBase
 (
 const
 nsAString
@@ -39886,7 +39886,7 @@ nsAString
 aSuffix
 nsDependentSubstring
 &
-aBaseFilename
+aFilenameBase
 )
 {
 MOZ_ASSERT
@@ -39901,7 +39901,7 @@ IsEmpty
 ;
 MOZ_ASSERT
 (
-aBaseFilename
+aFilenameBase
 .
 IsEmpty
 (
@@ -39951,7 +39951,7 @@ Length
 )
 )
 ;
-aBaseFilename
+aFilenameBase
 .
 Rebind
 (
@@ -76839,7 +76839,7 @@ subdirNameBase
 ;
 if
 (
-GetBaseFilename
+GetFilenameBase
 (
 subdirName
 kFileManagerDirectoryNameSuffix
@@ -77500,7 +77500,7 @@ if
 NS_WARN_IF
 (
 !
-GetBaseFilename
+GetFilenameBase
 (
 subdirName
 kFileManagerDirectoryNameSuffix
@@ -79752,7 +79752,7 @@ leafNameBase
 if
 (
 !
-GetBaseFilename
+GetFilenameBase
 (
 leafName
 sqliteSuffix
