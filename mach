@@ -143,7 +143,6 @@ awsy
 -
 test
 browsertime
-cargo
 check
 -
 spidermonkey
