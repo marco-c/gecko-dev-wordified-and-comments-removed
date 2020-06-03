@@ -696,6 +696,13 @@ AssertCurrentThreadOwns
 (
 )
 ;
+msg
+-
+>
+AssertAsLargeAsHeader
+(
+)
+;
 mIOLoop
 -
 >

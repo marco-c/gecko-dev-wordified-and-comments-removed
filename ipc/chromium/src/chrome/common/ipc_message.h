@@ -1334,6 +1334,12 @@ return
 true
 ;
 }
+void
+AssertAsLargeAsHeader
+(
+)
+const
+;
 static
 void
 Log
