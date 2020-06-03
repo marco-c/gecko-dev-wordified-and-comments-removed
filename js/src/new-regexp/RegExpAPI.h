@@ -106,6 +106,11 @@ MutableHandleRegExpShared
 re
 HandleLinearString
 input
+RegExpShared
+:
+:
+CodeKind
+codeKind
 )
 ;
 RegExpRunStatus
