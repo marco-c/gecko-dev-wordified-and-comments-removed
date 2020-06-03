@@ -1174,8 +1174,7 @@ build
 -
 fuzzing
 :
--
-windows
+null
 win64
 -
 plain
@@ -5754,8 +5753,7 @@ build
 -
 fuzzing
 :
--
-windows
+null
 win32
 -
 devedition

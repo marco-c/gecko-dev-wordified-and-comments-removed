@@ -1272,12 +1272,7 @@ build
 fuzzing
 '
 :
-list
-(
-schedules
-.
-ALL_COMPONENTS
-)
+None
 }
     
 {

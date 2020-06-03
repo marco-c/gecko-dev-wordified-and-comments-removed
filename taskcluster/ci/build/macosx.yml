@@ -743,8 +743,7 @@ build
 -
 fuzzing
 :
--
-macosx
+null
 macosx64
 -
 fuzzing
@@ -982,8 +981,7 @@ build
 -
 fuzzing
 :
--
-macosx
+null
 macosx64
 -
 devedition
