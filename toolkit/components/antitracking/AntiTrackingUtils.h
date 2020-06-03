@@ -268,6 +268,15 @@ nsIURI
 aURIBeingLoaded
 )
 ;
+static
+void
+ComputeIsThirdPartyToTopWindow
+(
+nsIChannel
+*
+aChannel
+)
+;
 }
 ;
 }
