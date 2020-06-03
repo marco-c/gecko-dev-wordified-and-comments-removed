@@ -125,27 +125,23 @@ wfile
 new
 "
     
-fh
-=
+with
 open
 (
 new_w_file
 "
-wb
+w
 "
 )
-    
+as
+fh
+:
+        
 parsed
 .
 writexml
 (
 fh
-)
-    
-fh
-.
-close
-(
 )
     
 shutil
