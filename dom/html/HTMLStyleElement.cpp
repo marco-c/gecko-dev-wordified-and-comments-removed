@@ -142,7 +142,7 @@ nsGenericHTMLElement
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Traverse
@@ -159,7 +159,7 @@ nsGenericHTMLElement
 tmp
 -
 >
-nsStyleLinkElement
+LinkStyle
 :
 :
 Unlink
@@ -171,7 +171,6 @@ NS_IMPL_ISUPPORTS_CYCLE_COLLECTION_INHERITED
 (
 HTMLStyleElement
 nsGenericHTMLElement
-nsIStyleSheetLinkingElement
 nsIMutationObserver
 )
 NS_IMPL_ELEMENT_CLONE
@@ -743,7 +742,7 @@ nullptr
 }
 Maybe
 <
-nsStyleLinkElement
+LinkStyle
 :
 :
 SheetInfo

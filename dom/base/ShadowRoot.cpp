@@ -57,13 +57,6 @@ h
 #
 include
 "
-nsIStyleSheetLinkingElement
-.
-h
-"
-#
-include
-"
 nsWindowSizes
 .
 h

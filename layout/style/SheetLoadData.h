@@ -135,7 +135,10 @@ nsIThreadObserver
 using
 MediaMatched
 =
-nsIStyleSheetLinkingElement
+dom
+:
+:
+LinkStyle
 :
 :
 MediaMatched
@@ -143,7 +146,10 @@ MediaMatched
 using
 IsAlternate
 =
-nsIStyleSheetLinkingElement
+dom
+:
+:
+LinkStyle
 :
 :
 IsAlternate
@@ -191,9 +197,9 @@ StyleSheet
 aSheet
 bool
 aSyncLoad
-nsIStyleSheetLinkingElement
+nsINode
 *
-aOwningElement
+aOwningNode
 IsAlternate
 aIsAlternate
 MediaMatched
@@ -453,9 +459,9 @@ mIsPreload
 const
 nsCOMPtr
 <
-nsIStyleSheetLinkingElement
+nsINode
 >
-mOwningElement
+mOwningNode
 ;
 const
 nsCOMPtr
