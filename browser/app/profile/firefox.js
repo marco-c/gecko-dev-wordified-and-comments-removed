@@ -10585,16 +10585,6 @@ false
 pref
 (
 "
-pdfjs
-.
-handleOctetStream
-"
-true
-)
-;
-pref
-(
-"
 sidebar
 .
 position_start
