@@ -600,17 +600,6 @@ query_is_nightly
 )
 :
             
-bootstrap_env
-[
-"
-IS_NIGHTLY
-"
-]
-=
-"
-yes
-"
-            
 if
 config
 .

@@ -457,17 +457,6 @@ query_is_nightly
 )
 :
             
-repack_env
-[
-"
-IS_NIGHTLY
-"
-]
-=
-"
-yes
-"
-            
 if
 c
 .
@@ -930,27 +919,6 @@ dirs
 {
              
 '
-abs_tools_dir
-'
-:
-os
-.
-path
-.
-join
-(
-abs_dirs
-[
-'
-base_work_dir
-'
-]
-'
-tools
-'
-)
-             
-'
 build_dir
 '
 :
@@ -1038,7 +1006,7 @@ join
 dirs
 [
 '
-abs_mozilla_dir
+abs_src_dir
 '
 ]
 '
@@ -1066,7 +1034,7 @@ cwd
 dirs
 [
 '
-abs_mozilla_dir
+abs_src_dir
 '
 ]
                             
@@ -1130,7 +1098,7 @@ cwd
 dirs
 [
 '
-abs_mozilla_dir
+abs_src_dir
 '
 ]
                          
@@ -1179,7 +1147,7 @@ join
 dirs
 [
 '
-abs_mozilla_dir
+abs_src_dir
 '
 ]
 '
