@@ -1144,7 +1144,7 @@ global_type
             
 globals
 =
-b
+u
 "
 "
             
@@ -1166,7 +1166,6 @@ if
 key
 =
 =
-b
 "
 global
 "
@@ -1225,7 +1224,6 @@ if
 key
 =
 =
-b
 "
 timeout
 "
@@ -1235,7 +1233,6 @@ if
 value
 =
 =
-b
 "
 long
 "
@@ -1262,7 +1259,6 @@ if
 key
 =
 =
-b
 "
 title
 "
@@ -1271,15 +1267,6 @@ title
 value
 =
 value
-.
-decode
-(
-'
-utf
--
-8
-'
-)
 .
 replace
 (
@@ -1336,7 +1323,6 @@ if
 key
 =
 =
-b
 "
 script
 "
@@ -1345,15 +1331,6 @@ script
 attribute
 =
 value
-.
-decode
-(
-'
-utf
--
-8
-'
-)
 .
 replace
 (
@@ -1409,7 +1386,6 @@ HtmlWrapperHandler
     
 global_type
 =
-b
 "
 dedicatedworker
 "
@@ -1681,7 +1657,6 @@ HtmlWrapperHandler
     
 global_type
 =
-b
 "
 window
 "
@@ -1841,7 +1816,6 @@ HtmlWrapperHandler
     
 global_type
 =
-b
 "
 sharedworker
 "
@@ -1981,7 +1955,6 @@ HtmlWrapperHandler
     
 global_type
 =
-b
 "
 serviceworker
 "
@@ -2321,7 +2294,6 @@ if
 key
 =
 =
-b
 "
 script
 "
@@ -2330,15 +2302,6 @@ script
 attribute
 =
 value
-.
-decode
-(
-'
-utf
--
-8
-'
-)
 .
 replace
 (
@@ -2383,7 +2346,6 @@ if
 key
 =
 =
-b
 "
 title
 "
@@ -2392,15 +2354,6 @@ title
 value
 =
 value
-.
-decode
-(
-'
-utf
--
-8
-'
-)
 .
 replace
 (

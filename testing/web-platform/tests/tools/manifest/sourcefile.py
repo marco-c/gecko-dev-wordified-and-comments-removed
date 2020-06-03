@@ -351,7 +351,7 @@ metadata
 (
 pairs
 of
-bytestrings
+strings
 )
 from
 the
@@ -429,6 +429,13 @@ groups
 [
 0
 ]
+.
+decode
+(
+"
+utf8
+"
+)
 m
 .
 groups
@@ -437,12 +444,18 @@ groups
 [
 1
 ]
+.
+decode
+(
+"
+utf8
+"
+)
 )
 _any_variants
 =
 {
     
-b
 "
 window
 "
@@ -460,7 +473,6 @@ html
 "
 }
     
-b
 "
 serviceworker
 "
@@ -473,7 +485,6 @@ force_https
 True
 }
     
-b
 "
 sharedworker
 "
@@ -481,7 +492,6 @@ sharedworker
 {
 }
     
-b
 "
 dedicatedworker
 "
@@ -501,7 +511,6 @@ html
 "
 }
     
-b
 "
 worker
 "
@@ -512,22 +521,18 @@ longhand
 "
 :
 {
-b
 "
 dedicatedworker
 "
-b
 "
 sharedworker
 "
-b
 "
 serviceworker
 "
 }
 }
     
-b
 "
 jsshell
 "
@@ -562,7 +567,7 @@ set
 of
 variants
 (
-bytestrings
+strings
 )
 defined
 by
@@ -579,7 +584,7 @@ assert
 isinstance
 (
 item
-binary_type
+text_type
 )
 item
     
@@ -632,7 +637,7 @@ set
 of
 variants
 (
-bytestrings
+strings
 )
 that
 will
@@ -650,11 +655,9 @@ return
 set
 (
 {
-b
 "
 window
 "
-b
 "
 dedicatedworker
 "
@@ -677,7 +680,7 @@ set
 of
 variants
 (
-bytestrings
+strings
 )
 defined
 by
@@ -696,7 +699,7 @@ assert
 isinstance
 (
 value
-binary_type
+text_type
 )
 value
     
@@ -704,7 +707,6 @@ if
 value
 =
 =
-b
 "
 "
 :
@@ -727,7 +729,6 @@ value
 .
 split
 (
-b
 "
 "
 )
@@ -808,7 +809,7 @@ assert
 isinstance
 (
 value
-binary_type
+text_type
 )
 value
     
@@ -858,15 +859,6 @@ html
 "
 %
 global_type
-.
-decode
-(
-"
-utf
--
-8
-"
-)
 )
         
 rv
@@ -878,7 +870,6 @@ suffix
 global_type
 =
 =
-b
 "
 jsshell
 "
@@ -3111,11 +3102,9 @@ m
 =
 =
 (
-b
 "
 timeout
 "
-b
 "
 long
 "
@@ -4334,7 +4323,6 @@ if
 key
 =
 =
-b
 "
 variant
 "
@@ -4345,15 +4333,6 @@ rv
 append
 (
 value
-.
-decode
-(
-"
-utf
--
-8
-"
-)
 )
         
 else
@@ -5634,7 +5613,7 @@ name_is_multi_global
             
 globals
 =
-b
+u
 "
 "
             
@@ -5663,7 +5642,6 @@ if
 key
 =
 =
-b
 "
 global
 "
@@ -6258,7 +6236,10 @@ cached_properties
 :
                 
 if
+str
+(
 key
+)
 in
 self
 .
@@ -6270,7 +6251,10 @@ self
 .
 __dict__
 [
+str
+(
 key
+)
 ]
             
 del
