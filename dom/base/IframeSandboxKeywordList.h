@@ -132,3 +132,13 @@ activation
 allowstorageaccessbyuseractivatetion
 SANDBOXED_STORAGE_ACCESS
 )
+SANDBOX_KEYWORD
+(
+"
+allow
+-
+downloads
+"
+allowdownloads
+SANDBOXED_ALLOW_DOWNLOADS
+)
