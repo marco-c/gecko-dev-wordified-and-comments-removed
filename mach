@@ -203,7 +203,6 @@ raptor
 test
 reftest
 release
-remote
 repackage
 rusttests
 static
