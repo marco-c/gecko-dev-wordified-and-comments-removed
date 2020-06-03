@@ -17395,6 +17395,9 @@ state
 &
 mut
 WrState
+discard
+:
+bool
 )
 {
 state
@@ -17405,6 +17408,7 @@ dl_builder
 .
 cancel_item_group
 (
+discard
 )
 ;
 }

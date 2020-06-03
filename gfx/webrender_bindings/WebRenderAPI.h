@@ -3155,6 +3155,11 @@ aItem
 void
 CancelGroup
 (
+const
+bool
+aDiscard
+=
+false
 )
 ;
 void

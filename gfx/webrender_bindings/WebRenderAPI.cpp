@@ -8316,6 +8316,9 @@ DisplayListBuilder
 :
 CancelGroup
 (
+const
+bool
+aDiscard
 )
 {
 if
@@ -8334,6 +8337,7 @@ return
 wr_dp_cancel_item_group
 (
 mWrState
+aDiscard
 )
 ;
 mCurrentCacheSlot
