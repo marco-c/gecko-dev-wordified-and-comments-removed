@@ -20,6 +20,7 @@ internal
 const
 char
 *
+const
 kRegExpErrorStrings
 [
 ]
