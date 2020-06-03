@@ -1260,7 +1260,7 @@ const
 {
 executionContextId
 :
-contextIdFrame
+contextIdSubFrame
 }
 =
 await
@@ -1371,7 +1371,7 @@ parentDefaultContextCreated
 checkIsolated
 (
 frameIsolatedContextCreated
-contextIdFrame
+contextIdSubFrame
 WORLD_NAME_2
 subFrame
 .

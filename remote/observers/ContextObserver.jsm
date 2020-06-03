@@ -395,6 +395,12 @@ script
 -
 loaded
 "
+{
+windowId
+:
+id
+window
+}
 )
 ;
 }
@@ -442,6 +448,12 @@ script
 -
 loaded
 "
+{
+windowId
+:
+id
+window
+}
 )
 ;
 break
