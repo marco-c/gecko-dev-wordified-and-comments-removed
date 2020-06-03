@@ -13,6 +13,8 @@ mozpath
 import
 os
 import
+six
+import
 subprocess
 import
 pytoml
@@ -217,6 +219,24 @@ p
 .
 communicate
 (
+)
+    
+stdout
+=
+six
+.
+ensure_text
+(
+stdout
+)
+    
+stderr
+=
+six
+.
+ensure_text
+(
+stderr
 )
     
 if
