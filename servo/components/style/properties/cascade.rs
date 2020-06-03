@@ -4153,7 +4153,7 @@ gecko
 (
 )
 .
-mAllowZoomAndMinSize
+mAllowZoom
 ;
 let
 zoom
@@ -4168,7 +4168,7 @@ gecko
 (
 )
 .
-mAllowZoomAndMinSize
+mAllowZoom
 ;
 if
 zoom
@@ -4395,7 +4395,7 @@ mScriptMinSize
 if
 font
 .
-mAllowZoomAndMinSize
+mAllowZoom
 {
 min
 =

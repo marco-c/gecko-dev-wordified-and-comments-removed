@@ -7456,13 +7456,6 @@ mSize
 0
 |
 |
-!
-aFont
--
->
-mAllowZoomAndMinSize
-|
-|
 nsContentUtils
 :
 :
