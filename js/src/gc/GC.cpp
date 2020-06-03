@@ -21504,13 +21504,6 @@ HelperThreadState
 startHandlingCompressionTasks
 (
 helperLock
-GlobalHelperThreadState
-:
-:
-ScheduleCompressionTask
-:
-:
-GC
 )
 ;
 }
