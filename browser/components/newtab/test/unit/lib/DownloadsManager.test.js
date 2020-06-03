@@ -608,6 +608,14 @@ type
 download
 "
 }
+_target
+:
+{
+browser
+:
+{
+}
+}
 }
 )
 ;
