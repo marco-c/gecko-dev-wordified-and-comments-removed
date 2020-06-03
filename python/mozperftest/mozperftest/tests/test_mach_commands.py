@@ -58,6 +58,11 @@ mach_commands
 import
 Perftest
 PerftestTests
+ON_TRY
+from
+mozperftest
+import
+mach_commands
 from
 mozperftest
 .
@@ -66,6 +71,13 @@ tests
 support
 import
 EXAMPLE_TESTS_DIR
+from
+mozperftest
+.
+utils
+import
+temporary_env
+silence
 class
 _TestMachEnvironment
 (
@@ -227,6 +239,10 @@ _get_command
 )
 as
 test
+silence
+(
+test
+)
 :
         
 test
@@ -284,6 +300,10 @@ _get_command
 )
 as
 test
+silence
+(
+test
+)
 :
         
 test
@@ -339,7 +359,7 @@ mach_commands
 .
 PerftestTests
 .
-_run_script
+_run_python_script
 "
 )
 def
@@ -361,9 +381,23 @@ system
 "
 Darwin
 "
+and
+ON_TRY
 :
         
 return
+    
+old
+=
+mach_commands
+.
+ON_TRY
+    
+mach_commands
+.
+ON_TRY
+=
+True
     
 with
 _get_command
@@ -372,6 +406,20 @@ PerftestTests
 )
 as
 test
+silence
+(
+test
+)
+temporary_env
+(
+        
+MOZ_AUTOMATION
+=
+"
+1
+"
+    
+)
 :
         
 test
@@ -384,6 +432,12 @@ tests
 EXAMPLE_TESTS_DIR
 ]
 )
+    
+mach_commands
+.
+ON_TRY
+=
+old
 if
 __name__
 =

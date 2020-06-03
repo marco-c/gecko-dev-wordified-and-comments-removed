@@ -27,6 +27,12 @@ system
 android
 import
 DeviceError
+from
+mozperftest
+.
+utils
+import
+silence
 class
 FakeDevice
 :
@@ -176,6 +182,10 @@ with
 system
 as
 android
+silence
+(
+system
+)
 :
         
 android
@@ -254,6 +264,10 @@ with
 system
 as
 android
+silence
+(
+system
+)
 pytest
 .
 raises
@@ -372,6 +386,10 @@ with
 system
 as
 android
+silence
+(
+system
+)
 :
         
 android

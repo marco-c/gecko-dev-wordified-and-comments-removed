@@ -953,6 +953,15 @@ after_runs
 def
 main
 (
+argv
+=
+sys
+.
+argv
+[
+1
+:
+]
 )
 :
     
@@ -1057,6 +1066,9 @@ parser
 .
 parse_args
 (
+args
+=
+argv
 )
     
 run_tests
