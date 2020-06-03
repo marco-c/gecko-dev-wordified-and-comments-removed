@@ -427,6 +427,7 @@ all
 [
 asyncReInit
 (
+true
 )
 promiseAfterCache
 (
