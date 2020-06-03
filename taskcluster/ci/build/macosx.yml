@@ -2464,6 +2464,16 @@ lucetc
 wasi
 -
 sysroot
+optimization
+:
+push
+-
+interval
+-
+25
+:
+-
+macosx
 macosx64
 -
 gcp
