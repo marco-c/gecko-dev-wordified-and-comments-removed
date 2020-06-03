@@ -208,9 +208,6 @@ raptor
 test
 reftest
 release
-release
--
-history
 remote
 repackage
 rusttests
