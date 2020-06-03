@@ -187,11 +187,11 @@ ShutdownPreferences
 (
 )
 ;
-private
-:
 nsCString
 mName
 ;
+private
+:
 nsCString
 mPrefSkipHosts
 ;
