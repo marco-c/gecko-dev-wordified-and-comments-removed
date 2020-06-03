@@ -127,7 +127,7 @@ version
 .
 7
 .
-1
+2
 "
 authors
 =
@@ -548,15 +548,6 @@ default
 [
 "
 ahash
-"
-"
-ahash
--
-compile
--
-time
--
-rng
 "
 "
 inline
