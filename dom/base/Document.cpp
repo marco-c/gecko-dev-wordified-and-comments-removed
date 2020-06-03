@@ -24955,16 +24955,7 @@ justify
 }
 default
 :
-return
-params
--
->
-GetBool
-(
-"
-state_all
-"
-)
+break
 ;
 }
 return
