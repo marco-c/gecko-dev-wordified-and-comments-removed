@@ -11482,13 +11482,6 @@ Assembler
 NotEqual
 )
 ;
-SecondScratchRegisterScope
-scratch2
-(
-*
-this
-)
-;
 Label
 done
 ;
@@ -11511,6 +11504,13 @@ Equal
 done
 :
 label
+)
+;
+SecondScratchRegisterScope
+scratch2
+(
+*
+this
 )
 ;
 unboxGCThingForGCBarrier
