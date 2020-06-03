@@ -126,6 +126,10 @@ const
 nsAString
 &
 aDomain
+bool
+aForced
+=
+false
 )
 ;
 enum
