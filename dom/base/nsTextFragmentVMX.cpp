@@ -203,7 +203,6 @@ i
 #
 if
 __LITTLE_ENDIAN__
-register
 const
 vector
 unsigned
@@ -233,7 +232,6 @@ vec_splat_s8
 ;
 #
 else
-register
 const
 vector
 unsigned
@@ -293,7 +291,6 @@ while
 1
 )
 {
-register
 vector
 unsigned
 short
