@@ -101,14 +101,6 @@ c
 '
 python3
 -
-dbus
--
-python
-'
-        
-'
-python3
--
 wheel
 '
         

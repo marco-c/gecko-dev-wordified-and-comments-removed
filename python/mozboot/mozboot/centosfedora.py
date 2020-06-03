@@ -367,21 +367,6 @@ Tools
 '
                 
 ]
-                
-self
-.
-browser_packages
-+
-=
-[
-                    
-'
-python
--
-dbus
-'
-                
-]
         
 elif
 self
@@ -434,21 +419,6 @@ redhat
 rpm
 -
 config
-'
-            
-]
-            
-self
-.
-browser_packages
-+
-=
-[
-                
-'
-python
--
-dbus
 '
             
 ]
