@@ -3446,6 +3446,9 @@ defined
 (
 MOZ_SANDBOX
 )
+aChildDoc
+-
+>
 mDocProxyStream
 =
 docHolder
