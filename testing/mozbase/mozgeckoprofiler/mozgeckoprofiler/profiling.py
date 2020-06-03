@@ -25,9 +25,9 @@ LOG
 =
 get_proxy_logger
 (
-'
+"
 profiler
-'
+"
 )
 def
 save_gecko_profile
@@ -132,38 +132,35 @@ windows_symbol_path
 symbol_paths
 =
 {
-        
-'
+"
 FIREFOX
-'
+"
 :
 firefox_symbol_path
-        
-'
+"
 WINDOWS
-'
+"
 :
 windows_symbol_path
-    
 }
     
 symbolicator
 =
 ProfileSymbolicator
 (
-{
         
+{
+            
 "
 enableTracing
 "
 :
 0
-        
+            
 "
 remoteSymbolServer
 "
 :
-            
 "
 https
 :
@@ -179,31 +176,31 @@ symbolicate
 /
 v4
 "
-        
+            
 "
 maxCacheEntries
 "
 :
 2000000
-        
+            
 "
 prefetchInterval
 "
 :
 12
-        
+            
 "
 prefetchThreshold
 "
 :
 48
-        
+            
 "
 prefetchMaxSymbolsPerLib
 "
 :
 3
-        
+            
 "
 defaultApp
 "
@@ -211,7 +208,7 @@ defaultApp
 "
 FIREFOX
 "
-        
+            
 "
 defaultOs
 "
@@ -219,14 +216,15 @@ defaultOs
 "
 WINDOWS
 "
-        
+            
 "
 symbolPaths
 "
 :
 symbol_paths
-    
+        
 }
+    
 )
     
 symbol_path
@@ -238,14 +236,14 @@ path
 join
 (
 objdir_path
-'
+"
 dist
-'
-'
+"
+"
 crashreporter
 -
 symbols
-'
+"
 )
     
 missing_symbols_zip
@@ -281,9 +279,7 @@ symbolicator
 .
 integrate_symbol_zip_from_url
 (
-            
 symbol_path
-        
 )
     
 elif
@@ -301,9 +297,7 @@ symbolicator
 .
 integrate_symbol_zip_from_file
 (
-            
 symbol_path
-        
 )
     
 elif
@@ -330,6 +324,7 @@ LOG
 .
 info
 (
+        
 "
 Symbolicating
 the
@@ -344,12 +339,13 @@ take
 a
 couple
 "
-             
+        
 "
 of
 minutes
 .
 "
+    
 )
     
 try
@@ -359,9 +355,9 @@ with
 open
 (
 profile_path
-'
+"
 r
-'
+"
 )
 as
 profile_file
@@ -380,9 +376,7 @@ symbolicator
 .
 dump_and_integrate_missing_symbols
 (
-            
 profile
-            
 missing_symbols_zip
 )
         
@@ -425,7 +419,6 @@ profile
 0
 }
 "
-            
 .
 format
 (

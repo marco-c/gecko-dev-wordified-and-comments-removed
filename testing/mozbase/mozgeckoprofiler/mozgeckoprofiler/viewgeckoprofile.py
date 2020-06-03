@@ -50,9 +50,9 @@ LOG
 =
 get_proxy_logger
 (
-'
+"
 profiler
-'
+"
 )
 class
 ProfileServingHTTPRequestHandler
@@ -211,7 +211,7 @@ self
 .
 host
 =
-'
+"
 127
 .
 0
@@ -219,7 +219,7 @@ host
 0
 .
 1
-'
+"
         
 self
 .
@@ -263,8 +263,8 @@ sock
 bind
 (
 (
-'
-'
+"
+"
 0
 )
 )
@@ -305,6 +305,7 @@ SocketServer
 .
 TCPServer
 (
+            
 (
 self
 .
@@ -313,8 +314,8 @@ self
 .
 port
 )
-                                            
 ProfileServingHTTPRequestHandler
+        
 )
     
 def
@@ -367,13 +368,13 @@ http
 .
 format
 (
+            
 self
 .
 host
 self
 .
 port
-                                            
 os
 .
 path
@@ -384,6 +385,7 @@ self
 .
 gecko_profile_data_path
 )
+        
 )
         
 self
@@ -401,8 +403,8 @@ quote
 file_url
 safe
 =
-'
-'
+"
+"
 )
         
 LOG
@@ -481,26 +483,30 @@ add_argument
     
 add_arg
 (
-'
+        
+"
 -
 p
-'
-'
+"
+        
+"
 -
 -
 profile
 -
 zip
-'
+"
+        
 required
 =
 True
+        
 dest
 =
-'
+"
 profile_zip
-'
-            
+"
+        
 help
 =
 "
@@ -520,6 +526,7 @@ firefox
 .
 com
 "
+    
 )
     
 add_logging_group
@@ -713,18 +720,18 @@ commandline
 .
 setup_logging
 (
-'
+"
 view
 -
 gecko
 -
 profile
-'
+"
 args
 {
-'
+"
 tbpl
-'
+"
 :
 sys
 .

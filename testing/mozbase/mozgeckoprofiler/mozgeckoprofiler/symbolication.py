@@ -142,7 +142,6 @@ path
 .
 join
 (
-            
 os
 .
 path
@@ -151,9 +150,9 @@ dirname
 (
 __file__
 )
-'
+"
 dump_syms_mac
-'
+"
 )
         
 if
@@ -186,11 +185,12 @@ directory
 def
 store_symbols
 (
+        
 self
 lib_path
 expected_breakpad_id
-                      
 output_filename_without_extension
+    
 )
 :
         
@@ -262,6 +262,8 @@ file
 "
             
 return
+(
+                
 subprocess
 .
 Popen
@@ -276,14 +278,12 @@ info
 "
 filename
 ]
-                                    
 stdout
 =
 subprocess
 .
 PIPE
 )
-\
                 
 .
 communicate
@@ -292,23 +292,28 @@ communicate
 [
 0
 ]
+                
 .
 split
 (
-'
+"
 :
-'
+"
 )
 [
 2
 ]
+                
 .
 strip
 (
 )
+                
 .
 split
 (
+)
+            
 )
         
 def
@@ -324,6 +329,7 @@ subprocess
 .
 Popen
 (
+                
 [
 self
 .
@@ -335,18 +341,19 @@ a
 arch
 lib_path
 ]
-                                    
+                
 stdout
 =
 subprocess
 .
 PIPE
-                                    
+                
 stderr
 =
 subprocess
 .
 PIPE
+            
 )
             
 stdout
@@ -387,8 +394,8 @@ module
 .
 split
 (
-'
-'
+"
+"
 4
 )
             
@@ -507,7 +514,6 @@ nm
 raise
 SymbolError
 (
-                
 "
 Could
 not
@@ -526,7 +532,6 @@ store_symbols
 self
 lib_path
 breakpad_id
-                      
 output_filename_without_extension
 )
 :
@@ -575,6 +580,7 @@ subprocess
 .
 Popen
 (
+            
 [
 self
 .
@@ -586,18 +592,19 @@ demangle
 "
 lib_path
 ]
-                                
+            
 stdout
 =
 subprocess
 .
 PIPE
-                                
+            
 stderr
 =
 subprocess
 .
 PIPE
+        
 )
         
 stdout
@@ -645,6 +652,7 @@ subprocess
 .
 Popen
 (
+                
 [
 self
 .
@@ -660,18 +668,19 @@ D
 "
 lib_path
 ]
-                                    
+                
 stdout
 =
 subprocess
 .
 PIPE
-                                    
+                
 stderr
 =
 subprocess
 .
 PIPE
+            
 )
             
 stdout
@@ -868,6 +877,7 @@ LOG
 .
 info
 (
+            
 "
 Retrieving
 symbol
@@ -883,11 +893,13 @@ symbol_zip_url
 .
 format
 (
-            
+                
 symbol_zip_url
 =
 symbol_zip_url
+            
 )
+        
 )
         
 try
@@ -983,9 +995,9 @@ with
 open
 (
 filename
-'
+"
 rb
-'
+"
 )
 as
 f
@@ -1058,9 +1070,9 @@ try
 open
 (
 filename
-'
+"
 a
-'
+"
 )
 .
 close
@@ -1116,7 +1128,6 @@ path
 .
 join
 (
-            
 self
 .
 options
@@ -1144,7 +1155,6 @@ path
 join
 (
 marker_dir
-                            
 hashlib
 .
 sha1
@@ -1244,6 +1254,7 @@ breakpadId
 rawRequest
 =
 {
+            
 "
 stacks
 "
@@ -1252,17 +1263,19 @@ stacks
 [
 ]
 ]
+            
 "
 memoryMap
 "
 :
 memoryMap
-                      
+            
 "
 version
 "
 :
 4
+            
 "
 symbolSources
 "
@@ -1275,6 +1288,7 @@ FIREFOX
 WINDOWS
 "
 ]
+        
 }
         
 request
@@ -1345,7 +1359,6 @@ dump_and_integrate_missing_symbols
 (
 self
 profile_json
-                                           
 symbol_zip_path
 )
 :
@@ -1397,9 +1410,9 @@ zipfile
 ZipFile
 (
 symbol_zip_path
-'
+"
 a
-'
+"
 zipfile
 .
 ZIP_DEFLATED
@@ -1535,6 +1548,7 @@ join
             
 output_dir
 expected_name_without_extension
+        
 )
         
 store_path
@@ -1584,6 +1598,7 @@ breakpadId
 "
 ]
 output_filename_without_extension
+        
 )
         
 if
@@ -1601,9 +1616,9 @@ path
 join
 (
 output_dir
-'
+"
 _
-'
+"
 )
 )
 -
@@ -1682,6 +1697,7 @@ _assign_symbols_to_libraries
             
 addresses
 shared_libraries
+        
 )
         
 symbolication_table
@@ -1970,7 +1986,6 @@ self
 .
 _get_containing_library
 (
-                
 int
 (
 address
@@ -2009,7 +2024,6 @@ start
 ]
 =
 {
-                    
 "
 library
 "
@@ -2137,7 +2151,6 @@ processedStack
 .
 append
 (
-                    
 [
 moduleIndex
 int
@@ -2158,6 +2171,7 @@ start
 rawRequest
 =
 {
+            
 "
 stacks
 "
@@ -2165,17 +2179,19 @@ stacks
 [
 processedStack
 ]
+            
 "
 memoryMap
 "
 :
 memoryMap
-                      
+            
 "
 version
 "
 :
 4
+            
 "
 symbolSources
 "
@@ -2188,6 +2204,7 @@ FIREFOX
 WINDOWS
 "
 ]
+        
 }
         
 request
