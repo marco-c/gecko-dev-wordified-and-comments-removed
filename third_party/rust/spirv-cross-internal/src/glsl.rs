@@ -177,6 +177,10 @@ version
 :
 Version
 pub
+enable_420_pack_extension
+:
+bool
+pub
 vertex
 :
 CompilerVertexOptions
@@ -344,6 +348,11 @@ vertex
 .
 transform_clip_space
 version
+enable_420_pack_extension
+:
+self
+.
+enable_420_pack_extension
 es
 }
 }
@@ -369,6 +378,9 @@ Version
 :
 :
 V4_50
+enable_420_pack_extension
+:
+true
 vertex
 :
 CompilerVertexOptions

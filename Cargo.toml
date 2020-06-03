@@ -584,12 +584,12 @@ spirv_cross
 branch
 =
 "
-wgpu2
+wgpu3
 "
 rev
 =
 "
-f252537beb139a818b4a8c854e501690c9ade20e
+20191ad2f370afd6d247edcb9ff9da32d3bedb9c
 "
 }
 #

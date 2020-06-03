@@ -1954,7 +1954,8 @@ Struct
 Image
 SampledImage
 Sampler
-AccelerationStructureNV
+AccelerationStructure
+RayQuery
 ControlPointArray
 Char
 }
@@ -2017,6 +2018,12 @@ SmallVector
 TypeID
 >
 member_types
+;
+SmallVector
+<
+uint32_t
+>
+member_type_index_redirection
 ;
 struct
 ImageType
@@ -2448,6 +2455,8 @@ ComplexLoop
 }
 ;
 enum
+:
+uint32_t
 {
 NoDominator
 =

@@ -144,6 +144,9 @@ Version
 :
 :
 V4_60
+enable_420_pack_extension
+:
+true
 vertex
 :
 glsl
@@ -374,6 +377,9 @@ glsl
 CompilerOptions
 {
 version
+enable_420_pack_extension
+:
+true
 vertex
 :
 glsl
@@ -490,6 +496,9 @@ Version
 :
 :
 V1_00Es
+enable_420_pack_extension
+:
+true
 vertex
 :
 glsl
@@ -628,6 +637,9 @@ Version
 :
 :
 V1_00Es
+enable_420_pack_extension
+:
+true
 vertex
 :
 glsl
@@ -955,6 +967,9 @@ Version
 :
 :
 V4_10
+enable_420_pack_extension
+:
+true
 vertex
 :
 glsl

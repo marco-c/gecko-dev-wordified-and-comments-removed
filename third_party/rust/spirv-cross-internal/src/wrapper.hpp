@@ -188,6 +188,12 @@ vertex_transform_clip_space
 bool
 vertex_invert_y
 ;
+bool
+force_storage_buffer_as_uav
+;
+bool
+nonwritable_uav_texture_as_srv
+;
 }
 ScHlslCompilerOptions
 ;
@@ -264,6 +270,9 @@ version
 ;
 bool
 es
+;
+bool
+enable_420_pack_extension
 ;
 }
 ScGlslCompilerOptions
@@ -367,6 +376,12 @@ SPIRType
 :
 BaseType
 type
+;
+uint32_t
+vecsize
+;
+uint32_t
+columns
 ;
 uint32_t
 *

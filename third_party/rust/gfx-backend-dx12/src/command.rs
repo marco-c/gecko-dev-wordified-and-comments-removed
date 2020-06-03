@@ -779,7 +779,7 @@ self
 dirty_mask
 |
 =
-0b1u64
+1u64
 <
 <
 offset
@@ -789,7 +789,7 @@ self
 dirty_mask
 |
 =
-0b1u64
+1u64
 <
 <
 offset
