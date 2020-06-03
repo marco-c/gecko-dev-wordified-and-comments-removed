@@ -157,6 +157,14 @@ distutils
 -
 extra
 \
+python3
+-
+requests
+\
+python3
+-
+pytoml
+\
 subversion
 \
 tar

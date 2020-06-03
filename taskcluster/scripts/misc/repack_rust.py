@@ -424,6 +424,7 @@ keyid
     
 key
 =
+b
 '
 '
 '
@@ -879,6 +880,7 @@ key
 keyid
 ]
                           
+b
 '
 trust
 \
@@ -3309,13 +3311,18 @@ args
 .
 targets
 =
-map
-(
+[
 expand_platform
+(
+t
+)
+for
+t
+in
 args
 .
 targets
-)
+]
     
 return
 args
