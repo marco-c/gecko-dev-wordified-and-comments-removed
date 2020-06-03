@@ -4250,7 +4250,7 @@ AsContent
 )
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 |
@@ -11877,7 +11877,7 @@ AsContent
 )
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -13747,7 +13747,7 @@ return
 aOther
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 ;

@@ -705,7 +705,7 @@ mRootNode
 mRootNode
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

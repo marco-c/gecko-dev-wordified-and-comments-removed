@@ -43462,7 +43462,7 @@ AsContent
 )
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -50643,7 +50643,7 @@ content
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

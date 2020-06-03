@@ -4865,7 +4865,7 @@ content
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 ;

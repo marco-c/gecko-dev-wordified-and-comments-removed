@@ -456,7 +456,7 @@ mParent
 aChildToFind
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

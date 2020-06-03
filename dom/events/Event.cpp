@@ -470,7 +470,7 @@ content
 content
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

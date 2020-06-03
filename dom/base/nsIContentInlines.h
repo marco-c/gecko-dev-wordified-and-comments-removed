@@ -589,7 +589,7 @@ if
 content
 -
 >
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )
@@ -973,7 +973,7 @@ IsInShadowTree
 )
 |
 |
-IsRootOfAnonymousSubtree
+IsRootOfNativeAnonymousSubtree
 (
 )
 )

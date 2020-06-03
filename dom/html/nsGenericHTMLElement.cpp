@@ -1055,7 +1055,7 @@ doc
 &
 &
 !
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

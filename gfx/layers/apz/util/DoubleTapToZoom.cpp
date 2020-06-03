@@ -207,7 +207,7 @@ GetContent
 )
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )

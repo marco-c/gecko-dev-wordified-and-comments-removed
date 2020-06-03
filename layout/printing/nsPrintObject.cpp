@@ -311,7 +311,7 @@ if
 aOrigNode
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 |

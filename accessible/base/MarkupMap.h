@@ -321,7 +321,7 @@ if
 aElement
 -
 >
-IsInAnonymousSubtree
+IsInNativeAnonymousSubtree
 (
 )
 )
