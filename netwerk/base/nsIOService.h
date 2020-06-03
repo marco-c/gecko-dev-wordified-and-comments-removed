@@ -456,12 +456,6 @@ IsDataURIUniqueOpaqueOrigin
 )
 ;
 static
-bool
-BlockToplevelDataUriNavigations
-(
-)
-;
-static
 already_AddRefed
 <
 nsIURI
@@ -928,9 +922,6 @@ bool
 mConnectivity
 ;
 bool
-mOfflineMirrorsConnectivity
-;
-bool
 mSettingOffline
 ;
 bool
@@ -1009,10 +1000,6 @@ nsTArray
 int32_t
 >
 mRestrictedPortList
-;
-static
-bool
-sBlockToplevelDataUriNavigations
 ;
 uint32_t
 mTotalRequests
