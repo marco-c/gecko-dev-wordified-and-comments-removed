@@ -354,6 +354,17 @@ include
 "
 mozilla
 /
+dom
+/
+WindowContext
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StorageAccess
 .
 h
