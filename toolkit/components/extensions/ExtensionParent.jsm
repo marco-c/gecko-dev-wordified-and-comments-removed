@@ -2964,11 +2964,9 @@ ownerGlobal
 return
 win
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 }
 get

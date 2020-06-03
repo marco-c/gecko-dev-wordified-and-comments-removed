@@ -3896,11 +3896,9 @@ aWindow
 return
 aWindow
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 }
 function
