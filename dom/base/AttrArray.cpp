@@ -1654,6 +1654,13 @@ false
 mapped
 -
 >
+DropStyleSheetReference
+(
+)
+;
+mapped
+-
+>
 SetStyleSheet
 (
 aSheet
