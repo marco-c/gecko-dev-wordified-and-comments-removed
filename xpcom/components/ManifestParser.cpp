@@ -109,6 +109,17 @@ AndroidBridge
 h
 "
 #
+include
+"
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
+.
+h
+"
+#
 endif
 #
 include
