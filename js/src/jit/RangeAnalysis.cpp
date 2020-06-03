@@ -14816,11 +14816,6 @@ const
 {
 return
 (
-truncateInput
-(
-)
-&
-&
 index
 =
 =
@@ -14852,6 +14847,7 @@ index
 const
 {
 return
+(
 index
 =
 =
@@ -14860,6 +14856,7 @@ index
 &
 isIntegerWrite
 (
+)
 )
 ?
 Truncate

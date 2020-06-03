@@ -51547,9 +51547,7 @@ arrayType
 }
 else
 {
-MStoreUnboxedScalar
-*
-store
+ins
 =
 MStoreUnboxedScalar
 :
@@ -51563,15 +51561,7 @@ elements
 id
 toWrite
 arrayType
-MStoreUnboxedScalar
-:
-:
-TruncateInput
 )
-;
-ins
-=
-store
 ;
 }
 current

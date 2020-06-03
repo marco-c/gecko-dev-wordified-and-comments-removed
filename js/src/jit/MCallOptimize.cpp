@@ -21695,7 +21695,7 @@ toInstruction
 )
 ;
 }
-MStoreUnboxedScalar
+auto
 *
 store
 =
@@ -21711,10 +21711,6 @@ elements
 index
 toWrite
 arrayType
-MStoreUnboxedScalar
-:
-:
-TruncateInput
 DoesRequireMemoryBarrier
 )
 ;
