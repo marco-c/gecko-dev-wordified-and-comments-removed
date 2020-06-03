@@ -1578,6 +1578,9 @@ unwrapBKey
 "
 assertion
 "
+"
+scopedKeys
+"
 ]
 )
 ;
