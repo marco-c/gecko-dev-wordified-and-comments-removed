@@ -30,7 +30,6 @@ slug
 string
 ;
 isEnrollmentPaused
-?
 :
 boolean
 ;

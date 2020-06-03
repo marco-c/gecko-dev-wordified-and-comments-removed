@@ -325,6 +325,9 @@ source
 "
 test
 "
+isEnrollmentPaused
+:
+true
 .
 .
 .

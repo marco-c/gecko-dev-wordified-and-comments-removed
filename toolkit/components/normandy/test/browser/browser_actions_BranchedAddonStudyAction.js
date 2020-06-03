@@ -188,6 +188,9 @@ userFacingDescription
 fake
 description
 "
+isEnrollmentPaused
+:
+false
 branches
 :
 [
@@ -290,6 +293,9 @@ userFacingName
 study
 .
 userFacingName
+isEnrollmentPaused
+:
+false
 branches
 :
 [

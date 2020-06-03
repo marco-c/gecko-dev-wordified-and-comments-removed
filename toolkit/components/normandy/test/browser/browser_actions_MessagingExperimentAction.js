@@ -192,6 +192,9 @@ slug
 "
 foo
 "
+isEnrollmentPaused
+:
+false
 branches
 :
 [
