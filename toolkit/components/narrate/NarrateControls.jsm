@@ -240,7 +240,7 @@ toggle
 "
 :
 "
-narrate
+listen
 "
 "
 .
@@ -358,6 +358,19 @@ narrate
 -
 toggle
 "
+;
+toggleButton
+.
+textContent
+=
+gStrings
+.
+GetStringFromName
+(
+"
+listen
+"
+)
 ;
 toggleButton
 .
@@ -968,7 +981,7 @@ querySelector
 .
 reader
 -
-toolbar
+controls
 "
 )
 ;
