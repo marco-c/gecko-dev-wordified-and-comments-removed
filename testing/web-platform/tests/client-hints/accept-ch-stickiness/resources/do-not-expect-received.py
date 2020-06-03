@@ -134,6 +134,20 @@ text
 html
 "
 )
+(
+"
+Access
+-
+Control
+-
+Allow
+-
+Origin
+"
+"
+*
+"
+)
 ]
     
 return
