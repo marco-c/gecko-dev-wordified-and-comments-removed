@@ -45,14 +45,6 @@ content
 '
     
 '
-devtools
-.
-browsertoolbox
-.
-fission
-'
-    
-'
 fission
 .
 autostart
