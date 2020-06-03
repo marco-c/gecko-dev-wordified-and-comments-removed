@@ -331,17 +331,6 @@ available
 "
 ;
 const
-DEFAULT_REGION_PREF
-=
-"
-browser
-.
-search
-.
-region
-"
-;
-const
 TEST_ADDRESS_1
 =
 {
