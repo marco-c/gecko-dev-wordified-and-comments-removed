@@ -1576,17 +1576,6 @@ IntrinsicISizeType
 aConstraint
 )
 ;
-void
-NoteNewChildren
-(
-ChildListID
-aListID
-const
-nsFrameList
-&
-aFrameList
-)
-;
 bool
 GetBBaseline
 (
