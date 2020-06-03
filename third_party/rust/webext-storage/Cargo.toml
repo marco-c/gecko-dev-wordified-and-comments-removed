@@ -86,8 +86,6 @@ failure
 0
 .
 1
-.
-6
 "
 interrupt
 -
@@ -252,8 +250,6 @@ env_logger
 0
 .
 7
-.
-0
 "
 prettytable
 -
