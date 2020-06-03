@@ -667,6 +667,11 @@ AudioTrackPresent
 )
 ;
 void
+CheckDriver
+(
+)
+;
+void
 UpdateTrackOrder
 (
 )
