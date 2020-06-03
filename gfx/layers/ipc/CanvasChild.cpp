@@ -1014,6 +1014,9 @@ const
 {
 if
 (
+mRecorder
+&
+&
 !
 mRecorder
 -
