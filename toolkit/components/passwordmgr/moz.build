@@ -244,6 +244,11 @@ EXTRA_JS_MODULES
 =
 [
 '
+LoginExport
+.
+jsm
+'
+'
 LoginImport
 .
 jsm
