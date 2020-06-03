@@ -3817,6 +3817,16 @@ aUnbindOrDelete
 )
 override
 ;
+virtual
+void
+ResultForDialogSubmit
+(
+nsAString
+&
+aResult
+)
+override
+;
 bool
 DispatchSelectEvent
 (

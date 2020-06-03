@@ -39,6 +39,9 @@ class
 HTMLFormSubmission
 ;
 class
+DialogFormSubmission
+;
+class
 HTMLFormElement
 ;
 }

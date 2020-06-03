@@ -1353,6 +1353,14 @@ aFormSubmission
 )
 ;
 nsresult
+SubmitDialog
+(
+DialogFormSubmission
+*
+aFormSubmission
+)
+;
+nsresult
 NotifySubmitObservers
 (
 nsIURI
