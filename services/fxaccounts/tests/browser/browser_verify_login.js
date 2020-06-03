@@ -20,13 +20,11 @@ Laptop
 url
 :
 "
-https
+http
 :
 /
 /
-example
-.
-com
+localhost
 /
 newLogin
 "
