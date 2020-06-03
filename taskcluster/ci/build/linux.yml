@@ -5310,7 +5310,7 @@ reporter
 opt
 type
 :
-nightly
+shippable
 treeherder
 :
 platform
