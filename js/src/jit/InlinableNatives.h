@@ -536,6 +536,12 @@ IntrinsicIsPackedArray
 \
 _
 (
+IntrinsicIsSuspendedGenerator
+)
+\
+\
+_
+(
 IntrinsicGuardToArrayIterator
 )
 \
