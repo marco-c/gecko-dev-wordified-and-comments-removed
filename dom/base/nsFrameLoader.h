@@ -1413,6 +1413,11 @@ EnsureBrowsingContextAttached
 (
 )
 ;
+void
+InvokeBrowsingContextReadyCallback
+(
+)
+;
 RefPtr
 <
 mozilla
