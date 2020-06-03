@@ -756,11 +756,6 @@ ServiceWorkerConfiguration
 .
 ipdlh
 '
-'
-WindowGlobalTypes
-.
-ipdlh
-'
 ]
 include
 (

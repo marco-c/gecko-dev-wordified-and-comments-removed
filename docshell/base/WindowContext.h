@@ -47,9 +47,6 @@ WindowGlobalParent
 class
 WindowGlobalInit
 ;
-class
-BrowsingContextGroup
-;
 #
 define
 MOZ_EACH_WC_FIELD
@@ -460,13 +457,6 @@ IPCInitializer
 &
 &
 aInit
-)
-;
-void
-AddMixedContentSecurityState
-(
-uint32_t
-aStateFlags
 )
 ;
 protected

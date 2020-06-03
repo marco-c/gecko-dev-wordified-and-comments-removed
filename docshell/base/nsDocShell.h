@@ -3445,6 +3445,12 @@ mEditorData
 ;
 nsCOMPtr
 <
+nsISecureBrowserUI
+>
+mSecurityUI
+;
+nsCOMPtr
+<
 nsIURI
 >
 mLoadingURI
