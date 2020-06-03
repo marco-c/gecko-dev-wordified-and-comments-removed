@@ -105,6 +105,12 @@ indexInParent
 ;
 readonly
 attribute
+long
+long
+uniqueID
+;
+readonly
+attribute
 Node
 DOMNode
 ;
