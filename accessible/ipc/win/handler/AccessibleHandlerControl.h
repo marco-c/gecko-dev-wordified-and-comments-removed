@@ -372,6 +372,7 @@ RegisteredProxy
 >
 mHandlerProxy
 ;
+typedef
 std
 :
 :
@@ -383,6 +384,9 @@ RefPtr
 AccessibleHandler
 >
 >
+AccessibleCache
+;
+AccessibleCache
 mAccessibleCache
 ;
 }

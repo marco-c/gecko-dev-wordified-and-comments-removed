@@ -611,10 +611,14 @@ Invalidate
 +
 mCacheGen
 ;
+AccessibleCache
+oldCache
+;
 mAccessibleCache
 .
-clear
+swap
 (
+oldCache
 )
 ;
 return
