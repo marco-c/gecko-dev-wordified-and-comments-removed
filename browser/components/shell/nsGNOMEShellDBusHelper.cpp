@@ -1775,11 +1775,7 @@ aIter
 gicon
 "
 "
-org
-.
-mozilla
-.
-Firefox
+firefox
 "
 )
 ;
