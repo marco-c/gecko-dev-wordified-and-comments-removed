@@ -679,7 +679,6 @@ T
 (
 GetRenderRootStateManager
 (
-aRenderRoot
 )
 aItem
 )
@@ -832,11 +831,6 @@ RenderRootStateManager
 *
 GetRenderRootStateManager
 (
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
