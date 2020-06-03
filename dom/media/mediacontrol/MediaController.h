@@ -28,11 +28,7 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-MediaSessionController
+MediaStatusManager
 .
 h
 "
@@ -180,7 +176,7 @@ final
 public
 IMediaController
 public
-MediaSessionController
+MediaStatusManager
 public
 LinkedListElement
 <

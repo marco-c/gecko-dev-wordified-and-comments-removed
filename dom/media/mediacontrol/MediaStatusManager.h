@@ -1,9 +1,9 @@
 #
 ifndef
-DOM_MEDIA_MEDIASESSION_MEDIASESSIONCONTROLLER_H_
+DOM_MEDIA_MEDIACONTROL_MEDIASTATUSMANAGER_H_
 #
 define
-DOM_MEDIA_MEDIASESSION_MEDIASESSIONCONTROLLER_H_
+DOM_MEDIA_MEDIACONTROL_MEDIASTATUSMANAGER_H_
 #
 include
 "
@@ -222,7 +222,7 @@ aIsInPictureInPictureMode
 }
 ;
 class
-MediaSessionController
+MediaStatusManager
 :
 public
 IMediaInfoUpdater
@@ -230,7 +230,7 @@ IMediaInfoUpdater
 public
 :
 explicit
-MediaSessionController
+MediaStatusManager
 (
 uint64_t
 aBrowsingContextId
@@ -343,7 +343,7 @@ const
 protected
 :
 ~
-MediaSessionController
+MediaStatusManager
 (
 )
 =
@@ -454,7 +454,7 @@ MediaMetadataBase
 mMetadataChangedEvent
 ;
 MediaPlaybackStatus
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 ;
 }
 ;

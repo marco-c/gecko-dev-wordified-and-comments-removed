@@ -1,7 +1,7 @@
 #
 include
 "
-MediaSessionController
+MediaStatusManager
 .
 h
 "
@@ -80,16 +80,12 @@ h
 "
 #
 endif
+extern
 mozilla
 :
 :
 LazyLogModule
-gMediaSession
-(
-"
-MediaSession
-"
-)
+gMediaControlLog
 ;
 #
 undef
@@ -106,7 +102,7 @@ msg
 \
 MOZ_LOG
 (
-gMediaSession
+gMediaControlLog
 LogLevel
 :
 :
@@ -114,7 +110,7 @@ Debug
 \
 (
 "
-MediaSessionController
+MediaStatusManager
 =
 %
 p
@@ -200,10 +196,10 @@ IsEmpty
 )
 ;
 }
-MediaSessionController
+MediaStatusManager
 :
 :
-MediaSessionController
+MediaStatusManager
 (
 uint64_t
 aBrowsingContextId
@@ -220,7 +216,7 @@ XRE_IsParentProcess
 (
 )
 "
-MediaSessionController
+MediaStatusManager
 only
 runs
 on
@@ -232,7 +228,7 @@ process
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 NotifyMediaAudibleChanged
@@ -243,7 +239,7 @@ MediaAudibleState
 aState
 )
 {
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 UpdateMediaAudibleState
 (
@@ -253,7 +249,7 @@ aState
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 NotifySessionCreated
@@ -309,7 +305,7 @@ UpdateActiveMediaSessionContextId
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 NotifySessionDestroyed
@@ -360,7 +356,7 @@ UpdateActiveMediaSessionContextId
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 UpdateMetadata
@@ -563,7 +559,7 @@ nullptr
 }
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 UpdateActiveMediaSessionContextId
@@ -746,7 +742,7 @@ mActiveMediaSessionContextId
 ;
 }
 MediaMetadataBase
-MediaSessionController
+MediaStatusManager
 :
 :
 CreateDefaultMetadata
@@ -828,7 +824,7 @@ metadata
 ;
 }
 nsString
-MediaSessionController
+MediaStatusManager
 :
 :
 GetDefaultTitle
@@ -981,7 +977,7 @@ defaultTitle
 ;
 }
 nsString
-MediaSessionController
+MediaStatusManager
 :
 :
 GetDefaultFaviconURL
@@ -1104,7 +1100,7 @@ EmptyString
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 SetDeclaredPlaybackState
@@ -1177,7 +1173,7 @@ UpdateActualPlaybackState
 ;
 }
 MediaSessionPlaybackState
-MediaSessionController
+MediaStatusManager
 :
 :
 GetCurrentDeclaredPlaybackState
@@ -1211,7 +1207,7 @@ mDeclaredPlaybackState
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 NotifyMediaPlaybackChanged
@@ -1244,13 +1240,13 @@ const
 bool
 oldPlaying
 =
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 IsPlaying
 (
 )
 ;
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 UpdateMediaPlaybackState
 (
@@ -1260,7 +1256,7 @@ aState
 ;
 if
 (
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 IsPlaying
 (
@@ -1275,7 +1271,7 @@ return
 }
 if
 (
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 IsPlaying
 (
@@ -1304,7 +1300,7 @@ Paused
 }
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 SetGuessedPlayState
@@ -1350,7 +1346,7 @@ UpdateActualPlaybackState
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 UpdateActualPlaybackState
@@ -1414,7 +1410,7 @@ HandleActualPlaybackStateChanged
 ;
 }
 MediaMetadataBase
-MediaSessionController
+MediaStatusManager
 :
 :
 GetCurrentMediaMetadata
@@ -1485,7 +1481,7 @@ CreateDefaultMetadata
 ;
 }
 void
-MediaSessionController
+MediaStatusManager
 :
 :
 FillMissingTitleAndArtworkIfNeeded
@@ -1545,7 +1541,7 @@ GetDefaultFaviconURL
 }
 }
 bool
-MediaSessionController
+MediaStatusManager
 :
 :
 IsInPrivateBrowsing
@@ -1616,7 +1612,7 @@ OwnerDoc
 ;
 }
 MediaSessionPlaybackState
-MediaSessionController
+MediaStatusManager
 :
 :
 GetState
@@ -1629,7 +1625,7 @@ mActualPlaybackState
 ;
 }
 bool
-MediaSessionController
+MediaStatusManager
 :
 :
 IsMediaAudible
@@ -1638,7 +1634,7 @@ IsMediaAudible
 const
 {
 return
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 IsAudible
 (
@@ -1646,7 +1642,7 @@ IsAudible
 ;
 }
 bool
-MediaSessionController
+MediaStatusManager
 :
 :
 IsMediaPlaying
@@ -1665,7 +1661,7 @@ Playing
 ;
 }
 bool
-MediaSessionController
+MediaStatusManager
 :
 :
 IsAnyMediaBeingControlled
@@ -1674,7 +1670,7 @@ IsAnyMediaBeingControlled
 const
 {
 return
-mMediaStatusDelegate
+mPlaybackStatusDelegate
 .
 IsAnyMediaBeingControlled
 (

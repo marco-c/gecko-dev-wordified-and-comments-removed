@@ -119,6 +119,11 @@ MediaPlaybackStatus
 .
 h
 '
+'
+MediaStatusManager
+.
+h
+'
 ]
 EXPORTS
 .
@@ -183,6 +188,11 @@ cpp
 '
 '
 MediaPlaybackStatus
+.
+cpp
+'
+'
+MediaStatusManager
 .
 cpp
 '
