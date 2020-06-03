@@ -586,8 +586,6 @@ Pixel2
 AArch64
 Nightly
 Android
-Packages
-Other
 Testing
 configurations
 -
@@ -1390,7 +1388,9 @@ widths
 20
 40
 40
-Fetch
 Docker
 Images
+Fetch
+Packages
 Toolchains
+Other
