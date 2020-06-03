@@ -64,6 +64,7 @@ quick
 -
 start
 >
+_
 .
 (
 Codename
@@ -86,16 +87,13 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 docs
 /
 Mozilla
 /
 Firefox_for_iOS
 >
+_
 our
 general
 -
@@ -129,6 +127,7 @@ mobile
 /
 focus
 >
+_
 our
 privacy
 -
@@ -153,6 +152,7 @@ focus
 -
 ios
 >
+_
 and
 Android
 <
@@ -172,6 +172,7 @@ focus
 -
 android
 >
+_
 .
 For
 both
