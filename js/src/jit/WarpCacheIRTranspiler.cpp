@@ -1621,6 +1621,12 @@ add
 ins
 )
 ;
+setOperand
+(
+inputId
+ins
+)
+;
 return
 true
 ;
@@ -1684,6 +1690,12 @@ UndefinedValue
 ;
 add
 (
+ins
+)
+;
+setOperand
+(
+inputId
 ins
 )
 ;
