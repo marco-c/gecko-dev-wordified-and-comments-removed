@@ -108,11 +108,6 @@ memoize
     
 memoized_property
 )
-from
-.
-virtualenv
-import
-VirtualenvManager
 def
 ancestors
 (
@@ -1734,6 +1729,12 @@ virtualenv_manager
 self
 )
 :
+        
+from
+.
+virtualenv
+import
+VirtualenvManager
         
 if
 self
