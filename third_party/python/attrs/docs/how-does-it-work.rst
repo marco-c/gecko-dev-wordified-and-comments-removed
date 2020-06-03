@@ -131,9 +131,7 @@ order
 to
 ensure
 that
-sub
--
-classing
+subclassing
 works
 as
 you
@@ -155,8 +153,7 @@ the
 attributes
 of
 all
-super
--
+base
 classes
 .
 Please
@@ -578,8 +575,6 @@ attribute
 Depending
 on
 whether
-of
-not
 a
 class
 is
@@ -588,7 +583,7 @@ dict
 class
 or
 a
-slots
+slotted
 class
 attrs
 uses
@@ -688,7 +683,7 @@ impact
 is
 negligible
 .
-Slots
+Slotted
 Classes
 +
 +
@@ -703,7 +698,9 @@ Classes
 +
 +
 +
-Slots
++
++
+Slotted
 classes
 are
 more
@@ -1010,8 +1007,7 @@ Summary
 You
 should
 avoid
-to
-instantiate
+instantiating
 lots
 of
 frozen

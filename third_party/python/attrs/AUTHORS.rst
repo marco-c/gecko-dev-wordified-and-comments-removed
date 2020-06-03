@@ -155,9 +155,7 @@ using
 class
 decorators
 because
-sub
--
-classing
+subclassing
 is
 bad
 for

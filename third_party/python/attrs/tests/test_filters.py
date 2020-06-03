@@ -161,19 +161,21 @@ mark
 .
 parametrize
 (
+        
 "
 incl
 value
 "
-[
         
+[
+            
 (
 (
 int
 )
 42
 )
-        
+            
 (
 (
 str
@@ -182,7 +184,7 @@ str
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -195,7 +197,7 @@ a
 )
 42
 )
-        
+            
 (
 (
 str
@@ -210,8 +212,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -270,19 +273,21 @@ mark
 .
 parametrize
 (
+        
 "
 incl
 value
 "
+        
 [
-        
+            
 (
 (
 str
 )
 42
 )
-        
+            
 (
 (
 int
@@ -291,7 +296,7 @@ int
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -304,7 +309,7 @@ b
 )
 42
 )
-        
+            
 (
 (
 int
@@ -319,8 +324,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -398,19 +404,21 @@ mark
 .
 parametrize
 (
+        
 "
 excl
 value
 "
+        
 [
-        
+            
 (
 (
 str
 )
 42
 )
-        
+            
 (
 (
 int
@@ -419,7 +427,7 @@ int
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -432,7 +440,7 @@ b
 )
 42
 )
-        
+            
 (
 (
 int
@@ -447,8 +455,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def
@@ -507,19 +516,21 @@ mark
 .
 parametrize
 (
+        
 "
 excl
 value
 "
-[
         
+[
+            
 (
 (
 int
 )
 42
 )
-        
+            
 (
 (
 str
@@ -528,7 +539,7 @@ str
 hello
 "
 )
-        
+            
 (
 (
 str
@@ -541,7 +552,7 @@ a
 )
 42
 )
-        
+            
 (
 (
 str
@@ -556,8 +567,9 @@ b
 hello
 "
 )
-    
+        
 ]
+    
 )
     
 def

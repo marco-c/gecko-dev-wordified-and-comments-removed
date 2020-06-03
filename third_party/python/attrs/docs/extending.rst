@@ -85,6 +85,11 @@ cls
 .
 __attrs_attrs__
 )
+.
+.
+.
+return
+cls
 >
 >
 >
@@ -153,6 +158,9 @@ None
 converter
 =
 None
+kw_only
+=
+False
 )
 )
 .

@@ -37,20 +37,27 @@ import
 (
     
 NOTHING
+    
 Attribute
+    
 Factory
+    
 attrib
+    
 attrs
+    
 fields
+    
 fields_dict
     
 make_class
+    
 validate
 )
 __version__
 =
 "
-18
+19
 .
 1
 .
@@ -68,10 +75,10 @@ Classes
 Without
 Boilerplate
 "
-__uri__
+__url__
 =
 "
-http
+https
 :
 /
 /
@@ -82,6 +89,9 @@ attrs
 org
 /
 "
+__uri__
+=
+__url__
 __doc__
 =
 __description__

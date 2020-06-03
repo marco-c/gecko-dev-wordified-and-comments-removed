@@ -67,7 +67,7 @@ both
 with
 dict
 and
-slots
+slotted
 classes
 .
     
