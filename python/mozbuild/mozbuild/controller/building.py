@@ -1329,6 +1329,22 @@ warning
 )
 :
             
+if
+warning
+[
+'
+type
+'
+]
+=
+=
+'
+error
+'
+:
+                
+return
+            
 filename
 =
 warning

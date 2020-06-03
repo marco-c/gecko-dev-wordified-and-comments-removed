@@ -49,7 +49,7 @@ d
 m
 '
 )
-RE_CLANG_WARNING
+RE_CLANG_WARNING_AND_ERROR
 =
 re
 .
@@ -102,7 +102,17 @@ d
 :
     
 \
-swarning
+s
+(
+?
+P
+<
+type
+>
+warning
+|
+error
+)
 :
 \
 s
@@ -140,7 +150,7 @@ re
 .
 X
 )
-RE_CLANG_CL_WARNING
+RE_CLANG_CL_WARNING_AND_ERROR
 =
 re
 .
@@ -193,7 +203,16 @@ s
 \
 s
 +
+(
+?
+P
+<
+type
+>
 warning
+|
+error
+)
 :
 \
 s
@@ -2136,7 +2155,7 @@ None
         
 match_clang
 =
-RE_CLANG_WARNING
+RE_CLANG_WARNING_AND_ERROR
 .
 match
 (
@@ -2145,7 +2164,7 @@ filtered
         
 match_clang_cl
 =
-RE_CLANG_CL_WARNING
+RE_CLANG_CL_WARNING_AND_ERROR
 .
 match
 (
@@ -2170,6 +2189,20 @@ d
 [
 '
 file
+'
+]
+            
+warning
+[
+'
+type
+'
+]
+=
+d
+[
+'
+type
 '
 ]
             
@@ -2257,6 +2290,20 @@ d
 [
 '
 file
+'
+]
+            
+warning
+[
+'
+type
+'
+]
+=
+d
+[
+'
+type
 '
 ]
             

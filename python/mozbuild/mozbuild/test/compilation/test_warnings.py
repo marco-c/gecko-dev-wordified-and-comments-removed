@@ -74,6 +74,9 @@ cpp
 123
 10
 '
+warning
+'
+'
 you
 messed
 up
@@ -94,7 +97,7 @@ c
 :
 1
 :
-warning
+error
 :
 (
 near
@@ -111,10 +114,11 @@ full_wmonthname
 '
 )
 [
+clang
 -
-Wpointer
+diagnostic
 -
-sign
+error
 ]
 "
      
@@ -125,6 +129,9 @@ c
 '
 457
 1
+'
+error
+'
      
 "
 (
@@ -140,10 +147,11 @@ full_wmonthname
 )
 "
 '
+clang
 -
-Wpointer
+diagnostic
 -
-sign
+error
 '
 )
 ]
@@ -710,7 +718,7 @@ w1
 w2
 )
 class
-TestWarningsParsing
+TestWarningsAndErrorsParsing
 (
 unittest
 .
@@ -730,6 +738,7 @@ source
 filename
 line
 column
+diag_type
 message
 flag
 in
@@ -799,6 +808,19 @@ column
 '
 ]
 column
+)
+            
+self
+.
+assertEqual
+(
+warning
+[
+'
+type
+'
+]
+diag_type
 )
             
 self
