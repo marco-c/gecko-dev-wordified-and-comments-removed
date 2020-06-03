@@ -697,7 +697,22 @@ self
 )
 :
         
-pass
+self
+.
+_sub_mach
+(
+[
+'
+help
+'
+'
+cargo
+'
+]
+)
+        
+return
+1
     
 SubCommand
 (
@@ -10696,18 +10711,20 @@ self
         
 self
 .
-parser
-.
-print_usage
+_sub_mach
 (
+[
+'
+help
+'
+'
+vendor
+'
+]
 )
         
-sys
-.
-exit
-(
+return
 1
-)
     
 SubCommand
 (
