@@ -647,9 +647,13 @@ principalInfo
 )
 ;
 }
+Result
+<
 nsCOMPtr
 <
 nsIPrincipal
+>
+nsresult
 >
 ServiceWorkerRegistrationDescriptor
 :
@@ -663,12 +667,7 @@ AssertIsOnMainThread
 (
 )
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-ref
-=
+return
 PrincipalInfoToPrincipal
 (
 mData
@@ -678,9 +677,6 @@ principalInfo
 (
 )
 )
-;
-return
-ref
 ;
 }
 const

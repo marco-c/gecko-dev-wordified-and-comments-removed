@@ -213,9 +213,13 @@ PrincipalInfo
 )
 const
 ;
+Result
+<
 nsCOMPtr
 <
 nsIPrincipal
+>
+nsresult
 >
 GetPrincipal
 (

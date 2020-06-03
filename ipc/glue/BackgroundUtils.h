@@ -210,9 +210,13 @@ CSPInfo
 class
 PrincipalInfo
 ;
-already_AddRefed
+Result
+<
+nsCOMPtr
 <
 nsIPrincipal
+>
+nsresult
 >
 PrincipalInfoToPrincipal
 (
@@ -220,11 +224,6 @@ const
 PrincipalInfo
 &
 aPrincipalInfo
-nsresult
-*
-aOptionalResult
-=
-nullptr
 )
 ;
 nsresult
