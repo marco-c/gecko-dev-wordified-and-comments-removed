@@ -165,6 +165,16 @@ as
 e
 :
     
+e_save
+=
+ImportError
+(
+str
+(
+e
+)
+)
+    
 def
 reraise_
 (
@@ -178,7 +188,7 @@ kwargs
         
 raise
 (
-e
+e_save
 )
     
 Marionette
@@ -1612,7 +1622,7 @@ key
 in
 manifests
 .
-iterkeys
+keys
 (
 )
 :
