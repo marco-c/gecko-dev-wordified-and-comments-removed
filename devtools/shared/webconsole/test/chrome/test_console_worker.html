@@ -135,6 +135,9 @@ expectedCachedConsoleCalls
 =
 [
 {
+message
+:
+{
 level
 :
 "
@@ -160,12 +163,16 @@ init
 '
 ]
 }
+}
 ]
 ;
 const
 expectedConsoleAPICalls
 =
 [
+{
+message
+:
 {
 level
 :
@@ -183,6 +190,7 @@ from
 worker
 '
 ]
+}
 }
 ]
 ;
@@ -383,8 +391,6 @@ checkConsoleAPICalls
 (
 [
 packet
-.
-message
 ]
 expectedConsoleAPICalls
 )

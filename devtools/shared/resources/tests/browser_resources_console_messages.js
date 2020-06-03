@@ -432,11 +432,6 @@ expectedExistingConsoleCalls
 =
 [
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
@@ -474,11 +469,6 @@ undefined
 ]
 }
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
@@ -516,11 +506,6 @@ null
 ]
 }
 {
-_type
-:
-"
-ConsoleAPI
-"
 level
 :
 "
