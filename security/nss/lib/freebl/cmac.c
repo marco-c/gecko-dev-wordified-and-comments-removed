@@ -60,6 +60,7 @@ aes
 }
 cipher
 ;
+unsigned
 int
 blockSize
 ;
@@ -833,6 +834,7 @@ int
 data_len
 )
 {
+unsigned
 int
 data_index
 =

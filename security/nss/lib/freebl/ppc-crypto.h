@@ -13,6 +13,13 @@ __powerpc64__
 )
 &
 &
+defined
+(
+__ALTIVEC__
+)
+&
+&
+\
 !
 defined
 (
@@ -69,6 +76,12 @@ __GNUC__
 defined
 (
 IS_LITTLE_ENDIAN
+)
+&
+&
+defined
+(
+__VSX__
 )
 #
 define

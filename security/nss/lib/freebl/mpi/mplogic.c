@@ -906,6 +906,7 @@ mpl_num_set
 mp_int
 *
 a
+unsigned
 int
 *
 num
@@ -914,8 +915,6 @@ num
 unsigned
 int
 ix
-;
-int
 db
 nset
 =
@@ -1027,6 +1026,7 @@ mpl_num_clear
 mp_int
 *
 a
+unsigned
 int
 *
 num
@@ -1035,8 +1035,6 @@ num
 unsigned
 int
 ix
-;
-int
 db
 nset
 =

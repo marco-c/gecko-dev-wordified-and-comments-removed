@@ -2317,6 +2317,7 @@ CK_SLOT_ID_PTR
 pSlotList
 CK_ULONG_PTR
 pulCount
+unsigned
 int
 moduleIndex
 )
@@ -2337,6 +2338,7 @@ updateID
 sftk_token_parameters
 *
 params
+unsigned
 int
 moduleIndex
 )
@@ -2360,6 +2362,7 @@ updateID
 sftk_token_parameters
 *
 params
+unsigned
 int
 moduleIndex
 )
@@ -3255,6 +3258,7 @@ padBuf
 unsigned
 int
 bufLen
+unsigned
 int
 blockSize
 const

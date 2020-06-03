@@ -1076,6 +1076,7 @@ char
 input
 )
 {
+unsigned
 int
 i
 ;

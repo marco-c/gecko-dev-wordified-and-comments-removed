@@ -767,6 +767,7 @@ padBuf
 unsigned
 int
 bufLen
+unsigned
 int
 blockSize
 const
@@ -781,6 +782,7 @@ char
 k3
 )
 {
+unsigned
 int
 i
 ;

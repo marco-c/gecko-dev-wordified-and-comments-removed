@@ -1165,6 +1165,12 @@ enableDtls13VersionCompat
 :
 1
 ;
+unsigned
+int
+suppressEndOfEarlyData
+:
+1
+;
 }
 sslOptions
 ;
