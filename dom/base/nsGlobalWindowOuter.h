@@ -971,7 +971,7 @@ override
 virtual
 nsIPrincipal
 *
-IntrinsicStoragePrincipal
+PartitionedPrincipal
 (
 )
 override
@@ -4707,7 +4707,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mDocumentIntrinsicStoragePrincipal
+mDocumentPartitionedPrincipal
 ;
 #
 ifdef

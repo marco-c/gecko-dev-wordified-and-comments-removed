@@ -3369,15 +3369,16 @@ document
 .
 *
 param
-aStoragePrincipal
+aPartitionedPrincipal
 the
-storage
+partitioned
 principal
 to
 use
 for
 the
 new
+*
 document
 .
 *
@@ -3402,7 +3403,7 @@ nsIPrincipal
 aPrincipal
 in
 nsIPrincipal
-aStoragePrincipal
+aPartitionedPrincipal
 [
 optional
 ]

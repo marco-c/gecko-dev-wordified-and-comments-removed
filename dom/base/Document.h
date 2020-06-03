@@ -2171,13 +2171,13 @@ EffectiveStoragePrincipal
 }
 nsIPrincipal
 *
-IntrinsicStoragePrincipal
+PartitionedPrincipal
 (
 )
 final
 {
 return
-mIntrinsicStoragePrincipal
+mPartitionedPrincipal
 ;
 }
 void
@@ -2831,7 +2831,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 const
@@ -5699,7 +5699,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 virtual
@@ -13609,7 +13609,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mIntrinsicStoragePrincipal
+mPartitionedPrincipal
 ;
 mutable
 nsCOMPtr

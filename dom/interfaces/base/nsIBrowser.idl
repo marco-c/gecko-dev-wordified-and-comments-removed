@@ -521,7 +521,7 @@ contentPrincipal
 readonly
 attribute
 nsIPrincipal
-contentStoragePrincipal
+contentPartitionedPrincipal
 ;
 readonly
 attribute
@@ -827,7 +827,7 @@ new
 document
 *
 param
-aContentStoragePrincipal
+aContentPartitionedPrincipal
 the
 security
 principal
@@ -949,7 +949,7 @@ nsIPrincipal
 aContentPrincipal
 in
 nsIPrincipal
-aContentStoragePrincipal
+aContentPartitionedPrincipal
 in
 nsIContentSecurityPolicy
 aCSP
