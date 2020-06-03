@@ -716,8 +716,6 @@ ConfigBuilder
 (
 )
         
-config
-.
 ports
 =
 {
@@ -771,18 +769,24 @@ self
 enable_quic
 :
             
-config
-.
 ports
 [
 "
 quic
+-
+transport
 "
 ]
 =
 [
 10000
 ]
+        
+config
+.
+ports
+=
+ports
         
 if
 os
@@ -1554,6 +1558,19 @@ self
 servers
 )
 :
+                
+if
+scheme
+=
+=
+"
+quic
+-
+transport
+"
+:
+                    
+continue
                 
 for
 port

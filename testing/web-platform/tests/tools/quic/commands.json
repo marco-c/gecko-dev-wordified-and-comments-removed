@@ -1,6 +1,10 @@
 {
 "
-servequic
+serve
+-
+quic
+-
+transport
 "
 :
 {
@@ -41,6 +45,8 @@ Start
 the
 QUIC
 server
+for
+WebTransport
 "
 "
 virtualenv
