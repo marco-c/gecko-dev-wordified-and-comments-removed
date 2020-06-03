@@ -1825,7 +1825,6 @@ CompileEvalScript
 (
 compilationInfo
 evalsc
-env
 srcBuf
 )
 )
@@ -2396,7 +2395,6 @@ CompileEvalScript
 (
 compilationInfo
 evalsc
-env
 srcBuf
 )
 ;

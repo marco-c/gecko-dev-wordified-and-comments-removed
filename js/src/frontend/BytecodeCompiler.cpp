@@ -792,8 +792,6 @@ compileScript
 CompilationInfo
 &
 compilationInfo
-HandleObject
-environment
 SharedContext
 *
 sc
@@ -933,7 +931,6 @@ compiler
 compileScript
 (
 compilationInfo
-nullptr
 &
 globalsc
 )
@@ -1192,15 +1189,6 @@ compilationInfo
 EvalSharedContext
 &
 evalsc
-JS
-:
-:
-Handle
-<
-JSObject
-*
->
-environment
 SourceText
 <
 Unit
@@ -1267,7 +1255,6 @@ compiler
 compileScript
 (
 compilationInfo
-environment
 &
 evalsc
 )
@@ -1320,15 +1307,6 @@ evalsc
 JS
 :
 :
-Handle
-<
-JSObject
-*
->
-environment
-JS
-:
-:
 SourceText
 <
 char16_t
@@ -1342,7 +1320,6 @@ CreateEvalScript
 (
 compilationInfo
 evalsc
-environment
 srcBuf
 )
 ;
@@ -2271,8 +2248,6 @@ compileScript
 CompilationInfo
 &
 compilationInfo
-HandleObject
-environment
 SharedContext
 *
 sc
