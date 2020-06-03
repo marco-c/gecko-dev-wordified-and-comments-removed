@@ -156,6 +156,15 @@ preferencereads
 "
 ipcmessages
 "
+"
+fileio
+"
+"
+fileioall
+"
+"
+noiostacks
+"
 ]
 }
 {
