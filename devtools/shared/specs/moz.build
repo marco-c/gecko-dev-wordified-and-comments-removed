@@ -64,6 +64,11 @@ environment
 js
 '
 '
+eventsource
+.
+js
+'
+'
 frame
 .
 js
