@@ -362,6 +362,11 @@ aSample
 )
 ;
 void
+MaybeResolveBufferedFrames
+(
+)
+;
+void
 AssertOnTaskQueueThread
 (
 )
