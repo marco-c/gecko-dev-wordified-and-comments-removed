@@ -178,8 +178,6 @@ tests
 jsshell
 -
 bench
-jstestbrowser
-jstests
 marionette
 -
 test
