@@ -887,8 +887,6 @@ supportedFeatures
 string
 [
 ]
-|
-null
 openAboutProfiling
 ?
 :
@@ -1094,8 +1092,6 @@ supportedFeatures
 string
 [
 ]
-|
-null
 ;
 }
 |
@@ -1151,8 +1147,6 @@ supportedFeatures
 string
 [
 ]
-|
-null
 ;
 getSymbolTableGetter
 :
