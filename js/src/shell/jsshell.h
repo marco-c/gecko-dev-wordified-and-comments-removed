@@ -455,10 +455,6 @@ sArgv
 ;
 extern
 bool
-enableDeferredMode
-;
-extern
-bool
 enableCodeCoverage
 ;
 extern
