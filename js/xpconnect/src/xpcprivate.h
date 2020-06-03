@@ -10622,11 +10622,6 @@ Scriptability
 scriptability
 ;
 bool
-forcePermissiveCOWs
-=
-false
-;
-bool
 wrapperDenialWarnings
 [
 WrapperDenialTypeCount
