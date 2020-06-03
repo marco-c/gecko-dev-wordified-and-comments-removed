@@ -251,6 +251,16 @@ return
 mIntegrityString
 ;
 }
+bool
+CanTrustBeDelegatedTo
+(
+const
+SRIMetadata
+&
+aOther
+)
+const
+;
 private
 :
 CopyableTArray
