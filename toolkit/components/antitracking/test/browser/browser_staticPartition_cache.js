@@ -319,9 +319,12 @@ originAttributes
 firstPartyDomain
 :
 "
+(
+http
 example
 .
 org
+)
 "
 }
 }
