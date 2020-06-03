@@ -2248,10 +2248,12 @@ items
 )
 }
     
+classmethod
+    
 def
 get_manifest
 (
-self
+cls
 test
 )
 :
