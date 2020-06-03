@@ -404,7 +404,7 @@ To
 template
 <
 class
-Span
+SpanT
 bool
 IsConst
 >
@@ -415,7 +415,7 @@ using
 element_type_
 =
 typename
-Span
+SpanT
 :
 :
 element_type
@@ -445,7 +445,7 @@ using
 difference_type
 =
 typename
-Span
+SpanT
 :
 :
 index_type
@@ -492,11 +492,11 @@ constexpr
 span_iterator
 (
 const
-Span
+SpanT
 *
 span
 typename
-Span
+SpanT
 :
 :
 index_type
@@ -544,7 +544,7 @@ friend
 class
 span_iterator
 <
-Span
+SpanT
 true
 >
 ;
@@ -555,7 +555,7 @@ span_iterator
 const
 span_iterator
 <
-Span
+SpanT
 false
 >
 &
@@ -579,7 +579,7 @@ index_
 constexpr
 span_iterator
 <
-Span
+SpanT
 IsConst
 >
 &
@@ -589,7 +589,7 @@ operator
 const
 span_iterator
 <
-Span
+SpanT
 IsConst
 >
 &
@@ -1114,7 +1114,7 @@ span_
 protected
 :
 const
-Span
+SpanT
 *
 span_
 ;
