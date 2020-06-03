@@ -310,6 +310,7 @@ type
 customFormat
 :
 true
+maybeScrollToBottom
 .
 .
 .
