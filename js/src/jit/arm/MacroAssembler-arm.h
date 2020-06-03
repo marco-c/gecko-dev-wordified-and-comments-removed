@@ -5318,7 +5318,7 @@ type
 )
 ;
 void
-unboxGCThingForPreBarrierTrampoline
+unboxGCThingForGCBarrier
 (
 const
 Address
