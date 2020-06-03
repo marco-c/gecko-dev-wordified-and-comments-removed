@@ -175,6 +175,8 @@ tests
 jsshell
 -
 bench
+jstestbrowser
+jstests
 mochitest
 mozharness
 pastebin
