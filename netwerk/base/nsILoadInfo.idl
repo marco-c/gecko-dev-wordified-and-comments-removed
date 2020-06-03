@@ -2248,5 +2248,12 @@ EMBEDDER_POLICY_REQUIRE_CORP
 1
 }
 ;
+[
+infallible
+]
+attribute
+nsILoadInfo_CrossOriginEmbedderPolicy
+loadingEmbedderPolicy
+;
 }
 ;

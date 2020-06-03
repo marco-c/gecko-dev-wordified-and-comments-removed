@@ -586,6 +586,11 @@ aRequestBlockingReason
 nsINode
 *
 aLoadingContext
+nsILoadInfo
+:
+:
+CrossOriginEmbedderPolicy
+aLoadingEmbedderPolicy
 )
 ;
 LoadInfo
@@ -1018,6 +1023,12 @@ mHasStoragePermission
 ;
 bool
 mIsFromProcessingFrameAttributes
+;
+nsILoadInfo
+:
+:
+CrossOriginEmbedderPolicy
+mLoadingEmbedderPolicy
 ;
 }
 ;

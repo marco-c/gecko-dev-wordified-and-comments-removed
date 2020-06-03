@@ -3103,6 +3103,12 @@ aLoadInfo
 GetHasStoragePermission
 (
 )
+aLoadInfo
+-
+>
+GetLoadingEmbedderPolicy
+(
+)
 )
 )
 ;
@@ -4413,6 +4419,11 @@ requestBlockingReason
 (
 )
 loadingContext
+loadInfoArgs
+.
+loadingEmbedderPolicy
+(
+)
 )
 ;
 if
