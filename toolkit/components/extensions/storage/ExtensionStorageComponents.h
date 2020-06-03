@@ -26,7 +26,7 @@ C
 nsresult
 NS_NewExtensionStorageSyncArea
 (
-mozIExtensionStorageArea
+mozIConfigurableExtensionStorageArea
 *
 *
 aResult
@@ -44,7 +44,7 @@ storage
 {
 already_AddRefed
 <
-mozIExtensionStorageArea
+mozIConfigurableExtensionStorageArea
 >
 NewSyncArea
 (
@@ -52,7 +52,7 @@ NewSyncArea
 {
 nsCOMPtr
 <
-mozIExtensionStorageArea
+mozIConfigurableExtensionStorageArea
 >
 storage
 ;
