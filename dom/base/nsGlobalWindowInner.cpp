@@ -5687,7 +5687,7 @@ i
 ]
 -
 >
-Shutdown
+OnWindowDestroy
 (
 )
 ;
