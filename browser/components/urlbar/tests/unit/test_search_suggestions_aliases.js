@@ -161,6 +161,9 @@ localhost
 9000
 /
 search
+?
+terms
+=
 "
 title
 :
@@ -249,6 +252,9 @@ localhost
 9000
 /
 search
+?
+terms
+=
 "
 title
 :
@@ -390,6 +396,9 @@ localhost
 9000
 /
 search
+?
+terms
+=
 "
 title
 :

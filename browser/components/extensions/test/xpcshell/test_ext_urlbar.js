@@ -335,6 +335,13 @@ promiseStartupManager
 (
 )
 ;
+await
+UrlbarTestUtils
+.
+initXPCShellDependencies
+(
+)
+;
 let
 engine
 =

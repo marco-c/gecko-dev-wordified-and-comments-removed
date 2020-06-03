@@ -167,7 +167,7 @@ context
 results
 .
 length
-1
+2
 "
 Found
 the
@@ -186,7 +186,7 @@ context
 .
 results
 [
-0
+1
 ]
 .
 type
@@ -212,7 +212,7 @@ context
 .
 results
 [
-0
+1
 ]
 .
 payload

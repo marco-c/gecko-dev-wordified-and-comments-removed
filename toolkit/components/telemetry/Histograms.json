@@ -73298,7 +73298,7 @@ popup
 "
 }
 "
-FX_URLBAR_SELECTED_RESULT_TYPE
+FX_URLBAR_SELECTED_RESULT_TYPE_2
 "
 :
 {
@@ -73361,7 +73361,7 @@ enumerated
 n_values
 "
 :
-14
+32
 "
 releaseChannelCollection
 "
@@ -73378,6 +73378,7 @@ bug_numbers
 [
 775825
 1617631
+1398416
 ]
 "
 description
@@ -73412,7 +73413,7 @@ types
 "
 }
 "
-FX_URLBAR_SELECTED_RESULT_INDEX_BY_TYPE
+FX_URLBAR_SELECTED_RESULT_INDEX_BY_TYPE_2
 "
 :
 {
@@ -73475,7 +73476,7 @@ enumerated
 n_values
 "
 :
-14
+32
 "
 keyed
 "
@@ -73497,6 +73498,7 @@ bug_numbers
 [
 1345834
 1617631
+1398416
 ]
 "
 description
