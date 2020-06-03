@@ -12018,13 +12018,6 @@ ok
 )
 ;
 }
-mem
-:
-:
-replace
-(
-&
-mut
 self
 .
 active_documents
@@ -12033,8 +12026,8 @@ pos
 ]
 .
 1
+=
 doc
-)
 ;
 }
 None
