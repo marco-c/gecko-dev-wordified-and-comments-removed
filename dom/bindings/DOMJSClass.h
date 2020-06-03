@@ -1626,7 +1626,7 @@ mNativeHooks
 const
 char
 *
-mToString
+mFunToString
 ;
 ProtoGetter
 mGetParentProto
