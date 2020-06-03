@@ -1955,7 +1955,7 @@ Value
 }
 static
 nsresult
-GetTableSelectionType
+GetTableSelectionMode
 (
 const
 nsRange
@@ -2245,7 +2245,7 @@ aCol
 nsresult
 result
 =
-GetTableSelectionType
+GetTableSelectionMode
 (
 aRange
 aSelectionType
