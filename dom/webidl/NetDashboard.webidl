@@ -341,6 +341,12 @@ trr
 =
 false
 ;
+DOMString
+originAttributesSuffix
+=
+"
+"
+;
 }
 ;
 [
