@@ -4766,9 +4766,9 @@ i
 ]
 -
 >
+extent
+.
 sourceEnd
-(
-)
 ;
 current_
 +
@@ -6594,7 +6594,7 @@ BinASTTokenReaderContext
 :
 registerLazyScript
 (
-BaseScript
+FunctionBox
 *
 lazy
 )
