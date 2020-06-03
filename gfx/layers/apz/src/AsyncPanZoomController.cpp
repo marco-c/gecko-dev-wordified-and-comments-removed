@@ -3121,6 +3121,13 @@ StaticPrefs
 apz_drag_enabled
 (
 )
+|
+|
+mScrollMetadata
+.
+GetIsRDMTouchSimulationActive
+(
+)
 )
 {
 return
