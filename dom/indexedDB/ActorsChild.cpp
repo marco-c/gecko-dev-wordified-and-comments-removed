@@ -891,12 +891,6 @@ class
 MOZ_STACK_CLASS
 ResultHelper
 final
-:
-public
-IDBRequest
-:
-:
-ResultCallback
 {
 const
 RefPtr
@@ -1027,9 +1021,10 @@ aResult
 )
 ;
 }
-virtual
 nsresult
-GetResult
+operator
+(
+)
 (
 JSContext
 *
@@ -1046,7 +1041,7 @@ Value
 >
 aResult
 )
-override
+const
 {
 MOZ_ASSERT
 (
@@ -3107,8 +3102,9 @@ aEvent
 mRequest
 -
 >
-SetResultCallback
+SetResult
 (
+*
 this
 )
 ;
