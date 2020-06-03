@@ -845,6 +845,7 @@ Equals
 char16ptr_t
 aData
 comparator_type
+aComp
 )
 const
 {
