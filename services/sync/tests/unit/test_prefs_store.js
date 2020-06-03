@@ -152,6 +152,10 @@ overrideCertDB
 (
 )
 ;
+do_disable_fast_shutdown
+(
+)
+;
 add_task
 (
 async
