@@ -72,12 +72,6 @@ command_handlers
 items
 (
 )
-                
-if
-not
-v
-.
-conditions
 )
     
 Command
