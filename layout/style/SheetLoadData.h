@@ -499,6 +499,11 @@ mSheetCompleteCalled
 =
 false
 ;
+bool
+mIntentionallyDropped
+=
+false
+;
 #
 endif
 bool
