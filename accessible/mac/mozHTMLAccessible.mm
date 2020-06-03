@@ -35,7 +35,7 @@ mozHeadingAccessible
 NSString
 *
 )
-title
+moxTitle
 {
 nsAutoString
 title
@@ -111,7 +111,7 @@ title
 (
 id
 )
-value
+moxValue
 {
 GroupPos
 groupPos
@@ -373,7 +373,7 @@ return
 NSString
 *
 )
-value
+moxValue
 {
 return
 "
@@ -477,7 +477,7 @@ urlString
 NSString
 *
 )
-role
+moxRole
 {
 if
 (
@@ -500,7 +500,7 @@ NSAccessibilityGroupRole
 return
 [
 super
-role
+moxRole
 ]
 ;
 }

@@ -160,13 +160,6 @@ mozTextAccessible
 NSString
 *
 )
-subrole
-;
--
-(
-NSString
-*
-)
 selectedText
 ;
 -
@@ -416,7 +409,7 @@ if
 [
 [
 self
-role
+moxRole
 ]
 isEqualToString
 :
@@ -1745,7 +1738,7 @@ NS_OBJC_END_TRY_ABORT_BLOCK
 NSString
 *
 )
-subrole
+moxSubrole
 {
 if
 (
@@ -1859,7 +1852,7 @@ if
 [
 [
 self
-role
+moxRole
 ]
 isEqualToString
 :
@@ -3139,7 +3132,7 @@ NSAccessibilityValueAttribute
 return
 [
 self
-title
+moxTitle
 ]
 ;
 return
@@ -3156,7 +3149,7 @@ attribute
 NSString
 *
 )
-accessibilityLabel
+moxLabel
 {
 return
 nil

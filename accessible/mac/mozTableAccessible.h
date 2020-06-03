@@ -134,7 +134,7 @@ isLayoutTablePart
 NSString
 *
 )
-role
+moxRole
 ;
 end
 interface
@@ -152,7 +152,7 @@ mColContainers
 NSArray
 *
 )
-children
+moxChildren
 ;
 -
 (

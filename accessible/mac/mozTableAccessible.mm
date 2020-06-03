@@ -610,7 +610,7 @@ false
 NSString
 *
 )
-role
+moxRole
 {
 return
 [
@@ -622,7 +622,7 @@ NSAccessibilityGroupRole
 :
 [
 super
-role
+moxRole
 ]
 ;
 }
@@ -864,7 +864,7 @@ return
 [
 [
 self
-children
+moxChildren
 ]
 filteredArrayUsingPredicate
 :
@@ -1029,7 +1029,7 @@ attribute
 NSArray
 *
 )
-children
+moxChildren
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
@@ -1037,7 +1037,7 @@ return
 [
 [
 super
-children
+moxChildren
 ]
 arrayByAddingObjectsFromArray
 :
@@ -1200,7 +1200,7 @@ parent
 =
 [
 self
-parent
+moxParent
 ]
 ;
 if
