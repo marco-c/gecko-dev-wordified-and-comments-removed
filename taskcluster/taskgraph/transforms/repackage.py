@@ -1991,6 +1991,14 @@ run_on_projects
 )
             
 '
+optimization
+'
+:
+dep_job
+.
+optimization
+            
+'
 treeherder
 '
 :
