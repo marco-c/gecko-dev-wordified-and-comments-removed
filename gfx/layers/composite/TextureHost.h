@@ -1836,7 +1836,7 @@ const
 wr
 :
 :
-ExternalImageId
+MaybeExternalImageId
 &
 aExternalImageId
 )

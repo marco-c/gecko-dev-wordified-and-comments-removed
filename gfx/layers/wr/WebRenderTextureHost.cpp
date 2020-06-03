@@ -235,7 +235,10 @@ mWrappedTextureHost
 >
 EnsureRenderTexture
 (
+Some
+(
 aExternalImageId
+)
 )
 ;
 }
