@@ -103,10 +103,6 @@ mNoise
 (
 0
 )
-mFullDuplex
-(
-false
-)
 mExtendedFilter
 (
 false
@@ -163,9 +159,6 @@ mRoutingMode
 ;
 int32_t
 mNoise
-;
-bool
-mFullDuplex
 ;
 bool
 mExtendedFilter
