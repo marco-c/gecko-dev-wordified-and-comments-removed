@@ -341,12 +341,6 @@ trr
 =
 false
 ;
-DOMString
-originAttributesSuffix
-=
-"
-"
-;
 }
 ;
 [
