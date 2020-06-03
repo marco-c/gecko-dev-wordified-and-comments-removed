@@ -206,6 +206,10 @@ FileMode
 aMode
 )
 :
+DOMEventTargetHelper
+(
+aMutableFile
+)
 mMutableFile
 (
 aMutableFile
@@ -394,14 +398,6 @@ IDBFileHandle
 (
 aMutableFile
 aMode
-)
-;
-fileHandle
--
->
-BindToOwner
-(
-aMutableFile
 )
 ;
 MOZ_ASSERT
