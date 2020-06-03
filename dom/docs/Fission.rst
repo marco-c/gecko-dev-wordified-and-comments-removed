@@ -2443,7 +2443,7 @@ from
 LEGACY_ACTORS
 to
 the
-ACTORS
+JSWINDOWACTORS
 list
 .
 Figuring
@@ -2731,7 +2731,7 @@ in
 one
 of
 the
-ACTORS
+JSWINDOWACTORS
 lists
 in
 one
@@ -2755,7 +2755,7 @@ for
 details
 .
 The
-ACTORS
+JSWINDOWACTORS
 lists
 expect
 a

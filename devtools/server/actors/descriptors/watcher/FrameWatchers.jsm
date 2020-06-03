@@ -139,7 +139,7 @@ size
 {
 ActorManagerParent
 .
-addActors
+addJSWindowActors
 (
 {
 DevToolsFrame

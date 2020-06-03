@@ -161,7 +161,7 @@ Startup
 )
 ;
 const
-ACTORS
+JSWINDOWACTORS
 =
 {
 BrowserTab
@@ -836,9 +836,9 @@ PROCESS_TYPE_DEFAULT
 {
 ActorManagerParent
 .
-addActors
+addJSWindowActors
 (
-ACTORS
+JSWINDOWACTORS
 )
 ;
 ActorManagerParent
