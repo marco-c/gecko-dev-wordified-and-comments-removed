@@ -19150,6 +19150,9 @@ GetScrollGeneration
 bool
 visualScrollOffsetUpdated
 =
+isDefault
+|
+|
 aLayerMetrics
 .
 GetVisualScrollUpdateType
