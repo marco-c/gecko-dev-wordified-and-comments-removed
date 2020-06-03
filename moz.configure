@@ -1740,6 +1740,12 @@ dependable
 (
 False
 )
+fold_libs
+=
+dependable
+(
+False
+)
 include
 (
 include_project_configure
