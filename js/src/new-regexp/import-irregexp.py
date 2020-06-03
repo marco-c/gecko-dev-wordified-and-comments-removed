@@ -480,7 +480,7 @@ str
 dstdir
 /
 '
-VERSION
+IRREGEXP_VERSION
 '
 )
 '
