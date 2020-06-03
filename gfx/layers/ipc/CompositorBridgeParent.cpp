@@ -4375,7 +4375,6 @@ mWrBridge
 >
 ScheduleGenerateFrame
 (
-aRenderRoots
 )
 ;
 }
