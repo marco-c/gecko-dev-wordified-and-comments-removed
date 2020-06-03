@@ -6277,6 +6277,17 @@ tymed
 TYMED_ISTREAM
 )
 {
+if
+(
+!
+mIsInOperation
+)
+{
+event
+=
+nullptr
+;
+}
 RefPtr
 <
 IStream
