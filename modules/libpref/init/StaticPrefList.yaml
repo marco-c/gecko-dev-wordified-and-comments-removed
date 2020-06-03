@@ -46516,6 +46516,9 @@ tag
 and
 Link
 :
+rel
+=
+preload
 respose
 header
 handling
@@ -46531,7 +46534,7 @@ type
 RelaxedAtomicBool
 value
 :
-false
+IS_EARLY_BETA_OR_EARLIER
 mirror
 :
 always
