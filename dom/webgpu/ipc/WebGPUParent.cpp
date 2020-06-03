@@ -4450,7 +4450,7 @@ nullptr
 layers
 :
 :
-BufferTextureHost
+TextureHost
 :
 :
 DestroyRenderTexture
@@ -4608,7 +4608,7 @@ first
 layers
 :
 :
-BufferTextureHost
+TextureHost
 :
 :
 DestroyRenderTexture
