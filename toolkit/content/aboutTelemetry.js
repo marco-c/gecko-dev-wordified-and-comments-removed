@@ -725,9 +725,11 @@ getMainWindow
 return
 window
 .
-browsingContext
+docShell
 .
-topChromeWindow
+rootTreeItem
+.
+domWindow
 ;
 }
 function

@@ -95,7 +95,7 @@ content
 .
 docShell
 .
-sameTypeRootTreeItem
+rootTreeItem
 .
 QueryInterface
 (
