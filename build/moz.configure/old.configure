@@ -1557,13 +1557,6 @@ extensions
 -
 enable
 -
-icf
-'
-'
--
--
-enable
--
 install
 -
 strip
