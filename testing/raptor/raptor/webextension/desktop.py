@@ -525,6 +525,17 @@ initialize_power_measurements
 )
         
 if
+self
+.
+config
+.
+get
+(
+"
+cold
+"
+)
+or
 test
 .
 get
@@ -532,10 +543,7 @@ get
 "
 cold
 "
-False
 )
-is
-True
 :
             
 self

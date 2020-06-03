@@ -314,6 +314,10 @@ cpu_test
 =
 False
         
+cold
+=
+False
+        
 memory_test
 =
 False
@@ -518,6 +522,12 @@ cpu_test
 "
 :
 cpu_test
+            
+"
+cold
+"
+:
+cold
             
 "
 live_sites
