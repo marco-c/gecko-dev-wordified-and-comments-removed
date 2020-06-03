@@ -687,6 +687,11 @@ PreloaderBase
 aNewPreloader
 )
 {
+if
+(
+aDocument
+)
+{
 aDocument
 -
 >
@@ -700,6 +705,7 @@ DeregisterPreload
 mKey
 )
 ;
+}
 mKey
 =
 PreloadHashKey
