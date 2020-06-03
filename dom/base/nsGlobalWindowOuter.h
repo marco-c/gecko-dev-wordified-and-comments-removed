@@ -98,6 +98,13 @@ h
 #
 include
 "
+nsIObserver
+.
+h
+"
+#
+include
+"
 nsIScriptGlobalObject
 .
 h
@@ -656,6 +663,8 @@ public
 nsIInterfaceRequestor
 public
 PRCListStr
+public
+nsIObserver
 {
 public
 :
@@ -1440,6 +1449,7 @@ Fullscreen
 const
 ;
 NS_DECL_NSIINTERFACEREQUESTOR
+NS_DECL_NSIOBSERVER
 mozilla
 :
 :
