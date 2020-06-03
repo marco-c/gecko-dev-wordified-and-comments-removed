@@ -1256,9 +1256,7 @@ static
 nsRect
 ClipToFrame
 (
-const
-nsIFrame
-*
+RelativeTo
 aRootFrame
 const
 nsIFrame
@@ -1292,14 +1290,7 @@ GetSize
 (
 )
 )
-RelativeTo
-{
 aRootFrame
-ViewportType
-:
-:
-Visual
-}
 )
 ;
 nsRect
@@ -1420,8 +1411,6 @@ r
 ClipToFrame
 (
 aRootFrame
-.
-mFrame
 aRestrictToDescendants
 r
 )
@@ -1700,9 +1689,7 @@ nsIFrame
 *
 GetClosest
 (
-const
-nsIFrame
-*
+RelativeTo
 aRoot
 const
 nsPoint
@@ -1806,14 +1793,7 @@ GetSize
 (
 )
 )
-RelativeTo
-{
 aRoot
-ViewportType
-:
-:
-Visual
-}
 &
 preservesAxisAlignedRectangles
 )
@@ -1998,6 +1978,8 @@ IsProperAncestorFrameCrossDoc
 f
 bestTarget
 aRoot
+.
+mFrame
 )
 )
 {
@@ -2038,6 +2020,8 @@ IsAncestorFrameCrossDoc
 aRestrictToDescendants
 f
 aRoot
+.
+mFrame
 )
 )
 {
@@ -2553,8 +2537,6 @@ closestClickable
 GetClosest
 (
 aRootFrame
-.
-mFrame
 aPointRelativeToRootFrame
 targetRect
 prefs
