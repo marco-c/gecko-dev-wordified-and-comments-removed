@@ -1882,6 +1882,10 @@ _promiseConfirmBlock
 }
 launch
 (
+options
+=
+{
+}
 )
 {
 if
@@ -1921,6 +1925,7 @@ DownloadIntegration
 launchDownload
 (
 this
+options
 )
 ;
 }

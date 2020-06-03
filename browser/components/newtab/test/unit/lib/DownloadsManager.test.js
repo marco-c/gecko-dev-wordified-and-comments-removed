@@ -196,7 +196,7 @@ resolve
 (
 )
 )
-openDownloadedFile
+openDownload
 :
 sinon
 .
@@ -619,7 +619,7 @@ global
 .
 DownloadsCommon
 .
-openDownloadedFile
+openDownload
 )
 ;
 }
