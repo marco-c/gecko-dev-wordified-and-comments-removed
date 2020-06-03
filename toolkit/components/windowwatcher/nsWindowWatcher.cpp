@@ -2203,7 +2203,7 @@ sizeSpec
 uint32_t
 chromeFlags
 =
-CalculateChromeFlagsForChild
+CalculateChromeFlagsForContent
 (
 features
 sizeSpec
@@ -2942,15 +2942,13 @@ XRE_IsParentProcess
 {
 chromeFlags
 =
-CalculateChromeFlagsForParent
+CalculateChromeFlagsForSystem
 (
-aParent
 features
 sizeSpec
 aDialog
 uriToLoadIsChrome
 hasChromeParent
-aCalledFromJS
 )
 ;
 }
@@ -2979,7 +2977,7 @@ parent
 ;
 chromeFlags
 =
-CalculateChromeFlagsForChild
+CalculateChromeFlagsForContent
 (
 features
 sizeSpec
@@ -7506,7 +7504,7 @@ uint32_t
 nsWindowWatcher
 :
 :
-CalculateChromeFlagsForChild
+CalculateChromeFlagsForContent
 (
 const
 WindowFeatures
@@ -7558,11 +7556,8 @@ uint32_t
 nsWindowWatcher
 :
 :
-CalculateChromeFlagsForParent
+CalculateChromeFlagsForSystem
 (
-mozIDOMWindowProxy
-*
-aParent
 const
 WindowFeatures
 &
@@ -7577,8 +7572,6 @@ bool
 aChromeURL
 bool
 aHasChromeParent
-bool
-aCalledFromJS
 )
 {
 MOZ_ASSERT

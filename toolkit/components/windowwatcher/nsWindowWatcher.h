@@ -341,7 +341,7 @@ aSizeSpec
 ;
 static
 uint32_t
-CalculateChromeFlagsForChild
+CalculateChromeFlagsForContent
 (
 const
 mozilla
@@ -361,11 +361,8 @@ aSizeSpec
 ;
 static
 uint32_t
-CalculateChromeFlagsForParent
+CalculateChromeFlagsForSystem
 (
-mozIDOMWindowProxy
-*
-aParent
 const
 mozilla
 :
@@ -386,8 +383,6 @@ bool
 aChromeURL
 bool
 aHasChromeParent
-bool
-aCalledFromJS
 )
 ;
 static
