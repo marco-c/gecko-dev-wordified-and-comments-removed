@@ -205,11 +205,13 @@ use
 strict
 "
 ;
+async
 function
 runTest
 (
 )
 {
+await
 isSecurityState
 (
 "
@@ -273,10 +275,13 @@ window
 .
 setTimeout
 (
-function
+async
 (
 )
+=
+>
 {
+await
 isSecurityState
 (
 "
@@ -301,6 +306,7 @@ finish
 )
 ;
 }
+async
 function
 afterNavigationTest
 (
@@ -330,6 +336,7 @@ previous
 "
 )
 ;
+await
 isSecurityState
 (
 "
