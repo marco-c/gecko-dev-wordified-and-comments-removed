@@ -432,6 +432,17 @@ mozilla
 /
 layers
 /
+GeckoContentController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ImageBridgeParent
 .
 h

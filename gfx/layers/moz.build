@@ -538,6 +538,15 @@ apz
 /
 public
 /
+GeckoContentControllerTypes
+.
+h
+'
+'
+apz
+/
+public
+/
 IAPZCTreeManager
 .
 h
