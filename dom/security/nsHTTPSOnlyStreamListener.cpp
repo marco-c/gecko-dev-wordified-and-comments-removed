@@ -203,10 +203,13 @@ aStatus
 {
 if
 (
+nsHTTPSOnlyUtils
+:
+:
+CouldBeHttpsOnlyError
+(
 aStatus
-!
-=
-NS_ERROR_UNKNOWN_HOST
+)
 )
 {
 RecordUpgradeTelemetry

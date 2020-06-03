@@ -2852,6 +2852,16 @@ return
 mAncestorPrincipals
 ;
 }
+uint32_t
+HttpsOnlyStatus
+(
+)
+const
+{
+return
+mHttpsOnlyStatus
+;
+}
 const
 nsTArray
 <
@@ -13394,6 +13404,9 @@ mWeakSink
 ;
 uint32_t
 mUpdateNestLevel
+;
+uint32_t
+mHttpsOnlyStatus
 ;
 enum
 ViewportType

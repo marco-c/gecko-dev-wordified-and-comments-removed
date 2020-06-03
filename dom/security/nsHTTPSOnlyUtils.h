@@ -44,6 +44,14 @@ aHttpsOnlyStatus
 )
 ;
 static
+bool
+CouldBeHttpsOnlyError
+(
+nsresult
+aError
+)
+;
+static
 void
 LogLocalizedString
 (

@@ -362,6 +362,13 @@ aTitle
 )
 ;
 async
+UpdateHttpsOnlyStatus
+(
+uint32_t
+aHttpsOnlyStatus
+)
+;
+async
 SetIsInitialDocument
 (
 bool

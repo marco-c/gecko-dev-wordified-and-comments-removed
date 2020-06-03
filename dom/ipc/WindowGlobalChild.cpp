@@ -1100,6 +1100,16 @@ WindowGlobalParent
 )
 ;
 }
+SendUpdateHttpsOnlyStatus
+(
+aDocument
+-
+>
+HttpsOnlyStatus
+(
+)
+)
+;
 WindowContext
 :
 :

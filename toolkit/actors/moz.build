@@ -116,6 +116,16 @@ actors
 =
 [
 '
+AboutHttpsOnlyErrorChild
+.
+jsm
+'
+'
+AboutHttpsOnlyErrorParent
+.
+jsm
+'
+'
 AudioPlaybackChild
 .
 jsm

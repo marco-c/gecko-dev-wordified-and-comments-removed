@@ -7630,6 +7630,7 @@ referrerInfo
 postData
 userContextId
 csp
+isHttpsOnlyModeUpgradeExempt
 }
 =
 params
@@ -7789,6 +7790,7 @@ loadFlags
 referrerInfo
 postData
 hasValidUserGestureActivation
+isHttpsOnlyModeUpgradeExempt
 }
 ;
 try
