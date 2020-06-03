@@ -377,6 +377,7 @@ handleUserAction
 await
 waitForInitialized
 ;
+await
 this
 .
 enableAppmenuButton
