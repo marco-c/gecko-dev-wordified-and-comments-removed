@@ -1026,6 +1026,12 @@ add
 ins
 )
 ;
+setOperand
+(
+strId
+ins
+)
+;
 return
 true
 ;

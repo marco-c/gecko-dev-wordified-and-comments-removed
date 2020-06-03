@@ -27455,6 +27455,17 @@ guard
 ins
 )
 ;
+redefine
+(
+ins
+ins
+-
+>
+str
+(
+)
+)
+;
 }
 void
 LIRGenerator
