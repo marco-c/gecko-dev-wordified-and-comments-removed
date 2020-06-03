@@ -690,6 +690,15 @@ label
 replace
 (
                 
+"
+-
+{
+}
+/
+"
+.
+format
+(
 job
 [
 '
@@ -701,12 +710,15 @@ attributes
 l10n_chunk
 '
 ]
+)
 '
+-
 ja
 -
 JP
 -
 mac
+/
 '
             
 )
