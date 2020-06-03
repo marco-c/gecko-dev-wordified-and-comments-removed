@@ -5584,6 +5584,11 @@ alloc
 value
 )
 ;
+add
+(
+isObject
+)
+;
 pushResult
 (
 isObject
