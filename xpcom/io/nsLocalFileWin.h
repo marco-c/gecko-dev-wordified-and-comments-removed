@@ -211,9 +211,6 @@ bool
 mResolveDirty
 ;
 bool
-mFollowSymlinks
-;
-bool
 mUseDOSDevicePathSyntax
 ;
 nsString
@@ -271,11 +268,6 @@ ResolveAndStat
 ;
 nsresult
 Resolve
-(
-)
-;
-nsresult
-ResolveShortcut
 (
 )
 ;
