@@ -760,15 +760,6 @@ true
 "
 feeds
 .
-system
-.
-topstories
-"
-:
-true
-"
-feeds
-.
 topsites
 "
 :
