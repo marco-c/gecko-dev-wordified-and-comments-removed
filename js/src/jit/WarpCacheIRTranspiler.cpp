@@ -1555,6 +1555,12 @@ add
 ins
 )
 ;
+setOperand
+(
+inputId
+ins
+)
+;
 return
 true
 ;
