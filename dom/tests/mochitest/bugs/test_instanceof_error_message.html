@@ -837,9 +837,15 @@ sandbox
 .
 waiveXrays
 =
+SpecialPowers
+.
+wrapFor
+(
 Cu
 .
 waiveXrays
+sandbox
+)
 ;
 window
 [
