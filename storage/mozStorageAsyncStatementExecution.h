@@ -48,7 +48,7 @@ h
 #
 include
 "
-nsIRunnable
+nsThreadUtils
 .
 h
 "
@@ -111,13 +111,13 @@ AsyncExecuteStatements
 final
 :
 public
-nsIRunnable
+Runnable
 public
 mozIStoragePendingStatement
 {
 public
 :
-NS_DECL_THREADSAFE_ISUPPORTS
+NS_DECL_ISUPPORTS_INHERITED
 NS_DECL_NSIRUNNABLE
 NS_DECL_MOZISTORAGEPENDINGSTATEMENT
 enum
