@@ -12472,6 +12472,15 @@ IsOnCurrentThread
 )
 )
 ;
+if
+(
+!
+mWrBridge
+)
+{
+return
+;
+}
 RefPtr
 <
 wr
