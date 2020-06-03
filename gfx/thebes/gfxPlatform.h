@@ -1858,7 +1858,7 @@ ReInitFrameRate
 )
 ;
 void
-UpdateAllowSacrificingSubpixelAA
+UpdateForceSubpixelAAWherePossible
 (
 )
 ;

@@ -4145,13 +4145,13 @@ TransactionBuilder
 UpdateQualitySettings
 (
 bool
-aAllowSacrificingSubpixelAA
+aForceSubpixelAAWherePossible
 )
 {
 wr_transaction_set_quality_settings
 (
 mTxn
-aAllowSacrificingSubpixelAA
+aForceSubpixelAAWherePossible
 )
 ;
 }

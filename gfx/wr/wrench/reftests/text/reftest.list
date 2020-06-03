@@ -1405,9 +1405,9 @@ platform
 (
 linux
 )
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 (
-false
+true
 )
 =
 =
@@ -1431,9 +1431,9 @@ platform
 (
 linux
 )
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 (
-true
+false
 )
 =
 =

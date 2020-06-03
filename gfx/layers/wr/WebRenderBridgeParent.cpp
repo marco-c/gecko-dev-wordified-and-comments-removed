@@ -7779,7 +7779,7 @@ UpdateQualitySettings
 gfxVars
 :
 :
-AllowSacrificingSubpixelAA
+ForceSubpixelAAWherePossible
 (
 )
 )

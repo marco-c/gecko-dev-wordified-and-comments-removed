@@ -187,7 +187,7 @@ struct
 QualitySettings
 {
 pub
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 :
 bool
 }
@@ -206,9 +206,9 @@ Self
 {
 QualitySettings
 {
-allow_sacrificing_subpixel_aa
+force_subpixel_aa_where_possible
 :
-true
+false
 }
 }
 }
