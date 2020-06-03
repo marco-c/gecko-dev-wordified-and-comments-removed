@@ -79,7 +79,6 @@ MOZ_ENABLE_FORKSERVER
 ForkServer
 #
 endif
-Preallocated
 Unknown
 Max
 =
