@@ -69,6 +69,9 @@ nsIArray
 interface
 nsIDOMWindow
 ;
+interface
+nsIMediaDevice
+;
 %
 {
 C
@@ -243,6 +246,12 @@ out
 unsigned
 short
 aBrowserShare
+out
+Array
+<
+nsIMediaDevice
+>
+devices
 in
 boolean
 aIncludeDescendants
