@@ -385,6 +385,11 @@ SHUTDOWN_ERROR
 "
 shutdown_error
 "
+CORRUPTION_ERROR
+:
+"
+corruption_error
+"
 }
 ;
 }
