@@ -994,7 +994,6 @@ if
 (
 maxRefreshRate
 >
-=
 60
 )
 {
