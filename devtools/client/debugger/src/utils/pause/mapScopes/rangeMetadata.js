@@ -68,7 +68,7 @@ import
 type
 {
 PartialPosition
-Frame
+SourceLocation
 }
 from
 "
@@ -145,9 +145,9 @@ async
 function
 loadRangeMetadata
 (
-frame
+location
 :
-Frame
+SourceLocation
 originalAstScopes
 :
 Array
@@ -180,8 +180,6 @@ sourceMaps
 .
 getOriginalRanges
 (
-frame
-.
 location
 .
 sourceId
