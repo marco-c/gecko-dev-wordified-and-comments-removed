@@ -1958,10 +1958,6 @@ Duplicate
 }
 else
 {
-RemoveComposition
-(
-)
-;
 NS_ENSURE_SUCCESS_VOID
 (
 BeginInputTransaction
