@@ -1819,6 +1819,17 @@ cmd
 hg
 '
 '
+-
+-
+config
+'
+'
+extensions
+.
+purge
+=
+'
+'
 purge
 '
 '
@@ -1826,6 +1837,7 @@ purge
 -
 all
 '
+                       
 '
 -
 I
@@ -1841,7 +1853,6 @@ py
 cdo
 ]
 '
-                       
 '
 -
 I
@@ -1856,6 +1867,7 @@ python
 -
 I
 '
+                       
 '
 path
 :
