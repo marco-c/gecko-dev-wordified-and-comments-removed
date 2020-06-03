@@ -377,6 +377,9 @@ EGL_EXT_swap_buffers_with_damage
 "
 EGL_KHR_swap_buffers_with_damage
 "
+"
+EGL_EXT_buffer_age
+"
 }
 ;
 PRLibrary

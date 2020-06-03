@@ -7384,6 +7384,8 @@ CompositorKind
 Draw
 {
 max_partial_present_rects
+.
+.
 }
 =
 doc

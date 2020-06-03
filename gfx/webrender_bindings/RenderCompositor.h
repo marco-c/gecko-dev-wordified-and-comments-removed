@@ -516,6 +516,16 @@ return
 }
 virtual
 bool
+ShouldDrawPreviousPartialPresentRegions
+(
+)
+{
+return
+false
+;
+}
+virtual
+bool
 SurfaceOriginIsTopLeft
 (
 )

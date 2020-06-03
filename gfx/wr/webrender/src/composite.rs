@@ -742,6 +742,9 @@ Draw
 max_partial_present_rects
 :
 usize
+draw_previous_partial_present_regions
+:
+bool
 }
 Native
 {
@@ -840,6 +843,9 @@ Draw
 max_partial_present_rects
 :
 0
+draw_previous_partial_present_regions
+:
+false
 }
 }
 }
@@ -892,6 +898,9 @@ Draw
 max_partial_present_rects
 :
 usize
+draw_previous_partial_present_regions
+:
+bool
 }
 Native
 {
@@ -924,6 +933,9 @@ Draw
 max_partial_present_rects
 :
 0
+draw_previous_partial_present_regions
+:
+false
 }
 }
 }
