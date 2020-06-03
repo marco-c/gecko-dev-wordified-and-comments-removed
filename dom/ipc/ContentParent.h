@@ -279,13 +279,6 @@ h
 #
 include
 "
-nsIAsyncShutdown
-.
-h
-"
-#
-include
-"
 nsIContentParent
 .
 h
@@ -597,8 +590,6 @@ public
 nsIDOMGeoPositionCallback
 public
 nsIDOMGeoPositionErrorCallback
-public
-nsIAsyncShutdownBlocker
 public
 nsIInterfaceRequestor
 public
@@ -1488,7 +1479,6 @@ NS_DECL_NSICONTENTPARENT
 NS_DECL_NSIOBSERVER
 NS_DECL_NSIDOMGEOPOSITIONCALLBACK
 NS_DECL_NSIDOMGEOPOSITIONERRORCALLBACK
-NS_DECL_NSIASYNCSHUTDOWNBLOCKER
 NS_DECL_NSIINTERFACEREQUESTOR
 virtual
 bool
@@ -3104,16 +3094,6 @@ ContentParent
 >
 >
 sContentParents
-;
-void
-AddShutdownBlockers
-(
-)
-;
-void
-RemoveShutdownBlockers
-(
-)
 ;
 #
 if
