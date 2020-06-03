@@ -127,7 +127,7 @@ version
 .
 0
 .
-28
+30
 "
 authors
 =
@@ -335,17 +335,3 @@ std
 =
 [
 ]
-[
-badges
-.
-travis
--
-ci
-]
-repository
-=
-"
-dtolnay
-/
-anyhow
-"

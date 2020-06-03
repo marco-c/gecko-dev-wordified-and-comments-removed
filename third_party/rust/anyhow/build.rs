@@ -29,6 +29,7 @@ process
 {
 Command
 ExitStatus
+Stdio
 }
 ;
 const
@@ -330,6 +331,16 @@ Command
 new
 (
 rustc
+)
+.
+stderr
+(
+Stdio
+:
+:
+null
+(
+)
 )
 .
 arg
