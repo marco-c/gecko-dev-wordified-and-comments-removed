@@ -488,7 +488,7 @@ wl_surface
 *
 surface
 =
-moz_container_get_wl_surface
+moz_container_wayland_get_surface
 (
 mContainer
 )
