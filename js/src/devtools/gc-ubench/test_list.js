@@ -141,6 +141,17 @@ callback
 "
 benchmarks
 /
+deepWeakMap
+.
+js
+"
+)
+;
+callback
+(
+"
+benchmarks
+/
 textNodes
 .
 js
