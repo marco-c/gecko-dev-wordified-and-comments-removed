@@ -984,7 +984,7 @@ Frame
 nsPageSequenceFrame
 "
 "
-Sequence
+PageSequence
 "
 NOT_LEAF
 )
