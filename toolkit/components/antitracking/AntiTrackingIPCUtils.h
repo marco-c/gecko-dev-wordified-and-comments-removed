@@ -46,7 +46,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 :
 public
@@ -58,14 +58,14 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 mozilla
 :
 :
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 :
 :
 eStorageAccessAPI
@@ -75,7 +75,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 :
 :
 eOpener

@@ -1067,7 +1067,7 @@ override
 virtual
 nsIPrincipal
 *
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 override
@@ -6710,7 +6710,7 @@ GetTopLevelStorageAreaPrincipal
 )
 ;
 void
-StorageAccessPermissionGranted
+StorageAccessGranted
 (
 )
 ;
@@ -7608,7 +7608,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mDocumentPartitionedPrincipal
+mDocumentIntrinsicStoragePrincipal
 ;
 nsCOMPtr
 <

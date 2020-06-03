@@ -70,7 +70,7 @@ GetEffectiveStoragePrincipal
 virtual
 nsIPrincipal
 *
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 =

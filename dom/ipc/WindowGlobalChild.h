@@ -587,7 +587,7 @@ ipc
 :
 :
 IPCResult
-RecvSaveStorageAccessPermissionGranted
+RecvSaveStorageAccessGranted
 (
 )
 ;

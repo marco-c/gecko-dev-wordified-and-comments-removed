@@ -214,7 +214,7 @@ aIsThirdPartyTrackingResource
 bool
 aIsThirdPartySocialTrackingResource
 bool
-aStorageAccessPermissionGranted
+aFirstPartyStorageAccessGranted
 const
 nsACString
 &
@@ -247,7 +247,7 @@ aIsThirdPartyTrackingResource
 bool
 aIsThirdPartySocialTrackingResource
 bool
-aStorageAccessPermissionGranted
+aFirstPartyStorageAccessGranted
 uint32_t
 aRejectedReason
 bool

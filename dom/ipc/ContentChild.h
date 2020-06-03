@@ -3471,7 +3471,7 @@ const
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 &
 aReason
 )

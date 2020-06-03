@@ -1549,12 +1549,12 @@ const
 0
 ;
 void
-SaveStorageAccessPermissionGranted
+SaveStorageAccessGranted
 (
 )
 ;
 bool
-HasStorageAccessPermissionGranted
+HasStorageAccessGranted
 (
 )
 ;
@@ -1803,7 +1803,7 @@ Event
 mEvent
 ;
 bool
-mStorageAccessPermissionGranted
+mStorageAccessGranted
 ;
 RefPtr
 <
