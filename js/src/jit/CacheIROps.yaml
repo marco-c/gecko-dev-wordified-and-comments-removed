@@ -1610,9 +1610,9 @@ transpile
 true
 args
 :
-val
+input
 :
-ValId
+NumberId
 result
 :
 Int32Id
