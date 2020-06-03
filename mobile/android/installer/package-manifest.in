@@ -1246,13 +1246,6 @@ BINPATH
 /
 components
 /
-GeckoViewPrompt
-.
-js
-BINPATH
-/
-components
-/
 GeckoViewPush
 .
 js
