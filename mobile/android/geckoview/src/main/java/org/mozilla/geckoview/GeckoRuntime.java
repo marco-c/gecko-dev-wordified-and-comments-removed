@@ -763,9 +763,9 @@ mContentBlockingController
 ;
 private
 final
-LoginStorage
+Autocomplete
 .
-Proxy
+LoginStorageProxy
 mLoginStorageProxy
 ;
 private
@@ -791,9 +791,9 @@ ContentBlockingController
 mLoginStorageProxy
 =
 new
-LoginStorage
+Autocomplete
 .
-Proxy
+LoginStorageProxy
 (
 )
 ;
@@ -2683,9 +2683,9 @@ setLoginStorageDelegate
 (
 final
 Nullable
-LoginStorage
+Autocomplete
 .
-Delegate
+LoginStorageDelegate
 delegate
 )
 {
@@ -2706,9 +2706,9 @@ delegate
 UiThread
 public
 Nullable
-LoginStorage
+Autocomplete
 .
-Delegate
+LoginStorageDelegate
 getLoginStorageDelegate
 (
 )
