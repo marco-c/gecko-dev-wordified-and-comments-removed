@@ -2260,8 +2260,6 @@ int32_t
 aClickCount
 int32_t
 aModifiers
-bool
-aIgnoreRootScrollFrame
 unsigned
 short
 aInputSourceArg
@@ -2300,7 +2298,7 @@ nsIDOMWindowUtils
 MOUSE_BUTTONS_NOT_SPECIFIED
 aClickCount
 aModifiers
-aIgnoreRootScrollFrame
+false
 0
 aInputSourceArg
 aPointerId

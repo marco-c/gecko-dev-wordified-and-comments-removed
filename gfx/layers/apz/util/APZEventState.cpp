@@ -1112,7 +1112,6 @@ WidgetModifiersToDOMModifiers
 (
 aModifiers
 )
-true
 dom
 :
 :

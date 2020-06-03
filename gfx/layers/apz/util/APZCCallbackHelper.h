@@ -350,8 +350,6 @@ int32_t
 aClickCount
 int32_t
 aModifiers
-bool
-aIgnoreRootScrollFrame
 unsigned
 short
 aInputSourceArg
