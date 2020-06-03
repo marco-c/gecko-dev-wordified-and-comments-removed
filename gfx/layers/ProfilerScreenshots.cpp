@@ -410,10 +410,7 @@ GRAPHICS
 "
 CompositorScreenshot
 "
-MakeUnique
-<
 ScreenshotPayload
->
 (
 timeStamp
 std

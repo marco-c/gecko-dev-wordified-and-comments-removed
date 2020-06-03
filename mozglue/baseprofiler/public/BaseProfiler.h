@@ -2459,10 +2459,9 @@ const
 char
 *
 aMarkerName
-UniquePtr
-<
+const
 ProfilerMarkerPayload
->
+&
 aPayload
 )
 ;

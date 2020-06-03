@@ -2815,13 +2815,9 @@ const
 char
 *
 aMarkerName
-mozilla
-:
-:
-UniquePtr
-<
+const
 ProfilerMarkerPayload
->
+&
 aPayload
 )
 ;

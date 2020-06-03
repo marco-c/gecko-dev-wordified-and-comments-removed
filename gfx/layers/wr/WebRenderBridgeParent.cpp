@@ -1483,10 +1483,7 @@ GRAPHICS
 "
 CONTENT_FULL_PAINT_TIME
 "
-MakeUnique
-<
 ContentFullPaintPayload
->
 (
 startTime
 endTime
