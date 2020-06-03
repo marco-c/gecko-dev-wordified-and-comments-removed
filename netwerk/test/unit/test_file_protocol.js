@@ -28,7 +28,7 @@ test_read_file
 test_read_dir_1
 test_read_dir_2
 test_upload_file
-test_load_replace
+test_load_shelllink
 do_test_finished
 ]
 .
@@ -1351,20 +1351,8 @@ on_upload_complete
 ;
 }
 function
-test_load_replace
+test_load_shelllink
 (
-)
-{
-if
-(
-mozinfo
-.
-os
-=
-=
-"
-win
-"
 )
 {
 dump
@@ -1373,7 +1361,7 @@ dump
 *
 *
 *
-test_load_replace
+test_load_shelllink
 \
 n
 "
@@ -1404,7 +1392,7 @@ file
 ;
 Assert
 .
-notEqual
+equal
 (
 chan
 .
@@ -1464,7 +1452,6 @@ file
 pathQueryRef
 )
 ;
-}
 run_next_test
 (
 )

@@ -547,10 +547,6 @@ nsIFile
 aFile
 )
 ;
-attribute
-boolean
-followLinks
-;
 const
 unsigned
 long
