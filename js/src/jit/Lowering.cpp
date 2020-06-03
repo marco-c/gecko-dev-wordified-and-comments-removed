@@ -18354,9 +18354,9 @@ void
 LIRGenerator
 :
 :
-visitLoadSlot
+visitLoadDynamicSlot
 (
-MLoadSlot
+MLoadDynamicSlot
 *
 ins
 )
@@ -18385,7 +18385,7 @@ alloc
 (
 )
 )
-LLoadSlotV
+LLoadDynamicSlotV
 (
 useRegisterAtStart
 (
@@ -18436,7 +18436,7 @@ alloc
 (
 )
 )
-LLoadSlotT
+LLoadDynamicSlotT
 (
 useRegisterForTypedLoad
 (
@@ -18851,9 +18851,9 @@ void
 LIRGenerator
 :
 :
-visitStoreSlot
+visitStoreDynamicSlot
 (
-MStoreSlot
+MStoreDynamicSlot
 *
 ins
 )
@@ -18891,7 +18891,7 @@ alloc
 (
 )
 )
-LStoreSlotV
+LStoreDynamicSlotV
 (
 useRegister
 (
@@ -18935,7 +18935,7 @@ alloc
 (
 )
 )
-LStoreSlotT
+LStoreDynamicSlotT
 (
 useRegister
 (
@@ -18993,7 +18993,7 @@ alloc
 (
 )
 )
-LStoreSlotT
+LStoreDynamicSlotT
 (
 useRegister
 (

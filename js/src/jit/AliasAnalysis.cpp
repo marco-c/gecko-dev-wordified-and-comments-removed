@@ -862,7 +862,7 @@ MDefinition
 Opcode
 :
 :
-LoadSlot
+LoadDynamicSlot
 :
 case
 MDefinition
@@ -871,7 +871,7 @@ MDefinition
 Opcode
 :
 :
-StoreSlot
+StoreDynamicSlot
 :
 case
 MDefinition

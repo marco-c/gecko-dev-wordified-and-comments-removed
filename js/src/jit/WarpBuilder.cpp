@@ -2212,7 +2212,7 @@ current
 >
 add
 (
-MStoreSlot
+MStoreDynamicSlot
 :
 :
 New
@@ -8523,7 +8523,7 @@ ec
 ;
 load
 =
-MLoadSlot
+MLoadDynamicSlot
 :
 :
 New
@@ -8692,7 +8692,7 @@ ec
 ;
 store
 =
-MStoreSlot
+MStoreDynamicSlot
 :
 :
 NewBarriered
@@ -13295,11 +13295,11 @@ add
 slots
 )
 ;
-MLoadSlot
+MLoadDynamicSlot
 *
 load
 =
-MLoadSlot
+MLoadDynamicSlot
 :
 :
 New

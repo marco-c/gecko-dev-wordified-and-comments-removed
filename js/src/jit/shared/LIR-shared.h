@@ -26985,7 +26985,7 @@ toCallBindVar
 }
 ;
 class
-LLoadSlotV
+LLoadDynamicSlotV
 :
 public
 LInstructionHelper
@@ -26999,10 +26999,10 @@ public
 :
 LIR_HEADER
 (
-LoadSlotV
+LoadDynamicSlotV
 )
 explicit
-LLoadSlotV
+LLoadDynamicSlotV
 (
 const
 LAllocation
@@ -27023,7 +27023,7 @@ in
 ;
 }
 const
-MLoadSlot
+MLoadDynamicSlot
 *
 mir
 (
@@ -27034,7 +27034,7 @@ return
 mir_
 -
 >
-toLoadSlot
+toLoadDynamicSlot
 (
 )
 ;
@@ -27042,7 +27042,7 @@ toLoadSlot
 }
 ;
 class
-LLoadSlotT
+LLoadDynamicSlotT
 :
 public
 LInstructionHelper
@@ -27056,10 +27056,10 @@ public
 :
 LIR_HEADER
 (
-LoadSlotT
+LoadDynamicSlotT
 )
 explicit
-LLoadSlotT
+LLoadDynamicSlotT
 (
 const
 LAllocation
@@ -27111,7 +27111,7 @@ getDef
 ;
 }
 const
-MLoadSlot
+MLoadDynamicSlot
 *
 mir
 (
@@ -27122,7 +27122,7 @@ return
 mir_
 -
 >
-toLoadSlot
+toLoadDynamicSlot
 (
 )
 ;
@@ -27130,7 +27130,7 @@ toLoadSlot
 }
 ;
 class
-LStoreSlotV
+LStoreDynamicSlotV
 :
 public
 LInstructionHelper
@@ -27146,9 +27146,9 @@ public
 :
 LIR_HEADER
 (
-StoreSlotV
+StoreDynamicSlotV
 )
-LStoreSlotV
+LStoreDynamicSlotV
 (
 const
 LAllocation
@@ -27186,7 +27186,7 @@ Value
 1
 ;
 const
-MStoreSlot
+MStoreDynamicSlot
 *
 mir
 (
@@ -27197,7 +27197,7 @@ return
 mir_
 -
 >
-toStoreSlot
+toStoreDynamicSlot
 (
 )
 ;
@@ -27219,7 +27219,7 @@ getOperand
 }
 ;
 class
-LStoreSlotT
+LStoreDynamicSlotT
 :
 public
 LInstructionHelper
@@ -27233,9 +27233,9 @@ public
 :
 LIR_HEADER
 (
-StoreSlotT
+StoreDynamicSlotT
 )
-LStoreSlotT
+LStoreDynamicSlotT
 (
 const
 LAllocation
@@ -27266,7 +27266,7 @@ value
 ;
 }
 const
-MStoreSlot
+MStoreDynamicSlot
 *
 mir
 (
@@ -27277,7 +27277,7 @@ return
 mir_
 -
 >
-toStoreSlot
+toStoreDynamicSlot
 (
 )
 ;

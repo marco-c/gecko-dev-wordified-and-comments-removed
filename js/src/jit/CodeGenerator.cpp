@@ -24585,9 +24585,9 @@ void
 CodeGenerator
 :
 :
-visitLoadSlotT
+visitLoadDynamicSlotT
 (
-LLoadSlotT
+LLoadDynamicSlotT
 *
 lir
 )
@@ -24669,9 +24669,9 @@ void
 CodeGenerator
 :
 :
-visitLoadSlotV
+visitLoadDynamicSlotV
 (
-LLoadSlotV
+LLoadDynamicSlotV
 *
 lir
 )
@@ -24737,9 +24737,9 @@ void
 CodeGenerator
 :
 :
-visitStoreSlotT
+visitStoreDynamicSlotT
 (
-LStoreSlotT
+LStoreDynamicSlotT
 *
 lir
 )
@@ -24960,9 +24960,9 @@ void
 CodeGenerator
 :
 :
-visitStoreSlotV
+visitStoreDynamicSlotV
 (
-LStoreSlotV
+LStoreDynamicSlotV
 *
 lir
 )
@@ -25007,7 +25007,7 @@ value
 ToValue
 (
 lir
-LStoreSlotV
+LStoreDynamicSlotV
 :
 :
 Value
