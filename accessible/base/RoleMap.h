@@ -2264,7 +2264,9 @@ image
 map
 "
 ATK_ROLE_IMAGE
-NSAccessibilityUnknownRole
+"
+AXImageMap
+"
 ROLE_SYSTEM_GRAPHIC
 ROLE_SYSTEM_GRAPHIC
 java
