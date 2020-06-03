@@ -158,10 +158,5 @@ struct
 narrow
 anyref
 funcref
-struct
-.
-narrow
-anyref
-nullref
 )
 )
