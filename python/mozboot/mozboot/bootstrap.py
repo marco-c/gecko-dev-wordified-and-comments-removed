@@ -122,6 +122,12 @@ SolusBootstrapper
 from
 mozboot
 .
+void
+import
+VoidBootstrapper
+from
+mozboot
+.
 windows
 import
 WindowsBootstrapper
@@ -1689,6 +1695,20 @@ release
 cls
 =
 ArchlinuxBootstrapper
+            
+elif
+dist_id
+in
+(
+'
+void
+'
+)
+:
+                
+cls
+=
+VoidBootstrapper
             
 elif
 os
