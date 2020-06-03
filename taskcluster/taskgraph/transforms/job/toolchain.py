@@ -336,6 +336,25 @@ files
 )
 ]
     
+data
+.
+append
+(
+taskdesc
+[
+'
+attributes
+'
+]
+[
+'
+toolchain
+-
+artifact
+'
+]
+)
+    
 image
 =
 taskdesc
