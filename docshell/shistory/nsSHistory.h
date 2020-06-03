@@ -235,6 +235,7 @@ entriesToUpdate
 ;
 }
 ;
+explicit
 nsSHistory
 (
 mozilla
@@ -246,10 +247,6 @@ dom
 BrowsingContext
 *
 aRootBC
-const
-nsID
-&
-aDocShellID
 )
 ;
 NS_DECL_ISUPPORTS
