@@ -74,7 +74,6 @@ mercurial
 repository
 (
 like
-inbound
 autoland
 or
 mozilla

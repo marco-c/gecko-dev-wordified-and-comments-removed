@@ -1331,9 +1331,6 @@ in
 use
 on
 try
-mozilla
--
-inbound
 and
 autoland
 but
