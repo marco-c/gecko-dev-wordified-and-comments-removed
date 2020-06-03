@@ -2440,6 +2440,9 @@ buffer
 props
 .
 language
+!
+=
+nullptr
 )
 mbstowcs
 (

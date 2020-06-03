@@ -567,12 +567,13 @@ nTracks
 HBUINT16
 nSizes
 ;
-LNNOffsetTo
+LOffsetTo
 <
 UnsizedArrayOf
 <
 HBFixed
 >
+false
 >
 sizeTable
 ;

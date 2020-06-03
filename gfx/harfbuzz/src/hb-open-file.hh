@@ -1118,12 +1118,9 @@ data_base
 const
 {
 return
-*
-reinterpret_cast
+CastR
 <
-const
 OpenTypeFontFace
-*
 >
 (
 (

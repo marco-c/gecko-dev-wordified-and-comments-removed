@@ -569,8 +569,10 @@ if
 (
 unlikely
 (
-!
 p
+=
+=
+nullptr
 )
 )
 return_trace
@@ -713,8 +715,10 @@ if
 (
 unlikely
 (
-!
 p
+=
+=
+nullptr
 )
 )
 return_trace
@@ -768,8 +772,10 @@ if
 (
 unlikely
 (
-!
 p
+=
+=
+nullptr
 )
 )
 return_trace

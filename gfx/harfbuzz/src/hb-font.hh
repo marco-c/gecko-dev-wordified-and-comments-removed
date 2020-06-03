@@ -308,10 +308,6 @@ int
 *
 coords
 ;
-float
-*
-design_coords
-;
 hb_font_funcs_t
 *
 klass

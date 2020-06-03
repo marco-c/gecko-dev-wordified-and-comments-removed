@@ -54,13 +54,6 @@ h
 '
 hb
 -
-draw
-.
-h
-'
-'
-hb
--
 face
 .
 h
@@ -259,13 +252,6 @@ cc
 hb
 -
 common
-.
-cc
-'
-'
-hb
--
-draw
 .
 cc
 '

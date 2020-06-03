@@ -48,15 +48,6 @@ include
 "
 hb
 -
-draw
-.
-h
-"
-#
-include
-"
-hb
--
 face
 .
 h

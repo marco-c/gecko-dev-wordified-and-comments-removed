@@ -26,9 +26,13 @@ HB_INTERNAL
 bool
 hb_subset_cff2
 (
-hb_subset_context_t
+hb_subset_plan_t
 *
-c
+plan
+hb_blob_t
+*
+*
+cff2_prime
 )
 ;
 #

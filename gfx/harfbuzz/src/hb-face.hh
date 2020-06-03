@@ -244,7 +244,12 @@ unlikely
 ret
 =
 =
-UINT_MAX
+(
+unsigned
+int
+)
+-
+1
 )
 )
 return

@@ -979,6 +979,12 @@ hb_ridentity
 )
 )
 hb_hashmap_t
+<
+K
+V
+kINVALID
+vINVALID
+>
 &
 operator
 <

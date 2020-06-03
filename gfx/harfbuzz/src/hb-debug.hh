@@ -56,6 +56,11 @@ uniscribe_bug_compatible
 :
 1
 ;
+bool
+aat
+:
+1
+;
 }
 ;
 union

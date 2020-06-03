@@ -572,7 +572,12 @@ stage
 table_index
 ]
 :
-UINT_MAX
+(
+unsigned
+int
+)
+-
+1
 ;
 }
 void
@@ -604,7 +609,12 @@ unlikely
 stage
 =
 =
-UINT_MAX
+(
+unsigned
+int
+)
+-
+1
 )
 )
 {

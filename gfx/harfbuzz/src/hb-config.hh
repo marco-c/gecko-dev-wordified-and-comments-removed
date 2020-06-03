@@ -90,9 +90,6 @@ define
 HB_NO_COLOR
 #
 define
-HB_NO_DRAW
-#
-define
 HB_NO_ERRNO
 #
 define
