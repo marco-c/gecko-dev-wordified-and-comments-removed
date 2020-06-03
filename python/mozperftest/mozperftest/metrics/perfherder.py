@@ -175,6 +175,43 @@ data
 "
         
 }
+        
+"
+stats
+"
+:
+{
+            
+"
+action
+"
+:
+"
+store_true
+"
+            
+"
+default
+"
+:
+False
+            
+"
+help
+"
+:
+"
+If
+set
+browsertime
+statistics
+will
+be
+reported
+.
+"
+        
+}
     
 }
     
@@ -333,6 +370,31 @@ output
 "
 )
         
+exclusions
+=
+None
+        
+if
+not
+self
+.
+get_arg
+(
+"
+stats
+"
+)
+:
+            
+exclusions
+=
+[
+"
+statistics
+.
+"
+]
+        
 results
 fullsettings
 =
@@ -340,8 +402,11 @@ filtered_metrics
 (
             
 metadata
+            
 output
+            
 prefix
+            
 metrics
 =
 self
@@ -352,9 +417,14 @@ get_arg
 metrics
 "
 )
+            
 settings
 =
 True
+            
+exclude
+=
+exclusions
         
 )
         
