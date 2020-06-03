@@ -77634,12 +77634,6 @@ NS_ERROR_UNEXPECTED
 ;
 }
 }
-const
-auto
-sqliteSuffix
-=
-kSQLiteSuffix
-;
 for
 (
 const
@@ -77791,7 +77785,7 @@ Append
 (
 databaseFilename
 +
-sqliteSuffix
+kSQLiteSuffix
 )
 ;
 if
@@ -79544,12 +79538,6 @@ return
 rv
 ;
 }
-const
-auto
-sqliteSuffix
-=
-kSQLiteSuffix
-;
 nsCOMPtr
 <
 nsIFile
@@ -79755,7 +79743,7 @@ if
 GetFilenameBase
 (
 leafName
-sqliteSuffix
+kSQLiteSuffix
 leafNameBase
 )
 )
