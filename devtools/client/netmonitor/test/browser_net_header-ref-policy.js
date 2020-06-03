@@ -151,7 +151,7 @@ wait
 const
 referrerPolicyIndex
 =
-4
+3
 ;
 const
 referrerPolicyHeader
@@ -203,6 +203,7 @@ textContent
 =
 "
 Referrer
+Policy
 "
 true
 '

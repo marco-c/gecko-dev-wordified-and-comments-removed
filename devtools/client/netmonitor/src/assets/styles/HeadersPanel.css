@@ -205,8 +205,9 @@ summary
 {
 padding
 :
-10px
-20px
+6px
+16px
+2px
 ;
 }
 .
@@ -895,10 +896,6 @@ wrap
 wrap
 ;
 padding
-:
-1px
-;
-padding
 -
 inline
 -
@@ -987,7 +984,7 @@ min
 -
 width
 :
-70px
+90px
 ;
 color
 :
@@ -1027,6 +1024,12 @@ inline
 start
 :
 3px
+;
+unicode
+-
+bidi
+:
+plaintext
 ;
 }
 .
