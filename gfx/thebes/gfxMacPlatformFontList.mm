@@ -369,6 +369,16 @@ BeginWriting
 (
 )
 )
+range
+:
+NSMakeRange
+(
+0
+[
+aSrc
+length
+]
+)
 ]
 ;
 }
