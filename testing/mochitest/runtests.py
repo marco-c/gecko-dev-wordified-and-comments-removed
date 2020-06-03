@@ -2840,17 +2840,6 @@ report_bugs
 0
 "
         
-env
-[
-"
-MOZ_DISABLE_SOCKET_PROCESS
-"
-]
-=
-"
-1
-"
-        
 if
 mozinfo
 .
