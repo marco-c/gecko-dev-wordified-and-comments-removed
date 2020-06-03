@@ -116,6 +116,9 @@ class
 PlaceholderTransaction
 ;
 class
+ReplaceTextTransaction
+;
+class
 SplitNodeTransaction
 ;
 #
@@ -276,6 +279,10 @@ JoinNodeTransaction
 NS_DECL_GETASTRANSACTION_BASE
 (
 PlaceholderTransaction
+)
+NS_DECL_GETASTRANSACTION_BASE
+(
+ReplaceTextTransaction
 )
 NS_DECL_GETASTRANSACTION_BASE
 (

@@ -300,6 +300,11 @@ PlaceholderTransaction
 cpp
 '
 '
+ReplaceTextTransaction
+.
+cpp
+'
+'
 SelectionState
 .
 cpp
