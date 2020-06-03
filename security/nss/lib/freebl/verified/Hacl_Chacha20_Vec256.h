@@ -75,7 +75,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -96,7 +96,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )

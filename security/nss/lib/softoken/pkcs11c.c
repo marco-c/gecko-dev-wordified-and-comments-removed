@@ -4798,6 +4798,9 @@ DES_DestroyContext
 ;
 break
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 case
 CKM_SEED_CBC_PAD
 :
@@ -4976,6 +4979,8 @@ SEED_DestroyContext
 ;
 break
 ;
+#
+endif
 case
 CKM_CAMELLIA_CBC_PAD
 :
@@ -10961,6 +10966,9 @@ blockSize
 ;
 break
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 case
 CKM_SEED_MAC_GENERAL
 :
@@ -11011,6 +11019,8 @@ blockSize
 ;
 break
 ;
+#
+endif
 case
 CKM_CAMELLIA_MAC_GENERAL
 :
@@ -19540,6 +19550,9 @@ key_length
 ;
 break
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 case
 CKM_SEED_KEY_GEN
 :
@@ -19555,6 +19568,8 @@ key_length
 ;
 break
 ;
+#
+endif
 case
 CKM_CAMELLIA_KEY_GEN
 :
@@ -20898,9 +20913,14 @@ CKM_RC4_KEY_GEN
 case
 CKM_GENERIC_SECRET_KEY_GEN
 :
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 case
 CKM_SEED_KEY_GEN
 :
+#
+endif
 case
 CKM_CAMELLIA_KEY_GEN
 :
@@ -35736,6 +35756,9 @@ PR_TRUE
 break
 ;
 }
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 case
 CKM_SEED_ECB_ENCRYPT_DATA
 :
@@ -35950,6 +35973,8 @@ PR_TRUE
 break
 ;
 }
+#
+endif
 case
 CKM_CONCATENATE_BASE_AND_KEY
 :

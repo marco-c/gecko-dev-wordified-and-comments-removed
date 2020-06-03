@@ -279,6 +279,9 @@ decrypted
 }
 }
 ;
+#
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
 TEST_F
 (
 Pkcs11SeedTest
@@ -351,4 +354,6 @@ CKM_SEED_ECB
 )
 ;
 }
+#
+endif
 }

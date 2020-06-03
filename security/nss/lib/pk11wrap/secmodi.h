@@ -628,11 +628,6 @@ PRBool
 faulty3DES
 )
 ;
-int
-secmod_GetSystemFIPSEnabled
-(
-)
-;
 extern
 void
 pk11sdr_Init

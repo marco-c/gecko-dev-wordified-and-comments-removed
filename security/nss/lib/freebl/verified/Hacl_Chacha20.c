@@ -5,6 +5,7 @@ Hacl_Chacha20
 .
 h
 "
+const
 uint32_t
 Hacl_Impl_Chacha20_Vec_chacha20_constants
 [
@@ -691,6 +692,7 @@ ctr_u32
 ;
 }
 static
+const
 uint32_t
 chacha20_constants
 [
@@ -729,7 +731,7 @@ uint8_t
 k
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -912,7 +914,7 @@ uint8_t
 *
 bj
 =
-n1
+n
 +
 i
 *
@@ -960,7 +962,7 @@ uint8_t
 *
 out
 uint32_t
-incr1
+incr
 uint8_t
 *
 text
@@ -980,7 +982,7 @@ chacha20_core
 (
 k
 ctx
-incr1
+incr
 )
 ;
 uint32_t
@@ -1163,7 +1165,7 @@ uint8_t
 *
 out
 uint32_t
-incr1
+incr
 uint8_t
 *
 text
@@ -1198,7 +1200,7 @@ chacha20_encrypt_block
 (
 ctx
 plain
-incr1
+incr
 plain
 )
 ;
@@ -1237,7 +1239,7 @@ text
 )
 {
 uint32_t
-rem1
+rem
 =
 len
 %
@@ -1257,7 +1259,7 @@ uint32_t
 64U
 ;
 uint32_t
-rem2
+rem1
 =
 len
 %
@@ -1310,7 +1312,7 @@ uint32_t
 }
 if
 (
-rem2
+rem1
 >
 (
 uint32_t
@@ -1321,7 +1323,7 @@ uint32_t
 chacha20_encrypt_last
 (
 ctx
-rem1
+rem
 out
 +
 nb
@@ -1359,7 +1361,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -1378,7 +1380,7 @@ chacha20_init
 (
 ctx
 key
-n1
+n
 ctr
 )
 ;
@@ -1407,7 +1409,7 @@ uint8_t
 key
 uint8_t
 *
-n1
+n
 uint32_t
 ctr
 )
@@ -1426,7 +1428,7 @@ chacha20_init
 (
 ctx
 key
-n1
+n
 ctr
 )
 ;

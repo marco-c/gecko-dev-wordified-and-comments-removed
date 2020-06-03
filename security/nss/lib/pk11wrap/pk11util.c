@@ -308,8 +308,8 @@ return
 SECSuccess
 ;
 }
-int
-secmod_GetSystemFIPSEnabled
+PRBool
+SECMOD_GetSystemFIPSEnabled
 (
 void
 )
@@ -356,7 +356,7 @@ f
 )
 {
 return
-0
+PR_FALSE
 ;
 }
 size
@@ -390,7 +390,7 @@ d
 )
 {
 return
-0
+PR_FALSE
 ;
 }
 if
@@ -404,7 +404,7 @@ d
 )
 {
 return
-1
+PR_TRUE
 ;
 }
 #
@@ -412,7 +412,7 @@ endif
 #
 endif
 return
-0
+PR_FALSE
 ;
 }
 SECMODModule
@@ -1629,7 +1629,7 @@ SECFailure
 ;
 if
 (
-secmod_GetSystemFIPSEnabled
+SECMOD_GetSystemFIPSEnabled
 (
 )
 |
@@ -3735,7 +3735,7 @@ NULL
 &
 &
 !
-secmod_GetSystemFIPSEnabled
+SECMOD_GetSystemFIPSEnabled
 (
 )
 )

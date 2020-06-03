@@ -772,10 +772,6 @@ tlsprfalg
 .
 c
 \
-seed
-.
-c
-\
 jpake
 .
 c
