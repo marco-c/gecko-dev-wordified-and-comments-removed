@@ -4037,6 +4037,17 @@ inner
 length
 ;
 }
+size_t
+Capacity
+(
+)
+{
+return
+inner
+.
+capacity
+;
+}
 Range
 <
 uint8_t

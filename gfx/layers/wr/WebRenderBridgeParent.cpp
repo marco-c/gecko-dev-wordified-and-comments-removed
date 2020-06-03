@@ -2310,7 +2310,7 @@ aLength
 >
 mVec
 .
-Length
+Capacity
 (
 )
 )
@@ -2323,7 +2323,7 @@ aLength
 -
 mVec
 .
-Length
+Capacity
 (
 )
 )
