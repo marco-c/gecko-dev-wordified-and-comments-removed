@@ -11,9 +11,6 @@ nsIURI
 interface
 nsIChannel
 ;
-interface
-nsIPrincipal
-;
 webidl
 Document
 ;
@@ -120,11 +117,11 @@ ACCEPT_SESSION
 2
 ;
 ACString
-getCookieStringForPrincipal
+getCookieStringFromDocument
 (
 in
-nsIPrincipal
-aPrincipal
+Document
+aDocument
 )
 ;
 ACString
