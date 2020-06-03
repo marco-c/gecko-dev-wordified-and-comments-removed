@@ -232,7 +232,7 @@ UrlbarUtils
 .
 PROVIDER_TYPE
 .
-IMMEDIATE
+HEURISTIC
 ;
 }
 isActive

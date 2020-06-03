@@ -1195,7 +1195,7 @@ UrlbarUtils
 .
 PROVIDER_TYPE
 .
-IMMEDIATE
+PROFILE
 ;
 }
 isActive
