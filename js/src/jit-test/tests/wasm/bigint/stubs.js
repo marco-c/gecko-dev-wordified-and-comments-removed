@@ -533,13 +533,6 @@ callffi3
 (
 )
 ;
-if
-(
-wasmBigIntEnabled
-(
-)
-)
-{
 (
 function
 testJitEntry
@@ -684,4 +677,3 @@ caller
 (
 )
 ;
-}

@@ -41,15 +41,6 @@ await
 -
 tier2
 ;
-skip
--
-if
-:
-!
-wasmBigIntEnabled
-(
-)
-;
 include
 :
 wasm

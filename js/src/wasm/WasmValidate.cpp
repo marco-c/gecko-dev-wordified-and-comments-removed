@@ -20556,14 +20556,6 @@ hugeMemory
 false
 ;
 bool
-bigIntConfigured
-=
-I64BigIntConversionAvailable
-(
-cx
-)
-;
-bool
 v128Configured
 =
 SimdAvailable
@@ -20594,7 +20586,6 @@ multiValueConfigured
 refTypesConfigured
 gcTypesConfigured
 hugeMemory
-bigIntConfigured
 v128Configured
 )
 ;

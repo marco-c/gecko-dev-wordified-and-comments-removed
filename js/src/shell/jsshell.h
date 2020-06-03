@@ -563,15 +563,6 @@ extern
 bool
 enableTestWasmAwaitTier2
 ;
-#
-ifdef
-ENABLE_WASM_BIGINT
-extern
-bool
-enableWasmBigInt
-;
-#
-endif
 extern
 bool
 enableSourcePragmas

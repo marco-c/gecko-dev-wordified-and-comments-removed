@@ -65,13 +65,6 @@ f
 }
 )
 ;
-if
-(
-wasmBigIntEnabled
-(
-)
-)
-{
 wasmFullPass
 (
 (
@@ -139,7 +132,6 @@ f
 }
 )
 ;
-}
 wasmFullPass
 (
 (
@@ -963,13 +955,6 @@ const
 ]
 )
 ;
-if
-(
-wasmBigIntEnabled
-(
-)
-)
-{
 expectMultiValueResult
 (
 (
@@ -1105,4 +1090,3 @@ const
 ]
 )
 ;
-}

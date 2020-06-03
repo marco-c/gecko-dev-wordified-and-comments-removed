@@ -180,14 +180,6 @@ cx
 )
 ;
 bool
-I64BigIntConversionAvailable
-(
-JSContext
-*
-cx
-)
-;
-bool
 ThreadsAvailable
 (
 JSContext
