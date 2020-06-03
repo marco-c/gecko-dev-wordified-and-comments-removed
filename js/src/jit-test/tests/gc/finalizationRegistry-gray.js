@@ -8,7 +8,7 @@ registry
 new
 FinalizationRegistry
 (
-iterator
+value
 =
 >
 undefined
