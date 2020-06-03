@@ -37,6 +37,13 @@ textNode
 .
 ]
 "
+enabled
+:
+"
+document
+"
+in
+globalThis
 load
 :
 N
