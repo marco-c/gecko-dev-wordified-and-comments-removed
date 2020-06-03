@@ -66,6 +66,7 @@ props
 }
 createMenu
 (
+contextMenuOptions
 )
 {
 const
@@ -78,6 +79,14 @@ enableAllBlockedUrls
 this
 .
 props
+;
+const
+{
+disableDisableAllBlockedUrls
+disableEnableAllBlockedUrls
+}
+=
+contextMenuOptions
 ;
 const
 menu
@@ -113,6 +122,9 @@ accesskey
 :
 "
 "
+disabled
+:
+disableEnableAllBlockedUrls
 visible
 :
 true
@@ -156,6 +168,9 @@ accesskey
 :
 "
 "
+disabled
+:
+disableDisableAllBlockedUrls
 visible
 :
 true
@@ -221,6 +236,7 @@ menu
 open
 (
 event
+contextMenuOptions
 )
 {
 const
@@ -230,6 +246,7 @@ this
 .
 createMenu
 (
+contextMenuOptions
 )
 ;
 showMenu
