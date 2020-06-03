@@ -5736,7 +5736,7 @@ funcref
 or
 \
 "
-anyref
+externref
 \
 "
 "

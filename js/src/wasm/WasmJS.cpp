@@ -3477,7 +3477,7 @@ for
 "
 non
 -
-anyref
+externref
 reference
 type
 "
@@ -13250,7 +13250,7 @@ StringEqualsLiteral
 (
 elementLinearStr
 "
-anyref
+externref
 "
 )
 )
@@ -15931,7 +15931,7 @@ StringEqualsLiteral
 (
 typeLinearStr
 "
-anyref
+externref
 "
 )
 )

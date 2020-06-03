@@ -3709,7 +3709,7 @@ Any
 :
 return
 "
-anyref
+externref
 "
 ;
 case
