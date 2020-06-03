@@ -248,11 +248,6 @@ path
 /
 "
 ;
-boolean
-secure
-=
-true
-;
 CookieSameSite
 sameSite
 =
