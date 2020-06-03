@@ -887,15 +887,6 @@ UpdateImage
 (
 aContainer
 0
-Some
-(
-mManager
--
->
-GetRenderRoot
-(
-)
-)
 )
 ;
 RefPtr

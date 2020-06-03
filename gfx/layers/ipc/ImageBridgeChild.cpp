@@ -1660,9 +1660,6 @@ Layer
 :
 :
 CONTENT_OPAQUE
-Nothing
-(
-)
 )
 ;
 EndTransaction

@@ -239,11 +239,6 @@ forget
 bool
 UpdateImage
 (
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 {
 if
@@ -316,10 +311,6 @@ UpdateImage
 (
 mImageContainer
 0
-Some
-(
-aRenderRoot
-)
 )
 ;
 }
