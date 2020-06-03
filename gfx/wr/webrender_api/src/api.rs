@@ -3528,10 +3528,6 @@ SimulateLongLowPrioritySceneBuild
 (
 u32
 )
-SetTransactionLogging
-(
-bool
-)
 SetPictureTileSize
 (
 Option

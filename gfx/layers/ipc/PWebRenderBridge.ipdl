@@ -528,13 +528,6 @@ ToggleCaptureSequence
 (
 )
 ;
-async
-SetTransactionLogging
-(
-bool
-aValue
-)
-;
 sync
 SyncWithCompositor
 (
