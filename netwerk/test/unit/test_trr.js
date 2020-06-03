@@ -5,6 +5,7 @@ strict
 ;
 const
 {
+NodeServer
 HttpServer
 }
 =
