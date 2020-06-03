@@ -15019,6 +15019,9 @@ break
 }
 #
 endif
+#
+ifdef
+ENABLE_WASM_REFTYPES
 case
 uint16_t
 (
@@ -15263,6 +15266,8 @@ i
 break
 ;
 }
+#
+endif
 case
 uint16_t
 (
