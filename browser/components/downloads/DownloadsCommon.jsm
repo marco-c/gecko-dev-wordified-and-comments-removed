@@ -1498,6 +1498,7 @@ async
 openDownload
 (
 download
+options
 )
 {
 if
@@ -1530,6 +1531,7 @@ download
 .
 launch
 (
+options
 )
 .
 catch
