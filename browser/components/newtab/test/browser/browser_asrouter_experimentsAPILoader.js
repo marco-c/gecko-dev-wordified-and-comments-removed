@@ -131,7 +131,6 @@ ratio
 1
 value
 :
-[
 {
 id
 :
@@ -507,7 +506,6 @@ targeting
 true
 "
 }
-]
 groups
 :
 [
