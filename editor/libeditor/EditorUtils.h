@@ -3483,6 +3483,15 @@ aContent
 ;
 }
 static
+bool
+IsContentPreformatted
+(
+nsIContent
+&
+aContent
+)
+;
+static
 void
 MaskString
 (

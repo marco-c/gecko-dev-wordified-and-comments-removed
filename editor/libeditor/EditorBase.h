@@ -5272,15 +5272,6 @@ CollapseSelectionToEnd
 (
 )
 ;
-static
-bool
-IsPreformatted
-(
-nsINode
-*
-aNode
-)
-;
 inline
 bool
 AllowsTransactionsToChangeSelection
