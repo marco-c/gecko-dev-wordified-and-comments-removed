@@ -11813,6 +11813,13 @@ mode
 )
 ;
 let
+inSocketProcess
+=
+mozinfo
+.
+socketprocess_networking
+;
+let
 [
 _
 ]
@@ -11856,7 +11863,8 @@ responseIP
 3
 .
 3
-true
+!
+inSocketProcess
 )
 ;
 await

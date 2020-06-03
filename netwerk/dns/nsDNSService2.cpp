@@ -6441,6 +6441,11 @@ mTrrService
 mTrrService
 -
 >
+mParentalControlEnabled
+=
+TRRService
+:
+:
 GetParentalControlEnabledInternal
 (
 )
