@@ -1851,6 +1851,14 @@ new_capacity
 ]
 )
 ;
+if
+(
+data_
+!
+=
+nullptr
+)
+{
 std
 :
 :
@@ -1874,6 +1882,7 @@ T
 )
 )
 ;
+}
 data_
 =
 std
