@@ -582,11 +582,6 @@ Flags
 mContains
 ;
 bool
-mIsHTMLElementInHTMLDocument
-:
-1
-;
-bool
 mIsInChromeDocument
 :
 1
