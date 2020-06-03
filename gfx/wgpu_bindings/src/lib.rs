@@ -1374,6 +1374,7 @@ C
 fn
 wgpu_compute_pass_destroy
 (
+mut
 pass
 :
 wgc
@@ -1390,7 +1391,7 @@ _
 =
 pass
 .
-into_vec
+invalidate
 (
 )
 ;
@@ -1463,6 +1464,7 @@ C
 fn
 wgpu_render_pass_destroy
 (
+mut
 pass
 :
 wgc
@@ -1479,7 +1481,7 @@ _
 =
 pass
 .
-into_vec
+invalidate
 (
 )
 ;
