@@ -237,9 +237,11 @@ env
 )
 ;
 await
-disableAccessibilityInspector
+closeTabToolboxAccessibility
 (
 env
+.
+tab
 )
 ;
 }
