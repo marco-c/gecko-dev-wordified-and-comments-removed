@@ -75,11 +75,13 @@ const
 DEVICES_URL
 =
 "
-http
+https
 :
 /
 /
-localhost
+example
+.
+com
 /
 devices
 "
