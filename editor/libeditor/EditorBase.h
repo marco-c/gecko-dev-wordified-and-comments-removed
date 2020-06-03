@@ -4715,6 +4715,7 @@ nsIContent
 *
 GetPreviousNode
 (
+const
 nsINode
 &
 aNode
@@ -4735,6 +4736,7 @@ nsIContent
 *
 GetPreviousElementOrText
 (
+const
 nsINode
 &
 aNode
@@ -4755,6 +4757,7 @@ nsIContent
 *
 GetPreviousEditableNode
 (
+const
 nsINode
 &
 aNode
@@ -4775,6 +4778,7 @@ nsIContent
 *
 GetPreviousNodeInBlock
 (
+const
 nsINode
 &
 aNode
@@ -4795,6 +4799,7 @@ nsIContent
 *
 GetPreviousElementOrTextInBlock
 (
+const
 nsINode
 &
 aNode
@@ -4815,6 +4820,7 @@ nsIContent
 *
 GetPreviousEditableNodeInBlock
 (
+const
 nsINode
 &
 aNode
@@ -5027,6 +5033,7 @@ nsIContent
 *
 GetNextNode
 (
+const
 nsINode
 &
 aNode
@@ -5047,6 +5054,7 @@ nsIContent
 *
 GetNextElementOrText
 (
+const
 nsINode
 &
 aNode
@@ -5067,6 +5075,7 @@ nsIContent
 *
 GetNextEditableNode
 (
+const
 nsINode
 &
 aNode
@@ -5087,6 +5096,7 @@ nsIContent
 *
 GetNextNodeInBlock
 (
+const
 nsINode
 &
 aNode
@@ -5107,6 +5117,7 @@ nsIContent
 *
 GetNextElementOrTextInBlock
 (
+const
 nsINode
 &
 aNode
@@ -5127,6 +5138,7 @@ nsIContent
 *
 GetNextEditableNodeInBlock
 (
+const
 nsINode
 &
 aNode
