@@ -1182,6 +1182,15 @@ WidgetWheelEvent
 aEvent
 )
 ;
+Action
+RecordTelemetryAndComputeActionFor
+(
+const
+WidgetWheelEvent
+*
+aEvent
+)
+;
 bool
 NeedToComputeLineOrPageDelta
 (
