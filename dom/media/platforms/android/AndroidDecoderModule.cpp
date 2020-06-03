@@ -1,7 +1,11 @@
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+HardwareCodecCapabilityUtilsWrappers
 .
 h
 "

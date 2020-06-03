@@ -739,15 +739,6 @@ generatedNamesToUnify
 add
 (
 "
-HardwareCodecCapabilityUtils
-"
-)
-;
-generatedNamesToUnify
-.
-add
-(
-"
 ImageDecoder
 "
 )
