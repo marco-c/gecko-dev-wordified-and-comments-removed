@@ -28,13 +28,6 @@ h
 #
 include
 "
-GeneratedJNIWrappers
-.
-h
-"
-#
-include
-"
 JavaCallbacksSupport
 .
 h
