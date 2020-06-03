@@ -1045,6 +1045,7 @@ cosmeticAnimations
 .
 enabled
 "
+true
 )
 )
 {
