@@ -2525,6 +2525,8 @@ extent
 .
 sourceEnd
 =
+end
+;
 extent
 .
 toStringEnd
