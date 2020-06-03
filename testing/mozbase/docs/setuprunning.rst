@@ -73,6 +73,7 @@ maxdepth
 :
 2
 mozfile
+mozgeckoprofiler
 mozinstall
 mozpower
 mozprofile
