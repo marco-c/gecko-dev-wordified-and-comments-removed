@@ -636,6 +636,17 @@ true
 #
 ifdef
 XP_WIN
+if
+(
+!
+xpc
+:
+:
+IsInAutomation
+(
+)
+)
+{
 QUERY_USER_NOTIFICATION_STATE
 qstate
 ;
@@ -663,6 +674,7 @@ result
 =
 false
 ;
+}
 }
 }
 #
