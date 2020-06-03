@@ -49,6 +49,11 @@ debugger
 [
 dependencies
 ]
+dirs
+=
+"
+2
+"
 rayon
 =
 "
@@ -267,13 +272,6 @@ dwrote
 0
 .
 11
-"
-dirs
-=
-"
-1
-.
-0
 "
 winapi
 =
