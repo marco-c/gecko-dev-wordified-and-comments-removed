@@ -671,11 +671,6 @@ data
 >
 UpdateCompositableClient
 (
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 nsIntSize

@@ -386,12 +386,6 @@ IsDirty
 ;
 UpdateCompositableClient
 (
-mManager
--
->
-GetRenderRoot
-(
-)
 )
 ;
 if

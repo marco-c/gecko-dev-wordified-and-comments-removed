@@ -1831,13 +1831,6 @@ GetCanvasClient
 >
 Updated
 (
-wr
-:
-:
-RenderRoot
-:
-:
-Default
 )
 ;
 EndTransaction
