@@ -1494,6 +1494,12 @@ tabInfo
 tab
 )
 ;
+gTabsPanel
+.
+init
+(
+)
+;
 let
 allTabsView
 =

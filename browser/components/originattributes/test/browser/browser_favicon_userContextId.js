@@ -1184,6 +1184,12 @@ clearAllImageCaches
 (
 )
 ;
+gTabsPanel
+.
+init
+(
+)
+;
 let
 allTabsView
 =
