@@ -1291,7 +1291,7 @@ long
 port
 ;
 DOMString
-relayProtocol
+protocol
 ;
 unsigned
 long

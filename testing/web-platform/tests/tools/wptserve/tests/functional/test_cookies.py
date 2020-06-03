@@ -49,11 +49,9 @@ response
 .
 set_cookie
 (
-b
 "
 name
 "
-b
 "
 value
 "
@@ -155,11 +153,9 @@ response
 .
 set_cookie
 (
-b
 "
 name
 "
-b
 "
 value
 "
@@ -169,7 +165,6 @@ response
 .
 unset_cookie
 (
-b
 "
 name
 "
@@ -262,7 +257,6 @@ response
 .
 delete_cookie
 (
-b
 "
 name
 "
@@ -412,7 +406,6 @@ request
 .
 cookies
 [
-b
 "
 name
 "

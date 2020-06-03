@@ -11,7 +11,7 @@ pycodestyle
 =
 2
 .
-6
+5
 .
 0
 pyflakes

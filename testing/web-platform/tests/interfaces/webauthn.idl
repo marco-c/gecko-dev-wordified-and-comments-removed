@@ -270,7 +270,7 @@ excludeCredentials
 AuthenticatorSelectionCriteria
 authenticatorSelection
 ;
-DOMString
+AttestationConveyancePreference
 attestation
 =
 "
@@ -377,9 +377,6 @@ indirect
 "
 "
 direct
-"
-"
-enterprise
 "
 }
 ;

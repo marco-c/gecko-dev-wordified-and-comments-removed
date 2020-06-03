@@ -122,7 +122,6 @@ POST
 .
 first
 (
-b
 "
 id
 "
@@ -133,7 +132,6 @@ POST
 .
 first
 (
-b
 "
 data
 "
@@ -173,7 +171,6 @@ GET
 .
 first
 (
-b
 "
 id
 "

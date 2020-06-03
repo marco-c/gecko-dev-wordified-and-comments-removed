@@ -787,8 +787,6 @@ Window
 ]
 interface
 XRLayer
-:
-EventTarget
 {
 }
 ;

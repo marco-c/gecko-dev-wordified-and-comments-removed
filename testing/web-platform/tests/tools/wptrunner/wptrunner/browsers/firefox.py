@@ -3360,7 +3360,6 @@ log
 "
         
 if
-b
 "
 GLib
 -

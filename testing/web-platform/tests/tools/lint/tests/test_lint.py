@@ -29,8 +29,8 @@ from
 .
 lint
 import
-filter_ignorelist_errors
-parse_ignorelist
+filter_whitelist_errors
+parse_whitelist
 lint
 create_parser
 _dummy_repo
@@ -93,12 +93,12 @@ wrapped
 kwargs
 )
 def
-test_filter_ignorelist_errors
+test_filter_whitelist_errors
 (
 )
 :
     
-ignorelist
+whitelist
 =
 {
         
@@ -141,7 +141,7 @@ None
     
 }
     
-ignorelist
+whitelist
 =
 {
 e
@@ -172,7 +172,7 @@ for
 e
 p
 in
-ignorelist
+whitelist
 .
 items
 (
@@ -201,9 +201,9 @@ html
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 ]
 )
@@ -217,9 +217,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 ]
 )
@@ -233,9 +233,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -258,9 +258,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -292,9 +292,9 @@ unfilteredfile
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -326,9 +326,9 @@ filteredfile
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -352,9 +352,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -378,9 +378,9 @@ filtered
     
 filtered
 =
-filter_ignorelist_errors
+filter_whitelist_errors
 (
-ignorelist
+whitelist
 [
 [
 '
@@ -412,7 +412,7 @@ unfilteredfile
 ]
 ]
 def
-test_parse_ignorelist
+test_parse_whitelist
 (
 )
 :
@@ -752,7 +752,7 @@ items
 )
 }
     
-expected_skipped
+expected_ignored
 =
 {
 os
@@ -786,9 +786,9 @@ png
 }
     
 data
-skipped_files
+ignored
 =
-parse_ignorelist
+parse_whitelist
 (
 input_buffer
 )
@@ -800,10 +800,10 @@ data
 expected_data
     
 assert
-skipped_files
+ignored
 =
 =
-expected_skipped
+expected_ignored
 def
 test_lint_no_files
 (
