@@ -759,6 +759,25 @@ get_url
 (
 )
     
+unittest
+.
+skip
+(
+"
+Bug
+1569928
+-
+Perma
+fails
+with
+content
+processes
+pre
+-
+started
+"
+)
+    
 def
 test_crash_content_process
 (
