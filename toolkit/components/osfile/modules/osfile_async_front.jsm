@@ -2191,7 +2191,7 @@ observer
 ;
 AsyncShutdown
 .
-webWorkersShutdown
+xpcomWillShutdown
 .
 addBlocker
 (
