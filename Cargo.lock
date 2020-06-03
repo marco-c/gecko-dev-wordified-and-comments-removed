@@ -33065,9 +33065,6 @@ cstr
 failure
 "
 "
-lazy_static
-"
-"
 libc
 "
 "
@@ -33086,6 +33083,9 @@ nserror
 "
 "
 nsstring
+"
+"
+once_cell
 "
 "
 rkv
