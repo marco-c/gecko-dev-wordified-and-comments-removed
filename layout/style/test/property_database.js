@@ -86374,6 +86374,14 @@ other_values
 /
 0
 "
+"
+auto
+1
+"
+"
+0
+auto
+"
 ]
 invalid_values
 :
