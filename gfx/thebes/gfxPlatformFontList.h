@@ -2378,6 +2378,10 @@ ForceGlobalReflow
 void
 RebuildLocalFonts
 (
+bool
+aForgetLocalFaces
+=
+false
 )
 ;
 void
