@@ -894,6 +894,11 @@ NotifyAllAndroidSurfaceTexturesDetatched
 (
 )
 ;
+void
+HandlePrepareForUse
+(
+)
+;
 size_t
 RendererCount
 (
@@ -966,11 +971,6 @@ base
 Thread
 *
 aThread
-)
-;
-void
-HandlePrepareForUse
-(
 )
 ;
 void

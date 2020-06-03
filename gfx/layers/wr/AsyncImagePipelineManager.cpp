@@ -1378,6 +1378,14 @@ aMaybeFastTxn
 )
 ;
 }
+wrTexture
+-
+>
+MaybeNofityForUse
+(
+aMaybeFastTxn
+)
+;
 Range
 <
 wr
