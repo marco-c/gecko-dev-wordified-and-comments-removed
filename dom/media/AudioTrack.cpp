@@ -5,17 +5,6 @@ mozilla
 /
 dom
 /
-AudioStreamTrack
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 AudioTrack
 .
 h
