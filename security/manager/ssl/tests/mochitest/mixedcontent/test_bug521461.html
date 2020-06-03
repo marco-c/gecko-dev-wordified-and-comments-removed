@@ -206,6 +206,7 @@ loadAsInsecure
 =
 true
 ;
+async
 function
 runTest
 (
@@ -247,10 +248,13 @@ window
 .
 setTimeout
 (
-function
+async
 (
 )
+=
+>
 {
+await
 isSecurityState
 (
 "
@@ -305,11 +309,13 @@ finish
 )
 ;
 }
+async
 function
 afterNavigationTest
 (
 )
 {
+await
 isSecurityState
 (
 "

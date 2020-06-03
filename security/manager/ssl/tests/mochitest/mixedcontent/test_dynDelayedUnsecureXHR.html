@@ -207,11 +207,13 @@ hasMixedActiveContent
 =
 true
 ;
+async
 function
 runTest
 (
 )
 {
+await
 isSecurityState
 (
 "
@@ -223,6 +225,7 @@ window
 .
 setTimeout
 (
+async
 (
 )
 =
@@ -293,6 +296,7 @@ request
 was
 sent
 synchronously
+await
 isSecurityState
 (
 "
@@ -329,11 +333,13 @@ finish
 )
 ;
 }
+async
 function
 afterNavigationTest
 (
 )
 {
+await
 isSecurityState
 (
 "

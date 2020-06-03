@@ -207,11 +207,13 @@ use
 strict
 "
 ;
+async
 function
 runTest
 (
 )
 {
+await
 isSecurityState
 (
 "
@@ -286,10 +288,13 @@ waitForSecurityState
 "
 broken
 "
-function
+async
 (
 )
+=
+>
 {
+await
 isSecurityState
 (
 "
@@ -321,6 +326,7 @@ finish
 )
 ;
 }
+async
 function
 afterNavigationTest
 (
@@ -374,6 +380,7 @@ again
 "
 )
 ;
+await
 isSecurityState
 (
 "
