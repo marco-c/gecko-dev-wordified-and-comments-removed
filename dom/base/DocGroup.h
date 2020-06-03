@@ -146,9 +146,11 @@ GetKey
 nsIPrincipal
 *
 aPrincipal
+bool
+aCrossOriginIsolated
 nsACString
 &
-aString
+aKey
 )
 ;
 bool
