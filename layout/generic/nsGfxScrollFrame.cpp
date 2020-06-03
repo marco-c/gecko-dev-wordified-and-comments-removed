@@ -4609,7 +4609,7 @@ listID
 aCurrentFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -11493,7 +11493,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -32548,7 +32548,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -33486,7 +33486,7 @@ childList
 aScrollbarFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

@@ -884,7 +884,7 @@ childList
 aParentBox
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

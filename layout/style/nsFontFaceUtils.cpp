@@ -885,7 +885,7 @@ childList
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

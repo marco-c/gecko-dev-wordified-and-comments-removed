@@ -4572,7 +4572,7 @@ AutoTArray
 ChildList
 4
 >
-GetChildLists
+ChildLists
 (
 )
 const

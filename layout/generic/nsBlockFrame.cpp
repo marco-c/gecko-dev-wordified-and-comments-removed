@@ -2731,7 +2731,7 @@ listID
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )

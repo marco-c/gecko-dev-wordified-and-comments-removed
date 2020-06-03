@@ -1200,7 +1200,7 @@ childList
 nsIFrame
 :
 :
-GetChildLists
+ChildLists
 (
 )
 )

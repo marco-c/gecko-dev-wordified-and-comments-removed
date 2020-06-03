@@ -3018,7 +3018,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -7200,7 +7200,7 @@ childList
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -30311,7 +30311,7 @@ childList
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -30433,7 +30433,7 @@ childList
 f
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -33747,7 +33747,7 @@ listID
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -41432,7 +41432,7 @@ childList
 aSubtreeRoot
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
@@ -42493,7 +42493,7 @@ childList
 aFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

@@ -6199,7 +6199,7 @@ childList
 aDirtyFrame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )

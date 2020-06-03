@@ -6015,7 +6015,7 @@ childList
 frame
 -
 >
-GetChildLists
+ChildLists
 (
 )
 )
