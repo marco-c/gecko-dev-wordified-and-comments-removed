@@ -3519,10 +3519,6 @@ preserve_frame_state
 =
 >
 {
-rebuild_scene
-=
-true
-;
 let
 built_display_list
 =
@@ -3575,6 +3571,10 @@ pipeline_id
 continue
 ;
 }
+rebuild_scene
+=
+true
+;
 scene
 .
 set_display_list
@@ -3632,6 +3632,17 @@ pipeline_id
 =
 >
 {
+if
+scene
+.
+root_pipeline_id
+!
+=
+Some
+(
+pipeline_id
+)
+{
 rebuild_scene
 =
 true
@@ -3643,6 +3654,7 @@ set_root_pipeline_id
 pipeline_id
 )
 ;
+}
 }
 SceneMsg
 :
