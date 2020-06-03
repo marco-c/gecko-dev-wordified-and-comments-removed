@@ -176,6 +176,7 @@ true
 )
 override
 ;
+virtual
 void
 OverrideBaseURI
 (
@@ -183,6 +184,7 @@ nsIURI
 *
 aNewBaseURI
 )
+override
 ;
 void
 GetCharset

@@ -145,9 +145,6 @@ ScriptLoader
 class
 Document
 ;
-class
-XMLStylesheetProcessingInstruction
-;
 }
 }
 nsresult
@@ -673,7 +670,7 @@ aParent
 nsINode
 *
 aBeforeThis
-XMLStylesheetProcessingInstruction
+nsIContent
 *
 aPINode
 )
