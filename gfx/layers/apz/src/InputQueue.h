@@ -309,6 +309,14 @@ bool
 aOnScrollbar
 )
 ;
+InputBlockState
+*
+GetBlockForId
+(
+uint64_t
+aInputBlockId
+)
+;
 private
 :
 ~
