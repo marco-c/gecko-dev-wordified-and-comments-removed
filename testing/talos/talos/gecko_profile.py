@@ -29,12 +29,10 @@ mozlog
 import
 get_proxy_logger
 from
-talos
-.
-profiler
+mozgeckoprofiler
 import
-symbolication
-profiling
+ProfileSymbolicator
+save_gecko_profile
 LOG
 =
 get_proxy_logger
@@ -521,9 +519,7 @@ symbolicate_profile
 profile
 )
             
-profiling
-.
-save_profile
+save_gecko_profile
 (
 profile
 profile_path
@@ -659,8 +655,6 @@ run
         
 symbolicator
 =
-symbolication
-.
 ProfileSymbolicator
 (
 {

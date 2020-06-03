@@ -63,6 +63,15 @@ editable
 /
 mozbase
 /
+mozgeckoprofiler
+-
+-
+editable
+.
+.
+/
+mozbase
+/
 mozhttpd
 -
 -

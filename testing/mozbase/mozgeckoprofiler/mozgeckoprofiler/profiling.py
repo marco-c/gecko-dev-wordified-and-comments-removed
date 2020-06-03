@@ -5,7 +5,7 @@ absolute_import
 import
 json
 def
-save_profile
+save_gecko_profile
 (
 profile
 filename

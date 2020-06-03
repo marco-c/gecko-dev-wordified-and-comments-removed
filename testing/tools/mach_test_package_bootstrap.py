@@ -70,6 +70,12 @@ mozfile
 '
 mozbase
 /
+mozgeckoprofile
+'
+    
+'
+mozbase
+/
 mozhttpd
 '
     

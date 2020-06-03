@@ -52,6 +52,15 @@ testing
 mozbase
 /
 mozhttpd
+mozgeckoprofiler
+.
+pth
+:
+testing
+/
+mozbase
+/
+mozgeckoprofiler
 mozinfo
 .
 pth

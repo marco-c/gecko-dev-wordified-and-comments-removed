@@ -33,10 +33,10 @@ logger
 import
 RaptorLogger
 from
-profiler
+mozgeckoprofiler
 import
-symbolication
-profiling
+ProfileSymbolicator
+save_gecko_profile
 here
 =
 os
@@ -540,9 +540,7 @@ symbolicate_profile
 profile
 )
             
-profiling
-.
-save_profile
+save_gecko_profile
 (
 profile
 profile_path
@@ -802,8 +800,6 @@ return
         
 symbolicator
 =
-symbolication
-.
 ProfileSymbolicator
 (
 {
