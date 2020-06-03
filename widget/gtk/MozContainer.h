@@ -31,11 +31,6 @@ include
 functional
 >
 #
-include
-<
-vector
->
-#
 define
 MOZ_CONTAINER_TYPE
 (
