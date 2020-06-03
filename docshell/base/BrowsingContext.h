@@ -2472,6 +2472,11 @@ mUseRemoteSubframes
 =
 false
 ;
+bool
+mHasSessionHistory
+=
+false
+;
 OriginAttributes
 mOriginAttributes
 ;
