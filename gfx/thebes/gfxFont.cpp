@@ -994,9 +994,6 @@ false
 )
 ;
 }
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 nsIEventTarget
 *
 target
@@ -1044,8 +1041,6 @@ gfxFontCache
 target
 )
 ;
-#
-endif
 }
 gfxFontCache
 :
