@@ -158,17 +158,6 @@ rv
 )
 ;
 }
-NS_IMPL_ADDREF
-(
-MediaResource
-)
-NS_IMPL_RELEASE_WITH_DESTROY
-(
-MediaResource
-Destroy
-(
-)
-)
 static
 const
 uint32_t
