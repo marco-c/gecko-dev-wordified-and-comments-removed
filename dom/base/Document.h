@@ -5741,6 +5741,11 @@ aNewState
 )
 ;
 void
+NotifyAbortedLoad
+(
+)
+;
+void
 ContentStateChanged
 (
 nsIContent
@@ -12996,6 +13001,11 @@ mHasWarnedAboutZoom
 ;
 bool
 mIsRunningExecCommand
+:
+1
+;
+bool
+mSetCompleteAfterDOMContentLoaded
 :
 1
 ;
