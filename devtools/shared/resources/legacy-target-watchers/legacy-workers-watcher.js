@@ -337,6 +337,15 @@ get
 targetFront
 )
 ;
+if
+(
+!
+existingTargets
+)
+{
+return
+;
+}
 for
 (
 const
