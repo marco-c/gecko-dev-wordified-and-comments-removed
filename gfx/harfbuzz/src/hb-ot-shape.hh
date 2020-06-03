@@ -54,7 +54,6 @@ int
 *
 coords
 unsigned
-int
 num_coords
 )
 {
@@ -271,6 +270,11 @@ false
 ;
 #
 endif
+bool
+has_vert
+:
+1
+;
 bool
 has_gpos_mark
 :

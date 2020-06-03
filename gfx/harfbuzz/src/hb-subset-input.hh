@@ -49,6 +49,10 @@ name_ids
 ;
 hb_set_t
 *
+name_languages
+;
+hb_set_t
+*
 drop_tables
 ;
 bool
@@ -59,6 +63,9 @@ desubroutinize
 ;
 bool
 retain_gids
+;
+bool
+name_legacy
 ;
 }
 ;
