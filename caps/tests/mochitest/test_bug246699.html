@@ -346,9 +346,12 @@ tryComponentsClasses
 return
 SpecialPowers
 .
-Components
+unwrap
+(
+SpecialPowers
 .
-classes
+Cc
+)
 [
 "
 mozilla
