@@ -343,6 +343,15 @@ signal
 dictionary
 NDEFScanOptions
 {
+USVString
+id
+;
+USVString
+recordType
+;
+USVString
+mediaType
+;
 AbortSignal
 ?
 signal
