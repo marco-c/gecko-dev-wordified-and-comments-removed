@@ -671,7 +671,7 @@ equal
 conn
 .
 schemaVersion
-11
+12
 )
 ;
 let
