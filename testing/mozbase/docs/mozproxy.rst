@@ -438,7 +438,7 @@ the
 certutils
 binary
 path
-frmo
+from
 the
 CI
 -

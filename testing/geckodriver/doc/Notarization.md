@@ -108,7 +108,7 @@ mitigating
 circumstances
 :
 *
-Vertification
+Verification
 problems
 only
 occur
