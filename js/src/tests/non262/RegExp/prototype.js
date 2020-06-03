@@ -17,6 +17,7 @@ test
 +
 "
 flags
+dotAll
 global
 ignoreCase
 multiline
