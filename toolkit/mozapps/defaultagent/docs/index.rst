@@ -297,9 +297,7 @@ register
 -
 task
 and
-unregister
--
-task
+uninstall
 )
 .
 The
@@ -324,10 +322,6 @@ also
 calls
 the
 agent
-with
-update
--
-task
 to
 update
 any

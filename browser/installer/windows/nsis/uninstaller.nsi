@@ -3421,9 +3421,7 @@ agent
 .
 exe
 "
-unregister
--
-task
+uninstall
 AppUserModelID
 '
 {
