@@ -119,16 +119,9 @@ SANDBOXED_STORAGE_ACCESS
 const
 unsigned
 long
-SANDBOXED_ALLOW_DOWNLOADS
-=
-0x10000
-;
-const
-unsigned
-long
 SANDBOX_ALL_FLAGS
 =
-0xFFFFFF
+0xFFFF
 ;
 #
 endif

@@ -7639,13 +7639,6 @@ document
 .
 hasValidTransientUserGestureActivation
 ;
-let
-triggeringSandboxFlags
-=
-document
-.
-sandboxFlags
-;
 if
 (
 !
@@ -7771,7 +7764,6 @@ loadFlags
 referrerInfo
 postData
 hasValidUserGestureActivation
-triggeringSandboxFlags
 }
 ;
 try

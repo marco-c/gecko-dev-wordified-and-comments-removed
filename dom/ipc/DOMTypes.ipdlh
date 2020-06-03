@@ -833,9 +833,6 @@ Csp
 MaybeDiscardedBrowsingContext
 SourceBrowsingContext
 ;
-uint32_t
-TriggeringSandboxFlags
-;
 nsCString
 ?
 OriginalURIString
