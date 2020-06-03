@@ -1184,14 +1184,6 @@ fileloc
 fileloc
 -
 >
-SetFollowLinks
-(
-false
-)
-;
-fileloc
--
->
 Exists
 (
 &

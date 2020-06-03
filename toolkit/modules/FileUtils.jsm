@@ -90,7 +90,6 @@ FileUtils_getFile
 (
 key
 pathArray
-followLinks
 )
 {
 var
@@ -114,7 +113,6 @@ pathArray
 length
 >
 1
-followLinks
 )
 ;
 file
@@ -143,7 +141,6 @@ FileUtils_getDir
 key
 pathArray
 shouldCreate
-followLinks
 )
 {
 var
@@ -232,19 +229,6 @@ ex
 ;
 }
 }
-}
-if
-(
-!
-followLinks
-)
-{
-dir
-.
-followLinks
-=
-false
-;
 }
 return
 dir
