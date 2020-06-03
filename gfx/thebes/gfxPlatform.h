@@ -1555,6 +1555,14 @@ GetCMSMode
 )
 ;
 static
+void
+SetCMSModeOverride
+(
+eCMSMode
+aMode
+)
+;
+static
 int
 GetRenderingIntent
 (
