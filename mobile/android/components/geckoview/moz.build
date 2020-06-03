@@ -101,6 +101,16 @@ GeckoViewStartup
 js
 '
 ]
+EXTRA_JS_MODULES
++
+=
+[
+'
+GeckoViewPrompter
+.
+jsm
+'
+]
 FINAL_LIBRARY
 =
 '
