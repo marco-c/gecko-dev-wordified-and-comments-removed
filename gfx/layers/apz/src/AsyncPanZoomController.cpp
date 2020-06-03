@@ -3614,7 +3614,7 @@ Metrics
 (
 )
 .
-CalculateCompositionBoundsInCssPixelsOfSurroundingContent
+CalculateCompositedSizeInCssPixels
 (
 )
 )
