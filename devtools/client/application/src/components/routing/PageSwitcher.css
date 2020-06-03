@@ -3,12 +3,6 @@ app
 -
 page
 {
-min
--
-height
-:
-100vh
-;
 padding
 :
 calc
@@ -47,6 +41,12 @@ user
 select
 :
 none
+;
+overflow
+-
+y
+:
+auto
 ;
 }
 .
