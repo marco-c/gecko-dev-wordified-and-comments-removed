@@ -6133,7 +6133,7 @@ mRow
 int32_t
 mColumn
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 CellIndexes
 (
 Element
@@ -6176,7 +6176,7 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Update
 (
@@ -6191,7 +6191,7 @@ ErrorResult
 aRv
 )
 ;
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 CellIndexes
 (
 HTMLEditor
@@ -6224,7 +6224,7 @@ aRv
 )
 ;
 }
-MOZ_CAN_RUN_SCRIPT_BOUNDARY
+MOZ_CAN_RUN_SCRIPT
 void
 Update
 (
@@ -6339,6 +6339,7 @@ mElement
 CellIndexes
 mIndexes
 ;
+MOZ_CAN_RUN_SCRIPT
 CellAndIndexes
 (
 HTMLEditor
@@ -6360,6 +6361,7 @@ aRv
 )
 ;
 }
+MOZ_CAN_RUN_SCRIPT
 void
 Update
 (
@@ -7793,6 +7795,7 @@ Element
 aCell
 )
 ;
+MOZ_CAN_RUN_SCRIPT
 nsresult
 GetCellContext
 (
