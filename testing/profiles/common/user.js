@@ -660,3 +660,15 @@ dummy
 "
 )
 ;
+user_pref
+(
+"
+browser
+.
+tabs
+.
+unloadOnLowMemory
+"
+false
+)
+;
