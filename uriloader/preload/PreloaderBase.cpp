@@ -811,6 +811,9 @@ aRequest
 {
 if
 (
+mChannel
+&
+&
 !
 SameCOMIdentity
 (
@@ -830,7 +833,7 @@ httpChannel
 =
 do_QueryInterface
 (
-mChannel
+aRequest
 )
 ;
 if
