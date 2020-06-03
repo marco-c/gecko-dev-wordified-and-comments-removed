@@ -32,13 +32,6 @@ h
 #
 include
 "
-nsIEventTarget
-.
-h
-"
-#
-include
-"
 nsIInputStreamPump
 .
 h
@@ -405,12 +398,6 @@ mJarEntry
 ;
 nsCString
 mInnerJarEntry
-;
-nsCOMPtr
-<
-nsIEventTarget
->
-mWorker
 ;
 }
 ;
