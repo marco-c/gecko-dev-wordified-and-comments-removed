@@ -3658,7 +3658,9 @@ SUBPIXEL_BGR
 )
 font
 .
-texture_padding
+use_texture_padding
+(
+)
 )
 ;
 let
@@ -3821,7 +3823,9 @@ padding
 if
 font
 .
-texture_padding
+use_texture_padding
+(
+)
 {
 1
 }
