@@ -29015,7 +29015,6 @@ target
 lastProperty
 (
 )
-Bailout_ShapeGuard
 )
 ;
 MOZ_ASSERT
@@ -54533,7 +54532,6 @@ addShapeGuard
 (
 globalObj
 globalShape
-Bailout_ShapeGuard
 )
 ;
 }
@@ -54621,7 +54619,6 @@ foundProto
 lastProperty
 (
 )
-Bailout_ShapeGuard
 )
 ;
 return
@@ -58051,7 +58048,6 @@ addShapeGuard
 (
 obj
 holderShape
-Bailout_ShapeGuard
 )
 ;
 }
@@ -58072,7 +58068,6 @@ addShapeGuard
 (
 holderDef
 holderShape
-Bailout_ShapeGuard
 )
 ;
 return
@@ -59271,7 +59266,6 @@ receivers
 getShape
 (
 )
-Bailout_ShapeGuard
 )
 ;
 Shape
@@ -59790,7 +59784,6 @@ addShapeGuard
 (
 holderDef
 holderShape
-Bailout_ShapeGuard
 )
 ;
 Shape
@@ -62143,7 +62136,6 @@ receivers
 getShape
 (
 )
-Bailout_ShapeGuard
 )
 ;
 Shape
@@ -67814,7 +67806,6 @@ addShapeGuard
 (
 rhs
 shape
-Bailout_ShapeGuard
 )
 ;
 MOZ_ASSERT
@@ -69367,8 +69358,6 @@ Shape
 *
 const
 shape
-BailoutKind
-bailoutKind
 )
 {
 MGuardShape
@@ -69385,7 +69374,6 @@ alloc
 )
 obj
 shape
-bailoutKind
 )
 ;
 current
@@ -69565,7 +69553,6 @@ receivers
 getShape
 (
 )
-Bailout_ShapeGuard
 )
 ;
 }

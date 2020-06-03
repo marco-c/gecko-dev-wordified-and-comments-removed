@@ -1207,8 +1207,6 @@ Shape
 *
 const
 shape
-BailoutKind
-bailoutKind
 )
 ;
 MInstruction
