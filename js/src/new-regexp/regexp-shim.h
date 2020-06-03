@@ -4369,6 +4369,7 @@ regexp
 ;
 }
 static
+constexpr
 int
 RegistersForCaptureCount
 (
@@ -4409,10 +4410,14 @@ constexpr
 int
 kMaxCaptures
 =
+(
 1
 <
 <
-16
+15
+)
+-
+1
 ;
 enum
 Flag
