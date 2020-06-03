@@ -35,6 +35,13 @@ mod
 sync
 ;
 pub
+use
+sync
+:
+:
+STORAGE_VERSION
+;
+pub
 fn
 delme_demo_usage
 (
@@ -140,13 +147,6 @@ ext
 -
 id
 "
-)
-?
-;
-store
-.
-wipe_all
-(
 )
 ?
 ;
