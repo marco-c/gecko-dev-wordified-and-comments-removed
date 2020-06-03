@@ -1464,7 +1464,7 @@ nsContentUtils
 :
 eNECKO_PROPERTIES
 "
-CookieAllowedForTrackerByHeuristic
+CookieAllowedForOriginByHeuristic
 "
 params
 errorText

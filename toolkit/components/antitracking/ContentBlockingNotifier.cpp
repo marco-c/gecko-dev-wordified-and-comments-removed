@@ -394,7 +394,7 @@ eStorageAccessAPI
 messageWithSameOrigin
 =
 "
-CookieAllowedForTrackerByStorageAccessAPI
+CookieAllowedForOriginByStorageAccessAPI
 "
 ;
 break
@@ -420,7 +420,7 @@ eOpener
 messageWithSameOrigin
 =
 "
-CookieAllowedForTrackerByHeuristic
+CookieAllowedForOriginByHeuristic
 "
 ;
 break
