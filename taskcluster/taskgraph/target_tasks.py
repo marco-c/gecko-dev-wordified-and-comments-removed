@@ -260,6 +260,31 @@ build
         
 )
 def
+filter_out_devedition
+(
+task
+parameters
+)
+:
+    
+return
+not
+task
+.
+attributes
+.
+get
+(
+'
+shipping_product
+'
+)
+=
+=
+'
+devedition
+'
+def
 filter_out_cron
 (
 task
@@ -1527,6 +1552,13 @@ parameters
             
 and
 filter_out_nightly
+(
+t
+parameters
+)
+            
+and
+filter_out_devedition
 (
 t
 parameters
