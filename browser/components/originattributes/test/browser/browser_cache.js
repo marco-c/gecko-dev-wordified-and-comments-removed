@@ -702,6 +702,16 @@ prefetch
 "
 false
 ]
+[
+"
+privacy
+.
+partition
+.
+network_state
+"
+false
+]
 ]
 }
 )
