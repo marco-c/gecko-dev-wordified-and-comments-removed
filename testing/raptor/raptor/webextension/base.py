@@ -397,15 +397,6 @@ test
 gen_test_config
 (
             
-self
-.
-config
-[
-"
-app
-"
-]
-            
 test
 [
 "

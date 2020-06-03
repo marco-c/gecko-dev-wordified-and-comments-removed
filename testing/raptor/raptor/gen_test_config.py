@@ -97,16 +97,6 @@ return
 {
     
 "
-browser
-"
-:
-"
-{
-browser
-}
-"
-    
-"
 cs_port
 "
 :
@@ -213,7 +203,6 @@ browser_cycle
 def
 gen_test_config
 (
-browser
 test
 cs_port
 post_startup_delay
@@ -309,10 +298,6 @@ format
 benchmark_port
 =
 b_port
-        
-browser
-=
-browser
         
 browser_cycle
 =
