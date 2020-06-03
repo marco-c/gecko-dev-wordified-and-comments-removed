@@ -178,9 +178,6 @@ tests
 jsshell
 -
 bench
-marionette
--
-test
 mochitest
 mozharness
 pastebin
