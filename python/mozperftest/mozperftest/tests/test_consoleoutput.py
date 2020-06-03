@@ -1,6 +1,4 @@
 import
-os
-import
 mozunit
 import
 mock
@@ -14,6 +12,7 @@ import
 EXAMPLE_TEST
 get_running_env
 temp_dir
+BT_DATA
 from
 mozperftest
 .
@@ -26,16 +25,6 @@ mozperftest
 utils
 import
 silence
-HERE
-=
-os
-.
-path
-.
-dirname
-(
-__file__
-)
 mock
 .
 patch
@@ -157,27 +146,6 @@ EXAMPLE_TEST
 ]
 )
         
-bt_res
-=
-os
-.
-path
-.
-join
-(
-HERE
-"
-browsertime
--
-results
-"
-"
-browsertime
-.
-json
-"
-)
-        
 res
 =
 {
@@ -193,7 +161,10 @@ results
 "
 :
 [
-bt_res
+str
+(
+BT_DATA
+)
 ]
 }
         
