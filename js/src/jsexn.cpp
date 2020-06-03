@@ -123,6 +123,15 @@ include
 "
 js
 /
+ErrorReport
+.
+h
+"
+#
+include
+"
+js
+/
 Exception
 .
 h
@@ -1536,6 +1545,9 @@ isSelfHostingRealm
 )
 )
 {
+JS
+:
+:
 PrintError
 (
 cx

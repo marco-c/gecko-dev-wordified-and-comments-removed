@@ -2276,8 +2276,9 @@ file
 )
 ;
 }
+JS_PUBLIC_API
 void
-js
+JS
 :
 :
 PrintError
