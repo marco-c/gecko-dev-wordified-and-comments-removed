@@ -353,7 +353,7 @@ Math
 min
 (
 aSampleCount
-100000
+120000
 )
 ;
 mSamples
