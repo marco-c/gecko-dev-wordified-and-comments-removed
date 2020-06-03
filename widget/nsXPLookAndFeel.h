@@ -436,12 +436,6 @@ char
 prefName
 )
 ;
-static
-void
-NotifyPrefChanged
-(
-)
-;
 void
 InitFromPref
 (

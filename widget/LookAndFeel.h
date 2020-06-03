@@ -548,6 +548,12 @@ LookAndFeelInt
 aLookAndFeelIntCache
 )
 ;
+static
+void
+NotifyChangedAllWindows
+(
+)
+;
 }
 ;
 }
