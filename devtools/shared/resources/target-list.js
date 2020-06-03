@@ -388,6 +388,12 @@ listenForWorkers
 =
 false
 ;
+this
+.
+listenForServiceWorkers
+=
+false
+;
 }
 async
 _onTargetAvailable
@@ -730,7 +736,7 @@ if
 (
 this
 .
-listenForWorkers
+listenForServiceWorkers
 &
 &
 !
