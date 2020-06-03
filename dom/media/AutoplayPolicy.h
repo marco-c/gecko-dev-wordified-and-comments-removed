@@ -67,6 +67,15 @@ AudioContext
 aContext
 )
 ;
+static
+uint32_t
+GetSiteAutoplayPermission
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 }
 ;
 class

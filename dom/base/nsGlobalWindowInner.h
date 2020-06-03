@@ -7058,6 +7058,11 @@ FireFrameLoadEvent
 (
 )
 ;
+void
+UpdateAutoplayPermission
+(
+)
+;
 public
 :
 virtual
