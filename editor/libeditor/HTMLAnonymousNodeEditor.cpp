@@ -913,7 +913,7 @@ newNativeAnonymousContent
 )
 ;
 }
-ElementDeletionObserver
+auto
 *
 observer
 =

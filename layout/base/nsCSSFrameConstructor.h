@@ -2860,10 +2860,6 @@ mIsGeneratedContent
 (
 false
 )
-mIsAnonymousContentCreatorContent
-(
-false
-)
 mIsRootPopupgroup
 (
 false
@@ -3046,11 +3042,6 @@ mIsText
 ;
 bool
 mIsGeneratedContent
-:
-1
-;
-bool
-mIsAnonymousContentCreatorContent
 :
 1
 ;
