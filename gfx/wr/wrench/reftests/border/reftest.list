@@ -462,6 +462,11 @@ crash
 ref
 .
 yaml
+fuzzy
+(
+1
+5000
+)
 =
 =
 border
