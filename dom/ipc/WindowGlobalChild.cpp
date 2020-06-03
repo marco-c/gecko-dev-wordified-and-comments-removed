@@ -2739,7 +2739,7 @@ IPCResult
 WindowGlobalChild
 :
 :
-RecvSaveStorageAccessGranted
+RecvSaveStorageAccessPermissionGranted
 (
 )
 {
