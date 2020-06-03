@@ -7977,6 +7977,15 @@ JS_TELEMETRY_GC_BUDGET_MS
 budget_ms
 )
 ;
+runtime
+-
+>
+addTelemetry
+(
+JS_TELEMETRY_GC_BUDGET_MS_2
+budget_ms
+)
+;
 if
 (
 IsCurrentlyAnimating
