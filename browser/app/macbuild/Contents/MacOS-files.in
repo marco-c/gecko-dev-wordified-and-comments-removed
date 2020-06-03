@@ -91,10 +91,6 @@ pk12util
 /
 ssltunnel
 /
-webrtc
--
-gtest
-/
 xpcshell
 /
 XUL

@@ -254,9 +254,6 @@ webidl
 parser
 -
 test
-webrtc
--
-gtest
 wpt
 wpt
 -
