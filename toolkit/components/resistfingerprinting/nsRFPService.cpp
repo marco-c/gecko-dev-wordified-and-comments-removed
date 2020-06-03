@@ -2612,17 +2612,6 @@ cpp
 }
 #
 endif
-if
-(
-firefoxVersion
-<
-78
-)
-{
-return
-68
-;
-}
 uint32_t
 spoofedVersion
 =
