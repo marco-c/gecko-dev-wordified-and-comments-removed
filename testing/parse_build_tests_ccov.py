@@ -278,8 +278,6 @@ grcov_command
 -
 -
 ignore
--
-dir
 '
 os
 .

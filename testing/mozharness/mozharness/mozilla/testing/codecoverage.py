@@ -1981,8 +1981,6 @@ prefix
 -
 -
 ignore
--
-dir
 '
 '
 gcc
@@ -1993,8 +1991,6 @@ gcc
 -
 -
 ignore
--
-dir
 '
 '
 vs2017_
