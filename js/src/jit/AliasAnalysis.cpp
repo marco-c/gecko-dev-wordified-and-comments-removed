@@ -673,6 +673,15 @@ MDefinition
 Opcode
 :
 :
+StoreDataViewElement
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 SetInitializedLength
 :
 case

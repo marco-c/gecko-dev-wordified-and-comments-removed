@@ -5543,7 +5543,7 @@ fun_getBigUint64
 0
 DataViewGetBigUint64
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setInt8
@@ -5554,8 +5554,9 @@ DataViewObject
 fun_setInt8
 2
 0
+DataViewSetInt8
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setUint8
@@ -5566,8 +5567,9 @@ DataViewObject
 fun_setUint8
 2
 0
+DataViewSetUint8
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setInt16
@@ -5578,8 +5580,9 @@ DataViewObject
 fun_setInt16
 2
 0
+DataViewSetInt16
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setUint16
@@ -5590,8 +5593,9 @@ DataViewObject
 fun_setUint16
 2
 0
+DataViewSetUint16
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setInt32
@@ -5602,8 +5606,9 @@ DataViewObject
 fun_setInt32
 2
 0
+DataViewSetInt32
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setUint32
@@ -5614,8 +5619,9 @@ DataViewObject
 fun_setUint32
 2
 0
+DataViewSetUint32
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setFloat32
@@ -5626,8 +5632,9 @@ DataViewObject
 fun_setFloat32
 2
 0
+DataViewSetFloat32
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setFloat64
@@ -5638,8 +5645,9 @@ DataViewObject
 fun_setFloat64
 2
 0
+DataViewSetFloat64
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setBigInt64
@@ -5650,8 +5658,9 @@ DataViewObject
 fun_setBigInt64
 2
 0
+DataViewSetBigInt64
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 setBigUint64
@@ -5662,6 +5671,7 @@ DataViewObject
 fun_setBigUint64
 2
 0
+DataViewSetBigUint64
 )
 JS_FS_END
 }
