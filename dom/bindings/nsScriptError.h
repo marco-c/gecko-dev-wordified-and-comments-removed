@@ -272,6 +272,9 @@ mIsFromPrivateWindow
 bool
 mIsFromChromeContext
 ;
+bool
+mIsPromiseRejection
+;
 }
 ;
 class

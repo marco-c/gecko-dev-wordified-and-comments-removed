@@ -3150,6 +3150,13 @@ innerWindowID
 ;
 }
 }
+xpcReport
+-
+>
+mIsPromiseRejection
+=
+true
+;
 RefPtr
 <
 AsyncErrorReporter
