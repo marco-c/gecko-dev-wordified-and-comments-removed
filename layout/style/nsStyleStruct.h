@@ -3292,7 +3292,10 @@ mGridAutoColumns
 StyleImplicitGridTracks
 mGridAutoRows
 ;
-float
+mozilla
+:
+:
+StyleAspectRatio
 mAspectRatio
 ;
 mozilla

@@ -5604,9 +5604,12 @@ Auto
 )
 mAspectRatio
 (
-0
-.
-0f
+StyleAspectRatio
+:
+:
+Auto
+(
+)
 )
 mGridAutoFlow
 (

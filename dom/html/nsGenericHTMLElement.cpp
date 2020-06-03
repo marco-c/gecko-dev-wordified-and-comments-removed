@@ -7590,12 +7590,10 @@ h
 {
 aDecls
 .
-SetNumberValue
+SetAspectRatio
 (
-eCSSProperty_aspect_ratio
 *
 w
-/
 *
 h
 )

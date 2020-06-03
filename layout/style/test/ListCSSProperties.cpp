@@ -316,11 +316,6 @@ text
 zoom
 "
 "
-aspect
--
-ratio
-"
-"
 -
 moz
 -
