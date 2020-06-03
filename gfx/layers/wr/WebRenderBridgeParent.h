@@ -2296,13 +2296,6 @@ wr
 TransactionBuilder
 &
 aTxnForImageBridge
-const
-wr
-:
-:
-RenderRoot
-&
-aRenderRoot
 )
 ;
 void
