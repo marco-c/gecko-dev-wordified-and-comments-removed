@@ -78,26 +78,6 @@ not
 v
 .
 conditions
-                
-or
-getattr
-(
-v
-.
-conditions
-[
-0
-]
-'
-__name__
-'
-None
-)
-!
-=
-'
-REMOVED
-'
 )
     
 Command
