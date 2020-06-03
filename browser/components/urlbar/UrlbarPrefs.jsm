@@ -308,6 +308,14 @@ false
 ]
 [
 "
+suggest
+.
+topsites
+"
+true
+]
+[
+"
 switchTabs
 .
 adoptIntoActiveWindow
