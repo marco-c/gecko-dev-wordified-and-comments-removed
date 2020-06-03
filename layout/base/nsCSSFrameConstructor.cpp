@@ -24215,7 +24215,7 @@ aFlags
 }
 aItems
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
 !
 iter
@@ -25301,7 +25301,7 @@ List
 )
 -
 >
-ParentHasNoXBLChildren
+ParentHasNoShadowDOM
 (
 )
 &
@@ -30346,7 +30346,7 @@ mContainer
 ;
 const
 bool
-haveNoXBLChildren
+haveNoShadowDOM
 =
 !
 iter
@@ -30388,7 +30388,7 @@ frameType
 eTypeBlock
 &
 &
-haveNoXBLChildren
+haveNoShadowDOM
 )
 {
 AddTextItemIfNeeded
@@ -30545,9 +30545,9 @@ IsInlineOutside
 }
 items
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
-haveNoXBLChildren
+haveNoShadowDOM
 )
 ;
 nsFrameList
@@ -31911,8 +31911,9 @@ insertion
 mContainer
 )
 ;
+const
 bool
-haveNoXBLChildren
+haveNoShadowDOM
 =
 !
 iter
@@ -31945,7 +31946,7 @@ parentType
 eTypeBlock
 &
 &
-haveNoXBLChildren
+haveNoShadowDOM
 )
 {
 AddTextItemIfNeeded
@@ -32029,7 +32030,7 @@ parentType
 eTypeBlock
 &
 &
-haveNoXBLChildren
+haveNoShadowDOM
 )
 {
 AddTextItemIfNeeded
@@ -39470,11 +39471,11 @@ newItem
 >
 mChildItems
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
 aItems
 .
-ParentHasNoXBLChildren
+ParentHasNoShadowDOM
 (
 )
 )
@@ -41277,7 +41278,7 @@ newItem
 >
 mChildItems
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
 aIter
 .
@@ -41286,7 +41287,7 @@ List
 )
 -
 >
-ParentHasNoXBLChildren
+ParentHasNoShadowDOM
 (
 )
 )
@@ -41489,7 +41490,7 @@ newItem
 >
 mChildItems
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
 true
 )
@@ -42724,7 +42725,7 @@ GetNextSibling
 }
 itemsToConstruct
 .
-SetParentHasNoXBLChildren
+SetParentHasNoShadowDOM
 (
 !
 iter

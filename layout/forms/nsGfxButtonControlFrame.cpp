@@ -420,10 +420,7 @@ nsString
 aLabel
 )
 {
-dom
-:
-:
-HTMLInputElement
+auto
 *
 elt
 =
@@ -448,7 +445,6 @@ elt
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
