@@ -127,7 +127,7 @@ version
 .
 1
 .
-6
+9
 "
 authors
 =
@@ -229,13 +229,13 @@ internationalization
 license
 =
 "
-MIT
-/
 Apache
 -
 2
 .
 0
+OR
+MIT
 "
 repository
 =
