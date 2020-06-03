@@ -124,7 +124,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 /
 opt
 -
@@ -134,7 +134,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 /
 opt
 job

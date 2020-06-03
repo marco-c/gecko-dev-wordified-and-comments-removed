@@ -5256,7 +5256,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 /
 opt
 :
@@ -5267,7 +5267,9 @@ Linux64
 Opt
 ASAN
 Reporter
-Nightly
+(
+Shippable
+)
 "
 attributes
 :

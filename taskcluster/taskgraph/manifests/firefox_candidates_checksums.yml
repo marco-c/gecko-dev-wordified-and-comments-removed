@@ -537,7 +537,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux
@@ -618,7 +618,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64

@@ -5285,7 +5285,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 /
 opt
 :
@@ -5296,7 +5296,9 @@ Win64
 Opt
 ASAN
 Reporter
-Nightly
+(
+Shippable
+)
 "
 attributes
 :

@@ -541,7 +541,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux
@@ -622,7 +622,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64
@@ -657,7 +657,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux64
@@ -750,7 +750,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64
@@ -1217,7 +1217,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 -
 win64
 -
@@ -1225,7 +1225,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 target
 .
 json
@@ -2130,7 +2130,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 -
 win64
 -
@@ -2138,7 +2138,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 target
 .
 langpack
@@ -2222,7 +2222,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 -
 linux64
 -
@@ -2230,7 +2230,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 pretty_name
 :
 firefox
@@ -2388,7 +2388,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 destinations
 :
 -
@@ -2484,7 +2484,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 destinations
 :
 -
@@ -2569,7 +2569,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 pretty_name
 :
 firefox
@@ -2723,7 +2723,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 pretty_name
 :
 firefox
@@ -3156,7 +3156,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 pretty_name
 :
 firefox
@@ -3243,7 +3243,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 pretty_name
 :
 firefox

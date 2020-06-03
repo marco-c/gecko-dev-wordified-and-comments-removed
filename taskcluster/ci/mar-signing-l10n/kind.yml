@@ -152,7 +152,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 /
 opt
 -

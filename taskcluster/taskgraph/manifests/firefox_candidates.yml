@@ -559,7 +559,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux
@@ -640,7 +640,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64
@@ -693,7 +693,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux
@@ -782,7 +782,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64
@@ -831,7 +831,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 linux
@@ -908,7 +908,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 :
 '
 win64

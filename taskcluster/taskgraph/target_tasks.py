@@ -4736,7 +4736,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 '
         
 '
@@ -4746,7 +4746,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 '
     
 }
