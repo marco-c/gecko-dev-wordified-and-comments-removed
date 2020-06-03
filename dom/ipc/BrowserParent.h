@@ -2316,6 +2316,9 @@ LoadURL
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 ;
 void

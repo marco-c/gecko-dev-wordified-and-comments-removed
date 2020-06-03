@@ -60,6 +60,13 @@ h
 #
 include
 "
+nsIPrincipal
+.
+h
+"
+#
+include
+"
 nsISupports
 .
 h
@@ -208,6 +215,9 @@ LoadURL
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 )
 =
 0
