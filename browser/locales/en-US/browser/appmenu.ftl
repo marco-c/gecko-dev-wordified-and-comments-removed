@@ -67,6 +67,16 @@ title
 =
 Protections
 Dashboard
+appmenuitem
+-
+customize
+-
+mode
+=
+.
+label
+=
+Customize
 #
 #
 Zoom
