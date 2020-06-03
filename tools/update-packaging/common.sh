@@ -152,6 +152,9 @@ Fisher
 -
 -
 -
+QUIET
+=
+0
 #
 By
 default
@@ -512,6 +515,25 @@ echo
 &
 2
 }
+verbose_notice
+(
+)
+{
+if
+[
+QUIET
+-
+eq
+0
+]
+;
+then
+notice
+"
+*
+"
+fi
+}
 get_file_size
 (
 )
@@ -785,7 +807,7 @@ extensions
 /
 '
 )
-notice
+verbose_notice
 "
 add
 -
@@ -855,7 +877,7 @@ filev3
 "
 fi
 else
-notice
+verbose_notice
 "
 add
 \
@@ -1047,7 +1069,7 @@ filev3
 "
 2
 "
-notice
+verbose_notice
 "
 add
 -
@@ -1199,7 +1221,7 @@ extensions
 /
 '
 )
-notice
+verbose_notice
 "
 patch
 -
@@ -1279,7 +1301,7 @@ f
 filev3
 "
 else
-notice
+verbose_notice
 "
 patch
 \
@@ -1593,7 +1615,7 @@ c
 ]
 ;
 then
-notice
+verbose_notice
 "
 rmdir
 \
@@ -1677,7 +1699,7 @@ s
 :
 '
 )
-notice
+verbose_notice
 "
 rmrfdir
 \
@@ -1715,7 +1737,7 @@ f
 filev3
 "
 else
-notice
+verbose_notice
 "
 remove
 \

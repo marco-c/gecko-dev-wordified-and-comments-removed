@@ -251,6 +251,14 @@ update
 "
 notice
 "
+-
+q
+be
+less
+verbose
+"
+notice
+"
 "
 }
 check_for_forced_update
@@ -517,7 +525,7 @@ firefox
 while
 getopts
 "
-hf
+hqf
 :
 "
 flag
@@ -533,6 +541,13 @@ print_usage
 ;
 exit
 0
+;
+;
+q
+)
+QUIET
+=
+1
 ;
 ;
 f
@@ -1317,7 +1332,7 @@ p
 "
 dir
 "
-notice
+verbose_notice
 "
 diffing
 \
@@ -1593,7 +1608,7 @@ bz2
 "
 ;
 then
-notice
+verbose_notice
 "
 file
 \
@@ -1699,7 +1714,7 @@ xz
 "
 ;
 then
-notice
+verbose_notice
 "
 file
 \
@@ -2314,7 +2329,7 @@ i
 ]
 }
 "
-notice
+verbose_notice
 "
 remove
 \
@@ -2469,7 +2484,7 @@ f
 ]
 ;
 then
-notice
+verbose_notice
 "
 rmdir
 f
