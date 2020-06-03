@@ -1231,6 +1231,14 @@ SetHttpsOnlyStatus
 httpsOnlyStatus
 )
 ;
+loadInfo
+-
+>
+SetAllowDeprecatedSystemRequests
+(
+true
+)
+;
 if
 (
 mOriginAttributes
