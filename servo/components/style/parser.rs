@@ -871,7 +871,7 @@ i
 t
 >
 (
-_context
+_
 :
 &
 ParserContext
@@ -899,6 +899,8 @@ i
 >
 >
 {
+Ok
+(
 UnicodeRange
 :
 :
@@ -906,17 +908,7 @@ parse
 (
 input
 )
-.
-map_err
-(
-|
-e
-|
-e
-.
-into
-(
-)
+?
 )
 }
 }
