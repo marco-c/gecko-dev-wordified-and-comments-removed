@@ -630,9 +630,7 @@ stub
 (
 global
 .
-Services
-.
-mm
+AboutReaderParent
 "
 addMessageListener
 "
@@ -644,9 +642,7 @@ stub
 (
 global
 .
-Services
-.
-mm
+AboutReaderParent
 "
 removeMessageListener
 "
@@ -705,9 +701,7 @@ calledOnce
 (
 global
 .
-Services
-.
-mm
+AboutReaderParent
 .
 addMessageListener
 )
@@ -718,9 +712,7 @@ calledWithExactly
 (
 global
 .
-Services
-.
-mm
+AboutReaderParent
 .
 addMessageListener
 openArticleURLListener
@@ -804,9 +796,7 @@ receiveMessage
 =
 global
 .
-Services
-.
-mm
+AboutReaderParent
 .
 addMessageListener
 .
@@ -934,9 +924,7 @@ receiveMessage
 =
 global
 .
-Services
-.
-mm
+AboutReaderParent
 .
 addMessageListener
 .
@@ -1035,9 +1023,7 @@ calledOnce
 (
 global
 .
-Services
-.
-mm
+AboutReaderParent
 .
 removeMessageListener
 )
