@@ -3107,6 +3107,12 @@ request
 list
 -
 item
+:
+not
+(
+.
+selected
+)
 .
 blocked
 {
@@ -3122,6 +3128,8 @@ blocked
 -
 color
 )
+!
+important
 ;
 }
 .
