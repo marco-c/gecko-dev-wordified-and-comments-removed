@@ -50438,7 +50438,7 @@ resistFingerprinting
 randomDataOnCanvasExtract
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 true
