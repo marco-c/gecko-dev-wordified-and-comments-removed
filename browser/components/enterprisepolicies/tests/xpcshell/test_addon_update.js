@@ -732,13 +732,6 @@ installed
 "
 )
 ;
-await
-AddonTestUtils
-.
-promiseShutdownManager
-(
-)
-;
 }
 )
 ;
