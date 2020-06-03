@@ -44,9 +44,6 @@ Atomics
 insecureContext
 :
 true
-earlyBetaOrEarlier
-:
-true
 }
 {
 name
@@ -405,9 +402,6 @@ name
 SharedArrayBuffer
 "
 insecureContext
-:
-true
-earlyBetaOrEarlier
 :
 true
 crossOringinIsolated

@@ -18,16 +18,9 @@ Array
 "
 ArrayBuffer
 "
-{
-name
-:
 "
 Atomics
 "
-earlyBetaOrEarlier
-:
-true
-}
 "
 Boolean
 "
@@ -154,9 +147,6 @@ name
 "
 SharedArrayBuffer
 "
-earlyBetaOrEarlier
-:
-true
 crossOriginIsolated
 :
 true
