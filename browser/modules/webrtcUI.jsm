@@ -1421,14 +1421,9 @@ break
 }
 if
 (
-!
-aData
-|
-|
-!
 aData
 .
-documentURI
+remove
 )
 {
 if
@@ -1455,10 +1450,6 @@ index
 }
 }
 else
-if
-(
-aData
-)
 {
 this
 .

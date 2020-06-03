@@ -1939,6 +1939,9 @@ STATE_NOCAPTURE
 {
 return
 {
+remove
+:
+true
 }
 ;
 }
@@ -1949,6 +1952,9 @@ aForRemove
 {
 return
 {
+remove
+:
+true
 }
 ;
 }
@@ -2037,13 +2043,6 @@ browser
 browser
 .
 value
-documentURI
-:
-aContentWindow
-.
-document
-.
-documentURI
 devices
 :
 serializedDevices
