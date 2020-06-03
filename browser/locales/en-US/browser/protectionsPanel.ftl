@@ -627,12 +627,12 @@ protections
 -
 panel
 -
-showreport
+showdashboard
 -
 label
 =
 Show
-Report
+Dashboard
 #
 #
 In
