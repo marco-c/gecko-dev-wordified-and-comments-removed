@@ -859,7 +859,11 @@ allowSkippedRecord
 )
 {
 return
-false
+this
+.
+_bridge
+.
+allowSkippedRecord
 ;
 }
 async
