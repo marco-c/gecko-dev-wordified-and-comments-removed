@@ -916,6 +916,12 @@ HitTestResult
 =
 default
 ;
+bool
+TargetIsConfirmedRoot
+(
+)
+const
+;
 }
 ;
 RefPtr
