@@ -249,6 +249,8 @@ disableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents
 stopListeningForLifecycleEvents
+highlightAccessible
+unhighlightAccessible
 }
 )
 {
@@ -296,6 +298,8 @@ disableAccessibility
 resetAccessiblity
 startListeningForLifecycleEvents
 stopListeningForLifecycleEvents
+highlightAccessible
+unhighlightAccessible
 }
 )
 ;

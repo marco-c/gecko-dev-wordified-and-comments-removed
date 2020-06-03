@@ -134,6 +134,8 @@ function
 RightSidebar
 (
 {
+highlightAccessible
+unhighlightAccessible
 toolbox
 }
 )
@@ -230,6 +232,8 @@ Accessible
 componentProps
 :
 {
+highlightAccessible
+unhighlightAccessible
 toolbox
 labelledby
 :
