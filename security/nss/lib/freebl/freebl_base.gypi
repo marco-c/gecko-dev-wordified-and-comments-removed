@@ -358,11 +358,6 @@ rsapkcs
 c
 '
 '
-sha512
-.
-c
-'
-'
 sha_fast
 .
 c
