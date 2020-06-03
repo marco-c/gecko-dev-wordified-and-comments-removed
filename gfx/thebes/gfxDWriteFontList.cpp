@@ -3209,7 +3209,8 @@ new
 UnscaledFontDWrite
 (
 fontFace
-mIsSystemFont
+!
+mIsDataUserFont
 ?
 mFont
 :
