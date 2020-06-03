@@ -26,17 +26,6 @@ h
 #
 include
 "
-mozilla
-/
-jsipc
-/
-CrossProcessObjectWrappers
-.
-h
-"
-#
-include
-"
 nsCCUncollectableMarker
 .
 h

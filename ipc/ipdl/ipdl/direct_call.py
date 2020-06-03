@@ -4385,24 +4385,6 @@ set
     
 (
 "
-PJavaScript
-"
-"
-child
-"
-)
-    
-(
-"
-PJavaScript
-"
-"
-parent
-"
-)
-    
-(
-"
 PMedia
 "
 "
