@@ -593,10 +593,12 @@ and_then
 |
 r
 |
-r
-.
+TaskRunnable
+:
+:
 dispatch
 (
+r
 logger
 .
 owning_thread
