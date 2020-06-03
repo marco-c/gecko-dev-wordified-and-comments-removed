@@ -1068,7 +1068,9 @@ accDoc
 "
 ariaStatus
 "
-null
+"
+AXGroup
+"
 "
 AXApplicationStatus
 "

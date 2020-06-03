@@ -447,7 +447,7 @@ STATUSBAR
 statusbar
 "
 ATK_ROLE_STATUSBAR
-NSAccessibilityUnknownRole
+NSAccessibilityGroupRole
 ROLE_SYSTEM_STATUSBAR
 ROLE_SYSTEM_STATUSBAR
 java
