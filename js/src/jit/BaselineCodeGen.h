@@ -328,15 +328,6 @@ dest
 )
 ;
 void
-loadScriptAtom
-(
-Register
-index
-Register
-dest
-)
-;
-void
 computeFrameSize
 (
 Register
