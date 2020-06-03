@@ -8,9 +8,6 @@ idl
 interface
 nsIPrincipal
 ;
-interface
-nsIURI
-;
 [
 scriptable
 uuid
@@ -37,9 +34,6 @@ getRemoteTypeForPrincipal
 in
 nsIPrincipal
 aPrincipal
-in
-nsIURI
-aChannelOriginalURI
 in
 boolean
 aMultiProcess

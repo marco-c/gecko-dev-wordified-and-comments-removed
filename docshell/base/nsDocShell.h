@@ -1398,15 +1398,6 @@ aDocShell
 )
 ;
 }
-static
-bool
-CanLoadInParentProcess
-(
-nsIURI
-*
-aURI
-)
-;
 bool
 IsForceReloading
 (
