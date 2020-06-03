@@ -624,6 +624,11 @@ aURI
 override
 ;
 bool
+DispatchRelease
+(
+)
+;
+bool
 mTopWindowOriginComputed
 ;
 nsCString
