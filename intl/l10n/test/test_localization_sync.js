@@ -1301,8 +1301,7 @@ Can
 '
 t
 use
-sync
-formatWithFallback
+formatValuesSync
 when
 state
 is
@@ -1335,8 +1334,7 @@ Can
 '
 t
 use
-sync
-formatWithFallback
+formatValueSync
 when
 state
 is
@@ -1375,8 +1373,7 @@ Can
 '
 t
 use
-sync
-formatWithFallback
+formatMessagesSync
 when
 state
 is
