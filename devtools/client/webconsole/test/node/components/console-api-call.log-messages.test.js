@@ -386,7 +386,7 @@ resourceType
 "
 platform
 -
-messages
+message
 "
 message
 :
@@ -461,7 +461,7 @@ resourceType
 "
 platform
 -
-messages
+message
 "
 message
 :
