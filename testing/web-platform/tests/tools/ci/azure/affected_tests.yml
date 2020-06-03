@@ -100,11 +100,6 @@ yml
 -
 script
 :
-no_proxy
-=
-'
-*
-'
 .
 /
 wpt
