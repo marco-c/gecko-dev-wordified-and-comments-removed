@@ -2,6 +2,8 @@ import
 sys
 import
 mozunit
+from
+unittest
 import
 mock
 import
