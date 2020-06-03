@@ -5891,7 +5891,7 @@ true
 if
 defined
 (
-XP_MACOS
+XP_MACOSX
 )
 |
 |
