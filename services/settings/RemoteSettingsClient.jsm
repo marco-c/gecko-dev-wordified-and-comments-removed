@@ -2049,7 +2049,7 @@ try
 if
 (
 expectedTimestamp
-<
+=
 =
 collectionLastModified
 )
