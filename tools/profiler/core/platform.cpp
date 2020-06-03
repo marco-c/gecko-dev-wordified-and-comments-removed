@@ -11486,7 +11486,7 @@ mozilla
 ProfileBufferChunkManagerWithLocalLimit
 chunkManager
 (
-8
+64
 *
 1024
 *
@@ -19123,12 +19123,12 @@ if
 (
 javaInterval
 <
-10
+1
 )
 {
 javaInterval
 =
-10
+1
 ;
 }
 java
