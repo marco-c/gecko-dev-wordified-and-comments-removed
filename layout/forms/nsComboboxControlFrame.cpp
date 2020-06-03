@@ -6835,7 +6835,6 @@ MOZ_COUNTED_DTOR_OVERRIDE
 (
 nsDisplayComboboxFocus
 )
-virtual
 void
 Paint
 (
@@ -6980,7 +6979,7 @@ ShouldShowFocusRing
 {
 nsPresContext
 *
-presContext
+pc
 =
 PresContext
 (
@@ -6997,15 +6996,13 @@ StyleDisplay
 ;
 if
 (
-(
-!
 IsThemed
 (
 disp
 )
-|
-|
-presContext
+&
+&
+pc
 -
 >
 Theme
@@ -7019,7 +7016,6 @@ disp
 -
 >
 mAppearance
-)
 )
 &
 &
