@@ -10302,10 +10302,10 @@ Failed
 )
 )
 ;
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 report
 (
 aCx
@@ -10320,10 +10320,10 @@ init
 (
 aCx
 exn
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects

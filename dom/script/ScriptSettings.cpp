@@ -2434,10 +2434,10 @@ cx
 )
 )
 ;
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 jsReport
 (
 cx
@@ -2462,10 +2462,10 @@ cx
 (
 )
 exnStack
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects

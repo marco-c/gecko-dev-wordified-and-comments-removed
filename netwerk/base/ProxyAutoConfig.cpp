@@ -3406,10 +3406,10 @@ JS_ClearPendingException
 mCx
 )
 ;
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 report
 (
 mCx
@@ -3424,10 +3424,10 @@ init
 (
 mCx
 exn
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects
