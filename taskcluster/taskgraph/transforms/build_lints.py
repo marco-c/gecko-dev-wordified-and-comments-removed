@@ -258,27 +258,6 @@ PERFHERDER_EXTRA_OPTIONS
 '
 )
         
-nightly
-=
-job
-.
-get
-(
-'
-attributes
-'
-{
-}
-)
-.
-get
-(
-'
-nightly
-'
-False
-)
-        
 shippable
 =
 job
@@ -316,11 +295,7 @@ key
 (
 platform
 primary_config
-(
-nightly
-or
 shippable
-)
 options
 )
         

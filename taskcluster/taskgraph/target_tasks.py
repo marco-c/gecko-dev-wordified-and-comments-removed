@@ -219,7 +219,7 @@ _target_task_methods
 method
 ]
 def
-filter_out_nightly
+filter_out_shipping_phase
 (
 task
 parameters
@@ -1481,7 +1481,7 @@ parameters
 )
             
 and
-filter_out_nightly
+filter_out_shipping_phase
 (
 t
 parameters
@@ -1560,7 +1560,7 @@ parameters
 )
             
 and
-filter_out_nightly
+filter_out_shipping_phase
 (
 t
 parameters
@@ -2860,7 +2860,7 @@ task
 parameters
 )
 or
-filter_out_nightly
+filter_out_shipping_phase
 (
 task
 parameters
@@ -3788,22 +3788,6 @@ task
 parameters
 )
             
-any
-(
-[
-                
-task
-.
-attributes
-.
-get
-(
-'
-nightly
-'
-False
-)
-                
 task
 .
 attributes
@@ -3814,9 +3798,6 @@ get
 shippable
 '
 False
-)
-            
-]
 )
             
 task
@@ -3920,16 +3901,6 @@ make_desktop_nightly_filter
 '
 linux64
 -
-nightly
-'
-'
-linux
--
-nightly
-'
-'
-linux64
--
 shippable
 '
 '
@@ -4026,11 +3997,6 @@ make_desktop_nightly_filter
 '
 macosx64
 -
-nightly
-'
-'
-macosx64
--
 shippable
 '
 }
@@ -4120,11 +4086,6 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
-win32
--
-nightly
-'
 '
 win32
 -
@@ -4220,11 +4181,6 @@ make_desktop_nightly_filter
 '
 win64
 -
-nightly
-'
-'
-win64
--
 shippable
 '
 }
@@ -4314,13 +4270,6 @@ filter
 make_desktop_nightly_filter
 (
 {
-'
-win64
--
-aarch64
--
-nightly
-'
 '
 win64
 -
