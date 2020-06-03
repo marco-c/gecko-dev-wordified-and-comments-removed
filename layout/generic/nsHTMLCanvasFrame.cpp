@@ -611,11 +611,6 @@ WebRenderCanvasData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 isRecycled
 )
@@ -1008,11 +1003,6 @@ WebRenderLocalCanvasData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 isRecycled
 )
@@ -1388,11 +1378,6 @@ WebRenderCanvasData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 &
 isRecycled
 )

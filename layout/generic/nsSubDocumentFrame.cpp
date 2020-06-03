@@ -7196,11 +7196,6 @@ WebRenderRemoteData
 >
 (
 this
-aBuilder
-.
-GetRenderRoot
-(
-)
 nullptr
 )
 ;
