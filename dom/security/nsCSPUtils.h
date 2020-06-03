@@ -941,6 +941,16 @@ return
 CSP_LAST_KEYWORD_VALUE
 ;
 }
+bool
+CSP_SubjectToCSP
+(
+nsIURI
+*
+aURI
+nsContentPolicyType
+aContentType
+)
+;
 nsresult
 CSP_AppendCSPFromHeader
 (
