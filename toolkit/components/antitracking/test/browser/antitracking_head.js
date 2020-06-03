@@ -1842,6 +1842,12 @@ TEST_3RD_PARTY_DOMAIN
 }
 if
 (
+!
+options
+.
+dontResetExpectedBlockingNotifications
+&
+&
 options
 .
 expectedBlockingNotifications
