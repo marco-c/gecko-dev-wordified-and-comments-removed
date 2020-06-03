@@ -1646,16 +1646,6 @@ aState
 0
 ;
 virtual
-bool
-NeedsRecreateToReshow
-(
-)
-{
-return
-false
-;
-}
-virtual
 void
 SetModal
 (
