@@ -2081,11 +2081,13 @@ nsXULPrototypeDocument
 :
 SetIsL10nCached
 (
+bool
+aIsCached
 )
 {
 mWasL10nCached
 =
-true
+aIsCached
 ;
 }
 void

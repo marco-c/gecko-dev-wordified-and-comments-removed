@@ -10802,6 +10802,8 @@ OnParsingCompleted
 void
 InitialTranslationCompleted
 (
+bool
+aL10nCached
 )
 ;
 bool

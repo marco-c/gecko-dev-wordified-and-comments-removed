@@ -345,7 +345,7 @@ Element
 aElement
 )
 ;
-void
+bool
 ApplyTranslations
 (
 nsTArray
