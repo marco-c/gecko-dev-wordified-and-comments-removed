@@ -1395,7 +1395,6 @@ join
 self
 .
 tests_root
-b
 "
 .
 gitignore
@@ -1418,7 +1417,6 @@ data
 .
 get
 (
-b
 "
 /
 gitignore_file
@@ -1445,7 +1443,6 @@ data
             
 data
 [
-b
 "
 /
 gitignore_file
