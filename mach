@@ -172,7 +172,6 @@ junit
 gradle
 gtest
 hazards
-ide
 jsapi
 -
 tests
