@@ -7,7 +7,11 @@ _CUBEB_JNI_INSTANCES_H_
 #
 include
 "
-GeneratedJNIWrappers
+mozilla
+/
+java
+/
+GeckoAppShellWrappers
 .
 h
 "
