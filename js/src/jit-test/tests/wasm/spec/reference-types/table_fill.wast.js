@@ -314,7 +314,7 @@ fill
 "
 [
 2
-hostref
+externref
 (
 1
 )
@@ -358,7 +358,7 @@ get
 2
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -380,7 +380,7 @@ get
 3
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -402,7 +402,7 @@ get
 4
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -441,7 +441,7 @@ fill
 "
 [
 4
-hostref
+externref
 (
 2
 )
@@ -466,7 +466,7 @@ get
 3
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -488,7 +488,7 @@ get
 4
 ]
 )
-hostref
+externref
 (
 2
 )
@@ -510,7 +510,7 @@ get
 5
 ]
 )
-hostref
+externref
 (
 2
 )
@@ -549,7 +549,7 @@ fill
 "
 [
 4
-hostref
+externref
 (
 3
 )
@@ -574,7 +574,7 @@ get
 3
 ]
 )
-hostref
+externref
 (
 1
 )
@@ -596,7 +596,7 @@ get
 4
 ]
 )
-hostref
+externref
 (
 2
 )
@@ -618,7 +618,7 @@ get
 5
 ]
 )
-hostref
+externref
 (
 2
 )
@@ -638,7 +638,7 @@ fill
 "
 [
 8
-hostref
+externref
 (
 4
 )
@@ -682,7 +682,7 @@ get
 8
 ]
 )
-hostref
+externref
 (
 4
 )
@@ -704,7 +704,7 @@ get
 9
 ]
 )
-hostref
+externref
 (
 4
 )
@@ -746,7 +746,7 @@ get
 8
 ]
 )
-hostref
+externref
 (
 4
 )
@@ -785,7 +785,7 @@ fill
 "
 [
 10
-hostref
+externref
 (
 5
 )
@@ -827,7 +827,7 @@ fill
 "
 [
 8
-hostref
+externref
 (
 6
 )
@@ -871,7 +871,7 @@ get
 8
 ]
 )
-hostref
+externref
 (
 4
 )
@@ -1126,7 +1126,7 @@ x0a
 \
 x0a
 \
-x8e
+x8f
 \
 x80
 \
@@ -1138,7 +1138,7 @@ x00
 \
 x01
 \
-x88
+x89
 \
 x80
 \
@@ -1151,6 +1151,8 @@ x00
 x00
 \
 xd0
+\
+x6f
 \
 x41
 \
@@ -1364,7 +1366,7 @@ x0a
 \
 x0a
 \
-x8e
+x8f
 \
 x80
 \
@@ -1376,7 +1378,7 @@ x00
 \
 x01
 \
-x88
+x89
 \
 x80
 \
@@ -1393,6 +1395,8 @@ x41
 x01
 \
 xd0
+\
+x6f
 \
 xfc
 \
@@ -1482,7 +1486,7 @@ x00
 \
 x0a
 \
-x93
+x94
 \
 x80
 \
@@ -1494,7 +1498,7 @@ x00
 \
 x01
 \
-x8d
+x8e
 \
 x80
 \
@@ -1517,6 +1521,8 @@ x80
 x3f
 \
 xd0
+\
+x6f
 \
 x41
 \
@@ -1736,7 +1742,7 @@ x00
 \
 x0a
 \
-x93
+x94
 \
 x80
 \
@@ -1748,7 +1754,7 @@ x00
 \
 x01
 \
-x8d
+x8e
 \
 x80
 \
@@ -1765,6 +1771,8 @@ x41
 x01
 \
 xd0
+\
+x6f
 \
 x43
 \
@@ -1998,7 +2006,7 @@ x01
 \
 x0a
 \
-x90
+x91
 \
 x80
 \
@@ -2010,7 +2018,7 @@ x00
 \
 x01
 \
-x8a
+x8b
 \
 x80
 \
@@ -2027,6 +2035,8 @@ x41
 x00
 \
 xd0
+\
+x6f
 \
 x41
 \
