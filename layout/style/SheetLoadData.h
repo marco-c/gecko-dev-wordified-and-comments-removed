@@ -417,6 +417,11 @@ mLoadFailed
 :
 1
 ;
+bool
+mIsLinkPreload
+:
+1
+;
 nsCOMPtr
 <
 nsIStyleSheetLinkingElement
