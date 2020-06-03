@@ -390,9 +390,6 @@ eGestureState_RotateGesture
 mGestureState
 ;
 float
-mCumulativeMagnification
-;
-float
 mCumulativeRotation
 ;
 #
