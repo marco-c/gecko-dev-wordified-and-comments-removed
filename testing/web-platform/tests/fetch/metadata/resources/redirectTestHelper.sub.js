@@ -273,7 +273,7 @@ partialPath
 )
 ;
 return
-insecureRedirectURL
+secureRedirectURL
 +
 encodeURIComponent
 (
