@@ -1521,7 +1521,6 @@ WrBridge
 AddWebRenderParentCommand
 (
 anim
-aRenderRoot
 )
 ;
 aManager

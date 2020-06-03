@@ -760,7 +760,6 @@ WrBridge
 AddWebRenderParentCommand
 (
 aCmd
-mRenderRoot
 )
 ;
 }
@@ -818,7 +817,6 @@ AddPipelineIdForAsyncCompositable
 (
 aPipelineId
 aHandle
-mRenderRoot
 )
 ;
 }
@@ -850,7 +848,6 @@ AddPipelineIdForCompositable
 (
 aPipelineId
 aHandle
-mRenderRoot
 )
 ;
 }
@@ -877,7 +874,6 @@ WrBridge
 RemovePipelineIdForCompositable
 (
 aPipelineId
-mRenderRoot
 )
 ;
 }
@@ -904,7 +900,6 @@ WrBridge
 ReleaseTextureOfImage
 (
 aKey
-mRenderRoot
 )
 ;
 }

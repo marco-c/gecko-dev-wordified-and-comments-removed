@@ -233,16 +233,6 @@ RemoveTexture
 TextureClient
 *
 aTexture
-const
-Maybe
-<
-wr
-:
-:
-RenderRoot
->
-&
-aRenderRoot
 )
 override
 ;

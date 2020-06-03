@@ -378,16 +378,6 @@ RemoveTexture
 TextureClient
 *
 aTexture
-const
-Maybe
-<
-wr
-:
-:
-RenderRoot
->
-&
-aRenderRoot
 )
 {
 GetForwarder
@@ -399,7 +389,6 @@ RemoveTextureFromCompositable
 (
 this
 aTexture
-aRenderRoot
 )
 ;
 }
@@ -466,16 +455,6 @@ RemoveTexture
 b
 .
 mTextureClient
-Some
-(
-wr
-:
-:
-RenderRoot
-:
-:
-Default
-)
 )
 ;
 }
@@ -1069,7 +1048,6 @@ RemoveTexture
 b
 .
 mTextureClient
-aRenderRoot
 )
 ;
 }
@@ -1401,7 +1379,6 @@ UseTextures
 (
 this
 textures
-aRenderRoot
 )
 ;
 for
@@ -1418,7 +1395,6 @@ RemoveTexture
 b
 .
 mTextureClient
-aRenderRoot
 )
 ;
 }

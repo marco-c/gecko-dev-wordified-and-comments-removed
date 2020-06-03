@@ -924,11 +924,6 @@ scaleToSize
 filter
 mixBlendMode
 )
-aBuilder
-.
-GetRenderRoot
-(
-)
 )
 ;
 break

@@ -511,10 +511,6 @@ UseTextures
 (
 this
 textures
-Some
-(
-aRenderRoot
-)
 )
 ;
 aTexture
@@ -562,7 +558,6 @@ AutoRemoveTexture
 autoRemove
 (
 this
-aRenderRoot
 )
 ;
 if
@@ -909,10 +904,6 @@ UseTextures
 (
 this
 textures
-Some
-(
-aRenderRoot
-)
 )
 ;
 mBackBuffer
@@ -2631,10 +2622,6 @@ UseTextures
 (
 this
 textures
-Some
-(
-aRenderRoot
-)
 )
 ;
 }
