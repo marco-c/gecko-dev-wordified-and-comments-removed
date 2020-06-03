@@ -793,14 +793,6 @@ sandboxFlags
 [
 infallible
 ]
-attribute
-unsigned
-long
-triggeringSandboxFlags
-;
-[
-infallible
-]
 readonly
 attribute
 unsigned
