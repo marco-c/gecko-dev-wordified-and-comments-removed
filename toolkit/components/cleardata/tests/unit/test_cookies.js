@@ -57,11 +57,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Assert
@@ -200,11 +195,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Assert
@@ -442,11 +432,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Assert
@@ -712,11 +697,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTP
 )
 ;
 Assert

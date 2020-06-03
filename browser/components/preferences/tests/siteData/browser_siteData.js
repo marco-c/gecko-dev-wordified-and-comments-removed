@@ -1059,11 +1059,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Services
@@ -1105,11 +1100,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Services
@@ -1151,11 +1141,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 Services
@@ -1200,11 +1185,6 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 let
