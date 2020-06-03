@@ -345,6 +345,8 @@ query
 "
 '
 linux64
+-
+shippable
 /
 '
 damp
@@ -353,9 +355,6 @@ damp
 -
 rebuild
 6
--
--
-artifact
 *
 Linux
 appears

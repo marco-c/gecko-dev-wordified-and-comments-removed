@@ -1469,6 +1469,8 @@ query
 "
 '
 linux64
+-
+shippable
 /
 '
 damp
@@ -1477,9 +1479,6 @@ damp
 -
 rebuild
 5
--
--
-artifact
 It
 will
 print
