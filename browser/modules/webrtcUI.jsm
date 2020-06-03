@@ -671,6 +671,11 @@ documentURI
 tab
 browser
 types
+devices
+:
+state
+.
+devices
 }
 ;
 }
