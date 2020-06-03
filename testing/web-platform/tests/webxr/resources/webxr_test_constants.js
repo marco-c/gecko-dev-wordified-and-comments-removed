@@ -532,6 +532,9 @@ light
 -
 estimation
 '
+'
+anchors
+'
 ]
 ;
 const
