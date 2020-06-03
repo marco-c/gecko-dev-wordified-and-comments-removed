@@ -45,7 +45,14 @@ origin
 )
 {
 return
-nullptr
+ProcInfoPromise
+:
+:
+CreateAndReject
+(
+NS_ERROR_NOT_IMPLEMENTED
+__func__
+)
 ;
 }
 }
