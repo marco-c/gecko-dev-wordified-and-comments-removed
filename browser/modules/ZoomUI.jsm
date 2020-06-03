@@ -756,6 +756,12 @@ hidden
 if
 (
 aAnimate
+&
+&
+!
+win
+.
+gReduceMotion
 )
 {
 urlbarZoomButton
