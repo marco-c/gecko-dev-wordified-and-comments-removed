@@ -661,6 +661,17 @@ tempDouble
 (
 )
 ;
+#
+ifdef
+ENABLE_WASM_SIMD
+inline
+LDefinition
+tempSimd128
+(
+)
+;
+#
+endif
 inline
 LDefinition
 tempCopy
