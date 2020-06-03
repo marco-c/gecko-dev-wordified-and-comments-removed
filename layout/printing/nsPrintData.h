@@ -178,9 +178,6 @@ nsPrintObject
 mPrintDocList
 ;
 bool
-mIsIFrameSelected
-;
-bool
 mIsParentAFrameSet
 ;
 bool

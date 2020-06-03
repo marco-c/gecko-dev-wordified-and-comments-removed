@@ -3442,10 +3442,8 @@ printData
 mPrintObject
 )
 ;
-printData
--
->
-mIsIFrameSelected
+bool
+isIFrameSelected
 =
 IsThereAnIFrameSelected
 (
@@ -3475,10 +3473,7 @@ kEnableSelectionRB
 isSelection
 |
 |
-printData
--
->
-mIsIFrameSelected
+isIFrameSelected
 )
 ;
 bool
