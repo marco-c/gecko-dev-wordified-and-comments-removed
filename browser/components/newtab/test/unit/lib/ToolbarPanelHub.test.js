@@ -1782,6 +1782,7 @@ async
 =
 >
 {
+await
 instance
 .
 init
@@ -1826,6 +1827,19 @@ registerCallback
 }
 )
 ;
+describe
+(
+"
+Show
+/
+Hide
+functions
+"
+(
+)
+=
+>
+{
 it
 (
 "
@@ -1983,6 +1997,9 @@ setAttribute
 hidden
 "
 true
+)
+;
+}
 )
 ;
 }
