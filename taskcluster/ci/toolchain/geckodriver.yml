@@ -105,6 +105,13 @@ true
 shippable
 :
 true
+rebuild
+-
+on
+-
+release
+:
+true
 run
 :
 script
