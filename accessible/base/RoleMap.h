@@ -352,7 +352,7 @@ DIALOG
 dialog
 "
 ATK_ROLE_DIALOG
-NSAccessibilityWindowRole
+NSAccessibilityGroupRole
 ROLE_SYSTEM_DIALOG
 ROLE_SYSTEM_DIALOG
 java
