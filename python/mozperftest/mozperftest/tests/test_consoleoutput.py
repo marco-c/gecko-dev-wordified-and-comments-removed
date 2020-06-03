@@ -71,13 +71,7 @@ options
 {
             
 "
-perfherder
-"
-:
-True
-            
-"
-perfherder
+console
 -
 prefix
 "
