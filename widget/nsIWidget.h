@@ -1559,12 +1559,6 @@ GetDefaultScale
 (
 )
 ;
-static
-double
-DefaultScaleOverride
-(
-)
-;
 nsIWidget
 *
 GetFirstChild
