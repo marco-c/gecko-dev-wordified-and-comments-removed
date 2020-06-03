@@ -280,6 +280,12 @@ ClearSSLExternalAndInternalSessionCacheNative
 (
 )
 ;
+static
+void
+DoClearSSLExternalAndInternalSessionCache
+(
+)
+;
 protected
 :
 virtual

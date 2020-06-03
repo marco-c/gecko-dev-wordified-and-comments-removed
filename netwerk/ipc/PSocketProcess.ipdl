@@ -545,6 +545,11 @@ uint32_t
 aCaps
 )
 ;
+async
+ClearSessionCache
+(
+)
+;
 both
 :
 async

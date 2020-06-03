@@ -538,6 +538,17 @@ uint64_t
 aChannelId
 )
 ;
+mozilla
+:
+:
+ipc
+:
+:
+IPCResult
+RecvClearSessionCache
+(
+)
+;
 protected
 :
 friend
