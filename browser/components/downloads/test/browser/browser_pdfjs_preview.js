@@ -1024,6 +1024,8 @@ pdfFileURI
 "
 +
 pdfFileURI
+.
+spec
 )
 ;
 let
