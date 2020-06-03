@@ -1122,15 +1122,6 @@ ErrorToStringWithTrailingNewline
 \
 MACRO
 (
-errors
-errors
-"
-errors
-"
-)
-\
-MACRO
-(
 escape
 escape
 "
