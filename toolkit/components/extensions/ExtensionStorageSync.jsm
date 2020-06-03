@@ -193,7 +193,6 @@ ExtensionStorageApiCallback
 (
 resolve
 reject
-extId
 changeCallback
 )
 {
@@ -208,12 +207,6 @@ this
 reject
 =
 reject
-;
-this
-.
-extId
-=
-extId
 ;
 this
 .
@@ -302,6 +295,7 @@ e
 }
 onChanged
 (
+extId
 json
 )
 {
@@ -321,8 +315,6 @@ this
 .
 changeCallback
 (
-this
-.
 extId
 JSON
 .
@@ -450,7 +442,6 @@ ExtensionStorageApiCallback
 (
 resolve
 reject
-extId
 (
 extId
 changes

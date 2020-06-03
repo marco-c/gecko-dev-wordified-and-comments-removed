@@ -51,7 +51,7 @@ xpcom
 interfaces
 :
 :
-mozIConfigurableExtensionStorageArea
+mozIExtensionStorageArea
 RefPtr
 }
 ;
@@ -83,7 +83,7 @@ result
 mut
 *
 const
-mozIConfigurableExtensionStorageArea
+mozIExtensionStorageArea
 )
 -
 >
@@ -115,7 +115,7 @@ coerce
 :
 :
 <
-mozIConfigurableExtensionStorageArea
+mozIExtensionStorageArea
 >
 (
 )
