@@ -1344,6 +1344,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -1358,6 +1359,12 @@ None
 kwargs
 )
 :
+        
+self
+.
+logger
+=
+logger
         
 self
 .
@@ -1415,42 +1422,6 @@ self
 protocol
 =
 None
-    
-property
-    
-def
-logger
-(
-self
-)
-:
-        
-"
-"
-"
-StructuredLogger
-for
-this
-executor
-"
-"
-"
-        
-if
-self
-.
-runner
-is
-not
-None
-:
-            
-return
-self
-.
-runner
-.
-logger
     
 def
 setup
@@ -2030,6 +2001,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -2053,6 +2025,7 @@ TestExecutor
 __init__
 (
 self
+logger
 browser
 server_config
                               
@@ -3436,6 +3409,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 webdriver_binary
@@ -3468,6 +3442,7 @@ TestExecutor
 __init__
 (
 self
+logger
 browser
 server_config
                               

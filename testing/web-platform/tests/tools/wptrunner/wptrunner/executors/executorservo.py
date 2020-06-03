@@ -367,6 +367,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 timeout_multiplier
@@ -390,6 +391,7 @@ ProcessTestExecutor
 __init__
 (
 self
+logger
 browser
 server_config
                                      
@@ -1057,6 +1059,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 binary
@@ -1087,6 +1090,8 @@ ProcessTestExecutor
 __init__
 (
 self
+                                     
+logger
                                      
 browser
                                      
@@ -1804,6 +1809,7 @@ def
 __init__
 (
 self
+logger
 browser
 server_config
 binary
@@ -1834,6 +1840,8 @@ ProcessTestExecutor
 __init__
 (
 self
+                                     
+logger
                                      
 browser
                                      

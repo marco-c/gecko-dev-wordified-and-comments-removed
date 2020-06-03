@@ -892,6 +892,7 @@ executor
 =
 executor_cls
 (
+logger
 browser
 *
 *
