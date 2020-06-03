@@ -1209,8 +1209,16 @@ aEvent
 target
 .
 location
+?
+aEvent
+.
+target
+.
+location
 .
 href
+:
+null
 }
 )
 ;
