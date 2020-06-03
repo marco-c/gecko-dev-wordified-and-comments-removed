@@ -83,16 +83,6 @@ restore_on_demand
 "
 true
 ]
-[
-"
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-false
-]
 ]
 }
 )

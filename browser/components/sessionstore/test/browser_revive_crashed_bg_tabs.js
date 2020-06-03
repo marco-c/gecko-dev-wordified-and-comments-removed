@@ -80,16 +80,6 @@ processCount
 ]
 [
 "
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-false
-]
-[
-"
 browser
 .
 sessionstore
