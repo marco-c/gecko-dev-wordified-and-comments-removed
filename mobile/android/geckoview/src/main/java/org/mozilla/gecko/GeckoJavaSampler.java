@@ -361,7 +361,7 @@ mSamples
 new
 Sample
 [
-aSampleCount
+mSampleCount
 ]
 ;
 mSamplePos
