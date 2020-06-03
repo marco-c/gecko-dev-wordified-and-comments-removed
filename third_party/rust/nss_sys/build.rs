@@ -1,0 +1,17 @@
+fn
+main
+(
+)
+{
+nss_build_common
+:
+:
+link_nss
+(
+)
+.
+unwrap
+(
+)
+;
+}
