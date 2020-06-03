@@ -7,6 +7,16 @@ metrics
 .
 notebook
 .
+transformer
+import
+Transformer
+from
+mozperftest
+.
+metrics
+.
+notebook
+.
 transforms
 .
 single_json
@@ -312,8 +322,13 @@ file_2
     
 tfm
 =
+Transformer
+(
+[
+]
 SingleJsonRetriever
 (
+)
 )
     
 tfm

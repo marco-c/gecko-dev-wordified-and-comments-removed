@@ -459,8 +459,13 @@ ptnb
 .
 transformer
 =
+Transformer
+(
+[
+]
 SingleJsonRetriever
 (
+)
 )
     
 expected_result

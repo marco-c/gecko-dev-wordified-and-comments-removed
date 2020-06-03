@@ -102,3 +102,27 @@ blob
 "
     
 pass
+class
+NotebookInvalidTransformError
+(
+Exception
+)
+:
+    
+"
+"
+"
+Raised
+when
+an
+invalid
+custom
+transformer
+is
+set
+.
+"
+"
+"
+    
+pass

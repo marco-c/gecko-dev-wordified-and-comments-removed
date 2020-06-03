@@ -12,6 +12,7 @@ from
 .
 transformer
 import
+Transformer
 SimplePerfherderTransformer
 from
 .
@@ -117,22 +118,13 @@ param
 str
 custom_transform
 :
-Path
-to
+The
+class
+name
+of
 a
-file
-containing
 custom
-            
-transformation
-logic
-.
-Must
-implement
-the
-Transformer
-            
-interface
+transformer
 .
         
 "
@@ -228,12 +220,17 @@ self
 .
 transformer
 =
-tfm_cls
+Transformer
 (
 files
 =
 [
 ]
+custom_transformer
+=
+tfm_cls
+(
+)
 )
                 
 logger
@@ -277,12 +274,19 @@ self
 .
 transformer
 =
-SimplePerfherderTransformer
+Transformer
 (
+                
 files
 =
 [
 ]
+custom_transformer
+=
+SimplePerfherderTransformer
+(
+)
+            
 )
         
 self

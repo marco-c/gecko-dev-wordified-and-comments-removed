@@ -4,17 +4,8 @@ scipy
 stats
 import
 gmean
-from
-.
-.
-transformer
-import
-Transformer
 class
 GeomeanTransformer
-(
-Transformer
-)
 :
     
 "

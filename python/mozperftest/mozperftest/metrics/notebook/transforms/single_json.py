@@ -1,20 +1,11 @@
 from
 .
 .
-transformer
-import
-Transformer
-from
-.
-.
 utilities
 import
 flat
 class
 SingleJsonRetriever
-(
-Transformer
-)
 :
     
 "
