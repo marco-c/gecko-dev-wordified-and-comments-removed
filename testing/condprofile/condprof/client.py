@@ -497,6 +497,17 @@ startupScanScopes
 ]
 =
 1
+            
+cleaned_prefs
+[
+"
+profile
+.
+conditioned
+"
+]
+=
+True
         
 with
 open
