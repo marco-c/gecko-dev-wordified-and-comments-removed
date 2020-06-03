@@ -1033,6 +1033,14 @@ SetHttpsOnlyStatus
 httpsOnlyStatus
 )
 ;
+loadInfo
+-
+>
+SetAllowDeprecatedSystemRequests
+(
+true
+)
+;
 }
 NS_ENSURE_SUCCESS
 (
