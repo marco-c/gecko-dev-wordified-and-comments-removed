@@ -434,7 +434,7 @@ sensorType
 return
 createdSensor
 .
-setSensorReading
+setSensorReadingImmediately
 (
 [
 mockDataArray
