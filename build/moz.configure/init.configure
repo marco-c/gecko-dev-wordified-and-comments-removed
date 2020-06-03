@@ -2412,7 +2412,14 @@ early_options
 (
 )
 :
-dependable
+depends
+(
+'
+-
+-
+help
+'
+)
 imports
 (
 '
@@ -2435,6 +2442,7 @@ itervalues
 def
 early_options
 (
+_
 )
 :
 return
