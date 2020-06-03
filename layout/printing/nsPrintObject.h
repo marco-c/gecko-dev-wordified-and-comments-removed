@@ -148,6 +148,13 @@ DestroyPresentation
 (
 )
 ;
+void
+SetPrintAsIs
+(
+bool
+aAsIs
+)
+;
 nsCOMPtr
 <
 nsIDocShell
