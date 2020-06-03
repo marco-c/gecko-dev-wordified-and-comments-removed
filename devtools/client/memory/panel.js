@@ -251,12 +251,13 @@ _onTargetAvailable
 (
 {
 targetFront
-isTopLevel
 }
 )
 {
 if
 (
+targetFront
+.
 isTopLevel
 )
 {

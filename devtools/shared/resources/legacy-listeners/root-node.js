@@ -12,9 +12,7 @@ function
 (
 {
 targetList
-targetType
 targetFront
-isTopLevel
 onAvailable
 }
 )
@@ -22,6 +20,8 @@ onAvailable
 if
 (
 !
+targetFront
+.
 isTopLevel
 )
 {

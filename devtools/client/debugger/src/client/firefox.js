@@ -111,7 +111,6 @@ onTargetAvailable
 (
 {
 targetFront
-isTopLevel
 isTargetSwitching
 }
 )
@@ -124,6 +123,8 @@ void
 if
 (
 !
+targetFront
+.
 isTopLevel
 )
 {
@@ -332,7 +333,6 @@ onTargetDestroyed
 (
 {
 targetFront
-isTopLevel
 }
 )
 :
@@ -340,6 +340,8 @@ void
 {
 if
 (
+targetFront
+.
 isTopLevel
 )
 {
