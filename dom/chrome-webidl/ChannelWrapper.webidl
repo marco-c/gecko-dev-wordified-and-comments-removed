@@ -132,9 +132,6 @@ xmlhttprequest
 fetch
 "
 "
-xbl
-"
-"
 xslt
 "
 "

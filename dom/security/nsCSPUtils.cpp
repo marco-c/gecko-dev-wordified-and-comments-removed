@@ -1424,12 +1424,6 @@ case
 nsIContentPolicy
 :
 :
-TYPE_XBL
-:
-case
-nsIContentPolicy
-:
-:
 TYPE_DTD
 :
 case

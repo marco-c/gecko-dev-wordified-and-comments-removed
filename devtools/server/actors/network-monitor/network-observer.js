@@ -5504,17 +5504,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_XBL
-]
-:
-"
-xbl
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_PING
 ]
 :

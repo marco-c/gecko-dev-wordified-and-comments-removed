@@ -213,17 +213,6 @@ Ci
 .
 nsIContentPolicy
 .
-TYPE_XBL
-]
-:
-"
-Xbl
-"
-[
-Ci
-.
-nsIContentPolicy
-.
 TYPE_PING
 ]
 :

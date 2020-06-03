@@ -280,7 +280,7 @@ false
 ;
 }
 bool
-isImgOrStyleOrDTDorXBL
+isImgOrStyleOrDTD
 =
 contentType
 =
@@ -307,15 +307,6 @@ nsIContentPolicy
 :
 :
 TYPE_DTD
-|
-|
-contentType
-=
-=
-nsIContentPolicy
-:
-:
-TYPE_XBL
 ;
 if
 (
@@ -369,7 +360,7 @@ false
 if
 (
 !
-isImgOrStyleOrDTDorXBL
+isImgOrStyleOrDTD
 )
 {
 return
@@ -391,7 +382,7 @@ chrome
 &
 &
 !
-isImgOrStyleOrDTDorXBL
+isImgOrStyleOrDTD
 )
 {
 return

@@ -92,12 +92,6 @@ TYPE_REFRESH
 ;
 const
 nsContentPolicyType
-TYPE_XBL
-=
-9
-;
-const
-nsContentPolicyType
 TYPE_PING
 =
 10
