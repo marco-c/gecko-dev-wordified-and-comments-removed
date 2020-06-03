@@ -2728,6 +2728,12 @@ isDerivedClassConstructor
 )
 const
 ;
+bool
+isFieldInitializer
+(
+)
+const
+;
 static
 unsigned
 offsetOfNative

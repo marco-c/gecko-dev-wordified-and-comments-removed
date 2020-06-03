@@ -1665,6 +1665,15 @@ kind
 FunctionSyntaxKind
 :
 :
+FieldInitializer
+|
+|
+kind
+=
+=
+FunctionSyntaxKind
+:
+:
 Getter
 |
 |

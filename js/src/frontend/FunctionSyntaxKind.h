@@ -27,6 +27,7 @@ Expression
 Statement
 Arrow
 Method
+FieldInitializer
 ClassConstructor
 DerivedClassConstructor
 Getter
