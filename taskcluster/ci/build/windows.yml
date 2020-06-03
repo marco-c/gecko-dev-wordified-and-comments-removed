@@ -5085,6 +5085,16 @@ stacks
 win64
 -
 winchecksec
+optimization
+:
+push
+-
+interval
+-
+10
+:
+-
+windows
 win64
 -
 asan
