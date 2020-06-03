@@ -32294,14 +32294,10 @@ originAttributes
 StoragePrincipalHelper
 :
 :
-GetOriginAttributes
+GetOriginAttributesForNetworkState
 (
 this
 originAttributes
-StoragePrincipalHelper
-:
-:
-eRegularPrincipal
 )
 ;
 mDNSPrefetch
