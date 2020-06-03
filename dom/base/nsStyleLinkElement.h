@@ -139,14 +139,6 @@ aStyleSheet
 )
 override
 ;
-void
-InitStyleLinkElement
-(
-bool
-aDontLoadStyle
-)
-override
-;
 mozilla
 :
 :
@@ -423,9 +415,6 @@ nsCOMPtr
 nsIPrincipal
 >
 mTriggeringPrincipal
-;
-bool
-mDontLoadStyle
 ;
 bool
 mUpdatesEnabled

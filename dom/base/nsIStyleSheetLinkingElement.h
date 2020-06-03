@@ -386,16 +386,6 @@ aStyleSheet
 0
 ;
 virtual
-void
-InitStyleLinkElement
-(
-bool
-aDontLoadStyle
-)
-=
-0
-;
-virtual
 mozilla
 :
 :
