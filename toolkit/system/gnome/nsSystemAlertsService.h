@@ -33,10 +33,13 @@ nsSystemAlertsService
 :
 public
 nsIAlertsService
+public
+nsIAlertsDoNotDisturb
 {
 public
 :
 NS_DECL_NSIALERTSSERVICE
+NS_DECL_NSIALERTSDONOTDISTURB
 NS_DECL_ISUPPORTS
 nsSystemAlertsService
 (
@@ -98,6 +101,13 @@ nsAlertsIconListener
 *
 >
 mActiveListeners
+;
+private
+:
+bool
+mSuppressForScreenSharing
+=
+false
 ;
 }
 ;
