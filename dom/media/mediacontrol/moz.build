@@ -114,6 +114,11 @@ MediaControlUtils
 .
 h
 '
+'
+MediaPlaybackStatus
+.
+h
+'
 ]
 EXPORTS
 .
@@ -173,6 +178,11 @@ cpp
 '
 '
 MediaControlUtils
+.
+cpp
+'
+'
+MediaPlaybackStatus
 .
 cpp
 '
