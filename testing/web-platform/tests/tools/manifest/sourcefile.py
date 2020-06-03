@@ -6463,16 +6463,13 @@ __cached_properties__
 ]
             
 for
-key
+prop
 in
 cached_properties
 :
                 
 if
-str
-(
-key
-)
+prop
 in
 self
 .
@@ -6484,10 +6481,7 @@ self
 .
 __dict__
 [
-str
-(
-key
-)
+prop
 ]
             
 del
