@@ -1429,6 +1429,7 @@ return
 ok
 (
 lineInfo
+?
 .
 wrapClass
 .
@@ -1442,13 +1443,15 @@ debug
 line
 "
 )
-"
 Line
+{
+line
+}
 is
+not
 highlighted
 as
 paused
-"
 )
 ;
 const

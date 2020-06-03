@@ -53,7 +53,7 @@ expressions
 ;
 import
 {
-selectLocation
+selectSpecificLocation
 }
 from
 "
@@ -264,7 +264,7 @@ selectedFrame
 await
 dispatch
 (
-selectLocation
+selectSpecificLocation
 (
 cx
 selectedFrame
