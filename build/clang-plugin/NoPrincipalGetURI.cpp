@@ -140,7 +140,7 @@ getExprLoc
 (
 )
 "
-nsIPrincipal
+Principal
 -
 >
 GetURI
@@ -167,7 +167,7 @@ nsIPrincipal
 DiagnosticIDs
 :
 :
-Warning
+Error
 )
 ;
 }
