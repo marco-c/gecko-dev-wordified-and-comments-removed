@@ -64,7 +64,7 @@ namespace
 layers
 {
 struct
-RenderRootDisplayListData
+DisplayListData
 {
 wr
 :
@@ -203,7 +203,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 >
 {
 typedef
@@ -213,7 +213,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 paramType
 ;
 static

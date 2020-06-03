@@ -42,7 +42,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 >
 :
 :
@@ -184,7 +184,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 >
 :
 :

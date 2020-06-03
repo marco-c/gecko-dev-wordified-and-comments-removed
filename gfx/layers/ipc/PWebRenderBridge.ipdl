@@ -235,7 +235,7 @@ mozilla
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 from
 "
 mozilla
@@ -393,7 +393,7 @@ aIds
 async
 SetDisplayList
 (
-RenderRootDisplayListData
+DisplayListData
 [
 ]
 displayLists

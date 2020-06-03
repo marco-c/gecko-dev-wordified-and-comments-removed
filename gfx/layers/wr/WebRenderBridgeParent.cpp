@@ -5866,9 +5866,9 @@ bool
 WebRenderBridgeParent
 :
 :
-ProcessRenderRootDisplayListData
+ProcessDisplayListData
 (
-RenderRootDisplayListData
+DisplayListData
 &
 aDisplayList
 wr
@@ -6052,7 +6052,7 @@ RecvSetDisplayList
 (
 nsTArray
 <
-RenderRootDisplayListData
+DisplayListData
 >
 &
 &
@@ -6158,7 +6158,7 @@ send
 at
 least
 one
-RenderRootDisplayListData
+DisplayListData
 .
 "
 )
@@ -6392,7 +6392,7 @@ aDisplayLists
 if
 (
 !
-ProcessRenderRootDisplayListData
+ProcessDisplayListData
 (
 displayList
 wrEpoch
@@ -6410,7 +6410,7 @@ this
 Failed
 to
 process
-RenderRootDisplayListData
+DisplayListData
 .
 "
 )

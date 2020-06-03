@@ -793,7 +793,7 @@ RecvSetDisplayList
 (
 nsTArray
 <
-RenderRootDisplayListData
+DisplayListData
 >
 &
 &
@@ -1779,9 +1779,9 @@ aScheduleComposite
 )
 ;
 bool
-ProcessRenderRootDisplayListData
+ProcessDisplayListData
 (
-RenderRootDisplayListData
+DisplayListData
 &
 aDisplayList
 wr

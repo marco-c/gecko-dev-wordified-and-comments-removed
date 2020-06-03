@@ -178,7 +178,7 @@ class
 RenderRootStateManager
 ;
 struct
-RenderRootDisplayListData
+DisplayListData
 ;
 }
 namespace
@@ -1740,7 +1740,7 @@ Finalize
 layers
 :
 :
-RenderRootDisplayListData
+DisplayListData
 &
 aOutTransaction
 )
