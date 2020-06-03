@@ -10982,7 +10982,6 @@ new
 texture_cache
 glyph_rasterizer
 glyph_cache
-blob_image_handler
 rb_font_instances
 )
 ;
@@ -11540,6 +11539,7 @@ RenderApiSender
 new
 (
 api_tx
+blob_image_handler
 font_instances
 )
 ;

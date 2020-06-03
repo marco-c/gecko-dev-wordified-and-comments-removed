@@ -363,6 +363,14 @@ BuiltDisplayListIter
 DisplayItem
 }
 ;
+#
+[
+derive
+(
+Clone
+Debug
+)
+]
 pub
 struct
 TransactionTimings
