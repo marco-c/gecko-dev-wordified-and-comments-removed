@@ -17469,7 +17469,7 @@ isArrayLength
 operand
 -
 >
-isTypedArrayLength
+isArrayBufferViewLength
 (
 )
 )

@@ -10106,7 +10106,7 @@ MAX_DENSE_ELEMENTS_COUNT
 ;
 }
 void
-MTypedArrayLength
+MArrayBufferViewLength
 :
 :
 computeRange
@@ -10131,7 +10131,7 @@ INT32_MAX
 ;
 }
 void
-MTypedArrayByteOffset
+MArrayBufferViewByteOffset
 :
 :
 computeRange

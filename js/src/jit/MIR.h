@@ -1987,7 +1987,7 @@ WasmHeapMeta
 <
 <
 8
-TypedArrayLengthOrOffset
+ArrayBufferViewLengthOrOffset
 =
 1
 <
@@ -34443,7 +34443,7 @@ mode_
 }
 ;
 class
-MTypedArrayLength
+MArrayBufferViewLength
 :
 public
 MUnaryInstruction
@@ -34454,7 +34454,7 @@ SingleObjectPolicy
 Data
 {
 explicit
-MTypedArrayLength
+MArrayBufferViewLength
 (
 MDefinition
 *
@@ -34484,7 +34484,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-TypedArrayLength
+ArrayBufferViewLength
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -34528,7 +34528,7 @@ Load
 AliasSet
 :
 :
-TypedArrayLengthOrOffset
+ArrayBufferViewLengthOrOffset
 )
 ;
 }
@@ -34544,7 +34544,7 @@ override
 }
 ;
 class
-MTypedArrayByteOffset
+MArrayBufferViewByteOffset
 :
 public
 MUnaryInstruction
@@ -34555,7 +34555,7 @@ SingleObjectPolicy
 Data
 {
 explicit
-MTypedArrayByteOffset
+MArrayBufferViewByteOffset
 (
 MDefinition
 *
@@ -34585,7 +34585,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-TypedArrayByteOffset
+ArrayBufferViewByteOffset
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -34629,7 +34629,7 @@ Load
 AliasSet
 :
 :
-TypedArrayLengthOrOffset
+ArrayBufferViewLengthOrOffset
 )
 ;
 }
@@ -34645,7 +34645,7 @@ override
 }
 ;
 class
-MTypedArrayElements
+MArrayBufferViewElements
 :
 public
 MUnaryInstruction
@@ -34656,7 +34656,7 @@ SingleObjectPolicy
 Data
 {
 explicit
-MTypedArrayElements
+MArrayBufferViewElements
 (
 MDefinition
 *
@@ -34686,7 +34686,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-TypedArrayElements
+ArrayBufferViewElements
 )
 TRIVIAL_NEW_WRAPPERS
 NAMED_OPERANDS
@@ -34736,7 +34736,7 @@ ObjectFields
 }
 ALLOW_CLONE
 (
-MTypedArrayElements
+MArrayBufferViewElements
 )
 }
 ;

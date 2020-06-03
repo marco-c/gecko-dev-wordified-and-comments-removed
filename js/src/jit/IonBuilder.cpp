@@ -49197,7 +49197,7 @@ return
 *
 length
 =
-MTypedArrayLength
+MArrayBufferViewLength
 :
 :
 New
@@ -49245,7 +49245,7 @@ length
 *
 elements
 =
-MTypedArrayElements
+MArrayBufferViewElements
 :
 :
 New
@@ -49339,7 +49339,7 @@ else
 {
 byteOffset
 =
-MTypedArrayByteOffset
+MArrayBufferViewByteOffset
 :
 :
 New

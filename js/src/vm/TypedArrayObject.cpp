@@ -1578,9 +1578,6 @@ char
 this
 )
 +
-this
--
->
 dataOffset
 (
 )
@@ -2849,7 +2846,7 @@ constexpr
 size_t
 dataOffset
 =
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset

@@ -388,6 +388,15 @@ include
 "
 vm
 /
+ArrayBufferViewObject
+.
+h
+"
+#
+include
+"
+vm
+/
 AsyncFunction
 .
 h
@@ -48902,9 +48911,9 @@ void
 CodeGenerator
 :
 :
-visitTypedArrayLength
+visitArrayBufferViewLength
 (
-LTypedArrayLength
+LArrayBufferViewLength
 *
 lir
 )
@@ -48942,7 +48951,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 lengthOffset
@@ -48957,9 +48966,9 @@ void
 CodeGenerator
 :
 :
-visitTypedArrayByteOffset
+visitArrayBufferViewByteOffset
 (
-LTypedArrayByteOffset
+LArrayBufferViewByteOffset
 *
 lir
 )
@@ -48997,7 +49006,7 @@ unboxInt32
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 byteOffsetOffset
@@ -49012,9 +49021,9 @@ void
 CodeGenerator
 :
 :
-visitTypedArrayElements
+visitArrayBufferViewElements
 (
-LTypedArrayElements
+LArrayBufferViewElements
 *
 lir
 )
@@ -49052,7 +49061,7 @@ loadPtr
 Address
 (
 obj
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset
@@ -75309,7 +75318,7 @@ unboxInt32
 Address
 (
 object
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 lengthOffset
@@ -75341,7 +75350,7 @@ loadPtr
 Address
 (
 object
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset
@@ -75597,7 +75606,7 @@ unboxInt32
 Address
 (
 object
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 lengthOffset
@@ -75629,7 +75638,7 @@ loadPtr
 Address
 (
 object
-TypedArrayObject
+ArrayBufferViewObject
 :
 :
 dataOffset

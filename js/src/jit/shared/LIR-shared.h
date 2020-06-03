@@ -19758,7 +19758,7 @@ getTemp
 }
 ;
 class
-LTypedArrayLength
+LArrayBufferViewLength
 :
 public
 LInstructionHelper
@@ -19772,10 +19772,10 @@ public
 :
 LIR_HEADER
 (
-TypedArrayLength
+ArrayBufferViewLength
 )
 explicit
-LTypedArrayLength
+LArrayBufferViewLength
 (
 const
 LAllocation
@@ -19812,7 +19812,7 @@ getOperand
 }
 ;
 class
-LTypedArrayByteOffset
+LArrayBufferViewByteOffset
 :
 public
 LInstructionHelper
@@ -19826,10 +19826,10 @@ public
 :
 LIR_HEADER
 (
-TypedArrayByteOffset
+ArrayBufferViewByteOffset
 )
 explicit
-LTypedArrayByteOffset
+LArrayBufferViewByteOffset
 (
 const
 LAllocation
@@ -19866,7 +19866,7 @@ getOperand
 }
 ;
 class
-LTypedArrayElements
+LArrayBufferViewElements
 :
 public
 LInstructionHelper
@@ -19880,10 +19880,10 @@ public
 :
 LIR_HEADER
 (
-TypedArrayElements
+ArrayBufferViewElements
 )
 explicit
-LTypedArrayElements
+LArrayBufferViewElements
 (
 const
 LAllocation
