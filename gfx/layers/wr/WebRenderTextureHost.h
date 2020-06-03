@@ -363,6 +363,7 @@ TextureHost
 aTexture
 )
 ;
+const
 RefPtr
 <
 TextureHost
