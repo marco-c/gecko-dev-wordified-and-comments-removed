@@ -3865,9 +3865,6 @@ return
 true
 ;
 }
-#
-ifdef
-ENABLE_WASM_REFTYPES
 MOZ_MUST_USE
 bool
 readRefType
@@ -4143,8 +4140,6 @@ return
 true
 ;
 }
-#
-endif
 MOZ_MUST_USE
 bool
 readOp
