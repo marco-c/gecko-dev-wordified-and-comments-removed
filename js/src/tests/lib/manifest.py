@@ -11,6 +11,8 @@ posixpath
 import
 re
 import
+six
+import
 sys
 from
 subprocess
@@ -2833,16 +2835,17 @@ test
 "
 "
     
+if
+six
+.
+PY3
+:
+        
 fp
 =
-io
-.
 open
 (
 fullpath
-'
-r
-'
 encoding
 =
 '
@@ -2850,6 +2853,16 @@ utf
 -
 8
 '
+)
+    
+else
+:
+        
+fp
+=
+open
+(
+fullpath
 )
     
 try
