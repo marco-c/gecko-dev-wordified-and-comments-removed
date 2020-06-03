@@ -7453,7 +7453,7 @@ type
 timing_distribution
 time_unit
 :
-millisecond
+microsecond
 gecko_datapoint
 :
 GC_MINOR_US
