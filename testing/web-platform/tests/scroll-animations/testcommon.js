@@ -42,6 +42,10 @@ scroller
 '
 )
 ;
+scroller
+.
+scrollTop
+;
 return
 scroller
 ;
