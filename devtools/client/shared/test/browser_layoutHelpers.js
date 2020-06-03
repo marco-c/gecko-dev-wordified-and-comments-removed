@@ -612,6 +612,17 @@ changed
 "
 )
 ;
+await
+pushPref
+(
+"
+ui
+.
+prefersReducedMotion
+"
+0
+)
+;
 info
 (
 "

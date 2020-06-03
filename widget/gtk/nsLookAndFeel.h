@@ -450,6 +450,11 @@ mSystemUsesDarkTheme
 false
 ;
 bool
+mPrefersReducedMotion
+=
+false
+;
+bool
 mHighContrast
 =
 false
