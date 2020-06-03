@@ -68,6 +68,10 @@ undefined
 text
 =
 Sample
+&
+cors
+=
+1
 "
 }
 {
@@ -207,6 +211,10 @@ getSjsURLInUnicodeIdn
 fmt
 =
 font
+&
+cors
+=
+1
 "
 }
 {
@@ -411,6 +419,10 @@ undefined
 text
 =
 Sample
+&
+cors
+=
+1
 "
 data
 :
@@ -733,6 +745,10 @@ getSjsURLInUnicodeIdn
 fmt
 =
 font
+&
+cors
+=
+1
 "
 data
 :
