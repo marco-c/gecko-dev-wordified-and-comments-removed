@@ -9865,6 +9865,17 @@ target
 target
 .
 parentNode
+?
+.
+host
+?
+.
+parentNode
+|
+|
+target
+.
+parentNode
 ;
 }
 }
