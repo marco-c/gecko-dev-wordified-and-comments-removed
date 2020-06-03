@@ -2,8 +2,16 @@ from
 __future__
 import
 absolute_import
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 .
@@ -53,8 +61,6 @@ utf
 .
 format
 (
-urllib
-.
 quote
 (
 doc

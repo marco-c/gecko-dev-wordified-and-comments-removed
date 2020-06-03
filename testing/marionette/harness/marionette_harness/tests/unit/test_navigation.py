@@ -7,8 +7,16 @@ import
 contextlib
 import
 os
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 import
@@ -101,8 +109,6 @@ utf
 s
 "
 %
-urllib
-.
 quote
 (
 doc

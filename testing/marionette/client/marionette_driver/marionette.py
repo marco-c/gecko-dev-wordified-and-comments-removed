@@ -22,6 +22,8 @@ from
 contextlib
 import
 contextmanager
+import
+six
 from
 six
 import
@@ -5885,10 +5887,11 @@ for
 pref
 value
 in
-prefs
+six
 .
 iteritems
 (
+prefs
 )
 :
                 
@@ -10657,7 +10660,9 @@ or
 isinstance
 (
 args
-basestring
+six
+.
+string_types
 )
 or
               

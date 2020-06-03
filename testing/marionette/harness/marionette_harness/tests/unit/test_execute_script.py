@@ -4,8 +4,16 @@ import
 absolute_import
 import
 os
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 import
@@ -55,8 +63,6 @@ utf
 .
 format
 (
-urllib
-.
 quote
 (
 doc
@@ -1390,11 +1396,12 @@ is
 not
 defined
 "
+str
+(
 cm
 .
 exception
-.
-message
+)
 )
     
 def

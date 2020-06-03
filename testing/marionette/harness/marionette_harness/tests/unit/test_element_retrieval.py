@@ -4,8 +4,16 @@ import
 absolute_import
 import
 re
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 .
@@ -70,8 +78,6 @@ utf
 .
 format
 (
-urllib
-.
 quote
 (
 doc
@@ -102,8 +108,6 @@ xml
 .
 format
 (
-urllib
-.
 quote
 (
 r

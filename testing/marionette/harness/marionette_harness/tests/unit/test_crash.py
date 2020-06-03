@@ -11,10 +11,14 @@ import
 shutil
 import
 sys
+import
+unittest
 from
 io
 import
 StringIO
+import
+six
 from
 marionette_driver
 import
@@ -923,7 +927,28 @@ get_url
 (
 )
     
+unittest
+.
 expectedFailure
+    
+unittest
+.
+skipIf
+(
+six
+.
+PY3
+"
+Bug
+1641226
+-
+Not
+supported
+in
+Python3
+.
+"
+)
     
 def
 test_unexpected_crash

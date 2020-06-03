@@ -4,6 +4,8 @@ import
 absolute_import
 import
 types
+import
+six
 from
 marionette_driver
 import
@@ -115,9 +117,9 @@ self
 marionette
 .
 current_chrome_window_handle
-types
+six
 .
-StringTypes
+string_types
 )
             
 self
@@ -129,9 +131,9 @@ self
 marionette
 .
 current_window_handle
-types
+six
 .
-StringTypes
+string_types
 )
         
 except
@@ -157,9 +159,9 @@ self
 assertIsInstance
 (
 handle
-types
+six
 .
-StringTypes
+string_types
 )
         
 for
@@ -177,9 +179,9 @@ self
 assertIsInstance
 (
 handle
-types
+six
 .
-StringTypes
+string_types
 )
     
 def

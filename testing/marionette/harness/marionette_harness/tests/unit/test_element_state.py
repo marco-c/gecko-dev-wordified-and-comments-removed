@@ -6,7 +6,17 @@ print_function
 import
 types
 import
+six
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+quote
 from
 marionette_driver
 .
@@ -313,8 +323,6 @@ utf
 .
 format
 (
-urllib
-.
 quote
 (
 doc
@@ -345,8 +353,6 @@ xml
 .
 format
 (
-urllib
-.
 quote
 (
 r
@@ -788,9 +794,9 @@ self
 assertIsInstance
 (
 attr
-types
+six
 .
-StringTypes
+string_types
 )
         
 self
@@ -814,10 +820,11 @@ for
 tag
 attrs
 in
-boolean_attributes
+six
 .
 iteritems
 (
+boolean_attributes
 )
 :
             
@@ -909,9 +916,9 @@ self
 assertIsInstance
 (
 res
-types
+six
 .
-StringTypes
+string_types
 )
                 
 self
@@ -981,9 +988,9 @@ self
 assertIsInstance
 (
 attr
-types
+six
 .
-StringTypes
+string_types
 )
         
 self
@@ -1097,9 +1104,9 @@ self
 assertIsInstance
 (
 attr
-types
+six
 .
-StringTypes
+string_types
 )
         
 self
@@ -1239,9 +1246,9 @@ self
 assertIsInstance
 (
 attr
-types
+six
 .
-StringTypes
+string_types
 )
         
 self

@@ -8070,6 +8070,13 @@ elif
 self
 .
 total_chunks
+is
+not
+None
+and
+self
+.
+total_chunks
 >
 len
 (
@@ -8110,6 +8117,13 @@ tests
 )
         
 if
+self
+.
+total_chunks
+is
+not
+None
+and
 self
 .
 total_chunks
