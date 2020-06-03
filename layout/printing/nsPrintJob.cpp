@@ -5818,10 +5818,13 @@ null
 ;
 if
 (
+!
 po
 -
 >
-mDontPrint
+PrintingIsEnabled
+(
+)
 |
 |
 po
@@ -6153,7 +6156,7 @@ mPrt
 mPrintObject
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )
@@ -8585,7 +8588,7 @@ aPO
 mParent
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )
@@ -8884,7 +8887,7 @@ if
 aPO
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )
@@ -8948,7 +8951,7 @@ aPO
 mParent
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 ?
@@ -10136,7 +10139,7 @@ mHasBeenPrinted
 aPO
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )
@@ -10937,7 +10940,7 @@ if
 aPO
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )
@@ -15723,7 +15726,7 @@ mFrameType
 po
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 po
@@ -16392,7 +16395,7 @@ if
 aPO
 -
 >
-IsPrintable
+PrintingIsEnabled
 (
 )
 )

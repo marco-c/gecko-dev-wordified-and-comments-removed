@@ -166,10 +166,6 @@ mHasBeenPrinted
 (
 false
 )
-mDontPrint
-(
-true
-)
 mPrintAsIs
 (
 false
@@ -1224,9 +1220,8 @@ bool
 aEnable
 )
 {
-mDontPrint
+mPrintingIsEnabled
 =
-!
 aEnable
 ;
 for
