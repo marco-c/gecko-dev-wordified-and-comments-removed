@@ -119,6 +119,14 @@ Selected
 =
 0
 ;
+private
+:
+Accessible
+*
+PrevColHeader
+(
+)
+;
 }
 ;
 }
