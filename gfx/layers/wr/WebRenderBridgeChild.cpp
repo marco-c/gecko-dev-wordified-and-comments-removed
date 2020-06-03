@@ -869,13 +869,6 @@ this
 SendParentCommands
 (
 mParentCommands
-wr
-:
-:
-RenderRoot
-:
-:
-Default
 )
 ;
 mParentCommands

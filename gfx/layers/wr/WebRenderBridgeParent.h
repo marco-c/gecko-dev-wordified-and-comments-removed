@@ -959,13 +959,6 @@ WebRenderParentCommand
 &
 &
 commands
-const
-wr
-:
-:
-RenderRoot
-&
-aRenderRoot
 )
 override
 ;
@@ -2362,11 +2355,6 @@ wr
 TransactionBuilder
 &
 aTxn
-wr
-:
-:
-RenderRoot
-aRenderRoot
 )
 ;
 void
