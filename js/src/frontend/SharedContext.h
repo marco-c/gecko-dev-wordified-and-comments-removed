@@ -1426,6 +1426,11 @@ wasEmitted
 1
 ;
 bool
+isSingleton
+:
+1
+;
+bool
 isAnnexB
 :
 1
@@ -2620,8 +2625,6 @@ setTypeForScriptedFunction
 JSContext
 *
 cx
-bool
-singleton
 )
 {
 RootedFunction
@@ -2641,7 +2644,7 @@ setTypeForScriptedFunction
 (
 cx
 fun
-singleton
+isSingleton
 )
 ;
 }

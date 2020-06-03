@@ -1094,6 +1094,10 @@ wasEmitted
 (
 false
 )
+isSingleton
+(
+false
+)
 isAnnexB
 (
 false
