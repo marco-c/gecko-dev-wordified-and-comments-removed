@@ -136,6 +136,15 @@ status
     
 )
     
+assert
+len
+(
+push_schedules
+)
+=
+=
+0
+    
 data
 =
 push_schedules
@@ -182,6 +191,36 @@ indexedDB
 "
     
 ]
+    
+assert
+len
+(
+push_schedules
+)
+=
+=
+1
+    
+responses
+.
+reset
+(
+)
+    
+push_schedules
+(
+branch
+rev
+)
+    
+assert
+len
+(
+push_schedules
+)
+=
+=
+1
 if
 __name__
 =
