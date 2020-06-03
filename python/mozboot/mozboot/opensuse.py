@@ -19,7 +19,11 @@ import
     
 ClangStaticAnalysisInstall
     
+FixStacksInstall
+    
 LucetcInstall
+    
+MinidumpStackwalkInstall
     
 NasmInstall
     
@@ -35,14 +39,24 @@ class
 OpenSUSEBootstrapper
 (
         
-NasmInstall
-NodeInstall
-StyloInstall
 ClangStaticAnalysisInstall
         
-SccacheInstall
+FixStacksInstall
+        
 LucetcInstall
+        
+MinidumpStackwalkInstall
+        
+NasmInstall
+        
+NodeInstall
+        
+SccacheInstall
+        
+StyloInstall
+        
 WasiSysrootInstall
+        
 BaseBootstrapper
 )
 :
