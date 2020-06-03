@@ -77,6 +77,13 @@ Localized
 >
 <
 ul
+className
+=
+"
+registrations
+-
+container__list
+"
 >
 <
 Registration
@@ -331,6 +338,13 @@ Localized
 >
 <
 ul
+className
+=
+"
+registrations
+-
+container__list
+"
 >
 <
 Registration
