@@ -495,6 +495,9 @@ boolean
 targetForm
 :
 Object
+reconfigure
+:
+Object
 debuggerServiceWorkerStatus
 :
 string
