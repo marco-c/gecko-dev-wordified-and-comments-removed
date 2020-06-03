@@ -129,6 +129,14 @@ mManager
 =
 aManager
 ;
+InvokeCallback
+(
+CallbackFunction
+:
+:
+ActorCreated
+)
+;
 }
 JSProcessActorParent
 :
