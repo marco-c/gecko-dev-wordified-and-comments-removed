@@ -350,7 +350,13 @@ nsCString
 mDomain
 ;
 nsString
+mOriginNoSuffix
+;
+nsCString
 mOrigin
+;
+nsCString
+mPartitionedOrigin
 ;
 nsString
 mServiceWorkerCacheName
