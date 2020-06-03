@@ -1,15 +1,4 @@
 def
-doit
-(
-env
-)
-:
-    
-return
-"
-OK
-"
-def
 on_exception
 (
 env
@@ -19,4 +8,4 @@ exc
 :
     
 return
-False
+True
