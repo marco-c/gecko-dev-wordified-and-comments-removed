@@ -458,10 +458,5 @@ nsACString
 aAddr
 )
 ;
-int32_t
-net_GetURLMaxLength
-(
-)
-;
 #
 endif
