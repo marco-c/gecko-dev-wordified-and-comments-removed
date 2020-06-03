@@ -100,6 +100,16 @@ builds
 worker
 /
 artifacts
+env
+:
+UPLOAD_DIR
+:
+/
+builds
+/
+worker
+/
+artifacts
 run
 -
 on
