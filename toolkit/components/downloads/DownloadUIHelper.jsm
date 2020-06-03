@@ -217,7 +217,7 @@ browserWin
 openWhere
 =
 "
-current
+tab
 "
 isPrivate
 userContextId

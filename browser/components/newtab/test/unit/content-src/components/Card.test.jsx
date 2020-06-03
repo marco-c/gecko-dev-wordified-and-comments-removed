@@ -1578,7 +1578,7 @@ it
 "
 should
 send
-OPEN_DOWNLOAD_FILE
+SHOW_DOWNLOAD_FILE
 if
 we
 clicked
@@ -1687,7 +1687,7 @@ args
 type
 at
 .
-OPEN_DOWNLOAD_FILE
+SHOW_DOWNLOAD_FILE
 )
 ;
 assert

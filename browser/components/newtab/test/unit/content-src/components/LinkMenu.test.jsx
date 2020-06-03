@@ -2815,12 +2815,6 @@ onClick
 >
 {
 const
-FAKE_EVENT
-=
-{
-}
-;
-const
 FAKE_INDEX
 =
 3
@@ -3452,7 +3446,6 @@ option
 .
 onClick
 (
-FAKE_EVENT
 )
 ;
 if
@@ -3732,7 +3725,6 @@ option
 .
 onClick
 (
-FAKE_EVENT
 )
 ;
 const
@@ -3828,7 +3820,6 @@ option
 .
 onClick
 (
-FAKE_EVENT
 )
 ;
 const
@@ -3961,7 +3952,6 @@ option
 .
 onClick
 (
-FAKE_EVENT
 )
 ;
 assert
@@ -4137,7 +4127,6 @@ pinSpocOption
 .
 onClick
 (
-FAKE_EVENT
 )
 ;
 if
