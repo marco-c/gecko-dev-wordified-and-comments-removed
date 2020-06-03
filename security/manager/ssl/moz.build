@@ -318,6 +318,11 @@ nsRandomGenerator
 h
 '
 '
+nsSecureBrowserUI
+.
+h
+'
+'
 nsSecurityHeaderParser
 .
 h
@@ -571,7 +576,7 @@ nsRandomGenerator
 cpp
 '
 '
-nsSecureBrowserUIImpl
+nsSecureBrowserUI
 .
 cpp
 '
