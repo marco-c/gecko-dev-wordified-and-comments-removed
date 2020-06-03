@@ -101,7 +101,7 @@ rustc
 .
 tar
 .
-xz
+zst
 linux64
 -
 rust
