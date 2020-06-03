@@ -98,11 +98,6 @@ js
 '
 WorkersPage
 .
-css
-'
-'
-WorkersPage
-.
 js
 '
 )

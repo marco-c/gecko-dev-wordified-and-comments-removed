@@ -70,7 +70,7 @@ align
 -
 items
 :
-center
+baseline
 ;
 font
 -
@@ -176,6 +176,15 @@ developer
 .
 svg
 )
+;
+position
+:
+relative
+;
+top
+:
+3px
+;
 }
 .
 registrations

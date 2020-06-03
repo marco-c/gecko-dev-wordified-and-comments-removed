@@ -297,12 +297,6 @@ empty
 "
 :
 "
-app
--
-page
--
--
-workers
 "
 }
 }
