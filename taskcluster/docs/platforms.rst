@@ -180,8 +180,8 @@ Why
 :
 widths
 :
-20
 40
+20
 40
 Linux
 Linux
@@ -656,8 +656,8 @@ Why
 :
 widths
 :
-20
 40
+20
 40
 Linux
 18
@@ -873,8 +873,8 @@ Why
 :
 widths
 :
-20
 40
+20
 40
 Linux
 18
@@ -1326,8 +1326,8 @@ Why
 :
 widths
 :
-20
 40
+20
 40
 Gecko
 Decision
@@ -1385,8 +1385,8 @@ Why
 :
 widths
 :
-20
 40
+20
 40
 Docker
 Images
