@@ -30,14 +30,6 @@ MOZ_REQUIRE_SIGNING
 ac_add_options
 -
 -
-disable
--
-install
--
-strip
-ac_add_options
--
--
 enable
 -
 instruments
