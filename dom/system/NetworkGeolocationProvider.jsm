@@ -1960,6 +1960,16 @@ true
 ;
 xhr
 .
+channel
+.
+loadInfo
+.
+allowDeprecatedSystemRequests
+=
+true
+;
+xhr
+.
 timeout
 =
 Services

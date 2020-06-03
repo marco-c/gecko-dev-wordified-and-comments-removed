@@ -255,6 +255,16 @@ xhr
 .
 channel
 .
+loadInfo
+.
+allowDeprecatedSystemRequests
+=
+true
+;
+xhr
+.
+channel
+.
 QueryInterface
 (
 Ci
