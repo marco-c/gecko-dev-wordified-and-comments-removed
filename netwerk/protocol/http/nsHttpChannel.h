@@ -2309,15 +2309,6 @@ nsresult
 status
 )
 ;
-bool
-HasCrossOriginOpenerPolicyMismatch
-(
-)
-{
-return
-mHasCrossOriginOpenerPolicyMismatch
-;
-}
 [
 [
 nodiscard

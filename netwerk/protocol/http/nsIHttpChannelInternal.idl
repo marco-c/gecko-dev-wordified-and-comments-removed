@@ -715,6 +715,14 @@ aInitiatorPolicy
 [
 noscript
 ]
+bool
+hasCrossOriginOpenerPolicyMismatch
+(
+)
+;
+[
+noscript
+]
 nsILoadInfo_CrossOriginEmbedderPolicy
 getResponseEmbedderPolicy
 (

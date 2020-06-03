@@ -1921,6 +1921,15 @@ aOutPolicy
 override
 ;
 NS_IMETHOD
+HasCrossOriginOpenerPolicyMismatch
+(
+bool
+*
+aIsMismatch
+)
+override
+;
+NS_IMETHOD
 GetResponseEmbedderPolicy
 (
 nsILoadInfo
