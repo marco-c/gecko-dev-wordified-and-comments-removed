@@ -808,8 +808,8 @@ aRv
 void
 FinishReplacementChannelSetup
 (
-bool
-aSucceeded
+nsresult
+aResult
 )
 ;
 bool
