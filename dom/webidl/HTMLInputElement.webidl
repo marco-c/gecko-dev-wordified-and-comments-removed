@@ -1028,6 +1028,11 @@ automatically
 [
 Pure
 ChromeOnly
+BinaryName
+=
+"
+editorForBindings
+"
 ]
 readonly
 attribute

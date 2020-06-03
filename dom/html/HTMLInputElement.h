@@ -3520,7 +3520,7 @@ aExcludePassword
 MOZ_CAN_RUN_SCRIPT
 nsIEditor
 *
-GetEditor
+GetEditorForBindings
 (
 )
 ;

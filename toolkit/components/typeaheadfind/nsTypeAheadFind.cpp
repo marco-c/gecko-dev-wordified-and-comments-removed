@@ -2461,7 +2461,7 @@ editor
 input
 -
 >
-GetEditor
+GetTextEditor
 (
 )
 ;
@@ -2489,7 +2489,7 @@ editor
 textarea
 -
 >
-GetEditor
+GetTextEditor
 (
 )
 ;
