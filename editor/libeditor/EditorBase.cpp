@@ -13800,6 +13800,7 @@ EditorBase
 :
 GetPreviousNodeInternal
 (
+const
 nsINode
 &
 aNode
@@ -14087,6 +14088,7 @@ EditorBase
 :
 GetNextNodeInternal
 (
+const
 nsINode
 &
 aNode
