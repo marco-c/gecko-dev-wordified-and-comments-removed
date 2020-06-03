@@ -146,6 +146,9 @@ getLogger
 quic
 "
 )
+CRYPTO_BUFFER_SIZE
+=
+16384
 EPOCH_SHORTCUTS
 =
 {
@@ -7360,7 +7363,7 @@ Buffer
 (
 capacity
 =
-4096
+CRYPTO_BUFFER_SIZE
 )
             
 tls
@@ -7373,7 +7376,7 @@ Buffer
 (
 capacity
 =
-4096
+CRYPTO_BUFFER_SIZE
 )
             
 tls
@@ -7386,7 +7389,7 @@ Buffer
 (
 capacity
 =
-4096
+CRYPTO_BUFFER_SIZE
 )
         
 }

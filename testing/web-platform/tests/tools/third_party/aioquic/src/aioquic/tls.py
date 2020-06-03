@@ -2583,7 +2583,7 @@ random
 :
 bytes
     
-session_id
+legacy_session_id
 :
 bytes
     
@@ -2594,7 +2594,7 @@ List
 int
 ]
     
-compression_methods
+legacy_compression_methods
 :
 List
 [
@@ -2752,15 +2752,6 @@ pull_uint16
 =
 TLS_VERSION_1_2
         
-client_random
-=
-buf
-.
-pull_bytes
-(
-32
-)
-        
 hello
 =
 ClientHello
@@ -2768,9 +2759,14 @@ ClientHello
             
 random
 =
-client_random
+buf
+.
+pull_bytes
+(
+32
+)
             
-session_id
+legacy_session_id
 =
 pull_opaque
 (
@@ -2789,7 +2785,7 @@ buf
 pull_uint16
 )
             
-compression_methods
+legacy_compression_methods
 =
 pull_list
 (
@@ -3168,7 +3164,7 @@ buf
 1
 hello
 .
-session_id
+legacy_session_id
 )
         
 push_list
@@ -3192,7 +3188,7 @@ buf
 push_uint8
 hello
 .
-compression_methods
+legacy_compression_methods
 )
         
 with
@@ -3520,7 +3516,7 @@ random
 :
 bytes
     
-session_id
+legacy_session_id
 :
 bytes
     
@@ -3618,15 +3614,6 @@ pull_uint16
 =
 TLS_VERSION_1_2
         
-server_random
-=
-buf
-.
-pull_bytes
-(
-32
-)
-        
 hello
 =
 ServerHello
@@ -3634,9 +3621,14 @@ ServerHello
             
 random
 =
-server_random
+buf
+.
+pull_bytes
+(
+32
+)
             
-session_id
+legacy_session_id
 =
 pull_opaque
 (
@@ -3828,7 +3820,7 @@ buf
 1
 hello
 .
-session_id
+legacy_session_id
 )
         
 buf
@@ -6734,7 +6726,7 @@ CHACHA20_POLY1305_SHA256
         
 self
 .
-_compression_methods
+_legacy_compression_methods
 :
 List
 [
@@ -7051,14 +7043,11 @@ urandom
             
 self
 .
-session_id
+legacy_session_id
 =
-os
-.
-urandom
-(
-32
-)
+b
+"
+"
             
 self
 .
@@ -7079,7 +7068,7 @@ None
             
 self
 .
-session_id
+legacy_session_id
 =
 None
             
@@ -7999,11 +7988,11 @@ self
 .
 client_random
             
-session_id
+legacy_session_id
 =
 self
 .
-session_id
+legacy_session_id
             
 cipher_suites
 =
@@ -8020,11 +8009,11 @@ self
 _cipher_suites
 ]
             
-compression_methods
+legacy_compression_methods
 =
 self
 .
-_compression_methods
+_legacy_compression_methods
             
 alpn_protocols
 =
@@ -8437,7 +8426,7 @@ compression_method
 in
 self
 .
-_compression_methods
+_legacy_compression_methods
         
 assert
 peer_hello
@@ -9487,11 +9476,11 @@ negotiate
             
 self
 .
-_compression_methods
+_legacy_compression_methods
             
 peer_hello
 .
-compression_methods
+legacy_compression_methods
             
 AlertHandshakeFailure
 (
@@ -9639,11 +9628,11 @@ urandom
         
 self
 .
-session_id
+legacy_session_id
 =
 peer_hello
 .
-session_id
+legacy_session_id
         
 self
 .
@@ -10202,11 +10191,11 @@ self
 .
 server_random
             
-session_id
+legacy_session_id
 =
 self
 .
-session_id
+legacy_session_id
             
 cipher_suite
 =
