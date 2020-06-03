@@ -291,10 +291,8 @@ BeginTransaction
 bool
 EndTransaction
 (
-nsTArray
-<
 DisplayListData
->
+&
 &
 aDisplayListData
 TransactionId

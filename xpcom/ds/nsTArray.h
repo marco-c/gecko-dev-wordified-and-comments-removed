@@ -285,9 +285,6 @@ struct
 TileClient
 ;
 struct
-DisplayListData
-;
-struct
 TransactionData
 ;
 }
@@ -2988,16 +2985,6 @@ layers
 :
 :
 TileClient
-)
-MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
-(
-mozilla
-:
-:
-layers
-:
-:
-DisplayListData
 )
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
