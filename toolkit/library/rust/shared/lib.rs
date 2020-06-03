@@ -155,11 +155,14 @@ env_logger
 [
 cfg
 (
-feature
+not
+(
+target_os
 =
 "
-rust_fxa_client
+android
 "
+)
 )
 ]
 extern

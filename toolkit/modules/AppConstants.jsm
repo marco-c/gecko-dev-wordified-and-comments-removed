@@ -873,17 +873,6 @@ else
 false
 #
 endif
-MOZ_RUST_FXA_CLIENT
-:
-#
-ifdef
-MOZ_RUST_FXA_CLIENT
-true
-#
-else
-false
-#
-endif
 }
 )
 ;
