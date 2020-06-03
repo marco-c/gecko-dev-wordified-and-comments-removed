@@ -2601,10 +2601,13 @@ filename
 )
 :
             
-print
+raise
+utils
+.
+TalosError
 (
 "
-Warning
+Error
 :
 we
 are
@@ -2615,10 +2618,10 @@ results
 file
 %
 s
+"
+                                   
+"
 and
-"
-                  
-"
 didn
 '
 t
@@ -2628,8 +2631,6 @@ it
 %
 filename
 )
-            
-return
         
 contents
 =
@@ -2832,10 +2833,13 @@ filename
 )
 :
                 
-print
+raise
+utils
+.
+TalosError
 (
 "
-Warning
+Error
 :
 we
 are
@@ -2845,7 +2849,7 @@ xperf
 results
 file
 "
-                      
+                                       
 "
 %
 s
@@ -2859,8 +2863,6 @@ it
 %
 filename
 )
-                
-return
             
 contents
 =
