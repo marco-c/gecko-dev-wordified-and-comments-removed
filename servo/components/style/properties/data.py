@@ -4827,6 +4827,10 @@ color
 "
             
 "
+opacity
+"
+            
+"
 float
 "
             
@@ -5025,6 +5029,10 @@ set
             
 "
 color
+"
+            
+"
+opacity
 "
             
 "
