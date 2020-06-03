@@ -48,7 +48,7 @@ Map
 )
 ;
 var
-gPerf
+gHistory
 =
 new
 FrameHistory
@@ -1012,7 +1012,7 @@ this
 .
 ypos
 (
-gPerf
+gHistory
 .
 delays
 [
@@ -1023,7 +1023,7 @@ i
 ;
 if
 (
-gPerf
+gHistory
 .
 delays
 [
@@ -1036,7 +1036,7 @@ worst
 {
 worst
 =
-gPerf
+gHistory
 .
 delays
 [
@@ -1085,7 +1085,7 @@ count
 {
 major
 :
-gPerf
+gHistory
 .
 majorGCs
 [
@@ -1096,7 +1096,7 @@ minor
 0
 slice
 :
-gPerf
+gHistory
 .
 slices
 [
@@ -1137,7 +1137,7 @@ count
 .
 major
 <
-gPerf
+gHistory
 .
 majorGCs
 [
@@ -1150,7 +1150,7 @@ count
 .
 slice
 <
-gPerf
+gHistory
 .
 slices
 [
@@ -1233,7 +1233,7 @@ count
 .
 major
 =
-gPerf
+gHistory
 .
 majorGCs
 [
@@ -1244,7 +1244,7 @@ count
 .
 slice
 =
-gPerf
+gHistory
 .
 slices
 [
@@ -1270,7 +1270,7 @@ count
 .
 minor
 =
-gPerf
+gHistory
 .
 minorGCs
 [
@@ -1309,7 +1309,7 @@ count
 .
 minor
 <
-gPerf
+gHistory
 .
 minorGCs
 [
@@ -1360,7 +1360,7 @@ count
 .
 minor
 =
-gPerf
+gHistory
 .
 minorGCs
 [
@@ -1446,7 +1446,7 @@ this
 .
 ypos
 (
-gPerf
+gHistory
 .
 delays
 [
@@ -1784,7 +1784,7 @@ i
 {
 if
 (
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -1797,7 +1797,7 @@ worst
 {
 worst
 =
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -1811,7 +1811,7 @@ i
 }
 if
 (
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -1827,7 +1827,7 @@ this
 .
 bestEver
 =
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -2006,7 +2006,7 @@ this
 .
 ypos
 (
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -2079,7 +2079,7 @@ this
 .
 ypos
 (
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -2105,7 +2105,7 @@ this
 .
 ypos
 (
-gPerf
+gHistory
 .
 gcBytes
 [
@@ -2187,7 +2187,7 @@ requestAnimationFrame
 handler
 )
 ;
-gPerf
+gHistory
 .
 resume
 (
@@ -2196,7 +2196,7 @@ resume
 }
 else
 {
-gPerf
+gHistory
 .
 pause
 (
@@ -2268,7 +2268,7 @@ timestamp
 {
 if
 (
-gPerf
+gHistory
 .
 is_stopped
 (
@@ -2372,7 +2372,7 @@ sec
 const
 delay
 =
-gPerf
+gHistory
 .
 on_frame
 (
@@ -2561,7 +2561,7 @@ reset_draw_state
 (
 )
 {
-gPerf
+gHistory
 .
 reset
 (
@@ -2896,7 +2896,7 @@ update_load_state_indicator
 (
 )
 ;
-gPerf
+gHistory
 .
 start
 (
@@ -3019,7 +3019,7 @@ none
 else
 if
 (
-gPerf
+gHistory
 .
 is_stopped
 (
