@@ -269,6 +269,14 @@ mkdtemp
 (
 )
     
+mach_cmd
+.
+run_process
+.
+return_value
+=
+0
+    
 mach_args
 =
 {

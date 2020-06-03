@@ -217,6 +217,14 @@ res
 1
 ]
 class
+NodeException
+(
+Exception
+)
+:
+    
+pass
+class
 BrowsertimeRunner
 (
 NodeRunner
@@ -2119,11 +2127,26 @@ command
 )
 )
         
+exit_code
+=
 self
 .
 node
 (
 command
+)
+        
+if
+exit_code
+!
+=
+0
+:
+            
+raise
+NodeException
+(
+exit_code
 )
         
 metadata
