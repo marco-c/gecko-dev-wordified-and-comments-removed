@@ -777,6 +777,10 @@ length
 (
 )
 ;
+fixup
+(
+)
+;
 return
 erased
 ;
