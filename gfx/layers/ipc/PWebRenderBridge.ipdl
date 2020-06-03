@@ -255,7 +255,7 @@ mozilla
 layers
 :
 :
-TransactionData
+MaybeTransactionData
 from
 "
 mozilla
@@ -428,9 +428,7 @@ EmptyTransaction
 (
 FocusTarget
 focusTarget
-TransactionData
-[
-]
+MaybeTransactionData
 transationData
 OpDestroy
 [

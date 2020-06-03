@@ -861,7 +861,7 @@ const
 FocusTarget
 &
 aFocusTarget
-nsTArray
+Maybe
 <
 TransactionData
 >

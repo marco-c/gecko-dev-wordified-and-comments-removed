@@ -284,9 +284,6 @@ PropertyAnimationGroup
 struct
 TileClient
 ;
-struct
-TransactionData
-;
 }
 }
 namespace
@@ -2985,16 +2982,6 @@ layers
 :
 :
 TileClient
-)
-MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
-(
-mozilla
-:
-:
-layers
-:
-:
-TransactionData
 )
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (

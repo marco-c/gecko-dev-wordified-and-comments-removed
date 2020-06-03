@@ -187,6 +187,13 @@ mPaintSequenceNumber
 ;
 }
 ;
+typedef
+Maybe
+<
+TransactionData
+>
+MaybeTransactionData
+;
 }
 namespace
 ipc
