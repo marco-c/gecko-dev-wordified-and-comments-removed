@@ -168,6 +168,10 @@ title
 >
     
 <
+body
+>
+    
+<
 script
 type
 =
@@ -508,6 +512,17 @@ messageerror
 ;
     
 }
+;
+    
+document
+.
+body
+.
+textContent
+=
+location
+.
+href
 ;
     
 <
