@@ -62,7 +62,7 @@ are
 evaluated
 by
 a
-MergeContext
+MigrationContext
 .
 )
 "

@@ -2852,7 +2852,7 @@ E0018
 '
 )
             
-if
+elif
 (
                 
 isinstance
@@ -2862,13 +2862,53 @@ ast
 .
 TermReference
 )
+            
+)
+:
                 
-and
+if
 selector
 .
 attribute
 is
 None
+:
+                    
+raise
+ParseError
+(
+'
+E0017
+'
+)
+            
+elif
+not
+(
+                
+isinstance
+(
+selector
+(
+                    
+ast
+.
+StringLiteral
+                    
+ast
+.
+NumberLiteral
+                    
+ast
+.
+VariableReference
+                    
+ast
+.
+FunctionReference
+                
+)
+)
             
 )
 :
@@ -2877,7 +2917,7 @@ raise
 ParseError
 (
 '
-E0017
+E0029
 '
 )
             
@@ -3113,16 +3153,28 @@ arguments
 =
 None
             
+ps
+.
+peek_blank
+(
+)
+            
 if
 ps
 .
-current_char
+current_peek
 =
 =
 '
 (
 '
 :
+                
+ps
+.
+skip_to_peek
+(
+)
                 
 arguments
 =
@@ -3160,10 +3212,16 @@ get_identifier
 ps
 )
             
+ps
+.
+peek_blank
+(
+)
+            
 if
 ps
 .
-current_char
+current_peek
 =
 =
 '
@@ -3206,6 +3264,12 @@ ParseError
 '
 E0008
 '
+)
+                
+ps
+.
+skip_to_peek
+(
 )
                 
 args

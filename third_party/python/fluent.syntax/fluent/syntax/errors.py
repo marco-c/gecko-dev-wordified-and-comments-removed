@@ -648,5 +648,23 @@ inline
 expression
 '
     
+if
+code
+=
+=
+'
+E0029
+'
+:
+        
+return
+'
+Expected
+simple
+expression
+as
+selector
+'
+    
 return
 code

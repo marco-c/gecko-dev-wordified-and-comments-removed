@@ -145,7 +145,7 @@ be
 fed
 into
     
-MergeContext
+InternalContext
 .
 serialize_changeset
 :

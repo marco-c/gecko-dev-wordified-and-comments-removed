@@ -492,28 +492,26 @@ is
 '
 '
         
-if
+known_plurals
+=
+plurals
+.
+get_plural
+(
 self
 .
 locale
-in
-plurals
-.
-CATEGORIES_BY_LOCALE
+)
+        
+if
+known_plurals
 :
             
 expected_forms
 =
 len
 (
-plurals
-.
-CATEGORIES_BY_LOCALE
-[
-self
-.
-locale
-]
+known_plurals
 )
             
 found_forms
