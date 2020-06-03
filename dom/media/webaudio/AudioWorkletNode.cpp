@@ -981,10 +981,10 @@ exnStack
 )
 )
 {
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 jsReport
 (
 aCx
@@ -999,10 +999,10 @@ init
 (
 aCx
 exnStack
-js
+JS
 :
 :
-ErrorReport
+ErrorReportBuilder
 :
 :
 WithSideEffects
