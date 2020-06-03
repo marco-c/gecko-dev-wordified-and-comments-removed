@@ -715,7 +715,12 @@ Function
 void
 getAllTargets
 :
+(
+Array
+<
 string
+>
+)
 =
 >
 Array

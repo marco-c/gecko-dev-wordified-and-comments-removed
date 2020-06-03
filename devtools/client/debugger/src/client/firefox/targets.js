@@ -777,11 +777,13 @@ targetList
 .
 getAllTargets
 (
+[
 targetList
 .
 TYPES
 .
 PROCESS
+]
 )
 ;
 }
