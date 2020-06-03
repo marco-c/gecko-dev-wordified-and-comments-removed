@@ -126,6 +126,12 @@ python
 '
         
 '
+python
+-
+pip
+'
+        
+'
 unzip
 '
         
