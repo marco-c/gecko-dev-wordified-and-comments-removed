@@ -2053,14 +2053,12 @@ return
 bool
 isThirdPartyWithTopLevelWinURI
 =
-nsContentUtils
+AntiTrackingUtils
 :
 :
-IsThirdPartyWindowOrChannel
+IsThirdPartyChannel
 (
-nullptr
 aChannel
-chanURI
 )
 ;
 UC_LOG
