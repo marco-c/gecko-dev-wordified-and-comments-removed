@@ -550,6 +550,9 @@ coverage
 "
 black
 "
+"
+flake8
+"
 )
 :
             
@@ -626,12 +629,32 @@ venv_bin
 black
 "
         
+flake8
+=
+venv_bin
+/
+"
+flake8
+"
+        
 assert
 self
 .
 _run_script
 (
 black
+str
+(
+HERE
+)
+)
+        
+assert
+self
+.
+_run_script
+(
+flake8
 str
 (
 HERE

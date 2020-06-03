@@ -1250,6 +1250,7 @@ re
 .
 findall
 (
+r
 "
 (
 -
@@ -1310,7 +1311,9 @@ flags
 :
             
 "
-Return
+"
+"
+Returns
 True
 if
 any
@@ -1321,13 +1324,15 @@ of
 the
 given
 flags
-(
-maybe
+            
+Maybe
 with
 an
 argument
-)
 .
+            
+"
+"
 "
             
 for
