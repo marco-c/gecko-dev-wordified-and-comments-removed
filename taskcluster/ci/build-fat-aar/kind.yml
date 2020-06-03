@@ -676,9 +676,6 @@ Shippable
 "
 attributes
 :
-nightly
-:
-true
 shippable
 :
 true
@@ -720,10 +717,10 @@ fat
 -
 aar
 -
-nightly
+opt
 type
 :
-nightly
+shippable
 -
 with
 -
@@ -745,11 +742,13 @@ geckoview
 fat
 -
 aar
+-
+shippable
 /
 opt
 symbol
 :
-Ngv
+Bgv
 dependencies
 :
 android
