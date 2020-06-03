@@ -5183,7 +5183,7 @@ BigInt64
 BigUint64
 MaxTypedArrayViewType
 Int64
-V128
+Simd128
 }
 ;
 static
@@ -5249,7 +5249,7 @@ return
 8
 ;
 case
-V128
+Simd128
 :
 return
 16
@@ -5324,7 +5324,7 @@ case
 BigUint64
 :
 case
-V128
+Simd128
 :
 return
 false
@@ -5399,7 +5399,7 @@ case
 Float64
 :
 case
-V128
+Simd128
 :
 return
 false

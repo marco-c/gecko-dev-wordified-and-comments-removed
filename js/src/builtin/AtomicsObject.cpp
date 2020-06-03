@@ -1470,7 +1470,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 break
 ;

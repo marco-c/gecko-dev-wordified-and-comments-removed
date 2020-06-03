@@ -1887,7 +1887,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 case
 Scalar
@@ -2201,7 +2201,7 @@ case
 Scalar
 :
 :
-V128
+Simd128
 :
 case
 Scalar

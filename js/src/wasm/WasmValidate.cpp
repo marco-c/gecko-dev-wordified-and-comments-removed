@@ -11450,7 +11450,7 @@ addScalar
 Scalar
 :
 :
-V128
+Simd128
 )
 ;
 break
