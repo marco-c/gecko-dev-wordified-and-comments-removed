@@ -165,6 +165,13 @@ PrepareForUse
 }
 virtual
 void
+NofityForUse
+(
+)
+{
+}
+virtual
+void
 NotifyNotUsed
 (
 )
