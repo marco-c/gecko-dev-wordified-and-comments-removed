@@ -4568,6 +4568,11 @@ cx
 )
 {
 }
+~
+Isolate
+(
+)
+;
 bool
 init
 (
