@@ -369,3 +369,17 @@ size
 24bpp
 .
 png
+=
+=
+24bpp
+-
+rgb
+.
+bmp
+24bpp
+-
+rgb
+-
+ref
+.
+png
