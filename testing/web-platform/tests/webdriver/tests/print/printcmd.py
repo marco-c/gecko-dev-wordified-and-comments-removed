@@ -45,8 +45,6 @@ session
 session_id
 }
 /
-moz
-/
 print
 "
 .
