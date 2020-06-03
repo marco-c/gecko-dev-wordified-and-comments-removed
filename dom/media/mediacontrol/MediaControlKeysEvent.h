@@ -52,6 +52,7 @@ MediaControlKeysEvent
 :
 uint32_t
 {
+eFocus
 ePlay
 ePause
 ePlayPause
@@ -59,7 +60,6 @@ ePrevTrack
 eNextTrack
 eSeekBackward
 eSeekForward
-eFocus
 eStop
 }
 ;
