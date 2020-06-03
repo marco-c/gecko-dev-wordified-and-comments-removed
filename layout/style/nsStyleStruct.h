@@ -396,7 +396,7 @@ bool
 mExplicitLanguage
 ;
 bool
-mAllowZoom
+mAllowZoomAndMinSize
 ;
 nscoord
 mScriptUnconstrainedSize
