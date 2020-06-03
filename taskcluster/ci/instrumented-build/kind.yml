@@ -628,10 +628,8 @@ android
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 :
 description
 :

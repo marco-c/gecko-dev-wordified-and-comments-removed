@@ -2177,10 +2177,8 @@ arm7
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 :
 build
 -
@@ -2192,7 +2190,7 @@ api
 -
 16
 -
-shippable
+pgo
 /
 opt
 test
@@ -2289,10 +2287,8 @@ arm7
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 :
 build
 -
@@ -2304,7 +2300,7 @@ api
 -
 16
 -
-shippable
+pgo
 /
 opt
 test
@@ -2639,10 +2635,8 @@ p2
 android
 -
 aarch64
--
-shippable
 /
-opt
+pgo
 :
 build
 -
@@ -2652,7 +2646,7 @@ android
 -
 aarch64
 -
-shippable
+pgo
 /
 opt
 test

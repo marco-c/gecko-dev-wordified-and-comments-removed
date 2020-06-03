@@ -1400,7 +1400,7 @@ linux64
 opt
 type
 :
-shippable
+nightly
 treeherder
 :
 platform
@@ -1412,7 +1412,7 @@ devedition
 opt
 symbol
 :
-B
+N
 worker
 -
 type
@@ -3381,7 +3381,7 @@ linux
 opt
 type
 :
-shippable
+nightly
 treeherder
 :
 platform
@@ -3393,7 +3393,7 @@ devedition
 opt
 symbol
 :
-B
+N
 worker
 -
 type

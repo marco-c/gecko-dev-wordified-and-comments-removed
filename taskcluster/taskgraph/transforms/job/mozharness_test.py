@@ -86,6 +86,10 @@ VARIANTS
 [
     
 '
+nightly
+'
+    
+'
 shippable
 '
     
@@ -276,6 +280,9 @@ platform
 )
 in
 (
+"
+nightly
+"
 '
 shippable
 '

@@ -757,10 +757,8 @@ android
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 fetches
 :
 build
@@ -1530,10 +1528,8 @@ android
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 fetches
 :
 build
@@ -1807,10 +1803,8 @@ android
 api
 -
 16
--
-shippable
 /
-opt
+pgo
 fetches
 :
 build

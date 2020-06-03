@@ -1391,6 +1391,27 @@ and
 use_artifact
 and
             
+not
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
+.
+get
+(
+'
+nightly
+'
+False
+)
+and
+            
 job
 .
 get

@@ -567,8 +567,18 @@ add
 f
 )
         
-is_shippable
+is_nightly
 =
+dep_job
+.
+attributes
+.
+get
+(
+            
+'
+nightly
+'
 dep_job
 .
 attributes
@@ -579,6 +589,7 @@ get
 shippable
 '
 False
+)
 )
         
 build_platform
@@ -949,7 +960,7 @@ get_signing_cert_scope_per_platform
 (
             
 build_platform
-is_shippable
+is_nightly
 config
         
 )
@@ -962,7 +973,7 @@ linux
 signing
 '
 if
-is_shippable
+is_nightly
 else
 '
 linux
@@ -1171,6 +1182,27 @@ attributes
 [
 "
 shippable
+"
+]
+:
+                
+shippable
+=
+"
+true
+"
+            
+if
+"
+nightly
+"
+in
+attributes
+and
+attributes
+[
+"
+nightly
 "
 ]
 :

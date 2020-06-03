@@ -5662,6 +5662,14 @@ opt
                 
 '
 linux64
+-
+nightly
+/
+opt
+'
+                
+'
+linux64
 /
 debug
 '
@@ -5853,6 +5861,16 @@ windows7
 -
 32
 -
+nightly
+/
+opt
+'
+                
+'
+windows7
+-
+32
+-
 shippable
 /
 opt
@@ -5908,6 +5926,16 @@ windows10
 64
 -
 devedition
+/
+opt
+'
+                
+'
+windows10
+-
+64
+-
+nightly
 /
 opt
 '
@@ -5980,6 +6008,16 @@ macosx1014
 64
 /
 debug
+'
+                
+'
+macosx1014
+-
+64
+-
+nightly
+/
+opt
 '
                 
 '

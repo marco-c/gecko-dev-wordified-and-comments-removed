@@ -789,6 +789,17 @@ get
 '
 shippable
 '
+                
+dep_job
+.
+attributes
+.
+get
+(
+'
+nightly
+'
+)
 )
 )
         

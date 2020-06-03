@@ -261,8 +261,17 @@ build_platform
 '
 )
         
-is_shippable
+is_nightly
 =
+dep_job
+.
+attributes
+.
+get
+(
+'
+nightly
+'
 dep_job
 .
 attributes
@@ -272,6 +281,7 @@ get
 '
 shippable
 '
+)
 )
         
 label
@@ -469,7 +479,7 @@ get_signing_cert_scope_per_platform
 (
             
 build_platform
-is_shippable
+is_nightly
 config
         
 )
