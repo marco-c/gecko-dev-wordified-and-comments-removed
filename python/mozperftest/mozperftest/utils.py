@@ -194,6 +194,12 @@ lambda
 1
         
 yield
+sys
+.
+stdout
+sys
+.
+stderr
     
 finally
 :
