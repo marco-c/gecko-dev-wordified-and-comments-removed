@@ -2606,6 +2606,17 @@ e
 )
 {
 }
+await
+browser
+.
+experiments
+.
+doorhanger
+.
+cancel
+(
+)
+;
 }
 }
 )
