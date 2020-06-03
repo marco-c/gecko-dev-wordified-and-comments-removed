@@ -669,7 +669,6 @@ mozilla
 org
 >
 _
-\
 or
 the
 Mozilla

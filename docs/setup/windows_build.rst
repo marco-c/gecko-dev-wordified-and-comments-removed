@@ -2348,7 +2348,6 @@ update
 -
 C
 "
-\
 command
 .
 Once
@@ -2933,16 +2932,11 @@ are
 installed
 launch
 the
-\
-*
-*
 start
 -
 shell
 .
 bat
-*
-*
 batch
 file
 using
@@ -3403,7 +3397,6 @@ search
 path
 enhanced
 by
-\
 start
 -
 shell
@@ -3492,7 +3485,6 @@ cd
 c
 /
 mydir
-\
 though
 both
 c
@@ -4070,7 +4062,6 @@ together
 .
 Use
 a
-\
 *
 #
 define
