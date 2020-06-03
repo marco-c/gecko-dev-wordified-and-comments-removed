@@ -3257,17 +3257,6 @@ AnonymousTemporaryFileCallback
 aCallback
 )
 ;
-already_AddRefed
-<
-nsIEventTarget
->
-GetEventTargetFor
-(
-BrowserChild
-*
-aBrowserChild
-)
-;
 mozilla
 :
 :
