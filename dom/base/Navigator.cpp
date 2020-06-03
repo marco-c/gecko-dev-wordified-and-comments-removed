@@ -2513,11 +2513,17 @@ nsIURI
 >
 contentURI
 ;
+BasePrincipal
+:
+:
+Cast
+(
 doc
 -
 >
 NodePrincipal
 (
+)
 )
 -
 >
