@@ -844,6 +844,13 @@ aState
 override
 ;
 virtual
+bool
+NeedsRecreateToReshow
+(
+)
+override
+;
+virtual
 nsIWidget
 *
 GetSheetWindowParent
@@ -1891,6 +1898,11 @@ mInputContext
 ;
 NSWindowAnimationBehavior
 mWindowAnimationBehavior
+;
+private
+:
+bool
+mWasShown
 ;
 }
 ;
