@@ -2823,15 +2823,6 @@ scale
 )
 ;
 async
-ThemeChanged
-(
-LookAndFeelInt
-[
-]
-lookAndFeelIntCache
-)
-;
-async
 SafeAreaInsetsChanged
 (
 ScreenIntMargin

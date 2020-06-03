@@ -2122,6 +2122,15 @@ uri
 )
 ;
 async
+ThemeChanged
+(
+LookAndFeelInt
+[
+]
+lookAndFeelIntCache
+)
+;
+async
 PreferenceUpdate
 (
 Pref
