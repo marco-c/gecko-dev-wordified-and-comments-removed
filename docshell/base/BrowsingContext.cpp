@@ -8385,8 +8385,14 @@ CallerType
 System
 )
 ;
+return
+;
 }
-else
+SetClosed
+(
+true
+)
+;
 if
 (
 ContentChild
