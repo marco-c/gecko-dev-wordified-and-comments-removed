@@ -4,8 +4,6 @@ wptserve
 handlers
 import
 HTTPException
-import
-urllib
 def
 main
 (
@@ -20,6 +18,7 @@ request
 method
 !
 =
+u
 "
 GET
 "
@@ -31,6 +30,7 @@ HTTPException
 400
 message
 =
+u
 "
 Method
 was
@@ -41,6 +41,7 @@ GET
     
 if
 not
+b
 "
 id
 "
@@ -56,6 +57,7 @@ HTTPException
 400
 message
 =
+u
 "
 No
 id
@@ -68,12 +70,14 @@ request
 .
 GET
 [
+b
 '
 id
 '
 ]
     
 if
+b
 "
 read
 "
@@ -107,6 +111,7 @@ response
 set_error
 (
 404
+u
 "
 Tried
 to
@@ -123,11 +128,13 @@ return
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -138,6 +145,7 @@ plain
 data
     
 elif
+b
 "
 cleanup
 "
@@ -159,11 +167,13 @@ id
 )
         
 return
+b
 "
 OK
 "
     
 elif
+b
 "
 delete
 -
@@ -185,11 +195,13 @@ id
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -197,11 +209,13 @@ plain
 "
 )
 ]
+b
 "
 OK
 "
     
 if
+b
 "
 origin
 "
@@ -217,6 +231,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -230,6 +245,7 @@ request
 .
 GET
 [
+b
 '
 origin
 '
@@ -242,6 +258,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -251,6 +268,7 @@ Allow
 -
 Credentials
 '
+b
 '
 true
 '
@@ -264,9 +282,11 @@ headers
 .
 get
 (
+b
 "
 origin
 "
+b
 "
 no
 "
@@ -295,12 +315,14 @@ is
 not
 None
 else
+b
 "
 no
 "
     
 line
 =
+b
 '
 cors
 =
@@ -308,6 +330,7 @@ cors
 +
 cors
 +
+b
 '
 |
 cookie
@@ -315,7 +338,6 @@ cookie
 '
 +
 cookie_value
-;
     
 data
 =
@@ -341,6 +363,7 @@ line
 =
 data
 +
+b
 "
 \
 n
@@ -361,6 +384,7 @@ line
 )
     
 if
+b
 "
 redirect
 "
@@ -382,6 +406,7 @@ headers
 .
 set
 (
+b
 '
 Location
 '
@@ -389,6 +414,7 @@ request
 .
 GET
 [
+b
 '
 redirect
 '
@@ -399,6 +425,7 @@ else
 :
         
 return
+b
 "
 "
 "

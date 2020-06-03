@@ -8,6 +8,7 @@ png_response
 =
 decodestring
 (
+b
 '
 iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAAAAAA6fptVAAAACklEQVR4nGNiAAAABgADNjd8qAAAAABJRU5ErkJggg
 =

@@ -1,3 +1,7 @@
+from
+six
+import
+PY3
 def
 get_response
 (
@@ -9,15 +13,70 @@ filter_name
     
 result
 =
+b
 "
 "
+    
+if
+PY3
+:
+        
+header_list
+=
+[
+            
+(
+s
++
+u
+'
+\
+r
+\
+n
+'
+)
+.
+encode
+(
+"
+iso
+-
+8859
+-
+1
+"
+)
+for
+s
+in
+raw_headers
+.
+as_string
+(
+)
+.
+splitlines
+(
+)
+if
+s
+        
+]
+    
+else
+:
+        
+header_list
+=
+raw_headers
+.
+headers
     
 for
 line
 in
-raw_headers
-.
-headers
+header_list
 :
         
 if
@@ -29,6 +88,7 @@ line
 ]
 !
 =
+b
 '
 \
 r
@@ -38,6 +98,7 @@ n
 :
             
 return
+b
 "
 Syntax
 error
@@ -59,6 +120,7 @@ line
 ]
         
 if
+b
 '
 :
 '
@@ -68,6 +130,7 @@ line
 :
             
 return
+b
 "
 Syntax
 error
@@ -89,6 +152,7 @@ line
 .
 split
 (
+b
 '
 :
 '
@@ -111,6 +175,7 @@ result
 =
 name
 +
+b
 "
 "
         
@@ -130,12 +195,14 @@ result
 =
 name
 +
+b
 "
 :
 "
 +
 value
 +
+b
 "
 \
 n
@@ -171,6 +238,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -180,6 +248,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -191,6 +260,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -200,6 +270,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -211,6 +282,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -220,6 +292,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 POST
@@ -234,6 +307,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -243,6 +317,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -259,6 +334,8 @@ headers
 append
 (
 (
+            
+b
 "
 Access
 -
@@ -268,6 +345,8 @@ Expose
 -
 Headers
 "
+            
+b
 "
 x
 -
@@ -302,11 +381,13 @@ headers
 append
 (
 (
+b
 "
 content
 -
 type
 "
+b
 "
 text
 /
@@ -323,9 +404,11 @@ GET
 .
 first
 (
+b
 "
 filter_value
 "
+b
 "
 "
 )
@@ -338,9 +421,11 @@ GET
 .
 first
 (
+b
 "
 filter_name
 "
+b
 "
 "
 )

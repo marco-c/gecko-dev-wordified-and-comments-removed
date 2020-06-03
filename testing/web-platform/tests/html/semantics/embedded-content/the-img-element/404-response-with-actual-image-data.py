@@ -12,11 +12,13 @@ return
 404
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 image
 /
@@ -28,6 +30,7 @@ base64
 .
 decodestring
 (
+b
 "
 iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8
 /

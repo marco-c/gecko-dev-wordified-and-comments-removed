@@ -13,6 +13,7 @@ headers
 .
 get
 (
+b
 '
 Content
 -
@@ -21,6 +22,7 @@ Type
 )
 =
 =
+b
 '
 application
 /
@@ -41,6 +43,7 @@ request
 body
 =
 =
+b
 '
 foo
 =
@@ -54,6 +57,7 @@ headers
 .
 get
 (
+b
 '
 Content
 -
@@ -62,6 +66,7 @@ Type
 )
 =
 =
+b
 '
 text
 /
@@ -76,6 +81,7 @@ request
 body
 =
 =
+b
 '
 qux
 =
@@ -97,12 +103,14 @@ POST
 .
 first
 (
+b
 '
 foo
 '
 )
 =
 =
+b
 '
 bar
 '
@@ -118,6 +126,7 @@ url_parts
 query
 =
 =
+u
 '
 query
 =
@@ -128,11 +137,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -141,12 +152,14 @@ plain
 )
 ]
             
+b
 "
 OK
 "
 if
 result
 else
+b
 "
 FAIL
 "

@@ -11,11 +11,13 @@ headers
 [
         
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -24,6 +26,7 @@ javascript
 )
         
 (
+b
 "
 Access
 -
@@ -39,6 +42,7 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
@@ -46,6 +50,7 @@ Origin
 )
         
 (
+b
 "
 Access
 -
@@ -55,6 +60,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -70,6 +76,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -83,6 +90,7 @@ GET
 .
 first
 (
+b
 "
 cookieName
 "
@@ -112,6 +120,7 @@ None
         
 return
 headers
+b
 "
 "
     
@@ -123,6 +132,7 @@ None
         
 result
 =
+b
 "
 not
 found
@@ -134,6 +144,7 @@ cookie
 value
 =
 =
+b
 "
 1
 "
@@ -141,6 +152,7 @@ value
         
 result
 =
+b
 "
 found
 "
@@ -150,6 +162,7 @@ else
         
 result
 =
+b
 "
 different
 value
@@ -162,6 +175,7 @@ value
     
 return
 headers
+b
 "
 window
 .
@@ -169,6 +183,7 @@ window
 +
 identifier
 +
+b
 "
 =
 '
@@ -176,6 +191,7 @@ identifier
 +
 result
 +
+b
 "
 '
 ;
