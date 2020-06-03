@@ -1178,10 +1178,7 @@ android
 /
 examples
 /
-extensions
-/
 messaging_example
-/
 >
 _
 .
@@ -2283,10 +2280,7 @@ android
 /
 examples
 /
-extensions
-/
 port_messaging_example
-/
 >
 _
 .
