@@ -406,7 +406,7 @@ dataset
 .
 linkActorId
 :
-null
+actor
 ;
 const
 elementNode
