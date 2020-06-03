@@ -2089,6 +2089,7 @@ inline
 unsigned
 GetBytecodeLength
 (
+const
 jsbytecode
 *
 pc
