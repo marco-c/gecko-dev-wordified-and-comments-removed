@@ -341,8 +341,8 @@ CONTENTAPPEND
 CONTENTINSERT
 }
 ;
-bool
-MaybeConstructLazily
+void
+ConstructLazily
 (
 Operation
 aOperation
