@@ -51,6 +51,13 @@ nsIOService
 .
 h
 "
+#
+include
+"
+nsQueryObject
+.
+h
+"
 namespace
 mozilla
 {
