@@ -345,13 +345,13 @@ optimize
 experimental
 .
 bugbug_all_high
-bugbug_debug
+bugbug_debug_disperse
 :
 description
 :
 Runs
 the
-bugbug_debug
+bugbug_debug_disperse
 optimization
 strategy
 instead
@@ -365,7 +365,7 @@ symbol
 :
 SS
 (
-bugbug_debug
+bugbug_debug_disperse
 )
 index
 :
@@ -380,7 +380,7 @@ shadow
 -
 scheduler
 -
-bugbug_debug
+bugbug_debug_disperse
 worker
 :
 env
@@ -393,7 +393,7 @@ optimize
 :
 experimental
 .
-bugbug_debug
+bugbug_debug_disperse
 bugbug_disperse_low
 :
 description
