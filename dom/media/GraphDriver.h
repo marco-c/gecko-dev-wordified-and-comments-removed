@@ -2065,6 +2065,11 @@ AudioOutputLatency
 (
 )
 ;
+TimeDuration
+AudioInputLatency
+(
+)
+;
 private
 :
 void
@@ -2255,6 +2260,7 @@ None
 Pending
 Running
 Stopping
+Errored
 }
 ;
 Atomic
