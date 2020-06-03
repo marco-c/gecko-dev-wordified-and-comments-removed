@@ -1875,6 +1875,16 @@ InitializeDateTimeFormat
 \
 MACRO
 (
+InitializeDisplayNames
+InitializeDisplayNames
+\
+"
+InitializeDisplayNames
+"
+)
+\
+MACRO
+(
 InitializeListFormat
 InitializeListFormat
 "

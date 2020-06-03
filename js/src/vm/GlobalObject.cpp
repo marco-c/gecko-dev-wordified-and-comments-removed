@@ -96,6 +96,17 @@ builtin
 /
 intl
 /
+DisplayNames
+.
+h
+"
+#
+include
+"
+builtin
+/
+intl
+/
 ListFormat
 .
 h
@@ -875,6 +886,9 @@ JSProto_Collator
 :
 case
 JSProto_DateTimeFormat
+:
+case
+JSProto_DisplayNames
 :
 case
 JSProto_Locale
