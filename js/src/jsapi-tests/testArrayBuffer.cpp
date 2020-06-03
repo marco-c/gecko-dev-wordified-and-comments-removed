@@ -1712,10 +1712,10 @@ exnStack
 )
 )
 ;
-JS
+js
 :
 :
-ErrorReportBuilder
+ErrorReport
 report
 (
 cx
@@ -1729,10 +1729,10 @@ init
 (
 cx
 exnStack
-JS
+js
 :
 :
-ErrorReportBuilder
+ErrorReport
 :
 :
 NoSideEffects
