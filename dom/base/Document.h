@@ -9590,16 +9590,6 @@ GetTopLayerTop
 (
 )
 ;
-bool
-DoesTopLayerContain
-(
-const
-Element
-*
-aElement
-)
-const
-;
 Element
 *
 GetUnretargetedFullScreenElement
