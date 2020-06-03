@@ -3325,6 +3325,10 @@ e
 :
                     
 if
+six
+.
+PY3
+and
 e
 .
 name
@@ -3333,6 +3337,26 @@ name
 "
 zstandard
 "
+:
+                        
+raise
+                    
+elif
+six
+.
+PY2
+and
+e
+.
+message
+!
+=
+'
+No
+module
+named
+zstandard
+'
 :
                         
 raise
