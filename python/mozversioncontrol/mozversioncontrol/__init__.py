@@ -3054,9 +3054,12 @@ path
                                   
 env
 =
+ensure_subprocess_env
+(
 self
 .
 _env
+)
 )
         
 except
