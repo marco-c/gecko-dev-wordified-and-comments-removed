@@ -4992,6 +4992,9 @@ target
 cross_compiling
 hazard_analysis
 asan
+'
+MOZ_AUTOMATION
+'
 )
 def
 geckodriver_default
@@ -5001,6 +5004,7 @@ target
 cross_compile
 hazard
 asan
+automation
 )
 :
 if
@@ -5047,6 +5051,11 @@ asan
 and
 cross_compile
 )
+:
+return
+False
+if
+automation
 :
 return
 False
