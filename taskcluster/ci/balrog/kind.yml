@@ -132,7 +132,7 @@ api
 -
 16
 -
-nightly
+shippable
 /
 opt
 -
@@ -140,7 +140,7 @@ android
 -
 x86_64
 -
-nightly
+shippable
 /
 opt
 -
@@ -148,7 +148,7 @@ android
 -
 x86
 -
-nightly
+shippable
 /
 opt
 -
@@ -156,7 +156,7 @@ android
 -
 aarch64
 -
-nightly
+shippable
 /
 opt
 job

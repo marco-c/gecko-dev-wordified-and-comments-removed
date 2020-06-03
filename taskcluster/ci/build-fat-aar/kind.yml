@@ -658,7 +658,7 @@ fat
 -
 aar
 -
-nightly
+shippable
 /
 opt
 :
@@ -672,7 +672,7 @@ multi
 architecture
 fat
 AAR
-Nightly
+Shippable
 "
 attributes
 :
@@ -753,7 +753,7 @@ android
 -
 x86
 -
-nightly
+shippable
 :
 build
 -
@@ -761,14 +761,14 @@ android
 -
 x86
 -
-nightly
+shippable
 /
 opt
 android
 -
 x86_64
 -
-nightly
+shippable
 :
 build
 -
@@ -776,7 +776,7 @@ android
 -
 x86_64
 -
-nightly
+shippable
 /
 opt
 android
@@ -785,7 +785,7 @@ api
 -
 16
 -
-nightly
+shippable
 :
 build
 -
@@ -795,14 +795,14 @@ api
 -
 16
 -
-nightly
+shippable
 /
 opt
 android
 -
 aarch64
 -
-nightly
+shippable
 :
 build
 -
@@ -810,7 +810,7 @@ android
 -
 aarch64
 -
-nightly
+shippable
 /
 opt
 worker

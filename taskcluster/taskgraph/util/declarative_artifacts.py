@@ -110,7 +110,7 @@ android
 -
 aarch64
 -
-nightly
+shippable
 '
 :
 '
@@ -131,7 +131,7 @@ api
 -
 16
 -
-nightly
+shippable
 '
 :
 '
@@ -150,7 +150,7 @@ android
 -
 x86
 -
-nightly
+shippable
 '
 :
 '
@@ -167,7 +167,7 @@ android
 -
 x86_64
 -
-nightly
+shippable
 '
 :
 '
@@ -188,7 +188,7 @@ fat
 -
 aar
 -
-nightly
+shippable
 '
 :
 '

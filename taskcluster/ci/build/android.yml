@@ -766,7 +766,7 @@ android
 -
 x86
 -
-nightly
+shippable
 /
 opt
 :
@@ -778,7 +778,7 @@ Android
 .
 2
 x86
-Nightly
+Shippable
 "
 attributes
 :
@@ -1228,7 +1228,7 @@ api
 -
 16
 -
-nightly
+shippable
 /
 opt
 :
@@ -1243,7 +1243,7 @@ api
 -
 16
 +
-Nightly
+Shippable
 "
 use
 -
@@ -1827,7 +1827,7 @@ android
 -
 aarch64
 -
-nightly
+shippable
 /
 opt
 :
@@ -1839,7 +1839,7 @@ Android
 .
 0
 AArch64
-Nightly
+Shippable
 "
 use
 -
@@ -2145,7 +2145,7 @@ android
 -
 x86_64
 -
-nightly
+shippable
 /
 opt
 :
@@ -2159,7 +2159,7 @@ Android
 x86
 -
 64
-Nightly
+Shippable
 "
 attributes
 :
