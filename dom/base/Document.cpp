@@ -43457,11 +43457,6 @@ if
 adoptedNode
 -
 >
-AsContent
-(
-)
--
->
 IsRootOfNativeAnonymousSubtree
 (
 )
