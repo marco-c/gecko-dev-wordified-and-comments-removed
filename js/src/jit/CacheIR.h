@@ -6935,6 +6935,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathRound
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathSqrt
 (
 HandleFunction
