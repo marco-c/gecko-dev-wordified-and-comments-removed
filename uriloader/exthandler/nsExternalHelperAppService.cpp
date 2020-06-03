@@ -5374,6 +5374,10 @@ mShouldCloseWindow
 (
 false
 )
+mHandleInternally
+(
+false
+)
 mReason
 (
 aReason
@@ -7730,6 +7734,7 @@ rv
 =
 LaunchWithApplication
 (
+mHandleInternally
 )
 ;
 }
@@ -9404,17 +9409,6 @@ rv
 rv
 )
 ;
-nsCOMPtr
-<
-nsIChannel
->
-channel
-=
-do_QueryInterface
-(
-mRequest
-)
-;
 rv
 =
 transfer
@@ -9438,6 +9432,7 @@ NS_UsePrivateBrowsing
 (
 channel
 )
+mHandleInternally
 )
 ;
 NS_ENSURE_SUCCESS
@@ -9641,6 +9636,7 @@ mTimeDownloadStarted
 nullptr
 this
 aIsPrivateBrowsing
+mHandleInternally
 )
 ;
 NS_ENSURE_SUCCESS
@@ -10118,6 +10114,8 @@ nsExternalAppHandler
 :
 LaunchWithApplication
 (
+bool
+aHandleInternally
 )
 {
 if
@@ -10126,6 +10124,10 @@ mCanceled
 )
 return
 NS_OK
+;
+mHandleInternally
+=
+aHandleInternally
 ;
 nsCOMPtr
 <

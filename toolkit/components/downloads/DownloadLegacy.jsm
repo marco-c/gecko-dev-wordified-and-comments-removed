@@ -679,6 +679,7 @@ aStartTime
 aTempFile
 aCancelable
 aIsPrivate
+aHandleInternally
 )
 {
 this
@@ -815,6 +816,9 @@ legacy
 launchWhenSucceeded
 contentType
 launcherPath
+handleInternally
+:
+aHandleInternally
 }
 )
 .

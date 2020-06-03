@@ -67,6 +67,9 @@ aCancelable
 in
 boolean
 aIsPrivate
+in
+boolean
+aHandleInternally
 )
 ;
 void
