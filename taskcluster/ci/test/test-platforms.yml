@@ -2192,7 +2192,7 @@ api
 -
 16
 -
-pgo
+shippable
 /
 opt
 test
@@ -2304,7 +2304,7 @@ api
 -
 16
 -
-pgo
+shippable
 /
 opt
 test
@@ -2652,7 +2652,7 @@ android
 -
 aarch64
 -
-pgo
+shippable
 /
 opt
 test
