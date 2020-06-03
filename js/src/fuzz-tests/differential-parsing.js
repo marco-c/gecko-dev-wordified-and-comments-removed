@@ -404,6 +404,9 @@ code
 )
 )
 ;
+return
+0
+;
 }
 function
 testFile
