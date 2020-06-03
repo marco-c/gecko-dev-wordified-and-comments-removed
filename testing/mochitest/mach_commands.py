@@ -1710,6 +1710,12 @@ resolve
 import
 get_suite_definition
         
+self
+.
+_activate_virtualenv
+(
+)
+        
 buildapp
 =
 None
