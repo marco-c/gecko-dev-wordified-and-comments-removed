@@ -455,6 +455,7 @@ frame
 )
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
@@ -659,6 +660,7 @@ right
 }
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
@@ -703,6 +705,7 @@ transform
 }
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
@@ -745,6 +748,7 @@ height
 }
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
@@ -818,6 +822,7 @@ inverse
 }
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
@@ -853,6 +858,7 @@ emulatedPosition
 }
 ;
 [
+ProbablyShortLivingWrapper
 Pref
 =
 "
