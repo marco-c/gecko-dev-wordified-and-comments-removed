@@ -838,11 +838,6 @@ serializeWithMoz2D
 aTranslator
 -
 >
-GetReferenceDrawTarget
-(
-)
--
->
 GetBackendType
 (
 )
@@ -1062,11 +1057,6 @@ AutoSerializeWithMoz2D
 serializeWithMoz2D
 (
 aTranslator
--
->
-GetReferenceDrawTarget
-(
-)
 -
 >
 GetBackendType
