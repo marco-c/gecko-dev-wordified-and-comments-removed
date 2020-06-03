@@ -249,8 +249,6 @@ mWasL10nCached
 void
 SetIsL10nCached
 (
-bool
-aIsCached
 )
 ;
 void

@@ -446,7 +446,6 @@ mDocumentL10n
 >
 InitialTranslationCompleted
 (
-true
 )
 ;
 mPromise
@@ -482,7 +481,6 @@ mDocumentL10n
 >
 InitialTranslationCompleted
 (
-false
 )
 ;
 mPromise
@@ -597,7 +595,6 @@ Failed
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -639,7 +636,6 @@ documentElement
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -676,7 +672,6 @@ Failed
 {
 InitialTranslationCompleted
 (
-false
 )
 ;
 mReady
@@ -740,7 +735,6 @@ Resolved
 {
 InitialTranslationCompleted
 (
-true
 )
 ;
 mReady
@@ -1268,8 +1262,6 @@ DocumentL10n
 :
 InitialTranslationCompleted
 (
-bool
-aL10nCached
 )
 {
 if
@@ -1320,7 +1312,6 @@ mDocument
 >
 InitialTranslationCompleted
 (
-aL10nCached
 )
 ;
 if

@@ -20127,8 +20127,6 @@ Document
 :
 InitialTranslationCompleted
 (
-bool
-aL10nCached
 )
 {
 if
@@ -20179,7 +20177,6 @@ proto
 >
 SetIsL10nCached
 (
-aL10nCached
 )
 ;
 }
