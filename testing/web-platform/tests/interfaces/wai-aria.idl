@@ -56,15 +56,13 @@ https
 :
 /
 /
-rawgit
-.
-com
-/
 w3c
+.
+github
+.
+io
 /
 aria
-/
-master
 /
 )
 interface
@@ -73,6 +71,7 @@ AccessibilityRole
 {
 attribute
 DOMString
+?
 role
 ;
 }
