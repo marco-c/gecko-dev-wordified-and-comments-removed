@@ -449,8 +449,6 @@ mLoadFailed
 const
 IsPreload
 mIsPreload
-:
-2
 ;
 const
 nsCOMPtr
