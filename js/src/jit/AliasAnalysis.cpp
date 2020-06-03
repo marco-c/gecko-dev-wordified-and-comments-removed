@@ -963,6 +963,15 @@ Opcode
 :
 HomeObjectSuperBase
 :
+case
+MDefinition
+:
+:
+Opcode
+:
+:
+ObjectStaticProto
+:
 object
 =
 ins
