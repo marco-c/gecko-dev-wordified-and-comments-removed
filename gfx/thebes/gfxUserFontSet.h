@@ -740,7 +740,7 @@ class
 gfxUserFontEntry
 ;
 class
-gfxOTSMessageContext
+gfxOTSContext
 ;
 class
 gfxUserFontSet
@@ -751,7 +751,7 @@ gfxUserFontEntry
 ;
 friend
 class
-gfxOTSMessageContext
+gfxOTSContext
 ;
 public
 :
@@ -2027,7 +2027,7 @@ nsFontFaceLoader
 ;
 friend
 class
-gfxOTSMessageContext
+gfxOTSContext
 ;
 public
 :
