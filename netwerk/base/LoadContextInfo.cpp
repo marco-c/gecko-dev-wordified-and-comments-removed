@@ -547,14 +547,10 @@ oa
 StoragePrincipalHelper
 :
 :
-GetOriginAttributes
+GetOriginAttributesForNetworkState
 (
 aChannel
 oa
-StoragePrincipalHelper
-:
-:
-eRegularPrincipal
 )
 ;
 MOZ_ASSERT
