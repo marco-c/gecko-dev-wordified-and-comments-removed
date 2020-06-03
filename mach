@@ -151,7 +151,6 @@ clang
 format
 cppunittest
 cramtest
-crashtest
 devtools
 -
 css
