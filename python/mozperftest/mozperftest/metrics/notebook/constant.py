@@ -13,6 +13,7 @@ from
 transforms
 import
 single_json
+logcattime
 class
 Constant
 (
@@ -124,6 +125,14 @@ SingleJsonRetriever
 single_json
 .
 SingleJsonRetriever
+            
+"
+LogCatTimeTransformer
+"
+:
+logcattime
+.
+LogCatTimeTransformer
         
 }
     

@@ -359,6 +359,9 @@ process
 (
 self
 name
+*
+*
+kwargs
 )
 :
         
@@ -515,6 +518,9 @@ _custom_transformer
 transform
 (
 data
+*
+*
+kwargs
 )
                 
 if

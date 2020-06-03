@@ -102,10 +102,16 @@ results
 transformer
 "
 "
+transformer
+-
+options
+"
+"
 extraOptions
 "
 ]
 )
+    
 |
 KNOWN_PERFHERDER_PROPS
 )
