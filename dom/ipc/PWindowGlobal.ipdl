@@ -245,8 +245,6 @@ aViolationEventJSON
 async
 SaveStorageAccessGranted
 (
-nsCString
-aPermissionKey
 )
 ;
 both
