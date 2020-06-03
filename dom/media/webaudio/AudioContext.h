@@ -532,16 +532,6 @@ DisconnectFromOwner
 )
 override
 ;
-virtual
-void
-BindToOwner
-(
-nsIGlobalObject
-*
-aNew
-)
-override
-;
 void
 Shutdown
 (
