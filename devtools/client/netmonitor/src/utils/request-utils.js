@@ -481,10 +481,6 @@ result
 if
 (
 preHeaderText
-!
-=
-"
-"
 )
 {
 result

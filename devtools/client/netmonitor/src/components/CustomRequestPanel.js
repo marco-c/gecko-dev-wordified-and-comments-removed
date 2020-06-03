@@ -1038,6 +1038,10 @@ requestHeaders
 .
 headers
 )
+.
+trim
+(
+)
 ;
 }
 const
