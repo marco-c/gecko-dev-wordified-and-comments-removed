@@ -2548,8 +2548,6 @@ setInterval
 .
 tentative
 .
-https
-.
 html
 SET
 TIMEOUT
@@ -2565,8 +2563,6 @@ setTimeout
 setInterval
 .
 tentative
-.
-https
 .
 html
 SET
