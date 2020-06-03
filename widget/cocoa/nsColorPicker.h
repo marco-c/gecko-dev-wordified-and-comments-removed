@@ -82,11 +82,6 @@ aColor
 )
 ;
 void
-DoneWithRetarget
-(
-)
-;
-void
 Done
 (
 )
@@ -121,10 +116,9 @@ nsAString
 aResult
 )
 ;
-static
 NSColorPanelWrapper
 *
-sColorPanelWrapper
+mColorPanelWrapper
 ;
 nsString
 mTitle
