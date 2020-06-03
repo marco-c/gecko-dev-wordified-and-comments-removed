@@ -2920,7 +2920,7 @@ map
 ClientMessage
 :
 :
-StreamLatency
+StreamInputLatency
 )
 .
 unwrap_or_else
