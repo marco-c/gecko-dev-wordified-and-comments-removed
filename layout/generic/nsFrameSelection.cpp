@@ -6288,7 +6288,7 @@ htmlEditor
 {
 nsINode
 *
-cellparent
+inclusiveTableCellAncestor
 =
 GetClosestInclusiveTableCellAncestor
 (
@@ -6310,13 +6310,13 @@ GetActiveEditingHost
 ;
 editableCell
 =
-cellparent
+inclusiveTableCellAncestor
 &
 &
 editorHostNode
 &
 &
-cellparent
+inclusiveTableCellAncestor
 -
 >
 IsInclusiveDescendantOf
@@ -6333,7 +6333,7 @@ mTableSelection
 .
 mClosestInclusiveTableCellAncestor
 =
-cellparent
+inclusiveTableCellAncestor
 ;
 #
 ifdef
@@ -6373,7 +6373,7 @@ offset
 ;
 nsINode
 *
-cellparent
+inclusiveTableCellAncestor
 =
 GetClosestInclusiveTableCellAncestor
 (
@@ -6387,10 +6387,10 @@ mTableSelection
 mClosestInclusiveTableCellAncestor
 &
 &
-cellparent
+inclusiveTableCellAncestor
 &
 &
-cellparent
+inclusiveTableCellAncestor
 !
 =
 mTableSelection
@@ -6484,7 +6484,7 @@ parent
 =
 ParentOffset
 (
-cellparent
+inclusiveTableCellAncestor
 &
 offset
 )
@@ -6506,7 +6506,7 @@ mTableSelection
 .
 mClosestInclusiveTableCellAncestor
 =
-cellparent
+inclusiveTableCellAncestor
 ;
 const
 nsresult
