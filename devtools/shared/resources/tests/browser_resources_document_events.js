@@ -56,7 +56,7 @@ info
 Test
 ResourceWatcher
 for
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 "
 )
 ;
@@ -219,7 +219,7 @@ ResourceWatcher
 .
 TYPES
 .
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 ]
 {
 onAvailable
@@ -379,7 +379,7 @@ Test
 ignoreExistingResources
 option
 for
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 "
 )
 ;
@@ -445,7 +445,7 @@ ResourceWatcher
 .
 TYPES
 .
-DOCUMENT_EVENTS
+DOCUMENT_EVENT
 ]
 {
 onAvailable

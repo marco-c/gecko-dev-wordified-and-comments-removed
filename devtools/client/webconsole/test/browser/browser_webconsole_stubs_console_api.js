@@ -442,7 +442,7 @@ resourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ]
 {
 onAvailable
@@ -622,7 +622,7 @@ resourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 ]
 {
 onAvailable

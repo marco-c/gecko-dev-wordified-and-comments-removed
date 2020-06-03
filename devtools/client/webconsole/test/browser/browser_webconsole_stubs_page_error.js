@@ -448,7 +448,7 @@ resourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 ]
 {
 onAvailable

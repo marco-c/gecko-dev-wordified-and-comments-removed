@@ -1210,17 +1210,17 @@ resourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 resourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 resourceWatcher
 .
 TYPES
 .
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 ]
 {
 onAvailable
@@ -1259,7 +1259,7 @@ resourceWatcher
 .
 TYPES
 .
-CONSOLE_MESSAGES
+CONSOLE_MESSAGE
 )
 {
 resource
@@ -1291,7 +1291,7 @@ resourceWatcher
 .
 TYPES
 .
-ERROR_MESSAGES
+ERROR_MESSAGE
 )
 {
 resource
@@ -1323,7 +1323,7 @@ resourceWatcher
 .
 TYPES
 .
-PLATFORM_MESSAGES
+PLATFORM_MESSAGE
 )
 {
 resource
