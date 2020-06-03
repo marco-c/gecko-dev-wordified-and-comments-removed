@@ -598,6 +598,11 @@ DriftCompensation
 h
 '
 '
+DynamicResampler
+.
+h
+'
+'
 FileBlockCache
 .
 h
@@ -1195,6 +1200,11 @@ cpp
 '
 '
 DOMMediaStream
+.
+cpp
+'
+'
+DynamicResampler
 .
 cpp
 '
