@@ -5940,10 +5940,15 @@ cell
 cell
 -
 >
-is
+as
 <
-JSAtom
+JSString
 >
+(
+)
+-
+>
+isAtom
 (
 )
 )
