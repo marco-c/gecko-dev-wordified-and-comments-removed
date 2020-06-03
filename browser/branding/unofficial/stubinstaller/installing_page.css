@@ -117,8 +117,10 @@ contrast
 progress_bar
 {
 border
+-
+top
 :
-12px
+24px
 solid
 ;
 box
