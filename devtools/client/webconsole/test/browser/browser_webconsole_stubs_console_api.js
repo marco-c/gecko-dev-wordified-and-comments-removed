@@ -444,7 +444,11 @@ TYPES
 .
 CONSOLE_MESSAGES
 ]
+{
+onAvailable
+:
 onConsoleMessage
+}
 )
 ;
 for
@@ -620,7 +624,11 @@ TYPES
 .
 CONSOLE_MESSAGES
 ]
+{
+onAvailable
+:
 onConsoleMessage
+}
 )
 ;
 const

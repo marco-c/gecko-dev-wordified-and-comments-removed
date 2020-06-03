@@ -879,9 +879,13 @@ TYPES
 .
 ROOT_NODE
 ]
+{
+onAvailable
+:
 this
 .
 onResourceAvailable
+}
 )
 ;
 this

@@ -123,7 +123,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -263,7 +265,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -444,7 +448,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 info
@@ -740,7 +746,9 @@ TYPES
 .
 ROOT_NODE
 ]
+{
 onAvailable
+}
 )
 ;
 targetList

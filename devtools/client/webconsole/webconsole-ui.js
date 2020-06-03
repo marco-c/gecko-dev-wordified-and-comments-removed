@@ -1222,9 +1222,13 @@ TYPES
 .
 PLATFORM_MESSAGES
 ]
+{
+onAvailable
+:
 this
 .
 _onResourceAvailable
+}
 )
 ;
 }
