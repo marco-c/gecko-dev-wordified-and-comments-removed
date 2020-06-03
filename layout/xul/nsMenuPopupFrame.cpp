@@ -2742,6 +2742,12 @@ GetWidget
 if
 (
 widget
+&
+&
+mPopupState
+!
+=
+ePopupShown
 )
 {
 widget

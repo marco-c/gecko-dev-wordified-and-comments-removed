@@ -2246,6 +2246,10 @@ nsRect
 0
 )
 ;
+mPreferredPopupRectFlushed
+=
+true
+;
 }
 ;
 #
@@ -3034,6 +3038,9 @@ IsWidgetOverflowWindow
 ;
 nsRect
 mPreferredPopupRect
+;
+bool
+mPreferredPopupRectFlushed
 ;
 bool
 mWaitingForMoveToRectCB
