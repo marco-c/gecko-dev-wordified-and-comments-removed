@@ -614,7 +614,7 @@ ReaderView
 oncommand
 =
 "
-AboutReaderParent
+ReaderParent
 .
 toggleReaderMode
 (

@@ -139,10 +139,17 @@ properties
 function
 NarrateControls
 (
+mm
 win
 languagePromise
 )
 {
+this
+.
+_mm
+=
+mm
+;
 this
 .
 _winRef
