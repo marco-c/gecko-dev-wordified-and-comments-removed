@@ -252,6 +252,9 @@ Inclusive
 name_
 {
 \
+public
+:
+\
 using
 Super
 =
