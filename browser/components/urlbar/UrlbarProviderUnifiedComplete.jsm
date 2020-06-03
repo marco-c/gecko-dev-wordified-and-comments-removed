@@ -779,9 +779,16 @@ HIGHLIGHT
 .
 SUGGESTED
 ]
+tailPrefix
+:
+undefined
 tail
 :
 undefined
+tailOffsetIndex
+:
+-
+1
 keyword
 :
 [

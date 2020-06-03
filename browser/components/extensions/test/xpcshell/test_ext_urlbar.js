@@ -1441,9 +1441,16 @@ engine
 suggestion
 :
 undefined
+tailPrefix
+:
+undefined
 tail
 :
 undefined
+tailOffsetIndex
+:
+-
+1
 keyword
 :
 undefined
