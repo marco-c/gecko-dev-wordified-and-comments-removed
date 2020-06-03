@@ -19,6 +19,15 @@ Widget
 Win32
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+'
+windows
+'
+]
 with
 Files
 (

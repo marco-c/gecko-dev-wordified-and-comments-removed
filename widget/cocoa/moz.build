@@ -19,6 +19,15 @@ Widget
 Cocoa
 "
 )
+SCHEDULES
+.
+exclusive
+=
+[
+'
+macosx
+'
+]
 XPIDL_SOURCES
 +
 =
