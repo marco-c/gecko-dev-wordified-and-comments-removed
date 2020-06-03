@@ -32648,12 +32648,6 @@ http
 accept
 "
 "
-image
-/
-webp
-*
-/
-*
 "
 )
 ;
