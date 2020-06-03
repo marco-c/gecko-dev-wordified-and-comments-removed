@@ -562,11 +562,14 @@ false
 other
 )
 :
-span_iterator
+span_
 (
 other
 .
 span_
+)
+index_
+(
 other
 .
 index_
