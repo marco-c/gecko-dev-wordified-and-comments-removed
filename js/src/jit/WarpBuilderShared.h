@@ -108,7 +108,7 @@ CallInfo
 callInfo
 bool
 needsThisCheck
-JSFunction
+WrappedFunction
 *
 target
 =
