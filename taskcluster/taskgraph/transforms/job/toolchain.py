@@ -536,28 +536,7 @@ artifacts
     
 if
 not
-any
-(
-artifact
-.
-get
-(
-'
-name
-'
-)
-=
-=
-'
-public
-/
-build
-'
-for
-artifact
-in
 artifacts
-)
 :
         
 docker_worker_add_artifacts
@@ -603,11 +582,15 @@ workspace
 env
 =
 worker
-[
+.
+setdefault
+(
 '
 env
 '
-]
+{
+}
+)
     
 env
 .
