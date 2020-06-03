@@ -5715,7 +5715,7 @@ manifest
 '
 )
 '
-rt
+rb
 '
 )
 .
@@ -6540,6 +6540,7 @@ readlines
 )
                          
 [
+b
 '
 foo
 =
@@ -6547,6 +6548,7 @@ bar
 \
 n
 '
+b
 '
 \
 n
@@ -6858,6 +6860,16 @@ _verify_command
         
 mini_lines
 =
+[
+six
+.
+ensure_text
+(
+s
+)
+for
+s
+in
 min_f
 .
 open
@@ -6867,6 +6879,7 @@ open
 readlines
 (
 )
+]
         
 self
 .

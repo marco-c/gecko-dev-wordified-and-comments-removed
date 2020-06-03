@@ -11,6 +11,8 @@ os
 import
 shutil
 import
+six
+import
 sys
 import
 unittest
@@ -949,19 +951,19 @@ result
             
 p
 :
+six
+.
+ensure_text
+(
 f
 .
 open
 (
-mode
-=
-'
-r
-'
 )
 .
 read
 (
+)
 )
             
 for
