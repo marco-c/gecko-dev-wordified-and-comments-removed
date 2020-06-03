@@ -89,6 +89,8 @@ const
 nsAString
 &
 aFirstPartyDomain
+bool
+aIsFirstPartyIsolated
 )
 ;
 static
@@ -210,6 +212,8 @@ CookieJarSettings
 (
 uint32_t
 aCookieBehavior
+bool
+aIsFirstPartyIsolated
 State
 aState
 )
@@ -221,6 +225,9 @@ CookieJarSettings
 ;
 uint32_t
 mCookieBehavior
+;
+bool
+mIsFirstPartyIsolated
 ;
 CookiePermissionList
 mCookiePermissions

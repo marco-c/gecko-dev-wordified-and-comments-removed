@@ -163,6 +163,9 @@ uint32_t
 cookieBehavior
 ;
 bool
+isFirstPartyIsolated
+;
+bool
 isOnContentBlockingAllowList
 ;
 CookiePermissionData

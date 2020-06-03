@@ -76427,6 +76427,17 @@ CookieJarSettings
 GetFirstPartyDomain
 (
 )
+inProcessParent
+-
+>
+CookieJarSettings
+(
+)
+-
+>
+GetIsFirstPartyIsolated
+(
+)
 )
 :
 net
