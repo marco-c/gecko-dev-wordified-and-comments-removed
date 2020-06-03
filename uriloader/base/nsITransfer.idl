@@ -20,6 +20,9 @@ nsIMIMEInfo
 interface
 nsIFile
 ;
+webidl
+BrowsingContext
+;
 [
 scriptable
 uuid
@@ -65,8 +68,8 @@ in
 nsICancelable
 aCancelable
 in
-boolean
-aIsPrivate
+BrowsingContext
+aBrowsingContext
 in
 boolean
 aHandleInternally
