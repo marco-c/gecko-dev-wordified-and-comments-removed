@@ -336,6 +336,13 @@ checkIfAlreadyPaused
 (
 )
 ;
+await
+actions
+.
+updateThreads
+(
+)
+;
 }
 function
 onTargetDestroyed
@@ -385,6 +392,12 @@ targetFront
 )
 ;
 }
+actions
+.
+updateThreads
+(
+)
+;
 }
 export
 {
