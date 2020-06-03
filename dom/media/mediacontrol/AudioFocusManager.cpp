@@ -8,6 +8,13 @@ h
 #
 include
 "
+MediaController
+.
+h
+"
+#
+include
+"
 MediaControlUtils
 .
 h
@@ -95,7 +102,7 @@ AudioFocusManager
 :
 RequestAudioFocus
 (
-MediaController
+IMediaController
 *
 aController
 )
@@ -156,7 +163,7 @@ AudioFocusManager
 :
 RevokeAudioFocus
 (
-MediaController
+IMediaController
 *
 aController
 )

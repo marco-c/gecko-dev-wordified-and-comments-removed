@@ -27,7 +27,7 @@ namespace
 dom
 {
 class
-MediaController
+IMediaController
 ;
 class
 MediaControlService
@@ -40,7 +40,7 @@ public
 void
 RequestAudioFocus
 (
-MediaController
+IMediaController
 *
 aController
 )
@@ -48,7 +48,7 @@ aController
 void
 RevokeAudioFocus
 (
-MediaController
+IMediaController
 *
 aController
 )
@@ -88,7 +88,7 @@ nsTArray
 <
 RefPtr
 <
-MediaController
+IMediaController
 >
 >
 mOwningFocusControllers

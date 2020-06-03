@@ -171,7 +171,7 @@ service
 ;
 RefPtr
 <
-MediaController
+IMediaController
 >
 controller
 =
@@ -253,15 +253,9 @@ if
 controller
 -
 >
-GetState
+IsPlaying
 (
 )
-=
-=
-MediaSessionPlaybackState
-:
-:
-Playing
 )
 {
 controller
