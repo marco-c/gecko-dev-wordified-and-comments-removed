@@ -10717,7 +10717,7 @@ ArenaList
 &
 al
 =
-arenaLists
+arenaList
 (
 kind
 )
@@ -10785,7 +10785,7 @@ toRelocate
 kind
 ]
 =
-arenaLists
+arenaList
 (
 kind
 )
@@ -10839,7 +10839,7 @@ ArenaList
 &
 al
 =
-arenaLists
+arenaList
 (
 kind
 )
@@ -10997,7 +10997,7 @@ zone
 >
 arenas
 .
-arenaLists
+arenaList
 (
 kind
 )
@@ -13661,7 +13661,7 @@ arenaLists_
 (
 zone
 )
-arenaListsToSweep_
+arenasToSweep_
 (
 )
 incrementalSweptArenaKind
@@ -13722,7 +13722,7 @@ ConcurrentUse
 :
 None
 ;
-arenaListsToSweep
+arenasToSweep
 (
 i
 )
@@ -13825,7 +13825,7 @@ ReleaseArenaList
 runtime
 (
 )
-arenaLists
+arenaList
 (
 i
 )
@@ -13956,18 +13956,18 @@ None
 MOZ_ASSERT
 (
 !
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
 )
 ;
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
 =
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -13976,7 +13976,7 @@ head
 (
 )
 ;
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -14066,7 +14066,7 @@ ArenaList
 al
 =
 &
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -14112,7 +14112,7 @@ ConcurrentUse
 None
 )
 ;
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
@@ -14257,7 +14257,7 @@ al
 lists
 -
 >
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -14314,7 +14314,7 @@ al
 lists
 -
 >
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
@@ -14376,7 +14376,7 @@ queueForegroundThingsForSweep
 {
 gcShapeArenasToUpdate
 =
-arenaListsToSweep
+arenasToSweep
 (
 AllocKind
 :
@@ -14386,7 +14386,7 @@ SHAPE
 ;
 gcAccessorShapeArenasToUpdate
 =
-arenaListsToSweep
+arenasToSweep
 (
 AllocKind
 :
@@ -14396,7 +14396,7 @@ ACCESSOR_SHAPE
 ;
 gcObjectGroupArenasToUpdate
 =
-arenaListsToSweep
+arenasToSweep
 (
 AllocKind
 :
@@ -14406,7 +14406,7 @@ OBJECT_GROUP
 ;
 gcScriptArenasToUpdate
 =
-arenaListsToSweep
+arenasToSweep
 (
 AllocKind
 :
@@ -14487,7 +14487,7 @@ None
 MOZ_ASSERT
 (
 !
-arenaListsToSweep
+arenasToSweep
 (
 i
 )
@@ -16804,7 +16804,7 @@ zone
 >
 arenas
 .
-arenaListsToSweep
+arenasToSweep
 (
 kind
 )
@@ -16974,7 +16974,7 @@ zone
 >
 arenas
 .
-arenaListsToSweep
+arenasToSweep
 (
 i
 )
@@ -18563,7 +18563,7 @@ kind
 {
 MOZ_ASSERT
 (
-arenaLists
+arenaList
 (
 kind
 )
@@ -19932,7 +19932,7 @@ zone
 >
 arenas
 .
-arenaListsToSweep
+arenasToSweep
 (
 i
 )
@@ -27726,7 +27726,7 @@ thingKind
 if
 (
 !
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
@@ -27754,7 +27754,7 @@ FinalizeArenas
 (
 fop
 &
-arenaListsToSweep
+arenasToSweep
 (
 thingKind
 )
@@ -27818,7 +27818,7 @@ toArenaList
 (
 )
 ;
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -27827,7 +27827,7 @@ finalized
 .
 insertListWithCursorAtEnd
 (
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -31286,7 +31286,7 @@ zone
 >
 arenas
 .
-arenaListsToSweep
+arenasToSweep
 (
 i
 )
@@ -40418,7 +40418,7 @@ fromList
 fromArenaLists
 -
 >
-arenaLists
+arenaList
 (
 thingKind
 )
@@ -40428,7 +40428,7 @@ ArenaList
 toList
 =
 &
-arenaLists
+arenaList
 (
 thingKind
 )
