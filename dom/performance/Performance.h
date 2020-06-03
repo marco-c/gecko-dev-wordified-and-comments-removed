@@ -473,6 +473,11 @@ const
 =
 0
 ;
+void
+QueueNotificationObserversTask
+(
+)
+;
 protected
 :
 explicit
