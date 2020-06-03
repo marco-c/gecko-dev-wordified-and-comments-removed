@@ -67,10 +67,7 @@ node
 =
 nullptr
 ;
-Handle
-<
 Object
->
 code
 ;
 bool

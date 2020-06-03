@@ -46,14 +46,6 @@ JSContext
 cx
 )
 ;
-void
-DestroyIsolate
-(
-Isolate
-*
-isolate
-)
-;
 bool
 CheckPatternSyntax
 (
@@ -114,11 +106,6 @@ MutableHandleRegExpShared
 re
 HandleLinearString
 input
-RegExpShared
-:
-:
-CodeKind
-codeKind
 )
 ;
 RegExpRunStatus
