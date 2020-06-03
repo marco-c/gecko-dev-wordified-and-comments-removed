@@ -1028,6 +1028,12 @@ principalInfo
 partitionedPrincipalInfo
 loadInfo
 .
+mUseRegularPrincipal
+loadInfo
+.
+mHasStorageAccessPermissionGranted
+loadInfo
+.
 mDomain
 isSecureContext
 ipcClientInfo

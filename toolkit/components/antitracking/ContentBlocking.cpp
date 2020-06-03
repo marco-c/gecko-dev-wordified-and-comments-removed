@@ -3360,7 +3360,7 @@ inner
 inner
 -
 >
-SaveStorageAccessGranted
+SaveStorageAccessPermissionGranted
 (
 )
 ;
@@ -3393,7 +3393,7 @@ outer
 )
 -
 >
-SetHasStorageAccess
+SetStorageAccessPermissionGranted
 (
 true
 )
@@ -4442,7 +4442,7 @@ allowed
 document
 -
 >
-HasStoragePermission
+HasStorageAccessPermissionGranted
 (
 )
 ;
@@ -4478,7 +4478,7 @@ Debug
 aWindow
 -
 >
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 (
 )
 )
@@ -5682,7 +5682,7 @@ inner
 inner
 -
 >
-HasStorageAccessGranted
+HasStorageAccessPermissionGranted
 (
 )
 )

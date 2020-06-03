@@ -3697,6 +3697,12 @@ ErrorResult
 aRv
 )
 ;
+bool
+UseRegularPrincipal
+(
+)
+const
+;
 virtual
 Element
 *
@@ -4009,7 +4015,7 @@ CookieJarSettings
 )
 ;
 bool
-HasStoragePermission
+HasStorageAccessPermissionGranted
 (
 )
 ;

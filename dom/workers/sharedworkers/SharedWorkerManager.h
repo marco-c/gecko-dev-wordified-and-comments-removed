@@ -235,7 +235,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aPartitionedPrincipalAttrs
+aEffectiveStoragePrincipalAttrs
 )
 ;
 already_AddRefed
@@ -264,7 +264,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aPartitionedPrincipalAttrs
+aEffectiveStoragePrincipalAttrs
 )
 ;
 void
@@ -384,7 +384,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aPartitionedPrincipalAttrs
+aEffectiveStoragePrincipalAttrs
 )
 ;
 ~
@@ -410,7 +410,7 @@ mDomain
 ;
 const
 OriginAttributes
-mPartitionedPrincipalAttrs
+mEffectiveStoragePrincipalAttrs
 ;
 const
 nsCOMPtr

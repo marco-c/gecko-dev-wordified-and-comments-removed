@@ -6710,7 +6710,7 @@ GetTopLevelStorageAreaPrincipal
 )
 ;
 void
-StorageAccessGranted
+StorageAccessPermissionGranted
 (
 )
 ;

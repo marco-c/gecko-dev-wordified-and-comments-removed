@@ -311,6 +311,12 @@ principalInfo
 PrincipalInfo
 partitionedPrincipalInfo
 ;
+bool
+useRegularPrincipal
+;
+bool
+hasStorageAccessPermissionGranted
+;
 nsCString
 domain
 ;

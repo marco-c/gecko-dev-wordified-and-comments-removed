@@ -3193,7 +3193,7 @@ void
 WorkerGlobalScope
 :
 :
-FirstPartyStorageAccessGranted
+StorageAccessPermissionGranted
 (
 )
 {
