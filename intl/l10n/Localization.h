@@ -455,6 +455,12 @@ mLocalization
 bool
 mIsSync
 ;
+nsTArray
+<
+nsString
+>
+mResourceIds
+;
 }
 ;
 }
