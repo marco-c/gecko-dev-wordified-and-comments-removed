@@ -279,6 +279,27 @@ nightly
 False
 )
         
+shippable
+=
+job
+.
+get
+(
+'
+attributes
+'
+{
+}
+)
+.
+get
+(
+'
+shippable
+'
+False
+)
+        
 assert
 primary_config
 .
@@ -295,7 +316,11 @@ key
 (
 platform
 primary_config
+(
 nightly
+or
+shippable
+)
 options
 )
         
