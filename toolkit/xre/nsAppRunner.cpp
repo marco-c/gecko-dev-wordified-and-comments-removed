@@ -17292,6 +17292,9 @@ dllPath
 ;
 }
 }
+#
+ifdef
+NIGHTLY_BUILD
 static
 void
 ReadAheadPackagedDll
@@ -17335,6 +17338,8 @@ dllPath
 )
 ;
 }
+#
+endif
 static
 void
 PR_CALLBACK
