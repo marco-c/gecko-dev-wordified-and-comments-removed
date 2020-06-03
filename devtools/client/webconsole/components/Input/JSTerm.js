@@ -5880,7 +5880,7 @@ editor
 .
 onboarding
 .
-dissmis
+dismiss
 .
 label
 "
