@@ -15,6 +15,7 @@ request
 .
 POST
 [
+b
 "
 file_input
 "
