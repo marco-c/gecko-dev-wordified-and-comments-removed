@@ -111,6 +111,10 @@ patch
 "
 "
 find_symbolizer_linux
+-
+clang
+-
+9
 .
 patch
 "
