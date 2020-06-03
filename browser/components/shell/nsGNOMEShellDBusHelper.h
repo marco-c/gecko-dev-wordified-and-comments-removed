@@ -68,6 +68,9 @@ Firefox
 /
 SearchProvider
 "
+class
+nsGNOMEShellHistorySearchResult
+;
 DBusHandlerResult
 DBusIntrospect
 (
