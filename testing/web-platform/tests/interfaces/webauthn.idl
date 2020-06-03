@@ -239,7 +239,7 @@ dictionary
 PublicKeyCredentialParameters
 {
 required
-PublicKeyCredentialType
+DOMString
 type
 ;
 required
@@ -335,7 +335,7 @@ displayName
 dictionary
 AuthenticatorSelectionCriteria
 {
-AuthenticatorAttachment
+DOMString
 authenticatorAttachment
 ;
 boolean
@@ -343,10 +343,10 @@ requireResidentKey
 =
 false
 ;
-ResidentKeyRequirement
+DOMString
 residentKey
 ;
-UserVerificationRequirement
+DOMString
 userVerification
 =
 "
@@ -422,7 +422,7 @@ allowCredentials
 [
 ]
 ;
-UserVerificationRequirement
+DOMString
 userVerification
 =
 "
@@ -479,7 +479,7 @@ dictionary
 TokenBinding
 {
 required
-TokenBindingStatus
+DOMString
 status
 ;
 DOMString
@@ -512,7 +512,7 @@ dictionary
 PublicKeyCredentialDescriptor
 {
 required
-PublicKeyCredentialType
+DOMString
 type
 ;
 required
