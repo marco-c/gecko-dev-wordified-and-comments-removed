@@ -605,6 +605,10 @@ aTitle
 const
 nsAString
 &
+aIntegrity
+const
+nsAString
+&
 aType
 const
 nsAString

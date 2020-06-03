@@ -3071,6 +3071,10 @@ aTitle
 const
 nsAString
 &
+aIntegrity
+const
+nsAString
+&
 aType
 const
 nsAString
@@ -3158,6 +3162,7 @@ ProcessStyleLinkFromHeader
 aHref
 aAlternate
 aTitle
+aIntegrity
 aType
 aMedia
 aReferrerPolicy
