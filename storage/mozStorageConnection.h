@@ -160,7 +160,7 @@ FunctionInfo
 {
 nsCOMPtr
 <
-nsISupports
+mozIStorageFunction
 >
 function
 ;
@@ -531,7 +531,7 @@ _exists
 bool
 findFunctionByInstance
 (
-nsISupports
+mozIStorageFunction
 *
 aInstance
 )
