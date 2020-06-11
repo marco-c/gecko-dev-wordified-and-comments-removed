@@ -337,13 +337,13 @@ jsm
 {
 statements
 :
-97
+96
 lines
 :
-97
+96
 functions
 :
-100
+97
 branches
 :
 84
