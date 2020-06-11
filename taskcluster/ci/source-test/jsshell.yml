@@ -235,9 +235,6 @@ mozilla
 central
 '
 '
-try
-'
-'
 integration
 '
 ]
@@ -275,9 +272,6 @@ default
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 fetches

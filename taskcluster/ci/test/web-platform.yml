@@ -498,9 +498,6 @@ opt
 :
 [
 '
-try
-'
-'
 release
 '
 ]
@@ -520,9 +517,6 @@ qr
 [
 '
 release
-'
-'
-try
 '
 ]
 #
@@ -1344,9 +1338,6 @@ qr
 '
 release
 '
-'
-try
-'
 ]
 default
 :
@@ -1901,9 +1892,6 @@ qr
 '
 release
 '
-'
-try
-'
 ]
 default
 :
@@ -2101,9 +2089,6 @@ qr
 opt
 :
 [
-'
-try
-'
 ]
 #
 do
@@ -2124,9 +2109,6 @@ default
 [
 '
 autoland
-'
-'
-try
 '
 ]
 tier
