@@ -611,10 +611,7 @@ mOutputStream
 void
 RecordSourceSurfaceDestruction
 (
-gfx
-:
-:
-SourceSurface
+void
 *
 aSurface
 )

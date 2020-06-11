@@ -574,7 +574,7 @@ virtual
 void
 RecordSourceSurfaceDestruction
 (
-SourceSurface
+void
 *
 aSurface
 )
