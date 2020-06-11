@@ -25185,7 +25185,15 @@ const
 override
 {
 return
-true
+type
+(
+)
+!
+=
+MIRType
+:
+:
+Int32
 ;
 }
 MOZ_MUST_USE
