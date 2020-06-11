@@ -8373,7 +8373,7 @@ base
 +
 codeRange
 .
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 ;

@@ -10811,7 +10811,7 @@ FuncOffsets
 CallableOffsets
 (
 )
-normalEntry
+uncheckedCallEntry
 (
 0
 )
@@ -10822,7 +10822,7 @@ tierEntry
 {
 }
 uint32_t
-normalEntry
+uncheckedCallEntry
 ;
 uint32_t
 tierEntry
@@ -10884,7 +10884,7 @@ uint32_t
 lineOrBytecode_
 ;
 uint8_t
-beginToNormalEntry_
+beginToUncheckedCallEntry_
 ;
 uint8_t
 beginToTierEntry_
@@ -11308,7 +11308,7 @@ trap_
 ;
 }
 uint32_t
-funcTableEntry
+funcCheckedCallEntry
 (
 )
 const
@@ -11325,7 +11325,7 @@ begin_
 ;
 }
 uint32_t
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 const
@@ -11344,7 +11344,7 @@ u
 .
 func
 .
-beginToNormalEntry_
+beginToUncheckedCallEntry_
 ;
 }
 uint32_t
