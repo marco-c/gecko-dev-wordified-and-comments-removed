@@ -1521,7 +1521,7 @@ fun
 =
 lib
 .
-clang_EvalResult_getAsLongLong
+clang_getAddressSpace
 return
 True
 except
@@ -1547,7 +1547,7 @@ old
 need
 at
 least
-4
+5
 .
 0
 )
