@@ -430,11 +430,6 @@ return
 mResult
 ;
 }
-void
-InitialAsyncWait
-(
-)
-;
 private
 :
 virtual
@@ -682,15 +677,6 @@ RefPtr
 StrongWorkerRef
 >
 mStrongWorkerRef
-;
-class
-AsyncWaitRunnable
-;
-RefPtr
-<
-AsyncWaitRunnable
->
-mAsyncWaitRunnable
 ;
 }
 ;
