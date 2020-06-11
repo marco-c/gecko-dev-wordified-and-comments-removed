@@ -283,7 +283,7 @@ thrown
 }
 catch
 (
-e
+ex
 )
 {
 ok
@@ -298,16 +298,13 @@ thrown
 ;
 ok
 (
-e
-.
-resultCode
+ex
 =
 =
 NS_ERROR_FILE_NO_DEVICE_SPACE
 "
 Threw
 right
-result
 code
 "
 )

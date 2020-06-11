@@ -50,14 +50,6 @@ attribute
 nsresult
 resultCode
 ;
-[
-must_use
-]
-readonly
-attribute
-ACString
-resultName
-;
 }
 ;
 [
