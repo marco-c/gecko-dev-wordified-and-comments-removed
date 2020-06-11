@@ -20,7 +20,7 @@ mozilla
 /
 dom
 /
-ContentMediaController
+MediaControlKeysEvent
 .
 h
 "
@@ -31,7 +31,7 @@ mozilla
 /
 dom
 /
-MediaControlKeysEvent
+MediaStatusManager
 .
 h
 "

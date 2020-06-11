@@ -978,6 +978,7 @@ controller
 >
 SetIsInPictureInPictureMode
 (
+FAKE_CONTEXT_ID
 true
 )
 ;
@@ -996,6 +997,7 @@ controller
 >
 SetIsInPictureInPictureMode
 (
+FAKE_CONTEXT_ID
 false
 )
 ;
