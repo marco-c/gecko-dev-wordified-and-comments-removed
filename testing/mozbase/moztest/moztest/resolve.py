@@ -4127,6 +4127,19 @@ load
 fh
 )
         
+topsrcdir
+=
+os
+.
+path
+.
+normpath
+(
+self
+.
+topsrcdir
+)
+        
 for
 path
 tests
@@ -4179,8 +4192,6 @@ path
 .
 join
 (
-self
-.
 topsrcdir
 ancestor_manifest
 )
