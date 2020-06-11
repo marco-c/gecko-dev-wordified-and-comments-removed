@@ -6163,12 +6163,6 @@ Err
 =
 >
 {
-self
-.
-last_parsed_property_id
-=
-None
-;
 return
 Err
 (
@@ -6915,6 +6909,14 @@ drain
 )
 importance
 )
+;
+iter
+.
+parser
+.
+last_parsed_property_id
+=
+None
 ;
 }
 Err
