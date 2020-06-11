@@ -620,9 +620,14 @@ dep
 .
 startswith
 (
+(
 "
 icu
 "
+"
+d3dcompiler_47
+"
+)
 )
 :
                     
