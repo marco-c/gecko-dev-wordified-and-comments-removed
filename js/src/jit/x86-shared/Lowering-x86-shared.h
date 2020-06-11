@@ -269,6 +269,14 @@ mir
 )
 ;
 void
+lowerPowOfTwoI
+(
+MPow
+*
+mir
+)
+;
+void
 lowerTruncateDToInt32
 (
 MTruncateToInt32
