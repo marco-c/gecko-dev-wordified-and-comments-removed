@@ -21,5 +21,10 @@ dark
 "
 light
 "
+"
+no
+-
+preference
+"
 ]
 ;
