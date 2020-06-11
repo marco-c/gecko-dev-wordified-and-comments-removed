@@ -1415,13 +1415,6 @@ DeleteFramebuffer
 (
 )
 ;
-mWebGL
--
->
-ClearVRFrame
-(
-)
-;
 }
 }
 }

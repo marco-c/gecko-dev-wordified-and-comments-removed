@@ -104,8 +104,10 @@ this
 )
 ;
 }
+RefPtr
+<
 CanvasRenderer
-*
+>
 ClientCanvasLayer
 :
 :
