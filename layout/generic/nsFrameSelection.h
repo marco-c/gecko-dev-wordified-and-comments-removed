@@ -2099,6 +2099,10 @@ Selection
 aNormalSelection
 )
 ;
+class
+MOZ_STACK_CLASS
+RowAndColumnRelation
+;
 }
 ;
 TableSelection
