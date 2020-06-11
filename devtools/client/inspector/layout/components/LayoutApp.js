@@ -1068,6 +1068,11 @@ ref
 this
 .
 containerRef
+role
+:
+"
+document
+"
 }
 Accordion
 (
