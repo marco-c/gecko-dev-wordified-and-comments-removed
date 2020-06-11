@@ -714,3 +714,14 @@ Fast
 Open
 "
 )
+HTTP_ATOM
+(
+X_Firefox_Http3
+"
+X
+-
+Firefox
+-
+Http3
+"
+)

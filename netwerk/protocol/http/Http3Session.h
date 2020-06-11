@@ -434,6 +434,17 @@ ProcessOutputAndEvents
 (
 )
 ;
+const
+nsCString
+&
+GetAlpnToken
+(
+)
+{
+return
+mAlpnToken
+;
+}
 private
 :
 ~
