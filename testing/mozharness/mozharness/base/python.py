@@ -2952,9 +2952,16 @@ py
 '
 )
         
-execfile
+exec
+(
+open
 (
 activate
+)
+.
+read
+(
+)
 dict
 (
 __file__
@@ -3686,7 +3693,7 @@ json
 '
 )
 '
-wb
+w
 '
 )
 as

@@ -1005,11 +1005,15 @@ if
 sys
 .
 platform
-=
-=
+in
+(
 '
 linux2
 '
+'
+linux
+'
+)
 :
             
 if

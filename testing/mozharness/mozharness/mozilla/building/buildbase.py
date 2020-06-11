@@ -6857,7 +6857,7 @@ open
 (
 p
 '
-rb
+r
 '
 )
 as
@@ -7080,7 +7080,7 @@ open
 (
 stats_file
 '
-rb
+r
 '
 )
 as
