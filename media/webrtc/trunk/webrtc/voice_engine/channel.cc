@@ -8199,6 +8199,10 @@ rtcp_sender_packets_sent
 stats
 .
 rtcp_sender_octets_sent
+&
+stats
+.
+rtcp_sender_ntp_timestamp
 )
 ;
 {

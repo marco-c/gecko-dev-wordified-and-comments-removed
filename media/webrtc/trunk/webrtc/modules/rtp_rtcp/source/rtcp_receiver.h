@@ -351,6 +351,9 @@ packet_count
 uint32_t
 *
 octet_count
+NtpTime
+*
+ntp_timestamp
 )
 const
 ;

@@ -3022,6 +3022,9 @@ packet_count
 uint32_t
 *
 octet_count
+NtpTime
+*
+ntp_timestamp
 )
 const
 {
@@ -3032,6 +3035,7 @@ RemoteRTCPSenderInfo
 (
 packet_count
 octet_count
+ntp_timestamp
 )
 ;
 }

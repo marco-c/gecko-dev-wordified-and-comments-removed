@@ -934,7 +934,7 @@ RtpPacketLossStats
 )
 )
 ;
-MOCK_CONST_METHOD2
+MOCK_CONST_METHOD3
 (
 RemoteRTCPSenderInfo
 void
@@ -945,6 +945,9 @@ packet_count
 uint32_t
 *
 octet_count
+NtpTime
+*
+ntp_timestamp
 )
 )
 ;
