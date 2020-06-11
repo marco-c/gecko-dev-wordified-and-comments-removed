@@ -383,7 +383,7 @@ linebuf
 {
 AppendUTF16toUTF8
 (
-nsDependentString
+nsDependentSubstring
 (
 err
 -
