@@ -18465,6 +18465,9 @@ Option
 mut
 WrProgramCache
 >
+precache_shaders
+:
+bool
 )
 -
 >
@@ -18486,6 +18489,9 @@ let
 precache_flags
 =
 if
+precache_shaders
+|
+|
 env_var_to_bool
 (
 "
