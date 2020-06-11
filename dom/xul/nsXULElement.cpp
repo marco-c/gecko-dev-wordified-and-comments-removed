@@ -9657,8 +9657,14 @@ options
 .
 setIntroductionType
 (
+mOutOfLine
+?
 "
-scriptElement
+srcScript
+"
+:
+"
+inlineScript
 "
 )
 .
@@ -9669,6 +9675,10 @@ urlspec
 get
 (
 )
+mOutOfLine
+?
+1
+:
 aLineNo
 )
 ;

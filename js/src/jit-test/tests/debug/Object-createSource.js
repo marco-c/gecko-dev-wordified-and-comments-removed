@@ -113,7 +113,7 @@ source
 .
 introductionType
 "
-scriptElement
+inlineScript
 "
 )
 ;

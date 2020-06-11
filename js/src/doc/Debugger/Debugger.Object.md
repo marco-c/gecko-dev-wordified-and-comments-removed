@@ -5597,7 +5597,7 @@ s
 introductionType
 to
 "
-scriptElement
+inlineScript
 "
 if
 specified
