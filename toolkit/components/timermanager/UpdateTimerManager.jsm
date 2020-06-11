@@ -111,10 +111,16 @@ function
 LOG
 (
 string
+alwaysLog
+=
+false
 )
 {
 if
 (
+alwaysLog
+|
+|
 gLogEnabled
 )
 {
@@ -1386,10 +1392,6 @@ _timers
 null
 )
 {
-gLogEnabled
-=
-true
-;
 LOG
 (
 "
@@ -1417,6 +1419,7 @@ id
 "
 +
 id
+true
 )
 ;
 return
