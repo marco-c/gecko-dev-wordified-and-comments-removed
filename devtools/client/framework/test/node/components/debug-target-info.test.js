@@ -188,6 +188,13 @@ target
 /
 url
 "
+traits
+:
+{
+navigation
+:
+true
+}
 }
 doc
 :
@@ -219,6 +226,13 @@ a
 /
 name
 "
+traits
+:
+{
+navigation
+:
+true
+}
 }
 doc
 :
