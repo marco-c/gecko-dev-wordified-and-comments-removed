@@ -6418,7 +6418,7 @@ STATE_DOWNLOADING
 case
 AddonManager
 .
-STATE_CHECKING
+STATE_CHECKING_UPDATE
 :
 case
 AddonManager
