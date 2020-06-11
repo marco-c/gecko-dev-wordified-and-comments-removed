@@ -2197,7 +2197,7 @@ tenuredCells
 PreviousGC
 previousGC
 ;
-float
+double
 calcPromotionRate
 (
 bool
@@ -2654,7 +2654,7 @@ TimeDuration
 totalTime
 size_t
 pretenureCount
-float
+double
 promotionRate
 )
 ;
@@ -2666,7 +2666,7 @@ JS
 :
 GCReason
 reason
-float
+double
 promotionRate
 )
 ;
