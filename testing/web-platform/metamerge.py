@@ -1767,6 +1767,13 @@ f
 write
 (
 updated_current_str
+.
+encode
+(
+"
+utf8
+"
+)
 )
     
 else
