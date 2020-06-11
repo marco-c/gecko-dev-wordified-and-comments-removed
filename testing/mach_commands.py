@@ -2676,6 +2676,16 @@ log
 =
 log
             
+kwargs
+.
+setdefault
+(
+'
+subsuite
+'
+None
+)
+            
 if
 '
 mach_command
@@ -2856,6 +2866,16 @@ log
 ]
 =
 log
+            
+kwargs
+.
+setdefault
+(
+'
+subsuite
+'
+None
+)
             
 res
 =
