@@ -40,57 +40,58 @@ urllib
 __all__
 =
 [
-'
+    
+"
 extract_tarball
-'
-           
-'
+"
+    
+"
 extract_zip
-'
-           
-'
+"
+    
+"
 extract
-'
-           
-'
+"
+    
+"
 is_url
-'
-           
-'
+"
+    
+"
 load
-'
-           
-'
+"
+    
+"
 copy_contents
-'
-           
-'
+"
+    
+"
 move
-'
-           
-'
+"
+    
+"
 remove
-'
-           
-'
+"
+    
+"
 rmtree
-'
-           
-'
+"
+    
+"
 tree
-'
-           
-'
+"
+    
+"
 which
-'
-           
-'
+"
+    
+"
 NamedTemporaryFile
-'
-           
-'
+"
+    
+"
 TemporaryDirectory
-'
+"
 ]
 def
 extract_tarball
@@ -499,13 +500,13 @@ s
 '
 "
 %
-                        
 src
 )
     
 top_level_files
 =
 [
+        
 os
 .
 path
@@ -517,16 +518,17 @@ name
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 )
+        
 for
 name
 in
 namelist
-                       
+        
 if
 len
 (
@@ -534,21 +536,22 @@ name
 .
 rstrip
 (
-'
+"
 /
-'
+"
 )
 .
 split
 (
-'
+"
 /
-'
+"
 )
 )
 =
 =
 1
+    
 ]
     
 for
@@ -563,9 +566,9 @@ name
 .
 find
 (
-'
+"
 /
-'
+"
 )
         
 if
@@ -659,6 +662,7 @@ warnings
 .
 warn
 (
+        
 "
 mozfile
 .
@@ -676,11 +680,13 @@ remove
 (
 )
 "
-                  
+        
 PendingDeprecationWarning
+        
 stacklevel
 =
 2
+    
 )
     
 return
@@ -837,6 +843,7 @@ retry_count
             
 print
 (
+                
 '
 %
 s
@@ -863,8 +870,8 @@ Retrying
 .
 .
 '
+                
 %
-                  
 (
 func
 .
@@ -877,6 +884,7 @@ e
 .
 errno
 )
+            
 )
             
 time
@@ -1350,7 +1358,6 @@ shutil
     
 if
 (
-(
 sys
 .
 version_info
@@ -1367,7 +1374,6 @@ minor
 <
 8
 )
-        
 or
 (
 os
@@ -1375,10 +1381,9 @@ os
 name
 =
 =
-'
+"
 nt
-'
-)
+"
 )
 :
         
@@ -1782,20 +1787,20 @@ directory
 vertical_line
 =
 u
-'
-'
+"
+"
     
 item_marker
 =
 u
-'
-'
+"
+"
     
 last_child
 =
 u
-'
-'
+"
+"
     
 retval
 =
@@ -1978,8 +1983,8 @@ indent
 1
 ]
 =
-'
-'
+"
+"
         
 elif
 not
@@ -1988,8 +1993,8 @@ indent
             
 dirpath_mark
 =
-'
-'
+"
+"
         
 else
 :
@@ -2002,18 +2007,20 @@ retval
 .
 append
 (
-'
+            
+"
 %
 s
 %
 s
 %
 s
-'
+"
+            
 %
 (
-'
-'
+"
+"
 .
 join
 (
@@ -2024,15 +2031,14 @@ indent
 1
 ]
 )
-                                  
 dirpath_mark
-                                  
 basename
 if
 retval
 else
 directory
 )
+        
 )
         
 if
@@ -2051,26 +2057,31 @@ retval
 .
 extend
 (
+                
 [
+                    
 (
-'
+                        
+"
 %
 s
 %
 s
 %
 s
-'
+"
+                        
 %
 (
-'
-'
+                            
+"
+"
 .
 join
 (
 indent
 )
-                                        
+                            
 files_end
 if
 filename
@@ -2079,11 +2090,13 @@ filename
 last_file
 else
 item_marker
-                                        
+                            
 filename
+                        
 )
+                    
 )
-                           
+                    
 for
 index
 filename
@@ -2092,14 +2105,16 @@ enumerate
 (
 filenames
 )
+                
 ]
+            
 )
     
 return
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -2461,9 +2476,9 @@ path
 .
 rstrip
 (
-'
+"
 .
-'
+"
 )
 )
     
@@ -2523,20 +2538,20 @@ lower
 .
 endswith
 (
-'
+"
 .
 exe
-'
+"
 )
 :
         
 cmd
 +
 =
-'
+"
 .
 exe
-'
+"
     
 try
 :
@@ -2553,7 +2568,7 @@ winreg
 HKEY_LOCAL_MACHINE
             
 r
-'
+"
 SOFTWARE
 \
 Microsoft
@@ -2567,9 +2582,10 @@ Paths
 \
 %
 s
-'
+"
 %
 cmd
+        
 )
         
 return
@@ -2722,34 +2738,35 @@ id
 def
 __init__
 (
+        
 self
 mode
 =
-'
+"
 w
 +
 b
-'
+"
 bufsize
 =
 -
 1
 suffix
 =
-'
-'
+"
+"
 prefix
 =
-'
+"
 tmp
-'
-                 
+"
 dir
 =
 None
 delete
 =
 True
+    
 )
 :
         
@@ -2766,9 +2783,9 @@ mkstemp
 suffix
 prefix
 dir
-'
+"
 t
-'
+"
 in
 mode
 )
@@ -2823,9 +2840,9 @@ self
 .
 __dict__
 [
-'
+"
 file
-'
+"
 ]
 k
 )
@@ -2842,9 +2859,9 @@ self
 .
 __dict__
 [
-'
+"
 file
-'
+"
 ]
     
 def
@@ -2891,9 +2908,9 @@ self
 .
 __dict__
 [
-'
+"
 _delete
-'
+"
 ]
 :
             
@@ -2905,9 +2922,9 @@ self
 .
 __dict__
 [
-'
+"
 _path
-'
+"
 ]
 )
             
@@ -2929,9 +2946,9 @@ self
 .
 __dict__
 [
-'
+"
 _unlinked
-'
+"
 ]
 :
             
@@ -2953,9 +2970,9 @@ self
 .
 __dict__
 [
-'
+"
 _delete
-'
+"
 ]
 :
             
@@ -2967,9 +2984,9 @@ self
 .
 __dict__
 [
-'
+"
 _path
-'
+"
 ]
 )
 contextmanager
@@ -3105,9 +3122,9 @@ thing
 )
     
 if
-'
+"
 scheme
-'
+"
 in
 parsed
 :
@@ -3200,12 +3217,12 @@ resource
 .
 startswith
 (
-'
+"
 file
 :
 /
 /
-'
+"
 )
 :
         
@@ -3215,12 +3232,12 @@ resource
 [
 len
 (
-'
+"
 file
 :
 /
 /
-'
+"
 )
 :
 ]
