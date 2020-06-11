@@ -1,5 +1,5 @@
 dictionary
-L10nKey
+L10nIdArgs
 {
 UTF8String
 ?
@@ -14,6 +14,14 @@ args
 null
 ;
 }
+;
+typedef
+(
+UTF8String
+or
+L10nIdArgs
+)
+L10nKey
 ;
 dictionary
 AttributeNameValue
