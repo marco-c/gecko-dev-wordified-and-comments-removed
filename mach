@@ -205,11 +205,6 @@ talos
 test
 taskcluster
 -
-build
--
-image
-taskcluster
--
 load
 -
 image
