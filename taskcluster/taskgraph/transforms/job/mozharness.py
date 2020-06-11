@@ -1115,6 +1115,9 @@ json
 dumps
 (
 extra_config
+sort_keys
+=
+True
 )
 )
     
@@ -1791,6 +1794,9 @@ json
 dumps
 (
 extra_config
+sort_keys
+=
+True
 )
 )
     

@@ -666,9 +666,12 @@ upstream_artifacts
 for
 artifact
 in
+sorted
+(
 dep_job
 .
 release_artifacts
+)
 :
             
 basename
