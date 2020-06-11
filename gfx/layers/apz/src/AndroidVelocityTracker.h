@@ -70,7 +70,7 @@ StartTracking
 (
 ParentLayerCoord
 aPos
-uint32_t
+TimeStamp
 aTimestamp
 )
 override
@@ -83,8 +83,8 @@ AddPosition
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 override
 ;
@@ -94,8 +94,8 @@ float
 >
 ComputeVelocity
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 override
 ;
@@ -114,13 +114,13 @@ std
 :
 pair
 <
-uint32_t
+TimeStamp
 ParentLayerCoord
 >
 >
 mHistory
 ;
-uint32_t
+TimeStamp
 mLastEventTime
 ;
 }

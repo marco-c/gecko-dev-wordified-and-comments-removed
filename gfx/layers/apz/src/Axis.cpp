@@ -335,8 +335,8 @@ UpdateWithTouchAtDevicePoint
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 {
 APZThreadUtils
@@ -388,7 +388,7 @@ mVelocityTracker
 AddPosition
 (
 aPos
-aTimestampMs
+aTimestamp
 )
 )
 {
@@ -435,8 +435,8 @@ StartTouch
 (
 ParentLayerCoord
 aPos
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 {
 mStartPos
@@ -453,7 +453,7 @@ mVelocityTracker
 StartTracking
 (
 aPos
-aTimestampMs
+aTimestamp
 )
 ;
 mAxisLocked
@@ -1239,8 +1239,8 @@ Axis
 :
 EndTouch
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 {
 APZThreadUtils
@@ -1274,7 +1274,7 @@ mVelocityTracker
 >
 ComputeVelocity
 (
-aTimestampMs
+aTimestamp
 )
 )
 {

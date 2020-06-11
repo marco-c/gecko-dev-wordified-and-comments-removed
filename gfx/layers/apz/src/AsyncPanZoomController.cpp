@@ -947,15 +947,6 @@ gfx
 Matrix4x4
 Matrix4x4
 ;
-using
-mozilla
-:
-:
-gfx
-:
-:
-PointTyped
-;
 #
 ifdef
 MOZ_WIDGET_ANDROID
@@ -4777,7 +4768,7 @@ StartTouch
 point
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 if
@@ -5300,7 +5291,7 @@ EndTouch
 (
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 return
@@ -5491,7 +5482,7 @@ aEvent
 mLocalFocusPoint
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 }
@@ -5691,7 +5682,7 @@ mLocalFocusPoint
 x
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 mY
@@ -5705,7 +5696,7 @@ mLocalFocusPoint
 y
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 }
@@ -6415,7 +6406,7 @@ aEvent
 mLocalFocusPoint
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 SetState
@@ -6517,7 +6508,7 @@ EndTouch
 (
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 if
@@ -9642,7 +9633,7 @@ aEvent
 mLocalPanStartPoint
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 MOZ_ASSERT
@@ -9772,7 +9763,7 @@ aEvent
 mLocalPanStartPoint
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 if
@@ -10257,7 +10248,7 @@ logicalPanDisplacement
 x
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 mY
@@ -10275,7 +10266,7 @@ logicalPanDisplacement
 y
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 HandlePanningUpdate
@@ -10415,7 +10406,7 @@ EndTouch
 (
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 if
@@ -12957,7 +12948,7 @@ point
 x
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 mY
@@ -12969,7 +12960,7 @@ point
 y
 aEvent
 .
-mTime
+mTimeStamp
 )
 ;
 }
@@ -14617,8 +14608,8 @@ const
 ParentLayerPoint
 &
 aPoint
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 {
 RecursiveMutexAutoLock
@@ -14634,7 +14625,7 @@ StartTouch
 aPoint
 .
 x
-aTimestampMs
+aTimestamp
 )
 ;
 mY
@@ -14644,7 +14635,7 @@ StartTouch
 aPoint
 .
 y
-aTimestampMs
+aTimestamp
 )
 ;
 }
@@ -14654,8 +14645,8 @@ AsyncPanZoomController
 :
 EndTouch
 (
-uint32_t
-aTimestampMs
+TimeStamp
+aTimestamp
 )
 {
 RecursiveMutexAutoLock
@@ -14668,14 +14659,14 @@ mX
 .
 EndTouch
 (
-aTimestampMs
+aTimestamp
 )
 ;
 mY
 .
 EndTouch
 (
-aTimestampMs
+aTimestamp
 )
 ;
 }
