@@ -501,6 +501,9 @@ RTCSentRtpStreamStats
 DOMString
 localId
 ;
+DOMHighResTimeStamp
+remoteTimestamp
+;
 }
 ;
 dictionary

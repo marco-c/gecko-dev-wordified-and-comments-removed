@@ -1080,6 +1080,9 @@ packetsSent
 uint64_t
 bytesSent
 ;
+DOMHighResTimeStamp
+remoteTimestamp
+;
 Maybe
 <
 DOMHighResTimeStamp
@@ -1121,6 +1124,8 @@ GetRTCPSenderReport
 packetsSent
 &
 bytesSent
+&
+remoteTimestamp
 )
 )
 {
@@ -1237,6 +1242,15 @@ mBytesSent
 Construct
 (
 bytesSent
+)
+;
+s
+.
+mRemoteTimestamp
+.
+Construct
+(
+remoteTimestamp
 )
 ;
 if

@@ -768,6 +768,9 @@ packetsSent
 uint64_t
 *
 bytesSent
+DOMHighResTimeStamp
+*
+aRemoteTimestamp
 )
 override
 ;
