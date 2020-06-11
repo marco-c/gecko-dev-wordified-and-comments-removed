@@ -5142,6 +5142,12 @@ nsDisplayListSet
 aLists
 )
 ;
+DisplayChildFlag
+DisplayFlagForFlexOrGridItem
+(
+)
+const
+;
 bool
 RefusedAsyncAnimation
 (
