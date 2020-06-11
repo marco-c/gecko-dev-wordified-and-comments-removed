@@ -128,10 +128,6 @@ dev
 libgit2
 -
 dev
-/
-stretch
--
-backports
 \
 libssl
 -

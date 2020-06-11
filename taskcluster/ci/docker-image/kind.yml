@@ -1249,7 +1249,7 @@ webrender
 )
 parent
 :
-debian9
+debian10
 -
 base
 wgpu
@@ -1262,7 +1262,7 @@ wgpu
 )
 parent
 :
-debian9
+debian10
 -
 base
 condprof
@@ -1309,7 +1309,7 @@ sync
 )
 parent
 :
-debian9
+debian10
 -
 base
 system
