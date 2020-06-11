@@ -377,6 +377,8 @@ int
 start_reg
 bool
 read_backward
+bool
+unicode
 Label
 *
 on_no_match
@@ -693,6 +695,8 @@ int
 start_reg
 bool
 read_backward
+bool
+unicode
 Label
 *
 on_no_match
@@ -763,7 +767,7 @@ regexp_stack
 ;
 static
 uint32_t
-CaseInsensitiveCompareStrings
+CaseInsensitiveCompareNonUnicode
 (
 const
 char16_t
@@ -779,7 +783,7 @@ byteLength
 ;
 static
 uint32_t
-CaseInsensitiveCompareUCStrings
+CaseInsensitiveCompareUnicode
 (
 const
 char16_t
