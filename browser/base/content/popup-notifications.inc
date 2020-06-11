@@ -283,6 +283,12 @@ webRTC
 -
 previewVideo
 "
+tabindex
+=
+"
+-
+1
+"
 /
 >
 <
