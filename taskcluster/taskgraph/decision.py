@@ -1166,6 +1166,17 @@ options
     
 )
     
+decision_task_id
+=
+os
+.
+environ
+[
+'
+TASK_ID
+'
+]
+    
 tgg
 =
 TaskGraphGenerator
@@ -1185,6 +1196,11 @@ root
 parameters
 =
 parameters
+        
+decision_task_id
+=
+decision_task_id
+    
 )
     
 write_artifact
