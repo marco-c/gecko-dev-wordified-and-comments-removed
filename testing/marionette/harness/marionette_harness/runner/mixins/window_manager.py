@@ -612,12 +612,14 @@ jsm
 )
 ;
                   
-const
+let
 win
 =
-BrowsingContext
+Services
 .
-get
+wm
+.
+getOuterWindowWithId
 (
 Number
 (
@@ -627,8 +629,6 @@ arguments
 ]
 )
 )
-.
-window
 ;
                   
 return
@@ -1294,11 +1294,9 @@ resolve
 (
 win
 .
-docShell
+windowUtils
 .
-browsingContext
-.
-id
+outerWindowID
 )
 ;
                   
