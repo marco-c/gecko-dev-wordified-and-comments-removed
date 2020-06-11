@@ -121,8 +121,7 @@ interval
 -
 10
 :
--
-windows
+null
 win32
 -
 mingwclang

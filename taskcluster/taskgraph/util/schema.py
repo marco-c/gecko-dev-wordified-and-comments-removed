@@ -1328,12 +1328,7 @@ interval
 10
 '
 :
-list
-(
-schedules
-.
-ALL_COMPONENTS
-)
+None
 }
     
 {
@@ -1345,12 +1340,7 @@ interval
 25
 '
 :
-list
-(
-schedules
-.
-ALL_COMPONENTS
-)
+None
 }
     
 {

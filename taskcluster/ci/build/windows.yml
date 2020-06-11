@@ -1370,8 +1370,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 /
 opt
@@ -1906,8 +1905,7 @@ interval
 -
 10
 :
--
-windows
+null
 win32
 -
 shippable
@@ -5095,8 +5093,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 asan
@@ -6765,8 +6762,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 aarch64
@@ -7111,8 +7107,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 aarch64
@@ -7379,8 +7374,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 aarch64
@@ -8038,8 +8032,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 aarch64
@@ -8430,8 +8423,7 @@ interval
 -
 10
 :
--
-windows
+null
 win64
 -
 aarch64
