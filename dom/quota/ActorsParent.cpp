@@ -2893,6 +2893,7 @@ final
 public
 DirectoryLock
 {
+const
 RefPtr
 <
 QuotaManager
@@ -2966,8 +2967,10 @@ public
 :
 DirectoryLockImpl
 (
+RefPtr
+<
 QuotaManager
-*
+>
 aQuotaManager
 const
 int64_t
@@ -3001,8 +3004,10 @@ bool
 aExclusive
 bool
 aInternal
+RefPtr
+<
 OpenDirectoryListener
-*
+>
 aOpenListener
 )
 ;
@@ -3145,7 +3150,7 @@ void
 AddBlockingLock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 {
@@ -3157,6 +3162,7 @@ mBlocking
 .
 AppendElement
 (
+&
 aLock
 )
 ;
@@ -3180,7 +3186,7 @@ void
 AddBlockedOnLock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 {
@@ -3192,6 +3198,7 @@ mBlockedOn
 .
 AppendElement
 (
+&
 aLock
 )
 ;
@@ -3200,7 +3207,7 @@ void
 MaybeUnblock
 (
 DirectoryLockImpl
-*
+&
 aLock
 )
 {
@@ -3212,6 +3219,7 @@ mBlockedOn
 .
 RemoveElement
 (
+&
 aLock
 )
 ;
@@ -11362,8 +11370,10 @@ DirectoryLockImpl
 :
 DirectoryLockImpl
 (
+RefPtr
+<
 QuotaManager
-*
+>
 aQuotaManager
 const
 int64_t
@@ -11397,14 +11407,22 @@ bool
 aExclusive
 bool
 aInternal
+RefPtr
+<
 OpenDirectoryListener
-*
+>
 aOpenListener
 )
 :
 mQuotaManager
 (
+std
+:
+:
+move
+(
 aQuotaManager
+)
 )
 mPersistenceType
 (
@@ -11424,7 +11442,13 @@ aClientType
 )
 mOpenListener
 (
+std
+:
+:
+move
+(
 aOpenListener
+)
 )
 mId
 (
@@ -11453,7 +11477,7 @@ AssertIsOnOwningThread
 ;
 MOZ_ASSERT
 (
-aQuotaManager
+mQuotaManager
 )
 ;
 MOZ_ASSERT_IF
@@ -11558,7 +11582,7 @@ MOZ_ASSERT_IF
 (
 !
 aInternal
-aOpenListener
+mOpenListener
 )
 ;
 }
@@ -11593,6 +11617,7 @@ blockingLock
 >
 MaybeUnblock
 (
+*
 this
 )
 ;
@@ -12147,6 +12172,7 @@ lock
 >
 AddBlockingLock
 (
+*
 blockedLock
 )
 ;
@@ -12155,6 +12181,7 @@ blockedLock
 >
 AddBlockedOnLock
 (
+*
 lock
 )
 ;
@@ -15520,6 +15547,7 @@ existingLock
 >
 AddBlockingLock
 (
+*
 lock
 )
 ;
@@ -15528,6 +15556,7 @@ lock
 >
 AddBlockedOnLock
 (
+*
 existingLock
 )
 ;
