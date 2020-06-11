@@ -6009,7 +6009,7 @@ calleeTier
 +
 calleeCodeRange
 .
-funcTableEntry
+funcCheckedCallEntry
 (
 )
 ;
@@ -6043,7 +6043,7 @@ funcIndex
 ]
 ]
 .
-funcTableEntry
+funcCheckedCallEntry
 (
 )
 ;
@@ -8703,7 +8703,7 @@ calleeTier
 +
 codeRange
 .
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 ;

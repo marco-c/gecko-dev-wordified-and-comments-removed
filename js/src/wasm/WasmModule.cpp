@@ -2349,7 +2349,7 @@ uint32_t
 )
 p
 .
-funcNormalEntry
+funcUncheckedCallEntry
 (
 )
 )
