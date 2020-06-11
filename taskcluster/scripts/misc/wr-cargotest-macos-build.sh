@@ -169,13 +169,13 @@ tar
 .
 bz2
 -
+-
+null
+-
 T
 binaries
 .
 lst
--
--
-null
 mv
 cargo
 -
