@@ -609,11 +609,6 @@ Ci
 nsICookie
 .
 SAMESITE_LAX
-Ci
-.
-nsICookie
-.
-SCHEME_HTTPS
 )
 ;
 }
