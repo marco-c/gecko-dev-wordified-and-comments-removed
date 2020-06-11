@@ -11372,6 +11372,7 @@ skip
 id
 :
 LonghandId
+pub
 keyword
 :
 CSSWideKeyword

@@ -1178,6 +1178,14 @@ character
 visibility
 "
 "
+-
+moz
+-
+default
+-
+appearance
+"
+"
 display
 "
 "
