@@ -904,12 +904,6 @@ tab
 remote
 =
 >
-!
-remote
-.
-verified
-&
-&
 remote
 .
 extensionId
