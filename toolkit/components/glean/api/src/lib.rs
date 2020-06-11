@@ -17,6 +17,10 @@ pub
 mod
 metrics
 ;
+pub
+mod
+ping_upload
+;
 fn
 with_glean
 <
