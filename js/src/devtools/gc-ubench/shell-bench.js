@@ -390,9 +390,7 @@ SingleMutatorSequencer
 (
 loadMgr
 .
-_loads
-.
-get
+getByName
 (
 name
 )

@@ -239,8 +239,6 @@ undefined
 this
 .
 mutator
-.
-name
 ;
 }
 reset
