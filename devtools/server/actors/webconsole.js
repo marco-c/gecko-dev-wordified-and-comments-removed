@@ -5873,11 +5873,6 @@ isPromiseRejection
 pageError
 .
 isPromiseRejection
-isForwardedFromContentProcess
-:
-pageError
-.
-isForwardedFromContentProcess
 }
 ;
 if

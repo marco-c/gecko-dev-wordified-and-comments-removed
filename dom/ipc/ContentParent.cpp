@@ -22875,14 +22875,6 @@ IPC_OK
 (
 )
 ;
-msg
--
->
-SetIsForwardedFromContentProcess
-(
-true
-)
-;
 consoleService
 -
 >

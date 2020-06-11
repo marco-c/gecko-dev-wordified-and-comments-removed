@@ -275,9 +275,6 @@ mIsFromChromeContext
 bool
 mIsPromiseRejection
 ;
-bool
-mIsForwardedFromContentProcess
-;
 }
 ;
 class

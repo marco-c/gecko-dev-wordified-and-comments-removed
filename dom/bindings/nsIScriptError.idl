@@ -193,10 +193,6 @@ attribute
 boolean
 isFromChromeContext
 ;
-attribute
-boolean
-isForwardedFromContentProcess
-;
 readonly
 attribute
 boolean
