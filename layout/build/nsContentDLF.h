@@ -167,7 +167,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 nsDocShell
 *
 aContainer

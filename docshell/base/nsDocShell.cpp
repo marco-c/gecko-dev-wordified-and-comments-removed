@@ -27395,7 +27395,7 @@ false
 ;
 nsIPrincipal
 *
-partitionedPrincipal
+storagePrincipal
 =
 GetInheritedPrincipal
 (
@@ -27480,7 +27480,7 @@ rv
 CreateAboutBlankContentViewer
 (
 principal
-partitionedPrincipal
+storagePrincipal
 cspToInheritForAboutBlank
 baseURI
 )
@@ -27556,7 +27556,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 nsIContentSecurityPolicy
 *
 aCSP
@@ -27842,7 +27842,7 @@ nsCOMPtr
 nsIPrincipal
 >
 principal
-partitionedPrincipal
+storagePrincipal
 ;
 uint32_t
 sandboxFlags
@@ -27896,7 +27896,7 @@ this
 )
 ;
 }
-partitionedPrincipal
+storagePrincipal
 =
 principal
 ;
@@ -27907,9 +27907,9 @@ principal
 =
 aPrincipal
 ;
-partitionedPrincipal
+storagePrincipal
 =
-aPartitionedPrincipal
+aStoragePrincipal
 ;
 }
 MaybeCreateInitialClientSource
@@ -27926,7 +27926,7 @@ CreateBlankDocument
 (
 mLoadGroup
 principal
-partitionedPrincipal
+storagePrincipal
 this
 )
 ;
@@ -28104,7 +28104,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 nsIContentSecurityPolicy
 *
 aCSP
@@ -28114,7 +28114,7 @@ return
 CreateAboutBlankContentViewer
 (
 aPrincipal
-aPartitionedPrincipal
+aStoragePrincipal
 aCSP
 nullptr
 )
@@ -35822,7 +35822,7 @@ nsIPrincipal
 >
 newURITriggeringPrincipal
 newURIPrincipalToInherit
-newURIPartitionedPrincipalToInherit
+newURIStoragePrincipalToInherit
 ;
 nsCOMPtr
 <
@@ -35853,12 +35853,12 @@ GetPrincipalToInherit
 (
 )
 ;
-newURIPartitionedPrincipalToInherit
+newURIStoragePrincipalToInherit
 =
 mOSHE
 -
 >
-GetPartitionedPrincipalToInherit
+GetStoragePrincipalToInherit
 (
 )
 ;
@@ -35892,12 +35892,12 @@ NodePrincipal
 (
 )
 ;
-newURIPartitionedPrincipalToInherit
+newURIStoragePrincipalToInherit
 =
 doc
 -
 >
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 ;
@@ -35922,7 +35922,7 @@ URI
 nullptr
 newURITriggeringPrincipal
 newURIPrincipalToInherit
-newURIPartitionedPrincipalToInherit
+newURIStoragePrincipalToInherit
 mLoadType
 newCsp
 true
@@ -38189,7 +38189,7 @@ GetInheritedPrincipal
 bool
 aConsiderCurrentDocument
 bool
-aConsiderPartitionedPrincipal
+aConsiderStoragePrincipal
 )
 {
 RefPtr
@@ -38310,12 +38310,12 @@ nsIPrincipal
 *
 docPrincipal
 =
-aConsiderPartitionedPrincipal
+aConsiderStoragePrincipal
 ?
 document
 -
 >
-PartitionedPrincipal
+IntrinsicStoragePrincipal
 (
 )
 :
@@ -42791,7 +42791,7 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aPartitionedPrincipalToInherit
+aStoragePrincipalToInherit
 uint32_t
 aLoadType
 nsIContentSecurityPolicy
@@ -43451,7 +43451,7 @@ aURI
 aChannel
 aTriggeringPrincipal
 aPrincipalToInherit
-aPartitionedPrincipalToInherit
+aStoragePrincipalToInherit
 aCsp
 aCloneSHChildren
 getter_AddRefs
@@ -44986,7 +44986,7 @@ nsIPrincipal
 aPrincipalToInherit
 nsIPrincipal
 *
-aPartitionedPrincipalToInherit
+aStoragePrincipalToInherit
 nsIContentSecurityPolicy
 *
 aCsp
@@ -45303,9 +45303,9 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 =
-aPartitionedPrincipalToInherit
+aStoragePrincipalToInherit
 ;
 nsCOMPtr
 <
@@ -45621,10 +45621,10 @@ PrincipalToInherit
 if
 (
 !
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 )
 {
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 =
 principalToInherit
 ;
@@ -45775,7 +45775,7 @@ cacheKey
 mContentTypeHint
 triggeringPrincipal
 principalToInherit
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 csp
 HistoryID
 (
@@ -46074,7 +46074,7 @@ PrincipalToInherit
 loadState
 -
 >
-PartitionedPrincipalToInherit
+StoragePrincipalToInherit
 (
 )
 nullptr

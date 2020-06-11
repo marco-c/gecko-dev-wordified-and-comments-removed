@@ -232,7 +232,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aPartitionedPrincipal
+aStoragePrincipal
 )
 override
 ;

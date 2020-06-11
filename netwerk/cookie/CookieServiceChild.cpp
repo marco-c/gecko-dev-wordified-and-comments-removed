@@ -827,7 +827,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsStorageAccessPermissionGranted
+IsFirstPartyStorageAccessGranted
 )
 rejectedReason
 isSafeTopLevelNav
@@ -2977,7 +2977,7 @@ contains
 ThirdPartyAnalysis
 :
 :
-IsStorageAccessPermissionGranted
+IsFirstPartyStorageAccessGranted
 )
 aCookieString
 CountCookiesFromHashTable

@@ -2553,7 +2553,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason

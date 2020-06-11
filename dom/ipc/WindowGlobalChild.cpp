@@ -2739,7 +2739,7 @@ IPCResult
 WindowGlobalChild
 :
 :
-RecvSaveStorageAccessPermissionGranted
+RecvSaveStorageAccessGranted
 (
 )
 {
@@ -2761,7 +2761,7 @@ inner
 inner
 -
 >
-SaveStorageAccessPermissionGranted
+SaveStorageAccessGranted
 (
 )
 ;
@@ -2794,7 +2794,7 @@ outer
 )
 -
 >
-SetStorageAccessPermissionGranted
+SetHasStorageAccess
 (
 true
 )

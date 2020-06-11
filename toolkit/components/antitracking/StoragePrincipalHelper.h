@@ -56,8 +56,6 @@ aChannel
 nsIPrincipal
 *
 aPrincipal
-bool
-aForceIsolation
 nsIPrincipal
 *
 *

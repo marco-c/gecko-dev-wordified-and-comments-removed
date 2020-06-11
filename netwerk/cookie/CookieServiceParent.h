@@ -176,7 +176,7 @@ aIsThirdPartySocialTrackingResource
 const
 bool
 &
-aStorageAccessPermissionGranted
+aFirstPartyStorageAccessGranted
 const
 uint32_t
 &

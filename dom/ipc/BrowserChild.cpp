@@ -17453,14 +17453,14 @@ NodePrincipal
 locationChangeData
 -
 >
-contentPartitionedPrincipal
+contentStoragePrincipal
 (
 )
 =
 document
 -
 >
-PartitionedPrincipal
+EffectiveStoragePrincipal
 (
 )
 ;
@@ -18608,7 +18608,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessPermissionGrantedReason
+StorageAccessGrantedReason
 >
 &
 aReason

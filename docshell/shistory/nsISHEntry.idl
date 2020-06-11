@@ -292,7 +292,7 @@ infallible
 ]
 attribute
 nsIPrincipal
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 ;
 [
 infallible
@@ -500,7 +500,7 @@ nsIPrincipal
 principalToInherit
 in
 nsIPrincipal
-partitionedPrincipalToInherit
+storagePrincipalToInherit
 in
 nsIContentSecurityPolicy
 aCsp
