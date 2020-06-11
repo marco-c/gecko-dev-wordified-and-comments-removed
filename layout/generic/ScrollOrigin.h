@@ -13,6 +13,7 @@ ScrollOrigin
 :
 uint8_t
 {
+None
 NotSpecified
 Apz
 Restore
