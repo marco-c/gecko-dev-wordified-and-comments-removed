@@ -326,6 +326,8 @@ aURI
 ;
 bool
 hasFlag
+=
+false
 ;
 Unused
 <
