@@ -38081,7 +38081,7 @@ sync
 .
 kinto
 "
-true
+false
 )
 ;
 pref
