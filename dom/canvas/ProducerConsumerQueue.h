@@ -160,7 +160,7 @@ Error
 __VA_ARGS__
 )
 class
-ProducerConsumerQuue
+ProducerConsumerQueue
 ;
 class
 PcqProducer

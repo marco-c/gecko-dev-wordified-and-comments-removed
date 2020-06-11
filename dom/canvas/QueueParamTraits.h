@@ -354,15 +354,6 @@ value
 {
 }
 ;
-class
-ProducerConsumerQueue
-;
-class
-PcqProducer
-;
-class
-PcqConsumer
-;
 template
 <
 typename
