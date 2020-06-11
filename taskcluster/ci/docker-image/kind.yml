@@ -1044,7 +1044,7 @@ agb
 )
 parent
 :
-debian10
+debian9
 -
 base
 packages
