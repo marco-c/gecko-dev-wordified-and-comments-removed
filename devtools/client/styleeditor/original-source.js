@@ -42,6 +42,17 @@ prototype
 =
 {
 get
+sourceId
+(
+)
+{
+return
+this
+.
+_sourceId
+;
+}
+get
 url
 (
 )
