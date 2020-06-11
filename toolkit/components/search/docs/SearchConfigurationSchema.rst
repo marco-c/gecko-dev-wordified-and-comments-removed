@@ -1741,7 +1741,7 @@ sections
 within
 appliesTo
 a
-cohort
+experiment
 value
 the
 Search
@@ -1753,7 +1753,7 @@ pass
 in
 a
 matching
-cohort
+experiment
 value
 to
 match
@@ -1764,7 +1764,7 @@ Sections
 which
 have
 a
-cohort
+experiment
 will
 not
 be
@@ -1772,7 +1772,7 @@ used
 unless
 a
 matching
-cohort
+experiment
 has
 been
 passed
@@ -1821,7 +1821,7 @@ everywhere
 true
 }
 "
-cohort
+experiment
 "
 :
 "
