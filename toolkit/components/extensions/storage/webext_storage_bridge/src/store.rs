@@ -886,7 +886,8 @@ kinto_path
 {
 Ok
 (
-num
+(
+)
 )
 =
 >
@@ -899,12 +900,9 @@ extension
 -
 storage
 :
-migrated
-{
-}
-records
+migration
+complete
 "
-num
 )
 ;
 Ok

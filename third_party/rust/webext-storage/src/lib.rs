@@ -39,6 +39,13 @@ sync
 ;
 pub
 use
+migration
+:
+:
+MigrationInfo
+;
+pub
+use
 sync
 :
 :
