@@ -927,7 +927,6 @@ selector
 selector
 (
 moxSetFocused
-:
 )
 )
 {
