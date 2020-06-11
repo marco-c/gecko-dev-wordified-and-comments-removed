@@ -112,6 +112,16 @@ reduceTimerPrecision
 "
 false
 ]
+[
+"
+browser
+.
+navigation
+.
+requireUserInteraction
+"
+false
+]
 ]
 }
 )
