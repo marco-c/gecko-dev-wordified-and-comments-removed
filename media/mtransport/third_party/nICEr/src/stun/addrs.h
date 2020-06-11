@@ -33,7 +33,7 @@ count
 )
 ;
 int
-nr_stun_remove_duplicate_addrs
+nr_stun_filter_addrs
 (
 nr_local_addr
 addrs
