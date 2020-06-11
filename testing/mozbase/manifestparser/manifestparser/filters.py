@@ -2022,11 +2022,8 @@ key
 lambda
 x
 :
-(
 len
 (
-x
-)
 x
 )
 )
@@ -2062,11 +2059,8 @@ key
 lambda
 x
 :
-(
 len
 (
-x
-)
 x
 )
 )
