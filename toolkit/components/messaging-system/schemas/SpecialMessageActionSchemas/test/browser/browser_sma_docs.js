@@ -20,11 +20,13 @@ messaging
 -
 system
 /
+schemas
+/
+SpecialMessageActionSchemas
+/
 test
 /
 browser
-/
-specialMessageActions
 /
 SpecialMessageActionSchemas
 .
