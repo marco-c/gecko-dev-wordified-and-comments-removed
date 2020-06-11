@@ -13,8 +13,6 @@ multiprocessing
 import
 os
 import
-sets
-import
 shutil
 import
 subprocess
@@ -30,9 +28,7 @@ as
 mozpath
 UNUSED_SOURCES
 =
-sets
-.
-Set
+set
 (
 [
     
