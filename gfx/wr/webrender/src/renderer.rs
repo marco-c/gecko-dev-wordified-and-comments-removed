@@ -4492,6 +4492,13 @@ frame_id
 1024
 *
 1024
+32
+*
+1024
+*
+1024
+*
+10
 60
 )
 ;
@@ -4581,6 +4588,9 @@ current_frame_id
 :
 GpuFrameId
 total_bytes_threshold
+:
+usize
+total_bytes_red_line_threshold
 :
 usize
 frames_threshold
@@ -4677,6 +4687,14 @@ drain
 )
 {
 if
+(
+rt_pool_size_in_bytes
+>
+total_bytes_red_line_threshold
+)
+|
+|
+(
 rt_pool_size_in_bytes
 >
 total_bytes_threshold
@@ -4689,6 +4707,7 @@ used_recently
 (
 current_frame_id
 frames_threshold
+)
 )
 {
 rt_pool_size_in_bytes
