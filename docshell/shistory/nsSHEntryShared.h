@@ -219,7 +219,7 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-mStoragePrincipalToInherit
+mPartitionedPrincipalToInherit
 ;
 nsCOMPtr
 <

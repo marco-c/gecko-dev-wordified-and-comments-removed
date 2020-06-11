@@ -6435,7 +6435,7 @@ storagePrincipal
 doc
 -
 >
-IntrinsicStoragePrincipal
+EffectiveStoragePrincipal
 (
 )
 ;

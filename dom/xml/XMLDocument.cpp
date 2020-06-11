@@ -1271,7 +1271,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 )
 {
 if
@@ -1304,7 +1304,7 @@ ResetToURI
 aURI
 aLoadGroup
 aPrincipal
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 }

@@ -1584,13 +1584,13 @@ unwrapErr
 ;
 }
 auto
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 =
 PrincipalInfoToPrincipal
 (
 aData
 .
-storagePrincipalInfo
+partitionedPrincipalInfo
 (
 )
 )
@@ -1599,7 +1599,7 @@ if
 (
 NS_WARN_IF
 (
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 isErr
 (
@@ -1608,7 +1608,7 @@ isErr
 )
 {
 return
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 unwrapErr
 (
@@ -1662,7 +1662,7 @@ principalInfo
 ;
 info
 .
-mStoragePrincipalInfo
+mPartitionedPrincipalInfo
 =
 MakeUnique
 <
@@ -1671,7 +1671,7 @@ PrincipalInfo
 (
 aData
 .
-storagePrincipalInfo
+partitionedPrincipalInfo
 (
 )
 )
@@ -1704,9 +1704,9 @@ principal
 ;
 info
 .
-mStoragePrincipal
+mPartitionedPrincipal
 =
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 unwrap
 (
@@ -1979,7 +1979,7 @@ info
 mPrincipal
 info
 .
-mStoragePrincipal
+mPartitionedPrincipal
 info
 .
 mLoadGroup

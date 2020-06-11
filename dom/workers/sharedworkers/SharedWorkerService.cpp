@@ -682,13 +682,13 @@ aActor
 )
 ;
 auto
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 =
 PrincipalInfoToPrincipal
 (
 aData
 .
-storagePrincipalInfo
+partitionedPrincipalInfo
 (
 )
 )
@@ -697,7 +697,7 @@ if
 (
 NS_WARN_IF
 (
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 isErr
 (
@@ -709,7 +709,7 @@ ErrorPropagationOnMainThread
 (
 aBackgroundEventTarget
 aActor
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 unwrapErr
 (
@@ -779,9 +779,9 @@ nsCOMPtr
 <
 nsIPrincipal
 >
-storagePrincipal
+partitionedPrincipal
 =
-storagePrincipalOrErr
+partitionedPrincipalOrErr
 .
 unwrap
 (
@@ -836,7 +836,7 @@ BasePrincipal
 :
 Cast
 (
-storagePrincipal
+partitionedPrincipal
 )
 -
 >
@@ -876,7 +876,7 @@ BasePrincipal
 :
 Cast
 (
-storagePrincipal
+partitionedPrincipal
 )
 -
 >

@@ -309,7 +309,7 @@ PrincipalInfo
 principalInfo
 ;
 PrincipalInfo
-storagePrincipalInfo
+partitionedPrincipalInfo
 ;
 nsCString
 domain

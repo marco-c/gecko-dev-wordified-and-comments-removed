@@ -1136,7 +1136,7 @@ origin
 workerPrivate
 -
 >
-PartitionedOrigin
+StoragePrincipalOrigin
 (
 )
 ;

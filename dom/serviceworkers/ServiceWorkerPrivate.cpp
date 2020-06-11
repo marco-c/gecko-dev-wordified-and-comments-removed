@@ -7689,7 +7689,7 @@ mPrincipal
 ;
 info
 .
-mStoragePrincipal
+mPartitionedPrincipal
 =
 info
 .
@@ -7827,7 +7827,7 @@ info
 mPrincipal
 info
 .
-mStoragePrincipal
+mPartitionedPrincipal
 info
 .
 mLoadGroup
