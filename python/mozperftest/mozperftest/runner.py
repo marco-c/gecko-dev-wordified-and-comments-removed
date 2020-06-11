@@ -667,7 +667,6 @@ mozperftest
 utils
 import
 build_test_list
-install_package
     
 from
 mozperftest
@@ -759,42 +758,14 @@ doc
 "
 :
             
-location
-=
-os
-.
-path
-.
-join
-(
-                
-mach_cmd
-.
-topsrcdir
-"
-third_party
-"
-"
-python
-"
-"
-esprima
-"
-            
-)
-            
-install_package
-(
-mach_cmd
-.
-virtualenv_manager
-location
-)
-            
 from
 mozperftest
 .
-scriptinfo
+test
+.
+browsertime
+.
+script
 import
 ScriptInfo
             
