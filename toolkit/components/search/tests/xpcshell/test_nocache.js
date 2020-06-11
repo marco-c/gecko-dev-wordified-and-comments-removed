@@ -6,17 +6,6 @@ setup
 (
 )
 {
-do_load_manifest
-(
-"
-data
-/
-chrome
-.
-manifest
-"
-)
-;
 useHttpServer
 (
 )
