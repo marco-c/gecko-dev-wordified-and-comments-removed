@@ -123,7 +123,9 @@ disabled
 .
 expires
 :
-never
+"
+80
+"
 kind
 :
 boolean
@@ -364,7 +366,9 @@ keyed
 true
 expires
 :
-never
+"
+80
+"
 kind
 :
 boolean
