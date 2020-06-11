@@ -518,6 +518,11 @@ if
 appService
 )
 {
+bool
+userAllowedQuit
+=
+true
+;
 appService
 -
 >
@@ -527,6 +532,8 @@ nsIAppStartup
 :
 :
 eForceQuit
+&
+userAllowedQuit
 )
 ;
 }
