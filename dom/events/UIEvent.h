@@ -407,6 +407,7 @@ int32_t
 *
 aOffset
 )
+const
 ;
 MOZ_CAN_RUN_SCRIPT
 int32_t

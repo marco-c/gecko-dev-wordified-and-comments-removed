@@ -554,6 +554,7 @@ WidgetGUIEvent
 *
 aGUIEvent
 )
+const
 override
 ;
 virtual

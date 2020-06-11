@@ -1888,6 +1888,7 @@ WidgetGUIEvent
 *
 aGUIEvent
 )
+const
 ;
 virtual
 Element
