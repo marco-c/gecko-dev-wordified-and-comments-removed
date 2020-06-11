@@ -3731,7 +3731,7 @@ codeRange
 fe
 )
 .
-funcUncheckedCallEntry
+funcNormalEntry
 (
 )
 ;
