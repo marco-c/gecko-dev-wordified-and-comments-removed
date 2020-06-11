@@ -3278,16 +3278,6 @@ page
 0
         
 "
-toolkit
-.
-cosmeticAnimations
-.
-enabled
-"
-:
-False
-        
-"
 browser
 .
 tabs

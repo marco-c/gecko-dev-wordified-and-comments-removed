@@ -961,16 +961,6 @@ additional
 "
 toolkit
 .
-cosmeticAnimations
-.
-enabled
-"
-false
-]
-[
-"
-toolkit
-.
 startup
 .
 max_resumed_crashes

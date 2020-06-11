@@ -3158,15 +3158,6 @@ additional
 '
 toolkit
 .
-cosmeticAnimations
-.
-enabled
-'
-:
-false
-'
-toolkit
-.
 telemetry
 .
 server
