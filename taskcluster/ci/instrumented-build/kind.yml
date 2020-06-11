@@ -1020,7 +1020,7 @@ in
 -
 tree
 :
-debian9
+debian10
 -
 amd64
 -
@@ -1268,7 +1268,7 @@ in
 -
 tree
 :
-debian9
+debian10
 -
 amd64
 -
