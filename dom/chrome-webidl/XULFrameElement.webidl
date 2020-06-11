@@ -139,13 +139,6 @@ Document
 ?
 contentDocument
 ;
-readonly
-attribute
-unsigned
-long
-long
-browserId
-;
 }
 ;
 XULFrameElement
