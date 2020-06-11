@@ -1693,6 +1693,10 @@ PinchGestureInput
 event
 {
 pinchGestureType
+PinchGestureInput
+:
+:
+TRACKPAD
 eventIntervalTime
 eventTimeStamp
 screenOffset

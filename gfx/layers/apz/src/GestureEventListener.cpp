@@ -1411,6 +1411,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_START
+PinchGestureInput
+:
+:
+ONE_TOUCH
 mLastTouchInput
 .
 mTime
@@ -1552,6 +1556,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_START
+PinchGestureInput
+:
+:
+TOUCH
 mLastTouchInput
 .
 mTime
@@ -1654,6 +1662,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_SCALE
+PinchGestureInput
+:
+:
+TOUCH
 mLastTouchInput
 .
 mTime
@@ -1750,6 +1762,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_SCALE
+PinchGestureInput
+:
+:
+ONE_TOUCH
 mLastTouchInput
 .
 mTime
@@ -2074,6 +2090,10 @@ PinchGestureInput
 pinchEvent
 (
 type
+PinchGestureInput
+:
+:
+TOUCH
 mLastTouchInput
 .
 mTime
@@ -2126,6 +2146,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_END
+PinchGestureInput
+:
+:
+ONE_TOUCH
 mLastTouchInput
 .
 mTime

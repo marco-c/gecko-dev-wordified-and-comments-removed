@@ -10560,6 +10560,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_START
+PinchGestureInput
+:
+:
+MOUSEWHEEL
 aWheelInput
 .
 mTime
@@ -10586,6 +10590,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_SCALE
+PinchGestureInput
+:
+:
+MOUSEWHEEL
 aWheelInput
 .
 mTime
@@ -10612,6 +10620,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_SCALE
+PinchGestureInput
+:
+:
+MOUSEWHEEL
 aWheelInput
 .
 mTime
@@ -10638,6 +10650,10 @@ PinchGestureInput
 :
 :
 PINCHGESTURE_END
+PinchGestureInput
+:
+:
+MOUSEWHEEL
 aWheelInput
 .
 mTime
