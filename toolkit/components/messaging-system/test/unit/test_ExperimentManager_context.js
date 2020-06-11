@@ -140,10 +140,6 @@ await
 context
 .
 activeExperiments
-.
-get
-(
-)
 ;
 Assert
 .
