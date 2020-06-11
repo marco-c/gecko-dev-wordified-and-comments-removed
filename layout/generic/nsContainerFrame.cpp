@@ -1963,7 +1963,7 @@ const
 nsDisplayListSet
 &
 aLists
-uint32_t
+DisplayChildFlags
 aFlags
 )
 {

@@ -1046,10 +1046,11 @@ const
 nsDisplayListSet
 &
 aLists
-uint32_t
+DisplayChildFlags
 aFlags
 =
-0
+{
+}
 )
 ;
 void
@@ -1074,7 +1075,10 @@ BuildDisplayListForNonBlockChildren
 (
 aBuilder
 aLists
-DISPLAY_CHILD_INLINE
+DisplayChildFlag
+:
+:
+Inline
 )
 ;
 }

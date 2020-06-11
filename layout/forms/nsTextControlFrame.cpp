@@ -6003,7 +6003,6 @@ BuildDisplayListForChild
 aBuilder
 kid
 set
-0
 )
 ;
 }
@@ -6086,7 +6085,6 @@ BuildDisplayListForChild
 aBuilder
 kid
 set
-0
 )
 ;
 }

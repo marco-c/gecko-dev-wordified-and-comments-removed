@@ -15003,7 +15003,10 @@ partList
 nsIFrame
 :
 :
-DISPLAY_CHILD_FORCE_STACKING_CONTEXT
+DisplayChildFlag
+:
+:
+ForceStackingContext
 )
 ;
 }
