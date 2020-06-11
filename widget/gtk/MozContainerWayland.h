@@ -143,7 +143,15 @@ container
 struct
 wl_surface
 *
-moz_container_wayland_get_surface
+moz_container_wayland_surface_lock
+(
+MozContainer
+*
+container
+)
+;
+void
+moz_container_wayland_surface_unlock
 (
 MozContainer
 *
