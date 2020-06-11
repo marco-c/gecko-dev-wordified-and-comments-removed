@@ -16,7 +16,7 @@ crate
 animation
 :
 :
-ElementAnimationState
+ElementAnimationSet
 ;
 use
 crate
@@ -870,7 +870,7 @@ RwLock
 FxHashMap
 <
 OpaqueNode
-ElementAnimationState
+ElementAnimationSet
 >
 >
 >
