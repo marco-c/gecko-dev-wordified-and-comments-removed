@@ -493,6 +493,7 @@ static
 nsresult
 AddCellsToSelection
 (
+const
 nsIContent
 *
 aTableContent
@@ -11567,6 +11568,7 @@ NS_OK
 const
 RefPtr
 <
+const
 nsIContent
 >
 table
@@ -11669,6 +11671,7 @@ TableSelection
 :
 UnselectCells
 (
+const
 nsIContent
 *
 aTableContent
@@ -12163,6 +12166,7 @@ static
 nsresult
 AddCellsToSelection
 (
+const
 nsIContent
 *
 aTableContent
@@ -12601,6 +12605,7 @@ return
 NS_ERROR_NULL_POINTER
 ;
 }
+const
 nsIContent
 *
 table
@@ -13275,9 +13280,11 @@ nsFrameSelection
 :
 IsInSameTable
 (
+const
 nsIContent
 *
 aContent1
+const
 nsIContent
 *
 aContent2
@@ -13333,6 +13340,7 @@ nsFrameSelection
 :
 GetParentTable
 (
+const
 nsIContent
 *
 aCell

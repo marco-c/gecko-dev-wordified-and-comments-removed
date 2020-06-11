@@ -1768,9 +1768,11 @@ nsIContent
 *
 IsInSameTable
 (
+const
 nsIContent
 *
 aContent1
+const
 nsIContent
 *
 aContent2
@@ -1781,6 +1783,7 @@ nsIContent
 *
 GetParentTable
 (
+const
 nsIContent
 *
 aCellNode
@@ -1943,6 +1946,7 @@ MOZ_CAN_RUN_SCRIPT
 nsresult
 UnselectCells
 (
+const
 nsIContent
 *
 aTable
