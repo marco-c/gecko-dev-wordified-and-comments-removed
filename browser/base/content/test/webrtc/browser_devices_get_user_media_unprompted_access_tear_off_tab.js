@@ -217,6 +217,14 @@ win
 )
 ;
 await
+SimpleTest
+.
+promiseFocus
+(
+win
+)
+;
+await
 checkSharingUI
 (
 {
