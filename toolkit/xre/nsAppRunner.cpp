@@ -23894,7 +23894,7 @@ gSafeMode
 StaticPrefs
 :
 :
-fission_autostart
+fission_autostart_AtStartup_DoNotUseDirectly
 (
 )
 ;
