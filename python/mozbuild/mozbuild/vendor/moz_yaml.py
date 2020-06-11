@@ -243,6 +243,12 @@ VALID_SOURCE_HOSTS
 "
 gitlab
 "
+"
+googlesource
+"
+"
+github
+"
 ]
 "
 "
