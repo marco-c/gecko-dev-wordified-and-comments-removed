@@ -224,6 +224,12 @@ DEBUG
 public
 :
 bool
+isHeld
+(
+)
+const
+;
+bool
 ownedByCurrentThread
 (
 )

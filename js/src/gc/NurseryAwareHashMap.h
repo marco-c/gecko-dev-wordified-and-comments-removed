@@ -921,15 +921,6 @@ sweep
 (
 )
 {
-MOZ_ASSERT
-(
-nurseryEntries
-.
-empty
-(
-)
-)
-;
 map
 .
 sweep

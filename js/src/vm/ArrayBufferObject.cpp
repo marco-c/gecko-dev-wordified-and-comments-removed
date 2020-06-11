@@ -8059,15 +8059,6 @@ sweep
 (
 )
 {
-MOZ_ASSERT
-(
-nurseryKeys
-.
-empty
-(
-)
-)
-;
 map
 .
 sweep
