@@ -24364,6 +24364,9 @@ fxhash
 log
 "
 "
+matches
+"
+"
 phf
 "
 "
@@ -26231,6 +26234,9 @@ malloc_size_of
 "
 "
 malloc_size_of_derive
+"
+"
+matches
 "
 "
 new_debug_unreachable
