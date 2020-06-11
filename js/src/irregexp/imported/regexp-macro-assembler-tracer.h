@@ -215,6 +215,8 @@ int
 start_reg
 bool
 read_backward
+bool
+unicode
 Label
 *
 on_no_match

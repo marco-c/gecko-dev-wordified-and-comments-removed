@@ -18461,6 +18461,14 @@ flags_
 )
 )
 {
+bool
+unicode
+=
+IsUnicode
+(
+flags_
+)
+;
 assembler
 -
 >
@@ -18470,6 +18478,7 @@ start_reg_
 read_backward
 (
 )
+unicode
 trace
 -
 >
