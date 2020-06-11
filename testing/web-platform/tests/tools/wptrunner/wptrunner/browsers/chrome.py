@@ -45,11 +45,7 @@ executors
 .
 executorchrome
 import
-(
 ChromeDriverWdspecExecutor
-                                        
-ChromeDriverPrintRefTestExecutor
-)
 __wptrunner__
 =
 {
@@ -96,16 +92,6 @@ reftest
 :
 "
 WebDriverRefTestExecutor
-"
-                              
-"
-print
--
-reftest
-"
-:
-"
-ChromeDriverPrintRefTestExecutor
 "
                               
 "
@@ -591,26 +577,13 @@ binary_args
 )
     
 if
-(
-(
 kwargs
 [
 "
 headless
 "
 ]
-or
-test_type
-=
-=
-"
-print
--
-reftest
-"
-)
 and
-        
 "
 -
 -
@@ -624,7 +597,6 @@ chrome_options
 args
 "
 ]
-)
 :
         
 chrome_options

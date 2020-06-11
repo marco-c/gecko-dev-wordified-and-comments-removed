@@ -391,6 +391,32 @@ browser_name
     
 }
     
+if
+browser_name
+=
+=
+'
+MicrosoftEdge
+'
+:
+        
+capabilities
+[
+'
+selenium
+-
+version
+'
+]
+=
+'
+2
+.
+4
+.
+8
+'
+    
 return
 capabilities
 def

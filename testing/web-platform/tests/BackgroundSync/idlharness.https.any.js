@@ -7,9 +7,7 @@ idl_test
 (
 [
 '
-background
--
-sync
+BackgroundSync
 '
 ]
 [
