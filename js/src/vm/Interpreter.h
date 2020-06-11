@@ -48,7 +48,8 @@ class
 PlainObject
 ;
 extern
-bool
+JSObject
+*
 BoxNonStrictThis
 (
 JSContext
@@ -56,8 +57,6 @@ JSContext
 cx
 HandleValue
 thisv
-MutableHandleValue
-vp
 )
 ;
 extern
