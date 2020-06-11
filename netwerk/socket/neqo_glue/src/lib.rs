@@ -55,6 +55,7 @@ neqo_transport
 {
 FixedConnectionIdManager
 Output
+QuicVersion
 }
 ;
 use
@@ -434,6 +435,10 @@ new
 local
 remote
 qpack_settings
+QuicVersion
+:
+:
+Draft27
 )
 {
 Ok
