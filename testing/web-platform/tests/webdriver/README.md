@@ -34,11 +34,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 )
 .
 The
