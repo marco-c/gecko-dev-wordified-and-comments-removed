@@ -528,6 +528,14 @@ return
 null
 ;
 }
+Services
+.
+profiler
+.
+PauseSampling
+(
+)
+;
 let
 profile
 ;
