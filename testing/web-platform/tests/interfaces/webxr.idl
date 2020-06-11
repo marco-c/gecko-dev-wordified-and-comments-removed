@@ -249,6 +249,7 @@ callback
 void
 cancelAnimationFrame
 (
+unsigned
 long
 handle
 )
