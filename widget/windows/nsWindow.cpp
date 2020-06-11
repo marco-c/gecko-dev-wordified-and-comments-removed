@@ -6615,6 +6615,10 @@ if
 CanTakeFocus
 (
 )
+&
+&
+!
+mAlwaysOnTop
 )
 {
 :
@@ -6675,6 +6679,15 @@ flags
 |
 =
 SWP_NOZORDER
+;
+if
+(
+mAlwaysOnTop
+)
+flags
+|
+=
+SWP_NOACTIVATE
 ;
 if
 (
