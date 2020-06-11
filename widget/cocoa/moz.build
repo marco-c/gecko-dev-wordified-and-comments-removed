@@ -842,3 +842,16 @@ framework
 IOSurface
 '
 ]
+SPHINX_TREES
+[
+'
+/
+widget
+/
+cocoa
+'
+]
+=
+'
+docs
+'

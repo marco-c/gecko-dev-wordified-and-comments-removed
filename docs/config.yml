@@ -77,6 +77,10 @@ services
 -
 uriloader
 -
+widget
+/
+cocoa
+-
 code
 -
 quality
