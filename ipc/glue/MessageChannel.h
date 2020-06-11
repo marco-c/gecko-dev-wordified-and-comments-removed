@@ -831,14 +831,6 @@ mBuildIDsConfirmedMatch
 ;
 }
 bool
-Echo
-(
-Message
-*
-aMsg
-)
-;
-bool
 Send
 (
 Message
