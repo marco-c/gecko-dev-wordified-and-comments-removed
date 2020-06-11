@@ -2280,6 +2280,9 @@ kSendonly
 ;
 if
 (
+mRtxIsAllowed
+&
+&
 Preferences
 :
 :
@@ -10941,6 +10944,9 @@ event
 bool
 useRtx
 =
+mRtxIsAllowed
+&
+&
 Preferences
 :
 :
