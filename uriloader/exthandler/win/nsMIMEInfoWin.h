@@ -264,10 +264,13 @@ ShellExecuteWithIFile
 nsIFile
 *
 aExecutable
+int
+aArgc
 const
-nsString
-&
-aArgs
+wchar_t
+*
+*
+aArgv
 )
 ;
 }
