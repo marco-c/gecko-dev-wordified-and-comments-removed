@@ -142,6 +142,10 @@ move
 aNodeInfo
 )
 )
+mBrowserId
+(
+0
+)
 {
 }
 NS_DECL_ISUPPORTS_INHERITED
@@ -175,6 +179,11 @@ GetContentWindow
 Document
 *
 GetContentDocument
+(
+)
+;
+uint64_t
+BrowserId
 (
 )
 ;
@@ -224,6 +233,13 @@ mozilla
 ErrorResult
 &
 rv
+)
+;
+void
+SetBrowserId
+(
+uint64_t
+aBrowserId
 )
 ;
 virtual
@@ -331,6 +347,9 @@ void
 LoadSrc
 (
 )
+;
+uint64_t
+mBrowserId
 ;
 }
 ;

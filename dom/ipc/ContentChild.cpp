@@ -5087,6 +5087,17 @@ openerBC
 parent
 ;
 }
+uint64_t
+browserId
+(
+nsContentUtils
+:
+:
+GenerateBrowserId
+(
+)
+)
+;
 RefPtr
 <
 BrowsingContext
@@ -5108,6 +5119,7 @@ Type
 :
 :
 Content
+browserId
 )
 ;
 MOZ_ALWAYS_SUCCEEDS
