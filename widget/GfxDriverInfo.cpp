@@ -3156,6 +3156,16 @@ APPEND_DEVICE
 )
 ;
 #
+ifdef
+EARLY_BETA_OR_EARLIER
+APPEND_DEVICE
+(
+0x98e4
+)
+;
+#
+endif
+#
 if
 defined
 (
