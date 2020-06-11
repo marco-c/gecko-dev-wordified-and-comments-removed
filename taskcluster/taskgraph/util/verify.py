@@ -44,6 +44,7 @@ util
 attributes
 import
 match_run_on_projects
+RELEASE_PROJECTS
 logger
 =
 logging
@@ -2139,6 +2140,9 @@ add
 '
 full_task_graph
 '
+run_on_projects
+=
+RELEASE_PROJECTS
 )
 def
 verify_shippable_no_sccache
