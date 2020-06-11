@@ -78,6 +78,15 @@ kDocChanPref
 }
 )
 ;
+await
+Services
+.
+search
+.
+init
+(
+)
+;
 }
 )
 ;
