@@ -6479,7 +6479,7 @@ Native
 wrappedTarget
 -
 >
-isNative
+isNativeWithoutJitEntry
 (
 )
 )
@@ -6496,15 +6496,7 @@ Scripted
 wrappedTarget
 -
 >
-isInterpreted
-(
-)
-|
-|
-wrappedTarget
--
->
-isNativeWithJitEntry
+hasJitEntry
 (
 )
 )

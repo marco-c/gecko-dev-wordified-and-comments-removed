@@ -2858,7 +2858,7 @@ target
 target
 -
 >
-isNative
+isNativeWithoutJitEntry
 (
 )
 )

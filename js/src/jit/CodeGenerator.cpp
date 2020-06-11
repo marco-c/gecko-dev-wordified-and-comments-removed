@@ -32066,7 +32066,7 @@ MOZ_ASSERT
 target
 -
 >
-isNative
+isNativeWithoutJitEntry
 (
 )
 )
