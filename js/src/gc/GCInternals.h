@@ -312,7 +312,13 @@ JS
 HeapState
 prevState
 ;
+mozilla
+:
+:
+Maybe
+<
 AutoGeckoProfilerEntry
+>
 profilingStackFrame
 ;
 }
