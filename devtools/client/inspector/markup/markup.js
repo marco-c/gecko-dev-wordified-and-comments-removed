@@ -4664,7 +4664,7 @@ this
 .
 toolbox
 .
-viewSourceInStyleEditorByURL
+viewGeneratedSourceInStyleEditor
 (
 url
 )
@@ -4687,7 +4687,7 @@ this
 .
 toolbox
 .
-viewSourceInDebugger
+viewGeneratedSourceInDebugger
 (
 url
 )

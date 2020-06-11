@@ -2484,10 +2484,9 @@ getTabTarget
 ;
 toolbox
 .
-viewSourceInDebugger
+viewGeneratedSourceInDebugger
 (
 url
-0
 )
 ;
 }
@@ -2516,10 +2515,9 @@ getTabTarget
 ;
 toolbox
 .
-viewSourceInStyleEditorByURL
+viewGeneratedSourceInStyleEditor
 (
 url
-0
 )
 ;
 }
