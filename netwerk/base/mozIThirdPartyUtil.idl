@@ -99,7 +99,7 @@ ThirdPartyAnalysis
 IsForeign
 IsThirdPartyTrackingResource
 IsThirdPartySocialTrackingResource
-IsFirstPartyStorageAccessGranted
+IsStorageAccessPermissionGranted
 }
 ;
 using

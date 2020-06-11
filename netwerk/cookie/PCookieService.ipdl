@@ -89,7 +89,7 @@ isThirdPartyTrackingResource
 bool
 isThirdPartySocialTrackingResource
 bool
-firstPartyStorageAccessGranted
+firstPartyStorageAccessPermissionGranted
 uint32_t
 rejectedReason
 bool

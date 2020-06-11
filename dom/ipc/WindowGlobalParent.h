@@ -647,7 +647,7 @@ Maybe
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 >
 &
 aReason
