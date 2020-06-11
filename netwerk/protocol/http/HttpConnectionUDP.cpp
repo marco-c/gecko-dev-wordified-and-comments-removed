@@ -567,6 +567,12 @@ mConnInfo
 GetOrigin
 (
 )
+mConnInfo
+-
+>
+GetNPNToken
+(
+)
 mSocketTransport
 this
 )

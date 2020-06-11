@@ -149,6 +149,10 @@ const
 nsACString
 &
 aOrigin
+const
+nsACString
+&
+aAlpnToken
 nsISocketTransport
 *
 aSocketTransport
@@ -717,6 +721,9 @@ RefPtr
 QuicSocketControl
 >
 mSocketControl
+;
+nsCString
+mAlpnToken
 ;
 }
 ;
