@@ -116,6 +116,13 @@ g_main_context_dispatch
 n
 "
 "
+mutex
+:
+GetMaiAtkType
+\
+n
+"
+"
 race
 :
 __tsan
