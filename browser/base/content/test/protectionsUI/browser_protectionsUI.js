@@ -237,6 +237,11 @@ TRACKING_PAGE
 )
 ;
 await
+openProtectionsPanel
+(
+)
+;
+await
 TestUtils
 .
 waitForCondition
@@ -259,11 +264,6 @@ blocking
 )
 ;
 }
-)
-;
-await
-openProtectionsPanel
-(
 )
 ;
 let
