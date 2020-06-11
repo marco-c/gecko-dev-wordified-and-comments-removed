@@ -10225,7 +10225,7 @@ guess_mozinfo_from_task
 task
 )
         
-loader
+loader_cls
 =
 manifest_loaders
 [
@@ -10238,6 +10238,15 @@ test_manifest_loader
 '
 ]
 ]
+        
+loader
+=
+loader_cls
+(
+config
+.
+params
+)
         
 task
 [
@@ -10304,6 +10313,33 @@ skipped
 :
             
 continue
+        
+if
+config
+.
+params
+[
+'
+test_manifest_loader
+'
+]
+!
+=
+'
+default
+'
+:
+            
+task
+[
+'
+chunks
+'
+]
+=
+"
+dynamic
+"
         
 yield
 task
