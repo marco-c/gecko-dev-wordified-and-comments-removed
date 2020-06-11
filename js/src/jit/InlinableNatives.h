@@ -857,6 +857,13 @@ InlinableNative
 native
 )
 ;
+bool
+CanInlineNativeCrossRealm
+(
+InlinableNative
+native
+)
+;
 }
 }
 #
