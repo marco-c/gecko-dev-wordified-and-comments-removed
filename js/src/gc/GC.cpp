@@ -7856,6 +7856,12 @@ mallocGrowthFactor
 100
 )
 ;
+case
+JSGC_CHUNK_BYTES
+:
+return
+ChunkSize
+;
 default
 :
 MOZ_CRASH
