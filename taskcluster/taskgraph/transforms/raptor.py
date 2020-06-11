@@ -120,10 +120,6 @@ optionally_keyed_by
 app
 '
         
-'
-tier
-'
-        
 list
     
 )
@@ -343,12 +339,6 @@ app
 raptor
 -
 test
-'
-        
-'
-raptor
--
-subtests
 '
         
 test_description_schema
