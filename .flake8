@@ -40,11 +40,6 @@ dom
 bindings
 dom
 /
-browser
--
-element
-dom
-/
 canvas
 dom
 /
