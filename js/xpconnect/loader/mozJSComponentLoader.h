@@ -453,9 +453,6 @@ nsIURI
 aComponent
 bool
 *
-aReuseGlobal
-bool
-*
 aRealFile
 )
 ;
@@ -836,9 +833,6 @@ mLocations
 ;
 bool
 mInitialized
-;
-bool
-mShareLoaderGlobal
 ;
 JS
 :
