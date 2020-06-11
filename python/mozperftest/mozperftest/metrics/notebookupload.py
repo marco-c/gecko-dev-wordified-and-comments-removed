@@ -20,6 +20,14 @@ metrics
 notebook
 import
 PerftestNotebook
+from
+mozperftest
+.
+metrics
+.
+utils
+import
+is_number
 class
 Notebook
 (
@@ -345,14 +353,9 @@ value
 ]
                 
 if
-type
+is_number
 (
 val
-)
-in
-(
-int
-float
 )
 :
                     
