@@ -1187,6 +1187,11 @@ AddResizeEventFlushObserverIfNeeded
 (
 )
 ;
+bool
+InRDMPane
+(
+)
+;
 private
 :
 void
