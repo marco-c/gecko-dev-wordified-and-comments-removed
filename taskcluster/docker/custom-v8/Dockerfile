@@ -68,10 +68,6 @@ libglib2
 -
 dev
 \
-lsb
--
-core
-\
 pkg
 -
 config
