@@ -1150,6 +1150,7 @@ nsCString
 aLocation
 )
 false
+false
 0
 mozilla
 :
@@ -1175,6 +1176,8 @@ nsCString
 aLocation
 bool
 aRelevantForJS
+bool
+aBaselineInterp
 uint64_t
 aInnerWindowID
 const
@@ -1218,6 +1221,7 @@ NormalFrameData
 {
 aLocation
 aRelevantForJS
+aBaselineInterp
 aInnerWindowID
 aLine
 aColumn
@@ -1305,6 +1309,9 @@ mLocation
 ;
 bool
 mRelevantForJS
+;
+bool
+mBaselineInterp
 ;
 uint64_t
 mInnerWindowID
@@ -1495,6 +1502,19 @@ hash
 data
 .
 mRelevantForJS
+)
+;
+hash
+=
+mozilla
+:
+:
+AddToHash
+(
+hash
+data
+.
+mBaselineInterp
 )
 ;
 hash
