@@ -507,7 +507,7 @@ android
 install
 -
 apk
-fenix_fennec_nightly_armeabi_v7a
+fenix_nightlysim_multicommit_armeabi_v7a
 -
 -
 hooks
@@ -686,7 +686,7 @@ android
 install
 -
 apk
-fenix_fennec_nightly_arm64_v8a
+fenix_nightlysim_multicommit_arm64_v8a
 -
 -
 android

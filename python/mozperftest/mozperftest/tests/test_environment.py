@@ -761,9 +761,25 @@ self
             
 system
 .
+setup
+.
+assert_called_once
+(
+)
+            
+browser
+.
+setup
+.
+assert_called_once
+(
+)
+            
+system
+.
 teardown
 .
-assert_called
+assert_called_once
 (
 )
             
@@ -771,7 +787,7 @@ browser
 .
 teardown
 .
-assert_called
+assert_called_once
 (
 )
             
