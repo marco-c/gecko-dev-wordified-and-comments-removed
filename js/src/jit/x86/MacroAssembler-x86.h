@@ -6278,6 +6278,17 @@ FloatRegister
 dest
 )
 ;
+void
+vpandSimd128
+(
+const
+SimdConstant
+&
+v
+FloatRegister
+srcDest
+)
+;
 Condition
 testInt32Truthy
 (

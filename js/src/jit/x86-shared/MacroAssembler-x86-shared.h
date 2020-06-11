@@ -4147,6 +4147,17 @@ dest
 )
 ;
 void
+packedRightShiftByScalarInt64x2
+(
+Imm32
+count
+FloatRegister
+src
+FloatRegister
+dest
+)
+;
+void
 packedUnsignedRightShiftByScalarInt64x2
 (
 FloatRegister
