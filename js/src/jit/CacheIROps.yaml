@@ -2795,7 +2795,7 @@ shared
 false
 transpile
 :
-false
+true
 args
 :
 obj
