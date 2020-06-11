@@ -150,11 +150,6 @@ RenderAndroidSurfaceTextureHostOGL
 (
 )
 ;
-void
-DeleteTextureHandle
-(
-)
-;
 bool
 EnsureAttachedToGLContext
 (
