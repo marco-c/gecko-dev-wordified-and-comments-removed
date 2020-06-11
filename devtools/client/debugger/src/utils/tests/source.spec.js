@@ -28,6 +28,7 @@ makeMockSource
 makeMockSourceWithContent
 makeMockSourceAndContent
 makeMockWasmSourceWithContent
+makeMockThread
 }
 from
 "
@@ -3301,9 +3302,14 @@ underRoot
 >
 {
 const
-threadActors
+threads
 =
 [
+makeMockThread
+(
+{
+actor
+:
 "
 server0
 .
@@ -3313,6 +3319,8 @@ child1
 /
 thread19
 "
+}
+)
 ]
 ;
 it
@@ -3365,7 +3373,7 @@ activity
 -
 stream
 "
-threadActors
+threads
 )
 )
 .
@@ -3428,7 +3436,7 @@ chrome
 /
 /
 "
-threadActors
+threads
 )
 )
 .
@@ -3498,7 +3506,7 @@ child1
 /
 thread19
 "
-threadActors
+threads
 )
 )
 .

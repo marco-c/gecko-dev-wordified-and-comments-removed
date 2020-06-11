@@ -296,8 +296,9 @@ previewLocation
 SourceLocation
 }
 ;
+export
 function
-createPauseState
+initialPauseState
 (
 thread
 :
@@ -475,7 +476,7 @@ state
 :
 PauseState
 =
-createPauseState
+initialPauseState
 (
 )
 action
@@ -1080,7 +1081,7 @@ return
 .
 .
 .
-createPauseState
+initialPauseState
 (
 action
 .

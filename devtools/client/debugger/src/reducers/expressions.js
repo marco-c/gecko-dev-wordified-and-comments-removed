@@ -113,7 +113,7 @@ null
 ;
 export
 const
-createExpressionState
+initialExpressionState
 =
 (
 )
@@ -146,7 +146,7 @@ state
 :
 ExpressionState
 =
-createExpressionState
+initialExpressionState
 (
 )
 action

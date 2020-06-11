@@ -154,7 +154,7 @@ boolean
 ;
 export
 const
-createUIState
+initialUIState
 =
 (
 )
@@ -233,7 +233,7 @@ state
 :
 UIState
 =
-createUIState
+initialUIState
 (
 )
 action

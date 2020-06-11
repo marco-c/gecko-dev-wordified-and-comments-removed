@@ -33,7 +33,7 @@ FocusItem
 ;
 export
 function
-InitialState
+initialSourcesTreeState
 (
 )
 :
@@ -62,7 +62,7 @@ state
 :
 SourceTreeState
 =
-InitialState
+initialSourcesTreeState
 (
 )
 action

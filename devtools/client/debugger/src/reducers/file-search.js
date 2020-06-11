@@ -127,7 +127,7 @@ count
 ;
 export
 const
-createFileSearchState
+initialFileSearchState
 =
 (
 )
@@ -171,7 +171,7 @@ state
 :
 FileSearchState
 =
-createFileSearchState
+initialFileSearchState
 (
 )
 action

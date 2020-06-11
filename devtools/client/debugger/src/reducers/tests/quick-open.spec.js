@@ -54,7 +54,7 @@ any
 import
 update
 {
-createQuickOpenState
+initialQuickOpenState
 getQuickOpenEnabled
 getQuickOpenQuery
 getQuickOpenType
@@ -189,7 +189,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 openQuickOpen
@@ -235,7 +235,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 openQuickOpen
@@ -264,7 +264,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 closeQuickOpen
@@ -314,7 +314,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 openQuickOpen
@@ -382,7 +382,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 openQuickOpen
@@ -450,7 +450,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 closeQuickOpen
@@ -519,7 +519,7 @@ state
 =
 update
 (
-createQuickOpenState
+initialQuickOpenState
 (
 )
 setQuickOpenQuery

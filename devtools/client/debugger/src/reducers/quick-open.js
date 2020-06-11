@@ -67,7 +67,7 @@ QuickOpenType
 ;
 export
 const
-createQuickOpenState
+initialQuickOpenState
 =
 (
 )
@@ -101,7 +101,7 @@ state
 :
 QuickOpenState
 =
-createQuickOpenState
+initialQuickOpenState
 (
 )
 action
@@ -175,7 +175,7 @@ CLOSE_QUICK_OPEN
 "
 :
 return
-createQuickOpenState
+initialQuickOpenState
 (
 )
 ;
