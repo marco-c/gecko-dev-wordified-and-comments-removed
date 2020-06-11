@@ -843,8 +843,10 @@ mBuildIDsConfirmedMatch
 bool
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *
@@ -854,8 +856,10 @@ aReply
 bool
 Call
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *

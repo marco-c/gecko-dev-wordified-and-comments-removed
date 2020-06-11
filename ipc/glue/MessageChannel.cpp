@@ -6324,8 +6324,10 @@ MessageChannel
 :
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *
@@ -6376,15 +6378,6 @@ size
 )
 ;
 }
-UniquePtr
-<
-Message
->
-msg
-(
-aMsg
-)
-;
 AssertWorkerThread
 (
 )
@@ -6462,7 +6455,7 @@ f
 *
 this
 OUT_MESSAGE
-msg
+aMsg
 .
 get
 (
@@ -6522,7 +6515,7 @@ Message
 NOT_NESTED
 &
 &
-msg
+aMsg
 -
 >
 nested_level
@@ -6591,7 +6584,7 @@ NESTED_INSIDE_CPOW
 {
 MOZ_RELEASE_ASSERT
 (
-msg
+aMsg
 -
 >
 nested_level
@@ -6632,7 +6625,7 @@ false
 }
 if
 (
-msg
+aMsg
 -
 >
 nested_level
@@ -6644,7 +6637,7 @@ DispatchingSyncMessageNestedLevel
 )
 |
 |
-msg
+aMsg
 -
 >
 nested_level
@@ -6720,7 +6713,7 @@ cancel
 }
 IPC_ASSERT
 (
-msg
+aMsg
 -
 >
 is_sync
@@ -6740,7 +6733,7 @@ here
 ;
 IPC_ASSERT
 (
-msg
+aMsg
 -
 >
 nested_level
@@ -6781,7 +6774,7 @@ AwaitingSyncReplyNestedLevel
 )
 <
 =
-msg
+aMsg
 -
 >
 nested_level
@@ -6871,7 +6864,7 @@ MessageChannel
 :
 SendAndWait
 "
-msg
+aMsg
 .
 get
 (
@@ -6889,7 +6882,7 @@ return
 false
 ;
 }
-msg
+aMsg
 -
 >
 set_seqno
@@ -6902,7 +6895,7 @@ NextSeqno
 int32_t
 seqno
 =
-msg
+aMsg
 -
 >
 seqno
@@ -6912,7 +6905,7 @@ seqno
 int
 nestedLevel
 =
-msg
+aMsg
 -
 >
 nested_level
@@ -6922,7 +6915,7 @@ nested_level
 msgid_t
 replyType
 =
-msg
+aMsg
 -
 >
 type
@@ -6973,7 +6966,7 @@ TransactionID
 :
 seqno
 ;
-msg
+aMsg
 -
 >
 set_transaction_id
@@ -6991,6 +6984,10 @@ HandleWindowsMessages
 (
 *
 aMsg
+.
+get
+(
+)
 )
 ;
 AutoEnterTransaction
@@ -7024,7 +7021,7 @@ char
 *
 msgName
 =
-msg
+aMsg
 -
 >
 name
@@ -7033,7 +7030,7 @@ name
 ;
 AddProfilerMarker
 (
-msg
+aMsg
 .
 get
 (
@@ -7051,7 +7048,7 @@ std
 :
 move
 (
-msg
+aMsg
 )
 )
 ;
@@ -7617,23 +7614,16 @@ MessageChannel
 :
 Call
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 Message
 *
 aReply
 )
 {
-UniquePtr
-<
-Message
->
-msg
-(
-aMsg
-)
-;
 AssertWorkerThread
 (
 )
@@ -7704,7 +7694,7 @@ cxxframe
 *
 this
 OUT_MESSAGE
-msg
+aMsg
 .
 get
 (
@@ -7734,7 +7724,7 @@ MessageChannel
 :
 Call
 "
-msg
+aMsg
 .
 get
 (
@@ -7781,7 +7771,7 @@ invariant
 ;
 IPC_ASSERT
 (
-msg
+aMsg
 -
 >
 is_interrupt
@@ -7810,7 +7800,7 @@ sends
 "
 )
 ;
-msg
+aMsg
 -
 >
 set_seqno
@@ -7820,7 +7810,7 @@ NextSeqno
 )
 )
 ;
-msg
+aMsg
 -
 >
 set_interrupt_remote_stack_depth_guess
@@ -7828,7 +7818,7 @@ set_interrupt_remote_stack_depth_guess
 mRemoteStackDepthGuess
 )
 ;
-msg
+aMsg
 -
 >
 set_interrupt_local_stack_depth
@@ -7847,13 +7837,13 @@ push
 MessageInfo
 (
 *
-msg
+aMsg
 )
 )
 ;
 AddProfilerMarker
 (
-msg
+aMsg
 .
 get
 (
@@ -7874,7 +7864,7 @@ std
 :
 move
 (
-msg
+aMsg
 )
 )
 ;
