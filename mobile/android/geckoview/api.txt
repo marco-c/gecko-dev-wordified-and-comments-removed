@@ -13266,6 +13266,17 @@ WebExtension
 CreateTabDetails
 )
 ;
+method
+UiThread
+default
+public
+void
+onOpenOptionsPage
+(
+NonNull
+WebExtension
+)
+;
 }
 public
 static
