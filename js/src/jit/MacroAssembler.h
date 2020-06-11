@@ -10941,13 +10941,7 @@ src
 FloatRegister
 dest
 )
-DEFINED_ON
-(
-arm64
-mips64
-x64
-x86
-)
+PER_ARCH
 ;
 public
 :
