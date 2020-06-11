@@ -3821,6 +3821,12 @@ geckoViewSessionContextId
 "
 "
 ;
+DOMString
+partitionKey
+=
+"
+"
+;
 }
 ;
 [
@@ -3846,6 +3852,9 @@ firstPartyDomain
 ;
 DOMString
 geckoViewSessionContextId
+;
+DOMString
+partitionKey
 ;
 }
 ;
