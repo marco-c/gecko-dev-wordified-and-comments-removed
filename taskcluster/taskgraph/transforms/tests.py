@@ -159,12 +159,6 @@ schedules
 import
 INCLUSIVE_COMPONENTS
 from
-moztest
-.
-resolve
-import
-TEST_SUITES
-from
 voluptuous
 import
 (
@@ -10224,18 +10218,6 @@ task
             
 continue
         
-suite_definition
-=
-TEST_SUITES
-[
-task
-[
-'
-suite
-'
-]
-]
-        
 mozinfo
 =
 guess_mozinfo_from_task
@@ -10271,33 +10253,12 @@ loader
 get_manifests
 (
             
-suite_definition
+task
 [
 '
-build_flavor
+suite
 '
 ]
-            
-suite_definition
-.
-get
-(
-'
-kwargs
-'
-{
-}
-)
-.
-get
-(
-'
-subsuite
-'
-'
-undefined
-'
-)
             
 frozenset
 (
@@ -10470,6 +10431,12 @@ task
 test
 -
 platform
+'
+]
+task
+[
+'
+suite
 '
 ]
 )
@@ -10662,18 +10629,6 @@ in
 task
 :
             
-suite_definition
-=
-TEST_SUITES
-[
-task
-[
-'
-suite
-'
-]
-]
-            
 manifests
 =
 task
@@ -10690,33 +10645,12 @@ chunked_manifests
 chunk_manifests
 (
                 
-suite_definition
+task
 [
 '
-build_flavor
+suite
 '
 ]
-                
-suite_definition
-.
-get
-(
-'
-kwargs
-'
-{
-}
-)
-.
-get
-(
-'
-subsuite
-'
-'
-undefined
-'
-)
                 
 task
 [

@@ -54,9 +54,14 @@ moztest
 .
 resolve
 import
+(
+    
+TEST_SUITES
+    
 TestResolver
+    
 TestManifestLoader
-get_suite_definition
+)
 from
 taskgraph
 import
@@ -528,8 +533,7 @@ set
 def
 chunk_manifests
 (
-flavor
-subsuite
+suite
 platform
 chunks
 manifests
@@ -613,27 +617,15 @@ chunk
 "
 "
     
-suite_name
-_
-=
-get_suite_definition
-(
-flavor
-subsuite
-)
-    
 runtimes
 =
 get_runtimes
 (
 platform
-suite_name
+suite
 )
     
 if
-flavor
-!
-=
 "
 web
 -
@@ -641,6 +633,9 @@ platform
 -
 tests
 "
+not
+in
+suite
 :
         
 return
@@ -1249,10 +1244,16 @@ def
 get_tests
 (
 self
-flavor
-subsuite
+suite
 )
 :
+        
+suite_definition
+=
+TEST_SUITES
+[
+suite
+]
         
 return
 list
@@ -1261,12 +1262,39 @@ resolver
 .
 resolve_tests
 (
+            
 flavor
 =
-flavor
+suite_definition
+[
+'
+build_flavor
+'
+]
+            
 subsuite
 =
+suite_definition
+.
+get
+(
+'
+kwargs
+'
+{
+}
+)
+.
+get
+(
+'
 subsuite
+'
+'
+undefined
+'
+)
+        
 )
 )
     
@@ -1276,8 +1304,7 @@ def
 get_manifests
 (
 self
-flavor
-subsuite
+suite
 mozinfo
 )
 :
@@ -1295,14 +1322,10 @@ self
 .
 get_tests
 (
-flavor
-subsuite
+suite
 )
         
 if
-flavor
-=
-=
 "
 web
 -
@@ -1310,6 +1333,8 @@ platform
 -
 tests
 "
+in
+suite
 :
             
 manifests
