@@ -523,13 +523,6 @@ x28
 static
 constexpr
 Register
-RegExpStackPointer
-=
-PseudoStackPointer
-;
-static
-constexpr
-Register
 IntArgReg0
 {
 Registers
