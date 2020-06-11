@@ -440,6 +440,11 @@ controller
 >
 UpdateOverscrollOffset
 (
+mApzc
+.
+GetGuid
+(
+)
 aOverscroll
 .
 x
@@ -493,6 +498,11 @@ controller
 >
 UpdateOverscrollVelocity
 (
+mApzc
+.
+GetGuid
+(
+)
 aVelocity
 .
 x

@@ -281,6 +281,8 @@ request
 async
 UpdateOverscrollVelocity
 (
+ScrollableLayerGuid
+aGuid
 float
 aX
 float
@@ -292,6 +294,8 @@ aIsRootContent
 async
 UpdateOverscrollOffset
 (
+ScrollableLayerGuid
+aGuid
 float
 aX
 float
