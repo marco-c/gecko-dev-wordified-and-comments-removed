@@ -5986,7 +5986,7 @@ SPGenerateMediaControlKeyTestEvent
 {
 ChromeUtils
 .
-generateMediaControlKeysTestEvent
+generateMediaControlKey
 (
 aMessage
 .

@@ -52,7 +52,7 @@ waitUntilDisplayedPlaybackChanged
 ;
 ChromeUtils
 .
-generateMediaControlKeysTestEvent
+generateMediaControlKey
 (
 event
 )

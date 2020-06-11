@@ -185,7 +185,7 @@ key
 ;
 ChromeUtils
 .
-generateMediaControlKeysTestEvent
+generateMediaControlKey
 (
 "
 pause
@@ -259,7 +259,7 @@ key
 ;
 ChromeUtils
 .
-generateMediaControlKeysTestEvent
+generateMediaControlKey
 (
 "
 pause

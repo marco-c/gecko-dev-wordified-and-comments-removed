@@ -111,7 +111,7 @@ key
 )
 ;
 await
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 "
 pause
@@ -135,7 +135,7 @@ key
 )
 ;
 await
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 "
 play
@@ -159,7 +159,7 @@ key
 )
 ;
 await
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 "
 stop
@@ -236,10 +236,10 @@ stop
 )
 ;
 await
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 "
-playPause
+playpause
 "
 )
 ;
@@ -263,10 +263,10 @@ start
 )
 ;
 await
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 "
-playPause
+playpause
 "
 )
 ;
@@ -295,7 +295,7 @@ tab
 )
 ;
 function
-generateMediaControlKeyEvent
+generateMediaControlKey
 (
 event
 )
@@ -309,7 +309,7 @@ waitUntilDisplayedPlaybackChanged
 ;
 ChromeUtils
 .
-generateMediaControlKeysTestEvent
+generateMediaControlKey
 (
 event
 )

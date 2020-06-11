@@ -1,7 +1,7 @@
 #
 include
 "
-MediaControlKeysManager
+MediaControlKeyManager
 .
 h
 "
@@ -89,7 +89,7 @@ Debug
 \
 (
 "
-MediaControlKeysManager
+MediaControlKeyManager
 =
 %
 p
@@ -124,7 +124,7 @@ Info
 \
 (
 "
-MediaControlKeysManager
+MediaControlKeyManager
 =
 %
 p
@@ -143,7 +143,7 @@ namespace
 dom
 {
 bool
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 IsOpened
@@ -156,7 +156,7 @@ true
 ;
 }
 bool
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 Open
@@ -187,7 +187,7 @@ MainThread
 )
 this
 &
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 ControllerAmountChanged
@@ -197,11 +197,11 @@ return
 true
 ;
 }
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 ~
-MediaControlKeysManager
+MediaControlKeyManager
 (
 )
 {
@@ -221,7 +221,7 @@ DisconnectIfExists
 ;
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 StartMonitoringControlKeys
@@ -253,7 +253,7 @@ mEventSource
 widget
 :
 :
-CreateMediaControlKeysEventSource
+CreateMediaControlKeySource
 (
 )
 ;
@@ -320,7 +320,7 @@ this
 }
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 StopMonitoringControlKeys
@@ -357,7 +357,7 @@ Close
 }
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 ControllerAmountChanged
@@ -407,13 +407,13 @@ StopMonitoringControlKeys
 }
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 OnKeyPressed
 (
-MediaControlKeysEvent
-aKeyEvent
+MediaControlKey
+aKey
 )
 {
 for
@@ -429,13 +429,13 @@ listener
 >
 OnKeyPressed
 (
-aKeyEvent
+aKey
 )
 ;
 }
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 SetPlaybackState
@@ -532,7 +532,7 @@ nullptr
 }
 }
 MediaSessionPlaybackState
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 GetPlaybackState
@@ -564,7 +564,7 @@ mPlaybackState
 ;
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 SetMediaMetadata
@@ -697,7 +697,7 @@ nullptr
 }
 }
 void
-MediaControlKeysManager
+MediaControlKeyManager
 :
 :
 SetSupportedMediaKeys
@@ -733,7 +733,7 @@ keys
 %
 s
 "
-ToMediaControlKeysEventStr
+ToMediaControlKeyStr
 (
 key
 )

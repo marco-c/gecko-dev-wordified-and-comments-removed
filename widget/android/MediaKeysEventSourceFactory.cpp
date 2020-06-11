@@ -17,9 +17,9 @@ mozilla
 dom
 :
 :
-MediaControlKeysEventSource
+MediaControlKeySource
 *
-CreateMediaControlKeysEventSource
+CreateMediaControlKeySource
 (
 )
 {

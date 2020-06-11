@@ -265,9 +265,9 @@ forget
 )
 ;
 }
-ContentControlKeyEventReceiver
+ContentMediaControlKeyReceiver
 *
-ContentControlKeyEventReceiver
+ContentMediaControlKeyReceiver
 :
 :
 Get
@@ -300,7 +300,7 @@ controller
 ?
 static_cast
 <
-ContentControlKeyEventReceiver
+ContentMediaControlKeyReceiver
 *
 >
 (
@@ -1670,7 +1670,7 @@ ContentMediaController
 :
 AddReceiver
 (
-ContentControlKeyEventReceiver
+ContentMediaControlKeyReceiver
 *
 aListener
 )
@@ -1696,7 +1696,7 @@ ContentMediaController
 :
 RemoveReceiver
 (
-ContentControlKeyEventReceiver
+ContentMediaControlKeyReceiver
 *
 aListener
 )
@@ -1741,10 +1741,10 @@ void
 ContentMediaController
 :
 :
-HandleEvent
+HandleMediaKey
 (
-MediaControlKeysEvent
-aEvent
+MediaControlKey
+aKey
 )
 {
 MOZ_ASSERT
@@ -1769,9 +1769,9 @@ num
 %
 zu
 "
-ToMediaControlKeysEventStr
+ToMediaControlKeyStr
 (
-aEvent
+aKey
 )
 mReceivers
 .
@@ -1792,9 +1792,9 @@ mReceivers
 receiver
 -
 >
-HandleEvent
+HandleMediaKey
 (
-aEvent
+aKey
 )
 ;
 }
