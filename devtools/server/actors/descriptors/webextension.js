@@ -295,9 +295,6 @@ temporarilyInstalled
 traits
 :
 {
-isDescriptor
-:
-true
 }
 type
 :
