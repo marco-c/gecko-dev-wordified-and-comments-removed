@@ -709,6 +709,14 @@ return
 false
 ;
 }
+#
+ifdef
+DEBUG
+return
+true
+;
+#
+else
 nsPIDOMWindowInner
 *
 window
@@ -730,6 +738,8 @@ aMutationEventType
 :
 false
 ;
+#
+endif
 }
 PresShell
 *
