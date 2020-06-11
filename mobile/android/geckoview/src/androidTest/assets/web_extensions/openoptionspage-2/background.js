@@ -1,0 +1,8 @@
+browser
+.
+runtime
+.
+openOptionsPage
+(
+)
+;
