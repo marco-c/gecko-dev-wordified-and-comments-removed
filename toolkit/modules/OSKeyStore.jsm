@@ -173,7 +173,12 @@ STORE_LABEL
 :
 AppConstants
 .
-MOZ_APP_NAME
+MOZ_APP_BASENAME
++
+"
+Encrypted
+Storage
+"
 _isLocked
 :
 true
