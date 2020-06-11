@@ -1441,39 +1441,11 @@ run_filename
 ]
         
 raw_log_file
-=
-os
-.
-path
-.
-join
-(
-dirs
-[
-'
-abs_blob_upload_dir
-'
-]
-                                    
-'
-%
-s_raw
-.
-log
-'
-%
-self
-.
-test_suite
-)
-        
 error_summary_file
 =
-os
+self
 .
-path
-.
-join
+get_indexed_logs
 (
 dirs
 [
@@ -1481,14 +1453,7 @@ dirs
 abs_blob_upload_dir
 '
 ]
-                                          
-'
-%
-s_errorsummary
-.
-log
-'
-%
+                                                                 
 self
 .
 test_suite
@@ -2776,14 +2741,6 @@ test_suite
 =
 suite
             
-cmd
-=
-self
-.
-_build_command
-(
-)
-            
 try
 :
                 
@@ -2959,6 +2916,14 @@ br
 )
                     
 return
+                
+cmd
+=
+self
+.
+_build_command
+(
+)
                 
 final_cmd
 =
