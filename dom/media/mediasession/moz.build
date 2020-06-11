@@ -33,11 +33,6 @@ MediaSessionIPCUtils
 .
 h
 '
-'
-MediaSessionUtils
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
