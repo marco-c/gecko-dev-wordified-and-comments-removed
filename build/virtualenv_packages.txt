@@ -204,6 +204,8 @@ python
 ecdsa
 /
 src
+python2
+:
 mozilla
 .
 pth
@@ -926,6 +928,8 @@ tools
 third_party
 /
 webencodings
+python2
+:
 mozilla
 .
 pth
