@@ -1322,16 +1322,26 @@ cycles
         
 -
 -
-geckoProfile
+gecko
+-
+profile
         
 -
 -
-geckoProfileInterval
+gecko
+-
+profile
+-
+interval
 1000
         
 -
 -
-geckoProfileEntries
+gecko
+-
+profile
+-
+entries
 1000
         
 -

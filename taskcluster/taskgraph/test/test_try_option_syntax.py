@@ -3547,7 +3547,9 @@ self
 "
 -
 -
-geckoProfile
+gecko
+-
+profile
 sets
 profile
 to
@@ -3563,7 +3565,9 @@ try
 :
 -
 -
-geckoProfile
+gecko
+-
+profile
 '
 )
         

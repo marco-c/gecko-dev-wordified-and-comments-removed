@@ -184,7 +184,9 @@ adding
 the
 -
 -
-geckoProfile
+gecko
+-
+profile
 cmd
 arg
 .
@@ -615,12 +617,15 @@ command
 =
 add_args_to_perf_command
 (
+                        
 cmd
 [
 '
 -
 -
-geckoProfile
+gecko
+-
+profile
 '
 ]
 )

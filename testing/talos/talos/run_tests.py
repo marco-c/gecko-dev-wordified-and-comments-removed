@@ -1810,7 +1810,9 @@ talos_results
 add_extra_option
 (
 '
-geckoProfile
+gecko
+-
+profile
 '
 )
     

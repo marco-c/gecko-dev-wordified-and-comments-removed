@@ -1354,7 +1354,9 @@ results_url
         
 if
 '
-geckoProfile
+gecko
+-
+profile
 '
 not
 in
