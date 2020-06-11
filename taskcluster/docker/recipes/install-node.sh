@@ -129,13 +129,11 @@ nodejs
 .
 org
 /
-download
-/
-release
+dist
 /
 v10
 .
-19
+21
 .
 0
 /
@@ -143,7 +141,7 @@ node
 -
 v10
 .
-19
+21
 .
 0
 -
@@ -156,7 +154,7 @@ tar
 xz
 echo
 '
-34127c7c6b1ba02d6d4dc3a926f38a5fb88bb37fc7f051349005ce331c7a53c6
+1d3296763e46540047099e4910812e81c4899c0595f2d82474e2099c1e1603e2
 node
 .
 xz
