@@ -2482,6 +2482,14 @@ Private
 __func__
 )
 ;
+mOpenPromise
+-
+>
+UseDirectTaskDispatch
+(
+__func__
+)
+;
 return
 mOpenPromise
 ;
