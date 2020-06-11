@@ -2536,10 +2536,6 @@ pair
 as_string
 )
 ;
-if
-(
-r
-=
 nr_ice_candidate_pair_insert
 (
 &
@@ -2554,11 +2550,6 @@ stream
 >
 check_list
 copy
-)
-)
-ABORT
-(
-r
 )
 ;
 nr_ice_candidate_pair_trigger_check_append
@@ -3547,7 +3538,7 @@ return
 )
 ;
 }
-int
+void
 nr_ice_candidate_pair_insert
 (
 nr_ice_cand_pair_head
@@ -3616,11 +3607,6 @@ TAILQ_INSERT_TAIL
 head
 pair
 check_queue_entry
-)
-;
-return
-(
-0
 )
 ;
 }
