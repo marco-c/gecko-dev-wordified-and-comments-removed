@@ -7886,7 +7886,7 @@ const
 uint32_t
 PSM_DEFAULT_MIN_TLS_VERSION
 =
-1
+3
 ;
 static
 const
