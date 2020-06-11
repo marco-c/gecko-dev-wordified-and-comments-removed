@@ -2258,6 +2258,10 @@ progressListener
 onLocationChange
 (
 aBrowser
+aWebProgress
+aRequest
+aLocationURI
+aFlags
 )
 {
 if
@@ -2266,9 +2270,7 @@ if
 url
 &
 &
-aBrowser
-.
-currentURI
+aLocationURI
 .
 spec
 !
@@ -2282,9 +2284,7 @@ url
 url
 &
 &
-aBrowser
-.
-currentURI
+aLocationURI
 .
 spec
 =
@@ -4521,6 +4521,7 @@ offsetX
 offsetY
 event
 browsingContext
+handlingUserInput
 )
 {
 let
@@ -4608,6 +4609,7 @@ y
 :
 offsetY
 event
+handlingUserInput
 }
 )
 ;
