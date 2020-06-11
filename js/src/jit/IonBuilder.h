@@ -4712,10 +4712,8 @@ inlineGuardToClass
 CallInfo
 &
 callInfo
-const
-JSClass
-*
-clasp
+InlinableNative
+native
 )
 ;
 InliningResult

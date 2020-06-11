@@ -191,6 +191,11 @@ FoldLinearArithConstants
 cpp
 '
 '
+InlinableNatives
+.
+cpp
+'
+'
 InstructionReordering
 .
 cpp

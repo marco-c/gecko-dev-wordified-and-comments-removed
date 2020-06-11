@@ -829,6 +829,15 @@ ADD_NATIVE
 #
 undef
 ADD_NATIVE
+const
+JSClass
+*
+InlinableNativeGuardToClass
+(
+InlinableNative
+native
+)
+;
 }
 }
 #
