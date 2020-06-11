@@ -491,6 +491,10 @@ BEHAVIOR_REJECT_TRACKER
 ISOLATE_UI_PREF
 true
 ]
+[
+FPI_PREF
+false
+]
 ]
 ;
 for
