@@ -1986,6 +1986,10 @@ if
 (
 !
 mIsCanvasDirty
+&
+&
+!
+fb
 )
 return
 ;
