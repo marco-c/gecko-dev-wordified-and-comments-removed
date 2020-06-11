@@ -10,6 +10,8 @@ mozunit
 from
 mozbuild
 .
+vendor
+.
 vendor_rust
 import
 VendorRust

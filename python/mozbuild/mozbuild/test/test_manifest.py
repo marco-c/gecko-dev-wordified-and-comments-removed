@@ -17,6 +17,8 @@ mozfile
 from
 mozbuild
 .
+vendor
+.
 moz_yaml
 import
 load_moz_yaml
