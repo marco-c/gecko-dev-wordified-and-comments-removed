@@ -1716,7 +1716,10 @@ eStorageAccessPrincipal
 bool
 isSafeTopLevelNav
 =
-NS_IsSafeTopLevelNav
+CookieCommons
+:
+:
+IsSafeTopLevelNav
 (
 aChannel
 )
@@ -1724,7 +1727,10 @@ aChannel
 bool
 isSameSiteForeign
 =
-NS_IsSameSiteForeign
+CookieCommons
+:
+:
+IsSameSiteForeign
 (
 aChannel
 aHostURI
