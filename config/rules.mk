@@ -4813,8 +4813,6 @@ HOST_CFLAGS
 (
 NSPR_CFLAGS
 )
--
--
 <
 (
 HOST_CPPOBJS
@@ -4845,8 +4843,6 @@ HOST_CXXFLAGS
 (
 NSPR_CFLAGS
 )
--
--
 <
 (
 HOST_CMOBJS
@@ -4875,8 +4871,6 @@ HOST_CMFLAGS
 (
 NSPR_CFLAGS
 )
--
--
 <
 (
 HOST_CMMOBJS
@@ -4905,8 +4899,6 @@ HOST_CMMFLAGS
 (
 NSPR_CFLAGS
 )
--
--
 <
 (
 COBJS
@@ -4933,8 +4925,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 CWASMOBJS
@@ -4961,8 +4951,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 WINEWRAP
 =
@@ -5469,8 +5457,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 CPPWASMOBJS
@@ -5530,8 +5516,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 CMOBJS
@@ -5560,8 +5544,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 filter
@@ -5613,8 +5595,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 filter
@@ -5666,8 +5646,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 filter
@@ -5719,8 +5697,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 (
 filter
@@ -5772,8 +5748,6 @@ notdir
 )
 _FLAGS
 )
--
--
 <
 ifneq
 (
