@@ -2151,7 +2151,7 @@ struct
 MaintainedRange
 {
 MOZ_CAN_RUN_SCRIPT
-bool
+void
 AdjustNormalSelection
 (
 const
