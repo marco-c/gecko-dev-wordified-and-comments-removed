@@ -2497,6 +2497,7 @@ inDatabase
 updateDatabase
 )
 {
+await
 XPIDatabase
 .
 updateAddonDisabledState
@@ -4790,8 +4791,8 @@ allowSystemAddons
 )
 ;
 }
-set
-softDisabled
+async
+setSoftDisabled
 (
 val
 )
@@ -4854,6 +4855,7 @@ addon
 isWebExtension
 )
 {
+await
 XPIDatabase
 .
 updateAddonDisabledState
@@ -4870,6 +4872,7 @@ val
 }
 else
 {
+await
 XPIDatabase
 .
 updateAddonDisabledState
