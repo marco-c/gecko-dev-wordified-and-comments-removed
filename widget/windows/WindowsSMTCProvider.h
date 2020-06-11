@@ -268,6 +268,17 @@ aMetadata
 )
 override
 ;
+void
+SetSupportedMediaKeys
+(
+const
+MediaKeysArray
+&
+aSupportedKeys
+)
+override
+{
+}
 private
 :
 ~

@@ -418,6 +418,17 @@ GetMetadataAsGVariant
 )
 const
 ;
+void
+SetSupportedMediaKeys
+(
+const
+MediaKeysArray
+&
+aSupportedKeys
+)
+override
+{
+}
 private
 :
 ~
