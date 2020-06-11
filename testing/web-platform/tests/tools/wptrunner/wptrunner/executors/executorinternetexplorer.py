@@ -9,11 +9,11 @@ from
 base
 import
 WdspecExecutor
-WebDriverProtocol
+WdspecProtocol
 class
 InternetExplorerDriverProtocol
 (
-WebDriverProtocol
+WdspecProtocol
 )
 :
     

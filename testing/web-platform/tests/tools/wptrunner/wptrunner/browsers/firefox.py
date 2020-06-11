@@ -82,6 +82,8 @@ MarionetteTestharnessExecutor
                                             
 MarionetteRefTestExecutor
                                             
+MarionettePrintRefTestExecutor
+                                            
 MarionetteWdspecExecutor
                                             
 MarionetteCrashtestExecutor
@@ -166,6 +168,16 @@ reftest
 :
 "
 MarionetteRefTestExecutor
+"
+                              
+"
+print
+-
+reftest
+"
+:
+"
+MarionettePrintRefTestExecutor
 "
                               
 "
