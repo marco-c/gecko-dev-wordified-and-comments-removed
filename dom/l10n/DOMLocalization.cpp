@@ -816,7 +816,7 @@ GetAttributes
 Element
 &
 aElement
-L10nIdArgs
+L10nKey
 &
 aResult
 ErrorResult
@@ -1470,13 +1470,13 @@ RootingCx
 ;
 Sequence
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 l10nKeys
 ;
 SequenceRooter
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 rooter
 (
@@ -1584,7 +1584,7 @@ datal10nid
 continue
 ;
 }
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 *
 key
 =
@@ -1616,12 +1616,8 @@ GetAttributes
 (
 *
 domElement
+*
 key
--
->
-SetAsL10nIdArgs
-(
-)
 aRv
 )
 ;

@@ -250,7 +250,7 @@ GetAttributes
 Element
 &
 aElement
-L10nIdArgs
+L10nKey
 &
 aResult
 ErrorResult

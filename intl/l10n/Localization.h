@@ -279,7 +279,7 @@ aCx
 const
 Sequence
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 &
 aKeys
@@ -300,7 +300,7 @@ aCx
 const
 Sequence
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 &
 aKeys
@@ -351,7 +351,7 @@ aCx
 const
 Sequence
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 &
 aKeys
@@ -375,7 +375,7 @@ aCx
 const
 Sequence
 <
-OwningUTF8StringOrL10nIdArgs
+L10nKey
 >
 &
 aKeys
