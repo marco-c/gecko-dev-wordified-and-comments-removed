@@ -2398,7 +2398,7 @@ Dec
 }
 pub
 fn
-to_id
+to_property_key
 (
 &
 mut
@@ -2412,7 +2412,7 @@ emit_op
 Opcode
 :
 :
-ToId
+ToPropertyKey
 )
 ;
 }
