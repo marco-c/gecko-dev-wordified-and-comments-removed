@@ -36,7 +36,11 @@ get_s3_region_and_bucket
 import
 os
 from
-Queue
+six
+.
+moves
+.
+queue
 import
 Queue
 import
