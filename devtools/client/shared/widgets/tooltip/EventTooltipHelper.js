@@ -712,7 +712,7 @@ push
 (
 sourceMapURLService
 .
-subscribe
+subscribeByURL
 (
 location
 .

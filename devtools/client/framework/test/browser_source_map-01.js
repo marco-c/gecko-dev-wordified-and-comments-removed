@@ -148,7 +148,7 @@ newLoc1
 await
 service
 .
-originalPositionFor
+originalPositionForURL
 (
 loc1
 .
@@ -186,7 +186,7 @@ newLoc2
 await
 service
 .
-originalPositionFor
+originalPositionForURL
 (
 loc2
 .
@@ -328,7 +328,7 @@ is
 (
 newLoc
 .
-sourceUrl
+url
 COFFEE_URL
 "
 Correct
@@ -451,7 +451,7 @@ is
 (
 newLoc
 .
-sourceUrl
+url
 COFFEE_URL
 "
 Correct

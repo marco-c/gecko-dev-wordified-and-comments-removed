@@ -3384,7 +3384,7 @@ this
 .
 sourceMapURLService
 .
-subscribe
+subscribeByURL
 (
 url
 line

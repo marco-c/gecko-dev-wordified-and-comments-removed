@@ -391,7 +391,7 @@ props
 .
 sourceMapURLService
 .
-subscribe
+subscribeByURL
 (
 source
 line
