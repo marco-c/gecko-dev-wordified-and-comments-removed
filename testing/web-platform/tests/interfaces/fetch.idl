@@ -149,9 +149,15 @@ FormData
 or
 URLSearchParams
 or
+USVString
+)
+XMLHttpRequestBodyInit
+;
+typedef
+(
 ReadableStream
 or
-USVString
+XMLHttpRequestBodyInit
 )
 BodyInit
 ;
