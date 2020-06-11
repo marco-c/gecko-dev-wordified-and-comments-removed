@@ -1077,7 +1077,7 @@ mozilla
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 from
 "
 mozilla
@@ -1974,7 +1974,7 @@ nsCString
 [
 ]
 aTrackingFullHashes
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 ?
 aReason
 )

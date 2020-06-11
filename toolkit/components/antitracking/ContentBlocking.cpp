@@ -618,7 +618,7 @@ RefPtr
 ContentBlocking
 :
 :
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 >
 ContentBlocking
 :
@@ -637,7 +637,7 @@ aParentContext
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 aReason
 const
 ContentBlocking
@@ -704,7 +704,7 @@ disabled
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -763,7 +763,7 @@ disabled
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -881,7 +881,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -928,7 +928,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -988,7 +988,7 @@ behavior
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -1038,7 +1038,7 @@ GetIsOnContentBlockingAllowList
 )
 {
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -1091,7 +1091,7 @@ sandboxed
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1186,7 +1186,7 @@ URI
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1243,7 +1243,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1296,7 +1296,7 @@ window
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1356,7 +1356,7 @@ window
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1399,7 +1399,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1459,7 +1459,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1558,7 +1558,7 @@ context
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1762,7 +1762,7 @@ aReason
 ;
 }
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -1781,7 +1781,7 @@ __func__
 ;
 }
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -1799,7 +1799,7 @@ RefPtr
 ContentBlocking
 :
 :
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 >
 ContentBlocking
 :
@@ -1826,7 +1826,7 @@ aCookieBehavior
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 aReason
 const
 PerformFinalChecks
@@ -1923,7 +1923,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2053,7 +2053,7 @@ STATE_COOKIES_BLOCKED_TRACKER
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2120,7 +2120,7 @@ early
 )
 ;
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2149,7 +2149,7 @@ aAllowMode
 >
 RefPtr
 <
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 >
 {
 if
@@ -2306,7 +2306,7 @@ IsResolve
 )
 {
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -2320,7 +2320,7 @@ __func__
 ;
 }
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2383,7 +2383,7 @@ return
 cc
 -
 >
-SendFirstPartyStorageAccessGrantedForOrigin
+SendStorageAccessPermissionGrantedForOrigin
 (
 aTopLevelWindowId
 aParentContext
@@ -2412,7 +2412,7 @@ const
 ContentChild
 :
 :
-FirstPartyStorageAccessGrantedForOriginPromise
+StorageAccessPermissionGrantedForOriginPromise
 :
 :
 ResolveOrRejectValue
@@ -2430,7 +2430,7 @@ IsResolve
 )
 {
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndResolve
@@ -2445,7 +2445,7 @@ __func__
 ;
 }
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2480,7 +2480,7 @@ __func__
 storePermission
 ]
 (
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 ResolveOrRejectValue
@@ -2510,7 +2510,7 @@ ResolveValue
 ;
 }
 return
-StorageAccessGrantPromise
+StorageAccessPermissionGrantPromise
 :
 :
 CreateAndReject
@@ -2551,7 +2551,7 @@ aCookieBehavior
 ContentBlockingNotifier
 :
 :
-StorageAccessGrantedReason
+StorageAccessPermissionGrantedReason
 aReason
 )
 {
@@ -3562,7 +3562,7 @@ Unused
 wgp
 -
 >
-SendSaveStorageAccessGranted
+SendSaveStorageAccessPermissionGranted
 (
 )
 ;
