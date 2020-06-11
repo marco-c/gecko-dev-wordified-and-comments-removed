@@ -2289,6 +2289,12 @@ uint32_t
 >
 mRecvSSRC
 ;
+Atomic
+<
+uint32_t
+>
+mRemoteSSRC
+;
 RtpPacketQueue
 mRtpPacketQueue
 ;
