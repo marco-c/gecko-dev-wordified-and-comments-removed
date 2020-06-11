@@ -89,6 +89,14 @@ subscribe
 =
 >
 {
+return
+(
+)
+=
+>
+{
+}
+;
 }
 originalPositionFor
 :

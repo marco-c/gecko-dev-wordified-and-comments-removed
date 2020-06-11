@@ -409,16 +409,9 @@ componentWillUnmount
 {
 if
 (
-typeof
 this
 .
 unsubscribeSourceMapService
-=
-=
-=
-"
-function
-"
 )
 {
 this
