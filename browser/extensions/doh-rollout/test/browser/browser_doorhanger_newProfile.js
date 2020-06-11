@@ -95,7 +95,15 @@ prefs
 DOH_TRR_SELECT_URI_PREF
 )
 "
-dummyTRR
+https
+:
+/
+/
+dummytrr
+.
+com
+/
+query
 "
 "
 TRR
