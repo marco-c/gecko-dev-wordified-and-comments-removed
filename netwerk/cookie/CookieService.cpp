@@ -2805,6 +2805,11 @@ HandleValue
 aOriginAttributes
 int32_t
 aSameSite
+nsICookie
+:
+:
+schemeType
+aSchemeMap
 JSContext
 *
 aCx
@@ -2851,6 +2856,7 @@ aExpiry
 &
 attrs
 aSameSite
+aSchemeMap
 )
 ;
 }
@@ -2892,6 +2898,11 @@ OriginAttributes
 aOriginAttributes
 int32_t
 aSameSite
+nsICookie
+:
+:
+schemeType
+aSchemeMap
 )
 {
 if
@@ -3010,10 +3021,7 @@ aIsSession
 aIsSecure
 aSameSite
 aSameSite
-nsICookie
-:
-:
-SCHEME_UNSET
+aSchemeMap
 )
 ;
 RefPtr
