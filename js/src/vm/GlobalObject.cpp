@@ -1032,7 +1032,6 @@ case
 JSProto_FinalizationRegistry
 :
 return
-!
 cx
 -
 >
@@ -1048,6 +1047,15 @@ creationOptions
 getWeakRefsEnabled
 (
 )
+=
+=
+JS
+:
+:
+WeakRefSpecifier
+:
+:
+Disabled
 ;
 case
 JSProto_Iterator
