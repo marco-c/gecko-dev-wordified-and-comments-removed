@@ -382,6 +382,13 @@ GetSourceDocURI
 (
 )
 ;
+const
+Encoding
+*
+GetSourceDocCharacterSet
+(
+)
+;
 URLExtraData
 *
 GetContentURLData
