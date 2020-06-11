@@ -671,6 +671,11 @@ _
 IntrinsicGuardToRegExpStringIterator
 )
 \
+_
+(
+IntrinsicGuardToWrapForValidIterator
+)
+\
 \
 _
 (
