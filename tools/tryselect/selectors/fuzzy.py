@@ -1571,9 +1571,20 @@ bin
 )
     
 if
-update
+os
+.
+path
+.
+isdir
+(
+fzf_path
+)
 :
         
+if
+update
+:
+            
 ret
 =
 run_cmd
@@ -1590,11 +1601,11 @@ cwd
 =
 fzf_path
 )
-        
+            
 if
 ret
 :
-            
+                
 print
 (
 "
@@ -1604,34 +1615,23 @@ failed
 .
 "
 )
-            
+                
 sys
 .
 exit
 (
 1
 )
-        
+            
 run_fzf_install_script
 (
 fzf_path
 )
-        
+            
 return
 get_fzf
 (
 )
-    
-if
-os
-.
-path
-.
-isdir
-(
-fzf_path
-)
-:
         
 fzf_bin
 =
@@ -1660,6 +1660,11 @@ True
 return
 fzf_bin
     
+if
+not
+update
+:
+        
 install
 =
 input
@@ -1681,7 +1686,7 @@ n
 :
 "
 )
-    
+        
 if
 install
 .
@@ -1694,7 +1699,7 @@ lower
 y
 '
 :
-        
+            
 return
     
 if
