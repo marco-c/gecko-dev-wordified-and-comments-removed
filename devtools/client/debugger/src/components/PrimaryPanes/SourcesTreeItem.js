@@ -790,9 +790,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-unblackbox
+unignore
 "
 )
 :
@@ -801,9 +801,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-blackbox
+ignore
 "
 )
 accesskey
@@ -817,9 +817,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-unblackbox
+unignore
 .
 accesskey
 "
@@ -830,9 +830,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-blackbox
+ignore
 .
 accesskey
 "
@@ -1274,7 +1274,7 @@ L10N
 getStr
 (
 "
-unblackBoxAllInGroup
+unignoreAllInGroup
 .
 label
 "
@@ -1285,7 +1285,7 @@ L10N
 getStr
 (
 "
-blackBoxAllInGroup
+ignoreAllInGroup
 .
 label
 "
@@ -1309,7 +1309,7 @@ L10N
 getStr
 (
 "
-unblackBoxAllOutsideGroup
+unignoreAllOutsideGroup
 .
 label
 "
@@ -1320,7 +1320,7 @@ L10N
 getStr
 (
 "
-blackBoxAllOutsideGroup
+ignoreAllOutsideGroup
 .
 label
 "
@@ -1339,7 +1339,7 @@ L10N
 getStr
 (
 "
-unblackBoxAllInDir
+unignoreAllInDir
 .
 label
 "
@@ -1350,7 +1350,7 @@ L10N
 getStr
 (
 "
-blackBoxAllInDir
+ignoreAllInDir
 .
 label
 "
@@ -1374,7 +1374,7 @@ L10N
 getStr
 (
 "
-unblackBoxAllOutsideDir
+unignoreAllOutsideDir
 .
 label
 "
@@ -1385,7 +1385,7 @@ L10N
 getStr
 (
 "
-blackBoxAllOutsideDir
+ignoreAllOutsideDir
 .
 label
 "
@@ -1475,7 +1475,7 @@ L10N
 getStr
 (
 "
-blackBoxAll
+ignoreAll
 .
 label
 "

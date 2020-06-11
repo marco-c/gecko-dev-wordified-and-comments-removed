@@ -261,7 +261,7 @@ NODE_SELECTORS
 .
 nodeBlackBoxAllInside
 "
-Blackbox
+Ignore
 files
 in
 this
@@ -277,7 +277,7 @@ NODE_SELECTORS
 .
 nodeBlackBoxAllOutside
 "
-Blackbox
+Ignore
 files
 outside
 this
@@ -418,7 +418,7 @@ NODE_SELECTORS
 .
 nodeBlackBoxAllInside
 "
-Blackbox
+Ignore
 files
 in
 this
@@ -434,7 +434,7 @@ NODE_SELECTORS
 .
 nodeUnBlackBoxAllOutside
 "
-Unblackbox
+Unignore
 files
 outside
 this
@@ -572,7 +572,7 @@ NODE_SELECTORS
 .
 nodeBlackBoxAllInside
 "
-Blackbox
+Ignore
 files
 in
 this
@@ -671,7 +671,7 @@ NODE_SELECTORS
 .
 nodeUnBlackBoxAllInside
 "
-Unblackbox
+Unignore
 files
 in
 this

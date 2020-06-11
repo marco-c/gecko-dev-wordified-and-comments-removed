@@ -562,9 +562,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-blackbox
+ignore
 "
 )
 accesskey
@@ -574,9 +574,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-blackbox
+ignore
 .
 accesskey
 "

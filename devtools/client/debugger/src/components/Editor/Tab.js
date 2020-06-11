@@ -770,9 +770,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-unblackbox
+unignore
 "
 )
 :
@@ -781,9 +781,9 @@ L10N
 getStr
 (
 "
-blackboxContextItem
+ignoreContextItem
 .
-blackbox
+ignore
 "
 )
 disabled

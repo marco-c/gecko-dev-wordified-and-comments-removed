@@ -154,7 +154,7 @@ all
 label
 :
 "
-Blackbox
+Ignore
 "
 submenu
 :
@@ -174,7 +174,7 @@ inside
 label
 :
 "
-Blackbox
+Ignore
 files
 in
 this
@@ -207,7 +207,7 @@ outside
 label
 :
 "
-Blackbox
+Ignore
 files
 outside
 this
@@ -691,7 +691,7 @@ URI
 accesskey
 :
 "
-B
+I
 "
 click
 :
@@ -716,7 +716,7 @@ blackbox
 label
 :
 "
-Blackbox
+Ignore
 source
 "
 }
@@ -914,7 +914,7 @@ menu
 on
 file
 to
-blackbox
+ignore
 source
 "
 async
@@ -967,7 +967,7 @@ URI
 accesskey
 :
 "
-B
+I
 "
 click
 :
@@ -992,7 +992,7 @@ blackbox
 label
 :
 "
-Blackbox
+Ignore
 source
 "
 }
@@ -1192,7 +1192,7 @@ menu
 on
 directory
 to
-blackbox
+ignore
 all
 with
 submenu
@@ -1547,7 +1547,7 @@ URI
 accesskey
 :
 "
-B
+I
 "
 click
 :
@@ -1572,7 +1572,7 @@ blackbox
 label
 :
 "
-Blackbox
+Ignore
 source
 "
 }
@@ -2704,7 +2704,7 @@ show
 source
 item
 with
-blackbox
+ignore
 icon
 "
 async
