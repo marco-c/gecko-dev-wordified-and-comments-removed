@@ -429,14 +429,6 @@ MutableHandleObject
 aGlobal
 )
 ;
-bool
-ReuseGlobal
-(
-nsIURI
-*
-aComponent
-)
-;
 JSObject
 *
 GetSharedGlobal
