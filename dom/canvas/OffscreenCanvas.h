@@ -67,10 +67,10 @@ namespace
 layers
 {
 class
-AsyncCanvasRenderer
+CanvasClient
 ;
 class
-CanvasClient
+CanvasRenderer
 ;
 class
 ImageContainer
@@ -94,7 +94,7 @@ OffscreenCanvasCloneData
 layers
 :
 :
-AsyncCanvasRenderer
+CanvasRenderer
 *
 aRenderer
 uint32_t
@@ -122,7 +122,7 @@ RefPtr
 layers
 :
 :
-AsyncCanvasRenderer
+CanvasRenderer
 >
 mRenderer
 ;
@@ -180,7 +180,7 @@ aCompositorBackend
 layers
 :
 :
-AsyncCanvasRenderer
+CanvasRenderer
 *
 aRenderer
 )
@@ -657,7 +657,7 @@ RefPtr
 layers
 :
 :
-AsyncCanvasRenderer
+CanvasRenderer
 >
 mCanvasRenderer
 ;
