@@ -183,7 +183,6 @@ jstestbrowser
 jstests
 mochitest
 mozharness
-pastebin
 prettier
 -
 format
