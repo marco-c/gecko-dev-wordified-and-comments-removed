@@ -128,6 +128,11 @@ nsresult
 rv
 )
 ;
+async
+DeleteSelf
+(
+)
+;
 }
 ;
 }
