@@ -3182,8 +3182,6 @@ build
 android
 -
 aarch64
--
-shippable
 /
 opt
 fetches

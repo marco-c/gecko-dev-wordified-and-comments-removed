@@ -1992,8 +1992,6 @@ platform
 android
 -
 x86_64
--
-shippable
 /
 opt
 test
@@ -2058,8 +2056,6 @@ platform
 android
 -
 x86_64
--
-shippable
 /
 opt
 test
@@ -2168,8 +2164,6 @@ android
 api
 -
 16
--
-shippable
 /
 opt
 test
@@ -2420,8 +2414,6 @@ android
 api
 -
 16
--
-shippable
 /
 opt
 test
@@ -2556,8 +2548,6 @@ android
 api
 -
 16
--
-shippable
 /
 opt
 test
