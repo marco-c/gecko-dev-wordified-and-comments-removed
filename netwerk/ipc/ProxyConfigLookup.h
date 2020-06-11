@@ -60,6 +60,12 @@ nsIURI
 aURI
 uint32_t
 aProxyResolveFlags
+nsICancelable
+*
+*
+aLookupCancellable
+=
+nullptr
 )
 ;
 private
@@ -98,6 +104,10 @@ ProxyConfigLookup
 nsresult
 DoProxyResolve
 (
+nsICancelable
+*
+*
+aLookupCancellable
 )
 ;
 std
