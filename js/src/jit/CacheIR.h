@@ -7096,6 +7096,13 @@ fun
 )
 ;
 AttachDecision
+tryAttachMathPow
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
