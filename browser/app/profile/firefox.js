@@ -10255,7 +10255,7 @@ discoverystream
 .
 isCollectionDismissible
 "
-false
+true
 )
 ;
 pref
