@@ -126,11 +126,6 @@ Function
 >
 >
 ;
-let
-workersListener
-:
-Object
-;
 function
 addThreadEventListeners
 (
@@ -299,12 +294,6 @@ removeThreadEventListeners
 targetFront
 .
 threadFront
-)
-;
-workersListener
-.
-removeListener
-(
 )
 ;
 }
