@@ -31,7 +31,9 @@ desc
 .
 value
 "
-Object
+Intl
+.
+NumberFormat
 "
 )
 ;
@@ -78,7 +80,9 @@ prototype
 "
 [
 object
-Object
+Intl
+.
+NumberFormat
 ]
 "
 )
@@ -101,7 +105,9 @@ NumberFormat
 "
 [
 object
-Object
+Intl
+.
+NumberFormat
 ]
 "
 )
