@@ -667,11 +667,6 @@ ImageAvailable
 )
 const
 ;
-void
-PrioritizeAsPreload
-(
-)
-;
 bool
 IsDeniedCrossSiteCORSRequest
 (
