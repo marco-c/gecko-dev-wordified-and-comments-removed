@@ -2215,14 +2215,6 @@ frameWM
 )
 ;
 }
-ReflowAbsoluteFrames
-(
-aPresContext
-aDesiredSize
-aReflowInput
-aStatus
-)
-;
 }
 struct
 MOZ_STACK_CLASS
