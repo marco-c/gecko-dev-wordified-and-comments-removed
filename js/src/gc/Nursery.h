@@ -2151,6 +2151,7 @@ ProfileDurations
 totalDurations_
 ;
 struct
+PreviousGC
 {
 JS
 :
@@ -2192,6 +2193,8 @@ tenuredCells
 0
 ;
 }
+;
+PreviousGC
 previousGC
 ;
 float
@@ -2431,7 +2434,18 @@ address
 ;
 #
 endif
-void
+struct
+CollectionResult
+{
+size_t
+tenuredBytes
+;
+size_t
+tenuredCells
+;
+}
+;
+CollectionResult
 doCollection
 (
 JS
