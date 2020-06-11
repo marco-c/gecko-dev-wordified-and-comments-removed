@@ -578,15 +578,6 @@ nsICookieService
 .
 BEHAVIOR_REJECT_TRACKER
 ;
-const
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
-=
-Ci
-.
-nsICookieService
-.
-BEHAVIOR_REJECT_TRACKER_AND_PARTITION_FOREIGN
-;
 let
 originalRequestLongerTimeout
 =
