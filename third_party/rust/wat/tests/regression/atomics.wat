@@ -1,9 +1,0 @@
-(
-module
-(
-func
-atomic
-.
-fence
-)
-)

@@ -583,7 +583,8 @@ README
 md
 ]
 (
-crates
+.
+.
 /
 wast
 /
@@ -697,6 +698,12 @@ See
 LICENSE
 ]
 (
+.
+.
+/
+.
+.
+/
 LICENSE
 )
 for
