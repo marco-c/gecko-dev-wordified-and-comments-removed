@@ -395,6 +395,11 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
+Ci
+.
+nsICookie
+.
+SCHEME_HTTPS
 )
 ;
 do_timeout
@@ -455,6 +460,11 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
+Ci
+.
+nsICookie
+.
+SCHEME_HTTPS
 )
 ;
 Assert
@@ -569,6 +579,11 @@ Ci
 nsICookie
 .
 SAMESITE_NONE
+Ci
+.
+nsICookie
+.
+SCHEME_HTTPS
 )
 ;
 }
