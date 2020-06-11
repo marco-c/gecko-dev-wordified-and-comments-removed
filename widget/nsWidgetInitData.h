@@ -184,6 +184,10 @@ mFissionWindow
 (
 false
 )
+mResizable
+(
+false
+)
 {
 }
 nsWindowType
@@ -241,6 +245,9 @@ mPIPWindow
 ;
 bool
 mFissionWindow
+;
+bool
+mResizable
 ;
 }
 ;

@@ -2459,6 +2459,10 @@ mIsEarlyBlankWindow
 =
 false
 ;
+mResizable
+=
+false
+;
 mHasTaskbarIconBeenCreated
 =
 false
@@ -3525,6 +3529,13 @@ aInitData
 -
 >
 mAlwaysOnTop
+;
+mResizable
+=
+aInitData
+-
+>
+mResizable
 ;
 DWORD
 style
@@ -7325,6 +7336,9 @@ mWindowType
 !
 =
 eWindowType_popup
+&
+&
+mResizable
 )
 {
 c
