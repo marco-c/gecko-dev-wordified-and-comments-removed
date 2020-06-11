@@ -6552,7 +6552,7 @@ self
 topobjdir
 rebuild
 =
-False
+True
                                        
 download
 =
