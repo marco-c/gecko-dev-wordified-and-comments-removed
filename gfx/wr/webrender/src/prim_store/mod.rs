@@ -19306,7 +19306,7 @@ adjust_mask_scale_for_max_size
 (
 device_rect
 :
-DeviceIntRect
+DeviceRect
 device_pixel_scale
 :
 DevicePixelScale
@@ -19326,8 +19326,6 @@ width
 )
 >
 MAX_MASK_SIZE
-as
-i32
 |
 |
 device_rect
@@ -19337,8 +19335,6 @@ height
 )
 >
 MAX_MASK_SIZE
-as
-i32
 {
 let
 scale
@@ -19351,8 +19347,7 @@ MAX_MASK_SIZE
 0
 )
 /
-(
-i32
+f32
 :
 :
 max
@@ -19367,9 +19362,6 @@ device_rect
 height
 (
 )
-)
-as
-f32
 )
 ;
 let
@@ -19421,6 +19413,10 @@ else
 {
 (
 device_rect
+.
+to_i32
+(
+)
 device_pixel_scale
 )
 }
@@ -19510,7 +19506,7 @@ DevicePixelScale
 >
 Option
 <
-DeviceIntRect
+DeviceRect
 >
 {
 let
@@ -19622,10 +19618,6 @@ device_pixel_scale
 Some
 (
 clipped
-.
-to_i32
-(
-)
 )
 }
 pub
@@ -19663,7 +19655,7 @@ DevicePixelScale
 Option
 <
 (
-DeviceIntRect
+DeviceRect
 DeviceRect
 )
 >
@@ -19761,10 +19753,6 @@ Some
 (
 (
 clipped
-.
-to_i32
-(
-)
 unclipped
 )
 )
