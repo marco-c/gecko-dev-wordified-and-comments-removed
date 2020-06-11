@@ -1217,7 +1217,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_TRACKING_CONTENT
 "
-TrackerUriBlocked
+BlockedTrackerUri
 "
 NS_LITERAL_CSTRING
 (
@@ -1234,7 +1234,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_FINGERPRINTING_CONTENT
 "
-TrackerUriBlocked
+BlockedTrackerUri
 "
 NS_LITERAL_CSTRING
 (
@@ -1251,7 +1251,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_CRYPTOMINING_CONTENT
 "
-TrackerUriBlocked
+BlockedTrackerUri
 "
 NS_LITERAL_CSTRING
 (
@@ -1268,7 +1268,7 @@ nsIWebProgressListener
 :
 STATE_BLOCKED_SOCIALTRACKING_CONTENT
 "
-TrackerUriBlocked
+BlockedTrackerUri
 "
 NS_LITERAL_CSTRING
 (

@@ -981,7 +981,7 @@ CookieBlockedByPermission
 cookieBlockedTracker
 :
 "
-CookieBlockedTracker
+BlockedCookieTracker
 "
 cookieBlockedAll
 :
@@ -991,7 +991,7 @@ CookieBlockedAll
 cookieBlockedForeign
 :
 "
-CookieBlockedForeign
+BlockedCookieForeign
 "
 }
 ;
