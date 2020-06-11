@@ -7035,6 +7035,8 @@ tryAttachToString
 (
 HandleFunction
 callee
+InlinableNative
+native
 )
 ;
 AttachDecision
