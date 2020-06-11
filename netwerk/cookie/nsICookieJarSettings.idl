@@ -79,7 +79,7 @@ isOnContentBlockingAllowList
 readonly
 attribute
 AString
-firstPartyDomain
+partitionKey
 ;
 unsigned
 long

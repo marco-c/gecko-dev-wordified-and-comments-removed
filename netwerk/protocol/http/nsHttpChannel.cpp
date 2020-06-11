@@ -9341,7 +9341,7 @@ cookieJarSettings
 )
 -
 >
-SetFirstPartyDomain
+SetPartitionKey
 (
 mURI
 )

@@ -6212,7 +6212,7 @@ MOZ_ASSERT
 !
 aOriginAttrs
 .
-mFirstPartyDomain
+mPartitionKey
 .
 IsEmpty
 (

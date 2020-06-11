@@ -205,7 +205,7 @@ Unused
 cjs
 -
 >
-GetFirstPartyDomain
+GetPartitionKey
 (
 partitionKey
 )
