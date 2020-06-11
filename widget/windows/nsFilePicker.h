@@ -468,12 +468,6 @@ nsIFile
 >
 mFiles
 ;
-static
-char
-mLastUsedDirectory
-[
-]
-;
 nsString
 mUnicodeFile
 ;
