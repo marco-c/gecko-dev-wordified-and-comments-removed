@@ -57,6 +57,13 @@ browser_part1
 .
 ini
 '
+'
+test
+/
+browser_part2
+.
+ini
+'
 ]
 with
 Files
