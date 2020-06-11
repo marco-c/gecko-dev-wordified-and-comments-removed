@@ -214,15 +214,6 @@ use
 crate
 :
 :
-timer
-:
-:
-Timer
-;
-use
-crate
-:
-:
 traversal
 :
 :
@@ -844,9 +835,9 @@ StylesheetGuards
 a
 >
 pub
-timer
+current_time_for_animations
 :
-Timer
+f64
 pub
 traversal_flags
 :
