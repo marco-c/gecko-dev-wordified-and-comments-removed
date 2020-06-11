@@ -598,7 +598,7 @@ other_attribute_affecting_selectors
 :
 PrecomputedHashMap
 <
-Atom
+LocalName
 SmallVec
 <
 [
@@ -1796,17 +1796,6 @@ SelectorImpl
 >
 bool
 {
-#
-[
-cfg
-(
-feature
-=
-"
-gecko
-"
-)
-]
 use
 crate
 :

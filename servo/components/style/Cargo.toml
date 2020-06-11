@@ -157,11 +157,6 @@ servo_url
 string_cache
 "
 "
-crossbeam
--
-channel
-"
-"
 to_shmem
 /
 servo

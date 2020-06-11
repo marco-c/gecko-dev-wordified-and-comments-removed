@@ -7,6 +7,7 @@ Copy
 Debug
 Eq
 Hash
+MallocSizeOf
 PartialEq
 )
 ]
@@ -21,7 +22,6 @@ servo
 "
 derive
 (
-MallocSizeOf
 Deserialize
 Serialize
 )
