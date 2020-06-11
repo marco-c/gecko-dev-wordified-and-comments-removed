@@ -7576,10 +7576,6 @@ if
 data
 .
 oldPermissions
-!
-=
-=
-null
 )
 {
 let
