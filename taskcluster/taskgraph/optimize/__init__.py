@@ -1395,13 +1395,25 @@ task
 =
 resolve_task_references
 (
+            
 task
 .
 label
+            
 task
 .
 task
+            
+task_id
+=
+task
+.
+task_id
+            
+dependencies
+=
 named_task_dependencies
+        
 )
         
 deps
