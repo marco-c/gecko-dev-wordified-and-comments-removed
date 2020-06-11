@@ -316,7 +316,7 @@ true
 originAttributes
 :
 {
-firstPartyDomain
+partitionKey
 :
 "
 (

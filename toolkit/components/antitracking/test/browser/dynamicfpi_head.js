@@ -379,7 +379,7 @@ nodePrincipal
 .
 originAttributes
 .
-firstPartyDomain
+partitionKey
 "
 "
 "
@@ -407,7 +407,7 @@ effectiveStoragePrincipal
 .
 originAttributes
 .
-firstPartyDomain
+partitionKey
 "
 (
 http
