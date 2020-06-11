@@ -82,6 +82,7 @@ for
 (
 const
 {
+completed
 total
 percentage
 }
@@ -103,6 +104,9 @@ total
 combinedCompleted
 +
 =
+completed
+?
+?
 Math
 .
 round
