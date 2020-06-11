@@ -2018,9 +2018,10 @@ _geckoRole
 stringRole
 atkRole
 macRole
+macSubrole
 _msaaRole
-ia2Role
 \
+ia2Role
 androidClass
 nameRule
 )

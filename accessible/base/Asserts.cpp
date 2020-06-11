@@ -41,9 +41,10 @@ geckoRole
 stringRole
 atkRole
 macRole
+macSubrole
 msaaRole
-ia2Role
 \
+ia2Role
 androidClass
 nameRule
 )
