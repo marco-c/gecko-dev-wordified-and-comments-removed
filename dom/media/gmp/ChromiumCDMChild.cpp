@@ -2851,7 +2851,7 @@ cdm
 SessionType
 :
 :
-kPersistentKeyRelease
+kPersistentUsageRecord
 )
 ;
 MOZ_ASSERT
@@ -5114,7 +5114,7 @@ PlaneOffset
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kYPlane
@@ -5126,7 +5126,7 @@ Stride
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kYPlane
@@ -5147,7 +5147,7 @@ PlaneOffset
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kUPlane
@@ -5159,7 +5159,7 @@ Stride
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kUPlane
@@ -5180,7 +5180,7 @@ PlaneOffset
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kVPlane
@@ -5192,7 +5192,7 @@ Stride
 cdm
 :
 :
-VideoFrame
+VideoPlane
 :
 :
 kVPlane
