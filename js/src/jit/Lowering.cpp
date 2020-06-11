@@ -2966,7 +2966,7 @@ if
 target
 -
 >
-isNativeWithCppEntry
+isNativeWithoutJitEntry
 (
 )
 )

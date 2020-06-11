@@ -31301,7 +31301,7 @@ MOZ_ASSERT
 target
 -
 >
-isNativeWithCppEntry
+isNativeWithoutJitEntry
 (
 )
 )
@@ -33676,11 +33676,10 @@ getSingleTarget
 ;
 MOZ_ASSERT
 (
-!
 target
 -
 >
-isNativeWithCppEntry
+hasJitEntry
 (
 )
 )
@@ -35565,7 +35564,7 @@ getSingleTarget
 )
 -
 >
-isNativeWithCppEntry
+isNativeWithoutJitEntry
 (
 )
 )
