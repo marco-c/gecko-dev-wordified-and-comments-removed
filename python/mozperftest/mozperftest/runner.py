@@ -646,9 +646,9 @@ os
 .
 environ
 [
-'
+"
 PERFTEST_OPTIONS
-'
+"
 ]
 )
         

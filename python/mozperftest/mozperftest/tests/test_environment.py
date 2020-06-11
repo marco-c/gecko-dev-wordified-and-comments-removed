@@ -674,6 +674,22 @@ self
 )
 :
             
+system
+.
+teardown
+.
+assert_called
+(
+)
+            
+browser
+.
+teardown
+.
+assert_called
+(
+)
+            
 return
 self
         
@@ -699,21 +715,7 @@ metadata
 )
 :
             
-system
-.
-teardown
-.
-assert_called
-(
-)
-            
-browser
-.
-teardown
-.
-assert_called
-(
-)
+return
     
 env
 .
