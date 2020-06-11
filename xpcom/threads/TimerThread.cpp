@@ -2844,15 +2844,8 @@ return
 }
 mTimers
 .
-RemoveElementsAt
+RemoveLastElements
 (
-sortedEnd
--
-mTimers
-.
-begin
-(
-)
 mTimers
 .
 end

@@ -3143,8 +3143,14 @@ objectStoreId
 ;
 mObjectStores
 .
-RemoveElementsAt
+RemoveLastElements
 (
+mObjectStores
+.
+end
+(
+)
+-
 std
 :
 :
@@ -3189,11 +3195,6 @@ Id
 )
 ;
 }
-)
-mObjectStores
-.
-end
-(
 )
 )
 ;

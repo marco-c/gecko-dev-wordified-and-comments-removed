@@ -11583,9 +11583,8 @@ one
 aChildren
 -
 >
-RemoveElementsAt
+RemoveLastElements
 (
-aStartIdx
 aChildren
 -
 >

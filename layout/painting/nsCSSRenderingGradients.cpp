@@ -3263,11 +3263,8 @@ mColor
 ;
 aStops
 .
-RemoveElementsAt
+RemoveLastElements
 (
-i
-+
-1
 aStops
 .
 Length

@@ -2665,9 +2665,8 @@ else
 {
 aOutputChannels
 .
-RemoveElementsAt
+RemoveLastElements
 (
-aOutputChannelCount
 aOutputChannels
 .
 Length

@@ -6825,11 +6825,8 @@ last_gp
 ;
 mUnstamped
 .
-RemoveElementsAt
+RemoveLastElements
 (
-i
-+
-1
 mUnstamped
 .
 Length

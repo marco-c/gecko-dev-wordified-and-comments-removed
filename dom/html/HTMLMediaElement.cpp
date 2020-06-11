@@ -15958,8 +15958,14 @@ GetKey
 }
 mediaTracksToAdd
 .
-RemoveElementsAt
+RemoveLastElements
 (
+mediaTracksToAdd
+.
+end
+(
+)
+-
 std
 :
 :
@@ -16025,11 +16031,6 @@ return
 remove
 ;
 }
-)
-mediaTracksToAdd
-.
-end
-(
 )
 )
 ;

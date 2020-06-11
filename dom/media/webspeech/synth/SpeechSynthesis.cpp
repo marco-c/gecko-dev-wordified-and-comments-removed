@@ -829,9 +829,8 @@ HasSpeakingTask
 {
 mSpeechQueue
 .
-RemoveElementsAt
+RemoveLastElements
 (
-1
 mSpeechQueue
 .
 Length
