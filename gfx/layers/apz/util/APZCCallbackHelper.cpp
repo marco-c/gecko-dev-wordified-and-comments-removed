@@ -680,10 +680,10 @@ aFrame
 ScrollToCSSPixelsApproximate
 (
 targetScrollPosition
-nsGkAtoms
+ScrollOrigin
 :
 :
-apz
+Apz
 )
 ;
 geckoScrollPosition
@@ -4031,6 +4031,12 @@ aFrame
 LastSmoothScrollOrigin
 (
 )
+!
+=
+ScrollOrigin
+:
+:
+NotSpecified
 ;
 }
 void

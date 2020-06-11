@@ -3946,10 +3946,13 @@ ScrollByCSSPixels
 (
 scrollDelta
 scrollMode
-nsGkAtoms
+mozilla
 :
 :
-relative
+ScrollOrigin
+:
+:
+Relative
 )
 ;
 }

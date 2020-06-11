@@ -2105,10 +2105,10 @@ ScrollMode
 :
 :
 Instant
-nsGkAtoms
+ScrollOrigin
 :
 :
-relative
+Relative
 )
 ;
 mApplyingAnchorAdjustment
