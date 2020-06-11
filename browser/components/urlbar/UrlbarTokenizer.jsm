@@ -1516,10 +1516,6 @@ length
 1
 &
 &
-chars
-.
-includes
-(
 token
 [
 token
@@ -1528,7 +1524,13 @@ length
 -
 1
 ]
-)
+=
+=
+UrlbarTokenizer
+.
+RESTRICT
+.
+SEARCH
 &
 &
 !
