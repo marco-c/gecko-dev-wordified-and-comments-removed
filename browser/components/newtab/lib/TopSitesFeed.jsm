@@ -2052,6 +2052,12 @@ link
 searchTopSite
 &
 &
+!
+link
+.
+searchVendor
+&
+&
 link
 .
 label
