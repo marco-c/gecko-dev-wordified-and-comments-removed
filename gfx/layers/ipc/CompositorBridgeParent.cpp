@@ -12025,6 +12025,16 @@ LayerTreeState
 aFunc
 )
 {
+if
+(
+!
+sIndirectLayerTreesLock
+)
+{
+return
+false
+;
+}
 MonitorAutoLock
 lock
 (
