@@ -372,6 +372,9 @@ qr
 opt
 :
 [
+'
+try
+'
 ]
 #
 do
@@ -395,6 +398,9 @@ default
 [
 '
 autoland
+'
+'
+try
 '
 ]
 target
@@ -824,6 +830,9 @@ qr
 opt
 :
 [
+'
+try
+'
 ]
 #
 do
@@ -847,6 +856,9 @@ default
 [
 '
 autoland
+'
+'
+try
 '
 ]
 tier
@@ -1370,6 +1382,9 @@ ccov
 mozilla
 -
 central
+'
+'
+try
 '
 ]
 default
