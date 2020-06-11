@@ -133,6 +133,7 @@ grid
 }
 )
 ;
+await
 checkDeclarationIsInactive
 (
 view

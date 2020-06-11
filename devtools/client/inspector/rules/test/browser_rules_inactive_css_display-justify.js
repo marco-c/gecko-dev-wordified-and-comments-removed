@@ -171,6 +171,7 @@ active
 "
 )
 ;
+await
 checkDeclarationIsInactive
 (
 view
@@ -222,6 +223,7 @@ justifyContent
 justifyItems
 )
 ;
+await
 checkDeclarationIsInactive
 (
 view
