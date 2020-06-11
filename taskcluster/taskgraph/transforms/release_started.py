@@ -19,8 +19,6 @@ import
 absolute_import
 print_function
 unicode_literals
-import
-os
 from
 pipes
 import
@@ -244,21 +242,11 @@ address
 address
 ]
         
-if
-'
-TASK_ID
-'
-in
-os
-.
-environ
-:
-            
 command
 +
 =
 [
-                
+            
 '
 -
 -
@@ -268,15 +256,12 @@ group
 -
 id
 '
-os
-.
-environ
-[
 '
-TASK_ID
+<
+decision
+>
 '
-]
-            
+        
 ]
         
 job
@@ -337,6 +322,13 @@ mach
 mach
 '
 :
+{
+'
+task
+-
+reference
+'
+:
 '
 '
 .
@@ -348,6 +340,7 @@ shell_quote
 command
 )
 )
+}
         
 }
         
