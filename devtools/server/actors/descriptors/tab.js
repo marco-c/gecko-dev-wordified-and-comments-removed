@@ -212,6 +212,13 @@ browsingContext
 id
 :
 null
+isZombieTab
+:
+this
+.
+_isZombieTab
+(
+)
 outerWindowID
 :
 this
