@@ -90,8 +90,9 @@ virtual
 SMRegExpMacroAssembler
 (
 )
-{
-}
+=
+default
+;
 virtual
 int
 stack_limit_slack

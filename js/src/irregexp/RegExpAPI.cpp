@@ -3330,6 +3330,8 @@ matches
 pairsRaw
 (
 )
+uint32_t
+(
 matches
 -
 >
@@ -3338,7 +3340,11 @@ pairCount
 )
 *
 2
+)
+uint32_t
+(
 startIndex
+)
 )
 ;
 MOZ_ASSERT
