@@ -70,11 +70,7 @@ BrowsingContext
 Window_Binding
 :
 :
-sCrossOriginAttributes
-Window_Binding
-:
-:
-sCrossOriginMethods
+sCrossOriginProperties
 >
 {
 public

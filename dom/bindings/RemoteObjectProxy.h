@@ -707,12 +707,10 @@ template
 <
 class
 Native
-JSPropertySpec
-*
+const
+CrossOriginProperties
+&
 P
-JSFunctionSpec
-*
-F
 >
 class
 RemoteObjectProxy
@@ -869,7 +867,6 @@ aCx
 aProxy
 0
 P
-F
 aHolder
 )
 ;
