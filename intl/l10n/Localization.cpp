@@ -1406,7 +1406,7 @@ aCx
 const
 Sequence
 <
-L10nKey
+OwningUTF8StringOrL10nIdArgs
 >
 &
 aKeys
@@ -1575,7 +1575,7 @@ aCx
 const
 Sequence
 <
-L10nKey
+OwningUTF8StringOrL10nIdArgs
 >
 &
 aKeys
@@ -1904,7 +1904,7 @@ aCx
 const
 Sequence
 <
-L10nKey
+OwningUTF8StringOrL10nIdArgs
 >
 &
 aKeys
@@ -2071,7 +2071,7 @@ aCx
 const
 Sequence
 <
-L10nKey
+OwningUTF8StringOrL10nIdArgs
 >
 &
 aKeys
