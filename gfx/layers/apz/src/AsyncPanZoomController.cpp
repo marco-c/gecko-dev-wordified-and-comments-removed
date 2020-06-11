@@ -5652,6 +5652,7 @@ aEvent
 ;
 HandlePinchLocking
 (
+aEvent
 )
 ;
 bool
@@ -12552,6 +12553,10 @@ AsyncPanZoomController
 :
 HandlePinchLocking
 (
+const
+PinchGestureInput
+&
+aEvent
 )
 {
 ParentLayerCoord
@@ -12778,6 +12783,16 @@ scrollLockThreshold
 mPinchLocked
 =
 true
+;
+StartTouch
+(
+aEvent
+.
+mLocalFocusPoint
+aEvent
+.
+mTimeStamp
+)
 ;
 }
 }

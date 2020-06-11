@@ -1535,6 +1535,10 @@ aDelta
 void
 HandlePinchLocking
 (
+const
+PinchGestureInput
+&
+aEvent
 )
 ;
 nsEventStatus
