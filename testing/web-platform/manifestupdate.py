@@ -449,6 +449,15 @@ ensure_kwargs
 kwargs
 )
     
+kwargs
+[
+"
+rebuild
+"
+]
+=
+True
+    
 if
 logger
 is
@@ -1305,6 +1314,10 @@ update
 True
 )
 :
+    
+rebuild
+=
+True
     
 rv
 =
