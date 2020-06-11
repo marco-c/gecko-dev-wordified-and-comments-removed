@@ -644,9 +644,11 @@ optimizationSites
 onViewSourceInDebugger
 :
 (
+{
 url
 line
 column
+}
 )
 =
 >
