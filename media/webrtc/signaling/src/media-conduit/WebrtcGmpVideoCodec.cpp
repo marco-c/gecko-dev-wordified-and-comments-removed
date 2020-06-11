@@ -282,9 +282,6 @@ WebrtcGmpPCHandleSetter
 :
 :
 sCurrentHandle
-=
-"
-"
 ;
 WebrtcGmpVideoEncoder
 :
