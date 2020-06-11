@@ -1537,7 +1537,6 @@ XZ
 -
 -
 compress
-BCJ_OPTIONS
 -
 -
 lzma2
@@ -1765,7 +1764,6 @@ XZ
 -
 -
 compress
-BCJ_OPTIONS
 -
 -
 lzma2
