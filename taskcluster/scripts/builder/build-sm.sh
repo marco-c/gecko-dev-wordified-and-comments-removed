@@ -48,7 +48,7 @@ AUTOMATION
 =
 1
 PYTHON3
-SRCDIR
+GECKO_PATH
 /
 js
 /
@@ -94,7 +94,7 @@ TaskCluster
 cp
 -
 rL
-SRCDIR
+GECKO_PATH
 /
 obj
 -

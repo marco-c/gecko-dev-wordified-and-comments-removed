@@ -36,14 +36,6 @@ HOME
 /
 workspace
 }
-SRCDIR
-=
-{
-SRCDIR
-:
--
-GECKO_PATH
-}
 export
 TOOLTOOL_CHECKOUT
 =
@@ -262,7 +254,7 @@ TOOLTOOL_CHECKOUT
 &
 &
 {
-SRCDIR
+GECKO_PATH
 }
 /
 mach
@@ -280,7 +272,7 @@ TOOLTOOL_AUTH_FLAGS
 tooltool
 -
 manifest
-SRCDIR
+GECKO_PATH
 /
 TOOLTOOL_MANIFEST
 }

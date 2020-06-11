@@ -25,14 +25,14 @@ config
 sh
 cd
 "
-SRCDIR
+GECKO_PATH
 /
 js
 /
 rust
 "
 cp
-SRCDIR
+GECKO_PATH
 /
 .
 cargo
@@ -40,7 +40,7 @@ cargo
 config
 .
 in
-SRCDIR
+GECKO_PATH
 /
 .
 cargo
