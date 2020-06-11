@@ -3202,6 +3202,7 @@ SetServiceWorkerSkipWaitingFlag
 bool
 Freeze
 (
+const
 nsPIDOMWindowInner
 *
 aWindow
@@ -3210,6 +3211,7 @@ aWindow
 bool
 Thaw
 (
+const
 nsPIDOMWindowInner
 *
 aWindow
