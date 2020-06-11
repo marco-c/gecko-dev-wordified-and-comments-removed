@@ -1340,9 +1340,6 @@ mach
 python
 =
 "
-python2
-.
-7
 {
 GECKO_PATH
 }

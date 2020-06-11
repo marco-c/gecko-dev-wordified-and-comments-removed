@@ -882,7 +882,6 @@ wfile
 .
 write
 (
-b
 '
 '
 )
@@ -925,7 +924,6 @@ wfile
 .
 write
 (
-b
 '
 '
 )
@@ -968,7 +966,6 @@ wfile
 .
 write
 (
-b
 '
 '
 )

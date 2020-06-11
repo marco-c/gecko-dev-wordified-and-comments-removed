@@ -187,6 +187,7 @@ prettier
 -
 format
 python
+python
 -
 test
 raptor
