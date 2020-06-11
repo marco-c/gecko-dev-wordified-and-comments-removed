@@ -6864,7 +6864,6 @@ ourContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6877,7 +6876,6 @@ ourContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6912,7 +6910,6 @@ otherContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
@@ -6925,7 +6922,6 @@ otherContent
 >
 HasAttr
 (
-kNameSpaceID_None
 nsGkAtoms
 :
 :
