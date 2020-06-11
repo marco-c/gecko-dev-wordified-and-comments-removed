@@ -2959,10 +2959,6 @@ GetOriginAttributes
 )
 redirectChainIncludingInternalRedirects
 redirectChain
-{
-}
-{
-}
 ipcClientInfo
 ipcReservedClientInfo
 ipcInitialClientInfo

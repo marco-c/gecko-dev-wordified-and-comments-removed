@@ -348,16 +348,6 @@ RedirectHistoryEntryInfo
 ]
 redirectChain
 ;
-PrincipalInfo
-[
-]
-ancestorPrincipals
-;
-uint64_t
-[
-]
-ancestorOuterWindowIDs
-;
 IPCClientInfo
 ?
 clientInfo
