@@ -1621,7 +1621,7 @@ MozbuildObject
 BuildEnvironmentNotFoundException
         
 from
-mozbuild
+mozboot
 .
 mozconfig
 import

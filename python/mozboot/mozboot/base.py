@@ -981,40 +981,6 @@ BROWSER_ARTIFACT_MODE_MOZCONFIG
 '
 '
 '
-Paste
-the
-lines
-between
-the
-chevrons
-(
->
->
->
-and
-<
-<
-<
-)
-into
-your
-topsrcdir
-/
-mozconfig
-file
-or
-create
-the
-file
-if
-it
-does
-not
-exist
-:
->
->
->
 #
 Automatically
 download
@@ -1034,12 +1000,13 @@ enable
 artifact
 -
 builds
-<
-<
-<
 '
 '
 '
+.
+strip
+(
+)
 MODERN_MERCURIAL_VERSION
 =
 LooseVersion
@@ -1265,7 +1232,7 @@ __name__
 )
     
 def
-suggest_browser_mozconfig
+generate_browser_mozconfig
 (
 self
 )
@@ -1383,7 +1350,7 @@ __name__
 )
     
 def
-suggest_browser_artifact_mode_mozconfig
+generate_browser_artifact_mode_mozconfig
 (
 self
 )
@@ -1439,10 +1406,8 @@ to
 '
 '
         
-print
-(
+return
 BROWSER_ARTIFACT_MODE_MOZCONFIG
-)
     
 def
 install_mobile_android_packages
@@ -1513,7 +1478,7 @@ __name__
 )
     
 def
-suggest_mobile_android_mozconfig
+generate_mobile_android_mozconfig
 (
 self
 )
@@ -1580,7 +1545,7 @@ does
 not
 yet
 implement
-suggest_mobile_android_mozconfig
+generate_mobile_android_mozconfig
 (
 )
 '
@@ -1666,7 +1631,7 @@ __name__
 )
     
 def
-suggest_mobile_android_artifact_mode_mozconfig
+generate_mobile_android_artifact_mode_mozconfig
 (
 self
 )
@@ -1734,7 +1699,7 @@ does
 not
 yet
 implement
-suggest_mobile_android_artifact_mode_mozconfig
+generate_mobile_android_artifact_mode_mozconfig
 (
 )
 '

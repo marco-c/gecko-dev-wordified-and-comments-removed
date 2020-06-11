@@ -454,7 +454,7 @@ no_interactive
 )
     
 def
-suggest_mobile_android_mozconfig
+generate_mobile_android_mozconfig
 (
 self
 artifact_mode
@@ -468,9 +468,10 @@ mozboot
 import
 android
         
+return
 android
 .
-suggest_mozconfig
+generate_mozconfig
 (
 '
 windows
@@ -481,15 +482,16 @@ artifact_mode
 )
     
 def
-suggest_mobile_android_artifact_mode_mozconfig
+generate_mobile_android_artifact_mode_mozconfig
 (
 self
 )
 :
         
+return
 self
 .
-suggest_mobile_android_mozconfig
+generate_mobile_android_mozconfig
 (
 artifact_mode
 =
