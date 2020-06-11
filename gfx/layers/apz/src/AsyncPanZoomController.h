@@ -1587,6 +1587,11 @@ aTimestamp
 )
 ;
 void
+CancelGesture
+(
+)
+;
+void
 RequestContentRepaint
 (
 RepaintUpdateType
