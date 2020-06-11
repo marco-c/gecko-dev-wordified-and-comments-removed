@@ -115,6 +115,17 @@ obj
 ;
 static
 bool
+preserveDOMWrapper
+(
+JSContext
+*
+cx
+HandleObject
+obj
+)
+;
+static
+bool
 deref
 (
 JSContext
