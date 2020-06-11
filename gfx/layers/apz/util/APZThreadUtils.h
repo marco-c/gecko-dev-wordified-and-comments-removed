@@ -18,16 +18,6 @@ nsITimer
 .
 h
 "
-#
-include
-"
-nsString
-.
-h
-"
-class
-nsISerialEventTarget
-;
 namespace
 mozilla
 {

@@ -2721,14 +2721,6 @@ PlanarYCbCrData
 aData
 )
 ;
-TextureType
-PreferredCanvasTextureType
-(
-const
-KnowsCompositor
-&
-)
-;
 }
 }
 #
