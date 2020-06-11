@@ -670,10 +670,12 @@ TextureType
 :
 Last
 :
+break
+;
+}
 return
 nullptr
 ;
-}
 }
 SurfaceFactory
 :
