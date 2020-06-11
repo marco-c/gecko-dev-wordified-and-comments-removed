@@ -1427,7 +1427,7 @@ BoolImm
 -
 name
 :
-GuardFunctionIsNative
+GuardFunctionHasNoJitEntry
 shared
 :
 true

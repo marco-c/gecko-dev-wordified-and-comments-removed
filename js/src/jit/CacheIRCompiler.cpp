@@ -20309,7 +20309,7 @@ bool
 CacheIRCompiler
 :
 :
-emitGuardFunctionIsNative
+emitGuardFunctionHasNoJitEntry
 (
 ObjOperandId
 funId
@@ -20363,7 +20363,7 @@ false
 }
 masm
 .
-branchIfInterpreted
+branchIfFunctionHasJitEntry
 (
 obj
 false

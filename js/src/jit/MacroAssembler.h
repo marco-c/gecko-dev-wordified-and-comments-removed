@@ -5561,7 +5561,7 @@ label
 ;
 inline
 void
-branchIfInterpreted
+branchIfFunctionHasJitEntry
 (
 Register
 fun
