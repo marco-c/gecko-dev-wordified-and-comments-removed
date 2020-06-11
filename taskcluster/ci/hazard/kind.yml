@@ -415,3 +415,13 @@ lucetc
 wasi
 -
 sysroot
+optimization
+:
+push
+-
+interval
+-
+25
+:
+-
+linux
