@@ -1446,12 +1446,16 @@ log
 '
 and
 message
-[
+.
+get
+(
                 
 '
 message
 '
-]
+'
+'
+)
 .
 startswith
 (
@@ -21846,11 +21850,16 @@ process_output
 line
 =
 message
-[
+.
+get
+(
+                    
 '
 message
 '
-]
+'
+'
+)
 if
 message
 [
