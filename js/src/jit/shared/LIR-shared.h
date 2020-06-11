@@ -4529,7 +4529,7 @@ BOX_PIECES
 }
 ;
 class
-LComputeThis
+LBoxNonStrictThis
 :
 public
 LInstructionHelper
@@ -4543,7 +4543,7 @@ public
 :
 LIR_HEADER
 (
-ComputeThis
+BoxNonStrictThis
 )
 static
 const
@@ -4553,7 +4553,7 @@ ValueIndex
 0
 ;
 explicit
-LComputeThis
+LBoxNonStrictThis
 (
 const
 LBoxAllocation
@@ -4573,7 +4573,7 @@ value
 )
 ;
 }
-MComputeThis
+MBoxNonStrictThis
 *
 mir
 (
@@ -4584,7 +4584,7 @@ return
 mir_
 -
 >
-toComputeThis
+toBoxNonStrictThis
 (
 )
 ;

@@ -45180,9 +45180,9 @@ void
 CodeGenerator
 :
 :
-visitComputeThis
+visitBoxNonStrictThis
 (
-LComputeThis
+LBoxNonStrictThis
 *
 lir
 )
@@ -45193,7 +45193,7 @@ value
 ToValue
 (
 lir
-LComputeThis
+LBoxNonStrictThis
 :
 :
 ValueIndex

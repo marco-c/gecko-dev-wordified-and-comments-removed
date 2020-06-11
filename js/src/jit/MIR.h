@@ -28704,7 +28704,7 @@ group_
 }
 ;
 class
-MComputeThis
+MBoxNonStrictThis
 :
 public
 MUnaryInstruction
@@ -28718,7 +28718,7 @@ BoxPolicy
 Data
 {
 explicit
-MComputeThis
+MBoxNonStrictThis
 (
 MDefinition
 *
@@ -28744,7 +28744,7 @@ public
 :
 INSTRUCTION_HEADER
 (
-ComputeThis
+BoxNonStrictThis
 )
 TRIVIAL_NEW_WRAPPERS
 bool

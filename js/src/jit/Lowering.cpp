@@ -2347,9 +2347,9 @@ void
 LIRGenerator
 :
 :
-visitComputeThis
+visitBoxNonStrictThis
 (
-MComputeThis
+MBoxNonStrictThis
 *
 ins
 )
@@ -2391,7 +2391,7 @@ MIRType
 Value
 )
 ;
-LComputeThis
+auto
 *
 lir
 =
@@ -2401,7 +2401,7 @@ alloc
 (
 )
 )
-LComputeThis
+LBoxNonStrictThis
 (
 useBox
 (

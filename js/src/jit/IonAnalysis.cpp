@@ -5745,7 +5745,7 @@ isTypeBarrier
 ins
 -
 >
-isComputeThis
+isBoxNonStrictThis
 (
 )
 |
