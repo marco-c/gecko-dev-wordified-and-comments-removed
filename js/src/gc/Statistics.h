@@ -1225,6 +1225,16 @@ back
 end
 ;
 }
+TimeStamp
+creationTime
+(
+)
+const
+{
+return
+creationTime_
+;
+}
 void
 maybePrintProfileHeaders
 (
@@ -1364,6 +1374,9 @@ phaseEndTimes
 ;
 #
 endif
+TimeStamp
+creationTime_
+;
 TimeStamp
 timedGCStart
 ;
