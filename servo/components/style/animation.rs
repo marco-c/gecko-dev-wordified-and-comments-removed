@@ -238,6 +238,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -732,6 +733,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 PartialEq
 )
 ]
@@ -753,6 +755,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -771,6 +774,7 @@ f32
 derive
 (
 Clone
+MallocSizeOf
 )
 ]
 pub
@@ -817,6 +821,14 @@ pub
 current_direction
 :
 AnimationDirection
+#
+[
+ignore_malloc_size_of
+=
+"
+ComputedValues
+"
+]
 pub
 cascade_style
 :
@@ -2552,6 +2564,7 @@ derive
 (
 Clone
 Debug
+MallocSizeOf
 )
 ]
 pub
@@ -2748,6 +2761,7 @@ derive
 (
 Debug
 Default
+MallocSizeOf
 )
 ]
 pub
