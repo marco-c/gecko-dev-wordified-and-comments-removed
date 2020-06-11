@@ -331,14 +331,10 @@ aChan
 StoragePrincipalHelper
 :
 :
-GetOriginAttributes
+GetOriginAttributesForNetworkState
 (
 aChan
 oa
-StoragePrincipalHelper
-:
-:
-eRegularPrincipal
 )
 ;
 }
