@@ -5118,6 +5118,13 @@ i
 ]
 )
 ;
+aliasData
+-
+>
+mBaseFamily
+=
+familyName
+;
 break
 ;
 }
@@ -9084,6 +9091,7 @@ aliasData
 InitFromFamily
 (
 aFamily
+canonicalName
 )
 ;
 aliasData
