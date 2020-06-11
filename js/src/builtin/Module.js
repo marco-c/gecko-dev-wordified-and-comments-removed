@@ -239,7 +239,7 @@ module
 e
 .
 moduleRequest
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ;
 let
@@ -326,7 +326,7 @@ assert
 newStatus
 >
 =
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 &
 &
 newStatus
@@ -351,14 +351,14 @@ module
 status
 <
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 &
 &
 newStatus
 =
 =
 =
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 |
 |
@@ -600,7 +600,7 @@ module
 e
 .
 moduleRequest
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ;
 return
@@ -680,7 +680,7 @@ module
 e
 .
 moduleRequest
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ;
 let
@@ -858,7 +858,7 @@ status
 !
 =
 =
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 "
 Bad
 module
@@ -1098,7 +1098,7 @@ module
 status
 >
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 "
 Attempt
 to
@@ -1106,7 +1106,7 @@ access
 module
 environement
 before
-instantation
+linking
 "
 )
 ;
@@ -1248,7 +1248,7 @@ module
 ModuleSetStatus
 (
 module
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ;
 UnsafeSetReservedSlot
@@ -1309,7 +1309,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 |
 |
 module
@@ -1335,7 +1335,7 @@ stack
 ;
 try
 {
-InnerModuleInstantiation
+InnerModuleLinking
 (
 module
 stack
@@ -1382,7 +1382,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 {
 HandleModuleInstantiationFailure
@@ -1409,7 +1409,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 {
 HandleModuleInstantiationFailure
@@ -1426,14 +1426,14 @@ status
 !
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 "
 Expected
-uninstantiated
+unlinked
 status
 after
 failed
-instantiation
+linking
 "
 )
 ;
@@ -1449,7 +1449,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 |
 |
 module
@@ -1474,7 +1474,7 @@ module
 status
 after
 successful
-instantiation
+linking
 "
 )
 ;
@@ -1494,7 +1494,7 @@ be
 empty
 after
 successful
-instantiation
+linking
 "
 )
 ;
@@ -1503,7 +1503,7 @@ undefined
 ;
 }
 function
-InnerModuleInstantiation
+InnerModuleLinking
 (
 module
 stack
@@ -1518,7 +1518,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 |
 |
 module
@@ -1527,7 +1527,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 |
 |
 module
@@ -1560,7 +1560,7 @@ status
 !
 =
 =
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ThrowInternalError
 (
@@ -1570,7 +1570,7 @@ JSMSG_BAD_MODULE_STATUS
 ModuleSetStatus
 (
 module
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 ;
 UnsafeSetReservedSlot
@@ -1642,12 +1642,12 @@ CallModuleResolveHook
 (
 module
 required
-MODULE_STATUS_UNINSTANTIATED
+MODULE_STATUS_UNLINKED
 )
 ;
 index
 =
-InnerModuleInstantiation
+InnerModuleLinking
 (
 requiredModule
 stack
@@ -1662,7 +1662,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 |
 |
 requiredModule
@@ -1671,7 +1671,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 |
 |
 requiredModule
@@ -1696,7 +1696,7 @@ required
 module
 status
 after
-InnerModuleInstantiation
+InnerModuleLinking
 "
 )
 ;
@@ -1709,7 +1709,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 =
 =
@@ -1780,7 +1780,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 {
 UnsafeSetReservedSlot
@@ -1800,8 +1800,9 @@ dfsAncestorIndex
 ;
 }
 }
-ModuleDeclarationEnvironmentSetup
+callFunction
 (
+InitializeEnvironment
 module
 )
 ;
@@ -1876,7 +1877,7 @@ stack
 ModuleSetStatus
 (
 requiredModule
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 )
 ;
 }
@@ -1895,11 +1896,15 @@ index
 ;
 }
 function
-ModuleDeclarationEnvironmentSetup
+InitializeEnvironment
 (
-module
 )
 {
+let
+module
+=
+this
+;
 let
 indirectExportEntries
 =
@@ -2026,7 +2031,7 @@ module
 imp
 .
 moduleRequest
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 )
 ;
 if
@@ -2145,7 +2150,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATING
+MODULE_STATUS_LINKING
 "
 Unexpected
 module
@@ -2425,7 +2430,7 @@ status
 !
 =
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 &
 &
 module
@@ -2665,7 +2670,7 @@ status
 =
 =
 =
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 "
 Bad
 module
@@ -2750,7 +2755,7 @@ CallModuleResolveHook
 (
 module
 required
-MODULE_STATUS_INSTANTIATED
+MODULE_STATUS_LINKED
 )
 ;
 index
