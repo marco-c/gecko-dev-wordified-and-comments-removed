@@ -10185,7 +10185,7 @@ TableSelectionMode
 aTarget
 nsIContent
 *
-childContent
+aChildContent
 const
 WidgetMouseEvent
 *
@@ -10222,7 +10222,7 @@ if
 mEndSelectedCell
 =
 =
-childContent
+aChildContent
 )
 {
 return
@@ -10245,7 +10245,7 @@ mEndSelectedCell
 =
 %
 p
-childContent
+aChildContent
 =
 %
 p
@@ -10264,7 +10264,7 @@ mEndSelectedCell
 get
 (
 )
-childContent
+aChildContent
 )
 ;
 #
@@ -10319,7 +10319,7 @@ result
 =
 GetCellIndexes
 (
-childContent
+aChildContent
 curRowIndex
 curColIndex
 )
@@ -10435,7 +10435,7 @@ endif
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -10509,7 +10509,7 @@ result
 =
 GetCellIndexes
 (
-childContent
+aChildContent
 curRowIndex
 curColIndex
 )
@@ -10582,7 +10582,7 @@ Column
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -10592,7 +10592,7 @@ return
 SelectBlockOfCells
 (
 mStartSelectedCell
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -10617,7 +10617,7 @@ bool
 aDragState
 nsIContent
 *
-childContent
+aChildContent
 nsINode
 *
 aParentContent
@@ -10701,7 +10701,7 @@ nsIFrame
 *
 cellFrame
 =
-childContent
+aChildContent
 -
 >
 GetPrimaryFrame
@@ -10750,11 +10750,11 @@ aTarget
 ;
 mStartSelectedCell
 =
-childContent
+aChildContent
 ;
 mEndSelectedCell
 =
-childContent
+aChildContent
 ;
 if
 (
@@ -10763,7 +10763,7 @@ isSelected
 {
 mUnselectCellOnMouseUp
 =
-childContent
+aChildContent
 ;
 #
 ifdef
@@ -10796,7 +10796,7 @@ previousCellNode
 IsInSameTable
 (
 previousCellNode
-childContent
+aChildContent
 )
 )
 {
@@ -10819,7 +10819,7 @@ return
 :
 SelectCellElement
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -10932,7 +10932,7 @@ aTarget
 return
 SelectRowOrColumn
 (
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -11007,7 +11007,7 @@ mAppendStartSelectedCell
 mAppendStartSelectedCell
 !
 =
-childContent
+aChildContent
 )
 {
 mDragSelectingCells
@@ -11018,7 +11018,7 @@ return
 SelectBlockOfCells
 (
 mAppendStartSelectedCell
-childContent
+aChildContent
 aNormalSelection
 )
 ;
@@ -11119,7 +11119,7 @@ NS_OK
 }
 if
 (
-childContent
+aChildContent
 =
 =
 mUnselectCellOnMouseUp
@@ -11322,7 +11322,7 @@ aNormalSelection
 .
 Collapse
 (
-childContent
+aChildContent
 0
 )
 ;
@@ -11353,7 +11353,7 @@ n
 endif
 if
 (
-childContent
+aChildContent
 =
 =
 mAppendStartSelectedCell

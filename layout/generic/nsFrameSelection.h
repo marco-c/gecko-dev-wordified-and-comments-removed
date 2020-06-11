@@ -2036,7 +2036,7 @@ TableSelectionMode
 aTarget
 nsIContent
 *
-childContent
+aChildContent
 const
 mozilla
 :
@@ -2073,7 +2073,7 @@ bool
 aDragState
 nsIContent
 *
-childContent
+aChildContent
 nsINode
 *
 aParentContent
