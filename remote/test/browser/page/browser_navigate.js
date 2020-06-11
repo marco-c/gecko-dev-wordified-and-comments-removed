@@ -1581,7 +1581,7 @@ getCurrentFrame
 (
 )
 ;
-todo
+ok
 (
 frameId
 =
