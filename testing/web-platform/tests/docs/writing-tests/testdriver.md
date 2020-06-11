@@ -1024,11 +1024,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 #
 keyboard
 -

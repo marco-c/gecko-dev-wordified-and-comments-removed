@@ -30,11 +30,6 @@ io
 /
 webdriver
 /
-webdriver
--
-spec
-.
-html
 )
 which
 specifies
