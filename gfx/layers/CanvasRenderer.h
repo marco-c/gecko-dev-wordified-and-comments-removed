@@ -452,6 +452,10 @@ BorrowedSourceSurface
 >
 BorrowSnapshot
 (
+bool
+requireAlphaPremult
+=
+true
 )
 const
 ;
