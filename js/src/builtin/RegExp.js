@@ -78,9 +78,6 @@ result
 m
 "
 ;
-#
-ifdef
-ENABLE_NEW_REGEXP
 if
 (
 R
@@ -94,8 +91,6 @@ result
 s
 "
 ;
-#
-endif
 if
 (
 R

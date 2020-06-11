@@ -231,9 +231,6 @@ enableTraceLogger
 ;
 #
 endif
-#
-ifdef
-ENABLE_NEW_REGEXP
 bool
 traceRegExpParser
 ;
@@ -246,8 +243,6 @@ traceRegExpInterpreter
 bool
 traceRegExpPeephole
 ;
-#
-endif
 bool
 enableWasmJitExit
 ;
@@ -280,14 +275,9 @@ normalIonWarmUpThreshold
 uint32_t
 fullIonWarmUpThreshold
 ;
-#
-ifdef
-ENABLE_NEW_REGEXP
 uint32_t
 regexpWarmUpThreshold
 ;
-#
-endif
 uint32_t
 exceptionBailoutThreshold
 ;

@@ -1545,9 +1545,6 @@ RegExpFlag
 Multiline
 ;
 }
-#
-ifdef
-ENABLE_NEW_REGEXP
 else
 if
 (
@@ -1581,8 +1578,6 @@ RegExpFlag
 DotAll
 ;
 }
-#
-endif
 else
 if
 (
