@@ -28,9 +28,7 @@ h
 #
 include
 "
-new
--
-regexp
+irregexp
 /
 RegExpAPI
 .
