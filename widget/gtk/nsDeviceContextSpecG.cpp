@@ -702,11 +702,6 @@ nsIPrintSettings
 kOutputFormatNative
 )
 {
-if
-(
-mIsPPreview
-)
-{
 format
 =
 nsIPrintSettings
@@ -714,13 +709,6 @@ nsIPrintSettings
 :
 kOutputFormatPDF
 ;
-}
-else
-{
-return
-nullptr
-;
-}
 }
 IntSize
 size
@@ -869,10 +857,6 @@ mPrintSettings
 )
 return
 NS_ERROR_NO_INTERFACE
-;
-mIsPPreview
-=
-aIsPrintPreview
 ;
 bool
 toFile
