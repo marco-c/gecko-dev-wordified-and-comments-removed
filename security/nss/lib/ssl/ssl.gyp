@@ -289,6 +289,11 @@ tls13hkdf
 c
 '
 '
+tls13psk
+.
+c
+'
+'
 tls13replay
 .
 c

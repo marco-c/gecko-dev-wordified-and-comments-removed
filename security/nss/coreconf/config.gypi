@@ -839,6 +839,12 @@ disable_arm_hw_aes
 :
 0
 '
+disable_arm_hw_sha2
+%
+'
+:
+0
+'
 disable_tests
 %
 '

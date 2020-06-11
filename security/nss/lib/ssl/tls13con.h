@@ -205,6 +205,8 @@ buf
 unsigned
 int
 len
+SSLHashType
+hash
 )
 ;
 SECStatus
@@ -238,6 +240,8 @@ PK11SymKey
 *
 *
 dest
+SSLHashType
+hash
 )
 ;
 void

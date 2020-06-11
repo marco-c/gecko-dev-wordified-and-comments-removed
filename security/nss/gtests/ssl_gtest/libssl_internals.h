@@ -299,5 +299,13 @@ uint32_t
 num_sig_schemes
 )
 ;
+SECStatus
+SSLInt_RemoveServerCertificates
+(
+PRFileDesc
+*
+fd
+)
+;
 #
 endif

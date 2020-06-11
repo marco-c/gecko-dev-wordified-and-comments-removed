@@ -226,6 +226,10 @@ peerRequestedDelegCred
 PRBool
 sendingDelegCredToPeer
 ;
+sslPsk
+*
+selectedPsk
+;
 }
 ;
 typedef

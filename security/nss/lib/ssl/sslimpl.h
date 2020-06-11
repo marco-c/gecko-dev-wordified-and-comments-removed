@@ -151,6 +151,11 @@ sslEsniKeys
 ;
 typedef
 struct
+sslPskStr
+sslPsk
+;
+typedef
+struct
 sslDelegatedCredentialStr
 sslDelegatedCredential
 ;
@@ -1890,10 +1895,6 @@ dheSecret
 ;
 PK11SymKey
 *
-pskBinderKey
-;
-PK11SymKey
-*
 clientEarlyTrafficSecret
 ;
 PK11SymKey
@@ -1964,6 +1965,9 @@ dtlsSentHandshake
 ;
 PRCList
 dtlsRcvdHandshake
+;
+PRCList
+psks
 ;
 }
 SSL3HandshakeState
@@ -2704,6 +2708,10 @@ esniKeys
 SSLAntiReplayContext
 *
 antiReplay
+;
+sslPsk
+*
+psk
 ;
 }
 ;
