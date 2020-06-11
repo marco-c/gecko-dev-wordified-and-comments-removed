@@ -220,6 +220,8 @@ regexp_include_new
 include
 "
 irregexp
+/
+imported
 '
     
 other_include
@@ -260,7 +262,6 @@ adding_shim_now
 :
             
 if
-(
 line
 =
 =
@@ -268,25 +269,6 @@ line
 \
 n
 '
-or
-line
->
-'
-#
-include
-"
-src
-/
-regexp
-/
-regexp
--
-shim
-.
-h
-"
-'
-)
 :
                 
 dst
@@ -299,9 +281,7 @@ include
 "
 irregexp
 /
-regexp
--
-shim
+RegExpShim
 .
 h
 "
@@ -454,6 +434,10 @@ copy_and_update_includes
 (
 file
 dstdir
+/
+"
+imported
+"
 /
 file
 .
