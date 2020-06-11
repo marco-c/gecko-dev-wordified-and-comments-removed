@@ -4359,26 +4359,12 @@ version_info
 3
 ]
     
-minimum_python_version
+minimum_python_versions
 =
-(
+{
         
-LooseVersion
-(
-'
-3
-.
-5
-.
-0
-'
-)
-if
-major
-=
-=
-3
-else
+2
+:
 LooseVersion
 (
 '
@@ -4389,7 +4375,21 @@ LooseVersion
 3
 '
 )
+        
+3
+:
+LooseVersion
+(
+'
+3
+.
+5
+.
+0
+'
 )
+    
+}
     
 our
 =
@@ -4414,17 +4414,20 @@ micro
 )
     
 if
+(
 major
 not
 in
-(
-2
-3
-)
+minimum_python_versions
 or
+        
 our
 <
-minimum_python_version
+minimum_python_versions
+[
+major
+]
+)
 :
         
 log_handle
@@ -4440,8 +4443,6 @@ Python
 versions
 are
 required
-to
-build
 :
 \
 n
@@ -4451,7 +4452,7 @@ n
 for
 minver
 in
-MINIMUM_PYTHON_VERSIONS
+minimum_python_versions
 .
 values
 (
