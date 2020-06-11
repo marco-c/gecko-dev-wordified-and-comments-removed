@@ -607,6 +607,10 @@ extern
 bool
 enableIteratorHelpers
 ;
+extern
+bool
+enablePrivateClassFields
+;
 #
 ifdef
 JS_GC_ZEAL
