@@ -3178,6 +3178,9 @@ alwaysontop
 minimizable
 =
 yes
+popup
+=
+yes
 "
 ;
 if

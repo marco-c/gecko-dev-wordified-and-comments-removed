@@ -2767,9 +2767,6 @@ mDraggableRegion
 bool
 mIsPIPWindow
 ;
-bool
-mAlwaysOnTop
-;
 #
 ifdef
 ACCESSIBILITY
