@@ -1682,7 +1682,17 @@ parser
 .
 add_subparsers
 (
+dest
+=
+'
+func
+'
 )
+subparsers
+.
+required
+=
+True
 diff_parser
 =
 subparsers
