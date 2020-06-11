@@ -1336,7 +1336,7 @@ S
 .
 search
 class
-VerifyError
+MozYamlVerifyError
 (
 Exception
 )
@@ -1456,7 +1456,7 @@ ENOENT
 :
             
 raise
-VerifyError
+MozYamlVerifyError
 (
 filename
 "
@@ -1481,7 +1481,7 @@ e
 :
         
 raise
-VerifyError
+MozYamlVerifyError
 (
 filename
 e
@@ -1505,7 +1505,7 @@ manifest
 :
         
 raise
-VerifyError
+MozYamlVerifyError
 (
 filename
 '
@@ -1543,7 +1543,7 @@ else
 :
         
 raise
-VerifyError
+MozYamlVerifyError
 (
 filename
 "
@@ -1582,7 +1582,7 @@ e
 :
         
 raise
-VerifyError
+MozYamlVerifyError
 (
 filename
 e
