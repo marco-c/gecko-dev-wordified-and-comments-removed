@@ -3010,6 +3010,10 @@ aIsSession
 aIsSecure
 aSameSite
 aSameSite
+nsICookie
+:
+:
+SCHEME_UNSET
 )
 ;
 RefPtr
