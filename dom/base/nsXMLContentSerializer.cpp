@@ -2203,8 +2203,9 @@ break
 }
 mNameSpaceStack
 .
-RemoveLastElement
+RemoveElementAt
 (
+index
 )
 ;
 }

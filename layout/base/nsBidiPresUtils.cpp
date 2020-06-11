@@ -2097,8 +2097,15 @@ aCh
 ;
 mEmbeddingStack
 .
-RemoveLastElement
+TruncateLength
 (
+mEmbeddingStack
+.
+Length
+(
+)
+-
+1
 )
 ;
 }

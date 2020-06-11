@@ -1023,8 +1023,11 @@ eCandidateType_Default
 {
 mCandidates
 .
-RemoveLastElement
+RemoveElementAt
 (
+candidates
+-
+1
 )
 ;
 }

@@ -7082,7 +7082,14 @@ promise
 aPromiseList
 -
 >
-PopLastElement
+LastElement
+(
+)
+;
+aPromiseList
+-
+>
+RemoveLastElement
 (
 )
 ;

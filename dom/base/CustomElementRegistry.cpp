@@ -1072,9 +1072,6 @@ IsXULElement
 )
 )
 ;
-#
-ifdef
-DEBUG
 mIndex
 =
 mStack
@@ -1083,8 +1080,6 @@ Length
 (
 )
 ;
-#
-endif
 mStack
 .
 AppendElement
@@ -1123,8 +1118,9 @@ element
 ;
 mStack
 .
-RemoveLastElement
+RemoveElementAt
 (
+mIndex
 )
 ;
 }
@@ -1140,14 +1136,9 @@ Element
 &
 mStack
 ;
-#
-ifdef
-DEBUG
 uint32_t
 mIndex
 ;
-#
-endif
 }
 ;
 }
@@ -6040,8 +6031,9 @@ removed
 ;
 mReactionsStack
 .
-RemoveLastElement
+RemoveElementAt
 (
+lastIndex
 )
 ;
 mIsElementQueuePushedForCurrentRecursionDepth

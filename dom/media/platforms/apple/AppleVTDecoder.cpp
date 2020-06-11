@@ -2521,13 +2521,7 @@ mReorderQueue
 .
 Push
 (
-std
-:
-:
-move
-(
 data
-)
 )
 ;
 MaybeResolveBufferedFrames

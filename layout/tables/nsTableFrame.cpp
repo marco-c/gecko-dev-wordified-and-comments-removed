@@ -3092,8 +3092,11 @@ lastColType
 {
 mColFrames
 .
-RemoveLastElement
+RemoveElementAt
 (
+numCacheCols
+-
+1
 )
 ;
 nsTableColGroupFrame
