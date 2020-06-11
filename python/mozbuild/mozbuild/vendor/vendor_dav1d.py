@@ -11,10 +11,7 @@ mozbuild
 .
 base
 import
-(
-    
 MozbuildObject
-)
 import
 mozfile
 import
@@ -54,9 +51,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Construct
 a
 url
@@ -69,18 +66,18 @@ the
 given
 revision
 .
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 code
 .
 videolan
 .
 org
-'
+"
 in
 self
 .
@@ -95,20 +92,20 @@ join
 self
 .
 repo_url
-'
+"
 -
-'
-'
+"
+"
 archive
-'
+"
 revision
 +
-'
+"
 .
 tar
 .
 gz
-'
+"
 )
         
 else
@@ -117,7 +114,7 @@ else
 raise
 ValueError
 (
-'
+"
 Unknown
 git
 host
@@ -125,7 +122,7 @@ no
 snapshot
 lookup
 method
-'
+"
 )
     
 def
@@ -136,9 +133,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Convert
 a
 revision
@@ -180,18 +177,18 @@ we
 re
 vendoring
 .
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 code
 .
 videolan
 .
 org
-'
+"
 in
 self
 .
@@ -212,7 +209,7 @@ else
 raise
 ValueError
 (
-'
+"
 Unknown
 git
 host
@@ -220,7 +217,7 @@ no
 commit
 lookup
 method
-'
+"
 )
     
 def
@@ -231,9 +228,9 @@ url
 )
 :
         
-'
-'
-'
+"
+"
+"
 Validate
 repository
 urls
@@ -245,9 +242,9 @@ can
 handle
 them
 .
-'
-'
-'
+"
+"
+"
         
 host
 =
@@ -260,15 +257,13 @@ netloc
         
 valid_domains
 =
-(
-'
+"
 code
 .
 videolan
 .
 org
-'
-)
+"
         
 if
 not
@@ -291,18 +286,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 upstream_url
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 Unsupported
 git
 host
@@ -328,11 +326,13 @@ googlesource
 or
 github
 .
-'
-'
-'
+"
+"
+"
+                
 %
 host
+            
 )
             
 sys
@@ -350,9 +350,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Query
 the
 github
@@ -365,13 +365,13 @@ id
 and
 timestamp
 .
-'
-'
-'
+"
+"
+"
         
 gitlab_api
 =
-'
+"
 https
 :
 /
@@ -395,7 +395,7 @@ videolan
 repository
 /
 commits
-'
+"
         
 url
 =
@@ -414,18 +414,17 @@ log
 logging
 .
 INFO
-'
+"
 fetch
-'
+"
 {
-'
+"
 url
-'
+"
 :
 url
 }
-                 
-'
+"
 Fetching
 commit
 id
@@ -433,7 +432,7 @@ from
 {
 url
 }
-'
+"
 )
         
 req
@@ -463,15 +462,15 @@ return
 (
 info
 [
-'
+"
 id
-'
+"
 ]
 info
 [
-'
+"
 committed_date
-'
+"
 ]
 )
     
@@ -484,17 +483,17 @@ target
 )
 :
         
-'
-'
-'
+"
+"
+"
 Fetch
 and
 unpack
 upstream
 source
-'
-'
-'
+"
+"
+"
         
 url
 =
@@ -512,30 +511,30 @@ log
 logging
 .
 INFO
-'
+"
 fetch
-'
+"
 {
-'
+"
 url
-'
+"
 :
 url
 }
-'
+"
 Fetching
 {
 url
 }
-'
+"
 )
         
 prefix
 =
-'
+"
 dav1d
 -
-'
+"
 +
 revision
         
@@ -543,20 +542,20 @@ filename
 =
 prefix
 +
-'
+"
 .
 tar
 .
 gz
-'
+"
         
 with
 open
 (
 filename
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -605,6 +604,7 @@ bad_paths
 =
 filter
 (
+            
 lambda
 name
 :
@@ -612,23 +612,23 @@ name
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 or
-'
+"
 .
 .
-'
+"
 in
 name
-                           
 tar
 .
 getnames
 (
 )
+        
 )
         
 if
@@ -641,6 +641,7 @@ bad_paths
 raise
 Exception
 (
+                
 "
 Tar
 archive
@@ -650,7 +651,6 @@ non
 local
 paths
 "
-                            
 "
 e
 .
@@ -666,6 +666,7 @@ bad_paths
 [
 0
 ]
+            
 )
         
 self
@@ -675,18 +676,18 @@ log
 logging
 .
 INFO
-'
+"
 rm_vendor_dir
-'
+"
 {
 }
-'
+"
 rm
 -
 rf
 %
 s
-'
+"
 %
 target
 )
@@ -705,17 +706,17 @@ log
 logging
 .
 INFO
-'
+"
 unpack
-'
+"
 {
 }
-'
+"
 Unpacking
 upstream
 files
 .
-'
+"
 )
         
 tar
@@ -762,7 +763,7 @@ os
 .
 system
 (
-'
+"
 mv
 %
 s
@@ -775,7 +776,7 @@ s
 *
 %
 s
-'
+"
 %
 (
 tardir
@@ -815,11 +816,11 @@ mozpath
 join
 (
 target
-'
+"
 moz
 .
 yaml
-'
+"
 )
         
 with
@@ -841,11 +842,11 @@ read
         
 prefix
 =
-'
+"
 release
 :
 commit
-'
+"
         
 if
 prefix
@@ -859,9 +860,10 @@ re
 .
 sub
 (
+                
 prefix
 +
-'
+"
 [
 v
 \
@@ -875,11 +877,11 @@ f0
 +
 .
 *
-'
-                              
+"
+                
 prefix
 +
-'
+"
 %
 s
 (
@@ -887,19 +889,21 @@ s
 s
 )
 .
-'
+"
 %
 (
 revision
 timestamp
 )
-                              
+                
 yaml
+                
 flags
 =
 re
 .
 MULTILINE
+            
 )
         
 else
@@ -907,7 +911,7 @@ else
             
 new_yaml
 =
-'
+"
 %
 s
 \
@@ -919,7 +923,7 @@ s
 %
 s
 .
-'
+"
 %
 (
 yaml
@@ -938,9 +942,9 @@ with
 open
 (
 filename
-'
+"
 w
-'
+"
 )
 as
 f
@@ -970,7 +974,7 @@ mozpath
 join
 (
 vendor_dir
-'
+"
 include
 /
 vcs_version
@@ -978,7 +982,7 @@ vcs_version
 h
 .
 in
-'
+"
 )
         
 dst_filename
@@ -988,11 +992,11 @@ mozpath
 join
 (
 glue_dir
-'
+"
 vcs_version
 .
 h
-'
+"
 )
         
 with
@@ -1018,9 +1022,9 @@ vcs_version_in
 .
 replace
 (
-'
+"
 VCS_TAG
-'
+"
 revision
 )
         
@@ -1028,9 +1032,9 @@ with
 open
 (
 dst_filename
-'
+"
 w
-'
+"
 )
 as
 f
@@ -1051,9 +1055,9 @@ target
 )
 :
         
-'
-'
-'
+"
+"
+"
 Remove
 files
 we
@@ -1064,9 +1068,9 @@ want
 to
 import
 .
-'
-'
-'
+"
+"
+"
         
 mozfile
 .
@@ -1077,10 +1081,10 @@ mozpath
 join
 (
 target
-'
+"
 .
 gitattributes
-'
+"
 )
 )
         
@@ -1093,10 +1097,10 @@ mozpath
 join
 (
 target
-'
+"
 .
 gitignore
-'
+"
 )
 )
         
@@ -1109,13 +1113,13 @@ mozpath
 join
 (
 target
-'
+"
 build
-'
-'
+"
+"
 .
 gitattributes
-'
+"
 )
 )
         
@@ -1128,13 +1132,13 @@ mozpath
 join
 (
 target
-'
+"
 build
-'
-'
+"
+"
 .
 gitignore
-'
+"
 )
 )
     
@@ -1145,9 +1149,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Ensure
 that
@@ -1180,9 +1184,9 @@ the
 user
 .
         
-'
-'
-'
+"
+"
+"
         
 modified
 =
@@ -1192,9 +1196,9 @@ repository
 .
 get_changed_files
 (
-'
+"
 M
-'
+"
 )
         
 if
@@ -1205,18 +1209,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 modified_files
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 You
 have
 uncommitted
@@ -1248,18 +1255,19 @@ ignore
 -
 modified
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                    
 files
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1268,7 +1276,9 @@ sorted
 modified
 )
 )
+                
 )
+            
 )
             
 sys
@@ -1322,9 +1332,9 @@ revision
             
 revision
 =
-'
+"
 master
-'
+"
         
 if
 repo
@@ -1343,7 +1353,7 @@ self
 .
 repo_url
 =
-'
+"
 https
 :
 /
@@ -1357,7 +1367,7 @@ org
 videolan
 /
 dav1d
-'
+"
         
 self
 .
@@ -1387,11 +1397,11 @@ join
 self
 .
 topsrcdir
-'
+"
 third_party
 /
 dav1d
-'
+"
 )
         
 self
@@ -1409,22 +1419,21 @@ log
 logging
 .
 INFO
-'
+"
 clean_upstream
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Removing
 unnecessary
 files
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1443,11 +1452,11 @@ join
 self
 .
 topsrcdir
-'
+"
 media
 /
 libdav1d
-'
+"
 )
         
 self
@@ -1457,25 +1466,24 @@ log
 logging
 .
 INFO
-'
+"
 update_moz
 .
 yaml
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Updating
 moz
 .
 yaml
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1494,23 +1502,22 @@ log
 logging
 .
 INFO
-'
+"
 update_vcs_version
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Updating
 vcs_version
 .
 h
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1526,27 +1533,31 @@ self
 .
 log
 (
+            
 logging
 .
 INFO
-'
+            
+"
 add_remove_files
-'
+"
+            
 {
 }
-                 
-'
-'
-'
+            
+"
+"
+"
 Registering
 changes
 with
 version
 control
 .
-'
-'
-'
+"
+"
+"
+        
 )
         
 self
@@ -1563,23 +1574,26 @@ self
 .
 log
 (
+            
 logging
 .
 INFO
-'
+            
+"
 done
-'
+"
+            
 {
-'
+"
 revision
-'
+"
 :
 revision
 }
-                 
-'
-'
-'
+            
+"
+"
+"
 Update
 to
 dav1d
@@ -1593,7 +1607,8 @@ ready
 to
 commit
 .
-'
-'
-'
+"
+"
+"
+        
 )

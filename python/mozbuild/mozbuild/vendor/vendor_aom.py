@@ -11,10 +11,7 @@ mozbuild
 .
 base
 import
-(
-    
 MozbuildObject
-)
 import
 mozfile
 import
@@ -54,9 +51,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Construct
 a
 url
@@ -69,14 +66,14 @@ the
 given
 revision
 .
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 googlesource
-'
+"
 in
 self
 .
@@ -91,24 +88,24 @@ join
 self
 .
 repo_url
-'
+"
 +
 archive
-'
+"
 revision
 +
-'
+"
 .
 tar
 .
 gz
-'
+"
 )
         
 elif
-'
+"
 github
-'
+"
 in
 self
 .
@@ -123,17 +120,17 @@ join
 self
 .
 repo_url
-'
+"
 archive
-'
+"
 revision
 +
-'
+"
 .
 tar
 .
 gz
-'
+"
 )
         
 else
@@ -142,7 +139,7 @@ else
 raise
 ValueError
 (
-'
+"
 Unknown
 git
 host
@@ -150,7 +147,7 @@ no
 snapshot
 lookup
 method
-'
+"
 )
     
 def
@@ -161,9 +158,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Convert
 a
 revision
@@ -205,14 +202,14 @@ we
 re
 vendoring
 .
-'
-'
-'
+"
+"
+"
         
 if
-'
+"
 googlesource
-'
+"
 in
 self
 .
@@ -228,9 +225,9 @@ revision
 )
         
 elif
-'
+"
 github
-'
+"
 in
 self
 .
@@ -251,7 +248,7 @@ else
 raise
 ValueError
 (
-'
+"
 Unknown
 git
 host
@@ -259,7 +256,7 @@ no
 commit
 lookup
 method
-'
+"
 )
     
 def
@@ -270,9 +267,9 @@ url
 )
 :
         
-'
-'
-'
+"
+"
+"
 Validate
 repository
 urls
@@ -284,9 +281,9 @@ can
 handle
 them
 .
-'
-'
-'
+"
+"
+"
         
 host
 =
@@ -300,16 +297,16 @@ netloc
 valid_domains
 =
 (
-'
+"
 googlesource
 .
 com
-'
-'
+"
+"
 github
 .
 com
-'
+"
 )
         
 if
@@ -333,18 +330,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 upstream_url
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 Unsupported
 git
 host
@@ -370,11 +370,13 @@ googlesource
 or
 github
 .
-'
-'
-'
+"
+"
+"
+                
 %
 host
+            
 )
             
 sys
@@ -392,9 +394,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Query
 gitiles
 for
@@ -404,9 +406,9 @@ commit
 and
 timestamp
 .
-'
-'
-'
+"
+"
+"
         
 url
 =
@@ -417,17 +419,17 @@ join
 self
 .
 repo_url
-'
+"
 +
-'
+"
 revision
 +
-'
+"
 ?
 format
 =
 JSON
-'
+"
 )
         
 self
@@ -437,18 +439,17 @@ log
 logging
 .
 INFO
-'
+"
 fetch
-'
+"
 {
-'
+"
 url
-'
+"
 :
 url
 }
-                 
-'
+"
 Fetching
 commit
 id
@@ -456,7 +457,7 @@ from
 {
 url
 }
-'
+"
 )
         
 req
@@ -511,20 +512,20 @@ return
 (
 info
 [
-'
+"
 commit
-'
+"
 ]
 info
 [
-'
+"
 committer
-'
+"
 ]
 [
-'
+"
 time
-'
+"
 ]
 )
     
@@ -536,9 +537,9 @@ revision
 )
 :
         
-'
-'
-'
+"
+"
+"
 Query
 the
 github
@@ -551,13 +552,13 @@ id
 and
 timestamp
 .
-'
-'
-'
+"
+"
+"
         
 github_api
 =
-'
+"
 https
 :
 /
@@ -568,7 +569,7 @@ github
 .
 com
 /
-'
+"
         
 repo
 =
@@ -592,13 +593,13 @@ mozpath
 join
 (
 github_api
-'
+"
 repos
-'
+"
 repo
-'
+"
 commits
-'
+"
 revision
 )
         
@@ -609,18 +610,17 @@ log
 logging
 .
 INFO
-'
+"
 fetch
-'
+"
 {
-'
+"
 url
-'
+"
 :
 url
 }
-                 
-'
+"
 Fetching
 commit
 id
@@ -628,7 +628,7 @@ from
 {
 url
 }
-'
+"
 )
         
 req
@@ -658,25 +658,25 @@ return
 (
 info
 [
-'
+"
 sha
-'
+"
 ]
 info
 [
-'
+"
 commit
-'
+"
 ]
 [
-'
+"
 committer
-'
+"
 ]
 [
-'
+"
 date
-'
+"
 ]
 )
     
@@ -689,17 +689,17 @@ target
 )
 :
         
-'
-'
-'
+"
+"
+"
 Fetch
 and
 unpack
 upstream
 source
-'
-'
-'
+"
+"
+"
         
 url
 =
@@ -717,30 +717,30 @@ log
 logging
 .
 INFO
-'
+"
 fetch
-'
+"
 {
-'
+"
 url
-'
+"
 :
 url
 }
-'
+"
 Fetching
 {
 url
 }
-'
+"
 )
         
 prefix
 =
-'
+"
 aom
 -
-'
+"
 +
 revision
         
@@ -748,20 +748,20 @@ filename
 =
 prefix
 +
-'
+"
 .
 tar
 .
 gz
-'
+"
         
 with
 open
 (
 filename
-'
+"
 wb
-'
+"
 )
 as
 f
@@ -810,6 +810,7 @@ bad_paths
 =
 filter
 (
+            
 lambda
 name
 :
@@ -817,23 +818,23 @@ name
 .
 startswith
 (
-'
+"
 /
-'
+"
 )
 or
-'
+"
 .
 .
-'
+"
 in
 name
-                           
 tar
 .
 getnames
 (
 )
+        
 )
         
 if
@@ -846,6 +847,7 @@ bad_paths
 raise
 Exception
 (
+                
 "
 Tar
 archive
@@ -855,7 +857,6 @@ non
 local
 paths
 "
-                            
 "
 e
 .
@@ -871,6 +872,7 @@ bad_paths
 [
 0
 ]
+            
 )
         
 self
@@ -880,18 +882,18 @@ log
 logging
 .
 INFO
-'
+"
 rm_vendor_dir
-'
+"
 {
 }
-'
+"
 rm
 -
 rf
 %
 s
-'
+"
 %
 target
 )
@@ -910,17 +912,17 @@ log
 logging
 .
 INFO
-'
+"
 unpack
-'
+"
 {
 }
-'
+"
 Unpacking
 upstream
 files
 .
-'
+"
 )
         
 tar
@@ -967,7 +969,7 @@ os
 .
 system
 (
-'
+"
 mv
 %
 s
@@ -980,7 +982,7 @@ s
 *
 %
 s
-'
+"
 %
 (
 tardir
@@ -1020,9 +1022,9 @@ mozpath
 join
 (
 target
-'
+"
 README_MOZILLA
-'
+"
 )
         
 with
@@ -1044,14 +1046,14 @@ read
         
 prefix
 =
-'
+"
 The
 git
 commit
 ID
 used
 was
-'
+"
         
 if
 prefix
@@ -1065,9 +1067,10 @@ re
 .
 sub
 (
+                
 prefix
 +
-'
+"
 [
 v
 \
@@ -1081,11 +1084,11 @@ f0
 +
 .
 *
-'
-                                
+"
+                
 prefix
 +
-'
+"
 %
 s
 (
@@ -1093,14 +1096,15 @@ s
 s
 )
 .
-'
+"
 %
 (
 revision
 timestamp
 )
-                                
+                
 readme
+            
 )
         
 else
@@ -1108,7 +1112,7 @@ else
             
 new_readme
 =
-'
+"
 %
 s
 \
@@ -1120,7 +1124,7 @@ s
 %
 s
 .
-'
+"
 %
 (
 readme
@@ -1130,14 +1134,14 @@ revision
         
 prefix
 =
-'
+"
 The
 last
 update
 was
 pulled
 from
-'
+"
         
 new_readme
 =
@@ -1145,9 +1149,10 @@ re
 .
 sub
 (
+            
 prefix
 +
-'
+"
 https
 *
 :
@@ -1155,20 +1160,19 @@ https
 /
 .
 *
-'
-                            
+"
 prefix
 +
-'
+"
 %
 s
-'
+"
 %
 self
 .
 repo_url
-                            
 new_readme
+        
 )
         
 if
@@ -1182,9 +1186,9 @@ with
 open
 (
 filename
-'
+"
 w
-'
+"
 )
 as
 f
@@ -1205,9 +1209,9 @@ target
 )
 :
         
-'
-'
-'
+"
+"
+"
 Remove
 files
 we
@@ -1218,9 +1222,9 @@ want
 to
 import
 .
-'
-'
-'
+"
+"
+"
         
 mozfile
 .
@@ -1231,10 +1235,10 @@ mozpath
 join
 (
 target
-'
+"
 .
 gitattributes
-'
+"
 )
 )
         
@@ -1247,10 +1251,10 @@ mozpath
 join
 (
 target
-'
+"
 .
 gitignore
-'
+"
 )
 )
         
@@ -1263,13 +1267,13 @@ mozpath
 join
 (
 target
-'
+"
 build
-'
-'
+"
+"
 .
 gitattributes
-'
+"
 )
 )
         
@@ -1282,13 +1286,13 @@ mozpath
 join
 (
 target
-'
+"
 build
-'
-'
+"
+"
 .
 gitignore
-'
+"
 )
 )
     
@@ -1300,9 +1304,9 @@ target
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Run
 the
@@ -1360,9 +1364,9 @@ to
 use
 .
         
-'
-'
-'
+"
+"
+"
         
 config_dir
 =
@@ -1371,9 +1375,9 @@ mozpath
 join
 (
 target
-'
+"
 config
-'
+"
 )
         
 self
@@ -1383,18 +1387,18 @@ log
 logging
 .
 INFO
-'
+"
 rm_confg_dir
-'
+"
 {
 }
-'
+"
 rm
 -
 rf
 %
 s
-'
+"
 %
 config_dir
 )
@@ -1410,26 +1414,29 @@ self
 .
 run_process
 (
+            
 args
 =
 [
-'
+"
 .
 /
 generate_sources_mozbuild
 .
 sh
-'
+"
 ]
-                         
+            
 cwd
 =
 target
+            
 log_name
 =
-'
+"
 generate_sources
-'
+"
+        
 )
     
 def
@@ -1439,9 +1446,9 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Ensure
 that
@@ -1474,9 +1481,9 @@ the
 user
 .
         
-'
-'
-'
+"
+"
+"
         
 modified
 =
@@ -1486,9 +1493,9 @@ repository
 .
 get_changed_files
 (
-'
+"
 M
-'
+"
 )
         
 if
@@ -1499,18 +1506,21 @@ self
 .
 log
 (
+                
 logging
 .
 ERROR
-'
+                
+"
 modified_files
-'
+"
+                
 {
 }
-                     
-'
-'
-'
+                
+"
+"
+"
 You
 have
 uncommitted
@@ -1542,18 +1552,19 @@ ignore
 -
 modified
 .
-'
-'
-'
+"
+"
+"
 .
 format
 (
+                    
 files
 =
-'
+"
 \
 n
-'
+"
 .
 join
 (
@@ -1562,7 +1573,9 @@ sorted
 modified
 )
 )
+                
 )
+            
 )
             
 sys
@@ -1616,9 +1629,9 @@ revision
             
 revision
 =
-'
+"
 master
-'
+"
         
 if
 repo
@@ -1637,7 +1650,7 @@ self
 .
 repo_url
 =
-'
+"
 https
 :
 /
@@ -1650,7 +1663,7 @@ com
 /
 aom
 /
-'
+"
         
 self
 .
@@ -1680,11 +1693,11 @@ join
 self
 .
 topsrcdir
-'
+"
 third_party
 /
 aom
-'
+"
 )
         
 self
@@ -1702,22 +1715,21 @@ log
 logging
 .
 INFO
-'
+"
 clean_upstream
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Removing
 unnecessary
 files
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1736,11 +1748,11 @@ join
 self
 .
 topsrcdir
-'
+"
 media
 /
 libaom
-'
+"
 )
         
 self
@@ -1750,24 +1762,23 @@ log
 logging
 .
 INFO
-'
+"
 generate_sources
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Generating
 build
 files
 .
 .
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1784,21 +1795,20 @@ log
 logging
 .
 INFO
-'
+"
 update_readme
-'
+"
 {
 }
-                 
-'
-'
-'
+"
+"
+"
 Updating
 README_MOZILLA
 .
-'
-'
-'
+"
+"
+"
 )
         
 self
@@ -1814,27 +1824,31 @@ self
 .
 log
 (
+            
 logging
 .
 INFO
-'
+            
+"
 add_remove_files
-'
+"
+            
 {
 }
-                 
-'
-'
-'
+            
+"
+"
+"
 Registering
 changes
 with
 version
 control
 .
-'
-'
-'
+"
+"
+"
+        
 )
         
 self
@@ -1860,23 +1874,26 @@ self
 .
 log
 (
+            
 logging
 .
 INFO
-'
+            
+"
 done
-'
+"
+            
 {
-'
+"
 revision
-'
+"
 :
 revision
 }
-                 
-'
-'
-'
+            
+"
+"
+"
 Update
 to
 aom
@@ -1890,7 +1907,8 @@ ready
 to
 commit
 .
-'
-'
-'
+"
+"
+"
+        
 )
