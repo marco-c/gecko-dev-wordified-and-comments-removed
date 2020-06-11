@@ -485,7 +485,9 @@ browser
 .
 newtabpage
 .
-amazonSearchTileOverride
+searchTileOverride
+.
+amazon
 .
 url
 "
@@ -1955,7 +1957,7 @@ Services
 .
 prefs
 .
-getCharPref
+getStringPref
 (
 AMAZON_SEARCH_TILE_OVERRIDE_PREF
 "
@@ -2076,6 +2078,12 @@ link
 url
 =
 amazonSearchTileOverrideURL
+;
+link
+.
+overriddenSearchTopSite
+=
+true
 ;
 }
 }

@@ -460,6 +460,11 @@ favicon
 |
 |
 null
+overriddenSearchTopSite
+:
+link
+.
+overriddenSearchTopSite
 }
 )
 )
@@ -532,6 +537,11 @@ isPinned
 site
 .
 isPinned
+overriddenSearchTopSite
+:
+site
+.
+overriddenSearchTopSite
 }
 )
 )
