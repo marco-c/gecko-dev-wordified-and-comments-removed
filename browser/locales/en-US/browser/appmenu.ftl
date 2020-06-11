@@ -140,6 +140,15 @@ in
 App
 menu
 .
+whatsnew
+-
+panel
+-
+header
+=
+What
+s
+New
 #
 Checkbox
 displayed
