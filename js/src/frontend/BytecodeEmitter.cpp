@@ -20720,9 +20720,10 @@ false
 if
 (
 !
-emitTree
+emitAssignmentRhs
 (
 rhs
+name
 )
 )
 {
