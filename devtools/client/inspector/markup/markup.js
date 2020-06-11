@@ -4664,7 +4664,7 @@ this
 .
 toolbox
 .
-viewSourceInStyleEditor
+viewSourceInStyleEditorByURL
 (
 url
 )

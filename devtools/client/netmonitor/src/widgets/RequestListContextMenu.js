@@ -2516,7 +2516,7 @@ getTabTarget
 ;
 toolbox
 .
-viewSourceInStyleEditor
+viewSourceInStyleEditorByURL
 (
 url
 0
