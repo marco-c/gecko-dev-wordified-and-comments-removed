@@ -685,7 +685,11 @@ mCallbackFlags
 nsPipeReadState
 mReadState
 ;
+Atomic
+<
 uint32_t
+Relaxed
+>
 mPriority
 ;
 }
