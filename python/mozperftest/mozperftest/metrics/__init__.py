@@ -20,6 +20,14 @@ metrics
 consoleoutput
 import
 ConsoleOutput
+from
+mozperftest
+.
+metrics
+.
+notebookupload
+import
+Notebook
 def
 get_layers
 (
@@ -29,6 +37,7 @@ get_layers
 return
 Perfherder
 ConsoleOutput
+Notebook
 def
 pick_metrics
 (

@@ -631,7 +631,7 @@ data
 ]
                     
 if
-isinstance
+type
 (
 v
 [
@@ -639,10 +639,11 @@ v
 value
 "
 ]
+)
+in
 (
 int
 float
-)
 )
                 
 ]

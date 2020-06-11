@@ -34,7 +34,7 @@ metrics
 .
 notebook
 import
-PerftestNotebook
+PerftestETL
 class
 MetricsStorage
 (
@@ -956,7 +956,7 @@ files
             
 ptnb
 =
-PerftestNotebook
+PerftestETL
 (
                 
 config
@@ -981,9 +981,6 @@ ptnb
 .
 process
 (
-no_iodide
-=
-True
 *
 *
 data_info
