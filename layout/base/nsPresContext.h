@@ -2307,11 +2307,6 @@ UIResolutionChangedSync
 )
 ;
 void
-SysColorChanged
-(
-)
-;
-void
 SetPrintSettings
 (
 nsIPrintSettings
@@ -3147,11 +3142,6 @@ ThemeChangedInternal
 )
 ;
 void
-SysColorChangedInternal
-(
-)
-;
-void
 RefreshSystemMetrics
 (
 )
@@ -3761,11 +3751,6 @@ unsigned
 mPrefScrollbarSide
 :
 2
-;
-unsigned
-mPendingSysColorChanged
-:
-1
 ;
 unsigned
 mPendingThemeChanged

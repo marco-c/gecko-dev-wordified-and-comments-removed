@@ -1776,11 +1776,6 @@ override
 }
 ;
 void
-NotifySysColorChanged
-(
-)
-;
-void
 NotifyThemeChanged
 (
 )
