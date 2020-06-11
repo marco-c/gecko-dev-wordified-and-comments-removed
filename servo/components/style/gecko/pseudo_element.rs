@@ -670,6 +670,7 @@ PseudoElement
 MozFocusOuter
 =
 >
+{
 static_prefs
 :
 :
@@ -690,12 +691,14 @@ outer
 enabled
 "
 )
+}
 PseudoElement
 :
 :
 FileChooserButton
 =
 >
+{
 static_prefs
 :
 :
@@ -716,10 +719,10 @@ button
 enabled
 "
 )
+}
 _
 =
 >
-{
 (
 self
 .
@@ -735,7 +738,6 @@ CSS_PSEUDO_ELEMENT_ENABLED_IN_UA_SHEETS_AND_CHROME
 =
 =
 0
-}
 }
 }
 pub

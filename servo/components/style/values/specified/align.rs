@@ -1516,7 +1516,6 @@ parse_comma_separated
 |
 input
 |
-{
 AlignContent
 :
 :
@@ -1525,7 +1524,6 @@ parse
 context
 input
 )
-}
 )
 ?
 ;
@@ -1771,7 +1769,6 @@ parse_comma_separated
 |
 input
 |
-{
 JustifyContent
 :
 :
@@ -1780,7 +1777,6 @@ parse
 context
 input
 )
-}
 )
 ?
 ;
