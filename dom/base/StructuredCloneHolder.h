@@ -21,6 +21,15 @@ h
 #
 include
 "
+js
+/
+WasmModule
+.
+h
+"
+#
+include
+"
 jsapi
 .
 h

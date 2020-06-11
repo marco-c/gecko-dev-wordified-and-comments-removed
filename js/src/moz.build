@@ -1412,6 +1412,16 @@ h
 /
 public
 /
+WasmModule
+.
+h
+'
+'
+.
+.
+/
+public
+/
 WeakMapPtr
 .
 h

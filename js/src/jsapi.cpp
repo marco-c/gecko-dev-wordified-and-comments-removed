@@ -457,6 +457,15 @@ include
 "
 js
 /
+WasmModule
+.
+h
+"
+#
+include
+"
+js
+/
 Wrapper
 .
 h
