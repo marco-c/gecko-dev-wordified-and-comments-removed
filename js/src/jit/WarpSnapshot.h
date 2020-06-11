@@ -1695,7 +1695,8 @@ globalLexicalEnv_
 ;
 WarpGCPtr
 <
-Value
+JSObject
+*
 >
 globalLexicalEnvThis_
 ;
@@ -1734,7 +1735,8 @@ return
 globalLexicalEnv_
 ;
 }
-Value
+JSObject
+*
 globalLexicalEnvThis
 (
 )

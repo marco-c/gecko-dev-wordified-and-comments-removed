@@ -1290,7 +1290,7 @@ isSingleton
 )
 ;
 void
-initThisValue
+initThisObject
 (
 JSObject
 *
@@ -1584,7 +1584,7 @@ GlobalObject
 ;
 }
 void
-setWindowProxyThisValue
+setWindowProxyThisObject
 (
 JSObject
 *
@@ -1615,8 +1615,9 @@ isGlobal
 )
 ;
 }
-Value
-thisValue
+JSObject
+*
+thisObject
 (
 )
 const

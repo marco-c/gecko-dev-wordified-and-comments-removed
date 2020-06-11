@@ -8933,7 +8933,7 @@ lexicalEnvironment
 (
 )
 .
-setWindowProxyThisValue
+setWindowProxyThisObject
 (
 windowProxy
 )

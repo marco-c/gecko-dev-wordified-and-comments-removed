@@ -3463,8 +3463,9 @@ JSObject
 obj
 )
 ;
-Value
-GetThisValueOfLexical
+JSObject
+*
+GetThisObjectOfLexical
 (
 JSObject
 *

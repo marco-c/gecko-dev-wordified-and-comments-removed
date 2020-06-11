@@ -9768,8 +9768,9 @@ compilation
 "
 )
 ;
-Value
-v
+JSObject
+*
+obj
 =
 snapshot_
 .
@@ -9779,7 +9780,11 @@ globalLexicalEnvThis
 ;
 pushConstant
 (
-v
+ObjectValue
+(
+*
+obj
+)
 )
 ;
 return
