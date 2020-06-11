@@ -172,6 +172,13 @@ isSubFrame
 infallible
 ]
 attribute
+boolean
+hasUserInteraction
+;
+[
+infallible
+]
+attribute
 nsIReferrerInfo
 referrerInfo
 ;
