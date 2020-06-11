@@ -1574,6 +1574,17 @@ override
 ;
 virtual
 bool
+WidgetPaintsBackground
+(
+)
+override
+{
+return
+true
+;
+}
+virtual
+bool
 PreRender
 (
 mozilla
