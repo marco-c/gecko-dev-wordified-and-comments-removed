@@ -1299,7 +1299,6 @@ margin
 0
 0
 10px
-0
 ;
 padding
 :
@@ -1333,7 +1332,6 @@ margin
 0
 0
 15px
-0
 ;
 }
 .
@@ -1948,7 +1946,7 @@ absolute
 ;
 top
 :
-6px
+4px
 ;
 inset
 -
@@ -1957,6 +1955,12 @@ inline
 start
 :
 36px
+;
+line
+-
+height
+:
+16px
 ;
 white
 -
@@ -3641,7 +3645,6 @@ margin
 0
 0
 10px
-0
 !
 important
 ;
@@ -3933,8 +3936,6 @@ margin
 -
 10px
 20px
--
-10px
 ;
 padding
 :
@@ -4063,13 +4064,7 @@ center
 {
 margin
 -
-left
-:
-auto
-;
-margin
--
-right
+inline
 :
 auto
 ;
