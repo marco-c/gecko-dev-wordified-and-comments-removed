@@ -628,7 +628,7 @@ looksLikeOrigin
 (
 prePath
 {
-ignoreKnownDomains
+ignoreWhitelist
 :
 true
 }
@@ -868,7 +868,7 @@ Services
 .
 uriFixup
 .
-isDomainKnown
+isDomainWhitelisted
 (
 hostPort
 )
@@ -886,7 +886,7 @@ looksLikeOrigin
 (
 token
 {
-ignoreKnownDomains
+ignoreWhitelist
 =
 false
 noIp
@@ -1130,7 +1130,7 @@ false
 if
 (
 !
-ignoreKnownDomains
+ignoreWhitelist
 &
 &
 !
@@ -1156,7 +1156,7 @@ Services
 .
 uriFixup
 .
-isDomainKnown
+isDomainWhitelisted
 (
 hostPort
 )
