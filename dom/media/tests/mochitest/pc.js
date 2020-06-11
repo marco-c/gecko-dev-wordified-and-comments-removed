@@ -10255,11 +10255,10 @@ ok
 rem
 .
 bytesSent
->
+!
 =
-rem
-.
-packetsSent
+=
+undefined
 "
 Rtcp
 bytesSent
