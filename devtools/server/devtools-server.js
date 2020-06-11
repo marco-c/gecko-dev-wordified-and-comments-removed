@@ -1030,8 +1030,8 @@ true
 }
 connectToParentWindowActor
 (
-prefix
 devtoolsFrameActor
+forwardingPrefix
 )
 {
 this
@@ -1047,7 +1047,7 @@ new
 JsWindowActorTransport
 (
 devtoolsFrameActor
-prefix
+forwardingPrefix
 )
 ;
 return
@@ -1056,7 +1056,7 @@ this
 _onConnection
 (
 transport
-prefix
+forwardingPrefix
 true
 )
 ;

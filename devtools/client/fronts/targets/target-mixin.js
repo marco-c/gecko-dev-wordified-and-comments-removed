@@ -134,6 +134,15 @@ _setupRemoteListeners
 ;
 }
 get
+isTargetFront
+(
+)
+{
+return
+true
+;
+}
+get
 descriptorFront
 (
 )
