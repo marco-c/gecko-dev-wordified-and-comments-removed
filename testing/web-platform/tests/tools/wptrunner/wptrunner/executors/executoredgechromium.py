@@ -9,11 +9,11 @@ from
 base
 import
 WdspecExecutor
-WebDriverProtocol
+WdspecProtocol
 class
 EdgeChromiumDriverProtocol
 (
-WebDriverProtocol
+WdspecProtocol
 )
 :
     

@@ -54,7 +54,7 @@ TimedRunner
                    
 WdspecExecutor
                    
-WebDriverProtocol
+WdspecProtocol
 )
 from
 .
@@ -1566,6 +1566,7 @@ read
                 
 return
 True
+[
 ensure_str
 (
 base64
@@ -1575,6 +1576,7 @@ b64encode
 data
 )
 )
+]
     
 def
 do_test
@@ -1667,7 +1669,7 @@ command
 class
 ServoDriverProtocol
 (
-WebDriverProtocol
+WdspecProtocol
 )
 :
     
