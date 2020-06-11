@@ -354,7 +354,9 @@ self
 .
 env
 .
-get_hook
+hooks
+.
+get
 (
 "
 logcat_processor
