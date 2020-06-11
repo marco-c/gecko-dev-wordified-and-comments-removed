@@ -897,6 +897,15 @@ OCLASP
 Iterator
 )
 )
+\
+REAL
+(
+AsyncIterator
+OCLASP
+(
+AsyncIterator
+)
+)
 #
 define
 JS_FOR_PROTOTYPES
