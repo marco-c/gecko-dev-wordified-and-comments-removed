@@ -306,7 +306,7 @@ IsDolphin
 nsCoreUtils
 :
 :
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 aDocument
 -
@@ -317,6 +317,13 @@ DocumentNode
 )
 )
 {
+MOZ_ASSERT
+(
+XRE_IsParentProcess
+(
+)
+)
+;
 uint32_t
 count
 =

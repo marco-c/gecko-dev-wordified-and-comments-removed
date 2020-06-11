@@ -2047,7 +2047,7 @@ bool
 nsCoreUtils
 :
 :
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 Document
 *

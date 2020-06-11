@@ -1472,7 +1472,7 @@ protected
 :
 enum
 {
-eTabDocument
+eTopLevelContentDocInProcess
 =
 1
 <

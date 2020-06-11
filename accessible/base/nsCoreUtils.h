@@ -398,7 +398,7 @@ aDocument
 ;
 static
 bool
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 Document
 *

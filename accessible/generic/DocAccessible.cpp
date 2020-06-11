@@ -7786,7 +7786,7 @@ if
 nsCoreUtils
 :
 :
-IsTabDocument
+IsTopLevelContentDocInProcess
 (
 mDocumentNode
 )
@@ -7795,7 +7795,7 @@ mDocumentNode
 mDocFlags
 |
 =
-eTabDocument
+eTopLevelContentDocInProcess
 ;
 if
 (
