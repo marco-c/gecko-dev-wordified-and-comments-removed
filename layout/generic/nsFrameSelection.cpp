@@ -9832,6 +9832,7 @@ nsFrameSelection
 :
 GetCellLayout
 (
+const
 nsIContent
 *
 aCellContent
@@ -13084,6 +13085,7 @@ nsFrameSelection
 :
 GetCellIndexes
 (
+const
 nsIContent
 *
 aCell
