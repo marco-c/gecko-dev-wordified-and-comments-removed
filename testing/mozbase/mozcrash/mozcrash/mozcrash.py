@@ -32,7 +32,6 @@ six
 import
 string_types
 text_type
-ensure_str
 from
 six
 .
@@ -1982,20 +1981,6 @@ retcode
 p
 .
 returncode
-            
-out
-=
-ensure_str
-(
-out
-)
-            
-err
-=
-ensure_str
-(
-err
-)
             
 if
 len
