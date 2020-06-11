@@ -268,7 +268,15 @@ isInAutomation
 setDryRunResultAndRecordTelemetry
 (
 "
-dummyTRR
+https
+:
+/
+/
+dummytrr
+.
+com
+/
+query
 "
 )
 ;
