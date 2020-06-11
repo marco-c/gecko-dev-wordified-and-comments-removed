@@ -31,7 +31,10 @@ use
 neqo_crypto
 :
 :
-*
+{
+assert_initialized
+init_db
+}
 ;
 #
 [

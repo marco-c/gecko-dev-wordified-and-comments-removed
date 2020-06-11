@@ -1038,7 +1038,11 @@ use
 super
 :
 :
-*
+{
+Decoder
+IncrementalDecoder
+IncrementalDecoderResult
+}
 ;
 use
 crate

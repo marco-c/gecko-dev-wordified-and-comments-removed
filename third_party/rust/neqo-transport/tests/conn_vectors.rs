@@ -46,7 +46,11 @@ use
 test_fixture
 :
 :
-*
+{
+default_server
+loopback
+now
+}
 ;
 const
 INITIAL_PACKET
@@ -272,7 +276,7 @@ state
 State
 :
 :
-WaitInitial
+Init
 )
 ;
 let

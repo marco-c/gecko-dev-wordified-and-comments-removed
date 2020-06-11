@@ -156,7 +156,7 @@ use
 super
 :
 :
-*
+OnceResult
 ;
 static
 mut

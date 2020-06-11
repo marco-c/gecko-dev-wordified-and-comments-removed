@@ -1191,6 +1191,10 @@ Inflector
 '
 mach
 '
+            
+'
+qlog
+'
         
 ]
         

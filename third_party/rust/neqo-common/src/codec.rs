@@ -32,7 +32,7 @@ use
 crate
 :
 :
-hex
+hex_with_len
 ;
 pub
 struct
@@ -980,7 +980,7 @@ f
 write_str
 (
 &
-hex
+hex_with_len
 (
 self
 )
@@ -2239,7 +2239,7 @@ f
 write_str
 (
 &
-hex
+hex_with_len
 (
 self
 )
@@ -2459,7 +2459,10 @@ use
 super
 :
 :
-*
+{
+Decoder
+Encoder
+}
 ;
 #
 [

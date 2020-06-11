@@ -1,3 +1,14 @@
+#
+!
+[
+allow
+(
+clippy
+:
+:
+module_name_repetitions
+)
+]
 use
 neqo_common
 :
@@ -23,6 +34,9 @@ Debug
 )
 ]
 pub
+(
+crate
+)
 struct
 NewStreamTypeReader
 {

@@ -20,7 +20,7 @@ use
 crate
 :
 :
-hex
+hex_with_len
 ;
 #
 [
@@ -232,7 +232,7 @@ src
 self
 .
 dst
-hex
+hex_with_len
 (
 &
 self

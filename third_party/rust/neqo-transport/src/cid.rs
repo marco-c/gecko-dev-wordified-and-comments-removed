@@ -4,6 +4,7 @@ neqo_common
 :
 {
 hex
+hex_with_len
 matches
 Decoder
 }
@@ -398,7 +399,7 @@ CID
 {
 }
 "
-hex
+hex_with_len
 (
 &
 self
@@ -606,7 +607,7 @@ CID
 {
 }
 "
-hex
+hex_with_len
 (
 &
 self
@@ -676,7 +677,7 @@ f
 {
 }
 "
-hex
+hex_with_len
 (
 &
 self
