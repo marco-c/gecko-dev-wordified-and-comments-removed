@@ -3338,6 +3338,9 @@ fn
 }
 goBack
 (
+requireUserInteraction
+=
+false
 )
 {
 var
@@ -3366,6 +3369,7 @@ webNavigation
 .
 goBack
 (
+requireUserInteraction
 )
 )
 ;
@@ -3373,6 +3377,9 @@ goBack
 }
 goForward
 (
+requireUserInteraction
+=
+false
 )
 {
 var
@@ -3401,6 +3408,7 @@ webNavigation
 .
 goForward
 (
+requireUserInteraction
 )
 )
 ;

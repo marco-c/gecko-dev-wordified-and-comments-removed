@@ -157,6 +157,8 @@ Go
 (
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 ErrorResult
 &
 aRv
@@ -167,6 +169,8 @@ AsyncGo
 (
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 )
 ;
 void
@@ -230,6 +234,8 @@ ChildSHistory
 aHistory
 int32_t
 aOffset
+bool
+aRequireUserInteraction
 )
 :
 Runnable
@@ -241,6 +247,10 @@ PendingAsyncHistoryNavigation
 mHistory
 (
 aHistory
+)
+mRequireUserInteraction
+(
+aRequireUserInteraction
 )
 mOffset
 (
@@ -271,6 +281,7 @@ mHistory
 Go
 (
 mOffset
+mRequireUserInteraction
 IgnoreErrors
 (
 )
@@ -288,6 +299,9 @@ RefPtr
 ChildSHistory
 >
 mHistory
+;
+bool
+mRequireUserInteraction
 ;
 int32_t
 mOffset

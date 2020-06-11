@@ -157,6 +157,11 @@ go
 (
 long
 aOffset
+optional
+boolean
+aRequireUserInteraction
+=
+false
 )
 ;
 /

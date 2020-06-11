@@ -831,6 +831,7 @@ session_history
 AsyncGo
 (
 aDelta
+false
 )
 ;
 }
@@ -842,6 +843,7 @@ session_history
 Go
 (
 aDelta
+false
 IgnoreErrors
 (
 )
@@ -940,6 +942,7 @@ AsyncGo
 (
 -
 1
+false
 )
 ;
 }
@@ -952,6 +955,7 @@ Go
 (
 -
 1
+false
 IgnoreErrors
 (
 )
@@ -1049,6 +1053,7 @@ sHistory
 AsyncGo
 (
 1
+false
 )
 ;
 }
@@ -1060,6 +1065,7 @@ sHistory
 Go
 (
 1
+false
 IgnoreErrors
 (
 )

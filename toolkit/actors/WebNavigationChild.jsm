@@ -223,6 +223,9 @@ wn
 .
 goBack
 (
+params
+.
+requireUserInteraction
 )
 )
 ;
@@ -270,6 +273,9 @@ wn
 .
 goForward
 (
+params
+.
+requireUserInteraction
 )
 )
 ;

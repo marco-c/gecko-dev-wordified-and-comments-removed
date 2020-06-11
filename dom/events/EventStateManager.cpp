@@ -9797,6 +9797,7 @@ webNav
 >
 GoBack
 (
+true
 )
 ;
 else
@@ -9805,6 +9806,7 @@ webNav
 >
 GoForward
 (
+true
 )
 ;
 }
