@@ -8571,9 +8571,8 @@ defined
 (
 XP_LINUX
 )
-if
-(
-!
+sandboxEnabled
+=
 SandboxInfo
 :
 :
@@ -8584,15 +8583,7 @@ Get
 CanSandboxContent
 (
 )
-)
-{
-sandboxEnabled
-=
-false
 ;
-}
-else
-{
 if
 (
 StaticPrefs
@@ -8635,6 +8626,10 @@ InstallSoftRealTimeLimitHandler
 ;
 }
 else
+if
+(
+sandboxEnabled
+)
 {
 Unused
 <
@@ -8646,7 +8641,6 @@ GetCubebContext
 (
 )
 ;
-}
 }
 if
 (
