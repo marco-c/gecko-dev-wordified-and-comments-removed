@@ -450,7 +450,7 @@ if
 !
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 matches
 (
@@ -1358,7 +1358,7 @@ context
 .
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 matchesCookie
 (
@@ -2472,7 +2472,7 @@ if
 (
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 matchesCookie
 (

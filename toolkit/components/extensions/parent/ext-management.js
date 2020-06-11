@@ -330,7 +330,7 @@ hostPerms
 =
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .

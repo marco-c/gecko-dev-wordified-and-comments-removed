@@ -1539,7 +1539,7 @@ this
 .
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .

@@ -2145,7 +2145,7 @@ patterns
 =
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -2303,7 +2303,7 @@ MatchPatternSet
 (
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -2385,7 +2385,7 @@ permissions
 ;
 }
 get
-whiteListedHosts
+allowedOrigins
 (
 )
 {

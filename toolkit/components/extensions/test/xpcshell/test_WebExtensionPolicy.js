@@ -444,7 +444,7 @@ be
 able
 to
 access
-whitelisted
+permitted
 URI
 "
 )
@@ -476,7 +476,7 @@ be
 able
 to
 access
-whitelisted
+permitted
 URI
 "
 )
@@ -512,7 +512,7 @@ to
 access
 non
 -
-whitelisted
+permitted
 URI
 "
 )
@@ -571,7 +571,7 @@ able
 to
 access
 updated
-whitelisted
+permitted
 URI
 "
 )
@@ -606,7 +606,7 @@ able
 to
 access
 removed
-whitelisted
+permitted
 URI
 "
 )

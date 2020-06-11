@@ -2998,7 +2998,7 @@ origins
 :
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -4159,7 +4159,7 @@ manifestError
 (
 "
 Only
-whitelisted
+specific
 extensions
 are
 allowed
@@ -5398,7 +5398,7 @@ res
 ;
 this
 .
-whiteListedHosts
+allowedOrigins
 =
 new
 MatchPatternSet
@@ -8346,7 +8346,7 @@ null
 ;
 this
 .
-whiteListedHosts
+allowedOrigins
 =
 null
 ;
@@ -8460,7 +8460,7 @@ patterns
 =
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -8476,7 +8476,7 @@ pattern
 ;
 this
 .
-whiteListedHosts
+allowedOrigins
 =
 new
 MatchPatternSet
@@ -8533,7 +8533,7 @@ allowedOrigins
 =
 this
 .
-whiteListedHosts
+allowedOrigins
 ;
 this
 .
@@ -8614,14 +8614,14 @@ pattern
 ;
 this
 .
-whiteListedHosts
+allowedOrigins
 =
 new
 MatchPatternSet
 (
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -8665,7 +8665,7 @@ allowedOrigins
 =
 this
 .
-whiteListedHosts
+allowedOrigins
 ;
 this
 .
@@ -9423,7 +9423,7 @@ originPermissions
 =
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .
@@ -9709,11 +9709,11 @@ res
 .
 glob
 )
-whiteListedHosts
+allowedOrigins
 :
 this
 .
-whiteListedHosts
+allowedOrigins
 .
 patterns
 .

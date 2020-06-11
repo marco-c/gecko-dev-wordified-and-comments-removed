@@ -292,7 +292,7 @@ context
 .
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 subsumes
 (
@@ -530,7 +530,7 @@ context
 .
 extension
 .
-whiteListedHosts
+allowedOrigins
 .
 subsumes
 (
