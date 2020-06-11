@@ -19,6 +19,12 @@ Path
 from
 mozperftest
 .
+scriptinfo
+import
+ScriptInfo
+from
+mozperftest
+.
 utils
 import
 install_package
@@ -45,16 +51,6 @@ system_prerequisites
     
 append_system_env
 )
-from
-mozperftest
-.
-test
-.
-browsertime
-.
-script
-import
-ScriptInfo
 BROWSERTIME_SRC_ROOT
 =
 Path
@@ -547,9 +543,10 @@ _created_dirs
         
 self
 .
-_test_script
+_test_info
 =
-None
+{
+}
         
 self
 .
@@ -817,8 +814,7 @@ url
 "
 )
         
-tests
-=
+if
 self
 .
 get_arg
@@ -826,32 +822,23 @@ get_arg
 "
 tests
 "
-[
-]
 )
-        
-if
-len
-(
-tests
-)
-!
-=
-1
 :
             
-raise
-NotImplementedError
-(
-)
-        
 self
 .
-_test_script
+_test_info
 =
 ScriptInfo
 (
+self
+.
+get_arg
+(
+"
 tests
+"
+)
 [
 0
 ]
@@ -897,16 +884,6 @@ browsertime_js
 .
 exists
 (
-)
-and
-not
-self
-.
-get_arg
-(
-"
-clobber
-"
 )
 :
             
@@ -975,6 +952,15 @@ state_path
 /
 file
             
+if
+not
+target
+.
+exists
+(
+)
+:
+                
 shutil
 .
 copyfile
@@ -1906,6 +1892,20 @@ directory
 "
 )
         
+test_script
+=
+self
+.
+get_arg
+(
+"
+tests
+"
+)
+[
+0
+]
+        
 args
 =
 [
@@ -1949,14 +1949,7 @@ iterations
 )
 )
             
-self
-.
-_test_script
-[
-"
-filename
-"
-]
+test_script
         
 ]
         
@@ -2045,67 +2038,6 @@ option
 =
 2
 :
-                    
-self
-.
-warning
-(
-                        
-f
-"
-Skipping
-browsertime
-option
-{
-option
-}
-as
-it
-"
-                        
-"
-is
-missing
-a
-name
-/
-value
-pairing
-.
-We
-expect
-options
-"
-                        
-"
-to
-be
-formatted
-as
-:
--
--
-browsertime
--
-extra
--
-options
-"
-                        
-"
-'
-browserRestartTries
-=
-1
-timeouts
-.
-browserStart
-=
-10
-'
-"
-                    
-)
                     
 continue
                 
@@ -2227,6 +2159,7 @@ add_result
 (
             
 {
+                
 "
 results
 "
@@ -2235,18 +2168,30 @@ str
 (
 result_dir
 )
+                
 "
 name
 "
 :
 self
 .
-_test_script
-[
+_test_info
+.
+get
+(
 "
 name
 "
+(
+"
+browsertime
+"
+)
+)
+[
+0
 ]
+            
 }
         
 )

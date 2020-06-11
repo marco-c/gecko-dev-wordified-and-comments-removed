@@ -89,9 +89,7 @@ self
 .
 _env
 .
-hooks
-.
-run
+run_hook
 (
 name
 *
