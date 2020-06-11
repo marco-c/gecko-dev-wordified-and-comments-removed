@@ -1129,7 +1129,7 @@ mingw
 )
 parent
 :
-debian9
+debian10
 -
 base
 index
