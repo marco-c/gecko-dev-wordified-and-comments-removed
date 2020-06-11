@@ -5245,6 +5245,8 @@ MakeScopeExit
 moz_container_wayland_surface_unlock
 (
 container
+&
+waylandSurface
 )
 ;
 }
@@ -5487,6 +5489,13 @@ g_get_monotonic_time
 )
 /
 1000
+;
+moz_container_wayland_surface_unlock
+(
+container
+&
+waylandSurface
+)
 ;
 mWaylandDisplay
 -

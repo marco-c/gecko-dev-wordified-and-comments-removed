@@ -554,6 +554,8 @@ mDisplay
 moz_container_wayland_surface_unlock
 (
 mContainer
+&
+surface
 )
 ;
 }

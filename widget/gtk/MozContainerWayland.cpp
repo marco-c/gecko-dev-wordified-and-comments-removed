@@ -2401,6 +2401,11 @@ moz_container_wayland_surface_unlock
 MozContainer
 *
 container
+struct
+wl_surface
+*
+*
+surface
 )
 {
 LOGWAYLAND
@@ -2438,6 +2443,12 @@ surface
 )
 )
 ;
+if
+(
+*
+surface
+)
+{
 container
 -
 >
@@ -2450,6 +2461,12 @@ Unlock
 (
 )
 ;
+*
+surface
+=
+nullptr
+;
+}
 }
 struct
 wl_egl_window
