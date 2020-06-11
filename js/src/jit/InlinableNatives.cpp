@@ -139,6 +139,12 @@ jit
 const
 JSClass
 *
+js
+:
+:
+jit
+:
+:
 InlinableNativeGuardToClass
 (
 InlinableNative
