@@ -10275,6 +10275,12 @@ case
 CacheKind
 :
 :
+ToPropertyKey
+:
+case
+CacheKind
+:
+:
 GetIterator
 :
 case

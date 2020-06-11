@@ -694,6 +694,11 @@ TypeOf
 \
 _
 (
+ToPropertyKey
+)
+\
+_
+(
 InstanceOf
 )
 \

@@ -65465,11 +65465,11 @@ pop
 (
 )
 ;
-MToId
+auto
 *
 ins
 =
-MToId
+MToPropertyKeyCache
 :
 :
 New
