@@ -4494,6 +4494,12 @@ PR_SI_RELEASE
 version
 "
 }
+{
+PR_SI_RELEASE_BUILD
+"
+build
+"
+}
 }
 ;
 for
