@@ -11,6 +11,13 @@ nsIOutputStream
 .
 h
 "
+#
+include
+"
+nsString
+.
+h
+"
 namespace
 mozilla
 {
@@ -75,8 +82,9 @@ virtual
 MemoryOutputStream
 (
 )
-{
-}
+=
+default
+;
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIOUTPUTSTREAM
 }
