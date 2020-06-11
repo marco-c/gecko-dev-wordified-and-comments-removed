@@ -1294,12 +1294,6 @@ first
 ;
 }
 static
-bool
-IgnoreIPCPrincipal
-(
-)
-;
-static
 void
 NotifyUpdatedDictionaries
 (
