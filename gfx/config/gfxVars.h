@@ -281,6 +281,13 @@ false
 \
 _
 (
+UseWebRenderScissoredCacheClears
+bool
+true
+)
+\
+_
+(
 WebRenderMaxPartialPresentRects
 int32_t
 0
