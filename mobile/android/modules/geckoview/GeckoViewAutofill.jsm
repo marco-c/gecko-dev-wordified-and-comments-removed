@@ -975,6 +975,17 @@ filter
 element
 =
 >
+element
+.
+type
+!
+=
+"
+hidden
+"
+&
+&
+(
 !
 usernameField
 |
@@ -1015,6 +1026,7 @@ fieldName
 "
 email
 "
+)
 )
 )
 .
