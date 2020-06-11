@@ -202,6 +202,13 @@ OCSPStaplingServer
 n
 "
 "
+deadlock
+:
+BadCertAndPinningServer
+\
+n
+"
+"
 race
 :
 third_party
