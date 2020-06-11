@@ -4499,9 +4499,6 @@ property_error_message_fix
 "
 )
 ;
-#
-ifdef
-NIGHTLY_BUILD
 sWeakRefsEnabled
 =
 Preferences
@@ -4511,11 +4508,7 @@ GetBool
 (
 JS_OPTIONS_DOT_STR
 "
-experimental
-.
 weakrefs
-.
-enabled
 "
 )
 ;
@@ -4536,6 +4529,9 @@ expose_cleanupSome
 "
 )
 ;
+#
+ifdef
+NIGHTLY_BUILD
 sIteratorHelpersEnabled
 =
 Preferences

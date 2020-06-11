@@ -392,11 +392,7 @@ javascript
 .
 options
 .
-experimental
-.
 weakrefs
-.
-enabled
 "
 true
 )
