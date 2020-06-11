@@ -2509,9 +2509,6 @@ max
 0
 )
 ;
-#
-ifdef
-EARLY_BETA_OR_EARLIER
 pref
 (
 "
@@ -2524,8 +2521,6 @@ modernConfig
 true
 )
 ;
-#
-endif
 pref
 (
 "
