@@ -207,6 +207,8 @@ pairs_
 nullptr
 ;
 }
+public
+:
 void
 checkAgainst
 (
@@ -284,8 +286,6 @@ inputLength
 #
 endif
 }
-public
-:
 bool
 empty
 (
