@@ -2826,7 +2826,7 @@ target
 {
 let
 {
-outerWindowID
+frameId
 }
 =
 json
@@ -2835,7 +2835,7 @@ this
 .
 registerBrowser
 (
-outerWindowID
+frameId
 target
 )
 ;
@@ -2889,7 +2889,7 @@ resolve
 }
 return
 {
-outerWindowID
+frameId
 }
 ;
 }
@@ -2949,7 +2949,7 @@ msg
 .
 json
 .
-outerWindowID
+frameId
 =
 =
 =
@@ -12954,7 +12954,7 @@ Register
 :
 let
 {
-outerWindowID
+frameId
 }
 =
 message
@@ -12965,7 +12965,7 @@ this
 .
 registerBrowser
 (
-outerWindowID
+frameId
 message
 .
 target
@@ -12973,7 +12973,7 @@ target
 ;
 return
 {
-outerWindowID
+frameId
 }
 ;
 case
@@ -12989,7 +12989,7 @@ message
 .
 json
 .
-outerWindowID
+frameId
 =
 =
 =
