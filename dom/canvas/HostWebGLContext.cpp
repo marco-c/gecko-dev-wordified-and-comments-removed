@@ -580,6 +580,9 @@ HostWebGLContext
 GetFrontBuffer
 (
 const
+ObjectId
+fb
+const
 layers
 :
 :
@@ -594,6 +597,10 @@ mContext
 >
 GetFrontBuffer
 (
+AutoResolve
+(
+fb
+)
 t
 )
 ;
