@@ -9581,9 +9581,7 @@ chromeRealmOptions
 =
 mJSSettings
 .
-chrome
-.
-realmOptions
+chromeRealmOptions
 ;
 JS
 :
@@ -9594,9 +9592,7 @@ contentRealmOptions
 =
 mJSSettings
 .
-content
-.
-realmOptions
+contentRealmOptions
 ;
 JS
 :
