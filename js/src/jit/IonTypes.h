@@ -228,6 +228,7 @@ Bailout_TypeBarrierO
 Bailout_TypeBarrierV
 Bailout_MonitorTypes
 Bailout_Hole
+Bailout_NoDenseElementsGuard
 Bailout_NegativeIndex
 Bailout_NonIntegerIndex
 Bailout_ObjectIdentityOrTypeGuard
@@ -372,6 +373,14 @@ Bailout_Hole
 return
 "
 Bailout_Hole
+"
+;
+case
+Bailout_NoDenseElementsGuard
+:
+return
+"
+Bailout_NoDenseElementsGuard
 "
 ;
 case
