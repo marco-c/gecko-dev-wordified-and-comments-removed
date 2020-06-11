@@ -2110,7 +2110,7 @@ true
 }
 async
 function
-getFramePayload
+getMessagePayload
 (
 payload
 getLongString
@@ -2398,7 +2398,7 @@ getAbbreviatedMimeType
 getFileName
 getEndTime
 getFormattedProtocol
-getFramePayload
+getMessagePayload
 getRequestHeader
 getResponseHeader
 getResponseTime

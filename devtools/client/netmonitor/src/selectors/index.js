@@ -86,7 +86,7 @@ ui
 )
 ;
 const
-webSockets
+messages
 =
 require
 (
@@ -101,9 +101,7 @@ src
 /
 selectors
 /
-web
--
-sockets
+messages
 "
 )
 ;
@@ -116,6 +114,6 @@ search
 requests
 timingMarkers
 ui
-webSockets
+messages
 )
 ;

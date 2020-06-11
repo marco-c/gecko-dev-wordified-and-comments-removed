@@ -61,6 +61,11 @@ index
 js
 '
 '
+messages
+.
+js
+'
+'
 requests
 .
 js
@@ -79,13 +84,6 @@ js
 '
 '
 ui
-.
-js
-'
-'
-web
--
-sockets
 .
 js
 '

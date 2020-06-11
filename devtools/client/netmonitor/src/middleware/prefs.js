@@ -363,7 +363,7 @@ columns
 =
 state
 .
-webSockets
+messages
 ;
 for
 (
@@ -401,7 +401,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 visibleColumns
 "

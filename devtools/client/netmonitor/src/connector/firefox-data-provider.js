@@ -1514,7 +1514,7 @@ data
 {
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -1530,7 +1530,7 @@ data
 {
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -1538,7 +1538,7 @@ data
 ;
 }
 async
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -1555,7 +1555,7 @@ this
 .
 actions
 .
-addFrame
+addMessage
 )
 {
 await
@@ -1563,7 +1563,7 @@ this
 .
 actions
 .
-addFrame
+addMessage
 (
 httpChannelId
 data
@@ -2551,7 +2551,7 @@ data
 {
 this
 .
-addFrame
+addMessage
 (
 httpChannelId
 data

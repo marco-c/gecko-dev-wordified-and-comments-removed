@@ -71,6 +71,11 @@ index
 js
 '
 '
+messages
+.
+js
+'
+'
 request
 -
 blocking
@@ -106,13 +111,6 @@ js
 '
 '
 ui
-.
-js
-'
-'
-web
--
-sockets
 .
 js
 '

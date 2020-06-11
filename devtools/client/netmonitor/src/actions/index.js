@@ -146,7 +146,7 @@ ui
 )
 ;
 const
-webSockets
+messages
 =
 require
 (
@@ -161,9 +161,7 @@ src
 /
 actions
 /
-web
--
-sockets
+messages
 "
 )
 ;
@@ -222,7 +220,7 @@ selection
 sort
 timingMarkers
 ui
-webSockets
+messages
 requestBlocking
 )
 ;

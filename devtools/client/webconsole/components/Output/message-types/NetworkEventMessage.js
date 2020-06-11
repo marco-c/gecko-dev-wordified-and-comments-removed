@@ -863,7 +863,7 @@ id
 hideToggleButton
 :
 true
-showWebSocketsTab
+showMessagesTab
 :
 false
 }

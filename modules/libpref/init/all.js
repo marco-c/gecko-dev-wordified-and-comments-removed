@@ -40069,7 +40069,7 @@ devtools
 .
 netmonitor
 .
-ws
+msg
 .
 messageDataLimit
 "

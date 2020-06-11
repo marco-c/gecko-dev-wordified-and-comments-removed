@@ -29,7 +29,7 @@ SET_REQUEST_FILTER_TEXT
 SELECT_DETAILS_PANEL_TAB
 SEND_CUSTOM_REQUEST
 ENABLE_PERSISTENT_LOGS
-WS_SELECT_FRAME
+MSG_SELECT
 }
 =
 require
@@ -275,10 +275,10 @@ action
 type
 =
 =
-WS_SELECT_FRAME
+MSG_SELECT
 )
 {
-selectWSFrame
+selectMessage
 (
 {
 telemetry
@@ -630,7 +630,7 @@ sessionId
 ;
 }
 function
-selectWSFrame
+selectMessage
 (
 {
 telemetry
