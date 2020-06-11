@@ -115,7 +115,8 @@ central
 integration
 uses
 a
-blacklist
+skip
+list
 to
 exclude
 certain

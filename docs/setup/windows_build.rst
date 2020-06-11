@@ -2305,7 +2305,7 @@ you
 will
 need
 to
-whitelist
+add
 your
 source
 and
@@ -2322,6 +2322,10 @@ mozilla
 build
 directories
 )
+to
+the
+allow
+list
 in
 Windows
 Defender

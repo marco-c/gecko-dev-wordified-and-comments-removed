@@ -1813,7 +1813,7 @@ additional
 attributes
 they
 can
-whitelist
+allow
 them
 using
 :
