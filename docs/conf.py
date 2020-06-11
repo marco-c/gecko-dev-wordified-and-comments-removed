@@ -231,6 +231,10 @@ mermaid
 '
 recommonmark
 '
+    
+'
+sphinx_copybutton
+'
 ]
 js_source_path
 =
