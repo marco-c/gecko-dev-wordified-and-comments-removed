@@ -392,8 +392,13 @@ std
 :
 queue
 <
+mozilla
+:
+:
+UniquePtr
+<
 Message
-*
+>
 >
 output_queue_
 ;
