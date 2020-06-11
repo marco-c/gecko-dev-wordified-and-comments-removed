@@ -246,7 +246,6 @@ append_env
 =
 {
             
-b
 '
 PYTHONDONTWRITEBYTECODE
 '
@@ -272,7 +271,6 @@ executable
             
 append_env
 [
-b
 '
 PYTHONPATH
 '
