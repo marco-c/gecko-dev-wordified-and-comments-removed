@@ -381,9 +381,6 @@ right
 padding
 :
 0
-2px
-0
-0
 ;
 }
 .
@@ -422,11 +419,11 @@ break
 :
 clone
 ;
-margin
+padding
 -
 left
 :
-14px
+20px
 ;
 }
 .
