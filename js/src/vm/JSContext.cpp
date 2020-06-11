@@ -5115,6 +5115,11 @@ traceLogger
 }
 #
 endif
+if
+(
+isolate
+)
+{
 irregexp
 :
 :
@@ -5127,6 +5132,7 @@ ref
 )
 )
 ;
+}
 js_delete
 (
 atomsZoneFreeLists_
