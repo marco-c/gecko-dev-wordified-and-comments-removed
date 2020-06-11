@@ -1921,13 +1921,6 @@ freeze
 resourceTypes
 :
 {
-SETTINGS
-:
-Ci
-.
-nsIBrowserProfileMigrator
-.
-SETTINGS
 COOKIES
 :
 Ci
