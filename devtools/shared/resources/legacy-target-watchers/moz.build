@@ -58,15 +58,6 @@ DevToolsModules
 '
 legacy
 -
-frames
--
-watcher
-.
-js
-'
-'
-legacy
--
 processes
 -
 watcher
