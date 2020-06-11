@@ -2979,6 +2979,13 @@ have_clone
 checkout_root
 )
             
+self
+.
+_output_mozconfig
+(
+application
+)
+            
 sys
 .
 exit
@@ -3590,6 +3597,21 @@ print
 (
 MOZ_PHAB_ADVERTISE
 )
+        
+self
+.
+_output_mozconfig
+(
+application
+)
+    
+def
+_output_mozconfig
+(
+self
+application
+)
+:
         
 mozconfig
 =
