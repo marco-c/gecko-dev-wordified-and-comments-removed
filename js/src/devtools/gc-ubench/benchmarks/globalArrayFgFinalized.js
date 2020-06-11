@@ -85,7 +85,7 @@ defaultGarbagePiles
 defaultGarbagePerFrame
 :
 "
-1M
+48K
 "
 makeGarbage
 :

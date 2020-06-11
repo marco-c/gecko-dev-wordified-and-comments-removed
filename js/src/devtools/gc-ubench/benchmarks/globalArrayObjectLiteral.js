@@ -38,6 +38,16 @@ foo
 .
 ]
 "
+defaultGarbagePerFrame
+:
+"
+384K
+"
+defaultGarbagePiles
+:
+"
+1K
+"
 load
 :
 N
