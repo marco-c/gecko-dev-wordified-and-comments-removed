@@ -1,11 +1,6 @@
 DevToolsModules
 (
 '
-frame
-.
-js
-'
-'
 process
 .
 js

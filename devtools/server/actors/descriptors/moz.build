@@ -9,11 +9,6 @@ watcher
 DevToolsModules
 (
 '
-frame
-.
-js
-'
-'
 process
 .
 js
