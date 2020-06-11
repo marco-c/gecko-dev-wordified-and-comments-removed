@@ -423,10 +423,6 @@ ClearOnShutdown
 (
 &
 sSingleton
-ShutdownPhase
-:
-:
-ShutdownPostLastCycleCollection
 )
 ;
 }
