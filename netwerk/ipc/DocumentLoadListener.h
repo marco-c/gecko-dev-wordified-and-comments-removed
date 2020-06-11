@@ -815,6 +815,9 @@ aResult
 bool
 MaybeTriggerProcessSwitch
 (
+bool
+*
+aWillSwitchToRemote
 )
 ;
 RefPtr
