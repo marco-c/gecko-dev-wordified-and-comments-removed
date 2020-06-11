@@ -510,6 +510,11 @@ attribute
 ACString
 exposableSpec
 ;
+readonly
+attribute
+ACString
+scheme
+;
 boolean
 schemeIs
 (
