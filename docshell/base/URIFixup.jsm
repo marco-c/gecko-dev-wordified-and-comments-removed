@@ -729,7 +729,7 @@ defineLazyGetter
 (
 this
 "
-domainsWhitelist
+knownDomains
 "
 (
 )
@@ -893,7 +893,7 @@ defineLazyGetter
 (
 this
 "
-suffixesWhitelist
+knownSuffixes
 "
 (
 )
@@ -2347,7 +2347,7 @@ return
 info
 ;
 }
-isDomainWhitelisted
+isDomainKnown
 classID
 :
 Components
@@ -2666,7 +2666,7 @@ nsIURIFixupInfo
 }
 ;
 function
-isDomainWhitelisted
+isDomainKnown
 (
 asciiHost
 )
@@ -2732,7 +2732,7 @@ lastIndexOf
 }
 if
 (
-domainsWhitelist
+knownDomains
 .
 has
 (
@@ -2775,7 +2775,7 @@ lastDotIndex
 let
 suffixes
 =
-suffixesWhitelist
+knownSuffixes
 .
 get
 (
@@ -2861,7 +2861,7 @@ endsWith
 )
 |
 |
-isDomainWhitelisted
+isDomainKnown
 (
 asciiHost
 )
@@ -3922,7 +3922,7 @@ asciiHost
 &
 &
 (
-isDomainWhitelisted
+isDomainKnown
 (
 asciiHost
 )
@@ -4114,7 +4114,7 @@ if
 asciiHost
 &
 &
-isDomainWhitelisted
+isDomainKnown
 (
 asciiHost
 )
