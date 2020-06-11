@@ -46,7 +46,6 @@ Copy
 Hash
 )
 ]
-pub
 struct
 Key
 {
@@ -60,7 +59,6 @@ SourceLocation
 impl
 Key
 {
-pub
 fn
 new
 <

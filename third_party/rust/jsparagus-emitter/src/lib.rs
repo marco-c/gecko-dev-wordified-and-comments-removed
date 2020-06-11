@@ -176,8 +176,9 @@ let
 ScopePassResult
 {
 scope_data_map
-function_map
+function_declarations
 function_stencil_indices
+function_declaration_properties
 functions
 }
 =
@@ -200,8 +201,9 @@ new
 atoms
 slices
 scope_data_map
-function_map
+function_declarations
 function_stencil_indices
+function_declaration_properties
 functions
 )
 ;
