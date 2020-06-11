@@ -1309,9 +1309,6 @@ venv
 prompt
 =
 True
-sub_product
-=
-None
 )
 :
         
@@ -1337,12 +1334,6 @@ self
 prompt
 =
 prompt
-        
-self
-.
-sub_product
-=
-sub_product
     
 def
 prompt_install
@@ -4381,34 +4372,56 @@ kwargs
 )
 :
         
+if
 kwargs
-.
-set_if_none
-(
+[
 "
 sauce_browser
 "
-self
-.
-sub_product
-[
-0
 ]
+is
+None
+:
+            
+raise
+WptrunError
+(
+"
+Missing
+required
+argument
+-
+-
+sauce
+-
+browser
+"
 )
         
+if
 kwargs
-.
-set_if_none
-(
+[
 "
 sauce_version
 "
-self
-.
-sub_product
-[
-1
 ]
+is
+None
+:
+            
+raise
+WptrunError
+(
+"
+Missing
+required
+argument
+-
+-
+sauce
+-
+version
+"
 )
         
 kwargs
@@ -5133,22 +5146,6 @@ kwargs
 )
 )
     
-product_parts
-=
-kwargs
-[
-"
-product
-"
-]
-.
-split
-(
-"
-:
-"
-)
-    
 kwargs
 [
 "
@@ -5156,9 +5153,11 @@ product
 "
 ]
 =
-product_parts
+kwargs
 [
-0
+"
+product
+"
 ]
 .
 replace
@@ -5170,14 +5169,6 @@ replace
 _
 "
 )
-    
-sub_product
-=
-product_parts
-[
-1
-:
-]
     
 check_environ
 (
@@ -5238,7 +5229,6 @@ product
 (
 venv
 prompt
-sub_product
 )
     
 setup_cls
