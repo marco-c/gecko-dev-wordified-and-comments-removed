@@ -78,28 +78,6 @@ EX_SOFTWARE
 EX_USAGE
 =
 64
-DEFAULT_REPO
-=
-"
-https
-:
-/
-/
-github
-.
-com
-/
-andreastt
-/
-puppeteer
-.
-git
-"
-DEFAULT_COMMITISH
-=
-"
-firefox
-"
 def
 setup
 (
@@ -325,9 +303,9 @@ metavar
 REPO
 "
                      
-default
+required
 =
-DEFAULT_REPO
+True
                      
 help
 =
@@ -343,19 +321,6 @@ clone
 from
 .
 "
-                          
-"
-Defaults
-to
-{
-}
-.
-"
-.
-format
-(
-DEFAULT_REPO
-)
 )
     
 CommandArgument
@@ -372,9 +337,9 @@ metavar
 COMMITISH
 "
                      
-default
+required
 =
-DEFAULT_COMMITISH
+True
                      
 help
 =
@@ -390,23 +355,6 @@ check
 out
 .
 "
-                          
-"
-Defaults
-to
-\
-"
-{
-}
-\
-"
-.
-"
-.
-format
-(
-DEFAULT_COMMITISH
-)
 )
     
 def
@@ -567,6 +515,38 @@ OSError
 :
             
 pass
+        
+experimental_dir
+=
+os
+.
+path
+.
+join
+(
+puppeteerdir
+"
+experimental
+"
+)
+        
+if
+os
+.
+path
+.
+isdir
+(
+experimental_dir
+)
+:
+            
+shutil
+.
+rmtree
+(
+experimental_dir
+)
         
 import
 yaml
