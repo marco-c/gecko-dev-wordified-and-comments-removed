@@ -266,6 +266,16 @@ disableFuzzingDelay
 "
 :
 True
+                
+"
+app
+.
+normandy
+.
+enabled
+"
+:
+False
             
 }
         
