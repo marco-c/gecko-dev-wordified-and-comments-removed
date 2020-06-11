@@ -865,6 +865,17 @@ ClearAll
 (
 )
 ;
+void
+CollectKeys
+(
+nsTArray
+<
+nsCString
+>
+&
+aValue
+)
+;
 private
 :
 nsHttpAuthNode

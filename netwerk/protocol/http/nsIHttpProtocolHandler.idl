@@ -119,6 +119,17 @@ ACString
 altSvcCacheKeys
 ;
 [
+must_use
+]
+readonly
+attribute
+Array
+<
+ACString
+>
+authCacheKeys
+;
+[
 implicit_jscontext
 ]
 Promise
