@@ -809,11 +809,11 @@ networkMessageActiveTabId
 request
 :
 networkMessageUpdate
-sourceMapService
+sourceMapURLService
 :
 serviceContainer
 .
-sourceMapService
+sourceMapURLService
 openLink
 :
 serviceContainer

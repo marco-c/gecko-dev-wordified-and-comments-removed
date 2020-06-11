@@ -79,7 +79,7 @@ resendNetworkRequest
 >
 {
 }
-sourceMapService
+sourceMapURLService
 :
 {
 subscribe

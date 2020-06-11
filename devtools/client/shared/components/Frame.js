@@ -279,7 +279,7 @@ showFullSourceUrl
 PropTypes
 .
 bool
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .
@@ -365,7 +365,7 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 )
 {
 const
@@ -389,7 +389,7 @@ this
 .
 props
 .
-sourceMapService
+sourceMapURLService
 .
 subscribe
 (

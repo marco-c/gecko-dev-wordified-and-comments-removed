@@ -300,7 +300,7 @@ container
 "
 ;
 const
-sourceMapService
+sourceMapURLService
 =
 this
 .
@@ -719,7 +719,7 @@ ready
 }
 }
 ;
-sourceMapService
+sourceMapURLService
 .
 subscribe
 (
@@ -2143,7 +2143,7 @@ _debugClicked
 ;
 }
 const
-sourceMapService
+sourceMapURLService
 =
 this
 .
@@ -2161,7 +2161,7 @@ this
 _subscriptions
 )
 {
-sourceMapService
+sourceMapURLService
 .
 unsubscribe
 (

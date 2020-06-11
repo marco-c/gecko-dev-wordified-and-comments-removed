@@ -221,7 +221,7 @@ activeTabId
 cloneSelectedRequest
 request
 selectTab
-sourceMapService
+sourceMapURLService
 toggleNetworkDetails
 openNetworkDetails
 openLink
@@ -267,7 +267,7 @@ connector
 openLink
 request
 selectTab
-sourceMapService
+sourceMapURLService
 toggleNetworkDetails
 openNetworkDetails
 targetSearchResult
@@ -333,7 +333,7 @@ PropTypes
 func
 .
 isRequired
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .

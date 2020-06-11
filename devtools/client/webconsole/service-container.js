@@ -347,7 +347,7 @@ assign
 (
 serviceContainer
 {
-sourceMapService
+sourceMapURLService
 :
 toolbox
 .

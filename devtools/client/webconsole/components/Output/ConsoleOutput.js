@@ -261,7 +261,7 @@ PropTypes
 func
 .
 isRequired
-sourceMapService
+sourceMapURLService
 :
 PropTypes
 .

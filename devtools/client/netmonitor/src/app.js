@@ -337,7 +337,7 @@ this
 api
 ;
 const
-sourceMapService
+sourceMapURLService
 =
 toolbox
 .
@@ -353,7 +353,7 @@ actions
 connector
 openLink
 openSplitConsole
-sourceMapService
+sourceMapURLService
 toolboxDoc
 :
 toolbox
