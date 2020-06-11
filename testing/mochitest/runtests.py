@@ -21295,11 +21295,15 @@ log
 line
 =
 message
-[
+.
+get
+(
 '
 message
 '
-]
+'
+'
+)
             
 elif
 message
@@ -21318,11 +21322,15 @@ process_output
 line
 =
 message
-[
+.
+get
+(
 '
 data
 '
-]
+'
+'
+)
             
 else
 :
