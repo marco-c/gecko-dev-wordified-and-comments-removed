@@ -690,8 +690,10 @@ mFlags
 bool
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 )
 ;
@@ -703,8 +705,10 @@ Value
 void
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 ActorIdType
 aActorId
@@ -741,7 +745,13 @@ if
 !
 Send
 (
+std
+:
+:
+move
+(
 aMsg
+)
 )
 )
 {

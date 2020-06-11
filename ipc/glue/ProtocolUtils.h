@@ -1144,10 +1144,12 @@ GetIPCChannel
 >
 Send
 (
-msg
-.
-release
+std
+:
+:
+move
 (
+msg
 )
 this
 std

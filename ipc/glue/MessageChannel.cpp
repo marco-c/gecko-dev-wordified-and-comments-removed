@@ -4052,8 +4052,10 @@ MessageChannel
 :
 Send
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 )
 {
@@ -4206,15 +4208,10 @@ frame
 this
 OUT_MESSAGE
 aMsg
-)
-;
-UniquePtr
-<
-Message
->
-msg
+.
+get
 (
-aMsg
+)
 )
 ;
 AssertWorkerThread
@@ -4233,7 +4230,7 @@ if
 MSG_ROUTING_NONE
 =
 =
-msg
+aMsg
 -
 >
 routing_id
@@ -4257,7 +4254,7 @@ false
 }
 if
 (
-msg
+aMsg
 -
 >
 seqno
@@ -4268,7 +4265,7 @@ seqno
 0
 )
 {
-msg
+aMsg
 -
 >
 set_seqno
@@ -4299,7 +4296,7 @@ ReportConnectionError
 "
 MessageChannel
 "
-msg
+aMsg
 .
 get
 (
@@ -4312,7 +4309,7 @@ false
 }
 AddProfilerMarker
 (
-msg
+aMsg
 .
 get
 (
@@ -4330,7 +4327,7 @@ std
 :
 move
 (
-msg
+aMsg
 )
 )
 ;
