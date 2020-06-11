@@ -434,3 +434,17 @@ delegate
 true
 )
 ;
+pref
+(
+"
+webextensions
+.
+storage
+.
+sync
+.
+kinto
+"
+true
+)
+;
