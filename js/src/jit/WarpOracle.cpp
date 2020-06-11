@@ -3129,7 +3129,7 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 case
 JSOp

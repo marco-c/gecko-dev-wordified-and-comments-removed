@@ -16059,7 +16059,7 @@ DelElem
 )
 CASE
 (
-ToId
+ToPropertyKey
 )
 {
 ReservedRooted
@@ -16093,7 +16093,7 @@ stackHandleAt
 if
 (
 !
-ToIdOperation
+ToPropertyKeyOperation
 (
 cx
 idval
@@ -16108,7 +16108,7 @@ error
 }
 END_CASE
 (
-ToId
+ToPropertyKey
 )
 CASE
 (

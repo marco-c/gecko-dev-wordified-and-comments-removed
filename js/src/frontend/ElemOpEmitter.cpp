@@ -254,7 +254,7 @@ emit1
 JSOp
 :
 :
-ToId
+ToPropertyKey
 )
 )
 {
@@ -654,7 +654,7 @@ emit1
 JSOp
 :
 :
-ToId
+ToPropertyKey
 )
 )
 {

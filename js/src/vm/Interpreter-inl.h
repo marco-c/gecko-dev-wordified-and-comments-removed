@@ -2281,7 +2281,7 @@ res
 static
 MOZ_ALWAYS_INLINE
 bool
-ToIdOperation
+ToPropertyKeyOperation
 (
 JSContext
 *

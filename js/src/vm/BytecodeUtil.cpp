@@ -11291,13 +11291,13 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 return
 write
 (
 "
-TOID
+TOPROPERTYKEY
 (
 "
 )

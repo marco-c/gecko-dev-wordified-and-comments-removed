@@ -8323,7 +8323,7 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 case
 JSOp
@@ -12086,10 +12086,10 @@ case
 JSOp
 :
 :
-ToId
+ToPropertyKey
 :
 return
-jsop_toid
+jsop_topropertykey
 (
 )
 ;
@@ -65398,7 +65398,7 @@ Ok
 IonBuilder
 :
 :
-jsop_toid
+jsop_topropertykey
 (
 )
 {

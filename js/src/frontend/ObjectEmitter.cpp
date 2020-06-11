@@ -863,7 +863,7 @@ emit1
 JSOp
 :
 :
-ToId
+ToPropertyKey
 )
 )
 {

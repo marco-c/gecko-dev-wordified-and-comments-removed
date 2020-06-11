@@ -8223,7 +8223,7 @@ bool
 WarpBuilder
 :
 :
-build_ToId
+build_ToPropertyKey
 (
 BytecodeLocation
 loc
