@@ -283,6 +283,10 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
+const
+int64_t
+&
+aRequestSize
 )
 ;
 mozilla
@@ -500,6 +504,10 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
+const
+int64_t
+&
+aRequestSize
 )
 ;
 void
