@@ -15,6 +15,13 @@ exoplayer2
 .
 decoder
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 public
 interface
 Decoder
@@ -31,6 +38,7 @@ getName
 (
 )
 ;
+Nullable
 I
 dequeueInputBuffer
 (
@@ -47,6 +55,7 @@ inputBuffer
 throws
 E
 ;
+Nullable
 O
 dequeueOutputBuffer
 (

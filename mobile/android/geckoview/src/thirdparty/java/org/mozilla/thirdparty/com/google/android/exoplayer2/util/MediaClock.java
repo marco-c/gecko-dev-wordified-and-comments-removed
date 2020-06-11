@@ -41,7 +41,7 @@ getPositionUs
 (
 )
 ;
-PlaybackParameters
+void
 setPlaybackParameters
 (
 PlaybackParameters

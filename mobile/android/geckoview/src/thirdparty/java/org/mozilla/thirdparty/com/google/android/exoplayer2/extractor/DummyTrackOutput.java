@@ -16,6 +16,13 @@ exoplayer2
 extractor
 ;
 import
+androidx
+.
+annotation
+.
+Nullable
+;
+import
 org
 .
 mozilla
@@ -192,10 +199,9 @@ int
 size
 int
 offset
-byte
-[
-]
-encryptionKey
+Nullable
+CryptoData
+cryptoData
 )
 {
 }

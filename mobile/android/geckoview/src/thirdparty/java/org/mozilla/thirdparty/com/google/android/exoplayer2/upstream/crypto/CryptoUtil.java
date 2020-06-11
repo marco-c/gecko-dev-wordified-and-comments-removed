@@ -17,6 +17,13 @@ upstream
 .
 crypto
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 final
 class
 CryptoUtil
@@ -32,6 +39,7 @@ static
 long
 getFNV64Hash
 (
+Nullable
 String
 input
 )

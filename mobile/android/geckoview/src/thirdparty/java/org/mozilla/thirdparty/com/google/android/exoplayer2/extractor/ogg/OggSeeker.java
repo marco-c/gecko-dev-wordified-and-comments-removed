@@ -70,11 +70,11 @@ createSeekMap
 (
 )
 ;
-long
+void
 startSeek
 (
 long
-timeUs
+targetGranule
 )
 ;
 long

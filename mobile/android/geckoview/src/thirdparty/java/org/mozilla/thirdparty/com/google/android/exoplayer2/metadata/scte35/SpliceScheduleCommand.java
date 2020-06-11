@@ -142,7 +142,7 @@ autoReturn
 public
 final
 long
-breakDuration
+breakDurationUs
 ;
 public
 final
@@ -180,7 +180,7 @@ utcSpliceTime
 boolean
 autoReturn
 long
-breakDuration
+breakDurationUs
 int
 uniqueProgramId
 int
@@ -238,9 +238,9 @@ autoReturn
 ;
 this
 .
-breakDuration
+breakDurationUs
 =
-breakDuration
+breakDurationUs
 ;
 this
 .
@@ -405,7 +405,7 @@ readByte
 ;
 this
 .
-breakDuration
+breakDurationUs
 =
 in
 .
@@ -529,7 +529,7 @@ autoReturn
 false
 ;
 long
-duration
+breakDurationUs
 =
 C
 .
@@ -696,7 +696,8 @@ firstByte
 =
 0
 ;
-duration
+long
+breakDuration90khz
 =
 (
 (
@@ -714,6 +715,14 @@ sectionData
 readUnsignedInt
 (
 )
+;
+breakDurationUs
+=
+breakDuration90khz
+*
+1000
+/
+90
 ;
 }
 uniqueProgramId
@@ -752,7 +761,7 @@ programSpliceFlag
 componentSplices
 utcSpliceTime
 autoReturn
-duration
+breakDurationUs
 uniqueProgramId
 availNum
 availsExpected
@@ -894,7 +903,7 @@ dest
 .
 writeLong
 (
-breakDuration
+breakDurationUs
 )
 ;
 dest

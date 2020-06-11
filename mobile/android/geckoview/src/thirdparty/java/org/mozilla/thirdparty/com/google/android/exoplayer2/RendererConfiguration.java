@@ -13,6 +13,13 @@ android
 .
 exoplayer2
 ;
+import
+androidx
+.
+annotation
+.
+Nullable
+;
 public
 final
 class
@@ -56,6 +63,7 @@ public
 boolean
 equals
 (
+Nullable
 Object
 obj
 )

@@ -2217,4 +2217,10 @@ yellowgreen
 )
 ;
 }
+private
+ColorParser
+(
+)
+{
+}
 }

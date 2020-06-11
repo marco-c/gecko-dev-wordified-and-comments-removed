@@ -102,7 +102,7 @@ boolean
 formatRequired
 )
 ;
-void
+int
 skipData
 (
 long

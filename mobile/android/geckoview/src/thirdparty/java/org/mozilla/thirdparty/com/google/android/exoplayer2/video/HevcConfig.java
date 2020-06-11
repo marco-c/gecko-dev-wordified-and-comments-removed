@@ -16,6 +16,13 @@ exoplayer2
 video
 ;
 import
+androidx
+.
+annotation
+.
+Nullable
+;
+import
 org
 .
 mozilla
@@ -89,6 +96,7 @@ final
 class
 HevcConfig
 {
+Nullable
 public
 final
 List
@@ -425,6 +433,7 @@ e
 private
 HevcConfig
 (
+Nullable
 List
 <
 byte

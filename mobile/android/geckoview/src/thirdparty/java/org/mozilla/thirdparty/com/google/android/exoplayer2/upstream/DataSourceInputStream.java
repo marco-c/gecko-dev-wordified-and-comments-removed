@@ -16,9 +16,7 @@ exoplayer2
 upstream
 ;
 import
-android
-.
-support
+androidx
 .
 annotation
 .

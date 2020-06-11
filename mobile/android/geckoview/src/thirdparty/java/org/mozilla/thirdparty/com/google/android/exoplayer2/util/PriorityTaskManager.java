@@ -284,10 +284,15 @@ Integer
 .
 MIN_VALUE
 :
+Util
+.
+castNonNull
+(
 queue
 .
 peek
 (
+)
 )
 ;
 lock

@@ -19,11 +19,4 @@ public
 interface
 ExoMediaCrypto
 {
-boolean
-requiresSecureDecoderComponent
-(
-String
-mimeType
-)
-;
 }

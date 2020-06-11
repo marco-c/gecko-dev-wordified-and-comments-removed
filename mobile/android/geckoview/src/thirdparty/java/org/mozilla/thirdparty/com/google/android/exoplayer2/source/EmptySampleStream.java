@@ -133,12 +133,15 @@ RESULT_BUFFER_READ
 }
 Override
 public
-void
+int
 skipData
 (
 long
 positionUs
 )
 {
+return
+0
+;
 }
 }

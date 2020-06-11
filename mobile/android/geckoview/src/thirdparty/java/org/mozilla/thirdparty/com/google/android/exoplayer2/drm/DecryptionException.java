@@ -21,7 +21,7 @@ DecryptionException
 extends
 Exception
 {
-private
+public
 final
 int
 errorCode
@@ -44,16 +44,6 @@ this
 .
 errorCode
 =
-errorCode
-;
-}
-public
-int
-getErrorCode
-(
-)
-{
-return
 errorCode
 ;
 }

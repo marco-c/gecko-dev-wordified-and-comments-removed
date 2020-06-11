@@ -66,7 +66,7 @@ timestampOffsetUs
 private
 volatile
 long
-lastSampleTimestamp
+lastSampleTimestampUs
 ;
 public
 TimestampAdjuster
@@ -75,7 +75,7 @@ long
 firstSampleTimestampUs
 )
 {
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 C
 .
@@ -100,7 +100,7 @@ Assertions
 .
 checkState
 (
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 =
 C
@@ -132,14 +132,18 @@ getLastAdjustedTimestampUs
 )
 {
 return
-lastSampleTimestamp
+lastSampleTimestampUs
 !
 =
 C
 .
 TIME_UNSET
 ?
-lastSampleTimestamp
+(
+lastSampleTimestampUs
++
+timestampOffsetUs
+)
 :
 firstSampleTimestampUs
 !
@@ -167,7 +171,7 @@ DO_NOT_OFFSET
 ?
 0
 :
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 =
 C
@@ -187,7 +191,7 @@ reset
 (
 )
 {
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 C
 .
@@ -199,12 +203,12 @@ long
 adjustTsTimestamp
 (
 long
-pts
+pts90Khz
 )
 {
 if
 (
-pts
+pts90Khz
 =
 =
 C
@@ -220,7 +224,7 @@ TIME_UNSET
 }
 if
 (
-lastSampleTimestamp
+lastSampleTimestampUs
 !
 =
 C
@@ -233,7 +237,7 @@ lastPts
 =
 usToPts
 (
-lastSampleTimestamp
+lastSampleTimestampUs
 )
 ;
 long
@@ -254,7 +258,7 @@ MAX_PTS_PLUS_ONE
 long
 ptsWrapBelow
 =
-pts
+pts90Khz
 +
 (
 MAX_PTS_PLUS_ONE
@@ -269,7 +273,7 @@ closestWrapCount
 long
 ptsWrapAbove
 =
-pts
+pts90Khz
 +
 (
 MAX_PTS_PLUS_ONE
@@ -277,7 +281,7 @@ MAX_PTS_PLUS_ONE
 closestWrapCount
 )
 ;
-pts
+pts90Khz
 =
 Math
 .
@@ -307,7 +311,7 @@ adjustSampleTimestamp
 (
 ptsToUs
 (
-pts
+pts90Khz
 )
 )
 ;
@@ -338,7 +342,7 @@ TIME_UNSET
 }
 if
 (
-lastSampleTimestamp
+lastSampleTimestampUs
 !
 =
 C
@@ -346,7 +350,7 @@ C
 TIME_UNSET
 )
 {
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 timeUs
 ;
@@ -373,7 +377,7 @@ synchronized
 this
 )
 {
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 timeUs
 ;
@@ -400,7 +404,7 @@ InterruptedException
 {
 while
 (
-lastSampleTimestamp
+lastSampleTimestampUs
 =
 =
 C
