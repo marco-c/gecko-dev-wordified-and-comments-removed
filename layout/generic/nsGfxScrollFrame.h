@@ -1858,7 +1858,7 @@ mLastSmoothScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 ;
 }
 }

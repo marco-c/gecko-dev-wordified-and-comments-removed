@@ -4036,7 +4036,7 @@ LastSmoothScrollOrigin
 ScrollOrigin
 :
 :
-NotSpecified
+None
 ;
 }
 void
