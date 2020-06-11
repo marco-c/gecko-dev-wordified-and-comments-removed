@@ -998,6 +998,7 @@ return
 1
 ;
 }
+static
 bool
 IsInvisibleNodeAndShouldBeSkipped
 (
@@ -1005,12 +1006,14 @@ const
 nsINode
 &
 aNode
-)
 const
+uint32_t
+aFlags
+)
 {
 if
 (
-mFlags
+aFlags
 &
 SkipInvisibleContent
 )
@@ -2677,6 +2680,7 @@ if
 IsInvisibleNodeAndShouldBeSkipped
 (
 aOriginalNode
+mFlags
 )
 )
 {
@@ -3030,6 +3034,7 @@ if
 IsInvisibleNodeAndShouldBeSkipped
 (
 aOriginalNode
+mFlags
 )
 )
 {
@@ -3163,6 +3168,7 @@ IsInvisibleNodeAndShouldBeSkipped
 (
 *
 aNode
+mFlags
 )
 )
 {
@@ -3639,6 +3645,7 @@ IsInvisibleNodeAndShouldBeSkipped
 (
 *
 aNode
+mFlags
 )
 )
 {
@@ -4769,6 +4776,7 @@ IsInvisibleNodeAndShouldBeSkipped
 (
 *
 parent
+mFlags
 )
 )
 {
