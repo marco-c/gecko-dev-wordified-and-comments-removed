@@ -79,9 +79,13 @@ nsCycleCollectionParticipant
 .
 h
 "
-class
+#
+include
+"
 nsPresContext
-;
+.
+h
+"
 class
 nsRefreshDriver
 ;

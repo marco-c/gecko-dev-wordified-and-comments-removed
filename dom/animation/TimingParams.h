@@ -7,6 +7,13 @@ mozilla_TimingParams_h
 #
 include
 "
+nsPrintfCString
+.
+h
+"
+#
+include
+"
 nsStringFwd
 .
 h
