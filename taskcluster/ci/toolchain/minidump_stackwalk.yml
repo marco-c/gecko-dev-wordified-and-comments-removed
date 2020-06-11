@@ -67,6 +67,13 @@ minidump_stackwalk
 toolchain
 build
 "
+attributes
+:
+local
+-
+toolchain
+:
+true
 worker
 -
 type

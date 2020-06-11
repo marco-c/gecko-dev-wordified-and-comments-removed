@@ -68,6 +68,13 @@ Clang
 tidy
 build
 "
+attributes
+:
+local
+-
+toolchain
+:
+true
 index
 :
 product

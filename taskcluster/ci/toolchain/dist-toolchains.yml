@@ -70,6 +70,13 @@ toolchain
 archive
 build
 "
+attributes
+:
+local
+-
+toolchain
+:
+true
 worker
 -
 type
