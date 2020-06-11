@@ -9,11 +9,11 @@ from
 base
 import
 WdspecExecutor
-WdspecProtocol
+WebDriverProtocol
 class
 OperaDriverProtocol
 (
-WdspecProtocol
+WebDriverProtocol
 )
 :
     
