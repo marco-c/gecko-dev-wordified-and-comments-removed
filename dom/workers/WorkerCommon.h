@@ -127,7 +127,7 @@ aWindow
 )
 ;
 void
-PropagateFirstPartyStorageAccessGrantedToWorkers
+PropagateStorageAccessPermissionGrantedToWorkers
 (
 nsPIDOMWindowInner
 *
