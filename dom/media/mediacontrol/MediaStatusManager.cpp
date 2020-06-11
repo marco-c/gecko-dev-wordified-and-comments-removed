@@ -561,6 +561,19 @@ mMetadata
 aMetadata
 ;
 }
+if
+(
+!
+mActiveMediaSessionContextId
+|
+|
+*
+mActiveMediaSessionContextId
+=
+=
+aBrowsingContextId
+)
+{
 mMetadataChangedEvent
 .
 Notify
@@ -570,6 +583,7 @@ GetCurrentMediaMetadata
 )
 )
 ;
+}
 if
 (
 StaticPrefs
