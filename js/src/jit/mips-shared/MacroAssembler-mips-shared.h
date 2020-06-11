@@ -481,6 +481,15 @@ imm
 )
 ;
 void
+ma_wsbh
+(
+Register
+rd
+Register
+rt
+)
+;
+void
 ma_ctz
 (
 Register
