@@ -657,10 +657,6 @@ thread_state
 ;
 pub
 mod
-timer
-;
-pub
-mod
 traversal
 ;
 pub
