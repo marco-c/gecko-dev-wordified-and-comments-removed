@@ -63,16 +63,6 @@ gcp
     
 r
 '
-build
--
-.
-*
--
-aarch64
-'
-    
-r
-'
 mingwclang
 '
     
