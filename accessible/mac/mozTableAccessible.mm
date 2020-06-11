@@ -153,7 +153,7 @@ AsTable
 (
 )
 ;
-NSAssert
+MOZ_ASSERT
 (
 table
 "
