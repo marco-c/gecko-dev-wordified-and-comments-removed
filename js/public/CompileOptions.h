@@ -193,11 +193,6 @@ nonSyntacticScope
 =
 false
 ;
-bool
-privateClassFields
-=
-false
-;
 const
 char
 *

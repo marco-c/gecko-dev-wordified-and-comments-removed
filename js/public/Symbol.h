@@ -192,9 +192,6 @@ Limit
 WellKnownAPILimit
 =
 0x80000000
-PrivateNameSymbol
-=
-0xfffffffd
 InSymbolRegistry
 =
 0xfffffffe
