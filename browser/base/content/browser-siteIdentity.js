@@ -23,7 +23,7 @@ null
 _state
 :
 0
-_secureInternalUIWhitelist
+_secureInternalPages
 :
 /
 ^
@@ -4334,7 +4334,7 @@ about
 &
 this
 .
-_secureInternalUIWhitelist
+_secureInternalPages
 .
 test
 (
