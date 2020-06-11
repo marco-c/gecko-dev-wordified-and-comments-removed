@@ -1758,7 +1758,7 @@ central
 "
     
 import
-urllib
+requests
     
 from
 taskgraph
@@ -1981,14 +1981,29 @@ filename
 )
 )
         
-f
+resp
 =
-urllib
+requests
 .
-urlopen
+get
 (
 filename
+stream
+=
+True
 )
+        
+resp
+.
+raise_for_status
+(
+)
+        
+f
+=
+resp
+.
+raw
     
 if
 filename
