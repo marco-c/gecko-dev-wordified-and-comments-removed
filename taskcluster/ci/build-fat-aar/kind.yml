@@ -672,3 +672,13 @@ py
 taskcluster_nightly
 .
 py
+optimization
+:
+push
+-
+interval
+-
+25
+:
+-
+android
