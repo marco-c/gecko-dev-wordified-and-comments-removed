@@ -9334,6 +9334,13 @@ funbox
 -
 >
 wasEmitted
+&
+&
+!
+funbox
+-
+>
+isStandalone
 )
 {
 continue
@@ -10609,6 +10616,13 @@ null
 )
 ;
 }
+funbox
+-
+>
+isStandalone
+=
+true
+;
 MOZ_ASSERT
 (
 enclosingScope

@@ -1415,6 +1415,11 @@ emitBytecode
 1
 ;
 bool
+isStandalone
+:
+1
+;
+bool
 wasEmitted
 :
 1
