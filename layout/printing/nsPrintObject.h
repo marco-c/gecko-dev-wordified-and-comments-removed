@@ -139,13 +139,6 @@ DestroyPresentation
 )
 ;
 void
-SetPrintAsIs
-(
-bool
-aAsIs
-)
-;
-void
 EnablePrinting
 (
 bool
@@ -234,9 +227,6 @@ mParent
 ;
 bool
 mHasBeenPrinted
-;
-bool
-mPrintAsIs
 ;
 bool
 mInvisible
