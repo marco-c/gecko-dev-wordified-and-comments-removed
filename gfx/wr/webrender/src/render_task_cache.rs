@@ -813,7 +813,7 @@ uv_rect_kind
 Eviction
 :
 :
-Auto
+Eager
 )
 ;
 let
