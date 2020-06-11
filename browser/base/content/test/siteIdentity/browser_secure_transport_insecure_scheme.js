@@ -155,14 +155,14 @@ is
 (
 identityMode
 "
-unknownIdentity
+localResource
 "
 "
 identity
 should
 be
 '
-unknown
+localResource
 '
 "
 )
