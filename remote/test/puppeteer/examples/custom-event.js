@@ -48,7 +48,9 @@ exposeFunction
 '
 onCustomEvent
 '
+(
 e
+)
 =
 >
 {
@@ -85,7 +87,9 @@ page
 .
 evaluateOnNewDocument
 (
+(
 type
+)
 =
 >
 {
@@ -94,7 +98,9 @@ document
 addEventListener
 (
 type
+(
 e
+)
 =
 >
 {

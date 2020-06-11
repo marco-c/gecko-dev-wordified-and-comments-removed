@@ -920,7 +920,9 @@ on
 '
 error
 '
+(
 err
+)
 =
 >
 reject
@@ -936,7 +938,9 @@ on
 '
 exit
 '
+(
 code
+)
 =
 >
 resolve
@@ -1487,13 +1491,17 @@ on
 '
 data
 '
+(
 chunk
+)
 =
 >
+(
 result
 +
 =
 chunk
+)
 )
 ;
 res
@@ -1528,7 +1536,9 @@ on
 '
 error
 '
+(
 err
+)
 =
 >
 reject

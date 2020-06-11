@@ -30,7 +30,9 @@ addEventListener
 '
 message
 '
+(
 event
+)
 =
 >
 {
@@ -79,7 +81,9 @@ await
 new
 Promise
 (
+(
 x
+)
 =
 >
 setTimeout

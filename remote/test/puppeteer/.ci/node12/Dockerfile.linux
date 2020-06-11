@@ -37,6 +37,7 @@ libdbus
 3
 libexpat1
 libfontconfig1
+libgbm1
 libgcc1
 libgconf
 -

@@ -285,7 +285,9 @@ addEventListener
 '
 mousemove
 '
+(
 event
+)
 =
 >
 {
@@ -335,7 +337,9 @@ addEventListener
 '
 mousedown
 '
+(
 event
+)
 =
 >
 {
@@ -373,7 +377,9 @@ addEventListener
 '
 mouseup
 '
+(
 event
+)
 =
 >
 {

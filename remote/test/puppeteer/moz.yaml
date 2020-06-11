@@ -27,7 +27,7 @@ name
 puppeteer
 release
 :
-firefox
+8ba36752e735b245baf4915cff341d2b85a83161
 url
 :
 https
@@ -38,7 +38,7 @@ github
 .
 com
 /
-andreastt
+mjzffr
 /
 puppeteer
 .

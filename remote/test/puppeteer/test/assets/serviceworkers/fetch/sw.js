@@ -5,7 +5,9 @@ addEventListener
 '
 fetch
 '
+(
 event
+)
 =
 >
 {
@@ -31,7 +33,9 @@ addEventListener
 '
 activate
 '
+(
 event
+)
 =
 >
 {
