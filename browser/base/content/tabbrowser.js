@@ -1806,6 +1806,7 @@ canGoForward
 }
 goBack
 (
+requireUserInteraction
 )
 {
 return
@@ -1815,11 +1816,13 @@ selectedBrowser
 .
 goBack
 (
+requireUserInteraction
 )
 ;
 }
 goForward
 (
+requireUserInteraction
 )
 {
 return
@@ -1829,6 +1832,7 @@ selectedBrowser
 .
 goForward
 (
+requireUserInteraction
 )
 ;
 }

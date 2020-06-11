@@ -703,6 +703,16 @@ this
 collectFrom
 (
 oldIndex
+=
+=
+-
+1
+?
+oldIndex
+:
+oldIndex
+-
+1
 )
 ;
 }
