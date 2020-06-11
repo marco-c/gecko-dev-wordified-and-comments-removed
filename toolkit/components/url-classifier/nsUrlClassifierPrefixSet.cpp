@@ -2803,9 +2803,8 @@ totalDeltas
 }
 indexStarts
 .
-RemoveElementAt
+RemoveLastElement
 (
-indexSize
 )
 ;
 MOZ_ASSERT
