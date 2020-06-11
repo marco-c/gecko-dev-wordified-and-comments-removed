@@ -647,6 +647,19 @@ goto
 finish
 ;
 }
+RefPtr
+<
+nsIPrincipal
+>
+principal
+=
+mLoadInfo
+-
+>
+TriggeringPrincipal
+(
+)
+;
 rv
 =
 extProtService
@@ -655,6 +668,7 @@ extProtService
 LoadURI
 (
 mUrl
+principal
 ctx
 )
 ;

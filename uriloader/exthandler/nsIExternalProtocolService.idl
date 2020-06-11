@@ -12,6 +12,9 @@ interface
 nsIFile
 ;
 interface
+nsIPrincipal
+;
+interface
 nsIInterfaceRequestor
 ;
 interface
@@ -92,6 +95,12 @@ loadURI
 in
 nsIURI
 aURI
+[
+optional
+]
+in
+nsIPrincipal
+aTriggeringPrincipal
 [
 optional
 ]

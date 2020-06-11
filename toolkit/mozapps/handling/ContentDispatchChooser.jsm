@@ -95,8 +95,9 @@ function
 ask
 (
 aHandler
-aBrowsingContext
 aURI
+aPrincipal
+aBrowsingContext
 aReason
 )
 {

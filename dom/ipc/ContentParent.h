@@ -4352,6 +4352,9 @@ RecvLoadURIExternal
 nsIURI
 *
 uri
+nsIPrincipal
+*
+triggeringPrincipal
 const
 MaybeDiscarded
 <

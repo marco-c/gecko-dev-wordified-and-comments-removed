@@ -165,6 +165,9 @@ class
 nsITransfer
 ;
 class
+nsIPrincipal
+;
+class
 MaybeCloseWindowHelper
 ;
 class
@@ -250,6 +253,9 @@ LoadURI
 nsIURI
 *
 aURI
+nsIPrincipal
+*
+aTriggeringPrincipal
 mozilla
 :
 :
