@@ -256,6 +256,11 @@ VRManagerParent
 aManagerParent
 )
 ;
+void
+NotifyPuppetComplete
+(
+)
+;
 #
 endif
 void
