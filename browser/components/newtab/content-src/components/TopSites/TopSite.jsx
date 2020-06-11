@@ -2470,6 +2470,11 @@ props
 link
 .
 url
+source
+:
+"
+newtab
+"
 }
 }
 )
