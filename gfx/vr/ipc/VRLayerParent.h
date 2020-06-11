@@ -7,13 +7,6 @@ GFX_VR_LAYERPARENT_H
 #
 include
 "
-VRManager
-.
-h
-"
-#
-include
-"
 mozilla
 /
 RefPtr

@@ -107,13 +107,6 @@ devicePrefs
 )
 ;
 async
-NotifyVsync
-(
-TimeStamp
-vsyncTimestamp
-)
-;
-async
 UpdateVar
 (
 GfxVarUpdate

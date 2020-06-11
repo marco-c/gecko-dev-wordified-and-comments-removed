@@ -118,13 +118,6 @@ h
 #
 include
 "
-VRManager
-.
-h
-"
-#
-include
-"
 VRThread
 .
 h
