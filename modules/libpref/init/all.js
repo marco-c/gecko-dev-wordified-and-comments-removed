@@ -320,7 +320,7 @@ ssl3
 .
 dhe_rsa_aes_128_sha
 "
-true
+false
 )
 ;
 pref
@@ -332,7 +332,7 @@ ssl3
 .
 dhe_rsa_aes_256_sha
 "
-true
+false
 )
 ;
 pref

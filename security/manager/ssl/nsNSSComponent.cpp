@@ -5389,7 +5389,7 @@ ssl3
 dhe_rsa_aes_128_sha
 "
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA
-true
+false
 }
 {
 "
@@ -5400,7 +5400,7 @@ ssl3
 dhe_rsa_aes_256_sha
 "
 TLS_DHE_RSA_WITH_AES_256_CBC_SHA
-true
+false
 }
 {
 "
