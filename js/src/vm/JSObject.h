@@ -3454,8 +3454,9 @@ HandleObject
 obj
 )
 ;
-Value
-GetThisValue
+JSObject
+*
+GetThisObject
 (
 JSObject
 *
@@ -3470,8 +3471,9 @@ JSObject
 env
 )
 ;
-Value
-GetThisValueOfWith
+JSObject
+*
+GetThisObjectOfWith
 (
 JSObject
 *
