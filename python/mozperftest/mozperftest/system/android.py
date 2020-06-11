@@ -358,7 +358,7 @@ int
 default
 "
 :
-30
+60
             
 "
 help
@@ -667,6 +667,10 @@ None
         
 self
 .
+capture_logcat
+=
+self
+.
 capture_file
 =
 None
@@ -848,7 +852,7 @@ return
 path
     
 def
-__call__
+run
 (
 self
 metadata

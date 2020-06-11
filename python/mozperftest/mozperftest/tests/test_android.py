@@ -124,6 +124,16 @@ args
 {
         
 "
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
+        
+"
 android
 -
 install
@@ -228,6 +238,16 @@ args
 {
         
 "
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
+        
+"
 android
 -
 install
@@ -246,6 +266,14 @@ android
 "
 :
 True
+        
+"
+android
+-
+timeout
+"
+:
+120
         
 "
 android
@@ -360,6 +388,16 @@ device
 args
 =
 {
+        
+"
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
         
 "
 android
@@ -513,6 +551,16 @@ args
 {
         
 "
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
+        
+"
 android
 -
 install
@@ -664,6 +712,16 @@ log_adb
 args
 =
 {
+            
+"
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
             
 "
 android
@@ -833,6 +891,16 @@ log_cat
 args
 =
 {
+            
+"
+flavor
+"
+:
+"
+mobile
+-
+browser
+"
             
 "
 android

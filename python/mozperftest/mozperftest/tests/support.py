@@ -288,7 +288,9 @@ flavor
 "
 :
 "
-script
+desktop
+-
+browser
 "
         
 "
@@ -347,7 +349,9 @@ Metadata
 mach_cmd
 env
 "
-script
+desktop
+-
+browser
 "
 )
     

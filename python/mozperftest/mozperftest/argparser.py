@@ -87,7 +87,14 @@ FLAVORS
 =
 [
 "
-script
+desktop
+-
+browser
+"
+"
+mobile
+-
+browser
 "
 "
 doc
@@ -144,7 +151,9 @@ default
 "
 :
 "
-script
+desktop
+-
+browser
 "
             
 "

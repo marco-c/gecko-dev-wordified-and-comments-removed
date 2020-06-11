@@ -166,8 +166,11 @@ settings
         
 log_manager
 =
-{
-}
+mock
+.
+Mock
+(
+)
         
 state_dir
 =
@@ -257,7 +260,9 @@ EXAMPLE_TESTS_DIR
 flavor
 =
 "
-script
+desktop
+-
+browser
 "
 )
 mock
@@ -333,7 +338,9 @@ EXAMPLE_TESTS_DIR
 flavor
 =
 "
-script
+desktop
+-
+browser
 "
             
 push_to_try

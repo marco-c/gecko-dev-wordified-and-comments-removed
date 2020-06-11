@@ -196,6 +196,8 @@ False
 help
 "
 :
+(
+                
 "
 If
 set
@@ -210,18 +212,23 @@ of
 the
 results
 to
+"
+                
+"
 analyze
 in
 Iodide
 .
 "
+            
+)
         
 }
     
 }
     
 def
-__call__
+run
 (
 self
 metadata

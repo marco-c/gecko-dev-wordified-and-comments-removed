@@ -49,11 +49,19 @@ mach_cmd
     
 if
 flavor
-=
-=
+in
+(
 "
-script
+mobile
+-
+browser
 "
+"
+desktop
+-
+browser
+"
+)
 :
         
 return

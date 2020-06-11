@@ -45,7 +45,9 @@ flavor
 =
 =
 "
-script
+desktop
+-
+browser
 "
 :
         
@@ -54,8 +56,30 @@ Layers
 (
 env
 mach_cmd
-get_layers
 (
+ProxyRunner
+)
+)
+    
+if
+flavor
+=
+=
+"
+mobile
+-
+browser
+"
+:
+        
+return
+Layers
+(
+env
+mach_cmd
+(
+ProxyRunner
+AndroidDevice
 )
 )
     
