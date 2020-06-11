@@ -601,32 +601,6 @@ Optional
 (
         
 "
-perftest
--
-options
-"
-        
-description
-=
-"
-Options
-passed
-from
-mach
-perftest
-to
-try
-.
-"
-    
-)
-:
-object
-    
-Optional
-(
-        
-"
 optimize
 -
 strategies
@@ -1192,17 +1166,6 @@ options
     
 )
     
-decision_task_id
-=
-os
-.
-environ
-[
-'
-TASK_ID
-'
-]
-    
 tgg
 =
 TaskGraphGenerator
@@ -1222,11 +1185,6 @@ root
 parameters
 =
 parameters
-        
-decision_task_id
-=
-decision_task_id
-    
 )
     
 write_artifact
@@ -1248,13 +1206,11 @@ parameters
     
 write_artifact
 (
-        
 '
 actions
 .
 json
 '
-        
 render_actions_json
 (
 tgg
@@ -1263,9 +1219,7 @@ parameters
 tgg
 .
 graph_config
-decision_task_id
 )
-    
 )
     
 full_task_json
@@ -1441,27 +1395,18 @@ popitem
     
 create_tasks
 (
-        
 tgg
 .
 graph_config
-        
 tgg
 .
 morphed_task_graph
-        
 tgg
 .
 label_to_taskid
-        
 tgg
 .
 parameters
-        
-decision_task_id
-=
-decision_task_id
-    
 )
 def
 get_decision_parameters

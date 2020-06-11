@@ -19,7 +19,15 @@ unicode_literals
 import
 json
 import
+os
+import
 re
+from
+slugid
+import
+nice
+as
+slugid
 from
 types
 import
@@ -1153,7 +1161,6 @@ action_builder
 (
 parameters
 graph_config
-decision_task_id
 )
 :
             
@@ -1304,6 +1311,22 @@ revision
             
 }
             
+task_group_id
+=
+os
+.
+environ
+.
+get
+(
+'
+TASK_ID
+'
+slugid
+(
+)
+)
+            
 match
 =
 re
@@ -1384,7 +1407,7 @@ description
 taskGroupId
 '
 :
-decision_task_id
+task_group_id
                 
 '
 cb_name
@@ -1713,7 +1736,6 @@ render_actions_json
 (
 parameters
 graph_config
-decision_task_id
 )
 :
     
@@ -1835,7 +1857,6 @@ action_builder
 (
 parameters
 graph_config
-decision_task_id
 )
         
 if

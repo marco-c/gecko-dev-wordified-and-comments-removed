@@ -1483,9 +1483,7 @@ dependencies
             
 deps
 [
-'
 parent
-'
 ]
 =
 '
@@ -1526,9 +1524,15 @@ reference
 :
 '
 <
-parent
+{
+}
 >
 '
+.
+format
+(
+parent
+)
             
 }
         

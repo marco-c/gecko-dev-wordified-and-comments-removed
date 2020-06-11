@@ -3705,7 +3705,6 @@ root
 parameters
 =
 parameters
-            
 )
             
 actions
@@ -3716,21 +3715,12 @@ actions
 .
 render_actions_json
 (
-                
 tgg
 .
 parameters
 tgg
 .
 graph_config
-decision_task_id
-=
-"
-DECISION
--
-TASK
-"
-                
 )
             
 print

@@ -649,23 +649,12 @@ time
 def
 __init__
 (
-            
 self
 root_dir
 parameters
-decision_task_id
-=
-"
-<
-decision
--
-task
->
-"
 target_kind
 =
 None
-    
 )
 :
         
@@ -757,12 +746,6 @@ self
 _target_kind
 =
 target_kind
-        
-self
-.
-_decision_task_id
-=
-decision_task_id
         
 self
 .
@@ -2305,10 +2288,6 @@ target_task_graph
 parameters
             
 do_not_optimize
-            
-self
-.
-_decision_task_id
             
 existing_tasks
 =
