@@ -8703,6 +8703,12 @@ once_cell
 static_prefs
 "
 "
+url
+"
+"
+viaduct
+"
+"
 xpcom
 "
 ]
