@@ -7052,6 +7052,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringFromCharCode
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathAbs
 (
 HandleFunction
