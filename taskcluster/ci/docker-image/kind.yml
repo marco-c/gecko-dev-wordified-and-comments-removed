@@ -1092,7 +1092,7 @@ build
 )
 parent
 :
-debian9
+debian10
 -
 base
 gdb
