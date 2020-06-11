@@ -985,11 +985,6 @@ ThemeVariableMap
 jsm
 '
 '
-TopSiteAttribution
-.
-jsm
-'
-'
 TransientPrefs
 .
 jsm
