@@ -516,11 +516,11 @@ GetFocusedDescendant
 nsPIDOMWindowOuter
 *
 aWindow
+SearchRange
+aSearchRange
 bool
 *
 aFocusIsOutOfProcess
-SearchRange
-aSearchRange
 nsPIDOMWindowOuter
 *
 *

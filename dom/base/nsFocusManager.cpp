@@ -1655,9 +1655,9 @@ return
 GetFocusedDescendant
 (
 aWindow
+aSearchRange
 &
 ignored
-aSearchRange
 aFocusedWindow
 )
 ;
@@ -1672,11 +1672,11 @@ GetFocusedDescendant
 nsPIDOMWindowOuter
 *
 aWindow
+SearchRange
+aSearchRange
 bool
 *
 aFocusIsOutOfProcess
-SearchRange
-aSearchRange
 nsPIDOMWindowOuter
 *
 *
@@ -3821,9 +3821,9 @@ currentFocus
 GetFocusedDescendant
 (
 window
+eIncludeAllDescendants
 &
 focusInOtherContentProcess
-eIncludeAllDescendants
 getter_AddRefs
 (
 currentWindow
@@ -4954,9 +4954,9 @@ currentFocus
 GetFocusedDescendant
 (
 window
+eIncludeAllDescendants
 &
 focusInOtherContentProcess
-eIncludeAllDescendants
 getter_AddRefs
 (
 currentWindow
@@ -6814,9 +6814,9 @@ elementToFocus
 GetFocusedDescendant
 (
 subWindow
+eIncludeAllDescendants
 &
 focusInOtherContentProcess
-eIncludeAllDescendants
 getter_AddRefs
 (
 newWindow
