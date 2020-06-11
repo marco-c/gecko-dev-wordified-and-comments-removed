@@ -933,6 +933,11 @@ img
 png
 "
 "
+favicon
+.
+png
+"
+"
 object
 .
 png
