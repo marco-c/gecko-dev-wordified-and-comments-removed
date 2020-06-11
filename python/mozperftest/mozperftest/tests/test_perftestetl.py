@@ -258,10 +258,20 @@ files
 :
     
 files
-_
 output
 =
 files
+[
+"
+resources
+"
+]
+files
+[
+"
+output
+"
+]
     
 file_1
 =
