@@ -5604,7 +5604,6 @@ showInfo
 EmptyString
 (
 )
-false
 true
 false
 aTabOpener

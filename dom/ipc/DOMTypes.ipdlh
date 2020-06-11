@@ -964,9 +964,6 @@ nsString
 name
 ;
 bool
-fullscreenAllowed
-;
-bool
 fakeShowInfo
 ;
 bool
