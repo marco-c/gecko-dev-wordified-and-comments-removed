@@ -143,13 +143,6 @@ PrioritizedEventQueue
 h
 "
 #
-include
-"
-TaskController
-.
-h
-"
-#
 ifdef
 MOZ_CANARY
 #
@@ -1564,13 +1557,6 @@ STDERR_FILENO
 ;
 #
 endif
-TaskController
-:
-:
-Initialize
-(
-)
-;
 nsCOMPtr
 <
 nsIIdlePeriod

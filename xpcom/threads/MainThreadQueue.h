@@ -125,7 +125,6 @@ move
 (
 queue
 )
-true
 )
 ;
 prioritized
