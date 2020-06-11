@@ -3083,13 +3083,8 @@ test_files
 ]
         
 if
-len
-(
+not
 tests
-)
-=
-=
-0
 :
             
 tests
