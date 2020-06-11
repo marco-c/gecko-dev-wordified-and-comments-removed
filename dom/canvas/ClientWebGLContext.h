@@ -10584,6 +10584,11 @@ mInitialOptions
 WebGLPixelStore
 mPixelStore
 ;
+bool
+mXRCompatible
+=
+false
+;
 }
 ;
 inline
