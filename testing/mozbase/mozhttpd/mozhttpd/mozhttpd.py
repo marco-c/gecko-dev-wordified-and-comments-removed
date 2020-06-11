@@ -23,6 +23,8 @@ import
 moznetwork
 import
 time
+import
+traceback
 from
 argparse
 import
@@ -178,6 +180,12 @@ logging
 error
 (
 error
+)
+            
+traceback
+.
+print_exc
+(
 )
 class
 Request
