@@ -4777,6 +4777,7 @@ firefox
 record_in_processes
 :
 [
+main
 content
 ]
 mgmt_interaction
