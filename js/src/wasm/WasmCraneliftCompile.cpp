@@ -1136,7 +1136,7 @@ value
 offsets
 -
 >
-normalEntry
+uncheckedCallEntry
 )
 ;
 MOZ_ASSERT
