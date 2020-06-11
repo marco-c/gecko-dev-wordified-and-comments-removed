@@ -7024,6 +7024,15 @@ callee
 )
 ;
 AttachDecision
+tryAttachUnsafeGetReservedSlot
+(
+HandleFunction
+callee
+InlinableNative
+native
+)
+;
+AttachDecision
 tryAttachIsSuspendedGenerator
 (
 HandleFunction
