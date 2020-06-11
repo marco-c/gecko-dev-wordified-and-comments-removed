@@ -3966,6 +3966,8 @@ nsCString
 >
 &
 aUnsafeHeaders
+bool
+aShouldStripRequestBodyHeader
 )
 {
 mHttpChannelInternal
@@ -3974,6 +3976,7 @@ mHttpChannelInternal
 SetCorsPreflightParameters
 (
 aUnsafeHeaders
+aShouldStripRequestBodyHeader
 )
 ;
 }

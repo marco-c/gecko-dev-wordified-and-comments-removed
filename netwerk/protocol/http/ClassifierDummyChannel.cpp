@@ -1885,6 +1885,8 @@ nsCString
 >
 &
 aUnsafeHeaders
+bool
+aShouldStripRequestBodyHeader
 )
 {
 }

@@ -602,6 +602,9 @@ setCorsPreflightParameters
 in
 CStringArrayRef
 unsafeHeaders
+in
+boolean
+shouldStripRequestBodyHeader
 )
 ;
 [
