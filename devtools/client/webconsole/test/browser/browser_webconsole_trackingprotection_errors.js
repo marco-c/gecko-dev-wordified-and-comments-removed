@@ -418,7 +418,7 @@ message
 getStorageErrorUrl
 (
 "
-BlockedCookieForeign
+CookieBlockedForeign
 "
 )
 )
@@ -580,7 +580,7 @@ message
 getStorageErrorUrl
 (
 "
-BlockedCookieForeign
+CookieBlockedForeign
 "
 )
 )
@@ -779,7 +779,7 @@ message
 getStorageErrorUrl
 (
 "
-BlockedCookieTracker
+CookieBlockedTracker
 "
 )
 )

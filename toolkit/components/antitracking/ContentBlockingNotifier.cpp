@@ -725,7 +725,7 @@ STATE_COOKIES_BLOCKED_TRACKER
 message
 =
 "
-BlockedCookieTracker
+CookieBlockedTracker
 "
 ;
 category
@@ -771,7 +771,7 @@ STATE_COOKIES_BLOCKED_FOREIGN
 message
 =
 "
-BlockedCookieForeign
+CookieBlockedForeign
 "
 ;
 category
