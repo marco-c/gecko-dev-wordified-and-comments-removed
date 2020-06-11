@@ -3584,13 +3584,13 @@ isTopLevel
 targetFront
 .
 targetType
-!
+=
 =
 TargetList
 .
 TYPES
 .
-FRAME
+PROCESS
 )
 {
 const
