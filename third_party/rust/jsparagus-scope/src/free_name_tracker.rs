@@ -175,6 +175,7 @@ atom
 )
 ;
 }
+pub
 fn
 closed_over_freevars
 (
@@ -203,6 +204,7 @@ self
 def_names
 )
 }
+pub
 fn
 used_freevars
 (

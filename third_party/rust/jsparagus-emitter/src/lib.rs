@@ -106,7 +106,7 @@ use
 scope
 :
 :
-ScopeDataMapAndFunctionMap
+ScopePassResult
 ;
 use
 stencil
@@ -173,10 +173,12 @@ EmitError
 >
 {
 let
-ScopeDataMapAndFunctionMap
+ScopePassResult
 {
 scope_data_map
 function_map
+function_stencil_indices
+functions
 }
 =
 scope
@@ -199,6 +201,8 @@ atoms
 slices
 scope_data_map
 function_map
+function_stencil_indices
+functions
 )
 ;
 ast_emitter

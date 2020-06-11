@@ -9,6 +9,13 @@ pub
 mod
 lossy
 ;
+#
+[
+rustfmt
+:
+:
+skip
+]
 static
 UTF8_CHAR_WIDTH
 :

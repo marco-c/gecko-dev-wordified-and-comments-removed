@@ -30,6 +30,12 @@ queue_stack
 mod
 simulator
 ;
+mod
+unicode
+;
+mod
+unicode_data
+;
 #
 [
 cfg

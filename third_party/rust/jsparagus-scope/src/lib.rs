@@ -34,7 +34,7 @@ use
 pass
 :
 :
-ScopeDataMapAndFunctionMap
+ScopePassResult
 ;
 pub
 fn
@@ -65,7 +65,7 @@ alloc
 )
 -
 >
-ScopeDataMapAndFunctionMap
+ScopePassResult
 {
 let
 mut

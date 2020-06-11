@@ -25,19 +25,19 @@ actions
 import
 Action
 Reduce
+if
+typing
+.
+TYPE_CHECKING
+:
+    
+from
+.
+parse_table
+import
 StateId
-=
-int
-StateAndTransition
-=
-typing
-.
-Any
+StateAndTransitions
 ParseTable
-=
-typing
-.
-Any
 def
 shifted_path_to
 (
@@ -133,7 +133,7 @@ if
 not
 pt
 .
-is_term_shifted
+term_is_shifted
 (
 edge
 .
@@ -164,7 +164,7 @@ src
 assert
 pt
 .
-is_term_shifted
+term_is_shifted
 (
 edge
 .
@@ -636,7 +636,7 @@ typing
 .
 List
 [
-StateAndTransition
+StateAndTransitions
 ]
 )
 -
@@ -774,13 +774,7 @@ typing
 .
 List
 [
-typing
-.
-Union
-[
-str
-Nt
-]
+ShiftedTerm
 ]
     
 history
@@ -1106,7 +1100,7 @@ shift
 edge
 ]
                 
-to
+edge_to
 =
 Edge
 (
@@ -1121,7 +1115,7 @@ st
 new_sh
 +
 [
-to
+edge_to
 ]
 la
 +
@@ -1197,7 +1191,7 @@ state
 term
 ]
                 
-to
+edge_to
 =
 Edge
 (
@@ -1212,7 +1206,7 @@ st
 new_sh
 +
 [
-to
+edge_to
 ]
 la
 rp
@@ -1223,10 +1217,6 @@ edge
 ]
 False
 )
-        
-term
-=
-None
         
 rp
 =
@@ -1397,6 +1387,13 @@ reducer
 replay
                     
 new_rp
+:
+typing
+.
+List
+[
+ShiftedTerm
+]
 =
 [
 reducer
@@ -1413,9 +1410,17 @@ replay
 stacked_terms
 =
 [
+                            
+typing
+.
+cast
+(
+ShiftedTerm
 edge
 .
 term
+)
+                            
 for
 edge
 in
@@ -1429,6 +1434,7 @@ edge
 .
 term
 )
+                        
 ]
                         
 new_rp
@@ -1483,7 +1489,7 @@ True
 else
 :
                 
-to
+edge_to
 =
 Edge
 (
@@ -1498,7 +1504,7 @@ st
 prev_sh
 +
 [
-to
+edge_to
 ]
 la
 rp
@@ -1522,7 +1528,7 @@ typing
 .
 List
 [
-StateAndTransition
+StateAndTransitions
 ]
 name
 :
@@ -1917,7 +1923,7 @@ typing
 .
 List
 [
-StateAndTransition
+StateAndTransitions
 ]
         
 header

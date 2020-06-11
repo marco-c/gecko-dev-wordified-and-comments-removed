@@ -69,14 +69,9 @@ Term
 from
 .
 .
-aps
-import
-StateId
-from
-.
-.
 parse_table
 import
+StateId
 ParseTable
 def
 method_name_to_python
