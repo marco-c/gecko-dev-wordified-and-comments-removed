@@ -44,6 +44,14 @@ UPLOAD_DIR
 pwd
 )
 "
+export
+OBJDIR
+=
+WORK
+/
+obj
+-
+spider
 AUTOMATION
 =
 1
@@ -94,11 +102,7 @@ TaskCluster
 cp
 -
 rL
-GECKO_PATH
-/
-obj
--
-spider
+OBJDIR
 /
 dist
 /
