@@ -236,7 +236,13 @@ mReorderQueue
 .
 Push
 (
+std
+:
+:
+move
+(
 data
+)
 )
 ;
 if
@@ -261,10 +267,6 @@ DecodedData
 mReorderQueue
 .
 Pop
-(
-)
-.
-get
 (
 )
 }
@@ -319,10 +321,6 @@ AppendElement
 mReorderQueue
 .
 Pop
-(
-)
-.
-get
 (
 )
 )

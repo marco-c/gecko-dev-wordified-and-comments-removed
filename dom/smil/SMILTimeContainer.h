@@ -243,7 +243,7 @@ SMILTimeContainer
 aParent
 )
 ;
-bool
+void
 AddMilestone
 (
 const
