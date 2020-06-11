@@ -421,22 +421,15 @@ sauce
 kwargs
 [
 "
-sauce_browser
+product
 "
 ]
 =
 "
+sauce
+:
 firefox
-"
-        
-kwargs
-[
-"
-sauce_version
-"
-]
-=
-"
+:
 63
 "
     
