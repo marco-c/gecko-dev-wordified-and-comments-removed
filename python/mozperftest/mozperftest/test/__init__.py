@@ -1,7 +1,7 @@
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 import
@@ -9,7 +9,7 @@ BrowsertimeRunner
 from
 mozperftest
 .
-browser
+test
 .
 profile
 import
@@ -32,7 +32,7 @@ Profile
 BrowsertimeRunner
 )
 def
-pick_browser
+pick_test
 (
 env
 flavor

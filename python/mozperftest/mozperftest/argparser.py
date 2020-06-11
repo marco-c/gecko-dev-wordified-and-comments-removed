@@ -70,11 +70,11 @@ system_layers
 from
 mozperftest
 .
-browser
+test
 import
 get_layers
 as
-browser_layers
+test_layers
 from
 mozperftest
 .
@@ -510,7 +510,7 @@ system_layers
 (
 )
 +
-browser_layers
+test_layers
 (
 )
 +

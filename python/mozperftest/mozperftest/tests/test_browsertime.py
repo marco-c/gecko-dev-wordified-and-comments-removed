@@ -32,7 +32,7 @@ BROWSER
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 import
@@ -40,7 +40,7 @@ add_options
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -100,7 +100,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -117,7 +117,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 noderunner
 .
@@ -157,7 +157,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -438,7 +438,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -455,7 +455,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 noderunner
 .
@@ -495,7 +495,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -617,7 +617,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -634,7 +634,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 noderunner
 .
@@ -674,7 +674,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -923,7 +923,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -940,7 +940,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 noderunner
 .
@@ -979,7 +979,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -1129,7 +1129,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .
@@ -1146,7 +1146,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 noderunner
 .
@@ -1186,7 +1186,7 @@ patch
 "
 mozperftest
 .
-browser
+test
 .
 browsertime
 .

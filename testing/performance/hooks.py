@@ -3,7 +3,7 @@ os
 from
 mozperftest
 .
-browser
+test
 .
 browsertime
 import

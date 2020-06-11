@@ -15,9 +15,9 @@ shutil
 from
 mozperftest
 .
-browser
+test
 import
-pick_browser
+pick_test
 from
 mozperftest
 .
@@ -132,7 +132,7 @@ layer
 in
 (
 pick_system
-pick_browser
+pick_test
 pick_metrics
 )
 :
