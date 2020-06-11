@@ -1009,6 +1009,11 @@ unsigned
 int
 result_caret_count
 =
+caret_count
+?
+*
+caret_count
+:
 0
 ;
 unsigned

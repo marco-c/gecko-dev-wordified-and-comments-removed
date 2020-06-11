@@ -1,21 +1,3 @@
-import
-io
-import
-sys
-if
-len
-(
-sys
-.
-argv
-)
-!
-=
-5
-:
-	
-print
-(
 "
 "
 "
@@ -44,10 +26,6 @@ Blocks
 txt
 Input
 file
-as
-of
-Unicode
-12
 :
 *
 https
@@ -132,18 +110,25 @@ txt
 "
 "
 "
-file
-=
+import
+sys
+if
+len
+(
 sys
 .
-stderr
+argv
 )
+!
+=
+5
+:
 	
 sys
 .
 exit
 (
-1
+__doc__
 )
 BLACKLISTED_BLOCKS
 =
@@ -158,8 +143,6 @@ Lao
 files
 =
 [
-io
-.
 open
 (
 x
@@ -1089,6 +1072,10 @@ Bottom
 	
 '
 Top_And_Bottom
+'
+	
+'
+Top_And_Bottom_And_Left
 '
 	
 '
@@ -2111,6 +2098,7 @@ Blw
 [
 Bottom
 Bottom_And_Left
+Bottom_And_Right
 ]
 		
 '
@@ -2127,6 +2115,7 @@ Pre
 :
 [
 Left
+Top_And_Bottom_And_Left
 ]
 	
 }
@@ -2579,16 +2568,6 @@ if
 U
 =
 =
-0x103C
-:
-UIPC
-=
-Left
-		
-if
-U
-=
-=
 0x1C29
 :
 UIPC
@@ -2622,16 +2601,6 @@ UIPC
 Top
 		
 if
-U
-=
-=
-0x1171E
-:
-UIPC
-=
-Left
-		
-if
 0x1CF8
 <
 =
@@ -2652,6 +2621,14 @@ in
 Not_Applicable
 Visual_Order_Left
 ]
+or
+			
+USE
+=
+=
+'
+R
+'
 or
 			
 USE

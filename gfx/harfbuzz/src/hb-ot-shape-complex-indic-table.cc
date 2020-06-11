@@ -57,7 +57,7 @@ ISC_Bi
 INDIC_SYLLABIC_CATEGORY_BINDU
 /
 *
-86
+91
 chars
 ;
 Bindu
@@ -93,7 +93,7 @@ ISC_C
 INDIC_SYLLABIC_CATEGORY_CONSONANT
 /
 *
-2160
+2195
 chars
 ;
 Consonant
@@ -165,7 +165,7 @@ ISC_CM
 INDIC_SYLLABIC_CATEGORY_CONSONANT_MEDIAL
 /
 *
-29
+31
 chars
 ;
 Consonant_Medial
@@ -189,7 +189,7 @@ ISC_CPR
 INDIC_SYLLABIC_CATEGORY_CONSONANT_PRECEDING_REPHA
 /
 *
-2
+3
 chars
 ;
 Consonant_Preceding_Repha
@@ -201,7 +201,7 @@ ISC_CPrf
 INDIC_SYLLABIC_CATEGORY_CONSONANT_PREFIXED
 /
 *
-9
+10
 chars
 ;
 Consonant_Prefixed
@@ -237,7 +237,7 @@ ISC_CWS
 INDIC_SYLLABIC_CATEGORY_CONSONANT_WITH_STACKER
 /
 *
-6
+8
 chars
 ;
 Consonant_With_Stacker
@@ -261,7 +261,7 @@ ISC_IS
 INDIC_SYLLABIC_CATEGORY_INVISIBLE_STACKER
 /
 *
-11
+12
 chars
 ;
 Invisible_Stacker
@@ -309,7 +309,7 @@ ISC_N
 INDIC_SYLLABIC_CATEGORY_NUKTA
 /
 *
-30
+31
 chars
 ;
 Nukta
@@ -321,7 +321,7 @@ ISC_Nd
 INDIC_SYLLABIC_CATEGORY_NUMBER
 /
 *
-481
+491
 chars
 ;
 Number
@@ -357,7 +357,7 @@ ISC_PK
 INDIC_SYLLABIC_CATEGORY_PURE_KILLER
 /
 *
-21
+23
 chars
 ;
 Pure_Killer
@@ -453,7 +453,7 @@ ISC_M
 INDIC_SYLLABIC_CATEGORY_VOWEL_DEPENDENT
 /
 *
-673
+683
 chars
 ;
 Vowel_Dependent
@@ -465,7 +465,7 @@ ISC_VI
 INDIC_SYLLABIC_CATEGORY_VOWEL_INDEPENDENT
 /
 *
-476
+484
 chars
 ;
 Vowel_Independent
@@ -477,7 +477,7 @@ IMC_B
 INDIC_MATRA_CATEGORY_BOTTOM
 /
 *
-349
+351
 chars
 ;
 Bottom
@@ -501,7 +501,7 @@ IMC_BR
 INDIC_MATRA_CATEGORY_BOTTOM_AND_RIGHT
 /
 *
-2
+4
 chars
 ;
 Bottom_And_Right
@@ -513,7 +513,7 @@ IMC_L
 INDIC_MATRA_CATEGORY_LEFT
 /
 *
-61
+64
 chars
 ;
 Left
@@ -525,7 +525,7 @@ IMC_LR
 INDIC_MATRA_CATEGORY_LEFT_AND_RIGHT
 /
 *
-21
+22
 chars
 ;
 Left_And_Right
@@ -561,7 +561,7 @@ IMC_R
 INDIC_MATRA_CATEGORY_RIGHT
 /
 *
-281
+288
 chars
 ;
 Right
@@ -573,7 +573,7 @@ IMC_T
 INDIC_MATRA_CATEGORY_TOP
 /
 *
-398
+415
 chars
 ;
 Top
@@ -589,6 +589,18 @@ INDIC_MATRA_CATEGORY_TOP_AND_BOTTOM
 chars
 ;
 Top_And_Bottom
+*
+/
+#
+define
+IMC_TBL
+INDIC_MATRA_CATEGORY_TOP_AND_BOTTOM_AND_LEFT
+/
+*
+2
+chars
+;
+Top_And_Bottom_And_Left
 *
 /
 #
@@ -4001,8 +4013,8 @@ x
 )
 _
 (
-x
-x
+M
+T
 )
 _
 (
@@ -6156,7 +6168,7 @@ R
 )
 _
 (
-x
+Bi
 x
 )
 _
@@ -6527,7 +6539,7 @@ T
 _
 (
 CPR
-x
+T
 )
 _
 (
@@ -6781,8 +6793,8 @@ x
 )
 _
 (
-x
-x
+Bi
+T
 )
 _
 (
@@ -7681,7 +7693,7 @@ R
 _
 (
 CM
-x
+TBL
 )
 _
 (
@@ -10153,6 +10165,9 @@ IMC_T
 #
 undef
 IMC_TB
+#
+undef
+IMC_TBL
 #
 undef
 IMC_TBR

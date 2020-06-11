@@ -2,15 +2,6 @@ import
 re
 import
 argparse
-if
-__name__
-=
-=
-'
-__main__
-'
-:
-    
 parser
 =
 argparse
@@ -18,7 +9,6 @@ argparse
 ArgumentParser
 (
 )
-    
 parser
 .
 add_argument
@@ -27,7 +17,6 @@ add_argument
 input
 '
 )
-    
 parser
 .
 add_argument
@@ -36,7 +25,6 @@ add_argument
 output
 '
 )
-    
 args
 =
 parser
@@ -44,7 +32,6 @@ parser
 parse_args
 (
 )
-    
 with
 open
 (
@@ -57,9 +44,6 @@ r
 )
 as
 inp
-:
-        
-with
 open
 (
 args
@@ -72,7 +56,7 @@ w
 as
 out
 :
-            
+    
 for
 l
 in
@@ -82,7 +66,7 @@ readlines
 (
 )
 :
-                
+        
 l
 =
 re
@@ -97,7 +81,7 @@ _get_type
 '
 l
 )
-                
+        
 l
 =
 re
@@ -114,7 +98,7 @@ _T
 '
 l
 )
-                
+        
 out
 .
 write

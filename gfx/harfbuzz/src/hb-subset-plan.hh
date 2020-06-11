@@ -89,6 +89,10 @@ name_languages
 ;
 hb_set_t
 *
+glyphs_requested
+;
+hb_set_t
+*
 drop_tables
 ;
 hb_map_t
@@ -138,6 +142,14 @@ gsub_features
 hb_map_t
 *
 gpos_features
+;
+hb_set_t
+*
+layout_variation_indices
+;
+hb_map_t
+*
+layout_variation_idx_map
 ;
 public
 :
