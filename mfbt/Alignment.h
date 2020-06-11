@@ -137,8 +137,8 @@ __GNUC__
 define
 MOZ_ALIGNED_DECL
 (
-_type
 _align
+_type
 )
 _type
 __attribute__
@@ -160,8 +160,8 @@ _MSC_VER
 define
 MOZ_ALIGNED_DECL
 (
-_type
 _align
+_type
 )
 __declspec
 (
@@ -194,8 +194,8 @@ compiler
 define
 MOZ_ALIGNED_DECL
 (
-_type
 _align
+_type
 )
 _type
 #
@@ -219,9 +219,9 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8_t
-elem
 1
+uint8_t
+elem
 )
 ;
 }
@@ -237,9 +237,9 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8_t
-elem
 2
+uint8_t
+elem
 )
 ;
 }
@@ -255,9 +255,9 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
-uint8_t
-elem
 4
+uint8_t
+elem
 )
 ;
 }
@@ -273,9 +273,9 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
+8
 uint8_t
 elem
-8
 )
 ;
 }
@@ -291,9 +291,9 @@ AlignedElem
 {
 MOZ_ALIGNED_DECL
 (
+16
 uint8_t
 elem
-16
 )
 ;
 }
