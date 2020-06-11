@@ -3,7 +3,13 @@ __future__
 import
 absolute_import
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlunsplit
 product_ftp_map

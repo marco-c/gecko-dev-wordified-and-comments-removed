@@ -21,6 +21,8 @@ import
 time
 import
 logging
+import
+six
 log
 =
 logging
@@ -110,10 +112,11 @@ for
 key
 value
 in
-kwargs
+six
 .
 iteritems
 (
+kwargs
 )
 :
         

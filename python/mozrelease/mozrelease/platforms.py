@@ -2,6 +2,8 @@ from
 __future__
 import
 absolute_import
+import
+six
 update_platform_map
 =
 {
@@ -408,10 +410,11 @@ for
 k
 v
 in
-sl_platform_map
+six
 .
 iteritems
 (
+sl_platform_map
 )
 if
 v

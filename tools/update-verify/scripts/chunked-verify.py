@@ -335,7 +335,7 @@ fdopen
 (
 fd
 "
-w
+wb
 "
 )
     
