@@ -115,12 +115,6 @@ NonNull
 boolean
 requireInteraction
 ;
-public
-final
-NonNull
-String
-source
-;
 WrapForJNI
 WebNotification
 (
@@ -156,10 +150,6 @@ NonNull
 final
 boolean
 requireInteraction
-NonNull
-final
-String
-source
 )
 {
 this
@@ -209,12 +199,6 @@ this
 requireInteraction
 =
 requireInteraction
-;
-this
-.
-source
-=
-source
 ;
 }
 UiThread
