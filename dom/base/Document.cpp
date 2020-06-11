@@ -77144,9 +77144,6 @@ Document
 :
 PrefersColorScheme
 (
-Document
-:
-:
 IgnoreRFP
 aIgnoreRFP
 )

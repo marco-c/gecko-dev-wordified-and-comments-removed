@@ -11097,7 +11097,6 @@ StylePrefersColorScheme
 PrefersColorScheme
 (
 IgnoreRFP
-aIgnoreRFP
 =
 IgnoreRFP
 :
