@@ -280,6 +280,9 @@ Array
 AString
 >
 aResourceIds
+in
+bool
+aIsSync
 )
 ;
 }
