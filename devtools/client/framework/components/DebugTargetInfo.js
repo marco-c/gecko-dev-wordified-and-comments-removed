@@ -1429,6 +1429,16 @@ onClick
 detail
 .
 onClick
+title
+:
+L10N
+.
+getStr
+(
+detail
+.
+l10nId
+)
 }
 dom
 .
