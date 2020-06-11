@@ -1701,8 +1701,10 @@ aMsg
 void
 SendMessageToLink
 (
+UniquePtr
+<
 Message
-*
+>
 aMsg
 )
 ;
