@@ -15989,7 +15989,7 @@ SizeTo
 nsLayoutUtils
 :
 :
-ExpandHeightForViewportUnits
+ExpandHeightForDynamicToolbar
 (
 mOuter
 -
