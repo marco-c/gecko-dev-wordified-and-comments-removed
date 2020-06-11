@@ -22,6 +22,13 @@ h
 #
 include
 "
+nsComponentManagerUtils
+.
+h
+"
+#
+include
+"
 nsEmbedCID
 .
 h

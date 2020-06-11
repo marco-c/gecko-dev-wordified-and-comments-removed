@@ -4,6 +4,13 @@ nsNSSDialogHelper_h
 #
 define
 nsNSSDialogHelper_h
+#
+include
+"
+nsError
+.
+h
+"
 class
 mozIDOMWindowProxy
 ;
