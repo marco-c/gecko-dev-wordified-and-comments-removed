@@ -13778,7 +13778,7 @@ sharedArrayBuffer
 withCOOP_COEP
 type
 :
-bool
+RelaxedAtomicBool
 #
 if
 !
@@ -13806,7 +13806,7 @@ Bug
 endif
 mirror
 :
-once
+always
 #
 Overridden
 in

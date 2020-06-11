@@ -38254,7 +38254,7 @@ if
 StaticPrefs
 :
 :
-dom_postMessage_sharedArrayBuffer_withCOOP_COEP_AtStartup
+dom_postMessage_sharedArrayBuffer_withCOOP_COEP
 (
 )
 &
