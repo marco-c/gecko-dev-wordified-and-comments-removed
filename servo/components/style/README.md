@@ -31,8 +31,6 @@ github
 .
 com
 /
-mozilla
--
 servo
 /
 rust
