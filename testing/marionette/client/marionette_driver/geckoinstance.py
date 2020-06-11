@@ -1633,10 +1633,13 @@ of
 format
 (
 app
+list
+(
 apps
 .
 keys
 (
+)
 )
 )
             

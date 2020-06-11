@@ -11,6 +11,16 @@ types
 import
 urllib2
 import
+six
+from
+six
+.
+moves
+.
+urllib_request
+import
+urlopen
+import
 mozunit
 import
 pytest
@@ -175,9 +185,9 @@ assert
 isinstance
 (
 url
-types
+six
 .
-StringTypes
+string_types
 )
     
 assert
@@ -234,9 +244,9 @@ isinstance
 server
 .
 doc_root
-types
+six
 .
-StringTypes
+string_types
 )
     
 server
@@ -251,9 +261,9 @@ isinstance
 server
 .
 doc_root
-types
+six
 .
-StringTypes
+string_types
 )
 def
 test_router
@@ -388,8 +398,6 @@ test_handler
     
 body
 =
-urllib2
-.
 urlopen
 (
 url

@@ -157,12 +157,15 @@ args
 .
 tests
 =
+list
+(
 map
 (
 normalize
 args
 .
 tests
+)
 )
     
 commandline

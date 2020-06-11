@@ -5,6 +5,8 @@ absolute_import
 import
 types
 import
+six
+import
 mozunit
 import
 pytest
@@ -184,9 +186,9 @@ assert
 isinstance
 (
 url
-types
+six
 .
-StringTypes
+string_types
 )
 def
 test_start_with_custom_root
@@ -289,9 +291,9 @@ assert
 isinstance
 (
 url
-types
+six
 .
-StringTypes
+string_types
 )
 def
 test_where_is
