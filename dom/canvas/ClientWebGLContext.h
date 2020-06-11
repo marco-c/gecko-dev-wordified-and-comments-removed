@@ -4379,15 +4379,6 @@ mCapturedFrameInvalidated
 =
 false
 ;
-UniquePtr
-<
-layers
-:
-:
-SurfaceDescriptor
->
-mFrontBufferDesc
-;
 public
 :
 dom
@@ -4500,6 +4491,12 @@ retval
 void
 Present
 (
+WebGLFramebufferJS
+*
+layers
+:
+:
+TextureType
 )
 ;
 Maybe
@@ -4511,6 +4508,8 @@ SurfaceDescriptor
 >
 GetFrontBuffer
 (
+WebGLFramebufferJS
+*
 layers
 :
 :

@@ -426,6 +426,9 @@ layers
 class
 CompositableHost
 ;
+class
+SurfaceDescriptor
+;
 }
 namespace
 webgl
@@ -2009,6 +2012,12 @@ public
 void
 Present
 (
+WebGLFramebuffer
+*
+layers
+:
+:
+TextureType
 )
 ;
 RefPtr
@@ -2031,6 +2040,8 @@ SurfaceDescriptor
 >
 GetFrontBuffer
 (
+WebGLFramebuffer
+*
 layers
 :
 :
