@@ -4130,6 +4130,17 @@ SliceBudget
 budget
 )
 ;
+IncrementalProgress
+markDuringSweeping
+(
+JSFreeOp
+*
+fop
+SliceBudget
+&
+budget
+)
+;
 void
 updateAtomsBitmap
 (
