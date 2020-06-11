@@ -344,6 +344,15 @@ syncPriority
 _skipPercentageChance
 :
 100
+overrideTelemetryName
+:
+"
+rust
+-
+webext
+-
+storage
+"
 _notifyPendingChanges
 (
 )
