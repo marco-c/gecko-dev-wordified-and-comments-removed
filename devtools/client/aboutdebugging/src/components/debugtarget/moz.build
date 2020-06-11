@@ -126,6 +126,11 @@ ServiceWorkerAdditionalActions
 js
 '
 '
+TabAction
+.
+js
+'
+'
 TabDetail
 .
 js
