@@ -415,7 +415,7 @@ nsIPrincipal
 aPrincipal
 out
 nsIPrincipal
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 [

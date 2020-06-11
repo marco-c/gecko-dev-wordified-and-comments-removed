@@ -17453,14 +17453,14 @@ NodePrincipal
 locationChangeData
 -
 >
-contentStoragePrincipal
+contentPartitionedPrincipal
 (
 )
 =
 document
 -
 >
-EffectiveStoragePrincipal
+PartitionedPrincipal
 (
 )
 ;

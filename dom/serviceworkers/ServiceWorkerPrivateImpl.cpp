@@ -910,7 +910,7 @@ principalInfo
 ;
 mRemoteWorkerData
 .
-storagePrincipalInfo
+partitionedPrincipalInfo
 (
 )
 =

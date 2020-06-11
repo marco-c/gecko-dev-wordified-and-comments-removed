@@ -115,7 +115,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 {
 MOZ_ASSERT
@@ -137,7 +137,7 @@ SharedWorkerManager
 aPBackgroundEventTarget
 aData
 aLoadingPrincipal
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 ;
 RefPtr
@@ -179,7 +179,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 :
 mPBackgroundEventTarget
@@ -198,9 +198,9 @@ domain
 (
 )
 )
-mStoragePrincipalAttrs
+mPartitionedPrincipalAttrs
 (
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 mResolvedScriptURL
 (
@@ -408,7 +408,7 @@ aLoadingPrincipal
 const
 OriginAttributes
 &
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 )
 {
 MOZ_ASSERT
@@ -477,10 +477,10 @@ mLoadingPrincipal
 )
 &
 &
-mStoragePrincipalAttrs
+mPartitionedPrincipalAttrs
 =
 =
-aStoragePrincipalAttrs
+aPartitionedPrincipalAttrs
 ;
 if
 (

@@ -1059,7 +1059,7 @@ nsIPrincipal
 aPrincipal
 nsIPrincipal
 *
-aStoragePrincipal
+aPartitionedPrincipal
 nsDocShell
 *
 aContainer
@@ -1135,7 +1135,7 @@ ResetToURI
 uri
 aLoadGroup
 aPrincipal
-aStoragePrincipal
+aPartitionedPrincipal
 )
 ;
 blankDoc
