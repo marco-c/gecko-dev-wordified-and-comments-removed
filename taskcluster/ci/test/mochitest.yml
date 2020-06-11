@@ -1325,6 +1325,15 @@ mochitest
 devtools
 -
 chrome
+schedules
+-
+component
+:
+mochitest
+-
+browser
+-
+chrome
 treeherder
 -
 symbol
