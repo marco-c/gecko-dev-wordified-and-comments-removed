@@ -18,6 +18,8 @@ import
 re
 import
 sys
+import
+six
 line_re
 =
 re
@@ -77,6 +79,15 @@ False
     
 global
 fix_stacks
+    
+line
+=
+six
+.
+ensure_str
+(
+line
+)
     
 result
 =
