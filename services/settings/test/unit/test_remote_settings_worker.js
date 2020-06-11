@@ -506,6 +506,14 @@ test_throws_error_if_worker_fails_async
 (
 )
 {
+if
+(
+IS_ANDROID
+)
+{
+return
+;
+}
 await
 new
 Promise
