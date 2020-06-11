@@ -1111,6 +1111,16 @@ if
 mAsyncCopyContext
 )
 {
+if
+(
+!
+mBackgroundET
+)
+{
+return
+NS_ERROR_UNEXPECTED
+;
+}
 rv
 =
 mBackgroundET
