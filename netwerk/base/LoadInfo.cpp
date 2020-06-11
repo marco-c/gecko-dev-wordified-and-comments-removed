@@ -2772,7 +2772,7 @@ mFrameBrowsingContextID
 )
 mInitialSecurityCheckDone
 (
-true
+false
 )
 mIsThirdPartyContext
 (
