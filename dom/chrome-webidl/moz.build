@@ -294,6 +294,11 @@ MatchPattern
 webidl
 '
 '
+MediaController
+.
+webidl
+'
+'
 MessageManager
 .
 webidl

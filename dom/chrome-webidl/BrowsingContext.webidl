@@ -826,6 +826,12 @@ nsISHistory
 ?
 sessionHistory
 ;
+readonly
+attribute
+MediaController
+?
+mediaController
+;
 }
 ;
 [
