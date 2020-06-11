@@ -3622,7 +3622,12 @@ IsPreload
 No
 nullptr
 nullptr
-nullptr
+mConstructorDocument
+-
+>
+NodePrincipal
+(
+)
 GetReferrerInfo
 (
 )

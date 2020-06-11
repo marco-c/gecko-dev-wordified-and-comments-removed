@@ -632,6 +632,13 @@ aMallocSizeOf
 )
 const
 ;
+nsIPrincipal
+*
+LoaderPrincipal
+(
+)
+const
+;
 private
 :
 friend
