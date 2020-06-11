@@ -2398,7 +2398,7 @@ aOrigin
 mWorkerPrivate
 -
 >
-Origin
+OriginNoSuffix
 (
 )
 ;
