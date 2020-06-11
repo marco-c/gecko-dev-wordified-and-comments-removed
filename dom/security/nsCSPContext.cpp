@@ -2769,7 +2769,7 @@ aIsFormSubmission
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 bool
 *
 outAllowsNavigateTo
@@ -2877,7 +2877,7 @@ allowsNavigateTo
 (
 aURI
 aWasRedirected
-aEnforceWhitelist
+aEnforceAllowlist
 )
 )
 {

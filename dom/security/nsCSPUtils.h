@@ -2930,7 +2930,7 @@ aURI
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 )
 const
 ;

@@ -7029,7 +7029,7 @@ aURI
 bool
 aWasRedirected
 bool
-aEnforceWhitelist
+aEnforceAllowlist
 )
 const
 {
@@ -7079,7 +7079,7 @@ NAVIGATE_TO_DIRECTIVE
 if
 (
 !
-aEnforceWhitelist
+aEnforceAllowlist
 &
 &
 mDirectives

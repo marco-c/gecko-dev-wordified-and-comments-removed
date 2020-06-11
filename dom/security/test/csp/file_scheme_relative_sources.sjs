@@ -18,7 +18,7 @@ Bug
 CSP
 :
 test
-whitelisting
+allowlisting
 of
 scheme
 -
