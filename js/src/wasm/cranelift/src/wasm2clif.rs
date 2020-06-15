@@ -5209,7 +5209,7 @@ ir
 TrapCode
 :
 :
-OutOfBounds
+TableOutOfBounds
 )
 ;
 let
@@ -6573,7 +6573,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 delta
 :
 ir
@@ -6616,6 +6616,10 @@ types
 :
 I32
 table_index
+.
+index
+(
+)
 as
 i64
 )
@@ -6656,7 +6660,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 index
 :
 ir
@@ -6693,6 +6697,10 @@ types
 :
 I32
 table_index
+.
+index
+(
+)
 as
 i64
 )
@@ -6732,7 +6740,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 value
 :
 ir
@@ -6773,6 +6781,10 @@ types
 :
 I32
 table_index
+.
+index
+(
+)
 as
 i64
 )
@@ -6946,7 +6958,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 dst
 :
 ir
@@ -6993,6 +7005,10 @@ types
 :
 I32
 table_index
+.
+index
+(
+)
 as
 i64
 )
