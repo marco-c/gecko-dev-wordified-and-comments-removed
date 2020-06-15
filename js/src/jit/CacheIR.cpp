@@ -30958,7 +30958,7 @@ true
 ;
 }
 }
-JSObject
+PlainObject
 *
 thisObject
 =
@@ -30998,19 +30998,6 @@ realm
 )
 )
 ;
-if
-(
-thisObject
--
->
-is
-<
-PlainObject
->
-(
-)
-)
-{
 result
 .
 set
@@ -31018,7 +31005,6 @@ set
 thisObject
 )
 ;
-}
 return
 true
 ;
