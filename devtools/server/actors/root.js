@@ -302,9 +302,6 @@ true
 storageInspector
 :
 true
-wasmBinarySource
-:
-true
 bulk
 :
 true

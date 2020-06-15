@@ -41,9 +41,6 @@ reconfigure
 observeAsmJS
 :
 true
-wasmBinarySource
-:
-true
 }
 )
 ;

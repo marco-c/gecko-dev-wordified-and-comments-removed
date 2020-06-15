@@ -58,9 +58,6 @@ null
 :
 any
 )
-supportsWasm
-:
-true
 currentTarget
 :
 (
