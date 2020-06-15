@@ -5466,14 +5466,6 @@ aNewState
 [
 ]
 {
-MOZ_CRASH
-(
-"
-Unexpected
-rejection
-"
-)
-;
 }
 )
 ;
