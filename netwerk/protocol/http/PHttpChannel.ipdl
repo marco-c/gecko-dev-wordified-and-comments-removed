@@ -322,11 +322,6 @@ messageCategory
 )
 ;
 async
-CancelRedirected
-(
-)
-;
-async
 DeleteSelf
 (
 )
