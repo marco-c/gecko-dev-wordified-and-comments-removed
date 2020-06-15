@@ -694,6 +694,13 @@ new
 MobileViewportManager
 (
 mMVMContext
+MobileViewportManager
+:
+:
+ManagerType
+:
+:
+VisualAndMetaViewport
 )
 )
 {
