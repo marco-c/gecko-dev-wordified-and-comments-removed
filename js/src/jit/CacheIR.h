@@ -7140,6 +7140,13 @@ native
 )
 ;
 AttachDecision
+tryAttachSubstringKernel
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
