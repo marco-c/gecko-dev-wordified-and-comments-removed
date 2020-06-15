@@ -144,6 +144,11 @@ long
 long
 pendingSwitchID
 ;
+boolean
+replaceBrowsingContext
+=
+false
+;
 /
 /
 True
