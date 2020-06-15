@@ -2283,6 +2283,12 @@ Atomic
 FallbackDriverState
 >
 mFallbackDriverState
+{
+FallbackDriverState
+:
+:
+None
+}
 ;
 DataMutex
 <
