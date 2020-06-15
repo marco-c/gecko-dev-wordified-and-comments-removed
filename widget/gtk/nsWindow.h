@@ -2158,7 +2158,7 @@ CSDSupportLevel
 GetSystemCSDSupportLevel
 (
 bool
-aIsPIPWindow
+aIsPopup
 =
 false
 )
@@ -2947,6 +2947,16 @@ UpdateMozWindowActive
 ;
 void
 ForceTitlebarRedraw
+(
+)
+;
+bool
+DoDrawTilebarCorners
+(
+)
+;
+bool
+IsChromeWindowTitlebar
 (
 )
 ;
