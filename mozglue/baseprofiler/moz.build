@@ -53,6 +53,13 @@ BaseProfilingStack
 .
 h
 '
+'
+public
+/
+ProfilingCategoryList
+.
+h
+'
 ]
 UNIFIED_SOURCES
 +
