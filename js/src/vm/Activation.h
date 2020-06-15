@@ -365,15 +365,6 @@ FrameIter
 iter
 )
 ;
-static
-inline
-FramePtr
-create
-(
-AbstractFramePtr
-abstractFramePtr
-)
-;
 inline
 bool
 hasCachedSavedFrame
