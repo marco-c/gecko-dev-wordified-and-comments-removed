@@ -128,11 +128,6 @@ nsresult
 rv
 )
 ;
-async
-DeleteSelf
-(
-)
-;
 }
 ;
 }
