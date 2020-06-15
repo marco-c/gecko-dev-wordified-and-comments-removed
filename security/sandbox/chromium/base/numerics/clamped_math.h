@@ -1013,10 +1013,6 @@ return
 value
 ;
 }
-#
-if
-!
-BASE_NUMERICS_DISABLE_OSTREAM_OPERATORS
 template
 <
 typename
@@ -1061,8 +1057,6 @@ return
 os
 ;
 }
-#
-endif
 template
 <
 template

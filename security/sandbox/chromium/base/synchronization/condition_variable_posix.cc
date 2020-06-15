@@ -330,7 +330,6 @@ scoped_blocking_call
 .
 emplace
 (
-FROM_HERE
 BlockingType
 :
 :
@@ -411,7 +410,6 @@ scoped_blocking_call
 .
 emplace
 (
-FROM_HERE
 BlockingType
 :
 :

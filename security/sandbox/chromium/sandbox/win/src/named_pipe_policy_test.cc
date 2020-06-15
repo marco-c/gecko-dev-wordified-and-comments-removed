@@ -173,10 +173,10 @@ argc
 2
 )
 {
-std
+base
 :
 :
-wstring
+string16
 handle_name
 ;
 if

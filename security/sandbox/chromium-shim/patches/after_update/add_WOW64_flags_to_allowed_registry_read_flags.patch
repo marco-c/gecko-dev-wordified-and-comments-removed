@@ -283,7 +283,7 @@ access
 NtOpenKeyFunction
 NtOpenKey
 =
-nullptr
+NULL
 ;
 ResolveNTFunctionPtr
 (

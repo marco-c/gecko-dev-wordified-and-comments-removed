@@ -499,10 +499,7 @@ query_broker
 =
 QueryBroker
 (
-IpcTag
-:
-:
-NTCREATEKEY
+IPC_NTCREATEKEY_TAG
 params
 .
 GetBase
@@ -537,10 +534,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-NTCREATEKEY
+IPC_NTCREATEKEY_TAG
 name
 .
 get
@@ -902,10 +896,7 @@ query_broker
 =
 QueryBroker
 (
-IpcTag
-:
-:
-NTOPENKEY
+IPC_NTOPENKEY_TAG
 params
 .
 GetBase
@@ -940,10 +931,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-NTOPENKEY
+IPC_NTOPENKEY_TAG
 name
 .
 get

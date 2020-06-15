@@ -202,15 +202,6 @@ release
 )
 ;
 }
-virtual
-bool
-RunsTasksInCurrentSequence
-(
-)
-const
-=
-0
-;
 protected
 :
 ~
