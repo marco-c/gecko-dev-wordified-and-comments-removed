@@ -424,16 +424,7 @@ channel
 .
 loadInfo
 .
-browsingContext
-&
-&
-channel
-.
-loadInfo
-.
-browsingContext
-.
-id
+browsingContextID
 =
 =
 filters
