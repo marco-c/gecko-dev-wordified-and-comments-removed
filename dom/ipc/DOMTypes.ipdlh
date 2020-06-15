@@ -767,9 +767,6 @@ nsString
 FileName
 ;
 bool
-IsHttpsOnlyModeUpgradeExempt
-;
-bool
 IsFromProcessingFrameAttributes
 ;
 nsIContentSecurityPolicy
