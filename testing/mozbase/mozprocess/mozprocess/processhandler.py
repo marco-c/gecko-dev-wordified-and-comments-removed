@@ -7216,6 +7216,28 @@ append
 logoutput
 )
         
+text
+=
+kwargs
+.
+get
+(
+"
+universal_newlines
+"
+False
+)
+or
+kwargs
+.
+get
+(
+"
+text
+"
+False
+)
+        
 if
 stream
 is
@@ -7233,14 +7255,7 @@ six
 .
 PY2
 and
-kwargs
-.
-get
-(
-'
-universal_newlines
-'
-)
+text
 :
                 
 stdout
@@ -7261,19 +7276,12 @@ sys
 stdout
 )
             
-if
+elif
 six
 .
 PY3
 and
-kwargs
-.
-get
-(
-'
-universal_newlines
-'
-)
+text
 :
                 
 stdout
@@ -7282,11 +7290,11 @@ codecs
 .
 getwriter
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 (
 sys
@@ -7295,6 +7303,23 @@ stdout
 .
 buffer
 )
+            
+elif
+six
+.
+PY3
+and
+not
+text
+:
+                
+stdout
+=
+sys
+.
+stdout
+.
+buffer
             
 if
 not
@@ -7319,16 +7344,7 @@ append
 StreamOutput
 (
 stdout
-                                 
-kwargs
-.
-get
-(
-'
-universal_newlines
-'
-False
-)
+text
 )
 )
         
@@ -7341,16 +7357,7 @@ streamoutput
 StreamOutput
 (
 stream
-                                        
-kwargs
-.
-get
-(
-'
-universal_newlines
-'
-False
-)
+text
 )
             
 kwargs
