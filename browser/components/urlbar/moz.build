@@ -113,6 +113,11 @@ UrlbarProviderInterventions
 jsm
 '
 '
+UrlbarProviderOmnibox
+.
+jsm
+'
+'
 UrlbarProviderOpenTabs
 .
 jsm
