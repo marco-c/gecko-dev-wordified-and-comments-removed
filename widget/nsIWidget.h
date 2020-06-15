@@ -2357,6 +2357,16 @@ aShow
 =
 0
 ;
+virtual
+void
+SetSupportsNativeFullscreen
+(
+bool
+aSupportsNativeFullscreen
+)
+=
+0
+;
 enum
 WindowAnimationType
 {
