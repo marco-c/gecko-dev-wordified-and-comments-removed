@@ -2052,6 +2052,9 @@ pipedEvents
 beforeChange
 "
 "
+blur
+"
+"
 changes
 "
 "
@@ -2061,7 +2064,7 @@ cursorActivity
 focus
 "
 "
-blur
+keyHandled
 "
 "
 scroll
