@@ -4235,10 +4235,6 @@ fxa
 .
 devices_cache
 .
-clone
-(
-)
-.
 is_some
 (
 )
