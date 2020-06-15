@@ -533,7 +533,7 @@ DisconnectFromOwner
 override
 ;
 void
-Shutdown
+OnWindowDestroy
 (
 )
 ;
