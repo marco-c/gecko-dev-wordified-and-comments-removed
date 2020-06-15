@@ -1,3 +1,9 @@
+function
+test
+(
+SharedOrUnsharedArrayBuffer
+)
+{
 var
 sum
 =
@@ -184,7 +190,7 @@ new
 Int8Array
 (
 new
-SharedArrayBuffer
+SharedOrUnsharedArrayBuffer
 (
 65536
 )
@@ -375,5 +381,16 @@ i8a
 7
 ]
 15
+)
+;
+}
+test
+(
+SharedArrayBuffer
+)
+;
+test
+(
+ArrayBuffer
 )
 ;

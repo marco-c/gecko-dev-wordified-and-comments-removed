@@ -2153,6 +2153,7 @@ sum
 function
 adHocExchange
 (
+SharedOrUnsharedArrayBuffer
 )
 {
 var
@@ -2162,7 +2163,7 @@ new
 Int8Array
 (
 new
-SharedArrayBuffer
+SharedOrUnsharedArrayBuffer
 (
 16
 )
@@ -2849,6 +2850,7 @@ true
 function
 testWeirdIndices
 (
+SharedOrUnsharedArrayBuffer
 )
 {
 var
@@ -2858,7 +2860,7 @@ new
 Int8Array
 (
 new
-SharedArrayBuffer
+SharedOrUnsharedArrayBuffer
 (
 16
 )
@@ -2963,6 +2965,7 @@ is_little
 function
 runTests
 (
+SharedOrUnsharedArrayBuffer
 )
 {
 var
@@ -2976,7 +2979,7 @@ var
 sab
 =
 new
-SharedArrayBuffer
+SharedOrUnsharedArrayBuffer
 (
 4096
 )
@@ -3510,6 +3513,7 @@ sab
 ;
 adHocExchange
 (
+SharedOrUnsharedArrayBuffer
 )
 ;
 testIsLockFree
@@ -3522,6 +3526,7 @@ testIsLockFree2
 ;
 testWeirdIndices
 (
+SharedOrUnsharedArrayBuffer
 )
 ;
 assertEq
@@ -3540,5 +3545,11 @@ Atomics
 }
 runTests
 (
+SharedArrayBuffer
+)
+;
+runTests
+(
+ArrayBuffer
 )
 ;
