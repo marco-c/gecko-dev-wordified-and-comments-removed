@@ -1579,9 +1579,6 @@ nsRange
 aRange
 )
 ;
-RangeBoundariesInclusiveAncestorsAndOffsets
-mRangeBoundariesInclusiveAncestorsAndOffsets
-;
 nsCOMPtr
 <
 nsINode
@@ -1596,6 +1593,14 @@ nsINode
 >
 mCommonInclusiveAncestors
 ;
+ContextInfoDepth
+mContextInfoDepth
+;
+private
+:
+RangeBoundariesInclusiveAncestorsAndOffsets
+mRangeBoundariesInclusiveAncestorsAndOffsets
+;
 int32_t
 mStartRootIndex
 ;
@@ -1604,9 +1609,6 @@ mEndRootIndex
 ;
 bool
 mHaltRangeHint
-;
-ContextInfoDepth
-mContextInfoDepth
 ;
 const
 uint32_t
