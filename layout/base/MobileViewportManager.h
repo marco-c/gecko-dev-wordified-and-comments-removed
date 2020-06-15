@@ -154,11 +154,6 @@ aResolution
 public
 :
 void
-NotifyResizeReflow
-(
-)
-;
-void
 RequestReflow
 (
 bool
