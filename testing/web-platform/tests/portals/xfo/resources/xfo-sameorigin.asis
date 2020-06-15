@@ -18,7 +18,7 @@ Frame
 -
 Options
 :
-DENY
+SAMEORIGIN
 <
 !
 DOCTYPE
