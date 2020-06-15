@@ -5750,6 +5750,12 @@ None
         
 self
 .
+browserEnv
+=
+None
+        
+self
+.
 marionette
 =
 None
