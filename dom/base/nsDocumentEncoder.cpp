@@ -1266,14 +1266,6 @@ mFlags
 uint32_t
 mWrapColumn
 ;
-AutoTArray
-<
-nsINode
-*
-8
->
-mCommonInclusiveAncestors
-;
 bool
 mNeedsPreformatScanning
 ;
@@ -1596,6 +1588,14 @@ nsCOMPtr
 nsINode
 >
 mClosestCommonInclusiveAncestorOfRange
+;
+AutoTArray
+<
+nsINode
+*
+8
+>
+mCommonInclusiveAncestors
 ;
 int32_t
 mStartRootIndex
@@ -2167,6 +2167,8 @@ if
 prevNode
 )
 {
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 Clear
@@ -2184,6 +2186,8 @@ node
 GetParentNode
 (
 )
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -2193,6 +2197,8 @@ mRangeContextSerializer
 .
 SerializeRangeContextStart
 (
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -2245,6 +2251,8 @@ mDisableContextSerialize
 =
 false
 ;
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 Clear
@@ -2262,6 +2270,8 @@ prevNode
 GetParentNode
 (
 )
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -2351,6 +2361,8 @@ mDisableContextSerialize
 =
 false
 ;
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 Clear
@@ -2368,6 +2380,8 @@ prevNode
 GetParentNode
 (
 )
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -5006,6 +5020,8 @@ mContextInfoDepth
 {
 }
 ;
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 Clear
@@ -5067,6 +5083,8 @@ GetInclusiveAncestors
 mRangeSerializer
 .
 mClosestCommonInclusiveAncestorOfRange
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -5142,6 +5160,8 @@ mRangeContextSerializer
 .
 SerializeRangeContextStart
 (
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 )
 ;
@@ -6834,6 +6854,8 @@ aContextString
 int32_t
 count
 =
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 Length
@@ -6858,6 +6880,8 @@ count
 {
 node
 =
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 ElementAt
@@ -6877,6 +6901,8 @@ node
 )
 )
 {
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 RemoveElementAt
@@ -6938,6 +6964,8 @@ i
 {
 node
 =
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 ElementAt
@@ -6976,6 +7004,8 @@ count
 {
 node
 =
+mRangeSerializer
+.
 mCommonInclusiveAncestors
 .
 ElementAt
