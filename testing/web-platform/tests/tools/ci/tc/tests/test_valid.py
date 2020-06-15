@@ -1299,8 +1299,7 @@ Python
 '
 tools
 /
-wpt
-/
+integration
 tests
 (
 Python
@@ -1311,8 +1310,7 @@ Python
 '
 tools
 /
-wpt
-/
+integration
 tests
 (
 Python
@@ -1325,8 +1323,7 @@ Python
 '
 tools
 /
-wpt
-/
+integration
 tests
 (
 Python
