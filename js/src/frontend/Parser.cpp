@@ -17467,7 +17467,7 @@ if
 (
 anyChars
 .
-sawOctalEscape
+sawDeprecatedOctal
 (
 )
 )
@@ -17624,7 +17624,7 @@ canHaveDirectives
 {
 anyChars
 .
-clearSawOctalEscape
+clearSawDeprecatedOctal
 (
 )
 ;
