@@ -909,9 +909,7 @@ shouldPreserve
 ShouldPreserveBrowsingContext
 (
 isRemote
-aOptions
-.
-mReplaceBrowsingContext
+false
 )
 ;
 ChangeRemotenessCommon
