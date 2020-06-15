@@ -725,6 +725,7 @@ Minute
 Literal
 (
 "
+(
 AM
 /
 PM
@@ -740,6 +741,7 @@ noon
 Literal
 (
 "
+)
 "
 )
 ]
@@ -755,6 +757,7 @@ Minute
 Literal
 (
 "
+(
 Tagesh
 lfte
 :
@@ -769,6 +772,7 @@ mittags
 Literal
 (
 "
+)
 "
 )
 ]
