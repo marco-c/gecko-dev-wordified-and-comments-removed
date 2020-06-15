@@ -2255,6 +2255,16 @@ childInfo
 )
 ;
 async
+Activate
+(
+)
+;
+async
+Deactivate
+(
+)
+;
+async
 ScrollbarPreferenceChanged
 (
 ScrollbarPreference
