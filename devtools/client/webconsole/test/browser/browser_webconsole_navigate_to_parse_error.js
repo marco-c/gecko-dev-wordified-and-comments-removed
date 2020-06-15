@@ -126,13 +126,12 @@ hud
 )
 ;
 const
-onRepeatedMessage
+onCSPViolationMessage
 =
-waitForRepeatedMessage
+waitForMessage
 (
 hud
 CSP_VIOLATION_MSG
-2
 )
 ;
 await
@@ -142,7 +141,7 @@ TEST_VIOLATION
 )
 ;
 await
-onRepeatedMessage
+onCSPViolationMessage
 ;
 ok
 (
@@ -150,7 +149,8 @@ true
 "
 Received
 expected
-messages
+violation
+message
 "
 )
 ;
