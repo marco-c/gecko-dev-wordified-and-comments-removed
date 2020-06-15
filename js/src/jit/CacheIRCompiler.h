@@ -4143,6 +4143,16 @@ ref
 ;
 }
 }
+Register
+get
+(
+)
+const
+{
+return
+scratchReg_
+;
+}
 operator
 Register
 (

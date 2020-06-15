@@ -7102,6 +7102,17 @@ native
 )
 ;
 AttachDecision
+tryAttachHasClass
+(
+HandleFunction
+callee
+const
+JSClass
+*
+clasp
+)
+;
+AttachDecision
 tryAttachStringChar
 (
 HandleFunction
