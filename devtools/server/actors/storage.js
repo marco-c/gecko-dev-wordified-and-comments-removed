@@ -1206,6 +1206,17 @@ host
 window
 )
 ;
+if
+(
+!
+this
+.
+storageActor
+)
+{
+return
+;
+}
 const
 data
 =
