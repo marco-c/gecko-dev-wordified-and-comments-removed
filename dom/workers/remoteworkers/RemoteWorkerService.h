@@ -24,9 +24,6 @@ nsIThread
 namespace
 mozilla
 {
-class
-AbstractThread
-;
 namespace
 dom
 {
@@ -88,12 +85,6 @@ nsCOMPtr
 nsIThread
 >
 mThread
-;
-RefPtr
-<
-AbstractThread
->
-mAbstractThread
 ;
 RefPtr
 <
