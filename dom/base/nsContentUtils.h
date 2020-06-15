@@ -6723,15 +6723,6 @@ nullptr
 )
 ;
 static
-bool
-AttemptLargeAllocationLoad
-(
-nsIHttpChannel
-*
-aChannel
-)
-;
-static
 void
 AppendDocumentLevelNativeAnonymousContentTo
 (

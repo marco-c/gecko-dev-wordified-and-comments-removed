@@ -2836,11 +2836,6 @@ aNewHandle
 )
 ;
 async
-AwaitLargeAlloc
-(
-)
-;
-async
 AllowScriptsToClose
 (
 )
