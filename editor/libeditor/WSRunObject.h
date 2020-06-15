@@ -2797,7 +2797,11 @@ ReplaceASCIIWhitespacesWithOneNBSP
 const
 EditorDOMPointInText
 &
-aPointAtASCIIWhitespace
+aAtFirstASCIIWhitespace
+const
+EditorDOMPointInText
+&
+aEndOfCollapsibleASCIIWhitespaces
 )
 ;
 [
