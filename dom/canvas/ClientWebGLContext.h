@@ -3212,15 +3212,6 @@ mRequestedSize
 {
 }
 ;
-RefPtr
-<
-gfx
-:
-:
-DataSourceSurface
->
-mFrontBufferSnapshot
-;
 public
 :
 explicit
@@ -4525,6 +4516,10 @@ SourceSurface
 >
 GetFrontBufferSnapshot
 (
+bool
+requireAlphaPremult
+=
+true
 )
 override
 ;

@@ -197,6 +197,9 @@ CanvasRenderer
 :
 BorrowSnapshot
 (
+const
+bool
+requireAlphaPremult
 )
 const
 {
@@ -267,6 +270,7 @@ context
 >
 GetFrontBufferSnapshot
 (
+requireAlphaPremult
 )
 ;
 }
