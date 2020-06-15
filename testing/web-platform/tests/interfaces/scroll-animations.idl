@@ -212,5 +212,12 @@ edge
 start
 "
 ;
+double
+threshold
+=
+0
+.
+0
+;
 }
 ;
