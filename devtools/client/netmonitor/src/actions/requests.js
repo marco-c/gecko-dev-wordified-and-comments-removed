@@ -12,6 +12,7 @@ CLONE_SELECTED_REQUEST
 REMOVE_SELECTED_CUSTOM_REQUEST
 RIGHT_CLICK_REQUEST
 SEND_CUSTOM_REQUEST
+SET_EVENT_STREAM_FLAG
 TOGGLE_RECORDING
 UPDATE_REQUEST
 }
@@ -121,6 +122,21 @@ meta
 {
 batch
 }
+}
+;
+}
+function
+setEventStreamFlag
+(
+channelId
+)
+{
+return
+{
+type
+:
+SET_EVENT_STREAM_FLAG
+channelId
 }
 ;
 }
@@ -401,6 +417,7 @@ cloneSelectedRequest
 rightClickRequest
 removeSelectedCustomRequest
 sendCustomRequest
+setEventStreamFlag
 toggleRecording
 updateRequest
 }

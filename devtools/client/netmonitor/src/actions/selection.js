@@ -55,7 +55,7 @@ function
 selectRequest
 (
 id
-httpChannelId
+request
 )
 {
 return
@@ -64,7 +64,7 @@ type
 :
 SELECT_REQUEST
 id
-httpChannelId
+request
 }
 ;
 }
@@ -285,8 +285,6 @@ newItem
 .
 id
 newItem
-.
-channelId
 )
 )
 ;

@@ -1495,7 +1495,7 @@ onMouseDown
 (
 evt
 id
-channelId
+request
 )
 {
 if
@@ -1516,7 +1516,7 @@ props
 selectRequest
 (
 id
-channelId
+request
 )
 ;
 }
@@ -2074,8 +2074,6 @@ item
 .
 id
 item
-.
-channelId
 )
 onInitiatorBadgeMouseDown
 :
@@ -2408,7 +2406,7 @@ selectRequest
 :
 (
 id
-channelId
+request
 )
 =
 >
@@ -2419,7 +2417,7 @@ Actions
 selectRequest
 (
 id
-channelId
+request
 )
 )
 onItemRightMouseButtonDown
