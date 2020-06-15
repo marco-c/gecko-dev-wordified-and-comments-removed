@@ -168,19 +168,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-devtools
-.
-editor
-.
-autoclosebrackets
-"
-false
-)
-;
 const
 hud
 =
@@ -612,6 +599,7 @@ bar
 baz
 [
 |
+]
 "
 )
 ;
