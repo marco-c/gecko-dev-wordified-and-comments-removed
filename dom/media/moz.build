@@ -798,6 +798,11 @@ MemoryBlockCache
 h
 '
 '
+MPSCQueue
+.
+h
+'
+'
 nsIDocumentActivity
 .
 h
