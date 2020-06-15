@@ -176,9 +176,6 @@ const
 WebRTCIndicator
 =
 {
-VERTICAL_OFFSET_PX
-:
-80
 init
 (
 event
@@ -641,10 +638,6 @@ windowWidth
 availHeight
 -
 windowHeight
--
-this
-.
-VERTICAL_OFFSET_PX
 )
 ;
 }
