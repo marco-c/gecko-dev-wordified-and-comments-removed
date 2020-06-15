@@ -196,9 +196,6 @@ test
 reftest
 release
 rusttests
-static
--
-analysis
 talos
 -
 test
