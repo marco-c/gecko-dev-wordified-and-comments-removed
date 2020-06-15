@@ -1799,7 +1799,7 @@ gShowFrameBorders
 false
 ;
 void
-nsFrame
+nsIFrame
 :
 :
 ShowFrameBorders
@@ -1814,7 +1814,7 @@ aEnable
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 GetShowFrameBorders
@@ -1832,7 +1832,7 @@ gShowEventTargetFrameBorder
 false
 ;
 void
-nsFrame
+nsIFrame
 :
 :
 ShowEventTargetFrameBorder
@@ -1847,7 +1847,7 @@ aEnable
 ;
 }
 bool
-nsFrame
+nsIFrame
 :
 :
 GetShowEventTargetFrameBorder
@@ -1862,7 +1862,7 @@ mozilla
 :
 :
 LazyLogModule
-nsFrame
+nsIFrame
 :
 :
 sFrameLogModule
