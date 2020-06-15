@@ -71,9 +71,6 @@ nsIRunnable
 namespace
 mozilla
 {
-class
-AbstractThread
-;
 namespace
 dom
 {
@@ -157,12 +154,6 @@ mObserver
 ;
 uint32_t
 mOtherThreadsDispatchingViaEventTarget
-;
-RefPtr
-<
-AbstractThread
->
-mAbstractThread
 ;
 #
 ifdef
@@ -257,12 +248,6 @@ nsIRunnable
 aEvent
 )
 const
-override
-;
-NS_IMETHODIMP
-Shutdown
-(
-)
 override
 ;
 NS_INLINE_DECL_REFCOUNTING_INHERITED
