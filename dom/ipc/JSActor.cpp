@@ -1048,13 +1048,9 @@ if
 JS
 :
 :
-ContextOptionsRef
+IsAsyncStackCaptureEnabledForRealm
 (
 aCx
-)
-.
-asyncStack
-(
 )
 &
 &

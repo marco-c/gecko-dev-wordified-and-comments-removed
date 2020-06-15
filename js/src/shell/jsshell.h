@@ -573,6 +573,10 @@ enableAsyncStacks
 ;
 extern
 bool
+enableAsyncStackCaptureDebuggeeOnly
+;
+extern
+bool
 enableStreams
 ;
 extern
