@@ -249,6 +249,7 @@ JSString
 *
 >
 ZoneAllocPolicy
+DuplicatesPossible
 >
 ;
 class

@@ -81,6 +81,8 @@ RelocationOverlay
 public
 Cell
 {
+protected
+:
 RelocatedCellHeader
 header_
 ;

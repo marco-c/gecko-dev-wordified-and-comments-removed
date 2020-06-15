@@ -1515,6 +1515,7 @@ JSString
 *
 >
 ZoneAllocPolicy
+DuplicatesPossible
 >
 ;
 }
