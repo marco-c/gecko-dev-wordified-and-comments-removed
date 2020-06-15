@@ -367,18 +367,6 @@ privateBrowsingAllowed
 )
 )
 ;
-Management
-.
-off
-(
-"
-change
--
-permissions
-"
-listener
-)
-;
 resolve
 (
 )
@@ -388,7 +376,7 @@ resolve
 ;
 Management
 .
-on
+once
 (
 "
 change
