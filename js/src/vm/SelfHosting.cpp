@@ -13747,7 +13747,7 @@ MathAbs
 JS_FN
 (
 "
-std_Map_iterator
+std_Map_entries
 "
 MapObject
 :
@@ -13833,7 +13833,7 @@ Reflect_ownKeys
 JS_FN
 (
 "
-std_Set_iterator
+std_Set_values
 "
 SetObject
 :
