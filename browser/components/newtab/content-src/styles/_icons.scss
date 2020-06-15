@@ -39,7 +39,7 @@ inline
 -
 block
 ;
-fill
+color
 :
 var
 (
@@ -53,6 +53,10 @@ primary
 -
 color
 )
+;
+fill
+:
+currentColor
 ;
 height
 :
