@@ -11,10 +11,10 @@ use
 stencil
 :
 :
-function
+script
 :
 :
-FunctionStencilIndex
+ScriptStencilIndex
 ;
 #
 [
@@ -112,7 +112,7 @@ props
 :
 HashMap
 <
-FunctionStencilIndex
+ScriptStencilIndex
 FunctionProperty
 >
 }
@@ -149,7 +149,7 @@ mut
 self
 index
 :
-FunctionStencilIndex
+ScriptStencilIndex
 )
 {
 if
@@ -211,7 +211,7 @@ is_annex_b
 self
 index
 :
-FunctionStencilIndex
+ScriptStencilIndex
 )
 -
 >

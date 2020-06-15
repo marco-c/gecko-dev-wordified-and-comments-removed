@@ -59,6 +59,7 @@ FunCall
 Lookahead
                       
 OutputExpr
+Unwind
 Reduce
 Seq
 )
@@ -1730,10 +1731,13 @@ term
 =
 Reduce
 (
+Unwind
+(
 prod
 .
 nt
 pop
+)
 )
             
 expr

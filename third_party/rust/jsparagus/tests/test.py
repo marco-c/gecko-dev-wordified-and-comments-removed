@@ -115,6 +115,9 @@ compile
 self
 tokenize
 grammar
+*
+*
+kwargs
 )
 :
         
@@ -154,6 +157,9 @@ gen
 compile
 (
 grammar
+*
+*
+kwargs
 )
     
 def

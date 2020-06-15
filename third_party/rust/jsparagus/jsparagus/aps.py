@@ -24,7 +24,6 @@ from
 actions
 import
 Action
-Reduce
 if
 typing
 .
@@ -331,34 +330,27 @@ update_stack
 (
 )
     
-reducer
+stack_diff
 =
 action
 .
-reduce_with
+update_stack_with
 (
-)
-    
-assert
-isinstance
-(
-reducer
-Reduce
 )
     
 nt
 =
-reducer
+stack_diff
 .
 nt
     
 depth
 =
-reducer
+stack_diff
 .
 pop
 +
-reducer
+stack_diff
 .
 replay
     
@@ -1274,11 +1266,19 @@ reducing
                     
 continue
                 
-reducer
+assert
+not
+a
+.
+follow_edge
+(
+)
+                
+stack_diff
 =
 a
 .
-reduce_with
+update_stack_with
 (
 )
                 
@@ -1382,9 +1382,21 @@ new_sh
                     
 replay
 =
-reducer
+stack_diff
 .
 replay
+                    
+nt
+=
+stack_diff
+.
+nt
+                    
+assert
+nt
+is
+not
+None
                     
 new_rp
 :
@@ -1396,8 +1408,6 @@ ShiftedTerm
 ]
 =
 [
-reducer
-.
 nt
 ]
                     
