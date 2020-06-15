@@ -990,7 +990,9 @@ test_csp
 img
 -
 src
+'
 self
+'
 "
 "
 "
