@@ -9190,9 +9190,6 @@ case
 Bailout_NonBigIntInput
 :
 case
-Bailout_NonSharedTypedArrayInput
-:
-case
 Bailout_Debugger
 :
 case

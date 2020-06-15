@@ -241,7 +241,6 @@ Bailout_NonObjectInput
 Bailout_NonStringInput
 Bailout_NonSymbolInput
 Bailout_NonBigIntInput
-Bailout_NonSharedTypedArrayInput
 Bailout_Debugger
 Bailout_FirstExecution
 Bailout_OverflowInvalidate
@@ -477,14 +476,6 @@ Bailout_NonBigIntInput
 return
 "
 Bailout_NonBigIntInput
-"
-;
-case
-Bailout_NonSharedTypedArrayInput
-:
-return
-"
-Bailout_NonSharedTypedArrayInput
 "
 ;
 case

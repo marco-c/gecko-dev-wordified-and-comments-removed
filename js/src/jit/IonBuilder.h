@@ -1232,15 +1232,6 @@ bailoutKind
 ;
 MInstruction
 *
-addSharedTypedArrayGuard
-(
-MDefinition
-*
-obj
-)
-;
-MInstruction
-*
 addGuardReceiverPolymorphic
 (
 MDefinition
