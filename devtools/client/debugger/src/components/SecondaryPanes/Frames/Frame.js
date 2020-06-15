@@ -442,6 +442,12 @@ debugger
 "
 webconsole
 "
+restart
+:
+typeof
+actions
+.
+restart
 }
 ;
 export
@@ -523,6 +529,7 @@ toggleFrameworkGrouping
 toggleBlackBox
 frameworkGroupingOn
 cx
+restart
 }
 =
 this
@@ -537,6 +544,7 @@ frameworkGroupingOn
 copyStackTrace
 toggleFrameworkGrouping
 toggleBlackBox
+restart
 }
 event
 cx

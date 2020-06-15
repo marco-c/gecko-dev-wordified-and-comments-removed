@@ -719,6 +719,11 @@ on
 -
 stack
 "
+type
+:
+"
+call
+"
 }
 ;
 }

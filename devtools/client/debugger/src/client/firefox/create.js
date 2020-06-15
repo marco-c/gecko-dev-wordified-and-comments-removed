@@ -260,6 +260,11 @@ state
 frame
 .
 state
+type
+:
+frame
+.
+type
 }
 ;
 }

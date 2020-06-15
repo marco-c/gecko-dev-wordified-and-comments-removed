@@ -341,6 +341,12 @@ debugger
 "
 webconsole
 "
+restart
+:
+typeof
+actions
+.
+restart
 }
 ;
 type
@@ -521,6 +527,7 @@ displayFullUrl
 getFrameTitle
 disableContextMenu
 panel
+restart
 }
 =
 this
@@ -688,6 +695,11 @@ panel
 =
 {
 panel
+}
+restart
+=
+{
+restart
 }
 /
 >

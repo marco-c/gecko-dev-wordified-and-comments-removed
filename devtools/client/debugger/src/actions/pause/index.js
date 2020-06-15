@@ -5,6 +5,7 @@ stepIn
 stepOver
 stepOut
 resume
+restart
 }
 from
 "
