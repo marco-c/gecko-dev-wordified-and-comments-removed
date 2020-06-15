@@ -1643,10 +1643,6 @@ mYChannel
 Y
 .
 mData
-+
-Y
-.
-mOffset
 ;
 data
 .
@@ -1685,10 +1681,6 @@ mCbChannel
 Cb
 .
 mData
-+
-Cb
-.
-mOffset
 ;
 data
 .
@@ -1697,10 +1689,6 @@ mCrChannel
 Cr
 .
 mData
-+
-Cr
-.
-mOffset
 ;
 data
 .
