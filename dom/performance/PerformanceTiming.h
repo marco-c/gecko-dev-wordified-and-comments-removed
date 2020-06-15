@@ -309,11 +309,6 @@ ToMilliseconds
 mZeroTime
 ;
 }
-void
-InitializeForMemoryCacheHit
-(
-)
-;
 DOMHighResTimeStamp
 AsyncOpenHighRes
 (

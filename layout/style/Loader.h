@@ -1248,7 +1248,7 @@ aSavedSheets
 )
 ;
 void
-MaybeNotifyOfResourceTiming
+DidHitCompleteSheetCache
 (
 SheetLoadData
 &
