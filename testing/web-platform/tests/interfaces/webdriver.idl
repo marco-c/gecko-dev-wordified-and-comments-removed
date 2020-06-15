@@ -54,10 +54,6 @@ io
 webdriver
 /
 )
-Navigator
-includes
-NavigatorAutomationInformation
-;
 interface
 mixin
 NavigatorAutomationInformation
@@ -68,4 +64,8 @@ boolean
 webdriver
 ;
 }
+;
+Navigator
+includes
+NavigatorAutomationInformation
 ;
