@@ -4,8 +4,7 @@ GRAMMAR
 ]
 identity
 ;
-y
-"
+*
 (
 IdentifierExpression
 CallExpression0LiteralNumericExpression
@@ -23,7 +22,11 @@ VariableDeclarator
 AssertedBlockScope2AssertedScriptGlobalScope4AssignmentTargetIdentifier
 BinaryExpression
 Block
-ForStatement
+DataProperty
+ForStatement0LiteralBooleanExpression
+&
+LiteralPropertyName
+ObjectExpression
 Script
 UpdateExpression
 [
@@ -38,7 +41,8 @@ abcdefghi0
 assertEq
 gcslice
 gczeal
-newMaybeExternalString
+maybeExternal
+newString
 shrinking
 startgc
 +
@@ -49,6 +53,9 @@ TREE
 ]
 identity
 ;
+&
 ?
 Y
+(
 j
+"

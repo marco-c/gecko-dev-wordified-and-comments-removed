@@ -41,9 +41,14 @@ abcdefghi0
 ;
 assertEq
 (
-newMaybeExternalString
+newString
 (
 s
+{
+maybeExternal
+:
+true
+}
 )
 s
 )

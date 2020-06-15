@@ -3,10 +3,15 @@ oomAfterAllocations
 1
 )
 ;
-newExternalString
+newString
 (
 "
 a
 "
+{
+external
+:
+true
+}
 )
 ;
