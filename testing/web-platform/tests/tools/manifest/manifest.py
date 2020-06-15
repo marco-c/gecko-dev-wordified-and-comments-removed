@@ -7,6 +7,10 @@ json
 import
 os
 from
+atomicwrites
+import
+atomic_write
+from
 copy
 import
 deepcopy
@@ -2137,12 +2141,12 @@ dir_name
 )
     
 with
-open
+atomic_write
 (
 manifest_path
-"
-w
-"
+overwrite
+=
+True
 )
 as
 f
