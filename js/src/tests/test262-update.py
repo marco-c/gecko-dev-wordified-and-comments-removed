@@ -232,6 +232,12 @@ dayPeriod
 "
     
 "
+Promise
+.
+any
+"
+    
+"
 AggregateError
 "
 ]
