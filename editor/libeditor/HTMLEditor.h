@@ -1764,7 +1764,7 @@ DeleteTableCellContentsWithTransaction
 ;
 static
 void
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -1792,7 +1792,7 @@ outOffset
 ;
 static
 void
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -2127,7 +2127,7 @@ aAttribute
 ;
 enum
 class
-SkipWhitespace
+SkipWhiteSpace
 {
 Yes
 No
@@ -2140,9 +2140,9 @@ GetPriorHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 =
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 No
@@ -2156,9 +2156,9 @@ GetNextHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 =
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 No
@@ -2167,12 +2167,12 @@ const
 ;
 static
 bool
-SkippableWhitespace
+SkippableWhiteSpace
 (
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 aSkipWS
 )
 {
@@ -2180,7 +2180,7 @@ return
 aSkipWS
 =
 =
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes

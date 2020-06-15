@@ -2481,7 +2481,7 @@ Maybe
 <
 uint32_t
 >
-GetPreviousCharOffsetExceptASCIIWhitespaces
+GetPreviousCharOffsetExceptASCIIWhiteSpaces
 (
 const
 EditorDOMPointInText
@@ -2499,7 +2499,7 @@ IsSetAndValid
 )
 ;
 return
-GetPreviousCharOffsetExceptASCIIWhitespaces
+GetPreviousCharOffsetExceptASCIIWhiteSpaces
 (
 *
 aPoint
@@ -2520,7 +2520,7 @@ Maybe
 <
 uint32_t
 >
-GetPreviousCharOffsetExceptASCIIWhitespaces
+GetPreviousCharOffsetExceptASCIIWhiteSpaces
 (
 const
 dom
@@ -2610,7 +2610,7 @@ Maybe
 <
 uint32_t
 >
-GetNextCharOffsetExceptASCIIWhitespaces
+GetNextCharOffsetExceptASCIIWhiteSpaces
 (
 const
 EditorDOMPointInText
@@ -2628,7 +2628,7 @@ IsSetAndValid
 )
 ;
 return
-GetNextCharOffsetExceptASCIIWhitespaces
+GetNextCharOffsetExceptASCIIWhiteSpaces
 (
 *
 aPoint
@@ -2649,7 +2649,7 @@ Maybe
 <
 uint32_t
 >
-GetNextCharOffsetExceptASCIIWhitespaces
+GetNextCharOffsetExceptASCIIWhiteSpaces
 (
 const
 dom
@@ -2740,7 +2740,7 @@ Nothing
 }
 static
 uint32_t
-GetFirstASCIIWhitespaceOffsetCollapsedWith
+GetFirstASCIIWhiteSpaceOffsetCollapsedWith
 (
 const
 EditorDOMPointInText
@@ -2777,7 +2777,7 @@ IsCharASCIISpace
 )
 ;
 return
-GetFirstASCIIWhitespaceOffsetCollapsedWith
+GetFirstASCIIWhiteSpaceOffsetCollapsedWith
 (
 *
 aPoint
@@ -2795,7 +2795,7 @@ Offset
 }
 static
 uint32_t
-GetFirstASCIIWhitespaceOffsetCollapsedWith
+GetFirstASCIIWhiteSpaceOffsetCollapsedWith
 (
 const
 dom
@@ -2855,7 +2855,7 @@ uint32_t
 >
 previousVisibleCharOffset
 =
-GetPreviousCharOffsetExceptASCIIWhitespaces
+GetPreviousCharOffsetExceptASCIIWhiteSpaces
 (
 aTextNode
 aOffset

@@ -3690,7 +3690,7 @@ void
 HTMLEditor
 :
 :
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -3863,7 +3863,7 @@ void
 HTMLEditor
 :
 :
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 nsIContent
 *
@@ -24206,7 +24206,7 @@ GetPriorHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 aSkipWS
 )
 const
@@ -24248,7 +24248,7 @@ HTML
 )
 |
 |
-SkippableWhitespace
+SkippableWhiteSpace
 (
 content
 aSkipWS
@@ -24280,7 +24280,7 @@ GetNextHTMLSibling
 nsINode
 *
 aNode
-SkipWhitespace
+SkipWhiteSpace
 aSkipWS
 )
 const
@@ -24322,7 +24322,7 @@ HTML
 )
 |
 |
-SkippableWhitespace
+SkippableWhiteSpace
 (
 content
 aSkipWS

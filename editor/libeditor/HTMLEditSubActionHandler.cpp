@@ -2630,7 +2630,7 @@ this
 pointToAdjust
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -2662,7 +2662,7 @@ NS_WARNING
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -2717,7 +2717,7 @@ StartRawPoint
 )
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -2745,7 +2745,7 @@ rvIgnored
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -2790,7 +2790,7 @@ EndRawPoint
 )
 )
 .
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 ;
@@ -2818,7 +2818,7 @@ rvIgnored
 WSRunObject
 :
 :
-AdjustWhitespace
+AdjustWhiteSpace
 (
 )
 failed
@@ -27748,7 +27748,7 @@ GetNextHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -27887,7 +27887,7 @@ GetPriorHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -28022,7 +28022,7 @@ GetPriorHTMLSibling
 (
 &
 aContent
-SkipWhitespace
+SkipWhiteSpace
 :
 :
 Yes
@@ -39775,7 +39775,7 @@ Backward
 HTMLEditor
 :
 :
-IsPrevCharInNodeWhitespace
+IsPrevCharInNodeWhiteSpace
 (
 newContent
 newOffset
@@ -39797,7 +39797,7 @@ else
 HTMLEditor
 :
 :
-IsNextCharInNodeWhitespace
+IsNextCharInNodeWhiteSpace
 (
 newContent
 newOffset
