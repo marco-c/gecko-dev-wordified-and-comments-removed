@@ -978,10 +978,10 @@ guard64
 dll
 "
 (
-5
-12
-59641
-2599
+8
+4
+0
+65535
 )
 )
 DllBlocklistEntry
