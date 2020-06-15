@@ -21,6 +21,13 @@ nsNetUtil
 .
 h
 "
+#
+include
+"
+nsStringStream
+.
+h
+"
 TEST
 (
 TestReadStreamToString
