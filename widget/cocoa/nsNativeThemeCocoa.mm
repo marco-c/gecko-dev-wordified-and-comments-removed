@@ -1785,11 +1785,12 @@ frame
 ;
 frame
 =
-frame
--
->
-GetParent
+nsLayoutUtils
+:
+:
+GetCrossDocParentFrame
 (
+frame
 )
 )
 {
