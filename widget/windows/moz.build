@@ -167,6 +167,11 @@ WinCompositorWindowThread
 h
 '
 '
+WinContentSystemParameters
+.
+h
+'
+'
 WindowsEMF
 .
 h
@@ -468,6 +473,11 @@ cpp
 '
 '
 WinCompositorWidget
+.
+cpp
+'
+'
+WinContentSystemParameters
 .
 cpp
 '
