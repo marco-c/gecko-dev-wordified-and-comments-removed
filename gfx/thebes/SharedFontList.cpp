@@ -4877,6 +4877,15 @@ rec
 mFamilyName
 )
 ;
+if
+(
+!
+family
+)
+{
+continue
+;
+}
 faces
 [
 i
