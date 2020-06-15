@@ -1,5 +1,12 @@
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 seccomon
 .
@@ -10725,8 +10732,7 @@ keyclass
 =
 CKO_PUBLIC_KEY
 ;
-unsigned
-int
+size_t
 tsize
 =
 0
@@ -10963,8 +10969,7 @@ keyclass
 =
 CKO_PRIVATE_KEY
 ;
-unsigned
-int
+size_t
 tsize
 =
 0

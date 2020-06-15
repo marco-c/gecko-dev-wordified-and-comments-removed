@@ -3164,9 +3164,7 @@ certCacheLock
 }
 else
 {
-PORT_Assert
-(
-!
+PORT_AssertNotReached
 (
 "
 Didn
@@ -3178,7 +3176,6 @@ Cache
 Lock
 !
 "
-)
 )
 ;
 psce
@@ -3300,9 +3297,7 @@ srvNameCacheLock
 }
 else
 {
-PORT_Assert
-(
-!
+PORT_AssertNotReached
 (
 "
 Didn
@@ -3314,7 +3309,6 @@ Cache
 Lock
 !
 "
-)
 )
 ;
 psce

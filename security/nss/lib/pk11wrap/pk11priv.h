@@ -6,6 +6,13 @@ define
 _PK11PRIV_H_
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 plarena
 .
@@ -240,7 +247,7 @@ const
 char
 *
 staticString
-int
+size_t
 staticStringLen
 )
 ;

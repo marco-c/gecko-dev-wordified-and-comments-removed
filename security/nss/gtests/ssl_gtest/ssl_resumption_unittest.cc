@@ -3754,7 +3754,7 @@ Connect
 (
 )
 ;
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;
@@ -4003,7 +4003,7 @@ Connect
 (
 )
 ;
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;
@@ -4377,7 +4377,7 @@ Connect
 (
 )
 ;
-SSLInt_ClearSelfEncryptKey
+ClearServerCache
 (
 )
 ;

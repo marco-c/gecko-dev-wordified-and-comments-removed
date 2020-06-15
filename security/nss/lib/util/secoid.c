@@ -10363,7 +10363,7 @@ SECOidData
 *
 oid
 ;
-int
+SECOidTag
 i
 ;
 char

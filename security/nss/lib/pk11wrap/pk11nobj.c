@@ -1,5 +1,12 @@
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 secport
 .
@@ -2630,7 +2637,8 @@ NULL
 }
 }
 ;
-int
+const
+size_t
 tsize
 =
 sizeof

@@ -435,6 +435,16 @@ PORT_AssertArg
 PR_ASSERT_ARG
 #
 define
+PORT_AssertNotReached
+(
+reasonStr
+)
+PR_NOT_REACHED
+(
+reasonStr
+)
+#
+define
 PORT_GET_BYTE_BE
 (
 value

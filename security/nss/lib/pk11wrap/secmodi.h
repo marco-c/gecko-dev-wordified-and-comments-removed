@@ -7,6 +7,13 @@ _SECMODI_H_
 1
 #
 include
+<
+stddef
+.
+h
+>
+#
+include
 "
 pkcs11
 .
@@ -450,7 +457,7 @@ slot
 CK_ATTRIBUTE
 *
 inTemplate
-int
+size_t
 tsize
 )
 ;
@@ -464,7 +471,7 @@ slot
 CK_ATTRIBUTE
 *
 inTemplate
-int
+size_t
 tsize
 int
 *
