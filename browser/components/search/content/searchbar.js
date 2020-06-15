@@ -3127,6 +3127,17 @@ aValue
 =
 >
 {
+if
+(
+this
+.
+textbox
+.
+popup
+.
+_oneOffButtons
+)
+{
 this
 .
 textbox
@@ -3139,6 +3150,7 @@ query
 =
 aValue
 ;
+}
 return
 aValue
 ;

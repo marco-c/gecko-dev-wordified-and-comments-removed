@@ -3751,6 +3751,9 @@ null
 _telemetryId
 :
 null
+_engineAddedToStore
+:
+false
 async
 _initFromFile
 (
@@ -5115,6 +5118,13 @@ _iconURI
 =
 uri
 ;
+if
+(
+this
+.
+_engineAddedToStore
+)
+{
 SearchUtils
 .
 notifyAction
@@ -5127,6 +5137,7 @@ MODIFIED_TYPE
 CHANGED
 )
 ;
+}
 this
 .
 _hasPreferredIcon
@@ -5376,6 +5387,13 @@ dataURL
 )
 ;
 }
+if
+(
+engine
+.
+_engineAddedToStore
+)
+{
 SearchUtils
 .
 notifyAction
@@ -5388,6 +5406,7 @@ MODIFIED_TYPE
 CHANGED
 )
 ;
+}
 engine
 .
 _hasPreferredIcon
