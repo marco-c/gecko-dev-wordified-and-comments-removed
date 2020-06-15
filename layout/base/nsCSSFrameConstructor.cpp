@@ -36182,6 +36182,14 @@ nextContinuation
 )
 ;
 }
+aFrame
+-
+>
+RemoveStateBits
+(
+NS_FRAME_DYNAMIC_REFLOW_ROOT
+)
+;
 MOZ_ASSERT
 (
 !
