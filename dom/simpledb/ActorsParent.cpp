@@ -6951,7 +6951,7 @@ fileSize
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (

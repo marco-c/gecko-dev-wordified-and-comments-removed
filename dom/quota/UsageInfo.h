@@ -58,7 +58,7 @@ mFileUsage
 ;
 }
 void
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 const
 Maybe
@@ -76,7 +76,7 @@ aUsage
 ;
 }
 void
-AppendToFileUsage
+IncrementFileUsage
 (
 const
 Maybe

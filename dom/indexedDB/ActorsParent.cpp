@@ -78058,7 +78058,7 @@ fileSize
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
@@ -78099,7 +78099,7 @@ fileSize
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
@@ -78180,7 +78180,7 @@ rv
 aUsageInfo
 -
 >
-AppendToFileUsage
+IncrementFileUsage
 (
 usage
 )

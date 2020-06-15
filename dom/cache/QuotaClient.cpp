@@ -530,7 +530,7 @@ fileSize
 aUsageInfo
 -
 >
-AppendToFileUsage
+IncrementFileUsage
 (
 Some
 (
@@ -1763,7 +1763,7 @@ usage
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
@@ -1779,7 +1779,7 @@ NS_OK
 aUsageInfo
 -
 >
-AppendToFileUsage
+IncrementFileUsage
 (
 Some
 (
@@ -2167,7 +2167,7 @@ fileSize
 aUsageInfo
 -
 >
-AppendToDatabaseUsage
+IncrementDatabaseUsage
 (
 Some
 (
