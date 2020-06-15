@@ -390,6 +390,12 @@ PreloaderBase
 (
 )
 ;
+nsCOMPtr
+<
+nsIChannel
+>
+mChannel
+;
 private
 :
 void
@@ -476,12 +482,6 @@ nsTArray
 RedirectRecord
 >
 mRedirectRecords
-;
-nsCOMPtr
-<
-nsIChannel
->
-mChannel
 ;
 PreloadHashKey
 mKey
