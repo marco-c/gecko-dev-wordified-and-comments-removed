@@ -3356,15 +3356,9 @@ HandleObject
 weakRef
 )
 ;
-bool
+void
 unregisterWeakRef
 (
-JSContext
-*
-cx
-JSObject
-*
-target
 js
 :
 :
