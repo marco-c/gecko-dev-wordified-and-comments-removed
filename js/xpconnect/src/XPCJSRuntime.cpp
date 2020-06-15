@@ -647,6 +647,9 @@ stack
 message
 "
 "
+errors
+"
+"
 lastIndex
 "
 "
