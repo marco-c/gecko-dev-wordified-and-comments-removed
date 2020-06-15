@@ -128,8 +128,10 @@ ClientCanvasLayer
 )
 ;
 }
+RefPtr
+<
 CanvasRenderer
-*
+>
 CreateCanvasRendererInternal
 (
 )
@@ -268,7 +270,7 @@ override
 mCanvasRenderer
 -
 >
-Destroy
+DisconnectClient
 (
 )
 ;

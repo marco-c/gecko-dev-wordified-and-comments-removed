@@ -182,8 +182,10 @@ TYPE_CANVAS
 )
 protected
 :
+RefPtr
+<
 CanvasRenderer
-*
+>
 CreateCanvasRendererInternal
 (
 )

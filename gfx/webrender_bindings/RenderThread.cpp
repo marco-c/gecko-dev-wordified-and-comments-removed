@@ -5219,7 +5219,9 @@ GLContextProviderEGL
 :
 CreateHeadless
 (
+{
 flags
+}
 &
 discardFailureId
 )
@@ -5492,6 +5494,7 @@ GLContextProvider
 :
 CreateHeadless
 (
+{
 gl
 :
 :
@@ -5507,6 +5510,7 @@ CreateContextFlags
 :
 :
 FORCE_ENABLE_HARDWARE
+}
 &
 failureUnused
 )

@@ -728,6 +728,7 @@ X11
 MacIOSurface
 AndroidNativeWindow
 WaylandDMABUF
+EGLImage
 Last
 }
 ;
