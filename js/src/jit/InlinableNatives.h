@@ -625,6 +625,11 @@ IntrinsicToInteger
 \
 _
 (
+IntrinsicToLength
+)
+\
+_
+(
 IntrinsicToString
 )
 \

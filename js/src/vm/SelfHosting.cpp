@@ -13970,7 +13970,7 @@ intrinsic_ToInteger
 0
 IntrinsicToInteger
 )
-JS_FN
+JS_INLINABLE_FN
 (
 "
 ToLength
@@ -13978,6 +13978,7 @@ ToLength
 intrinsic_ToLength
 1
 0
+IntrinsicToLength
 )
 JS_INLINABLE_FN
 (

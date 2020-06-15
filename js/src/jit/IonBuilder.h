@@ -4661,6 +4661,14 @@ callInfo
 )
 ;
 InliningResult
+inlineToLength
+(
+CallInfo
+&
+callInfo
+)
+;
+InliningResult
 inlineToString
 (
 CallInfo

@@ -7065,6 +7065,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachToLength
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachIsObject
 (
 HandleFunction
