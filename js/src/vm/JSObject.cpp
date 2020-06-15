@@ -15758,9 +15758,9 @@ creationOptions
 getToSourceEnabled
 (
 )
-)
-{
-return
+&
+&
+(
 id
 =
 =
@@ -15791,6 +15791,11 @@ names
 .
 uneval
 )
+)
+)
+{
+return
+true
 ;
 }
 if
@@ -15825,9 +15830,8 @@ WeakRefSpecifier
 :
 :
 EnabledWithoutCleanupSome
-)
-{
-return
+&
+&
 id
 =
 =
@@ -15842,6 +15846,10 @@ names
 .
 cleanupSome
 )
+)
+{
+return
+true
 ;
 }
 return
