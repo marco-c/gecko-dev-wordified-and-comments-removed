@@ -779,6 +779,19 @@ suites
 ]
 )
         
+if
+prefix
+:
+            
+all_perfherder_data
+[
+"
+prefix
+"
+]
+=
+prefix
+        
 with
 pathlib
 .
