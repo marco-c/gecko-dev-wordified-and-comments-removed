@@ -42139,7 +42139,7 @@ result
 int32_t
 thisLine
 =
-nsFrame
+nsIFrame
 :
 :
 GetLineNumber
@@ -42536,7 +42536,7 @@ this
 int32_t
 thisLine
 =
-nsFrame
+nsIFrame
 :
 :
 GetLineNumber
@@ -43397,7 +43397,7 @@ NS_ERROR_NOT_IMPLEMENTED
 ;
 }
 int32_t
-nsFrame
+nsIFrame
 :
 :
 GetLineNumber
@@ -43696,7 +43696,7 @@ blockFrame
 int32_t
 thisLine
 =
-nsFrame
+nsIFrame
 :
 :
 GetLineNumber
