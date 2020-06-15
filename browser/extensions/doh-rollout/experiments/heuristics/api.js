@@ -157,6 +157,9 @@ objects
 :
 [
 "
+loaded
+"
+"
 enabled
 "
 "
@@ -173,9 +176,6 @@ UIOk
 "
 "
 UIDisabled
-"
-"
-rollback
 "
 ]
 extra_keys
