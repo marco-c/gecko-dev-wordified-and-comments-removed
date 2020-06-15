@@ -9569,6 +9569,17 @@ get
 (
 )
 ;
+if
+(
+compilationInfo
+.
+topLevelAsmJS
+)
+{
+return
+true
+;
+}
 MOZ_ASSERT
 (
 stencil
