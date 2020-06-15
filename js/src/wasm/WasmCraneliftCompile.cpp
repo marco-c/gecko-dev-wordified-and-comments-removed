@@ -742,6 +742,11 @@ currentOffset
 ;
 if
 (
+func
+.
+code_size
+&
+&
 !
 masm
 .
