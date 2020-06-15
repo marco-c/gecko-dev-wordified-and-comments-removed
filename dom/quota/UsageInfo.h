@@ -22,15 +22,6 @@ include
 "
 mozilla
 /
-Atomics
-.
-h
-"
-#
-include
-"
-mozilla
-/
 CheckedInt
 .
 h
