@@ -1576,7 +1576,7 @@ return
 mContext
 -
 >
-Present
+OnBeforePaintTransaction
 (
 )
 ;
