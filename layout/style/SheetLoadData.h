@@ -381,6 +381,11 @@ SheetLoadData
 mParentData
 ;
 uint32_t
+mExpirationTime
+=
+0
+;
+uint32_t
 mPendingChildren
 ;
 const
