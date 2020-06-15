@@ -659,12 +659,6 @@ pageErrors
 =
 0
 ;
-const
-handlers
-=
-{
-onConsoleAPICall
-:
 async
 function
 onConsoleAPICall
@@ -729,8 +723,6 @@ checkConsoleAPICache
 ;
 }
 }
-onConsoleServiceMessage
-:
 async
 function
 onConsoleServiceMessage
@@ -810,8 +802,6 @@ testPageErrors
 ;
 }
 }
-}
-;
 function
 startTest
 (
@@ -831,7 +821,7 @@ new
 ConsoleAPIListener
 (
 top
-handlers
+onConsoleAPICall
 )
 ;
 consoleAPIListener
@@ -1041,8 +1031,6 @@ new
 ConsoleServiceListener
 (
 null
-handlers
-.
 onConsoleServiceMessage
 )
 ;

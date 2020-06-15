@@ -208,11 +208,8 @@ attach
 )
 ;
 const
-owner
-=
-{
 onConsoleAPICall
-:
+=
 message
 =
 >
@@ -236,7 +233,6 @@ message
 )
 ;
 }
-}
 ;
 const
 listener
@@ -247,7 +243,7 @@ ConsoleAPIListener
 targetActor
 .
 window
-owner
+onConsoleAPICall
 targetActor
 .
 consoleAPIListenerOptions
@@ -444,9 +440,7 @@ return
 }
 listener
 .
-owner
-.
-onConsoleAPICall
+handler
 (
 message
 )
