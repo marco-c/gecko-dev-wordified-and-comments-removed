@@ -11817,6 +11817,13 @@ CanGC
 cx_
 prefix
 propAtom
+js
+:
+:
+gc
+:
+:
+TenuredHeap
 )
 )
 ;
