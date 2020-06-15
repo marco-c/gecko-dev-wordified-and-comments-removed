@@ -934,8 +934,10 @@ return
 true
 ;
 }
-static
 bool
+js
+:
+:
 ToLength
 (
 JSContext
