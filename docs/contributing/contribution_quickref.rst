@@ -423,9 +423,10 @@ ref
 More
 information
 <
+Building
+Firefox
+On
 Linux
-build
-preparation
 >
 Windows
 dependencies
