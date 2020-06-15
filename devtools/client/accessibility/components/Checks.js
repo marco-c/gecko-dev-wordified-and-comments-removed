@@ -241,6 +241,12 @@ role
 "
 presentation
 "
+tabIndex
+:
+"
+-
+1
+"
 }
 L10N
 .
@@ -445,6 +451,12 @@ role
 :
 "
 presentation
+"
+tabIndex
+:
+"
+-
+1
 "
 }
 List

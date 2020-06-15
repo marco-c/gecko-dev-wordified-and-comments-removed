@@ -558,6 +558,12 @@ role
 "
 presentation
 "
+tabIndex
+:
+"
+-
+1
+"
 className
 :
 "
@@ -597,6 +603,12 @@ role
 :
 "
 presentation
+"
+tabIndex
+:
+"
+-
+1
 "
 }
 Icon
