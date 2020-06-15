@@ -2061,6 +2061,9 @@ cursorActivity
 focus
 "
 "
+blur
+"
+"
 scroll
 "
 ]
