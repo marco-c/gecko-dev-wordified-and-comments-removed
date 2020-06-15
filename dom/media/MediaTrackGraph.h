@@ -2630,13 +2630,13 @@ ApplyAudioContextOperation
 MediaTrack
 *
 aDestinationTrack
-const
 nsTArray
 <
+RefPtr
+<
 MediaTrack
-*
 >
-&
+>
 aTracks
 dom
 :

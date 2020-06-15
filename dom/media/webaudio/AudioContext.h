@@ -1312,11 +1312,13 @@ WebAudioDecodeJob
 ;
 nsTArray
 <
+RefPtr
+<
 mozilla
 :
 :
 MediaTrack
-*
+>
 >
 GetAllTracks
 (
