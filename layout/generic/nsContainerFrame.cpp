@@ -9298,11 +9298,9 @@ nsFrameList
 *
 overflowContainers
 =
-GetPropTableFrames
+DrainExcessOverflowContainersList
 (
-OverflowContainersProperty
-(
-)
+MergeSortedFrameListsFor
 )
 ;
 if
