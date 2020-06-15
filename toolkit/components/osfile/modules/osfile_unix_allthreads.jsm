@@ -369,7 +369,7 @@ this
 unixErrno
 )
 .
-readString
+readStringReplaceMalformed
 (
 )
 +
