@@ -28,7 +28,7 @@ indicator
 -
 height
 :
-60px
+32px
 ;
 -
 -
@@ -215,6 +215,10 @@ window
 dragging
 :
 drag
+;
+overflow
+:
+hidden
 ;
 }
 button
@@ -789,7 +793,7 @@ radius
 ;
 padding
 :
-10px
+5px
 ;
 margin
 -
