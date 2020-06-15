@@ -7332,7 +7332,7 @@ pos
 ;
 }
 const_iterator
-RemoveElementsAt
+RemoveElementsRange
 (
 const_iterator
 first

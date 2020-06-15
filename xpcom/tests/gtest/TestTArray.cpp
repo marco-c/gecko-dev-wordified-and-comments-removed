@@ -4189,7 +4189,7 @@ array
 TEST
 (
 TArray
-RemoveElementsAt_ByIterator
+RemoveElementsRange_ByIterator
 )
 {
 nsTArray
@@ -4232,7 +4232,7 @@ itAfter
 =
 array
 .
-RemoveElementsAt
+RemoveElementsRange
 (
 it
 array
