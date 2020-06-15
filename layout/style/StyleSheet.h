@@ -402,7 +402,6 @@ already_AddRefed
 <
 RawServoStyleSheetContents
 >
-aSheetContents
 )
 ;
 void
