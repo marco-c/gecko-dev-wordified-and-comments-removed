@@ -65,7 +65,8 @@ key
 )
 ;
 throw
-"
-x
-"
+new
+ReferenceError
+(
+)
 ;
