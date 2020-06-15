@@ -6,6 +6,11 @@ define
 TaskQueue_h_
 #
 include
+<
+queue
+>
+#
+include
 "
 mozilla
 /
@@ -51,9 +56,11 @@ h
 "
 #
 include
-<
-queue
->
+"
+nsIDirectTaskDispatcher
+.
+h
+"
 #
 include
 "
@@ -84,6 +91,8 @@ TaskQueue
 :
 public
 AbstractThread
+public
+nsIDirectTaskDispatcher
 {
 class
 EventTargetWrapper
@@ -129,6 +138,8 @@ aRetainFlags
 false
 )
 ;
+NS_DECL_ISUPPORTS_INHERITED
+NS_DECL_NSIDIRECTTASKDISPATCHER
 TaskDispatcher
 &
 TailDispatcher
@@ -348,6 +359,7 @@ aQueue
 :
 AutoTaskDispatcher
 (
+aQueue
 true
 )
 mQueue
@@ -491,6 +503,9 @@ char
 *
 const
 mName
+;
+SimpleTaskQueue
+mDirectTasks
 ;
 class
 Runner

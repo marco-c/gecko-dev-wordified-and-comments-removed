@@ -3,6 +3,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIDirectTaskDispatcher
+.
+idl
+'
+'
 nsIEnvironment
 .
 idl
