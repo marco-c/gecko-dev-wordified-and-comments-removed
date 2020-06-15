@@ -1247,6 +1247,13 @@ LoaderReusableStyleSheets
 aSavedSheets
 )
 ;
+void
+MaybeNotifyOfResourceTiming
+(
+SheetLoadData
+&
+)
+;
 enum
 class
 UseSystemPrincipal

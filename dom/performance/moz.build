@@ -36,6 +36,11 @@ PerformanceEntry
 h
 '
 '
+PerformanceMainThread
+.
+h
+'
+'
 PerformanceMark
 .
 h
