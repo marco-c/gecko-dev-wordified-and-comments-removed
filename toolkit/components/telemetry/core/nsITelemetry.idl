@@ -141,6 +141,14 @@ DATASET_PRERELEASE_CHANNELS
 implicit_jscontext
 ]
 jsval
+getCategoricalLabels
+(
+)
+;
+[
+implicit_jscontext
+]
+jsval
 getSnapshotForHistograms
 (
 [
