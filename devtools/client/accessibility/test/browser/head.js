@@ -2865,7 +2865,11 @@ panel
 accessibilityProxy
 :
 {
+accessibilityFront
+:
+{
 accessibleWalkerFront
+}
 }
 }
 }
