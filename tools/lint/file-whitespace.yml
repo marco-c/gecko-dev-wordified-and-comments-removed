@@ -222,14 +222,6 @@ py
 -
 dom
 /
-encoding
-/
-encodings2arrays
-.
-py
--
-dom
-/
 media
 /
 gtest
