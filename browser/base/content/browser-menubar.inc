@@ -2008,8 +2008,7 @@ gPageStyleMenu
 .
 switchStyleSheet
 (
-'
-'
+null
 )
 ;
 "
