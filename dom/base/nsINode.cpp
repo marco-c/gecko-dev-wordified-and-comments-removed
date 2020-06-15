@@ -3497,14 +3497,13 @@ IsEmpty
 )
 )
 {
-NS_OBSERVER_AUTO_ARRAY_NOTIFY_OBSERVERS
+NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS
 (
 slots
 -
 >
 mMutationObservers
 nsIMutationObserver
-1
 NodeWillBeDestroyed
 (
 this
