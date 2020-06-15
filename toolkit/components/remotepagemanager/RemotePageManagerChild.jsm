@@ -69,7 +69,6 @@ MessagePort
 {
 constructor
 (
-actor
 window
 )
 {
@@ -94,7 +93,11 @@ nextPortID
 ;
 super
 (
-actor
+window
+.
+docShell
+.
+messageManager
 portID
 )
 ;
