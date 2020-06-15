@@ -39,9 +39,7 @@ chooseFileSystemEntries
 The
 result
 of
-FileSystemDirectoryHandle
-.
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 .
@@ -196,17 +194,8 @@ try
 {
 window
 .
-FileSystemDirectoryHandle
-.
-getSystemDirectory
+getOriginPrivateDirectory
 (
-{
-type
-:
-'
-sandbox
-'
-}
 )
 .
 then
@@ -219,7 +208,7 @@ then
 post_message
 (
 '
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 :
@@ -238,7 +227,7 @@ error
 {
 post_message
 (
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 :
@@ -262,7 +251,7 @@ error
 {
 post_message
 (
-getSystemDirectory
+getOriginPrivateDirectory
 (
 )
 :
