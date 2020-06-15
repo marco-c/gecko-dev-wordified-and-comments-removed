@@ -19,3 +19,6 @@ patch
 change_to_DCHECK_in_CloseHandleWrapper
 .
 patch
+move_shared_memory_duplication_after_initialization
+.
+patch
