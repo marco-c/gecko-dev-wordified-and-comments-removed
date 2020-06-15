@@ -908,7 +908,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_TooltipDelay
+IntID
+:
+:
+TooltipDelay
 500
 )
 nsITimer

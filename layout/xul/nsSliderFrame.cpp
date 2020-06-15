@@ -3132,7 +3132,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ScrollToClick
+IntID
+:
+:
+ScrollToClick
 false
 )
 ;

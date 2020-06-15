@@ -14982,7 +14982,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_TabFocusModel
+IntID
+:
+:
+TabFocusModel
 &
 nsIContent
 :

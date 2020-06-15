@@ -3518,7 +3518,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_UseOverlayScrollbars
+IntID
+:
+:
+UseOverlayScrollbars
 )
 !
 =

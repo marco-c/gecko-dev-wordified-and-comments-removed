@@ -2434,7 +2434,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SubmenuDelay
+IntID
+:
+:
+SubmenuDelay
 300
 )
 ;
@@ -4383,7 +4386,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ChosenMenuItemsShouldBlink
+IntID
+:
+:
+ChosenMenuItemsShouldBlink
 0
 )
 ;

@@ -11665,7 +11665,10 @@ GetInt
 nsLookAndFeel
 :
 :
-eIntID_UseOverlayScrollbars
+IntID
+:
+:
+UseOverlayScrollbars
 )
 !
 =

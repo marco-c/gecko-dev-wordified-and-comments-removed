@@ -350,7 +350,10 @@ tmpAction
 LookAndFeel
 :
 :
-eIntID_ScrollButtonLeftMouseButtonAction
+IntID
+:
+:
+ScrollButtonLeftMouseButtonAction
 ;
 }
 else
@@ -370,7 +373,10 @@ tmpAction
 LookAndFeel
 :
 :
-eIntID_ScrollButtonMiddleMouseButtonAction
+IntID
+:
+:
+ScrollButtonMiddleMouseButtonAction
 ;
 }
 else
@@ -390,7 +396,10 @@ tmpAction
 LookAndFeel
 :
 :
-eIntID_ScrollButtonRightMouseButtonAction
+IntID
+:
+:
+ScrollButtonRightMouseButtonAction
 ;
 }
 else
@@ -904,7 +913,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_ScrollbarButtonAutoRepeatBehavior
+IntID
+:
+:
+ScrollbarButtonAutoRepeatBehavior
 0
 )
 )

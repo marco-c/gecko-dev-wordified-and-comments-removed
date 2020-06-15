@@ -5551,7 +5551,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SubmenuDelay
+IntID
+:
+:
+SubmenuDelay
 300
 )
 ;
@@ -12180,7 +12183,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SkipNavigatingDisabledMenuItem
+IntID
+:
+:
+SkipNavigatingDisabledMenuItem
 0
 )
 !

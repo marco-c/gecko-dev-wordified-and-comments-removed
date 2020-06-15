@@ -16126,7 +16126,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_SelectTextfieldsOnKeyFocus
+IntID
+:
+:
+SelectTextfieldsOnKeyFocus
 &
 selectTextfieldsOnKeyFocus
 )

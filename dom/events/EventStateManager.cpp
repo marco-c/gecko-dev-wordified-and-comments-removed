@@ -8103,7 +8103,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_DragThresholdX
+IntID
+:
+:
+DragThresholdX
 0
 )
 ;
@@ -8117,7 +8120,10 @@ GetInt
 LookAndFeel
 :
 :
-eIntID_DragThresholdY
+IntID
+:
+:
+DragThresholdY
 0
 )
 ;
