@@ -142,25 +142,24 @@ SEC_WEBSOCKET_KEY_HEADER
 )
 )
     
-close_body
+request
+.
+connection
+.
+write
+(
+msg
+)
+    
+body
 =
 stream
 .
 create_closing_handshake_body
 (
-1001
+1000
 '
-PASS
 '
-)
-    
-close_frame
-=
-stream
-.
-create_close_frame
-(
-close_body
 )
     
 request
@@ -169,9 +168,12 @@ connection
 .
 write
 (
-msg
-+
-close_frame
+stream
+.
+create_close_frame
+(
+body
+)
 )
     
 request
