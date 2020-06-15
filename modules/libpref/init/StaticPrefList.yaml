@@ -18386,7 +18386,7 @@ oculus
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 #
 if
 defined
@@ -18438,7 +18438,7 @@ false
 endif
 mirror
 :
-once
+always
 #
 When
 enabled
@@ -18663,7 +18663,7 @@ openvr
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 #
 if
 !
@@ -18749,7 +18749,7 @@ false
 endif
 mirror
 :
-once
+always
 #
 OSVR
 device
@@ -18765,13 +18765,13 @@ osvr
 enabled
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 false
 mirror
 :
-once
+always
 #
 Pose
 prediction
