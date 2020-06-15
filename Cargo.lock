@@ -4433,7 +4433,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4456,9 +4456,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 dependencies
 =
@@ -4469,7 +4469,7 @@ cranelift
 entity
 0
 .
-64
+65
 .
 0
 "
@@ -4491,7 +4491,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4514,9 +4514,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 dependencies
 =
@@ -4549,7 +4549,7 @@ cranelift
 entity
 0
 .
-64
+65
 .
 0
 "
@@ -4595,7 +4595,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4618,9 +4618,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 dependencies
 =
@@ -4638,7 +4638,7 @@ cranelift
 entity
 0
 .
-64
+65
 .
 0
 "
@@ -4662,7 +4662,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4685,9 +4685,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 [
 [
@@ -4750,7 +4750,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4773,9 +4773,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 [
 [
@@ -4794,7 +4794,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4817,9 +4817,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 dependencies
 =
@@ -4863,7 +4863,7 @@ version
 "
 0
 .
-64
+65
 .
 0
 "
@@ -4886,9 +4886,9 @@ wasmtime
 ?
 rev
 =
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 #
-4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
+238ae3bf2111847f60089656eb97fc9345295b1f
 "
 dependencies
 =
@@ -4904,7 +4904,7 @@ cranelift
 entity
 0
 .
-64
+65
 .
 0
 "
