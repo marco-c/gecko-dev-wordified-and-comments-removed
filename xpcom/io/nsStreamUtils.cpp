@@ -3729,6 +3729,14 @@ nsIAsyncInputStream
 *
 *
 aAsyncInputStream
+bool
+aCloseWhenDone
+uint32_t
+aFlags
+uint32_t
+aSegmentSize
+uint32_t
+aSegmentCount
 )
 {
 nsCOMPtr
@@ -3882,7 +3890,7 @@ sts
 CreateInputTransport
 (
 source
-true
+aCloseWhenDone
 getter_AddRefs
 (
 transport
@@ -3917,9 +3925,9 @@ transport
 >
 OpenInputStream
 (
-0
-0
-0
+aFlags
+aSegmentSize
+aSegmentCount
 getter_AddRefs
 (
 wrapper
