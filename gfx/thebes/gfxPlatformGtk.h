@@ -359,6 +359,7 @@ bool
 UseWaylandDMABufWebGL
 (
 )
+override
 ;
 bool
 UseWaylandHardwareVideoDecoding

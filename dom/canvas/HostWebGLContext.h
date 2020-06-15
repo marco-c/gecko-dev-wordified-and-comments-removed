@@ -786,10 +786,6 @@ GetFrontBuffer
 (
 ObjectId
 fb
-layers
-:
-:
-TextureType
 )
 const
 ;

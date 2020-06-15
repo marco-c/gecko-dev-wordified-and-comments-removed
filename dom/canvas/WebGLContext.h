@@ -2060,10 +2060,6 @@ GetFrontBuffer
 (
 WebGLFramebuffer
 *
-layers
-:
-:
-TextureType
 )
 ;
 void
