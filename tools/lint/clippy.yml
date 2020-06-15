@@ -116,6 +116,15 @@ js
 /
 src
 /
+frontend
+/
+smoosh
+/
+-
+js
+/
+src
+/
 rust
 /
 shared
