@@ -1782,7 +1782,7 @@ bc
 flo
 -
 >
-GetBrowsingContext
+GetExtantBrowsingContext
 (
 )
 )
