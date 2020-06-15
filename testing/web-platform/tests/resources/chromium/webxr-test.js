@@ -3649,13 +3649,6 @@ close
 )
 ;
 }
-updateSessionGeometry
-(
-frame_size
-display_rotation
-)
-{
-}
 subscribeToHitTest
 (
 nativeOriginInformation
