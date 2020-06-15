@@ -1859,9 +1859,7 @@ define
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 array_
-obstype_
 func_
-\
 params_
 )
 \
@@ -1871,9 +1869,6 @@ do
 for
 (
 RefPtr
-<
-obstype_
->
 obs_
 :
 array_
@@ -1903,7 +1898,6 @@ define
 NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS
 (
 array_
-obstype_
 func_
 params_
 )
@@ -1913,7 +1907,7 @@ do
 \
 for
 (
-obstype_
+auto
 *
 obs_
 :
@@ -1944,10 +1938,9 @@ define
 NS_OBSERVER_ARRAY_NOTIFY_OBSERVERS_WITH_QI
 (
 array_
-basetype_
-\
 obstype_
 func_
+\
 params_
 )
 \
@@ -1956,7 +1949,7 @@ do
 \
 for
 (
-basetype_
+auto
 *
 obsbase_
 :

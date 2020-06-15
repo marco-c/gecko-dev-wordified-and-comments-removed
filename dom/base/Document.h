@@ -1841,8 +1841,6 @@ do
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 mObservers
-nsIDocumentObserver
-\
 func_
 params_
 )

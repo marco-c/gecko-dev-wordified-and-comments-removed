@@ -2274,7 +2274,6 @@ false
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 mObservers
-PerformanceObserver
 Notify
 (
 )
@@ -2600,7 +2599,6 @@ return
 NS_OBSERVER_ARRAY_NOTIFY_XPCOM_OBSERVERS
 (
 interestedObservers
-PerformanceObserver
 QueueEntry
 (
 aEntry

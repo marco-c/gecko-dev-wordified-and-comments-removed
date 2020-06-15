@@ -3503,7 +3503,6 @@ slots
 -
 >
 mMutationObservers
-nsIMutationObserver
 NodeWillBeDestroyed
 (
 this
