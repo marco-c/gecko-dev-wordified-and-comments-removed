@@ -35,6 +35,11 @@ PermissionDelegateHandler
 h
 '
 '
+PermissionDelegateIPCUtils
+.
+h
+'
+'
 PermissionManager
 .
 h
