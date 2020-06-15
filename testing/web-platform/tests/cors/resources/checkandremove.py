@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -36,6 +37,7 @@ None
 :
         
 return
+u
 "
 1
 "
@@ -44,6 +46,7 @@ else
 :
         
 return
+u
 "
 0
 "

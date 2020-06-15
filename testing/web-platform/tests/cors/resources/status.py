@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,6 +18,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -27,6 +34,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -39,6 +47,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -48,6 +57,7 @@ Expose
 -
 Headers
 "
+b
 "
 X
 -
@@ -63,6 +73,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -74,6 +85,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -83,6 +95,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 CHICKEN
@@ -93,6 +106,7 @@ PUT
 )
     
 if
+b
 '
 headers
 '
@@ -108,6 +122,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -123,6 +138,7 @@ GET
 .
 first
 (
+b
 '
 headers
 '
@@ -135,6 +151,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -142,9 +159,12 @@ Request
 -
 Method
 "
+isomorphic_encode
+(
 request
 .
 method
+)
 )
     
 response
@@ -153,6 +173,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -170,6 +191,7 @@ headers
 .
 get
 (
+b
 "
 Access
 -
@@ -179,6 +201,7 @@ Request
 -
 Method
 "
+b
 "
 "
 )
@@ -197,6 +220,7 @@ GET
 .
 first
 (
+b
 "
 code
 "
@@ -220,9 +244,11 @@ GET
 .
 first
 (
+b
 "
 text
 "
+b
 "
 OMG
 "
@@ -234,10 +260,12 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 and
+b
 "
 preflight
 "
@@ -260,6 +288,7 @@ GET
 .
 first
 (
+b
 '
 preflight
 '
@@ -278,6 +307,7 @@ code
 text
     
 if
+b
 "
 type
 "
@@ -293,6 +323,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -304,6 +335,7 @@ GET
 .
 first
 (
+b
 '
 type
 '
@@ -318,9 +350,11 @@ GET
 .
 first
 (
+b
 '
 content
 '
+b
 "
 "
 )

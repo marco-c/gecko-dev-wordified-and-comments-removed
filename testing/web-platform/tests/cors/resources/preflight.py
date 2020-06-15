@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -24,6 +26,7 @@ plain
 ]
     
 if
+b
 "
 check
 "
@@ -41,6 +44,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -68,6 +72,7 @@ None
             
 body
 =
+u
 "
 0
 "
@@ -82,6 +87,7 @@ GET
 .
 first
 (
+b
 "
 check
 "
@@ -89,6 +95,7 @@ None
 )
 =
 =
+b
 "
 keep
 "
@@ -108,6 +115,7 @@ value
             
 body
 =
+u
 "
 1
 "
@@ -122,6 +130,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -129,6 +138,7 @@ OPTIONS
         
 if
 not
+b
 "
 Access
 -
@@ -149,6 +159,7 @@ response
 set_error
 (
 400
+u
 "
 No
 Access
@@ -163,6 +174,7 @@ header
 )
             
 return
+u
 "
 ERROR
 :
@@ -184,6 +196,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -198,6 +211,7 @@ request
 .
 headers
 [
+b
 '
 Access
 -
@@ -212,6 +226,7 @@ Method
 )
         
 if
+b
 "
 max_age
 "
@@ -226,6 +241,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -239,6 +255,7 @@ request
 .
 GET
 [
+b
 '
 max_age
 '
@@ -247,6 +264,7 @@ max_age
 )
         
 if
+b
 "
 token
 "
@@ -270,6 +288,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -282,6 +301,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -291,6 +311,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -302,6 +323,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -311,6 +333,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -327,11 +350,13 @@ headers
 .
 get
 (
+b
 "
 x
 -
 print
 "
+b
 "
 NO
 "

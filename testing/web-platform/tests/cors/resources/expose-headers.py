@@ -14,6 +14,7 @@ False
     
 output
 =
+b
 "
 HTTP
 /
@@ -36,6 +37,7 @@ n
 output
 +
 =
+b
 "
 Access
 -
@@ -55,6 +57,7 @@ n
 output
 +
 =
+b
 "
 BB
 -
@@ -70,6 +73,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -91,11 +95,13 @@ GET
 .
 first
 (
+b
 "
 expose
 "
 )
 +
+b
 "
 \
 r
@@ -106,6 +112,7 @@ n
 output
 +
 =
+b
 "
 \
 r

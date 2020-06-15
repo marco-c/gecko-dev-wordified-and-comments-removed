@@ -1,5 +1,6 @@
 state_header
 =
+b
 "
 content
 -
@@ -7,6 +8,7 @@ language
 "
 etag
 =
+b
 "
 abcdef
 "
@@ -20,6 +22,7 @@ msg
 return
 (
 299
+u
 "
 Client
 Error
@@ -28,11 +31,13 @@ Error
 [
         
 (
+b
 '
 content
 -
 type
 '
+b
 '
 text
 /
@@ -41,6 +46,7 @@ plain
 )
         
 (
+b
 '
 access
 -
@@ -50,12 +56,14 @@ allow
 -
 origin
 '
+b
 "
 *
 "
 )
         
 (
+b
 '
 access
 -
@@ -69,11 +77,13 @@ state_header
 )
         
 (
+b
 '
 cache
 -
 control
 '
+b
 '
 no
 -
@@ -104,6 +114,7 @@ headers
 .
 get
 (
+b
 '
 if
 -
@@ -136,6 +147,7 @@ None
 return
 error
 (
+u
 "
 no
 req_num
@@ -164,6 +176,7 @@ req_num
 return
 error
 (
+u
 "
 req_num
 %
@@ -181,6 +194,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -209,6 +223,7 @@ headers
 append
 (
 (
+b
 "
 A
 "
@@ -221,6 +236,7 @@ headers
 append
 (
 (
+b
 "
 B
 "
@@ -241,6 +257,7 @@ inm
 return
 error
 (
+u
 "
 If
 -
@@ -259,6 +276,7 @@ else
 status
 =
 200
+u
 "
 OK
 "
@@ -268,6 +286,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -277,6 +296,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -288,11 +308,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -306,11 +328,13 @@ headers
 append
 (
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -330,6 +354,7 @@ headers
 append
 (
 (
+b
 "
 ETag
 "
@@ -340,6 +365,7 @@ etag
 return
 status
 headers
+u
 "
 Success
 "
@@ -364,6 +390,7 @@ None
 return
 error
 (
+u
 "
 If
 -
@@ -380,6 +407,7 @@ else
 return
 error
 (
+u
 "
 If
 -
@@ -418,6 +446,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -427,6 +456,7 @@ Expose
 -
 Headers
 "
+b
 "
 a
 b
@@ -446,6 +476,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -455,6 +486,7 @@ Expose
 -
 Headers
 "
+b
 "
 a
 "
@@ -473,6 +505,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -482,6 +515,7 @@ Allow
 -
 Origin
 "
+b
 "
 other
 .
@@ -497,6 +531,7 @@ example
 status
 =
 304
+u
 "
 Not
 Modified
@@ -505,5 +540,6 @@ Modified
 return
 status
 headers
+u
 "
 "

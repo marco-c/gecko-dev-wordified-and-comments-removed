@@ -14,6 +14,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -33,6 +34,7 @@ and
 match
 =
 =
+b
 "
 mybestscript
 -
@@ -46,12 +48,14 @@ status
 =
 (
 304
+u
 "
 YEP
 "
 )
         
 return
+u
 "
 "
     
@@ -61,6 +65,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -70,6 +75,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -81,11 +87,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 must
 -
@@ -99,9 +107,11 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
+b
 "
 mybestscript
 -
@@ -115,11 +125,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -128,6 +140,7 @@ javascript
 )
     
 return
+u
 "
 function
 hep

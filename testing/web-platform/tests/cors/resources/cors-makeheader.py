@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -16,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 origin
 "
@@ -25,6 +32,7 @@ headers
 .
 get
 (
+b
 '
 origin
 '
@@ -32,6 +40,7 @@ origin
 )
     
 if
+b
 "
 check
 "
@@ -49,6 +58,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -81,6 +91,7 @@ GET
 .
 first
 (
+b
 "
 check
 "
@@ -88,6 +99,7 @@ None
 )
 =
 =
+b
 "
 keep
 "
@@ -107,6 +119,7 @@ value
             
 body
 =
+u
 "
 1
 "
@@ -116,6 +129,7 @@ else
             
 body
 =
+u
 "
 0
 "
@@ -123,11 +137,13 @@ body
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -141,6 +157,7 @@ if
 origin
 !
 =
+b
 '
 none
 '
@@ -152,6 +169,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -165,6 +183,7 @@ origin
 )
     
 if
+b
 '
 origin2
 '
@@ -180,6 +199,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -195,6 +215,7 @@ GET
 .
 first
 (
+b
 '
 origin2
 '
@@ -202,6 +223,7 @@ origin2
 )
     
 if
+b
 '
 headers
 '
@@ -217,6 +239,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -232,6 +255,7 @@ GET
 .
 first
 (
+b
 '
 headers
 '
@@ -239,6 +263,7 @@ headers
 )
     
 if
+b
 '
 credentials
 '
@@ -254,6 +279,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -269,6 +295,7 @@ GET
 .
 first
 (
+b
 '
 credentials
 '
@@ -276,6 +303,7 @@ credentials
 )
     
 if
+b
 '
 methods
 '
@@ -291,6 +319,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -306,6 +335,7 @@ GET
 .
 first
 (
+b
 '
 methods
 '
@@ -320,6 +350,7 @@ GET
 .
 first
 (
+b
 '
 code
 '
@@ -350,12 +381,14 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
 :
         
 if
+b
 '
 preflight
 '
@@ -375,6 +408,7 @@ GET
 .
 first
 (
+b
 '
 preflight
 '
@@ -382,6 +416,7 @@ preflight
 )
         
 if
+b
 '
 token
 '
@@ -403,6 +438,7 @@ request
 .
 GET
 [
+b
 '
 token
 '
@@ -411,6 +447,7 @@ True
 )
     
 if
+b
 '
 location
 '
@@ -447,6 +484,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -456,6 +494,7 @@ GET
 .
 first
 (
+b
 '
 location
 '
@@ -475,7 +514,7 @@ request
 .
 headers
 .
-iteritems
+items
 (
 )
 :
@@ -492,13 +531,19 @@ values
             
 headers
 [
+isomorphic_decode
+(
 name
+)
 ]
 =
+isomorphic_decode
+(
 values
 [
 0
 ]
+)
         
 else
 :
@@ -512,22 +557,28 @@ values
     
 headers
 [
+u
 '
 get_value
 '
 ]
 =
+isomorphic_decode
+(
 request
 .
 GET
 .
 first
 (
+b
 '
 get_value
 '
+b
 '
 '
+)
 )
     
 body
@@ -546,6 +597,7 @@ code
 return
 (
 code
+u
 "
 StatusText
 "

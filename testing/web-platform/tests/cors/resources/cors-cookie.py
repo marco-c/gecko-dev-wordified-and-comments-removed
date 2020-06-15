@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 origin
 "
@@ -21,6 +22,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -35,9 +37,11 @@ GET
 .
 first
 (
+b
 "
 credentials
 "
+b
 "
 true
 "
@@ -47,11 +51,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -64,6 +70,7 @@ if
 origin
 !
 =
+b
 '
 none
 '
@@ -74,6 +81,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -91,6 +99,7 @@ if
 credentials
 !
 =
+b
 '
 none
 '
@@ -101,6 +110,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -122,9 +132,11 @@ GET
 .
 first
 (
+b
 '
 ident
 '
+b
 '
 test
 '
@@ -164,6 +176,7 @@ response
 set_cookie
 (
 ident
+b
 "
 COOKIE
 "
@@ -171,6 +184,7 @@ COOKIE
         
 body
 =
+u
 "
 NO_COOKIE
 "
