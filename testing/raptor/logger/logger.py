@@ -14,6 +14,11 @@ RaptorLogger
 )
 :
     
+app
+=
+"
+"
+    
 def
 __init__
 (
@@ -34,10 +39,51 @@ component
 )
     
 def
+set_app
+(
+self
+app_name
+)
+:
+        
+"
+"
+"
+Sets
+the
+app
+name
+to
+prefix
+messages
+with
+.
+"
+"
+"
+        
+RaptorLogger
+.
+app
+=
+"
+[
+"
++
+app_name
++
+"
+]
+"
+    
+def
 exception
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -46,6 +92,9 @@ self
 critical
 (
 message
+*
+*
+kwargs
 )
     
 def
@@ -53,6 +102,9 @@ debug
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -74,6 +126,9 @@ format
 (
 message
 )
+*
+*
+kwargs
 )
     
 def
@@ -81,6 +136,9 @@ info
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -102,6 +160,9 @@ format
 (
 message
 )
+*
+*
+kwargs
 )
     
 def
@@ -109,6 +170,9 @@ warning
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -124,12 +188,20 @@ Warning
 :
 {
 }
+{
+}
 "
 .
 format
 (
+RaptorLogger
+.
+app
 message
 )
+*
+*
+kwargs
 )
     
 def
@@ -137,6 +209,9 @@ error
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -152,12 +227,20 @@ Error
 :
 {
 }
+{
+}
 "
 .
 format
 (
+RaptorLogger
+.
+app
 message
 )
+*
+*
+kwargs
 )
     
 def
@@ -165,6 +248,9 @@ critical
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -180,12 +266,20 @@ Critical
 :
 {
 }
+{
+}
 "
 .
 format
 (
+RaptorLogger
+.
+app
 message
 )
+*
+*
+kwargs
 )
     
 def
@@ -193,6 +287,9 @@ log_raw
 (
 self
 message
+*
+*
+kwargs
 )
 :
         
@@ -204,6 +301,9 @@ logger
 log_raw
 (
 message
+*
+*
+kwargs
 )
     
 def
