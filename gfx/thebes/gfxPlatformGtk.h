@@ -351,11 +351,6 @@ UseWaylandDMABufTextures
 )
 ;
 bool
-UseWaylandDMABufVideoTextures
-(
-)
-;
-bool
 UseWaylandDMABufWebGL
 (
 )
