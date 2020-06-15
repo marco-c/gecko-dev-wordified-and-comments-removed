@@ -164,13 +164,11 @@ actual
 new
 Uint8Array
 (
-(
 await
 dst
 .
 mapReadAsync
 (
-)
 )
 )
 ;

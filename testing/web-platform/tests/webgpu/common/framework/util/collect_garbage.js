@@ -175,6 +175,8 @@ temp
 foo
 '
 ;
+temp
+;
 gcRec
 (
 n

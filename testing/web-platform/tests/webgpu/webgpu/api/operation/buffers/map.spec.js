@@ -303,13 +303,11 @@ actual
 new
 Uint8Array
 (
-(
 await
 buffer
 .
 mapReadAsync
 (
-)
 )
 )
 ;
