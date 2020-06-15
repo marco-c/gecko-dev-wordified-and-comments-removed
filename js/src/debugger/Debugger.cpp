@@ -3873,7 +3873,7 @@ defaultFreeOp
 frame
 -
 >
-clearGenerator
+clearGeneratorInfo
 (
 cx
 -
@@ -6284,7 +6284,7 @@ if
 frameObj
 -
 >
-setGenerator
+setGeneratorInfo
 (
 cx
 genObj
@@ -19551,7 +19551,7 @@ frameObj
 frameObj
 -
 >
-clearGenerator
+clearGeneratorInfo
 (
 fop
 dbg
@@ -24576,7 +24576,7 @@ global
 {
 frameObj
 .
-clearGenerator
+clearGeneratorInfo
 (
 fop
 this
@@ -30577,7 +30577,7 @@ if
 frameObj
 -
 >
-hasGenerator
+isSuspended
 (
 )
 )
@@ -32493,7 +32493,7 @@ if
 frameobj
 -
 >
-hasGenerator
+hasGeneratorInfo
 (
 )
 )
@@ -32558,7 +32558,7 @@ endif
 frameobj
 -
 >
-clearGenerator
+clearGeneratorInfo
 (
 fop
 dbg
