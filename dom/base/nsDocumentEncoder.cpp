@@ -1497,6 +1497,8 @@ RangeNodeContext
 &
 mRangeNodeContext
 ;
+private
+:
 const
 NodeSerializer
 &
