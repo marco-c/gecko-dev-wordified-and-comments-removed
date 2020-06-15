@@ -10,6 +10,13 @@ h
 #
 include
 "
+Helpers
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -18,6 +25,13 @@ h
 include
 "
 nsNetUtil
+.
+h
+"
+#
+include
+"
+nsStringStream
 .
 h
 "
