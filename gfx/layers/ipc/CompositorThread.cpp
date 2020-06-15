@@ -165,17 +165,6 @@ CreateCompositorThread
 (
 )
 )
-mCompositorAbstractThread
-(
-AbstractThread
-:
-:
-CreateXPCOMThreadWrapper
-(
-mCompositorThread
-false
-)
-)
 {
 MOZ_ASSERT
 (
