@@ -24,6 +24,13 @@ h
 #
 include
 "
+nsIURIMutator
+.
+h
+"
+#
+include
+"
 nsIURL
 .
 h
