@@ -4302,8 +4302,12 @@ LayoutDeviceCoord
 aSpanChange
 Modifiers
 aModifiers
+const
+nsCOMPtr
+<
 nsIWidget
-*
+>
+&
 aWidget
 )
 {
@@ -4364,6 +4368,10 @@ event
 true
 msg
 aWidget
+.
+get
+(
+)
 )
 ;
 event
