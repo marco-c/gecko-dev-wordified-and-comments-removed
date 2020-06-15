@@ -1014,10 +1014,3 @@ xpidl
 :
 F633
 F821
-builtins
-=
-#
-For
-GDB
-extensions
-gdb

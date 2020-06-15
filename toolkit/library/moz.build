@@ -612,13 +612,13 @@ topsrcdir
 ]
 =
 TOPSRCDIR
-OBJDIR_FILES
+OBJDIR_PP_FILES
 .
 toolkit
 .
 library
 .
-build
+gtest
 +
 =
 [
@@ -633,6 +633,8 @@ so
 gdb
 .
 py
+.
+in
 '
 ]
 Library
