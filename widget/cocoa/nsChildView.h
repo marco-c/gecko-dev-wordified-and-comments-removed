@@ -416,6 +416,10 @@ PixelHostingView
 *
 mPixelHostingView
 ;
+CALayer
+*
+mRootCALayer
+;
 NSInteger
 mLastPressureStage
 ;
