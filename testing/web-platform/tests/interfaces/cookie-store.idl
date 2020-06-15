@@ -90,12 +90,8 @@ CookieListItem
 >
 get
 (
-optional
 CookieStoreGetOptions
 options
-=
-{
-}
 )
 ;
 Promise
