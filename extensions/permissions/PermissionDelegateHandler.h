@@ -336,12 +336,6 @@ nsIPrincipal
 >
 mPrincipal
 ;
-nsCOMPtr
-<
-nsIPrincipal
->
-mTopLevelPrincipal
-;
 RefPtr
 <
 nsIPermissionManager
