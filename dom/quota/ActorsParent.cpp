@@ -41425,14 +41425,12 @@ unwrapErr
 ;
 }
 usageInfo
-.
-Append
-(
++
+=
 usageInfoOrErr
 .
 unwrap
 (
-)
 )
 ;
 }
