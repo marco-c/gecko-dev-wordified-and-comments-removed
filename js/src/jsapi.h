@@ -9298,16 +9298,6 @@ AllFrames
 extern
 JS_PUBLIC_API
 bool
-IsAsyncStackCaptureEnabledForRealm
-(
-JSContext
-*
-cx
-)
-;
-extern
-JS_PUBLIC_API
-bool
 CopyAsyncStack
 (
 JSContext

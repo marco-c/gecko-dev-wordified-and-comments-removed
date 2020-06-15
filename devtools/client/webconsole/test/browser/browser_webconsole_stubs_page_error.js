@@ -82,9 +82,9 @@ javascript
 .
 options
 .
-asyncstack_capture_debuggee_only
+asyncstack
 "
-false
+true
 )
 ;
 const
