@@ -587,6 +587,11 @@ ShadowParts
 h
 '
 '
+SharedStyleSheetCache
+.
+h
+'
+'
 StyleAnimationValue
 .
 h
@@ -1136,6 +1141,11 @@ cpp
 '
 '
 ShadowParts
+.
+cpp
+'
+'
+SharedStyleSheetCache
 .
 cpp
 '
