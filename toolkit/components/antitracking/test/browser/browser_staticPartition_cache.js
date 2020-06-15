@@ -236,7 +236,12 @@ and
 OA
 =
 {
+JSON
+.
+stringify
+(
 originAttributes
+)
 }
 )
 ;
@@ -564,6 +569,14 @@ function
 arg
 )
 {
+content
+.
+windowUtils
+.
+clearSharedStyleSheetCache
+(
+)
+;
 let
 videoURL
 =
