@@ -174,12 +174,6 @@ role
 "
 presentation
 "
-tabIndex
-:
-"
--
-1
-"
 }
 Accordion
 (

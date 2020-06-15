@@ -940,12 +940,6 @@ role
 "
 presentation
 "
-tabIndex
-:
-"
--
-1
-"
 }
 Toolbar
 (
@@ -1035,12 +1029,6 @@ role
 :
 "
 presentation
-"
-tabIndex
-:
-"
--
-1
 "
 }
 AccessibilityTree
