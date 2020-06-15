@@ -358,7 +358,7 @@ waitForStateTelemetry
 await
 ensureTRRMode
 (
-0
+undefined
 )
 ;
 ensureNoTRRSelectionTelemetry
@@ -377,7 +377,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 await
@@ -456,9 +456,9 @@ waitForStateTelemetry
 )
 ;
 await
-ensureNoTRRModeChange
+ensureTRRMode
 (
-0
+undefined
 )
 ;
 ensureNoTRRSelectionTelemetry
@@ -477,7 +477,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 await
@@ -496,7 +496,7 @@ true
 )
 ;
 await
-ensureNoTRRModeChange
+ensureTRRMode
 (
 0
 )
@@ -558,7 +558,7 @@ waitForStateTelemetry
 await
 ensureTRRMode
 (
-0
+undefined
 )
 ;
 ensureNoTRRSelectionTelemetry
@@ -577,7 +577,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 await
@@ -659,7 +659,7 @@ enableAddon
 await
 ensureTRRMode
 (
-0
+undefined
 )
 ;
 ensureNoTRRSelectionTelemetry
@@ -678,7 +678,7 @@ simulateNetworkChange
 await
 ensureNoTRRModeChange
 (
-0
+undefined
 )
 ;
 await
