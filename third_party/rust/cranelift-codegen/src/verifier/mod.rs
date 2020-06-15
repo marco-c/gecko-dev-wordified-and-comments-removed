@@ -3708,7 +3708,13 @@ Binary
 .
 }
 |
-BinaryImm
+BinaryImm8
+{
+.
+.
+}
+|
+BinaryImm64
 {
 .
 .
@@ -3720,13 +3726,7 @@ Ternary
 .
 }
 |
-InsertLane
-{
-.
-.
-}
-|
-ExtractLane
+TernaryImm8
 {
 .
 .
@@ -10059,7 +10059,7 @@ ir
 InstructionData
 :
 :
-ExtractLane
+BinaryImm8
 {
 opcode
 :
@@ -10073,6 +10073,8 @@ Opcode
 :
 :
 Extractlane
+imm
+:
 lane
 arg
 .
@@ -10085,7 +10087,7 @@ ir
 InstructionData
 :
 :
-InsertLane
+TernaryImm8
 {
 opcode
 :
@@ -10099,6 +10101,8 @@ Opcode
 :
 :
 Insertlane
+imm
+:
 lane
 args
 :

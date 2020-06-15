@@ -2936,6 +2936,19 @@ self
 srcloc
 ;
 }
+if
+self
+.
+isa
+.
+get_mach_backend
+(
+)
+.
+is_none
+(
+)
+{
 #
 [
 cfg_attr
@@ -3019,6 +3032,7 @@ display_inst
 inst
 )
 )
+}
 }
 &
 mut

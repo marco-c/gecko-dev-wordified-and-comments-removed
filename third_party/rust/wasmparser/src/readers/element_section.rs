@@ -133,6 +133,9 @@ enum
 ElementItem
 {
 Null
+(
+Type
+)
 Func
 (
 u32
@@ -381,12 +384,18 @@ Operator
 :
 :
 RefNull
+{
+ty
+}
 =
 >
 ElementItem
 :
 :
 Null
+(
+ty
+)
 Operator
 :
 :
@@ -1083,7 +1092,7 @@ Function
 Type
 :
 :
-AnyFunc
+FuncRef
 _
 =
 >
@@ -1129,7 +1138,7 @@ else
 Type
 :
 :
-AnyFunc
+FuncRef
 }
 ;
 let

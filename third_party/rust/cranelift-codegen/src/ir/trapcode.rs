@@ -79,7 +79,6 @@ TrapCode
 StackOverflow
 HeapOutOfBounds
 TableOutOfBounds
-OutOfBounds
 IndirectCallToNull
 BadSignature
 IntegerOverflow
@@ -148,12 +147,6 @@ TableOutOfBounds
 >
 "
 table_oob
-"
-OutOfBounds
-=
->
-"
-oob
 "
 IndirectCallToNull
 =
@@ -293,15 +286,6 @@ table_oob
 Ok
 (
 TableOutOfBounds
-)
-"
-oob
-"
-=
->
-Ok
-(
-OutOfBounds
 )
 "
 icall_null
@@ -444,7 +428,7 @@ CODES
 [
 TrapCode
 ;
-11
+10
 ]
 =
 [
@@ -460,10 +444,6 @@ TrapCode
 :
 :
 TableOutOfBounds
-TrapCode
-:
-:
-OutOfBounds
 TrapCode
 :
 :
