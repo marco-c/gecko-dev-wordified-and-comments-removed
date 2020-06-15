@@ -538,16 +538,6 @@ nsIRequest
 aRequest
 )
 ;
-uint32_t
-GetRedirectChannelId
-(
-)
-const
-{
-return
-mRedirectChannelId
-;
-}
 nsresult
 ReportSecurityMessage
 (
@@ -939,7 +929,7 @@ const
 void
 ApplyPendingFunctions
 (
-nsIParentChannel
+nsISupports
 *
 aChannel
 )
