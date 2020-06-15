@@ -60,6 +60,11 @@ ShutdownLibrary
 (
 )
 ;
+bool
+SandboxEnabled
+(
+)
+;
 uint32_t
 MaxNumberOfChannels
 (

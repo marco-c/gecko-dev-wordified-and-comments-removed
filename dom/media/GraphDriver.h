@@ -1986,7 +1986,7 @@ OnThreadIdChanged
 (
 )
 ;
-void
+bool
 CheckThreadIdChanged
 (
 )
@@ -2314,6 +2314,12 @@ virtual
 AudioCallbackDriver
 (
 )
+;
+const
+bool
+mSandboxed
+=
+false
 ;
 }
 ;
