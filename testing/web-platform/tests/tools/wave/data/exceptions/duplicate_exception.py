@@ -1,0 +1,8 @@
+class
+DuplicateException
+(
+Exception
+)
+:
+    
+pass

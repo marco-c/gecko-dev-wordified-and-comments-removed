@@ -1,0 +1,8 @@
+class
+NotFoundException
+(
+Exception
+)
+:
+    
+pass
