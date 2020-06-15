@@ -229,8 +229,12 @@ Throws
 void
 setMatrix
 (
-SVGMatrix
+optional
+DOMMatrix2DInit
 matrix
+=
+{
+}
 )
 ;
 [
