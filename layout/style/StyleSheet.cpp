@@ -5930,11 +5930,9 @@ mURLData
 aLoadData
 .
 mLineNumber
-aLoader
+aLoadData
 .
-GetCompatibilityMode
-(
-)
+mCompatMode
 nullptr
 useCounters
 allowImportRules
@@ -5991,11 +5989,9 @@ mParsingMode
 aLoadData
 .
 mLineNumber
-aLoader
+aLoadData
 .
-GetCompatibilityMode
-(
-)
+mCompatMode
 !
 !
 useCounters
