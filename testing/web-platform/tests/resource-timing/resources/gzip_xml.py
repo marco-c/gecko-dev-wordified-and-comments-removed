@@ -2,12 +2,18 @@ import
 gzip
 as
 gzip_module
-from
-cStringIO
-import
-StringIO
 import
 os
+from
+six
+import
+BytesIO
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -30,7 +36,10 @@ path
 .
 realpath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
     
@@ -43,6 +52,7 @@ path
 join
 (
 dir_path
+u
 '
 resource_timing_test0
 .
@@ -55,8 +65,9 @@ f
 open
 (
 file_path
+u
 '
-r
+rb
 '
 )
     
@@ -70,7 +81,7 @@ read
     
 out
 =
-StringIO
+BytesIO
 (
 )
     
@@ -91,7 +102,7 @@ w
 as
 f
 :
-      
+        
 f
 .
 write
@@ -111,11 +122,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -124,17 +137,20 @@ plain
 )
                
 (
+b
 "
 Content
 -
 Encoding
 "
+b
 "
 gzip
 "
 )
                
 (
+b
 "
 Content
 -

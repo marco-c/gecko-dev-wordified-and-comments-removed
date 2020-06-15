@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -221,6 +227,7 @@ step
 1
     
 if
+b
 "
 step
 "
@@ -243,6 +250,7 @@ GET
 .
 first
 (
+b
 "
 step
 "
@@ -255,39 +263,6 @@ ValueError
             
 pass
     
-origin
-=
-request
-.
-url_parts
-.
-scheme
-+
-"
-:
-/
-/
-"
-+
-request
-.
-url_parts
-.
-hostname
-+
-"
-:
-"
-+
-str
-(
-request
-.
-url_parts
-.
-port
-)
-    
 page_origin
 =
 request
@@ -296,6 +271,7 @@ GET
 .
 first
 (
+b
 "
 page_origin
 "
@@ -309,6 +285,7 @@ GET
 .
 first
 (
+b
 "
 cross_origin
 "
@@ -322,6 +299,7 @@ GET
 .
 first
 (
+b
 "
 final_resource
 "
@@ -329,12 +307,13 @@ final_resource
     
 tao_value
 =
+b
 "
 *
 "
-;
     
 if
+b
 "
 tao_value
 "
@@ -352,6 +331,7 @@ GET
 .
 first
 (
+b
 "
 tao_value
 "
@@ -362,6 +342,7 @@ tao_steps
 0
     
 if
+b
 "
 tao_steps
 "
@@ -381,6 +362,7 @@ GET
 .
 first
 (
+b
 "
 tao_steps
 "
@@ -395,6 +377,7 @@ tao_steps
     
 redirect_url_path
 =
+b
 "
 /
 resource
@@ -412,6 +395,7 @@ py
 redirect_url_path
 +
 =
+b
 "
 page_origin
 =
@@ -422,6 +406,7 @@ page_origin
 redirect_url_path
 +
 =
+b
 "
 &
 cross_origin
@@ -433,6 +418,7 @@ cross_origin
 redirect_url_path
 +
 =
+b
 "
 &
 final_resource
@@ -444,6 +430,7 @@ final_resource
 redirect_url_path
 +
 =
+b
 "
 &
 tao_value
@@ -455,20 +442,25 @@ tao_value
 redirect_url_path
 +
 =
+b
 "
 &
 tao_steps
 =
 "
 +
+isomorphic_encode
+(
 str
 (
 next_tao_steps
+)
 )
     
 redirect_url_path
 +
 =
+b
 "
 &
 step
@@ -487,6 +479,7 @@ headers
 .
 set
 (
+b
 "
 timing
 -
@@ -510,6 +503,7 @@ cross_origin
 +
 redirect_url_path
 +
+b
 "
 2
 "
@@ -527,6 +521,7 @@ page_origin
 +
 redirect_url_path
 +
+b
 "
 3
 "
@@ -552,6 +547,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "

@@ -2,6 +2,12 @@ import
 os
 .
 path
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,6 +18,7 @@ response
     
 etag
 =
+b
 "
 123abc
 "
@@ -26,6 +33,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -43,6 +51,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -59,6 +68,7 @@ status
 =
 (
 304
+u
 "
 Not
 Modified
@@ -66,6 +76,7 @@ Modified
 )
         
 return
+u
 "
 "
     
@@ -75,11 +86,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 public
 max
@@ -96,11 +109,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 font
 /
@@ -114,6 +129,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -123,6 +139,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -134,6 +151,7 @@ headers
 .
 set
 (
+b
 "
 Timing
 -
@@ -141,6 +159,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -152,6 +171,7 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
@@ -160,6 +180,7 @@ etag
     
 font
 =
+u
 "
 .
 .
@@ -188,7 +209,10 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
+)
 )
 font
 )
@@ -200,6 +224,7 @@ content
 open
 (
 path
+u
 "
 rb
 "

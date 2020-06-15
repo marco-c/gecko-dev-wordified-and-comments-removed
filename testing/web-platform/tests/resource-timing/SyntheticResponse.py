@@ -1,5 +1,20 @@
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+unquote
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 import
 sleep
 def
@@ -12,12 +27,16 @@ response
     
 index
 =
+isomorphic_encode
+(
 request
 .
 request_path
+)
 .
 index
 (
+b
 "
 ?
 "
@@ -25,6 +44,8 @@ index
     
 args
 =
+isomorphic_encode
+(
 request
 .
 request_path
@@ -34,9 +55,11 @@ index
 1
 :
 ]
+)
 .
 split
 (
+b
 "
 &
 "
@@ -66,6 +89,7 @@ arg
 .
 startswith
 (
+b
 "
 ignored
 "
@@ -79,6 +103,7 @@ arg
 .
 endswith
 (
+b
 "
 ms
 "
@@ -106,6 +131,7 @@ arg
 .
 startswith
 (
+b
 "
 redirect
 :
@@ -116,6 +142,7 @@ redirect
 return
 (
 302
+u
 "
 WEBPERF
 MARKETING
@@ -123,12 +150,13 @@ MARKETING
 )
 [
 (
+b
 "
 Location
 "
-urllib
-.
 unquote
+(
+isomorphic_decode
 (
 arg
 [
@@ -137,7 +165,9 @@ arg
 ]
 )
 )
+)
 ]
+u
 "
 TEST
 "
@@ -147,6 +177,7 @@ arg
 .
 startswith
 (
+b
 "
 mime
 :
@@ -159,20 +190,22 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
-urllib
-.
 unquote
+(
+isomorphic_decode
 (
 arg
 [
 5
 :
 ]
+)
 )
 )
 )
@@ -182,6 +215,7 @@ arg
 .
 startswith
 (
+b
 "
 send
 :
@@ -191,15 +225,16 @@ send
             
 text
 =
-urllib
-.
 unquote
+(
+isomorphic_decode
 (
 arg
 [
 5
 :
 ]
+)
 )
             
 if
@@ -268,6 +303,7 @@ arg
 .
 startswith
 (
+b
 "
 status
 :
@@ -279,15 +315,16 @@ code
 =
 int
 (
-urllib
-.
 unquote
+(
+isomorphic_decode
 (
 arg
 [
 7
 :
 ]
+)
 )
 )
             
@@ -329,6 +366,7 @@ elif
 arg
 =
 =
+b
 "
 flush
 "

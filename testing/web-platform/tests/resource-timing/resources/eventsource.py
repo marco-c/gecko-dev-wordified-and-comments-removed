@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -27,5 +29,6 @@ stream
 )
     
 return
+u
 "
 "
