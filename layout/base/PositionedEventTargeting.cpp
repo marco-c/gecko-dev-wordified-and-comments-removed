@@ -2239,7 +2239,7 @@ to
 root
 frame
 %
-p
+s
 \
 n
 "
@@ -2272,9 +2272,14 @@ aPointRelativeToRootFrame
 c_str
 (
 )
+ToString
+(
 aRootFrame
+)
 .
-mFrame
+c_str
+(
+)
 )
 ;
 const
