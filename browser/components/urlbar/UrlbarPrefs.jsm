@@ -170,6 +170,12 @@ false
 ]
 [
 "
+dnsResolveSingleWordsAfterSearch
+"
+1
+]
+[
+"
 eventTelemetry
 .
 enabled
