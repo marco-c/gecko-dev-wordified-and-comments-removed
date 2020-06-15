@@ -178,6 +178,16 @@ NotifyNotUsed
 {
 }
 virtual
+bool
+SyncObjectNeeded
+(
+)
+{
+return
+false
+;
+}
+virtual
 RenderDXGITextureHostOGL
 *
 AsRenderDXGITextureHostOGL
