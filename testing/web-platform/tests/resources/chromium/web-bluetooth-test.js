@@ -799,6 +799,21 @@ simulateAdvertisementReceived
 scanResult
 )
 {
+let
+clonedScanResult
+=
+JSON
+.
+parse
+(
+JSON
+.
+stringify
+(
+scanResult
+)
+)
+;
 if
 (
 '
@@ -810,7 +825,7 @@ scanResult
 scanRecord
 )
 {
-scanResult
+clonedScanResult
 .
 scanRecord
 .
@@ -837,7 +852,7 @@ scanResult
 .
 scanRecord
 ;
-scanResult
+clonedScanResult
 .
 scanRecord
 .
@@ -872,7 +887,7 @@ scanResult
 .
 scanRecord
 ;
-scanResult
+clonedScanResult
 .
 scanRecord
 .
@@ -907,7 +922,7 @@ scanResult
 scanRecord
 )
 {
-scanResult
+clonedScanResult
 .
 scanRecord
 .
@@ -935,7 +950,7 @@ scanResult
 scanRecord
 )
 {
-scanResult
+clonedScanResult
 .
 scanRecord
 .
@@ -970,7 +985,7 @@ mojom
 .
 ScanResult
 (
-scanResult
+clonedScanResult
 )
 )
 ;
@@ -979,7 +994,7 @@ this
 .
 fetchOrCreatePeripheral_
 (
-scanResult
+clonedScanResult
 .
 deviceAddress
 )
