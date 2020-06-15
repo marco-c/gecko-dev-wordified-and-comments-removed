@@ -447,6 +447,10 @@ wr
 MixBlendMode
 &
 aMixBlendMode
+const
+LayoutDeviceSize
+&
+aScaleFromSize
 )
 ;
 void
@@ -868,6 +872,10 @@ wr
 MixBlendMode
 &
 aMixBlendMode
+const
+LayoutDeviceSize
+&
+aScaleFromSize
 )
 {
 mIsChanged
@@ -904,6 +912,12 @@ mMixBlendMode
 !
 =
 aMixBlendMode
+|
+|
+mScaleFromSize
+!
+=
+aScaleFromSize
 ;
 mScBounds
 =
@@ -925,6 +939,10 @@ mMixBlendMode
 =
 aMixBlendMode
 ;
+mScaleFromSize
+=
+aScaleFromSize
+;
 }
 bool
 mInitialised
@@ -937,6 +955,9 @@ mUseExternalImage
 ;
 LayoutDeviceRect
 mScBounds
+;
+LayoutDeviceSize
+mScaleFromSize
 ;
 gfx
 :
