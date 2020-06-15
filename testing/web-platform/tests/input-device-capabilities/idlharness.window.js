@@ -7,7 +7,11 @@ idl_test
 (
 [
 '
-InputDeviceCapabilities
+input
+-
+device
+-
+capabilities
 '
 ]
 [
