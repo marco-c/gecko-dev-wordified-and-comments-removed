@@ -1278,7 +1278,7 @@ print
 "
 )
         
-raw_input
+input
 (
 "
 Press
@@ -1541,11 +1541,7 @@ co
 :
     
 print
->
->
-sys
-.
-stderr
+(
 "
 Warning
 :
@@ -1557,6 +1553,12 @@ is
 obsolete
 .
 "
+file
+=
+sys
+.
+stderr
+)
     
 pass
 elif
