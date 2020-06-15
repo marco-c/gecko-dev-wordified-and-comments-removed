@@ -9490,9 +9490,16 @@ ScreenSizeChanged
 }
 if
 (
-mMobileViewportManager
+UsesMobileViewportSizing
+(
+)
 )
 {
+MOZ_ASSERT
+(
+mMobileViewportManager
+)
+;
 mMobileViewportManager
 -
 >
