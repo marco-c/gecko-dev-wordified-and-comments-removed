@@ -75,8 +75,9 @@ gfx
 IntSize
 &
 const
-GLContextCreateDesc
+SurfaceCaps
 &
+CreateContextFlags
 nsACString
 *
 const
@@ -106,9 +107,7 @@ GLContextProviderNull
 :
 CreateHeadless
 (
-const
-GLContextCreateDesc
-&
+CreateContextFlags
 nsACString
 *
 const

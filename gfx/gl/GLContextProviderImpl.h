@@ -86,8 +86,11 @@ IntSize
 &
 size
 const
-GLContextCreateDesc
+SurfaceCaps
 &
+minCaps
+CreateContextFlags
+flags
 nsACString
 *
 const
@@ -101,9 +104,8 @@ GLContext
 >
 CreateHeadless
 (
-const
-GLContextCreateDesc
-&
+CreateContextFlags
+flags
 nsACString
 *
 const

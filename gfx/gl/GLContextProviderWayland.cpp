@@ -170,10 +170,8 @@ GLContextProviderWayland
 :
 CreateHeadless
 (
-const
-GLContextCreateDesc
-&
-desc
+CreateContextFlags
+flags
 nsACString
 *
 const
@@ -195,7 +193,7 @@ sGLContextProviderGLX
 .
 CreateHeadless
 (
-desc
+flags
 out_failureId
 )
 ;
@@ -207,7 +205,7 @@ sGLContextProviderEGL
 .
 CreateHeadless
 (
-desc
+flags
 out_failureId
 )
 ;
@@ -227,9 +225,11 @@ IntSize
 &
 size
 const
-GLContextCreateDesc
+SurfaceCaps
 &
-desc
+minCaps
+CreateContextFlags
+flags
 nsACString
 *
 const
@@ -252,7 +252,8 @@ sGLContextProviderGLX
 CreateOffscreen
 (
 size
-desc
+minCaps
+flags
 out_failureId
 )
 ;
@@ -265,7 +266,8 @@ sGLContextProviderEGL
 CreateOffscreen
 (
 size
-desc
+minCaps
+flags
 out_failureId
 )
 ;
