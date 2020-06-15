@@ -257,8 +257,14 @@ styleSheets
 let
 docContainsStyleSheet
 =
-false
+!
+title
 ;
+if
+(
+title
+)
+{
 for
 (
 let
@@ -284,6 +290,7 @@ true
 ;
 break
 ;
+}
 }
 }
 for
