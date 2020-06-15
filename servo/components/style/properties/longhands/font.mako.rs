@@ -2460,7 +2460,6 @@ font
 LookAndFeel_FontID
 :
 :
-eFont_
 {
 to_camel_case
 (
