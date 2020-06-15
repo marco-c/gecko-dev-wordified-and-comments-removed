@@ -27,6 +27,13 @@ collections
 import
 Iterable
 from
+mach
+.
+sentry
+import
+register_sentry
+report_exception
+from
 six
 import
 string_types
@@ -2011,6 +2018,10 @@ failure
 "
 "
         
+register_sentry
+(
+)
+        
 stdin
 =
 sys
@@ -2290,6 +2301,11 @@ stdout
 exc_type
 exc_value
 stack
+)
+            
+report_exception
+(
+exc_value
 )
             
 return
@@ -2849,6 +2865,11 @@ sys
 .
 exc_info
 (
+)
+            
+report_exception
+(
+exc_value
 )
             
 stack
