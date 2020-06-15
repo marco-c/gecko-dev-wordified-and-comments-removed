@@ -448,11 +448,13 @@ GetTopLevelDocAccessibleChild
 )
 )
 ;
-if
+MOZ_ASSERT
 (
 topDoc
-&
-&
+)
+;
+if
+(
 topDoc
 !
 =
