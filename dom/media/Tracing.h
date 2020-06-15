@@ -236,15 +236,7 @@ const
 int32_t
 BUFFER_SIZE
 =
-mozilla
-:
-:
-AsyncLogger
-:
-:
-MAX_MESSAGE_LENGTH
-/
-2
+256
 ;
 enum
 class
