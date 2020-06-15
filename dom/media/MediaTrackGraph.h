@@ -2590,17 +2590,6 @@ RefPtr
 <
 GraphStartedPromise
 >
-NotifyWhenGraphStarted
-(
-MediaTrack
-*
-aTrack
-)
-;
-RefPtr
-<
-GraphStartedPromise
->
 NotifyWhenDeviceStarted
 (
 MediaTrack

@@ -588,14 +588,6 @@ ControlMessage
 aMessage
 )
 ;
-enum
-class
-ProcessingThread
-{
-FALLBACK_THREAD
-AUDIO_THREAD
-}
-;
 void
 NotifyWhenGraphStarted
 (
@@ -611,8 +603,6 @@ GraphStartedPromise
 &
 &
 aHolder
-ProcessingThread
-aProcessingThread
 )
 ;
 void
