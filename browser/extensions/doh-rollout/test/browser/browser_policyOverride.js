@@ -223,8 +223,15 @@ ensureNoTRRModeChange
 0
 )
 ;
-ensureNoHeuristicsTelemetry
+await
+checkHeuristicsTelemetry
 (
+"
+policy_without_doh
+"
+"
+startup
+"
 )
 ;
 simulateNetworkChange
