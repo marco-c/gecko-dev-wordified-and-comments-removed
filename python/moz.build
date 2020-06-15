@@ -454,17 +454,6 @@ python
 ini
 '
 '
-mozperftest
-/
-mozperftest
-/
-tests
-/
-python
-.
-ini
-'
-'
 mozrelease
 /
 test
