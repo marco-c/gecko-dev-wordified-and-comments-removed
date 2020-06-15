@@ -793,7 +793,7 @@ RefPtr
 gfx
 :
 :
-SourceSurface
+SourceSurfaceSharedData
 >
 2
 >
@@ -828,12 +828,6 @@ SetCurrentFrame
 gfx
 :
 :
-SourceSurface
-*
-aParentSurface
-gfx
-:
-:
 SourceSurfaceSharedData
 *
 aSurface
@@ -849,12 +843,6 @@ aDirtyRect
 nsresult
 UpdateKey
 (
-gfx
-:
-:
-SourceSurface
-*
-aParentSurface
 gfx
 :
 :
@@ -914,12 +902,6 @@ HoldSurfaceForRecycling
 AnimationImageKeyData
 &
 aEntry
-gfx
-:
-:
-SourceSurface
-*
-aParentSurface
 gfx
 :
 :

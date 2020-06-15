@@ -638,8 +638,6 @@ SourceSurface
 >
 GetSourceSurfaceInternal
 (
-bool
-aTemporary
 )
 ;
 struct
@@ -811,10 +809,6 @@ RawAccessFrameRef
 ;
 friend
 class
-RecyclingSourceSurface
-;
-friend
-class
 UnlockImageDataRunnable
 ;
 mutable
@@ -856,9 +850,6 @@ mDecoded
 ;
 int16_t
 mLockCount
-;
-int16_t
-mRecycleLockCount
 ;
 bool
 mAborted

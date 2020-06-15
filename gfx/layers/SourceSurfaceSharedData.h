@@ -395,7 +395,6 @@ mCreatorRef
 ;
 class
 SourceSurfaceSharedData
-final
 :
 public
 DataSourceSurface
@@ -478,7 +477,7 @@ uint8_t
 GetData
 (
 )
-override
+final
 {
 MutexAutoLock
 lock
@@ -496,7 +495,7 @@ int32_t
 Stride
 (
 )
-override
+final
 {
 return
 mStride
@@ -521,7 +520,7 @@ GetSize
 (
 )
 const
-override
+final
 {
 return
 mSize
@@ -532,7 +531,7 @@ GetFormat
 (
 )
 const
-override
+final
 {
 return
 mFormat
@@ -542,7 +541,7 @@ void
 GuaranteePersistance
 (
 )
-override
+final
 ;
 void
 SizeOfExcludingThis
@@ -554,14 +553,14 @@ SizeOfInfo
 aInfo
 )
 const
-override
+final
 ;
 bool
 OnHeap
 (
 )
 const
-override
+final
 {
 return
 false
@@ -575,7 +574,7 @@ MappedSurface
 *
 aMappedSurface
 )
-override
+final
 {
 MutexAutoLock
 lock
@@ -611,7 +610,7 @@ void
 Unmap
 (
 )
-override
+final
 {
 MutexAutoLock
 lock
@@ -728,7 +727,7 @@ IntRect
 TakeDirtyRect
 (
 )
-override
+final
 {
 MutexAutoLock
 lock
@@ -773,7 +772,7 @@ IntRect
 &
 aDirtyRect
 )
-override
+final
 {
 MutexAutoLock
 lock
@@ -903,12 +902,8 @@ mSurface
 ;
 }
 ;
-private
+protected
 :
-friend
-class
-SourceSurfaceSharedDataWrapper
-;
 virtual
 ~
 SourceSurfaceSharedData
@@ -916,6 +911,12 @@ SourceSurfaceSharedData
 )
 =
 default
+;
+private
+:
+friend
+class
+SourceSurfaceSharedDataWrapper
 ;
 void
 LockHandle
