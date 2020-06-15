@@ -114,6 +114,20 @@ wasmparser
 :
 Operator
 ;
+pub
+use
+wasmparser
+:
+:
+{
+FuncType
+as
+WasmFuncType
+Type
+as
+WasmType
+}
+;
 #
 [
 derive
@@ -1156,7 +1170,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 delta
 :
 ir
@@ -1191,7 +1205,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 index
 :
 ir
@@ -1220,7 +1234,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 value
 :
 ir
@@ -1317,7 +1331,7 @@ pos
 FuncCursor
 table_index
 :
-u32
+TableIndex
 dst
 :
 ir
@@ -1630,6 +1644,10 @@ declare_signature
 &
 mut
 self
+wasm_func_type
+:
+&
+WasmFuncType
 sig
 :
 ir

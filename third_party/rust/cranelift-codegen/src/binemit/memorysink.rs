@@ -904,6 +904,13 @@ loc
 ;
 }
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 NullRelocSink
@@ -994,6 +1001,13 @@ JumpTable
 {
 }
 }
+#
+[
+derive
+(
+Default
+)
+]
 pub
 struct
 NullTrapSink

@@ -4433,7 +4433,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4456,9 +4456,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 dependencies
 =
@@ -4469,7 +4469,7 @@ cranelift
 entity
 0
 .
-63
+64
 .
 0
 "
@@ -4491,7 +4491,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4514,9 +4514,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 dependencies
 =
@@ -4549,7 +4549,7 @@ cranelift
 entity
 0
 .
-63
+64
 .
 0
 "
@@ -4595,7 +4595,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4618,9 +4618,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 dependencies
 =
@@ -4638,7 +4638,7 @@ cranelift
 entity
 0
 .
-63
+64
 .
 0
 "
@@ -4662,7 +4662,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4685,9 +4685,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 [
 [
@@ -4750,7 +4750,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4773,9 +4773,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 [
 [
@@ -4794,7 +4794,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4817,9 +4817,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 dependencies
 =
@@ -4863,7 +4863,7 @@ version
 "
 0
 .
-63
+64
 .
 0
 "
@@ -4886,9 +4886,9 @@ wasmtime
 ?
 rev
 =
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 #
-b7cfd39b531680217537cfcf5294a22077a0a58d
+4d5fdfcbba1a8f38002a4223d7a329fc795d0e9f
 "
 dependencies
 =
@@ -4904,7 +4904,7 @@ cranelift
 entity
 0
 .
-63
+64
 .
 0
 "
@@ -4923,9 +4923,9 @@ thiserror
 wasmparser
 0
 .
-51
+57
 .
-4
+0
 "
 ]
 [
@@ -22676,7 +22676,7 @@ version
 .
 0
 .
-21
+26
 "
 source
 =
@@ -22704,7 +22704,7 @@ index
 checksum
 =
 "
-b27b256b41986ac5141b37b8bbba85d314fbf546c182eb255af6720e07e4f804
+7c03092d79e0fd610932d89ed53895a38c0dd3bcd317a0046e69940de32f1d95
 "
 dependencies
 =
@@ -30809,9 +30809,9 @@ version
 "
 0
 .
-51
+57
 .
-4
+0
 "
 source
 =
@@ -30839,7 +30839,7 @@ index
 checksum
 =
 "
-aeb1956b19469d1c5e63e459d29e7b5aa0f558d9f16fcef09736f8a265e6c10a
+32fddd575d477c6e9702484139cf9f23dcd554b06d185ed0f56c857dd3a47aa6
 "
 [
 [
