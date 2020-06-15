@@ -7617,16 +7617,6 @@ Get
 keyName
 )
 ;
-uint32_t
-faceIndex
-=
-faceList
--
->
-Length
-(
-)
-;
 faceList
 -
 >
@@ -7690,7 +7680,7 @@ LocalFaceRec
 InitData
 (
 keyName
-faceIndex
+descriptor
 )
 )
 ;
@@ -7732,7 +7722,7 @@ LocalFaceRec
 InitData
 (
 keyName
-faceIndex
+descriptor
 )
 )
 ;
