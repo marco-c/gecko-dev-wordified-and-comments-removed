@@ -400,12 +400,16 @@ arg
 )
 ;
 }
-for
+if
+let
+Some
+(
 ret_type
-in
+)
+=
 wsig
 .
-results
+ret_type
 (
 )
 ?
@@ -527,7 +531,7 @@ wsig
 =
 env
 .
-func_sig
+function_signature
 (
 func_index
 )
@@ -5205,7 +5209,7 @@ ir
 TrapCode
 :
 :
-TableOutOfBounds
+OutOfBounds
 )
 ;
 let
@@ -6569,7 +6573,7 @@ pos
 FuncCursor
 table_index
 :
-TableIndex
+u32
 delta
 :
 ir
@@ -6612,10 +6616,6 @@ types
 :
 I32
 table_index
-.
-index
-(
-)
 as
 i64
 )
@@ -6656,7 +6656,7 @@ pos
 FuncCursor
 table_index
 :
-TableIndex
+u32
 index
 :
 ir
@@ -6693,10 +6693,6 @@ types
 :
 I32
 table_index
-.
-index
-(
-)
 as
 i64
 )
@@ -6736,7 +6732,7 @@ pos
 FuncCursor
 table_index
 :
-TableIndex
+u32
 value
 :
 ir
@@ -6777,10 +6773,6 @@ types
 :
 I32
 table_index
-.
-index
-(
-)
 as
 i64
 )
@@ -6954,7 +6946,7 @@ pos
 FuncCursor
 table_index
 :
-TableIndex
+u32
 dst
 :
 ir
@@ -7001,10 +6993,6 @@ types
 :
 I32
 table_index
-.
-index
-(
-)
 as
 i64
 )

@@ -11,7 +11,6 @@ GlobalVariable
 ModuleEnvironment
 ReturnMode
 TargetEnvironment
-WasmFuncType
 WasmResult
 }
 ;
@@ -2135,7 +2134,7 @@ pos
 FuncCursor
 _table_index
 :
-TableIndex
+u32
 _delta
 :
 ir
@@ -2187,7 +2186,7 @@ pos
 FuncCursor
 _table_index
 :
-TableIndex
+u32
 _index
 :
 ir
@@ -2234,7 +2233,7 @@ _pos
 FuncCursor
 _table_index
 :
-TableIndex
+u32
 _value
 :
 ir
@@ -2333,7 +2332,7 @@ _pos
 FuncCursor
 _table_index
 :
-TableIndex
+u32
 _dst
 :
 ir
@@ -2605,10 +2604,6 @@ declare_signature
 &
 mut
 self
-_wasm
-:
-&
-WasmFuncType
 sig
 :
 ir

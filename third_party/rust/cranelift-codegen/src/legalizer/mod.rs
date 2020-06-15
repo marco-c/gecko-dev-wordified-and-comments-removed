@@ -143,10 +143,6 @@ heap
 :
 expand_heap_addr
 ;
-pub
-(
-crate
-)
 use
 self
 :
