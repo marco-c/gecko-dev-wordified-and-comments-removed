@@ -781,6 +781,17 @@ onResourceAvailable
 resources
 )
 {
+if
+(
+!
+this
+.
+actorID
+)
+{
+return
+;
+}
 this
 .
 emit
