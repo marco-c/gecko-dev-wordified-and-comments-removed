@@ -71,7 +71,6 @@ AccessibilityRole
 {
 attribute
 DOMString
-?
 role
 ;
 }
