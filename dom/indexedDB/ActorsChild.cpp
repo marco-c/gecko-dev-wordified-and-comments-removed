@@ -5301,12 +5301,6 @@ mTaskQueue
 ;
 nsCOMPtr
 <
-nsIEventTarget
->
-mTaskQueueEventTarget
-;
-nsCOMPtr
-<
 nsIInputStream
 >
 mStream
@@ -11737,15 +11731,6 @@ forget
 )
 )
 ;
-mTaskQueueEventTarget
-=
-mTaskQueue
--
->
-WrapAsEventTarget
-(
-)
-;
 ErrorResult
 errorResult
 ;
@@ -11849,7 +11834,7 @@ Initial
 nsresult
 rv
 =
-mTaskQueueEventTarget
+mTaskQueue
 -
 >
 Dispatch
@@ -11985,7 +11970,7 @@ asyncFileMetadata
 AsyncFileMetadataWait
 (
 this
-mTaskQueueEventTarget
+mTaskQueue
 )
 ;
 if
@@ -12038,7 +12023,7 @@ AsyncWait
 this
 0
 0
-mTaskQueueEventTarget
+mTaskQueue
 )
 ;
 if
