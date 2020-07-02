@@ -58,6 +58,9 @@ ResourceQueue
 :
 private
 nsDeque
+<
+ResourceItem
+>
 {
 public
 :
