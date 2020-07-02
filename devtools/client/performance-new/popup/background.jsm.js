@@ -979,7 +979,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;

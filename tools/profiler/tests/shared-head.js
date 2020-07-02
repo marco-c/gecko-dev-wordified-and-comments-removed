@@ -353,7 +353,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;

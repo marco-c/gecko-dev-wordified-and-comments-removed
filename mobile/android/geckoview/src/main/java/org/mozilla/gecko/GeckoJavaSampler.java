@@ -1503,7 +1503,7 @@ WrapForJNI
 public
 static
 void
-pause
+pauseSampling
 (
 )
 {
@@ -1531,7 +1531,7 @@ WrapForJNI
 public
 static
 void
-unpause
+unpauseSampling
 (
 )
 {

@@ -532,7 +532,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;

@@ -40,6 +40,16 @@ Resume
 )
 ;
 async
+PauseSampling
+(
+)
+;
+async
+ResumeSampling
+(
+)
+;
+async
 AwaitNextChunkManagerUpdate
 (
 )

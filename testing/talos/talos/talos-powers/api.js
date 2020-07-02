@@ -578,6 +578,14 @@ Services
 .
 profiler
 .
+Pause
+(
+)
+;
+Services
+.
+profiler
+.
 getProfileDataAsync
 (
 )

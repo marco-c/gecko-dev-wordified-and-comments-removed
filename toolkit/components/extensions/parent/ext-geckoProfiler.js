@@ -505,7 +505,7 @@ Services
 .
 profiler
 .
-PauseSampling
+Pause
 (
 )
 ;
@@ -519,7 +519,7 @@ Services
 .
 profiler
 .
-ResumeSampling
+Resume
 (
 )
 ;
