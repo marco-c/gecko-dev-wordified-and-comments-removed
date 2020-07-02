@@ -3023,6 +3023,14 @@ retryHideNavToolbox
 return
 ;
 }
+if
+(
+!
+BrowserHandler
+.
+kiosk
+)
+{
 this
 .
 _fullScrToggler
@@ -3031,6 +3039,7 @@ hidden
 =
 false
 ;
+}
 if
 (
 aAnimate
