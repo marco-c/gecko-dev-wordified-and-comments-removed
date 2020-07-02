@@ -68,6 +68,9 @@ mod
 push_controller
 ;
 mod
+qlog
+;
+mod
 recv_message
 ;
 mod
