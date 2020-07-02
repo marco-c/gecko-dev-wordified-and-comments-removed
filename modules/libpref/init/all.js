@@ -38117,16 +38117,6 @@ endif
 pref
 (
 "
-fission
-.
-rebuild_frameloaders_on_remoteness_change
-"
-true
-)
-;
-pref
-(
-"
 toolkit
 .
 legacyUserProfileCustomizations
