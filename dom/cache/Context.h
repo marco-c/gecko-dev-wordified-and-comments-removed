@@ -253,8 +253,10 @@ aManager
 nsISerialEventTarget
 *
 aTarget
+SafeRefPtr
+<
 Action
-*
+>
 aInitAction
 Maybe
 <
@@ -267,8 +269,10 @@ aOldContext
 void
 Dispatch
 (
+SafeRefPtr
+<
 Action
-*
+>
 aAction
 )
 ;
@@ -362,7 +366,7 @@ nsIEventTarget
 >
 mTarget
 ;
-RefPtr
+SafeRefPtr
 <
 Action
 >
@@ -389,8 +393,10 @@ Start
 void
 DispatchAction
 (
+SafeRefPtr
+<
 Action
-*
+>
 aAction
 bool
 aDoomData
@@ -470,7 +476,7 @@ QuotaInitRunnable
 >
 mInitRunnable
 ;
-RefPtr
+SafeRefPtr
 <
 Action
 >
@@ -519,8 +525,10 @@ aManager
 nsISerialEventTarget
 *
 aTarget
+SafeRefPtr
+<
 Action
-*
+>
 aInitAction
 )
 ;
