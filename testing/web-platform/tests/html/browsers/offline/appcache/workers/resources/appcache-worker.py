@@ -1,5 +1,6 @@
 script
 =
+b
 '
 '
 '
@@ -755,6 +756,7 @@ request
 .
 GET
 [
+b
 '
 type
 '
@@ -765,12 +767,14 @@ request
 .
 GET
 [
+b
 '
 type
 '
 ]
 =
 =
+b
 '
 fallingback
 '
@@ -780,11 +784,13 @@ return
 404
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -792,6 +798,7 @@ plain
 '
 )
 ]
+u
 "
 Page
 not
@@ -801,11 +808,13 @@ found
 return
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /

@@ -7,6 +7,7 @@ thirty_two_megabytes
 1024
 chunk
 =
+b
 '
 ab
 '
@@ -55,11 +56,13 @@ chunk_length
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
