@@ -1861,7 +1861,17 @@ mInitialized
 ;
 MOZ_ASSERT
 (
+aArtist
+)
+;
+MOZ_ASSERT
+(
 aTitle
+)
+;
+MOZ_ASSERT
+(
+aAlbumArtist
 )
 ;
 ComPtr
@@ -1941,8 +1951,6 @@ musicProps
 >
 put_Artist
 (
-aArtist
-?
 HStringReference
 (
 aArtist
@@ -1951,8 +1959,6 @@ aArtist
 Get
 (
 )
-:
-nullptr
 )
 ;
 if
@@ -2031,8 +2037,6 @@ musicProps
 >
 put_AlbumArtist
 (
-aAlbumArtist
-?
 HStringReference
 (
 aAlbumArtist
@@ -2041,8 +2045,6 @@ aAlbumArtist
 Get
 (
 )
-:
-nullptr
 )
 ;
 if
