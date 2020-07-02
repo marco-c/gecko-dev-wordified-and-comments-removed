@@ -139,7 +139,7 @@ ownerGlobal
 .
 gBrowserInit
 .
-_firstBrowserPaintDeferred
+_firstContentWindowPaintDeferred
 .
 resolve
 (
