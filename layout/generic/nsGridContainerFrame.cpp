@@ -66,15 +66,6 @@ include
 "
 mozilla
 /
-CSSOrderAwareFrameIterator
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 GridBinding

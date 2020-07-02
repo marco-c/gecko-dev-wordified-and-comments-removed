@@ -1156,7 +1156,9 @@ mListID
 endif
 }
 ;
-typedef
+using
+CSSOrderAwareFrameIterator
+=
 CSSOrderAwareFrameIteratorT
 <
 nsFrameList
@@ -1164,9 +1166,10 @@ nsFrameList
 :
 iterator
 >
-CSSOrderAwareFrameIterator
 ;
-typedef
+using
+ReverseCSSOrderAwareFrameIterator
+=
 CSSOrderAwareFrameIteratorT
 <
 nsFrameList
@@ -1174,7 +1177,6 @@ nsFrameList
 :
 reverse_iterator
 >
-ReverseCSSOrderAwareFrameIterator
 ;
 }
 #
