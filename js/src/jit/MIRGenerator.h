@@ -143,7 +143,7 @@ optimizationInfo
 void
 initMinWasmHeapLength
 (
-uint32_t
+uint64_t
 init
 )
 {
@@ -580,7 +580,7 @@ wasmMaxStackArgBytes_
 n
 ;
 }
-uint32_t
+uint64_t
 minWasmHeapLength
 (
 )
@@ -703,7 +703,7 @@ stringsCanBeInNursery_
 bool
 bigIntsCanBeInNursery_
 ;
-uint32_t
+uint64_t
 minWasmHeapLength_
 ;
 #

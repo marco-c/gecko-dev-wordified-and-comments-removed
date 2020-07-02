@@ -219,7 +219,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 wasmMaxSize
 (
@@ -1498,7 +1498,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 wasmMaxSize
 (
@@ -2742,7 +2742,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxSize_
 ;
@@ -2765,7 +2765,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 &
 maxSize
@@ -2814,7 +2814,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 &
 maxSize
@@ -2930,7 +2930,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxSize
 (
@@ -2965,14 +2965,14 @@ MOZ_MUST_USE
 bool
 extendMappedSize
 (
-uint32_t
+uint64_t
 maxSize
 )
 ;
 void
 tryGrowMaxSizeInPlace
 (
-uint32_t
+uint64_t
 deltaMaxSize
 )
 ;
