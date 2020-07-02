@@ -2384,7 +2384,9 @@ updateManager
 &
 updateManager
 .
-updateCount
+getUpdateCount
+(
+)
 )
 {
 let

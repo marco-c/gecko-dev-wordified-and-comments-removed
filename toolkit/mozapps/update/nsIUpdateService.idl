@@ -2744,10 +2744,10 @@ list
 .
 *
 /
-readonly
-attribute
 long
-updateCount
+getUpdateCount
+(
+)
 ;
 /
 *

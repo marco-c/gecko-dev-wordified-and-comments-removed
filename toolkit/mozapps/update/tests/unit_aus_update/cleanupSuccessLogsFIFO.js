@@ -148,7 +148,9 @@ equal
 (
 gUpdateManager
 .
-updateCount
+getUpdateCount
+(
+)
 1
 "
 the

@@ -99,7 +99,9 @@ equal
 (
 gUpdateManager
 .
-updateCount
+getUpdateCount
+(
+)
 0
 "
 the
