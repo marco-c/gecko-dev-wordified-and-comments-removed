@@ -6837,7 +6837,7 @@ FeatureStatus
 :
 Blocklisted
 "
-Blacklisted
+Blocklisted
 see
 bug
 1351349
