@@ -205,10 +205,6 @@ HandleObject
 proto
 =
 nullptr
-NewObjectKind
-newKind
-=
-GenericObject
 )
 {
 if
@@ -317,7 +313,6 @@ cx
 fun
 enclosingEnv
 kind
-newKind
 proto
 )
 ;

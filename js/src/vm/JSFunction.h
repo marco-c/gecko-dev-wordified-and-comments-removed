@@ -3905,8 +3905,6 @@ gc
 :
 AllocKind
 kind
-NewObjectKind
-newKindArg
 HandleObject
 proto
 )
