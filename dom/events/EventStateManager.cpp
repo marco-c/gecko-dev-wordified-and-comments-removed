@@ -17013,7 +17013,7 @@ if
 aTargetFrame
 &
 &
-IsTopLevelRemoteTarget
+IsRemoteTarget
 (
 aTargetFrame
 -
