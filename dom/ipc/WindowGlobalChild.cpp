@@ -2099,6 +2099,12 @@ Construct
 aPendingSwitchId
 )
 ;
+options
+.
+mSwitchingInProgressLoad
+=
+true
+;
 flo
 -
 >
