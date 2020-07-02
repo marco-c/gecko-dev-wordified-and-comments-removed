@@ -650,6 +650,16 @@ Element
 element
 )
 ;
+[
+NewObject
+]
+NodeList
+getOverflowingChildrenOfElement
+(
+Element
+element
+)
+;
 }
 ;
 dictionary
