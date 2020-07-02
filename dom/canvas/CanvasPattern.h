@@ -74,8 +74,8 @@ SourceSurface
 namespace
 dom
 {
-class
-SVGMatrix
+struct
+DOMMatrix2DInit
 ;
 class
 CanvasPattern
@@ -208,9 +208,13 @@ mContext
 void
 SetTransform
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
-matrix
+aInit
+ErrorResult
+&
+aError
 )
 ;
 RefPtr
