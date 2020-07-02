@@ -2180,6 +2180,11 @@ HandleShutdown
 (
 )
 ;
+void
+ResetPreviousSampleTime
+(
+)
+;
 bool
 AdvanceAnimations
 (
