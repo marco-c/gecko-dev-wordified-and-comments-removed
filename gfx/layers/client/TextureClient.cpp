@@ -429,7 +429,7 @@ mozilla
 /
 layers
 /
-WaylandDMABUFTextureClientOGL
+DMABUFTextureClientOGL
 .
 h
 "
@@ -1135,7 +1135,7 @@ return
 TextureType
 :
 :
-WaylandDMABUF
+DMABUF
 ;
 }
 #
@@ -1575,10 +1575,10 @@ case
 TextureType
 :
 :
-WaylandDMABUF
+DMABUF
 :
 return
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 :
 Create

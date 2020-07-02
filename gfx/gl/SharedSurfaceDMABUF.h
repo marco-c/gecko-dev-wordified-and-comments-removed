@@ -18,7 +18,7 @@ mozilla
 /
 widget
 /
-WaylandDMABufSurface
+DMABufSurface
 .
 h
 "
@@ -46,7 +46,7 @@ public
 const
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 mSurface
 ;
@@ -75,7 +75,7 @@ MozFramebuffer
 >
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 )
 ;

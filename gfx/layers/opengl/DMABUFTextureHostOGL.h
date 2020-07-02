@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_GFX_WAYLANDDMABUFTEXTUREHOSTOGL_H
+MOZILLA_GFX_DMABUFTEXTUREHOSTOGL_H
 #
 define
-MOZILLA_GFX_WAYLANDDMABUFTEXTUREHOSTOGL_H
+MOZILLA_GFX_DMABUFTEXTUREHOSTOGL_H
 #
 include
 "
@@ -38,7 +38,7 @@ TextureHostOGL
 h
 "
 class
-WaylandDMABufSurface
+DMABufSurface
 ;
 namespace
 mozilla
@@ -47,14 +47,14 @@ namespace
 layers
 {
 class
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 :
 public
 TextureHost
 {
 public
 :
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 (
 TextureFlags
 aFlags
@@ -66,7 +66,7 @@ aDesc
 ;
 virtual
 ~
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 (
 )
 ;
@@ -169,7 +169,7 @@ override
 {
 return
 "
-WaylandDMABUFTextureHostOGL
+DMABUFTextureHostOGL
 "
 ;
 }
@@ -309,7 +309,7 @@ mTextureSource
 ;
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 mSurface
 ;

@@ -4595,7 +4595,7 @@ case
 ImageFormat
 :
 :
-WAYLAND_DMABUF
+DMABUF
 :
 return
 false

@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_GFX_RENDERWAYLANDDMABUFTEXTUREHOSTOGL_H
+MOZILLA_GFX_RENDERDMABUFTEXTUREHOSTOGL_H
 #
 define
-MOZILLA_GFX_RENDERWAYLANDDMABUFTEXTUREHOSTOGL_H
+MOZILLA_GFX_RENDERDMABUFTEXTUREHOSTOGL_H
 #
 include
 "
@@ -29,7 +29,7 @@ mozilla
 /
 widget
 /
-WaylandDMABufSurface
+DMABufSurface
 .
 h
 "
@@ -47,7 +47,7 @@ namespace
 wr
 {
 class
-RenderWaylandDMABUFTextureHostOGL
+RenderDMABUFTextureHostOGL
 final
 :
 public
@@ -56,9 +56,9 @@ RenderTextureHostOGL
 public
 :
 explicit
-RenderWaylandDMABUFTextureHostOGL
+RenderDMABUFTextureHostOGL
 (
-WaylandDMABufSurface
+DMABufSurface
 *
 aSurface
 )
@@ -116,7 +116,7 @@ private
 :
 virtual
 ~
-RenderWaylandDMABUFTextureHostOGL
+RenderDMABUFTextureHostOGL
 (
 )
 ;
@@ -127,7 +127,7 @@ DeleteTextureHandle
 ;
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 mSurface
 ;

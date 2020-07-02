@@ -604,7 +604,7 @@ return
 TextureType
 :
 :
-WaylandDMABUF
+DMABUF
 ;
 }
 }

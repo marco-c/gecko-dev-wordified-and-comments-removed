@@ -344,7 +344,7 @@ RenderCompositorEGL
 h
 '
 '
-RenderWaylandDMABUFTextureHostOGL
+RenderDMABUFTextureHostOGL
 .
 h
 '
@@ -359,7 +359,7 @@ RenderCompositorEGL
 cpp
 '
 '
-RenderWaylandDMABUFTextureHostOGL
+RenderDMABUFTextureHostOGL
 .
 cpp
 '

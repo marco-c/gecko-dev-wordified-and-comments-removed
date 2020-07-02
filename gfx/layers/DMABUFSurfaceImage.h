@@ -1,9 +1,9 @@
 #
 ifndef
-WAYLAND_SURFACE_DMABUF_H
+SURFACE_DMABUF_H
 #
 define
-WAYLAND_SURFACE_DMABUF_H
+SURFACE_DMABUF_H
 #
 include
 "
@@ -18,7 +18,7 @@ mozilla
 /
 widget
 /
-WaylandDMABufSurface
+DMABufSurface
 .
 h
 "
@@ -51,7 +51,7 @@ namespace
 layers
 {
 class
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 :
 public
 Image
@@ -59,9 +59,9 @@ Image
 public
 :
 explicit
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 (
-WaylandDMABufSurface
+DMABufSurface
 *
 aSurface
 )
@@ -72,7 +72,7 @@ nullptr
 ImageFormat
 :
 :
-WAYLAND_DMABUF
+DMABUF
 )
 mSurface
 (
@@ -88,7 +88,7 @@ GlobalRefAdd
 ;
 }
 ~
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 (
 )
 {
@@ -100,7 +100,7 @@ GlobalRefRelease
 )
 ;
 }
-WaylandDMABufSurface
+DMABufSurface
 *
 GetSurface
 (
@@ -174,7 +174,7 @@ private
 :
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 mSurface
 ;

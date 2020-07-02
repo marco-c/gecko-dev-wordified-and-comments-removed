@@ -16,7 +16,7 @@ TextureClientOGL
 h
 "
 class
-WaylandDMABufSurface
+DMABufSurface
 ;
 namespace
 mozilla
@@ -25,7 +25,7 @@ namespace
 layers
 {
 class
-WaylandDMABUFTextureData
+DMABUFTextureData
 :
 public
 TextureData
@@ -33,7 +33,7 @@ TextureData
 public
 :
 static
-WaylandDMABUFTextureData
+DMABUFTextureData
 *
 Create
 (
@@ -57,11 +57,11 @@ aBackend
 )
 ;
 static
-WaylandDMABUFTextureData
+DMABUFTextureData
 *
 Create
 (
-WaylandDMABufSurface
+DMABufSurface
 *
 aSurface
 gfx
@@ -73,7 +73,7 @@ aBackend
 {
 return
 new
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
 aSurface
 aBackend
@@ -81,7 +81,7 @@ aBackend
 ;
 }
 ~
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
 )
 ;
@@ -198,9 +198,9 @@ GetAsSurface
 ;
 protected
 :
-WaylandDMABUFTextureData
+DMABUFTextureData
 (
-WaylandDMABufSurface
+DMABufSurface
 *
 aSurface
 gfx
@@ -212,7 +212,7 @@ aBackend
 ;
 RefPtr
 <
-WaylandDMABufSurface
+DMABufSurface
 >
 mSurface
 ;

@@ -698,7 +698,7 @@ MacIOSurfaceImage
 elif
 MOZ_WAYLAND
 class
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 ;
 #
 endif
@@ -954,9 +954,9 @@ nullptr
 ifdef
 MOZ_WAYLAND
 virtual
-WaylandDMABUFSurfaceImage
+DMABUFSurfaceImage
 *
-AsWaylandDMABUFSurfaceImage
+AsDMABUFSurfaceImage
 (
 )
 {

@@ -727,7 +727,7 @@ DIB
 X11
 MacIOSurface
 AndroidNativeWindow
-WaylandDMABUF
+DMABUF
 EGLImage
 Last
 }
