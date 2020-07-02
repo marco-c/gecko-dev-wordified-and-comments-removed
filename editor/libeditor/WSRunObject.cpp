@@ -4803,9 +4803,9 @@ mEndRun
 =
 mStartRun
 ;
+return
+;
 }
-else
-{
 WSFragment
 *
 lastRun
@@ -4912,7 +4912,6 @@ SetEndByTrailingWhiteSpaces
 (
 )
 ;
-}
 return
 ;
 }
