@@ -18,6 +18,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -37,6 +38,7 @@ delay
 return
 [
 (
+b
 "
 Access
 -
@@ -46,11 +48,13 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
 )
 (
+b
 "
 Access
 -
@@ -60,16 +64,19 @@ Allow
 -
 Methods
 "
+b
 "
 YO
 "
 )
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -77,6 +84,7 @@ plain
 "
 )
 ]
+b
 "
 TEST_DELAY
 "

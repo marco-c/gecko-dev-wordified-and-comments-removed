@@ -24,11 +24,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -42,6 +44,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -49,6 +52,7 @@ Custom
 -
 Header
 "
+b
 "
 test
 "
@@ -60,11 +64,13 @@ headers
 .
 set
 (
+b
 "
 Set
 -
 Cookie
 "
+b
 "
 test
 "
@@ -76,11 +82,13 @@ headers
 .
 set
 (
+b
 "
 Set
 -
 Cookie2
 "
+b
 "
 test
 "
@@ -92,6 +100,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -101,6 +110,7 @@ Header
 -
 Empty
 "
+b
 "
 "
 )
@@ -111,6 +121,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -120,6 +131,7 @@ Header
 -
 Comma
 "
+b
 "
 1
 "
@@ -131,6 +143,7 @@ headers
 .
 append
 (
+b
 "
 X
 -
@@ -140,6 +153,7 @@ Header
 -
 Comma
 "
+b
 "
 2
 "
@@ -151,6 +165,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -160,11 +175,22 @@ Header
 -
 Bytes
 "
+u
 "
 "
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
     
 return
+b
 "
 TEST
 "

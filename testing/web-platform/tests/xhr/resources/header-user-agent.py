@@ -12,6 +12,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -21,6 +22,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -32,6 +34,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -50,6 +53,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -59,6 +63,7 @@ Allow
 -
 Headers
 '
+b
 "
 x
 -
@@ -72,6 +77,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -85,6 +91,7 @@ headers
 .
 get
 (
+b
 "
 User
 -
@@ -97,6 +104,7 @@ response
 .
 content
 =
+b
 "
 FAIL
 :
@@ -127,6 +135,7 @@ headers
 .
 get
 (
+b
 "
 User
 -
@@ -139,6 +148,7 @@ response
 .
 content
 =
+b
 "
 PASS
 "
@@ -150,6 +160,7 @@ response
 .
 content
 =
+b
 "
 FAIL
 :

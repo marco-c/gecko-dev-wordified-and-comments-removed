@@ -21,11 +21,13 @@ writer
 .
 write_header
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /

@@ -3,9 +3,9 @@ gzip
 as
 gzip_module
 from
-cStringIO
+six
 import
-StringIO
+BytesIO
 def
 main
 (
@@ -15,6 +15,7 @@ response
 :
     
 if
+b
 "
 content
 "
@@ -30,6 +31,7 @@ request
 .
 GET
 [
+b
 "
 content
 "
@@ -46,7 +48,7 @@ body
     
 out
 =
-StringIO
+BytesIO
 (
 )
     
@@ -87,11 +89,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -100,17 +104,20 @@ plain
 )
                
 (
+b
 "
 Content
 -
 Encoding
 "
+b
 "
 gzip
 "
 )
                
 (
+b
 "
 X
 -
@@ -124,6 +131,7 @@ method
 )
                
 (
+b
 "
 X
 -
@@ -143,12 +151,14 @@ url_parts
 .
 query
 else
+b
 "
 NO
 "
 )
                
 (
+b
 "
 X
 -
@@ -164,11 +174,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Length
 "
+b
 "
 NO
 "
@@ -176,6 +188,7 @@ NO
 )
                
 (
+b
 "
 X
 -
@@ -191,11 +204,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 NO
 "
@@ -203,6 +218,7 @@ NO
 )
                
 (
+b
 "
 Content
 -

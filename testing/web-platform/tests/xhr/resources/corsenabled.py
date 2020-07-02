@@ -1,5 +1,11 @@
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,6 +18,7 @@ headers
 =
 [
 (
+b
 "
 Access
 -
@@ -21,12 +28,14 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
 )
                
 (
+b
 "
 Access
 -
@@ -36,12 +45,14 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
 )
                
 (
+b
 "
 Access
 -
@@ -51,6 +62,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 POST
@@ -60,6 +72,7 @@ FOO
 )
                
 (
+b
 "
 Access
 -
@@ -69,6 +82,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -80,6 +94,7 @@ foo
 )
                
 (
+b
 "
 Access
 -
@@ -89,6 +104,7 @@ Expose
 -
 Headers
 "
+b
 "
 x
 -
@@ -124,6 +140,7 @@ data
 ]
     
 if
+b
 "
 delay
 "
@@ -143,6 +160,7 @@ GET
 .
 first
 (
+b
 "
 delay
 "
@@ -157,6 +175,7 @@ delay
 )
     
 if
+b
 "
 safelist_content_type
 "
@@ -171,6 +190,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -180,6 +200,7 @@ Allow
 -
 Headers
 "
+b
 "
 content
 -
@@ -193,6 +214,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -200,9 +222,12 @@ Request
 -
 Method
 "
+isomorphic_encode
+(
 request
 .
 method
+)
 )
 )
     
@@ -211,6 +236,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -218,11 +244,14 @@ Request
 -
 Query
 "
+isomorphic_encode
+(
 request
 .
 url_parts
 .
 query
+)
 if
 request
 .
@@ -230,6 +259,7 @@ url_parts
 .
 query
 else
+b
 "
 NO
 "
@@ -241,6 +271,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -256,11 +287,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Length
 "
+b
 "
 NO
 "
@@ -273,6 +306,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -288,11 +322,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 NO
 "
@@ -305,6 +341,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -320,6 +357,7 @@ body
     
 return
 headers
+b
 "
 Test
 "

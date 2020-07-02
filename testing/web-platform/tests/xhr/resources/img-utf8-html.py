@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -31,6 +33,7 @@ utf
     
 content
 =
+b
 "
 <
 img
