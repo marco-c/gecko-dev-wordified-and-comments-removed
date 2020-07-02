@@ -865,7 +865,7 @@ bool
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 nsINode
 *

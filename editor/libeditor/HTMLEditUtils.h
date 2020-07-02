@@ -327,7 +327,7 @@ aNode
 ;
 static
 bool
-IsTableElement
+IsAnyTableElement
 (
 nsINode
 *

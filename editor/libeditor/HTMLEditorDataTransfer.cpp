@@ -1585,7 +1585,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 arrayOfTopMostChildContents
 [
@@ -16325,7 +16325,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 content
 )
@@ -16628,7 +16628,7 @@ if
 HTMLEditUtils
 :
 :
-IsTableElement
+IsAnyTableElement
 (
 element
 )
