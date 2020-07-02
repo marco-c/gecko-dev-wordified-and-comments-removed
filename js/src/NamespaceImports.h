@@ -282,12 +282,6 @@ using
 JS
 :
 :
-UniqueLatin1Chars
-;
-using
-JS
-:
-:
 UniqueTwoByteChars
 ;
 using
