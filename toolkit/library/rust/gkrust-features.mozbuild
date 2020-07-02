@@ -445,6 +445,9 @@ gkrust_features
 '
 glean
 '
+'
+glean_with_gecko
+'
 ]
 if
 CONFIG

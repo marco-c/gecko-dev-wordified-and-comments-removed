@@ -256,3 +256,15 @@ services
 issues
 /
 3062
+[
+features
+]
+with_gecko
+=
+[
+"
+glean
+/
+with_gecko
+"
+]
