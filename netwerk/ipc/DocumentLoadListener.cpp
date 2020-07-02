@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+DebugOnly
+.
+h
+"
+#
+include
+"
+mozilla
+/
 LoadInfo
 .
 h
@@ -3495,7 +3504,10 @@ GetLoadIdentifier
 (
 )
 ;
+DebugOnly
+<
 nsresult
+>
 rv
 =
 registrar
