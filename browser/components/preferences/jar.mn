@@ -154,6 +154,15 @@ browser
 /
 preferences
 /
+experimental
+.
+js
+content
+/
+browser
+/
+preferences
+/
 fxaPairDevice
 .
 xhtml
