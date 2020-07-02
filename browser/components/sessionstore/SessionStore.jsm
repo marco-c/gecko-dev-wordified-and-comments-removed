@@ -19209,9 +19209,6 @@ aTab
 selected
 &
 &
-uri
-&
-&
 !
 window
 .
