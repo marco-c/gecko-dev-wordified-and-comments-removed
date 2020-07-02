@@ -727,6 +727,9 @@ unwrap
 (
 )
 ;
+NotificationActivities
+activitiesPerformed
+=
 MaybeShowNotification
 (
 browserInfo
@@ -748,6 +751,7 @@ return
 SendDefaultBrowserPing
 (
 browserInfo
+activitiesPerformed
 )
 ;
 }
