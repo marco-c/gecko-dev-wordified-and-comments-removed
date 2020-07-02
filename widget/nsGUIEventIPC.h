@@ -8416,7 +8416,7 @@ MouseInput
 ButtonType
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 mozilla
 :
 :

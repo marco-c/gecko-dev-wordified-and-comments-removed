@@ -2950,7 +2950,7 @@ result
 MouseInput
 :
 :
-LEFT_BUTTON
+PRIMARY_BUTTON
 ;
 break
 ;
@@ -2971,7 +2971,7 @@ result
 MouseInput
 :
 :
-RIGHT_BUTTON
+SECONDARY_BUTTON
 ;
 break
 ;
