@@ -20,7 +20,7 @@ net
 {
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 NeckoTargetHolder
 :
@@ -31,7 +31,7 @@ GetNeckoTarget
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -45,7 +45,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -99,11 +99,11 @@ aDispatchFlags
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mainThreadTarget
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;

@@ -581,7 +581,7 @@ Create
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
@@ -966,7 +966,7 @@ DataChannelConnection
 DataConnectionListener
 *
 aListener
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 MediaTransportHandler
@@ -2470,7 +2470,7 @@ mBufferedData
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mMainThreadEventTarget
 ;

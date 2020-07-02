@@ -138,7 +138,7 @@ interface
 nsIURI
 ;
 interface
-nsIEventTarget
+nsISerialEventTarget
 ;
 /
 *
@@ -791,7 +791,7 @@ aCallback
 optional
 ]
 in
-nsIEventTarget
+nsISerialEventTarget
 aMainThreadTarget
 )
 ;

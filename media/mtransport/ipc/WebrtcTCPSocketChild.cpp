@@ -477,7 +477,7 @@ gNeckoChild
 SetEventTargetForActor
 (
 this
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 )
@@ -511,7 +511,7 @@ GetSingleton
 SetEventTargetForActor
 (
 this
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 )

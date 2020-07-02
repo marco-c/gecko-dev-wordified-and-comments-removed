@@ -207,6 +207,9 @@ class
 nsInputStreamPump
 ;
 class
+nsISerialEventTarget
+;
+class
 nsIInterceptedBodyCallback
 ;
 #
@@ -995,7 +998,7 @@ retval
 ;
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetNeckoTarget
 (

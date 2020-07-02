@@ -402,14 +402,14 @@ h
 #
 include
 "
-nsIEventTarget
+nsIScriptError
 .
 h
 "
 #
 include
 "
-nsIScriptError
+nsISerialEventTarget
 .
 h
 "
@@ -1835,7 +1835,7 @@ callback
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -4026,7 +4026,7 @@ this
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -4223,7 +4223,7 @@ mUnreportBytesRead
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -6894,7 +6894,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -8060,7 +8060,7 @@ registrarId
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -8277,7 +8277,7 @@ GetTainting
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -9182,7 +9182,7 @@ mDivertingToParent
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -10187,7 +10187,7 @@ nullptr
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -10929,7 +10929,7 @@ mCallOnResume
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -11904,7 +11904,7 @@ LoadInfo
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -11953,7 +11953,7 @@ target
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 HttpChannelChild
 :
@@ -11964,7 +11964,7 @@ GetNeckoTarget
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;
@@ -11988,7 +11988,7 @@ target
 {
 target
 =
-GetMainThreadEventTarget
+GetMainThreadSerialEventTarget
 (
 )
 ;
@@ -12025,14 +12025,23 @@ lock
 mEventTargetMutex
 )
 ;
+if
+(
+mODATarget
+)
+{
 target
 =
 mODATarget
-?
-mODATarget
-:
+;
+}
+else
+{
+target
+=
 mNeckoTarget
 ;
+}
 }
 if
 (
@@ -14182,7 +14191,7 @@ NS_ERROR_NOT_AVAILABLE
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -16112,7 +16121,7 @@ return
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -16207,7 +16216,7 @@ aStatus
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -16287,7 +16296,7 @@ funcPtr
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =
@@ -16745,7 +16754,7 @@ mSynthesizedStreamLength
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 neckoTarget
 =

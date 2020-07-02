@@ -32,7 +32,7 @@ public
 explicit
 NeckoTargetHolder
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 aNeckoTarget
 )
@@ -56,7 +56,7 @@ default
 virtual
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 GetNeckoTarget
 (
@@ -80,7 +80,7 @@ NS_DISPATCH_NORMAL
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mNeckoTarget
 ;

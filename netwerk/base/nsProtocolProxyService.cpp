@@ -879,7 +879,7 @@ mProxyInfo
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mProcessingThread
 ;
@@ -6421,7 +6421,7 @@ nsProtocolProxyService
 :
 SetupPACThread
 (
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )
@@ -7129,7 +7129,7 @@ nsICancelable
 result
 bool
 isSyncOK
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 )
@@ -7395,7 +7395,7 @@ flags
 nsIProtocolProxyCallback
 *
 callback
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 nsICancelable
@@ -7430,7 +7430,7 @@ flags
 nsIProtocolProxyCallback
 *
 callback
-nsIEventTarget
+nsISerialEventTarget
 *
 mainThreadEventTarget
 nsICancelable
