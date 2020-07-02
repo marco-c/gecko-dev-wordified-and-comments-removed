@@ -3971,6 +3971,7 @@ get_task_address
 task_id
 )
 vis_mask
+0
 )
 )
 ;
