@@ -92,13 +92,6 @@ nsSize
 .
 h
 "
-#
-include
-"
-WinThemeData
-.
-h
-"
 class
 nsNativeThemeWin
 :
@@ -364,13 +357,7 @@ StyleAppearance
 aAppearance
 )
 ;
-mozilla
-:
-:
-widget
-:
-:
-WinThemeDataPtr
+HANDLE
 GetTheme
 (
 StyleAppearance
@@ -588,7 +575,7 @@ nsIFrame
 aFrame
 StyleAppearance
 aAppearance
-WinThemeDataPtr
+HANDLE
 aTheme
 HDC
 aHdc
@@ -612,7 +599,7 @@ nodiscard
 LayoutDeviceIntMargin
 GetCachedWidgetBorder
 (
-WinThemeDataPtr
+HANDLE
 aTheme
 nsUXThemeClass
 aThemeClass
@@ -630,7 +617,7 @@ GetCachedMinimumWidgetSize
 nsIFrame
 *
 aFrame
-WinThemeDataPtr
+HANDLE
 aTheme
 nsUXThemeClass
 aThemeClass
@@ -653,7 +640,7 @@ aResult
 SIZE
 GetCachedGutterSize
 (
-WinThemeDataPtr
+HANDLE
 theme
 )
 ;
