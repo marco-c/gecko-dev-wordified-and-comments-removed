@@ -383,7 +383,7 @@ case
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 :
 return
 "
