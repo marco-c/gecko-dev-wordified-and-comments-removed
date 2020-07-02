@@ -71,6 +71,13 @@ setup
 (
 )
 {
+await
+ExtensionPermissions
+.
+_uninit
+(
+)
+;
 Services
 .
 prefs
