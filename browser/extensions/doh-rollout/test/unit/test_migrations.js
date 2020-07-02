@@ -413,17 +413,6 @@ rollout
 .
 doorhanger
 -
-shown
-"
-:
-true
-"
-doh
--
-rollout
-.
-doorhanger
--
 decision
 "
 :
