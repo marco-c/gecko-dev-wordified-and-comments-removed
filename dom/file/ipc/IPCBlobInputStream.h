@@ -16,7 +16,7 @@ h
 #
 include
 "
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 .
 h
 "
@@ -113,7 +113,7 @@ nsIInputStreamLength
 public
 nsIAsyncInputStreamLength
 public
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 {
 public
 :

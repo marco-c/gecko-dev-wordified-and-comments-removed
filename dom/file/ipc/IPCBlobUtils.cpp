@@ -470,7 +470,7 @@ aInputStream
 ;
 nsCOMPtr
 <
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 >
 ipcBlobInputStream
 =
