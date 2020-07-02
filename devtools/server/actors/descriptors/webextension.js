@@ -242,13 +242,6 @@ id
 this
 .
 addonId
-isAPIExtension
-:
-this
-.
-addon
-.
-isAPIExtension
 isSystem
 :
 this
@@ -296,13 +289,6 @@ traits
 :
 {
 }
-type
-:
-this
-.
-addon
-.
-type
 url
 :
 this
