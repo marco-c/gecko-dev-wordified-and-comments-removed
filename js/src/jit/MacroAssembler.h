@@ -2771,7 +2771,7 @@ mips64
 ;
 inline
 void
-swap16SignExtend
+byteSwap16SignExtend
 (
 Register
 reg
@@ -2780,7 +2780,7 @@ PER_SHARED_ARCH
 ;
 inline
 void
-swap16ZeroExtend
+byteSwap16ZeroExtend
 (
 Register
 reg
@@ -2789,7 +2789,7 @@ PER_SHARED_ARCH
 ;
 inline
 void
-swap32
+byteSwap32
 (
 Register
 reg
@@ -2798,7 +2798,7 @@ PER_SHARED_ARCH
 ;
 inline
 void
-swap64
+byteSwap64
 (
 Register64
 reg

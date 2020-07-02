@@ -628,7 +628,7 @@ void
 MacroAssembler
 :
 :
-swap16SignExtend
+byteSwap16SignExtend
 (
 Register
 reg
@@ -654,7 +654,7 @@ void
 MacroAssembler
 :
 :
-swap16ZeroExtend
+byteSwap16ZeroExtend
 (
 Register
 reg
@@ -680,7 +680,7 @@ void
 MacroAssembler
 :
 :
-swap32
+byteSwap32
 (
 Register
 reg
