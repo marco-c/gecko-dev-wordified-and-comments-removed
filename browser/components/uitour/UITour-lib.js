@@ -809,6 +809,7 @@ showFirefoxAccounts
 function
 (
 extraURLParams
+entrypoint
 email
 )
 {
@@ -826,6 +827,7 @@ stringify
 (
 extraURLParams
 )
+entrypoint
 email
 }
 )
