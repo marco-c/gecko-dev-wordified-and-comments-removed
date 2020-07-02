@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 .
 h
 "
@@ -128,10 +128,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -155,9 +151,15 @@ nsContainerFrame
 *
 NS_NewSVGForeignObjectFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -168,7 +170,10 @@ new
 (
 aPresShell
 )
-nsSVGForeignObjectFrame
+mozilla
+:
+:
+SVGForeignObjectFrame
 (
 aStyle
 aPresShell
@@ -180,14 +185,17 @@ GetPresContext
 )
 ;
 }
+namespace
+mozilla
+{
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 )
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 (
 ComputedStyle
 *
@@ -220,7 +228,7 @@ NS_FRAME_SVG_LAYOUT
 }
 NS_QUERYFRAME_HEAD
 (
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 )
 NS_QUERYFRAME_ENTRY
 (
@@ -231,7 +239,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 nsContainerFrame
 )
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 Init
@@ -326,7 +334,7 @@ this
 }
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 DestroyFrom
@@ -375,7 +383,7 @@ aPostDestroyData
 ;
 }
 nsresult
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 AttributeChanged
@@ -459,7 +467,7 @@ NS_OK
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 DidSetComputedStyle
@@ -538,7 +546,7 @@ this
 }
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 Reflow
@@ -737,7 +745,7 @@ SetOverflowAreasToDesiredBounds
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 BuildDisplayList
@@ -827,7 +835,7 @@ newList
 ;
 }
 bool
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 IsSVGTransformed
@@ -979,7 +987,7 @@ foundTransform
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 PaintSVG
@@ -1484,7 +1492,7 @@ Restore
 }
 nsIFrame
 *
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 GetFrameForPoint
@@ -1708,7 +1716,7 @@ point
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 ReflowSVG
@@ -1983,7 +1991,7 @@ NS_FRAME_HAS_DIRTY_CHILDREN
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 NotifySVGChanged
@@ -2184,7 +2192,7 @@ nullptr
 }
 }
 SVGBBox
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 GetBBoxContribution
@@ -2318,7 +2326,7 @@ h
 ;
 }
 gfxMatrix
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 GetCanvasTM
@@ -2405,7 +2413,7 @@ mCanvasTM
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 RequestReflow
@@ -2459,7 +2467,7 @@ NS_FRAME_IS_DIRTY
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 DoReflow
@@ -2732,7 +2740,7 @@ false
 ;
 }
 nsRect
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 GetInvalidRegion
@@ -2845,7 +2853,7 @@ nsRect
 ;
 }
 void
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 :
 :
 AppendDirectlyOwnedAnonBoxes
@@ -2892,4 +2900,5 @@ FirstChild
 )
 )
 ;
+}
 }

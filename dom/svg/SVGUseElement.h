@@ -84,9 +84,6 @@ h
 class
 nsIContent
 ;
-class
-nsSVGUseFrame
-;
 nsresult
 NS_NewSVGSVGElement
 (
@@ -142,6 +139,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+SVGUseFrame
+;
 struct
 URLExtraData
 ;
@@ -163,9 +163,10 @@ nsStubMutationObserver
 {
 friend
 class
+mozilla
 :
 :
-nsSVGUseFrame
+SVGUseFrame
 ;
 protected
 :
@@ -534,7 +535,7 @@ mOwningUseElement
 ;
 }
 ;
-nsSVGUseFrame
+SVGUseFrame
 *
 GetFrame
 (

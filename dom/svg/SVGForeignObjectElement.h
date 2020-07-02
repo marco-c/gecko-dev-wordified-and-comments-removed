@@ -51,12 +51,12 @@ NodeInfo
 aNodeInfo
 )
 ;
-class
-nsSVGForeignObjectFrame
-;
 namespace
 mozilla
 {
+class
+SVGForeignObjectFrame
+;
 namespace
 dom
 {
@@ -69,9 +69,10 @@ SVGGraphicsElement
 {
 friend
 class
+mozilla
 :
 :
-nsSVGForeignObjectFrame
+SVGForeignObjectFrame
 ;
 protected
 :
