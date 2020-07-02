@@ -27,7 +27,7 @@ creator
 The
 result
 of
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 .
@@ -110,17 +110,8 @@ try
 {
 window
 .
-chooseFileSystemEntries
+showDirectoryPicker
 (
-{
-type
-:
-'
-open
--
-directory
-'
-}
 )
 .
 then
@@ -133,7 +124,7 @@ then
 post_message
 (
 '
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 :
@@ -152,7 +143,7 @@ error
 {
 post_message
 (
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 :
@@ -176,7 +167,7 @@ error
 {
 post_message
 (
-chooseFileSystemEntries
+showDirectoryPicker
 (
 )
 :

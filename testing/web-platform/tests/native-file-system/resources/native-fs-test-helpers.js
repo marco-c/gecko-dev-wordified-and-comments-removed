@@ -42,6 +42,7 @@ resolve
 100
 )
 )
+;
 await
 window
 .
@@ -73,17 +74,8 @@ entries
 await
 self
 .
-chooseFileSystemEntries
+showDirectoryPicker
 (
-{
-type
-:
-'
-open
--
-directory
-'
-}
 )
 ;
 assert_true
