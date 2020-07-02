@@ -52,7 +52,6 @@ const
 char
 *
 aName
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -199,7 +198,6 @@ mMutex
 ;
 #
 endif
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class

@@ -48,7 +48,6 @@ const
 char
 *
 aName
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 BlockingResourceBase
@@ -70,8 +69,6 @@ mEntryCount
 #
 endif
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 #
 ifdef
 XP_WIN
