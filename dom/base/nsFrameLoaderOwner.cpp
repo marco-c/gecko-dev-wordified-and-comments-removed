@@ -535,7 +535,7 @@ bc
 mFrameLoader
 -
 >
-GetExtantBrowsingContext
+GetMaybePendingBrowsingContext
 (
 )
 ;
