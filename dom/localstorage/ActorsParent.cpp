@@ -37469,8 +37469,9 @@ usage
 )
 ;
 res
-.
-IncrementDatabaseUsage
++
+=
+DatabaseUsageType
 (
 Some
 (
@@ -37889,8 +37890,9 @@ usage
 )
 {
 res
-.
-IncrementDatabaseUsage
++
+=
+DatabaseUsageType
 (
 Some
 (

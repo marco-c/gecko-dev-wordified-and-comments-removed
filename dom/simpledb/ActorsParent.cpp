@@ -7008,8 +7008,9 @@ fileSize
 )
 ;
 res
-.
-IncrementDatabaseUsage
++
+=
+DatabaseUsageType
 (
 Some
 (
