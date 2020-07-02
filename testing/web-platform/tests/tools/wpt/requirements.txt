@@ -3,7 +3,7 @@ requests
 =
 2
 .
-23
+24
 .
 0
 mozinfo
