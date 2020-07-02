@@ -187,7 +187,7 @@ SVGFEComponentTransferElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

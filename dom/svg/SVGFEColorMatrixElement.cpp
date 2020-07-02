@@ -319,7 +319,7 @@ SVGFEColorMatrixElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

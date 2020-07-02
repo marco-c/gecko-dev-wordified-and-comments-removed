@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGFilterInstance
+SVGFilterInstance
 .
 h
 "
@@ -84,14 +84,14 @@ h
 #
 include
 "
-SVGObserverUtils
+SVGFilterFrame
 .
 h
 "
 #
 include
 "
-nsSVGFilterFrame
+SVGObserverUtils
 .
 h
 "
@@ -126,10 +126,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -151,10 +147,13 @@ mozilla
 :
 gfx
 ;
-nsSVGFilterInstance
+namespace
+mozilla
+{
+SVGFilterInstance
 :
 :
-nsSVGFilterInstance
+SVGFilterInstance
 (
 const
 StyleFilter
@@ -286,7 +285,7 @@ true
 ;
 }
 bool
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 ComputeBounds
@@ -491,9 +490,9 @@ return
 true
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 GetFilterFrame
@@ -682,7 +681,7 @@ nullptr
 return
 static_cast
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 (
@@ -691,7 +690,7 @@ frame
 ;
 }
 float
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 GetPrimitiveNumber
@@ -816,7 +815,7 @@ height
 }
 }
 Point3D
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 ConvertLocation
@@ -959,7 +958,7 @@ z
 ;
 }
 gfxRect
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 UserSpaceToFilterSpace
@@ -993,7 +992,7 @@ filterSpaceRect
 ;
 }
 IntRect
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 ComputeFilterPrimitiveSubregion
@@ -1278,7 +1277,7 @@ region
 ;
 }
 void
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 GetInputsAreTainted
@@ -1406,7 +1405,7 @@ numPrimitiveDescrs
 ;
 }
 int32_t
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 GetOrCreateSourceAlphaIndex
@@ -1557,7 +1556,7 @@ mSourceAlphaIndex
 ;
 }
 nsresult
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 GetSourceIndices
@@ -1818,7 +1817,7 @@ NS_OK
 ;
 }
 nsresult
-nsSVGFilterInstance
+SVGFilterInstance
 :
 :
 BuildPrimitives
@@ -2286,4 +2285,5 @@ primitiveDescrIndex
 return
 NS_OK
 ;
+}
 }

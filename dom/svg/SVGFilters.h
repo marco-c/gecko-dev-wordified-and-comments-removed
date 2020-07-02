@@ -66,12 +66,12 @@ SVGAnimatedString
 .
 h
 "
-class
-nsSVGFilterInstance
-;
 namespace
 mozilla
 {
+class
+SVGFilterInstance
+;
 namespace
 dom
 {
@@ -145,9 +145,10 @@ SVGFEBase
 {
 friend
 class
+mozilla
 :
 :
-nsSVGFilterInstance
+SVGFilterInstance
 ;
 protected
 :
@@ -408,7 +409,7 @@ virtual
 FilterPrimitiveDescription
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const
@@ -615,7 +616,7 @@ override
 Size
 GetKernelUnitLength
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 SVGAnimatedNumberPair
@@ -892,7 +893,7 @@ gfx
 LightType
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray
@@ -915,7 +916,7 @@ gfx
 DiffuseLightingAttributes
 *
 aAttributes
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 )
@@ -1041,7 +1042,7 @@ gfx
 LightType
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray

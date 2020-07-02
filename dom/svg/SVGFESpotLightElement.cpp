@@ -23,7 +23,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -261,7 +263,7 @@ SVGFESpotLightElement
 :
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray

@@ -76,13 +76,6 @@ h
 #
 include
 "
-nsSVGFilterInstance
-.
-h
-"
-#
-include
-"
 SVGNumberList
 .
 h
@@ -111,6 +104,15 @@ include
 mozilla
 /
 SVGContentUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -780,7 +782,7 @@ SVGFE
 :
 GetKernelUnitLength
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 SVGAnimatedNumberPair
@@ -1967,7 +1969,7 @@ SVGFELightingElement
 :
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray
@@ -2072,7 +2074,7 @@ gfx
 DiffuseLightingAttributes
 *
 aAttributes
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 )

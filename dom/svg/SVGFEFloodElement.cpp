@@ -124,7 +124,7 @@ SVGFEFloodElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

@@ -23,14 +23,16 @@ h
 #
 include
 "
-nsIFrame
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
 #
 include
 "
-nsSVGFilterInstance
+nsIFrame
 .
 h
 "
@@ -327,7 +329,7 @@ SVGFEDropShadowElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

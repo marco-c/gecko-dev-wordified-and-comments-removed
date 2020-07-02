@@ -345,7 +345,7 @@ SVGFEBlendElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

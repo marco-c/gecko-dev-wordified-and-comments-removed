@@ -23,7 +23,9 @@ h
 #
 include
 "
-nsSVGFilterInstance
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
@@ -361,7 +363,7 @@ int32_t
 *
 aRY
 const
-nsSVGFilterInstance
+SVGFilterInstance
 &
 aInstance
 )
@@ -427,7 +429,7 @@ SVGFEMorphologyElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

@@ -1113,7 +1113,7 @@ LEAF
 Frame
 (
 "
-nsSVGFilterFrame
+SVGFilterFrame
 "
 "
 SVGFilter

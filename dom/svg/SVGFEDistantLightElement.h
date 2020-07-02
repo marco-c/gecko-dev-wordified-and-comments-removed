@@ -147,7 +147,7 @@ gfx
 LightType
 ComputeLightAttributes
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 nsTArray

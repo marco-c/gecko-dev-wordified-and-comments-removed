@@ -124,12 +124,12 @@ nsSVGClipPathFrame
 class
 nsSVGPaintServerFrame
 ;
-class
-nsSVGFilterFrame
-;
 namespace
 mozilla
 {
+class
+SVGFilterFrame
+;
 class
 SVGMarkerFrame
 ;
@@ -599,7 +599,7 @@ nsIFrame
 aFilteredFrame
 nsTArray
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 *
@@ -615,7 +615,7 @@ nsIFrame
 aFilteredFrame
 nsTArray
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 *

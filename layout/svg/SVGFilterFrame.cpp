@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGFilterFrame
+SVGFilterFrame
 .
 h
 "
@@ -63,7 +63,7 @@ h
 #
 include
 "
-nsSVGFilterInstance
+SVGFilterInstance
 .
 h
 "
@@ -103,9 +103,15 @@ nsIFrame
 *
 NS_NewSVGFilterFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -116,7 +122,10 @@ new
 (
 aPresShell
 )
-nsSVGFilterFrame
+mozilla
+:
+:
+SVGFilterFrame
 (
 aStyle
 aPresShell
@@ -128,12 +137,15 @@ GetPresContext
 )
 ;
 }
+namespace
+mozilla
+{
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGFilterFrame
+SVGFilterFrame
 )
 uint16_t
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 GetEnumValue
@@ -236,7 +248,7 @@ GetAnimValue
 )
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
 next
 =
@@ -279,7 +291,7 @@ GetAnimValue
 const
 SVGAnimatedLength
 *
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 GetLengthValue
@@ -378,7 +390,7 @@ aIndex
 ]
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
 next
 =
@@ -418,7 +430,7 @@ aIndex
 const
 SVGFilterElement
 *
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 GetFilterContent
@@ -535,7 +547,7 @@ aDefault
 )
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
 next
 =
@@ -564,9 +576,9 @@ aDefault
 )
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 GetReferencedFilter
@@ -720,7 +732,7 @@ SVGFilter
 return
 static_cast
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 (
@@ -734,7 +746,7 @@ nullptr
 ;
 }
 nsresult
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 AttributeChanged
@@ -884,7 +896,7 @@ aModType
 ifdef
 DEBUG
 void
-nsSVGFilterFrame
+SVGFilterFrame
 :
 :
 Init
@@ -935,3 +947,4 @@ aPrevInFlow
 }
 #
 endif
+}

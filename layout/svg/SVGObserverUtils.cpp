@@ -120,13 +120,6 @@ h
 #
 include
 "
-nsSVGFilterFrame
-.
-h
-"
-#
-include
-"
 nsSVGPaintServerFrame
 .
 h
@@ -142,6 +135,13 @@ h
 include
 "
 nsURIHashKey
+.
+h
+"
+#
+include
+"
+SVGFilterFrame
 .
 h
 "
@@ -763,10 +763,10 @@ class
 SVGFilterObserverList
 ;
 struct
-nsSVGFrameReferenceFromProperty
+SVGFrameReferenceFromProperty
 {
 explicit
-nsSVGFrameReferenceFromProperty
+SVGFrameReferenceFromProperty
 (
 nsIFrame
 *
@@ -1623,7 +1623,7 @@ OnRenderingChange
 )
 override
 ;
-nsSVGFrameReferenceFromProperty
+SVGFrameReferenceFromProperty
 mFrameReference
 ;
 }
@@ -2403,7 +2403,7 @@ mFilterObserverList
 nullptr
 ;
 }
-nsSVGFilterFrame
+SVGFilterFrame
 *
 GetAndObserveFilterFrame
 (
@@ -2495,7 +2495,7 @@ NS_IMPL_CYCLE_COLLECTION_UNLINK
 mObservingContent
 )
 NS_IMPL_CYCLE_COLLECTION_UNLINK_END
-nsSVGFilterFrame
+SVGFilterFrame
 *
 SVGFilterObserver
 :
@@ -2507,7 +2507,7 @@ GetAndObserveFilterFrame
 return
 static_cast
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 (
@@ -3545,7 +3545,7 @@ OnRenderingChange
 )
 override
 ;
-nsSVGFrameReferenceFromProperty
+SVGFrameReferenceFromProperty
 mFrameReference
 ;
 }
@@ -4827,7 +4827,7 @@ SVGFilterObserverListForCSSProp
 aObserverList
 nsTArray
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 *
@@ -4901,7 +4901,7 @@ i
 +
 )
 {
-nsSVGFilterFrame
+SVGFilterFrame
 *
 filter
 =
@@ -4977,7 +4977,7 @@ nsIFrame
 aFilteredFrame
 nsTArray
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 *
@@ -5017,7 +5017,7 @@ nsIFrame
 aFilteredFrame
 nsTArray
 <
-nsSVGFilterFrame
+SVGFilterFrame
 *
 >
 *

@@ -23,14 +23,16 @@ h
 #
 include
 "
-nsSVGUtils
+mozilla
+/
+SVGFilterInstance
 .
 h
 "
 #
 include
 "
-nsSVGFilterInstance
+nsSVGUtils
 .
 h
 "
@@ -217,7 +219,7 @@ SVGFEDiffuseLightingElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

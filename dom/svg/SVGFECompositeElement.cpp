@@ -468,7 +468,7 @@ SVGFECompositeElement
 :
 GetPrimitiveDescription
 (
-nsSVGFilterInstance
+SVGFilterInstance
 *
 aInstance
 const

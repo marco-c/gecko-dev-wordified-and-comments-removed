@@ -17,15 +17,15 @@ nsIFrame
 class
 gfxContext
 ;
+namespace
+mozilla
+{
 class
-nsSVGFilterPaintCallback
+SVGFilterPaintCallback
 {
 public
 :
 typedef
-mozilla
-:
-:
 image
 :
 :
@@ -59,5 +59,6 @@ aImgParams
 ;
 }
 ;
+}
 #
 endif
