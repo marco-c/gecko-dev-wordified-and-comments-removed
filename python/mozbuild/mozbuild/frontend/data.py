@@ -7035,6 +7035,9 @@ False
 py2
 =
 False
+required_during_compile
+=
+None
 )
 :
         
@@ -7223,12 +7226,18 @@ f
         
 ]
         
+if
+required_during_compile
+is
+None
+:
+            
 self
 .
 required_during_compile
 =
 [
-            
+                
 f
 for
 f
@@ -7241,6 +7250,7 @@ f
 .
 endswith
 (
+                    
 (
 '
 .
@@ -7254,9 +7264,33 @@ c
 .
 cpp
 '
+'
+.
+m
+'
+'
+.
+mm
+'
+'
+.
+def
+'
+'
+symverscript
+'
 )
 )
 ]
+        
+else
+:
+            
+self
+.
+required_during_compile
+=
+required_during_compile
 class
 ChromeManifestEntry
 (
