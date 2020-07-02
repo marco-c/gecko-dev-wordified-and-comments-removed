@@ -919,6 +919,13 @@ NS_IsMainThread
 )
 )
 ;
+SerialEventTargetGuard
+:
+:
+InitTLS
+(
+)
+;
 }
 #
 ifdef

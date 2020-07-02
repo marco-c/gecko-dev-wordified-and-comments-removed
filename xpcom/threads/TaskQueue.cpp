@@ -722,6 +722,12 @@ g
 mQueue
 )
 ;
+SerialEventTargetGuard
+tg
+(
+mQueue
+)
+;
 event
 .
 event
