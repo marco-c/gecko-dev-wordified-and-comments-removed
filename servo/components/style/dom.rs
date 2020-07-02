@@ -2995,6 +2995,12 @@ context
 :
 &
 SharedStyleContext
+pseudo_element
+:
+Option
+<
+PseudoElement
+>
 )
 -
 >
@@ -3009,6 +3015,12 @@ context
 :
 &
 SharedStyleContext
+pseudo_element
+:
+Option
+<
+PseudoElement
+>
 )
 -
 >

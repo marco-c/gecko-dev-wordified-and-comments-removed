@@ -8698,6 +8698,12 @@ _
 :
 &
 SharedStyleContext
+_
+:
+Option
+<
+PseudoElement
+>
 )
 -
 >
@@ -8729,6 +8735,12 @@ _
 :
 &
 SharedStyleContext
+_
+:
+Option
+<
+PseudoElement
+>
 )
 -
 >
