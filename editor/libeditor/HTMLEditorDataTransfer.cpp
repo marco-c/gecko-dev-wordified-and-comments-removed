@@ -2565,7 +2565,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -2575,7 +2575,7 @@ content
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 pointToInsert
 .
@@ -2640,7 +2640,7 @@ firstChild
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 firstChild
 )
@@ -4004,7 +4004,7 @@ aListOnly
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 parent
 )
@@ -16247,7 +16247,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 element
 )
@@ -16500,7 +16500,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 maybeListElement
 )
@@ -16764,7 +16764,7 @@ MOZ_ASSERT
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 &
 aListElement
@@ -16866,7 +16866,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 maybeListElement
 )
@@ -17030,7 +17030,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 listOrTableElement
 )

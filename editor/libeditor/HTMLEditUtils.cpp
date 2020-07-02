@@ -1093,7 +1093,7 @@ bool
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 nsINode
 *

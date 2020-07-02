@@ -6220,7 +6220,7 @@ content
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -20924,7 +20924,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 leftBlockElement
 )
@@ -26044,7 +26044,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -26692,7 +26692,7 @@ NS_WARNING_ASSERTION
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 curList
 )
@@ -27064,7 +27064,7 @@ MOZ_ASSERT
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -28067,7 +28067,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -29543,7 +29543,7 @@ MOZ_ASSERT
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 aCurPoint
 .
@@ -29586,7 +29586,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 nextEditableSibling
 )
@@ -29725,7 +29725,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 previousEditableSibling
 )
@@ -31056,7 +31056,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -32005,7 +32005,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -34396,7 +34396,7 @@ startMargin
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -34409,7 +34409,7 @@ GetContainer
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -34457,7 +34457,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -34472,7 +34472,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -34549,7 +34549,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -34656,7 +34656,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 lastChildContent
 )
@@ -35792,7 +35792,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 childContent
 -
@@ -38274,7 +38274,7 @@ GetContainer
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -38309,7 +38309,7 @@ content
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -38430,7 +38430,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
@@ -39436,7 +39436,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atParentOfEmptyBlock
 .
@@ -40176,7 +40176,7 @@ Yes
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -44983,7 +44983,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 parent
 )
@@ -45079,7 +45079,7 @@ blockquote
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -48457,7 +48457,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atNextSiblingOfLeftList
 .
@@ -50089,7 +50089,7 @@ div
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -50746,7 +50746,7 @@ content
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -51993,7 +51993,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 &
 aNodeLeft
@@ -55358,7 +55358,7 @@ content
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 content
 )
@@ -56243,7 +56243,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 pointToInsertListItem
 .
@@ -56382,7 +56382,7 @@ MOZ_ASSERT
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 &
 aListElement
@@ -56485,7 +56485,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 child
 )
@@ -59835,7 +59835,7 @@ if
 HTMLEditUtils
 :
 :
-IsList
+IsAnyListElement
 (
 atContent
 .
