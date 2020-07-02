@@ -1731,6 +1731,10 @@ frameId
 data
 .
 frameId
+.
+toString
+(
+)
 hasUserGesture
 :
 undefined
@@ -1886,6 +1890,10 @@ frameId
 data
 .
 frameId
+.
+toString
+(
+)
 }
 )
 ;

@@ -1853,11 +1853,6 @@ frameId
 loadContext
 .
 id
-?
-.
-toString
-(
-)
 ;
 if
 (
