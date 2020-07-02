@@ -1860,7 +1860,7 @@ serializeError
 (
 "
 System
-identifer
+identifier
 contains
 both
 single

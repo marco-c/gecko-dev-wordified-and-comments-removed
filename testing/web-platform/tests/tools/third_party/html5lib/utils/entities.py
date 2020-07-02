@@ -38,9 +38,7 @@ tree
 :
     
 return
-dict
-(
-(
+{
 entity_name
 (
 "
@@ -66,7 +64,8 @@ text
 )
 )
 )
-                 
+:
+            
 entity_characters
 (
 tr
@@ -76,8 +75,7 @@ tr
 .
 text
 )
-)
-                
+            
 for
 tr
 in
@@ -96,7 +94,7 @@ h
 :
 tr
 "
-                                     
+                                 
 namespaces
 =
 {
@@ -121,7 +119,7 @@ xhtml
 "
 }
 )
-)
+}
 def
 entity_name
 (

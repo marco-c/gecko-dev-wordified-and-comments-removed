@@ -145,7 +145,7 @@ nExpected
 \
 n2
 \
-nRecieved
+nReceived
 \
 n3
 \
@@ -175,7 +175,7 @@ nExpected
 \
 n2
 \
-nRecieved
+nReceived
 \
 n3
 \

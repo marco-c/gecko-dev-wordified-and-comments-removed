@@ -64,9 +64,6 @@ search_modules
 chardet
 "
 "
-datrie
-"
-"
 genshi
 "
 "

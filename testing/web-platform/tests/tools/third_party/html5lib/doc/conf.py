@@ -12,6 +12,7 @@ utf
 -
 import
 sys
+import
 os
 extensions
 =
@@ -69,7 +70,7 @@ copyright
 2013
 James
 Graham
-Geoffrey
+Sam
 Sneddon
 and
 contributors
@@ -131,14 +132,10 @@ htmlhelp_basename
 '
 html5libdoc
 '
-latex_elements
-=
-{
-}
 latex_documents
 =
 [
-  
+    
 (
 '
 index
@@ -152,11 +149,11 @@ tex
 html5lib
 Documentation
 '
-   
+     
 '
 James
 Graham
-Geoffrey
+Sam
 Sneddon
 and
 contributors
@@ -186,7 +183,7 @@ Documentation
 '
 James
 Graham
-Geoffrey
+Sam
 Sneddon
 and
 contributors
@@ -198,7 +195,7 @@ contributors
 texinfo_documents
 =
 [
-  
+    
 (
 '
 index
@@ -210,11 +207,11 @@ html5lib
 html5lib
 Documentation
 '
-   
+     
 '
 James
 Graham
-Geoffrey
+Sam
 Sneddon
 and
 contributors
@@ -230,7 +227,7 @@ of
 project
 .
 '
-   
+     
 '
 Miscellaneous
 '

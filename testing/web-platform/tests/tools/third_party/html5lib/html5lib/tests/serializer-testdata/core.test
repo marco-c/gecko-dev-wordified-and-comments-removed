@@ -1721,7 +1721,7 @@ HTML
 DOCTYPE
 without
 system
-identifer
+identifier
 "
 }
 {
@@ -1812,7 +1812,7 @@ IBM
 DOCTYPE
 without
 public
-identifer
+identifier
 "
 }
 ]

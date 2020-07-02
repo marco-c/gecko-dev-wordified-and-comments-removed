@@ -959,7 +959,7 @@ n
 %
 s
 \
-nRecieved
+nReceived
 \
 n
 %
