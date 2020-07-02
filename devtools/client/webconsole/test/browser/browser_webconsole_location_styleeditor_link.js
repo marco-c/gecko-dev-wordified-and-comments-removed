@@ -219,6 +219,17 @@ findMessage
 hud
 text
 )
+couldn
+'
+t
+find
+message
+containing
+"
+{
+text
+}
+"
 )
 ;
 const
