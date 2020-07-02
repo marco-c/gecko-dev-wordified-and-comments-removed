@@ -78,10 +78,6 @@ DocAccessibleChildBase
 (
 aDoc
 )
-mIsRemoteConstructed
-(
-false
-)
 mEmulatedWindowHandle
 (
 nullptr
