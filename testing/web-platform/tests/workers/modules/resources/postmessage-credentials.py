@@ -14,6 +14,7 @@ cookies
 .
 first
 (
+b
 "
 COOKIE_NAME
 "
@@ -24,11 +25,13 @@ response_headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -37,6 +40,7 @@ javascript
 )
                         
 (
+b
 "
 Access
 -
@@ -46,6 +50,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -60,6 +65,7 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
@@ -75,6 +81,7 @@ response_headers
 append
 (
 (
+b
 "
 Access
 -
@@ -90,6 +97,7 @@ origin
     
 cookie_value
 =
+b
 '
 '
 ;
@@ -110,6 +118,7 @@ return
 200
 response_headers
             
+b
 "
 if
 (
@@ -123,6 +132,7 @@ self
 "
 +
             
+b
 "
 self
 instanceof
@@ -132,6 +142,7 @@ DedicatedWorkerGlobalScope
 "
 +
             
+b
 "
 postMessage
 (
@@ -140,6 +151,7 @@ postMessage
 +
 cookie_value
 +
+b
 "
 '
 )
@@ -147,6 +159,7 @@ cookie_value
 "
 +
             
+b
 "
 }
 else
@@ -155,6 +168,7 @@ if
 "
 +
             
+b
 "
 '
 SharedWorkerGlobalScope
@@ -166,6 +180,7 @@ self
 "
 +
             
+b
 "
 self
 instanceof
@@ -175,6 +190,7 @@ SharedWorkerGlobalScope
 "
 +
             
+b
 "
 onconnect
 =
@@ -195,6 +211,7 @@ postMessage
 +
 cookie_value
 +
+b
 "
 '
 )
@@ -202,6 +219,7 @@ cookie_value
 "
 +
             
+b
 "
 }
 "

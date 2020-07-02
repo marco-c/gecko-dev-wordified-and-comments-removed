@@ -9,15 +9,18 @@ response
 return
 (
 302
+b
 "
 Moved
 "
 )
 [
 (
+b
 "
 Location
 "
+b
 "
 .
 .
@@ -30,6 +33,7 @@ js
 "
 )
 ]
+u
 "
 postMessage
 (

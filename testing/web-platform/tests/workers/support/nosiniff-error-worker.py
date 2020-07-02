@@ -9,11 +9,13 @@ response
 return
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -22,6 +24,7 @@ html
 )
             
 (
+b
 '
 X
 -
@@ -31,10 +34,12 @@ Type
 -
 Options
 '
+b
 '
 nosniff
 '
 )
 ]
+u
 "
 "

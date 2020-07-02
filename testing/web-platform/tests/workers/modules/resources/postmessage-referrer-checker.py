@@ -14,9 +14,11 @@ headers
 .
 get
 (
+b
 "
 referer
 "
+b
 "
 "
 )
@@ -25,11 +27,13 @@ response_headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -38,6 +42,7 @@ javascript
 )
                         
 (
+b
 "
 Access
 -
@@ -47,6 +52,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -58,6 +64,7 @@ return
 200
 response_headers
             
+b
 "
 if
 (
@@ -71,6 +78,7 @@ self
 "
 +
             
+b
 "
 self
 instanceof
@@ -80,6 +88,7 @@ DedicatedWorkerGlobalScope
 "
 +
             
+b
 "
 postMessage
 (
@@ -88,6 +97,7 @@ postMessage
 +
 referrer
 +
+b
 "
 '
 )
@@ -95,6 +105,7 @@ referrer
 "
 +
             
+b
 "
 }
 else
@@ -103,6 +114,7 @@ if
 "
 +
             
+b
 "
 '
 SharedWorkerGlobalScope
@@ -114,6 +126,7 @@ self
 "
 +
             
+b
 "
 self
 instanceof
@@ -123,6 +136,7 @@ SharedWorkerGlobalScope
 "
 +
             
+b
 "
 onconnect
 =
@@ -143,6 +157,7 @@ postMessage
 +
 referrer
 +
+b
 "
 '
 )
@@ -150,6 +165,7 @@ referrer
 "
 +
             
+b
 "
 }
 "

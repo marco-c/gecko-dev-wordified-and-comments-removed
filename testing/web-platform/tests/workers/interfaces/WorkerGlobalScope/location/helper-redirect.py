@@ -18,9 +18,11 @@ headers
 .
 append
 (
+b
 "
 Location
 "
+b
 "
 post
 -

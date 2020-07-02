@@ -20,6 +20,7 @@ response
 :
     
 return
+u
 "
 PASS
 "
@@ -30,15 +31,27 @@ GET
 .
 first
 (
+b
 '
 x
 '
 )
+.
+decode
+(
+'
+utf
+-
+8
+'
+)
 =
 =
+u
 '
 '
 else
+u
 "
 FAIL
 "

@@ -9,6 +9,7 @@ response
 return
 [
 (
+b
 '
 Content
 -
@@ -18,11 +19,13 @@ request
 .
 GET
 [
+b
 '
 mime
 '
 ]
 )
 ]
+u
 "
 "

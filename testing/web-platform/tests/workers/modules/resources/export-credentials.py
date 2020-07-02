@@ -14,6 +14,7 @@ cookies
 .
 first
 (
+b
 "
 COOKIE_NAME
 "
@@ -24,11 +25,13 @@ response_headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -37,6 +40,7 @@ javascript
 )
                         
 (
+b
 "
 Access
 -
@@ -46,6 +50,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -60,6 +65,7 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
@@ -75,6 +81,7 @@ response_headers
 append
 (
 (
+b
 "
 Access
 -
@@ -90,6 +97,7 @@ origin
     
 cookie_value
 =
+b
 '
 '
 ;
@@ -110,6 +118,7 @@ return
 200
 response_headers
             
+b
 "
 export
 const
@@ -120,6 +129,7 @@ cookie
 +
 cookie_value
 +
+b
 "
 '
 ;
