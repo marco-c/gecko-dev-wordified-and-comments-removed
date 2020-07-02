@@ -33,8 +33,6 @@ char
 aName
 bool
 aRequireTailDispatch
-bool
-aRetainFlags
 )
 :
 AbstractThread
@@ -57,10 +55,6 @@ Queue
 mTailDispatcher
 (
 nullptr
-)
-mShouldRetainFlags
-(
-aRetainFlags
 )
 mIsRunning
 (
@@ -88,8 +82,6 @@ nsIEventTarget
 aTarget
 bool
 aSupportsTailDispatch
-bool
-aRetainFlags
 )
 :
 TaskQueue
@@ -254,15 +246,6 @@ forget
 )
 ;
 }
-uint32_t
-retainFlags
-=
-mShouldRetainFlags
-?
-aFlags
-:
-0
-;
 LogRunnable
 :
 :
@@ -283,7 +266,7 @@ move
 (
 aRunnable
 )
-retainFlags
+aFlags
 }
 )
 ;

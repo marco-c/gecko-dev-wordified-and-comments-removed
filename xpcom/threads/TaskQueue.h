@@ -123,10 +123,6 @@ bool
 aSupportsTailDispatch
 =
 false
-bool
-aRetainFlags
-=
-false
 )
 ;
 TaskQueue
@@ -142,10 +138,6 @@ char
 aName
 bool
 aSupportsTailDispatch
-=
-false
-bool
-aRetainFlags
 =
 false
 )
@@ -543,9 +535,6 @@ mLastCurrentThread
 TaskDispatcher
 *
 mTailDispatcher
-;
-bool
-mShouldRetainFlags
 ;
 bool
 mIsRunning
