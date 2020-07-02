@@ -1262,7 +1262,9 @@ layout
 /
 style
 /
-export
+ServoCSSPropList
+.
+py
 #
 Various
 telemetry
@@ -1288,7 +1290,9 @@ layout
 /
 style
 /
-export
+ServoCSSPropList
+.
+py
 #
 The
 update
