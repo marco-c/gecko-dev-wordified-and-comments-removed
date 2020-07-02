@@ -64468,11 +64468,13 @@ True
 )
             
 if
+(
 remoteType
 .
 isGeckoInterface
 (
 )
+                  
 and
 not
 remoteType
@@ -64485,6 +64487,25 @@ inner
 .
 isExternal
 (
+)
+                  
+and
+remoteType
+.
+unroll
+(
+)
+.
+inner
+.
+getExtendedAttribute
+(
+"
+ChromeOnly
+"
+)
+is
+None
 )
 :
                 
