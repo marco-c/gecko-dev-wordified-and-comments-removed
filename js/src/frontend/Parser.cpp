@@ -44272,6 +44272,15 @@ TokenKind
 :
 :
 LeftParen
+&
+&
+optionalKind
+=
+=
+OptionalKind
+:
+:
+NonOptional
 )
 {
 if
