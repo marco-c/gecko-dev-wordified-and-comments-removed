@@ -3107,6 +3107,8 @@ mozilla
 :
 TimeDuration
 totalTime
+bool
+wasEmpty
 size_t
 pretenureCount
 double
