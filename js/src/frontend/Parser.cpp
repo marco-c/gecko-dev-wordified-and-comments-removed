@@ -9529,6 +9529,16 @@ lazy
 =
 =
 nullptr
+|
+|
+compilationInfo
+.
+lazy
+-
+>
+isBinAST
+(
+)
 )
 ;
 if

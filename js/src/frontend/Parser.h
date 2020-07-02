@@ -340,6 +340,7 @@ class
 Kind
 {
 Parser
+BinASTParser
 }
 ;
 ParserSharedBase
