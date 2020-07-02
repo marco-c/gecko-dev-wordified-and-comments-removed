@@ -48229,7 +48229,7 @@ aProviderFrame
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 GetLastLeaf
@@ -48341,7 +48341,7 @@ child
 }
 }
 void
-nsFrame
+nsIFrame
 :
 :
 GetFirstLeaf
