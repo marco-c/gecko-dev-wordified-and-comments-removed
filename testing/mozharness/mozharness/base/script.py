@@ -82,6 +82,8 @@ from
 io
 import
 BytesIO
+import
+six
 from
 six
 import
@@ -9375,30 +9377,24 @@ for
 k
 v
 in
-env
+six
 .
 iteritems
 (
+env
 )
 :
                 
-if
-isinstance
-(
-v
-unicode
-)
-:
-                    
 env
 [
 k
 ]
 =
-v
+six
 .
-encode
+ensure_str
 (
+v
 pref_encoding
 )
         

@@ -1,4 +1,6 @@
 import
+binascii
+import
 hashlib
 import
 os
@@ -12,6 +14,8 @@ multiprocessing
 pool
 import
 ThreadPool
+import
+six
 sys
 .
 path
@@ -1369,13 +1373,14 @@ for
 f
 info
 in
+six
+.
+iteritems
+(
 parse_checksums_file
 (
 c
 )
-.
-iteritems
-(
 )
 :
                 
@@ -1707,22 +1712,24 @@ data
             
 head
 =
+binascii
+.
+hexlify
+(
 tree
 .
 head
 (
 )
-.
-encode
-(
-"
-hex
-"
 )
             
 proofs
 =
 [
+binascii
+.
+hexlify
+(
 tree
 .
 inclusion_proof
@@ -1733,12 +1740,6 @@ i
 to_rfc6962_bis
 (
 )
-.
-encode
-(
-"
-hex
-"
 )
                       
 for

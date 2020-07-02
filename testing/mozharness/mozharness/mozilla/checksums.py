@@ -1,3 +1,5 @@
+import
+six
 def
 parse_checksums_file
 (
@@ -75,6 +77,24 @@ split
 (
 None
 3
+)
+        
+type_
+=
+six
+.
+ensure_str
+(
+type_
+)
+        
+file_
+=
+six
+.
+ensure_str
+(
+file_
 )
         
 size
