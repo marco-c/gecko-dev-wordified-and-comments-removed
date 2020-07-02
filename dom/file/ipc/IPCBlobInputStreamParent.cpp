@@ -8,13 +8,6 @@ h
 #
 include
 "
-IPCBlobInputStreamStorage
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
@@ -36,6 +29,13 @@ h
 include
 "
 nsContentUtils
+.
+h
+"
+#
+include
+"
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -114,7 +114,7 @@ return
 nullptr
 ;
 }
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -191,7 +191,7 @@ actor
 >
 mCallback
 =
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -286,7 +286,7 @@ actor
 >
 mCallback
 =
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -542,11 +542,11 @@ callback
 ;
 RefPtr
 <
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 >
 storage
 =
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -666,7 +666,7 @@ nsIInputStream
 >
 stream
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -875,7 +875,7 @@ nsIInputStream
 >
 stream
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -1107,7 +1107,7 @@ HasValidStream
 const
 {
 return
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get

@@ -29,13 +29,6 @@ h
 #
 include
 "
-IPCBlobInputStreamStorage
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom
@@ -118,6 +111,13 @@ mozilla
 ipc
 /
 ProtocolUtils
+.
+h
+"
+#
+include
+"
+RemoteLazyInputStreamStorage
 .
 h
 "

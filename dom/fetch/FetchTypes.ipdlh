@@ -197,7 +197,7 @@ as
 a
 key
 for
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 nsID
 uuid
 ;

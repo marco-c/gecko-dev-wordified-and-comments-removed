@@ -61,7 +61,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -1293,7 +1293,7 @@ nsIInputStream
 >
 stream
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
