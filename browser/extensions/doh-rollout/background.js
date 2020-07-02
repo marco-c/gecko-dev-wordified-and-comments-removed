@@ -2356,6 +2356,17 @@ migrateLocalStoragePrefs
 (
 )
 ;
+await
+browser
+.
+experiments
+.
+preferences
+.
+migrateNextDNSEndpoint
+(
+)
+;
 log
 (
 "

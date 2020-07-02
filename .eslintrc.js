@@ -7957,7 +7957,7 @@ test
 /
 unit
 /
-test_localStorageMigration
+test_migrations
 .
 js
 "
