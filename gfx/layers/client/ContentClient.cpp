@@ -438,9 +438,10 @@ IsDirect2DBackend
 else
 #
 endif
+{
 #
 ifdef
-MOZ_WAYLAND
+MOZ_WIDGET_GTK
 if
 (
 gfxPlatformGtk
@@ -451,7 +452,7 @@ GetPlatform
 )
 -
 >
-UseWaylandDMABufTextures
+UseDMABufTextures
 (
 )
 )
@@ -462,12 +463,6 @@ true
 ;
 }
 else
-#
-endif
-{
-#
-ifdef
-MOZ_WIDGET_GTK
 if
 (
 !
