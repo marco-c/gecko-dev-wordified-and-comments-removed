@@ -13,8 +13,6 @@ html5lib
 =
 1
 .
-0
-.
 1
 lxml
 =
