@@ -6255,7 +6255,7 @@ this
 .
 _searchString
 {
-ignoreWhitelist
+ignoreKnownDomains
 :
 true
 }
@@ -6663,7 +6663,7 @@ looksLikeOrigin
 (
 searchStr
 {
-ignoreWhitelist
+ignoreKnownDomains
 :
 true
 }

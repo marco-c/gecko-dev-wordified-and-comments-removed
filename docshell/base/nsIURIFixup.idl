@@ -1040,14 +1040,14 @@ the
 specified
 domain
 is
-whitelisted
+known
 and
 false
 otherwise
 .
 *
 A
-whitelisted
+known
 domain
 is
 relevant
@@ -1097,7 +1097,7 @@ query
 *
 /
 bool
-isDomainWhitelisted
+isDomainKnown
 (
 in
 AUTF8String
