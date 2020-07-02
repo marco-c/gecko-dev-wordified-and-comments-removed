@@ -16396,13 +16396,10 @@ browser
 .
 authPromptAbuseCounter
 ;
-PanelMultiView
+gIdentityHandler
 .
 hidePopup
 (
-gIdentityHandler
-.
-_identityPopup
 )
 ;
 browser

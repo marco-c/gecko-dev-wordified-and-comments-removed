@@ -1386,6 +1386,12 @@ ownerGlobal
 ;
 gIdentityHandler
 .
+_initializePopup
+(
+)
+;
+gIdentityHandler
+.
 _identityPopup
 .
 hidePopup
