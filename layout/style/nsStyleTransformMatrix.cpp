@@ -120,11 +120,10 @@ if
 mFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_SVG_LAYOUT
+)
 )
 {
 if

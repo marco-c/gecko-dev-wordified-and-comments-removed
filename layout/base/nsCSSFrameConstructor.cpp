@@ -33283,14 +33283,12 @@ IsXULBoxFrame
 )
 &
 &
-(
 grandparentFrame
 -
 >
 HasAnyStateBits
 (
 NS_STATE_BOX_WRAPS_KIDS_IN_BLOCK
-)
 )
 &
 &

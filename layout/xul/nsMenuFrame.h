@@ -516,16 +516,10 @@ HasPopup
 const
 {
 return
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 NS_STATE_MENU_HAS_POPUP_LIST
 )
-!
-=
-0
 ;
 }
 bool

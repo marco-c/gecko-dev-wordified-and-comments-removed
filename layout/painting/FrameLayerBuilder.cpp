@@ -16687,14 +16687,11 @@ if
 hasRoundedCorners
 |
 |
-(
 frame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_SVG_LAYOUT
 )
 )

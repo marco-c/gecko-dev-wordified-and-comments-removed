@@ -115,11 +115,10 @@ IsAutoHidden
 const
 {
 return
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_RUBY_TEXT_FRAME_AUTOHIDE
+)
 ;
 }
 protected

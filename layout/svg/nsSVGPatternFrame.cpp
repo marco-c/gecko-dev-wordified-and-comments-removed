@@ -1498,14 +1498,11 @@ aSource
 if
 (
 !
-(
 patternWithChildren
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_DRAWING_AS_PAINTSERVER
 )
 )

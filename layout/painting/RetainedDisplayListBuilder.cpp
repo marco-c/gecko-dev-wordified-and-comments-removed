@@ -1145,14 +1145,11 @@ ForceDescendIntoIfVisible
 &
 &
 !
-(
 invalid
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FORCE_DISPLAY_LIST_DESCEND_INTO
 )
 )

@@ -171,11 +171,10 @@ aPrevInFlow
 ;
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FONT_INFLATION_CONTAINER
+)
 )
 {
 AddStateBits

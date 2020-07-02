@@ -118,11 +118,10 @@ IsFloating
 const
 {
 return
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_OUT_OF_FLOW
+)
 ;
 }
 virtual

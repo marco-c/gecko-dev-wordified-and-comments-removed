@@ -3701,11 +3701,10 @@ aReflowInput
 {
 if
 (
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 nsCOMPtr
