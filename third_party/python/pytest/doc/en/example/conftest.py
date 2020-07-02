@@ -1,7 +1,0 @@
-collect_ignore
-=
-[
-"
-nonpython
-"
-]
