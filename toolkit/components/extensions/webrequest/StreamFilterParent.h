@@ -626,8 +626,11 @@ mContext
 uint64_t
 mOffset
 ;
-volatile
+Atomic
+<
 State
+ReleaseAcquire
+>
 mState
 ;
 }
