@@ -3645,6 +3645,13 @@ destroy
 &
 mut
 retained_tiles
+&
+mut
+self
+.
+scene
+.
+tile_caches
 )
 ;
 let
