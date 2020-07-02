@@ -593,13 +593,7 @@ window
 aBrowsingContext
 ?
 .
-top
-?
-.
-embedderElement
-?
-.
-ownerGlobal
+topChromeWindow
 |
 |
 null

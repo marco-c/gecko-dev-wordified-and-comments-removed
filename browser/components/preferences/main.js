@@ -4745,11 +4745,9 @@ win
 =
 window
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 let
 selected
@@ -6080,11 +6078,9 @@ win
 =
 window
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 cps2
 .

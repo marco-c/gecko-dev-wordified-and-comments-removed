@@ -388,11 +388,9 @@ browserWnd
 =
 window
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 .
 openDialog
 (

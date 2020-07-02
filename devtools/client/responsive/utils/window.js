@@ -22,11 +22,9 @@ window
 return
 window
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 ;
 }
 exports

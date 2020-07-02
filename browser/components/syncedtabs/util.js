@@ -21,12 +21,8 @@ window
 return
 window
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
-.
-wrappedJSObject
+topChromeWindow
 ;
 }

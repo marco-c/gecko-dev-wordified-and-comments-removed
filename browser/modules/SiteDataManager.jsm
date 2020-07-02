@@ -1983,11 +1983,9 @@ no
 ;
 win
 .
-docShell
+browsingContext
 .
-rootTreeItem
-.
-domWindow
+topChromeWindow
 .
 openDialog
 (
