@@ -361,9 +361,6 @@ sixgill_plugin
 options
 =
 options
-env
-=
-env
 )
         
 if

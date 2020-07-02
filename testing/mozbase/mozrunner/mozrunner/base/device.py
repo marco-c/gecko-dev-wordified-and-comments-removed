@@ -706,8 +706,8 @@ out
 waiting
 for
 '
-%
-s
+{
+}
 '
 process
 to
@@ -761,8 +761,8 @@ out
 waiting
 for
 '
-%
-s
+{
+}
 '
 process
 to

@@ -805,7 +805,7 @@ Duration
 s
 >
 %
-S
+s
 "
                                         
 %

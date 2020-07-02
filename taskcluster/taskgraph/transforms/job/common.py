@@ -1599,17 +1599,6 @@ worker
 )
 :
         
-level
-=
-config
-.
-params
-[
-'
-level
-'
-]
-        
 add_cache
 (
 job
@@ -1619,11 +1608,6 @@ tooltool
 -
 cache
 '
-.
-format
-(
-level
-)
                   
 '
 {

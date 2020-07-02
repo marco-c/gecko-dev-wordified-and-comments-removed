@@ -2445,8 +2445,8 @@ ValueError
 '
 Unimplemented
 platform
-%
-s
+{
+}
 '
 .
 format
