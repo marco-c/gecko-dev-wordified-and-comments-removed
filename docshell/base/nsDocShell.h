@@ -1478,14 +1478,6 @@ nullptr
 )
 ;
 static
-bool
-ShouldLoadErrorPageWithoutFixup
-(
-nsresult
-aStatus
-)
-;
-static
 nsresult
 FilterStatusForErrorPage
 (
