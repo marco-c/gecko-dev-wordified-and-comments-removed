@@ -13089,15 +13089,6 @@ i
 static
 const
 unsigned
-PageSize
-=
-64
-*
-1024
-;
-static
-const
-unsigned
 MaxMemoryAccessSize
 =
 LitVal
