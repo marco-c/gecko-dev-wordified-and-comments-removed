@@ -13,8 +13,6 @@ features
 css
 -
 masonry
--
-title
 "
 description
 =
@@ -171,8 +169,6 @@ features
 web
 -
 gpu
--
-title
 "
 description
 =
@@ -241,8 +237,6 @@ experimental
 features
 -
 avif
--
-title
 "
 description
 =

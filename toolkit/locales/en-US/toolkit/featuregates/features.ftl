@@ -87,8 +87,9 @@ features
 css
 -
 masonry
--
-title
+=
+.
+label
 =
 CSS
 Masonry
@@ -222,8 +223,9 @@ features
 web
 -
 gpu
--
-title
+=
+.
+label
 =
 WebGPU
 experimental
@@ -277,8 +279,9 @@ experimental
 features
 -
 avif
--
-title
+=
+.
+label
 =
 AVIF
 experimental
