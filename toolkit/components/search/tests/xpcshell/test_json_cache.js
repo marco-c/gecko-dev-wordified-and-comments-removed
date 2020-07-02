@@ -575,6 +575,12 @@ removeCacheFile
 (
 )
 ;
+ss
+.
+_removeObservers
+(
+)
+;
 }
 add_task
 (
@@ -759,6 +765,10 @@ dispatchToMainThread
 Services
 .
 search
+.
+wrappedJSObject
+.
+_cache
 .
 QueryInterface
 (
