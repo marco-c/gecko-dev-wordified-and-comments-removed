@@ -354,11 +354,6 @@ aAttributes
 )
 ;
 bool
-RefreshDisplay
-(
-)
-;
-bool
 SetMusicMetadata
 (
 const
