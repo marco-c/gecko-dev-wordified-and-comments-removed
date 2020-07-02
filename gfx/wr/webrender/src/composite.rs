@@ -1745,6 +1745,9 @@ DevicePixelScale
 max_depth_ids
 :
 i32
+dirty_rects_are_valid
+:
+bool
 )
 -
 >
@@ -1826,8 +1829,6 @@ new
 max_depth_ids
 )
 dirty_rects_are_valid
-:
-true
 compositor_kind
 picture_caching_is_enabled
 global_device_pixel_scale

@@ -142,7 +142,6 @@ picture
 {
 PrimitiveList
 SurfaceIndex
-RetainedTiles
 RasterConfig
 SliceId
 }
@@ -347,14 +346,6 @@ Box
 TileCacheInstance
 >
 >
-pub
-retained_tiles
-:
-&
-'
-a
-mut
-RetainedTiles
 pub
 data_stores
 :
