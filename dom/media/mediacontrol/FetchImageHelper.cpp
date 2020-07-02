@@ -803,6 +803,10 @@ NS_FAILED
 (
 aStatus
 )
+|
+|
+!
+aImage
 )
 {
 mHelper
