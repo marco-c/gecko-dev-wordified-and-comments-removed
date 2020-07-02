@@ -5886,9 +5886,16 @@ if
 skipAppProvided
 &
 &
+(
 engine
 .
 _isAppProvided
+|
+|
+engine
+.
+_isBuiltin
+)
 )
 {
 +
