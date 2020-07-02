@@ -350,7 +350,7 @@ US
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 US
@@ -397,7 +397,7 @@ US
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 CA
@@ -440,7 +440,7 @@ installed
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 US

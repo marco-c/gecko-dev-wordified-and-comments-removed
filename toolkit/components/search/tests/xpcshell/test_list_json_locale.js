@@ -54,7 +54,7 @@ true
 ;
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 US
@@ -429,7 +429,7 @@ test_listJSONRegionOverride
 {
 Region
 .
-_setHomeRegion
+_setRegion
 (
 "
 RU
