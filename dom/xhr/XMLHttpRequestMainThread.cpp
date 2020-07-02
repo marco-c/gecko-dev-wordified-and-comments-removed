@@ -12055,12 +12055,6 @@ CreateAsFetch
 (
 mRequestURL
 cors
-referrerInfo
--
->
-ReferrerPolicy
-(
-)
 )
 ;
 RefPtr

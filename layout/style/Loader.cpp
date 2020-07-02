@@ -742,14 +742,6 @@ LoaderPrincipal
 (
 )
 )
-mReferrerInfo
-(
-aLoadData
-.
-ReferrerInfo
-(
-)
-)
 mEncodingGuess
 (
 aLoadData
@@ -4211,9 +4203,6 @@ SheetParsingMode
 aParsingMode
 CORSMode
 aCORSMode
-nsIReferrerInfo
-*
-aLoadingReferrerInfo
 const
 Encoding
 *
@@ -4373,7 +4362,6 @@ aTriggeringPrincipal
 LoaderPrincipal
 (
 )
-aLoadingReferrerInfo
 GetFallbackEncoding
 (
 *
@@ -9136,11 +9124,6 @@ ParsingMode
 (
 )
 CORS_NONE
-aParentSheet
-.
-GetReferrerInfo
-(
-)
 aParentData
 ?
 aParentData
@@ -9693,7 +9676,6 @@ nullptr
 triggeringPrincipal
 aParsingMode
 aCORSMode
-aReferrerInfo
 aPreloadEncoding
 aIntegrity
 syncLoad

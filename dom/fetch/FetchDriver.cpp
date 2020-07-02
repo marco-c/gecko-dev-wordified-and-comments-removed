@@ -1601,12 +1601,6 @@ CreateAsFetch
 (
 aURI
 cors
-mRequest
--
->
-ReferrerPolicy_
-(
-)
 )
 ;
 return

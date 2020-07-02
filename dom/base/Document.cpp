@@ -54015,7 +54015,6 @@ StringToCORSMode
 (
 aCrossOriginAttr
 )
-aReferrerPolicy
 )
 ;
 if
