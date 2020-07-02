@@ -207,6 +207,12 @@ GL_KHR_blend_equation_advanced
 "
 GL_KHR_blend_equation_advanced_coherent
 "
+"
+GL_KHR_blend_equation_advanced_coherent
+"
+"
+GL_ARB_shader_storage_buffer_object
+"
 ]
 ;
 let
@@ -327,7 +333,7 @@ Api
 Gles2
 (
 3
-0
+1
 )
 Profile
 :
