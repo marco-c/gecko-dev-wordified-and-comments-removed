@@ -262,11 +262,6 @@ ParseNodeVerify
 cpp
 '
 '
-ParserAtom
-.
-cpp
-'
-'
 PropOpEmitter
 .
 cpp
