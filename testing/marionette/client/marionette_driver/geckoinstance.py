@@ -262,6 +262,15 @@ scan
 False
         
 "
+idle
+.
+lastDailyNotification
+"
+:
+-
+1
+        
+"
 javascript
 .
 options
@@ -839,6 +848,7 @@ be
 created
 or
 replaced
+.
         
 :
 param
