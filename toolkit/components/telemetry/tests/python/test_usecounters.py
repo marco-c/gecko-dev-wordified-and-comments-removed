@@ -202,9 +202,6 @@ firefox
 "
 fennec
 "
-"
-geckoview
-"
 ]
 )
     
@@ -359,9 +356,6 @@ firefox
 "
 "
 fennec
-"
-"
-geckoview
 "
 ]
 )
