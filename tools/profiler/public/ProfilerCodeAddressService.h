@@ -11,6 +11,13 @@ CodeAddressService
 .
 h
 "
+#
+include
+"
+nsTArray
+.
+h
+"
 namespace
 mozilla
 {
