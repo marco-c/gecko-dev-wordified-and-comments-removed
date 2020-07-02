@@ -21,10 +21,6 @@ pub
 mod
 ping_upload
 ;
-pub
-mod
-ipc
-;
 fn
 with_glean
 <

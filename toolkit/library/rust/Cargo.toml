@@ -350,17 +350,6 @@ shared
 glean
 "
 ]
-glean_with_gecko
-=
-[
-"
-gkrust
--
-shared
-/
-glean_with_gecko
-"
-]
 rust_fxa_client
 =
 [
