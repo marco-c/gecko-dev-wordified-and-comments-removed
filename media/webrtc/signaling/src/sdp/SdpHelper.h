@@ -209,7 +209,7 @@ bundledMids
 )
 ;
 bool
-IsBundleSlave
+HasOwnTransport
 (
 const
 Sdp

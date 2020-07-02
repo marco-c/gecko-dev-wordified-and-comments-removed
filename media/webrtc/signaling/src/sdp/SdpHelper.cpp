@@ -443,7 +443,8 @@ false
 }
 if
 (
-IsBundleSlave
+!
+HasOwnTransport
 (
 oldAnswer
 level
@@ -476,7 +477,8 @@ kBundleOnlyAttribute
 )
 &
 &
-IsBundleSlave
+!
+HasOwnTransport
 (
 newOffer
 level
@@ -1356,7 +1358,7 @@ bool
 SdpHelper
 :
 :
-IsBundleSlave
+HasOwnTransport
 (
 const
 Sdp
@@ -1396,7 +1398,7 @@ kMidAttribute
 )
 {
 return
-false
+true
 ;
 }
 std
@@ -1443,7 +1445,7 @@ false
 )
 ;
 return
-false
+true
 ;
 }
 if
@@ -1471,11 +1473,11 @@ GetLevel
 )
 {
 return
-true
+false
 ;
 }
 return
-false
+true
 ;
 }
 nsresult
