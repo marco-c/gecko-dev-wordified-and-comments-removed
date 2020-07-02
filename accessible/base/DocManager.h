@@ -519,6 +519,8 @@ XPCDocumentHashtable
 mXPCDocumentCache
 ;
 static
+StaticAutoPtr
+<
 nsRefPtrHashtable
 <
 nsPtrHashKey
@@ -528,7 +530,7 @@ DocAccessibleParent
 >
 xpcAccessibleDocument
 >
-*
+>
 sRemoteXPCDocumentCache
 ;
 static
