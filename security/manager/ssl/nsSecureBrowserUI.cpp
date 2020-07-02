@@ -512,7 +512,7 @@ win
 win
 -
 >
-GetIsPotentiallyTrustWorthy
+GetIsSecure
 (
 )
 )
@@ -691,7 +691,7 @@ win
 win
 -
 >
-GetIsPotentiallyTrustWorthy
+GetIsSecure
 (
 )
 &
