@@ -270,6 +270,12 @@ IsCurrentThreadIn
 const
 override
 ;
+using
+nsISerialEventTarget
+:
+:
+IsOnCurrentThread
+;
 protected
 :
 virtual
