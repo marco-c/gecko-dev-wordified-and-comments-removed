@@ -12,7 +12,13 @@ clippy
 "
 allow
 (
+clippy
+:
+:
 cast_lossless
+clippy
+:
+:
 needless_lifetimes
 )
 )

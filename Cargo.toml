@@ -291,17 +291,6 @@ dev
 dependencies
 .
 "
-dom
-/
-webauthn
-/
-u2f
--
-hid
--
-rs
-"
-"
 gfx
 /
 webrender_bindings
