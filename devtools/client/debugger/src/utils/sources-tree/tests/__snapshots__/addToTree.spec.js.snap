@@ -687,7 +687,6 @@ tree
 addToTree
 name
 does
-not
 include
 query
 params
@@ -730,6 +729,10 @@ foo
 name
 .
 js
+?
+bar
+=
+3
 path
 =
 FakeThread
@@ -743,6 +746,10 @@ foo
 name
 .
 js
+?
+bar
+=
+3
 source_id
 =
 actor1

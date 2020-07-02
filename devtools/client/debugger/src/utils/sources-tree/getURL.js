@@ -47,6 +47,9 @@ ParsedURL
 path
 :
 string
+search
+:
+string
 group
 :
 string
@@ -134,6 +137,10 @@ def
 =
 {
 path
+:
+"
+"
+search
 :
 "
 "
@@ -250,6 +257,7 @@ ParsedURL
 const
 {
 pathname
+search
 protocol
 host
 }
@@ -307,6 +315,7 @@ def
 path
 :
 pathname
+search
 filename
 group
 :
@@ -345,6 +354,7 @@ def
 path
 :
 pathname
+search
 filename
 group
 :
@@ -372,6 +382,7 @@ path
 "
 /
 "
+search
 filename
 group
 :
@@ -395,6 +406,7 @@ path
 "
 /
 "
+search
 group
 :
 NoDomain
@@ -431,6 +443,7 @@ def
 path
 :
 pathname
+search
 filename
 group
 :
@@ -458,7 +471,8 @@ return
 def
 path
 :
-url
+pathname
+search
 group
 :
 defaultDomain
@@ -493,6 +507,7 @@ def
 path
 :
 pathname
+search
 filename
 group
 :
@@ -512,6 +527,7 @@ def
 path
 :
 pathname
+search
 group
 :
 protocol
