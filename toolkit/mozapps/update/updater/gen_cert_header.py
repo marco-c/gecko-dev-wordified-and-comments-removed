@@ -2,6 +2,8 @@ from
 __future__
 import
 print_function
+import
+os
 def
 file_byte_generator
 (
@@ -77,9 +79,16 @@ h
   
 array_name
 =
+os
+.
+path
+.
+basename
+(
 out_fh
 .
 name
+)
 [
 :
 -
