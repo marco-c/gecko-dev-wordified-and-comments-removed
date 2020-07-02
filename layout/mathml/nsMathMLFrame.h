@@ -972,10 +972,6 @@ EmHeight
 else
 emHeight
 =
-NSToCoordRound
-(
-float
-(
 fm
 -
 >
@@ -984,7 +980,9 @@ Font
 )
 .
 size
-)
+.
+ToAppUnits
+(
 )
 ;
 #

@@ -29651,7 +29651,7 @@ SelectionType
 eSpellCheck
 :
 {
-nscoord
+Length
 defaultFontSize
 =
 aPresContext
@@ -29685,7 +29685,7 @@ zoomedFontSize
 aPresContext
 -
 >
-AppUnitsToDevPixels
+CSSPixelsToDevPixels
 (
 nsStyleFont
 :
@@ -29700,6 +29700,10 @@ Document
 (
 )
 defaultFontSize
+)
+.
+ToCSSPixels
+(
 )
 )
 ;

@@ -2826,12 +2826,12 @@ font
 .
 size
 =
-NSToCoordRound
-(
 font
 .
 size
-*
+.
+ScaledBy
+(
 mFontInflation
 )
 ;
