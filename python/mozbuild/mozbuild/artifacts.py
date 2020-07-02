@@ -1122,7 +1122,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -1516,7 +1516,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -1599,7 +1599,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -1903,7 +1903,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -1981,7 +1981,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -2232,7 +2232,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -2280,7 +2280,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -2527,7 +2527,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -2750,7 +2750,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -3068,7 +3068,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -3418,7 +3418,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -3709,7 +3709,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -3818,7 +3818,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -4455,7 +4455,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -5926,7 +5926,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -6877,7 +6877,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -6977,7 +6977,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -7415,7 +7415,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -7519,7 +7519,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -7550,7 +7550,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -7857,7 +7857,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -7912,7 +7912,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8052,7 +8052,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8158,7 +8158,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8187,7 +8187,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8236,7 +8236,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8332,7 +8332,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8431,7 +8431,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
@@ -8564,7 +8564,7 @@ log
 (
 logging
 .
-INFO
+DEBUG
 '
 artifact
 '
