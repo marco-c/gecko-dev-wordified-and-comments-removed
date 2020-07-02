@@ -16,6 +16,11 @@ TestQuotaManager
 .
 cpp
 '
+'
+TestUsageInfo
+.
+cpp
+'
 ]
 include
 (
