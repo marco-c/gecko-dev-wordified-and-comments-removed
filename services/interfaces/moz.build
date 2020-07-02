@@ -120,11 +120,6 @@ XPIDL_SOURCES
 =
 [
 '
-mozIAppServicesLogger
-.
-idl
-'
-'
 mozIBridgedSyncEngine
 .
 idl
@@ -135,7 +130,7 @@ mozIInterruptible
 idl
 '
 '
-mozIServicesLogSink
+mozIServicesLogger
 .
 idl
 '
