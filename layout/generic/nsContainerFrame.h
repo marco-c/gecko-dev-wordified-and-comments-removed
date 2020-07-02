@@ -1400,6 +1400,16 @@ DrainAndMergeSelfOverflowList
 )
 ;
 static
+nsIFrame
+*
+GetFirstNonAnonBoxInSubtree
+(
+nsIFrame
+*
+aFrame
+)
+;
+static
 void
 ReparentFloatsForInlineChild
 (
