@@ -4888,6 +4888,12 @@ action
 )
 ;
 }
+fxAccounts
+.
+flushLogFile
+(
+)
+;
 }
 )
 ;
