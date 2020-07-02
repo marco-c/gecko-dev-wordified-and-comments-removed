@@ -3421,6 +3421,11 @@ aIntrinsicDirty
 )
 ;
 void
+MaybeReflowForInflationScreenSizeChange
+(
+)
+;
+void
 CompleteChangeToVisualViewportSize
 (
 )

@@ -6199,17 +6199,6 @@ aPresShell
 )
 ;
 static
-void
-SetVisualViewportSize
-(
-PresShell
-*
-aPresShell
-CSSSize
-aSize
-)
-;
-static
 bool
 CanScrollOriginClobberApz
 (
