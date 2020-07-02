@@ -243,7 +243,7 @@ NS_QUERYFRAME_TAIL_INHERITING
 nsFrame
 )
 void
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 :
 :
 HitTest
@@ -346,7 +346,7 @@ frame
 }
 }
 void
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 :
 :
 Paint
@@ -461,7 +461,7 @@ result
 ;
 }
 void
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 :
 :
 ComputeInvalidationRegion
@@ -1089,7 +1089,7 @@ Content
 >
 AppendNewToTop
 <
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 >
 (
 aBuilder

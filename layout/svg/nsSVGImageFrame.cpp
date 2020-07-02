@@ -2062,7 +2062,7 @@ aManager
 nsDisplayListBuilder
 *
 aDisplayListBuilder
-nsDisplaySVGGeometry
+DisplaySVGGeometry
 *
 aItem
 bool

@@ -104,6 +104,7 @@ SVGTextPathElementBase
 {
 friend
 class
+mozilla
 :
 :
 SVGTextFrame
