@@ -3569,18 +3569,8 @@ type
 ]
 =
 "
-browsertime
--
-%
-s
+benchmark
 "
-%
-test
-[
-"
-type
-"
-]
                     
 subtest_lower_is_better
 =
