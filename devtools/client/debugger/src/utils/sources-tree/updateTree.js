@@ -65,7 +65,7 @@ import
 type
 {
 Thread
-Source
+DisplaySource
 URL
 }
 from
@@ -99,7 +99,7 @@ newSources
 prevSources
 )
 :
-Source
+DisplaySource
 [
 ]
 {

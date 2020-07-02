@@ -28,7 +28,7 @@ treeOrder
 ;
 import
 {
-getURL
+getDisplayURL
 }
 from
 "
@@ -65,6 +65,7 @@ types
 import
 type
 {
+DisplaySource
 Source
 }
 from
@@ -633,7 +634,7 @@ tree
 TreeDirectory
 source
 :
-Source
+DisplaySource
 debuggeeHost
 :
 ?
@@ -648,7 +649,7 @@ void
 const
 url
 =
-getURL
+getDisplayURL
 (
 source
 debuggeeHost

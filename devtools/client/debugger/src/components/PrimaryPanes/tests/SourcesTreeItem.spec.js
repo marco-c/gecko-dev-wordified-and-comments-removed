@@ -37,7 +37,7 @@ SourcesTreeItem
 ;
 import
 {
-makeMockSource
+makeMockDisplaySource
 }
 from
 "
@@ -2725,7 +2725,7 @@ mockSource
 .
 .
 .
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -3428,7 +3428,7 @@ overrides
 const
 source
 =
-makeMockSource
+makeMockDisplaySource
 (
 "
 http
@@ -3564,7 +3564,7 @@ return
 sourcesInside
 :
 [
-makeMockSource
+makeMockDisplaySource
 (
 "
 https
@@ -3587,7 +3587,7 @@ actor1
 sourcesOuside
 :
 [
-makeMockSource
+makeMockDisplaySource
 (
 "
 https
@@ -3748,7 +3748,7 @@ contents
 .
 .
 .
-makeMockSource
+makeMockDisplaySource
 (
 undefined
 "
