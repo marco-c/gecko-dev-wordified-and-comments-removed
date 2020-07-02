@@ -17259,6 +17259,14 @@ MIRType
 Object
 )
 ;
+if
+(
+!
+JitOptions
+.
+warpBuilder
+)
+{
 setResultTypeSet
 (
 MakeSingletonTypeSet
@@ -17271,6 +17279,7 @@ templateObject
 )
 )
 ;
+}
 }
 public
 :
