@@ -93,6 +93,11 @@ NotifyDeviceChanged
 (
 )
 ;
+async
+Deactivate
+(
+)
+;
 }
 ;
 }
