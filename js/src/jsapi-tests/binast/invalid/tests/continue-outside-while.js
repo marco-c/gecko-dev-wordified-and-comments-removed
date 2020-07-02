@@ -1,8 +1,0 @@
-while
-(
-true
-)
-{
-continue
-;
-}

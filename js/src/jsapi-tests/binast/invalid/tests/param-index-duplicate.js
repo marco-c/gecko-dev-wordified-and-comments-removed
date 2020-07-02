@@ -1,8 +1,0 @@
-function
-f
-(
-a
-b
-)
-{
-}
