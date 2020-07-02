@@ -4644,7 +4644,7 @@ get
 (
 )
 ;
-uint32_t
+int32_t
 remaining
 =
 mData
