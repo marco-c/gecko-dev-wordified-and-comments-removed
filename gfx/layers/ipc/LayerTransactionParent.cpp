@@ -107,6 +107,17 @@ mozilla
 /
 layers
 /
+CompositorAnimationStorage
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 ContainerLayerComposite
 .
 h

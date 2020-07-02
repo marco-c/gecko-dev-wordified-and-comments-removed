@@ -1011,6 +1011,11 @@ Compositor
 h
 '
 '
+CompositorAnimationStorage
+.
+h
+'
+'
 CompositorTypes
 .
 h
@@ -2756,6 +2761,11 @@ cpp
 '
 '
 Compositor
+.
+cpp
+'
+'
+CompositorAnimationStorage
 .
 cpp
 '

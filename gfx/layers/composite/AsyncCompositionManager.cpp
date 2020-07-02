@@ -177,6 +177,17 @@ mozilla
 /
 layers
 /
+CompositorAnimationStorage
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 CompositorBridgeParent
 .
 h
