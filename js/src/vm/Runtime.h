@@ -4662,7 +4662,7 @@ FilenameValidationCallback
 gFilenameValidationCallback
 ;
 extern
-void
+bool
 (
 *
 HelperThreadTaskCallback
