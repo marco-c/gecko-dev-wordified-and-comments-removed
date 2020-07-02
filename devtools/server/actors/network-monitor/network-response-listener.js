@@ -1192,9 +1192,11 @@ owner
 .
 openResponses
 .
-get
+getChannelById
 (
 channel
+.
+channelId
 )
 ;
 if
