@@ -3464,9 +3464,7 @@ addRef
 )
 ;
 }
-cellHeaderAndCode_
-.
-setPtr
+setHeaderPtr
 (
 nullptr
 )

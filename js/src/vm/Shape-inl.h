@@ -703,9 +703,7 @@ base
 )
 )
 {
-headerAndBase_
-.
-unsafeSetPtr
+unsafeSetHeaderPtr
 (
 Forwarded
 (

@@ -8519,7 +8519,7 @@ StackBaseShape
 base
 )
 :
-headerAndClasp_
+TenuredCellWithNonGCPointer
 (
 base
 .
@@ -8557,9 +8557,7 @@ src
 {
 dest
 .
-headerAndClasp_
-.
-setPtr
+setHeaderPtr
 (
 src
 .
