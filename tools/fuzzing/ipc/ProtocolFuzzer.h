@@ -66,15 +66,6 @@ ContentParent
 *
 CreateContentParent
 (
-mozilla
-:
-:
-dom
-:
-:
-ContentParent
-*
-aOpener
 const
 nsAString
 &

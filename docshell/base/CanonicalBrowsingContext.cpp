@@ -4116,7 +4116,6 @@ hal
 :
 :
 PROCESS_PRIORITY_FOREGROUND
-nullptr
 false
 )
 ;
