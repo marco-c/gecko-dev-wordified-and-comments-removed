@@ -101,7 +101,9 @@ updating
 -
 the
 -
-ignorelist
+ignored
+-
+files
 )
 to
 suppress
@@ -166,7 +168,9 @@ updating
 -
 the
 -
-ignorelist
+ignored
+-
+files
 )
 to
 suppress
@@ -228,7 +232,8 @@ rules
 #
 Updating
 the
-ignorelist
+ignored
+files
 Normally
 you
 must
@@ -284,7 +289,7 @@ commit
 the
 lint
 .
-ignorelist
+ignore
 file
 in
 the
@@ -355,7 +360,7 @@ to
 the
 lint
 .
-ignorelist
+ignore
 file
 :
 TRAILING
@@ -403,7 +408,7 @@ to
 the
 lint
 .
-ignorelist
+ignore
 file
 :
 TRAILING
@@ -504,7 +509,7 @@ to
 the
 lint
 .
-ignorelist
+ignore
 file
 :
 TRAILING
