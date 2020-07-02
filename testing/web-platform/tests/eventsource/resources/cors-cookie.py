@@ -2,10 +2,6 @@ from
 datetime
 import
 datetime
-from
-six
-import
-ensure_str
 def
 main
 (
@@ -16,14 +12,13 @@ response
     
 last_event_id
 =
-ensure_str
-(
 request
 .
 headers
 .
 get
 (
+b
 "
 Last
 -
@@ -31,9 +26,9 @@ Event
 -
 Id
 "
+b
 "
 "
-)
 )
     
 ident
@@ -44,9 +39,11 @@ GET
 .
 first
 (
+b
 '
 ident
 '
+b
 "
 test
 "
@@ -54,6 +51,7 @@ test
     
 cookie
 =
+b
 "
 COOKIE
 "
@@ -64,6 +62,7 @@ request
 .
 cookies
 else
+b
 "
 NO_COOKIE
 "
@@ -76,6 +75,7 @@ GET
 .
 first
 (
+b
 '
 origin
 '
@@ -83,6 +83,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -97,9 +98,11 @@ GET
 .
 first
 (
+b
 '
 credentials
 '
+b
 '
 true
 '
@@ -114,6 +117,7 @@ if
 origin
 !
 =
+b
 '
 none
 '
@@ -124,6 +128,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -142,6 +147,7 @@ if
 credentials
 !
 =
+b
 '
 none
 '
@@ -152,6 +158,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -170,6 +177,7 @@ if
 last_event_id
 =
 =
+b
 '
 '
 :
@@ -179,11 +187,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -199,6 +209,7 @@ response
 set_cookie
 (
 ident
+b
 "
 COOKIE
 "
@@ -206,6 +217,7 @@ COOKIE
         
 data
 =
+b
 "
 id
 :
@@ -232,6 +244,7 @@ elif
 last_event_id
 =
 =
+b
 '
 1
 '
@@ -242,11 +255,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -283,6 +298,7 @@ response
 set_cookie
 (
 ident
+b
 "
 COOKIE
 "
@@ -293,6 +309,7 @@ long_long_time_ago
         
 data
 =
+b
 "
 id
 :
@@ -319,11 +336,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 stop
 "
@@ -332,6 +351,7 @@ stop
         
 data
 =
+b
 "
 data
 :
@@ -341,6 +361,7 @@ last_event_id
 +
 cookie
 +
+b
 "
 \
 n

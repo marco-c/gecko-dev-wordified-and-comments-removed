@@ -1,7 +1,3 @@
-from
-six
-import
-ensure_str
 def
 main
 (
@@ -16,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -32,14 +30,13 @@ stream
   
 last_event_id
 =
-ensure_str
-(
 request
 .
 headers
 .
 get
 (
+b
 "
 Last
 -
@@ -47,9 +44,9 @@ Event
 -
 ID
 "
+b
 "
 "
-)
 )
   
 if
@@ -57,6 +54,7 @@ last_event_id
 :
     
 return
+b
 "
 data
 :
@@ -64,6 +62,7 @@ data
 +
 last_event_id
 +
+b
 "
 \
 n
@@ -82,6 +81,7 @@ GET
 .
 first
 (
+b
 "
 idvalue
 "
@@ -90,9 +90,19 @@ u
 \
 u2026
 "
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
     
 return
+b
 "
 id
 :
@@ -100,6 +110,7 @@ id
 +
 idvalue
 +
+b
 "
 \
 nretry

@@ -16,9 +16,11 @@ GET
 .
 first
 (
+b
 "
 mime
 "
+b
 "
 text
 /
@@ -36,9 +38,11 @@ GET
 .
 first
 (
+b
 "
 message
 "
+b
 "
 data
 :
@@ -49,6 +53,7 @@ data
     
 newline
 =
+b
 "
 "
 if
@@ -58,6 +63,7 @@ GET
 .
 first
 (
+b
 "
 newline
 "
@@ -65,10 +71,12 @@ None
 )
 =
 =
+b
 "
 none
 "
 else
+b
 "
 \
 n
@@ -87,9 +95,11 @@ GET
 .
 first
 (
+b
 "
 sleep
 "
+b
 "
 0
 "
@@ -100,6 +110,7 @@ headers
 =
 [
 (
+b
 "
 Content
 -
@@ -115,6 +126,7 @@ message
 +
 newline
 +
+b
 "
 \
 n

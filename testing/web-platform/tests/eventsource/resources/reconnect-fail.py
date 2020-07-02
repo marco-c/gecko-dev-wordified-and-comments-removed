@@ -8,6 +8,7 @@ response
     
 name
 =
+b
 "
 recon_fail_
 "
@@ -18,6 +19,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -27,11 +29,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -71,6 +75,7 @@ if
 state
 =
 =
+b
 '
 opened
 '
@@ -80,6 +85,7 @@ status
 =
 (
 200
+b
 "
 RECONNECT
 "
@@ -90,6 +96,7 @@ response
 set_cookie
 (
 name
+b
 "
 reconnected
 "
@@ -98,6 +105,7 @@ reconnected
         
 body
 =
+b
 "
 data
 :
@@ -113,6 +121,7 @@ elif
 state
 =
 =
+b
 '
 reconnected
 '
@@ -122,6 +131,7 @@ status
 =
 (
 204
+b
 "
 NO
 CONTENT
@@ -141,6 +151,7 @@ name
         
 body
 =
+b
 "
 data
 :
@@ -158,6 +169,7 @@ status
 =
 (
 200
+b
 "
 OPEN
 "
@@ -169,6 +181,7 @@ response
 set_cookie
 (
 name
+b
 "
 opened
 "
@@ -177,6 +190,7 @@ opened
         
 body
 =
+b
 "
 retry
 :

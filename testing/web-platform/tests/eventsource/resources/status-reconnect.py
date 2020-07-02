@@ -14,9 +14,11 @@ GET
 .
 first
 (
+b
 "
 status
 "
+b
 "
 204
 "
@@ -30,6 +32,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -40,11 +43,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -57,6 +62,7 @@ stream
     
 cookie_name
 =
+b
 "
 request
 "
@@ -71,6 +77,7 @@ cookies
 first
 (
 cookie_name
+b
 "
 "
 )
@@ -92,6 +99,7 @@ cookie_name
         
 body
 =
+b
 "
 data
 :
@@ -121,6 +129,7 @@ int
 (
 status_code
 )
+b
 "
 TEST
 "
@@ -128,6 +137,7 @@ TEST
         
 body
 =
+b
 "
 retry
 :
@@ -137,6 +147,7 @@ n
 "
         
 if
+b
 "
 ok_first
 "
@@ -149,6 +160,7 @@ GET
 body
 +
 =
+b
 "
 data
 :

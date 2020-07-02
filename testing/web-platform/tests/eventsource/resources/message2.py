@@ -14,11 +14,13 @@ headers
 .
 set
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -34,11 +36,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -68,6 +72,7 @@ writer
 .
 write
 (
+u
 "
 data
 :
@@ -81,6 +86,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -93,6 +99,7 @@ writer
 .
 write
 (
+u
 "
 data
 :
@@ -106,6 +113,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -120,6 +128,7 @@ writer
 .
 write
 (
+u
 "
 :
 "
@@ -131,6 +140,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -143,6 +153,7 @@ writer
 .
 write
 (
+u
 "
 falsefield
 :
@@ -156,6 +167,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -170,6 +182,7 @@ writer
 .
 write
 (
+u
 "
 falsefield
 :
@@ -183,6 +196,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -195,6 +209,7 @@ writer
 .
 write
 (
+u
 "
 Data
 :
@@ -208,6 +223,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -222,6 +238,7 @@ writer
 .
 write
 (
+u
 "
 data
 "
@@ -233,6 +250,7 @@ writer
 .
 write
 (
+u
 "
 \
 n
@@ -247,6 +265,7 @@ writer
 .
 write
 (
+u
 "
 data
 :
@@ -260,6 +279,7 @@ writer
 .
 write
 (
+u
 "
 \
 n

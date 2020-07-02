@@ -15,13 +15,16 @@ GET
 .
 first
 (
+b
 "
 status
 "
+b
 "
 404
 "
 )
+b
 "
 HAHAHAHA
 "
@@ -31,11 +34,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -53,9 +58,11 @@ status
 ]
 in
 [
+b
 "
 204
 "
+b
 "
 205
 "
@@ -64,6 +71,7 @@ in
       
 body
 =
+b
 "
 "
   
@@ -72,6 +80,7 @@ else
       
 body
 =
+b
 "
 data
 :
