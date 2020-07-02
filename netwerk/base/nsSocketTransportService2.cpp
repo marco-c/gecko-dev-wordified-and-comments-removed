@@ -5157,6 +5157,12 @@ NS_GetCurrentThread
 (
 )
 ;
+SerialEventTargetGuard
+guard
+(
+this
+)
+;
 nsCOMPtr
 <
 nsIThreadInternal
