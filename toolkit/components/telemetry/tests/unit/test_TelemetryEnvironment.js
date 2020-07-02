@@ -9518,6 +9518,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 reset
 (
 )

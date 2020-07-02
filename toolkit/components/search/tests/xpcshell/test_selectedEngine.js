@@ -117,6 +117,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 reset
 (
 )
@@ -167,6 +169,8 @@ kTestEngineName
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -280,6 +284,8 @@ length
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -405,6 +411,8 @@ metadata
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (
@@ -801,6 +809,8 @@ promiseAfterCache
 Services
 .
 search
+.
+wrappedJSObject
 .
 reset
 (

@@ -200,6 +200,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 ensureBuiltinExtension
 (
 ENGINE_ID
@@ -209,6 +211,8 @@ await
 Services
 .
 search
+.
+wrappedJSObject
 .
 ensureBuiltinExtension
 (

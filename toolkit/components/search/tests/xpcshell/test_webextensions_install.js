@@ -68,6 +68,8 @@ Services
 .
 search
 .
+wrappedJSObject
+.
 reset
 (
 )
