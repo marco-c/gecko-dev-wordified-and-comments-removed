@@ -1864,6 +1864,16 @@ chunk_size
             
 source_chunks
 =
+[
+re
+.
+escape
+(
+f
+)
+for
+f
+in
 source
 [
 offset
@@ -1871,6 +1881,11 @@ offset
 offset
 +
 chunk_size
+]
+.
+copy
+(
+)
 ]
             
 name_re
