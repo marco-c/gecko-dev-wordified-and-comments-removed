@@ -14612,9 +14612,6 @@ return
 true
 ;
 }
-#
-ifdef
-NIGHTLY_BUILD
 static
 bool
 Promise_static_any
@@ -14650,8 +14647,6 @@ Any
 )
 ;
 }
-#
-endif
 static
 bool
 PromiseAnyRejectElementFunction
@@ -23658,9 +23653,6 @@ Promise_static_allSettled
 1
 0
 )
-#
-ifdef
-NIGHTLY_BUILD
 JS_FN
 (
 "
@@ -23670,8 +23662,6 @@ Promise_static_any
 1
 0
 )
-#
-endif
 JS_FN
 (
 "
