@@ -6557,7 +6557,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -6835,7 +6835,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 "
 Blacklisted
 see
@@ -6910,7 +6910,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -7080,7 +7080,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -7762,7 +7762,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
@@ -8196,7 +8196,7 @@ Disable
 FeatureStatus
 :
 :
-Blacklisted
+Blocklisted
 message
 .
 get
