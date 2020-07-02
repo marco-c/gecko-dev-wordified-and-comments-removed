@@ -893,7 +893,7 @@ value
 =
 input
 .
-try
+try_parse
 :
 :
 <
@@ -941,14 +941,7 @@ spread
 match
 i
 .
-try
-:
-:
-<
-_
-_
-ParseError
->
+try_parse
 (
 |
 i
