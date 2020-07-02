@@ -729,13 +729,14 @@ CleanupManager
 .
 addCleanupHandler
 (
+(
+)
+=
+>
 this
 .
 saveStartupPrefs
-.
-bind
 (
-this
 )
 )
 ;
