@@ -243,6 +243,7 @@ T
 >
 do_QueryObject
 (
+const
 nsCOMPtr
 <
 T
@@ -273,6 +274,7 @@ T
 >
 do_QueryObject
 (
+const
 RefPtr
 <
 T
@@ -334,6 +336,7 @@ T
 >
 do_QueryObject
 (
+const
 nsCOMPtr
 <
 T
@@ -368,6 +371,7 @@ T
 >
 do_QueryObject
 (
+const
 RefPtr
 <
 T
