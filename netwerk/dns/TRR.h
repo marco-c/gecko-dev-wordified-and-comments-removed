@@ -789,9 +789,6 @@ enum
 TrrType
 mType
 ;
-TimeStamp
-mStartTime
-;
 unsigned
 char
 mResponse
