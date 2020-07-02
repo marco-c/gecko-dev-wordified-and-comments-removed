@@ -6355,7 +6355,7 @@ out_rate
 uint32_t
 pre_buffer
 =
-20
+21
 ;
 AudioResampler
 dr
@@ -6653,7 +6653,7 @@ out_rate
 uint32_t
 pre_buffer
 =
-20
+21
 ;
 AudioResampler
 dr

@@ -2289,6 +2289,8 @@ mResampler
 CanResample
 (
 aOutFrames
++
+1
 )
 )
 {
