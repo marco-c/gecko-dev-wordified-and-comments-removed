@@ -193,15 +193,11 @@ nsresult
 aRv
 )
 ;
-typedef
 nsTObserverArray
 <
 Listener
 *
 >
-ListenerList
-;
-ListenerList
 mListenerList
 ;
 RefPtr

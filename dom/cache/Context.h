@@ -482,15 +482,11 @@ PendingAction
 >
 mPendingActions
 ;
-typedef
 nsTObserverArray
 <
 Activity
 *
 >
-ActivityList
-;
-ActivityList
 mActivityList
 ;
 SafeRefPtr

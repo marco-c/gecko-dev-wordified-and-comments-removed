@@ -233,7 +233,6 @@ AssertOwningThread
 endif
 private
 :
-typedef
 nsTObserverArray
 <
 RefPtr
@@ -244,9 +243,6 @@ ReadStream
 Controllable
 >
 >
-ReadStreamList
-;
-ReadStreamList
 mReadStreamList
 ;
 }
