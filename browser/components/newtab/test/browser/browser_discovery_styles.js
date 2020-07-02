@@ -341,7 +341,7 @@ fontSize
 "
 46
 .
-6583px
+65px
 "
 "
 applied

@@ -50072,10 +50072,10 @@ StyleGenericFontFamily
 :
 :
 Serif
-Length
+nsPresContext
 :
 :
-FromPixels
+CSSPixelsToAppUnits
 (
 11
 )

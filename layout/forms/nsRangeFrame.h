@@ -504,10 +504,7 @@ private
 nscoord
 AutoCrossSize
 (
-mozilla
-:
-:
-Length
+nscoord
 aEm
 )
 ;

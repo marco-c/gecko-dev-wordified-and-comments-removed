@@ -64,9 +64,7 @@ nullptr
 )
 mMinimumFontSize
 (
-{
 0
-}
 )
 mDefaultVariableFont
 (
@@ -77,9 +75,7 @@ StyleGenericFontFamily
 :
 :
 Serif
-{
 0
-}
 )
 mDefaultSansSerifFont
 (
@@ -87,9 +83,7 @@ StyleGenericFontFamily
 :
 :
 SansSerif
-{
 0
-}
 )
 mDefaultMonospaceFont
 (
@@ -97,9 +91,7 @@ StyleGenericFontFamily
 :
 :
 Monospace
-{
 0
-}
 )
 mDefaultCursiveFont
 (
@@ -107,9 +99,7 @@ StyleGenericFontFamily
 :
 :
 Cursive
-{
 0
-}
 )
 mDefaultFantasyFont
 (
@@ -117,9 +107,7 @@ StyleGenericFontFamily
 :
 :
 Fantasy
-{
 0
-}
 )
 {
 mDefaultVariableFont
@@ -254,7 +242,7 @@ nsStaticAtom
 *
 mLangGroup
 ;
-Length
+nscoord
 mMinimumFontSize
 ;
 nsFont

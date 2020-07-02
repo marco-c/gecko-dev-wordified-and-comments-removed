@@ -1201,10 +1201,6 @@ Font
 )
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 if
 (
@@ -1293,10 +1289,6 @@ Font
 )
 .
 size
-.
-ToAppUnits
-(
-)
 ;
 if
 (
