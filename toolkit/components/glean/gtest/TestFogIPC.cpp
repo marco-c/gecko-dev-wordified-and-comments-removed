@@ -74,6 +74,17 @@ ByteBuf
 )
 >
 resolver
+=
+[
+]
+(
+ByteBuf
+&
+&
+bufs
+)
+{
+}
 ;
 mozilla
 :
