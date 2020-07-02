@@ -39,10 +39,7 @@ Stmt
 >
 Result
 ;
-ASTContext
-:
-:
-DynTypedNodeList
+auto
 Parents
 =
 Context
