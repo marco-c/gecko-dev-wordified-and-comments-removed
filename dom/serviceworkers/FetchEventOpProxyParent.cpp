@@ -103,7 +103,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamStorage
+IPCBlobUtils
 .
 h
 "
@@ -114,7 +114,7 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -243,7 +243,7 @@ uuid
 )
 )
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
@@ -426,11 +426,11 @@ uuid
 (
 )
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 *
 storage
 =
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get

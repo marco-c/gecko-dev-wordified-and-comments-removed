@@ -22,13 +22,6 @@ h
 #
 include
 "
-IPCBlobInputStreamStorage
-.
-h
-"
-#
-include
-"
 mozilla
 /
 ipc
@@ -112,6 +105,13 @@ h
 include
 "
 nsStringStream
+.
+h
+"
+#
+include
+"
+RemoteLazyInputStreamStorage
 .
 h
 "
@@ -567,7 +567,7 @@ nsIInputStream
 >
 stream
 ;
-IPCBlobInputStreamStorage
+RemoteLazyInputStreamStorage
 :
 :
 Get
