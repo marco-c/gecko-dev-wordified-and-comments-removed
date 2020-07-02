@@ -4642,14 +4642,30 @@ stop
             
 if
 test_group
-!
-=
+is
+not
 self
 .
 state
 .
 test_group
 :
+                
+self
+.
+logger
+.
+info
+(
+"
+Restarting
+browser
+for
+new
+test
+group
+"
+)
                 
 restart
 =
