@@ -134,12 +134,6 @@ listenForServiceWorkers
 =
 true
 ;
-targetList
-.
-destroyServiceWorkersOnNavigation
-=
-true
-;
 }
 await
 targetList
