@@ -314,7 +314,6 @@ true
 return
 ;
 }
-else
 if
 (
 !
