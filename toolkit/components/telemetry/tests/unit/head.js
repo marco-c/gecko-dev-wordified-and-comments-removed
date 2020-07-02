@@ -1948,7 +1948,7 @@ gre
 /
 modules
 /
-TelemetryControllerParent
+TelemetryController
 .
 jsm
 "
@@ -2240,7 +2240,7 @@ gre
 /
 modules
 /
-TelemetryControllerParent
+TelemetryController
 .
 jsm
 "
@@ -2278,7 +2278,7 @@ gre
 /
 modules
 /
-TelemetryControllerParent
+TelemetryController
 .
 jsm
 "
