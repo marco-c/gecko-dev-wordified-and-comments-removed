@@ -5598,6 +5598,16 @@ missing
 or
 corrupt
 .
+#
+Keep
+synchronized
+with
+TELEMETRY_BASENAMES
+from
+JSONFile
+.
+jsm
+.
 objects
 :
 [
