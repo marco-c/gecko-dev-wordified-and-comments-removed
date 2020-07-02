@@ -2272,14 +2272,6 @@ implementation_status
 )
         
 if
-(
-'
-testharness
-'
-in
-test_types
-and
-            
 '
 backlog
 '
@@ -2291,6 +2283,20 @@ c
 skip_implementation_status
 "
 ]
+and
+(
+           
+'
+testharness
+'
+in
+test_types
+or
+'
+reftest
+'
+in
+test_types
 )
 :
             
