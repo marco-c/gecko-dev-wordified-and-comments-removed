@@ -17147,6 +17147,10 @@ Clear
 (
 )
 ;
+gCallbackPref
+=
+nullptr
+;
 }
 *
 aSize
