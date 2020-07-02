@@ -149,7 +149,7 @@ MessagePayload
 js
 '
 '
-MessagesPanel
+MessagesView
 .
 js
 '

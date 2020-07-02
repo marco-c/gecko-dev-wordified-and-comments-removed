@@ -201,7 +201,7 @@ HeadersPanel
 )
 ;
 const
-MessagesPanel
+MessagesView
 =
 createFactory
 (
@@ -220,7 +220,7 @@ components
 /
 messages
 /
-MessagesPanel
+MessagesView
 "
 )
 )
@@ -805,7 +805,7 @@ serverSentEvents
 )
 ;
 const
-showMessagesPanel
+showMessagesView
 =
 (
 isWs
@@ -900,7 +900,7 @@ targetSearchResult
 }
 )
 )
-showMessagesPanel
+showMessagesView
 &
 &
 TabPanel
@@ -924,7 +924,7 @@ with
 code
 "
 }
-MessagesPanel
+MessagesView
 (
 {
 connector

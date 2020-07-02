@@ -312,7 +312,7 @@ MessagePayload
 )
 ;
 class
-MessagesPanel
+MessagesView
 extends
 Component
 {
@@ -803,6 +803,6 @@ open
 )
 )
 (
-MessagesPanel
+MessagesView
 )
 ;
