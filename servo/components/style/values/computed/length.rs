@@ -638,6 +638,9 @@ self
 bool
 {
 use
+crate
+:
+:
 values
 :
 :
@@ -703,6 +706,9 @@ self
 Self
 {
 use
+crate
+:
+:
 values
 :
 :
@@ -759,6 +765,9 @@ LengthPercentage
 >
 {
 use
+crate
+:
+:
 values
 :
 :
@@ -830,6 +839,9 @@ Length
 LengthOrAuto
 {
 use
+crate
+:
+:
 values
 :
 :
@@ -892,6 +904,9 @@ Length
 LengthOrAuto
 {
 use
+crate
+:
+:
 values
 :
 :

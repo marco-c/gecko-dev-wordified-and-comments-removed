@@ -44,6 +44,11 @@ build
 .
 rs
 "
+edition
+=
+"
+2018
+"
 #
 https
 :

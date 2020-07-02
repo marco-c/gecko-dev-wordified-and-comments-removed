@@ -2645,6 +2645,7 @@ format
 !
 (
 "
+crate
 :
 :
 gecko_bindings

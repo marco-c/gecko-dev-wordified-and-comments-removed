@@ -3158,6 +3158,9 @@ Self
 )
 {
 use
+crate
+:
+:
 rule_collector
 :
 :
