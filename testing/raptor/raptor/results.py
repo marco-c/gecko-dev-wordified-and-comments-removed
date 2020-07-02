@@ -99,6 +99,10 @@ cold
 =
 False
         
+enable_webrender
+=
+False
+        
 *
 *
 kwargs
@@ -195,6 +199,12 @@ autostart
 False
         
 )
+        
+self
+.
+webrender_enabled
+=
+enable_webrender
         
 self
 .
@@ -1137,6 +1147,26 @@ append
 (
 "
 fission
+"
+)
+        
+if
+self
+.
+webrender_enabled
+:
+            
+new_result_json
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+webrender
 "
 )
         
@@ -3510,6 +3540,26 @@ append
 (
 "
 cold
+"
+)
+                    
+if
+self
+.
+webrender_enabled
+:
+                        
+new_result
+[
+"
+extra_options
+"
+]
+.
+append
+(
+"
+webrender
 "
 )
                     

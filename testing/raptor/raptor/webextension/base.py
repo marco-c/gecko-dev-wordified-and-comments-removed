@@ -256,6 +256,17 @@ get
 extra_prefs
 "
 )
+            
+enable_webrender
+=
+self
+.
+config
+[
+"
+enable_webrender
+"
+]
         
 )
         
