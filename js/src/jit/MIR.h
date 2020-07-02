@@ -59861,6 +59861,10 @@ type
 )
 )
 ;
+setCallResultCapture
+(
+)
+;
 }
 public
 :
