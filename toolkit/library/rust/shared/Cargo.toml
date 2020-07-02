@@ -1690,6 +1690,15 @@ glean
 fog
 "
 ]
+glean_with_gecko
+=
+[
+"
+fog
+/
+with_gecko
+"
+]
 rust_fxa_client
 =
 [
