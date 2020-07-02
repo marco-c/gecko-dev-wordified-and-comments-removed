@@ -170,3 +170,7 @@ DEPRECATED_OPERATION
 (
 MathML_DeprecatedXLinkAttribute
 )
+DEPRECATED_OPERATION
+(
+MathML_DeprecatedStixgeneralOperatorStretching
+)

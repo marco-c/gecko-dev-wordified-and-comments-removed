@@ -3249,6 +3249,15 @@ op
 ref
 .
 html
+pref
+(
+mathml
+.
+stixgeneral_operator_stretching
+.
+disabled
+false
+)
 =
 =
 semantics
@@ -3266,6 +3275,9 @@ xhtml
 #
 bug
 1309429
+;
+bug
+1648335
 =
 =
 semantics

@@ -57764,6 +57764,13 @@ DeprecatedOperations
 aOperation
 bool
 asError
+const
+nsTArray
+<
+nsString
+>
+&
+aParams
 )
 const
 {
@@ -57856,6 +57863,7 @@ kDeprecationWarnings
 [
 aOperation
 ]
+aParams
 )
 ;
 }
