@@ -1173,9 +1173,6 @@ nsCString
 mTLD
 ;
 bool
-mUseJapaneseDetector
-;
-bool
 mInitialEncodingWasFromParentFrame
 ;
 bool
