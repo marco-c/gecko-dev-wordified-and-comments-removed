@@ -2902,6 +2902,13 @@ LogTaskBase
 nsIRunnable
 >
 ;
+template
+class
+LogTaskBase
+<
+MicroTaskRunnable
+>
+;
 }
 bool
 nsIEventTarget
