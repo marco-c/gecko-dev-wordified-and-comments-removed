@@ -1268,14 +1268,11 @@ aFrame
 NS_ASSERTION
 (
 !
-(
 frame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IN_REFLOW
 )
 "
