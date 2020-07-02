@@ -221,6 +221,14 @@ build_url
 get_multi_tasks_url
 (
 NIGHTLY_SIM_ROUTE
+day
+=
+kw
+[
+"
+test_date
+"
+]
 )
     
 tmpfile
