@@ -6076,6 +6076,16 @@ aFlags
 )
 ;
 }
+virtual
+ContentOffsets
+CalcContentOffsetsFromFramePoint
+(
+const
+nsPoint
+&
+aPoint
+)
+;
 [
 [
 nodiscard

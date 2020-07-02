@@ -455,16 +455,6 @@ uint32_t
 aSelectFlags
 )
 ;
-virtual
-ContentOffsets
-CalcContentOffsetsFromFramePoint
-(
-const
-nsPoint
-&
-aPoint
-)
-;
 #
 ifdef
 DEBUG
