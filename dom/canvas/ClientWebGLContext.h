@@ -4488,6 +4488,11 @@ layers
 :
 :
 TextureType
+const
+bool
+webvr
+=
+false
 )
 ;
 Maybe
@@ -4501,6 +4506,11 @@ GetFrontBuffer
 (
 WebGLFramebufferJS
 *
+const
+bool
+webvr
+=
+false
 )
 ;
 RefPtr
@@ -4518,6 +4528,11 @@ requireAlphaPremult
 true
 )
 override
+;
+void
+ClearVRSwapChain
+(
+)
 ;
 private
 :

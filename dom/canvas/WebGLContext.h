@@ -2022,7 +2022,7 @@ gl
 :
 MozFramebuffer
 &
-fb
+xrFb
 )
 ;
 public
@@ -2036,6 +2036,9 @@ layers
 :
 :
 TextureType
+const
+bool
+webvr
 )
 ;
 RefPtr
@@ -2060,6 +2063,14 @@ GetFrontBuffer
 (
 WebGLFramebuffer
 *
+const
+bool
+webvr
+)
+;
+void
+ClearVRSwapChain
+(
 )
 ;
 void
@@ -5506,6 +5517,12 @@ gl
 :
 SwapChain
 mSwapChain
+;
+gl
+:
+:
+SwapChain
+mWebVRSwapChain
 ;
 bool
 EnsureDefaultFB
