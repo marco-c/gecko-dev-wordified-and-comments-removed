@@ -692,7 +692,7 @@ mChromeReg
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

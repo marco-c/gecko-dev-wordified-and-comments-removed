@@ -8299,7 +8299,7 @@ service
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 ;

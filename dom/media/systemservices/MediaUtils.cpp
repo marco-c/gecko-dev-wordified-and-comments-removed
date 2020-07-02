@@ -28,7 +28,7 @@ svc
 services
 :
 :
-GetAsyncShutdown
+GetAsyncShutdownService
 (
 )
 ;

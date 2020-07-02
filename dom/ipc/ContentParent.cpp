@@ -16384,7 +16384,7 @@ svc
 services
 :
 :
-GetAsyncShutdown
+GetAsyncShutdownService
 (
 )
 ;
@@ -20799,7 +20799,7 @@ history
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 ;
@@ -20896,7 +20896,7 @@ history
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 ;

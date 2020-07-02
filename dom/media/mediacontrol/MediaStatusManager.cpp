@@ -1172,7 +1172,7 @@ regService
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

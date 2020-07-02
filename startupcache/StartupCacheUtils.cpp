@@ -874,7 +874,7 @@ mozilla
 services
 :
 :
-GetChromeRegistryService
+GetChromeRegistry
 (
 )
 ;

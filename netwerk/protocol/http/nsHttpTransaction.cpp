@@ -1293,7 +1293,7 @@ mActivityDistributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 ;

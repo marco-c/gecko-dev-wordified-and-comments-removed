@@ -1466,7 +1466,7 @@ activityDistributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 ;

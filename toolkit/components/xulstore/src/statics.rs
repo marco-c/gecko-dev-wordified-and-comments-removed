@@ -954,7 +954,7 @@ bool
 >
 {
 let
-app_info_svc
+xul_runtime
 =
 xpcom
 :
@@ -962,7 +962,7 @@ xpcom
 services
 :
 :
-get_AppInfoService
+get_XULRuntime
 (
 )
 .
@@ -983,7 +983,7 @@ false
 ;
 unsafe
 {
-app_info_svc
+xul_runtime
 .
 GetInSafeMode
 (

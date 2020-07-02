@@ -38,7 +38,7 @@ contractid
 service
 (
 '
-ChromeRegistryService
+ChromeRegistry
 '
 '
 nsIChromeRegistry
@@ -61,7 +61,7 @@ registry
 service
 (
 '
-ToolkitChromeRegistryService
+ToolkitChromeRegistry
 '
 '
 nsIToolkitChromeRegistry
@@ -84,7 +84,7 @@ registry
 service
 (
 '
-XULChromeRegistryService
+XULChromeRegistry
 '
 '
 nsIXULChromeRegistry
@@ -212,7 +212,7 @@ permissionmanager
 service
 (
 '
-PreferencesService
+PrefService
 '
 '
 nsIPrefService
@@ -254,7 +254,7 @@ manager
 service
 (
 '
-AsyncShutdown
+AsyncShutdownService
 '
 '
 nsIAsyncShutdownService
@@ -411,7 +411,7 @@ uriclassifierservice
 service
 (
 '
-ActivityDistributor
+HttpActivityDistributor
 '
 '
 nsIHttpActivityDistributor
@@ -436,7 +436,7 @@ distributor
 service
 (
 '
-HistoryService
+History
 '
 '
 mozilla
@@ -521,7 +521,7 @@ bits
 service
 (
 '
-AppInfoService
+XULRuntime
 '
 '
 nsIXULRuntime

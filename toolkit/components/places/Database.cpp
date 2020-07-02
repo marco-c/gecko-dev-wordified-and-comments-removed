@@ -1676,7 +1676,7 @@ asyncShutdownSvc
 services
 :
 :
-GetAsyncShutdown
+GetAsyncShutdownService
 (
 )
 ;
@@ -1757,7 +1757,7 @@ asyncShutdownSvc
 services
 :
 :
-GetAsyncShutdown
+GetAsyncShutdownService
 (
 )
 ;

@@ -1853,7 +1853,7 @@ distributor
 services
 :
 :
-GetActivityDistributor
+GetHttpActivityDistributor
 (
 )
 )

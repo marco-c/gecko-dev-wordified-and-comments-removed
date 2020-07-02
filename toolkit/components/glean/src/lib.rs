@@ -608,7 +608,7 @@ xpcom
 services
 :
 :
-get_PreferencesService
+get_PrefService
 (
 )
 .

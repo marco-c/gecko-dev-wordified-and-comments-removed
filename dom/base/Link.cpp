@@ -674,7 +674,7 @@ history
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 )
@@ -2449,7 +2449,7 @@ history
 services
 :
 :
-GetHistoryService
+GetHistory
 (
 )
 )
