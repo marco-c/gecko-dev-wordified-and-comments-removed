@@ -1917,16 +1917,6 @@ platform
 tests
 -
 reftest
-'
-    
-'
-web
--
-platform
--
-tests
--
-reftest
 -
 backlog
 '
