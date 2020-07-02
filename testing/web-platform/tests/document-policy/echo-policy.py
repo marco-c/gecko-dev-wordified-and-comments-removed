@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -17,11 +23,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -38,6 +46,7 @@ headers
 .
 get
 (
+b
 '
 Sec
 -
@@ -55,18 +64,23 @@ srdp
       
 msg
 [
+u
 '
 requiredPolicy
 '
 ]
 =
+isomorphic_decode
+(
 srdp
+)
       
 headers
 .
 append
 (
 (
+b
 '
 Document
 -
@@ -84,6 +98,7 @@ GET
 .
 first
 (
+b
 '
 id
 '
@@ -96,15 +111,20 @@ frameId
       
 msg
 [
+u
 '
 id
 '
 ]
 =
+isomorphic_decode
+(
 frameId
+)
     
 content
 =
+u
 "
 "
 "
@@ -144,12 +164,23 @@ dumps
 (
 msg
 )
+isomorphic_decode
+(
+srdp
+)
+if
+srdp
+!
+=
+None
+else
 srdp
 )
     
 return
 (
 200
+u
 '
 OK
 '

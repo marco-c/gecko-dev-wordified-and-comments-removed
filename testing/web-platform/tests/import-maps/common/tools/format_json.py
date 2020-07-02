@@ -72,6 +72,7 @@ load
 open
 (
 filename
+u
 '
 r
 '
@@ -87,6 +88,7 @@ with
 open
 (
 filename
+u
 '
 w
 '
@@ -110,8 +112,10 @@ indent
 separators
 =
 (
+u
 '
 '
+u
 '
 :
 '
@@ -123,6 +127,7 @@ f
 .
 write
 (
+u
 '
 \
 n

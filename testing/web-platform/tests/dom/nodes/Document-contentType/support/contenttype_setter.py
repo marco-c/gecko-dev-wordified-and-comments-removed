@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -28,6 +29,7 @@ GET
 .
 first
 (
+b
 "
 subtype
 "
@@ -44,6 +46,7 @@ response
 .
 headers
 [
+b
 "
 Content
 -
@@ -53,6 +56,7 @@ Type
 =
 type
 +
+b
 "
 /
 "
@@ -67,6 +71,7 @@ GET
 .
 first
 (
+b
 "
 removeContentType
 "
@@ -85,6 +90,7 @@ response
 .
 headers
 [
+b
 "
 Content
 -
@@ -100,6 +106,7 @@ pass
     
 content
 =
+b
 '
 <
 head
@@ -114,6 +121,7 @@ GET
 .
 first
 (
+b
 "
 mime
 "
@@ -128,6 +136,7 @@ mimeHead
 content
 +
 =
+b
 '
 <
 meta
@@ -161,6 +170,7 @@ mimeHead
 content
 +
 =
+b
 "
 <
 /

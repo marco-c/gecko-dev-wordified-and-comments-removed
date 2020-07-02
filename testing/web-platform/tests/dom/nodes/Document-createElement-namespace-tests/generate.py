@@ -8,6 +8,7 @@ import
 sys
 THIS_NAME
 =
+u
 "
 generate
 .
@@ -18,17 +19,21 @@ FILES
 (
     
 (
+u
 "
 empty
 "
+u
 "
 "
 )
     
 (
+u
 "
 minimal_html
 "
+u
 "
 <
 !
@@ -46,9 +51,11 @@ title
 )
     
 (
+u
 "
 xhtml
 "
+u
 '
 <
 html
@@ -78,9 +85,11 @@ html
 )
     
 (
+u
 "
 svg
 "
+u
 '
 <
 svg
@@ -110,9 +119,11 @@ svg
 )
     
 (
+u
 "
 mathml
 "
+u
 '
 <
 mathml
@@ -144,9 +155,11 @@ mathml
 )
     
 (
+u
 "
 bare_xhtml
 "
+u
 "
 <
 html
@@ -159,9 +172,11 @@ html
 )
     
 (
+u
 "
 bare_svg
 "
+u
 "
 <
 svg
@@ -174,9 +189,11 @@ svg
 )
     
 (
+u
 "
 bare_mathml
 "
+u
 "
 <
 math
@@ -189,9 +206,11 @@ math
 )
     
 (
+u
 "
 xhtml_ns_removed
 "
+u
 "
 "
 "
@@ -274,9 +293,11 @@ html
 )
     
 (
+u
 "
 xhtml_ns_changed
 "
+u
 "
 "
 "
@@ -376,18 +397,22 @@ EXTENSIONS
 =
 (
     
+u
 "
 html
 "
     
+u
 "
 xhtml
 "
     
+u
 "
 xml
 "
     
+u
 "
 svg
 "
@@ -411,6 +436,7 @@ argv
         
 print
 (
+u
 "
 No
 arguments
@@ -436,6 +462,7 @@ F_OK
         
 print
 (
+u
 "
 Must
 be
@@ -448,6 +475,7 @@ of
 +
 THIS_NAME
 +
+u
 "
 aborting
 "
@@ -462,6 +490,7 @@ os
 .
 listdir
 (
+u
 "
 .
 "
@@ -488,9 +517,11 @@ manifest
 =
 open
 (
+u
 "
 MANIFEST
 "
+u
 "
 w
 "
@@ -515,11 +546,13 @@ open
 (
 name
 +
+u
 "
 .
 "
 +
 extension
+u
 "
 w
 "
@@ -542,18 +575,21 @@ manifest
 .
 write
 (
+u
 "
 support
 "
 +
 name
 +
+u
 "
 .
 "
 +
 extension
 +
+u
 "
 \
 n
