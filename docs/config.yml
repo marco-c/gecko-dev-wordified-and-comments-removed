@@ -138,6 +138,12 @@ tools
 code
 -
 coverage
+-
+testing
+-
+rust
+-
+code
 l10n_doc
 :
 -
