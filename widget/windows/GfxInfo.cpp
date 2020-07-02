@@ -9941,7 +9941,7 @@ val
 )
 ;
 bool
-blacklisted
+blocklisted
 =
 false
 ;
@@ -9987,7 +9987,7 @@ status
 )
 )
 {
-blacklisted
+blocklisted
 =
 (
 status
@@ -10008,7 +10008,7 @@ JS
 :
 BooleanValue
 (
-blacklisted
+blocklisted
 )
 ;
 JS_SetProperty
