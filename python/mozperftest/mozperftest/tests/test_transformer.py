@@ -13,6 +13,7 @@ tests
 .
 support
 import
+get_running_env
 HERE
 from
 mozperftest
@@ -55,6 +56,18 @@ NotebookInvalidPathError
     
 NotebookDuplicateTransformsError
 )
+_
+metadata
+_
+=
+get_running_env
+(
+)
+prefix
+=
+"
+PerftestNotebook
+"
 def
 test_init_failure
 (
@@ -117,6 +130,12 @@ files
 Transformer
 (
 files
+logger
+=
+metadata
+prefix
+=
+prefix
 )
 .
 files
@@ -151,6 +170,12 @@ tfm
 =
 Transformer
 (
+logger
+=
+metadata
+prefix
+=
+prefix
 )
     
 tfm
@@ -176,6 +201,12 @@ tfm
 =
 Transformer
 (
+logger
+=
+metadata
+prefix
+=
+prefix
 )
     
 tfm
@@ -203,6 +234,12 @@ tfm
 =
 Transformer
 (
+logger
+=
+metadata
+prefix
+=
+prefix
 )
     
 files
@@ -400,6 +437,12 @@ Transformer
 BadTransformer
 (
 )
+logger
+=
+metadata
+prefix
+=
+prefix
 )
     
 tfm
