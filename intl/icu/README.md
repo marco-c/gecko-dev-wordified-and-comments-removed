@@ -1711,13 +1711,6 @@ PYTHONPATH
 "
 topsrcdir
 /
-build
-/
-pymake
-/
-:
-topsrcdir
-/
 python
 /
 mozbuild
@@ -1863,13 +1856,6 @@ export
 PYTHONPATH
 =
 "
-topsrcdir
-/
-build
-/
-pymake
-/
-:
 topsrcdir
 /
 python
