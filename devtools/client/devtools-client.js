@@ -1838,7 +1838,7 @@ _pools
 {
 pool
 .
-cleanup
+destroy
 (
 )
 ;
