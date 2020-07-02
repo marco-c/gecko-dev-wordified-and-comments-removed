@@ -3595,9 +3595,7 @@ SheetLoadData
 >
 (
 loader
-GetBaseURI
-(
-)
+nullptr
 this
 false
 css

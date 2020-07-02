@@ -7187,15 +7187,9 @@ get
 ;
 if
 (
-!
 aData
 .
-mSheet
--
->
-IsConstructed
-(
-)
+mURI
 )
 {
 MOZ_DIAGNOSTIC_ASSERT
@@ -8075,10 +8069,6 @@ data
 mLineNumber
 =
 aLineNumber
-;
-+
-+
-mOngoingLoadCount
 ;
 NS_ConvertUTF16toUTF8
 utf8
