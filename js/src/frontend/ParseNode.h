@@ -5982,15 +5982,6 @@ JSContext
 cx
 )
 ;
-JSAtom
-*
-toAtom
-(
-JSContext
-*
-cx
-)
-;
 bool
 isZero
 (
