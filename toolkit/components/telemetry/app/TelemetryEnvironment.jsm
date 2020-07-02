@@ -6663,17 +6663,6 @@ call
 return
 ;
 }
-if
-(
-!
-Services
-.
-search
-)
-{
-return
-;
-}
 this
 .
 _log
