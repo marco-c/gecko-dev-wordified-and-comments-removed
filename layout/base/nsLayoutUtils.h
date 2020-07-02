@@ -6552,7 +6552,10 @@ const
 nsStyleFont
 *
 aStyleFont
-nscoord
+mozilla
+:
+:
+Length
 aFontSize
 bool
 aUseUserFontSet

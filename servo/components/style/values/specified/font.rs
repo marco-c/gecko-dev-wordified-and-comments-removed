@@ -3742,9 +3742,11 @@ pub
 const
 FONT_MEDIUM_PX
 :
-i32
+f32
 =
 16
+.
+0
 ;
 impl
 FontSizeKeyword
@@ -3787,8 +3789,6 @@ Length
 new
 (
 FONT_MEDIUM_PX
-as
-f32
 )
 ;
 NonNegative

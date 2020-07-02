@@ -8868,11 +8868,6 @@ const
 gfxFloat
 fontSize
 =
-CSSPixel
-:
-:
-FromAppUnits
-(
 aFrame
 -
 >
@@ -8884,6 +8879,9 @@ StyleFont
 mFont
 .
 size
+.
+ToCSSPixels
+(
 )
 ;
 if
