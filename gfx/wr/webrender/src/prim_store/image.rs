@@ -95,7 +95,6 @@ prim_store
 :
 {
 EdgeAaSegmentMask
-OpacityBindingIndex
 PrimitiveInstanceKind
 PrimitiveOpacity
 PrimKey
@@ -304,10 +303,6 @@ pub
 struct
 ImageInstance
 {
-pub
-opacity_binding_index
-:
-OpacityBindingIndex
 pub
 segment_instance_index
 :
@@ -1331,12 +1326,6 @@ push
 (
 ImageInstance
 {
-opacity_binding_index
-:
-OpacityBindingIndex
-:
-:
-INVALID
 segment_instance_index
 :
 SegmentInstanceIndex
