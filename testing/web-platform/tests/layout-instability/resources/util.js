@@ -327,6 +327,9 @@ if
 expectation
 .
 score
+!
+=
+undefined
 )
 assert_equals
 (
