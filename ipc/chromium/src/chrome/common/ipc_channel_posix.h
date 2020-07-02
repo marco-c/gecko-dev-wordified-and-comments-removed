@@ -459,12 +459,6 @@ processing_incoming_
 bool
 closed_
 ;
-int32_t
-other_pid_
-=
--
-1
-;
 #
 if
 defined
