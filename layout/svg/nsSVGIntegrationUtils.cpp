@@ -85,6 +85,13 @@ h
 #
 include
 "
+nsSVGMaskFrame
+.
+h
+"
+#
+include
+"
 nsSVGPaintServerFrame
 .
 h
@@ -145,15 +152,6 @@ include
 mozilla
 /
 StaticPrefs_layers
-.
-h
-"
-#
-include
-"
-mozilla
-/
-SVGMaskFrame
 .
 h
 "
@@ -1839,7 +1837,7 @@ aSC
 const
 nsTArray
 <
-SVGMaskFrame
+nsSVGMaskFrame
 *
 >
 &
@@ -2003,7 +2001,7 @@ i
 -
 )
 {
-SVGMaskFrame
+nsSVGMaskFrame
 *
 maskFrame
 =
@@ -2059,7 +2057,7 @@ if
 maskFrame
 )
 {
-SVGMaskFrame
+nsSVGMaskFrame
 :
 :
 MaskParams
@@ -2348,7 +2346,7 @@ aSC
 const
 nsTArray
 <
-SVGMaskFrame
+nsSVGMaskFrame
 *
 >
 &
@@ -2434,7 +2432,7 @@ opacityApplied
 =
 true
 ;
-SVGMaskFrame
+nsSVGMaskFrame
 :
 :
 MaskParams
@@ -3219,7 +3217,7 @@ aFrame
 ;
 nsTArray
 <
-SVGMaskFrame
+nsSVGMaskFrame
 *
 >
 maskFrames
@@ -3508,7 +3506,7 @@ frame
 ;
 nsTArray
 <
-SVGMaskFrame
+nsSVGMaskFrame
 *
 >
 maskFrames
@@ -3971,7 +3969,7 @@ clipPathFrame
 ;
 nsTArray
 <
-SVGMaskFrame
+nsSVGMaskFrame
 *
 >
 maskFrames

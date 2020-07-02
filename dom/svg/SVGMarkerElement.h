@@ -93,6 +93,9 @@ UniquePtr
 .
 h
 "
+class
+nsSVGMarkerFrame
+;
 nsresult
 NS_NewSVGMarkerElement
 (
@@ -121,9 +124,6 @@ mozilla
 struct
 SVGMark
 ;
-class
-SVGMarkerFrame
-;
 namespace
 dom
 {
@@ -146,10 +146,9 @@ SVGMarkerElementBase
 {
 friend
 class
-mozilla
 :
 :
-SVGMarkerFrame
+nsSVGMarkerFrame
 ;
 protected
 :

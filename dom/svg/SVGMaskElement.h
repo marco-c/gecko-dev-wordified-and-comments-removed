@@ -29,6 +29,9 @@ SVGElement
 .
 h
 "
+class
+nsSVGMaskFrame
+;
 nsresult
 NS_NewSVGMaskElement
 (
@@ -54,9 +57,6 @@ aNodeInfo
 namespace
 mozilla
 {
-class
-SVGMaskFrame
-;
 namespace
 dom
 {
@@ -73,10 +73,9 @@ SVGMaskElementBase
 {
 friend
 class
-mozilla
 :
 :
-SVGMaskFrame
+nsSVGMaskFrame
 ;
 protected
 :
