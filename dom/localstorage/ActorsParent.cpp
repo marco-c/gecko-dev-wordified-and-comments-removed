@@ -10603,7 +10603,11 @@ aUsageInfo
 )
 override
 ;
+Result
+<
+UsageInfo
 nsresult
+>
 GetUsageForOrigin
 (
 PersistenceType
@@ -10620,9 +10624,6 @@ const
 AtomicBool
 &
 aCanceled
-UsageInfo
-*
-aUsageInfo
 )
 override
 ;
@@ -37672,7 +37673,11 @@ return
 NS_OK
 ;
 }
+Result
+<
+UsageInfo
 nsresult
+>
 QuotaClient
 :
 :
@@ -37692,9 +37697,6 @@ const
 AtomicBool
 &
 aCanceled
-UsageInfo
-*
-aUsageInfo
 )
 {
 AssertIsOnIOThread
@@ -37707,11 +37709,6 @@ aPersistenceType
 =
 =
 PERSISTENCE_TYPE_DEFAULT
-)
-;
-MOZ_ASSERT
-(
-aUsageInfo
 )
 ;
 QuotaManager
@@ -37729,6 +37726,9 @@ MOZ_ASSERT
 (
 quotaManager
 )
+;
+UsageInfo
+res
 ;
 uint64_t
 usage
@@ -37751,9 +37751,8 @@ usage
 )
 )
 {
-aUsageInfo
--
->
+res
+.
 IncrementDatabaseUsage
 (
 Some
@@ -37764,7 +37763,7 @@ usage
 ;
 }
 return
-NS_OK
+res
 ;
 }
 nsresult
