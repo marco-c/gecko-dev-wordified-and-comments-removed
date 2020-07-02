@@ -210,6 +210,11 @@ esr68
 esr
 /
 stable
+esr78
+:
+esr
+/
+candidate
 default
 :
 mock

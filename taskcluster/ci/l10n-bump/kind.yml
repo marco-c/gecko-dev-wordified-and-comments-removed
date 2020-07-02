@@ -207,9 +207,7 @@ release
 -
 type
 :
-esr
-.
-*
+esr68
 :
 name
 :

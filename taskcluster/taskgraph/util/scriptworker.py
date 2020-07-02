@@ -433,6 +433,12 @@ esr68
 '
         
 '
+mozilla
+-
+esr78
+'
+        
+'
 comm
 -
 beta
@@ -651,6 +657,12 @@ release
 mozilla
 -
 esr68
+'
+        
+'
+mozilla
+-
+esr78
 '
         
 '
@@ -949,6 +961,24 @@ set
 mozilla
 -
 esr68
+'
+    
+]
+)
+]
+[
+    
+'
+esr78
+'
+set
+(
+[
+        
+'
+mozilla
+-
+esr78
 '
     
 ]

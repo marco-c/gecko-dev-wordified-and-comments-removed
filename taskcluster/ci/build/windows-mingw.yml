@@ -231,6 +231,11 @@ mozilla
 -
 esr68
 '
+'
+mozilla
+-
+esr78
+'
 ]
 fetches
 :
@@ -397,6 +402,11 @@ mozilla
 -
 esr68
 '
+'
+mozilla
+-
+esr78
+'
 ]
 fetches
 :
@@ -560,6 +570,11 @@ central
 mozilla
 -
 esr68
+'
+'
+mozilla
+-
+esr78
 '
 ]
 fetches
@@ -726,6 +741,11 @@ central
 mozilla
 -
 esr68
+'
+'
+mozilla
+-
+esr78
 '
 ]
 fetches

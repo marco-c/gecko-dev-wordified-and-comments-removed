@@ -288,10 +288,9 @@ mozilla
 esr68
 :
 FIREFOX_ESR
-#
 mozilla
 -
-esrXX
+esr78
 :
 FIREFOX_ESR_NEXT
 default

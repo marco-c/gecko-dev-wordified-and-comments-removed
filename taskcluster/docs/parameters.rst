@@ -1101,6 +1101,9 @@ beta
 esr68
 "
 "
+esr78
+"
+"
 release
 -
 rc
