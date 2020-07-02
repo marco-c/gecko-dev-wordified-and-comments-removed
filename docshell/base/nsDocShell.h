@@ -3568,11 +3568,6 @@ mAllowWindowControl
 1
 ;
 bool
-mUseErrorPages
-:
-1
-;
-bool
 mCSSErrorReportingEnabled
 :
 1
