@@ -9571,6 +9571,16 @@ prop_return
 0
 ]
 ;
+if
+(
+!
+wmWindow
+)
+{
+return
+false
+;
+}
 XFree
 (
 prop_return
