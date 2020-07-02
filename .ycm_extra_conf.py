@@ -235,6 +235,15 @@ filename
     
 return
 {
+      
+'
+project_directory
+'
+:
+'
+.
+'
+    
 }
 def
 FlagsForFile
