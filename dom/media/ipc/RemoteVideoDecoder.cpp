@@ -1338,9 +1338,9 @@ TextureFactoryIdentifier
 >
 &
 aIdentifier
-nsISerialEventTarget
+TaskQueue
 *
-aManagerThread
+aManagerTaskQueue
 TaskQueue
 *
 aDecodeTaskQueue
@@ -1355,7 +1355,7 @@ aErrorDescription
 RemoteDecoderParent
 (
 aParent
-aManagerThread
+aManagerTaskQueue
 aDecodeTaskQueue
 )
 mVideoInfo

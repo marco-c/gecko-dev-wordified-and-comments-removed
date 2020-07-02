@@ -213,9 +213,9 @@ TextureFactoryIdentifier
 >
 &
 aIdentifier
-nsISerialEventTarget
+TaskQueue
 *
-aManagerThread
+aManagerTaskQueue
 TaskQueue
 *
 aDecodeTaskQueue

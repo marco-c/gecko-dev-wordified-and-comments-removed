@@ -98,9 +98,9 @@ CreateDecoderParams
 OptionSet
 &
 aOptions
-nsISerialEventTarget
+TaskQueue
 *
-aManagerThread
+aManagerTaskQueue
 TaskQueue
 *
 aDecodeTaskQueue

@@ -241,7 +241,7 @@ this
 )
 mThread
 (
-GetCurrentSerialEventTarget
+NS_GetCurrentThread
 (
 )
 )

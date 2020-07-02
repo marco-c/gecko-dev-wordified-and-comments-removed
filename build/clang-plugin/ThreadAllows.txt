@@ -25,6 +25,7 @@ I
 O
 Cameras
 IPC
+Canvas
 ChainedPipePump
 ChainedPipeRecv
 Checker
@@ -63,6 +64,7 @@ Launch
 IPDL
 Background
 IdentityCrypto
+ImageBridgeChld
 LS
 Thread
 LayerScope
@@ -89,6 +91,7 @@ RemoteLzyStream
 RWLockTester
 RacingServMan
 RemVidChild
+RemVidParent
 Sandbox
 Testing
 SaveScripts

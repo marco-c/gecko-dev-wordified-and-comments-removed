@@ -377,12 +377,12 @@ NS_ASSERTION
 mChan
 -
 >
-mWorkerThread
+mWorkerLoop
 "
 need
 a
 worker
-thread
+loop
 "
 )
 ;
