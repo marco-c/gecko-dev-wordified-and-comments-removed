@@ -446,6 +446,11 @@ UNIFIED_SOURCES
 =
 [
 '
+DMABufLibWrapper
+.
+cpp
+'
+'
 DMABufSurface
 .
 cpp
@@ -479,6 +484,11 @@ widget
 +
 =
 [
+'
+DMABufLibWrapper
+.
+h
+'
 '
 DMABufSurface
 .
