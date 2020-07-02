@@ -1472,6 +1472,15 @@ menu
 >
 <
 menupopup
+id
+=
+"
+view
+-
+menu
+-
+popup
+"
 onpopupshowing
 =
 "
