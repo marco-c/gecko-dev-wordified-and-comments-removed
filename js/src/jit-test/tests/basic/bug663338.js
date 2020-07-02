@@ -149,9 +149,7 @@ assertEq
 (
 parseInt
 (
-Math
-.
-asin
+numberToDouble
 (
 0
 )
@@ -164,9 +162,7 @@ assertEq
 (
 parseInt
 (
-Math
-.
-asin
+numberToDouble
 (
 -
 0

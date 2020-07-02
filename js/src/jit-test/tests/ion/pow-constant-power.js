@@ -169,15 +169,9 @@ v
 )
 {
 return
-Math
-.
-cbrt
+numberToDouble
 (
 {
-v
-*
-v
-*
 v
 }
 )

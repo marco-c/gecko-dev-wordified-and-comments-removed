@@ -117,12 +117,9 @@ length
 var
 y
 =
-Math
-.
-hypot
+numberToDouble
 (
 1
-0
 )
 ;
 var

@@ -29,9 +29,7 @@ undefined
 const
 k
 =
-Math
-.
-cbrt
+numberToDouble
 (
 0
 )
