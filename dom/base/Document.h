@@ -4219,11 +4219,6 @@ return
 mPreloadService
 ;
 }
-bool
-HasThirdPartyChannel
-(
-)
-;
 protected
 :
 friend

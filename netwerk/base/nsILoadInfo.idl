@@ -886,6 +886,7 @@ parserCreatedScript
 [
 infallible
 ]
+readonly
 attribute
 boolean
 isInThirdPartyContext
