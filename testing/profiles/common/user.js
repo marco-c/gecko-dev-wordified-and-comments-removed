@@ -742,15 +742,6 @@ network
 url
 "
 "
-http
-:
-/
-/
-localhost
-/
-geoip
--
-dummy
 "
 )
 ;
