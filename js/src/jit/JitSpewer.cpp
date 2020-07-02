@@ -777,10 +777,9 @@ len
 ;
 len
 =
-snprintf
+SprintfLiteral
 (
 jsonBuffer
-bufferLength
 JIT_SPEW_DIR
 "
 /
