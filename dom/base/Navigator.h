@@ -1352,6 +1352,11 @@ Promise
 >
 mSharePromise
 ;
+bool
+mGamepadSecureContextWarningShown
+=
+false
+;
 }
 ;
 }
