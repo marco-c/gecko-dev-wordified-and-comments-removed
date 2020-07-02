@@ -2241,9 +2241,6 @@ PreviousGC
 previousGC
 ;
 double
-smoothedGrowthFactor
-;
-double
 calcPromotionRate
 (
 bool
