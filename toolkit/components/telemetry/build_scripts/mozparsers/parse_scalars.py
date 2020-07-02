@@ -1567,7 +1567,7 @@ length
 .
 format
 (
-MAX_LENGTH_COUNT
+MAX_KEY_LENGTH
 )
 +
                             
