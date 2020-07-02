@@ -834,16 +834,6 @@ is
 synthetic
 *
 param
-aInnerWindowID
-the
-inner
-window
-ID
-of
-the
-document
-*
-param
 aHasRequestContextID
 whether
 or
@@ -921,9 +911,6 @@ aReferrerInfo
 in
 boolean
 aIsSynthetic
-in
-uint64_t
-aInnerWindowID
 in
 boolean
 aHasRequestContextID
