@@ -538,6 +538,11 @@ AudioStream
 h
 '
 '
+AudioThreadRegistry
+.
+h
+'
+'
 AutoplayPolicy
 .
 h
