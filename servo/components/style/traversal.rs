@@ -2550,6 +2550,10 @@ target
 traversal_data
 .
 current_dom_depth
+&
+context
+.
+shared
 )
 ;
 new_styles
@@ -2690,6 +2694,10 @@ None
 traversal_data
 .
 current_dom_depth
+&
+context
+.
+shared
 )
 ;
 }
