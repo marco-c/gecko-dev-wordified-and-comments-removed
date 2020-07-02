@@ -6814,6 +6814,7 @@ LoopHead
 {
 if
 (
+!
 handler
 .
 analysis
@@ -6825,7 +6826,7 @@ info
 pc
 )
 .
-loopHeadInCatchOrFinally
+loopHeadCanOsr
 )
 {
 return

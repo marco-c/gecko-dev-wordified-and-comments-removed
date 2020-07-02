@@ -61,7 +61,7 @@ jumpTarget
 1
 ;
 bool
-loopHeadInCatchOrFinally
+loopHeadCanOsr
 :
 1
 ;
