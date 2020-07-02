@@ -2,16 +2,9 @@ var
 ecmaGlobals
 =
 [
-{
-name
-:
 "
 AggregateError
 "
-nightly
-:
-true
-}
 "
 Array
 "

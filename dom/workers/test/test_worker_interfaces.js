@@ -11,9 +11,6 @@ AggregateError
 insecureContext
 :
 true
-nightly
-:
-true
 }
 {
 name
