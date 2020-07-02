@@ -16,6 +16,10 @@ pub
 struct
 CounterMetric
 (
+pub
+(
+crate
+)
 glean_core
 :
 :
