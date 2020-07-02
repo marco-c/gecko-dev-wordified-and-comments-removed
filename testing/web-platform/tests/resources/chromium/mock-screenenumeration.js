@@ -118,10 +118,9 @@ success_
 false
 ;
 }
-setIds
+setInternalId
 (
 internalId
-primaryId
 )
 {
 this
@@ -130,6 +129,12 @@ internalId_
 =
 internalId
 ;
+}
+setPrimaryId
+(
+primaryId
+)
+{
 this
 .
 primaryId_
