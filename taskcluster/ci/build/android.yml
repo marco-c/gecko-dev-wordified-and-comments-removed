@@ -1031,6 +1031,11 @@ releng
 .
 manifest
 "
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
+"
 run
 :
 actions
@@ -1789,6 +1794,11 @@ x86
 releng
 .
 manifest
+"
+MOZ_AUTOMATION_PACKAGE_TESTS
+:
+"
+1
 "
 run
 :
