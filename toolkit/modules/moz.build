@@ -1784,6 +1784,11 @@ nsIE10SUtils
 .
 idl
 '
+'
+nsIRegion
+.
+idl
+'
 ]
 XPIDL_MODULE
 =
