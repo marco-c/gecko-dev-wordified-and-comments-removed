@@ -45,7 +45,7 @@ enum
 class
 MediaFeatureChangeReason
 :
-uint8_t
+uint16_t
 {
 ViewportChange
 =
@@ -95,6 +95,12 @@ DisplayModeChange
 <
 <
 7
+PreferenceChange
+=
+1
+<
+<
+8
 }
 ;
 MOZ_MAKE_ENUM_CLASS_BITWISE_OPERATORS

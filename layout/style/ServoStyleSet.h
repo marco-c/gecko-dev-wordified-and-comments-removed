@@ -146,7 +146,7 @@ enum
 class
 MediaFeatureChangeReason
 :
-uint8_t
+uint16_t
 ;
 namespace
 css
