@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+Maybe
+.
+h
+"
+#
+include
+"
+mozilla
+/
 WidgetUtils
 .
 h
