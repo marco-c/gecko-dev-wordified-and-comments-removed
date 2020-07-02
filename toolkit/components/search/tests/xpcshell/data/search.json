@@ -53,7 +53,7 @@ testAlias
 "
 }
 "
-_isBuiltin
+_isAppProvided
 "
 :
 true
@@ -83,7 +83,7 @@ hidden
 true
 }
 "
-_isBuiltin
+_isAppProvided
 "
 :
 true

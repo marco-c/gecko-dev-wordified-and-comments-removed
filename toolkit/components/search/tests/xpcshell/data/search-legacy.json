@@ -215,7 +215,7 @@ searchTerms
 }
 ]
 "
-_isBuiltin
+_isAppProvided
 "
 :
 true
@@ -428,7 +428,7 @@ searchTerms
 }
 ]
 "
-_isBuiltin
+_isAppProvided
 "
 :
 true

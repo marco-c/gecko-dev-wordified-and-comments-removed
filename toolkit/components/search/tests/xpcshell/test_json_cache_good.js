@@ -204,7 +204,7 @@ alias
 :
 null
 }
-_isBuiltin
+_isAppProvided
 :
 true
 _name
@@ -221,7 +221,7 @@ alias
 :
 null
 }
-_isBuiltin
+_isAppProvided
 :
 true
 _name

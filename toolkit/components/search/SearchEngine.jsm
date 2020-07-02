@@ -3207,7 +3207,7 @@ if
 !
 (
 "
-isBuiltin
+isAppProvided
 "
 in
 options
@@ -3219,7 +3219,7 @@ new
 Error
 (
 "
-isBuiltin
+isAppProvided
 missing
 from
 options
@@ -3230,11 +3230,11 @@ options
 }
 this
 .
-_isBuiltin
+_isAppProvided
 =
 options
 .
-isBuiltin
+isAppProvided
 ;
 this
 .
@@ -3540,7 +3540,7 @@ if
 (
 this
 .
-_isBuiltin
+_isAppProvided
 |
 |
 (
@@ -3742,7 +3742,7 @@ null
 _locale
 :
 null
-_isBuiltin
+_isAppProvided
 :
 false
 _orderHint
@@ -7552,11 +7552,11 @@ _urls
 this
 .
 _urls
-_isBuiltin
+_isAppProvided
 :
 this
 .
-_isBuiltin
+_isAppProvided
 _orderHint
 :
 this
@@ -8592,7 +8592,7 @@ _extensionID
 &
 this
 .
-_isBuiltin
+_isAppProvided
 )
 ;
 }
@@ -8606,7 +8606,7 @@ _extensionID
 return
 this
 .
-_isBuiltin
+_isAppProvided
 |
 |
 this
