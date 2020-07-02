@@ -168,7 +168,7 @@ Exposed
 Window
 ]
 interface
-EnterPictureInPictureEvent
+PictureInPictureEvent
 :
 Event
 {
@@ -176,7 +176,7 @@ constructor
 (
 DOMString
 type
-EnterPictureInPictureEventInit
+PictureInPictureEventInit
 eventInitDict
 )
 ;
@@ -191,7 +191,7 @@ pictureInPictureWindow
 }
 ;
 dictionary
-EnterPictureInPictureEventInit
+PictureInPictureEventInit
 :
 EventInit
 {
