@@ -90,6 +90,9 @@ TextureClient
 h
 "
 #
+ifdef
+MOZ_WIDGET_ANDROID
+#
 include
 "
 AndroidSurfaceTexture
@@ -103,9 +106,6 @@ AndroidNativeWindow
 .
 h
 "
-#
-ifdef
-MOZ_WIDGET_ANDROID
 #
 include
 "

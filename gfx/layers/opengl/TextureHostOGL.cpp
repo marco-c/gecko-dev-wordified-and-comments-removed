@@ -116,13 +116,6 @@ h
 #
 include
 "
-AndroidSurfaceTexture
-.
-h
-"
-#
-include
-"
 GfxTexturesReporter
 .
 h

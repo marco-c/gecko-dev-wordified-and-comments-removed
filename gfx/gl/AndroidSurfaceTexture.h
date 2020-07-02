@@ -5,9 +5,6 @@ AndroidSurfaceTexture_h__
 define
 AndroidSurfaceTexture_h__
 #
-ifdef
-MOZ_WIDGET_ANDROID
-#
 include
 "
 mozilla
@@ -76,7 +73,5 @@ outMatrix
 ;
 }
 }
-#
-endif
 #
 endif
