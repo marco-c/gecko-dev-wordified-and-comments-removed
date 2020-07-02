@@ -349,7 +349,7 @@ tab
 )
 ;
 let
-handleCSSMessage
+handleErrorMessage
 =
 function
 (
@@ -358,7 +358,7 @@ function
 }
 ;
 const
-onCSSMessageAvailable
+onErrorMessageAvailable
 =
 (
 {
@@ -368,7 +368,7 @@ resource
 =
 >
 {
-handleCSSMessage
+handleErrorMessage
 (
 resource
 )
@@ -385,12 +385,12 @@ resourceWatcher
 .
 TYPES
 .
-CSS_MESSAGE
+ERROR_MESSAGE
 ]
 {
 onAvailable
 :
-onCSSMessageAvailable
+onErrorMessageAvailable
 }
 )
 ;
@@ -414,7 +414,7 @@ resolve
 =
 >
 {
-handleCSSMessage
+handleErrorMessage
 =
 function
 (
@@ -530,12 +530,12 @@ resourceWatcher
 .
 TYPES
 .
-CSS_MESSAGE
+ERROR_MESSAGE
 ]
 {
 onAvailable
 :
-onCSSMessageAvailable
+onErrorMessageAvailable
 }
 )
 ;
