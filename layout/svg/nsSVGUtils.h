@@ -1621,11 +1621,10 @@ return
 aFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_IS_SVG_TEXT
+)
 ;
 }
 static
