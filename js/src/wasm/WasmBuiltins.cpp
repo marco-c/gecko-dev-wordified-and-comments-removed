@@ -1519,9 +1519,10 @@ instance
 fp
 -
 >
+tls
+-
+>
 instance
-(
-)
 ;
 const
 Code
@@ -1559,8 +1560,6 @@ fp
 -
 >
 returnAddress
-(
-)
 )
 ;
 MOZ_ASSERT
@@ -1573,9 +1572,7 @@ fp
 fp
 -
 >
-wasmCaller
-(
-)
+callerFP
 ;
 DebugFrame
 *
@@ -2482,8 +2479,6 @@ wasmExitFP
 -
 >
 tls
-(
-)
 -
 >
 isInterrupted
