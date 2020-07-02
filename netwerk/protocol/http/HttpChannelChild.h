@@ -1715,7 +1715,7 @@ mRecvOnStartRequestSentCalled
 1
 ;
 uint8_t
-mSuspendedByWaitingForPermissionAndCookie
+mSuspendedByWaitingForPermissionCookieStreamFilter
 :
 1
 ;
