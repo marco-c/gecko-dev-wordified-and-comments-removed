@@ -9156,12 +9156,6 @@ case
 BailoutKind
 :
 :
-StringArgumentsEval
-:
-case
-BailoutKind
-:
-:
 Overflow
 :
 case
@@ -9205,12 +9199,6 @@ BailoutKind
 :
 :
 NullOrUndefinedGuard
-:
-case
-BailoutKind
-:
-:
-MonitorTypes
 :
 case
 BailoutKind
