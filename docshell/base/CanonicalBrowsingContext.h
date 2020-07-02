@@ -599,8 +599,6 @@ uint64_t
 aPendingSwitchId
 bool
 aReplaceBrowsingContext
-uint64_t
-aSpecificGroupId
 )
 ;
 MediaController
@@ -738,8 +736,6 @@ uint64_t
 aPendingSwitchId
 bool
 aReplaceBrowsingContext
-uint64_t
-aSpecificGroupId
 )
 ;
 void
@@ -804,9 +800,6 @@ mContentParent
 ;
 uint64_t
 mPendingSwitchId
-;
-uint64_t
-mSpecificGroupId
 ;
 bool
 mReplaceBrowsingContext
