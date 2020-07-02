@@ -3452,6 +3452,17 @@ RemotePageManager
 "
 ]
 "
+RemoteWebProgress
+.
+jsm
+"
+:
+[
+"
+RemoteWebProgressManager
+"
+]
+"
 resource
 .
 js

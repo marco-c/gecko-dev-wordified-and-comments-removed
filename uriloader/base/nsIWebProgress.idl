@@ -775,6 +775,16 @@ attribute
 mozIDOMWindowProxy
 DOMWindow
 ;
+readonly
+attribute
+uint64_t
+DOMWindowID
+;
+readonly
+attribute
+uint64_t
+innerDOMWindowID
+;
 /
 *
 *
