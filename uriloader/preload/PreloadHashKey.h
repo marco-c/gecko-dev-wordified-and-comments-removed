@@ -56,9 +56,6 @@ h
 class
 nsIPrincipal
 ;
-class
-nsIReferrerInfo
-;
 namespace
 mozilla
 {
@@ -207,9 +204,11 @@ aURI
 nsIPrincipal
 *
 aPrincipal
-nsIReferrerInfo
-*
-aReferrerInfo
+dom
+:
+:
+ReferrerPolicy
+aReferrerPolicy
 CORSMode
 aCORSMode
 css
@@ -448,12 +447,6 @@ mScript
 ;
 struct
 {
-nsCOMPtr
-<
-nsIReferrerInfo
->
-mReferrerInfo
-;
 css
 :
 :
