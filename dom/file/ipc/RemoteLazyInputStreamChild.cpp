@@ -48,9 +48,10 @@ h
 namespace
 mozilla
 {
+using
 namespace
 dom
-{
+;
 namespace
 {
 class
@@ -1777,7 +1778,6 @@ SendLengthNeeded
 (
 )
 ;
-}
 }
 }
 }

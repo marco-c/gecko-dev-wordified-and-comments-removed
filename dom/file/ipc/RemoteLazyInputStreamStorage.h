@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_RemoteLazyInputStreamStorage_h
+mozilla_RemoteLazyInputStreamStorage_h
 #
 define
-mozilla_dom_RemoteLazyInputStreamStorage_h
+mozilla_RemoteLazyInputStreamStorage_h
 #
 include
 "
@@ -35,9 +35,6 @@ nsID
 ;
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 RemoteLazyInputStreamParentCallback
@@ -191,7 +188,6 @@ mStorage
 ;
 }
 ;
-}
 }
 #
 endif

@@ -87,13 +87,6 @@ h
 namespace
 mozilla
 {
-using
-namespace
-ipc
-;
-namespace
-dom
-{
 namespace
 {
 template
@@ -461,6 +454,5 @@ TakeValue
 return
 NS_OK
 ;
-}
 }
 }

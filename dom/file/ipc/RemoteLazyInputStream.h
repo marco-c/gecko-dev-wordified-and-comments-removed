@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_RemoteLazyInputStream_h
+mozilla_RemoteLazyInputStream_h
 #
 define
-mozilla_dom_RemoteLazyInputStream_h
+mozilla_RemoteLazyInputStream_h
 #
 include
 "
@@ -64,9 +64,6 @@ h
 "
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 RemoteLazyInputStreamChild
@@ -291,7 +288,6 @@ mMutex
 ;
 }
 ;
-}
 }
 #
 endif
