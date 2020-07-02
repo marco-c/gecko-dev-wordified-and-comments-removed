@@ -1,12 +1,15 @@
 #
 ifndef
-mozilla_dom_RemoteLazyInputStreamUtils_h
+mozilla_RemoteLazyInputStreamUtils_h
 #
 define
-mozilla_dom_RemoteLazyInputStreamUtils_h
+mozilla_RemoteLazyInputStreamUtils_h
 namespace
 mozilla
 {
+class
+RemoteLazyStream
+;
 namespace
 ipc
 {
@@ -29,6 +32,7 @@ ContentChild
 class
 ContentParent
 ;
+}
 class
 RemoteLazyInputStreamUtils
 final
@@ -47,6 +51,9 @@ aSize
 RemoteLazyStream
 &
 aOutStream
+dom
+:
+:
 ContentParent
 *
 aManager
@@ -87,6 +94,9 @@ aSize
 RemoteLazyStream
 &
 aOutStream
+dom
+:
+:
 ContentChild
 *
 aManager
@@ -117,7 +127,6 @@ aManager
 ;
 }
 ;
-}
 }
 #
 endif

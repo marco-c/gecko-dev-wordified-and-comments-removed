@@ -1,15 +1,13 @@
 #
 ifndef
-mozilla_dom_RemoteLazyInputStreamThread_h
+mozilla_RemoteLazyInputStreamThread_h
 #
 define
-mozilla_dom_RemoteLazyInputStreamThread_h
+mozilla_RemoteLazyInputStreamThread_h
 #
 include
 "
 mozilla
-/
-dom
 /
 RemoteLazyInputStreamChild
 .
@@ -41,9 +39,6 @@ nsIThread
 ;
 namespace
 mozilla
-{
-namespace
-dom
 {
 class
 RemoteLazyInputStreamChild
@@ -147,7 +142,6 @@ AssertIsOnDOMFileThread
 (
 )
 ;
-}
 }
 #
 endif

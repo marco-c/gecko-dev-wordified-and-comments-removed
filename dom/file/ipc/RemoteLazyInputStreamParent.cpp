@@ -42,9 +42,6 @@ h
 namespace
 mozilla
 {
-namespace
-dom
-{
 template
 <
 typename
@@ -1120,6 +1117,5 @@ HasStream
 mID
 )
 ;
-}
 }
 }

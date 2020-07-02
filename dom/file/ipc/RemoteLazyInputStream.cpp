@@ -119,14 +119,15 @@ namespace
 mozilla
 {
 using
+namespace
+dom
+;
+using
 net
 :
 :
 SocketProcessParent
 ;
-namespace
-dom
-{
 class
 RemoteLazyInputStream
 ;
@@ -3559,7 +3560,6 @@ this
 aLength
 )
 ;
-}
 }
 }
 }

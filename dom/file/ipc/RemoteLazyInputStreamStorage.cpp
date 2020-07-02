@@ -65,9 +65,6 @@ namespace
 hal
 ;
 namespace
-dom
-{
-namespace
 {
 StaticMutex
 gMutex
@@ -921,6 +918,5 @@ forget
 (
 )
 ;
-}
 }
 }

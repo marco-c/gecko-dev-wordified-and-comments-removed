@@ -86,9 +86,6 @@ IPCStream
 namespace
 mozilla
 {
-namespace
-dom
-{
 refcounted
 protocol
 PRemoteLazyInputStream
@@ -275,11 +272,6 @@ __delete__
 ;
 }
 ;
-}
-/
-/
-namespace
-dom
 }
 /
 /
