@@ -7615,6 +7615,10 @@ false
 clear_caches_with_quads
 :
 !
+software
+&
+&
+!
 allow_scissored_cache_clears
 start_debug_server
 surface_origin_is_top_left

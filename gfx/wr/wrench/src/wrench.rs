@@ -1442,6 +1442,14 @@ allow_advanced_blend_equation
 :
 true
 dump_shader_source
+clear_caches_with_quads
+:
+!
+window
+.
+is_software
+(
+)
 .
 .
 Default
