@@ -2077,7 +2077,10 @@ crate
 animation
 :
 :
+{
+AnimationSetKey
 AnimationState
+}
 ;
 let
 needs_animations_update
@@ -2154,8 +2157,10 @@ new_values
 ;
 }
 let
-this_opaque
+key
 =
+AnimationSetKey
+(
 self
 .
 as_node
@@ -2164,6 +2169,7 @@ as_node
 .
 opaque
 (
+)
 )
 ;
 let
@@ -2179,7 +2185,9 @@ animation_set
 =
 shared_context
 .
-animation_states
+animations
+.
+sets
 .
 write
 (
@@ -2188,7 +2196,7 @@ write
 remove
 (
 &
-this_opaque
+key
 )
 .
 unwrap_or_default
@@ -2248,7 +2256,6 @@ update_transitions_for_new_style
 might_need_transitions_update
 &
 shared_context
-this_opaque
 old_values
 .
 as_ref
@@ -2309,7 +2316,9 @@ false
 ;
 shared_context
 .
-animation_states
+animations
+.
+sets
 .
 write
 (
@@ -2317,7 +2326,7 @@ write
 .
 insert
 (
-this_opaque
+key
 animation_set
 )
 ;
