@@ -3116,6 +3116,10 @@ getcwd
 (
 )
         
+path
+=
+None
+        
 if
 channel
 =
@@ -3137,14 +3141,7 @@ dest
 if
 path
 is
-not
 None
-:
-                
-return
-path
-            
-else
 :
                 
 self
@@ -3166,6 +3163,12 @@ release
 "
 )
         
+if
+path
+is
+None
+:
+            
 version
 =
 self
@@ -3173,7 +3176,7 @@ self
 _latest_geckodriver_version
 (
 )
-        
+            
 format
 =
 "
@@ -3195,7 +3198,7 @@ tar
 .
 gz
 "
-        
+            
 self
 .
 logger
@@ -3212,7 +3215,7 @@ s
 %
 version
 )
-        
+            
 url
 =
 (
@@ -3248,7 +3251,7 @@ s
 s
 "
 %
-               
+                   
 (
 version
 version
@@ -3260,7 +3263,7 @@ platform_string_geckodriver
 format
 )
 )
-        
+            
 if
 format
 =
@@ -3269,7 +3272,7 @@ format
 zip
 "
 :
-            
+                
 unzip
 (
 get
@@ -3282,10 +3285,10 @@ dest
 =
 dest
 )
-        
+            
 else
 :
-            
+                
 untar
 (
 get
@@ -3298,8 +3301,9 @@ dest
 =
 dest
 )
-        
-return
+            
+path
+=
 find_executable
 (
 os
@@ -3314,6 +3318,50 @@ geckodriver
 "
 )
 )
+        
+assert
+path
+is
+not
+None
+        
+self
+.
+logger
+.
+info
+(
+"
+Installed
+%
+s
+"
+%
+                         
+subprocess
+.
+check_output
+(
+[
+path
+"
+-
+-
+version
+"
+]
+)
+.
+splitlines
+(
+)
+[
+0
+]
+)
+        
+return
+path
     
 def
 install_geckodriver_nightly
@@ -3420,6 +3468,8 @@ archive_name
 =
 "
 public
+/
+build
 /
 geckodriver
 %
