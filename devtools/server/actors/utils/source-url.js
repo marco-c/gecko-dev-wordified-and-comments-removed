@@ -23,6 +23,15 @@ introType
 =
 =
 "
+injectedScript
+"
+|
+|
+introType
+=
+=
+=
+"
 eval
 "
 |
