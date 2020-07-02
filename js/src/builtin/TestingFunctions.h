@@ -16,6 +16,12 @@ js
 {
 MOZ_MUST_USE
 bool
+InitTestingFunctions
+(
+)
+;
+MOZ_MUST_USE
+bool
 DefineTestingFunctions
 (
 JSContext
