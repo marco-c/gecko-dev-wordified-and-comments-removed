@@ -39,12 +39,14 @@ h
 #
 define
 NOTIFICATION_CLICK_EVENT_NAME
+u
 "
 notificationclick
 "
 #
 define
 NOTIFICATION_CLOSE_EVENT_NAME
+u
 "
 notificationclose
 "

@@ -85,11 +85,11 @@ _expected
 \
 TestFPD
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 _spec
 )
-NS_LITERAL_STRING
+nsLiteralString
 (
 _expected
 )
@@ -285,6 +285,7 @@ false
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -296,6 +297,7 @@ example
 .
 com
 "
+u
 "
 example
 .
@@ -305,6 +307,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -318,6 +321,7 @@ com
 :
 80
 "
+u
 "
 example
 .
@@ -327,6 +331,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -340,6 +345,7 @@ com
 :
 8080
 "
+u
 "
 example
 .
@@ -349,6 +355,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -360,6 +367,7 @@ amazonaws
 .
 com
 "
+u
 "
 s3
 .
@@ -371,6 +379,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -378,6 +387,7 @@ http
 /
 com
 "
+u
 "
 com
 "
@@ -385,6 +395,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -393,6 +404,7 @@ http
 com
 .
 "
+u
 "
 com
 .
@@ -401,6 +413,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -410,6 +423,7 @@ com
 :
 8080
 "
+u
 "
 com
 "
@@ -417,6 +431,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -425,12 +440,14 @@ http
 .
 com
 "
+u
 "
 "
 )
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -440,12 +457,14 @@ http
 .
 com
 "
+u
 "
 "
 )
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -459,6 +478,7 @@ http
 .
 1
 "
+u
 "
 127
 .
@@ -472,6 +492,7 @@ http
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -483,6 +504,7 @@ http
 1
 ]
 "
+u
 "
 [
 :
@@ -494,11 +516,13 @@ http
 ;
 TEST_FPD
 (
+u
 "
 about
 :
 config
 "
+u
 "
 about
 .
@@ -518,6 +542,7 @@ mozilla
 ;
 TEST_FPD
 (
+u
 "
 moz
 -
@@ -535,6 +560,7 @@ f5b6ca10
 -
 820dc5152bc1
 "
+u
 "
 "
 )
@@ -606,6 +632,7 @@ true
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -617,6 +644,7 @@ example
 .
 com
 "
+u
 "
 (
 http
@@ -629,6 +657,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -642,6 +671,7 @@ com
 :
 80
 "
+u
 "
 (
 http
@@ -654,6 +684,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -667,6 +698,7 @@ com
 :
 8080
 "
+u
 "
 (
 http
@@ -679,6 +711,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -690,6 +723,7 @@ amazonaws
 .
 com
 "
+u
 "
 (
 http
@@ -704,6 +738,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -711,6 +746,7 @@ http
 /
 com
 "
+u
 "
 (
 http
@@ -721,6 +757,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -729,6 +766,7 @@ http
 com
 .
 "
+u
 "
 (
 http
@@ -740,6 +778,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -749,6 +788,7 @@ com
 :
 8080
 "
+u
 "
 (
 http
@@ -760,6 +800,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -768,6 +809,7 @@ http
 .
 com
 "
+u
 "
 (
 http
@@ -779,6 +821,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -788,6 +831,7 @@ http
 .
 com
 "
+u
 "
 (
 http
@@ -800,6 +844,7 @@ com
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -813,6 +858,7 @@ http
 .
 1
 "
+u
 "
 (
 http
@@ -829,6 +875,7 @@ http
 ;
 TEST_FPD
 (
+u
 "
 http
 :
@@ -840,6 +887,7 @@ http
 1
 ]
 "
+u
 "
 (
 http
@@ -854,11 +902,13 @@ http
 ;
 TEST_FPD
 (
+u
 "
 about
 :
 config
 "
+u
 "
 (
 about
@@ -881,6 +931,7 @@ mozilla
 ;
 TEST_FPD
 (
+u
 "
 moz
 -
@@ -898,6 +949,7 @@ f5b6ca10
 -
 820dc5152bc1
 "
+u
 "
 "
 )

@@ -6446,7 +6446,7 @@ aBehavior
 return
 SendNotificationEvent
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 NOTIFICATION_CLICK_EVENT_NAME
 )
@@ -6519,7 +6519,7 @@ aBehavior
 return
 SendNotificationEvent
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 NOTIFICATION_CLOSE_EVENT_NAME
 )

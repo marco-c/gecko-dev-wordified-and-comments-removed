@@ -114,7 +114,7 @@ ProtocolFuzzerHelper
 :
 CreateContentParent
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 DEFAULT_REMOTE_TYPE
 )

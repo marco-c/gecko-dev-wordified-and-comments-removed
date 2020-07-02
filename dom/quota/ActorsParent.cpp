@@ -1074,36 +1074,42 @@ sqlite
 #
 define
 INDEXEDDB_DIRECTORY_NAME
+u
 "
 indexedDB
 "
 #
 define
 PERSISTENT_DIRECTORY_NAME
+u
 "
 persistent
 "
 #
 define
 PERMANENT_DIRECTORY_NAME
+u
 "
 permanent
 "
 #
 define
 TEMPORARY_DIRECTORY_NAME
+u
 "
 temporary
 "
 #
 define
 DEFAULT_DIRECTORY_NAME
+u
 "
 default
 "
 #
 define
 METADATA_FILE_NAME
+u
 "
 .
 metadata
@@ -1111,6 +1117,7 @@ metadata
 #
 define
 METADATA_TMP_FILE_NAME
+u
 "
 .
 metadata
@@ -1120,6 +1127,7 @@ tmp
 #
 define
 METADATA_V2_FILE_NAME
+u
 "
 .
 metadata
@@ -1129,6 +1137,7 @@ v2
 #
 define
 METADATA_V2_TMP_FILE_NAME
+u
 "
 .
 metadata
@@ -1140,6 +1149,7 @@ tmp
 #
 define
 WEB_APPS_STORE_FILE_NAME
+u
 "
 webappsstore
 .
@@ -1148,6 +1158,7 @@ sqlite
 #
 define
 LS_ARCHIVE_FILE_NAME
+u
 "
 ls
 -
@@ -1158,6 +1169,7 @@ sqlite
 #
 define
 LS_ARCHIVE_TMP_FILE_NAME
+u
 "
 ls
 -
@@ -2362,7 +2374,7 @@ lsArchiveFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 LS_ARCHIVE_FILE_NAME
 )
@@ -2474,7 +2486,7 @@ lsArchiveTmpFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 LS_ARCHIVE_TMP_FILE_NAME
 )
@@ -9989,7 +10001,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_TMP_FILE_NAME
 )
@@ -10212,7 +10224,7 @@ file
 RenameTo
 (
 nullptr
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_FILE_NAME
 )
@@ -10312,7 +10324,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_TMP_FILE_NAME
 )
@@ -10648,7 +10660,7 @@ file
 RenameTo
 (
 nullptr
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -17021,7 +17033,7 @@ rv
 CloneStoragePath
 (
 baseDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 INDEXEDDB_DIRECTORY_NAME
 )
@@ -17098,7 +17110,7 @@ rv
 CloneStoragePath
 (
 baseDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 PERMANENT_DIRECTORY_NAME
 )
@@ -17125,7 +17137,7 @@ rv
 CloneStoragePath
 (
 baseDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 TEMPORARY_DIRECTORY_NAME
 )
@@ -17152,7 +17164,7 @@ rv
 CloneStoragePath
 (
 baseDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 DEFAULT_DIRECTORY_NAME
 )
@@ -21488,7 +21500,7 @@ rv
 GetBinaryInputStream
 (
 aDirectory
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -22007,7 +22019,7 @@ rv
 GetBinaryInputStream
 (
 aDirectory
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -23377,7 +23389,7 @@ persistentStorageDir
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PERSISTENT_DIRECTORY_NAME
 )
@@ -23491,7 +23503,7 @@ aIndexedDBDir
 MoveTo
 (
 storageDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 PERSISTENT_DIRECTORY_NAME
 )
@@ -23899,7 +23911,7 @@ aPersistentStorageDir
 RenameTo
 (
 nullptr
-NS_LITERAL_STRING
+nsLiteralString
 (
 DEFAULT_DIRECTORY_NAME
 )
@@ -25223,7 +25235,7 @@ lsDir
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LS_DIRECTORY_NAME
 )
@@ -25580,7 +25592,7 @@ webAppsStoreFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 WEB_APPS_STORE_FILE_NAME
 )
@@ -25884,7 +25896,7 @@ webAppsStoreFile
 CopyTo
 (
 storageDir
-NS_LITERAL_STRING
+nsLiteralString
 (
 LS_ARCHIVE_TMP_FILE_NAME
 )
@@ -26025,7 +26037,7 @@ lsArchiveTmpFile
 MoveTo
 (
 nullptr
-NS_LITERAL_STRING
+nsLiteralString
 (
 LS_ARCHIVE_FILE_NAME
 )
@@ -27493,7 +27505,7 @@ persistentStorageDir
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PERSISTENT_DIRECTORY_NAME
 )
@@ -37313,7 +37325,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -44810,7 +44822,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -45931,7 +45943,7 @@ rv
 GetBinaryInputStream
 (
 aDirectory
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_FILE_NAME
 )
@@ -46146,7 +46158,7 @@ rv
 GetBinaryInputStream
 (
 aDirectory
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_V2_FILE_NAME
 )
@@ -49948,7 +49960,7 @@ metadataFile
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_FILE_NAME
 )
@@ -50968,7 +50980,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 METADATA_FILE_NAME
 )

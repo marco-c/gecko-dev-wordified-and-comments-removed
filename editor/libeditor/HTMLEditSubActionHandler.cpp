@@ -7515,9 +7515,12 @@ pos
 =
 0
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 newlineStr
+=
+NS_LITERAL_STRING_FROM_CSTRING
+(
 LFSTR
 )
 ;

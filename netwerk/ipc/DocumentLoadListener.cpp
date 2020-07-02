@@ -6728,7 +6728,7 @@ preferredRemoteType
 .
 Assign
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 LARGE_ALLOCATION_REMOTE_TYPE
 )
@@ -6754,7 +6754,7 @@ preferredRemoteType
 .
 Assign
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 DEFAULT_REMOTE_TYPE
 )
@@ -6790,12 +6790,9 @@ siteOrigin
 ;
 preferredRemoteType
 .
-Assign
-(
-NS_LITERAL_STRING
+AssignLiteral
 (
 WITH_COOP_COEP_REMOTE_TYPE_PREFIX
-)
 )
 ;
 preferredRemoteType
@@ -6819,7 +6816,7 @@ preferredRemoteType
 .
 Assign
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 DEFAULT_REMOTE_TYPE
 )

@@ -21,6 +21,7 @@ h
 #
 define
 kTXNameSpaceURI
+u
 "
 http
 :

@@ -4164,7 +4164,7 @@ txNamespaceManager
 :
 getNamespaceID
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 NS
 )
@@ -4232,6 +4232,7 @@ NS
 ;
 EXSLT_FUNCS
 (
+u
 "
 http
 :
@@ -4273,6 +4274,7 @@ objectType
 )
 EXSLT_FUNCS
 (
+u
 "
 http
 :
@@ -4305,6 +4307,7 @@ dateTime
 )
 EXSLT_FUNCS
 (
+u
 "
 http
 :
@@ -4372,6 +4375,7 @@ lowest
 )
 EXSLT_FUNCS
 (
+u
 "
 http
 :
@@ -4428,6 +4432,7 @@ test
 )
 EXSLT_FUNCS
 (
+u
 "
 http
 :
@@ -4521,6 +4526,7 @@ trailing
 )
 EXSLT_FUNCS
 (
+u
 "
 http
 :

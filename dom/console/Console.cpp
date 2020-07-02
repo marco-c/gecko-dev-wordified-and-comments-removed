@@ -4357,7 +4357,7 @@ Method
 #
 #
 name
-NS_LITERAL_STRING
+nsLiteralString
 (
 string
 )
@@ -4369,6 +4369,7 @@ aData
 METHOD
 (
 Log
+u
 "
 log
 "
@@ -4376,6 +4377,7 @@ log
 METHOD
 (
 Info
+u
 "
 info
 "
@@ -4383,6 +4385,7 @@ info
 METHOD
 (
 Warn
+u
 "
 warn
 "
@@ -4390,6 +4393,7 @@ warn
 METHOD
 (
 Error
+u
 "
 error
 "
@@ -4397,6 +4401,7 @@ error
 METHOD
 (
 Exception
+u
 "
 exception
 "
@@ -4404,6 +4409,7 @@ exception
 METHOD
 (
 Debug
+u
 "
 debug
 "
@@ -4411,6 +4417,7 @@ debug
 METHOD
 (
 Table
+u
 "
 table
 "
@@ -4418,6 +4425,7 @@ table
 METHOD
 (
 Trace
+u
 "
 trace
 "
@@ -4425,6 +4433,7 @@ trace
 METHOD
 (
 Dir
+u
 "
 dir
 "
@@ -4433,6 +4442,7 @@ dir
 METHOD
 (
 Dirxml
+u
 "
 dirxml
 "
@@ -4441,6 +4451,7 @@ dirxml
 METHOD
 (
 Group
+u
 "
 group
 "
@@ -4448,6 +4459,7 @@ group
 METHOD
 (
 GroupCollapsed
+u
 "
 groupCollapsed
 "

@@ -188,12 +188,14 @@ _tcp
 #
 define
 PROTOCOL_VERSION_TAG
+u
 "
 version
 "
 #
 define
 CERT_FINGERPRINT_TAG
+u
 "
 certFingerprint
 "
@@ -1315,7 +1317,7 @@ propBag
 >
 SetPropertyAsUint32
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PROTOCOL_VERSION_TAG
 )
@@ -1363,7 +1365,7 @@ propBag
 >
 SetPropertyAsACString
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 CERT_FINGERPRINT_TAG
 )
@@ -1694,7 +1696,7 @@ propBag
 >
 GetPropertyAsUint32
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 PROTOCOL_VERSION_TAG
 )
@@ -3699,7 +3701,7 @@ propBag
 >
 GetPropertyAsACString
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 CERT_FINGERPRINT_TAG
 )

@@ -275,7 +275,7 @@ file
 >
 Append
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 SERVICEWORKERREGISTRAR_FILE
 )

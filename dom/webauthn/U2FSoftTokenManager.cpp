@@ -179,9 +179,12 @@ kVersion1KeyHandleLen
 =
 162
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 kEcAlgorithm
+=
+NS_LITERAL_STRING_FROM_CSTRING
+(
 WEBCRYPTO_NAMED_CURVE_P256
 )
 ;

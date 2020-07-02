@@ -652,7 +652,7 @@ GetLoadingContext
 ;
 LogMessage
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 VERSIONED_JS_BLOCKED_MESSAGE
 )

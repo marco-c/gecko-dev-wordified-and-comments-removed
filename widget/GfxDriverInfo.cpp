@@ -769,12 +769,13 @@ APPEND_DEVICE2
 (
 device
 )
+\
 deviceFamily
 -
 >
 Append
 (
-NS_LITERAL_STRING
+NS_LITERAL_STRING_FROM_CSTRING
 (
 device
 )

@@ -739,7 +739,7 @@ NameSpaceManager
 >
 RegisterNameSpace
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
 kTXNameSpaceURI
 )

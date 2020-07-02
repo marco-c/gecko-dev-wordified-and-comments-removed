@@ -65,6 +65,7 @@ cache
 #
 define
 PADDING_FILE_NAME
+u
 "
 .
 padding
@@ -72,6 +73,7 @@ padding
 #
 define
 PADDING_TMP_FILE_NAME
+u
 "
 .
 padding
