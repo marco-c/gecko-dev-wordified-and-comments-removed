@@ -7336,7 +7336,7 @@ break
 endif
 endif
 endif
-libs
+misc
 realchrome
 :
 :
@@ -7373,6 +7373,17 @@ ACDEFINES
 JAR_MANIFEST
 )
 )
+ifdef
+AB_CD
+.
+PHONY
+:
+l10n
+l10n
+:
+misc
+;
+endif
 endif
 endif
 #

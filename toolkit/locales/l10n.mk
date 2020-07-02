@@ -106,7 +106,7 @@ following
 targets
 :
 #
-libs
+l10n
 -
 %
 #
@@ -117,7 +117,7 @@ call
 into
 the
 various
-libs
+l10n
 targets
 that
 this
@@ -275,7 +275,7 @@ variable
 overrides
 from
 the
-libs
+l10n
 -
 %
 target
@@ -1913,7 +1913,7 @@ them
 or
 not
 in
-libs
+l10n
 -
 %
 and
@@ -2024,7 +2024,7 @@ LANGPACK_FILE
 (
 MAKE
 )
-libs
+l10n
 -
 (
 AB_CD

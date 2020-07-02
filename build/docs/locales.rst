@@ -926,7 +926,7 @@ minor
 differences
 here
 between
-libs
+l10n
 -
 %
 and
@@ -972,7 +972,7 @@ include
 localizable
 files
 .
-libs
+l10n
 -
 %
 is

@@ -63,14 +63,14 @@ config
 rules
 .
 mk
-libs
+l10n
 -
 %
 :
 AB_CD
 =
 *
-libs
+l10n
 -
 %
 :
@@ -89,7 +89,7 @@ netwerk
 /
 locales
 /
-libs
+l10n
 AB_CD
 =
 *
@@ -113,7 +113,7 @@ dom
 /
 locales
 /
-libs
+l10n
 AB_CD
 =
 *
@@ -139,7 +139,7 @@ manager
 /
 locales
 /
-libs
+l10n
 AB_CD
 =
 *
@@ -165,7 +165,7 @@ shared
 /
 locales
 /
-libs
+l10n
 AB_CD
 =
 *
@@ -177,7 +177,7 @@ locale
 (
 MAKE
 )
-libs
+l10n
 AB_CD
 =
 *

@@ -3316,18 +3316,6 @@ tier
 =
 None
             
-elif
-obj
-.
-localized
-:
-                
-tier
-=
-'
-libs
-'
-            
 else
 :
                 
@@ -3476,7 +3464,7 @@ self
 _no_skip
 [
 '
-libs
+misc
 '
 ]
 .
@@ -10462,6 +10450,26 @@ else
 misc
 '
                 
+if
+objdir_files
+[
+0
+]
+=
+=
+'
+multilocale
+.
+txt
+'
+:
+                    
+tier
+=
+'
+libs
+'
+                
 self
 .
 _add_install_target
@@ -10933,7 +10941,7 @@ self
 _no_skip
 [
 '
-libs
+misc
 '
 ]
 .
@@ -10990,7 +10998,7 @@ write
 s_TARGET
 :
 =
-libs
+misc
 \
 n
 '
@@ -11098,7 +11106,7 @@ self
 _no_skip
 [
 '
-libs
+misc
 '
 ]
 .
@@ -11151,7 +11159,7 @@ write
 s_TARGET
 :
 =
-libs
+misc
 \
 n
 '

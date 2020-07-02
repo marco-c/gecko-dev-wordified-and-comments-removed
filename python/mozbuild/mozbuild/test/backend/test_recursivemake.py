@@ -4592,7 +4592,7 @@ mk
 '
             
 '
-libs
+misc
 :
 :
 (
@@ -4812,7 +4812,7 @@ FINAL_TARGET
 LOCALIZED_FILES_0_TARGET
 :
 =
-libs
+misc
 '
             
 '
@@ -4941,7 +4941,7 @@ mk
 '
             
 '
-libs
+misc
 :
 :
 (
@@ -5140,7 +5140,7 @@ TOUCH
 '
             
 '
-libs
+misc
 :
 :
 (
@@ -5459,7 +5459,7 @@ mk
 '
             
 '
-libs
+misc
 :
 :
 (
@@ -10220,7 +10220,7 @@ FINAL_TARGET
 LOCALIZED_FILES_0_TARGET
 :
 =
-libs
+misc
 '
             
 '
@@ -10384,7 +10384,7 @@ FINAL_TARGET
 LOCALIZED_PP_FILES_0_TARGET
 :
 =
-libs
+misc
 '
             
 '

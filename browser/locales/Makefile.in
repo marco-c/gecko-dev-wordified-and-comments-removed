@@ -115,7 +115,7 @@ variable
 overrides
 from
 the
-libs
+l10n
 -
 %
 target
@@ -405,14 +405,14 @@ locales
 l10n
 .
 mk
-libs
+l10n
 -
 %
 :
 AB_CD
 =
 *
-libs
+l10n
 -
 %
 :
@@ -458,7 +458,7 @@ C
 toolkit
 /
 locales
-libs
+l10n
 -
 *
 XPI_ROOT_APPID
@@ -642,7 +642,7 @@ XPI_ROOT_APPID
 (
 MAKE
 )
-libs
+l10n
 AB_CD
 =
 *
@@ -1003,7 +1003,7 @@ clobber
 (
 MAKE
 )
-libs
+l10n
 -
 *
 (
