@@ -144,6 +144,12 @@ isLastPartOfMultiPart
 CrossOriginOpenerPolicy
 openerPolicy
 ;
+nsCString
+appCacheGroupId
+;
+nsCString
+appCacheClientId
+;
 }
 ;
 }
