@@ -3348,6 +3348,9 @@ content
 skip_address_bar_notifier
 :
 true
+persistent_doorhanger
+:
+true
 anchor_id
 :
 "

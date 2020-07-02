@@ -3521,6 +3521,13 @@ let
 options
 =
 {
+persistent
+:
+!
+!
+content
+.
+persistent_doorhanger
 }
 ;
 let
@@ -3915,6 +3922,10 @@ content
 .
 icon_class
 learnMoreURL
+.
+.
+.
+options
 }
 ;
 break
@@ -4269,6 +4280,10 @@ content
 addon
 .
 icon
+.
+.
+.
+options
 }
 ;
 footerLink
