@@ -2526,6 +2526,11 @@ aHandlingUserInput
 )
 ;
 void
+PauseInternal
+(
+)
+;
+void
 ChangeReadyState
 (
 nsMediaReadyState
