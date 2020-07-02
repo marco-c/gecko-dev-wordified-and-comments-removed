@@ -875,17 +875,6 @@ cfr
 -
 whatsnew
 -
-panel
--
-header
-=
-What
-s
-New
-cfr
--
-whatsnew
--
 release
 -
 notes
