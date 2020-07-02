@@ -693,6 +693,7 @@ blank
 openPreferences
 (
 aPane
+aOptions
 )
 ;
 let
