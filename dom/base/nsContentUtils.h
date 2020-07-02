@@ -1108,6 +1108,16 @@ aChild
 )
 ;
 static
+nsINode
+*
+GetNearestInProcessCrossDocParentNode
+(
+nsINode
+*
+aChild
+)
+;
+static
 bool
 ContentIsHostIncludingDescendantOf
 (
