@@ -8482,11 +8482,10 @@ handlers
 let
 viewNode
 =
-PanelMultiView
-.
-getViewNode
-(
 aDocument
+.
+getElementById
+(
 aWidget
 .
 viewId
