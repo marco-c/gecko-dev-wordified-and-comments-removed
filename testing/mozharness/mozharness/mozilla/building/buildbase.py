@@ -6928,6 +6928,28 @@ ignoring
 return
 None
         
+should_alert
+=
+False
+if
+os
+.
+environ
+.
+get
+(
+'
+USE_SCCACHE
+'
+)
+=
+=
+'
+1
+'
+else
+True
+        
 data
 =
 {
@@ -6961,6 +6983,12 @@ self
 perfherder_resource_options
 (
 )
+            
+'
+shouldAlert
+'
+:
+should_alert
             
 '
 subtests
@@ -7239,6 +7267,12 @@ alertThreshold
             
 '
 lowerIsBetter
+'
+:
+False
+            
+'
+shouldAlert
 '
 :
 False
