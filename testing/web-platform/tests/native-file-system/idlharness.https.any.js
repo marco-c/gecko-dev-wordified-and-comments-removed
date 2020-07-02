@@ -16,6 +16,9 @@ system
 ]
 [
 '
+streams
+'
+'
 html
 '
 '
