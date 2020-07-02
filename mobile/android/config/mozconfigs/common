@@ -526,6 +526,13 @@ n
 "
 TASKCLUSTER_PGO_PROFILE_USE
 "
+-
+a
+-
+z
+"
+USE_ARTIFACT
+"
 ]
 ;
 then
