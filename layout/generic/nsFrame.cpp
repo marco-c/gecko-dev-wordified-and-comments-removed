@@ -47665,7 +47665,7 @@ pseudo
 }
 nsIFrame
 *
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
