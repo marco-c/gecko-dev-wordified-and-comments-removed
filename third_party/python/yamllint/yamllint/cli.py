@@ -17,6 +17,8 @@ print_function
 import
 argparse
 import
+io
+import
 os
 import
 platform
@@ -1397,9 +1399,15 @@ try
 :
             
 with
+io
+.
 open
 (
 file
+newline
+=
+'
+'
 )
 as
 f
