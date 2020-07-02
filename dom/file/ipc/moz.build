@@ -78,6 +78,11 @@ RemoteLazyInputStreamStorage
 h
 '
 '
+RemoteLazyInputStreamUtils
+.
+h
+'
+'
 TemporaryIPCBlobChild
 .
 h
@@ -129,6 +134,11 @@ cpp
 '
 '
 RemoteLazyInputStreamThread
+.
+cpp
+'
+'
+RemoteLazyInputStreamUtils
 .
 cpp
 '

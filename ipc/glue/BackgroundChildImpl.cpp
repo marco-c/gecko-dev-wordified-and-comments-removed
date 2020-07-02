@@ -245,17 +245,6 @@ mozilla
 /
 dom
 /
-IPCBlobUtils
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 quota
 /
 PQuotaChild
