@@ -138,13 +138,6 @@ aValue
 )
 ;
 void
-SetPixels
-(
-float
-aValue
-)
-;
-void
 SetAppUnits
 (
 nscoord
@@ -237,6 +230,9 @@ mType
 ;
 union
 {
+nscoord
+mAppUnits
+;
 float
 mFloat
 ;
