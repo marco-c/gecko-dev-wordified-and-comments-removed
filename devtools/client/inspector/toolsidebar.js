@@ -253,6 +253,13 @@ doc
 showAllTabsMenu
 :
 true
+allTabsMenuButtonTooltip
+:
+this
+.
+_options
+.
+allTabsMenuButtonTooltip
 sidebarToggleButton
 :
 this
