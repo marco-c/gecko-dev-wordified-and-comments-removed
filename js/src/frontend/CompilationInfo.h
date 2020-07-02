@@ -45,15 +45,6 @@ include
 "
 frontend
 /
-ParserAtom
-.
-h
-"
-#
-include
-"
-frontend
-/
 SharedContext
 .
 h
@@ -312,9 +303,6 @@ options
 AutoKeepAtoms
 keepAtoms
 ;
-ParserAtomsTable
-parserAtoms
-;
 Directives
 directives
 ;
@@ -506,10 +494,6 @@ options
 options
 )
 keepAtoms
-(
-cx
-)
-parserAtoms
 (
 cx
 )
