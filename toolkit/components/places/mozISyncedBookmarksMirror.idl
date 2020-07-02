@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-mozIServicesLogSink
+mozIServicesLogger
 .
 idl
 "
@@ -631,7 +631,7 @@ for
 logging
 .
 attribute
-mozIServicesLogSink
+mozIServicesLogger
 logger
 ;
 /
