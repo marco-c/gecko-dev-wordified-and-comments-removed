@@ -43,6 +43,9 @@ cubeb_stream_prefs
 namespace
 mozilla
 {
+class
+AudioThreadRegistry
+;
 namespace
 CubebUtils
 {
@@ -62,6 +65,12 @@ ShutdownLibrary
 ;
 bool
 SandboxEnabled
+(
+)
+;
+AudioThreadRegistry
+*
+GetAudioThreadRegistry
 (
 )
 ;
