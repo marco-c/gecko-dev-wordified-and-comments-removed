@@ -1600,7 +1600,7 @@ SetEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -1632,7 +1632,7 @@ ReplaceEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -1657,7 +1657,7 @@ aEventTarget
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 IProtocol
 :
@@ -1668,7 +1668,7 @@ GetActorEventTarget
 {
 RefPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -1683,7 +1683,7 @@ target
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 IProtocol
 :
@@ -3063,7 +3063,7 @@ Open
 MessageChannel
 *
 aChannel
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 mozilla
@@ -3349,7 +3349,7 @@ if
 (
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -4253,7 +4253,7 @@ true
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 IToplevelProtocol
 :
@@ -4290,7 +4290,7 @@ mEventTargetMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -4347,7 +4347,7 @@ ifdef
 DEBUG
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 existingTgt
 =
@@ -4397,7 +4397,7 @@ forget
 }
 already_AddRefed
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 IToplevelProtocol
 :
@@ -4441,7 +4441,7 @@ mEventTargetMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -4465,7 +4465,7 @@ forget
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 IToplevelProtocol
 :
@@ -4487,7 +4487,7 @@ SetEventTargetForActorInternal
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
@@ -4585,7 +4585,7 @@ ReplaceEventTargetForActor
 IProtocol
 *
 aActor
-nsIEventTarget
+nsISerialEventTarget
 *
 aEventTarget
 )
