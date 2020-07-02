@@ -56,6 +56,15 @@ builds
 worker
 /
 artifacts
+#
+NEXUS_WORK
+is
+exported
+by
+before
+.
+sh
+.
 cp
 -
 R
