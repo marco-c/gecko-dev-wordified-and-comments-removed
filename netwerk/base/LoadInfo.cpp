@@ -1115,7 +1115,7 @@ IsDocumentLoaded
 ;
 if
 (
-innerWindow
+bc
 -
 >
 IsFrame

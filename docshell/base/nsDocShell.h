@@ -2813,7 +2813,7 @@ return
 mBrowsingContext
 -
 >
-GetParent
+IsFrame
 (
 )
 ;

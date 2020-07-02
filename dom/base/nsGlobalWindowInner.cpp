@@ -31630,7 +31630,7 @@ aCallerType
 )
 |
 |
-outer
+mBrowsingContext
 -
 >
 IsFrame
