@@ -319,10 +319,6 @@ nsIFrame
 aReplacedBlock
 =
 nullptr
-uint32_t
-aFlags
-=
-0
 )
 ;
 nsFloatManager
