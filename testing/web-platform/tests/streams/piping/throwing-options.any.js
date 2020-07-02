@@ -1,3 +1,8 @@
+'
+use
+strict
+'
+;
 class
 ThrowingOptions
 {
@@ -134,13 +139,13 @@ checkOrder
 =
 [
 '
-preventClose
-'
-'
 preventAbort
 '
 '
 preventCancel
+'
+'
+preventClose
 '
 '
 signal

@@ -2467,7 +2467,11 @@ flushAsyncEvents
 new
 CountQueuingStrategy
 (
+{
+highWaterMark
+:
 4
+}
 )
 )
 ;
@@ -2676,7 +2680,11 @@ error1
 new
 CountQueuingStrategy
 (
+{
+highWaterMark
+:
 4
+}
 )
 )
 ;
