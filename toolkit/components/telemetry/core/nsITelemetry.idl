@@ -646,6 +646,11 @@ getAllStores
 )
 ;
 void
+clearProbes
+(
+)
+;
+void
 earlyInit
 (
 )

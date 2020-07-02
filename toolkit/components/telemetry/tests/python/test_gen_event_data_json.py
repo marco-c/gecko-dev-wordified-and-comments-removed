@@ -240,6 +240,9 @@ firefox
 '
 fennec
 '
+'
+geckoview
+'
 ]
     
 extra_keys
@@ -411,6 +414,9 @@ firefox
 "
 "
 fennec
+"
+"
+geckoview
 "
 ]
                 

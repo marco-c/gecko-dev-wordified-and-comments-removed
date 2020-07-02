@@ -221,6 +221,9 @@ firefox
 "
 fennec
 "
+"
+geckoview
+"
 ]
     
 keyed
@@ -311,6 +314,9 @@ firefox
 "
 "
 fennec
+"
+"
+geckoview
 "
 ]
                 

@@ -95,6 +95,14 @@ fennec
 Fennec
 '
     
+'
+geckoview
+'
+:
+'
+Geckoview
+'
+    
 GECKOVIEW_STREAMING_PRODUCT
 :
 '

@@ -568,7 +568,7 @@ products
 :
     
 -
-fennec
+geckoview
 operating_systems
 :
     
@@ -673,7 +673,7 @@ evt
 products
 [
 "
-fennec
+geckoview
 "
 ]
 )
