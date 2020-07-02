@@ -2090,6 +2090,15 @@ nsIURI
 aDocURI
 )
 ;
+void
+StampTimecard
+(
+const
+char
+*
+aEvent
+)
+;
 private
 :
 virtual
