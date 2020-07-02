@@ -314,6 +314,11 @@ EmptyString
 DOMString
 customUserAgent
 ;
+readonly
+attribute
+DOMString
+embedderElementType
+;
 /
 *
 *
