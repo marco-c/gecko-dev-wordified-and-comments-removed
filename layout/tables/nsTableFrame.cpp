@@ -9088,7 +9088,6 @@ if
 !
 ShouldApplyOverflowClipping
 (
-this
 aReflowInput
 .
 mStyleDisplay
@@ -9415,7 +9414,6 @@ if
 !
 ShouldApplyOverflowClipping
 (
-this
 StyleDisplay
 (
 )
