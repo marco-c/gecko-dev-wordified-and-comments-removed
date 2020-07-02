@@ -107,7 +107,7 @@ interface
 nsIChannel
 ;
 interface
-nsIEventTarget
+nsISerialEventTarget
 ;
 interface
 nsIPrincipal
@@ -332,7 +332,7 @@ classifier
 *
 *
 param
-nsIEventTarget
+nsISerialEventTarget
 *
 Event
 target
@@ -434,7 +434,7 @@ in
 nsIPrincipal
 aPrincipal
 in
-nsIEventTarget
+nsISerialEventTarget
 aEventTarget
 in
 nsIURIClassifierCallback
