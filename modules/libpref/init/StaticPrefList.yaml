@@ -21503,7 +21503,7 @@ type
 bool
 value
 :
-true
+IS_NIGHTLY_BUILD
 mirror
 :
 always
