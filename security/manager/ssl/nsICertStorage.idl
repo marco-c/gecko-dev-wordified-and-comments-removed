@@ -563,5 +563,13 @@ octet
 subject
 )
 ;
+[
+must_use
+]
+int32_t
+GetRemainingOperationCount
+(
+)
+;
 }
 ;
