@@ -71,6 +71,11 @@ basestring
 )
 	
 from
+collections
+import
+Iterable
+	
+from
 itertools
 import
 izip_longest
@@ -102,6 +107,13 @@ unicode
 )
 	
 from
+collections
+.
+abc
+import
+Iterable
+	
+from
 itertools
 import
 zip_longest
@@ -130,8 +142,6 @@ collections
 abc
 import
 Collection
-as
-collection_type
 except
 ImportError
 :
@@ -141,4 +151,4 @@ collections
 import
 Container
 as
-collection_type
+Collection
