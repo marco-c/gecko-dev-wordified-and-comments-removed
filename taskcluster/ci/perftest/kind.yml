@@ -549,7 +549,7 @@ geckodriver
 browsertime
 -
 iterations
-10
+14
 -
 -
 output
@@ -765,7 +765,7 @@ geckodriver
 browsertime
 -
 iterations
-10
+14
 -
 -
 output
@@ -983,7 +983,7 @@ geckodriver
 browsertime
 -
 iterations
-10
+14
 -
 -
 output
@@ -1200,7 +1200,7 @@ geckodriver
 browsertime
 -
 iterations
-10
+14
 -
 -
 output
