@@ -1642,6 +1642,9 @@ cycle
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 forceGC
 (
@@ -1904,6 +1907,9 @@ cycle
 .
 *
 /
+[
+implicit_jscontext
+]
 void
 forceShrinkingGC
 (
