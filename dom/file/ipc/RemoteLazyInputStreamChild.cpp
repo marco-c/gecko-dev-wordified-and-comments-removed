@@ -8,7 +8,7 @@ h
 #
 include
 "
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 .
 h
 "
@@ -775,7 +775,7 @@ eActive
 &
 &
 !
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 :
 :
 IsOnFileEventTarget
@@ -803,11 +803,11 @@ eActiveMigrating
 ;
 RefPtr
 <
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 >
 thread
 =
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 :
 :
 GetOrCreate
@@ -1681,7 +1681,7 @@ GetCurrentSerialEventTarget
 ;
 MOZ_ASSERT
 (
-IPCBlobInputStreamThread
+RemoteLazyInputStreamThread
 :
 :
 IsOnFileEventTarget
