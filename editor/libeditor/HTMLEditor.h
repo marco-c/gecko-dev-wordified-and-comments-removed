@@ -8736,8 +8736,9 @@ aArrayOfTopMostChildContents
 )
 const
 ;
+static
 void
-CollectListAndTableRelatedElementsAt
+CollectTableAndAnyListElementsOfInclusiveAncestorsAt
 (
 nsIContent
 &
@@ -8752,7 +8753,6 @@ Element
 &
 aOutArrayOfListAndTableElements
 )
-const
 ;
 Element
 *

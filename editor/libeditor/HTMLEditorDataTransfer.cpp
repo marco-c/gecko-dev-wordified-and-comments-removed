@@ -16201,7 +16201,7 @@ HTMLEditor
 AutoHTMLFragmentBoundariesFixer
 :
 :
-CollectListAndTableRelatedElementsAt
+CollectTableAndAnyListElementsOfInclusiveAncestorsAt
 (
 nsIContent
 &
@@ -16216,7 +16216,6 @@ Element
 &
 aOutArrayOfListAndTableElements
 )
-const
 {
 for
 (
@@ -16941,7 +16940,7 @@ Element
 >
 arrayOfListAndTableRelatedElementsAtEdge
 ;
-CollectListAndTableRelatedElementsAt
+CollectTableAndAnyListElementsOfInclusiveAncestorsAt
 (
 aStartOrEnd
 =
