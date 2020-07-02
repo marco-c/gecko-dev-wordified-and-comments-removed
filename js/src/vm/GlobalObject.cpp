@@ -5218,7 +5218,6 @@ cx
 selfHostedName
 name
 nargs
-nullptr
 SingletonObject
 &
 fun
