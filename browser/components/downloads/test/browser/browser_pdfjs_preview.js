@@ -98,7 +98,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -165,7 +165,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -412,7 +412,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -472,7 +472,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
@@ -726,7 +726,7 @@ newWindow
 false
 opensTab
 :
-false
+true
 tabSelected
 :
 true
