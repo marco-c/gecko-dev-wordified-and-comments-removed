@@ -19797,6 +19797,8 @@ NS_OK
 double
 actualBoundingBoxLeft
 =
+offsetX
+-
 processor
 .
 mBoundingBox
@@ -19804,8 +19806,6 @@ mBoundingBox
 X
 (
 )
--
-offsetX
 ;
 double
 actualBoundingBoxRight
