@@ -57,7 +57,7 @@ h
 #
 include
 "
-WaylandDMABufSurface
+DMABufSurface
 .
 h
 "
@@ -695,7 +695,7 @@ private
 :
 RefPtr
 <
-WaylandDMABufSurfaceRGBA
+DMABufSurfaceRGBA
 >
 mDMAbufSurface
 ;

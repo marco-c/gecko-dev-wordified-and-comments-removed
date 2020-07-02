@@ -1564,7 +1564,7 @@ aWindowSurfaceWayland
 {
 mDMAbufSurface
 =
-WaylandDMABufSurfaceRGBA
+DMABufSurfaceRGBA
 :
 :
 CreateDMABufSurface
