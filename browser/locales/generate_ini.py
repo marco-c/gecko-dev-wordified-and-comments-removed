@@ -16,21 +16,15 @@ def
 main
 (
 output
-updater_ini
-updater_ini_append
+ini
+ini_append
+=
+None
 locale
 =
 None
 )
 :
-    
-assert
-(
-locale
-is
-not
-None
-)
     
 fixup_re
 =
@@ -55,7 +49,7 @@ codecs
 .
 open
 (
-updater_ini
+ini
 '
 rb
 '
@@ -118,6 +112,8 @@ line
 )
     
 if
+ini_append
+and
 buildconfig
 .
 substs
@@ -138,7 +134,7 @@ codecs
 .
 open
 (
-updater_ini_append
+ini_append
 '
 rb
 '
