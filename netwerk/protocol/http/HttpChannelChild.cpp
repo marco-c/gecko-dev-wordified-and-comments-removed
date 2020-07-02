@@ -10629,6 +10629,11 @@ mInterceptListener
 NS_ERROR_NOT_AVAILABLE
 )
 ;
+LogCallingScriptLocation
+(
+this
+)
+;
 if
 (
 !
@@ -10757,6 +10762,11 @@ mSuspendCount
 >
 0
 NS_ERROR_UNEXPECTED
+)
+;
+LogCallingScriptLocation
+(
+this
 )
 ;
 nsresult
