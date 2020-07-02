@@ -164,7 +164,13 @@ async
 function
 loadExtension
 (
+{
 background
+extraFiles
+=
+{
+}
+}
 )
 {
 let
@@ -236,6 +242,10 @@ SCRIPT_BASENAME
 ]
 :
 scriptSource
+.
+.
+.
+extraFiles
 }
 isPrivileged
 :
@@ -317,7 +327,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 defaultPreferences
@@ -427,7 +439,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 defaultPreferences
@@ -565,7 +579,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -633,7 +649,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -724,7 +742,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -815,7 +835,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -906,7 +928,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -1009,7 +1033,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 await
@@ -1045,7 +1071,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -1105,7 +1133,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -1165,7 +1195,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
@@ -1225,7 +1257,9 @@ ext
 await
 loadExtension
 (
+{
 background
+}
 )
 ;
 ext
