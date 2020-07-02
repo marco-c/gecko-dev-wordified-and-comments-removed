@@ -3827,17 +3827,6 @@ isReadyForDelazification
 )
 )
 ;
-MOZ_ASSERT
-(
-!
-lazy
--
->
-isBinAST
-(
-)
-)
-;
 AutoAssertReportedException
 assertException
 (
