@@ -7224,6 +7224,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathTrunc
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRound
 (
 HandleFunction
