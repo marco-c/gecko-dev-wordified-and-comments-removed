@@ -4100,6 +4100,9 @@ GetPreviousSibling
 nsresult
 rv
 =
+HTMLEditor
+:
+:
 StripFormattingNodes
 (
 *
@@ -15208,6 +15211,9 @@ IsEmpty
 nsresult
 rv
 =
+HTMLEditor
+:
+:
 ParseFragment
 (
 aContextStr
@@ -15273,6 +15279,9 @@ NS_ERROR_FAILURE
 }
 rv
 =
+HTMLEditor
+:
+:
 StripFormattingNodes
 (
 *
@@ -15403,6 +15412,9 @@ documentFragmentToInsert
 nsresult
 rv
 =
+HTMLEditor
+:
+:
 ParseFragment
 (
 aInputString
@@ -15518,6 +15530,9 @@ documentFragmentForContext
 }
 rv
 =
+HTMLEditor
+:
+:
 StripFormattingNodes
 (
 *

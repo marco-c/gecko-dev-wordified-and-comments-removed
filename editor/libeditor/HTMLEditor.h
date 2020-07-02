@@ -8557,6 +8557,7 @@ char16_t
 aCfcontext
 )
 ;
+static
 nsresult
 StripFormattingNodes
 (
@@ -8612,6 +8613,7 @@ bool
 aTrustedInput
 )
 ;
+static
 nsresult
 ParseFragment
 (
