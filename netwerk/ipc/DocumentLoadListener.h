@@ -1241,6 +1241,12 @@ mCancelled
 =
 false
 ;
+Maybe
+<
+nsCString
+>
+mOriginalUriString
+;
 base
 :
 :
