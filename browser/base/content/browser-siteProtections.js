@@ -3950,8 +3950,6 @@ perm
 .
 principal
 .
-URI
-.
 host
 )
 )

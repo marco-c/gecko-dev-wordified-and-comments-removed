@@ -268,8 +268,6 @@ options
 .
 principal
 .
-URI
-.
 host
 "
 example

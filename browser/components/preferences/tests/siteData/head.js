@@ -1291,8 +1291,6 @@ push
 (
 principal
 .
-URI
-.
 host
 )
 ;
