@@ -879,13 +879,14 @@ nsIURI
 aChromeURL
 )
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kSlash
+=
 "
 /
 "
-)
+_ns
 ;
 nsresult
 rv

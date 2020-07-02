@@ -3221,9 +3221,10 @@ true
 return
 ;
 }
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 metaChars
+=
 "
 .
 +
@@ -3240,7 +3241,7 @@ metaChars
 \
 \
 "
-)
+_ns
 ;
 nsAutoString
 escaped

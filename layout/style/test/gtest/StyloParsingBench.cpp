@@ -492,13 +492,14 @@ CreateWithoutOriginAttributes
 )
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 css_
+=
 "
 10px
 "
-)
+_ns
 ;
 const
 nsACString

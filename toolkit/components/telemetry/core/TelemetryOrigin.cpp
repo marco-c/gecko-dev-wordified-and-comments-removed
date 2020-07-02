@@ -506,13 +506,14 @@ kNumMetaOrigins
 =
 1
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kUnknownOrigin
+=
 "
 __UNKNOWN__
 "
-)
+_ns
 ;
 }
 namespace

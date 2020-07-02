@@ -707,9 +707,10 @@ nsIURI
 >
 obj
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 spec
+=
 "
 http
 :
@@ -721,7 +722,7 @@ mozilla
 .
 org
 "
-)
+_ns
 ;
 rv
 =

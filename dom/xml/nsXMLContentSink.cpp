@@ -6007,9 +6007,11 @@ noAtts
 0
 }
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 errorNs
+=
+u
 "
 http
 :
@@ -6029,7 +6031,7 @@ parsererror
 .
 xml
 "
-)
+_ns
 ;
 nsAutoString
 parsererror

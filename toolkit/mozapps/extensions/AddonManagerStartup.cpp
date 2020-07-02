@@ -3546,9 +3546,10 @@ entry
 )
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 metaChars
+=
 "
 [
 ]
@@ -3561,7 +3562,7 @@ metaChars
 \
 \
 "
-)
+_ns
 ;
 nsCString
 pattern

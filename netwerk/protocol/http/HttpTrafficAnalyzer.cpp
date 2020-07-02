@@ -52,13 +52,14 @@ mozilla
 namespace
 net
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kInvalidCategory
+=
 "
 INVALID_CATEGORY
 "
-)
+_ns
 ;
 #
 define

@@ -109,9 +109,10 @@ char16_t
 nsAutoCString
 escPath
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 prefix
+=
 "
 file
 :
@@ -119,7 +120,7 @@ file
 /
 /
 "
-)
+_ns
 ;
 NS_ConvertUTF16toUTF8
 ePath

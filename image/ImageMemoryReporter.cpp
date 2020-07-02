@@ -632,9 +632,10 @@ nsIMemoryReporter
 :
 KIND_OTHER
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 desc
+=
 "
 Decoded
 image
@@ -645,7 +646,7 @@ shared
 memory
 .
 "
-)
+_ns
 ;
 aHandleReport
 -

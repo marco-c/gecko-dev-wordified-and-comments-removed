@@ -2780,9 +2780,10 @@ n
 =
 0
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kClientIDParam
+=
 "
 -
 -
@@ -2792,7 +2793,7 @@ client
 -
 id
 "
-)
+_ns
 ;
 SetSMValue
 (

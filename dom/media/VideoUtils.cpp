@@ -1025,13 +1025,14 @@ nsCString
 aContentType
 )
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 video
+=
 "
 video
 "
-)
+_ns
 ;
 if
 (

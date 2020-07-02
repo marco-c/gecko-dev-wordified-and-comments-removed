@@ -1336,9 +1336,11 @@ isString
 )
 )
 {
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 mozParseOptions
+=
+u
 "
 -
 moz
@@ -1348,7 +1350,7 @@ parse
 options
 :
 "
-)
+_ns
 ;
 nsAutoJSString
 paramString

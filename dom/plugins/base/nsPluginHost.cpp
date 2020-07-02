@@ -10253,9 +10253,10 @@ catMan
 return
 ;
 }
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 contractId
+=
 "
 mozilla
 .
@@ -10273,7 +10274,7 @@ factory
 ;
 1
 "
-)
+_ns
 ;
 if
 (

@@ -3870,9 +3870,11 @@ nsIHTMLCollection
 >
 allParams
 ;
-NS_NAMED_LITERAL_STRING
-(
+constexpr
+auto
 xhtml_ns
+=
+u
 "
 http
 :
@@ -3888,7 +3890,7 @@ org
 /
 xhtml
 "
-)
+_ns
 ;
 ErrorResult
 rv

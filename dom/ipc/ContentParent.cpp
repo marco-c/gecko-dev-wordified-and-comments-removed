@@ -3082,9 +3082,10 @@ cp
 refcnt
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 desc
+=
 "
 The
 number
@@ -3142,7 +3143,7 @@ leaking
 ContentParents
 .
 "
-)
+_ns
 ;
 aHandleReport
 -

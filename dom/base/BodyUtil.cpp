@@ -1853,9 +1853,10 @@ ErrorResult
 aRv
 )
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 formDataMimeType
+=
 "
 multipart
 /
@@ -1863,7 +1864,7 @@ form
 -
 data
 "
-)
+_ns
 ;
 bool
 isValidFormDataMimeType
@@ -1970,9 +1971,10 @@ forget
 )
 ;
 }
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 urlDataMimeType
+=
 "
 application
 /
@@ -1984,7 +1986,7 @@ form
 -
 urlencoded
 "
-)
+_ns
 ;
 bool
 isValidUrlEncodedMimeType

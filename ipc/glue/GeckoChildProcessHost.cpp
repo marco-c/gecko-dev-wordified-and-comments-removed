@@ -4195,11 +4195,14 @@ origLogName
 ;
 }
 static
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kMozLogExt
+=
+nsLiteralCString
+{
 MOZ_LOG_FILE_EXTENSION
-)
+}
 ;
 if
 (

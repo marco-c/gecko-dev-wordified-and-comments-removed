@@ -1584,9 +1584,10 @@ isErr
 ErrorResult
 rv
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 getStatusForPolicy
 failed
@@ -1597,7 +1598,7 @@ hdcp
 version
 argument
 "
-)
+_ns
 ;
 rv
 .

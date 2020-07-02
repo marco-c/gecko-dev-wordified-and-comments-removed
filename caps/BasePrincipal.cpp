@@ -2999,12 +2999,13 @@ Truncate
 (
 )
 ;
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 space
+=
 "
 "
-)
+_ns
 ;
 nsCOMPtr
 <

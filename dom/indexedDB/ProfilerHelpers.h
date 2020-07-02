@@ -461,12 +461,13 @@ nsAutoCString
 kOpenBracket
 )
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 kCommaSpace
+=
 "
 "
-)
+_ns
 ;
 const
 nsTArray

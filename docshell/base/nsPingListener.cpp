@@ -853,13 +853,14 @@ uploadChan
 return
 ;
 }
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 uploadData
+=
 "
 PING
 "
-)
+_ns
 ;
 nsCOMPtr
 <

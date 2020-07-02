@@ -1868,9 +1868,10 @@ nsAString
 aMinHdcpVersion
 )
 {
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 Currently
 Fennec
@@ -1879,7 +1880,7 @@ not
 support
 GetStatusForPolicy
 "
-)
+_ns
 ;
 ErrorResult
 rv
@@ -1998,9 +1999,10 @@ aPromiseId
 return
 ;
 }
-NS_NAMED_LITERAL_CSTRING
-(
+constexpr
+auto
 err
+=
 "
 Null
 CDM
@@ -2009,7 +2011,7 @@ OnCDMCreated
 (
 )
 "
-)
+_ns
 ;
 ErrorResult
 rv
