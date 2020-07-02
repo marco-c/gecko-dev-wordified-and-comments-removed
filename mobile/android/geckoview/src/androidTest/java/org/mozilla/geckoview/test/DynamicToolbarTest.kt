@@ -564,7 +564,7 @@ scrollTo
 top
 :
 100
-behevior
+behavior
 :
 '
 instant
