@@ -501,6 +501,8 @@ nsAString
 aPartitionKey
 bool
 aIsFirstPartyIsolated
+bool
+aIsOnContentBlockingAllowList
 )
 {
 MOZ_ASSERT
@@ -530,6 +532,13 @@ cookieJarSettings
 mPartitionKey
 =
 aPartitionKey
+;
+cookieJarSettings
+-
+>
+mIsOnContentBlockingAllowList
+=
+aIsOnContentBlockingAllowList
 ;
 return
 cookieJarSettings

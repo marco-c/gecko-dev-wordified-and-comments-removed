@@ -77124,6 +77124,17 @@ CookieJarSettings
 GetIsFirstPartyIsolated
 (
 )
+inProcessParent
+-
+>
+CookieJarSettings
+(
+)
+-
+>
+GetIsOnContentBlockingAllowList
+(
+)
 )
 :
 net
