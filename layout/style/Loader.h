@@ -126,6 +126,9 @@ namespace
 mozilla
 {
 class
+PreloadHashKey
+;
+class
 SharedStyleSheetCache
 ;
 class
@@ -1662,6 +1665,13 @@ Loader
 aOnlyForLoader
 =
 nullptr
+)
+;
+void
+MaybeNotifyPreloadUsed
+(
+SheetLoadData
+&
 )
 ;
 nsRefPtrHashtable
