@@ -165,7 +165,7 @@ closed
 }
 ;
 struct
-IPCBlobInputStreamRef
+RemoteLazyInputStreamRef
 {
 nsID
 id
@@ -179,9 +179,9 @@ length
 }
 ;
 union
-IPCBlobInputStreamParams
+RemoteLazyInputStreamParams
 {
-IPCBlobInputStreamRef
+RemoteLazyInputStreamRef
 ;
 PRemoteLazyInputStream
 ;
@@ -280,7 +280,7 @@ MultiplexInputStreamParams
 ;
 SlicedInputStreamParams
 ;
-IPCBlobInputStreamParams
+RemoteLazyInputStreamParams
 ;
 InputStreamLengthWrapperParams
 ;

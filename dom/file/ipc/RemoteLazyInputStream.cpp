@@ -1,7 +1,7 @@
 #
 include
 "
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 h
 "
@@ -128,7 +128,7 @@ namespace
 dom
 {
 class
-IPCBlobInputStream
+RemoteLazyInputStream
 ;
 namespace
 {
@@ -151,7 +151,7 @@ aCallback
 nsIEventTarget
 *
 aEventTarget
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -241,7 +241,7 @@ InputStreamCallbackRunnable
 nsIInputStreamCallback
 *
 aCallback
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -283,7 +283,7 @@ mCallback
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mStream
 ;
@@ -308,7 +308,7 @@ aCallback
 nsIEventTarget
 *
 aEventTarget
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -387,7 +387,7 @@ FileMetadataCallbackRunnable
 nsIFileMetadataCallback
 *
 aCallback
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -429,7 +429,7 @@ mCallback
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mStream
 ;
@@ -438,17 +438,17 @@ mStream
 }
 NS_IMPL_ADDREF
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 )
 ;
 NS_IMPL_RELEASE
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 )
 ;
 NS_INTERFACE_MAP_BEGIN
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 )
 NS_INTERFACE_MAP_ENTRY
 (
@@ -500,10 +500,10 @@ nsISupports
 nsIInputStream
 )
 NS_INTERFACE_MAP_END
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 RemoteLazyInputStreamChild
 *
@@ -533,7 +533,7 @@ false
 mMutex
 (
 "
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 mMutex
@@ -607,11 +607,11 @@ stream
 }
 }
 }
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 ~
-IPCBlobInputStream
+RemoteLazyInputStream
 (
 )
 {
@@ -621,7 +621,7 @@ Close
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Available
@@ -739,7 +739,7 @@ aLength
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Read
@@ -891,7 +891,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 ReadSegments
@@ -1054,7 +1054,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 IsNonBlocking
@@ -1074,7 +1074,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Close
@@ -1185,7 +1185,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 GetCloneable
@@ -1214,7 +1214,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Clone
@@ -1250,7 +1250,7 @@ mActor
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 stream
 =
@@ -1293,7 +1293,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 CloneWithRange
@@ -1357,7 +1357,7 @@ mActor
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 stream
 =
@@ -1449,7 +1449,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 CloseWithStatus
@@ -1465,7 +1465,7 @@ Close
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 AsyncWait
@@ -1686,7 +1686,7 @@ NS_OK
 ;
 }
 void
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 StreamReady
@@ -1954,7 +1954,7 @@ rv
 }
 }
 void
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 InitWithExistingRange
@@ -2042,7 +2042,7 @@ mLength
 }
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 OnInputStreamReady
@@ -2144,7 +2144,7 @@ NS_OK
 ;
 }
 void
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Serialize
@@ -2203,7 +2203,7 @@ GetSingleton
 "
 Serializing
 an
-IPCBlobInputStream
+RemoteLazyInputStream
 parent
 to
 child
@@ -2358,14 +2358,14 @@ mozilla
 ipc
 :
 :
-IPCBlobInputStreamParams
+RemoteLazyInputStreamParams
 (
 parentActor
 )
 ;
 }
 void
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Serialize
@@ -2422,7 +2422,7 @@ mozilla
 ipc
 :
 :
-IPCBlobInputStreamRef
+RemoteLazyInputStreamRef
 params
 ;
 params
@@ -2460,7 +2460,7 @@ params
 ;
 }
 bool
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Deserialize
@@ -2498,7 +2498,7 @@ false
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 AsyncFileMetadataWait
@@ -2655,7 +2655,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 GetSize
@@ -2714,7 +2714,7 @@ aRetval
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 GetLastModified
@@ -2773,7 +2773,7 @@ aRetval
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 GetFileDescriptor
@@ -2833,7 +2833,7 @@ aRetval
 ;
 }
 nsresult
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 EnsureAsyncRemoteStream
@@ -3137,7 +3137,7 @@ NS_OK
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 Length
@@ -3199,7 +3199,7 @@ aCallback
 nsIEventTarget
 *
 aEventTarget
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 int64_t
@@ -3282,7 +3282,7 @@ InputStreamLengthCallbackRunnable
 nsIInputStreamLengthCallback
 *
 aCallback
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 int64_t
@@ -3330,7 +3330,7 @@ mCallback
 ;
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mStream
 ;
@@ -3342,7 +3342,7 @@ mLength
 ;
 }
 NS_IMETHODIMP
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 AsyncLengthWait
@@ -3443,7 +3443,7 @@ NS_OK
 ;
 }
 void
-IPCBlobInputStream
+RemoteLazyInputStream
 :
 :
 LengthReady

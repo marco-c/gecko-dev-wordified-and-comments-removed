@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 h
 "
@@ -58,7 +58,7 @@ namespace
 dom
 {
 class
-IPCBlobInputStream
+RemoteLazyInputStream
 ;
 class
 ThreadSafeWorkerRef
@@ -114,7 +114,7 @@ State
 ;
 already_AddRefed
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 CreateStream
 (
@@ -123,7 +123,7 @@ CreateStream
 void
 ForgetStream
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 )
@@ -153,7 +153,7 @@ mSize
 void
 StreamNeeded
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 nsIEventTarget
@@ -182,7 +182,7 @@ aStream
 void
 LengthNeeded
 (
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 aStream
 nsIEventTarget
@@ -224,7 +224,7 @@ RemoteLazyInputStreamChild
 ;
 nsTArray
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 *
 >
 mStreams
@@ -248,7 +248,7 @@ PendingOperation
 {
 RefPtr
 <
-IPCBlobInputStream
+RemoteLazyInputStream
 >
 mStream
 ;

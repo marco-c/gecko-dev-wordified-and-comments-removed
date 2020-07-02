@@ -8,7 +8,7 @@ h
 #
 include
 "
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 h
 "
@@ -472,7 +472,7 @@ nsCOMPtr
 <
 mozIRemoteLazyInputStream
 >
-ipcBlobInputStream
+remoteLazyInputStream
 =
 do_QueryInterface
 (
@@ -481,12 +481,12 @@ aInputStream
 ;
 if
 (
-ipcBlobInputStream
+remoteLazyInputStream
 )
 {
 stream
 =
-ipcBlobInputStream
+remoteLazyInputStream
 -
 >
 GetInternalStream
