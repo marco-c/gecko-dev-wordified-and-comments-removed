@@ -18358,7 +18358,7 @@ policy
 )
 )
 {
-mEmbedderPolicyFromHTTP
+mEmbedderPolicy
 =
 Some
 (

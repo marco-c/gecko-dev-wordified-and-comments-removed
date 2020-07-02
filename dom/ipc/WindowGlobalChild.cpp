@@ -1304,7 +1304,7 @@ policy
 aDocument
 -
 >
-GetEmbedderPolicyFromHTTP
+GetEmbedderPolicy
 (
 )
 ;

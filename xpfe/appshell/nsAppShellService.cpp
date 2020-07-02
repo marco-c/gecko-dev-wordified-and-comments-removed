@@ -3607,6 +3607,9 @@ domWindow
 SetInitialPrincipalToSubject
 (
 nullptr
+Nothing
+(
+)
 )
 ;
 nsCOMPtr

@@ -1222,6 +1222,16 @@ SetInitialPrincipalToSubject
 nsIContentSecurityPolicy
 *
 aCSP
+const
+Maybe
+<
+nsILoadInfo
+:
+:
+CrossOriginEmbedderPolicy
+>
+&
+aCoep
 )
 override
 ;
