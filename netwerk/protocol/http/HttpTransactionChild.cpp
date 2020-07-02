@@ -2393,6 +2393,10 @@ mDataBridgeParent
 nullptr
 ;
 }
+mTransactionPump
+=
+nullptr
+;
 if
 (
 mCanceled
