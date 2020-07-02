@@ -2900,7 +2900,9 @@ NS_ERROR_DOM_BAD_URI
 ;
 }
 bool
-hasFlags
+targetURIIsLoadableBySubsumers
+=
+false
 ;
 rv
 =
@@ -2912,7 +2914,7 @@ nsIProtocolHandler
 :
 URI_LOADABLE_BY_SUBSUMERS
 &
-hasFlags
+targetURIIsLoadableBySubsumers
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2923,7 +2925,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLoadableBySubsumers
 )
 {
 rv
@@ -3102,6 +3104,11 @@ return
 NS_OK
 ;
 }
+bool
+targetURIIsLoadableByExtensions
+=
+false
+;
 rv
 =
 NS_URIChainHasFlags
@@ -3112,7 +3119,7 @@ nsIProtocolHandler
 :
 URI_LOADABLE_BY_EXTENSIONS
 &
-hasFlags
+targetURIIsLoadableByExtensions
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3123,7 +3130,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLoadableByExtensions
 &
 &
 BasePrincipal
@@ -3709,7 +3716,7 @@ rv
 }
 }
 bool
-hasFlags
+targetURIIsUIResource
 =
 false
 ;
@@ -3723,7 +3730,7 @@ nsIProtocolHandler
 :
 URI_IS_UI_RESOURCE
 &
-hasFlags
+targetURIIsUIResource
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3734,7 +3741,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsUIResource
 )
 {
 if
@@ -4026,6 +4033,11 @@ return
 NS_ERROR_DOM_BAD_URI
 ;
 }
+bool
+targetURIIsLocalFile
+=
+false
+;
 rv
 =
 NS_URIChainHasFlags
@@ -4036,7 +4048,7 @@ nsIProtocolHandler
 :
 URI_IS_LOCAL_FILE
 &
-hasFlags
+targetURIIsLocalFile
 )
 ;
 NS_ENSURE_SUCCESS
@@ -4047,7 +4059,7 @@ rv
 ;
 if
 (
-hasFlags
+targetURIIsLocalFile
 )
 {
 bool
