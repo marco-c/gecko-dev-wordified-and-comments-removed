@@ -25,12 +25,12 @@ XPIDL_SOURCES
 =
 [
 '
-nsIContentChild
+nsIDOMProcessChild
 .
 idl
 '
 '
-nsIContentParent
+nsIDOMProcessParent
 .
 idl
 '

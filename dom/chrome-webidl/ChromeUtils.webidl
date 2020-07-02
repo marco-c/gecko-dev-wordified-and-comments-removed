@@ -92,7 +92,7 @@ MPL
 *
 /
 interface
-nsIContentChild
+nsIDOMProcessChild
 ;
 /
 *
@@ -3047,8 +3047,8 @@ aKey
 *
 *
 *
-ContentChild
-of
+nsIDOMProcessChild
+for
 the
 current
 process
@@ -3060,9 +3060,9 @@ ChromeOnly
 ]
 readonly
 attribute
-nsIContentChild
+nsIDOMProcessChild
 ?
-contentChild
+domProcessChild
 ;
 /
 /
