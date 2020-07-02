@@ -3361,8 +3361,6 @@ type
 ]
 =
 "
-browsertime
--
 pageload
 "
                     
