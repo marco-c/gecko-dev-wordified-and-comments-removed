@@ -416,8 +416,9 @@ now
 60
 *
 60
-{
-}
+principal
+.
+originAttributes
 Ci
 .
 nsICookie
