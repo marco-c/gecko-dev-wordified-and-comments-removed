@@ -183,7 +183,9 @@ box
 ;
 border
 :
-1px
+0
+.
+01px
 solid
 fieldBorderColor
 ;
@@ -1129,7 +1131,9 @@ container
 {
 border
 :
-1px
+0
+.
+01px
 solid
 transparent
 ;
@@ -5275,7 +5279,9 @@ hsla
 ;
 border
 :
-1px
+0
+.
+01px
 solid
 hsla
 (
