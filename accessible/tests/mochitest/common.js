@@ -41,6 +41,13 @@ Ci
 nsIAccessibleTextChangeEvent
 ;
 const
+nsIAccessibleTextSelectionChangeEvent
+=
+Ci
+.
+nsIAccessibleTextSelectionChangeEvent
+;
+const
 nsIAccessibleVirtualCursorChangeEvent
 =
 Ci
