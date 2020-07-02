@@ -47,6 +47,17 @@ const
 reducers
 =
 {
+default
+:
+(
+state
+=
+{
+}
+)
+=
+>
+state
 }
 ;
 function
