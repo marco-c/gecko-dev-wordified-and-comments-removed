@@ -259,9 +259,6 @@ impl
 AnimationDeclarations
 {
 pub
-(
-crate
-)
 fn
 is_empty
 (

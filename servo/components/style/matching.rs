@@ -1463,6 +1463,14 @@ primary_style_mut
 (
 )
 ;
+let
+old_values
+=
+&
+old_styles
+.
+primary
+;
 if
 context
 .
@@ -1590,6 +1598,7 @@ has_css_transitions
 context
 .
 shared
+None
 )
 {
 self
@@ -1690,6 +1699,10 @@ self
 .
 has_animations
 (
+&
+context
+.
+shared
 )
 {
 tasks

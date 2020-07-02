@@ -3991,9 +3991,6 @@ Canceled
 }
 }
 pub
-(
-crate
-)
 fn
 apply_active_animations
 (
@@ -5497,9 +5494,6 @@ block
 )
 }
 pub
-(
-crate
-)
 fn
 get_all_declarations
 (
@@ -5655,9 +5649,6 @@ transitions
 }
 }
 pub
-(
-crate
-)
 fn
 cancel_all_animations_for_key
 (
