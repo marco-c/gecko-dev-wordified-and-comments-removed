@@ -337,6 +337,16 @@ toolkit
 winRegisterApplicationRestart
 "
 #
+define
+PREF_WIN_ALTERED_DLL_PREFETCH
+"
+startup
+.
+experiments
+.
+alteredDllPrefetch
+"
+#
 if
 defined
 (

@@ -229,6 +229,11 @@ AssembleCmdLine
 h
 '
 '
+DllPrefetchExperimentRegistryInfo
+.
+h
+'
+'
 ModuleVersionInfo
 .
 h
@@ -269,6 +274,11 @@ update
 common
 /
 updateutils_win
+.
+cpp
+'
+'
+DllPrefetchExperimentRegistryInfo
 .
 cpp
 '
