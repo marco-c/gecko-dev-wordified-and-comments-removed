@@ -164,6 +164,7 @@ in
 (
 _settle_mach_module_id
 _patch_absolute_paths
+_delete_server_name
 )
 :
         
@@ -537,6 +538,25 @@ recursive_patch
 sentry_event
 needle
 replacement
+)
+    
+return
+sentry_event
+def
+_delete_server_name
+(
+sentry_event
+_
+)
+:
+    
+sentry_event
+.
+pop
+(
+"
+server_name
+"
 )
     
 return
