@@ -169,13 +169,16 @@ Services
 .
 prefs
 .
-clearUserPref
+setIntPref
 (
 "
 extensions
 .
 sideloadScopes
 "
+AddonManager
+.
+SCOPE_PROFILE
 )
 ;
 await
