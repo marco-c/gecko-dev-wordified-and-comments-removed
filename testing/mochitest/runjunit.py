@@ -1451,6 +1451,17 @@ MOZ_WEBRENDER
 0
 '
         
+env
+.
+update
+(
+self
+.
+options
+.
+addEnv
+)
+        
 for
 (
 env_count
