@@ -2556,6 +2556,8 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+Serialize
+Deserialize
 )
 ]
 #
@@ -2690,6 +2692,8 @@ ToComputedValue
 ToCss
 ToResolvedValue
 ToShmem
+Serialize
+Deserialize
 )
 ]
 pub

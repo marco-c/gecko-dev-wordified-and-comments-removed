@@ -526,6 +526,8 @@ PartialEq
 ToAnimatedZero
 ToCss
 ToResolvedValue
+Serialize
+Deserialize
 )
 ]
 pub
@@ -920,6 +922,8 @@ derive
 (
 Hash
 MallocSizeOf
+Serialize
+Deserialize
 )
 )
 ]
@@ -2364,6 +2368,8 @@ PartialEq
 ToComputedValue
 ToResolvedValue
 ToShmem
+Serialize
+Deserialize
 )
 ]
 pub
