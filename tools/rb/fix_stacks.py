@@ -354,6 +354,9 @@ PIPE
 stderr
 =
 stderr
+universal_newlines
+=
+True
 )
         
 def
