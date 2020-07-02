@@ -249,7 +249,7 @@ if
 oldDisp
 -
 >
-IsAbsPosContainingBlockForNonSVGTextFrames
+IsPositionedStyle
 (
 )
 !
@@ -257,7 +257,7 @@ IsAbsPosContainingBlockForNonSVGTextFrames
 newDisp
 -
 >
-IsAbsPosContainingBlockForNonSVGTextFrames
+IsPositionedStyle
 (
 )
 )
