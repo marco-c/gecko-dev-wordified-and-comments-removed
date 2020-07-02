@@ -267,7 +267,7 @@ GetPlatform
 )
 -
 >
-UseWaylandHardwareVideoDecoding
+UseHardwareVideoDecoding
 (
 )
 )
