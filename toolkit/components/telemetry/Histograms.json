@@ -27779,7 +27779,7 @@ connection
 "
 }
 "
-SPDY_REQUEST_PER_CONN_2
+SPDY_REQUEST_PER_CONN_3
 "
 :
 {
@@ -27855,6 +27855,7 @@ bug_numbers
 :
 [
 1505500
+1642559
 ]
 "
 description
