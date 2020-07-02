@@ -1839,13 +1839,11 @@ aUpgradeListener
 )
 ;
 nsresult
-DoShiftReloadConnectionCleanup
+DoShiftReloadConnectionCleanupWithConnInfo
 (
 nsHttpConnectionInfo
 *
 aCI
-=
-nullptr
 )
 ;
 private
