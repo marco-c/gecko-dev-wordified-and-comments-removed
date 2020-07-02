@@ -88,7 +88,7 @@ Media
 SystemMediaTransportControlsProperty
 ;
 using
-IMSTCDisplayUpdater
+ISMTCDisplayUpdater
 =
 ABI
 :
@@ -332,7 +332,7 @@ WRL
 :
 ComPtr
 <
-IMSTCDisplayUpdater
+ISMTCDisplayUpdater
 >
 mDisplay
 ;
