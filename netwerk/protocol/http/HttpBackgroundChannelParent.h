@@ -171,6 +171,14 @@ aConsoleReports
 )
 ;
 bool
+OnAfterLastPart
+(
+const
+nsresult
+aStatus
+)
+;
+bool
 OnProgress
 (
 const
