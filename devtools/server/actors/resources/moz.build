@@ -12,6 +12,13 @@ index
 .
 js
 '
+'
+platform
+-
+messages
+.
+js
+'
 )
 with
 Files

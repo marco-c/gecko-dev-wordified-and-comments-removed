@@ -312,6 +312,15 @@ CONSOLE_MESSAGE
 ]
 :
 false
+[
+Resources
+.
+TYPES
+.
+PLATFORM_MESSAGE
+]
+:
+false
 }
 }
 }
