@@ -2406,7 +2406,13 @@ reftest
 |
 -
 wdspec
+|
+-
+print
 )
+'
+                       
+'
 (
 |
 .
