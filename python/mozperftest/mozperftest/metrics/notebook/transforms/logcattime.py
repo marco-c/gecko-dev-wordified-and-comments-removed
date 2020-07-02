@@ -732,6 +732,21 @@ processor
         
 )
         
+subtest
+=
+kwargs
+.
+get
+(
+"
+transform
+-
+subtest
+-
+name
+"
+)
+        
 return
 [
             
@@ -768,23 +783,15 @@ alltimes
 subtest
 "
 :
-kwargs
-.
-get
-(
-"
-transform
--
 subtest
--
-name
-"
+if
+subtest
+else
 "
 logcat
 -
 metric
 "
-)
             
 }
         
