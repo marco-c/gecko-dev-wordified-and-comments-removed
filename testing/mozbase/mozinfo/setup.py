@@ -21,7 +21,7 @@ deps
     
 "
 distro
-=
+>
 =
 1
 .
