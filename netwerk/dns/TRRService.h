@@ -50,6 +50,9 @@ nsIPrefBranch
 class
 nsINetworkLinkService
 ;
+class
+nsIObserverService
+;
 namespace
 mozilla
 {
@@ -406,6 +409,11 @@ AddObserver
 nsIObserver
 *
 aObserver
+nsIObserverService
+*
+aObserverService
+=
+nullptr
 )
 ;
 static
@@ -539,6 +547,14 @@ override
 void
 ClearEntireCache
 (
+)
+;
+void
+InitTRRBLStorage
+(
+DataStorage
+*
+aInitedStorage
 )
 ;
 bool

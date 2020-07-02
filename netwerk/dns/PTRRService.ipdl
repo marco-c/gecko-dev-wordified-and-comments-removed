@@ -27,15 +27,6 @@ __delete__
 )
 ;
 async
-NotifyObserver
-(
-nsCString
-aTopic
-nsString
-aData
-)
-;
-async
 UpdatePlatformDNSInformation
 (
 nsCString
