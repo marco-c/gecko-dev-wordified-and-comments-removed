@@ -14709,18 +14709,6 @@ aManager
 aWebProgressData
 -
 >
-outerDOMWindowID
-(
-)
-aWebProgressData
--
->
-innerDOMWindowID
-(
-)
-aWebProgressData
--
->
 loadType
 (
 )
@@ -14747,8 +14735,6 @@ new
 RemoteWebProgress
 (
 aManager
-0
-0
 0
 false
 false
