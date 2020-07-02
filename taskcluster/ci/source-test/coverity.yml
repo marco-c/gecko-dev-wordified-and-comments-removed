@@ -534,10 +534,8 @@ on
 -
 projects
 :
--
-mozilla
--
-central
+[
+]
 run
 :
 cwd
