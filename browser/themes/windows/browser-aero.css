@@ -1932,9 +1932,7 @@ border
 -
 top
 :
-0
-.
-01px
+1px
 solid
 glassShadowColor
 ;
@@ -2054,9 +2052,7 @@ border
 -
 inline
 :
-0
-.
-01px
+1px
 solid
 glassShadowColor
 ;
@@ -2093,9 +2089,7 @@ border
 -
 bottom
 :
-0
-.
-01px
+1px
 solid
 var
 (
