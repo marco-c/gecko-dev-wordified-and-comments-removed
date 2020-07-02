@@ -99,6 +99,13 @@ status
 )
 ;
 async
+OnAfterLastPart
+(
+nsresult
+aStatus
+)
+;
+async
 FlushedForDiversion
 (
 )

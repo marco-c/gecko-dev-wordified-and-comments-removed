@@ -213,6 +213,15 @@ aConsoleReports
 )
 ;
 IPCResult
+RecvOnAfterLastPart
+(
+const
+nsresult
+&
+aStatus
+)
+;
+IPCResult
 RecvOnProgress
 (
 const

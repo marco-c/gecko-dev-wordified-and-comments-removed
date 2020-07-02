@@ -349,13 +349,6 @@ ClassifierInfo
 info
 )
 ;
-async
-OnAfterLastPart
-(
-nsresult
-aStatus
-)
-;
 both
 :
 async
