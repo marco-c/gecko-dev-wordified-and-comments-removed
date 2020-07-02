@@ -31184,7 +31184,7 @@ result
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 DidReflow
@@ -31203,7 +31203,7 @@ NS_FRAME_TRACE
 NS_FRAME_TRACE_CALLS
 (
 "
-nsFrame
+nsIFrame
 :
 :
 DidReflow

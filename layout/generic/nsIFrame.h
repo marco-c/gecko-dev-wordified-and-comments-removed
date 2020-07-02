@@ -7360,8 +7360,6 @@ ReflowInput
 *
 aReflowInput
 )
-=
-0
 ;
 void
 FinishReflowWithAbsoluteFrames
