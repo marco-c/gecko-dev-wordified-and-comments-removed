@@ -682,6 +682,15 @@ PNativeDNSResolverOverride
 (
 )
 ;
+async
+NotifyObserver
+(
+nsCString
+aTopic
+nsString
+aData
+)
+;
 both
 :
 async
