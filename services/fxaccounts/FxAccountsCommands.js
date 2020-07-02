@@ -1291,7 +1291,6 @@ payload
 =
 {
 encrypted
-flowID
 }
 ;
 await
@@ -1434,9 +1433,6 @@ handle
 senderID
 {
 encrypted
-flowID
-:
-deprecatedFlowID
 }
 )
 {
@@ -1547,11 +1543,6 @@ senderID
 )
 {
 flowID
-:
-flowID
-|
-|
-deprecatedFlowID
 streamID
 }
 )
