@@ -32,9 +32,9 @@ RemoteDecoderParent
 RemoteDecoderManagerParent
 *
 aParent
-TaskQueue
+nsISerialEventTarget
 *
-aManagerTaskQueue
+aManagerThread
 TaskQueue
 *
 aDecodeTaskQueue
@@ -48,9 +48,9 @@ mDecodeTaskQueue
 (
 aDecodeTaskQueue
 )
-mManagerTaskQueue
+mManagerThread
 (
-aManagerTaskQueue
+aManagerThread
 )
 mDecodedFramePool
 (
@@ -158,7 +158,7 @@ Init
 >
 Then
 (
-mManagerTaskQueue
+mManagerThread
 __func__
 [
 self
@@ -580,7 +580,7 @@ data
 >
 Then
 (
-mManagerTaskQueue
+mManagerThread
 __func__
 [
 self
@@ -843,7 +843,7 @@ Flush
 >
 Then
 (
-mManagerTaskQueue
+mManagerThread
 __func__
 [
 self
@@ -952,7 +952,7 @@ Drain
 >
 Then
 (
-mManagerTaskQueue
+mManagerThread
 __func__
 [
 self
@@ -1116,7 +1116,7 @@ Shutdown
 >
 Then
 (
-mManagerTaskQueue
+mManagerThread
 __func__
 [
 self

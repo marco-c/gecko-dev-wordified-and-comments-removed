@@ -219,9 +219,9 @@ private
 explicit
 RemoteDecoderManagerParent
 (
-RemoteDecoderManagerThreadHolder
+nsISerialEventTarget
 *
-aThreadHolder
+aThread
 )
 ;
 ~
@@ -273,11 +273,11 @@ TextureClient
 >
 mTextureMap
 ;
-RefPtr
+nsCOMPtr
 <
-RemoteDecoderManagerThreadHolder
+nsISerialEventTarget
 >
-mThreadHolder
+mThread
 ;
 }
 ;
