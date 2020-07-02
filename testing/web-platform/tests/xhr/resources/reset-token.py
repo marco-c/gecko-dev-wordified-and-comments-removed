@@ -12,6 +12,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -27,6 +28,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -39,6 +41,7 @@ request
 .
 GET
 [
+b
 "
 token
 "
@@ -53,6 +56,7 @@ stash
 put
 (
 token
+b
 "
 "
 )
@@ -61,6 +65,7 @@ response
 .
 content
 =
+b
 "
 PASS
 "

@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 location
 "
@@ -25,12 +26,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
         
 if
+b
 "
 redirect_preflight
 "
@@ -52,6 +55,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -73,6 +77,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -82,6 +87,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 "
@@ -93,6 +99,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -111,6 +118,7 @@ request
 method
 =
 =
+u
 "
 GET
 "
@@ -128,6 +136,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -135,6 +144,7 @@ location
 )
     
 if
+b
 "
 allow_origin
 "
@@ -150,6 +160,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -165,6 +176,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -172,6 +184,7 @@ origin
 )
     
 if
+b
 "
 allow_header
 "
@@ -187,6 +200,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -202,6 +216,7 @@ GET
 .
 first
 (
+b
 "
 allow_header
 "

@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -8,6 +14,7 @@ response
     
 location
 =
+u
 "
 %
 s
@@ -26,13 +33,13 @@ request
 url_parts
 .
 scheme
-                              
+                               
 request
 .
 url_parts
 .
 netloc
-                              
+                               
 request
 .
 url_parts
@@ -42,6 +49,7 @@ path
     
 page
 =
+u
 "
 alternate
 "
@@ -61,6 +69,7 @@ GET
 .
 first
 (
+b
 "
 page
 "
@@ -68,6 +77,7 @@ None
 )
 =
 =
+b
 "
 alternate
 "
@@ -75,6 +85,7 @@ alternate
         
 page
 =
+u
 "
 default
 "
@@ -86,6 +97,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -93,6 +105,7 @@ None
 )
 =
 =
+b
 "
 301
 "
@@ -109,6 +122,7 @@ GET
 .
 first
 (
+b
 "
 mix
 "
@@ -116,6 +130,7 @@ None
 )
 =
 =
+b
 "
 1
 "
@@ -138,6 +153,7 @@ else
     
 new_location
 =
+u
 "
 %
 s
@@ -169,11 +185,13 @@ headers
 =
 [
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -182,9 +200,11 @@ cache
 )
                
 (
+b
 "
 Pragma
 "
+b
 "
 no
 -
@@ -193,16 +213,21 @@ cache
 )
                
 (
+b
 "
 Location
 "
+isomorphic_encode
+(
 new_location
+)
 )
 ]
     
 return
 301
 headers
+u
 "
 Hello
 guest

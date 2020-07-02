@@ -1,3 +1,10 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -24,8 +31,12 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 well
 -
@@ -59,15 +70,19 @@ headers
 .
 set
 (
+b
 "
 Last
 -
 Modified
 "
+isomorphic_encode
+(
 srcmoddt
 .
 strftime
 (
+u
 "
 %
 a
@@ -89,6 +104,7 @@ GMT
 "
 )
 )
+)
     
 response
 .
@@ -96,11 +112,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -112,6 +130,7 @@ return
 open
 (
 srcpath
+u
 "
 r
 "

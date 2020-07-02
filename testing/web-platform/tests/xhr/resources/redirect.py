@@ -1,5 +1,11 @@
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -18,6 +24,7 @@ GET
 .
 first
 (
+b
 "
 code
 "
@@ -33,22 +40,28 @@ GET
 .
 first
 (
+b
 "
 location
 "
+isomorphic_encode
+(
 request
 .
 url_parts
 .
 path
 +
+u
 "
 ?
 followed
 "
 )
+)
     
 if
+b
 "
 delay
 "
@@ -68,6 +81,7 @@ GET
 .
 first
 (
+b
 "
 delay
 "
@@ -84,6 +98,7 @@ delay
 )
     
 if
+b
 "
 followed
 "
@@ -96,11 +111,13 @@ GET
 return
 [
 (
+b
 "
 Content
 :
 Type
 "
+b
 "
 text
 /
@@ -108,6 +125,7 @@ plain
 "
 )
 ]
+b
 "
 MAGIC
 HAPPENED
@@ -119,6 +137,7 @@ else
 return
 (
 code
+u
 "
 WEBSRT
 MARKETING
@@ -126,12 +145,14 @@ MARKETING
 )
 [
 (
+b
 "
 Location
 "
 location
 )
 ]
+b
 "
 TEST
 "

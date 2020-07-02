@@ -32,6 +32,7 @@ server_state
 :
             
 return
+b
 "
 Uninitialized
 "
@@ -65,6 +66,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -74,6 +76,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -85,6 +88,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -94,6 +98,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -107,6 +112,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -127,6 +133,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -139,6 +146,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -151,6 +159,7 @@ headers
 .
 get
 (
+b
 "
 x
 -
@@ -163,6 +172,7 @@ response
 .
 content
 =
+b
 "
 FAIL
 :
@@ -185,6 +195,7 @@ else
             
 setState
 (
+b
 "
 PASS
 "
@@ -201,6 +212,7 @@ headers
 .
 get
 (
+b
 "
 x
 -
@@ -225,6 +237,7 @@ response
 .
 content
 =
+b
 "
 FAIL
 :

@@ -8,10 +8,12 @@ response
     
 content
 =
+u
 "
 "
     
 if
+b
 "
 my
 -
@@ -33,6 +35,7 @@ GET
 .
 first
 (
+b
 "
 my
 -
@@ -48,6 +51,7 @@ headers
 .
 set
 (
+b
 "
 My
 -
