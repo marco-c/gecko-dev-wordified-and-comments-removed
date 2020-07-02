@@ -353,6 +353,12 @@ listenForServiceWorkers
 =
 false
 ;
+this
+.
+destroyServiceWorkersOnNavigation
+=
+false
+;
 }
 async
 _onTargetAvailable
