@@ -164,7 +164,7 @@ IsEmpty
 ;
 }
 static
-bool
+void
 Push
 (
 StorageType
@@ -182,9 +182,6 @@ AppendElement
 (
 aEntry
 )
-;
-return
-true
 ;
 }
 static
@@ -518,7 +515,7 @@ mBack
 )
 ;
 }
-bool
+void
 Push
 (
 const
@@ -534,7 +531,6 @@ lock
 this
 )
 ;
-return
 StoragePolicy
 :
 :
