@@ -230,10 +230,11 @@ bool
 kUseTaskController
 =
 !
+!
 PR_GetEnv
 (
 "
-MOZ_DISABLE_TASKCONTROLLER
+MOZ_USE_TASKCONTROLLER
 "
 )
 ;
