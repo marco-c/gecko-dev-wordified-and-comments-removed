@@ -6505,10 +6505,6 @@ RenderTask
 new_mask
 (
 device_rect
-.
-to_i32
-(
-)
 clip_chain
 .
 clips_range
@@ -7581,7 +7577,7 @@ DevicePixelScale
 -
 >
 (
-DeviceIntRect
+DeviceRect
 DevicePixelScale
 )
 {
@@ -7666,10 +7662,6 @@ scale
 round_out
 (
 )
-.
-to_i32
-(
-)
 ;
 (
 new_device_rect
@@ -7680,10 +7672,6 @@ else
 {
 (
 device_rect
-.
-to_i32
-(
-)
 device_pixel_scale
 )
 }
