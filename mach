@@ -168,7 +168,6 @@ test
 geckoview
 -
 junit
-gradle
 hazards
 jsapi
 -
