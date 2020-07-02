@@ -1351,12 +1351,6 @@ case
 roles
 :
 :
-LABEL
-:
-case
-roles
-:
-:
 PAGETAB
 :
 case
