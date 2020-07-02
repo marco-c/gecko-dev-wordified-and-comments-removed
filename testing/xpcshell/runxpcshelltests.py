@@ -12293,11 +12293,10 @@ ancestor_manifest
 '
 in
 test
-and
-'
-/
-'
-in
+:
+                
+ancestor_manifest
+=
 normsep
 (
 test
@@ -12307,8 +12306,15 @@ ancestor_manifest
 '
 ]
 )
-:
                 
+if
+'
+/
+'
+in
+ancestor_manifest
+:
+                    
 group
 =
 "
@@ -12321,12 +12327,7 @@ group
 .
 format
 (
-test
-[
-'
 ancestor_manifest
-'
-]
 group
 )
             
