@@ -252,7 +252,7 @@ Http3Stream
 =
 default
 ;
-void
+bool
 GetHeadersString
 (
 const
@@ -280,6 +280,7 @@ enum
 SendStreamState
 {
 PREPARING_HEADERS
+WAITING_TO_ACTIVATE
 SENDING_BODY
 EARLY_RESPONSE
 SEND_DONE
@@ -314,12 +315,6 @@ nsCString
 mFlatHttpRequestHeaders
 ;
 bool
-mRequestHeadersDone
-;
-bool
-mRequestStarted
-;
-bool
 mQueued
 ;
 bool
@@ -345,9 +340,6 @@ RefPtr
 nsISocketTransport
 >
 mSocketTransport
-;
-bool
-mActivatingFailed
 ;
 uint64_t
 mTotalSent
