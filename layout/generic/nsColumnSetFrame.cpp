@@ -4513,6 +4513,12 @@ maybeContinuousBreakingDetected
 =
 false
 ;
+const
+nscoord
+extraBlockSize
+=
+600
+;
 while
 (
 !
@@ -4789,7 +4795,7 @@ mKnownFeasibleBSize
 -
 nextGuess
 <
-600
+extraBlockSize
 &
 &
 !
@@ -4821,7 +4827,7 @@ aConfig
 .
 mUsedColCount
 +
-600
+extraBlockSize
 ;
 nextGuess
 =
@@ -4860,7 +4866,7 @@ mKnownInfeasibleBSize
 *
 2
 +
-600
+extraBlockSize
 ;
 }
 nextGuess
