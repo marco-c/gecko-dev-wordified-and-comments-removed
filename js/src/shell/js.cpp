@@ -35717,16 +35717,6 @@ length
 |
 (
 args
-.
-length
-(
-)
-=
-=
-1
-&
-&
-args
 [
 0
 ]
