@@ -83,8 +83,9 @@ aDocument
 bool
 RegisterPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 PreloaderBase
 *
@@ -94,8 +95,9 @@ aPreload
 void
 DeregisterPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 ;
@@ -107,8 +109,9 @@ ClearAllPreloads
 bool
 PreloadExists
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 ;
@@ -118,8 +121,9 @@ PreloaderBase
 >
 LookupPreload
 (
+const
 PreloadHashKey
-*
+&
 aKey
 )
 const

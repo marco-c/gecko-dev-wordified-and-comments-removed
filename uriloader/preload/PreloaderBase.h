@@ -128,8 +128,9 @@ default
 void
 NotifyOpen
 (
+const
 PreloadHashKey
-*
+&
 aKey
 dom
 :
@@ -144,8 +145,9 @@ aIsPreload
 void
 NotifyOpen
 (
+const
 PreloadHashKey
-*
+&
 aKey
 nsIChannel
 *

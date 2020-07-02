@@ -430,8 +430,9 @@ PreloaderBase
 :
 NotifyOpen
 (
+const
 PreloadHashKey
-*
+&
 aKey
 dom
 :
@@ -497,7 +498,6 @@ this
 }
 mKey
 =
-*
 aKey
 ;
 mIsUsed
@@ -512,8 +512,9 @@ PreloaderBase
 :
 NotifyOpen
 (
+const
 PreloadHashKey
-*
+&
 aKey
 nsIChannel
 *
@@ -744,7 +745,6 @@ Preloads
 .
 DeregisterPreload
 (
-&
 mKey
 )
 ;

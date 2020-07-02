@@ -161,8 +161,9 @@ FetchPreloader
 :
 OpenChannel
 (
+const
 PreloadHashKey
-*
+&
 aKey
 nsIURI
 *
