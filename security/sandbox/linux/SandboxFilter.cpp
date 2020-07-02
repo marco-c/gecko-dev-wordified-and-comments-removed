@@ -7399,6 +7399,14 @@ Allow
 (
 )
 ;
+case
+__NR_uname
+:
+return
+Allow
+(
+)
+;
 default
 :
 return
