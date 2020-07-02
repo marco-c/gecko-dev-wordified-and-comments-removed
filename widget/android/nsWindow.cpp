@@ -5066,6 +5066,7 @@ Throwable
 )
 )
 ;
+}
 results
 -
 >
@@ -5073,7 +5074,6 @@ pop
 (
 )
 ;
-}
 }
 compositor
 -
@@ -6611,6 +6611,16 @@ mWindow
 }
 )
 {
+if
+(
+!
+mCapturePixelsResults
+.
+empty
+(
+)
+)
+{
 request
 =
 mCapturePixelsResults
@@ -6634,11 +6644,6 @@ request
 mResult
 )
 ;
-if
-(
-result
-)
-{
 mCapturePixelsResults
 .
 pop
