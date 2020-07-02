@@ -512,7 +512,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib
 python3
@@ -525,7 +525,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 /

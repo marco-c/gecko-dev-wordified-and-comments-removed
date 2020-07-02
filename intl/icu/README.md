@@ -3216,7 +3216,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 /
@@ -3722,7 +3722,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 /
@@ -3976,7 +3976,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 /
@@ -4190,7 +4190,7 @@ third_party
 /
 python
 /
-pyyaml
+PyYAML
 /
 lib3
 /
