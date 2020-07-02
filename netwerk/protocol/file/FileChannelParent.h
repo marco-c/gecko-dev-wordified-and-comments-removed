@@ -58,9 +58,9 @@ bool
 Init
 (
 const
-uint32_t
+uint64_t
 &
-aArgs
+aChannelId
 )
 ;
 private

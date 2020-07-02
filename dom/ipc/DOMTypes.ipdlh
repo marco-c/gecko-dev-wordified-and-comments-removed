@@ -792,7 +792,7 @@ HeadersStream
 nsString
 SrcdocData
 ;
-uint32_t
+uint64_t
 LoadIdentifier
 ;
 }

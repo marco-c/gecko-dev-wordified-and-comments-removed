@@ -2817,7 +2817,7 @@ aFlags
 nsresult
 NS_LinkRedirectChannels
 (
-uint32_t
+uint64_t
 channelId
 nsIParentChannel
 *

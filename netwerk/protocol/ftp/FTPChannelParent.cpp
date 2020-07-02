@@ -873,7 +873,7 @@ FTPChannelParent
 ConnectChannel
 (
 const
-uint32_t
+uint64_t
 &
 channelId
 )
@@ -898,7 +898,9 @@ p
 id
 =
 %
-d
+"
+PRIx64
+"
 ]
 "
 this

@@ -10219,6 +10219,15 @@ MOZ_ASSERT
 registrar
 )
 ;
+mRedirectChannelId
+=
+nsContentUtils
+:
+:
+GenerateLoadIdentifier
+(
+)
+;
 rv
 =
 registrar
@@ -10227,7 +10236,6 @@ registrar
 RegisterChannel
 (
 newChannel
-&
 mRedirectChannelId
 )
 ;
@@ -10249,8 +10257,8 @@ under
 id
 =
 %
-d
 "
+PRIx64
 newChannel
 mRedirectChannelId
 )
@@ -12650,8 +12658,8 @@ under
 id
 =
 %
-d
 "
+PRIx64
 mRedirectChannelId
 )
 )

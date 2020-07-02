@@ -6945,6 +6945,12 @@ GenerateWindowId
 )
 ;
 static
+uint64_t
+GenerateLoadIdentifier
+(
+)
+;
+static
 bool
 GetUserIsInteracting
 (

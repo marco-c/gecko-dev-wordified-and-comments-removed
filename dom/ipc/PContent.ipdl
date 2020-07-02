@@ -3206,7 +3206,7 @@ browsingContext
 async
 ExtProtocolChannelConnectParent
 (
-uint32_t
+uint64_t
 registrarId
 )
 ;

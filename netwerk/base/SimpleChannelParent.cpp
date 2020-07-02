@@ -47,9 +47,9 @@ SimpleChannelParent
 Init
 (
 const
-uint32_t
+uint64_t
 &
-channelId
+aChannelId
 )
 {
 nsCOMPtr
@@ -62,7 +62,7 @@ MOZ_ALWAYS_SUCCEEDS
 (
 NS_LinkRedirectChannels
 (
-channelId
+aChannelId
 this
 getter_AddRefs
 (

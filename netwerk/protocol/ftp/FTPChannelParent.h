@@ -245,7 +245,7 @@ bool
 ConnectChannel
 (
 const
-uint32_t
+uint64_t
 &
 channelId
 )
