@@ -7170,6 +7170,7 @@ EditorRawDOMPoint
 &
 aPointToInsert
 )
+const
 {
 if
 (

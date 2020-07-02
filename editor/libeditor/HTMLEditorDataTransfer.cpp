@@ -2130,6 +2130,7 @@ rv
 ;
 }
 }
+const
 bool
 insertionPointWasInLink
 =
