@@ -623,7 +623,7 @@ ForcePlainText
 (
 )
 ;
-void
+bool
 MapStreamToHttpConnection
 (
 nsISocketTransport

@@ -5451,7 +5451,7 @@ mForcePlainText
 true
 ;
 }
-void
+bool
 SpdyConnectTransaction
 :
 :
@@ -5519,6 +5519,7 @@ aHttpResponseCode
 )
 ;
 return
+false
 ;
 }
 mConnInfo
@@ -5889,6 +5890,9 @@ mDrivingTransaction
 nullptr
 ;
 }
+return
+true
+;
 }
 nsresult
 SpdyConnectTransaction
