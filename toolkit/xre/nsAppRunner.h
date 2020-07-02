@@ -399,6 +399,11 @@ PlatformBuildID
 (
 )
 ;
+bool
+RunningGTest
+(
+)
+;
 }
 void
 SetupErrorHandling

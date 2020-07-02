@@ -182,7 +182,7 @@ GetSingleton
 ;
 PR_Sleep
 (
-10
+3
 *
 PR_TicksPerSecond
 (
