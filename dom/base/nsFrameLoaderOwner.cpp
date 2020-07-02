@@ -1095,6 +1095,14 @@ XRE_IsParentProcess
 )
 )
 ;
+bool
+isRemote
+=
+aContentParent
+!
+=
+nullptr
+;
 std
 :
 :
@@ -1110,6 +1118,11 @@ frameLoaderInit
 &
 ]
 {
+if
+(
+isRemote
+)
+{
 mFrameLoader
 -
 >
@@ -1124,6 +1137,7 @@ GetRemoteType
 aContentParent
 )
 ;
+}
 mFrameLoader
 -
 >
@@ -1139,7 +1153,7 @@ shouldPreserve
 =
 ShouldPreserveBrowsingContext
 (
-true
+isRemote
 aReplaceBrowsingContext
 )
 ;
@@ -1147,7 +1161,7 @@ ChangeRemotenessCommon
 (
 shouldPreserve
 true
-true
+isRemote
 frameLoaderInit
 rv
 )
