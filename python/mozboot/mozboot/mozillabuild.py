@@ -379,20 +379,6 @@ no_system_changes
 =
 no_system_changes
 )
-        
-print
-(
-"
-mach
-bootstrap
-is
-not
-fully
-implemented
-in
-MozillaBuild
-"
-)
     
 def
 which
