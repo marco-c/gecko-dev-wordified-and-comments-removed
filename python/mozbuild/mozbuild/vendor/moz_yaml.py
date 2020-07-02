@@ -157,14 +157,22 @@ BSD
 3
 -
 Clause
+"
+    
+"
+BSD
+-
+3
+-
+Clause
 -
 Clear
 "
     
 "
-GPL
+CC0
 -
-3
+1
 .
 0
 "
@@ -211,6 +219,18 @@ MPL
 2
 .
 0
+"
+    
+"
+Unlicense
+"
+    
+"
+WTFPL
+"
+    
+"
+Zlib
 "
     
 "
@@ -3283,7 +3303,8 @@ as
 per
 our
     
-whitelist
+allow
+list
 .
 "
 "
