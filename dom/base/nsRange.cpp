@@ -4019,6 +4019,7 @@ nsRange
 :
 ComparePoint
 (
+const
 nsINode
 &
 aContainer
@@ -4049,8 +4050,15 @@ const
 RawRangeBoundary
 point
 {
+const_cast
+<
+nsINode
+*
+>
+(
 &
 aContainer
+)
 aOffset
 }
 ;
