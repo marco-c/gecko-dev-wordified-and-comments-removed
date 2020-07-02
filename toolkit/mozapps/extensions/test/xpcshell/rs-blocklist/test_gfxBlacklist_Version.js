@@ -244,7 +244,7 @@ promiseStartupManager
 )
 ;
 function
-checkBlacklist
+checkBlocklist
 (
 )
 {
@@ -800,7 +800,7 @@ aData
 {
 executeSoon
 (
-checkBlacklist
+checkBlocklist
 )
 ;
 }
