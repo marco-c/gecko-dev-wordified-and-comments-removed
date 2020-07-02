@@ -4618,6 +4618,9 @@ void
 DoWalk
 (
 nsDeque
+<
+PtrInfo
+>
 &
 aQueue
 )
@@ -4626,6 +4629,9 @@ void
 CheckedPush
 (
 nsDeque
+<
+PtrInfo
+>
 &
 aQueue
 PtrInfo
@@ -4830,6 +4836,9 @@ aPi
 )
 {
 nsDeque
+<
+PtrInfo
+>
 queue
 ;
 CheckedPush
@@ -4865,6 +4874,9 @@ aGraph
 )
 {
 nsDeque
+<
+PtrInfo
+>
 queue
 ;
 NodePool
@@ -4929,6 +4941,9 @@ Visitor
 DoWalk
 (
 nsDeque
+<
+PtrInfo
+>
 &
 aQueue
 )
@@ -4948,17 +4963,10 @@ PtrInfo
 *
 pi
 =
-static_cast
-<
-PtrInfo
-*
->
-(
 aQueue
 .
 PopFront
 (
-)
 )
 ;
 if

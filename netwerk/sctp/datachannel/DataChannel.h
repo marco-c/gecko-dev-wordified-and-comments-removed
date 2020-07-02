@@ -1737,6 +1737,9 @@ mCurrentStream
 0
 ;
 nsDeque
+<
+DataChannel
+>
 mPending
 ;
 size_t
