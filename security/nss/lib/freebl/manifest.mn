@@ -807,6 +807,17 @@ EXTRA_SRCS
 (
 NULL
 )
+ifndef
+NSS_DISABLE_DEPRECATED_SEED
+CSRCS
++
+=
+deprecated
+/
+seed
+.
+c
+endif
 ALL_CSRCS
 :
 =

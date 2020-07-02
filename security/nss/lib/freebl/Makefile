@@ -4059,17 +4059,6 @@ DEFINES
 DKRML_VERIFIED_UINT128
 endif
 ifndef
-NSS_DISABLE_DEPRECATED_SEED
-CSRCS
-+
-=
-deprecated
-/
-seed
-.
-c
-endif
-ifndef
 NSS_DISABLE_CHACHAPOLY
 ifeq
 (
