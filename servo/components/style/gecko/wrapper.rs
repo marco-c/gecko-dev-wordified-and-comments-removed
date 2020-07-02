@@ -8675,6 +8675,10 @@ has_css_animations
 (
 &
 self
+_
+:
+&
+SharedStyleContext
 )
 -
 >
