@@ -15379,7 +15379,7 @@ ErrorObject
 )
 )
 ;
-MOZ_ASSERT
+if
 (
 errorObj
 -
@@ -15391,7 +15391,7 @@ type
 =
 JSEXN_AGGREGATEERR
 )
-;
+{
 RootedValue
 errorsVal
 (
@@ -15460,6 +15460,7 @@ SavedFrame
 (
 )
 ;
+}
 }
 }
 cx
