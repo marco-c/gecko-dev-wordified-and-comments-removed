@@ -6625,7 +6625,7 @@ aActionHint
 AssignLiteral
 (
 "
-next
+maybenext
 "
 )
 ;
