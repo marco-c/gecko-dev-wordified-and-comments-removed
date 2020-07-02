@@ -3899,7 +3899,7 @@ min_y
 surface
 .
 is_opaque
-true
+false
 )
 ;
 }
