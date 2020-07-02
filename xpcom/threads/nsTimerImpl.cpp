@@ -72,6 +72,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 nsThreadManager
 .
 h
@@ -3411,10 +3420,9 @@ info
 dli_fname
 )
 {
-snprintf
+SprintfLiteral
 (
 buf
-buflen
 "
 #
 0
