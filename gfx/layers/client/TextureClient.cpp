@@ -1523,13 +1523,6 @@ textureType
 )
 ;
 }
-textureType
-=
-TextureType
-:
-:
-Unknown
-;
 }
 switch
 (

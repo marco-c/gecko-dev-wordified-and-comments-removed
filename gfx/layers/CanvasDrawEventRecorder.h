@@ -193,16 +193,6 @@ mGood
 =
 false
 ;
-mRead
--
->
-state
-=
-State
-:
-:
-Failed
-;
 }
 void
 write
@@ -316,7 +306,6 @@ Processing
 AboutToWait
 Waiting
 Stopped
-Failed
 }
 ;
 struct
