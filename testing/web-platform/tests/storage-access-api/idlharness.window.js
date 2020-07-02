@@ -10,10 +10,6 @@ idl_test
 storage
 -
 access
--
-api
-.
-tentative
 '
 ]
 [
