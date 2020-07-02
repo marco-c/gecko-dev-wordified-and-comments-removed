@@ -2310,10 +2310,10 @@ first_ack_range
 u64
 ack_ranges
 :
-Vec
-<
+&
+[
 AckRange
->
+]
 )
 -
 >
@@ -5558,8 +5558,7 @@ decode_ack_frame
 (
 7
 2
-vec
-!
+&
 [
 AckRange
 {

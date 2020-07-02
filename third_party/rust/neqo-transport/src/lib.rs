@@ -242,7 +242,7 @@ Error
 {
 NoError
 InternalError
-ServerBusy
+ConnectionRefused
 FlowControlError
 StreamLimitError
 StreamStateError
@@ -345,7 +345,7 @@ _
 Self
 :
 :
-ServerBusy
+ConnectionRefused
 =
 >
 2

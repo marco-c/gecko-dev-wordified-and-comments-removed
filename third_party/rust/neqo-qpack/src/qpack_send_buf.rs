@@ -758,13 +758,11 @@ Self
 :
 Target
 {
+&
+*
 self
 .
 buf
-.
-deref
-(
-)
 }
 }
 #
