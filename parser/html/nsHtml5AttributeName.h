@@ -1480,6 +1480,11 @@ ATTR_EDGE
 static
 nsHtml5AttributeName
 *
+ATTR_ENTERKEYHINT
+;
+static
+nsHtml5AttributeName
+*
 ATTR_FACE
 ;
 static
