@@ -72,6 +72,14 @@ long
 long
 childID
 ;
+[
+infallible
+]
+readonly
+attribute
+long
+osPid
+;
 JSProcessActorParent
 getActor
 (
