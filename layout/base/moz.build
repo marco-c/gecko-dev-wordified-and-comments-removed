@@ -344,6 +344,11 @@ ArenaObjectID
 h
 '
 '
+AutoResizeReflowSquasher
+.
+h
+'
+'
 GeckoMVMContext
 .
 h
@@ -459,6 +464,11 @@ cpp
 '
 '
 AccessibleCaretManager
+.
+cpp
+'
+'
+AutoResizeReflowSquasher
 .
 cpp
 '
