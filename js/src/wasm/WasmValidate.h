@@ -392,12 +392,12 @@ dataCount
 MemoryUsage
 memoryUsage
 ;
-uint32_t
+uint64_t
 minMemoryLength
 ;
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxMemoryLength
 ;

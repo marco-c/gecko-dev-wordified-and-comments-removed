@@ -103,7 +103,7 @@ length_
 Mutex
 growLock_
 ;
-uint32_t
+uint64_t
 maxSize_
 ;
 size_t
@@ -176,7 +176,7 @@ uint8_t
 buffer
 uint32_t
 length
-uint32_t
+uint64_t
 maxSize
 size_t
 mappedSize
@@ -299,7 +299,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 &
 maxSize
@@ -427,7 +427,7 @@ return
 length_
 ;
 }
-uint32_t
+uint64_t
 maxSize
 (
 )
@@ -460,7 +460,7 @@ preparedForWasm_
 void
 tryGrowMaxSizeInPlace
 (
-uint32_t
+uint64_t
 deltaMaxSize
 )
 ;
@@ -772,7 +772,7 @@ mozilla
 :
 Maybe
 <
-uint32_t
+uint64_t
 >
 wasmMaxSize
 (

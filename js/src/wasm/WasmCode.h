@@ -1239,7 +1239,7 @@ kind
 MemoryUsage
 memoryUsage
 ;
-uint32_t
+uint64_t
 minMemoryLength
 ;
 uint32_t
@@ -1247,7 +1247,7 @@ globalDataLength
 ;
 Maybe
 <
-uint32_t
+uint64_t
 >
 maxMemoryLength
 ;
