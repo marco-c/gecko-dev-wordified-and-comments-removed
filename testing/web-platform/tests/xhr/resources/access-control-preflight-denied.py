@@ -17,15 +17,13 @@ response
 .
 content
 =
+b
 "
 FAIL
 :
 "
 +
-str
-(
 message
-)
         
 response
 .
@@ -59,6 +57,7 @@ server_state
 :
             
 return
+b
 "
 Uninitialized
 "
@@ -96,6 +95,7 @@ token
 setState
 (
 token
+b
 "
 "
 )
@@ -106,11 +106,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -124,6 +126,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -139,6 +142,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -151,6 +155,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -171,6 +176,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -192,6 +198,7 @@ GET
 .
 first
 (
+b
 "
 command
 "
@@ -202,6 +209,7 @@ if
 command
 =
 =
+b
 "
 reset
 "
@@ -213,6 +221,7 @@ request
 method
 =
 =
+u
 "
 GET
 "
@@ -227,6 +236,7 @@ response
 .
 content
 =
+b
 "
 Server
 state
@@ -238,6 +248,7 @@ else
             
 fail
 (
+b
 "
 Invalid
 Method
@@ -249,6 +260,7 @@ elif
 state
 =
 =
+b
 "
 Uninitialized
 "
@@ -260,6 +272,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -269,6 +282,7 @@ response
 .
 content
 =
+b
 "
 This
 request
@@ -282,6 +296,7 @@ displayed
 setState
 (
 token
+b
 "
 Denied
 "
@@ -299,6 +314,7 @@ elif
 state
 =
 =
+b
 "
 Denied
 "
@@ -310,6 +326,7 @@ request
 method
 =
 =
+u
 "
 GET
 "
@@ -317,6 +334,7 @@ and
 command
 =
 =
+b
 "
 complete
 "
@@ -331,6 +349,7 @@ response
 .
 content
 =
+b
 "
 Request
 successfully
@@ -344,6 +363,7 @@ else
 setState
 (
 token
+b
 "
 Deny
 Ignored
@@ -352,6 +372,7 @@ Ignored
             
 fail
 (
+b
 "
 The
 request
@@ -366,6 +387,7 @@ elif
 state
 =
 =
+b
 "
 Deny
 Ignored
@@ -392,6 +414,7 @@ token
         
 fail
 (
+b
 "
 Unknown
 Error

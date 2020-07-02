@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -17,22 +23,24 @@ response
 .
 content
 =
+b
 "
 FAIL
 "
 +
+isomorphic_encode
+(
 request
 .
 method
+)
 +
+b
 "
 :
 "
 +
-str
-(
 message
-)
     
 def
 getState
@@ -60,6 +68,7 @@ server_state
 :
             
 return
+b
 "
 Uninitialized
 "
@@ -93,6 +102,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -108,6 +118,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -120,6 +131,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -129,6 +141,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -142,6 +155,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -159,6 +173,7 @@ if
 state
 =
 =
+b
 "
 Uninitialized
 "
@@ -170,6 +185,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -181,6 +197,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -190,6 +207,7 @@ Allow
 -
 Methods
 "
+b
 "
 PUT
 "
@@ -201,6 +219,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -215,6 +234,7 @@ Age
             
 setState
 (
+b
 "
 OPTIONSSent
 "
@@ -233,6 +253,7 @@ elif
 state
 =
 =
+b
 "
 OPTIONSSent
 "
@@ -244,6 +265,7 @@ request
 method
 =
 =
+u
 "
 PUT
 "
@@ -253,6 +275,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :
@@ -264,6 +287,7 @@ request
             
 setState
 (
+b
 "
 FirstPUTSent
 "
@@ -282,6 +306,7 @@ elif
 state
 =
 =
+b
 "
 FirstPUTSent
 "
@@ -293,6 +318,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -304,6 +330,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -313,6 +340,7 @@ Allow
 -
 Methods
 "
+b
 "
 PUT
 XMETHOD
@@ -325,6 +353,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -334,6 +363,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -343,6 +373,7 @@ test
             
 setState
 (
+b
 "
 SecondOPTIONSSent
 "
@@ -355,6 +386,7 @@ request
 method
 =
 =
+u
 "
 PUT
 "
@@ -362,6 +394,7 @@ PUT
             
 fail
 (
+b
 "
 Second
 PUT
@@ -384,6 +417,7 @@ elif
 state
 =
 =
+b
 "
 SecondOPTIONSSent
 "
@@ -395,6 +429,7 @@ request
 method
 =
 =
+u
 "
 PUT
 "
@@ -404,6 +439,7 @@ request
 method
 =
 =
+u
 "
 XMETHOD
 "
@@ -413,6 +449,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :

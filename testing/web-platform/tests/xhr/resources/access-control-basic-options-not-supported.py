@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -30,12 +32,14 @@ request
 method
 !
 =
+u
 "
 OPTIONS
 "
 :
         
 if
+b
 "
 origin
 "
@@ -51,6 +55,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -60,6 +65,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -71,6 +77,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -84,6 +91,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "

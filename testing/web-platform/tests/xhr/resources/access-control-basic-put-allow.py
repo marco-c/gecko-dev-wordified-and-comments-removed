@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -23,11 +30,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -41,6 +50,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -50,6 +60,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -61,6 +72,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -70,6 +82,7 @@ Allow
 -
 Methods
 "
+b
 "
 PUT
 "
@@ -81,6 +94,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -96,6 +110,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -108,6 +123,7 @@ request
 method
 =
 =
+u
 "
 PUT
 "
@@ -119,11 +135,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -137,6 +155,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -146,6 +165,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -157,6 +177,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -172,6 +193,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -182,6 +204,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :
@@ -201,6 +224,7 @@ response
 content
 +
 =
+b
 "
 \
 n
@@ -218,6 +242,7 @@ response
 content
 +
 =
+b
 "
 Could
 not
@@ -236,11 +261,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -252,12 +279,16 @@ response
 .
 content
 =
+b
 "
 Wrong
 method
 :
 "
 +
+isomorphic_encode
+(
 request
 .
 method
+)
