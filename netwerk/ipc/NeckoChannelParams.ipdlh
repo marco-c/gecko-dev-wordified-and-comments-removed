@@ -406,6 +406,9 @@ bool
 allowDeprecatedSystemRequests
 ;
 bool
+isInDevToolsContext
+;
+bool
 parserCreatedScript
 ;
 bool
@@ -456,6 +459,9 @@ hasValidUserGestureActivation
 ;
 bool
 allowDeprecatedSystemRequests
+;
+bool
+isInDevToolsContext
 ;
 bool
 parserCreatedScript

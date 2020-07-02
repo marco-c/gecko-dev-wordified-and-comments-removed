@@ -1414,6 +1414,14 @@ return
 }
 channel
 .
+loadInfo
+.
+isInDevToolsContext
+=
+true
+;
+channel
+.
 loadFlags
 =
 aOptions

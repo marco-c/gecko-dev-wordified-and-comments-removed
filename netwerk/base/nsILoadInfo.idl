@@ -888,6 +888,13 @@ infallible
 ]
 attribute
 boolean
+isInDevToolsContext
+;
+[
+infallible
+]
+attribute
+boolean
 isInThirdPartyContext
 ;
 [

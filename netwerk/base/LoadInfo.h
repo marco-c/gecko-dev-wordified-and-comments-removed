@@ -628,6 +628,8 @@ aHasValidUserGestureActivation
 bool
 aAllowDeprecatedSystemRequests
 bool
+aIsDevToolsContext
+bool
 aParserCreatedScript
 bool
 aHasStoragePermission
@@ -1064,6 +1066,9 @@ mHasValidUserGestureActivation
 ;
 bool
 mAllowDeprecatedSystemRequests
+;
+bool
+mIsInDevToolsContext
 ;
 bool
 mParserCreatedScript

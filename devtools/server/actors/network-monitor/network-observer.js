@@ -330,15 +330,7 @@ channel
 .
 loadInfo
 .
-internalContentPolicyType
-=
-=
-=
-Ci
-.
-nsIContentPolicy
-.
-TYPE_INTERNAL_STYLESHEET
+isInDevToolsContext
 )
 )
 {
