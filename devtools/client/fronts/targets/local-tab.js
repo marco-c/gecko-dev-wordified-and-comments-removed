@@ -436,6 +436,8 @@ targetSwitchingEnabled
 {
 toolbox
 .
+targetList
+.
 switchToTarget
 (
 newTarget
