@@ -229,7 +229,7 @@ if
 actorChild
 -
 >
-SendPIPCBlobInputStreamConstructor
+SendPRemoteLazyInputStreamConstructor
 (
 mActor
 mActor

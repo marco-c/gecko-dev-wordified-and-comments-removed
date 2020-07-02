@@ -1344,7 +1344,7 @@ type
 IPCBlobInputStreamParams
 :
 :
-TPIPCBlobInputStreamChild
+TPRemoteLazyInputStreamChild
 )
 ;
 IPCBlobInputStreamChild
@@ -1359,7 +1359,7 @@ IPCBlobInputStreamChild
 (
 params
 .
-get_PIPCBlobInputStreamChild
+get_PRemoteLazyInputStreamChild
 (
 )
 )

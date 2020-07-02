@@ -64,7 +64,7 @@ class
 ContentParent
 ;
 class
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 ;
 namespace
 IPCBlobUtils
@@ -157,7 +157,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent
@@ -174,7 +174,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent

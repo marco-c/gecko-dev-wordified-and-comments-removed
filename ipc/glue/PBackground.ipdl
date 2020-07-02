@@ -150,7 +150,7 @@ PIdleScheduler
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 include
 protocol
@@ -404,7 +404,7 @@ manages
 PIdleScheduler
 ;
 manages
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 manages
 PMediaTransport
@@ -1071,7 +1071,7 @@ both
 :
 /
 /
-PIPCBlobInputStream
+PRemoteLazyInputStream
 is
 created
 on
@@ -1082,14 +1082,14 @@ only
 if
 the
 child
+/
+/
 starts
-/
-/
 a
 migration
 .
 async
-PIPCBlobInputStream
+PRemoteLazyInputStream
 (
 nsID
 aID

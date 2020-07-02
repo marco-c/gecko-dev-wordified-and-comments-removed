@@ -66,7 +66,7 @@ PParentToChildStream
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 include
 IPCStream
@@ -171,7 +171,7 @@ child
 will
 receive
 a
-IPCBlobInputStream
+RemoteLazyInputStream
 .
 Nothing
 /
@@ -186,7 +186,7 @@ retrieving
 the
 size
 .
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 /
 /

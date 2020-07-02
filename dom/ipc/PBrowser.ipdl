@@ -41,7 +41,7 @@ PFileDescriptorSet
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 include
 protocol
