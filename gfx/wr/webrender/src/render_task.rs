@@ -755,7 +755,7 @@ CacheMaskTask
 pub
 actual_rect
 :
-DeviceRect
+DeviceIntRect
 pub
 root_spatial_node_index
 :
@@ -868,7 +868,7 @@ bool
 pub
 content_origin
 :
-DevicePoint
+DeviceIntPoint
 pub
 uv_rect_handle
 :
@@ -2203,7 +2203,7 @@ pic_index
 PictureIndex
 content_origin
 :
-DevicePoint
+DeviceIntPoint
 uv_rect_kind
 :
 UvRectKind
@@ -2639,7 +2639,7 @@ new_mask
 (
 outer_rect
 :
-DeviceRect
+DeviceIntRect
 clip_node_range
 :
 ClipNodeRange
@@ -3015,10 +3015,6 @@ with_dynamic_location
 outer_rect
 .
 size
-.
-to_i32
-(
-)
 smallvec
 !
 [
@@ -5312,11 +5308,15 @@ task
 content_origin
 .
 x
+as
+f32
 task
 .
 content_origin
 .
 y
+as
+f32
 ]
 }
 RenderTaskKind
@@ -5343,6 +5343,8 @@ actual_rect
 origin
 .
 x
+as
+f32
 task
 .
 actual_rect
@@ -5350,6 +5352,8 @@ actual_rect
 origin
 .
 y
+as
+f32
 ]
 }
 RenderTaskKind
