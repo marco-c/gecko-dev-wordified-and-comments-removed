@@ -14731,6 +14731,16 @@ GetExtantBrowsingContext
 (
 )
 {
+if
+(
+!
+mPendingBrowsingContext
+)
+{
+return
+nullptr
+;
+}
 BrowsingContext
 *
 browsingContext
