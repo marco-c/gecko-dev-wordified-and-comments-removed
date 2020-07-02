@@ -2942,6 +2942,20 @@ tests
 kwargs
 )
         
+ids_to_tests
+=
+{
+test
+.
+id
+:
+test
+for
+test
+in
+tests
+}
+        
 test_queue
 =
 Queue
@@ -2950,7 +2964,7 @@ Queue
         
 for
 group_name
-tests
+test_ids
 in
 iteritems
 (
@@ -2975,10 +2989,17 @@ deque
 )
             
 for
-test
+test_id
 in
-tests
+test_ids
 :
+                
+test
+=
+ids_to_tests
+[
+test_id
+]
                 
 group
 .
@@ -3099,6 +3120,8 @@ group
 append
 (
 test
+.
+id
 )
         
 return
