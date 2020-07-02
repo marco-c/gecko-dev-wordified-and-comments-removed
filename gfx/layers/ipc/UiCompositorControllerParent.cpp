@@ -1312,6 +1312,10 @@ if
 (
 !
 state
+|
+|
+!
+state
 -
 >
 mParent
