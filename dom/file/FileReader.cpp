@@ -581,7 +581,7 @@ else
 {
 mTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

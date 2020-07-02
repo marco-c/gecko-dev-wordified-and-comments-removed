@@ -1596,7 +1596,7 @@ nsISerialEventTarget
 >
 bgEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;
@@ -1807,7 +1807,7 @@ DEFAULT_REMOTE_TYPE
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

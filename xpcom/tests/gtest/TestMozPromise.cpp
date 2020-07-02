@@ -2635,7 +2635,7 @@ __func__
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -2765,7 +2765,7 @@ promise2
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -2866,7 +2866,7 @@ promise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -2944,7 +2944,7 @@ promise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3011,7 +3011,7 @@ value2
 =
 false
 ;
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3029,7 +3029,7 @@ test
 (
 )
 {
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3107,7 +3107,7 @@ promise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3174,7 +3174,7 @@ value2
 =
 false
 ;
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3192,7 +3192,7 @@ test
 (
 )
 {
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3270,7 +3270,7 @@ promise1
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3345,7 +3345,7 @@ DO_FAIL
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__
@@ -3412,7 +3412,7 @@ value2
 =
 false
 ;
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3430,7 +3430,7 @@ test
 (
 )
 {
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -3511,7 +3511,7 @@ promise2
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

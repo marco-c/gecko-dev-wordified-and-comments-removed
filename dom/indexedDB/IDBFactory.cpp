@@ -1516,7 +1516,7 @@ factory
 >
 mEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

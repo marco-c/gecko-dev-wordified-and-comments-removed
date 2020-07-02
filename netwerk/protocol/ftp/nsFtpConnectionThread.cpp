@@ -6649,7 +6649,7 @@ mDataTransport
 SetEventSink
 (
 this
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

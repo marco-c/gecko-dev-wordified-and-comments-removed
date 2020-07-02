@@ -176,7 +176,7 @@ service
 ;
 mBackgroundEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

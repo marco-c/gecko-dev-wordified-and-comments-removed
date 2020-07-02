@@ -404,7 +404,7 @@ aTarget
 )
 mEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

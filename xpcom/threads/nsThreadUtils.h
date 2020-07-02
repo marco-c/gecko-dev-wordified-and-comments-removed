@@ -7816,7 +7816,7 @@ mLastCurrentThread
 ;
 nsIEventTarget
 *
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;
@@ -7828,7 +7828,7 @@ GetMainThreadEventTarget
 ;
 nsISerialEventTarget
 *
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -1463,7 +1463,7 @@ target
 {
 target
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

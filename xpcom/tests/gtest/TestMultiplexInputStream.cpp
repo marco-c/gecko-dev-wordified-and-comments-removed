@@ -67,7 +67,7 @@ using
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 ;
 using
 mozilla
@@ -4541,7 +4541,7 @@ afsis
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -4721,7 +4721,7 @@ afsis
 AsyncLengthWait
 (
 callback1
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -4757,7 +4757,7 @@ afsis
 AsyncLengthWait
 (
 callback2
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -118,7 +118,7 @@ aCallback
 )
 mCurrentEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -200,7 +200,7 @@ mRequestString
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

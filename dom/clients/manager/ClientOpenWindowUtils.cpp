@@ -667,7 +667,7 @@ ClientGetInfoAndStateArgs
 id
 principal
 )
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2118,7 +2118,7 @@ browsingContextReadyPromise
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

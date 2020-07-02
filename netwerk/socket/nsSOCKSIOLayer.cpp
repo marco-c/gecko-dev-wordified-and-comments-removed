@@ -2287,7 +2287,7 @@ this
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 attrs

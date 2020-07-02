@@ -111,7 +111,7 @@ mSize
 {
 mCallbackTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;
@@ -709,7 +709,7 @@ return
 }
 }
 }
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 -
@@ -902,7 +902,7 @@ asyncStreamLength
 AsyncLengthWait
 (
 this
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

@@ -143,7 +143,7 @@ aCopier
 )
 mTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

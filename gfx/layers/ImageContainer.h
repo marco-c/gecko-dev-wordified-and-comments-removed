@@ -559,7 +559,7 @@ mOwningEventTarget
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

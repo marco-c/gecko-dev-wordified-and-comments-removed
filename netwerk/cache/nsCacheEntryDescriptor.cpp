@@ -124,7 +124,7 @@ listener
 ;
 mEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

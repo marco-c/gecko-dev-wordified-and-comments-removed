@@ -1612,7 +1612,7 @@ ifdef
 DEBUG
 mCreationEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

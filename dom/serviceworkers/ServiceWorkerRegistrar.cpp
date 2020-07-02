@@ -3810,7 +3810,7 @@ ServiceWorkerRegistrarSaveDataRunnable
 )
 mEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

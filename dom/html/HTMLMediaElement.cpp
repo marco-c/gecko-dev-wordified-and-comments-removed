@@ -36391,7 +36391,7 @@ GenericPromise
 :
 All
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 promises
@@ -36400,7 +36400,7 @@ promises
 >
 Then
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 __func__

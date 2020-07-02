@@ -1234,7 +1234,7 @@ array
 TEST
 (
 Threads
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 )
 {
 nsCOMPtr
@@ -1249,7 +1249,8 @@ rv
 NS_NewNamedThread
 (
 "
-test
+Testing
+Thread
 "
 getter_AddRefs
 (
@@ -1258,7 +1259,8 @@ thread
 NS_NewRunnableFunction
 (
 "
-test
+Testing
+Thread
 :
 :
 check
@@ -1274,7 +1276,7 @@ nsISerialEventTarget
 >
 serialEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

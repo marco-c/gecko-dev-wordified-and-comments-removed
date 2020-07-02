@@ -631,7 +631,7 @@ eventsink
 ;
 mTargetThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

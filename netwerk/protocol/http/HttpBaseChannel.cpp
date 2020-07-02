@@ -2073,7 +2073,7 @@ aProxyInfo
 ;
 mCurrentThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

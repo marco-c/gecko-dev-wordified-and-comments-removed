@@ -2340,7 +2340,7 @@ forget
 )
 )
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 -

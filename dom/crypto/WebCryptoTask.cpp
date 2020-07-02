@@ -1251,7 +1251,7 @@ return
 }
 mOriginalEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

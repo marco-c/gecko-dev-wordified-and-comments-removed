@@ -1195,7 +1195,7 @@ nsIEventTarget
 >
 target
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

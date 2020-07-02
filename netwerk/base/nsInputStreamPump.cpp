@@ -1421,7 +1421,7 @@ else
 {
 mTargetThread
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

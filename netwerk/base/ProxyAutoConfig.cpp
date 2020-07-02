@@ -3629,7 +3629,7 @@ AsyncResolveNative
 aHostName
 flags
 helper
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 attrs

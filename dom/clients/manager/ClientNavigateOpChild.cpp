@@ -1471,7 +1471,7 @@ mSerialEventTarget
 {
 mSerialEventTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

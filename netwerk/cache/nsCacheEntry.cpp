@@ -393,7 +393,7 @@ data
 ;
 mEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

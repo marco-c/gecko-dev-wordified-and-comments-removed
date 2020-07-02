@@ -57,7 +57,7 @@ using
 mozilla
 :
 :
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 ;
 using
 mozilla
@@ -1794,7 +1794,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -1948,7 +1948,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2099,7 +2099,7 @@ qi
 AsyncLengthWait
 (
 callback1
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2135,7 +2135,7 @@ qi
 AsyncLengthWait
 (
 callback2
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2280,7 +2280,7 @@ AsyncWait
 callback
 0
 0
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2379,7 +2379,7 @@ AsyncWait
 callback
 0
 0
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2532,7 +2532,7 @@ AsyncWait
 callback
 0
 0
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2598,7 +2598,7 @@ AsyncWait
 callback
 0
 0
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2724,7 +2724,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2803,7 +2803,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -2947,7 +2947,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3059,7 +3059,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

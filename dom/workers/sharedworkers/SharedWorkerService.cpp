@@ -126,7 +126,7 @@ GetOrCreateWorkerManagerRunnable
 )
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -5031,7 +5031,7 @@ AsyncWait
 this
 0
 0
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -5359,7 +5359,7 @@ AsyncWait
 this
 0
 0
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )
@@ -6147,7 +6147,7 @@ AsyncWait
 this
 0
 0
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -136,8 +136,9 @@ private
 InputStreamCallback
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -432,8 +433,9 @@ private
 NonSeekableStringStream
 (
 )
-{
-}
+=
+default
+;
 }
 ;
 NS_IMPL_ISUPPORTS
@@ -3188,7 +3190,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3340,7 +3342,7 @@ qi
 AsyncLengthWait
 (
 callback
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3493,7 +3495,7 @@ qi
 AsyncLengthWait
 (
 callback1
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )
@@ -3529,7 +3531,7 @@ qi
 AsyncLengthWait
 (
 callback2
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

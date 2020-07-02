@@ -390,7 +390,7 @@ target
 mozilla
 :
 :
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

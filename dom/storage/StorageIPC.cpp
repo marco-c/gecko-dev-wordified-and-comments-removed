@@ -2414,7 +2414,7 @@ aActor
 :
 mOwningEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

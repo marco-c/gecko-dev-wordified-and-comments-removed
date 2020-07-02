@@ -336,7 +336,7 @@ aPrincipalInfo
 )
 mInitiatingEventTarget
 (
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 )

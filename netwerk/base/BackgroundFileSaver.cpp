@@ -514,7 +514,7 @@ rv
 ;
 mControlEventTarget
 =
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 ;

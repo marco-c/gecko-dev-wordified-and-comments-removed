@@ -80,7 +80,7 @@ SharedWorkerParent
 :
 mBackgroundEventTarget
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 )

@@ -7193,7 +7193,7 @@ mRequestHead
 mUploadStream
 mReqContentLength
 mUploadStreamHasHeaders
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 callbacks
@@ -42174,7 +42174,7 @@ NS_NewNotificationCallbacksAggregation
 (
 mCallbacks
 mLoadGroup
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 getter_AddRefs

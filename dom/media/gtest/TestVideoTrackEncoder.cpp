@@ -162,7 +162,7 @@ MockDriftCompensator
 :
 DriftCompensator
 (
-GetCurrentThreadEventTarget
+GetCurrentEventTarget
 (
 )
 VIDEO_TRACK_RATE

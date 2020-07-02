@@ -3872,7 +3872,7 @@ Other
 ;
 }
 return
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;

@@ -3332,7 +3332,7 @@ mTarget
 ;
 mTarget
 =
-GetCurrentThreadSerialEventTarget
+GetCurrentSerialEventTarget
 (
 )
 ;
