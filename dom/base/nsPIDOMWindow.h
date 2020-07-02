@@ -2091,11 +2091,6 @@ aCallerType
 )
 ;
 bool
-IsTopLevelWindow
-(
-)
-;
-bool
 HadOriginalOpener
 (
 )

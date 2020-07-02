@@ -2098,7 +2098,12 @@ isTopLevel
 outer
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 ;

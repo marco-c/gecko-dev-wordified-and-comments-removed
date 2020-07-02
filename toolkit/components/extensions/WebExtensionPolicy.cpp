@@ -3696,7 +3696,12 @@ return
 aWin
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTop
 (
 )
 ;
@@ -3757,7 +3762,12 @@ if
 aWin
 -
 >
-IsTopLevelWindow
+GetBrowsingContext
+(
+)
+-
+>
+IsTopContent
 (
 )
 )
