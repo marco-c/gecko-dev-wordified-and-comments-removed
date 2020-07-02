@@ -2456,6 +2456,7 @@ usernameField
 newPasswordField
 oldPasswordField
 dismissedPrompt
+possibleValues
 }
 )
 {
@@ -3150,6 +3151,7 @@ dismissedPrompt
 notifySaved
 autoSavedStorageGUID
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -3204,6 +3206,7 @@ dismissedPrompt
 notifySaved
 autoSavedStorageGUID
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -3227,6 +3230,7 @@ formLogin
 dismissedPrompt
 notifySaved
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -3246,6 +3250,22 @@ oldPasswordField
 triggeredByFillingGenerated
 =
 false
+possibleValues
+=
+{
+usernames
+:
+new
+Set
+(
+)
+passwords
+:
+new
+Set
+(
+)
+}
 }
 )
 {
@@ -4434,6 +4454,7 @@ true
 notifySaved
 autoSavedStorageGUID
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -4478,6 +4499,7 @@ true
 notifySaved
 autoSavedStorageGUID
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -4556,6 +4578,7 @@ true
 notifySaved
 autoSavedStorageGUID
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
@@ -4587,6 +4610,7 @@ formLogin
 true
 notifySaved
 autoFilledLoginGuid
+possibleValues
 )
 ;
 }
