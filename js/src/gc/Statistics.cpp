@@ -6339,6 +6339,7 @@ GCZonesIter
 zone
 (
 gc
+WithAtoms
 )
 ;
 !
