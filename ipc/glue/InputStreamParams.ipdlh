@@ -69,7 +69,7 @@ PParentToChildStream
 ;
 include
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 using
 struct
@@ -183,7 +183,7 @@ IPCBlobInputStreamParams
 {
 IPCBlobInputStreamRef
 ;
-PIPCBlobInputStream
+PRemoteLazyInputStream
 ;
 }
 ;

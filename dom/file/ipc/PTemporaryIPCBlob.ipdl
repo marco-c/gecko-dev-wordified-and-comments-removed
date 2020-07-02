@@ -70,11 +70,11 @@ PFileDescriptorSet
 ;
 include
 protocol
-PIPCBlobInputStream
+PParentToChildStream
 ;
 include
 protocol
-PParentToChildStream
+PRemoteLazyInputStream
 ;
 include
 IPCBlob

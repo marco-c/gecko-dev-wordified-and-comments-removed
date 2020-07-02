@@ -190,7 +190,7 @@ case
 IPCBlobStream
 :
 :
-TPIPCBlobInputStreamChild
+TPRemoteLazyInputStreamChild
 :
 {
 IPCBlobInputStreamChild
@@ -205,7 +205,7 @@ IPCBlobInputStreamChild
 (
 stream
 .
-get_PIPCBlobInputStreamChild
+get_PRemoteLazyInputStreamChild
 (
 )
 )
@@ -444,7 +444,7 @@ uint64_t
 aSize
 uint64_t
 aChildID
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent
@@ -545,7 +545,7 @@ if
 aManager
 -
 >
-SendPIPCBlobInputStreamConstructor
+SendPRemoteLazyInputStreamConstructor
 (
 parentActor
 parentActor
@@ -636,7 +636,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent
@@ -669,7 +669,7 @@ nsIInputStream
 aInputStream
 uint64_t
 aSize
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 &
 aActorParent
@@ -714,7 +714,7 @@ aManager
 aIPCBlob
 =
 (
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 )
 nullptr
@@ -732,7 +732,7 @@ ChildID
 )
 aIPCBlob
 .
-get_PIPCBlobInputStreamParent
+get_PRemoteLazyInputStreamParent
 (
 )
 aManager
@@ -758,7 +758,7 @@ aManager
 aIPCBlob
 =
 (
-PIPCBlobInputStreamParent
+PRemoteLazyInputStreamParent
 *
 )
 nullptr
@@ -777,7 +777,7 @@ aManager
 )
 aIPCBlob
 .
-get_PIPCBlobInputStreamParent
+get_PRemoteLazyInputStreamParent
 (
 )
 aManager

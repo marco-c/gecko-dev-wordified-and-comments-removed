@@ -2513,12 +2513,12 @@ already_AddRefed
 dom
 :
 :
-PIPCBlobInputStreamChild
+PRemoteLazyInputStreamChild
 >
 SocketProcessChild
 :
 :
-AllocPIPCBlobInputStreamChild
+AllocPRemoteLazyInputStreamChild
 (
 const
 nsID

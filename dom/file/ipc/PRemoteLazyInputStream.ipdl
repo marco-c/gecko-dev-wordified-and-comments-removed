@@ -91,7 +91,7 @@ dom
 {
 refcounted
 protocol
-PIPCBlobInputStream
+PRemoteLazyInputStream
 {
 manager
 PBackground

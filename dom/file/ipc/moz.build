@@ -163,7 +163,7 @@ PFileCreator
 ipdl
 '
 '
-PIPCBlobInputStream
+PRemoteLazyInputStream
 .
 ipdl
 '
