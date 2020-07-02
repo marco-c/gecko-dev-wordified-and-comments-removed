@@ -485,6 +485,9 @@ hasStoragePermission
 bool
 isThirdPartyContextToTopWindow
 ;
+bool
+isInThirdPartyContext
+;
 }
 ;
 struct
