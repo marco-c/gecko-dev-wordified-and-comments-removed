@@ -287,7 +287,7 @@ to
 reportToJSON
 }
 )
-coopSameOrigin
+coopSameOriginHeader
 :
 |
 header
@@ -313,7 +313,7 @@ uuid
 }
 "
 )
-coopReportOnlySameOrigin
+coopReportOnlySameOriginHeader
 :
 |
 header
