@@ -69,7 +69,7 @@ child
 =
 ChromeUtils
 .
-contentChild
+domProcessChild
 ;
 let
 actorChild
@@ -213,7 +213,7 @@ child
 =
 ChromeUtils
 .
-contentChild
+domProcessChild
 ;
 let
 actorChild

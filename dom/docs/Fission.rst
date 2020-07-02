@@ -5876,7 +5876,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-contentParent
+domProcess
 .
 getActor
 (
@@ -5896,7 +5896,7 @@ childActor
 =
 ChromeUtils
 .
-contentChild
+domProcessChild
 .
 getActor
 (
