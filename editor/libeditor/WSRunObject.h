@@ -2392,9 +2392,10 @@ PT
 typename
 CT
 >
+const
 WSFragment
 *
-FindNearestRun
+FindNearestFragment
 (
 const
 EditorDOMPointBase
