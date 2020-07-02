@@ -3119,6 +3119,14 @@ runTask
 override
 ;
 void
+runTaskLocked
+(
+AutoLockHelperThreadState
+&
+locked
+)
+;
+void
 complete
 (
 )

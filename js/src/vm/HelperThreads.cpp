@@ -11017,13 +11017,6 @@ get
 )
 ;
 }
-{
-AutoUnlockHelperThreadState
-unlock
-(
-locked
-)
-;
 task
 .
 release
@@ -11031,11 +11024,11 @@ release
 )
 -
 >
-runTask
+runTaskLocked
 (
+locked
 )
 ;
-}
 currentTask
 .
 reset
