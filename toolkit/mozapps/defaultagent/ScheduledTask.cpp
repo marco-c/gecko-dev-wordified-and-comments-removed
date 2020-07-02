@@ -60,6 +60,13 @@ WinHeaderOnlyUtils
 .
 h
 "
+#
+include
+"
+DefaultBrowser
+.
+h
+"
 const
 wchar_t
 *
@@ -192,6 +199,10 @@ BSTR
 startTime
 )
 {
+MaybeMigrateCurrentDefault
+(
+)
+;
 RemoveTask
 (
 uniqueToken

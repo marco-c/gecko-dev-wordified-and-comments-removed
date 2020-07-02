@@ -69,5 +69,10 @@ Browser
 browser
 )
 ;
+void
+MaybeMigrateCurrentDefault
+(
+)
+;
 #
 endif
