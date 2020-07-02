@@ -262,13 +262,6 @@ attribute
 boolean
 saveLayoutStateFlag
 ;
-[
-infallible
-]
-attribute
-boolean
-expirationStatus
-;
 attribute
 ACString
 contentType
