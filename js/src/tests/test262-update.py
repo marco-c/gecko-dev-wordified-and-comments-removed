@@ -121,14 +121,6 @@ quarter
 "
 Intl
 .
-DateTimeFormat
--
-formatRange
-"
-    
-"
-Intl
-.
 Segmenter
 "
     
@@ -235,6 +227,14 @@ Intl
 DateTimeFormat
 -
 dayPeriod
+"
+    
+"
+Intl
+.
+DateTimeFormat
+-
+formatRange
 "
     
 "
