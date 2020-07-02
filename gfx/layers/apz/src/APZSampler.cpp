@@ -313,7 +313,7 @@ NS_DispatchToMainThread
 NS_NewRunnableFunction
 (
 "
-APZUpdater
+APZSampler
 :
 :
 ClearOnShutdown
