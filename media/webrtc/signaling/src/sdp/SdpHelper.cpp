@@ -3639,7 +3639,7 @@ void
 SdpHelper
 :
 :
-appendSdpParseErrors
+AppendSdpParseErrors
 (
 const
 std
