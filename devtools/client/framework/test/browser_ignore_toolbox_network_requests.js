@@ -10,17 +10,6 @@ function
 (
 )
 {
-await
-pushPref
-(
-"
-devtools
-.
-testing
-"
-false
-)
-;
 let
 tab
 =

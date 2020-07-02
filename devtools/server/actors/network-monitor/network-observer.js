@@ -289,7 +289,7 @@ if
 !
 flags
 .
-testing
+wantAllNetworkRequests
 &
 &
 channel
