@@ -216,7 +216,7 @@ Init
 xpc
 :
 :
-UnprivilegedJunkScope
+PrivilegedJunkScope
 (
 )
 )

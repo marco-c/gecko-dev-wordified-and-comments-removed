@@ -1807,7 +1807,7 @@ Init
 xpc
 :
 :
-UnprivilegedJunkScope
+PrivilegedJunkScope
 (
 )
 )
@@ -1816,7 +1816,7 @@ MOZ_ASSERT
 (
 ok
 "
-UnprivilegedJunkScope
+PrivilegedJunkScope
 should
 exist
 "

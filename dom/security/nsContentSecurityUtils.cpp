@@ -393,7 +393,7 @@ cx
 xpc
 :
 :
-UnprivilegedJunkScope
+PrivilegedJunkScope
 (
 )
 )

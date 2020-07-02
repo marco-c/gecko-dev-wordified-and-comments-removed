@@ -12827,7 +12827,7 @@ Init
 xpc
 :
 :
-UnprivilegedJunkScope
+PrivilegedJunkScope
 (
 )
 )
@@ -12838,8 +12838,8 @@ ok
 "
 Problem
 with
-junk
-scope
+system
+global
 ?
 "
 )

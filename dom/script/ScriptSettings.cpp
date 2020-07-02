@@ -3810,10 +3810,13 @@ if
 mIsMainThread
 )
 {
+dom
+:
+:
 AutoJSAPI
 jsapi
 ;
-if
+MOZ_ALWAYS_TRUE
 (
 jsapi
 .
@@ -3822,12 +3825,12 @@ Init
 xpc
 :
 :
-UnprivilegedJunkScope
+PrivilegedJunkScope
 (
 )
 )
 )
-{
+;
 JS_CheckForInterrupt
 (
 jsapi
@@ -3837,7 +3840,6 @@ cx
 )
 )
 ;
-}
 }
 }
 }
