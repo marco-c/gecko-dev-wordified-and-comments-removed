@@ -237,51 +237,6 @@ height
 )
 :
         
-page_ranges
-=
-self
-.
-webdriver
-.
-execute_script
-(
-            
-"
-"
-"
-let
-elem
-=
-document
-.
-querySelector
-(
-"
-meta
-[
-name
-=
-reftest
--
-pages
-]
-"
-)
-;
-return
-elem
-?
-elem
-.
-content
-:
-null
-;
-"
-"
-"
-)
-        
 margin
 =
 0
@@ -369,7 +324,6 @@ True
 }
         
 return
-(
 self
 .
 webdriver
@@ -395,9 +349,6 @@ body
 data
 "
 ]
-                
-page_ranges
-)
     
 def
 pdf_to_png
@@ -621,6 +572,7 @@ self
 test
 viewport_size
 dpi
+page_ranges
 )
 :
         
@@ -681,6 +633,17 @@ self
 viewport_size
 =
 viewport_size
+        
+self
+.
+page_ranges
+=
+page_ranges
+.
+get
+(
+test
+)
         
 timeout
 =
@@ -770,7 +733,6 @@ True
 )
         
 pdf
-page_ranges
 =
 protocol
 .
@@ -793,6 +755,8 @@ pdf_print
 pdf_to_png
 (
 pdf
+self
+.
 page_ranges
 )
         
