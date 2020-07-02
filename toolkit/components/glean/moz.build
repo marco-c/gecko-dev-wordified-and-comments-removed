@@ -13,6 +13,14 @@ glean
 '
 docs
 '
+if
+CONFIG
+[
+'
+MOZ_GLEAN
+'
+]
+:
 include
 (
 '
