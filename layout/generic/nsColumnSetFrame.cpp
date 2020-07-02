@@ -1483,6 +1483,7 @@ mColumnCount
 bool
 isBalancing
 =
+(
 colStyle
 -
 >
@@ -1493,6 +1494,12 @@ StyleColumnFill
 :
 :
 Balance
+|
+|
+HasColumnSpanSiblings
+(
+)
+)
 &
 &
 !
