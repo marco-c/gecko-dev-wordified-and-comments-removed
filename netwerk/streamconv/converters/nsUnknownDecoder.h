@@ -46,15 +46,6 @@ h
 #
 include
 "
-mozilla
-/
-Telemetry
-.
-h
-"
-#
-include
-"
 nsCOMPtr
 .
 h
