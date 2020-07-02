@@ -82,6 +82,15 @@ media
 /
 audioipc
 /
+client
+/
+src
+/
+-
+media
+/
+audioipc
+/
 server
 /
 src
