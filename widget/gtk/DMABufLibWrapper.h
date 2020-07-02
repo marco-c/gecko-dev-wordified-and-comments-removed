@@ -796,7 +796,7 @@ IsDMABufWebGLEnabled
 )
 ;
 bool
-IsDMABufVAAPIEnabled
+IsDRMVAAPIDisplayEnabled
 (
 )
 ;
