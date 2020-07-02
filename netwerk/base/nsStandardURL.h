@@ -395,12 +395,12 @@ str
 const
 URLSegment
 &
-segment
+aSeg
 int16_t
 mask
 nsCString
 &
-buf
+aOut
 bool
 &
 appended
@@ -423,7 +423,7 @@ int16_t
 mask
 nsCString
 &
-buf
+result
 )
 ;
 private
@@ -490,7 +490,7 @@ aRefHandlingMode
 const
 nsACString
 &
-newRef
+aNewRef
 nsIURI
 *
 *
@@ -795,7 +795,7 @@ char
 *
 host
 uint32_t
-aLen
+length
 )
 ;
 static
@@ -914,7 +914,7 @@ SegmentIs
 const
 URLSegment
 &
-s1
+seg
 const
 char
 *
@@ -935,7 +935,7 @@ spec
 const
 URLSegment
 &
-s1
+seg
 const
 char
 *
@@ -952,7 +952,7 @@ SegmentIs
 const
 URLSegment
 &
-s1
+seg1
 const
 char
 *
@@ -960,7 +960,7 @@ val
 const
 URLSegment
 &
-s2
+seg2
 bool
 ignoreCase
 =
