@@ -416,6 +416,14 @@ MOZ_PROFILER_STARTUP
 '
             
 '
+MOZ_PROFILER_STARTUP_NO_BASE
+'
+:
+'
+1
+'
+            
+'
 MOZ_PROFILER_STARTUP_INTERVAL
 '
 :
