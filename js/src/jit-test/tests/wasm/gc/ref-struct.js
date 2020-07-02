@@ -448,8 +448,6 @@ i32
 ref
 .
 is_null
-opt
-wabbit
 (
 local
 .
@@ -572,8 +570,6 @@ eqz
 ref
 .
 is_null
-opt
-wabbit
 (
 local
 .
@@ -763,8 +759,6 @@ eqz
 ref
 .
 is_null
-opt
-wabbit
 (
 local
 .
@@ -2568,8 +2562,6 @@ i32
 ref
 .
 is_null
-opt
-node
 (
 struct
 .

@@ -2918,8 +2918,6 @@ i32
 ref
 .
 is_null
-opt
-cons
 (
 global
 .

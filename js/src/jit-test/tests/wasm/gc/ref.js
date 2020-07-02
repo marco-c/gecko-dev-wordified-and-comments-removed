@@ -542,8 +542,6 @@ i32
 ref
 .
 is_null
-opt
-s
 (
 local
 .

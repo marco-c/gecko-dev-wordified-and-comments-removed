@@ -815,7 +815,6 @@ i32
 ref
 .
 is_null
-extern
 (
 struct
 .
@@ -850,7 +849,6 @@ i32
 ref
 .
 is_null
-extern
 (
 struct
 .
