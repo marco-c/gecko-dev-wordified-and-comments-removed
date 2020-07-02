@@ -36,11 +36,6 @@ PBackground
 child
 :
 async
-OnStartRequestSent
-(
-)
-;
-async
 OnStartRequest
 (
 nsHttpResponseHead
