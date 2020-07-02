@@ -1280,10 +1280,10 @@ mParentWidget
 (
 nullptr
 )
-mViewTearDownLock
+mCompositingLock
 (
 "
-ChildViewTearDown
+ChildViewCompositing
 "
 )
 mBackingScaleFactor
@@ -1840,7 +1840,7 @@ NS_OBJC_BEGIN_TRY_ABORT_BLOCK
 MutexAutoLock
 lock
 (
-mViewTearDownLock
+mCompositingLock
 )
 ;
 if
@@ -6062,6 +6062,13 @@ GetBounds
 )
 ;
 }
+{
+MutexAutoLock
+lock
+(
+mCompositingLock
+)
+;
 mNativeLayerRoot
 -
 >
@@ -6069,6 +6076,7 @@ CommitToScreen
 (
 )
 ;
+}
 MaybeScheduleUnsuspendAsyncCATransactions
 (
 )
@@ -7467,7 +7475,7 @@ WidgetRenderingContext
 aContext
 )
 {
-mViewTearDownLock
+mCompositingLock
 .
 Lock
 (
@@ -7521,7 +7529,7 @@ WidgetRenderingContext
 aContext
 )
 {
-mViewTearDownLock
+mCompositingLock
 .
 Unlock
 (

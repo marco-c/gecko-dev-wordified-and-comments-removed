@@ -2166,7 +2166,7 @@ mozilla
 :
 :
 Mutex
-mViewTearDownLock
+mCompositingLock
 ;
 mozilla
 :
