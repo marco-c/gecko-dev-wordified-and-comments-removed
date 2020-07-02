@@ -7164,7 +7164,7 @@ Windows7
 DeviceFamily
 :
 :
-IntelHDGraphicsToHaswell
+IntelHaswell
 nsIGfxInfo
 :
 :

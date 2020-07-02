@@ -1303,7 +1303,7 @@ case
 DeviceFamily
 :
 :
-IntelHDGraphicsToHaswell
+IntelHaswell
 :
 APPEND_DEVICE
 (
@@ -3843,7 +3843,7 @@ case
 DeviceFamily
 :
 :
-IntelHDGraphicsToHaswell
+IntelHaswell
 :
 case
 DeviceFamily

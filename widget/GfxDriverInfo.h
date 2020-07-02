@@ -811,7 +811,7 @@ IntelGMAX3000
 IntelGMAX4500HD
 IntelHDGraphicsToIvyBridge
 IntelHDGraphicsToSandyBridge
-IntelHDGraphicsToHaswell
+IntelHaswell
 IntelHD3000
 IntelHD520
 IntelMobileHDGraphics
