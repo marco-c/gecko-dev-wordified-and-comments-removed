@@ -17991,7 +17991,7 @@ aData
 {
 #
 define
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 s
 )
@@ -18013,7 +18013,7 @@ char16_t
 1
 }
 struct
-BlacklistEntry
+ParentOnlyPrefListEntry
 {
 const
 char16_t
@@ -18027,13 +18027,13 @@ mLen
 ;
 static
 const
-BlacklistEntry
-sContentPrefBranchBlacklist
+ParentOnlyPrefListEntry
+sParentOnlyPrefBranchList
 [
 ]
 =
 {
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18045,7 +18045,7 @@ lastUpdateTime
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18055,7 +18055,7 @@ policy
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18067,7 +18067,7 @@ provider
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18077,7 +18077,7 @@ shell
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18087,7 +18087,7 @@ slowStartup
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18097,7 +18097,7 @@ startup
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18109,7 +18109,7 @@ cache
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18121,7 +18121,7 @@ manager
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18133,7 +18133,7 @@ gmpopenh264
 .
 "
 )
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 (
 u
 "
@@ -18147,7 +18147,7 @@ sanitize
 ;
 #
 undef
-BLACKLIST_ENTRY
+PARENT_ONLY_PREF_LIST_ENTRY
 for
 (
 const
@@ -18155,7 +18155,7 @@ auto
 &
 entry
 :
-sContentPrefBranchBlacklist
+sParentOnlyPrefBranchList
 )
 {
 if
