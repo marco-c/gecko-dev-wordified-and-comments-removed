@@ -1965,10 +1965,17 @@ if
 (
 aFlags
 &
+(
 nsImageRenderer
 :
 :
 FLAG_PAINTING_TO_WINDOW
+|
+nsImageRenderer
+:
+:
+FLAG_HIGH_QUALITY_SCALING
+)
 )
 {
 containerFlags
@@ -2432,7 +2439,7 @@ if
 aBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 )

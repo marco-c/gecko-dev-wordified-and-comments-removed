@@ -16441,7 +16441,7 @@ aBuilder
 aBuilder
 -
 >
-IsPaintingToWindow
+UseHighQualityScaling
 (
 )
 ?

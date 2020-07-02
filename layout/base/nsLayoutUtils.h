@@ -2691,6 +2691,9 @@ Compressed
 ForWebRender
 =
 0x400
+UseHighQualityScaling
+=
+0x800
 }
 ;
 static
