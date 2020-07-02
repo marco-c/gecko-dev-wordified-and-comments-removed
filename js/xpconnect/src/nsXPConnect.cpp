@@ -456,16 +456,6 @@ Runtime
 (
 )
 ;
-gSelf
--
->
-mRuntime
--
->
-InitSingletonScopes
-(
-)
-;
 mozJSComponentLoader
 :
 :
