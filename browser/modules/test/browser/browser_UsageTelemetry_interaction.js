@@ -1450,6 +1450,9 @@ sidebar
 .
 html
 "
+open_at_install
+:
+false
 }
 }
 files
@@ -2028,6 +2031,14 @@ extension
 unload
 (
 )
+;
+window
+.
+SidebarUI
+.
+lastOpenedId
+=
+null
 ;
 click
 (
