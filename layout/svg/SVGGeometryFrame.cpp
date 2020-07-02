@@ -120,7 +120,7 @@ h
 #
 include
 "
-nsSVGMarkerFrame
+SVGMarkerFrame
 .
 h
 "
@@ -2744,7 +2744,7 @@ IsMarkable
 )
 )
 {
-nsSVGMarkerFrame
+SVGMarkerFrame
 *
 markerFrames
 [
@@ -2831,7 +2831,7 @@ marks
 i
 ]
 ;
-nsSVGMarkerFrame
+SVGMarkerFrame
 *
 frame
 =
@@ -3661,7 +3661,7 @@ IsMarkable
 )
 )
 {
-nsSVGMarkerFrame
+SVGMarkerFrame
 *
 markerFrames
 [
@@ -3763,7 +3763,7 @@ marks
 i
 ]
 ;
-nsSVGMarkerFrame
+SVGMarkerFrame
 *
 frame
 =

@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGViewportFrame
+SVGViewportFrame
 .
 h
 "
@@ -61,10 +61,6 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
@@ -83,8 +79,11 @@ mozilla
 :
 image
 ;
+namespace
+mozilla
+{
 void
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 PaintSVG
@@ -252,7 +251,7 @@ aDirtyRect
 ;
 }
 void
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 ReflowSVG
@@ -335,7 +334,7 @@ ReflowSVG
 ;
 }
 void
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 NotifySVGChanged
@@ -544,7 +543,7 @@ aFlags
 ;
 }
 SVGBBox
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 GetBBoxContribution
@@ -688,7 +687,7 @@ bbox
 ;
 }
 nsresult
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 AttributeChanged
@@ -1024,7 +1023,7 @@ NS_OK
 }
 nsIFrame
 *
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 GetFrameForPoint
@@ -1151,7 +1150,7 @@ aPoint
 ;
 }
 void
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 NotifyViewportOrTransformChanged
@@ -1166,13 +1165,13 @@ NS_ERROR
 Not
 called
 for
-nsSVGViewportFrame
+SVGViewportFrame
 "
 )
 ;
 }
 bool
-nsSVGViewportFrame
+SVGViewportFrame
 :
 :
 HasChildrenOnlyTransform
@@ -1234,4 +1233,5 @@ true
 return
 false
 ;
+}
 }

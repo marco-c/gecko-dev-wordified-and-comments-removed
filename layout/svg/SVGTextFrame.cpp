@@ -9248,9 +9248,15 @@ nsIFrame
 *
 NS_NewSVGTextFrame
 (
+mozilla
+:
+:
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
