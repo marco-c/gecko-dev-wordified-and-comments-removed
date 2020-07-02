@@ -1723,7 +1723,7 @@ doc
 =
 aContext
 .
-GetUncomposedDoc
+GetComposedDoc
 (
 )
 )
