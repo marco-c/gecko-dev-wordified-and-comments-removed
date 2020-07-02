@@ -3,7 +3,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessParent
 .
@@ -14,7 +14,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessChild
 .
@@ -36,11 +36,18 @@ Services
 .
 h
 "
+using
+namespace
+mozilla
+:
+:
+ipc
+;
 namespace
 mozilla
 {
 namespace
-ipc
+dom
 {
 StaticRefPtr
 <
