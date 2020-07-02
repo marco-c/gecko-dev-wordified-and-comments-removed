@@ -4,6 +4,12 @@ os
 path
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -20,6 +26,7 @@ GET
 .
 first
 (
+b
 "
 name
 "
@@ -35,6 +42,7 @@ GET
 .
 first
 (
+b
 "
 sleep
 "
@@ -53,6 +61,7 @@ GET
 .
 first
 (
+b
 "
 numInitial
 "
@@ -73,7 +82,10 @@ path
 .
 dirname
 (
+isomorphic_encode
+(
 __file__
+)
 )
 name
 )
@@ -83,6 +95,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -98,11 +111,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 "
@@ -114,6 +129,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -131,11 +147,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 control
 "
+b
 "
 no
 -

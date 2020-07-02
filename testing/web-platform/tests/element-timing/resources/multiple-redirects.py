@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -188,6 +194,7 @@ step
 1
     
 if
+b
 "
 step
 "
@@ -210,6 +217,7 @@ GET
 .
 first
 (
+b
 "
 step
 "
@@ -232,6 +240,7 @@ GET
 .
 first
 (
+b
 "
 redirect_count
 "
@@ -246,6 +255,7 @@ GET
 .
 first
 (
+b
 "
 final_resource
 "
@@ -257,13 +267,17 @@ None
     
 tao
 =
+b
 "
 tao
 "
 +
+isomorphic_encode
+(
 str
 (
 step
+)
 )
     
 if
@@ -287,18 +301,23 @@ tao
     
 redirect_url
 =
+b
 "
 "
     
 origin
 =
+b
 "
 origin
 "
 +
+isomorphic_encode
+(
 str
 (
 step
+)
 )
     
 if
@@ -338,6 +357,7 @@ else
 redirect_url
 +
 =
+b
 "
 /
 element
@@ -357,19 +377,24 @@ py
 redirect_url
 +
 =
+b
 "
 redirect_count
 =
 "
 +
+isomorphic_encode
+(
 str
 (
 redirect_count
+)
 )
         
 redirect_url
 +
 =
+b
 "
 &
 final_resource
@@ -392,13 +417,17 @@ redirect_count
             
 tao
 =
+b
 "
 tao
 "
 +
+isomorphic_encode
+(
 str
 (
 i
+)
 )
             
 if
@@ -412,12 +441,14 @@ GET
 redirect_url
 +
 =
+b
 "
 &
 "
 +
 tao
 +
+b
 "
 =
 "
@@ -433,13 +464,17 @@ tao
             
 origin
 =
+b
 "
 origin
 "
 +
+isomorphic_encode
+(
 str
 (
 i
+)
 )
             
 if
@@ -453,12 +488,14 @@ GET
 redirect_url
 +
 =
+b
 "
 &
 "
 +
 origin
 +
+b
 "
 =
 "
@@ -475,17 +512,21 @@ origin
 redirect_url
 +
 =
+b
 "
 &
 step
 =
 "
 +
+isomorphic_encode
+(
 str
 (
 step
 +
 1
+)
 )
     
 if
@@ -498,6 +539,7 @@ headers
 .
 set
 (
+b
 "
 timing
 -
@@ -520,6 +562,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
