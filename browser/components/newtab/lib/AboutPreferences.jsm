@@ -1388,6 +1388,14 @@ pref
 .
 _value
 ;
+subcheck
+.
+hidden
+=
+nested
+.
+hidden
+;
 }
 )
 ;
