@@ -337,6 +337,15 @@ SpatialNodeIndex
 1
 )
 ;
+const
+MIN_SCROLLABLE_AMOUNT
+:
+f32
+=
+0
+.
+01
+;
 impl
 SpatialNodeIndex
 {
@@ -3203,9 +3212,7 @@ scrollable_size
 .
 width
 >
-0
-.
-0
+MIN_SCROLLABLE_AMOUNT
 |
 |
 info
@@ -3214,9 +3221,7 @@ scrollable_size
 .
 height
 >
-0
-.
-0
+MIN_SCROLLABLE_AMOUNT
 {
 if
 info
