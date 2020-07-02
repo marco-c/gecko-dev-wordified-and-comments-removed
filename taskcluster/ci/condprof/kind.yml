@@ -599,14 +599,10 @@ command
 :
 >
 -
-virtualenv
-/
-virtualenv
-.
-py
--
-p
 python3
+-
+m
+venv
 .
 &
 &
