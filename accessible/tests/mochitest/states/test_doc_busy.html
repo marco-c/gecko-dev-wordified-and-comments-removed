@@ -297,6 +297,12 @@ doTest
 (
 )
 {
+EventsLogger
+.
+enabled
+=
+true
+;
 const
 busyEvents
 =
@@ -498,6 +504,12 @@ events
 ;
 await
 busyEvents
+;
+EventsLogger
+.
+enabled
+=
+false
 ;
 info
 (
