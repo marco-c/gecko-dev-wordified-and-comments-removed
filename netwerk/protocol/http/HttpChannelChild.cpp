@@ -3769,6 +3769,12 @@ return
 if
 (
 mCanceled
+|
+|
+NS_FAILED
+(
+mStatus
+)
 )
 {
 return
