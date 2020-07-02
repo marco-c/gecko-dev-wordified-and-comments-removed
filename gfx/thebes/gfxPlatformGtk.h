@@ -381,6 +381,7 @@ bool
 IsWaylandDisplay
 (
 )
+override
 {
 return
 !
