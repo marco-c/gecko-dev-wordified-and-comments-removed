@@ -4031,10 +4031,6 @@ unsigned
 int
 lookup_index
 ;
-unsigned
-int
-debug_depth
-;
 HB_INTERNAL
 hb_aat_apply_context_t
 (

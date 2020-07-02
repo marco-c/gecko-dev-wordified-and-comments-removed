@@ -81,6 +81,13 @@ defined
 (
 HB_NO_METRICS
 )
+|
+|
+!
+defined
+(
+HB_NO_STYLE
+)
 HB_OT_ACCELERATOR
 (
 OT
@@ -100,7 +107,12 @@ name
 endif
 #
 ifndef
-HB_NO_STAT
+HB_NO_STYLE
+HB_OT_TABLE
+(
+AAT
+fdsc
+)
 HB_OT_TABLE
 (
 OT

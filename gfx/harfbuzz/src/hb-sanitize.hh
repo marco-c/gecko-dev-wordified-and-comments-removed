@@ -88,10 +88,6 @@ hb_sanitize_context_t
 (
 )
 :
-debug_depth
-(
-0
-)
 start
 (
 nullptr
@@ -1638,11 +1634,6 @@ tableTag
 )
 ;
 }
-mutable
-unsigned
-int
-debug_depth
-;
 const
 char
 *
