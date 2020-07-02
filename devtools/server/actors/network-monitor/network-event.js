@@ -1315,6 +1315,16 @@ headersSize
 ;
 this
 .
+_response
+.
+waitingTime
+=
+info
+.
+waitingTime
+;
+this
+.
 _discardResponseBody
 =
 !
