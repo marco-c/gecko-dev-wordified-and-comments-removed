@@ -6516,6 +6516,13 @@ addon
 location
 .
 isBuiltin
+isSystem
+:
+addon
+.
+location
+.
+isSystem
 }
 ;
 if
