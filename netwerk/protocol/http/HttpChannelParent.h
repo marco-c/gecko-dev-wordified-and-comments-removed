@@ -1342,6 +1342,12 @@ mPBOverride
 nsresult
 mStatus
 ;
+nsCOMPtr
+<
+nsIReferrerInfo
+>
+mOverrideReferrerInfo
+;
 uint8_t
 mIgnoreProgress
 :
@@ -1404,6 +1410,11 @@ mNeedFlowControl
 ;
 uint8_t
 mSuspendedForFlowControl
+:
+1
+;
+uint8_t
+mAfterOnStartRequestBegun
 :
 1
 ;
