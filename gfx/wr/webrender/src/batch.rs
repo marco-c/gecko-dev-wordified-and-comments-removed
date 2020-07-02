@@ -9751,8 +9751,13 @@ GpuBlockData
 >
 :
 :
-new
+with_capacity
 (
+3
++
+max_tiles_per_header
+*
+2
 )
 ;
 for
