@@ -2697,7 +2697,13 @@ AssertIsIOThread
 ;
 if
 (
-mDisconnected
+mState
+=
+=
+State
+:
+:
+Disconnected
 )
 {
 if
