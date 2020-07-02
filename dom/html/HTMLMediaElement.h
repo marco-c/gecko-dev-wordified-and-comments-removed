@@ -4332,6 +4332,9 @@ aNotify
 RefPtr
 <
 GenericPromise
+:
+:
+AllPromiseType
 >
 SetSrcMediaStreamSink
 (
