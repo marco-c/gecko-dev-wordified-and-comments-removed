@@ -248,7 +248,7 @@ Map
 ;
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 =
 new
 SetMap
@@ -1384,7 +1384,7 @@ curContexts
 =
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 get
 (
@@ -1526,7 +1526,7 @@ isDefault
 &
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 has
 (
@@ -1541,7 +1541,7 @@ ctx
 of
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 get
 (
@@ -1574,7 +1574,7 @@ _debugger
 window
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 count
 isDefault
@@ -1594,7 +1594,7 @@ context
 ;
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 set
 (
@@ -1756,7 +1756,7 @@ contexts
 =
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 get
 (
@@ -1776,6 +1776,22 @@ of
 contexts
 )
 {
+const
+isFrame
+=
+!
+!
+BrowsingContext
+.
+get
+(
+ctx
+.
+frameId
+)
+.
+parent
+;
 ctx
 .
 destructor
@@ -1795,7 +1811,7 @@ id
 ;
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 get
 (
@@ -1839,7 +1855,7 @@ if
 (
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 get
 (
@@ -1856,7 +1872,7 @@ size
 {
 this
 .
-contextsByWindow
+innerWindowIdToContexts
 .
 delete
 (
@@ -1870,6 +1886,10 @@ if
 this
 .
 enabled
+&
+&
+!
+isFrame
 )
 {
 this
