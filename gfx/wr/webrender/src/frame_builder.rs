@@ -1527,7 +1527,7 @@ to_f32
 scene
 .
 root_pic_index
-DevicePoint
+DeviceIntPoint
 :
 :
 zero

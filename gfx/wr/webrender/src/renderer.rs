@@ -19375,6 +19375,10 @@ let
 source_in_backdrop_space
 =
 source_screen_origin
+.
+to_f32
+(
+)
 *
 (
 backdrop_scale
@@ -19402,12 +19406,12 @@ source_in_backdrop_space
 backdrop_rect
 .
 origin
+-
+backdrop_screen_origin
+)
 .
 to_f32
 (
-)
--
-backdrop_screen_origin
 )
 )
 .
