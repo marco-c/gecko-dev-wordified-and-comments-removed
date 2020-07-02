@@ -1977,11 +1977,10 @@ if
 mDroppedDown
 &
 &
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_FIRST_REFLOW
+)
 )
 {
 nsView
@@ -3218,11 +3217,8 @@ IsDroppedDown
 &
 &
 !
+HasAnyStateBits
 (
-GetStateBits
-(
-)
-&
 NS_FRAME_IS_DIRTY
 )
 &
