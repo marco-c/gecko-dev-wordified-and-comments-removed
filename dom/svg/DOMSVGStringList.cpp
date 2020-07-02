@@ -912,10 +912,6 @@ tests
 do_QueryObject
 (
 mElement
-.
-get
-(
-)
 )
 ;
 return
