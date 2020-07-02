@@ -200,15 +200,6 @@ include
 "
 mozilla
 /
-LinuxSignal
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PodOperations
 .
 h
@@ -1273,10 +1264,7 @@ sa
 .
 sa_sigaction
 =
-MOZ_SIGNAL_TRAMPOLINE
-(
 SigprofHandler
-)
 ;
 sigemptyset
 (
