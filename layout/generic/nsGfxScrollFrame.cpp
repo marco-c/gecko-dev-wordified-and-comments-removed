@@ -16252,7 +16252,7 @@ PresShell
 )
 -
 >
-GetIsViewportOverridden
+UsesMobileViewportSizing
 (
 )
 )
