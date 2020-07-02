@@ -45,6 +45,7 @@ IsPerMonitorDPIAware
 0
 SystemDPI
 FlatMenusEnabled
+IsAppThemed
 Count
 }
 ;
@@ -72,6 +73,11 @@ SystemDPI
 ;
 bool
 AreFlatMenusEnabled
+(
+)
+;
+bool
+IsAppThemed
 (
 )
 ;
