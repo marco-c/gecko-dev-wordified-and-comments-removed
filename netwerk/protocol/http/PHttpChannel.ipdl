@@ -214,6 +214,11 @@ status
 )
 ;
 async
+OnStartRequestSent
+(
+)
+;
+async
 Redirect1Begin
 (
 uint32_t
