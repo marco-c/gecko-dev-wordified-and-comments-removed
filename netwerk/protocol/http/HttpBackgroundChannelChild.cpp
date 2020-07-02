@@ -392,6 +392,11 @@ HttpBackgroundChannelChild
 :
 OnStartRequestReceived
 (
+Maybe
+<
+uint32_t
+>
+aMultiPartID
 )
 {
 LOG
@@ -431,6 +436,12 @@ MOZ_ASSERT
 (
 !
 mStartReceived
+|
+|
+*
+aMultiPartID
+>
+0
 )
 ;
 mStartReceived
@@ -698,6 +709,11 @@ aArgs
 ;
 OnStartRequestReceived
 (
+aArgs
+.
+multiPartID
+(
+)
 )
 ;
 return
