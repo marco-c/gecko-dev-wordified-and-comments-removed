@@ -410,6 +410,10 @@ aDataSize
 bool
 SetThumbnail
 (
+const
+nsAString
+&
+aUrl
 )
 ;
 void
