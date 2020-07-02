@@ -1,7 +1,7 @@
 #
 include
 "
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -65,7 +65,7 @@ public
 explicit
 ShutdownRunnable
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -106,7 +106,7 @@ private
 :
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 mActor
 ;
@@ -124,7 +124,7 @@ public
 explicit
 StreamNeededRunnable
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -160,7 +160,7 @@ State
 )
 !
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eActiveMigrating
@@ -174,7 +174,7 @@ State
 )
 !
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eInactiveMigrating
@@ -190,7 +190,7 @@ State
 )
 =
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eActive
@@ -212,7 +212,7 @@ private
 :
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 mActor
 ;
@@ -319,7 +319,7 @@ public
 explicit
 LengthNeededRunnable
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -355,7 +355,7 @@ State
 )
 !
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eActiveMigrating
@@ -369,7 +369,7 @@ State
 )
 !
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eInactiveMigrating
@@ -385,7 +385,7 @@ State
 )
 =
 =
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 eActive
@@ -407,7 +407,7 @@ private
 :
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 mActor
 ;
@@ -487,10 +487,10 @@ mSize
 }
 ;
 }
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 const
 nsID
@@ -503,7 +503,7 @@ aSize
 mMutex
 (
 "
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 mMutex
@@ -566,7 +566,7 @@ Create
 (
 workerPrivate
 "
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 "
 )
 ;
@@ -589,18 +589,18 @@ workerRef
 ;
 }
 }
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 ~
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 )
 =
 default
 ;
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 Shutdown
@@ -615,7 +615,7 @@ mMutex
 ;
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 kungFuDeathGrip
 =
@@ -650,7 +650,7 @@ eInactive
 }
 }
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 ActorDestroy
@@ -704,11 +704,11 @@ return
 ;
 }
 }
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 ActorState
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 State
@@ -729,7 +729,7 @@ already_AddRefed
 <
 IPCBlobInputStream
 >
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 CreateStream
@@ -830,12 +830,12 @@ thread
 ;
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 newActor
 =
 new
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 mID
 mSize
@@ -942,7 +942,7 @@ forget
 ;
 }
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 ForgetStream
@@ -959,7 +959,7 @@ aStream
 ;
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 kungFuDeathGrip
 =
@@ -1039,7 +1039,7 @@ NS_DISPATCH_NORMAL
 ;
 }
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 StreamNeeded
@@ -1188,7 +1188,7 @@ ipc
 :
 :
 IPCResult
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 RecvStreamReady
@@ -1361,7 +1361,7 @@ IPC_OK
 ;
 }
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 LengthNeeded
@@ -1510,7 +1510,7 @@ ipc
 :
 :
 IPCResult
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 RecvLengthReady
@@ -1648,7 +1648,7 @@ IPC_OK
 ;
 }
 void
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 :
 :
 Migrated

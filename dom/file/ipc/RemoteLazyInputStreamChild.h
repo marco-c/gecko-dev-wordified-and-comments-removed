@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_IPCBlobInputStreamChild_h
+mozilla_dom_RemoteLazyInputStreamChild_h
 #
 define
-mozilla_dom_IPCBlobInputStreamChild_h
+mozilla_dom_RemoteLazyInputStreamChild_h
 #
 include
 "
@@ -64,7 +64,7 @@ class
 ThreadSafeWorkerRef
 ;
 class
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 final
 :
 public
@@ -83,10 +83,10 @@ eInactiveMigrating
 ;
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 final
 )
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 const
 nsID
@@ -218,7 +218,7 @@ Migrated
 private
 :
 ~
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 )
 ;

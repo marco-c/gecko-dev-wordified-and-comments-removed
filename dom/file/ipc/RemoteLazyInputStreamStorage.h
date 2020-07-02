@@ -40,7 +40,7 @@ namespace
 dom
 {
 class
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 ;
 class
 RemoteLazyInputStreamStorage
@@ -127,14 +127,14 @@ const
 nsID
 &
 aID
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 *
 aCallback
 )
 ;
 already_AddRefed
 <
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 >
 TakeCallback
 (
@@ -170,7 +170,7 @@ mInputStream
 ;
 RefPtr
 <
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 >
 mCallback
 ;

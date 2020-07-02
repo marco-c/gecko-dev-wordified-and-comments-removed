@@ -8,14 +8,14 @@ h
 #
 include
 "
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
 #
 include
 "
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 .
 h
 "
@@ -505,7 +505,7 @@ IPCBlobInputStream
 :
 IPCBlobInputStream
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -2248,7 +2248,7 @@ asyncRemoteStream
 ;
 RefPtr
 <
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 >
 parentActor
 ;
@@ -2294,7 +2294,7 @@ asyncRemoteStream
 ;
 parentActor
 =
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 :
 :
 Create

@@ -11,7 +11,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -46,7 +46,7 @@ namespace
 dom
 {
 class
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 ;
 class
 IPCBlobInputStreamThread
@@ -88,7 +88,7 @@ GetOrCreate
 void
 MigrateActor
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -115,7 +115,7 @@ default
 void
 MigrateActorInternal
 (
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 aActor
 )
@@ -130,7 +130,7 @@ nsTArray
 <
 RefPtr
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 >
 mPendingActors

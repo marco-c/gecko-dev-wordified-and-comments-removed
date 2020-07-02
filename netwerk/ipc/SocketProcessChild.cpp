@@ -58,7 +58,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamChild
+MemoryReportRequest
 .
 h
 "
@@ -69,7 +69,7 @@ mozilla
 /
 dom
 /
-MemoryReportRequest
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -2535,7 +2535,7 @@ RefPtr
 dom
 :
 :
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 >
 actor
 =
@@ -2543,7 +2543,7 @@ new
 dom
 :
 :
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 (
 aID
 aSize

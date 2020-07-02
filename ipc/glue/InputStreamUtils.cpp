@@ -50,7 +50,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 .
 h
 "
@@ -1347,13 +1347,13 @@ IPCBlobInputStreamParams
 TPRemoteLazyInputStreamChild
 )
 ;
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 actor
 =
 static_cast
 <
-IPCBlobInputStreamChild
+RemoteLazyInputStreamChild
 *
 >
 (

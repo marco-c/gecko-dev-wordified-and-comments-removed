@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_IPCBlobInputStreamParent_h
+mozilla_dom_RemoteLazyInputStreamParent_h
 #
 define
-mozilla_dom_IPCBlobInputStreamParent_h
+mozilla_dom_RemoteLazyInputStreamParent_h
 #
 include
 "
@@ -33,7 +33,7 @@ dom
 {
 class
 NS_NO_VTABLE
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 {
 public
 :
@@ -54,7 +54,7 @@ protected
 :
 virtual
 ~
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 (
 )
 =
@@ -63,7 +63,7 @@ default
 }
 ;
 class
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 final
 :
 public
@@ -73,7 +73,7 @@ public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
 (
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 final
 )
 template
@@ -84,7 +84,7 @@ M
 static
 already_AddRefed
 <
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 >
 Create
 (
@@ -106,7 +106,7 @@ aManager
 static
 already_AddRefed
 <
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 >
 Create
 (
@@ -130,7 +130,7 @@ aManager
 static
 already_AddRefed
 <
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 >
 Create
 (
@@ -187,7 +187,7 @@ mSize
 void
 SetCallback
 (
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 *
 aCallback
 )
@@ -245,7 +245,7 @@ const
 ;
 private
 :
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 (
 const
 nsID
@@ -258,7 +258,7 @@ ContentParent
 aManager
 )
 ;
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 (
 const
 nsID
@@ -277,7 +277,7 @@ PBackgroundParent
 aManager
 )
 ;
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 (
 const
 nsID
@@ -297,7 +297,7 @@ aManager
 )
 ;
 ~
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 (
 )
 =
@@ -337,7 +337,7 @@ mSocketProcessManager
 ;
 RefPtr
 <
-IPCBlobInputStreamParentCallback
+RemoteLazyInputStreamParentCallback
 >
 mCallback
 ;
