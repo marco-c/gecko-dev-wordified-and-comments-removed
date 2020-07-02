@@ -1752,6 +1752,15 @@ eContentPaint
 )
 )
 ;
+extern
+const
+char
+*
+kCompositionPayloadTypeNames
+[
+kCompositionPayloadTypeCount
+]
+;
 struct
 CompositionPayload
 {
