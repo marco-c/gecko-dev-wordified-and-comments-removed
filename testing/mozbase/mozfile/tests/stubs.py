@@ -105,6 +105,9 @@ tempdir
 def
 create_stub
 (
+tempdir
+=
+None
 )
 :
     
@@ -121,6 +124,8 @@ directory
     
 tempdir
 =
+tempdir
+or
 tempfile
 .
 mkdtemp
