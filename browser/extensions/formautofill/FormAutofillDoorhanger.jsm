@@ -167,13 +167,6 @@ autofillOptsKey
 autofillOptionsLink
 "
 ;
-let
-autofillSecurityOptionsKey
-=
-"
-autofillSecurityOptionsLink
-"
-;
 if
 (
 AppConstants
@@ -194,13 +187,6 @@ OSX
 "
 ;
 autofillOptsKey
-+
-=
-"
-OSX
-"
-;
-autofillSecurityOptionsKey
 +
 =
 "
@@ -644,7 +630,7 @@ linkMessage
 :
 GetStringFromName
 (
-autofillSecurityOptionsKey
+autofillOptsKey
 )
 spotlightURL
 :
