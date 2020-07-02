@@ -1273,6 +1273,8 @@ mozbase
 '
 '
 third_party
+/
+python
 '
 ]
 if
