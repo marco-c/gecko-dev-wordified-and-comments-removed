@@ -7211,6 +7211,17 @@ ElseIf
 request
 =
 =
+FIONREAD
+Allow
+(
+)
+)
+.
+ElseIf
+(
+request
+=
+=
 TCGETS
 Error
 (
