@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsITimedChannel
+.
+h
+"
+#
+include
+"
 nsNetCID
 .
 h
