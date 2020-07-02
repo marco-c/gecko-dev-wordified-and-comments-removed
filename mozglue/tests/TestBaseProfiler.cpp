@@ -213,6 +213,9 @@ include
 <
 utility
 >
+#
+ifdef
+MOZ_GECKO_PROFILER
 MOZ_MAYBE_UNUSED
 static
 void
@@ -329,9 +332,6 @@ exit
 #
 endif
 }
-#
-ifdef
-MOZ_GECKO_PROFILER
 using
 namespace
 mozilla
