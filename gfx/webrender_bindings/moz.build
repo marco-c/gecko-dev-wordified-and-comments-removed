@@ -205,6 +205,11 @@ webrender
 =
 [
 '
+RenderCompositorNative
+.
+h
+'
+'
 RenderMacIOSurfaceTextureHostOGL
 .
 h
@@ -214,6 +219,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+RenderCompositorNative
+.
+cpp
+'
 '
 RenderMacIOSurfaceTextureHostOGL
 .
