@@ -1446,6 +1446,13 @@ UpdateDeactivationTimerIfNeeded
 (
 )
 ;
+mPictureInPictureModeChangedEvent
+.
+Notify
+(
+mIsInPictureInPictureMode
+)
+;
 }
 void
 MediaController
@@ -1494,6 +1501,13 @@ aIsInFullScreen
 ;
 UpdateActivatedStateIfNeeded
 (
+)
+;
+mFullScreenChangedEvent
+.
+Notify
+(
+mIsInFullScreenMode
 )
 ;
 }
