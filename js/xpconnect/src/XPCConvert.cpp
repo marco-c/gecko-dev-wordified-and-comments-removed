@@ -19,6 +19,15 @@ h
 #
 include
 "
+mozilla
+/
+Sprintf
+.
+h
+"
+#
+include
+"
 xpcprivate
 .
 h
@@ -2165,10 +2174,9 @@ msg
 MSG_BUF_SIZE
 ]
 ;
-snprintf
+SprintfLiteral
 (
 msg
-MSG_BUF_SIZE
 "
 char16_t
 out
