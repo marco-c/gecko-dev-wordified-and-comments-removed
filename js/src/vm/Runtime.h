@@ -2610,6 +2610,17 @@ global
 selfHostingGlobal_
 ;
 }
+js
+:
+:
+GeneratorKind
+getSelfHostedFunctionGeneratorKind
+(
+JSAtom
+*
+name
+)
+;
 bool
 createLazySelfHostedFunctionClone
 (
