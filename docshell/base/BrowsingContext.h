@@ -1001,8 +1001,6 @@ nsAString
 aName
 Type
 aType
-uint64_t
-aBrowserId
 )
 ;
 void

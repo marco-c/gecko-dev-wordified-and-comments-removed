@@ -182,13 +182,7 @@ uint64_t
 BrowserId
 (
 )
-{
-return
-GetBrowserId
-(
-)
 ;
-}
 void
 SwapFrameLoaders
 (
