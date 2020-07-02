@@ -9583,7 +9583,10 @@ prefs
 getBoolPref
 (
 PREF_INSTALL_REQUIREBUILTINCERTS
-true
+!
+AppConstants
+.
+MOZ_REQUIRE_SIGNING
 )
 ;
 this
@@ -10365,7 +10368,10 @@ prefs
 getBoolPref
 (
 PREF_INSTALL_REQUIREBUILTINCERTS
-true
+!
+AppConstants
+.
+MOZ_REQUIRE_SIGNING
 )
 )
 ;
