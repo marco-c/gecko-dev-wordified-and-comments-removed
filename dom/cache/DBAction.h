@@ -96,8 +96,10 @@ virtual
 void
 RunWithDBOnTarget
 (
+SafeRefPtr
+<
 Resolver
-*
+>
 aResolver
 const
 QuotaInfo
@@ -118,8 +120,10 @@ private
 void
 RunOnTarget
 (
+SafeRefPtr
+<
 Resolver
-*
+>
 aResolver
 const
 QuotaInfo
@@ -198,8 +202,10 @@ virtual
 void
 RunWithDBOnTarget
 (
+SafeRefPtr
+<
 Resolver
-*
+>
 aResolver
 const
 QuotaInfo

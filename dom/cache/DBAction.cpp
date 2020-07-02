@@ -376,8 +376,10 @@ DBAction
 :
 RunOnTarget
 (
+SafeRefPtr
+<
 Resolver
-*
+>
 aResolver
 const
 QuotaInfo
@@ -601,7 +603,13 @@ wrapped
 }
 RunWithDBOnTarget
 (
+std
+:
+:
+move
+(
 aResolver
+)
 aQuotaInfo
 dbDir
 conn
@@ -835,8 +843,10 @@ SyncDBAction
 :
 RunWithDBOnTarget
 (
+SafeRefPtr
+<
 Resolver
-*
+>
 aResolver
 const
 QuotaInfo
