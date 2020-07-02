@@ -630,11 +630,6 @@ IntrinsicToLength
 \
 _
 (
-IntrinsicToString
-)
-\
-_
-(
 IntrinsicIsConstructing
 )
 \

@@ -3722,6 +3722,15 @@ toString
 \
 MACRO
 (
+ToString
+ToString
+"
+ToString
+"
+)
+\
+MACRO
+(
 toUTCString
 toUTCString
 "
