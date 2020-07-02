@@ -760,10 +760,6 @@ Services
 .
 search
 .
-wrappedJSObject
-.
-_cache
-.
 QueryInterface
 (
 Ci
