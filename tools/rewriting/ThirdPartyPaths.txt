@@ -51,9 +51,6 @@ build
 raven
 .
 js
-build
-/
-pymake
 devtools
 /
 client

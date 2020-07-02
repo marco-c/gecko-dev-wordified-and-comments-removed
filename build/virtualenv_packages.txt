@@ -728,13 +728,6 @@ mozilla
 .
 pth
 :
-build
-/
-pymake
-mozilla
-.
-pth
-:
 config
 mozilla
 .

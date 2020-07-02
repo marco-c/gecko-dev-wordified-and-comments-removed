@@ -1,8 +1,0 @@
-all
-:
-(
-echo
-TEST
--
-PASS
-)
