@@ -153,6 +153,8 @@ config
 rules
 .
 mk
+ifdef
+COMPILE_ENVIRONMENT
 tools
 :
 :
@@ -471,5 +473,6 @@ updater
 (
 BIN_SUFFIX
 )
+endif
 endif
 endif
