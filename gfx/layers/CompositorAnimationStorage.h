@@ -564,6 +564,12 @@ TimeStamp
 aCurrentFrameTime
 )
 ;
+bool
+HasAnimations
+(
+)
+const
+;
 void
 ClearById
 (

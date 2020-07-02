@@ -407,6 +407,9 @@ class
 LayerTransactionParent
 ;
 class
+OMTASampler
+;
+class
 PAPZParent
 ;
 class
@@ -3269,6 +3272,7 @@ APZSampler
 GetAPZSampler
 (
 )
+const
 ;
 RefPtr
 <
@@ -3277,6 +3281,16 @@ APZUpdater
 GetAPZUpdater
 (
 )
+const
+;
+RefPtr
+<
+OMTASampler
+>
+GetOMTASampler
+(
+)
+const
 ;
 CompositorOptions
 GetOptions
@@ -3922,6 +3936,12 @@ RefPtr
 APZUpdater
 >
 mApzUpdater
+;
+RefPtr
+<
+OMTASampler
+>
+mOMTASampler
 ;
 RefPtr
 <

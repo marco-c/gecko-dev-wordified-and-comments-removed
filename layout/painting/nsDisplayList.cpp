@@ -38392,16 +38392,6 @@ float
 aAppUnitsPerPixel
 )
 {
-MOZ_ASSERT
-(
-CompositorThreadHolder
-:
-:
-IsInCompositorThread
-(
-)
-)
-;
 return
 GetResultingTransformMatrixInternal
 (

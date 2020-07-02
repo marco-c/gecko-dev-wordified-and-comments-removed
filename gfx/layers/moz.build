@@ -1600,6 +1600,13 @@ h
 '
 wr
 /
+OMTASampler
+.
+h
+'
+'
+wr
+/
 RenderRootStateManager
 .
 h
@@ -3327,6 +3334,13 @@ cpp
 wr
 /
 IpcResourceUpdateQueue
+.
+cpp
+'
+'
+wr
+/
+OMTASampler
 .
 cpp
 '
