@@ -41,7 +41,7 @@ JSAtom
 name
 )
 ;
-JSAtom
+PropertyName
 *
 GetClonedSelfHostedFunctionName
 (
@@ -51,7 +51,7 @@ JSFunction
 fun
 )
 ;
-JSAtom
+PropertyName
 *
 GetClonedSelfHostedFunctionNameOffMainThread
 (
