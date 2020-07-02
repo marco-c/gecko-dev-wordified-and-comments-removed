@@ -83,7 +83,6 @@ from
 sentry
 import
 register_sentry
-report_exception
 from
 .
 util
@@ -2004,6 +2003,8 @@ topdir
 '
 )
             
+sentry
+=
 register_sentry
 (
 argv
@@ -2013,6 +2014,8 @@ topsrcdir
 else
 :
             
+sentry
+=
 register_sentry
 (
 argv
@@ -2220,6 +2223,7 @@ self
 _run
 (
 argv
+sentry
 )
         
 except
@@ -2299,6 +2303,8 @@ exc_value
 stack
 )
             
+sentry
+.
 report_exception
 (
 exc_value
@@ -2350,6 +2356,7 @@ _run
 (
 self
 argv
+sentry
 )
 :
         
@@ -2856,6 +2863,8 @@ exc_info
 (
 )
             
+sentry
+.
 report_exception
 (
 exc_value
