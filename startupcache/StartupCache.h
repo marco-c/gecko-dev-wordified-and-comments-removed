@@ -693,9 +693,6 @@ bool
 mWrittenOnce
 ;
 bool
-mStartupWriteInitiated
-;
-bool
 mCurTableReferenced
 ;
 uint32_t
