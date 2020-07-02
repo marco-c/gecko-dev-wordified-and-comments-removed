@@ -588,9 +588,9 @@ expectedReturnValue
 fieldName
 :
 "
-address
+street
 -
-line1
+address
 "
 section
 :

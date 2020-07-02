@@ -79,9 +79,9 @@ contactType
 fieldName
 :
 "
-address
+street
 -
-line1
+address
 "
 }
 {
@@ -312,9 +312,9 @@ contactType
 fieldName
 :
 "
-address
+street
 -
-line1
+address
 "
 }
 {
