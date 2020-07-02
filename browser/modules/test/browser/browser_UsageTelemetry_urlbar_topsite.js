@@ -534,8 +534,6 @@ EventUtils
 .
 synthesizeMouseAtCenter
 (
-window
-.
 gURLBar
 .
 inputField
@@ -681,8 +679,6 @@ window
 =
 >
 {
-window
-.
 gURLBar
 .
 blur

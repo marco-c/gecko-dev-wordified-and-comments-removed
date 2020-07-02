@@ -349,6 +349,7 @@ gURLBar
 inputField
 {
 }
+win
 )
 ;
 await
@@ -2576,7 +2577,6 @@ promiseAutocompleteResultPopup
 window
 :
 privateWin
-waitForFocus
 value
 :
 "

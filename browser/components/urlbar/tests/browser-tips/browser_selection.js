@@ -145,7 +145,6 @@ value
 test
 "
 window
-waitForFocus
 }
 )
 ;
@@ -704,7 +703,6 @@ value
 test
 "
 window
-waitForFocus
 }
 )
 ;
@@ -1118,7 +1116,6 @@ value
 test
 "
 window
-waitForFocus
 }
 )
 ;

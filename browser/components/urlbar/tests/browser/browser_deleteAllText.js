@@ -129,11 +129,6 @@ promiseAutocompleteResultPopup
 (
 {
 window
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 "
@@ -383,8 +378,6 @@ Assert
 .
 ok
 (
-window
-.
 gURLBar
 .
 view

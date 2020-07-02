@@ -413,11 +413,6 @@ promiseAutocompleteResultPopup
 window
 :
 aDestWindow
-waitForFocus
-:
-SimpleTest
-.
-waitForFocus
 value
 :
 searchString

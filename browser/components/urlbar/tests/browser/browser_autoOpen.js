@@ -133,6 +133,7 @@ gURLBar
 inputField
 {
 }
+win
 )
 ;
 }
@@ -313,8 +314,6 @@ waitForCondition
 )
 =
 >
-window
-.
 gBrowser
 .
 currentURI
