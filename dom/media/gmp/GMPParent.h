@@ -293,9 +293,9 @@ GMPParent
 explicit
 GMPParent
 (
-AbstractThread
+nsISerialEventTarget
 *
-aMainThread
+aThread
 )
 ;
 RefPtr
@@ -827,11 +827,11 @@ bool
 mHoldingSelfRef
 ;
 const
-RefPtr
+nsCOMPtr
 <
-AbstractThread
+nsISerialEventTarget
 >
-mMainThread
+mWorkerThread
 ;
 }
 ;
