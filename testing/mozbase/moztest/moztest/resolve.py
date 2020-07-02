@@ -2471,6 +2471,18 @@ tests
 '
         
 '
+build_flavor
+'
+:
+'
+web
+-
+platform
+-
+tests
+'
+        
+'
 kwargs
 '
 :
@@ -2745,6 +2757,18 @@ wpt
         
 '
 mach_command
+'
+:
+'
+web
+-
+platform
+-
+tests
+'
+        
+'
+build_flavor
 '
 :
 '
