@@ -16786,10 +16786,9 @@ true
 private
 :
 class
+MOZ_RAII
 AutoProfilerCallInstrumentation
 {
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
-;
 public
 :
 explicit
@@ -16798,7 +16797,6 @@ AutoProfilerCallInstrumentation
 MacroAssembler
 &
 masm
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
