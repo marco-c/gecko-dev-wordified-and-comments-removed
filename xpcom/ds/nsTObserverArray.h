@@ -1708,6 +1708,15 @@ N
 :
 :
 const_iterator
+typename
+AutoTArray
+<
+T
+N
+>
+:
+:
+const_reverse_iterator
 >
 {
 mArray
