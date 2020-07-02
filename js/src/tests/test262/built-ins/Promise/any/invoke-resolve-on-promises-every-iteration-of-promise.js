@@ -84,7 +84,6 @@ promise
 )
 ;
 }
-DONE
 )
 .
 then

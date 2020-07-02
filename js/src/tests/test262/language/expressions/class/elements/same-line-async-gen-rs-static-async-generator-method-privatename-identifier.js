@@ -511,7 +511,6 @@ value
 )
 ;
 }
-DONE
 )
 .
 then
@@ -532,7 +531,6 @@ assertions
 )
 ;
 }
-DONE
 )
 .
 then

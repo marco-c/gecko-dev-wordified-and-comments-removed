@@ -47,6 +47,16 @@ function
 (
 )
 {
+assert
+.
+sameValue
+(
+sequence
+.
+length
+3
+)
+;
 checkSequence
 (
 sequence

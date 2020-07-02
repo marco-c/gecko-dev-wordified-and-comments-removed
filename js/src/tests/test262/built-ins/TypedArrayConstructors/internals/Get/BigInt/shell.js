@@ -12,11 +12,15 @@ function
 testWithBigIntTypedArrayConstructors
 (
 f
+selected
 )
 {
 var
 constructors
 =
+selected
+|
+|
 [
 BigInt64Array
 BigUint64Array

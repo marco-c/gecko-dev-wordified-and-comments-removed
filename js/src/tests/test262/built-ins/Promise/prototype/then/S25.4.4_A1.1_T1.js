@@ -138,6 +138,16 @@ function
 (
 )
 {
+assert
+.
+sameValue
+(
+sequence
+.
+length
+8
+)
+;
 checkSequence
 (
 sequence

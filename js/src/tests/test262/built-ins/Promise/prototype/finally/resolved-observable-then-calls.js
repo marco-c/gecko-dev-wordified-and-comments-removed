@@ -176,6 +176,16 @@ function
 (
 )
 {
+assert
+.
+sameValue
+(
+sequence
+.
+length
+5
+)
+;
 checkSequence
 (
 sequence

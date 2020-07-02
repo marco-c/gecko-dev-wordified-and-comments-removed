@@ -156,7 +156,6 @@ promise
 )
 ;
 }
-DONE
 )
 .
 then

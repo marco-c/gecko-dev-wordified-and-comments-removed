@@ -35,7 +35,6 @@ receiveBroadcast
 function
 (
 sab
-id
 )
 {
 const

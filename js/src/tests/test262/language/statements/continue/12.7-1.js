@@ -20,8 +20,15 @@ i
 +
 )
 {
+if
+(
+true
+)
 continue
 ;
+else
+{
+}
 sum
 +
 =

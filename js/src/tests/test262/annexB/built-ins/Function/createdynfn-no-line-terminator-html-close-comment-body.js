@@ -1,12 +1,3 @@
-assert
-.
-throws
-(
-SyntaxError
-(
-)
-=
->
 Function
 (
 "
@@ -14,7 +5,6 @@ Function
 -
 >
 "
-)
 )
 ;
 reportCompare

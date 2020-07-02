@@ -360,7 +360,6 @@ assertions
 )
 ;
 }
-DONE
 )
 .
 then

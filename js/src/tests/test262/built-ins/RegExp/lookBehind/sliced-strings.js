@@ -5,7 +5,7 @@ oob_subject
 abcdefghijklmnabcdefghijklmn
 "
 .
-substr
+slice
 (
 14
 )
@@ -81,7 +81,7 @@ sameValue
 abcdefgabcdefg
 "
 .
-substr
+slice
 (
 1
 )

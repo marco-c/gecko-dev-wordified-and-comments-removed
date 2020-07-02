@@ -13,10 +13,9 @@ BYTES_PER_ELEMENT
 ;
 testWithBigIntTypedArrayConstructors
 (
-function
-(
 TA
-)
+=
+>
 {
 const
 view

@@ -4,7 +4,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 1
 )
@@ -20,7 +20,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 -
 0
@@ -38,7 +38,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 0
 )
@@ -54,7 +54,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 -
 1
@@ -72,7 +72,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 9007199254740991
 )
@@ -88,7 +88,7 @@ sameValue
 (
 Number
 .
-isInteger
+isSafeInteger
 (
 -
 9007199254740991

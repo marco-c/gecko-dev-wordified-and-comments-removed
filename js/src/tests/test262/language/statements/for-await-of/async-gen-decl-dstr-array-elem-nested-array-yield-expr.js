@@ -144,7 +144,6 @@ prop
 )
 ;
 }
-DONE
 )
 .
 then

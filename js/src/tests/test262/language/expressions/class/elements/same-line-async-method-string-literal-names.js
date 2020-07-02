@@ -400,7 +400,6 @@ assertions
 )
 ;
 }
-DONE
 )
 .
 then

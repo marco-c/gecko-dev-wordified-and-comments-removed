@@ -2,7 +2,7 @@ assert
 .
 throws
 (
-RangeError
+TypeError
 (
 )
 =
