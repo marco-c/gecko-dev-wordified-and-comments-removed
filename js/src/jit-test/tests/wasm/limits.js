@@ -823,7 +823,7 @@ maximum
 '
 '
 }
-externref
+anyfunc
 )
 )
 )
@@ -889,7 +889,7 @@ maximum
 '
 '
 }
-externref
+anyfunc
 )
 )
 pattern
@@ -947,7 +947,7 @@ maximum
 element
 :
 '
-externref
+anyfunc
 '
 }
 )
@@ -1009,7 +1009,7 @@ maximum
 '
 '
 }
-externref
+anyfunc
 )
 )
 )
@@ -1060,7 +1060,7 @@ maximum
 element
 :
 '
-externref
+anyfunc
 '
 }
 )
@@ -1165,7 +1165,7 @@ maximum
 '
 '
 }
-externref
+anyfunc
 )
 )
 )
@@ -1192,7 +1192,7 @@ maximum
 element
 :
 '
-externref
+anyfunc
 '
 }
 )
@@ -1231,6 +1231,13 @@ elements
 /
 )
 ;
+if
+(
+wasmReftypesEnabled
+(
+)
+)
+{
 function
 testTableFailGrow
 (
@@ -1370,3 +1377,4 @@ TableMaxRuntime
 1
 )
 ;
+}
