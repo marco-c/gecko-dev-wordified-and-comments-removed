@@ -1707,6 +1707,11 @@ mIsLastPartOfMultiPart
 :
 1
 ;
+uint8_t
+mSuspendForWaitCompleteRedirectSetup
+:
+1
+;
 void
 FinishInterceptedRedirect
 (
