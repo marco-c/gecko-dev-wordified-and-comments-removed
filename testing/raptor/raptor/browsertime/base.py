@@ -1384,32 +1384,7 @@ video
 "
 true
 "
-            
-]
-)
-            
-if
-"
-fennec
-"
-not
-in
-self
-.
-config
-[
-"
-app
-"
-]
-:
                 
-browsertime_options
-.
-extend
-(
-[
-                    
 "
 -
 -
@@ -1418,9 +1393,9 @@ firefox
 windowRecorder
 "
 "
-true
+false
 "
-                
+            
 ]
 )
         
