@@ -82,7 +82,7 @@ SANDBOX_LEVEL_3
 )
 (
 define
-macosMinorVersion
+macosVersion
 (
 string
 -
@@ -91,7 +91,7 @@ number
 (
 param
 "
-MAC_OS_MINOR
+MAC_OS_VERSION
 "
 )
 )
@@ -753,8 +753,8 @@ there
 if
 (
 =
-macosMinorVersion
-9
+macosVersion
+1009
 )
 (
 allow
@@ -1227,8 +1227,8 @@ gstLoaderControl
 if
 (
 >
-macosMinorVersion
-9
+macosVersion
+1009
 )
 (
 allow
@@ -1575,8 +1575,8 @@ if
 (
 >
 =
-macosMinorVersion
-13
+macosVersion
+1013
 )
 (
 allow
@@ -1627,8 +1627,8 @@ bug
 if
 (
 =
-macosMinorVersion
-9
+macosVersion
+1009
 )
 (
 allow
@@ -2879,8 +2879,8 @@ if
 (
 >
 =
-macosMinorVersion
-14
+macosVersion
+1014
 )
 (
 allow
@@ -3198,8 +3198,8 @@ if
 (
 <
 =
-macosMinorVersion
-11
+macosVersion
+1011
 )
 (
 allow
@@ -3251,8 +3251,8 @@ if
 (
 <
 =
-macosMinorVersion
-11
+macosVersion
+1011
 )
 (
 allow
@@ -3454,8 +3454,8 @@ if
 (
 >
 =
-macosMinorVersion
-13
+macosVersion
+1013
 )
 (
 allow

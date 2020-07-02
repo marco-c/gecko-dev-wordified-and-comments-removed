@@ -64,7 +64,7 @@ SANDBOX_LEVEL_2
 )
 (
 define
-macosMinorVersion
+macosVersion
 (
 string
 -
@@ -73,7 +73,7 @@ number
 (
 param
 "
-MAC_OS_MINOR
+MAC_OS_VERSION
 "
 )
 )
@@ -949,8 +949,8 @@ predicate
 if
 (
 =
-macosMinorVersion
-9
+macosVersion
+1009
 )
 (
 allow
@@ -2450,8 +2450,8 @@ bug
 if
 (
 =
-macosMinorVersion
-9
+macosVersion
+1009
 )
 (
 allow
@@ -2477,8 +2477,8 @@ if
 (
 >
 =
-macosMinorVersion
-15
+macosVersion
+1015
 )
 (
 allow
@@ -2705,8 +2705,8 @@ if
 (
 <
 =
-macosMinorVersion
-11
+macosVersion
+1011
 )
 (
 allow
@@ -2758,8 +2758,8 @@ if
 (
 <
 =
-macosMinorVersion
-11
+macosVersion
+1011
 )
 (
 allow
