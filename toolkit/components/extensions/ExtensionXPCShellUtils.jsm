@@ -1207,6 +1207,12 @@ appendChild
 browser
 )
 ;
+browser
+.
+getBoundingClientRect
+(
+)
+;
 await
 awaitFrameLoader
 ;
