@@ -1912,6 +1912,13 @@ MaxElemSegmentLength
 static
 const
 unsigned
+MaxTableLimitField
+=
+UINT32_MAX
+;
+static
+const
+unsigned
 MaxTableLength
 =
 10000000
@@ -1982,13 +1989,6 @@ unsigned
 MaxFunctionBytes
 =
 7654321
-;
-static
-const
-unsigned
-MaxTableInitialLength
-=
-10000000
 ;
 static
 const
