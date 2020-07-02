@@ -157,6 +157,11 @@ DWriteEnabled
 readonly
 attribute
 boolean
+EmbeddedInFirefoxReality
+;
+readonly
+attribute
+boolean
 usingGPUProcess
 ;
 readonly

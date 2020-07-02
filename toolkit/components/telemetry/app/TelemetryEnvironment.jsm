@@ -8887,6 +8887,15 @@ isHeadless
 "
 null
 )
+EmbeddedInFirefoxReality
+:
+getGfxField
+(
+"
+EmbeddedInFirefoxReality
+"
+null
+)
 adapters
 :
 [

@@ -408,6 +408,13 @@ DwmCompositionEnabled
 bool
 true
 )
+\
+_
+(
+FxREmbedded
+bool
+false
+)
 class
 gfxVars
 final
