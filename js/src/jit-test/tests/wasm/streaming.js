@@ -687,6 +687,17 @@ wasmTextToBinary
 text
 )
 ;
+if
+(
+typeof
+setBufferStreamParams
+=
+=
+'
+function
+'
+)
+{
 assertEq
 (
 code
@@ -859,6 +870,7 @@ run
 5050
 )
 ;
+}
 var
 code
 =
