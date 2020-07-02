@@ -420,6 +420,12 @@ processing_incoming_
 bool
 closed_
 ;
+int32_t
+other_pid_
+=
+-
+1
+;
 size_t
 output_queue_length_
 ;
