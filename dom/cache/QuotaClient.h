@@ -89,11 +89,6 @@ nsIFile
 aBaseDir
 )
 ;
-extern
-const
-nsLiteralString
-kCachesSQLiteFilename
-;
 }
 }
 }
