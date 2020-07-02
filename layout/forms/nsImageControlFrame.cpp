@@ -648,7 +648,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 nsIntPoint

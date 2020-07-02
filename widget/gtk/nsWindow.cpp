@@ -16192,7 +16192,7 @@ buttonType
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 break
 ;
@@ -16228,7 +16228,7 @@ buttonType
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 }
 LOG
@@ -16488,7 +16488,7 @@ domButton
 MouseButton
 :
 :
-eRight
+eSecondary
 &
 &
 MOZ_LIKELY
@@ -16694,7 +16694,7 @@ domButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 break
 ;
@@ -16718,7 +16718,7 @@ domButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 break
 ;
@@ -16906,7 +16906,7 @@ domButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 eventStatus
@@ -17005,7 +17005,7 @@ domButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 break
 ;
@@ -17029,7 +17029,7 @@ domButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 break
 ;
@@ -17144,7 +17144,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 event
@@ -34516,7 +34516,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 return

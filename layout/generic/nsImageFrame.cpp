@@ -11673,7 +11673,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 |
 |

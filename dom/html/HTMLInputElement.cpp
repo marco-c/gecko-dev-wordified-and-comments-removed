@@ -18216,7 +18216,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 {
 if
@@ -18294,7 +18294,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 &
 &
 !

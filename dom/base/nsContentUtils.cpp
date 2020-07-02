@@ -38857,7 +38857,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 return
 MouseButtonsFlag
@@ -38881,7 +38881,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 return
 MouseButtonsFlag

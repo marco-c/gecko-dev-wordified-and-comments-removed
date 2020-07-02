@@ -450,7 +450,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 LayoutDeviceIntPoint

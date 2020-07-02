@@ -8532,7 +8532,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 cocoaEvent
 .
@@ -8550,7 +8550,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 cocoaEvent
 .
@@ -9499,7 +9499,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 ;
 if
@@ -11018,7 +11018,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 event
 .

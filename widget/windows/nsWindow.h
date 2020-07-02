@@ -1550,7 +1550,7 @@ mozilla
 MouseButton
 :
 :
-eLeft
+ePrimary
 uint16_t
 aInputSource
 =

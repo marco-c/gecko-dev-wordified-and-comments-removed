@@ -1210,7 +1210,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 abuse
@@ -1443,7 +1443,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 switch

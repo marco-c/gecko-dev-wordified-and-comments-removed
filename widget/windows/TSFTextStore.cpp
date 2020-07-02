@@ -2385,7 +2385,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 return
 "
@@ -2407,7 +2407,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 return
 "
@@ -34336,7 +34336,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 buttonStatus
 =
@@ -34360,7 +34360,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 buttonStatus
 =

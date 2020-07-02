@@ -342,7 +342,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 tmpAction
@@ -388,7 +388,7 @@ button
 MouseButton
 :
 :
-eRight
+eSecondary
 )
 {
 tmpAction

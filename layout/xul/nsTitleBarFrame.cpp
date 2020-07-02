@@ -311,7 +311,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 if
@@ -386,7 +386,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 mTrackingMouseMove

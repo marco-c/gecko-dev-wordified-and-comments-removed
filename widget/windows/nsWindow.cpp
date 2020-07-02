@@ -8627,7 +8627,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 )
 {
 return
@@ -18905,7 +18905,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 eventButton
 =
@@ -18929,7 +18929,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 eventButton
 =
@@ -19165,7 +19165,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 pluginEvent
 .
@@ -19193,7 +19193,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 pluginEvent
 .
@@ -19222,7 +19222,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 pluginEvent
 .
@@ -19250,7 +19250,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 pluginEvent
 .
@@ -19279,7 +19279,7 @@ case
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 pluginEvent
 .
@@ -19307,7 +19307,7 @@ case
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 pluginEvent
 .
@@ -19477,7 +19477,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 aInputSource
 aPointerInfo
 )
@@ -19519,7 +19519,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 aInputSource
 aPointerInfo
 )
@@ -23141,7 +23141,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -23295,7 +23295,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -23330,7 +23330,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -23504,7 +23504,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -23576,7 +23576,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MouseEvent_Binding
 :
 :
@@ -23695,12 +23695,12 @@ contextMenukey
 MouseButton
 :
 :
-eLeft
+ePrimary
 :
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -23856,7 +23856,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24047,7 +24047,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24080,7 +24080,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24113,7 +24113,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24142,7 +24142,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24171,7 +24171,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24200,7 +24200,7 @@ false
 MouseButton
 :
 :
-eRight
+eSecondary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24728,7 +24728,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -24748,7 +24748,7 @@ false
 MouseButton
 :
 :
-eLeft
+ePrimary
 MOUSE_INPUT_SOURCE
 (
 )
@@ -36758,7 +36758,7 @@ sLastPenDownButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 static
 bool
@@ -36778,7 +36778,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 switch
 (
@@ -36832,12 +36832,12 @@ aWParam
 MouseButton
 :
 :
-eRight
+eSecondary
 :
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 sLastPenDownButton
 =
@@ -36879,7 +36879,7 @@ sLastPenDownButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 sPointerDown
 =
@@ -37076,7 +37076,7 @@ button
 MouseButton
 :
 :
-eLeft
+ePrimary
 ?
 MouseButtonsFlag
 :

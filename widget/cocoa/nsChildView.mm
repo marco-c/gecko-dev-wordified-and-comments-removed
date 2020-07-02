@@ -13674,7 +13674,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 }
 else
@@ -13686,7 +13686,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 }
 mGeckoChild
@@ -13804,7 +13804,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 }
 else
@@ -13816,7 +13816,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 }
 LayoutDeviceIntPoint
@@ -14266,7 +14266,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 geckoEvent
 .
@@ -14380,7 +14380,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 geckoEvent
 .
@@ -14548,7 +14548,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 mGeckoChild
 -
@@ -16070,7 +16070,7 @@ mButton
 MouseButton
 :
 :
-eLeft
+ePrimary
 ;
 }
 else
@@ -16082,7 +16082,7 @@ mButton
 MouseButton
 :
 :
-eRight
+eSecondary
 ;
 }
 mGeckoChild
