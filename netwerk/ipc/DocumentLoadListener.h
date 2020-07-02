@@ -933,6 +933,13 @@ Disconnect
 (
 )
 ;
+void
+MaybeReportBlockedByURLClassifier
+(
+nsresult
+aStatus
+)
+;
 struct
 ClassifierMatchedInfoParams
 {
