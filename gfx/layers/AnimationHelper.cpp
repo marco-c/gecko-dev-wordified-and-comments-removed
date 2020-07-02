@@ -3052,12 +3052,13 @@ isAnimating
 =
 true
 ;
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 RawServoAnimationValue
 >
+1
 >
 animationValues
 ;

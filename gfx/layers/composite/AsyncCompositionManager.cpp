@@ -3073,12 +3073,13 @@ GetCompositorAnimationsId
 )
 )
 ;
-nsTArray
+AutoTArray
 <
 RefPtr
 <
 RawServoAnimationValue
 >
+1
 >
 animationValues
 ;
