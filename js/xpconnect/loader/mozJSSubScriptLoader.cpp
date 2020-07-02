@@ -134,6 +134,15 @@ include
 "
 mozilla
 /
+Omnijar
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ScriptPreloader
 .
 h
@@ -1222,6 +1231,9 @@ bool
 useCompilationScope
 )
 {
+AutoSuspendStartupCacheWrites
+suspendScache
+;
 nsCOMPtr
 <
 nsIChannel
