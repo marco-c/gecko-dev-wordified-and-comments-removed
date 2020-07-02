@@ -2338,6 +2338,9 @@ launchDownload
 aDownload
 {
 openWhere
+useSystemDefault
+=
+null
 }
 )
 {
@@ -2601,6 +2604,10 @@ handleInternally
 |
 |
 (
+!
+useSystemDefault
+&
+&
 mimeInfo
 &
 &
