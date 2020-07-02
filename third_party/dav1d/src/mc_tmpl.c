@@ -6069,11 +6069,11 @@ src_stride
 const
 int
 dst_w
+int
+h
 const
 int
 src_w
-int
-h
 const
 int
 dx
@@ -6111,7 +6111,7 @@ x
 )
 {
 const
-int16_t
+int8_t
 *
 const
 F
@@ -6131,6 +6131,8 @@ x
 =
 iclip_pixel
 (
+(
+-
 (
 F
 [
@@ -6283,6 +6285,7 @@ src_w
 1
 )
 ]
+)
 +
 64
 )

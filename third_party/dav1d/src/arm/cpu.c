@@ -231,7 +231,7 @@ flag
 {
 if
 (
-fseeko
+fseek
 (
 file
 -

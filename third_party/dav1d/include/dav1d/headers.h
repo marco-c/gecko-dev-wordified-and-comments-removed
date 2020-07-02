@@ -815,6 +815,8 @@ frame_offset
 ;
 int
 temporal_id
+;
+int
 spatial_id
 ;
 int

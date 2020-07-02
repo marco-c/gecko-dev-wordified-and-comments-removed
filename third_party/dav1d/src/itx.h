@@ -84,6 +84,8 @@ dav1d_itx_dsp_init
 Dav1dInvTxfmDSPContext
 *
 c
+int
+bpc
 )
 ;
 bitfn_decls
@@ -93,6 +95,8 @@ dav1d_itx_dsp_init_arm
 Dav1dInvTxfmDSPContext
 *
 c
+int
+bpc
 )
 ;
 bitfn_decls

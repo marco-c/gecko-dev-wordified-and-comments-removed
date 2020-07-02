@@ -269,7 +269,7 @@ S
 /
 /
 void
-ipred_dc_128_neon
+ipred_dc_128_8bpc_neon
 (
 pixel
 *
@@ -306,7 +306,7 @@ max_height
 )
 ;
 function
-ipred_dc_128_neon
+ipred_dc_128_8bpc_neon
 export
 =
 1
@@ -870,7 +870,7 @@ endfunc
 /
 /
 void
-ipred_v_neon
+ipred_v_8bpc_neon
 (
 pixel
 *
@@ -907,7 +907,7 @@ max_height
 )
 ;
 function
-ipred_v_neon
+ipred_v_8bpc_neon
 export
 =
 1
@@ -1514,7 +1514,7 @@ endfunc
 /
 /
 void
-ipred_h_neon
+ipred_h_8bpc_neon
 (
 pixel
 *
@@ -1551,7 +1551,7 @@ max_height
 )
 ;
 function
-ipred_h_neon
+ipred_h_8bpc_neon
 export
 =
 1
@@ -2471,7 +2471,7 @@ endfunc
 /
 /
 void
-ipred_dc_top_neon
+ipred_dc_top_8bpc_neon
 (
 pixel
 *
@@ -2508,7 +2508,7 @@ max_height
 )
 ;
 function
-ipred_dc_top_neon
+ipred_dc_top_8bpc_neon
 export
 =
 1
@@ -3379,7 +3379,7 @@ endfunc
 /
 /
 void
-ipred_dc_left_neon
+ipred_dc_left_8bpc_neon
 (
 pixel
 *
@@ -3416,7 +3416,7 @@ max_height
 )
 ;
 function
-ipred_dc_left_neon
+ipred_dc_left_8bpc_neon
 export
 =
 1
@@ -4428,7 +4428,7 @@ endfunc
 /
 /
 void
-ipred_dc_neon
+ipred_dc_8bpc_neon
 (
 pixel
 *
@@ -4465,7 +4465,7 @@ max_height
 )
 ;
 function
-ipred_dc_neon
+ipred_dc_8bpc_neon
 export
 =
 1
@@ -5848,23 +5848,6 @@ L
 (
 ipred_dc_w64
 )
-:
-vmov
-.
-8
-q1
-q0
-vmov
-.
-8
-q2
-q0
-vmov
-.
-8
-q3
-q0
-2
 :
 add
 r2

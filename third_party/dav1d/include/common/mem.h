@@ -53,13 +53,6 @@ size_t
 align
 )
 {
-#
-ifdef
-HAVE_POSIX_MEMALIGN
-void
-*
-ptr
-;
 assert
 (
 !
@@ -73,6 +66,13 @@ align
 )
 )
 )
+;
+#
+ifdef
+HAVE_POSIX_MEMALIGN
+void
+*
+ptr
 ;
 if
 (

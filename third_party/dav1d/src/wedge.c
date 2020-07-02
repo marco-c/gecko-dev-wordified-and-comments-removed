@@ -364,7 +364,7 @@ wedge_masks_444_32x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -381,7 +381,7 @@ wedge_masks_444_32x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -398,7 +398,7 @@ wedge_masks_444_32x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -415,7 +415,7 @@ wedge_masks_444_16x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -432,7 +432,7 @@ wedge_masks_444_16x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -449,7 +449,7 @@ wedge_masks_444_16x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -466,7 +466,7 @@ wedge_masks_444_8x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -483,7 +483,7 @@ wedge_masks_444_8x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -500,7 +500,7 @@ wedge_masks_444_8x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -517,7 +517,7 @@ wedge_masks_422_16x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -534,7 +534,7 @@ wedge_masks_422_16x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -551,7 +551,7 @@ wedge_masks_422_16x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -568,7 +568,7 @@ wedge_masks_422_8x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -585,7 +585,7 @@ wedge_masks_422_8x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -602,7 +602,7 @@ wedge_masks_422_8x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -619,7 +619,7 @@ wedge_masks_422_4x32
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -636,7 +636,7 @@ wedge_masks_422_4x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -670,7 +670,7 @@ wedge_masks_420_16x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -687,7 +687,7 @@ wedge_masks_420_16x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -704,7 +704,7 @@ wedge_masks_420_16x4
 *
 4
 ]
-32
+64
 )
 ;
 static
@@ -721,7 +721,7 @@ wedge_masks_420_8x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -738,7 +738,7 @@ wedge_masks_420_8x8
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -755,7 +755,7 @@ wedge_masks_420_8x4
 *
 4
 ]
-32
+64
 )
 ;
 static
@@ -772,7 +772,7 @@ wedge_masks_420_4x16
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -806,7 +806,7 @@ wedge_masks_420_4x4
 *
 4
 ]
-32
+16
 )
 ;
 const
@@ -837,6 +837,7 @@ dst
 const
 uint8_t
 *
+const
 src
 const
 int
@@ -2307,7 +2308,7 @@ ii_dc_mask
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -2323,7 +2324,7 @@ N_II_PRED_MODES
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -2339,7 +2340,7 @@ N_II_PRED_MODES
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -2355,7 +2356,7 @@ N_II_PRED_MODES
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -2371,7 +2372,7 @@ N_II_PRED_MODES
 *
 32
 ]
-32
+64
 )
 ;
 static
@@ -2387,7 +2388,7 @@ N_II_PRED_MODES
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -2403,7 +2404,7 @@ N_II_PRED_MODES
 *
 8
 ]
-32
+64
 )
 ;
 static
@@ -2419,7 +2420,7 @@ N_II_PRED_MODES
 *
 16
 ]
-32
+64
 )
 ;
 static
@@ -2451,7 +2452,7 @@ N_II_PRED_MODES
 *
 4
 ]
-32
+16
 )
 ;
 #

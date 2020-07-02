@@ -1869,7 +1869,12 @@ dav1d_msac_decode_hi_tok_c
 ;
 #
 if
+(
 ARCH_AARCH64
+|
+|
+ARCH_ARM
+)
 &
 &
 HAVE_ASM
@@ -1917,6 +1922,12 @@ c
 bool
 =
 dav1d_msac_decode_bool_neon
+;
+c
+.
+hi_tok
+=
+dav1d_msac_decode_hi_tok_neon
 ;
 }
 #

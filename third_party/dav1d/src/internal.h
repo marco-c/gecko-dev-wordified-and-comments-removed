@@ -193,7 +193,7 @@ include
 "
 src
 /
-ref_mvs
+refmvs
 .
 h
 "
@@ -477,7 +477,7 @@ Dav1dRef
 *
 mvs_ref
 ;
-refmvs
+refmvs_temporal_block
 *
 mvs
 *
@@ -672,9 +672,8 @@ a
 int
 a_sz
 ;
-AV1_COMMON
-*
-libaom_cm
+refmvs_frame
+rf
 ;
 uint8_t
 jnt_weights
@@ -1117,6 +1116,9 @@ txtp_map
 *
 32
 ]
+;
+refmvs_tile
+rt
 ;
 ALIGN
 (

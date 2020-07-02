@@ -109,6 +109,9 @@ struct
 Dav1dRef
 *
 frame_hdr_ref
+;
+struct
+Dav1dRef
 *
 seq_hdr_ref
 ;
@@ -116,8 +119,14 @@ struct
 Dav1dRef
 *
 content_light_ref
+;
+struct
+Dav1dRef
 *
 mastering_display_ref
+;
+struct
+Dav1dRef
 *
 itut_t35_ref
 ;

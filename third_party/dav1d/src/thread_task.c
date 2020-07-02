@@ -124,18 +124,12 @@ td
 lock
 )
 ;
-const
-int
-res
-=
+if
+(
 dav1d_decode_frame
 (
 f
 )
-;
-if
-(
-res
 )
 memset
 (
@@ -522,6 +516,7 @@ f
 sb_step
 )
 {
+const
 int
 error
 =
@@ -530,6 +525,7 @@ dav1d_decode_tile_sbrow
 t
 )
 ;
+const
 int
 progress
 =
@@ -761,6 +757,7 @@ f
 >
 sb_shift
 ;
+const
 int
 error
 =

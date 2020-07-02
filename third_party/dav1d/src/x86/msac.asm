@@ -956,7 +956,7 @@ t4
 sub
 t1d
 ecx
-jge
+jae
 .
 end
 ;
@@ -2571,7 +2571,7 @@ t4
 sub
 t5d
 ecx
-jge
+jae
 %
 %
 end

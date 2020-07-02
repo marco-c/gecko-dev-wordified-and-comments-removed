@@ -1286,6 +1286,8 @@ Dav1dInvTxfmDSPContext
 *
 const
 c
+int
+bpc
 )
 {
 #
@@ -1966,17 +1968,6 @@ h
 _c
 ;
 \
-memset
-(
-c
-0
-sizeof
-(
-*
-c
-)
-)
-;
 c
 -
 >
@@ -2133,6 +2124,7 @@ dav1d_itx_dsp_init_arm
 )
 (
 c
+bpc
 )
 ;
 #
