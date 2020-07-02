@@ -1185,6 +1185,11 @@ OSX
 '
 \
 and
+len
+(
+value
+)
+and
 value
 [
 0
