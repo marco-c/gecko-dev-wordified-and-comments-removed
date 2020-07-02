@@ -372,6 +372,16 @@ const
 ;
 }
 ;
+void
+WillStartPendingLoad
+(
+css
+:
+:
+SheetLoadData
+&
+)
+;
 nsDataHashtable
 <
 SheetLoadDataHashKey
