@@ -1688,6 +1688,17 @@ mHaveShutDown
 ;
 }
 ;
+enum
+class
+SheetPreloadStatus
+:
+uint8_t
+{
+AlreadyComplete
+InProgress
+Errored
+}
+;
 class
 Document
 :
@@ -7476,7 +7487,7 @@ nsIURI
 aURI
 )
 ;
-void
+SheetPreloadStatus
 PreloadStyle
 (
 nsIURI
