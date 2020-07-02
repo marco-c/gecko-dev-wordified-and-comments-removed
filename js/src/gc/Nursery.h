@@ -2737,6 +2737,14 @@ unsigned
 chunkno
 )
 ;
+bool
+initFirstChunk
+(
+AutoLockGCBgAlloc
+&
+lock
+)
+;
 void
 poisonAndInitCurrentChunk
 (
