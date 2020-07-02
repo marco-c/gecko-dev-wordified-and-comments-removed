@@ -1,5 +1,5 @@
 import
-hashlib
+zlib
 def
 hash_str
 (
@@ -15,13 +15,9 @@ str
 )
     
 return
-int
+zlib
 .
-from_bytes
-(
-hashlib
-.
-md5
+adler32
 (
 s
 .
@@ -33,15 +29,4 @@ utf
 8
 '
 )
-)
-.
-digest
-(
-)
-                          
-byteorder
-=
-'
-big
-'
 )
