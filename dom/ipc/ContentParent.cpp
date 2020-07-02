@@ -7372,6 +7372,14 @@ process
 if
 (
 aOpenerContentParent
+&
+&
+aOpenerContentParent
+-
+>
+IsAlive
+(
+)
 )
 {
 constructorSender
