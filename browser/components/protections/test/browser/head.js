@@ -243,6 +243,9 @@ numBreachesResolved
 data
 .
 numBreachesResolved
+passwordsResolved
+:
+1
 error
 :
 false
