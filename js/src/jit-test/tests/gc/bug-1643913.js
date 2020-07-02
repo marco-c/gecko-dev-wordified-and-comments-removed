@@ -1,3 +1,8 @@
+gczeal
+(
+0
+)
+;
 for
 (
 let
