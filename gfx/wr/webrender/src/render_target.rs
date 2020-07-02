@@ -174,6 +174,7 @@ prim_store
 PrimitiveStore
 DeferredResolve
 PrimitiveScratchBuffer
+PrimitiveVisibilityMask
 }
 ;
 use
@@ -256,15 +257,6 @@ texture_allocator
 ArrayAllocationTracker
 FreeRectSlice
 }
-;
-use
-crate
-:
-:
-visibility
-:
-:
-PrimitiveVisibilityMask
 ;
 use
 std

@@ -283,9 +283,6 @@ mod
 picture
 ;
 mod
-prepare
-;
-mod
 prim_store
 ;
 mod
@@ -344,9 +341,6 @@ texture_cache
 ;
 mod
 util
-;
-mod
-visibility
 ;
 mod
 shader_source
