@@ -468,9 +468,6 @@ attribute
 ACString
 asciiHost
 ;
-[
-noscript
-]
 readonly
 attribute
 ACString
@@ -492,9 +489,6 @@ attribute
 ACString
 filePath
 ;
-[
-noscript
-]
 readonly
 attribute
 ACString
