@@ -639,9 +639,6 @@ Http3Stream
 mStreamTransactionHash
 ;
 nsDeque
-<
-Http3Stream
->
 mReadyForWrite
 ;
 nsTArray
@@ -660,9 +657,6 @@ Http3Stream
 mSlowConsumersReadyForRead
 ;
 nsDeque
-<
-Http3Stream
->
 mQueuedStreams
 ;
 enum

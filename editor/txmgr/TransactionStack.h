@@ -34,9 +34,6 @@ TransactionStack
 :
 private
 nsDeque
-<
-TransactionItem
->
 {
 public
 :
