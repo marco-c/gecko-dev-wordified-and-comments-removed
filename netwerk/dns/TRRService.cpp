@@ -1587,6 +1587,10 @@ mConfirmationState
 =
 CONFIRM_TRYING
 ;
+MaybeConfirm_locked
+(
+)
+;
 }
 }
 if
