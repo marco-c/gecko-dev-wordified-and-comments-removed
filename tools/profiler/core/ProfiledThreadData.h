@@ -52,13 +52,6 @@ UniquePtr
 .
 h
 "
-#
-include
-"
-nsIEventTarget
-.
-h
-"
 class
 ProfileBuffer
 ;

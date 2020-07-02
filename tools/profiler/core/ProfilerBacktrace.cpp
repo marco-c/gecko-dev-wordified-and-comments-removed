@@ -44,9 +44,6 @@ char
 aName
 int
 aThreadId
-mozilla
-:
-:
 UniquePtr
 <
 mozilla
