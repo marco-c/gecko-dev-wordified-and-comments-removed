@@ -98,6 +98,11 @@ OnChannelClosed
 (
 )
 ;
+bool
+ChannelClosed
+(
+)
+;
 void
 OnStartRequestReceived
 (
@@ -255,12 +260,6 @@ nsIRunnable
 >
 >
 mQueuedRunnables
-;
-RefPtr
-<
-BackgroundDataBridgeChild
->
-mDataBridgeChild
 ;
 }
 ;
