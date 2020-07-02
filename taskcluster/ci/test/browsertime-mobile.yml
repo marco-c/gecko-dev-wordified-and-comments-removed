@@ -122,9 +122,6 @@ mozilla
 -
 central
 "
-"
-try
-"
 ]
 android
 -
@@ -145,9 +142,6 @@ opt
 mozilla
 -
 central
-"
-"
-try
 "
 ]
 default
@@ -1045,9 +1039,6 @@ mozilla
 -
 central
 "
-"
-try
-"
 ]
 default
 :
@@ -1139,9 +1130,6 @@ mozilla
 -
 central
 "
-"
-try
-"
 ]
 android
 -
@@ -1162,9 +1150,6 @@ opt
 mozilla
 -
 central
-"
-"
-try
 "
 ]
 default
@@ -1738,9 +1723,6 @@ mozilla
 -
 central
 "
-"
-try
-"
 ]
 android
 -
@@ -1761,9 +1743,6 @@ opt
 mozilla
 -
 central
-"
-"
-try
 "
 ]
 default

@@ -654,26 +654,6 @@ dep
 .
 optimization
         
-else
-:
-            
-task
-[
-'
-run
--
-on
--
-projects
-'
-]
-=
-[
-'
-try
-'
-]
-        
 del
 task
 [

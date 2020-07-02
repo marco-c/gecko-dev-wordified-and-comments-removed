@@ -372,9 +372,6 @@ qr
 opt
 :
 [
-'
-try
-'
 ]
 #
 do
@@ -398,9 +395,6 @@ default
 [
 '
 autoland
-'
-'
-try
 '
 ]
 built
@@ -837,9 +831,6 @@ qr
 opt
 :
 [
-'
-try
-'
 ]
 #
 do
@@ -863,9 +854,6 @@ default
 [
 '
 autoland
-'
-'
-try
 '
 ]
 built
@@ -1396,9 +1384,6 @@ ccov
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 default

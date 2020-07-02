@@ -136,9 +136,6 @@ mozilla
 -
 central
 '
-'
-try
-'
 ]
 default
 :
@@ -377,9 +374,6 @@ qr
 mozilla
 -
 central
-'
-'
-try
 '
 ]
 default

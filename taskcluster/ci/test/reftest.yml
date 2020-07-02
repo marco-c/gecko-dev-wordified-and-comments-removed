@@ -138,9 +138,6 @@ debug
 :
 [
 '
-try
-'
-'
 mozilla
 -
 central
@@ -158,9 +155,6 @@ qr
 opt
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -366,9 +360,6 @@ aarch64
 *
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -772,9 +763,6 @@ shippable
 :
 [
 '
-try
-'
-'
 mozilla
 -
 central
@@ -805,9 +793,6 @@ shippable
 *
 :
 [
-'
-try
-'
 '
 mozilla
 -
@@ -988,9 +973,6 @@ aarch64
 *
 :
 [
-'
-try
-'
 '
 mozilla
 -
