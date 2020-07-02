@@ -1240,10 +1240,7 @@ InvalidArg
 )
 {
 const
-std
-:
-:
-string
+StringRef
 invalidArgText
 =
 Lexer
