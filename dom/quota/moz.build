@@ -143,6 +143,11 @@ InitializationTypes
 h
 '
 '
+IPCStreamCipherStrategy
+.
+h
+'
+'
 MemoryOutputStream
 .
 h
