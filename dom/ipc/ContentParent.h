@@ -6376,6 +6376,11 @@ AssertNotInPool
 (
 )
 ;
+void
+AssertAlive
+(
+)
+;
 private
 :
 RefPtr
