@@ -2228,6 +2228,11 @@ int32_t
 aAppUnitsPerDevPixel
 )
 ;
+async
+ReportBlockedEmbedderNodeByClassifier
+(
+)
+;
 child
 :
 async

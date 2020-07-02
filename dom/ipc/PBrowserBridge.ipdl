@@ -232,6 +232,11 @@ SubFrameCrashed
 (
 )
 ;
+async
+AddBlockedNodeByClassifier
+(
+)
+;
 parent
 :
 async
