@@ -2595,10 +2595,6 @@ SetHeaders
 aRequestHeaders
 )
 ;
-mTracingEnabled
-=
-false
-;
 ResourceTimingStructArgsToTimingsStruct
 (
 aArgs
@@ -3217,6 +3213,10 @@ n
 this
 )
 )
+;
+mTracingEnabled
+=
+false
 ;
 MOZ_ASSERT
 (
