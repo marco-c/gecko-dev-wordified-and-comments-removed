@@ -206,7 +206,6 @@ ParseTaskKind
 Script
 Module
 ScriptDecode
-BinAST
 MultiScriptsDecode
 }
 ;

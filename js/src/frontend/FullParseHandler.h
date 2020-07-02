@@ -96,7 +96,6 @@ class
 SourceKind
 {
 Text
-Binary
 }
 ;
 class
