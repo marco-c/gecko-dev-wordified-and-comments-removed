@@ -1109,6 +1109,14 @@ OpenPromiseFailedType
 aRejectValue
 )
 {
+if
+(
+!
+aRejectValue
+.
+mSwitchedProcess
+)
+{
 self
 -
 >
@@ -1122,6 +1130,7 @@ aRejectValue
 mLoadGroupStatus
 )
 ;
+}
 self
 -
 >
