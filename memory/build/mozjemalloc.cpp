@@ -21052,6 +21052,7 @@ endif
 #
 ifdef
 XP_WIN
+MOZ_EXPORT
 void
 *
 _recalloc
@@ -21169,6 +21170,7 @@ return
 aPtr
 ;
 }
+MOZ_EXPORT
 void
 *
 _expand
@@ -21206,6 +21208,7 @@ return
 nullptr
 ;
 }
+MOZ_EXPORT
 size_t
 _msize
 (
