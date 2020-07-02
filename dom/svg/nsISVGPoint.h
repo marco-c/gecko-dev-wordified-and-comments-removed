@@ -66,8 +66,8 @@ mozilla
 namespace
 dom
 {
-class
-SVGMatrix
+struct
+DOMMatrix2DInit
 ;
 class
 nsISVGPoint
@@ -384,9 +384,13 @@ nsISVGPoint
 >
 MatrixTransform
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
-matrix
+aMatrix
+ErrorResult
+&
+aRv
 )
 =
 0

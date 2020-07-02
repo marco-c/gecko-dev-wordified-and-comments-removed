@@ -108,17 +108,6 @@ mozilla
 /
 dom
 /
-SVGMatrix
-.
-h
-"
-#
-include
-"
-mozilla
-/
-dom
-/
 SVGViewElement
 .
 h

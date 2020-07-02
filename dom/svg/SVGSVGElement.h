@@ -244,9 +244,13 @@ nsISVGPoint
 >
 MatrixTransform
 (
-SVGMatrix
+const
+DOMMatrix2DInit
 &
-matrix
+aMatrix
+ErrorResult
+&
+aRv
 )
 override
 ;
