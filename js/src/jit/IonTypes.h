@@ -243,6 +243,7 @@ Bailout_NonSymbolInput
 Bailout_NonBigIntInput
 Bailout_Debugger
 Bailout_FirstExecution
+Bailout_NonInt32ArrayLength
 Bailout_OverflowInvalidate
 Bailout_DoubleOutput
 Bailout_ArgumentCheck
@@ -492,6 +493,14 @@ Bailout_FirstExecution
 return
 "
 Bailout_FirstExecution
+"
+;
+case
+Bailout_NonInt32ArrayLength
+:
+return
+"
+Bailout_NonInt32ArrayLength
 "
 ;
 case

@@ -9198,6 +9198,9 @@ Bailout_SpecificAtomGuard
 case
 Bailout_SpecificSymbolGuard
 :
+case
+Bailout_NonInt32ArrayLength
+:
 break
 ;
 case

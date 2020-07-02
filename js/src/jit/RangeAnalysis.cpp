@@ -10093,6 +10093,17 @@ TempAllocator
 alloc
 )
 {
+uint32_t
+max
+=
+JitOptions
+.
+warpBuilder
+?
+UINT32_MAX
+:
+INT32_MAX
+;
 setRange
 (
 Range
@@ -10102,7 +10113,7 @@ NewUInt32Range
 (
 alloc
 0
-INT32_MAX
+max
 )
 )
 ;
