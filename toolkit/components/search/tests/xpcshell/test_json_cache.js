@@ -152,7 +152,6 @@ getDefaultEngineList
 false
 )
 ;
-}
 if
 (
 AppConstants
@@ -247,6 +246,7 @@ esrOverrides
 engine
 ]
 ;
+}
 }
 }
 }
