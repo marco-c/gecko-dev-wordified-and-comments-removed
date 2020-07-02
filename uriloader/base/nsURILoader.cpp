@@ -1901,7 +1901,7 @@ requestSucceeded
 )
 {
 return
-NS_ERROR_FILE_NOT_FOUND
+NS_OK
 ;
 }
 }
