@@ -7809,7 +7809,7 @@ zIndex
 ;
 }
 void
-nsFrame
+nsIFrame
 :
 :
 CreateView

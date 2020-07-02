@@ -7339,6 +7339,11 @@ NS_FRAME_HAS_VIEW
 )
 ;
 }
+void
+CreateView
+(
+)
+;
 protected
 :
 virtual

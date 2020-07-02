@@ -768,13 +768,6 @@ nsFrame
 (
 )
 ;
-public
-:
-void
-CreateView
-(
-)
-;
 private
 :
 bool
