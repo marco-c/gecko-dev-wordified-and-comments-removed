@@ -1935,7 +1935,7 @@ Manager
 (
 )
 ;
-MOZ_DIAGNOSTIC_ASSERT
+MOZ_ASSERT
 (
 !
 hasRemoteType
@@ -1955,8 +1955,10 @@ If
 specified
 remoteType
 attribute
-must
+should
 match
+"
+"
 sameProcessAsFrameLoader
 "
 )
