@@ -53279,6 +53279,12 @@ CompleteChangeToVisualViewportSize
 {
 if
 (
+!
+mIsReflowing
+)
+{
+if
+(
 nsIScrollableFrame
 *
 rootScrollFrame
@@ -53304,6 +53310,7 @@ IntrinsicDirty
 Resize
 )
 ;
+}
 if
 (
 auto

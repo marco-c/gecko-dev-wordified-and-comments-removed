@@ -231,6 +231,11 @@ return
 mVisualViewportSizeUpdatedByDynamicToolbar
 ;
 }
+void
+UpdateVisualViewportSizeForPotentialScrollbarChange
+(
+)
+;
 private
 :
 ~
