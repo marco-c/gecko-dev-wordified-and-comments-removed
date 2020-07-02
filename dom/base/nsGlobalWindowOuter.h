@@ -3865,15 +3865,6 @@ nsAString
 aPopupWindowFeatures
 )
 ;
-private
-:
-void
-ReportLargeAllocStatus
-(
-)
-;
-public
-:
 void
 FlushPendingNotifications
 (
