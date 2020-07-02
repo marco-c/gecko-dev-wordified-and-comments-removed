@@ -57,18 +57,6 @@ Version
 19
 '
 )
-CXXABI_MAX_VERSION
-=
-Version
-(
-'
-1
-.
-3
-.
-7
-'
-)
 GLIBC_MAX_VERSION
 =
 Version
@@ -445,6 +433,30 @@ group
 16
 )
             
+flags
+=
+line
+[
+m
+.
+end
+(
+)
+:
+]
+[
+:
+7
+]
+            
+weak
+=
+'
+w
+'
+in
+flags
+            
 rest
 =
 line
@@ -558,6 +570,12 @@ version
 ver
 or
 None
+                
+'
+weak
+'
+:
+weak
             
 }
     
@@ -713,6 +731,12 @@ version
 '
 :
 None
+                
+'
+weak
+'
+:
+None
             
 }
 def
@@ -863,6 +887,17 @@ addr
 !
 =
 0
+:
+                
+continue
+            
+if
+sym
+[
+'
+weak
+'
+]
 :
                 
 continue
@@ -1039,22 +1074,6 @@ libstdc
 GLIBCXX
 '
 STDCXX_MAX_VERSION
-)
-    
-check_dep_versions
-(
-        
-target
-binary
-'
-libstdc
-+
-+
-'
-'
-CXXABI
-'
-CXXABI_MAX_VERSION
 )
 def
 check_libgcc
