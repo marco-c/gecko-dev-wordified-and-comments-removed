@@ -195,7 +195,7 @@ GetSize
 ;
 The
 test
-slaves
+machines
 use
 this
 fallback

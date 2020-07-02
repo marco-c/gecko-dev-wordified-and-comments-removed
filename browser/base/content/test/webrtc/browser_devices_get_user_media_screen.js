@@ -2146,7 +2146,7 @@ available
 on
 this
 test
-slave
+machine
 "
 )
 ;
