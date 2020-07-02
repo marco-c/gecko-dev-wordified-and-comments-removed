@@ -5276,11 +5276,6 @@ reason
 ;
 if
 (
-isEnabled
-(
-)
-&
-&
 previousGC
 .
 nurseryUsedBytes
