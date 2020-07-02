@@ -9718,6 +9718,11 @@ orderHint
 config
 .
 orderHint
+regionParams
+:
+config
+.
+regionParams
 }
 ;
 if
@@ -10518,6 +10523,11 @@ searchUrlGetParams
 searchPostParams
 :
 searchUrlPostParams
+regionParams
+:
+engineParams
+.
+regionParams
 iconURL
 :
 searchProvider
