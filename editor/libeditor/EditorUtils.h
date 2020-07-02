@@ -3664,6 +3664,7 @@ const
 Selection
 &
 aSelection
+const
 nsINode
 &
 aParentNode
