@@ -4347,6 +4347,17 @@ bool
 aNotify
 )
 ;
+RefPtr
+<
+GenericPromise
+>
+SetSrcMediaStreamSink
+(
+AudioDeviceInfo
+*
+aSink
+)
+;
 TimeDurationAccumulator
 mPlayTime
 ;
