@@ -3207,6 +3207,11 @@ set
 fun
 )
 ;
+if
+(
+enclosingScope
+)
+{
 bool
 singleton
 =
@@ -3242,6 +3247,7 @@ JS
 TranscodeResult_Throw
 )
 ;
+}
 }
 }
 if

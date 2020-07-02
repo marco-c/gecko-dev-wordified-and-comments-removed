@@ -26010,6 +26010,16 @@ return
 nullptr
 ;
 }
+MOZ_ASSERT
+(
+cloneScript
+-
+>
+hasBytecode
+(
+)
+)
+;
 if
 (
 !
