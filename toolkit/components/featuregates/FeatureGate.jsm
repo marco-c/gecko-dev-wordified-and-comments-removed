@@ -194,6 +194,17 @@ MOZ_UPDATE_CHANNEL
 "
 nightly
 "
+|
+|
+AppConstants
+.
+MOZ_UPDATE_CHANNEL
+=
+=
+=
+"
+default
+"
 ]
 [
 "
