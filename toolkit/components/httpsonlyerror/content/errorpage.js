@@ -110,8 +110,6 @@ about
 -
 httpsonly
 -
-insecure
--
 explanation
 -
 unavailable
