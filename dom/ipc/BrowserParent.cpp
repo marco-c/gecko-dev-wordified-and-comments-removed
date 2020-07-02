@@ -1326,7 +1326,7 @@ mIsDestroyed
 (
 false
 )
-mTabSetsCursor
+mRemoteTargetSetsCursor
 (
 false
 )
@@ -6950,7 +6950,7 @@ if
 widget
 )
 {
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 true
 ;
@@ -7084,7 +7084,7 @@ aEvent
 mMessage
 )
 {
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 true
 ;
@@ -7120,7 +7120,7 @@ aEvent
 mMessage
 )
 {
-mTabSetsCursor
+mRemoteTargetSetsCursor
 =
 false
 ;
@@ -10742,7 +10742,7 @@ aHotspotY
 if
 (
 !
-mTabSetsCursor
+mRemoteTargetSetsCursor
 )
 {
 return

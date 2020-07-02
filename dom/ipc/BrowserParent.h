@@ -3967,7 +3967,7 @@ mIsDestroyed
 1
 ;
 bool
-mTabSetsCursor
+mRemoteTargetSetsCursor
 :
 1
 ;
