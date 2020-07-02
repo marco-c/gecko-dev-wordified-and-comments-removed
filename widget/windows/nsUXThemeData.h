@@ -392,6 +392,12 @@ AreFlatMenusEnabled
 (
 )
 ;
+static
+bool
+IsAppThemed
+(
+)
+;
 }
 ;
 #
