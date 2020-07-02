@@ -148,6 +148,7 @@ condition
 self
 payload
 line
+config
 )
 :
         
