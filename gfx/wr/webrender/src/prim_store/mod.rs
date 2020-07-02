@@ -8038,12 +8038,11 @@ DebugItem
 >
 }
 impl
-Default
-for
 PrimitiveScratchBuffer
 {
+pub
 fn
-default
+new
 (
 )
 -
@@ -8131,10 +8130,6 @@ new
 )
 }
 }
-}
-impl
-PrimitiveScratchBuffer
-{
 pub
 fn
 recycle
@@ -9547,8 +9542,6 @@ frame_state
 .
 scratch
 .
-primitive
-.
 prim_info
 .
 len
@@ -9561,8 +9554,6 @@ u32
 frame_state
 .
 scratch
-.
-primitive
 .
 prim_info
 .
@@ -10554,8 +10545,6 @@ frame_state
 .
 scratch
 .
-primitive
-.
 push_debug_rect
 (
 debug_rect
@@ -10657,8 +10646,6 @@ frame_state
 .
 scratch
 .
-primitive
-.
 push_debug_rect
 (
 rect
@@ -10683,8 +10670,6 @@ PrimitiveVisibilityIndex
 frame_state
 .
 scratch
-.
-primitive
 .
 prim_info
 .
@@ -10726,8 +10711,6 @@ combined_local_clip_rect
 frame_state
 .
 scratch
-.
-primitive
 .
 prim_info
 .
@@ -11273,8 +11256,6 @@ prim_info
 frame_state
 .
 scratch
-.
-primitive
 .
 prim_info
 [
