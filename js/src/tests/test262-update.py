@@ -139,6 +139,12 @@ level
 -
 await
 "
+    
+"
+Atomics
+.
+waitAsync
+"
 ]
 )
 FEATURE_CHECK_NEEDED
