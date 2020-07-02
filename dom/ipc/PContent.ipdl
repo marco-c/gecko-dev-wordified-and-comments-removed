@@ -4211,6 +4211,15 @@ aEnabled
 )
 ;
 async
+NotifyMediaFullScreenState
+(
+MaybeDiscardedBrowsingContext
+aContext
+bool
+aIsInFullScreen
+)
+;
+async
 GetModulesTrust
 (
 ModulePaths
