@@ -129,6 +129,7 @@ Parent
 ;
 if
 (
+(
 parent
 &
 &
@@ -139,6 +140,21 @@ MustPrune
 (
 parent
 )
+)
+|
+|
+aProxy
+-
+>
+Role
+(
+)
+=
+=
+roles
+:
+:
+WHITESPACE
 )
 {
 return
@@ -156,6 +172,7 @@ IsTable
 (
 )
 )
+{
 type
 =
 [
@@ -163,6 +180,7 @@ mozTableAccessible
 class
 ]
 ;
+}
 else
 if
 (
@@ -173,6 +191,7 @@ IsTableRow
 (
 )
 )
+{
 type
 =
 [
@@ -180,6 +199,7 @@ mozTableRowAccessible
 class
 ]
 ;
+}
 else
 if
 (
@@ -190,6 +210,7 @@ IsTableCell
 (
 )
 )
+{
 type
 =
 [
@@ -197,7 +218,9 @@ mozTableCellAccessible
 class
 ]
 ;
+}
 else
+{
 type
 =
 GetTypeFromRole
@@ -210,6 +233,7 @@ Role
 )
 )
 ;
+}
 mozAccessible
 *
 mozWrapper

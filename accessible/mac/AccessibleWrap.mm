@@ -205,6 +205,17 @@ IsDefunct
 &
 !
 mustBePruned
+&
+&
+Role
+(
+)
+!
+=
+roles
+:
+:
+WHITESPACE
 )
 {
 mNativeObject
