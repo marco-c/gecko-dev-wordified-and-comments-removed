@@ -300,6 +300,12 @@ pathlib2
 3
 .
 2
+pathspec
+=
+=
+0
+.
+8
 pip
 -
 tools
