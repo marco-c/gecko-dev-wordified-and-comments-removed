@@ -53,6 +53,9 @@ class
 WarpCacheIR
 ;
 class
+WarpSnapshot
+;
+class
 CallInfo
 ;
 using
@@ -70,6 +73,9 @@ MOZ_MUST_USE
 bool
 TranspileCacheIRToMIR
 (
+WarpSnapshot
+&
+snapshot
 MIRGenerator
 &
 mirGen
@@ -81,7 +87,7 @@ current
 const
 WarpCacheIR
 *
-snapshot
+cacheIRSnapshot
 const
 MDefinitionStackVector
 &
@@ -92,6 +98,9 @@ MOZ_MUST_USE
 bool
 TranspileCacheIRToMIR
 (
+WarpSnapshot
+&
+snapshot
 MIRGenerator
 &
 mirGen
@@ -103,7 +112,7 @@ current
 const
 WarpCacheIR
 *
-snapshot
+cacheIRSnapshot
 CallInfo
 &
 callInfo
