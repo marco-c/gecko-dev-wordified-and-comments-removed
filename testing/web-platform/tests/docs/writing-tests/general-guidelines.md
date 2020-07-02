@@ -1380,7 +1380,7 @@ commit
 the
 lint
 .
-whitelist
+ignorelist
 file
 in
 the
