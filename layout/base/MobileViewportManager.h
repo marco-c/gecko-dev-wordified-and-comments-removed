@@ -154,7 +154,7 @@ aResolution
 public
 :
 void
-NotifyResizeReflow
+UpdateSizesBeforeReflow
 (
 )
 ;
