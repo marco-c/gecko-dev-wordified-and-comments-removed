@@ -695,6 +695,9 @@ edge
 firefox
 #
 #
+ie
+#
+#
 safari
 #
 #
