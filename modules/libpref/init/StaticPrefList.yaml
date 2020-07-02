@@ -25554,7 +25554,7 @@ type
 bool
 value
 :
-IS_NIGHTLY_BUILD
+false
 mirror
 :
 once
