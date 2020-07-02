@@ -183,14 +183,6 @@ Fennec
 <
 1
 )
-Geckoview
-=
-(
-1
-<
-<
-2
-)
 GeckoviewStreaming
 =
 (
