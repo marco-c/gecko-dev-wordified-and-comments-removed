@@ -512,6 +512,13 @@ accessibility
 "
 )
 ;
+await
+accessibility
+.
+bootstrap
+(
+)
+;
 const
 a11yWalker
 =

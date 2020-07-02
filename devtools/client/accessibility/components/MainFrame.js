@@ -270,8 +270,6 @@ components
 Toolbar
 "
 )
-.
-Toolbar
 )
 ;
 const
@@ -384,6 +382,13 @@ PropTypes
 .
 func
 enableAccessibility
+:
+PropTypes
+.
+func
+.
+isRequired
+disableAccessibility
 :
 PropTypes
 .
@@ -733,6 +738,11 @@ const
 {
 enableAccessibility
 dispatch
+supports
+:
+{
+autoInit
+}
 }
 =
 this
@@ -750,6 +760,9 @@ canBeEnabled
 if
 (
 canBeEnabled
+&
+&
+autoInit
 )
 {
 dispatch
@@ -852,6 +865,8 @@ getAccessibilityTreeRoot
 startListeningForAccessibilityEvents
 stopListeningForAccessibilityEvents
 audit
+enableAccessibility
+disableAccessibility
 highlightAccessible
 unhighlightAccessible
 }
@@ -869,6 +884,9 @@ enabled
 return
 Description
 (
+{
+enableAccessibility
+}
 )
 ;
 }
@@ -913,6 +931,7 @@ Toolbar
 (
 {
 audit
+disableAccessibility
 simulate
 toolboxDoc
 :
