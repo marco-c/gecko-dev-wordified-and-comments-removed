@@ -409,6 +409,14 @@ actor
 ;
 }
 }
+isTopPool
+(
+)
+{
+return
+true
+;
+}
 }
 ;
 exports
