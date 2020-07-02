@@ -1138,9 +1138,6 @@ uint32_t
 loadType
 ;
 uint64_t
-outerDOMWindowID
-;
-uint64_t
 innerDOMWindowID
 ;
 }
