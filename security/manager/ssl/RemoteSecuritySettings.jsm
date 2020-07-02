@@ -1980,8 +1980,10 @@ client
 .
 db
 .
-importBulk
+importChanges
 (
+undefined
+undefined
 toReset
 .
 map
@@ -2398,8 +2400,10 @@ client
 .
 db
 .
-importBulk
+importChanges
 (
+undefined
+undefined
 recordsToUpdate
 .
 map
