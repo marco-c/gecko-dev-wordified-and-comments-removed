@@ -343,6 +343,9 @@ mod
 util
 ;
 mod
+visibility
+;
+mod
 shader_source
 {
 include
