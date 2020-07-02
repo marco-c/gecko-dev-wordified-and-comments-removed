@@ -659,6 +659,16 @@ RUSTUP_HOME
 /
 bin
 /
+rustc
+-
+-
+version
+"
+RUSTUP_HOME
+"
+/
+bin
+/
 rustfmt
 -
 -
