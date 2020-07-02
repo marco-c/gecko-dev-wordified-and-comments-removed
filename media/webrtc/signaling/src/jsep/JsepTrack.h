@@ -1632,7 +1632,7 @@ SsrcGenerator
 &
 ssrcGenerator
 bool
-requireRtxSsrcs
+rtxEnabled
 SdpMediaSection
 *
 msection
