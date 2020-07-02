@@ -4767,7 +4767,7 @@ wr
 MaybeExternalImageId
 &
 aExternalImageId
-nsIEventTarget
+nsISerialEventTarget
 *
 aTarget
 )

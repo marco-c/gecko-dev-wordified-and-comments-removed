@@ -910,7 +910,7 @@ GetCompositorBridgeChild
 (
 )
 ;
-nsIEventTarget
+nsISerialEventTarget
 *
 GetEventTarget
 (
@@ -1067,7 +1067,7 @@ mPaintTiming
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mEventTarget
 ;

@@ -205,7 +205,7 @@ GetCanvas
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
@@ -600,7 +600,7 @@ continue
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 =
