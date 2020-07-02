@@ -202,6 +202,21 @@ get
 stack
 "
 )
+                
+"
+known_intermittent
+"
+:
+item
+.
+get
+(
+"
+known_intermittent
+"
+[
+]
+)
 }
         
 return
