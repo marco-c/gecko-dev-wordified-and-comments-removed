@@ -2484,7 +2484,7 @@ null
 |
 savedSession
 .
-equals
+equalsId
 (
 mSession
 )
