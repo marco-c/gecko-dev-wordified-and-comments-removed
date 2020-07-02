@@ -341,6 +341,11 @@ parser
 .
 add_argument
     
+if
+not
+mach_interface
+:
+        
 add_arg
 (
 '
@@ -354,14 +359,13 @@ executablePath
 '
 required
 =
-not
-mach_interface
+True
 dest
 =
 "
 browser_path
 "
-            
+                
 help
 =
 "
