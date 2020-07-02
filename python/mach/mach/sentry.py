@@ -402,12 +402,12 @@ key
                 
 key
 =
-key
-.
-replace
-(
 needle
+.
+sub
+(
 replacement
+key
 )
                 
 value
@@ -434,12 +434,12 @@ string_types
 :
             
 return
-value
-.
-replace
-(
 needle
+.
+sub
+(
 replacement
+value
 )
         
 else
@@ -531,12 +531,29 @@ None
             
 continue
         
+needle_regex
+=
+re
+.
+compile
+(
+re
+.
+escape
+(
+needle
+)
+re
+.
+IGNORECASE
+)
+        
 sentry_event
 =
 recursive_patch
 (
 sentry_event
-needle
+needle_regex
 replacement
 )
     
