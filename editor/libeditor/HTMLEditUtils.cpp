@@ -922,7 +922,7 @@ bool
 HTMLEditUtils
 :
 :
-IsTableElementButNotTable
+IsAnyTableElementButNotTable
 (
 nsINode
 *
