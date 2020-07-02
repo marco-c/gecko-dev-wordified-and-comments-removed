@@ -1842,6 +1842,15 @@ AllowedMask
 static
 const
 unsigned
+PageSize
+=
+64
+*
+1024
+;
+static
+const
+unsigned
 MaxTypes
 =
 1000000
@@ -1963,7 +1972,9 @@ const
 unsigned
 MaxMemoryPages
 =
-16384
+INT32_MAX
+/
+PageSize
 ;
 static
 const
