@@ -1452,6 +1452,22 @@ USE_ARTIFACT
 '
 1
 '
+            
+job
+[
+'
+attributes
+'
+]
+[
+'
+artifact
+-
+build
+'
+]
+=
+True
         
 yield
 job
