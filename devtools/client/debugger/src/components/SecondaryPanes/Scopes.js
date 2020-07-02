@@ -1211,6 +1211,11 @@ this
 .
 renderWatchpointButton
 }
+shouldRenderTooltip
+=
+{
+true
+}
 /
 >
 <
