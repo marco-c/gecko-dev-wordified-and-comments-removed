@@ -110,12 +110,6 @@ get_header_ptr
 self
 .
 value
-[
-'
-headerAndDescription_
-'
-]
-                                  
 self
 .
 cache
