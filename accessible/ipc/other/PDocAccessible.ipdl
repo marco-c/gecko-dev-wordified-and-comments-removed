@@ -420,6 +420,11 @@ aData
 child
 :
 async
+ConstructedInParentProcess
+(
+)
+;
+async
 __delete__
 (
 )
