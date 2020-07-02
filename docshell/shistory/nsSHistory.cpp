@@ -6929,19 +6929,8 @@ GetURI
 ;
 MOZ_ASSERT
 (
-(
-prevEntry
-&
-&
-nextEntry
-&
-&
 nextURI
-)
 "
-prevEntry
-nextEntry
-and
 nextURI
 can
 '
@@ -6975,7 +6964,6 @@ mRequestedIndex
 mIndex
 )
 {
-return
 InitiateLoad
 (
 nextEntry
@@ -6983,6 +6971,9 @@ mRootBC
 aLoadType
 aLoadResults
 )
+;
+return
+NS_OK
 ;
 }
 bool
@@ -7117,7 +7108,6 @@ aParent
 mRootBC
 )
 ;
-return
 InitiateLoad
 (
 aNextEntry
@@ -7125,6 +7115,9 @@ aParent
 aLoadType
 aLoadResults
 )
+;
+return
+NS_OK
 ;
 }
 int32_t
@@ -7355,7 +7348,7 @@ return
 result
 ;
 }
-nsresult
+void
 nsSHistory
 :
 :
@@ -7377,7 +7370,7 @@ LoadEntryResult
 aLoadResults
 )
 {
-NS_ENSURE_STATE
+MOZ_ASSERT
 (
 aFrameBC
 &
@@ -7558,9 +7551,6 @@ move
 (
 loadState
 )
-;
-return
-NS_OK
 ;
 }
 NS_IMETHODIMP
