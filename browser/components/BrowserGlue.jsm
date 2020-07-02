@@ -1107,6 +1107,13 @@ Exited
 }
 }
 }
+messageManagerGroups
+:
+[
+"
+browsers
+"
+]
 }
 ClickHandler
 :
