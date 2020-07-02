@@ -212,7 +212,7 @@ length
 const
 Maybe
 <
-uint64_t
+uint32_t
 >
 &
 maxSize
@@ -264,7 +264,7 @@ isSome
 (
 )
 ;
-uint64_t
+uint32_t
 computedMaxSize
 ;
 size_t
@@ -440,13 +440,13 @@ SharedArrayRawBuffer
 :
 tryGrowMaxSizeInPlace
 (
-uint64_t
+uint32_t
 deltaMaxSize
 )
 {
 CheckedInt
 <
-uint64_t
+uint32_t
 >
 newMaxSize
 =
