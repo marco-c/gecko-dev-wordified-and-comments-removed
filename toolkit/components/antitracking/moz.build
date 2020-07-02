@@ -26,6 +26,11 @@ XPIDL_SOURCES
 =
 [
 '
+nsIPartitioningSkipListService
+.
+idl
+'
+'
 nsIPurgeTrackerService
 .
 idl
@@ -62,6 +67,11 @@ EXTRA_JS_MODULES
 [
 '
 ContentBlockingAllowList
+.
+jsm
+'
+'
+PartitioningSkipListService
 .
 jsm
 '
