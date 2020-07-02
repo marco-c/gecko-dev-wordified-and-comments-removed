@@ -223,9 +223,12 @@ ChangeRemotenessContextType
 DONT_PRESERVE
 =
 0
-PRESERVE
+DONT_PRESERVE_BUT_PROPAGATE
 =
 1
+PRESERVE
+=
+2
 }
 ;
 ChangeRemotenessContextType
