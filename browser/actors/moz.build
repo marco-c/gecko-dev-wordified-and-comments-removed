@@ -306,6 +306,16 @@ DOMFullscreenParent
 jsm
 '
 '
+EncryptedMediaChild
+.
+jsm
+'
+'
+EncryptedMediaParent
+.
+jsm
+'
+'
 FormValidationChild
 .
 jsm
