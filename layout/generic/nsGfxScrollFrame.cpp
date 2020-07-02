@@ -2483,7 +2483,7 @@ mIsRoot
 presShell
 -
 >
-IsVisualViewportSizeSet
+GetMobileViewportManager
 (
 )
 )
