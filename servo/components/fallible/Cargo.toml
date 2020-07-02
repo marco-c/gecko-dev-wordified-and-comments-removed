@@ -109,7 +109,7 @@ otherwise
 we
 just
 let
-rust
+Rust
 do
 its
 thing
@@ -138,7 +138,7 @@ properly
 in
 #
 stable
-rust
+Rust
 .
 [
 features
