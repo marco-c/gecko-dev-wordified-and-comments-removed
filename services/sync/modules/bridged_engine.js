@@ -133,6 +133,9 @@ EXPORTED_SYMBOLS
 "
 BridgedEngine
 "
+"
+LogAdapter
+"
 ]
 ;
 class
@@ -587,7 +590,7 @@ All
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_TRACE
 ;
@@ -607,7 +610,7 @@ Info
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_DEBUG
 ;
@@ -627,7 +630,7 @@ Warn
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_WARN
 ;
@@ -647,7 +650,7 @@ Error
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_ERROR
 ;
@@ -655,7 +658,7 @@ LEVEL_ERROR
 return
 Ci
 .
-mozIServicesLogger
+mozIServicesLogSink
 .
 LEVEL_OFF
 ;
@@ -743,20 +746,6 @@ this
 _bridge
 =
 bridge
-;
-this
-.
-_bridge
-.
-logger
-=
-new
-LogAdapter
-(
-this
-.
-_log
-)
 ;
 }
 BridgedEngine
