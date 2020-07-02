@@ -17346,7 +17346,7 @@ Disable
 FeatureStatus
 :
 :
-Blocklisted
+Blacklisted
 message
 .
 get

@@ -42,7 +42,7 @@ BlockedReleaseChannelNvidia
 BlockedReleaseChannelBattery
 BlockedReleaseChannelAndroid
 Denied
-Blocklisted
+Blacklisted
 OptIn
 Failed
 Disabled

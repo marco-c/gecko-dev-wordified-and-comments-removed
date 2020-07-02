@@ -790,7 +790,7 @@ aFeature
 const
 ;
 void
-EvaluateDownloadedBlocklist
+EvaluateDownloadedBlacklist
 (
 nsTArray
 <

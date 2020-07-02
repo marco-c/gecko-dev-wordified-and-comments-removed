@@ -9941,7 +9941,7 @@ val
 )
 ;
 bool
-blocklisted
+blacklisted
 =
 false
 ;
@@ -9987,7 +9987,7 @@ status
 )
 )
 {
-blocklisted
+blacklisted
 =
 (
 status
@@ -10008,7 +10008,7 @@ JS
 :
 BooleanValue
 (
-blocklisted
+blacklisted
 )
 ;
 JS_SetProperty
@@ -10016,7 +10016,7 @@ JS_SetProperty
 aCx
 obj
 "
-blocklisted
+blacklisted
 "
 val
 )
