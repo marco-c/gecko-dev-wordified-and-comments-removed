@@ -1345,6 +1345,15 @@ createFromParcel
 (
 parcel
 )
+sessionRule
+.
+transferPort
+(
+mainSession
+newSession
+!
+!
+)
 }
 newSession
 !
