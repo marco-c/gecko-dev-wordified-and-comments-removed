@@ -8400,6 +8400,10 @@ T
 aCondition
 )
 {
+EnsureReadCompleted
+(
+)
+;
 Vector
 <
 Tuple
@@ -10075,6 +10079,10 @@ Clear
 (
 )
 ;
+EnsureReadCompleted
+(
+)
+;
 MOZ_ASSERT
 (
 PermissionAvailable
@@ -10617,6 +10625,10 @@ OriginAttributesPattern
 aPattern
 )
 {
+EnsureReadCompleted
+(
+)
+;
 Vector
 <
 Tuple
