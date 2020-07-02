@@ -14,7 +14,6 @@ commands
 ;
 import
 {
-removeEventsTopTarget
 setupEvents
 clientEvents
 }
@@ -408,11 +407,6 @@ navigate
 actions
 .
 navigated
-)
-;
-removeEventsTopTarget
-(
-targetFront
 )
 ;
 }
