@@ -321,6 +321,16 @@ annotate_channels
 "
 true
 ]
+[
+"
+privacy
+.
+partition
+.
+network_state
+"
+false
+]
 ]
 }
 )
