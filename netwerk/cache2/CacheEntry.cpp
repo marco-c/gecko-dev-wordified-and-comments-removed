@@ -7537,6 +7537,16 @@ false
 ;
 }
 }
+{
+mozilla
+:
+:
+MutexAutoLock
+lock
+(
+mLock
+)
+;
 if
 (
 mState
@@ -7583,6 +7593,7 @@ mFrecency
 return
 false
 ;
+}
 }
 if
 (
