@@ -47,7 +47,7 @@ mozilla
 /
 dom
 /
-IPCBlobInputStreamParent
+MemoryReportRequest
 .
 h
 "
@@ -58,7 +58,7 @@ mozilla
 /
 dom
 /
-MemoryReportRequest
+RemoteLazyInputStreamParent
 .
 h
 "
@@ -2281,14 +2281,14 @@ RefPtr
 dom
 :
 :
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 >
 actor
 =
 dom
 :
 :
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 :
 :
 Create
@@ -2342,7 +2342,7 @@ static_cast
 dom
 :
 :
-IPCBlobInputStreamParent
+RemoteLazyInputStreamParent
 *
 >
 (
