@@ -79,17 +79,12 @@ PresentationTransportBuilderConstructor
 .
 h
 "
-using
 namespace
 mozilla
-;
-using
+{
 namespace
-mozilla
-:
-:
 dom
-;
+{
 NS_IMPL_ISUPPORTS
 (
 PresentationRequesterCallback
@@ -1017,4 +1012,6 @@ aEvent
 return
 NS_OK
 ;
+}
+}
 }
