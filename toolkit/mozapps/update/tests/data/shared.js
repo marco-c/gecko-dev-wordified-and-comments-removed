@@ -248,6 +248,17 @@ log
 "
 ;
 const
+PREF_APP_UPDATE_NOTIFYDURINGDOWNLOAD
+=
+"
+app
+.
+update
+.
+notifyDuringDownload
+"
+;
+const
 PREF_APP_UPDATE_PROMPTWAITTIME
 =
 "
