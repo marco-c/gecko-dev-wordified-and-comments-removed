@@ -81,6 +81,9 @@ uint64_t
 >
 &
 aHandlesToShare
+nsISerialEventTarget
+*
+aThread
 )
 ;
 private

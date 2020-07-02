@@ -162,7 +162,7 @@ mParent
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mIPCLaunchThread
 ;
