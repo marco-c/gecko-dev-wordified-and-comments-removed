@@ -86,6 +86,9 @@ ContentBlocking
 h
 "
 #
+ifdef
+MOZ_GLEAN
+#
 include
 "
 mozilla
@@ -94,6 +97,8 @@ FOGIPC
 .
 h
 "
+#
+endif
 #
 include
 "
@@ -23799,6 +23804,9 @@ FlushFOGDataResolver
 aResolver
 )
 {
+#
+ifdef
+MOZ_GLEAN
 glean
 :
 :
@@ -23813,6 +23821,8 @@ aResolver
 )
 )
 ;
+#
+endif
 return
 IPC_OK
 (
