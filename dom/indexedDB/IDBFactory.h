@@ -90,10 +90,10 @@ class
 nsIGlobalObject
 ;
 class
-nsIEventTarget
+nsIPrincipal
 ;
 class
-nsIPrincipal
+nsISerialEventTarget
 ;
 class
 nsPIDOMWindowInner
@@ -229,7 +229,7 @@ mBackgroundActor
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mEventTarget
 ;
@@ -347,7 +347,7 @@ IDBFactory
 )
 ;
 }
-nsIEventTarget
+nsISerialEventTarget
 *
 EventTarget
 (

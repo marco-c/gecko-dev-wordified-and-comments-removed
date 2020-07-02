@@ -344,7 +344,7 @@ uint32_t
 recvBufferSize
 uint32_t
 sendBufferSize
-nsIEventTarget
+nsISerialEventTarget
 *
 aMainThreadEventTarget
 )

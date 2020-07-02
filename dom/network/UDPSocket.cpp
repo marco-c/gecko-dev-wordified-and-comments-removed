@@ -2369,7 +2369,7 @@ NS_ERROR_FAILURE
 }
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;

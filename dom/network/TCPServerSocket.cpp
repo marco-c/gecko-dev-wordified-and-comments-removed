@@ -242,7 +242,7 @@ GeckoProcessType_Content
 {
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 target
 ;

@@ -10291,7 +10291,7 @@ OwnerDoc
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 eventTarget
 =
