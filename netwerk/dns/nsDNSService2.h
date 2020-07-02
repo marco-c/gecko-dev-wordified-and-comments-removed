@@ -344,9 +344,6 @@ mOfflineLocalhost
 bool
 mForceResolveOn
 ;
-uint32_t
-mProxyType
-;
 nsTHashtable
 <
 nsCStringHashKey
