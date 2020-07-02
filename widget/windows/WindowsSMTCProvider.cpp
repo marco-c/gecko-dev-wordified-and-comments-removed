@@ -1519,7 +1519,7 @@ aUrl
 {
 MOZ_ASSERT
 (
-mInitialized
+mDisplay
 )
 ;
 ComPtr
@@ -1848,7 +1848,7 @@ aAlbumArtist
 {
 MOZ_ASSERT
 (
-mInitialized
+mDisplay
 )
 ;
 MOZ_ASSERT
@@ -2087,6 +2087,11 @@ MediaMetadataBase
 aMetadata
 )
 {
+MOZ_ASSERT
+(
+mInitialized
+)
+;
 SetMusicMetadata
 (
 aMetadata
@@ -2162,7 +2167,7 @@ Update
 {
 MOZ_ASSERT
 (
-mInitialized
+mDisplay
 )
 ;
 return
