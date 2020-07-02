@@ -8754,6 +8754,7 @@ Element
 aOutArrayOfListAndTableElements
 )
 ;
+static
 Element
 *
 GetMostAncestorListOrTableElement
@@ -8779,7 +8780,6 @@ Element
 &
 aArrayOfListAndTableRelatedElements
 )
-const
 ;
 Element
 *
