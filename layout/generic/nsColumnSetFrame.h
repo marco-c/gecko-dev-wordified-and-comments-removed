@@ -381,6 +381,11 @@ mMaxOverflowingBSize
 =
 0
 ;
+int32_t
+mColCount
+=
+1
+;
 bool
 mHasExcessBSize
 =
