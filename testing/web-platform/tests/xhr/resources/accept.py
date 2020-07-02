@@ -9,11 +9,13 @@ response
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -27,9 +29,11 @@ headers
 .
 get
 (
+b
 "
 accept
 "
+b
 "
 NO
 "

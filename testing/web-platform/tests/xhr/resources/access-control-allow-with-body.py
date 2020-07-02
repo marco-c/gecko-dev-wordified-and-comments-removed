@@ -10,18 +10,21 @@ headers
 =
 {
         
+b
 "
 Cache
 -
 Control
 "
 :
+b
 "
 no
 -
 store
 "
         
+b
 "
 Access
 -
@@ -32,6 +35,7 @@ Allow
 Headers
 "
 :
+b
 "
 X
 -
@@ -40,6 +44,7 @@ Requested
 With
 "
         
+b
 "
 Access
 -
@@ -52,6 +57,7 @@ Age
 :
 0
         
+b
 "
 Access
 -
@@ -62,10 +68,12 @@ Allow
 Origin
 "
 :
+b
 "
 *
 "
         
+b
 "
 Access
 -
@@ -76,26 +84,31 @@ Allow
 Methods
 "
 :
+b
 "
 *
 "
         
+b
 "
 Vary
 "
 :
+b
 "
 Accept
 -
 Encoding
 "
         
+b
 "
 Content
 -
 Type
 "
 :
+b
 "
 text
 /
@@ -131,6 +144,7 @@ response
 .
 content
 =
+b
 "
 PASS
 "

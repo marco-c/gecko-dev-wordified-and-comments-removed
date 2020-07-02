@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -30,6 +32,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -45,6 +48,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -57,6 +61,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -66,6 +71,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -79,6 +85,7 @@ GET
 .
 first
 (
+b
 "
 uid
 "
@@ -91,6 +98,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -102,6 +110,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -111,6 +120,7 @@ Allow
 -
 Methods
 "
+b
 "
 PUT
 "
@@ -155,11 +165,13 @@ headers
 .
 set
 (
+b
 "
 WWW
 -
 Authenticate
 "
+b
 "
 Basic
 realm
@@ -184,6 +196,7 @@ response
 .
 content
 =
+b
 "
 Authentication
 cancelled
@@ -196,6 +209,7 @@ response
 .
 content
 =
+b
 "
 User
 :
@@ -203,6 +217,7 @@ User
 +
 username
 +
+b
 "
 Password
 :

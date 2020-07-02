@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -30,6 +32,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -45,6 +48,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -55,6 +59,7 @@ response
 .
 content
 =
+b
 "
 PASS
 :

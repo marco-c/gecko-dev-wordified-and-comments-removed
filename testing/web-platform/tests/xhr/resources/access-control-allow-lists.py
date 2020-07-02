@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -9,6 +15,7 @@ response
 :
     
 if
+b
 "
 origin
 "
@@ -24,6 +31,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -37,6 +45,7 @@ request
 .
 GET
 [
+b
 "
 origin
 "
@@ -44,6 +53,7 @@ origin
 )
     
 elif
+b
 "
 origins
 "
@@ -60,6 +70,7 @@ request
 .
 GET
 [
+b
 "
 origins
 "
@@ -67,6 +78,7 @@ origins
 .
 split
 (
+b
 '
 '
 )
@@ -78,6 +90,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -91,6 +104,7 @@ request
 .
 GET
 [
+b
 "
 origin
 "
@@ -98,6 +112,7 @@ origin
 )
     
 if
+b
 "
 headers
 "
@@ -113,6 +128,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -126,6 +142,7 @@ request
 .
 GET
 [
+b
 "
 headers
 "
@@ -133,6 +150,7 @@ headers
 )
     
 if
+b
 "
 methods
 "
@@ -148,6 +166,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -161,6 +180,7 @@ request
 .
 GET
 [
+b
 "
 methods
 "
@@ -195,10 +215,39 @@ header
 0
 ]
     
+str_headers
+=
+{
+}
+    
+for
+key
+val
+in
+headers
+.
+items
+(
+)
+:
+        
+str_headers
+[
+isomorphic_decode
+(
+key
+)
+]
+=
+isomorphic_decode
+(
+val
+)
+    
 return
 json
 .
 dumps
 (
-headers
+str_headers
 )

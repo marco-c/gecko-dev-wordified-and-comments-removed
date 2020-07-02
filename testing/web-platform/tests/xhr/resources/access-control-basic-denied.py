@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -30,11 +32,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -46,6 +50,7 @@ response
 .
 text
 =
+b
 "
 FAIL
 :
