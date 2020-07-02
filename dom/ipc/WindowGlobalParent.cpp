@@ -37,7 +37,7 @@ include
 "
 mozilla
 /
-ipc
+dom
 /
 InProcessParent
 .
