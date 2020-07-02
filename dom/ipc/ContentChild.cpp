@@ -18937,6 +18937,11 @@ aArgs
 loadIdentifier
 (
 )
+aArgs
+.
+registrarId
+(
+)
 getter_AddRefs
 (
 loadState

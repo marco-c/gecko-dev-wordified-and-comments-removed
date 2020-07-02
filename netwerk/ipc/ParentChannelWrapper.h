@@ -52,6 +52,13 @@ aListener
 )
 {
 }
+void
+Register
+(
+uint64_t
+aRegistrarId
+)
+;
 NS_DECL_ISUPPORTS
 NS_DECL_NSIPARENTCHANNEL
 NS_FORWARD_NSISTREAMLISTENER

@@ -180,6 +180,8 @@ nsIChannel
 aPendingChannel
 uint64_t
 aLoadIdentifier
+uint64_t
+aRegistarId
 nsDocShellLoadState
 *
 *
@@ -820,6 +822,16 @@ return
 mPendingRedirectedChannel
 ;
 }
+uint64_t
+GetPendingRedirectChannelRegistrarId
+(
+)
+const
+{
+return
+mChannelRegistrarId
+;
+}
 void
 SetOriginalURIString
 (
@@ -1142,6 +1154,9 @@ Maybe
 int32_t
 >
 mCancelContentJSEpoch
+;
+uint64_t
+mChannelRegistrarId
 ;
 const
 uint64_t
