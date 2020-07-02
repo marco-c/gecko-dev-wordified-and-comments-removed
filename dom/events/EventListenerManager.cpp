@@ -6679,7 +6679,7 @@ hasRemovedListener
 {
 mListeners
 .
-RemoveElementsBy
+NonObservingRemoveElementsBy
 (
 [
 ]

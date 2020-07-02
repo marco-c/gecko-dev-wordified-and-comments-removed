@@ -663,7 +663,7 @@ typename
 Predicate
 >
 void
-RemoveElementsBy
+NonObservingRemoveElementsBy
 (
 Predicate
 aPredicate
