@@ -104,6 +104,17 @@ svg
 >
 <
 path
+vector
+-
+effect
+=
+"
+non
+-
+scaling
+-
+stroke
+"
 d
 =
 "
