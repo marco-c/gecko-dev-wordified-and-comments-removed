@@ -8294,7 +8294,7 @@ logging
 level
 "
 "
-All
+Warn
 "
 )
 ;
@@ -8340,6 +8340,18 @@ purge_trackers
 max_purge_count
 "
 100
+)
+;
+pref
+(
+"
+privacy
+.
+purge_trackers
+.
+consider_entity_list
+"
+false
 )
 ;
 pref
