@@ -1350,14 +1350,6 @@ serverTimings
 }
 else
 {
-if
-(
-id
-|
-|
-reason
-)
-{
 this
 .
 _createNetworkEvent
@@ -1373,7 +1365,6 @@ id
 }
 )
 ;
-}
 }
 }
 _httpResponseExaminer
