@@ -1200,7 +1200,6 @@ replace
 1
 &
 fi
-maybe_start_pulse
 #
 Bug
 1607713
@@ -1218,10 +1217,18 @@ libx11
 interaction
 if
 [
-!
--
-z
+NEED_WINDOW_MANAGER
+]
+&
+&
+[
 DISPLAY
+=
+=
+'
+:
+0
+'
 ]
 ;
 then
@@ -1233,6 +1240,7 @@ warp
 0
 0
 fi
+maybe_start_pulse
 #
 For
 telemetry
