@@ -5730,6 +5730,8 @@ stack_size
 getpagesize
 (
 )
+*
+2
 ;
 void
 *
