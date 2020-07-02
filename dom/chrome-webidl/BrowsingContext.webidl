@@ -303,6 +303,15 @@ TreatNullAs
 EmptyString
 ]
 DOMString
+customPlatform
+;
+attribute
+[
+TreatNullAs
+=
+EmptyString
+]
+DOMString
 customUserAgent
 ;
 /

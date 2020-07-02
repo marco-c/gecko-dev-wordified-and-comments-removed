@@ -562,6 +562,11 @@ aUserAgent
 )
 ;
 void
+ClearPlatformCache
+(
+)
+;
+void
 ClearUserAgentCache
 (
 )

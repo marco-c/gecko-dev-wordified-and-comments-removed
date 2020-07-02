@@ -591,7 +591,7 @@ DOMString
 appVersion
 ;
 [
-Constant
+Pure
 Cached
 Throws
 NeedsCallerType
