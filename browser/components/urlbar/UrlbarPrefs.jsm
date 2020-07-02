@@ -254,7 +254,7 @@ richSuggestions
 .
 tail
 "
-false
+true
 ]
 [
 "
