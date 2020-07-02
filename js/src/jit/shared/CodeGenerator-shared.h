@@ -1630,6 +1630,15 @@ reg
 )
 ;
 inline
+LiveRegisterSet
+liveVolatileRegs
+(
+LInstruction
+*
+ins
+)
+;
+inline
 void
 saveLiveVolatile
 (
