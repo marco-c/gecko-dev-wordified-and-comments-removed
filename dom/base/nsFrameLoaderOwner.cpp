@@ -1330,16 +1330,3 @@ IgnoreErrors
 )
 ;
 }
-void
-nsFrameLoaderOwner
-:
-:
-UnbindFromTree
-(
-)
-{
-mBrowserId
-=
-0
-;
-}

@@ -742,13 +742,6 @@ mFrameLoader
 =
 nullptr
 ;
-nsFrameLoaderOwner
-:
-:
-UnbindFromTree
-(
-)
-;
 nsXULElement
 :
 :

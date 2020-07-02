@@ -2803,13 +2803,6 @@ bool
 aNullParent
 )
 {
-nsFrameLoaderOwner
-:
-:
-UnbindFromTree
-(
-)
-;
 nsImageLoadingContent
 :
 :
