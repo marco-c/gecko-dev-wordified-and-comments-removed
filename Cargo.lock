@@ -11067,6 +11067,9 @@ dependencies
 =
 [
 "
+bincode
+"
+"
 chrono
 "
 "
@@ -11079,6 +11082,9 @@ log
 "
 "
 once_cell
+"
+"
+serde
 "
 "
 tempfile
