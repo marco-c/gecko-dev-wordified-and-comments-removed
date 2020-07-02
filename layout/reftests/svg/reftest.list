@@ -8016,12 +8016,6 @@ http
 oscpu
 )
 )
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 text
@@ -8045,8 +8039,6 @@ ref
 .
 svg
 #
-bug
-386713
 bug
 1392106
 =
