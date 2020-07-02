@@ -135,7 +135,7 @@ slot
 static
 constexpr
 size_t
-EstimatedMemoryUse
+UDateFormatEstimatedMemoryUse
 =
 91626
 ;
