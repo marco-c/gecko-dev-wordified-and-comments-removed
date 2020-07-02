@@ -403,6 +403,13 @@ autoland
 try
 '
 ]
+built
+-
+projects
+-
+only
+:
+true
 target
 :
 by
@@ -861,6 +868,13 @@ autoland
 try
 '
 ]
+built
+-
+projects
+-
+only
+:
+true
 tier
 :
 2
