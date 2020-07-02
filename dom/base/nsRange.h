@@ -886,6 +886,7 @@ aRv
 bool
 IsPointInRange
 (
+const
 nsINode
 &
 aContainer
@@ -893,7 +894,7 @@ uint32_t
 aOffset
 ErrorResult
 &
-aErr
+aRv
 )
 const
 ;
