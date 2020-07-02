@@ -24,6 +24,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -43,6 +44,7 @@ GET
 .
 first
 (
+b
 "
 count
 "
@@ -67,11 +69,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -107,6 +111,7 @@ writer
 .
 write_content
 (
+u
 "
 TEST_TRICKLE
 \

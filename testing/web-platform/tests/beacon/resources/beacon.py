@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -242,6 +248,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -255,6 +262,7 @@ GET
 .
 first
 (
+b
 "
 cmd
 "
@@ -265,6 +273,7 @@ lower
 )
     
 if
+b
 "
 origin
 "
@@ -280,6 +289,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -296,6 +306,7 @@ GET
 .
 first
 (
+b
 "
 origin
 "
@@ -303,6 +314,7 @@ origin
 )
     
 if
+b
 "
 credentials
 "
@@ -318,6 +330,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -334,6 +347,7 @@ GET
 .
 first
 (
+b
 "
 credentials
 "
@@ -344,6 +358,7 @@ if
 command
 =
 =
+b
 "
 store
 "
@@ -359,6 +374,7 @@ request
 method
 =
 =
+u
 "
 POST
 "
@@ -366,10 +382,12 @@ POST
             
 payload
 =
+b
 "
 "
             
 if
+b
 "
 Content
 -
@@ -382,6 +400,7 @@ headers
 and
 \
                
+b
 "
 form
 -
@@ -392,6 +411,7 @@ request
 .
 headers
 [
+b
 "
 Content
 -
@@ -401,6 +421,7 @@ Type
 :
                 
 if
+b
 "
 payload
 "
@@ -418,6 +439,7 @@ POST
 .
 first
 (
+b
 "
 payload
 "
@@ -439,6 +461,8 @@ body
             
 payload_parts
 =
+list
+(
 filter
 (
 None
@@ -446,9 +470,11 @@ payload
 .
 split
 (
+b
 "
 :
 "
+)
 )
 )
             
@@ -486,6 +512,7 @@ payload_parts
                     
 error
 =
+u
 "
 expected
 %
@@ -529,9 +556,14 @@ payload_parts
 ]
 [
 i
+:
+i
++
+1
 ]
 !
 =
+b
 "
 *
 "
@@ -539,6 +571,7 @@ i
                             
 error
 =
+u
 "
 expected
 '
@@ -560,13 +593,20 @@ s
 (
                                 
 i
+isomorphic_decode
+(
 payload_parts
 [
 1
 ]
 [
 i
+:
+i
++
+1
 ]
+)
 )
                             
 break
@@ -581,6 +621,7 @@ put
 (
 id
 {
+u
 "
 error
 "
@@ -595,12 +636,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
             
 if
+b
 "
 preflightExpected
 "
@@ -616,6 +659,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -626,6 +670,7 @@ Allow
 Headers
 "
                                      
+b
 "
 content
 -
@@ -639,6 +684,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -648,6 +694,7 @@ Allow
 -
 Methods
 "
+b
 "
 POST
 "
@@ -658,6 +705,7 @@ else
                 
 error
 =
+u
 "
 Preflight
 not
@@ -675,6 +723,7 @@ put
 (
 id
 {
+u
 "
 error
 "
@@ -687,6 +736,7 @@ elif
 command
 =
 =
+b
 "
 stat
 "
@@ -722,11 +772,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
