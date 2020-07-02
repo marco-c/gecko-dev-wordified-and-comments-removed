@@ -360,11 +360,6 @@ BrowsingContextGroup
 h
 '
 '
-BrowsingContextWebProgress
-.
-h
-'
-'
 CanonicalBrowsingContext
 .
 h
@@ -406,11 +401,6 @@ cpp
 '
 '
 BrowsingContextGroup
-.
-cpp
-'
-'
-BrowsingContextWebProgress
 .
 cpp
 '
