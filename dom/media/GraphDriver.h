@@ -2209,13 +2209,7 @@ std
 :
 atomic
 <
-std
-:
-:
-thread
-:
-:
-id
+int
 >
 mAudioThreadId
 ;
