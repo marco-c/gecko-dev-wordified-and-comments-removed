@@ -1179,7 +1179,7 @@ phases
 )
 {
 let
-whitelist
+knownIPCList
 =
 startupPhases
 [
@@ -1188,14 +1188,14 @@ phase
 ;
 if
 (
-whitelist
+knownIPCList
 .
 length
 )
 {
 info
 (
-whitelisted
+known
 sync
 IPC
 {
@@ -1205,7 +1205,7 @@ phase
 \
 n
 +
-whitelist
+knownIPCList
 .
 map
 (
@@ -1264,7 +1264,7 @@ for
 let
 entry
 of
-whitelist
+knownIPCList
 )
 {
 if
@@ -1337,7 +1337,7 @@ for
 let
 entry
 of
-whitelist
+knownIPCList
 )
 {
 let
@@ -1458,7 +1458,8 @@ ok
 (
 false
 unused
-whitelist
+known
+IPC
 entry
 {
 phase

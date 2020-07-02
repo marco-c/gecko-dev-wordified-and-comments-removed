@@ -1576,7 +1576,7 @@ stat
 ;
 }
 function
-expandWhitelistPath
+expandPathWithDirServiceKey
 (
 path
 canonicalize
@@ -2616,7 +2616,7 @@ entry
 .
 path
 =
-expandWhitelistPath
+expandPathWithDirServiceKey
 (
 entry
 .
@@ -2633,7 +2633,7 @@ canonicalize
 let
 tmpPath
 =
-expandWhitelistPath
+expandPathWithDirServiceKey
 (
 "
 TmpD
@@ -2659,7 +2659,7 @@ phases
 )
 {
 let
-whitelist
+knownIOList
 =
 startupPhases
 [
@@ -2668,8 +2668,12 @@ phase
 ;
 info
 (
-whitelisted
+known
+main
+thread
+IO
 paths
+during
 {
 phase
 }
@@ -2677,7 +2681,7 @@ phase
 \
 n
 +
-whitelist
+knownIOList
 .
 map
 (
@@ -2885,7 +2889,7 @@ for
 let
 entry
 of
-whitelist
+knownIOList
 )
 {
 if
@@ -3048,7 +3052,7 @@ for
 let
 entry
 of
-whitelist
+knownIOList
 )
 {
 for
@@ -3211,9 +3215,15 @@ ignoreIfUnused
 ok
 (
 false
-unused
-whitelist
-entry
+no
+main
+thread
+IO
+when
+we
+expected
+some
+during
 {
 phase
 }
