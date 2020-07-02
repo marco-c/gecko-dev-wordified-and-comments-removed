@@ -1653,7 +1653,13 @@ SNAPSHOT_BAILOUTKIND_BITS
 1
 >
 =
-Bailout_Limit
+uint8_t
+(
+BailoutKind
+:
+:
+Limit
+)
 "
 Not
 enough

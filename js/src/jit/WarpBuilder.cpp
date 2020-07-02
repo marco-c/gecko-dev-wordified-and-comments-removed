@@ -16907,7 +16907,10 @@ New
 alloc
 (
 )
-Bailout_FirstExecution
+BailoutKind
+:
+:
+FirstExecution
 )
 ;
 current

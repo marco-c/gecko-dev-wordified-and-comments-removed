@@ -1504,7 +1504,10 @@ MBail
 New
 (
 alloc
-Bailout_FirstExecution
+BailoutKind
+:
+:
+FirstExecution
 )
 ;
 MInstruction

@@ -39016,7 +39016,10 @@ group
 (
 )
 bailOnEquality
-Bailout_ObjectIdentityOrTypeGuard
+BailoutKind
+:
+:
+ObjectIdentityOrTypeGuard
 )
 ;
 }
