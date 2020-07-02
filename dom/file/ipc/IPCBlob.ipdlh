@@ -158,7 +158,7 @@ isDirectory
 }
 ;
 union
-IPCBlobStream
+RemoteLazyStream
 {
 /
 /
@@ -213,7 +213,7 @@ size
 nsString
 blobImplType
 ;
-IPCBlobStream
+RemoteLazyStream
 inputStream
 ;
 /
