@@ -93,6 +93,10 @@ reader
 mod
 static_table
 ;
+pub
+mod
+stats
+;
 mod
 table
 ;

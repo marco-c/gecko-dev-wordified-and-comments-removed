@@ -1683,6 +1683,9 @@ mut
 hconn
 )
 ;
+let
+_
+=
 neqo_trans_conn
 .
 process
@@ -1725,7 +1728,6 @@ ConnectionEvent
 NewStream
 {
 stream_id
-stream_type
 }
 =
 >
@@ -1735,6 +1737,10 @@ assert
 (
 (
 stream_id
+.
+as_u64
+(
+)
 =
 =
 SERVER_SIDE_CONTROL_STREAM_ID
@@ -1743,6 +1749,10 @@ SERVER_SIDE_CONTROL_STREAM_ID
 |
 (
 stream_id
+.
+as_u64
+(
+)
 =
 =
 SERVER_SIDE_ENCODER_STREAM_ID
@@ -1751,6 +1761,10 @@ SERVER_SIDE_ENCODER_STREAM_ID
 |
 (
 stream_id
+.
+as_u64
+(
+)
 =
 =
 SERVER_SIDE_DECODER_STREAM_ID
@@ -1760,7 +1774,11 @@ SERVER_SIDE_DECODER_STREAM_ID
 assert_eq
 !
 (
+stream_id
+.
 stream_type
+(
+)
 StreamType
 :
 :
@@ -2323,6 +2341,9 @@ now
 )
 )
 ;
+let
+_
+=
 neqo_trans_conn
 .
 process
@@ -2893,6 +2914,9 @@ now
 )
 )
 ;
+let
+_
+=
 peer_conn
 .
 conn
@@ -2922,6 +2946,9 @@ now
 )
 )
 ;
+let
+_
+=
 peer_conn
 .
 conn
@@ -3101,6 +3128,9 @@ now
 )
 )
 ;
+let
+_
+=
 peer_conn
 .
 conn

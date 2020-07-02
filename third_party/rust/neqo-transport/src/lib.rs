@@ -277,6 +277,7 @@ InvalidPacket
 InvalidResumptionToken
 InvalidRetry
 InvalidStreamId
+KeysExhausted
 KeysNotFound
 KeyUpdateBlocked
 NoMoreData

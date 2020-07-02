@@ -1278,7 +1278,7 @@ server
 ;
 client
 .
-enable_ciphers
+set_ciphers
 (
 &
 [
