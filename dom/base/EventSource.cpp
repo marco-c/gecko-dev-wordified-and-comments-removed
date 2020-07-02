@@ -1149,13 +1149,6 @@ EventSourceServiceNotifier
 (
 )
 {
-mEventSourceImpl
--
->
-AssertIsOnTargetThread
-(
-)
-;
 if
 (
 mConnectionOpened
