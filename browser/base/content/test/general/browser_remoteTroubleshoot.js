@@ -372,11 +372,11 @@ got
 .
 message
 .
-extensions
+addons
 "
 should
 have
-extensions
+addons
 "
 )
 ;
