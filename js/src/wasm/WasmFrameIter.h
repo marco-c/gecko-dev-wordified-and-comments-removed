@@ -78,7 +78,7 @@ CallableOffsets
 struct
 FuncOffsets
 ;
-struct
+class
 Frame
 ;
 using
@@ -691,7 +691,7 @@ CodeRange
 *
 codeRange_
 ;
-Frame
+uint8_t
 *
 callerFP_
 ;
@@ -996,7 +996,7 @@ offsets
 struct
 UnwindState
 {
-Frame
+uint8_t
 *
 fp
 ;
@@ -1052,12 +1052,6 @@ bool
 *
 unwoundCaller
 )
-;
-constexpr
-uintptr_t
-ExitOrJitEntryFPTag
-=
-0x1
 ;
 }
 }
