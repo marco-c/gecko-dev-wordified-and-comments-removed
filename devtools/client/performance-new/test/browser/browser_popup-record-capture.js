@@ -83,10 +83,15 @@ makeSureProfilerPopupIsEnabled
 )
 ;
 await
-toggleOpenProfilerPopup
+openPopupAndEnsureCloses
+(
+window
+async
 (
 )
-;
+=
+>
+{
 {
 const
 button
@@ -209,6 +214,9 @@ errorTitle
 "
 Error
 "
+}
+)
+;
 }
 )
 ;
