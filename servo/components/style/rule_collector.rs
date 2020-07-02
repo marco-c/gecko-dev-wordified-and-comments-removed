@@ -31,7 +31,7 @@ properties
 :
 :
 {
-AnimationRules
+AnimationDeclarations
 PropertyDeclarationBlock
 }
 ;
@@ -331,9 +331,9 @@ PropertyDeclarationBlock
 >
 >
 >
-animation_rules
+animation_declarations
 :
-AnimationRules
+AnimationDeclarations
 rule_inclusion
 :
 RuleInclusion
@@ -463,9 +463,9 @@ PropertyDeclarationBlock
 >
 >
 >
-animation_rules
+animation_declarations
 :
-AnimationRules
+AnimationDeclarations
 rule_inclusion
 :
 RuleInclusion
@@ -609,7 +609,7 @@ stylist
 pseudo_element
 style_attribute
 smil_override
-animation_rules
+animation_declarations
 rule_inclusion
 context
 flags_setter
@@ -2233,9 +2233,9 @@ anim
 =
 self
 .
-animation_rules
+animation_declarations
 .
-0
+animations
 .
 take
 (
@@ -2270,9 +2270,9 @@ anim
 =
 self
 .
-animation_rules
+animation_declarations
 .
-1
+transitions
 .
 take
 (

@@ -77,10 +77,7 @@ crate
 properties
 :
 :
-{
-AnimationRules
 ComputedValues
-}
 ;
 use
 crate
@@ -2154,7 +2151,7 @@ self
 .
 element
 .
-animation_rules
+animation_declarations
 (
 self
 .
@@ -2528,10 +2525,11 @@ pseudo_element
 )
 None
 None
-AnimationRules
+Default
+:
+:
+default
 (
-None
-None
 )
 self
 .
