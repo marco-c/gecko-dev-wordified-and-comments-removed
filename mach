@@ -193,7 +193,6 @@ raptor
 test
 reftest
 release
-rusttests
 talos
 -
 test
