@@ -779,12 +779,13 @@ CompareBoundaryPoints
 (
 uint16_t
 aHow
+const
 nsRange
 &
-aOther
+aOtherRange
 ErrorResult
 &
-aErr
+aRv
 )
 ;
 int16_t

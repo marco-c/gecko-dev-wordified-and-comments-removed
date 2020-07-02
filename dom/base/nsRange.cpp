@@ -9235,12 +9235,13 @@ CompareBoundaryPoints
 (
 uint16_t
 aHow
+const
 nsRange
 &
 aOtherRange
 ErrorResult
 &
-rv
+aRv
 )
 {
 if
@@ -9257,7 +9258,7 @@ IsPositioned
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
@@ -9477,7 +9478,7 @@ break
 ;
 default
 :
-rv
+aRv
 .
 Throw
 (
@@ -9500,7 +9501,7 @@ GetRoot
 )
 )
 {
-rv
+aRv
 .
 Throw
 (
