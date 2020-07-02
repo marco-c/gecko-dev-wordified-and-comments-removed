@@ -6791,6 +6791,11 @@ tempfile
 .
 NamedTemporaryFile
 (
+mode
+=
+"
+wt
+"
 )
         
 for
