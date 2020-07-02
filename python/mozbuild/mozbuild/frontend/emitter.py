@@ -669,9 +669,16 @@ Context
                 
 contexts
 [
+os
+.
+path
+.
+normcase
+(
 out
 .
 objdir
+)
 ]
 =
 out
@@ -958,6 +965,12 @@ attrs
 in
 (
 (
+os
+.
+path
+.
+normcase
+(
 self
 .
 config
@@ -970,11 +983,18 @@ get
 WEBIDL_ROOT
 '
 )
+)
                                   
 WebIDLCollection
 webidl_attrs
 )
                                  
+(
+os
+.
+path
+.
+normcase
 (
 self
 .
@@ -988,11 +1008,18 @@ get
 IPDL_ROOT
 '
 )
+)
                                   
 IPDLCollection
 ipdl_attrs
 )
                                  
+(
+os
+.
+path
+.
+normcase
 (
 self
 .
@@ -1005,6 +1032,7 @@ get
 '
 XPCOM_ROOT
 '
+)
 )
                                   
 XPCOMComponentManifests
