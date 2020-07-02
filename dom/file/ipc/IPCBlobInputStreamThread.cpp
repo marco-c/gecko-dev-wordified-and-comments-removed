@@ -299,6 +299,17 @@ MOZ_ASSERT
 aEventTarget
 )
 ;
+if
+(
+XRE_IsSocketProcess
+(
+)
+)
+{
+return
+true
+;
+}
 mozilla
 :
 :

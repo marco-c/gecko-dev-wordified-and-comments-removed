@@ -67,6 +67,10 @@ include
 protocol
 PParentToChildStream
 ;
+include
+protocol
+PIPCBlobInputStream
+;
 using
 struct
 mozilla
@@ -161,7 +165,7 @@ closed
 }
 ;
 struct
-IPCBlobInputStreamParams
+IPCBlobInputStreamRef
 {
 nsID
 id
@@ -171,6 +175,15 @@ start
 ;
 uint64_t
 length
+;
+}
+;
+union
+IPCBlobInputStreamParams
+{
+IPCBlobInputStreamRef
+;
+PIPCBlobInputStream
 ;
 }
 ;

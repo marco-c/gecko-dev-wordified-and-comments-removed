@@ -77,6 +77,10 @@ protocol
 PParentToChildStream
 ;
 include
+protocol
+PSocketProcess
+;
+include
 IPCStream
 ;
 namespace
@@ -93,6 +97,8 @@ manager
 PBackground
 or
 PContent
+or
+PSocketProcess
 ;
 parent
 :
