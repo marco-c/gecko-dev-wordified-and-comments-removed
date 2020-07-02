@@ -9,6 +9,8 @@ json
 import
 os
 import
+re
+import
 six
 from
 six
@@ -1352,6 +1354,7 @@ True
 }
     
 if
+(
 '
 web
 -
@@ -1367,20 +1370,30 @@ suite
 '
 ]
 or
+        
+re
+.
+match
+(
 '
 test
 -
+(
+coverage
+|
 verify
+)
 -
 wpt
 '
-in
 test
 [
 '
 suite
 '
 ]
+)
+)
 :
         
 env
@@ -2621,6 +2634,7 @@ True
 }
     
 if
+(
 '
 web
 -
@@ -2636,20 +2650,30 @@ suite
 '
 ]
 or
+        
+re
+.
+match
+(
 '
 test
 -
+(
+coverage
+|
 verify
+)
 -
 wpt
 '
-in
 test
 [
 '
 suite
 '
 ]
+)
+)
 :
         
 env
@@ -4033,6 +4057,7 @@ True
 }
     
 if
+(
 '
 web
 -
@@ -4048,20 +4073,30 @@ suite
 '
 ]
 or
+        
+re
+.
+match
+(
 '
 test
 -
+(
+coverage
+|
 verify
+)
 -
 wpt
 '
-in
 test
 [
 '
 suite
 '
 ]
+)
+)
 :
         
 env
