@@ -115,7 +115,7 @@ h
 #
 include
 <
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 .
 h
 >
@@ -12091,7 +12091,7 @@ WaitingForStreamReady
 ;
 nsCOMPtr
 <
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 >
 blobInputStream
 =

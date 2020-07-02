@@ -492,7 +492,7 @@ nsIAsyncInputStreamLength
 )
 NS_INTERFACE_MAP_ENTRY
 (
-mozIIPCBlobInputStream
+mozIRemoteLazyInputStream
 )
 NS_INTERFACE_MAP_ENTRY_AMBIGUOUS
 (
