@@ -14,6 +14,7 @@ request
 .
 GET
 [
+b
 "
 token
 "
@@ -31,11 +32,13 @@ headers
 .
 append
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -44,6 +47,7 @@ html
 )
     
 if
+b
 "
 verify
 -
@@ -69,16 +73,19 @@ token
 :
         
 return
+u
 '
 TOKEN_SET
 '
       
 return
+u
 '
 TOKEN_NOT_SET
 '
     
 if
+b
 "
 finish
 -
@@ -111,11 +118,13 @@ headers
 .
 append
 (
+b
 "
 Content
 -
 Disposition
 "
+b
 "
 attachment
 "
@@ -135,6 +144,7 @@ request
 .
 GET
 [
+b
 "
 finish
 -
@@ -177,6 +187,7 @@ writer
 .
 write_content
 (
+u
 "
 \
 n

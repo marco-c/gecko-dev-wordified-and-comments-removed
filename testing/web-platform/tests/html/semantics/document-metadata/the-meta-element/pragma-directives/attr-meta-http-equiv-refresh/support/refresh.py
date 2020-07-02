@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -30,6 +32,7 @@ headers
 .
 set
 (
+b
 "
 Refresh
 "
@@ -39,6 +42,7 @@ GET
 .
 first
 (
+b
 "
 input
 "
@@ -49,6 +53,7 @@ response
 .
 content
 =
+u
 "
 <
 !

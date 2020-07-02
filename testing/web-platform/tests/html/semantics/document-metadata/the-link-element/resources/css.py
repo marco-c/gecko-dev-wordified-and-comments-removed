@@ -13,6 +13,7 @@ add_required_headers
 False
   
 if
+b
 "
 content_type
 "
@@ -28,6 +29,7 @@ writer
 .
 write_header
 (
+b
 "
 Content
 -
@@ -39,6 +41,7 @@ GET
 .
 first
 (
+b
 "
 content_type
 "
@@ -46,6 +49,7 @@ content_type
 )
   
 if
+b
 "
 nosniff
 "
@@ -61,6 +65,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -70,6 +75,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -81,6 +87,7 @@ writer
 .
 write_content
 (
+u
 "
 body
 {

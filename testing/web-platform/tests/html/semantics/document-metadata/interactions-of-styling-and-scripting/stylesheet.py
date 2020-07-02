@@ -11,6 +11,7 @@ response
 :
   
 if
+b
 "
 delay
 "
@@ -28,6 +29,7 @@ request
 .
 GET
 [
+b
 "
 delay
 "
@@ -40,6 +42,7 @@ delay
 )
   
 if
+b
 "
 stylesNotMatchingEnvironment
 "
@@ -50,6 +53,7 @@ GET
 :
     
 return
+u
 '
 h1
 {
@@ -64,6 +68,7 @@ else
 :
     
 return
+u
 '
 h1
 {
