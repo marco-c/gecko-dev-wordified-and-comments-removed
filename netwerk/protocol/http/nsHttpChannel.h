@@ -2862,6 +2862,12 @@ Relaxed
 >
 mCachedContentIsValid
 ;
+Atomic
+<
+bool
+>
+mAuthRetryPending
+;
 uint32_t
 mCachedContentIsPartial
 :
@@ -2874,11 +2880,6 @@ mCacheOnlyMetadata
 ;
 uint32_t
 mTransactionReplaced
-:
-1
-;
-uint32_t
-mAuthRetryPending
 :
 1
 ;
