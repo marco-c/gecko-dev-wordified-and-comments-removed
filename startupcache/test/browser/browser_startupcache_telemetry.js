@@ -227,7 +227,7 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 Miss
 )
-9
+50
 )
 ;
 await
@@ -288,7 +288,7 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 HitMemory
 )
-4
+50
 )
 ;
 Assert
@@ -314,7 +314,7 @@ LABELS_STARTUP_CACHE_REQUESTS
 .
 Miss
 )
-5
+50
 )
 ;
 await
