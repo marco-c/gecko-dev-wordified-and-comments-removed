@@ -3742,6 +3742,9 @@ ScalarTypeImm
 handleOOB
 :
 BoolImm
+allowDoubleForUint32
+:
+BoolImm
 -
 name
 :

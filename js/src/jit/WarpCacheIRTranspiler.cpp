@@ -3976,6 +3976,8 @@ Type
 elementType
 bool
 handleOOB
+bool
+allowDoubleForUint32
 )
 {
 MDefinition
@@ -4001,11 +4003,6 @@ if
 handleOOB
 )
 {
-bool
-allowDouble
-=
-true
-;
 auto
 *
 load
@@ -4021,7 +4018,7 @@ alloc
 obj
 index
 elementType
-allowDouble
+allowDoubleForUint32
 )
 ;
 add
@@ -4111,7 +4108,7 @@ setResultType
 MIRTypeForArrayBufferViewRead
 (
 elementType
-true
+allowDoubleForUint32
 )
 )
 ;
