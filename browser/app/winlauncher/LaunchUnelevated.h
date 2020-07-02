@@ -62,6 +62,14 @@ eHighIntegrityNoUAC
 <
 1
 )
+eHighIntegrityByAppCompat
+=
+(
+1
+<
+<
+2
+)
 }
 ;
 LauncherResult
@@ -70,6 +78,10 @@ ElevationState
 >
 GetElevationState
 (
+const
+wchar_t
+*
+aExecutablePath
 LauncherFlags
 aFlags
 nsAutoHandle
