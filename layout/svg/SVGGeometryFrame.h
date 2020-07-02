@@ -321,12 +321,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGGeometry
 "
-)
+_ns
 aResult
 )
 ;

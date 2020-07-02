@@ -371,8 +371,7 @@ wfd
 .
 cFileName
 )
-NS_LITERAL_STRING
-(
+u
 "
 api
 -
@@ -383,7 +382,7 @@ win
 crt
 -
 "
-)
+_ns
 nsCaseInsensitiveStringComparator
 )
 )

@@ -586,12 +586,10 @@ IsEmpty
 StringBeginsWith
 (
 mQuotaOriginScope
-NS_LITERAL_CSTRING
-(
 "
 ^
 "
-)
+_ns
 )
 )
 ;

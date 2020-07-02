@@ -588,13 +588,11 @@ combined
 =
 message
 +
-NS_LITERAL_CSTRING
-(
 "
 \
 n
 "
-)
+_ns
 +
 stackString
 ;

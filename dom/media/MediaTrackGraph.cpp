@@ -7408,13 +7408,12 @@ NS_LITERAL_STRING
 __FILE__
 )
 __LINE__
-NS_LITERAL_STRING
-(
+u
 "
 MediaTrackGraph
 shutdown
 "
-)
+_ns
 )
 ;
 MOZ_RELEASE_ASSERT
@@ -16745,7 +16744,7 @@ KIND_HEAP
 UNITS_BYTES
 \
 _amount
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 _desc
 )
@@ -16910,7 +16909,7 @@ hrtfLoaders
 {
 REPORT
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 explicit

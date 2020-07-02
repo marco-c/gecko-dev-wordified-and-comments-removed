@@ -848,7 +848,7 @@ comments
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 ENCODER

@@ -1452,8 +1452,6 @@ name
 .
 Equals
 (
-NS_LITERAL_CSTRING
-(
 "
 Cross
 -
@@ -1463,7 +1461,7 @@ Resource
 -
 Policy
 "
-)
+_ns
 )
 )
 {

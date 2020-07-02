@@ -421,7 +421,7 @@ i
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Promise
@@ -488,7 +488,7 @@ i
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Promise
@@ -1118,8 +1118,6 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
-(
 "
 EME
 is
@@ -1129,7 +1127,7 @@ in
 this
 window
 "
-)
+_ns
 )
 ;
 return
@@ -1342,7 +1340,7 @@ aRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Failed
@@ -1763,7 +1761,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 The
@@ -1935,15 +1933,13 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
-(
 "
 Key
 system
 is
 unsupported
 "
-)
+_ns
 )
 ;
 diagnostics
@@ -2028,8 +2024,6 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
-(
 "
 EME
 has
@@ -2037,7 +2031,7 @@ been
 preffed
 off
 "
-)
+_ns
 )
 ;
 diagnostics
@@ -2203,8 +2197,6 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
-(
 "
 Timed
 out
@@ -2215,7 +2207,7 @@ a
 CDM
 update
 "
-)
+_ns
 )
 ;
 diagnostics
@@ -2448,12 +2440,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 Media
 "
-)
+_ns
 doc
 nsContentUtils
 :
@@ -2550,8 +2540,6 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
-(
 "
 Key
 system
@@ -2560,7 +2548,7 @@ is
 not
 supported
 "
-)
+_ns
 )
 ;
 diagnostics
@@ -2780,7 +2768,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Failed
@@ -2849,7 +2837,7 @@ aRequest
 >
 RejectPromiseWithNotSupportedError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Failed
@@ -3413,7 +3401,7 @@ installRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Promise
@@ -3451,7 +3439,7 @@ approvalRequest
 >
 RejectPromiseWithInvalidAccessError
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Promise

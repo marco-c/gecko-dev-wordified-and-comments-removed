@@ -9947,12 +9947,10 @@ if
 StringBeginsWith
 (
 linkName
-NS_LITERAL_CSTRING
-(
 "
 rmnet
 "
-)
+_ns
 )
 )
 {

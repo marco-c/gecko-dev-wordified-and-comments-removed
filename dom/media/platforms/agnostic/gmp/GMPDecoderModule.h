@@ -27,8 +27,6 @@ h
 #
 define
 SHARED_GMP_DECODING_NODE_ID
-NS_LITERAL_CSTRING
-(
 "
 gmp
 -
@@ -36,7 +34,7 @@ shared
 -
 decoding
 "
-)
+_ns
 namespace
 mozilla
 {

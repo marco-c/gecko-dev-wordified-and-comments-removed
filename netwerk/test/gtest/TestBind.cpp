@@ -585,8 +585,6 @@ nsCString
 >
 (
 )
-NS_LITERAL_CSTRING
-(
 "
 127
 .
@@ -596,7 +594,7 @@ NS_LITERAL_CSTRING
 .
 1
 "
-)
+_ns
 serverPort
 nullptr
 getter_AddRefs

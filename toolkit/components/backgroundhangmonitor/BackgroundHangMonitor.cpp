@@ -515,14 +515,12 @@ mPermahangFile
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 last_permahang
 .
 bin
 "
-)
+_ns
 )
 ;
 }

@@ -950,12 +950,11 @@ nsGkAtoms
 :
 :
 id
-NS_LITERAL_STRING
-(
+u
 "
 transformiixResult
 "
-)
+_ns
 false
 )
 ;

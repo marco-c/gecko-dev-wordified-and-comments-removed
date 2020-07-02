@@ -367,14 +367,13 @@ ImageType
 :
 :
 JPEG
-NS_LITERAL_STRING
-(
+u
 "
 quality
 =
 85
 "
-)
+_ns
 gfxUtils
 :
 :

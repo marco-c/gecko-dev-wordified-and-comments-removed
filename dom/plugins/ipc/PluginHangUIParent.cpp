@@ -1570,12 +1570,10 @@ ipc
 :
 :
 kInvalidProcessId
-NS_LITERAL_CSTRING
-(
 "
 ModalHangUI
 "
-)
+_ns
 EmptyString
 (
 )

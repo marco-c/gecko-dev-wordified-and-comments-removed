@@ -14,7 +14,7 @@ __columns
 __type
 )
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 CREATE
@@ -27,11 +27,11 @@ NOT
 EXISTS
 "
 __table
-\
 "
 _
 "
 __name
+\
 "
 ON
 "

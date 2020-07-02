@@ -195,12 +195,11 @@ final
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 ImageControl
 "
-)
+_ns
 aResult
 )
 ;

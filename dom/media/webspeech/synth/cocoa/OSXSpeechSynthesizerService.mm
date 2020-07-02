@@ -736,12 +736,11 @@ mTask
 >
 DispatchBoundary
 (
-NS_LITERAL_STRING
-(
+u
 "
 word
 "
-)
+_ns
 GetTimeDurationFromStart
 (
 )
@@ -1448,8 +1447,7 @@ MOZ_ASSERT
 StringBeginsWith
 (
 aUri
-NS_LITERAL_STRING
-(
+u
 "
 urn
 :
@@ -1460,7 +1458,7 @@ tts
 osx
 :
 "
-)
+_ns
 )
 "
 OSXSpeechSynthesizerService

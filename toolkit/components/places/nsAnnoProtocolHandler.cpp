@@ -167,7 +167,7 @@ getter_AddRefs
 (
 defaultIconURI
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_URL
 )
@@ -218,7 +218,7 @@ aChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_MIMETYPE
 )
@@ -232,7 +232,7 @@ aOriginalChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_MIMETYPE
 )
@@ -414,7 +414,7 @@ mChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SVG_MIME_TYPE
 )
@@ -430,7 +430,7 @@ mChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PNG_MIME_TYPE
 )

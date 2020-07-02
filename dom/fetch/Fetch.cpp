@@ -6040,14 +6040,12 @@ GetInternalHeaders
 >
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 Content
 -
 Type
 "
-)
+_ns
 contentTypeValues
 result
 )

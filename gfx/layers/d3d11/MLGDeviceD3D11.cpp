@@ -10241,12 +10241,10 @@ return
 }
 Fail
 (
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_DEVICE_RESET
 "
-)
+_ns
 nullptr
 )
 ;

@@ -2111,13 +2111,12 @@ NS_LITERAL_STRING
 __FILE__
 )
 __LINE__
-NS_LITERAL_STRING
-(
+u
 "
 ReleasingTimerHolder
 shutdown
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS

@@ -53,8 +53,7 @@ nsDependentAtomString
 (
 aPseudo
 )
-NS_LITERAL_STRING
-(
+u
 "
 :
 -
@@ -63,7 +62,7 @@ moz
 tree
 -
 "
-)
+_ns
 )
 ;
 }

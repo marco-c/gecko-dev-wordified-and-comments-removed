@@ -167,12 +167,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 ButtonBoxFrame
 "
-)
+_ns
 aResult
 )
 ;

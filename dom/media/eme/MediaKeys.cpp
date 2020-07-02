@@ -900,14 +900,12 @@ promise
 MakePromise
 (
 aRv
-NS_LITERAL_CSTRING
-(
 "
 MediaKeys
 .
 setServerCertificate
 "
-)
+_ns
 )
 )
 ;
@@ -2318,8 +2316,6 @@ promise
 MakePromise
 (
 aRv
-NS_LITERAL_CSTRING
-(
 "
 MediaKeys
 :
@@ -2328,7 +2324,7 @@ Init
 (
 )
 "
-)
+_ns
 )
 )
 ;
@@ -3746,8 +3742,6 @@ promise
 MakePromise
 (
 aRv
-NS_LITERAL_CSTRING
-(
 "
 MediaKeys
 :
@@ -3756,7 +3750,7 @@ GetStatusForPolicy
 (
 )
 "
-)
+_ns
 )
 )
 ;

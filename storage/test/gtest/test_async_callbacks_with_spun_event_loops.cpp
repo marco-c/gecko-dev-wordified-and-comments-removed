@@ -340,8 +340,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -353,7 +351,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -379,8 +377,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -393,7 +389,7 @@ VALUES
 ?
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -452,15 +448,13 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 SELECT
 *
 FROM
 test
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -537,8 +531,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -550,7 +542,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -576,8 +568,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -590,7 +580,7 @@ VALUES
 1
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -616,8 +606,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -630,7 +618,7 @@ VALUES
 1
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

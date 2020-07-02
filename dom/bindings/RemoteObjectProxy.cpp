@@ -161,12 +161,10 @@ ReportCrossOriginDenial
 (
 aCx
 aId
-NS_LITERAL_CSTRING
-(
 "
 define
 "
-)
+_ns
 )
 ;
 }
@@ -296,12 +294,10 @@ ReportCrossOriginDenial
 (
 aCx
 aId
-NS_LITERAL_CSTRING
-(
 "
 delete
 "
-)
+_ns
 )
 ;
 }

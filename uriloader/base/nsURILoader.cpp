@@ -1253,7 +1253,7 @@ aChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 APPLICATION_OCTET_STREAM
 )
@@ -1984,7 +1984,7 @@ aChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 APPLICATION_GUESS_FROM_EXT
 )

@@ -1722,8 +1722,6 @@ WorkerMainThreadRunnable
 GetCurrentThreadWorkerPrivate
 (
 )
-NS_LITERAL_CSTRING
-(
 "
 ImageBitmap
 :
@@ -1734,7 +1732,7 @@ from
 Raw
 Data
 "
-)
+_ns
 )
 mImage
 (

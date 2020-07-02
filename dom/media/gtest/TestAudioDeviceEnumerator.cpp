@@ -1333,14 +1333,12 @@ cubeb_devid
 nsCString
 device_name
 =
-NS_LITERAL_CSTRING
-(
 "
 device
 name
 2
 "
-)
+_ns
 ;
 mock
 -

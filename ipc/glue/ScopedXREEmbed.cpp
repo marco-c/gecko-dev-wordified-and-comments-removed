@@ -358,12 +358,10 @@ localFile
 >
 SetNativeLeafName
 (
-NS_LITERAL_CSTRING
-(
 "
 Resources
 "
-)
+_ns
 )
 ;
 if

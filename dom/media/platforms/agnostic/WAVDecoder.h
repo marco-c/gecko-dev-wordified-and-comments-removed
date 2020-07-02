@@ -112,14 +112,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 wave
 audio
 decoder
 "
-)
+_ns
 ;
 }
 private

@@ -622,11 +622,9 @@ aHandleReport
 >
 Callback
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 nsPrintfCString
 (
 "
@@ -781,13 +779,9 @@ aHandleReport
 >
 Callback
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 explicit
 /
@@ -801,7 +795,7 @@ data
 /
 small
 "
-)
+_ns
 KIND_HEAP
 UNITS_BYTES
 smallObjectsTotal

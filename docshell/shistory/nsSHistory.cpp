@@ -400,14 +400,12 @@ Debug
 nsAutoCString
 _specStr
 (
-NS_LITERAL_CSTRING
-(
 "
 (
 null
 )
 "
-)
+_ns
 )
 ;
 \

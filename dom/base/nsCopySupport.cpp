@@ -3935,12 +3935,11 @@ piWindow
 >
 UpdateCommands
 (
-NS_LITERAL_STRING
-(
+u
 "
 clipboard
 "
-)
+_ns
 nullptr
 0
 )

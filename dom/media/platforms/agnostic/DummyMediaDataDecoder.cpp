@@ -384,15 +384,13 @@ GetDescriptionName
 const
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 blank
 media
 data
 decoder
 "
-)
+_ns
 ;
 }
 MediaDataDecoder

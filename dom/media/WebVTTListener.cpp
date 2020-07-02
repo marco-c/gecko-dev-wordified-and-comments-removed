@@ -496,12 +496,11 @@ mElement
 >
 DispatchTestEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 mozStartedLoadingTextTrack
 "
-)
+_ns
 )
 ;
 return

@@ -1610,11 +1610,9 @@ IsEmpty
 {
 mAlertTitle
 =
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 }
 else

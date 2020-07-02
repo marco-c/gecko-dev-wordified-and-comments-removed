@@ -1472,8 +1472,6 @@ helpers
 .
 setInsecureFallbackSites
 (
-NS_LITERAL_CSTRING
-(
 "
 example
 .
@@ -1482,7 +1480,7 @@ example
 .
 net
 "
-)
+_ns
 )
 ;
 ASSERT_FALSE

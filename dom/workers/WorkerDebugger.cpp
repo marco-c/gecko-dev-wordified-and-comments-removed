@@ -282,12 +282,11 @@ event
 InitMessageEvent
 (
 nullptr
-NS_LITERAL_STRING
-(
+u
 "
 message
 "
-)
+_ns
 CanBubble
 :
 :

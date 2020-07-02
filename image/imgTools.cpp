@@ -1928,8 +1928,6 @@ X8
 nsAutoCString
 encoderCID
 (
-NS_LITERAL_CSTRING
-(
 "
 mozilla
 .
@@ -1944,7 +1942,7 @@ encoder
 type
 =
 "
-)
+_ns
 +
 aMimeType
 )

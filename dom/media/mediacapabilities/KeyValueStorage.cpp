@@ -260,12 +260,10 @@ profileDir
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 mediacapabilities
 "
-)
+_ns
 )
 ;
 if

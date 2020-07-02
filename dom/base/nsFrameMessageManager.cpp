@@ -2278,8 +2278,7 @@ error
 >
 Init
 (
-NS_LITERAL_STRING
-(
+u
 "
 Sending
 message
@@ -2300,7 +2299,7 @@ XPCOM
 object
 ?
 "
-)
+_ns
 filename
 EmptyString
 (
@@ -4128,8 +4127,9 @@ msg
 =
 aMessage
 +
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 :
 message

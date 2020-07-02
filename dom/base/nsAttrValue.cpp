@@ -2657,12 +2657,11 @@ aResult
 =
 str
 +
-NS_LITERAL_STRING
-(
+u
 "
 %
 "
-)
+_ns
 ;
 break
 ;

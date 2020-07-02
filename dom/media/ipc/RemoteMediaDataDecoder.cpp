@@ -159,14 +159,12 @@ GetDescriptionName
 (
 )
 +
-NS_LITERAL_CSTRING
-(
 "
 (
 remote
 )
 "
-)
+_ns
 ;
 mIsHardwareAccelerated
 =

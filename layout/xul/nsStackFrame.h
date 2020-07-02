@@ -73,12 +73,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Stack
 "
-)
+_ns
 aResult
 )
 ;

@@ -54,14 +54,14 @@ UrlClassifierFeatureLoginReputation
 :
 UrlClassifierFeatureBase
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 LOGIN_REPUTATION_FEATURE_NAME
 )
 EmptyCString
 (
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PREF_PASSWORD_ALLOW_TABLE
 )

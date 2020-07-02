@@ -787,12 +787,11 @@ mozilla
 AsyncEventDispatcher
 (
 owner
-NS_LITERAL_STRING
-(
+u
 "
 XULFrameLoaderCreated
 "
-)
+_ns
 mozilla
 :
 :

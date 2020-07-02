@@ -904,13 +904,12 @@ Init
 ;
 sIDPrefix
 =
-NS_LITERAL_STRING
-(
+u
 "
 PromiseDebugging
 .
 "
-)
+_ns
 ;
 if
 (

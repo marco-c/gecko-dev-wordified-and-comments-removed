@@ -5968,12 +5968,10 @@ permManager
 TestPermissionFromPrincipal
 (
 aPrincipal
-NS_LITERAL_CSTRING
-(
 "
 cookie
 "
-)
+_ns
 &
 access
 )

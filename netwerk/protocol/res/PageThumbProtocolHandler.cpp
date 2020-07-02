@@ -1796,12 +1796,11 @@ queryIndex
 +
 1
 )
-NS_LITERAL_STRING
-(
+u
 "
 url
 "
-)
+_ns
 url
 )
 ;

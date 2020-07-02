@@ -2321,12 +2321,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 SVG
 "
-)
+_ns
 doc
 nsContentUtils
 :

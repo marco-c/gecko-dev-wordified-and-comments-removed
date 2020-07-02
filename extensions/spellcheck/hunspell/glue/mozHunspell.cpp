@@ -1256,13 +1256,12 @@ if
 StringEndsWith
 (
 leafName
-NS_LITERAL_STRING
-(
+u
 "
 .
 dic
 "
-)
+_ns
 )
 )
 continue

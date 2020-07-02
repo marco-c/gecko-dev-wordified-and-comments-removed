@@ -304,12 +304,11 @@ e
 >
 InitEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 midimessage
 "
-)
+_ns
 false
 false
 )

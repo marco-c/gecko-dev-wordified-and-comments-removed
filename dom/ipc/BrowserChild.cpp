@@ -11407,12 +11407,11 @@ mBrowserChildMessageManager
 >
 DispatchTrustedEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 unload
 "
-)
+_ns
 )
 ;
 }

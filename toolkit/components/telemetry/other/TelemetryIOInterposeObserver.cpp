@@ -69,14 +69,13 @@ rv
 AddPath
 (
 xreDirPath
-NS_LITERAL_STRING
-(
+u
 "
 {
 xre
 }
 "
-)
+_ns
 )
 ;
 }

@@ -1300,13 +1300,11 @@ if
 StringBeginsWith
 (
 iconPath
-NS_LITERAL_CSTRING
-(
 "
 /
 /
 "
-)
+_ns
 )
 )
 {

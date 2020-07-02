@@ -2241,12 +2241,11 @@ PresentationConnectionAvailableEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 connectionavailable
 "
-)
+_ns
 init
 )
 ;

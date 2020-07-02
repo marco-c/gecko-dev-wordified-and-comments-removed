@@ -308,8 +308,6 @@ getter_AddRefs
 (
 xslUri
 )
-NS_LITERAL_CSTRING
-(
 "
 chrome
 :
@@ -325,7 +323,7 @@ XMLPrettyPrint
 .
 xsl
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS

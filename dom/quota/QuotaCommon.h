@@ -722,11 +722,9 @@ aResult
 .
 Append
 (
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 )
 ;
 }

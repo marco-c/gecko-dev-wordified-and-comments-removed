@@ -245,12 +245,10 @@ aRangeFlags
 :
 gfxFontEntry
 (
-NS_LITERAL_CSTRING
-(
 "
 userfont
 "
-)
+_ns
 )
 mUserFontLoadState
 (
@@ -6353,8 +6351,6 @@ ComputedSizeOfExcludingThis
 (
 UserFontsMallocSizeOf
 )
-NS_LITERAL_CSTRING
-(
 "
 Memory
 used
@@ -6365,7 +6361,7 @@ face
 resource
 .
 "
-)
+_ns
 aData
 )
 ;

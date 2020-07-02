@@ -129,14 +129,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 opus
 audio
 decoder
 "
-)
+_ns
 ;
 }
 static

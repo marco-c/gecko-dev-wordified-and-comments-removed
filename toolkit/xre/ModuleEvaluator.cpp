@@ -512,12 +512,11 @@ winSxSDir
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 WinSxS
 "
-)
+_ns
 )
 ;
 MOZ_ASSERT

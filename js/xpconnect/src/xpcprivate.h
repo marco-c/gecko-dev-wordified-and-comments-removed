@@ -10678,8 +10678,6 @@ jsLocationURI
 {
 location
 =
-NS_LITERAL_CSTRING
-(
 "
 <
 JS
@@ -10689,7 +10687,7 @@ nsIURI
 location
 >
 "
-)
+_ns
 ;
 }
 else
@@ -10709,15 +10707,13 @@ location
 {
 location
 =
-NS_LITERAL_CSTRING
-(
 "
 <
 unknown
 location
 >
 "
-)
+_ns
 ;
 }
 }

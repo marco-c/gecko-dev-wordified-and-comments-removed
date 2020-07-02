@@ -154,12 +154,11 @@ GetOuterWindow
 >
 DispatchCustomEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 orientationchange
 "
-)
+_ns
 )
 ;
 }

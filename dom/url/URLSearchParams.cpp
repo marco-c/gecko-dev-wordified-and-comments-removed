@@ -1756,12 +1756,10 @@ if
 StringBeginsWith
 (
 input
-NS_LITERAL_CSTRING
-(
 "
 ?
 "
-)
+_ns
 )
 )
 {

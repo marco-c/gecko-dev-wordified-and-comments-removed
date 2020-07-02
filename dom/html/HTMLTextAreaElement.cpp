@@ -2347,12 +2347,11 @@ nsIContent
 (
 this
 )
-NS_LITERAL_STRING
-(
+u
 "
 change
 "
-)
+_ns
 CanBubble
 :
 :

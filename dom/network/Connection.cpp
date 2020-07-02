@@ -49,12 +49,11 @@ h
 #
 define
 CHANGE_EVENT_NAME
-NS_LITERAL_STRING
-(
+u
 "
 typechange
 "
-)
+_ns
 namespace
 mozilla
 {

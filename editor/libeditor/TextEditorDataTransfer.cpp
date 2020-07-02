@@ -2325,14 +2325,13 @@ dataTransfer
 >
 GetDataAtNoSecurityCheck
 (
-NS_LITERAL_STRING
-(
+u
 "
 text
 /
 plain
 "
-)
+_ns
 i
 getter_AddRefs
 (

@@ -238,12 +238,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGPattern
 "
-)
+_ns
 aResult
 )
 ;

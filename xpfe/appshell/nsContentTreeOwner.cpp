@@ -1445,12 +1445,11 @@ docShellElement
 >
 SetAttribute
 (
-NS_LITERAL_STRING
-(
+u
 "
 persist
 "
-)
+_ns
 persistString
 rv
 )

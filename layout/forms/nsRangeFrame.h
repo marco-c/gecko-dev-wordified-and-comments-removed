@@ -225,12 +225,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Range
 "
-)
+_ns
 aResult
 )
 ;

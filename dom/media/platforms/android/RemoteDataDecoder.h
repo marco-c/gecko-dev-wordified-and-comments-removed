@@ -163,8 +163,6 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 android
 decoder
@@ -172,7 +170,7 @@ decoder
 remote
 )
 "
-)
+_ns
 ;
 }
 protected

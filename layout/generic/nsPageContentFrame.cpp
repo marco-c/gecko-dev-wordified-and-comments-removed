@@ -608,12 +608,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 PageContent
 "
-)
+_ns
 aResult
 )
 ;

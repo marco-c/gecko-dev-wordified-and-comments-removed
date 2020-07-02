@@ -375,8 +375,9 @@ this
 {
 LinkStylesheet
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 resource
 :
@@ -395,8 +396,9 @@ css
 ;
 LinkStylesheet
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 chrome
 :
@@ -417,8 +419,7 @@ css
 ;
 LinkScript
 (
-NS_LITERAL_STRING
-(
+u
 "
 chrome
 :
@@ -432,7 +433,7 @@ TopLevelVideoDocument
 .
 js
 "
-)
+_ns
 )
 ;
 }
@@ -607,8 +608,9 @@ nsGkAtoms
 :
 :
 style
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 position
 :

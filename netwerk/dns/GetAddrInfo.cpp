@@ -1171,12 +1171,10 @@ gNativeIsLocalhost
 {
 host
 =
-NS_LITERAL_CSTRING
-(
 "
 localhost
 "
-)
+_ns
 ;
 aAddressFamily
 =

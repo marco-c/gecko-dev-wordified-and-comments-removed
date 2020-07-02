@@ -110,13 +110,11 @@ aModule
 .
 FindCharInSet
 (
-NS_LITERAL_CSTRING
-(
 "
 #
 ?
 "
-)
+_ns
 )
 ;
 if

@@ -609,13 +609,11 @@ new
 LazyIdleThread
 (
 kThreadTimeoutMS
-NS_LITERAL_CSTRING
-(
 "
 Untrusted
 Modules
 "
-)
+_ns
 LazyIdleThread
 :
 :

@@ -8,7 +8,7 @@ __nsPlacesTables_h__
 define
 CREATE_MOZ_PLACES
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -131,7 +131,7 @@ id
 define
 CREATE_MOZ_HISTORYVISITS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -181,7 +181,7 @@ INTEGER
 define
 CREATE_MOZ_INPUTHISTORY
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -227,7 +227,7 @@ input
 define
 CREATE_MOZ_ANNOS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -304,7 +304,7 @@ DEFAULT
 define
 CREATE_MOZ_ANNO_ATTRIBUTES
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -340,7 +340,7 @@ NULL
 define
 CREATE_MOZ_ITEMS_ANNOS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -417,7 +417,7 @@ DEFAULT
 define
 CREATE_MOZ_BOOKMARKS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -704,7 +704,7 @@ DEFAULT
 define
 CREATE_MOZ_BOOKMARKS_DELETED
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -738,7 +738,7 @@ DEFAULT
 define
 CREATE_MOZ_KEYWORDS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -780,7 +780,7 @@ TEXT
 define
 CREATE_MOZ_ORIGINS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -834,7 +834,7 @@ host
 define
 CREATE_MOZ_OPENPAGES_TEMP
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -877,7 +877,7 @@ userContextId
 define
 CREATE_UPDATEORIGINSINSERT_TEMP
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -924,7 +924,7 @@ NULL
 define
 CREATE_UPDATEORIGINSDELETE_TEMP
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -975,7 +975,7 @@ ROWID
 define
 CREATE_UPDATEORIGINSUPDATE_TEMP
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -1026,7 +1026,7 @@ ROWID
 define
 CREATE_MOZ_PAGES_W_ICONS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -1065,7 +1065,7 @@ NULL
 define
 CREATE_MOZ_ICONS
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -1141,7 +1141,7 @@ BLOB
 define
 CREATE_MOZ_ICONS_TO_PAGES
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "
@@ -1210,7 +1210,7 @@ ROWID
 define
 CREATE_MOZ_META
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "

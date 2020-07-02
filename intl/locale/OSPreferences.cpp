@@ -958,14 +958,12 @@ aRetVal
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
-(
 "
 en
 -
 US
 "
-)
+_ns
 )
 ;
 return

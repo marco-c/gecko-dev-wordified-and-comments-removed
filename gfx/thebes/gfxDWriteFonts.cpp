@@ -533,12 +533,10 @@ PlatformFontList
 >
 FindFontForFamily
 (
-NS_LITERAL_CSTRING
-(
 "
 Arial
 "
-)
+_ns
 &
 style
 )

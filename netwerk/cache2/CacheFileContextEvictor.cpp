@@ -290,7 +290,7 @@ mEntriesDir
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 ENTRIES_DIR
 )
@@ -1941,7 +1941,7 @@ if
 StringBeginsWith
 (
 leaf
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 CONTEXT_EVICTION_PREFIX
 )
@@ -2141,12 +2141,10 @@ info
 if
 (
 !
-NS_LITERAL_CSTRING
-(
 "
 *
 "
-)
+_ns
 .
 Equals
 (

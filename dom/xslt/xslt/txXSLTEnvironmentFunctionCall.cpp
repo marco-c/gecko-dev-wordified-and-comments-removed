@@ -203,12 +203,11 @@ recycler
 >
 getStringResult
 (
-NS_LITERAL_STRING
-(
+u
 "
 Transformiix
 "
-)
+_ns
 aResult
 )
 ;
@@ -237,8 +236,7 @@ recycler
 >
 getStringResult
 (
-NS_LITERAL_STRING
-(
+u
 "
 http
 :
@@ -255,7 +253,7 @@ projects
 xslt
 /
 "
-)
+_ns
 aResult
 )
 ;

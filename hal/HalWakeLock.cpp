@@ -474,12 +474,11 @@ props
 >
 GetPropertyAsUint64
 (
-NS_LITERAL_STRING
-(
+u
 "
 childID
 "
-)
+_ns
 &
 childID
 )

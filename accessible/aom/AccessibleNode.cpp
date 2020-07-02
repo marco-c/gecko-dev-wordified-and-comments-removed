@@ -402,12 +402,11 @@ aStates
 .
 AppendElement
 (
-NS_LITERAL_STRING
-(
+u
 "
 defunct
 "
-)
+_ns
 )
 ;
 return

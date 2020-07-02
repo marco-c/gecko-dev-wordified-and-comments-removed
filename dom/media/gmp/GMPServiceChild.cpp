@@ -438,11 +438,9 @@ endpoint
 nsCString
 errorDescription
 =
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 bool
 ok
@@ -892,11 +890,9 @@ endpoint
 nsCString
 errorDescription
 =
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 ;
 bool
 ok

@@ -1940,12 +1940,11 @@ apzc
 >
 NotifyMozMouseScrollEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 MozMouseScrollTransactionTimeout
 "
-)
+_ns
 )
 ;
 }

@@ -274,8 +274,6 @@ mSCFile
 >
 AppendNative
 (
-NS_LITERAL_CSTRING
-(
 "
 test
 -
@@ -283,7 +281,7 @@ startupcache
 .
 tmp
 "
-)
+_ns
 )
 ;
 #
@@ -292,13 +290,12 @@ XP_WIN
 nsAutoString
 env
 (
-NS_LITERAL_STRING
-(
+u
 "
 MOZ_STARTUP_CACHE
 =
 "
-)
+_ns
 )
 ;
 env

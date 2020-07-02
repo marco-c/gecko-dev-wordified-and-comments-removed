@@ -138,12 +138,11 @@ override
 {
 aBlobImplType
 =
-NS_LITERAL_STRING
-(
+u
 "
 StringBlobImpl
 "
-)
+_ns
 ;
 }
 private

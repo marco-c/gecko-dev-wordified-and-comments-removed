@@ -181,14 +181,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 gmp
 video
 decoder
 "
-)
+_ns
 ;
 }
 ConversionRequired

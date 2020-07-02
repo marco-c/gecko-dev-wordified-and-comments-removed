@@ -2845,12 +2845,10 @@ mThreadPool
 >
 SetName
 (
-NS_LITERAL_CSTRING
-(
 "
 FileHandles
 "
-)
+_ns
 )
 ;
 if

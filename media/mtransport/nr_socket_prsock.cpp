@@ -780,12 +780,10 @@ sThread
 new
 SingletonThreadHolder
 (
-NS_LITERAL_CSTRING
-(
 "
 mtransport
 "
-)
+_ns
 )
 ;
 NS_DispatchToMainThread

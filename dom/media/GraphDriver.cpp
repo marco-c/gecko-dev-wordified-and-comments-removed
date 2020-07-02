@@ -2832,12 +2832,10 @@ SharedThreadPool
 :
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 CubebOperation
 "
-)
+_ns
 1
 )
 )

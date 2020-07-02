@@ -123,15 +123,13 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 av1
 libdav1d
 video
 decoder
 "
-)
+_ns
 ;
 }
 void

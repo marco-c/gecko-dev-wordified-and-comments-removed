@@ -240,12 +240,10 @@ SharedThreadPool
 :
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 CanvasWorkers
 "
-)
+_ns
 threadLimit
 )
 ;

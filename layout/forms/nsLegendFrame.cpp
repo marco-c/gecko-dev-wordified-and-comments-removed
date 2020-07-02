@@ -519,12 +519,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Legend
 "
-)
+_ns
 aResult
 )
 ;

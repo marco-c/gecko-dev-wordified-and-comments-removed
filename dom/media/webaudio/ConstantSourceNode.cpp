@@ -1218,12 +1218,11 @@ mNode
 >
 DispatchTrustedEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 ended
 "
-)
+_ns
 )
 ;
 mNode

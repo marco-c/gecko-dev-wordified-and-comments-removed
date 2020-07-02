@@ -161,12 +161,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 ScrollbarFrame
 "
-)
+_ns
 aResult
 )
 ;

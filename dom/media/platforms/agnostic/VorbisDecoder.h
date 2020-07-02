@@ -148,14 +148,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 vorbis
 audio
 decoder
 "
-)
+_ns
 ;
 }
 static

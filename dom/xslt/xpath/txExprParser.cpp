@@ -2371,14 +2371,13 @@ Value
 (
 )
 +
-NS_LITERAL_STRING
-(
+u
 "
 not
 implemented
 .
 "
-)
+_ns
 )
 ;
 return

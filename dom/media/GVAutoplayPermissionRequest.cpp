@@ -653,11 +653,9 @@ GetPrincipal
 (
 )
 aWindow
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 aType
 =
 =
@@ -666,8 +664,6 @@ RType
 :
 eAUDIBLE
 ?
-NS_LITERAL_CSTRING
-(
 "
 autoplay
 -
@@ -675,10 +671,8 @@ media
 -
 audible
 "
-)
+_ns
 :
-NS_LITERAL_CSTRING
-(
 "
 autoplay
 -
@@ -686,7 +680,7 @@ media
 -
 inaudible
 "
-)
+_ns
 )
 mType
 (

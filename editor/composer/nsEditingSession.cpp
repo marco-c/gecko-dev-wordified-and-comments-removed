@@ -3677,14 +3677,13 @@ webNav
 >
 LoadURI
 (
-NS_LITERAL_STRING
-(
+u
 "
 about
 :
 blank
 "
-)
+_ns
 loadURIOptions
 )
 ;

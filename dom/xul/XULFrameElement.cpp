@@ -490,12 +490,11 @@ new
 AsyncEventDispatcher
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 XULFrameLoaderCreated
 "
-)
+_ns
 CanBubble
 :
 :

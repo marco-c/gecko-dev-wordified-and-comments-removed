@@ -308,12 +308,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGClipPath
 "
-)
+_ns
 aResult
 )
 ;

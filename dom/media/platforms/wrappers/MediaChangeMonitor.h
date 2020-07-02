@@ -160,8 +160,6 @@ GetDescriptionName
 ;
 }
 return
-NS_LITERAL_CSTRING
-(
 "
 MediaChangeMonitor
 decoder
@@ -169,7 +167,7 @@ decoder
 pending
 )
 "
-)
+_ns
 ;
 }
 void

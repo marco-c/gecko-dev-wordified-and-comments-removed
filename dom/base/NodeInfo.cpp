@@ -291,12 +291,11 @@ mInner
 mPrefix
 )
 +
-NS_LITERAL_STRING
-(
+u
 "
 :
 "
-)
+_ns
 +
 nsDependentAtomString
 (

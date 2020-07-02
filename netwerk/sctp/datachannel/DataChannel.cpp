@@ -3305,12 +3305,11 @@ stats
 nsString
 id
 =
-NS_LITERAL_STRING
-(
+u
 "
 dc
 "
-)
+_ns
 ;
 id
 .

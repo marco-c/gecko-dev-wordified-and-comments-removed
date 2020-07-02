@@ -740,8 +740,6 @@ path
 KIND_HEAP
 UNITS_BYTES
 amount
-NS_LITERAL_CSTRING
-(
 "
 Memory
 used
@@ -752,7 +750,7 @@ storage
 cache
 .
 "
-)
+_ns
 aData
 )
 ;

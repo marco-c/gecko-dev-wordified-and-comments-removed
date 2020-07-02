@@ -320,14 +320,12 @@ trrservice
 )
 mConfirmationNS
 (
-NS_LITERAL_CSTRING
-(
 "
 example
 .
 com
 "
-)
+_ns
 )
 mWaitForCaptive
 (

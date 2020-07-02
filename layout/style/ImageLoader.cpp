@@ -1873,12 +1873,11 @@ ReferrerInfo
 )
 sImageObserver
 loadFlags
-NS_LITERAL_STRING
-(
+u
 "
 css
 "
-)
+_ns
 getter_AddRefs
 (
 request

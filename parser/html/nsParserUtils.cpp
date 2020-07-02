@@ -409,14 +409,13 @@ encoder
 NativeInit
 (
 document
-NS_LITERAL_STRING
-(
+u
 "
 text
 /
 html
 "
-)
+_ns
 nsIDocumentEncoder
 :
 :

@@ -2801,12 +2801,11 @@ const
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 Block
 "
-)
+_ns
 aResult
 )
 ;

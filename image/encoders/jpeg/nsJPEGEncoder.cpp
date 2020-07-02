@@ -350,13 +350,12 @@ const
 nsString
 qualityPrefix
 (
-NS_LITERAL_STRING
-(
+u
 "
 quality
 =
 "
-)
+_ns
 )
 ;
 if

@@ -262,12 +262,11 @@ outType
 GetAttribute
 (
 aWindow
-NS_LITERAL_STRING
-(
+u
 "
 windowtype
 "
-)
+_ns
 outType
 )
 ;

@@ -632,8 +632,6 @@ origin
 GetSpecOrDefault
 (
 )
-NS_LITERAL_CSTRING
-(
 "
 moz
 -
@@ -643,7 +641,7 @@ about
 :
 blank
 "
-)
+_ns
 )
 )
 )

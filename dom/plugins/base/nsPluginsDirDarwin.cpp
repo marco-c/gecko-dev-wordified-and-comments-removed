@@ -2308,12 +2308,10 @@ fbplugin
 StringBeginsWith
 (
 fileName
-NS_LITERAL_CSTRING
-(
 "
 fbplugin_
 "
-)
+_ns
 )
 )
 {

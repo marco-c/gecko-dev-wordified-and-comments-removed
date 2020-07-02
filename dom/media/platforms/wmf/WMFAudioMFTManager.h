@@ -121,14 +121,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 wmf
 audio
 decoder
 "
-)
+_ns
 ;
 }
 private

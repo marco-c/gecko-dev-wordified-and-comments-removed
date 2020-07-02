@@ -1886,14 +1886,12 @@ channel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
-(
 "
 text
 /
 xml
 "
-)
+_ns
 )
 ;
 nsCOMPtr

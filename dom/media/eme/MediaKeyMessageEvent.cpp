@@ -313,12 +313,11 @@ e
 >
 InitEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 message
 "
-)
+_ns
 false
 false
 )

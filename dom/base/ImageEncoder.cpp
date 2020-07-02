@@ -2291,14 +2291,13 @@ encoder
 aType
 !
 =
-NS_LITERAL_STRING
-(
+u
 "
 image
 /
 png
 "
-)
+_ns
 )
 {
 aType

@@ -2534,8 +2534,7 @@ const
 nsLiteralString
 kPlaceholderText
 =
-NS_LITERAL_STRING
-(
+u
 "
 [
 SVG
@@ -2544,7 +2543,7 @@ of
 CSS
 ]
 "
-)
+_ns
 ;
 if
 (

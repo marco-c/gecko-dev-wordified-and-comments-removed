@@ -400,8 +400,6 @@ Annotation
 :
 :
 IPCTransportFailureReason
-NS_LITERAL_CSTRING
-(
 "
 Failed
 to
@@ -410,7 +408,7 @@ target
 process
 .
 "
-)
+_ns
 )
 ;
 return

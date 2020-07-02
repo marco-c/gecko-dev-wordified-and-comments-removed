@@ -16496,12 +16496,10 @@ nsITelemetry
 :
 DATASET_PRERELEASE_CHANNELS
 false
-NS_LITERAL_CSTRING
-(
 "
 main
 "
-)
+_ns
 )
 ;
 if
@@ -16683,12 +16681,10 @@ nsITelemetry
 :
 DATASET_PRERELEASE_CHANNELS
 false
-NS_LITERAL_CSTRING
-(
 "
 main
 "
-)
+_ns
 )
 ;
 if

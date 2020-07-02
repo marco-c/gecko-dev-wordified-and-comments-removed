@@ -3966,7 +3966,7 @@ langFonts
 >
 InitWithNativePath
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 LANG_FONTS_DIR
 )
@@ -9202,12 +9202,11 @@ localDir
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 fonts
 "
-)
+_ns
 )
 )
 )

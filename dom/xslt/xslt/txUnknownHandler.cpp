@@ -648,12 +648,11 @@ aLocalName
 .
 Equals
 (
-NS_LITERAL_STRING
-(
+u
 "
 html
 "
-)
+_ns
 nsCaseInsensitiveStringComparator
 )
 ;

@@ -182,12 +182,11 @@ doc
 >
 CreateEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 Events
 "
-)
+_ns
 CallerType
 :
 :

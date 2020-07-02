@@ -359,14 +359,13 @@ EndUpdateDictionary
 #
 define
 CPS_PREF_NAME
-NS_LITERAL_STRING
-(
+u
 "
 spellcheck
 .
 lang
 "
-)
+_ns
 static
 nsIURI
 *

@@ -80,12 +80,10 @@ out_failureId
 *
 out_failureId
 =
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_NULL
 "
-)
+_ns
 ;
 return
 nullptr

@@ -1958,12 +1958,10 @@ tags
 .
 AppendElement
 (
-NS_LITERAL_CSTRING
-(
 "
 h264
 "
-)
+_ns
 )
 ;
 bool
@@ -1979,7 +1977,7 @@ mGMPService
 >
 HasPluginForAPI
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GMP_API_VIDEO_ENCODER
 )
@@ -2012,7 +2010,7 @@ mGMPService
 >
 HasPluginForAPI
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 GMP_API_VIDEO_DECODER
 )

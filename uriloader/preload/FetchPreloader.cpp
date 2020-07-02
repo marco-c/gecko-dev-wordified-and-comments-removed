@@ -568,12 +568,11 @@ timedChannel
 >
 SetInitiatorType
 (
-NS_LITERAL_STRING
-(
+u
 "
 link
 "
-)
+_ns
 )
 ;
 }

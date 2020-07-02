@@ -449,14 +449,13 @@ return
 ParseFromStream
 (
 stream
-NS_LITERAL_STRING
-(
+u
 "
 UTF
 -
 8
 "
-)
+_ns
 utf8str
 .
 Length

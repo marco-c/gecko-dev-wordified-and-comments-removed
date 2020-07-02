@@ -166,8 +166,6 @@ htmlFragmentAllowlist
 ]
 =
 {
-NS_LITERAL_CSTRING
-(
 "
 chrome
 :
@@ -183,8 +181,8 @@ marquee
 .
 js
 "
-)
-NS_LITERAL_CSTRING
+_ns
+nsLiteralCString
 (
 "
 chrome
@@ -214,8 +212,6 @@ min
 js
 "
 )
-NS_LITERAL_CSTRING
-(
 "
 chrome
 :
@@ -229,8 +225,8 @@ aboutNetError
 .
 js
 "
-)
-NS_LITERAL_CSTRING
+_ns
+nsLiteralCString
 (
 "
 chrome
@@ -256,7 +252,7 @@ bundle
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 chrome
@@ -276,7 +272,7 @@ aboutdevtools
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -300,7 +296,7 @@ bundle
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -326,7 +322,7 @@ Breakpoint
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -352,7 +348,7 @@ ColumnBreakpoint
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -374,8 +370,6 @@ react
 js
 "
 )
-NS_LITERAL_CSTRING
-(
 "
 resource
 :
@@ -395,8 +389,8 @@ dom
 .
 js
 "
-)
-NS_LITERAL_CSTRING
+_ns
+nsLiteralCString
 (
 "
 resource
@@ -420,7 +414,7 @@ dev
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -440,7 +434,7 @@ FilterWidget
 js
 "
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 resource
@@ -470,8 +464,6 @@ helper
 js
 "
 )
-NS_LITERAL_CSTRING
-(
 "
 resource
 :
@@ -489,9 +481,7 @@ Spectrum
 .
 js
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 resource
 :
@@ -507,9 +497,7 @@ VoiceSelect
 .
 jsm
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 resource
 :
@@ -523,9 +511,7 @@ ReactDOM
 .
 js
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 chrome
 :
@@ -539,9 +525,7 @@ harness
 .
 xhtml
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 chrome
 :
@@ -554,9 +538,7 @@ content
 tests
 /
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 chrome
 :
@@ -567,9 +549,7 @@ mochitests
 content
 /
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 chrome
 :
@@ -580,7 +560,7 @@ reftest
 content
 /
 "
-)
+_ns
 }
 ;
 for

@@ -40,8 +40,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -53,7 +51,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -82,8 +80,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -96,7 +92,7 @@ VALUES
 ?
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -134,8 +130,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 INSERT
 INTO
@@ -149,7 +143,7 @@ VALUES
 id
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -195,12 +189,10 @@ params
 >
 BindInt32ByName
 (
-NS_LITERAL_CSTRING
-(
 "
 id
 "
-)
+_ns
 2
 )
 ;
@@ -256,15 +248,13 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 SELECT
 *
 FROM
 test
 "
-)
+_ns
 getter_AddRefs
 (
 syncStmt
@@ -350,8 +340,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -363,7 +351,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 asyncStmt
@@ -426,8 +414,6 @@ db
 >
 CreateStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -439,7 +425,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 syncStmt
@@ -553,12 +539,10 @@ db
 >
 TableExists
 (
-NS_LITERAL_CSTRING
-(
 "
 asyncTable
 "
-)
+_ns
 &
 exists
 )
@@ -583,12 +567,10 @@ db
 >
 TableExists
 (
-NS_LITERAL_CSTRING
-(
 "
 syncTable
 "
-)
+_ns
 &
 exists
 )
@@ -661,8 +643,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -674,7 +654,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

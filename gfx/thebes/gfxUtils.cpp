@@ -7622,15 +7622,13 @@ status
 WorkerMainThreadRunnable
 (
 workerPrivate
-NS_LITERAL_CSTRING
-(
 "
 GFX
 :
 :
 GetFeatureStatus
 "
-)
+_ns
 )
 mGfxInfo
 (
@@ -8156,8 +8154,6 @@ SetString
 GFX_SHADER_CHECK_DRIVER_VERSION_PREF
 driverVersion
 )
-;
-return
 ;
 }
 bool

@@ -526,12 +526,11 @@ contentChild
 >
 SendNotifyBenchmarkResult
 (
-NS_LITERAL_STRING
-(
+u
 "
 VP9
 "
-)
+_ns
 aDecodeFps
 )
 ;

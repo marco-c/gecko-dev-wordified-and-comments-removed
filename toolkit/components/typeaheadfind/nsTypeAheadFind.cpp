@@ -1445,7 +1445,7 @@ getter_AddRefs
 (
 soundURI
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 TYPEAHEADFIND_NOTFOUND_WAV_URL
 )
@@ -3911,12 +3911,11 @@ nsGkAtoms
 :
 :
 type
-NS_LITERAL_STRING
-(
+u
 "
 simple
 "
-)
+_ns
 eCaseMatters
 )
 )

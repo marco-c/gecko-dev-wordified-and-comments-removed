@@ -1099,12 +1099,11 @@ APZCCallbackHelper
 DispatchMouseEvent
 (
 aPresShell
-NS_LITERAL_STRING
-(
+u
 "
 contextmenu
 "
-)
+_ns
 point
 2
 1

@@ -726,13 +726,11 @@ CSS_CUSTOM_NAME_PREFIX_LENGTH
 StringBeginsWith
 (
 aProperty
-NS_LITERAL_CSTRING
-(
 "
 -
 -
 "
-)
+_ns
 )
 ;
 }

@@ -130,14 +130,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 ffmpeg
 audio
 decoder
 "
-)
+_ns
 ;
 }
 private

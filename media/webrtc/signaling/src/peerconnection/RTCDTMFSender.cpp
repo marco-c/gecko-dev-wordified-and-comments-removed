@@ -695,12 +695,11 @@ RTCDTMFToneChangeEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 tonechange
 "
-)
+_ns
 init
 )
 ;

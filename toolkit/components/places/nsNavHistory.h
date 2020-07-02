@@ -1612,7 +1612,7 @@ return
 StringBeginsWith
 (
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PLACES_URI_PREFIX
 )
@@ -1651,7 +1651,7 @@ return
 Substring
 (
 uri
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 PLACES_URI_PREFIX
 )

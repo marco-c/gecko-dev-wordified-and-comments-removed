@@ -1545,12 +1545,11 @@ workerPrivate
 >
 SendLifeCycleEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 activate
 "
-)
+_ns
 callback
 )
 ;

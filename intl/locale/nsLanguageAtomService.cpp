@@ -931,14 +931,12 @@ if
 (
 FindInReadable
 (
-NS_LITERAL_CSTRING
-(
 "
 -
 x
 -
 "
-)
+_ns
 start
 end
 )

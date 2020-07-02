@@ -130,12 +130,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGInnerSVG
 "
-)
+_ns
 aResult
 )
 ;

@@ -370,12 +370,11 @@ const
 nsAString
 &
 =
-NS_LITERAL_STRING
-(
+u
 "
 scriptCache
 "
-)
+_ns
 )
 ;
 Result

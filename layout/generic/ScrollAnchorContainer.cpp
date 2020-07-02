@@ -1517,12 +1517,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 Layout
 "
-)
+_ns
 Frame
 (
 )

@@ -3036,13 +3036,11 @@ nsDependentCString
 (
 zName
 )
-NS_LITERAL_CSTRING
-(
 "
 -
 wal
 "
-)
+_ns
 )
 )
 {

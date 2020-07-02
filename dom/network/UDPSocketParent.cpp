@@ -2859,14 +2859,12 @@ Unused
 <
 SendCallbackError
 (
-NS_LITERAL_CSTRING
-(
 "
 Internal
 error
 "
-)
-NS_LITERAL_CSTRING
+_ns
+nsLiteralCString
 (
 __FILE__
 )

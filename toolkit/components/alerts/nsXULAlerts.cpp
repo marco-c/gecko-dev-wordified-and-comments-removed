@@ -1944,12 +1944,11 @@ domWindow
 >
 DispatchCustomEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 XULAlertClose
 "
-)
+_ns
 ChromeOnlyDispatch
 :
 :

@@ -1240,11 +1240,10 @@ ext
 >
 GetURL
 (
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 )
 )
 ;
@@ -1333,8 +1332,6 @@ path
 KIND_NONHEAP
 UNITS_COUNT
 1
-NS_LITERAL_CSTRING
-(
 "
 WebExtensions
 that
@@ -1344,7 +1341,7 @@ in
 this
 session
 "
-)
+_ns
 aData
 )
 ;
@@ -1705,12 +1702,11 @@ mm
 >
 AddSystemEventListener
 (
-NS_LITERAL_STRING
-(
+u
 "
 unload
 "
-)
+_ns
 this
 false
 false

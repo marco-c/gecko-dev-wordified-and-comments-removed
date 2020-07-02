@@ -2902,12 +2902,11 @@ SecurityPolicyViolationEvent
 Constructor
 (
 doc
-NS_LITERAL_STRING
-(
+u
 "
 securitypolicyviolation
 "
-)
+_ns
 violationEvent
 )
 ;

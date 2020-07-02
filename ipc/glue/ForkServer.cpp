@@ -1567,12 +1567,10 @@ reset
 ;
 MOZ_ASSERT
 (
-NS_LITERAL_CSTRING
-(
 "
 tab
 "
-)
+_ns
 =
 =
 (

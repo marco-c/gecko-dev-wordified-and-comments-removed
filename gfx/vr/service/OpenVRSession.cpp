@@ -8678,12 +8678,10 @@ mHapticThread
 new
 VRThread
 (
-NS_LITERAL_CSTRING
-(
 "
 VR_OpenVR_Haptics
 "
-)
+_ns
 )
 ;
 }

@@ -2048,12 +2048,10 @@ ReportToConsoleNonLocalized
 (
 mMessage
 mFlags
-NS_LITERAL_CSTRING
-(
 "
 Push
 "
-)
+_ns
 nullptr
 nullptr
 EmptyString
@@ -2219,12 +2217,10 @@ ReportToConsoleNonLocalized
 (
 mMessage
 mFlags
-NS_LITERAL_CSTRING
-(
 "
 Push
 "
-)
+_ns
 nullptr
 scopeURI
 EmptyString

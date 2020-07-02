@@ -130,12 +130,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGSymbol
 "
-)
+_ns
 aResult
 )
 ;

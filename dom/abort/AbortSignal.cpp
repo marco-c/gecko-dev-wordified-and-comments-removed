@@ -305,12 +305,11 @@ Event
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 abort
 "
-)
+_ns
 init
 )
 ;

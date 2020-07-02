@@ -3896,7 +3896,7 @@ tmpStream
 forget
 (
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 UNKNOWN_CONTENT_TYPE
 )

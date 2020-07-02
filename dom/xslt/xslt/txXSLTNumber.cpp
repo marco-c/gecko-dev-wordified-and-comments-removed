@@ -1498,12 +1498,11 @@ txFormattedCounter
 :
 getCounterFor
 (
-NS_LITERAL_STRING
-(
+u
 "
 1
 "
-)
+_ns
 groupSize
 groupSeparator
 defaultCounter

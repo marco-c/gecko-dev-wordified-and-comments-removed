@@ -9072,12 +9072,11 @@ NotifyMozMouseScrollEvent
 GetScrollId
 (
 )
-NS_LITERAL_STRING
-(
+u
 "
 MozMouseScrollFailed
 "
-)
+_ns
 )
 ;
 }

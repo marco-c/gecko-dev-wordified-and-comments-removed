@@ -623,12 +623,10 @@ i
 .
 Find
 (
-NS_LITERAL_CSTRING
-(
 "
 #
 "
-)
+_ns
 )
 =
 =

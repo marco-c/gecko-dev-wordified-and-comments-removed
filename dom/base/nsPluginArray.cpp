@@ -1067,12 +1067,11 @@ HiddenPluginEvent
 Constructor
 (
 doc
-NS_LITERAL_STRING
-(
+u
 "
 HiddenPlugin
 "
-)
+_ns
 init
 )
 ;

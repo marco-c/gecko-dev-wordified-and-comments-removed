@@ -34,12 +34,10 @@ nsHttpRequestHead
 :
 mMethod
 (
-NS_LITERAL_CSTRING
-(
 "
 GET
 "
-)
+_ns
 )
 mVersion
 (

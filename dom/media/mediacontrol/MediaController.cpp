@@ -1697,12 +1697,11 @@ new
 AsyncEventDispatcher
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 supportedkeyschange
 "
-)
+_ns
 CanBubble
 :
 :

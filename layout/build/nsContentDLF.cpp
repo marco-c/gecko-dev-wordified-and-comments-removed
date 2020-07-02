@@ -525,7 +525,7 @@ viewSourceChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 TEXT_PLAIN
 )
@@ -549,7 +549,7 @@ aChannel
 >
 SetContentType
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 TEXT_PLAIN
 )
@@ -1107,14 +1107,12 @@ getter_AddRefs
 (
 uri
 )
-NS_LITERAL_CSTRING
-(
 "
 about
 :
 blank
 "
-)
+_ns
 )
 ;
 if

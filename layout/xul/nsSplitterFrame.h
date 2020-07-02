@@ -102,12 +102,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SplitterFrame
 "
-)
+_ns
 aResult
 )
 ;

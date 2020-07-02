@@ -11683,12 +11683,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 CSS
 "
-)
+_ns
 mDocument
 nsContentUtils
 :

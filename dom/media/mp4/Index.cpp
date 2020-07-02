@@ -667,12 +667,11 @@ mCrypto
 .
 mInitDataType
 =
-NS_LITERAL_STRING
-(
+u
 "
 cenc
 "
-)
+_ns
 ;
 }
 }
@@ -1687,7 +1686,7 @@ mozilla
 :
 Err
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Could
@@ -1746,7 +1745,7 @@ mozilla
 :
 Err
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Could
@@ -1801,7 +1800,7 @@ mozilla
 :
 Err
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Could
@@ -1896,7 +1895,7 @@ mozilla
 :
 Err
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Could

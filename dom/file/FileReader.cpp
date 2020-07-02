@@ -2730,12 +2730,11 @@ rv
 =
 DispatchProgressEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 progress
 "
-)
+_ns
 )
 ;
 NS_ENSURE_SUCCESS

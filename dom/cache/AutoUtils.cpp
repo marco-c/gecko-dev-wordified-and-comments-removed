@@ -1189,12 +1189,10 @@ cachedResponseHeaders
 >
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 vary
 "
-)
+_ns
 varyHeaders
 rv
 )

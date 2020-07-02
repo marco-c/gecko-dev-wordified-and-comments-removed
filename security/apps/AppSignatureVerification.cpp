@@ -1744,7 +1744,7 @@ rv
 CheckManifestVersion
 (
 nextLineStart
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_SF_HEADER
 )
@@ -1976,7 +1976,7 @@ rv
 CheckManifestVersion
 (
 nextLineStart
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_MF_HEADER
 )
@@ -4365,7 +4365,7 @@ rv
 FindAndLoadOneEntry
 (
 aZip
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_COSE_SEARCH_STRING
 )
@@ -4400,7 +4400,7 @@ rv
 FindAndLoadOneEntry
 (
 aZip
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_COSE_MF_SEARCH_STRING
 )
@@ -4660,7 +4660,7 @@ rv
 FindAndLoadOneEntry
 (
 aZip
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_SF_SEARCH_STRING
 )
@@ -4854,7 +4854,7 @@ rv
 FindAndLoadOneEntry
 (
 aZip
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 JAR_MF_SEARCH_STRING
 )

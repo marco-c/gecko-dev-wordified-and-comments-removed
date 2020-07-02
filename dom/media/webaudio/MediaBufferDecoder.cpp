@@ -3788,12 +3788,10 @@ nsIScriptError
 :
 :
 errorFlag
-NS_LITERAL_CSTRING
-(
 "
 Media
 "
-)
+_ns
 doc
 nsContentUtils
 :

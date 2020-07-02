@@ -3156,12 +3156,11 @@ ScalarID
 :
 :
 UI_DOWNLOAD_BUTTON_ACTIVATED
-NS_LITERAL_STRING
-(
+u
 "
 touchscreen
 "
-)
+_ns
 1
 )
 ;

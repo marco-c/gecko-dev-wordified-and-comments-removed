@@ -211,14 +211,12 @@ mozilla
 define
 IDEOGRAPHIC_SPACE
 (
-NS_LITERAL_STRING
-(
 u
 "
 \
 x3000
 "
-)
+_ns
 )
 bool
 TextComposition

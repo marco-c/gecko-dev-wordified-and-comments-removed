@@ -731,12 +731,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 DOM
 "
-)
+_ns
 document
 nsContentUtils
 :

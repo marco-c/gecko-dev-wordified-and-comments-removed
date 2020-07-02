@@ -256,15 +256,13 @@ if
 StringBeginsWith
 (
 proxyHost
-NS_LITERAL_CSTRING
-(
 "
 file
 :
 /
 /
 "
-)
+_ns
 )
 )
 {

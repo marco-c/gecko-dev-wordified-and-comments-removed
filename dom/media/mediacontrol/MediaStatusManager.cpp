@@ -1147,7 +1147,7 @@ getter_AddRefs
 (
 faviconURI
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 FAVICON_DEFAULT_URL
 )
@@ -1156,11 +1156,10 @@ FAVICON_DEFAULT_URL
 NS_ENSURE_SUCCESS
 (
 rv
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 )
 ;
 nsCOMPtr

@@ -16260,12 +16260,10 @@ header
 )
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 Referer
 "
-)
+_ns
 .
 Equals
 (
@@ -17418,12 +17416,10 @@ nsIScriptError
 :
 :
 errorFlag
-NS_LITERAL_CSTRING
-(
 "
 MIMEMISMATCH
 "
-)
+_ns
 doc
 nsContentUtils
 :

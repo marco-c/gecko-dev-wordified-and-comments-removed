@@ -47,8 +47,6 @@ platform
 >
 SupportsMimeType
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -56,7 +54,7 @@ mp4a
 -
 latm
 "
-)
+_ns
 nullptr
 )
 ;
@@ -217,8 +215,6 @@ AppendElement
 (
 CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -226,7 +222,7 @@ mp4a
 -
 latm
 "
-)
+_ns
 aType
 )
 )

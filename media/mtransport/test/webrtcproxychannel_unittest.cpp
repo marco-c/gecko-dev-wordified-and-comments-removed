@@ -2048,12 +2048,10 @@ mProxyCallbacks
 >
 OnConnected
 (
-NS_LITERAL_CSTRING
-(
 "
 http
 "
-)
+_ns
 )
 ;
 }

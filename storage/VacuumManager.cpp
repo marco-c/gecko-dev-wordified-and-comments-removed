@@ -917,12 +917,10 @@ mDBConn
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 VACUUM
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

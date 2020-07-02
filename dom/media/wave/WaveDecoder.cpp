@@ -281,8 +281,6 @@ AppendElement
 (
 CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -290,7 +288,7 @@ x
 -
 wav
 "
-)
+_ns
 aType
 )
 )
@@ -319,8 +317,6 @@ AppendElement
 (
 CreateTrackInfoWithMIMETypeAndContainerTypeExtraParameters
 (
-NS_LITERAL_CSTRING
-(
 "
 audio
 /
@@ -329,7 +325,7 @@ wave
 codecs
 =
 "
-)
+_ns
 +
 NS_ConvertUTF16toUTF8
 (

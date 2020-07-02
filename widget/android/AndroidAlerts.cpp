@@ -657,12 +657,10 @@ aCookie
 ;
 if
 (
-NS_LITERAL_CSTRING
-(
 "
 alertfinished
 "
-)
+_ns
 .
 Equals
 (

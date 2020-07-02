@@ -754,12 +754,11 @@ MIDIConnectionEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 statechange
 "
-)
+_ns
 init
 )
 ;

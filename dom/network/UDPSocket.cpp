@@ -2993,12 +2993,11 @@ UDPMessageEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 message
 "
-)
+_ns
 init
 )
 ;

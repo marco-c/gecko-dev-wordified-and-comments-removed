@@ -90,8 +90,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -103,7 +101,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt
@@ -213,8 +211,6 @@ db
 >
 CreateAsyncStatement
 (
-NS_LITERAL_CSTRING
-(
 "
 CREATE
 TABLE
@@ -226,7 +222,7 @@ PRIMARY
 KEY
 )
 "
-)
+_ns
 getter_AddRefs
 (
 stmt

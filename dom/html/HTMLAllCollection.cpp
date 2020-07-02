@@ -357,12 +357,11 @@ document
 >
 GetElementsByTagName
 (
-NS_LITERAL_STRING
-(
+u
 "
 *
 "
-)
+_ns
 )
 ;
 MOZ_ASSERT

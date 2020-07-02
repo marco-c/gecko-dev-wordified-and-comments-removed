@@ -1237,12 +1237,11 @@ md
 >
 DispatchTrustedEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 devicechange
 "
-)
+_ns
 )
 ;
 md

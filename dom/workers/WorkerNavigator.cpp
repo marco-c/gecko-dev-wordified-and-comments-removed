@@ -661,13 +661,11 @@ aUA
 WorkerMainThreadRunnable
 (
 aWorkerPrivate
-NS_LITERAL_CSTRING
-(
 "
 UserAgent
 getter
 "
-)
+_ns
 )
 mUA
 (

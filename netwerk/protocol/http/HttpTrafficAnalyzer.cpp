@@ -67,7 +67,7 @@ DEFINE_CATEGORY
 _name
 _idx
 )
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 "
 Y
@@ -1007,12 +1007,10 @@ Telemetry
 :
 AccumulateCategoricalKeyed
 (
-NS_LITERAL_CSTRING
-(
 "
 Transaction
 "
-)
+_ns
 gTelemetryLabel
 [
 aCategory
@@ -1106,12 +1104,10 @@ Telemetry
 :
 AccumulateCategoricalKeyed
 (
-NS_LITERAL_CSTRING
-(
 "
 Connection
 "
-)
+_ns
 gTelemetryLabel
 [
 aCategory

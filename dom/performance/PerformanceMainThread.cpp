@@ -511,12 +511,11 @@ event
 >
 InitEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 resourcetimingbufferfull
 "
-)
+_ns
 true
 false
 )

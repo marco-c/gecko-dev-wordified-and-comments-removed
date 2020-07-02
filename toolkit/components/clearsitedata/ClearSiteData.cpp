@@ -950,8 +950,6 @@ aChannel
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Clear
 -
@@ -959,7 +957,7 @@ Site
 -
 Data
 "
-)
+_ns
 headerValue
 )
 ;
@@ -1319,8 +1317,6 @@ nsIScriptError
 :
 :
 infoFlag
-NS_LITERAL_CSTRING
-(
 "
 Clear
 -
@@ -1328,7 +1324,7 @@ Site
 -
 Data
 "
-)
+_ns
 nsContentUtils
 :
 :

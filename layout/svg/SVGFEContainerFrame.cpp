@@ -190,12 +190,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGFEContainer
 "
-)
+_ns
 aResult
 )
 ;

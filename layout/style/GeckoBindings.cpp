@@ -8247,14 +8247,12 @@ getter_AddRefs
 (
 uri
 )
-NS_LITERAL_CSTRING
-(
 "
 about
 :
 invalid
 "
-)
+_ns
 )
 ;
 }

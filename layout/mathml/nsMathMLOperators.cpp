@@ -1241,8 +1241,6 @@ getter_AddRefs
 (
 mathfontProp
 )
-NS_LITERAL_CSTRING
-(
 "
 resource
 :
@@ -1258,7 +1256,7 @@ mathfont
 .
 properties
 "
-)
+_ns
 )
 ;
 if

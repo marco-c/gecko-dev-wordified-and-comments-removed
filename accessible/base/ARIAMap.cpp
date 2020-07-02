@@ -3090,13 +3090,12 @@ if
 StringBeginsWith
 (
 attrStr
-NS_LITERAL_STRING
-(
+u
 "
 aria
 -
 "
-)
+_ns
 )
 )
 continue

@@ -214,11 +214,9 @@ mThreadId
 *
 mProfileBuffer
 aWriter
-NS_LITERAL_CSTRING
-(
 "
 "
-)
+_ns
 aProcessStartTime
 mozilla
 :

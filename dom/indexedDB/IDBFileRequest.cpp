@@ -294,12 +294,11 @@ ProgressEvent
 Constructor
 (
 this
-NS_LITERAL_STRING
-(
+u
 "
 progress
 "
-)
+_ns
 init
 )
 ;

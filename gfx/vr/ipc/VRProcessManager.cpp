@@ -356,12 +356,10 @@ Annotation
 :
 :
 VRProcessStatus
-NS_LITERAL_CSTRING
-(
 "
 Destroyed
 "
-)
+_ns
 )
 ;
 }
@@ -547,12 +545,10 @@ Annotation
 :
 :
 VRProcessStatus
-NS_LITERAL_CSTRING
-(
 "
 Running
 "
-)
+_ns
 )
 ;
 }

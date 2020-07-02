@@ -298,12 +298,11 @@ override
 return
 MakeFrameName
 (
-NS_LITERAL_STRING
-(
+u
 "
 SVGForeignObject
 "
-)
+_ns
 aResult
 )
 ;

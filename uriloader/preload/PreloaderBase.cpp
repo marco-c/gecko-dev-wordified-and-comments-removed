@@ -1459,12 +1459,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 DOM
 "
-)
+_ns
 mDocument
 nsContentUtils
 :

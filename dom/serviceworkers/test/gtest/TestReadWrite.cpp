@@ -684,7 +684,7 @@ ASSERT_TRUE
 (
 CreateFile
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SERVICEWORKERREGISTRAR_VERSION
 "
@@ -795,7 +795,7 @@ ASSERT_TRUE
 (
 CreateFile
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SERVICEWORKERREGISTRAR_VERSION
 "
@@ -1817,12 +1817,10 @@ ASSERT_TRUE
 (
 CreateFile
 (
-NS_LITERAL_CSTRING
-(
 "
 Foobar
 "
-)
+_ns
 )
 )
 <
@@ -8184,8 +8182,6 @@ scope
 (
 )
 =
-NS_LITERAL_CSTRING
-(
 "
 https
 :
@@ -8195,7 +8191,7 @@ scope_write
 .
 dedupe
 "
-)
+_ns
 ;
 reg
 .

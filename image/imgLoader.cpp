@@ -1692,13 +1692,11 @@ aSharedSurfaces
 nsAutoCString
 pathPrefix
 (
-NS_LITERAL_CSTRING
-(
 "
 explicit
 /
 "
-)
+_ns
 )
 ;
 pathPrefix
@@ -13556,12 +13554,11 @@ timedChannel
 >
 SetInitiatorType
 (
-NS_LITERAL_STRING
-(
+u
 "
 img
 "
-)
+_ns
 )
 ;
 }
@@ -13592,8 +13589,6 @@ IsEmpty
 {
 if
 (
-NS_LITERAL_CSTRING
-(
 "
 multipart
 /
@@ -13603,7 +13598,7 @@ mixed
 -
 replace
 "
-)
+_ns
 .
 Equals
 (

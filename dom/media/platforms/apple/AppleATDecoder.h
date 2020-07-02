@@ -133,14 +133,12 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 apple
 coremedia
 decoder
 "
-)
+_ns
 ;
 }
 const

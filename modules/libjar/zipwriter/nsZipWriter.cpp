@@ -3780,12 +3780,10 @@ Assign
 (
 aZipEntry
 +
-NS_LITERAL_CSTRING
-(
 "
 /
 "
-)
+_ns
 )
 ;
 rv

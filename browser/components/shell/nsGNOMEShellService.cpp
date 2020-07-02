@@ -2195,7 +2195,7 @@ gsettings
 >
 GetCollectionForSchema
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopBGSchema
 )
@@ -2238,7 +2238,7 @@ background_settings
 >
 SetString
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopOptionGSKey
 )
@@ -2250,7 +2250,7 @@ background_settings
 >
 SetString
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopImageGSKey
 )
@@ -2270,7 +2270,7 @@ background_settings
 >
 SetBoolean
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopDrawBGGSKey
 )
@@ -2359,7 +2359,7 @@ gsettings
 >
 GetCollectionForSchema
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopBGSchema
 )
@@ -2379,7 +2379,7 @@ background_settings
 >
 GetString
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopColorGSKey
 )
@@ -2617,7 +2617,7 @@ gsettings
 >
 GetCollectionForSchema
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopBGSchema
 )
@@ -2637,7 +2637,7 @@ background_settings
 >
 SetString
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 kDesktopColorGSKey
 )

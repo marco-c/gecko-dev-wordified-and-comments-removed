@@ -86733,12 +86733,10 @@ ReportCrossOriginDenial
 (
 cx
 id
-NS_LITERAL_CSTRING
-(
 "
 delete
 "
-)
+_ns
 )
 ;
                 

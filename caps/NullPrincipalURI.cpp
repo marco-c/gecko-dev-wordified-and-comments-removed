@@ -532,7 +532,7 @@ _prePath
 {
 _prePath
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NULLPRINCIPAL_SCHEME
 "
@@ -586,7 +586,7 @@ _scheme
 {
 _scheme
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NULLPRINCIPAL_SCHEME
 )
@@ -624,7 +624,7 @@ _spec
 {
 _spec
 =
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NULLPRINCIPAL_SCHEME
 "

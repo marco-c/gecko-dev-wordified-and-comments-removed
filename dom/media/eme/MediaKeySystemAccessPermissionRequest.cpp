@@ -122,8 +122,6 @@ GetPrincipal
 (
 )
 aWindow
-NS_LITERAL_CSTRING
-(
 "
 media
 .
@@ -135,9 +133,7 @@ app
 -
 approval
 "
-)
-NS_LITERAL_CSTRING
-(
+_ns
 "
 media
 -
@@ -147,7 +143,7 @@ system
 -
 access
 "
-)
+_ns
 )
 {
 }

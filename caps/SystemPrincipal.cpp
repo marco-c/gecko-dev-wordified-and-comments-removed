@@ -121,7 +121,7 @@ sp
 >
 FinishInit
 (
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 SYSTEM_PRINCIPAL_SPEC
 )

@@ -173,12 +173,10 @@ scheme
 .
 Equals
 (
-NS_LITERAL_CSTRING
-(
 "
 unsupported
 "
-)
+_ns
 )
 &
 &
@@ -187,12 +185,10 @@ scheme
 .
 Equals
 (
-NS_LITERAL_CSTRING
-(
 "
 unknownextproto
 "
-)
+_ns
 )
 ;
 return

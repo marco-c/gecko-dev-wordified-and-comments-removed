@@ -310,12 +310,10 @@ aHeaders
 >
 Get
 (
-NS_LITERAL_CSTRING
-(
 "
 vary
 "
-)
+_ns
 varyHeaders
 rv
 )
@@ -1603,11 +1601,10 @@ cacheName
 (
 )
 =
-NS_LITERAL_STRING
-(
+u
 "
 "
-)
+_ns
 ;
 }
 }

@@ -10208,12 +10208,10 @@ Telemetry
 :
 :
 VIDEO_SUSPEND_RECOVERY_TIME_MS
-NS_LITERAL_CSTRING
-(
 "
 All
 "
-)
+_ns
 uint32_t
 (
 duration_ms

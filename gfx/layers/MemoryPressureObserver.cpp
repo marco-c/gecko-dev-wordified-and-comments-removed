@@ -268,8 +268,7 @@ if
 StringBeginsWith
 (
 reason_string
-NS_LITERAL_STRING
-(
+u
 "
 low
 -
@@ -277,7 +276,7 @@ memory
 -
 ongoing
 "
-)
+_ns
 )
 )
 {
@@ -295,14 +294,13 @@ if
 StringBeginsWith
 (
 reason_string
-NS_LITERAL_STRING
-(
+u
 "
 heap
 -
 minimize
 "
-)
+_ns
 )
 )
 {

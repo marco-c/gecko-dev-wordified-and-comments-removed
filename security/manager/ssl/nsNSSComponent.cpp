@@ -2416,14 +2416,13 @@ sidKey
 >
 ReadIntValue
 (
-NS_LITERAL_STRING
-(
+u
 "
 Parental
 Controls
 On
 "
-)
+_ns
 &
 parentalControlsOn
 )
@@ -12717,8 +12716,6 @@ icos
 >
 ClearValidityOverride
 (
-NS_LITERAL_CSTRING
-(
 "
 all
 :
@@ -12726,7 +12723,7 @@ temporary
 -
 certificates
 "
-)
+_ns
 0
 )
 ;

@@ -5467,12 +5467,11 @@ localDir
 >
 Append
 (
-NS_LITERAL_STRING
-(
+u
 "
 fonts
 "
-)
+_ns
 )
 )
 )

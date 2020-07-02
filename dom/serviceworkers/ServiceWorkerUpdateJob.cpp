@@ -1950,12 +1950,11 @@ workerPrivate
 >
 SendLifeCycleEvent
 (
-NS_LITERAL_STRING
-(
+u
 "
 install
 "
-)
+_ns
 callback
 )
 ;

@@ -4255,15 +4255,13 @@ nullptr
 nsCString
 alpn
 =
-NS_LITERAL_CSTRING
-(
 "
 webrtc
 c
 -
 webrtc
 "
-)
+_ns
 ;
 auto
 browserChild

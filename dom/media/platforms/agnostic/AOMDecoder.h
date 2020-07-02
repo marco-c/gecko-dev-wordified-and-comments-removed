@@ -127,15 +127,13 @@ const
 override
 {
 return
-NS_LITERAL_CSTRING
-(
 "
 av1
 libaom
 video
 decoder
 "
-)
+_ns
 ;
 }
 static

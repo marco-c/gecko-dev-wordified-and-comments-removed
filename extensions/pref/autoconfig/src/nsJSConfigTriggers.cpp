@@ -675,8 +675,9 @@ nsContentUtils
 :
 ReportToConsoleNonLocalized
 (
-NS_LITERAL_STRING
+nsLiteralString
 (
+u
 "
 Your
 AutoConfig
@@ -698,12 +699,10 @@ nsIScriptError
 :
 :
 warningFlag
-NS_LITERAL_CSTRING
-(
 "
 autoconfig
 "
-)
+_ns
 nullptr
 )
 ;

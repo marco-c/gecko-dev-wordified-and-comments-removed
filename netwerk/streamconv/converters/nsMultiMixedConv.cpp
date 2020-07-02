@@ -1573,14 +1573,12 @@ httpChannel
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 content
 -
 type
 "
-)
+_ns
 contentType
 )
 ;
@@ -1606,8 +1604,6 @@ httpChannel
 >
 GetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 content
 -
@@ -1615,7 +1611,7 @@ security
 -
 policy
 "
-)
+_ns
 csp
 )
 ;
@@ -1986,13 +1982,11 @@ mTokenizer
 .
 AddCustomToken
 (
-NS_LITERAL_CSTRING
-(
 "
 -
 -
 "
-)
+_ns
 +
 mBoundary
 mTokenizer
@@ -4164,8 +4158,6 @@ httpChannel
 >
 SetResponseHeader
 (
-NS_LITERAL_CSTRING
-(
 "
 Content
 -
@@ -4173,7 +4165,7 @@ Security
 -
 Policy
 "
-)
+_ns
 resultCSP
 false
 )

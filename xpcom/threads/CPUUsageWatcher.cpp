@@ -1025,12 +1025,11 @@ aAnnotations
 .
 AddAnnotation
 (
-NS_LITERAL_STRING
-(
+u
 "
 ExternalCPUHigh
 "
-)
+_ns
 true
 )
 ;

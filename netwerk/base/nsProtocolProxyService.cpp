@@ -1240,13 +1240,11 @@ mProxyInfo
 {
 mPACString
 =
-NS_LITERAL_CSTRING
-(
 "
 DIRECT
 ;
 "
-)
+_ns
 ;
 mStatus
 =

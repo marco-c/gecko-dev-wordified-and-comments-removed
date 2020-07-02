@@ -445,7 +445,7 @@ if
 pref
 &
 &
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NET_PREF_EXTRAALLOWED
 )
@@ -467,7 +467,7 @@ if
 pref
 &
 &
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NET_PREF_EXTRABLOCKED
 )
@@ -490,7 +490,7 @@ if
 pref
 |
 |
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NET_PREF_SHOWPUNYCODE
 )
@@ -530,7 +530,7 @@ if
 pref
 |
 |
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NET_PREF_IDNUSEWHITELIST
 )
@@ -570,7 +570,7 @@ if
 pref
 |
 |
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 NS_NET_PREF_IDNRESTRICTION
 )

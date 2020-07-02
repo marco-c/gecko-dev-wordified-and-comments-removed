@@ -740,12 +740,11 @@ if
 StringBeginsWith
 (
 aType
-NS_LITERAL_STRING
-(
+u
 "
 on
 "
-)
+_ns
 )
 )
 {

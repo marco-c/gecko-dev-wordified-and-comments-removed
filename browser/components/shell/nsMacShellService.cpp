@@ -166,9 +166,6 @@ SetDesktopImage
 #
 define
 NETWORK_PREFPANE
-\
-NS_LITERAL_CSTRING
-(
 "
 /
 System
@@ -181,12 +178,12 @@ Network
 .
 prefPane
 "
-)
+_ns
 #
 define
 DESKTOP_PREFPANE
 \
-NS_LITERAL_CSTRING
+nsLiteralCString
 (
 \
 "

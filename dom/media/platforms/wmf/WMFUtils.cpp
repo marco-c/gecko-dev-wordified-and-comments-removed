@@ -832,8 +832,7 @@ programPath
 )
 {
 return
-NS_LITERAL_STRING
-(
+u
 "
 C
 :
@@ -842,7 +841,7 @@ C
 Program
 Files
 "
-)
+_ns
 ;
 }
 return

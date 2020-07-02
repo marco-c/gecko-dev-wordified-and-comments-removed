@@ -930,12 +930,10 @@ GetFailureId
 (
 )
 :
-NS_LITERAL_CSTRING
-(
 "
 FEATURE_FAILURE_NO_ATTACHMENTS
 "
-)
+_ns
 ;
 return
 false
