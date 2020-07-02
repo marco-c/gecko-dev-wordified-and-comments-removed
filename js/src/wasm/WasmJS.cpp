@@ -4313,9 +4313,7 @@ cx
 HandleObject
 obj
 uint32_t
-maxInitial
-uint32_t
-maxMaximum
+maximumField
 const
 char
 *
@@ -4429,7 +4427,7 @@ limits
 >
 initial
 >
-maxInitial
+maximumField
 )
 {
 JS_ReportErrorNumberUTF8
@@ -4565,7 +4563,7 @@ limits
 >
 maximum
 >
-maxMaximum
+maximumField
 |
 |
 limits
@@ -10822,7 +10820,6 @@ GetLimits
 cx
 obj
 MaxMemoryLimitField
-MaxMemoryLimitField
 "
 Memory
 "
@@ -13209,7 +13206,6 @@ GetLimits
 (
 cx
 obj
-MaxTableLimitField
 MaxTableLimitField
 "
 Table
