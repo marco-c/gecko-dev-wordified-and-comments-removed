@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 origin
 "
@@ -28,6 +29,7 @@ GET
 .
 first
 (
+b
 "
 value
 "
@@ -42,9 +44,11 @@ GET
 .
 first
 (
+b
 "
 loadShouldSucceed
 "
+b
 "
 false
 "
@@ -55,11 +59,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -68,6 +74,7 @@ html
 )
 ]
             
+b
 "
 "
 "

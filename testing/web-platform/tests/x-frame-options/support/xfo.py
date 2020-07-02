@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -22,6 +24,7 @@ html
 "
 )
 (
+b
 "
 X
 -
@@ -35,6 +38,7 @@ GET
 .
 first
 (
+b
 "
 value
 "
@@ -43,6 +47,7 @@ value
 ]
     
 if
+b
 "
 value2
 "
@@ -57,6 +62,7 @@ headers
 append
 (
 (
+b
 "
 X
 -
@@ -70,6 +76,7 @@ GET
 .
 first
 (
+b
 "
 value2
 "
@@ -78,6 +85,7 @@ value2
 )
     
 if
+b
 "
 csp_value
 "
@@ -92,6 +100,7 @@ headers
 append
 (
 (
+b
 "
 Content
 -
@@ -105,6 +114,7 @@ GET
 .
 first
 (
+b
 "
 csp_value
 "
@@ -114,6 +124,7 @@ csp_value
     
 body
 =
+u
 "
 "
 "

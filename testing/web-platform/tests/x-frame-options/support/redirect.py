@@ -18,6 +18,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -31,6 +32,7 @@ GET
 .
 first
 (
+b
 "
 value
 "
@@ -43,6 +45,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -52,6 +55,7 @@ GET
 .
 first
 (
+b
 "
 url
 "
