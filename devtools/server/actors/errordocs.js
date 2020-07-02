@@ -993,6 +993,11 @@ cookieBlockedForeign
 "
 CookieBlockedForeign
 "
+cookiePartitionedForeign
+:
+"
+CookiePartitionedForeign
+"
 }
 ;
 exports

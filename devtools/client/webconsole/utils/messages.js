@@ -2709,6 +2709,14 @@ category
 "
 cookieBlockedForeign
 "
+|
+|
+category
+=
+=
+"
+cookiePartitionedForeign
+"
 )
 ;
 }
