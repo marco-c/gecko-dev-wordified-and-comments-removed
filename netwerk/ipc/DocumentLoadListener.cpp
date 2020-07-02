@@ -6618,6 +6618,7 @@ isCOOPSwitch
 |
 |
 isLargeAllocSwitch
+0
 )
 -
 >
