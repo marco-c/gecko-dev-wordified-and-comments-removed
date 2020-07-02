@@ -11,11 +11,13 @@ headers
 [
         
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -24,6 +26,7 @@ javascript
 )
         
 (
+b
 "
 Access
 -
@@ -39,6 +42,7 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
@@ -46,6 +50,7 @@ Origin
 )
         
 (
+b
 "
 Timing
 -
@@ -59,6 +64,7 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
@@ -66,6 +72,7 @@ Origin
 )
         
 (
+b
 "
 Access
 -
@@ -75,6 +82,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -84,6 +92,7 @@ true
     
 return
 headers
+u
 "
 /
 /

@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -16,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -43,6 +50,7 @@ status
 =
 (
 404
+u
 "
 Not
 Found
@@ -55,11 +63,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -68,6 +78,7 @@ plain
 )
         
 return
+u
 "
 not
 found
@@ -99,8 +110,12 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 127
 .
@@ -123,6 +138,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -138,11 +154,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -160,11 +178,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 public
 max

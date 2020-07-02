@@ -2,6 +2,7 @@ import
 json
 RESPONSE
 =
+u
 "
 "
 "
@@ -213,11 +214,13 @@ keys
     
 header
 =
+b
 "
 "
 .
 join
 (
+b
 "
 \
 "
@@ -225,6 +228,7 @@ join
 +
 type
 +
+b
 "
 \
 "
@@ -239,6 +243,7 @@ return
 (
 [
 (
+b
 "
 Clear
 -
@@ -250,11 +255,13 @@ header
 )
              
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /

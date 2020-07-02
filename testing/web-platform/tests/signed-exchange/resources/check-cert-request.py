@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -10,6 +16,7 @@ response
     
 CertChainMimeType
 =
+b
 "
 application
 /
@@ -27,6 +34,7 @@ headers
 .
 get
 (
+b
 "
 Accept
 "
@@ -40,6 +48,7 @@ return
 400
 [
 ]
+u
 "
 Bad
 Request
@@ -59,8 +68,12 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 127
 .
@@ -83,6 +96,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -96,6 +110,7 @@ return
 200
 [
 (
+b
 "
 Content
 -
