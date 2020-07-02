@@ -1,6 +1,7 @@
 __all__
 =
 [
+    
 '
 CBaseLoader
 '
@@ -8,9 +9,15 @@ CBaseLoader
 CSafeLoader
 '
 '
+CFullLoader
+'
+'
+CUnsafeLoader
+'
+'
 CLoader
 '
-        
+    
 '
 CBaseDumper
 '
@@ -123,6 +130,82 @@ __init__
 self
 )
 class
+CFullLoader
+(
+CParser
+FullConstructor
+Resolver
+)
+:
+    
+def
+__init__
+(
+self
+stream
+)
+:
+        
+CParser
+.
+__init__
+(
+self
+stream
+)
+        
+FullConstructor
+.
+__init__
+(
+self
+)
+        
+Resolver
+.
+__init__
+(
+self
+)
+class
+CUnsafeLoader
+(
+CParser
+UnsafeConstructor
+Resolver
+)
+:
+    
+def
+__init__
+(
+self
+stream
+)
+:
+        
+CParser
+.
+__init__
+(
+self
+stream
+)
+        
+UnsafeConstructor
+.
+__init__
+(
+self
+)
+        
+Resolver
+.
+__init__
+(
+self
+)
+class
 CLoader
 (
 CParser
@@ -180,7 +263,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -215,6 +298,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -272,6 +358,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver
@@ -300,7 +389,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -335,6 +424,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -392,6 +484,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver
@@ -421,7 +516,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -456,6 +551,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -513,6 +611,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver

@@ -27,7 +27,6 @@ import
 *
 import
 datetime
-sys
 copyreg
 types
 base64
@@ -63,7 +62,10 @@ default_style
 None
 default_flow_style
 =
-None
+False
+sort_keys
+=
+True
 )
 :
         
@@ -72,6 +74,12 @@ self
 default_style
 =
 default_style
+        
+self
+.
+sort_keys
+=
+sort_keys
         
 self
 .
@@ -696,20 +704,26 @@ items
 )
 )
             
-try
+if
+self
+.
+sort_keys
 :
                 
+try
+:
+                    
 mapping
 =
 sorted
 (
 mapping
 )
-            
+                
 except
 TypeError
 :
-                
+                    
 pass
         
 for
@@ -1491,11 +1505,7 @@ cannot
 represent
 an
 object
-:
-%
-s
 "
-%
 data
 )
 SafeRepresenter
@@ -1957,12 +1967,9 @@ RepresenterError
 "
 cannot
 represent
+an
 object
-:
-%
-r
 "
-%
 data
 )
         

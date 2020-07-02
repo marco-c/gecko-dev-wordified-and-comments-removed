@@ -8,6 +8,8 @@ Emitter
 EmitterError
 '
 ]
+import
+sys
 from
 error
 import
@@ -16,6 +18,13 @@ from
 events
 import
 *
+has_ucs4
+=
+sys
+.
+maxunicode
+>
+0xffff
 class
 EmitterError
 (
@@ -4930,7 +4939,7 @@ flow_indicators
 =
 True
         
-preceeded_by_whitespace
+preceded_by_whitespace
 =
 True
         
@@ -5129,7 +5138,7 @@ u
 #
 '
 and
-preceeded_by_whitespace
+preceded_by_whitespace
 :
                     
 flow_indicators
@@ -5233,6 +5242,24 @@ u
 \
 uFFFD
 '
+                        
+or
+(
+u
+'
+\
+U00010000
+'
+<
+=
+ch
+<
+u
+'
+\
+U0010ffff
+'
+)
 )
 and
 ch
@@ -5394,7 +5421,7 @@ index
 =
 1
             
-preceeded_by_whitespace
+preceded_by_whitespace
 =
 (
 ch

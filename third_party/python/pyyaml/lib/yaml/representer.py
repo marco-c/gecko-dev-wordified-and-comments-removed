@@ -26,7 +26,6 @@ import
 import
 datetime
 import
-sys
 copy_reg
 types
 class
@@ -63,7 +62,10 @@ default_style
 None
 default_flow_style
 =
-None
+False
+sort_keys
+=
+True
 )
 :
         
@@ -78,6 +80,12 @@ self
 default_flow_style
 =
 default_flow_style
+        
+self
+.
+sort_keys
+=
+sort_keys
         
 self
 .
@@ -767,6 +775,12 @@ items
 (
 )
             
+if
+self
+.
+sort_keys
+:
+                
 mapping
 .
 sort
@@ -1659,11 +1673,7 @@ cannot
 represent
 an
 object
-:
-%
-s
 "
-%
 data
 )
 SafeRepresenter
@@ -2617,12 +2627,9 @@ RepresenterError
 "
 cannot
 represent
+an
 object
-:
-%
-r
 "
-%
 data
 )
         

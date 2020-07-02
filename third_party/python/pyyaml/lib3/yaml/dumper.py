@@ -52,7 +52,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -87,6 +87,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -151,6 +154,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver
@@ -180,7 +186,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -215,6 +221,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -279,6 +288,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver
@@ -308,7 +320,7 @@ default_style
 None
 default_flow_style
 =
-None
+False
             
 canonical
 =
@@ -343,6 +355,9 @@ None
 tags
 =
 None
+sort_keys
+=
+True
 )
 :
         
@@ -407,6 +422,9 @@ default_style
 default_flow_style
 =
 default_flow_style
+sort_keys
+=
+sort_keys
 )
         
 Resolver

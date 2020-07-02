@@ -286,7 +286,7 @@ config
 =
 yaml
 .
-load
+full_load
 (
 file
 (
