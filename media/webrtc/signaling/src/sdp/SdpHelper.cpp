@@ -1164,7 +1164,7 @@ continue
 const
 SdpMediaSection
 *
-masterBundleMsection
+msection
 (
 FindMsectionByMid
 (
@@ -1181,7 +1181,7 @@ tags
 if
 (
 !
-masterBundleMsection
+msection
 )
 {
 SDP_SET_ERROR
@@ -1232,7 +1232,7 @@ if
 MsectionIsDisabled
 (
 *
-masterBundleMsection
+msection
 )
 )
 {
@@ -1346,7 +1346,7 @@ bundledMids
 mid
 ]
 =
-masterBundleMsection
+msection
 ;
 }
 }
