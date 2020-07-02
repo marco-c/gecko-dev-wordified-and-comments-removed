@@ -5608,6 +5608,14 @@ symbols_file
 symbols_file
 ]
 defines
+                                        
+required_during_compile
+=
+[
+lib
+.
+symbols_file
+]
 )
             
 if

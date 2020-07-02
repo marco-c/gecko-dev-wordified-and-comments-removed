@@ -237,6 +237,20 @@ sources
 ]
 :
         
+if
+mozpath
+.
+basename
+(
+f
+)
+!
+=
+'
+symverscript
+'
+:
+            
 yield
 f
 mozpath
