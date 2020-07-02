@@ -2545,6 +2545,10 @@ ToStringForStringFunction
 JSContext
 *
 cx
+const
+char
+*
+funName
 HandleValue
 thisv
 )
@@ -2679,7 +2683,11 @@ JS_ReportErrorNumberASCII
 cx
 GetErrorMessage
 nullptr
-JSMSG_CANT_CONVERT_TO
+JSMSG_INCOMPATIBLE_PROTO
+"
+String
+"
+funName
 thisv
 .
 isNull
@@ -2692,9 +2700,6 @@ null
 :
 "
 undefined
-"
-"
-object
 "
 )
 ;
@@ -4644,6 +4649,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+toLowerCase
+"
 args
 .
 thisv
@@ -5256,6 +5264,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+toLocaleLowerCase
+"
 args
 .
 thisv
@@ -6986,6 +6997,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+toUpperCase
+"
 args
 .
 thisv
@@ -7442,6 +7456,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+toLocaleUpperCase
+"
 args
 .
 thisv
@@ -7630,6 +7647,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+localeCompare
+"
 args
 .
 thisv
@@ -7823,6 +7843,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+normalize
+"
 args
 .
 thisv
@@ -8588,6 +8611,9 @@ str
 ToStringForStringFunction
 (
 cx
+"
+charAt
+"
 args
 .
 thisv
@@ -8959,6 +8985,9 @@ str
 ToStringForStringFunction
 (
 cx
+"
+charCodeAt
+"
 args
 .
 thisv
@@ -11615,6 +11644,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+includes
+"
 args
 .
 thisv
@@ -11876,6 +11908,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+indexOf
+"
 args
 .
 thisv
@@ -12321,6 +12356,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+lastIndexOf
+"
 args
 .
 thisv
@@ -12820,6 +12858,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+startsWith
+"
 args
 .
 thisv
@@ -13118,6 +13159,9 @@ cx
 ToStringForStringFunction
 (
 cx
+"
+endsWith
+"
 args
 .
 thisv
@@ -13501,6 +13545,10 @@ const
 CallArgs
 &
 args
+const
+char
+*
+funName
 bool
 trimStart
 bool
@@ -13514,6 +13562,7 @@ str
 ToStringForStringFunction
 (
 cx
+funName
 args
 .
 thisv
@@ -13690,6 +13739,9 @@ TrimString
 (
 cx
 args
+"
+trim
+"
 true
 true
 )
@@ -13723,6 +13775,9 @@ TrimString
 (
 cx
 args
+"
+trimStart
+"
 true
 false
 )
@@ -13756,6 +13811,9 @@ TrimString
 (
 cx
 args
+"
+trimEnd
+"
 false
 true
 )
