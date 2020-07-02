@@ -9553,6 +9553,10 @@ ReleaseListeners
 (
 )
 ;
+CleanupBackgroundChannel
+(
+)
+;
 }
 NS_IMETHODIMP
 HttpChannelChild
