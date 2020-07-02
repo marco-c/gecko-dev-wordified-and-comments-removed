@@ -8287,10 +8287,6 @@ alloc
 (
 )
 input
-MIRType
-:
-:
-Value
 )
 ;
 current
