@@ -71,13 +71,6 @@ using
 namespace
 IPC
 ;
-using
-namespace
-mozilla
-:
-:
-dom
-;
 namespace
 mozilla
 {

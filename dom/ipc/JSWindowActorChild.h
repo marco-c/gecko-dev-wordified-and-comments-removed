@@ -81,7 +81,7 @@ h
 #
 include
 "
-nsIDOMProcessChild
+nsIContentChild
 .
 h
 "

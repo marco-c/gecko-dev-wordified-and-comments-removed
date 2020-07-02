@@ -54,7 +54,7 @@ h
 #
 include
 "
-nsIDOMProcessChild
+nsIContentChild
 .
 h
 "
@@ -1101,9 +1101,9 @@ aKey
 )
 ;
 static
-nsIDOMProcessChild
+nsIContentChild
 *
-GetDomProcessChild
+GetContentChild
 (
 const
 GlobalObject

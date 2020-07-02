@@ -27,7 +27,7 @@ browsingContext
 .
 currentWindowGlobal
 .
-domProcess
+contentParent
 ;
 ok
 (
@@ -85,7 +85,7 @@ should
 match
 WindowGlobalParent
 .
-domProcess
+contentParent
 "
 )
 ;
@@ -123,7 +123,7 @@ child
 =
 ChromeUtils
 .
-domProcessChild
+contentChild
 ;
 ok
 (
@@ -181,7 +181,7 @@ should
 match
 ChromeUtils
 .
-domProcessChild
+contentChild
 .
 "
 )

@@ -126,7 +126,7 @@ h
 #
 include
 "
-nsIDOMProcessParent
+nsIContentParent
 .
 h
 "
@@ -365,12 +365,6 @@ already_AddRefed
 BrowserParent
 >
 GetBrowserParent
-(
-)
-;
-ContentParent
-*
-GetContentParent
 (
 )
 ;
@@ -674,9 +668,9 @@ return
 mContentBlockingLog
 ;
 }
-nsIDOMProcessParent
+nsIContentParent
 *
-GetDomProcess
+GetContentParent
 (
 )
 ;

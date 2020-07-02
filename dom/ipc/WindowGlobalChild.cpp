@@ -164,7 +164,7 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
 InProcessChild
 .
@@ -175,7 +175,7 @@ include
 "
 mozilla
 /
-dom
+ipc
 /
 InProcessParent
 .

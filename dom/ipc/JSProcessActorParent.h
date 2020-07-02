@@ -85,13 +85,6 @@ h
 #
 include
 "
-nsIDOMProcessParent
-.
-h
-"
-#
-include
-"
 nsWrapperCache
 .
 h
@@ -180,7 +173,7 @@ JSProcessActorParent
 )
 ;
 }
-nsIDOMProcessParent
+ContentParent
 *
 Manager
 (
@@ -198,7 +191,7 @@ const
 nsACString
 &
 aName
-nsIDOMProcessParent
+ContentParent
 *
 aManager
 )
@@ -250,9 +243,9 @@ mCanSend
 =
 true
 ;
-nsCOMPtr
+RefPtr
 <
-nsIDOMProcessParent
+ContentParent
 >
 mManager
 ;

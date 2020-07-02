@@ -29,12 +29,12 @@ ok
 (
 parent
 .
-domProcess
+contentParent
 .
 childID
 "
 parent
-domProcess
+contentParent
 .
 childID
 should
@@ -54,7 +54,7 @@ browser
 [
 parent
 .
-domProcess
+contentParent
 .
 childID
 ]
@@ -68,7 +68,7 @@ ok
 (
 ChromeUtils
 .
-domProcessChild
+contentChild
 .
 childID
 "
@@ -89,7 +89,7 @@ childID
 =
 ChromeUtils
 .
-domProcessChild
+contentChild
 .
 childID
 ;
