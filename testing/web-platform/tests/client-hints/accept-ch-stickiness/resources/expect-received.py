@@ -53,6 +53,7 @@ js
 "
     
 if
+b
 "
 device
 -
@@ -63,6 +64,7 @@ request
 .
 headers
 and
+b
 "
 sec
 -
@@ -75,6 +77,7 @@ request
 .
 headers
 and
+b
 "
 sec
 -
@@ -92,6 +95,7 @@ headers
       
 result
 =
+u
 "
 PASS
 "
@@ -101,12 +105,14 @@ else
       
 result
 =
+u
 "
 FAIL
 "
     
 content
 =
+u
 '
 '
 '
@@ -156,11 +162,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -168,6 +176,7 @@ html
 "
 )
 (
+b
 "
 Access
 -
@@ -177,6 +186,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "

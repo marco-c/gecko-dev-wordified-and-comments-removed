@@ -39,6 +39,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -48,6 +49,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -59,6 +61,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -68,6 +71,7 @@ Allow
 -
 Headers
 "
+b
 "
 *
 "
@@ -79,6 +83,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -88,12 +93,14 @@ Expose
 -
 Headers
 "
+b
 "
 *
 "
 )
     
 if
+b
 "
 device
 -
@@ -111,6 +118,7 @@ headers
 .
 set
 (
+b
 "
 device
 -
@@ -124,6 +132,7 @@ headers
 .
 get
 (
+b
 "
 device
 -

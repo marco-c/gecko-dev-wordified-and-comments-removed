@@ -2,6 +2,12 @@ import
 random
 import
 string
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 id_token
 (
@@ -15,6 +21,7 @@ string
 ascii_lowercase
    
 return
+u
 '
 '
 .
@@ -45,39 +52,47 @@ response
 client_hint_headers
 =
 [
-      
+        
+b
 "
 device
 -
 memory
 "
-      
+        
+b
 "
 dpr
 "
-      
+        
+b
 "
 width
 "
-      
+        
+b
 "
 viewport
 -
 width
 "
-      
+        
+b
 "
 rtt
 "
-      
+        
+b
 "
 downlink
 "
-      
+        
+b
 "
 ect
 "
-      
+        
+b
 "
 sec
 -
@@ -85,7 +100,8 @@ ch
 -
 lang
 "
-      
+        
+b
 "
 sec
 -
@@ -93,7 +109,8 @@ ch
 -
 ua
 "
-      
+        
+b
 "
 sec
 -
@@ -103,7 +120,8 @@ ua
 -
 arch
 "
-      
+        
+b
 "
 sec
 -
@@ -113,7 +131,8 @@ ua
 -
 platform
 "
-      
+        
+b
 "
 sec
 -
@@ -125,7 +144,8 @@ platform
 -
 version
 "
-      
+        
+b
 "
 sec
 -
@@ -165,6 +185,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -179,6 +200,7 @@ GET
 .
 first
 (
+b
 "
 query
 "
@@ -317,6 +339,7 @@ set
 (
 header
 +
+b
 "
 -
 recieved
@@ -353,6 +376,7 @@ set
 (
 header
 +
+b
 "
 -
 previous
@@ -371,6 +395,7 @@ headers
 =
 [
 (
+b
 "
 Count
 "
@@ -380,6 +405,7 @@ count
       
 content
 =
+u
 "
 "
       
@@ -401,11 +427,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -414,11 +442,13 @@ html
 )
                  
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -437,17 +467,22 @@ revalidate
 )
                  
 (
+b
 "
 Unique
 -
 Id
 "
+isomorphic_encode
+(
 unique_id
+)
 )
 ]
       
 content
 =
+u
 "
 report
 (

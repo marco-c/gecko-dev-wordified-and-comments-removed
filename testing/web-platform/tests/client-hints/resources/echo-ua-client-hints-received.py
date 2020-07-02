@@ -39,6 +39,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -48,6 +49,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -59,6 +61,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -68,6 +71,7 @@ Allow
 -
 Headers
 "
+b
 "
 *
 "
@@ -79,6 +83,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -88,6 +93,7 @@ Expose
 -
 Headers
 "
+b
 "
 *
 "
@@ -97,6 +103,7 @@ client_hint_headers
 =
 [
         
+b
 "
 sec
 -
@@ -105,6 +112,7 @@ ch
 ua
 "
         
+b
 "
 sec
 -
@@ -115,6 +123,7 @@ ua
 arch
 "
         
+b
 "
 sec
 -
@@ -125,6 +134,7 @@ ua
 platform
 "
         
+b
 "
 sec
 -
@@ -137,6 +147,7 @@ platform
 version
 "
         
+b
 "
 sec
 -
@@ -147,6 +158,7 @@ ua
 model
 "
         
+b
 "
 sec
 -
@@ -204,6 +216,7 @@ set
 (
 header
 +
+b
 "
 -
 recieved
@@ -221,6 +234,7 @@ headers
     
 content
 =
+u
 "
 "
     

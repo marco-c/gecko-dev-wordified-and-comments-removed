@@ -14,6 +14,7 @@ headers
 .
 get
 (
+b
 '
 sec
 -
@@ -21,6 +22,7 @@ ch
 -
 ua
 '
+b
 '
 '
 )
@@ -31,11 +33,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -49,11 +53,13 @@ headers
 .
 set
 (
+b
 "
 Accept
 -
 CH
 "
+b
 "
 UA
 "
@@ -65,6 +71,7 @@ headers
 .
 set
 (
+b
 "
 Accept
 -
@@ -72,6 +79,7 @@ CH
 -
 Lifetime
 "
+b
 "
 10
 "
@@ -81,6 +89,7 @@ response
 .
 content
 =
+b
 '
 '
 '

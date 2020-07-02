@@ -57,6 +57,7 @@ js
 "
     
 if
+b
 "
 device
 -
@@ -70,6 +71,7 @@ headers
       
 result
 =
+u
 "
 FAIL
 "
@@ -79,12 +81,14 @@ else
       
 result
 =
+u
 "
 PASS
 "
     
 content
 =
+u
 '
 '
 '
@@ -123,11 +127,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -135,6 +141,7 @@ html
 "
 )
 (
+b
 "
 Access
 -
@@ -144,6 +151,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "

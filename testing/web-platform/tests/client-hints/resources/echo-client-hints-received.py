@@ -39,6 +39,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -48,6 +49,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -59,6 +61,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -68,6 +71,7 @@ Allow
 -
 Headers
 "
+b
 "
 *
 "
@@ -79,6 +83,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -88,12 +93,14 @@ Expose
 -
 Headers
 "
+b
 "
 *
 "
 )
     
 if
+b
 "
 device
 -
@@ -111,6 +118,7 @@ headers
 .
 set
 (
+b
 "
 device
 -
@@ -124,6 +132,7 @@ headers
 .
 get
 (
+b
 "
 device
 -
@@ -133,6 +142,7 @@ memory
 )
     
 if
+b
 "
 dpr
 "
@@ -148,6 +158,7 @@ headers
 .
 set
 (
+b
 "
 dpr
 -
@@ -159,6 +170,7 @@ headers
 .
 get
 (
+b
 "
 dpr
 "
@@ -166,6 +178,7 @@ dpr
 )
     
 if
+b
 "
 viewport
 -
@@ -183,6 +196,7 @@ headers
 .
 set
 (
+b
 "
 viewport
 -
@@ -196,6 +210,7 @@ headers
 .
 get
 (
+b
 "
 viewport
 -
@@ -205,6 +220,7 @@ width
 )
     
 if
+b
 "
 rtt
 "
@@ -220,6 +236,7 @@ headers
 .
 set
 (
+b
 "
 rtt
 -
@@ -231,6 +248,7 @@ headers
 .
 get
 (
+b
 "
 rtt
 "
@@ -238,6 +256,7 @@ rtt
 )
     
 if
+b
 "
 downlink
 "
@@ -253,6 +272,7 @@ headers
 .
 set
 (
+b
 "
 downlink
 -
@@ -264,6 +284,7 @@ headers
 .
 get
 (
+b
 "
 downlink
 "
@@ -271,6 +292,7 @@ downlink
 )
     
 if
+b
 "
 ect
 "
@@ -286,6 +308,7 @@ headers
 .
 set
 (
+b
 "
 ect
 -
@@ -297,6 +320,7 @@ headers
 .
 get
 (
+b
 "
 ect
 "
@@ -304,6 +328,7 @@ ect
 )
     
 if
+b
 "
 Sec
 -
@@ -323,6 +348,7 @@ headers
 .
 set
 (
+b
 "
 lang
 -
@@ -334,6 +360,7 @@ headers
 .
 get
 (
+b
 "
 Sec
 -
@@ -345,6 +372,7 @@ Lang
 )
     
 if
+b
 "
 sec
 -
@@ -366,6 +394,7 @@ headers
 .
 set
 (
+b
 "
 mobile
 -
@@ -377,6 +406,7 @@ headers
 .
 get
 (
+b
 "
 sec
 -

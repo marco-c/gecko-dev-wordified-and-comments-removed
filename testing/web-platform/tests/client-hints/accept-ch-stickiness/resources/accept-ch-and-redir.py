@@ -8,10 +8,12 @@ response
     
 url
 =
+b
 '
 '
     
 if
+b
 '
 url
 '
@@ -27,6 +29,7 @@ request
 .
 GET
 [
+b
 '
 url
 '
@@ -36,17 +39,20 @@ return
 301
 [
 (
+b
 '
 Location
 '
 url
 )
 (
+b
 '
 Accept
 -
 CH
 '
+b
 '
 device
 -
@@ -55,5 +61,6 @@ DPR
 '
 )
 ]
+u
 '
 '
