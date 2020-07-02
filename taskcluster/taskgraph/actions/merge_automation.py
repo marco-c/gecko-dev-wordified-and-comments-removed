@@ -95,9 +95,13 @@ branches
 .
 "
     
-generic
+permission
 =
-False
+'
+merge
+-
+automation
+'
     
 order
 =

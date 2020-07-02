@@ -93,7 +93,7 @@ order
 cb_name
 '
 '
-generic
+permission
 '
 '
 action_builder
@@ -274,9 +274,11 @@ True
 schema
 =
 None
-generic
+permission
 =
-True
+'
+generic
+'
 cb_name
 =
 None
@@ -805,21 +807,42 @@ is
 taken
 .
     
-generic
+permission
 :
-boolean
+string
         
-Whether
-this
-is
-a
+This
+defaults
+to
 generic
-action
-or
-has
-its
-own
+and
+needs
+to
+be
+set
+for
+actions
+that
+need
+        
+additional
 permissions
+.
+It
+appears
+appears
+in
+ci
+-
+configuration
+and
+        
+various
+role
+and
+hook
+        
+names
 .
     
 cb_name
@@ -839,34 +862,6 @@ defaulting
 to
         
 name
-.
-This
-is
-used
-to
-generation
-actionPerm
-for
-non
--
-generic
-hook
-        
-actions
-and
-thus
-appears
-in
-ci
--
-configuration
-and
-various
-role
-and
-hook
-        
-names
 .
 Unlike
 name
@@ -969,6 +964,15 @@ strip
     
 if
 not
+cb_name
+:
+        
+cb_name
+=
+name
+    
+if
+not
 callable
 (
 context
@@ -990,9 +994,6 @@ def
 register_callback
 (
 cb
-cb_name
-=
-cb_name
 )
 :
         
@@ -1119,15 +1120,6 @@ as
 decorator
 '
         
-if
-not
-cb_name
-:
-            
-cb_name
-=
-name
-        
 assert
 cb_name
 not
@@ -1167,16 +1159,6 @@ parameters
                 
 return
 None
-            
-actionPerm
-=
-'
-generic
-'
-if
-generic
-else
-cb_name
             
 repo_param
 =
@@ -1492,7 +1474,7 @@ if
 /
 '
 in
-actionPerm
+permission
 :
                 
 raise
@@ -1566,7 +1548,7 @@ action
 format
 (
 level
-actionPerm
+permission
 tcyml_hash
 )
                 
@@ -1664,7 +1646,7 @@ extra
 actionPerm
 '
 :
-actionPerm
+permission
                 
 }
             
@@ -1682,7 +1664,7 @@ Action
 (
 order
 cb_name
-generic
+permission
 action_builder
 )
 )
@@ -2005,20 +1987,6 @@ callback
 )
 )
     
-actionPerm
-=
-'
-generic
-'
-if
-action
-.
-generic
-else
-action
-.
-cb_name
-    
 repo_param
 =
 '
@@ -2092,7 +2060,9 @@ head_repository
 8
 :
 ]
-actionPerm
+action
+.
+permission
 )
     
 if

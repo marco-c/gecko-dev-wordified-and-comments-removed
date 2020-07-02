@@ -389,9 +389,13 @@ release
 .
 "
     
-generic
+permission
 =
-False
+'
+release
+-
+promotion
+'
     
 order
 =

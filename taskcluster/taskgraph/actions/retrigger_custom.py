@@ -514,10 +514,6 @@ symbol
 rt
 '
     
-generic
-=
-True
-    
 description
 =
 "
@@ -696,10 +692,6 @@ symbol
 '
 rt
 '
-    
-generic
-=
-True
     
 description
 =

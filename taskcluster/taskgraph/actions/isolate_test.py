@@ -1525,10 +1525,6 @@ in
 job
 '
     
-generic
-=
-True
-    
 symbol
 =
 '

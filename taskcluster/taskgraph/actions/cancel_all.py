@@ -74,10 +74,6 @@ cancel
 all
 '
     
-generic
-=
-True
-    
 symbol
 =
 '

@@ -135,10 +135,6 @@ name
 geckoprofile
 '
     
-generic
-=
-True
-    
 symbol
 =
 '
