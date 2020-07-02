@@ -73,6 +73,9 @@ NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE
 (
 XRInputSource
 mParent
+mTargetRaySpace
+mGripSpace
+mGamepad
 )
 NS_IMPL_CYCLE_COLLECTION_ROOT_NATIVE
 (
