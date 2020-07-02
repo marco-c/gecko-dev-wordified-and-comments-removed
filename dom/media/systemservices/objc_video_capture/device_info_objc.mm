@@ -36,12 +36,6 @@ h
 #
 import
 "
-modules
-/
-video_capture
-/
-objc
-/
 device_info_objc
 .
 h
@@ -49,6 +43,8 @@ h
 #
 include
 "
+webrtc
+/
 modules
 /
 video_capture
