@@ -139,6 +139,10 @@ python
 -
 virtualenv
 \
+python3
+-
+dev
+\
 rsync
 \
 screen
