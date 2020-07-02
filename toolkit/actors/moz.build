@@ -320,9 +320,4 @@ WebChannelParent
 .
 jsm
 '
-'
-WebNavigationChild
-.
-jsm
-'
 ]
