@@ -126,15 +126,6 @@ clang
 cl
 .
 exe
-clang
-/
-bin
-/
-llvm
--
-symbolizer
-.
-exe
 chmod
 +
 x
