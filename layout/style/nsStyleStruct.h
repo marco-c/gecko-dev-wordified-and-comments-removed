@@ -371,7 +371,7 @@ mFontSizeOffset
 mozilla
 :
 :
-StyleFontSize
+StyleFontSizeKeyword
 mFontSizeKeyword
 ;
 mozilla

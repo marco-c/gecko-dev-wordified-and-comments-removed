@@ -562,6 +562,7 @@ FontSize
 FontSizeAdjust
 FontStretch
 FontSynthesis
+FontSizeKeyword
 }
 ;
 pub

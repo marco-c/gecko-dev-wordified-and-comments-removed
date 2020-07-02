@@ -931,6 +931,9 @@ TextAlign
 TextAlignLast
 "
 "
+FontSizeKeyword
+"
+"
 AspectRatio
 "
 ]

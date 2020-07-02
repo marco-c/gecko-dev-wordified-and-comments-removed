@@ -1219,7 +1219,7 @@ mFontSizeOffset
 )
 mFontSizeKeyword
 (
-StyleFontSize
+StyleFontSizeKeyword
 :
 :
 Medium
