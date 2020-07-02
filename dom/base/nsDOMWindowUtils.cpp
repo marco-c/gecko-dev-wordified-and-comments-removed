@@ -1931,7 +1931,7 @@ GetDocumentCharacterSetSource
 )
 >
 =
-kCharsetFromParentForced
+kCharsetFromUserForced
 ;
 return
 NS_OK

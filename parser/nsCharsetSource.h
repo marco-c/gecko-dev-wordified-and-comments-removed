@@ -20,7 +20,6 @@ kCharsetFromMetaTag
 kCharsetFromIrreversibleAutoDetection
 kCharsetFromChannel
 kCharsetFromOtherComponent
-kCharsetFromParentForced
 kCharsetFromUserForced
 kCharsetFromUserForcedAutoDetection
 kCharsetFromByteOrderMark
