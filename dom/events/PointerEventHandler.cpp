@@ -2142,7 +2142,7 @@ eNoButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 ;
 aPointerEvent
 -

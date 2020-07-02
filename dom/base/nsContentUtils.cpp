@@ -38863,7 +38863,7 @@ return
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 ;
 case
 MouseButton
@@ -38887,7 +38887,7 @@ return
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 ;
 case
 4

@@ -2485,7 +2485,7 @@ aButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 )
 {
 names
@@ -2502,7 +2502,7 @@ aButtons
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 )
 {
 ADD_SEPARATOR_IF_NECESSARY

@@ -3040,7 +3040,7 @@ result
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 ;
 }
 if
@@ -3065,7 +3065,7 @@ result
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 ;
 }
 if

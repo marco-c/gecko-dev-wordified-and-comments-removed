@@ -4736,7 +4736,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eLeftFlag
+ePrimaryFlag
 ;
 }
 if
@@ -4759,7 +4759,7 @@ mButtons
 MouseButtonsFlag
 :
 :
-eRightFlag
+eSecondaryFlag
 ;
 }
 if
