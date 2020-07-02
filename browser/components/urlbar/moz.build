@@ -163,6 +163,11 @@ UrlbarResult
 jsm
 '
 '
+UrlbarSearchUtils
+.
+jsm
+'
+'
 UrlbarTokenizer
 .
 jsm

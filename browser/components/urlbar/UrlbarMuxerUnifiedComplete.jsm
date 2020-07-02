@@ -57,7 +57,7 @@ Log
 .
 jsm
 "
-PlacesSearchAutocompleteProvider
+Services
 :
 "
 resource
@@ -68,7 +68,7 @@ gre
 /
 modules
 /
-PlacesSearchAutocompleteProvider
+Services
 .
 jsm
 "
@@ -786,12 +786,10 @@ URL
 {
 let
 submission
-;
-try
-{
-submission
 =
-PlacesSearchAutocompleteProvider
+Services
+.
+search
 .
 parseSubmissionURL
 (
@@ -802,13 +800,6 @@ payload
 url
 )
 ;
-}
-catch
-(
-error
-)
-{
-}
 if
 (
 submission
