@@ -44,11 +44,6 @@ nsIRemoteWebProgress
 .
 idl
 '
-'
-nsIRemoteWebProgressRequest
-.
-idl
-'
 ]
 XPIDL_MODULE
 =
