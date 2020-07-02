@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_RemoteLazyInputStream_h
+mozilla_dom_IPCBlobInputStream_h
 #
 define
-mozilla_RemoteLazyInputStream_h
+mozilla_dom_IPCBlobInputStream_h
 #
 include
 "
@@ -16,7 +16,7 @@ h
 #
 include
 "
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 .
 h
 "
@@ -65,8 +65,11 @@ h
 namespace
 mozilla
 {
+namespace
+dom
+{
 class
-RemoteLazyInputStreamChild
+IPCBlobInputStreamChild
 ;
 #
 define
@@ -92,7 +95,7 @@ IPCBLOBINPUTSTREAM_IID
 \
 }
 class
-RemoteLazyInputStream
+IPCBlobInputStream
 final
 :
 public
@@ -110,7 +113,7 @@ nsIInputStreamLength
 public
 nsIAsyncInputStreamLength
 public
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 {
 public
 :
@@ -126,9 +129,9 @@ NS_DECL_NSIASYNCFILEMETADATA
 NS_DECL_NSIINPUTSTREAMLENGTH
 NS_DECL_NSIASYNCINPUTSTREAMLENGTH
 explicit
-RemoteLazyInputStream
+IPCBlobInputStream
 (
-RemoteLazyInputStreamChild
+IPCBlobInputStreamChild
 *
 aActor
 )
@@ -185,7 +188,7 @@ nullptr
 private
 :
 ~
-RemoteLazyInputStream
+IPCBlobInputStream
 (
 )
 ;
@@ -213,7 +216,7 @@ aProofOfLock
 ;
 RefPtr
 <
-RemoteLazyInputStreamChild
+IPCBlobInputStreamChild
 >
 mActor
 ;
@@ -288,6 +291,7 @@ mMutex
 ;
 }
 ;
+}
 }
 #
 endif

@@ -35,6 +35,8 @@ Cookie
 CrashRep
 Inject
 DDMediaLogs
+DOM
+File
 DOMCacheThread
 DataChannel
 IO
@@ -87,7 +89,6 @@ ProcessHangMon
 ProfSymbolTable
 ProfilerChild
 ProxyResolution
-RemoteLzyStream
 RWLockTester
 RacingServMan
 RemVidChild

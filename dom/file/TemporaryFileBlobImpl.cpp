@@ -8,7 +8,7 @@ h
 #
 include
 "
-RemoteLazyInputStreamThread
+IPCBlobInputStreamThread
 .
 h
 "
@@ -301,11 +301,11 @@ TemporaryFileInputStream
 {
 RefPtr
 <
-RemoteLazyInputStreamThread
+IPCBlobInputStreamThread
 >
 thread
 =
-RemoteLazyInputStreamThread
+IPCBlobInputStreamThread
 :
 :
 GetOrCreate

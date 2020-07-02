@@ -231,7 +231,7 @@ streams
 /
 /
 (
-RemoteLazyInputStream
+IPCBlobInputStream
 only
 so
 far

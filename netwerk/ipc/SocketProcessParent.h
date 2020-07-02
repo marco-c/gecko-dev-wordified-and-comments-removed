@@ -634,9 +634,9 @@ aResolver
 ;
 already_AddRefed
 <
-PRemoteLazyInputStreamParent
+PIPCBlobInputStreamParent
 >
-AllocPRemoteLazyInputStreamParent
+AllocPIPCBlobInputStreamParent
 (
 const
 nsID
@@ -655,9 +655,9 @@ ipc
 :
 :
 IPCResult
-RecvPRemoteLazyInputStreamConstructor
+RecvPIPCBlobInputStreamConstructor
 (
-PRemoteLazyInputStreamParent
+PIPCBlobInputStreamParent
 *
 aActor
 const

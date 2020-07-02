@@ -930,9 +930,9 @@ aBroker
 ;
 already_AddRefed
 <
-PRemoteLazyInputStreamChild
+PIPCBlobInputStreamChild
 >
-AllocPRemoteLazyInputStreamChild
+AllocPIPCBlobInputStreamChild
 (
 const
 nsID

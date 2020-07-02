@@ -1442,7 +1442,7 @@ nsIEventTarget
 >
 domFileThread
 =
-RemoteLazyInputStreamThread
+IPCBlobInputStreamThread
 :
 :
 GetOrCreate

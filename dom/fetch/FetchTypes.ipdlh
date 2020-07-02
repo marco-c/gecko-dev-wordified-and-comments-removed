@@ -67,7 +67,7 @@ PBackgroundSharedTypes
 ;
 include
 protocol
-PRemoteLazyInputStream
+PIPCBlobInputStream
 ;
 using
 HeadersGuardEnum
@@ -197,7 +197,7 @@ as
 a
 key
 for
-RemoteLazyInputStreamStorage
+IPCBlobInputStreamStorage
 nsID
 uuid
 ;
@@ -206,7 +206,7 @@ uuid
 struct
 ParentToChildStream
 {
-PRemoteLazyInputStream
+PIPCBlobInputStream
 actor
 ;
 }

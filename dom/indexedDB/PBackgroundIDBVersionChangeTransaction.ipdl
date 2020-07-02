@@ -98,7 +98,7 @@ bug
 792908
 include
 protocol
-PParentToChildStream
+PIPCBlobInputStream
 ;
 /
 /
@@ -108,7 +108,7 @@ bug
 792908
 include
 protocol
-PRemoteLazyInputStream
+PParentToChildStream
 ;
 /
 /

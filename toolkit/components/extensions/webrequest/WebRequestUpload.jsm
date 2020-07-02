@@ -1483,7 +1483,7 @@ unbuffered
 instanceof
 Ci
 .
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 )
 {
 yield

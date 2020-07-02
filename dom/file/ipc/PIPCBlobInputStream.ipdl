@@ -86,9 +86,12 @@ IPCStream
 namespace
 mozilla
 {
+namespace
+dom
+{
 refcounted
 protocol
-PRemoteLazyInputStream
+PIPCBlobInputStream
 {
 manager
 PBackground
@@ -272,6 +275,11 @@ __delete__
 ;
 }
 ;
+}
+/
+/
+namespace
+dom
 }
 /
 /

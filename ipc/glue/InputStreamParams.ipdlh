@@ -69,7 +69,7 @@ PParentToChildStream
 ;
 include
 protocol
-PRemoteLazyInputStream
+PIPCBlobInputStream
 ;
 using
 struct
@@ -165,7 +165,7 @@ closed
 }
 ;
 struct
-RemoteLazyInputStreamRef
+IPCBlobInputStreamRef
 {
 nsID
 id
@@ -179,11 +179,11 @@ length
 }
 ;
 union
-RemoteLazyInputStreamParams
+IPCBlobInputStreamParams
 {
-RemoteLazyInputStreamRef
+IPCBlobInputStreamRef
 ;
-PRemoteLazyInputStream
+PIPCBlobInputStream
 ;
 }
 ;
@@ -280,7 +280,7 @@ MultiplexInputStreamParams
 ;
 SlicedInputStreamParams
 ;
-RemoteLazyInputStreamParams
+IPCBlobInputStreamParams
 ;
 InputStreamLengthWrapperParams
 ;

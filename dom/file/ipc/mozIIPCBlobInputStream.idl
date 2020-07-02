@@ -79,8 +79,7 @@ underlying
 stream
 from
 an
-*
-RemoteLazyInputStream
+IPCBlobInputStream
 .
 *
 /
@@ -101,7 +100,7 @@ a83c
 )
 ]
 interface
-mozIRemoteLazyInputStream
+mozIIPCBlobInputStream
 :
 nsISupports
 {
