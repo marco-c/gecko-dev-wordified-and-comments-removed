@@ -732,6 +732,7 @@ workdir
 dir
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -827,6 +828,7 @@ updatemanifestv2
 updatemanifestv3
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -864,6 +866,7 @@ xz
 updatemanifestv2
 "
 XZ
+XZ_OPT
 -
 -
 compress

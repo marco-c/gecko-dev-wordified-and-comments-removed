@@ -1068,6 +1068,7 @@ workdir
 f
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -1167,6 +1168,7 @@ workdir
 f
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -1480,6 +1482,7 @@ f
 patch
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -1590,6 +1593,7 @@ f
 patch
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -1641,6 +1645,7 @@ xz
 fi
 fi
 XZ
+XZ_OPT
 -
 -
 compress
@@ -1955,6 +1960,7 @@ p
 dir
 "
 XZ
+XZ_OPT
 -
 -
 compress
@@ -2270,6 +2276,7 @@ updatemanifestv3
 fi
 done
 XZ
+XZ_OPT
 -
 -
 compress
@@ -2307,6 +2314,7 @@ xz
 updatemanifestv2
 "
 XZ
+XZ_OPT
 -
 -
 compress
