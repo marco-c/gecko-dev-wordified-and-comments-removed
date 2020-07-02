@@ -1706,6 +1706,15 @@ RefPtr
 GLContext
 >
 glContext
+;
+#
+if
+!
+defined
+(
+MOZ_WIDGET_ANDROID
+)
+glContext
 =
 CreateImpl
 (
@@ -1714,6 +1723,8 @@ aWebRender
 false
 )
 ;
+#
+endif
 if
 (
 !
