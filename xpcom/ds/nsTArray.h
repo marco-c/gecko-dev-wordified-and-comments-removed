@@ -14206,6 +14206,8 @@ template
 <
 typename
 T
+typename
+ArrayT
 >
 class
 nsTArrayBackInserter
@@ -14226,10 +14228,7 @@ void
 void
 >
 {
-nsTArray
-<
-T
->
+ArrayT
 *
 mArray
 ;
@@ -14238,10 +14237,7 @@ public
 explicit
 nsTArrayBackInserter
 (
-nsTArray
-<
-T
->
+ArrayT
 &
 aArray
 )
@@ -14368,6 +14364,10 @@ return
 nsTArrayBackInserter
 <
 T
+nsTArray
+<
+T
+>
 >
 {
 aArray
