@@ -223,7 +223,7 @@ document
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -257,7 +257,7 @@ querySelector
 (
 "
 #
-messages
+response
 -
 tab
 "
@@ -278,7 +278,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 message
 -

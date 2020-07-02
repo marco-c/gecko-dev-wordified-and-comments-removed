@@ -186,7 +186,7 @@ document
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -228,7 +228,7 @@ querySelector
 (
 "
 #
-messages
+response
 -
 tab
 "
@@ -249,7 +249,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -290,7 +290,7 @@ querySelectorAll
 #
 messages
 -
-panel
+view
 .
 truncated
 -

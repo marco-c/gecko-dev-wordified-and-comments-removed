@@ -114,7 +114,7 @@ Actions
 selectDetailsPanelTab
 (
 "
-messages
+response
 "
 )
 )
@@ -262,7 +262,7 @@ document
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -290,7 +290,7 @@ querySelector
 #
 messages
 -
-panel
+view
 .
 message
 -

@@ -1,7 +1,7 @@
 #
 messages
 -
-panel
+view
 .
 uncontrolled
 {
@@ -15,7 +15,7 @@ column
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -47,7 +47,7 @@ none
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -66,7 +66,7 @@ width
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -106,7 +106,7 @@ currentColor
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -133,7 +133,7 @@ green
 #
 messages
 -
-panel
+view
 .
 theme
 -
@@ -164,7 +164,7 @@ green
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -199,7 +199,7 @@ scaleY
 #
 messages
 -
-panel
+view
 .
 theme
 -
@@ -230,7 +230,7 @@ red
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -256,7 +256,7 @@ inherit
 #
 messages
 -
-panel
+view
 .
 msg
 -
@@ -276,7 +276,7 @@ center
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -298,7 +298,7 @@ nums
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -313,7 +313,7 @@ width
 #
 messages
 -
-panel
+view
 .
 message
 -
@@ -418,7 +418,7 @@ none
 #
 messages
 -
-panel
+view
 .
 treeTable
 .
@@ -446,7 +446,7 @@ light
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -473,7 +473,7 @@ dark
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -536,7 +536,7 @@ light
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -563,7 +563,7 @@ dark
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -590,7 +590,7 @@ dark
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -615,7 +615,7 @@ grey
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -631,7 +631,7 @@ padding
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -683,7 +683,7 @@ center
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -693,7 +693,7 @@ container
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -717,7 +717,7 @@ center
 #
 messages
 -
-panel
+view
 .
 truncated
 -
@@ -789,7 +789,7 @@ inherit
 #
 messages
 -
-panel
+view
 .
 truncation
 -
@@ -807,7 +807,7 @@ end
 #
 messages
 -
-panel
+view
 .
 truncated
 -

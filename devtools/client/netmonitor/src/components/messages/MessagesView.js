@@ -643,6 +643,13 @@ return
 div
 (
 {
+id
+:
+"
+messages
+-
+view
+"
 className
 :
 "

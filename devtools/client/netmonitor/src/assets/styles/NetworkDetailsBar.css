@@ -1339,6 +1339,10 @@ response
 -
 panel
 .
+panel
+-
+container
+.
 accordion
 {
 position
@@ -1358,6 +1362,10 @@ monitor
 response
 -
 panel
+.
+panel
+-
+container
 .
 accordion
 -
@@ -1415,6 +1423,10 @@ response
 -
 panel
 .
+panel
+-
+container
+.
 properties
 -
 view
@@ -1433,6 +1445,10 @@ monitor
 response
 -
 panel
+.
+panel
+-
+container
 .
 accordion
 -
@@ -1455,6 +1471,10 @@ monitor
 response
 -
 panel
+.
+panel
+-
+container
 .
 accordion
 -
