@@ -15362,6 +15362,12 @@ a
 )
 )
 {
+e
+.
+preventDefault
+(
+)
+;
 loadViewFn
 (
 detail
