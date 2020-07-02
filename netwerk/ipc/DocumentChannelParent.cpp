@@ -222,7 +222,7 @@ if
 loadState
 -
 >
-GetLoadIdentifier
+GetChannelInitialized
 (
 )
 )

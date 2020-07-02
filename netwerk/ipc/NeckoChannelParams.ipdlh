@@ -1065,6 +1065,9 @@ SessionHistoryInfoAndId
 ?
 sessionHistoryInfo
 ;
+uint64_t
+loadIdentifier
+;
 }
 ;
 struct

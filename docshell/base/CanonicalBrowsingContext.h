@@ -567,9 +567,6 @@ AttemptLoadURIInParent
 nsDocShellLoadState
 *
 aLoadState
-uint64_t
-*
-aLoadIdentifier
 )
 ;
 nsISecureBrowserUI
@@ -774,12 +771,8 @@ aLoad
 void
 EndDocumentLoad
 (
-net
-:
-:
-DocumentLoadListener
-*
-aLoad
+bool
+aForProcessSwitch
 )
 ;
 uint64_t
