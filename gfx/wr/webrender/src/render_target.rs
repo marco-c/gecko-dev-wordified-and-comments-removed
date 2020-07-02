@@ -3127,10 +3127,6 @@ task_info
 actual_rect
 .
 origin
-.
-to_f32
-(
-)
 )
 ;
 }
