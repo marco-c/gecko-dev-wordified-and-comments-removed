@@ -57,6 +57,11 @@ MOXMathAccessibles
 mm
 '
 '
+MOXWebAreaAccessible
+.
+mm
+'
+'
 mozAccessible
 .
 mm
