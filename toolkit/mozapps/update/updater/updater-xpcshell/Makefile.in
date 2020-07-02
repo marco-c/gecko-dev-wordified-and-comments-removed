@@ -153,6 +153,15 @@ config
 rules
 .
 mk
+ifneq
+(
+(
+COMPILE_ENVIRONMENT
+)
+(
+MOZ_ARTIFACT_BUILDS
+)
+)
 tools
 :
 :
@@ -471,5 +480,6 @@ updater
 (
 BIN_SUFFIX
 )
+endif
 endif
 endif
