@@ -311,11 +311,10 @@ mContentIndex
 mPseudoFrame
 -
 >
-GetStateBits
+HasAnyStateBits
 (
-)
-&
 NS_FRAME_GENERATED_CONTENT
+)
 "
 not
 generated
