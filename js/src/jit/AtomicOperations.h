@@ -1467,6 +1467,12 @@ defined
 (
 __m68k__
 )
+|
+|
+defined
+(
+__riscv
+)
 #
 include
 "
