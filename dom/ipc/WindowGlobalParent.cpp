@@ -2768,12 +2768,6 @@ new
 RemoteWebProgress
 (
 manager
-OuterWindowId
-(
-)
-InnerWindowId
-(
-)
 0
 false
 BrowsingContext
