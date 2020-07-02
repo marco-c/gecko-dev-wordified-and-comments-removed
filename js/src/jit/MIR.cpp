@@ -4888,7 +4888,7 @@ MDefinition
 MDefinition
 :
 :
-maybeMostRecentDefUse
+maybeMostRecentlyAddedDefUse
 (
 )
 const
@@ -4922,6 +4922,17 @@ def
 #
 ifdef
 DEBUG
+if
+(
+!
+mostRecentUse
+-
+>
+isPhi
+(
+)
+)
+{
 static
 constexpr
 size_t
@@ -4977,6 +4988,7 @@ id
 )
 )
 ;
+}
 }
 #
 endif

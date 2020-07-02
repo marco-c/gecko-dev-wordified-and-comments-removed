@@ -3793,7 +3793,7 @@ const
 ;
 MDefinition
 *
-maybeMostRecentDefUse
+maybeMostRecentlyAddedDefUse
 (
 )
 const
