@@ -214,6 +214,11 @@ nsWindowsShellService
 .
 cpp
 '
+'
+WindowsDefaultBrowser
+.
+cpp
+'
 ]
 LOCAL_INCLUDES
 +
