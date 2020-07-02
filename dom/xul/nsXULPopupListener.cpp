@@ -569,7 +569,7 @@ content
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 content
 )

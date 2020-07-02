@@ -36248,7 +36248,7 @@ aCapturingContent
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 aCapturingContent
 )

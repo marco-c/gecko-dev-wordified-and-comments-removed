@@ -657,6 +657,15 @@ IsRemoteTarget
 (
 nsIContent
 *
+target
+)
+;
+static
+bool
+IsTopLevelRemoteTarget
+(
+nsIContent
+*
 aTarget
 )
 ;

@@ -1922,7 +1922,7 @@ if
 EventStateManager
 :
 :
-IsRemoteTarget
+IsTopLevelRemoteTarget
 (
 focusedElm
 )
