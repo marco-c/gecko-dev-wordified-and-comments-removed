@@ -5608,12 +5608,6 @@ symbols_file
 symbols_file
 ]
 defines
-                                        
-required_during_compile
-=
-[
-symbols_file
-]
 )
             
 if
