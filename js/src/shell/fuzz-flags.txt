@@ -567,16 +567,6 @@ set
 related
 -
 -
-enable
--
-avx
--
--
-no
--
-avx
--
--
 no
 -
 sse3
