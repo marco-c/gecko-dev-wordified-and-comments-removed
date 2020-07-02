@@ -193,7 +193,6 @@ ready
 ;
 [
 NewObject
-NeedsCallerType
 ]
 Promise
 <

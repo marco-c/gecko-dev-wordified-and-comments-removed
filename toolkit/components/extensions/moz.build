@@ -382,17 +382,6 @@ test
 browser
 /
 browser
--
-serviceworker
-.
-ini
-'
-'
-test
-/
-browser
-/
-browser
 .
 ini
 '
