@@ -1375,6 +1375,15 @@ return
 (
 <
 Navigation
+dispatch
+=
+{
+this
+.
+props
+.
+dispatch
+}
 links
 =
 {
