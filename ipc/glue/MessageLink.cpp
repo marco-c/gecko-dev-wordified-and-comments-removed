@@ -765,11 +765,11 @@ aTargetChan
 )
 {
 }
+void
 ThreadLink
 :
 :
-~
-ThreadLink
+PrepareToDestroy
 (
 )
 {
@@ -819,6 +819,10 @@ mTargetChan
 -
 >
 mLink
+.
+get
+(
+)
 )
 -
 >
