@@ -152,9 +152,11 @@ locales
 ;
 L10nRegistry
 .
-registerSource
+registerSources
 (
+[
 mockSource
+]
 )
 ;
 const

@@ -124,9 +124,11 @@ localization
 ;
 L10nRegistry
 .
-registerSource
+registerSources
 (
+[
 mockSource
+]
 )
 ;
 registerCleanupFunction
@@ -150,11 +152,13 @@ null
 ;
 L10nRegistry
 .
-removeSource
+removeSources
 (
+[
 "
 test
 "
+]
 )
 ;
 SpecialPowers
