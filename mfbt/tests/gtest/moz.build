@@ -13,6 +13,11 @@ TestLinkedList
 cpp
 '
 '
+TestReverseIterator
+.
+cpp
+'
+'
 TestSpan
 .
 cpp
