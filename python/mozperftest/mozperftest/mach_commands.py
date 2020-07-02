@@ -807,6 +807,20 @@ coverage
 ]
             
 if
+not
+ON_TRY
+:
+                
+vendors
+.
+append
+(
+"
+attrs
+"
+)
+            
+if
 skip_linters
 :
                 

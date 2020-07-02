@@ -415,6 +415,9 @@ attributes
 cron
 :
 true
+batch
+:
+true
 run
 :
 command
@@ -629,6 +632,9 @@ opt
 attributes
 :
 cron
+:
+true
+batch
 :
 true
 run
