@@ -430,7 +430,7 @@ name
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -477,7 +477,7 @@ symbols_type
 =
 input
 .
-try
+try_parse
 (
 SymbolsType
 :

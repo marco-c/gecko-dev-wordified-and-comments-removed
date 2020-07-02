@@ -687,7 +687,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -728,7 +728,7 @@ url
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -768,7 +768,7 @@ gradient
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -830,7 +830,7 @@ paint_worklet
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -883,7 +883,7 @@ image_rect
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1063,7 +1063,7 @@ i
 {
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1198,7 +1198,7 @@ url
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2312,7 +2312,7 @@ i
 {
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3111,7 +3111,7 @@ items
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3742,7 +3742,7 @@ d
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3899,7 +3899,7 @@ shape
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3920,7 +3920,7 @@ position
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3965,7 +3965,7 @@ position
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3985,7 +3985,7 @@ shape
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4169,7 +4169,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4201,7 +4201,7 @@ position
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4668,7 +4668,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4698,7 +4698,7 @@ angle
 }
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4709,7 +4709,7 @@ to_ident
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -4809,7 +4809,7 @@ x
 =
 i
 .
-try
+try_parse
 (
 HorizontalPositionKeyword
 :
@@ -4826,7 +4826,7 @@ y
 =
 i
 .
-try
+try_parse
 (
 VerticalPositionKeyword
 :
@@ -4882,7 +4882,7 @@ x
 =
 i
 .
-try
+try_parse
 (
 HorizontalPositionKeyword
 :
@@ -4970,7 +4970,7 @@ extent
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -4988,7 +4988,7 @@ compat_mode
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5034,7 +5034,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5074,7 +5074,7 @@ extent
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5102,7 +5102,7 @@ extent
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5157,7 +5157,7 @@ length
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5223,7 +5223,7 @@ FarthestCorner
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5251,7 +5251,7 @@ extent
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5308,7 +5308,7 @@ ParseError
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5420,7 +5420,7 @@ length
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5444,7 +5444,7 @@ y
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5473,7 +5473,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5537,7 +5537,7 @@ y
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5612,7 +5612,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5652,7 +5652,7 @@ length
 }
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5683,7 +5683,7 @@ y
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -5712,7 +5712,7 @@ _
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -6050,7 +6050,7 @@ hint
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -6117,7 +6117,7 @@ multi_position
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -6386,7 +6386,7 @@ position
 :
 input
 .
-try
+try_parse
 (
 |
 i
@@ -6489,7 +6489,7 @@ arguments
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -6655,7 +6655,7 @@ i
 {
 input
 .
-try
+try_parse
 (
 |
 i

@@ -719,7 +719,7 @@ second
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1292,7 +1292,7 @@ second_angle
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2112,7 +2112,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2177,7 +2177,7 @@ format_hints
 if
 input
 .
-try
+try_parse
 (
 |
 input

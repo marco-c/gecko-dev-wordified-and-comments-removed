@@ -234,7 +234,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -573,7 +573,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -604,7 +604,7 @@ continue
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2553,7 +2553,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2593,7 +2593,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2627,7 +2627,7 @@ offset_anchor
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3014,7 +3014,7 @@ zoom
 match
 input
 .
-try
+try_parse
 (
 |
 input

@@ -532,7 +532,7 @@ explicit_media_type
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -551,7 +551,7 @@ qualifier
 =
 input
 .
-try
+try_parse
 (
 Qualifier
 :
@@ -639,7 +639,7 @@ else
 if
 input
 .
-try
+try_parse
 (
 |
 i

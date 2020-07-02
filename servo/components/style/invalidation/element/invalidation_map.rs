@@ -57,8 +57,8 @@ fallible
 :
 :
 {
-FallibleVec
 FallibleHashMap
+FallibleVec
 }
 ;
 use

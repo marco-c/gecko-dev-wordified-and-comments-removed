@@ -162,7 +162,7 @@ keyword
 =
 input
 .
-try
+try_parse
 (
 TimingKeyword
 :
@@ -192,7 +192,7 @@ ident
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -498,7 +498,7 @@ position
 =
 i
 .
-try
+try_parse
 (
 |
 i

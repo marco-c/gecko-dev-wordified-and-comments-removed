@@ -987,7 +987,7 @@ number
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1315,7 +1315,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2351,7 +2351,7 @@ percentage
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -5009,7 +5009,7 @@ lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5047,7 +5047,7 @@ kw
 =
 input
 .
-try
+try_parse
 (
 FontSizeKeyword
 :
@@ -5759,7 +5759,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -5872,7 +5872,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -7302,7 +7302,7 @@ empty
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -7343,7 +7343,7 @@ flag
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -8635,7 +8635,7 @@ empty
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -8670,7 +8670,7 @@ result
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -8714,7 +8714,7 @@ flag
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -9813,7 +9813,7 @@ empty
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -9854,7 +9854,7 @@ flag
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -10551,7 +10551,7 @@ true
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -10597,7 +10597,7 @@ true
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -11194,7 +11194,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -11542,7 +11542,7 @@ integer
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -11663,7 +11663,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -12256,7 +12256,7 @@ i
 =
 input
 .
-try
+try_parse
 (
 |
 i

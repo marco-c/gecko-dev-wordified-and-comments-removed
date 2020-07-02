@@ -176,7 +176,7 @@ loop
 match
 input
 .
-try
+try_parse
 (
 |
 input
@@ -342,7 +342,7 @@ x
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -695,7 +695,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i

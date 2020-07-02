@@ -563,7 +563,7 @@ auto
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -615,7 +615,7 @@ current_source_location
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -699,7 +699,7 @@ i
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -800,7 +800,7 @@ name
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1871,7 +1871,7 @@ i
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2935,7 +2935,7 @@ repeat_parse_result
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3008,7 +3008,7 @@ names
 =
 input
 .
-try
+try_parse
 (
 parse_line_names
 )
@@ -3173,7 +3173,7 @@ names
 =
 input
 .
-try
+try_parse
 (
 parse_line_names
 )

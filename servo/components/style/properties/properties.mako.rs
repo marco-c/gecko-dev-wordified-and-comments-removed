@@ -8928,7 +8928,7 @@ keyword
 =
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -12670,7 +12670,7 @@ value
 match
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -12774,7 +12774,7 @@ skip_whitespace
 ;
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :
@@ -12991,7 +12991,7 @@ keyword
 =
 input
 .
-try
+try_parse
 (
 CSSWideKeyword
 :

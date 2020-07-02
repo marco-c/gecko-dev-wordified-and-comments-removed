@@ -4066,7 +4066,7 @@ got_list_item
 =
 input
 .
-try
+try_parse
 (
 parse_list_item
 )
@@ -4084,7 +4084,7 @@ got_list_item
 {
 input
 .
-try
+try_parse
 (
 parse_display_inside_for_list_item
 )
@@ -4093,7 +4093,7 @@ else
 {
 input
 .
-try
+try_parse
 (
 parse_display_inside
 )
@@ -4114,7 +4114,7 @@ got_list_item
 =
 input
 .
-try
+try_parse
 (
 parse_list_item
 )
@@ -4129,7 +4129,7 @@ outside
 =
 input
 .
-try
+try_parse
 (
 parse_display_outside
 )
@@ -4165,7 +4165,7 @@ got_list_item
 =
 input
 .
-try
+try_parse
 (
 parse_list_item
 )
@@ -4189,7 +4189,7 @@ got_list_item
 {
 input
 .
-try
+try_parse
 (
 parse_display_inside_for_list_item
 )
@@ -4198,7 +4198,7 @@ else
 {
 input
 .
-try
+try_parse
 (
 parse_display_inside
 )
@@ -4219,7 +4219,7 @@ got_list_item
 =
 input
 .
-try
+try_parse
 (
 parse_list_item
 )
@@ -5412,7 +5412,7 @@ lp
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -5522,7 +5522,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -5816,7 +5816,7 @@ name
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -6119,7 +6119,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -6167,7 +6167,7 @@ strictness
 =
 input
 .
-try
+try_parse
 (
 ScrollSnapStrictness
 :
@@ -6472,7 +6472,7 @@ inline
 =
 input
 .
-try
+try_parse
 (
 ScrollSnapAlignKeyword
 :
@@ -7304,7 +7304,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -7899,7 +7899,7 @@ x
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -7955,7 +7955,7 @@ y
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -8521,7 +8521,7 @@ name
 =
 input
 .
-try
+try_parse
 (
 |
 i

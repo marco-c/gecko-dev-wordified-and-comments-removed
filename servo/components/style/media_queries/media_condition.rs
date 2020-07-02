@@ -625,7 +625,7 @@ operator
 match
 input
 .
-try
+try_parse
 (
 Operator
 :
@@ -749,7 +749,7 @@ loop
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -909,7 +909,7 @@ inner
 =
 input
 .
-try
+try_parse
 (
 |
 i

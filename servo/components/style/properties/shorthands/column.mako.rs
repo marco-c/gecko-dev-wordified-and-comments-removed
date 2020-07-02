@@ -172,7 +172,7 @@ loop
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -191,21 +191,6 @@ is_ok
 (
 )
 {
-/
-/
-Leave
-the
-options
-to
-None
-'
-auto
-'
-is
-the
-initial
-value
-.
 autos
 +
 =
@@ -229,7 +214,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -270,7 +255,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -588,7 +573,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input

@@ -142,7 +142,7 @@ width
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -162,7 +162,7 @@ height
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -637,7 +637,7 @@ vertical
 =
 input
 .
-try
+try_parse
 (
 BackgroundRepeatKeyword
 :

@@ -364,7 +364,7 @@ Space
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -983,7 +983,7 @@ input
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1271,7 +1271,7 @@ to_number
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1818,7 +1818,7 @@ input
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -2184,7 +2184,7 @@ Parser
 {
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2213,7 +2213,7 @@ zero
 match
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2248,7 +2248,7 @@ y_origin
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2303,7 +2303,7 @@ x_keyword
 =
 input
 .
-try
+try_parse
 (
 HorizontalPositionKeyword
 :
@@ -2388,7 +2388,7 @@ y_origin
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2502,7 +2502,7 @@ x_keyword
 =
 input
 .
-try
+try_parse
 (
 HorizontalPositionKeyword
 :
@@ -2547,7 +2547,7 @@ depth
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2877,7 +2877,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2914,7 +2914,7 @@ angle
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2941,7 +2941,7 @@ axis
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3068,7 +3068,7 @@ ParseError
 {
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3248,7 +3248,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3305,7 +3305,7 @@ ty
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3332,7 +3332,7 @@ tz
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3484,7 +3484,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3542,7 +3542,7 @@ sy
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3575,7 +3575,7 @@ sz
 =
 input
 .
-try
+try_parse
 (
 |
 i

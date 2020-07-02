@@ -309,7 +309,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 input

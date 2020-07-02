@@ -1718,7 +1718,7 @@ input
 match
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1935,7 +1935,7 @@ important
 :
 input
 .
-try
+try_parse
 (
 parse_important
 )
@@ -2057,7 +2057,7 @@ important
 =
 input
 .
-try
+try_parse
 (
 parse_important
 )

@@ -538,7 +538,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -783,7 +783,7 @@ input
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1085,7 +1085,7 @@ i
 while
 input
 .
-try
+try_parse
 (
 Parser
 :
@@ -1137,7 +1137,7 @@ nested
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1187,7 +1187,7 @@ nested
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1586,7 +1586,7 @@ condition
 =
 input
 .
-try
+try_parse
 (
 SupportsCondition
 :
@@ -2735,7 +2735,7 @@ _
 =
 input
 .
-try
+try_parse
 (
 parse_important
 )

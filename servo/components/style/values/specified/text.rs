@@ -355,7 +355,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 i
@@ -402,7 +402,7 @@ sink
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1082,7 +1082,7 @@ second
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -1596,7 +1596,7 @@ i
 =
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3824,7 +3824,7 @@ i
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -3862,7 +3862,7 @@ s
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -3913,7 +3913,7 @@ shape
 =
 input
 .
-try
+try_parse
 (
 TextEmphasisShapeKeyword
 :
@@ -3930,7 +3930,7 @@ fill
 =
 input
 .
-try
+try_parse
 (
 TextEmphasisFillMode
 :
@@ -3953,7 +3953,7 @@ shape
 =
 input
 .
-try
+try_parse
 (
 TextEmphasisShapeKeyword
 :
@@ -4297,7 +4297,7 @@ horizontal
 =
 input
 .
-try
+try_parse
 (
 |
 input

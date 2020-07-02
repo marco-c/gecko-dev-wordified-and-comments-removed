@@ -854,7 +854,7 @@ inset
 if
 input
 .
-try
+try_parse
 (
 |
 input
@@ -975,7 +975,7 @@ spread
 =
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1066,7 +1066,7 @@ value
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1348,7 +1348,7 @@ url
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -1489,7 +1489,7 @@ Blur
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1529,7 +1529,7 @@ Brightness
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1569,7 +1569,7 @@ Contrast
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1651,7 +1651,7 @@ Grayscale
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1723,7 +1723,7 @@ HueRotate
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1806,7 +1806,7 @@ Invert
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1889,7 +1889,7 @@ Opacity
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -1930,7 +1930,7 @@ Saturate
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -2012,7 +2012,7 @@ Sepia
 (
 i
 .
-try
+try_parse
 (
 |
 i
@@ -2148,7 +2148,7 @@ color
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2198,7 +2198,7 @@ blur
 =
 input
 .
-try
+try_parse
 (
 |
 i
@@ -2243,7 +2243,7 @@ or_else
 |
 input
 .
-try
+try_parse
 (
 |
 i
