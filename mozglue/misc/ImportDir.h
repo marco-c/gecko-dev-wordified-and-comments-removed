@@ -215,9 +215,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 realImportDirectory
+.
+propagateErr
+(
 )
 ;
 }

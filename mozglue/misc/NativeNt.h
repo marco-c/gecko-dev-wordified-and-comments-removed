@@ -5568,9 +5568,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 ppeb
+.
+propagateErr
+(
 )
 ;
 }
@@ -5886,9 +5887,10 @@ isErr
 )
 {
 return
-LAUNCHER_ERROR_FROM_RESULT
-(
 maybePeb
+.
+propagateErr
+(
 )
 ;
 }
