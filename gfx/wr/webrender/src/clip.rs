@@ -1952,8 +1952,10 @@ intersection
 rect
 )
 .
-unwrap
+unwrap_or
 (
+*
+clipped_rect
 )
 }
 ;
