@@ -813,10 +813,8 @@ client
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 42
 )
 ;
