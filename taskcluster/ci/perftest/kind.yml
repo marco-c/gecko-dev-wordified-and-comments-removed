@@ -140,7 +140,7 @@ run
 -
 time
 :
-3600
+10800
 env
 :
 USE_ARTIFACT
@@ -559,9 +559,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 testing
 /
 performance
@@ -778,9 +775,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 testing
 /
 performance
@@ -999,9 +993,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 testing
 /
 performance
@@ -1219,9 +1210,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 testing
 /
 performance
@@ -1486,9 +1474,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 -
 -
 browsertime
@@ -1758,9 +1743,6 @@ MOZ_FETCHES_DIR
 .
 /
 artifacts
--
--
-verbose
 -
 -
 browsertime
