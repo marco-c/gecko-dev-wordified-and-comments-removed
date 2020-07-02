@@ -115,7 +115,7 @@ GetIPCChannel
 >
 mWorkerThread
 =
-PR_GetCurrentThread
+GetCurrentSerialEventTarget
 (
 )
 ;
