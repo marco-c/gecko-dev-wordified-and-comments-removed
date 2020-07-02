@@ -940,6 +940,13 @@ nsresult
 aStatus
 )
 ;
+bool
+DocShellWillDisplayContent
+(
+nsresult
+aStatus
+)
+;
 struct
 ClassifierMatchedInfoParams
 {
