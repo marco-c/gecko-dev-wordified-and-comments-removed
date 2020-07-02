@@ -670,6 +670,9 @@ tests
 =
 [
 {
+hints
+:
+2
 prefValue
 :
 true
@@ -687,14 +690,8 @@ org
 )
 "
 }
-hints
-:
-2
 }
 {
-prefValue
-:
-false
 hints
 :
 1
@@ -702,6 +699,9 @@ originAttributes
 :
 {
 }
+prefValue
+:
+false
 }
 ]
 ;
