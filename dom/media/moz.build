@@ -583,6 +583,11 @@ ChannelMediaDecoder
 h
 '
 '
+CrossGraphTrack
+.
+h
+'
+'
 CubebUtils
 .
 h
@@ -1205,6 +1210,11 @@ cpp
 '
 '
 CloneableWithRangeMediaResource
+.
+cpp
+'
+'
+CrossGraphTrack
 .
 cpp
 '
