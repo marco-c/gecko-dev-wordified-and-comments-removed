@@ -1351,7 +1351,7 @@ self
 .
 config_file_path
 '
-wb
+w
 '
 )
             

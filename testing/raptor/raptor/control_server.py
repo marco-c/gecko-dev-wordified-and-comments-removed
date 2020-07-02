@@ -905,6 +905,15 @@ load
 json_settings
 )
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
                         
 self

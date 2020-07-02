@@ -2846,7 +2846,10 @@ page_cycles
 )
 )
 >
+int
+(
 max_page_cycles
+)
 :
                 
 next_test

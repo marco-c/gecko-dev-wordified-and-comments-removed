@@ -25,6 +25,10 @@ shutil
 import
 copyfile
 rmtree
+from
+six
+import
+string_types
 import
 mozharness
 from
@@ -61,6 +65,14 @@ TBPL_SUCCESS
 TBPL_RETRY
 TBPL_WORST_LEVEL_TUPLE
 )
+from
+mozharness
+.
+base
+.
+python
+import
+Python3Virtualenv
 from
 mozharness
 .
@@ -436,6 +448,7 @@ TestingMixin
 MercurialScript
 CodeCoverageMixin
 AndroidMixin
+Python3Virtualenv
 )
 :
     
@@ -5577,7 +5590,7 @@ if
 isinstance
 (
 value
-basestring
+string_types
 )
 :
                     

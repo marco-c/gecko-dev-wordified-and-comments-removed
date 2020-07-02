@@ -563,12 +563,15 @@ else
         
 middle
 =
+int
+(
 len
 (
 series
 )
 /
 2
+)
         
 return
 0
