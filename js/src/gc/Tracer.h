@@ -983,7 +983,7 @@ JSTracer
 trc
 size_t
 len
-WriteBarriered
+BarrieredBase
 <
 T
 >
