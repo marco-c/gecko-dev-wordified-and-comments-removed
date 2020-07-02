@@ -807,17 +807,11 @@ eager
     
 if
 test_type
-in
-(
+=
+=
 "
 reftest
 "
-"
-print
--
-reftest
-"
-)
 :
         
 executor_kwargs
@@ -4150,17 +4144,11 @@ if
 self
 .
 test_type
-in
-(
+=
+=
 "
 reftest
 "
-"
-print
--
-reftest
-"
-)
 :
             
 profile
@@ -4179,34 +4167,6 @@ enabled
 "
 :
 False
-}
-)
-        
-if
-self
-.
-test_type
-=
-=
-"
-print
--
-reftest
-"
-:
-            
-profile
-.
-set_preferences
-(
-{
-"
-print
-.
-always_print_silent
-"
-:
-True
 }
 )
         

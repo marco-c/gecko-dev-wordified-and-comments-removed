@@ -6193,27 +6193,6 @@ None
 )
             
 "
-web
--
-platform
--
-tests
--
-print
--
-reftest
-"
-:
-(
-self
-.
-path_mod_wpt
-[
-None
-]
-)
-            
-"
 xpcshell
 "
 :

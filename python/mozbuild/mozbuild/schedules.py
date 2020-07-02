@@ -258,18 +258,6 @@ platform
 -
 tests
 -
-print
--
-reftest
-'
-    
-'
-web
--
-platform
--
-tests
--
 reftest
 '
     

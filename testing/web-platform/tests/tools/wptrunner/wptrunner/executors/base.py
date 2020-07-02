@@ -2434,10 +2434,6 @@ convert_result
 =
 reftest_result_converter
     
-is_print
-=
-False
-    
 def
 __init__
 (
@@ -2504,10 +2500,6 @@ TestExecutor
 convert_result
 =
 reftest_result_converter
-    
-is_print
-=
-True
 class
 RefTestImplementation
 (
@@ -2594,7 +2586,6 @@ self
 test
 viewport_size
 dpi
-page_ranges
 )
 :
         
@@ -2627,7 +2618,6 @@ get_screenshot_list
 test
 viewport_size
 dpi
-page_ranges
 )
             
 if
@@ -3518,12 +3508,6 @@ test
 .
 dpi
         
-page_ranges
-=
-test
-.
-page_ranges
-        
 self
 .
 message
@@ -3628,7 +3612,6 @@ get_hash
 node
 viewport_size
 dpi
-page_ranges
 )
                 
 if
@@ -3816,7 +3799,6 @@ retake_screenshot
 node
 viewport_size
 dpi
-page_ranges
 )
                 
 if
@@ -4066,7 +4048,6 @@ self
 node
 viewport_size
 dpi
-page_ranges
 )
 :
         
@@ -4078,12 +4059,8 @@ self
 get_screenshot_list
 (
 node
-                                                 
 viewport_size
-                                                 
 dpi
-                                                 
-page_ranges
 )
         
 if
@@ -4136,7 +4113,6 @@ self
 node
 viewport_size
 dpi
-page_ranges
 )
 :
         
@@ -4152,7 +4128,6 @@ screenshot
 node
 viewport_size
 dpi
-page_ranges
 )
         
 if
