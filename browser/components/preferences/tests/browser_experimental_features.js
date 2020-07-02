@@ -195,6 +195,8 @@ hidden
 ;
 let
 categoryHeader
+;
+categoryHeader
 =
 await
 TestUtils
