@@ -6335,9 +6335,6 @@ get_wpt_group
 (
 self
 test
-depth
-=
-3
 )
 :
         
@@ -6361,27 +6358,6 @@ belongs
 to
 .
         
-If
-a
-custom
-value
-for
-depth
-is
-provided
-it
-will
-override
-the
-default
-        
-value
-of
-3
-path
-components
-.
-        
 Args
 :
             
@@ -6398,19 +6374,6 @@ particular
 suite
 and
 subsuite
-.
-            
-depth
-(
-int
-optional
-)
-:
-Custom
-number
-of
-path
-elements
 .
         
 Returns
@@ -6431,11 +6394,9 @@ to
 "
 "
         
-depth
+components
 =
-depth
-+
-1
+3
 if
 test
 [
@@ -6452,15 +6413,15 @@ _mozilla
 '
 )
 else
-depth
+2
         
 group
 =
-os
+'
+/
+'
 .
-path
-.
-dirname
+join
 (
 test
 [
@@ -6468,30 +6429,17 @@ test
 name
 '
 ]
-)
-        
-while
-group
 .
-count
+split
 (
 '
 /
 '
 )
->
-depth
+[
 :
-            
-group
-=
-os
-.
-path
-.
-dirname
-(
-group
+components
+]
 )
         
 return
