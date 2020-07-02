@@ -1321,6 +1321,13 @@ networkInfo
 response
 .
 headersSize
+waitingTime
+:
+networkInfo
+.
+response
+.
+waitingTime
 }
 )
 ;
