@@ -774,6 +774,12 @@ return
 mReadyPromise
 ;
 }
+uint64_t
+GetBrowsingContextGroupId
+(
+)
+const
+;
 static
 void
 GetActiveExtensions
@@ -993,6 +999,11 @@ mExtensionPageCSP
 ;
 nsString
 mContentScriptCSP
+;
+uint64_t
+mBrowsingContextGroupId
+=
+0
 ;
 bool
 mActive
