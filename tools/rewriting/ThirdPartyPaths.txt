@@ -1443,10 +1443,6 @@ google
 -
 breakpad
 /
-toolkit
-/
-vendor
-/
 tools
 /
 fuzzing
