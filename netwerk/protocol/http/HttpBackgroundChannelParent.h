@@ -101,11 +101,6 @@ OnChannelClosed
 )
 ;
 bool
-OnStartRequestSent
-(
-)
-;
-bool
 OnStartRequest
 (
 const

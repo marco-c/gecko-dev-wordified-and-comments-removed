@@ -217,11 +217,6 @@ RecvDivertMessages
 (
 )
 ;
-IPCResult
-RecvOnStartRequestSent
-(
-)
-;
 void
 ActorDestroy
 (
@@ -251,10 +246,6 @@ CreateBackgroundChannel
 bool
 IsWaitingOnStartRequest
 (
-bool
-aDataFromSocketProcess
-=
-false
 )
 ;
 RefPtr
@@ -265,11 +256,6 @@ mChannelChild
 ;
 bool
 mStartReceived
-=
-false
-;
-bool
-mStartSent
 =
 false
 ;
