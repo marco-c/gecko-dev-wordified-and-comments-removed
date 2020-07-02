@@ -5152,10 +5152,8 @@ bucket
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 42
 )
 ;
@@ -5180,10 +5178,8 @@ default_bucket
 .
 db
 .
-importChanges
+saveLastModified
 (
-{
-}
 43
 )
 ;
