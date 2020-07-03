@@ -4367,9 +4367,13 @@ async
 BlobURLDataRequest
 (
 nsCString
-pBlobURL
+aBlobURL
 nsIPrincipal
-pTriggeringPrincipal
+aTriggeringPrincipal
+nsIPrincipal
+aLoadingPrincipal
+OriginAttributes
+aOriginAttributes
 )
 returns
 (
