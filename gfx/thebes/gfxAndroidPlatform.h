@@ -192,6 +192,12 @@ override
 ;
 protected
 :
+void
+InitAcceleration
+(
+)
+override
+;
 bool
 AccelerateLayersByDefault
 (

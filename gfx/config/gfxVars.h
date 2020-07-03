@@ -415,6 +415,13 @@ FxREmbedded
 bool
 false
 )
+\
+_
+(
+UseAHardwareBufferContent
+bool
+false
+)
 class
 gfxVars
 final

@@ -1132,6 +1132,12 @@ case
 SurfaceDescriptor
 :
 :
+TSurfaceDescriptorAndroidHardwareBuffer
+:
+case
+SurfaceDescriptor
+:
+:
 TSurfaceDescriptorSharedGLTexture
 :
 case
