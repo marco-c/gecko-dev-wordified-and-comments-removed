@@ -2102,7 +2102,15 @@ StartupCache
 *
 cache
 =
+(
 ignoreCache
+|
+|
+!
+XRE_IsParentProcess
+(
+)
+)
 ?
 nullptr
 :
