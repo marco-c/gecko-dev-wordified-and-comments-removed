@@ -987,6 +987,12 @@ obtain
 )
 try
 {
+Suppress
+(
+"
+DEPRECATION
+"
+)
 this
 .
 writeToParcel
