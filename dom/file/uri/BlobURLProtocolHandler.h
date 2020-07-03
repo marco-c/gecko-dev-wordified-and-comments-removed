@@ -203,10 +203,6 @@ const
 nsACString
 &
 aUri
-bool
-aAlsoIfRevoked
-=
-false
 )
 ;
 static
@@ -344,10 +340,6 @@ BlobImpl
 *
 *
 aBlob
-bool
-aAlsoIfRevoked
-=
-false
 )
 ;
 extern

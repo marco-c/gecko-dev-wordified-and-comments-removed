@@ -33,11 +33,6 @@ BlobURL
 h
 '
 '
-BlobURLInputStream
-.
-h
-'
-'
 BlobURLProtocolHandler
 .
 h
@@ -59,11 +54,6 @@ cpp
 '
 '
 BlobURLChannel
-.
-cpp
-'
-'
-BlobURLInputStream
 .
 cpp
 '
