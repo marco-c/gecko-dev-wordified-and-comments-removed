@@ -7474,6 +7474,7 @@ mWindow
 null
 ;
 }
+Deprecated
 Override
 AnyThread
 public
@@ -7486,6 +7487,7 @@ return
 0
 ;
 }
+Deprecated
 Override
 AnyThread
 public
@@ -7523,6 +7525,7 @@ mId
 )
 ;
 }
+Deprecated
 AnyThread
 SuppressWarnings
 (
@@ -7630,6 +7633,7 @@ id
 )
 ;
 }
+Deprecated
 public
 static
 final

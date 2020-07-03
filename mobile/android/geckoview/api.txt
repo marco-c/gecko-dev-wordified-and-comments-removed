@@ -5695,6 +5695,7 @@ purgeHistory
 )
 ;
 method
+Deprecated
 AnyThread
 public
 void
@@ -5911,6 +5912,7 @@ boolean
 )
 ;
 field
+Deprecated
 public
 static
 final
