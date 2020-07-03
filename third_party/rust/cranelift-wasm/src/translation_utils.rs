@@ -8,6 +8,7 @@ environ
 {
 TargetEnvironment
 WasmResult
+WasmType
 }
 ;
 use
@@ -421,6 +422,13 @@ struct
 Global
 {
 pub
+wasm_ty
+:
+crate
+:
+:
+WasmType
+pub
 ty
 :
 ir
@@ -499,6 +507,10 @@ pub
 struct
 Table
 {
+pub
+wasm_ty
+:
+WasmType
 pub
 ty
 :
@@ -726,6 +738,7 @@ environ
 .
 reference_type
 (
+ty
 )
 )
 ty
@@ -917,6 +930,7 @@ environ
 .
 reference_type
 (
+ty
 )
 )
 )
@@ -1461,6 +1475,8 @@ environ
 .
 reference_type
 (
+*
+ty
 )
 )
 ;

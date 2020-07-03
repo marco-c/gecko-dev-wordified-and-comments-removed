@@ -168,9 +168,10 @@ panic
 !
 (
 "
-Expected
+unwrap_reg
+expected
 register
-:
+found
 {
 :
 ?
@@ -210,10 +211,11 @@ panic
 !
 (
 "
-Expected
+unwrap_stack
+expected
 stack
 slot
-:
+found
 {
 :
 ?

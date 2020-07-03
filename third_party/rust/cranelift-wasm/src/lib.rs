@@ -364,6 +364,13 @@ TableIndex
 }
 ;
 pub
+use
+cranelift_frontend
+:
+:
+FunctionBuilder
+;
+pub
 const
 VERSION
 :

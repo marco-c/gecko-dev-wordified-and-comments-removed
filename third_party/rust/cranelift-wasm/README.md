@@ -76,7 +76,7 @@ wasmtime
 /
 blob
 /
-master
+main
 /
 cranelift
 /

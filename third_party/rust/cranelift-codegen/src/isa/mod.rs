@@ -637,6 +637,13 @@ yet
 ]
 Unsupported
 }
+#
+[
+derive
+(
+Clone
+)
+]
 pub
 struct
 Builder

@@ -230,12 +230,16 @@ ImportSectionEntry
 {
 module
 field
+:
+Some
+(
+field
+)
 .
 .
 }
 =
 >
-{
 println
 !
 (
@@ -251,7 +255,6 @@ Import
 module
 field
 )
-}
 ParserState
 :
 :

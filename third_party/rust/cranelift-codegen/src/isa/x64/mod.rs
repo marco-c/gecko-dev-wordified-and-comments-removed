@@ -222,6 +222,7 @@ new
 func
 flags
 )
+?
 )
 ;
 compile
