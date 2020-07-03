@@ -6583,15 +6583,6 @@ runtime
 >
 addTelemetry
 (
-JS_TELEMETRY_GC_MARK_RATE
-markRate
-)
-;
-runtime
--
->
-addTelemetry
-(
 JS_TELEMETRY_GC_MARK_RATE_2
 markRate
 )
