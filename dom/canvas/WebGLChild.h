@@ -31,6 +31,17 @@ IpdlQueue
 .
 h
 "
+#
+include
+"
+mozilla
+/
+dom
+/
+WebGLParent
+.
+h
+"
 namespace
 mozilla
 {
