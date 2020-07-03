@@ -2345,11 +2345,6 @@ uint8_t
 )
 ;
 auto
-start
-=
-data
-;
-auto
 end
 =
 data
