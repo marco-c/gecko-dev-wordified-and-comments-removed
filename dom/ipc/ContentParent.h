@@ -5729,6 +5729,16 @@ const
 int
 &
 aAllowMode
+const
+Maybe
+<
+ContentBlockingNotifier
+:
+:
+StorageAccessPermissionGrantedReason
+>
+&
+aReason
 StorageAccessPermissionGrantedForOriginResolver
 &
 &
