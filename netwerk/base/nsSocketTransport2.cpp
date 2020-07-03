@@ -8223,6 +8223,14 @@ NS_ERROR_NET_TIMEOUT
 mCondition
 !
 =
+NS_BASE_STREAM_CLOSED
+)
+&
+&
+(
+mCondition
+!
+=
 NS_ERROR_PROXY_CONNECTION_REFUSED
 )
 )
