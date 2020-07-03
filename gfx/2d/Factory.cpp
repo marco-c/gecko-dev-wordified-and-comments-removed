@@ -228,6 +228,13 @@ TextureD3D11
 h
 "
 #
+include
+"
+nsWindowsHelpers
+.
+h
+"
+#
 endif
 #
 include
@@ -4569,7 +4576,7 @@ true
 HMODULE
 dwriteModule
 =
-LoadLibraryW
+LoadLibrarySystem32
 (
 L
 "
