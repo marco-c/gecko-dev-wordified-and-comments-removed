@@ -64612,12 +64612,6 @@ UAGXAAVOriginAttributes
 3
 Z
 ?
-GetForceCharset
-nsDocumentViewer
-UAGPBVEncoding
-mozilla
-XZ
-?
 GetHintCharset
 nsDocumentViewer
 UAGPBVEncoding
