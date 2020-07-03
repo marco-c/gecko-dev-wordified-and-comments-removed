@@ -30,6 +30,9 @@ h
 namespace
 mozilla
 {
+class
+CacheAwareZipReader
+;
 namespace
 dom
 {
@@ -680,9 +683,12 @@ aStdFile
 void
 AppendFacesFromOmnijarEntry
 (
-nsZipArchive
+mozilla
+:
+:
+CacheAwareZipReader
 *
-aReader
+aArchive
 const
 nsCString
 &
