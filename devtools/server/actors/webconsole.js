@@ -7160,7 +7160,7 @@ tableItemActor
 =
 this
 .
-actor
+getActorByID
 (
 tableItemGrip
 .
@@ -7285,7 +7285,7 @@ grip
 &
 this
 .
-actor
+getActorByID
 (
 grip
 .

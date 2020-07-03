@@ -1423,7 +1423,7 @@ Promise
 <
 *
 >
-get
+getActorByID
 :
 string
 =

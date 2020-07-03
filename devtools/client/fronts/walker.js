@@ -345,7 +345,7 @@ front
 =
 this
 .
-get
+getActorByID
 (
 id
 )
@@ -1070,7 +1070,7 @@ targetFront
 =
 this
 .
-get
+getActorByID
 (
 targetID
 )
@@ -1188,7 +1188,7 @@ removedFront
 =
 this
 .
-get
+getActorByID
 (
 removed
 )
@@ -1264,7 +1264,7 @@ addedFront
 =
 this
 .
-get
+getActorByID
 (
 added
 )
@@ -1587,7 +1587,7 @@ releasedFront
 =
 this
 .
-get
+getActorByID
 (
 released
 )

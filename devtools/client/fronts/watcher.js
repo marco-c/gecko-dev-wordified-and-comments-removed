@@ -228,7 +228,7 @@ front
 =
 this
 .
-actor
+getActorByID
 (
 form
 .

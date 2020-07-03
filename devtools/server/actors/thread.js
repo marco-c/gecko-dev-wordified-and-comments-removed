@@ -4864,7 +4864,7 @@ this
 .
 _framesPool
 .
-get
+getActorByID
 (
 frameActorID
 )
