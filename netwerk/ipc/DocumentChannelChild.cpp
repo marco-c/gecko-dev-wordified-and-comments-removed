@@ -541,6 +541,14 @@ const
 nsresult
 &
 aLoadGroupStatus
+bool
+aSwitchedProcess
+)
+{
+if
+(
+!
+aSwitchedProcess
 )
 {
 DisconnectChildListeners
@@ -549,6 +557,7 @@ aStatus
 aLoadGroupStatus
 )
 ;
+}
 return
 IPC_OK
 (

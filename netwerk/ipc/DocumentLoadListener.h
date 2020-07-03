@@ -1314,11 +1314,6 @@ mLoadIdentifier
 =
 0
 ;
-bool
-mCancelled
-=
-false
-;
 Maybe
 <
 nsCString
