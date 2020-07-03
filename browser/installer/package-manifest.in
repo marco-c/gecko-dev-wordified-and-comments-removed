@@ -1264,16 +1264,12 @@ browser
 manifest
 RESPATH
 /
-browser
-/
 chrome
 /
 pdfjs
 .
 manifest
 RESPATH
-/
-browser
 /
 chrome
 /

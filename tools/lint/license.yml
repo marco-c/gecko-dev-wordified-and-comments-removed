@@ -53,9 +53,9 @@ content
 panels
 /
 -
-browser
+toolkit
 /
-extensions
+components
 /
 pdfjs
 /
