@@ -8667,7 +8667,7 @@ aOutEndNode
 ;
 static
 void
-CollectTopMostChildNodesCompletelyInRange
+CollectTopMostChildContentsCompletelyInRange
 (
 const
 EditorRawDOMPoint
