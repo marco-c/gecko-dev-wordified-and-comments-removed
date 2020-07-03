@@ -98,20 +98,6 @@ extend
 (
 {
     
-Required
-(
-'
-depname
-'
-default
-=
-'
-build
-'
-)
-:
-text_type
-    
 Optional
 (
 '

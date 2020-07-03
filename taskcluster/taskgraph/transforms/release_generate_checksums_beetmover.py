@@ -89,7 +89,6 @@ task_description_schema
 from
 voluptuous
 import
-Required
 Optional
 transforms
 =
@@ -103,20 +102,6 @@ schema
 extend
 (
 {
-    
-Required
-(
-'
-depname
-'
-default
-=
-'
-build
-'
-)
-:
-text_type
     
 Optional
 (

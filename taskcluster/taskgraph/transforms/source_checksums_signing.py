@@ -71,7 +71,6 @@ task_description_schema
 from
 voluptuous
 import
-Required
 Optional
 checksums_signing_description_schema
 =
@@ -80,20 +79,6 @@ schema
 extend
 (
 {
-    
-Required
-(
-'
-depname
-'
-default
-=
-'
-beetmover
-'
-)
-:
-text_type
     
 Optional
 (

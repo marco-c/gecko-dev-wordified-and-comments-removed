@@ -73,7 +73,6 @@ task_description_schema
 from
 voluptuous
 import
-Required
 Optional
 repackage_signing_description_schema
 =
@@ -82,20 +81,6 @@ schema
 extend
 (
 {
-    
-Required
-(
-'
-depname
-'
-default
-=
-'
-repackage
-'
-)
-:
-text_type
     
 Optional
 (
