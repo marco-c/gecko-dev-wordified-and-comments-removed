@@ -30,3 +30,16 @@ errors
 false
 )
 ;
+user_pref
+(
+"
+toolkit
+.
+telemetry
+.
+server
+"
+"
+"
+)
+;
