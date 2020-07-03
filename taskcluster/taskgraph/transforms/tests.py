@@ -2070,9 +2070,12 @@ Schema
 (
 {
     
+Required
+(
 '
 description
 '
+)
 :
 text_type
     
@@ -2158,11 +2161,14 @@ text_type
 object
 }
     
+Required
+(
 '
 treeherder
 -
 symbol
 '
+)
 :
 text_type
     
@@ -3020,19 +3026,25 @@ platform
 bool
 )
     
+Required
+(
 '
 build
 -
 platform
 '
+)
 :
 text_type
     
+Required
+(
 '
 build
 -
 label
 '
+)
 :
 text_type
     
@@ -3049,11 +3061,14 @@ label
 :
 text_type
     
+Required
+(
 '
 build
 -
 attributes
 '
+)
 :
 {
 text_type
@@ -3061,11 +3076,14 @@ text_type
 object
 }
     
+Required
+(
 '
 test
 -
 platform
 '
+)
 :
 text_type
     
@@ -3091,11 +3109,14 @@ text_type
     
 )
     
+Required
+(
 '
 test
 -
 name
 '
+)
 :
 text_type
     
@@ -3110,12 +3131,9 @@ text_type
     
 Exclusive
 (
-Optional
-(
 '
 when
 '
-)
 '
 optimization
 '
@@ -3140,12 +3158,9 @@ text_type
     
 Exclusive
 (
-Optional
-(
 '
 optimization
 '
-)
 '
 optimization
 '
@@ -3155,14 +3170,11 @@ OptimizationSchema
     
 Exclusive
 (
-Optional
-(
 '
 schedules
 -
 component
 '
-)
 '
 optimization
 '
@@ -3269,14 +3281,20 @@ Any
 text_type
 None
 {
+Required
+(
 '
 index
 '
+)
 :
 text_type
+Required
+(
 '
 name
 '
+)
 :
 text_type
 }
@@ -3309,9 +3327,6 @@ text_type
     
 }
 }
-required
-=
-True
 )
 transforms
 .
