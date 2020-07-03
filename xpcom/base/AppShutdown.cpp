@@ -658,7 +658,7 @@ scache
 StartupCache
 :
 :
-GetSingleton
+GetSingletonNoInit
 (
 )
 )
@@ -708,7 +708,7 @@ scache
 StartupCache
 :
 :
-GetSingleton
+GetSingletonNoInit
 (
 )
 )

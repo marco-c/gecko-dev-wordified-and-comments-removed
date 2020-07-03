@@ -2134,7 +2134,7 @@ scache
 StartupCache
 :
 :
-FullyInitSingleton
+GetSingleton
 (
 )
 ;

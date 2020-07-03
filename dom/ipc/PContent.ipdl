@@ -157,10 +157,6 @@ PScriptCache
 ;
 include
 protocol
-PStartupCache
-;
-include
-protocol
 PSessionStorageObserver
 ;
 include
@@ -1837,9 +1833,6 @@ manages
 PScriptCache
 ;
 manages
-PStartupCache
-;
-manages
 PLoginReputation
 ;
 manages
@@ -2111,13 +2104,6 @@ PScriptCache
 (
 FileDescOrError
 cacheFile
-bool
-wantCacheData
-)
-;
-async
-PStartupCache
-(
 bool
 wantCacheData
 )
