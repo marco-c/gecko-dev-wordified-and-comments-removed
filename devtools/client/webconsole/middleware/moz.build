@@ -77,4 +77,11 @@ persistence
 .
 js
 '
+'
+performance
+-
+marker
+.
+js
+'
 )
