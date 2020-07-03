@@ -423,14 +423,9 @@ nsIWebPageDescriptor
 ;
 pageLoader
 .
-loadPage
+loadPageAsViewSource
 (
 pageDescriptor
-Ci
-.
-nsIWebPageDescriptor
-.
-DISPLAY_AS_SOURCE
 )
 ;
 }
