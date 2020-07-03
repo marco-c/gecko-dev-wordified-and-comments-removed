@@ -2872,6 +2872,14 @@ mallocSizeOf
 ;
 }
 void
+runTaskLocked
+(
+AutoLockHelperThreadState
+&
+locked
+)
+;
+void
 runTask
 (
 )
