@@ -335,16 +335,13 @@ paths
 text_type
 ]
         
-Required
+Optional
 (
 '
 comm
 -
 checkout
 '
-default
-=
-False
 )
 :
 bool

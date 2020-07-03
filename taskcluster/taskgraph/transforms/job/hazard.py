@@ -101,14 +101,11 @@ mozconfig
 :
 text_type
     
-Required
+Optional
 (
 '
 secrets
 '
-default
-=
-False
 )
 :
 Any
