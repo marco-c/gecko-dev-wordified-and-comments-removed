@@ -1618,12 +1618,8 @@ message
 -
 item
 button
-:
-not
-(
 .
-primary
-)
+show
 "
 )
 .
