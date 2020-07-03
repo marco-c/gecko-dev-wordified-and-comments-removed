@@ -7296,10 +7296,8 @@ value
 ;
 }
 }
-for
-(
 EditorDOMPointInText
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 =
 EditorDOMPointInText
 :
@@ -7313,6 +7311,13 @@ ContainerAsText
 (
 )
 )
+;
+for
+(
+EditorDOMPointInText
+atEndOfPreviousTextNode
+=
+afterLastWhiteSpace
 ;
 ;
 )
@@ -7336,7 +7341,7 @@ IsSet
 )
 {
 return
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 ;
 }
 if
@@ -7366,7 +7371,7 @@ IsCharASCIISpace
 )
 {
 return
-atEndOfPreviousTextNode
+afterLastWhiteSpace
 ;
 }
 Maybe
@@ -7408,6 +7413,8 @@ value
 )
 ;
 }
+afterLastWhiteSpace
+=
 atEndOfPreviousTextNode
 =
 EditorDOMPointInText
@@ -7505,10 +7512,8 @@ firstASCIIWhiteSpaceOffset
 ;
 }
 }
-for
-(
 EditorDOMPointInText
-atStartOfPreviousTextNode
+atLastWhiteSpace
 =
 EditorDOMPointInText
 (
@@ -7519,6 +7524,13 @@ ContainerAsText
 )
 0
 )
+;
+for
+(
+EditorDOMPointInText
+atStartOfPreviousTextNode
+=
+atLastWhiteSpace
 ;
 ;
 )
@@ -7542,7 +7554,7 @@ IsSet
 )
 {
 return
-atStartOfPreviousTextNode
+atLastWhiteSpace
 ;
 }
 if
@@ -7572,7 +7584,7 @@ IsCharASCIISpace
 )
 {
 return
-atStartOfPreviousTextNode
+atLastWhiteSpace
 ;
 }
 uint32_t
@@ -7603,6 +7615,8 @@ firstASCIIWhiteSpaceOffset
 )
 ;
 }
+atLastWhiteSpace
+=
 atStartOfPreviousTextNode
 =
 EditorDOMPointInText
