@@ -67,13 +67,11 @@ browserRequire
 "
 raw
 !
-chrome
-:
-/
-/
 devtools
 /
-skin
+client
+/
+themes
 /
 variables
 .

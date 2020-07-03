@@ -23,7 +23,7 @@ sourceName
 devtools
 \
 /
-content
+client
 \
 /
 debugger
