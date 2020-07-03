@@ -1057,6 +1057,12 @@ GetContainer
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 NS_WARNING_ASSERTION
 (
 !

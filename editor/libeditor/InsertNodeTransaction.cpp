@@ -565,6 +565,12 @@ refChild
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 error

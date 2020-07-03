@@ -462,6 +462,12 @@ refContent
 error
 )
 ;
+error
+.
+WouldReportJSException
+(
+)
+;
 if
 (
 error

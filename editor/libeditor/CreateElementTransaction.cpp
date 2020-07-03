@@ -796,6 +796,12 @@ ignored
 "
 )
 ;
+aError
+.
+WouldReportJSException
+(
+)
+;
 return
 ;
 }
