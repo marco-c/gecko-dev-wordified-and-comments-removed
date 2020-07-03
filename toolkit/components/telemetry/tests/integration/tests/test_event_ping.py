@@ -169,17 +169,23 @@ object
 "
     
 for
+event
+in
+events
+:
+        
 [
 timestamp
 category
 method
 object_id
-value
-extra
 ]
-in
-events
+=
+event
+[
 :
+4
+]
         
 assert
 timestamp
