@@ -4221,7 +4221,15 @@ replace
 /
 ^
 (
+(
+?
+:
 explicit
+|
+event
+-
+counts
+)
 \
 /
 window
