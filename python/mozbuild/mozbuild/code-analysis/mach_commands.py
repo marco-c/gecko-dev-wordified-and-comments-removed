@@ -2013,6 +2013,21 @@ units
 return
 0
         
+source
+=
+[
+re
+.
+escape
+(
+f
+)
+for
+f
+in
+source
+]
+        
 cwd
 =
 self
