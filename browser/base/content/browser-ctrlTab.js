@@ -596,7 +596,7 @@ ctrlTab
 {
 maxTabPreviews
 :
-6
+7
 get
 panel
 (
