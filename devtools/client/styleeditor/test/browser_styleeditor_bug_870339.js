@@ -163,7 +163,7 @@ i
 {
 ui
 .
-_onNewDocument
+_onOrigSourcesPrefChanged
 (
 )
 ;
@@ -188,7 +188,7 @@ on
 "
 stylesheets
 -
-reset
+refreshed
 "
 function
 onReset
@@ -214,7 +214,7 @@ off
 "
 stylesheets
 -
-reset
+refreshed
 "
 onReset
 )
