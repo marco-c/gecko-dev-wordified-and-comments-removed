@@ -1978,7 +1978,7 @@ update
 =
 res
 .
-gmpAddons
+addons
 .
 find
 (

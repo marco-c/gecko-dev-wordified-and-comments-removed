@@ -255,7 +255,7 @@ resolve
 usedFallback
 :
 true
-gmpAddons
+addons
 :
 [
 .
