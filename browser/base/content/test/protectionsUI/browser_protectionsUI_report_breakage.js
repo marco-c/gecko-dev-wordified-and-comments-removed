@@ -441,11 +441,6 @@ function
 )
 {
 await
-openProtectionsPanel
-(
-)
-;
-await
 TestUtils
 .
 waitForCondition
@@ -464,6 +459,11 @@ hasAttribute
 blocking
 "
 )
+)
+;
+await
+openProtectionsPanel
+(
 )
 ;
 let

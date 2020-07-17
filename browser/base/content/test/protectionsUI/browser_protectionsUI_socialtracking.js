@@ -241,11 +241,6 @@ await
 loaded
 ;
 }
-await
-openProtectionsPanel
-(
-)
-;
 let
 categoryItem
 =
@@ -306,11 +301,6 @@ exception
 )
 ;
 await
-closeProtectionsPanel
-(
-)
-;
-await
 SpecialPowers
 .
 spawn
@@ -337,11 +327,6 @@ socialtracking
 )
 ;
 }
-)
-;
-await
-openProtectionsPanel
-(
 )
 ;
 await
@@ -448,11 +433,6 @@ exception
 when
 appropriate
 "
-)
-;
-await
-closeProtectionsPanel
-(
 )
 ;
 if
@@ -1218,7 +1198,7 @@ noTrackersDetectedDesc
 "
 No
 Trackers
-detected
+Detcted
 should
 be
 shown
@@ -1369,7 +1349,7 @@ noTrackersDetectedDesc
 "
 No
 Trackers
-detected
+Detcted
 should
 be
 shown
@@ -1523,7 +1503,7 @@ noTrackersDetectedDesc
 "
 No
 Trackers
-detected
+Detcted
 should
 be
 hidden
