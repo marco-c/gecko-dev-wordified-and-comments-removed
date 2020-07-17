@@ -206,6 +206,13 @@ uint8_t
 &
 &
 aDataForSniffer
+const
+Maybe
+<
+nsCString
+>
+&
+aAltSvcUsed
 )
 ;
 mozilla
@@ -445,6 +452,13 @@ uint8_t
 &
 &
 aDataForSniffer
+const
+Maybe
+<
+nsCString
+>
+&
+aAltSvcUsed
 )
 ;
 void

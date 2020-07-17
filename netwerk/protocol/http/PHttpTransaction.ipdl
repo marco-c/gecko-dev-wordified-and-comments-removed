@@ -118,6 +118,9 @@ uint8_t
 [
 ]
 dataForSniffer
+nsCString
+?
+altSvcUsed
 )
 ;
 async
