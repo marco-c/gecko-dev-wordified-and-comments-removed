@@ -2260,7 +2260,7 @@ NS_APP_LOCATION
 ;
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 greOmnijar
 =
@@ -2334,7 +2334,7 @@ lf
 }
 RefPtr
 <
-CacheAwareZipReader
+nsZipArchive
 >
 appOmnijar
 =
