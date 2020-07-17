@@ -2228,6 +2228,13 @@ int32_t
 aAppUnitsPerDevPixel
 )
 ;
+async
+SetAllowDeprecatedTls
+(
+bool
+value
+)
+;
 child
 :
 async
