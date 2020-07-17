@@ -37,6 +37,7 @@ GET
 .
 first
 (
+b
 "
 header
 "
@@ -48,6 +49,7 @@ headers
 .
 set
 (
+b
 "
 Origin
 -
@@ -62,11 +64,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -75,6 +79,7 @@ html
 )
     
 return
+u
 "
 "
 "

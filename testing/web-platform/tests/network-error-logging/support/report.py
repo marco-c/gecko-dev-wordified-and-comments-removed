@@ -114,12 +114,14 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
 :
     
 if
+b
 "
 www2
 "
@@ -128,6 +130,7 @@ request
 .
 headers
 [
+b
 "
 Origin
 "
@@ -139,6 +142,7 @@ return
 400
 [
 ]
+u
 "
 CORS
 preflight
@@ -152,11 +156,13 @@ return
 [
       
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -165,6 +171,7 @@ plain
 )
       
 (
+b
 "
 Access
 -
@@ -174,12 +181,14 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
 )
       
 (
+b
 "
 Access
 -
@@ -189,12 +198,14 @@ Allow
 -
 Methods
 "
+b
 "
 post
 "
 )
       
 (
+b
 "
 Access
 -
@@ -204,6 +215,7 @@ Allow
 -
 Headers
 "
+b
 "
 Content
 -
@@ -212,6 +224,7 @@ Type
 )
     
 ]
+u
 "
 CORS
 allowed
@@ -225,6 +238,7 @@ GET
 .
 first
 (
+b
 "
 op
 "
@@ -239,6 +253,7 @@ GET
 .
 first
 (
+b
 "
 reportID
 "
@@ -248,6 +263,7 @@ if
 op
 =
 =
+b
 "
 retrieve_report
 "
@@ -266,6 +282,7 @@ GET
 .
 first
 (
+b
 "
 timeout
 "
@@ -294,6 +311,7 @@ GET
 .
 first
 (
+b
 "
 min_count
 "
@@ -310,11 +328,13 @@ min_count
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -328,6 +348,7 @@ request
 key
 timeout
 min_count
+u
 '
 [
 ]
@@ -353,6 +374,7 @@ new_reports
     
 report
 [
+u
 "
 metadata
 "
@@ -360,6 +382,7 @@ metadata
 =
 {
       
+b
 "
 content_type
 "
@@ -368,6 +391,7 @@ request
 .
 headers
 [
+b
 "
 Content
 -
@@ -439,11 +463,13 @@ reports
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -451,6 +477,7 @@ plain
 "
 )
 ]
+u
 "
 Recorded
 report

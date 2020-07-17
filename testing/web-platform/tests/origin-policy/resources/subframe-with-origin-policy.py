@@ -105,6 +105,7 @@ GET
 .
 first
 (
+b
 "
 test
 "
@@ -118,6 +119,7 @@ GET
 .
 first
 (
+b
 "
 expectedIds
 "
@@ -129,11 +131,13 @@ headers
 .
 set
 (
+b
 "
 Origin
 -
 Policy
 "
+b
 "
 allowed
 =
@@ -149,11 +153,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -163,6 +169,7 @@ html
     
 ret_val
 =
+b
 "
 "
 "
@@ -255,6 +262,7 @@ if
 expected_ids
 !
 =
+b
 "
 undefined
 "
@@ -263,6 +271,7 @@ undefined
 ret_val
 +
 =
+b
 "
 "
 "
