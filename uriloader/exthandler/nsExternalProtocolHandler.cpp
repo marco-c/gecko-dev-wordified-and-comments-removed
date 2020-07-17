@@ -1647,7 +1647,7 @@ nsExtProtocolChannel
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )

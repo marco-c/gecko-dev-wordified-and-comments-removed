@@ -361,7 +361,7 @@ ProcType
 &
 type
 const
-nsACString
+nsAString
 &
 origin
 )
@@ -444,7 +444,7 @@ return
 promise
 ;
 }
-nsCString
+nsString
 originCopy
 (
 origin

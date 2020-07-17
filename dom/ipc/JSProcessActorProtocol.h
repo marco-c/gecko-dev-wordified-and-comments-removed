@@ -20,17 +20,6 @@ include
 "
 mozilla
 /
-dom
-/
-JSActorService
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h
@@ -83,8 +72,6 @@ JSProcessActorProtocol
 final
 :
 public
-JSActorProtocol
-public
 nsIObserver
 {
 public
@@ -135,6 +122,17 @@ aRv
 )
 ;
 struct
+Sided
+{
+Maybe
+<
+nsCString
+>
+mModuleURI
+;
+}
+;
+struct
 ParentSide
 :
 public
@@ -163,7 +161,6 @@ Parent
 (
 )
 const
-override
 {
 return
 mParent
@@ -176,7 +173,6 @@ Child
 (
 )
 const
-override
 {
 return
 mChild
@@ -196,7 +192,7 @@ bool
 Matches
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )
@@ -222,7 +218,7 @@ bool
 RemoteTypePrefixMatches
 (
 const
-nsDependentCSubstring
+nsDependentSubstring
 &
 aRemoteType
 )
@@ -239,7 +235,7 @@ mName
 ;
 nsTArray
 <
-nsCString
+nsString
 >
 mRemoteTypes
 ;

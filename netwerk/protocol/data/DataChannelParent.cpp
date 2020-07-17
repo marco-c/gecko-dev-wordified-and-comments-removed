@@ -207,7 +207,7 @@ DataChannelParent
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )

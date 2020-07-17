@@ -95,7 +95,7 @@ dictionary
 RemotenessOptions
 {
 required
-UTF8String
+DOMString
 ?
 remoteType
 ;

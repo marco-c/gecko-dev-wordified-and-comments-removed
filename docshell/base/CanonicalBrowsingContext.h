@@ -242,7 +242,7 @@ const
 void
 GetCurrentRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 ErrorResult
@@ -599,7 +599,7 @@ RemotenessPromise
 ChangeRemoteness
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 uint64_t

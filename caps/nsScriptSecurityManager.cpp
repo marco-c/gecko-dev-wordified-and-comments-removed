@@ -3999,9 +3999,11 @@ GetRemoteType
 if
 (
 remoteType
-=
-=
+.
+EqualsLiteral
+(
 PRIVILEGEDABOUT_REMOTE_TYPE
+)
 )
 {
 return

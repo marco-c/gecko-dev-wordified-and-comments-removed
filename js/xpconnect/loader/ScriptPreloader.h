@@ -295,7 +295,7 @@ ProcessType
 GetChildProcessType
 (
 const
-nsACString
+nsAString
 &
 remoteType
 )

@@ -70,7 +70,7 @@ void
 AddBlocker
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 ContentParent
@@ -83,7 +83,7 @@ void
 RemoveBlocker
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 ContentParent
@@ -99,7 +99,7 @@ ContentParent
 Take
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )

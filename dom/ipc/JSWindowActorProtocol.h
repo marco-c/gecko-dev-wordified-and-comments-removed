@@ -20,17 +20,6 @@ include
 "
 mozilla
 /
-dom
-/
-JSActorService
-.
-h
-"
-#
-include
-"
-mozilla
-/
 ErrorResult
 .
 h
@@ -101,8 +90,6 @@ JSWindowActorProtocol
 final
 :
 public
-JSActorProtocol
-public
 nsIObserver
 public
 nsIDOMEventListener
@@ -156,6 +143,17 @@ aRv
 )
 ;
 struct
+Sided
+{
+Maybe
+<
+nsCString
+>
+mModuleURI
+;
+}
+;
+struct
 ParentSide
 :
 public
@@ -207,7 +205,6 @@ Parent
 (
 )
 const
-override
 {
 return
 mParent
@@ -220,7 +217,6 @@ Child
 (
 )
 const
-override
 {
 return
 mChild
@@ -262,7 +258,7 @@ nsIURI
 *
 aURI
 const
-nsACString
+nsAString
 &
 aRemoteType
 )
@@ -297,7 +293,7 @@ bool
 RemoteTypePrefixMatches
 (
 const
-nsDependentCSubstring
+nsDependentSubstring
 &
 aRemoteType
 )
@@ -338,7 +334,7 @@ mMatches
 ;
 nsTArray
 <
-nsCString
+nsString
 >
 mRemoteTypes
 ;

@@ -3384,7 +3384,7 @@ ChildID
 =
 0
 ;
-UTF8String
+DOMString
 origin
 =
 "

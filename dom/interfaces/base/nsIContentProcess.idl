@@ -266,7 +266,7 @@ int32_t
 provideProcess
 (
 in
-AUTF8String
+AString
 aType
 in
 Array
