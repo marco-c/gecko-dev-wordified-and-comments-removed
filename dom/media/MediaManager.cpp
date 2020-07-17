@@ -24130,6 +24130,9 @@ OUTPUT
 if
 (
 outputDevice
+&
+&
+outputDevice
 -
 >
 GroupID
