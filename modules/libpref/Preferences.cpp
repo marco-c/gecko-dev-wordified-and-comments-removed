@@ -23921,6 +23921,7 @@ typename
 T
 >
 static
+MOZ_NEVER_INLINE
 void
 AddMirror
 (
