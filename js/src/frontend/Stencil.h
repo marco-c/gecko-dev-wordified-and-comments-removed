@@ -1244,8 +1244,6 @@ Data
 *
 >
 dataArg
-HandleModuleObject
-module
 Handle
 <
 AbstractScopePtr

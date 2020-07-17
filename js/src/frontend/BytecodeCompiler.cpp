@@ -2590,6 +2590,12 @@ return
 nullptr
 ;
 }
+compilationInfo
+.
+module
+=
+module
+;
 ModuleBuilder
 builder
 (
