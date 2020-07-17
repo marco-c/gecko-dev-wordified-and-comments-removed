@@ -240,11 +240,9 @@ fetches
 fetch
 :
 -
-llvm
+clang
 -
-for
--
-dsymutil
+10
 toolchain
 :
 -
