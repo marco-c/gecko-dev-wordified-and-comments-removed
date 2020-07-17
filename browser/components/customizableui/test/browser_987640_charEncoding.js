@@ -117,6 +117,12 @@ button
 "
 )
 ;
+charEncodingButton
+.
+click
+(
+)
+;
 let
 characterEncodingView
 =
@@ -137,12 +143,6 @@ subviewShownPromise
 subviewShown
 (
 characterEncodingView
-)
-;
-charEncodingButton
-.
-click
-(
 )
 ;
 await
