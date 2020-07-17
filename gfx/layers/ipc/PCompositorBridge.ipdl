@@ -678,6 +678,17 @@ CompositorOptions
 newOptions
 )
 ;
+async
+NotifyJankedAnimations
+(
+LayersId
+id
+uint64_t
+[
+]
+aJankedAnimations
+)
+;
 parent
 :
 async
