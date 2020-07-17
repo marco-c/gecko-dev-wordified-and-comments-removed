@@ -136,6 +136,16 @@ aIsEnabled
 )
 override
 ;
+void
+SetPositionState
+(
+const
+PositionState
+&
+aState
+)
+override
+;
 private
 :
 ~

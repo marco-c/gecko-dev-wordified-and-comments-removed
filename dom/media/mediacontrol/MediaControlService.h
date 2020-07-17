@@ -401,6 +401,9 @@ mFullScreenChangedListener
 MediaEventListener
 mPictureInPictureModeChangedListener
 ;
+MediaEventListener
+mPositionChangedListener
+;
 }
 ;
 void
