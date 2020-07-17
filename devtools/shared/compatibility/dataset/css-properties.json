@@ -90015,16 +90015,7 @@ edge
 version_added
 "
 :
-"
-12
-"
-"
-version_removed
-"
-:
-"
-79
-"
+false
 }
 "
 firefox
@@ -90035,9 +90026,7 @@ firefox
 version_added
 "
 :
-"
-13
-"
+false
 }
 "
 firefox_android
@@ -90048,9 +90037,7 @@ firefox_android
 version_added
 "
 :
-"
-14
-"
+false
 }
 "
 ie
@@ -90061,9 +90048,7 @@ ie
 version_added
 "
 :
-"
-10
-"
+false
 }
 "
 opera
@@ -90096,9 +90081,7 @@ safari
 version_added
 "
 :
-"
-8
-"
+false
 }
 "
 safari_ios
@@ -90109,9 +90092,7 @@ safari_ios
 version_added
 "
 :
-"
-8
-"
+false
 }
 "
 samsunginternet_android
@@ -90145,7 +90126,7 @@ status
 experimental
 "
 :
-false
+true
 "
 standard_track
 "
@@ -123561,6 +123542,7 @@ prefix
 "
 -
 webkit
+-
 "
 }
 ]
@@ -123593,6 +123575,7 @@ prefix
 "
 -
 webkit
+-
 "
 }
 ]
@@ -283662,6 +283645,7 @@ prefix
 "
 -
 webkit
+-
 "
 "
 version_added
