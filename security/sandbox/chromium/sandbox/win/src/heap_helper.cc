@@ -340,7 +340,10 @@ base
 win
 :
 :
-VERSION_WIN10
+Version
+:
+:
+WIN10
 )
 {
 return

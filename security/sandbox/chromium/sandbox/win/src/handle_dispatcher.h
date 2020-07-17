@@ -78,7 +78,7 @@ SetupService
 InterceptionManager
 *
 manager
-int
+IpcTag
 service
 )
 override
