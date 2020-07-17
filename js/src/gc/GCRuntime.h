@@ -3545,6 +3545,8 @@ nonIncremental
 void
 collectNursery
 (
+JSGCInvocationKind
+kind
 JS
 :
 :

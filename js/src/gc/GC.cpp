@@ -35577,6 +35577,12 @@ budget
 {
 collectNursery
 (
+gckind
+.
+valueOr
+(
+GC_NORMAL
+)
 reason
 gcstats
 :
@@ -37922,6 +37928,7 @@ return
 }
 collectNursery
 (
+GC_NORMAL
 reason
 phase
 )
@@ -37967,6 +37974,8 @@ GCRuntime
 :
 collectNursery
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -38089,6 +38098,7 @@ nursery
 .
 collect
 (
+kind
 reason
 )
 ;

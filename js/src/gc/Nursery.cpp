@@ -4976,6 +4976,8 @@ Nursery
 :
 collect
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -5259,6 +5261,7 @@ tenuredCells
 }
 maybeResizeNursery
 (
+kind
 reason
 )
 ;
@@ -7818,6 +7821,8 @@ Nursery
 :
 maybeResizeNursery
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -7857,6 +7862,7 @@ Clamp
 (
 targetSize
 (
+kind
 reason
 )
 tunables
@@ -8008,6 +8014,8 @@ Nursery
 :
 targetSize
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -8017,6 +8025,12 @@ reason
 {
 if
 (
+kind
+=
+=
+GC_SHRINK
+|
+|
 gc
 :
 :

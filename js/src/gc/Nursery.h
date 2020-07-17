@@ -1394,6 +1394,8 @@ MaxNurseryBufferSize
 void
 collect
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -3056,6 +3058,8 @@ sweepMapAndSetObjects
 void
 maybeResizeNursery
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
@@ -3066,6 +3070,8 @@ reason
 size_t
 targetSize
 (
+JSGCInvocationKind
+kind
 JS
 :
 :
