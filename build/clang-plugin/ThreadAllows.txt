@@ -120,6 +120,7 @@ URL
 Classifier
 Update
 Watcher
+VRService
 VsyncIOThread
 Wifi
 Monitor
