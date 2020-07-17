@@ -60,6 +60,13 @@ job
 -
 defaults
 :
+attributes
+:
+local
+-
+toolchain
+:
+true
 description
 :
 "
@@ -162,13 +169,6 @@ dump
 -
 syms
 :
-attributes
-:
-local
--
-toolchain
-:
-true
 treeherder
 :
 symbol
