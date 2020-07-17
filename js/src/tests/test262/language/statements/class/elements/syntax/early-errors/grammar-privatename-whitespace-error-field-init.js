@@ -1,0 +1,13 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+#
+x
+=
+1
+;
+}

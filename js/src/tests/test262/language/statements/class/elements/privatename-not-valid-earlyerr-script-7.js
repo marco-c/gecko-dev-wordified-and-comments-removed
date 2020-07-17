@@ -1,0 +1,14 @@
+DONOTEVALUATE
+(
+)
+;
+obj
+=
+{
+}
+;
+obj
+.
+#
+x
+;

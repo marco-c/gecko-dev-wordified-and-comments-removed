@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+class
+C
+{
+#
+m
+;
+#
+m
+(
+)
+{
+}
+}

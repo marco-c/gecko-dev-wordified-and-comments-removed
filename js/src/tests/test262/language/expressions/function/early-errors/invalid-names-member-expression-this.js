@@ -1,0 +1,17 @@
+DONOTEVALUATE
+(
+)
+;
+var
+fn
+=
+function
+(
+)
+{
+this
+.
+#
+x
+}
+;
