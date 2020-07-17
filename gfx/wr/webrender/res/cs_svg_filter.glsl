@@ -399,9 +399,9 @@ mix
 (
 uv0
 uv1
-quad_position
-(
-)
+aPosition
+.
+xy
 )
 ;
 return
@@ -442,9 +442,9 @@ target_rect
 .
 size
 *
-quad_position
-(
-)
+aPosition
+.
+xy
 ;
 RenderTaskCommonData
 input_1_task

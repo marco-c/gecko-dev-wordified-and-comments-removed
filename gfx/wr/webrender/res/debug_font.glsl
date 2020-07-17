@@ -59,7 +59,7 @@ MPL
 #
 include
 shared
-debug_shared
+shared_other
 varying
 vec2
 vColorTexCoord

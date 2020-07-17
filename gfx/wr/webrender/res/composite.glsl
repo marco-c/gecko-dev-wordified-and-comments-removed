@@ -274,9 +274,9 @@ aDeviceRect
 .
 xy
 +
-quad_position
-(
-)
+aPosition
+.
+xy
 *
 aDeviceRect
 .

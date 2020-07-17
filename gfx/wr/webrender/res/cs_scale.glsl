@@ -170,13 +170,6 @@ texture_size
 xyxy
 ;
 vec2
-quad_pos
-=
-quad_position
-(
-)
-;
-vec2
 pos
 =
 aScaleTargetRect
@@ -187,7 +180,9 @@ aScaleTargetRect
 .
 zw
 *
-quad_pos
+aPosition
+.
+xy
 ;
 vUv
 .
@@ -202,7 +197,9 @@ src_rect
 .
 size
 *
-quad_pos
+aPosition
+.
+xy
 )
 /
 texture_size
