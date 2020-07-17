@@ -103,6 +103,11 @@ UrlbarPrefs
 jsm
 '
 '
+UrlbarProviderAutofill
+.
+jsm
+'
+'
 UrlbarProviderExtension
 .
 jsm
