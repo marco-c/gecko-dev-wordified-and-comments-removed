@@ -1988,9 +1988,6 @@ ModuleSharedContext
 JSContext
 *
 cx
-ModuleObject
-*
-module
 CompilationInfo
 &
 compilationInfo
@@ -2014,11 +2011,6 @@ Directives
 true
 )
 extent
-)
-module_
-(
-cx
-module
 )
 bindings
 (
