@@ -813,6 +813,13 @@ _Nullable
 )
 moxEndTextMarker
 ;
+-
+(
+id
+_Nullable
+)
+moxSelectedTextMarkerRange
+;
 #
 pragma
 mark
