@@ -39,7 +39,7 @@ ProcType
 &
 type
 const
-nsAString
+nsACString
 &
 origin
 )

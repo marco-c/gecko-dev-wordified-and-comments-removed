@@ -3189,11 +3189,9 @@ parent
 GetRemoteType
 (
 )
-.
-EqualsLiteral
-(
+=
+=
 FILE_REMOTE_TYPE
-)
 ;
 NS_ReleaseOnMainThread
 (

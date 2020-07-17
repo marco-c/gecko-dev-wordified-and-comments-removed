@@ -123,7 +123,7 @@ matches
 ;
 sequence
 <
-DOMString
+UTF8String
 >
 remoteTypes
 ;

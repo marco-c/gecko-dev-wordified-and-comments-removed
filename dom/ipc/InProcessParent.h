@@ -112,7 +112,7 @@ aActor
 )
 ;
 const
-nsAString
+nsACString
 &
 GetRemoteType
 (
@@ -121,7 +121,7 @@ const
 override
 {
 return
-VoidString
+VoidCString
 (
 )
 ;

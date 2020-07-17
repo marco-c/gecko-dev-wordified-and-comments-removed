@@ -117,7 +117,7 @@ final
 ;
 virtual
 const
-nsAString
+nsACString
 &
 GetRemoteType
 (

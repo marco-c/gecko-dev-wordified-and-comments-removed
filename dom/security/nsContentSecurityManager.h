@@ -126,7 +126,7 @@ aFinalURI
 nsContentPolicyType
 aContentPolicyType
 const
-nsAString
+nsACString
 &
 aRemoteType
 )

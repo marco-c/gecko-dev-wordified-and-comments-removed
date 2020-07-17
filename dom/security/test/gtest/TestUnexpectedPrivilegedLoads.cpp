@@ -141,7 +141,7 @@ urlstring
 nsContentPolicyType
 contentType
 ;
-nsString
+nsCString
 remoteType
 ;
 testResults
@@ -244,7 +244,6 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-u
 "
 default
 "
@@ -297,7 +296,6 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-u
 "
 default
 "
@@ -346,7 +344,6 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-u
 "
 webIsolated
 =
@@ -392,7 +389,6 @@ nsIContentPolicy
 :
 :
 TYPE_IMAGE
-u
 "
 default
 "
@@ -429,7 +425,6 @@ nsIContentPolicy
 :
 :
 TYPE_DOCUMENT
-u
 "
 webCOOP
 +
@@ -486,7 +481,6 @@ nsIContentPolicy
 :
 :
 TYPE_SCRIPT
-u
 "
 default
 "
