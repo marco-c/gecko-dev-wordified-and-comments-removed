@@ -904,12 +904,7 @@ IsEditable
 ;
 }
 return
-StaticPrefs
-:
-:
-browser_find_anonymous_content_enabled
-(
-)
+true
 ;
 }
 static
@@ -1055,10 +1050,8 @@ content
 IsInNativeAnonymousSubtree
 (
 )
-)
-{
-if
-(
+&
+&
 !
 ShouldFindAnonymousContent
 (
@@ -1084,7 +1077,6 @@ content
 return
 true
 ;
-}
 }
 if
 (
