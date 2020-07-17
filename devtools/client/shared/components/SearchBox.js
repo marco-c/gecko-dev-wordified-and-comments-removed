@@ -75,7 +75,7 @@ lazyGetter
 (
 this
 "
-AutocompletePopup
+SearchBoxAutocompletePopup
 "
 function
 (
@@ -95,7 +95,7 @@ shared
 /
 components
 /
-AutoCompletePopup
+SearchBoxAutocompletePopup
 "
 )
 )
@@ -760,6 +760,12 @@ case
 ArrowDown
 "
 :
+e
+.
+preventDefault
+(
+)
+;
 autocomplete
 .
 jumpBy
@@ -774,6 +780,12 @@ case
 ArrowUp
 "
 :
+e
+.
+preventDefault
+(
+)
+;
 autocomplete
 .
 jumpBy
@@ -1107,7 +1119,7 @@ onClearButtonClick
 showAutocomplete
 &
 &
-AutocompletePopup
+SearchBoxAutocompletePopup
 (
 {
 autocompleteProvider
