@@ -2080,6 +2080,10 @@ constructor
 results
 name
 =
+"
+TestProvider
+"
++
 Math
 .
 floor
@@ -2161,10 +2165,6 @@ name
 )
 {
 return
-"
-TestProvider
-"
-+
 this
 .
 _name
