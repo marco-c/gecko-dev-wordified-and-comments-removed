@@ -6068,8 +6068,9 @@ blockAddr
 ;
 }
 }
-MOZ_ASSERT_UNREACHABLE
+MOZ_DIAGNOSTIC_ASSERT
 (
+false
 "
 invalid
 shared
