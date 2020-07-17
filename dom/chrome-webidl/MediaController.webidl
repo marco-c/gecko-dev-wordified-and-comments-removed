@@ -219,5 +219,17 @@ pause
 (
 )
 .
+void
+seekTo
+(
+double
+seekTime
+optional
+boolean
+fastSeek
+=
+false
+)
+;
 }
 ;

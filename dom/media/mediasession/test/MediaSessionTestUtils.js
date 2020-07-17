@@ -24,6 +24,9 @@ nexttrack
 skipad
 "
 "
+seekto
+"
+"
 stop
 "
 ]
