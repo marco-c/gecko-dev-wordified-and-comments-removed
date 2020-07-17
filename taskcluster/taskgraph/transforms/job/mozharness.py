@@ -2338,7 +2338,7 @@ taskdesc
 get
 (
 '
-needs
+use
 -
 sccache
 '
