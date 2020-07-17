@@ -1949,6 +1949,7 @@ newConfig
 )
 const
 ;
+mutable
 mozilla
 :
 :

@@ -12249,9 +12249,10 @@ outHistories
 )
 const
 {
-ASSERT_ON_THREAD
+ReentrantMonitorAutoEnter
+enter
 (
-mStsThread
+mTransportMonitor
 )
 ;
 if
