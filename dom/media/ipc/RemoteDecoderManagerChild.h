@@ -83,7 +83,7 @@ GetGPUProcessSingleton
 )
 ;
 static
-nsIThread
+nsISerialEventTarget
 *
 GetManagerThread
 (
