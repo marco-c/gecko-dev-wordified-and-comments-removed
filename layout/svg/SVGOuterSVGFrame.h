@@ -34,7 +34,7 @@ h
 #
 include
 "
-nsISVGSVGFrame
+ISVGSVGFrame
 .
 h
 "
@@ -104,7 +104,7 @@ final
 public
 SVGDisplayContainerFrame
 public
-nsISVGSVGFrame
+ISVGSVGFrame
 {
 typedef
 image

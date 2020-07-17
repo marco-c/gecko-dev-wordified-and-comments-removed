@@ -54,11 +54,6 @@ EXPORTS
 =
 [
 '
-nsSVGDisplayableFrame
-.
-h
-'
-'
 nsSVGIntegrationUtils
 .
 h
@@ -82,6 +77,11 @@ h
 '
 '
 FilterInstance
+.
+h
+'
+'
+ISVGDisplayableFrame
 .
 h
 '

@@ -457,7 +457,7 @@ m
 =
 mMatrixForChildren
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -476,7 +476,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

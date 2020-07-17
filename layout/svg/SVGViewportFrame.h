@@ -25,7 +25,7 @@ h
 #
 include
 "
-nsISVGSVGFrame
+ISVGSVGFrame
 .
 h
 "
@@ -41,7 +41,7 @@ SVGViewportFrame
 public
 SVGDisplayContainerFrame
 public
-nsISVGSVGFrame
+ISVGSVGFrame
 {
 protected
 :

@@ -2818,7 +2818,7 @@ hasSVGLayout
 #
 ifdef
 DEBUG
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 svgFrame
 =
@@ -6423,7 +6423,7 @@ eSVG
 !
 static_cast
 <
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 >
 (

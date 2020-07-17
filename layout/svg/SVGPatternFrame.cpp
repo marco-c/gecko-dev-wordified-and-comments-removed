@@ -61,6 +61,15 @@ include
 "
 mozilla
 /
+ISVGDisplayableFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PresShell
 .
 h
@@ -136,13 +145,6 @@ h
 include
 "
 nsIFrameInlines
-.
-h
-"
-#
-include
-"
-nsSVGDisplayableFrame
 .
 h
 "
@@ -1546,7 +1548,7 @@ patternWithChildren
 mCTM
 )
 ;
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 SVGFrame
 =
@@ -1565,7 +1567,7 @@ SVGFrame
 >
 NotifySVGChanged
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 :
 :
 TRANSFORM_CHANGED

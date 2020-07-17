@@ -11,14 +11,17 @@ nsQueryFrame
 .
 h
 "
+namespace
+mozilla
+{
 class
-nsISVGSVGFrame
+ISVGSVGFrame
 {
 public
 :
 NS_DECL_QUERYFRAME_TARGET
 (
-nsISVGSVGFrame
+ISVGSVGFrame
 )
 virtual
 void
@@ -32,5 +35,6 @@ aFlags
 ;
 }
 ;
+}
 #
 endif

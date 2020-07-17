@@ -164,13 +164,6 @@ h
 #
 include
 "
-nsISVGSVGFrame
-.
-h
-"
-#
-include
-"
 nsLayoutUtils
 .
 h

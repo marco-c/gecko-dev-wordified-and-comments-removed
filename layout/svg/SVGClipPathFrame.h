@@ -39,12 +39,12 @@ h
 class
 gfxContext
 ;
-class
-nsSVGDisplayableFrame
-;
 namespace
 mozilla
 {
+class
+ISVGDisplayableFrame
+;
 class
 PresShell
 ;
@@ -264,7 +264,7 @@ aPoint
 bool
 IsTrivial
 (
-nsSVGDisplayableFrame
+ISVGDisplayableFrame
 *
 *
 aSingleChild
