@@ -1420,6 +1420,12 @@ this
 providers
 )
 {
+provider
+.
+queryInstance
+=
+this
+;
 activePromises
 .
 push
@@ -1820,6 +1826,12 @@ searchString
 }
 "
 )
+;
+provider
+.
+queryInstance
+=
+null
 ;
 provider
 .
