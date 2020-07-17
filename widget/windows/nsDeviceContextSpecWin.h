@@ -305,8 +305,6 @@ private
 nsPrinterListWin
 (
 )
-=
-default
 ;
 }
 ;
