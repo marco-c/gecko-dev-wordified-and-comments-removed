@@ -80,6 +80,9 @@ attribute
 long
 osPid
 ;
+[
+implicit_jscontext
+]
 JSProcessActorParent
 getActor
 (
@@ -101,7 +104,7 @@ notxpcom
 nostdcall
 ]
 ContentParentPtr
-asContentParent
+AsContentParent
 (
 )
 ;
