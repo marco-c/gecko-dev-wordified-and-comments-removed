@@ -8238,7 +8238,7 @@ XDR_DECODE
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >
@@ -16946,7 +16946,7 @@ false
 ;
 }
 return
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >
@@ -17582,7 +17582,7 @@ isPrimitive
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

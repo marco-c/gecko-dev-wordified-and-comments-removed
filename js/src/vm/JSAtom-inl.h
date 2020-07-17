@@ -341,7 +341,7 @@ allowGC
 >
 inline
 bool
-ValueToId
+PrimitiveValueToId
 (
 JSContext
 *
@@ -368,6 +368,15 @@ MutableHandleType
 idp
 )
 {
+MOZ_ASSERT
+(
+v
+.
+isPrimitive
+(
+)
+)
+;
 if
 (
 v

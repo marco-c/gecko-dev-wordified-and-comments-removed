@@ -3812,7 +3812,7 @@ isString
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

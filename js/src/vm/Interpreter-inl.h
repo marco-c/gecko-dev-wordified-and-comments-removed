@@ -1164,7 +1164,14 @@ isObject
 )
 &
 &
-ValueToId
+idValue
+.
+isPrimitive
+(
+)
+&
+&
+PrimitiveValueToId
 <
 NoGC
 >

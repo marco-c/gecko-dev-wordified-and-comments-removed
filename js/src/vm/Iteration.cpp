@@ -6574,7 +6574,7 @@ idp
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >

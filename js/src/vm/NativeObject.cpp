@@ -12443,7 +12443,7 @@ index
 if
 (
 !
-ValueToId
+PrimitiveValueToId
 <
 CanGC
 >
