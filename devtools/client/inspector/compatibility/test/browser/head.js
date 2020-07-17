@@ -26,6 +26,8 @@ client
 /
 inspector
 /
+rules
+/
 test
 /
 head
