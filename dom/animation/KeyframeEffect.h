@@ -1007,11 +1007,6 @@ ResetIsRunningOnCompositor
 (
 )
 ;
-void
-ResetPartialPrerendered
-(
-)
-;
 bool
 ShouldBlockAsyncTransformAnimations
 (
