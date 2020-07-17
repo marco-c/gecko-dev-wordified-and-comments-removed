@@ -34418,7 +34418,7 @@ shapeContainerClass
 if
 (
 !
-obj
+wrapper
 )
 {
 return
