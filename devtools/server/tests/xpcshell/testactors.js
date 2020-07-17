@@ -881,11 +881,11 @@ makeDebugger
 ;
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 =
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 .
 bind
 (
@@ -1199,7 +1199,7 @@ name
 ]
 ;
 }
-notifyResourceAvailable
+onResourceAvailable
 (
 resources
 )

@@ -727,11 +727,11 @@ this
 ;
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 =
 this
 .
-notifyResourceAvailable
+onResourceAvailable
 .
 bind
 (
@@ -776,7 +776,7 @@ resourceTypes
 )
 ;
 }
-notifyResourceAvailable
+onResourceAvailable
 (
 resources
 )
