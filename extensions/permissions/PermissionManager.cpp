@@ -10685,6 +10685,10 @@ OriginAttributesPattern
 aPattern
 )
 {
+EnsureReadCompleted
+(
+)
+;
 Vector
 <
 Tuple
