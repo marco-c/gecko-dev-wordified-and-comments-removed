@@ -86,16 +86,6 @@ None
             
 continue
         
-if
-module
-.
-__file__
-is
-None
-:
-            
-continue
-        
 path
 =
 module

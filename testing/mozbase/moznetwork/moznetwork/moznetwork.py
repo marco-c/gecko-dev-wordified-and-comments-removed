@@ -383,10 +383,6 @@ stderr
 subprocess
 .
 STDOUT
-                              
-universal_newlines
-=
-True
 )
 .
 stdout

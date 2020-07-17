@@ -18,8 +18,6 @@ from
 multiprocessing
 import
 cpu_count
-import
-six
 from
 concurrent
 .
@@ -511,7 +509,9 @@ python
 default
 =
 '
-3
+2
+.
+7
 '
                      
 help
@@ -802,6 +802,16 @@ try
             
 tempdir
 =
+os
+.
+environ
+[
+b
+'
+PYTHON_TEST_TMP
+'
+]
+=
 str
 (
 tempfile
@@ -818,38 +828,6 @@ test
 '
 )
 )
-            
-if
-six
-.
-PY2
-:
-                
-os
-.
-environ
-[
-b
-'
-PYTHON_TEST_TMP
-'
-]
-=
-tempdir
-            
-else
-:
-                
-os
-.
-environ
-[
-'
-PYTHON_TEST_TMP
-'
-]
-=
-tempdir
             
 return
 self
@@ -1782,15 +1760,6 @@ line
 )
 :
             
-line
-=
-six
-.
-ensure_str
-(
-line
-)
-            
 if
 not
 file_displayed_test
@@ -1835,6 +1804,7 @@ True
 )
             
 if
+b
 '
 FAILED
 '
@@ -1843,6 +1813,7 @@ line
 .
 rsplit
 (
+b
 '
 '
 1
@@ -1859,9 +1830,11 @@ line
 .
 replace
 (
+b
 '
 FAILED
 '
+b
 '
 TEST
 -
@@ -1916,12 +1889,6 @@ copy
 (
 )
         
-if
-six
-.
-PY2
-:
-            
 env
 [
 b
@@ -1935,26 +1902,6 @@ b
 1
 '
         
-else
-:
-            
-env
-[
-'
-PYTHONDONTWRITEBYTECODE
-'
-]
-=
-'
-1
-'
-        
-if
-six
-.
-PY2
-:
-            
 env
 [
 b
@@ -1973,18 +1920,6 @@ utf
 8
 '
 )
-        
-else
-:
-            
-env
-[
-'
-PYTHONEXECUTABLE
-'
-]
-=
-python
         
 proc
 =

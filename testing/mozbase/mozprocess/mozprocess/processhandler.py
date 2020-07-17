@@ -6488,12 +6488,7 @@ output_timeout
                 
 callback
 (
-six
-.
-ensure_str
-(
 line
-)
 .
 rstrip
 (
