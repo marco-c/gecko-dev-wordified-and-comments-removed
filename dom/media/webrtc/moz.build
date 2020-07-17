@@ -157,11 +157,6 @@ MediaEngineRemoteVideoSource
 cpp
 '
 '
-MediaEngineTabVideoSource
-.
-cpp
-'
-'
 MediaEngineWebRTCAudio
 .
 cpp
