@@ -181,9 +181,6 @@ ManifestImageResource
 ImageResource
 {
 USVString
-platform
-;
-USVString
 purpose
 ;
 }
