@@ -412,11 +412,6 @@ ScriptStencil
 >
 topLevel
 ;
-bool
-topLevelAsmJS
-=
-false
-;
 JS
 :
 :

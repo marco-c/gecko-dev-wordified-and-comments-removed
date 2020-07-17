@@ -3157,7 +3157,13 @@ index
 ;
 compilationInfo
 .
-topLevelAsmJS
+topLevel
+.
+get
+(
+)
+.
+isAsmJSModule
 =
 true
 ;

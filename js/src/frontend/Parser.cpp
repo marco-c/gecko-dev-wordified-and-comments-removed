@@ -10161,9 +10161,9 @@ get
 ;
 if
 (
-compilationInfo
+stencil
 .
-topLevelAsmJS
+isAsmJSModule
 )
 {
 return
