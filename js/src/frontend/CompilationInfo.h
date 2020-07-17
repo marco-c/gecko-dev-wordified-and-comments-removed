@@ -721,6 +721,15 @@ ScopeCreationData
 >
 scopeCreationData
 ;
+JS
+:
+:
+Rooted
+<
+StencilModuleMetadata
+>
+moduleMetadata
+;
 HashMap
 <
 FunctionIndex
@@ -879,6 +888,10 @@ topLevel
 cx
 )
 scopeCreationData
+(
+cx
+)
+moduleMetadata
 (
 cx
 )
