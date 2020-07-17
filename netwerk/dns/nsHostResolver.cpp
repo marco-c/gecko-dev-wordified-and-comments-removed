@@ -2529,7 +2529,7 @@ gTRRService
 gTRRService
 -
 >
-TRRBlacklist
+AddToBlocklist
 (
 nsCString
 (

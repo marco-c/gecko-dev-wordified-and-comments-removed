@@ -1206,7 +1206,7 @@ UseDefaultServer
 gTRRService
 -
 >
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 mHost
 mOriginSuffix

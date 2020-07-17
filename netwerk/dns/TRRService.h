@@ -267,7 +267,7 @@ pb
 override
 ;
 void
-TRRBlacklist
+AddToBlocklist
 (
 const
 nsACString
@@ -284,7 +284,7 @@ aParentsToo
 )
 ;
 bool
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 const
 nsACString
@@ -486,7 +486,7 @@ aURI
 )
 ;
 bool
-IsDomainBlacklisted
+IsDomainBlocked
 (
 const
 nsACString
@@ -570,7 +570,7 @@ Atomic
 uint32_t
 Relaxed
 >
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 ;
 Mutex
 mLock

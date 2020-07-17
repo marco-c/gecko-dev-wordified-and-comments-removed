@@ -306,7 +306,7 @@ mInitialized
 (
 false
 )
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 (
 72
 *
@@ -1290,7 +1290,7 @@ LOG
 "
 TRRService
 clearing
-blacklist
+blocklist
 because
 of
 change
@@ -1857,7 +1857,7 @@ secs
 )
 )
 {
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 =
 secs
 ;
@@ -3993,7 +3993,7 @@ bool
 TRRService
 :
 :
-IsDomainBlacklisted
+IsDomainBlocked
 (
 const
 nsACString
@@ -4144,7 +4144,7 @@ ToInteger
 code
 )
 +
-mTRRBlacklistExpireTime
+mTRRBlocklistExpireTime
 ;
 int32_t
 expire
@@ -4179,7 +4179,7 @@ s
 ]
 is
 TRR
-blacklisted
+blocklisted
 \
 n
 "
@@ -4220,7 +4220,7 @@ bool
 TRRService
 :
 :
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 const
 nsACString
@@ -4260,7 +4260,7 @@ host
 s
 ]
 is
-blacklisted
+blocklisted
 "
 aHost
 .
@@ -4301,7 +4301,7 @@ true
 }
 if
 (
-IsDomainBlacklisted
+IsDomainBlocked
 (
 aHost
 aOriginSuffix
@@ -4351,7 +4351,7 @@ dot
 ;
 if
 (
-IsDomainBlacklisted
+IsDomainBlocked
 (
 domain
 aOriginSuffix
@@ -4638,14 +4638,14 @@ false
 ;
 }
 class
-ProxyBlacklist
+ProxyBlockList
 :
 public
 Runnable
 {
 public
 :
-ProxyBlacklist
+ProxyBlockList
 (
 TRRService
 *
@@ -4670,7 +4670,7 @@ mozilla
 Runnable
 (
 "
-proxyBlackList
+ProxyBlockList
 "
 )
 mService
@@ -4704,7 +4704,7 @@ override
 mService
 -
 >
-TRRBlacklist
+AddToBlocklist
 (
 mHost
 mOriginSuffix
@@ -4746,7 +4746,7 @@ void
 TRRService
 :
 :
-TRRBlacklist
+AddToBlocklist
 (
 const
 nsACString
@@ -4790,7 +4790,7 @@ NS_IsMainThread
 NS_DispatchToMainThread
 (
 new
-ProxyBlacklist
+ProxyBlockList
 (
 this
 aHost
@@ -4815,7 +4815,7 @@ LOG
 (
 "
 TRR
-blacklist
+blocklist
 %
 s
 \
@@ -4919,7 +4919,7 @@ domain
 ;
 if
 (
-IsTRRBlacklisted
+IsTemporarilyBlocked
 (
 check
 aOriginSuffix
@@ -5564,7 +5564,7 @@ get
 )
 )
 ;
-TRRBlacklist
+AddToBlocklist
 (
 newRRSet
 -
