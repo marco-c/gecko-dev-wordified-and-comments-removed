@@ -4856,6 +4856,11 @@ expectAssertions
 TestRunner
 .
 expectAssertions
+expectChildProcessCrash
+:
+TestRunner
+.
+expectChildProcessCrash
 requestLongerTimeout
 :
 TestRunner
