@@ -101,14 +101,4 @@ WindowSnapshot
 .
 js
 '
-'
-WorkerHandler
-.
-js
-'
-'
-WorkerSimpleTest
-.
-js
-'
 ]

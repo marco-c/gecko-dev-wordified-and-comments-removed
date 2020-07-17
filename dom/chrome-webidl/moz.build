@@ -254,11 +254,6 @@ InspectorUtils
 webidl
 '
 '
-IOUtils
-.
-webidl
-'
-'
 IteratorResult
 .
 webidl
