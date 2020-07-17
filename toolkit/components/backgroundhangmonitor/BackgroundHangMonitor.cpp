@@ -135,6 +135,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+RemoteType
+.
+h
+"
+#
+include
+"
 nsAppDirectoryServiceDefs
 .
 h
