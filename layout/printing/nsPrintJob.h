@@ -347,15 +347,6 @@ aDoTurnOn
 )
 ;
 bool
-HasPrintCallbackCanvas
-(
-)
-{
-return
-mHasMozPrintCallback
-;
-}
-bool
 PrePrintPage
 (
 )
