@@ -650,7 +650,16 @@ bootstrap
 .
 configure_git
 (
+                    
 vcs
+which
+(
+'
+git
+-
+cinnabar
+'
+)
 self
 .
 _context
