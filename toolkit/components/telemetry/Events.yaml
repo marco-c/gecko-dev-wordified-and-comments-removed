@@ -13703,7 +13703,7 @@ firefox
 expiry_version
 :
 "
-77
+never
 "
 record_in_processes
 :
@@ -13789,7 +13789,7 @@ firefox
 expiry_version
 :
 "
-77
+never
 "
 record_in_processes
 :
