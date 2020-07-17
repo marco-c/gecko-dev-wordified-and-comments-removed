@@ -95,6 +95,11 @@ await
 ensureDynamicAboutHome
 (
 browser
+AboutHomeStartupCache
+.
+CACHE_RESULT_SCALARS
+.
+INVALIDATED
 )
 ;
 }

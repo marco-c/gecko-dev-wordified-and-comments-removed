@@ -47,6 +47,11 @@ await
 ensureDynamicAboutHome
 (
 browser
+AboutHomeStartupCache
+.
+CACHE_RESULT_SCALARS
+.
+DOES_NOT_EXIST
 )
 ;
 }
