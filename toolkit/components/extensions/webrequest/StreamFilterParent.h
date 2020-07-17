@@ -617,6 +617,11 @@ mDisconnected
 =
 false
 ;
+bool
+mDisconnectedByOnStartRequest
+=
+false
+;
 nsCOMPtr
 <
 nsISupports
