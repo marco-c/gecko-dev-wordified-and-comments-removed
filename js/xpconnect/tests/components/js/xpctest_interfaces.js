@@ -1,6 +1,6 @@
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -16,7 +16,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -241,7 +241,7 @@ someInteger
 var
 NSGetFactory
 =
-XPCOMUtils
+ComponentUtils
 .
 generateNSGetFactory
 (

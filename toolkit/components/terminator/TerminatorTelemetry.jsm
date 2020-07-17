@@ -5,7 +5,7 @@ strict
 ;
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -21,7 +21,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -177,7 +177,7 @@ d5fb300ddea7
 )
 _xpcom_factory
 :
-XPCOMUtils
+ComponentUtils
 .
 generateSingletonFactory
 (

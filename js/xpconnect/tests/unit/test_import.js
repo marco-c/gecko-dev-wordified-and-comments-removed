@@ -60,7 +60,7 @@ scope
 .
 XPCOMUtils
 .
-generateNSGetFactory
+defineLazyGetter
 )
 "
 function
@@ -227,7 +227,7 @@ module
 .
 XPCOMUtils
 .
-generateNSGetFactory
+defineLazyGetter
 )
 "
 function
@@ -309,7 +309,7 @@ typeof
 (
 XPCOMUtils
 .
-generateNSGetFactory
+defineLazyGetter
 )
 "
 function
@@ -367,7 +367,7 @@ scope2
 .
 XPCOMUtils
 .
-generateNSGetFactory
+defineLazyGetter
 )
 "
 function

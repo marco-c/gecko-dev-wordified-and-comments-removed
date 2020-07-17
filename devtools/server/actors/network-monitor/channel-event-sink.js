@@ -31,7 +31,7 @@ ChromeUtils
 ;
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 require
@@ -45,7 +45,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -277,7 +277,7 @@ NS_OK
 const
 ChannelEventSinkFactory
 =
-XPCOMUtils
+ComponentUtils
 .
 generateSingletonFactory
 (

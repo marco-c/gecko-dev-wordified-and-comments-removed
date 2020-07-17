@@ -24,7 +24,7 @@ jsm
 ;
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -40,7 +40,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -234,7 +234,7 @@ URI_MUST_LOAD_IN_CHILD
 let
 factory
 =
-XPCOMUtils
+ComponentUtils
 .
 _getFactory
 (

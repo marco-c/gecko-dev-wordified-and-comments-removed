@@ -1,6 +1,6 @@
 const
 {
-XPCOMUtils
+ComponentUtils
 }
 =
 ChromeUtils
@@ -16,7 +16,7 @@ gre
 /
 modules
 /
-XPCOMUtils
+ComponentUtils
 .
 jsm
 "
@@ -144,7 +144,7 @@ FAKE_CID
 "
 "
 HELPERAPP_DIALOG_CONTRACT
-XPCOMUtils
+ComponentUtils
 .
 _getFactory
 (
