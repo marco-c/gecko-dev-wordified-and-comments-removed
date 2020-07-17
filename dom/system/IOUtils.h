@@ -345,8 +345,8 @@ PR_CloseDelete
 OpenExistingSync
 (
 const
-char
-*
+nsAString
+&
 aPath
 int32_t
 aFlags
@@ -361,8 +361,8 @@ PR_CloseDelete
 CreateFileSync
 (
 const
-char
-*
+nsAString
+&
 aPath
 int32_t
 aFlags
