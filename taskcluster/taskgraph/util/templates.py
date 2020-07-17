@@ -154,10 +154,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
             
 continue
         
@@ -198,10 +195,7 @@ dest
 key
 ]
 +
-source
-[
-key
-]
+value
             
 continue
         
@@ -210,10 +204,7 @@ dest
 key
 ]
 =
-source
-[
-key
-]
+value
     
 return
 dest
