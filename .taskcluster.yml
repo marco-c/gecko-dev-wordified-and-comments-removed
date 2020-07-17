@@ -651,7 +651,7 @@ fromNow
 year
 '
 }
-trust_domain
+trustDomain
 :
 gecko
 in
@@ -722,7 +722,7 @@ schedulerId
 :
 '
 {
-trust_domain
+trustDomain
 }
 -
 level
@@ -929,7 +929,7 @@ provisionerId
 :
 "
 {
-trust_domain
+trustDomain
 }
 -
 {
@@ -1068,7 +1068,7 @@ then
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1090,7 +1090,7 @@ decision
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1118,7 +1118,7 @@ decision
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1227,7 +1227,7 @@ then
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1259,7 +1259,7 @@ ownTaskId
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1295,7 +1295,7 @@ cron
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1323,7 +1323,7 @@ job_name
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1357,7 +1357,7 @@ job_name
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1404,7 +1404,7 @@ them
 index
 .
 {
-trust_domain
+trustDomain
 }
 .
 v2
@@ -1587,7 +1587,7 @@ action
 project
 -
 {
-trust_domain
+trustDomain
 }
 /
 in
@@ -2065,7 +2065,7 @@ cache
 :
 "
 {
-trust_domain
+trustDomain
 }
 -
 level
