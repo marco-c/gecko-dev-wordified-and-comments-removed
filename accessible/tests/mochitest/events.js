@@ -6548,6 +6548,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aID
 )
 )
@@ -6567,6 +6568,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aID
 )
 )
@@ -6617,6 +6619,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aID
 )
 )
@@ -6726,6 +6729,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aID
 )
 )
@@ -6745,6 +6749,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aID
 )
 )
@@ -6807,6 +6812,7 @@ new
 caretMoveChecker
 (
 0
+true
 aID
 )
 )
@@ -6834,6 +6840,7 @@ new
 caretMoveChecker
 (
 0
+true
 aID
 )
 )
@@ -7083,6 +7090,7 @@ new
 caretMoveChecker
 (
 aExpectedOffset
+true
 this
 .
 target
@@ -7228,6 +7236,7 @@ caretMoveChecker
 this
 .
 offset
+true
 this
 .
 target
@@ -7935,6 +7944,7 @@ function
 caretMoveChecker
 (
 aCaretOffset
+aIsSelectionCollapsed
 aTargetOrFunc
 aTargetFuncArg
 aIsAsync
@@ -7963,14 +7973,19 @@ caretMoveChecker_check
 aEvent
 )
 {
-is
-(
+let
+evt
+=
 aEvent
 .
 QueryInterface
 (
 nsIAccessibleCaretMoveEvent
 )
+;
+is
+(
+evt
 .
 caretOffset
 aCaretOffset
@@ -7978,6 +7993,27 @@ aCaretOffset
 Wrong
 caret
 offset
+for
+"
++
+prettyName
+(
+aEvent
+.
+accessible
+)
+)
+;
+is
+(
+evt
+.
+isSelectionCollapsed
+aIsSelectionCollapsed
+"
+wrong
+collapsed
+value
 for
 "
 +
@@ -8008,6 +8044,7 @@ new
 caretMoveChecker
 (
 aCaretOffset
+true
 aTargetOrFunc
 aTargetFuncArg
 true
