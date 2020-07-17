@@ -549,6 +549,12 @@ updated
 "
 )
 ;
+syncButton
+.
+click
+(
+)
+;
 let
 syncPanel
 =
@@ -574,12 +580,6 @@ syncPanel
 "
 ViewShown
 "
-)
-;
-syncButton
-.
-click
-(
 )
 ;
 await
