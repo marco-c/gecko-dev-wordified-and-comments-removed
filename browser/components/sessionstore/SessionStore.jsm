@@ -19262,6 +19262,12 @@ isBlankPageURL
 (
 uri
 )
+&
+&
+!
+aOptions
+.
+isRemotenessUpdate
 )
 {
 browser
