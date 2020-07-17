@@ -276,7 +276,8 @@ mach
 '
 ]
 =
-'
+(
+"
 python
 -
 test
@@ -294,7 +295,16 @@ subsuite
 {
 subsuite
 }
-'
+"
+                   
+"
+-
+-
+run
+-
+slow
+"
+)
 .
 format
 (

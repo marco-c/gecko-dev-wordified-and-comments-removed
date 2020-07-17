@@ -2147,9 +2147,24 @@ plugin
 p
 '
 '
+mozunit
+.
+pytest_plugin
+'
+            
+'
+-
+p
+'
+'
 no
 :
 cacheprovider
+'
+            
+'
+-
+rsx
 '
             
 module
