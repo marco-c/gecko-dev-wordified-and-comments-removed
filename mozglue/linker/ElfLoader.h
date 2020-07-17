@@ -158,6 +158,7 @@ endif
 int
 __wrap_dladdr
 (
+const
 void
 *
 addr

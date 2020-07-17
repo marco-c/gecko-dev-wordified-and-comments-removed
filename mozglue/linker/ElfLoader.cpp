@@ -665,6 +665,7 @@ return
 int
 __wrap_dladdr
 (
+const
 void
 *
 addr
@@ -712,7 +713,14 @@ Singleton
 .
 GetHandleByPtr
 (
+const_cast
+<
+void
+*
+>
+(
 addr
+)
 )
 ;
 if
