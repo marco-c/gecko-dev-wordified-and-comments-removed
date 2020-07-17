@@ -176,6 +176,17 @@ mozilla
 /
 dom
 /
+BrowserBridgeChild
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 BrowsingContext
 .
 h
