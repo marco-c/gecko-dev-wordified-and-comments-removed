@@ -1583,6 +1583,16 @@ cx
 )
 )
 ;
+if
+(
+!
+array
+)
+{
+return
+nullptr
+;
+}
 RootedValue
 nextValue
 (

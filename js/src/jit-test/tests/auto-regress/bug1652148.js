@@ -1,0 +1,17 @@
+oomTest
+(
+(
+)
+=
+>
+{
+new
+AggregateError
+(
+[
+]
+)
+;
+}
+)
+;
