@@ -973,15 +973,6 @@ JSTracer
 trc
 )
 ;
-bool
-stubDataHasNurseryPointers
-(
-const
-CacheIRStubInfo
-*
-stubInfo
-)
-;
 static
 const
 uint16_t
