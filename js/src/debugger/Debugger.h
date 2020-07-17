@@ -3976,16 +3976,6 @@ obj
 ;
 #
 endif
-static
-Debugger
-*
-fromChildJSObject
-(
-JSObject
-*
-obj
-)
-;
 Zone
 *
 zone
