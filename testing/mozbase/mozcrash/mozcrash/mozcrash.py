@@ -772,6 +772,10 @@ None
 :
             
 if
+six
+.
+PY2
+and
 sys
 .
 stdout
