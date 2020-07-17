@@ -18,6 +18,14 @@ public
 :
 static
 bool
+IsHttpsOnlyModeEnabled
+(
+bool
+aFromPrivateWindow
+)
+;
+static
+bool
 ShouldUpgradeRequest
 (
 nsIURI
