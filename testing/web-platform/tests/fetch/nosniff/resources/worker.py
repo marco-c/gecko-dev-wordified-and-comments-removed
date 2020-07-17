@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -22,6 +23,7 @@ None
     
 content
 =
+b
 "
 /
 /
@@ -34,6 +36,7 @@ here
 content
 +
 =
+b
 "
 \
 n
@@ -42,6 +45,7 @@ n
 content
 +
 =
+b
 "
 this
 .
@@ -74,6 +78,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -83,6 +88,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -94,6 +100,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -120,6 +127,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -

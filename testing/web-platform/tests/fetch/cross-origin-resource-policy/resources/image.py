@@ -2,6 +2,12 @@ import
 os
 .
 path
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -18,6 +24,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -40,14 +47,19 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 green
 .
 png
 "
 )
+u
 "
 rb
 "
@@ -73,6 +85,7 @@ write_status
 )
     
 if
+b
 '
 corp
 '
@@ -88,6 +101,7 @@ writer
 .
 write_header
 (
+b
 "
 cross
 -
@@ -101,6 +115,7 @@ request
 .
 GET
 [
+b
 '
 corp
 '
@@ -108,6 +123,7 @@ corp
 )
     
 if
+b
 '
 acao
 '
@@ -123,6 +139,7 @@ writer
 .
 write_header
 (
+b
 "
 access
 -
@@ -136,6 +153,7 @@ request
 .
 GET
 [
+b
 '
 acao
 '
@@ -148,6 +166,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -174,6 +193,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -

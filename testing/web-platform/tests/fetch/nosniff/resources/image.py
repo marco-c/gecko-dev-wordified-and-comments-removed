@@ -2,6 +2,12 @@ import
 os
 .
 path
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -18,6 +24,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -30,6 +37,7 @@ type
 =
 None
 and
+b
 "
 svg
 "
@@ -39,6 +47,7 @@ type
         
 filename
 =
+u
 "
 green
 -
@@ -52,6 +61,7 @@ else
         
 filename
 =
+u
 "
 blue96x96
 .
@@ -72,8 +82,12 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 .
 .
@@ -94,6 +108,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -124,6 +139,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -133,6 +149,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -144,6 +161,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -170,6 +188,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -

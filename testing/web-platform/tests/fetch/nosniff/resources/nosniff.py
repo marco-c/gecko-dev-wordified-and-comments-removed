@@ -14,6 +14,7 @@ False
     
 output
 =
+b
 "
 HTTP
 /
@@ -35,6 +36,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -50,6 +52,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -73,11 +76,13 @@ GET
 .
 first
 (
+b
 "
 nosniff
 "
 )
 +
+b
 "
 \
 r
@@ -88,6 +93,7 @@ n
 output
 +
 =
+b
 "
 \
 r
@@ -98,6 +104,7 @@ n
 output
 +
 =
+b
 "
 /
 /

@@ -10,6 +10,7 @@ headers
 =
 [
 (
+b
 "
 Cross
 -
@@ -23,6 +24,7 @@ request
 .
 GET
 [
+b
 '
 corp
 '
@@ -31,6 +33,7 @@ corp
 ]
     
 if
+b
 '
 origin
 '
@@ -45,6 +48,7 @@ headers
 append
 (
 (
+b
 '
 Access
 -
@@ -58,6 +62,7 @@ request
 .
 headers
 [
+b
 '
 origin
 '
@@ -68,5 +73,6 @@ origin
 return
 200
 headers
+b
 "
 "

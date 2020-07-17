@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -23,6 +25,7 @@ html
 )
                
 (
+b
 "
 Cross
 -
@@ -36,6 +39,7 @@ request
 .
 GET
 [
+b
 '
 corp
 '
@@ -46,6 +50,7 @@ corp
 return
 200
 headers
+b
 "
 <
 body

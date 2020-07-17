@@ -10,6 +10,7 @@ headers
 =
 [
 (
+b
 "
 Location
 "
@@ -17,6 +18,7 @@ request
 .
 GET
 [
+b
 '
 redirectTo
 '
@@ -25,6 +27,7 @@ redirectTo
 ]
     
 if
+b
 '
 corp
 '
@@ -39,6 +42,7 @@ headers
 append
 (
 (
+b
 '
 Cross
 -
@@ -52,6 +56,7 @@ request
 .
 GET
 [
+b
 '
 corp
 '
@@ -62,5 +67,6 @@ corp
 return
 302
 headers
+b
 "
 "

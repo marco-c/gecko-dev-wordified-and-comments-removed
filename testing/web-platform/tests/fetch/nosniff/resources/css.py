@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -28,6 +29,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -40,6 +42,7 @@ None
     
 content
 =
+b
 "
 /
 *
@@ -79,6 +82,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -88,6 +92,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -99,6 +104,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -122,6 +128,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -144,6 +151,7 @@ writer
 .
 write
 (
+b
 "
 "
 )
@@ -166,6 +174,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -175,6 +184,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -186,6 +196,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -212,6 +223,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -

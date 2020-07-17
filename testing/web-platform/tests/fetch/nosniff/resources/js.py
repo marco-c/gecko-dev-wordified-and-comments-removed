@@ -14,9 +14,11 @@ GET
 .
 first
 (
+b
 "
 outcome
 "
+b
 "
 f
 "
@@ -30,9 +32,11 @@ GET
 .
 first
 (
+b
 "
 type
 "
+b
 "
 Content
 -
@@ -43,6 +47,7 @@ missing
     
 content
 =
+b
 "
 /
 /
@@ -55,6 +60,7 @@ here
 content
 +
 =
+b
 "
 \
 n
@@ -63,6 +69,7 @@ n
 content
 +
 =
+b
 "
 log
 (
@@ -73,6 +80,7 @@ FAIL
 +
 type
 +
+b
 "
 '
 )
@@ -82,11 +90,13 @@ if
 outcome
 =
 =
+b
 "
 f
 "
 )
 else
+b
 "
 p
 (
@@ -114,6 +124,7 @@ writer
 .
 write_header
 (
+b
 "
 x
 -
@@ -123,6 +134,7 @@ type
 -
 options
 "
+b
 "
 nosniff
 "
@@ -134,6 +146,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -150,6 +163,7 @@ if
 type
 !
 =
+b
 "
 Content
 -
@@ -165,6 +179,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -

@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 body
 "
@@ -28,6 +29,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -55,6 +57,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -72,6 +75,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
