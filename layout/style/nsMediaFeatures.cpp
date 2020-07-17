@@ -165,6 +165,13 @@ PreferenceSheet
 .
 h
 "
+#
+include
+"
+nsGlobalWindowOuter
+.
+h
+"
 using
 namespace
 mozilla

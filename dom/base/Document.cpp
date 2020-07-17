@@ -226,6 +226,15 @@ include
 "
 mozilla
 /
+StaticPrefs_apz
+.
+h
+"
+#
+include
+"
+mozilla
+/
 StaticPrefs_browser
 .
 h

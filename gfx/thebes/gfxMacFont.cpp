@@ -89,6 +89,13 @@ h
 #
 include
 "
+gfxUtils
+.
+h
+"
+#
+include
+"
 nsCocoaFeatures
 .
 h
