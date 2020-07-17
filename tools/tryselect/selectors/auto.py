@@ -135,25 +135,6 @@ None
 )
 :
     
-print
-(
-"
-warning
-:
-'
-mach
-try
-auto
-'
-is
-experimental
-results
-may
-vary
-!
-"
-)
-    
 msg
 =
 message
