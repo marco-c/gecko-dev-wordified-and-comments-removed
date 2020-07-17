@@ -361,7 +361,7 @@ return
 nsIPermissionManager
 :
 :
-DENY_ACTION
+UNKNOWN_ACTION
 ;
 }
 WindowContext
@@ -390,7 +390,7 @@ return
 nsIPermissionManager
 :
 :
-DENY_ACTION
+UNKNOWN_ACTION
 ;
 }
 return
