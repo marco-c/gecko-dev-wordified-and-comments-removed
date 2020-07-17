@@ -15,9 +15,9 @@ with
 open
 (
 f
-"
+'
 rb
-"
+'
 )
 as
 fh
@@ -52,53 +52,53 @@ err
 =
 {
             
-"
+'
 path
-"
+'
 :
 f
             
-"
+'
 message
-"
+'
 :
 e
 .
 msg
             
-"
+'
 lineno
-"
+'
 :
 e
 .
 lineno
             
-"
+'
 column
-"
+'
 :
 e
 .
 offset
             
-"
+'
 source
-"
+'
 :
 e
 .
 text
             
-"
+'
 rule
-"
+'
 :
-"
+'
 is
 -
 parseable
-"
+'
         
 }
         
@@ -202,9 +202,9 @@ node
 module
 =
 =
-"
+'
 __future__
-"
+'
 :
                 
 future_lineno
@@ -268,30 +268,30 @@ err
 =
 {
         
-"
+'
 path
-"
+'
 :
 f
         
-"
+'
 lineno
-"
+'
 :
 future_lineno
         
-"
+'
 column
-"
+'
 :
 1
     
 }
     
 if
-"
+'
 absolute_import
-"
+'
 not
 in
 futures
@@ -301,30 +301,30 @@ may_have_relative_imports
         
 err
 [
-"
+'
 rule
-"
+'
 ]
 =
-"
+'
 require
 absolute_import
-"
+'
         
 err
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 Missing
 from
 __future__
 import
 absolute_import
-"
+'
         
 print
 (
@@ -339,9 +339,9 @@ err
 if
 haveprint
 and
-"
+'
 print_function
-"
+'
 not
 in
 futures
@@ -349,30 +349,30 @@ futures
         
 err
 [
-"
+'
 rule
-"
+'
 ]
 =
-"
+'
 require
 print_function
-"
+'
         
 err
 [
-"
+'
 message
-"
+'
 ]
 =
-"
+'
 Missing
 from
 __future__
 import
 print_function
-"
+'
         
 print
 (
@@ -416,9 +416,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 if
@@ -457,9 +457,9 @@ with
 open
 (
 manifest
-"
+'
 r
-"
+'
 )
 as
 fh

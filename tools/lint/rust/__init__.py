@@ -626,11 +626,13 @@ binary
 version
 "
 ]
+            
 stderr
 =
 subprocess
 .
 STDOUT
+            
 universal_newlines
 =
 True
@@ -658,7 +660,7 @@ re
 findall
 (
 r
-"
+'
 \
 d
 .
@@ -669,7 +671,7 @@ d
 \
 d
 +
-"
+'
 output
 )
 [
@@ -699,9 +701,9 @@ log
 =
 lintargs
 [
-"
+'
 log
-"
+'
 ]
     
 paths
@@ -714,9 +716,9 @@ paths
 config
 lintargs
 [
-"
+'
 root
-"
+'
 ]
 )
 )
@@ -769,9 +771,9 @@ config
 .
 get
 (
-"
+'
 min_rustfmt_version
-"
+'
 )
     
 min_version
@@ -880,8 +882,8 @@ Command
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (

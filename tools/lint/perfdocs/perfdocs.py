@@ -23,9 +23,9 @@ True
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Build
 up
@@ -340,9 +340,9 @@ re
 generated
 .
     
-"
-"
-"
+'
+'
+'
     
 from
 perfdocs
@@ -359,9 +359,9 @@ environ
 .
 get
 (
-"
+'
 WORKSPACE
-"
+'
 None
 )
     
@@ -387,9 +387,9 @@ floc
 .
 split
 (
-"
+'
 tools
-"
+'
 )
 [
 0
@@ -439,9 +439,9 @@ path
 join
 (
 top_dir
-"
+'
 testing
-"
+'
 )
     
 if

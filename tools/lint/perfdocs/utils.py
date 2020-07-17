@@ -32,9 +32,9 @@ rst
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Saves
 data
@@ -90,9 +90,9 @@ file
 as
 .
     
-"
-"
-"
+'
+'
+'
     
 with
 open
@@ -110,9 +110,9 @@ format
 path
 extension
 )
-"
+'
 w
-"
+'
 )
 as
 f
@@ -134,9 +134,9 @@ False
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Opens
 a
@@ -171,17 +171,17 @@ the
 file
 .
     
-"
-"
-"
+'
+'
+'
     
 with
 open
 (
 path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -208,9 +208,9 @@ yaml_path
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Opens
 a
@@ -246,9 +246,9 @@ YAML
 content
 .
     
-"
-"
-"
+'
+'
+'
     
 contents
 =
@@ -262,9 +262,9 @@ with
 open
 (
 yaml_path
-"
+'
 r
-"
+'
 )
 as
 f
@@ -289,6 +289,7 @@ logger
 .
 warning
 (
+            
 "
 Error
 opening
@@ -309,6 +310,7 @@ e
 )
 )
 yaml_path
+        
 )
     
 return
@@ -321,9 +323,9 @@ dir_2
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Compare
 two
@@ -387,9 +389,9 @@ False
 otherwise
 .
     
-"
-"
-"
+'
+'
+'
     
 dirs_cmp
 =

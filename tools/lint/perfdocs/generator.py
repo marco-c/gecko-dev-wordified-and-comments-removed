@@ -21,10 +21,16 @@ perfdocs
 .
 utils
 import
+(
+    
 are_dirs_equal
+    
 read_file
+    
 read_yaml
+    
 save_file
+)
 logger
 =
 PerfDocLogger
@@ -37,9 +43,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 After
 each
@@ -93,9 +99,9 @@ the
 framework
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -109,9 +115,9 @@ False
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Initialize
 the
@@ -170,9 +176,9 @@ generating
 the
 documentation
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -215,19 +221,18 @@ join
 self
 .
 _workspace
-"
+'
 tools
-"
-"
+'
+'
 lint
-"
-"
+'
+'
 perfdocs
-"
-"
+'
+'
 templates
-"
-        
+'
 )
         
 self
@@ -244,16 +249,15 @@ join
 self
 .
 _workspace
-"
+'
 testing
-"
-"
+'
+'
 perfdocs
-"
-"
+'
+'
 generated
-"
-        
+'
 )
         
 self
@@ -287,9 +291,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Builds
 up
@@ -341,9 +345,9 @@ framework_document
             
 }
         
-"
-"
-"
+'
+'
+'
         
 def
 _append_rst_section
@@ -357,9 +361,9 @@ None
 )
 :
             
-"
-"
-"
+'
+'
+'
             
 Adds
 a
@@ -421,27 +425,30 @@ the
 title
 heading
             
-"
-"
-"
+'
+'
+'
             
 heading_map
 =
 {
-"
+                
+'
 H4
-"
+'
 :
-"
+'
 -
-"
-"
+'
+                
+'
 H5
-"
+'
 :
-"
+'
 ^
-"
+'
+            
 }
             
 heading_symbol
@@ -451,9 +458,9 @@ heading_map
 get
 (
 type
-"
+'
 -
-"
+'
 )
             
 documentation
@@ -469,8 +476,8 @@ len
 title
 )
 content
-"
-"
+'
+'
 ]
 )
         
@@ -499,15 +506,15 @@ join
 (
 framework
 [
-"
+'
 path
-"
+'
 ]
 framework
 [
-"
+'
 yml
-"
+'
 ]
 )
 )
@@ -525,21 +532,21 @@ join
 (
 framework
 [
-"
+'
 path
-"
+'
 ]
 framework
 [
-"
+'
 rst
-"
+'
 ]
 )
+                
 stringify
 =
 True
-            
 )
             
 documentation
@@ -551,9 +558,9 @@ suites
 =
 yaml_content
 [
-"
+'
 suites
-"
+'
 ]
             
 for
@@ -584,22 +591,18 @@ suite_name
 capitalize
 (
 )
-                    
 suite_info
 [
-"
+'
 description
-"
+'
 ]
-                    
 documentation
-                    
 type
 =
 "
 H4
 "
-                
 )
                 
 tests
@@ -608,9 +611,9 @@ suite_info
 .
 get
 (
-"
+'
 tests
-"
+'
 {
 }
 )
@@ -636,28 +639,31 @@ extend
 self
 .
 _verifier
+                            
 .
 _gatherer
+                            
 .
 framework_gatherers
 [
-                            
 yaml_content
 [
 "
 name
 "
 ]
-                        
 ]
+                            
 .
 build_test_description
 (
+                                
 test_name
 tests
 [
 test_name
 ]
+                            
 )
                     
 )
@@ -666,8 +672,8 @@ documentation
 .
 append
 (
-"
-"
+'
+'
 )
             
 framework_rst
@@ -678,11 +684,12 @@ sub
 (
                 
 r
-"
+'
 {
 documentation
 }
-"
+'
+                
 os
 .
 linesep
@@ -691,6 +698,7 @@ join
 (
 documentation
 )
+                
 rst_content
             
 )
@@ -706,20 +714,17 @@ name
 ]
 =
 {
-                
 "
 dynamic
 "
 :
 framework_rst
-                
 "
 static
 "
 :
 [
 ]
-            
 }
             
 for
@@ -750,22 +755,21 @@ static
 .
 append
 (
-                    
 {
-                        
+                    
 "
 file
 "
 :
 static_file
-                        
+                    
 "
 content
 "
 :
 read_file
 (
-                            
+                                    
 os
 .
 path
@@ -780,14 +784,14 @@ path
 ]
 static_file
 )
+                                    
 stringify
 =
 True
-                        
+                               
 )
-                    
-}
                 
+}
 )
         
 return
@@ -800,9 +804,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Create
 a
@@ -826,9 +830,9 @@ location
 of
 perfdocs_tmpdir
         
-"
-"
-"
+'
+'
+'
         
 try
 :
@@ -850,9 +854,9 @@ path
 join
 (
 tmpdir
-"
+'
 generated
-"
+'
 )
             
 os
@@ -921,9 +925,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Creates
 the
@@ -945,9 +949,9 @@ is
 saved
 in
         
-"
-"
-"
+'
+'
+'
         
 framework_docs
 =
@@ -1070,7 +1074,6 @@ mainpage
 =
 read_file
 (
-            
 os
 .
 path
@@ -1089,7 +1092,6 @@ rst
 stringify
 =
 True
-        
 )
         
 fmt_frameworks
@@ -1100,16 +1102,15 @@ linesep
 .
 join
 (
-            
 [
-"
+'
 *
 :
 doc
 :
 %
 s
-"
+'
 %
 name
 for
@@ -1117,7 +1118,6 @@ name
 in
 frameworks
 ]
-        
 )
         
 fmt_mainpage
@@ -1146,9 +1146,9 @@ path
 join
 (
 perfdocs_tmpdir
-"
+'
 index
-"
+'
 )
 )
         
@@ -1163,9 +1163,9 @@ perfdocs_tmpdir
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Copies
 the
@@ -1196,9 +1196,9 @@ perfdocs
 was
 saved
         
-"
-"
-"
+'
+'
+'
         
 logger
 .
@@ -1258,7 +1258,6 @@ logger
 .
 log
 (
-                    
 "
 Documentation
 saved
@@ -1270,7 +1269,7 @@ to
 .
 format
 (
-                        
+                    
 re
 .
 sub
@@ -1287,9 +1286,7 @@ self
 .
 perfdocs_path
 )
-                    
 )
-                
 )
         
 except
@@ -1302,7 +1299,6 @@ logger
 .
 critical
 (
-                
 "
 There
 was
@@ -1321,7 +1317,6 @@ format
 (
 e
 )
-            
 )
     
 def
@@ -1331,9 +1326,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Generate
 the
@@ -1440,9 +1435,9 @@ be
 regenerated
 .
         
-"
-"
-"
+'
+'
+'
         
 def
 get_possibly_changed_files
@@ -1450,9 +1445,9 @@ get_possibly_changed_files
 )
 :
             
-"
-"
-"
+'
+'
+'
             
 Returns
 files
@@ -1485,9 +1480,9 @@ have
 been
 modified
             
-"
-"
-"
+'
+'
+'
             
 files
 =
@@ -1508,7 +1503,6 @@ extend
 (
                     
 [
-                        
 os
 .
 path
@@ -1517,18 +1511,18 @@ join
 (
 entry
 [
-"
+'
 path
-"
+'
 ]
 entry
 [
-"
+'
 yml
-"
+'
 ]
 )
-                        
+                     
 os
 .
 path
@@ -1537,18 +1531,17 @@ join
 (
 entry
 [
-"
+'
 path
-"
+'
 ]
 entry
 [
-"
+'
 rst
-"
+'
 ]
 )
-                    
 ]
                 
 )
@@ -1588,6 +1581,7 @@ be
 regenerated
 .
 "
+                
 files
 =
 get_possibly_changed_files

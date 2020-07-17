@@ -36,11 +36,11 @@ path
 join
 (
 here
-"
+'
 requirements
 .
 txt
-"
+'
 )
 def
 setup
@@ -94,6 +94,7 @@ perfdocs
 .
 run_perfdocs
 (
+        
 config
 logger
 =
@@ -104,4 +105,5 @@ paths
 generate
 =
 fix
+    
 )
