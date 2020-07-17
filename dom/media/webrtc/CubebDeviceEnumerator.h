@@ -275,13 +275,6 @@ void
 >
 mOnOutputDeviceListChange
 ;
-static
-StaticRefPtr
-<
-CubebDeviceEnumerator
->
-sInstance
-;
 }
 ;
 typedef
