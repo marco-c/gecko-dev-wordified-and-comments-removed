@@ -87,8 +87,10 @@ open
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -351,8 +353,10 @@ toggleNetworkDetails
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -379,8 +383,10 @@ toggleNetworkActionBar
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -407,8 +413,10 @@ togglePersistentLogs
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -435,8 +443,10 @@ toggleBrowserCache
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >
@@ -464,8 +474,10 @@ connector
 {
 return
 (
+{
 dispatch
 getState
+}
 )
 =
 >

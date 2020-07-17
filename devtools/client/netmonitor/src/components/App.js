@@ -263,6 +263,11 @@ PropTypes
 object
 .
 isRequired
+addBlockedUrl
+:
+PropTypes
+.
+func
 }
 ;
 }
