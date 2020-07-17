@@ -1182,7 +1182,7 @@ GetNewCaretPointAfterInsertingHTML
 const
 EditorDOMPoint
 &
-lastInsertedPoint
+aLastInsertedPoint
 )
 const
 {
@@ -1203,7 +1203,7 @@ HTMLEditUtils
 :
 IsTable
 (
-lastInsertedPoint
+aLastInsertedPoint
 .
 GetChild
 (
@@ -1216,7 +1216,7 @@ containerContent
 GetLastEditableLeaf
 (
 *
-lastInsertedPoint
+aLastInsertedPoint
 .
 GetChild
 (
@@ -1253,7 +1253,7 @@ maybeTableElement
 maybeTableElement
 !
 =
-lastInsertedPoint
+aLastInsertedPoint
 .
 GetChild
 (
@@ -1306,7 +1306,7 @@ containerContent
 {
 containerContent
 =
-lastInsertedPoint
+aLastInsertedPoint
 .
 GetChild
 (
