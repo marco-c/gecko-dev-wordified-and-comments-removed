@@ -5390,7 +5390,11 @@ DataViewObject
 protoClass_
 =
 {
-js_Object_str
+"
+DataView
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_DataView

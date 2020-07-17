@@ -790,7 +790,11 @@ WeakSetObject
 protoClass_
 =
 {
-js_Object_str
+"
+WeakSet
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_WeakSet

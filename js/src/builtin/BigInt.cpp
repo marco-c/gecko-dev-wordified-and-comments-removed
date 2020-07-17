@@ -1121,7 +1121,11 @@ BigIntObject
 protoClass_
 =
 {
-js_Object_str
+"
+BigInt
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_BigInt

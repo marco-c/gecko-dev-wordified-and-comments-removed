@@ -17812,7 +17812,11 @@ DateObject
 protoClass_
 =
 {
-js_Object_str
+"
+Date
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Date

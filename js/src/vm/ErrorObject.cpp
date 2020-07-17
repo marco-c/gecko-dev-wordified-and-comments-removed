@@ -452,7 +452,12 @@ name
 \
 {
 \
-js_Object_str
+#
+name
+"
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_

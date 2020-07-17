@@ -977,7 +977,11 @@ RegExpObject
 protoClass_
 =
 {
-js_Object_str
+"
+RegExp
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_RegExp

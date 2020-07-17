@@ -2248,7 +2248,11 @@ MapObject
 protoClass_
 =
 {
-js_Object_str
+"
+Map
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Map
@@ -6950,7 +6954,11 @@ SetObject
 protoClass_
 =
 {
-js_Object_str
+"
+Set
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Set
