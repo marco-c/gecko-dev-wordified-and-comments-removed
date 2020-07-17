@@ -19447,11 +19447,11 @@ Redist
 (
 usually
 VCINSTALLDIR
-\
+/
 redist
-\
+/
 x86
-\
+/
 Microsoft
 .
 VC80
