@@ -46,6 +46,5 @@ targetHeight
 600
 }
 ]
-false
 )
 ;

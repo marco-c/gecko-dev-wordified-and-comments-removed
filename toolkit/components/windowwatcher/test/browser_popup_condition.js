@@ -330,7 +330,7 @@ outerWidth
 "
 popup
 :
-true
+false
 }
 {
 features
