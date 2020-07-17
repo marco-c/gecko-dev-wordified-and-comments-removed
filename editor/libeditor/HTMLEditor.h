@@ -9031,6 +9031,9 @@ lastInsertedPoint
 )
 const
 ;
+class
+HTMLWithContextInserter
+;
 [
 [
 nodiscard
