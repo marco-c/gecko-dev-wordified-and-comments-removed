@@ -93,6 +93,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsProxyInfo
 .
 h

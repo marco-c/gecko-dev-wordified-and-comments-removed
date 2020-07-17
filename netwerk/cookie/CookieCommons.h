@@ -39,6 +39,9 @@ class
 nsIChannel
 ;
 class
+nsIConsoleReportCollector
+;
+class
 nsICookieJarSettings
 ;
 class

@@ -108,6 +108,13 @@ h
 #
 include
 "
+nsGlobalWindowInner
+.
+h
+"
+#
+include
+"
 nsIChannel
 .
 h

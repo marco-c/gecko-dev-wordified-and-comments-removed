@@ -40,6 +40,13 @@ h
 #
 include
 "
+nsIInterfaceRequestorUtils
+.
+h
+"
+#
+include
+"
 nsISpeculativeConnect
 .
 h

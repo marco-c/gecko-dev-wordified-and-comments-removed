@@ -120,6 +120,13 @@ h
 #
 include
 "
+nsNetUtil
+.
+h
+"
+#
+include
+"
 nsScriptSecurityManager
 .
 h
