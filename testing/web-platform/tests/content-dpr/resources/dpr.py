@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -39,6 +45,7 @@ headers
 .
 append
 (
+b
 "
 Access
 -
@@ -48,6 +55,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -65,6 +73,7 @@ values
 .
 first
 (
+b
 '
 name
 '
@@ -76,6 +85,7 @@ values
 .
 first
 (
+b
 '
 mimeType
 '
@@ -87,6 +97,7 @@ values
 .
 first
 (
+b
 '
 dpr
 '
@@ -97,6 +108,7 @@ double
 None
     
 if
+b
 '
 double
 '
@@ -110,6 +122,7 @@ values
 .
 first
 (
+b
 '
 double
 '
@@ -121,6 +134,7 @@ request
 .
 doc_root
 +
+u
 "
 /
 "
@@ -136,6 +150,7 @@ url_parts
 .
 split
 (
+u
 "
 /
 "
@@ -147,11 +162,15 @@ split
 ]
 )
 +
+u
 "
 /
 "
 +
+isomorphic_decode
+(
 name
+)
     
 f
 =
@@ -183,6 +202,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -197,6 +217,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -215,6 +236,7 @@ headers
 .
 append
 (
+b
 "
 Content
 -
@@ -229,6 +251,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
