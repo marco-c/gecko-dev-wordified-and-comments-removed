@@ -103,7 +103,6 @@ navigateToAndWaitForStyleSheets
 (
 NEW_URI
 ui
-2
 )
 ;
 info
