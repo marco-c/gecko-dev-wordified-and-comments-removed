@@ -81,7 +81,7 @@ defineLazyServiceGetter
 (
 Services
 "
-cookies
+cookiesvc
 "
 "
 mozilla
@@ -719,7 +719,7 @@ expected
 {
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -931,7 +931,7 @@ expected
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (

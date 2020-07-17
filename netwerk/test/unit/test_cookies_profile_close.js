@@ -224,7 +224,7 @@ equal
 (
 Services
 .
-cookies
+cookiesvc
 .
 getCookieStringFromHttp
 (
@@ -252,7 +252,7 @@ hai
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (

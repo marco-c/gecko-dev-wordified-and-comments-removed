@@ -686,7 +686,7 @@ TYPE_DOCUMENT
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
@@ -817,7 +817,7 @@ TYPE_DOCUMENT
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
