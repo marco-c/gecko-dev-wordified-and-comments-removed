@@ -21,6 +21,9 @@ previoustrack
 nexttrack
 "
 "
+skipad
+"
+"
 stop
 "
 ]
