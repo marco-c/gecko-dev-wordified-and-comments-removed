@@ -2362,14 +2362,7 @@ lcd_extra_pixels
 }
 else
 {
-Err
-(
-ResourceCacheError
-:
-:
-new
-(
-format
+panic
 !
 (
 "
@@ -2382,8 +2375,6 @@ FreeType
 }
 "
 result
-)
-)
 )
 }
 }
