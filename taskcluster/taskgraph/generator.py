@@ -50,6 +50,11 @@ import
 morph
 from
 .
+parameters
+import
+Parameters
+from
+.
 util
 .
 python_path
@@ -2724,6 +2729,18 @@ kind
 ]
 =
 kind
+    
+parameters
+=
+Parameters
+(
+strict
+=
+False
+*
+*
+parameters
+)
     
 tgg
 =
