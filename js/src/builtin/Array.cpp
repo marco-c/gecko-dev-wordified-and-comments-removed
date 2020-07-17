@@ -13937,6 +13937,7 @@ narr
 >
 initDenseElements
 (
+cx
 obj
 begin
 newlength
@@ -17608,6 +17609,7 @@ result
 >
 initDenseElements
 (
+cx
 arr
 begin
 newlength
