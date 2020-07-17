@@ -141,14 +141,11 @@ mozilla
 :
 AsVariant
 (
-FunctionIndex
-(
 funbox
 -
 >
 index
 (
-)
 )
 )
 )

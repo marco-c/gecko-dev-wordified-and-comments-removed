@@ -1140,7 +1140,7 @@ JSAtom
 atom
 FunctionFlags
 flags
-size_t
+FunctionIndex
 index
 TopLevelFunction
 isTopLevel
@@ -1927,11 +1927,8 @@ asmJS
 .
 putNew
 (
-FunctionIndex
-(
 index
 (
-)
 )
 module
 )

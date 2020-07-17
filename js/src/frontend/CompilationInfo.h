@@ -596,11 +596,14 @@ JS
 CustomAutoRooter
 {
 static
-const
-size_t
+constexpr
+FunctionIndex
 TopLevelFunctionIndex
 =
+FunctionIndex
+(
 0
+)
 ;
 JSContext
 *

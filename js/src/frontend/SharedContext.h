@@ -1456,12 +1456,10 @@ atom_
 =
 nullptr
 ;
-size_t
+FunctionIndex
 funcDataIndex_
 =
-(
-size_t
-)
+FunctionIndex
 (
 -
 1
@@ -1610,7 +1608,7 @@ JSAtom
 explicitName
 FunctionFlags
 flags
-size_t
+FunctionIndex
 index
 TopLevelFunction
 isTopLevel
@@ -2916,7 +2914,7 @@ copyUpdatedFieldInitializers
 ;
 }
 }
-size_t
+FunctionIndex
 index
 (
 )
