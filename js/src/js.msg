@@ -10831,3 +10831,16 @@ a
 WeakRef
 "
 )
+MSG_DEF
+(
+JSMSG_NEGATIVE_LIMIT
+0
+JSEXN_RANGEERR
+"
+Iterator
+limits
+cannot
+be
+negative
+"
+)
