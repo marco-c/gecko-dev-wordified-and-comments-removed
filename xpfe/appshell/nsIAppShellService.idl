@@ -104,12 +104,6 @@ optional
 in
 bool
 aIsChrome
-[
-optional
-]
-in
-uint32_t
-aChromeMask
 )
 ;
 [
