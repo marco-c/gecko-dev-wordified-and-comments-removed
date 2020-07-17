@@ -41,6 +41,11 @@ lint
 "
 "
     
+TOP_DIR
+=
+"
+"
+    
 PATHS
 =
 [
@@ -280,13 +285,10 @@ re
 .
 sub
 (
-"
+PerfDocLogger
 .
-*
-testing
+TOP_DIR
 "
-"
-testing
 "
 file
 )
