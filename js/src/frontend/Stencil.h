@@ -1562,6 +1562,12 @@ immutableScriptData
 =
 nullptr
 ;
+SourceExtent
+extent
+=
+{
+}
+;
 FunctionFlags
 functionFlags
 =

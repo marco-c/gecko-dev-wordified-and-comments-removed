@@ -412,12 +412,6 @@ ScriptStencil
 >
 topLevel
 ;
-SourceExtent
-topLevelExtent
-=
-{
-}
-;
 bool
 topLevelAsmJS
 =

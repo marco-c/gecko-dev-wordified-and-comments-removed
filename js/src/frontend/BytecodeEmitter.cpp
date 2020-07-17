@@ -669,6 +669,8 @@ sc
 -
 >
 extent
+(
+)
 .
 lineno
 )
@@ -12573,15 +12575,6 @@ return
 false
 ;
 }
-compilationInfo
-.
-topLevelExtent
-=
-sc
--
->
-extent
-;
 return
 intoScriptStencil
 (
