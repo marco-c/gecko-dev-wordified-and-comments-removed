@@ -14320,11 +14320,7 @@ release_channel_collection
 opt
 -
 out
-security
-.
 doh
-.
-heuristics
 :
 evaluate
 :

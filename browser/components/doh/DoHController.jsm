@@ -415,11 +415,7 @@ const
 HEURISTICS_TELEMETRY_CATEGORY
 =
 "
-security
-.
 doh
-.
-heuristics
 "
 ;
 const
