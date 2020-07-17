@@ -272,10 +272,7 @@ if
 !
 QueryBroker
 (
-IpcTag
-:
-:
-CREATENAMEDPIPEW
+IPC_CREATENAMEDPIPEW_TAG
 params
 .
 GetBase
@@ -304,10 +301,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-CREATENAMEDPIPEW
+IPC_CREATENAMEDPIPEW_TAG
 pipe_name
 open_mode
 pipe_mode

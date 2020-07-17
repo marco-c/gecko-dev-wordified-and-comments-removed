@@ -56,12 +56,6 @@ QueryVirtualMemory
 NtUnmapViewOfSectionFunction
 UnmapViewOfSection
 ;
-NtSignalAndWaitForSingleObjectFunction
-SignalAndWaitForSingleObject
-;
-NtWaitForSingleObjectFunction
-WaitForSingleObject
-;
 RtlAllocateHeapFunction
 RtlAllocateHeap
 ;

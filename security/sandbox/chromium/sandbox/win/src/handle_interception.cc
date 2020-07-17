@@ -161,10 +161,7 @@ code
 CrossCall
 (
 ipc
-IpcTag
-:
-:
-DUPLICATEHANDLEPROXY
+IPC_DUPLICATEHANDLEPROXY_TAG
 source_handle
 target_process_id
 desired_access

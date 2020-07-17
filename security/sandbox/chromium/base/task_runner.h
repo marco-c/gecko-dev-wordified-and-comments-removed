@@ -109,6 +109,15 @@ delay
 =
 0
 ;
+virtual
+bool
+RunsTasksInCurrentSequence
+(
+)
+const
+=
+0
+;
 bool
 PostTaskAndReply
 (

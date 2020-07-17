@@ -456,9 +456,9 @@ WRITE
 18
 NTSTATUS
 WINAPI
-TargetNtOpenFile
+TargetNtCreateFile
 (
-NtOpenF
+NtCre
 ACCESS_MASK
 desired_access
 POBJECT_ATTRIBUTES
@@ -703,9 +703,9 @@ WRITE
 +
 239
 18
-TargetNtQueryAttributesFile
-(
-NtQueryAttri
+NTSTATUS
+WINAPI
+TargetNtQueryAttributesF
 NTSTATUS
 WINAPI
 TargetNtQueryFullAttributesFile
@@ -921,10 +921,10 @@ LowLevelPolicy
 policy
 )
 {
-std
+base
 :
 :
-wstring
+string16
 mod_name
 (
 name

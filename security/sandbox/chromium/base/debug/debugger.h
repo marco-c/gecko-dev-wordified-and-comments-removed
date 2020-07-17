@@ -55,12 +55,6 @@ IsDebugUISuppressed
 (
 )
 ;
-BASE_EXPORT
-void
-VerifyDebugger
-(
-)
-;
 }
 }
 #
