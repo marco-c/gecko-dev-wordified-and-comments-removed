@@ -171,6 +171,9 @@ overrideReferrerInfo
 bool
 shouldWaitForOnStartRequestSent
 ;
+nsCString
+cookie
+;
 }
 ;
 }

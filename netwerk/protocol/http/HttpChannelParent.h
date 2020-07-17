@@ -418,6 +418,15 @@ nsIReferrerInfo
 aReferrerInfo
 )
 ;
+void
+SetCookie
+(
+nsCString
+&
+&
+aCookie
+)
+;
 using
 ChildEndpointPromise
 =
@@ -1399,6 +1408,9 @@ nsCOMPtr
 nsIReferrerInfo
 >
 mOverrideReferrerInfo
+;
+nsCString
+mCookie
 ;
 uint8_t
 mIgnoreProgress
