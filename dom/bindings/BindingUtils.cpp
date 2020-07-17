@@ -336,6 +336,17 @@ mozilla
 /
 dom
 /
+Exceptions
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 HTMLObjectElement
 .
 h
