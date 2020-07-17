@@ -2490,6 +2490,16 @@ false
 )
 ;
 }
+void
+DisableExternalTextures
+(
+)
+{
+mUseExternalTextures
+=
+false
+;
+}
 protected
 :
 bool
