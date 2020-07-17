@@ -6484,11 +6484,13 @@ TlsAgent
 :
 ResetSentBytes
 (
+size_t
+bytes
 )
 {
 send_ctr_
 =
-0
+bytes
 ;
 }
 void

@@ -1821,10 +1821,7 @@ ALL_TESTS
 TESTS_SKIP
 =
 "
-cipher
 libpkix
-sdr
-ocsp
 pkits
 "
 NSS_DEFAULT_DB_TYPE

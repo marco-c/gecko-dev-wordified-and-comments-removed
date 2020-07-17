@@ -735,6 +735,16 @@ endif
 KERNEL
 =
 Linux
+include
+(
+CORE_DEPTH
+)
+/
+coreconf
+/
+Linux
+.
+mk
 endif
 #
 Since

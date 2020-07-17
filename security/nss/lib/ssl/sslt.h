@@ -112,7 +112,7 @@ ssl_ct_application_data
 23
 ssl_ct_ack
 =
-25
+26
 }
 SSLContentType
 ;

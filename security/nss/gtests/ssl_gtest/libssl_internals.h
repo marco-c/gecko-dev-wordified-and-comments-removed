@@ -216,6 +216,16 @@ type
 )
 ;
 SECStatus
+SSLInt_AdvanceDtls13DecryptFailures
+(
+PRFileDesc
+*
+fd
+PRUint64
+to
+)
+;
+SECStatus
 SSLInt_AdvanceWriteSeqNum
 (
 PRFileDesc

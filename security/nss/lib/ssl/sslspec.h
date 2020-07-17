@@ -427,6 +427,9 @@ SSLMaskingContext
 *
 maskContext
 ;
+PRUint64
+deprotectionFailures
+;
 }
 ;
 typedef

@@ -4219,6 +4219,15 @@ PRBool
 added
 )
 {
+if
+(
+!
+IS_DTLS
+(
+ss
+)
+)
+{
 SSL_TRC
 (
 3
@@ -4257,6 +4266,7 @@ opt
 .
 enablePostHandshakeAuth
 ;
+}
 return
 SECSuccess
 ;
@@ -4321,6 +4331,15 @@ return
 SECFailure
 ;
 }
+if
+(
+!
+IS_DTLS
+(
+ss
+)
+)
+{
 xtnData
 -
 >
@@ -4336,6 +4355,7 @@ numNegotiated
 =
 ssl_tls13_post_handshake_auth_xtn
 ;
+}
 return
 SECSuccess
 ;
