@@ -912,15 +912,6 @@ mEntriesHeaderAdded
 bool
 mCancel
 ;
-nsCOMPtr
-<
-nsILoadContextInfo
->
-mLoadInfo
-;
-nsCString
-mContextString
-;
 nsTArray
 <
 nsCString

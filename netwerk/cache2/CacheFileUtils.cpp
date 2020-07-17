@@ -701,6 +701,15 @@ nsACString
 _retval
 )
 {
+if
+(
+!
+aInfo
+)
+{
+return
+;
+}
 OriginAttributes
 const
 *

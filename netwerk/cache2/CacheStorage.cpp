@@ -120,10 +120,14 @@ aPinning
 :
 mLoadContextInfo
 (
+aInfo
+?
 GetLoadContextInfo
 (
 aInfo
 )
+:
+nullptr
 )
 mWriteToDisk
 (
