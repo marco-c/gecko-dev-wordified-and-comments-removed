@@ -341,6 +341,9 @@ _DEVELOPER_BLOCKLIST
 :
                 
 return
+NoopErrorReporter
+(
+)
         
 except
 InvalidRepoPath
