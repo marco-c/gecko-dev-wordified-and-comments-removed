@@ -58,9 +58,6 @@ mozglue
 .
 dll
 EXPORTS
-#
-ifdef
-MOZ_MEMORY
 ;
 symbols
 that
@@ -109,5 +106,3 @@ wrap_wcsdup
 _wcsdup
 =
 wrap_wcsdup
-#
-endif
