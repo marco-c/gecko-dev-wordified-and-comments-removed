@@ -1951,13 +1951,6 @@ final
 boolean
 blocking
 =
-loadedList
-.
-isEmpty
-(
-)
-&
-&
 (
 blockedList
 !
