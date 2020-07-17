@@ -178,11 +178,13 @@ DispatchCounter
 GetDispatchCounter
 (
 )
+const
 ;
 uint64_t
 GetExecutionDuration
 (
 )
+const
 ;
 uint32_t
 GetDispatchCount
@@ -190,11 +192,13 @@ GetDispatchCount
 DispatchCategory
 aCategory
 )
+const
 ;
 uint64_t
 GetTotalDispatchCount
 (
 )
+const
 ;
 uint64_t
 GetID

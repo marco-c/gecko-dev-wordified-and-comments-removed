@@ -285,6 +285,7 @@ PerformanceCounter
 GetDispatchCounter
 (
 )
+const
 {
 return
 mDispatchCounter
@@ -297,6 +298,7 @@ PerformanceCounter
 GetExecutionDuration
 (
 )
+const
 {
 return
 mExecutionDuration
@@ -309,6 +311,7 @@ PerformanceCounter
 GetTotalDispatchCount
 (
 )
+const
 {
 return
 mTotalDispatchCount
@@ -323,6 +326,7 @@ GetDispatchCount
 DispatchCategory
 aCategory
 )
+const
 {
 return
 mDispatchCounter

@@ -10488,13 +10488,6 @@ EnsurePerformanceStorage
 (
 )
 ;
-mWorkerPrivate
--
->
-EnsurePerformanceCounter
-(
-)
-;
 if
 (
 NS_WARN_IF
