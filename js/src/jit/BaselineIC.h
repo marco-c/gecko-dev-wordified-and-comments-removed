@@ -3810,6 +3810,9 @@ makesGCCalls
 JSScript
 *
 script
+ICScript
+*
+icScript
 )
 ;
 ICStubSpace
@@ -3821,6 +3824,13 @@ JSScript
 outerScript
 )
 {
+MOZ_ASSERT
+(
+IsTypeInferenceEnabled
+(
+)
+)
+;
 return
 StubSpaceForStub
 (
@@ -3832,6 +3842,7 @@ NonCacheIRStubMakesGCCalls
 kind
 )
 outerScript
+nullptr
 )
 ;
 }
