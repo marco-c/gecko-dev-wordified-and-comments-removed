@@ -8364,7 +8364,17 @@ mConnInfo
 mCaps
 |
 =
+(
 NS_HTTP_REFRESH_DNS
+|
+NS_HTTP_CONNECTION_RESTARTABLE
+)
+;
+mCaps
+&
+=
+~
+NS_HTTP_STICKY_CONNECTION
 ;
 if
 (
