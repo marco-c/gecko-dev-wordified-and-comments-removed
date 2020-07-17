@@ -1156,15 +1156,6 @@ bounds
 int32_t
 appUnitsPerDevPixel
 ;
-float
-inheritedXScale
-;
-float
-inheritedYScale
-;
-bool
-hasPerspectiveParent
-;
 MotionPathData
 ?
 motionPathData
