@@ -2224,6 +2224,17 @@ nullptr
 static
 Element
 *
+GetClosestAncestorAnyListElement
+(
+const
+nsIContent
+&
+aContent
+)
+;
+static
+Element
+*
 GetElementIfOnlyOneSelected
 (
 const
