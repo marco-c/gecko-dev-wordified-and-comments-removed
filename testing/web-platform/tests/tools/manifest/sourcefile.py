@@ -4340,7 +4340,7 @@ self
 page_ranges_nodes
 :
             
-key
+key_data
 value
 =
 self
@@ -4351,7 +4351,7 @@ node
 )
             
 if
-key
+key_data
 is
 None
 :
@@ -4367,7 +4367,7 @@ else
                 
 key
 =
-key
+key_data
 [
 1
 ]
@@ -4425,8 +4425,8 @@ if
 in
 range_str
 :
-                     
-range_parts
+                    
+range_parts_str
 =
 [
 item
@@ -4446,10 +4446,10 @@ split
 "
 )
 ]
-                     
+                    
 try
 :
-                         
+                        
 range_parts
 =
 [
@@ -4464,13 +4464,13 @@ None
 for
 item
 in
-range_parts
+range_parts_str
 ]
-                     
+                    
 except
 ValueError
 :
-                         
+                        
 raise
 ValueError
 (
@@ -4486,7 +4486,7 @@ s
 %
 range_str
 )
-                     
+                    
 if
 any
 (
@@ -4500,7 +4500,7 @@ in
 range_parts
 )
 :
-                         
+                        
 raise
 ValueError
 (
