@@ -986,6 +986,12 @@ mLayerData
 =
 nullptr
 ;
+uint8_t
+*
+mLayerValidRectData
+=
+nullptr
+;
 int32_t
 mLayerStride
 =
