@@ -299,6 +299,15 @@ nsPrinterListWin
 =
 default
 ;
+private
+:
+~
+nsPrinterListWin
+(
+)
+=
+default
+;
 }
 ;
 #
