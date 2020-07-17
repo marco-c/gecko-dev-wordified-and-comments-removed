@@ -1589,6 +1589,9 @@ CompleteMigrations
 bool
 mMemoryOnlyDB
 ;
+bool
+mBlockerAdded
+;
 nsTHashtable
 <
 PermissionHashKey
