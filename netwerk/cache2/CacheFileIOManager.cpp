@@ -20942,7 +20942,7 @@ NS_OK
 CacheObserver
 :
 :
-SetDiskCacheCapacity
+SetSmartDiskCacheCapacity
 (
 smartSize
 )

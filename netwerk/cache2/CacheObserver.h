@@ -158,14 +158,10 @@ uint32_t
 DiskCacheCapacity
 (
 )
-{
-return
-sDiskCacheCapacity
 ;
-}
 static
 void
-SetDiskCacheCapacity
+SetSmartDiskCacheCapacity
 (
 uint32_t
 )
@@ -440,11 +436,6 @@ CacheObserver
 sSelf
 ;
 void
-StoreDiskCacheCapacity
-(
-)
-;
-void
 StoreCacheFSReported
 (
 )
@@ -474,7 +465,7 @@ Atomic
 uint32_t
 Relaxed
 >
-sDiskCacheCapacity
+sSmartDiskCacheCapacity
 ;
 static
 float
