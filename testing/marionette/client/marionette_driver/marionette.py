@@ -9511,8 +9511,6 @@ handle
 :
 The
 id
-or
-name
 of
 the
 window
@@ -9556,23 +9554,17 @@ WebDriver
 :
 SwitchToWindow
 "
-                           
 {
 "
+handle
+"
+:
+handle
+"
 focus
 "
 :
 focus
-"
-name
-"
-:
-handle
-"
-handle
-"
-:
-handle
 }
 )
         
