@@ -48,6 +48,10 @@ tests
 ;
 extern
 crate
+arrayvec
+;
+extern
+crate
 jsparagus_ast
 as
 ast

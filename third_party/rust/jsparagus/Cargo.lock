@@ -2636,6 +2636,9 @@ dependencies
 =
 [
 "
+arrayvec
+"
+"
 bumpalo
 "
 "
