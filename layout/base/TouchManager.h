@@ -181,6 +181,14 @@ private
 void
 EvictTouches
 (
+dom
+:
+:
+Document
+*
+aLimitToDocument
+=
+nullptr
 )
 ;
 static
@@ -202,8 +210,6 @@ dom
 Document
 *
 aLimitToDocument
-=
-nullptr
 )
 ;
 static
