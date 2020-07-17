@@ -1045,17 +1045,7 @@ cx
 MutableHandleScope
 scope
 )
-{
-return
-enclosing_
-.
-getOrCreateScope
-(
-cx
-scope
-)
 ;
-}
 static
 bool
 create

@@ -331,16 +331,6 @@ HeapPtrScope
 )
 ;
 }
-bool
-getOrCreateScope
-(
-JSContext
-*
-cx
-MutableHandleScope
-scope
-)
-;
 template
 <
 typename
