@@ -2632,7 +2632,8 @@ Firefox
 "
 "
         
-if
+is_running
+=
 self
 .
 runner
@@ -2647,6 +2648,9 @@ runner
 is_running
 (
 )
+        
+if
+is_running
 :
             
 self
@@ -2791,6 +2795,16 @@ OSError
                 
 pass
         
+elif
+self
+.
+runner
+:
+            
+clean
+=
+False
+        
 if
 not
 skip_marionette
@@ -2802,6 +2816,9 @@ output_handler
 .
 after_stop
 (
+clean_shutdown
+=
+clean
 )
     
 def
@@ -3242,6 +3259,9 @@ def
 after_stop
 (
 self
+clean_shutdown
+=
+True
 )
 :
         
@@ -3290,23 +3310,51 @@ not
 None
 :
             
+if
+not
+clean_shutdown
+:
+                
+self
+.
+logger
+.
+warning
+(
+"
+Firefox
+didn
+'
+t
+exit
+cleanly
+not
+processing
+leak
+logs
+"
+)
+            
+else
+:
+                
 mozleak
 .
 process_leak_log
 (
-                
+                    
 self
 .
 instance
 .
 leak_report_file
-                
+                    
 leak_thresholds
 =
 self
 .
 mozleak_thresholds
-                
+                    
 ignore_missing_leaks
 =
 [
@@ -3317,19 +3365,19 @@ tab
 gmplugin
 "
 ]
-                
+                    
 log
 =
 self
 .
 logger
-                
+                    
 stack_fixer
 =
 self
 .
 stack_fixer
-                
+                    
 scope
 =
 self
@@ -3342,7 +3390,7 @@ get
 scope
 "
 )
-                
+                    
 allowed
 =
 self
