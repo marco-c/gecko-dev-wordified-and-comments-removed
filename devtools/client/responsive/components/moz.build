@@ -46,11 +46,6 @@ DeviceSelector
 js
 '
 '
-ResizableViewport
-.
-js
-'
-'
 SettingsMenu
 .
 js
