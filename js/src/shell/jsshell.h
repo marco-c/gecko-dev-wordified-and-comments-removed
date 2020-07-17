@@ -995,11 +995,11 @@ SystemAllocPolicy
 offThreadJobs
 ;
 using
-ObjectVector
+FunctionVector
 =
 GCVector
 <
-JSObject
+JSFunction
 *
 0
 SystemAllocPolicy
@@ -1010,9 +1010,9 @@ JS
 :
 PersistentRooted
 <
-ObjectVector
+FunctionVector
 >
-finalizationRegistriesToCleanUp
+finalizationRegistryCleanupCallbacks
 ;
 }
 ;
