@@ -587,7 +587,7 @@ GetEditableBlockParentOrTopmotEditableInlineContent
 :
 assertion
 in
-WSRunObject
+WhiteSpaceVisibilityKeeper
 :
 :
 DeleteInvisibleASCIIWhiteSpacesInternal

@@ -262,7 +262,7 @@ class
 SplitRangeOffResult
 ;
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 class
 WSRunScanner
@@ -9941,7 +9941,7 @@ TextEditor
 ;
 friend
 class
-WSRunObject
+WhiteSpaceVisibilityKeeper
 ;
 friend
 class
