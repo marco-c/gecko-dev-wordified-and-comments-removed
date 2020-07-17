@@ -408,13 +408,8 @@ re
 .
 sub
 (
+top_dir
 "
-.
-*
-testing
-"
-"
-testing
 "
 path
 )
@@ -430,8 +425,9 @@ PATHS
 =
 rel_paths
     
-testing_dir
+target_dir
 =
+[
 os
 .
 path
@@ -439,11 +435,20 @@ path
 join
 (
 top_dir
-"
-testing
-"
+i
 )
+for
+i
+in
+rel_paths
+]
     
+for
+path
+in
+target_dir
+:
+        
 if
 not
 os
@@ -452,24 +457,23 @@ path
 .
 exists
 (
-testing_dir
+path
 )
 :
-        
+            
 raise
 Exception
 (
 "
 Cannot
 locate
-testing
 directory
 at
 %
 s
 "
 %
-testing_dir
+path
 )
     
 from
@@ -490,7 +494,6 @@ verifier
 =
 Verifier
 (
-testing_dir
 top_dir
 )
     
