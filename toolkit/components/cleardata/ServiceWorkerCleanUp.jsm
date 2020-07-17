@@ -239,8 +239,6 @@ sw
 .
 principal
 .
-URI
-.
 host
 =
 =

@@ -166,14 +166,12 @@ sourceHost
 =
 triggeringPrincipal
 .
-URI
-.
 host
 ;
 }
 catch
 (
-err
+error
 )
 {
 }

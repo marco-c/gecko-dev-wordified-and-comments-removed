@@ -1868,8 +1868,6 @@ localStorage
 "
 aPrincipal
 .
-URI
-.
 host
 )
 ;
@@ -1888,8 +1886,6 @@ purge
 sessionStorage
 "
 aPrincipal
-.
-URI
 .
 host
 )
@@ -2154,8 +2150,6 @@ try
 host
 =
 principal
-.
-URI
 .
 host
 ;
@@ -3121,8 +3115,6 @@ perm
 .
 principal
 .
-URI
-.
 host
 aHost
 )
@@ -3659,8 +3651,6 @@ hasRootDomain
 perm
 .
 principal
-.
-URI
 .
 host
 aHost
@@ -5231,8 +5221,6 @@ aCleaner
 deleteByHost
 (
 aPrincipal
-.
-URI
 .
 host
 aPrincipal

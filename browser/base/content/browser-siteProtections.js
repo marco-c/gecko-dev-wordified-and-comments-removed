@@ -4011,8 +4011,6 @@ perm
 .
 principal
 .
-URI
-.
 host
 )
 )
