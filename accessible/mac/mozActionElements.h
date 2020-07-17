@@ -83,7 +83,7 @@ enabled
 (
 BOOL
 )
-moxIgnoreWithParent
+ignoreWithParent
 :
 (
 mozAccessible

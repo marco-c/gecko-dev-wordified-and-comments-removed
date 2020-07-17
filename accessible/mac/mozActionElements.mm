@@ -308,7 +308,7 @@ AXMenuClosed
 (
 BOOL
 )
-moxIgnoreWithParent
+ignoreWithParent
 :
 (
 mozAccessible
@@ -364,7 +364,7 @@ YES
 return
 [
 super
-moxIgnoreWithParent
+ignoreWithParent
 :
 parent
 ]
