@@ -104,7 +104,7 @@ MOZ_WEAKPTR_DECLARE_THREAD_SAFETY_CHECK
 \
 Maybe
 <
-nsAutoOwningThread
+nsAutoOwningEventTarget
 >
 _owningThread
 ;
