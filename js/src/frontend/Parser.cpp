@@ -41908,13 +41908,10 @@ expr
 )
 )
 {
-MOZ_ALWAYS_FALSE
-(
-strictModeErrorAt
+errorAt
 (
 exprOffset
 JSMSG_PRIVATE_DELETE
-)
 )
 ;
 return
