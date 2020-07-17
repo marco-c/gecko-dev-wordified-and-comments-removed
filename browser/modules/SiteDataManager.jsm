@@ -1911,8 +1911,6 @@ perm
 .
 principal
 .
-URI
-.
 host
 host
 )

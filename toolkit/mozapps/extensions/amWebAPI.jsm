@@ -1120,13 +1120,6 @@ sourceHost
 :
 triggeringPrincipal
 .
-URI
-&
-&
-triggeringPrincipal
-.
-URI
-.
 host
 sourceURL
 :
