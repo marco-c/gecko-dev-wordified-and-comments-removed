@@ -151,7 +151,7 @@ subdir2
 await
 root_dir
 .
-getDirectory
+getDirectoryHandle
 (
 '
 subdir
@@ -347,7 +347,7 @@ handle2
 await
 root_dir
 .
-getFile
+getFileHandle
 (
 '
 mtime

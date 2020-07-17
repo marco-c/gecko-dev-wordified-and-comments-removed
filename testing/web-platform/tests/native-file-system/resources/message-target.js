@@ -270,7 +270,7 @@ file_handle
 await
 directory
 .
-getFile
+getFileHandle
 (
 '
 temp

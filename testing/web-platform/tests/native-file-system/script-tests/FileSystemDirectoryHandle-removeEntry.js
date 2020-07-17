@@ -198,7 +198,7 @@ dir
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir
@@ -305,7 +305,7 @@ dir
 await
 root
 .
-getDirectory
+getDirectoryHandle
 (
 '
 dir

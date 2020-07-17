@@ -222,7 +222,7 @@ new_dir_handle
 await
 parent
 .
-getDirectory
+getDirectoryHandle
 (
 name
 {
@@ -286,7 +286,7 @@ handle
 await
 parent
 .
-getFile
+getFileHandle
 (
 name
 {
