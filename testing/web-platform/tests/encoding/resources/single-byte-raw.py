@@ -1,3 +1,7 @@
+from
+six
+import
+int2byte
 def
 main
 (
@@ -12,11 +16,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -32,6 +38,7 @@ GET
 .
 first
 (
+b
 "
 label
 "
@@ -42,12 +49,13 @@ response
 .
 content
 =
+b
 "
 "
 .
 join
 (
-chr
+int2byte
 (
 byte
 )

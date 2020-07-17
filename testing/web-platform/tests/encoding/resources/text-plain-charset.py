@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -32,6 +34,7 @@ GET
 .
 first
 (
+b
 "
 label
 "
@@ -42,6 +45,7 @@ response
 .
 content
 =
+b
 "
 hello
 encoding
