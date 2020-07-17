@@ -310,7 +310,6 @@ void
 runTask
 (
 )
-override
 {
 CompileTier2
 (
