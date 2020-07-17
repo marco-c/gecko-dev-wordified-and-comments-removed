@@ -1578,8 +1578,10 @@ GetParent
 {
 loadInfo
 =
-new
 LoadInfo
+:
+:
+CreateForFrame
 (
 aBrowsingContext
 aLoadState
@@ -1609,8 +1611,10 @@ attrs
 ;
 loadInfo
 =
-new
 LoadInfo
+:
+:
+CreateForDocument
 (
 aBrowsingContext
 aLoadState
