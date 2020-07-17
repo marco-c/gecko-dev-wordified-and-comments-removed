@@ -110,6 +110,11 @@ process
 if
 (
 withAutoShutdownWrite
+&
+&
+AboutHomeStartupCache
+.
+initted
 )
 {
 info
@@ -228,6 +233,13 @@ init
 (
 )
 ;
+if
+(
+AboutHomeStartupCache
+.
+initted
+)
+{
 AboutHomeStartupCache
 .
 sendCacheInputStreams
@@ -360,6 +372,7 @@ available
 }
 )
 ;
+}
 }
 info
 (
@@ -851,6 +864,7 @@ function
 ensureDynamicAboutHome
 (
 browser
+expectedResultScalar
 )
 {
 await
@@ -1003,6 +1017,11 @@ sites
 )
 ;
 }
+)
+;
+assertCacheResultScalar
+(
+expectedResultScalar
 )
 ;
 }
