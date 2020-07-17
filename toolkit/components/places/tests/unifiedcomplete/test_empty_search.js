@@ -327,17 +327,6 @@ actions
 matches
 :
 [
-makeSearchMatch
-(
-"
-foo
-"
-{
-heuristic
-:
-true
-}
-)
 {
 uri
 :
