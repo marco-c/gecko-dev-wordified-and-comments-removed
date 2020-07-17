@@ -130,6 +130,10 @@ const
 gfxAlphaType
 mSrcAlphaType
 ;
+const
+bool
+mApplyUnpackTransforms
+;
 bool
 mNeedsExactUpload
 ;
@@ -153,6 +157,8 @@ uint32_t
 depth
 gfxAlphaType
 srcAlphaType
+bool
+applyUnpackTransforms
 )
 ;
 public
@@ -563,6 +569,8 @@ DataSourceSurface
 surf
 gfxAlphaType
 srcAlphaType
+bool
+applyUnpackTransforms
 )
 ;
 virtual

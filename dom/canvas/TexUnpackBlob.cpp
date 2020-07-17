@@ -1191,6 +1191,9 @@ uint32_t
 depth
 gfxAlphaType
 srcAlphaType
+const
+bool
+applyUnpackTransforms
 )
 :
 mAlignment
@@ -1269,6 +1272,10 @@ depth
 mSrcAlphaType
 (
 srcAlphaType
+)
+mApplyUnpackTransforms
+(
+applyUnpackTransforms
 )
 mNeedsExactUpload
 (
@@ -1463,9 +1470,7 @@ gfxAlphaType
 Premult
 )
 ;
-const
 auto
-&
 dstIsPremult
 =
 webgl
@@ -1546,7 +1551,6 @@ OriginPos
 BottomLeft
 )
 ;
-const
 auto
 dstOrigin
 =
@@ -1558,6 +1562,21 @@ OriginPos
 :
 BottomLeft
 ;
+if
+(
+!
+mApplyUnpackTransforms
+)
+{
+dstIsPremult
+=
+srcIsPremult
+;
+dstOrigin
+=
+srcOrigin
+;
+}
 if
 (
 srcFormat
@@ -1987,6 +2006,7 @@ gfxAlphaType
 :
 :
 NonPremult
+true
 )
 mIsClientData
 (
@@ -2919,6 +2939,7 @@ width
 height
 depth
 srcAlphaType
+true
 )
 mImage
 (
@@ -3738,6 +3759,7 @@ mHeight
 mDepth
 dataSurf
 mSrcAlphaType
+true
 )
 ;
 return
@@ -3784,6 +3806,9 @@ DataSourceSurface
 surf
 gfxAlphaType
 srcAlphaType
+const
+bool
+applyUnpackTransforms
 )
 :
 TexUnpackBlob
@@ -3802,6 +3827,7 @@ width
 height
 depth
 srcAlphaType
+applyUnpackTransforms
 )
 mSurf
 (
