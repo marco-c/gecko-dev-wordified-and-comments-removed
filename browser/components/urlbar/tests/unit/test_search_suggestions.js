@@ -7526,6 +7526,10 @@ com
 heuristic
 :
 true
+tags
+:
+[
+]
 }
 )
 makeFormHistoryResult
