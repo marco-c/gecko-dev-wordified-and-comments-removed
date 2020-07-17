@@ -2369,7 +2369,7 @@ ResourceCacheError
 :
 new
 (
-panic
+format
 !
 (
 "
