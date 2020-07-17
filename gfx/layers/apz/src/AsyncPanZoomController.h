@@ -1795,7 +1795,7 @@ mLastContentPaintMetrics
 RepaintRequest
 mLastPaintRequestMetrics
 ;
-FrameMetrics
+ExpectedGeckoMetrics
 mExpectedGeckoMetrics
 ;
 std
