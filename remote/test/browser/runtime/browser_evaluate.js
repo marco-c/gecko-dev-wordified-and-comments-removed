@@ -186,12 +186,12 @@ is
 result
 .
 subtype
-null
+undefined
 "
 The
 subtype
 is
-null
+undefined
 for
 numbers
 "
@@ -377,12 +377,12 @@ is
 result
 .
 subtype
-null
+undefined
 "
 The
 subtype
 is
-null
+undefined
 for
 numbers
 "
@@ -1287,7 +1287,7 @@ object
 "
 subtype
 :
-null
+undefined
 }
 {
 expression
@@ -1307,7 +1307,7 @@ symbol
 "
 subtype
 :
-null
+undefined
 }
 {
 expression
