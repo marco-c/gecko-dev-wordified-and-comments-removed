@@ -42,6 +42,13 @@ aPresShell
 )
 ;
 virtual
+void
+Shutdown
+(
+)
+override
+;
+virtual
 ~
 DocAccessibleWrap
 (

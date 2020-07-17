@@ -300,6 +300,15 @@ SEL
 )
 selector
 ;
+-
+(
+id
+<
+MOXTextMarkerSupport
+>
+)
+moxTextMarkerDelegate
+;
 #
 pragma
 mark

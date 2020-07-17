@@ -366,6 +366,15 @@ moxFocusedUIElement
 (
 id
 <
+MOXTextMarkerSupport
+>
+)
+moxTextMarkerDelegate
+;
+-
+(
+id
+<
 mozAccessible
 >
 )

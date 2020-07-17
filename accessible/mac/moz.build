@@ -57,6 +57,11 @@ MOXMathAccessibles
 mm
 '
 '
+MOXTextMarkerDelegate
+.
+mm
+'
+'
 MOXWebAreaAccessible
 .
 mm
