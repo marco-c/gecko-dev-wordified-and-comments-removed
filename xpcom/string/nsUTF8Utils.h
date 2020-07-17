@@ -12,13 +12,6 @@ type_traits
 #
 include
 "
-nscore
-.
-h
-"
-#
-include
-"
 mozilla
 /
 Assertions

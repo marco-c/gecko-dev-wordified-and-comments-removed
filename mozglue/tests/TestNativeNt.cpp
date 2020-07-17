@@ -1,6 +1,13 @@
 #
 include
 "
+nscore
+.
+h
+"
+#
+include
+"
 mozilla
 /
 NativeNt

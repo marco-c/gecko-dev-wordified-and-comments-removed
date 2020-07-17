@@ -15,13 +15,6 @@ h
 "
 #
 include
-"
-nscore
-.
-h
-"
-#
-include
 <
 stdlib
 .
