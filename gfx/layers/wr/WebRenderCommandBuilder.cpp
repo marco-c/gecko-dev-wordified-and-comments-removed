@@ -10384,7 +10384,7 @@ std
 stringstream
 ss
 ;
-nsFrame
+nsIFrame
 :
 :
 PrintDisplayItem

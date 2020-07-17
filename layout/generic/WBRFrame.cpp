@@ -1,7 +1,7 @@
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "

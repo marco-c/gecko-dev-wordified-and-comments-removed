@@ -199,7 +199,7 @@ h
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "
@@ -16769,14 +16769,7 @@ targetFrame
 nsresult
 rv
 =
-static_cast
-<
-nsFrame
-*
->
-(
 targetFrame
-)
 -
 >
 SelectByTypeAtPoint
@@ -16787,7 +16780,7 @@ GetPresContext
 relPoint
 amount
 amount
-nsFrame
+nsIFrame
 :
 :
 SELECT_ACCUMULATE

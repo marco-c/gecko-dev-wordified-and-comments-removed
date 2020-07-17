@@ -37,7 +37,7 @@ h
 #
 include
 "
-nsFrame
+nsIFrame
 .
 h
 "

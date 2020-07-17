@@ -687,11 +687,6 @@ nsDirection
 h
 '
 '
-nsFrame
-.
-h
-'
-'
 nsFrameList
 .
 h
@@ -1080,11 +1075,6 @@ nsFontInflationData
 cpp
 '
 '
-nsFrame
-.
-cpp
-'
-'
 nsFrameList
 .
 cpp
@@ -1116,6 +1106,11 @@ cpp
 '
 '
 nsHTMLCanvasFrame
+.
+cpp
+'
+'
+nsIFrame
 .
 cpp
 '
