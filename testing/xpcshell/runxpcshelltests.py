@@ -2491,13 +2491,19 @@ id
 '
 ]
             
+if
+self
+.
+verbose
+:
+                
 self
 .
 log
 .
 info
 (
-                
+                    
 "
 %
 s
@@ -2519,7 +2525,7 @@ n
 .
 format
 (
-                    
+                        
 '
 \
 n
@@ -2532,7 +2538,7 @@ prefs
 )
 %
 name
-            
+                
 )
             
 profile
