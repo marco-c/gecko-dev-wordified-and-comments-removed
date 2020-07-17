@@ -264,6 +264,7 @@ SloppyLexicalFunction
 VarForAnnexBLexicalFunction
 SimpleCatchParameter
 CatchParameter
+PrivateName
 }
 ;
 static
@@ -381,6 +382,12 @@ DeclarationKind
 :
 :
 Const
+:
+case
+DeclarationKind
+:
+:
+PrivateName
 :
 return
 BindingKind
