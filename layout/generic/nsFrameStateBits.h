@@ -525,7 +525,7 @@ nsSVGDisplayableFrame
 FRAME_STATE_GROUP_CLASS
 (
 SVG
-nsSVGContainerFrame
+SVGContainerFrame
 )
 FRAME_STATE_BIT
 (

@@ -23,7 +23,9 @@ h
 #
 include
 "
-nsSVGContainerFrame
+mozilla
+/
+SVGContainerFrame
 .
 h
 "
@@ -73,7 +75,7 @@ SVGClipPathFrame
 final
 :
 public
-nsSVGContainerFrame
+SVGContainerFrame
 {
 friend
 nsIFrame
@@ -127,7 +129,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGContainerFrame
+SVGContainerFrame
 (
 aStyle
 aPresContext

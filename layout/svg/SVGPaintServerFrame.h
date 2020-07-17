@@ -23,6 +23,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
 nsCOMPtr
 .
 h
@@ -45,13 +54,6 @@ h
 include
 "
 nsQueryFrame
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -136,7 +138,7 @@ class
 SVGPaintServerFrame
 :
 public
-nsSVGContainerFrame
+SVGContainerFrame
 {
 protected
 :
@@ -159,7 +161,7 @@ ClassID
 aID
 )
 :
-nsSVGContainerFrame
+SVGContainerFrame
 (
 aStyle
 aPresContext
@@ -250,7 +252,7 @@ const
 override
 {
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 IsFrameOfType

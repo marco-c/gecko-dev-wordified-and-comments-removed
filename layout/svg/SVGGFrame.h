@@ -16,14 +16,16 @@ h
 #
 include
 "
-gfxMatrix
+mozilla
+/
+SVGContainerFrame
 .
 h
 "
 #
 include
 "
-nsSVGContainerFrame
+gfxMatrix
 .
 h
 "
@@ -59,7 +61,7 @@ class
 SVGGFrame
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -118,7 +120,7 @@ ClassID
 aID
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext

@@ -1792,7 +1792,7 @@ this
 }
 }
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 AttributeChanged
@@ -1848,7 +1848,7 @@ AddStateBits
 NS_STATE_SVG_CLIPPATH_CHILD
 )
 ;
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 Init

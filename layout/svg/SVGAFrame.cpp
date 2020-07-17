@@ -19,6 +19,15 @@ include
 "
 mozilla
 /
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 SVGAElement
@@ -33,13 +42,6 @@ mozilla
 dom
 /
 MutationEventBinding
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -90,7 +92,7 @@ SVGAFrame
 final
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -123,7 +125,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext
@@ -303,7 +305,7 @@ interfaces
 "
 )
 ;
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 Init

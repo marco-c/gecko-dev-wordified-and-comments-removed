@@ -36,6 +36,15 @@ include
 "
 mozilla
 /
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
 gfx
 /
 2D
@@ -74,13 +83,6 @@ h
 include
 "
 nsStubMutationObserver
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -451,7 +453,7 @@ SVGTextFrame
 final
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsIFrame
@@ -544,7 +546,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext

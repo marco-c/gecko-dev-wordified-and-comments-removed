@@ -91,6 +91,13 @@ class
 DrawTarget
 ;
 }
+namespace
+image
+{
+struct
+imgDrawingParams
+;
+}
 }
 class
 gfxContext
@@ -137,9 +144,6 @@ public
 nsSVGDisplayableFrame
 {
 typedef
-mozilla
-:
-:
 gfx
 :
 :
@@ -558,9 +562,6 @@ public
 nsPaintedDisplayItem
 {
 typedef
-mozilla
-:
-:
 image
 :
 :

@@ -149,7 +149,7 @@ parent
 return
 static_cast
 <
-nsSVGContainerFrame
+SVGContainerFrame
 *
 >
 (

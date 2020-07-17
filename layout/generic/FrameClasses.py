@@ -1058,7 +1058,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGContainerFrame
+SVGContainerFrame
 "
 "
 None
@@ -1234,7 +1234,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGOuterSVGFrame
+SVGOuterSVGFrame
 "
 "
 SVGOuterSVG
@@ -1245,7 +1245,7 @@ NOT_LEAF
 Frame
 (
 "
-nsSVGOuterSVGAnonChildFrame
+SVGOuterSVGAnonChildFrame
 "
 "
 SVGOuterSVGAnonChild
@@ -1289,7 +1289,7 @@ LEAF
 Frame
 (
 "
-nsSVGSwitchFrame
+SVGSwitchFrame
 "
 "
 SVGSwitch
@@ -1577,7 +1577,7 @@ nsSplittableFrame
 AbstractFrame
 (
 "
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 "
 )
     

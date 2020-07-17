@@ -16,6 +16,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGContainerFrame
+.
+h
+"
+#
+include
+"
 gfxMatrix
 .
 h
@@ -45,13 +54,6 @@ h
 include
 "
 nsQueryFrame
-.
-h
-"
-#
-include
-"
-nsSVGContainerFrame
 .
 h
 "
@@ -129,7 +131,7 @@ SVGMarkerFrame
 final
 :
 public
-nsSVGContainerFrame
+SVGContainerFrame
 {
 typedef
 image
@@ -173,7 +175,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGContainerFrame
+SVGContainerFrame
 (
 aStyle
 aPresContext
@@ -465,7 +467,7 @@ SVGMarkerAnonChildFrame
 final
 :
 public
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 {
 friend
 nsContainerFrame
@@ -496,7 +498,7 @@ nsPresContext
 aPresContext
 )
 :
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 (
 aStyle
 aPresContext

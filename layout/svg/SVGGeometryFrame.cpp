@@ -905,7 +905,7 @@ foundTransform
 =
 static_cast
 <
-nsSVGContainerFrame
+SVGContainerFrame
 *
 >
 (
@@ -2903,13 +2903,13 @@ parent
 "
 )
 ;
-nsSVGContainerFrame
+auto
 *
 parent
 =
 static_cast
 <
-nsSVGContainerFrame
+SVGContainerFrame
 *
 >
 (
@@ -2918,7 +2918,7 @@ GetParent
 )
 )
 ;
-SVGGraphicsElement
+auto
 *
 content
 =

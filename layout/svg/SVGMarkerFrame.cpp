@@ -226,7 +226,7 @@ this
 ;
 }
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 AttributeChanged
@@ -279,7 +279,7 @@ marker
 "
 )
 ;
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 Init
@@ -1097,7 +1097,7 @@ parent
 "
 )
 ;
-nsSVGDisplayContainerFrame
+SVGDisplayContainerFrame
 :
 :
 Init

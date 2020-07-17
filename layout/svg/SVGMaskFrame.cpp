@@ -861,7 +861,7 @@ this
 ;
 }
 return
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 AttributeChanged
@@ -914,7 +914,7 @@ mask
 "
 )
 ;
-nsSVGContainerFrame
+SVGContainerFrame
 :
 :
 Init
