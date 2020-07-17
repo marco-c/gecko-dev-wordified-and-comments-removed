@@ -2192,12 +2192,6 @@ false
 Window
 :
 false
-WindowGlobalChild
-:
-false
-WindowGlobalParent
-:
-false
 WindowRoot
 :
 false
