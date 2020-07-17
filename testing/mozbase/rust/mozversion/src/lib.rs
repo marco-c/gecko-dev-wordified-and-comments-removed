@@ -1429,10 +1429,6 @@ mut
 platform_ini
 =
 dir
-.
-clone
-(
-)
 ;
 platform_ini
 .
