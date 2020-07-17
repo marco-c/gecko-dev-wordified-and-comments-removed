@@ -696,6 +696,7 @@ serverNetworkUpdateEvent
 onNetworkEventUpdate
 )
 ;
+await
 webConsoleFront
 .
 startListeners
