@@ -325,9 +325,6 @@ DISCOVERY_STREAM_PERSONALIZATION_INIT
 }
 setVersion
 (
-isStartup
-=
-false
 )
 {
 const
@@ -452,11 +449,6 @@ data
 :
 {
 version
-}
-meta
-:
-{
-isStartup
 }
 }
 )
@@ -660,7 +652,6 @@ this
 .
 setVersion
 (
-true
 )
 ;
 break
