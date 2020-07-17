@@ -2161,13 +2161,6 @@ DCMAKE_SYSTEM_VERSION
                 
 "
 -
-DLLVM_ENABLE_THREADS
-=
-OFF
-"
-                
-"
--
 DCOMPILER_RT_BUILD_XRAY
 =
 OFF
