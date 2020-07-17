@@ -47,6 +47,11 @@ include
 <
 unordered_map
 >
+#
+include
+<
+unordered_set
+>
 namespace
 mozilla
 {
@@ -686,6 +691,15 @@ mAnimatedValues
 ;
 AnimationsTable
 mAnimations
+;
+std
+:
+:
+unordered_set
+<
+uint64_t
+>
+mNewAnimations
 ;
 mutable
 Mutex
