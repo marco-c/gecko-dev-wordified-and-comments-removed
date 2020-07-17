@@ -921,6 +921,13 @@ update
 -
 packaging
 '
+'
+tools
+/
+update
+-
+programs
+'
 )
 :
 TEST_DIRS
