@@ -16464,7 +16464,7 @@ topLevel
 aPresContext
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

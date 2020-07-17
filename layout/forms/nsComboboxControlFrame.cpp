@@ -2706,7 +2706,7 @@ PresContext
 )
 -
 >
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

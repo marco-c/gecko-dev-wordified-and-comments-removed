@@ -3978,7 +3978,7 @@ nsPresContext
 nsPresContext
 :
 :
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 {
@@ -5914,7 +5914,7 @@ nsPresContext
 *
 topContentPresContext
 =
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;

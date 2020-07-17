@@ -645,7 +645,7 @@ const
 ;
 nsPresContext
 *
-GetToplevelContentDocumentPresContext
+GetInProcessRootContentDocumentPresContext
 (
 )
 ;
