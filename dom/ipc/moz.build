@@ -258,6 +258,11 @@ RemoteBrowser
 h
 '
 '
+RemoteType
+.
+h
+'
+'
 RemoteWebProgress
 .
 h
