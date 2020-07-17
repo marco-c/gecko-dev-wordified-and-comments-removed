@@ -393,6 +393,16 @@ ids
 =
 ids
 )
+pytest
+.
+fixture
+(
+scope
+=
+"
+module
+"
+)
 def
 root
 (
