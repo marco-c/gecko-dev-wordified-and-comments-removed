@@ -19951,8 +19951,8 @@ applyMiddleware
 ]
 )
 (
-rehydrationMiddleware
 queueEarlyMessageMiddleware
+rehydrationMiddleware
 messageMiddleware
 )
 )

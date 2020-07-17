@@ -535,8 +535,8 @@ RPMAddMessageListener
 &
 applyMiddleware
 (
-rehydrationMiddleware
 queueEarlyMessageMiddleware
+rehydrationMiddleware
 messageMiddleware
 )
 )
