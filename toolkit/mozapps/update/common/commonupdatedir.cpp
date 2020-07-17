@@ -2836,7 +2836,7 @@ leafPath
 ;
 #
 endif
-nsresult
+bool
 GetInstallHash
 (
 const
@@ -3031,7 +3031,8 @@ hash
 )
 ;
 }
-if
+return
+!
 (
 charsWritten
 <
@@ -3050,13 +3051,6 @@ hashStrSize
 -
 1
 )
-{
-return
-NS_ERROR_FAILURE
-;
-}
-return
-NS_OK
 ;
 }
 #
@@ -3683,10 +3677,10 @@ hash
 ;
 }
 }
-nsresult
-rv
+bool
+success
 =
-NS_OK
+true
 ;
 if
 (
@@ -3707,7 +3701,7 @@ WhichUpdateDir
 UserAppData
 )
 ;
-rv
+success
 =
 GetInstallHash
 (
@@ -3728,10 +3722,7 @@ useCompatibilityMode
 }
 if
 (
-NS_SUCCEEDED
-(
-rv
-)
+success
 )
 {
 const
