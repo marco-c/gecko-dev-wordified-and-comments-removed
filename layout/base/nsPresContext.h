@@ -1300,7 +1300,7 @@ aScale
 ;
 }
 float
-GetPrintPreviewScale
+GetPrintPreviewScaleForSequenceFrame
 (
 )
 {
