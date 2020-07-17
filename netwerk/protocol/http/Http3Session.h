@@ -595,6 +595,14 @@ SetSecInfo
 )
 ;
 void
+StreamReadyToWrite
+(
+Http3Stream
+*
+aStream
+)
+;
+void
 MaybeResumeSend
 (
 )
