@@ -732,6 +732,10 @@ SetAnimations
 uint64_t
 aId
 const
+LayersId
+&
+aLayersId
+const
 AnimationArray
 &
 aValue
@@ -771,6 +775,7 @@ AnimationHelper
 :
 ExtractAnimations
 (
+aLayersId
 aValue
 )
 )

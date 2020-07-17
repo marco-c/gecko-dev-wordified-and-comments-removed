@@ -40,6 +40,17 @@ include
 "
 mozilla
 /
+layers
+/
+LayersTypes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -266,6 +277,9 @@ gfx
 Path
 >
 mCachedMotionPath
+;
+LayersId
+mLayersId
 ;
 AnimationStorageData
 (

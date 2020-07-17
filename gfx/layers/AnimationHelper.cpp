@@ -1414,6 +1414,10 @@ AnimationHelper
 ExtractAnimations
 (
 const
+LayersId
+&
+aLayersId
+const
 AnimationArray
 &
 aAnimations
@@ -1421,6 +1425,12 @@ aAnimations
 {
 AnimationStorageData
 storageData
+;
+storageData
+.
+mLayersId
+=
+aLayersId
 ;
 nsCSSPropertyID
 prevID

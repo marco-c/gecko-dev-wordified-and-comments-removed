@@ -374,6 +374,10 @@ AnimationInfo
 SetCompositorAnimations
 (
 const
+LayersId
+&
+aLayersId
+const
 CompositorAnimations
 &
 aCompositorAnimations
@@ -394,6 +398,7 @@ AnimationHelper
 :
 ExtractAnimations
 (
+aLayersId
 aCompositorAnimations
 .
 animations
