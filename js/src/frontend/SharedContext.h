@@ -1738,13 +1738,6 @@ ScopeIndex
 scopeIndex
 )
 ;
-JSFunction
-*
-function
-(
-)
-const
-;
 bool
 isStandalone
 (
