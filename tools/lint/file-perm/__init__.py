@@ -12,10 +12,6 @@ mozlint
 pathutils
 import
 expand_exclusions
-results
-=
-[
-]
 def
 lint
 (
@@ -29,6 +25,11 @@ None
 lintargs
 )
 :
+    
+results
+=
+[
+]
     
 if
 platform
@@ -81,6 +82,19 @@ X_OK
 )
 :
             
+if
+config
+.
+get
+(
+"
+allow
+-
+shebang
+"
+)
+:
+                
 with
 open
 (
@@ -93,7 +107,7 @@ r
 as
 content
 :
-                
+                    
 line
 =
 content
@@ -101,7 +115,7 @@ content
 readline
 (
 )
-                
+                    
 if
 line
 .
@@ -113,7 +127,7 @@ startswith
 "
 )
 :
-                    
+                        
 continue
             
 if
