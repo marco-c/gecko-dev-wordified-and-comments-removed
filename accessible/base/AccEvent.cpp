@@ -1149,6 +1149,12 @@ cm
 GetCaretOffset
 (
 )
+cm
+-
+>
+IsSelectionCollapsed
+(
+)
 )
 ;
 return
