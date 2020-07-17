@@ -8613,6 +8613,7 @@ aOutEndOffset
 bool
 aTrustedInput
 )
+const
 ;
 static
 nsresult

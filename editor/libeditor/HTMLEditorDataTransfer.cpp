@@ -15139,6 +15139,7 @@ aOutEndOffset
 bool
 aTrustedInput
 )
+const
 {
 if
 (
