@@ -262,9 +262,6 @@ unittest
 wpt
 -
 update
-xpcshell
--
-test
 "
 run_py
 (

@@ -29,7 +29,7 @@ path
                         
 type
 =
-unicode
+str
 dest
 =
 "
@@ -323,7 +323,7 @@ manifest
                         
 type
 =
-unicode
+str
 dest
 =
 "
