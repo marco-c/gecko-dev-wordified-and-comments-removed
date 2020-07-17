@@ -66,9 +66,9 @@ host
 =
 window
 .
-windowUtils
+browsingContext
 .
-containerElement
+embedderElement
 ;
 if
 (
