@@ -38,6 +38,8 @@ mozdevice
 0
 .
 1
+<
+4
 mozinfo
 >
 =
