@@ -188,7 +188,6 @@ prim_store
 :
 :
 {
-SpaceMapper
 PictureIndex
 PrimitiveDebugId
 }
@@ -316,6 +315,15 @@ scene
 BuiltScene
 SceneProperties
 }
+;
+use
+crate
+:
+:
+space
+:
+:
+SpaceMapper
 ;
 use
 crate

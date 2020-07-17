@@ -171,7 +171,6 @@ prim_store
 {
 InternablePrimitive
 PrimitiveInstanceKind
-SpaceSnapper
 }
 ;
 use
@@ -185,6 +184,15 @@ spatial_tree
 SpatialTree
 SpatialNodeIndex
 }
+;
+use
+crate
+:
+:
+space
+:
+:
+SpaceSnapper
 ;
 use
 std

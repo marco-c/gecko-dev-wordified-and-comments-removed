@@ -149,7 +149,6 @@ prim_store
 {
 ClipData
 ImageMaskData
-SpaceMapper
 VisibleMaskImageTile
 }
 ;
@@ -186,6 +185,15 @@ resource_cache
 ImageRequest
 ResourceCache
 }
+;
+use
+crate
+:
+:
+space
+:
+:
+SpaceMapper
 ;
 use
 crate

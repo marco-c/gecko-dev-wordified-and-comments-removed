@@ -290,6 +290,15 @@ use
 crate
 :
 :
+space
+:
+:
+SpaceMapper
+;
+use
+crate
+:
+:
 texture_cache
 :
 :
