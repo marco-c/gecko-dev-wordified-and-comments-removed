@@ -865,6 +865,11 @@ switch
 aCode
 )
 {
+case
+MsgDropped
+:
+return
+;
 #
 define
 HANDLE_CASE
@@ -886,11 +891,6 @@ _result
 ;
 \
 break
-HANDLE_CASE
-(
-MsgDropped
-)
-;
 HANDLE_CASE
 (
 MsgNotKnown
