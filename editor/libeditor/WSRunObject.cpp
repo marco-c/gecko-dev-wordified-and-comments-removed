@@ -7918,6 +7918,9 @@ EditorDOMPointInText
 WSRunScanner
 :
 :
+TextFragmentData
+:
+:
 GetEndOfCollapsibleASCIIWhiteSpaces
 (
 const
@@ -8143,6 +8146,9 @@ ContainerAsText
 }
 EditorDOMPointInText
 WSRunScanner
+:
+:
+TextFragmentData
 :
 :
 GetFirstASCIIWhiteSpacePointCollapsedTo
