@@ -1569,9 +1569,7 @@ toJitScript
 )
 -
 >
-warmUpCount
-(
-)
+warmUpCount_
 ;
 }
 inline
@@ -1611,10 +1609,10 @@ toJitScript
 )
 -
 >
-incWarmUpCount
-(
+warmUpCount_
++
+=
 amount
-)
 ;
 }
 }
@@ -1657,10 +1655,9 @@ toJitScript
 )
 -
 >
-resetWarmUpCount
-(
+warmUpCount_
+=
 0
-)
 ;
 }
 }

@@ -484,12 +484,6 @@ false
 ;
 SET_DEFAULT
 (
-warpTrialInlining
-false
-)
-;
-SET_DEFAULT
-(
 jitForTrustedPrincipals
 false
 )
@@ -534,12 +528,6 @@ SET_DEFAULT
 (
 baselineJitWarmUpThreshold
 100
-)
-;
-SET_DEFAULT
-(
-trialInliningWarmUpThreshold
-500
 )
 ;
 SET_DEFAULT

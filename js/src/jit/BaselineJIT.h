@@ -262,6 +262,7 @@ IC
 PrologueIC
 CallVM
 NonOpCallVM
+WarmupCounter
 StackCheck
 InterruptCheck
 DebugTrap
