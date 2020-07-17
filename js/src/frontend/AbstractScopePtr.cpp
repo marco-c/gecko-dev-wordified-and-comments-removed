@@ -591,6 +591,12 @@ ScopeKind
 :
 FunctionLexical
 :
+case
+ScopeKind
+:
+:
+ClassBody
+:
 return
 scope
 (

@@ -5826,6 +5826,12 @@ ScopeKind
 :
 FunctionLexical
 :
+case
+ScopeKind
+:
+:
+ClassBody
+:
 if
 (
 MOZ_UNLIKELY

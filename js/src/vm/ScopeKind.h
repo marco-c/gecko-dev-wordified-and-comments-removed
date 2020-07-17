@@ -28,6 +28,7 @@ Catch
 NamedLambda
 StrictNamedLambda
 FunctionLexical
+ClassBody
 With
 Eval
 StrictEval

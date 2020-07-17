@@ -1199,6 +1199,12 @@ ScopeKind
 :
 FunctionLexical
 :
+case
+ScopeKind
+:
+:
+ClassBody
+:
 if
 (
 hasEnv
@@ -5395,6 +5401,12 @@ ScopeKind
 :
 :
 FunctionLexical
+:
+case
+ScopeKind
+:
+:
+ClassBody
 :
 if
 (
