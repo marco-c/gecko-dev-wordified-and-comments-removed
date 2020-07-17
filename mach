@@ -224,11 +224,6 @@ platform
 tests
 -
 update
-webidl
--
-parser
--
-test
 wpt
 wpt
 -
