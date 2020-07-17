@@ -2235,6 +2235,8 @@ entry
 data
 .
 ankrActionIndex
+*
+2
 ]
 ;
 if
@@ -2253,7 +2255,6 @@ data
 )
 return
 ;
-HB_UNUSED
 unsigned
 int
 markControlPoint
@@ -2263,7 +2264,6 @@ data
 +
 +
 ;
-HB_UNUSED
 unsigned
 int
 currControlPoint
@@ -2391,6 +2391,8 @@ entry
 data
 .
 ankrActionIndex
+*
+2
 ]
 ;
 if
@@ -2583,6 +2585,8 @@ entry
 data
 .
 ankrActionIndex
+*
+4
 ]
 ;
 if
