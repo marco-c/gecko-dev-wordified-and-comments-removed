@@ -1508,9 +1508,12 @@ NrIceCtx
 :
 InitializeGlobals
 (
-false
-false
-false
+NrIceCtx
+:
+:
+GlobalConfig
+(
+)
 )
 ;
 }
