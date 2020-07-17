@@ -1267,6 +1267,12 @@ reftest
 '
 lint
 '
+      
+'
+sink
+-
+task
+'
 }
 )
     
@@ -1406,6 +1412,12 @@ Python
 3
 )
 '
+      
+'
+sink
+-
+task
+'
 }
 )
     
@@ -1527,6 +1539,12 @@ changes
       
 '
 lint
+'
+      
+'
+sink
+-
+task
 '
 }
 )
@@ -2755,6 +2773,12 @@ nightly
 crashtest
 -
 1
+'
+      
+'
+sink
+-
+task
 '
 }
 )
