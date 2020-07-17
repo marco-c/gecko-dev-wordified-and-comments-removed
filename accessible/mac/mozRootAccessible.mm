@@ -197,7 +197,7 @@ isMiniaturized
 (
 id
 )
-moxUnignoredParent
+moxParent
 {
 NS_OBJC_BEGIN_TRY_ABORT_BLOCK_NIL
 ;
@@ -254,7 +254,7 @@ view
 return
 [
 super
-moxUnignoredParent
+moxParent
 ]
 ;
 NS_OBJC_END_TRY_ABORT_BLOCK_NIL
