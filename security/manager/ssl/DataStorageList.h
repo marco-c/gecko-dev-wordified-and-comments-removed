@@ -4,6 +4,10 @@ AlternateServices
 )
 DATA_STORAGE
 (
+ClientAuthRememberList
+)
+DATA_STORAGE
+(
 SecurityPreloadState
 )
 DATA_STORAGE
