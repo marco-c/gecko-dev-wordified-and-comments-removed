@@ -302,7 +302,11 @@ CollatorObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+Collator
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 CollatorObject

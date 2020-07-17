@@ -300,7 +300,11 @@ ListFormatObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+ListFormat
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 ListFormatObject

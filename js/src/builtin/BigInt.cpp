@@ -1094,7 +1094,7 @@ class_
 =
 {
 "
-Object
+BigInt
 "
 JSCLASS_HAS_CACHED_PROTO
 (

@@ -281,7 +281,11 @@ LocaleObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+Locale
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 LocaleObject

@@ -242,7 +242,11 @@ RelativeTimeFormatObject
 class_
 =
 {
-js_Object_str
+"
+Intl
+.
+RelativeTimeFormat
+"
 JSCLASS_HAS_RESERVED_SLOTS
 (
 RelativeTimeFormatObject
