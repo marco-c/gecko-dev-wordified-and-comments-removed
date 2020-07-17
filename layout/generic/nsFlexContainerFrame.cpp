@@ -6795,6 +6795,16 @@ nsIFrame
 aItemFrame
 )
 {
+MOZ_ASSERT
+(
+aItemFrame
+-
+>
+IsFlexItem
+(
+)
+)
+;
 if
 (
 auto
