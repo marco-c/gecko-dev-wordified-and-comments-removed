@@ -6789,10 +6789,6 @@ aNumFramesOnLine
 -
 1
 ;
-aStart
-=
-0
-;
 }
 BidiLineData
 bld
