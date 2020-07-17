@@ -1188,6 +1188,16 @@ window
 )
 )
 ;
+if
+(
+!
+nativeWindow
+)
+{
+return
+EGL_NO_SURFACE
+;
+}
 newSurface
 =
 egl
