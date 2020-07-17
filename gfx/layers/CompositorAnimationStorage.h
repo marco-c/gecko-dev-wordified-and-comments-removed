@@ -62,7 +62,7 @@ class
 Animation
 ;
 class
-Layers
+Layer
 ;
 class
 CompositorBridgeParent
