@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGLineElement_h
+DOM_SVG_SVGLINEELEMENT_H_
 #
 define
-mozilla_dom_SVGLineElement_h
+DOM_SVG_SVGLINEELEMENT_H_
 #
 include
 "

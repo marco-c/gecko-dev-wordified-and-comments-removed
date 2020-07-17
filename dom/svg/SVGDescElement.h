@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGDescElement_h
+DOM_SVG_SVGDESCELEMENT_H_
 #
 define
-mozilla_dom_SVGDescElement_h
+DOM_SVG_SVGDESCELEMENT_H_
 #
 include
 "

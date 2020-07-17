@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGAnimateMotionElement_h
+DOM_SVG_SVGANIMATEMOTIONELEMENT_H_
 #
 define
-mozilla_dom_SVGAnimateMotionElement_h
+DOM_SVG_SVGANIMATEMOTIONELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEGaussianBlurElement_h
+DOM_SVG_SVGFEGAUSSIANBLURELEMENT_H_
 #
 define
-mozilla_dom_SVGFEGaussianBlurElement_h
+DOM_SVG_SVGFEGAUSSIANBLURELEMENT_H_
 #
 include
 "

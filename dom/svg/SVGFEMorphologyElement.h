@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEMorphologyElement_h
+DOM_SVG_SVGFEMORPHOLOGYELEMENT_H_
 #
 define
-mozilla_dom_SVGFEMorphologyElement_h
+DOM_SVG_SVGFEMORPHOLOGYELEMENT_H_
 #
 include
 "

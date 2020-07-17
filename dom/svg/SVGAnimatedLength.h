@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SVGAnimatedLength_h
+DOM_SVG_SVGANIMATEDLENGTH_H_
 #
 define
-mozilla_SVGAnimatedLength_h
+DOM_SVG_SVGANIMATEDLENGTH_H_
 #
 include
 "

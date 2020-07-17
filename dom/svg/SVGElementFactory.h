@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGElementFactory_h
+DOM_SVG_SVGELEMENTFACTORY_H_
 #
 define
-mozilla_dom_SVGElementFactory_h
+DOM_SVG_SVGELEMENTFACTORY_H_
 #
 include
 "

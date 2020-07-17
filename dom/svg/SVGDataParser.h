@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_SVGDATAPARSER_H__
+DOM_SVG_SVGDATAPARSER_H_
 #
 define
-__NS_SVGDATAPARSER_H__
+DOM_SVG_SVGDATAPARSER_H_
 #
 include
 <

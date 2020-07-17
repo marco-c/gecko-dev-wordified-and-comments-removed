@@ -1,9 +1,9 @@
 #
 ifndef
-NSSVGGFRAME_H
+LAYOUT_SVG_SVGGFRAME_H_
 #
 define
-NSSVGGFRAME_H
+LAYOUT_SVG_SVGGFRAME_H_
 #
 include
 "

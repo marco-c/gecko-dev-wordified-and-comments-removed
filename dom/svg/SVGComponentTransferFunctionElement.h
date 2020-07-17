@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGComponentTransferFunctionElement_h
+DOM_SVG_SVGCOMPONENTTRANSFERFUNCTIONELEMENT_H_
 #
 define
-mozilla_dom_SVGComponentTransferFunctionElement_h
+DOM_SVG_SVGCOMPONENTTRANSFERFUNCTIONELEMENT_H_
 #
 include
 "

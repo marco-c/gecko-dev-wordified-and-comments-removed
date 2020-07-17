@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGStopElement_h
+DOM_SVG_SVGSTOPELEMENT_H_
 #
 define
-mozilla_dom_SVGStopElement_h
+DOM_SVG_SVGSTOPELEMENT_H_
 #
 include
 "

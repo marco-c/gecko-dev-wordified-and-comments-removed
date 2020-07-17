@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGMatrix_h
+DOM_SVG_SVGMATRIX_H_
 #
 define
-mozilla_dom_SVGMatrix_h
+DOM_SVG_SVGMATRIX_H_
 #
 include
 "

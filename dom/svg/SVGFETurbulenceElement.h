@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFETurbulenceElement_h
+DOM_SVG_SVGFETURBULENCEELEMENT_H_
 #
 define
-mozilla_dom_SVGFETurbulenceElement_h
+DOM_SVG_SVGFETURBULENCEELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGMetadataElement_h
+DOM_SVG_SVGMETADATAELEMENT_H_
 #
 define
-mozilla_dom_SVGMetadataElement_h
+DOM_SVG_SVGMETADATAELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEDisplacementMapElement_h
+DOM_SVG_SVGFEDISPLACEMENTMAPELEMENT_H_
 #
 define
-mozilla_dom_SVGFEDisplacementMapElement_h
+DOM_SVG_SVGFEDISPLACEMENTMAPELEMENT_H_
 #
 include
 "

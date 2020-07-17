@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGRect_h
+DOM_SVG_SVGRECT_H_
 #
 define
-mozilla_dom_SVGRect_h
+DOM_SVG_SVGRECT_H_
 #
 include
 "

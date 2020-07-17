@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGPathElement_h
+DOM_SVG_SVGPATHELEMENT_H_
 #
 define
-mozilla_dom_SVGPathElement_h
+DOM_SVG_SVGPATHELEMENT_H_
 #
 include
 "

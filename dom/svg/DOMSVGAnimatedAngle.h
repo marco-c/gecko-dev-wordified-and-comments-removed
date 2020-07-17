@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_DOMSVGAnimatedAngle_h
+DOM_SVG_DOMSVGANIMATEDANGLE_H_
 #
 define
-mozilla_dom_DOMSVGAnimatedAngle_h
+DOM_SVG_DOMSVGANIMATEDANGLE_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILCSSValueType_h
+DOM_SMIL_SMILCSSVALUETYPE_H_
 #
 define
-mozilla_SMILCSSValueType_h
+DOM_SMIL_SMILCSSVALUETYPE_H_
 #
 include
 "

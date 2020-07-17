@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGEllipseElement_h
+DOM_SVG_SVGELLIPSEELEMENT_H_
 #
 define
-mozilla_dom_SVGEllipseElement_h
+DOM_SVG_SVGELLIPSEELEMENT_H_
 #
 include
 "

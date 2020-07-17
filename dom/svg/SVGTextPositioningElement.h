@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGTextPositioningElement_h
+DOM_SVG_SVGTEXTPOSITIONINGELEMENT_H_
 #
 define
-mozilla_dom_SVGTextPositioningElement_h
+DOM_SVG_SVGTEXTPOSITIONINGELEMENT_H_
 #
 include
 "

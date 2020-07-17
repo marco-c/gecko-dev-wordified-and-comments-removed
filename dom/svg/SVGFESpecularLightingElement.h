@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFESpecularLightingElement_h
+DOM_SVG_SVGFESPECULARLIGHTINGELEMENT_H_
 #
 define
-mozilla_dom_SVGFESpecularLightingElement_h
+DOM_SVG_SVGFESPECULARLIGHTINGELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGTextElement_h
+DOM_SVG_SVGTEXTELEMENT_H_
 #
 define
-mozilla_dom_SVGTextElement_h
+DOM_SVG_SVGTEXTELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGSwitchElement_h
+DOM_SVG_SVGSWITCHELEMENT_H_
 #
 define
-mozilla_dom_SVGSwitchElement_h
+DOM_SVG_SVGSWITCHELEMENT_H_
 #
 include
 "

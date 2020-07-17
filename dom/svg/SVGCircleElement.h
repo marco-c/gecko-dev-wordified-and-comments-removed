@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGCircleElement_h
+DOM_SVG_SVGCIRCLEELEMENT_H_
 #
 define
-mozilla_dom_SVGCircleElement_h
+DOM_SVG_SVGCIRCLEELEMENT_H_
 #
 include
 "

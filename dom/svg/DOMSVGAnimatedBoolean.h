@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_DOMSVGAnimatedBoolean_h
+DOM_SVG_DOMSVGANIMATEDBOOLEAN_H_
 #
 define
-mozilla_dom_DOMSVGAnimatedBoolean_h
+DOM_SVG_DOMSVGANIMATEDBOOLEAN_H_
 #
 include
 "

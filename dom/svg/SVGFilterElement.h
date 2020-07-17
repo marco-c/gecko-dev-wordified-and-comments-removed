@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFilterElement_h
+DOM_SVG_SVGFILTERELEMENT_H_
 #
 define
-mozilla_dom_SVGFilterElement_h
+DOM_SVG_SVGFILTERELEMENT_H_
 #
 include
 "

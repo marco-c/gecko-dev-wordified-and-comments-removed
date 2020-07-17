@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILIntegerType_h
+DOM_SMIL_SMILINTEGERTYPE_H_
 #
 define
-mozilla_SMILIntegerType_h
+DOM_SMIL_SMILINTEGERTYPE_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEDistantLightElement_h
+DOM_SVG_SVGFEDISTANTLIGHTELEMENT_H_
 #
 define
-mozilla_dom_SVGFEDistantLightElement_h
+DOM_SVG_SVGFEDISTANTLIGHTELEMENT_H_
 #
 include
 "

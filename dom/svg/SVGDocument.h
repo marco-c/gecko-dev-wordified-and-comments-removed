@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGDocument_h
+DOM_SVG_SVGDOCUMENT_H_
 #
 define
-mozilla_dom_SVGDocument_h
+DOM_SVG_SVGDOCUMENT_H_
 #
 include
 "

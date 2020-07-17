@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGAngle_h
+DOM_SVG_DOMSVGANGLE_H_
 #
 define
-mozilla_dom_SVGAngle_h
+DOM_SVG_DOMSVGANGLE_H_
 #
 include
 "

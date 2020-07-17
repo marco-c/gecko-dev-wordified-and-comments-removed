@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_SVGSTRING_H__
+DOM_SVG_SVGANIMATEDSTRING_H_
 #
 define
-__NS_SVGSTRING_H__
+DOM_SVG_SVGANIMATEDSTRING_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEOffsetElement_h
+DOM_SVG_SVGFEOFFSETELEMENT_H_
 #
 define
-mozilla_dom_SVGFEOffsetElement_h
+DOM_SVG_SVGFEOFFSETELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGTransform_h
+DOM_SVG_DOMSVGTRANSFORM_H_
 #
 define
-mozilla_dom_SVGTransform_h
+DOM_SVG_DOMSVGTRANSFORM_H_
 #
 include
 "

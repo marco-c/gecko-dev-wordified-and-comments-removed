@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGClipPathElement_h
+DOM_SVG_SVGCLIPPATHELEMENT_H_
 #
 define
-mozilla_dom_SVGClipPathElement_h
+DOM_SVG_SVGCLIPPATHELEMENT_H_
 #
 include
 "

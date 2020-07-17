@@ -1,9 +1,9 @@
 #
 ifndef
-MOZILLA_SVGLENGTH_H__
+DOM_SVG_SVGLENGTH_H_
 #
 define
-MOZILLA_SVGLENGTH_H__
+DOM_SVG_SVGLENGTH_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGSymbolElement_h
+DOM_SVG_SVGSYMBOLELEMENT_H_
 #
 define
-mozilla_dom_SVGSymbolElement_h
+DOM_SVG_SVGSYMBOLELEMENT_H_
 #
 include
 "

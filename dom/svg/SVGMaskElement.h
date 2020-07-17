@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGMaskElement_h
+DOM_SVG_SVGMASKELEMENT_H_
 #
 define
-mozilla_dom_SVGMaskElement_h
+DOM_SVG_SVGMASKELEMENT_H_
 #
 include
 "

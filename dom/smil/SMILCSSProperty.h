@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILCSSProperty_h
+DOM_SMIL_SMILCSSPROPERTY_H_
 #
 define
-mozilla_SMILCSSProperty_h
+DOM_SMIL_SMILCSSPROPERTY_H_
 #
 include
 "

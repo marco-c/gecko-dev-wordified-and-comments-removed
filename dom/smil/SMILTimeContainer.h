@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILTimeContainer_h
+DOM_SMIL_SMILTIMECONTAINER_H_
 #
 define
-mozilla_SMILTimeContainer_h
+DOM_SMIL_SMILTIMECONTAINER_H_
 #
 include
 "

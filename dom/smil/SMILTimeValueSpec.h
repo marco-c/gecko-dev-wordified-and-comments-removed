@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILTimeValueSpec_h
+DOM_SMIL_SMILTIMEVALUESPEC_H_
 #
 define
-mozilla_SMILTimeValueSpec_h
+DOM_SMIL_SMILTIMEVALUESPEC_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEConvolveMatrixElement_h
+DOM_SVG_SVGFECONVOLVEMATRIXELEMENT_H_
 #
 define
-mozilla_dom_SVGFEConvolveMatrixElement_h
+DOM_SVG_SVGFECONVOLVEMATRIXELEMENT_H_
 #
 include
 "

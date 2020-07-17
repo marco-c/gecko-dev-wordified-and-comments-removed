@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGMarkerElement_h
+DOM_SVG_SVGMARKERELEMENT_H_
 #
 define
-mozilla_dom_SVGMarkerElement_h
+DOM_SVG_SVGMARKERELEMENT_H_
 #
 include
 "

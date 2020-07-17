@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGFEMergeNodeElement_h
+DOM_SVG_SVGFEMERGENODEELEMENT_H_
 #
 define
-mozilla_dom_SVGFEMergeNodeElement_h
+DOM_SVG_SVGFEMERGENODEELEMENT_H_
 #
 include
 "

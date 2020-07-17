@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGPolylineElement_h
+DOM_SVG_SVGPOLYLINEELEMENT_H_
 #
 define
-mozilla_dom_SVGPolylineElement_h
+DOM_SVG_SVGPOLYLINEELEMENT_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILFloatType_h
+DOM_SMIL_SMILFLOATTYPE_H_
 #
 define
-mozilla_SMILFloatType_h
+DOM_SMIL_SMILFLOATTYPE_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_DOMSVGAnimatedNumber_h
+DOM_SVG_DOMSVGANIMATEDNUMBER_H_
 #
 define
-mozilla_dom_DOMSVGAnimatedNumber_h
+DOM_SVG_DOMSVGANIMATEDNUMBER_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_dom_SVGGeometryElement_h
+DOM_SVG_SVGGEOMETRYELEMENT_H_
 #
 define
-mozilla_dom_SVGGeometryElement_h
+DOM_SVG_SVGGEOMETRYELEMENT_H_
 #
 include
 "

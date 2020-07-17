@@ -1,9 +1,9 @@
 #
 ifndef
-mozilla_SMILAttr_h
+DOM_SMIL_SMILATTR_H_
 #
 define
-mozilla_SMILAttr_h
+DOM_SMIL_SMILATTR_H_
 #
 include
 "

@@ -1,9 +1,9 @@
 #
 ifndef
-__NS_SVGUSEFRAME_H__
+LAYOUT_SVG_SVGUSEFRAME_H_
 #
 define
-__NS_SVGUSEFRAME_H__
+LAYOUT_SVG_SVGUSEFRAME_H_
 #
 include
 "
