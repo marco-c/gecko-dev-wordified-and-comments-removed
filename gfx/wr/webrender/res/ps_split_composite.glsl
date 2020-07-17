@@ -392,6 +392,13 @@ dest_task
 content_origin
 ;
 vec2
+quad_pos
+=
+quad_position
+(
+)
+;
+vec2
 local_pos
 =
 bilerp
@@ -420,10 +427,10 @@ local
 [
 2
 ]
-aPosition
+quad_pos
 .
 y
-aPosition
+quad_pos
 .
 x
 )

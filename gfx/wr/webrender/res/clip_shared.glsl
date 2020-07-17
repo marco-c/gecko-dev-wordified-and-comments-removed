@@ -363,6 +363,13 @@ device_pixel_scale
 )
 {
 vec2
+quad_pos
+=
+quad_position
+(
+)
+;
+vec2
 device_pos
 =
 screen_origin
@@ -371,9 +378,7 @@ sub_rect
 .
 p0
 +
-aPosition
-.
-xy
+quad_pos
 *
 sub_rect
 .
@@ -547,9 +552,7 @@ sub_rect
 .
 p0
 +
-aPosition
-.
-xy
+quad_pos
 *
 sub_rect
 .

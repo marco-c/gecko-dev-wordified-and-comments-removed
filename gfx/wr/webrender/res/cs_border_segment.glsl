@@ -1110,6 +1110,13 @@ default
 break
 ;
 }
+vec2
+quad_pos
+=
+quad_position
+(
+)
+;
 vConfig
 =
 ivec4
@@ -1160,9 +1167,7 @@ aRect
 .
 zw
 *
-aPosition
-.
-xy
+quad_pos
 ;
 vec4
 [
@@ -1378,9 +1383,7 @@ radius
 .
 0
 *
-aPosition
-.
-xy
+quad_pos
 -
 1
 .

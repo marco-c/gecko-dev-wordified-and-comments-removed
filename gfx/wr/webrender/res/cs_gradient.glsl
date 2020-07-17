@@ -137,6 +137,13 @@ main
 void
 )
 {
+vec2
+quad_pos
+=
+quad_position
+(
+)
+;
 vPos
 =
 mix
@@ -149,10 +156,10 @@ aStartStop
 y
 mix
 (
-aPosition
+quad_pos
 .
 x
-aPosition
+quad_pos
 .
 y
 aAxisSelect
@@ -193,9 +200,7 @@ aTaskRect
 .
 zw
 *
-aPosition
-.
-xy
+quad_pos
 0
 .
 0

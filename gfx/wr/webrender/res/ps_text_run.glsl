@@ -927,6 +927,13 @@ get_snap_bias
 subpx_dir
 )
 ;
+vec2
+quad_pos
+=
+quad_position
+(
+)
+;
 /
 /
 Glyph
@@ -1288,9 +1295,7 @@ local_rect
 .
 size
 *
-aPosition
-.
-xy
+quad_pos
 ;
 /
 /
@@ -1374,9 +1379,7 @@ glyph_rect
 .
 size
 *
-aPosition
-.
-xy
+quad_pos
 )
 ;
 }
@@ -1781,9 +1784,7 @@ glyph_rect
 .
 size
 *
-aPosition
-.
-xy
+quad_pos
 ;
 #
 endif
