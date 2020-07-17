@@ -96,4 +96,16 @@ source
 :
 string
 ;
+userFacingName
+:
+string
+;
+userFacingDescription
+:
+string
+;
+lastSeen
+:
+string
+;
 }
