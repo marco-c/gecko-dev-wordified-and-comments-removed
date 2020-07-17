@@ -82,6 +82,15 @@ executionContext
 (
 )
 method
+Returns
+the
+execution
+context
+the
+handle
+belongs
+to
+.
 <
 b
 >

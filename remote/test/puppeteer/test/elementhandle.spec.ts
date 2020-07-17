@@ -1516,6 +1516,9 @@ await
 page
 .
 evaluateHandle
+<
+ElementHandle
+>
 (
 (
 )
@@ -1525,11 +1528,7 @@ button
 )
 ;
 await
-(
 buttonHandle
-as
-ElementHandle
-)
 .
 click
 (

@@ -108,3 +108,14 @@ Returns
 b
 >
 boolean
+True
+if
+the
+response
+was
+served
+by
+a
+service
+worker
+.

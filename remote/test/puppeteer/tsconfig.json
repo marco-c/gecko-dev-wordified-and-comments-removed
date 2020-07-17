@@ -22,6 +22,8 @@ outDir
 .
 /
 lib
+/
+cjs
 "
 "
 target

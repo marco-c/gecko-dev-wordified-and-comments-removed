@@ -129,6 +129,12 @@ timeout
 |
 number
 |
+Maximum
+navigation
+time
+in
+milliseconds
+.
 |
 <
 b

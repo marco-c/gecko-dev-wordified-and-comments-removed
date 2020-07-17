@@ -107,7 +107,6 @@ assert
 ;
 import
 {
-helper
 debugError
 }
 from
@@ -159,11 +158,18 @@ from
 BrowserRunner
 '
 ;
+import
+{
+promisify
+}
+from
+'
+util
+'
+;
 const
 mkdtempAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -174,8 +180,6 @@ mkdtemp
 const
 writeFileAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -3885,6 +3889,8 @@ missingText
 }
 ;
 }
+export
+default
 function
 Launcher
 (
@@ -4015,7 +4021,3 @@ isPuppeteerCore
 ;
 }
 }
-export
-default
-Launcher
-;

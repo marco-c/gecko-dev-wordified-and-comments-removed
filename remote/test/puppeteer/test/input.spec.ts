@@ -1013,6 +1013,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -1177,6 +1179,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -1205,6 +1209,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -1310,6 +1316,8 @@ input
 async
 (
 picker
+:
+HTMLInputElement
 )
 =
 >
@@ -1488,6 +1496,8 @@ input
 async
 (
 picker
+:
+HTMLInputElement
 )
 =
 >
@@ -1567,6 +1577,8 @@ input
 async
 (
 picker
+:
+HTMLInputElement
 )
 =
 >
@@ -1954,6 +1966,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -2101,6 +2115,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -2140,6 +2156,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >
@@ -2219,6 +2237,8 @@ input
 '
 (
 input
+:
+HTMLInputElement
 )
 =
 >

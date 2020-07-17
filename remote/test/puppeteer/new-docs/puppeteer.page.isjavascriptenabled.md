@@ -108,3 +108,13 @@ Returns
 b
 >
 boolean
+true
+if
+the
+page
+has
+JavaScript
+enabled
+false
+otherwise
+.

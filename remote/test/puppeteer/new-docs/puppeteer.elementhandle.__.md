@@ -80,9 +80,7 @@ ElementHandle
 (
 )
 method
-The
-method
-runs
+Runs
 element
 .
 querySelectorAll

@@ -140,6 +140,18 @@ browserfetcheroptions
 md
 )
 |
+Set
+of
+configurable
+options
+to
+specify
+the
+settings
+of
+the
+BrowserFetcher
+.
 |
 <
 b
@@ -162,3 +174,8 @@ browserfetcher
 .
 md
 )
+A
+new
+BrowserFetcher
+instance
+.

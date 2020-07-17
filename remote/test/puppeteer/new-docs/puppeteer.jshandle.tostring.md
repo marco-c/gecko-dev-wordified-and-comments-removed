@@ -82,6 +82,14 @@ toString
 (
 )
 method
+Returns
+a
+string
+representation
+of
+the
+JSHandle
+.
 <
 b
 >
@@ -108,3 +116,10 @@ Returns
 b
 >
 string
+#
+#
+Remarks
+Useful
+during
+debugging
+.

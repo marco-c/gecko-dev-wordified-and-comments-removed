@@ -226,8 +226,7 @@ NOTE
 *
 The
 method
-will
-throw
+throws
 if
 the
 referenced

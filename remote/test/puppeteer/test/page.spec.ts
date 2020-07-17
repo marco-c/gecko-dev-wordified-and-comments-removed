@@ -1789,6 +1789,8 @@ a
 '
 (
 a
+:
+HTMLAnchorElement
 )
 =
 >
@@ -13844,6 +13846,8 @@ select
 '
 (
 select
+:
+HTMLSelectElement
 )
 =
 >
@@ -13974,6 +13978,8 @@ select
 '
 (
 select
+:
+HTMLSelectElement
 )
 =
 >

@@ -3080,6 +3080,8 @@ textarea
 '
 (
 textarea
+:
+HTMLInputElement
 )
 =
 >
@@ -3210,6 +3212,8 @@ textarea
 '
 (
 textarea
+:
+HTMLInputElement
 )
 =
 >

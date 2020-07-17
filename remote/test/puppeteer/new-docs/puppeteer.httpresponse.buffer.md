@@ -118,3 +118,13 @@ Buffer
 &
 gt
 ;
+Promise
+which
+resolves
+to
+a
+buffer
+with
+response
+body
+.

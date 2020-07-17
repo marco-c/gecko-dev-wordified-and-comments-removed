@@ -28,18 +28,11 @@ sinon
 ;
 import
 {
-helper
+promisify
 }
 from
 '
-.
-.
-/
-src
-/
-common
-/
-helper
+util
 '
 ;
 import
@@ -99,8 +92,6 @@ Page
 const
 rmAsync
 =
-helper
-.
 promisify
 (
 rimraf
@@ -109,8 +100,6 @@ rimraf
 const
 mkdtempAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -121,8 +110,6 @@ mkdtemp
 const
 readFileAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -133,8 +120,6 @@ readFile
 const
 statAsync
 =
-helper
-.
 promisify
 (
 fs

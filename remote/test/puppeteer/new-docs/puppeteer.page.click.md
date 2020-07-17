@@ -109,7 +109,7 @@ number
 button
 ?
 :
-MouseButtonInput
+MouseButton
 ;
 clickCount
 ?
@@ -166,14 +166,14 @@ button
 ?
 :
 [
-MouseButtonInput
+MouseButton
 ]
 (
 .
 /
 puppeteer
 .
-mousebuttoninput
+mousebutton
 .
 md
 )

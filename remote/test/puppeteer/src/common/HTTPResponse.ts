@@ -52,6 +52,7 @@ from
 protocol
 '
 ;
+export
 interface
 RemoteAddress
 {

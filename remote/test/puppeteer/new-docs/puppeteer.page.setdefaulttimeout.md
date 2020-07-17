@@ -129,6 +129,11 @@ timeout
 |
 number
 |
+Maximum
+time
+in
+milliseconds
+.
 |
 <
 b

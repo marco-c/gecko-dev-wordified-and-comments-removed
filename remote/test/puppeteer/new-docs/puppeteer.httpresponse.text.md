@@ -118,3 +118,14 @@ string
 &
 gt
 ;
+Promise
+which
+resolves
+to
+a
+text
+representation
+of
+response
+body
+.

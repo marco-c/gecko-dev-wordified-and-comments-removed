@@ -85,6 +85,15 @@ Debug
 '
 ;
 import
+{
+promisify
+}
+from
+'
+util
+'
+;
+import
 removeRecursive
 from
 '
@@ -136,20 +145,6 @@ from
 common
 /
 assert
-'
-;
-import
-{
-helper
-}
-from
-'
-.
-.
-/
-common
-/
-helper
 '
 ;
 const
@@ -420,6 +415,7 @@ firefox
 as
 const
 ;
+export
 type
 Platform
 =
@@ -439,6 +435,7 @@ win32
 win64
 '
 ;
+export
 type
 Product
 =
@@ -716,8 +713,6 @@ Error
 const
 readdirAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -733,8 +728,6 @@ fs
 const
 mkdirAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -750,8 +743,6 @@ fs
 const
 unlinkAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -767,8 +758,6 @@ fs
 const
 chmodAsync
 =
-helper
-.
 promisify
 (
 fs
@@ -850,6 +839,7 @@ host
 string
 ;
 }
+export
 interface
 BrowserFetcherRevisionInfo
 {

@@ -31,6 +31,7 @@ from
 Connection
 '
 ;
+export
 interface
 TracingOptions
 {
