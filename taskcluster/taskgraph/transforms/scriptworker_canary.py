@@ -79,6 +79,8 @@ canary
 -
 workers
 "
+[
+]
 )
     
 scriptworkers
