@@ -6,6 +6,8 @@ print_function
 unicode_literals
 import
 re
+import
+six
 from
 taskgraph
 .
@@ -164,10 +166,11 @@ for
 k
 v
 in
-val
+six
 .
 iteritems
 (
+val
 )
 }
         
