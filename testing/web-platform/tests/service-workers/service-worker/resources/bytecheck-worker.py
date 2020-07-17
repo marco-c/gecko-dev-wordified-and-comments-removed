@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -25,11 +27,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -42,10 +46,12 @@ age
     
 main_content_type
 =
+b
 '
 '
     
 if
+b
 '
 main
 '
@@ -61,6 +67,7 @@ request
 .
 GET
 [
+b
 '
 main
 '
@@ -68,6 +75,7 @@ main
     
 main_content
 =
+b
 '
 default
 '
@@ -76,6 +84,7 @@ if
 main_content_type
 =
 =
+b
 '
 time
 '
@@ -83,6 +92,7 @@ time
         
 main_content
 =
+b
 '
 %
 f
@@ -96,10 +106,12 @@ time
     
 imported_request_path
 =
+b
 '
 '
     
 if
+b
 '
 path
 '
@@ -115,6 +127,7 @@ request
 .
 GET
 [
+b
 '
 path
 '
@@ -122,10 +135,12 @@ path
     
 imported_request_type
 =
+b
 '
 '
     
 if
+b
 '
 imported
 '
@@ -141,6 +156,7 @@ request
 .
 GET
 [
+b
 '
 imported
 '
@@ -148,6 +164,7 @@ imported
     
 imported_request
 =
+b
 '
 '
     
@@ -155,6 +172,7 @@ if
 imported_request_type
 =
 =
+b
 '
 time
 '
@@ -162,16 +180,17 @@ time
         
 imported_request
 =
+b
 '
 ?
 imported
 =
 time
 '
-;
     
 body
 =
+b
 '
 '
 '

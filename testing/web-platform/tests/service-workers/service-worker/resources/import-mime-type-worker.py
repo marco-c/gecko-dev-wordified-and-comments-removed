@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 '
 mime
 '
@@ -21,11 +22,13 @@ return
             
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -34,6 +37,7 @@ javascript
 )
 ]
             
+b
 "
 importScripts
 (
@@ -50,25 +54,22 @@ py
 ?
 mime
 =
-{
-0
-}
+%
+s
 '
 )
 ;
 "
-.
-format
-(
+%
 request
 .
 GET
 [
+b
 '
 mime
 '
 ]
-)
         
 )
     
@@ -77,11 +78,13 @@ return
         
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -90,6 +93,7 @@ javascript
 )
 ]
         
+b
 "
 importScripts
 (

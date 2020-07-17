@@ -11,11 +11,13 @@ return
 [
         
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -27,9 +29,11 @@ revalidate
 )
         
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -38,11 +42,13 @@ cache
 )
         
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -51,6 +57,7 @@ javascript
 )
 ]
       
+b
 '
 echo_output
 =
@@ -67,6 +74,7 @@ req
 .
 GET
 [
+b
 '
 msg
 '

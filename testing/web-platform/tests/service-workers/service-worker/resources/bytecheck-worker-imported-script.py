@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -25,11 +27,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -42,10 +46,12 @@ age
     
 imported_content_type
 =
+b
 '
 '
     
 if
+b
 '
 imported
 '
@@ -61,6 +67,7 @@ request
 .
 GET
 [
+b
 '
 imported
 '
@@ -68,6 +75,7 @@ imported
     
 imported_content
 =
+b
 '
 default
 '
@@ -76,6 +84,7 @@ if
 imported_content_type
 =
 =
+b
 '
 time
 '
@@ -83,6 +92,7 @@ time
         
 imported_content
 =
+b
 '
 %
 f
@@ -96,6 +106,7 @@ time
     
 body
 =
+b
 '
 '
 '
