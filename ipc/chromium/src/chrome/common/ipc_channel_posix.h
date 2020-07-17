@@ -424,10 +424,15 @@ kControlBufferSlopBytes
 char
 input_cmsg_buf_
 [
-Channel
+FileDescriptorSet
 :
 :
-kReadBufferSize
+MAX_DESCRIPTORS_PER_MESSAGE
+*
+sizeof
+(
+int
+)
 +
 kControlBufferSlopBytes
 ]
