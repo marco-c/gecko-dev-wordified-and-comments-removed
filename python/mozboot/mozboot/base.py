@@ -5586,6 +5586,10 @@ Gradle
 "
 "
         
+java
+=
+None
+        
 if
 '
 JAVA_HOME
@@ -5596,10 +5600,8 @@ os
 environ
 :
             
-extra_search_dirs
-+
+possible_java_path
 =
-(
 os
 .
 path
@@ -5617,9 +5619,39 @@ JAVA_HOME
 '
 bin
 '
+'
+java
+'
 )
+            
+if
+os
+.
+path
+.
+isfile
+(
+possible_java_path
 )
+and
+os
+.
+access
+(
+possible_java_path
+os
+.
+X_OK
+)
+:
+                
+java
+=
+possible_java_path
         
+else
+:
+            
 java
 =
 self
