@@ -71,7 +71,6 @@ var
 DefaultMap
 DefaultWeakMap
 ExtensionError
-getWinUtils
 parseMatchPatterns
 }
 =
@@ -2988,10 +2987,9 @@ window
 >
 {
 return
-getWinUtils
-(
 window
-)
+.
+windowUtils
 .
 outerWindowID
 ;

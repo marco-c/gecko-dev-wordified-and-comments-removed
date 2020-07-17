@@ -231,7 +231,6 @@ ExtensionError
 filterStack
 getInnerWindowID
 getUniqueId
-getWinUtils
 }
 =
 ExtensionUtils
@@ -473,10 +472,9 @@ callable
 let
 handle
 =
-getWinUtils
-(
 window
-)
+.
+windowUtils
 .
 setHandlingUserInput
 (
@@ -3736,14 +3734,13 @@ requireUserInput
 if
 (
 !
-getWinUtils
-(
 this
 .
 context
 .
 contentWindow
-)
+.
+windowUtils
 .
 isHandlingUserInput
 )
