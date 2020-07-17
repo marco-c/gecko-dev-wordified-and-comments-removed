@@ -87,6 +87,15 @@ aURI
 nullptr
 )
 ;
+static
+bool
+TestHttpsOnlySitePermission
+(
+nsIPrincipal
+*
+aPrincipal
+)
+;
 private
 :
 static
