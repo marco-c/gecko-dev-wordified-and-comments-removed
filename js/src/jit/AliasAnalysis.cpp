@@ -880,15 +880,6 @@ MDefinition
 Opcode
 :
 :
-GuardProto
-:
-case
-MDefinition
-:
-:
-Opcode
-:
-:
 LoadDynamicSlot
 :
 case

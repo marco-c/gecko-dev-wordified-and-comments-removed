@@ -2217,11 +2217,6 @@ JSObject
 obj
 )
 {
-MOZ_ASSERT
-(
-obj
-)
-;
 assertSameCompartment
 (
 obj
