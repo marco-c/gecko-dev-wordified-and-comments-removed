@@ -72,6 +72,7 @@ try_task_config
 .
 get
 (
+        
 "
 scriptworker
 -
@@ -81,6 +82,7 @@ workers
 "
 [
 ]
+    
 )
     
 scriptworkers
