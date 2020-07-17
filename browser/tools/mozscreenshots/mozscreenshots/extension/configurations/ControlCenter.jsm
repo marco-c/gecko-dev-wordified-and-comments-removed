@@ -1527,6 +1527,12 @@ ownerGlobal
 ;
 gProtectionsHandler
 .
+_initializePopup
+(
+)
+;
+gProtectionsHandler
+.
 _protectionsPopup
 .
 hidePopup
