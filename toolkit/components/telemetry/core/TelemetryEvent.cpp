@@ -706,6 +706,7 @@ InvalidExtraKey
 StorageLimitReached
 ExpiredEvent
 WrongProcess
+CannotRecord
 }
 ;
 typedef
@@ -2073,7 +2074,7 @@ return
 RecordEventResult
 :
 :
-Ok
+CannotRecord
 ;
 }
 TelemetryScalar
