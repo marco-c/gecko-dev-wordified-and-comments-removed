@@ -23,15 +23,6 @@ include
 "
 mozilla
 /
-ComputedStyleInlines
-.
-h
-"
-#
-include
-"
-mozilla
-/
 EnumeratedRange
 .
 h
