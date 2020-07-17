@@ -683,6 +683,11 @@ libpulse
 dev
 :
 i386
+libdrm
+-
+dev
+:
+i386
 5
 .
 Create

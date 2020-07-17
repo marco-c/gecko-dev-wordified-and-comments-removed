@@ -205,11 +205,6 @@ zip
     
 ]
     
-DISTRO_PACKAGES
-=
-[
-]
-    
 DEBIAN_PACKAGES
 =
 [
@@ -248,6 +243,12 @@ libdbus
 glib
 -
 1
+-
+dev
+'
+        
+'
+libdrm
 -
 dev
 '
@@ -298,11 +299,6 @@ yasm
     
 ]
     
-BROWSER_DISTRO_PACKAGES
-=
-[
-]
-    
 MOBILE_ANDROID_COMMON_PACKAGES
 =
 [
@@ -321,11 +317,6 @@ headless
 wget
 '
     
-]
-    
-MOBILE_ANDROID_DISTRO_PACKAGES
-=
-[
 ]
     
 def
@@ -380,13 +371,12 @@ self
 .
 packages
 =
+list
+(
 self
 .
 COMMON_PACKAGES
-+
-self
-.
-DISTRO_PACKAGES
+)
         
 if
 self
@@ -528,32 +518,6 @@ python
 dev
 '
 )
-        
-self
-.
-browser_packages
-=
-self
-.
-BROWSER_COMMON_PACKAGES
-+
-self
-.
-BROWSER_DISTRO_PACKAGES
-        
-self
-.
-mobile_android_packages
-=
-self
-.
-MOBILE_ANDROID_COMMON_PACKAGES
-+
-\
-            
-self
-.
-MOBILE_ANDROID_DISTRO_PACKAGES
     
 def
 install_system_packages
@@ -803,7 +767,7 @@ apt_install
 *
 self
 .
-browser_packages
+BROWSER_COMMON_PACKAGES
 )
         
 modern
@@ -845,7 +809,7 @@ apt_install
 *
 self
 .
-mobile_android_packages
+MOBILE_ANDROID_COMMON_PACKAGES
 )
         
 self
