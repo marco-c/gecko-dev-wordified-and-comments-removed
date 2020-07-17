@@ -1,5 +1,11 @@
 import
 re
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -13,7 +19,6 @@ response
 status
 =
 302
-;
     
 location
 =
@@ -21,6 +26,7 @@ re
 .
 sub
 (
+b
 '
 redirect
 -
@@ -31,6 +37,7 @@ function
 *
 '
                       
+b
 '
 throw
 -
@@ -45,9 +52,12 @@ secret
 ref
 '
                       
+isomorphic_encode
+(
 request
 .
 url
+)
 )
     
 response
@@ -56,9 +66,9 @@ headers
 .
 set
 (
+b
 "
 Location
 "
 location
 )
-;
