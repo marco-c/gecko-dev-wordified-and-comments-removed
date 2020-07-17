@@ -3770,12 +3770,14 @@ top
 50
 %
 ;
-translate
+transform
 :
-0
+translateY
+(
 -
 50
 %
+)
 ;
 overflow
 :
