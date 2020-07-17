@@ -1712,6 +1712,16 @@ has
 \
 MACRO
 (
+hashConstructor
+hashConstructor
+"
+#
+constructor
+"
+)
+\
+MACRO
+(
 hasOwn
 hasOwn
 "
