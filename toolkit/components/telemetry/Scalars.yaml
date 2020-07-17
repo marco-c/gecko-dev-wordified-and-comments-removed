@@ -19563,6 +19563,8 @@ bug_numbers
 1572711
 -
 1607744
+-
+1649960
 description
 :
 >
@@ -19609,7 +19611,7 @@ retrieved
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -19640,6 +19642,11 @@ awagner
 mozilla
 .
 com
+-
+rwu
+mozilla
+.
+com
 products
 :
 -
@@ -19664,6 +19671,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -19712,7 +19721,7 @@ retrieved
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -19766,6 +19775,8 @@ bug_numbers
 1572711
 -
 1607744
+-
+1649960
 description
 :
 >
@@ -19812,7 +19823,7 @@ retrieved
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -19843,6 +19854,11 @@ awagner
 mozilla
 .
 com
+-
+rwu
+mozilla
+.
+com
 products
 :
 -
@@ -19863,6 +19879,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -19894,7 +19912,7 @@ instead
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -19946,6 +19964,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -20007,7 +20027,7 @@ true
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -20059,6 +20079,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -20123,7 +20145,7 @@ unavailable
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -20175,6 +20197,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -20221,7 +20245,7 @@ unavailable
 expires
 :
 "
-81
+88
 "
 kind
 :
@@ -20273,6 +20297,8 @@ bug_numbers
 :
 -
 1633466
+-
+1649960
 description
 :
 >
@@ -20320,7 +20346,7 @@ unavailable
 expires
 :
 "
-81
+88
 "
 kind
 :
