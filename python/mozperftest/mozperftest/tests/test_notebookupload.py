@@ -27,6 +27,14 @@ mozperftest
 utils
 import
 silence
+from
+mozperftest
+.
+metrics
+.
+utils
+import
+metric_fields
 def
 setup_env
 (
@@ -424,9 +432,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
         
 "
@@ -700,9 +711,12 @@ metrics
 "
 :
 [
+metric_fields
+(
 "
 firstPaint
 "
+)
 ]
         
 "
