@@ -3189,7 +3189,13 @@ assertEquals
 tabsExtension
 !
 !
+.
+id
+!
+!
 source
+.
+id
 )
 tabsCreateResult
 .
