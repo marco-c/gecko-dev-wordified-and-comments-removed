@@ -142,16 +142,6 @@ nsSupportsWeakReference
 public
 :
 static
-nsresult
-GetGlobalPrintSettings
-(
-nsIPrintSettings
-*
-*
-aPrintSettings
-)
-;
-static
 void
 CloseProgressDialog
 (
