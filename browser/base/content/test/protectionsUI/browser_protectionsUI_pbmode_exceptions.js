@@ -191,14 +191,8 @@ protections
 popup
 "
 )
-?
 .
 state
-|
-|
-"
-closed
-"
 ;
 }
 function
