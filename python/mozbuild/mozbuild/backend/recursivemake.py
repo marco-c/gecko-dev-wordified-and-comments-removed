@@ -4841,7 +4841,10 @@ add_dependencies
 chain
 (
 rust_roots
+sorted
+(
 roots
+)
 )
 )
             

@@ -8,6 +8,10 @@ import
 itertools
 import
 json
+from
+operator
+import
+itemgetter
 import
 os
 import
@@ -1176,7 +1180,10 @@ d
 shared_libraries
 '
 :
-[
+sorted
+(
+                    
+(
 s
 .
 to_dict
@@ -1190,13 +1197,26 @@ self
 _binaries
 .
 shared_libraries
-]
+)
+                    
+key
+=
+itemgetter
+(
+'
+basename
+'
+)
+)
                 
 '
 programs
 '
 :
-[
+sorted
+(
+                    
+(
 p
 .
 to_dict
@@ -1210,7 +1230,17 @@ self
 _binaries
 .
 programs
-]
+)
+                    
+key
+=
+itemgetter
+(
+'
+program
+'
+)
+)
             
 }
             
