@@ -1036,14 +1036,13 @@ return
 enclosing_
 ;
 }
-bool
-getOrCreateEnclosingScope
+Scope
+*
+getEnclosingScope
 (
 JSContext
 *
 cx
-MutableHandleScope
-scope
 )
 ;
 static

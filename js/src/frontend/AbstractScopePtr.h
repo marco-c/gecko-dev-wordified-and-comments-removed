@@ -168,13 +168,6 @@ HeapPtrScope
 )
 )
 ;
-Scope
-*
-getExistingScope
-(
-)
-const
-;
 public
 :
 friend
