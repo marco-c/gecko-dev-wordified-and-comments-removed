@@ -121,7 +121,7 @@ admin
 /
 file
 /
-tip
+default
 /
 build
 -
@@ -247,7 +247,7 @@ admin
 /
 file
 /
-tip
+default
 /
 build
 -
