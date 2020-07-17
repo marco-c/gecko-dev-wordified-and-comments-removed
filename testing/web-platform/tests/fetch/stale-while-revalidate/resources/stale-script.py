@@ -1,7 +1,6 @@
 import
 random
 string
-datetime
 def
 id_token
 (
@@ -15,6 +14,7 @@ string
 ascii_lowercase
    
 return
+b
 '
 '
 .
@@ -25,6 +25,15 @@ random
 choice
 (
 letters
+)
+.
+encode
+(
+"
+utf
+-
+8
+"
 )
 for
 i
@@ -50,6 +59,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -64,6 +74,7 @@ GET
 .
 first
 (
+b
 "
 query
 "
@@ -165,6 +176,7 @@ headers
 =
 [
 (
+b
 "
 Count
 "
@@ -174,6 +186,7 @@ count
       
 content
 =
+u
 "
 "
       
@@ -195,11 +208,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -208,11 +223,13 @@ javascript
 )
                  
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -231,6 +248,7 @@ revalidate
 )
                  
 (
+b
 "
 Unique
 -
@@ -242,20 +260,18 @@ unique_id
       
 content
 =
+b
 "
 report
 (
 '
-{
-}
+%
+s
 '
 )
 "
-.
-format
-(
+%
 unique_id
-)
       
 return
 200

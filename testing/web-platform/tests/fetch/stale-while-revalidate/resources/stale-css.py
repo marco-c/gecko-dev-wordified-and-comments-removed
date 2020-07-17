@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -28,6 +29,7 @@ GET
 .
 first
 (
+b
 "
 query
 "
@@ -129,6 +131,7 @@ headers
 =
 [
 (
+b
 "
 Count
 "
@@ -138,6 +141,7 @@ count
       
 content
 =
+b
 "
 "
       
@@ -151,6 +155,7 @@ else
       
 content
 =
+b
 "
 body
 {
@@ -174,6 +179,7 @@ count
         
 content
 =
+b
 "
 body
 {
@@ -193,24 +199,28 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
 css
 "
 )
-               
+                 
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max

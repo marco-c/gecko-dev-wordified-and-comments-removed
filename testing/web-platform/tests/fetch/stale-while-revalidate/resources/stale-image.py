@@ -2,6 +2,12 @@ import
 os
 .
 path
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -18,6 +24,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -32,6 +39,7 @@ GET
 .
 first
 (
+b
 "
 query
 "
@@ -133,6 +141,7 @@ headers
 =
 [
 (
+b
 "
 Count
 "
@@ -142,6 +151,7 @@ count
       
 content
 =
+b
 "
 "
       
@@ -155,6 +165,7 @@ else
       
 filename
 =
+u
 "
 green
 -
@@ -171,6 +182,7 @@ count
         
 filename
 =
+u
 "
 green
 -
@@ -193,8 +205,12 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 "
 .
 .
@@ -245,6 +261,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -262,11 +279,13 @@ writer
 .
 write_header
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -290,11 +309,13 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
 type
 "
+b
 "
 image
 /

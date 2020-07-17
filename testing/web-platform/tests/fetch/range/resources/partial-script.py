@@ -29,11 +29,13 @@ GET
 .
 first
 (
+b
 '
 require
 -
 range
 '
+b
 '
 '
 )
@@ -48,11 +50,13 @@ GET
 .
 first
 (
+b
 '
 pretend
 -
 offset
 '
+b
 '
 0
 '
@@ -67,9 +71,11 @@ headers
 .
 get
 (
+b
 '
 Range
 '
+b
 '
 '
 )
@@ -86,6 +92,7 @@ response
 set_error
 (
 412
+u
 "
 Range
 header
@@ -107,11 +114,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -125,11 +134,13 @@ headers
 .
 set
 (
+b
 "
 Accept
 -
 Ranges
 "
+b
 "
 bytes
 "
@@ -141,11 +152,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -161,6 +174,7 @@ status
     
 to_send
 =
+b
 '
 self
 .
@@ -179,19 +193,19 @@ to_send
     
 content_range
 =
+b
 "
 bytes
-{
-}
+%
+d
 -
-{
-}
+%
+d
 /
-{
-}
+%
+d
 "
-.
-format
+%
 (
         
 pretend_offset
@@ -211,6 +225,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -225,6 +240,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -

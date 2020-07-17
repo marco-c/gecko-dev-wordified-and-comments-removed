@@ -21,6 +21,7 @@ GET
 .
 first
 (
+b
 "
 key
 "
@@ -36,6 +37,7 @@ stash
 take
 (
 key
+b
 '
 /
 fetch
