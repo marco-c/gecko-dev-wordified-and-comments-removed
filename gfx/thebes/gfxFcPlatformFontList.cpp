@@ -4929,6 +4929,10 @@ SetHasStyles
 true
 )
 ;
+CheckForSimpleFamily
+(
+)
+;
 }
 void
 gfxFontconfigFontFamily

@@ -2654,6 +2654,10 @@ SetBadUnderlineFonts
 )
 ;
 }
+CheckForSimpleFamily
+(
+)
+;
 }
 gfxGDIFontList
 :

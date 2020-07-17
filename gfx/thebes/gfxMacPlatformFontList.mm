@@ -2975,8 +2975,10 @@ if
 (
 mHasStyles
 )
+{
 return
 ;
+}
 AUTO_PROFILER_LABEL_DYNAMIC_NSCSTRING
 (
 "
@@ -3610,6 +3612,10 @@ SetBadUnderlineFonts
 )
 ;
 }
+CheckForSimpleFamily
+(
+)
+;
 }
 #
 pragma

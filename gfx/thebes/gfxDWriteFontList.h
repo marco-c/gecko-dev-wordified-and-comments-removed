@@ -126,9 +126,6 @@ UnscaledFontDWrite
 h
 "
 class
-gfxDWriteFontEntry
-;
-class
 gfxDWriteFontFamily
 final
 :
@@ -757,6 +754,10 @@ friend
 class
 gfxDWriteFontList
 ;
+friend
+class
+gfxDWriteFontFamily
+;
 virtual
 nsresult
 CopyFontTable
@@ -861,6 +862,11 @@ mHasVariations
 ;
 bool
 mHasVariationsInitialized
+;
+bool
+mMayUseGDIAccess
+=
+false
 ;
 mozilla
 :

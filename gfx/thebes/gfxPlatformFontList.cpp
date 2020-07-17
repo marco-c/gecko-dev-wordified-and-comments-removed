@@ -5955,13 +5955,6 @@ FindStyleVariations
 (
 )
 ;
-aFamily
--
->
-CheckForSimpleFamily
-(
-)
-;
 }
 if
 (
