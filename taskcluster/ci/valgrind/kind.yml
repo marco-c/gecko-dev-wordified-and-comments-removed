@@ -258,11 +258,6 @@ need
 xvfb
 :
 true
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain

@@ -159,11 +159,6 @@ toolchain
 tar
 .
 xz
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -229,11 +224,6 @@ toolchain
 tar
 .
 xz
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain

@@ -325,11 +325,6 @@ keep
 artifacts
 :
 false
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -488,11 +483,6 @@ config
 mozconfig_variant
 :
 debug
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain

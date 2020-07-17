@@ -237,11 +237,6 @@ mozilla
 esr78
 '
 ]
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -413,11 +408,6 @@ mozilla
 esr78
 '
 ]
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -587,11 +577,6 @@ mozilla
 esr78
 '
 ]
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain
@@ -763,11 +748,6 @@ mozilla
 esr78
 '
 ]
-use
--
-sccache
-:
-true
 fetches
 :
 toolchain

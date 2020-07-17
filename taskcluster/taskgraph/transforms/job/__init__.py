@@ -476,7 +476,7 @@ optimization
 Optional
 (
 '
-use
+needs
 -
 sccache
 '
@@ -485,7 +485,7 @@ sccache
 task_description_schema
 [
 '
-use
+needs
 -
 sccache
 '
@@ -1391,10 +1391,6 @@ get_artifact_prefix
 job
 )
         
-has_sccache
-=
-False
-        
 for
 kind
 artifacts
@@ -1575,7 +1571,14 @@ sccache
 )
 :
                         
-has_sccache
+job
+[
+'
+needs
+-
+sccache
+'
+]
 =
 True
             
@@ -1929,38 +1932,6 @@ job_fetches
 append
 (
 fetch
-)
-        
-if
-job
-.
-get
-(
-'
-use
--
-sccache
-'
-)
-and
-not
-has_sccache
-:
-            
-raise
-Exception
-(
-"
-Must
-provide
-an
-sccache
-toolchain
-if
-using
-sccache
-.
-"
 )
         
 job_artifact_prefixes
