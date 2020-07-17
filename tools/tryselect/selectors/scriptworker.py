@@ -167,7 +167,18 @@ shippable
 /
 opt
 "
-        
+    
+]
+    
+"
+linux
+-
+signing
+-
+partial
+"
+:
+[
 "
 partials
 -
@@ -179,7 +190,6 @@ shippable
 /
 opt
 "
-    
 ]
     
 "
