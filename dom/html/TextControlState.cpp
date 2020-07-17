@@ -2099,6 +2099,16 @@ return
 NS_ERROR_FAILURE
 ;
 }
+if
+(
+!
+mFrameSelection
+)
+{
+return
+NS_ERROR_FAILURE
+;
+}
 Selection
 *
 selection
