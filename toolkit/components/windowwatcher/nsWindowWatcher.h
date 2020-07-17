@@ -399,8 +399,6 @@ dom
 WindowFeatures
 &
 aFeatures
-bool
-aHasChromeParent
 SizeSpec
 &
 aResult
