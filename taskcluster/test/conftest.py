@@ -148,9 +148,6 @@ None
 overrides
 =
 None
-target_kind
-=
-None
 )
 :
         
@@ -173,9 +170,6 @@ TaskGraphGenerator
 (
 None
 params
-target_kind
-=
-target_kind
 )
         
 mock_requests

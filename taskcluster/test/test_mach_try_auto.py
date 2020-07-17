@@ -104,6 +104,13 @@ project
 "
 try
 "
+"
+target_kind
+"
+:
+"
+test
+"
 }
     
 )
@@ -115,11 +122,6 @@ create_tgg
 overrides
 =
 params
-target_kind
-=
-"
-test
-"
 )
     
 return
