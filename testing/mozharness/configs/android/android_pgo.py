@@ -15,6 +15,12 @@ avds
 '
         
 '
+start
+-
+emulator
+'
+        
+'
 download
 '
         
@@ -22,12 +28,6 @@ download
 create
 -
 virtualenv
-'
-        
-'
-start
--
-emulator
 '
         
 '

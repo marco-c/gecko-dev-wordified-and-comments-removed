@@ -482,9 +482,6 @@ device
 mkdir
 (
 remote_dump_dir
-parents
-=
-True
 )
         
 return

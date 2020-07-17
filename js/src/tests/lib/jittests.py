@@ -2366,7 +2366,7 @@ cmd
 -
 e
 '
-'
+"
 if
 (
 {
@@ -2377,7 +2377,7 @@ quit
 {
 }
 )
-'
+"
 .
 format
 (
@@ -5104,6 +5104,9 @@ jtd_tests
 recursive
 =
 True
+root
+=
+True
 )
         
 device
@@ -5135,6 +5138,9 @@ options
 .
 remote_test_root
 recursive
+=
+True
+root
 =
 True
 )
