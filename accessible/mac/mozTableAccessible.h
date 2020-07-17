@@ -66,7 +66,7 @@ moxParent
 NSArray
 *
 )
-moxChildren
+moxUnignoredChildren
 ;
 -
 (
@@ -184,7 +184,7 @@ moxColumns
 NSArray
 *
 )
-moxChildren
+moxUnignoredChildren
 ;
 end
 interface
