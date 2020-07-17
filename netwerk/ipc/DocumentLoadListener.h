@@ -1023,6 +1023,13 @@ nsresult
 aStatus
 )
 ;
+bool
+MaybeHandleLoadErrorWithURIFixup
+(
+nsresult
+aStatus
+)
+;
 struct
 ClassifierMatchedInfoParams
 {
