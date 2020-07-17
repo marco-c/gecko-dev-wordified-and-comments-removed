@@ -802,7 +802,10 @@ base
 win
 :
 :
-VERSION_WIN10
+Version
+:
+:
+WIN10
 )
 return
 std
@@ -832,7 +835,10 @@ base
 win
 :
 :
-VERSION_WIN8
+Version
+:
+:
+WIN8
 )
 return
 std
@@ -875,7 +881,10 @@ base
 win
 :
 :
-VERSION_WIN8
+Version
+:
+:
+WIN8
 )
 return
 std

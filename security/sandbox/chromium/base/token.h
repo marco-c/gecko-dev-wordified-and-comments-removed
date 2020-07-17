@@ -36,6 +36,8 @@ include
 base
 /
 hash
+/
+hash
 .
 h
 "

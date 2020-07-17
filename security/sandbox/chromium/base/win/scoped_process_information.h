@@ -172,9 +172,13 @@ thread_handle_
 ;
 DWORD
 process_id_
+=
+0
 ;
 DWORD
 thread_id_
+=
+0
 ;
 DISALLOW_COPY_AND_ASSIGN
 (
