@@ -44053,13 +44053,6 @@ defined
 (
 XP_UNIX
 )
-&
-&
-!
-defined
-(
-ANDROID
-)
 value
 :
 true
@@ -44116,13 +44109,6 @@ elif
 defined
 (
 XP_UNIX
-)
-&
-&
-!
-defined
-(
-ANDROID
 )
 value
 :
