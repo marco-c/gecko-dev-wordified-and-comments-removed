@@ -263,6 +263,16 @@ MoveOptions
 aOptions
 )
 ;
+static
+bool
+IsAbsolutePath
+(
+const
+nsAString
+&
+aPath
+)
+;
 private
 :
 ~
