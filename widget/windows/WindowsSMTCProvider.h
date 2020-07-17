@@ -499,6 +499,9 @@ MediaImage
 >
 mArtwork
 ;
+size_t
+mNextImageIndex
+;
 mozilla
 :
 :
