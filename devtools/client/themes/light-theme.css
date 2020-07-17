@@ -1248,6 +1248,14 @@ lines
 CodeMirror
 -
 cursor
+:
+not
+(
+.
+CodeMirror
+-
+secondarycursor
+)
 {
 border
 -
