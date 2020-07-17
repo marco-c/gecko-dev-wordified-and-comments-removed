@@ -7454,6 +7454,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathHypot
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathATan2
 (
 HandleFunction
