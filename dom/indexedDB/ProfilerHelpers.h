@@ -77,8 +77,12 @@ indexedDB
 class
 Key
 ;
+template
+<
+bool
+CheckLoggingMode
+>
 class
-MOZ_STACK_CLASS
 LoggingIdString
 final
 :
@@ -313,6 +317,9 @@ indexedDB
 :
 :
 LoggingIdString
+<
+true
+>
 (
 __VA_ARGS__
 )
