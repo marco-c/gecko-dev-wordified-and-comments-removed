@@ -3700,6 +3700,17 @@ needsCallObjectRegardlessOfBindings
 (
 )
 funbox
+-
+>
+index
+(
+)
+funbox
+-
+>
+isArrow
+(
+)
 enclosing
 index
 )

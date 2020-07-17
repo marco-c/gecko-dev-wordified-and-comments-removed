@@ -303,6 +303,16 @@ scopeCreationData
 )
 const
 ;
+frontend
+:
+:
+CompilationInfo
+&
+compilationInfo
+(
+)
+const
+;
 Scope
 *
 scope
