@@ -2505,10 +2505,10 @@ MACRO
 Try
 try_
 NULL
-5
+1
 0
 0
-JOF_CODE_OFFSET
+JOF_BYTE
 )
 \
 \

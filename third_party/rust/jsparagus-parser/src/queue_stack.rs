@@ -227,6 +227,13 @@ top
 1
 ;
 }
+#
+[
+inline
+(
+always
+)
+]
 pub
 fn
 shift

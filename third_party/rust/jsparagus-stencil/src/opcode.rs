@@ -2033,10 +2033,10 @@ JOF_NAME
 Try
 try_
 NULL
-5
+1
 0
 0
-JOF_CODE_OFFSET
+JOF_BYTE
 )
 (
 TryDestructuring
@@ -3064,13 +3064,6 @@ JOF_CLASS_CTOR
 u32
 =
 22
-;
-const
-JOF_CODE_OFFSET
-:
-u32
-=
-23
 ;
 const
 JOF_TYPEMASK
