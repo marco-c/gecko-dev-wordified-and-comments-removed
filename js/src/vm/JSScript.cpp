@@ -26385,9 +26385,10 @@ toJitScript
 )
 -
 >
-warmUpCount_
-=
+resetWarmUpCount
+(
 newCount
+)
 ;
 }
 }
