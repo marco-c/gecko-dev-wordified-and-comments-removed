@@ -20324,8 +20324,8 @@ NS_WARN_IF
 !
 aNode
 )
-&
-&
+|
+|
 NS_WARN_IF
 (
 !
