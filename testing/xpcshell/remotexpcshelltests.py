@@ -33,7 +33,6 @@ from
 mozdevice
 import
 ADBDevice
-ADBDeviceFactory
 ADBTimeoutError
 import
 mozfile
@@ -145,6 +144,9 @@ mask
 timeout
 =
 None
+root
+=
+True
 )
 :
         
@@ -188,6 +190,9 @@ True
 timeout
 =
 timeout
+root
+=
+root
 )
         
 self
@@ -203,6 +208,30 @@ True
 timeout
 =
 timeout
+root
+=
+root
+)
+        
+self
+.
+device
+.
+chmod
+(
+path
+recursive
+=
+True
+mask
+=
+mask
+timeout
+=
+timeout
+root
+=
+root
 )
     
 def
@@ -270,6 +299,9 @@ device
 chmod
 (
 remoteTestPrefsFile
+root
+=
+True
 )
         
 os
@@ -513,6 +545,9 @@ device
 chmod
 (
 pluginsDir
+root
+=
+True
 )
         
 if
@@ -646,6 +681,9 @@ device
 chmod
 (
 mozInfoJSPath
+root
+=
+True
 )
         
 os
@@ -1143,6 +1181,9 @@ timeout
 timeout
 +
 10
+root
+=
+True
 )
             
 output_file
@@ -1198,6 +1239,9 @@ pkill
 "
 xpcshell
 "
+root
+=
+True
 )
         
 return
@@ -1353,6 +1397,9 @@ pkill
 "
 xpcshell
 "
+root
+=
+True
 )
     
 def
@@ -1403,6 +1450,9 @@ rm
 (
 dirname
 recursive
+=
+True
+root
 =
 True
 )
@@ -1562,7 +1612,7 @@ self
 .
 device
 =
-ADBDeviceFactory
+ADBDevice
 (
 adb
 =
@@ -1576,7 +1626,7 @@ or
 '
 adb
 '
-                                       
+                                
 device
 =
 options
@@ -1585,7 +1635,7 @@ options
 deviceSerial
 '
 ]
-                                       
+                                
 test_root
 =
 options
@@ -1594,7 +1644,7 @@ options
 remoteTestRoot
 '
 ]
-                                       
+                                
 verbose
 =
 verbose
@@ -1685,11 +1735,13 @@ posixpath
 .
 join
 (
-self
-.
-device
-.
-test_root
+"
+/
+data
+"
+"
+local
+"
 "
 xpcb
 "
@@ -2158,6 +2210,9 @@ mask
 timeout
 =
 None
+root
+=
+True
 )
 :
         
@@ -2201,6 +2256,9 @@ True
 timeout
 =
 timeout
+root
+=
+root
 )
         
 self
@@ -2216,6 +2274,30 @@ True
 timeout
 =
 timeout
+root
+=
+root
+)
+        
+self
+.
+device
+.
+chmod
+(
+path
+recursive
+=
+True
+mask
+=
+mask
+timeout
+=
+timeout
+root
+=
+root
 )
     
 def
@@ -2410,6 +2492,9 @@ device
 chmod
 (
 remoteWrapper
+root
+=
+True
 )
         
 os
@@ -2475,6 +2560,9 @@ device
 chmod
 (
 remotePrefsFile
+root
+=
+True
 )
         
 os
@@ -3123,6 +3211,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
         
 binaries
@@ -3243,6 +3334,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
             
 else
@@ -3333,6 +3427,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
         
 local
@@ -3388,6 +3485,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
         
 if
@@ -3452,6 +3552,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
             
 self
@@ -3519,6 +3622,9 @@ chmod
 self
 .
 remoteBinDir
+root
+=
+True
 )
             
 else
@@ -3677,6 +3783,9 @@ device
 chmod
 (
 remoteFile
+root
+=
+True
 )
         
 finally
@@ -3728,6 +3837,9 @@ chmod
 self
 .
 remoteModulesDir
+root
+=
+True
 )
     
 def
@@ -3768,6 +3880,9 @@ True
 timeout
 =
 None
+root
+=
+True
 )
         
 self
@@ -3797,6 +3912,9 @@ self
 .
 remoteScriptsDir
 recursive
+=
+True
+root
 =
 True
 )
@@ -3847,7 +3965,7 @@ create_socket_connection
 (
 ADBDevice
 .
-SOCKET_DIRECTION_REVERSE
+SOCKET_DIRECTON_REVERSE
 port
 port
 )
@@ -3908,7 +4026,7 @@ create_socket_connection
 (
 ADBDevice
 .
-SOCKET_DIRECTION_REVERSE
+SOCKET_DIRECTON_REVERSE
 port
 port
 )

@@ -32,7 +32,7 @@ mozlog
 from
 mozdevice
 import
-ADBDeviceFactory
+ADBDevice
 ADBProcessError
 ADBTimeoutError
 try
@@ -96,7 +96,7 @@ self
 .
 device
 =
-ADBDeviceFactory
+ADBDevice
 (
 adb
 =
@@ -107,13 +107,13 @@ or
 '
 adb
 '
-                                       
+                                
 device
 =
 options
 .
 device_serial
-                                       
+                                
 test_root
 =
 options
@@ -223,6 +223,9 @@ True
 recursive
 =
 True
+root
+=
+True
 )
         
 self
@@ -284,6 +287,9 @@ self
 .
 remote_bin_dir
 recursive
+=
+True
+root
 =
 True
 )
@@ -1709,13 +1715,18 @@ root
 eg
 .
 /
+mnt
+/
+sdcard
+/
+tests
+or
+/
 data
 /
 local
 /
-tmp
-/
-test_root
+tests
 )
 .
 "
@@ -1734,9 +1745,7 @@ data
 /
 local
 /
-tmp
-/
-test_root
+tests
 "
         
 self
