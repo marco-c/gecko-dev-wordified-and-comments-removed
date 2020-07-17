@@ -1428,9 +1428,6 @@ entry
 new
 SessionHistoryEntry
 (
-GetSessionHistory
-(
-)
 aLoadState
 aChannel
 )
