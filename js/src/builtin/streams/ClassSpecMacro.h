@@ -163,8 +163,11 @@ cls
 protoClass_
 =
 {
+#
+cls
 "
-object
+.
+prototype
 "
 \
 JSCLASS_HAS_CACHED_PROTO
