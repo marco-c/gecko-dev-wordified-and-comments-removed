@@ -2053,7 +2053,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -2066,7 +2066,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -3392,7 +3392,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -3510,7 +3510,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -8482,7 +8482,7 @@ newInternalDotName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -8516,7 +8516,7 @@ newInternalDotName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -11127,7 +11127,7 @@ prefix
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -11152,7 +11152,7 @@ prefix
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -15016,7 +15016,7 @@ noteUsedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -16042,7 +16042,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -16805,7 +16805,7 @@ directive
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -16954,7 +16954,7 @@ directive
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -21922,7 +21922,7 @@ newName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -22245,7 +22245,7 @@ newName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -26135,7 +26135,7 @@ name
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -26355,7 +26355,7 @@ checkExportedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32815,7 +32815,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32841,7 +32841,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -32876,7 +32876,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33128,7 +33128,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33213,7 +33213,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33381,7 +33381,7 @@ noteDeclaredName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33606,7 +33606,7 @@ noteDeclaredName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33665,7 +33665,7 @@ newObjectLiteralPropertyName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -33922,7 +33922,7 @@ className
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -34302,7 +34302,7 @@ noteDeclaredName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -34339,7 +34339,7 @@ noteDeclaredName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -34376,7 +34376,7 @@ noteDeclaredName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -34974,7 +34974,7 @@ funNode
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35055,7 +35055,7 @@ noteUsedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35077,7 +35077,7 @@ noteUsedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35202,7 +35202,7 @@ newName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35230,7 +35230,7 @@ noteUsedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35951,7 +35951,7 @@ newInternalDotName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -35968,7 +35968,7 @@ newInternalDotName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -37502,7 +37502,7 @@ atom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -43309,7 +43309,7 @@ noteUsedName
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44294,7 +44294,7 @@ prop
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44341,7 +44341,7 @@ prop
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -44808,7 +44808,7 @@ ident
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -45197,7 +45197,7 @@ ident
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -45233,7 +45233,7 @@ ident
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
@@ -49077,7 +49077,7 @@ propAtom
 cx_
 -
 >
-names
+parserNames
 (
 )
 .
