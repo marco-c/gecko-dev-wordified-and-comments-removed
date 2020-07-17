@@ -4496,6 +4496,7 @@ getUseMaxScreenDepth
 )
 ;
 method
+Deprecated
 public
 boolean
 getUseMultiprocess
@@ -5028,6 +5029,7 @@ boolean
 )
 ;
 method
+Deprecated
 NonNull
 public
 GeckoRuntimeSettings

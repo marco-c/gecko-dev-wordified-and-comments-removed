@@ -200,6 +200,7 @@ settings
 )
 ;
 }
+Deprecated
 public
 NonNull
 Builder
@@ -1733,6 +1734,7 @@ commitResetPrefs
 )
 ;
 }
+Deprecated
 public
 boolean
 getUseMultiprocess
