@@ -262,6 +262,11 @@ webrender
 =
 [
 '
+RenderAndroidHardwareBufferTextureHost
+.
+h
+'
+'
 RenderAndroidSurfaceTextureHostOGL
 .
 h
@@ -276,6 +281,11 @@ UNIFIED_SOURCES
 +
 =
 [
+'
+RenderAndroidHardwareBufferTextureHost
+.
+cpp
+'
 '
 RenderAndroidSurfaceTextureHostOGL
 .
