@@ -536,6 +536,15 @@ startup_info
 .
 process
 ;
+let
+win
+=
+BrowserWindowTracker
+.
+getTopWindow
+(
+)
+;
 dump
 (
 "
@@ -559,7 +568,9 @@ dump
 __startTimestamp
 "
 +
-Date
+win
+.
+performance
 .
 now
 (

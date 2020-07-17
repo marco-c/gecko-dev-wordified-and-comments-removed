@@ -153,7 +153,11 @@ document
 .
 documentURI
 +
-Date
+content
+.
+window
+.
+performance
 .
 now
 (
