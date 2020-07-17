@@ -11588,8 +11588,6 @@ RES_PRIORITY_MEDIUM
 )
 |
 RES_PRIORITY_LOW
-|
-RES_DISABLE_TRR
 ;
 DebugOnly
 <
@@ -11597,7 +11595,7 @@ nsresult
 >
 rv
 =
-NameLookup
+NativeLookup
 (
 rec
 )
