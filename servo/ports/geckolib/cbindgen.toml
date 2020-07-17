@@ -298,6 +298,13 @@ ServoStyleConstsForwards
 .
 h
 "
+"
+mozilla
+/
+ServoStyleSet
+.
+h
+"
 ]
 [
 parse

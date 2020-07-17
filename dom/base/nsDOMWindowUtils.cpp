@@ -185,6 +185,15 @@ include
 "
 mozilla
 /
+ServoStyleSet
+.
+h
+"
+#
+include
+"
+mozilla
+/
 SharedStyleSheetCache
 .
 h
