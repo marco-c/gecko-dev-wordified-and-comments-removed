@@ -226,7 +226,7 @@ queryContext
 )
 {
 return
-false
+true
 ;
 }
 getPriority
