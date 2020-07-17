@@ -168,6 +168,10 @@ supportedKeys
 ;
 attribute
 EventHandler
+onpositionstatechange
+;
+attribute
+EventHandler
 onsupportedkeyschange
 ;
 /

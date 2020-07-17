@@ -24258,6 +24258,16 @@ onboundary
 Atom
 (
 "
+onpositionstatechange
+"
+"
+onpositionstatechange
+"
+)
+    
+Atom
+(
+"
 onsupportedkeyschange
 "
 "
