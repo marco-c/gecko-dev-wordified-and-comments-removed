@@ -5420,9 +5420,6 @@ const
 EditorDOMPoint
 &
 aPointToDelete
-WSRunObject
-&
-aWSRunObjectAtCaret
 )
 ;
 [
