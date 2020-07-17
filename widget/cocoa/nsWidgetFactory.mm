@@ -324,7 +324,7 @@ nsDeviceContextSpecX
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR
 (
-nsPrinterEnumeratorX
+nsPrinterListX
 )
 NS_GENERIC_FACTORY_CONSTRUCTOR_INIT
 (
@@ -527,7 +527,7 @@ NS_DEVICE_CONTEXT_SPEC_CID
 ;
 NS_DEFINE_NAMED_CID
 (
-NS_PRINTER_ENUMERATOR_CID
+NS_PRINTER_LIST_CID
 )
 ;
 NS_DEFINE_NAMED_CID
@@ -742,10 +742,10 @@ nsDeviceContextSpecXConstructor
 }
 {
 &
-kNS_PRINTER_ENUMERATOR_CID
+kNS_PRINTER_LIST_CID
 false
 NULL
-nsPrinterEnumeratorXConstructor
+nsPrinterListXConstructor
 }
 {
 &
@@ -1088,12 +1088,12 @@ org
 /
 gfx
 /
-printerenumerator
+printerlist
 ;
 1
 "
 &
-kNS_PRINTER_ENUMERATOR_CID
+kNS_PRINTER_LIST_CID
 }
 {
 "
