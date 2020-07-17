@@ -244,11 +244,11 @@ RootAccessible
 (
 )
 ;
-MOZ_ASSERT
+if
 (
 root
 )
-;
+{
 DocAccessibleChild
 *
 ipcDoc
@@ -293,6 +293,7 @@ aInstancePtr
 return
 S_OK
 ;
+}
 }
 }
 }
