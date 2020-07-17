@@ -392,6 +392,8 @@ add
 (
 principal
 .
+URI
+.
 host
 principal
 .
@@ -737,6 +739,8 @@ host
 includes
 (
 principal
+.
+URI
 .
 host
 )
@@ -1182,6 +1186,8 @@ registration
 .
 principal
 .
+URI
+.
 host
 !
 =
@@ -1271,6 +1277,8 @@ if
 registration
 .
 principal
+.
+URI
 .
 host
 !

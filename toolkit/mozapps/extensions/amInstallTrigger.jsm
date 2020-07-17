@@ -816,6 +816,8 @@ this
 .
 _principal
 .
+URI
+.
 host
 ;
 sourceURL
@@ -825,7 +827,6 @@ this
 _principal
 .
 URI
-?
 .
 spec
 ;
