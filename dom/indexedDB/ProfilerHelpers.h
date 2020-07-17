@@ -525,7 +525,9 @@ IDB_LOG_MARK_DETAILED_TRANSACTION
 Transaction
 [
 %
-lld
+"
+PRIi64
+"
 ]
 "
 #
@@ -535,7 +537,9 @@ IDB_LOG_MARK_DETAILED_REQUEST
 Request
 [
 %
-llu
+"
+PRIu64
+"
 ]
 "
 #
@@ -545,7 +549,9 @@ IDB_LOG_MARK_CONCISE_TRANSACTION
 T
 [
 %
-lld
+"
+PRIi64
+"
 ]
 "
 #
@@ -555,7 +561,9 @@ IDB_LOG_MARK_CONCISE_REQUEST
 R
 [
 %
-llu
+"
+PRIu64
+"
 ]
 "
 #
