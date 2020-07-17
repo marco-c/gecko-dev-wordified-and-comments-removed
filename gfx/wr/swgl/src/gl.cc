@@ -8293,6 +8293,12 @@ ty
 =
 =
 GL_UNSIGNED_BYTE
+|
+|
+ty
+=
+=
+GL_UNSIGNED_INT_8_8_8_8_REV
 )
 ;
 assert
