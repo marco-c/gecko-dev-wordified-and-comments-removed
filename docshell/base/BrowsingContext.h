@@ -517,6 +517,9 @@ uint32_t
 /
 *
 A
+non
+-
+zero
 unique
 identifier
 for
@@ -526,6 +529,8 @@ element
 that
 is
 hosting
+\
+*
 this
 \
 *
@@ -971,6 +976,17 @@ aId
 )
 ;
 }
+static
+already_AddRefed
+<
+BrowsingContext
+>
+GetCurrentTopByBrowserId
+(
+uint64_t
+aBrowserId
+)
+;
 static
 already_AddRefed
 <
