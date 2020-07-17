@@ -163,6 +163,8 @@ const
 nsACString
 &
 aMimeGuess
+bool
+aReportError
 int16_t
 *
 aDecision

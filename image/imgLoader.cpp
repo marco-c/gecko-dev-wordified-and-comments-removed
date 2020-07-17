@@ -4221,6 +4221,7 @@ secCheckLoadInfo
 EmptyCString
 (
 )
+true
 &
 decision
 )
