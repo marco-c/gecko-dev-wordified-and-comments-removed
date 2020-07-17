@@ -3676,6 +3676,10 @@ Element
 aEditingHost
 )
 :
+mEditingHost
+(
+aEditingHost
+)
 mIsPreformatted
 (
 aPoint
@@ -3746,6 +3750,10 @@ DocumentFragment
 return
 ;
 }
+mScanStartPoint
+=
+aPoint
+;
 NS_ASSERTION
 (
 EditorUtils
@@ -3754,7 +3762,7 @@ EditorUtils
 IsEditableContent
 (
 *
-aPoint
+mScanStartPoint
 .
 ContainerAsContent
 (
@@ -3775,7 +3783,7 @@ editable
 ;
 NS_ASSERTION
 (
-aPoint
+mScanStartPoint
 .
 ContainerAsContent
 (
@@ -3809,7 +3817,7 @@ EditorUtils
 IsEditableContent
 (
 *
-aPoint
+mScanStartPoint
 .
 ContainerAsContent
 (
@@ -3826,7 +3834,7 @@ HTMLEditUtils
 GetInclusiveAncestorEditableBlockElementOrInlineEditingHost
 (
 *
-aPoint
+mScanStartPoint
 .
 ContainerAsContent
 (
@@ -3843,7 +3851,7 @@ editableBlockParentOrTopmotEditableInlineContent
 {
 editableBlockParentOrTopmotEditableInlineContent
 =
-aPoint
+mScanStartPoint
 .
 ContainerAsContent
 (
@@ -3857,10 +3865,10 @@ BoundaryData
 :
 ScanWhiteSpaceStartFrom
 (
-aPoint
+mScanStartPoint
 *
 editableBlockParentOrTopmotEditableInlineContent
-aEditingHost
+mEditingHost
 &
 mNBSPData
 )
@@ -3872,10 +3880,10 @@ BoundaryData
 :
 ScanWhiteSpaceEndFrom
 (
-aPoint
+mScanStartPoint
 *
 editableBlockParentOrTopmotEditableInlineContent
-aEditingHost
+mEditingHost
 &
 mNBSPData
 )
@@ -7050,6 +7058,9 @@ EditorDOMPointInText
 WSRunScanner
 :
 :
+TextFragmentData
+:
+:
 GetInclusiveNextEditableCharPoint
 (
 const
@@ -7237,10 +7248,6 @@ GetContainer
 )
 =
 =
-TextFragmentDataAtStart
-(
-)
-.
 GetEndReasonContent
 (
 )
@@ -7430,10 +7437,6 @@ if
 nextContent
 =
 =
-TextFragmentDataAtStart
-(
-)
-.
 GetEndReasonContent
 (
 )
@@ -7473,6 +7476,9 @@ CT
 >
 EditorDOMPointInText
 WSRunScanner
+:
+:
+TextFragmentData
 :
 :
 GetPreviousEditableCharPoint
@@ -7663,10 +7669,6 @@ GetContainer
 )
 =
 =
-TextFragmentDataAtStart
-(
-)
-.
 GetStartReasonContent
 (
 )
@@ -7856,10 +7858,6 @@ if
 previousContent
 =
 =
-TextFragmentDataAtStart
-(
-)
-.
 GetStartReasonContent
 (
 )
