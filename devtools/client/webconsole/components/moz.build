@@ -80,11 +80,6 @@ DevToolsModules
 '
 App
 .
-css
-'
-'
-App
-.
 js
 '
 '
