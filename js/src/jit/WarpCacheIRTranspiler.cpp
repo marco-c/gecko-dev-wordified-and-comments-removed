@@ -1148,7 +1148,7 @@ auto
 *
 ins
 =
-MGuardProto
+MGuardNullProto
 :
 :
 New
@@ -1157,7 +1157,6 @@ alloc
 (
 )
 def
-nullptr
 )
 ;
 add
@@ -1205,6 +1204,19 @@ objectStubField
 protoOffset
 )
 ;
+MConstant
+*
+protoConst
+=
+constant
+(
+ObjectValue
+(
+*
+proto
+)
+)
+;
 auto
 *
 ins
@@ -1218,7 +1230,7 @@ alloc
 (
 )
 def
-proto
+protoConst
 )
 ;
 add
