@@ -218,6 +218,13 @@ envy
 .
 1
 "
+fs_extra
+=
+"
+1
+.
+1
+"
 [
 workspace
 ]
