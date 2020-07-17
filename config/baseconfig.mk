@@ -320,6 +320,9 @@ pre
 -
 export
 export
+pre
+-
+compile
 rust
 compile
 misc
@@ -465,6 +468,9 @@ TIERS
 filter
 -
 out
+pre
+-
+compile
 check
 (
 RUNNABLE_TIERS
