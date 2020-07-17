@@ -72,6 +72,15 @@ h
 #
 include
 "
+mozilla
+/
+StaticPrefs_storage
+.
+h
+"
+#
+include
+"
 mozStorageConnection
 .
 h
@@ -586,9 +595,7 @@ expectedPageSize
 Service
 :
 :
-getDefaultPageSize
-(
-)
+kDefaultPageSize
 ;
 }
 nsCOMPtr
