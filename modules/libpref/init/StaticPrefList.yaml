@@ -56871,6 +56871,13 @@ DEBUG
 !
 defined
 (
+MOZ_ASAN
+)
+&
+&
+!
+defined
+(
 MOZ_CODE_COVERAGE
 )
 &
