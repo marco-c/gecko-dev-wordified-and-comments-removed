@@ -66,11 +66,11 @@ path
 join
 (
 here
-"
+'
 codespell_requirements
 .
 txt
-"
+'
 )
 CODESPELL_NOT_FOUND
 =
@@ -112,7 +112,6 @@ strip
 .
 format
 (
-    
 CODESPELL_REQUIREMENTS_PATH
 )
 CODESPELL_INSTALL_ERROR
@@ -158,7 +157,6 @@ strip
 .
 format
 (
-    
 CODESPELL_REQUIREMENTS_PATH
 )
 results
@@ -172,7 +170,7 @@ re
 compile
 (
 r
-"
+'
 (
 .
 *
@@ -194,7 +192,7 @@ r
 .
 *
 )
-"
+'
 )
 class
 CodespellProcess
@@ -240,7 +238,7 @@ AttributeError
             
 print
 (
-"
+'
 Unable
 to
 match
@@ -250,7 +248,7 @@ output
 :
 {
 }
-"
+'
 .
 format
 (
@@ -267,7 +265,7 @@ re
 match
 (
 r
-"
+'
 ^
 [
 a
@@ -285,7 +283,7 @@ a
 z
 ]
 *
-"
+'
 typo
 )
         
@@ -299,15 +297,15 @@ res
 =
 {
             
-"
+'
 path
-"
+'
 :
 abspath
             
-"
+'
 message
-"
+'
 :
 typo
 .
@@ -323,17 +321,17 @@ strip
 +
 correct
             
-"
+'
 level
-"
+'
 :
-"
+'
 error
-"
+'
             
-"
+'
 lineno
-"
+'
 :
 line
         
@@ -433,9 +431,9 @@ environ
 .
 get
 (
-"
+'
 CODESPELL
-"
+'
 )
     
 if
@@ -448,9 +446,9 @@ binary
 return
 which
 (
-"
+'
 codespell
-"
+'
 )
 def
 setup
@@ -497,9 +495,9 @@ log
 =
 lintargs
 [
-"
+'
 log
-"
+'
 ]
     
 binary
@@ -519,9 +517,9 @@ CODESPELL_NOT_FOUND
 )
         
 if
-"
+'
 MOZ_AUTOMATION
-"
+'
 in
 os
 .
@@ -537,34 +535,34 @@ return
     
 config
 [
-"
+'
 root
-"
+'
 ]
 =
 lintargs
 [
-"
+'
 root
-"
+'
 ]
     
 skip_files
 =
-"
-"
+'
+'
     
 if
-"
+'
 exclude
-"
+'
 in
 config
 :
         
 skip_files
 =
-"
+'
 -
 -
 skip
@@ -574,20 +572,20 @@ skip
 dic
 {
 }
-"
+'
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (
 config
 [
-"
+'
 exclude
-"
+'
 ]
 )
 )
@@ -601,37 +599,36 @@ path
 join
 (
 here
-"
+'
 exclude
 -
 list
 .
 txt
-"
+'
 )
     
 cmd_args
 =
 [
-        
 which
 (
-"
+'
 python
-"
+'
 )
-        
+                
 binary
-        
-"
+                
+'
 -
 -
 disable
 -
 colors
-"
-        
-"
+'
+                
+'
 -
 -
 quiet
@@ -639,21 +636,20 @@ quiet
 level
 =
 7
-"
-        
-"
+'
+                
+'
 -
 -
 ignore
 -
 words
 =
-"
+'
 +
 exclude_list
-        
+                
 skip_files
-    
 ]
     
 if
@@ -664,13 +660,13 @@ cmd_args
 .
 append
 (
-"
+'
 -
 -
 write
 -
 changes
-"
+'
 )
     
 log
@@ -686,8 +682,8 @@ Command
 .
 format
 (
-"
-"
+'
+'
 .
 join
 (

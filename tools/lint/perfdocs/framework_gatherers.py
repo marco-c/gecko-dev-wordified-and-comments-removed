@@ -16,9 +16,9 @@ from
 manifestparser
 import
 TestManifest
-"
-"
-"
+'
+'
+'
 This
 file
 is
@@ -45,9 +45,9 @@ the
 FrameworkGatherer
 class
 .
-"
-"
-"
+'
+'
+'
 class
 FrameworkGatherer
 (
@@ -55,9 +55,9 @@ object
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Abstract
 class
@@ -66,9 +66,9 @@ framework
 gatherers
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 __init__
@@ -79,9 +79,9 @@ workspace_dir
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Generic
 initialization
@@ -91,9 +91,9 @@ framework
 gatherer
 .
         
-"
-"
-"
+'
+'
+'
         
 self
 .
@@ -125,8 +125,8 @@ self
 .
 _manifest_path
 =
-"
-"
+'
+'
         
 self
 .
@@ -141,9 +141,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 the
@@ -176,9 +176,9 @@ the
 manifest
 .
         
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -210,6 +210,7 @@ path
 .
 join
 (
+            
 self
 .
 workspace_dir
@@ -219,6 +220,7 @@ yaml_content
 manifest
 "
 ]
+        
 )
         
 return
@@ -233,9 +235,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Each
 framework
@@ -312,9 +314,9 @@ test2
             
 }
         
-"
-"
-"
+'
+'
+'
         
 raise
 NotImplementedError
@@ -331,9 +333,9 @@ None
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Adds
 a
@@ -395,27 +397,30 @@ the
 title
 heading
         
-"
-"
-"
+'
+'
+'
         
 heading_map
 =
 {
-"
+            
+'
 H4
-"
+'
 :
-"
+'
 -
-"
-"
+'
+            
+'
 H5
-"
+'
 :
-"
+'
 ^
-"
+'
+        
 }
         
 return
@@ -426,9 +431,9 @@ heading_map
 get
 (
 type
-"
+'
 ^
-"
+'
 )
 *
 len
@@ -436,8 +441,8 @@ len
 title
 )
 content
-"
-"
+'
+'
 ]
 class
 RaptorGatherer
@@ -446,9 +451,9 @@ FrameworkGatherer
 )
 :
     
-"
-"
-"
+'
+'
+'
     
 Gatherer
 for
@@ -457,9 +462,9 @@ Raptor
 framework
 .
     
-"
-"
-"
+'
+'
+'
     
 def
 get_suite_list
@@ -468,9 +473,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 a
@@ -527,9 +532,9 @@ test2
             
 }
         
-"
-"
-"
+'
+'
+'
         
 if
 self
@@ -633,9 +638,9 @@ testing
 "
 test
 [
-"
+'
 manifest
-"
+'
 ]
 )
             
@@ -676,9 +681,9 @@ manifest_path
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 a
@@ -719,9 +724,9 @@ of
 the
 tests
         
-"
-"
-"
+'
+'
+'
         
 test_manifest
 =
@@ -781,9 +786,9 @@ self
 )
 :
         
-"
-"
-"
+'
+'
+'
         
 Returns
 a
@@ -829,9 +834,9 @@ raptor_test2
             
 }
         
-"
-"
-"
+'
+'
+'
         
 if
 self

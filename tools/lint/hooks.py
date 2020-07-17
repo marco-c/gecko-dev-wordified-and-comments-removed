@@ -112,9 +112,9 @@ python
 =
 find_executable
 (
-"
+'
 python3
-"
+'
 )
     
 if
@@ -160,24 +160,24 @@ path
 join
 (
 topsrcdir
-"
+'
 mach
-"
+'
 )
-"
+'
 lint
-"
-"
+'
+'
 -
 -
 quiet
-"
+'
 ]
     
 if
-"
+'
 commit
-"
+'
 in
 hooktype
 :
@@ -187,13 +187,13 @@ run_process
 cmd
 +
 [
-"
+'
 -
 -
 workdir
 =
 staged
-"
+'
 ]
 )
         
@@ -201,9 +201,9 @@ return
 False
     
 elif
-"
+'
 push
-"
+'
 in
 hooktype
 :
@@ -214,11 +214,11 @@ run_process
 cmd
 +
 [
-"
+'
 -
 -
 outgoing
-"
+'
 ]
 +
 args
@@ -264,9 +264,9 @@ hooktype
 =
 kwargs
 [
-"
+'
 hooktype
-"
+'
 ]
     
 return
@@ -277,9 +277,9 @@ kwargs
 .
 get
 (
-"
+'
 pats
-"
+'
 [
 ]
 )
@@ -305,20 +305,20 @@ if
 hooktype
 =
 =
-"
+'
 hooks
 .
 py
-"
+'
 :
         
 hooktype
 =
-"
+'
 pre
 -
 push
-"
+'
     
 return
 run_mozlint
@@ -331,9 +331,9 @@ if
 __name__
 =
 =
-"
+'
 __main__
-"
+'
 :
     
 sys
