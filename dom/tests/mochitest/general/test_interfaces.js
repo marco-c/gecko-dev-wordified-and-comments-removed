@@ -2386,7 +2386,7 @@ HTMLDialogElement
 insecureContext
 :
 true
-disabled
+nightly
 :
 true
 }
