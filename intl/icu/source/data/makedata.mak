@@ -4269,9 +4269,6 @@ TESTDATA
 (
 TOOLS_TS
 )
-(
-COREDATA_TS
-)
 cd
 "
 (
