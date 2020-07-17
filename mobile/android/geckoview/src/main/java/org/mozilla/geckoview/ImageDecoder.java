@@ -116,7 +116,7 @@ String
 uri
 final
 int
-maxSize
+desiredLength
 GeckoResult
 <
 Bitmap
@@ -160,7 +160,7 @@ String
 uri
 final
 int
-maxSize
+desiredLength
 )
 {
 if
@@ -215,7 +215,7 @@ PROFILE_READY
 nativeDecode
 (
 uri
-maxSize
+desiredLength
 result
 )
 ;
@@ -242,7 +242,7 @@ uri
 int
 .
 class
-maxSize
+desiredLength
 GeckoResult
 .
 class
