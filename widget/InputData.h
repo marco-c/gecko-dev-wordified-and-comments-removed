@@ -498,15 +498,6 @@ aWidget
 )
 const
 ;
-WidgetMouseEvent
-ToWidgetMouseEvent
-(
-nsIWidget
-*
-aWidget
-)
-const
-;
 int32_t
 IndexOfTouch
 (
