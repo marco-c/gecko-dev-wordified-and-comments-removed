@@ -245,7 +245,7 @@ nsIContentPolicy
 :
 TYPE_SCRIPT
 "
-default
+web
 "
 _ns
 {
@@ -258,7 +258,7 @@ TYPE_SCRIPT
 "
 _ns
 "
-default
+web
 "
 _ns
 "
@@ -297,7 +297,7 @@ nsIContentPolicy
 :
 TYPE_SCRIPT
 "
-default
+web
 "
 _ns
 {
@@ -310,7 +310,7 @@ TYPE_SCRIPT
 "
 _ns
 "
-default
+web
 "
 _ns
 "
@@ -390,7 +390,7 @@ nsIContentPolicy
 :
 TYPE_IMAGE
 "
-default
+web
 "
 _ns
 {
@@ -403,7 +403,7 @@ TYPE_IMAGE
 "
 _ns
 "
-default
+web
 "
 _ns
 "
@@ -482,7 +482,7 @@ nsIContentPolicy
 :
 TYPE_SCRIPT
 "
-default
+web
 "
 _ns
 {
@@ -501,7 +501,7 @@ TYPE_SCRIPT
 "
 _ns
 "
-default
+web
 "
 _ns
 "
@@ -529,7 +529,7 @@ TYPE_SCRIPT
 "
 _ns
 "
-default
+web
 "
 _ns
 "
