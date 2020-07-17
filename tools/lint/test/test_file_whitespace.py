@@ -7,11 +7,11 @@ import
 mozunit
 LINTER
 =
-'
+"
 file
 -
 whitespace
-'
+"
 def
 test_lint_file_whitespace
 (
@@ -191,9 +191,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

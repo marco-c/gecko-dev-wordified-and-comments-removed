@@ -7,11 +7,11 @@ import
 mozunit
 LINTER
 =
-'
+"
 file
 -
 perm
-'
+"
 def
 test_lint_file_perm
 (
@@ -132,9 +132,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

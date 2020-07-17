@@ -6,11 +6,11 @@ import
 build
 LINTER
 =
-'
+"
 clang
 -
 format
-'
+"
 def
 test_good
 (
@@ -168,13 +168,13 @@ results
 path
     
 assert
-'
+"
 int
 main
 (
 )
 {
-'
+"
 in
 results
 [
@@ -293,13 +293,13 @@ results
 path
     
 assert
-'
+"
 int
 main
 (
 )
 {
-'
+"
 in
 results
 [
@@ -390,9 +390,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

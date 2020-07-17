@@ -8,9 +8,9 @@ import
 which
 LINTER
 =
-'
+"
 rst
-'
+"
 pytestmark
 =
 pytest
@@ -19,12 +19,13 @@ mark
 .
 skipif
 (
+    
 not
 which
 (
-'
+"
 rstcheck
-'
+"
 )
 reason
 =
@@ -151,9 +152,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

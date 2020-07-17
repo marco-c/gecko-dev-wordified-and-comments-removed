@@ -7,9 +7,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 license
-'
+"
 def
 test_lint_license
 (
@@ -143,9 +143,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

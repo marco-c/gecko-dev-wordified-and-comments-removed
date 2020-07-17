@@ -4,9 +4,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 flake8
-'
+"
 def
 test_lint_single_file
 (
@@ -21,11 +21,11 @@ lint
 (
 paths
 (
-'
+"
 bad
 .
 py
-'
+"
 )
 )
     
@@ -47,9 +47,9 @@ results
 rule
 =
 =
-'
+"
 F401
-'
+"
     
 assert
 results
@@ -60,9 +60,9 @@ results
 rule
 =
 =
-'
+"
 E501
-'
+"
     
 assert
 results
@@ -81,11 +81,11 @@ lint
 (
 paths
 (
-'
+"
 bad
 .
 py
-'
+"
 )
 )
     
@@ -111,9 +111,9 @@ lint
 (
 paths
 (
-'
+"
 custom
-'
+"
 )
 )
     
@@ -132,13 +132,13 @@ lint
 (
 paths
 (
-'
+"
 custom
 /
 good
 .
 py
-'
+"
 )
 )
     
@@ -187,11 +187,11 @@ create_temp_file
 contents
 name
 =
-'
+"
 bad
 .
 py
-'
+"
 )
     
 results
@@ -246,11 +246,11 @@ create_temp_file
 contents
 name
 =
-'
+"
 bad2
 .
 py
-'
+"
 )
 )
     
@@ -283,9 +283,9 @@ r
 rule
 !
 =
-'
+"
 E501
-'
+"
 for
 r
 in
@@ -344,11 +344,11 @@ create_temp_file
 contents
 name
 =
-'
+"
 line_length
 .
 py
-'
+"
 )
     
 lint
@@ -365,9 +365,9 @@ with
 open
 (
 path
-'
+"
 r
-'
+"
 )
 as
 fh
@@ -395,12 +395,12 @@ files
 =
 paths
 (
-'
+"
 bad
 .
 py
-'
-'
+"
+"
 subdir
 /
 exclude
@@ -408,30 +408,30 @@ exclude
 bad
 .
 py
-'
-'
+"
+"
 subdir
 /
 exclude
 /
 exclude_subdir
-'
+"
 )
     
 config
 [
-'
+"
 exclude
-'
+"
 ]
 =
 paths
 (
-'
+"
 bad
 .
 py
-'
+"
 )
     
 results
@@ -460,9 +460,9 @@ cwd
 =
 paths
 (
-'
+"
 subdir
-'
+"
 )
 [
 0
@@ -481,11 +481,11 @@ lint
 (
 paths
 (
-'
+"
 subdir
 /
 exclude
-'
+"
 )
 )
     
@@ -513,29 +513,29 @@ config
     
 config
 [
-'
+"
 exclude
-'
+"
 ]
 =
 paths
 (
-'
+"
 ext
 /
 *
 .
 configure
-'
+"
 )
     
 files
 =
 paths
 (
-'
+"
 ext
-'
+"
 )
     
 results
@@ -564,13 +564,13 @@ files
 =
 paths
 (
-'
+"
 ext
 /
 bad
 .
 configure
-'
+"
 )
     
 results
@@ -609,11 +609,11 @@ lint
 (
 paths
 (
-'
+"
 subdir
 /
 exclude
-'
+"
 )
 use_filters
 =
@@ -648,9 +648,9 @@ lint
 (
 paths
 (
-'
+"
 ext
-'
+"
 )
 )
 )
@@ -665,13 +665,13 @@ lint
 (
 paths
 (
-'
+"
 ext
 /
 bad
 .
 configure
-'
+"
 )
 )
 )
@@ -682,9 +682,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

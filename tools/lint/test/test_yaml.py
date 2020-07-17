@@ -8,9 +8,9 @@ import
 which
 LINTER
 =
-'
+"
 yaml
-'
+"
 pytestmark
 =
 pytest
@@ -19,12 +19,13 @@ mark
 .
 skipif
 (
+    
 not
 which
 (
-'
+"
 yamllint
-'
+"
 )
 reason
 =
@@ -232,9 +233,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

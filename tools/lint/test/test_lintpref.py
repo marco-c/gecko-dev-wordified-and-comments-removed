@@ -7,9 +7,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 lintpref
-'
+"
 def
 test_lintpref
 (
@@ -45,9 +45,9 @@ results
 level
 =
 =
-'
+"
 error
-'
+"
     
 assert
 '
@@ -73,11 +73,11 @@ results
 message
     
 assert
-'
+"
 bad
 .
 js
-'
+"
 in
 results
 [
@@ -100,9 +100,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

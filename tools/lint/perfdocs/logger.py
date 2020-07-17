@@ -11,9 +11,9 @@ object
 )
 :
     
-'
-'
-'
+"
+"
+"
     
 Logger
 for
@@ -37,9 +37,9 @@ by
 lint
 .
     
-'
-'
-'
+"
+"
+"
     
 PATHS
 =
@@ -61,16 +61,16 @@ self
 )
 :
         
-'
-'
-'
+"
+"
+"
 Initializes
 the
 PerfDocLogger
 .
-'
-'
-'
+"
+"
+"
         
 if
 not
@@ -105,7 +105,6 @@ PATHS
 raise
 Exception
 (
-                
 "
 Missing
 PATHS
@@ -113,7 +112,6 @@ for
 PerfDocLogger
 initialization
 "
-            
 )
         
 self
@@ -132,9 +130,9 @@ msg
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Log
 an
@@ -152,9 +150,9 @@ to
 log
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .
@@ -174,9 +172,9 @@ files
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Logs
 a
@@ -250,9 +248,9 @@ is
 about
 .
         
-'
-'
-'
+"
+"
+"
         
 if
 type
@@ -335,9 +333,9 @@ fpath
                     
 linter
 =
-'
+"
 perfdocs
-'
+"
                     
 rule
 =
@@ -366,9 +364,9 @@ msg
 )
 :
         
-'
-'
-'
+"
+"
+"
         
 Log
 a
@@ -386,9 +384,9 @@ to
 log
 .
         
-'
-'
-'
+"
+"
+"
         
 self
 .

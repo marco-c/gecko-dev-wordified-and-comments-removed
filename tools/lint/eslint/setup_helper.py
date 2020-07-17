@@ -26,10 +26,13 @@ mozbuild
 nodeutil
 import
 (
+    
 find_node_executable
+    
 find_npm_executable
-                               
+    
 NPM_MIN_VERSION
+    
 NODE_MIN_VERSION
 )
 from
@@ -395,9 +398,9 @@ package_setup
 get_project_root
 (
 )
-'
+"
 eslint
-'
+"
 should_clobber
 =
 should_clobber
@@ -405,15 +408,19 @@ should_clobber
 def
 package_setup
 (
+    
 package_root
+    
 package_name
+    
 should_update
 =
 False
+    
 should_clobber
 =
 False
-                  
+    
 no_optional
 =
 False
@@ -561,9 +568,9 @@ platform
 .
 startswith
 (
-'
+"
 win
-'
+"
 )
 and
 have_winrm
@@ -578,13 +585,13 @@ subprocess
 Popen
 (
 [
-'
+"
 winrm
-'
-'
+"
+"
 -
 rf
-'
+"
 node_modules_path
 ]
 )
@@ -653,13 +660,13 @@ extra_parameters
 .
 append
 (
-'
+"
 -
 -
 no
 -
 optional
-'
+"
 )
         
 package_lock_json_path
@@ -759,23 +766,21 @@ extra_parameters
         
 print
 (
-"
+'
 Installing
 %
 s
 for
 mach
 using
-\
 "
 %
 s
-\
 "
 .
 .
 .
-"
+'
 %
 (
 package_name
@@ -813,6 +818,7 @@ path
 .
 join
 (
+            
 get_project_root
 (
 )
@@ -824,6 +830,7 @@ node_modules
 bin
 "
 package_name
+        
 )
         
 print
@@ -1084,10 +1091,10 @@ path
 .
 join
 (
+        
 get_eslint_module_path
 (
 )
-                                     
 "
 eslint
 -
@@ -1100,6 +1107,7 @@ package
 .
 json
 "
+    
 )
     
 with
@@ -1146,10 +1154,10 @@ path
 .
 join
 (
+        
 get_eslint_module_path
 (
 )
-                                     
 "
 eslint
 -
@@ -1164,6 +1172,7 @@ package
 .
 json
 "
+    
 )
     
 with
@@ -1230,11 +1239,11 @@ diff_files
 !
 =
 [
-'
+"
 package
 .
 json
-'
+"
 ]
 :
             
@@ -1273,6 +1282,7 @@ dcmp
 =
 dircmp
 (
+        
 os
 .
 path
@@ -1282,7 +1292,7 @@ join
 node_modules_path
 name
 )
-                  
+        
 os
 .
 path
@@ -1294,6 +1304,7 @@ get_eslint_module_path
 )
 name
 )
+    
 )
     
 return
@@ -1777,8 +1788,9 @@ return
 return
 list
 (
-{
         
+{
+            
 "
 %
 s
@@ -1797,7 +1809,7 @@ get
 SystemDrive
 "
 )
-        
+            
 os
 .
 path
@@ -1818,7 +1830,7 @@ ProgramFiles
 nodejs
 "
 )
-        
+            
 os
 .
 path
@@ -1839,7 +1851,7 @@ PROGRAMW6432
 nodejs
 "
 )
-        
+            
 os
 .
 path
@@ -1860,8 +1872,9 @@ PROGRAMFILES
 nodejs
 "
 )
-    
+        
 }
+    
 )
 def
 get_version
@@ -1879,6 +1892,7 @@ subprocess
 .
 check_output
 (
+            
 [
 path
 "
@@ -1892,10 +1906,10 @@ stderr
 subprocess
 .
 STDOUT
-                                              
 universal_newlines
 =
 True
+        
 )
         
 return
@@ -1997,9 +2011,7 @@ getcwd
 )
     
 while
-(
 folder
-)
 :
         
 if
@@ -2016,9 +2028,9 @@ path
 join
 (
 folder
-'
+"
 mach
-'
+"
 )
 )
 :
@@ -2225,29 +2237,29 @@ subprocess
 .
 Popen
 (
+            
 [
-'
+"
 winrm
 .
 exe
-'
-'
+"
+"
 -
 h
-'
+"
 ]
-                             
 stdout
 =
 subprocess
 .
 PIPE
-                             
 stderr
 =
 subprocess
 .
 STDOUT
+        
 )
         
 return
@@ -2270,9 +2282,9 @@ read
 .
 startswith
 (
-'
+"
 winrm
-'
+"
 )
     
 except

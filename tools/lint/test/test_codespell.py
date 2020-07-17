@@ -7,9 +7,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 codespell
-'
+"
 def
 test_lint_codespell
 (
@@ -45,13 +45,13 @@ results
 message
 =
 =
-'
+"
 informations
 =
 =
 >
 information
-'
+"
     
 assert
 results
@@ -151,9 +151,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

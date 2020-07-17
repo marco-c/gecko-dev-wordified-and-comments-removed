@@ -2,9 +2,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 rustfmt
-'
+"
 def
 test_good
 (
@@ -321,9 +321,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

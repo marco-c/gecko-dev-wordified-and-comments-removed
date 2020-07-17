@@ -4,9 +4,9 @@ import
 os
 LINTER
 =
-'
+"
 clippy
-'
+"
 def
 test_basic
 (
@@ -43,6 +43,8 @@ results
 7
     
 assert
+(
+        
 "
 is
 never
@@ -56,11 +58,11 @@ results
 .
 message
 or
-'
+"
 but
 never
 used
-'
+"
 in
 results
 [
@@ -68,6 +70,8 @@ results
 ]
 .
 message
+    
+)
     
 assert
 results
@@ -1014,9 +1018,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

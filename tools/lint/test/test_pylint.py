@@ -2,9 +2,9 @@ import
 mozunit
 LINTER
 =
-'
+"
 pylint
-'
+"
 def
 test_lint_single_file
 (
@@ -19,11 +19,11 @@ lint
 (
 paths
 (
-'
+"
 bad
 .
 py
-'
+"
 )
 )
     
@@ -45,9 +45,9 @@ results
 rule
 =
 =
-'
+"
 E0602
-'
+"
     
 assert
 results
@@ -58,9 +58,9 @@ results
 rule
 =
 =
-'
+"
 W0101
-'
+"
     
 assert
 results
@@ -79,11 +79,11 @@ lint
 (
 paths
 (
-'
+"
 bad
 .
 py
-'
+"
 )
 )
     
@@ -109,11 +109,11 @@ lint
 (
 paths
 (
-'
+"
 good
 .
 py
-'
+"
 )
 )
     
@@ -129,9 +129,9 @@ if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 mozunit

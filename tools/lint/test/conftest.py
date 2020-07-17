@@ -101,9 +101,9 @@ fixture
 (
 scope
 =
-'
+"
 module
-'
+"
 )
 def
 root
@@ -160,9 +160,9 @@ hasattr
 request
 .
 module
-'
+"
 LINTER
-'
+"
 )
 :
         
@@ -170,6 +170,7 @@ pytest
 .
 fail
 (
+            
 "
 '
 root
@@ -188,6 +189,7 @@ the
 LINTER
 variable
 "
+        
 )
     
 return
@@ -198,9 +200,9 @@ path
 join
 (
 here
-'
+"
 files
-'
+"
 request
 .
 module
@@ -213,9 +215,9 @@ fixture
 (
 scope
 =
-'
+"
 module
-'
+"
 )
 def
 paths
@@ -409,9 +411,9 @@ hasattr
 request
 .
 module
-'
+"
 LINTER
-'
+"
 )
 :
         
@@ -419,6 +421,7 @@ pytest
 .
 fail
 (
+            
 "
 '
 config
@@ -437,6 +440,7 @@ the
 LINTER
 variable
 "
+        
 )
     
 name
@@ -456,12 +460,12 @@ path
 join
 (
 lintdir
-'
+"
 {
 }
 .
 yml
-'
+"
 .
 format
 (
@@ -537,9 +541,9 @@ tests
 "
     
 if
-'
+"
 setup
-'
+"
 not
 in
 config
@@ -553,9 +557,9 @@ findobject
 (
 config
 [
-'
+"
 setup
-'
+"
 ]
 )
     
@@ -633,9 +637,9 @@ findobject
 (
 config
 [
-'
+"
 payload
-'
+"
 ]
 )
     
@@ -650,6 +654,7 @@ pytest
 .
 fail
 (
+            
 "
 could
 not
@@ -668,11 +673,12 @@ format
 (
 config
 [
-'
+"
 payload
-'
+"
 ]
 )
+        
 )
     
 ResultSummary
@@ -711,18 +717,18 @@ DEBUG
         
 lintargs
 [
-'
+"
 log
-'
+"
 ]
 =
 logging
 .
 LoggerAdapter
 (
+            
 logger
 {
-            
 "
 lintname
 "
@@ -735,7 +741,6 @@ get
 name
 "
 )
-            
 "
 pid
 "
@@ -745,8 +750,8 @@ os
 getpid
 (
 )
-        
 }
+        
 )
         
 results
@@ -825,11 +830,11 @@ name
 =
 name
 or
-'
+"
 temp
 .
 py
-'
+"
         
 path
 =
