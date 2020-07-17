@@ -407,7 +407,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 gDataUrl
 +
@@ -415,7 +415,6 @@ test
 .
 file
 null
-false
 )
 ;
 await

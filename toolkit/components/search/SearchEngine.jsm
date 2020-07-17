@@ -2364,10 +2364,6 @@ __searchForm
 =
 null
 ;
-_useNow
-=
-null
-;
 _updateInterval
 =
 null

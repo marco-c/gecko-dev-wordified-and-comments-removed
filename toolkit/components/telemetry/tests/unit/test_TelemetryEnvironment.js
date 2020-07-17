@@ -10426,7 +10426,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 "
 file
@@ -10448,7 +10448,6 @@ engine
 xml
 "
 null
-false
 )
 ;
 }

@@ -5130,7 +5130,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 target
 .
@@ -5148,7 +5148,6 @@ getAttribute
 image
 "
 )
-false
 )
 .
 then

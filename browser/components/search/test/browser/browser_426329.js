@@ -574,7 +574,7 @@ modified
 ;
 ss
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -614,7 +614,6 @@ icon
 %
 00
 "
-false
 )
 ;
 }

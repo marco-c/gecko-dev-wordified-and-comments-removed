@@ -149,7 +149,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 gDataUrl
 +
@@ -159,7 +159,6 @@ engine
 xml
 "
 null
-false
 )
 ;
 Assert
@@ -262,7 +261,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 gDataUrl
 +
@@ -272,7 +271,6 @@ engine
 xml
 "
 null
-false
 )
 ;
 }
@@ -344,7 +342,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -360,7 +358,6 @@ engine
 xml
 "
 null
-false
 )
 ;
 }

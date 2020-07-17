@@ -149,7 +149,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 gDataUrl
 +
@@ -163,7 +163,6 @@ engine
 xml
 "
 null
-false
 )
 error
 =

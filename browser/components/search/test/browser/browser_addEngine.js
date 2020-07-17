@@ -279,7 +279,7 @@ modified
 ;
 gSS
 .
-addEngine
+addOpenSearchEngine
 (
 "
 http
@@ -338,7 +338,6 @@ iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAABGklEQVQoz2NgGB6AnZ1dUlJSXl4eSDIy
 %
 2FAEWBfoWHAdAYoNuAYQ0XAeoUERFhGDYAAPoUaT2dfWJuAAAAAElFTkSuQmCC
 "
-false
 )
 ;
 }

@@ -328,7 +328,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 engineUrl
 "
@@ -343,7 +343,6 @@ icon
 base64
 ico16
 "
-false
 )
 ;
 Assert

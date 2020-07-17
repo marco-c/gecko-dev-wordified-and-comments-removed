@@ -1070,13 +1070,12 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 dataUrl
 +
 basename
 null
-false
 )
 ;
 }

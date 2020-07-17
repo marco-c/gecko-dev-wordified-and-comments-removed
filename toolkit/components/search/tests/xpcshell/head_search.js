@@ -2690,7 +2690,7 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 gDataUrl
 +
@@ -2698,7 +2698,6 @@ item
 .
 xmlFileName
 null
-false
 )
 ;
 }

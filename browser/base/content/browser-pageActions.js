@@ -5674,11 +5674,10 @@ Services
 .
 search
 .
-addEngine
+addOpenSearchEngine
 (
 uri
 image
-false
 )
 .
 then
