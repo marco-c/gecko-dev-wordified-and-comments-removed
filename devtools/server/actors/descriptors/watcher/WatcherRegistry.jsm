@@ -140,11 +140,11 @@ new
 Set
 (
 )
-browsingContextID
+browserId
 :
 watcher
 .
-browsingContextID
+browserId
 connectionPrefix
 :
 watcher

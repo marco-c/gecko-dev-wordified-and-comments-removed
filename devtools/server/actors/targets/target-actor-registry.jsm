@@ -52,7 +52,7 @@ targetActor
 }
 getTargetActor
 (
-browsingContextID
+browserId
 )
 {
 for
@@ -67,14 +67,14 @@ if
 (
 actor
 .
-browsingContextID
+browserId
 =
 =
-browsingContextID
+browserId
 |
 |
 (
-browsingContextID
+browserId
 =
 =
 =
