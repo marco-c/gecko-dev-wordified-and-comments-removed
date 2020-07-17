@@ -112,7 +112,7 @@ loader
 ]
 ;
 const
-whitelist
+allowedDupes
 =
 [
 "
@@ -384,7 +384,7 @@ js
 runDuplicatedModulesTest
 (
 loaders
-whitelist
+allowedDupes
 )
 ;
 runMetricsTest

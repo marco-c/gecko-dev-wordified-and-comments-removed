@@ -38,7 +38,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 "
@@ -108,7 +108,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 to
@@ -135,7 +135,7 @@ import
 WebIDL
 import
 buildconfig
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 =
 set
 (
@@ -304,7 +304,7 @@ webidl
 -
 pure
 -
-whitelist
+allowlist
 .
 js
 "
@@ -488,12 +488,12 @@ name
 if
 (
 (
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 and
 not
 iface
 in
-INTERFACE_WHITELIST
+INTERFACE_ALLOWLIST
 )
 or
             
