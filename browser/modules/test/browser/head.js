@@ -306,9 +306,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPermissionType
+"
 ]
 )
 }
@@ -409,9 +409,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPermissionRequest
+"
 ]
 )
 }

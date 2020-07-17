@@ -99,9 +99,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolHandler
+"
 ]
 )
 scheme
@@ -495,9 +495,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolProxyFilter
+"
 ]
 )
 applyFilter
@@ -640,9 +640,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolProxyCallback
+"
 ]
 )
 onProxyAvailable

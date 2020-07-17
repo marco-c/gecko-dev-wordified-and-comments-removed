@@ -780,9 +780,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebProgressListener
+"
 ]
 )
 }

@@ -152,9 +152,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICertificateDialogs
+"
 ]
 )
 }
@@ -267,9 +267,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPrompt
+"
 ]
 )
 getInterface

@@ -134,9 +134,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPermission
+"
 ]
 )
 capability

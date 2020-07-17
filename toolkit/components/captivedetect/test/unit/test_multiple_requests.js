@@ -312,9 +312,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICaptivePortalCallback
+"
 ]
 )
 prepare
@@ -381,9 +381,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICaptivePortalCallback
+"
 ]
 )
 prepare

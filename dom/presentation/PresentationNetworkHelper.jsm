@@ -45,9 +45,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPresentationNetworkHelper
+"
 ]
 )
 getWifiIPAddress

@@ -525,12 +525,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompleteSearch
-Ci
-.
+"
+"
 nsIAutoCompleteObserver
+"
 ]
 )
 }

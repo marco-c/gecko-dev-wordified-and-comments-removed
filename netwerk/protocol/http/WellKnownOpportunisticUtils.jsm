@@ -39,9 +39,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWellKnownOpportunisticUtils
+"
 ]
 )
 verify

@@ -227,12 +227,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 mozIExtensionStorageListener
-Ci
-.
+"
+"
 mozIExtensionStorageCallback
+"
 ]
 )
 handleSuccess

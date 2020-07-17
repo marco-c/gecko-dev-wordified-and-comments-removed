@@ -2769,9 +2769,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
+"
 ]
 )
 ;

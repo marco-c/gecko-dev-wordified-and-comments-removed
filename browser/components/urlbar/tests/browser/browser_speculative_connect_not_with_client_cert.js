@@ -185,9 +185,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClientAuthDialogs
+"
 ]
 )
 }

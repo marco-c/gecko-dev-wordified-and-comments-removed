@@ -628,12 +628,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITimerCallback
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 _deferredValueUpdateElements

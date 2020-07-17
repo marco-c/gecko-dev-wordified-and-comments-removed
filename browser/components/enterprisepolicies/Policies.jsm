@@ -9680,9 +9680,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPolicy
+"
 ]
 )
 createInstance

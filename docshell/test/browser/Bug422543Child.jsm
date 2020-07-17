@@ -104,12 +104,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISHistoryListener
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 ;

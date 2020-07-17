@@ -14,9 +14,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAboutModule
+"
 ]
 )
 newChannel
@@ -147,9 +147,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFactory
+"
 ]
 )
 }

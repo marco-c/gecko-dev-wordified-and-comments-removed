@@ -1428,12 +1428,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
-Ci
-.
+"
+"
 nsIContentPermissionPrompt
+"
 ]
 )
 ;

@@ -443,9 +443,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIUrlClassifierExceptionListService
+"
 ]
 )
 features

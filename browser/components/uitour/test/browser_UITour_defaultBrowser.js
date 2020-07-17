@@ -61,9 +61,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIShellService
+"
 ]
 )
 isDefaultBrowser

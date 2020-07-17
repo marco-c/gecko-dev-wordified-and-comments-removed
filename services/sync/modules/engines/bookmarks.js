@@ -6401,12 +6401,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavBookmarkObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 _upScore

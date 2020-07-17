@@ -69,12 +69,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebProgressListener
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 _init

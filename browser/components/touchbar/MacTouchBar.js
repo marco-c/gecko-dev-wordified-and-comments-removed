@@ -2480,9 +2480,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITouchBarHelper
+"
 ]
 )
 ;
@@ -3121,9 +3121,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITouchBarInput
+"
 ]
 )
 ;

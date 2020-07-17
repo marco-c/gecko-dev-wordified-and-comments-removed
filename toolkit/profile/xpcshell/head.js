@@ -365,9 +365,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIToolkitShellService
+"
 ]
 )
 ID

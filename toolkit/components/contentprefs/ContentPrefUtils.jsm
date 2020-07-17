@@ -66,9 +66,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPref
+"
 ]
 )
 }

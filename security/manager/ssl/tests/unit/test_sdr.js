@@ -60,9 +60,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITokenPasswordDialogs
+"
 ]
 )
 }
@@ -91,9 +91,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPrompt
+"
 ]
 )
 }
@@ -116,9 +116,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWindowWatcher
+"
 ]
 )
 }

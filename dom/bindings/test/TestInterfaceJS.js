@@ -108,12 +108,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDOMGlobalPropertyInitializer
-Ci
-.
+"
+"
 mozITestInterfaceJS
+"
 ]
 )
 init

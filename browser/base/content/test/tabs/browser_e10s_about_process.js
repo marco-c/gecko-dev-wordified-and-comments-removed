@@ -277,9 +277,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAboutModule
+"
 ]
 )
 }
@@ -349,9 +349,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFactory
+"
 ]
 )
 }

@@ -223,9 +223,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolHandler
+"
 ]
 )
 }

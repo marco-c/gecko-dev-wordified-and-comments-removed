@@ -183,9 +183,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPromptCollection
+"
 ]
 )
 ;

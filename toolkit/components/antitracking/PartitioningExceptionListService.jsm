@@ -442,9 +442,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPartitioningExceptionListService
+"
 ]
 )
 _initialized

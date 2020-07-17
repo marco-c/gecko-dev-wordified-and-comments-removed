@@ -218,9 +218,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentSniffer
+"
 ]
 )
 ;

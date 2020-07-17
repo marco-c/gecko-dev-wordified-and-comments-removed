@@ -612,9 +612,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPrefService2
+"
 ]
 )
 addObserverForName

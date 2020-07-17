@@ -5284,9 +5284,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICrashReporter
+"
 ]
 )
 annotateCrashReport

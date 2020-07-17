@@ -2109,12 +2109,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 mozISyncedBookmarksMirrorProgressListener
-Ci
-.
+"
+"
 mozISyncedBookmarksMirrorCallback
+"
 ]
 )
 onFetchLocalTree

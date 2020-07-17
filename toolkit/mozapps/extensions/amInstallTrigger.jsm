@@ -512,9 +512,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISupportsWeakReference
+"
 ]
 )
 }
@@ -1048,9 +1048,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDOMGlobalPropertyInitializer
+"
 ]
 )
 }

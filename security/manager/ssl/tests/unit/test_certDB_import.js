@@ -162,9 +162,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsICertificateDialogs
+"
 ]
 )
 }

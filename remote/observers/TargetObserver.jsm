@@ -530,9 +530,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWindowMediatorListener
+"
 ]
 )
 ;

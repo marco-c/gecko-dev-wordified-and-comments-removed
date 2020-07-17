@@ -43,9 +43,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIRunnable
+"
 ]
 )
 QueryInterface

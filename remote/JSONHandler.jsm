@@ -428,9 +428,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIHttpRequestHandler
+"
 ]
 )
 ;

@@ -787,9 +787,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebProtocolHandlerRegistrar
+"
 ]
 )
 }

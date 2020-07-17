@@ -3824,9 +3824,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIX509CertDB
+"
 ]
 )
 }
@@ -6300,9 +6300,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDirectoryServiceProvider
+"
 ]
 )
 }

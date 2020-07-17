@@ -2664,12 +2664,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
-Ci
-.
+"
+"
 nsIWindowMediatorListener
+"
 ]
 )
 }

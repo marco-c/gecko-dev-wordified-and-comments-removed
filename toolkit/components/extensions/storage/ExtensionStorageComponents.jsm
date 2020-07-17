@@ -235,9 +235,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInterfaceRequestor
+"
 ]
 )
 getInterface

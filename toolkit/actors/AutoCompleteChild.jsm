@@ -314,9 +314,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAutoCompletePopup
+"
 ]
 )
 ;

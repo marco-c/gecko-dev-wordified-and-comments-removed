@@ -46,9 +46,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAppStartup
+"
 ]
 )
 quit

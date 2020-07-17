@@ -173,9 +173,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsILoginManagerStorage
+"
 ]
 )
 ;

@@ -74,9 +74,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINetworkLinkService
+"
 ]
 )
 createInstance

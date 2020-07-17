@@ -59,9 +59,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDOMGlobalPropertyInitializer
+"
 ]
 )
 }

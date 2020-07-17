@@ -38,9 +38,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPrompt
+"
 ]
 )
 alert
@@ -88,9 +88,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWindowWatcher
+"
 ]
 )
 getNewPrompter

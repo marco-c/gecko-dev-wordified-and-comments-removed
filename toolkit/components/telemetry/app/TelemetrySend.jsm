@@ -2649,9 +2649,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISupportsWeakReference
+"
 ]
 )
 async

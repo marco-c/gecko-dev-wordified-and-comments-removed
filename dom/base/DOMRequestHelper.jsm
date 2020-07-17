@@ -67,12 +67,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISupportsWeakReference
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 addMessageListeners

@@ -230,9 +230,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFactory
+"
 ]
 )
 }
@@ -999,9 +999,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIFilePicker
+"
 ]
 )
 init

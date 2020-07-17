@@ -40,9 +40,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProperty
+"
 ]
 )
 contractID

@@ -334,9 +334,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIChannel
+"
 ]
 )
 }
@@ -489,9 +489,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIIncrementalStreamLoaderObserver
+"
 ]
 )
 }

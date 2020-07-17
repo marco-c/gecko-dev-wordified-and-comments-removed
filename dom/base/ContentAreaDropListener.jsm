@@ -84,9 +84,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDroppedLinkHandler
+"
 ]
 )
 _addLink

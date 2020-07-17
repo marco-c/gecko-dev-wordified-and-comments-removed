@@ -169,9 +169,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 TRANSMIT_HANG_COUNT

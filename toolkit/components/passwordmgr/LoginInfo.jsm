@@ -107,12 +107,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsILoginInfo
-Ci
-.
+"
+"
 nsILoginMetaInfo
+"
 ]
 )
 origin

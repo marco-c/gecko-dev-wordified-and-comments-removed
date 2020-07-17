@@ -5289,9 +5289,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInterfaceRequestor
+"
 ]
 )
 getInterface
@@ -5301,9 +5301,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProgressEventSink
+"
 ]
 )
 onProgress

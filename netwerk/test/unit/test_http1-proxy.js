@@ -103,9 +103,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolProxyFilter
+"
 ]
 )
 ;
@@ -203,9 +203,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIAuthPrompt2
+"
 ]
 )
 ;
@@ -259,9 +259,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInterfaceRequestor
+"
 ]
 )
 ;

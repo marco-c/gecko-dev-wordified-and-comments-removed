@@ -29,9 +29,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISlowScriptDebug
+"
 ]
 )
 get

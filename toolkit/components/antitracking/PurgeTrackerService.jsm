@@ -255,9 +255,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPurgeTrackerService
+"
 ]
 )
 _firstIteration

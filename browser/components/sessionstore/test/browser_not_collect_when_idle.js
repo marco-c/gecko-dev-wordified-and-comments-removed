@@ -132,9 +132,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIIdleService
+"
 ]
 )
 idleTime

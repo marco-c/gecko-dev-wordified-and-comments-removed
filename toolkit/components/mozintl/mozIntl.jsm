@@ -3887,9 +3887,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 mozIMozIntl
+"
 ]
 )
 ;

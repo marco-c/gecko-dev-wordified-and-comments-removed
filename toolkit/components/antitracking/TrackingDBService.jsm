@@ -619,9 +619,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITrackingDBService
+"
 ]
 )
 _xpcom_factory

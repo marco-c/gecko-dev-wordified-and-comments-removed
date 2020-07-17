@@ -215,9 +215,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIColorPicker
+"
 ]
 )
 ;

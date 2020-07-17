@@ -40,12 +40,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-[
 "
 nsIXPCTestObjectReadWrite
 "
-]
 ]
 )
 contractID
@@ -139,12 +136,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-[
 "
 nsIXPCTestObjectReadOnly
 "
-]
 ]
 )
 contractID

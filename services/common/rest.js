@@ -439,12 +439,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIInterfaceRequestor
-Ci
-.
+"
+"
 nsIChannelEventSink
+"
 ]
 )
 uri

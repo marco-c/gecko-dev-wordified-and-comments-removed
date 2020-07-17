@@ -789,9 +789,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 }
@@ -986,9 +986,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 }
@@ -1079,9 +1079,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsITimerCallback
+"
 ]
 )
 }

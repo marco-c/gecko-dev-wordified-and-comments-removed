@@ -6065,9 +6065,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISupportsWeakReference
+"
 ]
 )
 _startWatchingPrefs

@@ -784,12 +784,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIConsoleListener
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 }

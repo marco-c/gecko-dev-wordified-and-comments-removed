@@ -256,9 +256,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIWebBrowserChrome3
+"
 ]
 )
 ;

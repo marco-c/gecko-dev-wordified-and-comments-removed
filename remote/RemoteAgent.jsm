@@ -820,9 +820,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIRemoteAgent
+"
 ]
 )
 ;

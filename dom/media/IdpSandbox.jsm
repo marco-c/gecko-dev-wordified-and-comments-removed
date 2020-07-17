@@ -129,9 +129,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIChannelEventSink
+"
 ]
 )
 }
@@ -442,9 +442,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
+"
 ]
 )
 }

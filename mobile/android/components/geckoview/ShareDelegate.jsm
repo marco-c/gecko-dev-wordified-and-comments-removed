@@ -387,9 +387,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISharePicker
+"
 ]
 )
 ;

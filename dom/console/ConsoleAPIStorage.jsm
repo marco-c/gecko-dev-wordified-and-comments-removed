@@ -89,12 +89,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIConsoleAPIStorage
-Ci
-.
+"
+"
 nsIObserver
+"
 ]
 )
 observe

@@ -145,9 +145,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsISecurityReporter
+"
 ]
 )
 reportTLSError

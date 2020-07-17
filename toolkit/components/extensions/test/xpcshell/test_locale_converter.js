@@ -345,9 +345,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
+"
 ]
 )
 onDataAvailable
@@ -675,9 +675,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamListener
+"
 ]
 )
 }

@@ -249,9 +249,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIClipboardOwner
+"
 ]
 )
 LosingOwnership

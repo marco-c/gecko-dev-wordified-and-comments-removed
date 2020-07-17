@@ -2645,12 +2645,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsINavHistoryObserver
-Ci
-.
+"
+"
 nsISupportsWeakReference
+"
 ]
 )
 }

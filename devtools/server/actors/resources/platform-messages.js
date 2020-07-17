@@ -130,9 +130,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIConsoleListener
+"
 ]
 )
 observe

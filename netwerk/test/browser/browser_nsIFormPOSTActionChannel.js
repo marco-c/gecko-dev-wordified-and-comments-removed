@@ -233,12 +233,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIProtocolHandler
-Ci
-.
+"
+"
 nsIFactory
+"
 ]
 )
 classID

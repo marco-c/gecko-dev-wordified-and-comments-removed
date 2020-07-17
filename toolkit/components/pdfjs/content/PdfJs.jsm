@@ -322,9 +322,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIMIMEInfo
+"
 ]
 )
 getFileExtensions
@@ -400,9 +400,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIObserver
+"
 ]
 )
 _initialized

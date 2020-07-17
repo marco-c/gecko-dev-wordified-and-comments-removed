@@ -78,9 +78,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPresentationControlChannel
+"
 ]
 )
 sendOffer
@@ -141,9 +141,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPresentationDeviceProvider
+"
 ]
 )
 forceDiscovery
@@ -190,9 +190,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIPresentationDevice
+"
 ]
 )
 id

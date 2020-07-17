@@ -36,9 +36,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentProcessProvider
+"
 ]
 )
 provideProcess
@@ -120,9 +120,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentProcessProvider
+"
 ]
 )
 provideProcess

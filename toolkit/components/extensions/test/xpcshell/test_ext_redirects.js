@@ -195,12 +195,12 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIRequestObserver
-Ci
-.
+"
+"
 nsIStreamListener
+"
 ]
 )
 getFinalURI

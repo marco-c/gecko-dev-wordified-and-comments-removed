@@ -98,9 +98,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPermissionType
+"
 ]
 )
 wrappedJSObject
@@ -169,9 +169,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIContentPermissionRequest
+"
 ]
 )
 wrappedJSObject

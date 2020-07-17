@@ -143,9 +143,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIStreamConverter
+"
 ]
 )
 FROM_TYPE
@@ -641,9 +641,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIDocumentLoaderFactory
+"
 ]
 )
 createInstance

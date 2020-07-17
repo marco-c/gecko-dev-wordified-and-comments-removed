@@ -558,9 +558,9 @@ ChromeUtils
 generateQI
 (
 [
-Ci
-.
+"
 nsIBrowserProfileMigrator
+"
 ]
 )
 getSourceProfiles
