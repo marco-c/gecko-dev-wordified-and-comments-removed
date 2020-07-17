@@ -734,6 +734,11 @@ vs2017_15
 .
 4
 "
+use
+-
+sccache
+:
+true
 fetches
 :
 toolchain
@@ -1000,6 +1005,11 @@ tooltool
 downloads
 :
 internal
+use
+-
+sccache
+:
+true
 fetches
 :
 toolchain
