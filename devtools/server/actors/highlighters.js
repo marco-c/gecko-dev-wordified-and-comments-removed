@@ -372,6 +372,17 @@ _inspector
 conn
 ;
 }
+get
+instance
+(
+)
+{
+return
+this
+.
+_highlighter
+;
+}
 form
 :
 function

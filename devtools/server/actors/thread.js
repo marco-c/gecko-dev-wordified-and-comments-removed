@@ -2277,6 +2277,7 @@ return
 highlighter
 ;
 }
+async
 showOverlay
 (
 )
@@ -2338,6 +2339,13 @@ _priorPause
 why
 .
 type
+;
+await
+this
+.
+pauseOverlay
+.
+isReady
 ;
 this
 .
