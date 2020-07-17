@@ -7848,19 +7848,6 @@ deffile
 .
 target_basename
             
-passthru
-.
-variables
-[
-'
-EXTRA_DEPS
-'
-]
-=
-[
-path
-]
-            
 if
 context
 .

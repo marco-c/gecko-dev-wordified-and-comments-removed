@@ -536,10 +536,16 @@ provided
 PHONY
 :
 (
+pre_compile_targets
+)
+(
 compile_targets
 )
 (
 syms_targets
+)
+(
+pre_compile_targets
 )
 (
 compile_targets
