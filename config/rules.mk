@@ -1297,7 +1297,7 @@ c
 =
 .
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 )
 )
@@ -1327,7 +1327,7 @@ notdir
 addsuffix
 .
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 (
 basename
@@ -1353,7 +1353,7 @@ m
 =
 .
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 )
 )
@@ -1373,7 +1373,7 @@ mm
 =
 .
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 )
 )
@@ -1509,17 +1509,6 @@ OBJ_SUFFIX
 =
 .
 i
-)
-(
-OBJS
-:
-.
-(
-OBJ_SUFFIX
-)
-=
-.
-i_o
 )
 \
 (
@@ -1704,7 +1693,7 @@ HOST_SIMPLE_PROGRAMS
 %
 .
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 )
 endif
@@ -4663,7 +4652,7 @@ src_objdep
 f
 )
 (
-_OBJ_SUFFIX
+OBJ_SUFFIX
 )
 host_
 )
