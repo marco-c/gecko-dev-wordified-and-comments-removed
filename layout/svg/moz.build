@@ -71,6 +71,11 @@ ISVGDisplayableFrame
 h
 '
 '
+ISVGSVGFrame
+.
+h
+'
+'
 SVGClipPathFrame
 .
 h

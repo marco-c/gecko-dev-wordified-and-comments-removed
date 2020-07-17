@@ -69,17 +69,6 @@ h
 #
 include
 "
-mozilla
-/
-dom
-/
-SVGImageElement
-.
-h
-"
-#
-include
-"
 nsIReflowCallback
 .
 h

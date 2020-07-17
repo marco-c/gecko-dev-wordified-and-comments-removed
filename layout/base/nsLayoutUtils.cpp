@@ -1056,6 +1056,10 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
 SVGViewportElement
 .
 h
