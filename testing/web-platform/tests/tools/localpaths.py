@@ -2,10 +2,6 @@ import
 os
 import
 sys
-from
-six
-import
-ensure_text
 here
 =
 os
@@ -493,6 +489,10 @@ enum
 "
 )
 )
+from
+six
+import
+ensure_text
 repo_root
 =
 ensure_text
