@@ -6962,6 +6962,12 @@ names
 )
 .
 star
+&
+&
+!
+exp
+.
+exportName
 )
 {
 if

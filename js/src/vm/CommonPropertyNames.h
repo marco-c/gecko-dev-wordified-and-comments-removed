@@ -3493,6 +3493,17 @@ star
 \
 MACRO
 (
+starNamespaceStar
+starNamespaceStar
+"
+*
+namespace
+*
+"
+)
+\
+MACRO
+(
 start
 start
 "
