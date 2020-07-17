@@ -71,7 +71,6 @@ friend
 class
 nsPageFrame
 ;
-virtual
 void
 Reflow
 (
@@ -91,7 +90,6 @@ aStatus
 )
 override
 ;
-virtual
 bool
 IsFrameOfType
 (
@@ -132,7 +130,6 @@ mPD
 aPD
 ;
 }
-virtual
 bool
 HasTransformGetter
 (
@@ -159,7 +156,6 @@ override
 #
 ifdef
 DEBUG_FRAME_DUMP
-virtual
 nsresult
 GetFrameName
 (
