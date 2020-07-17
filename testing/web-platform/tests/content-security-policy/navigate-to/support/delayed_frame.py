@@ -19,11 +19,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -34,6 +36,7 @@ html
     
 return
 headers
+u
 '
 '
 '

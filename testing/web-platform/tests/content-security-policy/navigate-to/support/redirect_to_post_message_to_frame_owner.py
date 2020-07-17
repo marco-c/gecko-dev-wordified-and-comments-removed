@@ -13,6 +13,7 @@ status
 302
     
 if
+b
 "
 location
 "
@@ -28,6 +29,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -35,6 +37,7 @@ request
 .
 GET
 [
+b
 "
 location
 "
@@ -50,9 +53,11 @@ headers
 .
 set
 (
+b
 "
 Location
 "
+b
 "
 post_message_to_frame_owner
 .

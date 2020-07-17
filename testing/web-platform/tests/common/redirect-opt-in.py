@@ -59,6 +59,7 @@ status
 302
     
 if
+b
 "
 status
 "
@@ -81,6 +82,7 @@ GET
 .
 first
 (
+b
 "
 status
 "
@@ -107,6 +109,7 @@ GET
 .
 first
 (
+b
 "
 location
 "
@@ -118,6 +121,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -130,6 +134,7 @@ headers
 .
 set
 (
+b
 "
 Timing
 -
@@ -137,6 +142,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "

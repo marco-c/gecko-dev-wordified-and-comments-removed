@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -21,6 +27,7 @@ headers
 .
 get
 (
+b
 "
 Test
 -
@@ -33,12 +40,16 @@ Injection
     
 message
 [
+u
 '
 test_header_injection
 '
 ]
 =
+isomorphic_decode
+(
 header
+)
 if
 header
 else
@@ -52,6 +63,7 @@ headers
 .
 get
 (
+b
 "
 Sec
 -
@@ -64,12 +76,52 @@ CSP
     
 message
 [
+u
 '
 required_csp
 '
 ]
 =
+isomorphic_decode
+(
 header
+)
+if
+header
+else
+None
+    
+header
+=
+request
+.
+headers
+.
+get
+(
+b
+"
+Sec
+-
+Required
+-
+CSP
+"
+)
+;
+    
+message
+[
+u
+'
+required_csp
+'
+]
+=
+isomorphic_decode
+(
+header
+)
 if
 header
 else
@@ -77,10 +129,12 @@ None
     
 second_level_iframe_code
 =
+u
 "
 "
     
 if
+b
 "
 include_second_level_iframe
 "
@@ -91,6 +145,7 @@ GET
 :
        
 if
+b
 "
 second_level_iframe_csp
 "
@@ -103,18 +158,21 @@ request
 .
 GET
 [
+b
 "
 second_level_iframe_csp
 "
 ]
 !
 =
+b
 "
 "
 :
          
 second_level_iframe_code
 =
+u
 '
 '
 '
@@ -181,14 +239,18 @@ script
 .
 format
 (
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 second_level_iframe_csp
 "
 ]
+)
 )
        
 else
@@ -196,6 +258,7 @@ else
          
 second_level_iframe_code
 =
+u
 '
 '
 '
@@ -252,11 +315,13 @@ script
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -264,6 +329,7 @@ html
 "
 )
 (
+b
 "
 Allow
 -
@@ -271,11 +337,13 @@ CSP
 -
 From
 "
+b
 "
 *
 "
 )
 ]
+u
 '
 '
 '

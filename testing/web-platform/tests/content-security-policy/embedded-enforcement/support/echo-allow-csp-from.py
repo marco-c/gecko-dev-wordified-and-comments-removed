@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -26,6 +28,7 @@ html
 ]
     
 if
+b
 "
 allow_csp_from
 "
@@ -40,6 +43,7 @@ headers
 append
 (
 (
+b
 "
 Allow
 -
@@ -51,6 +55,7 @@ request
 .
 GET
 [
+b
 "
 allow_csp_from
 "
@@ -64,6 +69,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -71,6 +77,7 @@ id
     
 return
 headers
+b
 '
 '
 '

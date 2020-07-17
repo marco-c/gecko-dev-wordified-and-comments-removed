@@ -14,20 +14,22 @@ GET
 .
 first
 (
+b
 "
 policy
 "
 )
-;
     
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -35,6 +37,7 @@ html
 "
 )
 (
+b
 "
 Content
 -
@@ -45,6 +48,7 @@ Policy
 policy
 )
 ]
+b
 "
 <
 !

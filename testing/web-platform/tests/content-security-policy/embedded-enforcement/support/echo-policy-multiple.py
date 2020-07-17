@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -24,6 +26,7 @@ html
 ]
     
 if
+b
 "
 policy
 "
@@ -38,6 +41,7 @@ headers
 append
 (
 (
+b
 "
 Content
 -
@@ -49,6 +53,7 @@ request
 .
 GET
 [
+b
 "
 policy
 "
@@ -57,6 +62,7 @@ policy
 )
     
 if
+b
 "
 policy2
 "
@@ -71,6 +77,7 @@ headers
 append
 (
 (
+b
 "
 Content
 -
@@ -82,6 +89,7 @@ request
 .
 GET
 [
+b
 "
 policy2
 "
@@ -90,6 +98,7 @@ policy2
 )
     
 if
+b
 "
 policy3
 "
@@ -104,6 +113,7 @@ headers
 append
 (
 (
+b
 "
 Content
 -
@@ -115,6 +125,7 @@ request
 .
 GET
 [
+b
 "
 policy3
 "
@@ -128,6 +139,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -135,6 +147,7 @@ id
     
 return
 headers
+b
 '
 '
 '

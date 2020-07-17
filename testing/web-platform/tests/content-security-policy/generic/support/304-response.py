@@ -13,6 +13,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -33,11 +34,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -46,6 +49,7 @@ html
 )
                    
 (
+b
 "
 Content
 -
@@ -53,6 +57,7 @@ Security
 -
 Policy
 "
+b
 "
 script
 -
@@ -75,11 +80,13 @@ RrDbVPhI14rKm3sFOeKPYulw
 )
                    
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -94,9 +101,11 @@ revalidate
 )
                    
 (
+b
 "
 ETag
 "
+b
 "
 123456
 "
@@ -105,6 +114,7 @@ ETag
         
 return
 headers
+u
 "
 "
     
@@ -115,11 +125,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -128,6 +140,7 @@ html
 )
                    
 (
+b
 "
 Content
 -
@@ -135,6 +148,7 @@ Security
 -
 Policy
 "
+b
 "
 script
 -
@@ -157,11 +171,13 @@ RrDbVPhI14rKm3sFOeKPYulw
 )
                    
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 private
 max
@@ -176,9 +192,11 @@ revalidate
 )
                    
 (
+b
 "
 Etag
 "
+b
 "
 123456
 "
@@ -187,6 +205,7 @@ Etag
         
 return
 headers
+u
 '
 '
 '

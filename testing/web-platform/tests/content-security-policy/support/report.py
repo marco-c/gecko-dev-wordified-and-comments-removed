@@ -4,6 +4,12 @@ import
 json
 import
 re
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 retrieve_from_stash
 (
@@ -86,11 +92,11 @@ GET
 .
 first
 (
+b
 "
 op
 "
 )
-;
   
 key
 =
@@ -100,6 +106,7 @@ GET
 .
 first
 (
+b
 "
 reportID
 "
@@ -111,6 +118,7 @@ re
 .
 sub
 (
+b
 '
 ^
 .
@@ -118,6 +126,7 @@ sub
 .
 .
 '
+b
 '
 cccc
 '
@@ -130,6 +139,7 @@ re
 .
 sub
 (
+b
 '
 ^
 .
@@ -137,6 +147,7 @@ sub
 .
 .
 '
+b
 '
 dddd
 '
@@ -154,6 +165,7 @@ GET
 .
 first
 (
+b
 "
 timeout
 "
@@ -179,6 +191,7 @@ if
 op
 =
 =
+b
 "
 retrieve_report
 "
@@ -187,11 +200,13 @@ retrieve_report
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -209,21 +224,27 @@ json
 dumps
 (
 {
+u
 '
 error
 '
 :
+u
 '
 No
 such
 report
 .
 '
+u
 '
 guid
 '
 :
+isomorphic_decode
+(
 key
+)
 }
 )
 )
@@ -232,6 +253,7 @@ if
 op
 =
 =
+b
 "
 retrieve_cookies
 "
@@ -240,11 +262,13 @@ retrieve_cookies
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -252,6 +276,7 @@ json
 "
 )
 ]
+u
 "
 {
 \
@@ -269,6 +294,7 @@ retrieve_from_stash
 request
 cookie_key
 timeout
+u
 "
 \
 "
@@ -279,6 +305,7 @@ None
 )
 )
 +
+u
 "
 }
 "
@@ -287,6 +314,7 @@ if
 op
 =
 =
+b
 "
 retrieve_count
 "
@@ -295,11 +323,13 @@ retrieve_count
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -312,6 +342,7 @@ json
 dumps
 (
 {
+u
 '
 report_count
 '
@@ -333,6 +364,7 @@ if
 hasattr
 (
 request
+u
 '
 cookies
 '
@@ -371,7 +403,7 @@ keys
       
 temp_cookies_dict
 [
-str
+isomorphic_decode
 (
 dict_key
 )
@@ -543,11 +575,13 @@ count
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -555,6 +589,7 @@ plain
 "
 )
 ]
+b
 "
 Recorded
 report

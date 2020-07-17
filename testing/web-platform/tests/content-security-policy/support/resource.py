@@ -16,6 +16,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -25,6 +26,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -33,6 +35,7 @@ Origin
     
 return
 headers
+b
 "
 {
 \
