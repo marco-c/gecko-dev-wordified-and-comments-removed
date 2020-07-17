@@ -2036,6 +2036,7 @@ nsINode
 *
 aNode
 )
+const
 ;
 enum
 class
