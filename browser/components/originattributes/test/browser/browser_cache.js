@@ -179,6 +179,11 @@ sharedworker
 .
 js
 "
+"
+font
+.
+woff
+"
 ]
 ;
 let

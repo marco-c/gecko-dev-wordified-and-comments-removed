@@ -226,7 +226,7 @@ GetPrincipal
 )
 -
 >
-get
+NodePrincipal
 (
 )
 :
