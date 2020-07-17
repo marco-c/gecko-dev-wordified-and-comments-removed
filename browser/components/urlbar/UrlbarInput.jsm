@@ -577,7 +577,7 @@ UrlbarPrefs
 get
 (
 "
-update2
+experimental
 .
 searchButton
 "
