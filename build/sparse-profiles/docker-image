@@ -169,6 +169,17 @@ tools
 /
 lint
 /
+python
+/
+black_requirements
+.
+txt
+path
+:
+tools
+/
+lint
+/
 tox
 /
 tox_requirements
