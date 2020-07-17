@@ -189,8 +189,8 @@ here
 }
 {
 }
-[
-]
+{
+}
 graph_config
 write_artifacts
 =
