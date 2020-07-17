@@ -5416,6 +5416,10 @@ nsIEditor
 :
 EDirection
 aDirectionAndAmount
+const
+EditorDOMPoint
+&
+aPointToDelete
 WSRunObject
 &
 aWSRunObjectAtCaret
