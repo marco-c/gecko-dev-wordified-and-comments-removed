@@ -745,6 +745,13 @@ PREFS_INITIAL_VALUES
 data
 :
 values
+meta
+:
+{
+isStartup
+:
+true
+}
 }
 )
 )

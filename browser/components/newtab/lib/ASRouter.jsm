@@ -4707,6 +4707,13 @@ data
 ASRouterPreferences
 .
 specialConditions
+meta
+:
+{
+isStartup
+:
+true
+}
 }
 )
 )

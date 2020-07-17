@@ -1382,6 +1382,9 @@ id
 enableSection
 (
 id
+isStartup
+=
+false
 )
 {
 this
@@ -1395,6 +1398,7 @@ enabled
 true
 }
 true
+isStartup
 )
 ;
 this
@@ -1476,6 +1480,9 @@ updateSection
 id
 options
 shouldBroadcast
+isStartup
+=
+false
 )
 {
 this
@@ -1550,6 +1557,7 @@ UPDATE_SECTION
 id
 optionsWithDedupe
 shouldBroadcast
+isStartup
 )
 ;
 }
@@ -1877,6 +1885,9 @@ id
 url
 options
 shouldBroadcast
+isStartup
+=
+false
 )
 {
 if
@@ -1944,6 +1955,7 @@ id
 url
 options
 shouldBroadcast
+isStartup
 )
 ;
 }
@@ -2281,6 +2293,7 @@ SectionsManager
 ADD_SECTION
 id
 section
+true
 )
 )
 ;
@@ -2358,6 +2371,9 @@ onAddSection
 event
 id
 options
+isStartup
+=
+false
 )
 {
 if
@@ -2392,6 +2408,11 @@ id
 }
 options
 )
+meta
+:
+{
+isStartup
+}
 }
 )
 )
@@ -2485,6 +2506,9 @@ options
 shouldBroadcast
 =
 false
+isStartup
+=
+false
 )
 {
 if
@@ -2512,6 +2536,11 @@ options
 id
 }
 )
+meta
+:
+{
+isStartup
+}
 }
 ;
 this
@@ -2548,6 +2577,9 @@ options
 shouldBroadcast
 =
 false
+isStartup
+=
+false
 )
 {
 if
@@ -2570,6 +2602,11 @@ data
 id
 url
 options
+}
+meta
+:
+{
+isStartup
 }
 }
 ;
