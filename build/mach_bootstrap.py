@@ -1934,35 +1934,21 @@ getpid
             
 return
         
-if
-os
+from
+mozbuild
 .
-environ
-.
-get
-(
-'
-DISABLE_TELEMETRY
-'
-)
-=
-=
-'
-1
-'
-:
-            
-return
+telemetry
+import
+is_telemetry_enabled
         
 if
 not
+is_telemetry_enabled
+(
 context
 .
 settings
-.
-build
-.
-telemetry
+)
 :
             
 return
