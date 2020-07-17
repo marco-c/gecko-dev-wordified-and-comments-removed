@@ -135,6 +135,14 @@ NS_tchar
 fullPath
 )
 ;
+bool
+IsProgramFilesPath
+(
+NS_tchar
+*
+fullPath
+)
+;
 #
 define
 LOG_WARN
