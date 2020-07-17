@@ -22,9 +22,6 @@ SVGTransformableElement
 .
 h
 "
-class
-nsSVGClipPathFrame
-;
 nsresult
 NS_NewSVGClipPathElement
 (
@@ -50,6 +47,9 @@ aNodeInfo
 namespace
 mozilla
 {
+class
+SVGClipPathFrame
+;
 namespace
 dom
 {
@@ -66,9 +66,10 @@ SVGClipPathElementBase
 {
 friend
 class
+mozilla
 :
 :
-nsSVGClipPathFrame
+SVGClipPathFrame
 ;
 protected
 :

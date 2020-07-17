@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGGradientFrame
+SVGGradientFrame
 .
 h
 "
@@ -30,6 +30,15 @@ include
 mozilla
 /
 PresShell
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGObserverUtils
 .
 h
 "
@@ -87,21 +96,10 @@ h
 #
 include
 "
-SVGObserverUtils
-.
-h
-"
-#
-include
-"
 SVGAnimatedTransformList
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -136,10 +134,13 @@ mozilla
 :
 gfx
 ;
-nsSVGGradientFrame
+namespace
+mozilla
+{
+SVGGradientFrame
 :
 :
-nsSVGGradientFrame
+SVGGradientFrame
 (
 ComputedStyle
 *
@@ -151,7 +152,7 @@ ClassID
 aID
 )
 :
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 (
 aStyle
 aPresContext
@@ -172,7 +173,7 @@ false
 {
 }
 nsresult
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 AttributeChanged
@@ -280,7 +281,7 @@ this
 ;
 }
 return
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 :
 :
 AttributeChanged
@@ -292,7 +293,7 @@ aModType
 ;
 }
 uint16_t
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetEnumValue
@@ -402,7 +403,7 @@ GetAnimValue
 )
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
 next
 =
@@ -446,7 +447,7 @@ GetAnimValue
 ;
 }
 uint16_t
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetGradientUnits
@@ -467,7 +468,7 @@ GRADIENTUNITS
 ;
 }
 uint16_t
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetSpreadMethod
@@ -490,7 +491,7 @@ SPREADMETHOD
 const
 SVGAnimatedTransformList
 *
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetGradientTransformList
@@ -592,7 +593,7 @@ get
 )
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
 next
 =
@@ -633,7 +634,7 @@ get
 ;
 }
 gfxMatrix
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetGradientTransform
@@ -782,7 +783,7 @@ dom
 :
 SVGLinearGradientElement
 *
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetLinearGradientWithLength
@@ -833,7 +834,7 @@ return
 aDefault
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
 next
 =
@@ -861,7 +862,7 @@ dom
 :
 SVGRadialGradientElement
 *
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetRadialGradientWithLength
@@ -912,7 +913,7 @@ return
 aDefault
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
 next
 =
@@ -1053,7 +1054,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetPaintServerPattern
@@ -1547,9 +1548,9 @@ forget
 )
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetReferencedGradient
@@ -1730,7 +1731,7 @@ SVGRadialGradient
 return
 static_cast
 <
-nsSVGGradientFrame
+SVGGradientFrame
 *
 >
 (
@@ -1744,7 +1745,7 @@ nullptr
 ;
 }
 void
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetStopFrames
@@ -1856,7 +1857,7 @@ Reference
 return
 ;
 }
-nsSVGGradientFrame
+SVGGradientFrame
 *
 next
 =
@@ -1883,7 +1884,7 @@ aStopFrames
 ifdef
 DEBUG
 void
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 Init
@@ -1921,7 +1922,7 @@ linearGradient
 "
 )
 ;
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 Init
@@ -1935,7 +1936,7 @@ aPrevInFlow
 #
 endif
 nsresult
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 AttributeChanged
@@ -2005,7 +2006,7 @@ this
 ;
 }
 return
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 AttributeChanged
@@ -2017,7 +2018,7 @@ aModType
 ;
 }
 float
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 GetLengthValue
@@ -2138,7 +2139,7 @@ dom
 :
 SVGLinearGradientElement
 *
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 GetLinearGradientWithLength
@@ -2201,7 +2202,7 @@ thisElement
 ;
 }
 return
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetLinearGradientWithLength
@@ -2212,7 +2213,7 @@ aDefault
 ;
 }
 bool
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 GradientVectorLengthIsZero
@@ -2272,7 +2273,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGLinearGradientFrame
+SVGLinearGradientFrame
 :
 :
 CreateGradient
@@ -2364,7 +2365,7 @@ forget
 ifdef
 DEBUG
 void
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 Init
@@ -2402,7 +2403,7 @@ radialGradient
 "
 )
 ;
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 Init
@@ -2416,7 +2417,7 @@ aPrevInFlow
 #
 endif
 nsresult
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 AttributeChanged
@@ -2495,7 +2496,7 @@ this
 ;
 }
 return
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 AttributeChanged
@@ -2507,7 +2508,7 @@ aModType
 ;
 }
 float
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 GetLengthValue
@@ -2564,7 +2565,7 @@ lengthElement
 ;
 }
 float
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 GetLengthValue
@@ -2602,7 +2603,7 @@ aDefaultValue
 ;
 }
 float
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 GetLengthValueFromElement
@@ -2690,7 +2691,7 @@ dom
 :
 SVGRadialGradientElement
 *
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 GetRadialGradientWithLength
@@ -2753,7 +2754,7 @@ thisElement
 ;
 }
 return
-nsSVGGradientFrame
+SVGGradientFrame
 :
 :
 GetRadialGradientWithLength
@@ -2764,7 +2765,7 @@ aDefault
 ;
 }
 bool
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 GradientVectorLengthIsZero
@@ -2791,7 +2792,7 @@ already_AddRefed
 <
 gfxPattern
 >
-nsSVGRadialGradientFrame
+SVGRadialGradientFrame
 :
 :
 CreateGradient
@@ -2911,6 +2912,7 @@ forget
 )
 ;
 }
+}
 nsIFrame
 *
 NS_NewSVGLinearGradientFrame
@@ -2921,6 +2923,9 @@ mozilla
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -2931,7 +2936,10 @@ new
 (
 aPresShell
 )
-nsSVGLinearGradientFrame
+mozilla
+:
+:
+SVGLinearGradientFrame
 (
 aStyle
 aPresShell
@@ -2943,10 +2951,6 @@ GetPresContext
 )
 ;
 }
-NS_IMPL_FRAMEARENA_HELPERS
-(
-nsSVGLinearGradientFrame
-)
 nsIFrame
 *
 NS_NewSVGRadialGradientFrame
@@ -2957,6 +2961,9 @@ mozilla
 PresShell
 *
 aPresShell
+mozilla
+:
+:
 ComputedStyle
 *
 aStyle
@@ -2967,7 +2974,10 @@ new
 (
 aPresShell
 )
-nsSVGRadialGradientFrame
+mozilla
+:
+:
+SVGRadialGradientFrame
 (
 aStyle
 aPresShell
@@ -2979,7 +2989,15 @@ GetPresContext
 )
 ;
 }
+namespace
+mozilla
+{
 NS_IMPL_FRAMEARENA_HELPERS
 (
-nsSVGRadialGradientFrame
+SVGLinearGradientFrame
 )
+NS_IMPL_FRAMEARENA_HELPERS
+(
+SVGRadialGradientFrame
+)
+}

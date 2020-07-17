@@ -106,12 +106,12 @@ h
 class
 gfxContext
 ;
-class
-nsSVGPaintServerFrame
-;
 namespace
 mozilla
 {
+class
+SVGPaintServerFrame
+;
 namespace
 dom
 {
@@ -653,7 +653,7 @@ const
 gfxMatrix
 &
 aContextMatrix
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 *
 aPaintServerFrame
 )
@@ -746,7 +746,7 @@ aContextPaint
 }
 union
 {
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 *
 mPaintServerFrame
 ;

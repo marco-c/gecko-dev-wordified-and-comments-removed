@@ -64,14 +64,16 @@ h
 #
 include
 "
-nsSVGPaintServerFrame
+mozilla
+/
+SVGObserverUtils
 .
 h
 "
 #
 include
 "
-SVGObserverUtils
+SVGPaintServerFrame
 .
 h
 "
@@ -299,7 +301,7 @@ StyleSVG
 (
 )
 ;
-nsSVGPaintServerFrame
+SVGPaintServerFrame
 *
 ps
 =
