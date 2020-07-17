@@ -275,6 +275,12 @@ IsCurrentThread
 )
 const
 {
+JS
+:
+:
+AutoSuppressGCAnalysis
+suppress
+;
 return
 mTarget
 -
