@@ -2611,6 +2611,15 @@ ParseNodeKind
 :
 Name
 )
+|
+|
+isKind
+(
+ParseNodeKind
+:
+:
+PrivateName
+)
 )
 ;
 return

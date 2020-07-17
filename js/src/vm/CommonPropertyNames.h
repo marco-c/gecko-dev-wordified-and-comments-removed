@@ -2560,6 +2560,15 @@ new
 \
 MACRO
 (
+NewPrivateName
+NewPrivateName
+"
+NewPrivateName
+"
+)
+\
+MACRO
+(
 next
 next
 "
