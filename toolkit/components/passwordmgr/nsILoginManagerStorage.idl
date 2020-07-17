@@ -803,13 +803,6 @@ empty
 .
 *
 *
-deprecated
-Use
-getAllLoginsAsync
-instead
-.
-*
-*
 return
 An
 array
@@ -996,7 +989,6 @@ is
 empty
 .
 *
-*
 deprecated
 New
 code
@@ -1097,13 +1089,6 @@ form
 or
 authentication
 request
-.
-*
-*
-deprecated
-Use
-searchLoginsAsync
-instead
 .
 *
 *
