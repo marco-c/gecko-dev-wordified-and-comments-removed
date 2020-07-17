@@ -53,14 +53,15 @@ SVGMotionSMILType
 public
 SMILType
 {
-typedef
+using
+Path
+=
 mozilla
 :
 :
 gfx
 :
 :
-Path
 Path
 ;
 public

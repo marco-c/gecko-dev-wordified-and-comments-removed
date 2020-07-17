@@ -39,9 +39,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFEUnstyledElement
+using
 SVGFEMergeNodeElementBase
+=
+SVGFEUnstyledElement
 ;
 class
 SVGFEMergeNodeElement

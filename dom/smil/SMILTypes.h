@@ -14,9 +14,10 @@ h
 namespace
 mozilla
 {
-typedef
-int64_t
+using
 SMILTime
+=
+int64_t
 ;
 }
 #

@@ -61,9 +61,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGAnimationElementBase
+=
+SVGElement
 ;
 class
 SVGAnimationElement

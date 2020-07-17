@@ -53,9 +53,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFECompositeElementBase
+=
+SVGFE
 ;
 class
 SVGFECompositeElement

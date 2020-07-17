@@ -196,14 +196,12 @@ SVGAnimatedViewBox
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+SVGElement
+=
 dom
 :
 :
-SVGElement
 SVGElement
 ;
 void
@@ -346,9 +344,6 @@ const
 ;
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -389,9 +384,6 @@ SVGElement
 aSVGElement
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr
@@ -464,9 +456,6 @@ nsAString
 &
 aStr
 const
-mozilla
-:
-:
 dom
 :
 :
@@ -515,9 +504,6 @@ static
 SVGAttrTearoffTable
 <
 SVGAnimatedViewBox
-mozilla
-:
-:
 dom
 :
 :

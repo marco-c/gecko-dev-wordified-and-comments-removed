@@ -60,9 +60,10 @@ SVGMaskFrame
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGMaskElementBase
+=
+SVGElement
 ;
 class
 SVGMaskElement

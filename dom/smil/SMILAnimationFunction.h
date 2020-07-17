@@ -392,12 +392,13 @@ aElem2
 ;
 protected
 :
-typedef
+using
+SMILValueArray
+=
 FallibleTArray
 <
 SMILValue
 >
-SMILValueArray
 ;
 enum
 SMILCalcMode

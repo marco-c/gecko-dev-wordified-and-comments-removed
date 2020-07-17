@@ -44,9 +44,10 @@ DOMSVGAnimatedLengthList
 class
 DOMSVGAnimatedNumberList
 ;
-typedef
-SVGTextContentElement
+using
 SVGTextPositioningElementBase
+=
+SVGTextContentElement
 ;
 class
 SVGTextPositioningElement

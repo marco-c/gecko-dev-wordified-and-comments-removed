@@ -79,14 +79,15 @@ final
 public
 SMILAnimationFunction
 {
-typedef
+using
+Path
+=
 mozilla
 :
 :
 gfx
 :
 :
-Path
 Path
 ;
 public

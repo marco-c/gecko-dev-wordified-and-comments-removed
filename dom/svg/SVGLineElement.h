@@ -46,9 +46,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGGeometryElement
+using
 SVGLineElementBase
+=
+SVGGeometryElement
 ;
 class
 SVGLineElement

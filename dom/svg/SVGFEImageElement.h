@@ -49,9 +49,10 @@ SVGFEImageFrame
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEImageElementBase
+=
+SVGFE
 ;
 class
 SVGFEImageElement

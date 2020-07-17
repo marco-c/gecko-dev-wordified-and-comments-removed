@@ -129,11 +129,12 @@ SVGGradientFrame
 public
 SVGPaintServerFrame
 {
-typedef
+using
+ExtendMode
+=
 gfx
 :
 :
-ExtendMode
 ExtendMode
 ;
 protected

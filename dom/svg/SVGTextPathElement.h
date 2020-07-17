@@ -91,9 +91,10 @@ TEXTPATH_SIDETYPE_RIGHT
 =
 2
 ;
-typedef
-SVGTextContentElement
+using
 SVGTextPathElementBase
+=
+SVGTextContentElement
 ;
 class
 SVGTextPathElement

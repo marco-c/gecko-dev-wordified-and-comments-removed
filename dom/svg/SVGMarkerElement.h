@@ -134,9 +134,10 @@ SVG_MARKER_ORIENT_AUTO_START_REVERSE
 =
 3
 ;
-typedef
-SVGElement
+using
 SVGMarkerElementBase
+=
+SVGElement
 ;
 class
 SVGMarkerElement

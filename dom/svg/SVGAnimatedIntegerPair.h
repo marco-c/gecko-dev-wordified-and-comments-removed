@@ -73,14 +73,12 @@ SVGAnimatedIntegerPair
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+SVGElement
+=
 dom
 :
 :
-SVGElement
 SVGElement
 ;
 enum
@@ -262,9 +260,6 @@ mIsBaseSet
 }
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -279,9 +274,6 @@ SVGElement
 aSVGElement
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr
@@ -323,9 +315,6 @@ DOMAnimatedInteger
 final
 :
 public
-mozilla
-:
-:
 dom
 :
 :
@@ -342,9 +331,6 @@ SVGElement
 *
 aSVGElement
 )
-:
-mozilla
-:
 :
 dom
 :
@@ -484,9 +470,6 @@ nsAString
 &
 aStr
 const
-mozilla
-:
-:
 dom
 :
 :

@@ -46,9 +46,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFELightElement
+using
 SVGFESpotLightElementBase
+=
+SVGFELightElement
 ;
 class
 SVGFESpotLightElement

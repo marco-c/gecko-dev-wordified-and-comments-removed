@@ -44,14 +44,15 @@ mozilla
 class
 SVGPoint
 {
-typedef
+using
+Point
+=
 mozilla
 :
 :
 gfx
 :
 :
-Point
 Point
 ;
 public

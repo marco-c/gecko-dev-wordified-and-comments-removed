@@ -74,14 +74,12 @@ SVGAnimatedBoolean
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+SVGElement
+=
 dom
 :
 :
-SVGElement
 SVGElement
 ;
 void
@@ -173,9 +171,6 @@ mAnimVal
 }
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :

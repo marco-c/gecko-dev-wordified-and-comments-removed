@@ -100,9 +100,10 @@ dom
 class
 DOMSVGAnimatedTransformList
 ;
-typedef
-SVGElement
+using
 SVGPatternElementBase
+=
+SVGElement
 ;
 class
 SVGPatternElement

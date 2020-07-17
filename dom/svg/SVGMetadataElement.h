@@ -48,9 +48,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGMetadataElementBase
+=
+SVGElement
 ;
 class
 SVGMetadataElement

@@ -53,9 +53,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEGaussianBlurElementBase
+=
+SVGFE
 ;
 class
 SVGFEGaussianBlurElement

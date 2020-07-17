@@ -78,9 +78,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGElement
+using
 SVGScriptElementBase
+=
+SVGElement
 ;
 class
 SVGScriptElement

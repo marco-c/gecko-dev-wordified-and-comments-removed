@@ -39,9 +39,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGPolyElement
+using
 SVGPolylineElementBase
+=
+SVGPolyElement
 ;
 class
 SVGPolylineElement

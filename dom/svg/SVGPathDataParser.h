@@ -214,14 +214,15 @@ mPathSegList
 class
 SVGArcConverter
 {
-typedef
+using
+Point
+=
 mozilla
 :
 :
 gfx
 :
 :
-Point
 Point
 ;
 public

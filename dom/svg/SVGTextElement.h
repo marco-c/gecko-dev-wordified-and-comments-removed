@@ -43,9 +43,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGTextPositioningElement
+using
 SVGTextElementBase
+=
+SVGTextPositioningElement
 ;
 class
 SVGTextElement

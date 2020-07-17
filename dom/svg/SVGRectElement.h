@@ -56,9 +56,10 @@ ComputedStyle
 namespace
 dom
 {
-typedef
-SVGGeometryElement
+using
 SVGRectElementBase
+=
+SVGGeometryElement
 ;
 class
 SVGRectElement

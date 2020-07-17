@@ -72,14 +72,12 @@ SVGAnimatedClass
 {
 public
 :
-typedef
-mozilla
-:
-:
+using
+SVGElement
+=
 dom
 :
 :
-SVGElement
 SVGElement
 ;
 void
@@ -158,9 +156,6 @@ mAnimVal
 }
 already_AddRefed
 <
-mozilla
-:
-:
 dom
 :
 :
@@ -173,9 +168,6 @@ SVGElement
 aSVGElement
 )
 ;
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr
@@ -242,9 +234,6 @@ nsAString
 &
 aStr
 const
-mozilla
-:
-:
 dom
 :
 :

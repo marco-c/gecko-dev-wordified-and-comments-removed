@@ -73,9 +73,10 @@ dom
 class
 DOMSVGAnimatedPreserveAspectRatio
 ;
-typedef
-SVGGeometryElement
+using
 SVGImageElementBase
+=
+SVGGeometryElement
 ;
 class
 SVGImageElement

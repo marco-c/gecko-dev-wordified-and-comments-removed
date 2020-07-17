@@ -73,9 +73,10 @@ dom
 class
 DOMSVGAnimatedLength
 ;
-typedef
-SVGElement
+using
 SVGFilterElementBase
+=
+SVGElement
 ;
 class
 SVGFilterElement

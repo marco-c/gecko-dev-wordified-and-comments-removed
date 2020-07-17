@@ -101,9 +101,10 @@ DOMSVGAnimatedNumberList
 class
 DOMSVGAnimatedBoolean
 ;
-typedef
-SVGFE
+using
 SVGFEConvolveMatrixElementBase
+=
+SVGFE
 ;
 class
 SVGFEConvolveMatrixElement

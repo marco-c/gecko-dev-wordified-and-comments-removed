@@ -100,11 +100,12 @@ dom
 :
 DOMSVGStringList
 ;
-typedef
+using
+SVGStringList
+=
 mozilla
 :
 :
-SVGStringList
 SVGStringList
 ;
 int32_t

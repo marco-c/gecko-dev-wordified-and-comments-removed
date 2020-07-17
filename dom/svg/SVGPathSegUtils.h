@@ -82,11 +82,12 @@ NS_SVG_PATH_SEG_LAST_VALID_TYPE
 struct
 SVGPathTraversalState
 {
-typedef
+using
+Point
+=
 gfx
 :
 :
-Point
 Point
 ;
 enum

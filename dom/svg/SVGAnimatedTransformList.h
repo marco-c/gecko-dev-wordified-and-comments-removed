@@ -240,9 +240,6 @@ return
 mCreatedOrRemovedOnLastChange
 ;
 }
-mozilla
-:
-:
 UniquePtr
 <
 SMILAttr

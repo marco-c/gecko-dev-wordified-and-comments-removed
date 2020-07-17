@@ -39,9 +39,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEFloodElementBase
+=
+SVGFE
 ;
 class
 SVGFEFloodElement

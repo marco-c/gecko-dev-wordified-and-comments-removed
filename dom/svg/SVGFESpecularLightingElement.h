@@ -39,9 +39,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFELightingElement
+using
 SVGFESpecularLightingElementBase
+=
+SVGFELightingElement
 ;
 class
 SVGFESpecularLightingElement

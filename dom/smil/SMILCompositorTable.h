@@ -17,12 +17,13 @@ mozilla
 class
 SMILCompositor
 ;
-typedef
+using
+SMILCompositorTable
+=
 nsTHashtable
 <
 SMILCompositor
 >
-SMILCompositorTable
 ;
 }
 #

@@ -46,9 +46,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEDisplacementMapElementBase
+=
+SVGFE
 ;
 class
 SVGFEDisplacementMapElement

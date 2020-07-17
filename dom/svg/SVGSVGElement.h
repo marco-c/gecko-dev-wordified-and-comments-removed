@@ -279,9 +279,10 @@ default
 ;
 }
 ;
-typedef
-SVGViewportElement
+using
 SVGSVGElementBase
+=
+SVGViewportElement
 ;
 class
 SVGSVGElement

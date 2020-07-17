@@ -56,9 +56,10 @@ dom
 class
 DOMSVGAnimatedNumberList
 ;
-typedef
-SVGFE
+using
 SVGFEColorMatrixElementBase
+=
+SVGFE
 ;
 class
 SVGFEColorMatrixElement

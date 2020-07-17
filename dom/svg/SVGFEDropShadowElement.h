@@ -60,9 +60,10 @@ mozilla
 namespace
 dom
 {
-typedef
-SVGFE
+using
 SVGFEDropShadowElementBase
+=
+SVGFE
 ;
 class
 SVGFEDropShadowElement
