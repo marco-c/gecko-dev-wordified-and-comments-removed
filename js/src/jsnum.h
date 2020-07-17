@@ -921,7 +921,7 @@ false
 extern
 MOZ_MUST_USE
 bool
-num_toString
+ThisNumberValueForToLocaleString
 (
 JSContext
 *

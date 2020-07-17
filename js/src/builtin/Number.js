@@ -19,7 +19,7 @@ x
 =
 callFunction
 (
-std_Number_valueOf
+ThisNumberValueForToLocaleString
 this
 )
 ;
