@@ -183,6 +183,8 @@ NS_DECL_NSIXPCTESTPARAMS
 nsXPCTestParams
 (
 )
+=
+default
 ;
 private
 :
@@ -190,6 +192,8 @@ private
 nsXPCTestParams
 (
 )
+=
+default
 ;
 }
 ;
@@ -207,6 +211,8 @@ NS_DECL_NSIXPCTESTRETURNCODEPARENT
 nsXPCTestReturnCodeParent
 (
 )
+=
+default
 ;
 private
 :
@@ -214,6 +220,8 @@ private
 nsXPCTestReturnCodeParent
 (
 )
+=
+default
 ;
 }
 ;
