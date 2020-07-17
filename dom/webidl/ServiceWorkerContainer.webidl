@@ -193,6 +193,7 @@ ready
 ;
 [
 NewObject
+NeedsCallerType
 ]
 Promise
 <
