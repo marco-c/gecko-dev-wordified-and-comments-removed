@@ -429,9 +429,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true
@@ -642,9 +639,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

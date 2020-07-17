@@ -261,11 +261,6 @@ element
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 async

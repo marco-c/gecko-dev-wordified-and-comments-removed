@@ -155,10 +155,5 @@ disabled
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

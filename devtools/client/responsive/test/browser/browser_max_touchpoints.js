@@ -168,10 +168,5 @@ false
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

@@ -565,10 +565,5 @@ primary
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

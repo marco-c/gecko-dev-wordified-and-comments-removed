@@ -324,11 +324,6 @@ closed
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 add_task

@@ -135,10 +135,5 @@ matches
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

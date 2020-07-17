@@ -276,10 +276,5 @@ closeToolbox
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

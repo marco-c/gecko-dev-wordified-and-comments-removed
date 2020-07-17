@@ -344,10 +344,5 @@ match
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

@@ -728,9 +728,6 @@ tab
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

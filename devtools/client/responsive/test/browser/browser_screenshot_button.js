@@ -319,10 +319,5 @@ filePath
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

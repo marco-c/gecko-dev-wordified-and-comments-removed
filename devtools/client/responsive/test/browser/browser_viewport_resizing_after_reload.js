@@ -429,10 +429,5 @@ b
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

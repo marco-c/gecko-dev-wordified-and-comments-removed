@@ -190,9 +190,6 @@ tab
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true
@@ -315,9 +312,6 @@ tab
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

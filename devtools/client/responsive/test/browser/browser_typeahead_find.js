@@ -299,10 +299,5 @@ blur
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

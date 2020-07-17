@@ -180,9 +180,6 @@ false
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

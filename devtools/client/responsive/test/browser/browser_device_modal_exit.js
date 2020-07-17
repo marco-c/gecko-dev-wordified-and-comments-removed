@@ -258,9 +258,6 @@ list
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

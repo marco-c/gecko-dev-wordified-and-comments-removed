@@ -287,10 +287,5 @@ be
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

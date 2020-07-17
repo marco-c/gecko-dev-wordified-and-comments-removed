@@ -187,9 +187,6 @@ i
 }
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

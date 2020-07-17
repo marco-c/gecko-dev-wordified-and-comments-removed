@@ -123,11 +123,6 @@ false
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 async

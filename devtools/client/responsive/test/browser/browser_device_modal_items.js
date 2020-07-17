@@ -359,9 +359,6 @@ element
 }
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

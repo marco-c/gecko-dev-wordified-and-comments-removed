@@ -139,10 +139,5 @@ newTab
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

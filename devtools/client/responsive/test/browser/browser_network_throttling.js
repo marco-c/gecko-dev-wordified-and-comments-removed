@@ -119,11 +119,6 @@ null
 )
 ;
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 function

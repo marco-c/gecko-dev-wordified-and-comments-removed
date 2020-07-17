@@ -177,9 +177,6 @@ newWindow
 ;
 }
 {
-usingBrowserUI
-:
-true
 onlyPrefAndTask
 :
 true

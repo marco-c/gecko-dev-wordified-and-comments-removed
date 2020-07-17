@@ -697,10 +697,5 @@ reload
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;

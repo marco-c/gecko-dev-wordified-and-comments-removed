@@ -225,11 +225,6 @@ empty
 ;
 }
 null
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
 function

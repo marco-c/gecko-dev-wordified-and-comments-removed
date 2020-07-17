@@ -130,9 +130,6 @@ newTab
 ;
 }
 {
-usingBrowserUI
-:
-true
 waitForDeviceList
 :
 true

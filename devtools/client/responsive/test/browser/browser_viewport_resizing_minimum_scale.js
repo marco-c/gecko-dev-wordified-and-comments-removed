@@ -307,10 +307,5 @@ height
 ;
 }
 }
-{
-usingBrowserUI
-:
-true
-}
 )
 ;
