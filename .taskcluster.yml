@@ -1041,12 +1041,6 @@ push
 .
 revision
 }
-.
-{
-push
-.
-pushlog_id
-}
 "
 -
 if
