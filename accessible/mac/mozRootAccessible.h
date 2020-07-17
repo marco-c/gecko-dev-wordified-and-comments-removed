@@ -74,7 +74,7 @@ moxMinimized
 (
 id
 )
-moxParent
+moxUnignoredParent
 ;
 #
 pragma

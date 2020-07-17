@@ -120,7 +120,7 @@ mozSelectableAccessible
 (
 BOOL
 )
-ignoreChild
+moxIgnoreChild
 :
 (
 mozAccessible
