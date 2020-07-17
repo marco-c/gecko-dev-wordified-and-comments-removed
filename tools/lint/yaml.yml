@@ -15,6 +15,11 @@ cron
 .
 yml
 -
+.
+taskcluster
+.
+yml
+-
 browser
 /
 config

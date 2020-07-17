@@ -1,4 +1,12 @@
 #
+yamllint
+disable
+rule
+:
+line
+-
+length
+#
 This
 file
 is
@@ -424,6 +432,9 @@ this
 hook
 #
 }
+-
+-
+-
 version
 :
 1
