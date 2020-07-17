@@ -937,9 +937,7 @@ mChildID
 )
 mRemoteType
 (
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 )
 mDepthTooGreat
 (

@@ -366,9 +366,7 @@ NS_ERROR_UNEXPECTED
 nsCString
 remoteType
 =
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 if
 (
