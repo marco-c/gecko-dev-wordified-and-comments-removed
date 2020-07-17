@@ -133,7 +133,7 @@ org
 /
 partitioning
 /
-skip
+exception
 -
 list
 -
@@ -147,7 +147,7 @@ getService
 (
 Ci
 .
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 )
 ;
 Services
@@ -276,7 +276,7 @@ event
 ;
 peuService
 .
-registerAndRunSkipListObserver
+registerAndRunExceptionListObserver
 (
 obs
 )
@@ -708,7 +708,7 @@ list
 ;
 peuService
 .
-unregisterSkipListObserver
+unregisterExceptionListObserver
 (
 obs
 )

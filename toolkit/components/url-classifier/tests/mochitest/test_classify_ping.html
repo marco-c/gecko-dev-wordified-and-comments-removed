@@ -254,7 +254,7 @@ RETRY_TIMEOUT_MS
 ;
 async
 function
-testPingNonBlacklist
+testPingNonBlocklist
 (
 )
 {
@@ -335,7 +335,7 @@ RETRY_TIMEOUT_MS
 }
 async
 function
-testPingBlacklistSafebrowsingOff
+testPingBlocklistSafebrowsingOff
 (
 )
 {
@@ -420,7 +420,7 @@ RETRY_TIMEOUT_MS
 }
 async
 function
-testPingBlacklistSafebrowsingOn
+testPingBlocklistSafebrowsingOn
 (
 )
 {
@@ -774,17 +774,17 @@ waitForInit
 .
 then
 (
-testPingNonBlacklist
+testPingNonBlocklist
 )
 .
 then
 (
-testPingBlacklistSafebrowsingOff
+testPingBlocklistSafebrowsingOff
 )
 .
 then
 (
-testPingBlacklistSafebrowsingOn
+testPingBlocklistSafebrowsingOn
 )
 .
 then

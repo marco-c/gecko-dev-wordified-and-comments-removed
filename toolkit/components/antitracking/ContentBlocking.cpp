@@ -4489,7 +4489,7 @@ LOG
 This
 window
 is
-whitelisted
+exceptionlisted
 for
 reject
 foreign
@@ -5620,7 +5620,7 @@ LOG
 This
 channel
 is
-whitelisted
+exceptionlisted
 "
 )
 )

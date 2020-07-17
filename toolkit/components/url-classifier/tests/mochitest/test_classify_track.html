@@ -345,7 +345,7 @@ url
 is
 not
 in
-blacklist
+blocklist
 "
 )
 ;
@@ -430,7 +430,7 @@ onerror
 ;
 }
 function
-testBlacklistTrackSafebrowsingOff
+testBlocklistTrackSafebrowsingOff
 (
 )
 {
@@ -504,7 +504,7 @@ when
 url
 is
 in
-blacklist
+blocklist
 and
 safebrowsing
 is
@@ -593,7 +593,7 @@ onerror
 ;
 }
 function
-testBlacklistTrackSafebrowsingOn
+testBlocklistTrackSafebrowsingOn
 (
 )
 {
@@ -690,7 +690,7 @@ while
 loading
 track
 in
-blacklist
+blocklist
 "
 )
 ;
@@ -717,7 +717,7 @@ when
 url
 is
 in
-blacklist
+blocklist
 and
 safebrowsing
 is
@@ -907,12 +907,12 @@ testValidTrack
 .
 then
 (
-testBlacklistTrackSafebrowsingOff
+testBlocklistTrackSafebrowsingOff
 )
 .
 then
 (
-testBlacklistTrackSafebrowsingOn
+testBlocklistTrackSafebrowsingOn
 )
 .
 then

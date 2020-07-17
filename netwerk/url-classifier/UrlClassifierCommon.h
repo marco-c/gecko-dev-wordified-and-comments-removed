@@ -196,7 +196,7 @@ aFullHashes
 ;
 static
 nsresult
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 (
 nsIChannel
 *

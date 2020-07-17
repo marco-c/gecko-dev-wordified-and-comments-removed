@@ -727,7 +727,7 @@ aFragments
 ;
 static
 nsresult
-GetLookupWhitelistFragments
+GetLookupEntitylistFragments
 (
 const
 nsACString

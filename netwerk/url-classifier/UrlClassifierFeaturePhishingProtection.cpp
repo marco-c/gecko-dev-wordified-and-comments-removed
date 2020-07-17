@@ -25,7 +25,7 @@ mName
 const
 char
 *
-mBlacklistPrefTables
+mBlocklistPrefTables
 ;
 bool
 (
@@ -126,7 +126,7 @@ nsDependentCString
 (
 aFeature
 .
-mBlacklistPrefTables
+mBlocklistPrefTables
 )
 EmptyCString
 (

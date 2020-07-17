@@ -1225,7 +1225,7 @@ nsresult
 UrlClassifierCommon
 :
 :
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 (
 nsIChannel
 *
@@ -1387,7 +1387,7 @@ UC_LOG
 (
 (
 "
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 :
 No
 window
@@ -1481,7 +1481,7 @@ UC_LOG
 (
 (
 "
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 :
 Cannot
 get
@@ -1525,7 +1525,7 @@ rv
 )
 ;
 nsAutoCString
-whitelistEntry
+entitylistEntry
 =
 "
 http
@@ -1551,7 +1551,7 @@ UC_LOG
 (
 (
 "
-CreatePairwiseWhiteListURI
+CreatePairwiseEntityListURI
 :
 Looking
 for
@@ -1559,7 +1559,7 @@ for
 s
 in
 the
-whitelist
+entitylist
 "
 "
 (
@@ -1569,7 +1569,7 @@ channel
 p
 )
 "
-whitelistEntry
+entitylistEntry
 .
 get
 (
@@ -1582,7 +1582,7 @@ nsCOMPtr
 <
 nsIURI
 >
-whitelistURI
+entitylistURI
 ;
 rv
 =
@@ -1590,9 +1590,9 @@ NS_NewURI
 (
 getter_AddRefs
 (
-whitelistURI
+entitylistURI
 )
-whitelistEntry
+entitylistEntry
 )
 ;
 NS_ENSURE_SUCCESS
@@ -1601,7 +1601,7 @@ rv
 rv
 )
 ;
-whitelistURI
+entitylistURI
 .
 forget
 (

@@ -338,7 +338,7 @@ aListType
 nsIUrlClassifierFeature
 :
 :
-whitelist
+entitylist
 "
 UrlClassifierFeatureLoginReputation
 is
@@ -350,7 +350,7 @@ just
 to
 "
 "
-whitelist
+entitylist
 URLs
 "
 )
@@ -364,7 +364,7 @@ nsIUrlClassifierFeature
 URIType
 :
 :
-whitelistURI
+entitylistURI
 ;
 return
 aChannel

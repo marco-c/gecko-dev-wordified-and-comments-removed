@@ -446,7 +446,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 list
 =
 >
@@ -572,7 +572,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-whitelist
+entitylist
 list
 =
 >

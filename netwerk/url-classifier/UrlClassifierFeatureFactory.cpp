@@ -1149,14 +1149,14 @@ nsTArray
 nsCString
 >
 &
-aBlacklistTables
+aBlocklistTables
 const
 nsTArray
 <
 nsCString
 >
 &
-aWhitelistTables
+aEntitylistTables
 )
 {
 nsCOMPtr
@@ -1169,8 +1169,8 @@ new
 UrlClassifierFeatureCustomTables
 (
 aName
-aBlacklistTables
-aWhitelistTables
+aBlocklistTables
+aEntitylistTables
 )
 ;
 return

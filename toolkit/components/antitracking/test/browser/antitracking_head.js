@@ -1319,7 +1319,7 @@ info
 Waiting
 for
 the
-skip
+exception
 list
 service
 to
@@ -1406,7 +1406,7 @@ if
 (
 feature
 .
-skipHostList
+exceptionHostList
 .
 split
 (
@@ -1430,7 +1430,7 @@ false
 ;
 }
 "
-Skip
+Exception
 list
 service
 initialized

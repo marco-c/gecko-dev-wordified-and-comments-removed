@@ -44,7 +44,7 @@ org
 /
 partitioning
 /
-skip
+exception
 -
 list
 -
@@ -53,7 +53,7 @@ service
 1
 "
 "
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 "
 )
 ;
@@ -101,7 +101,7 @@ urls
 "
 ;
 const
-SKIP_LIST_PREF_NAME
+EXCEPTION_LIST_PREF_NAME
 =
 "
 privacy
@@ -123,7 +123,7 @@ prefs
 .
 clearUserPref
 (
-SKIP_LIST_PREF_NAME
+EXCEPTION_LIST_PREF_NAME
 )
 ;
 await
@@ -1264,7 +1264,7 @@ add_task
 (
 async
 function
-testSkipListPref
+testExceptionListPref
 (
 )
 {
@@ -1274,7 +1274,7 @@ info
 Starting
 Dynamic
 FPI
-skip
+exception
 list
 test
 pref
@@ -1461,7 +1461,7 @@ createDataInFirstParty
 (
 browserThirdParty
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 )
 ]
@@ -1504,7 +1504,7 @@ browserThirdParty
 firstParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -1515,7 +1515,7 @@ info
 (
 "
 set
-skip
+exception
 list
 pref
 "
@@ -1527,7 +1527,7 @@ prefs
 .
 setStringPref
 (
-SKIP_LIST_PREF_NAME
+EXCEPTION_LIST_PREF_NAME
 {
 TEST_DOMAIN
 }
@@ -1562,7 +1562,7 @@ firstParty
 thirdParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -1573,7 +1573,7 @@ browserThirdParty
 firstParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -1615,7 +1615,7 @@ add_task
 (
 async
 function
-testSkipListRemoteSettings
+testExceptionListRemoteSettings
 (
 )
 {
@@ -1625,7 +1625,7 @@ info
 Starting
 Dynamic
 FPI
-skip
+exception
 list
 test
 (
@@ -1666,7 +1666,7 @@ prefs
 .
 setStringPref
 (
-SKIP_LIST_PREF_NAME
+EXCEPTION_LIST_PREF_NAME
 "
 "
 )
@@ -1747,7 +1747,7 @@ update
 ;
 peuService
 .
-registerAndRunSkipListObserver
+registerAndRunExceptionListObserver
 (
 obs
 )
@@ -1910,7 +1910,7 @@ createDataInFirstParty
 (
 browserThirdParty
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 )
 ]
@@ -1953,7 +1953,7 @@ browserThirdParty
 firstParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -1964,7 +1964,7 @@ info
 (
 "
 set
-skip
+exception
 list
 remote
 settings
@@ -2036,7 +2036,7 @@ TEST_DOMAIN
 TEST_3RD_PARTY_DOMAIN
 }
 "
-skip
+exception
 list
 is
 correctly
@@ -2070,7 +2070,7 @@ firstParty
 thirdParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -2081,7 +2081,7 @@ browserThirdParty
 firstParty
 :
 "
-SkipListFirstParty
+ExceptionListFirstParty
 "
 }
 )
@@ -2151,7 +2151,7 @@ promise
 "
 "
 "
-skip
+Exception
 list
 is
 cleared
@@ -2160,7 +2160,7 @@ cleared
 ;
 peuService
 .
-unregisterSkipListObserver
+unregisterExceptionListObserver
 (
 obs
 )

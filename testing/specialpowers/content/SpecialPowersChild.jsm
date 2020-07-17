@@ -10078,7 +10078,7 @@ Ci
 .
 nsIUrlClassifierFeature
 .
-blacklist
+blocklist
 wrapCallback
 )
 ;

@@ -1,6 +1,6 @@
 this
 .
-UrlClassifierSkipListService
+UrlClassifierExceptionListService
 =
 function
 (
@@ -382,7 +382,7 @@ observer
 {
 observer
 .
-onSkipListUpdate
+onExceptionListUpdate
 (
 entriesAsString
 )
@@ -402,7 +402,7 @@ observers
 {
 obs
 .
-onSkipListUpdate
+onExceptionListUpdate
 (
 entriesAsString
 )
@@ -411,7 +411,7 @@ entriesAsString
 }
 }
 }
-UrlClassifierSkipListService
+UrlClassifierExceptionListService
 .
 prototype
 =
@@ -445,7 +445,7 @@ generateQI
 [
 Ci
 .
-nsIUrlClassifierSkipListService
+nsIUrlClassifierExceptionListService
 ]
 )
 features
@@ -617,7 +617,7 @@ notifyObservers
 ;
 }
 }
-registerAndRunSkipListObserver
+registerAndRunExceptionListObserver
 (
 feature
 prefName
@@ -691,7 +691,7 @@ observer
 )
 ;
 }
-unregisterSkipListObserver
+unregisterExceptionListObserver
 (
 feature
 observer
@@ -755,7 +755,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-UrlClassifierSkipListService
+UrlClassifierExceptionListService
 "
 ]
 ;

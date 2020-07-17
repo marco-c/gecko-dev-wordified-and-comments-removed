@@ -66,12 +66,12 @@ mName
 const
 char
 *
-mBlacklistPrefTables
+mBlocklistPrefTables
 ;
 const
 char
 *
-mWhitelistPrefTables
+mEntitylistPrefTables
 ;
 bool
 mSubdocumentOnly
@@ -215,13 +215,13 @@ nsDependentCString
 (
 aFlashFeature
 .
-mBlacklistPrefTables
+mBlocklistPrefTables
 )
 nsDependentCString
 (
 aFlashFeature
 .
-mWhitelistPrefTables
+mEntitylistPrefTables
 )
 EmptyCString
 (
@@ -850,7 +850,7 @@ aListType
 nsIUrlClassifierFeature
 :
 :
-blacklist
+blocklist
 ?
 nsIUrlClassifierFeature
 :
@@ -858,7 +858,7 @@ nsIUrlClassifierFeature
 URIType
 :
 :
-blacklistURI
+blocklistURI
 :
 nsIUrlClassifierFeature
 :
@@ -866,7 +866,7 @@ nsIUrlClassifierFeature
 URIType
 :
 :
-whitelistURI
+entitylistURI
 ;
 return
 aChannel

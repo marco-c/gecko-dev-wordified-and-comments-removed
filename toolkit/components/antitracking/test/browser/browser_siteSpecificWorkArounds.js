@@ -9,7 +9,7 @@ a
 tracker
 that
 is
-whitelisted
+entitylisted
 via
 a
 pref
@@ -192,7 +192,7 @@ a
 tracker
 that
 is
-whitelisted
+entitylisted
 via
 a
 fancy
@@ -382,7 +382,7 @@ a
 tracker
 that
 is
-whitelisted
+entitylisted
 via
 a
 misconfigured

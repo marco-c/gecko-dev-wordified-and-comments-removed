@@ -566,13 +566,13 @@ Array
 <
 ACString
 >
-aBlacklistTables
+aBlocklistTables
 in
 Array
 <
 ACString
 >
-aWhitelistTables
+aEntitylistTables
 )
 ;
 /

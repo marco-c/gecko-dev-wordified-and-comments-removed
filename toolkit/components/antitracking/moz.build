@@ -26,7 +26,7 @@ XPIDL_SOURCES
 =
 [
 '
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 .
 idl
 '
@@ -71,7 +71,7 @@ ContentBlockingAllowList
 jsm
 '
 '
-PartitioningSkipListService
+PartitioningExceptionListService
 .
 jsm
 '
@@ -212,7 +212,7 @@ DynamicFpiRedirectHeuristic
 cpp
 '
 '
-PartitioningSkipList
+PartitioningExceptionList
 .
 cpp
 '

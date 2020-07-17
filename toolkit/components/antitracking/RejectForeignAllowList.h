@@ -7,7 +7,7 @@ mozilla_RejectForeignAllowList_h
 #
 include
 "
-nsIUrlClassifierSkipListService
+nsIUrlClassifierExceptionListService
 .
 h
 "
@@ -32,12 +32,12 @@ RejectForeignAllowList
 final
 :
 public
-nsIUrlClassifierSkipListObserver
+nsIUrlClassifierExceptionListObserver
 {
 public
 :
 NS_DECL_ISUPPORTS
-NS_DECL_NSIURLCLASSIFIERSKIPLISTOBSERVER
+NS_DECL_NSIURLCLASSIFIEREXCEPTIONLISTOBSERVER
 static
 bool
 Check

@@ -157,7 +157,7 @@ h
 #
 include
 "
-PartitioningSkipList
+PartitioningExceptionList
 .
 h
 "
@@ -1725,7 +1725,7 @@ unusedReason
 ;
 if
 (
-PartitioningSkipList
+PartitioningExceptionList
 :
 :
 Check

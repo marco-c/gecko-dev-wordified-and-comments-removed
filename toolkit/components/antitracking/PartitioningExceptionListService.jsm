@@ -371,7 +371,7 @@ observer
 {
 observer
 .
-onSkipListUpdate
+onExceptionListUpdate
 (
 entriesAsString
 )
@@ -391,7 +391,7 @@ observers
 {
 obs
 .
-onSkipListUpdate
+onExceptionListUpdate
 (
 entriesAsString
 )
@@ -402,7 +402,7 @@ entriesAsString
 }
 this
 .
-PartitioningSkipListService
+PartitioningExceptionListService
 =
 function
 (
@@ -410,7 +410,7 @@ function
 {
 }
 ;
-PartitioningSkipListService
+PartitioningExceptionListService
 .
 prototype
 =
@@ -444,7 +444,7 @@ generateQI
 [
 Ci
 .
-nsIPartitioningSkipListService
+nsIPartitioningExceptionListService
 ]
 )
 _initialized
@@ -587,7 +587,7 @@ notifyObservers
 )
 ;
 }
-registerAndRunSkipListObserver
+registerAndRunExceptionListObserver
 (
 observer
 )
@@ -608,7 +608,7 @@ observer
 )
 ;
 }
-unregisterSkipListObserver
+unregisterExceptionListObserver
 (
 observer
 )
@@ -641,7 +641,7 @@ EXPORTED_SYMBOLS
 =
 [
 "
-PartitioningSkipListService
+PartitioningExceptionListService
 "
 ]
 ;
