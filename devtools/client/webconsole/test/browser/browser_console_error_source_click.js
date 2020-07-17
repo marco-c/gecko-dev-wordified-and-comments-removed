@@ -195,6 +195,16 @@ findMessage
 hud
 message
 )
+Message
+"
+{
+message
+}
+"
+wasn
+'
+t
+found
 )
 ;
 ok

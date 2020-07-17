@@ -62,4 +62,11 @@ messages
 .
 js
 '
+'
+error
+-
+messages
+.
+js
+'
 )
