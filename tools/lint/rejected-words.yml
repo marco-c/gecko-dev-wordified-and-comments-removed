@@ -3262,6 +3262,14 @@ schema
 .
 py
 -
+taskcluster
+/
+test
+/
+test_mach_try_auto
+.
+py
+-
 testing
 /
 condprofile
