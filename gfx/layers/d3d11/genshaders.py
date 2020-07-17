@@ -491,8 +491,9 @@ Vi
     
 if
 '
-Linux
+WINNT
 '
+not
 in
 buildconfig
 .
@@ -814,8 +815,9 @@ dep_path
         
 if
 '
-Linux
+WINNT
 '
+not
 in
 buildconfig
 .

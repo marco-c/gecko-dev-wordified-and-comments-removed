@@ -870,10 +870,10 @@ and
 h
 .
 kernel
-=
+!
 =
 '
-Linux
+WINNT
 '
 )
 )

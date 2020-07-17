@@ -11574,9 +11574,13 @@ flags
 =
 list
 (
+(
+linker
+and
 linker
 .
 LINKER_FLAG
+)
 or
 [
 ]
@@ -11585,6 +11589,8 @@ if
 macos_sdk
 :
 if
+linker
+and
 linker
 .
 KIND
