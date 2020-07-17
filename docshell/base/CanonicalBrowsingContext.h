@@ -265,6 +265,13 @@ uint64_t
 aProcessId
 )
 ;
+void
+ClearInFlightProcessId
+(
+uint64_t
+aProcessId
+)
+;
 uint64_t
 GetInFlightProcessId
 (
