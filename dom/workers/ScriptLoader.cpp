@@ -39,6 +39,13 @@ h
 #
 include
 "
+nsICookieJarSettings
+.
+h
+"
+#
+include
+"
 nsIDocShell
 .
 h

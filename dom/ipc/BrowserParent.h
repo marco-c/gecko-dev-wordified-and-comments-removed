@@ -255,6 +255,9 @@ nsIDocShell
 class
 nsIWebBrowserPersistDocumentReceiver
 ;
+class
+nsIWebProgress
+;
 namespace
 mozilla
 {
