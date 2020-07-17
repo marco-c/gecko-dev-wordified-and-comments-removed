@@ -1481,7 +1481,6 @@ nsPrintfCString
 line
 %
 p
-:
 count
 =
 %
