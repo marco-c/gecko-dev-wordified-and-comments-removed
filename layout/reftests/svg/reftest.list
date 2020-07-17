@@ -5693,12 +5693,6 @@ svg
 #
 Bug
 588684
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 objectBoundingBox
@@ -5721,12 +5715,6 @@ fePointLight
 ref
 .
 svg
-random
--
-if
-(
-gtkWidget
-)
 =
 =
 objectBoundingBox
