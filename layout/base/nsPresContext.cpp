@@ -5912,7 +5912,7 @@ return
 }
 nsPresContext
 *
-topContentPresContext
+inProcessRootPresContext
 =
 GetInProcessRootContentDocumentPresContext
 (
@@ -5921,7 +5921,16 @@ GetInProcessRootContentDocumentPresContext
 if
 (
 !
-topContentPresContext
+inProcessRootPresContext
+|
+|
+!
+inProcessRootPresContext
+-
+>
+IsRootContentDocumentCrossProcess
+(
+)
 )
 {
 interactionTime
@@ -5938,7 +5947,7 @@ return
 }
 if
 (
-topContentPresContext
+inProcessRootPresContext
 -
 >
 mFirstNonBlankPaintTime
@@ -5948,7 +5957,7 @@ IsNull
 )
 |
 |
-topContentPresContext
+inProcessRootPresContext
 -
 >
 mFirstNonBlankPaintTime
@@ -6020,7 +6029,7 @@ if
 this
 =
 =
-topContentPresContext
+inProcessRootPresContext
 )
 {
 if
@@ -6086,7 +6095,7 @@ millis
 }
 else
 {
-topContentPresContext
+inProcessRootPresContext
 -
 >
 RecordInteractionTime
