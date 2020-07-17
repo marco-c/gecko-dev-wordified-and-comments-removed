@@ -978,6 +978,12 @@ mFocusSequenceNumber
 =
 mFocusSequenceNumber
 ;
+event
+.
+mLayersId
+=
+mLayersId
+;
 for
 (
 size_t

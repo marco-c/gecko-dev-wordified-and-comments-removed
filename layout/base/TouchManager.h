@@ -274,6 +274,13 @@ TouchInfo
 *
 sCaptureTouchList
 ;
+static
+layers
+:
+:
+LayersId
+sCaptureTouchLayersId
+;
 }
 ;
 }
