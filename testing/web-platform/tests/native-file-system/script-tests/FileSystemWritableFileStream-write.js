@@ -2596,6 +2596,13 @@ createWritable
 (
 )
 ;
+assert_false
+(
+stream
+.
+locked
+)
+;
 const
 writer
 =
@@ -2603,6 +2610,13 @@ stream
 .
 getWriter
 (
+)
+;
+assert_true
+(
+stream
+.
+locked
 )
 ;
 await
