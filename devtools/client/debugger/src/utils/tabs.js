@@ -457,7 +457,7 @@ disabled
 :
 false
 }
-copyToClipboard
+copySource
 :
 {
 id
@@ -469,9 +469,7 @@ menu
 -
 copy
 -
-to
--
-clipboard
+source
 "
 label
 :
@@ -480,7 +478,7 @@ L10N
 getStr
 (
 "
-copyToClipboard
+copySource
 .
 label
 "
@@ -492,7 +490,7 @@ L10N
 getStr
 (
 "
-copyToClipboard
+copySource
 .
 accesskey
 "

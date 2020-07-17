@@ -665,7 +665,7 @@ item
 .
 tabMenuItems
 .
-copyToClipboard
+copySource
 disabled
 :
 selectedSource
