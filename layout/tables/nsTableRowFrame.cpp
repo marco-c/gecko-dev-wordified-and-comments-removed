@@ -3831,9 +3831,11 @@ IsGeometryDirty
 &
 &
 !
-NS_SUBTREE_DIRTY
-(
 kidFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {
@@ -4160,9 +4162,11 @@ NS_FRAME_IS_DIRTY
 isPaginated
 |
 |
-NS_SUBTREE_DIRTY
-(
 cellFrame
+-
+>
+IsSubtreeDirty
+(
 )
 |
 |

@@ -808,9 +808,11 @@ aKid
 if
 (
 !
-NS_SUBTREE_DIRTY
-(
 aKid
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

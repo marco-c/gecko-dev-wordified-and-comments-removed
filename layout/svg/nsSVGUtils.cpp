@@ -1101,9 +1101,11 @@ differently
 )
 ;
 return
-NS_SUBTREE_DIRTY
-(
 aFrame
+-
+>
+IsSubtreeDirty
+(
 )
 ;
 }

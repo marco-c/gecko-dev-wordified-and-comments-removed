@@ -2163,9 +2163,11 @@ reflowInner
 inner
 &
 &
-NS_SUBTREE_DIRTY
-(
 inner
+-
+>
+IsSubtreeDirty
+(
 )
 ;
 reflowLegend
@@ -2173,9 +2175,11 @@ reflowLegend
 legend
 &
 &
-NS_SUBTREE_DIRTY
-(
 legend
+-
+>
+IsSubtreeDirty
+(
 )
 ;
 }

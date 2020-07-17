@@ -10962,9 +10962,11 @@ n
 {
 if
 (
-NS_SUBTREE_DIRTY
-(
 lineFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

@@ -1875,9 +1875,11 @@ ShouldReflowAllKids
 &
 &
 !
-NS_SUBTREE_DIRTY
-(
 mDropdownFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

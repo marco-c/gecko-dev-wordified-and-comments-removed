@@ -2783,9 +2783,11 @@ aChild
 {
 NS_ASSERTION
 (
-NS_SUBTREE_DIRTY
-(
 aChild
+-
+>
+IsSubtreeDirty
+(
 )
 "
 child
@@ -6691,9 +6693,11 @@ if
 shouldReflowAllKids
 |
 |
-NS_SUBTREE_DIRTY
-(
 frame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 {

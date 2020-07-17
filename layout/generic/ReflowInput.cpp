@@ -912,9 +912,11 @@ mSpecialBSizeReflow
 |
 |
 !
-NS_SUBTREE_DIRTY
-(
 aFrame
+-
+>
+IsSubtreeDirty
+(
 )
 "
 frame
@@ -3071,9 +3073,11 @@ IsBResize
 )
 |
 |
-NS_SUBTREE_DIRTY
-(
 mFrame
+-
+>
+IsSubtreeDirty
+(
 )
 )
 ;
