@@ -495,6 +495,8 @@ some
 bad
 /
 file
+.
+txt
 "
 :
 oops
@@ -536,7 +538,7 @@ None
 "
     
 def
-test_str_with_file
+test_repr_with_file
 (
 self
 )
@@ -1611,6 +1613,7 @@ boolean
 default_value
 =
 {
+                                     
 '
 default
 '
