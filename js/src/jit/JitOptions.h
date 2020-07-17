@@ -200,6 +200,9 @@ bool
 warpBuilder
 ;
 bool
+warpTrialInlining
+;
+bool
 jitForTrustedPrincipals
 ;
 bool
@@ -268,6 +271,9 @@ baselineInterpreterWarmUpThreshold
 ;
 uint32_t
 baselineJitWarmUpThreshold
+;
+uint32_t
+trialInliningWarmUpThreshold
 ;
 uint32_t
 normalIonWarmUpThreshold
