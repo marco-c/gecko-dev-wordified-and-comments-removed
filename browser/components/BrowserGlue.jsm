@@ -1920,6 +1920,14 @@ matches
 /
 *
 "
+"
+file
+:
+/
+/
+/
+*
+"
 ]
 messageManagerGroups
 :
