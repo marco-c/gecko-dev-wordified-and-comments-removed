@@ -403,7 +403,10 @@ NS_IsMainThread
 )
 )
 {
-NS_ReleaseOnMainThread
+SurfaceCache
+:
+:
+ReleaseImageOnMainThread
 (
 mImage
 .
