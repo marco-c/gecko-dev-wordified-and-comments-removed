@@ -453,13 +453,6 @@ texture_size
 xyxy
 ;
 vec2
-quad_pos
-=
-quad_position
-(
-)
-;
-vec2
 pos
 =
 target_rect
@@ -470,7 +463,9 @@ target_rect
 .
 size
 *
-quad_pos
+aPosition
+.
+xy
 ;
 vec2
 uv0
@@ -504,7 +499,9 @@ mix
 (
 uv0
 uv1
-quad_pos
+aPosition
+.
+xy
 )
 ;
 gl_Position
