@@ -244,6 +244,7 @@ load_tasks
 self
 parameters
 loaded_tasks
+write_artifacts
 )
 :
         
@@ -361,6 +362,10 @@ kind_dependencies_tasks
 self
 .
 graph_config
+                                       
+write_artifacts
+=
+write_artifacts
 )
         
 tasks
@@ -649,19 +654,25 @@ time
 def
 __init__
 (
-            
+        
 self
+        
 root_dir
+        
 parameters
+        
 decision_task_id
 =
 "
-<
-decision
+DECISION
 -
-task
->
+TASK
 "
+        
+write_artifacts
+=
+False
+        
 target_kind
 =
 None
@@ -763,6 +774,12 @@ self
 _decision_task_id
 =
 decision_task_id
+        
+self
+.
+_write_artifacts
+=
+write_artifacts
         
 self
 .
@@ -1605,6 +1622,7 @@ kind
 .
 load_tasks
 (
+                    
 parameters
 list
 (
@@ -1614,6 +1632,10 @@ values
 (
 )
 )
+self
+.
+_write_artifacts
+                
 )
             
 except

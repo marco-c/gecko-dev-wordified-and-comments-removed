@@ -134,6 +134,17 @@ type
 =
 GraphConfig
 )
+    
+write_artifacts
+=
+attr
+.
+ib
+(
+type
+=
+bool
+)
 attr
 .
 s
