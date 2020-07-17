@@ -100,6 +100,10 @@ linux64
 cctools
 -
 port
+-
+clang
+-
+9
 :
 treeherder
 :
@@ -120,6 +124,15 @@ cctools
 port
 .
 sh
+toolchain
+-
+alias
+:
+linux64
+-
+cctools
+-
+port
 toolchain
 -
 artifact
