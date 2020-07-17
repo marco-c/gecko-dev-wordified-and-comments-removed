@@ -1401,6 +1401,10 @@ ParentLayerIntRegion
 ComputeClipRegion
 (
 const
+LayersId
+&
+aLayersId
+const
 ScrollNode
 &
 aLayer
@@ -1585,8 +1589,11 @@ HashFn
 >
 mDetachedLayersIds
 ;
-bool
-mUsingAsyncZoomContainer
+Maybe
+<
+LayersId
+>
+mAsyncZoomContainerSubtree
 ;
 mutable
 mozilla
