@@ -665,8 +665,6 @@ MarkObjectGroupFlags
 (
 cx
 this
-OBJECT_FLAG_NON_PACKED
-|
 OBJECT_FLAG_SPARSE_INDEXES
 )
 ;
@@ -679,13 +677,10 @@ index
 )
 )
 {
-setDenseElement
+setDenseElementHole
 (
+cx
 index
-MagicValue
-(
-JS_ELEMENTS_HOLE
-)
 )
 ;
 }
