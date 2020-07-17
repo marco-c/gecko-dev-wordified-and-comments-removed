@@ -1433,6 +1433,14 @@ nargs_
 =
 0
 ;
+TopLevelFunction
+isTopLevel_
+=
+TopLevelFunction
+:
+:
+No
+;
 bool
 emitBytecode
 :
@@ -1529,6 +1537,8 @@ FunctionFlags
 flags
 size_t
 index
+TopLevelFunction
+isTopLevel
 )
 ;
 JSFunction

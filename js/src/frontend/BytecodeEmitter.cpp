@@ -13010,7 +13010,6 @@ fse
 .
 intoStencil
 (
-isTopLevel
 )
 ;
 }

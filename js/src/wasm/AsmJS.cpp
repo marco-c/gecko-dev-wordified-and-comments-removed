@@ -135,6 +135,15 @@ h
 #
 include
 "
+frontend
+/
+SharedContext
+.
+h
+"
+#
+include
+"
 gc
 /
 Policy
@@ -34341,6 +34350,10 @@ FunctionAsyncKind
 :
 :
 SyncFunction
+TopLevelFunction
+:
+:
+No
 )
 ;
 if

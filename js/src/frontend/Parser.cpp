@@ -1416,6 +1416,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+TopLevelFunction
+isTopLevel
 )
 {
 MOZ_ASSERT
@@ -1535,6 +1537,7 @@ flags
 (
 )
 index
+isTopLevel
 )
 ;
 if
@@ -1599,6 +1602,8 @@ GeneratorKind
 generatorKind
 FunctionAsyncKind
 asyncKind
+TopLevelFunction
+isTopLevel
 )
 {
 MOZ_ASSERT
@@ -1694,6 +1699,7 @@ asyncKind
 explicitName
 flags
 index
+isTopLevel
 )
 ;
 if
@@ -11002,6 +11008,10 @@ flags
 inheritedDirectives
 generatorKind
 asyncKind
+TopLevelFunction
+:
+:
+Yes
 )
 ;
 if
@@ -13523,6 +13533,10 @@ fun
 asyncKind
 (
 )
+TopLevelFunction
+:
+:
+No
 )
 ;
 if
@@ -14678,6 +14692,10 @@ toStringStart
 inheritedDirectives
 generatorKind
 asyncKind
+TopLevelFunction
+:
+:
+No
 )
 ;
 if
@@ -15228,6 +15246,10 @@ toStringStart
 inheritedDirectives
 generatorKind
 asyncKind
+TopLevelFunction
+:
+:
+No
 )
 ;
 if
@@ -15626,6 +15648,10 @@ toStringStart
 directives
 generatorKind
 asyncKind
+TopLevelFunction
+:
+:
+Yes
 )
 ;
 if
@@ -35840,6 +35866,10 @@ FunctionAsyncKind
 :
 :
 SyncFunction
+TopLevelFunction
+:
+:
+No
 )
 ;
 if
@@ -36614,6 +36644,10 @@ begin
 directives
 generatorKind
 asyncKind
+TopLevelFunction
+:
+:
+No
 )
 ;
 if
