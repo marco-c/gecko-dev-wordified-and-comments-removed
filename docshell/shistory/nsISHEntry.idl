@@ -344,9 +344,9 @@ boolean
 loadedInThisProcess
 ;
 [
-noscript
 infallible
 ]
+readonly
 attribute
 nsISHistory
 shistory

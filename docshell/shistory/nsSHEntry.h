@@ -61,8 +61,12 @@ nsISHEntry
 {
 public
 :
+explicit
 nsSHEntry
 (
+nsISHistory
+*
+aSHistory
 )
 ;
 NS_DECL_ISUPPORTS

@@ -2694,6 +2694,14 @@ StaticPrefs
 fission_sessionHistoryInParent
 (
 )
+&
+&
+browsingContext
+-
+>
+GetSessionHistory
+(
+)
 )
 {
 mSessionHistoryInfo
