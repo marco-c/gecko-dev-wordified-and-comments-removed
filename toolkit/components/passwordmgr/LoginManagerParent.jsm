@@ -268,7 +268,7 @@ null
 let
 gLastMPLoginCancelled
 =
-Math
+Number
 .
 NEGATIVE_INFINITY
 ;
