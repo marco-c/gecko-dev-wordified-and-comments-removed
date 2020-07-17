@@ -78,6 +78,9 @@ end
 loc
 "
 "
+errors
+"
+"
 program
 "
 "
