@@ -17409,10 +17409,8 @@ return
 convertDwarf
 (
 buffer
-(
 await
 cachedWasmModule
-)
 )
 ;
 }
