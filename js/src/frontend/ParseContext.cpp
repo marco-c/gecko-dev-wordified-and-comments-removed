@@ -2184,9 +2184,11 @@ sc
 )
 -
 >
-compilationEnclosingScope
+compilationInfo
 (
 )
+.
+enclosingScope
 ;
 js
 :

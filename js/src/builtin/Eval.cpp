@@ -1780,6 +1780,13 @@ return
 false
 ;
 }
+compilationInfo
+.
+setEnclosingScope
+(
+enclosing
+)
+;
 uint32_t
 len
 =
@@ -1808,7 +1815,6 @@ evalsc
 (
 cx
 compilationInfo
-enclosing
 compilationInfo
 .
 directives
@@ -2351,6 +2357,13 @@ return
 false
 ;
 }
+compilationInfo
+.
+setEnclosingScope
+(
+enclosing
+)
+;
 uint32_t
 len
 =
@@ -2379,7 +2392,6 @@ evalsc
 (
 cx
 compilationInfo
-enclosing
 compilationInfo
 .
 directives

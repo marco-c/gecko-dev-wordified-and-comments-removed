@@ -701,7 +701,7 @@ Rooted
 Scope
 *
 >
-topLevelFunctionEnclosingScope
+enclosingScope
 ;
 JS
 :
@@ -870,7 +870,7 @@ funcData
 (
 cx
 )
-topLevelFunctionEnclosingScope
+enclosingScope
 (
 cx
 )
@@ -926,7 +926,7 @@ false
 this
 -
 >
-topLevelFunctionEnclosingScope
+enclosingScope
 =
 enclosingScope
 ;
@@ -964,7 +964,7 @@ sourceObject
 this
 -
 >
-topLevelFunctionEnclosingScope
+enclosingScope
 =
 lazy
 -
@@ -980,14 +980,14 @@ enclosingScope
 ;
 }
 void
-setTopLevelFunctionEnclosingScope
+setEnclosingScope
 (
 Scope
 *
 scope
 )
 {
-topLevelFunctionEnclosingScope
+enclosingScope
 =
 scope
 ;
