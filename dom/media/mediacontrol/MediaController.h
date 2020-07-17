@@ -159,6 +159,14 @@ SeekForward
 0
 ;
 virtual
+void
+SkipAd
+(
+)
+=
+0
+;
+virtual
 uint64_t
 Id
 (
@@ -316,6 +324,12 @@ override
 ;
 void
 SeekForward
+(
+)
+override
+;
+void
+SkipAd
 (
 )
 override

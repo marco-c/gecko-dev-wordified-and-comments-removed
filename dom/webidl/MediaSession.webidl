@@ -143,13 +143,6 @@ seekto
 bug
 1621403
 )
-and
-skipad
-(
-bug
-1582569
-)
-actions
 enum
 MediaSessionAction
 {
@@ -170,6 +163,9 @@ previoustrack
 "
 "
 nexttrack
+"
+"
+skipad
 "
 "
 stop

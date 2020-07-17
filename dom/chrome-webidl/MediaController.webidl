@@ -101,6 +101,9 @@ seekbackward
 seekforward
 "
 "
+skipad
+"
+"
 stop
 "
 }
