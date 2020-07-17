@@ -6624,16 +6624,6 @@ mUnfiledRootId
 1
 )
 {
-if
-(
-NS_FAILED
-(
-rv
-)
-)
-return
-rv
-;
 rv
 =
 CreateRoot
