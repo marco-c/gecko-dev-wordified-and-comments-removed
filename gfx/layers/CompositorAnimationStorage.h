@@ -64,6 +64,9 @@ Animation
 class
 Layers
 ;
+class
+CompositorBridgeParent
+;
 typedef
 nsTArray
 <
@@ -567,6 +570,9 @@ SampleAnimations
 Layer
 *
 aRoot
+CompositorBridgeParent
+*
+aCompositorBridge
 TimeStamp
 aPreviousFrameTime
 TimeStamp
@@ -660,9 +666,12 @@ nscolor
 aColor
 )
 ;
-void
+bool
 ApplyAnimatedValue
 (
+CompositorBridgeParent
+*
+aCompositorBridge
 Layer
 *
 aLayer

@@ -2485,6 +2485,7 @@ storage
 SampleAnimations
 (
 aLayer
+mCompositorBridge
 mPreviousFrameTimeStamp
 aCurrentFrameTime
 )
