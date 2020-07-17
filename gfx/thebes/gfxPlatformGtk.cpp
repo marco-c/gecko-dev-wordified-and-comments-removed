@@ -3602,11 +3602,6 @@ UseDMABufVideoTextures
 )
 {
 return
-IsWaylandDisplay
-(
-)
-&
-&
 (
 GetDMABufDevice
 (
