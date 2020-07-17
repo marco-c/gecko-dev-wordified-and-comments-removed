@@ -3051,7 +3051,6 @@ mRefCnt
 ;
 \
 _owning
-\
 public
 :
 #
