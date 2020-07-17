@@ -9304,6 +9304,12 @@ BailoutKind
 :
 NonInt32ArrayLength
 :
+case
+BailoutKind
+:
+:
+ProtoGuard
+:
 break
 ;
 case
