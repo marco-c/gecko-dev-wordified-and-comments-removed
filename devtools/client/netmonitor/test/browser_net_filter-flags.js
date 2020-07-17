@@ -898,10 +898,6 @@ REQUESTS
 length
 )
 ;
-loadFrameScriptUtils
-(
-)
-;
 await
 performRequestsInContent
 (

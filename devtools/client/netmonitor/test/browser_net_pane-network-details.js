@@ -324,10 +324,6 @@ monitor
 9
 )
 ;
-loadFrameScriptUtils
-(
-)
-;
 await
 performRequestsInContent
 (
