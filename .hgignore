@@ -159,6 +159,15 @@ clang_complete
 ?
 machrc
 #
+pyenv
+artifact
+^
+\
+.
+python
+-
+version
+#
 Empty
 marker
 file
