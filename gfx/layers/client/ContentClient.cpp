@@ -442,6 +442,9 @@ endif
 #
 ifdef
 MOZ_WIDGET_GTK
+#
+ifdef
+MOZ_WAYLAND
 if
 (
 gfxPlatformGtk
@@ -463,6 +466,8 @@ true
 ;
 }
 else
+#
+endif
 if
 (
 !
