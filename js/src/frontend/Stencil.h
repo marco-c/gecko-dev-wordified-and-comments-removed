@@ -1633,11 +1633,6 @@ ScopeIndex
 lazyFunctionEnclosingScopeIndex_
 ;
 bool
-isAsmJSModule
-:
-1
-;
-bool
 isStandaloneFunction
 :
 1
@@ -1663,10 +1658,6 @@ cx
 gcThings
 (
 cx
-)
-isAsmJSModule
-(
-false
 )
 isStandaloneFunction
 (
@@ -1697,7 +1688,11 @@ isFunction
 const
 {
 return
-isAsmJSModule
+functionFlags
+.
+isAsmJSNative
+(
+)
 |
 |
 immutableFlags

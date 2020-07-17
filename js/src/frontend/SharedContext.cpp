@@ -1193,10 +1193,6 @@ useAsm
 (
 false
 )
-isAsmJSModule_
-(
-false
-)
 hasParameterExprs
 (
 false
@@ -1863,10 +1859,6 @@ MOZ_ASSERT
 isFunctionFieldCopiedToStencil
 )
 ;
-isAsmJSModule_
-=
-true
-;
 MOZ_ASSERT
 (
 !
@@ -2303,12 +2295,6 @@ stencil
 lazyFunctionEnclosingScopeIndex_
 =
 enclosingScopeIndex_
-;
-stencil
-.
-isAsmJSModule
-=
-isAsmJSModule_
 ;
 stencil
 .

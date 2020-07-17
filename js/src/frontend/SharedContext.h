@@ -1500,11 +1500,6 @@ useAsm
 1
 ;
 bool
-isAsmJSModule_
-:
-1
-;
-bool
 hasParameterExprs
 :
 1
@@ -1868,7 +1863,11 @@ isAsmJSModule
 const
 {
 return
-isAsmJSModule_
+flags_
+.
+isAsmJSNative
+(
+)
 ;
 }
 bool
