@@ -9623,6 +9623,11 @@ unit
 )
 )
 {
+ungetCodeUnit
+(
+unit
+)
+;
 *
 sawEscape
 =
