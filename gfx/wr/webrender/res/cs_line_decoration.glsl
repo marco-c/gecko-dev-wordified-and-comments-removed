@@ -200,6 +200,9 @@ by
 prim_store
 :
 :
+line_dec
+:
+:
 get_line_decoration_sizes
 .
 PER_INSTANCE
