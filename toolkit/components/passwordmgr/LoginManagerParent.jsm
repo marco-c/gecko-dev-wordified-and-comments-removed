@@ -854,6 +854,10 @@ bug
 let
 origin
 =
+LoginHelper
+.
+getLoginOrigin
+(
 this
 .
 manager
@@ -862,6 +866,7 @@ documentPrincipal
 ?
 .
 originNoSuffix
+)
 ;
 if
 (
