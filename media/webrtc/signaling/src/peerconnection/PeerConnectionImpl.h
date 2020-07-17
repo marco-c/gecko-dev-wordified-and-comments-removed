@@ -775,13 +775,6 @@ GlobalObject
 aGlobal
 )
 ;
-static
-PeerConnectionImpl
-*
-CreatePeerConnection
-(
-)
-;
 void
 NotifyDataChannel
 (
