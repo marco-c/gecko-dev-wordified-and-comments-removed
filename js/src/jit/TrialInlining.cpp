@@ -327,6 +327,7 @@ discardStubs
 cx
 (
 )
+script_
 )
 ;
 bool
