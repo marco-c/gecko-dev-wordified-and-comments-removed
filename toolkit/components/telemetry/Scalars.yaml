@@ -5388,10 +5388,6 @@ products
 '
 firefox
 '
--
-'
-geckoview_streaming
-'
 record_in_processes
 :
 -
