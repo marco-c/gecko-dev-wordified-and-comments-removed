@@ -3570,11 +3570,11 @@ m
 from
 mozdevice
 import
-ADBDevice
+ADBDeviceFactory
             
 device
 =
-ADBDevice
+ADBDeviceFactory
 (
 verbose
 =
@@ -4273,9 +4273,6 @@ True
 recursive
 =
 True
-root
-=
-True
 )
             
 self
@@ -4304,9 +4301,6 @@ self
 .
 remote_profile
 recursive
-=
-True
-root
 =
 True
 )
