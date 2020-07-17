@@ -479,6 +479,9 @@ worker
 -
 overrides
 "
+"
+routes
+"
 ]
 def
 get_releases
