@@ -16,6 +16,16 @@ mozperftest
 /
 mozperftest
 -
+python
+/
+mozrelease
+/
+mozrelease
+/
+scriptworker_canary
+.
+py
+-
 taskcluster
 /
 docker
