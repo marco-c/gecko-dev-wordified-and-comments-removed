@@ -14,6 +14,11 @@ h
 #
 include
 <
+functional
+>
+#
+include
+<
 iosfwd
 >
 #
@@ -189,10 +194,10 @@ defined
 OS_WIN
 )
 typedef
-base
+std
 :
 :
-string16
+wstring
 StringType
 ;
 #

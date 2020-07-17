@@ -175,9 +175,6 @@ class
 TimeDelta
 ;
 class
-TimeTicks
-;
-class
 BASE_EXPORT
 WaitableEvent
 {
@@ -267,15 +264,6 @@ const
 TimeDelta
 &
 wait_delta
-)
-;
-bool
-TimedWaitUntil
-(
-const
-TimeTicks
-&
-end_time
 )
 ;
 #

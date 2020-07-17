@@ -1212,6 +1212,7 @@ internal
 ScopedBlockingCallWithBaseSyncPrimitives
 scoped_blocking_call
 (
+FROM_HERE
 base
 :
 :

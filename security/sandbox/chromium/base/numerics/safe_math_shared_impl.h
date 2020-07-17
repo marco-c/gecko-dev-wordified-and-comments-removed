@@ -60,7 +60,16 @@ safe_conversions
 h
 "
 #
-if
+ifdef
+__asmjs__
+#
+define
+BASE_HAS_OPTIMIZED_SAFE_MATH
+(
+0
+)
+#
+elif
 !
 defined
 (
