@@ -388,7 +388,7 @@ virtual
 void
 DoGetRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 ErrorResult
@@ -777,7 +777,7 @@ aError
 void
 GetRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 mozilla

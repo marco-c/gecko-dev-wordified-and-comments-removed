@@ -2033,7 +2033,7 @@ mRemoteType
 .
 Assign
 (
-VoidString
+VoidCString
 (
 )
 )
@@ -3163,7 +3163,7 @@ aNewDocumentPrincipal
 ;
 }
 const
-nsAString
+nsACString
 &
 WindowGlobalChild
 :
@@ -3194,7 +3194,7 @@ GetRemoteType
 ;
 }
 return
-VoidString
+VoidCString
 (
 )
 ;

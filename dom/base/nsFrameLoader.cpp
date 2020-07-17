@@ -937,7 +937,7 @@ mChildID
 )
 mRemoteType
 (
-VoidString
+VoidCString
 (
 )
 )
@@ -1699,7 +1699,7 @@ GetInitialRemoteTypeAndProcess
 Element
 *
 aOwner
-nsAString
+nsACString
 &
 aRemoteType
 uint64_t
@@ -1719,6 +1719,9 @@ aChildID
 =
 0
 ;
+nsAutoString
+remoteType
+;
 bool
 hasRemoteType
 =
@@ -1732,7 +1735,7 @@ nsGkAtoms
 :
 :
 RemoteType
-aRemoteType
+remoteType
 )
 ;
 if
@@ -1741,7 +1744,7 @@ if
 hasRemoteType
 |
 |
-aRemoteType
+remoteType
 .
 IsEmpty
 (
@@ -1753,10 +1756,17 @@ hasRemoteType
 false
 ;
 aRemoteType
-.
-AssignLiteral
-(
+=
 DEFAULT_REMOTE_TYPE
+;
+}
+else
+{
+aRemoteType
+=
+NS_ConvertUTF16toUTF8
+(
+remoteType
 )
 ;
 }
@@ -2569,7 +2579,7 @@ nsFrameLoader
 ConfigRemoteProcess
 (
 const
-nsAString
+nsACString
 &
 aRemoteType
 ContentParent

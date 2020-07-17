@@ -755,7 +755,7 @@ mSecurityInfo
 ;
 }
 const
-nsAString
+nsACString
 &
 GetRemoteType
 (

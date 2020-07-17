@@ -10273,7 +10273,7 @@ HttpChannelParent
 :
 GetRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 )

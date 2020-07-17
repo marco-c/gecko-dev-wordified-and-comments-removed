@@ -88,7 +88,7 @@ ProcType
 &
 type
 const
-nsAString
+nsACString
 &
 origin
 mach_port_t
@@ -173,7 +173,7 @@ return
 promise
 ;
 }
-nsString
+nsCString
 originCopy
 (
 origin
