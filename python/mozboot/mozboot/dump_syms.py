@@ -4,15 +4,6 @@ import
 absolute_import
 print_function
 unicode_literals
-LINUX_DUMP_SYMS
-=
-'
-linux64
--
-dump
--
-syms
-'
 WIN64_DUMP_SYMS
 =
 '

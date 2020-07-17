@@ -3221,15 +3221,9 @@ dump_syms
 0
 .
 5
-+
-ELF
-/
-MachO
-/
-fixes
 revision
 :
-e9ed539dc2bb7b107b22567725daee8a91686cd5
+2603fb01a18e4e11d95b95fc08d9dacad9076f43
 fix
 -
 stacks
