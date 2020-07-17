@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -25,6 +27,7 @@ javascript
     
 body
 =
+u
 "
 test2_token
 =

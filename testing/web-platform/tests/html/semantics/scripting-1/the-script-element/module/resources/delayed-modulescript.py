@@ -18,6 +18,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -33,16 +34,17 @@ delay
 /
 1E3
 )
-;
     
 return
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -50,6 +52,7 @@ javascript
 "
 )
 ]
+u
 "
 export
 let

@@ -14,11 +14,13 @@ headers
 .
 append
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -39,6 +41,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -55,6 +58,7 @@ GET
 .
 first
 (
+b
 "
 sec
 "
@@ -69,6 +73,7 @@ response
 set_error
 (
 400
+u
 "
 Invalid
 parameter
@@ -86,6 +91,7 @@ delay
 )
     
 return
+u
 "
 log
 (

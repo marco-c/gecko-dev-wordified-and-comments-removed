@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -22,11 +24,13 @@ javascript
 "
 )
 (
+b
 "
 Cache
 -
 control
 "
+b
 "
 public
 max
@@ -40,6 +44,7 @@ age
     
 body
 =
+u
 "
 throw
 (

@@ -11,6 +11,13 @@ parse
 import
 urlencode
 urlparse
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -22,15 +29,18 @@ response
 stashed_data
 =
 {
+b
 '
 count
 '
 :
 0
+b
 '
 preflight
 '
 :
+b
 "
 0
 "
@@ -44,11 +54,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -57,11 +69,13 @@ plain
 )
                
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -70,9 +84,11 @@ cache
 )
                
 (
+b
 "
 Pragma
 "
+b
 "
 no
 -
@@ -82,6 +98,7 @@ cache
 ]
     
 if
+b
 "
 Origin
 "
@@ -96,6 +113,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -111,9 +129,11 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
+b
 "
 "
 )
@@ -125,6 +145,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -134,6 +155,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -148,6 +170,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -157,6 +180,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -168,6 +192,7 @@ token
 None
     
 if
+b
 "
 token
 "
@@ -185,6 +210,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -217,12 +243,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
         
 if
+b
 "
 allow_headers
 "
@@ -237,6 +265,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -250,6 +279,7 @@ request
 .
 GET
 [
+b
 '
 allow_headers
 '
@@ -259,17 +289,20 @@ allow_headers
         
 stashed_data
 [
+b
 '
 preflight
 '
 ]
 =
+b
 "
 1
 "
         
 if
 not
+b
 "
 redirect_preflight
 "
@@ -297,6 +330,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -307,10 +341,12 @@ stashed_data
 return
 200
 headers
+u
 "
 "
     
 if
+b
 "
 redirect_status
 "
@@ -328,6 +364,7 @@ request
 .
 GET
 [
+b
 '
 redirect_status
 '
@@ -336,6 +373,7 @@ redirect_status
     
 stashed_data
 [
+b
 '
 count
 '
@@ -345,6 +383,7 @@ count
 1
     
 if
+b
 "
 location
 "
@@ -356,16 +395,21 @@ GET
         
 url
 =
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 '
 location
 '
 ]
+)
         
 if
+b
 "
 simple
 "
@@ -389,12 +433,14 @@ if
 scheme
 =
 =
+u
 "
 "
 or
 scheme
 =
 =
+u
 "
 http
 "
@@ -402,6 +448,7 @@ or
 scheme
 =
 =
+u
 "
 https
 "
@@ -410,16 +457,19 @@ https
 url
 +
 =
+u
 "
 &
 "
 if
+u
 '
 ?
 '
 in
 url
 else
+u
 "
 ?
 "
@@ -443,12 +493,17 @@ items
                     
 url_parameters
 [
+isomorphic_decode
+(
 item
 [
 0
 ]
+)
 ]
 =
+isomorphic_decode
+(
 item
 [
 1
@@ -456,6 +511,7 @@ item
 [
 0
 ]
+)
                 
 url
 +
@@ -468,6 +524,7 @@ url_parameters
 url
 +
 =
+u
 "
 &
 count
@@ -478,6 +535,7 @@ str
 (
 stashed_data
 [
+b
 '
 count
 '
@@ -489,14 +547,19 @@ headers
 append
 (
 (
+b
 "
 Location
 "
+isomorphic_encode
+(
 url
+)
 )
 )
     
 if
+b
 "
 redirect_referrerpolicy
 "
@@ -511,6 +574,7 @@ headers
 append
 (
 (
+b
 "
 Referrer
 -
@@ -520,6 +584,7 @@ request
 .
 GET
 [
+b
 '
 redirect_referrerpolicy
 '
@@ -528,6 +593,7 @@ redirect_referrerpolicy
 )
     
 if
+b
 "
 delay
 "
@@ -549,6 +615,7 @@ GET
 .
 first
 (
+b
 "
 delay
 "
@@ -577,6 +644,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -585,6 +653,7 @@ stashed_data
 )
         
 if
+b
 "
 max_count
 "
@@ -602,6 +671,7 @@ request
 .
 GET
 [
+b
 '
 max_count
 '
@@ -611,6 +681,7 @@ max_count
 if
 stashed_data
 [
+b
 '
 count
 '
@@ -624,6 +695,7 @@ str
 (
 stashed_data
 [
+b
 '
 count
 '
@@ -635,5 +707,6 @@ count
 return
 status
 headers
+u
 "
 "

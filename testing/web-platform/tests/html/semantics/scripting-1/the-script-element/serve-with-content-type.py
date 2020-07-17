@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -16,7 +22,10 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
+)
 )
     
 try
@@ -30,6 +39,7 @@ GET
 .
 first
 (
+b
 "
 fn
 "
@@ -43,6 +53,7 @@ GET
 .
 first
 (
+b
 "
 ct
 "
@@ -58,8 +69,12 @@ path
 join
 (
 directory
+isomorphic_decode
+(
 file_name
 )
+)
+u
 "
 rb
 "
@@ -82,6 +97,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -104,6 +120,7 @@ response
 set_error
 (
 400
+u
 "
 Not
 enough

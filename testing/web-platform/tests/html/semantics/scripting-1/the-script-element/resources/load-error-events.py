@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -33,6 +35,7 @@ GET
 .
 first
 (
+b
 '
 test
 '
@@ -44,6 +47,7 @@ re
 .
 match
 (
+b
 '
 ^
 [
@@ -60,13 +64,13 @@ Z0
 test
 )
 )
-;
     
 if
 test
 .
 find
 (
+b
 '
 _load
 '
@@ -82,6 +86,7 @@ status
       
 content
 =
+b
 '
 "
 use
@@ -108,6 +113,7 @@ status
       
 content
 =
+b
 '
 "
 use

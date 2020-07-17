@@ -14,6 +14,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -32,6 +33,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -50,6 +52,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -59,6 +62,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 "
@@ -70,6 +74,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -79,6 +84,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -90,12 +96,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
         
 return
+u
 "
 "
     
@@ -103,11 +111,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -124,6 +134,7 @@ cookies
 .
 first
 (
+b
 "
 milk
 "
@@ -138,6 +149,7 @@ None
         
 return
 headers
+u
 "
 var
 included
@@ -152,6 +164,7 @@ milk
 value
 =
 =
+b
 "
 yes
 "
@@ -159,6 +172,7 @@ yes
         
 return
 headers
+u
 "
 var
 included
@@ -169,6 +183,7 @@ true
     
 return
 headers
+u
 "
 var
 included

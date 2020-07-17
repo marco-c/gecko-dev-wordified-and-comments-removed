@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -33,9 +35,11 @@ GET
 .
 first
 (
+b
 "
 result
 "
+b
 "
 success
 "
@@ -45,6 +49,7 @@ if
 result
 =
 =
+b
 "
 css
 "
@@ -61,11 +66,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -76,6 +83,7 @@ css
     
 body
 =
+u
 "
 "
   
@@ -91,6 +99,7 @@ sleep
     
 body
 =
+u
 "
 "
 "
@@ -156,6 +165,7 @@ if
 result
 =
 =
+b
 "
 parse
 -
@@ -165,6 +175,7 @@ error
       
 body
 =
+u
 "
 1
 =
@@ -178,6 +189,7 @@ if
 result
 =
 =
+b
 "
 fetch
 -
@@ -189,11 +201,13 @@ return
 404
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -201,6 +215,7 @@ plain
 '
 )
 ]
+u
 "
 "
 "
