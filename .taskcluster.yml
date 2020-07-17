@@ -2002,6 +2002,11 @@ builds
 worker
 /
 checkouts
+MOZ_AUTOMATION
+:
+'
+1
+'
 #
 mach
 generates

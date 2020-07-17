@@ -50,6 +50,16 @@ taskcluster
 /
 taskgraph
 /
+test
+/
+conftest
+.
+py
+-
+taskcluster
+/
+taskgraph
+/
 transforms
 /
 scriptworker_canary
