@@ -4621,6 +4621,7 @@ IsCalc
 )
 )
 {
+const
 auto
 &
 calc

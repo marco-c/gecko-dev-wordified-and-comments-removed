@@ -494,7 +494,9 @@ aInvalidRegion
 )
 const
 {
+const
 auto
+*
 geometry
 =
 static_cast
@@ -708,6 +710,7 @@ GetContent
 )
 )
 ;
+const
 auto
 *
 oldStyleSVG
@@ -3635,6 +3638,7 @@ aImgParams
 )
 {
 auto
+*
 element
 =
 static_cast

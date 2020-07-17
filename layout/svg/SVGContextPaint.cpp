@@ -823,6 +823,7 @@ return
 nullptr
 ;
 }
+const
 auto
 *
 contextPaint

@@ -1221,6 +1221,7 @@ GradientVectorLengthIsZero
 )
 {
 auto
+*
 lastStopFrame
 =
 stopFrames
@@ -1230,7 +1231,9 @@ nStops
 1
 ]
 ;
+const
 auto
+*
 svgReset
 =
 lastStopFrame
