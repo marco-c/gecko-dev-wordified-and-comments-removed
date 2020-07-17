@@ -162,6 +162,13 @@ cache
 "
 siteDataGroup
 "
+"
+pane
+-
+experimental
+-
+featureGates
+"
 ]
 )
 ;
