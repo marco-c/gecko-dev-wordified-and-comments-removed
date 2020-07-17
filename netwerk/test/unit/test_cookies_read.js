@@ -170,7 +170,7 @@ com
 ;
 Services
 .
-cookies
+cookiesvc
 .
 setCookieStringFromHttp
 (
