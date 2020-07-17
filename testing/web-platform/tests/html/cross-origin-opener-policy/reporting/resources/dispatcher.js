@@ -13,8 +13,6 @@ opener
 -
 policy
 /
-access
--
 reporting
 /
 resources

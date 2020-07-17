@@ -67,6 +67,8 @@ opener
 -
 policy
 /
+reporting
+/
 resources
 /
 report
@@ -151,6 +153,8 @@ opener
 -
 policy
 /
+reporting
+/
 resources
 /
 report
@@ -178,9 +182,9 @@ Opener
 -
 Policy
 :
-same
+unsafe
 -
-origin
+none
 ;
 report
 -
@@ -193,10 +197,3 @@ report
 -
 endpoint
 "
-Referrer
--
-Policy
-:
-no
--
-referrer

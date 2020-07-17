@@ -67,6 +67,8 @@ opener
 -
 policy
 /
+reporting
+/
 resources
 /
 report
@@ -150,6 +152,8 @@ origin
 opener
 -
 policy
+/
+reporting
 /
 resources
 /

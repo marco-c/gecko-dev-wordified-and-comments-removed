@@ -67,6 +67,8 @@ opener
 -
 policy
 /
+reporting
+/
 resources
 /
 report
@@ -151,6 +153,8 @@ opener
 -
 policy
 /
+reporting
+/
 resources
 /
 report
@@ -181,10 +185,6 @@ Policy
 same
 -
 origin
--
-allow
--
-popups
 ;
 report
 -
@@ -201,4 +201,6 @@ Referrer
 -
 Policy
 :
-origin
+no
+-
+referrer
