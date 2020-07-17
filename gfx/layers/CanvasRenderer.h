@@ -469,8 +469,6 @@ true
 )
 const
 ;
-protected
-:
 void
 FirePreTransactionCallback
 (
