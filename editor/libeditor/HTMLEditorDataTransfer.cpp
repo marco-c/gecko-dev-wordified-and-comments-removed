@@ -16271,7 +16271,7 @@ HTMLEditor
 AutoHTMLFragmentBoundariesFixer
 :
 :
-GetMostAncestorListOrTableElement
+GetMostDistantAncestorListOrTableElement
 (
 const
 nsTArray
@@ -16292,7 +16292,7 @@ Element
 >
 >
 &
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 )
 {
 Element
@@ -16346,7 +16346,7 @@ continue
 if
 (
 !
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 Contains
 (
@@ -16360,7 +16360,7 @@ lastFoundAncestorListOrTableElement
 }
 if
 (
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 LastElement
 (
@@ -16425,7 +16425,7 @@ continue
 if
 (
 !
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 Contains
 (
@@ -16439,7 +16439,7 @@ lastFoundAncestorListOrTableElement
 }
 if
 (
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 .
 LastElement
 (
@@ -16801,7 +16801,7 @@ Element
 >
 4
 >
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 ;
 CollectTableAndAnyListElementsOfInclusiveAncestorsAt
 (
@@ -16823,12 +16823,12 @@ aArrayOfTopMostChildContents
 [
 0
 ]
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 )
 ;
 if
 (
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 .
 IsEmpty
 (
@@ -16842,10 +16842,10 @@ Element
 *
 listOrTableElement
 =
-GetMostAncestorListOrTableElement
+GetMostDistantAncestorListOrTableElement
 (
 aArrayOfTopMostChildContents
-arrayOfListAndTableRelatedElementsAtEdge
+inclusiveAncestorsListOrTableElements
 )
 ;
 if

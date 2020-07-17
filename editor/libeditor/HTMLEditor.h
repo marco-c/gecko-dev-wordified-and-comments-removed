@@ -8757,7 +8757,7 @@ aOutArrayOfListAndTableElements
 static
 Element
 *
-GetMostAncestorListOrTableElement
+GetMostDistantAncestorListOrTableElement
 (
 const
 nsTArray
@@ -8778,7 +8778,7 @@ Element
 >
 >
 &
-aArrayOfListAndTableRelatedElements
+aInclusiveAncestorsTableOrListElements
 )
 ;
 Element
