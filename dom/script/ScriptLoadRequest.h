@@ -1334,9 +1334,6 @@ bool
 mIsInline
 ;
 bool
-mHasSourceMapURL
-;
-bool
 mInDeferList
 ;
 bool
@@ -1370,7 +1367,10 @@ OffThreadToken
 *
 mOffThreadToken
 ;
+Maybe
+<
 nsString
+>
 mSourceMapURL
 ;
 JS
