@@ -3838,7 +3838,7 @@ Open
 )
 {
 return
-NS_OK
+NS_ERROR_FAILURE
 ;
 }
 nsAutoString
