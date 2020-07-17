@@ -19128,6 +19128,10 @@ precise_local_rect
 :
 LayoutRect
 pub
+prev_precise_local_rect
+:
+LayoutRect
+pub
 segments_are_valid
 :
 bool
@@ -19776,6 +19780,14 @@ zero
 (
 )
 precise_local_rect
+:
+LayoutRect
+:
+:
+zero
+(
+)
+prev_precise_local_rect
 :
 LayoutRect
 :

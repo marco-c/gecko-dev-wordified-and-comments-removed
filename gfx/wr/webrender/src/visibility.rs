@@ -2948,8 +2948,9 @@ surface_rect
 )
 ;
 }
-let
-pic_local_rect
+pic
+.
+precise_local_rect
 =
 surface_rect
 *
@@ -2969,7 +2970,9 @@ pic
 precise_local_rect
 !
 =
-pic_local_rect
+pic
+.
+prev_precise_local_rect
 {
 match
 rc
@@ -3026,9 +3029,11 @@ false
 ;
 pic
 .
-precise_local_rect
+prev_precise_local_rect
 =
-pic_local_rect
+pic
+.
+precise_local_rect
 ;
 }
 if
