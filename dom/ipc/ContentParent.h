@@ -400,6 +400,12 @@ privilegedmozilla
 _ns
 #
 define
+NOT_REMOTE_TYPE
+VoidCString
+(
+)
+#
+define
 FISSION_WEB_REMOTE_TYPE
 "
 webIsolated

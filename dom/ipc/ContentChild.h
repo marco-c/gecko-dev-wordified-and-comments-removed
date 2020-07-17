@@ -4590,9 +4590,7 @@ mIsForBrowser
 nsCString
 mRemoteType
 =
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 bool
 mIsAlive

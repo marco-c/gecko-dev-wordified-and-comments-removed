@@ -354,9 +354,7 @@ aRemoteType
 {
 aRemoteType
 =
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 return
 NS_OK
