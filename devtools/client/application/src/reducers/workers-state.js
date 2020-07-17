@@ -5,6 +5,8 @@ strict
 ;
 const
 {
+START_WORKER
+UNREGISTER_WORKER
 UPDATE_CAN_DEBUG_WORKERS
 UPDATE_WORKERS
 }
@@ -191,6 +193,15 @@ flat
 )
 ;
 }
+case
+START_WORKER
+:
+case
+UNREGISTER_WORKER
+:
+return
+state
+;
 default
 :
 return

@@ -168,7 +168,10 @@ example
 "
 >
 <
+Connect
+(
 Worker
+)
 isDebugEnabled
 =
 {
@@ -404,7 +407,10 @@ example
 "
 >
 <
+Connect
+(
 Worker
+)
 isDebugEnabled
 =
 {
@@ -493,7 +499,10 @@ example
 "
 >
 <
+Connect
+(
 Worker
+)
 isDebugEnabled
 =
 {
@@ -728,7 +737,10 @@ example
 "
 >
 <
+Connect
+(
 Worker
+)
 isDebugEnabled
 =
 {

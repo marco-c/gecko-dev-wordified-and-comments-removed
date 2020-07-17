@@ -86,7 +86,10 @@ container__list
 "
 >
 <
+Connect
+(
 Registration
+)
 className
 =
 "
@@ -349,7 +352,10 @@ container__list
 "
 >
 <
+Connect
+(
 Registration
+)
 className
 =
 "
@@ -467,7 +473,10 @@ workerTargetFront
 /
 >
 <
+Connect
+(
 Registration
+)
 className
 =
 "
@@ -585,7 +594,10 @@ workerTargetFront
 /
 >
 <
+Connect
+(
 Registration
+)
 className
 =
 "
