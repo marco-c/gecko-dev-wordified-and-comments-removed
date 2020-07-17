@@ -215,7 +215,7 @@ if
 module
 )
 return
-SBOX_ERROR_GENERIC
+SBOX_ERROR_CANNOT_LOADLIBRARY_EXECUTABLE
 ;
 -
 child_var
@@ -259,7 +259,7 @@ if
 child_var
 )
 return
-SBOX_ERROR_GENERIC
+SBOX_ERROR_CANNOT_FIND_VARIABLE_ADDRESS
 ;
 size_t
 offset
