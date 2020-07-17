@@ -1336,11 +1336,6 @@ Promise
 jsm
 '
 '
-PromiseMessage
-.
-jsm
-'
-'
 PromiseUtils
 .
 jsm
