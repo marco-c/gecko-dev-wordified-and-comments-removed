@@ -232,6 +232,9 @@ heuristicOrder
 UrlbarProviderSearchTips
 "
 "
+Omnibox
+"
+"
 UnifiedComplete
 "
 "
