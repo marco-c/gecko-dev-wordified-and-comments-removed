@@ -478,7 +478,7 @@ name
 {
 return
 "
-TestTipProvider
+TestProviderTip
 "
 ;
 }
