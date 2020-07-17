@@ -69,16 +69,7 @@ introType
 =
 =
 "
-setTimeout
-"
-|
-|
-introType
-=
-=
-=
-"
-setInterval
+domTimer
 "
 )
 {
