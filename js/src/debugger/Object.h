@@ -869,6 +869,12 @@ isPromise
 )
 const
 ;
+bool
+isError
+(
+)
+const
+;
 JSAtom
 *
 name
