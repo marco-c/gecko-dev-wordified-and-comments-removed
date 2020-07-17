@@ -5101,14 +5101,6 @@ val
 )
 ;
 inline
-bool
-writeToIndexWouldMarkNotPacked
-(
-uint32_t
-index
-)
-;
-inline
 void
 markDenseElementsNotPacked
 (
