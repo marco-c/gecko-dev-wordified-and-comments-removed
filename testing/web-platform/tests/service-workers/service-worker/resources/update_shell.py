@@ -1,9 +1,17 @@
 import
 os
 import
-sys
-import
 time
+from
+six
+import
+PY3
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -16,11 +24,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -32,9 +42,11 @@ revalidate
 )
              
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -43,11 +55,13 @@ cache
 )
              
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -58,6 +72,7 @@ javascript
   
 timestamp
 =
+u
 '
 /
 /
@@ -73,6 +88,14 @@ time
 time
 (
 )
+time
+.
+perf_counter
+(
+)
+if
+PY3
+else
 time
 .
 clock
@@ -82,14 +105,19 @@ clock
   
 body
 =
+isomorphic_encode
+(
 timestamp
+)
 +
+b
 '
 \
 n
 '
   
 if
+b
 '
 filename
 '
@@ -113,13 +141,17 @@ path
 .
 dirname
 (
+isomorphic_encode
+(
 __file__
+)
 )
                         
 request
 .
 GET
 [
+b
 '
 filename
 '

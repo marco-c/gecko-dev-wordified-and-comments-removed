@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 serve_js_from_file
 (
@@ -11,6 +17,7 @@ filename
   
 body
 =
+b
 '
 '
   
@@ -28,7 +35,10 @@ path
 .
 dirname
 (
+isomorphic_encode
+(
 __file__
+)
 )
 filename
 )
@@ -59,11 +69,13 @@ return
 [
       
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -75,9 +87,11 @@ revalidate
 )
       
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -86,11 +100,13 @@ cache
 )
       
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -115,6 +131,7 @@ request
 .
 GET
 [
+b
 "
 Key
 "
@@ -176,6 +193,7 @@ request
 .
 GET
 [
+b
 "
 First
 "
@@ -198,6 +216,7 @@ request
 .
 GET
 [
+b
 "
 Second
 "
@@ -205,6 +224,7 @@ Second
 )
   
 raise
+u
 "
 Unknown
 state

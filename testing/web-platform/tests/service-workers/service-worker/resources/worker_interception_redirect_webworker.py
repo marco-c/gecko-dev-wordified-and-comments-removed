@@ -1,7 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
 import
-sys
+isomorphic_decode
 def
 main
 (
@@ -24,9 +28,13 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
                       
+u
 "
 worker
 -
@@ -45,6 +53,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -55,6 +64,7 @@ read
 )
   
 if
+b
 "
 greeting
 "
@@ -70,6 +80,7 @@ body
 .
 replace
 (
+b
 "
 %
 GREETING_TEXT
@@ -79,6 +90,7 @@ request
 .
 GET
 [
+b
 "
 greeting
 "
@@ -94,11 +106,13 @@ body
 .
 replace
 (
+b
 "
 %
 GREETING_TEXT
 %
 "
+b
 "
 "
 )
@@ -113,11 +127,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
