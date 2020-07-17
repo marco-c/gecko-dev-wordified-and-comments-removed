@@ -356,6 +356,8 @@ prepareForElemCallee
 (
 bool
 isSuperElem
+bool
+isPrivate
 )
 {
 MOZ_ASSERT
@@ -410,6 +412,17 @@ ObjKind
 :
 :
 Other
+isPrivate
+?
+NameVisibility
+:
+:
+Private
+:
+NameVisibility
+:
+:
+Public
 )
 ;
 state_
