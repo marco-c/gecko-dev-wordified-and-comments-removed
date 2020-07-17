@@ -413,7 +413,8 @@ it
 '
 should
 keep
-master
+main
+branch
 links
 intact
 '
@@ -450,7 +451,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -522,7 +523,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 docs
 /

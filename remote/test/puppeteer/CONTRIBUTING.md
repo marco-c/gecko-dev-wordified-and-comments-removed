@@ -516,7 +516,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 .
 eslintrc
@@ -1181,7 +1181,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 docs
 /
@@ -1213,7 +1213,7 @@ puppeteer
 /
 tree
 /
-master
+main
 /
 utils
 /
@@ -1405,7 +1405,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 test
 /
@@ -1439,7 +1439,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 test
 /
@@ -1868,7 +1868,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 docs
 /

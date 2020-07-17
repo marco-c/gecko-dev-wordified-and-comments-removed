@@ -1380,7 +1380,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 .
 travis
@@ -1828,7 +1828,7 @@ puppeteer
 /
 blob
 /
-master
+main
 /
 .
 ci

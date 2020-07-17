@@ -8,6 +8,11 @@ reporter
 '
 dot
 '
+logLevel
+:
+'
+debug
+'
 exit
 :
 !
