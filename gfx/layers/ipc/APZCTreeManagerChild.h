@@ -310,6 +310,10 @@ ScrollableLayerGuid
 &
 aGuid
 const
+LayoutDevicePoint
+&
+aFocusPoint
+const
 LayoutDeviceCoord
 &
 aSpanChange

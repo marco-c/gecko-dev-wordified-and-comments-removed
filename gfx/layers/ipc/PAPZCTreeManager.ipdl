@@ -395,6 +395,8 @@ PinchGestureType
 aType
 ScrollableLayerGuid
 aGuid
+LayoutDevicePoint
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers

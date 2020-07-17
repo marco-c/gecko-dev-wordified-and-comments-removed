@@ -677,6 +677,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+LayoutDevicePoint
+&
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers
@@ -722,6 +726,7 @@ SendNotifyPinchGesture
 (
 aType
 aGuid
+aFocusPoint
 aSpanChange
 aModifiers
 )
@@ -743,6 +748,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+LayoutDevicePoint
+&
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers
@@ -777,6 +786,7 @@ NotifyPinchGestureOnCompositorThread
 (
 aType
 aGuid
+aFocusPoint
 aSpanChange
 aModifiers
 )
@@ -796,6 +806,7 @@ PinchGestureInput
 :
 PinchGestureType
 ScrollableLayerGuid
+LayoutDevicePoint
 LayoutDeviceCoord
 Modifiers
 >
@@ -819,6 +830,7 @@ RemoteContentController
 NotifyPinchGestureOnCompositorThread
 aType
 aGuid
+aFocusPoint
 aSpanChange
 aModifiers
 )
@@ -870,6 +882,7 @@ NotifyPinchGesture
 (
 aType
 aGuid
+aFocusPoint
 aSpanChange
 aModifiers
 )

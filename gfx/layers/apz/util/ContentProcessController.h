@@ -113,6 +113,10 @@ const
 ScrollableLayerGuid
 &
 aGuid
+const
+LayoutDevicePoint
+&
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers

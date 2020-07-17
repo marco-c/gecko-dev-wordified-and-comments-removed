@@ -543,6 +543,10 @@ PinchGestureInput
 :
 PinchGestureType
 aType
+const
+LayoutDevicePoint
+&
+aFocusPoint
 LayoutDeviceCoord
 aSpanChange
 Modifiers

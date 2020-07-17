@@ -863,7 +863,7 @@ uint64_t
 )
 )
 ;
-MOCK_METHOD4
+MOCK_METHOD5
 (
 NotifyPinchGesture
 void
@@ -874,6 +874,9 @@ PinchGestureInput
 PinchGestureType
 const
 ScrollableLayerGuid
+&
+const
+LayoutDevicePoint
 &
 LayoutDeviceCoord
 Modifiers
