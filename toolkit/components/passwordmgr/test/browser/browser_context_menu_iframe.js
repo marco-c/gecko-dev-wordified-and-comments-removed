@@ -336,16 +336,6 @@ firstLoginItem
 }
 )
 ;
-await
-EventUtils
-.
-synthesizeKey
-(
-"
-KEY_Tab
-"
-)
-;
 let
 passwordValue
 =
