@@ -12,6 +12,7 @@ headers
 .
 set
 (
+b
 "
 X
 -
@@ -19,6 +20,7 @@ XSS
 -
 Protection
 "
+b
 "
 0
 "
@@ -30,11 +32,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -52,6 +56,7 @@ GET
 .
 first
 (
+b
 "
 content
 "

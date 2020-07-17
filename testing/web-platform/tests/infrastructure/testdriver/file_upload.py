@@ -7,6 +7,7 @@ response
 :
     
 return
+b
 "
 PASS
 "
@@ -37,6 +38,7 @@ upload
 n
 "
 else
+b
 "
 FAIL
 "
