@@ -2867,6 +2867,17 @@ OutputLatency
 (
 )
 {
+if
+(
+mIsShutDown
+)
+{
+return
+0
+.
+0
+;
+}
 double
 latency_s
 =
