@@ -28,13 +28,6 @@ SVGFEColorMatrixElementBinding
 h
 "
 #
-include
-"
-nsSVGUtils
-.
-h
-"
-#
 define
 NUM_ENTRIES_IN_4x5_MATRIX
 20

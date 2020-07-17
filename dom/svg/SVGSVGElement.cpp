@@ -132,6 +132,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGUtils
+.
+h
+"
+#
+include
+"
 DOMSVGAngle
 .
 h
@@ -175,13 +184,6 @@ h
 include
 "
 ISVGSVGFrame
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -2040,7 +2042,7 @@ this
 )
 ;
 return
-nsSVGUtils
+SVGUtils
 :
 :
 ClampToInt
@@ -2088,7 +2090,7 @@ this
 )
 ;
 return
-nsSVGUtils
+SVGUtils
 :
 :
 ClampToInt

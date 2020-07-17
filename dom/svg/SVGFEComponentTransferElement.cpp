@@ -34,13 +34,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

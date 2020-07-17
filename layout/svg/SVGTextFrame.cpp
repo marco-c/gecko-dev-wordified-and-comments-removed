@@ -120,20 +120,6 @@ h
 #
 include
 "
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsTArray
 .
 h
@@ -234,6 +220,15 @@ include
 mozilla
 /
 SVGOuterSVGFrame
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -2761,7 +2756,7 @@ IsEmpty
 )
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 GetStrokeWidth
@@ -2776,7 +2771,7 @@ r
 .
 UnionEdges
 (
-nsSVGUtils
+SVGUtils
 :
 :
 PathExtentsToMaxStrokeExtents
@@ -8012,7 +8007,7 @@ aColor
 AntialiasMode
 aaMode
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ToAntialiasMode
@@ -8302,7 +8297,7 @@ mColor
 NS_40PERCENT_FOREGROUND_COLOR
 )
 {
-nsSVGUtils
+SVGUtils
 :
 :
 MakeFillPatternFor
@@ -8543,7 +8538,7 @@ GetPath
 FillRule
 fillRule
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ToFillRule
@@ -8649,7 +8644,7 @@ NS_40PERCENT_FOREGROUND_COLOR
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 HasStroke
@@ -8662,7 +8657,7 @@ nullptr
 GeneralPattern
 strokePattern
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 MakeStrokePatternFor
@@ -8755,7 +8750,7 @@ outerSVGToUser
 ;
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 GetNonScalingStrokeTransform
@@ -8823,7 +8818,7 @@ drawOptions
 .
 mAntialiasMode
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ToAntialiasMode
@@ -9178,7 +9173,7 @@ appUnitsPerDevPixel
 gfxMatrix
 tm
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -9573,7 +9568,7 @@ ReflowSVGNonDisplayText
 {
 MOZ_ASSERT
 (
-nsSVGUtils
+SVGUtils
 :
 :
 AnyOuterSVGIsCallingReflowSVG
@@ -9653,7 +9648,7 @@ aReason
 MOZ_ASSERT
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 OuterSVGIsCallingReflowSVG
@@ -10276,7 +10271,7 @@ GetCanvasTM
 nsRect
 rect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ToCanvasBounds
@@ -11120,7 +11115,7 @@ EnsureSaved
 aContext
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 SetupStrokeGeometry
@@ -11399,7 +11394,7 @@ happened
 if
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestClip
@@ -11460,7 +11455,7 @@ Next
 uint16_t
 hitTestFlags
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetGeometryHitTestFlags
@@ -11575,7 +11570,7 @@ ReflowSVG
 {
 NS_ASSERTION
 (
-nsSVGUtils
+SVGUtils
 :
 :
 OuterSVGIsCallingReflowSVG
@@ -11613,7 +11608,7 @@ this
 if
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 NeedsReflowSVG
@@ -11739,7 +11734,7 @@ eIncludeTextShadow
 }
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 HasStroke
@@ -11767,7 +11762,7 @@ eIncludeTextShadow
 uint16_t
 hitTestFlags
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetGeometryHitTestFlags
@@ -11971,7 +11966,7 @@ if
 (
 aBBoxFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFillGeometry
@@ -11982,7 +11977,7 @@ eBBoxIncludeFillGeometry
 (
 aBBoxFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeFill
@@ -12024,7 +12019,7 @@ if
 (
 aBBoxFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeStrokeGeometry
@@ -12035,14 +12030,14 @@ eBBoxIncludeStrokeGeometry
 (
 aBBoxFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eBBoxIncludeStroke
 )
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 HasStroke
@@ -12106,7 +12101,7 @@ if
 (
 aFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eForGetClientRects
@@ -20341,7 +20336,7 @@ StyleChange
 }
 else
 {
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -20606,7 +20601,7 @@ this
 ;
 MOZ_ASSERT
 (
-nsSVGUtils
+SVGUtils
 :
 :
 AnyOuterSVGIsCallingReflowSVG

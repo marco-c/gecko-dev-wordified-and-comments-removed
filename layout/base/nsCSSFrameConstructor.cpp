@@ -793,7 +793,9 @@ h
 #
 include
 "
-nsSVGUtils
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -2098,7 +2100,7 @@ eSVG
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -4085,7 +4087,7 @@ if
 aContentParentFrame
 &
 &
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -14069,7 +14071,7 @@ nsIFrame
 *
 ancestorFrame
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetFirstNonAAncestorFrame
@@ -14084,7 +14086,7 @@ ancestorFrame
 |
 |
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -20566,7 +20568,7 @@ clipPaginatedOverflow
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -22987,7 +22989,7 @@ aParentFrame
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -44393,7 +44395,7 @@ IsFloatingStyle
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree

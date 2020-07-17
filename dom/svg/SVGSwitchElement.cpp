@@ -19,7 +19,9 @@ h
 #
 include
 "
-nsSVGUtils
+mozilla
+/
+Preferences
 .
 h
 "
@@ -28,7 +30,7 @@ include
 "
 mozilla
 /
-Preferences
+SVGUtils
 .
 h
 "
@@ -198,7 +200,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG

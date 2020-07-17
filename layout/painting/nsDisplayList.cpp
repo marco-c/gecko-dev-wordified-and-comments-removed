@@ -194,6 +194,24 @@ include
 "
 mozilla
 /
+SVGIntegrationUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ViewportUtils
 .
 h
@@ -244,20 +262,6 @@ h
 include
 "
 gfxMatrix
-.
-h
-"
-#
-include
-"
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -9647,7 +9651,7 @@ mSVGEffectsFrames
 {
 if
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsesSVGEffectsNotSupportedInCompositor
@@ -30463,7 +30467,7 @@ usingLayers
 {
 MOZ_ASSERT
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingEffectsForFrame
@@ -45605,7 +45609,7 @@ height
 ;
 if
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 HitTestFrameForEffects
@@ -45641,7 +45645,7 @@ BBoxInUserSpace
 const
 {
 return
-nsSVGUtils
+SVGUtils
 :
 :
 GetBBox
@@ -45660,7 +45664,7 @@ UserSpaceOffset
 const
 {
 return
-nsSVGUtils
+SVGUtils
 :
 :
 FrameSpaceInCSSPxToUserSpaceOffset
@@ -45902,7 +45906,7 @@ true
 ;
 }
 typedef
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -46733,7 +46737,7 @@ GetSize
 )
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -46763,7 +46767,7 @@ false
 bool
 painted
 =
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMask
@@ -46915,7 +46919,7 @@ false
 if
 (
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 IsMaskResourceReady
@@ -47330,7 +47334,7 @@ GetSize
 )
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -47354,7 +47358,7 @@ ComputeMaskGeometry
 params
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMaskAndClipPath
@@ -47475,7 +47479,7 @@ GetSize
 )
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -47499,7 +47503,7 @@ ComputeMaskGeometry
 params
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMaskAndClipPath
@@ -47591,7 +47595,7 @@ HasMask
 if
 (
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingSimpleClipPathForFrame
@@ -48365,7 +48369,7 @@ aUsingLayers
 |
 |
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingSimpleClipPathForFrame
@@ -48967,7 +48971,7 @@ aFrame
 )
 {
 return
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CanCreateWebRenderFiltersForFrame
@@ -49047,7 +49051,7 @@ AsSpan
 if
 (
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CreateWebRenderCSSFilters
@@ -49059,7 +49063,7 @@ wrFilters
 &
 &
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 BuildWebRenderFilters
@@ -49477,7 +49481,7 @@ ToReferenceFrame
 nsRect
 dirtyRect
 =
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetRequiredSourceForInvalidArea
@@ -49658,7 +49662,7 @@ GetSize
 )
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -49677,7 +49681,7 @@ mHandleOpacity
 imgParams
 )
 ;
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFilter
@@ -49706,7 +49710,7 @@ CanCreateWebRenderCommands
 )
 {
 return
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CanCreateWebRenderFiltersForFrame
@@ -49801,7 +49805,7 @@ AsSpan
 if
 (
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CreateWebRenderCSSFilters
@@ -49813,7 +49817,7 @@ wrFilters
 &
 &
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 BuildWebRenderFilters

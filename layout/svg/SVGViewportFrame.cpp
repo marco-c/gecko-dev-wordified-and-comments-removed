@@ -47,7 +47,9 @@ h
 #
 include
 "
-nsSVGIntegrationUtils
+mozilla
+/
+SVGUtils
 .
 h
 "
@@ -218,7 +220,7 @@ aContext
 gfxRect
 clipRect
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetClipRectForFrame
@@ -230,7 +232,7 @@ width
 height
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 SetClipRect
@@ -463,7 +465,7 @@ xOrYIsPercentage
 widthOrHeightIsPercentage
 )
 {
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -567,7 +569,7 @@ if
 (
 aFlags
 &
-nsSVGUtils
+SVGUtils
 :
 :
 eForGetClientRects
@@ -773,7 +775,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -802,7 +804,7 @@ ChildrenOnlyTransformChanged
 (
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -842,7 +844,7 @@ flags
 TRANSFORM_CHANGED
 ;
 }
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -905,7 +907,7 @@ mCanvasTM
 =
 nullptr
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 NotifyChildrenOfSVGChange
@@ -964,7 +966,7 @@ RestyleHint
 nsChangeHint_InvalidateRenderingObservers
 )
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG

@@ -58,6 +58,15 @@ include
 "
 mozilla
 /
+SVGIntegrationUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 layers
 /
 APZTestData

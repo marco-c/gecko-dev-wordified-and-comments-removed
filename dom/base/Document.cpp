@@ -1861,13 +1861,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsRefreshDriver
 .
 h

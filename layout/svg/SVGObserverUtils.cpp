@@ -108,6 +108,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGUtils
+.
+h
+"
+#
+include
+"
 nsCSSFrameConstructor
 .
 h
@@ -199,14 +208,13 @@ h
 using
 namespace
 mozilla
-;
-using
-namespace
-mozilla
 :
 :
 dom
 ;
+namespace
+mozilla
+{
 bool
 URLAndReferrerInfo
 :
@@ -772,9 +780,6 @@ forget
 )
 ;
 }
-namespace
-mozilla
-{
 class
 SVGFilterObserverList
 ;
@@ -1815,7 +1820,7 @@ eSVG
 )
 |
 |
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -2045,7 +2050,7 @@ NS_FRAME_IN_REFLOW
 )
 )
 {
-nsSVGUtils
+SVGUtils
 :
 :
 ScheduleReflowSVG
@@ -4998,6 +5003,7 @@ aFilteredFrame
 )
 ;
 return
+mozilla
 :
 :
 GetAndObserveFilters
@@ -5043,6 +5049,7 @@ FilterProperty
 )
 ;
 return
+mozilla
 :
 :
 GetAndObserveFilters
@@ -7109,7 +7116,7 @@ aFrame
 >
 RemoveProperty
 (
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectBoundingBoxProperty
@@ -7262,7 +7269,7 @@ frame
 >
 RemoveProperty
 (
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectBoundingBoxProperty

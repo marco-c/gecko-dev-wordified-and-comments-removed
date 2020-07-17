@@ -71,6 +71,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ToString
 .
 h
@@ -2720,7 +2729,7 @@ aRebuildDisplayItems
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -2789,7 +2798,7 @@ aRebuildDisplayItems
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -11195,7 +11204,7 @@ aFrame
 )
 {
 return
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -23660,7 +23669,7 @@ bool
 isLastLine
 =
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -26689,7 +26698,7 @@ n
 endif
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree

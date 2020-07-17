@@ -8,13 +8,6 @@ h
 #
 include
 "
-nsSVGIntegrationUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 PresShell

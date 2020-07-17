@@ -22,9 +22,6 @@ nsCOMPtr
 .
 h
 "
-class
-nsSVGSwitchFrame
-;
 nsresult
 NS_NewSVGSwitchElement
 (
@@ -64,12 +61,6 @@ final
 public
 SVGSwitchElementBase
 {
-friend
-class
-:
-:
-nsSVGSwitchFrame
-;
 protected
 :
 friend

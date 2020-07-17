@@ -1,7 +1,7 @@
 #
 include
 "
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 .
 h
 "
@@ -58,13 +58,6 @@ h
 include
 "
 SVGPaintServerFrame
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -163,6 +156,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Unused
 .
 h
@@ -178,10 +180,6 @@ SVGElement
 .
 h
 "
-using
-namespace
-mozilla
-;
 using
 namespace
 mozilla
@@ -210,6 +208,9 @@ mozilla
 :
 image
 ;
+namespace
+mozilla
+{
 class
 PreEffectsVisualOverflowCollector
 :
@@ -374,7 +375,7 @@ ifdef
 DEBUG
 if
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingOverflowAffectingEffects
@@ -591,7 +592,7 @@ aFirstContinuationToUserSpace
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingOverflowAffectingEffects
@@ -617,7 +618,7 @@ HasFilters
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingEffectsForFrame
@@ -686,7 +687,7 @@ HasMask
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingMaskOrClipPathForFrame
@@ -727,7 +728,7 @@ HasMask
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingSimpleClipPathForFrame
@@ -814,7 +815,7 @@ IsPolygon
 ;
 }
 nsPoint
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetOffsetToBoundingBox
@@ -858,7 +859,7 @@ TopLeft
 ;
 }
 nsSize
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetContinuationUnionSize
@@ -922,7 +923,7 @@ gfx
 :
 :
 Size
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetSVGCoordContextForNonSVGFrame
@@ -1007,7 +1008,7 @@ height
 ;
 }
 gfxRect
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetSVGBBoxForNonSVGFrame
@@ -1121,7 +1122,7 @@ AppUnitsPerCSSPixel
 ;
 }
 nsRect
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 ComputePostEffectsVisualOverflowRect
@@ -1296,7 +1297,7 @@ firstFrameToBoundingBox
 ;
 }
 nsIntRegion
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 AdjustInvalidAreaForSVGEffects
@@ -1456,7 +1457,7 @@ appUnitsPerDevPixel
 ;
 }
 nsRect
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetRequiredSourceForInvalidArea
@@ -1559,7 +1560,7 @@ toUserSpace
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 HitTestFrameForEffects
@@ -1652,7 +1653,7 @@ AppUnitsPerCSSPixel
 )
 ;
 return
-nsSVGUtils
+SVGUtils
 :
 :
 HitTestClip
@@ -1816,7 +1817,7 @@ mUserSpaceToFrameSpaceOffset
 }
 ;
 typedef
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFramesParams
@@ -1918,7 +1919,7 @@ StyleSVGReset
 gfxMatrix
 cssPxToDevPxMatrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -2420,7 +2421,7 @@ aMaskFrames
 gfxMatrix
 cssPxToDevPxMatrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -2789,7 +2790,7 @@ NS_FRAME_IS_NONDISPLAY
 Should
 not
 use
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 on
 this
 SVG
@@ -2942,7 +2943,7 @@ ToReferenceFrame
 aFrame
 )
 -
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetOffsetToBoundingBox
@@ -3009,7 +3010,7 @@ y
 gfxPoint
 toUserSpaceGfx
 =
-nsSVGUtils
+SVGUtils
 :
 :
 FrameSpaceInCSSPxToUserSpaceOffset
@@ -3182,7 +3183,7 @@ offset
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 IsMaskResourceReady
@@ -3349,7 +3350,7 @@ mContext
 }
 ;
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMask
@@ -3367,13 +3368,13 @@ aOutIsMaskComplete
 =
 true
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 MaskUsage
 maskUsage
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 DetermineMaskUsage
@@ -3633,7 +3634,7 @@ ApplyBasicShapeOrPathClip
 (
 ctx
 frame
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -3774,7 +3775,7 @@ clipMaskTransform
 gfxMatrix
 cssPxToDevPxMatrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -3856,7 +3857,7 @@ aPaintChild
 {
 MOZ_ASSERT
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingMaskOrClipPathForFrame
@@ -3905,13 +3906,13 @@ frame
 return
 ;
 }
-nsSVGUtils
+SVGUtils
 :
 :
 MaskUsage
 maskUsage
 ;
-nsSVGUtils
+SVGUtils
 :
 :
 DetermineMaskUsage
@@ -4001,7 +4002,7 @@ maskFrames
 gfxMatrix
 cssPxToDevPxMatrix
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetCSSPxToDevPxMatrix
@@ -4613,7 +4614,7 @@ PopGroupAndBlend
 }
 }
 void
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMaskAndClipPath
@@ -4703,7 +4704,7 @@ oldCtx
 ;
 }
 void
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintMaskAndClipPath
@@ -4734,7 +4735,7 @@ aPaintChild
 ;
 }
 void
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 PaintFilter
@@ -4823,7 +4824,7 @@ return
 float
 opacity
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ComputeOpacity
@@ -4949,7 +4950,7 @@ opacity
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CreateWebRenderCSSFilters
@@ -5329,9 +5330,6 @@ wrFilters
 .
 AppendElement
 (
-mozilla
-:
-:
 wr
 :
 :
@@ -5528,7 +5526,7 @@ true
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 BuildWebRenderFilters
@@ -5567,7 +5565,7 @@ aPostFilterClip
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CanCreateWebRenderFiltersForFrame
@@ -5622,7 +5620,7 @@ filterClip
 ;
 }
 bool
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsesSVGEffectsNotSupportedInCompositor
@@ -5661,7 +5659,7 @@ UseWebRender
 |
 |
 !
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 CanCreateWebRenderFiltersForFrame
@@ -5672,7 +5670,7 @@ aFrame
 }
 if
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 UsingMaskOrClipPathForFrame
@@ -5898,7 +5896,7 @@ AppUnitsPerDevPixel
 nsPoint
 offset
 =
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetOffsetToBoundingBox
@@ -6036,7 +6034,7 @@ if
 (
 mFlags
 &
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 FLAG_SYNC_DECODE_IMAGES
@@ -6222,7 +6220,7 @@ already_AddRefed
 <
 gfxDrawable
 >
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 DrawableFromPaintServer
@@ -6517,4 +6515,5 @@ forget
 (
 )
 ;
+}
 }

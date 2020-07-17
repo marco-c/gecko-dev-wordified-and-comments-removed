@@ -62,6 +62,15 @@ h
 #
 include
 "
+mozilla
+/
+SVGIntegrationUtils
+.
+h
+"
+#
+include
+"
 nsDisplayList
 .
 h

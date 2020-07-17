@@ -101,13 +101,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsCycleCollectionParticipant
 .
 h

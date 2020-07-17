@@ -53,13 +53,6 @@ Units
 .
 h
 "
-#
-include
-"
-nsSVGIntegrationUtils
-.
-h
-"
 class
 nsDisplayTransform
 ;

@@ -119,13 +119,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 mozilla
 /
 dom

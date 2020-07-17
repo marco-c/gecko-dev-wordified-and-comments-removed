@@ -125,6 +125,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TextEditor
 .
 h
@@ -1139,7 +1148,7 @@ GetWebkitTextStrokeColor
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -1176,7 +1185,7 @@ GetWebkitTextStrokeWidth
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -2791,7 +2800,7 @@ InvalidateFrame
 ;
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -8560,7 +8569,7 @@ aFrame
 if
 (
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -8644,7 +8653,7 @@ StyleText
 }
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -8742,7 +8751,7 @@ StyleText
 }
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -8845,7 +8854,7 @@ nullptr
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -10744,7 +10753,7 @@ nextBreakIndex
 bool
 isSVG
 =
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -20331,7 +20340,7 @@ GetTextColor
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -21716,7 +21725,7 @@ NS_DONT_CHANGE_COLOR
 nscolor
 frameColor
 =
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -21769,7 +21778,7 @@ NS_CHANGE_COLOR_IF_SAME_AS_BG
 nscolor
 frameColor
 =
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -24431,7 +24440,7 @@ aRebuildDisplayItems
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -24496,7 +24505,7 @@ aRebuildDisplayItems
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -25527,7 +25536,7 @@ IsForPainting
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -26496,7 +26505,7 @@ overrideColor
 else
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -26863,7 +26872,7 @@ aInflationMinFontSize
 {
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -34525,7 +34534,7 @@ true
 ;
 if
 (
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree
@@ -50571,7 +50580,7 @@ shouldSuppressLineBreak
 &
 &
 !
-nsSVGUtils
+SVGUtils
 :
 :
 IsInSVGTextSubtree

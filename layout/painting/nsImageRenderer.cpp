@@ -133,14 +133,16 @@ include
 "
 mozilla
 /
-SVGObserverUtils
+SVGIntegrationUtils
 .
 h
 "
 #
 include
 "
-nsSVGIntegrationUtils
+mozilla
+/
+SVGObserverUtils
 .
 h
 "
@@ -1303,7 +1305,7 @@ SetSize
 (
 IntSizeToAppUnits
 (
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 GetContinuationUnionSize
@@ -3757,7 +3759,7 @@ format
 {
 drawable
 =
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 DrawableFromPaintServer
@@ -3776,7 +3778,7 @@ aContext
 CurrentMatrixDouble
 (
 )
-nsSVGIntegrationUtils
+SVGIntegrationUtils
 :
 :
 FLAG_SYNC_DECODE_IMAGES

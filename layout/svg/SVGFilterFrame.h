@@ -36,13 +36,6 @@ nsQueryFrame
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 class
 nsAtom
 ;

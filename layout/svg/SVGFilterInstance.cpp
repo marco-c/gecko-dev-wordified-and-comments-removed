@@ -51,6 +51,15 @@ include
 "
 mozilla
 /
+SVGUtils
+.
+h
+"
+#
+include
+"
+mozilla
+/
 dom
 /
 HTMLCanvasElement
@@ -105,13 +114,6 @@ h
 include
 "
 SVGFilterFrame
-.
-h
-"
-#
-include
-"
-nsSVGUtils
 .
 h
 "
@@ -427,7 +429,7 @@ FILTERUNITS
 gfxRect
 userSpaceBounds
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetRelativeRect
@@ -737,7 +739,7 @@ SVG_UNIT_TYPE_OBJECTBOUNDINGBOX
 {
 value
 =
-nsSVGUtils
+SVGUtils
 :
 :
 ObjectSpace
@@ -752,7 +754,7 @@ else
 {
 value
 =
-nsSVGUtils
+SVGUtils
 :
 :
 UserSpace
@@ -922,7 +924,7 @@ SVG_LENGTHTYPE_NUMBER
 gfxRect
 feArea
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetRelativeRect
@@ -1125,7 +1127,7 @@ mFilterSpaceBounds
 gfxRect
 feArea
 =
-nsSVGUtils
+SVGUtils
 :
 :
 GetRelativeRect

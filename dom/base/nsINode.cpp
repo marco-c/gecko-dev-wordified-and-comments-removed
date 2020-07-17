@@ -652,13 +652,6 @@ h
 #
 include
 "
-nsSVGUtils
-.
-h
-"
-#
-include
-"
 nsTextNode
 .
 h

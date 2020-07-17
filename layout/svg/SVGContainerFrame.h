@@ -59,13 +59,6 @@ nsRect
 .
 h
 "
-#
-include
-"
-nsSVGUtils
-.
-h
-"
 class
 gfxContext
 ;
