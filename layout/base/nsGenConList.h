@@ -16,13 +16,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsStyleStruct
 .
 h
@@ -43,6 +36,9 @@ h
 "
 class
 nsGenConList
+;
+class
+nsIFrame
 ;
 struct
 nsGenConNode

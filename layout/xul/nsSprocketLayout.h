@@ -30,10 +30,16 @@ h
 #
 include
 "
-nsIFrame
+nsFrameState
 .
 h
 "
+class
+nsIFrame
+;
+struct
+nsRect
+;
 class
 nsBoxSize
 {

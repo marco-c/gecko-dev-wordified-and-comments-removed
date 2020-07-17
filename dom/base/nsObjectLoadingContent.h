@@ -27,6 +27,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsImageLoadingContent
 .
 h
@@ -56,13 +63,6 @@ h
 include
 "
 nsIRunnable
-.
-h
-"
-#
-include
-"
-nsIFrame
 .
 h
 "

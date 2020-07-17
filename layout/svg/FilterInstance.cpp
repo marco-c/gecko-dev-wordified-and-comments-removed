@@ -155,6 +155,13 @@ SVGFilterPaintCallback
 .
 h
 "
+#
+include
+"
+SVGIntegrationUtils
+.
+h
+"
 using
 namespace
 mozilla

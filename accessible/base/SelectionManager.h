@@ -7,13 +7,6 @@ mozilla_a11y_SelectionManager_h__
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsISelectionListener
 .
 h
@@ -173,6 +166,11 @@ mAccWithCaret
 nullptr
 ;
 }
+~
+SelectionManager
+(
+)
+;
 protected
 :
 SelectionManager

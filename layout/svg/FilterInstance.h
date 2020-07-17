@@ -77,13 +77,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 mozilla
 /
 gfx

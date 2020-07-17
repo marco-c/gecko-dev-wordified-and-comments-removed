@@ -75,9 +75,6 @@ class
 imgIContainer
 ;
 class
-nsIFrame
-;
-class
 nsPresContext
 ;
 class

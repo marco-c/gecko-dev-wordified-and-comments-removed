@@ -53,13 +53,6 @@ h
 #
 include
 "
-nsIFrame
-.
-h
-"
-#
-include
-"
 nsIWebProgress
 .
 h
@@ -72,6 +65,13 @@ mozilla
 dom
 /
 HTMLCanvasElement
+.
+h
+"
+#
+include
+"
+nsIFrame
 .
 h
 "
@@ -104,6 +104,9 @@ nsIDocShell
 ;
 class
 nsIDocumentViewerPrint
+;
+class
+nsIFrame
 ;
 class
 nsPrintObject

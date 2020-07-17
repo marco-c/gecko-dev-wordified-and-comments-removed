@@ -44,6 +44,9 @@ nsPoint
 h
 "
 class
+nsIFrame
+;
+class
 nsIScrollableFrame
 ;
 class
