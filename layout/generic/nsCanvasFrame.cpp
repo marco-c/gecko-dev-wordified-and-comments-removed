@@ -1406,7 +1406,7 @@ list
 ;
 }
 }
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -4575,7 +4575,7 @@ aContent
 nsresult
 rv
 =
-nsFrame
+nsIFrame
 :
 :
 GetContentForEvent

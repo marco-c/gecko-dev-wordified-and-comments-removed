@@ -22718,7 +22718,7 @@ if
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -23681,7 +23681,7 @@ CRAZY_COORD
 10
 )
 {
-nsFrame
+nsIFrame
 :
 :
 ListTag
@@ -33509,7 +33509,7 @@ nsBlockFrame
 gNoisyDamageRepair
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -33902,7 +33902,7 @@ height
 ca
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -36807,7 +36807,7 @@ defined
 (
 DEBUG_roc
 )
-nsFrame
+nsIFrame
 :
 :
 RootFrameList

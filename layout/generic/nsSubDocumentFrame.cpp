@@ -3269,7 +3269,7 @@ IsInline
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 ComputeAutoSize

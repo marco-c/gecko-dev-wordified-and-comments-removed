@@ -177,7 +177,7 @@ nsPlaceholderFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 #
 endif
@@ -770,7 +770,7 @@ oof
 ;
 }
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom

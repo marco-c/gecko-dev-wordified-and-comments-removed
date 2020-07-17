@@ -205,7 +205,7 @@ nsButtonFrameRenderer
 :
 SetFrame
 (
-nsFrame
+nsIFrame
 *
 aFrame
 nsPresContext

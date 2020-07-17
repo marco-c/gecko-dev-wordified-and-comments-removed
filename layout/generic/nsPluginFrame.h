@@ -174,7 +174,7 @@ nsPluginFrame
 final
 :
 public
-nsFrame
+nsIFrame
 public
 nsIObjectFrame
 public
@@ -412,7 +412,7 @@ const
 override
 {
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType

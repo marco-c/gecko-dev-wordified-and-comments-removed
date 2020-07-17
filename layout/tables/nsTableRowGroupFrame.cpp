@@ -898,7 +898,7 @@ DisplayRows
 nsDisplayListBuilder
 *
 aBuilder
-nsFrame
+nsIFrame
 *
 aFrame
 const

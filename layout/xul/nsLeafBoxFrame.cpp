@@ -442,7 +442,7 @@ aFlags
 )
 {
 return
-nsFrame
+nsIFrame
 :
 :
 ComputeAutoSize

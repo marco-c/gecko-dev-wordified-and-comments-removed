@@ -163,7 +163,7 @@ class
 nsTextFrame
 :
 public
-nsFrame
+nsIFrame
 {
 typedef
 mozilla
@@ -856,7 +856,7 @@ aID
 kClassID
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -1289,7 +1289,7 @@ const
 final
 {
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType

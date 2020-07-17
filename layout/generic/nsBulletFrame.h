@@ -93,7 +93,7 @@ nsBulletFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 typedef
 mozilla
@@ -128,7 +128,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -321,7 +321,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType

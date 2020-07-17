@@ -334,7 +334,7 @@ aChildList
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -2025,7 +2025,7 @@ nsDisplaySelectionOverlay
 nsDisplayListBuilder
 *
 aBuilder
-nsFrame
+nsIFrame
 *
 aFrame
 int16_t

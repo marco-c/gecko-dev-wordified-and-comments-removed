@@ -2758,7 +2758,7 @@ StopDrag
 )
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent
@@ -3093,7 +3093,7 @@ aEventStatus
 )
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

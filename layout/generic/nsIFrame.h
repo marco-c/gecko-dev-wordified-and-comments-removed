@@ -1425,7 +1425,7 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-nsFrame
+nsIFrame
 :
 :
 sFrameLogModule
@@ -1491,7 +1491,7 @@ if
 (
 NS_FRAME_LOG_TEST
 (
-nsFrame
+nsIFrame
 :
 :
 sFrameLogModule

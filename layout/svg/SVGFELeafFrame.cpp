@@ -75,7 +75,7 @@ SVGFELeafFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 friend
 nsIFrame
@@ -108,7 +108,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -172,7 +172,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -348,7 +348,7 @@ interfaces
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -447,7 +447,7 @@ GetParent
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 AttributeChanged

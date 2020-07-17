@@ -20923,7 +20923,7 @@ ComputedStyle
 *
 parentContext
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -42462,7 +42462,7 @@ auto
 *
 styleParentFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -43282,7 +43282,7 @@ ComputedStyle
 *
 parentStyle
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -44187,7 +44187,7 @@ nsIFrame
 *
 parentFrame
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame
@@ -44252,7 +44252,7 @@ nsIFrame
 *
 parentIgnoringFirstLine
 =
-nsFrame
+nsIFrame
 :
 :
 CorrectStyleParentFrame

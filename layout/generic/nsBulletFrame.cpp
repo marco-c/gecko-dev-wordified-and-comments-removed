@@ -365,7 +365,7 @@ nsBulletFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 #
 endif
@@ -442,7 +442,7 @@ nullptr
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -527,7 +527,7 @@ ComputedStyle
 aOldComputedStyle
 )
 {
-nsFrame
+nsIFrame
 :
 :
 DidSetComputedStyle

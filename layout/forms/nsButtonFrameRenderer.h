@@ -171,7 +171,7 @@ aRect
 void
 SetFrame
 (
-nsFrame
+nsIFrame
 *
 aFrame
 nsPresContext
@@ -251,7 +251,7 @@ ComputedStyle
 >
 mInnerFocusStyle
 ;
-nsFrame
+nsIFrame
 *
 mFrame
 ;

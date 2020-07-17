@@ -319,7 +319,7 @@ NS_OK
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 HandleEvent

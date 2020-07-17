@@ -16,7 +16,7 @@ nsBackdropFrame
 final
 :
 public
-nsFrame
+nsIFrame
 {
 public
 :
@@ -35,7 +35,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext

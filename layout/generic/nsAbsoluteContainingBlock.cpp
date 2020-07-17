@@ -210,7 +210,7 @@ name
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -287,7 +287,7 @@ list
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -385,7 +385,7 @@ parent
 #
 ifdef
 DEBUG
-nsFrame
+nsIFrame
 :
 :
 VerifyDirtyBitSet
@@ -2906,7 +2906,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy
@@ -3678,7 +3678,7 @@ nsBlockFrame
 gNoisyReflow
 )
 {
-nsFrame
+nsIFrame
 :
 :
 IndentBy

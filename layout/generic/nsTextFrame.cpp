@@ -15457,7 +15457,7 @@ nsTextFrame
 )
 NS_QUERYFRAME_TAIL_INHERITING
 (
-nsFrame
+nsIFrame
 )
 gfxSkipCharsIterator
 nsTextFrame
@@ -22946,7 +22946,7 @@ UnsetFlags
 NS_CREATE_FRAME_IF_NON_WHITESPACE
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -23043,7 +23043,7 @@ nullptr
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -23428,7 +23428,7 @@ SetNextInFlow
 this
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -23817,7 +23817,7 @@ RemoveFromFlow
 this
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom
@@ -24468,7 +24468,7 @@ InvalidateFrame
 return
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 InvalidateFrame
@@ -24533,7 +24533,7 @@ InvalidateFrame
 return
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 InvalidateFrameWithRect
@@ -34414,7 +34414,7 @@ positive
 nscolor
 result
 =
-nsFrame
+nsIFrame
 :
 :
 GetCaretColorAt
@@ -44102,7 +44102,7 @@ ClearTextRuns
 (
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 MarkIntrinsicISizesDirty
@@ -53633,7 +53633,7 @@ decorations
 )
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 ComputeCustomOverflow
@@ -53653,7 +53653,7 @@ aIncludeShadows
 )
 ;
 return
-nsFrame
+nsIFrame
 :
 :
 ComputeCustomOverflow

@@ -66,7 +66,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -105,7 +105,7 @@ this
 )
 ;
 }
-nsFrame
+nsIFrame
 :
 :
 DestroyFrom

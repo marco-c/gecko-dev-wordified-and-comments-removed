@@ -52,7 +52,7 @@ class
 nsSVGStopFrame
 :
 public
-nsFrame
+nsIFrame
 {
 friend
 nsIFrame
@@ -83,7 +83,7 @@ nsPresContext
 aPresContext
 )
 :
-nsFrame
+nsIFrame
 (
 aStyle
 aPresContext
@@ -175,7 +175,7 @@ false
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 IsFrameOfType
@@ -268,7 +268,7 @@ element
 "
 )
 ;
-nsFrame
+nsIFrame
 :
 :
 Init
@@ -361,7 +361,7 @@ GetParent
 ;
 }
 return
-nsFrame
+nsIFrame
 :
 :
 AttributeChanged
