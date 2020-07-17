@@ -42,16 +42,7 @@ args
 if
 (
 gHttpHandler
-&
-&
-gHttpHandler
--
->
-ConnMgr
-(
 )
-)
-{
 gHttpHandler
 -
 >
@@ -65,5 +56,4 @@ GetConnectionData
 args
 )
 ;
-}
 }
