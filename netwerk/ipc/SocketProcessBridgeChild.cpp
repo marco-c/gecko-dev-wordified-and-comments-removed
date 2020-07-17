@@ -797,15 +797,12 @@ shutdown
 )
 ;
 }
-MessageLoop
-:
-:
-current
+GetCurrentSerialEventTarget
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NewRunnableMethod
 (

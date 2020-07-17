@@ -295,15 +295,12 @@ mClosed
 =
 true
 ;
-MessageLoop
-:
-:
-current
+GetCurrentSerialEventTarget
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NewRunnableMethod
 (

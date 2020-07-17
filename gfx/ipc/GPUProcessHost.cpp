@@ -919,15 +919,12 @@ RevokeAll
 )
 ;
 }
-MessageLoop
-:
-:
-current
+GetCurrentSerialEventTarget
 (
 )
 -
 >
-PostTask
+Dispatch
 (
 NS_NewRunnableFunction
 (

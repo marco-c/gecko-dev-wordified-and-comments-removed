@@ -6310,15 +6310,12 @@ TryToEndRemoteDrawing
 }
 )
 ;
-MessageLoop
-:
-:
-current
+GetCurrentSerialEventTarget
 (
 )
 -
 >
-PostDelayedTask
+DelayedDispatch
 (
 runnable
 .
