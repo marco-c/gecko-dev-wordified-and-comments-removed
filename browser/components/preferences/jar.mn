@@ -91,15 +91,6 @@ browser
 /
 preferences
 /
-subdialogs
-.
-js
-content
-/
-browser
-/
-preferences
-/
 main
 .
 js
