@@ -429,6 +429,9 @@ bool
 aSwitchingInProgressLoad
 bool
 aIsRemote
+BrowsingContextGroup
+*
+aGroup
 std
 :
 :
@@ -448,6 +451,18 @@ ErrorResult
 aRv
 )
 {
+MOZ_ASSERT_IF
+(
+aGroup
+aContextType
+!
+=
+ChangeRemotenessContextType
+:
+:
+PRESERVE
+)
+;
 RefPtr
 <
 mozilla
@@ -589,6 +604,7 @@ Recreate
 (
 owner
 bc
+aGroup
 aIsRemote
 networkCreated
 aContextType
@@ -939,6 +955,7 @@ aOptions
 .
 mSwitchingInProgressLoad
 isRemote
+nullptr
 frameLoaderInit
 rv
 )
@@ -1049,6 +1066,7 @@ ChangeRemotenessContextType
 PRESERVE
 true
 true
+nullptr
 frameLoaderInit
 rv
 )
@@ -1065,6 +1083,9 @@ ContentParent
 aContentParent
 bool
 aReplaceBrowsingContext
+BrowsingContextGroup
+*
+aGroup
 mozilla
 :
 :
@@ -1078,6 +1099,12 @@ MOZ_ASSERT
 XRE_IsParentProcess
 (
 )
+)
+;
+MOZ_ASSERT_IF
+(
+aGroup
+aReplaceBrowsingContext
 )
 ;
 bool
@@ -1147,6 +1174,7 @@ ChangeRemotenessCommon
 shouldPreserve
 true
 isRemote
+aGroup
 frameLoaderInit
 rv
 )
@@ -1310,6 +1338,7 @@ ChangeRemotenessContextType
 PRESERVE
 false
 false
+nullptr
 frameLoaderInit
 IgnoreErrors
 (

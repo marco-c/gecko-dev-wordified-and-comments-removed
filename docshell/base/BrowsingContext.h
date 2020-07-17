@@ -1028,6 +1028,9 @@ aParent
 BrowsingContext
 *
 aOpener
+BrowsingContextGroup
+*
+aSpecificGroup
 const
 nsAString
 &
