@@ -760,12 +760,6 @@ case
 ArrowDown
 "
 :
-e
-.
-preventDefault
-(
-)
-;
 autocomplete
 .
 jumpBy
@@ -780,12 +774,6 @@ case
 ArrowUp
 "
 :
-e
-.
-preventDefault
-(
-)
-;
 autocomplete
 .
 jumpBy
