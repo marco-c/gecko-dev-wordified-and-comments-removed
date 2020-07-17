@@ -135,7 +135,7 @@ ServiceWorkerParent
 RecvPostMessage
 (
 const
-ClonedMessageData
+ClonedOrErrorMessageData
 &
 aClonedData
 const

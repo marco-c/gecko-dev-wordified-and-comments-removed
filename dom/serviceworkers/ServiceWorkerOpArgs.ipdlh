@@ -213,7 +213,7 @@ ServiceWorkerMessageEventOpArgs
 ClientInfoAndState
 clientInfoAndState
 ;
-ClonedMessageData
+ClonedOrErrorMessageData
 clonedData
 ;
 }
