@@ -3979,6 +3979,10 @@ extensionID
 extensionBaseURI
 manifest
 locale
+configuration
+=
+{
+}
 )
 {
 this
@@ -4002,6 +4006,7 @@ extensionID
 extensionBaseURI
 manifest
 locale
+configuration
 )
 ;
 SearchUtils
