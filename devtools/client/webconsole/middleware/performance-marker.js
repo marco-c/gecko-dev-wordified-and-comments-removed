@@ -46,6 +46,7 @@ chrome
 function
 performanceMarkerMiddleware
 (
+sessionId
 store
 )
 {
@@ -120,9 +121,12 @@ ChromeUtils
 .
 addProfilerMarker
 (
-"
 WebconsoleAddMessages
-"
+(
+{
+sessionId
+}
+)
 startTime
 {
 messages
