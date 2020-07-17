@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 token
 "
@@ -28,6 +29,7 @@ GET
 .
 first
 (
+b
 "
 query
 "
@@ -127,6 +129,7 @@ headers
 =
 [
 (
+b
 "
 Count
 "
@@ -138,6 +141,7 @@ return
 (
 200
 headers
+b
 "
 "
 )

@@ -20,6 +20,7 @@ GET
 .
 first
 (
+b
 "
 location
 "
@@ -31,6 +32,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -43,6 +45,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -52,6 +55,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "

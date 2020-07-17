@@ -14,6 +14,7 @@ request
 .
 GET
 [
+b
 "
 status
 "
@@ -40,11 +41,13 @@ return
 status
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /

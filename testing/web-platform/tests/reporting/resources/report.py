@@ -16,6 +16,7 @@ GET
 .
 first
 (
+b
 '
 id
 '
@@ -27,6 +28,7 @@ request
 method
 =
 =
+u
 '
 POST
 '
@@ -81,6 +83,7 @@ reports
 )
     
 return
+b
 '
 done
 '
@@ -91,6 +94,7 @@ request
 method
 =
 =
+u
 '
 GET
 '
@@ -123,6 +127,7 @@ status
 400
   
 return
+b
 '
 invalid
 method

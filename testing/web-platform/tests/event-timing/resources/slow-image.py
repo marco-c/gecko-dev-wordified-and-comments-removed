@@ -23,11 +23,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -45,9 +47,11 @@ headers
 .
 set
 (
+b
 "
 Location
 "
+b
 "
 data
 :

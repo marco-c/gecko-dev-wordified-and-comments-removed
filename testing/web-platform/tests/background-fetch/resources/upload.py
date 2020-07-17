@@ -10,6 +10,7 @@ return
 200
 [
 (
+b
 "
 Content
 -
@@ -19,6 +20,7 @@ request
 .
 headers
 [
+b
 '
 content
 -
