@@ -891,6 +891,15 @@ SCALAR_KEY
 delta
 )
 ;
+ChromeUtils
+.
+addProfilerMarker
+(
+"
+aboutHomeTopsitesFirstPaint
+"
+)
+;
 this
 .
 _alreadyRecordedTopsitesPainted
