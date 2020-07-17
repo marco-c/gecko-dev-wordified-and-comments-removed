@@ -33,13 +33,13 @@ mozcrash
 mozdevice
 >
 =
-3
+4
 .
 0
 .
-1
+0
 <
-4
+5
 mozinfo
 >
 =
