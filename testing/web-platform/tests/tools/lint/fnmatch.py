@@ -18,17 +18,17 @@ MYPY
 from
 typing
 import
-AnyStr
-    
-from
-typing
-import
 Iterable
     
 from
 typing
 import
 List
+    
+from
+typing
+import
+Text
 __all__
 =
 [

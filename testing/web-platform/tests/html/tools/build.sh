@@ -22,7 +22,7 @@ cd
 virtualenv
 -
 p
-python
+python2
 .
 virtualenv
 .

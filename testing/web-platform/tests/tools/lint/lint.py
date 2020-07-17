@@ -10,6 +10,8 @@ argparse
 import
 ast
 import
+io
+import
 json
 import
 logging
@@ -78,6 +80,8 @@ from
 six
 import
 binary_type
+ensure_binary
+ensure_text
 iteritems
 itervalues
 with_metaclass
@@ -159,11 +163,6 @@ from
 typing
 import
 Type
-    
-from
-typing
-import
-Union
     
 Ignorelist
 =
@@ -484,10 +483,18 @@ path_filter
 PathFilter
 (
 repo_root
+.
+encode
+(
+"
+utf8
+"
+)
+                             
 extras
 =
 [
-str
+ensure_binary
 (
 "
 .
@@ -505,6 +512,17 @@ subdir
 expanded_path
 =
 subdir
+.
+encode
+(
+"
+utf8
+"
+)
+        
+subdir_str
+=
+expanded_path
     
 else
 :
@@ -512,6 +530,13 @@ else
 expanded_path
 =
 repo_root
+.
+encode
+(
+"
+utf8
+"
+)
     
 for
 dirpath
@@ -558,7 +583,7 @@ path
 .
 join
 (
-subdir
+subdir_str
 path
 )
             
@@ -575,7 +600,10 @@ path
 path
             
 yield
+ensure_text
+(
 path
+)
 def
 _all_files_equal
 (
@@ -1292,6 +1320,7 @@ strip
 .
 split
 (
+b
 '
 \
 n
@@ -1300,7 +1329,7 @@ n
 :
                 
 match_filter
-path
+path_bytes
 =
 match
 .
@@ -1316,6 +1345,7 @@ match_filter
 .
 split
 (
+b
 '
 :
 '
@@ -1325,13 +1355,27 @@ if
 filter_string
 [
 0
+:
+1
 ]
 !
 =
+b
 '
 !
 '
 :
+                    
+path
+=
+path_bytes
+.
+decode
+(
+"
+utf8
+"
+)
                     
 errors
 .
@@ -1634,34 +1678,6 @@ nt
 "
 :
             
-if
-isinstance
-(
-path
-binary_type
-)
-:
-                
-path
-=
-path
-.
-replace
-(
-b
-"
-\
-\
-"
-b
-"
-/
-"
-)
-            
-else
-:
-                
 path
 =
 path
@@ -1685,6 +1701,7 @@ path
 .
 startswith
 (
+u
 "
 css
 /
@@ -1700,6 +1717,7 @@ SourceFile
 (
 repo_root
 path
+u
 "
 /
 "
@@ -1717,6 +1735,7 @@ path
 .
 find
 (
+u
 "
 /
 support
@@ -1770,6 +1789,7 @@ source_file
 dir_non_test
 -
 {
+u
 "
 support
 "
@@ -1856,33 +1876,6 @@ source_file
 .
 name
             
-if
-isinstance
-(
-test_name
-bytes
-)
-:
-                
-test_name
-=
-test_name
-.
-replace
-(
-b
-'
--
-manual
-'
-b
-'
-'
-)
-            
-else
-:
-                
 test_name
 =
 test_name
@@ -1974,6 +1967,7 @@ SourceFile
 (
 repo_root
 path
+u
 "
 /
 "
@@ -5881,12 +5875,9 @@ kwargs
 .
 get
 (
-str
-(
 "
 paths
 "
-)
 )
 :
         
@@ -5902,12 +5893,9 @@ kwargs
 .
 get
 (
-str
-(
 "
 paths
 "
-)
 [
 ]
 )
@@ -5978,12 +5966,9 @@ wpt_root
 elif
 kwargs
 [
-str
-(
 "
 all
 "
-)
 ]
 :
         
@@ -6184,6 +6169,10 @@ repo
 -
 root
 "
+type
+=
+ensure_text
+                        
 help
 =
 "
@@ -6219,6 +6208,10 @@ ignore
 -
 glob
 "
+type
+=
+ensure_text
+                        
 help
 =
 "
@@ -6278,9 +6271,28 @@ main
 (
 *
 *
-kwargs
+kwargs_str
 )
 :
+    
+kwargs
+=
+{
+ensure_text
+(
+key
+)
+:
+value
+for
+key
+value
+in
+iteritems
+(
+kwargs_str
+)
+}
     
 assert
 logger
@@ -6293,24 +6305,18 @@ kwargs
 .
 get
 (
-str
-(
 "
 json
 "
-)
 )
 and
 kwargs
 .
 get
 (
-str
-(
 "
 markdown
 "
-)
 )
 :
         
@@ -6344,12 +6350,9 @@ kwargs
 .
 get
 (
-str
-(
 '
 repo_root
 '
-)
 )
 or
 localpaths
@@ -6364,36 +6367,27 @@ True
 False
 )
 :
-str
-(
 "
 json
 "
-)
                      
 (
 False
 True
 )
 :
-str
-(
 "
 markdown
 "
-)
                      
 (
 False
 False
 )
 :
-str
-(
 "
 normal
 "
-)
 }
 [
 (
@@ -6401,25 +6395,19 @@ kwargs
 .
 get
 (
-str
-(
 "
 json
 "
-)
 False
 )
-                                                     
+                                                
 kwargs
 .
 get
 (
-str
-(
 "
 markdown
 "
-)
 False
 )
 )
@@ -6453,17 +6441,13 @@ kwargs
 .
 get
 (
-str
-(
 "
 ignore_glob
 "
 )
-)
 or
-str
-(
-)
+"
+"
     
 return
 lint
@@ -6471,10 +6455,7 @@ lint
 repo_root
 paths
 output_format
-str
-(
 ignore_glob
-)
 )
 def
 lint
@@ -6484,9 +6465,8 @@ paths
 output_format
 ignore_glob
 =
-str
-(
-)
+"
+"
 )
 :
     
@@ -6502,6 +6482,8 @@ last
 None
     
 with
+io
+.
 open
 (
 os
@@ -6517,6 +6499,9 @@ lint
 ignore
 "
 )
+"
+r
+"
 )
 as
 f
@@ -6782,6 +6767,8 @@ abs_path
 :
             
 with
+io
+.
 open
 (
 abs_path
@@ -6790,7 +6777,7 @@ rb
 '
 )
 as
-f
+test_file
 :
                 
 errors
@@ -6799,7 +6786,7 @@ check_file_contents
 (
 repo_root
 path
-f
+test_file
 )
                 
 last

@@ -4,10 +4,6 @@ import
 platform
 import
 subprocess
-from
-six
-import
-BytesIO
 MYPY
 =
 False
@@ -28,17 +24,7 @@ Callable
 from
 typing
 import
-AnyStr
-    
-from
-typing
-import
 Any
-    
-from
-typing
-import
-BinaryIO
     
 from
 typing
@@ -114,6 +100,7 @@ url_base
 ]
 !
 =
+u
 "
 /
 "
@@ -121,6 +108,7 @@ url_base
         
 url_base
 =
+u
 "
 /
 "
@@ -135,6 +123,7 @@ url_base
 ]
 !
 =
+u
 "
 /
 "
@@ -143,6 +132,7 @@ url_base
 url_base
 +
 =
+u
 "
 /
 "
@@ -157,6 +147,7 @@ replace
 os
 .
 sep
+u
 "
 /
 "
@@ -176,6 +167,7 @@ path
 sep
 =
 =
+u
 "
 /
 "
@@ -192,6 +184,7 @@ Windows
 "
     
 if
+u
 "
 /
 "
@@ -222,12 +215,14 @@ os
 path
 .
 sep
+u
 "
 /
 "
 )
     
 if
+u
 "
 \
 \
@@ -275,6 +270,7 @@ path
 sep
 =
 =
+u
 "
 /
 "
@@ -291,6 +287,7 @@ Windows
 "
     
 if
+u
 "
 \
 \
@@ -312,6 +309,7 @@ contains
 )
     
 if
+u
 "
 /
 "
@@ -332,6 +330,7 @@ path
 .
 replace
 (
+u
 "
 /
 "
@@ -360,6 +359,7 @@ args
 full_cmd
 =
 [
+u
 "
 git
 "
@@ -430,6 +430,7 @@ full_cmd
 0
 ]
 =
+u
 "
 git
 .
@@ -469,11 +470,13 @@ try
         
 gitfunc
 (
+u
 "
 rev
 -
 parse
 "
+u
 "
 -
 -
@@ -500,43 +503,6 @@ else
         
 return
 gitfunc
-class
-ContextManagerBytesIO
-(
-BytesIO
-)
-:
-    
-def
-__enter__
-(
-self
-)
-:
-        
-return
-self
-    
-def
-__exit__
-(
-self
-*
-args
-*
-*
-kwargs
-)
-:
-        
-self
-.
-close
-(
-)
-        
-return
-True
 class
 cached_property
 (

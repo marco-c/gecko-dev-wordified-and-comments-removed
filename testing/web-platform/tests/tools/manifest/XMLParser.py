@@ -25,6 +25,10 @@ etree
 ElementTree
 as
 etree
+from
+six
+import
+text_type
 MYPY
 =
 False
@@ -452,6 +456,13 @@ tag
 attrib_in
 )
 :
+        
+assert
+isinstance
+(
+tag
+text_type
+)
         
 self
 .

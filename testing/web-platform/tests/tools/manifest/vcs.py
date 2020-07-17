@@ -21,11 +21,6 @@ with_metaclass
 PY2
 from
 .
-sourcefile
-import
-SourceFile
-from
-.
 utils
 import
 git
@@ -64,7 +59,6 @@ Text
 Iterable
 Any
 Tuple
-Union
 Iterator
     
 from
@@ -125,6 +119,7 @@ path
 join
 (
 tests_root
+u
 "
 .
 wptcache
@@ -481,7 +476,7 @@ def
 __init__
 (
 self
-root
+tests_root
 url_base
 cache_path
 manifest_path
@@ -495,16 +490,9 @@ False
         
 self
 .
-root
+tests_root
 =
-os
-.
-path
-.
-abspath
-(
-root
-)
+tests_root
         
 self
 .
@@ -523,6 +511,17 @@ self
 mtime_cache
 =
 None
+        
+tests_root_bytes
+=
+tests_root
+.
+encode
+(
+"
+utf8
+"
+)
         
 if
 cache_path
@@ -545,7 +544,7 @@ mtime_cache
 MtimeCache
 (
 cache_path
-root
+tests_root
 manifest_path
 rebuild
 )
@@ -555,7 +554,7 @@ gitignore
 .
 has_ignore
 (
-root
+tests_root_bytes
 )
 :
                 
@@ -566,7 +565,7 @@ ignore_cache
 GitIgnoreCache
 (
 cache_path
-root
+tests_root
 rebuild
 )
         
@@ -578,13 +577,12 @@ gitignore
 .
 PathFilter
 (
-self
-.
-root
+tests_root_bytes
                                                 
 extras
 =
 [
+b
 "
 .
 git
@@ -603,7 +601,7 @@ git
 =
 GitHasher
 (
-root
+tests_root
 )
         
 if
@@ -655,11 +653,19 @@ self
 .
 path_filter
 (
+                
 walk
 (
 self
 .
-root
+tests_root
+.
+encode
+(
+"
+utf8
+"
+)
 )
 )
 :
@@ -682,6 +688,13 @@ join
 dirpath
 filename
 )
+.
+decode
+(
+"
+utf8
+"
+)
                 
 if
 mtime_cache
@@ -697,7 +710,7 @@ path_stat
 )
 :
                     
-hash
+file_hash
 =
 self
 .
@@ -710,17 +723,8 @@ None
 )
                     
 yield
-SourceFile
-(
-self
-.
-root
 path
-self
-.
-url_base
-hash
-)
+file_hash
 True
                 
 else
@@ -728,6 +732,7 @@ else
                     
 yield
 path
+None
 False
     
 def
@@ -1023,6 +1028,7 @@ CacheFile
     
 file_name
 =
+u
 "
 mtime
 .
@@ -1158,6 +1164,7 @@ data
 .
 get
 (
+u
 "
 /
 tests_root
@@ -1217,6 +1224,7 @@ data
 .
 get
 (
+u
 "
 /
 manifest_path
@@ -1417,6 +1425,7 @@ data
 .
 get
 (
+u
 "
 /
 gitignore_file
@@ -1443,6 +1452,7 @@ data
             
 data
 [
+u
 "
 /
 gitignore_file
@@ -1780,6 +1790,7 @@ deque
 [
 (
 root
+b
 "
 "
 )

@@ -7,6 +7,7 @@ itertools
 from
 six
 import
+ensure_binary
 itervalues
 iteritems
 from
@@ -125,6 +126,7 @@ i
     
 any_char
 =
+b
 "
 [
 ^
@@ -136,9 +138,12 @@ if
 pat
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 /
 "
@@ -148,6 +153,7 @@ parts
 .
 append
 (
+b
 "
 ^
 "
@@ -168,6 +174,7 @@ parts
 .
 append
 (
+b
 "
 ^
 (
@@ -190,9 +197,11 @@ pat
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 /
 "
@@ -209,6 +218,7 @@ pat
         
 suffix
 =
+b
 "
 (
 ?
@@ -223,6 +233,7 @@ else
         
 suffix
 =
+b
 "
 "
     
@@ -240,12 +251,17 @@ c
 pat
 [
 i
+:
+i
++
+1
 ]
         
 if
 c
 =
 =
+b
 "
 \
 \
@@ -273,6 +289,10 @@ c
 pat
 [
 i
+:
+i
++
+1
 ]
                 
 parts
@@ -304,6 +324,7 @@ if
 c
 =
 =
+b
 "
 ]
 "
@@ -318,9 +339,11 @@ parts
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 [
 "
@@ -340,9 +363,11 @@ parts
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 ^
 "
@@ -351,9 +376,13 @@ parts
 [
 -
 2
+:
+-
+1
 ]
 =
 =
+b
 "
 [
 "
@@ -382,6 +411,7 @@ elif
 c
 =
 =
+b
 "
 -
 "
@@ -394,23 +424,39 @@ append
 c
 )
             
+elif
+c
+=
+=
+b
+"
+[
+"
+:
+                
+raise
+ValueError
+            
 else
 :
                 
 parts
-+
-=
+.
+append
+(
 re
 .
 escape
 (
 c
 )
+)
         
 elif
 c
 =
 =
+b
 "
 [
 "
@@ -420,6 +466,7 @@ parts
 .
 append
 (
+b
 "
 [
 "
@@ -440,12 +487,18 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 in
 (
+b
 "
 !
 "
+b
 "
 ^
 "
@@ -456,6 +509,7 @@ parts
 .
 append
 (
+b
 "
 ^
 "
@@ -474,6 +528,7 @@ elif
 c
 =
 =
+b
 "
 *
 "
@@ -494,9 +549,14 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 =
 =
+b
 "
 *
 "
@@ -512,9 +572,12 @@ pat
 i
 -
 1
+:
+i
 ]
 !
 =
+b
 "
 /
 "
@@ -527,6 +590,7 @@ parts
 .
 append
 (
+b
 "
 .
 *
@@ -553,9 +617,14 @@ pat
 i
 +
 1
+:
+i
++
+2
 ]
 !
 =
+b
 "
 /
 "
@@ -573,6 +642,7 @@ append
 (
 any_char
 +
+b
 "
 *
 "
@@ -582,6 +652,7 @@ elif
 c
 =
 =
+b
 "
 ?
 "
@@ -598,6 +669,7 @@ elif
 c
 =
 =
+b
 "
 /
 "
@@ -646,6 +718,7 @@ parts
 0
 ]
 =
+b
 "
 ^
 "
@@ -676,6 +749,7 @@ re
 .
 compile
 (
+b
 "
 "
 .
@@ -697,7 +771,7 @@ re
 .
 compile
 (
-r
+br
 "
 .
 *
@@ -733,9 +807,12 @@ or
 line
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 #
 "
@@ -749,9 +826,12 @@ invert
 line
 [
 0
+:
+1
 ]
 =
 =
+b
 "
 !
 "
@@ -774,9 +854,11 @@ line
 [
 -
 1
+:
 ]
 =
 =
+b
 "
 /
 "
@@ -819,6 +901,7 @@ line
 .
 rsplit
 (
+b
 "
 /
 "
@@ -879,6 +962,7 @@ path
 join
 (
 root
+b
 "
 .
 gitignore
@@ -1020,6 +1104,9 @@ with
 open
 (
 ignore_path
+"
+rb
+"
 )
 as
 f
@@ -1101,7 +1188,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 rule
@@ -1242,7 +1329,7 @@ cast
 (
 Tuple
 [
-str
+bytes
 .
 .
 .
@@ -1324,7 +1411,7 @@ Tuple
 bool
 Pattern
 [
-str
+bytes
 ]
 ]
 rule
@@ -1389,13 +1476,17 @@ orig_dirpath
 dirpath
             
 if
+ensure_binary
+(
 os
 .
 path
 .
 sep
+)
 !
 =
+b
 "
 /
 "
@@ -1407,11 +1498,15 @@ dirpath
 .
 replace
 (
+ensure_binary
+(
 os
 .
 path
 .
 sep
+)
+b
 "
 /
 "
@@ -1445,6 +1540,7 @@ self
 .
 patterns_dir
 keep_dirs
+b
 "
 /
 "
@@ -1459,6 +1555,7 @@ self
 .
 patterns_file
 keep_files
+b
 "
 "
 )
@@ -1484,6 +1581,7 @@ dirpath
                         
 path
 =
+b
 "
 %
 s
@@ -1706,6 +1804,7 @@ assert
 not
 any
 (
+b
 "
 .
 git
@@ -1772,6 +1871,7 @@ path
 join
 (
 dirpath
+b
 "
 .
 gitignore

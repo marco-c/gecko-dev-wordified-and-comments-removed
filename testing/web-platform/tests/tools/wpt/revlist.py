@@ -233,6 +233,7 @@ args
         
 pattern
         
+u
 '
 -
 -
@@ -242,6 +243,7 @@ sort
 committerdate
 '
         
+u
 '
 -
 -
@@ -267,6 +269,7 @@ raw
 )
 '
         
+u
 '
 -
 -
@@ -277,11 +280,11 @@ count
     
 ]
     
-for
-line
-in
+ref_list
+=
 git
 (
+u
 "
 for
 -
@@ -292,11 +295,23 @@ ref
 *
 args
 )
+    
+for
+line
+in
+ref_list
 .
 splitlines
 (
 )
 :
+        
+if
+not
+line
+:
+            
+continue
         
 tag
 commit
@@ -307,6 +322,7 @@ line
 .
 split
 (
+u
 "
 "
 )
@@ -375,6 +391,7 @@ date
 in
 get_tagged_revisions
 (
+u
 "
 refs
 /

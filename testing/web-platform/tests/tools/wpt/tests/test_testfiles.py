@@ -40,7 +40,7 @@ abcdef
 )
 =
 =
-b
+u
 "
 abcdef
 "
@@ -59,7 +59,7 @@ abcdef
 )
 =
 =
-b
+u
 "
 abcdef
 "
@@ -98,7 +98,7 @@ get_revish
 )
 =
 =
-b
+u
 "
 base
 .
