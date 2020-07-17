@@ -2035,8 +2035,9 @@ NS_ERROR_DOM_ABORT_ERR
 return
 ;
 }
-MOZ_DIAGNOSTIC_ASSERT
+if
 (
+!
 mRegistration
 -
 >
@@ -2044,7 +2045,14 @@ GetInstalling
 (
 )
 )
+{
+return
+FailUpdateJob
+(
+NS_ERROR_DOM_ABORT_ERR
+)
 ;
+}
 mRegistration
 -
 >
