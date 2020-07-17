@@ -120,7 +120,6 @@ override
 ;
 #
 endif
-virtual
 void
 SetPageNumInfo
 (
@@ -130,7 +129,6 @@ int32_t
 aTotalPages
 )
 ;
-virtual
 void
 SetSharedPageData
 (

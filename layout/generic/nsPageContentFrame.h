@@ -119,7 +119,6 @@ eCanContainOverflowContainers
 )
 ;
 }
-virtual
 void
 SetSharedPageData
 (
