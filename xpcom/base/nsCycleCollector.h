@@ -178,7 +178,7 @@ nsCycleCollector_createLogger
 (
 )
 ;
-void
+bool
 nsCycleCollector_collect
 (
 nsICycleCollectorListener
