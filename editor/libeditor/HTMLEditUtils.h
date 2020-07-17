@@ -2163,6 +2163,16 @@ aAncestorLimiter
 static
 Element
 *
+GetInclusiveAncestorEditableBlockElementOrInlineEditingHost
+(
+nsIContent
+&
+aContent
+)
+;
+static
+Element
+*
 GetClosestAncestorTableElement
 (
 const

@@ -2315,16 +2315,6 @@ GetWSNodes
 (
 )
 ;
-nsIContent
-*
-GetEditableBlockParentOrTopmotEditableInlineContent
-(
-nsIContent
-*
-aContent
-)
-const
-;
 EditorDOMPointInText
 GetPreviousCharPointFromPointInText
 (
