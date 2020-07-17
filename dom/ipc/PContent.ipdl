@@ -3616,10 +3616,12 @@ uri
 sync
 GetFixupURIInfo
 (
-nsCString
+nsString
 uriString
 uint32_t
 fixupflags
+bool
+aAllowThirdPartyFixup
 )
 returns
 (
@@ -3627,8 +3629,6 @@ nsString
 providerName
 nsIInputStream
 postData
-nsIURI
-fixedURI
 nsIURI
 preferredURI
 )
