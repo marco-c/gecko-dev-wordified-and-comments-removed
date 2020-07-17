@@ -256,6 +256,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 ;
 bool
@@ -273,6 +277,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 ;
 bool
@@ -777,6 +785,8 @@ LayoutDeviceIntRect
 aCaretRect
 int32_t
 aOffset
+bool
+aIsSelectionCollapsed
 )
 :
 DeferredEvent
@@ -794,6 +804,10 @@ aCaretRect
 mOffset
 (
 aOffset
+)
+mIsSelectionCollapsed
+(
+aIsSelectionCollapsed
 )
 {
 }
@@ -817,6 +831,7 @@ SendCaretMoveEvent
 mID
 mCaretRect
 mOffset
+mIsSelectionCollapsed
 )
 ;
 }
@@ -828,6 +843,9 @@ mCaretRect
 ;
 int32_t
 mOffset
+;
+bool
+mIsSelectionCollapsed
 ;
 }
 ;

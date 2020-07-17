@@ -4540,6 +4540,12 @@ event
 GetCaretOffset
 (
 )
+event
+-
+>
+IsSelectionCollapsed
+(
+)
 )
 ;
 break

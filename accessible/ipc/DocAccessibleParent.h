@@ -369,6 +369,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 final
 ;

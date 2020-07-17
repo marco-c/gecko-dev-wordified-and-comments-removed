@@ -296,6 +296,8 @@ uint64_t
 aID
 int32_t
 aOffset
+bool
+aIsSelectionCollapsed
 )
 ;
 async

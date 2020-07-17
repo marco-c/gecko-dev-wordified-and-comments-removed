@@ -1656,6 +1656,10 @@ const
 int32_t
 &
 aOffset
+const
+bool
+&
+aIsSelectionCollapsed
 )
 {
 if
@@ -1720,6 +1724,7 @@ ProxyCaretMoveEvent
 (
 proxy
 aOffset
+aIsSelectionCollapsed
 )
 ;
 #

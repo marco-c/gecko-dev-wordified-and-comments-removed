@@ -206,6 +206,8 @@ LayoutDeviceIntRect
 aCaretRect
 int32_t
 aOffset
+bool
+aIsSelectionCollapsed
 )
 ;
 async
