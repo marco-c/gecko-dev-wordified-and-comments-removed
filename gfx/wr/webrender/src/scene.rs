@@ -398,6 +398,14 @@ clear
 (
 )
 ;
+self
+.
+color_properties
+.
+clear
+(
+)
+;
 for
 property
 in
