@@ -779,6 +779,9 @@ GL_IMG_texture_npot
 GL_KHR_debug
 "
 "
+GL_KHR_parallel_shader_compile
+"
+"
 GL_KHR_robust_buffer_access_behavior
 "
 "

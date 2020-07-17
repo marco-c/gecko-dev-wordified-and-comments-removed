@@ -1059,6 +1059,7 @@ IMG_read_format
 IMG_texture_compression_pvrtc
 IMG_texture_npot
 KHR_debug
+KHR_parallel_shader_compile
 KHR_robust_buffer_access_behavior
 KHR_robustness
 KHR_texture_compression_astc_hdr
