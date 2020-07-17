@@ -455,15 +455,6 @@ linux64
 fuzzing
 -
 debug
-attributes
-:
-enable
--
-full
--
-crashsymbols
-:
-true
 treeherder
 :
 platform
