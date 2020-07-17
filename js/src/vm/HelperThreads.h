@@ -342,8 +342,10 @@ IonCompileTaskVector
 typedef
 Vector
 <
+UniquePtr
+<
 ParseTask
-*
+>
 0
 SystemAllocPolicy
 >
