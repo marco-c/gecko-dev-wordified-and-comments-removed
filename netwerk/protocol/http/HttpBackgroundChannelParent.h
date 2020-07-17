@@ -48,7 +48,7 @@ nsISupportsImpl
 h
 "
 class
-nsIEventTarget
+nsISerialEventTarget
 ;
 namespace
 mozilla
@@ -251,6 +251,12 @@ nsACString
 aFullHashes
 )
 ;
+nsISerialEventTarget
+*
+GetBackgroundTarget
+(
+)
+;
 protected
 :
 void
@@ -280,7 +286,7 @@ mBgThreadMutex
 ;
 nsCOMPtr
 <
-nsIEventTarget
+nsISerialEventTarget
 >
 mBackgroundThread
 ;
