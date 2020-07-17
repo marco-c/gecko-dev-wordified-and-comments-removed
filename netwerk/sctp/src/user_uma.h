@@ -215,7 +215,7 @@ uma_fini
 fini
 int
 align
-u_int32_t
+uint32_t
 flags
 )
 ;
@@ -244,7 +244,7 @@ uma_fini
 fini
 int
 align
-u_int32_t
+uint32_t
 flags
 )
 {
