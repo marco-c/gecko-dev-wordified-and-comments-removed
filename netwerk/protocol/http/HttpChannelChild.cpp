@@ -1082,6 +1082,9 @@ this
 )
 ;
 #
+if
+0
+#
 ifdef
 MOZ_DIAGNOSTIC_ASSERT_ENABLED
 if
@@ -1372,6 +1375,8 @@ flags
 )
 ;
 }
+#
+endif
 #
 endif
 ReleaseMainThreadOnlyReferences
