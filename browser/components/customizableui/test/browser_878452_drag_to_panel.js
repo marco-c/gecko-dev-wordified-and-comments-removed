@@ -221,6 +221,11 @@ again
 "
 )
 ;
+await
+endCustomizing
+(
+)
+;
 }
 )
 ;
@@ -401,6 +406,11 @@ again
 "
 )
 ;
+await
+endCustomizing
+(
+)
+;
 }
 )
 ;
@@ -556,6 +566,11 @@ id
 ]
 )
 ;
+await
+endCustomizing
+(
+)
+;
 }
 )
 ;
@@ -584,11 +599,6 @@ drag
 -
 to
 "
-)
-;
-await
-endCustomizing
-(
 )
 ;
 await
