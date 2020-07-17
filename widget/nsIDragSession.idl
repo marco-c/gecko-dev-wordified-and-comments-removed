@@ -306,6 +306,9 @@ document
 .
 *
 /
+[
+infallible
+]
 readonly
 attribute
 Document
