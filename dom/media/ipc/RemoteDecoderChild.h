@@ -264,6 +264,7 @@ mDecodedData
 ;
 private
 :
+const
 RefPtr
 <
 nsIThread
