@@ -26287,6 +26287,8 @@ funbox
 -
 >
 wasEmitted
+(
+)
 )
 {
 if
@@ -26397,10 +26399,11 @@ isRunOnceLambda
 funbox
 -
 >
-isSingleton
-=
+setIsSingleton
+(
 checkRunOnceContext
 (
+)
 )
 ;
 if

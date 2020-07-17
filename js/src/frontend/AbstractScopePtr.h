@@ -101,9 +101,6 @@ struct
 CompilationInfo
 ;
 class
-FunctionBox
-;
-class
 ScopeCreationData
 ;
 }
@@ -186,16 +183,6 @@ js
 :
 :
 Scope
-;
-friend
-class
-js
-:
-:
-frontend
-:
-:
-FunctionBox
 ;
 AbstractScopePtr
 (
