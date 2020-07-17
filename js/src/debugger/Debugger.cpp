@@ -1287,10 +1287,7 @@ id
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 v

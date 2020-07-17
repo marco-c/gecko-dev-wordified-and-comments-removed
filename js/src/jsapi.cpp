@@ -8068,10 +8068,7 @@ value
 )
 ;
 return
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 value

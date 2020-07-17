@@ -3849,10 +3849,7 @@ cx
 if
 (
 !
-ValueToId
-<
-CanGC
->
+ToPropertyKey
 (
 cx
 args
