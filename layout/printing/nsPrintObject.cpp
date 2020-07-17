@@ -111,10 +111,8 @@ Element
 h
 "
 using
+namespace
 mozilla
-:
-:
-PresShell
 ;
 using
 mozilla
@@ -142,6 +140,15 @@ dom
 :
 :
 Element
+;
+using
+mozilla
+:
+:
+dom
+:
+:
+Selection
 ;
 nsPrintObject
 :
