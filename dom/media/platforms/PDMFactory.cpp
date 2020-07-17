@@ -351,6 +351,13 @@ Init
 ;
 #
 endif
+RemoteDecoderModule
+:
+:
+Init
+(
+)
+;
 }
 }
 ;
