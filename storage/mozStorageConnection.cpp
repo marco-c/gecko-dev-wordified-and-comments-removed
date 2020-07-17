@@ -3203,7 +3203,7 @@ DebugOnly
 <
 int
 >
-srv
+srv2
 =
 :
 :
@@ -3217,7 +3217,7 @@ SQLITE_DBCONFIG_ENABLE_FTS3_TOKENIZER
 ;
 MOZ_ASSERT
 (
-srv
+srv2
 =
 =
 SQLITE_OK
