@@ -2220,6 +2220,14 @@ get
 )
 )
 ;
+MOZ_ASSERT
+(
+!
+isAsmJSModule
+(
+)
+)
+;
 SharedContext
 :
 :
