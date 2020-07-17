@@ -2546,7 +2546,7 @@ mPrt
 new
 nsPrintData
 (
-aIsPrintPreview
+mIsCreatingPrintPreview
 ?
 nsPrintData
 :
@@ -2647,7 +2647,7 @@ mShrinkToFit
 ;
 if
 (
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 mPrtPreview
@@ -2669,7 +2669,7 @@ false
 if
 (
 !
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 rv
@@ -2876,7 +2876,7 @@ InitAsRootObject
 (
 docShell
 aSourceDoc
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 ;
 NS_ENSURE_SUCCESS
@@ -2979,7 +2979,7 @@ mIsDestroying
 |
 |
 (
-aIsPrintPreview
+mIsCreatingPrintPreview
 &
 &
 !
@@ -3141,7 +3141,7 @@ this
 if
 (
 !
-aIsPrintPreview
+mIsCreatingPrintPreview
 |
 |
 printingViaParent
@@ -3220,7 +3220,7 @@ nullptr
 if
 (
 !
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 domWin
@@ -3319,7 +3319,7 @@ mPrintSettings
 if
 (
 !
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 if
@@ -3407,7 +3407,7 @@ mPrintSettings
 &
 &
 !
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 printData
@@ -3537,7 +3537,7 @@ printData
 -
 >
 mPrintSettings
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 ;
 NS_ENSURE_SUCCESS
@@ -3633,7 +3633,7 @@ aResult
 }
 if
 (
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 printData
@@ -3711,7 +3711,7 @@ false
 ;
 if
 (
-aIsPrintPreview
+mIsCreatingPrintPreview
 )
 {
 bool
