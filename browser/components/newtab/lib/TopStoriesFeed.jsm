@@ -566,6 +566,7 @@ SectionsManager
 enableSection
 (
 SECTION_ID
+true
 )
 ;
 if
