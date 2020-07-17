@@ -70,11 +70,6 @@ raptor
 raptor
 .
 ini
-static
--
-only
-:
-False
 suites
 :
 desktop

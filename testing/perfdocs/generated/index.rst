@@ -61,11 +61,6 @@ tests
 :
 doc
 :
-mozperftest
-*
-:
-doc
-:
 raptor
 For
 more
