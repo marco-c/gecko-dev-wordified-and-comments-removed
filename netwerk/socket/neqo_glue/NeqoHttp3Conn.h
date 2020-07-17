@@ -227,9 +227,6 @@ uint8_t
 >
 &
 aHeaderData
-bool
-*
-aFin
 )
 {
 return
@@ -239,7 +236,6 @@ this
 aEvent
 &
 aHeaderData
-aFin
 )
 ;
 }

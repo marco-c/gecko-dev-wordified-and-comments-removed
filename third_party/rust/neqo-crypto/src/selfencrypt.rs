@@ -357,16 +357,6 @@ Ok
 )
 )
 }
-#
-[
-allow
-(
-clippy
-:
-:
-similar_names
-)
-]
 pub
 fn
 seal
@@ -408,7 +398,7 @@ SALT_LENGTH
 )
 ;
 let
-aead
+cipher
 =
 self
 .
@@ -440,7 +430,7 @@ len
 (
 )
 +
-aead
+cipher
 .
 expansion
 (
@@ -534,7 +524,7 @@ encoded_len
 0
 )
 ;
-aead
+cipher
 .
 encrypt
 (

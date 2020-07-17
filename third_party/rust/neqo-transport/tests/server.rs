@@ -62,6 +62,7 @@ hp
 :
 :
 HpKey
+AllowZeroRtt
 AuthenticationStatus
 }
 ;
@@ -185,6 +186,15 @@ test_fixture
 :
 anti_replay
 (
+)
+Box
+:
+:
+new
+(
+AllowZeroRtt
+{
+}
 )
 Rc
 :

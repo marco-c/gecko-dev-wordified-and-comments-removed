@@ -142,6 +142,7 @@ agent
 :
 {
 Agent
+AllowZeroRtt
 Client
 HandshakeState
 Record

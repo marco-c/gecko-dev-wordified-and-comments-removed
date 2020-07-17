@@ -168,6 +168,7 @@ DecompressionFailed
 EncoderStream
 DecoderStream
 ClosedCriticalStream
+InternalError
 NeedMoreData
 HeaderLookup
 HuffmanDecompressionFailed
