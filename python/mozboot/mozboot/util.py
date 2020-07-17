@@ -25,6 +25,15 @@ dirname
 __file__
 )
 )
+MINIMUM_RUST_VERSION
+=
+'
+1
+.
+43
+.
+0
+'
 def
 get_state_dir
 (
