@@ -20,7 +20,7 @@ posixpath
 from
 mozdevice
 import
-ADBDevice
+ADBDeviceFactory
 from
 mozprofile
 import
@@ -659,7 +659,7 @@ else
             
 device
 =
-ADBDevice
+ADBDeviceFactory
 (
 adb
 =
