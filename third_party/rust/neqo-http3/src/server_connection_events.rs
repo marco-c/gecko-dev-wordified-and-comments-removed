@@ -29,12 +29,6 @@ crate
 RecvMessageEvents
 ;
 use
-neqo_common
-:
-:
-matches
-;
-use
 neqo_transport
 :
 :

@@ -49,7 +49,6 @@ neqo_common
 :
 :
 {
-matches
 qerror
 qinfo
 qtrace
