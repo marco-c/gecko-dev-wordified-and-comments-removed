@@ -4290,9 +4290,6 @@ scale
 Point3D
 scaledOrigin
 ;
-Point3D
-transformOrigin
-;
 if
 (
 layer
@@ -4359,14 +4356,6 @@ scale
 0
 .
 0f
-)
-;
-transformOrigin
-=
-data
-.
-transformOrigin
-(
 )
 ;
 }
