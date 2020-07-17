@@ -391,9 +391,11 @@ resource
 ;
 }
 case
-"
-networkEvent
-"
+ResourceWatcher
+.
+TYPES
+.
+NETWORK_EVENT
 :
 {
 return

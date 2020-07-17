@@ -84,6 +84,13 @@ messages
 js
 '
 '
+network
+-
+events
+.
+js
+'
+'
 platform
 -
 messages

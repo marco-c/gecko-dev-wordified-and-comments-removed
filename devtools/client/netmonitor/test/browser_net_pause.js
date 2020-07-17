@@ -390,7 +390,7 @@ webConsoleFront
 once
 (
 "
-networkEvent
+serverNetworkEvent
 "
 )
 ;
