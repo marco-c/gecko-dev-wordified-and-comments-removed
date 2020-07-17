@@ -2,6 +2,7 @@ import
 os
 BOUNDARY
 =
+b
 '
 cutHere
 '
@@ -16,6 +17,7 @@ with
 open
 (
 path
+u
 '
 rb
 '
@@ -25,6 +27,7 @@ f
 :
         
 return
+b
 '
 Content
 -
@@ -49,6 +52,7 @@ read
 (
 )
 +
+b
 '
 -
 -
@@ -67,6 +71,7 @@ response
     
 content_type
 =
+b
 '
 multipart
 /
@@ -88,6 +93,7 @@ headers
 =
 [
 (
+b
 '
 Content
 -
@@ -98,6 +104,7 @@ content_type
 ]
     
 if
+b
 '
 approvecors
 '
@@ -112,6 +119,7 @@ headers
 append
 (
 (
+b
 '
 Access
 -
@@ -121,6 +129,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -138,6 +147,7 @@ join
 request
 .
 doc_root
+u
 '
 images
 '
@@ -154,6 +164,7 @@ path
 join
 (
 image_path
+u
 '
 red
 .
@@ -175,6 +186,7 @@ path
 join
 (
 image_path
+u
 '
 red
 -

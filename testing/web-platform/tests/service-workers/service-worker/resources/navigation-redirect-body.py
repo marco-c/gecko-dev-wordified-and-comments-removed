@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 filename
 =
 os
@@ -8,7 +14,10 @@ path
 .
 basename
 (
+isomorphic_encode
+(
 __file__
+)
 )
 def
 main
@@ -24,6 +33,7 @@ request
 method
 =
 =
+u
 '
 POST
 '
@@ -33,9 +43,11 @@ return
 302
 [
 (
+b
 '
 Location
 '
+b
 '
 .
 /
@@ -48,17 +60,20 @@ redirect
 filename
 )
 ]
+b
 '
 '
     
 return
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /

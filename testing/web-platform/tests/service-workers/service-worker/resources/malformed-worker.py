@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -26,12 +28,14 @@ javascript
 body
 =
 {
+u
 '
 parse
 -
 error
 '
 :
+u
 '
 var
 foo
@@ -43,12 +47,14 @@ function
 ;
 '
             
+u
 '
 undefined
 -
 error
 '
 :
+u
 '
 foo
 .
@@ -58,12 +64,14 @@ bar
 ;
 '
             
+u
 '
 uncaught
 -
 exception
 '
 :
+u
 '
 throw
 new
@@ -76,12 +84,14 @@ AbortError
 ;
 '
             
+u
 '
 caught
 -
 exception
 '
 :
+u
 '
 try
 {
@@ -98,6 +108,7 @@ e
 }
 '
             
+u
 '
 import
 -
@@ -106,6 +117,7 @@ malformed
 script
 '
 :
+u
 '
 importScripts
 (
@@ -124,6 +136,7 @@ error
 ;
 '
             
+u
 '
 import
 -
@@ -134,6 +147,7 @@ such
 script
 '
 :
+u
 '
 importScripts
 (

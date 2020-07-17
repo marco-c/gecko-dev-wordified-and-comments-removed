@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 '
 mime
 '
@@ -19,6 +20,7 @@ GET
 return
 [
 (
+b
 '
 Content
 -
@@ -28,17 +30,20 @@ request
 .
 GET
 [
+b
 '
 mime
 '
 ]
 )
 ]
+b
 "
 "
     
 return
 [
 ]
+b
 "
 "

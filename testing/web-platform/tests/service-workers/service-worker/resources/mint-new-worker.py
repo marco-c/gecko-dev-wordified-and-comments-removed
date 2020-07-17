@@ -1,7 +1,10 @@
 import
+random
+import
 time
 body
 =
+u
 '
 '
 '
@@ -108,11 +111,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -124,9 +129,11 @@ revalidate
 )
                
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -135,11 +142,13 @@ cache
 )
                
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -150,10 +159,12 @@ javascript
     
 skipWaiting
 =
+u
 '
 '
     
 if
+b
 '
 skip
 -
@@ -164,9 +175,10 @@ request
 .
 GET
 :
-      
+        
 skipWaiting
 =
+u
 '
 skipWaiting
 (
@@ -176,6 +188,7 @@ skipWaiting
     
 return
 headers
+u
 '
 /
 *
@@ -197,9 +210,9 @@ time
 time
 (
 )
-time
+random
 .
-clock
+random
 (
 )
 skipWaiting

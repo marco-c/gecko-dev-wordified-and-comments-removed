@@ -14,11 +14,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -32,11 +34,13 @@ headers
 .
 set
 (
+b
 "
 Transfer
 -
 encoding
 "
+b
 "
 chunked
 "
@@ -67,6 +71,7 @@ writer
 .
 write
 (
+b
 "
 XX
 \
