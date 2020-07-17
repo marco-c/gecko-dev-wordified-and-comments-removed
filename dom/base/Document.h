@@ -4812,6 +4812,13 @@ StyleSheet
 &
 )
 ;
+void
+PostStyleSheetApplicableStateChangeEvent
+(
+StyleSheet
+&
+)
+;
 enum
 additionalSheetType
 {
