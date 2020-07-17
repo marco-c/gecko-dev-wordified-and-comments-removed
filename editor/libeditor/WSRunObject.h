@@ -3131,6 +3131,15 @@ GetInvisibleTrailingWhiteSpaceRange
 )
 const
 ;
+Maybe
+<
+WSFragment
+>
+CreateWSFragmentForVisibleAndMiddleOfLine
+(
+)
+const
+;
 private
 :
 BoundaryData
