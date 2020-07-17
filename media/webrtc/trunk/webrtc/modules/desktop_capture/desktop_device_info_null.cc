@@ -45,6 +45,12 @@ InitializeApplicationList
 (
 )
 ;
+virtual
+void
+InitializeTabList
+(
+)
+;
 }
 ;
 DesktopDeviceInfo
