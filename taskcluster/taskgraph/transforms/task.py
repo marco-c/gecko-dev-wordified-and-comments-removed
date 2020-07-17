@@ -3421,22 +3421,6 @@ docker
 image
 '
 ]
-        
-run_task
-=
-run_task
-or
-out_of_tree_image
-.
-startswith
-(
-            
-'
-taskcluster
-/
-image_builder
-'
-)
     
 else
 :
@@ -3468,17 +3452,6 @@ in
 tree
 '
 )
-        
-run_task
-=
-run_task
-or
-image
-=
-=
-'
-image_builder
-'
     
 if
 '
