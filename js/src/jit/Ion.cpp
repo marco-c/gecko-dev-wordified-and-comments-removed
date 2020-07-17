@@ -8271,6 +8271,17 @@ if
 snapshot
 )
 {
+WarpCompilation
+comp
+(
+mir
+-
+>
+alloc
+(
+)
+)
+;
 WarpBuilder
 builder
 (
@@ -8278,6 +8289,8 @@ builder
 snapshot
 *
 mir
+&
+comp
 )
 ;
 if
