@@ -3559,6 +3559,7 @@ layer_index
 uv_rect
 swizzle
 uv_rect_handle
+user_data
 )
 =
 self
@@ -3587,6 +3588,7 @@ texture_layer
 layer_index
 as
 i32
+user_data
 }
 }
 pub
@@ -3608,6 +3610,11 @@ LayerIndex
 DeviceIntRect
 Swizzle
 GpuCacheHandle
+[
+f32
+;
+3
+]
 )
 {
 let
@@ -3686,6 +3693,9 @@ swizzle
 entry
 .
 uv_rect_handle
+entry
+.
+user_data
 )
 }
 fn

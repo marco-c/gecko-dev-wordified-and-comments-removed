@@ -838,6 +838,7 @@ texture_layer
 uv_rect
 _
 _
+_
 )
 =
 texture_cache
