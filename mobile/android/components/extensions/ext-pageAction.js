@@ -215,7 +215,7 @@ openPopup
 )
 {
 const
-action
+actionObject
 =
 this
 .
@@ -224,6 +224,18 @@ getContextData
 tabTracker
 .
 activeTab
+)
+;
+const
+action
+=
+this
+.
+helper
+.
+extractProperties
+(
+actionObject
 )
 ;
 this
