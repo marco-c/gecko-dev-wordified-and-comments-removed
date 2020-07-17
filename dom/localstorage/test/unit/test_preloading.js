@@ -51,7 +51,7 @@ principal
 return
 Services
 .
-lsm
+domStorageManager
 .
 isPreloaded
 (

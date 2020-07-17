@@ -10,6 +10,9 @@ EXPORTED_SYMBOLS
 "
 XULStore
 "
+"
+getXULStore
+"
 ]
 ;
 const
@@ -339,4 +342,13 @@ getNext
 ;
 }
 }
+}
+function
+getXULStore
+(
+)
+{
+return
+XULStore
+;
 }
