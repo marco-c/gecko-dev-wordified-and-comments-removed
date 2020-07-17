@@ -3566,6 +3566,14 @@ EPERM
 ;
 #
 endif
+case
+__NR_rseq
+:
+return
+Allow
+(
+)
+;
 #
 ifdef
 MOZ_ASAN
