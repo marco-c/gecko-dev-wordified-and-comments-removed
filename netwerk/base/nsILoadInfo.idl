@@ -1260,6 +1260,9 @@ long
 long
 browsingContextID
 ;
+[
+infallible
+]
 readonly
 attribute
 BrowsingContext
@@ -1275,6 +1278,9 @@ long
 long
 frameBrowsingContextID
 ;
+[
+infallible
+]
 readonly
 attribute
 BrowsingContext
@@ -1290,6 +1296,9 @@ long
 long
 targetBrowsingContextID
 ;
+[
+infallible
+]
 readonly
 attribute
 BrowsingContext

@@ -1752,8 +1752,7 @@ canModify
 *
 *
 The
-outer
-window
+BrowsingContext
 ID
 of
 the
@@ -1792,15 +1791,14 @@ readonly
 attribute
 long
 long
-windowId
+frameId
 ;
 /
 *
 *
 *
 The
-outer
-window
+BrowsingContext
 ID
 of
 the
@@ -1851,7 +1849,7 @@ readonly
 attribute
 long
 long
-parentWindowId
+parentFrameId
 ;
 /
 *

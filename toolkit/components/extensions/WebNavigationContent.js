@@ -349,9 +349,11 @@ sourceFrameId
 =
 WebNavigationFrames
 .
-getDocShellFrameId
+getFrameId
 (
 sourceDocShell
+.
+browsingContext
 )
 ;
 const

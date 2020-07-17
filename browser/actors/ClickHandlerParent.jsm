@@ -402,11 +402,11 @@ csp
 )
 :
 null
-frameOuterWindowID
+frameID
 :
 data
 .
-frameOuterWindowID
+frameID
 }
 ;
 if

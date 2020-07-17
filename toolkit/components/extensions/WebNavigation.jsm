@@ -731,7 +731,7 @@ const
 {
 createdTabBrowser
 url
-sourceFrameOuterWindowID
+sourceFrameID
 sourceTabBrowser
 }
 =
@@ -753,7 +753,7 @@ createdTabBrowser
 sourceTabBrowser
 sourceFrameId
 :
-sourceFrameOuterWindowID
+sourceFrameID
 url
 }
 )

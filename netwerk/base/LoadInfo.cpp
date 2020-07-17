@@ -4270,15 +4270,6 @@ IsEmpty
 )
 )
 ;
-MOZ_ASSERT
-(
-aOuterWindowIDs
-.
-IsEmpty
-(
-)
-)
-;
 CanonicalBrowsingContext
 *
 ancestorBC

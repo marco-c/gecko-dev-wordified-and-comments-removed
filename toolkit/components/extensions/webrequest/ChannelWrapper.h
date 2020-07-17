@@ -830,13 +830,13 @@ nullptr
 ;
 }
 int64_t
-WindowId
+FrameId
 (
 )
 const
 ;
 int64_t
-ParentWindowId
+ParentFrameId
 (
 )
 const
@@ -1218,7 +1218,7 @@ DocumentURLInfo
 const
 ;
 uint64_t
-WindowId
+BrowsingContextId
 (
 nsILoadInfo
 *
