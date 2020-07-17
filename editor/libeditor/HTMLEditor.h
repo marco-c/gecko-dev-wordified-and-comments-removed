@@ -9021,16 +9021,6 @@ OurWindowHasFocus
 )
 const
 ;
-EditorDOMPoint
-GetNewCaretPointAfterInsertingHTML
-(
-const
-EditorDOMPoint
-&
-lastInsertedPoint
-)
-const
-;
 class
 HTMLWithContextInserter
 ;
