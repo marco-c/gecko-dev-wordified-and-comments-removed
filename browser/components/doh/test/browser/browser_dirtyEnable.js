@@ -29,7 +29,7 @@ waitForPrefChange
 (
 prefs
 .
-DOH_DISABLED_PREF
+DISABLED_PREF
 )
 ;
 Preferences
@@ -48,7 +48,7 @@ set
 (
 prefs
 .
-DOH_ENABLED_PREF
+ENABLED_PREF
 true
 )
 ;
@@ -63,7 +63,7 @@ get
 (
 prefs
 .
-DOH_DISABLED_PREF
+DISABLED_PREF
 false
 )
 true
@@ -83,7 +83,7 @@ get
 (
 prefs
 .
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 )
 undefined
 "
@@ -102,7 +102,7 @@ get
 (
 prefs
 .
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 )
 undefined
 "

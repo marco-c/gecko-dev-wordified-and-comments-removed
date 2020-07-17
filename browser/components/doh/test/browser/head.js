@@ -169,7 +169,7 @@ const
 prefs
 =
 {
-DOH_ENABLED_PREF
+ENABLED_PREF
 :
 "
 doh
@@ -196,7 +196,7 @@ trr
 .
 mode
 "
-DOH_SELF_ENABLED_PREF
+BREADCRUMB_PREF
 :
 "
 doh
@@ -207,18 +207,7 @@ self
 -
 enabled
 "
-DOH_DOORHANGER_SHOWN_PREF
-:
-"
-doh
--
-rollout
-.
-doorhanger
--
-shown
-"
-DOH_DOORHANGER_USER_DECISION_PREF
+DOORHANGER_USER_DECISION_PREF
 :
 "
 doh
@@ -229,7 +218,7 @@ doorhanger
 -
 decision
 "
-DOH_DISABLED_PREF
+DISABLED_PREF
 :
 "
 doh
@@ -240,7 +229,7 @@ disable
 -
 heuristics
 "
-DOH_SKIP_HEURISTICS_PREF
+SKIP_HEURISTICS_PREF
 :
 "
 doh
@@ -249,7 +238,7 @@ rollout
 .
 skipHeuristicsCheck
 "
-DOH_DONE_FIRST_RUN_PREF
+FIRST_RUN_PREF
 :
 "
 doh
@@ -258,7 +247,7 @@ rollout
 .
 doneFirstRun
 "
-DOH_BALROG_MIGRATION_PREF
+BALROG_MIGRATION_PREF
 :
 "
 doh
@@ -271,7 +260,7 @@ migration
 -
 done
 "
-DOH_PREVIOUS_TRR_MODE_PREF
+PREVIOUS_TRR_MODE_PREF
 :
 "
 doh
@@ -284,16 +273,7 @@ trr
 .
 mode
 "
-DOH_DEBUG_PREF
-:
-"
-doh
--
-rollout
-.
-debug
-"
-DOH_TRR_SELECT_ENABLED_PREF
+TRR_SELECT_ENABLED_PREF
 :
 "
 doh
@@ -306,7 +286,7 @@ selection
 .
 enabled
 "
-DOH_TRR_SELECT_URI_PREF
+TRR_SELECT_URI_PREF
 :
 "
 doh
@@ -315,7 +295,7 @@ rollout
 .
 uri
 "
-DOH_TRR_SELECT_COMMIT_PREF
+TRR_SELECT_COMMIT_PREF
 :
 "
 doh
@@ -330,7 +310,7 @@ commit
 -
 result
 "
-DOH_TRR_SELECT_DRY_RUN_RESULT_PREF
+TRR_SELECT_DRY_RUN_RESULT_PREF
 :
 "
 doh
@@ -347,7 +327,7 @@ run
 -
 result
 "
-DOH_PROVIDER_STEERING_PREF
+PROVIDER_STEERING_PREF
 :
 "
 doh
@@ -360,7 +340,7 @@ steering
 .
 enabled
 "
-DOH_PROVIDER_STEERING_LIST_PREF
+PROVIDER_STEERING_LIST_PREF
 :
 "
 doh
@@ -509,7 +489,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_ENABLED_PREF
+TRR_SELECT_ENABLED_PREF
 true
 )
 ;
@@ -519,7 +499,7 @@ set
 (
 prefs
 .
-DOH_TRR_SELECT_COMMIT_PREF
+TRR_SELECT_COMMIT_PREF
 true
 )
 ;
@@ -529,7 +509,7 @@ set
 (
 prefs
 .
-DOH_PROVIDER_STEERING_PREF
+PROVIDER_STEERING_PREF
 true
 )
 ;

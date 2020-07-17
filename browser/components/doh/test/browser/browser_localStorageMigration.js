@@ -57,7 +57,7 @@ reset
 (
 prefs
 .
-DOH_BALROG_MIGRATION_PREF
+BALROG_MIGRATION_PREF
 )
 ;
 const
@@ -150,7 +150,7 @@ observe
 (
 prefs
 .
-DOH_BALROG_MIGRATION_PREF
+BALROG_MIGRATION_PREF
 function
 obs
 (
@@ -162,7 +162,7 @@ ignore
 (
 prefs
 .
-DOH_BALROG_MIGRATION_PREF
+BALROG_MIGRATION_PREF
 obs
 )
 ;
