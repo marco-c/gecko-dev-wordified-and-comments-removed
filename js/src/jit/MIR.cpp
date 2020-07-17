@@ -14996,6 +14996,15 @@ MDefinition
 Opcode
 :
 :
+StoreHoleValueElement
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 LoadElement
 :
 case

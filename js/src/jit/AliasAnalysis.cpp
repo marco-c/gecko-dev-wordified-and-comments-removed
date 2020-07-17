@@ -664,6 +664,15 @@ MDefinition
 Opcode
 :
 :
+StoreHoleValueElement
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 StoreUnboxedScalar
 :
 case
