@@ -331,6 +331,9 @@ attribute
 nsIURI
 baseURI
 ;
+[
+infallible
+]
 attribute
 boolean
 scrollRestorationIsManual
