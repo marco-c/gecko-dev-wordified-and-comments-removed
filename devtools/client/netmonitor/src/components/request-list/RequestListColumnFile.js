@@ -392,7 +392,7 @@ netmonitor
 .
 audits
 .
-slowTooltip
+slowIconTooltip
 "
 getFormattedTime
 (
