@@ -2636,6 +2636,11 @@ aCount
 )
 )
 ;
+mTransferSize
++
+=
+aCount
+;
 if
 (
 mCanceled
