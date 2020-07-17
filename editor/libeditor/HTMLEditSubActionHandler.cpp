@@ -40019,6 +40019,7 @@ nullptr
 WSRunScanner
 wsScannerForPoint
 (
+*
 this
 aPoint
 )
@@ -40422,6 +40423,7 @@ GetContent
 =
 WSRunScanner
 (
+*
 this
 atStart
 )
@@ -40513,6 +40515,7 @@ for
 WSRunScanner
 wsScannerAtEnd
 (
+*
 this
 atEnd
 )
@@ -41011,6 +41014,7 @@ endPoint
 WSRunScanner
 wsScannerAtEnd
 (
+*
 this
 endPoint
 )
@@ -41132,6 +41136,7 @@ StartReasonBRElementPtr
 WSRunScanner
 wsScannerAtStart
 (
+*
 this
 startPoint
 )

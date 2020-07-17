@@ -7231,6 +7231,7 @@ pointToInsert
 WSRunScanner
 wsScannerForPointToInsert
 (
+*
 this
 pointToInsert
 )
@@ -15190,6 +15191,7 @@ mPlaceholderBatch
 WSRunScanner
 wsScannerForPoint
 (
+*
 this
 aPoint
 )

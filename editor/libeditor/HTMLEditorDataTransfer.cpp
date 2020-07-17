@@ -1474,7 +1474,6 @@ const
 WSRunScanner
 wsRunScannerAtInsertionPoint
 (
-&
 mHTMLEditor
 aPointToInsert
 )
@@ -1753,7 +1752,6 @@ node
 WSRunScanner
 wsRunScannerAtCaret
 (
-&
 mHTMLEditor
 pointToPutCaret
 )
@@ -1788,7 +1786,6 @@ GetStartReasonContent
 WSRunScanner
 wsRunScannerAtStartReason
 (
-&
 mHTMLEditor
 EditorDOMPoint
 (
