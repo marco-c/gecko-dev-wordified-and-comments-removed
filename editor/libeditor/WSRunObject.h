@@ -3315,6 +3315,16 @@ PointRef
 )
 ;
 }
+bool
+IsPreformatted
+(
+)
+const
+{
+return
+mIsPreformatted
+;
+}
 EditorDOMRange
 GetInvisibleLeadingWhiteSpaceRange
 (
