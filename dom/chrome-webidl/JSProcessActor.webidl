@@ -64,6 +64,11 @@ UTF8String
 >
 remoteTypes
 ;
+boolean
+includeParent
+=
+false
+;
 ProcessActorSidedOptions
 parent
 ;

@@ -243,6 +243,11 @@ nsCString
 >
 mRemoteTypes
 ;
+bool
+mIncludeParent
+=
+false
+;
 ParentSide
 mParent
 ;

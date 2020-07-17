@@ -183,6 +183,9 @@ about
 :
 blank
 "
+includeParent
+=
+false
 remoteTypes
 fission
 test
@@ -219,6 +222,12 @@ processActorOptions
 child
 )
 }
+;
+actorOptions
+.
+includeParent
+=
+includeParent
 ;
 if
 (
