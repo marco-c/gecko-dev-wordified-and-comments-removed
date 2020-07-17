@@ -261,12 +261,9 @@ NrIceCtx
 :
 InitializeGlobals
 (
-NrIceCtx
-:
-:
-GlobalConfig
-(
-)
+false
+false
+false
 )
 ;
 }
