@@ -216,6 +216,3 @@ maxdepth
 mozbuild
 /
 index
-mozbuild
-/
-dumbmake

@@ -414,17 +414,6 @@ ini
 '
 mozbuild
 /
-dumbmake
-/
-test
-/
-python
-.
-ini
-'
-'
-mozbuild
-/
 mozbuild
 /
 test
