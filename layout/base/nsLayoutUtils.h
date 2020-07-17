@@ -4916,6 +4916,16 @@ nsIFrame
 aFrame
 )
 ;
+static
+bool
+IsInPositionFixedSubtree
+(
+const
+nsIFrame
+*
+aFrame
+)
+;
 enum
 {
 SFE_WANT_IMAGE_SURFACE
