@@ -314,16 +314,6 @@ if
 this
 .
 isServiceWorker
-&
-&
-this
-.
-getTrait
-(
-"
-isParentInterceptEnabled
-"
-)
 )
 {
 this

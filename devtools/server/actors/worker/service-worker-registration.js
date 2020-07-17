@@ -371,15 +371,6 @@ installingWorker
 evaluatingWorker
 ;
 const
-isParentInterceptEnabled
-=
-swm
-.
-isParentInterceptEnabled
-(
-)
-;
-const
 isMultiE10sWithOldImplementation
 =
 Services
@@ -390,7 +381,11 @@ browserTabsRemoteAutostart
 &
 &
 !
+swm
+.
 isParentInterceptEnabled
+(
+)
 ;
 return
 {
@@ -436,7 +431,6 @@ lastUpdateTime
 traits
 :
 {
-isParentInterceptEnabled
 }
 }
 ;
