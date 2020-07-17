@@ -247,6 +247,7 @@ ID
 not
 found
 in
+AMO
 cache
 :
 {
@@ -262,7 +263,7 @@ studyAddonId
 =
 cachedAddon
 .
-addon_id
+id
 ;
 const
 study
@@ -1269,7 +1270,7 @@ getAddonByID
 (
 cachedAddon
 .
-addon_id
+id
 )
 ;
 if
@@ -1294,7 +1295,7 @@ getElementById
 (
 cachedAddon
 .
-addon_id
+id
 )
 ;
 if
@@ -1307,7 +1308,7 @@ updateStudy
 (
 cachedAddon
 .
-addon_id
+id
 )
 ;
 }
@@ -1335,7 +1336,7 @@ uuid
 for
 (
 const
-cachedAddon
+addon
 of
 cachedAddons
 )
@@ -1347,9 +1348,9 @@ document
 .
 getElementById
 (
-cachedAddon
+addon
 .
-addon_id
+id
 )
 ;
 if
@@ -1360,9 +1361,9 @@ study
 await
 updateStudy
 (
-cachedAddon
+addon
 .
-addon_id
+id
 )
 ;
 }
@@ -1395,7 +1396,7 @@ if
 (
 cachedAddon
 .
-addon_id
+id
 =
 =
 addon
