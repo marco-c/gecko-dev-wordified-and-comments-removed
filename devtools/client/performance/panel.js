@@ -440,6 +440,9 @@ PerformanceController
 .
 initialize
 (
+this
+.
+toolbox
 targetFront
 performanceFront
 )
