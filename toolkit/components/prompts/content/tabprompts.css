@@ -213,6 +213,17 @@ position
 :
 absolute
 ;
+z
+-
+index
+:
+1
+;
+width
+:
+100
+%
+;
 }
 .
 paymentDialogContainer
@@ -235,7 +246,7 @@ box
 ;
 height
 :
-500px
+600px
 ;
 inset
 -
