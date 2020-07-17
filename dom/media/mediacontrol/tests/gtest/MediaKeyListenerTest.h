@@ -55,10 +55,12 @@ Nothing
 ;
 }
 void
-OnKeyPressed
+OnActionPerformed
 (
-MediaControlKey
-aKey
+const
+MediaControlAction
+&
+aAction
 )
 override
 {
@@ -69,7 +71,9 @@ mozilla
 :
 Some
 (
-aKey
+aAction
+.
+mKey
 )
 ;
 }

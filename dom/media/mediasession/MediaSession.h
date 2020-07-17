@@ -260,13 +260,6 @@ aDetails
 )
 ;
 void
-NotifyHandler
-(
-MediaSessionAction
-aAction
-)
-;
-void
 Shutdown
 (
 )

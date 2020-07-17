@@ -968,7 +968,7 @@ mozilla
 dom
 :
 :
-MediaControlKey
+MediaControlAction
 from
 "
 ipc
@@ -2861,12 +2861,12 @@ aContext
 )
 ;
 async
-UpdateMediaControlKey
+UpdateMediaControlAction
 (
 MaybeDiscardedBrowsingContext
 aContext
-MediaControlKey
-aKey
+MediaControlAction
+aAction
 )
 ;
 async

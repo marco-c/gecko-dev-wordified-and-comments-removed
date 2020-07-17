@@ -22,7 +22,7 @@ mozilla
 /
 dom
 /
-MediaControllerBinding
+MediaControlKeySource
 .
 h
 "
@@ -495,10 +495,12 @@ aRoots
 )
 ;
 void
-UpdateMediaControlKey
+UpdateMediaControlAction
 (
-MediaControlKey
-aKey
+const
+MediaControlAction
+&
+aAction
 )
 ;
 using

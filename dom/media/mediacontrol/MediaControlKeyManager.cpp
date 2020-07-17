@@ -410,10 +410,12 @@ void
 MediaControlKeyManager
 :
 :
-OnKeyPressed
+OnActionPerformed
 (
-MediaControlKey
-aKey
+const
+MediaControlAction
+&
+aAction
 )
 {
 for
@@ -427,9 +429,9 @@ mListeners
 listener
 -
 >
-OnKeyPressed
+OnActionPerformed
 (
-aKey
+aAction
 )
 ;
 }

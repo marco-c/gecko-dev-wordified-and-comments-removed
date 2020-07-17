@@ -104,6 +104,9 @@ seekforward
 skipad
 "
 "
+seekto
+"
+"
 stop
 "
 }
