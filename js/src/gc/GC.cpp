@@ -8423,12 +8423,9 @@ GCRuntime
 :
 callHostCleanupFinalizationRegistryCallback
 (
-JSFunction
+FinalizationRegistryObject
 *
-doCleanup
-GlobalObject
-*
-incumbentGlobal
+registry
 )
 {
 JS
@@ -8459,8 +8456,7 @@ callback
 .
 op
 (
-doCleanup
-incumbentGlobal
+registry
 callback
 .
 data
