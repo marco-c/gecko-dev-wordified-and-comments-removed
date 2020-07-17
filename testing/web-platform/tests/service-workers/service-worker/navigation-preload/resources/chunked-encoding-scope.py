@@ -10,6 +10,7 @@ response
     
 use_broken_body
 =
+b
 '
 use_broken_body
 '
@@ -39,11 +40,13 @@ writer
 .
 write_header
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -63,11 +66,13 @@ writer
 .
 write_header
 (
+b
 "
 Transfer
 -
 encoding
 "
+b
 "
 chunked
 "
@@ -100,6 +105,7 @@ writer
 .
 write
 (
+u
 "
 %
 s
@@ -132,6 +138,7 @@ writer
 .
 write
 (
+u
 "
 %
 s
@@ -182,6 +189,7 @@ writer
 .
 write
 (
+u
 "
 0
 \

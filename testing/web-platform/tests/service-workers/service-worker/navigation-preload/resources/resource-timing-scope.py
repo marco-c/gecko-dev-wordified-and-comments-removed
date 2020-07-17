@@ -16,6 +16,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -32,6 +33,7 @@ normal
         
 content
 =
+b
 "
 This
 is
@@ -57,11 +59,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -70,17 +74,20 @@ plain
 )
                    
 (
+b
 "
 Content
 -
 Encoding
 "
+b
 "
 deflate
 "
 )
                    
 (
+b
 "
 X
 -
@@ -97,6 +104,7 @@ content
 )
                    
 (
+b
 "
 X
 -
@@ -113,6 +121,7 @@ output
 )
                    
 (
+b
 "
 Content
 -
@@ -133,6 +142,7 @@ if
 type
 =
 =
+b
 "
 redirect
 "
@@ -150,9 +160,11 @@ headers
 .
 append
 (
+b
 "
 Location
 "
+b
 "
 redirect
 -
@@ -163,5 +175,6 @@ html
 )
         
 return
+b
 "
 "

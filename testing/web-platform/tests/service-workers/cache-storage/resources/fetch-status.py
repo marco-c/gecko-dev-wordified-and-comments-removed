@@ -13,6 +13,7 @@ request
 .
 GET
 [
+b
 "
 status
 "
@@ -20,5 +21,6 @@ status
 )
 [
 ]
+b
 "
 "

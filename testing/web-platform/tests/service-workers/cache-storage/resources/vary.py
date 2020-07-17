@@ -11,6 +11,7 @@ response
 :
   
 if
+b
 "
 clear
 -
@@ -32,6 +33,7 @@ response
 .
 unset_cookie
 (
+b
 "
 vary
 -
@@ -42,6 +44,7 @@ override
 )
     
 return
+b
 "
 vary
 cookie
@@ -56,6 +59,7 @@ GET
 .
 first
 (
+b
 "
 set
 -
@@ -70,6 +74,7 @@ cookie
                                       
 default
 =
+b
 "
 "
 )
@@ -82,6 +87,7 @@ response
 .
 set_cookie
 (
+b
 "
 vary
 -
@@ -93,6 +99,7 @@ set_cookie_vary
 )
     
 return
+b
 "
 vary
 cookie
@@ -107,6 +114,7 @@ cookies
 .
 get
 (
+b
 "
 vary
 -
@@ -127,6 +135,7 @@ headers
 .
 set
 (
+b
 "
 vary
 "
@@ -147,11 +156,13 @@ GET
 .
 first
 (
+b
 "
 vary
 "
 default
 =
+b
 "
 "
 )
@@ -166,6 +177,7 @@ headers
 .
 set
 (
+b
 "
 vary
 "
@@ -173,6 +185,7 @@ query_vary
 )
   
 return
+b
 "
 vary
 response

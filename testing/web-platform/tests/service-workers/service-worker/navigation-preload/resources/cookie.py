@@ -71,6 +71,7 @@ GET
 .
 first
 (
+b
 "
 same
 -
@@ -86,6 +87,7 @@ GET
 .
 first
 (
+b
 "
 cookie
 -
@@ -101,6 +103,7 @@ GET
 .
 first
 (
+b
 "
 drop
 "
@@ -108,12 +111,14 @@ drop
     
 cookie_in_request
 =
+b
 "
 0
 "
     
 cookie
 =
+b
 "
 %
 s
@@ -137,6 +142,7 @@ if
 drop
 =
 =
+b
 "
 1
 "
@@ -145,6 +151,7 @@ drop
 cookie
 +
 =
+b
 "
 ;
 Max
@@ -180,11 +187,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -192,6 +201,7 @@ html
 '
 )
 (
+b
 '
 Set
 -

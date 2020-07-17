@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 "
 base
 "
@@ -19,11 +20,13 @@ GET
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -31,6 +34,7 @@ html
 "
 )
 ]
+b
 "
 OK
 "
@@ -43,6 +47,7 @@ GET
 .
 first
 (
+b
 "
 type
 "
@@ -52,6 +57,7 @@ if
 type
 =
 =
+b
 "
 normal
 "
@@ -69,9 +75,11 @@ headers
 .
 append
 (
+b
 "
 Location
 "
+b
 "
 redirect
 -
@@ -87,17 +95,20 @@ headers
 .
 append
 (
+b
 "
 Custom
 -
 Header
 "
+b
 "
 hello
 "
 )
         
 return
+b
 "
 "
     
@@ -105,6 +116,7 @@ if
 type
 =
 =
+b
 "
 no
 -
@@ -124,17 +136,20 @@ headers
 .
 append
 (
+b
 "
 Custom
 -
 Header
 "
+b
 "
 hello
 "
 )
         
 return
+b
 "
 "
     
@@ -142,6 +157,7 @@ if
 type
 =
 =
+b
 "
 no
 -
@@ -165,11 +181,13 @@ headers
 .
 append
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -183,17 +201,20 @@ headers
 .
 append
 (
+b
 "
 Custom
 -
 Header
 "
+b
 "
 hello
 "
 )
         
 return
+b
 "
 <
 body
@@ -209,6 +230,7 @@ if
 type
 =
 =
+b
 "
 redirect
 -
@@ -230,10 +252,12 @@ headers
 .
 append
 (
+b
 "
 Location
 "
                                 
+b
 "
 redirect
 -
@@ -252,6 +276,7 @@ scope2
 )
         
 return
+b
 "
 "
     
@@ -259,6 +284,7 @@ if
 type
 =
 =
+b
 "
 redirect
 -
@@ -280,10 +306,12 @@ headers
 .
 append
 (
+b
 "
 Location
 "
                                 
+b
 "
 redirect
 -
@@ -302,6 +330,7 @@ scope3
 )
         
 return
+b
 "
 "
     
@@ -309,6 +338,7 @@ if
 type
 =
 =
+b
 "
 redirect
 -
@@ -330,9 +360,11 @@ headers
 .
 append
 (
+b
 "
 Location
 "
+b
 "
 redirect
 -
@@ -348,16 +380,19 @@ headers
 .
 append
 (
+b
 "
 Custom
 -
 Header
 "
+b
 "
 hello
 "
 )
         
 return
+b
 "
 "

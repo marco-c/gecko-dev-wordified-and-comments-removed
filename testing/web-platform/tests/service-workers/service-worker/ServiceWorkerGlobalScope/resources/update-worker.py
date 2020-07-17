@@ -2,6 +2,12 @@ import
 os
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -14,11 +20,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -29,11 +37,13 @@ age
 )
                
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -57,9 +67,13 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
                            
+u
 '
 update
 -
@@ -68,6 +82,7 @@ worker
 js
 '
 )
+u
 '
 r
 '
@@ -86,6 +101,7 @@ read
     
 return
 headers
+u
 '
 /
 /
