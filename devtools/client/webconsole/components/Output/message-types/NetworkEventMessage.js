@@ -786,6 +786,14 @@ getTabTarget
 >
 {
 }
+getNetworkRequest
+:
+(
+)
+=
+>
+{
+}
 sendHTTPRequest
 :
 (

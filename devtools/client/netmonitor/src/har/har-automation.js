@@ -327,13 +327,11 @@ webConsoleFront
 this
 .
 webConsoleFront
-resourceWatcher
+devToolsClient
 :
 this
 .
-toolbox
-.
-resourceWatcher
+devToolsClient
 }
 )
 ;

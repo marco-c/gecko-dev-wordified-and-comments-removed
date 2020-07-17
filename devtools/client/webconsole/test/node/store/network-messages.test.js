@@ -190,6 +190,8 @@ message1
 ;
 updatePacket
 .
+networkInfo
+.
 actor
 =
 "
@@ -215,7 +217,10 @@ actions
 networkMessageUpdate
 (
 updatePacket
+.
+networkInfo
 null
+updatePacket
 )
 )
 ;
