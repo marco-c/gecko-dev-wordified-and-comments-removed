@@ -380,6 +380,7 @@ TextureAllocationFlags
 aAllocFlags
 )
 ;
+const
 RefPtr
 <
 KnowsCompositor
