@@ -43,9 +43,9 @@ DOH_DOORHANGER_DECISION_PREF
 )
 ;
 await
-SpecialMessageActions
+SMATestUtils
 .
-handleAction
+executeAndValidateAction
 (
 {
 type
@@ -54,7 +54,6 @@ type
 ACCEPT_DOH
 "
 }
-gBrowser
 )
 ;
 Assert

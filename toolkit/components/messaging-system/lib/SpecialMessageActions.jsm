@@ -883,16 +883,6 @@ NETWORK_TRR_MODE_PREF
 5
 )
 ;
-await
-this
-.
-blockMessageById
-(
-"
-DOH_ROLLOUT_CONFIRMATION
-"
-)
-;
 break
 ;
 case
