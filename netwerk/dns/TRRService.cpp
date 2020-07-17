@@ -5255,6 +5255,11 @@ const
 nsACString
 &
 aOriginSuffix
+nsHostRecord
+:
+:
+TRRSkippedReason
+aReason
 )
 {
 MOZ_ASSERT_IF
