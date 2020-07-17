@@ -125,3 +125,14 @@ interactionMode
 ;
 }
 ;
+partial
+interface
+XRView
+{
+readonly
+attribute
+boolean
+isFirstPersonObserver
+;
+}
+;
