@@ -773,9 +773,6 @@ frameLoad
 "
 pseudoClassLock
 "
-"
-mutationBreakpoints
-"
 ]
 ;
 const
