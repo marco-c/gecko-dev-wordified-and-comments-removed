@@ -228,15 +228,6 @@ parent
 SCALAR_KEY
 ]
 ;
-let
-win
-=
-BrowserWindowTracker
-.
-getTopWindow
-(
-)
-;
 if
 (
 !
@@ -334,9 +325,7 @@ dump
 __startTimestamp
 "
 +
-win
-.
-performance
+Date
 .
 now
 (

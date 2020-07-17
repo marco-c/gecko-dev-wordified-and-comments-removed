@@ -617,11 +617,7 @@ document
 .
 documentURI
 +
-content
-.
-window
-.
-performance
+Date
 .
 now
 (

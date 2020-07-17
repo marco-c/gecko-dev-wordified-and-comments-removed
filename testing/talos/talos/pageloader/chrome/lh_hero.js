@@ -57,11 +57,7 @@ LoadEvent
 {
 time
 :
-content
-.
-window
-.
-performance
+Date
 .
 now
 (

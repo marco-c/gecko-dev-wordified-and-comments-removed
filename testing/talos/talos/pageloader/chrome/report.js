@@ -446,11 +446,12 @@ n
 var
 now
 =
-window
+new
+Date
+(
+)
 .
-performance
-.
-now
+getTime
 (
 )
 ;
