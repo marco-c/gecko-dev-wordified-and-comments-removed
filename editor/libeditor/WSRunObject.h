@@ -3418,7 +3418,7 @@ nodiscard
 MOZ_CAN_RUN_SCRIPT
 static
 nsresult
-Scrub
+DeleteInvisibleASCIIWhiteSpaces
 (
 HTMLEditor
 &
@@ -3659,9 +3659,14 @@ EditorDOMPoint
 aPoint
 )
 ;
+[
+[
+nodiscard
+]
+]
 MOZ_CAN_RUN_SCRIPT
 nsresult
-Scrub
+DeleteInvisibleASCIIWhiteSpacesInternal
 (
 )
 ;
