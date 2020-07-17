@@ -112,7 +112,7 @@ ExtensionParent
 .
 jsm
 "
-getVerificationHash
+IgnoreLists
 :
 "
 resource
@@ -123,11 +123,11 @@ gre
 /
 modules
 /
-SearchEngine
+IgnoreLists
 .
 jsm
 "
-IgnoreLists
+OpenSearchEngine
 :
 "
 resource
@@ -138,7 +138,7 @@ gre
 /
 modules
 /
-IgnoreLists
+OpenSearchEngine
 .
 jsm
 "
@@ -6194,7 +6194,7 @@ path
 addedEngine
 =
 new
-SearchEngine
+OpenSearchEngine
 (
 {
 fileURI
@@ -10599,7 +10599,7 @@ var
 engine
 =
 new
-SearchEngine
+OpenSearchEngine
 (
 {
 uri
@@ -11551,6 +11551,8 @@ attributeName
 )
 =
 =
+SearchUtils
+.
 getVerificationHash
 (
 name
@@ -11852,6 +11854,8 @@ unknown
 let
 loadPathHash
 =
+SearchUtils
+.
 getVerificationHash
 (
 newCurrentEngine
@@ -12382,6 +12386,8 @@ else
 let
 loadPathHash
 =
+SearchUtils
+.
 getVerificationHash
 (
 engine
@@ -14414,7 +14420,7 @@ spec
 testEngine
 =
 new
-SearchEngine
+OpenSearchEngine
 (
 {
 uri
