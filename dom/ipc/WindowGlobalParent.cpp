@@ -2426,9 +2426,7 @@ GetRemoteType
 ;
 }
 return
-VoidCString
-(
-)
+NOT_REMOTE_TYPE
 ;
 }
 void
