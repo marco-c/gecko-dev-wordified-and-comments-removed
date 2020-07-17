@@ -3181,7 +3181,7 @@ aBreakpadID
 JSContext
 *
 aCx
-nsISupports
+Promise
 *
 *
 aPromise
