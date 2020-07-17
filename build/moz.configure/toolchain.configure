@@ -10900,11 +10900,15 @@ and
 target
 .
 cpu
-=
-=
+in
+(
+'
+x86
+'
 '
 x86_64
 '
+)
 :
 return
 '
