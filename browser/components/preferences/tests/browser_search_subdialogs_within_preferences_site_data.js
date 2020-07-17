@@ -64,6 +64,13 @@ siteDataGroup
 "
 trackingGroup
 "
+"
+pane
+-
+experimental
+-
+featureGates
+"
 ]
 )
 ;
