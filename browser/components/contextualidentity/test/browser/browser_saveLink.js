@@ -103,6 +103,14 @@ schemeful
 "
 false
 ]
+[
+"
+dom
+.
+block_download_insecure
+"
+false
+]
 ]
 }
 )
