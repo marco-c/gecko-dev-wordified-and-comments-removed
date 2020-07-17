@@ -9685,7 +9685,7 @@ i
 -
 >
 kind
-=
+!
 =
 ElemSegment
 :
@@ -9693,7 +9693,7 @@ ElemSegment
 Kind
 :
 :
-Passive
+Active
 )
 {
 passiveElemSegments_
