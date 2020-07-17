@@ -193,9 +193,6 @@ TwoByte
 State
 state_
 ;
-bool
-preventedDeduplication_
-;
 public
 :
 explicit
@@ -214,17 +211,8 @@ state_
 (
 Uninitialized
 )
-preventedDeduplication_
-(
-false
-)
 {
 }
-~
-AutoStableStringChars
-(
-)
-;
 MOZ_MUST_USE
 bool
 init
