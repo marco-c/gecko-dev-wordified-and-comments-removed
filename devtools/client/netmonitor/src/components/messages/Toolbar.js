@@ -337,6 +337,8 @@ channelType
 PropTypes
 .
 string
+.
+isRequired
 }
 ;
 }

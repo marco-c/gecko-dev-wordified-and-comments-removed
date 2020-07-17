@@ -308,6 +308,16 @@ eventSourceConnectionOpened
 httpChannelId
 )
 {
+this
+.
+emit
+(
+"
+serverEventSourceConnectionOpened
+"
+httpChannelId
+)
+;
 }
 eventSourceConnectionClosed
 (
