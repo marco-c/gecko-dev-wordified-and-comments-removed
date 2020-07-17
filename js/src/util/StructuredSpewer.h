@@ -134,6 +134,11 @@ _
 (
 ScriptStats
 )
+\
+_
+(
+RateMyCacheIR
+)
 enum
 class
 SpewChannel
