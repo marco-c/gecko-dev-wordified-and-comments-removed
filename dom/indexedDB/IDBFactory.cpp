@@ -268,13 +268,6 @@ h
 #
 include
 "
-ThreadLocal
-.
-h
-"
-#
-include
-"
 ActorsChild
 .
 h
@@ -3657,9 +3650,6 @@ IDBFactory
 .
 deleteDatabase
 (
-%
-.
-0s
 )
 "
 request
@@ -3703,12 +3693,6 @@ IDBFactory
 .
 open
 (
-%
-.
-0s
-%
-.
-0s
 )
 "
 request

@@ -251,11 +251,6 @@ SerializationHelpers
 .
 h
 '
-'
-ThreadLocal
-.
-h
-'
 ]
 UNIFIED_SOURCES
 +
@@ -353,11 +348,6 @@ cpp
 '
 '
 PermissionRequestBase
-.
-cpp
-'
-'
-ProfilerHelpers
 .
 cpp
 '
