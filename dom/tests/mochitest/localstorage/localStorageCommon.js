@@ -10,7 +10,7 @@ SpecialPowers
 .
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -109,7 +109,7 @@ SpecialPowers
 .
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -224,7 +224,7 @@ SpecialPowers
 .
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -327,7 +327,7 @@ SpecialPowers
 .
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
@@ -515,7 +515,7 @@ SpecialPowers
 .
 Services
 .
-lsm
+domStorageManager
 .
 nextGenLocalStorageEnabled
 )
