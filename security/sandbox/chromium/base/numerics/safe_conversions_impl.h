@@ -492,12 +492,7 @@ IsValueNegative
 value
 )
 ?
-static_cast
-<
-UnsignedT
->
-(
-0u
+0
 -
 static_cast
 <
@@ -505,7 +500,6 @@ UnsignedT
 >
 (
 value
-)
 )
 :
 static_cast

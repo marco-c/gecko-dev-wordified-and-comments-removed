@@ -78,7 +78,6 @@ WideToUTF8
 WStringPiece
 wide
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 bool
@@ -108,7 +107,6 @@ UTF8ToWide
 StringPiece
 utf8
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 bool
@@ -132,7 +130,6 @@ WideToUTF16
 WStringPiece
 wide
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 bool
@@ -162,7 +159,6 @@ UTF16ToWide
 StringPiece16
 utf16
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 bool
@@ -186,7 +182,6 @@ UTF8ToUTF16
 StringPiece
 utf8
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 bool
@@ -216,7 +211,6 @@ UTF16ToUTF8
 StringPiece16
 utf16
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 string16
@@ -225,7 +219,6 @@ ASCIIToUTF16
 StringPiece
 ascii
 )
-WARN_UNUSED_RESULT
 ;
 BASE_EXPORT
 std
@@ -237,7 +230,6 @@ UTF16ToASCII
 StringPiece16
 utf16
 )
-WARN_UNUSED_RESULT
 ;
 }
 #
