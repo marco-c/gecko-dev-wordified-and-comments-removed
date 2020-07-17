@@ -3655,6 +3655,15 @@ GetPrincipal
 topContext
 )
 ;
+if
+(
+!
+principal
+)
+{
+continue
+;
+}
 nsAutoCString
 key
 ;
