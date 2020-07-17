@@ -41,7 +41,7 @@ this
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 getTopWindow

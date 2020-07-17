@@ -448,7 +448,7 @@ testWithRange
 {
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 NS_ERROR_ABORT

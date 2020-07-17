@@ -25,7 +25,7 @@ this
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 NS_ERROR_ILLEGAL_VALUE

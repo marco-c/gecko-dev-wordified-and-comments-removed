@@ -592,7 +592,7 @@ checkFn
 )
 ;
 }
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 regExp
 )

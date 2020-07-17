@@ -1,6 +1,6 @@
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 File
@@ -10,7 +10,7 @@ closed
 ;
 PromiseTestUtils
 .
-whitelistRejectionsGlobally
+allowMatchingRejectionsGlobally
 (
 /
 NS_ERROR_FAILURE
