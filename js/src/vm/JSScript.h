@@ -4568,6 +4568,11 @@ JSTracer
 trc
 )
 {
+if
+(
+ss
+)
+{
 ss
 -
 >
@@ -4576,6 +4581,7 @@ trace
 trc
 )
 ;
+}
 }
 }
 ;
