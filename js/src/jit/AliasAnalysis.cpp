@@ -898,6 +898,15 @@ MDefinition
 Opcode
 :
 :
+GuardNullProto
+:
+case
+MDefinition
+:
+:
+Opcode
+:
+:
 LoadDynamicSlot
 :
 case
