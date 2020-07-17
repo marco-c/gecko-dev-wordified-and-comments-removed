@@ -5135,6 +5135,12 @@ modulesc
 -
 >
 bindings
+modulesc
+-
+>
+module
+(
+)
 enclosing
 index
 )
