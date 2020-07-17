@@ -1,3 +1,14 @@
+setup
+(
+{
+"
+hide_test_state
+"
+:
+true
+}
+)
+;
 async_test
 (
 t

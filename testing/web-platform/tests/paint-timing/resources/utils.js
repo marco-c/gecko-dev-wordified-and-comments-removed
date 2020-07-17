@@ -173,6 +173,17 @@ test_fcp
 label
 )
 {
+setup
+(
+{
+"
+hide_test_state
+"
+:
+true
+}
+)
+;
 const
 style
 =
