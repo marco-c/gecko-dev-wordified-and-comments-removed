@@ -1,5 +1,9 @@
+from
+wptserve
+.
+utils
 import
-json
+isomorphic_decode
 def
 main
 (
@@ -12,11 +16,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -25,6 +31,7 @@ json
 )
                
 (
+b
 "
 Access
 -
@@ -34,6 +41,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -41,6 +49,7 @@ true
 ]
     
 if
+b
 "
 origin
 "
@@ -55,6 +64,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -68,6 +78,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -105,6 +116,7 @@ values
 .
 append
 (
+u
 "
 \
 "
@@ -122,13 +134,17 @@ s
 "
 %
 (
+isomorphic_decode
+(
 key
+)
 value
 )
 )
     
 body
 =
+u
 "
 {
 %
@@ -136,6 +152,7 @@ s
 }
 "
 %
+u
 "
 "
 .

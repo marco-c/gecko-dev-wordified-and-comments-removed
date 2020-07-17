@@ -2,6 +2,12 @@ import
 json
 import
 helpers
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -34,11 +40,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -55,6 +63,7 @@ utf
     
 tmpl
 =
+u
 "
 "
 "
@@ -226,6 +235,29 @@ script
 "
 "
     
+decoded_cookies
+=
+{
+isomorphic_decode
+(
+key
+)
+:
+isomorphic_decode
+(
+val
+)
+for
+key
+val
+in
+cookies
+.
+items
+(
+)
+}
+    
 return
 headers
 tmpl
@@ -234,5 +266,5 @@ json
 .
 dumps
 (
-cookies
+decoded_cookies
 )

@@ -6,6 +6,12 @@ from
 os
 import
 listdir
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 "
 "
 "
@@ -109,6 +115,7 @@ above
 "
 SETUP_FILE_TEMPLATE
 =
+u
 "
 {
 }
@@ -117,6 +124,7 @@ test
 "
 EXPECTATION_FILE_TEMPLATE
 =
+u
 "
 {
 }
@@ -125,6 +133,7 @@ expected
 "
 EXPECTATION_HTML_SCAFFOLD
 =
+u
 "
 iframe
 -
@@ -140,6 +149,7 @@ str
 "
 DEBUGGING_HTML_SCAFFOLD
 =
+u
 "
 debugging
 -
@@ -159,20 +169,24 @@ path
 .
 join
 (
+u
 "
 cookies
 "
+u
 "
 http
 -
 state
 "
+u
 "
 resources
 "
 )
 DEFAULT_TEST_DIR
 =
+u
 "
 test
 -
@@ -180,6 +194,7 @@ files
 "
 ALL_TESTS
 =
+u
 "
 all
 -
@@ -223,6 +238,7 @@ join
 directory
 filename
 )
+u
 "
 r
 "
@@ -441,6 +457,7 @@ format
 *
 *
 {
+u
 '
 data
 '
@@ -497,6 +514,7 @@ all_files
   
 line_template
 =
+u
 '
 {
 {
@@ -539,6 +557,7 @@ file
 .
 endswith
 (
+u
 '
 -
 test
@@ -552,10 +571,12 @@ file
 .
 replace
 (
+u
 '
 -
 test
 '
+u
 '
 '
 )
@@ -571,6 +592,7 @@ format
 *
 *
 {
+u
 '
 filename
 '
@@ -638,6 +660,7 @@ ALL_TESTS
 return
 html_frame
 %
+u
 '
 \
 n
@@ -659,6 +682,7 @@ response
 :
   
 if
+b
 "
 debug
 "
@@ -730,14 +754,18 @@ test_file
 html_frame
 %
 (
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 '
 debug
 '
 ]
+)
 )
     
 response
@@ -750,9 +778,9 @@ test_file
 )
     
 return
-;
   
 if
+b
 "
 file
 "
@@ -804,14 +832,18 @@ cookie_response
 =
 CookieTestResponse
 (
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 '
 file
 '
 ]
+)
 request
 .
 doc_root
@@ -861,7 +893,6 @@ body_with_expectation
 )
     
 return
-;
   
 "
 "

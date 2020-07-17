@@ -1,7 +1,21 @@
 import
 helpers
-import
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+unquote
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -51,8 +65,6 @@ response
     
 cookie
 =
-urllib
-.
 unquote
 (
 request
@@ -67,17 +79,22 @@ headers
 append
 (
 (
+b
 "
 Set
 -
 Cookie
 "
+isomorphic_encode
+(
 cookie
+)
 )
 )
     
 return
 headers
+b
 '
 {
 "

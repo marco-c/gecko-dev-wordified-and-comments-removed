@@ -63,6 +63,7 @@ status
 302
     
 if
+b
 "
 status
 "
@@ -85,6 +86,7 @@ GET
 .
 first
 (
+b
 "
 status
 "
@@ -113,6 +115,7 @@ GET
 .
 first
 (
+b
 "
 location
 "
@@ -123,6 +126,7 @@ headers
 append
 (
 (
+b
 "
 Location
 "
@@ -133,5 +137,6 @@ location
 return
 status
 headers
+b
 "
 "

@@ -2,7 +2,6 @@ from
 helpers
 import
 makeDropCookie
-readParameter
 setNoCacheAndCORSHeaders
 def
 main
@@ -52,6 +51,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 alone_secure
 "
@@ -65,6 +65,7 @@ append
 (
 makeDropCookie
 (
+b
 "
 alone_insecure
 "
@@ -74,6 +75,7 @@ False
     
 return
 headers
+b
 '
 {
 "

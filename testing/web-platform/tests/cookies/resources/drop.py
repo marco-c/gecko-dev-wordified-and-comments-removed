@@ -58,6 +58,7 @@ readParameter
 request
 paramName
 =
+u
 "
 name
 "
@@ -81,6 +82,7 @@ append
 makeDropCookie
 (
 name
+u
 "
 https
 "
@@ -92,6 +94,7 @@ scheme
         
 return
 headers
+b
 '
 {
 "
@@ -108,6 +111,7 @@ except
 return
 500
 headers
+b
 '
 {
 "

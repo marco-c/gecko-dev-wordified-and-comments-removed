@@ -69,6 +69,7 @@ readParameter
 request
 paramName
 =
+u
 "
 name
 "
@@ -86,6 +87,7 @@ readParameter
 request
 paramName
 =
+u
 "
 value
 "
@@ -125,11 +127,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -140,6 +144,7 @@ gif
             
 gif
 =
+b
 "
 \
 x47
@@ -236,6 +241,7 @@ gif
 return
 500
 headers
+b
 '
 {
 "

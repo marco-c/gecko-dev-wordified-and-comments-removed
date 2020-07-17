@@ -4,6 +4,12 @@ import
 makeCookieHeader
 readParameter
 setNoCacheAndCORSHeaders
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -68,11 +74,14 @@ response
     
 value
 =
+isomorphic_encode
+(
 request
 .
 url_parts
 .
 query
+)
     
 headers
 .
@@ -80,21 +89,26 @@ append
 (
 makeCookieHeader
 (
+b
 "
 alone_secure
 "
 value
 {
+b
 "
 secure
 "
 :
+b
 "
 "
+b
 "
 path
 "
 :
+b
 "
 /
 "
@@ -108,15 +122,18 @@ append
 (
 makeCookieHeader
 (
+b
 "
 alone_insecure
 "
 value
 {
+b
 "
 path
 "
 :
+b
 "
 /
 "
@@ -126,6 +143,7 @@ path
     
 return
 headers
+b
 '
 {
 "
