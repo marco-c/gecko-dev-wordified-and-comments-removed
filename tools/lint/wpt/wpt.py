@@ -31,9 +31,9 @@ log
 =
 kwargs
 [
-'
+"
 log
-'
+"
 ]
     
 tests_dir
@@ -46,21 +46,21 @@ join
 (
 kwargs
 [
-'
+"
 root
-'
+"
 ]
-'
+"
 testing
-'
-'
+"
+"
 web
 -
 platform
-'
-'
+"
+"
 tests
-'
+"
 )
     
 def
@@ -112,6 +112,7 @@ path
 .
 relpath
 (
+            
 os
 .
 path
@@ -128,10 +129,11 @@ path
 )
 kwargs
 [
-'
+"
 root
-'
+"
 ]
+        
 )
         
 data
@@ -170,6 +172,7 @@ tests_dir
         
 print
 (
+            
 "
 No
 specific
@@ -181,7 +184,6 @@ full
 wpt
 lint
 "
-              
 "
 (
 this
@@ -189,11 +191,13 @@ is
 slow
 )
 "
+            
 file
 =
 sys
 .
 stderr
+        
 )
         
 files
@@ -209,9 +213,9 @@ all
 cmd
 =
 [
-'
+"
 python2
-'
+"
 os
 .
 path
@@ -219,18 +223,18 @@ path
 join
 (
 tests_dir
-'
+"
 wpt
-'
+"
 )
-'
+"
 lint
-'
-'
+"
+"
 -
 -
 json
-'
+"
 ]
 +
 files
@@ -248,8 +252,8 @@ Command
 .
 format
 (
-'
-'
+"
+"
 .
 join
 (
@@ -262,6 +266,7 @@ proc
 =
 ProcessHandler
 (
+        
 cmd
 env
 =
@@ -271,10 +276,10 @@ environ
 processOutputLine
 =
 process_line
-                          
 universal_newlines
 =
 True
+    
 )
     
 proc
@@ -310,8 +315,9 @@ result
 .
 from_config
 (
+                    
 config
-                                   
+                    
 message
 =
 "
@@ -325,11 +331,12 @@ code
 s
 "
 %
-                                   
 proc
 .
 returncode
+                
 )
+            
 )
     
 except
