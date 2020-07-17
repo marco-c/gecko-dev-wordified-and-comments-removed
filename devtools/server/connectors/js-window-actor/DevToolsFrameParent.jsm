@@ -206,7 +206,6 @@ browserId
 }
 )
 {
-return
 this
 .
 sendAsyncMessage
@@ -259,7 +258,6 @@ resourceTypes
 }
 )
 {
-return
 this
 .
 sendAsyncMessage
