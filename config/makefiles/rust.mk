@@ -2804,6 +2804,7 @@ host
 library
 -
 build
+;
 force
 -
 cargo
@@ -2912,6 +2913,7 @@ cargo
 program
 -
 build
+;
 force
 -
 cargo
@@ -2999,6 +3001,7 @@ host
 program
 -
 build
+;
 force
 -
 cargo
