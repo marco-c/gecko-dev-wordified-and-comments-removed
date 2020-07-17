@@ -267,6 +267,15 @@ Role
 aRole
 )
 ;
+static
+bool
+ShouldIncludeInSubtreeCalculation
+(
+Accessible
+*
+aAccessible
+)
+;
 }
 ;
 #
