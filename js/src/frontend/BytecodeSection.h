@@ -616,6 +616,14 @@ index
 )
 const
 ;
+ScopeIndex
+getScopeIndex
+(
+size_t
+index
+)
+const
+;
 AbstractScopePtr
 firstScope
 (

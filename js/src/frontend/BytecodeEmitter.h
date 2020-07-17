@@ -942,6 +942,12 @@ innermostScope
 )
 const
 ;
+ScopeIndex
+innermostScopeIndex
+(
+)
+const
+;
 AbstractScopePtr
 bodyScope
 (

@@ -6075,8 +6075,6 @@ asyncKind
 FunctionNodeType
 standaloneFunction
 (
-HandleScope
-enclosingScope
 const
 mozilla
 :

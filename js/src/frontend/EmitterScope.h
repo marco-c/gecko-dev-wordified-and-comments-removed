@@ -531,6 +531,16 @@ bce
 )
 const
 ;
+ScopeIndex
+scopeIndex
+(
+const
+BytecodeEmitter
+*
+bce
+)
+const
+;
 bool
 hasEnvironment
 (
