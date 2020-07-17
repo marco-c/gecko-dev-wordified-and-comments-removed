@@ -1185,6 +1185,10 @@ in
 config
 .
 kind_dependencies_tasks
+.
+values
+(
+)
 :
         
 if
@@ -1652,37 +1656,13 @@ dep_label
 else
 :
                     
-dep_tasks
-=
-[
-                        
-task
-                        
-for
-task
+if
+dep_label
+not
 in
 config
 .
 kind_dependencies_tasks
-                        
-if
-task
-.
-label
-=
-=
-dep_label
-                    
-]
-                    
-if
-len
-(
-dep_tasks
-)
-!
-=
-1
 :
                         
 raise
@@ -1707,9 +1687,8 @@ because
 "
 there
 are
-{
+no
 tasks
-}
 with
 label
 {
@@ -1738,28 +1717,6 @@ dependencies
 [
 kind
 ]
-                                
-tasks
-=
-"
-no
-tasks
-"
-                                
-if
-len
-(
-dep_tasks
-)
-=
-=
-0
-                                
-else
-"
-multiple
-tasks
-"
                             
 )
                         
@@ -1769,9 +1726,11 @@ prefix
 =
 get_artifact_prefix
 (
-dep_tasks
+config
+.
+kind_dependencies_tasks
 [
-0
+dep_label
 ]
 )
                 
