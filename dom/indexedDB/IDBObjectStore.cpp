@@ -3027,7 +3027,7 @@ result
 .
 Is
 (
-indexedDB
+SpecialValues
 :
 :
 Exception
@@ -3119,7 +3119,7 @@ result
 .
 Is
 (
-indexedDB
+SpecialValues
 :
 :
 Exception

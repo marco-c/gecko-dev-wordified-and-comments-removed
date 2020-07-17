@@ -247,6 +247,9 @@ len
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -304,6 +307,9 @@ indexId
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -330,6 +336,9 @@ hop
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -345,6 +354,9 @@ hop
 )
 {
 return
+SpecialValues
+:
+:
 Invalid
 ;
 }
@@ -372,6 +384,9 @@ entry
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -820,6 +835,9 @@ fallible
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -995,6 +1013,9 @@ updateBufferAndIter
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1053,6 +1074,9 @@ byteCount
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1092,6 +1116,9 @@ binaryLength
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1457,6 +1484,9 @@ kMaxRecursionDepth
 )
 {
 return
+SpecialValues
+:
+:
 Invalid
 ;
 }
@@ -1491,6 +1521,9 @@ number
 )
 {
 return
+SpecialValues
+:
+:
 Invalid
 ;
 }
@@ -1538,6 +1571,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1605,6 +1641,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1651,6 +1690,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -1671,6 +1713,9 @@ ms
 )
 {
 return
+SpecialValues
+:
+:
 Invalid
 ;
 }
@@ -1754,6 +1799,9 @@ aRecursionDepth
 }
 }
 return
+SpecialValues
+:
+:
 Invalid
 ;
 }
@@ -2470,6 +2518,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -2586,6 +2637,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -2631,6 +2685,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -2666,6 +2723,9 @@ IDB_REPORT_INTERNAL_ERR
 ;
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -3052,6 +3112,9 @@ uerror
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -3120,6 +3183,9 @@ fallible
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -3162,6 +3228,9 @@ sortKeyLength
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {

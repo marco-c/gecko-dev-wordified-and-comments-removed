@@ -1761,6 +1761,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )
@@ -2135,6 +2138,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )

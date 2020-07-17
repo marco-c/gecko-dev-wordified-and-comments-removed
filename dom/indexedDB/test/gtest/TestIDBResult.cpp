@@ -58,6 +58,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Failure
 )
 )
@@ -99,6 +102,9 @@ Failure
 >
 narrow
 {
+SpecialValues
+:
+:
 Failure
 }
 ;
@@ -131,6 +137,9 @@ wide
 .
 Is
 (
+SpecialValues
+:
+:
 Failure
 )
 )
@@ -150,6 +159,9 @@ ThrowException
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 ErrorResult
 {
@@ -177,6 +189,9 @@ result
 .
 Is
 (
+SpecialValues
+:
+:
 Exception
 )
 )

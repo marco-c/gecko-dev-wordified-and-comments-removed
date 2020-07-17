@@ -191,6 +191,9 @@ return
 }
 ;
 }
+namespace
+SpecialValues
+{
 constexpr
 const
 detail
@@ -215,6 +218,7 @@ detail
 ExceptionType
 Exception
 ;
+}
 template
 <
 typename
@@ -1067,6 +1071,9 @@ ResultType
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 std
 :
@@ -1159,6 +1166,9 @@ aParam
 {
 return
 {
+SpecialValues
+:
+:
 Exception
 std
 :
