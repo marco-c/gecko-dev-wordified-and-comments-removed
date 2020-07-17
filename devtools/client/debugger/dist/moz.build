@@ -89,11 +89,6 @@ js
 '
 vendors
 .
-css
-'
-'
-vendors
-.
 js
 '
 )

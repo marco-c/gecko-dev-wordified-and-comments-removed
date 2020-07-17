@@ -107,11 +107,3 @@ vendors
 js
 '
 )
-DevToolsModules
-(
-'
-debugger
-.
-css
-'
-)

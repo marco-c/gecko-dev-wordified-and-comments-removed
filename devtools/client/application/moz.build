@@ -64,11 +64,6 @@ src
 DevToolsModules
 (
 '
-application
-.
-css
-'
-'
 initializer
 .
 js
