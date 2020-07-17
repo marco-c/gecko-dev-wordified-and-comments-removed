@@ -406,11 +406,6 @@ SwitchDocumentDirectionChild
 jsm
 '
 '
-URIFixupChild
-.
-jsm
-'
-'
 WebRTCChild
 .
 jsm
