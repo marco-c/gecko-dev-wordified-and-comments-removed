@@ -927,6 +927,16 @@ ua_overrides
 js
 '
 ]
+XPCOM_MANIFESTS
++
+=
+[
+'
+components
+.
+conf
+'
+]
 with
 Files
 (
