@@ -1765,6 +1765,13 @@ nsresult
 rv
 )
 ;
+void
+NotifyOrReleaseListeners
+(
+nsresult
+rv
+)
+;
 bool
 RemoteChannelExists
 (
