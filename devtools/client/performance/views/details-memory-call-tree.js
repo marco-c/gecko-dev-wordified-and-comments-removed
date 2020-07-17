@@ -333,8 +333,6 @@ getInfo
 ;
 PerformanceController
 .
-toolbox
-.
 viewSourceInDebugger
 (
 url

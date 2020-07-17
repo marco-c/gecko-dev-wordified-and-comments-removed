@@ -869,8 +869,6 @@ data
 {
 PerformanceController
 .
-toolbox
-.
 viewSourceInDebugger
 (
 data
