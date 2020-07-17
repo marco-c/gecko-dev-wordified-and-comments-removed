@@ -59,15 +59,6 @@ results
 )
     
 assert
-len
-(
-results
-)
-=
-=
-2
-    
-assert
 results
 .
 keys
@@ -97,6 +88,16 @@ bad
 shebang
 .
 c
+"
+        
+"
+no
+-
+shebang
+/
+bad
+.
+png
 "
     
 }
