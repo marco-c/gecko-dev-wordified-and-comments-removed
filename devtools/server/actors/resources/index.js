@@ -193,7 +193,7 @@ onAvailable
 :
 targetActor
 .
-onResourceAvailable
+notifyResourceAvailable
 }
 )
 ;
