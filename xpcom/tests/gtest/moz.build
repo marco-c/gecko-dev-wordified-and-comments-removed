@@ -188,6 +188,11 @@ TestSlicedInputStream
 cpp
 '
 '
+TestSmallArrayLRUCache
+.
+cpp
+'
+'
 TestSnappyStreams
 .
 cpp
