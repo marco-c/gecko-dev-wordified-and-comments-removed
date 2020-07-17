@@ -855,6 +855,15 @@ mStream
 good
 (
 )
+&
+&
+!
+mStream
+-
+>
+WriterFailed
+(
+)
 )
 {
 Telemetry
