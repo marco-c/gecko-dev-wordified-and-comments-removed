@@ -8201,6 +8201,9 @@ false
 class
 MicroTaskRunnable
 ;
+class
+Task
+;
 template
 <
 >
@@ -8325,6 +8328,13 @@ LogTaskBase
 nsTimerImpl
 >
 LogTimerEvent
+;
+typedef
+LogTaskBase
+<
+Task
+>
+LogTask
 ;
 class
 DelayedRunnable

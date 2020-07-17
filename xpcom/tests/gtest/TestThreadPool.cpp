@@ -93,7 +93,7 @@ namespace
 mozilla
 ;
 class
-Task
+TestTask
 final
 :
 public
@@ -101,7 +101,7 @@ Runnable
 {
 public
 :
-Task
+TestTask
 (
 int
 i
@@ -237,7 +237,7 @@ NS_OK
 private
 :
 ~
-Task
+TestTask
 (
 )
 =
@@ -304,7 +304,7 @@ nsIRunnable
 task
 =
 new
-Task
+TestTask
 (
 i
 count
@@ -669,7 +669,7 @@ nsIRunnable
 task
 =
 new
-Task
+TestTask
 (
 i
 allThreadsCount
@@ -761,7 +761,7 @@ nsIRunnable
 task
 =
 new
-Task
+TestTask
 (
 i
 infiniteLoopCount
@@ -929,7 +929,7 @@ nsIRunnable
 task
 =
 new
-Task
+TestTask
 (
 i
 count
