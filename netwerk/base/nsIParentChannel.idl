@@ -425,7 +425,7 @@ load
 /
 readonly
 attribute
-AUTF8String
+AString
 remoteType
 ;
 }

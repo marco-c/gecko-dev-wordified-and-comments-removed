@@ -207,7 +207,7 @@ FileChannelParent
 :
 GetRemoteType
 (
-nsACString
+nsAString
 &
 aRemoteType
 )

@@ -78,7 +78,7 @@ process
 ;
 readonly
 attribute
-AUTF8String
+AString
 remoteType
 ;
 [

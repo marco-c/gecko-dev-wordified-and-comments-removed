@@ -42,17 +42,6 @@ include
 "
 mozilla
 /
-dom
-/
-RemoteType
-.
-h
-"
-#
-include
-"
-mozilla
-/
 StaticPtr
 .
 h
@@ -120,7 +109,7 @@ aActor
 )
 ;
 const
-nsACString
+nsAString
 &
 GetRemoteType
 (
@@ -129,7 +118,9 @@ const
 override
 {
 return
-NOT_REMOTE_TYPE
+VoidString
+(
+)
 ;
 }
 protected

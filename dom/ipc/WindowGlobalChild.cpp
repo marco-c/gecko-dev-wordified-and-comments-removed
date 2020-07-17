@@ -2030,8 +2030,13 @@ options
 options
 .
 mRemoteType
-=
-NOT_REMOTE_TYPE
+.
+Assign
+(
+VoidString
+(
+)
+)
 ;
 options
 .
@@ -3158,7 +3163,7 @@ aNewDocumentPrincipal
 ;
 }
 const
-nsACString
+nsAString
 &
 WindowGlobalChild
 :
@@ -3189,7 +3194,9 @@ GetRemoteType
 ;
 }
 return
-NOT_REMOTE_TYPE
+VoidString
+(
+)
 ;
 }
 already_AddRefed

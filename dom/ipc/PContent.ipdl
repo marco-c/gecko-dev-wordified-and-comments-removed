@@ -1486,7 +1486,7 @@ nsString
 ]
 matches
 ;
-nsCString
+nsString
 [
 ]
 remoteTypes
@@ -1513,7 +1513,7 @@ nsCString
 ]
 observers
 ;
-nsCString
+nsString
 [
 ]
 remoteTypes
@@ -2451,7 +2451,7 @@ updateURL
 async
 RemoteType
 (
-nsCString
+nsString
 aRemoteType
 )
 ;

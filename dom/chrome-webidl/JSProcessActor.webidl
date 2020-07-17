@@ -60,7 +60,7 @@ ProcessActorOptions
 {
 sequence
 <
-UTF8String
+DOMString
 >
 remoteTypes
 ;

@@ -132,7 +132,7 @@ childId
 ProcType
 type
 ;
-nsCString
+nsString
 origin
 ;
 nsString
@@ -196,7 +196,7 @@ ProcType
 &
 processType
 const
-nsACString
+nsAString
 &
 origin
 mach_port_t
@@ -225,7 +225,7 @@ ProcType
 &
 processType
 const
-nsACString
+nsAString
 &
 origin
 )

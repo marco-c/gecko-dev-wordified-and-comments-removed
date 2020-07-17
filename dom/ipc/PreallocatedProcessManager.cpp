@@ -160,7 +160,7 @@ ContentParent
 Take
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )
@@ -879,7 +879,7 @@ PreallocatedProcessManagerImpl
 Take
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )
@@ -906,9 +906,11 @@ process
 if
 (
 aRemoteType
-=
-=
+.
+EqualsLiteral
+(
 DEFAULT_REMOTE_TYPE
+)
 )
 {
 process
@@ -939,7 +941,9 @@ Debug
 (
 "
 Reuse
-web
+"
+DEFAULT_REMOTE_TYPE
+"
 process
 %
 p
@@ -1005,7 +1009,9 @@ Debug
 (
 "
 Use
-prealloc
+"
+PREALLOC_REMOTE_TYPE
+"
 process
 %
 p
@@ -1061,9 +1067,11 @@ aParent
 GetRemoteType
 (
 )
-=
-=
+.
+EqualsLiteral
+(
 DEFAULT_REMOTE_TYPE
+)
 )
 ;
 if
@@ -1096,7 +1104,9 @@ Debug
 Store
 for
 reuse
-web
+"
+DEFAULT_REMOTE_TYPE
+"
 process
 %
 p
@@ -1414,7 +1424,10 @@ ContentParent
 :
 IsMaxProcessCountReached
 (
+NS_LITERAL_STRING_FROM_CSTRING
+(
 DEFAULT_REMOTE_TYPE
+)
 )
 )
 ;
@@ -1832,7 +1845,7 @@ PreallocatedProcessManager
 AddBlocker
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 ContentParent
@@ -1867,7 +1880,7 @@ sNumBlockers
 d
 )
 "
-PromiseFlatCString
+NS_ConvertUTF16toUTF8
 (
 aRemoteType
 )
@@ -1910,7 +1923,7 @@ PreallocatedProcessManager
 RemoveBlocker
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 ContentParent
@@ -1945,7 +1958,7 @@ sNumBlockers
 d
 )
 "
-PromiseFlatCString
+NS_ConvertUTF16toUTF8
 (
 aRemoteType
 )
@@ -1991,7 +2004,7 @@ PreallocatedProcessManager
 Take
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )

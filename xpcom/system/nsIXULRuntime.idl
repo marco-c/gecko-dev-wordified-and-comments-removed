@@ -760,7 +760,7 @@ telemetry
 /
 readonly
 attribute
-AUTF8String
+AString
 remoteType
 ;
 /

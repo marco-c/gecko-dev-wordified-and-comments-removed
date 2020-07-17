@@ -67,7 +67,7 @@ ContentParent
 CreateContentParent
 (
 const
-nsACString
+nsAString
 &
 aRemoteType
 )

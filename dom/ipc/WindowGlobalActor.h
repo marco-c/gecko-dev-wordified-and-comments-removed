@@ -163,7 +163,7 @@ GetDocumentURI
 ;
 virtual
 const
-nsACString
+nsAString
 &
 GetRemoteType
 (

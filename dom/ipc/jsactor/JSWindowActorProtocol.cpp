@@ -1843,7 +1843,7 @@ JSWindowActorProtocol
 RemoteTypePrefixMatches
 (
 const
-nsDependentCSubstring
+nsDependentSubstring
 &
 aRemoteType
 )
@@ -1941,7 +1941,7 @@ nsIURI
 *
 aURI
 const
-nsACString
+nsAString
 &
 aRemoteType
 )

@@ -751,7 +751,7 @@ Throws
 ]
 readonly
 attribute
-UTF8String
+DOMString
 ?
 currentRemoteType
 ;
