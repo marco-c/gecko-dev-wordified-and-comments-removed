@@ -7701,7 +7701,11 @@ IteratorObject
 protoClass_
 =
 {
-js_Iterator_str
+"
+Iterator
+.
+prototype
+"
 JSCLASS_HAS_CACHED_PROTO
 (
 JSProto_Iterator
