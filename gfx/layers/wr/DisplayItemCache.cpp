@@ -44,6 +44,10 @@ mInvalid
 (
 false
 )
+mSuppressed
+(
+false
+)
 {
 }
 void
