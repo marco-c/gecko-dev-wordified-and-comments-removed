@@ -425,6 +425,8 @@ units
 >
 >
 public
+units
+public
 CoordOperatorsHelper
 <
 true
@@ -524,6 +526,8 @@ units
 F
 >
 >
+public
+units
 public
 CoordOperatorsHelper
 <
