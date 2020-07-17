@@ -38,6 +38,11 @@ stage
 -
 welcome
 "
+template
+:
+"
+multistage
+"
 screens
 :
 [
