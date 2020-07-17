@@ -312,7 +312,7 @@ tabs
 ;
 Assert
 .
-greater
+greaterOrEqual
 (
 certificateTabs
 .
