@@ -428,6 +428,10 @@ BuildDynamicIA2Data
 DynamicIA2Data
 *
 aOutIA2Data
+bool
+aMarshaledByCom
+=
+false
 )
 ;
 void

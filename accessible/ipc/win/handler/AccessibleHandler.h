@@ -1529,6 +1529,9 @@ mIAHypertextPassThru
 IA2Payload
 mCachedData
 ;
+bool
+mCachedDynamicDataMarshaledByCom
+;
 UniquePtr
 <
 mscom
