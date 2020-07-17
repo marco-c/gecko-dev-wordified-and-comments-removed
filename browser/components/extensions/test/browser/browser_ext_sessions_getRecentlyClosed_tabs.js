@@ -41,6 +41,9 @@ getIcon
 (
 tab
 )
+|
+|
+undefined
 selected
 :
 undefined

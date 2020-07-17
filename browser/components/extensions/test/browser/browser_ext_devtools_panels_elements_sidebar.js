@@ -1527,7 +1527,7 @@ sidebarIds
 0
 ]
 )
-undefined
+null
 "
 The
 first
@@ -1552,7 +1552,7 @@ sidebarIds
 1
 ]
 )
-undefined
+null
 "
 The
 second
@@ -1577,7 +1577,7 @@ sidebarIds
 2
 ]
 )
-undefined
+null
 "
 The
 third
@@ -1602,10 +1602,10 @@ sidebarIds
 3
 ]
 )
-undefined
+null
 "
 The
-third
+fourth
 registered
 sidebar
 has
