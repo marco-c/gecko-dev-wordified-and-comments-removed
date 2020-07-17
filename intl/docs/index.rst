@@ -190,3 +190,4 @@ maxdepth
 1
 locale
 dataintl
+icu
