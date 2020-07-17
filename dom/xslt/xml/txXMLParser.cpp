@@ -170,7 +170,7 @@ NodePrincipal
 nsILoadInfo
 :
 :
-SEC_REQUIRE_CORS_DATA_INHERITS
+SEC_REQUIRE_CORS_INHERITS_SEC_CONTEXT
 loadGroup
 loaderDocument
 -
