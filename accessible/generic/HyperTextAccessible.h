@@ -28,6 +28,13 @@ h
 #
 include
 "
+nsIFrame
+.
+h
+"
+#
+include
+"
 nsDirection
 .
 h
