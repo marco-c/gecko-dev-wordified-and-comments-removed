@@ -1898,13 +1898,11 @@ os
 .
 environ
 [
-b
 "
 CHROMEDRIVER_SKIP_DOWNLOAD
 "
 ]
 =
-b
 "
 true
 "
@@ -1913,13 +1911,11 @@ os
 .
 environ
 [
-b
 "
 GECKODRIVER_SKIP_DOWNLOAD
 "
 ]
 =
-b
 "
 true
 "

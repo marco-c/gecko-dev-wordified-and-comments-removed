@@ -217,6 +217,17 @@ browsertime_video
 browsertime_video
 "
     
+options
+[
+"
+browsertime_no_ffwindowrecorder
+"
+]
+=
+"
+browsertime_no_ffwindowrecorder
+"
+    
 return
 options
 pytest
