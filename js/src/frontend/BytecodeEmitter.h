@@ -2298,6 +2298,15 @@ name
 ;
 MOZ_MUST_USE
 bool
+emitGetPrivateName
+(
+NameNode
+*
+name
+)
+;
+MOZ_MUST_USE
+bool
 emitTDZCheckIfNeeded
 (
 HandleAtom
