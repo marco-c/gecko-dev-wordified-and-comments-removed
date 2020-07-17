@@ -1420,14 +1420,14 @@ sampleeTid
 SIGPROF
 )
 ;
-MOZ_ASSERT
+if
 (
 r
 =
 =
 0
 )
-;
+{
 while
 (
 true
@@ -1555,6 +1555,7 @@ r
 ;
 break
 ;
+}
 }
 sSigHandlerCoordinator
 =
