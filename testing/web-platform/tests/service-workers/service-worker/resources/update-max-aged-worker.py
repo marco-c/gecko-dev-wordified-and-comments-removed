@@ -2,6 +2,13 @@ import
 time
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -14,11 +21,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -27,11 +36,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -42,15 +53,19 @@ age
 )
                
 (
+b
 '
 Last
 -
 Modified
 '
+isomorphic_encode
+(
 time
 .
 strftime
 (
+u
 "
 %
 a
@@ -77,6 +92,7 @@ gmtime
 )
 )
 )
+)
 ]
     
 test
@@ -85,6 +101,7 @@ request
 .
 GET
 [
+b
 '
 test
 '
@@ -92,6 +109,7 @@ test
     
 body
 =
+u
 '
 '
 '
@@ -195,7 +213,10 @@ json
 .
 dumps
 (
+isomorphic_decode
+(
 test
+)
 )
     
 )

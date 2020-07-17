@@ -1,5 +1,5 @@
 import
-time
+random
 def
 main
 (
@@ -12,11 +12,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -25,11 +27,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -42,6 +46,7 @@ age
     
 body
 =
+u
 '
 '
 '
@@ -73,10 +78,12 @@ strip
 (
 )
 %
-time
-.
-clock
 (
+random
+.
+random
+(
+)
 )
     
 return

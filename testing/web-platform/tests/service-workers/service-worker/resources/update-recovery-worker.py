@@ -8,11 +8,13 @@ response
     
 mode
 =
+b
 '
 init
 '
     
 if
+b
 '
 update
 -
@@ -32,6 +34,7 @@ request
 .
 cookies
 [
+b
 '
 update
 -
@@ -47,11 +50,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -63,9 +68,11 @@ revalidate
 )
                
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -76,6 +83,7 @@ cache
     
 extra_body
 =
+b
 '
 '
     
@@ -83,6 +91,7 @@ if
 mode
 =
 =
+b
 '
 init
 '
@@ -92,6 +101,7 @@ response
 .
 set_cookie
 (
+b
 '
 update
 -
@@ -99,6 +109,7 @@ recovery
 -
 mode
 '
+b
 '
 bad
 '
@@ -106,6 +117,7 @@ bad
         
 extra_body
 =
+b
 "
 addEventListener
 (
@@ -137,6 +149,7 @@ elif
 mode
 =
 =
+b
 '
 bad
 '
@@ -146,6 +159,7 @@ response
 .
 delete_cookie
 (
+b
 '
 update
 -
@@ -160,11 +174,13 @@ headers
 append
 (
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -175,6 +191,7 @@ javascript
     
 return
 headers
+b
 '
 %
 s

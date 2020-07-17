@@ -12,6 +12,7 @@ request
 .
 GET
 [
+b
 '
 key
 '
@@ -51,11 +52,13 @@ True
 return
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -63,6 +66,7 @@ javascript
 '
 )
 ]
+b
 '
 /
 /
@@ -76,6 +80,7 @@ status
 =
 (
 404
+b
 '
 Not
 found

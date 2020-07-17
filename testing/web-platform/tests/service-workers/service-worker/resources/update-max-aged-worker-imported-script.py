@@ -1,5 +1,11 @@
 import
 time
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,11 +18,13 @@ headers
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -25,11 +33,13 @@ javascript
 )
                
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -40,15 +50,19 @@ age
 )
                
 (
+b
 '
 Last
 -
 Modified
 '
+isomorphic_encode
+(
 time
 .
 strftime
 (
+u
 "
 %
 a
@@ -75,10 +89,12 @@ gmtime
 )
 )
 )
+)
 ]
     
 body
 =
+u
 '
 '
 '

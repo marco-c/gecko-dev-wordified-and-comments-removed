@@ -1,4 +1,6 @@
 import
+random
+import
 time
 def
 main
@@ -12,11 +14,13 @@ headers
 =
 [
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -28,9 +32,11 @@ revalidate
 )
                
 (
+b
 '
 Pragma
 '
+b
 '
 no
 -
@@ -41,16 +47,19 @@ cache
     
 content_type
 =
+b
 '
 '
     
 extra_body
 =
+u
 '
 '
     
 content_type
 =
+b
 '
 application
 /
@@ -62,6 +71,7 @@ headers
 append
 (
 (
+b
 '
 Content
 -
@@ -73,6 +83,7 @@ content_type
     
 extra_body
 =
+u
 "
 self
 .
@@ -102,6 +113,7 @@ request
     
 return
 headers
+u
 '
 /
 *
@@ -121,9 +133,9 @@ time
 time
 (
 )
-time
+random
 .
-clock
+random
 (
 )
 extra_body

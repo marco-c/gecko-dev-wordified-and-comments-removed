@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 .
 GET
 [
+b
 '
 key
 '
@@ -34,11 +41,13 @@ header
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -49,6 +58,7 @@ javascript
     
 initial_script
 =
+u
 '
 importScripts
 (
@@ -80,11 +90,15 @@ key
 .
 format
 (
+isomorphic_decode
+(
 key
+)
 )
     
 updated_script
 =
+u
 '
 /
 /
