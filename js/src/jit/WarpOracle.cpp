@@ -649,6 +649,7 @@ fallible
 WarpSnapshot
 (
 cx_
+alloc_
 scriptSnapshot
 bailoutInfo_
 )
