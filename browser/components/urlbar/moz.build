@@ -108,11 +108,6 @@ UrlbarProviderExtension
 jsm
 '
 '
-UrlbarProviderHeuristicFallback
-.
-jsm
-'
-'
 UrlbarProviderInterventions
 .
 jsm
