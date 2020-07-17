@@ -313,6 +313,15 @@ include
 "
 mozilla
 /
+Omnijar
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ResultExtensions
 .
 h
@@ -3307,6 +3316,9 @@ ComponentLoaderInfo
 aInfo
 )
 {
+AutoSuspendStartupCacheWrites
+suspendScache
+;
 MOZ_TRY
 (
 aInfo
