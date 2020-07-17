@@ -1637,6 +1637,10 @@ test_name
 )
                 
 if
+self
+.
+expected
+and
 status
 not
 in
