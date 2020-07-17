@@ -376,6 +376,11 @@ Date
 (
 0
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 const
@@ -399,6 +404,11 @@ Date
 (
 0
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 await
@@ -602,6 +612,11 @@ recordUpdate
 .
 generation_time
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 Assert
@@ -704,6 +719,11 @@ Date
 (
 0
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 async

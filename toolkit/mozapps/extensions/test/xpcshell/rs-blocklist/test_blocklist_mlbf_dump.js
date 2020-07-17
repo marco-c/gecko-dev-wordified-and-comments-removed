@@ -79,6 +79,11 @@ Date
 (
 1588098908496
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 const
@@ -115,6 +120,11 @@ Date
 (
 1482430349000
 )
+signedState
+:
+AddonManager
+.
+SIGNEDSTATE_SIGNED
 }
 ;
 async
