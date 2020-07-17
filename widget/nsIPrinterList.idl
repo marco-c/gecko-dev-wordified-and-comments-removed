@@ -55,8 +55,8 @@ aPrintSettings
 ;
 readonly
 attribute
-nsIPrinter
-systemDefaultPrinter
+AString
+systemDefaultPrinterName
 ;
 readonly
 attribute
