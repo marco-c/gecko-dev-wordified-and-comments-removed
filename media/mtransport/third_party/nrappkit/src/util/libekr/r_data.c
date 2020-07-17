@@ -104,6 +104,11 @@ ABORT
 R_NO_MEMORY
 )
 ;
+if
+(
+d
+)
+{
 memcpy
 (
 d_
@@ -114,6 +119,7 @@ d
 l
 )
 ;
+}
 d_
 -
 >
