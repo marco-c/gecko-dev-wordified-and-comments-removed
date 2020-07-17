@@ -2249,6 +2249,7 @@ fromStencil
 cx
 compilationInfo
 stencil
+nullptr
 )
 )
 ;

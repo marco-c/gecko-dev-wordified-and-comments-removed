@@ -8786,6 +8786,11 @@ frontend
 ScriptStencil
 &
 stencil
+js
+:
+:
+HandleFunction
+function
 )
 ;
 static
@@ -8814,6 +8819,11 @@ frontend
 ScriptStencil
 &
 stencil
+js
+:
+:
+HandleFunction
+function
 )
 ;
 #
