@@ -39441,7 +39441,6 @@ NS_ERROR_FAILURE
 }
 GetLastLeaf
 (
-aPresContext
 &
 lastFrame
 )
@@ -43658,7 +43657,6 @@ nsFrame
 :
 GetFirstLeaf
 (
-presContext
 framePtr
 )
 ;
@@ -43670,7 +43668,6 @@ nsFrame
 :
 GetLastLeaf
 (
-presContext
 framePtr
 )
 ;
@@ -43738,7 +43735,6 @@ nsFrame
 :
 GetFirstLeaf
 (
-presContext
 &
 firstFrame
 )
@@ -43813,7 +43809,6 @@ nsFrame
 :
 GetLastLeaf
 (
-presContext
 &
 lastFrame
 )
@@ -48035,9 +48030,6 @@ nsIFrame
 :
 GetLastLeaf
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 *
@@ -48147,9 +48139,6 @@ nsIFrame
 :
 GetFirstLeaf
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 *

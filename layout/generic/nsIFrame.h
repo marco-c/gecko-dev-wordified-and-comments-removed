@@ -8746,9 +8746,6 @@ static
 void
 GetLastLeaf
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 *
@@ -8759,9 +8756,6 @@ static
 void
 GetFirstLeaf
 (
-nsPresContext
-*
-aPresContext
 nsIFrame
 *
 *
