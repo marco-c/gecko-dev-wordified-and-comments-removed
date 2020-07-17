@@ -3310,7 +3310,7 @@ data
 selectedIndex
 ZoomManager
 .
-getZoomForBrowser
+getFullZoomForBrowser
 (
 browser
 )
