@@ -1578,12 +1578,6 @@ functionStencil
 )
 const
 ;
-bool
-hasFunction
-(
-)
-const
-;
 #
 ifdef
 DEBUG
