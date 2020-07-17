@@ -359,7 +359,7 @@ aOutData
 >
 u
 .
-mInt32Value
+mUint32Value
 =
 u
 .
@@ -373,7 +373,7 @@ mType
 nsIDataType
 :
 :
-VTYPE_INT32
+VTYPE_UINT32
 ;
 return
 NS_OK
