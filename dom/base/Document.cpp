@@ -884,6 +884,17 @@ mozilla
 /
 dom
 /
+ElementBinding
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 Event
 .
 h

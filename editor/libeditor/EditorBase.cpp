@@ -473,6 +473,17 @@ mozilla
 /
 dom
 /
+Attr
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 CharacterData
 .
 h
