@@ -2176,6 +2176,7 @@ sizeSpec
 CalcSizeSpec
 (
 features
+false
 sizeSpec
 )
 ;
@@ -2859,6 +2860,7 @@ sizeSpec
 CalcSizeSpec
 (
 features
+hasChromeParent
 sizeSpec
 )
 ;
@@ -8457,6 +8459,8 @@ const
 WindowFeatures
 &
 aFeatures
+bool
+aHasChromeParent
 SizeSpec
 &
 aResult
@@ -8538,6 +8542,9 @@ true
 }
 if
 (
+aHasChromeParent
+&
+&
 aFeatures
 .
 Exists
@@ -8633,6 +8640,9 @@ true
 }
 if
 (
+aHasChromeParent
+&
+&
 aFeatures
 .
 Exists
