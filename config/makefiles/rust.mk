@@ -1356,6 +1356,8 @@ MOZ_TOPOBJDIR
 (
 topobjdir
 )
+export
+PYTHON3
 #
 Set
 COREAUDIO_SDK_PATH
