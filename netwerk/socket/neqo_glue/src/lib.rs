@@ -2,10 +2,7 @@ use
 neqo_common
 :
 :
-{
-matches
 Datagram
-}
 ;
 use
 neqo_crypto
@@ -1587,6 +1584,12 @@ conn
 .
 fetch
 (
+Instant
+:
+:
+now
+(
+)
 method_tmp
 scheme_tmp
 host_tmp
