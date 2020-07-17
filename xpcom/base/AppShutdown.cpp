@@ -185,10 +185,15 @@ AppShutdownMode
 Normal
 ;
 static
+Atomic
+<
 bool
+MemoryOrdering
+:
+:
+Relaxed
+>
 sIsShuttingDown
-=
-false
 ;
 static
 char
