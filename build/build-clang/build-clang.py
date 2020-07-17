@@ -546,6 +546,7 @@ import_clang_tidy
 (
 source_dir
 build_clang_tidy_alpha
+build_clang_tidy_external
 )
 :
     
@@ -633,7 +634,7 @@ build_clang_tidy_alpha
 external
 "
 :
-False
+build_clang_tidy_external
     
 }
     
@@ -4845,6 +4846,54 @@ build_clang_tidy_alpha
 "
 )
     
+build_clang_tidy_external
+=
+False
+    
+if
+build_clang_tidy
+and
+"
+build_clang_tidy_external
+"
+in
+config
+:
+        
+build_clang_tidy_external
+=
+config
+[
+"
+build_clang_tidy_external
+"
+]
+        
+if
+build_clang_tidy_external
+not
+in
+(
+True
+False
+)
+:
+            
+raise
+ValueError
+(
+"
+Only
+boolean
+values
+are
+accepted
+for
+build_clang_tidy_external
+.
+"
+)
+    
 osx_cross_compile
 =
 False
@@ -5570,6 +5619,7 @@ import_clang_tidy
 (
 source_dir
 build_clang_tidy_alpha
+build_clang_tidy_external
 )
     
 if
