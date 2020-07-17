@@ -104,6 +104,9 @@ any
 "
 maskable
 "
+"
+monochrome
+"
 ]
 )
 ;
