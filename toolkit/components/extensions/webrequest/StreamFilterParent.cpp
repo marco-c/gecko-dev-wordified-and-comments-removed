@@ -2740,6 +2740,9 @@ AssertIsIOThread
 ;
 if
 (
+mDisconnectedByOnStartRequest
+|
+|
 mState
 =
 =
@@ -2747,9 +2750,6 @@ State
 :
 :
 Disconnected
-|
-|
-mDisconnectedByOnStartRequest
 )
 {
 if
