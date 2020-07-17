@@ -25,3 +25,12 @@ path
 testing
 /
 performance
+glob
+:
+*
+*
+/
+perftest_
+*
+.
+js

@@ -954,6 +954,8 @@ jsreftest
 \
 jittest
 \
+perftests
+\
 (
 NULL
 )

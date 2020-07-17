@@ -71,6 +71,10 @@ dep
 '
 jsreftest
 '
+    
+'
+perftests
+'
 ]
 PACKAGE_SPECIFIED_HARNESSES
 =
@@ -126,6 +130,10 @@ jittest
     
 '
 jsreftest
+'
+    
+'
+perftests
 '
 ]
 OPTIONAL_PACKAGES
