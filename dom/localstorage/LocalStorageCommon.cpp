@@ -27,6 +27,15 @@ MozURL
 .
 h
 "
+#
+include
+"
+mozilla
+/
+StaticPrefs_dom
+.
+h
+"
 namespace
 mozilla
 {
@@ -104,7 +113,10 @@ gNextGenLocalStorageEnabled
 bool
 enabled
 =
-GetCurrentNextGenPrefValue
+StaticPrefs
+:
+:
+dom_storage_next_gen_DoNotUseDirectly
 (
 )
 ;

@@ -50,11 +50,6 @@ InitializeLocalStorage
 (
 )
 ;
-bool
-GetCurrentNextGenPrefValue
-(
-)
-;
 PBackgroundLSDatabaseParent
 *
 AllocPBackgroundLSDatabaseParent
