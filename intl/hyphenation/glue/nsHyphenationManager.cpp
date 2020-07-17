@@ -759,12 +759,9 @@ fuzzyLocale
 )
 ;
 }
-else
-{
 return
 nullptr
 ;
-}
 }
 }
 nsAutoCString
