@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 '
 Status
 '
@@ -24,6 +25,7 @@ request
 .
 GET
 [
+b
 "
 Status
 "
@@ -48,6 +50,7 @@ request
 .
 GET
 [
+b
 '
 Redirect
 '
@@ -58,6 +61,7 @@ headers
 append
 (
 (
+b
 "
 Location
 "
@@ -66,6 +70,7 @@ url
 )
     
 if
+b
 "
 ACAOrigin
 "
@@ -82,6 +87,7 @@ request
 .
 GET
 [
+b
 "
 ACAOrigin
 "
@@ -89,6 +95,7 @@ ACAOrigin
 .
 split
 (
+b
 "
 "
 )
@@ -99,6 +106,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -116,12 +124,15 @@ for
 suffix
 in
 [
+b
 "
 Headers
 "
+b
 "
 Methods
 "
+b
 "
 Credentials
 "
@@ -130,6 +141,7 @@ Credentials
         
 query
 =
+b
 "
 ACA
 %
@@ -140,6 +152,7 @@ suffix
         
 header
 =
+b
 "
 Access
 -
@@ -177,6 +190,7 @@ query
 )
     
 if
+b
 "
 ACEHeaders
 "
@@ -191,6 +205,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -204,6 +219,7 @@ request
 .
 GET
 [
+b
 "
 ACEHeaders
 "
@@ -214,5 +230,6 @@ ACEHeaders
 return
 status
 headers
+b
 "
 "

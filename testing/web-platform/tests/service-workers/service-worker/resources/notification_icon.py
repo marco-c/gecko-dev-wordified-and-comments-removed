@@ -1,5 +1,19 @@
+from
+six
+.
+moves
+.
+urllib
+.
+parse
 import
-urlparse
+parse_qs
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -10,8 +24,6 @@ res
   
 qs_cookie_val
 =
-urlparse
-.
 parse_qs
 (
 req
@@ -23,6 +35,7 @@ query
 .
 get
 (
+u
 '
 set
 -
@@ -40,16 +53,21 @@ res
 .
 set_cookie
 (
+b
 '
 notification
 '
+isomorphic_encode
+(
 qs_cookie_val
 [
 0
 ]
 )
+)
   
 return
+b
 '
 not
 really

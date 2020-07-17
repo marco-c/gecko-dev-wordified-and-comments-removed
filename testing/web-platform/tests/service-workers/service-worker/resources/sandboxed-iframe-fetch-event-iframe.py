@@ -2,6 +2,12 @@ import
 os
 .
 path
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -14,11 +20,13 @@ header
 =
 [
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -28,6 +36,7 @@ html
 ]
   
 if
+b
 '
 test
 '
@@ -52,14 +61,19 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
+u
 '
 blank
 .
 html
 '
 )
+u
 '
 r
 '
@@ -83,6 +97,7 @@ body
 )
   
 if
+b
 '
 sandbox
 '
@@ -97,6 +112,7 @@ header
 append
 (
 (
+b
 '
 Content
 -
@@ -105,6 +121,7 @@ Security
 Policy
 '
                    
+b
 '
 sandbox
 %
@@ -115,6 +132,7 @@ request
 .
 GET
 [
+b
 '
 sandbox
 '
@@ -137,9 +155,13 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
                          
+u
 '
 sandboxed
 -
@@ -154,6 +176,7 @@ iframe
 html
 '
 )
+u
 '
 r
 '

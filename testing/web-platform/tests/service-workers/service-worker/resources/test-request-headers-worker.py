@@ -4,6 +4,14 @@ import
 os
 import
 uuid
+import
+sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -26,9 +34,13 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
 )
+)
                       
+u
 "
 test
 -
@@ -47,6 +59,7 @@ body
 open
 (
 path
+u
 "
 rb
 "
@@ -59,14 +72,20 @@ read
 data
 =
 {
+isomorphic_decode
+(
 key
+)
 :
+isomorphic_decode
+(
 request
 .
 headers
 [
 key
 ]
+)
 for
 key
 value
@@ -75,7 +94,7 @@ request
 .
 headers
 .
-iteritems
+items
 (
 )
 }
@@ -86,6 +105,7 @@ body
 .
 replace
 (
+b
 "
 %
 HEADERS
@@ -97,6 +117,15 @@ dumps
 (
 data
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
   
 body
@@ -105,6 +134,7 @@ body
 .
 replace
 (
+b
 "
 %
 UUID
@@ -118,6 +148,15 @@ uuid4
 (
 )
 )
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
   
 headers
@@ -130,9 +169,11 @@ headers
 append
 (
 (
+b
 "
 ETag
 "
+b
 "
 etag
 "
@@ -144,11 +185,13 @@ headers
 append
 (
 (
+b
 "
 Content
 -
 Type
 "
+b
 '
 text
 /

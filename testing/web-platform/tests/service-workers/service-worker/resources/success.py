@@ -12,6 +12,7 @@ headers
 ]
     
 if
+b
 "
 ACAOrigin
 "
@@ -28,6 +29,7 @@ request
 .
 GET
 [
+b
 "
 ACAOrigin
 "
@@ -35,6 +37,7 @@ ACAOrigin
 .
 split
 (
+b
 "
 "
 )
@@ -45,6 +48,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -60,6 +64,7 @@ item
     
 return
 headers
+b
 "
 {
 \

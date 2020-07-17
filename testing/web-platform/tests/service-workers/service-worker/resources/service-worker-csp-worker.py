@@ -1,5 +1,6 @@
 bodyDefault
 =
+b
 '
 '
 '
@@ -449,6 +450,7 @@ src
 '
 bodyScript
 =
+b
 '
 '
 '
@@ -900,6 +902,7 @@ src
 '
 bodyConnect
 =
+b
 '
 '
 '
@@ -1371,11 +1374,13 @@ headers
 append
 (
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -1390,6 +1395,7 @@ request
 .
 GET
 [
+b
 '
 directive
 '
@@ -1397,6 +1403,7 @@ directive
     
 body
 =
+b
 '
 ERROR
 :
@@ -1408,6 +1415,7 @@ if
 directive
 =
 =
+b
 '
 default
 '
@@ -1418,6 +1426,7 @@ headers
 append
 (
 (
+b
 '
 Content
 -
@@ -1425,6 +1434,7 @@ Security
 -
 Policy
 '
+b
 "
 default
 -
@@ -1444,6 +1454,7 @@ elif
 directive
 =
 =
+b
 '
 script
 '
@@ -1454,6 +1465,7 @@ headers
 append
 (
 (
+b
 '
 Content
 -
@@ -1461,6 +1473,7 @@ Security
 -
 Policy
 '
+b
 "
 script
 -
@@ -1480,6 +1493,7 @@ elif
 directive
 =
 =
+b
 '
 connect
 '
@@ -1490,6 +1504,7 @@ headers
 append
 (
 (
+b
 '
 Content
 -
@@ -1497,6 +1512,7 @@ Security
 -
 Policy
 '
+b
 "
 connect
 -

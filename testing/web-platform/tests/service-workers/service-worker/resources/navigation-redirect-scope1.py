@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 "
 url
 "
@@ -20,6 +21,7 @@ headers
 =
 [
 (
+b
 "
 Location
 "
@@ -27,6 +29,7 @@ request
 .
 GET
 [
+b
 "
 url
 "
@@ -37,6 +40,7 @@ url
 return
 302
 headers
+b
 '
 '
     
@@ -45,6 +49,7 @@ status
 200
     
 if
+b
 "
 noLocationRedirect
 "
@@ -62,11 +67,13 @@ return
 status
 [
 (
+b
 "
 content
 -
 type
 "
+b
 "
 text
 /
@@ -74,6 +81,7 @@ html
 "
 )
 ]
+b
 '
 '
 '
