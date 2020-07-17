@@ -3782,6 +3782,12 @@ const
 nsACString
 &
 aProcessName
+const
+nsACString
+*
+aETLDplus1
+=
+nullptr
 )
 ;
 mozilla

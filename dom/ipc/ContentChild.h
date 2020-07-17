@@ -554,6 +554,12 @@ const
 nsACString
 &
 aName
+const
+nsACString
+*
+aETLDplus1
+=
+nullptr
 )
 ;
 void
