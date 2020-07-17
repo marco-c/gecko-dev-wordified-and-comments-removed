@@ -1,5 +1,11 @@
 import
 time
+from
+six
+.
+moves
+import
+range
 def
 main
 (
@@ -10,6 +16,7 @@ response
     
 chunk
 =
+b
 "
 TEST_TRICKLE
 \
@@ -26,6 +33,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -45,6 +53,7 @@ GET
 .
 first
 (
+b
 "
 count
 "
@@ -53,6 +62,7 @@ count
 )
     
 if
+b
 "
 specifylength
 "
@@ -68,6 +78,7 @@ headers
 .
 set
 (
+b
 "
 Content
 -
@@ -94,11 +105,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -122,7 +135,7 @@ delay
 for
 i
 in
-xrange
+range
 (
 count
 )
