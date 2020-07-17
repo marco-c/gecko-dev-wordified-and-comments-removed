@@ -12,7 +12,7 @@ this
 .
 hasOwnProperty
 (
-"
+'
 TypedObject
-"
+'
 )
