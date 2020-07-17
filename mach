@@ -226,9 +226,6 @@ tests
 update
 webidl
 -
-example
-webidl
--
 parser
 -
 test
