@@ -340,9 +340,6 @@ MediaEngineWebRTC
 :
 mFakeDeviceChangeEventTimer
 "
-GetCurrentSerialEventTarget
-(
-)
 )
 ;
 return
@@ -1892,13 +1889,6 @@ MediaEngineWebRTC
 >
 (
 aClosure
-)
-;
-self
--
->
-AssertIsOnOwningThread
-(
 )
 ;
 self

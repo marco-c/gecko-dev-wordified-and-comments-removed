@@ -1260,9 +1260,6 @@ mTimer
 =
 NS_NewTimer
 (
-GetCurrentSerialEventTarget
-(
-)
 )
 ;
 if
