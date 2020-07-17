@@ -275,6 +275,16 @@ robots
 )
 ;
 await
+BrowserTestUtils
+.
+browserLoaded
+(
+tab
+.
+linkedBrowser
+)
+;
+await
 UrlbarTestUtils
 .
 promiseAutocompleteResultPopup
