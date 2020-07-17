@@ -695,6 +695,11 @@ _
 IntrinsicGuardToIteratorHelper
 )
 \
+_
+(
+IntrinsicGuardToAsyncIteratorHelper
+)
+\
 \
 _
 (
