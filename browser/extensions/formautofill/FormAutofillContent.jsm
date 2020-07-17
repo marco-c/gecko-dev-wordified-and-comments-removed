@@ -1920,6 +1920,9 @@ domWin
 formElement
 .
 ownerGlobal
+handler
+=
+undefined
 )
 {
 this
@@ -1986,9 +1989,11 @@ window
 return
 ;
 }
-let
 handler
 =
+handler
+?
+?
 this
 .
 _formsDetails
@@ -2812,6 +2817,14 @@ new
 FormAutofillHandler
 (
 formLike
+this
+.
+formSubmitted
+.
+bind
+(
+this
+)
 )
 ;
 }
