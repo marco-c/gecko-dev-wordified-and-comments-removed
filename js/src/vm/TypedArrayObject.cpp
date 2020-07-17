@@ -10440,7 +10440,9 @@ Name
 #
 Name
 "
-ArrayPrototype
+Array
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (

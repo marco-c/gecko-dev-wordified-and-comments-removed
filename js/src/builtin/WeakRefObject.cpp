@@ -618,7 +618,9 @@ protoClass_
 =
 {
 "
-WeakRefPrototype
+WeakRef
+.
+prototype
 "
 JSCLASS_HAS_CACHED_PROTO
 (
