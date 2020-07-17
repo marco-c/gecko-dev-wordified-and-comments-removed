@@ -286,7 +286,7 @@ tab
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;

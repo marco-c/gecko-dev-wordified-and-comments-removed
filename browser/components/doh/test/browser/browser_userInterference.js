@@ -307,7 +307,7 @@ ensureNoHeuristicsTelemetry
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;

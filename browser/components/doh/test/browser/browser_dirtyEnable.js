@@ -181,7 +181,7 @@ preserved
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;

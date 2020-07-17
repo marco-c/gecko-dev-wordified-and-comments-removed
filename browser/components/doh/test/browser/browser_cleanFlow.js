@@ -290,7 +290,7 @@ netchange
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;

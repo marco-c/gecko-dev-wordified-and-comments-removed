@@ -282,7 +282,7 @@ DOH_TRR_SELECT_URI_PREF
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;
@@ -357,7 +357,7 @@ DOH_TRR_SELECT_URI_PREF
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;
@@ -514,7 +514,7 @@ DOH_TRR_SELECT_URI_PREF
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;
@@ -680,7 +680,7 @@ DOH_TRR_SELECT_URI_PREF
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;
@@ -781,7 +781,7 @@ DOH_TRR_SELECT_URI_PREF
 )
 ;
 await
-restartAddon
+restartDoHController
 (
 )
 ;
