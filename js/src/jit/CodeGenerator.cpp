@@ -29406,6 +29406,14 @@ OutOfLineCode
 ool
 )
 {
+static_assert
+(
+NeedsPostBarrier
+(
+nurseryType
+)
+)
+;
 addOutOfLineCode
 (
 ool
@@ -29525,6 +29533,7 @@ value
 )
 ;
 if
+constexpr
 (
 nurseryType
 =
@@ -29612,6 +29621,7 @@ Object
 }
 else
 if
+constexpr
 (
 nurseryType
 =
@@ -29651,7 +29661,7 @@ String
 }
 else
 {
-MOZ_ASSERT
+static_assert
 (
 nurseryType
 =
