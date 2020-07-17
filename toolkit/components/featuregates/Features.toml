@@ -318,7 +318,7 @@ lax
 -
 by
 -
-default
+default2
 "
 description
 =
@@ -335,7 +335,7 @@ lax
 -
 by
 -
-default
+default2
 -
 description
 "
@@ -410,7 +410,7 @@ none
 -
 requires
 -
-secure
+secure2
 "
 description
 =
@@ -427,7 +427,7 @@ none
 -
 requires
 -
-secure
+secure2
 -
 description
 "

@@ -2312,7 +2312,7 @@ webconsole
 .
 group
 .
-cookieSameSiteLaxByDefaultEnabled
+cookieSameSiteLaxByDefaultEnabled2
 "
 )
 ;
@@ -2327,7 +2327,7 @@ webconsole
 .
 group
 .
-cookieSameSiteLaxByDefaultDisabled
+cookieSameSiteLaxByDefaultDisabled2
 "
 )
 ;

@@ -5546,7 +5546,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieSameSiteValueInvalid
+CookieSameSiteValueInvalid2
 "
 _ns
 AutoTArray
@@ -5645,7 +5645,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieRejectedNonRequiresSecure
+CookieRejectedNonRequiresSecure2
 "
 _ns
 AutoTArray
@@ -5682,7 +5682,7 @@ nsIScriptError
 warningFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieRejectedNonRequiresSecureForBeta
+CookieRejectedNonRequiresSecureForBeta2
 "
 _ns
 AutoTArray
@@ -5750,7 +5750,7 @@ nsIScriptError
 infoFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieLaxForced
+CookieLaxForced2
 "
 _ns
 AutoTArray
@@ -5786,7 +5786,7 @@ nsIScriptError
 warningFlag
 CONSOLE_SAMESITE_CATEGORY
 "
-CookieLaxForcedForBeta
+CookieLaxForcedForBeta2
 "
 _ns
 AutoTArray

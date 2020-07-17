@@ -1469,7 +1469,7 @@ log
 Test
 cookie
 with
-sameSite
+SameSite
 =
 {
 value
