@@ -9,11 +9,13 @@ response
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -30,6 +32,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '
@@ -37,5 +40,6 @@ encoding
 )
 )
 ]
+u
 "
 "

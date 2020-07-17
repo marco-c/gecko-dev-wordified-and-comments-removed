@@ -1,6 +1,4 @@
 import
-time
-import
 re
 def
 main
@@ -16,6 +14,7 @@ request
 .
 GET
 [
+b
 '
 id
 '
@@ -27,6 +26,7 @@ request
 .
 GET
 [
+b
 '
 action
 '
@@ -36,6 +36,7 @@ if
 action
 =
 =
+b
 '
 put
 '
@@ -88,11 +89,13 @@ q
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -100,6 +103,7 @@ html
 "
 )
 ]
+u
 '
 Put
 %
@@ -134,11 +138,13 @@ None
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -151,5 +157,6 @@ q
 return
 [
 ]
+u
 "
 "

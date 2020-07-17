@@ -2,6 +2,13 @@ import
 os
 import
 re
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -16,6 +23,7 @@ request
 .
 GET
 [
+b
 '
 type
 '
@@ -27,6 +35,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '
@@ -68,6 +77,7 @@ if
 type
 =
 =
+b
 '
 html
 '
@@ -76,11 +86,13 @@ html
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -94,12 +106,16 @@ utf
 "
 )
 ]
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 css
 '
@@ -108,11 +124,13 @@ css
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -126,6 +144,7 @@ utf
 "
 )
 ]
+b
 "
 #
 test
@@ -142,12 +161,16 @@ s
 }
 "
 %
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 js
 '
@@ -156,11 +179,13 @@ js
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -174,6 +199,7 @@ utf
 "
 )
 ]
+b
 "
 %
 s
@@ -190,17 +216,22 @@ request
 .
 GET
 [
+b
 '
 var
 '
 ]
+isomorphic_encode
+(
 q
+)
 )
     
 elif
 type
 =
 =
+b
 '
 worker
 '
@@ -209,11 +240,13 @@ worker
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -221,6 +254,7 @@ javascript
 "
 )
 ]
+b
 "
 postMessage
 (
@@ -236,12 +270,16 @@ close
 ;
 "
 %
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 sharedworker
 '
@@ -250,11 +288,13 @@ sharedworker
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -262,6 +302,7 @@ javascript
 "
 )
 ]
+b
 "
 onconnect
 =
@@ -290,12 +331,16 @@ close
 ;
 "
 %
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 worker_importScripts
 '
@@ -305,11 +350,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -325,6 +372,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -407,6 +455,7 @@ elif
 type
 =
 =
+b
 '
 worker_worker
 '
@@ -416,11 +465,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -436,6 +487,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -522,6 +574,7 @@ elif
 type
 =
 =
+b
 '
 worker_sharedworker
 '
@@ -531,11 +584,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -551,6 +606,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -639,6 +695,7 @@ elif
 type
 =
 =
+b
 '
 sharedworker_importScripts
 '
@@ -648,11 +705,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -668,6 +727,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '
@@ -675,6 +735,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -780,6 +841,7 @@ elif
 type
 =
 =
+b
 '
 sharedworker_worker
 '
@@ -789,11 +851,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -809,6 +873,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -918,6 +983,7 @@ elif
 type
 =
 =
+b
 '
 sharedworker_sharedworker
 '
@@ -927,11 +993,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -947,6 +1015,7 @@ encoding
 )
 ]
                 
+b
 "
 "
 "
@@ -1086,6 +1155,7 @@ elif
 type
 =
 =
+b
 '
 eventstream
 '
@@ -1094,11 +1164,13 @@ eventstream
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -1108,6 +1180,7 @@ stream
 "
 )
 ]
+b
 "
 data
 :
@@ -1119,12 +1192,16 @@ n
 n
 "
 %
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 svg
 '
@@ -1133,11 +1210,13 @@ svg
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -1147,6 +1226,7 @@ xml
 "
 )
 ]
+b
 "
 <
 svg
@@ -1176,12 +1256,16 @@ svg
 >
 "
 %
+isomorphic_encode
+(
 q
+)
     
 elif
 type
 =
 =
+b
 '
 xmlstylesheet_css
 '
@@ -1191,11 +1275,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -1274,13 +1360,19 @@ xhtml
 "
 "
 %
+isomorphic_decode
+(
 encoding
+)
 )
                 
 .
 encode
 (
+isomorphic_decode
+(
 encoding
+)
 )
 )
     
@@ -1288,6 +1380,7 @@ elif
 type
 =
 =
+b
 '
 png
 '
@@ -1297,6 +1390,7 @@ if
 q
 =
 =
+u
 '
 %
 E5
@@ -1305,6 +1399,7 @@ E5
             
 image
 =
+u
 '
 green
 -
@@ -1317,6 +1412,7 @@ elif
 q
 =
 =
+u
 '
 %
 C3
@@ -1327,6 +1423,7 @@ A5
             
 image
 =
+u
 '
 green
 -
@@ -1339,6 +1436,7 @@ elif
 q
 =
 =
+u
 '
 %
 3F
@@ -1347,6 +1445,7 @@ q
             
 image
 =
+u
 '
 green
 -
@@ -1360,6 +1459,7 @@ else
             
 image
 =
+u
 '
 green
 -
@@ -1381,6 +1481,7 @@ join
 request
 .
 doc_root
+u
 "
 images
 "
@@ -1398,11 +1499,13 @@ read
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -1416,6 +1519,7 @@ elif
 type
 =
 =
+b
 '
 video
 '
@@ -1427,6 +1531,7 @@ request
 .
 GET
 [
+b
 '
 ext
 '
@@ -1436,6 +1541,7 @@ if
 q
 =
 =
+u
 '
 %
 E5
@@ -1444,6 +1550,7 @@ E5
             
 video
 =
+u
 '
 A4
 '
@@ -1452,6 +1559,7 @@ elif
 q
 =
 =
+u
 '
 %
 C3
@@ -1462,6 +1570,7 @@ A5
             
 video
 =
+u
 '
 movie_5
 '
@@ -1470,6 +1579,7 @@ elif
 q
 =
 =
+u
 '
 %
 3F
@@ -1478,6 +1588,7 @@ q
             
 video
 =
+u
 '
 green
 -
@@ -1491,6 +1602,7 @@ else
             
 video
 =
+u
 '
 movie_300
 '
@@ -1508,9 +1620,11 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 %
 s
@@ -1521,7 +1635,10 @@ s
 %
 (
 video
+isomorphic_decode
+(
 ext
+)
 )
 )
 "
@@ -1537,6 +1654,7 @@ if
 ext
 =
 =
+b
 '
 ogv
 '
@@ -1544,6 +1662,7 @@ ogv
             
 ext
 =
+b
 '
 ogg
 '
@@ -1551,11 +1670,13 @@ ogg
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 video
 /
@@ -1572,6 +1693,7 @@ elif
 type
 =
 =
+b
 '
 webvtt
 '
@@ -1580,11 +1702,13 @@ webvtt
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -1592,6 +1716,7 @@ vtt
 "
 )
 ]
+b
 "
 WEBVTT
 \
@@ -1620,4 +1745,7 @@ n
 s
 "
 %
+isomorphic_encode
+(
 q
+)

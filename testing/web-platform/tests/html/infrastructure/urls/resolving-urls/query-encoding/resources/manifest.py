@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 .
 GET
 [
+b
 '
 id
 '
@@ -23,6 +30,7 @@ request
 .
 GET
 [
+b
 '
 mode
 '
@@ -30,6 +38,7 @@ mode
     
 fallback_url
 =
+u
 "
 "
     
@@ -37,6 +46,7 @@ if
 mode
 =
 =
+b
 "
 FALLBACK
 "
@@ -44,6 +54,7 @@ FALLBACK
         
 fallback_url
 =
+u
 "
 fallback
 -
@@ -86,19 +97,27 @@ put
 "
 %
 (
+isomorphic_decode
+(
 mode
+)
 fallback_url
+isomorphic_decode
+(
 id
+)
 )
     
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -116,6 +135,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '

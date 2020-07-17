@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '
@@ -23,6 +30,7 @@ request
 .
 GET
 [
+b
 '
 tmpl
 '
@@ -30,7 +38,10 @@ tmpl
     
 sheet
 =
+isomorphic_decode
+(
 tmpl
+)
 %
 u
 '
@@ -42,11 +53,13 @@ u
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -65,5 +78,8 @@ sheet
 .
 encode
 (
+isomorphic_decode
+(
 encoding
+)
 )

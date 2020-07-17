@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 .
 GET
 [
+b
 '
 id
 '
@@ -23,6 +30,7 @@ request
 .
 GET
 [
+b
 '
 encoding
 '
@@ -34,6 +42,7 @@ request
 .
 GET
 [
+b
 '
 mode
 '
@@ -41,6 +50,7 @@ mode
     
 iframe
 =
+u
 "
 "
     
@@ -48,6 +58,7 @@ if
 mode
 =
 =
+b
 '
 NETWORK
 '
@@ -55,6 +66,7 @@ NETWORK
         
 iframe
 =
+u
 "
 <
 iframe
@@ -90,10 +102,14 @@ iframe
 >
 "
 %
+isomorphic_decode
+(
 id
+)
     
 doc
 =
+u
 "
 "
 "
@@ -134,20 +150,31 @@ s
 "
 %
 (
+isomorphic_decode
+(
 id
+)
+isomorphic_decode
+(
 encoding
+)
+isomorphic_decode
+(
 mode
+)
 iframe
 )
     
 return
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -166,5 +193,8 @@ doc
 .
 encode
 (
+isomorphic_decode
+(
 encoding
+)
 )
