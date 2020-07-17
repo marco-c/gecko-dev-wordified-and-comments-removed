@@ -216,6 +216,10 @@ final
 public
 gfxFT2FontEntryBase
 {
+friend
+class
+gfxFcPlatformFontList
+;
 public
 :
 explicit

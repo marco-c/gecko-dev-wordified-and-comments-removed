@@ -65,6 +65,10 @@ final
 public
 gfxFT2FontEntryBase
 {
+friend
+class
+gfxFT2FontList
+;
 using
 FontListEntry
 =
