@@ -7,10 +7,12 @@ response
 :
     
 return
+b
 "
 FAIL
 "
 if
+b
 '
 Sec
 -
@@ -23,6 +25,7 @@ request
 .
 headers
 else
+b
 "
 PASS
 "
