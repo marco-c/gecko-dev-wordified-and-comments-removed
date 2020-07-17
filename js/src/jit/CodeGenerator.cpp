@@ -30969,7 +30969,7 @@ ObjectValue
 target
 -
 >
-rawJSFunction
+rawNativeJSFunction
 (
 )
 )
@@ -31036,7 +31036,7 @@ ImmGCPtr
 target
 -
 >
-rawJSFunction
+rawNativeJSFunction
 (
 )
 )
@@ -31786,7 +31786,7 @@ ObjectValue
 target
 -
 >
-rawJSFunction
+rawNativeJSFunction
 (
 )
 )
@@ -31930,7 +31930,7 @@ ImmGCPtr
 target
 -
 >
-rawJSFunction
+rawNativeJSFunction
 (
 )
 )
