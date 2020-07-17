@@ -2057,6 +2057,10 @@ script
 CompilerConstraintList
 *
 constraints
+const
+WarpSnapshot
+*
+snapshot
 )
 {
 TraceLoggerThread
@@ -2099,6 +2103,7 @@ link
 (
 cx
 constraints
+snapshot
 )
 )
 {
@@ -2178,6 +2183,12 @@ task
 -
 >
 constraints
+(
+)
+task
+-
+>
+snapshot
 (
 )
 )
@@ -9837,6 +9848,7 @@ get
 )
 script
 constraints
+snapshot
 )
 ;
 }

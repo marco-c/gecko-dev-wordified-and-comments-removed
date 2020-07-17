@@ -172,6 +172,16 @@ return
 constraints_
 ;
 }
+WarpSnapshot
+*
+snapshot
+(
+)
+{
+return
+snapshot_
+;
+}
 size_t
 sizeOfExcludingThis
 (
