@@ -31,13 +31,11 @@ require
 "
 raw
 !
-chrome
-:
-/
-/
 devtools
 /
-skin
+client
+/
+themes
 /
 variables
 .

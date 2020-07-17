@@ -3,6 +3,11 @@ DevToolsModules
 '
 InspectorTabPanel
 .
+css
+'
+'
+InspectorTabPanel
+.
 js
 '
 )
