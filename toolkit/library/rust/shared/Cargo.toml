@@ -891,9 +891,9 @@ audio_thread_priority
 "
 0
 .
-23
+22
 .
-3
+1
 "
 mdns_service
 =
@@ -1733,15 +1733,6 @@ firefox
 accounts
 -
 bridge
-"
-]
-with_dbus
-=
-[
-"
-audio_thread_priority
-/
-with_dbus
 "
 ]
 [
