@@ -1568,6 +1568,12 @@ extent
 {
 }
 ;
+JSAtom
+*
+functionAtom
+=
+nullptr
+;
 FunctionFlags
 functionFlags
 =

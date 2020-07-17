@@ -2510,6 +2510,12 @@ isFunctionFieldCopiedToStencil
 ;
 stencil
 .
+functionAtom
+=
+atom_
+;
+stencil
+.
 functionFlags
 =
 flags_
@@ -2616,7 +2622,7 @@ void
 FunctionBox
 :
 :
-copyUpdatedFlags
+copyUpdatedAtomAndFlags
 (
 )
 {
@@ -2631,6 +2637,12 @@ functionStencil
 get
 (
 )
+;
+stencil
+.
+functionAtom
+=
+atom_
 ;
 stencil
 .

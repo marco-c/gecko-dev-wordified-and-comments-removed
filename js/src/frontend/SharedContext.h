@@ -2274,7 +2274,7 @@ if
 isFunctionFieldCopiedToStencil
 )
 {
-copyUpdatedFlags
+copyUpdatedAtomAndFlags
 (
 )
 ;
@@ -2303,7 +2303,7 @@ if
 isFunctionFieldCopiedToStencil
 )
 {
-copyUpdatedFlags
+copyUpdatedAtomAndFlags
 (
 )
 ;
@@ -2824,7 +2824,7 @@ copyUpdatedFieldInitializers
 )
 ;
 void
-copyUpdatedFlags
+copyUpdatedAtomAndFlags
 (
 )
 ;
