@@ -444,9 +444,6 @@ return
 void
 *
 /
-[
-noscript
-]
 void
 print
 (
