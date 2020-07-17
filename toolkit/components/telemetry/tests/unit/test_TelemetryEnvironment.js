@@ -1002,13 +1002,6 @@ this
 .
 _genuine
 .
-QueryInterface
-(
-Ci
-.
-nsIPropertyBag
-)
-.
 getProperty
 (
 name
@@ -1038,13 +1031,6 @@ return
 this
 .
 _genuine
-.
-QueryInterface
-(
-Ci
-.
-nsIPropertyBag2
-)
 .
 get
 (

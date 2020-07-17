@@ -200,7 +200,7 @@ testSetup
 ;
 Services
 .
-io
+netUtils
 .
 socketProcessTelemetryPing
 (

@@ -163,9 +163,6 @@ EXPORTED_SYMBOLS
 "
 CrashManager
 "
-"
-getCrashManager
-"
 ]
 ;
 const
@@ -5141,14 +5138,3 @@ gCrashManager
 }
 )
 ;
-function
-getCrashManager
-(
-)
-{
-return
-CrashManager
-.
-Singleton
-;
-}

@@ -981,7 +981,7 @@ do_load_profile
 ;
 Services
 .
-cookiesvc
+cookies
 .
 runInTransaction
 (
@@ -1071,7 +1071,7 @@ com
 ;
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
@@ -1328,7 +1328,7 @@ do_load_profile
 ;
 Services
 .
-cookiesvc
+cookies
 .
 runInTransaction
 (
@@ -1395,7 +1395,7 @@ i
 {
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
@@ -1477,7 +1477,7 @@ i
 {
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
@@ -1828,7 +1828,7 @@ do_load_profile
 ;
 Services
 .
-cookiesvc
+cookies
 .
 runInTransaction
 (
@@ -1918,7 +1918,7 @@ com
 ;
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
@@ -2185,7 +2185,7 @@ do_load_profile
 ;
 Services
 .
-cookiesvc
+cookies
 .
 runInTransaction
 (
@@ -2236,7 +2236,7 @@ TYPE_DOCUMENT
 ;
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
@@ -2300,7 +2300,7 @@ com
 ;
 Services
 .
-cookiesvc
+cookies
 .
 setCookieStringFromHttp
 (
