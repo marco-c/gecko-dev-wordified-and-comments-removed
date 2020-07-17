@@ -169,7 +169,6 @@ MOZ_AUTOMATION
 endif
 export
 USE_ELF_HACK
-ELF_HACK_FLAGS
 stage
 -
 package
