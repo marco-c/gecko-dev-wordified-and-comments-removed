@@ -34,13 +34,13 @@ path
 join
 (
 here
-'
+"
 mingw
 -
 headers
 .
 txt
-'
+"
 )
 class
 MinGWCapitalization
@@ -80,9 +80,9 @@ with
 open
 (
 HEADERS_FILE
-'
+"
 r
-'
+"
 )
 as
 fh
