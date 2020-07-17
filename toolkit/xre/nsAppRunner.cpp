@@ -3296,7 +3296,7 @@ nsXULAppInfo
 :
 GetRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 )
@@ -3334,9 +3334,10 @@ GetRemoteType
 }
 else
 {
-SetDOMStringToNull
-(
 aRemoteType
+=
+VoidCString
+(
 )
 ;
 }
@@ -3970,10 +3971,7 @@ ContentParent
 GetNewOrUsedBrowserProcess
 (
 nullptr
-NS_LITERAL_STRING_FROM_CSTRING
-(
 DEFAULT_REMOTE_TYPE
-)
 )
 ;
 return

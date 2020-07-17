@@ -359,7 +359,7 @@ only
 run
 on
 .
-nsString
+nsCString
 remoteType
 ;
 }

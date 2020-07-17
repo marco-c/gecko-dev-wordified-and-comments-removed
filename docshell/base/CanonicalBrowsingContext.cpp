@@ -537,7 +537,7 @@ CanonicalBrowsingContext
 :
 GetCurrentRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 ErrorResult
@@ -558,7 +558,7 @@ aRemoteType
 .
 Assign
 (
-VoidString
+VoidCString
 (
 )
 )
@@ -4190,7 +4190,7 @@ CanonicalBrowsingContext
 ChangeRemoteness
 (
 const
-nsAString
+nsACString
 &
 aRemoteType
 uint64_t

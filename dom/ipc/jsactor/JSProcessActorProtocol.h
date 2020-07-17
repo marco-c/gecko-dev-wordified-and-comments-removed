@@ -196,7 +196,7 @@ bool
 Matches
 (
 const
-nsAString
+nsACString
 &
 aRemoteType
 )
@@ -222,7 +222,7 @@ bool
 RemoteTypePrefixMatches
 (
 const
-nsDependentSubstring
+nsDependentCSubstring
 &
 aRemoteType
 )
@@ -239,7 +239,7 @@ mName
 ;
 nsTArray
 <
-nsString
+nsCString
 >
 mRemoteTypes
 ;

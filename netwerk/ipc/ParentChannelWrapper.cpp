@@ -347,14 +347,14 @@ ParentChannelWrapper
 :
 GetRemoteType
 (
-nsAString
+nsACString
 &
 aRemoteType
 )
 {
 aRemoteType
 =
-VoidString
+VoidCString
 (
 )
 ;
