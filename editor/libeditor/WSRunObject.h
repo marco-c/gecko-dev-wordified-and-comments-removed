@@ -3596,15 +3596,15 @@ Maybe
 <
 WSFragment
 >
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 =
-CreateWSFragmentForVisibleAndMiddleOfLine
+CreateWSFragmentForVisibleWhiteSpaces
 (
 )
 ;
 if
 (
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 isNothing
 (
@@ -3618,7 +3618,7 @@ false
 if
 (
 !
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3640,7 +3640,7 @@ true
 if
 (
 !
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3662,7 +3662,7 @@ false
 }
 if
 (
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3679,7 +3679,7 @@ true
 }
 if
 (
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3690,7 +3690,7 @@ StartPoint
 )
 =
 =
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3710,7 +3710,7 @@ aPoint
 .
 IsBefore
 (
-visibleWSFragmentInMiddleOfLine
+visibleWhiteSpaces
 .
 ref
 (
@@ -3726,7 +3726,7 @@ Maybe
 <
 WSFragment
 >
-CreateWSFragmentForVisibleAndMiddleOfLine
+CreateWSFragmentForVisibleWhiteSpaces
 (
 )
 const
