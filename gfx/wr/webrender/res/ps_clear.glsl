@@ -89,9 +89,9 @@ aRect
 .
 xy
 +
-aPosition
-.
-xy
+quad_position
+(
+)
 *
 aRect
 .
