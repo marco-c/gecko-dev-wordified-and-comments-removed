@@ -820,6 +820,10 @@ first_frame_slot
 :
 FrameSlot
 pub
+function_has_extensible_scope
+:
+bool
+pub
 enclosing
 :
 ScopeIndex
@@ -834,6 +838,9 @@ new
 var_count
 :
 usize
+function_has_extensible_scope
+:
+bool
 enclosing
 :
 ScopeIndex
@@ -867,6 +874,7 @@ new
 (
 0
 )
+function_has_extensible_scope
 enclosing
 }
 }
@@ -1450,12 +1458,15 @@ Option
 BindingName
 >
 >
+pub
 has_parameter_exprs
 :
 bool
+pub
 non_positional_formal_start
 :
 usize
+pub
 var_start
 :
 usize
@@ -1467,6 +1478,10 @@ pub
 enclosing
 :
 ScopeIndex
+pub
+function_index
+:
+ScriptStencilIndex
 }
 impl
 FunctionScopeData
@@ -1490,6 +1505,9 @@ usize
 enclosing
 :
 ScopeIndex
+function_index
+:
+ScriptStencilIndex
 )
 -
 >
@@ -1534,6 +1552,7 @@ new
 0
 )
 enclosing
+function_index
 }
 }
 }

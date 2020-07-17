@@ -124,16 +124,6 @@ state
 backedges
 :
         
-assert
-pt
-.
-term_is_shifted
-(
-edge
-.
-term
-)
-        
 if
 isinstance
 (
@@ -153,6 +143,16 @@ update_stack
 :
             
 continue
+        
+assert
+pt
+.
+term_is_shifted
+(
+edge
+.
+term
+)
         
 if
 pt
@@ -186,6 +186,20 @@ else
 s_n
 =
 n
+            
+if
+n
+=
+=
+0
+and
+not
+pt
+.
+assume_inconsistent
+:
+                
+continue
         
 from_edge
 =
