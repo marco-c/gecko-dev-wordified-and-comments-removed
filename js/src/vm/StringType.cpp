@@ -7907,7 +7907,7 @@ MOZ_ASSERT
 atom
 -
 >
-isPermanentAtom
+isPinned
 (
 )
 )

@@ -130,7 +130,7 @@ return
 atom
 -
 >
-isPermanentAtom
+isPinned
 (
 )
 ;
