@@ -68,7 +68,7 @@ util
 .
 bugbug
 import
-CT_MEDIUM
+CT_LOW
 push_schedules
 here
 =
@@ -1544,7 +1544,7 @@ bugbug
     
 CONFIDENCE_THRESHOLD
 =
-CT_MEDIUM
+CT_LOW
     
 memoize
     

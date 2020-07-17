@@ -47,12 +47,12 @@ CT_LOW
 =
 0
 .
-5
+7
 CT_MEDIUM
 =
 0
 .
-7
+8
 CT_HIGH
 =
 0
