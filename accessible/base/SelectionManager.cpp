@@ -693,6 +693,12 @@ AccCaretMoveEvent
 (
 caretCntr
 mCaretOffset
+selection
+-
+>
+IsCollapsed
+(
+)
 aEvent
 -
 >
