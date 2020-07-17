@@ -222,10 +222,10 @@ time
 *
 /
 boolean
-matchesWindow
+matchesWindowGlobal
 (
-WindowProxy
-window
+WindowGlobalChild
+windowGlobal
 )
 ;
 /
