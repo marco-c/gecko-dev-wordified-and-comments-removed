@@ -253,12 +253,6 @@ mRawOrientation
 scale
 )
 ;
-mRawOrientation
-.
-Invert
-(
-)
-;
 }
 XRRigidTransform
 :
@@ -635,12 +629,6 @@ Decompose
 mRawPosition
 mRawOrientation
 scale
-)
-;
-mRawOrientation
-.
-Invert
-(
 )
 ;
 UpdateInternal

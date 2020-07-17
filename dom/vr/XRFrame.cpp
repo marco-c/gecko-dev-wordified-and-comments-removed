@@ -425,12 +425,6 @@ orientation
 ]
 )
 ;
-viewerOrientation
-.
-Invert
-(
-)
-;
 gfx
 :
 :

@@ -134,12 +134,6 @@ orientation
 ]
 )
 ;
-orientation
-.
-Invert
-(
-)
-;
 return
 orientation
 ;
