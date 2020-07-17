@@ -1001,6 +1001,17 @@ aEaBuffer
 aEaLength
 )
 ;
+if
+(
+NT_SUCCESS
+(
+status
+)
+&
+&
+aFileHandle
+)
+{
 timer
 .
 SetHandle
@@ -1009,6 +1020,7 @@ SetHandle
 aFileHandle
 )
 ;
+}
 return
 status
 ;
