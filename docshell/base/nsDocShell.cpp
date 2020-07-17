@@ -41031,10 +41031,6 @@ MOZ_ASSERT
 channel
 )
 ;
-mAllowKeywordFixup
-=
-false
-;
 }
 else
 if
