@@ -5139,6 +5139,7 @@ wr_register_thread_local_arena
 )
 ;
 }
+pub
 struct
 GeckoProfilerThreadListener
 {

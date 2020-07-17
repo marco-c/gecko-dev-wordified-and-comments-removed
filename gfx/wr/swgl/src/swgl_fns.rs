@@ -1532,6 +1532,13 @@ mut
 c_void
 )
 ;
+unsafe
+impl
+Send
+for
+Context
+{
+}
 impl
 Context
 {
