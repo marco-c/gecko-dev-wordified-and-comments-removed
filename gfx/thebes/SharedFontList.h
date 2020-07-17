@@ -430,7 +430,9 @@ IsNull
 )
 )
 ;
-return
+auto
+str
+=
 static_cast
 <
 const
@@ -445,6 +447,14 @@ ToPtr
 aList
 )
 )
+;
+return
+str
+?
+str
+:
+"
+"
 ;
 }
 uint32_t
