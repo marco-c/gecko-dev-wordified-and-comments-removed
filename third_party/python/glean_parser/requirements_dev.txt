@@ -28,6 +28,12 @@ m2r
 2
 .
 1
+mypy
+=
+=
+0
+.
+761
 pip
 pytest
 -
