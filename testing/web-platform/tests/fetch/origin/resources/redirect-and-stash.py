@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -16,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 stash
 "
@@ -29,6 +36,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -42,6 +50,7 @@ None
         
 origin
 =
+b
 "
 no
 Origin
@@ -62,6 +71,7 @@ key
 )
     
 if
+b
 "
 dump
 "
@@ -77,11 +87,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -111,7 +123,10 @@ None
 origin_list
 =
 [
+isomorphic_decode
+(
 origin
+)
 ]
     
 else
@@ -121,7 +136,10 @@ origin_list
 .
 append
 (
+isomorphic_decode
+(
 origin
+)
 )
     
 request
@@ -137,6 +155,7 @@ origin_list
 )
     
 if
+b
 "
 location
 "
@@ -158,6 +177,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -167,6 +187,7 @@ GET
 .
 first
 (
+b
 "
 location
 "
@@ -181,11 +202,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -199,6 +222,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -208,6 +232,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -217,6 +242,7 @@ response
 .
 content
 =
+b
 "
 <
 meta

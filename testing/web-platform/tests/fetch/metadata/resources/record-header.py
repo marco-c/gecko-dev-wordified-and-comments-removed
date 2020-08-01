@@ -1,13 +1,15 @@
 import
 os
 import
-uuid
-import
 hashlib
 import
-time
-import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -28,6 +30,7 @@ request
 .
 GET
 [
+b
 '
 file
 '
@@ -45,6 +48,7 @@ request
 .
 POST
 [
+b
 '
 file
 '
@@ -64,6 +68,7 @@ hexdigest
 )
   
 if
+b
 '
 retrieve
 '
@@ -130,6 +135,7 @@ writer
 .
 write
 (
+u
 "
 No
 header
@@ -161,16 +167,20 @@ dumps
 (
 {
         
+u
 "
 dest
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -178,20 +188,26 @@ fetch
 -
 dest
 "
+b
 "
 "
 )
+)
         
+u
 "
 mode
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -199,20 +215,26 @@ fetch
 -
 mode
 "
+b
 "
 "
 )
+)
         
+u
 "
 site
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -220,20 +242,26 @@ fetch
 -
 site
 "
+b
 "
 "
 )
+)
         
+u
 "
 user
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -241,8 +269,10 @@ fetch
 -
 user
 "
+b
 "
 "
+)
 )
       
 }
@@ -272,6 +302,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -281,6 +312,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -292,11 +324,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -316,9 +350,11 @@ headers
 .
 set
 (
+b
 "
 Pragma
 "
+b
 "
 no
 -
@@ -332,9 +368,11 @@ headers
 .
 set
 (
+b
 "
 Expires
 "
+b
 "
 0
 "
@@ -345,6 +383,7 @@ key
 .
 startswith
 (
+b
 "
 serviceworker
 "
@@ -357,11 +396,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -374,6 +415,7 @@ key
 .
 startswith
 (
+b
 "
 image
 "
@@ -386,11 +428,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -411,9 +455,11 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 1x1
 -
@@ -422,8 +468,9 @@ green
 png
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -449,6 +496,7 @@ key
 .
 startswith
 (
+b
 "
 track
 "
@@ -456,6 +504,7 @@ track
 :
       
 return
+b
 "
 WEBVTT
 "
@@ -465,6 +514,7 @@ key
 .
 startswith
 (
+b
 "
 sharedworker
 "
@@ -477,11 +527,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -502,24 +554,29 @@ join
 request
 .
 doc_root
+u
 "
 fetch
 "
+u
 "
 metadata
 "
                                
+u
 "
 resources
 "
+u
 "
 sharedWorker
 .
 js
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -545,6 +602,7 @@ key
 .
 startswith
 (
+b
 "
 font
 "
@@ -557,11 +615,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -586,17 +646,20 @@ join
 request
 .
 doc_root
+u
 "
 fonts
 "
+u
 "
 Ahem
 .
 ttf
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -622,6 +685,7 @@ key
 .
 startswith
 (
+b
 "
 audio
 "
@@ -634,11 +698,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 audio
 /
@@ -659,17 +725,20 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 sound_5
 .
 mp3
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -695,6 +764,7 @@ key
 .
 startswith
 (
+b
 "
 video
 "
@@ -707,11 +777,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 video
 /
@@ -732,17 +804,20 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 A4
 .
 mp4
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -768,6 +843,7 @@ key
 .
 startswith
 (
+b
 "
 style
 "
@@ -780,11 +856,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -793,6 +871,7 @@ css
 )
       
 return
+b
 "
 div
 {
@@ -804,6 +883,7 @@ key
 .
 startswith
 (
+b
 "
 embed
 "
@@ -813,6 +893,7 @@ key
 .
 startswith
 (
+b
 "
 object
 "
@@ -825,11 +906,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -838,6 +921,7 @@ html
 )
       
 return
+b
 "
 <
 html
@@ -855,6 +939,7 @@ key
 .
 startswith
 (
+b
 "
 redirect
 "
@@ -867,11 +952,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 image
 /
@@ -892,9 +979,11 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 1x1
 -
@@ -903,8 +992,9 @@ green
 png
 "
 )
+u
 "
-r
+rb
 "
 )
       
@@ -930,6 +1020,7 @@ key
 .
 startswith
 (
+b
 "
 worker
 "
@@ -942,11 +1033,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -955,6 +1048,7 @@ javascript
 )
       
 return
+b
 "
 self
 .
@@ -972,6 +1066,7 @@ key
 .
 startswith
 (
+b
 "
 appcache
 -
@@ -986,11 +1081,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -1001,6 +1098,7 @@ manifest
 )
       
 return
+b
 "
 "
 "
@@ -1044,6 +1142,7 @@ key
 .
 startswith
 (
+b
 "
 appcache
 -
@@ -1058,11 +1157,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -1071,6 +1172,7 @@ html
 )
       
 return
+b
 "
 <
 html
@@ -1088,6 +1190,7 @@ key
 .
 startswith
 (
+b
 "
 xslt
 "
@@ -1100,11 +1203,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -1113,6 +1218,7 @@ xsl
 )
       
 return
+b
 "
 "
 "

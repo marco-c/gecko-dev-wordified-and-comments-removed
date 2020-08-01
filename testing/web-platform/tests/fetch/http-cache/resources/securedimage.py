@@ -8,6 +8,13 @@ utf
 -
 8
 -
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 def
 main
 (
@@ -25,6 +32,7 @@ replace
 request
 .
 url
+u
 "
 fetch
 /
@@ -38,6 +46,7 @@ securedimage
 .
 py
 "
+u
 "
 images
 /
@@ -48,6 +57,7 @@ png
 )
     
 if
+b
 "
 authorization
 "
@@ -70,11 +80,13 @@ headers
 .
 set
 (
+b
 "
 WWW
 -
 Authenticate
 "
+b
 "
 Basic
 "
@@ -93,6 +105,7 @@ headers
 .
 get
 (
+b
 "
 Authorization
 "
@@ -102,6 +115,7 @@ if
 auth
 !
 =
+b
 "
 Basic
 dGVzdHVzZXI6dGVzdHBhc3M
@@ -114,6 +128,7 @@ response
 set_error
 (
 403
+u
 "
 Invalid
 username
@@ -122,7 +137,10 @@ password
 -
 "
 +
+isomorphic_decode
+(
 auth
+)
 )
             
 return
@@ -139,8 +157,12 @@ headers
 .
 set
 (
+b
 "
 Location
 "
+isomorphic_encode
+(
 image_url
+)
 )

@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -14,6 +20,7 @@ GET
 .
 get_list
 (
+b
 "
 value
 "
@@ -27,9 +34,11 @@ GET
 .
 first
 (
+b
 "
 content
 "
+b
 "
 <
 b
@@ -46,6 +55,7 @@ n
     
 output
 =
+b
 "
 HTTP
 /
@@ -63,6 +73,7 @@ n
 output
 +
 =
+b
 "
 X
 -
@@ -80,6 +91,7 @@ n
 "
     
 if
+b
 "
 single_header
 "
@@ -92,6 +104,7 @@ GET
 output
 +
 =
+b
 "
 Content
 -
@@ -99,6 +112,7 @@ Type
 :
 "
 +
+b
 "
 "
 .
@@ -107,6 +121,7 @@ join
 values
 )
 +
+b
 "
 \
 r
@@ -126,6 +141,7 @@ values
 output
 +
 =
+b
 "
 Content
 -
@@ -135,6 +151,7 @@ Type
 +
 value
 +
+b
 "
 \
 r
@@ -145,6 +162,7 @@ n
 output
 +
 =
+b
 "
 Content
 -
@@ -152,6 +170,8 @@ Length
 :
 "
 +
+isomorphic_encode
+(
 str
 (
 len
@@ -159,7 +179,9 @@ len
 content
 )
 )
+)
 +
+b
 "
 \
 r
@@ -170,6 +192,7 @@ n
 output
 +
 =
+b
 "
 \
 r

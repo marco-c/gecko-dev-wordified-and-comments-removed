@@ -7,6 +7,7 @@ response
 :
     
 if
+b
 "
 referrerPolicy
 "
@@ -22,6 +23,7 @@ headers
 .
 set
 (
+b
 "
 Referrer
 -
@@ -34,6 +36,7 @@ GET
 .
 first
 (
+b
 "
 referrerPolicy
 "
@@ -52,11 +55,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -68,6 +73,7 @@ response
 .
 content
 =
+b
 "
 <
 meta

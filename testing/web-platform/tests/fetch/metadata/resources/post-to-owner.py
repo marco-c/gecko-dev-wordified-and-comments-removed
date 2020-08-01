@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -13,11 +19,13 @@ headers
 [
         
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -26,11 +34,13 @@ html
 )
         
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -48,6 +58,7 @@ revalidate
     
 body
 =
+u
 "
 "
 "
@@ -147,16 +158,20 @@ dumps
 (
 {
         
+u
 "
 dest
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -164,20 +179,26 @@ fetch
 -
 dest
 "
+b
 "
 "
 )
+)
         
+u
 "
 mode
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -185,20 +206,26 @@ fetch
 -
 mode
 "
+b
 "
 "
 )
+)
         
+u
 "
 site
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -206,20 +233,26 @@ fetch
 -
 site
 "
+b
 "
 "
 )
+)
         
+u
 "
 user
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -227,8 +260,10 @@ fetch
 -
 user
 "
+b
 "
 "
+)
 )
         
 }

@@ -1,5 +1,11 @@
 import
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -12,11 +18,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -25,6 +33,7 @@ json
 )
                
 (
+b
 "
 Access
 -
@@ -34,6 +43,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -41,6 +51,7 @@ true
 ]
     
 if
+b
 "
 origin
 "
@@ -55,6 +66,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -68,6 +80,7 @@ request
 .
 headers
 [
+b
 "
 origin
 "
@@ -77,6 +90,7 @@ origin
     
 body
 =
+u
 "
 "
     
@@ -86,6 +100,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -98,6 +113,7 @@ headers
 .
 get
 (
+b
 "
 sec
 -
@@ -108,6 +124,7 @@ mode
 )
 !
 =
+b
 "
 cors
 "
@@ -116,6 +133,7 @@ cors
 return
 (
 403
+b
 "
 Failed
 "
@@ -129,6 +147,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -138,6 +157,7 @@ Allow
 -
 Methods
 "
+b
 "
 *
 "
@@ -149,6 +169,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -158,6 +179,7 @@ Allow
 -
 Headers
 "
+b
 "
 *
 "
@@ -175,16 +197,20 @@ dumps
 (
 {
             
+u
 "
 dest
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -192,20 +218,26 @@ fetch
 -
 dest
 "
+b
 "
 "
 )
+)
             
+u
 "
 mode
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -213,20 +245,26 @@ fetch
 -
 mode
 "
+b
 "
 "
 )
+)
             
+u
 "
 site
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -234,20 +272,26 @@ fetch
 -
 site
 "
+b
 "
 "
 )
+)
             
+u
 "
 user
 "
 :
+isomorphic_decode
+(
 request
 .
 headers
 .
 get
 (
+b
 "
 sec
 -
@@ -255,8 +299,10 @@ fetch
 -
 user
 "
+b
 "
 "
+)
 )
             
 }
