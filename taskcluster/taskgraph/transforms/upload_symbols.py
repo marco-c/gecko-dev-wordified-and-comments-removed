@@ -610,17 +610,6 @@ treeherder
 =
 treeherder
         
-if
-attributes
-.
-get
-(
-'
-shippable
-'
-)
-:
-            
 task
 [
 '
@@ -642,7 +631,7 @@ get
 run_on_projects
 '
 )
-            
+        
 task
 [
 '
