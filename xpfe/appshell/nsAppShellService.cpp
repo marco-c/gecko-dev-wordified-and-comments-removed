@@ -3226,17 +3226,11 @@ nsDocShell
 *
 docShell
 =
-nsDocShell
-:
-:
-Cast
-(
 window
 -
 >
 GetDocShell
 (
-)
 )
 )
 {
