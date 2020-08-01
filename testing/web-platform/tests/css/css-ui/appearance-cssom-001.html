@@ -195,6 +195,16 @@ textfield
 "
 ]
 ;
+const
+initial_appearance
+=
+getComputedStyle
+(
+button
+)
+.
+appearance
+;
 function
 assert_style_for_prop
 (
@@ -1295,9 +1305,7 @@ assert_style_for_prop
 (
 style
 prop
-"
-button
-"
+initial_appearance
 )
 ;
 }
