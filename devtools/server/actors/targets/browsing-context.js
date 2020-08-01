@@ -1008,15 +1008,13 @@ if
 (
 this
 .
-window
+docShell
 )
 {
 return
 this
 .
-window
-.
-windowUtils
+docShell
 .
 outerWindowID
 ;
@@ -2551,9 +2549,7 @@ DOMWindow
 const
 id
 =
-window
-.
-windowUtils
+docShell
 .
 outerWindowID
 ;
@@ -2591,7 +2587,7 @@ window
 .
 parent
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;
@@ -2739,7 +2735,7 @@ webProgress
 .
 DOMWindow
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

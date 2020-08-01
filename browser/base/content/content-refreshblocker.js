@@ -510,7 +510,7 @@ outerWindowID
 =
 win
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

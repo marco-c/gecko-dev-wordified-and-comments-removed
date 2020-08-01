@@ -425,7 +425,7 @@ this
 windowId
 )
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;
@@ -1599,7 +1599,7 @@ getWindow
 windowId
 )
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

@@ -1667,11 +1667,9 @@ if
 (
 bc
 .
-window
+currentWindowContext
 .
-windowUtils
-.
-outerWindowID
+outerWindowId
 =
 =
 winId
