@@ -1156,7 +1156,6 @@ this
 )
 ;
 }
-inline
 bool
 js
 :
@@ -1181,7 +1180,6 @@ isUndefined
 )
 ;
 }
-inline
 js
 :
 :
