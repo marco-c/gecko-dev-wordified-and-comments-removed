@@ -1441,6 +1441,7 @@ a
 Promise
 <
 WebExtensionPolicy
+?
 >
 or
 null
@@ -1460,6 +1461,21 @@ nullable
 Promise
 *
 type
+.
+*
+*
+Note
+:
+This
+could
+resolve
+to
+null
+when
+the
+startup
+was
+interrupted
 .
 *
 /
@@ -1599,6 +1615,7 @@ null
 Promise
 <
 WebExtensionPolicy
+?
 >
 readyPromise
 ;

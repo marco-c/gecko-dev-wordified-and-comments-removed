@@ -11738,6 +11738,11 @@ stopwatchFinish
 this
 )
 ;
+resolveReadyPromise
+(
+null
+)
+;
 }
 }
 cleanupGeneratedFile
