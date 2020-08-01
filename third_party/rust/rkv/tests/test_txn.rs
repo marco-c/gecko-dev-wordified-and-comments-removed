@@ -30,7 +30,6 @@ use
 rkv
 :
 :
-{
 backend
 :
 :
@@ -40,6 +39,12 @@ LmdbDatabase
 LmdbRoCursor
 LmdbRwTransaction
 }
+;
+use
+rkv
+:
+:
+{
 Readable
 Rkv
 StoreOptions
@@ -624,7 +629,6 @@ map
 |
 id
 |
-{
 match
 id
 .
@@ -637,12 +641,15 @@ field
 {
 (
 _
+Some
+(
 Value
 :
 :
 U64
 (
 id
+)
 )
 )
 =
@@ -661,7 +668,6 @@ in
 iter
 "
 )
-}
 }
 )
 .
