@@ -5811,23 +5811,22 @@ install
 directory
 .
     
-"
-"
-"
-    
-try
-:
-        
-import
+Upgrades
 glean
-        
-return
+if
+it
+'
+s
+out
+-
+of
+-
+date
+.
     
-except
-ImportError
-:
-        
-pass
+"
+"
+"
     
 pip_call
 =
@@ -5847,6 +5846,13 @@ install
 '
 '
 glean_sdk
+~
+=
+31
+.
+5
+.
+0
 '
 ]
     
