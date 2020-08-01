@@ -10,6 +10,7 @@ closeToolbox
 runTest
 testSetup
 testTeardown
+waitForTick
 }
 =
 require
@@ -327,6 +328,11 @@ item9
 await
 onPopupUpdated
 ;
+await
+waitForTick
+(
+)
+;
 }
 const
 LONG_INPUT_PREFIX
@@ -424,6 +430,7 @@ await
 onPopupOpened
 ;
 }
+async
 function
 hideAutocompletePopup
 (
@@ -453,8 +460,13 @@ jsterm
 "
 )
 ;
-return
+await
 onPopUpClosed
+;
+await
+waitForTick
+(
+)
 ;
 }
 function
