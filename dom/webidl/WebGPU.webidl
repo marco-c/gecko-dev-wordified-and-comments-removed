@@ -4258,8 +4258,6 @@ firstInstance
 0
 )
 ;
-/
-/
 void
 drawIndirect
 (
@@ -4269,8 +4267,6 @@ GPUSize64
 indirectOffset
 )
 ;
-/
-/
 void
 drawIndexedIndirect
 (
@@ -4441,8 +4437,6 @@ z
 1
 )
 ;
-/
-/
 void
 dispatchIndirect
 (

@@ -185,6 +185,17 @@ z
 )
 ;
 void
+DispatchIndirect
+(
+const
+Buffer
+&
+aIndirectBuffer
+uint64_t
+aIndirectOffset
+)
+;
+void
 EndPass
 (
 ErrorResult
