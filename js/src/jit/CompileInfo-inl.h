@@ -83,10 +83,7 @@ script_
 >
 getFunction
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }

@@ -29,6 +29,15 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
 namespace
 js
 {
@@ -81,10 +90,8 @@ kind_
 ObjKind
 objKind_
 ;
-uint32_t
+GCThingIndex
 propAtomIndex_
-=
-0
 ;
 bool
 isLength_

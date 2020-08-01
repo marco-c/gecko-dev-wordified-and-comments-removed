@@ -136,6 +136,15 @@ h
 #
 include
 "
+vm
+/
+SharedStencil
+.
+h
+"
+#
+include
+"
 gc
 /
 ObjectKind
@@ -2804,7 +2813,7 @@ empty
 ;
 }
 }
-uint32_t
+GCThingIndex
 atomIndex
 ;
 if

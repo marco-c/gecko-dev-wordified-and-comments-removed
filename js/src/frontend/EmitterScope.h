@@ -92,6 +92,15 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
 namespace
 js
 {
@@ -137,7 +146,7 @@ environmentChainLength_
 uint32_t
 nextFrameSlot_
 ;
-uint32_t
+GCThingIndex
 scopeIndex_
 ;
 uint32_t
@@ -480,7 +489,7 @@ nonLocal
 false
 )
 ;
-uint32_t
+GCThingIndex
 index
 (
 )

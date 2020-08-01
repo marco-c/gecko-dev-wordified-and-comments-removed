@@ -110,6 +110,15 @@ JSFunction
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
 namespace
 js
 {
@@ -239,7 +248,7 @@ MOZ_MUST_USE
 bool
 emitNonHoisted
 (
-unsigned
+GCThingIndex
 index
 )
 ;
@@ -247,7 +256,7 @@ MOZ_MUST_USE
 bool
 emitHoisted
 (
-unsigned
+GCThingIndex
 index
 )
 ;
@@ -255,7 +264,7 @@ MOZ_MUST_USE
 bool
 emitTopLevelFunction
 (
-unsigned
+GCThingIndex
 index
 )
 ;

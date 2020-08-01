@@ -825,7 +825,7 @@ emitFunction
 (
 )
 {
-uint32_t
+GCThingIndex
 index
 ;
 if
@@ -986,7 +986,7 @@ FunctionEmitter
 :
 emitNonHoisted
 (
-unsigned
+GCThingIndex
 index
 )
 {
@@ -1051,7 +1051,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitGCIndexOp
 (
 JSOp
 :
@@ -1096,7 +1096,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitGCIndexOp
 (
 op
 index
@@ -1117,7 +1117,7 @@ FunctionEmitter
 :
 emitHoisted
 (
-unsigned
+GCThingIndex
 index
 )
 {
@@ -1166,7 +1166,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitGCIndexOp
 (
 JSOp
 :
@@ -1223,7 +1223,7 @@ FunctionEmitter
 :
 emitTopLevelFunction
 (
-unsigned
+GCThingIndex
 index
 )
 {
@@ -1315,7 +1315,7 @@ if
 bce_
 -
 >
-emitIndexOp
+emitGCIndexOp
 (
 JSOp
 :

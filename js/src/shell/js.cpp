@@ -16818,6 +16818,8 @@ jsprintf
 note
 .
 index
+.
+index
 )
 )
 {

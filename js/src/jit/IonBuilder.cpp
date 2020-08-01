@@ -12135,7 +12135,7 @@ PushLexicalEnv
 return
 jsop_pushlexicalenv
 (
-GET_UINT32_INDEX
+GET_GCTHING_INDEX
 (
 pc
 )
@@ -63795,7 +63795,7 @@ IonBuilder
 :
 jsop_pushlexicalenv
 (
-uint32_t
+GCThingIndex
 index
 )
 {

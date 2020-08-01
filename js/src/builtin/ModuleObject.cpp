@@ -183,6 +183,15 @@ include
 "
 vm
 /
+SharedStencil
+.
+h
+"
+#
+include
+"
+vm
+/
 JSObject
 -
 inl
@@ -5726,7 +5735,7 @@ cx
 ;
 for
 (
-uint32_t
+GCThingIndex
 funIndex
 :
 *

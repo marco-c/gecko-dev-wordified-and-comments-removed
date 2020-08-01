@@ -1145,10 +1145,7 @@ script_
 >
 getAtom
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }
@@ -1168,10 +1165,7 @@ script_
 >
 getName
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }
@@ -1202,10 +1196,7 @@ script_
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 ;
 }

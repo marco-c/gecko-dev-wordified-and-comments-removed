@@ -1519,7 +1519,7 @@ EmptyGlobalScopeType
 using
 FunctionDeclaration
 =
-uint32_t
+GCThingIndex
 ;
 using
 FunctionDeclarationVector

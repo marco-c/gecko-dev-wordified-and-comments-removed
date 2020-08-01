@@ -38,6 +38,15 @@ TypeDecls
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
 namespace
 js
 {
@@ -89,7 +98,7 @@ JSAtom
 >
 name_
 ;
-uint32_t
+GCThingIndex
 atomIndex_
 ;
 NameLocation

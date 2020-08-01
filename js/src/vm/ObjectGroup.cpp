@@ -8274,10 +8274,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 -
 >
@@ -8489,10 +8486,7 @@ script
 >
 getObject
 (
-GET_UINT32_INDEX
-(
 pc
-)
 )
 -
 >

@@ -117,7 +117,7 @@ append
 FunctionBox
 *
 funbox
-uint32_t
+GCThingIndex
 *
 index
 )
@@ -125,10 +125,13 @@ index
 *
 index
 =
+GCThingIndex
+(
 vector
 .
 length
 (
+)
 )
 ;
 return
@@ -804,7 +807,7 @@ CGScopeNoteList
 :
 append
 (
-uint32_t
+GCThingIndex
 scopeIndex
 BytecodeOffset
 offset

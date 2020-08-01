@@ -101,6 +101,15 @@ TIOracle
 .
 h
 "
+#
+include
+"
+vm
+/
+SharedStencil
+.
+h
+"
 namespace
 js
 {
@@ -3528,7 +3537,7 @@ Ok
 >
 jsop_pushlexicalenv
 (
-uint32_t
+GCThingIndex
 index
 )
 ;
