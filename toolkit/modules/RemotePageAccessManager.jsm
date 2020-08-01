@@ -297,6 +297,9 @@ Browser
 :
 ResetEnterpriseRootsPref
 "
+"
+ReportBlockingError
+"
 ]
 RPMAddMessageListener
 :
@@ -441,6 +444,13 @@ min
 "
 ]
 RPMAddToHistogram
+:
+[
+"
+*
+"
+]
+RPMGetHttpResponseHeader
 :
 [
 "
