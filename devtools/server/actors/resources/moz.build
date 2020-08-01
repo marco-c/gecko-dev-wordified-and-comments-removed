@@ -23,6 +23,13 @@ messages
 js
 '
 '
+document
+-
+event
+.
+js
+'
+'
 error
 -
 messages
