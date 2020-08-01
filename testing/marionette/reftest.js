@@ -750,7 +750,7 @@ driver
 .
 listener
 .
-navigateTo
+get
 (
 {
 commandID
@@ -3184,7 +3184,7 @@ driver
 .
 listener
 .
-navigateTo
+get
 (
 navigateOpts
 )
