@@ -1032,6 +1032,9 @@ nullptr
 TimeStamp
 mCompositionTime
 ;
+CompositionOpportunityId
+mCompositionOpportunityId
+;
 TimeStamp
 mCompositeUntilTime
 ;
