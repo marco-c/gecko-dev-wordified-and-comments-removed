@@ -19737,6 +19737,8 @@ if
 spatial_node
 .
 is_ancestor_or_self_zooming
+(
+)
 {
 let
 scale_factors
@@ -25535,7 +25537,9 @@ if
 !
 spatial_node
 .
-invertible
+is_invertible
+(
+)
 {
 continue
 ;
