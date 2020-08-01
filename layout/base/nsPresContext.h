@@ -3684,6 +3684,9 @@ mozilla
 TimeStamp
 mLastStyleUpdateForAllAnimations
 ;
+nsChangeHint
+mChangeHintForPrefChange
+;
 unsigned
 mHasPendingInterrupt
 :
@@ -3756,11 +3759,6 @@ mPendingThemeChanged
 ;
 unsigned
 mPendingUIResolutionChanged
-:
-1
-;
-unsigned
-mPrefChangePendingNeedsReflow
 :
 1
 ;
