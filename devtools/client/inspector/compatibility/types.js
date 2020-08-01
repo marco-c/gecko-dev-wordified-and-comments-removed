@@ -133,6 +133,16 @@ arrayOf
 (
 node
 )
+aliases
+:
+PropTypes
+.
+arrayOf
+(
+PropTypes
+.
+string
+)
 }
 ;
 exports
