@@ -91,6 +91,13 @@ conditions
     
 )
     
+from
+mach
+.
+util
+import
+UserError
+    
 build_obj
 =
 MozbuildObject
@@ -112,6 +119,10 @@ None
 conditions
 =
 None
+    
+UserError
+=
+Exception
 class
 JavaTestHarnessException
 (
@@ -318,7 +329,7 @@ coverage_output_dir
 :
             
 raise
-Exception
+UserError
 (
 "
 -
@@ -556,7 +567,7 @@ else
 :
                 
 raise
-Exception
+UserError
 (
 "
 -
@@ -1702,7 +1713,7 @@ app
 :
             
 raise
-Exception
+UserError
 (
 "
 %
@@ -1736,7 +1747,7 @@ app
 :
             
 raise
-Exception
+UserError
 (
 "
 %
@@ -1763,7 +1774,7 @@ test_filters
 :
             
 raise
-Exception
+UserError
 (
 "
 Test
