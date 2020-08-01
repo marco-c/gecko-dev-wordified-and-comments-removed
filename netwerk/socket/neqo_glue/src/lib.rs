@@ -957,6 +957,16 @@ as_millis
 as
 u64
 ;
+if
+timeout
+=
+=
+0
+{
+break
+1
+;
+}
 break
 timeout
 ;
