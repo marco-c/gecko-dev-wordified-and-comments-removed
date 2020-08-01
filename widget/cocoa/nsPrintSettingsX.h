@@ -341,6 +341,11 @@ SetPrinterNameFromPrintInfo
 (
 )
 ;
+void
+SetDispositionSaveToFile
+(
+)
+;
 protected
 :
 virtual
