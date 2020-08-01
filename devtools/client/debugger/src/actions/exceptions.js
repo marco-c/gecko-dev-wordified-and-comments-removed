@@ -73,6 +73,17 @@ errorMessage
 =
 pageError
 ;
+const
+stacktrace
+=
+pageError
+.
+stacktrace
+|
+|
+[
+]
+;
 if
 (
 !
@@ -103,6 +114,7 @@ sourceActorId
 :
 sourceId
 errorMessage
+stacktrace
 }
 }
 )
