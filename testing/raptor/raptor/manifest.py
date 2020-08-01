@@ -3112,6 +3112,24 @@ browser_cycles
 ]
 )
             
+if
+args
+.
+chimera
+:
+                
+next_test
+[
+'
+page_cycles
+'
+]
+=
+2
+            
+else
+:
+                
 next_test
 [
 '

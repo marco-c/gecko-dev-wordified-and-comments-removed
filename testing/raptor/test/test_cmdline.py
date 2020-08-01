@@ -127,6 +127,10 @@ False
 enable_webrender
 =
 False
+        
+chimera
+=
+False
     
 )
     
@@ -251,6 +255,10 @@ False
 enable_webrender
 =
 False
+        
+chimera
+=
+False
     
 )
     
@@ -338,6 +346,10 @@ memory_test
 False
         
 enable_webrender
+=
+False
+        
+chimera
 =
 False
     
@@ -429,6 +441,10 @@ False
 enable_webrender
 =
 False
+        
+chimera
+=
+False
     
 )
     
@@ -514,6 +530,10 @@ False
 enable_webrender
 =
 False
+        
+chimera
+=
+False
     
 )
     
@@ -591,6 +611,10 @@ memory_test
 False
         
 enable_webrender
+=
+False
+        
+chimera
 =
 False
     
