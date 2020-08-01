@@ -3168,6 +3168,12 @@ MouseType
 :
 :
 MOUSE_UP
+&
+&
+mState
+=
+=
+SCROLLBAR_DRAG
 )
 {
 APZC_LOG
