@@ -1,3 +1,7 @@
+from
+six
+import
+int2byte
 def
 main
 (
@@ -33,7 +37,7 @@ utf
     
 content
 =
-chr
+int2byte
 (
 0xff
 )

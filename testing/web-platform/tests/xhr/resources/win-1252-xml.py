@@ -1,3 +1,7 @@
+from
+six
+import
+int2byte
 def
 main
 (
@@ -33,15 +37,17 @@ windows
     
 content
 =
+b
 '
 <
 '
 +
-chr
+int2byte
 (
 0xff
 )
 +
+b
 '
 /
 >
