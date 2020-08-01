@@ -856,6 +856,11 @@ toctree
 maxdepth
 :
 2
+simple
+-
+cfr
+-
+template
 debugging
 -
 docs

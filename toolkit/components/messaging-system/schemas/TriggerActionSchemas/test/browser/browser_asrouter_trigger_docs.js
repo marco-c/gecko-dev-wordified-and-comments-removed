@@ -28,7 +28,7 @@ test
 /
 browser
 /
-TriggerActionSchemas
+index
 .
 md
 "
@@ -417,6 +417,8 @@ not
 found
 in
 TriggerActionSchemas
+/
+index
 .
 md
 )

@@ -28,7 +28,7 @@ test
 /
 browser
 /
-SpecialMessageActionSchemas
+index
 .
 md
 "
@@ -187,6 +187,8 @@ not
 found
 in
 SpecialMessageActionSchemas
+/
+index
 .
 md
 )

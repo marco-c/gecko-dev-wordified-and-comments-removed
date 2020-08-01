@@ -90,11 +90,7 @@ maxdepth
 2
 SpecialMessageActionSchemas
 /
-SpecialMessageActionSchemas
-.
-md
+index
 TriggerActionSchemas
 /
-TriggerActionSchemas
-.
-md
+index
