@@ -81,26 +81,6 @@ nodejs
 '
         
 '
-python2
-'
-        
-'
-python2
--
-setuptools
-'
-        
-'
-python
-'
-        
-'
-python
--
-pip
-'
-        
-'
 unzip
 '
         
@@ -640,23 +620,6 @@ pacman_install
 (
 '
 mercurial
-'
-)
-    
-def
-upgrade_python
-(
-self
-current
-)
-:
-        
-self
-.
-pacman_install
-(
-'
-python2
 '
 )
     

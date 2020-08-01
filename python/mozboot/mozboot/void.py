@@ -57,12 +57,6 @@ nodejs
 '
         
 '
-python3
--
-pip
-'
-        
-'
 unzip
 '
         

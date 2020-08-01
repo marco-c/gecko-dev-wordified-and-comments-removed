@@ -3014,6 +3014,14 @@ prepare
 (
 )
         
+self
+.
+instance
+.
+ensure_python_modern
+(
+)
+        
 if
 self
 .
@@ -3147,14 +3155,6 @@ self
 instance
 .
 ensure_mercurial_modern
-(
-)
-        
-self
-.
-instance
-.
-ensure_python_modern
 (
 )
         

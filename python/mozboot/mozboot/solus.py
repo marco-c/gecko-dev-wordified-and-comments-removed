@@ -67,14 +67,6 @@ nodejs
 '
         
 '
-python
-'
-        
-'
-python3
-'
-        
-'
 unzip
 '
         
@@ -504,23 +496,6 @@ package_install
 (
 '
 mercurial
-'
-)
-    
-def
-upgrade_python
-(
-self
-current
-)
-:
-        
-self
-.
-package_install
-(
-'
-python2
 '
 )
     

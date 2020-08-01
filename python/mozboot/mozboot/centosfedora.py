@@ -340,12 +340,6 @@ packages
 [
                     
 '
-python2
--
-devel
-'
-                    
-'
 redhat
 -
 rpm
@@ -405,12 +399,6 @@ packages
                 
 '
 npm
-'
-                
-'
-python2
--
-devel
 '
                 
 '

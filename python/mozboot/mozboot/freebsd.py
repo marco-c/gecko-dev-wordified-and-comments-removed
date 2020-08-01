@@ -112,10 +112,6 @@ version_info
 ]
             
 '
-python3
-'
-            
-'
 rust
 '
             
