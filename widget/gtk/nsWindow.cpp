@@ -9875,9 +9875,6 @@ if
 mutterSettings
 )
 {
-bool
-usesDynamicWorkspaces
-;
 if
 (
 NS_SUCCEEDED
