@@ -7545,6 +7545,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathClz32
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathFloor
 (
 HandleFunction
