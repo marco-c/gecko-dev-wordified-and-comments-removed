@@ -5140,9 +5140,6 @@ ref
 }
 if
 (
-mIsPreformatted
-|
-|
 !
 StartsFromHardLineBreak
 (
@@ -5291,9 +5288,6 @@ ref
 }
 if
 (
-mIsPreformatted
-|
-|
 !
 EndsByBlockBoundary
 (
