@@ -838,6 +838,10 @@ sets
 -
 talos
 -
+talos
+-
+profiling
+-
 raptor
 -
 firefox
@@ -1610,6 +1614,10 @@ tests
 windows
 -
 talos
+-
+talos
+-
+profiling
 -
 raptor
 -
