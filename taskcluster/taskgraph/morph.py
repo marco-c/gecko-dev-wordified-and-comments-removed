@@ -64,6 +64,8 @@ import
 os
 import
 re
+import
+six
 from
 slugid
 import
@@ -206,12 +208,13 @@ for
 depname
 dep
 in
-task
-.
-dependencies
+six
 .
 iteritems
 (
+task
+.
+dependencies
 )
 :
             
@@ -1107,12 +1110,13 @@ for
 label
 task
 in
-taskgraph
-.
-tasks
+six
 .
 iteritems
 (
+taskgraph
+.
+tasks
 )
 :
         
