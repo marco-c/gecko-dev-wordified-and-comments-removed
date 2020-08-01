@@ -367,7 +367,7 @@ default
 this
 is
 the
-syntax
+auto
 selector
 .
 In
@@ -390,7 +390,7 @@ mach
 try
 mach
 try
-syntax
+auto
 You
 can
 choose

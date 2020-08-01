@@ -1241,7 +1241,7 @@ subcommand
 is
 specified
 the
-syntax
+auto
 selector
 is
 run
@@ -1253,7 +1253,7 @@ Run
 |
 mach
 try
-syntax
+auto
 -
 -
 help
@@ -1266,7 +1266,7 @@ on
 scheduling
 with
 the
-syntax
+auto
 selector
 .
         
