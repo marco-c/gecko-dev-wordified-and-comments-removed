@@ -200,6 +200,14 @@ false
 ]
 [
 "
+experimental
+.
+searchModeIndicatorHover
+"
+false
+]
+[
+"
 filter
 .
 javascript
