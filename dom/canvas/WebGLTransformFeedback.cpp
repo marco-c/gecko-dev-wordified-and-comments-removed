@@ -42,6 +42,13 @@ h
 #
 include
 "
+WebGLBuffer
+.
+h
+"
+#
+include
+"
 WebGLProgram
 .
 h
