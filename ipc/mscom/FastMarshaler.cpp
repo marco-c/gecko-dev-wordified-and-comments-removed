@@ -377,17 +377,6 @@ return
 aMshlFlags
 ;
 }
-if
-(
-IsCallerExternalProcess
-(
-)
-)
-{
-return
-aMshlFlags
-;
-}
 return
 aMshlFlags
 |
