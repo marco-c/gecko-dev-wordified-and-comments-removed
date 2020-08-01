@@ -2566,6 +2566,11 @@ x86_64
 )
 :
 if
+(
+not
+nasm_version
+)
+or
 nasm_version
 <
 '
