@@ -97,6 +97,8 @@ TYPES
 .
 CONSOLE_MESSAGE
 )
+.
+length
 0
 "
 There

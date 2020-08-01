@@ -1701,7 +1701,7 @@ onceNewNodeFront
 is
 (
 nodeFront
-undefined
+null
 "
 The
 inspector

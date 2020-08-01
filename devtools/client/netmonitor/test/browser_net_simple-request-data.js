@@ -258,7 +258,7 @@ getState
 (
 )
 )
-null
+undefined
 "
 There
 shouldn
@@ -1477,9 +1477,7 @@ is
 requestItem
 .
 transferredSize
-"
 347
-"
 "
 The
 transferredSize
@@ -1497,9 +1495,7 @@ is
 requestItem
 .
 contentSize
-"
 12
-"
 "
 The
 contentSize

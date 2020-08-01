@@ -275,8 +275,14 @@ unit
 ;
 is
 (
+parseFloat
+(
 convertedValue
+)
+parseFloat
+(
 value
+)
 Converting
 to
 {

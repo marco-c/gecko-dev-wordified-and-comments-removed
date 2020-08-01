@@ -257,7 +257,9 @@ is
 span
 .
 textContent
+"
 3
+"
 "
 Should
 have
@@ -531,7 +533,9 @@ is
 span
 .
 textContent
+"
 16
+"
 "
 Should
 have
@@ -645,7 +649,9 @@ is
 span
 .
 textContent
+"
 16
+"
 "
 Should
 have
@@ -855,7 +861,9 @@ is
 span
 .
 textContent
+"
 0
+"
 "
 Should
 have
@@ -958,7 +966,9 @@ is
 span
 .
 textContent
+"
 32
+"
 "
 Should
 have
@@ -1087,7 +1097,9 @@ is
 span
 .
 textContent
+"
 32
+"
 "
 Should
 have

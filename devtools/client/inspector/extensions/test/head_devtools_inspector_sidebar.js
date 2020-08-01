@@ -325,8 +325,6 @@ selector
 )
 .
 length
->
-0
 ;
 }
 "

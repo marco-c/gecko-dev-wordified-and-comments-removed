@@ -360,6 +360,7 @@ policies
 ;
 is
 (
+{
 policy
 [
 "
@@ -368,6 +369,7 @@ img
 src
 "
 ]
+}
 "
 *
 "

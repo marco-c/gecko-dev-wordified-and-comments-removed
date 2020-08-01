@@ -334,9 +334,13 @@ outputNode
 ;
 is
 (
+parseInt
+(
 inspectPrimitiveNode
 .
 textContent
+10
+)
 1
 "
 The

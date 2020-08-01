@@ -234,7 +234,9 @@ split
 is
 (
 line
+"
 20
+"
 "
 message
 frame
@@ -247,7 +249,9 @@ line
 is
 (
 column
+"
 11
+"
 "
 message
 frame
@@ -488,9 +492,11 @@ line
 )
 .
 textContent
+{
 expected
 .
 line
+}
 expected
 line
 is

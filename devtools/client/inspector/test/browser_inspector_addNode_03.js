@@ -271,6 +271,8 @@ parentNode
 ;
 is
 (
+parseInt
+(
 parentContainer
 .
 tagLine
@@ -282,6 +284,8 @@ aria
 -
 level
 "
+)
+10
 )
 PARENT_TREE_LEVEL
 "
@@ -482,6 +486,8 @@ newNode
 ;
 is
 (
+parseInt
+(
 newNodeContainer
 .
 tagLine
@@ -493,6 +499,8 @@ aria
 -
 level
 "
+)
+10
 )
 PARENT_TREE_LEVEL
 +

@@ -1734,7 +1734,9 @@ s
 alphaSlider
 .
 value
+"
 0
+"
 "
 Alpha
 range

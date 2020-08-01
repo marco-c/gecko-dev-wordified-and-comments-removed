@@ -1351,6 +1351,8 @@ existence
 ;
 is
 (
+parseInt
+(
 interactionEl
 .
 getAttribute
@@ -1358,6 +1360,8 @@ getAttribute
 "
 x
 "
+)
+10
 )
 expectedHint
 .
@@ -1386,6 +1390,8 @@ x
 ;
 is
 (
+parseInt
+(
 interactionEl
 .
 getAttribute
@@ -1393,6 +1399,8 @@ getAttribute
 "
 width
 "
+)
+10
 )
 expectedHint
 .
@@ -1504,6 +1512,8 @@ win
 ;
 is
 (
+parseInt
+(
 win
 .
 getComputedStyle
@@ -1512,6 +1522,8 @@ displayedEl
 )
 .
 strokeOpacity
+10
+)
 0
 stroke
 -

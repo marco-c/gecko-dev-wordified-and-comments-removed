@@ -211,7 +211,11 @@ name
 ;
 is
 (
+parseInt
+(
 name
+10
+)
 i
 +
 +

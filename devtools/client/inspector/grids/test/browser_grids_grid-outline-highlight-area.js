@@ -405,7 +405,9 @@ showGridCell
 is
 (
 gridFragmentIndex
+"
 0
+"
 "
 Should
 be
@@ -421,7 +423,9 @@ index
 is
 (
 rowNumber
+"
 1
+"
 "
 Should
 be
@@ -436,7 +440,9 @@ row
 is
 (
 columnNumber
+"
 1
+"
 "
 Should
 be

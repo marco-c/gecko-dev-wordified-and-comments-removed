@@ -954,11 +954,15 @@ incorrect
 ;
 is
 (
+parseInt
+(
 statusCode
 .
 dataset
 .
 code
+10
+)
 status
 "
 The

@@ -692,7 +692,7 @@ findMessage
 hud
 PRIVATE_MESSAGE
 )
-null
+undefined
 "
 no
 console
@@ -708,7 +708,7 @@ findMessage
 hud
 PRIVATE_EXCEPTION
 )
-null
+undefined
 "
 no
 exception

@@ -253,7 +253,7 @@ findMessage
 hud
 CACHED_MESSAGE
 )
-null
+undefined
 "
 The
 cached

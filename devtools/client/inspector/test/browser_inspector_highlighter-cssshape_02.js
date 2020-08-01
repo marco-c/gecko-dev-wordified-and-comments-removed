@@ -351,7 +351,9 @@ highlighterFront
 is
 (
 rx
+"
 25
+"
 "
 Circle
 highlighter
@@ -364,7 +366,9 @@ rx
 is
 (
 ry
+"
 25
+"
 "
 Circle
 highlighter
@@ -377,7 +381,9 @@ ry
 is
 (
 cx
+"
 30
+"
 "
 Circle
 highlighter
@@ -390,7 +396,9 @@ cx
 is
 (
 cy
+"
 40
+"
 "
 Circle
 highlighter
@@ -529,7 +537,9 @@ highlighterFront
 is
 (
 rx
+"
 40
+"
 "
 Ellipse
 highlighter
@@ -542,7 +552,9 @@ rx
 is
 (
 ry
+"
 30
+"
 "
 Ellipse
 highlighter
@@ -555,7 +567,9 @@ ry
 is
 (
 cx
+"
 25
+"
 "
 Ellipse
 highlighter
@@ -568,7 +582,9 @@ cx
 is
 (
 cy
+"
 30
+"
 "
 Ellipse
 highlighter
@@ -707,7 +723,9 @@ highlighterFront
 is
 (
 x
+"
 15
+"
 "
 Rect
 highlighter
@@ -720,7 +738,9 @@ x
 is
 (
 y
+"
 25
+"
 "
 Rect
 highlighter
@@ -733,9 +753,11 @@ y
 is
 (
 width
+"
 72
 .
 5
+"
 "
 Rect
 highlighter
@@ -748,7 +770,9 @@ width
 is
 (
 height
+"
 45
+"
 "
 Rect
 highlighter

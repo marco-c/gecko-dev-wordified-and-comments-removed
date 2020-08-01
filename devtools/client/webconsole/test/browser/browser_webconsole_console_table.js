@@ -2969,7 +2969,9 @@ else
 is
 (
 cell
+{
 expected
+}
 info
 )
 ;

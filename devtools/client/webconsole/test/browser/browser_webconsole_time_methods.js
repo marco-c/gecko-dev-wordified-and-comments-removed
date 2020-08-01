@@ -332,7 +332,7 @@ bTimer
 started
 "
 )
-null
+undefined
 "
 No
 message

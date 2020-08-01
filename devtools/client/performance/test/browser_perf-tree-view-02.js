@@ -589,7 +589,7 @@ url
 [
 0
 ]
-null
+undefined
 "
 The
 root
@@ -620,7 +620,7 @@ line
 [
 0
 ]
-null
+undefined
 "
 The
 root
@@ -651,7 +651,7 @@ host
 [
 0
 ]
-null
+undefined
 "
 The
 root
@@ -682,7 +682,7 @@ category
 [
 0
 ]
-null
+undefined
 "
 The
 root

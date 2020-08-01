@@ -263,7 +263,7 @@ findMessage
 hud
 CACHED_MESSAGE
 )
-null
+undefined
 "
 The
 cached
@@ -282,7 +282,7 @@ findMessage
 hud
 EXPECTED_REPORT
 )
-null
+undefined
 "
 The
 cached
@@ -434,7 +434,7 @@ findMessage
 hud
 NEW_CACHED_MESSAGE
 )
-null
+undefined
 "
 The
 new

@@ -94,7 +94,9 @@ span
 "
 value
 :
+"
 42
+"
 }
 {
 selector
@@ -113,7 +115,9 @@ span
 "
 value
 :
+"
 42
+"
 }
 {
 selector
@@ -132,7 +136,9 @@ span
 "
 value
 :
+"
 30
+"
 }
 {
 selector
@@ -172,7 +178,9 @@ span
 "
 value
 :
+"
 30
+"
 }
 {
 selector
@@ -212,7 +220,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -231,7 +241,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -250,7 +262,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -269,7 +283,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -288,7 +304,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -307,7 +325,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -326,7 +346,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -345,7 +367,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 ]
 ;
@@ -436,7 +460,9 @@ span
 "
 value
 :
+"
 50
+"
 }
 {
 selector
@@ -455,7 +481,9 @@ span
 "
 value
 :
+"
 42
+"
 }
 {
 selector
@@ -474,7 +502,9 @@ span
 "
 value
 :
+"
 30
+"
 }
 {
 selector
@@ -514,7 +544,9 @@ span
 "
 value
 :
+"
 30
+"
 }
 {
 selector
@@ -554,7 +586,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -573,7 +607,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -592,7 +628,9 @@ span
 "
 value
 :
+"
 20
+"
 }
 {
 selector
@@ -611,7 +649,9 @@ span
 "
 value
 :
+"
 50
+"
 }
 {
 selector
@@ -630,7 +670,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -649,7 +691,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -668,7 +712,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 {
 selector
@@ -687,7 +733,9 @@ span
 "
 value
 :
+"
 10
+"
 }
 ]
 ;

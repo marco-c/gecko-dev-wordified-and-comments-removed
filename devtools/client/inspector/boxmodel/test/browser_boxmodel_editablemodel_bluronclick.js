@@ -162,7 +162,9 @@ is
 span
 .
 textContent
+"
 10
+"
 "
 Should
 have
@@ -361,7 +363,9 @@ is
 span
 .
 textContent
+"
 10
+"
 "
 Should
 have

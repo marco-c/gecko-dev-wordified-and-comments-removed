@@ -241,7 +241,9 @@ is
 span
 .
 textContent
+"
 0
+"
 "
 Should
 have
@@ -510,7 +512,9 @@ is
 span
 .
 textContent
+"
 0
+"
 "
 Should
 have

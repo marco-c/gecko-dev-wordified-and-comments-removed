@@ -251,6 +251,11 @@ toFixed
 1
 )
 expected
+.
+toFixed
+(
+1
+)
 "
 zoom
 level
@@ -292,6 +297,11 @@ toFixed
 1
 )
 expected
+.
+toFixed
+(
+1
+)
 "
 saved
 zoom

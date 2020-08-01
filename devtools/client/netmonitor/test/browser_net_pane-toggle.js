@@ -175,7 +175,7 @@ getState
 (
 )
 )
-null
+undefined
 "
 There
 should
@@ -286,7 +286,7 @@ getState
 (
 )
 )
-null
+undefined
 "
 There
 should
@@ -412,7 +412,7 @@ getState
 (
 )
 )
-null
+undefined
 "
 There
 should
@@ -515,7 +515,7 @@ getState
 (
 )
 )
-null
+undefined
 "
 There
 should
