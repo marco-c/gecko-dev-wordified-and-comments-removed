@@ -66,6 +66,14 @@ taskgraph
 .
 util
 .
+backstop
+import
+is_backstop
+from
+taskgraph
+.
+util
+.
 bugbug
 import
 CT_LOW
@@ -1570,6 +1578,18 @@ get_manifests
 suite
 mozinfo
 )
+        
+if
+is_backstop
+(
+self
+.
+params
+)
+:
+            
+return
+manifests
         
 data
 =
