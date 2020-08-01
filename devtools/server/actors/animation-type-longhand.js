@@ -42,9 +42,6 @@ aspect
 ratio
 "
 "
--
-moz
--
 appearance
 "
 "

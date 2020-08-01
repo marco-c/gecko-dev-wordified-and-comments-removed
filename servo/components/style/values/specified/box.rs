@@ -9371,6 +9371,7 @@ enum
 Appearance
 {
 None
+Auto
 Button
 #
 [

@@ -3503,7 +3503,7 @@ properties
 longhands
 :
 :
-_moz_appearance
+appearance
 :
 :
 computed_value
@@ -3542,7 +3542,7 @@ get_box
 (
 )
 .
-clone__moz_appearance
+clone_appearance
 (
 )
 =
