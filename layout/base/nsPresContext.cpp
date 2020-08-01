@@ -11273,6 +11273,10 @@ mDynamicToolbarMaxHeight
 =
 aHeight
 ;
+mDynamicToolbarHeight
+=
+aHeight
+;
 AdjustSizeForViewportUnits
 (
 )
