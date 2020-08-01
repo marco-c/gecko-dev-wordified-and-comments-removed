@@ -2318,11 +2318,18 @@ TASKGRAPH_OPTIMIZE_STRATEGIES
 '
                                     
 parameters
+[
+'
+try_task_config
+'
+]
 .
 get
 (
 '
-optimize_strategies
+optimize
+-
+strategies
 '
 )
 )
