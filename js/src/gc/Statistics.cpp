@@ -4079,16 +4079,6 @@ json
 )
 const
 {
-json
-.
-property
-(
-"
-timestamp
-"
-0
-)
-;
 TimeDuration
 total
 longest
