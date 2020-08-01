@@ -708,6 +708,14 @@ test_method
 '
             
 '
+test_manifest_loader
+'
+:
+'
+default
+'
+            
+'
 try_mode
 '
 :

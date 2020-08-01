@@ -2278,8 +2278,12 @@ is
 None
 :
         
-has_target_kind
+missing_tests_allowed
 =
+any
+(
+(
+            
 parameters
 .
 get
@@ -2291,7 +2295,23 @@ kind
 '
 )
 is
+not
 None
+            
+parameters
+[
+'
+test_manifest_loader
+'
+]
+!
+=
+'
+default
+'
+        
+)
+)
         
 exceptions
 =
@@ -2505,7 +2525,8 @@ shippable
 :
                         
 if
-has_target_kind
+not
+missing_tests_allowed
 :
                             
 exceptions
