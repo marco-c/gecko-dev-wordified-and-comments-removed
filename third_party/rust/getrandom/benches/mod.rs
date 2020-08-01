@@ -8,11 +8,11 @@ test
 ]
 extern
 crate
-test
+getrandom
 ;
 extern
 crate
-getrandom
+test
 ;
 #
 [
