@@ -19,13 +19,14 @@ h
 "
 ;
 using
-cdm
-:
-:
-EncryptionScheme
+GMPEncryptionScheme
 from
 "
-content_decryption_module
+gmp
+-
+video
+-
+codec
 .
 h
 "
@@ -160,7 +161,7 @@ mCryptByteBlock
 uint8_t
 mSkipByteBlock
 ;
-EncryptionScheme
+GMPEncryptionScheme
 mEncryptionScheme
 ;
 }
@@ -188,7 +189,7 @@ uint8_t
 ]
 mExtraData
 ;
-EncryptionScheme
+GMPEncryptionScheme
 mEncryptionScheme
 ;
 }
