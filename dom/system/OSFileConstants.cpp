@@ -1603,7 +1603,7 @@ endif
 if
 defined
 (
-S_IFIFO
+XP_UNIX
 )
 INT_CONSTANT
 (
