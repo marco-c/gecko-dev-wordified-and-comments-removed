@@ -227,6 +227,17 @@ nsString
 aStr
 )
 ;
+nsReflowStatus
+ReflowPageContent
+(
+nsPresContext
+*
+const
+ReflowInput
+&
+aPageReflowInput
+)
+;
 void
 DrawHeaderFooter
 (
