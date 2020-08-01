@@ -163,6 +163,11 @@ AccessibleOrProxy
 aContainer
 )
 ;
+bool
+IsEditableRoot
+(
+)
+;
 }
 ;
 class
