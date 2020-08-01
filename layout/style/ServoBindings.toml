@@ -1071,6 +1071,12 @@ mozilla
 :
 StyleControlCharacterVisibility
 "
+"
+mozilla
+:
+:
+StyleWritingModeProperty
+"
 ]
 whitelist
 -

@@ -440,7 +440,10 @@ vis
 mWritingMode
 =
 =
-NS_STYLE_WRITING_MODE_VERTICAL_RL
+StyleWritingModeProperty
+:
+:
+VerticalRl
 |
 |
 vis
@@ -449,7 +452,10 @@ vis
 mWritingMode
 =
 =
-NS_STYLE_WRITING_MODE_VERTICAL_LR
+StyleWritingModeProperty
+:
+:
+VerticalLr
 )
 &
 &

@@ -4891,7 +4891,10 @@ mozilla
 StyleImageRendering
 mImageRendering
 ;
-uint8_t
+mozilla
+:
+:
+StyleWritingModeProperty
 mWritingMode
 ;
 mozilla

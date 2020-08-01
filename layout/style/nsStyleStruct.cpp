@@ -6616,7 +6616,10 @@ aOldStyleVisibility
 mWritingMode
 !
 =
-NS_STYLE_WRITING_MODE_HORIZONTAL_TB
+StyleWritingModeProperty
+:
+:
+HorizontalTb
 ;
 if
 (
@@ -14149,7 +14152,10 @@ Auto
 )
 mWritingMode
 (
-NS_STYLE_WRITING_MODE_HORIZONTAL_TB
+StyleWritingModeProperty
+:
+:
+HorizontalTb
 )
 mTextOrientation
 (
