@@ -437,6 +437,18 @@ display
 False
 )
         
+verbose
+=
+kw
+.
+pop
+(
+"
+verbose
+"
+False
+)
+        
 args
 =
 [
@@ -492,6 +504,42 @@ flush
 try
 :
             
+if
+verbose
+:
+                
+sys
+.
+stdout
+.
+write
+(
+"
+\
+nRunning
+%
+s
+\
+n
+"
+%
+"
+"
+.
+join
+(
+args
+)
+)
+                
+sys
+.
+stdout
+.
+flush
+(
+)
+            
 output
 =
 subprocess
@@ -510,8 +558,16 @@ if
 display
 :
                 
-print
+sys
+.
+stdout
+.
+write
 (
+"
+\
+n
+"
 )
                 
 for
@@ -529,7 +585,11 @@ n
 )
 :
                     
-print
+sys
+.
+stdout
+.
+write
 (
 line
 .
@@ -539,6 +599,11 @@ decode
 utf8
 "
 )
++
+"
+\
+n
+"
 )
             
 sys
@@ -592,7 +657,11 @@ n
 )
 :
                 
-print
+sys
+.
+stdout
+.
+write
 (
 line
 .
@@ -602,6 +671,11 @@ decode
 utf8
 "
 )
++
+"
+\
+n
+"
 )
             
 sys
@@ -794,6 +868,18 @@ get
 (
 "
 skip_linters
+"
+False
+)
+        
+verbose
+=
+kwargs
+.
+get
+(
+"
+verbose
 "
 False
 )
@@ -1189,6 +1275,7 @@ self
 .
 _run_python_script
 (
+                
 "
 coverage
 "
@@ -1200,6 +1287,10 @@ label
 running
 tests
 "
+verbose
+=
+verbose
+            
 )
             
 if

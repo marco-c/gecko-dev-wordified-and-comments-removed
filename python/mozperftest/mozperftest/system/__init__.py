@@ -28,6 +28,14 @@ system
 profile
 import
 Profile
+from
+mozperftest
+.
+system
+.
+macos
+import
+MacosDevice
 def
 get_layers
 (
@@ -38,6 +46,7 @@ return
 Profile
 ProxyRunner
 AndroidDevice
+MacosDevice
 def
 pick_system
 (
@@ -68,6 +77,7 @@ Layers
 env
 mach_cmd
 (
+MacosDevice
 Profile
 ProxyRunner
 )
