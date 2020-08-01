@@ -336,12 +336,6 @@ mLastProducerID
 -
 1
 ;
-CompositionOpportunityId
-mLastChooseImageIndexComposition
-;
-CompositionOpportunityId
-mLastFrameUpdateComposition
-;
 private
 :
 nsTArray
@@ -401,6 +395,12 @@ uint32_t
 mDroppedFrames
 =
 0
+;
+CompositionOpportunityId
+mLastChooseImageIndexComposition
+;
+CompositionOpportunityId
+mLastFrameUpdateComposition
 ;
 }
 ;
