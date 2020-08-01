@@ -90,6 +90,12 @@ clients
 \
 libunwind8
 \
+libxcb
+-
+shape0
+-
+dev
+\
 locales
 \
 openjdk
