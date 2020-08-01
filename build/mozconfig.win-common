@@ -62,14 +62,6 @@ TOOLTOOL_DIR
 topsrcdir
 }
 export
-MAKECAB
-=
-TOOLTOOL_DIR
-/
-makecab
-.
-exe
-export
 DUMP_SYMS
 =
 "

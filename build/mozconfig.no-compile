@@ -65,8 +65,6 @@ RUSTFMT
 unset
 CBINDGEN
 unset
-MAKECAB
-unset
 DUMP_SYMS
 unset
 TOOLCHAIN_PREFIX

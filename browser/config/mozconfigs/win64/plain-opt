@@ -4,14 +4,6 @@ TOOLTOOL_DIR
 topsrcdir
 }
 export
-MAKECAB
-=
-TOOLTOOL_DIR
-/
-makecab
-.
-exe
-export
 LLVM_CONFIG
 =
 "
