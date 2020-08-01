@@ -252,13 +252,6 @@ listener
 bool
 CreatePipe
 (
-const
-std
-:
-:
-wstring
-&
-channel_id
 Mode
 mode
 )
@@ -376,12 +369,6 @@ pipe_
 ;
 int
 client_pipe_
-;
-std
-:
-:
-string
-pipe_name_
 ;
 Listener
 *
