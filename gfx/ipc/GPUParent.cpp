@@ -2402,6 +2402,8 @@ MaybeResetAndReacquireDevices
 (
 )
 ;
+#
+endif
 if
 (
 gfxVars
@@ -2428,8 +2430,6 @@ SimulateDeviceReset
 )
 ;
 }
-#
-endif
 RecvGetDeviceStatus
 (
 aOut
