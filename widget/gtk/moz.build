@@ -191,6 +191,11 @@ nsLookAndFeel
 cpp
 '
 '
+nsNativeBasicThemeGTK
+.
+cpp
+'
+'
 nsNativeThemeGTK
 .
 cpp
@@ -577,6 +582,12 @@ LOCAL_INCLUDES
 layout
 /
 base
+'
+'
+/
+layout
+/
+forms
 '
 '
 /
