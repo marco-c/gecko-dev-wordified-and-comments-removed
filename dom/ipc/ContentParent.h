@@ -2597,6 +2597,11 @@ AboutToLoadHttpFtpDocumentForChild
 nsIChannel
 *
 aChannel
+bool
+*
+aShouldWaitForPermissionCookieUpdate
+=
+nullptr
 )
 ;
 void
