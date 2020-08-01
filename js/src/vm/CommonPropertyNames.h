@@ -4062,6 +4062,15 @@ UnsafeGetBooleanFromReservedSlot
 \
 MACRO
 (
+UnsafeSetReservedSlot
+UnsafeSetReservedSlot
+"
+UnsafeSetReservedSlot
+"
+)
+\
+MACRO
+(
 unsized
 unsized
 "

@@ -3477,6 +3477,15 @@ BinaryNode
 callNode
 )
 ;
+MOZ_MUST_USE
+bool
+checkSelfHostedUnsafeSetReservedSlot
+(
+BinaryNode
+*
+callNode
+)
+;
 #
 endif
 MOZ_MUST_USE
