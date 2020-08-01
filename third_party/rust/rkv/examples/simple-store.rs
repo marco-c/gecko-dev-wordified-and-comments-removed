@@ -14,6 +14,7 @@ use
 rkv
 :
 :
+{
 backend
 :
 :
@@ -24,12 +25,6 @@ LmdbDatabase
 LmdbEnvironment
 LmdbRwTransaction
 }
-;
-use
-rkv
-:
-:
-{
 Manager
 Rkv
 StoreOptions
@@ -169,10 +164,6 @@ s
 )
 =
 val
-.
-unwrap
-(
-)
 {
 ids
 .
