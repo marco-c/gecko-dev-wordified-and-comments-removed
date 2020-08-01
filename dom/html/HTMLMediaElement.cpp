@@ -20668,6 +20668,10 @@ UpdateSrcMediaStreamPlaying
 (
 )
 ;
+StartMediaControlKeyListenerIfNeeded
+(
+)
+;
 mIsBlessed
 |
 =
@@ -28867,6 +28871,10 @@ UpdateSrcMediaStreamPlaying
 )
 ;
 UpdateAudioChannelPlayingState
+(
+)
+;
+StartMediaControlKeyListenerIfNeeded
 (
 )
 ;
