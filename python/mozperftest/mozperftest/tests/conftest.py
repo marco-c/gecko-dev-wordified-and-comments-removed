@@ -24,7 +24,6 @@ tests
 support
 import
 get_running_env
-temp_dir
 HERE
 from
 mozperftest
@@ -36,6 +35,12 @@ notebook
 perftestnotebook
 import
 PerftestNotebook
+from
+mozperftest
+.
+utils
+import
+temp_dir
 pytest
 .
 fixture

@@ -49,13 +49,17 @@ mach_cmd
     
 if
 flavor
-=
-=
+in
+(
 "
 desktop
 -
 browser
 "
+"
+xpcshell
+"
+)
 :
         
 return

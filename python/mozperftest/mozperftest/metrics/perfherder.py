@@ -827,6 +827,17 @@ get
 value
 "
 )
+                
+framework
+=
+settings
+.
+get
+(
+"
+framework
+"
+)
             
 )
             

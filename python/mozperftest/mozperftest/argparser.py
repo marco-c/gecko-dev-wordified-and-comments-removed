@@ -91,7 +91,6 @@ import
 convert_day
 FLAVORS
 =
-[
 "
 desktop
 -
@@ -105,7 +104,9 @@ browser
 "
 doc
 "
-]
+"
+xpcshell
+"
 class
 Options
 :

@@ -39,6 +39,12 @@ mozperftest
 hooks
 import
 Hooks
+from
+mozperftest
+.
+argparser
+import
+FLAVORS
 SYSTEM
 TEST
 METRICS
@@ -129,18 +135,7 @@ if
 flavor
 not
 in
-(
-"
-mobile
--
-browser
-"
-"
-desktop
--
-browser
-"
-)
+FLAVORS
 :
             
 raise

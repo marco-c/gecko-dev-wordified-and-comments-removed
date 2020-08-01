@@ -9,6 +9,12 @@ collections
 import
 OrderedDict
 from
+mozperftest
+.
+utils
+import
+load_class
+from
 .
 transformer
 import
@@ -206,6 +212,20 @@ if
 custom_transform
 :
             
+try
+:
+                
+tfm_cls
+=
+load_class
+(
+custom_transform
+)
+            
+except
+ImportError
+:
+                
 tfm_cls
 =
 tfms_dict
