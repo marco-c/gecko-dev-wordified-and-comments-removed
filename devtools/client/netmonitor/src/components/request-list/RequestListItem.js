@@ -861,6 +861,9 @@ responseHeaders
 "
 waitingTime
 "
+"
+isEventStream
+"
 ]
 ;
 const

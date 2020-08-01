@@ -504,13 +504,8 @@ channelType
 =
 CHANNEL_TYPE
 .
-EVENT_STREAM
+WEB_SOCKET
 ?
-{
-totalSizeText
-}
-total
-:
 L10N
 .
 getFormatStr
@@ -530,6 +525,11 @@ totalSizeText
 sentSizeText
 receivedText
 )
+:
+{
+totalSizeText
+}
+total
 ;
 return
 footer
