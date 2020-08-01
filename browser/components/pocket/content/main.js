@@ -2503,14 +2503,6 @@ nodePrincipal
 !
 nodePrincipal
 .
-URI
-|
-|
-!
-nodePrincipal
-.
-URI
-.
 spec
 .
 startsWith

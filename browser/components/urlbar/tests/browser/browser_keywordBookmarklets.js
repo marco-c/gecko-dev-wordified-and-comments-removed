@@ -765,8 +765,6 @@ document
 .
 nodePrincipal
 .
-URI
-.
 spec
 ;
 }

@@ -251,7 +251,7 @@ name
 extensionPolicy
 ;
 const
-reportedURI
+reportedURIorPrincipal
 =
 isSystemPrincipalWindow
 (
@@ -276,8 +276,6 @@ window
 document
 .
 nodePrincipal
-.
-URI
 ;
 const
 error
@@ -318,7 +316,7 @@ allowed
 to
 access
 {
-reportedURI
+reportedURIorPrincipal
 .
 spec
 }

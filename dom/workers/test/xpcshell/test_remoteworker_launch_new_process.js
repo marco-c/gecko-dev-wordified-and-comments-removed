@@ -467,8 +467,6 @@ swRegInfoWeb
 .
 principal
 .
-URI
-.
 spec
 scope
 :
@@ -564,8 +562,6 @@ principal
 swRegInfoPriv
 .
 principal
-.
-URI
 .
 spec
 scope

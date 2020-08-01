@@ -158,8 +158,6 @@ sourceURL
 =
 triggeringPrincipal
 .
-URI
-.
 spec
 ;
 sourceHost

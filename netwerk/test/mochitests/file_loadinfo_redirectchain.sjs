@@ -211,8 +211,6 @@ i
 .
 principal
 .
-URI
-.
 spec
 )
 ;
@@ -247,8 +245,6 @@ i
 ]
 .
 principal
-.
-URI
 .
 spec
 )

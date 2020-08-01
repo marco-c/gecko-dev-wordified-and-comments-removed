@@ -94,8 +94,6 @@ withNewTab
 (
 principal
 .
-URI
-.
 spec
 async
 function

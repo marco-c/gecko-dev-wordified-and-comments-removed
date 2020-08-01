@@ -303,8 +303,6 @@ isNullPrincipal
 |
 contentPrincipal
 .
-URI
-.
 spec
 =
 =
@@ -420,8 +418,6 @@ from
 "
 +
 aPrincipal
-.
-URI
 .
 spec
 ;
