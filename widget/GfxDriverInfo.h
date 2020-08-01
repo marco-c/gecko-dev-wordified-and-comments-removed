@@ -889,6 +889,8 @@ Unity
 Pantheon
 LXQT
 Deepin
+Dwm
+Budgie
 Unknown
 Max
 }
@@ -901,9 +903,11 @@ uint8_t
 {
 All
 X11
+XWayland
 Wayland
 WaylandDRM
 WaylandAll
+X11All
 Max
 }
 ;

@@ -500,6 +500,9 @@ mIsWayland
 bool
 mIsWaylandDRM
 ;
+bool
+mIsXWayland
+;
 void
 AddCrashReportAnnotations
 (
