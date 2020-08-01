@@ -3387,9 +3387,6 @@ _addingHeuristicResult
 =
 true
 ;
-let
-hasHeuristic
-=
 await
 this
 .
@@ -3417,7 +3414,9 @@ return
 }
 if
 (
-hasHeuristic
+this
+.
+_trimmedOriginalSearchString
 )
 {
 await
