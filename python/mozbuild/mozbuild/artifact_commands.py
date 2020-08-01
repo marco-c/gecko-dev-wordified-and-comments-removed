@@ -756,6 +756,9 @@ download_maven_zip
 no_process
 =
 no_process
+mozbuild
+=
+self
 )
         
 return
