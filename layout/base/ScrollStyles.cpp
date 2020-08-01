@@ -10,15 +10,6 @@ h
 #
 include
 "
-mozilla
-/
-WritingModes
-.
-h
-"
-#
-include
-"
 nsStyleStruct
 .
 h
