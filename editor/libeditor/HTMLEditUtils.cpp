@@ -2566,10 +2566,10 @@ GROUP_NONE
 ELEM
 (
 listing
-false
-false
-GROUP_NONE
-GROUP_NONE
+true
+true
+GROUP_BLOCK
+GROUP_INLINE_ELEMENT
 )
 ELEM
 (
@@ -3108,9 +3108,9 @@ GROUP_NONE
 ELEM
 (
 xmp
+true
 false
-false
-GROUP_NONE
+GROUP_BLOCK
 GROUP_NONE
 )
 ELEM
