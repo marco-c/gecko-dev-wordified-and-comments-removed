@@ -78,6 +78,11 @@ TestAUSReadStrings3
 .
 ini
 "
+"
+TestAUSReadStrings4
+.
+ini
+"
 ]
 ;
 for

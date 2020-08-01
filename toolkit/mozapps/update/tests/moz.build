@@ -537,6 +537,11 @@ TestAUSReadStrings3
 .
 ini
 '
+'
+TestAUSReadStrings4
+.
+ini
+'
 ]
 FINAL_TARGET_PP_FILES
 +

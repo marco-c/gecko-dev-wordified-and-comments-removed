@@ -368,6 +368,10 @@ sWin
 sStrings
 .
 title
+.
+get
+(
+)
 )
 ;
 gtk_window_set_type_hint
@@ -446,6 +450,10 @@ gtk_label_new
 sStrings
 .
 info
+.
+get
+(
+)
 )
 ;
 gtk_misc_set_alignment
