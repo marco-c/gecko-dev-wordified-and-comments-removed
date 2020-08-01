@@ -2875,7 +2875,7 @@ nsTArray_RelocateUsingMemutils
 define
 MOZ_DECLARE_RELOCATE_USING_MOVE_CONSTRUCTOR
 (
-T
+E
 )
 \
 template
@@ -2885,7 +2885,7 @@ template
 struct
 nsTArray_RelocationStrategy
 <
-T
+E
 >
 {
 \
@@ -2894,7 +2894,7 @@ Type
 =
 nsTArray_RelocateUsingMoveConstructor
 <
-T
+E
 >
 ;
 \
@@ -14308,7 +14308,7 @@ aTArray
 template
 <
 typename
-T
+E
 typename
 ArrayT
 >
@@ -14358,7 +14358,7 @@ operator
 =
 (
 const
-T
+E
 &
 aValue
 )
@@ -14381,7 +14381,7 @@ nsTArrayBackInserter
 operator
 =
 (
-T
+E
 &
 &
 aValue
@@ -14450,14 +14450,14 @@ this
 template
 <
 typename
-T
+E
 >
 auto
 MakeBackInserter
 (
 nsTArray
 <
-T
+E
 >
 &
 aArray
@@ -14466,10 +14466,10 @@ aArray
 return
 nsTArrayBackInserter
 <
-T
+E
 nsTArray
 <
-T
+E
 >
 >
 {
@@ -14528,7 +14528,7 @@ E
 template
 <
 typename
-T
+E
 >
 class
 nsTArrayView
@@ -14538,7 +14538,7 @@ public
 using
 element_type
 =
-T
+E
 ;
 using
 pointer
@@ -14558,7 +14558,7 @@ index_type
 typename
 Span
 <
-T
+element_type
 >
 :
 :
@@ -14570,7 +14570,7 @@ size_type
 typename
 Span
 <
-T
+element_type
 >
 :
 :
@@ -14581,7 +14581,7 @@ nsTArrayView
 (
 nsTArray
 <
-T
+element_type
 >
 aArray
 )
@@ -14602,7 +14602,7 @@ mArray
 )
 {
 }
-T
+element_type
 &
 operator
 [
@@ -14620,7 +14620,7 @@ aIndex
 ;
 }
 const
-T
+element_type
 &
 operator
 [
@@ -14736,7 +14736,7 @@ cend
 }
 Span
 <
-T
+element_type
 >
 AsSpan
 (
@@ -14749,7 +14749,7 @@ mSpan
 Span
 <
 const
-T
+element_type
 >
 AsSpan
 (
@@ -14764,14 +14764,14 @@ private
 :
 nsTArray
 <
-T
+element_type
 >
 mArray
 ;
 const
 Span
 <
-T
+element_type
 >
 mSpan
 ;
