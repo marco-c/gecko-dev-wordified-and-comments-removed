@@ -123,6 +123,16 @@ TestNoExplicitMoveConstructor
 cpp
 '
 '
+TestNoLocaleSpecificChecker
+.
+cpp
+'
+'
+TestNoLocaleSpecificChecker2
+.
+cpp
+'
+'
 TestNoNewThreadsChecker
 .
 cpp

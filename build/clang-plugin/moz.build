@@ -122,6 +122,11 @@ NoExplicitMoveConstructorChecker
 cpp
 '
 '
+NoLocaleSpecificChecker
+.
+cpp
+'
+'
 NoNewThreadsChecker
 .
 cpp
