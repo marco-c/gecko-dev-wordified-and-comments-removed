@@ -65,7 +65,7 @@ setupPolicyEngineWithJson
 policies
 :
 {
-PrimaryPassword
+MasterPassword
 :
 true
 }
