@@ -9200,6 +9200,9 @@ Display
 NotifyVsync
 (
 vsync
+vsync
++
+mVsyncRate
 )
 ;
 if

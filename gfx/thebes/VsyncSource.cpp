@@ -405,8 +405,14 @@ Display
 :
 NotifyVsync
 (
+const
 TimeStamp
+&
 aVsyncTimestamp
+const
+TimeStamp
+&
+aOutputTimestamp
 )
 {
 MutexAutoLock
@@ -448,6 +454,7 @@ event
 (
 mVsyncId
 aVsyncTimestamp
+aOutputTimestamp
 )
 ;
 for
