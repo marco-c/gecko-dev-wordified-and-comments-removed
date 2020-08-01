@@ -149,6 +149,12 @@ next_version
 '
         
 '
+optimize_strategies
+'
+:
+None
+        
+'
 optimize_target_tasks
 '
 :
