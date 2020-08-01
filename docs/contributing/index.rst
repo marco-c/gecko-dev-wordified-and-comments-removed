@@ -56,6 +56,13 @@ maxdepth
 :
 1
 contribution_quickref
+pocket
+-
+guide
+-
+shipping
+-
+firefox
 editor
 reviews
 .
