@@ -270,8 +270,6 @@ MozContainer
 container
 bool
 aSubtractCorners
-bool
-aFullScreen
 )
 ;
 gboolean

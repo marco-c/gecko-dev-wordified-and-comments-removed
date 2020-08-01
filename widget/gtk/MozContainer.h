@@ -121,6 +121,10 @@ MOZ_CONTAINER_TYPE
 MozContainerClass
 )
 )
+#
+define
+TITLEBAR_SHAPE_MASK_HEIGHT
+10
 typedef
 struct
 _MozContainer
