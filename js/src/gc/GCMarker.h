@@ -1283,6 +1283,17 @@ JSObject
 delegate
 )
 ;
+void
+restoreWeakDelegate
+(
+JSObject
+*
+key
+JSObject
+*
+delegate
+)
+;
 bool
 isDrained
 (

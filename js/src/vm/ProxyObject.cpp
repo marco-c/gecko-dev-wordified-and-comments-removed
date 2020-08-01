@@ -1503,7 +1503,7 @@ zone
 )
 -
 >
-delegatePreWriteBarrier
+beforeClearDelegate
 (
 this
 delegate
