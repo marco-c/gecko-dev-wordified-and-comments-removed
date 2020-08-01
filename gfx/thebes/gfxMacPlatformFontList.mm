@@ -3809,15 +3809,6 @@ mUseSizeSensitiveSystemFont
 false
 )
 {
-CheckFamilyList
-(
-kBaseFonts
-ArrayLength
-(
-kBaseFonts
-)
-)
-;
 #
 ifdef
 MOZ_BUNDLED_FONTS
