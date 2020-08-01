@@ -783,22 +783,6 @@ sha
 )
 )
     
-tag
-=
-tag
-.
-strip
-(
-)
-    
-sha
-=
-sha
-.
-strip
-(
-)
-    
 create_url
 =
 "
@@ -1356,6 +1340,10 @@ parse
 "
 HEAD
 "
+)
+.
+strip
+(
 )
     
 body
