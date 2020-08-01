@@ -5,6 +5,10 @@ os
 import
 re
 from
+collections
+import
+OrderedDict
+from
 copy
 import
 deepcopy
@@ -909,8 +913,9 @@ tasks_data
     
 map_resolved_tasks
 =
-{
-}
+OrderedDict
+(
+)
     
 tasks
 =
@@ -1126,20 +1131,24 @@ tasks
 ]
     
 return
-{
-task
+OrderedDict
+(
+[
+(
+t
 [
 "
 name
 "
 ]
-:
-task
+t
+)
 for
-task
+t
 in
 tasks
-}
+]
+)
 def
 load_tasks_from_path
 (
