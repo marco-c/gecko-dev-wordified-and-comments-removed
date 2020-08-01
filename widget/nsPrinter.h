@@ -65,6 +65,11 @@ nsIPaper
 >
 &
 aPaperList
+const
+bool
+aSupportsDuplex
+=
+false
 )
 ;
 private
@@ -87,6 +92,11 @@ nsIPaper
 >
 >
 mPaperList
+;
+bool
+mSupportsDuplex
+=
+false
 ;
 }
 ;

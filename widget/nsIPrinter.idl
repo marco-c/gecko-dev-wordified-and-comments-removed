@@ -45,5 +45,10 @@ nsIPaper
 >
 paperList
 ;
+readonly
+attribute
+boolean
+supportsDuplex
+;
 }
 ;
