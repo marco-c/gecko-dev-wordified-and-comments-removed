@@ -30880,14 +30880,6 @@ ZealMode
 :
 IncrementalMultipleSlices
 )
-Call
-(
-&
-GCRuntime
-:
-:
-markDuringSweeping
-)
 MaybeYield
 (
 ZealMode
