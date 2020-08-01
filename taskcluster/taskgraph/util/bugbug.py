@@ -28,6 +28,23 @@ util
 taskcluster
 import
 requests_retry_session
+try
+:
+    
+from
+time
+import
+monotonic
+except
+ImportError
+:
+    
+from
+time
+import
+time
+as
+monotonic
 BUGBUG_BASE_URL
 =
 "
@@ -359,9 +376,7 @@ rev
     
 start
 =
-time
-.
-clock
+monotonic
 (
 )
     
@@ -427,9 +442,7 @@ i
     
 end
 =
-time
-.
-clock
+monotonic
 (
 )
     
