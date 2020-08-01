@@ -47,15 +47,6 @@ type
 "
 SHOW_FIREFOX_ACCOUNTS
 "
-data
-:
-{
-entrypoint
-:
-"
-snippets
-"
-}
 }
 )
 ;
@@ -99,6 +90,8 @@ with
 endpoint
 =
 snippets
+by
+default
 "
 )
 ;
