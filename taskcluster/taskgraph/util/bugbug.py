@@ -60,7 +60,7 @@ com
 "
 RETRY_TIMEOUT
 =
-8
+9
 *
 60
 RETRY_INTERVAL
@@ -400,9 +400,14 @@ try
 :
         
 timeout
-*
++
 =
-2
+int
+(
+timeout
+/
+3
+)
     
 attempts
 =
