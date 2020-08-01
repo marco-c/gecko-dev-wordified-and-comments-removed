@@ -1,3 +1,5 @@
+import
+attr
 from
 .
 .
@@ -141,21 +143,12 @@ Issue
                 
 d
 =
-{
-s
-:
-getattr
+attr
+.
+asdict
 (
 err
-s
 )
-for
-s
-in
-err
-.
-__slots__
-}
                 
 d
 [
