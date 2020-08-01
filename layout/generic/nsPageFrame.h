@@ -134,6 +134,17 @@ nsSharedPageData
 aPD
 )
 ;
+nsSharedPageData
+*
+GetSharedPageData
+(
+)
+const
+{
+return
+mPD
+;
+}
 bool
 HonorPrintBackgroundSettings
 (
