@@ -7531,6 +7531,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachStringFromCodePoint
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathRandom
 (
 HandleFunction
