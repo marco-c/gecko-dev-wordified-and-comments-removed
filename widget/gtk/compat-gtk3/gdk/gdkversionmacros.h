@@ -7,7 +7,7 @@ GDKVERSIONMACROS_WRAPPER_H
 #
 define
 GDK_VERSION_MIN_REQUIRED
-GDK_VERSION_3_0
+GDK_VERSION_3_14
 #
 include_next
 <
@@ -17,14 +17,6 @@ gdkversionmacros
 .
 h
 >
-#
-ifndef
-GDK_AVAILABLE_IN_ALL
-#
-define
-GDK_AVAILABLE_IN_ALL
-#
-endif
 #
 undef
 GDK_DEPRECATED

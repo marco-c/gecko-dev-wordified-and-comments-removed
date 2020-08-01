@@ -2108,6 +2108,10 @@ gtk_window_set_modal
 )
 STUB
 (
+gdk_window_set_opaque_region
+)
+STUB
+(
 gtk_window_set_skip_taskbar_hint
 )
 STUB
