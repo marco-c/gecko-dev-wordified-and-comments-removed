@@ -4146,16 +4146,6 @@ Register
 rn
 )
 {
-VIXL_ASSERT
-(
-!
-rn
-.
-IsZero
-(
-)
-)
-;
 SingleEmissionCheckScope
 guard
 (
