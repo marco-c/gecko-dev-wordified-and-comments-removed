@@ -46,12 +46,26 @@ WebDriverException
 self
 )
         
+if
+http_status
+is
+not
+None
+:
+            
 self
 .
 http_status
 =
 http_status
         
+if
+status_code
+is
+not
+None
+:
+            
 self
 .
 status_code
