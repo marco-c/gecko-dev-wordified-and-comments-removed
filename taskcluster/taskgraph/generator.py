@@ -2387,6 +2387,10 @@ optimized_task_graph
 label_to_taskid
 parameters
 graph_config
+            
+self
+.
+_decision_task_id
 )
         
 yield
