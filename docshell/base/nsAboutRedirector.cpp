@@ -574,7 +574,7 @@ content
 /
 mozilla
 .
-xhtml
+html
 "
 nsIAboutModule
 :

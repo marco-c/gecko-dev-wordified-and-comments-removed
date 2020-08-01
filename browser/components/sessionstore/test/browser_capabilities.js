@@ -487,7 +487,7 @@ gBrowser
 "
 about
 :
-mozilla
+rights
 "
 )
 ;
