@@ -1239,14 +1239,6 @@ aEvent
 )
 ;
 void
-OnVisibilityNotifyEvent
-(
-GdkEventVisibility
-*
-aEvent
-)
-;
-void
 OnWindowStateEvent
 (
 GtkWidget
@@ -2630,9 +2622,6 @@ mCompositorWidgetDelegate
 ;
 uint32_t
 mHasMappedToplevel
-:
-1
-mIsFullyObscured
 :
 1
 mRetryPointerGrab
