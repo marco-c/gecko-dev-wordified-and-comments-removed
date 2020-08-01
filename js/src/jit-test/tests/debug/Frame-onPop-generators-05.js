@@ -115,7 +115,7 @@ throw
 .
 class
 "
-Error
+TypeError
 "
 )
 ;

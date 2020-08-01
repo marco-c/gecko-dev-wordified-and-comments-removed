@@ -546,7 +546,7 @@ new
 TypeError
 )
 "
-Error
+TypeError
 "
 )
 ;
