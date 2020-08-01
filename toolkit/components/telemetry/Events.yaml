@@ -2768,6 +2768,7 @@ bug_numbers
 :
 [
 1606903
+1649948
 ]
 notification_emails
 :
@@ -2786,7 +2787,7 @@ com
 expiry_version
 :
 "
-81
+88
 "
 products
 :
