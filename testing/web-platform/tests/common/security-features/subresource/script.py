@@ -1,6 +1,12 @@
 import
 os
 sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -20,7 +26,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -38,6 +47,7 @@ subresource
 .
 get_template
 (
+u
 "
 script
 .
@@ -70,6 +80,7 @@ generate_payload
                         
 content_type
 =
+b
 "
 application
 /

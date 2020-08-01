@@ -2,6 +2,12 @@ import
 os
 sys
 base64
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -21,7 +27,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -38,6 +47,7 @@ server_data
 data
 =
 (
+u
 '
 {
 "
@@ -56,6 +66,7 @@ s
 server_data
     
 if
+b
 "
 id
 "
@@ -77,6 +88,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -89,14 +101,17 @@ base64
 .
 decodestring
 (
+b
 "
 AAEAAAANAIAAAwBQRkZUTU6u6MkAAAXcAAAAHE9TLzJWYW
 "
                                
+b
 "
 QKAAABWAAAAFZjbWFwAA8D7wAAAcAAAAFCY3Z0IAAhAnkA
 "
                                
+b
 "
 AAMEAAAABGdhc3D
 /
@@ -104,57 +119,69 @@ AAMEAAAABGdhc3D
 wADAAAF1AAAAAhnbHlmCC6aTwAAAx
 "
                                
+b
 "
 QAAACMaGVhZO8ooBcAAADcAAAANmhoZWEIkAV9AAABFAAA
 "
                                
+b
 "
 ACRobXR4EZQAhQAAAbAAAAAQbG9jYQBwAFQAAAMIAAAACm
 "
                                
+b
 "
 1heHAASQA9AAABOAAAACBuYW1lehAVOgAAA6AAAAIHcG9z
 "
                                
+b
 "
 dP
 +
 uADUAAAWoAAAAKgABAAAAAQAAMhPyuV8PPPUACwPoAA
 "
                                
+b
 "
 AAAMU4Lm0AAAAAxTgubQAh
 /
 5wFeAK8AAAACAACAAAAAAAA
 "
                                
+b
 "
 AAEAAAK8
 /
 5wAWgXcAAAAAAV4AAEAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AEAAEAAAAEAAwAAwAAAAAAAgAAAAEAAQAAAEAALgAAAAAA
 "
                                
+b
 "
 AQXcAfQABQAAAooCvAAAAIwCigK8AAAB4AAxAQIAAAIABg
 "
                                
+b
 "
 kAAAAAAAAAAAABAAAAAAAAAAAAAAAAUGZFZABAAEEAQQMg
 "
                                
+b
 "
 /
 zgAWgK8AGQAAAABAAAAAAAABdwAIQAAAAAF3AAABdwAZA
 "
                                
+b
 "
 AAAAMAAAADAAAAHAABAAAAAAA8AAMAAQAAABwABAAgAAAA
 "
                                
+b
 "
 BAAEAAEAAABB
 /
@@ -167,52 +194,64 @@ BAAEAAEAAABB
 wgABAAAAAAAAAQYAAAEAAA
 "
                                
+b
 "
 AAAAAAAQIAAAACAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAwAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
 "
                                
+b
 "
 AAAAAAAAAAAAAAAAAAAhAnkAAAAqACoAKgBGAAAAAgAhAA
 "
                                
+b
 "
 ABKgKaAAMABwAusQEALzyyBwQA7TKxBgXcPLIDAgDtMgCx
 "
                                
+b
 "
 AwAvPLIFBADtMrIHBgH8PLIBAgDtMjMRIREnMxEjIQEJ6M
 "
                                
+b
 "
 fHApr9ZiECWAAAAwBk
 /
 5wFeAK8AAMABwALAAABNSEVATUh
 "
                                
+b
 "
 FQE1IRUB9AH0
 /
@@ -221,72 +260,89 @@ UQDhPu0BRQB9MjI
 tTIyP7UyMgAAAAAAA
 "
                                
+b
 "
 4ArgABAAAAAAAAACYATgABAAAAAAABAAUAgQABAAAAAAAC
 "
                                
+b
 "
 AAYAlQABAAAAAAADACEA4AABAAAAAAAEAAUBDgABAAAAAA
 "
                                
+b
 "
 AFABABNgABAAAAAAAGAAUBUwADAAEECQAAAEwAAAADAAEE
 "
                                
+b
 "
 CQABAAoAdQADAAEECQACAAwAhwADAAEECQADAEIAnAADAA
 "
                                
+b
 "
 EECQAEAAoBAgADAAEECQAFACABFAADAAEECQAGAAoBRwBD
 "
                                
+b
 "
 AG8AcAB5AHIAaQBnAGgAdAAgACgAYwApACAAMgAwADAAOA
 "
                                
+b
 "
 AgAE0AbwB6AGkAbABsAGEAIABDAG8AcgBwAG8AcgBhAHQA
 "
                                
+b
 "
 aQBvAG4AAENvcHlyaWdodCAoYykgMjAwOCBNb3ppbGxhIE
 "
                                
+b
 "
 NvcnBvcmF0aW9uAABNAGEAcgBrAEEAAE1hcmtBAABNAGUA
 "
                                
+b
 "
 ZABpAHUAbQAATWVkaXVtAABGAG8AbgB0AEYAbwByAGcAZQ
 "
                                
+b
 "
 AgADIALgAwACAAOgAgAE0AYQByAGsAQQAgADoAIAA1AC0A
 "
                                
+b
 "
 MQAxAC0AMgAwADAAOAAARm9udEZvcmdlIDIuMCA6IE1hcm
 "
                                
+b
 "
 tBIDogNS0xMS0yMDA4AABNAGEAcgBrAEEAAE1hcmtBAABW
 "
                                
+b
 "
 AGUAcgBzAGkAbwBuACAAMAAwADEALgAwADAAMAAgAABWZX
 "
                                
+b
 "
 JzaW9uIDAwMS4wMDAgAABNAGEAcgBrAEEAAE1hcmtBAAAA
 "
                                
+b
 "
 AgAAAAAAAP
 +
 DADIAAAABAAAAAAAAAAAAAAAAAAAAAAAEAA
 "
                                
+b
 "
 AAAQACACQAAAAAAAH
 /
@@ -294,13 +350,13 @@ AAAQACACQAAAAAAAH
 wACAAAAAQAAAADEPovuAAAAAMU4
 "
                                
+b
 "
 Lm0AAAAAxTgubQ
 =
 =
 "
 )
-;
 def
 generate_report_headers_payload
 (
@@ -323,6 +379,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -352,6 +409,7 @@ data
     
 content_type
 =
+b
 '
 application
 /
@@ -363,6 +421,7 @@ truetype
 '
     
 if
+b
 "
 report
 -
@@ -387,6 +446,7 @@ data
         
 content_type
 =
+b
 '
 application
 /
@@ -411,6 +471,7 @@ content_type
                         
 access_control_allow_origin
 =
+b
 "
 *
 "

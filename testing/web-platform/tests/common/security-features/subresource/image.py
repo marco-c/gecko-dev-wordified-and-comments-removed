@@ -3,7 +3,18 @@ os
 sys
 array
 math
-StringIO
+from
+six
+import
+BytesIO
+import
+subresource
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -23,12 +34,13 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
 )
 )
 )
-import
-subresource
+)
 class
 Image
 :
@@ -305,19 +317,24 @@ width
 self
 .
 height
-;
         
 bmpfileheader
 =
 bytearray
 (
 [
+ord
+(
 '
 B
 '
+)
+ord
+(
 '
 M
 '
+)
 ]
 +
 self
@@ -415,7 +432,6 @@ bytearray
 0
 ]
 )
-;
         
 padding
 =
@@ -512,6 +528,15 @@ array
 B
 "
 string_data
+.
+encode
+(
+"
+utf
+-
+8
+"
+)
 )
     
 num_bytes
@@ -666,9 +691,7 @@ color_data
     
 f
 =
-StringIO
-.
-StringIO
+BytesIO
 (
 )
     
@@ -706,6 +729,7 @@ server_data
 data
 =
 (
+u
 '
 {
 "
@@ -724,6 +748,7 @@ s
 server_data
     
 if
+b
 "
 id
 "
@@ -745,6 +770,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -783,6 +809,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -812,6 +839,7 @@ data
     
 content_type
 =
+b
 '
 image
 /
@@ -819,6 +847,7 @@ bmp
 '
     
 if
+b
 "
 report
 -
@@ -843,6 +872,7 @@ data
         
 content_type
 =
+b
 '
 application
 /
@@ -867,6 +897,7 @@ content_type
                         
 access_control_allow_origin
 =
+b
 "
 *
 "

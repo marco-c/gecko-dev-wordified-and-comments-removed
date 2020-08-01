@@ -1,7 +1,22 @@
 import
 os
 sys
+from
+six
+.
+moves
+.
 urllib
+.
+parse
+import
+unquote
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -21,7 +36,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -36,18 +54,20 @@ request
     
 import_url
 =
-urllib
-.
 unquote
+(
+isomorphic_decode
 (
 request
 .
 GET
 [
+b
 '
 import_url
 '
 ]
+)
 )
     
 return
@@ -55,6 +75,7 @@ subresource
 .
 get_template
 (
+u
 "
 static
 -
@@ -68,6 +89,7 @@ template
 %
 {
         
+u
 "
 import_url
 "
@@ -107,6 +129,7 @@ payload_generator
                         
 content_type
 =
+b
 "
 application
 /

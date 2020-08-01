@@ -1,6 +1,12 @@
 import
 os
 sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -20,7 +26,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -37,6 +46,7 @@ server_data
 data
 =
 (
+u
 '
 {
 "
@@ -56,11 +66,13 @@ server_data
     
 type
 =
+b
 '
 image
 '
     
 if
+b
 "
 type
 "
@@ -76,12 +88,14 @@ request
 .
 GET
 [
+b
 "
 type
 "
 ]
     
 if
+b
 "
 id
 "
@@ -103,6 +117,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -114,6 +129,7 @@ if
 type
 =
 =
+b
 '
 image
 '
@@ -124,6 +140,7 @@ subresource
 .
 get_template
 (
+u
 "
 image
 .
@@ -134,24 +151,30 @@ template
 )
 %
 {
+u
 "
 id
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 id
 "
 ]
+)
 }
     
 elif
 type
 =
 =
+b
 '
 font
 '
@@ -162,6 +185,7 @@ subresource
 .
 get_template
 (
+u
 "
 font
 .
@@ -172,24 +196,30 @@ template
 )
 %
 {
+u
 "
 id
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 id
 "
 ]
+)
 }
     
 elif
 type
 =
 =
+b
 '
 svg
 '
@@ -200,6 +230,7 @@ subresource
 .
 get_template
 (
+u
 "
 svg
 .
@@ -211,31 +242,41 @@ template
 %
 {
             
+u
 "
 id
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 id
 "
 ]
+)
             
+u
 "
 property
 "
 :
+isomorphic_decode
+(
 request
 .
 GET
 [
+b
 "
 property
 "
 ]
+)
 }
 def
 generate_import_rule
@@ -246,6 +287,7 @@ server_data
 :
     
 return
+u
 "
 import
 url
@@ -263,6 +305,7 @@ s
 %
 {
         
+u
 "
 url
 "
@@ -275,9 +318,10 @@ request
 swap_origin
 =
 True
-                                      
+                                       
 query_parameter_to_remove
 =
+u
 "
 import
 -
@@ -308,6 +352,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -337,6 +382,7 @@ data
     
 content_type
 =
+b
 "
 text
 /
@@ -345,6 +391,7 @@ css
     
 referrer_policy
 =
+b
 "
 unsafe
 -
@@ -352,6 +399,7 @@ url
 "
     
 if
+b
 "
 import
 -
@@ -375,6 +423,7 @@ data
 )
     
 if
+b
 "
 report
 -
@@ -399,6 +448,7 @@ data
         
 content_type
 =
+b
 '
 application
 /
@@ -406,6 +456,7 @@ json
 '
     
 if
+b
 "
 referrer
 -
@@ -423,6 +474,7 @@ request
 .
 GET
 [
+b
 "
 referrer
 -
@@ -450,6 +502,7 @@ content_type
 maybe_additional_headers
 =
 {
+b
 "
 Referrer
 -
