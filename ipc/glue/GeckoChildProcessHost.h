@@ -480,10 +480,7 @@ channelp
 )
 ;
 }
-std
-:
-:
-wstring
+ChannelId
 GetChannelId
 (
 )

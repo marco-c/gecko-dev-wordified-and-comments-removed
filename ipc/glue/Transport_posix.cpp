@@ -76,10 +76,7 @@ TransportDescriptor
 aTwo
 )
 {
-std
-:
-:
-wstring
+auto
 id
 =
 IPC
