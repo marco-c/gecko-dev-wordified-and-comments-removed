@@ -7302,6 +7302,7 @@ Document
 GetOriginalDocument
 (
 )
+const
 {
 MOZ_ASSERT
 (
