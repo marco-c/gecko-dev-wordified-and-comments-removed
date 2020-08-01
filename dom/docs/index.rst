@@ -39,6 +39,9 @@ maxdepth
 :
 1
 Fission
+navigation
+/
+index
 workersAndStorage
 /
 index
