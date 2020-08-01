@@ -822,6 +822,16 @@ img
 mTextureHost
 )
 ;
+if
+(
+mCurrentAsyncImageManager
+-
+>
+GetCompositionTime
+(
+)
+)
+{
 UpdateCompositedFrame
 (
 imageIndex
@@ -834,6 +844,7 @@ mAsyncRef
 mHandle
 )
 ;
+}
 return
 mCurrentTextureHost
 ;
