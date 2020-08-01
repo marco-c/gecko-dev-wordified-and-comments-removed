@@ -8174,6 +8174,11 @@ i
 ]
 )
 ;
+NS_ENSURE_STATE
+(
+stmt
+)
+;
 StatementData
 data
 ;
