@@ -975,8 +975,6 @@ aBrowsingContext
 nsDocShellLoadState
 *
 aLoadState
-uint64_t
-aOuterWindowId
 )
 ;
 void

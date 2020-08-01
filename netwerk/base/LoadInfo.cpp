@@ -2052,8 +2052,6 @@ const
 OriginAttributes
 &
 aOriginAttributes
-uint64_t
-aOuterWindowID
 nsSecurityFlags
 aSecurityFlags
 uint32_t
@@ -2368,8 +2366,6 @@ aParentWGP
 nsIPrincipal
 *
 aTriggeringPrincipal
-uint64_t
-aFrameOuterWindowID
 nsContentPolicyType
 aContentPolicyType
 nsSecurityFlags
@@ -3020,8 +3016,6 @@ aBrowsingContext
 nsIPrincipal
 *
 aTriggeringPrincipal
-uint64_t
-aFrameOuterWindowID
 nsSecurityFlags
 aSecurityFlags
 uint32_t
@@ -3037,7 +3031,6 @@ GetParentWindowContext
 (
 )
 aTriggeringPrincipal
-aFrameOuterWindowID
 InternalContentPolicyTypeForFrame
 (
 aBrowsingContext

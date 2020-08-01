@@ -1419,8 +1419,6 @@ aBrowsingContext
 nsDocShellLoadState
 *
 aLoadState
-uint64_t
-aOuterWindowId
 )
 {
 bool
@@ -1588,7 +1586,6 @@ aLoadState
 TriggeringPrincipal
 (
 )
-aOuterWindowId
 securityFlags
 sandboxFlags
 )
@@ -1620,7 +1617,6 @@ TriggeringPrincipal
 (
 )
 attrs
-aOuterWindowId
 securityFlags
 sandboxFlags
 )
@@ -1833,7 +1829,6 @@ CreateLoadInfo
 (
 browsingContext
 aLoadState
-aOuterWindowId
 )
 ;
 nsLoadFlags
