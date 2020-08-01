@@ -4633,15 +4633,6 @@ frame
 !
 =
 scrollableAsFrame
-&
-&
-!
-sf
--
->
-IsRootScrollFrameOfDocument
-(
-)
 )
 {
 scrollPort
