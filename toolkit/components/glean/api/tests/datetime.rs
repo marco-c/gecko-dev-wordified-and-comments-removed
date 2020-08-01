@@ -11,7 +11,7 @@ use
 glean
 :
 :
-metrics
+private
 :
 :
 {
