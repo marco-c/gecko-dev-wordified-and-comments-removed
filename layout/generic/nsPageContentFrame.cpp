@@ -90,7 +90,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -116,7 +116,7 @@ DISPLAY_REFLOW
 aPresContext
 this
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 ;
@@ -281,7 +281,7 @@ ReflowChild
 (
 frame
 aPresContext
-aDesiredSize
+aReflowOutput
 kidReflowInput
 0
 0
@@ -324,7 +324,7 @@ HasOverflowAreas
 nscoord
 xmost
 =
-aDesiredSize
+aReflowOutput
 .
 ScrollableOverflow
 (
@@ -338,7 +338,7 @@ if
 (
 xmost
 >
-aDesiredSize
+aReflowOutput
 .
 Width
 (
@@ -425,7 +425,7 @@ FinishReflowChild
 (
 frame
 aPresContext
-aDesiredSize
+aReflowOutput
 &
 kidReflowInput
 0
@@ -476,7 +476,7 @@ fixedStatus
 ReflowAbsoluteFrames
 (
 aPresContext
-aDesiredSize
+aReflowOutput
 aReflowInput
 fixedStatus
 )
@@ -509,7 +509,7 @@ GetWritingMode
 (
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 ISize
 (
@@ -534,7 +534,7 @@ ComputedBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
-aDesiredSize
+aReflowOutput
 .
 BSize
 (
@@ -551,14 +551,14 @@ ComputedBSize
 FinishAndStoreOverflow
 (
 &
-aDesiredSize
+aReflowOutput
 )
 ;
 NS_FRAME_SET_TRUNCATION
 (
 aStatus
 aReflowInput
-aDesiredSize
+aReflowOutput
 )
 ;
 }

@@ -550,7 +550,7 @@ PopulateReflowOutput
 (
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -615,7 +615,7 @@ Height
 (
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 ISize
 (
@@ -640,7 +640,7 @@ AvailableISize
 )
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 BSize
 (
@@ -665,7 +665,7 @@ ComputedBSize
 )
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 SetOverflowAreasToDesiredBounds
 (
@@ -759,7 +759,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -805,7 +805,7 @@ DISPLAY_REFLOW
 aPresContext
 this
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 ;
@@ -939,14 +939,14 @@ NS_FRAME_FIRST_REFLOW
 {
 PopulateReflowOutput
 (
-aDesiredSize
+aReflowOutput
 aReflowInput
 )
 ;
 FinishAndStoreOverflow
 (
 &
-aDesiredSize
+aReflowOutput
 )
 ;
 if
@@ -960,7 +960,7 @@ Width
 )
 !
 =
-aDesiredSize
+aReflowOutput
 .
 Width
 (
@@ -1248,7 +1248,7 @@ maxXMost
 0
 ;
 ReflowOutput
-kidSize
+kidReflowOutput
 (
 aReflowInput
 )
@@ -1375,7 +1375,7 @@ ReflowChild
 (
 kidFrame
 aPresContext
-kidSize
+kidReflowOutput
 kidReflowInput
 x
 y
@@ -1390,7 +1390,7 @@ FinishReflowChild
 (
 kidFrame
 aPresContext
-kidSize
+kidReflowOutput
 &
 kidReflowInput
 x
@@ -1404,7 +1404,7 @@ Default
 y
 +
 =
-kidSize
+kidReflowOutput
 .
 Height
 (
@@ -1427,7 +1427,7 @@ max
 maxXMost
 x
 +
-kidSize
+kidReflowOutput
 .
 Width
 (
@@ -1633,14 +1633,14 @@ y
 ;
 PopulateReflowOutput
 (
-aDesiredSize
+aReflowOutput
 aReflowInput
 )
 ;
 FinishAndStoreOverflow
 (
 &
-aDesiredSize
+aReflowOutput
 )
 ;
 CenterPages
@@ -1662,7 +1662,7 @@ NS_FRAME_SET_TRUNCATION
 (
 aStatus
 aReflowInput
-aDesiredSize
+aReflowOutput
 )
 ;
 }

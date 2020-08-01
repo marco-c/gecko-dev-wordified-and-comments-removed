@@ -248,7 +248,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -274,7 +274,7 @@ DISPLAY_REFLOW
 aPresContext
 this
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 ;
@@ -479,7 +479,7 @@ height
 onePixelInTwips
 )
 {
-aDesiredSize
+aReflowOutput
 .
 ClearSize
 (
@@ -787,7 +787,7 @@ ReflowChild
 (
 frame
 aPresContext
-aDesiredSize
+aReflowOutput
 kidReflowInput
 xc
 yc
@@ -802,7 +802,7 @@ FinishReflowChild
 (
 frame
 aPresContext
-aDesiredSize
+aReflowOutput
 &
 kidReflowInput
 xc
@@ -873,12 +873,12 @@ d
 \
 n
 "
-aDesiredSize
+aReflowOutput
 .
 Width
 (
 )
-aDesiredSize
+aReflowOutput
 .
 Height
 (
@@ -905,7 +905,7 @@ GetWritingMode
 (
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 ISize
 (
@@ -930,7 +930,7 @@ AvailableBSize
 NS_UNCONSTRAINEDSIZE
 )
 {
-aDesiredSize
+aReflowOutput
 .
 BSize
 (
@@ -944,7 +944,7 @@ AvailableBSize
 )
 ;
 }
-aDesiredSize
+aReflowOutput
 .
 SetOverflowAreasToDesiredBounds
 (
@@ -953,7 +953,7 @@ SetOverflowAreasToDesiredBounds
 FinishAndStoreOverflow
 (
 &
-aDesiredSize
+aReflowOutput
 )
 ;
 PR_PL
@@ -1001,7 +1001,7 @@ NS_FRAME_SET_TRUNCATION
 (
 aStatus
 aReflowInput
-aDesiredSize
+aReflowOutput
 )
 ;
 }
@@ -3970,7 +3970,7 @@ nsPresContext
 aPresContext
 ReflowOutput
 &
-aDesiredSize
+aReflowOutput
 const
 ReflowInput
 &
@@ -3992,7 +3992,7 @@ DISPLAY_REFLOW
 aPresContext
 this
 aReflowInput
-aDesiredSize
+aReflowOutput
 aStatus
 )
 ;
@@ -4204,7 +4204,7 @@ CSSPixelsToAppUnits
 1
 )
 ;
-aDesiredSize
+aReflowOutput
 .
 SetSize
 (
