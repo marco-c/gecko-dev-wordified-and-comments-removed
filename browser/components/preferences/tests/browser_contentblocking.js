@@ -4664,7 +4664,7 @@ add_task
 (
 async
 function
-testContentBlockingReloadWarning
+testContentBlockingReloadWarningSingleTab
 (
 )
 {
