@@ -23189,6 +23189,13 @@ REGS
 .
 pc
 obj
+.
+as
+<
+ArrayObject
+>
+(
+)
 index
 val
 )
@@ -23285,6 +23292,13 @@ REGS
 .
 pc
 obj
+.
+as
+<
+ArrayObject
+>
+(
+)
 index
 val
 )
@@ -28653,8 +28667,8 @@ cx
 jsbytecode
 *
 pc
-HandleObject
-obj
+HandleArrayObject
+arr
 uint32_t
 index
 HandleValue
@@ -28666,7 +28680,7 @@ InitArrayElemOperation
 (
 cx
 pc
-obj
+arr
 index
 value
 )

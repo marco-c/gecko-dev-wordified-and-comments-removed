@@ -1817,8 +1817,8 @@ cx
 jsbytecode
 *
 pc
-HandleObject
-obj
+HandleArrayObject
+arr
 uint32_t
 index
 HandleValue

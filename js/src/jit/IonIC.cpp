@@ -2090,6 +2090,13 @@ InitArrayElemOperation
 cx
 pc
 obj
+.
+as
+<
+ArrayObject
+>
+(
+)
 idVal
 .
 toInt32
