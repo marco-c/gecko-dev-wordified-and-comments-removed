@@ -170,12 +170,10 @@ bool
 IsInitialized
 (
 )
+const
 {
 return
-nullptr
-!
-=
-mCupsLib
+mInited
 ;
 }
 CupsAddOptionType
@@ -198,6 +196,11 @@ mCupsTempFd
 ;
 private
 :
+bool
+mInited
+=
+false
+;
 PRLibrary
 *
 mCupsLib
