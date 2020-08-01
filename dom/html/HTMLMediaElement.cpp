@@ -10087,6 +10087,9 @@ NS_ERROR_NOT_AVAILABLE
 if
 (
 mSrcAttrTriggeringPrincipal
+&
+&
+mLoadingSrc
 )
 {
 rv
