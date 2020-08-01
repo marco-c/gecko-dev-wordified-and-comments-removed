@@ -1568,6 +1568,18 @@ id
 "
 )
 ;
+if
+(
+AppConstants
+.
+MOZ_APP_NAME
+!
+=
+"
+thunderbird
+"
+)
+{
 Assert
 .
 equal
@@ -1602,6 +1614,7 @@ ID
 "
 )
 ;
+}
 await
 TelemetrySend
 .
