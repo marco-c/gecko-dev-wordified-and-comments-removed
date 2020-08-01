@@ -2606,6 +2606,9 @@ built
 with
 -
 Clto
+but
+without
+MOZ_LTO_RUST
 .
 #
 Sanitizers
@@ -2645,6 +2648,8 @@ MOZ_TSAN
 MOZ_UBSAN
 )
 )
+ifndef
+MOZ_LTO_RUST
 ifneq
 (
 (
@@ -2667,6 +2672,7 @@ target
 -
 networking
 )
+endif
 endif
 endif
 endif
