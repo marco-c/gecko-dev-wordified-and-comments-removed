@@ -96,7 +96,7 @@ const
 char
 *
 name
-int
+uint32_t
 namelen
 uint32_t
 offset
