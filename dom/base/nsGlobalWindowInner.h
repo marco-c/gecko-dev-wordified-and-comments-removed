@@ -7041,6 +7041,11 @@ UpdateAutoplayPermission
 (
 )
 ;
+void
+UpdateShortcutsPermission
+(
+)
+;
 public
 :
 virtual
