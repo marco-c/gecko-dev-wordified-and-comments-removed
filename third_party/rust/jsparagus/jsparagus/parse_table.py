@@ -181,6 +181,9 @@ epsilon
 delayed_actions
 "
 "
+arguments
+"
+"
 backedges
 "
 "
@@ -209,6 +212,10 @@ OrderedFrozenSet
 [
 DelayedAction
 ]
+    
+arguments
+:
+int
     
 terminals
 :
@@ -297,6 +304,12 @@ DelayedAction
 OrderedFrozenSet
 (
 )
+            
+arguments
+:
+int
+=
+0
     
 )
 -
@@ -366,6 +379,12 @@ delayed_actions
         
 self
 .
+arguments
+=
+arguments
+        
+self
+.
 backedges
 =
 OrderedSet
@@ -424,6 +443,14 @@ hash
 (
 action
 )
+            
+yield
+"
+arguments
+"
+            
+yield
+arguments
         
 self
 .
@@ -1672,6 +1699,16 @@ other
 .
 delayed_actions
 )
+                
+and
+self
+.
+arguments
+=
+=
+other
+.
+arguments
 )
     
 def
@@ -2877,6 +2914,12 @@ DelayedAction
 OrderedFrozenSet
 (
 )
+            
+arguments
+:
+int
+=
+0
     
 )
 -
@@ -2950,6 +2993,7 @@ StateAndTransitions
 index
 locations
 delayed_actions
+arguments
 )
         
 try
@@ -3013,6 +3057,12 @@ DelayedAction
 OrderedFrozenSet
 (
 )
+            
+arguments
+:
+int
+=
+0
     
 )
 -
@@ -3056,6 +3106,7 @@ new_state
 (
 locations
 delayed_actions
+arguments
 )
         
 return
@@ -8230,6 +8281,10 @@ items
 )
 )
                 
+replay_size
+=
+1
+                
 is_new
 filter_state
 =
@@ -8239,6 +8294,7 @@ new_state
 (
 locations
 delayed
+replay_size
 )
                 
 self
@@ -8423,6 +8479,7 @@ new_state
 (
 locations
 delayed
+replay_size
 )
                         
 self
@@ -8698,6 +8755,10 @@ False
 if
 stack_diff
 .
+pop
++
+stack_diff
+.
 replay
 <
 =
@@ -8720,11 +8781,53 @@ min
 stack_diff
 .
 replay
++
+min
+(
+s
+.
+arguments
+stack_diff
+.
+pop
+)
 len
 (
 replayed
 )
 )
+            
+if
+unshifted
+<
+len
+(
+replayed
+)
+:
+                
+unshifted
+=
+min
+(
+stack_diff
+.
+replay
+len
+(
+replayed
+)
+)
+            
+if
+unshifted
+=
+=
+0
+:
+                
+return
+False
             
 new_unwind_term
 =
@@ -8734,6 +8837,16 @@ unshift_action
 (
 unshifted
 )
+            
+new_replay
+=
+new_unwind_term
+.
+update_stack_with
+(
+)
+.
+replay
             
 self
 .
@@ -8753,6 +8866,15 @@ replayed
 =
 unshifted
 :
+                
+assert
+s
+.
+arguments
+>
+=
+-
+new_replay
                 
 self
 .
@@ -8865,6 +8987,15 @@ index
 if
 is_new
 :
+                    
+assert
+unwind_state
+.
+arguments
+>
+=
+-
+new_replay
                     
 self
 .

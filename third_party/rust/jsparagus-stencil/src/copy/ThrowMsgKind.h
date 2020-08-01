@@ -30,6 +30,9 @@ uint8_t
 AssignToCall
 IteratorNoThrow
 CantDeleteSuper
+PrivateDoubleInit
+MissingPrivateOnGet
+MissingPrivateOnSet
 }
 ;
 JSErrNum
@@ -38,6 +41,17 @@ ThrowMsgKindToErrNum
 ThrowMsgKind
 kind
 )
+;
+enum
+class
+ThrowCondition
+:
+uint8_t
+{
+ThrowHas
+ThrowHasNot
+NoThrow
+}
 ;
 }
 #

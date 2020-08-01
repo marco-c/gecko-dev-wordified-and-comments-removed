@@ -2389,6 +2389,20 @@ extract_enum
 types
 paths
 '
+ThrowCondition
+'
+'
+ThrowMsgKind
+.
+h
+'
+)
+    
+extract_enum
+(
+types
+paths
+'
 TryNoteKind
 '
 '
@@ -2945,6 +2959,10 @@ GeneratorResumeKind
 '
 ThrowMsgKind
 '
+        
+'
+ThrowCondition
+'
     
 ]
     
@@ -3026,7 +3044,7 @@ print
 (
 f
 '
-Unspported
+Unsupported
 operand
 type
 {

@@ -173,6 +173,8 @@ E
 Emit
 |
 Parse
+|
+ScopeBuild
 )
 Error
 :

@@ -20,6 +20,7 @@ actions
 import
 Action
 FilterStates
+Replay
 if
 typing
 .
@@ -357,6 +358,12 @@ pop
 stack_diff
 .
 replay
+    
+assert
+depth
+>
+=
+0
     
 if
 depth
@@ -1301,6 +1308,15 @@ update_stack
 )
 :
                 
+new_rp
+:
+typing
+.
+List
+[
+ShiftedTerm
+]
+                
 stack_diff
 =
 a
@@ -1310,11 +1326,11 @@ update_stack_with
 )
                 
 if
-stack_diff
-.
-replay
-<
-0
+isinstance
+(
+a
+Replay
+)
 :
                     
 assert
@@ -1331,6 +1347,13 @@ stack_diff
 nt
 is
 None
+                    
+assert
+stack_diff
+.
+replay
+<
+0
                     
 num_replay
 =
@@ -1496,14 +1519,6 @@ nt
 is
 not
 None
-                
-assert
-stack_diff
-.
-replay
->
-=
-0
                 
 for
 path
@@ -1673,12 +1688,48 @@ stacked_terms
 replay
 :
 ]
++
+rp
                     
+elif
+replay
+=
+=
+0
+:
+                        
 new_rp
 =
 new_rp
 +
 rp
+                    
+elif
+replay
+<
+0
+:
+                        
+assert
+len
+(
+rp
+)
+>
+=
+-
+replay
+                        
+new_rp
+=
+new_rp
++
+rp
+[
+-
+replay
+:
+]
                     
 new_la
 =
