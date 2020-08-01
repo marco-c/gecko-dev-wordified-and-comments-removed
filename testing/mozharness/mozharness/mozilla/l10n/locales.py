@@ -829,22 +829,6 @@ work_dir
         
 dirs
 [
-'
-abs_src_dir
-'
-]
-=
-os
-.
-environ
-[
-'
-GECKO_PATH
-'
-]
-        
-dirs
-[
 "
 abs_l10n_dir
 "
@@ -863,7 +847,7 @@ path
 .
 join
 (
-dirs
+abs_dirs
 [
 "
 abs_src_dir
@@ -895,7 +879,7 @@ path
 join
 (
             
-dirs
+abs_dirs
 [
 '
 abs_src_dir
