@@ -212,9 +212,6 @@ std
 is_base_of
 <
 SupportsWeakPtr
-<
-I
->
 I
 >
 :
@@ -4220,9 +4217,6 @@ LocalRef
 &
 instance
 SupportsWeakPtr
-<
-Impl
->
 *
 ptr
 )

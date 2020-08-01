@@ -915,11 +915,7 @@ GetPresContext
 (
 )
 const
-{
-return
-mPresContext
 ;
-}
 static
 void
 PVsyncActorCreated

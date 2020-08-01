@@ -183,9 +183,6 @@ public
 BindingStyleRule
 public
 SupportsWeakPtr
-<
-CSSStyleRule
->
 {
 public
 :
@@ -228,10 +225,6 @@ const
 final
 MOZ_MUST_OVERRIDE
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-CSSStyleRule
-)
 uint32_t
 GetSelectorCount
 (

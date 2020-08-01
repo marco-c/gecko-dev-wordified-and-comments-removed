@@ -338,9 +338,6 @@ LinkedProgramInfo
 >
 public
 SupportsWeakPtr
-<
-LinkedProgramInfo
->
 public
 CacheInvalidator
 {
@@ -352,10 +349,6 @@ mozilla
 WebGLProgram
 ;
 MOZ_DECLARE_REFCOUNTED_TYPENAME
-(
-LinkedProgramInfo
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 LinkedProgramInfo
 )

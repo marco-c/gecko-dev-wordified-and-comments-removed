@@ -229,9 +229,6 @@ final
 :
 public
 SupportsWeakPtr
-<
-HostWebGLContext
->
 {
 friend
 class
@@ -275,10 +272,6 @@ LockedOutstandingContexts
 }
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-HostWebGLContext
-)
 struct
 RemotingData
 final

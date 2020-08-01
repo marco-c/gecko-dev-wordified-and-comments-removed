@@ -50,9 +50,6 @@ final
 :
 public
 SupportsWeakPtr
-<
-WebGLContextLossHandler
->
 {
 RefPtr
 <
@@ -68,10 +65,6 @@ mTimerIsScheduled
 ;
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-WebGLContextLossHandler
-)
 explicit
 WebGLContextLossHandler
 (

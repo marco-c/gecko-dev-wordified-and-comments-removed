@@ -131,9 +131,6 @@ public
 RelativeTimeline
 public
 SupportsWeakPtr
-<
-DOMMediaStream
->
 {
 typedef
 dom
@@ -172,10 +169,6 @@ dom
 MediaTrackConstraints
 MediaTrackConstraints
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-DOMMediaStream
-)
 class
 TrackListener
 {

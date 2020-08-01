@@ -455,9 +455,6 @@ mozilla
 :
 :
 SupportsWeakPtr
-<
-nsPresContext
->
 {
 public
 :
@@ -521,10 +518,6 @@ TransactionId
 ;
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS_FINAL
 NS_DECL_CYCLE_COLLECTION_CLASS
-(
-nsPresContext
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 nsPresContext
 )

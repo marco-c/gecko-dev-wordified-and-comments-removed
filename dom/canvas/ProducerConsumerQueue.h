@@ -182,9 +182,6 @@ PcqActor
 :
 public
 SupportsWeakPtr
-<
-PcqActor
->
 {
 IProtocol
 *
@@ -333,10 +330,6 @@ nullptr
 }
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PcqActor
-)
 Shmem
 :
 :

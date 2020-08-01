@@ -293,9 +293,6 @@ mozilla
 :
 :
 SupportsWeakPtr
-<
-nsNPAPIPluginInstance
->
 {
 private
 :
@@ -318,10 +315,6 @@ gfx
 DrawTarget
 DrawTarget
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-nsNPAPIPluginInstance
-)
 NS_DECL_THREADSAFE_ISUPPORTS
 NS_DECL_NSIAUDIOCHANNELAGENTCALLBACK
 nsresult

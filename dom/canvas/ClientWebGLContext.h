@@ -1758,9 +1758,6 @@ webgl
 ObjectJS
 public
 SupportsWeakPtr
-<
-WebGLQueryJS
->
 {
 friend
 class
@@ -1790,10 +1787,6 @@ NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 WebGLQueryJS
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
-(
-WebGLQueryJS
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 WebGLQueryJS
 )
@@ -2168,9 +2161,6 @@ webgl
 ObjectJS
 public
 SupportsWeakPtr
-<
-WebGLSyncJS
->
 {
 friend
 class
@@ -2200,10 +2190,6 @@ NS_INLINE_DECL_CYCLE_COLLECTING_NATIVE_REFCOUNTING
 WebGLSyncJS
 )
 NS_DECL_CYCLE_COLLECTION_SCRIPT_HOLDER_NATIVE_CLASS
-(
-WebGLSyncJS
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 WebGLSyncJS
 )
@@ -3149,9 +3135,6 @@ public
 nsWrapperCache
 public
 SupportsWeakPtr
-<
-ClientWebGLContext
->
 {
 friend
 class
@@ -3181,12 +3164,6 @@ webgl
 :
 ShaderKeepAlive
 ;
-public
-:
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-ClientWebGLContext
-)
 public
 :
 NS_DECL_CYCLE_COLLECTING_ISUPPORTS

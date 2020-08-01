@@ -41,16 +41,9 @@ IProgressObserver
 :
 public
 SupportsWeakPtr
-<
-IProgressObserver
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-IProgressObserver
-)
 NS_INLINE_DECL_PURE_VIRTUAL_REFCOUNTING
 virtual
 void

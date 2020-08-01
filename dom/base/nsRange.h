@@ -442,11 +442,7 @@ GetSelection
 (
 )
 const
-{
-return
-mSelection
 ;
-}
 bool
 IsGenerated
 (

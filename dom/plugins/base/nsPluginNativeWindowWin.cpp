@@ -427,16 +427,9 @@ public
 nsPluginNativeWindow
 public
 SupportsWeakPtr
-<
-nsPluginNativeWindowWin
->
 {
 public
 :
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-nsPluginNativeWindowWin
-)
 nsPluginNativeWindowWin
 (
 )

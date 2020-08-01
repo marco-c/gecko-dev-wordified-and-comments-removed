@@ -141,9 +141,6 @@ MediaStreamTrack
 >
 public
 SupportsWeakPtr
-<
-MediaStreamTrackAudioSourceNode
->
 {
 public
 :
@@ -167,10 +164,6 @@ aRv
 )
 ;
 NS_DECL_ISUPPORTS_INHERITED
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-MediaStreamTrackAudioSourceNode
-)
 NS_DECL_CYCLE_COLLECTION_CLASS_INHERITED
 (
 MediaStreamTrackAudioSourceNode

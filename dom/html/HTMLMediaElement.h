@@ -371,9 +371,6 @@ MediaStreamTrack
 >
 public
 SupportsWeakPtr
-<
-HTMLMediaElement
->
 public
 nsStubMutationObserver
 {
@@ -482,10 +479,6 @@ mFinishWhenEndedAttrStream
 ;
 }
 ;
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-HTMLMediaElement
-)
 NS_DECL_NSIMUTATIONOBSERVER_CONTENTREMOVED
 CORSMode
 GetCORSMode

@@ -46,9 +46,6 @@ public
 nsIPresentationAvailabilityListener
 public
 SupportsWeakPtr
-<
-PresentationAvailability
->
 {
 public
 :
@@ -59,10 +56,6 @@ PresentationAvailability
 DOMEventTargetHelper
 )
 NS_DECL_NSIPRESENTATIONAVAILABILITYLISTENER
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
-(
-PresentationAvailability
-)
 static
 already_AddRefed
 <

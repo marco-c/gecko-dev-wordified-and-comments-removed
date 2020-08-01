@@ -55,9 +55,6 @@ final
 :
 public
 SupportsWeakPtr
-<
-DepthAndStencilBuffer
->
 {
 const
 WeakPtr
@@ -76,10 +73,6 @@ mSize
 public
 :
 NS_INLINE_DECL_THREADSAFE_REFCOUNTING
-(
-DepthAndStencilBuffer
-)
-MOZ_DECLARE_WEAKREFERENCE_TYPENAME
 (
 DepthAndStencilBuffer
 )
