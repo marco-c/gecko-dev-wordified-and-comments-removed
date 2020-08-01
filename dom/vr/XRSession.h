@@ -367,12 +367,14 @@ VRDisplayClient
 GetDisplayClient
 (
 )
+const
 ;
 XRRenderState
 *
 GetActiveRenderState
 (
 )
+const
 ;
 bool
 IsEnded

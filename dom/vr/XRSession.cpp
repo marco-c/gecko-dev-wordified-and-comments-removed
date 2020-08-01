@@ -705,6 +705,7 @@ XRSession
 GetDisplayClient
 (
 )
+const
 {
 return
 mDisplayClient
@@ -2005,6 +2006,7 @@ XRSession
 GetActiveRenderState
 (
 )
+const
 {
 return
 mActiveRenderState

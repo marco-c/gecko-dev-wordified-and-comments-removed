@@ -5489,6 +5489,14 @@ Eye_Right
 h
 )
 ;
+state
+.
+nativeFramebufferScaleFactor
+=
+1
+.
+0f
+;
 aSystemState
 .
 sensorState

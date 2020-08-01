@@ -220,14 +220,14 @@ SHMEM_VERSION
 .
 0
 .
-10
+11
 "
 static
 const
 int32_t
 kVRExternalVersion
 =
-17
+18
 ;
 static
 const
@@ -1068,6 +1068,9 @@ NumEyes
 ;
 IntSize_POD
 eyeResolution
+;
+float
+nativeFramebufferScaleFactor
 ;
 bool
 suppressFrames

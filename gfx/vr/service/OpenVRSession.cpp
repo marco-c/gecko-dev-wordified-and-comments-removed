@@ -4087,6 +4087,14 @@ height
 =
 h
 ;
+state
+.
+nativeFramebufferScaleFactor
+=
+1
+.
+0f
+;
 aSystemState
 .
 sensorState
