@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 coop
 "
@@ -27,6 +28,7 @@ GET
 .
 first
 (
+b
 "
 coop
 -
@@ -36,6 +38,7 @@ only
 "
 )
 if
+b
 "
 coop
 -
@@ -48,6 +51,7 @@ request
 .
 GET
 else
+b
 "
 "
     
@@ -59,6 +63,7 @@ GET
 .
 first
 (
+b
 "
 coep
 "
@@ -72,6 +77,7 @@ GET
 .
 first
 (
+b
 "
 coep
 -
@@ -81,6 +87,7 @@ only
 "
 )
 if
+b
 "
 coep
 -
@@ -93,6 +100,7 @@ request
 .
 GET
 else
+b
 "
 "
     
@@ -104,6 +112,7 @@ GET
 .
 first
 (
+b
 "
 redirect
 "
@@ -114,6 +123,7 @@ if
 coop
 !
 =
+b
 "
 "
 :
@@ -124,6 +134,7 @@ headers
 .
 set
 (
+b
 "
 Cross
 -
@@ -140,6 +151,7 @@ if
 coop
 !
 =
+b
 "
 "
 :
@@ -150,6 +162,7 @@ headers
 .
 set
 (
+b
 "
 Cross
 -
@@ -170,6 +183,7 @@ if
 coep
 !
 =
+b
 "
 "
 :
@@ -180,6 +194,7 @@ headers
 .
 set
 (
+b
 "
 Cross
 -
@@ -196,16 +211,18 @@ if
 coep
 !
 =
+b
 "
 "
 :
-         
+        
 response
 .
 headers
 .
 set
 (
+b
 "
 Cross
 -
@@ -223,6 +240,7 @@ coepReportOnly
 )
     
 if
+b
 '
 cache
 '
@@ -238,11 +256,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 max
 -
@@ -280,6 +300,7 @@ headers
 .
 set
 (
+b
 "
 Location
 "
@@ -292,6 +313,7 @@ response
 .
 content
 =
+b
 "
 "
 "

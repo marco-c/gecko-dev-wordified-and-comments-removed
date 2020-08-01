@@ -1,6 +1,16 @@
 import
 json
 uuid
+from
+six
+import
+PY3
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -15,6 +25,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -24,6 +35,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -35,6 +47,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -44,6 +57,7 @@ Allow
 -
 Methods
 '
+b
 '
 OPTIONS
 GET
@@ -57,6 +71,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -66,6 +81,7 @@ Allow
 -
 Headers
 '
+b
 '
 Content
 -
@@ -79,11 +95,13 @@ headers
 .
 set
 (
+b
 '
 Cache
 -
 Control
 '
+b
 '
 no
 -
@@ -104,21 +122,23 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
 :
         
 return
+b
 '
 '
     
 key
 =
 0
-;
     
 if
+b
 '
 endpoint
 '
@@ -128,6 +148,38 @@ request
 GET
 :
         
+if
+PY3
+:
+            
+key
+=
+uuid
+.
+uuid5
+(
+uuid
+.
+NAMESPACE_OID
+isomorphic_decode
+(
+request
+.
+GET
+[
+b
+'
+endpoint
+'
+]
+)
+)
+.
+urn
+        
+else
+:
+            
 key
 =
 uuid
@@ -141,15 +193,14 @@ request
 .
 GET
 [
+b
 '
 endpoint
 '
 ]
 )
 .
-get_urn
-(
-)
+urn
     
 if
 key
@@ -165,6 +216,7 @@ status
 400
         
 return
+b
 '
 invalid
 endpoint
@@ -176,6 +228,7 @@ request
 method
 =
 =
+u
 '
 POST
 '
@@ -230,6 +283,7 @@ reports
 )
         
 return
+b
 "
 done
 "
@@ -240,6 +294,7 @@ request
 method
 =
 =
+u
 '
 GET
 '
@@ -251,11 +306,13 @@ headers
 .
 set
 (
+b
 '
 Content
 -
 Type
 '
+b
 '
 application
 /
@@ -290,6 +347,7 @@ status
 400
     
 return
+b
 '
 invalid
 method

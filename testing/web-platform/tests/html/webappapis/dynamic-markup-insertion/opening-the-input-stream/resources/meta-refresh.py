@@ -1,5 +1,3 @@
-import
-time
 def
 main
 (
@@ -22,6 +20,7 @@ url_parts
 .
 query
 else
+u
 '
 0
 '
@@ -30,11 +29,13 @@ return
 200
 [
 [
+b
 '
 Content
 -
 Type
 '
+b
 '
 text
 /
@@ -42,6 +43,7 @@ html
 '
 ]
 ]
+u
 '
 <
 meta

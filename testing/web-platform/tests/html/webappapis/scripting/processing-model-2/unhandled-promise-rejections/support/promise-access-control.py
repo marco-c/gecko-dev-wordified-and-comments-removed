@@ -14,9 +14,11 @@ GET
 .
 first
 (
+b
 "
 allow
 "
+b
 "
 false
 "
@@ -26,11 +28,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 application
 /
@@ -43,6 +47,7 @@ if
 allow
 !
 =
+b
 "
 false
 "
@@ -53,6 +58,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -62,6 +68,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -70,6 +77,7 @@ Origin
     
 body
 =
+b
 "
 "
 "
