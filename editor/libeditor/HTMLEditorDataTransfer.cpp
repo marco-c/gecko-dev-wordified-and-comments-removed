@@ -1489,7 +1489,7 @@ aParentContentOfPastedHTMLInContext
 ;
 static
 bool
-FindTargetNodeOfContextForPastedHTML
+FindTargetNodeOfContextForPastedHTMLAndRemoveInsertionCookie
 (
 nsINode
 &
@@ -15823,7 +15823,7 @@ HTMLWithContextInserter
 FragmentFromPasteCreator
 :
 :
-FindTargetNodeOfContextForPastedHTML
+FindTargetNodeOfContextForPastedHTMLAndRemoveInsertionCookie
 (
 nsINode
 &
@@ -15945,7 +15945,7 @@ true
 }
 if
 (
-FindTargetNodeOfContextForPastedHTML
+FindTargetNodeOfContextForPastedHTMLAndRemoveInsertionCookie
 (
 *
 child
@@ -16886,7 +16886,7 @@ rv
 FragmentFromPasteCreator
 :
 :
-FindTargetNodeOfContextForPastedHTML
+FindTargetNodeOfContextForPastedHTMLAndRemoveInsertionCookie
 (
 *
 documentFragmentForContext
