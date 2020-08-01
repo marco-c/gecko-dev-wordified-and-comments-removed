@@ -11,6 +11,15 @@ windows
 .
 h
 >
+MOZ_BEGIN_EXTERN_C
+extern
+MOZ_EXPORT
+const
+wchar_t
+*
+gWinEventLogSourceName
+;
+MOZ_END_EXTERN_C
 void
 WriteEventLogHresult
 (
