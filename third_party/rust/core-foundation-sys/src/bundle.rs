@@ -171,4 +171,16 @@ CFBundleRef
 >
 CFURLRef
 ;
+pub
+fn
+CFBundleCopyBundleURL
+(
+bundle
+:
+CFBundleRef
+)
+-
+>
+CFURLRef
+;
 }

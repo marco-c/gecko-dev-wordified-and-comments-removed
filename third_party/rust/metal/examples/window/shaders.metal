@@ -10,10 +10,10 @@ metal
 typedef
 struct
 {
-float2
+packed_float2
 position
 ;
-float3
+packed_float3
 color
 ;
 }
@@ -44,6 +44,7 @@ vertex
 ColorInOut
 triangle_vertex
 (
+const
 device
 vertex_t
 *
@@ -125,9 +126,9 @@ v
 color
 .
 z
-1
-.
 0
+.
+2
 )
 ;
 return

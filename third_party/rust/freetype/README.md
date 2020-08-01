@@ -6,7 +6,7 @@ freetype
 Documentation
 ]
 (
-http
+https
 :
 /
 /
