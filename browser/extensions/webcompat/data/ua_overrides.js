@@ -2321,7 +2321,7 @@ getDeviceAppropriateChromeUA
 id
 :
 "
-bug1563839
+bug1646791
 "
 platform
 :
@@ -2338,7 +2338,7 @@ com
 bug
 :
 "
-1563839
+1646791
 "
 config
 :
@@ -2356,6 +2356,7 @@ matches
 bancosantander
 .
 es
+/
 *
 "
 "
