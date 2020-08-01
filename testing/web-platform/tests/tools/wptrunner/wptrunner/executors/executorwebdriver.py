@@ -641,6 +641,8 @@ self
 .
 webdriver
 .
+window
+.
 close
 (
 )
