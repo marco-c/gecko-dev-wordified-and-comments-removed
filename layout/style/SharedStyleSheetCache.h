@@ -405,11 +405,13 @@ mPendingDatas
 nsDataHashtable
 <
 SheetLoadDataHashKey
+WeakPtr
+<
 css
 :
 :
 SheetLoadData
-*
+>
 >
 mLoadingDatas
 ;

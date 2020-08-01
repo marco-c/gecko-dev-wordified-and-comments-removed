@@ -151,6 +151,11 @@ final
 public
 PreloaderBase
 public
+SupportsWeakPtr
+<
+SheetLoadData
+>
+public
 nsIRunnable
 public
 nsIThreadObserver
