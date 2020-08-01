@@ -176,8 +176,9 @@ x
 =
 callFunction
 (
-std_Date_valueOf
+ThisTimeValue
 this
+DATE_METHOD_LOCALE_STRING
 )
 ;
 if
@@ -303,8 +304,9 @@ x
 =
 callFunction
 (
-std_Date_valueOf
+ThisTimeValue
 this
+DATE_METHOD_LOCALE_DATE_STRING
 )
 ;
 if
@@ -430,8 +432,9 @@ x
 =
 callFunction
 (
-std_Date_valueOf
+ThisTimeValue
 this
+DATE_METHOD_LOCALE_TIME_STRING
 )
 ;
 if
