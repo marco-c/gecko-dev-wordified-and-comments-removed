@@ -120,6 +120,15 @@ return
 p
 ;
 }
+bool
+sk_abort_is_enabled
+(
+)
+{
+return
+true
+;
+}
 void
 sk_abort_no_print
 (
