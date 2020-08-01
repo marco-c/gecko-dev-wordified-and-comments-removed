@@ -124,6 +124,11 @@ STRING
 "
 string
 "
+URL
+:
+"
+url
+"
 }
 ;
 const

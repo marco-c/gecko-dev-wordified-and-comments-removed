@@ -110,4 +110,9 @@ ManifestSection
 .
 js
 '
+'
+ManifestUrlItem
+.
+js
+'
 )
