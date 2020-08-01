@@ -76,6 +76,13 @@ Document
 .
 h
 "
+#
+include
+"
+nsJSUtils
+.
+h
+"
 namespace
 mozilla
 {

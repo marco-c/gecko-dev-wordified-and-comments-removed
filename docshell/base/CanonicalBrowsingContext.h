@@ -122,6 +122,9 @@ dom
 class
 BrowserParent
 ;
+struct
+LoadURIOptions
+;
 class
 MediaController
 ;

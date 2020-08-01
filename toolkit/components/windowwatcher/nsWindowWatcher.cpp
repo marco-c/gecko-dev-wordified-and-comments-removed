@@ -487,6 +487,17 @@ h
 #
 include
 "
+mozilla
+/
+dom
+/
+SessionStorageManager
+.
+h
+"
+#
+include
+"
 nsIAppWindow
 .
 h

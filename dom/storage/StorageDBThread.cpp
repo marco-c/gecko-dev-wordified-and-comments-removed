@@ -174,6 +174,15 @@ include
 "
 mozilla
 /
+OriginAttributes
+.
+h
+"
+#
+include
+"
+mozilla
+/
 ThreadEventQueue
 .
 h

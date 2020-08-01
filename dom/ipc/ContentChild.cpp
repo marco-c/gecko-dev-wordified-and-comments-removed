@@ -551,6 +551,17 @@ mozilla
 /
 dom
 /
+SessionStorageManager
+.
+h
+"
+#
+include
+"
+mozilla
+/
+dom
+/
 URLClassifierChild
 .
 h

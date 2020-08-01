@@ -76,6 +76,9 @@ class
 ContentParent
 ;
 class
+DocGroup
+;
+class
 BrowsingContextGroup
 final
 :
