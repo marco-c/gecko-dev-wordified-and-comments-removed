@@ -13,7 +13,7 @@ updateagent
 .
 rc
 '
-LOCALIZED_GENERATED_FILES
+GENERATED_FILES
 +
 =
 [
@@ -23,7 +23,7 @@ url_constants
 rs
 '
 ]
-LOCALIZED_GENERATED_FILES
+GENERATED_FILES
 [
 '
 url_constants
@@ -39,17 +39,6 @@ UpdateUrlConstants
 .
 py
 '
-LOCALIZED_FILES
-+
-=
-[
-'
-!
-url_constants
-.
-rs
-'
-]
 with
 Files
 (
