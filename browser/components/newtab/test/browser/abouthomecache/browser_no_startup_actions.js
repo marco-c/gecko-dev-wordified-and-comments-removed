@@ -183,6 +183,7 @@ discoverystreamfeed
 ;
 return
 feed
+?
 .
 loaded
 ;
