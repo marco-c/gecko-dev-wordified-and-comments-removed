@@ -514,7 +514,7 @@ tester
 /
 test
 -
-linux
+android
 .
 sh
 ADD
@@ -528,7 +528,7 @@ tester
 /
 test
 -
-linux
+android
 .
 sh
 /
@@ -540,7 +540,7 @@ bin
 /
 test
 -
-linux
+android
 .
 sh
 #
@@ -586,13 +586,6 @@ HOSTNAME
 taskcluster
 -
 worker
-ENV
-LANG
-en_US
-.
-UTF
--
-8
 ENV
 PATH
 PATH
