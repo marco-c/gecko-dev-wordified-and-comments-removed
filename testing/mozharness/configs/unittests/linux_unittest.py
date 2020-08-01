@@ -950,6 +950,14 @@ options
 "
 -
 -
+self
+-
+test
+"
+                
+"
+-
+-
 symbols
 -
 path

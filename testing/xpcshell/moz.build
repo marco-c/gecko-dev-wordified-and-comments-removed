@@ -11,16 +11,6 @@ moz
 http2
 '
 ]
-PYTHON_UNITTEST_MANIFESTS
-+
-=
-[
-'
-python
-.
-ini
-'
-]
 TESTING_JS_MODULES
 +
 =
