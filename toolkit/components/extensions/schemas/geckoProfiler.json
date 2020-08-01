@@ -159,6 +159,9 @@ fileioall
 "
 noiostacks
 "
+"
+audiocallbacktracing
+"
 ]
 }
 {
