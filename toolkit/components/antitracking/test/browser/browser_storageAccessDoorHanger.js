@@ -952,7 +952,7 @@ window
 else
 {
 await
-clickMainAction
+clickSecondaryAction
 (
 )
 ;
@@ -968,11 +968,8 @@ ALLOW
 )
 {
 await
-clickSecondaryAction
+clickMainAction
 (
-choice
--
-1
 )
 ;
 }
