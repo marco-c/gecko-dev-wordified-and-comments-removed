@@ -1795,6 +1795,13 @@ n
 format
 (
 head
+.
+decode
+(
+'
+ascii
+'
+)
 )
             
 for
@@ -1827,6 +1834,13 @@ proofs
 [
 i
 ]
+.
+decode
+(
+'
+ascii
+'
+)
 files
 [
 i
@@ -1918,6 +1932,7 @@ output_file
 .
 write
 (
+                        
 "
 {
 }
@@ -1929,6 +1944,7 @@ n
 .
 format
 (
+                            
 self
 .
 checksums
@@ -1943,8 +1959,17 @@ hashes
 [
 fmt
 ]
-fn
+.
+decode
+(
+"
+ascii
+"
 )
+fn
+                        
+)
+                    
 )
 if
 __name__
