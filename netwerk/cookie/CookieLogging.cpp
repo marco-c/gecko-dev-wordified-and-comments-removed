@@ -1256,11 +1256,6 @@ nsString
 aParams
 )
 {
-MOZ_ASSERT
-(
-aURI
-)
-;
 if
 (
 !
@@ -1273,6 +1268,11 @@ return
 nsAutoCString
 uri
 ;
+if
+(
+aURI
+)
+{
 nsresult
 rv
 =
@@ -1297,6 +1297,7 @@ rv
 {
 return
 ;
+}
 }
 aCRC
 -
