@@ -451,14 +451,6 @@ nsJSPrincipals
 h
 "
 #
-ifdef
-XP_MACOSX
-#
-undef
-check
-#
-endif
-#
 include
 "
 AccessCheck

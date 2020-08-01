@@ -29,6 +29,14 @@ nsString
 .
 h
 "
+#
+ifdef
+XP_MACOSX
+#
+undef
+check
+#
+endif
 namespace
 xpc
 {
