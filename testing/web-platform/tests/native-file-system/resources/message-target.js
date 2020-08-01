@@ -330,7 +330,7 @@ directory_handle
 await
 parent_directory
 .
-getDirectory
+getDirectoryHandle
 (
 '
 temp
