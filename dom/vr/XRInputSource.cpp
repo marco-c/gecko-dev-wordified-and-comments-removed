@@ -630,9 +630,7 @@ AssignLiteral
 "
 pico
 -
-g
--
-v2
+g2
 "
 )
 ;
@@ -678,9 +676,7 @@ AssignLiteral
 "
 pico
 -
-neo
--
-v2
+neo2
 "
 )
 ;
