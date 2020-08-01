@@ -419,6 +419,8 @@ handles
                 
 session
 .
+window
+.
 close
 (
 )

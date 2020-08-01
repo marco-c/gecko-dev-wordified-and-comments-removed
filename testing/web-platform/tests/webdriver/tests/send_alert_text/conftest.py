@@ -85,6 +85,8 @@ try
         
 session
 .
+window
+.
 close
 (
 )
