@@ -1851,10 +1851,16 @@ filename
 .
 endswith
 (
+(
 '
 .
 h
 '
+'
+.
+msg
+'
+)
 )
 :
                 
@@ -2295,9 +2301,16 @@ r
 js
 \
 /
-(
 .
 *
+?
+(
+[
+^
+\
+/
+]
++
 )
 \
 .
@@ -2528,6 +2541,14 @@ tbl
 *
 .
 msg
+(
+these
+can
+be
+scattered
+throughout
+files
+)
         
 '
 '

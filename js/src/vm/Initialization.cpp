@@ -378,6 +378,10 @@ count
 include
 "
 js
+/
+friend
+/
+ErrorNumbers
 .
 msg
 "
