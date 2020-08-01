@@ -86,3 +86,17 @@ sinkId
 ;
 }
 ;
+partial
+interface
+MediaDevices
+{
+Promise
+<
+MediaDeviceInfo
+>
+selectAudioOutput
+(
+)
+;
+}
+;

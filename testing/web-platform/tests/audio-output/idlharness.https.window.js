@@ -14,6 +14,11 @@ output
 ]
 [
 '
+mediacapture
+-
+streams
+'
+'
 html
 '
 '
@@ -67,6 +72,15 @@ HTMLVideoElement
 [
 '
 video
+'
+]
+MediaDevices
+:
+[
+'
+navigator
+.
+mediaDevices
 '
 ]
 }
