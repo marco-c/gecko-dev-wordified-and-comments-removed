@@ -4446,6 +4446,15 @@ nsIContent
 aContent
 )
 ;
+enum
+class
+TreatEmptyTextNodes
+{
+KeepIfContainerOfRangeBoundaries
+Remove
+RemoveAllEmptyInlineAncestors
+}
+;
 template
 <
 typename
@@ -4468,6 +4477,8 @@ const
 EditorDOMPointType
 &
 aEndPoint
+TreatEmptyTextNodes
+aTreatEmptyTextNodes
 )
 ;
 template
