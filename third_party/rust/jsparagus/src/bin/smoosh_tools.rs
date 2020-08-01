@@ -4894,6 +4894,11 @@ cmp_parsers
 -
 -
 "
+"
+-
+-
+dir
+"
 realjs_path
 ]
 args
