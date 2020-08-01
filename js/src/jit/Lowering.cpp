@@ -37382,7 +37382,7 @@ MOZ_ASSERT
 ins
 -
 >
-array
+object
 (
 )
 -
@@ -37430,7 +37430,7 @@ useRegister
 ins
 -
 >
-array
+object
 (
 )
 )
