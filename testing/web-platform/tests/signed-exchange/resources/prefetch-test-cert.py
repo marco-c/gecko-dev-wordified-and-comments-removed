@@ -50,7 +50,7 @@ status
 =
 (
 404
-u
+b
 "
 Not
 Found

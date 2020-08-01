@@ -48,14 +48,14 @@ status
 =
 (
 304
-u
+b
 "
 YEP
 "
 )
         
 return
-u
+b
 "
 "
     
@@ -140,7 +140,7 @@ javascript
 )
     
 return
-u
+b
 "
 function
 hep

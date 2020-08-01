@@ -202,14 +202,14 @@ status
 =
 (
 302
-u
+b
 "
 Moved
 "
 )
         
 return
-u
+b
 "
 "
     
@@ -248,14 +248,14 @@ status
 =
 (
 304
-u
+b
 "
 SUPERCOOL
 "
 )
         
 return
-u
+b
 "
 "
     
@@ -283,7 +283,7 @@ plain
 )
         
 return
-u
+b
 "
 MAYBE
 NOT

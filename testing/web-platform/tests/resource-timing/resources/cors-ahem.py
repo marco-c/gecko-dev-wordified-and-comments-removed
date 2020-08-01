@@ -68,7 +68,7 @@ status
 =
 (
 304
-u
+b
 "
 Not
 Modified
