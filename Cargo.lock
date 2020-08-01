@@ -31749,6 +31749,9 @@ winapi
 .
 7
 "
+"
+wr_malloc_size_of
+"
 ]
 [
 [

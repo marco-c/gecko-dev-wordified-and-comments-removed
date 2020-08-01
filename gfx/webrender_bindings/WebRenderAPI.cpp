@@ -2925,6 +2925,10 @@ wr_api_accumulate_memory_report
 (
 mDocHandle
 aReport
+&
+WebRenderMallocSizeOf
+&
+WebRenderMallocEnclosingSizeOf
 )
 ;
 }

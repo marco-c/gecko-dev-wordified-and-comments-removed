@@ -58,6 +58,10 @@ extern
 crate
 webrender
 ;
+extern
+crate
+wr_malloc_size_of
+;
 #
 [
 macro_use
