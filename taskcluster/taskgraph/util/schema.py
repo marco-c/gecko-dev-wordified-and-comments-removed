@@ -1422,11 +1422,14 @@ ALL_COMPONENTS
 test
 '
 :
+(
 list
 (
 schedules
 .
 ALL_COMPONENTS
+)
+dict
 )
 }
     

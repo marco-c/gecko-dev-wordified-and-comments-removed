@@ -2397,67 +2397,6 @@ next
 (
 results
 )
-def
-split_bugbug_arg
-(
-arg
-)
-:
-    
-"
-"
-"
-    
-The
-bugbug
-optimization
-strageies
-require
-passing
-an
-dict
-as
-    
-scratch
-space
-for
-communicating
-with
-downstream
-stratgies
-.
-    
-This
-function
-pass
-the
-provided
-argument
-to
-the
-first
-strategy
-    
-and
-a
-fresh
-dictionary
-to
-the
-second
-stratgey
-.
-    
-"
-"
-"
-    
-return
-(
-arg
-{
-}
-)
 import_sibling_modules
 (
 )
@@ -2510,7 +2449,7 @@ fallback
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 '
@@ -2570,7 +2509,7 @@ fallback
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 '
@@ -2587,6 +2526,28 @@ register_strategy
 test
 -
 inclusive
+'
+args
+=
+(
+'
+skip
+-
+unless
+-
+schedules
+'
+)
+)
+(
+Alias
+)
+register_strategy
+(
+'
+test
+-
+try
 '
 args
 =
@@ -2699,7 +2660,7 @@ medium
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 }
@@ -2746,7 +2707,7 @@ high
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 }
@@ -2807,7 +2768,7 @@ disperse
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -2861,7 +2822,7 @@ disperse
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -2917,7 +2878,7 @@ disperse
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -2975,7 +2936,7 @@ disperse
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -3038,7 +2999,7 @@ unseen
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -3106,7 +3067,7 @@ one
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -3168,7 +3129,7 @@ disperse
             
 split_args
 =
-split_bugbug_arg
+tuple
         
 )
     
@@ -3213,7 +3174,7 @@ reduced
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 }
@@ -3266,7 +3227,7 @@ high
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 }
@@ -3325,6 +3286,9 @@ relevant
 -
 tests
 '
+split_args
+=
+tuple
 )
     
 }
@@ -3368,6 +3332,9 @@ schedules
 '
 seta
 '
+split_args
+=
+tuple
 )
     
 }
@@ -3575,7 +3542,7 @@ reduced
 '
 split_args
 =
-split_bugbug_arg
+tuple
 )
     
 '
