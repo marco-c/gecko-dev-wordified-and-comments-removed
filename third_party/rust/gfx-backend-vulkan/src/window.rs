@@ -651,7 +651,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let
@@ -859,7 +859,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let
@@ -1050,7 +1050,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let
@@ -1202,7 +1202,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let
@@ -1438,7 +1438,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 unsafe
@@ -1509,7 +1509,7 @@ extensions
 mvk
 ;
 use
-core_graphics_types
+core_graphics
 :
 :
 {
@@ -1786,7 +1786,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let
@@ -1916,7 +1916,7 @@ self
 .
 raw
 .
-inner
+0
 )
 ;
 let

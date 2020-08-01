@@ -131,7 +131,7 @@ version
 .
 5
 .
-11
+6
 "
 authors
 =
@@ -264,7 +264,7 @@ version
 "
 0
 .
-31
+30
 "
 [
 dependencies
@@ -287,8 +287,6 @@ version
 0
 .
 5
-.
-3
 "
 package
 =
@@ -524,15 +522,13 @@ dependencies
 core
 -
 graphics
--
-types
 ]
 version
 =
 "
 0
 .
-1
+19
 "
 [
 target

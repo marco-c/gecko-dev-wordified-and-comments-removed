@@ -33,16 +33,6 @@ use
 self
 :
 :
-draw_indirect_count
-:
-:
-DrawIndirectCount
-;
-pub
-use
-self
-:
-:
 external_memory_fd
 :
 :
@@ -146,9 +136,6 @@ display
 ;
 mod
 display_swapchain
-;
-mod
-draw_indirect_count
 ;
 mod
 external_memory_fd

@@ -3170,6 +3170,8 @@ set_thread_group_size_is_multiple_of_thread_execution_width
 true
 )
 ;
+unsafe
+{
 device
 .
 new_compute_pipeline_state
@@ -3177,6 +3179,7 @@ new_compute_pipeline_state
 &
 pipeline
 )
+}
 .
 unwrap
 (
@@ -3255,6 +3258,8 @@ set_thread_group_size_is_multiple_of_thread_execution_width
 true
 )
 ;
+unsafe
+{
 device
 .
 new_compute_pipeline_state
@@ -3262,6 +3267,7 @@ new_compute_pipeline_state
 &
 pipeline
 )
+}
 .
 unwrap
 (

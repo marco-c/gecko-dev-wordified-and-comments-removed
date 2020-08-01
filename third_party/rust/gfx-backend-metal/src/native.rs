@@ -67,7 +67,7 @@ arrayvec
 ArrayVec
 ;
 use
-cocoa_foundation
+cocoa
 :
 :
 foundation
