@@ -50,6 +50,13 @@ h
 #
 include
 "
+ProfilerChild
+.
+h
+"
+#
+include
+"
 ProfilerCodeAddressService
 .
 h
@@ -15227,6 +15234,13 @@ move
 postSamplingCallbacks
 )
 samplingState
+)
+;
+ProfilerChild
+:
+:
+ProcessPendingUpdate
+(
 )
 ;
 TimeStamp
