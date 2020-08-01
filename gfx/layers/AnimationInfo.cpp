@@ -3962,7 +3962,7 @@ overflow
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

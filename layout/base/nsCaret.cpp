@@ -1704,7 +1704,7 @@ YMost
 scrolled
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 .
@@ -1740,7 +1740,7 @@ XMost
 scrolled
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 .

@@ -1101,7 +1101,7 @@ kidDirtyRect
 kid
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -1948,7 +1948,7 @@ overflow
 anonKid
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -2823,7 +2823,7 @@ rect
 SVGUtils
 :
 :
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 this
 rect

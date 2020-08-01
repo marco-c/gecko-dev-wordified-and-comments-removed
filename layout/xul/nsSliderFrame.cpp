@@ -1659,7 +1659,7 @@ overflow
 thumb
 -
 >
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 ;

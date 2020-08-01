@@ -11975,7 +11975,7 @@ region
 rootFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

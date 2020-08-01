@@ -630,7 +630,7 @@ gfxRect
 )
 static
 nsRect
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 nsIFrame
 *

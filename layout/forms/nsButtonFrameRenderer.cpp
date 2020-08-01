@@ -474,7 +474,7 @@ return
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -1666,7 +1666,7 @@ GetSize
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +

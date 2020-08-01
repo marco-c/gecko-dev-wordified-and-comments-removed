@@ -640,7 +640,7 @@ nsRect
 SVGUtils
 :
 :
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 nsIFrame
 *
@@ -2816,7 +2816,7 @@ overflowRect
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -3141,7 +3141,7 @@ overflowRect
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

@@ -4423,7 +4423,7 @@ nsRect
 origCaptionRect
 ;
 nsRect
-origCaptionVisualOverflow
+origCaptionInkOverflow
 ;
 bool
 captionFirstReflow
@@ -4452,7 +4452,7 @@ GetRect
 (
 )
 ;
-origCaptionVisualOverflow
+origCaptionInkOverflow
 =
 mCaptionFrames
 .
@@ -4461,7 +4461,7 @@ FirstChild
 )
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -5332,7 +5332,7 @@ FirstChild
 (
 )
 origCaptionRect
-origCaptionVisualOverflow
+origCaptionInkOverflow
 captionFirstReflow
 )
 ;

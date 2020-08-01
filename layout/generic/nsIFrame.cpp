@@ -12396,7 +12396,7 @@ NS_FRAME_PART_OF_IBSPLIT
 )
 &
 &
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .
@@ -15748,7 +15748,7 @@ const
 nsRect
 overflow
 =
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -15855,7 +15855,7 @@ visibleRect
 IntersectRect
 (
 visibleRect
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -15865,7 +15865,7 @@ dirtyRect
 IntersectRect
 (
 dirtyRect
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -18309,7 +18309,7 @@ overflow
 aChild
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -19290,7 +19290,7 @@ visible
 child
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -19299,7 +19299,7 @@ dirty
 child
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -30030,7 +30030,7 @@ aDrawTarget
 const
 {
 return
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -35107,7 +35107,7 @@ r
 SVGUtils
 :
 :
-GetPostFilterVisualOverflowRect
+GetPostFilterInkOverflowRect
 (
 aFrame
 aOverflowRect
@@ -35224,7 +35224,7 @@ r
 SVGIntegrationUtils
 :
 :
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 (
 aFrame
 r
@@ -35394,7 +35394,7 @@ MOZ_ASSERT
 aType
 =
 =
-eVisualOverflow
+eInkOverflow
 |
 |
 aType
@@ -35434,7 +35434,7 @@ if
 aType
 =
 =
-eVisualOverflow
+eInkOverflow
 &
 &
 mOverflow
@@ -35446,7 +35446,7 @@ NS_FRAME_OVERFLOW_NONE
 )
 {
 return
-GetVisualOverflowFromDeltas
+InkOverflowFromDeltas
 (
 )
 ;
@@ -35494,7 +35494,7 @@ GetOverflowAreasProperty
 return
 nsOverflowAreas
 (
-GetVisualOverflowFromDeltas
+InkOverflowFromDeltas
 (
 )
 nsRect
@@ -35549,7 +35549,7 @@ nsOverflowAreas
 preTransformOverflows
 -
 >
-VisualOverflow
+InkOverflow
 (
 )
 preTransformOverflows
@@ -35565,10 +35565,10 @@ ScrollableOverflow
 return
 nsOverflowAreas
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 )
@@ -35578,13 +35578,13 @@ nsRect
 nsIFrame
 :
 :
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 const
 {
 return
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 +
@@ -35599,13 +35599,13 @@ nsRect
 nsIFrame
 :
 :
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 const
 {
 return
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 +
@@ -35620,7 +35620,7 @@ nsRect
 nsIFrame
 :
 :
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 const
@@ -35657,7 +35657,7 @@ ScrollableOverflow
 ;
 }
 return
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 ;
@@ -35666,7 +35666,7 @@ nsRect
 nsIFrame
 :
 :
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 const
@@ -35697,13 +35697,13 @@ return
 preTransformOverflows
 -
 >
-VisualOverflow
+InkOverflow
 (
 )
 ;
 }
 return
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -35712,7 +35712,7 @@ nsRect
 nsIFrame
 :
 :
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 )
 const
@@ -35737,7 +35737,7 @@ r
 *
 r
 :
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -35763,7 +35763,7 @@ SVG
 do
 not
 maintain
-visual
+ink
 overflow
 rects
 "
@@ -35870,7 +35870,7 @@ ResizeView
 view
 overflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 true
@@ -37192,7 +37192,7 @@ vo
 f
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -37213,7 +37213,7 @@ aTo
 nsPrintfCString
 (
 "
-vis
+ink
 -
 overflow
 =
@@ -37238,7 +37238,7 @@ so
 f
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 ;
@@ -44069,7 +44069,7 @@ vis
 =
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -44250,13 +44250,13 @@ GetSize
 !
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
 IsEqualEdges
 (
-GetVisualOverflowFromDeltas
+InkOverflowFromDeltas
 (
 )
 )
@@ -44445,7 +44445,7 @@ IsEqualEdges
 aOverflowOverride
 -
 >
-VisualOverflow
+InkOverflow
 (
 )
 )
@@ -44484,7 +44484,7 @@ IsEqualEdges
 aFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )
@@ -44497,7 +44497,7 @@ IsEqualEdges
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 )
@@ -45240,7 +45240,7 @@ vo
 =
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -45345,7 +45345,7 @@ if
 !
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -45835,7 +45835,7 @@ vo
 =
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -45858,7 +45858,7 @@ aNewSize
 ;
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 =
@@ -45867,7 +45867,7 @@ ComputeEffectsRect
 this
 aOverflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 aNewSize
@@ -52279,7 +52279,7 @@ clipRect
 clipParent
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -52427,7 +52427,7 @@ const
 nsRect
 rect
 =
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -53121,7 +53121,7 @@ scrollFrame
 {
 area
 =
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 ;
@@ -59707,7 +59707,7 @@ PrettyUC
 (
 aMetrics
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -59723,7 +59723,7 @@ PrettyUC
 (
 aMetrics
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -59739,7 +59739,7 @@ PrettyUC
 (
 aMetrics
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -59755,7 +59755,7 @@ PrettyUC
 (
 aMetrics
 .
-VisualOverflow
+InkOverflow
 (
 )
 .
@@ -59795,7 +59795,7 @@ storedOverflow
 aFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -59966,7 +59966,7 @@ storedOverflow
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 ;

@@ -449,7 +449,7 @@ aView
 const
 nsRect
 &
-aVisualOverflowArea
+aInkOverflowArea
 ReflowChildFlags
 aFlags
 =

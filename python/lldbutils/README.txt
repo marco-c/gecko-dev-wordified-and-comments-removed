@@ -332,7 +332,7 @@ nobr
 0
 690
 }
-vis
+ink
 -
 overflow
 =
@@ -493,7 +493,7 @@ html
 60
 60
 }
-vis
+ink
 -
 overflow
 =
@@ -547,7 +547,7 @@ html
 60
 2196
 }
-vis
+ink
 -
 overflow
 =
@@ -615,7 +615,7 @@ bm
 0
 1236
 }
-vis
+ink
 -
 overflow
 =
@@ -646,7 +646,7 @@ body
 0
 1236
 }
-vis
+ink
 -
 overflow
 =
@@ -710,7 +710,7 @@ nobr
 7740
 1236
 }
-vis
+ink
 -
 overflow
 =
@@ -737,7 +737,7 @@ nsTextControlFrame
 7740
 1170
 }
-vis
+ink
 -
 overflow
 =
@@ -870,7 +870,7 @@ nobr
 0
 690
 }
-vis
+ink
 -
 overflow
 =

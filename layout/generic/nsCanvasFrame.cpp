@@ -1521,7 +1521,7 @@ const
 nsRect
 result
 (
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 )

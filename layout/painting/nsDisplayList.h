@@ -26801,7 +26801,7 @@ r
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 +

@@ -551,7 +551,7 @@ mBlockWM
 aFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 +

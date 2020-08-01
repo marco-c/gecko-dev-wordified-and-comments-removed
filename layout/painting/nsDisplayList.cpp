@@ -2594,7 +2594,7 @@ overflowRect
 aFrame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -24142,7 +24142,7 @@ return
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -29684,7 +29684,7 @@ visibleDevPixels
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 .
@@ -39403,7 +39403,7 @@ overflow
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -41432,7 +41432,7 @@ untransformedVisibleRect
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -44237,7 +44237,7 @@ mBounds
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -49301,7 +49301,7 @@ mEffectsBounds
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 )

@@ -2708,7 +2708,7 @@ visibleRect
 child
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;

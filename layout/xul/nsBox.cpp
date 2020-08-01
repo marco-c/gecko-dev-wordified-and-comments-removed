@@ -1421,7 +1421,7 @@ LayoutFlags
 )
 ;
 nsRect
-visualOverflow
+inkOverflow
 ;
 if
 (
@@ -1430,9 +1430,9 @@ XULComputesOwnOverflowArea
 )
 )
 {
-visualOverflow
+inkOverflow
 =
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 ;
@@ -1491,11 +1491,11 @@ GetSize
 )
 )
 ;
-visualOverflow
+inkOverflow
 =
 overflowAreas
 .
-VisualOverflow
+InkOverflow
 (
 )
 ;
@@ -1521,7 +1521,7 @@ SyncFrameViewAfterReflow
 presContext
 this
 view
-visualOverflow
+inkOverflow
 flags
 )
 ;

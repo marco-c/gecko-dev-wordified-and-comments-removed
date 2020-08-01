@@ -425,7 +425,7 @@ aDrawTarget
 )
 ;
 nsBoundingMetrics
-GetInkBoundsForVisualOverflow
+GetInkBoundsForInkOverflow
 (
 const
 char16_t

@@ -2490,7 +2490,7 @@ SVG
 do
 not
 maintain
-visual
+ink
 overflow
 rects
 "
@@ -2647,7 +2647,7 @@ aPreFilterDirtyRegion
 const
 nsRect
 *
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 const
 gfxRect
 *
@@ -2798,14 +2798,14 @@ targetBounds
 ;
 if
 (
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 )
 {
 targetBounds
 =
 FrameSpaceToFilterSpace
 (
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 )
 ;
 }
@@ -2821,7 +2821,7 @@ preFilterVOR
 mTargetFrame
 -
 >
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 )
 ;

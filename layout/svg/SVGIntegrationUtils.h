@@ -246,7 +246,7 @@ aUnionContinuations
 ;
 static
 nsRect
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 (
 nsIFrame
 *

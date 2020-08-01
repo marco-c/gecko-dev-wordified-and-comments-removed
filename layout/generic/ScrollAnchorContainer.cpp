@@ -585,7 +585,7 @@ overflowRect
 continuation
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 ;
@@ -638,7 +638,7 @@ overflowRect
 aCandidate
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 ;

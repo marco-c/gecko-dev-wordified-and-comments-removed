@@ -2346,7 +2346,7 @@ self
 mFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -11204,7 +11204,7 @@ FromAppUnits
 frame
 -
 >
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 auPerDevPx

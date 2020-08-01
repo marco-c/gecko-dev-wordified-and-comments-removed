@@ -2816,7 +2816,7 @@ if
 child
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .
@@ -2847,7 +2847,7 @@ if
 child
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 .

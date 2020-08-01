@@ -877,7 +877,7 @@ Frame
 )
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -1073,7 +1073,7 @@ FromAppUnits
 frame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
@@ -1612,7 +1612,7 @@ AppendRectToPath
 pathBuilder
 NSRectToSnappedRect
 (
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +

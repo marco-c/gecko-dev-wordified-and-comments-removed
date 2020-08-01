@@ -365,7 +365,7 @@ nullptr
 const
 nsRect
 *
-aPreFilterVisualOverflowRectOverride
+aPreFilterInkOverflowRectOverride
 =
 nullptr
 const

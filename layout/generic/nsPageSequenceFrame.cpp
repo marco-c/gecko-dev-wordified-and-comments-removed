@@ -3415,7 +3415,7 @@ if
 child
 -
 >
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 .

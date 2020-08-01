@@ -5043,7 +5043,7 @@ TransformRect
 child
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 child
@@ -5082,7 +5082,7 @@ TransformRect
 child
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 child
@@ -5325,7 +5325,7 @@ aScrolledFrameOverflowArea
 child
 -
 >
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 )
@@ -5742,7 +5742,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 ;
@@ -5925,7 +5925,7 @@ mHelper
 mScrolledFrame
 -
 >
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 ;
@@ -15418,7 +15418,7 @@ i
 ]
 -
 >
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 :
@@ -15466,7 +15466,7 @@ i
 ]
 -
 >
-GetVisualOverflowRectRelativeToParent
+InkOverflowRectRelativeToParent
 (
 )
 :
@@ -16962,7 +16962,7 @@ so
 mScrolledFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 ;
@@ -17587,7 +17587,7 @@ GetUnsnappedScrolledRectInternal
 mScrolledFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 mScrollPort
@@ -31023,7 +31023,7 @@ GetUnsnappedScrolledRectInternal
 mScrolledFrame
 -
 >
-GetScrollableOverflowRect
+ScrollableOverflowRect
 (
 )
 mScrollPort
@@ -32272,7 +32272,7 @@ mArea
 mScrolledFrame
 -
 >
-GetScrollableOverflowRectRelativeToParent
+ScrollableOverflowRectRelativeToParent
 (
 )
 ;

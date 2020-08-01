@@ -212,7 +212,7 @@ namespace
 mozilla
 {
 class
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 :
 public
 nsLayoutUtils
@@ -222,7 +222,7 @@ BoxCallback
 {
 public
 :
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 (
 nsIFrame
 *
@@ -297,7 +297,7 @@ mCurrentFrame
 ?
 mCurrentFrameOverflowArea
 :
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 aFrame
 mInReflow
@@ -334,7 +334,7 @@ private
 :
 static
 nsRect
-GetPreEffectsVisualOverflowRect
+PreEffectsInkOverflowRect
 (
 nsIFrame
 *
@@ -410,7 +410,7 @@ MOZ_ASSERT
 !
 preTransformOverflows
 "
-GetVisualOverflowRect
+InkOverflowRect
 (
 )
 won
@@ -433,7 +433,7 @@ return
 aFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 ;
@@ -461,7 +461,7 @@ mInReflow
 ;
 static
 nsRect
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 nsIFrame
 *
@@ -498,7 +498,7 @@ here
 "
 )
 ;
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 collector
 (
 aFirstContinuation
@@ -529,7 +529,7 @@ aFirstContinuationToUserSpace
 }
 static
 nsRect
-GetPreEffectsVisualOverflow
+GetPreEffectsInkOverflow
 (
 nsIFrame
 *
@@ -560,7 +560,7 @@ here
 "
 )
 ;
-PreEffectsVisualOverflowCollector
+PreEffectsInkOverflowCollector
 collector
 (
 aFirstContinuation
@@ -1084,7 +1084,7 @@ r
 aUnionContinuations
 )
 ?
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 firstFrame
 nullptr
@@ -1098,7 +1098,7 @@ firstFrame
 false
 )
 :
-GetPreEffectsVisualOverflow
+GetPreEffectsInkOverflow
 (
 firstFrame
 aNonSVGFrame
@@ -1125,7 +1125,7 @@ nsRect
 SVGIntegrationUtils
 :
 :
-ComputePostEffectsVisualOverflowRect
+ComputePostEffectsInkOverflowRect
 (
 nsIFrame
 *
@@ -1248,7 +1248,7 @@ nsLayoutUtils
 :
 RectToGfxRect
 (
-GetPreEffectsVisualOverflowUnion
+GetPreEffectsInkOverflowUnion
 (
 firstFrame
 aFrame

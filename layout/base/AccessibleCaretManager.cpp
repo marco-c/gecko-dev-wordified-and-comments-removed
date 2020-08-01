@@ -6019,7 +6019,7 @@ childRect
 child
 -
 >
-GetScrollableOverflowRectRelativeToSelf
+ScrollableOverflowRectRelativeToSelf
 (
 )
 ;

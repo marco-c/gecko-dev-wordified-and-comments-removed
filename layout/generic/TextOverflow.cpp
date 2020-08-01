@@ -3179,7 +3179,7 @@ mBlockWM
 aLine
 -
 >
-GetScrollableOverflowArea
+ScrollableOverflowRect
 (
 )
 mBlockSize

@@ -6825,7 +6825,7 @@ aNativeTheme
 aForFrame
 -
 >
-GetVisualOverflowRectRelativeToSelf
+InkOverflowRectRelativeToSelf
 (
 )
 +
