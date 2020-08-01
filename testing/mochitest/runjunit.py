@@ -13,6 +13,8 @@ re
 import
 shutil
 import
+six
+import
 sys
 import
 tempfile
@@ -1496,10 +1498,11 @@ env_val
 in
 enumerate
 (
-env
+six
 .
 iteritems
 (
+env
 )
 )
 :
@@ -1816,6 +1819,15 @@ callback
 line
 )
 :
+            
+line
+=
+six
+.
+ensure_str
+(
+line
+)
             
 self
 .

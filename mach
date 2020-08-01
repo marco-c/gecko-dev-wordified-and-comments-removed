@@ -161,9 +161,6 @@ geckodriver
 geckodriver
 -
 test
-geckoview
--
-junit
 hazards
 jsapi
 -

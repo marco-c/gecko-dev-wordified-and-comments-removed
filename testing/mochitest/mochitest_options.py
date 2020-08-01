@@ -24,7 +24,13 @@ itertools
 import
 chain
 from
-urlparse
+six
+.
+moves
+.
+urllib
+.
+parse
 import
 urlparse
 import
