@@ -1859,9 +1859,7 @@ get
 .
 immutableFlags
 =
-result
-.
-top_level_script
+smooshStencil
 .
 immutable_flags
 ;
