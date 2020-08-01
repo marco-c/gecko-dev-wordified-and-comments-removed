@@ -2610,16 +2610,6 @@ with
 you
 .
 "
-scene2_title
-:
-"
-Let
-'
-s
-do
-this
-!
-"
 error_text
 :
 "
