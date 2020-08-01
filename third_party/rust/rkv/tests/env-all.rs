@@ -14,6 +14,7 @@ use
 rkv
 :
 :
+{
 backend
 :
 :
@@ -21,12 +22,6 @@ backend
 Lmdb
 SafeMode
 }
-;
-use
-rkv
-:
-:
-{
 Rkv
 StoreOptions
 Value
