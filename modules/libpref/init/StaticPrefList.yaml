@@ -3235,7 +3235,7 @@ type
 RelaxedAtomicBool
 value
 :
-IS_ANDROID
+true
 mirror
 :
 always
