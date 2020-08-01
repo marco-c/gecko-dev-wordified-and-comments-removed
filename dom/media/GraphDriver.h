@@ -2042,11 +2042,6 @@ AudioOutputLatency
 (
 )
 ;
-TimeDuration
-AudioInputLatency
-(
-)
-;
 private
 :
 void
