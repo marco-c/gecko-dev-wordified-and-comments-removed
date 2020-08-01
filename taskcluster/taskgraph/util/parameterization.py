@@ -133,16 +133,20 @@ items
 :
                     
 if
-val
-.
-keys
+set
 (
+six
+.
+iterkeys
+(
+val
+)
 )
 =
 =
-[
+{
 param_key
-]
+}
 :
                         
 return
