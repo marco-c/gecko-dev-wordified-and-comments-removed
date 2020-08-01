@@ -173,6 +173,11 @@ UrlbarResult
 jsm
 '
 '
+UrlbarSearchOneOffs
+.
+jsm
+'
+'
 UrlbarSearchUtils
 .
 jsm
