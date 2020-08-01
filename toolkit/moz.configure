@@ -10892,6 +10892,8 @@ compile_environment
 target_is_windows
 |
 target_is_android
+|
+target_is_linux
 )
 )
 check_prog
