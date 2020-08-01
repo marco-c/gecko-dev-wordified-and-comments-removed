@@ -194,7 +194,6 @@ taskcluster
 load
 -
 image
-taskgraph
 telemetry
 -
 tests
