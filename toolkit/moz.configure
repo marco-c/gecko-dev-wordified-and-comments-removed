@@ -10888,7 +10888,11 @@ when
 =
 compile_environment
 &
+(
 target_is_windows
+|
+target_is_android
+)
 )
 check_prog
 (
