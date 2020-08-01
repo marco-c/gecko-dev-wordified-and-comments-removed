@@ -2490,9 +2490,7 @@ PKG_PATH
 SYMBOL_FULL_ARCHIVE_BASENAME
 )
 .
-tar
-.
-zst
+zip
 )
 \
 (
