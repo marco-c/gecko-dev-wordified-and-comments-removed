@@ -12421,16 +12421,6 @@ SetHasSessionHistory
 true
 )
 ;
-mChildSessionHistory
--
->
-SetIsInProcess
-(
-IsInProcess
-(
-)
-)
-;
 }
 }
 ChildSHistory
