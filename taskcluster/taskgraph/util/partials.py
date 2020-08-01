@@ -1885,10 +1885,11 @@ for
 version
 release
 in
-partial_updates
+six
 .
 iteritems
 (
+partial_updates
 )
 :
         
