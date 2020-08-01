@@ -2359,6 +2359,14 @@ RMDir
 REBOOTOK
 "
 INSTDIR
+\
+UpdateLogs
+"
+RMDir
+/
+REBOOTOK
+"
+INSTDIR
 "
 {
 If
