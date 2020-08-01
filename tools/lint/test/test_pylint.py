@@ -39,7 +39,7 @@ results
 assert
 results
 [
-0
+1
 ]
 .
 rule
@@ -52,7 +52,7 @@ E0602
 assert
 results
 [
-1
+2
 ]
 .
 rule
@@ -65,7 +65,7 @@ W0101
 assert
 results
 [
-1
+2
 ]
 .
 lineno

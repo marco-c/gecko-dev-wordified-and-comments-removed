@@ -903,6 +903,24 @@ lintargs
 )
         
 if
+isinstance
+(
+results
+(
+list
+tuple
+)
+)
+:
+            
+results
+=
+sorted
+(
+results
+)
+        
+if
 not
 collapse_results
 :
