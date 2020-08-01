@@ -734,11 +734,12 @@ UrlClassifierFeatureFlash
 :
 :
 ProcessChannel
--
 annotating
 channel
+[
 %
 p
+]
 "
 aChannel
 )
