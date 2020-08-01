@@ -10013,7 +10013,7 @@ continue
 ;
 }
 let
-cleanNames
+stagedFailureNames
 =
 [
 ]
@@ -10105,7 +10105,7 @@ name
 id
 ]
 ;
-cleanNames
+stagedFailureNames
 .
 push
 (
@@ -10170,7 +10170,10 @@ try
 {
 if
 (
-cleanNames
+changed
+|
+|
+stagedFailureNames
 .
 length
 )
@@ -10181,7 +10184,7 @@ installer
 .
 cleanStagingDir
 (
-cleanNames
+stagedFailureNames
 )
 ;
 }
