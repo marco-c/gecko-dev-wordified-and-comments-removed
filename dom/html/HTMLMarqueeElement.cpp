@@ -316,6 +316,10 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
+NotifyUAWidgetSetupOrChange
+(
+)
+;
 }
 return
 rv

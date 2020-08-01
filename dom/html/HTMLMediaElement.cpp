@@ -21813,6 +21813,10 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
+NotifyUAWidgetSetupOrChange
+(
+)
+;
 UpdatePreloadAction
 (
 )
