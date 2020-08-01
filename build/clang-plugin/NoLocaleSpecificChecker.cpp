@@ -346,6 +346,12 @@ toupper
 )
 )
 )
+unless
+(
+isAllowedToUseLocaleSpecificFunctions
+(
+)
+)
 )
 )
 .
