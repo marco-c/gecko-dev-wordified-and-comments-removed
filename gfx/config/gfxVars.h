@@ -422,6 +422,13 @@ UseAHardwareBufferContent
 bool
 false
 )
+\
+_
+(
+UseEGL
+bool
+false
+)
 class
 gfxVars
 final
