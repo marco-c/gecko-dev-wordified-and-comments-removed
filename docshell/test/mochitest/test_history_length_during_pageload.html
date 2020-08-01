@@ -85,6 +85,7 @@ waitForExplicitFinish
 function
 runTest
 (
+testAsyncLength
 )
 {
 return
@@ -195,7 +196,12 @@ open
 file_history_length_during_pageload
 .
 html
+?
+testAsyncLength
+=
 "
++
+testAsyncLength
 )
 ;
 }
@@ -232,6 +238,7 @@ false
 await
 runTest
 (
+true
 )
 ;
 await
@@ -258,6 +265,7 @@ true
 await
 runTest
 (
+false
 )
 ;
 SimpleTest
