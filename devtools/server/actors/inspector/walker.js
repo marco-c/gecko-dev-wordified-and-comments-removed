@@ -1948,9 +1948,6 @@ traits
 supportsNodePicker
 :
 true
-watchRootNode
-:
-true
 }
 }
 ;
