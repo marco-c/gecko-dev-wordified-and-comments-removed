@@ -1480,8 +1480,9 @@ nullptr
 }
 }
 }
+const
 bool
-endIsData
+endIsCharacterData
 =
 mEnd
 .
@@ -1496,7 +1497,7 @@ IsCharacterData
 ;
 if
 (
-endIsData
+endIsCharacterData
 |
 |
 !
@@ -1612,7 +1613,7 @@ name
 if
 (
 !
-endIsData
+endIsCharacterData
 &
 &
 !
@@ -1726,7 +1727,7 @@ else
 if
 (
 !
-endIsData
+endIsCharacterData
 )
 {
 mIterator
