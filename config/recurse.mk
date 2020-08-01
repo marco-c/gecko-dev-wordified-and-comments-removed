@@ -1398,6 +1398,10 @@ icu
 /
 data
 /
+(
+MDDEPDIR
+)
+/
 icudt
 (
 MOZ_ICU_VERSION
@@ -1405,6 +1409,8 @@ MOZ_ICU_VERSION
 b
 .
 dat
+.
+stub
 config
 /
 external
@@ -1413,6 +1419,10 @@ icu
 /
 data
 /
+(
+MDDEPDIR
+)
+/
 icudt
 (
 MOZ_ICU_VERSION
@@ -1420,6 +1430,8 @@ MOZ_ICU_VERSION
 b
 .
 dat
+.
+stub
 :
 config
 /
