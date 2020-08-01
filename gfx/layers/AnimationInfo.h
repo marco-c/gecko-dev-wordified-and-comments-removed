@@ -407,6 +407,17 @@ aType
 LayerManager
 *
 aLayerManager
+const
+Maybe
+<
+LayoutDevicePoint
+>
+&
+aPosition
+=
+Nothing
+(
+)
 )
 ;
 private
