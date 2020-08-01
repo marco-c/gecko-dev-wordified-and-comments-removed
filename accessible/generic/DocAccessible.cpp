@@ -2836,6 +2836,14 @@ ToMilliseconds
 kScrollEventInterval
 )
 {
+if
+(
+HasLoadState
+(
+eTreeConstructed
+)
+)
+{
 DispatchScrollingEvent
 (
 aTarget
@@ -2845,6 +2853,7 @@ nsIAccessibleEvent
 EVENT_SCROLLING
 )
 ;
+}
 mLastScrollingDispatch
 .
 Put
@@ -7722,6 +7731,12 @@ aIsReloading
 &
 !
 mLoadEventType
+&
+&
+HasLoadState
+(
+eTreeConstructed
+)
 )
 {
 RefPtr
