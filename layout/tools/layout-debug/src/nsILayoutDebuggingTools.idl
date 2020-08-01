@@ -251,11 +251,6 @@ tests
 *
 /
 void
-dumpWebShells
-(
-)
-;
-void
 dumpContent
 (
 )

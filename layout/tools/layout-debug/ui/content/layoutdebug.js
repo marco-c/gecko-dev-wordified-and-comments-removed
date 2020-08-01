@@ -241,9 +241,6 @@ COMMANDS
 =
 [
 "
-dumpWebShells
-"
-"
 dumpContent
 "
 "
