@@ -967,8 +967,6 @@ condprof
 g5
 -
 fenix
-.
-nightly
 dependencies
 :
 build
@@ -1136,8 +1134,6 @@ org
 mozilla
 .
 fenix
-.
-nightly
 -
 -
 scenario
@@ -1519,8 +1515,6 @@ condprof
 p2_aarch64
 -
 fenix
-.
-nightly
 dependencies
 :
 build
@@ -1696,8 +1690,6 @@ org
 mozilla
 .
 fenix
-.
-nightly
 -
 -
 scenario
