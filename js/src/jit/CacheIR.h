@@ -7559,6 +7559,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachMathImul
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachMathFloor
 (
 HandleFunction
