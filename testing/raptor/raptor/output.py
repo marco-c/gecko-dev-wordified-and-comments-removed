@@ -547,6 +547,25 @@ self
 mozproxy_data
 =
 True
+                
+LOG
+.
+info
+(
+"
+data
+:
+{
+}
+"
+.
+format
+(
+self
+.
+supporting_data
+)
+)
             
 if
 data_type
