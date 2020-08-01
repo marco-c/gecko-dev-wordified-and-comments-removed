@@ -1191,6 +1191,13 @@ sctp_handle_sack
 \
 n
 "
+"
+mutex
+:
+XErrorTrap
+\
+n
+"
 ;
 }
 #
