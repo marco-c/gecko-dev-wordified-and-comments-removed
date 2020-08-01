@@ -3292,6 +3292,17 @@ DidSet
 (
 FieldIndex
 <
+IDX_IsActive
+>
+bool
+aOldValue
+)
+;
+void
+DidSet
+(
+FieldIndex
+<
 IDX_Muted
 >
 )
