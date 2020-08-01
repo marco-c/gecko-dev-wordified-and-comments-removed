@@ -6984,6 +6984,11 @@ IsCurrentActiveDocument
 IsBeingUsedAsImage
 (
 )
+|
+|
+IsStaticDocument
+(
+)
 ;
 }
 void
