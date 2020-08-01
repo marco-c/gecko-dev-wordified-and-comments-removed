@@ -521,7 +521,7 @@ calculate_memory_report_values
 memory_report_path
 data_point_path
                                    
-process_name
+process_names
 =
 None
 )
@@ -596,7 +596,7 @@ process_name
 :
 Name
 of
-process
+processes
 to
 limit
 reports
@@ -668,7 +668,10 @@ data_point_path
 )
     
 if
-process_name
+process_names
+is
+not
+None
 :
         
 for
@@ -682,10 +685,19 @@ keys
 :
             
 if
-process_name
 not
+any
+(
+[
+process_name
 in
 k
+for
+process_name
+in
+process_names
+]
+)
 :
                 
 del
@@ -819,6 +831,12 @@ action
 =
 '
 store
+'
+                        
+nargs
+=
+'
+*
 '
 default
 =
