@@ -1993,9 +1993,6 @@ ruleview
 -
 enableproperty
 {
--
-moz
--
 appearance
 :
 none
@@ -2268,8 +2265,14 @@ ruleview
 -
 enableproperty
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

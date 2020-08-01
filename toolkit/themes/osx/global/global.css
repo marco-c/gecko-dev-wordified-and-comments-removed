@@ -242,8 +242,14 @@ mac
 -
 focusring
 ;
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -520,9 +526,6 @@ moz
 -
 lwtheme
 {
--
-moz
--
 appearance
 :
 none
@@ -940,9 +943,6 @@ height
 :
 16px
 ;
--
-moz
--
 appearance
 :
 none

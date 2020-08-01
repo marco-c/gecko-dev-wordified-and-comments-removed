@@ -1240,8 +1240,14 @@ gutter
 -
 filler
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

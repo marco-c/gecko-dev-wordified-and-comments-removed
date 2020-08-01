@@ -77,8 +77,14 @@ MenuText
 }
 menupopup
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -117,9 +123,6 @@ arrow
 "
 ]
 {
--
-moz
--
 appearance
 :
 none
@@ -805,9 +808,6 @@ menulist
 >
 menupopup
 {
--
-moz
--
 appearance
 :
 none

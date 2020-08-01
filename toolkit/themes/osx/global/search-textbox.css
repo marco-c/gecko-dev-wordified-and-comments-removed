@@ -50,8 +50,14 @@ xhtml
 :
 host
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

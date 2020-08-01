@@ -65,9 +65,6 @@ png
 "
 )
 ;
--
-moz
--
 appearance
 :
 none
@@ -409,9 +406,6 @@ block
 #
 mediaSplitter
 {
--
-moz
--
 appearance
 :
 none
@@ -479,8 +473,14 @@ graytext
 #
 permList
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

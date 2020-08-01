@@ -75,8 +75,14 @@ lwtheme
 -
 darktext
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

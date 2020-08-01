@@ -28,9 +28,6 @@ xul
 ;
 button
 {
--
-moz
--
 appearance
 :
 button
@@ -269,9 +266,6 @@ menu
 -
 dropmarker
 {
--
-moz
--
 appearance
 :
 none
@@ -357,9 +351,6 @@ margin
 :
 0
 ;
--
-moz
--
 appearance
 :
 none

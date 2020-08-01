@@ -311,9 +311,6 @@ off
 -
 item
 {
--
-moz
--
 appearance
 :
 none
@@ -538,9 +535,6 @@ addengine
 -
 item
 {
--
-moz
--
 appearance
 :
 none
@@ -932,8 +926,16 @@ moz
 -
 box
 ;
+appearance
+:
+auto
+!
+important
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -1132,9 +1134,6 @@ setting
 -
 button
 {
--
-moz
--
 appearance
 :
 none

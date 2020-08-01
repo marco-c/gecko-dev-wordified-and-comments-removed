@@ -214,8 +214,14 @@ color
 :
 GrayText
 ;
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -702,9 +708,6 @@ moz
 -
 lwtheme
 {
--
-moz
--
 appearance
 :
 none

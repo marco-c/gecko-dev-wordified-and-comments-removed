@@ -28,9 +28,6 @@ xul
 ;
 button
 {
--
-moz
--
 appearance
 :
 button
@@ -234,9 +231,6 @@ display
 :
 none
 ;
--
-moz
--
 appearance
 :
 none
@@ -268,8 +262,14 @@ help
 "
 ]
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :

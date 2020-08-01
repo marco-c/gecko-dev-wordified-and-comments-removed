@@ -50,8 +50,14 @@ xhtml
 menupopup
 panel
 {
+appearance
+:
+auto
+;
 -
 moz
+-
+default
 -
 appearance
 :
@@ -77,9 +83,6 @@ arrow
 "
 ]
 {
--
-moz
--
 appearance
 :
 none
@@ -690,9 +693,6 @@ true
 "
 ]
 {
--
-moz
--
 appearance
 :
 none

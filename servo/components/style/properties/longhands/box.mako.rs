@@ -4104,7 +4104,7 @@ exposed
 enabled_in
 =
 "
-ua
+chrome
 "
 gecko_ffi_name
 =
