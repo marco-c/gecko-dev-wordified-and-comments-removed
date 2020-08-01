@@ -81,6 +81,8 @@ ACTION
 :
 "
 action
+.
+type
 )
 ;
 return
