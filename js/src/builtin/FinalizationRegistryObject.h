@@ -346,7 +346,7 @@ enum
 CleanupCallbackSlot
 =
 0
-IncumbentGlobalSlot
+IncumbentObjectSlot
 RegistrationsSlot
 ActiveRecords
 RecordsToBeCleanedUpSlot
@@ -382,9 +382,9 @@ cleanupCallback
 )
 const
 ;
-GlobalObject
+JSObject
 *
-incumbentGlobal
+incumbentObject
 (
 )
 const
