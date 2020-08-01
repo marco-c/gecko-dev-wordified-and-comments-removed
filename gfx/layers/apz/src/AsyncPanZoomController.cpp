@@ -10363,6 +10363,16 @@ mLocalPanStartPoint
 -
 logicalPanDisplacement
 ;
+if
+(
+logicalPanDisplacement
+!
+=
+ParentLayerPoint
+(
+)
+)
+{
 RecordScrollPayload
 (
 aEvent
@@ -10370,6 +10380,7 @@ aEvent
 mTimeStamp
 )
 ;
+}
 bool
 consumed
 =
