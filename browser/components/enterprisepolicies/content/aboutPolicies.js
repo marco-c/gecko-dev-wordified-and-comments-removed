@@ -1703,6 +1703,11 @@ let
 string_mapping
 =
 {
+DisableMasterPasswordCreation
+:
+"
+DisablePrimaryPasswordCreation
+"
 DisableSetDesktopBackground
 :
 "
@@ -1722,11 +1727,6 @@ Permissions
 :
 "
 Permissions2
-"
-PrimaryPassword
-:
-"
-MasterPassword
 "
 }
 ;

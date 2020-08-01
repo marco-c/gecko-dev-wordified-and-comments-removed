@@ -1777,10 +1777,14 @@ and
 passwords
 #
 #
-Master
+Primary
 Password
 notification
-master
+about
+-
+logins
+-
+primary
 -
 password
 -
@@ -1791,8 +1795,8 @@ message
 Please
 enter
 your
-master
-password
+Primary
+Password
 to
 view
 saved
