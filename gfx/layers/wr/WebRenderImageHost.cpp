@@ -868,7 +868,7 @@ GetCompositionTime
 )
 )
 {
-UpdateCompositedFrame
+OnFinishRendering
 (
 imageIndex
 img
