@@ -139,6 +139,11 @@ aError
 )
 override
 ;
+void
+SetDevtoolsAsTriggeringPrincipal
+(
+)
+;
 virtual
 nsresult
 BindToTree

@@ -3192,6 +3192,14 @@ aError
 )
 ;
 }
+already_AddRefed
+<
+nsIPrincipal
+>
+CreateDevtoolsPrincipal
+(
+)
+;
 void
 SetAttributeDevtools
 (
