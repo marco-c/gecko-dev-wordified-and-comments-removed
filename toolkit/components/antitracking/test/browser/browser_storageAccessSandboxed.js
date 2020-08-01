@@ -353,7 +353,11 @@ true
 ]
 false
 false
-0
+Ci
+.
+nsIWebProgressListener
+.
+STATE_COOKIES_BLOCKED_TRACKER
 false
 "
 allow
