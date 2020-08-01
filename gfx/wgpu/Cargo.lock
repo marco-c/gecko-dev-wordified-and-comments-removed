@@ -5741,6 +5741,13 @@ dependencies
 env_logger
 "
 "
+gfx
+-
+backend
+-
+vulkan
+"
+"
 log
 "
 "

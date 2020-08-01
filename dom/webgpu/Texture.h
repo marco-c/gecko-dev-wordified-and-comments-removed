@@ -112,6 +112,12 @@ HTMLCanvasElement
 >
 mTargetCanvasElement
 ;
+uint8_t
+BytesPerTexel
+(
+)
+const
+;
 private
 :
 virtual

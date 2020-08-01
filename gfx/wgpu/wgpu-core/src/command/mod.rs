@@ -91,7 +91,6 @@ track
 :
 :
 TrackerSet
-LifeGuard
 PrivateFeatures
 Stored
 }
@@ -1019,13 +1018,6 @@ id
 :
 DeviceId
 >
-pub
-(
-crate
-)
-life_guard
-:
-LifeGuard
 pub
 (
 crate
