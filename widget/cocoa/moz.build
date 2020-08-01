@@ -233,11 +233,6 @@ nsMenuX
 mm
 '
 '
-nsNativeBasicThemeCocoa
-.
-cpp
-'
-'
 nsPrintDialogX
 .
 mm

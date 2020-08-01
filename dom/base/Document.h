@@ -11196,12 +11196,6 @@ nsFrameLoader
 aStaticCloneOf
 )
 ;
-bool
-ShouldAvoidNativeTheme
-(
-)
-const
-;
 protected
 :
 void

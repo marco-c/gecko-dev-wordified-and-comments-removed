@@ -833,11 +833,6 @@ HasDropDownButton
 )
 const
 ;
-nscoord
-DropDownButtonISize
-(
-)
-;
 enum
 DropDownPositionState
 {
