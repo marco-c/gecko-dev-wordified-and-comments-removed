@@ -879,6 +879,14 @@ attribute
 DOMString
 replacesClientId
 ;
+readonly
+attribute
+Promise
+<
+void
+>
+handled
+;
 void
 respondWith
 (
@@ -923,6 +931,12 @@ replacesClientId
 =
 "
 "
+;
+Promise
+<
+void
+>
+handled
 ;
 }
 ;
