@@ -9636,16 +9636,7 @@ flags
 )
 {
 return
-emitCallFunction
-(
-calleeId
-argcId
-flags
-CallKind
-:
-:
-Scripted
-)
+true
 ;
 }
 bool
