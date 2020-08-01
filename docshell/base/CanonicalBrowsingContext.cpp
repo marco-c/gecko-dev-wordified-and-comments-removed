@@ -5288,7 +5288,6 @@ LoadInParent
 (
 this
 aLoadState
-outerWindowId
 aSetNavigating
 )
 ;
@@ -5379,7 +5378,6 @@ SpeculativeLoadInParent
 (
 this
 aLoadState
-outerWindowId
 )
 ;
 }
