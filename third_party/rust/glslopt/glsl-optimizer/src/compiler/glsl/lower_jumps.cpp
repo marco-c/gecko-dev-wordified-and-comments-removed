@@ -650,6 +650,12 @@ ir_lower_jumps_visitor
 public
 ir_control_flow_visitor
 {
+using
+ir_control_flow_visitor
+:
+:
+visit
+;
 bool
 progress
 ;

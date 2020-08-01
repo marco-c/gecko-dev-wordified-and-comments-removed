@@ -393,6 +393,15 @@ exec_list
 instructions
 )
 ;
+void
+call_enter_leave_callbacks
+(
+class
+ir_instruction
+*
+ir
+)
+;
 class
 ir_instruction
 *

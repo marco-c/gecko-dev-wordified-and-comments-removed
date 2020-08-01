@@ -1526,6 +1526,11 @@ derivative_group
 :
 1
 ;
+unsigned
+viewport_relative
+:
+1
+;
 }
 q
 ;
@@ -1620,7 +1625,8 @@ ast_layout_expression
 *
 vertices
 ;
-GLenum
+enum
+pipe_format
 image_format
 ;
 enum

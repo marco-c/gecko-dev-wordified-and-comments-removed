@@ -41,10 +41,7 @@ extern
 void
 _mesa_one_time_init_extension_overrides
 (
-struct
-gl_context
-*
-ctx
+void
 )
 ;
 extern

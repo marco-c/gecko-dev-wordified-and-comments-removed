@@ -323,10 +323,9 @@ __GNUC__
 )
 &
 &
-!
 defined
 (
-PIPE_ARCH_X86_64
+PIPE_ARCH_X86
 )
 #
 define

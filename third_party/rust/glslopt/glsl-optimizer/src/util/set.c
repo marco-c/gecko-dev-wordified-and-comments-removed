@@ -298,6 +298,7 @@ ENTRY
 )
 }
 ;
+ASSERTED
 static
 inline
 bool

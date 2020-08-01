@@ -114,6 +114,18 @@ struct
 #
 ifdef
 _MSC_VER
+#
+if
+_WIN64
+__declspec
+(
+align
+(
+16
+)
+)
+#
+else
 __declspec
 (
 align
@@ -121,6 +133,8 @@ align
 8
 )
 )
+#
+endif
 #
 elif
 defined
