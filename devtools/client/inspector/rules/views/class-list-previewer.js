@@ -60,8 +60,10 @@ properties
 "
 )
 ;
-function
+class
 ClassListPreviewer
+{
+constructor
 (
 inspector
 containerEl
@@ -336,11 +338,6 @@ onNewSelection
 )
 ;
 }
-ClassListPreviewer
-.
-prototype
-=
-{
 destroy
 (
 )
@@ -897,7 +894,6 @@ render
 ;
 }
 }
-;
 module
 .
 exports
