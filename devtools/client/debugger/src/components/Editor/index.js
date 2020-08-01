@@ -1341,7 +1341,7 @@ key
 )
 this
 .
-onClosePress
+onCloseShortcutPress
 )
 ;
 shortcuts
@@ -1357,7 +1357,7 @@ onEscape
 )
 ;
 }
-onClosePress
+onCloseShortcutPress
 =
 (
 key
@@ -1405,6 +1405,9 @@ closeTab
 (
 cx
 selectedSource
+"
+shortcut
+"
 )
 ;
 }
