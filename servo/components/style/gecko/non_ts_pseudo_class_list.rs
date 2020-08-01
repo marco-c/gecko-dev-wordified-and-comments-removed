@@ -193,6 +193,17 @@ _
 -
 moz
 -
+inert
+"
+MozInert
+IN_MOZINERT_STATE
+PSEUDO_CLASS_ENABLED_IN_UA_SHEETS
+)
+(
+"
+-
+moz
+-
 devtools
 -
 highlighted

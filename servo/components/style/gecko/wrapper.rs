@@ -11478,6 +11478,11 @@ Indeterminate
 NonTSPseudoClass
 :
 :
+MozInert
+|
+NonTSPseudoClass
+:
+:
 PlaceholderShown
 |
 NonTSPseudoClass
