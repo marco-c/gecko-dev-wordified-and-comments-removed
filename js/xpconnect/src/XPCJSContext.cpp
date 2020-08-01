@@ -3078,6 +3078,14 @@ ShowSlowScriptDialog
 (
 cx
 addonId
+self
+-
+>
+mSlowScriptActualWait
+.
+ToMilliseconds
+(
+)
 )
 ;
 if

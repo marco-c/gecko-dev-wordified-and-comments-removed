@@ -63,6 +63,11 @@ scriptFileName
 ;
 readonly
 attribute
+double
+hangDuration
+;
+readonly
+attribute
 AString
 addonId
 ;
