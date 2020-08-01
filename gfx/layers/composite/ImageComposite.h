@@ -336,6 +336,9 @@ mLastProducerID
 -
 1
 ;
+CompositionOpportunityId
+mLastCompositionOpportunityId
+;
 private
 :
 nsTArray
