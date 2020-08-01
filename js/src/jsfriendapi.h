@@ -1614,7 +1614,7 @@ comp
 )
 ;
 using
-GCThingCallback
+IterateGCThingCallback
 =
 void
 (
@@ -1627,6 +1627,12 @@ JS
 :
 :
 GCCellPtr
+const
+JS
+:
+:
+AutoRequireNoGC
+&
 )
 ;
 extern
@@ -1640,7 +1646,7 @@ JS
 Zone
 *
 zone
-GCThingCallback
+IterateGCThingCallback
 callback
 void
 *
@@ -1658,7 +1664,7 @@ JS
 Zone
 *
 zone
-GCThingCallback
+IterateGCThingCallback
 cellCallback
 void
 *

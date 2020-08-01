@@ -941,6 +941,13 @@ JS
 :
 GCCellPtr
 aThing
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 ;
 void

@@ -2026,6 +2026,13 @@ JS
 :
 GCCellPtr
 aThing
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 {
 TraversalTracer
@@ -4430,6 +4437,13 @@ JS
 :
 GCCellPtr
 aThing
+const
+JS
+:
+:
+AutoRequireNoGC
+&
+nogc
 )
 {
 TraverseObjectShimClosure
