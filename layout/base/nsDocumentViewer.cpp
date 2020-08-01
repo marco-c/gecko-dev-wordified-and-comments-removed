@@ -6549,13 +6549,6 @@ SyncPresentationState
 (
 )
 ;
-shEntry
--
->
-SynchronizeLayoutHistoryState
-(
-)
-;
 #
 ifdef
 ACCESSIBILITY

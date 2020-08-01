@@ -720,11 +720,6 @@ long
 long
 bfcacheID
 ;
-void
-synchronizeLayoutHistoryState
-(
-)
-;
 [
 notxpcom
 ]
