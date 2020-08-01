@@ -1699,7 +1699,7 @@ nsACString
 aContentType
 )
 {
-MOZ_CRASH
+NS_ERROR
 (
 "
 If
