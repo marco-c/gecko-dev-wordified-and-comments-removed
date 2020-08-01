@@ -686,11 +686,6 @@ blank
 openPreferences
 (
 aPane
-)
-;
-openPreferences
-(
-aPane
 aOptions
 )
 ;
