@@ -664,6 +664,11 @@ case
 microphone
 "
 :
+case
+"
+xr
+"
+:
 checkbox
 .
 disabled

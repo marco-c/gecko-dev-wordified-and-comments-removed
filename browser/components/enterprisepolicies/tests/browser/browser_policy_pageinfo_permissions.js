@@ -69,6 +69,16 @@ Locked
 :
 true
 }
+VirtualReality
+:
+{
+BlockNewRequests
+:
+true
+Locked
+:
+true
+}
 Autoplay
 :
 {
@@ -140,6 +150,9 @@ camera
 "
 "
 microphone
+"
+"
+xr
 "
 ]
 ;
