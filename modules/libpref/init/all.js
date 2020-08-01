@@ -10570,7 +10570,7 @@ table
 -
 size
 "
-0
+65536
 )
 ;
 pref
@@ -10590,7 +10590,7 @@ stream
 -
 blocked
 "
-10
+20
 )
 ;
 pref
