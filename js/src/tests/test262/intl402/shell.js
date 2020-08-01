@@ -29,9 +29,6 @@ RelativeTimeFormat
 "
 ListFormat
 "
-"
-DisplayNames
-"
 ]
 .
 forEach

@@ -13,7 +13,7 @@ prototype
 {
 }
 ;
-var
+const
 obj
 =
 Reflect
@@ -24,6 +24,14 @@ Intl
 .
 DisplayNames
 [
+undefined
+{
+type
+:
+'
+language
+'
+}
 ]
 custom
 )

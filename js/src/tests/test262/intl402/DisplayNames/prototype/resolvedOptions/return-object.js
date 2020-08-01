@@ -1,4 +1,4 @@
-var
+const
 dn
 =
 new
@@ -11,9 +11,16 @@ en
 -
 US
 '
+{
+type
+:
+'
+language
+'
+}
 )
 ;
-var
+const
 options
 =
 dn
@@ -22,7 +29,7 @@ resolvedOptions
 (
 )
 ;
-var
+const
 other
 =
 dn
@@ -155,7 +162,7 @@ true
 }
 )
 ;
-var
+const
 explicit
 =
 new
@@ -171,6 +178,11 @@ localeMatcher
 :
 '
 lookup
+'
+type
+:
+'
+language
 '
 }
 )
@@ -206,7 +218,7 @@ set
 '
 )
 ;
-var
+const
 extra
 =
 new
@@ -233,6 +245,11 @@ sure
 '
 :
 42
+type
+:
+'
+language
+'
 }
 )
 .

@@ -1,3 +1,16 @@
+assert
+.
+sameValue
+(
+typeof
+Atomics
+.
+waitAsync
+'
+function
+'
+)
+;
 const
 value
 =
@@ -65,7 +78,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 typedArray
 0

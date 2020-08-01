@@ -6,6 +6,14 @@ Intl
 .
 DisplayNames
 (
+undefined
+{
+type
+:
+'
+language
+'
+}
 )
 ;
 assert

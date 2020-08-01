@@ -11,6 +11,13 @@ en
 -
 US
 '
+{
+type
+:
+'
+language
+'
+}
 )
 ;
 var

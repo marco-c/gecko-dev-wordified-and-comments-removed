@@ -1,3 +1,16 @@
+assert
+.
+sameValue
+(
+typeof
+Atomics
+.
+waitAsync
+'
+function
+'
+)
+;
 const
 i32a
 =
@@ -79,7 +92,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 0
@@ -91,7 +104,7 @@ poisonedValueOf
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 0
@@ -114,7 +127,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 0
@@ -126,7 +139,7 @@ poisonedToPrimitive
 '
 Atomics
 .
-wait
+waitAsync
 (
 i32a
 0

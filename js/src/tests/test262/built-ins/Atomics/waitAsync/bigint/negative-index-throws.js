@@ -191,7 +191,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 -

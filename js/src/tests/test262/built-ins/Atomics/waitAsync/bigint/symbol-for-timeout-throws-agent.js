@@ -226,7 +226,7 @@ TypeError
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0
@@ -262,7 +262,7 @@ TypeError
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0

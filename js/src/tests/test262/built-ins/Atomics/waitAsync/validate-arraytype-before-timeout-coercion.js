@@ -1,3 +1,16 @@
+assert
+.
+sameValue
+(
+typeof
+Atomics
+.
+waitAsync
+'
+function
+'
+)
+;
 const
 timeout
 =

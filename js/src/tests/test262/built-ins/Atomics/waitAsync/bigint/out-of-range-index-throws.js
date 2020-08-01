@@ -63,7 +63,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 Infinity
@@ -75,7 +75,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 Infinity
@@ -98,7 +98,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 -
@@ -111,7 +111,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 -
@@ -135,7 +135,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 4
@@ -147,7 +147,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 4
@@ -170,7 +170,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 200
@@ -182,7 +182,7 @@ poisoned
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 200

@@ -2,6 +2,11 @@ var
 options
 =
 {
+type
+:
+'
+language
+'
 }
 ;
 Object

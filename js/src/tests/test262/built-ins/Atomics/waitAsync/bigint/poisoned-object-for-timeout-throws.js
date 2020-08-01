@@ -92,7 +92,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0
@@ -104,7 +104,7 @@ poisonedValueOf
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0
@@ -127,7 +127,7 @@ function
 {
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0
@@ -139,7 +139,7 @@ poisonedToPrimitive
 '
 Atomics
 .
-wait
+waitAsync
 (
 i64a
 0

@@ -36,6 +36,14 @@ Intl
 .
 DisplayNames
 [
+undefined
+{
+type
+:
+'
+language
+'
+}
 ]
 C
 )

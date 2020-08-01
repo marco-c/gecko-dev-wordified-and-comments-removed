@@ -1,10 +1,10 @@
-var
+let
 calls
 =
 [
 ]
 ;
-var
+let
 symbol
 =
 Symbol
@@ -175,6 +175,13 @@ Intl
 DisplayNames
 (
 symbol
+{
+type
+:
+'
+language
+'
+}
 )
 ;
 assert

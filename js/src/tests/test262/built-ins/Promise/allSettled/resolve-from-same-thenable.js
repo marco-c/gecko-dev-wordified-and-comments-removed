@@ -161,7 +161,7 @@ callCount
 before
 call
 to
-all
+allSettled
 (
 )
 '
@@ -192,7 +192,7 @@ callCount
 after
 call
 to
-all
+allSettled
 (
 )
 '

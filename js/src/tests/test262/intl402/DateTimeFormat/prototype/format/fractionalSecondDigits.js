@@ -52,7 +52,7 @@ numeric
 "
 fractionalSecondDigits
 :
-0
+undefined
 }
 )
 ;
