@@ -992,6 +992,13 @@ install_manifests
 dist
 /
 include
+ifdef
+BUILD_VERBOSE_LOG
+verbose_flag
+=
+-
+v
+endif
 #
 Host
 binaries
@@ -1090,6 +1097,9 @@ host
 -
 bins
 )
+(
+verbose_flag
+)
 ifdef
 MOZ_EME_WIN32_ARTIFACT
 recurse_win32
@@ -1146,6 +1156,9 @@ DIST
 )
 /
 i686
+(
+verbose_flag
+)
 mv
 (
 DIST
