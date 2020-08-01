@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -31,6 +33,7 @@ GET
 .
 first
 (
+b
 "
 cmd
 "
@@ -48,6 +51,7 @@ GET
 .
 first
 (
+b
 "
 id
 "
@@ -61,6 +65,7 @@ GET
 .
 first
 (
+b
 "
 header
 "
@@ -70,6 +75,7 @@ if
 command
 =
 =
+b
 "
 put
 "
@@ -91,6 +97,7 @@ headers
 get
 (
 header
+b
 "
 "
 )
@@ -100,6 +107,7 @@ elif
 command
 =
 =
+b
 "
 get
 "
@@ -130,6 +138,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -150,6 +159,7 @@ response
 set_error
 (
 400
+u
 "
 Bad
 Command
@@ -157,6 +167,7 @@ Command
 )
         
 return
+b
 "
 ERROR
 :
@@ -167,5 +178,6 @@ Command
     
 return
 headers
+b
 "
 "

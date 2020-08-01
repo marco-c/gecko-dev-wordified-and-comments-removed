@@ -21,11 +21,13 @@ read
     
 bytes_string
 =
+b
 "
 "
 .
 join
 (
+b
 "
 %
 02x
@@ -43,11 +45,13 @@ return
         
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
