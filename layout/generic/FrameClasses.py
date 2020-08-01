@@ -970,6 +970,17 @@ NOT_LEAF
 Frame
 (
 "
+nsSearchControlFrame
+"
+"
+SearchControl
+"
+LEAF
+)
+    
+Frame
+(
+"
 nsSelectsAreaFrame
 "
 "

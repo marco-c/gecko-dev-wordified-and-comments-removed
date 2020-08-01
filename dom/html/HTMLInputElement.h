@@ -3616,6 +3616,12 @@ return
 mHasBeenTypePassword
 ;
 }
+bool
+IsValueEmpty
+(
+)
+const
+;
 protected
 :
 MOZ_CAN_RUN_SCRIPT_BOUNDARY
@@ -3731,12 +3737,6 @@ GetNonFileValueInternal
 nsAString
 &
 aValue
-)
-const
-;
-bool
-IsValueEmpty
-(
 )
 const
 ;
