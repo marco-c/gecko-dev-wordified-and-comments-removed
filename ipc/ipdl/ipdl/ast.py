@@ -1409,6 +1409,7 @@ self
 loc
 name
 fields
+comparable
 )
 :
         
@@ -1426,6 +1427,12 @@ self
 fields
 =
 fields
+        
+self
+.
+comparable
+=
+comparable
         
 self
 .
@@ -1447,6 +1454,7 @@ self
 loc
 name
 components
+comparable
 )
 :
         
@@ -1464,6 +1472,12 @@ self
 components
 =
 components
+        
+self
+.
+comparable
+=
+comparable
 class
 Manager
 (
