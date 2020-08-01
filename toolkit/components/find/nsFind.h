@@ -170,6 +170,8 @@ PeekNextChar
 (
 State
 &
+bool
+aAlreadyMatching
 )
 const
 ;
