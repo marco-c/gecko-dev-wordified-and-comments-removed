@@ -2463,7 +2463,8 @@ mozharness
 /
 scripts
 /
-android_wrench
+android_
+*
 .
 py
 '
@@ -2477,7 +2478,7 @@ configs
 /
 android
 /
-wrench
+*
 .
 py
 '
@@ -2783,7 +2784,8 @@ mozharness
 /
 scripts
 /
-android_wrench
+android_
+*
 .
 py
 '
@@ -2797,7 +2799,7 @@ configs
 /
 android
 /
-wrench
+*
 .
 py
 '
@@ -3064,7 +3066,8 @@ mozharness
 /
 scripts
 /
-android_wrench
+android_
+*
 .
 py
 '
@@ -3078,7 +3081,7 @@ configs
 /
 android
 /
-wrench
+*
 .
 py
 '
@@ -3347,7 +3350,8 @@ mozharness
 /
 scripts
 /
-android_wrench
+android_
+*
 .
 py
 '
@@ -3361,7 +3365,7 @@ configs
 /
 android
 /
-wrench
+*
 .
 py
 '
