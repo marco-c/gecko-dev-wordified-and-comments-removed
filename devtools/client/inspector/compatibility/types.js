@@ -103,6 +103,13 @@ PropTypes
 bool
 .
 isRequired
+prefixNeeded
+:
+PropTypes
+.
+bool
+.
+isRequired
 unsupportedBrowsers
 :
 PropTypes
