@@ -1,3 +1,11 @@
+DIRS
++
+=
+[
+'
+utils
+'
+]
 DevToolsModules
 (
 '
@@ -31,7 +39,7 @@ with
 Files
 (
 '
-console
+*
 -
 messages
 .
