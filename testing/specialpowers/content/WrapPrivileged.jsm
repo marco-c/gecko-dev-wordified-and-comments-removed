@@ -402,13 +402,13 @@ currentID
 =
 win
 .
-windowUtils
+windowGlobalChild
 ?
 win
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 :
 0
 ;

@@ -178,12 +178,14 @@ innerId
 =
 SpecialPowers
 .
-getDOMWindowUtils
+wrap
 (
 window
 )
 .
-currentInnerWindowID
+windowGlobalChild
+.
+innerWindowId
 ;
 ok
 (

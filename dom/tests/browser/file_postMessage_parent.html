@@ -33,12 +33,14 @@ winID
 =
 SpecialPowers
 .
-getDOMWindowUtils
+wrap
 (
 this
 )
 .
-currentInnerWindowID
+windowGlobalChild
+.
+innerWindowId
 ;
 var
 observer
