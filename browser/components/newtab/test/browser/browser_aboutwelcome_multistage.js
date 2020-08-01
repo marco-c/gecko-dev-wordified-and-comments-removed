@@ -812,15 +812,6 @@ container
 .
 info
 "
-"
-p
-.
-tiles
--
-topsites
--
-disclaimer
-"
 ]
 [
 "
