@@ -295,7 +295,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 def
@@ -355,7 +355,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 def
@@ -451,7 +451,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 mock
@@ -546,7 +546,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 def
@@ -607,7 +607,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 mock
@@ -707,7 +707,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 def
@@ -804,7 +804,7 @@ mach_commands
 .
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 "
 )
 def
