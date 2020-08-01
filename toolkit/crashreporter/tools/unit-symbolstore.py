@@ -4179,14 +4179,13 @@ py
 )
         
 if
-target_platform
-(
-)
-=
-=
-"
-WINNT
-"
+'
+DUMP_SYMS
+'
+in
+buildconfig
+.
+substs
 :
             
 self
