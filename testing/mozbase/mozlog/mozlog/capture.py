@@ -176,6 +176,12 @@ self
 prefix
 =
 prefix
+        
+self
+.
+buffer
+=
+self
     
 def
 write
