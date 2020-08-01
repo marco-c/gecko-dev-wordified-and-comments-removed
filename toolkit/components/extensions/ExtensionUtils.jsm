@@ -486,10 +486,9 @@ window
 return
 window
 .
-windowGlobalChild
-?
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 class

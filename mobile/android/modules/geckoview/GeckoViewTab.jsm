@@ -135,7 +135,7 @@ windowIdToTabId
 (
 window
 .
-docShell
+windowUtils
 .
 outerWindowID
 )

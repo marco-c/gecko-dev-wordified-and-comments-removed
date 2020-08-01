@@ -635,9 +635,9 @@ this
 .
 content
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 )
@@ -710,9 +710,9 @@ this
 .
 content
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 winID
 "
 Page
@@ -786,9 +786,9 @@ this
 .
 content
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 winID
 "
 Page

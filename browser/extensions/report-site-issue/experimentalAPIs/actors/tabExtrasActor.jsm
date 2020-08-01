@@ -578,9 +578,9 @@ this
 .
 contentWindow
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 return
 this

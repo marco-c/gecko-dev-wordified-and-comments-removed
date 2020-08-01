@@ -3349,7 +3349,7 @@ window
 return
 window
 .
-docShell
+windowUtils
 .
 outerWindowID
 ;

@@ -592,7 +592,9 @@ outerWindowID
 return
 this
 .
-docShell
+contentWindow
+.
+windowUtils
 .
 outerWindowID
 ;

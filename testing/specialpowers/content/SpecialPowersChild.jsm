@@ -1078,9 +1078,9 @@ _windowID
 =
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 defineSpecialPowers
 (

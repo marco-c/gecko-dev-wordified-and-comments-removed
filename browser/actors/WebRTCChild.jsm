@@ -2093,9 +2093,9 @@ aContentWindow
 return
 aContentWindow
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 function
