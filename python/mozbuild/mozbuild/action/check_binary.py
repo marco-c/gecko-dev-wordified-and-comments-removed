@@ -1380,6 +1380,7 @@ output
 def
 check_networking
 (
+target
 binary
 )
 :
@@ -2106,6 +2107,7 @@ networking
 return
 check_networking
 (
+TARGET
 options
 .
 binary
