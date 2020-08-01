@@ -550,16 +550,6 @@ crashcontent
 "
 about
 :
-newtab
-"
-"
-about
-:
-home
-"
-"
-about
-:
 printpreview
 "
 ]
