@@ -560,7 +560,7 @@ result
 types
 (
 see
-URLBAR_SELECTED_RESULT_TYPES
+SELECTED_RESULT_TYPES
 )
 .
 For
@@ -610,7 +610,7 @@ result
 types
 (
 see
-URLBAR_SELECTED_RESULT_TYPES
+SELECTED_RESULT_TYPES
 )
 .
 For

@@ -71320,11 +71320,11 @@ bar
 popup
 .
 See
-BrowserUsageTelemetry
+UrlbarUtils
 .
 jsm
 :
-URLBAR_SELECTED_RESULT_TYPES
+SELECTED_RESULT_TYPES
 for
 the
 result
@@ -71449,11 +71449,11 @@ bar
 popup
 .
 See
-BrowserUsageTelemetry
+UrlbarUtils
 .
 jsm
 :
-URLBAR_SELECTED_RESULT_TYPES
+SELECTED_RESULT_TYPES
 for
 the
 result
