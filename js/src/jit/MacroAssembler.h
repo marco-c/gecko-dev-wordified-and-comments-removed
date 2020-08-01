@@ -15818,6 +15818,17 @@ scratch
 )
 ;
 void
+setIsPackedArray
+(
+Register
+obj
+Register
+output
+Register
+temp
+)
+;
+void
 branchIfNativeIteratorNotReusable
 (
 Register
