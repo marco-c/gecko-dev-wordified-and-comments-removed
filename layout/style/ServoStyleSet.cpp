@@ -4374,6 +4374,8 @@ aKeyframes
 Element
 *
 aElement
+PseudoStyleType
+aPseudoType
 const
 ComputedStyle
 *
@@ -4409,6 +4411,7 @@ Servo_GetComputedKeyframeValues
 &
 aKeyframes
 aElement
+aPseudoType
 aStyle
 mRawSet
 .
