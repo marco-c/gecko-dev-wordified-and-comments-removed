@@ -783,8 +783,9 @@ atoms
 IndexSet
 :
 :
-new
+with_capacity
 (
+256
 )
 }
 }

@@ -84,7 +84,7 @@ replay
 lexer
 )
     
-state_86_actions
+state_84_actions
 (
 parser
 lexer
@@ -157,7 +157,7 @@ replay
 lexer
 )
     
-state_84_actions
+state_82_actions
 (
 parser
 lexer
@@ -230,7 +230,7 @@ replay
 lexer
 )
     
-state_85_actions
+state_83_actions
 (
 parser
 lexer
@@ -312,7 +312,7 @@ replay
 lexer
 )
     
-state_84_actions
+state_82_actions
 (
 parser
 lexer
@@ -394,7 +394,7 @@ replay
 lexer
 )
     
-state_85_actions
+state_83_actions
 (
 parser
 lexer
@@ -461,7 +461,7 @@ replay
 lexer
 )
     
-state_86_actions
+state_84_actions
 (
 parser
 lexer
@@ -537,7 +537,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -610,7 +610,7 @@ replay
 lexer
 )
     
-state_98_actions
+state_94_actions
 (
 parser
 lexer
@@ -683,7 +683,7 @@ replay
 lexer
 )
     
-state_101_actions
+state_97_actions
 (
 parser
 lexer
@@ -756,7 +756,7 @@ replay
 lexer
 )
     
-state_95_actions
+state_91_actions
 (
 parser
 lexer
@@ -829,7 +829,7 @@ replay
 lexer
 )
     
-state_95_actions
+state_91_actions
 (
 parser
 lexer
@@ -902,7 +902,7 @@ replay
 lexer
 )
     
-state_98_actions
+state_94_actions
 (
 parser
 lexer
@@ -975,7 +975,7 @@ replay
 lexer
 )
     
-state_104_actions
+state_100_actions
 (
 parser
 lexer
@@ -1059,7 +1059,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -1141,7 +1141,7 @@ replay
 lexer
 )
     
-state_98_actions
+state_94_actions
 (
 parser
 lexer
@@ -1215,7 +1215,7 @@ replay
 lexer
 )
     
-state_105_actions
+state_101_actions
 (
 parser
 lexer
@@ -1297,7 +1297,7 @@ replay
 lexer
 )
     
-state_101_actions
+state_97_actions
 (
 parser
 lexer
@@ -1370,7 +1370,7 @@ replay
 lexer
 )
     
-state_118_actions
+state_111_actions
 (
 parser
 lexer
@@ -1454,7 +1454,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -1538,7 +1538,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -1620,7 +1620,7 @@ replay
 lexer
 )
     
-state_104_actions
+state_100_actions
 (
 parser
 lexer
@@ -1702,7 +1702,7 @@ replay
 lexer
 )
     
-state_105_actions
+state_101_actions
 (
 parser
 lexer
@@ -1768,7 +1768,7 @@ replay
 lexer
 )
     
-state_106_actions
+state_102_actions
 (
 parser
 lexer
@@ -1841,7 +1841,7 @@ replay
 lexer
 )
     
-state_114_actions
+state_108_actions
 (
 parser
 lexer
@@ -1905,7 +1905,7 @@ replay
 lexer
 )
     
-state_114_actions
+state_108_actions
 (
 parser
 lexer
@@ -1997,7 +1997,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -2089,7 +2089,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -2181,7 +2181,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -2281,7 +2281,7 @@ replay
 lexer
 )
     
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -2355,7 +2355,7 @@ replay
 lexer
 )
     
-state_114_actions
+state_108_actions
 (
 parser
 lexer
@@ -2428,7 +2428,7 @@ replay
 lexer
 )
     
-state_115_actions
+state_109_actions
 (
 parser
 lexer
@@ -2510,7 +2510,7 @@ replay
 lexer
 )
     
-state_114_actions
+state_108_actions
 (
 parser
 lexer
@@ -2583,7 +2583,7 @@ replay
 lexer
 )
     
-state_114_actions
+state_108_actions
 (
 parser
 lexer
@@ -2665,7 +2665,7 @@ replay
 lexer
 )
     
-state_115_actions
+state_109_actions
 (
 parser
 lexer
@@ -2752,7 +2752,7 @@ replay
 lexer
 )
     
-state_116_actions
+state_110_actions
 (
 parser
 lexer
@@ -2847,7 +2847,7 @@ replay
 lexer
 )
     
-state_116_actions
+state_110_actions
 (
 parser
 lexer
@@ -2926,7 +2926,7 @@ replay
 lexer
 )
     
-state_118_actions
+state_111_actions
 (
 parser
 lexer
@@ -2949,7 +2949,7 @@ parser
 .
 replay_action
 (
-23
+12
 )
     
 top
@@ -2966,7 +2966,7 @@ top
 =
 StateTermValue
 (
-23
+12
 top
 .
 term
@@ -3004,7 +3004,7 @@ parser
 .
 replay_action
 (
-12
+13
 )
     
 top
@@ -3021,7 +3021,7 @@ top
 =
 StateTermValue
 (
-12
+13
 top
 .
 term
@@ -3055,48 +3055,44 @@ value
 =
 None
     
+if
 parser
 .
-replay_action
+top_state
 (
-13
 )
+in
+[
+10
+]
+:
+        
+state_80_actions
+(
+parser
+lexer
+)
+        
+return
     
-top
-=
+if
 parser
 .
-stack
-.
-pop
+top_state
 (
 )
-    
-top
-=
-StateTermValue
+in
+[
+11
+]
+:
+        
+state_81_actions
 (
-13
-top
-.
-term
-top
-.
-value
-top
-.
-new_line
-)
-    
 parser
-.
-stack
-.
-append
-(
-top
+lexer
 )
-    
+        
 return
 def
 state_83_actions
@@ -3165,109 +3161,51 @@ value
 =
 None
     
-if
 parser
 .
-top_state
+replay_action
 (
+23
 )
-in
-[
-10
-]
-:
-        
-state_81_actions
-(
-parser
-lexer
-)
-        
-return
     
-if
+top
+=
 parser
 .
-top_state
+stack
+.
+pop
 (
 )
-in
-[
-11
-]
-:
-        
-state_82_actions
+    
+top
+=
+StateTermValue
 (
+23
+top
+.
+term
+top
+.
+value
+top
+.
+new_line
+)
+    
 parser
-lexer
+.
+stack
+.
+append
+(
+top
 )
-        
+    
 return
 def
 state_85_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-10
-]
-:
-        
-state_83_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_86_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-10
-]
-:
-        
-state_80_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_87_actions
 (
 parser
 lexer
@@ -3293,7 +3231,7 @@ lexer
     
 return
 def
-state_88_actions
+state_86_actions
 (
 parser
 lexer
@@ -3319,7 +3257,7 @@ lexer
     
 return
 def
-state_89_actions
+state_87_actions
 (
 parser
 lexer
@@ -3352,6 +3290,116 @@ top
 StateTermValue
 (
 4
+top
+.
+term
+top
+.
+value
+top
+.
+new_line
+)
+    
+parser
+.
+stack
+.
+append
+(
+top
+)
+    
+return
+def
+state_88_actions
+(
+parser
+lexer
+)
+:
+    
+value
+=
+None
+    
+parser
+.
+replay_action
+(
+5
+)
+    
+top
+=
+parser
+.
+stack
+.
+pop
+(
+)
+    
+top
+=
+StateTermValue
+(
+5
+top
+.
+term
+top
+.
+value
+top
+.
+new_line
+)
+    
+parser
+.
+stack
+.
+append
+(
+top
+)
+    
+return
+def
+state_89_actions
+(
+parser
+lexer
+)
+:
+    
+value
+=
+None
+    
+parser
+.
+replay_action
+(
+6
+)
+    
+top
+=
+parser
+.
+stack
+.
+pop
+(
+)
+    
+top
+=
+StateTermValue
+(
+6
 top
 .
 term
@@ -3389,7 +3437,7 @@ parser
 .
 replay_action
 (
-5
+7
 )
     
 top
@@ -3406,7 +3454,7 @@ top
 =
 StateTermValue
 (
-5
+7
 top
 .
 term
@@ -3444,7 +3492,7 @@ parser
 .
 replay_action
 (
-6
+9
 )
     
 top
@@ -3461,7 +3509,7 @@ top
 =
 StateTermValue
 (
-6
+9
 top
 .
 term
@@ -3485,210 +3533,6 @@ top
 return
 def
 state_92_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-parser
-.
-replay_action
-(
-7
-)
-    
-top
-=
-parser
-.
-stack
-.
-pop
-(
-)
-    
-top
-=
-StateTermValue
-(
-7
-top
-.
-term
-top
-.
-value
-top
-.
-new_line
-)
-    
-parser
-.
-stack
-.
-append
-(
-top
-)
-    
-return
-def
-state_93_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-parser
-.
-replay_action
-(
-8
-)
-    
-top
-=
-parser
-.
-stack
-.
-pop
-(
-)
-    
-top
-=
-StateTermValue
-(
-8
-top
-.
-term
-top
-.
-value
-top
-.
-new_line
-)
-    
-parser
-.
-stack
-.
-append
-(
-top
-)
-    
-return
-def
-state_94_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-parser
-.
-replay_action
-(
-9
-)
-    
-top
-=
-parser
-.
-stack
-.
-pop
-(
-)
-    
-top
-=
-StateTermValue
-(
-9
-top
-.
-term
-top
-.
-value
-top
-.
-new_line
-)
-    
-parser
-.
-stack
-.
-append
-(
-top
-)
-    
-return
-def
-state_95_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-0
-1
-2
-3
-4
-5
-6
-7
-8
-]
-:
-        
-state_94_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_96_actions
 (
 parser
 lexer
@@ -3714,7 +3558,7 @@ lexer
     
 return
 def
-state_97_actions
+state_93_actions
 (
 parser
 lexer
@@ -3740,7 +3584,7 @@ lexer
     
 return
 def
-state_98_actions
+state_94_actions
 (
 parser
 lexer
@@ -3763,7 +3607,7 @@ in
 ]
 :
         
-state_89_actions
+state_87_actions
 (
 parser
 lexer
@@ -3783,7 +3627,7 @@ in
 ]
 :
         
-state_90_actions
+state_88_actions
 (
 parser
 lexer
@@ -3803,7 +3647,7 @@ in
 ]
 :
         
-state_91_actions
+state_89_actions
 (
 parser
 lexer
@@ -3823,7 +3667,7 @@ in
 ]
 :
         
-state_92_actions
+state_90_actions
 (
 parser
 lexer
@@ -3831,7 +3675,7 @@ lexer
         
 return
 def
-state_99_actions
+state_95_actions
 (
 parser
 lexer
@@ -3857,7 +3701,7 @@ lexer
     
 return
 def
-state_100_actions
+state_96_actions
 (
 parser
 lexer
@@ -3883,7 +3727,7 @@ lexer
     
 return
 def
-state_101_actions
+state_97_actions
 (
 parser
 lexer
@@ -3894,34 +3738,51 @@ value
 =
 None
     
-if
 parser
 .
-top_state
+replay_action
 (
+8
 )
-in
-[
-0
-1
-2
-3
-4
-5
-6
-7
-]
-:
-        
-state_93_actions
-(
+    
+top
+=
 parser
-lexer
+.
+stack
+.
+pop
+(
 )
-        
+    
+top
+=
+StateTermValue
+(
+8
+top
+.
+term
+top
+.
+value
+top
+.
+new_line
+)
+    
+parser
+.
+stack
+.
+append
+(
+top
+)
+    
 return
 def
-state_102_actions
+state_98_actions
 (
 parser
 lexer
@@ -3947,7 +3808,7 @@ lexer
     
 return
 def
-state_103_actions
+state_99_actions
 (
 parser
 lexer
@@ -3973,7 +3834,7 @@ lexer
     
 return
 def
-state_104_actions
+state_100_actions
 (
 parser
 lexer
@@ -3996,7 +3857,7 @@ in
 ]
 :
         
-state_96_actions
+state_92_actions
 (
 parser
 lexer
@@ -4016,7 +3877,7 @@ in
 ]
 :
         
-state_97_actions
+state_93_actions
 (
 parser
 lexer
@@ -4024,7 +3885,7 @@ lexer
         
 return
 def
-state_105_actions
+state_101_actions
 (
 parser
 lexer
@@ -4050,7 +3911,7 @@ in
 ]
 :
         
-state_99_actions
+state_95_actions
 (
 parser
 lexer
@@ -4073,7 +3934,7 @@ in
 ]
 :
         
-state_100_actions
+state_96_actions
 (
 parser
 lexer
@@ -4081,38 +3942,7 @@ lexer
         
 return
 def
-state_106_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-8
-]
-:
-        
-state_107_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_107_actions
+state_102_actions
 (
 parser
 lexer
@@ -4167,7 +3997,7 @@ top
     
 return
 def
-state_108_actions
+state_103_actions
 (
 parser
 lexer
@@ -4193,7 +4023,7 @@ lexer
     
 return
 def
-state_109_actions
+state_104_actions
 (
 parser
 lexer
@@ -4219,7 +4049,7 @@ lexer
     
 return
 def
-state_110_actions
+state_105_actions
 (
 parser
 lexer
@@ -4274,7 +4104,7 @@ top
     
 return
 def
-state_111_actions
+state_106_actions
 (
 parser
 lexer
@@ -4300,7 +4130,7 @@ lexer
     
 return
 def
-state_112_actions
+state_107_actions
 (
 parser
 lexer
@@ -4324,7 +4154,7 @@ in
 ]
 :
         
-state_87_actions
+state_85_actions
 (
 parser
 lexer
@@ -4345,7 +4175,7 @@ in
 ]
 :
         
-state_88_actions
+state_86_actions
 (
 parser
 lexer
@@ -4353,7 +4183,98 @@ lexer
         
 return
 def
-state_113_actions
+state_108_actions
+(
+parser
+lexer
+)
+:
+    
+value
+=
+None
+    
+if
+parser
+.
+top_state
+(
+)
+in
+[
+15
+]
+:
+        
+state_103_actions
+(
+parser
+lexer
+)
+        
+return
+    
+if
+parser
+.
+top_state
+(
+)
+in
+[
+14
+]
+:
+        
+state_104_actions
+(
+parser
+lexer
+)
+        
+return
+    
+if
+parser
+.
+top_state
+(
+)
+in
+[
+16
+]
+:
+        
+state_105_actions
+(
+parser
+lexer
+)
+        
+return
+    
+if
+parser
+.
+top_state
+(
+)
+in
+[
+17
+]
+:
+        
+state_106_actions
+(
+parser
+lexer
+)
+        
+return
+def
+state_109_actions
 (
 parser
 lexer
@@ -4408,160 +4329,7 @@ top
     
 return
 def
-state_114_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-15
-]
-:
-        
-state_108_actions
-(
-parser
-lexer
-)
-        
-return
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-14
-]
-:
-        
-state_109_actions
-(
-parser
-lexer
-)
-        
-return
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-16
-]
-:
-        
 state_110_actions
-(
-parser
-lexer
-)
-        
-return
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-17
-]
-:
-        
-state_111_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_115_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-14
-]
-:
-        
-state_113_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_116_actions
-(
-parser
-lexer
-)
-:
-    
-value
-=
-None
-    
-if
-parser
-.
-top_state
-(
-)
-in
-[
-10
-]
-:
-        
-state_117_actions
-(
-parser
-lexer
-)
-        
-return
-def
-state_117_actions
 (
 parser
 lexer
@@ -4587,7 +4355,7 @@ lexer
     
 return
 def
-state_118_actions
+state_111_actions
 (
 parser
 lexer
@@ -4617,7 +4385,7 @@ in
 ]
 :
         
-state_102_actions
+state_98_actions
 (
 parser
 lexer
@@ -4637,7 +4405,7 @@ in
 ]
 :
         
-state_103_actions
+state_99_actions
 (
 parser
 lexer
@@ -5877,20 +5645,6 @@ state_109_actions
 state_110_actions
     
 state_111_actions
-    
-state_112_actions
-    
-state_113_actions
-    
-state_114_actions
-    
-state_115_actions
-    
-state_116_actions
-    
-state_117_actions
-    
-state_118_actions
 ]
 error_codes
 =
@@ -6007,14 +5761,6 @@ None
 None
 None
 None
-None
-None
-None
-None
-None
-None
-None
-    
 None
 None
 None

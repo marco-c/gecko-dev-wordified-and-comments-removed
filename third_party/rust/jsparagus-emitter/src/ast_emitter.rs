@@ -645,6 +645,15 @@ self
 compilation_info
 .
 script_data_list
+self
+.
+options
+.
+extent
+.
+clone
+(
+)
 )
 ?
 ;
