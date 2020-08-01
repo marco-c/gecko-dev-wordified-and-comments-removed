@@ -87,6 +87,7 @@ index
 ;
 const
 {
+MESSAGE_LEVEL
 MESSAGE_SOURCE
 MESSAGE_TYPE
 }
@@ -883,6 +884,11 @@ return
 MessageIcon
 (
 {
+level
+:
+MESSAGE_LEVEL
+.
+ERROR
 type
 :
 "
