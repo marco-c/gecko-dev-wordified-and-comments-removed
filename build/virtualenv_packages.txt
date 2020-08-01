@@ -266,17 +266,6 @@ third_party
 python
 /
 futures
-python3
-:
-mozilla
-.
-pth
-:
-third_party
-/
-python
-/
-glean_parser
 mozilla
 .
 pth
