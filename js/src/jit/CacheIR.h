@@ -7698,6 +7698,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsConstructing
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachFunCall
 (
 HandleFunction
