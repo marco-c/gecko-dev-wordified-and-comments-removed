@@ -3576,6 +3576,13 @@ registerBrowsers
 await
 browserListening
 ;
+if
+(
+MarionettePrefs
+.
+useActors
+)
+{
 ChromeUtils
 .
 registerWindowActor
@@ -3672,6 +3679,7 @@ true
 }
 )
 ;
+}
 if
 (
 this
@@ -10679,6 +10687,13 @@ href
 }
 }
 }
+if
+(
+MarionettePrefs
+.
+useActors
+)
+{
 ChromeUtils
 .
 unregisterWindowActor
@@ -10688,6 +10703,7 @@ MarionetteFrame
 "
 )
 ;
+}
 this
 .
 curFrame
