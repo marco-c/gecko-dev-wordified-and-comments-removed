@@ -1653,6 +1653,16 @@ dictionary
 printInfoDict
 setObject
 :
+NSPrintSaveJob
+forKey
+:
+NSPrintJobDisposition
+]
+;
+[
+printInfoDict
+setObject
+:
 jobSavingURL
 forKey
 :
