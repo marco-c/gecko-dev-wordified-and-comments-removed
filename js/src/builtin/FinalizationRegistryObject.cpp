@@ -2956,6 +2956,10 @@ cx
 &
 incumbentObject
 )
+|
+|
+!
+incumbentObject
 )
 {
 return
