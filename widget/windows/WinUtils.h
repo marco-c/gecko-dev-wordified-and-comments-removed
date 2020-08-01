@@ -987,6 +987,17 @@ dpi
 )
 ;
 static
+gfx
+:
+:
+MarginDouble
+GetUnwriteableMarginsForDeviceInInches
+(
+HDC
+aHdc
+)
+;
+static
 void
 Log
 (
