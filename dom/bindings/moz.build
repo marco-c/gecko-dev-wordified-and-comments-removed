@@ -183,6 +183,11 @@ Nullable
 h
 '
 '
+PinnedStringId
+.
+h
+'
+'
 PrimitiveConversions
 .
 h
