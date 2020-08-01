@@ -851,7 +851,7 @@ apk
 :
 [
 "
-fenix_fennec_nightly_armeabi_v7a
+fenix_nightly_armeabi_v7a
 "
 ]
         
@@ -874,7 +874,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 "
         
 "
@@ -946,7 +946,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 "
     
 assert

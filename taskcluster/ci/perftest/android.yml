@@ -350,7 +350,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 -
 -
 android
@@ -585,7 +585,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 -
 -
 perfherder
@@ -1300,7 +1300,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 -
 -
 android
@@ -1396,7 +1396,7 @@ android
 install
 -
 apk
-fenix_fennec_nightly_armeabi_v7a
+fenix_nightly_armeabi_v7a
 -
 -
 hooks
@@ -1592,7 +1592,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 -
 -
 android
@@ -1695,7 +1695,7 @@ android
 install
 -
 apk
-fenix_fennec_nightly_arm64_v8a
+fenix_nightly_arm64_v8a
 -
 -
 hooks
