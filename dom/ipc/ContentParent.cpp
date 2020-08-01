@@ -37030,8 +37030,14 @@ BrowsingContext
 >
 &
 aContext
+const
 uint64_t
+&
 aSessionHistoryEntryID
+const
+nsID
+&
+aChangeID
 )
 {
 if
@@ -37054,6 +37060,7 @@ get_canonical
 SessionHistoryCommit
 (
 aSessionHistoryEntryID
+aChangeID
 )
 ;
 }
