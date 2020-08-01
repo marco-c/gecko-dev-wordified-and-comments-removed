@@ -2023,6 +2023,9 @@ mDidDeleteEmptyParentBlocks
 bool
 mRestoreContentEditableCount
 ;
+bool
+mDidNormalizeWhitespaces
+;
 void
 DidCreateElement
 (
@@ -2210,6 +2213,10 @@ mDidDeleteEmptyParentBlocks
 false
 ;
 mRestoreContentEditableCount
+=
+false
+;
+mDidNormalizeWhitespaces
 =
 false
 ;
