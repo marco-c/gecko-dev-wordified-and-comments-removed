@@ -3485,6 +3485,16 @@ widget
 =
 =
 "
+menubar
+-
+items
+"
+|
+|
+widget
+=
+=
+"
 personal
 -
 bookmarks
