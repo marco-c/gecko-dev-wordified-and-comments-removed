@@ -848,10 +848,11 @@ for
 label
 node
 in
-full_task_json
+six
 .
 iteritems
 (
+full_task_json
 )
 :
         
