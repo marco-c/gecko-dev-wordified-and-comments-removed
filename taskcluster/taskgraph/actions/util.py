@@ -50,6 +50,12 @@ import
 text_type
 string_types
 from
+slugid
+import
+nice
+as
+slugid
+from
 taskgraph
 import
 create
@@ -1497,7 +1503,6 @@ label_to_taskid
 def
 create_task_from_def
 (
-task_id
 task_def
 level
 )
@@ -1653,6 +1658,19 @@ metadata
 name
 '
 ]
+    
+task_id
+=
+slugid
+(
+)
+.
+decode
+(
+'
+ascii
+'
+)
     
 session
 =

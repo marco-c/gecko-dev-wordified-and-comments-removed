@@ -23,12 +23,6 @@ logging
 import
 textwrap
 from
-slugid
-import
-nice
-as
-slugid
-from
 .
 util
 import
@@ -370,9 +364,6 @@ task
     
 create_task_from_def
 (
-slugid
-(
-)
 task
 parameters
 [

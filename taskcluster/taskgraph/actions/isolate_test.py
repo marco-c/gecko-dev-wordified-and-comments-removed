@@ -29,12 +29,6 @@ re
 import
 six
 from
-slugid
-import
-nice
-as
-slugid
-from
 taskgraph
 .
 util
@@ -1117,9 +1111,6 @@ times
         
 create_task_from_def
 (
-slugid
-(
-)
 task_definition
 level
 )
@@ -1496,9 +1487,6 @@ times
                 
 create_task_from_def
 (
-slugid
-(
-)
 task_definition
 level
 )

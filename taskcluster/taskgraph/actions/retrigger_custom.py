@@ -21,12 +21,6 @@ json
 import
 logging
 from
-slugid
-import
-nice
-as
-slugid
-from
 .
 util
 import
@@ -1301,15 +1295,8 @@ s
 new_task_definition
 )
     
-new_task_id
-=
-slugid
-(
-)
-    
 create_task_from_def
 (
-new_task_id
 new_task_definition
 parameters
 [
