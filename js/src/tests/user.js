@@ -427,3 +427,17 @@ iterator_helpers
 true
 )
 ;
+user_pref
+(
+"
+javascript
+.
+options
+.
+experimental
+.
+private_fields
+"
+true
+)
+;
