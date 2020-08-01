@@ -5233,7 +5233,10 @@ _word_re
 .
 findall
 (
+soft_unicode
+(
 s
+)
 )
 )
 def

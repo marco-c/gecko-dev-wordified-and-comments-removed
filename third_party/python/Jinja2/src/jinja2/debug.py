@@ -1127,29 +1127,20 @@ _fields_
 [
             
 (
-                
 "
 PyObject_HEAD
 "
-                
 ctypes
 .
 c_byte
 *
+object
 (
-32
-if
-hasattr
+)
+.
+__sizeof__
 (
-sys
-"
-getobjects
-"
 )
-else
-16
-)
-            
 )
             
 (
