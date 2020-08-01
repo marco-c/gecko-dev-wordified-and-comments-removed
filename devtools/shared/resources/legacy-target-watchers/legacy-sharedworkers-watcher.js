@@ -36,6 +36,10 @@ LegacySharedWorkersWatcher
 extends
 LegacyWorkersWatcher
 {
+_isSharedWorkerWatcher
+=
+true
+;
 _supportWorkerTarget
 (
 workerTarget
