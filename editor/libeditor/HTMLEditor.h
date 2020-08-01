@@ -5451,7 +5451,7 @@ nodiscard
 ]
 MOZ_CAN_RUN_SCRIPT
 EditActionResult
-HandleDeleteCollapsedSelectionAtTextNode
+HandleDeleteCollapsedSelectionAtVisibleChar
 (
 nsIEditor
 :
