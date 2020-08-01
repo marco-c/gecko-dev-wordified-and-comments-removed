@@ -10916,7 +10916,6 @@ inlineSize
 }
 if
 (
-(
 StyleDisplay
 :
 :
@@ -10927,10 +10926,8 @@ mStyleDisplay
 -
 >
 mDisplay
-)
 |
 |
-(
 StyleDisplay
 :
 :
@@ -10941,7 +10938,6 @@ mStyleDisplay
 -
 >
 mDisplay
-)
 )
 {
 isAutoBSize
