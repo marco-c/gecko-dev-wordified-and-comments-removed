@@ -348,7 +348,7 @@ this
 .
 props
 .
-flightId
+showPrivacyInfo
 ?
 [
 "

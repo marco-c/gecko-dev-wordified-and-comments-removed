@@ -214,9 +214,13 @@ http
 :
 /
 /
-example
-.
-com
+fakedomain
+/
+tests
+/
+about
+-
+newtab
 /
 topstories
 .

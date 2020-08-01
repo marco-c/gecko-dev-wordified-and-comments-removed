@@ -400,6 +400,15 @@ rec
 .
 is_video
 }
+is_collection
+=
+{
+this
+.
+props
+.
+is_collection
+}
 /
 >
 )

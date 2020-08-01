@@ -300,6 +300,11 @@ shim
 item
 .
 shim
+flight_id
+:
+item
+.
+flightId
 }
 )
 )
@@ -902,6 +907,11 @@ type
 =
 {
 type
+}
+is_collection
+=
+{
+true
 }
 dispatch
 =

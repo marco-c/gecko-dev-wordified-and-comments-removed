@@ -8133,8 +8133,6 @@ it
 should
 set
 spoc_endpoint
-and
-spocs_per_domain
 with
 DISCOVERY_STREAM_SPOCS_ENDPOINT
 "
@@ -8165,9 +8163,6 @@ foo
 .
 com
 "
-spocs_per_domain
-:
-2
 }
 }
 )
@@ -8186,18 +8181,6 @@ foo
 .
 com
 "
-)
-;
-assert
-.
-equal
-(
-state
-.
-spocs
-.
-spocs_per_domain
-2
 )
 ;
 }
@@ -8370,9 +8353,6 @@ spocs_endpoint
 :
 "
 "
-spocs_per_domain
-:
-1
 data
 :
 [
