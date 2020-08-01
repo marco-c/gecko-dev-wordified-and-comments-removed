@@ -929,6 +929,14 @@ const
 ;
 virtual
 void
+UpdateScrollbarPosition
+(
+)
+=
+0
+;
+virtual
+void
 SetTransformingByAPZ
 (
 bool
