@@ -266,6 +266,18 @@ ib
 (
 )
     
+description
+=
+attr
+.
+ib
+(
+default
+=
+"
+"
+)
+    
 task_id
 =
 attr
@@ -490,6 +502,14 @@ self
 label
             
 '
+description
+'
+:
+self
+.
+description
+            
+'
 attributes
 '
 :
@@ -654,6 +674,19 @@ task_dict
 label
 '
 ]
+            
+description
+=
+task_dict
+.
+get
+(
+'
+description
+'
+"
+"
+)
             
 attributes
 =

@@ -447,17 +447,7 @@ format
 purpose
 task
 .
-task
-[
-'
-metadata
-'
-]
-[
-'
 description
-'
-]
 )
             
 '

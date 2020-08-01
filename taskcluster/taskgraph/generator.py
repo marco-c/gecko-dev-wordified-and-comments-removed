@@ -395,6 +395,15 @@ label
 '
 ]
                       
+description
+=
+task_dict
+[
+'
+description
+'
+]
+                      
 attributes
 =
 task_dict
