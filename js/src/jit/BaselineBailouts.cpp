@@ -9391,6 +9391,12 @@ BailoutKind
 :
 ProtoGuard
 :
+case
+BailoutKind
+:
+:
+NotProxyGuard
+:
 break
 ;
 case
