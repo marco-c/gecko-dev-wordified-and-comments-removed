@@ -617,6 +617,17 @@ mPriorityModifier
 =
 0
 ;
+#
+ifdef
+MOZ_GECKO_PROFILER
+mozilla
+:
+:
+TimeStamp
+mInsertionTime
+;
+#
+endif
 }
 ;
 class
