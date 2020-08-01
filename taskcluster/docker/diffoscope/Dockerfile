@@ -129,6 +129,16 @@ worker
 bin
 /
 get_and_diffoscope
+COPY
+readelf
+/
+builds
+/
+worker
+/
+bin
+/
+readelf
 RUN
 chown
 -
