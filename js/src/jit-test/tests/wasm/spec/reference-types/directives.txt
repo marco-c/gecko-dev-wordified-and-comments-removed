@@ -98,12 +98,6 @@ skip
 if
 :
 !
-wasmBulkMemSupported
-(
-)
-|
-|
-!
 wasmReftypesEnabled
 (
 )
