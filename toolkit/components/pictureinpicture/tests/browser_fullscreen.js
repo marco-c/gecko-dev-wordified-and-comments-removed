@@ -125,7 +125,11 @@ args
 =
 {
 videoID
-TOGGLE_ID
+toggleID
+:
+DEFAULT_TOGGLE_STYLES
+.
+rootID
 }
 ;
 await
@@ -155,7 +159,7 @@ args
 let
 {
 videoID
-TOGGLE_ID
+toggleID
 }
 =
 args
@@ -183,7 +187,7 @@ openOrClosedShadowRoot
 .
 getElementById
 (
-TOGGLE_ID
+toggleID
 )
 ;
 ok
@@ -327,7 +331,11 @@ args
 =
 {
 videoID
-TOGGLE_ID
+toggleID
+:
+DEFAULT_TOGGLE_STYLES
+.
+rootID
 }
 ;
 await
@@ -347,7 +355,7 @@ args
 let
 {
 videoID
-TOGGLE_ID
+toggleID
 }
 =
 args
@@ -375,7 +383,7 @@ openOrClosedShadowRoot
 .
 getElementById
 (
-TOGGLE_ID
+toggleID
 )
 ;
 ok

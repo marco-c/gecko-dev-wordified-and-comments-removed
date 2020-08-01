@@ -112,7 +112,9 @@ toggleOpacityReachesThreshold
 (
 browser
 videoID
-HOVER_VIDEO_OPACITY
+"
+hoverVideo
+"
 )
 ;
 let
