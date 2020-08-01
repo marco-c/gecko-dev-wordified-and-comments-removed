@@ -98,7 +98,6 @@ NewsletterSnippet
 import
 {
 SendToDeviceSnippet
-SendToDeviceScene2Snippet
 }
 from
 "
@@ -161,9 +160,6 @@ FXASignupSnippet
 send_to_device_snippet
 :
 SendToDeviceSnippet
-send_to_device_scene2_snippet
-:
-SendToDeviceScene2Snippet
 eoy_snippet
 :
 EOYSnippet
