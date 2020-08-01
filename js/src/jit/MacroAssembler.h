@@ -15861,6 +15861,15 @@ temp
 )
 ;
 void
+typedArrayElementShift
+(
+Register
+obj
+Register
+output
+)
+;
+void
 branchIfNativeIteratorNotReusable
 (
 Register
