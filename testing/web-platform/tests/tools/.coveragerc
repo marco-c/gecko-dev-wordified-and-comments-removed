@@ -50,6 +50,9 @@ wptrunner
 tests
 /
 *
+quic
+/
+*
 [
 paths
 ]
