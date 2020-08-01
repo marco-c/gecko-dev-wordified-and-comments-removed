@@ -145,9 +145,6 @@ test
 check
 -
 spidermonkey
-clang
--
-format
 cramtest
 crashtest
 devtools
