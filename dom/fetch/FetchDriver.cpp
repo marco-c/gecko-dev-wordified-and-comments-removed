@@ -3856,6 +3856,12 @@ true
 ;
 #
 endif
+}
+if
+(
+mObserver
+)
+{
 mObserver
 -
 >
@@ -6119,6 +6125,12 @@ true
 #
 endif
 }
+}
+if
+(
+mObserver
+)
+{
 mObserver
 -
 >
