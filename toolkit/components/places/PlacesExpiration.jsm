@@ -853,6 +853,8 @@ foreign_count
 =
 0
 AND
+i
+.
 expire_ms
 BETWEEN
 1

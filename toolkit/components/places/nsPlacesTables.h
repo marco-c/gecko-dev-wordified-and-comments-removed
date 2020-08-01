@@ -1166,6 +1166,15 @@ NULL
 "
 \
 "
+expire_ms
+INTEGER
+NOT
+NULL
+DEFAULT
+0
+"
+\
+"
 PRIMARY
 KEY
 (
