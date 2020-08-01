@@ -41784,15 +41784,6 @@ bool
 if
 defined
 (
-ANDROID
-)
-value
-:
-IS_NIGHTLY_BUILD
-#
-elif
-defined
-(
 XP_LINUX
 )
 #
