@@ -4489,11 +4489,6 @@ StartListeningMediaControlKeyIfNeeded
 (
 )
 ;
-void
-StopListeningMediaControlKeyIfNeeded
-(
-)
-;
 RefPtr
 <
 MediaControlKeyListener
