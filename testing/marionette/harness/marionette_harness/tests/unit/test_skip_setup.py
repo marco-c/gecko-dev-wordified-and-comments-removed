@@ -33,6 +33,13 @@ self
 )
 :
         
+MarionetteTestCase
+.
+setUp
+(
+self
+)
+        
 try
 :
             
@@ -64,13 +71,6 @@ skip
 .
 .
 '
-)
-        
-MarionetteTestCase
-.
-setUp
-(
-self
 )
     
 def
