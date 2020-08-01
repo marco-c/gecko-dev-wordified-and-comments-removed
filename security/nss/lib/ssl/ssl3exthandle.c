@@ -7609,6 +7609,7 @@ ssl3_EncodeSigAlgs
 (
 ss
 minVersion
+PR_TRUE
 buf
 )
 ;

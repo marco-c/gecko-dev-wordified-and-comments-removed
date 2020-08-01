@@ -2979,6 +2979,14 @@ sizeof
 CK_PKCS5_PBKD2_PARAMS
 )
 ;
+if
+(
+salt
+-
+>
+data
+)
+{
 PORT_Memcpy
 (
 pSalt
@@ -2992,6 +3000,7 @@ salt
 len
 )
 ;
+}
 pbeV2_params
 -
 >
@@ -3095,6 +3104,14 @@ pSalt
 =
 pSalt
 ;
+if
+(
+salt
+-
+>
+data
+)
+{
 PORT_Memcpy
 (
 pSalt
@@ -3108,6 +3125,7 @@ salt
 len
 )
 ;
+}
 pbe_params
 -
 >

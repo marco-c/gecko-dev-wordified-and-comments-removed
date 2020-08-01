@@ -6500,6 +6500,7 @@ vrange
 .
 max
 PR_TRUE
+PR_FALSE
 MAX_SIGNATURE_SCHEMES
 filtered
 &

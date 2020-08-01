@@ -606,6 +606,12 @@ c
 ecp_25519
 .
 c
+ecp_secp384r1
+.
+c
+ecp_secp521r1
+.
+c
 SHA_SRCS
 =
 sha_fast
