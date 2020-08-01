@@ -9,6 +9,7 @@ response
 chunks
 =
 [
+b
 "
 First
 chunk
@@ -18,6 +19,7 @@ r
 n
 "
               
+b
 "
 Second
 chunk
@@ -27,6 +29,7 @@ r
 n
 "
               
+b
 "
 Yet
 another
@@ -40,6 +43,7 @@ r
 n
 "
               
+b
 "
 Yet
 another
@@ -52,7 +56,7 @@ r
 \
 n
 "
-              
+             
 ]
     
 response
@@ -61,11 +65,13 @@ headers
 .
 set
 (
+b
 "
 Transfer
 -
 Encoding
 "
+b
 "
 chunked
 "
@@ -77,9 +83,11 @@ headers
 .
 set
 (
+b
 "
 Trailer
 "
+b
 "
 X
 -
@@ -95,11 +103,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -125,6 +135,7 @@ writer
 .
 write
 (
+b
 "
 %
 x
@@ -155,6 +166,7 @@ writer
 .
 write
 (
+b
 "
 \
 r
@@ -169,6 +181,7 @@ writer
 .
 write
 (
+b
 "
 0
 \
@@ -184,6 +197,7 @@ writer
 .
 write
 (
+b
 "
 X
 -

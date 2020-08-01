@@ -14,6 +14,7 @@ GET
 .
 first
 (
+b
 "
 tag
 "
@@ -28,6 +29,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -46,9 +48,11 @@ GET
 .
 first
 (
+b
 "
 date
 "
+b
 "
 "
 )
@@ -61,6 +65,7 @@ headers
 .
 get
 (
+b
 "
 If
 -
@@ -79,6 +84,7 @@ GET
 .
 first
 (
+b
 "
 cors
 "
@@ -91,6 +97,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -102,6 +109,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -111,6 +119,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -122,6 +131,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -131,6 +141,7 @@ Allow
 -
 Headers
 "
+b
 "
 IF
 -
@@ -141,6 +152,7 @@ MATCH
 )
         
 return
+b
 "
 "
     
@@ -154,9 +166,11 @@ headers
 .
 set
 (
+b
 "
 ETag
 "
+b
 '
 "
 %
@@ -177,6 +191,7 @@ headers
 .
 set
 (
+b
 "
 Last
 -
@@ -195,6 +210,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -204,6 +220,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -244,12 +261,14 @@ status
 =
 (
 304
+b
 "
 SUPERCOOL
 "
 )
         
 return
+b
 "
 "
     
@@ -267,6 +286,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -276,6 +296,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -287,11 +308,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -300,6 +323,7 @@ plain
 )
         
 return
+b
 "
 MAYBE
 NOT

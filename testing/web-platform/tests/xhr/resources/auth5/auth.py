@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -14,6 +20,7 @@ auth
 username
 =
 =
+b
 '
 usr
 '
@@ -25,6 +32,7 @@ auth
 password
 =
 =
+b
 '
 secret
 '
@@ -36,11 +44,13 @@ headers
 .
 set
 (
+b
 '
 Content
 -
 type
 '
+b
 '
 text
 /
@@ -50,6 +60,7 @@ plain
         
 content
 =
+b
 "
 "
     
@@ -68,9 +79,11 @@ headers
 .
 set
 (
+b
 '
 Status
 '
+b
 '
 401
 Authorization
@@ -84,11 +97,13 @@ headers
 .
 set
 (
+b
 '
 WWW
 -
 Authenticate
 '
+b
 '
 Basic
 realm
@@ -101,6 +116,7 @@ test
         
 content
 =
+b
 '
 User
 name
@@ -116,6 +132,7 @@ given
 content
 +
 =
+b
 "
 %
 s
@@ -131,7 +148,7 @@ request
 auth
 .
 username
-                           
+                            
 request
 .
 auth

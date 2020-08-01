@@ -30,6 +30,7 @@ headers
 .
 get
 (
+b
 "
 X
 -
@@ -74,6 +75,7 @@ None
 :
             
 return
+b
 '
 FAIL
 (
@@ -102,6 +104,7 @@ stash
 put
 (
 token
+b
 "
 1
 "
@@ -111,6 +114,7 @@ status
 =
 (
 401
+b
 '
 Unauthorized
 '
@@ -120,11 +124,13 @@ headers
 =
 [
 (
+b
 '
 WWW
 -
 Authenticate
 '
+b
 '
 Basic
 realm
@@ -139,6 +145,7 @@ test
 return
 status
 headers
+b
 '
 FAIL
 (
@@ -164,6 +171,7 @@ token
 )
 =
 =
+b
 "
 1
 "
@@ -171,6 +179,7 @@ token
             
 challenge
 =
+b
 "
 DID
 "
@@ -180,6 +189,7 @@ else
             
 challenge
 =
+b
 "
 DID
 -
@@ -190,6 +200,7 @@ headers
 =
 [
 (
+b
 '
 XHR
 -
@@ -199,6 +210,7 @@ expected_user_name
 )
                    
 (
+b
 '
 SES
 -
@@ -208,6 +220,7 @@ session_user
 )
                    
 (
+b
 "
 X
 -
@@ -221,6 +234,7 @@ return
 headers
 session_user
 +
+b
 "
 \
 n

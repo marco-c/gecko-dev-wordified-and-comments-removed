@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -8,10 +14,12 @@ response
     
 response_ctype
 =
+b
 '
 '
     
 if
+b
 "
 response_charset_label
 "
@@ -23,6 +31,7 @@ GET
         
 response_ctype
 =
+b
 "
 ;
 charset
@@ -35,6 +44,7 @@ GET
 .
 first
 (
+b
 "
 response_charset_label
 "
@@ -44,11 +54,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 type
 "
+b
 "
 text
 /
@@ -59,6 +71,7 @@ response_ctype
 )
                
 (
+b
 "
 X
 -
@@ -66,12 +79,16 @@ Request
 -
 Method
 "
+isomorphic_encode
+(
 request
 .
 method
 )
+)
                
 (
+b
 "
 X
 -
@@ -79,11 +96,14 @@ Request
 -
 Query
 "
+isomorphic_encode
+(
 request
 .
 url_parts
 .
 query
+)
 if
 request
 .
@@ -91,12 +111,14 @@ url_parts
 .
 query
 else
+b
 "
 NO
 "
 )
                
 (
+b
 "
 X
 -
@@ -112,11 +134,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Length
 "
+b
 "
 NO
 "
@@ -124,6 +148,7 @@ NO
 )
                
 (
+b
 "
 X
 -
@@ -139,11 +164,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 NO
 "
@@ -152,6 +179,7 @@ NO
 ]
     
 if
+b
 "
 content
 "
@@ -169,6 +197,7 @@ GET
 .
 first
 (
+b
 "
 content
 "
