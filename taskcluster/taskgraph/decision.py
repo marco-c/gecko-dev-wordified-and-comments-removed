@@ -320,7 +320,7 @@ target_tasks_method
 '
 :
 '
-default
+autoland_tasks
 '
     
 }
@@ -587,22 +587,6 @@ target_tasks_method
 :
 '
 kaios_tasks
-'
-    
-}
-    
-'
-autoland
-'
-:
-{
-        
-'
-target_tasks_method
-'
-:
-'
-autoland_tasks
 '
     
 }
