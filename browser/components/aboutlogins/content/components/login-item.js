@@ -3174,6 +3174,12 @@ _toggleEditing
 false
 )
 ;
+this
+.
+render
+(
+)
+;
 return
 ;
 }
