@@ -284,7 +284,7 @@ aNode
 )
 ;
 void
-MakeEmpty
+SetEmpty
 (
 )
 ;

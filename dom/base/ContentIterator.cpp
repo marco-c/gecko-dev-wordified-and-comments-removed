@@ -967,7 +967,7 @@ aStart
 aEnd
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -1684,7 +1684,7 @@ void
 ContentIteratorBase
 :
 :
-MakeEmpty
+SetEmpty
 (
 )
 {
@@ -3285,7 +3285,7 @@ startOffset
 endOffset
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -3451,7 +3451,7 @@ if
 firstCandidate
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -3495,7 +3495,7 @@ nodeBefore
 nodeAfter
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -3623,7 +3623,7 @@ if
 lastCandidate
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
@@ -3662,7 +3662,7 @@ nodeBefore
 nodeAfter
 )
 {
-MakeEmpty
+SetEmpty
 (
 )
 ;
