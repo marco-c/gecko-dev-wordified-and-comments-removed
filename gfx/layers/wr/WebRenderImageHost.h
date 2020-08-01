@@ -375,6 +375,13 @@ GetCompositionTime
 const
 override
 ;
+CompositionOpportunityId
+GetCompositionOpportunityId
+(
+)
+const
+override
+;
 void
 AppendImageCompositeNotification
 (

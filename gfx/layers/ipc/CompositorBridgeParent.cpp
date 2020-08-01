@@ -5241,11 +5241,14 @@ ScheduleComposition
 mLayerManager
 -
 >
-SetCompositionTime
+SetCompositionInfo
 (
 TimeStamp
 (
 )
+CompositionOpportunityId
+{
+}
 )
 ;
 mozilla
