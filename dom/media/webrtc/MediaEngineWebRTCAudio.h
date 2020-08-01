@@ -316,8 +316,6 @@ EchoControlMobile
 :
 RoutingMode
 aRoutingMode
-bool
-aExperimentalInputProcessing
 )
 ;
 void
@@ -674,8 +672,6 @@ EchoControlMobile
 :
 RoutingMode
 aRoutingMode
-bool
-aExperimentalInputProcessing
 )
 ;
 void
@@ -816,9 +812,6 @@ mEnabled
 ;
 bool
 mEnded
-;
-bool
-mExperimentalInputProcessing
 ;
 }
 ;
