@@ -58,7 +58,7 @@ class
 GPUComputePipelineOrGPURenderPipeline
 ;
 class
-UnsignedLongSequenceOrGPUExtent3DDict
+RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
 ;
 struct
 GPUBufferCopyView
@@ -76,7 +76,7 @@ struct
 GPUTextureCopyView
 ;
 typedef
-UnsignedLongSequenceOrGPUExtent3DDict
+RangeEnforcedUnsignedLongSequenceOrGPUExtent3DDict
 GPUExtent3D
 ;
 }

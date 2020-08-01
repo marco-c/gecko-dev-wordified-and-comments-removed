@@ -211,7 +211,7 @@ if
 (
 origin
 .
-IsUnsignedLongSequence
+IsRangeEnforcedUnsignedLongSequence
 (
 )
 )
@@ -223,7 +223,7 @@ seq
 =
 origin
 .
-GetAsUnsignedLongSequence
+GetAsRangeEnforcedUnsignedLongSequence
 (
 )
 ;
@@ -389,7 +389,7 @@ if
 (
 aExtent
 .
-IsUnsignedLongSequence
+IsRangeEnforcedUnsignedLongSequence
 (
 )
 )
@@ -401,7 +401,7 @@ seq
 =
 aExtent
 .
-GetAsUnsignedLongSequence
+GetAsRangeEnforcedUnsignedLongSequence
 (
 )
 ;

@@ -530,7 +530,7 @@ aDesc
 .
 mSize
 .
-IsUnsignedLongSequence
+IsRangeEnforcedUnsignedLongSequence
 (
 )
 )
@@ -544,7 +544,7 @@ aDesc
 .
 mSize
 .
-GetAsUnsignedLongSequence
+GetAsRangeEnforcedUnsignedLongSequence
 (
 )
 ;
@@ -729,7 +729,7 @@ aDesc
 .
 mSize
 .
-IsUnsignedLongSequence
+IsRangeEnforcedUnsignedLongSequence
 (
 )
 )
@@ -743,7 +743,7 @@ aDesc
 .
 mSize
 .
-GetAsUnsignedLongSequence
+GetAsRangeEnforcedUnsignedLongSequence
 (
 )
 ;

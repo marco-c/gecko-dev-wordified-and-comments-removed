@@ -354,7 +354,7 @@ dsa
 .
 mStencilLoadValue
 .
-IsUnsignedLong
+IsRangeEnforcedUnsignedLong
 (
 )
 )
@@ -376,7 +376,7 @@ dsa
 .
 mStencilLoadValue
 .
-GetAsUnsignedLong
+GetAsRangeEnforcedUnsignedLong
 (
 )
 ;
