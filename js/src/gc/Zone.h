@@ -546,6 +546,12 @@ ZoneAllocPolicy
 void
 sweep
 (
+gc
+:
+:
+StoreBuffer
+*
+sbToLock
 )
 ;
 }
