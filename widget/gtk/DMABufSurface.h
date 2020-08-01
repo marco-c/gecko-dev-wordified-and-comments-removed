@@ -1242,11 +1242,6 @@ uint32_t
 GetTextureCount
 (
 )
-{
-return
-2
-;
-}
 ;
 void
 SetYUVColorSpace
@@ -1380,15 +1375,6 @@ SurfaceDescriptorDMABuf
 &
 aDesc
 )
-;
-mozilla
-:
-:
-gfx
-:
-:
-SurfaceFormat
-mSurfaceFormat
 ;
 int
 mWidth
