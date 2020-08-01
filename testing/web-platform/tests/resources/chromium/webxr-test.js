@@ -1323,6 +1323,17 @@ this
 dirty_
 ;
 }
+get
+paused
+(
+)
+{
+return
+this
+.
+paused_
+;
+}
 markProcessed
 (
 )
@@ -4663,7 +4674,7 @@ paused
 {
 anchorData
 .
-pose
+mojoFromAnchor
 =
 XRMathHelper
 .
