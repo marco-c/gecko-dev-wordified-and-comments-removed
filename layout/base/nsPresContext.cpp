@@ -1085,10 +1085,6 @@ StyleOverflow
 :
 Auto
 )
-mExistThrottledUpdates
-(
-false
-)
 mImageAnimationModePref
 (
 imgIContainer
