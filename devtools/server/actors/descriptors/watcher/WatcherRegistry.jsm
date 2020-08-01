@@ -192,6 +192,16 @@ SHARED_DATA_KEY_NAME
 watchedDataByWatcherActor
 )
 ;
+Services
+.
+ppmm
+.
+sharedData
+.
+flush
+(
+)
+;
 }
 const
 WatcherRegistry
