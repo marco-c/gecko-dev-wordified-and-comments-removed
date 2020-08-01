@@ -41,15 +41,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashTable
 .
 h
@@ -15069,7 +15060,6 @@ ExecutionObservableRealms
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 realms_
@@ -15081,8 +15071,6 @@ zones_
 cx
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 bool
 add
@@ -15223,7 +15211,6 @@ realm
 )
 ;
 }
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -15246,7 +15233,6 @@ ExecutionObservableFrame
 (
 AbstractFramePtr
 frame
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 frame_
@@ -15254,8 +15240,6 @@ frame_
 frame
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 Zone
 *
@@ -15405,7 +15389,6 @@ abstractFramePtr
 frame_
 ;
 }
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -15431,7 +15414,6 @@ cx
 JSScript
 *
 script
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 script_
@@ -15440,8 +15422,6 @@ cx
 script
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 Zone
 *
@@ -15537,7 +15517,6 @@ script
 script_
 ;
 }
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 bool

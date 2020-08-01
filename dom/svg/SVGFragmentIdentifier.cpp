@@ -185,7 +185,6 @@ AutoSVGViewHandler
 SVGSVGElement
 *
 aRoot
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mRoot
@@ -197,8 +196,6 @@ mValid
 false
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mWasOverridden
 =
 mRoot
@@ -578,7 +575,6 @@ mValid
 bool
 mWasOverridden
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 bool

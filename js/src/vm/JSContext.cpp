@@ -6090,7 +6090,6 @@ AutoKeepAtoms
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx
@@ -6098,8 +6097,6 @@ cx
 cx
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 cx
 -
 >

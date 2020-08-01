@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 HashFunctions
 .
 h
@@ -6689,7 +6680,6 @@ pgetter
 SetterOp
 *
 psetter
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 private
@@ -6706,7 +6696,6 @@ Inner
 >
 inner
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct

@@ -436,7 +436,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 AutoGCRooter
@@ -451,8 +450,6 @@ Kind
 Custom
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 friend
 void
@@ -489,7 +486,6 @@ trc
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }
@@ -1297,7 +1293,6 @@ cx
 JSObject
 *
 target
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 JSAutoRealm
@@ -1308,7 +1303,6 @@ cx
 JSScript
 *
 target
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -1316,7 +1310,6 @@ JSAutoRealm
 (
 )
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -1346,7 +1339,6 @@ cx
 JSObject
 *
 targetOrNull
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -1354,7 +1346,6 @@ JSAutoNullableRealm
 (
 )
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 namespace
@@ -8803,7 +8794,6 @@ AutoHideScriptedCaller
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mContext
@@ -8811,8 +8801,6 @@ mContext
 cx
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 HideScriptedCaller
 (
 mContext
@@ -8836,7 +8824,6 @@ JSContext
 *
 mContext
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

@@ -288,7 +288,6 @@ AutoChangeNumberListNotifier
 DOMSVGNumberList
 *
 aNumberList
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -311,8 +310,6 @@ mNumberList
 aNumberList
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mNumberList
@@ -408,7 +405,6 @@ mNumberList
 nsAttrValue
 mEmptyOrOldValue
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

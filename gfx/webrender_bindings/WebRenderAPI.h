@@ -3662,7 +3662,6 @@ wr
 :
 WrSpaceAndClipChain
 aSpaceAndClipChain
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mBuilder
@@ -3682,8 +3681,6 @@ mCurrentSpaceAndClipChain
 =
 aSpaceAndClipChain
 ;
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 SpaceAndClipChainHelper
 (
@@ -3695,7 +3692,6 @@ wr
 :
 WrSpatialId
 aSpatialId
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mBuilder
@@ -3717,8 +3713,6 @@ space
 =
 aSpatialId
 ;
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 SpaceAndClipChainHelper
 (
@@ -3730,7 +3724,6 @@ wr
 :
 WrClipChainId
 aClipChainId
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mBuilder
@@ -3753,8 +3746,6 @@ clip_chain
 aClipChainId
 .
 id
-;
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -3790,7 +3781,6 @@ wr
 WrSpaceAndClipChain
 mOldSpaceAndClipChain
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 Maybe

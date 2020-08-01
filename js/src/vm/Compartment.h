@@ -2490,7 +2490,6 @@ AutoWrapperVector
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -2522,8 +2521,6 @@ Kind
 WrapperVector
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 void
 trace
@@ -2535,7 +2532,6 @@ trc
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -2559,7 +2555,6 @@ const
 WrapperValue
 &
 v
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -2584,8 +2579,6 @@ value
 v
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 operator
 JSObject
@@ -2611,7 +2604,6 @@ private
 WrapperValue
 value
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

@@ -3254,7 +3254,6 @@ NeuteredWindowRegion
 (
 bool
 aDoNeuter
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mNeuteredByThis
@@ -3271,8 +3270,6 @@ XRE_UseNativeEventProcessing
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 mNeuteredByThis
@@ -3383,7 +3380,6 @@ DeneuteredWindowRegion
 :
 DeneuteredWindowRegion
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 mReneuter
@@ -3394,8 +3390,6 @@ gWindowHook
 NULL
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 mReneuter
@@ -3431,7 +3425,6 @@ SuppressedNeuteringRegion
 :
 SuppressedNeuteringRegion
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 mReenable
@@ -3453,8 +3446,6 @@ GetCurrentThreadId
 gWindowHook
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 mReenable

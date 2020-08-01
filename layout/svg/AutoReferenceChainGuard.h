@@ -111,7 +111,6 @@ int16_t
 aMaxChainLength
 =
 sDefaultMaxChainLength
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mFrame
@@ -135,8 +134,6 @@ mBrokeReference
 false
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 aFrame
@@ -452,7 +449,6 @@ mMaxChainLength
 bool
 mBrokeReference
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

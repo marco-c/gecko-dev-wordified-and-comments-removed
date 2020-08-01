@@ -211,7 +211,6 @@ bool
 aDoSetAttr
 =
 true
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mOrient
@@ -227,8 +226,6 @@ mDoSetAttr
 aDoSetAttr
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mOrient
@@ -349,7 +346,6 @@ mEmptyOrOldValue
 bool
 mDoSetAttr
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 static

@@ -162,7 +162,6 @@ AutoChangeStringListNotifier
 DOMSVGStringList
 *
 aStringList
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -183,8 +182,6 @@ mStringList
 aStringList
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 mStringList
@@ -257,7 +254,6 @@ mStringList
 nsAttrValue
 mEmptyOrOldValue
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 already_AddRefed

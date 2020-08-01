@@ -1400,7 +1400,6 @@ pgetter
 SetterOp
 *
 psetter
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 {
 if
@@ -1428,8 +1427,6 @@ psetter
 )
 ;
 }
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 static
 inline

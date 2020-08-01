@@ -375,15 +375,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
@@ -3585,7 +3576,6 @@ UniqueProfilerBacktrace
 aCause
 =
 nullptr
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mMarkerName
@@ -3627,8 +3617,6 @@ mInnerWindowID
 aInnerWindowID
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoProfilerTextMarker
@@ -3663,7 +3651,6 @@ mCause
 }
 protected
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 const
 char
 *
@@ -3875,11 +3862,8 @@ public
 explicit
 AutoProfilerInit
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_init
 (
 this
@@ -3898,7 +3882,6 @@ profiler_shutdown
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -3910,11 +3893,8 @@ public
 explicit
 AutoProfilerInit2
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_init_threadmanager
 (
 )
@@ -3922,7 +3902,6 @@ profiler_init_threadmanager
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -3939,11 +3918,8 @@ const
 char
 *
 aName
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_register_thread
 (
 aName
@@ -3984,7 +3960,6 @@ AutoProfilerRegisterThread
 =
 delete
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -3996,11 +3971,8 @@ public
 explicit
 AutoProfilerThreadSleep
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_thread_sleep
 (
 )
@@ -4018,7 +3990,6 @@ profiler_thread_wake
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -4030,7 +4001,6 @@ public
 explicit
 AutoProfilerThreadWake
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 mIssuedWake
@@ -4040,8 +4010,6 @@ profiler_thread_is_sleeping
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 mIssuedWake
@@ -4079,7 +4047,6 @@ profiler_thread_sleep
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 bool
 mIssuedWake
 ;
@@ -4217,11 +4184,8 @@ uint32_t
 aFlags
 =
 0
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 ProfilingStackOwner
 *
 profilingStackOwner
@@ -4272,11 +4236,8 @@ ProfilingCategoryPair
 aCategoryPair
 uint32_t
 aFlags
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 Push
 (
 js
@@ -4362,7 +4323,6 @@ pop
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 ProfilingStack
 *
 mProfilingStack
@@ -4410,7 +4370,6 @@ uint64_t
 >
 &
 aInnerWindowID
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCategoryString
@@ -4430,8 +4389,6 @@ mInnerWindowID
 aInnerWindowID
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_tracing_marker
 (
 mCategoryString
@@ -4469,7 +4426,6 @@ uint64_t
 >
 &
 aInnerWindowID
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCategoryString
@@ -4489,8 +4445,6 @@ mInnerWindowID
 aInnerWindowID
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 profiler_tracing_marker
 (
 mCategoryString
@@ -4525,7 +4479,6 @@ mInnerWindowID
 }
 protected
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 const
 char
 *
