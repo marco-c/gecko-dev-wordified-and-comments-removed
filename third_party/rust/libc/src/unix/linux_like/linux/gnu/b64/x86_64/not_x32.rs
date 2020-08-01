@@ -3861,6 +3861,9 @@ util
 )
 ]
 extern
+"
+C
+"
 {
 pub
 fn

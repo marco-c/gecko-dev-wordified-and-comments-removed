@@ -3977,6 +3977,8 @@ rust
 lucet
 -
 wasi
+-
+wasmsbx
 /
 bindings
 .

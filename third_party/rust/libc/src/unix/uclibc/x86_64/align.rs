@@ -52,7 +52,7 @@ sem_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
@@ -195,7 +195,7 @@ pthread_mutexattr_t
 {
 /
 /
-ToDo
+FIXME
 size
 :
 [
@@ -222,7 +222,7 @@ pthread_condattr_t
 {
 /
 /
-ToDo
+FIXME
 size
 :
 [
@@ -334,7 +334,7 @@ pthread_mutex_t
 {
 /
 /
-ToDo
+FIXME
 size
 :
 [
@@ -368,7 +368,7 @@ pthread_cond_t
 {
 /
 /
-ToDo
+FIXME
 size
 :
 [
@@ -473,7 +473,7 @@ pthread_rwlock_t
 {
 /
 /
-ToDo
+FIXME
 size
 :
 [
@@ -486,4 +486,5 @@ __SIZEOF_PTHREAD_RWLOCK_T
 }
 }
 }
+;
 }

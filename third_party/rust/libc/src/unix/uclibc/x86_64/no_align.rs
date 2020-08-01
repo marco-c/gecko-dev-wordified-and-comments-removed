@@ -16,7 +16,7 @@ sem_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
@@ -73,7 +73,7 @@ pthread_mutex_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
@@ -159,7 +159,7 @@ pthread_mutexattr_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
@@ -265,7 +265,7 @@ pthread_cond_t
 {
 /
 /
-ToDo
+FIXME
 __align
 :
 [
@@ -291,7 +291,7 @@ pthread_condattr_t
 {
 /
 /
-ToDo
+FIXME
 __align
 :
 [
@@ -317,7 +317,7 @@ pthread_rwlock_t
 {
 /
 /
-ToDo
+FIXME
 #
 [
 cfg
