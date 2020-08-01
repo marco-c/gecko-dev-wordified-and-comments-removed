@@ -166,6 +166,11 @@ AutoScrollParent
 jsm
 '
 '
+BackgroundThumbnailsChild
+.
+jsm
+'
+'
 BrowserElementChild
 .
 jsm
