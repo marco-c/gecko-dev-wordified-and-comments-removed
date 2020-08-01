@@ -109,6 +109,8 @@ virtual
 nsWebSocketConnection
 (
 )
+=
+default
 ;
 class
 OutputData
