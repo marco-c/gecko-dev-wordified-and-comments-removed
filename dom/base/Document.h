@@ -5054,6 +5054,7 @@ WindowContext
 GetWindowContext
 (
 )
+const
 {
 return
 GetInnerWindow
@@ -8456,6 +8457,13 @@ eAdopted
 eAttributeChanged
 eGetCustomInterface
 }
+;
+WindowContext
+*
+GetTopLevelWindowContext
+(
+)
+const
 ;
 Document
 *
