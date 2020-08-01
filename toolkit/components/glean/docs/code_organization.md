@@ -5,7 +5,7 @@ organization
 eval_rst
 .
 .
-notnote
+note
 :
 :
 Project
