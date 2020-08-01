@@ -1236,14 +1236,3 @@ against
 upstream
 here
 .
-patch
--
-p1
-<
-.
-/
-aarch64
--
-win
-.
-patch
