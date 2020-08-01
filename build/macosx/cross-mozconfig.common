@@ -393,6 +393,16 @@ dmg
 /
 hfsplus
 export
+DUMP_SYMS
+=
+"
+MOZ_FETCHES_DIR
+/
+dump_syms
+/
+dump_syms
+"
+export
 HOST_CFLAGS
 =
 "

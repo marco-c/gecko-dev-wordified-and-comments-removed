@@ -167,6 +167,12 @@ cross
 -
 linux64
 -
+dump
+-
+syms
+-
+linux64
+-
 hfsplus
 -
 linux64
