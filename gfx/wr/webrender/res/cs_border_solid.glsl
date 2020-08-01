@@ -545,9 +545,9 @@ aRect
 .
 zw
 *
-quad_position
-(
-)
+aPosition
+.
+xy
 ;
 vColor0
 =

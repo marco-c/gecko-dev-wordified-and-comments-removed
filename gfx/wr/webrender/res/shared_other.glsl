@@ -242,14 +242,6 @@ uniforms
 #
 ifdef
 WR_VERTEX_SHADER
-/
-/
-Attribute
-inputs
-in
-vec2
-aPosition
-;
 #
 endif
 /
