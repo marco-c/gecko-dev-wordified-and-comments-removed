@@ -7262,10 +7262,8 @@ OpenWindow
 (
 nullptr
 url
-.
-get
+nsDependentCString
 (
-)
 aId
 -
 >
@@ -7276,11 +7274,8 @@ ToCString
 get
 (
 )
-chromeFlags
-.
-get
-(
 )
+chromeFlags
 androidView
 getter_AddRefs
 (

@@ -91,13 +91,13 @@ in
 mozIDOMWindowProxy
 aParent
 in
-string
+ACString
 aUrl
 in
-string
+ACString
 aName
 in
-string
+ACString
 aFeatures
 in
 boolean

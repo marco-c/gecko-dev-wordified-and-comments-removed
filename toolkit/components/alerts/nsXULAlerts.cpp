@@ -116,6 +116,7 @@ alert
 .
 xhtml
 "
+_ns
 namespace
 {
 StaticRefPtr
@@ -1777,11 +1778,8 @@ ALERT_CHROME_URL
 "
 _blank
 "
+_ns
 features
-.
-get
-(
-)
 argsArray
 getter_AddRefs
 (
