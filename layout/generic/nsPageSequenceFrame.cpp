@@ -1247,12 +1247,6 @@ maxXMost
 =
 0
 ;
-ReflowOutput
-kidReflowOutput
-(
-aReflowInput
-)
-;
 for
 (
 nsIFrame
@@ -1303,6 +1297,12 @@ GetWritingMode
 )
 pageSize
 )
+)
+;
+ReflowOutput
+kidReflowOutput
+(
+kidReflowInput
 )
 ;
 nsReflowStatus
