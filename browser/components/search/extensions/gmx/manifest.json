@@ -25,7 +25,7 @@ version
 "
 1
 .
-0
+1
 "
 "
 applications
@@ -126,6 +126,13 @@ search_url_get_params
 :
 "
 __MSG_searchUrlGetParams__
+"
+"
+suggest_url_get_params
+"
+:
+"
+__MSG_suggestUrlGetParams__
 "
 }
 }
