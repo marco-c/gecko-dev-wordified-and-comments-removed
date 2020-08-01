@@ -9,6 +9,16 @@ transform
 :
 uppercase
 ;
+direction
+:
+ltr
+;
+display
+:
+inline
+-
+block
+;
 }
 .
 manifest

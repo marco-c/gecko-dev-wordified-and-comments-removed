@@ -26,7 +26,7 @@ react
 ;
 const
 {
-span
+div
 }
 =
 require
@@ -175,7 +175,7 @@ slice
 ;
 }
 return
-span
+div
 (
 {
 className

@@ -36,7 +36,7 @@ foo
 "
 >
 <
-span
+div
 className
 =
 "
@@ -68,7 +68,7 @@ value
 00FF00FA
 <
 /
-span
+div
 >
 <
 /
@@ -99,7 +99,7 @@ foo
 "
 >
 <
-span
+div
 className
 =
 "
@@ -131,7 +131,7 @@ ff0000
 ff0000
 <
 /
-span
+div
 >
 <
 /
@@ -185,7 +185,7 @@ foo
 "
 >
 <
-span
+div
 className
 =
 "
@@ -217,7 +217,7 @@ value
 00FF00
 <
 /
-span
+div
 >
 <
 /
