@@ -276,6 +276,11 @@ value
 mochi
 .
 test
+mochi
+.
+xorigin
+-
+test
 "
 :
 "
