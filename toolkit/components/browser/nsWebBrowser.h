@@ -380,7 +380,7 @@ nsIDocShell
 aDocShell
 )
 ;
-NS_IMETHOD
+void
 EnsureDocShellTreeOwner
 (
 )

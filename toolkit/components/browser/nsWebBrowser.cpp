@@ -1113,12 +1113,8 @@ nsIWebBrowserChrome
 aTopWindow
 )
 {
-NS_ENSURE_SUCCESS
-(
 EnsureDocShellTreeOwner
 (
-)
-NS_ERROR_FAILURE
 )
 ;
 return
@@ -1754,12 +1750,8 @@ nsIDocShellTreeOwner
 aTreeOwner
 )
 {
-NS_ENSURE_SUCCESS
-(
 EnsureDocShellTreeOwner
 (
-)
-NS_ERROR_FAILURE
 )
 ;
 return
@@ -4638,7 +4630,7 @@ return
 NS_OK
 ;
 }
-NS_IMETHODIMP
+void
 nsWebBrowser
 :
 :
@@ -4652,7 +4644,6 @@ mDocShellTreeOwner
 )
 {
 return
-NS_OK
 ;
 }
 mDocShellTreeOwner
@@ -4669,9 +4660,6 @@ WebBrowser
 (
 this
 )
-;
-return
-NS_OK
 ;
 }
 static
