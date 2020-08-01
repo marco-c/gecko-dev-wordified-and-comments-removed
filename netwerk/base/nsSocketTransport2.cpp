@@ -4594,6 +4594,14 @@ mConnectionFlags
 )
 )
 ;
+dnsFlags
+|
+=
+nsIDNSService
+:
+:
+RESOLVE_IGNORE_SOCKS_DNS
+;
 NS_ASSERTION
 (
 !

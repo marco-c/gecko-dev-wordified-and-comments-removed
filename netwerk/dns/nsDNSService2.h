@@ -309,6 +309,8 @@ const
 nsACString
 &
 aHostname
+uint32_t
+flags
 )
 ;
 RefPtr

@@ -2282,7 +2282,10 @@ dns
 AsyncResolveNative
 (
 proxyHost
-0
+nsIDNSService
+:
+:
+RESOLVE_IGNORE_SOCKS_DNS
 this
 mozilla
 :
