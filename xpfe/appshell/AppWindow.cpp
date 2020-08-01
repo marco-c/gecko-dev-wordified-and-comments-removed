@@ -1192,17 +1192,6 @@ Height
 NS_ERROR_FAILURE
 )
 ;
-NS_ENSURE_SUCCESS
-(
-mDocShell
--
->
-Create
-(
-)
-NS_ERROR_FAILURE
-)
-;
 mDocShell
 -
 >

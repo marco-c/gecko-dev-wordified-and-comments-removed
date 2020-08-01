@@ -716,6 +716,11 @@ aContentWindowID
 0
 )
 ;
+bool
+Initialize
+(
+)
+;
 NS_IMETHOD
 Stop
 (
@@ -3591,7 +3596,7 @@ mInEnsureScriptEnv
 #
 endif
 bool
-mCreated
+mInitialized
 :
 1
 ;
