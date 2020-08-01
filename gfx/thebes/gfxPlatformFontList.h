@@ -720,6 +720,8 @@ InitData
 >
 &
 aFaces
+bool
+aLoadCmaps
 )
 const
 {
@@ -989,6 +991,10 @@ fontlist
 Family
 *
 aFamily
+bool
+aLoadCmaps
+=
+false
 )
 ;
 void
@@ -998,6 +1004,8 @@ uint32_t
 aGeneration
 uint32_t
 aFamilyIndex
+bool
+aLoadCmaps
 )
 ;
 void

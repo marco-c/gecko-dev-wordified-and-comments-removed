@@ -3866,6 +3866,8 @@ uint32_t
 aGeneration
 uint32_t
 aFamilyIndex
+bool
+aLoadCmaps
 )
 ;
 async

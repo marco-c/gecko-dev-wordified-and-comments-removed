@@ -524,6 +524,12 @@ mozilla
 SlantStyleRange
 mStyle
 ;
+RefPtr
+<
+gfxCharacterMap
+>
+mCharMap
+;
 }
 ;
 Face

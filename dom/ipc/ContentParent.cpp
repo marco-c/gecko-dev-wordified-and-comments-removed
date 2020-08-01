@@ -28380,6 +28380,10 @@ const
 uint32_t
 &
 aFamilyIndex
+const
+bool
+&
+aLoadCmaps
 )
 {
 auto
@@ -28410,6 +28414,7 @@ InitializeFamily
 (
 aGeneration
 aFamilyIndex
+aLoadCmaps
 )
 ;
 return

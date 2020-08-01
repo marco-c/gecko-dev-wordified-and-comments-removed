@@ -767,6 +767,8 @@ InitData
 >
 &
 aFaces
+bool
+aLoadCmaps
 )
 const
 override
