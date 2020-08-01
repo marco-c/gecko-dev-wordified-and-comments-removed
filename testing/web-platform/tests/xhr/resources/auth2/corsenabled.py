@@ -2,6 +2,12 @@ import
 imp
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 here
 =
 os
@@ -10,7 +16,10 @@ path
 .
 dirname
 (
+isomorphic_decode
+(
 __file__
+)
 )
 def
 main
@@ -26,6 +35,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -41,6 +51,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -53,6 +64,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -62,6 +74,7 @@ Allow
 -
 Credentials
 '
+b
 '
 true
 '
@@ -73,6 +86,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -82,6 +96,7 @@ Allow
 -
 Methods
 '
+b
 '
 GET
 '
@@ -93,6 +108,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -102,6 +118,7 @@ Allow
 -
 Headers
 '
+b
 '
 authorization
 x
@@ -119,6 +136,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -128,6 +146,7 @@ Expose
 -
 Headers
 '
+b
 '
 x
 -
@@ -147,6 +166,7 @@ imp
 .
 load_source
 (
+u
 "
 "
 os
@@ -165,6 +185,7 @@ here
 os
 .
 pardir
+u
 "
 authentication
 .
@@ -180,12 +201,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
         
 return
+b
 "
 "
     

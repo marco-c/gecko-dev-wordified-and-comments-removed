@@ -19,6 +19,7 @@ GET
 .
 first
 (
+b
 "
 code
 "
@@ -39,6 +40,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -60,6 +62,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -78,6 +81,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -87,6 +91,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -109,11 +114,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -127,6 +134,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -142,6 +150,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "

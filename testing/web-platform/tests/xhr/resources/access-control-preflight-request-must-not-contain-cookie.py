@@ -12,6 +12,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -22,6 +23,7 @@ cookies
 .
 get
 (
+b
 "
 foo
 "
@@ -43,11 +45,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -61,6 +65,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -76,6 +81,7 @@ headers
 .
 get
 (
+b
 "
 origin
 "
@@ -88,6 +94,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -97,6 +104,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -108,6 +116,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -117,6 +126,7 @@ Allow
 -
 Headers
 "
+b
 "
 X
 -
@@ -132,9 +142,11 @@ headers
 .
 set
 (
+b
 "
 Connection
 "
+b
 "
 close
 "
@@ -147,6 +159,7 @@ cookies
 .
 get
 (
+b
 "
 foo
 "
@@ -161,6 +174,7 @@ request
 .
 cookies
 [
+b
 "
 foo
 "

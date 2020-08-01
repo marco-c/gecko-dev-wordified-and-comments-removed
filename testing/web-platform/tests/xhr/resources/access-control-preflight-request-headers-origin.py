@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Cache
 -
 Control
 "
+b
 "
 no
 -
@@ -30,6 +32,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -39,6 +42,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -50,12 +54,14 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
 :
         
 if
+b
 "
 origin
 "
@@ -66,6 +72,7 @@ headers
 .
 get
 (
+b
 "
 Access
 -
@@ -92,6 +99,7 @@ response
 .
 content
 =
+b
 "
 Error
 :
@@ -118,6 +126,7 @@ headers
 .
 set
 (
+b
 "
 Access
 -
@@ -127,6 +136,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -147,6 +157,7 @@ headers
 .
 get
 (
+b
 "
 x
 -
