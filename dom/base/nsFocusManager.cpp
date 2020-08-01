@@ -5372,6 +5372,16 @@ GetDocShell
 (
 )
 ;
+if
+(
+!
+focusedDocShell
+)
+{
+return
+NS_OK
+;
+}
 RefPtr
 <
 PresShell
