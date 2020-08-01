@@ -2638,6 +2638,7 @@ All
             
 Any
 (
+                
 '
 skip
 -
@@ -2645,16 +2646,21 @@ unless
 -
 schedules
 '
+                
 '
 bugbug
 -
 reduced
 -
+manifests
+-
 fallback
 '
+                
 split_args
 =
 split_bugbug_arg
+            
 )
             
 '
