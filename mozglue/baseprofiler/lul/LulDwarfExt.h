@@ -27,6 +27,11 @@ stdint
 .
 h
 >
+#
+include
+<
+string
+>
 typedef
 signed
 char
