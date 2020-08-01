@@ -699,6 +699,9 @@ div
 className
 =
 {
+outer
+-
+wrapper
 multistageContainer
 }
 >
