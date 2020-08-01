@@ -14933,6 +14933,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 subproperties
 :
 [
@@ -15466,6 +15469,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -15538,6 +15544,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -15639,6 +15648,9 @@ initial_values
 0ms
 "
 ]
+applies_to_marker
+:
+true
 other_values
 :
 [
@@ -15703,6 +15715,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -15767,6 +15782,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -15869,6 +15887,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -15991,6 +16012,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -16057,6 +16081,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -55110,6 +55137,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 subproperties
 :
 [
@@ -55615,6 +55645,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -55679,6 +55712,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -55743,6 +55779,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -55904,6 +55943,9 @@ false
 type
 :
 CSS_TYPE_LONGHAND
+applies_to_marker
+:
+true
 initial_values
 :
 [
@@ -65180,6 +65222,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65233,6 +65278,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65271,6 +65319,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65309,6 +65360,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65349,6 +65403,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65389,6 +65446,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65468,6 +65528,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65506,6 +65569,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65544,6 +65610,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65584,6 +65653,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65628,6 +65700,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65670,6 +65745,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65710,6 +65788,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -65754,6 +65835,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70717,6 +70801,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70796,6 +70883,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70834,6 +70924,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70872,6 +70965,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70912,6 +71008,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70956,6 +71055,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -70998,6 +71100,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -71038,6 +71143,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -71082,6 +71190,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -71966,6 +72077,9 @@ false
 type
 :
 CSS_TYPE_TRUE_SHORTHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -72019,6 +72133,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -72057,6 +72174,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -72095,6 +72215,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
@@ -72135,6 +72258,9 @@ false
 type
 :
 CSS_TYPE_SHORTHAND_AND_LONGHAND
+applies_to_marker
+:
+true
 alias_for
 :
 "
