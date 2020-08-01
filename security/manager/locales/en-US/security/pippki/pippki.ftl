@@ -69,6 +69,8 @@ Password
 dialog
 change
 -
+device
+-
 password
 -
 window
@@ -77,7 +79,6 @@ window
 title
 =
 Change
-Master
 Password
 #
 Variables
@@ -140,9 +141,12 @@ again
 #
 #
 Reset
+Primary
 Password
 dialog
 reset
+-
+primary
 -
 password
 -
@@ -152,7 +156,7 @@ window
 title
 =
 Reset
-Master
+Primary
 Password
 .
 style
@@ -174,6 +178,8 @@ label
 Reset
 reset
 -
+primary
+-
 password
 -
 text
@@ -182,8 +188,8 @@ If
 you
 reset
 your
-master
-password
+Primary
+Password
 all
 your
 stored
@@ -193,8 +199,6 @@ e
 -
 mail
 passwords
-form
-data
 personal
 certificates
 and
@@ -212,8 +216,8 @@ want
 to
 reset
 your
-master
-password
+Primary
+Password
 ?
 #
 #

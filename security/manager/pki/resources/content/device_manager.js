@@ -2191,6 +2191,8 @@ fips
 -
 nonempty
 -
+primary
+-
 password
 -
 required

@@ -477,6 +477,8 @@ fips
 -
 nonempty
 -
+primary
+-
 password
 -
 required
@@ -488,7 +490,7 @@ that
 you
 have
 a
-Master
+Primary
 Password
 set
 for
