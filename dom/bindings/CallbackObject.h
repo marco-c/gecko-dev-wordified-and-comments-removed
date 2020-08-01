@@ -461,8 +461,8 @@ enum
 ExceptionHandling
 {
 eReportExceptions
-eRethrowContentExceptions
 eRethrowExceptions
+eRethrowContentExceptions
 }
 ;
 void
