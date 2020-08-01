@@ -636,6 +636,7 @@ args
 [
 "
 -
+-
 version
 "
 ]
