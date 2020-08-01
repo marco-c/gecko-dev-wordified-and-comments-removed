@@ -66,6 +66,10 @@ mMode
 (
 0
 )
+mURISetByDetection
+(
+false
+)
 {
 }
 void

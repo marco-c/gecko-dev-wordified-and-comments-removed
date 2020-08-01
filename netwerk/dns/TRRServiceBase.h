@@ -96,11 +96,6 @@ mURIPrefHasUserValue
 =
 false
 ;
-bool
-mURISetByDetection
-=
-false
-;
 nsCString
 mURIPref
 ;
@@ -113,6 +108,13 @@ uint32_t
 Relaxed
 >
 mMode
+;
+Atomic
+<
+bool
+Relaxed
+>
+mURISetByDetection
 ;
 }
 ;
