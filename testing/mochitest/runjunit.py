@@ -20,6 +20,12 @@ import
 tempfile
 import
 traceback
+from
+mach
+.
+util
+import
+UserError
 import
 mozcrash
 import
@@ -318,7 +324,7 @@ coverage_output_dir
 :
             
 raise
-Exception
+UserError
 (
 "
 -
@@ -556,7 +562,7 @@ else
 :
                 
 raise
-Exception
+UserError
 (
 "
 -
@@ -1702,7 +1708,7 @@ app
 :
             
 raise
-Exception
+UserError
 (
 "
 %
@@ -1736,7 +1742,7 @@ app
 :
             
 raise
-Exception
+UserError
 (
 "
 %
@@ -1763,7 +1769,7 @@ test_filters
 :
             
 raise
-Exception
+UserError
 (
 "
 Test
