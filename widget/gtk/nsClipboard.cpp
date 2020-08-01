@@ -4131,7 +4131,7 @@ LOGCLIP
 (
 (
 "
-ConvertHTMLtoUCS2
+GetHTMLCharset
 :
 Charset
 of
@@ -4294,7 +4294,7 @@ LOGCLIP
 (
 (
 "
-ConvertHTMLtoUCS2
+GetHTMLCharset
 :
 Charset
 of
@@ -4330,7 +4330,7 @@ LOGCLIP
 (
 (
 "
-ConvertHTMLtoUCS2
+GetHTMLCharset
 :
 Failed
 to
