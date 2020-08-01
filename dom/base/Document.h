@@ -11034,11 +11034,6 @@ SetDocTreeHadAudibleMedia
 (
 )
 ;
-void
-SetDocTreeHadPlayRevoked
-(
-)
-;
 dom
 :
 :
@@ -12782,11 +12777,6 @@ mReportedUseCounters
 ;
 bool
 mHasReportedShadowDOMUsage
-:
-1
-;
-bool
-mDocTreeHadPlayRevoked
 :
 1
 ;
