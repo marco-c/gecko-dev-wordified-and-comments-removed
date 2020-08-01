@@ -127,13 +127,6 @@ IMPL_EVENT_HANDLER
 (
 tonechange
 )
-nsPIDOMWindowInner
-*
-GetParentObject
-(
-)
-const
-;
 void
 StopPlayout
 (
@@ -155,12 +148,6 @@ StartPlayout
 uint32_t
 aDelay
 )
-;
-nsCOMPtr
-<
-nsPIDOMWindowInner
->
-mWindow
 ;
 RefPtr
 <
