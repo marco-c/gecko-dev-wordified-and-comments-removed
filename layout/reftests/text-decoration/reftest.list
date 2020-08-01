@@ -2797,12 +2797,6 @@ shorthands
 ref
 .
 html
-#
-fails
-because
-of
-bug
-1572302
 test
 -
 pref
@@ -2839,7 +2833,6 @@ offset
 enabled
 true
 )
-fails
 HTTP
 (
 .
