@@ -302,7 +302,7 @@ from_environment
     
 config
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
     

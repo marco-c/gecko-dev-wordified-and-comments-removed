@@ -5458,7 +5458,7 @@ topobjdir
 )
     
 def
-_activate_virtualenv
+activate_virtualenv
 (
 self
 )
@@ -5517,7 +5517,7 @@ self
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -5705,7 +5705,7 @@ AttributeError
             
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
             

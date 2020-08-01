@@ -1749,7 +1749,7 @@ get_suite_definition
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         

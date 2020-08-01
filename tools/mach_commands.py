@@ -2445,7 +2445,7 @@ from_environment
     
 cmd
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
     
@@ -2655,7 +2655,7 @@ options
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         

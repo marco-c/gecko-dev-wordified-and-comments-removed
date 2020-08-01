@@ -346,7 +346,7 @@ return
         
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 (
 self
 )
@@ -835,7 +835,7 @@ kwargs
         
 MachCommandBase
 .
-_activate_virtualenv
+activate_virtualenv
 (
 self
 )

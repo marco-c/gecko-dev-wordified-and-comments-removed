@@ -542,7 +542,7 @@ return
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
@@ -1231,7 +1231,7 @@ None
         
 self
 .
-_activate_virtualenv
+activate_virtualenv
 (
 )
         
