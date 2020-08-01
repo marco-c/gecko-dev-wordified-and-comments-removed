@@ -32012,6 +32012,10 @@ state
 {
 }
 ;
+field
+=
+nullptr
+;
 }
 NS_IMPL_CYCLE_COLLECTION_WRAPPERCACHE_0
 (
