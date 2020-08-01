@@ -56,7 +56,7 @@ upload
 '
 MAX_RETRIES
 =
-5
+7
 def
 print_error
 (
