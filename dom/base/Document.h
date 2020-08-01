@@ -12786,11 +12786,6 @@ mHasReportedShadowDOMUsage
 1
 ;
 bool
-mDocTreeHadAudibleMedia
-:
-1
-;
-bool
 mDocTreeHadPlayRevoked
 :
 1
