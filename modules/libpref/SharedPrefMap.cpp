@@ -347,8 +347,8 @@ SharedPrefMapBuilder
 Add
 (
 const
-char
-*
+nsCString
+&
 aKey
 const
 Flags
@@ -367,6 +367,10 @@ AppendElement
 Entry
 {
 aKey
+.
+get
+(
+)
 mKeyTable
 .
 Add
@@ -410,8 +414,8 @@ SharedPrefMapBuilder
 Add
 (
 const
-char
-*
+nsCString
+&
 aKey
 const
 Flags
@@ -463,6 +467,10 @@ AppendElement
 Entry
 {
 aKey
+.
+get
+(
+)
 mKeyTable
 .
 Add
@@ -505,8 +513,8 @@ SharedPrefMapBuilder
 Add
 (
 const
-char
-*
+nsCString
+&
 aKey
 const
 Flags
@@ -582,6 +590,10 @@ AppendElement
 Entry
 {
 aKey
+.
+get
+(
+)
 mKeyTable
 .
 Add

@@ -2335,7 +2335,7 @@ aMap
 .
 Add
 (
-Name
+NameString
 (
 )
 {
