@@ -356,7 +356,7 @@ mozilla
 -
 central
 .
-nightly
+shippable
 .
 latest
 .
@@ -419,7 +419,7 @@ mozilla
 -
 central
 .
-nightly
+shippable
 .
 latest
 .
@@ -431,7 +431,7 @@ asan
 -
 reporter
 -
-nightly
+shippable
 -
 repackage
 -
