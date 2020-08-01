@@ -2566,9 +2566,22 @@ DISABLE_TELEMETRY
 return
 False
     
+try
+:
+        
 return
 settings
 .
 build
 .
 telemetry
+    
+except
+(
+AttributeError
+KeyError
+)
+:
+        
+return
+False
