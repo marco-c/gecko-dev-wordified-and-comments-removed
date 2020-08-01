@@ -1116,6 +1116,13 @@ UpdateMinLogSeverity
 \
 n
 "
+"
+race
+:
+event_debug_mode_too_late
+\
+n
+"
 ;
 }
 #
