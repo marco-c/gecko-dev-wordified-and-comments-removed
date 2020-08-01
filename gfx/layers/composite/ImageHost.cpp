@@ -1786,7 +1786,7 @@ RenderInfo
 aInfo
 )
 {
-OnFinishRendering
+UpdateCompositedFrame
 (
 aInfo
 .
