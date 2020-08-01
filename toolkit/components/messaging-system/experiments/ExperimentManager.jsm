@@ -1287,9 +1287,6 @@ const
 branchValues
 =
 {
-notInExperiment
-:
-null
 }
 ;
 if
