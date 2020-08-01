@@ -940,8 +940,9 @@ return
 NS_ERROR_FAILURE
 ;
 }
+const
 bool
-startIsData
+startIsCharacterData
 =
 aStart
 .
@@ -957,7 +958,7 @@ IsCharacterData
 if
 (
 !
-startIsData
+startIsCharacterData
 &
 &
 aStart
@@ -976,7 +977,7 @@ NS_OK
 }
 if
 (
-startIsData
+startIsCharacterData
 &
 &
 aStart
@@ -1027,7 +1028,7 @@ nullptr
 if
 (
 !
-startIsData
+startIsCharacterData
 )
 {
 cChild
@@ -1109,7 +1110,7 @@ name
 if
 (
 !
-startIsData
+startIsCharacterData
 &
 &
 (
