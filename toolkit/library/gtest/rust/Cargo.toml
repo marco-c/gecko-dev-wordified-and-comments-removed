@@ -370,6 +370,17 @@ shared
 rust_fxa_client
 "
 ]
+with_dbus
+=
+[
+"
+gkrust
+-
+shared
+/
+with_dbus
+"
+]
 [
 dependencies
 ]
