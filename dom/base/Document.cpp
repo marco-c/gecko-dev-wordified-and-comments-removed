@@ -20462,6 +20462,17 @@ AllowsL10n
 )
 const
 {
+if
+(
+IsStaticDocument
+(
+)
+)
+{
+return
+false
+;
+}
 bool
 allowed
 =
