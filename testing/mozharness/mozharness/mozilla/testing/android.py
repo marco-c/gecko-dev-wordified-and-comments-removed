@@ -275,10 +275,6 @@ device
 self
 .
 device_serial
-                                                      
-verbose
-=
-True
 )
         
 return
