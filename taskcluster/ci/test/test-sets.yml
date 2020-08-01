@@ -2326,6 +2326,14 @@ tests
 crashtest
 -
 reftest
+-
+web
+-
+platform
+-
+tests
+-
+reftest
 macosx64
 -
 talos
