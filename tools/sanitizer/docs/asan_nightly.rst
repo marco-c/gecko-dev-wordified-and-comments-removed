@@ -872,10 +872,6 @@ mozilla
 .
 org
 /
-en
--
-US
-/
 security
 /
 client
