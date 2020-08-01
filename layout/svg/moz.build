@@ -226,11 +226,6 @@ SVGForeignObjectFrame
 cpp
 '
 '
-SVGGenericContainerFrame
-.
-cpp
-'
-'
 SVGGeometryFrame
 .
 cpp
