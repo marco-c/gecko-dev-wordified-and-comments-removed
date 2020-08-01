@@ -774,6 +774,9 @@ SourceBrowsingContext
 MaybeDiscardedBrowsingContext
 TargetBrowsingContext
 ;
+uint32_t
+TriggeringSandboxFlags
+;
 nsCString
 ?
 OriginalURIString

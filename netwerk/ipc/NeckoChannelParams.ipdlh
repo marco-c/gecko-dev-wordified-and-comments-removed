@@ -267,6 +267,9 @@ uint32_t
 sandboxFlags
 ;
 uint32_t
+triggeringSandboxFlags
+;
+uint32_t
 contentPolicyType
 ;
 uint32_t
@@ -453,6 +456,9 @@ isInDevToolsContext
 ;
 bool
 parserCreatedScript
+;
+uint32_t
+triggeringSandboxFlags
 ;
 bool
 serviceWorkerTaintingSynthesized
