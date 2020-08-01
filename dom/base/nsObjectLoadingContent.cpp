@@ -11349,13 +11349,6 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
-thisEl
--
->
-NotifyUAWidgetSetupOrChange
-(
-)
-;
 }
 }
 else
