@@ -3993,10 +3993,6 @@ if
 safeMode
 )
 {
-useBaselineInterp
-=
-false
-;
 useBaselineJit
 =
 false
