@@ -11059,10 +11059,9 @@ return
 if
 (
 found
-)
-{
-if
-(
+&
+&
+!
 rememberedDBKey
 .
 IsEmpty
@@ -11070,9 +11069,6 @@ IsEmpty
 )
 )
 {
-return
-;
-}
 nsCOMPtr
 <
 nsIX509CertDB
