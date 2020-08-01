@@ -173,11 +173,6 @@ nsIconLoaderService
 mm
 '
 '
-nsIdleServiceX
-.
-mm
-'
-'
 nsLookAndFeel
 .
 mm
@@ -289,6 +284,11 @@ mm
 '
 '
 nsTouchBarUpdater
+.
+mm
+'
+'
+nsUserIdleServiceX
 .
 mm
 '

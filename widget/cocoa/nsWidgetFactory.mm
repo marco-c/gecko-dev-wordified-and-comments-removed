@@ -147,7 +147,7 @@ h
 #
 include
 "
-nsIdleServiceX
+nsUserIdleServiceX
 .
 h
 "
@@ -322,8 +322,8 @@ Init
 )
 NS_GENERIC_FACTORY_SINGLETON_CONSTRUCTOR
 (
-nsIdleServiceX
-nsIdleServiceX
+nsUserIdleServiceX
+nsUserIdleServiceX
 :
 :
 GetInstance
@@ -733,7 +733,7 @@ nsPrintDialogServiceXConstructor
 kNS_IDLE_SERVICE_CID
 false
 NULL
-nsIdleServiceXConstructor
+nsUserIdleServiceXConstructor
 }
 {
 &
@@ -1078,7 +1078,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

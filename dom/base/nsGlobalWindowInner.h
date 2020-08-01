@@ -455,7 +455,7 @@ class
 nsDOMWindowUtils
 ;
 class
-nsIIdleService
+nsIUserIdleService
 ;
 struct
 nsRect

@@ -1118,7 +1118,7 @@ generateQI
 (
 [
 "
-nsIIdleService
+nsIUserIdleService
 "
 ]
 )
@@ -1177,7 +1177,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

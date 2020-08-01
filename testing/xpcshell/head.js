@@ -1190,7 +1190,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -1439,7 +1439,7 @@ equals
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 |
 |
@@ -1495,7 +1495,7 @@ getService
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 ;
 }

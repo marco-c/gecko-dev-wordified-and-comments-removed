@@ -44,7 +44,7 @@ h
 #
 include
 "
-nsIdleService
+nsUserIdleService
 .
 h
 "
@@ -253,7 +253,7 @@ h
 #
 include
 "
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 .
 h
 "
@@ -3225,7 +3225,7 @@ mAspectRatio
 ;
 nsCOMPtr
 <
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 >
 mIdleService
 ;

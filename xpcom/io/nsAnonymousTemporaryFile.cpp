@@ -78,7 +78,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -586,7 +586,7 @@ nullptr
 }
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleSvc
 =
@@ -599,7 +599,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -750,7 +750,7 @@ RegisterIdleObserver
 {
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleSvc
 =
@@ -763,7 +763,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

@@ -4227,7 +4227,7 @@ defineLazyServiceGetter
 (
 this
 "
-_idleService
+_userIdleService
 "
 "
 mozilla
@@ -4236,12 +4236,12 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
 "
-nsIIdleService
+nsIUserIdleService
 "
 )
 ;
@@ -6540,7 +6540,7 @@ _bookmarksBackupIdleTime
 {
 this
 .
-_idleService
+_userIdleService
 .
 removeIdleObserver
 (
@@ -6565,7 +6565,7 @@ _lateTasksIdleObserver
 {
 this
 .
-_idleService
+_userIdleService
 .
 removeIdleObserver
 (
@@ -10243,7 +10243,7 @@ _bookmarksBackupIdleTime
 {
 this
 .
-_idleService
+_userIdleService
 .
 removeIdleObserver
 (
@@ -11633,7 +11633,7 @@ _scheduleArbitrarilyLateIdleTasks
 ;
 this
 .
-_idleService
+_userIdleService
 .
 addIdleObserver
 (
@@ -14452,7 +14452,7 @@ _bookmarksBackupIdleTime
 }
 this
 .
-_idleService
+_userIdleService
 .
 addIdleObserver
 (

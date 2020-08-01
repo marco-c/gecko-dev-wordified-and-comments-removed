@@ -294,7 +294,7 @@ InProcessGtkCompositorWidget
 cpp
 '
 '
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 .
 cpp
 '

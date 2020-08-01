@@ -8,7 +8,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -337,7 +337,7 @@ n
 ;
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idle
 =
@@ -350,7 +350,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "

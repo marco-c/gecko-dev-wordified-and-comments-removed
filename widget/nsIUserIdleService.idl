@@ -211,7 +211,7 @@ e79eace0b471
 )
 ]
 interface
-nsIIdleService
+nsIUserIdleService
 :
 nsISupports
 {
@@ -365,7 +365,7 @@ is
 always
 the
 *
-nsIIdleService
+nsIUserIdleService
 itself
 .
 *

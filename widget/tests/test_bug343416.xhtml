@@ -445,7 +445,7 @@ to
 get
 to
 the
-nsIIdleService
+nsIUserIdleService
 var
 subjectOK
 =
@@ -460,7 +460,7 @@ subject
 .
 QueryInterface
 (
-nsIIdleService
+nsIUserIdleService
 )
 ;
 subjectOK
@@ -489,7 +489,7 @@ the
 "
 +
 "
-nsIIdleService
+nsIUserIdleService
 .
 "
 )
@@ -567,11 +567,11 @@ finishThisTest
 }
 ;
 const
-nsIIdleService
+nsIUserIdleService
 =
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 ;
 const
 nsIISCID
@@ -583,7 +583,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -604,7 +604,7 @@ nsIISCID
 .
 getService
 (
-nsIIdleService
+nsIUserIdleService
 )
 ;
 }
@@ -618,7 +618,7 @@ ok
 (
 idleService
 "
-nsIIdleService
+nsIUserIdleService
 should
 exist
 and
@@ -773,7 +773,7 @@ ok
 addedObserver
 "
 The
-nsIIdleService
+nsIUserIdleService
 should
 allow
 us
@@ -815,7 +815,7 @@ ok
 addedObserver
 "
 The
-nsIIdleService
+nsIUserIdleService
 should
 allow
 us
@@ -860,7 +860,7 @@ ok
 removedObserver
 "
 The
-nsIIdleService
+nsIUserIdleService
 should
 allow
 us

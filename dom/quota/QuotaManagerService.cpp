@@ -113,7 +113,7 @@ h
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 h
 "
@@ -188,7 +188,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -1493,7 +1493,7 @@ mIdleObserverRegistered
 {
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =
@@ -1554,7 +1554,7 @@ mIdleObserverRegistered
 {
 nsCOMPtr
 <
-nsIIdleService
+nsIUserIdleService
 >
 idleService
 =

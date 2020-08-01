@@ -1121,7 +1121,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -1131,7 +1131,7 @@ getService
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 ;
 if
@@ -1183,7 +1183,7 @@ org
 /
 widget
 /
-idleservice
+useridleservice
 ;
 1
 "
@@ -1193,7 +1193,7 @@ getService
 (
 Ci
 .
-nsIIdleService
+nsIUserIdleService
 )
 ;
 idleService

@@ -1,12 +1,12 @@
 #
 include
 "
-nsIdleServiceAndroid
+nsUserIdleServiceAndroid
 .
 h
 "
 bool
-nsIdleServiceAndroid
+nsUserIdleServiceAndroid
 :
 :
 PollIdleTime
@@ -21,7 +21,7 @@ false
 ;
 }
 bool
-nsIdleServiceAndroid
+nsUserIdleServiceAndroid
 :
 :
 UsePollMode

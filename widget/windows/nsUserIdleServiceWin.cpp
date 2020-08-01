@@ -1,7 +1,7 @@
 #
 include
 "
-nsIdleServiceWin
+nsUserIdleServiceWin
 .
 h
 "
@@ -13,7 +13,7 @@ windows
 h
 >
 bool
-nsIdleServiceWin
+nsUserIdleServiceWin
 :
 :
 PollIdleTime
@@ -67,7 +67,7 @@ true
 ;
 }
 bool
-nsIdleServiceWin
+nsUserIdleServiceWin
 :
 :
 UsePollMode

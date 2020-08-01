@@ -59,7 +59,7 @@ MPL
 #
 include
 "
-nsIIdleService
+nsIUserIdleService
 .
 idl
 "
@@ -79,9 +79,9 @@ b86d
 )
 ]
 interface
-nsIIdleServiceInternal
+nsIUserIdleServiceInternal
 :
-nsIIdleService
+nsIUserIdleService
 {
 /
 *

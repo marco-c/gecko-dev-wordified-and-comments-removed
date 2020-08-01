@@ -10,7 +10,7 @@ h
 #
 include
 "
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 .
 h
 "
@@ -51,7 +51,7 @@ LazyLogModule
 sIdleLog
 (
 "
-nsIIdleService
+nsIUserIdleService
 "
 )
 ;
@@ -316,10 +316,10 @@ sInitialized
 true
 ;
 }
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 :
 :
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 (
 )
 :
@@ -333,11 +333,11 @@ Initialize
 )
 ;
 }
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 :
 :
 ~
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 (
 )
 {
@@ -372,7 +372,7 @@ nullptr
 endif
 }
 bool
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 :
 :
 PollIdleTime
@@ -535,7 +535,7 @@ false
 ;
 }
 bool
-nsIdleServiceGTK
+nsUserIdleServiceGTK
 :
 :
 UsePollMode
