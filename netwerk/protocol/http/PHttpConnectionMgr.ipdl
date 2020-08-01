@@ -11,10 +11,6 @@ protocol
 PHttpTransaction
 ;
 include
-protocol
-PWebSocketConnection
-;
-include
 NeckoChannelParams
 ;
 namespace
@@ -30,9 +26,6 @@ PHttpConnectionMgr
 {
 manager
 PSocketProcess
-;
-manages
-PWebSocketConnection
 ;
 child
 :
@@ -115,13 +108,6 @@ aCaps
 PAltSvcTransaction
 ?
 aTrans
-)
-;
-async
-PWebSocketConnection
-(
-PHttpTransaction
-aTransWithStickyConn
 )
 ;
 }
