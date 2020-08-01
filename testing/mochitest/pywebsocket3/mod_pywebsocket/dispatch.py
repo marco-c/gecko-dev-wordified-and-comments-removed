@@ -8,12 +8,18 @@ request
 "
 "
 "
+from
+__future__
+import
+absolute_import
 import
 logging
 import
 os
 import
 re
+import
+traceback
 from
 mod_pywebsocket
 import
@@ -26,10 +32,6 @@ from
 mod_pywebsocket
 import
 msgutil
-from
-mod_pywebsocket
-import
-mux
 from
 mod_pywebsocket
 import
@@ -593,9 +595,10 @@ try
 :
         
 exec
+(
 handler_definition
-in
 global_dic
+)
     
 except
 Exception
@@ -613,9 +616,9 @@ handler
 '
 +
                                 
-util
+traceback
 .
-get_stack_trace
+format_exc
 (
 )
 )
@@ -783,13 +786,14 @@ handlers
 def
 __init__
 (
-        
 self
+                 
 root_dir
+                 
 scan_dir
 =
 None
-        
+                 
 allow_handlers_outside_root_dir
 =
 True
@@ -986,9 +990,9 @@ self
 .
 _source_handler_files_in_dir
 (
-            
 root_dir
 scan_dir
+                                          
 allow_handlers_outside_root_dir
 )
     
@@ -996,8 +1000,8 @@ def
 add_resource_path_alias
 (
 self
-                                
 alias_resource_path
+                                
 existing_resource_path
 )
 :
@@ -1238,6 +1242,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -1251,9 +1256,9 @@ debug
 %
 s
 '
-util
+traceback
 .
-get_stack_trace
+format_exc
 (
 )
 )
@@ -1262,6 +1267,7 @@ raise
         
 except
 Exception
+as
 e
 :
             
@@ -1269,7 +1275,7 @@ util
 .
 prepend_message_to_exception
 (
-                    
+                
 '
 %
 s
@@ -1281,15 +1287,13 @@ s
 :
 '
 %
+                
 (
-                            
 _DO_EXTRA_HANDSHAKE_HANDLER_NAME
-                            
 request
 .
 ws_resource
 )
-                    
 e
 )
             
@@ -1376,26 +1380,6 @@ connection
 try
 :
             
-if
-mux
-.
-use_mux
-(
-request
-)
-:
-                
-mux
-.
-start
-(
-request
-self
-)
-            
-else
-:
-                
 handler_suite
 =
 self
@@ -1406,13 +1390,13 @@ request
 .
 ws_resource
 )
-                
+            
 if
 handler_suite
 is
 None
 :
-                    
+                
 raise
 DispatchException
 (
@@ -1425,18 +1409,18 @@ for
 r
 '
 %
-                                            
+                                        
 request
 .
 ws_resource
 )
-                
+            
 transfer_data_
 =
 handler_suite
 .
 transfer_data
-                
+            
 transfer_data_
 (
 request
@@ -1461,6 +1445,7 @@ except
 handshake
 .
 AbortedByUserException
+as
 e
 :
             
@@ -1474,9 +1459,9 @@ debug
 %
 s
 '
-util
+traceback
 .
-get_stack_trace
+format_exc
 (
 )
 )
@@ -1487,6 +1472,7 @@ except
 msgutil
 .
 BadOperationException
+as
 e
 :
             
@@ -1519,6 +1505,7 @@ except
 msgutil
 .
 InvalidFrameException
+as
 e
 :
             
@@ -1550,6 +1537,7 @@ except
 msgutil
 .
 UnsupportedFrameException
+as
 e
 :
             
@@ -1581,6 +1569,7 @@ except
 stream
 .
 InvalidUTF8Exception
+as
 e
 :
             
@@ -1613,6 +1602,7 @@ except
 msgutil
 .
 ConnectionTerminatedException
+as
 e
 :
             
@@ -1631,6 +1621,7 @@ e
         
 except
 Exception
+as
 e
 :
             
@@ -1650,14 +1641,13 @@ s
 :
 '
 %
+                
 (
-                    
 _TRANSFER_DATA_HANDLER_NAME
 request
 .
 ws_resource
 )
-                
 e
 )
             
@@ -1831,6 +1821,7 @@ fragment
 raise
 DispatchException
 (
+                
 '
 Fragment
 identifiers
@@ -1839,13 +1830,10 @@ NOT
 be
 used
 on
-'
-                                    
-'
 WebSocket
 URIs
 '
-                                    
+                
 common
 .
 HTTP_STATUS_BAD_REQUEST
@@ -1857,10 +1845,10 @@ handler_suite
 def
 _source_handler_files_in_dir
 (
-        
 self
 root_dir
 scan_dir
+                                     
 allow_handlers_outside_root_dir
 )
 :
@@ -1977,7 +1965,6 @@ root
 directory
 '
 %
-                    
 path
 )
                 
@@ -1986,14 +1973,20 @@ continue
 try
 :
                 
-handler_suite
-=
-_source_handler_file
-(
+with
 open
 (
 path
 )
+as
+handler_file
+:
+                    
+handler_suite
+=
+_source_handler_file
+(
+handler_file
 .
 read
 (
@@ -2002,6 +1995,7 @@ read
             
 except
 DispatchException
+as
 e
 :
                 
@@ -2046,7 +2040,6 @@ _logger
 .
 debug
 (
-                    
 '
 Path
 to
@@ -2058,6 +2051,7 @@ s
 failed
 '
 %
+                                   
 path
 )
             

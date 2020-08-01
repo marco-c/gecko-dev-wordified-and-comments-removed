@@ -29,18 +29,16 @@ established
 "
 "
 "
+from
+__future__
+import
+absolute_import
 import
 logging
 from
 mod_pywebsocket
 import
 common
-from
-mod_pywebsocket
-.
-handshake
-import
-hybi00
 from
 mod_pywebsocket
 .
@@ -84,12 +82,6 @@ do_handshake
 (
 request
 dispatcher
-allowDraft75
-=
-False
-strict
-=
-False
 )
 :
     
@@ -118,22 +110,6 @@ dispatch
 .
 Dispatcher
 )
-.
-        
-allowDraft75
-:
-obsolete
-argument
-.
-ignored
-.
-        
-strict
-:
-obsolete
-argument
-.
-ignored
 .
     
 Handshaker
@@ -178,7 +154,6 @@ _LOGGER
 .
 debug
 (
-        
 '
 Client
 \
@@ -191,6 +166,7 @@ headers
 %
 r
 '
+                  
 dict
 (
 request
@@ -208,33 +184,12 @@ handshakers
 .
 append
 (
-        
 (
 '
 RFC
 6455
 '
 hybi
-.
-Handshaker
-(
-request
-dispatcher
-)
-)
-)
-    
-handshakers
-.
-append
-(
-        
-(
-'
-HyBi
-00
-'
-hybi00
 .
 Handshaker
 (
@@ -293,6 +248,7 @@ return
         
 except
 HandshakeException
+as
 e
 :
             
@@ -331,6 +287,7 @@ e
         
 except
 AbortedByUserException
+as
 e
 :
             
@@ -338,6 +295,7 @@ raise
         
 except
 VersionException
+as
 e
 :
             

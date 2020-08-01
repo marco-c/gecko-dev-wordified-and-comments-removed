@@ -1219,7 +1219,8 @@ testing
 /
 mochitest
 /
-pywebsocket
+pywebsocket3
+/
 testing
 /
 mochitest
