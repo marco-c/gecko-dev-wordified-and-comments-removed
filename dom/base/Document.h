@@ -10647,7 +10647,7 @@ SetCssUseCounterBits
 (
 )
 ;
-bool
+void
 ParseWidthAndHeightInMetaViewport
 (
 const
@@ -10673,7 +10673,7 @@ nsAtom
 aHeaderField
 )
 ;
-bool
+void
 ParseScalesInViewportMetaData
 (
 const
@@ -13226,7 +13226,6 @@ uint8_t
 DisplayWidthHeight
 Specified
 Unknown
-NoValidContent
 }
 ;
 ViewportType
