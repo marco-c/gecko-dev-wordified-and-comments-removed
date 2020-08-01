@@ -115,11 +115,12 @@ MaybeShutdown
 (
 )
 {
-UC_LOG
+UC_LOG_LEAK
 (
 (
 "
 UrlClassifierFeatureLoginReputation
+:
 :
 MaybeShutdown
 "
