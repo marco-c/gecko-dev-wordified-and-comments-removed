@@ -7310,6 +7310,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachIsPackedArray
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachIsCallable
 (
 HandleFunction
