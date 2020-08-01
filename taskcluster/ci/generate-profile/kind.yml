@@ -135,6 +135,17 @@ build
 tier
 :
 1
+run
+-
+on
+-
+projects
+:
+[
+'
+release
+'
+]
 jobs
 :
 linux

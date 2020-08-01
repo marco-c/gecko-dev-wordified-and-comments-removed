@@ -542,6 +542,27 @@ confidence_threshold
         
 )
         
+tasks
+=
+map
+(
+lambda
+t
+:
+t
+.
+replace
+(
+"
+-
+shippable
+"
+"
+"
+)
+tasks
+)
+        
 test_manifests
 =
 task
