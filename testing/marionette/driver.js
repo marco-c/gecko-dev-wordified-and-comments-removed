@@ -4292,6 +4292,15 @@ message
 )
 ;
 }
+await
+this
+.
+listener
+.
+switchToFrame
+(
+)
+;
 const
 navigated
 =
