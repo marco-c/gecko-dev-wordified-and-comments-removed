@@ -5703,6 +5703,9 @@ encode
 data
 )
 )
+            
+return
+True
         
 except
 socket
@@ -5710,7 +5713,8 @@ socket
 error
 :
             
-pass
+return
+False
     
 def
 write_content_file

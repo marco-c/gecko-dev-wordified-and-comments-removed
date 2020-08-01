@@ -15,6 +15,7 @@ response
     
 dir
 =
+u
 '
 /
 '
@@ -29,6 +30,7 @@ path
 .
 split
 (
+u
 '
 /
 '
@@ -40,6 +42,7 @@ split
 ]
 )
 +
+u
 '
 /
 '
@@ -52,6 +55,7 @@ GET
 .
 first
 (
+b
 "
 key
 "
@@ -63,6 +67,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -72,6 +77,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '

@@ -12,6 +12,7 @@ request
 method
 =
 =
+u
 '
 OPTIONS
 '
@@ -23,6 +24,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -32,6 +34,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
@@ -43,6 +46,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -52,6 +56,7 @@ Allow
 -
 Methods
 '
+b
 '
 *
 '
@@ -63,6 +68,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -72,6 +78,7 @@ Allow
 -
 Headers
 '
+b
 '
 *
 '
@@ -84,6 +91,7 @@ done
     
 url_dir
 =
+u
 '
 /
 '
@@ -98,6 +106,7 @@ path
 .
 split
 (
+u
 '
 /
 '
@@ -109,6 +118,7 @@ split
 ]
 )
 +
+u
 '
 /
 '
@@ -121,6 +131,7 @@ GET
 .
 first
 (
+b
 "
 key
 "
@@ -134,6 +145,7 @@ GET
 .
 first
 (
+b
 "
 value
 "
@@ -158,6 +170,7 @@ headers
 .
 set
 (
+b
 '
 Access
 -
@@ -167,6 +180,7 @@ Allow
 -
 Origin
 '
+b
 '
 *
 '
