@@ -3,7 +3,7 @@ modules
 category
 webextension
 -
-scripts
+modules
 android
 chrome
 :
@@ -17,12 +17,14 @@ ext
 -
 android
 .
-js
+json
 category
 webextension
 -
 scripts
-utils
+c
+-
+android
 chrome
 :
 /
@@ -33,7 +35,7 @@ content
 /
 ext
 -
-utils
+android
 .
 js
 category
