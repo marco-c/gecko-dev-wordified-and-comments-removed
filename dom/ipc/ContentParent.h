@@ -3728,10 +3728,6 @@ PStartupCacheParent
 *
 AllocPStartupCacheParent
 (
-const
-bool
-&
-wantCacheData
 )
 ;
 bool

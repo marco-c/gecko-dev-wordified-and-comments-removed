@@ -1100,6 +1100,10 @@ ipc
 GeckoChildProcessHost
 &
 procHost
+const
+nsACString
+&
+aRemoteType
 std
 :
 :
