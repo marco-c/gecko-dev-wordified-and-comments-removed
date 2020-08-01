@@ -190,6 +190,14 @@ attribute
 double
 step
 ;
+[
+Default
+]
+object
+toJSON
+(
+)
+;
 }
 ;
 enum
