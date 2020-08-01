@@ -299,8 +299,6 @@ elt
 val
 )
 {
-return
-(
 this
 .
 _folder
@@ -308,7 +306,6 @@ _folder
 elt
 =
 val
-)
 ;
 }
 get
@@ -330,8 +327,6 @@ openTimer
 val
 )
 {
-return
-(
 this
 .
 _folder
@@ -339,7 +334,6 @@ _folder
 openTimer
 =
 val
-)
 ;
 }
 get
@@ -361,8 +355,6 @@ hoverTime
 val
 )
 {
-return
-(
 this
 .
 _folder
@@ -370,7 +362,6 @@ _folder
 hoverTime
 =
 val
-)
 ;
 }
 get
@@ -392,8 +383,6 @@ closeTimer
 val
 )
 {
-return
-(
 this
 .
 _folder
@@ -401,7 +390,6 @@ _folder
 closeTimer
 =
 val
-)
 ;
 }
 get
@@ -421,14 +409,11 @@ closeMenuTimer
 val
 )
 {
-return
-(
 this
 .
 _closeMenuTimer
 =
 val
-)
 ;
 }
 setTimer

@@ -622,9 +622,6 @@ disableUserActions
 )
 ;
 }
-return
-val
-;
 }
 get
 disableUserActions
@@ -659,7 +656,6 @@ _view
 =
 val
 ;
-return
 Object
 .
 getOwnPropertyDescriptor
@@ -744,9 +740,6 @@ place
 ;
 }
 }
-return
-val
-;
 }
 get
 flatList
@@ -849,9 +842,6 @@ options
 .
 value
 )
-;
-return
-val
 ;
 }
 get
@@ -1506,14 +1496,11 @@ active
 val
 )
 {
-return
-(
 this
 .
 _active
 =
 val
-)
 ;
 }
 get

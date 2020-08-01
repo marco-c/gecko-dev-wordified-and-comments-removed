@@ -2914,9 +2914,6 @@ STATUS
 DIRTY
 ;
 }
-return
-aNewStatus
-;
 }
 get
 status
@@ -3029,11 +3026,6 @@ _expireOnIdle
 aExpireOnIdle
 ;
 }
-return
-this
-.
-_expireOnIdle
-;
 }
 get
 expireOnIdle

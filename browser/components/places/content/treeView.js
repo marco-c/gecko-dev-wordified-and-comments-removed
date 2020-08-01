@@ -5149,9 +5149,6 @@ _finishInit
 )
 ;
 }
-return
-val
-;
 }
 nodeForTreeIndex
 (

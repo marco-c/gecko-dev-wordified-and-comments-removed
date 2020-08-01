@@ -227,9 +227,6 @@ addObserver
 this
 )
 ;
-return
-val
-;
 }
 _result
 :
@@ -262,7 +259,6 @@ val
 )
 {
 return
-val
 ;
 }
 if
@@ -388,9 +384,6 @@ this
 _domNodes
 ;
 }
-return
-val
-;
 }
 _options
 :
@@ -448,9 +441,6 @@ this
 .
 _options
 =
-val
-;
-return
 val
 ;
 }
