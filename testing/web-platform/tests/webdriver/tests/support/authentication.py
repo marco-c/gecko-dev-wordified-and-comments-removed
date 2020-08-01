@@ -101,6 +101,7 @@ if
 user
 =
 =
+b
 "
 user
 "
@@ -108,12 +109,14 @@ and
 password
 =
 =
+b
 "
 password
 "
 :
         
 return
+b
 "
 Authentication
 done
@@ -121,11 +124,13 @@ done
     
 realm
 =
+b
 "
 test
 "
     
 if
+b
 "
 realm
 "
@@ -143,6 +148,7 @@ GET
 .
 first
 (
+b
 "
 realm
 "
@@ -152,6 +158,7 @@ return
 (
 (
 401
+b
 "
 Unauthorized
 "
@@ -159,11 +166,13 @@ Unauthorized
             
 [
 (
+b
 "
 WWW
 -
 Authenticate
 "
+b
 '
 Basic
 realm
@@ -173,12 +182,14 @@ realm
 +
 realm
 +
+b
 '
 "
 '
 )
 ]
             
+b
 "
 Please
 login

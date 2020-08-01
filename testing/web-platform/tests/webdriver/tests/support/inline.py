@@ -639,6 +639,7 @@ GET
 .
 first
 (
+b
 "
 doc
 "
@@ -653,6 +654,7 @@ GET
 .
 first
 (
+b
 "
 mime
 "
@@ -667,6 +669,7 @@ GET
 .
 first
 (
+b
 "
 charset
 "
@@ -683,12 +686,14 @@ return
 404
 [
 (
+b
 "
 Content
 -
 Type
 "
                       
+b
 "
 text
 /
@@ -696,6 +701,7 @@ plain
 "
 )
 ]
+b
 "
 Missing
 doc
@@ -734,22 +740,21 @@ content_type
 .
 append
 (
+b
 "
 charset
 =
-{
-}
+%
+s
 "
-.
-format
-(
+%
 charset
-)
 )
     
 headers
 =
 {
+b
 "
 X
 -
@@ -758,6 +763,7 @@ XSS
 Protection
 "
 :
+b
 "
 0
 "
@@ -774,6 +780,7 @@ content_type
         
 headers
 [
+b
 "
 Content
 -
@@ -781,6 +788,7 @@ Type
 "
 ]
 =
+b
 "
 ;
 "
