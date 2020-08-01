@@ -526,6 +526,12 @@ Object
 debuggerServiceWorkerStatus
 :
 string
+onThreadAttached
+:
+Promise
+<
+*
+>
 }
 ;
 export

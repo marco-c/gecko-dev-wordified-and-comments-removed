@@ -123,7 +123,7 @@ thread
 await
 client
 .
-attachThread
+addThread
 (
 targetFront
 )
