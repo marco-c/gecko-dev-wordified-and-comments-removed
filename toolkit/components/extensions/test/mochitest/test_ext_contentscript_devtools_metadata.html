@@ -311,12 +311,14 @@ innerWindowID
 =
 SpecialPowers
 .
-getDOMWindowUtils
+wrap
 (
 win
 )
 .
-currentInnerWindowID
+windowGlobalChild
+.
+innerWindowId
 ;
 await
 extension

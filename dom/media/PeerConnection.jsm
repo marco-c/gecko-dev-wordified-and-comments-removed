@@ -1675,9 +1675,9 @@ this
 .
 _win
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 __init
@@ -2229,9 +2229,9 @@ this
 .
 _win
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 if
 (
@@ -10374,9 +10374,9 @@ _winID
 =
 win
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 }
 registerPeerConnectionLifecycleCallback

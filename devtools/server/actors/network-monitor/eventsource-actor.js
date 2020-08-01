@@ -243,9 +243,9 @@ targetActor
 .
 window
 .
-windowUtils
+windowGlobalChild
 .
-currentInnerWindowID
+innerWindowId
 ;
 eventSourceEventService
 .
