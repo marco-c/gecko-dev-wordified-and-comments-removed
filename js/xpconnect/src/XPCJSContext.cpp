@@ -528,7 +528,6 @@ MOZ_RAII
 AutoLockWatchdog
 final
 {
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 Watchdog
 *
 const
@@ -542,7 +541,6 @@ AutoLockWatchdog
 Watchdog
 *
 aWatchdog
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -1947,7 +1945,6 @@ AutoLockWatchdog
 Watchdog
 *
 aWatchdog
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mWatchdog
@@ -1955,8 +1952,6 @@ mWatchdog
 aWatchdog
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 if
 (
 mWatchdog

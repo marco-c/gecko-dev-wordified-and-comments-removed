@@ -18,15 +18,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 PlatformMutex
 .
 h
@@ -309,7 +300,6 @@ BaseAutoLock
 (
 T
 aLock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -317,8 +307,6 @@ mLock
 aLock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mLock
 .
 Lock
@@ -410,7 +398,6 @@ T
 T
 mLock
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 template
@@ -473,7 +460,6 @@ BaseAutoUnlock
 (
 T
 aLock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -481,8 +467,6 @@ mLock
 aLock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mLock
 .
 Unlock
@@ -499,7 +483,6 @@ T
 >
 &
 aAutoLock
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mLock
@@ -509,8 +492,6 @@ aAutoLock
 mLock
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 NS_ASSERTION
 (
 mLock
@@ -577,7 +558,6 @@ true
 T
 mLock
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 template

@@ -1429,11 +1429,8 @@ public
 explicit
 NotifyLoadingModule
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 PluginModuleMapping
 :
 :
@@ -1457,7 +1454,6 @@ false
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 private

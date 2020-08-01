@@ -944,7 +944,6 @@ aFrame
 SVGGeometryFrame
 *
 aMarkedFrame
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mFrame
@@ -952,8 +951,6 @@ mFrame
 aFrame
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mFrame
 -
 >

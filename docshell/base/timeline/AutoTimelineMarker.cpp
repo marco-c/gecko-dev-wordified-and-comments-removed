@@ -41,7 +41,6 @@ const
 char
 *
 aName
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mName
@@ -53,8 +52,6 @@ mDocShell
 nullptr
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 NS_IsMainThread

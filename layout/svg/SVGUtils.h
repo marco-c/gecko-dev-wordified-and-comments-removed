@@ -513,7 +513,6 @@ SVGAutoRenderState
 DrawTarget
 *
 aDrawTarget
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -550,7 +549,6 @@ mOriginalRenderState
 bool
 mPaintingToWindow
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class

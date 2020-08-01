@@ -9,15 +9,6 @@ include
 "
 mozilla
 /
-GuardObjects
-.
-h
-"
-#
-include
-"
-mozilla
-/
 dom
 /
 Nullable
@@ -69,7 +60,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 T
@@ -81,7 +71,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }
@@ -141,7 +130,6 @@ const
 CX
 &
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 Nullable
@@ -156,7 +144,6 @@ JS
 CustomAutoRooter
 (
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM_TO_PARENT
 )
 {
 }

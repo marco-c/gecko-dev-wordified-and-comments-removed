@@ -4,15 +4,6 @@ mozilla_ipc_Neutering_h
 #
 define
 mozilla_ipc_Neutering_h
-#
-include
-"
-mozilla
-/
-GuardObjects
-.
-h
-"
 namespace
 mozilla
 {
@@ -30,7 +21,6 @@ NeuteredWindowRegion
 (
 bool
 aDoNeuter
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
@@ -45,7 +35,6 @@ PumpOnce
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 bool
 mNeuteredByThis
 ;
@@ -60,7 +49,6 @@ public
 explicit
 DeneuteredWindowRegion
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 ~
@@ -70,7 +58,6 @@ DeneuteredWindowRegion
 ;
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 bool
 mReneuter
 ;
@@ -85,7 +72,6 @@ public
 explicit
 SuppressedNeuteringRegion
 (
-MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 ~
@@ -106,7 +92,6 @@ sSuppressNeutering
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 bool
 mReenable
 ;

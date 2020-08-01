@@ -969,7 +969,6 @@ AutoSaveRestore
 CanvasRenderingContext2D
 *
 aCtx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mCtx
@@ -977,8 +976,6 @@ mCtx
 aCtx
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 mCtx
 -
 >
@@ -1008,7 +1005,6 @@ CanvasRenderingContext2D
 >
 mCtx
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class

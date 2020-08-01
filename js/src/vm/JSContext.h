@@ -239,7 +239,6 @@ JSContext
 cx
 HandleObject
 objArg
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 cx
@@ -256,8 +255,6 @@ cyclic
 true
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 ~
 AutoCycleDetector
@@ -290,7 +287,6 @@ obj
 bool
 cyclic
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 struct
@@ -4299,7 +4295,6 @@ Kind
 kind
 =
 LOOKUP
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 context
@@ -4326,8 +4321,6 @@ cx
 resolvingList
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 obj
@@ -4408,7 +4401,6 @@ AutoResolving
 const
 link
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 extern
@@ -4627,7 +4619,6 @@ len
 Value
 *
 vec
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 JS
@@ -4646,12 +4637,9 @@ vec
 )
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 }
 private
 :
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -4737,11 +4725,8 @@ AutoLockScriptData
 JSRuntime
 *
 rt
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 {
-MOZ_GUARD_OBJECT_NOTIFIER_INIT
-;
 MOZ_ASSERT
 (
 CurrentThreadCanAccessRuntime
@@ -4853,7 +4838,6 @@ false
 endif
 }
 }
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -4895,7 +4879,6 @@ JSContext
 *
 cx
 ;
-MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -4904,7 +4887,6 @@ AutoKeepAtoms
 JSContext
 *
 cx
-MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~
