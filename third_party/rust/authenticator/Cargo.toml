@@ -122,7 +122,7 @@ version
 .
 2
 .
-15
+13
 "
 authors
 =
@@ -310,7 +310,6 @@ env_logger
 version
 =
 "
-^
 0
 .
 6
@@ -329,8 +328,6 @@ version
 0
 .
 8
-.
-2
 "
 [
 build
@@ -342,7 +339,6 @@ bindgen
 version
 =
 "
-^
 0
 .
 51
@@ -446,7 +442,7 @@ version
 "
 0
 .
-9
+7
 "
 [
 target

@@ -112,7 +112,6 @@ Platforms
 Windows
 Linux
 FreeBSD
-NetBSD
 OpenBSD
 and
 macOS

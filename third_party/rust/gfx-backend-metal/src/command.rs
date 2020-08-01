@@ -103,7 +103,7 @@ block
 ConcreteBlock
 ;
 use
-cocoa_foundation
+cocoa
 :
 :
 foundation

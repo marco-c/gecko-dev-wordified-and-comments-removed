@@ -612,15 +612,6 @@ mut
 T
 }
 }
-pub
-static
-kCFNotFound
-:
-CFIndex
-=
--
-1
-;
 extern
 {
 pub

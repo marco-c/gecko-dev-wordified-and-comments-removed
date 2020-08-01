@@ -473,8 +473,6 @@ version
 0
 .
 5
-.
-6
 "
 }
 gfx
@@ -490,8 +488,6 @@ version
 0
 .
 5
-.
-11
 "
 optional
 =
@@ -541,8 +537,6 @@ version
 0
 .
 5
-.
-11
 "
 features
 =
@@ -607,8 +601,6 @@ version
 0
 .
 5
-.
-11
 "
 }
 [

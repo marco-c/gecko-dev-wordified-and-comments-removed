@@ -97,6 +97,8 @@ lib
 "
 freetype
 /
+servo
+-
 freetype
 -
 sys
@@ -676,7 +678,7 @@ version
 "
 0
 .
-7
+4
 "
 default
 -
@@ -737,7 +739,7 @@ foundation
 "
 0
 .
-9
+7
 "
 core
 -
@@ -746,7 +748,7 @@ graphics
 "
 0
 .
-22
+19
 "
 core
 -
@@ -756,7 +758,7 @@ text
 version
 =
 "
-19
+15
 "
 default
 -

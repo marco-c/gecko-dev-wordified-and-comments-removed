@@ -65,6 +65,8 @@ cfg
 feature
 =
 "
+servo
+-
 freetype
 -
 sys
