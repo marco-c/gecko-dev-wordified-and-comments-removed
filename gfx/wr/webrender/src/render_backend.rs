@@ -3856,6 +3856,8 @@ replace
 mut
 built_scene
 .
+tile_cache_config
+.
 tile_caches
 FastHashMap
 :
