@@ -25681,7 +25681,7 @@ guardToInt32Index
 offsetId
 )
 ;
-Int32OperandId
+BooleanOperandId
 boolLittleEndianId
 ;
 if
@@ -25721,9 +25721,9 @@ boolLittleEndianId
 =
 writer
 .
-loadInt32Constant
+loadBooleanConstant
 (
-0
+false
 )
 ;
 }
@@ -26109,7 +26109,7 @@ valueId
 type
 )
 ;
-Int32OperandId
+BooleanOperandId
 boolLittleEndianId
 ;
 if
@@ -26149,9 +26149,9 @@ boolLittleEndianId
 =
 writer
 .
-loadInt32Constant
+loadBooleanConstant
 (
-0
+false
 )
 ;
 }
@@ -36413,7 +36413,7 @@ isBoolean
 ?
 writer
 .
-guardToBoolean
+guardBooleanToInt32
 (
 lhsId
 )
@@ -36436,7 +36436,7 @@ isBoolean
 ?
 writer
 .
-guardToBoolean
+guardBooleanToInt32
 (
 rhsId
 )
@@ -38069,7 +38069,7 @@ isBoolean
 )
 )
 {
-Int32OperandId
+BooleanOperandId
 boolId
 =
 writer
@@ -38300,7 +38300,7 @@ isBoolean
 return
 writer
 .
-guardToBoolean
+guardBooleanToInt32
 (
 vId
 )
@@ -42158,7 +42158,7 @@ isBoolean
 return
 writer
 .
-guardToBoolean
+guardBooleanToInt32
 (
 id
 )
@@ -42960,7 +42960,7 @@ isBoolean
 return
 writer
 .
-guardToBoolean
+guardBooleanToInt32
 (
 id
 )
@@ -43538,8 +43538,8 @@ isBoolean
 )
 )
 ;
-Int32OperandId
-intId
+BooleanOperandId
+boolId
 =
 writer
 .
@@ -43553,7 +43553,7 @@ writer
 .
 booleanToString
 (
-intId
+boolId
 )
 ;
 }

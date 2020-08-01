@@ -346,6 +346,19 @@ writeOperandId
 )
     
 '
+BooleanId
+'
+:
+(
+'
+BooleanOperandId
+'
+'
+writeOperandId
+'
+)
+    
+'
 Int32Id
 '
 :
@@ -1204,6 +1217,26 @@ Id
 reader
 .
 symbolOperandId
+(
+)
+'
+)
+    
+'
+BooleanId
+'
+:
+(
+'
+BooleanOperandId
+'
+'
+Id
+'
+'
+reader
+.
+booleanOperandId
 (
 )
 '
@@ -2146,6 +2179,14 @@ spewOperandId
 '
     
 '
+BooleanId
+'
+:
+'
+spewOperandId
+'
+    
+'
 Int32Id
 '
 :
@@ -2969,6 +3010,12 @@ StringId
     
 '
 SymbolId
+'
+:
+1
+    
+'
+BooleanId
 '
 :
 1
