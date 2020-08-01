@@ -283,7 +283,7 @@ Group
 )
 -
 >
-EnsureSubscribed
+EnsureHostProcess
 (
 aContentParent
 )
