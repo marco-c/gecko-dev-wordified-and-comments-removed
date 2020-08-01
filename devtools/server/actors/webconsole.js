@@ -4537,6 +4537,10 @@ matchProp
 result
 .
 matchProp
+|
+|
+"
+"
 ;
 isElementAccess
 =
@@ -4572,6 +4576,9 @@ reqText
 ;
 if
 (
+matchProp
+&
+&
 !
 lastNonAlphaIsDot
 &
