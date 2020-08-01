@@ -223,6 +223,13 @@ cupsCheckDestSupported
 &
 CUPS_SHIM_LOAD
 (
+mCupsCopyDest
+cupsCopyDest
+)
+&
+&
+CUPS_SHIM_LOAD
+(
 mCupsCopyDestInfo
 cupsCopyDestInfo
 )

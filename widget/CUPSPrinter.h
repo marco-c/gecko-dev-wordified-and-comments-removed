@@ -66,6 +66,12 @@ mPrinterInfo
 {
 other
 .
+mPrinter
+=
+nullptr
+;
+other
+.
 mPrinterInfo
 =
 nullptr
@@ -153,7 +159,6 @@ mShim
 ;
 cups_dest_t
 *
-const
 mPrinter
 ;
 cups_dinfo_t

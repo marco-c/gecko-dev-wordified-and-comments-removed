@@ -52,6 +52,13 @@ mCupsCheckDestSupported
 ;
 decltype
 (
+cupsCopyDest
+)
+*
+mCupsCopyDest
+;
+decltype
+(
 cupsCopyDestInfo
 )
 *
