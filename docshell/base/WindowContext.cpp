@@ -1445,7 +1445,7 @@ mFields
 =
 mFields
 .
-Fields
+RawValues
 (
 )
 ;
@@ -1467,10 +1467,10 @@ uint64_t
 aOuterWindowId
 bool
 aInProcess
-FieldTuple
+FieldValues
 &
 &
-aFields
+aInit
 )
 :
 mFields
@@ -1480,7 +1480,7 @@ std
 :
 move
 (
-aFields
+aInit
 )
 )
 mInnerWindowId

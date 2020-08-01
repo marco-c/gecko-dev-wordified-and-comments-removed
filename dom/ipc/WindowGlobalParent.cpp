@@ -418,10 +418,10 @@ uint64_t
 aOuterWindowId
 bool
 aInProcess
-FieldTuple
+FieldValues
 &
 &
-aFields
+aInit
 )
 :
 WindowContext
@@ -435,7 +435,7 @@ std
 :
 move
 (
-aFields
+aInit
 )
 )
 mIsInitialDocument
@@ -558,7 +558,7 @@ WindowGlobalParent
 "
 )
 ;
-FieldTuple
+FieldValues
 fields
 (
 aInit

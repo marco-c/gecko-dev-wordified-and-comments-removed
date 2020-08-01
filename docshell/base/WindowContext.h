@@ -473,7 +473,7 @@ mOuterWindowId
 uint64_t
 mBrowsingContextId
 ;
-FieldTuple
+FieldValues
 mFields
 ;
 }
@@ -513,7 +513,7 @@ uint64_t
 aOuterWindowId
 bool
 aInProcess
-FieldTuple
+FieldValues
 &
 &
 aFields
