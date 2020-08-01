@@ -15870,6 +15870,16 @@ output
 )
 ;
 void
+branchIfClassIsNotTypedArray
+(
+Register
+clasp
+Label
+*
+notTypedArray
+)
+;
+void
 branchIfNativeIteratorNotReusable
 (
 Register
