@@ -304,6 +304,7 @@ mozilla
 namespace
 layers
 {
+comparable
 struct
 SurfaceDescriptorFileMapping
 {
@@ -318,6 +319,7 @@ size
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorDIB
 {
@@ -330,6 +332,7 @@ surface
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorD3D10
 {
@@ -350,6 +353,7 @@ colorRange
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorDXGIYCbCr
 {
@@ -382,6 +386,7 @@ colorRange
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorMacIOSurface
 {
@@ -399,6 +404,7 @@ yUVColorSpace
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorDMABuf
 {
@@ -459,6 +465,7 @@ refCount
 ;
 }
 ;
+comparable
 struct
 SurfaceTextureDescriptor
 {
@@ -479,6 +486,7 @@ ignoreTransform
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorAndroidHardwareBuffer
 {
@@ -493,6 +501,7 @@ format
 ;
 }
 ;
+comparable
 struct
 EGLImageDescriptor
 {
@@ -518,6 +527,7 @@ hasAlpha
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorSharedGLTexture
 {
@@ -538,6 +548,7 @@ hasAlpha
 ;
 }
 ;
+comparable
 union
 RemoteDecoderVideoSubDescriptor
 {
@@ -551,6 +562,7 @@ null_t
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorRemoteDecoder
 {
@@ -565,6 +577,7 @@ source
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorPlugin
 {
@@ -579,6 +592,7 @@ displaySurf
 ;
 }
 ;
+comparable
 union
 SurfaceDescriptorGPUVideo
 {
@@ -588,6 +602,7 @@ SurfaceDescriptorPlugin
 ;
 }
 ;
+comparable
 struct
 RGBDescriptor
 {
@@ -602,6 +617,7 @@ hasIntermediateBuffer
 ;
 }
 ;
+comparable
 struct
 YCbCrDescriptor
 {
@@ -643,6 +659,7 @@ hasIntermediateBuffer
 ;
 }
 ;
+comparable
 union
 BufferDescriptor
 {
@@ -652,6 +669,7 @@ YCbCrDescriptor
 ;
 }
 ;
+comparable
 union
 MemoryOrShmem
 {
@@ -661,6 +679,7 @@ Shmem
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorBuffer
 {
@@ -672,6 +691,7 @@ data
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorShared
 {
@@ -689,6 +709,7 @@ handle
 ;
 }
 ;
+comparable
 struct
 SurfaceDescriptorRecorded
 {
@@ -697,6 +718,7 @@ drawTarget
 ;
 }
 ;
+comparable
 union
 SurfaceDescriptor
 {

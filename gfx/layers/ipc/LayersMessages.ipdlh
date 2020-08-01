@@ -1069,6 +1069,7 @@ value
 ;
 }
 ;
+comparable
 union
 Animatable
 {
@@ -1122,6 +1123,7 @@ sampleFn
 ;
 }
 ;
+comparable
 struct
 MotionPathData
 {
@@ -1136,6 +1138,7 @@ rayReferenceData
 ;
 }
 ;
+comparable
 struct
 PartialPrerenderData
 {
@@ -1159,6 +1162,7 @@ position
 ;
 }
 ;
+comparable
 struct
 TransformData
 {
@@ -1413,6 +1417,7 @@ specific
 ;
 }
 ;
+comparable
 struct
 PluginWindowData
 {

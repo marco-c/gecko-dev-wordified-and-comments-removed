@@ -140,6 +140,7 @@ dynamically
 if
 necessary
 .
+comparable
 struct
 IPCServiceWorkerRegistrationDescriptor
 {

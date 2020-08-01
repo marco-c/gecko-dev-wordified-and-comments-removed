@@ -192,6 +192,7 @@ creationTime
 ;
 }
 ;
+comparable
 struct
 IPCClientInfo
 {

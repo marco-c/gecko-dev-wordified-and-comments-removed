@@ -93,6 +93,7 @@ mozilla
 namespace
 ipc
 {
+comparable
 struct
 ContentSecurityPolicy
 {
@@ -107,6 +108,7 @@ deliveredViaMetaTagFlag
 ;
 }
 ;
+comparable
 struct
 ContentPrincipalInfo
 {
@@ -240,11 +242,13 @@ baseDomain
 ;
 }
 ;
+comparable
 struct
 SystemPrincipalInfo
 {
 }
 ;
+comparable
 struct
 NullPrincipalInfo
 {
@@ -256,6 +260,7 @@ spec
 ;
 }
 ;
+comparable
 struct
 ExpandedPrincipalInfo
 {
@@ -269,6 +274,7 @@ allowlist
 ;
 }
 ;
+comparable
 union
 PrincipalInfo
 {
@@ -282,6 +288,7 @@ ExpandedPrincipalInfo
 ;
 }
 ;
+comparable
 struct
 CSPInfo
 {
