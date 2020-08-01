@@ -3331,6 +3331,9 @@ alias
 "
 iconURI
 "
+"
+hidden
+"
 ]
 )
 {
