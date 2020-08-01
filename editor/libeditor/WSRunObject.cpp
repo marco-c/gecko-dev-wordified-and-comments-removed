@@ -6857,6 +6857,7 @@ ReplaceRangeData
 }
 const
 VisibleWhiteSpacesData
+&
 nonPreformattedVisibleWhiteSpacesAtEnd
 =
 VisibleWhiteSpacesDataRef
@@ -7159,6 +7160,7 @@ ReplaceRangeData
 }
 const
 VisibleWhiteSpacesData
+&
 nonPreformattedVisibleWhiteSpacesAtStart
 =
 VisibleWhiteSpacesDataRef
