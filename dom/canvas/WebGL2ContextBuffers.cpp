@@ -494,7 +494,7 @@ ResetLastUpdateFenceId
 )
 ;
 }
-void
+bool
 WebGL2Context
 :
 :
@@ -532,6 +532,7 @@ IsContextLost
 )
 )
 return
+false
 ;
 const
 auto
@@ -549,6 +550,7 @@ if
 buffer
 )
 return
+false
 ;
 const
 auto
@@ -573,6 +575,7 @@ byteLen
 )
 )
 return
+false
 ;
 if
 (
@@ -619,6 +622,7 @@ platform
 )
 ;
 return
+false
 ;
 }
 const
@@ -878,5 +882,8 @@ tfo
 ;
 }
 }
+return
+true
+;
 }
 }

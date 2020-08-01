@@ -104,7 +104,7 @@ size
 )
 const
 ;
-void
+bool
 GetBufferSubData
 (
 GLenum

@@ -306,6 +306,15 @@ ALLOW_IN_RDD_PROCESS
 =
 0x20
     
+ALLOW_IN_GPU_AND_MAIN_PROCESS
+=
+(
+ALLOW_IN_GPU_PROCESS
+|
+                                     
+MAIN_PROCESS_ONLY
+)
+    
 ALLOW_IN_GPU_AND_SOCKET_PROCESS
 =
 (
@@ -426,6 +435,14 @@ ALLOW_IN_RDD_PROCESS
 :
 '
 ALLOW_IN_RDD_PROCESS
+'
+    
+ProcessSelector
+.
+ALLOW_IN_GPU_AND_MAIN_PROCESS
+:
+'
+ALLOW_IN_GPU_AND_MAIN_PROCESS
 '
     
 ProcessSelector

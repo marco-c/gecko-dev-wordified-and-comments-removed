@@ -45,6 +45,15 @@ T
 class
 Range
 {
+template
+<
+typename
+U
+>
+friend
+class
+Range
+;
 const
 RangedPtr
 <
