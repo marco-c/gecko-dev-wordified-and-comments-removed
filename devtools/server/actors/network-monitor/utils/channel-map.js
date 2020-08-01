@@ -162,9 +162,7 @@ null
 ;
 }
 const
-{
-value
-}
+channelInfo
 =
 this
 .
@@ -176,7 +174,13 @@ key
 )
 ;
 return
+channelInfo
+?
+channelInfo
+.
 value
+:
+null
 ;
 }
 delete
