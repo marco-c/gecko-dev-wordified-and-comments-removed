@@ -2456,6 +2456,7 @@ ContentParent
 :
 GetNewOrUsedBrowserProcessAsync
 (
+nullptr
 remoteType
 )
 -
