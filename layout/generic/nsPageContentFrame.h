@@ -192,6 +192,8 @@ kClassID
 nsSharedPageData
 *
 mPD
+=
+nullptr
 ;
 }
 ;
