@@ -264,9 +264,11 @@ windowId
 =
 content
 .
-windowGlobalChild
+window
 .
-innerWindowId
+windowUtils
+.
+currentInnerWindowID
 ;
 Services
 .

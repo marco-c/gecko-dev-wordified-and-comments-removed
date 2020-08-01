@@ -1364,9 +1364,9 @@ this
 .
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 let
 scriptError

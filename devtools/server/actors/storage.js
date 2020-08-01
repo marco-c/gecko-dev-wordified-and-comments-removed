@@ -15605,9 +15605,9 @@ id
 =
 win
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 if
 (

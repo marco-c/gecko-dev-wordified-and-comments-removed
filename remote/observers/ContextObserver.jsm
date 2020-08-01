@@ -322,6 +322,8 @@ frameId
 =
 window
 .
+docShell
+.
 browsingContext
 .
 id
@@ -331,9 +333,9 @@ id
 =
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 switch
 (

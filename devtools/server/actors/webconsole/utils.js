@@ -271,9 +271,9 @@ try
 return
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 catch
@@ -1745,9 +1745,9 @@ owner
 .
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 )
 ;
 const

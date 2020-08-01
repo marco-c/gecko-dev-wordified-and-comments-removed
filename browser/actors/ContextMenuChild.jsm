@@ -4333,7 +4333,7 @@ target
 .
 ownerGlobal
 .
-docShell
+windowUtils
 .
 outerWindowID
 ;

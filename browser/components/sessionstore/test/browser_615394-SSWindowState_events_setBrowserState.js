@@ -283,7 +283,7 @@ aWindow
 return
 aWindow
 .
-docShell
+windowUtils
 .
 outerWindowID
 ;

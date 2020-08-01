@@ -186,9 +186,9 @@ window
 return
 window
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 }
 _sendWebConsoleMessage

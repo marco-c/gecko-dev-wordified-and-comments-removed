@@ -705,9 +705,9 @@ this
 .
 content
 .
-windowGlobalChild
+windowUtils
 .
-innerWindowId
+currentInnerWindowID
 ;
 let
 observer
