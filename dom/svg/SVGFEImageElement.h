@@ -327,6 +327,13 @@ IntrinsicState
 const
 override
 ;
+virtual
+void
+DestroyContent
+(
+)
+override
+;
 void
 Notify
 (

@@ -5697,6 +5697,13 @@ mResponsiveSelector
 =
 nullptr
 ;
+nsImageLoadingContent
+:
+:
+Destroy
+(
+)
+;
 nsGenericHTMLElement
 :
 :

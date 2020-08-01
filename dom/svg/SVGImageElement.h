@@ -273,6 +273,13 @@ IntrinsicState
 const
 override
 ;
+virtual
+void
+DestroyContent
+(
+)
+override
+;
 NS_IMETHOD_
 (
 bool

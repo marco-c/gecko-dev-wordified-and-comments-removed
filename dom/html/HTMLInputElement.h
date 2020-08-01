@@ -811,6 +811,13 @@ DoneCreatingElement
 override
 ;
 virtual
+void
+DestroyContent
+(
+)
+override
+;
+virtual
 EventStates
 IntrinsicState
 (

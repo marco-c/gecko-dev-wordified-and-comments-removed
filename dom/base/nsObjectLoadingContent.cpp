@@ -10906,6 +10906,17 @@ QueueCheckPluginStopEvent
 )
 ;
 }
+UnloadObject
+(
+)
+;
+nsImageLoadingContent
+:
+:
+Destroy
+(
+)
+;
 }
 void
 nsObjectLoadingContent
