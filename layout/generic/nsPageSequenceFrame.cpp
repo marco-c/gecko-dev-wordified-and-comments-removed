@@ -317,8 +317,10 @@ halfInch
 ;
 mPageData
 =
-new
+MakeUnique
+<
 nsSharedPageData
+>
 (
 )
 ;
@@ -422,9 +424,6 @@ nsPageSequenceFrame
 (
 )
 {
-delete
-mPageData
-;
 ResetPrintCanvasList
 (
 )
@@ -1313,6 +1312,10 @@ pf
 SetSharedPageData
 (
 mPageData
+.
+get
+(
+)
 )
 ;
 ReflowInput
