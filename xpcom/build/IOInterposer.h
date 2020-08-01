@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TimeStamp
 .
 h
@@ -475,8 +484,11 @@ public
 explicit
 AutoIOInterposerDisable
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 IOInterposer
 :
 :
@@ -500,6 +512,7 @@ Enable
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 }

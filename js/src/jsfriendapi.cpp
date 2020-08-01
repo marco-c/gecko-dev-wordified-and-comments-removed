@@ -8556,6 +8556,7 @@ js
 :
 CTypesActivityType
 endType
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 cx
@@ -8579,6 +8580,8 @@ endType
 endType
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 callback

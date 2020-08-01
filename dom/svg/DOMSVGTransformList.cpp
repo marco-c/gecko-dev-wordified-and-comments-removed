@@ -291,6 +291,7 @@ AutoChangeTransformListNotifier
 DOMSVGTransformList
 *
 aTransformList
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -313,6 +314,8 @@ mTransformList
 aTransformList
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mTransformList
@@ -396,6 +399,7 @@ mTransformList
 nsAttrValue
 mEmptyOrOldValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

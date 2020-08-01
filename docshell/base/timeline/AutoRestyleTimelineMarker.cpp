@@ -46,6 +46,7 @@ nsIDocShell
 aDocShell
 bool
 aIsAnimationOnly
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mDocShell
@@ -57,6 +58,8 @@ mIsAnimationOnly
 aIsAnimationOnly
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 NS_IsMainThread

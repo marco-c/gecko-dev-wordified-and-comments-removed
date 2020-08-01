@@ -33,6 +33,7 @@ char
 aName
 MarkerStackRequest
 aStackRequest
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mName
@@ -44,6 +45,8 @@ mStackRequest
 aStackRequest
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 NS_IsMainThread

@@ -39,6 +39,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 IntegerPrintfMacros
 .
 h

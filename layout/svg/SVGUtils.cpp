@@ -498,6 +498,7 @@ SVGAutoRenderState
 DrawTarget
 *
 aDrawTarget
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mDrawTarget
@@ -513,6 +514,8 @@ mPaintingToWindow
 false
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mOriginalRenderState
 =
 aDrawTarget

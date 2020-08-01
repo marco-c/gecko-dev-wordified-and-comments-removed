@@ -285,6 +285,7 @@ AutoChangeTransformNotifier
 DOMSVGTransform
 *
 aTransform
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mTransform
@@ -292,6 +293,8 @@ mTransform
 aTransform
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mTransform
@@ -436,6 +439,7 @@ mTransform
 nsAttrValue
 mEmptyOrOldValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 DOMSVGTransform

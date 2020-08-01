@@ -43,6 +43,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 UniquePtr
 .
 h
@@ -270,6 +279,7 @@ AutoPinned
 T
 *
 aResource
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mResource
@@ -277,6 +287,8 @@ mResource
 aResource
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mResource
@@ -334,6 +346,7 @@ T
 *
 mResource
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 DDLoggedTypeDeclName

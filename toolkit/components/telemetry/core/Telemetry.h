@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 TelemetryEventEnums
 .
 h
@@ -612,6 +621,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 id
@@ -623,6 +633,8 @@ start
 aStart
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 explicit
 RuntimeAutoTimer
@@ -645,6 +657,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 id
@@ -678,6 +691,8 @@ empty
 .
 "
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -728,6 +743,7 @@ const
 TimeStamp
 start
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 template
@@ -753,6 +769,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 start
@@ -760,6 +777,8 @@ start
 aStart
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 explicit
 AutoTimer
@@ -777,6 +796,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 start
@@ -806,6 +826,8 @@ empty
 .
 "
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -850,6 +872,7 @@ const
 nsCString
 key
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -867,6 +890,7 @@ uint32_t
 counterStart
 =
 0
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 id
@@ -878,6 +902,8 @@ counter
 counterStart
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 RuntimeAutoCounter
@@ -1045,6 +1071,7 @@ id
 uint32_t
 counter
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 template
@@ -1065,6 +1092,7 @@ uint32_t
 counterStart
 =
 0
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 counter
@@ -1072,6 +1100,8 @@ counter
 counterStart
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 ~
 AutoCounter
@@ -1236,6 +1266,7 @@ private
 uint32_t
 counter
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 bool
@@ -1515,6 +1546,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 start
@@ -1522,6 +1554,8 @@ start
 aStart
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 explicit
 AutoScalarTimer
@@ -1539,6 +1573,7 @@ TimeStamp
 Now
 (
 )
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 start
@@ -1568,6 +1603,8 @@ empty
 .
 "
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 ~
@@ -1653,6 +1690,7 @@ const
 nsString
 key
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 void

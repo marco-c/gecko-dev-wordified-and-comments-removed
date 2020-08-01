@@ -9,6 +9,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 RefPtr
 .
 h
@@ -23,6 +32,8 @@ class
 MOZ_RAII
 AutoRestyleTimelineMarker
 {
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 RefPtr
 <
 nsIDocShell
@@ -41,6 +52,7 @@ nsIDocShell
 aDocShell
 bool
 aIsAnimationOnly
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 ;
 ~

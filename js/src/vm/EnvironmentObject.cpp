@@ -6776,6 +6776,7 @@ const
 EnvironmentIter
 &
 ei
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 si_
@@ -6803,6 +6804,8 @@ ei
 frame_
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 EnvironmentIter
 :
@@ -6818,6 +6821,7 @@ env
 Scope
 *
 scope
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 si_
@@ -6844,6 +6848,8 @@ settle
 (
 )
 ;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 EnvironmentIter
 :
@@ -6858,6 +6864,7 @@ frame
 jsbytecode
 *
 pc
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 si_
@@ -6901,6 +6908,8 @@ settle
 (
 )
 ;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 EnvironmentIter
 :
@@ -6918,6 +6927,7 @@ Scope
 scope
 AbstractFramePtr
 frame
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 si_
@@ -6949,6 +6959,8 @@ frame
 settle
 (
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 }
 void

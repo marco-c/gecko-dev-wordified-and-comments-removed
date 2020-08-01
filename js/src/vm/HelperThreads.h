@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 PodOperations
 .
 h
@@ -2516,11 +2525,13 @@ LockGuard
 Mutex
 >
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
 AutoLockHelperThreadState
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 :
 Base
@@ -2532,6 +2543,8 @@ HelperThreadState
 helperLock
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 }
 ;
@@ -2553,6 +2566,7 @@ UnlockGuard
 Mutex
 >
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 public
 :
 explicit
@@ -2561,6 +2575,7 @@ AutoUnlockHelperThreadState
 AutoLockHelperThreadState
 &
 locked
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 Base
@@ -2568,6 +2583,8 @@ Base
 locked
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 }
 }
 ;

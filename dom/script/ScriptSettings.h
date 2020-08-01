@@ -945,6 +945,7 @@ public
 explicit
 AutoJSContext
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 operator
@@ -966,6 +967,7 @@ dom
 AutoJSAPI
 mJSAPI
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -983,6 +985,7 @@ public
 explicit
 AutoSafeJSContext
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 operator
@@ -1000,6 +1003,7 @@ cx
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 class
@@ -1011,6 +1015,7 @@ public
 explicit
 AutoSlowOperation
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM
 )
 ;
 void
@@ -1020,6 +1025,7 @@ CheckForInterrupt
 ;
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 bool
 mIsMainThread
 ;

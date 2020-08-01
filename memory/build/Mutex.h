@@ -52,6 +52,15 @@ Attributes
 .
 h
 "
+#
+include
+"
+mozilla
+/
+GuardObjects
+.
+h
+"
 struct
 Mutex
 {
@@ -397,6 +406,7 @@ AutoLock
 T
 &
 aMutex
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mMutex
@@ -404,6 +414,8 @@ mMutex
 aMutex
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 mMutex
 .
 Lock
@@ -425,6 +437,8 @@ Unlock
 }
 private
 :
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
+;
 T
 &
 mMutex

@@ -25391,6 +25391,7 @@ AutoSelectionRestorer
 EditorBase
 &
 aEditorBase
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM_IN_IMPL
 )
 :
 mEditorBase
@@ -25398,6 +25399,8 @@ mEditorBase
 nullptr
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 aEditorBase

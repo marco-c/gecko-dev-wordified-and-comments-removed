@@ -173,6 +173,7 @@ AutoChangePathSegListNotifier
 DOMSVGPathSegList
 *
 aPathSegList
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -195,6 +196,8 @@ mPathSegList
 aPathSegList
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mPathSegList
@@ -278,6 +281,7 @@ mPathSegList
 nsAttrValue
 mEmptyOrOldValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 already_AddRefed

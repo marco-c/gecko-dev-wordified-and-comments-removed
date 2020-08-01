@@ -3593,6 +3593,7 @@ AutoJSContext
 :
 AutoJSContext
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 mCx
@@ -3626,6 +3627,8 @@ NS_IsMainThread
 (
 )
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 if
 (
@@ -3687,6 +3690,7 @@ AutoSafeJSContext
 :
 AutoSafeJSContext
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 AutoJSAPI
@@ -3699,6 +3703,8 @@ NS_IsMainThread
 (
 )
 )
+;
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
 ;
 DebugOnly
 <
@@ -3765,6 +3771,7 @@ AutoSlowOperation
 :
 AutoSlowOperation
 (
+MOZ_GUARD_OBJECT_NOTIFIER_ONLY_PARAM_IN_IMPL
 )
 :
 mIsMainThread
@@ -3774,6 +3781,8 @@ NS_IsMainThread
 )
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 if
 (
 mIsMainThread

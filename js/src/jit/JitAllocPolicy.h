@@ -18,6 +18,15 @@ include
 "
 mozilla
 /
+GuardObjects
+.
+h
+"
+#
+include
+"
+mozilla
+/
 OperatorNewExtensions
 .
 h

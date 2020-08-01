@@ -177,6 +177,7 @@ AutoChangeNumberNotifier
 DOMSVGNumber
 *
 aNumber
+MOZ_GUARD_OBJECT_NOTIFIER_PARAM
 )
 :
 mozAutoDocUpdate
@@ -199,6 +200,8 @@ mNumber
 aNumber
 )
 {
+MOZ_GUARD_OBJECT_NOTIFIER_INIT
+;
 MOZ_ASSERT
 (
 mNumber
@@ -319,6 +322,7 @@ mNumber
 nsAttrValue
 mEmptyOrOldValue
 ;
+MOZ_DECL_USE_GUARD_OBJECT_NOTIFIER
 }
 ;
 DOMSVGNumber
