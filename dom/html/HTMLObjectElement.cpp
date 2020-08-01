@@ -1937,7 +1937,7 @@ DestroyContent
 nsObjectLoadingContent
 :
 :
-DestroyContent
+Destroy
 (
 )
 ;

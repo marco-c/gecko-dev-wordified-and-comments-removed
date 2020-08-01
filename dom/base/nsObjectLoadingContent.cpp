@@ -10872,7 +10872,7 @@ void
 nsObjectLoadingContent
 :
 :
-DestroyContent
+Destroy
 (
 )
 {

@@ -786,7 +786,7 @@ GetCapabilities
 const
 ;
 void
-DestroyContent
+Destroy
 (
 )
 ;
