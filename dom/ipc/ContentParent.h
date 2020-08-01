@@ -832,6 +832,11 @@ const
 nsACString
 &
 aRemoteType
+BrowsingContextGroup
+*
+aGroup
+=
+nullptr
 hal
 :
 :
@@ -862,6 +867,11 @@ const
 nsACString
 &
 aRemoteType
+BrowsingContextGroup
+*
+aGroup
+=
+nullptr
 hal
 :
 :
@@ -892,6 +902,11 @@ const
 nsACString
 &
 aRemoteType
+BrowsingContextGroup
+*
+aGroup
+=
+nullptr
 hal
 :
 :
@@ -6289,7 +6304,7 @@ aDMDFile
 override
 ;
 void
-OnBrowsingContextGroupSubscribe
+AddBrowsingContextGroup
 (
 BrowsingContextGroup
 *
@@ -6297,7 +6312,7 @@ aGroup
 )
 ;
 void
-OnBrowsingContextGroupUnsubscribe
+RemoveBrowsingContextGroup
 (
 BrowsingContextGroup
 *
