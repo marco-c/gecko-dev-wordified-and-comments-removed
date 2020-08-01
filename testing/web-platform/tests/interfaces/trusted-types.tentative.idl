@@ -99,6 +99,8 @@ SecureContext
 ]
 interface
 TrustedTypePolicyFactory
+:
+EventTarget
 {
 TrustedTypePolicy
 createPolicy
