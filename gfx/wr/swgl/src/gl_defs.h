@@ -88,6 +88,10 @@ GL_BGRA8
 0x93A1
 #
 define
+GL_RG8
+0x822B
+#
+define
 GL_BYTE
 0x1400
 #
@@ -146,6 +150,10 @@ GL_RGBA_INTEGER
 define
 GL_BGRA
 0x80E1
+#
+define
+GL_RG
+0x8227
 #
 define
 GL_DEPTH_COMPONENT
