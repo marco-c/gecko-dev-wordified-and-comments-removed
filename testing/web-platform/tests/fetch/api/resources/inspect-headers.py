@@ -12,6 +12,7 @@ headers
 ]
     
 if
+b
 "
 headers
 "
@@ -29,6 +30,7 @@ GET
 .
 first
 (
+b
 "
 headers
 "
@@ -36,6 +38,7 @@ headers
 .
 split
 (
+b
 "
 |
 "
@@ -60,6 +63,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -75,6 +79,7 @@ headers
 get
 (
 header
+b
 "
 "
 )
@@ -82,6 +87,7 @@ header
 )
     
 if
+b
 "
 cors
 "
@@ -92,6 +98,7 @@ GET
 :
         
 if
+b
 "
 Origin
 "
@@ -106,6 +113,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -121,9 +129,11 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
+b
 "
 "
 )
@@ -138,6 +148,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -147,6 +158,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -158,6 +170,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -167,6 +180,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -178,6 +192,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -187,6 +202,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 POST
@@ -198,6 +214,7 @@ HEAD
 exposed_headers
 =
 [
+b
 "
 x
 -
@@ -217,6 +234,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -226,6 +244,7 @@ Expose
 -
 Headers
 "
+b
 "
 "
 .
@@ -237,6 +256,7 @@ exposed_headers
 )
         
 if
+b
 "
 allow_headers
 "
@@ -251,6 +271,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -264,6 +285,7 @@ request
 .
 GET
 [
+b
 '
 allow_headers
 '
@@ -279,6 +301,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -288,6 +311,7 @@ Allow
 -
 Headers
 "
+b
 "
 "
 .
@@ -305,11 +329,13 @@ headers
 append
 (
 (
+b
 "
 content
 -
 type
 "
+b
 "
 text
 /
@@ -320,5 +346,6 @@ plain
     
 return
 headers
+b
 "
 "

@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,6 +18,7 @@ request
 method
 =
 =
+u
 "
 POST
 "
@@ -38,12 +45,16 @@ writer
 .
 write_header
 (
+b
 "
 Location
 "
+isomorphic_encode
+(
 request
 .
 url
+)
 )
         
 response
@@ -60,6 +71,7 @@ writer
 .
 write
 (
+b
 "
 "
 )
@@ -70,6 +82,7 @@ request
 method
 =
 =
+u
 "
 GET
 "
@@ -79,11 +92,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -92,6 +107,7 @@ plain
 )
 ]
                 
+b
 "
 OK
 "
@@ -104,11 +120,13 @@ return
 (
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -117,6 +135,7 @@ plain
 )
 ]
                 
+b
 "
 FAIL
 "

@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Encoding
 "
+b
 "
 gzip
 "
@@ -23,6 +25,7 @@ gzip
     
 return
 headers
+b
 "
 not
 actually

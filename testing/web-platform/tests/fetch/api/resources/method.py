@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -12,6 +18,7 @@ headers
 ]
     
 if
+b
 "
 cors
 "
@@ -26,6 +33,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -35,6 +43,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -46,6 +55,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -55,6 +65,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -66,6 +77,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -75,6 +87,7 @@ Allow
 -
 Methods
 "
+b
 "
 GET
 POST
@@ -89,6 +102,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -98,6 +112,7 @@ Allow
 -
 Headers
 "
+b
 "
 x
 -
@@ -114,6 +129,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -123,6 +139,7 @@ Expose
 -
 Headers
 "
+b
 "
 x
 -
@@ -138,6 +155,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -145,9 +163,12 @@ request
 -
 method
 "
+isomorphic_encode
+(
 request
 .
 method
+)
 )
 )
     
@@ -156,6 +177,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -171,11 +193,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 NO
 "
@@ -188,6 +212,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -203,11 +228,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Length
 "
+b
 "
 NO
 "
@@ -220,6 +247,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -235,11 +263,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Encoding
 "
+b
 "
 NO
 "
@@ -252,6 +282,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -267,11 +298,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Language
 "
+b
 "
 NO
 "
@@ -284,6 +317,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -299,11 +333,13 @@ headers
 .
 get
 (
+b
 "
 Content
 -
 Location
 "
+b
 "
 NO
 "

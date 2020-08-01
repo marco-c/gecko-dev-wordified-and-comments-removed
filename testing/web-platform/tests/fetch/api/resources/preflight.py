@@ -10,11 +10,13 @@ headers
 =
 [
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -26,23 +28,29 @@ plain
 stashed_data
 =
 {
+b
 '
 control_request_headers
 '
 :
+b
 "
 "
+b
 '
 preflight
 '
 :
+b
 "
 0
 "
+b
 '
 preflight_referrer
 '
 :
+b
 "
 "
 }
@@ -52,6 +60,7 @@ token
 None
     
 if
+b
 "
 token
 "
@@ -69,12 +78,14 @@ GET
 .
 first
 (
+b
 "
 token
 "
 )
     
 if
+b
 "
 origin
 "
@@ -91,6 +102,7 @@ request
 .
 GET
 [
+b
 '
 origin
 '
@@ -98,6 +110,7 @@ origin
 .
 split
 (
+b
 "
 "
 )
@@ -108,6 +121,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -129,6 +143,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -138,6 +153,7 @@ Allow
 -
 Origin
 "
+b
 "
 *
 "
@@ -145,6 +161,7 @@ Origin
 )
     
 if
+b
 "
 clear
 -
@@ -174,6 +191,7 @@ None
             
 return
 headers
+b
 "
 1
 "
@@ -183,11 +201,13 @@ else
             
 return
 headers
+b
 "
 0
 "
     
 if
+b
 "
 credentials
 "
@@ -202,6 +222,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -211,6 +232,7 @@ Allow
 -
 Credentials
 "
+b
 "
 true
 "
@@ -223,6 +245,7 @@ request
 method
 =
 =
+u
 "
 OPTIONS
 "
@@ -230,6 +253,7 @@ OPTIONS
         
 if
 not
+b
 "
 Access
 -
@@ -250,6 +274,7 @@ response
 set_error
 (
 400
+u
 "
 No
 Access
@@ -264,6 +289,7 @@ header
 )
             
 return
+b
 "
 ERROR
 :
@@ -287,14 +313,17 @@ headers
 .
 get
 (
+b
 "
 Accept
 "
+b
 "
 "
 )
 !
 =
+b
 "
 *
 /
@@ -307,6 +336,7 @@ response
 set_error
 (
 400
+u
 "
 Request
 does
@@ -324,6 +354,7 @@ header
 )
             
 return
+b
 "
 ERROR
 :
@@ -335,6 +366,7 @@ preflight
 "
         
 if
+b
 "
 control_request_headers
 "
@@ -346,6 +378,7 @@ GET
             
 stashed_data
 [
+b
 '
 control_request_headers
 '
@@ -357,6 +390,7 @@ headers
 .
 get
 (
+b
 "
 Access
 -
@@ -370,6 +404,7 @@ None
 )
         
 if
+b
 "
 max_age
 "
@@ -384,6 +419,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -397,6 +433,7 @@ request
 .
 GET
 [
+b
 '
 max_age
 '
@@ -405,6 +442,7 @@ max_age
 )
         
 if
+b
 "
 allow_headers
 "
@@ -419,6 +457,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -432,6 +471,7 @@ request
 .
 GET
 [
+b
 '
 allow_headers
 '
@@ -440,6 +480,7 @@ allow_headers
 )
         
 if
+b
 "
 allow_methods
 "
@@ -454,6 +495,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -467,6 +509,7 @@ request
 .
 GET
 [
+b
 '
 allow_methods
 '
@@ -479,6 +522,7 @@ preflight_status
 200
         
 if
+b
 "
 preflight_status
 "
@@ -498,6 +542,7 @@ GET
 .
 first
 (
+b
 "
 preflight_status
 "
@@ -506,17 +551,20 @@ preflight_status
         
 stashed_data
 [
+b
 '
 preflight
 '
 ]
 =
+b
 "
 1
 "
         
 stashed_data
 [
+b
 '
 preflight_referrer
 '
@@ -528,15 +576,18 @@ headers
 .
 get
 (
+b
 "
 Referer
 "
+b
 "
 "
 )
         
 stashed_data
 [
+b
 '
 preflight_user_agent
 '
@@ -548,11 +599,13 @@ headers
 .
 get
 (
+b
 "
 User
 -
 Agent
 "
+b
 "
 "
 )
@@ -576,6 +629,7 @@ stashed_data
 return
 preflight_status
 headers
+b
 "
 "
     
@@ -605,6 +659,7 @@ stashed_data
 data
     
 if
+b
 "
 checkUserAgentHeaderInPreflight
 "
@@ -619,6 +674,7 @@ headers
 .
 get
 (
+b
 "
 User
 -
@@ -629,6 +685,7 @@ Agent
 =
 stashed_data
 [
+b
 '
 preflight_user_agent
 '
@@ -638,6 +695,7 @@ preflight_user_agent
 return
 400
 headers
+b
 "
 ERROR
 :
@@ -655,6 +713,7 @@ headers
 append
 (
 (
+b
 "
 Access
 -
@@ -664,6 +723,7 @@ Expose
 -
 Headers
 "
+b
 "
 x
 -
@@ -697,6 +757,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -706,6 +767,7 @@ preflight
 "
 stashed_data
 [
+b
 '
 preflight
 '
@@ -716,6 +778,7 @@ preflight
 if
 stashed_data
 [
+b
 '
 control_request_headers
 '
@@ -730,6 +793,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -741,6 +805,7 @@ headers
 "
 stashed_data
 [
+b
 '
 control_request_headers
 '
@@ -753,6 +818,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -762,6 +828,7 @@ referrer
 "
 stashed_data
 [
+b
 '
 preflight_referrer
 '
@@ -774,6 +841,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -785,9 +853,11 @@ headers
 .
 get
 (
+b
 "
 Referer
 "
+b
 "
 "
 )
@@ -799,6 +869,7 @@ headers
 append
 (
 (
+b
 "
 x
 -
@@ -810,9 +881,11 @@ headers
 .
 get
 (
+b
 "
 Origin
 "
+b
 "
 "
 )
@@ -837,5 +910,6 @@ stashed_data
     
 return
 headers
+b
 "
 "

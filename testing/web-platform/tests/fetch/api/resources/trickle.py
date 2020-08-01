@@ -111,7 +111,7 @@ writer
 .
 write_content
 (
-u
+b
 "
 TEST_TRICKLE
 \
