@@ -3876,6 +3876,15 @@ GetDocBaseURI
 )
 )
 ;
+if
+(
+!
+uri
+)
+{
+return
+;
+}
 auto
 referrerInfo
 =
