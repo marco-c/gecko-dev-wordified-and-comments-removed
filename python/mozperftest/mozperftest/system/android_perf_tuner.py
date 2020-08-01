@@ -155,13 +155,7 @@ self
 .
 device
 .
-_have_su
-or
-self
-.
-device
-.
-_have_android_su
+is_rooted
 :
             
 device_name
@@ -261,9 +255,6 @@ _set_value_and_check_exitcode
 self
 file_name
 value
-root
-=
-False
 )
 :
         
@@ -319,11 +310,6 @@ file_name
 )
 ]
 )
-            
-root
-=
-root
-            
 timeout
 =
 self
@@ -522,7 +508,6 @@ device
 .
 shell_bool
 (
-                
 "
 "
 .
@@ -535,15 +520,11 @@ stop
 service
 ]
 )
-root
-=
-True
 timeout
 =
 self
 .
 timeout
-            
 )
         
 services_list_output
@@ -931,9 +912,6 @@ _set_value_and_check_exitcode
 (
 key
 value
-root
-=
-True
 )
     
 def
@@ -1253,9 +1231,6 @@ _set_value_and_check_exitcode
 (
 key
 value
-root
-=
-True
 )
     
 def
@@ -1691,9 +1666,6 @@ _set_value_and_check_exitcode
 (
 key
 value
-root
-=
-True
 )
     
 def
@@ -1840,7 +1812,4 @@ _set_value_and_check_exitcode
 (
 key
 value
-root
-=
-True
 )

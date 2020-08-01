@@ -86,6 +86,18 @@ self
 _have_android_su
 =
 True
+        
+self
+.
+_have_root_shell
+=
+True
+        
+self
+.
+is_rooted
+=
+True
     
 def
 clear_logcat
@@ -350,6 +362,18 @@ _have_android_su
 =
 True
     
+device
+.
+_have_root_shell
+=
+True
+    
+device
+.
+is_rooted
+=
+True
+    
 with
 mock
 .
@@ -421,6 +445,18 @@ False
 device
 .
 _have_android_su
+=
+False
+    
+device
+.
+_have_root_shell
+=
+False
+    
+device
+.
+is_rooted
 =
 False
     
