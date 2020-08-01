@@ -13,6 +13,15 @@ dump
 -
 syms
 '
+MACOS_DUMP_SYMS
+=
+'
+macosx64
+-
+dump
+-
+syms
+'
 WIN64_DUMP_SYMS
 =
 '
