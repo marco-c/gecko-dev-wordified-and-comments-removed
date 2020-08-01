@@ -2284,6 +2284,11 @@ GetWindowOrigin
 (
 )
 ;
+void
+InvalidateWindowOrigin
+(
+)
+;
 virtual
 void
 RegisterTouchWindow
