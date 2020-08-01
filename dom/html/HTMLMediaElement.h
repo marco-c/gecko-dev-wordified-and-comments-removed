@@ -783,6 +783,17 @@ NotifyOwnerDocumentActivityChanged
 )
 ;
 void
+NotifyFullScreenChanged
+(
+)
+;
+bool
+IsInFullScreen
+(
+)
+const
+;
+void
 PrincipalChanged
 (
 MediaStreamTrack
