@@ -461,23 +461,6 @@ object
 "
     
 if
-six
-.
-PY2
-:
-        
-ensure
-=
-unicode
-    
-else
-:
-        
-ensure
-=
-str
-    
-if
 not
 isinstance
 (
@@ -510,7 +493,9 @@ else
 :
             
 return
-ensure
+six
+.
+text_type
 (
 s
 )
@@ -13490,14 +13475,10 @@ is
 None
 :
         
-print
->
->
-sys
+log
 .
-stderr
-"
-"
+error
+(
 "
 Must
 provide
@@ -13509,8 +13490,14 @@ using
 -
 xpcshell
 "
-"
-"
+)
+        
+sys
+.
+exit
+(
+1
+)
     
 xpcsh
 =
@@ -13530,12 +13517,10 @@ options
 testPath
 :
         
-print
->
->
-sys
+log
 .
-stderr
+error
+(
 "
 Error
 :
@@ -13550,6 +13535,7 @@ interactive
 mode
 !
 "
+)
         
 sys
 .
