@@ -34,7 +34,7 @@ version_info
 <
 (
 3
-5
+6
 )
 :
     
@@ -48,7 +48,7 @@ least
 Python
 3
 .
-5
+6
 "
 file
 =
@@ -71,6 +71,13 @@ README
 .
 rst
 "
+encoding
+=
+"
+utf
+-
+8
+"
 )
 as
 readme_file
@@ -90,6 +97,13 @@ open
 HISTORY
 .
 rst
+"
+encoding
+=
+"
+utf
+-
+8
 "
 )
 as
@@ -114,8 +128,6 @@ appdirs
 1
 .
 4
-.
-3
 "
     
 "
@@ -123,8 +135,6 @@ Click
 >
 =
 7
-.
-0
 "
     
 "
@@ -132,10 +142,6 @@ diskcache
 >
 =
 4
-.
-0
-.
-0
 "
     
 "
@@ -146,7 +152,16 @@ iso8601
 .
 1
 .
-12
+10
+;
+python_version
+<
+=
+'
+3
+.
+6
+'
 "
     
 "
@@ -158,10 +173,6 @@ Jinja2
 10
 .
 1
-<
-3
-.
-0
 "
     
 "
@@ -173,32 +184,6 @@ jsonschema
 0
 .
 2
-"
-    
-"
-markupsafe
->
-=
-1
-.
-1
-<
-2
-.
-0
-.
-0
-"
-    
-"
-pep487
-=
-=
-1
-.
-0
-.
-1
 "
     
 "
@@ -217,19 +202,6 @@ yamllint
 1
 .
 18
-.
-0
-"
-    
-"
-zipp
->
-=
-0
-.
-5
-<
-2
 .
 0
 "
@@ -316,19 +288,6 @@ Python
 :
 :
 3
-"
-        
-"
-Programming
-Language
-:
-:
-Python
-:
-:
-3
-.
-5
 "
         
 "
