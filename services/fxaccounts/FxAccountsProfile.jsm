@@ -763,6 +763,14 @@ profile
 async
 ensureProfile
 (
+{
+staleOk
+=
+false
+}
+=
+{
+}
 )
 {
 const
@@ -781,6 +789,7 @@ if
 profileCache
 |
 |
+(
 Date
 .
 now
@@ -794,6 +803,11 @@ _cachedAt
 this
 .
 PROFILE_FRESHNESS_THRESHOLD
+&
+&
+!
+staleOk
+)
 )
 {
 const
