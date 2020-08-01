@@ -1539,9 +1539,9 @@ segment_rect
 .
 size
 *
-aPosition
-.
-xy
+quad_position
+(
+)
 ;
 vi
 =
