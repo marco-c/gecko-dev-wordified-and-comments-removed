@@ -133,12 +133,10 @@ box_
 :
 :
 {
+ButtonAppearance
 Clear
 as
 SpecifiedClear
-Float
-as
-SpecifiedFloat
 }
 ;
 pub
@@ -156,6 +154,9 @@ box_
 :
 :
 {
+Float
+as
+SpecifiedFloat
 Contain
 Display
 Overflow
