@@ -338,6 +338,17 @@ mozbase
 docs
 /
 -
+testing
+/
+mozharness
+/
+external_tools
+/
+virtualenv
+/
+docs
+/
+-
 toolkit
 /
 components
