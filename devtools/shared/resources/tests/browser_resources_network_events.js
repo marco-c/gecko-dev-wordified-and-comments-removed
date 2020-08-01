@@ -187,9 +187,11 @@ existing_post
 html
 method
 :
+[
 "
 POST
 "
+]
 }
 updates
 :
