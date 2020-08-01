@@ -19504,10 +19504,6 @@ AttachAndSetUAShadowRoot
 (
 )
 ;
-NotifyUAWidgetSetupOrChange
-(
-)
-;
 }
 if
 (
@@ -20461,10 +20457,6 @@ NS_FORM_INPUT_DATE
 )
 {
 AttachAndSetUAShadowRoot
-(
-)
-;
-NotifyUAWidgetSetupOrChange
 (
 )
 ;
