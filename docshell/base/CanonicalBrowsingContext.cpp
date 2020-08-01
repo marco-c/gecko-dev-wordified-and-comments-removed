@@ -4849,7 +4849,6 @@ ContentParent
 :
 GetNewOrUsedLaunchingBrowserProcess
 (
-nullptr
 aRemoteType
 hal
 :
