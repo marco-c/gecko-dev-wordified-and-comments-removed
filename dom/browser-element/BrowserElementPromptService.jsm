@@ -2728,7 +2728,7 @@ win
 return
 win
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

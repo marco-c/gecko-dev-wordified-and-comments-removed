@@ -1081,7 +1081,7 @@ this
 .
 _win
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;

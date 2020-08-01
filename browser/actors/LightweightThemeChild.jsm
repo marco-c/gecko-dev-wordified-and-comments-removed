@@ -113,7 +113,7 @@ contentWindow
 .
 top
 .
-windowUtils
+docShell
 .
 outerWindowID
 ;
