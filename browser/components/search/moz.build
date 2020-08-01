@@ -3,11 +3,6 @@ EXTRA_JS_MODULES
 =
 [
 '
-SearchOneOffs
-.
-jsm
-'
-'
 SearchTelemetry
 .
 jsm
