@@ -330,6 +330,15 @@ aOldImage
 )
 const
 ;
+void
+DetectTimeStampJitter
+(
+const
+TimedImage
+*
+aNewImage
+)
+;
 Bias
 mBias
 ;
