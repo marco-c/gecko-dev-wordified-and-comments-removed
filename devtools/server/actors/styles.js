@@ -875,9 +875,6 @@ actorID
 traits
 :
 {
-getAppliedCreatesStyleCache
-:
-true
 fontStretchLevel4
 :
 CSS
