@@ -341,11 +341,6 @@ UNIFIED_SOURCES
 =
 [
 '
-nsCUPSShim
-.
-cpp
-'
-'
 nsDeviceContextSpecG
 .
 cpp
