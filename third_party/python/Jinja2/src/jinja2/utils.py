@@ -1206,15 +1206,10 @@ return
 Ellipsis
 "
     
-cls
-=
-type
-(
-obj
-)
-    
 if
-cls
+obj
+.
+__class__
 .
 __module__
 in
@@ -1230,7 +1225,9 @@ builtins
         
 name
 =
-cls
+obj
+.
+__class__
 .
 __name__
     
@@ -1239,7 +1236,9 @@ else
         
 name
 =
-cls
+obj
+.
+__class__
 .
 __module__
 +
@@ -1247,7 +1246,9 @@ __module__
 .
 "
 +
-cls
+obj
+.
+__class__
 .
 __name__
     
@@ -4945,15 +4946,11 @@ name
         
 if
 name
-in
-{
+=
+=
 "
 _Namespace__attrs
 "
-"
-__class__
-"
-}
 :
             
 return

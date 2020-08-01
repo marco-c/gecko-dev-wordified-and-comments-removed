@@ -6157,16 +6157,6 @@ github
 com
 /
 qhesz
-johnthagen
-https
-:
-/
-/
-github
-.
-com
-/
-johnthagen
 Contributing
 -
 -
