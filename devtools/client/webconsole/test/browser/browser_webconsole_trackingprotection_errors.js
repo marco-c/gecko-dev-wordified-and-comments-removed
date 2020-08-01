@@ -62,7 +62,7 @@ const
 TEST_URI
 =
 "
-http
+https
 :
 /
 /
@@ -78,7 +78,7 @@ const
 TEST_URI_THIRD_PARTY_ONLY
 =
 "
-http
+https
 :
 /
 /
@@ -94,7 +94,7 @@ const
 TRACKER_URL
 =
 "
-http
+https
 :
 /
 /
@@ -110,7 +110,7 @@ const
 THIRD_PARTY_URL
 =
 "
-http
+https
 :
 /
 /
@@ -335,7 +335,7 @@ The
 resource
 at
 \
-u201chttp
+u201chttps
 :
 /
 /
