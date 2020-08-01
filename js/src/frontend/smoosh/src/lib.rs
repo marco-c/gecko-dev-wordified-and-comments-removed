@@ -381,6 +381,7 @@ pub
 enum
 SmooshGCThing
 {
+Null
 Atom
 (
 usize
@@ -416,6 +417,16 @@ Self
 match
 item
 {
+GCThing
+:
+:
+Null
+=
+>
+Self
+:
+:
+Null
 GCThing
 :
 :

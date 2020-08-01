@@ -1482,6 +1482,10 @@ pub
 function_index
 :
 ScriptStencilIndex
+pub
+is_arrow
+:
+bool
 }
 impl
 FunctionScopeData
@@ -1508,6 +1512,9 @@ ScopeIndex
 function_index
 :
 ScriptStencilIndex
+is_arrow
+:
+bool
 )
 -
 >
@@ -1553,6 +1560,7 @@ new
 )
 enclosing
 function_index
+is_arrow
 }
 }
 }

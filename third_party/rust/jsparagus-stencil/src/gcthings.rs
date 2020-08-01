@@ -45,6 +45,7 @@ pub
 enum
 GCThing
 {
+Null
 Atom
 (
 SourceAtomSetIndex
