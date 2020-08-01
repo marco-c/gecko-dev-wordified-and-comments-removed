@@ -38,6 +38,8 @@ build_test_list
     
 get_multi_tasks_url
     
+get_revision_namespace_url
+    
 convert_day
     
 load_class
@@ -660,7 +662,7 @@ d
 "
 )
 def
-test_multibuild_url
+test_revision_namespace_url
 (
 )
 :
@@ -683,7 +685,7 @@ day
     
 buildurl
 =
-get_multi_tasks_url
+get_revision_namespace_url
 (
 route
 day
@@ -699,6 +701,71 @@ and
 route
 in
 buildurl
+    
+assert
+buildurl
+.
+endswith
+(
+"
+.
+revision
+"
+)
+def
+test_multibuild_url
+(
+)
+:
+    
+route
+=
+"
+FakeBuildRoute
+"
+    
+day
+=
+"
+2020
+.
+06
+.
+08
+"
+    
+revision
+=
+"
+deadbeef
+"
+    
+buildurl
+=
+get_multi_tasks_url
+(
+route
+revision
+day
+=
+day
+)
+    
+assert
+all
+(
+item
+in
+buildurl
+for
+item
+in
+(
+route
+day
+revision
+)
+)
     
 with
 mock
@@ -744,6 +811,7 @@ buildurl
 get_multi_tasks_url
 (
 route
+revision
 day
 =
 "
@@ -808,6 +876,7 @@ buildurl
 get_multi_tasks_url
 (
 route
+revision
 )
             
 assert

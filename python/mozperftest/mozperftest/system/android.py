@@ -66,19 +66,24 @@ _FENIX_FENNEC_BUILDS
 (
     
 "
-project
-.
 mobile
 .
-fenix
-.
 v2
+.
+fenix
 .
 fennec
 -
 nightly
 .
 latest
+.
+{
+architecture
+}
+"
+    
+"
 /
 artifacts
 /
@@ -86,6 +91,15 @@ public
 /
 build
 /
+{
+architecture
+}
+/
+geckoNightly
+/
+target
+.
+apk
 "
 )
 _GV_BUILDS
@@ -120,19 +134,17 @@ _ROOT_URL
     
 +
 _FENIX_FENNEC_BUILDS
-    
-+
+.
+format
+(
+architecture
+=
 "
 armeabi
 -
 v7a
-/
-geckoNightly
-/
-target
-.
-apk
 "
+)
     
 "
 fenix_fennec_nightly_arm64_v8a
@@ -142,19 +154,17 @@ _ROOT_URL
     
 +
 _FENIX_FENNEC_BUILDS
-    
-+
+.
+format
+(
+architecture
+=
 "
 arm64
 -
 v8a
-/
-geckoNightly
-/
-target
-.
-apk
 "
+)
     
 "
 fenix_nightlysim_multicommit_arm64_v8a
