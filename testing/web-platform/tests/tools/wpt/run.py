@@ -2445,12 +2445,12 @@ device
 =
 mozdevice
 .
-ADBDeviceFactory
+ADBDevice
 (
 adb
 =
 adb_path
-                                            
+                                     
 device
 =
 kwargs

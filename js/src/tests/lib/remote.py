@@ -94,6 +94,9 @@ device
 chmod
 (
 remote_file
+root
+=
+True
 )
 def
 push_progs
@@ -149,12 +152,18 @@ device
 chmod
 (
 remote_file
+root
+=
+True
 )
 def
 init_remote_dir
 (
 device
 path
+root
+=
+True
 )
 :
     
@@ -169,6 +178,9 @@ True
 force
 =
 True
+root
+=
+root
 )
     
 device
@@ -179,6 +191,22 @@ path
 parents
 =
 True
+root
+=
+root
+)
+    
+device
+.
+chmod
+(
+path
+recursive
+=
+True
+root
+=
+root
 )
 DEVICE
 =
@@ -215,7 +243,7 @@ DEVICE
 from
 mozdevice
 import
-ADBDeviceFactory
+ADBDevice
 ADBError
 ADBTimeoutError
     
@@ -244,14 +272,14 @@ js_shell
         
 DEVICE
 =
-ADBDeviceFactory
+ADBDevice
 (
 device
 =
 options
 .
 device_serial
-                                  
+                           
 test_root
 =
 options

@@ -1130,7 +1130,7 @@ Preferences
 from
 mozdevice
 import
-ADBDeviceFactory
+ADBDevice
 ADBTimeoutError
         
 from
@@ -1633,17 +1633,17 @@ sdcard_test_root
 /
 sdcard
 /
-test_root
+tests
 '
         
 adbdevice
 =
-ADBDeviceFactory
+ADBDevice
 (
 adb
 =
 adb
-                                     
+                              
 device
 =
 '
@@ -1651,7 +1651,7 @@ emulator
 -
 5554
 '
-                                     
+                              
 test_root
 =
 sdcard_test_root
@@ -1677,9 +1677,6 @@ adbdevice
 mkdir
 (
 outputdir
-parents
-=
-True
 )
         
 try
