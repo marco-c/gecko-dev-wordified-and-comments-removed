@@ -133,6 +133,8 @@ UpdateBias
 (
 size_t
 aImageIndex
+bool
+aFrameChanged
 )
 {
 MOZ_ASSERT
@@ -279,6 +281,11 @@ BIAS_POSITIVE
 return
 ;
 }
+if
+(
+aFrameChanged
+)
+{
 mBias
 =
 ImageComposite
@@ -286,6 +293,7 @@ ImageComposite
 :
 BIAS_NONE
 ;
+}
 }
 int
 ImageComposite
@@ -385,10 +393,19 @@ Next
 (
 )
 ;
+bool
+frameChanged
+=
 UpdateCompositedFrame
 (
 imageIndex
 wasVisibleAtPreviousComposition
+)
+;
+UpdateBias
+(
+imageIndex
+frameChanged
 )
 ;
 mLastChooseImageIndexComposition
@@ -741,7 +758,7 @@ aNewImages
 )
 ;
 }
-void
+bool
 ImageComposite
 :
 :
@@ -1070,6 +1087,7 @@ mProducerID
 )
 {
 return
+false
 ;
 }
 CountSkippedFrames
@@ -1226,6 +1244,9 @@ mLastFrameUpdateComposition
 =
 compositionOpportunityId
 ;
+return
+true
+;
 }
 void
 ImageComposite
@@ -1301,11 +1322,6 @@ info
 )
 ;
 }
-UpdateBias
-(
-aImageIndex
-)
-;
 }
 const
 ImageComposite
