@@ -71,12 +71,6 @@ Channel
 :
 GenerateVerifiedChannelID
 (
-std
-:
-:
-wstring
-(
-)
 )
 ;
 Transport

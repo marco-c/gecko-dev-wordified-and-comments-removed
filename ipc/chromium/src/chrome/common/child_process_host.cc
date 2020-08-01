@@ -164,12 +164,6 @@ Channel
 :
 GenerateVerifiedChannelID
 (
-std
-:
-:
-wstring
-(
-)
 )
 ;
 channel_

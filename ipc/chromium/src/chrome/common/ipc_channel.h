@@ -308,13 +308,6 @@ std
 wstring
 GenerateVerifiedChannelID
 (
-const
-std
-:
-:
-wstring
-&
-prefix
 )
 ;
 #
