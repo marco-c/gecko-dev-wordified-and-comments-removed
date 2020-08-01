@@ -7351,6 +7351,14 @@ nsILoadInfo
 SEC_COOKIES_INCLUDE
 ;
 }
+securityFlags
+|
+=
+nsILoadInfo
+:
+:
+SEC_ALLOW_CHROME
+;
 MOZ_ASSERT
 (
 aElement
