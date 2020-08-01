@@ -42,7 +42,7 @@ setupPolicyEngineWithJson
 policies
 :
 {
-MasterPassword
+PrimaryPassword
 :
 true
 }
@@ -128,7 +128,7 @@ setupPolicyEngineWithJson
 policies
 :
 {
-MasterPassword
+PrimaryPassword
 :
 true
 }
@@ -305,7 +305,7 @@ setupPolicyEngineWithJson
 policies
 :
 {
-MasterPassword
+PrimaryPassword
 :
 true
 }
