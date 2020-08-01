@@ -484,12 +484,6 @@ userContextId
 )
 ;
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 }
 async
 function

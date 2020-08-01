@@ -2292,12 +2292,6 @@ _onCancel
 ;
 }
 }
-pickResult
-(
-result
-)
-{
-}
 }
 UrlbarTestUtils
 .

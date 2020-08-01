@@ -595,12 +595,6 @@ reportError
 )
 ;
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 }
 var
 UrlbarProviderOmnibox

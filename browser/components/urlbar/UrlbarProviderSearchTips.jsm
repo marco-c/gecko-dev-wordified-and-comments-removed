@@ -1405,12 +1405,6 @@ result
 )
 ;
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 pickResult
 (
 result

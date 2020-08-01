@@ -360,12 +360,6 @@ result
 ;
 }
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 _matchUnknownUrl
 (
 queryContext

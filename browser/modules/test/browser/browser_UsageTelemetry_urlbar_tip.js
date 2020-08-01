@@ -544,16 +544,4 @@ result
 ;
 }
 }
-cancelQuery
-(
-context
-)
-{
-}
-pickResult
-(
-result
-)
-{
-}
 }

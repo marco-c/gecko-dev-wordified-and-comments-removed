@@ -526,12 +526,6 @@ result
 )
 ;
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 }
 var
 UrlbarProviderPrivateSearch

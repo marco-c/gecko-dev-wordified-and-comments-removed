@@ -926,12 +926,6 @@ break
 }
 }
 }
-cancelQuery
-(
-queryContext
-)
-{
-}
 }
 var
 UrlbarProviderTopSites
