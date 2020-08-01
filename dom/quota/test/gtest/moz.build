@@ -12,6 +12,11 @@ TestEncryptedStream
 cpp
 '
 '
+TestQuotaCommon
+.
+cpp
+'
+'
 TestQuotaManager
 .
 cpp
