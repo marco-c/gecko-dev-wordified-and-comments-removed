@@ -474,11 +474,6 @@ get
 )
 )
 ;
-MOZ_ASSERT
-(
-doc
-)
-;
 if
 (
 doc
@@ -491,10 +486,6 @@ RemoveID
 (
 mID
 )
-;
-mID
-=
-kNoID
 ;
 }
 }
