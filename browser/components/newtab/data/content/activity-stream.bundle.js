@@ -61282,7 +61282,7 @@ TOP_SITES_ATTRIBUTION
 data
 :
 {
-searchProvider
+targetURL
 :
 this
 .
@@ -61290,7 +61290,7 @@ props
 .
 link
 .
-hostname
+url
 source
 :
 "
