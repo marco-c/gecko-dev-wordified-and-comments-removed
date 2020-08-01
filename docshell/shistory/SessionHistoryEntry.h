@@ -232,6 +232,11 @@ IPDLParamTraits
 SessionHistoryInfo
 >
 ;
+void
+MaybeUpdateTitleFromURI
+(
+)
+;
 nsCOMPtr
 <
 nsIURI
