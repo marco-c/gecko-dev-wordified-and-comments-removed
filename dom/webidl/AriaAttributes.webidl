@@ -160,7 +160,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaAtomic
 ;
 [
@@ -178,7 +177,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaAutoComplete
 ;
 [
@@ -196,7 +194,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaBusy
 ;
 [
@@ -214,7 +211,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaChecked
 ;
 [
@@ -232,7 +228,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaColCount
 ;
 [
@@ -250,7 +245,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaColIndex
 ;
 [
@@ -268,7 +262,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaColIndexText
 ;
 [
@@ -286,7 +279,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaColSpan
 ;
 [
@@ -304,7 +296,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaCurrent
 ;
 [
@@ -322,7 +313,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaDescription
 ;
 [
@@ -340,7 +330,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaDisabled
 ;
 [
@@ -358,7 +347,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaExpanded
 ;
 [
@@ -376,7 +364,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaHasPopup
 ;
 [
@@ -394,7 +381,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaHidden
 ;
 [
@@ -412,7 +398,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaInvalid
 ;
 [
@@ -430,7 +415,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaKeyShortcuts
 ;
 [
@@ -448,7 +432,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaLabel
 ;
 [
@@ -466,7 +449,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaLevel
 ;
 [
@@ -484,7 +466,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaLive
 ;
 [
@@ -502,7 +483,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaModal
 ;
 [
@@ -520,7 +500,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaMultiLine
 ;
 [
@@ -538,7 +517,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaMultiSelectable
 ;
 [
@@ -556,7 +534,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaOrientation
 ;
 [
@@ -574,7 +551,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaPlaceholder
 ;
 [
@@ -592,7 +568,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaPosInSet
 ;
 [
@@ -610,7 +585,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaPressed
 ;
 [
@@ -628,7 +602,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaReadOnly
 ;
 [
@@ -646,7 +619,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRelevant
 ;
 [
@@ -664,7 +636,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRequired
 ;
 [
@@ -682,7 +653,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRoleDescription
 ;
 [
@@ -700,7 +670,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRowCount
 ;
 [
@@ -718,7 +687,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRowIndex
 ;
 [
@@ -736,7 +704,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRowIndexText
 ;
 [
@@ -754,7 +721,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaRowSpan
 ;
 [
@@ -772,7 +738,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaSelected
 ;
 [
@@ -790,7 +755,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaSetSize
 ;
 [
@@ -808,7 +772,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaSort
 ;
 [
@@ -826,7 +789,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaValueMax
 ;
 [
@@ -844,7 +806,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaValueMin
 ;
 [
@@ -862,7 +823,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaValueNow
 ;
 [
@@ -880,7 +840,6 @@ SetterThrows
 ]
 attribute
 DOMString
-?
 ariaValueText
 ;
 }
