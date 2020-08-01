@@ -64,7 +64,11 @@ capabilities
 Exposed
 =
 Window
-Constructor
+]
+interface
+InputDeviceCapabilities
+{
+constructor
 (
 optional
 InputDeviceCapabilitiesInit
@@ -73,10 +77,7 @@ deviceInitDict
 {
 }
 )
-]
-interface
-InputDeviceCapabilities
-{
+;
 readonly
 attribute
 boolean
