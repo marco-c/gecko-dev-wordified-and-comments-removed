@@ -12,7 +12,7 @@ d
 ;
 sync
 protocol
-PStruct
+PStructComparable
 {
 parent
 :

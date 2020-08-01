@@ -10,7 +10,7 @@ double
 ;
 sync
 protocol
-Punion_Basic
+Punion_Comparable
 {
 parent
 :
