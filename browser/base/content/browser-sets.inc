@@ -348,7 +348,7 @@ oncommand
 "
 PrintUtils
 .
-printWindow
+startPrintWindow
 (
 window
 .
