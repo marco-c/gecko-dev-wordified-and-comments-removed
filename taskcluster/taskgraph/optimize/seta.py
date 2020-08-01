@@ -12,6 +12,8 @@ import
 attr
 import
 requests
+import
+six
 from
 redo
 import
@@ -384,17 +386,24 @@ task_list
 0
 :
                 
-if
-type
+task_list
+=
+list
 (
 task_list
 .
 values
 (
 )
+)
 [
 0
 ]
+                
+if
+type
+(
+task_list
 )
 =
 =
@@ -403,13 +412,6 @@ and
 len
 (
 task_list
-.
-values
-(
-)
-[
-0
-]
 )
 >
 0
@@ -420,13 +422,6 @@ low_value_tasks
 set
 (
 task_list
-.
-values
-(
-)
-[
-0
-]
 )
             
 logger
@@ -525,17 +520,24 @@ task_list
 0
 :
                 
-if
-type
+task_list
+=
+list
 (
 task_list
 .
 values
 (
 )
+)
 [
 0
 ]
+                
+if
+type
+(
+task_list
 )
 =
 =
@@ -544,13 +546,6 @@ and
 len
 (
 task_list
-.
-values
-(
-)
-[
-0
-]
 )
 >
 0
@@ -561,13 +556,6 @@ high_value_tasks
 set
 (
 task_list
-.
-values
-(
-)
-[
-0
-]
 )
             
 def
@@ -733,10 +721,11 @@ for
 old
 new
 in
-seta_conversions
+six
 .
 iteritems
 (
+seta_conversions
 )
 :
                 
@@ -781,10 +770,11 @@ for
 old
 new
 in
-seta_conversions
+six
 .
 iteritems
 (
+seta_conversions
 )
 :
                 
@@ -836,10 +826,11 @@ for
 old
 new
 in
-seta_conversions
+six
 .
 iteritems
 (
+seta_conversions
 )
 :
                     

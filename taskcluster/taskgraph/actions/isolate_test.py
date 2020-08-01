@@ -1705,12 +1705,13 @@ for
 name
 label
 in
-pre_task
-.
-dependencies
+six
 .
 iteritems
 (
+pre_task
+.
+dependencies
 )
 }
     
@@ -1740,10 +1741,11 @@ dependencies
 .
 extend
 (
-dependencies
+six
 .
 itervalues
 (
+dependencies
 )
 )
     

@@ -20,16 +20,14 @@ import
 json
 import
 logging
+import
+six
 from
+.
 .
 util
 import
-(
-    
-fetch_graph_and_labels
-    
-create_task_from_def
-)
+taskcluster
 from
 .
 .
@@ -44,11 +42,11 @@ registry
 import
 register_callback_action
 from
-taskgraph
 .
 util
 import
-taskcluster
+create_task_from_def
+fetch_graph_and_labels
 logger
 =
 logging
@@ -851,12 +849,13 @@ for
 name
 label
 in
-pre_task
-.
-dependencies
+six
 .
 iteritems
 (
+pre_task
+.
+dependencies
 )
 }
     
@@ -886,10 +885,11 @@ dependencies
 .
 extend
 (
-dependencies
+six
 .
 itervalues
 (
+dependencies
 )
 )
     
@@ -1153,6 +1153,10 @@ key
 val
 )
 in
+six
+.
+iteritems
+(
 input
 .
 get
@@ -1163,9 +1167,6 @@ preferences
 {
 }
 )
-.
-iteritems
-(
 )
 :
         

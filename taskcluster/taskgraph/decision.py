@@ -1026,10 +1026,11 @@ for
 label
 node
 in
-full_task_json
+six
 .
 iteritems
 (
+full_task_json
 )
 :
         
@@ -1421,6 +1422,8 @@ tasks
 .
 json
 '
+list
+(
 tgg
 .
 target_task_set
@@ -1429,6 +1432,7 @@ tasks
 .
 keys
 (
+)
 )
 )
     

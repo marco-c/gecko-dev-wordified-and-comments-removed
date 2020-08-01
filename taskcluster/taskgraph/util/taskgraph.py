@@ -29,6 +29,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+six
 from
 taskgraph
 .
@@ -259,12 +261,13 @@ label
 for
 t
 in
-full_task_graph
-.
-tasks
+six
 .
 itervalues
 (
+full_task_graph
+.
+tasks
 )
         
 if

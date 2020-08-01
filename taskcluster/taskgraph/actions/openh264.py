@@ -16,6 +16,8 @@ import
 absolute_import
 print_function
 unicode_literals
+import
+six
 from
 .
 registry
@@ -25,12 +27,8 @@ from
 .
 util
 import
-(
-    
 create_tasks
-    
 fetch_graph_and_labels
-)
 register_callback_action
 (
     
@@ -102,12 +100,13 @@ label
 entry
               
 in
-full_task_graph
-.
-tasks
+six
 .
 iteritems
 (
+full_task_graph
+.
+tasks
 )
 if
 '
