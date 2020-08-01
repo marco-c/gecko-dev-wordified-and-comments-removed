@@ -750,6 +750,11 @@ mSocketControl
 nsCString
 mAlpnToken
 ;
+uint64_t
+mTransactionCount
+=
+0
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
