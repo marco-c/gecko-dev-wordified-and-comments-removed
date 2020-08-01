@@ -184,16 +184,6 @@ Bug
 1386543
 bug
 1392106
-random
--
-if
-(
-!
-gtkWidget
-|
-|
-webrender
-)
 =
 =
 box
