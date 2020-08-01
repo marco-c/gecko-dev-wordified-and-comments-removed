@@ -1907,7 +1907,7 @@ return
 Debugger
 :
 :
-getHookImpl
+getGarbageCollectionHook
 (
 cx
 args
@@ -1918,10 +1918,6 @@ memory
 getDebugger
 (
 )
-Debugger
-:
-:
-OnGarbageCollection
 )
 ;
 }
@@ -1940,7 +1936,7 @@ return
 Debugger
 :
 :
-setHookImpl
+setGarbageCollectionHook
 (
 cx
 args
@@ -1951,10 +1947,6 @@ memory
 getDebugger
 (
 )
-Debugger
-:
-:
-OnGarbageCollection
 )
 ;
 }
