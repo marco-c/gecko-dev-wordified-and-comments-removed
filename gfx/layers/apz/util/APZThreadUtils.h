@@ -91,6 +91,12 @@ IsControllerThread
 )
 ;
 static
+bool
+IsControllerThreadAlive
+(
+)
+;
+static
 void
 DelayedDispatch
 (
