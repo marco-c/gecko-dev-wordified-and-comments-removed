@@ -3436,7 +3436,12 @@ closest
 (
 #
 {
+CSS
+.
+escape
+(
 area
+)
 }
 )
 )
@@ -3497,7 +3502,12 @@ closest
 (
 #
 {
+CSS
+.
+escape
+(
 widget
+)
 }
 )
 )
