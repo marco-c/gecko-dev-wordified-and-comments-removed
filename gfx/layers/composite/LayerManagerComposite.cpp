@@ -2893,12 +2893,9 @@ manager
 return
 ;
 }
-SetCompositionInfo
+SetCompositionTime
 (
 aTimeStamp
-CompositionOpportunityId
-{
-}
 )
 ;
 if
