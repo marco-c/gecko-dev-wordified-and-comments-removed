@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_encode
 def
 main
 (
@@ -16,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 code
 "
@@ -31,9 +38,11 @@ GET
 .
 first
 (
+b
 "
 text
 "
+b
 "
 OMG
 "
@@ -47,9 +56,11 @@ GET
 .
 first
 (
+b
 "
 content
 "
+b
 "
 "
 )
@@ -62,9 +73,11 @@ GET
 .
 first
 (
+b
 "
 type
 "
+b
 "
 "
 )
@@ -80,6 +93,7 @@ headers
 =
 [
 (
+b
 "
 Content
 -
@@ -89,6 +103,7 @@ type
 )
                
 (
+b
 "
 X
 -
@@ -96,9 +111,12 @@ Request
 -
 Method
 "
+isomorphic_encode
+(
 request
 .
 method
+)
 )
 ]
     

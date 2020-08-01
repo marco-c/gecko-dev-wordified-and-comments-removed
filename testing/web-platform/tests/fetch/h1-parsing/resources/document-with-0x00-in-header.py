@@ -12,11 +12,13 @@ headers
 .
 set
 (
+b
 "
 Content
 -
 Type
 "
+b
 "
 text
 /
@@ -30,9 +32,11 @@ headers
 .
 set
 (
+b
 "
 Custom
 "
+b
 "
 \
 0
@@ -40,6 +44,7 @@ Custom
 )
     
 return
+b
 "
 <
 !

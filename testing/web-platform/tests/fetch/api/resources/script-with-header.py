@@ -10,6 +10,7 @@ headers
 =
 [
 (
+b
 "
 Content
 -
@@ -21,6 +22,7 @@ GET
 .
 first
 (
+b
 "
 mime
 "
@@ -29,6 +31,7 @@ mime
 ]
     
 if
+b
 "
 content
 "
@@ -43,12 +46,14 @@ GET
 .
 first
 (
+b
 "
 content
 "
 )
 =
 =
+b
 "
 empty
 "
@@ -56,6 +61,7 @@ empty
         
 content
 =
+b
 '
 '
     
@@ -64,6 +70,7 @@ else
         
 content
 =
+b
 "
 console
 .

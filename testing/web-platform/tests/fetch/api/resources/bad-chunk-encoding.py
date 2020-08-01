@@ -18,6 +18,7 @@ GET
 .
 first
 (
+b
 "
 ms
 "
@@ -37,6 +38,7 @@ GET
 .
 first
 (
+b
 "
 count
 "
@@ -57,11 +59,13 @@ headers
 .
 set
 (
+b
 "
 Transfer
 -
 Encoding
 "
+b
 "
 chunked
 "
@@ -83,7 +87,7 @@ delay
 for
 i
 in
-xrange
+range
 (
 count
 )
@@ -95,6 +99,7 @@ writer
 .
 write_content
 (
+b
 "
 a
 \
@@ -121,6 +126,7 @@ writer
 .
 write_content
 (
+b
 "
 garbage
 "
