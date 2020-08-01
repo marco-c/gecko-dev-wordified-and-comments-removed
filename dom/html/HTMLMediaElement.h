@@ -4484,8 +4484,14 @@ ResumePromise
 >
 mResumePlaybackRequest
 ;
+bool
+ShouldStartMediaControlKeyListener
+(
+)
+const
+;
 void
-StartListeningMediaControlKeyIfNeeded
+StartMediaControlKeyListenerIfNeeded
 (
 )
 ;
