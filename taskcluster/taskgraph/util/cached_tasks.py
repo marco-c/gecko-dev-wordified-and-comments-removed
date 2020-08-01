@@ -634,3 +634,26 @@ digest
 digest
     
 }
+    
+taskdesc
+[
+'
+attributes
+'
+]
+[
+'
+eager_indexes
+'
+]
+=
+[
+TARGET_CACHE_INDEX
+.
+format
+(
+*
+*
+subs
+)
+]
