@@ -593,6 +593,14 @@ nsIContentPolicy
 :
 :
 TYPE_INTERNAL_IMAGE
+nullptr
+nullptr
+nullptr
+nullptr
+nsIRequest
+:
+:
+LOAD_ANONYMOUS
 )
 ;
 if
