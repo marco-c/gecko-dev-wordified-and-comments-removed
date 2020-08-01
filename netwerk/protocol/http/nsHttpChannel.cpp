@@ -7997,6 +7997,12 @@ nsIContentPolicy
 :
 TYPE_INTERNAL_MODULE_PRELOAD
 :
+case
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
+:
 AccumulateCategorical
 (
 Telemetry

@@ -1893,6 +1893,15 @@ TYPE_INTERNAL_FONT_PRELOAD
 =
 =
 51
+&
+&
+nsIContentPolicy
+:
+:
+TYPE_INTERNAL_CHROMEUTILS_COMPILED_SCRIPT
+=
+=
+52
 "
 nsContentPolicyType
 values
