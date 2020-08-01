@@ -52,9 +52,9 @@ ROOT_CERTIFICATE_HASH_FAILURE
 int32_t
 RootCABinNumber
 (
-const
 Span
 <
+const
 uint8_t
 >
 cert
@@ -74,6 +74,7 @@ probe
 const
 Span
 <
+const
 uint8_t
 >
 cert

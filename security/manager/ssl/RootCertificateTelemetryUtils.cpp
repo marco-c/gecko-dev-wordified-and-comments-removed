@@ -149,9 +149,9 @@ mTarget
 int32_t
 RootCABinNumber
 (
-const
 Span
 <
+const
 uint8_t
 >
 cert
@@ -464,10 +464,17 @@ certItem
 =
 {
 siBuffer
+const_cast
+<
+uint8_t
+*
+>
+(
 cert
 .
 data
 (
+)
 )
 static_cast
 <
@@ -603,6 +610,7 @@ probe
 const
 Span
 <
+const
 uint8_t
 >
 cert
