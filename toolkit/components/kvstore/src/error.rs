@@ -22,9 +22,6 @@ rkv
 :
 :
 {
-migrate
-:
-:
 MigrateError
 StoreError
 }
