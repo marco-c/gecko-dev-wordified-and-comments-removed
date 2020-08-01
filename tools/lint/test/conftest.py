@@ -37,18 +37,18 @@ mozlint
 result
 import
 ResultSummary
+from
+mozpack
+import
+path
 import
 pytest
 here
 =
-os
-.
 path
 .
 abspath
 (
-os
-.
 path
 .
 dirname
@@ -68,8 +68,6 @@ here
 )
 lintdir
 =
-os
-.
 path
 .
 dirname
@@ -227,8 +225,6 @@ LINTER
         
 config_path
 =
-os
-.
 path
 .
 join
@@ -491,8 +487,6 @@ variable
 )
     
 return
-os
-.
 path
 .
 join
@@ -602,14 +596,10 @@ root
         
 return
 [
-os
-.
 path
 .
 normpath
 (
-os
-.
 path
 .
 join
