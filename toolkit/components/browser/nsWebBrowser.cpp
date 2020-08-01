@@ -778,7 +778,7 @@ forget
 )
 ;
 }
-NS_IMETHODIMP
+void
 nsWebBrowser
 :
 :
@@ -834,9 +834,6 @@ mDocShellTreeOwner
 nullptr
 ;
 }
-return
-NS_OK
-;
 }
 NS_IMPL_CYCLE_COLLECTING_ADDREF
 (

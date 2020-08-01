@@ -367,7 +367,7 @@ nsWebBrowser
 (
 )
 ;
-NS_IMETHOD
+void
 InternalDestroy
 (
 )
