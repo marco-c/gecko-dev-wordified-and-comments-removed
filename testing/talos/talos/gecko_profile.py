@@ -81,7 +81,6 @@ self
 upload_dir
 browser_config
 test_config
-webrender_enabled
 )
 :
         
@@ -147,7 +146,12 @@ Compositor
 '
         
 if
-webrender_enabled
+browser_config
+[
+'
+enable_webrender
+'
+]
 :
             
 gecko_profile_threads

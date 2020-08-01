@@ -1486,23 +1486,6 @@ browser_config
 self
 .
 test_config
-                                              
-str
-(
-os
-.
-getenv
-(
-'
-MOZ_WEBRENDER
-'
-)
-)
-=
-=
-'
-1
-'
 )
             
 self
