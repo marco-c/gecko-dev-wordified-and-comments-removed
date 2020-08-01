@@ -444,9 +444,6 @@ false
 void
 AddCookie
 (
-nsIConsoleReportCollector
-*
-aCRC
 const
 nsACString
 &
