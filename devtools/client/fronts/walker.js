@@ -2224,6 +2224,16 @@ _onRootNodeDestroyed
 {
 this
 .
+_releaseFront
+(
+this
+.
+rootNode
+true
+)
+;
+this
+.
 rootNode
 =
 null

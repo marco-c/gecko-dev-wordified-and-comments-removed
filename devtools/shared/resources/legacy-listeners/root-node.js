@@ -42,7 +42,12 @@ if
 !
 targetFront
 .
-isTopLevel
+getTrait
+(
+"
+isBrowsingContext
+"
+)
 )
 {
 return
