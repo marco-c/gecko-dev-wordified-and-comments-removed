@@ -260,7 +260,10 @@ SVGFEImageElement
 (
 )
 {
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;

@@ -648,7 +648,10 @@ HTMLImageElement
 (
 )
 {
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;

@@ -475,7 +475,7 @@ aNotify
 )
 ;
 void
-DestroyImageLoadingContent
+Destroy
 (
 )
 ;

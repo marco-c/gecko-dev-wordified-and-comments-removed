@@ -263,7 +263,10 @@ UnregisterActivityObserver
 (
 )
 ;
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;

@@ -4831,7 +4831,10 @@ eDisallowDispatchingEvents
 )
 ;
 }
-DestroyImageLoadingContent
+nsImageLoadingContent
+:
+:
+Destroy
 (
 )
 ;
