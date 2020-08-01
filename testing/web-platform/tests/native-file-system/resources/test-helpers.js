@@ -126,10 +126,6 @@ let
 entry
 of
 handle
-.
-getEntries
-(
-)
 )
 {
 result
@@ -162,7 +158,7 @@ entry
 of
 handle
 .
-getEntries
+values
 (
 )
 )

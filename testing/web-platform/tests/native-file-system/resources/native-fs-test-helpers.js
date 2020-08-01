@@ -99,10 +99,6 @@ const
 entry
 of
 entries
-.
-getEntries
-(
-)
 )
 {
 assert_unreached
@@ -153,7 +149,7 @@ entry
 of
 directory
 .
-getEntries
+values
 (
 )
 )
