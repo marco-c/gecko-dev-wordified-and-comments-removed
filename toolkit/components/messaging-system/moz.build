@@ -84,7 +84,7 @@ SpecialMessageActionSchemas
 /
 SpecialMessageActionSchemas
 .
-json
+js
 '
 '
 schemas
@@ -93,7 +93,7 @@ TriggerActionSchemas
 /
 TriggerActionSchemas
 .
-json
+js
 '
 '
 test
