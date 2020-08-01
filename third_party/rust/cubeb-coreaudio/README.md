@@ -15,8 +15,6 @@ https
 :
 /
 /
-api
-.
 travis
 -
 ci
@@ -48,8 +46,6 @@ travis
 ci
 .
 com
-/
-github
 /
 ChunMinChang
 /

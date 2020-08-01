@@ -5,15 +5,15 @@ super
 *
 ;
 use
-cocoa
+cocoa_foundation
 :
 :
 foundation
 :
 :
 {
-NSUInteger
 NSRange
+NSUInteger
 }
 ;
 bitflags

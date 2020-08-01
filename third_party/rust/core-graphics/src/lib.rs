@@ -14,17 +14,6 @@ core_foundation
 [
 macro_use
 ]
-#
-[
-cfg
-(
-target_os
-=
-"
-macos
-"
-)
-]
 extern
 crate
 bitflags
@@ -36,6 +25,10 @@ macro_use
 extern
 crate
 foreign_types
+;
+extern
+crate
+core_graphics_types
 ;
 pub
 mod
@@ -110,6 +103,10 @@ pub
 mod
 geometry
 ;
+pub
+mod
+gradient
+;
 #
 [
 cfg
@@ -148,6 +145,7 @@ pub
 mod
 path
 ;
+pub
 mod
 sys
 ;
