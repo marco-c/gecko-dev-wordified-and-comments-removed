@@ -139,8 +139,6 @@ environmentfilter
 "
 False
 )
-is
-True
 :
         
 def
@@ -165,8 +163,8 @@ False
 else
 :
         
-has_evalctxfilter
-=
+if
+not
 getattr
 (
 normal_filter
@@ -175,29 +173,23 @@ evalcontextfilter
 "
 False
 )
-is
-True
-        
-has_ctxfilter
-=
+and
+not
 getattr
 (
+            
 normal_filter
 "
 contextfilter
 "
 False
-)
-is
-True
         
+)
+:
+            
 wrap_evalctx
 =
-not
-has_evalctxfilter
-and
-not
-has_ctxfilter
+True
         
 def
 is_async

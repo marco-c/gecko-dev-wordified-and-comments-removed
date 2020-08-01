@@ -31,7 +31,6 @@ linker
 testing
 ]
 packaging
-pep517
 [
 testing
 :
@@ -40,12 +39,7 @@ python_version
 "
 3
 .
-9
+7
 "
 ]
 importlib_resources
->
-=
-1
-.
-3

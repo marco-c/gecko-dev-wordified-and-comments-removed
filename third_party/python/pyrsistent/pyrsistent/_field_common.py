@@ -1453,12 +1453,6 @@ def
 factory
 (
 argument
-_factory_fields
-=
-None
-ignore_extra
-=
-False
 )
 :
             
@@ -1480,12 +1474,6 @@ TheType
 create
 (
 argument
-_factory_fields
-=
-_factory_fields
-ignore_extra
-=
-ignore_extra
 )
     
 else

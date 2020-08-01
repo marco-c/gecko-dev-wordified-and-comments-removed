@@ -614,16 +614,6 @@ license
 MIT
 '
     
-license_files
-=
-[
-'
-LICENCE
-.
-mit
-'
-]
-    
 py_modules
 =
 [
@@ -663,6 +653,19 @@ System
 :
 OS
 Independent
+'
+        
+'
+Programming
+Language
+:
+:
+Python
+:
+:
+2
+.
+7
 '
         
 '
