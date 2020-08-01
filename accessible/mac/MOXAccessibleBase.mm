@@ -1384,13 +1384,14 @@ NSDictionary
 )
 userInfo
 {
-xpcAccessibleMacInterface
+xpcAccessibleMacEvent
 :
 :
 FireEvent
 (
 self
 notification
+userInfo
 )
 ;
 if
