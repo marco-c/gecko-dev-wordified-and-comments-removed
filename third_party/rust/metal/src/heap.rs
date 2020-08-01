@@ -5,7 +5,7 @@ super
 *
 ;
 use
-cocoa
+cocoa_foundation
 :
 :
 foundation

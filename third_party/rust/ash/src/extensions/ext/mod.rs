@@ -28,6 +28,16 @@ debug_utils
 :
 DebugUtils
 ;
+pub
+use
+self
+:
+:
+metal_surface
+:
+:
+MetalSurface
+;
 mod
 debug_marker
 ;
@@ -36,4 +46,7 @@ debug_report
 ;
 mod
 debug_utils
+;
+mod
+metal_surface
 ;

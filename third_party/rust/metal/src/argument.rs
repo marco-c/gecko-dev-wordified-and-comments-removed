@@ -8,7 +8,7 @@ MTLTextureType
 }
 ;
 use
-cocoa
+cocoa_foundation
 :
 :
 foundation
