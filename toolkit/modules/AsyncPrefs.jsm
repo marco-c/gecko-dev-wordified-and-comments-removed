@@ -302,6 +302,15 @@ enable
 deprecated
 "
 "
+security
+.
+xfocsp
+.
+errorReporting
+.
+automatic
+"
+"
 browser
 .
 contentblocking
