@@ -1285,10 +1285,6 @@ Value
 *
 prevsp_
 ;
-void
-*
-unused
-;
 AbstractFramePtr
 evalInFramePrev_
 ;
