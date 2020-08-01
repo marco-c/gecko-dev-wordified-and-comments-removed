@@ -2702,7 +2702,7 @@ rv
 GetPIPNSSBundleString
 (
 "
-CertPassPromptDefault
+CertPasswordPromptDefault
 "
 promptString
 )
@@ -2732,7 +2732,7 @@ rv
 PIPBundleFormatStringFromName
 (
 "
-CertPassPrompt
+CertPasswordPrompt
 "
 formatStrings
 promptString
