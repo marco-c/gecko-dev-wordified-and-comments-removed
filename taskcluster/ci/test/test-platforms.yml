@@ -1942,6 +1942,10 @@ macosx1014
 qr
 -
 tests
+-
+macosx64
+-
+talos
 macosx1014
 -
 64
