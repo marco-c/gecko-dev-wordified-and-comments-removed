@@ -2,6 +2,13 @@ import
 os
 sys
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 sys
 .
 path
@@ -21,7 +28,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -47,9 +57,11 @@ GET
 .
 first
 (
+b
 "
 policyDeliveries
 "
+b
 "
 [
 ]
@@ -64,11 +76,13 @@ maybe_additional_headers
   
 meta
 =
+u
 '
 '
   
 error
 =
+u
 '
 '
   
@@ -81,12 +95,14 @@ policyDeliveries
 if
 delivery
 [
+u
 '
 deliveryType
 '
 ]
 =
 =
+u
 '
 meta
 '
@@ -95,12 +111,14 @@ meta
 if
 delivery
 [
+u
 '
 key
 '
 ]
 =
 =
+u
 '
 referrerPolicy
 '
@@ -109,6 +127,7 @@ referrerPolicy
 meta
 +
 =
+u
 '
 <
 meta
@@ -128,6 +147,7 @@ s
 %
 delivery
 [
+u
 '
 value
 '
@@ -138,6 +158,7 @@ else
         
 error
 =
+u
 '
 invalid
 delivery
@@ -147,12 +168,14 @@ key
 elif
 delivery
 [
+u
 '
 deliveryType
 '
 ]
 =
 =
+u
 '
 http
 -
@@ -163,12 +186,14 @@ rp
 if
 delivery
 [
+u
 '
 key
 '
 ]
 =
 =
+u
 '
 referrerPolicy
 '
@@ -176,6 +201,7 @@ referrerPolicy
         
 maybe_additional_headers
 [
+b
 '
 Referrer
 -
@@ -183,18 +209,23 @@ Policy
 '
 ]
 =
+isomorphic_encode
+(
 delivery
 [
+u
 '
 value
 '
 ]
+)
       
 else
 :
         
 error
 =
+u
 '
 invalid
 delivery
@@ -206,6 +237,7 @@ else
       
 error
 =
+u
 '
 invalid
 deliveryType
@@ -219,6 +251,7 @@ util
 .
 get_template
 (
+u
 "
 document
 .
@@ -231,12 +264,14 @@ template
 (
 {
       
+u
 "
 meta
 "
 :
 meta
       
+u
 "
 error
 "
@@ -261,6 +296,7 @@ handler
       
 content_type
 =
+b
 "
 text
 /

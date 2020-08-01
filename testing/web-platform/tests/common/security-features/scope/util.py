@@ -1,5 +1,11 @@
 import
 os
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 get_template
 (
@@ -21,7 +27,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
   
@@ -41,6 +50,7 @@ path
 join
 (
 script_directory
+u
 "
 template
 "
@@ -86,6 +96,7 @@ response
 :
   
 return
+u
 "
 "
 def
@@ -101,6 +112,7 @@ status_code
             
 content_type
 =
+b
 "
 text
 /
@@ -113,6 +125,7 @@ __noop
             
 cache_control
 =
+b
 "
 no
 -
@@ -125,6 +138,7 @@ revalidate
             
 access_control_allow_origin
 =
+b
 "
 *
 "
@@ -163,6 +177,7 @@ writer
 .
 write_header
 (
+b
 "
 access
 -
@@ -182,6 +197,7 @@ writer
 .
 write_header
 (
+b
 "
 content
 -
@@ -196,6 +212,7 @@ writer
 .
 write_header
 (
+b
 "
 cache
 -

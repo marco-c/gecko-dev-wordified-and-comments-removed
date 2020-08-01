@@ -2,6 +2,13 @@ import
 os
 sys
 json
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
+isomorphic_encode
 sys
 .
 path
@@ -21,7 +28,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -47,9 +57,11 @@ GET
 .
 first
 (
+b
 '
 policyDeliveries
 '
+b
 '
 [
 ]
@@ -65,9 +77,11 @@ GET
 .
 first
 (
+b
 '
 type
 '
+b
 '
 classic
 '
@@ -75,6 +89,7 @@ classic
   
 commonjs_url
 =
+u
 '
 %
 s
@@ -126,6 +141,7 @@ if
 worker_type
 =
 =
+b
 '
 classic
 '
@@ -133,6 +149,7 @@ classic
     
 import_line
 =
+u
 '
 importScripts
 (
@@ -151,6 +168,7 @@ else
     
 import_line
 =
+u
 '
 import
 "
@@ -169,6 +187,7 @@ maybe_additional_headers
   
 error
 =
+u
 '
 '
   
@@ -181,12 +200,14 @@ policyDeliveries
 if
 delivery
 [
+u
 '
 deliveryType
 '
 ]
 =
 =
+u
 '
 meta
 '
@@ -194,6 +215,7 @@ meta
       
 error
 =
+u
 '
 <
 meta
@@ -208,12 +230,14 @@ WorkerGlobalScope
 elif
 delivery
 [
+u
 '
 deliveryType
 '
 ]
 =
 =
+u
 '
 http
 -
@@ -224,12 +248,14 @@ rp
 if
 delivery
 [
+u
 '
 key
 '
 ]
 =
 =
+u
 '
 referrerPolicy
 '
@@ -237,6 +263,7 @@ referrerPolicy
         
 maybe_additional_headers
 [
+b
 '
 Referrer
 -
@@ -244,34 +271,42 @@ Policy
 '
 ]
 =
+isomorphic_encode
+(
 delivery
 [
+u
 '
 value
 '
 ]
+)
       
 elif
 delivery
 [
+u
 '
 key
 '
 ]
 =
 =
+u
 '
 mixedContent
 '
 and
 delivery
 [
+u
 '
 value
 '
 ]
 =
 =
+u
 '
 opt
 -
@@ -281,6 +316,7 @@ in
         
 maybe_additional_headers
 [
+b
 '
 Content
 -
@@ -290,6 +326,7 @@ Policy
 '
 ]
 =
+b
 '
 block
 -
@@ -303,24 +340,28 @@ content
 elif
 delivery
 [
+u
 '
 key
 '
 ]
 =
 =
+u
 '
 upgradeInsecureRequests
 '
 and
 delivery
 [
+u
 '
 value
 '
 ]
 =
 =
+u
 '
 upgrade
 '
@@ -328,6 +369,7 @@ upgrade
         
 maybe_additional_headers
 [
+b
 '
 Content
 -
@@ -337,6 +379,7 @@ Policy
 '
 ]
 =
+b
 '
 upgrade
 -
@@ -350,6 +393,7 @@ else
         
 error
 =
+u
 '
 invalid
 delivery
@@ -365,6 +409,7 @@ s
 %
 delivery
 [
+u
 '
 key
 '
@@ -375,6 +420,7 @@ else
       
 error
 =
+u
 '
 invalid
 deliveryType
@@ -385,6 +431,7 @@ s
 %
 delivery
 [
+u
 '
 deliveryType
 '
@@ -398,6 +445,7 @@ util
 .
 get_template
 (
+u
 '
 worker
 .
@@ -410,12 +458,14 @@ template
 (
 {
       
+u
 '
 import
 '
 :
 import_line
       
+u
 '
 error
 '
@@ -440,6 +490,7 @@ handler
       
 content_type
 =
+b
 '
 text
 /

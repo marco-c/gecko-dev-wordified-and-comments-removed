@@ -1,6 +1,12 @@
 import
 os
 sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -20,7 +26,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -36,6 +45,7 @@ server_data
 data
 =
 (
+u
 '
 {
 "
@@ -77,12 +87,14 @@ generate_payload
                         
 access_control_allow_origin
 =
+b
 "
 *
 "
                         
 content_type
 =
+b
 "
 application
 /

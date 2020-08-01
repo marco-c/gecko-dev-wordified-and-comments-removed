@@ -1,6 +1,12 @@
 import
 os
 sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -20,7 +26,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -45,9 +54,11 @@ join
 request
 .
 doc_root
+u
 "
 media
 "
+u
 "
 movie_5
 .
@@ -100,12 +111,14 @@ handler
                         
 access_control_allow_origin
 =
+b
 "
 *
 "
                         
 content_type
 =
+b
 "
 video
 /

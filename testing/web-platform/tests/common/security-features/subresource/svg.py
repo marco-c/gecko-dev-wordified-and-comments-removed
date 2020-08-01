@@ -1,6 +1,12 @@
 import
 os
 sys
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 sys
 .
 path
@@ -20,7 +26,10 @@ path
 .
 abspath
 (
+isomorphic_decode
+(
 __file__
+)
 )
 )
 )
@@ -37,6 +46,7 @@ server_data
 data
 =
 (
+u
 '
 {
 "
@@ -55,6 +65,7 @@ s
 server_data
     
 if
+b
 "
 id
 "
@@ -86,6 +97,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -104,6 +116,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -112,6 +125,7 @@ data
 )
     
 return
+u
 "
 <
 svg
@@ -138,7 +152,6 @@ svg
 svg
 >
 "
-;
 def
 generate_payload_embedded
 (
@@ -152,6 +165,7 @@ subresource
 .
 get_template
 (
+u
 "
 svg
 .
@@ -163,6 +177,7 @@ template
 %
 {
         
+b
 "
 id
 "
@@ -171,11 +186,13 @@ request
 .
 GET
 [
+b
 "
 id
 "
 ]
         
+b
 "
 property
 "
@@ -184,12 +201,12 @@ request
 .
 GET
 [
+b
 "
 property
 "
 ]
 }
-;
 def
 generate_report_headers_payload
 (
@@ -212,6 +229,7 @@ request
 .
 GET
 [
+b
 "
 id
 "
@@ -241,6 +259,7 @@ data
     
 content_type
 =
+b
 '
 image
 /
@@ -250,6 +269,7 @@ xml
 '
     
 if
+b
 "
 embedded
 -
@@ -273,6 +293,7 @@ data
 )
     
 if
+b
 "
 report
 -
@@ -297,6 +318,7 @@ data
         
 content_type
 =
+b
 '
 application
 /
