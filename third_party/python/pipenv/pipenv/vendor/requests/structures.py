@@ -44,18 +44,19 @@ Requests
 "
 "
 "
-import
+from
 collections
+import
+OrderedDict
 from
 .
 compat
 import
-OrderedDict
+Mapping
+MutableMapping
 class
 CaseInsensitiveDict
 (
-collections
-.
 MutableMapping
 )
 :
@@ -80,8 +81,6 @@ and
 operations
 of
     
-collections
-.
 MutableMapping
 as
 well
@@ -486,8 +485,6 @@ if
 isinstance
 (
 other
-collections
-.
 Mapping
 )
 :

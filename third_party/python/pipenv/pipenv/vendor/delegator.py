@@ -10,12 +10,27 @@ import
 sys
 import
 locale
+import
+errno
 from
 pexpect
 .
 popen_spawn
 import
 PopenSpawn
+import
+pexpect
+pexpect
+.
+EOF
+.
+__module__
+=
+"
+pexpect
+.
+exceptions
+"
 try
 :
     
@@ -37,6 +52,96 @@ str
 TIMEOUT
 =
 30
+def
+pid_exists
+(
+pid
+)
+:
+    
+"
+"
+"
+Check
+whether
+pid
+exists
+in
+the
+current
+process
+table
+.
+"
+"
+"
+    
+if
+pid
+=
+=
+0
+:
+        
+return
+True
+    
+try
+:
+        
+os
+.
+kill
+(
+pid
+0
+)
+    
+except
+OSError
+as
+err
+:
+        
+if
+err
+.
+errno
+=
+=
+errno
+.
+ESRCH
+:
+            
+return
+False
+        
+elif
+err
+.
+errno
+=
+=
+errno
+.
+EPERM
+:
+            
+return
+True
+        
+else
+:
+            
+raise
+err
+    
+else
+:
+        
+return
+True
 class
 Command
 (
@@ -115,7 +220,7 @@ self
 :
         
 return
-'
+"
 <
 Command
 {
@@ -123,7 +228,7 @@ Command
 r
 }
 >
-'
+"
 .
 format
 (
@@ -158,9 +263,9 @@ self
 return
 {
             
-'
+"
 env
-'
+"
 :
 os
 .
@@ -170,45 +275,45 @@ copy
 (
 )
             
-'
+"
 stdin
-'
+"
 :
 subprocess
 .
 PIPE
             
-'
+"
 stdout
-'
+"
 :
 subprocess
 .
 PIPE
             
-'
+"
 stderr
-'
+"
 :
 subprocess
 .
 PIPE
             
-'
+"
 shell
-'
+"
 :
 True
             
-'
+"
 universal_newlines
-'
+"
 :
 True
             
-'
+"
 bufsize
-'
+"
 :
 0
         
@@ -225,11 +330,11 @@ self
         
 encoding
 =
-'
+"
 utf
 -
 8
-'
+"
         
 if
 sys
@@ -237,9 +342,9 @@ sys
 platform
 =
 =
-'
+"
 win32
-'
+"
 :
             
 default_encoding
@@ -266,10 +371,9 @@ default_encoding
         
 return
 {
-            
-'
+"
 env
-'
+"
 :
 os
 .
@@ -278,21 +382,18 @@ environ
 copy
 (
 )
-            
-'
+"
 encoding
-'
+"
 :
 encoding
-            
-'
+"
 timeout
-'
+"
 :
 self
 .
 timeout
-        
 }
     
 property
@@ -352,6 +453,23 @@ stdout
 property
     
 def
+ok
+(
+self
+)
+:
+        
+return
+self
+.
+return_code
+=
+=
+0
+    
+property
+    
+def
 _pexpect_out
 (
 self
@@ -368,8 +486,8 @@ encoding
             
 result
 =
-'
-'
+"
+"
         
 else
 :
@@ -377,8 +495,8 @@ else
 result
 =
 b
-'
-'
+"
+"
         
 if
 self
@@ -403,8 +521,27 @@ self
 subprocess
 .
 after
+and
+self
+.
+subprocess
+.
+after
+not
+in
+(
+pexpect
+.
+EOF
+pexpect
+.
+TIMEOUT
+)
 :
             
+try
+:
+                
 result
 +
 =
@@ -413,6 +550,19 @@ self
 subprocess
 .
 after
+            
+except
+(
+pexpect
+.
+EOF
+pexpect
+.
+TIMEOUT
+)
+:
+                
+pass
         
 result
 +
@@ -610,9 +760,9 @@ hasattr
 self
 .
 subprocess
-'
+"
 proc
-'
+"
 )
 :
             
@@ -631,6 +781,35 @@ self
 subprocess
 .
 pid
+    
+property
+    
+def
+is_alive
+(
+self
+)
+:
+        
+"
+"
+"
+Is
+the
+process
+alive
+?
+"
+"
+"
+        
+return
+pid_exists
+(
+self
+.
+pid
+)
     
 property
     
@@ -736,11 +915,19 @@ copy
 (
 )
             
+del
 popen_kwargs
 [
-'
+"
+stdin
+"
+]
+            
+popen_kwargs
+[
+"
 universal_newlines
-'
+"
 ]
 =
 not
@@ -752,9 +939,9 @@ cwd
                 
 popen_kwargs
 [
-'
+"
 cwd
-'
+"
 ]
 =
 cwd
@@ -765,9 +952,9 @@ env
                 
 popen_kwargs
 [
-'
+"
 env
-'
+"
 ]
 .
 update
@@ -808,9 +995,9 @@ binary
                 
 pexpect_kwargs
 [
-'
+"
 encoding
-'
+"
 ]
 =
 None
@@ -821,9 +1008,9 @@ cwd
                 
 pexpect_kwargs
 [
-'
+"
 cwd
-'
+"
 ]
 =
 cwd
@@ -834,9 +1021,9 @@ env
                 
 pexpect_kwargs
 [
-'
+"
 env
-'
+"
 ]
 .
 update
@@ -846,19 +1033,19 @@ env
             
 pexpect_kwargs
 [
-'
+"
 env
-'
+"
 ]
 [
-'
+"
 PYTHONUNBUFFERED
-'
+"
 ]
 =
-'
+"
 1
-'
+"
             
 s
 =
@@ -921,7 +1108,7 @@ blocking
 raise
 RuntimeError
 (
-'
+"
 expect
 can
 only
@@ -933,9 +1120,12 @@ non
 blocking
 commands
 .
-'
+"
 )
         
+try
+:
+            
 self
 .
 subprocess
@@ -949,6 +1139,14 @@ timeout
 =
 timeout
 )
+        
+except
+pexpect
+.
+EOF
+:
+            
+pass
     
 def
 send
@@ -991,7 +1189,7 @@ blocking
 raise
 RuntimeError
 (
-'
+"
 send
 can
 only
@@ -1003,7 +1201,7 @@ non
 blocking
 commands
 .
-'
+"
 )
         
 if
@@ -1078,11 +1276,31 @@ self
 )
 :
         
+if
+self
+.
+_uses_pexpect
+:
+            
 self
 .
 subprocess
 .
 kill
+(
+signal
+.
+SIGINT
+)
+        
+else
+:
+            
+self
+.
+subprocess
+.
+send_signal
 (
 signal
 .
@@ -1115,9 +1333,15 @@ self
 _uses_subprocess
 :
             
-try
+if
+self
+.
+blocking
 :
                 
+try
+:
+                    
 stdout
 stderr
 =
@@ -1128,24 +1352,61 @@ subprocess
 communicate
 (
 )
-                
+                    
 self
 .
 __out
 =
 stdout
-                
+                    
 self
 .
 __err
 =
 stderr
-            
+                
 except
 ValueError
 :
-                
+                    
 pass
+            
+else
+:
+                
+self
+.
+subprocess
+.
+stdin
+.
+close
+(
+)
+                
+self
+.
+std_out
+.
+close
+(
+)
+                
+self
+.
+std_err
+.
+close
+(
+)
+                
+self
+.
+subprocess
+.
+wait
+(
+)
         
 else
 :
@@ -1154,7 +1415,43 @@ self
 .
 subprocess
 .
+sendeof
+(
+)
+            
+try
+:
+                
+self
+.
+subprocess
+.
 wait
+(
+)
+            
+finally
+:
+                
+if
+self
+.
+subprocess
+.
+proc
+.
+stdout
+:
+                    
+self
+.
+subprocess
+.
+proc
+.
+stdout
+.
+close
 (
 )
     
@@ -1275,14 +1572,6 @@ send
 (
 data
 )
-            
-c
-.
-subprocess
-.
-sendeof
-(
-)
         
 c
 .
@@ -1347,11 +1636,11 @@ command
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
         
@@ -1389,11 +1678,11 @@ command
 .
 encode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
 )
         
@@ -1401,9 +1690,9 @@ splitter
 .
 whitespace
 =
-'
+"
 |
-'
+"
         
 splitter
 .

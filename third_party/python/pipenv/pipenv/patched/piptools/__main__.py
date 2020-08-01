@@ -26,9 +26,9 @@ add_command
 compile
 .
 cli
-'
+"
 compile
-'
+"
 )
 cli
 .
@@ -37,17 +37,17 @@ add_command
 sync
 .
 cli
-'
+"
 sync
-'
+"
 )
 if
 __name__
 =
 =
-'
+"
 __main__
-'
+"
 :
     
 cli

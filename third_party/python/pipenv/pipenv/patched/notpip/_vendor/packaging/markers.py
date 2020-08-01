@@ -13,21 +13,26 @@ platform
 import
 sys
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
 pyparsing
 import
-(
-    
 ParseException
 ParseResults
 stringStart
 stringEnd
-)
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -38,7 +43,11 @@ Group
 Forward
 QuotedString
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -54,10 +63,40 @@ import
 string_types
 from
 .
+_typing
+import
+MYPY_CHECK_RUNNING
+from
+.
 specifiers
 import
 Specifier
 InvalidSpecifier
+if
+MYPY_CHECK_RUNNING
+:
+    
+from
+typing
+import
+Any
+Callable
+Dict
+List
+Optional
+Tuple
+Union
+    
+Operator
+=
+Callable
+[
+[
+str
+str
+]
+bool
+]
 __all__
 =
 [
@@ -65,9 +104,11 @@ __all__
 "
 InvalidMarker
 "
+    
 "
 UndefinedComparison
 "
+    
 "
 UndefinedEnvironmentName
 "
@@ -75,6 +116,7 @@ UndefinedEnvironmentName
 "
 Marker
 "
+    
 "
 default_environment
 "
@@ -324,88 +366,88 @@ L
 implementation_version
 "
 )
-|
     
+|
 L
 (
 "
 platform_python_implementation
 "
 )
-|
     
+|
 L
 (
 "
 implementation_name
 "
 )
-|
     
+|
 L
 (
 "
 python_full_version
 "
 )
-|
     
+|
 L
 (
 "
 platform_release
 "
 )
-|
     
+|
 L
 (
 "
 platform_version
 "
 )
-|
     
+|
 L
 (
 "
 platform_machine
 "
 )
-|
     
+|
 L
 (
 "
 platform_system
 "
 )
-|
     
+|
 L
 (
 "
 python_version
 "
 )
-|
     
+|
 L
 (
 "
 sys_platform
 "
 )
-|
     
+|
 L
 (
 "
 os_name
 "
 )
-|
     
+|
 L
 (
 "
@@ -414,8 +456,8 @@ os
 name
 "
 )
-|
     
+|
 L
 (
 "
@@ -424,8 +466,8 @@ sys
 platform
 "
 )
-|
     
+|
 L
 (
 "
@@ -434,8 +476,8 @@ platform
 version
 "
 )
-|
     
+|
 L
 (
 "
@@ -444,8 +486,8 @@ platform
 machine
 "
 )
-|
     
+|
 L
 (
 "
@@ -454,16 +496,16 @@ platform
 python_implementation
 "
 )
-|
     
+|
 L
 (
 "
 python_implementation
 "
 )
-|
     
+|
 L
 (
 "
@@ -475,63 +517,63 @@ ALIASES
 =
 {
     
-'
+"
 os
 .
 name
-'
+"
 :
-'
+"
 os_name
-'
+"
     
-'
+"
 sys
 .
 platform
-'
+"
 :
-'
+"
 sys_platform
-'
+"
     
-'
+"
 platform
 .
 version
-'
+"
 :
-'
+"
 platform_version
-'
+"
     
-'
+"
 platform
 .
 machine
-'
+"
 :
-'
+"
 platform_machine
-'
+"
     
-'
+"
 platform
 .
 python_implementation
-'
+"
 :
-'
+"
 platform_python_implementation
-'
+"
     
-'
+"
 python_implementation
-'
+"
 :
-'
+"
 platform_python_implementation
-'
+"
 }
 VARIABLE
 .
@@ -572,7 +614,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -581,7 +622,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -590,7 +630,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -599,7 +638,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -608,7 +646,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -617,7 +654,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -625,7 +661,6 @@ L
 "
 )
 |
-    
 L
 (
 "
@@ -861,11 +896,13 @@ string_types
     
 if
 (
+        
 isinstance
 (
 marker
 list
 )
+        
 and
 len
 (
@@ -874,8 +911,8 @@ marker
 =
 =
 1
+        
 and
-            
 isinstance
 (
 marker
@@ -887,6 +924,7 @@ list
 tuple
 )
 )
+    
 )
 :
         
@@ -1179,9 +1217,17 @@ oper
 lhs
 rhs
 )
+class
+Undefined
+(
+object
+)
+:
+    
+pass
 _undefined
 =
-object
+Undefined
 (
 )
 def
@@ -1203,9 +1249,11 @@ _undefined
 )
     
 if
+isinstance
+(
 value
-is
-_undefined
+Undefined
+)
 :
         
 raise
@@ -1417,7 +1465,7 @@ info
     
 version
 =
-'
+"
 {
 0
 .
@@ -1435,7 +1483,7 @@ minor
 .
 micro
 }
-'
+"
 .
 format
 (
@@ -1452,9 +1500,9 @@ if
 kind
 !
 =
-'
+"
 final
-'
+"
 :
         
 version
@@ -1484,9 +1532,9 @@ if
 hasattr
 (
 sys
-'
+"
 implementation
-'
+"
 )
 :
         
@@ -1514,14 +1562,14 @@ else
         
 iver
 =
-'
+"
 0
-'
+"
         
 implementation_name
 =
-'
-'
+"
+"
     
 return
 {
@@ -1610,15 +1658,22 @@ python_implementation
 python_version
 "
 :
+"
+.
+"
+.
+join
+(
 platform
 .
-python_version
+python_version_tuple
 (
 )
 [
 :
-3
+2
 ]
+)
         
 "
 sys_platform
@@ -1704,6 +1759,7 @@ loc
 +
 8
 ]
+            
 )
             
 raise

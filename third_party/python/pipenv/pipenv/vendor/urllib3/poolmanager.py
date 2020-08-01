@@ -8,6 +8,8 @@ import
 functools
 import
 logging
+import
+warnings
 from
 .
 _collections
@@ -28,9 +30,21 @@ from
 .
 exceptions
 import
+(
+    
 LocationValueError
+    
 MaxRetryError
+    
 ProxySchemeUnknown
+    
+InvalidProxyConfigurationWarning
+)
+from
+.
+packages
+import
+six
 from
 .
 packages
@@ -66,15 +80,15 @@ Retry
 __all__
 =
 [
-'
+"
 PoolManager
-'
-'
+"
+"
 ProxyManager
-'
-'
+"
+"
 proxy_from_url
-'
+"
 ]
 log
 =
@@ -87,124 +101,142 @@ __name__
 SSL_KEYWORDS
 =
 (
-'
+    
+"
 key_file
-'
-'
+"
+    
+"
 cert_file
-'
-'
+"
+    
+"
 cert_reqs
-'
-'
+"
+    
+"
 ca_certs
-'
-                
-'
+"
+    
+"
 ssl_version
-'
-'
+"
+    
+"
 ca_cert_dir
-'
-'
+"
+    
+"
 ssl_context
-'
+"
+    
+"
+key_password
+"
 )
 _key_fields
 =
 (
     
-'
+"
 key_scheme
-'
+"
     
-'
+"
 key_host
-'
+"
     
-'
+"
 key_port
-'
+"
     
-'
+"
 key_timeout
-'
+"
     
-'
+"
 key_retries
-'
+"
     
-'
+"
 key_strict
-'
+"
     
-'
+"
 key_block
-'
+"
     
-'
+"
 key_source_address
-'
+"
     
-'
+"
 key_key_file
-'
+"
     
-'
+"
+key_key_password
+"
+    
+"
 key_cert_file
-'
+"
     
-'
+"
 key_cert_reqs
-'
+"
     
-'
+"
 key_ca_certs
-'
+"
     
-'
+"
 key_ssl_version
-'
+"
     
-'
+"
 key_ca_cert_dir
-'
+"
     
-'
+"
 key_ssl_context
-'
+"
     
-'
+"
 key_maxsize
-'
+"
     
-'
+"
 key_headers
-'
+"
     
-'
+"
 key__proxy
-'
+"
     
-'
+"
 key__proxy_headers
-'
+"
     
-'
+"
 key_socket_options
-'
+"
     
-'
+"
 key__socks_options
-'
+"
     
-'
+"
 key_assert_hostname
-'
+"
     
-'
+"
 key_assert_fingerprint
-'
+"
+    
+"
+key_server_hostname
+"
 )
 PoolKey
 =
@@ -212,9 +244,9 @@ collections
 .
 namedtuple
 (
-'
+"
 PoolKey
-'
+"
 _key_fields
 )
 def
@@ -384,16 +416,16 @@ copy
     
 context
 [
-'
+"
 scheme
-'
+"
 ]
 =
 context
 [
-'
+"
 scheme
-'
+"
 ]
 .
 lower
@@ -402,16 +434,16 @@ lower
     
 context
 [
-'
+"
 host
-'
+"
 ]
 =
 context
 [
-'
+"
 host
-'
+"
 ]
 .
 lower
@@ -422,15 +454,15 @@ for
 key
 in
 (
-'
+"
 headers
-'
-'
+"
+"
 _proxy_headers
-'
-'
+"
+"
 _socks_options
-'
+"
 )
 :
         
@@ -471,9 +503,9 @@ context
 .
 get
 (
-'
+"
 socket_options
-'
+"
 )
     
 if
@@ -485,9 +517,9 @@ None
         
 context
 [
-'
+"
 socket_options
-'
+"
 ]
 =
 tuple
@@ -510,9 +542,9 @@ keys
         
 context
 [
-'
+"
 key_
-'
+"
 +
 key
 ]
@@ -557,9 +589,9 @@ key_fn_by_scheme
 =
 {
     
-'
+"
 http
-'
+"
 :
 functools
 .
@@ -569,9 +601,9 @@ _default_key_normalizer
 PoolKey
 )
     
-'
+"
 https
-'
+"
 :
 functools
 .
@@ -584,16 +616,14 @@ PoolKey
 pool_classes_by_scheme
 =
 {
-    
-'
+"
 http
-'
+"
 :
 HTTPConnectionPool
-    
-'
+"
 https
-'
+"
 :
 HTTPSConnectionPool
 }
@@ -840,7 +870,6 @@ pools
 RecentlyUsedContainer
 (
 num_pools
-                                           
 dispose_func
 =
 lambda
@@ -1019,15 +1048,15 @@ for
 key
 in
 (
-'
+"
 scheme
-'
-'
+"
+"
 host
-'
-'
+"
+"
 port
-'
+"
 )
 :
             
@@ -1043,9 +1072,9 @@ if
 scheme
 =
 =
-'
+"
 http
-'
+"
 :
             
 for
@@ -1139,9 +1168,9 @@ port
 None
 scheme
 =
-'
+"
 http
-'
+"
 pool_kwargs
 =
 None
@@ -1250,16 +1279,16 @@ pool_kwargs
         
 request_context
 [
-'
+"
 scheme
-'
+"
 ]
 =
 scheme
 or
-'
+"
 http
-'
+"
         
 if
 not
@@ -1274,9 +1303,9 @@ get
 (
 request_context
 [
-'
+"
 scheme
-'
+"
 ]
 .
 lower
@@ -1287,18 +1316,18 @@ lower
         
 request_context
 [
-'
+"
 port
-'
+"
 ]
 =
 port
         
 request_context
 [
-'
+"
 host
-'
+"
 ]
 =
 host
@@ -1366,9 +1395,9 @@ scheme
 =
 request_context
 [
-'
+"
 scheme
-'
+"
 ]
 .
 lower
@@ -1492,27 +1521,27 @@ scheme
 =
 request_context
 [
-'
+"
 scheme
-'
+"
 ]
             
 host
 =
 request_context
 [
-'
+"
 host
-'
+"
 ]
             
 port
 =
 request_context
 [
-'
+"
 port
-'
+"
 ]
             
 pool
@@ -1651,6 +1680,7 @@ self
 .
 connection_from_host
 (
+            
 u
 .
 host
@@ -1664,10 +1694,10 @@ scheme
 u
 .
 scheme
-                                         
 pool_kwargs
 =
 pool_kwargs
+        
 )
     
 def
@@ -1905,26 +1935,26 @@ scheme
         
 kw
 [
-'
+"
 assert_same_host
-'
+"
 ]
 =
 False
         
 kw
 [
-'
+"
 redirect
-'
+"
 ]
 =
 False
         
 if
-'
+"
 headers
-'
+"
 not
 in
 kw
@@ -1932,14 +1962,18 @@ kw
             
 kw
 [
-'
+"
 headers
-'
+"
 ]
 =
 self
 .
 headers
+.
+copy
+(
+)
         
 if
 self
@@ -2027,9 +2061,9 @@ status
             
 method
 =
-'
+"
 GET
-'
+"
         
 retries
 =
@@ -2037,9 +2071,9 @@ kw
 .
 get
 (
-'
+"
 retries
-'
+"
 )
         
 if
@@ -2061,6 +2095,70 @@ retries
 redirect
 =
 redirect
+)
+        
+if
+retries
+.
+remove_headers_on_redirect
+and
+not
+conn
+.
+is_same_host
+(
+            
+redirect_location
+        
+)
+:
+            
+headers
+=
+list
+(
+six
+.
+iterkeys
+(
+kw
+[
+"
+headers
+"
+]
+)
+)
+            
+for
+header
+in
+headers
+:
+                
+if
+header
+.
+lower
+(
+)
+in
+retries
+.
+remove_headers_on_redirect
+:
+                    
+kw
+[
+"
+headers
+"
+]
+.
+pop
+(
+header
+None
 )
         
 try
@@ -2092,6 +2190,12 @@ retries
 raise_on_redirect
 :
                 
+response
+.
+drain_conn
+(
+)
+                
 raise
             
 return
@@ -2099,18 +2203,18 @@ response
         
 kw
 [
-'
+"
 retries
-'
+"
 ]
 =
 retries
         
 kw
 [
-'
+"
 redirect
-'
+"
 ]
 =
 redirect
@@ -2130,6 +2234,12 @@ s
 "
 url
 redirect_location
+)
+        
+response
+.
+drain_conn
+(
 )
         
 return
@@ -2201,7 +2311,7 @@ proxy_headers
         
 A
 dictionary
-contaning
+containing
 headers
 that
 will
@@ -2397,21 +2507,27 @@ pools
 def
 __init__
 (
+        
 self
+        
 proxy_url
+        
 num_pools
 =
 10
+        
 headers
 =
 None
-                 
+        
 proxy_headers
 =
 None
+        
 *
 *
 connection_pool_kw
+    
 )
 :
         
@@ -2425,7 +2541,7 @@ HTTPConnectionPool
             
 proxy_url
 =
-'
+"
 %
 s
 :
@@ -2436,19 +2552,22 @@ s
 :
 %
 i
-'
+"
 %
 (
+                
 proxy_url
 .
 scheme
+                
 proxy_url
 .
 host
-                                        
+                
 proxy_url
 .
 port
+            
 )
         
 proxy
@@ -2529,9 +2648,9 @@ or
         
 connection_pool_kw
 [
-'
+"
 _proxy
-'
+"
 ]
 =
 self
@@ -2540,9 +2659,9 @@ proxy
         
 connection_pool_kw
 [
-'
+"
 _proxy_headers
-'
+"
 ]
 =
 self
@@ -2557,7 +2676,6 @@ self
 .
 __init__
 (
-            
 num_pools
 headers
 *
@@ -2575,9 +2693,9 @@ port
 None
 scheme
 =
-'
+"
 http
-'
+"
 pool_kwargs
 =
 None
@@ -2609,6 +2727,7 @@ scheme
 pool_kwargs
 =
 pool_kwargs
+            
 )
         
 return
@@ -2639,6 +2758,7 @@ scheme
 pool_kwargs
 =
 pool_kwargs
+        
 )
     
 def
@@ -2687,15 +2807,15 @@ user
 headers_
 =
 {
-'
+"
 Accept
-'
+"
 :
-'
+"
 *
 /
 *
-'
+"
 }
         
 netloc
@@ -2713,9 +2833,9 @@ netloc
             
 headers_
 [
-'
+"
 Host
-'
+"
 ]
 =
 netloc
@@ -2733,6 +2853,118 @@ headers
         
 return
 headers_
+    
+def
+_validate_proxy_scheme_url_selection
+(
+self
+url_scheme
+)
+:
+        
+if
+url_scheme
+=
+=
+"
+https
+"
+and
+self
+.
+proxy
+.
+scheme
+=
+=
+"
+https
+"
+:
+            
+warnings
+.
+warn
+(
+                
+"
+Your
+proxy
+configuration
+specified
+an
+HTTPS
+scheme
+for
+the
+proxy
+.
+"
+                
+"
+Are
+you
+sure
+you
+want
+to
+use
+HTTPS
+to
+contact
+the
+proxy
+?
+"
+                
+"
+This
+most
+likely
+indicates
+an
+error
+in
+your
+configuration
+.
+"
+                
+"
+Read
+this
+issue
+for
+more
+info
+:
+"
+                
+"
+https
+:
+/
+/
+github
+.
+com
+/
+urllib3
+/
+urllib3
+/
+issues
+/
+1850
+"
+                
+InvalidProxyConfigurationWarning
+                
+stacklevel
+=
+3
+            
+)
     
 def
 urlopen
@@ -2773,6 +3005,15 @@ parse_url
 url
 )
         
+self
+.
+_validate_proxy_scheme_url_selection
+(
+u
+.
+scheme
+)
+        
 if
 u
 .
@@ -2790,9 +3031,9 @@ kw
 .
 get
 (
-'
+"
 headers
-'
+"
 self
 .
 headers
@@ -2800,9 +3041,9 @@ headers
             
 kw
 [
-'
+"
 headers
-'
+"
 ]
 =
 self

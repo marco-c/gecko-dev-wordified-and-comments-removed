@@ -130,9 +130,9 @@ self
 .
 __getattribute__
 (
-'
+"
 _CallbackFileWrapper__fp
-'
+"
 )
         
 return
@@ -294,12 +294,12 @@ data
 =
 =
 b
-'
+"
 \
 r
 \
 n
-'
+"
 :
             
 return

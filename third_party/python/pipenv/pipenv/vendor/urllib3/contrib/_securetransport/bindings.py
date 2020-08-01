@@ -332,12 +332,19 @@ import
 (
     
 c_void_p
+    
 c_int32
+    
 c_char_p
+    
 c_size_t
+    
 c_byte
+    
 c_uint32
+    
 c_ulong
+    
 c_long
     
 c_bool
@@ -352,9 +359,9 @@ security_path
 =
 find_library
 (
-'
+"
 Security
-'
+"
 )
 if
 not
@@ -364,7 +371,7 @@ security_path
 raise
 ImportError
 (
-'
+"
 The
 library
 Security
@@ -372,15 +379,15 @@ could
 not
 be
 found
-'
+"
 )
 core_foundation_path
 =
 find_library
 (
-'
+"
 CoreFoundation
-'
+"
 )
 if
 not
@@ -390,7 +397,7 @@ core_foundation_path
 raise
 ImportError
 (
-'
+"
 The
 library
 CoreFoundation
@@ -398,7 +405,7 @@ could
 not
 be
 found
-'
+"
 )
 version
 =
@@ -421,9 +428,9 @@ version
 .
 split
 (
-'
+"
 .
-'
+"
 )
 )
 )
@@ -440,7 +447,7 @@ raise
 OSError
 (
         
-'
+"
 Only
 OS
 X
@@ -457,10 +464,10 @@ s
 .
 %
 s
-'
+"
+        
 %
 (
-            
 version_info
 [
 0
@@ -469,7 +476,6 @@ version_info
 [
 1
 ]
-        
 )
     
 )
@@ -748,11 +754,8 @@ SecCertificateCreateWithData
 argtypes
 =
 [
-        
 CFAllocatorRef
-        
 CFDataRef
-    
 ]
     
 Security
@@ -770,9 +773,7 @@ SecCertificateCopyData
 argtypes
 =
 [
-        
 SecCertificateRef
-    
 ]
     
 Security
@@ -790,11 +791,8 @@ SecCopyErrorMessageString
 argtypes
 =
 [
-        
 OSStatus
-        
 c_void_p
-    
 ]
     
 Security
@@ -872,9 +870,7 @@ SecKeychainDelete
 argtypes
 =
 [
-        
 SecKeychainRef
-    
 ]
     
 Security
@@ -929,6 +925,7 @@ SSLWriteFunc
 =
 CFUNCTYPE
 (
+        
 OSStatus
 SSLConnectionRef
 POINTER
@@ -939,6 +936,7 @@ POINTER
 (
 c_size_t
 )
+    
 )
     
 Security
@@ -948,13 +946,9 @@ SSLSetIOFuncs
 argtypes
 =
 [
-        
 SSLContextRef
-        
 SSLReadFunc
-        
 SSLWriteFunc
-    
 ]
     
 Security
@@ -972,13 +966,9 @@ SSLSetPeerID
 argtypes
 =
 [
-        
 SSLContextRef
-        
 c_char_p
-        
 c_size_t
-    
 ]
     
 Security
@@ -996,11 +986,8 @@ SSLSetCertificate
 argtypes
 =
 [
-        
 SSLContextRef
-        
 CFArrayRef
-    
 ]
     
 Security
@@ -1018,13 +1005,9 @@ SSLSetCertificateAuthorities
 argtypes
 =
 [
-        
 SSLContextRef
-        
 CFTypeRef
-        
 Boolean
-    
 ]
     
 Security
@@ -1042,11 +1025,8 @@ SSLSetConnection
 argtypes
 =
 [
-        
 SSLContextRef
-        
 SSLConnectionRef
-    
 ]
     
 Security
@@ -1064,13 +1044,9 @@ SSLSetPeerDomainName
 argtypes
 =
 [
-        
 SSLContextRef
-        
 c_char_p
-        
 c_size_t
-    
 ]
     
 Security
@@ -1088,9 +1064,7 @@ SSLHandshake
 argtypes
 =
 [
-        
 SSLContextRef
-    
 ]
     
 Security
@@ -1108,18 +1082,13 @@ SSLRead
 argtypes
 =
 [
-        
 SSLContextRef
-        
 c_char_p
-        
 c_size_t
-        
 POINTER
 (
 c_size_t
 )
-    
 ]
     
 Security
@@ -1137,18 +1106,13 @@ SSLWrite
 argtypes
 =
 [
-        
 SSLContextRef
-        
 c_char_p
-        
 c_size_t
-        
 POINTER
 (
 c_size_t
 )
-    
 ]
     
 Security
@@ -1166,9 +1130,7 @@ SSLClose
 argtypes
 =
 [
-        
 SSLContextRef
-    
 ]
     
 Security
@@ -1186,14 +1148,11 @@ SSLGetNumberSupportedCiphers
 argtypes
 =
 [
-        
 SSLContextRef
-        
 POINTER
 (
 c_size_t
 )
-    
 ]
     
 Security
@@ -1268,14 +1227,11 @@ SSLGetNumberEnabledCiphers
 argtype
 =
 [
-        
 SSLContextRef
-        
 POINTER
 (
 c_size_t
 )
-    
 ]
     
 Security
@@ -1323,14 +1279,11 @@ SSLGetNegotiatedCipher
 argtypes
 =
 [
-        
 SSLContextRef
-        
 POINTER
 (
 SSLCipherSuite
 )
-    
 ]
     
 Security
@@ -1373,14 +1326,11 @@ SSLCopyPeerTrust
 argtypes
 =
 [
-        
 SSLContextRef
-        
 POINTER
 (
 SecTrustRef
 )
-    
 ]
     
 Security
@@ -1398,11 +1348,8 @@ SecTrustSetAnchorCertificates
 argtypes
 =
 [
-        
 SecTrustRef
-        
 CFArrayRef
-    
 ]
     
 Security
@@ -1420,11 +1367,8 @@ SecTrustSetAnchorCertificatesOnly
 argstypes
 =
 [
-        
 SecTrustRef
-        
 Boolean
-    
 ]
     
 Security
@@ -1442,14 +1386,11 @@ SecTrustEvaluate
 argtypes
 =
 [
-        
 SecTrustRef
-        
 POINTER
 (
 SecTrustResultType
 )
-    
 ]
     
 Security
@@ -1467,9 +1408,7 @@ SecTrustGetCertificateCount
 argtypes
 =
 [
-        
 SecTrustRef
-    
 ]
     
 Security
@@ -1487,11 +1426,8 @@ SecTrustGetCertificateAtIndex
 argtypes
 =
 [
-        
 SecTrustRef
-        
 CFIndex
-    
 ]
     
 Security
@@ -1533,13 +1469,9 @@ SSLSetSessionOption
 argtypes
 =
 [
-        
 SSLContextRef
-        
 SSLSessionOption
-        
 Boolean
-    
 ]
     
 Security
@@ -1557,11 +1489,8 @@ SSLSetProtocolVersionMin
 argtypes
 =
 [
-        
 SSLContextRef
-        
 SSLProtocol
-    
 ]
     
 Security
@@ -1579,11 +1508,8 @@ SSLSetProtocolVersionMax
 argtypes
 =
 [
-        
 SSLContextRef
-        
 SSLProtocol
-    
 ]
     
 Security
@@ -1601,11 +1527,8 @@ SecCopyErrorMessageString
 argtypes
 =
 [
-        
 OSStatus
-        
 c_void_p
-    
 ]
     
 Security
@@ -1692,9 +1615,9 @@ in_dll
 (
         
 Security
-'
+"
 kSecImportExportPassphrase
-'
+"
     
 )
     
@@ -1708,9 +1631,9 @@ in_dll
 (
         
 Security
-'
+"
 kSecImportItemIdentity
-'
+"
     
 )
     
@@ -1721,9 +1644,7 @@ CFRetain
 argtypes
 =
 [
-        
 CFTypeRef
-    
 ]
     
 CoreFoundation
@@ -1741,9 +1662,7 @@ CFRelease
 argtypes
 =
 [
-        
 CFTypeRef
-    
 ]
     
 CoreFoundation
@@ -1761,9 +1680,7 @@ CFGetTypeID
 argtypes
 =
 [
-        
 CFTypeRef
-    
 ]
     
 CoreFoundation
@@ -1805,11 +1722,8 @@ CFStringGetCStringPtr
 argtypes
 =
 [
-        
 CFStringRef
-        
 CFStringEncoding
-    
 ]
     
 CoreFoundation
@@ -1853,13 +1767,9 @@ CFDataCreate
 argtypes
 =
 [
-        
 CFAllocatorRef
-        
 c_char_p
-        
 CFIndex
-    
 ]
     
 CoreFoundation
@@ -1877,9 +1787,7 @@ CFDataGetLength
 argtypes
 =
 [
-        
 CFDataRef
-    
 ]
     
 CoreFoundation
@@ -1897,9 +1805,7 @@ CFDataGetBytePtr
 argtypes
 =
 [
-        
 CFDataRef
-    
 ]
     
 CoreFoundation
@@ -1953,11 +1859,8 @@ CFDictionaryGetValue
 argtypes
 =
 [
-        
 CFDictionaryRef
-        
 CFTypeRef
-    
 ]
     
 CoreFoundation
@@ -2028,11 +1931,8 @@ CFArrayAppendValue
 argtypes
 =
 [
-        
 CFMutableArrayRef
-        
 c_void_p
-    
 ]
     
 CoreFoundation
@@ -2050,9 +1950,7 @@ CFArrayGetCount
 argtypes
 =
 [
-        
 CFArrayRef
-    
 ]
     
 CoreFoundation
@@ -2070,11 +1968,8 @@ CFArrayGetValueAtIndex
 argtypes
 =
 [
-        
 CFArrayRef
-        
 CFIndex
-    
 ]
     
 CoreFoundation
@@ -2095,9 +1990,9 @@ in_dll
 (
         
 CoreFoundation
-'
+"
 kCFAllocatorDefault
-'
+"
     
 )
     
@@ -2109,10 +2004,12 @@ c_void_p
 .
 in_dll
 (
+        
 CoreFoundation
-'
+"
 kCFTypeArrayCallBacks
-'
+"
+    
 )
     
 CoreFoundation
@@ -2125,9 +2022,9 @@ in_dll
 (
         
 CoreFoundation
-'
+"
 kCFTypeDictionaryKeyCallBacks
-'
+"
     
 )
     
@@ -2141,9 +2038,9 @@ in_dll
 (
         
 CoreFoundation
-'
+"
 kCFTypeDictionaryValueCallBacks
-'
+"
     
 )
     
@@ -2179,11 +2076,11 @@ AttributeError
 raise
 ImportError
 (
-'
+"
 Error
 initializing
 ctypes
-'
+"
 )
 class
 CFConst
@@ -2273,6 +2170,14 @@ kTLSProtocol11
 kTLSProtocol12
 =
 8
+    
+kTLSProtocol13
+=
+10
+    
+kTLSProtocolMaxSupported
+=
+999
     
 kSSLClientSide
 =
@@ -2440,17 +2345,17 @@ TLS_ECDHE_RSA_WITH_AES_128_GCM_SHA256
 =
 0xC02F
     
-TLS_DHE_DSS_WITH_AES_256_GCM_SHA384
+TLS_ECDHE_ECDSA_WITH_CHACHA20_POLY1305_SHA256
 =
-0x00A3
+0xCCA9
+    
+TLS_ECDHE_RSA_WITH_CHACHA20_POLY1305_SHA256
+=
+0xCCA8
     
 TLS_DHE_RSA_WITH_AES_256_GCM_SHA384
 =
 0x009F
-    
-TLS_DHE_DSS_WITH_AES_128_GCM_SHA256
-=
-0x00A2
     
 TLS_DHE_RSA_WITH_AES_128_GCM_SHA256
 =
@@ -2476,17 +2381,9 @@ TLS_DHE_RSA_WITH_AES_256_CBC_SHA256
 =
 0x006B
     
-TLS_DHE_DSS_WITH_AES_256_CBC_SHA256
-=
-0x006A
-    
 TLS_DHE_RSA_WITH_AES_256_CBC_SHA
 =
 0x0039
-    
-TLS_DHE_DSS_WITH_AES_256_CBC_SHA
-=
-0x0038
     
 TLS_ECDHE_ECDSA_WITH_AES_128_CBC_SHA256
 =
@@ -2508,17 +2405,9 @@ TLS_DHE_RSA_WITH_AES_128_CBC_SHA256
 =
 0x0067
     
-TLS_DHE_DSS_WITH_AES_128_CBC_SHA256
-=
-0x0040
-    
 TLS_DHE_RSA_WITH_AES_128_CBC_SHA
 =
 0x0033
-    
-TLS_DHE_DSS_WITH_AES_128_CBC_SHA
-=
-0x0032
     
 TLS_RSA_WITH_AES_256_GCM_SHA384
 =
@@ -2552,6 +2441,10 @@ TLS_AES_256_GCM_SHA384
 =
 0x1302
     
-TLS_CHACHA20_POLY1305_SHA256
+TLS_AES_128_CCM_8_SHA256
 =
-0x1303
+0x1305
+    
+TLS_AES_128_CCM_SHA256
+=
+0x1304

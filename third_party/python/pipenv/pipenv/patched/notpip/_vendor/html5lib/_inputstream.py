@@ -5,7 +5,11 @@ absolute_import
 division
 unicode_literals
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -14,7 +18,11 @@ import
 text_type
 binary_type
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .
@@ -29,7 +37,11 @@ codecs
 import
 re
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
@@ -46,7 +58,7 @@ from
 .
 constants
 import
-ReparseException
+_ReparseException
 from
 .
 import
@@ -382,6 +394,8 @@ u003A
 -
 \
 u0040
+\
+u005C
 \
 u005B
 -
@@ -2984,6 +2998,14 @@ try
 :
                 
 from
+pipenv
+.
+patched
+.
+notpip
+.
+_vendor
+.
 chardet
 .
 universaldetector
@@ -3268,7 +3290,7 @@ reset
 )
             
 raise
-ReparseException
+_ReparseException
 (
 "
 Encoding

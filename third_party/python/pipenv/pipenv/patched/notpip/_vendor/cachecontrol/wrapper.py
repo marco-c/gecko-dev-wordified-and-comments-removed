@@ -11,21 +11,34 @@ DictCache
 def
 CacheControl
 (
+    
 sess
-                 
+    
 cache
 =
 None
-                 
+    
 cache_etags
 =
 True
-                 
+    
 serializer
 =
 None
-                 
+    
 heuristic
+=
+None
+    
+controller_class
+=
+None
+    
+adapter_class
+=
+None
+    
+cacheable_methods
 =
 None
 )
@@ -33,15 +46,25 @@ None
     
 cache
 =
-cache
-or
 DictCache
 (
 )
+if
+cache
+is
+None
+else
+cache
+    
+adapter_class
+=
+adapter_class
+or
+CacheControlAdapter
     
 adapter
 =
-CacheControlAdapter
+adapter_class
 (
         
 cache
@@ -57,6 +80,14 @@ serializer
 heuristic
 =
 heuristic
+        
+controller_class
+=
+controller_class
+        
+cacheable_methods
+=
+cacheable_methods
     
 )
     
@@ -64,12 +95,12 @@ sess
 .
 mount
 (
-'
+"
 http
 :
 /
 /
-'
+"
 adapter
 )
     
@@ -77,12 +108,12 @@ sess
 .
 mount
 (
-'
+"
 https
 :
 /
 /
-'
+"
 adapter
 )
     

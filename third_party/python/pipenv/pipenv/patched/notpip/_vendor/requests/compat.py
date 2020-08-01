@@ -48,7 +48,11 @@ Python
 "
 "
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
@@ -133,16 +137,11 @@ import
 StringIO
     
 from
-pip9
-.
-_vendor
-.
-urllib3
-.
-packages
-.
-ordered_dict
+collections
 import
+Callable
+Mapping
+MutableMapping
 OrderedDict
     
 builtin_str
@@ -229,6 +228,15 @@ from
 collections
 import
 OrderedDict
+    
+from
+collections
+.
+abc
+import
+Callable
+Mapping
+MutableMapping
     
 builtin_str
 =

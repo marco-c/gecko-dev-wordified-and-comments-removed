@@ -52,7 +52,7 @@ date
 or
 datetime
 .
-now
+utcnow
 (
 )
     
@@ -287,9 +287,9 @@ headers
 update
 (
 {
-'
+"
 Warning
-'
+"
 :
 warning_header_value
 }
@@ -341,9 +341,9 @@ headers
 }
         
 if
-'
+"
 expires
-'
+"
 not
 in
 response
@@ -359,9 +359,9 @@ response
 .
 headers
 [
-'
+"
 date
-'
+"
 ]
 )
             
@@ -375,7 +375,6 @@ days
 =
 1
 )
-                                   
 date
 =
 datetime
@@ -391,9 +390,9 @@ date
             
 headers
 [
-'
+"
 expires
-'
+"
 ]
 =
 datetime_to_header
@@ -403,16 +402,16 @@ expires
             
 headers
 [
-'
+"
 cache
 -
 control
-'
+"
 ]
 =
-'
+"
 public
-'
+"
         
 return
 headers
@@ -485,26 +484,23 @@ delta
         
 return
 {
-            
-'
+"
 expires
-'
+"
 :
 datetime_to_header
 (
 expires
 )
-            
-'
+"
 cache
 -
 control
-'
+"
 :
-'
+"
 public
-'
-        
+"
 }
     
 def
@@ -517,7 +513,7 @@ response
         
 tmpl
 =
-'
+"
 110
 -
 Automatically
@@ -530,7 +526,7 @@ Response
 might
 be
 stale
-'
+"
         
 return
 tmpl
@@ -672,9 +668,7 @@ hr
     
 cacheable_by_default_statuses
 =
-set
-(
-[
+{
         
 200
 203
@@ -688,8 +682,7 @@ set
 414
 501
     
-]
-)
+}
     
 def
 update_headers
@@ -706,9 +699,9 @@ resp
 headers
         
 if
-'
+"
 expires
-'
+"
 in
 headers
 :
@@ -718,27 +711,27 @@ return
 }
         
 if
-'
+"
 cache
 -
 control
-'
+"
 in
 headers
 and
 headers
 [
-'
+"
 cache
 -
 control
-'
+"
 ]
 !
 =
-'
+"
 public
-'
+"
 :
             
 return
@@ -761,18 +754,18 @@ return
 }
         
 if
-'
+"
 date
-'
+"
 not
 in
 headers
 or
-'
+"
 last
 -
 modified
-'
+"
 not
 in
 headers
@@ -792,9 +785,9 @@ parsedate_tz
 (
 headers
 [
-'
+"
 date
-'
+"
 ]
 )
 )
@@ -805,11 +798,11 @@ parsedate
 (
 headers
 [
-'
+"
 last
 -
 modified
-'
+"
 ]
 )
         
@@ -891,9 +884,9 @@ freshness_lifetime
         
 return
 {
-'
+"
 expires
-'
+"
 :
 time
 .

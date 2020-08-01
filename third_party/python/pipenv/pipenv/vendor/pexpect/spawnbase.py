@@ -664,6 +664,16 @@ self
 buffer_type
 (
 )
+        
+self
+.
+_before
+=
+self
+.
+buffer_type
+(
+)
     
 def
 _log

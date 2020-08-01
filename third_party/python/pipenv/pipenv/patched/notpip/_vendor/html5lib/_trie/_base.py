@@ -4,6 +4,19 @@ import
 absolute_import
 division
 unicode_literals
+try
+:
+    
+from
+collections
+.
+abc
+import
+Mapping
+except
+ImportError
+:
+    
 from
 collections
 import
@@ -62,9 +75,7 @@ keys
 )
         
 return
-set
-(
-[
+{
 x
 for
 x
@@ -77,8 +88,7 @@ startswith
 (
 prefix
 )
-]
-)
+}
     
 def
 has_keys_with_prefix

@@ -58,10 +58,10 @@ match_hostname
 __all__
 =
 (
-'
+"
 CertificateError
-'
-'
+"
+"
 match_hostname
-'
+"
 )

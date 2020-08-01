@@ -890,6 +890,21 @@ poller
 register
 (
 fd
+select
+.
+POLLIN
+|
+select
+.
+POLLPRI
+|
+select
+.
+POLLHUP
+|
+select
+.
+POLLERR
 )
     
 while

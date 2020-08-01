@@ -212,7 +212,7 @@ HTTPMessage
 raise
 TypeError
 (
-'
+"
 expected
 httplib
 .
@@ -222,11 +222,10 @@ got
 0
 }
 .
-'
+"
 .
 format
 (
-            
 type
 (
 headers
@@ -239,9 +238,9 @@ defects
 getattr
 (
 headers
-'
+"
 defects
-'
+"
 None
 )
     
@@ -250,9 +249,9 @@ get_payload
 getattr
 (
 headers
-'
+"
 get_payload
-'
+"
 None
 )
     
@@ -264,11 +263,35 @@ if
 get_payload
 :
         
-unparsed_data
+if
+not
+headers
+.
+is_multipart
+(
+)
+:
+            
+payload
 =
 get_payload
 (
 )
+            
+if
+isinstance
+(
+payload
+(
+bytes
+str
+)
+)
+:
+                
+unparsed_data
+=
+payload
     
 if
 defects
@@ -367,6 +390,6 @@ upper
 )
 =
 =
-'
+"
 HEAD
-'
+"

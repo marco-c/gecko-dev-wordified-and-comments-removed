@@ -45,8 +45,6 @@ Requests
 "
 "
 import
-collections
-import
 datetime
 import
 sys
@@ -155,6 +153,9 @@ from
 compat
 import
 (
+    
+Callable
+Mapping
     
 cookielib
 urlunparse
@@ -906,7 +907,14 @@ fdata
 =
 fp
             
-else
+elif
+hasattr
+(
+fp
+'
+read
+'
+)
 :
                 
 fdata
@@ -916,6 +924,21 @@ fp
 read
 (
 )
+            
+elif
+fp
+is
+None
+:
+                
+continue
+            
+else
+:
+                
+fdata
+=
+fp
             
 rf
 =
@@ -1024,8 +1047,6 @@ if
 isinstance
 (
 hook
-collections
-.
 Callable
 )
 :
@@ -1070,8 +1091,6 @@ if
 isinstance
 (
 h
-collections
-.
 Callable
 )
 )
@@ -1239,12 +1258,24 @@ request
 If
 a
 dictionary
+or
+        
+list
+of
+tuples
+[
+(
+key
+value
+)
+]
 is
 provided
 form
 -
 encoding
 will
+        
 take
 place
 .
@@ -1277,8 +1308,6 @@ specified
 param
 params
 :
-dictionary
-of
 URL
 parameters
 to
@@ -1286,6 +1315,30 @@ append
 to
 the
 URL
+.
+If
+a
+dictionary
+or
+        
+list
+of
+tuples
+[
+(
+key
+value
+)
+]
+is
+provided
+form
+-
+encoding
+will
+        
+take
+place
 .
     
 :
@@ -1354,7 +1407,7 @@ Request
 GET
 '
 '
-http
+https
 :
 /
 /
@@ -1773,7 +1826,7 @@ Request
 GET
 '
 '
-http
+https
 :
 /
 /
@@ -1795,6 +1848,11 @@ req
 prepare
 (
 )
+      
+>
+>
+>
+r
       
 <
 PreparedRequest
@@ -2880,8 +2938,6 @@ data
 basestring
 list
 tuple
-collections
-.
 Mapping
 )
 )
@@ -3764,27 +3820,22 @@ self
 content
         
 return
-dict
-(
-            
-(
+{
 attr
+:
 getattr
 (
 self
 attr
 None
 )
-)
-            
 for
 attr
 in
 self
 .
 __attrs__
-        
-)
+}
     
 def
 __setstate__
@@ -4103,6 +4154,9 @@ is
 less
 than
 400
+False
+if
+not
 .
         
 This
@@ -4761,7 +4815,7 @@ chunk_size
 ITER_CHUNK_SIZE
 decode_unicode
 =
-None
+False
 delimiter
 =
 None
@@ -5025,9 +5079,9 @@ self
 .
 _content
 =
-bytes
-(
-)
+b
+'
+'
 .
 join
 (
@@ -5039,9 +5093,9 @@ CONTENT_CHUNK_SIZE
 )
 )
 or
-bytes
-(
-)
+b
+'
+'
         
 self
 .

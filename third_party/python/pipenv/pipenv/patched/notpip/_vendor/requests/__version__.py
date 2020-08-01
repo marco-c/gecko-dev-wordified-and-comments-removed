@@ -30,13 +30,13 @@ __version__
 '
 2
 .
-18
+22
 .
-4
+0
 '
 __build__
 =
-0x021804
+0x022200
 __author__
 =
 '
@@ -63,7 +63,7 @@ __copyright__
 =
 '
 Copyright
-2017
+2019
 Kenneth
 Reitz
 '

@@ -474,26 +474,6 @@ wintypes
 .
 BOOL
     
-handles
-=
-{
-        
-STDOUT
-:
-_GetStdHandle
-(
-STDOUT
-)
-        
-STDERR
-:
-_GetStdHandle
-(
-STDERR
-)
-    
-}
-    
 def
 _winapi_test
 (
@@ -541,10 +521,16 @@ h
 for
 h
 in
-handles
-.
-values
+                   
 (
+_GetStdHandle
+(
+STDOUT
+)
+_GetStdHandle
+(
+STDERR
+)
 )
 )
     
@@ -559,10 +545,10 @@ STDOUT
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 csbi
 =
@@ -595,10 +581,10 @@ attrs
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 return
 _SetConsoleTextAttribute
@@ -693,10 +679,10 @@ Left
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 return
 _SetConsoleCursorPosition
@@ -717,10 +703,10 @@ start
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 char
 =
@@ -801,10 +787,10 @@ cCharsWritten
         
 handle
 =
-handles
-[
+_GetStdHandle
+(
 stream_id
-]
+)
         
 attribute
 =

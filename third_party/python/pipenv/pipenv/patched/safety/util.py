@@ -13,6 +13,10 @@ namedtuple
 import
 click
 import
+sys
+import
+json
+import
 os
 Package
 =
@@ -42,6 +46,20 @@ RequirementFile
 path
 "
 ]
+)
+def
+read_vulnerabilities
+(
+fh
+)
+:
+    
+return
+json
+.
+load
+(
+fh
 )
 def
 iter_lines
@@ -773,6 +791,12 @@ fg
 "
 yellow
 "
+                        
+file
+=
+sys
+.
+stderr
                     
 )
             

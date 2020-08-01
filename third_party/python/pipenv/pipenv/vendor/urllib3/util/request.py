@@ -23,10 +23,31 @@ import
 UnrewindableBodyError
 ACCEPT_ENCODING
 =
-'
+"
 gzip
 deflate
-'
+"
+try
+:
+    
+import
+brotli
+as
+_unused_module_brotli
+except
+ImportError
+:
+    
+pass
+else
+:
+    
+ACCEPT_ENCODING
++
+=
+"
+br
+"
 _FAILEDTELL
 =
 object
@@ -35,22 +56,27 @@ object
 def
 make_headers
 (
+    
 keep_alive
 =
 None
+    
 accept_encoding
 =
 None
+    
 user_agent
 =
 None
-                 
+    
 basic_auth
 =
 None
+    
 proxy_basic_auth
 =
 None
+    
 disable_cache
 =
 None
@@ -329,8 +355,8 @@ list
             
 accept_encoding
 =
-'
-'
+"
+"
 .
 join
 (
@@ -346,11 +372,11 @@ ACCEPT_ENCODING
         
 headers
 [
-'
+"
 accept
 -
 encoding
-'
+"
 ]
 =
 accept_encoding
@@ -361,11 +387,11 @@ user_agent
         
 headers
 [
-'
+"
 user
 -
 agent
-'
+"
 ]
 =
 user_agent
@@ -376,16 +402,16 @@ keep_alive
         
 headers
 [
-'
+"
 connection
-'
+"
 ]
 =
-'
+"
 keep
 -
 alive
-'
+"
     
 if
 basic_auth
@@ -393,17 +419,15 @@ basic_auth
         
 headers
 [
-'
+"
 authorization
-'
+"
 ]
 =
-'
+"
 Basic
-'
+"
 +
-\
-            
 b64encode
 (
 b
@@ -414,11 +438,11 @@ basic_auth
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 if
@@ -427,34 +451,34 @@ proxy_basic_auth
         
 headers
 [
-'
+"
 proxy
 -
 authorization
-'
+"
 ]
 =
-'
+"
 Basic
-'
+"
 +
-\
-            
 b64encode
 (
+            
 b
 (
 proxy_basic_auth
 )
+        
 )
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 if
@@ -463,18 +487,18 @@ disable_cache
         
 headers
 [
-'
+"
 cache
 -
 control
-'
+"
 ]
 =
-'
+"
 no
 -
 cache
-'
+"
     
 return
 headers
@@ -537,9 +561,9 @@ elif
 getattr
 (
 body
-'
+"
 tell
-'
+"
 None
 )
 is
@@ -639,9 +663,9 @@ body_seek
 getattr
 (
 body
-'
+"
 seek
-'
+"
 None
 )
     
@@ -676,6 +700,7 @@ OSError
 raise
 UnrewindableBodyError
 (
+                
 "
 An
 error
@@ -683,9 +708,6 @@ occurred
 when
 rewinding
 request
-"
-                                        
-"
 body
 for
 redirect
@@ -693,6 +715,7 @@ redirect
 retry
 .
 "
+            
 )
     
 elif
@@ -704,6 +727,7 @@ _FAILEDTELL
 raise
 UnrewindableBodyError
 (
+            
 "
 Unable
 to
@@ -713,7 +737,7 @@ position
 for
 rewinding
 "
-                                    
+            
 "
 request
 body
@@ -724,6 +748,7 @@ redirect
 retry
 .
 "
+        
 )
     
 else
@@ -732,6 +757,7 @@ else
 raise
 ValueError
 (
+            
 "
 body_pos
 must
@@ -739,9 +765,6 @@ be
 of
 type
 integer
-"
-                         
-"
 instead
 it
 was
@@ -754,4 +777,5 @@ type
 (
 body_pos
 )
+        
 )

@@ -17,6 +17,20 @@ Filter
 )
 :
     
+"
+"
+"
+Removes
+optional
+tags
+from
+the
+token
+stream
+"
+"
+"
+    
 def
 slider
 (

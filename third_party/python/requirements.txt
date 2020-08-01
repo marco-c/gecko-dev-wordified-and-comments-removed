@@ -977,11 +977,11 @@ in
 pipenv
 =
 =
-2018
+2020
 .
-5
+06
 .
-18
+02
 \
 -
 -
@@ -989,7 +989,7 @@ hash
 =
 sha256
 :
-04b9a8b02a3ff12a5502b335850cfdb192adcfd1d6bbdb7a7c47cae9ab9ddece
+7dd49a7345fa5da7843907bab42a996dece474e45dd309dbd7619739dc60478b
 \
 -
 -
@@ -997,7 +997,7 @@ hash
 =
 sha256
 :
-e96d5bfa6822a17b2200d455aa5f9002c14361c50df1b1e51921479d7c09e741
+cc289dc78feaa14def4e1723b0b4d85ff628c8e5f740eeeb68197b90dafa8dff
 \
 #
 via

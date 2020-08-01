@@ -51,6 +51,22 @@ Filter
 )
 :
     
+"
+"
+"
+Collapses
+whitespace
+except
+in
+pre
+textarea
+and
+script
+elements
+"
+"
+"
+    
 spacePreserveElements
 =
 frozenset

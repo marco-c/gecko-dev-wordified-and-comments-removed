@@ -66,8 +66,6 @@ import
 time
 import
 calendar
-import
-collections
 from
 .
 _internal_utils
@@ -81,6 +79,7 @@ cookielib
 urlparse
 urlunparse
 Morsel
+MutableMapping
 try
 :
     
@@ -1042,8 +1041,6 @@ RequestsCookieJar
 cookielib
 .
 CookieJar
-collections
-.
 MutableMapping
 )
 :
@@ -3008,6 +3005,17 @@ RequestsCookieJar
         
 new_cj
 .
+set_policy
+(
+self
+.
+get_policy
+(
+)
+)
+        
+new_cj
+.
 update
 (
 self
@@ -3015,6 +3023,31 @@ self
         
 return
 new_cj
+    
+def
+get_policy
+(
+self
+)
+:
+        
+"
+"
+"
+Return
+the
+CookiePolicy
+instance
+used
+.
+"
+"
+"
+        
+return
+self
+.
+_policy
 def
 _copy_cookie_jar
 (
@@ -3145,58 +3178,81 @@ supercookie
     
 result
 =
-dict
-(
+{
         
+'
 version
-=
+'
+:
 0
         
+'
 name
-=
+'
+:
 name
         
+'
 value
-=
+'
+:
 value
         
+'
 port
-=
+'
+:
 None
         
+'
 domain
-=
+'
+:
 '
 '
         
+'
 path
-=
+'
+:
 '
 /
 '
         
+'
 secure
-=
+'
+:
 False
         
+'
 expires
-=
+'
+:
 None
         
+'
 discard
-=
+'
+:
 True
         
+'
 comment
-=
+'
+:
 None
         
+'
 comment_url
-=
+'
+:
 None
         
+'
 rest
-=
+'
+:
 {
 '
 HttpOnly
@@ -3205,10 +3261,13 @@ HttpOnly
 None
 }
         
+'
 rfc2109
-=
+'
+:
 False
-)
+    
+}
     
 badargs
 =
@@ -3685,6 +3744,11 @@ new
 ones
 .
     
+:
+rtype
+:
+CookieJar
+    
 "
 "
 "
@@ -3800,6 +3864,11 @@ to
 be
 added
 .
+    
+:
+rtype
+:
+CookieJar
     
 "
 "

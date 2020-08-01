@@ -3,15 +3,19 @@ functools
 import
 wraps
 from
-jinja2
+.
+import
+filters
+from
 .
 asyncsupport
 import
 auto_aiter
 from
-jinja2
+.
+asyncsupport
 import
-filters
+auto_await
 async
 def
 auto_to_seq
@@ -29,9 +33,9 @@ if
 hasattr
 (
 value
-'
+"
 __aiter__
-'
+"
 )
 :
         
@@ -85,7 +89,6 @@ filters
 .
 prepare_select_or_reject
 (
-        
 args
 kwargs
 modfunc
@@ -131,18 +134,23 @@ if
 getattr
 (
 normal_filter
-'
+"
 environmentfilter
-'
+"
 False
 )
+is
+True
 :
         
+def
 is_async
-=
-lambda
+(
 args
+)
 :
+            
+return
 args
 [
 0
@@ -157,39 +165,48 @@ False
 else
 :
         
-if
-not
+has_evalctxfilter
+=
 getattr
 (
 normal_filter
-'
+"
 evalcontextfilter
-'
+"
 False
 )
-and
-\
-           
-not
+is
+True
+        
+has_ctxfilter
+=
 getattr
 (
 normal_filter
-'
+"
 contextfilter
-'
+"
 False
+)
+is
+True
+        
+wrap_evalctx
+=
+not
+has_evalctxfilter
+and
+not
+has_ctxfilter
+        
+def
+is_async
+(
+args
 )
 :
             
-wrap_evalctx
-=
-True
-        
-is_async
-=
-lambda
-args
-:
+return
 args
 [
 0
@@ -337,7 +354,7 @@ environment
 .
 undefined
 (
-'
+"
 No
 first
 item
@@ -345,7 +362,7 @@ sequence
 was
 empty
 .
-'
+"
 )
 asyncfiltervariant
 (
@@ -375,6 +392,7 @@ attribute
     
 return
 [
+        
 filters
 .
 _GroupTuple
@@ -386,7 +404,7 @@ auto_to_seq
 values
 )
 )
-            
+        
 for
 key
 values
@@ -395,9 +413,9 @@ filters
 .
 groupby
 (
+            
 sorted
 (
-                
 await
 auto_to_seq
 (
@@ -408,7 +426,9 @@ key
 expr
 )
 expr
+        
 )
+    
 ]
 asyncfiltervariant
 (
@@ -425,8 +445,8 @@ value
 d
 =
 u
-'
-'
+"
+"
 attribute
 =
 None
@@ -629,9 +649,13 @@ seq
 :
             
 yield
+await
+auto_await
+(
 func
 (
 item
+)
 )
 asyncfiltervariant
 (
@@ -678,11 +702,14 @@ attribute
 else
 :
         
+def
 func
-=
-lambda
+(
 x
+)
 :
+            
+return
 x
     
 async
@@ -740,69 +767,69 @@ ASYNC_FILTERS
 =
 {
     
-'
+"
 first
-'
+"
 :
 do_first
     
-'
+"
 groupby
-'
+"
 :
 do_groupby
     
-'
+"
 join
-'
+"
 :
 do_join
     
-'
+"
 list
-'
+"
 :
 do_list
     
-'
+"
 reject
-'
+"
 :
 do_reject
     
-'
+"
 rejectattr
-'
+"
 :
 do_rejectattr
     
-'
+"
 map
-'
+"
 :
 do_map
     
-'
+"
 select
-'
+"
 :
 do_select
     
-'
+"
 selectattr
-'
+"
 :
 do_selectattr
     
-'
+"
 sum
-'
+"
 :
 do_sum
     
-'
+"
 slice
-'
+"
 :
 do_slice
 }

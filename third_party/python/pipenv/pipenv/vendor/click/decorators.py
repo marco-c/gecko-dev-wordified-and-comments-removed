@@ -1,7 +1,7 @@
 import
-sys
-import
 inspect
+import
+sys
 from
 functools
 import
@@ -18,14 +18,34 @@ import
 _check_for_unicode_literals
 from
 .
-utils
+core
 import
-echo
+Argument
+from
+.
+core
+import
+Command
+from
+.
+core
+import
+Group
+from
+.
+core
+import
+Option
 from
 .
 globals
 import
 get_current_context
+from
+.
+utils
+import
+echo
 def
 pass_context
 (
@@ -406,29 +426,35 @@ None
 raise
 RuntimeError
 (
-'
+                    
+"
 Managed
 to
 invoke
 callback
 without
 a
-'
-                                   
-'
 context
+"
+                    
+"
 object
 of
 type
-%
-r
-existing
 '
-                                   
-%
+{
+}
+'
+existing
+"
+.
+format
+(
 object_type
 .
 __name__
+)
+                
 )
             
 return
@@ -440,10 +466,6 @@ f
 obj
 *
 args
-[
-1
-:
-]
 *
 *
 kwargs
@@ -479,7 +501,7 @@ Command
 raise
 TypeError
 (
-'
+"
 Attempted
 to
 convert
@@ -487,13 +509,10 @@ a
 callback
 into
 a
-'
-                        
-'
 command
 twice
 .
-'
+"
 )
     
 try
@@ -531,9 +550,9 @@ attrs
 .
 get
 (
-'
+"
 help
-'
+"
 )
     
 if
@@ -565,11 +584,11 @@ help
 .
 decode
 (
-'
+"
 utf
 -
 8
-'
+"
 )
     
 else
@@ -586,9 +605,9 @@ help
     
 attrs
 [
-'
+"
 help
-'
+"
 ]
 =
 help
@@ -600,6 +619,7 @@ _check_for_unicode_literals
 return
 cls
 (
+        
 name
 =
 name
@@ -611,16 +631,29 @@ __name__
 lower
 (
 )
-               
+.
+replace
+(
+"
+_
+"
+"
+-
+"
+)
+        
 callback
 =
 f
+        
 params
 =
 params
+        
 *
 *
 attrs
+    
 )
 def
 command
@@ -637,6 +670,7 @@ attrs
 )
 :
     
+r
 "
 "
 "
@@ -696,16 +730,22 @@ name
 of
 the
 function
+with
+    
+underscores
+replaced
+by
+dashes
 .
 If
 you
-    
 want
 to
 change
 that
 you
 can
+    
 pass
 the
 intended
@@ -713,7 +753,6 @@ name
 as
 the
 first
-    
 argument
 .
     
@@ -781,6 +820,11 @@ the
 function
                  
 name
+with
+underscores
+replaced
+by
+dashes
 .
     
 :
@@ -909,9 +953,9 @@ attrs
 .
 setdefault
 (
-'
+"
 cls
-'
+"
 Group
 )
     
@@ -956,9 +1000,9 @@ not
 hasattr
 (
 f
-'
+"
 __click_params__
-'
+"
 )
 :
             
@@ -1090,9 +1134,9 @@ attrs
 .
 pop
 (
-'
+"
 cls
-'
+"
 Argument
 )
         
@@ -1220,42 +1264,50 @@ f
 )
 :
         
-if
-'
-help
-'
-in
+option_attrs
+=
 attrs
+.
+copy
+(
+)
+        
+if
+"
+help
+"
+in
+option_attrs
 :
             
-attrs
+option_attrs
 [
-'
+"
 help
-'
+"
 ]
 =
 inspect
 .
 cleandoc
 (
-attrs
+option_attrs
 [
-'
+"
 help
-'
+"
 ]
 )
         
 OptionClass
 =
-attrs
+option_attrs
 .
 pop
 (
-'
+"
 cls
-'
+"
 Option
 )
         
@@ -1267,7 +1319,7 @@ OptionClass
 param_decls
 *
 *
-attrs
+option_attrs
 )
 )
         
@@ -1428,9 +1480,9 @@ attrs
 .
 setdefault
 (
-'
+"
 is_flag
-'
+"
 True
 )
         
@@ -1438,9 +1490,9 @@ attrs
 .
 setdefault
 (
-'
+"
 callback
-'
+"
 callback
 )
         
@@ -1448,9 +1500,9 @@ attrs
 .
 setdefault
 (
-'
+"
 expose_value
-'
+"
 False
 )
         
@@ -1458,34 +1510,34 @@ attrs
 .
 setdefault
 (
-'
+"
 prompt
-'
-'
+"
+"
 Do
 you
 want
 to
 continue
 ?
-'
+"
 )
         
 attrs
 .
 setdefault
 (
-'
+"
 help
-'
-'
+"
+"
 Confirm
 the
 action
 without
 prompting
 .
-'
+"
 )
         
 return
@@ -1496,11 +1548,11 @@ option
 param_decls
 or
 (
-'
+"
 -
 -
 yes
-'
+"
 )
 )
 *
@@ -1604,9 +1656,9 @@ attrs
 .
 setdefault
 (
-'
+"
 prompt
-'
+"
 True
 )
         
@@ -1614,9 +1666,9 @@ attrs
 .
 setdefault
 (
-'
+"
 confirmation_prompt
-'
+"
 True
 )
         
@@ -1624,9 +1676,9 @@ attrs
 .
 setdefault
 (
-'
+"
 hide_input
-'
+"
 True
 )
         
@@ -1638,11 +1690,11 @@ option
 param_decls
 or
 (
-'
+"
 -
 -
 password
-'
+"
 )
 )
 *
@@ -1803,6 +1855,16 @@ is
 None
 :
         
+if
+hasattr
+(
+sys
+"
+_getframe
+"
+)
+:
+            
 module
 =
 sys
@@ -1816,10 +1878,18 @@ f_globals
 .
 get
 (
-'
+"
 __name__
-'
+"
 )
+        
+else
+:
+            
+module
+=
+"
+"
     
 def
 decorator
@@ -1834,9 +1904,9 @@ attrs
 .
 pop
 (
-'
+"
 prog_name
-'
+"
 None
 )
         
@@ -1846,10 +1916,10 @@ attrs
 .
 pop
 (
-'
+"
 message
-'
-'
+"
+"
 %
 (
 prog
@@ -1861,7 +1931,7 @@ version
 version
 )
 s
-'
+"
 )
         
 def
@@ -1947,16 +2017,16 @@ get_entry_map
 .
 get
 (
-'
+"
 console_scripts
-'
+"
 )
 or
 {
 }
                         
 for
-script_name
+_
 entry_point
 in
 iteritems
@@ -1991,12 +2061,12 @@ None
 raise
 RuntimeError
 (
-'
+"
 Could
 not
 determine
 version
-'
+"
 )
             
 echo
@@ -2004,19 +2074,16 @@ echo
 message
 %
 {
-                
-'
+"
 prog
-'
+"
 :
 prog
-                
-'
+"
 version
-'
+"
 :
 ver
-            
 }
 color
 =
@@ -2035,9 +2102,9 @@ attrs
 .
 setdefault
 (
-'
+"
 is_flag
-'
+"
 True
 )
         
@@ -2045,9 +2112,9 @@ attrs
 .
 setdefault
 (
-'
+"
 expose_value
-'
+"
 False
 )
         
@@ -2055,9 +2122,9 @@ attrs
 .
 setdefault
 (
-'
+"
 is_eager
-'
+"
 True
 )
         
@@ -2065,24 +2132,24 @@ attrs
 .
 setdefault
 (
-'
+"
 help
-'
-'
+"
+"
 Show
 the
 version
 and
 exit
 .
-'
+"
 )
         
 attrs
 [
-'
+"
 callback
-'
+"
 ]
 =
 callback
@@ -2095,11 +2162,11 @@ option
 param_decls
 or
 (
-'
+"
 -
 -
 version
-'
+"
 )
 )
 *
@@ -2249,9 +2316,9 @@ attrs
 .
 setdefault
 (
-'
+"
 is_flag
-'
+"
 True
 )
         
@@ -2259,9 +2326,9 @@ attrs
 .
 setdefault
 (
-'
+"
 expose_value
-'
+"
 False
 )
         
@@ -2269,34 +2336,34 @@ attrs
 .
 setdefault
 (
-'
+"
 help
-'
-'
+"
+"
 Show
 this
 message
 and
 exit
 .
-'
+"
 )
         
 attrs
 .
 setdefault
 (
-'
+"
 is_eager
-'
+"
 True
 )
         
 attrs
 [
-'
+"
 callback
-'
+"
 ]
 =
 callback
@@ -2309,11 +2376,11 @@ option
 param_decls
 or
 (
-'
+"
 -
 -
 help
-'
+"
 )
 )
 *
@@ -2326,11 +2393,3 @@ f
     
 return
 decorator
-from
-.
-core
-import
-Command
-Group
-Argument
-Option

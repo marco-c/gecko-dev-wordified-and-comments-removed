@@ -2,6 +2,20 @@ from
 __future__
 import
 absolute_import
+try
+:
+    
+from
+collections
+.
+abc
+import
+Mapping
+MutableMapping
+except
+ImportError
+:
+    
 from
 collections
 import
@@ -42,24 +56,15 @@ traceback
 :
             
 pass
-try
-:
-    
 from
 collections
 import
 OrderedDict
-except
-ImportError
-:
-    
 from
 .
-packages
-.
-ordered_dict
+exceptions
 import
-OrderedDict
+InvalidHeader
 from
 .
 packages
@@ -72,12 +77,12 @@ PY3
 __all__
 =
 [
-'
+"
 RecentlyUsedContainer
-'
-'
+"
+"
 HTTPHeaderDict
-'
+"
 ]
 _Null
 =
@@ -410,7 +415,8 @@ self
 raise
 NotImplementedError
 (
-'
+            
+"
 Iteration
 over
 this
@@ -421,7 +427,8 @@ to
 be
 threadsafe
 .
-'
+"
+        
 )
     
 def
@@ -909,8 +916,8 @@ lower
 ]
         
 return
-'
-'
+"
+"
 .
 join
 (
@@ -980,9 +987,9 @@ not
 hasattr
 (
 other
-'
+"
 keys
-'
+"
 )
 :
             
@@ -1012,7 +1019,6 @@ other
 )
         
 return
-(
 dict
 (
 (
@@ -1035,9 +1041,9 @@ itermerged
 )
 =
 =
-                
 dict
 (
+            
 (
 k
 .
@@ -1055,7 +1061,7 @@ other
 itermerged
 (
 )
-)
+        
 )
     
 def
@@ -1149,9 +1155,9 @@ __marker
 )
 :
         
-'
-'
-'
+"
+"
+"
 D
 .
 pop
@@ -1190,9 +1196,9 @@ is
 raised
 .
         
-'
-'
-'
+"
+"
+"
         
 try
 :
@@ -1443,6 +1449,7 @@ args
 raise
 TypeError
 (
+                
 "
 extend
 (
@@ -1453,7 +1460,7 @@ most
 1
 positional
 "
-                            
+                
 "
 arguments
 (
@@ -1471,6 +1478,7 @@ len
 args
 )
 )
+            
 )
         
 other
@@ -1936,8 +1944,8 @@ val
 [
 0
 ]
-'
-'
+"
+"
 .
 join
 (
@@ -1992,6 +2000,17 @@ object
 "
 "
         
+obs_fold_continued_leaders
+=
+(
+"
+"
+"
+\
+t
+"
+)
+        
 headers
 =
 [
@@ -2010,17 +2029,38 @@ line
 .
 startswith
 (
-(
-'
-'
-'
-\
-t
-'
-)
+obs_fold_continued_leaders
 )
 :
                 
+if
+not
+headers
+:
+                    
+raise
+InvalidHeader
+(
+                        
+"
+Header
+continuation
+with
+no
+previous
+header
+:
+%
+s
+"
+%
+line
+                    
+)
+                
+else
+:
+                    
 key
 value
 =
@@ -2029,7 +2069,7 @@ headers
 -
 1
 ]
-                
+                    
 headers
 [
 -
@@ -2040,20 +2080,16 @@ headers
 key
 value
 +
-'
-\
-r
-\
-n
-'
+"
+"
 +
 line
 .
-rstrip
+strip
 (
 )
 )
-                
+                    
 continue
             
 key
@@ -2063,9 +2099,9 @@ line
 .
 split
 (
-'
+"
 :
-'
+"
 1
 )
             

@@ -41,9 +41,6 @@ try
 :
     
 from
-.
-packages
-.
 urllib3
 .
 contrib
@@ -543,14 +540,9 @@ __version__
     
 system_ssl
 =
-getattr
-(
 ssl
-'
+.
 OPENSSL_VERSION_NUMBER
-'
-None
-)
     
 system_ssl_info
 =

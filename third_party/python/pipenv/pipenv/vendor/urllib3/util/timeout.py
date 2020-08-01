@@ -283,16 +283,20 @@ maximum
 amount
 of
 time
+(
+in
+seconds
+)
 to
 wait
 for
 a
 connection
+        
 attempt
 to
 a
 server
-        
 to
 succeed
 .
@@ -302,10 +306,10 @@ parameter
 will
 default
 the
+        
 connect
 timeout
 to
-        
 the
 system
 default
@@ -313,6 +317,7 @@ probably
 the
 global
 default
+        
 timeout
 in
 socket
@@ -377,6 +382,10 @@ maximum
 amount
 of
 time
+(
+in
+seconds
+)
 to
 wait
 between
@@ -392,9 +401,9 @@ the
 server
 .
 Omitting
-        
 the
 parameter
+        
 will
 default
 the
@@ -403,10 +412,10 @@ timeout
 to
 the
 system
-        
 default
 probably
 the
+        
 global
 default
 timeout
@@ -702,9 +711,9 @@ self
 _validate_timeout
 (
 connect
-'
+"
 connect
-'
+"
 )
         
 self
@@ -716,9 +725,9 @@ self
 _validate_timeout
 (
 read
-'
+"
 read
-'
+"
 )
         
 self
@@ -730,9 +739,9 @@ self
 _validate_timeout
 (
 total
-'
+"
 total
-'
+"
 )
         
 self
@@ -742,14 +751,14 @@ _start_connect
 None
     
 def
-__str__
+__repr__
 (
 self
 )
 :
         
 return
-'
+"
 %
 s
 (
@@ -766,7 +775,7 @@ total
 %
 r
 )
-'
+"
 %
 (
             
@@ -776,16 +785,24 @@ self
 )
 .
 __name__
+            
 self
 .
 _connect
+            
 self
 .
 _read
+            
 self
 .
 total
+        
 )
+    
+__str__
+=
+__repr__
     
 classmethod
     
@@ -928,6 +945,7 @@ bool
 raise
 ValueError
 (
+                
 "
 Timeout
 cannot
@@ -939,7 +957,7 @@ value
 It
 must
 "
-                             
+                
 "
 be
 an
@@ -949,6 +967,7 @@ or
 None
 .
 "
+            
 )
         
 try
@@ -969,6 +988,7 @@ ValueError
 raise
 ValueError
 (
+                
 "
 Timeout
 value
@@ -983,7 +1003,7 @@ must
 be
 an
 "
-                             
+                
 "
 int
 float
@@ -996,6 +1016,7 @@ None
 name
 value
 )
+            
 )
         
 try
@@ -1011,6 +1032,7 @@ value
 raise
 ValueError
 (
+                    
 "
 Attempted
 to
@@ -1024,7 +1046,7 @@ s
 but
 the
 "
-                                 
+                    
 "
 timeout
 cannot
@@ -1035,7 +1057,7 @@ a
 value
 less
 "
-                                 
+                    
 "
 than
 or
@@ -1049,6 +1071,7 @@ to
 name
 value
 )
+                
 )
         
 except
@@ -1058,6 +1081,7 @@ TypeError
 raise
 ValueError
 (
+                
 "
 Timeout
 value
@@ -1072,7 +1096,7 @@ must
 be
 an
 "
-                             
+                
 "
 int
 float
@@ -1085,6 +1109,7 @@ None
 name
 value
 )
+            
 )
         
 return
@@ -1297,7 +1322,6 @@ read
 self
 .
 _read
-                       
 total
 =
 self
@@ -1419,6 +1443,8 @@ return
 :
 Elapsed
 time
+in
+seconds
 .
         
 :
@@ -1467,6 +1493,7 @@ None
 raise
 TimeoutStateError
 (
+                
 "
 Can
 '
@@ -1476,15 +1503,13 @@ connect
 duration
 for
 timer
-"
-                                    
-"
 that
 has
 not
 started
 .
 "
+            
 )
         
 return
@@ -1757,14 +1782,15 @@ object
         
 if
 (
+            
 self
 .
 total
 is
 not
 None
+            
 and
-                
 self
 .
 total
@@ -1773,16 +1799,16 @@ not
 self
 .
 DEFAULT_TIMEOUT
+            
 and
-                
 self
 .
 _read
 is
 not
 None
+            
 and
-                
 self
 .
 _read
@@ -1791,6 +1817,7 @@ not
 self
 .
 DEFAULT_TIMEOUT
+        
 )
 :
             
@@ -1822,7 +1849,6 @@ self
 get_connect_duration
 (
 )
-                              
 self
 .
 _read

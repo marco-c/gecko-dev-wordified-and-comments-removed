@@ -2317,17 +2317,6 @@ token
 )
 :
         
-"
-"
-"
-Create
-the
-document
-root
-"
-"
-"
-        
 docStr
 =
 "

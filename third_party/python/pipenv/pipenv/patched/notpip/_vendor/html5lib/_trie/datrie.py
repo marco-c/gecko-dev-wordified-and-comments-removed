@@ -11,7 +11,11 @@ Trie
 as
 DATrie
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 .

@@ -26,19 +26,31 @@ sys
 import
 ssl
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
 idna
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
 urllib3
 from
-pip9
+pipenv
+.
+patched
+.
+notpip
 .
 _vendor
 import
@@ -53,8 +65,13 @@ try
 :
     
 from
+pipenv
 .
-packages
+patched
+.
+notpip
+.
+_vendor
 .
 urllib3
 .
@@ -555,14 +572,9 @@ __version__
     
 system_ssl
 =
-getattr
-(
 ssl
-'
+.
 OPENSSL_VERSION_NUMBER
-'
-None
-)
     
 system_ssl_info
 =

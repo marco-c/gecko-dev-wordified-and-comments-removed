@@ -11,18 +11,18 @@ utf
 *
 -
 from
+__future__
+import
+unicode_literals
+import
+sys
+from
 .
 import
 Progress
-from
-.
-helpers
-import
-WritelnMixin
 class
 Bar
 (
-WritelnMixin
 Progress
 )
 :
@@ -30,11 +30,6 @@ Progress
 width
 =
 32
-    
-message
-=
-'
-'
     
 suffix
 =
@@ -74,10 +69,6 @@ fill
 '
 #
 '
-    
-hide_cursor
-=
-True
     
 def
 update
@@ -198,13 +189,11 @@ bar_suffix
     
 empty_fill
 =
-u
 '
 '
     
 fill
 =
-u
 '
 '
 class
@@ -216,13 +205,11 @@ ChargingBar
     
 empty_fill
 =
-u
 '
 '
     
 fill
 =
-u
 '
 '
 class
@@ -234,13 +221,11 @@ ChargingBar
     
 empty_fill
 =
-u
 '
 '
     
 fill
 =
-u
 '
 '
 class
@@ -250,6 +235,19 @@ Bar
 )
 :
     
+if
+sys
+.
+platform
+.
+startswith
+(
+'
+win
+'
+)
+:
+        
 phases
 =
 (
@@ -262,22 +260,30 @@ u
 u
 '
 '
-u
+)
+    
+else
+:
+        
+phases
+=
+(
 '
 '
-u
 '
 '
-u
 '
 '
-u
 '
 '
-u
 '
 '
-u
+'
+'
+'
+'
+'
+'
 '
 '
 )
@@ -298,12 +304,8 @@ self
 phases
 )
         
-expanded_length
+filled_len
 =
-int
-(
-nphases
-*
 self
 .
 width
@@ -311,38 +313,34 @@ width
 self
 .
 progress
-)
         
-filled_length
+nfull
 =
 int
 (
-self
-.
-width
-*
-self
-.
-progress
+filled_len
 )
-        
-empty_length
-=
-self
-.
-width
--
-filled_length
         
 phase
 =
-expanded_length
--
+int
 (
-filled_length
+(
+filled_len
+-
+nfull
+)
 *
 nphases
 )
+        
+nempty
+=
+self
+.
+width
+-
+nfull
         
 message
 =
@@ -362,7 +360,7 @@ phases
 1
 ]
 *
-filled_length
+nfull
         
 current
 =
@@ -389,7 +387,7 @@ empty_fill
 max
 (
 0
-empty_length
+nempty
 -
 len
 (
@@ -435,6 +433,33 @@ writeln
 line
 )
 class
+PixelBar
+(
+IncrementalBar
+)
+:
+    
+phases
+=
+(
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+'
+)
+class
 ShadyBar
 (
 IncrementalBar
@@ -444,19 +469,14 @@ IncrementalBar
 phases
 =
 (
-u
 '
 '
-u
 '
 '
-u
 '
 '
-u
 '
 '
-u
 '
 '
 )

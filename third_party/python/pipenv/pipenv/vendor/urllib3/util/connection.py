@@ -8,13 +8,14 @@ from
 .
 wait
 import
+NoWayToWaitForSocketError
 wait_for_read
 from
 .
-selectors
+.
+contrib
 import
-HAS_SELECT
-SelectorError
+_appengine_environ
 def
 is_connection_dropped
 (
@@ -86,9 +87,9 @@ sock
 getattr
 (
 conn
-'
+"
 sock
-'
+"
 False
 )
     
@@ -110,20 +111,10 @@ None
 return
 True
     
-if
-not
-HAS_SELECT
-:
-        
-return
-False
-    
 try
 :
         
 return
-bool
-(
 wait_for_read
 (
 sock
@@ -133,27 +124,29 @@ timeout
 .
 0
 )
-)
     
 except
-SelectorError
+NoWayToWaitForSocketError
 :
         
 return
-True
+False
 def
 create_connection
 (
+    
 address
+    
 timeout
 =
 socket
 .
 _GLOBAL_DEFAULT_TIMEOUT
-                      
+    
 source_address
 =
 None
+    
 socket_options
 =
 None
@@ -308,9 +301,9 @@ host
 .
 startswith
 (
-'
+"
 [
-'
+"
 )
 :
         
@@ -320,10 +313,10 @@ host
 .
 strip
 (
-'
+"
 [
 ]
-'
+"
 )
     
 err
@@ -602,6 +595,17 @@ has_ipv6
 False
     
 if
+_appengine_environ
+.
+is_appengine_sandbox
+(
+)
+:
+        
+return
+False
+    
+if
 socket
 .
 has_ipv6
@@ -657,9 +661,9 @@ HAS_IPV6
 =
 _has_ipv6
 (
-'
+"
 :
 :
 1
-'
+"
 )

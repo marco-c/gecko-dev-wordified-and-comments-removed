@@ -69,6 +69,7 @@ SocketIO
 def
 backport_makefile
 (
+    
 self
 mode
 =
@@ -81,7 +82,6 @@ None
 encoding
 =
 None
-                      
 errors
 =
 None
@@ -119,9 +119,7 @@ mode
 )
 <
 =
-set
-(
-[
+{
 "
 r
 "
@@ -131,14 +129,12 @@ w
 "
 b
 "
-]
-)
+}
 :
         
 raise
 ValueError
 (
-            
 "
 invalid
 mode
@@ -156,7 +152,6 @@ allowed
 (
 mode
 )
-        
 )
     
 writing

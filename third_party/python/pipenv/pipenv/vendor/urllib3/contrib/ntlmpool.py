@@ -99,9 +99,9 @@ pool
     
 scheme
 =
-'
+"
 https
-'
+"
     
 def
 __init__
@@ -198,10 +198,10 @@ user
 .
 split
 (
-'
+"
 \
 \
-'
+"
 1
 )
         
@@ -251,7 +251,8 @@ log
 .
 debug
 (
-'
+            
+"
 Starting
 NTLM
 HTTPS
@@ -269,50 +270,49 @@ https
 s
 %
 s
-'
-                  
+"
+            
 self
 .
 num_connections
+            
 self
 .
 host
+            
 self
 .
 authurl
+        
 )
         
 headers
 =
 {
-}
-        
-headers
-[
-'
+"
 Connection
-'
-]
-=
-'
+"
+:
+"
 Keep
 -
 Alive
-'
+"
+}
         
 req_header
 =
-'
+"
 Authorization
-'
+"
         
 resp_header
 =
-'
+"
 www
 -
 authenticate
-'
+"
         
 conn
 =
@@ -335,35 +335,34 @@ headers
 req_header
 ]
 =
-(
-            
-'
+"
 NTLM
 %
 s
-'
+"
 %
 ntlm
 .
 create_NTLM_NEGOTIATE_MESSAGE
 (
+            
 self
 .
 rawuser
-)
+        
 )
         
 log
 .
 debug
 (
-'
+"
 Request
 headers
 :
 %
 s
-'
+"
 headers
 )
         
@@ -371,9 +370,9 @@ conn
 .
 request
 (
-'
+"
 GET
-'
+"
 self
 .
 authurl
@@ -404,7 +403,7 @@ log
 .
 debug
 (
-'
+"
 Response
 status
 :
@@ -412,7 +411,7 @@ status
 s
 %
 s
-'
+"
 res
 .
 status
@@ -425,13 +424,13 @@ log
 .
 debug
 (
-'
+"
 Response
 headers
 :
 %
 s
-'
+"
 reshdr
 )
         
@@ -439,7 +438,7 @@ log
 .
 debug
 (
-'
+"
 Response
 data
 :
@@ -450,7 +449,7 @@ s
 .
 .
 ]
-'
+"
 res
 .
 read
@@ -474,8 +473,8 @@ resp_header
 .
 split
 (
-'
-'
+"
+"
 )
         
 auth_header_value
@@ -496,9 +495,9 @@ s
 ]
 =
 =
-'
+"
 NTLM
-'
+"
 :
                 
 auth_header_value
@@ -518,7 +517,8 @@ None
 raise
 Exception
 (
-'
+                
+"
 Unexpected
 %
 s
@@ -527,9 +527,8 @@ header
 :
 %
 s
-'
+"
 %
-                            
 (
 resp_header
 reshdr
@@ -537,18 +536,19 @@ reshdr
 resp_header
 ]
 )
+            
 )
         
 ServerChallenge
 NegotiateFlags
 =
-\
-            
 ntlm
 .
 parse_NTLM_CHALLENGE_MESSAGE
 (
+            
 auth_header_value
+        
 )
         
 auth_msg
@@ -557,21 +557,19 @@ ntlm
 .
 create_NTLM_AUTHENTICATE_MESSAGE
 (
+            
 ServerChallenge
-                                                         
 self
 .
 user
-                                                         
 self
 .
 domain
-                                                         
 self
 .
 pw
-                                                         
 NegotiateFlags
+        
 )
         
 headers
@@ -579,11 +577,11 @@ headers
 req_header
 ]
 =
-'
+"
 NTLM
 %
 s
-'
+"
 %
 auth_msg
         
@@ -591,13 +589,13 @@ log
 .
 debug
 (
-'
+"
 Request
 headers
 :
 %
 s
-'
+"
 headers
 )
         
@@ -605,9 +603,9 @@ conn
 .
 request
 (
-'
+"
 GET
-'
+"
 self
 .
 authurl
@@ -627,7 +625,7 @@ log
 .
 debug
 (
-'
+"
 Response
 status
 :
@@ -635,7 +633,7 @@ status
 s
 %
 s
-'
+"
 res
 .
 status
@@ -648,13 +646,13 @@ log
 .
 debug
 (
-'
+"
 Response
 headers
 :
 %
 s
-'
+"
 dict
 (
 res
@@ -669,7 +667,7 @@ log
 .
 debug
 (
-'
+"
 Response
 data
 :
@@ -680,7 +678,7 @@ s
 .
 .
 ]
-'
+"
 res
 .
 read
@@ -713,25 +711,22 @@ status
 raise
 Exception
 (
-'
+"
 Server
 rejected
 request
 :
 wrong
-'
-                                
-'
 username
 or
 password
-'
+"
 )
             
 raise
 Exception
 (
-'
+"
 Wrong
 server
 response
@@ -740,9 +735,8 @@ response
 s
 %
 s
-'
+"
 %
-                            
 (
 res
 .
@@ -763,10 +757,10 @@ log
 .
 debug
 (
-'
+"
 Connection
 established
-'
+"
 )
         
 return
@@ -775,25 +769,33 @@ conn
 def
 urlopen
 (
+        
 self
+        
 method
+        
 url
+        
 body
 =
 None
+        
 headers
 =
 None
+        
 retries
 =
 3
-                
+        
 redirect
 =
 True
+        
 assert_same_host
 =
 True
+    
 )
 :
         
@@ -810,16 +812,16 @@ headers
         
 headers
 [
-'
+"
 Connection
-'
+"
 ]
 =
-'
+"
 Keep
 -
 Alive
-'
+"
         
 return
 super
@@ -830,14 +832,13 @@ self
 .
 urlopen
 (
+            
 method
 url
 body
-                                                       
 headers
 retries
-                                                       
 redirect
-                                                       
 assert_same_host
+        
 )

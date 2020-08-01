@@ -43,7 +43,7 @@ key
 :
         
 raise
-NotImplemented
+NotImplementedError
 (
 )
     
@@ -57,7 +57,7 @@ value
 :
         
 raise
-NotImplemented
+NotImplementedError
 (
 )
     
@@ -70,7 +70,7 @@ key
 :
         
 raise
-NotImplemented
+NotImplementedError
 (
 )
     
