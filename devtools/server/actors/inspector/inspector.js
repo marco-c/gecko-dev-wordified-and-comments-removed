@@ -783,6 +783,13 @@ autohide
 await
 highlighter
 .
+initializeInstance
+(
+)
+;
+await
+highlighter
+.
 instance
 .
 isReady
