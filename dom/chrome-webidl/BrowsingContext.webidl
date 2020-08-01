@@ -195,6 +195,14 @@ WindowProxy
 window
 )
 ;
+sequence
+<
+BrowsingContext
+>
+getAllBrowsingContextsInSubtree
+(
+)
+;
 BrowsingContext
 ?
 findChildWithName
