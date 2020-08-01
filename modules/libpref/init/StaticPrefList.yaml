@@ -60815,7 +60815,7 @@ for
 content
 type
 :
-bool
+RelaxedAtomicBool
 value
 :
 IS_ANDROID
