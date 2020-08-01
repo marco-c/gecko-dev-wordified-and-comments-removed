@@ -1276,6 +1276,7 @@ aWindow
 aURI
 &
 &
+(
 aURI
 -
 >
@@ -1284,6 +1285,18 @@ SchemeIs
 "
 chrome
 "
+)
+|
+|
+aURI
+-
+>
+SchemeIs
+(
+"
+about
+"
+)
 )
 )
 {
