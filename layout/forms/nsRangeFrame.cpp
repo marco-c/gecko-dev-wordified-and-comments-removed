@@ -3968,7 +3968,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance

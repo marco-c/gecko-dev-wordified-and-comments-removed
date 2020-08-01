@@ -2262,7 +2262,9 @@ ThemeWantsButtonInnerFocusRing
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 )
 {

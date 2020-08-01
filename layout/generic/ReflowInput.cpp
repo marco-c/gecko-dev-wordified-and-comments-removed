@@ -11988,7 +11988,9 @@ mFrame
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 &
 widgetPadding
 )
@@ -12321,7 +12323,9 @@ mFrame
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 ComputedPhysicalBorderPadding

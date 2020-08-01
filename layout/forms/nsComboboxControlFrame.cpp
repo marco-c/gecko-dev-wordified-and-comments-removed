@@ -3334,7 +3334,9 @@ return
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance
@@ -5878,7 +5880,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 =
 =
 StyleAppearance
@@ -6991,7 +6995,9 @@ ThemeWantsButtonInnerFocusRing
 disp
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 &
 &

@@ -1902,7 +1902,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 {
 case

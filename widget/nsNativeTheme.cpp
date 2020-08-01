@@ -1191,7 +1191,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 )
 ;
 }
@@ -3281,7 +3283,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 !
 =
 aFrame
@@ -3292,7 +3296,9 @@ StyleDisplay
 )
 -
 >
-mAppearance
+EffectiveAppearance
+(
+)
 |
 |
 (
