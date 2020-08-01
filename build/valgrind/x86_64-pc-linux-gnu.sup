@@ -334,9 +334,6 @@ FcDirCacheScan
 fun
 :
 FcConfigAddDirList
-fun
-:
-FcConfigAppFontAddDir
 .
 .
 .
@@ -366,9 +363,6 @@ FcDirCacheScan
 fun
 :
 FcConfigAddDirList
-fun
-:
-FcConfigAppFontAddDir
 .
 .
 .
@@ -401,9 +395,6 @@ FcDirCacheScan
 fun
 :
 FcConfigAddDirList
-fun
-:
-FcConfigAppFontAddDir
 .
 .
 .
@@ -455,9 +446,6 @@ FcDirCacheScan
 fun
 :
 FcConfigAddDirList
-fun
-:
-FcConfigAppFontAddDir
 .
 .
 .
