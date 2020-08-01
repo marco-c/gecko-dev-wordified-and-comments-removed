@@ -90,9 +90,6 @@ filename
 nsString
 addonId
 ;
-double
-duration
-;
 }
 ;
 struct
