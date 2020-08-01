@@ -11624,7 +11624,7 @@ _lateTasksIdleObserver
 ;
 this
 .
-_scheduleArbitrarilyLateIdleTasks
+_scheduleBestEffortUserIdleTasks
 (
 )
 ;
@@ -12684,7 +12684,7 @@ undefined
 ;
 }
 }
-_scheduleArbitrarilyLateIdleTasks
+_scheduleBestEffortUserIdleTasks
 (
 )
 {
