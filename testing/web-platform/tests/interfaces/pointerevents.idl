@@ -87,13 +87,9 @@ tangentialPressure
 ;
 long
 tiltX
-=
-0
 ;
 long
 tiltY
-=
-0
 ;
 long
 twist
@@ -102,13 +98,9 @@ twist
 ;
 double
 altitudeAngle
-=
-0
 ;
 double
 azimuthAngle
-=
-0
 ;
 DOMString
 pointerType
