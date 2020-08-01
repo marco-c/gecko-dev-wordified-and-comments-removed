@@ -397,7 +397,15 @@ self
 )
 :
         
-pass
+self
+.
+apt_install
+(
+*
+self
+.
+packages
+)
     
 def
 install_browser_packages
