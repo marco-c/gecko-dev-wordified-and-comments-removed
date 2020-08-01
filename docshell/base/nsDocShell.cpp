@@ -12317,7 +12317,7 @@ oldBrowserChild
 newBrowserChild
 "
 Cannot
-cahnge
+change
 BrowserChild
 during
 nsDocShell
