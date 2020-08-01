@@ -544,6 +544,10 @@ boolean
 showPrintProgress
 ;
 attribute
+boolean
+showMarginGuides
+;
+attribute
 AString
 paperName
 ;
