@@ -130,7 +130,7 @@ MAX_WASM_TABLES
 :
 usize
 =
-1
+100
 ;
 pub
 const

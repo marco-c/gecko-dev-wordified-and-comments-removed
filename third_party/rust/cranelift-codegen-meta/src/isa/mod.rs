@@ -36,6 +36,10 @@ arm64
 mod
 riscv
 ;
+pub
+(
+crate
+)
 mod
 x86
 ;
@@ -43,6 +47,7 @@ x86
 [
 derive
 (
+PartialEq
 Copy
 Clone
 )

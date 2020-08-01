@@ -4,6 +4,7 @@ super
 :
 {
 BinaryReaderError
+Range
 Result
 }
 ;
@@ -50,6 +51,16 @@ self
 -
 >
 usize
+;
+fn
+range
+(
+&
+self
+)
+-
+>
+Range
 ;
 fn
 ensure_end

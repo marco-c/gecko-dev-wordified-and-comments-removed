@@ -5970,17 +5970,6 @@ create_unwind_info
 (
 func
 isa
-Some
-(
-RU
-:
-:
-rbp
-.
-into
-(
-)
-)
 )
 ?
 .

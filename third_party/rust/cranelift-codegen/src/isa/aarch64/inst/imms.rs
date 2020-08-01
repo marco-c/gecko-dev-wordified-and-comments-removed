@@ -39,7 +39,7 @@ aarch64
 inst
 :
 :
-InstSize
+OperandSize
 ;
 use
 crate
@@ -1336,7 +1336,7 @@ u8
 pub
 size
 :
-InstSize
+OperandSize
 }
 impl
 ImmLogic
@@ -1376,9 +1376,9 @@ None
 ;
 }
 let
-inst_size
+operand_size
 =
-InstSize
+OperandSize
 :
 :
 from_ty
@@ -1873,7 +1873,7 @@ as
 u8
 size
 :
-inst_size
+operand_size
 }
 )
 }
@@ -2923,7 +2923,7 @@ s
 0
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -2960,7 +2960,7 @@ s
 0
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3025,7 +3025,7 @@ s
 4
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3076,7 +3076,7 @@ s
 3
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3113,7 +3113,7 @@ s
 13
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3150,7 +3150,7 @@ s
 1
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3187,7 +3187,7 @@ s
 0
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3231,7 +3231,7 @@ s
 62
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3275,7 +3275,7 @@ s
 60
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3312,7 +3312,7 @@ s
 49
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3349,7 +3349,7 @@ s
 43
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3386,7 +3386,7 @@ s
 0
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
@@ -3423,7 +3423,7 @@ s
 56
 size
 :
-InstSize
+OperandSize
 :
 :
 Size64
