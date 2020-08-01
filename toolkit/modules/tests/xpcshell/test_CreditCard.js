@@ -3276,7 +3276,7 @@ visa
 5400000000000000
 "
 "
-diners
+mastercard
 "
 ]
 [
@@ -3284,7 +3284,7 @@ diners
 5500000000000000
 "
 "
-diners
+mastercard
 "
 ]
 [
@@ -3468,7 +3468,7 @@ mastercard
 5495770093313616
 "
 "
-diners
+mastercard
 "
 ]
 [
@@ -3476,7 +3476,7 @@ diners
 5574238524540144
 "
 "
-diners
+mastercard
 "
 ]
 [
