@@ -13573,11 +13573,7 @@ optimization
 test
 '
 :
-(
 schedules
-{
-}
-)
 }
         
 run
