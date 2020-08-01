@@ -32,15 +32,6 @@ AVAILABLE_PIP_OVERRIDES
 )
 ;
 const
-shims
-=
-new
-Shims
-(
-AVAILABLE_SHIMS
-)
-;
-const
 aboutCompatBroker
 =
 new
