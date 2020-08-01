@@ -77,6 +77,7 @@ var
 {
 DefaultMap
 ExtensionError
+parseMatchPatterns
 }
 =
 ExtensionUtils
@@ -3581,8 +3582,7 @@ this
 .
 documentUrlMatchPattern
 =
-new
-MatchPatternSet
+parseMatchPatterns
 (
 this
 .
@@ -3613,8 +3613,7 @@ this
 .
 targetUrlMatchPattern
 =
-new
-MatchPatternSet
+parseMatchPatterns
 (
 this
 .
