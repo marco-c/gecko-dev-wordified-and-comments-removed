@@ -46580,12 +46580,6 @@ case
 JSOp
 :
 :
-GetPrivateElem
-:
-case
-JSOp
-:
-:
 CallElem
 :
 return
@@ -46620,12 +46614,6 @@ JSOp
 :
 :
 SetElem
-:
-case
-JSOp
-:
-:
-SetPrivateElem
 :
 case
 JSOp

@@ -415,6 +415,14 @@ emitIncDec
 (
 )
 ;
+private
+:
+MOZ_MUST_USE
+bool
+emitPrivateGuard
+(
+)
+;
 }
 ;
 }
