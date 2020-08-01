@@ -881,6 +881,15 @@ nsIURI
 aURI
 )
 ;
+void
+CreateStaticImageClone
+(
+nsImageLoadingContent
+*
+aDest
+)
+const
+;
 RefPtr
 <
 imgRequestProxy
