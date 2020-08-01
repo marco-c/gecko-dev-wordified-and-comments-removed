@@ -2373,7 +2373,7 @@ EditorDOMPointType
 >
 static
 BoundaryData
-ScanWhiteSpaceStartFrom
+ScanCollapsibleWhiteSpaceStartFrom
 (
 const
 EditorDOMPointType
@@ -2399,7 +2399,7 @@ EditorDOMPointType
 >
 static
 BoundaryData
-ScanWhiteSpaceEndFrom
+ScanCollapsibleWhiteSpaceEndFrom
 (
 const
 EditorDOMPointType
@@ -2738,7 +2738,7 @@ Maybe
 <
 BoundaryData
 >
-ScanWhiteSpaceStartInTextNode
+ScanCollapsibleWhiteSpaceStartInTextNode
 (
 const
 EditorDOMPointType
@@ -2759,7 +2759,7 @@ Maybe
 <
 BoundaryData
 >
-ScanWhiteSpaceEndInTextNode
+ScanCollapsibleWhiteSpaceEndInTextNode
 (
 const
 EditorDOMPointType
