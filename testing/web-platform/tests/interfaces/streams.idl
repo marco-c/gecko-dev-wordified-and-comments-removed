@@ -654,11 +654,10 @@ Promise
 void
 >
 (
-WritableStreamDefaultController
-controller
-optional
 any
 chunk
+WritableStreamDefaultController
+controller
 )
 ;
 callback
@@ -876,11 +875,10 @@ Promise
 void
 >
 (
-TransformStreamDefaultController
-controller
-optional
 any
 chunk
+TransformStreamDefaultController
+controller
 )
 ;
 [
