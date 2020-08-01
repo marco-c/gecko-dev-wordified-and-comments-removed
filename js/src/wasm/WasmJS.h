@@ -108,6 +108,14 @@ cx
 )
 ;
 bool
+AnyCompilerAvailable
+(
+JSContext
+*
+cx
+)
+;
+bool
 IonDisabledByFeatures
 (
 JSContext
