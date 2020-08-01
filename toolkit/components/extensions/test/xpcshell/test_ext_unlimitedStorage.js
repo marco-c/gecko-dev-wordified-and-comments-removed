@@ -729,8 +729,12 @@ equal
 (
 principal
 .
+URI
+.
 spec
 newPrincipal
+.
+URI
 .
 spec
 "

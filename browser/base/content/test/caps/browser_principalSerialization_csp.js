@@ -394,8 +394,8 @@ is
 (
 principal
 .
-isContentPrincipal
-false
+URI
+null
 "
 Should
 have
@@ -414,6 +414,8 @@ else
 is
 (
 principal
+.
+URI
 .
 spec
 test

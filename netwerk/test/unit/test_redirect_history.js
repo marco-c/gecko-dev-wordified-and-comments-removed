@@ -271,6 +271,8 @@ i
 ]
 principal
 .
+URI
+.
 spec
 )
 ;

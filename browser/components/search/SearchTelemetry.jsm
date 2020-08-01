@@ -2433,6 +2433,15 @@ channel
 loadInfo
 .
 loadingPrincipal
+&
+&
+channel
+.
+loadInfo
+.
+loadingPrincipal
+.
+URI
 )
 {
 return
@@ -2441,6 +2450,8 @@ channel
 loadInfo
 .
 loadingPrincipal
+.
+URI
 .
 spec
 ;

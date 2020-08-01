@@ -2824,11 +2824,16 @@ loadInfo
 if
 (
 loadingPrincipal
+?
+.
+URI
 )
 {
 causeUri
 =
 loadingPrincipal
+.
+URI
 .
 spec
 ;
