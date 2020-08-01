@@ -719,11 +719,21 @@ attributes
 '
 :
 {
+                
 '
 image_name
 '
 :
 image_name
+                
+'
+artifact_prefix
+'
+:
+'
+public
+'
+            
 }
             
 '
