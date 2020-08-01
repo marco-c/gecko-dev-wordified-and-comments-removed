@@ -198,6 +198,9 @@ bool
 aPre
 )
 ;
+class
+Initializer
+;
 nsresult
 InitInternal
 (
