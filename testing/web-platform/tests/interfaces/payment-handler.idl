@@ -102,7 +102,7 @@ void
 >
 enableDelegations
 (
-FrozenArray
+sequence
 <
 PaymentDelegation
 >
@@ -339,13 +339,13 @@ error
 PaymentCurrencyAmount
 total
 ;
-FrozenArray
+sequence
 <
 PaymentDetailsModifier
 >
 modifiers
 ;
-FrozenArray
+sequence
 <
 PaymentShippingOption
 >
