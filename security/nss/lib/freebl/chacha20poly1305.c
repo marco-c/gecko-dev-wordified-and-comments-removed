@@ -340,13 +340,8 @@ SECFailure
 if
 (
 tagLen
+!
 =
-=
-0
-|
-|
-tagLen
->
 16
 )
 {
