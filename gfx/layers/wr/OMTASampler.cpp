@@ -47,6 +47,17 @@ mozilla
 /
 layers
 /
+OMTAController
+.
+h
+"
+#
+include
+"
+mozilla
+/
+layers
+/
 SynchronousTask
 .
 h
@@ -116,6 +127,8 @@ CompositorAnimationStorage
 >
 &
 aAnimStorage
+LayersId
+aRootLayersId
 )
 :
 mAnimStorage
@@ -150,6 +163,14 @@ mSampleTimeLock
 "
 )
 {
+mController
+=
+new
+OMTAController
+(
+aRootLayersId
+)
+;
 }
 void
 OMTASampler
@@ -602,6 +623,7 @@ mAnimStorage
 >
 SampleAnimations
 (
+mController
 aPreviousSampleTime
 aSampleTime
 )
@@ -731,6 +753,7 @@ mAnimStorage
 >
 SampleAnimations
 (
+mController
 previousSampleTime
 sampleTime
 )

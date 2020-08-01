@@ -1600,6 +1600,13 @@ h
 '
 wr
 /
+OMTAController
+.
+h
+'
+'
+wr
+/
 OMTASampler
 .
 h
@@ -3353,6 +3360,13 @@ cpp
 wr
 /
 IpcResourceUpdateQueue
+.
+cpp
+'
+'
+wr
+/
+OMTAController
 .
 cpp
 '

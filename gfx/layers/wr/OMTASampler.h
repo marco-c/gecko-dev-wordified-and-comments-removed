@@ -28,6 +28,17 @@ include
 "
 mozilla
 /
+layers
+/
+OMTAController
+.
+h
+"
+#
+include
+"
+mozilla
+/
 Maybe
 .
 h
@@ -108,7 +119,6 @@ OMTASampler
 )
 public
 :
-explicit
 OMTASampler
 (
 const
@@ -118,6 +128,8 @@ CompositorAnimationStorage
 >
 &
 aAnimStorage
+LayersId
+aRootLayersId
 )
 ;
 void
@@ -340,6 +352,12 @@ TimeStamp
 &
 aSampleTime
 )
+;
+RefPtr
+<
+OMTAController
+>
+mController
 ;
 RefPtr
 <
