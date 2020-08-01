@@ -1,13 +1,10 @@
 html
 body
 {
-width
-:
-250px
-;
 height
 :
-600px
+100
+%
 ;
 }
 body
@@ -44,7 +41,7 @@ inline
 -
 start
 :
-18px
+34px
 ;
 margin
 -
