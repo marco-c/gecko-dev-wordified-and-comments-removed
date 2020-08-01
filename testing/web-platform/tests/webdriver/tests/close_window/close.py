@@ -87,7 +87,6 @@ def
 test_close_browsing_context
 (
 session
-create_window
 )
 :
     
@@ -99,7 +98,9 @@ handles
     
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     
@@ -141,7 +142,6 @@ def
 test_close_browsing_context_with_dismissed_beforeunload_prompt
 (
 session
-create_window
 )
 :
     
@@ -153,7 +153,9 @@ handles
     
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     

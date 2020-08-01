@@ -63,7 +63,6 @@ def
 test_retain_tab_modal_status
 (
 session
-create_window
 )
 :
     
@@ -75,7 +74,9 @@ window_handle
     
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     

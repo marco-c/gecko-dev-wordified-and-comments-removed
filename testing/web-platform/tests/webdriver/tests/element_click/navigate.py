@@ -1,5 +1,3 @@
-import
-pytest
 from
 tests
 .
@@ -7,7 +5,6 @@ support
 .
 asserts
 import
-assert_error
 assert_success
 from
 tests
@@ -930,13 +927,15 @@ def
 test_link_closes_window
 (
 session
-create_window
+url
 )
 :
     
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     
@@ -960,21 +959,17 @@ a
 href
 =
 "
-/
-webdriver
-/
-tests
-/
-element_click
-/
-support
-/
-close_window
+javascript
+:
+window
 .
-html
+close
+(
+)
 "
 >
-asdf
+Close
+me
 <
 /
 a

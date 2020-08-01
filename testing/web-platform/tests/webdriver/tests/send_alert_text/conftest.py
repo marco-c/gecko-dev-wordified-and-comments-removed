@@ -22,7 +22,6 @@ fixture_session
 (
 capabilities
 session
-create_window
 )
 :
     
@@ -56,7 +55,9 @@ session
 .
 window_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     

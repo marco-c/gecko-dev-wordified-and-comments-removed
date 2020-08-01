@@ -56,7 +56,6 @@ check_user_prompt_closed_without_exception
 (
 session
 create_dialog
-create_window
 )
 :
     
@@ -76,7 +75,9 @@ window_handle
         
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
         
@@ -141,7 +142,6 @@ check_user_prompt_closed_with_exception
 (
 session
 create_dialog
-create_window
 )
 :
     
@@ -155,7 +155,9 @@ retval
         
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
         
@@ -218,7 +220,6 @@ check_user_prompt_not_closed_but_exception
 (
 session
 create_dialog
-create_window
 )
 :
     
@@ -231,7 +232,9 @@ dialog_type
         
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
         

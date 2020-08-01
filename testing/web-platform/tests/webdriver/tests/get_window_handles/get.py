@@ -50,7 +50,6 @@ def
 test_no_browsing_context
 (
 session
-create_window
 )
 :
     
@@ -60,17 +59,15 @@ session
 .
 handles
     
-new_handle
-=
-create_window
-(
-)
-    
 session
 .
 window_handle
 =
-new_handle
+session
+.
+new_window
+(
+)
     
 session
 .
@@ -144,7 +141,6 @@ def
 test_multiple_windows
 (
 session
-create_window
 )
 :
     
@@ -156,7 +152,9 @@ window_handle
     
 new_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     

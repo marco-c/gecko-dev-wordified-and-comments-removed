@@ -875,7 +875,6 @@ def
 test_set_to_state_cross_realm
 (
 session
-create_window
 url
 state
 realmSetting
@@ -913,7 +912,9 @@ session
 .
 window_handle
 =
-create_window
+session
+.
+new_window
 (
 )
     

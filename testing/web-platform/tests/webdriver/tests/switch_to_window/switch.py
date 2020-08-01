@@ -120,22 +120,19 @@ def
 test_null_response_value
 (
 session
-create_window
 )
 :
-    
-new_handle
-=
-create_window
-(
-)
     
 response
 =
 switch_to_window
 (
 session
-new_handle
+session
+.
+new_window
+(
+)
 )
     
 value
