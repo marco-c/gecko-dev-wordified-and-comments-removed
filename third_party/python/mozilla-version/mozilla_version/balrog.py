@@ -413,6 +413,9 @@ True
 cmp
 =
 False
+hash
+=
+True
 )
 class
 BalrogReleaseName
