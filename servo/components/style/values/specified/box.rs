@@ -9478,7 +9478,6 @@ in_ua_or_chrome_sheet
 )
 ]
 Groupbox
-InnerSpinButton
 Listbox
 #
 [
@@ -9732,7 +9731,6 @@ in_ua_or_chrome_sheet
 )
 ]
 Progresschunk
-ProgressbarVertical
 Checkbox
 Radio
 #
@@ -9827,13 +9825,6 @@ in_ua_or_chrome_sheet
 )
 ]
 Resizer
-ScaleHorizontal
-ScaleVertical
-ScalethumbHorizontal
-ScalethumbVertical
-Scalethumbstart
-Scalethumbend
-Scalethumbtick
 #
 [
 parse
