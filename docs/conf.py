@@ -267,6 +267,10 @@ recommonmark
 "
 sphinx_copybutton
 "
+    
+"
+sphinx_markdown_tables
+"
 ]
 js_source_path
 =
