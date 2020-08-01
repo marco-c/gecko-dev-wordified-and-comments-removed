@@ -868,6 +868,13 @@ projectDirectoryRoot
 ;
 prefs
 .
+projectDirectoryRootName
+=
+"
+"
+;
+prefs
+.
 expressions
 =
 [

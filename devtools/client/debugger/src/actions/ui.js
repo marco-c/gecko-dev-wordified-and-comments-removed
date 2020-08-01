@@ -842,6 +842,10 @@ url
 :
 "
 "
+name
+:
+"
+"
 }
 ;
 }
@@ -853,6 +857,9 @@ cx
 :
 Context
 newRoot
+:
+string
+newName
 :
 string
 )
@@ -1045,6 +1052,9 @@ cx
 url
 :
 newRoot
+name
+:
+newName
 }
 )
 ;
