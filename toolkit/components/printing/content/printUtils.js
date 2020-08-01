@@ -307,6 +307,7 @@ aBrowsingContext
 printWindow
 (
 aBrowsingContext
+aPrintSettings
 )
 {
 let
@@ -381,6 +382,9 @@ FROM_PAGE
 let
 printSettings
 =
+aPrintSettings
+|
+|
 this
 .
 getPrintSettings
