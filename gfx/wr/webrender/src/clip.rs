@@ -3299,8 +3299,13 @@ shared_clips
 Vec
 :
 :
-new
+with_capacity
 (
+maybe_shared_clips
+.
+len
+(
+)
 )
 ;
 for
@@ -3354,12 +3359,6 @@ level
 ClipChainLevel
 {
 shared_clips
-:
-shared_clips
-.
-to_vec
-(
-)
 first_clip_index
 :
 self
