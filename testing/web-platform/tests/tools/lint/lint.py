@@ -6211,6 +6211,11 @@ glob
 type
 =
 ensure_text
+action
+=
+"
+append
+"
                         
 help
 =
@@ -6220,7 +6225,12 @@ file
 glob
 to
 ignore
-.
+(
+repeat
+to
+add
+more
+)
 "
 )
     
@@ -6444,10 +6454,9 @@ get
 "
 ignore_glob
 "
+[
+]
 )
-or
-"
-"
     
 return
 lint
@@ -6465,8 +6474,7 @@ paths
 output_format
 ignore_glob
 =
-"
-"
+None
 )
 :
     
@@ -6520,8 +6528,9 @@ ignore_glob
 :
         
 skipped_files
-.
-add
+|
+=
+set
 (
 ignore_glob
 )
