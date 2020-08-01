@@ -5,8 +5,6 @@ absolute_import
 print_function
 unicode_literals
 import
-json
-import
 logging
 import
 attr
@@ -351,13 +349,10 @@ headers
             
 task_list
 =
-json
-.
-loads
-(
 response
 .
-content
+json
+(
 )
 .
 get
@@ -479,13 +474,10 @@ headers
             
 task_list
 =
-json
-.
-loads
-(
 response
 .
-content
+json
+(
 )
 .
 get
