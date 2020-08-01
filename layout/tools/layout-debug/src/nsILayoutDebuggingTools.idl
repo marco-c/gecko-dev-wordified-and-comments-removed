@@ -271,6 +271,11 @@ dumpFramesInCSSPixels
 )
 ;
 void
+dumpTextRuns
+(
+)
+;
+void
 dumpViews
 (
 )

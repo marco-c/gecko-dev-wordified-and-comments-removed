@@ -253,6 +253,9 @@ dumpFrames
 dumpFramesInCSSPixels
 "
 "
+dumpTextRuns
+"
+"
 dumpViews
 "
 "
