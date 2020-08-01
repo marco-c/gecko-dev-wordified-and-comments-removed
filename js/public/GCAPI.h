@@ -329,9 +329,12 @@ void
 *
 )
 (
+JSFunction
+*
+doCleanup
 JSObject
 *
-registry
+incumbentGlobal
 void
 *
 data
