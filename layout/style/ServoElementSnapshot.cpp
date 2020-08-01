@@ -74,6 +74,10 @@ mIsMozBrowserFrame
 (
 false
 )
+mIsSelectListBox
+(
+false
+)
 mClassAttributeChanged
 (
 false
@@ -151,6 +155,14 @@ aElement
 mIsMozBrowserFrame
 =
 Gecko_IsBrowserFrame
+(
+&
+aElement
+)
+;
+mIsSelectListBox
+=
+Gecko_IsSelectListBox
 (
 &
 aElement
