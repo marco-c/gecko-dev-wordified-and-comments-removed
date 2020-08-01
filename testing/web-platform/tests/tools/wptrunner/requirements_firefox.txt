@@ -55,9 +55,9 @@ mozprofile
 mozrunner
 =
 =
-7
-.
 8
+.
+0
 .
 0
 mozversion
