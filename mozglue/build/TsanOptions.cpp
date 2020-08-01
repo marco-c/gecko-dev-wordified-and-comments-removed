@@ -1143,6 +1143,13 @@ so
 \
 n
 "
+"
+race
+:
+system_base_info
+\
+n
+"
 ;
 }
 #
