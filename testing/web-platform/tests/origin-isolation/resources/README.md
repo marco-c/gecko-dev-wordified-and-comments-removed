@@ -17,6 +17,10 @@ Because
 /
 getter
 -
+special
+-
+cases
+/
 sandboxed
 -
 iframe
