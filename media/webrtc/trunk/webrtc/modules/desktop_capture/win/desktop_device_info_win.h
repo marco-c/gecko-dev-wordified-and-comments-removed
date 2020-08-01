@@ -46,13 +46,6 @@ protected
 :
 virtual
 void
-InitializeApplicationList
-(
-)
-override
-;
-virtual
-void
 InitializeScreenList
 (
 )
