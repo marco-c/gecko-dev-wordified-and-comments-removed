@@ -226,6 +226,15 @@ UpdateVisualViewportSizeForPotentialScrollbarChange
 (
 )
 ;
+mozilla
+:
+:
+CSSSize
+GetIntrinsicCompositionSize
+(
+)
+const
+;
 private
 :
 ~
