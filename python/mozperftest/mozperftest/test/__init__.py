@@ -11,14 +11,6 @@ mozperftest
 .
 test
 .
-profile
-import
-Profile
-from
-mozperftest
-.
-test
-.
 androidlog
 import
 AndroidLog
@@ -36,7 +28,6 @@ get_layers
     
 return
 (
-Profile
 BrowsertimeRunner
 AndroidLog
 )
@@ -66,7 +57,6 @@ Layers
 env
 mach_cmd
 (
-Profile
 BrowsertimeRunner
 )
 )
@@ -88,7 +78,6 @@ Layers
 env
 mach_cmd
 (
-Profile
 BrowsertimeRunner
 AndroidLog
 )

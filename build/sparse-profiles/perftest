@@ -25,6 +25,11 @@ path
 testing
 /
 performance
+path
+:
+testing
+/
+condprofile
 glob
 :
 *

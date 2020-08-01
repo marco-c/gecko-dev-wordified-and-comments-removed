@@ -20,6 +20,14 @@ system
 android
 import
 AndroidDevice
+from
+mozperftest
+.
+system
+.
+profile
+import
+Profile
 def
 get_layers
 (
@@ -27,10 +35,9 @@ get_layers
 :
     
 return
-(
+Profile
 ProxyRunner
 AndroidDevice
-)
 def
 pick_system
 (
@@ -57,6 +64,7 @@ Layers
 env
 mach_cmd
 (
+Profile
 ProxyRunner
 )
 )
@@ -78,6 +86,7 @@ Layers
 env
 mach_cmd
 (
+Profile
 ProxyRunner
 AndroidDevice
 )

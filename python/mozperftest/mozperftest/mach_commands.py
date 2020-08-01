@@ -720,6 +720,35 @@ black
     
 )
     
+CommandArgument
+(
+        
+"
+-
+v
+"
+"
+-
+-
+verbose
+"
+action
+=
+"
+store_true
+"
+default
+=
+False
+help
+=
+"
+Verbose
+mode
+"
+    
+)
+    
 def
 run_tests
 (
@@ -1068,6 +1097,31 @@ tests
 import
 pytest
         
+options
+=
+"
+-
+xs
+"
+        
+if
+kwargs
+.
+get
+(
+"
+verbose
+"
+)
+:
+            
+options
++
+=
+"
+v
+"
+        
 with
 temporary_env
 (
@@ -1124,10 +1178,7 @@ pytest
 .
 __file__
                 
-"
--
-xs
-"
+options
                 
 tests
             

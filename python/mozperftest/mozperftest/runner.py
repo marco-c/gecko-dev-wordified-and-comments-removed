@@ -265,6 +265,12 @@ mozversioncontrol
 "
 testing
 /
+condprofile
+"
+    
+"
+testing
+/
 mozbase
 /
 mozdevice
