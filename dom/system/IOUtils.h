@@ -511,7 +511,11 @@ aBytes
 )
 ;
 static
+Result
+<
+Ok
 nsresult
+>
 MoveSync
 (
 const
@@ -527,7 +531,11 @@ noOverwrite
 )
 ;
 static
+Result
+<
+Ok
 nsresult
+>
 RemoveSync
 (
 const
@@ -541,7 +549,11 @@ aRecursive
 )
 ;
 static
+Result
+<
+Ok
 nsresult
+>
 CreateDirectorySync
 (
 const
@@ -629,7 +641,7 @@ mozilla
 :
 MozPromise
 <
-bool
+Ok
 const
 nsresult
 true
