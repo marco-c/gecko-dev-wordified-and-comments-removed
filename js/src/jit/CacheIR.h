@@ -7494,6 +7494,13 @@ callee
 )
 ;
 AttachDecision
+tryAttachGetFirstDollarIndex
+(
+HandleFunction
+callee
+)
+;
+AttachDecision
 tryAttachSubstringKernel
 (
 HandleFunction
