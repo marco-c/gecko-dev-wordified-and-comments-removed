@@ -4393,14 +4393,6 @@ self
 .
 lstrip_unless_re
         
-newlines_stripped
-=
-0
-        
-line_starting
-=
-True
-        
 while
 1
 :
@@ -4511,37 +4503,14 @@ strip_sign
 "
 :
                             
-stripped
+groups
 =
+(
 text
 .
 rstrip
 (
 )
-                            
-newlines_stripped
-=
-text
-[
-len
-(
-stripped
-)
-:
-]
-.
-count
-(
-"
-\
-n
-"
-)
-                            
-groups
-=
-(
-stripped
 )
 +
 groups
@@ -4597,14 +4566,6 @@ n
 1
                             
 if
-l_pos
->
-0
-or
-line_starting
-:
-                                
-if
 not
 lstrip_unless_re
 .
@@ -4614,7 +4575,7 @@ text
 l_pos
 )
 :
-                                    
+                                
 groups
 =
 (
@@ -4775,12 +4736,6 @@ count
 n
 "
 )
-+
-newlines_stripped
-                            
-newlines_stripped
-=
-0
                 
 else
 :
@@ -4968,25 +4923,6 @@ count
 n
 "
 )
-                
-line_starting
-=
-m
-.
-group
-(
-)
-[
--
-1
-:
-]
-=
-=
-"
-\
-n
-"
                 
 pos2
 =
