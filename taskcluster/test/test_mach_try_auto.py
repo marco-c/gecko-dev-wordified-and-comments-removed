@@ -80,6 +80,7 @@ update
 (
         
 {
+            
 "
 head_repository
 "
@@ -97,6 +98,7 @@ org
 /
 try
 "
+            
 "
 project
 "
@@ -104,6 +106,7 @@ project
 "
 try
 "
+            
 "
 target_kind
 "
@@ -111,6 +114,7 @@ target_kind
 "
 test
 "
+        
 }
     
 )
@@ -339,6 +343,7 @@ else
 unimportant
 =
 [
+                
 t
 for
 t
@@ -354,6 +359,7 @@ t
 not
 in
 important_manifests
+            
 ]
             
 assert
@@ -368,6 +374,7 @@ mark
 .
 xfail
 (
+    
 reason
 =
 "
@@ -401,17 +408,19 @@ optimized_task_graph
 tasks
 =
 [
+        
 t
 .
 label
+        
 for
 t
 in
 filter_tasks
 (
-        
+            
 optimized_task_graph
-        
+            
 lambda
 t
 :
@@ -423,7 +432,7 @@ kind
 "
 build
 "
-        
+            
 and
 "
 shippable
@@ -437,7 +446,7 @@ attributes
 build_platform
 "
 ]
-        
+            
 and
 t
 .
@@ -454,8 +463,9 @@ macosx64
 -
 shippable
 "
-    
+        
 )
+    
 ]
     
 assert

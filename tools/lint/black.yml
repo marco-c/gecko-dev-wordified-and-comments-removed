@@ -66,6 +66,10 @@ scriptworker_canary
 .
 py
 -
+taskcluster
+/
+test
+-
 testing
 /
 condprofile
