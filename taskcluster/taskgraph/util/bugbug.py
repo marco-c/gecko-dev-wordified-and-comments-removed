@@ -386,9 +386,27 @@ get_session
 (
 )
     
-attempts
+timeout
 =
 RETRY_TIMEOUT
+    
+if
+branch
+=
+=
+"
+try
+"
+:
+        
+timeout
+*
+=
+2
+    
+attempts
+=
+timeout
 /
 RETRY_INTERVAL
     
