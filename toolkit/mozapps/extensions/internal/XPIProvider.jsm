@@ -11453,6 +11453,9 @@ isInstallEnabled
 "
 updateSystemAddons
 "
+"
+stageLangpacksForAppUpdate
+"
 ]
 )
 {

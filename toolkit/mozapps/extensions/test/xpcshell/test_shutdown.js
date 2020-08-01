@@ -68,6 +68,9 @@ getInstallSourceFromHost
 "
 getInstallSourceFromPrincipal
 "
+"
+stageLangpacksForAppUpdate
+"
 ]
 ;
 const
