@@ -2124,6 +2124,10 @@ gtk_window_set_title
 )
 STUB
 (
+gtk_window_set_titlebar
+)
+STUB
+(
 gtk_window_set_transient_for
 )
 STUB
