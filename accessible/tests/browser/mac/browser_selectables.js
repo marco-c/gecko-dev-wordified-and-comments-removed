@@ -438,7 +438,7 @@ getAttributeValue
 AXSelected
 "
 )
-false
+0
 "
 AX
 selected

@@ -842,6 +842,12 @@ value
 sort
 (
 )
+.
+join
+(
+"
+"
+)
 locales
 .
 sort

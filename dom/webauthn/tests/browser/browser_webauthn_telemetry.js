@@ -368,9 +368,15 @@ authenticatorData
 ;
 is
 (
+"
+"
++
 attestation
 .
 flags
+"
+"
++
 flag_TUP
 "
 Assertion

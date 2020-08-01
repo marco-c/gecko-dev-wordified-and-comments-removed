@@ -437,6 +437,9 @@ selectedNodes
 {
 is
 (
+"
+"
++
 node
 .
 bookmarkIndex

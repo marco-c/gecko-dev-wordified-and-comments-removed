@@ -704,13 +704,14 @@ popuphidden
 appMenuPopupHidden
 )
 ;
-is
+ok
 (
+!
 PanelUI
 .
 menuButton
 .
-getAttribute
+hasAttribute
 (
 "
 badge
@@ -718,7 +719,6 @@ badge
 status
 "
 )
-false
 "
 badge
 is

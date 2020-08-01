@@ -522,7 +522,9 @@ is
 addon
 .
 applyBackgroundUpdates
+"
 2
+"
 "
 Updates
 are
@@ -575,7 +577,9 @@ is
 addon
 .
 applyBackgroundUpdates
+"
 0
+"
 "
 Updates
 are
@@ -739,7 +743,9 @@ is
 addon
 .
 applyBackgroundUpdates
+"
 0
+"
 "
 Updates
 are
@@ -793,7 +799,9 @@ is
 addon
 .
 applyBackgroundUpdates
+"
 1
+"
 "
 Default
 is
@@ -846,7 +854,9 @@ is
 addon
 .
 applyBackgroundUpdates
+"
 2
+"
 "
 Updates
 are

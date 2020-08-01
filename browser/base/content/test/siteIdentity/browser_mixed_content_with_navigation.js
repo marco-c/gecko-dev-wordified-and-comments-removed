@@ -525,7 +525,7 @@ box
 "
 )
 .
-classList
+className
 ;
 is
 (

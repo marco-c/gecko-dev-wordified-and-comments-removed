@@ -241,6 +241,8 @@ is
 win
 .
 location
+.
+href
 "
 chrome
 :

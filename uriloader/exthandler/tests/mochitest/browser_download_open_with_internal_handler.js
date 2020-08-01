@@ -364,6 +364,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :
@@ -1065,6 +1067,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :
@@ -1614,6 +1618,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :
@@ -2015,6 +2021,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :
@@ -2347,6 +2355,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :
@@ -2531,6 +2541,8 @@ is
 dialogWindow
 .
 location
+.
+href
 "
 chrome
 :

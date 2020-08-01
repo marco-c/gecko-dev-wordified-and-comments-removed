@@ -359,10 +359,10 @@ getAddonByID
 FIXTURE_ADDON_ID
 )
 ;
-is
+ok
 (
+!
 addon
-undefined
 "
 add
 -
@@ -743,10 +743,10 @@ getAddonByID
 FIXTURE_ADDON_ID
 )
 ;
-is
+ok
 (
+!
 addon
-undefined
 "
 add
 -

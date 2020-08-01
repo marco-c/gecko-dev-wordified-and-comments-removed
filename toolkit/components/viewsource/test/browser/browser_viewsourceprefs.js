@@ -967,6 +967,9 @@ styleProperty
 is
 (
 value
+"
+"
++
 expected
 "
 Correct

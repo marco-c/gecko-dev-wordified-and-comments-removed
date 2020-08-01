@@ -523,6 +523,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_OFFER
@@ -593,6 +596,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATING
@@ -696,6 +702,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_ERROR
@@ -741,6 +750,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATING
@@ -844,6 +856,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATED
@@ -1097,6 +1112,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATING
@@ -1228,6 +1246,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATING
@@ -1354,6 +1375,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_OFFER
@@ -1423,6 +1447,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_TRANSLATING
@@ -1809,6 +1836,9 @@ is
 notif
 .
 state
+"
+"
++
 Translation
 .
 STATE_OFFER

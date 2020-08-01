@@ -579,7 +579,9 @@ text
 is
 (
 text
+"
 1
+"
 "
 Cookies
 received
@@ -650,7 +652,9 @@ text
 is
 (
 text
+"
 1
+"
 "
 Cookies
 received
@@ -1456,7 +1460,9 @@ text
 is
 (
 text
+"
 0
+"
 "
 No
 cookie
@@ -1529,7 +1535,9 @@ text
 is
 (
 text
+"
 0
+"
 "
 No
 cookie

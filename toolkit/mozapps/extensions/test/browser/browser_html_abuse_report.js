@@ -4107,14 +4107,14 @@ menu
 await
 onceCreateReportFailed
 ;
-is
+ok
 (
+!
 AbuseReporter
 .
 getOpenDialog
 (
 )
-undefined
 "
 report
 dialog

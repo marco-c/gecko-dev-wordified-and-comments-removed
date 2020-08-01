@@ -94,7 +94,9 @@ testGetMissing
 (
 )
 {
-is
+ok
+(
+!
 (
 await
 AddonRollouts
@@ -109,7 +111,7 @@ not
 exist
 "
 )
-null
+)
 "
 get
 should

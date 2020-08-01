@@ -164,7 +164,9 @@ is
 cookie
 .
 value
+"
 1
+"
 "
 Should
 have
@@ -271,7 +273,9 @@ is
 cookie
 .
 value
+"
 1
+"
 "
 Should
 have

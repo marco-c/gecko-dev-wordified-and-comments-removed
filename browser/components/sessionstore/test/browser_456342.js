@@ -358,6 +358,9 @@ id
 [
 id
 ]
+"
+"
++
 expectedValue
 Check
 saved
@@ -422,6 +425,9 @@ xpath
 [
 exp
 ]
+"
+"
++
 expectedValue
 Check
 saved

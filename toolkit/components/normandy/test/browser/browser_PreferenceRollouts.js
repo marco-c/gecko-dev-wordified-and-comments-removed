@@ -94,7 +94,9 @@ testGetMissing
 (
 )
 {
-is
+ok
+(
+!
 (
 await
 PreferenceRollouts
@@ -109,7 +111,7 @@ not
 exist
 "
 )
-null
+)
 "
 get
 should

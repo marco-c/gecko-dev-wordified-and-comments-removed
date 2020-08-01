@@ -3114,6 +3114,9 @@ e
 ;
 is
 (
+"
+"
++
 patch
 .
 getProperty
@@ -3981,6 +3984,9 @@ e
 ;
 is
 (
+"
+"
++
 patch
 .
 getProperty

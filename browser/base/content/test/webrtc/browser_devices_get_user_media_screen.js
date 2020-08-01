@@ -391,8 +391,10 @@ is
 menulist
 .
 value
+"
 -
 1
+"
 "
 no
 window
@@ -1410,8 +1412,10 @@ is
 menulist
 .
 value
+"
 -
 1
+"
 "
 no
 window

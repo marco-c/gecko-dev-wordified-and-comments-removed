@@ -713,8 +713,9 @@ unlocked
 "
 )
 ;
-is
+ok
 (
+!
 Services
 .
 prefs
@@ -728,7 +729,6 @@ pref3
 "
 undefined
 )
-undefined
 "
 test1
 .

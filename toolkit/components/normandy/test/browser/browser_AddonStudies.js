@@ -197,7 +197,9 @@ testGetMissing
 (
 )
 {
-is
+ok
+(
+!
 (
 await
 AddonStudies
@@ -212,7 +214,7 @@ not
 exist
 "
 )
-null
+)
 "
 get
 returns

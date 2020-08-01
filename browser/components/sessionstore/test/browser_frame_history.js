@@ -358,6 +358,8 @@ i
 contentDocument
 .
 location
+.
+href
 getRootDirectory
 (
 gTestPath
@@ -764,6 +766,8 @@ i
 contentDocument
 .
 location
+.
+href
 getRootDirectory
 (
 gTestPath

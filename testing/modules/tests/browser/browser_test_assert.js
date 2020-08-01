@@ -80,7 +80,7 @@ is
 ;
 func
 (
-true
+1
 1
 "
 pass

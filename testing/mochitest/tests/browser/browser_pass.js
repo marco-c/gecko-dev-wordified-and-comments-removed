@@ -83,7 +83,7 @@ is
 func
 (
 true
-1
+true
 "
 pass
 indirect

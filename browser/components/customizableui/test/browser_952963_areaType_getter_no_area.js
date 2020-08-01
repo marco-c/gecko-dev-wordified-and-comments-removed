@@ -57,12 +57,12 @@ widget
 {
 try
 {
-is
+ok
 (
+!
 widget
 .
 areaType
-null
 "
 areaType
 should
