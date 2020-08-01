@@ -109,4 +109,9 @@ stylesheet
 .
 js
 '
+'
+websocket
+.
+js
+'
 )
