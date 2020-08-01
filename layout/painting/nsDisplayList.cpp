@@ -46840,6 +46840,17 @@ ImgDrawResult
 :
 :
 SUCCESS_NOT_COMPLETE
+|
+|
+imgParams
+.
+result
+=
+=
+ImgDrawResult
+:
+:
+WRONG_SIZE
 )
 ;
 }
