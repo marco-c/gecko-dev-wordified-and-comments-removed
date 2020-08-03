@@ -185,6 +185,15 @@ None
 delay_ping_lifetime_io
 :
 false
+language_binding_name
+:
+"
+Rust
+"
+.
+into
+(
+)
 }
 ;
 let
