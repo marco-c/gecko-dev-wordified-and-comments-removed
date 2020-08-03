@@ -113,9 +113,7 @@ Team
 name
 :
 "
-App
--
-link
+VIEW
 "
 description
 :
@@ -123,7 +121,7 @@ description
 Measures
 cold
 process
-applink
+view
 time
 "
 longDescription
@@ -136,9 +134,13 @@ appropriate
 android
 app
 simulating
-an
-app
+a
+opening
+a
 link
+through
+VIEW
+intent
 workflow
 .
 The
@@ -186,7 +188,7 @@ testing
 /
 performance
 /
-perftest_applink
+perftest_android_view
 .
 js
 \
@@ -224,7 +226,7 @@ testing
 /
 performance
 /
-hooks_applink
+hooks_android_view
 .
 py
 \
@@ -239,7 +241,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 \
 -
 -

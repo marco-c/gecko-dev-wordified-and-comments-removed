@@ -235,7 +235,7 @@ hw
 -
 g5
 -
-applink
+view
 -
 fenix
 :
@@ -255,7 +255,7 @@ g5
 description
 :
 Run
-applink
+VIEW
 perftest
 on
 Fenix
@@ -268,7 +268,7 @@ symbol
 :
 perftest
 (
-applink
+view
 -
 fenix
 )
@@ -399,7 +399,7 @@ testing
 /
 performance
 /
-hooks_applink
+hooks_android_view
 .
 py
 -
@@ -465,14 +465,14 @@ testing
 /
 performance
 /
-perftest_applink
+perftest_android_view
 .
 js
 hw
 -
 p2
 -
-applink
+view
 -
 fenix
 :
@@ -492,7 +492,7 @@ p2
 description
 :
 Run
-applink
+VIEW
 perftest
 on
 Fenix
@@ -505,7 +505,7 @@ symbol
 :
 perftest
 (
-applink
+view
 -
 fenix
 )
@@ -641,7 +641,7 @@ testing
 /
 performance
 /
-hooks_applink
+hooks_android_view
 .
 py
 -
@@ -707,14 +707,14 @@ testing
 /
 performance
 /
-perftest_applink
+perftest_android_view
 .
 js
 hw
 -
 g5
 -
-applink
+view
 -
 gv
 :
@@ -734,7 +734,7 @@ g5
 description
 :
 Run
-applink
+VIEW
 perftest
 on
 GV
@@ -747,7 +747,7 @@ symbol
 :
 perftest
 (
-applink
+view
 -
 gv
 )
@@ -875,7 +875,7 @@ testing
 /
 performance
 /
-hooks_applink
+hooks_android_view
 .
 py
 -
@@ -939,14 +939,14 @@ testing
 /
 performance
 /
-perftest_applink
+perftest_android_view
 .
 js
 hw
 -
 p2
 -
-applink
+view
 -
 gv
 :
@@ -966,7 +966,7 @@ p2
 description
 :
 Run
-applink
+VIEW
 perftest
 on
 GV
@@ -980,7 +980,7 @@ symbol
 :
 perftest
 (
-applink
+view
 -
 gv
 )
@@ -1113,7 +1113,7 @@ testing
 /
 performance
 /
-hooks_applink
+hooks_android_view
 .
 py
 -
@@ -1177,7 +1177,7 @@ testing
 /
 performance
 /
-perftest_applink
+perftest_android_view
 .
 js
 android
@@ -1851,7 +1851,7 @@ testing
 /
 performance
 /
-hooks_home_activity
+hooks_android_main
 .
 py
 -
@@ -1917,7 +1917,7 @@ testing
 /
 performance
 /
-perftest_home_activity
+perftest_android_main
 .
 js
 hw
@@ -2150,7 +2150,7 @@ testing
 /
 performance
 /
-hooks_home_activity
+hooks_android_main
 .
 py
 -
@@ -2216,6 +2216,6 @@ testing
 /
 performance
 /
-perftest_home_activity
+perftest_android_main
 .
 js

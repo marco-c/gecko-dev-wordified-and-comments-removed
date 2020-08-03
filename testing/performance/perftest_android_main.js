@@ -30,7 +30,7 @@ Team
 name
 :
 "
-HomeActivity
+main
 "
 description
 :
@@ -44,7 +44,11 @@ start
 until
 the
 Fenix
+main
+activity
+(
 HomeActivity
+)
 reports
 Fully
 Drawn
@@ -57,8 +61,11 @@ launches
 Fenix
 to
 its
-MAIN
+main
 activity
+(
+HomeActivity
+)
 .
 The
 application
@@ -69,8 +76,7 @@ Drawn
 "
 when
 the
-Home
-Activity
+activity
 is
 drawn
 .
@@ -100,7 +106,7 @@ testing
 /
 performance
 /
-perftest_home_activity
+perftest_android_main
 .
 js
 -
@@ -137,7 +143,7 @@ org
 .
 mozilla
 .
-fennec_aurora
+fenix
 \
 -
 -
@@ -175,9 +181,7 @@ android
 capture
 -
 logcat
-home_activity_log
-.
-txt
+logcat
 \
 -
 -
