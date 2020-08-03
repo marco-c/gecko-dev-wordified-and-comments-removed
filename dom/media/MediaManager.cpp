@@ -20401,6 +20401,7 @@ revoke
 nsresult
 rv
 ;
+const
 nsDependentString
 data
 (
@@ -20434,8 +20435,6 @@ screen
 uint64_t
 windowID
 =
-PromiseFlatString
-(
 Substring
 (
 data
@@ -20445,7 +20444,6 @@ strlen
 screen
 :
 "
-)
 )
 )
 .
@@ -20499,10 +20497,7 @@ else
 uint64_t
 windowID
 =
-nsString
-(
-aData
-)
+data
 .
 ToInteger64
 (
