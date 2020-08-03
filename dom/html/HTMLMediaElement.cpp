@@ -26618,6 +26618,13 @@ mAutoplaying
 true
 ;
 }
+mMediaControlKeyListener
+-
+>
+StopIfNeeded
+(
+)
+;
 DispatchAsyncEvent
 (
 u
