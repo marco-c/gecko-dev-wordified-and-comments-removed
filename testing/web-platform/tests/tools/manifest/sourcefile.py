@@ -2729,6 +2729,23 @@ in
 self
 .
 meta_flags
+or
+"
+tentative
+"
+in
+self
+.
+dir_path
+.
+split
+(
+os
+.
+path
+.
+sep
+)
     
 property
     
