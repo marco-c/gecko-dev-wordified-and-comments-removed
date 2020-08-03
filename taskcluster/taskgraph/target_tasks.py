@@ -195,6 +195,14 @@ marionette
 -
 headless
 |
+mochitest
+-
+devtools
+-
+chrome
+-
+fis
+|
 raptor
 |
 talos
