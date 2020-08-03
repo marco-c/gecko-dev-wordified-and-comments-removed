@@ -159,6 +159,11 @@ MediaController
 :
 EventTarget
 {
+readonly
+attribute
+boolean
+isActive
+;
 [
 Frozen
 Cached
@@ -171,6 +176,14 @@ sequence
 MediaControlKey
 >
 supportedKeys
+;
+attribute
+EventHandler
+onactivated
+;
+attribute
+EventHandler
+ondeactivated
 ;
 attribute
 EventHandler
