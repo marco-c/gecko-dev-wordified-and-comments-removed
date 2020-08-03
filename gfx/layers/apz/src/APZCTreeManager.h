@@ -1308,6 +1308,13 @@ const
 HitTestingTreeNodeAutoLock
 &
 aScrollThumbNode
+const
+gfx
+:
+:
+CompositorHitTestInfo
+&
+aHitInfo
 )
 ;
 void
