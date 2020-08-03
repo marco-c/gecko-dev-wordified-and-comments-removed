@@ -968,8 +968,6 @@ attrs
 {
 }
 test
-:
-function
 (
 panel
 )
@@ -984,8 +982,6 @@ openPopupAtScreen
 ;
 }
 result
-:
-function
 (
 testname
 panel
@@ -1000,9 +996,6 @@ alert
 testname
 )
 ;
-var
-panelrect
-=
 panel
 .
 getBoundingClientRect
@@ -1045,8 +1038,6 @@ normal
 "
 }
 test
-:
-function
 (
 panel
 )
@@ -1061,8 +1052,6 @@ openPopupAtScreen
 ;
 }
 result
-:
-function
 (
 testname
 panel
@@ -1077,9 +1066,6 @@ alert
 testname
 )
 ;
-var
-panelrect
-=
 panel
 .
 getBoundingClientRect
@@ -1110,8 +1096,6 @@ normal
 "
 }
 test
-:
-function
 (
 panel
 )
@@ -1130,8 +1114,6 @@ openPopupAtScreen
 ;
 }
 result
-:
-function
 (
 testname
 panel
@@ -1146,9 +1128,6 @@ alert
 testname
 )
 ;
-var
-panelrect
-=
 panel
 .
 getBoundingClientRect
@@ -1166,6 +1145,20 @@ mouseMoved
 event
 )
 {
+/
+/
+eslint
+-
+disable
+-
+next
+-
+line
+no
+-
+unused
+-
+vars
 gotMouseEvent
 =
 true
