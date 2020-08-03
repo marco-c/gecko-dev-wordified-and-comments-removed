@@ -111,9 +111,6 @@ namespace
 mozilla
 {
 class
-AutoChangeLengthNotifier
-;
-class
 SMILValue
 ;
 namespace
@@ -339,10 +336,6 @@ mFrame
 class
 SVGAnimatedLength
 {
-friend
-class
-AutoChangeLengthNotifier
-;
 friend
 class
 dom
@@ -842,6 +835,10 @@ SVGElement
 aSVGElement
 bool
 aDoSetAttr
+const
+mozAutoDocUpdate
+&
+aProofOfUpdate
 )
 ;
 nsresult

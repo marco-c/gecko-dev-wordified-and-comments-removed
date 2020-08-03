@@ -81,10 +81,6 @@ SVGAnimatedInteger
 {
 public
 :
-friend
-class
-AutoChangeIntegerNotifier
-;
 using
 SVGElement
 =
