@@ -16969,12 +16969,9 @@ aSampleTime
 )
 {
 return
-(
-mAnimation
 !
-=
-nullptr
-)
+!
+mAnimation
 ;
 }
 AdvanceToNextSample
@@ -20724,7 +20721,6 @@ mScrollMetadata
 GetMetrics
 (
 )
-;
 ;
 }
 bool
