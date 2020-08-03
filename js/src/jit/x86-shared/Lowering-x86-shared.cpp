@@ -10449,6 +10449,15 @@ SimdOp
 :
 I32x4AllTrue
 :
+case
+wasm
+:
+:
+SimdOp
+:
+:
+I16x8Bitmask
+:
 break
 ;
 default
