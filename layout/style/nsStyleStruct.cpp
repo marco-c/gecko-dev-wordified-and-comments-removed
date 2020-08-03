@@ -8112,6 +8112,15 @@ STATUS_FRAME_COMPLETE
 )
 ;
 }
+case
+Tag
+:
+:
+CrossFade
+:
+return
+true
+;
 default
 :
 MOZ_ASSERT_UNREACHABLE
