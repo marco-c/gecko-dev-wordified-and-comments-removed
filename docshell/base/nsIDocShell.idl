@@ -2737,9 +2737,6 @@ fire
 .
 *
 /
-[
-infallible
-]
 readonly
 attribute
 boolean
