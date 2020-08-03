@@ -1543,6 +1543,13 @@ kwargs
 enable_quic
 "
 ]
+                                 
+kwargs
+[
+"
+enable_mojojs
+"
+]
 )
 as
 test_environment
