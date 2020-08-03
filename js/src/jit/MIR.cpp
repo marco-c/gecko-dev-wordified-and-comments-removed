@@ -24205,7 +24205,7 @@ bool
 MCompare
 :
 :
-tryFoldTypeOf
+tryFoldConstantTypeOf
 (
 bool
 *
@@ -25023,7 +25023,7 @@ true
 }
 if
 (
-tryFoldTypeOf
+tryFoldConstantTypeOf
 (
 result
 )
