@@ -938,6 +938,8 @@ IsDiscarded
 )
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 BrowsingContext
 (
 )
@@ -947,6 +949,7 @@ SetCurrentInnerWindowId
 (
 InnerWindowId
 (
+)
 )
 )
 ;

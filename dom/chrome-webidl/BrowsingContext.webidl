@@ -150,6 +150,7 @@ BinaryName
 "
 useTrackingProtectionWebIDL
 "
+SetterThrows
 ]
 attribute
 boolean
@@ -304,6 +305,9 @@ WindowContext
 ?
 topWindowContext
 ;
+[
+SetterThrows
+]
 attribute
 [
 TreatNullAs
@@ -313,6 +317,9 @@ EmptyString
 DOMString
 customPlatform
 ;
+[
+SetterThrows
+]
 attribute
 [
 TreatNullAs
@@ -544,6 +551,9 @@ while
 in
 RDM
 .
+[
+Throws
+]
 void
 setRDMPaneOrientation
 (
@@ -573,6 +583,9 @@ while
 in
 RDM
 .
+[
+Throws
+]
 void
 setRDMPaneMaxTouchPoints
 (
@@ -792,6 +805,9 @@ notifyStartDelayedAutoplayMedia
 (
 )
 ;
+[
+Throws
+]
 void
 notifyMediaMutedChanged
 (

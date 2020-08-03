@@ -27057,6 +27057,8 @@ aName
 )
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 newBrowserHost
 -
 >
@@ -27068,6 +27070,7 @@ GetBrowsingContext
 SetName
 (
 aName
+)
 )
 ;
 }

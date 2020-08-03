@@ -1297,6 +1297,8 @@ if
 aValue
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 bc
 -
 >
@@ -1309,10 +1311,13 @@ String
 (
 )
 )
+)
 ;
 }
 else
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 bc
 -
 >
@@ -1320,6 +1325,7 @@ SetName
 (
 EmptyString
 (
+)
 )
 )
 ;

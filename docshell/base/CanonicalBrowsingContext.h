@@ -493,6 +493,9 @@ NotifyMediaMutedChanged
 (
 bool
 aMuted
+ErrorResult
+&
+aRv
 )
 ;
 static

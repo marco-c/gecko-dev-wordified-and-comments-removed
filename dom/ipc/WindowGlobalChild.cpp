@@ -1430,11 +1430,14 @@ true
 )
 ;
 }
+MOZ_ALWAYS_SUCCEEDS
+(
 txn
 .
 Commit
 (
 mWindowContext
+)
 )
 ;
 }

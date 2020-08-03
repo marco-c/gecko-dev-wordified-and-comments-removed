@@ -916,6 +916,8 @@ GetExtantBrowsingContext
 )
 )
 {
+MOZ_ALWAYS_SUCCEEDS
+(
 bc
 -
 >
@@ -923,6 +925,7 @@ SetFullscreenAllowedByOwner
 (
 !
 aValue
+)
 )
 ;
 }
