@@ -5514,7 +5514,7 @@ _chromedriver_platform_string
 )
 )
         
-unzipped_path
+binary_path
 =
 find_executable
 (
@@ -5524,26 +5524,28 @@ chromedriver
 chromedriver_dir
 )
         
-assert
-unzipped_path
+if
+binary_path
 is
 not
 None
-        
+:
+            
 shutil
 .
 move
 (
-unzipped_path
+binary_path
 dest
 )
-        
+            
 rmtree
 (
 chromedriver_dir
 )
         
-return
+binary_path
+=
 find_executable
 (
 "
@@ -5551,6 +5553,15 @@ chromedriver
 "
 dest
 )
+        
+assert
+binary_path
+is
+not
+None
+        
+return
+binary_path
     
 def
 install_webdriver
