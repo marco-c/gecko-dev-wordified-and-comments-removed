@@ -1741,13 +1741,13 @@ JOF_CLASS_CTOR
 \
 MACRO
 (
-BuiltinObject
-builtin_object
+FunctionProto
+function_proto
 NULL
-2
+1
 0
 1
-JOF_UINT8
+JOF_BYTE
 )
 \
 \

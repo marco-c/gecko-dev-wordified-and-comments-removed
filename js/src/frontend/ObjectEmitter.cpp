@@ -2525,12 +2525,12 @@ if
 bce_
 -
 >
-emitBuiltinObject
+emit1
 (
-BuiltinObjectKind
+JSOp
 :
 :
-FunctionPrototype
+FunctionProto
 )
 )
 {
