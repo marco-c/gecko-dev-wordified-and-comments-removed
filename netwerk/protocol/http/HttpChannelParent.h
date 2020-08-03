@@ -1487,6 +1487,11 @@ mAsyncOpenBarrier
 =
 0
 ;
+uint8_t
+mDataSentToChildProcess
+:
+1
+;
 }
 ;
 NS_DEFINE_STATIC_IID_ACCESSOR
