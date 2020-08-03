@@ -111,6 +111,22 @@ from
 typing
 import
 Tuple
+DEFAULT_IGNORE_RULERS
+=
+(
+"
+resources
+/
+testharness
+*
+"
+"
+resources
+/
+testdriver
+*
+"
+)
 here
 =
 ensure_text
@@ -1033,8 +1049,7 @@ None
         
 ignore_rules
 =
-[
-]
+DEFAULT_IGNORE_RULERS
     
 compiled_ignore_rules
 =
@@ -1046,7 +1061,10 @@ item
 for
 item
 in
+set
+(
 ignore_rules
+)
 ]
     
 changed
@@ -2247,32 +2265,20 @@ add_argument
 -
 ignore
 -
-rules
+rule
 "
-nargs
+action
 =
 "
-*
+append
 "
-type
-=
-set
-                        
-default
-=
-{
-"
-resources
-/
-testharness
-*
-"
-}
                         
 help
 =
 "
-Rules
+Override
+the
+rules
 for
 paths
 to
@@ -2282,12 +2288,12 @@ lists
 of
 changes
 .
-Rules
-are
-paths
 "
                         
 "
+Rules
+are
+paths
 relative
 to
 the
@@ -2298,13 +2304,13 @@ with
 before
 a
 separator
+"
+                        
+"
 or
 the
 end
 matching
-"
-                        
-"
 anything
 other
 than
@@ -2316,13 +2322,44 @@ and
 *
 in
 that
-position
-matching
 "
                         
 "
+position
+matching
 anything
+.
+This
+flag
+can
+be
+used
+multiple
+times
+for
 "
+                        
+"
+multiple
+rules
+.
+Specifying
+this
+flag
+overrides
+the
+default
+:
+"
++
+                        
+"
+"
+.
+join
+(
+DEFAULT_IGNORE_RULERS
+)
 )
     
 parser
@@ -2584,7 +2621,7 @@ revish
 kwargs
 [
 "
-ignore_rules
+ignore_rule
 "
 ]
                                
@@ -2686,10 +2723,11 @@ _
 files_changed
 (
 revish
+                               
 kwargs
 [
 "
-ignore_rules
+ignore_rule
 "
 ]
                                
