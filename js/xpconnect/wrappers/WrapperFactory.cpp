@@ -82,6 +82,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
 mozilla
 /
 Likely

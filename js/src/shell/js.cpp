@@ -701,6 +701,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 GCAPI
 .
 h

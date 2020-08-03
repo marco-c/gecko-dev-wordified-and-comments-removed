@@ -557,6 +557,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 PropertySpec
 .
 h

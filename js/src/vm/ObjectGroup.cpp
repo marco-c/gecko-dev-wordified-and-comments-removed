@@ -91,6 +91,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 UniquePtr
 .
 h

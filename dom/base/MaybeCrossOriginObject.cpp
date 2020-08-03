@@ -56,6 +56,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 Proxy
 .
 h

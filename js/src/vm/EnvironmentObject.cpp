@@ -30,6 +30,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
 vm
 /
 ArgumentsObject

@@ -177,6 +177,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
 util
 /
 CheckedArithmetic

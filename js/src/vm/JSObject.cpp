@@ -205,6 +205,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryMetrics
 .
 h

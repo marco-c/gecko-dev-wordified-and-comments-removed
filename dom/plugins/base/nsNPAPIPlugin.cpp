@@ -40,6 +40,17 @@ h
 #
 include
 "
+js
+/
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
 nsPluginHost
 .
 h

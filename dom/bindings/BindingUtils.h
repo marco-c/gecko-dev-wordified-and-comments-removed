@@ -39,6 +39,17 @@ include
 "
 js
 /
+friend
+/
+WindowProxy
+.
+h
+"
+#
+include
+"
+js
+/
 MemoryFunctions
 .
 h
