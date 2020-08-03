@@ -1292,6 +1292,10 @@ gtk_page_setup_set_top_margin
 )
 STUB
 (
+gtk_page_setup_to_key_file
+)
+STUB
+(
 gtk_paper_size_free
 )
 STUB
