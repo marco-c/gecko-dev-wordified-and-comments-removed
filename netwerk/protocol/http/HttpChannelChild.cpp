@@ -10161,10 +10161,6 @@ true
 #
 endif
 }
-MaybeConnectToSocketProcess
-(
-)
-;
 mEventQ
 -
 >
@@ -10181,6 +10177,10 @@ mSuspendForWaitCompleteRedirectSetup
 mSuspendForWaitCompleteRedirectSetup
 =
 true
+;
+MaybeConnectToSocketProcess
+(
+)
 ;
 return
 NS_OK
