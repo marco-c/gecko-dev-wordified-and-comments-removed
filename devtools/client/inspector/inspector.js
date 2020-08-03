@@ -931,6 +931,15 @@ resourceWatcher
 TYPES
 .
 ROOT_NODE
+this
+.
+toolbox
+.
+resourceWatcher
+.
+TYPES
+.
+CSS_CHANGE
 ]
 {
 onAvailable
