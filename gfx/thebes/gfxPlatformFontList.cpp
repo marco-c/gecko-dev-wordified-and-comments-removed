@@ -7199,10 +7199,11 @@ aFamily
 -
 families
 ;
-MOZ_ASSERT
+if
 (
 index
-<
+>
+=
 list
 -
 >
@@ -7210,7 +7211,11 @@ NumFamilies
 (
 )
 )
+{
+return
+false
 ;
+}
 if
 (
 NS_IsMainThread

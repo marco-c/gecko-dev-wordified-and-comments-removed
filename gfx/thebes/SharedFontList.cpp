@@ -2798,11 +2798,15 @@ aList
 )
 )
 ;
-MOZ_ASSERT
+if
 (
+!
 faceMap
 )
+{
+return
 ;
+}
 if
 (
 !
