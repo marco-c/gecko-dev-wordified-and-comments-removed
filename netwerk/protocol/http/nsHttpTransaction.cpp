@@ -4545,7 +4545,7 @@ bool
 nsHttpTransaction
 :
 :
-DataAlreadySent
+DataSentToChildProcess
 (
 )
 {
