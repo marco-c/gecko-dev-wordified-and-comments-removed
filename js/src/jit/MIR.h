@@ -28666,6 +28666,14 @@ MIRType
 Object
 )
 ;
+if
+(
+!
+JitOptions
+.
+warpBuilder
+)
+{
 TemporaryTypeSet
 *
 types
@@ -28682,6 +28690,7 @@ setResultTypeSet
 types
 )
 ;
+}
 }
 public
 :
