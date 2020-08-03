@@ -37853,9 +37853,9 @@ void
 LIRGenerator
 :
 :
-visitFunctionProto
+visitBuiltinObject
 (
-MFunctionProto
+MBuiltinObject
 *
 ins
 )
@@ -37886,7 +37886,7 @@ alloc
 (
 )
 )
-LFunctionProto
+LBuiltinObject
 (
 )
 ;
