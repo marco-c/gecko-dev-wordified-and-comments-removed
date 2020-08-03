@@ -1,3 +1,9 @@
+from
+wptserve
+.
+utils
+import
+isomorphic_decode
 def
 main
 (
@@ -160,7 +166,10 @@ stash
 put
 (
 key
+isomorphic_decode
+(
 value
+)
 url_dir
 )
     
