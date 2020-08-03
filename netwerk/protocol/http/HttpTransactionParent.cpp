@@ -2981,6 +2981,10 @@ TransactionObserverResult
 &
 &
 aTransactionObserverResult
+const
+TimeStamp
+&
+aLastActiveTabOptHit
 )
 {
 LOG
@@ -3015,6 +3019,14 @@ uint32_t
 aStatus
 )
 )
+)
+;
+nsHttp
+:
+:
+SetLastActiveTabLoadOptimizationHit
+(
+aLastActiveTabOptHit
 )
 ;
 if
