@@ -1534,6 +1534,9 @@ mozilla
 TimeDuration
 mMinRecomputeVisibilityInterval
 ;
+UniqueProfilerBacktrace
+mViewManagerFlushCause
+;
 bool
 mThrottled
 :
