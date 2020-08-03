@@ -250,6 +250,10 @@ PInputChannelThrottleQueue
 throttleQueue
 bool
 aIsDocumentLoad
+TimeStamp
+aRedirectStart
+TimeStamp
+aRedirectEnd
 )
 ;
 async

@@ -6785,6 +6785,15 @@ get
 )
 )
 ;
+transParent
+-
+>
+SetRedirectTimestamp
+(
+mRedirectStartTimeStamp
+mRedirectEndTimeStamp
+)
+;
 SocketProcessParent
 *
 socketProcess

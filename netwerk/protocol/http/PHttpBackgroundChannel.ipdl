@@ -103,6 +103,17 @@ ConsoleReportCollected
 [
 ]
 consoleReport
+bool
+fromSocketProcess
+)
+;
+async
+OnConsoleReport
+(
+ConsoleReportCollected
+[
+]
+consoleReport
 )
 ;
 async

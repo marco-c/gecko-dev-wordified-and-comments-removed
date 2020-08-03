@@ -932,6 +932,8 @@ mTransactionObserver
 pushedStreamArg
 throttleQueue
 mIsDocumentLoad
+mRedirectStart
+mRedirectEnd
 )
 )
 {
