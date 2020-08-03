@@ -232,6 +232,7 @@ copyFromChannel
 (
 Float32Array
 destination
+unsigned
 long
 channelNumber
 optional
@@ -250,6 +251,7 @@ copyToChannel
 (
 Float32Array
 source
+unsigned
 long
 channelNumber
 optional
