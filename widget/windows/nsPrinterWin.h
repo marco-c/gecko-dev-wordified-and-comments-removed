@@ -99,12 +99,6 @@ bool
 >
 mSupportsDuplex
 ;
-Maybe
-<
-bool
->
-mSupportsColor
-;
 }
 ;
 #

@@ -50,10 +50,5 @@ attribute
 boolean
 supportsDuplex
 ;
-readonly
-attribute
-boolean
-supportsColor
-;
 }
 ;
