@@ -1504,6 +1504,9 @@ RefreshDriverTimer
 >
 mOwnTimer
 ;
+UniqueProfilerBacktrace
+mRefreshTimerStartedCause
+;
 mozilla
 :
 :
