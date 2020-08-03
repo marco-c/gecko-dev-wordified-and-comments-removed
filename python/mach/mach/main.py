@@ -57,14 +57,6 @@ import
 ConfigSettings
 from
 .
-decorators
-import
-(
-    
-CommandProvider
-)
-from
-.
 dispatcher
 import
 CommandAction
@@ -923,7 +915,6 @@ _context
 key
 value
 )
-CommandProvider
 class
 Mach
 (
