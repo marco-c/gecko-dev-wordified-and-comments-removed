@@ -7,10 +7,15 @@ LLVM_FUZZER_VALUE_BIT_MAP_H
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "
+#
+include
+<
+cstdint
+>
 namespace
 fuzzer
 {

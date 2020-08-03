@@ -14,6 +14,13 @@ h
 "
 #
 include
+"
+FuzzerPlatform
+.
+h
+"
+#
+include
 <
 iomanip
 >

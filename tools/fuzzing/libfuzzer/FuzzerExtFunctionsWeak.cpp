@@ -1,7 +1,7 @@
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "
@@ -21,6 +21,9 @@ LIBFUZZER_FREEBSD
 |
 |
 LIBFUZZER_OPENBSD
+|
+|
+LIBFUZZER_EMSCRIPTEN
 #
 include
 "

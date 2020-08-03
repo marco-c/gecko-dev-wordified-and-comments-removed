@@ -1,7 +1,7 @@
 #
 include
 "
-FuzzerDefs
+FuzzerPlatform
 .
 h
 "
