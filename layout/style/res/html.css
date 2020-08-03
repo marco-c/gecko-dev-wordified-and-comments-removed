@@ -3170,7 +3170,12 @@ important
 ;
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 position
 :

@@ -245,7 +245,12 @@ radius
 ;
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 }
 #

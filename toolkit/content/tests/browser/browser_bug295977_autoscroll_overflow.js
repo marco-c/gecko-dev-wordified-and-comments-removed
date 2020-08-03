@@ -753,7 +753,12 @@ height
 ;
 overflow
 :
-clip
+-
+moz
+-
+hidden
+-
+unscrollable
 ;
 "
 >

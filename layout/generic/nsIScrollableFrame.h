@@ -16,17 +16,6 @@ include
 "
 mozilla
 /
-dom
-/
-WindowBinding
-.
-h
-"
-#
-include
-"
-mozilla
-/
 Maybe
 .
 h
