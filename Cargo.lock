@@ -11384,9 +11384,9 @@ version
 "
 31
 .
-0
+4
 .
-2
+0
 "
 source
 =
@@ -11414,7 +11414,7 @@ index
 checksum
 =
 "
-c12c2c9a3ce2980b27fe93bf9e45707aeea090e3d7ec609fba60d7bfc7858954
+c4bade418d78159f19dcd26e380b48ff04f43b8cb457aa64711a15693c09e481
 "
 dependencies
 =
@@ -11438,9 +11438,6 @@ log
 "
 "
 once_cell
-"
-"
-regex
 "
 "
 rkv

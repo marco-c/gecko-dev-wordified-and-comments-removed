@@ -60,6 +60,13 @@ lowercase
 "
 )
 ]
+#
+[
+repr
+(
+i32
+)
+]
 pub
 enum
 TimeUnit

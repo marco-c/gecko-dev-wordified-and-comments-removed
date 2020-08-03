@@ -45,6 +45,13 @@ PartialEq
 Eq
 )
 ]
+#
+[
+repr
+(
+i32
+)
+]
 pub
 enum
 Lifetime

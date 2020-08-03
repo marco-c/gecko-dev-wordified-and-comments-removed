@@ -151,6 +151,15 @@ example
 into
 (
 )
+language_binding_name
+:
+"
+Rust
+"
+.
+into
+(
+)
 upload_enabled
 :
 true

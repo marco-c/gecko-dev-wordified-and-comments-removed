@@ -64,7 +64,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -241,7 +240,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -422,7 +420,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -599,7 +596,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -789,7 +785,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -1046,7 +1041,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -1227,7 +1221,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -1457,7 +1450,6 @@ None
 )
 ;
 let
-mut
 labeled
 =
 LabeledMetric
@@ -1730,7 +1722,6 @@ tempdir
 dir
 ;
 let
-mut
 labeled
 =
 LabeledMetric
