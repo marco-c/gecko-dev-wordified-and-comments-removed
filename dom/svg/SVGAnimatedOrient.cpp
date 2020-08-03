@@ -198,7 +198,6 @@ AutoChangeOrientNotifier
 {
 public
 :
-explicit
 AutoChangeOrientNotifier
 (
 SVGAnimatedOrient
