@@ -72,12 +72,15 @@ float
 *
 aRealData
 const
+uint32_t
+aRealSize
+const
 float
 *
 aImagData
 const
 uint32_t
-aLength
+aImagSize
 const
 bool
 aDisableNormalization
