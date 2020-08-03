@@ -5173,7 +5173,7 @@ mOverflowX
 StyleOverflow
 :
 :
-MozHiddenUnscrollable
+Clip
 )
 {
 *

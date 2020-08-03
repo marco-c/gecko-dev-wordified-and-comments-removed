@@ -3799,12 +3799,7 @@ overflow
 =
 =
 "
--
-moz
--
-hidden
--
-unscrollable
+clip
 "
 )
 {

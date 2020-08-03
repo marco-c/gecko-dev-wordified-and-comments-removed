@@ -48822,6 +48822,9 @@ hidden
 unscrollable
 "
 "
+clip
+"
+"
 auto
 auto
 "
@@ -48836,6 +48839,10 @@ scroll
 "
 auto
 hidden
+"
+"
+clip
+clip
 "
 "
 -
@@ -48856,12 +48863,7 @@ invalid_values
 :
 [
 "
--
-moz
--
-hidden
--
-unscrollable
+clip
 -
 moz
 -
@@ -48956,6 +48958,9 @@ scroll
 hidden
 "
 "
+clip
+"
+"
 -
 moz
 -
@@ -49028,6 +49033,9 @@ scroll
 "
 "
 hidden
+"
+"
+clip
 "
 "
 -
